@@ -1,0 +1,407 @@
+{
+  "identity": {
+    "pmid": "39998912",
+    "doi": "10.1093/jamia/ocaf029",
+    "title": "Deciphering genomic codes using advanced natural language processing techniques: a scoping review."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: The vast and complex nature of human genomic sequencing data presents challenges for effective analysis. This review aims to investigate the application of natural language processing (NLP) techniques, particularly large language models (LLMs) and transformer architectures, in deciphering genomic codes, focusing on tokenization, transformer models, and regulatory annotation prediction. The goal of this review is to assess data and model accessibility in the most recent literature, gaining a better understanding of the existing capabilities and constraints of these tools in processing genomic sequencing data. MATERIALS AND METHODS: Following Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines, our scoping review was conducted across PubMed, Medline, Scopus, Web of Science, Embase, and ACM Digital Library. Studies were included if they focused on NLP methodologies applied to genomic sequencing data analysis, without restrictions on publication date or article type. RESULTS: A total of 26 studies published between 2021 and April 2024 were selected for review. The review highlights that tokenization and transformer models enhance the processing and understanding of genomic data, with applications in predicting regulatory annotations like transcription-factor binding sites and chromatin accessibility. DISCUSSION: The application of NLP and LLMs to genomic sequencing data interpretation is a promising field that can help streamline the processing of large-scale genomic data while also providing a better understanding of its complex structures. It has the potential to drive advancements in personalized medicine by offering more efficient and scalable solutions for genomic analysis. Further research is also needed to discuss and overcome current limitations, enhancing model transparency and applicability. CONCLUSION: This review highlights the growing role of NLP, particularly LLMs, in genomic sequencing data analysis. While these models improve data processing and regulatory annotation prediction, challenges remain in accessibility and interpretability. Further research is needed to refine their application in genomics.",
+    "keywords": [
+      "genomic sequencing data",
+      "large language models",
+      "natural language processing",
+      "regulatory annotations"
+    ],
+    "mesh_terms": [
+      "*Natural Language Processing",
+      "Humans",
+      "*Genomics",
+      "*Genetic Code"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Scoping Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cheng, Shuyan",
+        "Wei, Yishu",
+        "Zhou, Yiliang",
+        "Xu, Zihan",
+        "Wright, Drew N",
+        "Liu, Jinze",
+        "Peng, Yifan"
+      ],
+      "short_names": [
+        "Cheng S",
+        "Wei Y",
+        "Zhou Y",
+        "Xu Z",
+        "Wright DN",
+        "Liu J",
+        "Peng Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1776-5427",
+        "ORCID: 0000-0001-9309-8331"
+      ],
+      "affiliations": [
+        "Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, United States.",
+        "Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, United States.",
+        "Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, United States.",
+        "Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, United States.",
+        "Samuel J. Wood Library & C.V. Starr Biomedical Information Center, Weill Cornell Medicine, New York, NY 10065, United States.",
+        "School of Public Health, Virginia Commonwealth University, Richmond, VA 23219, United States.",
+        "Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cheng, Shuyan",
+        "short_name": "Cheng S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, United States."
+        ]
+      },
+      {
+        "full_name": "Wei, Yishu",
+        "short_name": "Wei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, United States."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yiliang",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, United States."
+        ]
+      },
+      {
+        "full_name": "Xu, Zihan",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, United States."
+        ]
+      },
+      {
+        "full_name": "Wright, Drew N",
+        "short_name": "Wright DN",
+        "identifiers": [
+          "0000-0002-1776-5427"
+        ],
+        "affiliations": [
+          "Samuel J. Wood Library & C.V. Starr Biomedical Information Center, Weill Cornell Medicine, New York, NY 10065, United States."
+        ]
+      },
+      {
+        "full_name": "Liu, Jinze",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Virginia Commonwealth University, Richmond, VA 23219, United States."
+        ]
+      },
+      {
+        "full_name": "Peng, Yifan",
+        "short_name": "Peng Y",
+        "identifiers": [
+          "0000-0001-9309-8331"
+        ],
+        "affiliations": [
+          "Department of Population Health Sciences, Weill Cornell Medicine, New York, NY 10065, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Medical Informatics Association : JAMIA"
+    ],
+    "journal_abbrev": [
+      "J Am Med Inform Assoc"
+    ],
+    "pub_date": "2025 Apr 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Scoping Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/25 18:24",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [
+      "41948604",
+      "41782801",
+      "40966651",
+      "40857647",
+      "40245432"
+    ],
+    "refs": [
+      "39753409",
+      "38608190",
+      "38409223",
+      "38303423",
+      "38280472",
+      "38233745",
+      "38089911",
+      "38089465",
+      "38057514",
+      "37971399",
+      "37672925",
+      "37535872",
+      "37508462",
+      "37489753",
+      "36520922",
+      "36136096",
+      "35970054",
+      "35863177",
+      "35456374",
+      "35310099",
+      "34141139",
+      "33539511",
+      "33538820",
+      "33125335",
+      "31508512",
+      "27184599",
+      "24488081"
+    ],
+    "similar": [
+      "39998912",
+      "39650606",
+      "42491247",
+      "42430721",
+      "38728687",
+      "42475469",
+      "33314144",
+      "39374057",
+      "40706199",
+      "41284992",
+      "42048518",
+      "40053738",
+      "40271343",
+      "38749026",
+      "36321557",
+      "40371947",
+      "40991937",
+      "39423368",
+      "40021099",
+      "42492189",
+      "42133609",
+      "42490893",
+      "40309961",
+      "42361210",
+      "40921101",
+      "42481076",
+      "39879615",
+      "42594358",
+      "39935888",
+      "40416208",
+      "41021927",
+      "33119236",
+      "39836952",
+      "40361742",
+      "33944788",
+      "42735424",
+      "42732245",
+      "41836276",
+      "39167795",
+      "41072367",
+      "39396164",
+      "40489764",
+      "41990239",
+      "40997586",
+      "33036834",
+      "41820951",
+      "39435343",
+      "39208319",
+      "39432345",
+      "38096321",
+      "42456158",
+      "39509695",
+      "41158510",
+      "41093296",
+      "42430510",
+      "40153782",
+      "41125311",
+      "39847414",
+      "40824124",
+      "41672471",
+      "39399162",
+      "42296533",
+      "41873660",
+      "41831731",
+      "38712148",
+      "39988670",
+      "42222841",
+      "41505715",
+      "42581210",
+      "40324177",
+      "42684809",
+      "31066697",
+      "39255030",
+      "38588980",
+      "42519782",
+      "39546795",
+      "36960885",
+      "41152658",
+      "38223123",
+      "42750043",
+      "37672328",
+      "39496145",
+      "40428059",
+      "42684205",
+      "41679677",
+      "39556827",
+      "42753254",
+      "40489722",
+      "42329422",
+      "39542907",
+      "41555097",
+      "41364806",
+      "38070902",
+      "39883167",
+      "40911114",
+      "41346991",
+      "41516976",
+      "35923088",
+      "41269747",
+      "39894080"
+    ],
+    "review": [
+      "39998912",
+      "39650606",
+      "42491247",
+      "42430721",
+      "38728687",
+      "39374057",
+      "40706199",
+      "41284992",
+      "42048518",
+      "40053738",
+      "40271343",
+      "36321557",
+      "40371947",
+      "39423368",
+      "40021099",
+      "42492189",
+      "42133609",
+      "42490893",
+      "40309961",
+      "42361210",
+      "40921101",
+      "42481076",
+      "42594358",
+      "39935888",
+      "40416208",
+      "41021927",
+      "33119236",
+      "40361742",
+      "33944788",
+      "42732245",
+      "41836276",
+      "39167795",
+      "41072367",
+      "39396164",
+      "40489764",
+      "41990239",
+      "40997586",
+      "41820951",
+      "39435343",
+      "39208319",
+      "39432345",
+      "38096321",
+      "42456158",
+      "39509695",
+      "41158510",
+      "41093296",
+      "40153782",
+      "41125311",
+      "39847414",
+      "41672471",
+      "39399162",
+      "42296533",
+      "41873660",
+      "41831731",
+      "39988670",
+      "42222841",
+      "41505715",
+      "42581210",
+      "40324177",
+      "42684809",
+      "31066697",
+      "39255030",
+      "38588980",
+      "42519782",
+      "39546795",
+      "36960885",
+      "41152658",
+      "38223123",
+      "37672328",
+      "39496145",
+      "40428059",
+      "42684205",
+      "41679677",
+      "39556827",
+      "42753254",
+      "40489722",
+      "42329422",
+      "39542907",
+      "41555097",
+      "41364806",
+      "39883167",
+      "40911114",
+      "41346991",
+      "41516976",
+      "35923088",
+      "41269747",
+      "39894080"
+    ],
+    "pmc": [
+      "12005631"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39998912.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39998912/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1595",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/jamia/article-lookup/doi/10.1093/jamia/ocaf029",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

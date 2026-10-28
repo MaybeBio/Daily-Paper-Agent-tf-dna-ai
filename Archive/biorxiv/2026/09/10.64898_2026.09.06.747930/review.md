@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusion, methods)
+- **Assessment boundary** Scientific content, methodology, evidence quality, and interpretation as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors identify 16,883 human-specific variants, predict TFBS gains/losses using FABIAN-variant, prioritize 404 variants in cCREs where target gene and TF share phenotype annotations, and provide multiple lines of evidence (methylation, MPRA, introgression deserts) supporting functional relevance of these candidates for human-specific traits.
+- **Visible evidence base** Abstract, Introduction, Results (4 subsections), Discussion, Conclusion, Methods
+- **Missing materials affecting confidence** Figures 1-4 referenced but not provided; Supplementary Tables 1-13 referenced but not provided; no statistical details beyond P values; no effect sizes or confidence intervals for enrichment analyses; no details on FABIAN-variant parameters beyond threshold; no information on multiple testing correction for HPO enrichment
+
+## Reviewer
+- **Overall assessment** This manuscript presents a bioinformatic pipeline integrating human-specific variants, TFBS motif predictions, cCRE annotations, and phenotype ontologies to prioritize candidate regulatory variants underlying human-specific traits. The conceptual framework is sound and the multi-layered integration is a strength. However, the evidence as presented is insufficient to fully establish the central claims. Key limitations include: the reliance on predicted rather than experimentally validated TFBS changes for most candidates, the absence of key methodological details (e.g., how "nearly fixed" is defined across the two source datasets), the lack of effect sizes for enrichment analyses, and the absence of any functional validation beyond previously published datasets. The introgression desert analysis is intriguing but the interpretation regarding selection is speculative without population genetic modeling. The manuscript would benefit from clearer presentation of the null models used and more transparent reporting of the filtering cascade from 16,883 to 404 variants.
+- **Who would be interested in the results, and why** Evolutionary genomicists studying human-specific adaptation, researchers interested in regulatory evolution and TFBS turnover, and those working on archaic hominin admixture and its phenotypic consequences. The prioritized variant catalogue could serve as a resource for functional validation studies.
+- **Major strengths** 1) Integration of multiple independent data types (sequence conservation, TFBS prediction, cCRE annotation, phenotype ontologies, methylation, MPRA, introgression maps) to prioritize candidates. 2) The requirement that both target gene and TF share phenotype annotations is a clever filtering strategy that likely enriches for biologically meaningful connections. 3) The extension beyond skeletal traits to soft tissues not preserved in the fossil record is a valuable contribution. 4) The framework is generalizable to other species and comparisons.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology transparency
+  - **Claim pointer** "we obtained a set of 16,883 fixed or nearly fixed variants" and the subsequent filtering cascade
+  - **Evidence pointer** Methods, "Human-specific variants" section; Results, first subsection
+  - **Concern** The manuscript does not clearly describe how variants from the two source studies were merged, how discrepancies in allele frequency thresholds were reconciled, or how "nearly fixed" was defined in each study. The statement that "From the second study, we retained all variants because they have already undergone functional characterization" is problematic; this introduces a selection bias that is not addressed. The filtering cascade from 16,883 to 12,882 to 3,357 to 404 is described but the attrition at each step is not quantified with respect to potential biases.
+  - **Why it matters** Without understanding the precise definitions and potential biases in the input variant set, the downstream enrichment analyses may be confounded. The inclusion of all variants from one study without applying the same frequency criteria could systematically alter the genomic distribution of tested variants.
+  - **Resolution test** Provide a detailed breakdown of variant counts at each filtering step, with clear definitions of "fixed" and "nearly fixed" for each source study. Conduct sensitivity analyses showing that results are robust to alternative frequency thresholds or to excluding the second study's variants.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** "These genes are enriched for skeletal traits known to differ between modern humans and archaic hominins" and "significantly enriched for many HPO traits beyond the skeletal system"
+  - **Evidence pointer** Results, second and third subsections; Methods, "Enrichment for known divergent skeletal traits"
+  - **Concern** The enrichment analyses report P values but no effect sizes, confidence intervals, or details on multiple testing correction. For the HPO enrichment using Enrichr, the background set and correction method are not specified. The permutation approach for skeletal trait enrichment is described but the number of traits tested (341) and the correlation structure among traits are not accounted for. The claim of enrichment for 58 of 341 traits with P < 0.0002 is difficult to evaluate without knowing the expected number under the null.
+  - **Why it matters** Without proper multiple testing correction and effect size reporting, the enrichment claims may be overstated. The high correlation among skeletal traits could inflate significance.
+  - **Resolution test** Report adjusted P values (e.g., FDR) for all enrichment analyses. Provide effect sizes (e.g., fold enrichment with confidence intervals). Describe the null distribution more precisely, including how trait correlations are handled.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of introgression data
+  - **Claim pointer** "candidate variants preferentially occur within larger regions lacking archaic ancestry" and the interpretation that this is "consistent with the hypothesis that some of these loci were targets of purifying selection"
+  - **Evidence pointer** Results, fifth subsection; Methods, "Regions lacking archaic introgression"
+  - **Concern** The analysis shows that candidate variants fall in larger introgression deserts than expected by chance, but the interpretation that this reflects purifying selection against archaic alleles is one of several possible explanations. Larger deserts could also result from demographic processes, variation in recombination rates, or the specific methods used to detect introgression. The manuscript does not model the expected size distribution of deserts under a null model of no selection, nor does it account for the possibility that the candidate variants themselves define the deserts.
+  - **Why it matters** The claim of selection against archaic alleles is a strong evolutionary conclusion that requires more rigorous population genetic modeling to distinguish from alternative explanations.
+  - **Resolution test** Perform coalescent simulations or use published demographic models to generate expected desert size distributions under neutrality. Test whether the enrichment persists when controlling for recombination rate variation and other genomic features.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional evidence
+  - **Claim pointer** "Independent support for the functional relevance of these candidates comes from their significant enrichment in modern human-derived differentially methylated regions and among variants experimentally shown to alter gene regulatory activity"
+  - **Evidence pointer** Results, fourth and fifth subsections; Methods, "Differences in methylation and regulatory activity"
+  - **Concern** The overlap with DMRs and MPRA-validated variants is presented as independent validation, but these datasets are limited in scope (873 DMRs, 407 MPRA variants) and may not be representative. The manuscript does not report the overlap with DMRs for the full set of 3,357 TFBS-altering variants, only for the 404 prioritized candidates, making it difficult to assess whether the prioritization specifically enriches for functional variants. The MPRA data come from only three cell types, and the relevance to the diverse tissues implicated in the phenotype enrichment is unclear.
+  - **Why it matters** The claim of independent support is weakened if the overlap is not compared to appropriate controls or if the functional datasets are too limited to provide meaningful validation.
+  - **Resolution test** Report overlap statistics for the full set of 3,357 variants and for matched control variants. Discuss the limitations of the cell types used in the MPRA and whether the DMR data are from relevant tissues.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** "Identifying the genetic changes responsible for human-specific traits remains a central challenge" is a broad statement that could be more specific to the regulatory focus of this work.
+  - **Required correction** Consider revising to "Identifying the regulatory genetic changes responsible for human-specific traits remains a central challenge in evolutionary genomics."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology detail
+  - **Affected element** Methods, "Identification of changes in TFBS motifs"
+  - **Evidence pointer** Methods section
+  - **Issue** The threshold for FABIAN-variant scores (≥0.9 or ≤−0.9) is stated but the rationale for this threshold is not provided. The statement "This retains <0.05% of the tested models" is confusing; it should clarify whether this refers to the proportion of variant-TF pairs or models retained.
+  - **Required correction** Clarify the threshold rationale and the exact meaning of the retention percentage.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reporting
+  - **Affected element** Results, first subsection
+  - **Evidence pointer** Results, "Identification of human-specific gains and losses" section
+  - **Issue** The top five transcription factors with most modified binding sites are listed, but the significance of this ranking is not discussed. Are these TFs known to be involved in human-specific traits?
+  - **Required correction** Add a brief interpretation of why these particular TFs might be overrepresented.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results, fifth subsection
+  - **Evidence pointer** Results, "Human-specific candidate regulatory variants are enriched in large deserts of archaic introgression"
+  - **Issue** The text states "ranging from 6,138 bp to more than 8,909,000 bb" which appears to be a typo ("bb" should be "bp").
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The discussion of hybrid incompatibility is speculative and goes beyond what the data can support. The manuscript does not directly test for reduced fitness in hybrids.
+  - **Required correction** Soften the language to indicate this is a hypothesis that requires further testing, rather than a conclusion supported by the data.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "Enrichment for known divergent skeletal traits"
+  - **Evidence pointer** Methods section
+  - **Issue** The permutation procedure is described but the number of permutations (10,000) is stated without justification. The manuscript does not report the distribution of the null statistic or the exact P value calculation.
+  - **Required correction** Provide more detail on the permutation procedure and how P values were calculated.
+
+## Risk / unsupported claims
+- The claim that candidate variants "contributed to reduced fitness following admixture" is not directly supported by the data presented; the introgression desert analysis is consistent with but does not demonstrate selection.
+- The claim that the prioritization strategy identifies variants "with the strongest functional support" is not fully supported, as the functional validation relies on limited datasets (DMPs, MPRA) that may not be representative.
+- The statement that "the approach itself is not specific to the comparison between modern humans and archaic hominins" and could be applied to other species is plausible but not demonstrated.
+- The claim that the identified genes are "enriched for skeletal traits known to differ" is based on a curated set of traits from a single study (Gokhman et al. 2019) and may be subject to ascertainment bias.
+- The manuscript does not provide evidence that the predicted TFBS changes are functional beyond the limited overlap with MPRA data; most of the 404 candidates lack direct functional validation.

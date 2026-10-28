@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full-text methods, figures, tables, or supplementary materials were available for verification
+- **Shared manuscript claim summary** The authors propose a causal intervention framework to validate whether scGPT's internal gene token manipulations recover transcription factor target dependencies aligned with curated references (Axis 1) and whether these signals transfer to real CRISPR perturbation outcomes (Axis 2). They report tissue conditional reference alignment, particularly robust in lung, but no perturbation transfer, concluding the model encodes representational rather than biologically causal regulatory structure.
+- **Visible evidence base** Abstract text only; no figures, tables, code, datasets, or detailed statistical methods were provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, supplementary analyses, exact permutation test procedures, AUROC confidence intervals, dataset preprocessing details, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract addresses a timely and important question about the interpretability and causal validity of single cell foundation models. The separation of reference alignment from perturbation transfer is conceptually strong and the reported null result on perturbation prediction is a valuable cautionary finding. However, the abstract alone provides insufficient detail to assess methodological rigor, statistical validity, or reproducibility. Several claims, particularly regarding robustness and benchmark comparisons, require full methods and results to be evaluable.
+- **Who would be interested in the results, and why** Researchers developing or applying single cell foundation models, computational biologists working on gene regulatory network inference, and methodologists concerned with causal validation of deep learning models in genomics. The negative perturbation transfer result is directly relevant to anyone using scGPT or similar models for regulatory inference in practical settings.
+- **Major strengths** The question is well scoped and explicitly separates model internal causality from biological causality. The inclusion of multiple tissues, external atlases, and three CRISPR datasets strengthens the generalizability assessment. The robustness studies over cell count, negative sampling designs, and readout strategies show methodological awareness. The benchmark against classical GRN methods with matched and larger cell budgets addresses the equal information question directly.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** "lung shows reproducible enrichment that is stable across cell count and survives all four negative sampling designs (permutation p improving from 0.07 to 0.03 as cells grow from 120 to 500)"
+  - **Evidence pointer** Results section, location not provided
+  - **Concern** The permutation p values reported (0.07 to 0.03) are marginal and the improvement with cell count is small. The abstract does not specify the number of permutations, the exact null distribution, or whether multiple testing corrections were applied across tissues, readouts, and negative sampling designs. The claim of "reproducible enrichment" based on p values near 0.05 is not convincing without effect size estimates or confidence intervals.
+  - **Why it matters** The central positive finding on Axis 1 rests on these p values. If the enrichment is weak or not robust to multiple testing, the conclusion that scGPT encodes reference aligned regulatory structure is not established.
+  - **Resolution test** Provide full permutation test details, including number of permutations, effect sizes with confidence intervals, and multiple testing corrections. Show that the enrichment remains significant after correction and is consistent across independent subsamples.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** "On the matched benchmark scGPT leads classical and neural baselines at the shared 120 cell budget, but the lead narrows as the classical methods are given more cells"
+  - **Evidence pointer** Results section, location not provided
+  - **Concern** The abstract does not report the magnitude of the lead, the specific classical methods used, the neural network baseline architecture, or the statistical significance of the differences. The claim that this "confirms a signal efficiency result" is an interpretation that requires comparative performance metrics and uncertainty quantification.
+  - **Why it matters** The benchmark comparison is used to contextualize scGPT's performance. Without quantitative details, the reader cannot assess whether the lead is meaningful or within noise.
+  - **Resolution test** Provide a benchmark table with performance metrics, standard errors or confidence intervals, and statistical tests for differences. Specify all baseline methods and their hyperparameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** "balanced evaluation of all three CRISPR datasets, including the TF screen Dixit data, yields AUROC approximately 0.50"
+  - **Evidence pointer** Results section, location not provided
+  - **Concern** Reporting AUROC as "approximately 0.50" without exact values, confidence intervals, or per dataset breakdowns is insufficient. The abstract does not specify how balanced labels were constructed, whether the evaluation was performed on held out genes or cells, or whether the null result could be due to label leakage or preprocessing artifacts.
+  - **Why it matters** The null perturbation transfer result is the key cautionary finding. If the evaluation is flawed, the conclusion that the model internal signal is not biologically causal is not supported.
+  - **Resolution test** Report exact AUROC values with 95% confidence intervals for each dataset, describe the balanced label construction, and confirm no label leakage in preprocessing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The abstract states "ablate or swap TF token values" but does not clarify whether both operations were applied to all TFs or whether results were aggregated across operations.
+  - **Required correction** Specify the intervention protocol, including whether ablation and swap results were averaged or reported separately.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code and data availability
+  - **Evidence pointer** Not stated in abstract
+  - **Issue** No mention of code or data availability, which is essential for a methodological audit tool.
+  - **Required correction** State in the abstract or methods whether code and processed data will be made publicly available.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Conclusion
+  - **Evidence pointer** Conclusion section
+  - **Issue** The conclusion that the model is "representational rather than biologically causal" is a strong interpretation from a null AUROC result. The abstract does not discuss alternative explanations, such as the possibility that the CRISPR datasets are noisy or that the curated references are incomplete.
+  - **Required correction** Add a sentence acknowledging alternative interpretations or limitations of the perturbation datasets.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The statistical details for the central positive and negative findings are not provided, and the benchmark comparison lacks quantitative support.
+- **Assessment against Nature-style criteria** Originality is high, as the causal intervention framework for validating foundation model regulatory signals is a novel contribution. Scientific importance is substantial, given the widespread use of scGPT and similar models. Interdisciplinary readership is plausible, spanning machine learning, genomics, and systems biology. Technical soundness cannot be fully assessed from the abstract due to missing statistical and methodological details. Readability for nonspecialists is adequate, though the abstract assumes familiarity with GRN inference and CRISPR perturbation concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framing and the null perturbation result are valuable, but the current abstract does not provide sufficient evidence to establish the robustness of the positive findings or the validity of the negative result.
+
+## Risk / unsupported claims
+- The claim that lung enrichment is "reproducible" is not supported without effect sizes and multiple testing corrections.
+- The claim that scGPT "leads" baselines is unsupported without quantitative metrics.
+- The claim that the model internal signal "does not predict real perturbation responses" is not fully supported without exact AUROC values and confidence intervals.
+- The conclusion that the model is "representational rather than biologically causal" is an interpretation that goes beyond the reported null result.
+- The generalizability of the findings across tissues and datasets is not evaluable from the abstract alone.

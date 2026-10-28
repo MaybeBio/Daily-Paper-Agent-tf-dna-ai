@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability, code availability) as provided on bioRxiv. Figures and supplementary materials referenced but not provided.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to provided evidence, and suitability for a high-impact generalist journal. No assessment of formatting or editorial policy.
+- **Shared manuscript claim summary** The authors present a deep learning-based approach that integrates eQTL data and enhancer-promoter interaction (EPI) information to identify DNA-binding protein (DBP) motifs associated with insulator function. They report 97 directional and 6 non-directional motifs in human fibroblasts, mapped to 23 DBPs, with validation via histone modification asymmetry, chromatin interaction boundaries, and splice site enrichment. They further claim orientation-dependent insulator-insulator pairing consistent with the insulator-pairing model.
+- **Visible evidence base** Abstract, Introduction, Results (narrative only), Discussion, Methods, Data availability, Code availability. No figures, tables, or supplementary files were provided for inspection.
+- **Missing materials affecting confidence** All figures (Fig. 1-7), supplementary figures (Fig. S1-S4), supplementary tables (Table S1-S9), and supplementary notes. These are essential for evaluating the validity of the computational pipeline, statistical tests, and biological interpretations. Without them, the results cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question: the systematic identification of insulator-associated DNA-binding proteins beyond CTCF. The computational approach is innovative in its integration of eQTL data with deep learning and DeepLIFT contribution scores to infer directional regulatory motifs. However, the manuscript as provided is incomplete for rigorous evaluation. The results section is a narrative summary without the supporting figures and tables, making it impossible to assess the statistical robustness, the biological significance of the findings, or the validity of the key claims. The methods are described in sufficient detail to be reproducible in principle, but the absence of the actual data outputs and validation metrics is a major limitation. The biological interpretations, while plausible, are not fully supported by the evidence presented in the text alone.
+- **Who would be interested in the results, and why** Researchers in gene regulation, chromatin biology, and computational genomics would be interested. The work has potential implications for understanding insulator function, 3D genome organization, and the role of non-CTCF factors in transcriptional control. The methodological framework could also be of interest to those developing deep learning approaches for regulatory genomics.
+- **Major strengths** 1) The study addresses a significant gap in the field by systematically searching for insulator-associated DBPs beyond the well-studied CTCF. 2) The integration of eQTL data with deep learning and explainable AI (DeepLIFT) is a novel and potentially powerful approach. 3) The authors provide multiple lines of validation, including histone modification asymmetry, chromatin interaction boundaries, and splice site enrichment. 4) The finding that directional motifs are more predictive than non-directional ones is an interesting and potentially important observation. 5) The identification of MyoD1 at an insulator site near SELENON provides a concrete, testable example of a tissue-specific insulator-associated DBP.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims identification of 97 directional and 6 non-directional motifs, and their mapping to 23 DBPs.
+  - **Evidence pointer** Results section, Tables S1-S3, Figures 2-3 (not provided)
+  - **Concern** The core results are presented without the accompanying figures and tables. The reader cannot see the motif logos, the DeepLIFT score distributions, the statistical comparisons, or the list of the 97 identified motifs and their associated DBPs. The claim of 97 motifs is unverifiable from the text alone.
+  - **Why it matters** The central claim of the paper is the identification of a specific set of insulator-associated motifs and DBPs. Without the data, the scientific community cannot assess the quality, specificity, or novelty of these findings. The paper's primary contribution is not assessable.
+  - **Resolution test** Provide all figures and supplementary tables. The list of 97 motifs and 23 DBPs must be presented with their statistical significance, effect sizes, and genomic coordinates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims that directional binding sites contribute more significantly to gene expression prediction than non-directional sites, and that the orientation bias of CTCF is consistent with chromatin interaction data.
+  - **Evidence pointer** Results section, Figures 2-3, Table S1 (not provided)
+  - **Concern** The statistical tests used to compare DeepLIFT scores between orientations are described only in general terms. The manuscript mentions Mann-Whitney U tests with FDR correction, but the details of the comparisons, the number of tests performed, the effect sizes, and the biological significance of the differences are not presented. The claim that the orientation bias is "proportional" to that in chromatin interaction data is vague and not quantified.
+  - **Why it matters** The validity of the entire screening approach depends on the robustness of the statistical distinction between directional and non-directional motifs. Without seeing the distributions, the p-values, and the effect sizes, it is impossible to judge whether the identified motifs are truly directional or an artifact of the analysis.
+  - **Resolution test** Provide the full statistical output, including the distribution of DeepLIFT scores for all orientations, the results of all pairwise comparisons, and a clear quantitative comparison between the predicted orientation bias and the experimentally observed bias in chromatin interaction data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation strength
+  - **Claim pointer** The manuscript claims that the identified motifs are significantly enriched at insulator sites defined by H3K27me3 asymmetry, chromatin interaction boundaries, and splice sites.
+  - **Evidence pointer** Results section, Figures 4-6, Tables S4, S9 (not provided)
+  - **Concern** The validation is described qualitatively. The manuscript states that enrichment is "significant" but does not provide the enrichment scores, the background model used, the p-values, or the number of sites analyzed. The comparison to "motifs of other DBPs" is not defined. The biological significance of the enrichment at splice sites is not discussed in detail.
+  - **Why it matters** The validation is crucial to support the claim that the identified DBPs are functionally relevant to insulation. Without quantitative enrichment data and a clear description of the null model, the validation is not convincing.
+  - **Resolution test** Provide the enrichment analysis with clear statistical metrics, a description of the background model, and a comparison against a well-defined set of control motifs. Show the genomic context of the validated sites.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and scope of claim
+  - **Claim pointer** The manuscript claims to be the "first" computational method for the detection of insulator-associated DBPs.
+  - **Evidence pointer** Discussion section
+  - **Concern** The claim of being the "first" is strong and may be difficult to substantiate. Previous studies have identified insulator-associated proteins and motifs, albeit not through the same approach. The novelty of the method should be clearly differentiated from existing approaches, and the claim of "first" should be tempered or supported with a more thorough literature review.
+  - **Why it matters** Overclaiming novelty can undermine the credibility of the work. A more nuanced statement of the contribution is needed.
+  - **Resolution test** Revise the claim to accurately reflect the state of the field, citing relevant prior work and clearly stating the specific novel aspects of the presented approach.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction are dense and use jargon (e.g., "directional regulatory motifs," "insulator-pairing model") without sufficient context for a generalist reader. The significance of the "directional" aspect of the motifs is not immediately clear.
+  - **Required correction** Briefly explain what a "directional" motif is and why it is important in the context of insulator function. Provide a clearer definition of the insulator-pairing model in the introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the deep learning model training is brief. The manuscript states that the training method was the same as the original, but the original method is not described in detail. The hyperparameters, the architecture of the neural network, and the data preprocessing steps are not fully specified.
+  - **Required correction** Provide a more detailed description of the model architecture, training procedure, and hyperparameters, or refer to a specific, accessible publication that contains these details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the biological implications, particularly regarding phase separation and transcriptional condensates, is speculative and not directly supported by the data presented.
+  - **Required correction** Clearly distinguish between findings supported by the data and speculative interpretations. Frame the discussion of phase separation as a hypothesis for future testing.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results
+  - **Evidence pointer** Results section
+  - **Issue** The results section is a narrative summary without any data presentation. It is difficult to follow the logic of the analysis without seeing the figures.
+  - **Required correction** Ensure that the results section is structured around the figures and tables, with clear references to the data that support each statement.
+
+## Risk / unsupported claims
+- The claim of identifying 97 directional motifs and 23 insulator-associated DBPs is unsupported without the corresponding data tables and figures.
+- The claim that directional binding sites contribute more significantly to gene expression prediction than non-directional sites is unsupported without the statistical distributions and test results.
+- The claim that the predicted orientation bias of CTCF is "proportional" to that observed in chromatin interaction data is vague and not quantified.
+- The claim of being the "first" computational method for this purpose is potentially overstated and not fully supported by the provided literature review.
+- The biological interpretations regarding phase separation and transcriptional condensates are speculative and not directly supported by the data presented.
+- The validation of the identified motifs at insulator sites, chromatin boundaries, and splice sites is not quantitatively supported without the enrichment analysis data.

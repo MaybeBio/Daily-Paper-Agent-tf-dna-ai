@@ -1,0 +1,261 @@
+{
+  "identity": {
+    "pmid": "37215010",
+    "doi": "10.1101/2023.05.10.540077",
+    "title": "ECLiPSE: A Versatile Classification Technique for Structural and Morphological Analysis of Super-Resolution Microscopy Data."
+  },
+  "content": {
+    "abstract": "We introduce a new automated machine learning analysis pipeline to precisely classify cellular structures captured through single molecule localization microscopy, which we call ECLiPSE (Enhanced Classification of Localized Pointclouds by Shape Extraction). ECLiPSE leverages 67 comprehensive shape descriptors encompassing geometric, boundary, skeleton and other properties, the majority of which are directly extracted from the localizations to accurately characterize individual structures. We validate ECLiPSE through unsupervised and supervised classification on a dataset featuring five distinct cellular structures, achieving exceptionally high classification accuracies nearing 100%. Moreover, we demonstrate the versatility of our approach by applying it to two novel biological applications: quantifying the clearance of tau protein aggregates, a critical marker for neurodegenerative diseases, and differentiating between two distinct morphological features (morphotypes) of TAR DNA-binding protein 43 proteinopathy, potentially associated to different TDP-43 strains, each exhibiting unique seeding and spreading properties. We anticipate that this versatile approach will significantly enhance the way we study cellular structures across various biological contexts, elucidating their roles in disease development and progression.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hugelier, Siewert",
+        "Kim, Hannah",
+        "Gyparaki, Melina Theoni",
+        "Bond, Charles",
+        "Tang, Qing",
+        "Santiago-Ruiz, Adriana Naomi",
+        "Porta, Silvia",
+        "Lakadamyali, Melike"
+      ],
+      "short_names": [
+        "Hugelier S",
+        "Kim H",
+        "Gyparaki MT",
+        "Bond C",
+        "Tang Q",
+        "Santiago-Ruiz AN",
+        "Porta S",
+        "Lakadamyali M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9424-4908",
+        "ORCID: 0000-0002-7524-6414"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Hugelier, Siewert",
+        "short_name": "Hugelier S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kim, Hannah",
+        "short_name": "Kim H",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Gyparaki, Melina Theoni",
+        "short_name": "Gyparaki MT",
+        "identifiers": [
+          "0000-0002-9424-4908"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Bond, Charles",
+        "short_name": "Bond C",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Tang, Qing",
+        "short_name": "Tang Q",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Santiago-Ruiz, Adriana Naomi",
+        "short_name": "Santiago-Ruiz AN",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Porta, Sílvia",
+        "short_name": "Porta S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lakadamyali, Melike",
+        "short_name": "Lakadamyali M",
+        "identifiers": [
+          "0000-0002-7524-6414"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 May 10",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/22 19:11",
+    "fetched_at": "2026-09-29 01:02:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37215010",
+      "39256629",
+      "36517749",
+      "30759191",
+      "38409214",
+      "33971027",
+      "28924506",
+      "36303727",
+      "33205106",
+      "32779779",
+      "33952699",
+      "33065281",
+      "34367585",
+      "37671010",
+      "38986186",
+      "39106156",
+      "11391457",
+      "29899348",
+      "35513543",
+      "35897818",
+      "33138911",
+      "29279008",
+      "37786905",
+      "31449531",
+      "35178798",
+      "37206689",
+      "35185458",
+      "23035040",
+      "33970243",
+      "35318284",
+      "28130640",
+      "37958188",
+      "38799979",
+      "36656910",
+      "32812412",
+      "23666556",
+      "32512131",
+      "35652285",
+      "27847467",
+      "38523073",
+      "17714924",
+      "27703238",
+      "39087585",
+      "33391478",
+      "31494186",
+      "39337926",
+      "18974920",
+      "27998713",
+      "35741289",
+      "31479439",
+      "39152469",
+      "25819060",
+      "39331180",
+      "26782509",
+      "37150879",
+      "38014263",
+      "38994061",
+      "37777806",
+      "36234792",
+      "37900107",
+      "33952372",
+      "36119721",
+      "38712162",
+      "28279863",
+      "30207624",
+      "35414105",
+      "37823386",
+      "31530889",
+      "30093249",
+      "25284960",
+      "20102522",
+      "36756073",
+      "37836851",
+      "31092841",
+      "27909398",
+      "18434538",
+      "38495683",
+      "28420678",
+      "26895509",
+      "37101169",
+      "38606403",
+      "38260445",
+      "34972161",
+      "39167059",
+      "34476057",
+      "37371694",
+      "26887947",
+      "33747150",
+      "36925620",
+      "28390288",
+      "38581445",
+      "35214523",
+      "39018100",
+      "36555399",
+      "38715717",
+      "34864300",
+      "39368440",
+      "36482422",
+      "37176089"
+    ],
+    "review": [
+      "37215010",
+      "36303727",
+      "33205106",
+      "35513543",
+      "37786905",
+      "35185458",
+      "33970243",
+      "20102522",
+      "37371694"
+    ],
+    "pmc": [
+      "10197633"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37215010/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3993",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.05.10.540077",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

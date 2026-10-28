@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, data availability) as provided by the user. Supplementary material referenced but not supplied.
+- **Assessment boundary** Scientific content, technical soundness, and clarity of claims as presented in the provided text. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors report that the selectivity of an engineered MeCP2-derived reader (TAN mutant) for the asymmetric hmC/mC CpG duplex mark is enabled by precisely tuned conformational plasticity in the protein core, characterized via NMR relaxation, CEST, CPMG, and MD simulations. They propose that this plasticity, rather than direct DNA contacts alone, is a critical determinant of binding affinity and specificity.
+- **Visible evidence base** EMSA binding data (referenced, not shown), NMR relaxation and CEST data (described), MD simulations (described), structural ensembles (PDB 8AJR, 8ALQ), chemical shift assignments (BMRB 51548, 51547, 51020, 34745).
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S21), full experimental protocols, raw relaxation data, MD simulation parameters and convergence criteria, and the referenced patent application. These are essential for independent verification of several quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and challenging problem in epigenetic DNA recognition: how a designed reader protein achieves selectivity for an asymmetric CpG duplex mark. The central hypothesis, that conformational plasticity in the protein core is a key determinant of selectivity, is conceptually interesting and potentially significant. However, the evidence presented in the main text is largely qualitative, and several key claims rely on data not shown in the provided material. The manuscript would benefit from clearer quantitative comparisons, explicit statistical treatment, and more direct tests of the proposed mechanism.
+- **Who would be interested in the results, and why** Researchers in epigenetic reader biology, protein engineering, DNA recognition, and biophysical chemistry. The work offers a design principle for generating selective readers of modified DNA, which is relevant for tool development in epigenetics and for understanding how dynamic protein states contribute to molecular recognition.
+- **Major strengths** The study tackles a novel and important selectivity problem. The combination of directed evolution, NMR dynamics, and MD simulation is appropriate and powerful. The identification of a core residue as a remote modulator of binding selectivity is a non-obvious finding that challenges structure-based design assumptions. The writing is generally clear and the conceptual framing is strong.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the V122A mutation in the TAN mutant establishes high hmC/mC binding affinity (~10 nM) and specificity, and that the TCN mutant (V122C) is more promiscuous.
+  - **Evidence pointer** Results section, Figure 2B, Supplementary Figure S1, Supplementary Table S2. Location not provided for specific data points.
+  - **Concern** The quantitative binding data (KD values, specificity ratios) are only referenced, not shown in the provided text. The claim of "high affinity and specificity" cannot be independently assessed without the actual EMSA data, including error estimates and replicates. Furthermore, the comparison between TAN and TCN is central to the argument that residue 122 is a critical determinant, but the statistical significance of the difference in binding behavior is not stated.
+  - **Why it matters** The entire mechanistic narrative rests on the functional difference between TAN and TCN. Without clear, quantitative evidence of selectivity, the subsequent biophysical analysis lacks a solid foundation.
+  - **Resolution test** Provide the EMSA data with fitted KD values, standard errors, and replicate numbers. Show a direct comparison of TAN, TCN, TVN, and wt binding to hmC/mC and mC/mC substrates, with statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The authors claim that the excited state (ES) observed by CEST represents a "partly molten conformation" and that its accessibility, facilitated by V122A, enables induced-fit binding to hmC/mC DNA.
+  - **Evidence pointer** Results section, Figure 4C–G, Supplementary Figures S9–S10. Location not provided for specific residue assignments.
+  - **Concern** The structural interpretation of the ES is inferred from chemical shift changes, but no direct structural data for the ES are presented. The claim that the ES involves "partial release of secondary structure" is speculative. Additionally, the link between the ES and binding selectivity is correlative: the authors show that TAN has enhanced dynamics, but they do not demonstrate that the ES is the binding-competent state or that its population correlates with selectivity across the mutant series.
+  - **Why it matters** The central mechanistic claim is that plasticity, not just ground-state structure, drives selectivity. This requires evidence that the ES is functionally relevant, not merely a biophysical curiosity.
+  - **Resolution test** Provide additional evidence linking the ES to binding, such as relaxation dispersion or CEST experiments in the presence of DNA, or mutational analysis that perturbs the ES population and shows a corresponding change in selectivity. Alternatively, use enhanced-sampling MD to characterize the ES structure and its interaction with DNA.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors state that the exchange dynamics in TAN are "fourfold slower and more excessive" than in wt, with a kex of 1240 ± 10 s⁻¹ at 291 K, and that CEST data indicate a kex of 572 s⁻¹ at 283 K with an ES population of ~3%.
+  - **Evidence pointer** Results section, Figure 4A–D, Supplementary Figures S6–S10. Location not provided for specific fitting details.
+  - **Concern** The reported kinetic parameters are presented without a clear description of the fitting procedure, error analysis, or the number of residues used for global fitting. The discrepancy between CPMG-derived kex (1240 s⁻¹) and CEST-derived kex (572 s⁻¹) at different temperatures is not reconciled, and the Arrhenius analysis is based on only three temperatures. The manuscript would benefit from a more rigorous and transparent treatment of the dynamics data.
+  - **Why it matters** The quantitative claims about timescales and populations are central to the mechanistic model. Without robust error analysis and clear methodology, the reader cannot assess the reliability of these numbers.
+  - **Resolution test** Provide a detailed description of the fitting procedures, including the number of residues used, the uncertainty in each parameter, and a discussion of the temperature dependence. Consider presenting a global analysis that reconciles CPMG and CEST data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, paragraph 3
+  - **Evidence pointer** Location not provided
+  - **Issue** The sentence "This surprising role of a core residue in designed CpG duplex readers as potent determinant for selective target recognition reveals a fundamental lack of molecular-level understanding and unravels a considerable pitfall of structure-based approaches" is grammatically awkward and could be rephrased for clarity.
+  - **Required correction** Revise to improve readability, e.g., "The surprising role of a core residue as a potent determinant of selective target recognition reveals a fundamental gap in molecular-level understanding and highlights a considerable pitfall of structure-based design approaches."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, NMR relaxation experiments
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the relaxation dispersion and CEST experiments is brief. The pulse sequences, field strengths, and data processing details are not fully described, which limits reproducibility.
+  - **Required correction** Expand the methods to include full experimental parameters, referencing established protocols where appropriate.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, "Increased plasticity facilitates DNA binding"
+  - **Evidence pointer** Figure 6D
+  - **Issue** The claim that "this plasticity facilitates stable and tight interactions with hmC/mC DNA, upon which this mobility ceases" is based on MD simulations. The authors should clarify whether this cessation of mobility is observed in the NMR data of the complex as well, and whether it is statistically significant across the five MD trajectories.
+  - **Required correction** Add a statement about the consistency between MD and NMR observations, and report the variability across trajectories.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The functional selectivity data must be shown and statistically validated. The mechanistic link between the ES and binding must be strengthened with direct experimental evidence. R1-M3, while not blocking, requires more rigorous quantitative reporting.
+- **Assessment against Nature-style criteria** Originality: High. The concept of tuning conformational plasticity as a design principle for DNA readers is novel and extends beyond the specific system. Scientific importance: Moderate to high. The work has implications for epigenetic tool development and for understanding protein-DNA recognition dynamics, but the broader impact will depend on the generality of the proposed mechanism. Interdisciplinary readership: The topic bridges structural biology, biophysics, and epigenetics, and should appeal to a broad audience if the claims are well-supported. Technical soundness: The combination of methods is appropriate, but the current presentation lacks the quantitative rigor needed to fully support the conclusions. Readability for nonspecialists: The manuscript is generally well-written, but the abstract and introduction could better frame the significance of the "CpG duplex mark" concept for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance is significant, but the current evidence base is insufficient to fully establish the mechanistic claims. The authors must provide the missing quantitative data and strengthen the link between dynamics and function.
+
+## Risk / unsupported claims
+- The claim that the ES represents a "partly molten conformation" is not directly supported by structural data.
+- The claim that V122A specifically modulates exchange dynamics to enable selectivity is correlative, not causal, without additional mutagenesis or binding experiments.
+- The quantitative KD values and selectivity ratios are not verifiable from the provided text.
+- The statement that "the penalty at physiological temperatures is minor" is not quantified.
+- The claim that the findings "will propel advances in the emerging field of DNA recognition" is speculative and not supported by the data presented.

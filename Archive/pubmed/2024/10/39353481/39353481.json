@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "39353481",
+    "doi": "10.1016/j.fct.2024.115003",
+    "title": "CDKN1A promotes Cis-induced AKI by inducing cytoplasmic ROS production and ferroptosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND OBJECTIVE: This study focuses on investigating the role of CDKN1A in cisplatin-induced AKI (acute kidney injury, AKI) and its potential as a biomarker for early diagnosis and therapeutic intervention by integrating bioinformatics analysis, machine learning, and experimental validation. METHODS: We analyzed the GSE85957 dataset to find genes that changed between control and cisplatin-treated rats. Using bioinformatics and machine learning, we found 13 important genes related to ferroptosis and the P53 pathway. The key gene, CDKN1A, was identified using various algorithms. We then tested how reducing CDKN1A in human kidney cells affected cell health, ROS, and iron levels. We also checked how CDKN1A changes the levels of proteins linked to ferroptosis using Q-PCR and Western Blot. RESULTS: CDKN1A was found to negatively regulate the G1/S phase transition and was associated with ferroptosis in p53 signaling. Experiments in human renal tubular epithelial cells (HK-2) and rat NRK-52E cells showed that CDKN1A knockdown mitigated cisplatin-induced cell injury by reducing oxidative stress and ferroptosis. CONCLUSION: Our integrated approach identified CDKN1A as a biomarker for cisplatin-induced AKI. Its regulation could be key in AKI pathogenesis, offering new therapeutic insights and aiding in early diagnosis and intervention.",
+    "keywords": [
+      "Biomarker",
+      "CDKN1A",
+      "Cis-induced acute kidney injury",
+      "Ferroptosis",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/drug effects",
+      "*Acute Kidney Injury/chemically induced/metabolism/genetics",
+      "*Cisplatin/toxicity",
+      "*Cyclin-Dependent Kinase Inhibitor p21/genetics/metabolism",
+      "Humans",
+      "Animals",
+      "*Reactive Oxygen Species/metabolism",
+      "Rats",
+      "Cell Line",
+      "Male",
+      "Tumor Suppressor Protein p53/metabolism/genetics",
+      "Rats, Sprague-Dawley",
+      "Oxidative Stress/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Qian",
+        "Chen, Jun-Ming",
+        "Li, Chen-Sui-Zi",
+        "Zhan, Jia-Yi",
+        "Yin, Xue-Dong",
+        "Li, Ben-Shang",
+        "Dong, Hong-Liang",
+        "Luo, Lian-Xiang",
+        "Li, Zhi-Ling"
+      ],
+      "short_names": [
+        "Gao Q",
+        "Chen JM",
+        "Li CS",
+        "Zhan JY",
+        "Yin XD",
+        "Li BS",
+        "Dong HL",
+        "Luo LX",
+        "Li ZL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China; School of Medicine, Shanghai Jiao Tong University, Shanghai, 200125, China.",
+        "The Marine Biomedical Research Institute, Guangdong Medical University, Zhanjiang, 524023, Guangdong, China.",
+        "Department of Pharmacy, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China; School of Medicine, Shanghai Jiao Tong University, Shanghai, 200125, China.",
+        "The Marine Biomedical Research Institute, Guangdong Medical University, Zhanjiang, 524023, Guangdong, China.",
+        "Department of Pharmacy, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China.",
+        "Department of Hematology/Oncology, Shanghai Children's Medical Center, Shanghai Jiao Tong University School of Medicine, 1678 Dongfang Road, Shanghai, China.",
+        "Pediatric Translational Medicine Institute, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200120, China. Electronic address: hldongscmc@163.com.",
+        "The Marine Biomedical Research Institute, Guangdong Medical University, Zhanjiang, 524023, Guangdong, China. Electronic address: luolianxiang321@gdmu.edu.cn.",
+        "Department of Pharmacy, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China. Electronic address: lizhiling22@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Qian",
+        "short_name": "Gao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China; School of Medicine, Shanghai Jiao Tong University, Shanghai, 200125, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jun-Ming",
+        "short_name": "Chen JM",
+        "identifiers": [],
+        "affiliations": [
+          "The Marine Biomedical Research Institute, Guangdong Medical University, Zhanjiang, 524023, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chen-Sui-Zi",
+        "short_name": "Li CS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China; School of Medicine, Shanghai Jiao Tong University, Shanghai, 200125, China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Jia-Yi",
+        "short_name": "Zhan JY",
+        "identifiers": [],
+        "affiliations": [
+          "The Marine Biomedical Research Institute, Guangdong Medical University, Zhanjiang, 524023, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Xue-Dong",
+        "short_name": "Yin XD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ben-Shang",
+        "short_name": "Li BS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology/Oncology, Shanghai Children's Medical Center, Shanghai Jiao Tong University School of Medicine, 1678 Dongfang Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Hong-Liang",
+        "short_name": "Dong HL",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Translational Medicine Institute, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200120, China. Electronic address: hldongscmc@163.com."
+        ]
+      },
+      {
+        "full_name": "Luo, Lian-Xiang",
+        "short_name": "Luo LX",
+        "identifiers": [],
+        "affiliations": [
+          "The Marine Biomedical Research Institute, Guangdong Medical University, Zhanjiang, 524023, Guangdong, China. Electronic address: luolianxiang321@gdmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Zhi-Ling",
+        "short_name": "Li ZL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China. Electronic address: lizhiling22@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association"
+    ],
+    "journal_abbrev": [
+      "Food Chem Toxicol"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/03 03:38",
+    "fetched_at": "2026-09-30 03:43:26"
+  },
+  "links": {
+    "cites": [
+      "42459863",
+      "42422293",
+      "42081152",
+      "42002905",
+      "41878410",
+      "41484993",
+      "41171287",
+      "41081040",
+      "40445517",
+      "40212808"
+    ],
+    "refs": [],
+    "similar": [
+      "39353481",
+      "37875838",
+      "31996668",
+      "39026057",
+      "37802374",
+      "39386217",
+      "35366755",
+      "37328118",
+      "34666603",
+      "38805781",
+      "35986536",
+      "37907523",
+      "29237155",
+      "35767918",
+      "38024532",
+      "37542992",
+      "30616891",
+      "23618405",
+      "26431211",
+      "36193064",
+      "37839409",
+      "39164198",
+      "38708970",
+      "36277893",
+      "38675549",
+      "38478853",
+      "33266089",
+      "35075382",
+      "39298552",
+      "34787874",
+      "38757723",
+      "38670420",
+      "31437128",
+      "31578283",
+      "39033829",
+      "35774015",
+      "38689508",
+      "38403348",
+      "38517565",
+      "28272690",
+      "35795076",
+      "30797821",
+      "29106395",
+      "39137626",
+      "29619879",
+      "29790387",
+      "36923942",
+      "23506954",
+      "31884071",
+      "39308866",
+      "32219613",
+      "37516014",
+      "26132529",
+      "36068197",
+      "38871033",
+      "32423815",
+      "38664873",
+      "34785303",
+      "34719669",
+      "34339961",
+      "35007051",
+      "38517368",
+      "29800655",
+      "38357976",
+      "26968221",
+      "39316049",
+      "38369676",
+      "29346757",
+      "32717631",
+      "39303541",
+      "38371457",
+      "35279512",
+      "38704914",
+      "34245977",
+      "37659699",
+      "29039478",
+      "37588197",
+      "31148231",
+      "38775855",
+      "33859745",
+      "37293812",
+      "31223046",
+      "24126885",
+      "36916093",
+      "39455033",
+      "35184139",
+      "38854800",
+      "30502252",
+      "38558206",
+      "32750447",
+      "23145036",
+      "28928081",
+      "38981224",
+      "11316848",
+      "36594097",
+      "31534532",
+      "30993878",
+      "34728216",
+      "24759152",
+      "37088170"
+    ],
+    "review": [
+      "39353481",
+      "29800655"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0278-6915(24)00569-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

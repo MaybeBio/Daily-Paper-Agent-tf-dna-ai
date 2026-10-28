@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39270885",
+  "title": "DeepDBS: Identification of DNA-binding sites in protein sequences by using deep representations and random forest.",
+  "authors": "Daanial Khan, Yaser; Alkhalifah, Tamim; Alturise, Fahad; Hassan Butt, Ahmad",
+  "journal": "Methods (San Diego, Calif.)",
+  "published_date": "2024-09-14",
+  "window": {
+    "start": "2024-09-09",
+    "end": "2024-09-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习（CNN/RNN/LSTM）提取蛋白序列特征并训练随机森林预测DNA结合位点，属于广义蛋白-DNA互作位点预测，方法可迁移至TF-DNA体系，但未聚焦转录因子或三维互作机制。",
+  "abstract": "Interactions of biological molecules in organisms are considered to be primary factors for the lifecycle of that organism. Various important biological functions are dependent on such interactions and among different kinds of interactions, the protein DNA interactions are very important for the processes of transcription, regulation of gene expression, DNA repairing and packaging. Thus, keeping the knowledge of such interactions and the sites of those interactions is necessary to study the mechanism of various biological processes. As experimental identification through biological assays is quite resource-demanding, costly and error-prone, scientists opt for the computational methods for efficient and accurate identification of such DNA-protein interaction sites. Thus, herein, we propose a novel and accurate method namely DeepDBS for the identification of DNA-binding sites in proteins, using primary amino acid sequences of proteins under study. From protein sequences, deep representations were computed through a one-dimensional convolution neural network (1D-CNN), recurrent neural network (RNN) and long short-term memory (LSTM) network and were further used to train a Random Forest classifier. Random Forest with LSTM-based features outperformed the other models, as well as the existing state-of-the-art methods with an accuracy score of 0.99 for self-consistency test, 10-fold cross-validation, 5-fold cross-validation, and jackknife validation while 0.92 for independent dataset testing. It is concluded based on results that the DeepDBS can help accurate and efficient identification of DNA binding sites (DBS) in proteins.",
+  "abstract_zh": "生物分子在生物体内的相互作用被认为是该生物生命周期的首要因素。多种重要的生物功能依赖于这些相互作用，而在不同类型的相互作用中，蛋白质-DNA相互作用对于转录、基因表达调控、DNA修复和包装等过程至关重要。因此，掌握这些相互作用及其位点的知识对于研究各种生物过程的机制是必要的。由于通过生物实验进行实验鉴定相当耗费资源、成本高昂且易出错，科学家们倾向于采用计算方法来高效且准确地识别这类DNA-蛋白质相互作用位点。因此，在此我们提出一种新颖且准确的方法，名为DeepDBS，用于利用所研究蛋白质的初级氨基酸序列识别蛋白质中的DNA结合位点。从蛋白质序列中，通过一维卷积神经网络（1D-CNN）、循环神经网络（RNN）和长短期记忆网络（LSTM）计算深度表示，并进一步用于训练随机森林分类器。基于LSTM特征的随机森林模型在自洽性测试、10折交叉验证、5折交叉验证和刀切法验证中均优于其他模型及现有最先进方法，准确率达到0.99，而在独立数据集测试中为0.92。基于结果得出结论，DeepDBS能够帮助准确且高效地识别蛋白质中的DNA结合位点（DBS）。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39270885/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39270885/",
+  "paper_page_path": "papers/pubmed/39270885/index.html"
+}

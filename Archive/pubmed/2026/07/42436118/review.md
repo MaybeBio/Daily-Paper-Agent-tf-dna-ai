@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific content, technical validity, structural biology claims, and consistency with Nature Communications standards
+- **Shared manuscript claim summary** The authors report cryo-EM structures of the E. coli transcriptional repressor Mlc in four states: apo, DNA-bound, IICBGlc-bound, and MtfA-bound. They propose that Mlc forms a tetrameric scaffold regulated by protein-protein and protein-DNA interactions rather than conformational switching, and that DNA binding specificity is achieved through minor-groove interactions by wing arginine residues.
+- **Visible evidence base** Cryo-EM density maps and models, SEC profiles, MD simulation analyses, sequence conservation data, structural comparisons
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; atomic coordinates and density maps not deposited or accessible; MD simulation parameters and convergence criteria not fully detailed; experimental validation of binding affinities or functional assays not included
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial structural dataset covering multiple functional states of a key bacterial transcriptional regulator. The cryo-EM work appears technically competent, and the tetrameric assembly of Mlc is a notable finding that revises previous dimeric models. However, several claims regarding regulatory mechanism, particularly the proposed steric exclusion model and the basis of DNA sequence specificity, are not fully supported by the presented evidence. The manuscript would benefit from additional functional validation and clearer presentation of the structural basis for specificity.
+- **Who would be interested in the results, and why** Researchers studying bacterial transcription regulation, PTS-mediated signaling, and the ROK family of transcriptional regulators. The work also has relevance for those interested in membrane-associated transcription factor sequestration and the structural biology of multi-protein regulatory complexes.
+- **Major strengths** The determination of four cryo-EM structures covering multiple regulatory states is a significant technical achievement. The tetrameric assembly of Mlc is well supported by the data and represents an important advance. The combination of cryo-EM with MD simulations provides complementary views of complex dynamics. The identification of wing-mediated minor-groove interactions as a potential specificity determinant is an interesting hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation
+  - **Claim pointer** The authors state that "Mlc activity is controlled by protein-protein interactions" and propose a "steric exclusion mechanism" for regulation, yet no functional assays are presented to directly test this model.
+  - **Evidence pointer** Discussion section, Figure 6
+  - **Concern** The manuscript lacks any direct functional validation of the proposed regulatory mechanism. No DNA binding assays, reporter gene experiments, or in vivo studies are presented to demonstrate that the tetrameric form is the functional species or that the proposed steric exclusion model operates as described.
+  - **Why it matters** Structural models alone cannot establish mechanism. The claim that Mlc regulation occurs through "steric control through binding partners, rather than by conformational switching" requires experimental support, particularly given that the apo and DNA-bound structures appear similar in overall architecture.
+  - **Resolution test** Provide DNA binding assays (EMSA or fluorescence anisotropy) comparing tetrameric Mlc with dimeric variants, or reporter assays demonstrating that the proposed interactions are required for regulation in vivo.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity determination
+  - **Claim pointer** The authors state that "the wings undergo a disorder-to-order transition... and form the only observed base contacts," and suggest these interactions "plausibly explain the major determinants of Mlc's specificity."
+  - **Evidence pointer** Results section, Figure 2h
+  - **Concern** The structural data show only two base-specific contacts (R71 with dT+11, R73 with dA+8 and dT+8) in the minor groove. This is a remarkably small number of base contacts to explain sequence-specific recognition of a pseudo-palindromic operator. The authors do not provide mutagenesis data to test whether these residues are required for specific DNA binding.
+  - **Why it matters** The claim that minor-groove interactions by wing arginines determine specificity is a central mechanistic conclusion. Without mutagenesis or binding assays, the functional significance of these contacts remains speculative.
+  - **Resolution test** Mutate R71 and R73 and test DNA binding affinity and specificity. Alternatively, determine structures with variant operator sequences to demonstrate sequence-dependent recognition.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model completeness
+  - **Claim pointer** The authors state that "the structure of the IICGlc transporter was solved in the inward-facing, occluded glucose bound state" and that the complex represents a "nearly complete IICBGlc."
+  - **Evidence pointer** Results section, Figure 3
+  - **Concern** The IICBGlc complex structure is described as having unresolved regions, including the IIBGlc-IIcGlc linker and portions of the IIBGlc domain. The functional significance of the observed conformation is unclear, particularly how glucose binding relates to the regulatory interaction with Mlc.
+  - **Why it matters** The connection between glucose transport and Mlc sequestration is the key regulatory event. Without a clear view of how glucose binding or phosphorylation state affects the Mlc interaction, the mechanistic model remains incomplete.
+  - **Resolution test** Provide structures or biochemical data showing how glucose binding or IIBGlc phosphorylation affects the Mlc-IIBGlc interaction.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** MD simulation support
+  - **Claim pointer** The authors use MD simulations to claim that "all major interfaces between Mlc and DNA, IIBGlc and MtfA, and within the Mlc tetramer remained stable" and to identify "major contributors for these transient interactions."
+  - **Evidence pointer** Results section, Figure 5, Supplementary Figure 8
+  - **Concern** The MD simulation methods are not described in sufficient detail to assess their validity. Key parameters such as the force field version, water model, salt concentration, simulation length per replica, and convergence criteria are not fully specified. The claim that simulations "converged to a structural ensemble consistent with the experimental apo-Mlc cryo-EM structure" is not quantitatively supported.
+  - **Why it matters** MD simulations are used to support mechanistic conclusions about complex stability and dynamics. Without proper methodological detail and convergence analysis, these claims cannot be evaluated.
+  - **Resolution test** Provide complete simulation parameters, convergence metrics, and error estimates. Show quantitative comparison between simulated ensembles and experimental structures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Atomic coordinates and density maps
+  - **Evidence pointer** Methods section, "Data availability" not provided
+  - **Issue** No data availability statement is included in the manuscript text provided. Deposition of atomic coordinates and density maps in public repositories is essential for structural biology manuscripts.
+  - **Required correction** Add a data availability statement with PDB and EMDB accession codes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** SEC and biochemical characterization
+  - **Evidence pointer** Figure 1a
+  - **Concern** The SEC profile is shown from a single representative experiment. No replicates or error estimates are provided for the apparent molecular weight determination.
+  - **Required correction** Provide quantitative analysis of replicate SEC runs or state the number of independent experiments in the legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure clarity
+  - **Affected element** Figure 2i,j
+  - **Evidence pointer** Figure 2
+  - **Concern** The DNA bending analysis would benefit from a quantitative comparison with ideal B-form DNA, including specific roll, tilt, and twist values at each base-pair step.
+  - **Required correction** Provide a quantitative analysis of DNA deformation parameters, possibly as a supplementary figure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Concern** The discussion of ROK family regulators could be expanded to compare the Mlc tetramer with other structurally characterized ROK family members beyond those cited.
+  - **Required correction** Add a brief comparison with other ROK family structures to contextualize the novelty of the tetrameric assembly.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Abstract, Results
+  - **Concern** The term "anti-repressor" for MtfA is used without defining the mechanism. Given that MtfA binds to the DNA-binding surface of Mlc, it may be more accurately described as a "co-repressor" or "sequestration factor."
+  - **Required correction** Clarify the terminology and define the proposed mechanism of MtfA action.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (functional validation), R1-M2 (specificity determination), R1-M4 (MD simulation support)
+- **Assessment against Nature-style criteria** Originality: The tetrameric structure of Mlc and the multi-state cryo-EM analysis represent a novel contribution to the field of bacterial transcription regulation. Scientific importance: The work addresses a fundamental question about how membrane-associated proteins can regulate transcription factor activity, with broad implications for understanding metabolic regulation. Interdisciplinary readership: The findings will interest structural biologists, microbiologists, and researchers studying gene regulation, though the narrow focus on a single regulator may limit broader appeal. Technical soundness: The cryo-EM work appears technically sound, but the lack of functional validation and incomplete MD simulation details weaken the overall case. Readability for nonspecialists: The manuscript is generally well written, but the mechanistic claims would benefit from clearer articulation of the proposed model and its implications.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural data are valuable and likely to be of interest to the community, but the mechanistic claims require additional experimental support and the MD simulation methods need to be fully documented.
+
+## Risk / unsupported claims
+- The claim that Mlc regulation occurs through "steric control through binding partners, rather than by conformational switching" is not directly tested and is not fully supported by the structural data alone.
+- The assertion that wing-mediated minor-groove interactions "plausibly explain the major determinants of Mlc's specificity" is speculative without mutagenesis or binding data.
+- The statement that the apo-Mlc structure "possibly reflects an intermediate state in transcription regulation without binding partners" is presented without supporting evidence.
+- The claim that MD simulations demonstrate stability of all major interfaces is not quantitatively supported due to incomplete methodological detail.
+- The functional significance of the glucose-bound, inward-facing conformation of IICGlc in the context of Mlc regulation is not established.

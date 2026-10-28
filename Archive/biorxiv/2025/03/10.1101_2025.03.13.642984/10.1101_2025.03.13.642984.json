@@ -1,0 +1,177 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.13.642984",
+  "title": "Prevalence of loss-of-function, gain-of-function and dominant-negative mechanisms across genetic disease phenotypes",
+  "doi": "10.1101/2025.03.13.642984",
+  "abstract": "Molecular disease mechanisms caused by mutations in protein-coding regions are diverse, but they can be broadly categorised into loss-of-function (LOF), gain-of-function (GOF), and dominant-negative (DN) effects. Accurately predicting these mechanisms is a pressing clinical need, as therapeutic strategies must align with the underlying disease mechanism. Moreover, computational predictors tend to perform less well at the identification of pathogenic GOF and DN variants. Here, we develop a protein structure-based missense LOF (mLOF) likelihood score that can separate recessive LOF and dominant LOF from alternative disease mechanisms. Using mLOF scores, we estimated the prevalence of molecular mechanisms across 2,837 phenotypes in 1,979 Mendelian disease genes, finding that DN and GOF mechanisms account for 48% of phenotypes in dominant genes. Applying mLOF scores to genes with multiple phenotypes revealed widespread intragenic mechanistic heterogeneity, with 43% of dominant and 49% of mixed-inheritance genes harbouring both LOF and non-LOF mechanisms. Furthermore, we show that combining mLOF scores with phenotype semantic similarity enables the prioritisation of DN mechanisms in mixed-inheritance genes. Our structure-based approach, accessible via a Google Colab notebook, offers a scalable tool for predicting disease mechanisms and advancing personalised medicine.",
+  "authors": [
+    "Badonyi M",
+    "Marsh JA"
+  ],
+  "published_date": "2025-03-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.13.642984",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.13.642984.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR990259",
+    "raw_record": {
+      "id": "PPR990259",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR990259"
+        ]
+      },
+      "doi": "10.1101/2025.03.13.642984",
+      "title": "Prevalence of loss-of-function, gain-of-function and dominant-negative mechanisms across genetic disease phenotypes",
+      "authorString": "Badonyi M, Marsh JA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Badonyi M",
+            "lastName": "Badonyi",
+            "firstName": "Mihaly",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8305-5618"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Genetics and Cancer, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marsh JA",
+            "lastName": "Marsh",
+            "firstName": "Joseph",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4132-0628"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Genetics and Cancer, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8305-5618"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4132-0628"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Molecular disease mechanisms caused by mutations in protein-coding regions are diverse, but they can be broadly categorised into loss-of-function (LOF), gain-of-function (GOF), and dominant-negative (DN) effects. Accurately predicting these mechanisms is a pressing clinical need, as therapeutic strategies must align with the underlying disease mechanism. Moreover, computational predictors tend to perform less well at the identification of pathogenic GOF and DN variants. Here, we develop a protein structure-based missense LOF (mLOF) likelihood score that can separate recessive LOF and dominant LOF from alternative disease mechanisms. Using mLOF scores, we estimated the prevalence of molecular mechanisms across 2,837 phenotypes in 1,979 Mendelian disease genes, finding that DN and GOF mechanisms account for 48% of phenotypes in dominant genes. Applying mLOF scores to genes with multiple phenotypes revealed widespread intragenic mechanistic heterogeneity, with 43% of dominant and 49% of mixed-inheritance genes harbouring both LOF and non-LOF mechanisms. Furthermore, we show that combining mLOF scores with phenotype semantic similarity enables the prioritisation of DN mechanisms in mixed-inheritance genes. Our structure-based approach, accessible via a Google Colab notebook, offers a scalable tool for predicting disease mechanisms and advancing personalised medicine.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.03.13.642984"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.03.13.642984"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR990259"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR990259&type=FILE&fileName=EMS203940-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40998763",
+            "reference": "Nature communications. 2025 Sep;16(1):8392",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS203940",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-03-18",
+      "firstPublicationDate": "2025-03-15",
+      "firstIndexDate": "2025-03-18",
+      "fullTextReceivedDate": "2025-03-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

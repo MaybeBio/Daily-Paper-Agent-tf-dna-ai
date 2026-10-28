@@ -1,0 +1,484 @@
+{
+  "identity": {
+    "pmid": "37322867",
+    "doi": "10.1016/j.xplc.2023.100639",
+    "title": "Assembly of JAZ-JAZ and JAZ-NINJA complexes in jasmonate signaling."
+  },
+  "content": {
+    "abstract": "Jasmonates (JAs) are plant hormones with crucial roles in development and stress resilience. They activate MYC transcription factors by mediating the proteolysis of MYC inhibitors called JAZ proteins. In the absence of JA, JAZ proteins bind and inhibit MYC through the assembly of MYC-JAZ-Novel Interactor of JAZ (NINJA)-TPL repressor complexes. However, JAZ and NINJA are predicted to be largely intrinsically unstructured, which has precluded their experimental structure determination. Through a combination of biochemical, mutational, and biophysical analyses and AlphaFold-derived ColabFold modeling, we characterized JAZ-JAZ and JAZ-NINJA interactions and generated models with detailed, high-confidence domain interfaces. We demonstrate that JAZ, NINJA, and MYC interface domains are dynamic in isolation and become stabilized in a stepwise order upon complex assembly. By contrast, most JAZ and NINJA regions outside of the interfaces remain highly dynamic and cannot be modeled in a single conformation. Our data indicate that the small JAZ Zinc finger expressed in Inflorescence Meristem (ZIM) motif mediates JAZ-JAZ and JAZ-NINJA interactions through separate surfaces, and our data further suggest that NINJA modulates JAZ dimerization. This study advances our understanding of JA signaling by providing insights into the dynamics, interactions, and structure of the JAZ-NINJA core of the JA repressor complex.",
+    "keywords": [
+      "AlphaFold",
+      "ColabFold",
+      "JAZ protein",
+      "MYC",
+      "NINJA",
+      "hydrogen-deuterium exchange"
+    ],
+    "mesh_terms": [
+      "*Arabidopsis Proteins/metabolism",
+      "*Arabidopsis/genetics/metabolism",
+      "Repressor Proteins/genetics/chemistry/metabolism",
+      "Cyclopentanes/metabolism",
+      "Oxylipins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, X Edward",
+        "Zhang, Yaguang",
+        "Yao, Jian",
+        "Zheng, Jie",
+        "Zhou, Yuxin",
+        "He, Qing",
+        "Moreno, Javier",
+        "Lam, Vinh Q",
+        "Cao, Xiaoman",
+        "Sugimoto, Koichi",
+        "Vanegas-Cano, Leidy",
+        "Kariapper, Leena",
+        "Suino-Powell, Kelly",
+        "Zhu, Yuanye",
+        "Novick, Scott",
+        "Griffin, Patrick R",
+        "Zhang, Feng",
+        "Howe, Gregg A",
+        "Melcher, Karsten"
+      ],
+      "short_names": [
+        "Zhou XE",
+        "Zhang Y",
+        "Yao J",
+        "Zheng J",
+        "Zhou Y",
+        "He Q",
+        "Moreno J",
+        "Lam VQ",
+        "Cao X",
+        "Sugimoto K",
+        "Vanegas-Cano L",
+        "Kariapper L",
+        "Suino-Powell K",
+        "Zhu Y",
+        "Novick S",
+        "Griffin PR",
+        "Zhang F",
+        "Howe GA",
+        "Melcher K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA.",
+        "Key Laboratory of Pesticide, College of Plant Protection, Nanjing Agricultural University, Nanjing, China.",
+        "MSU-DOE Plant Research Laboratory, Michigan State University, East Lansing, MI 48824, USA.",
+        "Department of Molecular Medicine, UF Scripps Biomedical Research, Jupiter, FL 33458, USA.",
+        "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA; Key Laboratory of Pesticide, College of Plant Protection, Nanjing Agricultural University, Nanjing, China.",
+        "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA.",
+        "MSU-DOE Plant Research Laboratory, Michigan State University, East Lansing, MI 48824, USA.",
+        "Department of Molecular Medicine, UF Scripps Biomedical Research, Jupiter, FL 33458, USA.",
+        "Key Laboratory of Pesticide, College of Plant Protection, Nanjing Agricultural University, Nanjing, China.",
+        "MSU-DOE Plant Research Laboratory, Michigan State University, East Lansing, MI 48824, USA.",
+        "MSU-DOE Plant Research Laboratory, Michigan State University, East Lansing, MI 48824, USA; Plant Resilience Institute, Michigan State University, East Lansing, MI 48824, USA.",
+        "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA.",
+        "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA.",
+        "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA; Key Laboratory of Pesticide, College of Plant Protection, Nanjing Agricultural University, Nanjing, China.",
+        "Department of Molecular Medicine, UF Scripps Biomedical Research, Jupiter, FL 33458, USA.",
+        "Department of Molecular Medicine, UF Scripps Biomedical Research, Jupiter, FL 33458, USA.",
+        "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA; Key Laboratory of Pesticide, College of Plant Protection, Nanjing Agricultural University, Nanjing, China. Electronic address: fengz@njau.edu.cn.",
+        "MSU-DOE Plant Research Laboratory, Michigan State University, East Lansing, MI 48824, USA; Plant Resilience Institute, Michigan State University, East Lansing, MI 48824, USA; Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI 48824, USA. Electronic address: howeg@msu.edu.",
+        "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA. Electronic address: melcher.karsten@yahoo.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, X Edward",
+        "short_name": "Zhou XE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yaguang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Pesticide, College of Plant Protection, Nanjing Agricultural University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Jian",
+        "short_name": "Yao J",
+        "identifiers": [],
+        "affiliations": [
+          "MSU-DOE Plant Research Laboratory, Michigan State University, East Lansing, MI 48824, USA."
+        ]
+      },
+      {
+        "full_name": "Zheng, Jie",
+        "short_name": "Zheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, UF Scripps Biomedical Research, Jupiter, FL 33458, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yuxin",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA; Key Laboratory of Pesticide, College of Plant Protection, Nanjing Agricultural University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "He, Qing",
+        "short_name": "He Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA."
+        ]
+      },
+      {
+        "full_name": "Moreno, Javier",
+        "short_name": "Moreno J",
+        "identifiers": [],
+        "affiliations": [
+          "MSU-DOE Plant Research Laboratory, Michigan State University, East Lansing, MI 48824, USA."
+        ]
+      },
+      {
+        "full_name": "Lam, Vinh Q",
+        "short_name": "Lam VQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, UF Scripps Biomedical Research, Jupiter, FL 33458, USA."
+        ]
+      },
+      {
+        "full_name": "Cao, Xiaoman",
+        "short_name": "Cao X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Pesticide, College of Plant Protection, Nanjing Agricultural University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Sugimoto, Koichi",
+        "short_name": "Sugimoto K",
+        "identifiers": [],
+        "affiliations": [
+          "MSU-DOE Plant Research Laboratory, Michigan State University, East Lansing, MI 48824, USA."
+        ]
+      },
+      {
+        "full_name": "Vanegas-Cano, Leidy",
+        "short_name": "Vanegas-Cano L",
+        "identifiers": [],
+        "affiliations": [
+          "MSU-DOE Plant Research Laboratory, Michigan State University, East Lansing, MI 48824, USA; Plant Resilience Institute, Michigan State University, East Lansing, MI 48824, USA."
+        ]
+      },
+      {
+        "full_name": "Kariapper, Leena",
+        "short_name": "Kariapper L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA."
+        ]
+      },
+      {
+        "full_name": "Suino-Powell, Kelly",
+        "short_name": "Suino-Powell K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yuanye",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA; Key Laboratory of Pesticide, College of Plant Protection, Nanjing Agricultural University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Novick, Scott",
+        "short_name": "Novick S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, UF Scripps Biomedical Research, Jupiter, FL 33458, USA."
+        ]
+      },
+      {
+        "full_name": "Griffin, Patrick R",
+        "short_name": "Griffin PR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, UF Scripps Biomedical Research, Jupiter, FL 33458, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Feng",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA; Key Laboratory of Pesticide, College of Plant Protection, Nanjing Agricultural University, Nanjing, China. Electronic address: fengz@njau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Howe, Gregg A",
+        "short_name": "Howe GA",
+        "identifiers": [],
+        "affiliations": [
+          "MSU-DOE Plant Research Laboratory, Michigan State University, East Lansing, MI 48824, USA; Plant Resilience Institute, Michigan State University, East Lansing, MI 48824, USA; Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI 48824, USA. Electronic address: howeg@msu.edu."
+        ]
+      },
+      {
+        "full_name": "Melcher, Karsten",
+        "short_name": "Melcher K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, Van Andel Institute, Grand Rapids, MI 49503, USA. Electronic address: melcher.karsten@yahoo.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant communications"
+    ],
+    "journal_abbrev": [
+      "Plant Commun"
+    ],
+    "pub_date": "2023 Nov 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/16 06:42",
+    "fetched_at": "2026-09-29 02:14:02"
+  },
+  "links": {
+    "cites": [
+      "42631406",
+      "42483831",
+      "42197678",
+      "42195026",
+      "41957869",
+      "41828625",
+      "41768895",
+      "41305982",
+      "40652444",
+      "40227279",
+      "39408917",
+      "38891365",
+      "38290050"
+    ],
+    "refs": [
+      "36049478",
+      "35780296",
+      "35637307",
+      "35537451",
+      "35418629",
+      "34418423",
+      "34282049",
+      "34265844",
+      "33875885",
+      "33676023",
+      "32170290",
+      "31706031",
+      "31588918",
+      "29555489",
+      "29539269",
+      "29166128",
+      "28973940",
+      "28165473",
+      "28137867",
+      "26601214",
+      "26258305",
+      "25846245",
+      "25549265",
+      "25391399",
+      "24003128",
+      "23632853",
+      "22822211",
+      "22822206",
+      "22327740",
+      "21737749",
+      "21335373",
+      "20927106",
+      "20360767",
+      "20360743",
+      "19349968",
+      "19309455",
+      "19151223",
+      "19025383",
+      "18547396",
+      "18458331",
+      "18215316",
+      "17675405",
+      "17637677",
+      "17637675",
+      "17499004",
+      "16763149",
+      "16478090",
+      "15738986",
+      "15264254",
+      "10493868",
+      "10069079"
+    ],
+    "similar": [
+      "37322867",
+      "20671423",
+      "28137867",
+      "31706031",
+      "23632853",
+      "20360743",
+      "19309455",
+      "26258305",
+      "18547396",
+      "24416306",
+      "22327740",
+      "25846245",
+      "19151223",
+      "31852773",
+      "25817565",
+      "34929168",
+      "21963667",
+      "30705076",
+      "21551388",
+      "34009665",
+      "26896849",
+      "21321051",
+      "24003128",
+      "27423073",
+      "18223147",
+      "18653378",
+      "25807368",
+      "34720056",
+      "37403524",
+      "30728246",
+      "22112386",
+      "31557372",
+      "35780296",
+      "23169619",
+      "20525008",
+      "28649719",
+      "21737749",
+      "21726394",
+      "22173100",
+      "24558350",
+      "25311705",
+      "39823230",
+      "18261950",
+      "33023956",
+      "31734922",
+      "25617318",
+      "20927106",
+      "24394987",
+      "37462265",
+      "17637675",
+      "33676023",
+      "22892320",
+      "20159850",
+      "31614709",
+      "29293407",
+      "22629274",
+      "26320228",
+      "21335373",
+      "32266972",
+      "17637677",
+      "26410299",
+      "30802963",
+      "39739362",
+      "33621269",
+      "30348775",
+      "23011567",
+      "38953749",
+      "29991485",
+      "35642375",
+      "22529386",
+      "32046227",
+      "31795159",
+      "31481228",
+      "32245790",
+      "30115737",
+      "29180381",
+      "36427252",
+      "25627909",
+      "26530088",
+      "23435661",
+      "40045540",
+      "35562972",
+      "21242320",
+      "26829586",
+      "34145662",
+      "26374889",
+      "36856677",
+      "28973940",
+      "36946519",
+      "39579159",
+      "34193940",
+      "38341757",
+      "21447791",
+      "19717617",
+      "25399518",
+      "23935516",
+      "31988260",
+      "27756820",
+      "30823987",
+      "19473329"
+    ],
+    "review": [
+      "37322867",
+      "21963667",
+      "18653378",
+      "22112386",
+      "18261950",
+      "20159850",
+      "23011567",
+      "32046227",
+      "31481228"
+    ],
+    "pmc": [
+      "10721472"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2590-3462(23)00156-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37322867/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37322867",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "40389455",
+    "doi": "10.1038/s41467-025-59676-4",
+    "title": "Molecular simulations of enzymatic phosphorylation of disordered proteins and their condensates."
+  },
+  "content": {
+    "abstract": "Condensation and aggregation of disordered proteins in cellular non-equilibrium environments are shaped decisively by enzymes. Enzymes called kinases phosphorylate proteins, consuming the chemical fuel ATP. Protein phosphorylation by kinases such as Casein kinase 1 delta (CK1delta) determines the interactions of neurodegeneration-linked proteins such as TDP-43. Hyperphosphorylation of TDP-43 by CK1delta may be a cytoprotective mechanism for neurons, but how CK1delta interacts with protein condensates is not known. Molecular dynamics simulations hold the promise to resolve how kinases interact with disordered proteins and their condensates, and how this shapes the phosphorylation dynamics. In practice, it is difficult to verify whether implementations of chemical-fuel driven coarse-grained simulations are thermodynamically consistent, which we address by a generally applicable and automatic Markov state modeling approach. In this work, we thus elucidate with coarse-grained simulations, drivers of how TDP-43 is phosphorylated by CK1delta and how this leads to the dissolution of TDP-43 condensates upon hyperphosphorylation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phosphorylation",
+      "*Molecular Dynamics Simulation",
+      "*DNA-Binding Proteins/metabolism/chemistry",
+      "*Casein Kinase Idelta/metabolism/chemistry",
+      "Humans",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry",
+      "Markov Chains",
+      "Protein Binding",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zippo, Emanuele",
+        "Dormann, Dorothee",
+        "Speck, Thomas",
+        "Stelzl, Lukas S"
+      ],
+      "short_names": [
+        "Zippo E",
+        "Dormann D",
+        "Speck T",
+        "Stelzl LS"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-5623-3471",
+        "ORCID: 0000-0002-9260-2775",
+        "ORCID: 0000-0002-5348-0277"
+      ],
+      "affiliations": [
+        "Institute of Physics, Johannes Gutenberg University Mainz, Mainz, Germany.",
+        "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, Mainz, Germany.",
+        "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, Mainz, Germany.",
+        "Institute of Molecular Biology (IMB), Mainz, Germany.",
+        "Institute for Theoretical Physics IV, University of Stuttgart, Stuttgart, Germany.",
+        "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, Mainz, Germany. lstelzl@uni-mainz.de.",
+        "Institute of Molecular Biology (IMB), Mainz, Germany. lstelzl@uni-mainz.de.",
+        "KOMET1, Institute of Physics, Johannes Gutenberg University Mainz, Mainz, Germany. lstelzl@uni-mainz.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zippo, Emanuele",
+        "short_name": "Zippo E",
+        "identifiers": [
+          "0009-0002-5623-3471"
+        ],
+        "affiliations": [
+          "Institute of Physics, Johannes Gutenberg University Mainz, Mainz, Germany.",
+          "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Dormann, Dorothee",
+        "short_name": "Dormann D",
+        "identifiers": [
+          "0000-0002-9260-2775"
+        ],
+        "affiliations": [
+          "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, Mainz, Germany.",
+          "Institute of Molecular Biology (IMB), Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Speck, Thomas",
+        "short_name": "Speck T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Theoretical Physics IV, University of Stuttgart, Stuttgart, Germany."
+        ]
+      },
+      {
+        "full_name": "Stelzl, Lukas S",
+        "short_name": "Stelzl LS",
+        "identifiers": [
+          "0000-0002-5348-0277"
+        ],
+        "affiliations": [
+          "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, Mainz, Germany. lstelzl@uni-mainz.de.",
+          "Institute of Molecular Biology (IMB), Mainz, Germany. lstelzl@uni-mainz.de.",
+          "KOMET1, Institute of Physics, Johannes Gutenberg University Mainz, Mainz, Germany. lstelzl@uni-mainz.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 May 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/20 00:30",
+    "fetched_at": "2026-10-05 03:52:16"
+  },
+  "links": {
+    "cites": [
+      "42517609",
+      "42399370",
+      "42294758",
+      "42074202",
+      "42074053",
+      "41868013",
+      "41469746",
+      "41446266",
+      "41178159",
+      "41169547",
+      "41134621",
+      "40830340"
+    ],
+    "refs": [
+      "39817908",
+      "39412378",
+      "39134696",
+      "38961263",
+      "38677657",
+      "38637545",
+      "38553587",
+      "38362411",
+      "38297118",
+      "38178578",
+      "38174879",
+      "38160320",
+      "38112495",
+      "37735186",
+      "37655771",
+      "37645312",
+      "37579155",
+      "37155880",
+      "36681763",
+      "36175408",
+      "36108633",
+      "36066390",
+      "35836354",
+      "35795820",
+      "35568532",
+      "35459863",
+      "35112738",
+      "35001622",
+      "34937348",
+      "34791371",
+      "34762868",
+      "34733860",
+      "34388673",
+      "34380047",
+      "34366183",
+      "33940023",
+      "33934416",
+      "33597515",
+      "33302617",
+      "33139563",
+      "32719556",
+      "32132204",
+      "31653829",
+      "31430179",
+      "30731446",
+      "29961577",
+      "29472250",
+      "29438978",
+      "29431050",
+      "29364893",
+      "29295994",
+      "28819146",
+      "28790177",
+      "28265061",
+      "28225081",
+      "28208388",
+      "27911701",
+      "27807972",
+      "27545621",
+      "26980269",
+      "26769969",
+      "26574340",
+      "26547152",
+      "24979791",
+      "24659241",
+      "24186061",
+      "21548671",
+      "19681587",
+      "18546284",
+      "18232681",
+      "17059360",
+      "17023659",
+      "10908673",
+      "7665585"
+    ],
+    "similar": [
+      "40389455",
+      "38677657",
+      "39633494",
+      "26769969",
+      "36641675",
+      "40629690",
+      "41088757",
+      "41155480",
+      "29990433",
+      "37853696",
+      "35112738",
+      "28545154",
+      "39319382",
+      "33909430",
+      "17594292",
+      "20192920",
+      "34681718",
+      "40009520",
+      "26803658",
+      "41330221",
+      "40101966",
+      "38902525",
+      "17101137",
+      "29573987",
+      "41178159",
+      "23527964",
+      "39466712",
+      "36774964",
+      "34576338",
+      "22235331",
+      "27018856",
+      "32824743",
+      "42235792",
+      "40848932",
+      "34845619",
+      "15961172",
+      "26742101",
+      "32553729",
+      "41933903",
+      "25313042",
+      "25814479",
+      "42055532",
+      "31951234",
+      "19440376",
+      "35029261",
+      "33355572",
+      "35752942",
+      "34203978",
+      "39356670",
+      "38383656",
+      "40028898",
+      "27138926",
+      "32436706",
+      "31932442",
+      "31535860",
+      "25625937",
+      "29309620",
+      "25387963",
+      "20041275",
+      "29511089",
+      "34575906",
+      "30528464",
+      "39952269",
+      "23861943",
+      "29279008",
+      "37006777",
+      "25017730",
+      "40588121",
+      "29080468",
+      "9349507",
+      "30520303",
+      "34525355",
+      "39225535",
+      "34944548",
+      "24589355",
+      "25533957",
+      "38928405",
+      "40708482",
+      "39936184",
+      "30926670",
+      "32321936",
+      "42517609",
+      "38916177",
+      "28057520",
+      "34883116",
+      "39412378",
+      "31392916",
+      "33812316",
+      "42350353",
+      "40403066",
+      "29630366",
+      "28554535",
+      "38181073",
+      "40673718",
+      "35298814",
+      "31724233",
+      "41781371",
+      "31521329",
+      "41850140",
+      "40970906"
+    ],
+    "review": [
+      "40389455",
+      "41178159",
+      "25814479",
+      "33355572",
+      "25625937",
+      "39952269",
+      "29080468",
+      "28057520",
+      "33812316"
+    ],
+    "pmc": [
+      "12089381"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-59676-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40389455/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

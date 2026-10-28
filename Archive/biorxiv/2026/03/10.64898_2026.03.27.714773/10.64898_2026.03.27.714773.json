@@ -1,0 +1,418 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.27.714773",
+  "title": "IDBSpred: An intrinsically disordered binding site predictor using machine learning and protein language model",
+  "doi": "10.64898/2026.03.27.714773",
+  "abstract": "Intrinsically disordered proteins (IDPs) mediate many cellular functions through interactions with structured protein partners, but predicting the corresponding binding sites on the structured partner remains challenging. Here, we present IDBSpred, a sequence-based method for residue-level prediction of IDP-binding sites on structured proteins. Training and test data were collected from the DIBS database, which contains more than 700 non-redundant IDP–protein complexes. Residue-level embeddings of structured partner sequences were generated using the ESM-2 protein language model and used as input to a multilayer perceptron classifier for binary prediction of binding versus non-binding residues. Analysis of amino acid composition showed that IDP-binding sites are enriched in aromatic residues, especially Trp, Tyr, and Phe, as well as several charged and polar residues, whereas Ala and several small or conformationally restrictive residues are depleted. The classifier achieved an ROC AUC of 0.87 and an average precision of 0.61. Structural case studies further showed that the predicted sites largely recapitulate the major experimentally defined binding interfaces. These results demonstrate that protein language model embeddings plus machine learning algorithms can effectively capture sequence features associated with IDP recognition on structured proteins. IDBSpred provides a practical framework for studying IDP-mediated interfaces and identifying potential therapeutic hotspots.",
+  "authors": [
+    "Drew Jones",
+    "Yinghao Wu"
+  ],
+  "published_date": "2026-03-30",
+  "updated_date": "2026-03-31T04:20:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.27.714773",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.27.714773.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T15:36:31Z",
+        "timestamp": 1785425791179,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            30
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 29,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                30
+              ]
+            ],
+            "date-time": "2026-03-30T00:00:00Z",
+            "timestamp": 1774828800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "R01GM120238"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01GM120238"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/04q48ey07",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "2023336"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2023336"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00j8z2m73",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            31
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Intrinsically disordered proteins (IDPs) mediate many cellular functions through interactions with structured protein partners, but predicting the corresponding binding sites on the structured partner remains challenging. Here, we present IDBSpred, a sequence-based method for residue-level prediction of IDP-binding sites on structured proteins. Training and test data were collected from the DIBS database, which contains more than 700 non-redundant IDP–protein complexes. Residue-level embeddings of structured partner sequences were generated using the ESM-2 protein language model and used as input to a multilayer perceptron classifier for binary prediction of binding versus non-binding residues. Analysis of amino acid composition showed that IDP-binding sites are enriched in aromatic residues, especially Trp, Tyr, and Phe, as well as several charged and polar residues, whereas Ala and several small or conformationally restrictive residues are depleted. The classifier achieved an ROC AUC of 0.87 and an average precision of 0.61. Structural case studies further showed that the predicted sites largely recapitulate the major experimentally defined binding interfaces. These results demonstrate that protein language model embeddings plus machine learning algorithms can effectively capture sequence features associated with IDP recognition on structured proteins. IDBSpred provides a practical framework for studying IDP-mediated interfaces and identifying potential therapeutic hotspots.</jats:p>",
+      "DOI": "10.64898/2026.03.27.714773",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            31
+          ]
+        ],
+        "date-time": "2026-03-31T04:20:12Z",
+        "timestamp": 1774930812000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "IDBSpred: An intrinsically disordered binding site predictor using machine learning and protein language model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Drew",
+          "family": "Jones",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "College of Computing and Informatics, Drexel University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1181-5670",
+          "authenticated-orcid": false,
+          "given": "Yinghao",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Systems and Computational Biology, Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY, 10461"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lermyte, F. , Roles, Characteristics, and Analysis of Intrinsically Disordered Proteins: A Minireview. Life (Basel), 2020. 10(12).",
+          "DOI": "10.3390/life10120320"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Trivedi, R. and H.A. Nagarajaram , Intrinsically Disordered Proteins: An Overview. Int J Mol Sci, 2022. 23(22).",
+          "DOI": "10.3390/ijms232214050"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12964-022-00821-7"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3680"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr400525m"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rsob.210222"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Du, Z. and V.N. Uversky , A Comprehensive Survey of the Roles of Highly Disordered Proteins in Type 2 Diabetes. Int J Mol Sci, 2017. 18(10).",
+          "DOI": "10.3390/ijms18102010"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-019-03347-3"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "109",
+          "DOI": "10.1016/bs.pmbts.2019.05.005",
+          "article-title": "Intrinsically disordered proteins in the formation of functional amyloids from bacteria to humans",
+          "volume": "166",
+          "year": "2019",
+          "journal-title": "Prog Mol Biol Transl Sci"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.110149297"
+        },
+        {
+          "issue": "11",
+          "key": "2026040211150942000_2026.03.27.714773v2.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "2395",
+          "DOI": "10.1021/acs.jpcb.3c00096",
+          "article-title": "Interpreting Transient Interactions of Intrinsically Disordered Proteins",
+          "volume": "127",
+          "year": "2023",
+          "journal-title": "J Phys Chem B"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2014/147648"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.13",
+          "unstructured": "Evans, R. , et al., Protein complex prediction with AlphaFold-Multimer. bioRxiv, 2022: p. 2021.10.04.463034."
+        },
+        {
+          "issue": "6",
+          "key": "2026040211150942000_2026.03.27.714773v2.14",
+          "first-page": "506",
+          "article-title": "Application of Machine Learning Approaches for Protein-protein Interactions Prediction",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "Med Chem"
+        },
+        {
+          "issue": "4",
+          "key": "2026040211150942000_2026.03.27.714773v2.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "298",
+          "DOI": "10.1007/s42979-022-01197-8",
+          "article-title": "A Survey on Deep Networks Approaches in Prediction of Sequence-Based Protein–Protein Interactions",
+          "volume": "3",
+          "year": "2022",
+          "journal-title": "SN Computer Science"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp518"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts209"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jtbi.2017.10.015"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1142/S0219720019400158"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "337",
+          "DOI": "10.1007/978-1-4939-8736-8_19",
+          "article-title": "Predicting Functions of Disordered Proteins with MoRFpred",
+          "volume": "1851",
+          "year": "2019",
+          "journal-title": "Methods Mol Biol"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu744"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "341",
+          "DOI": "10.1016/bs.pmbts.2019.04.006",
+          "article-title": "Computational prediction of functions of intrinsically disordered regions",
+          "volume": "166",
+          "year": "2019",
+          "journal-title": "Prog Mol Biol Transl Sci"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cels.2025.101486"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx640"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.26",
+          "unstructured": "Paszke, A. , et al., PyTorch: An Imperative Style, High-Performance Deep Learning Library. 2019."
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.biochem.5b00044"
+        },
+        {
+          "issue": "Pt 4",
+          "key": "2026040211150942000_2026.03.27.714773v2.28",
+          "first-page": "546",
+          "article-title": "Context-dependent protein folding of a virulence peptide in the bacterial and host environments: structure of an SycH-YopH chaperone-effector complex",
+          "volume": "69",
+          "year": "2013",
+          "journal-title": "Acta Crystallogr D Biol Crystallogr"
+        },
+        {
+          "key": "2026040211150942000_2026.03.27.714773v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbrc.2013.07.047"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.03.27.714773",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            2
+          ]
+        ],
+        "date-time": "2026-04-02T18:15:21Z",
+        "timestamp": 1775153721000
+      },
+      "score": 167.18857,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.03.27.714773"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            30
+          ]
+        ]
+      },
+      "references-count": 29,
+      "URL": "https://doi.org/10.64898/2026.03.27.714773",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            30
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

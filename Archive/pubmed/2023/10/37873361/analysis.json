@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37873361",
+  "title": "Joint sequence & chromatin neural networks characterize the differential abilities of Forkhead transcription factors to engage inaccessible chromatin.",
+  "authors": "Arora, Sonny; Yang, Jianyu; Akiyama, Tomohiko; James, Daniela Q; Morrissey, Alexis; Blanda, Thomas R; Badjatia, Nitika; Lai, William K M; Ko, Minoru S H; Pugh, B Franklin; Mahony, Shaun",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-10-24",
+  "window": {
+    "start": "2023-10-23",
+    "end": "2023-10-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用卷积神经网络联合序列与染色质特征，系统比较FoxA等Forkhead转录因子结合不可及染色质的能力差异，核心聚焦TF-DNA结合机制建模，高度匹配本课题。",
+  "abstract": "The DNA-binding activities of transcription factors (TFs) are influenced by both intrinsic sequence preferences and extrinsic interactions with cell-specific chromatin landscapes and other regulatory proteins. Disentangling the roles of these binding determinants remains challenging. For example, the FoxA subfamily of Forkhead domain (Fox) TFs are known pioneer factors that can bind to relatively inaccessible sites during development. Yet FoxA TF binding also varies across cell types, pointing to a combination of intrinsic and extrinsic forces guiding their binding. While other Forkhead domain TFs are often assumed to have pioneering abilities, how sequence and chromatin features influence the binding of related Fox TFs has not been systematically characterized. Here, we present a principled approach to compare the relative contributions of intrinsic DNA sequence preference and cell-specific chromatin environments to a TF's DNA-binding activities. We apply our approach to investigate how a selection of Fox TFs (FoxA1, FoxC1, FoxG1, FoxL2, and FoxP3) vary in their binding specificity. We over-express the selected Fox TFs in mouse embryonic stem cells, which offer a platform to contrast each TF's binding activity within the same preexisting chromatin background. By applying a convolutional neural network to interpret the Fox TF binding patterns, we evaluate how sequence and preexisting chromatin features jointly contribute to induced TF binding. We demonstrate that Fox TFs bind different DNA targets, and drive differential gene expression patterns, even when induced in identical chromatin settings. Despite the association between Forkhead domains and pioneering activities, the selected Fox TFs display a wide range of affinities for preexiting chromatin states. Using sequence and chromatin feature attribution techniques to interpret the neural network predictions, we show that differential sequence preferences combined with differential abilities to engage relatively inaccessible chromatin together explain Fox TF binding patterns at individual sites and genome-wide.",
+  "abstract_zh": "转录因子（TFs）的DNA结合活性受内在序列偏好与外在相互作用（如细胞特异性染色质景观及其他调控蛋白）的共同影响。厘清这些结合决定因素的作用仍具挑战性。例如，Forkhead结构域（Fox）转录因子亚家族中的FoxA是已知的先驱因子，能在发育过程中结合相对难以接近的位点。然而，FoxA转录因子的结合在不同细胞类型间也存在差异，表明其结合受内在与外在力量共同引导。尽管其他Forkhead结构域转录因子常被假定具有先驱能力，但序列和染色质特征如何影响相关Fox转录因子的结合尚未被系统表征。在此，我们提出一种原则性方法，用于比较内在DNA序列偏好与细胞特异性染色质环境对转录因子DNA结合活性的相对贡献。我们将该方法应用于研究一组选定的Fox转录因子（FoxA1、FoxC1、FoxG1、FoxL2和FoxP3）在结合特异性上的差异。我们在小鼠胚胎干细胞中过表达选定的Fox转录因子，该平台可在相同预先存在的染色质背景下对比各转录因子的结合活性。通过应用卷积神经网络解释Fox转录因子的结合模式，我们评估了序列和预先存在的染色质特征如何共同促进诱导的转录因子结合。我们证明，即使在相同的染色质环境中诱导，Fox转录因子也结合不同的DNA靶点，并驱动差异化的基因表达模式。尽管Forkhead结构域与先驱活性相关，但选定的Fox转录因子对预先存在的染色质状态表现出广泛的亲和力范围。利用序列和染色质特征归因技术解释神经网络预测，我们表明，差异化的序列偏好与差异化的结合相对不可接近染色质能力相结合，共同解释了Fox转录因子在单个位点和全基因组范围内的结合模式。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37873361/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37873361/",
+  "paper_page_path": "papers/pubmed/37873361/index.html"
+}

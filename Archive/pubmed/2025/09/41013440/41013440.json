@@ -1,0 +1,571 @@
+{
+  "identity": {
+    "pmid": "41013440",
+    "doi": "10.1186/s12915-025-02400-x",
+    "title": "Machine learning combined with omics-based approaches reveals T-lymphocyte cellular fate imbalance in abdominal aortic aneurysm."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Abdominal aortic aneurysm (AAA) is typically an asymptomatic disease closely associated with immune mechanisms. A deep understanding of cellular responses within AAA tissues, particularly the molecular changes in T-cell populations, is critical for disease diagnosis and treatment. However, the specific mechanisms inducing T-lymphocyte fate imbalance in AAA remain to be elucidated. RESULTS: The analysis revealed the core mechanisms driving T-lymphocyte fate imbalance in AAA. We successfully established a comprehensive regulatory map encompassing T-cell infiltration regulatory features, critical transcription factors, and dysregulated immune signaling pathways. Machine learning algorithms identified transcription factors FOSB and JUNB as key biomarkers. Validation across multiple independent datasets and clinical samples confirmed the feasibility and accuracy of FOSB and JUNB as clinical diagnostic biomarkers for AAA. CONCLUSIONS: Through the analysis of single-cell and bulk data, hallmarks of human AAA cellular landscape and T-cell comprehensive developmental relationships were recapitulated. This study identified important roles of T-cell and the molecular mechanisms for the dynamic T-cell infiltrating process, which could characterize disease status and landscape of human AAA microenvironment. Using the deep learning algorithms, FOSB and JUNB were demonstrated as pivotal biomarkers of AAA, together with screening the potential pharmacologic agents targeting T-cell polarization. Taken together, this expands the current understanding of AAA pathogenesis and may provide a feasible immune-targeted therapeutic strategy.",
+    "keywords": [
+      "Abdominal aortic aneurysm",
+      "Immunological microenvironment",
+      "Machine learning",
+      "Regulation network",
+      "Single-cell RNA sequencing",
+      "T cells"
+    ],
+    "mesh_terms": [
+      "*Aortic Aneurysm, Abdominal/immunology/genetics",
+      "Humans",
+      "*T-Lymphocytes/immunology",
+      "*Machine Learning",
+      "Biomarkers/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Demin",
+        "Zhang, Ge",
+        "Du, Pengchong",
+        "Cao, Chang",
+        "He, Xuyu",
+        "Lv, Yan",
+        "Yuan, Peiyu",
+        "Wang, Yujia",
+        "Wu, Ruhao",
+        "Cao, Yifan",
+        "Yang, Yu",
+        "Gao, Jiamin",
+        "Lan, Bo",
+        "Shi, Guo-Ping",
+        "Cui, Xiaolin",
+        "Zhang, Jinying",
+        "Tang, Junnan"
+      ],
+      "short_names": [
+        "Li D",
+        "Zhang G",
+        "Du P",
+        "Cao C",
+        "He X",
+        "Lv Y",
+        "Yuan P",
+        "Wang Y",
+        "Wu R",
+        "Cao Y",
+        "Yang Y",
+        "Gao J",
+        "Lan B",
+        "Shi GP",
+        "Cui X",
+        "Zhang J",
+        "Tang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+        "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+        "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China.",
+        "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+        "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+        "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China.",
+        "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+        "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+        "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China.",
+        "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+        "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+        "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China.",
+        "Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, 02115, USA.",
+        "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+        "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+        "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China.",
+        "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+        "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+        "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China.",
+        "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+        "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+        "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China.",
+        "Department of Respiratory and Critical Care Medicine, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+        "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+        "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+        "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China.",
+        "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+        "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+        "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China.",
+        "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+        "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+        "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China.",
+        "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+        "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+        "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+        "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China.",
+        "Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, 02115, USA. gpshi@seu.edu.cn.",
+        "Zhongda Hospital, Advanced Institute for Life and Health, School of Medicine, Southeast University, Nanjing, 210096, China. gpshi@seu.edu.cn.",
+        "School of Medicine, The Chinese University of Hong Kong (Shenzhen), Shenzhen, 518172, China. stevencui@cuhk.edu.cn.",
+        "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China. jyzhang@zzu.edu.cn.",
+        "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China. jyzhang@zzu.edu.cn.",
+        "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China. jyzhang@zzu.edu.cn.",
+        "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China. jyzhang@zzu.edu.cn.",
+        "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China. jyzhang@zzu.edu.cn.",
+        "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China. fcctangjn@zzu.edu.cn.",
+        "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China. fcctangjn@zzu.edu.cn.",
+        "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China. fcctangjn@zzu.edu.cn.",
+        "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China. fcctangjn@zzu.edu.cn.",
+        "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China. fcctangjn@zzu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Demin",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+          "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+          "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ge",
+        "short_name": "Zhang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+          "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+          "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China."
+        ]
+      },
+      {
+        "full_name": "Du, Pengchong",
+        "short_name": "Du P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+          "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+          "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Chang",
+        "short_name": "Cao C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+          "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+          "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China."
+        ]
+      },
+      {
+        "full_name": "He, Xuyu",
+        "short_name": "He X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Lv, Yan",
+        "short_name": "Lv Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+          "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+          "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Peiyu",
+        "short_name": "Yuan P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+          "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+          "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yujia",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+          "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+          "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Ruhao",
+        "short_name": "Wu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Yifan",
+        "short_name": "Cao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+          "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+          "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yu",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+          "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+          "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Jiamin",
+        "short_name": "Gao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+          "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+          "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China."
+        ]
+      },
+      {
+        "full_name": "Lan, Bo",
+        "short_name": "Lan B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China.",
+          "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China.",
+          "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China.",
+          "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Guo-Ping",
+        "short_name": "Shi GP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, 02115, USA. gpshi@seu.edu.cn.",
+          "Zhongda Hospital, Advanced Institute for Life and Health, School of Medicine, Southeast University, Nanjing, 210096, China. gpshi@seu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Cui, Xiaolin",
+        "short_name": "Cui X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, The Chinese University of Hong Kong (Shenzhen), Shenzhen, 518172, China. stevencui@cuhk.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jinying",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China. jyzhang@zzu.edu.cn.",
+          "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China. jyzhang@zzu.edu.cn.",
+          "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China. jyzhang@zzu.edu.cn.",
+          "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China. jyzhang@zzu.edu.cn.",
+          "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China. jyzhang@zzu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Tang, Junnan",
+        "short_name": "Tang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan, 450052, China. fcctangjn@zzu.edu.cn.",
+          "Key Laboratory of Cardiac Injury and Repair of Henan Province, Zhengzhou, Henan, 450052, China. fcctangjn@zzu.edu.cn.",
+          "Henan Province Clinical Research Center for Cardiovascular Diseases, Zhengzhou, Henan, 450052, China. fcctangjn@zzu.edu.cn.",
+          "Henan Province Academy of Cardiovascular Disease Prevention and Treatment, Zhengzhou, Henan, 450052, China. fcctangjn@zzu.edu.cn.",
+          "State Key Laboratory of Metabolic Dysregulation and Prevention and Treatment of Esophageal Cancer, Tianjian Laboratory of Advanced Biomedical Sciences, Academy of Medical Sciences, Zhengzhou, Henan, 450001, China. fcctangjn@zzu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC biology"
+    ],
+    "journal_abbrev": [
+      "BMC Biol"
+    ],
+    "pub_date": "2025 Sep 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/27 06:33",
+    "fetched_at": "2026-10-01 02:39:46"
+  },
+  "links": {
+    "cites": [
+      "42653317",
+      "42183287",
+      "42049434",
+      "41673666"
+    ],
+    "refs": [
+      "40998516",
+      "40010763",
+      "39606188",
+      "39432882",
+      "39117613",
+      "38591820",
+      "38372705",
+      "38063185",
+      "37664595",
+      "37021575",
+      "36951059",
+      "36474294",
+      "35727093",
+      "34901214",
+      "34339918",
+      "34285779",
+      "34012920",
+      "33779682",
+      "33613530",
+      "33597522",
+      "33472403",
+      "33153394",
+      "33017217",
+      "32888286",
+      "32678909",
+      "32384150",
+      "31552015",
+      "31146585",
+      "30643263",
+      "30567485",
+      "30462313",
+      "30337540",
+      "30289549",
+      "29608179",
+      "29379481",
+      "29191809",
+      "28825705",
+      "28373589",
+      "28052254",
+      "26771021",
+      "26525543",
+      "26482507",
+      "26388737",
+      "26044582",
+      "25944698",
+      "25695433",
+      "25605792",
+      "25295306",
+      "25183485",
+      "24752442",
+      "24629298",
+      "24138885",
+      "23323831",
+      "22455463",
+      "22257669",
+      "21880694",
+      "20808728",
+      "20219672",
+      "19816084",
+      "19546866",
+      "18427548",
+      "18250420",
+      "17634102",
+      "17575071",
+      "17182939",
+      "16757311",
+      "16500147",
+      "16414293",
+      "16199517",
+      "16199154",
+      "14764734",
+      "9884385",
+      "9121274",
+      "1445798"
+    ],
+    "similar": [
+      "41013440",
+      "40532306",
+      "39512836",
+      "35769488",
+      "38867262",
+      "39508893",
+      "39602349",
+      "39173977",
+      "39823264",
+      "36341412",
+      "40105795",
+      "40915059",
+      "39234237",
+      "40301103",
+      "40995065",
+      "39723205",
+      "40486911",
+      "38431726",
+      "40140755",
+      "39103059",
+      "39586133",
+      "34495251",
+      "40857330",
+      "39600608",
+      "39051127",
+      "40803394",
+      "40402405",
+      "35451888",
+      "28860231",
+      "37987755",
+      "41045823",
+      "31310631",
+      "41041074",
+      "35149342",
+      "35568340",
+      "40184622",
+      "38112597",
+      "40775512",
+      "39697792",
+      "31552015",
+      "35447046",
+      "39968802",
+      "38785203",
+      "38981221",
+      "35381314",
+      "33415145",
+      "32734582",
+      "34379797",
+      "27194055",
+      "32678909",
+      "20488324",
+      "33472403",
+      "32805313",
+      "32610319",
+      "38251428",
+      "41208012",
+      "31147569",
+      "12957681",
+      "31980239",
+      "34930827",
+      "39239552",
+      "38637948",
+      "37999728",
+      "27358138",
+      "40314374",
+      "31553078",
+      "30651000",
+      "40636968",
+      "38888318",
+      "35762613",
+      "32354235",
+      "24752442",
+      "14764734",
+      "39658102",
+      "37519764",
+      "34637689",
+      "34856760",
+      "27634836",
+      "16297165",
+      "38686580",
+      "27126477",
+      "22871592",
+      "20448211",
+      "35620523",
+      "35224035",
+      "29545260",
+      "35454098",
+      "40244438",
+      "35299890",
+      "38335213",
+      "17350784",
+      "18078385",
+      "17182939",
+      "31939880",
+      "31682022",
+      "38070790",
+      "22797469",
+      "41497348",
+      "40770945",
+      "38181271"
+    ],
+    "review": [
+      "41013440",
+      "40402405",
+      "37987755",
+      "35454098"
+    ],
+    "pmc": [
+      "12465141"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-025-02400-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41013440/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1760",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

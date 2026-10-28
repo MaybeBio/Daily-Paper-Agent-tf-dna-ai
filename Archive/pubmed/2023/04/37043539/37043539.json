@@ -1,0 +1,405 @@
+{
+  "identity": {
+    "pmid": "37043539",
+    "doi": "10.1073/pnas.2210623120",
+    "title": "A genome-wide optical pooled screen reveals regulators of cellular antiviral responses."
+  },
+  "content": {
+    "abstract": "The infection of mammalian cells by viruses and innate immune responses to infection are spatiotemporally organized processes. Cytosolic RNA sensors trigger nuclear translocation of the transcription factor interferon regulatory factor 3 (IRF3) and consequent induction of host immune responses to RNA viruses. Previous genetic screens for factors involved in viral sensing did not resolve changes in the subcellular localization of host or viral proteins. Here, we increased the throughput of our optical pooled screening technology by over fourfold. This allowed us to carry out a genome-wide CRISPR knockout screen using high-resolution multiparameter imaging of cellular responses to Sendai virus infection coupled with in situ cDNA sequencing by synthesis (SBS) to identify 80,408 single guide RNAs (sgRNAs) in 10,366,390 cells-over an order of magnitude more genomic perturbations than demonstrated previously using an in situ SBS readout. By ranking perturbations using human-designed and deep learning image feature scores, we identified regulators of IRF3 translocation, Sendai virus localization, and peroxisomal biogenesis. Among the hits, we found that ATP13A1, an ER-localized P5A-type ATPase, is essential for viral sensing and is required for targeting of mitochondrial antiviral signaling protein (MAVS) to mitochondrial membranes where MAVS must be localized for effective signaling through retinoic acid-inducible gene I (RIG-I). The ability to carry out genome-wide pooled screens with complex high-resolution image-based phenotyping dramatically expands the scope of functional genomics approaches.",
+    "keywords": [
+      "CRISPR screening",
+      "IRF3",
+      "RIG-I",
+      "Sendai",
+      "high-content imaging"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Signal Transduction",
+      "RNA",
+      "Immunity, Innate/genetics",
+      "*RNA Viruses/genetics",
+      "Antiviral Agents",
+      "Interferon Regulatory Factor-3/metabolism",
+      "Mammals/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Carlson, Rebecca J",
+        "Leiken, Michael D",
+        "Guna, Alina",
+        "Hacohen, Nir",
+        "Blainey, Paul C"
+      ],
+      "short_names": [
+        "Carlson RJ",
+        "Leiken MD",
+        "Guna A",
+        "Hacohen N",
+        "Blainey PC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5423-9717",
+        "ORCID: 0000-0003-0757-1255",
+        "ORCID: 0000-0002-2349-2656",
+        "ORCID: 0000-0002-4889-8783"
+      ],
+      "affiliations": [
+        "Department of Health Sciences and Technology, Massachusetts Institute of Technology, Cambridge, MA 02139.",
+        "Broad Institute of Massachusetts Institute of Technology and Harvard, Cambridge, MA 02142.",
+        "Broad Institute of Massachusetts Institute of Technology and Harvard, Cambridge, MA 02142.",
+        "Whitehead Institute, Cambridge, MA 02142.",
+        "Broad Institute of Massachusetts Institute of Technology and Harvard, Cambridge, MA 02142.",
+        "Center for Cancer Research, Massachusetts General Hospital, Boston, MA 02114.",
+        "Broad Institute of Massachusetts Institute of Technology and Harvard, Cambridge, MA 02142.",
+        "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139.",
+        "Koch Institute for Integrative Cancer Research at MIT, Cambridge, MA 02139."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Carlson, Rebecca J",
+        "short_name": "Carlson RJ",
+        "identifiers": [
+          "0000-0002-5423-9717"
+        ],
+        "affiliations": [
+          "Department of Health Sciences and Technology, Massachusetts Institute of Technology, Cambridge, MA 02139.",
+          "Broad Institute of Massachusetts Institute of Technology and Harvard, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Leiken, Michael D",
+        "short_name": "Leiken MD",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of Massachusetts Institute of Technology and Harvard, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Guna, Alina",
+        "short_name": "Guna A",
+        "identifiers": [
+          "0000-0003-0757-1255"
+        ],
+        "affiliations": [
+          "Whitehead Institute, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Hacohen, Nir",
+        "short_name": "Hacohen N",
+        "identifiers": [
+          "0000-0002-2349-2656"
+        ],
+        "affiliations": [
+          "Broad Institute of Massachusetts Institute of Technology and Harvard, Cambridge, MA 02142.",
+          "Center for Cancer Research, Massachusetts General Hospital, Boston, MA 02114."
+        ]
+      },
+      {
+        "full_name": "Blainey, Paul C",
+        "short_name": "Blainey PC",
+        "identifiers": [
+          "0000-0002-4889-8783"
+        ],
+        "affiliations": [
+          "Broad Institute of Massachusetts Institute of Technology and Harvard, Cambridge, MA 02142.",
+          "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139.",
+          "Koch Institute for Integrative Cancer Research at MIT, Cambridge, MA 02139."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2023 Apr 18",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/13 06:00",
+    "fetched_at": "2026-09-28 22:57:36"
+  },
+  "links": {
+    "cites": [
+      "42420721",
+      "42218140",
+      "41910274",
+      "41896452",
+      "41402283",
+      "40864651",
+      "40832267",
+      "40799808",
+      "40707832",
+      "40631143",
+      "40560725",
+      "40502078",
+      "40324704",
+      "39990381",
+      "39702735",
+      "39700280",
+      "39672099",
+      "39657680",
+      "39605461",
+      "39422472",
+      "39398201",
+      "39375449",
+      "39375448",
+      "38645119",
+      "38617272",
+      "38558968",
+      "38234835",
+      "37808873"
+    ],
+    "refs": [
+      "36347254",
+      "36283413",
+      "35022620",
+      "34397140",
+      "34034859",
+      "33686287",
+      "33574281",
+      "33523982",
+      "33446553",
+      "33410501",
+      "33382968",
+      "33333024",
+      "33147445",
+      "32973005",
+      "32658937",
+      "32343706",
+      "32203325",
+      "32187542",
+      "32102997",
+      "31919360",
+      "31796933",
+      "31626775",
+      "31601678",
+      "31019072",
+      "30655525",
+      "30476243",
+      "30224801",
+      "29677479",
+      "29662124",
+      "29505581",
+      "29381763",
+      "29180807",
+      "28746868",
+      "28287082",
+      "28132841",
+      "27791088",
+      "27560178",
+      "27508859",
+      "27404874",
+      "27141961",
+      "27043002",
+      "26993858",
+      "26052098",
+      "25782006",
+      "25761760",
+      "25636800",
+      "25516281",
+      "24984854",
+      "24836520",
+      "24392018",
+      "23852452",
+      "23785285",
+      "23567047",
+      "23160154",
+      "22908215",
+      "20451243",
+      "20381137",
+      "19910308",
+      "19325107",
+      "18635538",
+      "16122419",
+      "6255459"
+    ],
+    "similar": [
+      "37043539",
+      "31534039",
+      "29093090",
+      "32571931",
+      "27419230",
+      "36314820",
+      "34379517",
+      "30769920",
+      "22532683",
+      "27252539",
+      "24096085",
+      "38663254",
+      "36216581",
+      "28325765",
+      "26676770",
+      "23028806",
+      "19956647",
+      "29441066",
+      "25833049",
+      "39115433",
+      "32295140",
+      "26719279",
+      "20628368",
+      "32321802",
+      "25749629",
+      "20161788",
+      "35196784",
+      "31434735",
+      "31413131",
+      "25158146",
+      "25142606",
+      "33913550",
+      "24120683",
+      "33684176",
+      "23633948",
+      "35100065",
+      "34249006",
+      "31937650",
+      "19479062",
+      "27016603",
+      "32321811",
+      "21782231",
+      "17942531",
+      "29437975",
+      "28295920",
+      "19193783",
+      "32476569",
+      "19474100",
+      "29263274",
+      "27956705",
+      "26378160",
+      "14747536",
+      "37162358",
+      "38834141",
+      "27807226",
+      "29802199",
+      "28704656",
+      "29973649",
+      "24586175",
+      "30867312",
+      "26100021",
+      "33887365",
+      "30988429",
+      "32038656",
+      "22022264",
+      "31270229",
+      "36748584",
+      "30209176",
+      "37555661",
+      "22792062",
+      "33637958",
+      "21626268",
+      "31235549",
+      "29237838",
+      "24800889",
+      "16914100",
+      "32295922",
+      "34804040",
+      "32878885",
+      "28465426",
+      "28848048",
+      "21865020",
+      "25948741",
+      "37754758",
+      "21285412",
+      "31375559",
+      "25968648",
+      "21307186",
+      "19854139",
+      "16125763",
+      "25878102",
+      "38003298",
+      "30741586",
+      "19419966",
+      "37588594",
+      "35297670",
+      "28195391",
+      "23545497",
+      "31085639",
+      "28659477",
+      "36649698",
+      "39375448",
+      "39345511"
+    ],
+    "review": [
+      "37043539",
+      "25749629",
+      "24120683",
+      "21626268",
+      "21865020"
+    ],
+    "pmc": [
+      "10120039"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2210623120?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37043539/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37043539",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/37043539",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-977",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37043539",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse179288",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

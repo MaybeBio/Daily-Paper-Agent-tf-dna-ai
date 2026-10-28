@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34752400",
+  "title": "Prediction of Transcription Factor Binding Sites With an Attention Augmented Convolutional Neural Network.",
+  "authors": "Jing Zhang, Fang; Zhang, Shao-Wu; Zhang, Shihua",
+  "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+  "published_date": "2021-11-10",
+  "window": {
+    "start": "2021-11-08",
+    "end": "2021-11-14"
+  },
+  "score": 8,
+  "one_liner_zh": "提出注意力增强卷积神经网络ACNN，结合组蛋白修饰特征预测TF结合位点，通过对抗训练捕获跨细胞类型共性，核心聚焦TF-DNA结合位点预测且方法为AI深度学习。",
+  "abstract": "Identification of transcription factor binding sites (TFBSs) is essential for revealing the rules of protein-DNA binding. Although some computational methods have been presented to predict TFBSs using epigenomic and sequence features, most of them ignore the common features among cross-cell types. It is still unclear to what extent the common features could help for this task. To this end, we proposed a new method (named Attention-augmented Convolutional Neural Network, or ACNN) to predict TFBSs. ACNN uses attention-augmented convolutional layers to capture global and local contexts in DNA sequences and employs the convolutional layers to capture features of histone modification markers. In addition, ACNN adopts the private and shared convolutional neural network (CNN) modules to learn specific and common features, respectively. To encourage the shared CNN module to learn the common features, adversarial training is applied in ACNN. The results on 253 ChIP-seq datasets show that ACNN outperforms other existing methods. The attention-augmented convolutional layers and adversarial training mechanism in ACNN can effectively improve the prediction performance. Moreover, in the case of limited labeled data, ACNN also performs better than a baseline method. We further visualize the convolution kernels as motifs to explain the interpretability of ACNN.",
+  "abstract_zh": "转录因子结合位点（TFBSs）的识别对于揭示蛋白质-DNA结合规则至关重要。尽管已有一些计算方法利用表观基因组和序列特征来预测TFBSs，但大多数方法忽略了跨细胞类型间的共同特征。目前尚不清楚这些共同特征能在多大程度上对此任务有所帮助。为此，我们提出了一种新方法（命名为注意力增强卷积神经网络，或ACNN）来预测TFBSs。ACNN利用注意力增强卷积层捕捉DNA序列中的全局和局部上下文，并采用卷积层捕捉组蛋白修饰标记的特征。此外，ACNN采用私有和共享卷积神经网络（CNN）模块分别学习特定特征和共同特征。为了鼓励共享CNN模块学习共同特征，ACNN中应用了对抗训练。在253个ChIP-seq数据集上的结果表明，ACNN优于其他现有方法。ACNN中的注意力增强卷积层和对抗训练机制能有效提升预测性能。此外，在标记数据有限的情况下，ACNN也优于基线方法。我们进一步将卷积核可视化为基序，以解释ACNN的可解释性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34752400/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34752400/",
+  "paper_page_path": "papers/pubmed/34752400/index.html"
+}

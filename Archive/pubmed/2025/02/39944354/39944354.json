@@ -1,0 +1,450 @@
+{
+  "identity": {
+    "pmid": "39944354",
+    "doi": "10.3389/fgene.2024.1496462",
+    "title": "Identifying health risk determinants and molecular targets in patients with idiopathic pulmonary fibrosis via combined differential and weighted gene co-expression analysis."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Idiopathic pulmonary fibrosis (IPF) is a rare but debilitating lung disease characterized by excessive fibrotic tissue accumulation, primarily affecting individuals over 50 years of age. Early diagnosis is challenging, and without intervention, the prognosis remains poor. Understanding the molecular mechanisms underlying IPF pathogenesis is crucial for identifying diagnostic markers and therapeutic targets. METHODS: We analyzed transcriptomic data from lung tissues of IPF patients using two independent datasets. Differentially expressed genes (DEGs) were identified, and their functional roles were assessed through pathway enrichment and tissue-specific expression analysis. Protein-protein interaction (PPI) networks and co-expression modules were constructed to identify hub genes and their associations with disease severity. Machine learning approaches were applied to identify genes capable of differentiating IPF patients from healthy individuals. Regulatory signatures, including transcription factor and microRNA interactions, were also explored, alongside the identification of potential drug targets. RESULTS: A total of 275 and 167 DEGs were identified across two datasets, with 67 DEGs common to both. These genes exhibited distinct expression patterns across tissues and were associated with pathways such as extracellular matrix organization, collagen fibril formation, and cell adhesion. Co-expression analysis revealed DEG modules correlated with varying IPF severity phenotypes. Machine learning analysis pinpointed a subset of genes with high discriminatory power between IPF and healthy individuals. PPI network analysis identified hub proteins involved in key biological processes, while functional enrichment reinforced their roles in extracellular matrix regulation. Regulatory analysis highlighted interactions with transcription factors and microRNAs, suggesting potential mechanisms driving IPF pathogenesis. Potential drug targets among the DEGs were also identified. DISCUSSION: This study provides a comprehensive transcriptomic overview of IPF, uncovering DEGs, hub proteins, and regulatory signatures implicated in disease progression. Validation in independent datasets confirmed the relevance of these findings. The insights gained here lay the groundwork for developing diagnostic tools and novel therapeutic strategies for IPF.",
+    "keywords": [
+      "biomarkers",
+      "differentially expressed genes",
+      "drug targets",
+      "idiopathic pulmonary fibrosis",
+      "lung tissue",
+      "molecular mechanisms",
+      "pulmonary disorders",
+      "transcriptome analysis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Moin, Abu Tayab",
+        "Ullah, Md Asad",
+        "Nipa, Jannatul Ferdous",
+        "Rahman, Mohammad Sheikh Farider",
+        "Emran, Afsana",
+        "Islam, Md Minhazul",
+        "Das, Swapnil",
+        "Arian, Tawsif Al",
+        "Elahi, Mohammad Mahfuz Enam",
+        "Akter, Mukta",
+        "Rahman, Umme Sadea",
+        "Halder, Arnab",
+        "Saikat, Shoaib",
+        "Hosen, Mohammad Jakir"
+      ],
+      "short_names": [
+        "Moin AT",
+        "Ullah MA",
+        "Nipa JF",
+        "Rahman MSF",
+        "Emran A",
+        "Islam MM",
+        "Das S",
+        "Arian TA",
+        "Elahi MME",
+        "Akter M",
+        "Rahman US",
+        "Halder A",
+        "Saikat S",
+        "Hosen MJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Clinical Genetics, Genomics and Enzyme Research, Department of Genetic Engineering and Biotechnology, Faculty of Biological Sciences, University of Chittagong, Chattogram, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Faculty of Biological Sciences, Jahangirnagar University, Dhaka, Bangladesh.",
+        "Department of Genetic Engineering and Biotechnology, East West University, Dhaka, Bangladesh.",
+        "Department of Molecular Biotechnology, Applied Bioscience and Process Engineering, Anhalt University of Applied Sciences, Kothen, Germany.",
+        "Department of Biotechnology and Genetic Engineering, Faculty of Biological Sciences, Jahangirnagar University, Dhaka, Bangladesh.",
+        "Department of Pharmacy, BGC Trust University Bangladesh, Chattogram, Bangladesh.",
+        "Department of Pharmacy, University of Science and Technology Chittagong (USTC), Chattogram, Bangladesh.",
+        "Department of Pharmacy, Faculty of Biological Science, Jahangirnagar University, Dhaka, Savar, Bangladesh.",
+        "Department of Pharmacy, University of Asia Pacific, Dhaka, Bangladesh.",
+        "Department of Agricultural Extension, Ministry of Agriculture, Dhaka, Bangladesh.",
+        "Department of Pharmacy, Independent University, Dhaka, Bangladesh.",
+        "Department of Biotechnology and Genetic Engineering, Faculty of Biological Sciences, Jahangirnagar University, Dhaka, Bangladesh.",
+        "Department of Biochemistry and Biotechnology, Faculty of Bio-Sciences, University of Barishal, Barishal, Bangladesh.",
+        "Department of Genetic Engineering and Biotechnology, School of Life Sciences, Shahjalal University of Science and Technology, Sylhet, Bangladesh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Moin, Abu Tayab",
+        "short_name": "Moin AT",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Clinical Genetics, Genomics and Enzyme Research, Department of Genetic Engineering and Biotechnology, Faculty of Biological Sciences, University of Chittagong, Chattogram, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Ullah, Md Asad",
+        "short_name": "Ullah MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Faculty of Biological Sciences, Jahangirnagar University, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Nipa, Jannatul Ferdous",
+        "short_name": "Nipa JF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering and Biotechnology, East West University, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Rahman, Mohammad Sheikh Farider",
+        "short_name": "Rahman MSF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biotechnology, Applied Bioscience and Process Engineering, Anhalt University of Applied Sciences, Köthen, Germany."
+        ]
+      },
+      {
+        "full_name": "Emran, Afsana",
+        "short_name": "Emran A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Faculty of Biological Sciences, Jahangirnagar University, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Islam, Md Minhazul",
+        "short_name": "Islam MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, BGC Trust University Bangladesh, Chattogram, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Das, Swapnil",
+        "short_name": "Das S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, University of Science and Technology Chittagong (USTC), Chattogram, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Arian, Tawsif Al",
+        "short_name": "Arian TA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Faculty of Biological Science, Jahangirnagar University, Dhaka, Savar, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Elahi, Mohammad Mahfuz Enam",
+        "short_name": "Elahi MME",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, University of Asia Pacific, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Akter, Mukta",
+        "short_name": "Akter M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Agricultural Extension, Ministry of Agriculture, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Rahman, Umme Sadea",
+        "short_name": "Rahman US",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Independent University, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Halder, Arnab",
+        "short_name": "Halder A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Genetic Engineering, Faculty of Biological Sciences, Jahangirnagar University, Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Saikat, Shoaib",
+        "short_name": "Saikat S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biotechnology, Faculty of Bio-Sciences, University of Barishal, Barishal, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hosen, Mohammad Jakir",
+        "short_name": "Hosen MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering and Biotechnology, School of Life Sciences, Shahjalal University of Science and Technology, Sylhet, Bangladesh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/13 11:00",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38566986",
+      "37142338",
+      "36936416",
+      "36923791",
+      "36860337",
+      "36849551",
+      "36641135",
+      "36608640",
+      "36377416",
+      "36153614",
+      "35780715",
+      "35628257",
+      "35600643",
+      "35350273",
+      "35326501",
+      "35197532",
+      "35127370",
+      "35069688",
+      "35008597",
+      "34977500",
+      "34705621",
+      "34666057",
+      "34497295",
+      "34476240",
+      "34451852",
+      "34233665",
+      "33905434",
+      "33672678",
+      "33391348",
+      "33318294",
+      "33239795",
+      "32759383",
+      "32602730",
+      "32572892",
+      "32485920",
+      "32300359",
+      "32067272",
+      "31882993",
+      "31309122",
+      "31208406",
+      "30944313",
+      "30931480",
+      "30862132",
+      "30782187",
+      "30606230",
+      "30476243",
+      "29989020",
+      "29677166",
+      "29499355",
+      "29411215",
+      "29329637",
+      "29165655",
+      "29150411",
+      "29126136",
+      "29091295",
+      "28993685",
+      "28978212",
+      "28745329",
+      "28665219",
+      "28595626",
+      "28365056",
+      "28250200",
+      "28093536",
+      "28079978",
+      "28066036",
+      "27924018",
+      "27754357",
+      "27590591",
+      "27582065",
+      "27023440",
+      "26733877",
+      "25973246",
+      "25521941",
+      "25516281",
+      "25217476",
+      "24613345",
+      "24382386",
+      "24190033",
+      "23987664",
+      "23737168",
+      "23728869",
+      "23329396",
+      "23288041",
+      "22772564",
+      "22455463",
+      "22281153",
+      "21855147",
+      "21740331",
+      "21719092",
+      "21526222",
+      "21511034",
+      "21487520",
+      "21137019",
+      "21071411",
+      "20935110",
+      "20731027",
+      "20507268",
+      "20484822",
+      "20452419",
+      "20440268",
+      "20382799",
+      "20333255",
+      "19541911",
+      "19422052",
+      "19244387",
+      "17869213",
+      "15653994",
+      "14668817",
+      "14597658",
+      "9274534"
+    ],
+    "similar": [
+      "39944354",
+      "34285914",
+      "37928522",
+      "38370408",
+      "40273141",
+      "32782692",
+      "39991151",
+      "38571583",
+      "40187620",
+      "38784225",
+      "37686108",
+      "37559532",
+      "34873597",
+      "31177264",
+      "37996625",
+      "37337515",
+      "37924392",
+      "33194355",
+      "36871016",
+      "38137330",
+      "38699746",
+      "37794454",
+      "37887075",
+      "39165378",
+      "39340293",
+      "38414734",
+      "30506760",
+      "39855369",
+      "34476240",
+      "35480306",
+      "37907428",
+      "36035368",
+      "34522168",
+      "36923791",
+      "37334348",
+      "34734011",
+      "34876074",
+      "36111015",
+      "33847347",
+      "38259479",
+      "39254743",
+      "38566986",
+      "36860337",
+      "39046603",
+      "28081703",
+      "35628257",
+      "39289672",
+      "40280949",
+      "40075162",
+      "38334875",
+      "38734841",
+      "33046043",
+      "35045126",
+      "37605652",
+      "36685820",
+      "33362862",
+      "32899090",
+      "36211385",
+      "38703565",
+      "31258663",
+      "37985153",
+      "38872435",
+      "39420432",
+      "39888730",
+      "37275887",
+      "35534152",
+      "30366970",
+      "37666859",
+      "38524085",
+      "35870428",
+      "37978501",
+      "40170095",
+      "34975885",
+      "40093327",
+      "37540140",
+      "34370624",
+      "40022042",
+      "40328901",
+      "29058630",
+      "39062997",
+      "37426132",
+      "33024988",
+      "39959639",
+      "35078421",
+      "38509535",
+      "39402203",
+      "34746180",
+      "28484236",
+      "36507532",
+      "37266442",
+      "34026864",
+      "39704195",
+      "33878985",
+      "39118438",
+      "35563422",
+      "34215202",
+      "39147114",
+      "28588348",
+      "38349858",
+      "37783761"
+    ],
+    "review": [
+      "39944354",
+      "37887075"
+    ],
+    "pmc": [
+      "11813903"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39944354/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2024.1496462",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

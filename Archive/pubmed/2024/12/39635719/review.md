@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The study uses molecular docking and MD simulations to compare DNA binding of TTHA1873 wild type and mutants R55A, R138A, and R55A/R138A. Docking scores and binding free energies indicate WT binds DNA more strongly and stably than mutants. Hydrogen bonding patterns differ between WT and mutants, and single mutations R55A and R138A abolish DNA binding. The authors conclude R55 and R138 are likely critical for DNA binding.
+- **Visible evidence base** Docking scores for four variants, qualitative MD stability and conformational space statements, qualitative hydrogen bonding pattern differences, qualitative binding free energy comparisons
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field, system setup, trajectory lengths, convergence criteria, error estimates, structural figures, per-residue interaction data, binding free energy values and decomposition, statistical analysis, and any validation of docking or MD protocols
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study, but the evidence provided is insufficient to establish the central claims. Docking scores are reported without context or error estimates, and MD results are described only qualitatively. The conclusion that single mutations abolish DNA binding is stronger than the evidence supports, as no quantitative binding free energy values or statistical measures are shown. The study may be of interest to researchers in thermophilic protein DNA interactions, but the current abstract does not provide enough detail to assess technical soundness or reproducibility.
+- **Who would be interested in the results, and why** Researchers studying DNA binding proteins from thermophilic organisms, particularly those investigating the TTHA1873 family or similar helix turn helix motifs. The work may also interest computational biologists focused on mutational effects on protein DNA recognition, as it offers a comparative docking and MD framework. However, the narrow scope and lack of experimental validation limit broader appeal.
+- **Major strengths** The study addresses a clear question about the role of specific arginine residues in DNA binding. The use of multiple mutants including a double mutant provides a systematic comparison. The combination of docking and MD is appropriate for investigating binding stability and dynamics.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The docking scores indicate WT has more significant binding capability with DNA compared to mutants.
+  - **Evidence pointer** Abstract, docking scores section
+  - **Concern** Docking scores are reported as single values without standard deviations, replicates, or a description of the scoring function and its known limitations. The differences between WT and mutants, for example 225.80 versus 209.81 kcal/mol, are presented as meaningful, but no statistical or energetic significance threshold is provided. Docking scores from a single pose are not reliable indicators of binding affinity.
+  - **Why it matters** The claim that WT has more significant binding capability rests entirely on these scores. Without error estimates or validation against known binding data, the differences could be within the noise of the method. This undermines the first major conclusion of the study.
+  - **Resolution test** Provide docking scores as mean and standard deviation from multiple runs or multiple poses. Show that the differences between WT and each mutant are statistically significant. Alternatively, validate the docking protocol against a known complex or experimental binding affinity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The calculated binding free energies imply more stability of the WT TTHA1873 DNA complex, while mutants showed lesser binding affinity.
+  - **Evidence pointer** Abstract, MD analysis section
+  - **Concern** No binding free energy values are reported. The abstract states that calculated binding free energies imply stability, but no numbers, method (for example MM PBSA or MM GBSA), or error estimates are given. Without quantitative data, the reader cannot evaluate the magnitude of the differences or whether they are meaningful.
+  - **Why it matters** This is a central quantitative claim of the study. The absence of actual values makes the claim unverifiable and prevents comparison with other systems. It also precludes assessment of whether the differences are within simulation error.
+  - **Resolution test** Report binding free energy values with standard deviations for all four complexes. Specify the method used and any convergence checks. Show that the differences between WT and mutants exceed the estimated error.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** Substituting single mutation R55A and R138A on TTHA1873 abolishes their DNA binding ability.
+  - **Evidence pointer** Abstract, conclusion section
+  - **Concern** The term abolishes is too strong for the evidence described. The abstract reports reduced docking scores and binding free energies, not complete loss of binding. No data are shown to demonstrate that mutants have zero or negligible binding. Reduced affinity is not equivalent to abolished binding.
+  - **Why it matters** This is the key biological conclusion. Overstating the effect of the mutations could mislead readers about the functional importance of R55 and R138. The claim as stated is not supported by the qualitative evidence presented.
+  - **Resolution test** Provide quantitative binding free energy data showing that mutant binding is within error of zero, or rephrase the claim to state that binding is significantly reduced. If experimental data exist, include them to support the term abolished.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** MD analysis revealed that WT demonstrated stable interactions with DNA and exhibited reduced conformational space compared to mutants.
+  - **Evidence pointer** Abstract, MD analysis section
+  - **Concern** The MD results are described only qualitatively. No simulation length, number of replicates, convergence metrics, or measures of conformational space such as RMSD or RMSF values are provided. The terms stable and reduced conformational space are subjective without supporting data.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without details on simulation setup and quantitative metrics, other researchers cannot replicate or verify the MD findings. This limits the scientific value of the study.
+  - **Resolution test** Report simulation length, force field, water model, temperature and pressure coupling, and provide RMSD and RMSF plots or values for all systems. Include a measure of conformational space such as principal component analysis or radius of gyration with error bars.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, hydrogen bonding pattern statement
+  - **Evidence pointer** Abstract, MD analysis section
+  - **Issue** The statement that significant variations in hydrogen bonding pattern resulted in structural anomalies is vague. It is unclear what constitutes significant variation or what structural anomalies were observed.
+  - **Required correction** Specify the number and type of hydrogen bonds for each complex, and describe the specific structural changes observed, such as changes in secondary structure or binding interface geometry.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, methods description
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract does not specify the DNA sequence or length used in the simulations, nor the source of the TTHA1873 structure. This information is essential for context.
+  - **Required correction** Include the DNA sequence and length, and state the PDB ID or structural model used for TTHA1873.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Language precision
+  - **Affected element** Abstract, title and first sentence
+  - **Evidence pointer** Title and abstract
+  - **Issue** The title states structural differences among TTHA1873 DNA interaction, which is grammatically awkward. The phrase structural differences among is unclear.
+  - **Required correction** Revise the title to something like Molecular dynamics simulations reveal structural differences in TTHA1873 DNA binding upon mutation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The docking score significance, binding free energy quantification, and the strong claim of abolished binding are all unresolved. R1-M4 also needs attention for reproducibility, though it is not strictly blocking if the other concerns are addressed.
+- **Assessment against Nature-style criteria** Originality is moderate. The study applies established methods to a specific protein, but the abstract does not reveal a novel methodological or conceptual advance. Scientific importance is limited by the narrow scope and lack of experimental validation. Interdisciplinary readership is low, as the work is primarily of interest to computational biophysicists and structural biologists. Technical soundness cannot be assessed from the abstract alone, and the missing quantitative data raise concerns. Readability for nonspecialists is acceptable, but the abstract uses technical terms without sufficient explanation. Overall, the work does not meet the bar for a high impact general journal, though it may be suitable for a specialized computational or structural biology venue.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract contains promising ideas, but the lack of quantitative data and the overstatement of the abolishing effect prevent a supportive recommendation. The authors should provide full simulation details, error estimates, and temper the conclusions to match the evidence.
+
+## Risk / unsupported claims
+- The claim that WT has more significant binding capability based on docking scores is unsupported without error estimates or statistical testing.
+- The claim that binding free energies imply more stability is unverifiable because no values are reported.
+- The claim that single mutations abolish DNA binding is unsupported by the qualitative evidence presented.
+- The claim that structural anomalies in mutants result from hydrogen bonding variations is not substantiated with specific data.
+- The overall conclusion that R55 and R138 are likely involved in DNA binding is plausible but not established from the abstract alone.

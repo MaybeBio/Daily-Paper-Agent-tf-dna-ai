@@ -1,0 +1,227 @@
+{
+  "identity": {
+    "pmid": "38422958",
+    "doi": "10.1016/j.compbiomed.2024.108182",
+    "title": "SpecLoop predicts cell type-specific chromatin loop via transcription factor cooperation."
+  },
+  "content": {
+    "abstract": "Cell-type-Specific Chromatin Loops (CSCLs) are crucial for gene regulation and cell fate determination. However, the mechanisms governing their establishment remain elusive. Here, we present SpecLoop, a network regularization-based machine learning framework, to investigate the role of transcription factors (TFs) cooperation in CSCL formation. SpecLoop integrates multi-omics data, including gene expression, chromatin accessibility, sequence, protein-protein interaction, and TF binding motif data, to predict CSCLs and identify TF cooperations. Using high resolution Hi-C data as the gold standard, SpecLoop accurately predicts CSCL in GM12878, IMR90, HeLa-S3, K562, HUVEC, HMEC, and NHEK seven cell types, with the AUROC values ranging from 0.8645 to 0.9852 and AUPR values ranging from 0.8654 to 0.9734. Notably SpecLoop demonstrates improved accuracy in predicting long-distance CSCLs and identifies TF complexes with strong predictive ability. Our study systematically explores the TFs and TF pairs associated with CSCL through effective integration of diverse omics data. SpecLoop is freely available at https://github.com/AMSSwanglab/SpecLoop.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/genetics/metabolism",
+      "Binding Sites/genetics",
+      "*Gene Expression Regulation",
+      "Chromatin/genetics",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ren, Lixin",
+        "Ma, Wanbiao",
+        "Wang, Yong"
+      ],
+      "short_names": [
+        "Ren L",
+        "Ma W",
+        "Wang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Applied Mathematics, School of Mathematics and Physics, University of Science and Technology Beijing, 100083, Beijing, China. Electronic address: lxren@xs.ustb.edu.cn.",
+        "Department of Applied Mathematics, School of Mathematics and Physics, University of Science and Technology Beijing, 100083, Beijing, China. Electronic address: wanbiao_ma@ustb.edu.cn.",
+        "CEMS, NCMIS, HCMS, MDIS, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, 100190, China; School of Mathematical Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China; Center for Excellence in Animal Evolution and Genetics, Chinese Academy of Sciences, Kunming, 650223, China; Key Laboratory of Systems Biology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Hangzhou, 330106, China. Electronic address: ywang@amss.ac.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ren, Lixin",
+        "short_name": "Ren L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Mathematics, School of Mathematics and Physics, University of Science and Technology Beijing, 100083, Beijing, China. Electronic address: lxren@xs.ustb.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ma, Wanbiao",
+        "short_name": "Ma W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Mathematics, School of Mathematics and Physics, University of Science and Technology Beijing, 100083, Beijing, China. Electronic address: wanbiao_ma@ustb.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Yong",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "CEMS, NCMIS, HCMS, MDIS, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, 100190, China; School of Mathematical Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China; Center for Excellence in Animal Evolution and Genetics, Chinese Academy of Sciences, Kunming, 650223, China; Key Laboratory of Systems Biology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Hangzhou, 330106, China. Electronic address: ywang@amss.ac.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2024 Mar",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/01 01:22",
+    "fetched_at": "2026-09-29 16:10:39"
+  },
+  "links": {
+    "cites": [
+      "38783706"
+    ],
+    "refs": [],
+    "similar": [
+      "38422958",
+      "38940155",
+      "26818008",
+      "30598100",
+      "22955984",
+      "29326300",
+      "28750606",
+      "25957350",
+      "35293310",
+      "32029002",
+      "22863112",
+      "26291518",
+      "31114856",
+      "30359306",
+      "37486787",
+      "28234893",
+      "33048117",
+      "30578913",
+      "31723409",
+      "35666736",
+      "35681170",
+      "36484687",
+      "28334916",
+      "32574834",
+      "36360189",
+      "40186170",
+      "30709337",
+      "35831531",
+      "32270138",
+      "30142147",
+      "34996354",
+      "37805453",
+      "27899623",
+      "33124660",
+      "31595288",
+      "31742324",
+      "40102719",
+      "35997560",
+      "26245832",
+      "28472398",
+      "38783706",
+      "30922998",
+      "33413545",
+      "34292930",
+      "39438113",
+      "28633280",
+      "39326643",
+      "31653198",
+      "34544361",
+      "33874910",
+      "33232622",
+      "31639474",
+      "37884340",
+      "31801079",
+      "19956545",
+      "38654130",
+      "30423062",
+      "29325176",
+      "22300769",
+      "24564528",
+      "35609992",
+      "32039697",
+      "34314098",
+      "39868536",
+      "31754708",
+      "33372147",
+      "24603674",
+      "31362726",
+      "31053165",
+      "26590261",
+      "40020686",
+      "28576882",
+      "35997565",
+      "28704389",
+      "34864886",
+      "35642493",
+      "39363017",
+      "33892767",
+      "32858223",
+      "40015273",
+      "22456606",
+      "39910206",
+      "35049498",
+      "29786094",
+      "36040971",
+      "23595228",
+      "34488759",
+      "31995498",
+      "39796242",
+      "26809507",
+      "33999190",
+      "23554463",
+      "22955978",
+      "38966997",
+      "24441470",
+      "39695228",
+      "33532840",
+      "23935523",
+      "24565265",
+      "23527292"
+    ],
+    "review": [
+      "38422958",
+      "35831531",
+      "31742324",
+      "31639474",
+      "34314098"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(24)00266-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(24)00266-X",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) from bioRxiv preprint
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text; no evaluation of figures or supplementary materials beyond what is described
+- **Shared manuscript claim summary** The authors report that the mineralocorticoid receptor (MR) forms tetramers in the nucleoplasm upon agonist binding and higher order oligomers upon binding to hormone response elements (HREs), in contrast to the glucocorticoid receptor (GR) which forms dimers in the nucleoplasm and tetramers at DNA. They further report that antagonists induce intermediate oligomer sizes, that known GR dimerization interfaces are only partially functional in MR, that the N-terminal domain participates in MR tetramer formation, and that GR can incorporate into MR complexes displacing MR subunits.
+- **Visible evidence base** Text descriptions of results from Number & Brightness (N&B) fluorescence imaging experiments, including data from transiently transfected and stably integrated cell lines, mutant constructs, domain-swapped chimeras, and co-transfection experiments; reference to supplementary figures S1-S3
+- **Missing materials affecting confidence** Actual figures and supplementary data (S1-S3) not provided; no raw N&B values, statistical outputs, or detailed experimental replicates; no information on antibody validation or specificity controls; no chromatin immunoprecipitation or transcriptional activity data to support functional claims
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in steroid hormone receptor biology: whether the mineralocorticoid receptor shares the quaternary structure of its close relative, the glucocorticoid receptor. The authors use a well-established fluorescence imaging technique (Number & Brightness) to provide evidence that MR forms tetramers in the nucleoplasm and higher order oligomers upon DNA binding, which would represent a significant departure from the prevailing dimer model. The work is potentially interesting and the experimental approach is appropriate for the question. However, several technical concerns and interpretive issues need to be addressed before the conclusions can be considered fully supported. The claim of higher order oligomers at DNA is based on average brightness values that could reflect mixed populations, and the functional significance of the observed oligomeric states remains speculative. The manuscript would benefit from additional controls and a more cautious interpretation of the data.
+- **Who would be interested in the results, and why** Researchers studying nuclear receptor signaling, particularly steroid hormone receptors (GR, MR, PR, AR), as well as those interested in transcription factor oligomerization and its role in gene regulation. The findings have potential implications for understanding the molecular basis of selective corticosteroid receptor modulation, which is relevant for drug development in cardiovascular, renal, and inflammatory diseases. The methodological approach using N&B may also interest cell biologists studying protein-protein interactions in living cells.
+- **Major strengths** The study addresses a timely and important question about the quaternary structure of MR, which has been relatively understudied compared to GR. The use of N&B in living cells is an appropriate and powerful technique for measuring oligomerization with spatial resolution. The inclusion of multiple ligands (agonists and antagonists) and the comparison with GR provides a comprehensive view of MR oligomerization behavior. The domain-swapping and mutagenesis experiments represent a systematic approach to dissecting the molecular determinants of oligomerization. The finding that GR can displace MR in heterocomplexes is novel and potentially significant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of N&B interpretation
+  - **Claim pointer** "Agonist-bound MR forms tetramers in the nucleoplasm and higher order oligomers upon binding to HREs" (Abstract; Results section "Agonist-bound MR forms large oligomers at hormone response elements")
+  - **Evidence pointer** Results section, Figure 1B; location not provided
+  - **Concern** The N&B technique provides a weighted average brightness (ε) across all molecules in a given region. The authors report ε values of 4.39 in the nucleoplasm and 6.92 at the MMTV array for agonist-bound MR, interpreting these as tetramers and higher order oligomers respectively. However, these average values could equally arise from mixed populations of different oligomeric states (e.g., a combination of dimers and octamers, or monomers and larger aggregates). The manuscript does not provide any analysis of the brightness distribution or evidence that the population is homogeneous. Furthermore, the ε value of 6.92 at the array is interpreted as "higher order oligomerization" but the specific stoichiometry (e.g., hexamer, heptamer, octamer) is not determined. The authors should provide a more rigorous analysis of the brightness distributions, such as photon counting histogram (PCH) analysis or a clear demonstration that the observed ε values correspond to discrete oligomeric species rather than mixtures.
+  - **Why it matters** The central claim of the paper, that MR forms tetramers and higher order oligomers, depends entirely on the correct interpretation of N&B data. If the observed ε values reflect mixed populations, the conclusions about specific oligomeric states would be incorrect. This is critical because the paper proposes a paradigm shift in understanding MR quaternary structure, and the interpretation must be robust.
+  - **Resolution test** The authors should provide brightness distribution analysis (e.g., histograms of ε values per pixel) to demonstrate that the populations are homogeneous. Alternatively, they could use complementary techniques such as fluorescence correlation spectroscopy (FCS) or single-molecule imaging to confirm the stoichiometry. They should also discuss the expected ε values for different oligomeric states and how they distinguish between them.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional significance of oligomerization
+  - **Claim pointer** "Antagonists form intermediate quaternary arrangements, suggesting that large oligomers are essential for function" (Abstract; Results section "Antagonists induce intermediate-size MR oligomers")
+  - **Evidence pointer** Results section, Figure 2; location not provided
+  - **Concern** The manuscript claims that the size of MR oligomers correlates with receptor activity, with agonists producing the largest oligomers and antagonists producing intermediate sizes. However, no functional data are presented to directly link oligomer size to transcriptional activity. The authors mention that finerenone, spironolactone, and eplerenone are clinically relevant antagonists, but they do not measure any functional readout (e.g., target gene expression, chromatin binding) in the same cells where N&B measurements are performed. The statement that "large oligomers are essential for function" is therefore an inference without direct experimental support. The authors should either provide functional data or temper this claim.
+  - **Why it matters** The paper proposes that oligomer size is a determinant of receptor function, which has implications for understanding how different ligands modulate MR activity. Without functional correlation, this claim remains speculative and weakens the overall impact of the study.
+  - **Resolution test** The authors should perform transcriptional assays (e.g., qPCR of MR target genes) or chromatin binding experiments (e.g., ChIP) in the same cell system and under the same ligand conditions used for N&B. They could also use a mutant MR that is monomeric or dimeric to test whether oligomer size affects transcriptional output.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of findings
+  - **Claim pointer** "Divergence between MR and GR quaternary structure is driven by different functionality of known and new multimerization interfaces" (Abstract; Results section "MR and GR do not share the same dimerization interfaces")
+  - **Evidence pointer** Results section, Figure 3; location not provided
+  - **Concern** The authors test a limited set of mutations in the DBD and LBD of MR, based on known GR dimerization interfaces. They find that these mutations have modest effects on MR oligomerization, leading them to conclude that MR uses different interfaces. However, the manuscript does not identify any new MR-specific interfaces, despite the claim of "new multimerization interfaces" in the abstract. The deletion of the NTD (MR-580C) reduces nucleoplasmic ε to 1.63, suggesting the NTD is important, but the specific residues involved are not mapped. The claim of "new" interfaces is therefore not supported by the data presented.
+  - **Why it matters** The paper aims to explain the mechanistic basis for the difference between MR and GR oligomerization. Without identifying the specific MR interfaces, the mechanistic insight is incomplete and the claim of "new" interfaces is overstated.
+  - **Resolution test** The authors should perform a more systematic mutagenesis or use computational approaches to identify MR-specific oligomerization interfaces. They could also test chimeric receptors with swapped domains to map the regions responsible for the different oligomeric behavior.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Heteromer interpretation
+  - **Claim pointer** "GR is able to displace MR subunits and incorporate into heterocomplexes" (Abstract; Results section "GR is able to incorporate into GR-MR heteromers, displacing MR subunits")
+  - **Evidence pointer** Results section, Figure 5; location not provided
+  - **Concern** The co-transfection experiments show that GR expression reduces the ε value of MR, which the authors interpret as GR displacing MR subunits in heterocomplexes. However, an alternative explanation is that GR and MR are competing for binding sites on the MMTV array, and the reduced ε reflects a lower density of MR molecules at the array rather than heteromer formation. The manuscript does not provide direct evidence for physical interaction between GR and MR, such as co-immunoprecipitation or FRET/FLIM experiments. The conclusion that heterocomplexes form is therefore not fully supported.
+  - **Why it matters** The formation of GR-MR heterocomplexes is a novel and potentially important finding, but it requires direct evidence of physical interaction. If the reduced ε is due to competition rather than heteromerization, the interpretation would be incorrect.
+  - **Resolution test** The authors should perform co-immunoprecipitation or proximity ligation assays to demonstrate physical interaction between GR and MR. Alternatively, they could use FRET or FLIM to show that the two receptors are in close proximity at the array.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of "higher order oligomers"
+  - **Evidence pointer** Abstract; Results section; location not provided
+  - **Issue** The term "higher order oligomers" is used to describe MR at the MMTV array (ε = 6.92), but the specific stoichiometry is not defined. The authors should clarify whether they mean hexamers, octamers, or a mixture.
+  - **Required correction** Define the expected ε values for different oligomeric states and specify which stoichiometry is consistent with the observed data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** N&B ε values
+  - **Evidence pointer** Results section, Figures 1-5; location not provided
+  - **Issue** The manuscript reports ε values but does not consistently provide error bars, number of cells analyzed, or statistical significance for all comparisons. For example, the difference between aldosterone and corticosterone at low concentration is described as "statistically significant" but no p-values are given.
+  - **Required correction** Provide full statistical details for all N&B measurements, including n, mean, SEM/SD, and p-values for all pairwise comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Control for overexpression artifacts
+  - **Affected element** Transient transfection experiments
+  - **Evidence pointer** Materials and Methods; location not provided
+  - **Issue** The authors use transient transfection for most experiments, which can lead to overexpression artifacts. They do mention a stably integrated cell line for one experiment (supplementary Fig. S1A), but it is unclear if this was used for all key findings.
+  - **Required correction** Clarify which experiments were performed with stable versus transient expression and discuss potential artifacts from overexpression.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Ligand concentration rationale
+  - **Affected element** Antagonist experiments
+  - **Evidence pointer** Results section, Figure 2; location not provided
+  - **Issue** The concentrations of antagonists used are not justified. The authors state that concentrations were chosen to "fully saturate the receptor," but no binding or dose-response data are shown.
+  - **Required correction** Provide a rationale for the concentrations used, ideally with dose-response data or references to previous studies.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** N&B technique limitations
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The manuscript does not discuss the limitations of N&B, such as its sensitivity to background fluorescence, photobleaching, or the assumption of a single species per pixel.
+  - **Required correction** Add a paragraph in the Discussion acknowledging the limitations of N&B and how they might affect the interpretation of the results.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (N&B interpretation), R1-M2 (functional correlation), R1-M4 (heteromer evidence)
+- **Assessment against Nature-style criteria** 
+  - Originality: The finding that MR forms tetramers and higher order oligomers is novel and challenges the prevailing dimer model. However, the concept of steroid receptor oligomerization beyond dimers has been previously reported for GR, so the originality is incremental rather than paradigm-shifting.
+  - Scientific importance: The work has potential importance for understanding MR signaling and its differences from GR, which could inform therapeutic development. However, the functional significance of the observed oligomers is not established, limiting the immediate impact.
+  - Interdisciplinary readership: The topic is of interest to endocrinologists, cell biologists, and pharmacologists. The use of advanced fluorescence techniques may also appeal to biophysicists, but the manuscript is written primarily for a specialist audience.
+  - Technical soundness: The N&B technique is well-established and appropriately applied, but the interpretation of average brightness values as discrete oligomeric states is not fully justified. The lack of functional data to support the activity- oligomer size correlation is a significant weakness.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, but the technical details of N&B and the interpretation of ε values may be challenging for readers unfamiliar with the technique. The abstract is clear and concise.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents potentially significant findings, but the interpretation of N&B data needs to be strengthened, functional correlation should be provided, and the evidence for heteromer formation needs to be more direct. If these issues are addressed, the work could make a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that "large oligomers are essential for function" is not supported by direct functional data.
+- The claim of "new multimerization interfaces" in MR is not supported by the data, as no new interfaces are identified.
+- The interpretation of ε = 6.92 as "higher order oligomers" without specifying stoichiometry or demonstrating population homogeneity is not fully supported.
+- The conclusion that GR displaces MR subunits in heterocomplexes is not directly supported by evidence of physical interaction.
+- The statement that "influencing oligomerization may be important to selectively modulate corticosteroid signaling" is speculative and not tested in the manuscript.

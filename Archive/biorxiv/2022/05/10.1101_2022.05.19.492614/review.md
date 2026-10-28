@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary materials were provided for verification
+- **Shared manuscript claim summary** The authors report a computational and experimental investigation of basic leucine zipper (bZIP) domains from Aureochromes and other bZIP families, aiming to characterize sequence-structure-function-evolution relationships. They claim that Aureochromes form a distinct evolutionary lineage, that hydrophobic interactions in the zipper region stabilize dimer formation and DNA binding, and that a unique histidine substitution in the basic region is important for DNA binding and may serve as an evolutionary switch point.
+- **Visible evidence base** Abstract text only; no data, figures, tables, methods, or supplementary information were supplied
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods descriptions, statistical analyses, sequence alignments, network analysis details, molecular dynamics simulation parameters, and in vitro experimental protocols and results
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially interesting comparative study of bZIP domains in Aureochromes, with a combination of bioinformatics, network theory, molecular dynamics, and in vitro experiments. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the methods, the robustness of the evolutionary inferences, or the experimental support for the central claims. The most notable claim, the unique histidine substitution and its functional and evolutionary significance, is stated without quantitative or comparative evidence. The work may be of interest to researchers studying light-regulated transcription factors and bZIP evolution, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in photoreceptor biology, optogenetics, and transcription factor evolution would be interested. The study addresses a unique class of light-responsive transcription factors and proposes a potential evolutionary switch residue, which could inform both basic understanding of bZIP DNA-binding specificity and engineering of optogenetic tools.
+- **Major strengths** The study addresses a biologically unique system, Aureochromes, which combine LOV and bZIP domains in an inverse effector-sensor topology. The combination of multiple computational approaches with in vitro experiments is appropriate for the research question. The comparative scope across 173 bZIPs from diverse lineages is commendable and could provide meaningful evolutionary context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that a unique histidine substitution in the basic region of Aureochromes is important for DNA binding and serves as a potential switch point in Aureo/bZIP evolution.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states this as "perhaps the most notable finding" but provides no quantitative data, no comparative analysis showing the histidine is absent in all other bZIPs, no experimental evidence linking this residue to DNA binding affinity or specificity, and no evolutionary analysis supporting the "switch point" interpretation.
+  - **Why it matters** This is the central novel claim of the study. Without direct evidence, the claim is unsupported and cannot be evaluated for validity or significance.
+  - **Resolution test** Provide sequence alignment data showing the histidine is unique to Aureochromes, mutagenesis experiments demonstrating its effect on DNA binding, and phylogenetic or ancestral state reconstruction supporting the evolutionary switch hypothesis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that an all-atom network analysis on representative bZIP-DNA co-crystal structures, particularly eigenvector centrality measurements, demonstrates that hydrophobic interactions in the zipper region stabilize bZIP dimer formation and facilitate DNA binding.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe which structures were used, how the network was constructed, what parameters were applied, or how eigenvector centrality was interpreted. The causal link from network centrality to dimer stability and DNA binding is asserted without supporting data or statistical validation.
+  - **Why it matters** The network analysis is presented as a key methodological contribution. Without details on the analysis and its validation, the conclusion that hydrophobic interactions are functionally important cannot be assessed.
+  - **Resolution test** Provide a clear description of the network construction, the structures analyzed, the centrality calculations, and a comparison with experimental or simulation data that validates the inferred relationship between centrality and stability or binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that an in-depth comparison of 173 bZIPs reveals Aureochromes' uniqueness and evolutionary significance in DNA binding specificity and dimer stability.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify the criteria for "uniqueness," the statistical methods used to compare sequences, or how DNA binding specificity and dimer stability were inferred from sequence data alone. The evolutionary significance is asserted but not demonstrated with phylogenetic or functional data.
+  - **Why it matters** This claim forms the basis for the evolutionary narrative of the paper. Without clear comparative metrics and statistical support, the conclusion is not verifiable.
+  - **Resolution test** Provide the alignment methodology, phylogenetic tree construction, and statistical tests that support the claim of a distinct lineage and functional uniqueness.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "photoreceptor cum transcription factors" is informal and ambiguous. It is unclear whether the authors mean a single protein with dual functions or a complex.
+  - **Required correction** Rephrase to "photoreceptor and transcription factor" or "photoreceptor-transcription factor fusion proteins" for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental methods
+  - **Evidence pointer** Abstract, "in vitro experiments"
+  - **Issue** The abstract mentions in vitro experiments but does not specify what was measured, which constructs were used, or what controls were included.
+  - **Required correction** Add a brief description of the experimental design, including the assays performed and the key results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Evolutionary claim
+  - **Evidence pointer** Abstract, "midway in bZIP evolution"
+  - **Issue** The phrase "midway in bZIP evolution" is vague and could be misinterpreted. It is unclear what this means in terms of phylogenetic position or divergence time.
+  - **Required correction** Specify the phylogenetic context, such as "occupying an intermediate position between plant and opisthokont bZIP clades" or provide a reference to a phylogenetic tree.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central claims regarding the unique histidine, the network analysis, and the evolutionary significance are not supported by the abstract alone. Full methods, data, and statistical analyses are required.
+- **Assessment against Nature-style criteria** Originality: The study addresses a unique biological system and proposes a novel evolutionary hypothesis, which is potentially original. Scientific importance: The findings could be important for understanding light-regulated transcription and bZIP evolution, but the significance is not yet established. Interdisciplinary readership: The topic bridges photobiology, structural biology, and evolution, which could appeal to a broad audience. Technical soundness: Cannot be assessed from the abstract; the methods are not described in sufficient detail. Readability for nonspecialists: The abstract is generally readable but uses jargon without explanation, such as "eigenvector centrality" and "inverse effector-sensor topology."
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses but lacks the data and methodological detail needed to support the claims. A full manuscript review would be required to assess whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that the unique histidine substitution is important for DNA binding and serves as an evolutionary switch point is unsupported by any data in the abstract.
+- The claim that hydrophobic interactions in the zipper region stabilize dimer formation and facilitate DNA binding is asserted without supporting analysis.
+- The claim that Aureochromes form a distinct lineage "midway in bZIP evolution" is not supported by any phylogenetic evidence in the abstract.
+- The claim that Aureochromes are "perhaps the only light-responsive transcription factor in bZIP superfamily" is presented as a highlight but is not substantiated with a comprehensive literature comparison.

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report identification of a de novo SOX10 frameshift variant (NM_006941.4: c.707_714del, p.H236Pfs*42) in a Chinese child with Waardenburg syndrome type 2, using whole exome sequencing and Sanger validation. They further report AlphaFold2-based structural prediction and in vitro expression analyses suggesting that the mutant protein is truncated, dysfunctional, and expressed at higher levels than wild-type SOX10.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or clinical phenotype descriptions beyond the diagnosis
+- **Missing materials affecting confidence** Full clinical phenotype description, pedigree information, sequencing quality metrics, validation data, AlphaFold2 prediction details, Western blot and immunocytochemistry protocols, quantification methods, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract reports a plausible candidate variant in a well-established WS2 gene, but the evidence presented is insufficient to substantiate the claim that the variant is causative or that the mutant protein is dysfunctional. The functional data are described only in qualitative terms, and no quantitative or statistical support is provided. The structural prediction claim is not supported by any visible output. The manuscript may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Clinical geneticists and researchers studying Waardenburg syndrome, SOX10-related disorders, and genotype-phenotype correlations in neural crest disorders. The finding of a novel frameshift variant adds to the allelic spectrum of SOX10 mutations, which is of interest to diagnostic laboratories and researchers compiling variant databases.
+- **Major strengths** The study addresses a clinically relevant question using a standard gene discovery approach. The identification of a de novo variant in a known disease gene is a reasonable starting point. The combination of sequencing, structural prediction, and in vitro expression is a logical experimental design, though the abstract provides only superficial descriptions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causality
+  - **Claim pointer** The abstract concludes that the identified variant helps understand the genotype-phenotype association in WS2 cases with SOX10 mutations, implying a causative role.
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The abstract does not provide evidence that the variant segregates appropriately or that it is absent in controls. While the variant is described as de novo, no details are given on parental testing, confirmation of paternity, or population frequency data. The claim of causality is therefore not supported by the visible evidence.
+  - **Why it matters** Establishing pathogenicity for a novel variant requires multiple lines of evidence, including segregation, population frequency, and functional impact. Without these, the variant cannot be distinguished from a benign rare variant.
+  - **Resolution test** Provide parental genotype data, population frequency from gnomAD or equivalent, and ACMG/AMP classification criteria. If the variant is truly de novo and absent from large population databases, the causality claim becomes more credible.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional evidence
+  - **Claim pointer** The abstract states that in vitro analysis showed an increased level of expression of the mutant compared to the wild-type, and that the mutant is dysfunctional.
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The functional data are described only qualitatively. No quantification, statistical analysis, or experimental replicates are mentioned. The claim of dysfunction is not supported by any specific assay outcome, such as loss of transcriptional activity, mislocalization, or dominant-negative effect. The increased expression level is not interpreted in the context of known SOX10 biology.
+  - **Why it matters** Functional validation is central to the paper's conclusion. Without quantitative data and appropriate controls, the claim that the mutant protein is dysfunctional is not established.
+  - **Resolution test** Provide representative blots and immunocytochemistry images, quantification with error bars and statistical tests, and a functional assay (e.g., reporter gene assay) demonstrating loss of function. Clarify whether the increased expression reflects protein stability, transcription, or translation differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural prediction
+  - **Claim pointer** The abstract states that AlphaFold2 predicted disruption of the wild-type DIM/HMG conformation in SOX10.
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** No details of the AlphaFold2 prediction are provided, including confidence scores, comparison with wild-type structure, or the specific structural consequences. The term "disrupt" is vague and does not specify whether the mutation affects folding, dimerization, or DNA binding.
+  - **Why it matters** Structural predictions are only as useful as their interpretation. Without visual or quantitative support, the claim is not verifiable from the abstract.
+  - **Resolution test** Include a figure showing the predicted wild-type and mutant structures with confidence metrics, and describe the specific structural changes and their predicted functional impact.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clinical phenotyping
+  - **Affected element** Patient description
+  - **Evidence pointer** Abstract, Methods section; location not provided
+  - **Issue** The abstract does not describe the clinical features that led to the WS2 diagnosis. Diagnostic criteria for WS2 are specific, and the abstract should state which features were present.
+  - **Required correction** Add a brief description of the patient's clinical features, such as sensorineural hearing loss, pigmentary abnormalities, or other WS2-defining characteristics.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Variant description
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Issue** The variant is described as NM_006941.4: c.707_714del (p.H236Pfs*42). The protein notation should be checked for consistency with current HGVS guidelines, particularly regarding the use of "fs" and the predicted stop codon.
+  - **Required correction** Verify the variant nomenclature against HGVS recommendations and consider adding the reference transcript version and any relevant dbSNP or ClinVar identifiers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Experimental design
+  - **Affected element** In vitro expression
+  - **Evidence pointer** Abstract, Methods section; location not provided
+  - **Issue** The abstract does not specify the cell type used for Western blotting and immunocytochemistry, nor whether the construct was tagged or untagged. This limits interpretability.
+  - **Required correction** State the cell line, transfection method, and construct design in the abstract or indicate that these details are in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The causality claim requires segregation and population frequency data. The functional claim requires quantitative and controlled experimental evidence. R1-M3 is non-blocking but should be strengthened with structural details.
+- **Assessment against Nature-style criteria** Originality: moderate. The finding of a novel SOX10 variant is incremental, as SOX10 is a known WS2 gene. Scientific importance: limited at the level of the abstract, as the functional mechanism is not clearly demonstrated. Interdisciplinary readership: narrow, primarily clinical genetics and molecular biology. Technical soundness: not assessable from the abstract; the described methods are standard but the results are not quantitatively supported. Readability for nonspecialists: the abstract is concise and understandable, but the lack of clinical detail and functional quantification reduces its accessibility to a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract does not provide sufficient evidence for causality or dysfunction. A revised manuscript with full experimental details, quantitative data, and appropriate controls could change this assessment.
+
+## Risk / unsupported claims
+- The claim that the variant is causative for WS2 is unsupported without segregation, population frequency, and functional evidence.
+- The claim that the mutant protein is dysfunctional is unsupported without quantitative functional assays.
+- The claim that AlphaFold2 predicted disruption of the DIM/HMG conformation is unverifiable without structural output details.
+- The claim that the findings help understand genotype-phenotype association is premature given the lack of clinical phenotype description and functional validation.

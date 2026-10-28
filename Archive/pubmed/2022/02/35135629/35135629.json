@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "35135629",
+    "doi": "10.1186/s40793-021-00394-x",
+    "title": "PredicTF: prediction of bacterial transcription factors in complex microbial communities using deep learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Transcription factors (TFs) are proteins controlling the flow of genetic information by regulating cellular gene expression. A better understanding of TFs in a bacterial community context may open novel revenues for exploring gene regulation in ecosystems where bacteria play a key role. Here we describe PredicTF, a platform supporting the prediction and classification of novel bacterial TF in single species and complex microbial communities. PredicTF is based on a deep learning algorithm. RESULTS: To train PredicTF, we created a TF database (BacTFDB) by manually curating a total of 11,961 TF distributed in 99 TF families. Five model organisms were used to test the performance and the accuracy of PredicTF. PredicTF was able to identify 24-62% of the known TFs with an average precision of 88% in our five model organisms. We demonstrated PredicTF using pure cultures and a complex microbial community. In these demonstrations, we used (meta)genomes for TF prediction and (meta)transcriptomes for determining the expression of putative TFs. CONCLUSION: PredicTF demonstrated high accuracy in predicting transcription factors in model organisms. We prepared the pipeline to be easily implemented in studies profiling TFs using (meta)genomes and (meta)transcriptomes. PredicTF is an open-source software available at https://github.com/mdsufz/PredicTF .",
+    "keywords": [
+      "Deep learning",
+      "Gene regulation",
+      "Microbial communities",
+      "Transcription factor database",
+      "Transcription factors"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Oliveira Monteiro, Lummy Maria",
+        "Saraiva, Joao Pedro",
+        "Brizola Toscan, Rodolfo",
+        "Stadler, Peter F",
+        "Silva-Rocha, Rafael",
+        "Nunes da Rocha, Ulisses"
+      ],
+      "short_names": [
+        "Oliveira Monteiro LM",
+        "Saraiva JP",
+        "Brizola Toscan R",
+        "Stadler PF",
+        "Silva-Rocha R",
+        "Nunes da Rocha U"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6972-6692"
+      ],
+      "affiliations": [
+        "Helmholtz Center for Environmental Research (UFZ), Leipzig, Germany.",
+        "Bioinformatics Group, Institute of Computer Science, Universitat Leipzig, Leipzig, Germany.",
+        "Ribeirao Preto Medical School (FMRP), University of Sao Paulo (USP), Ribeirao Preto, Brazil.",
+        "Helmholtz Center for Environmental Research (UFZ), Leipzig, Germany.",
+        "Helmholtz Center for Environmental Research (UFZ), Leipzig, Germany.",
+        "Bioinformatics Group, Institute of Computer Science, Universitat Leipzig, Leipzig, Germany.",
+        "Ribeirao Preto Medical School (FMRP), University of Sao Paulo (USP), Ribeirao Preto, Brazil.",
+        "Helmholtz Center for Environmental Research (UFZ), Leipzig, Germany. ulisses.rocha@ufz.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Oliveira Monteiro, Lummy Maria",
+        "short_name": "Oliveira Monteiro LM",
+        "identifiers": [],
+        "affiliations": [
+          "Helmholtz Center for Environmental Research (UFZ), Leipzig, Germany.",
+          "Bioinformatics Group, Institute of Computer Science, Universität Leipzig, Leipzig, Germany.",
+          "Ribeirão Preto Medical School (FMRP), University of São Paulo (USP), Ribeirão Prêto, Brazil."
+        ]
+      },
+      {
+        "full_name": "Saraiva, João Pedro",
+        "short_name": "Saraiva JP",
+        "identifiers": [],
+        "affiliations": [
+          "Helmholtz Center for Environmental Research (UFZ), Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Brizola Toscan, Rodolfo",
+        "short_name": "Brizola Toscan R",
+        "identifiers": [],
+        "affiliations": [
+          "Helmholtz Center for Environmental Research (UFZ), Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Stadler, Peter F",
+        "short_name": "Stadler PF",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Group, Institute of Computer Science, Universität Leipzig, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Silva-Rocha, Rafael",
+        "short_name": "Silva-Rocha R",
+        "identifiers": [],
+        "affiliations": [
+          "Ribeirão Preto Medical School (FMRP), University of São Paulo (USP), Ribeirão Prêto, Brazil."
+        ]
+      },
+      {
+        "full_name": "Nunes da Rocha, Ulisses",
+        "short_name": "Nunes da Rocha U",
+        "identifiers": [
+          "0000-0001-6972-6692"
+        ],
+        "affiliations": [
+          "Helmholtz Center for Environmental Research (UFZ), Leipzig, Germany. ulisses.rocha@ufz.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Environmental microbiome"
+    ],
+    "journal_abbrev": [
+      "Environ Microbiome"
+    ],
+    "pub_date": "2022 Feb 8",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/10 06:00",
+    "fetched_at": "2026-09-28 05:06:57"
+  },
+  "links": {
+    "cites": [
+      "41989285",
+      "41283681",
+      "40131312",
+      "39548716",
+      "39306765",
+      "38126125",
+      "37840709",
+      "37286882",
+      "36814719"
+    ],
+    "refs": [
+      "33372147",
+      "33237286",
+      "31980038",
+      "30998934",
+      "30976793",
+      "30679735",
+      "30661755",
+      "29391044",
+      "29337314",
+      "28894102",
+      "28298430",
+      "28245811",
+      "27498839",
+      "27022995",
+      "26527724",
+      "26213851",
+      "25402007",
+      "24642063",
+      "24234444",
+      "23153078",
+      "22388286",
+      "20951079",
+      "20879212",
+      "20662931",
+      "19505943",
+      "18304934",
+      "17962296",
+      "16381970",
+      "9045212"
+    ],
+    "similar": [
+      "35135629",
+      "29178828",
+      "33372147",
+      "31857203",
+      "35266510",
+      "18221524",
+      "31723409",
+      "34580179",
+      "31742324",
+      "25957350",
+      "20704747",
+      "32858223",
+      "28750606",
+      "23874789",
+      "30204897",
+      "21172055",
+      "20827602",
+      "16769689",
+      "23153078",
+      "20942926",
+      "25946129",
+      "30598100",
+      "21690103",
+      "31061989",
+      "22931563",
+      "17933783",
+      "20298594",
+      "32770026",
+      "24175918",
+      "33631799",
+      "31995498",
+      "18220337",
+      "32822422",
+      "24349230",
+      "30951090",
+      "23246694",
+      "17439663",
+      "20840729",
+      "32168930",
+      "28523015",
+      "25037164",
+      "19786497",
+      "31336830",
+      "18752680",
+      "21750739",
+      "30304373",
+      "31007729",
+      "25262351",
+      "26291518",
+      "24556904",
+      "29147778",
+      "22849367",
+      "18371204",
+      "24234003",
+      "19956545",
+      "14627835",
+      "31598675",
+      "31752673",
+      "23636944",
+      "32054475",
+      "22824421",
+      "28968736",
+      "30016330",
+      "23086211",
+      "29614096",
+      "25261191",
+      "26679776",
+      "28827455",
+      "27723773",
+      "31947717",
+      "22080564",
+      "20215877"
+    ],
+    "review": [
+      "35135629",
+      "31742324"
+    ],
+    "pmc": [
+      "8822659"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35135629/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35135629",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "35310659",
+    "doi": "10.3389/fpls.2022.831204",
+    "title": "Large-Scale Integrative Analysis of Soybean Transcriptome Using an Unsupervised Autoencoder Model."
+  },
+  "content": {
+    "abstract": "Plant tissues are distinguished by their gene expression patterns, which can help identify tissue-specific highly expressed genes and their differential functional modules. For this purpose, large-scale soybean transcriptome samples were collected and processed starting from raw sequencing reads in a uniform analysis pipeline. To address the gene expression heterogeneity in different tissues, we utilized an adversarial deconfounding autoencoder (AD-AE) model to map gene expressions into a latent space and adapted a standard unsupervised autoencoder (AE) model to help effectively extract meaningful biological signals from the noisy data. As a result, four groups of 1,743, 914, 2,107, and 1,451 genes were found highly expressed specifically in leaf, root, seed and nodule tissues, respectively. To obtain key transcription factors (TFs), hub genes and their functional modules in each tissue, we constructed tissue-specific gene regulatory networks (GRNs), and differential correlation networks by using corrected and compressed gene expression data. We validated our results from the literature and gene enrichment analysis, which confirmed many identified tissue-specific genes. Our study represents the largest gene expression analysis in soybean tissues to date. It provides valuable targets for tissue-specific research and helps uncover broader biological patterns. Code is publicly available with open source at https://github.com/LingtaoSu/SoyMeta.",
+    "keywords": [
+      "autoencoder",
+      "deep learning",
+      "functional module",
+      "gene regulatory network",
+      "soybean",
+      "tissue-specific gene",
+      "transcriptome analysis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Su, Lingtao",
+        "Xu, Chunhui",
+        "Zeng, Shuai",
+        "Su, Li",
+        "Joshi, Trupti",
+        "Stacey, Gary",
+        "Xu, Dong"
+      ],
+      "short_names": [
+        "Su L",
+        "Xu C",
+        "Zeng S",
+        "Su L",
+        "Joshi T",
+        "Stacey G",
+        "Xu D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Electrical Engineering and Computer Science and Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States.",
+        "Institute for Data Science and Informatics, Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States.",
+        "Department of Electrical Engineering and Computer Science and Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States.",
+        "Institute for Data Science and Informatics, Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States.",
+        "Department of Electrical Engineering and Computer Science and Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States.",
+        "Institute for Data Science and Informatics, Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States.",
+        "Department of Health Management and Informatics and Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States.",
+        "Division of Plant Sciences and Technology and Biochemistry Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States.",
+        "Department of Electrical Engineering and Computer Science and Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States.",
+        "Institute for Data Science and Informatics, Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Su, Lingtao",
+        "short_name": "Su L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering and Computer Science and Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States."
+        ]
+      },
+      {
+        "full_name": "Xu, Chunhui",
+        "short_name": "Xu C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Data Science and Informatics, Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States."
+        ]
+      },
+      {
+        "full_name": "Zeng, Shuai",
+        "short_name": "Zeng S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering and Computer Science and Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States."
+        ]
+      },
+      {
+        "full_name": "Su, Li",
+        "short_name": "Su L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Data Science and Informatics, Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States."
+        ]
+      },
+      {
+        "full_name": "Joshi, Trupti",
+        "short_name": "Joshi T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering and Computer Science and Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States.",
+          "Institute for Data Science and Informatics, Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States.",
+          "Department of Health Management and Informatics and Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States."
+        ]
+      },
+      {
+        "full_name": "Stacey, Gary",
+        "short_name": "Stacey G",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Plant Sciences and Technology and Biochemistry Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States."
+        ]
+      },
+      {
+        "full_name": "Xu, Dong",
+        "short_name": "Xu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering and Computer Science and Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States.",
+          "Institute for Data Science and Informatics, Christopher S. Bond Life Sciences Center, University of Missouri, Columbia, MO, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in plant science"
+    ],
+    "journal_abbrev": [
+      "Front Plant Sci"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/22 06:00",
+    "fetched_at": "2026-09-28 06:33:16"
+  },
+  "links": {
+    "cites": [
+      "39572930",
+      "39350172",
+      "37685878"
+    ],
+    "refs": [
+      "33424904",
+      "33381842",
+      "33264401",
+      "33066688",
+      "33015620",
+      "32500918",
+      "32445587",
+      "32393754",
+      "32184350",
+      "32005934",
+      "31888478",
+      "31649123",
+      "31549018",
+      "31456901",
+      "31286861",
+      "31156662",
+      "30977533",
+      "30914497",
+      "30712510",
+      "30679203",
+      "30651065",
+      "30574156",
+      "30357387",
+      "30254741",
+      "29879919",
+      "29858068",
+      "29784946",
+      "29486529",
+      "29349810",
+      "29259331",
+      "29242599",
+      "29219072",
+      "29069589",
+      "28973464",
+      "28864470",
+      "28659962",
+      "28450878",
+      "28184009",
+      "28169364",
+      "27987168",
+      "27924042",
+      "27846853",
+      "27702844",
+      "27540173",
+      "27492285",
+      "26782540",
+      "26284094",
+      "26149852",
+      "25783944",
+      "24284626",
+      "24136998",
+      "24082011",
+      "23766290",
+      "23638026",
+      "23555009",
+      "23511481",
+      "23104886",
+      "22872506",
+      "22851511",
+      "22796662",
+      "22369646",
+      "22353370",
+      "22245912",
+      "21722412",
+      "21062823",
+      "20927193",
+      "20688976",
+      "20687943",
+      "20676067",
+      "20408999",
+      "20223836",
+      "20008513",
+      "19755542",
+      "19060111",
+      "18978033",
+      "18947404",
+      "18803878",
+      "18667725",
+      "18567832",
+      "18541026",
+      "18204857",
+      "17496320",
+      "17176392",
+      "16982645",
+      "16662009",
+      "16632515",
+      "16606683",
+      "16453539",
+      "15697438",
+      "15388519",
+      "14960456",
+      "14693816",
+      "14534578",
+      "12925520",
+      "12657652",
+      "10817761",
+      "10805445",
+      "10398723"
+    ],
+    "similar": [
+      "35310659",
+      "29879919",
+      "33381842",
+      "31549018",
+      "33066688",
+      "21062474",
+      "26769043",
+      "32445587",
+      "28087653",
+      "31870278",
+      "29934814",
+      "28198676",
+      "24053776",
+      "30466046",
+      "29486529",
+      "22938179",
+      "31257514",
+      "26427366",
+      "34856364",
+      "35172334",
+      "28066488",
+      "19755542",
+      "32579573",
+      "31426836",
+      "33720833",
+      "31060266",
+      "22029603",
+      "35350715",
+      "34464837",
+      "33099311",
+      "29922260",
+      "24712981",
+      "30138363",
+      "34769351",
+      "22799740",
+      "30558534",
+      "34218797",
+      "34823498",
+      "35128826",
+      "29250090",
+      "29072883",
+      "34215202",
+      "33196909",
+      "28919164",
+      "29660070",
+      "33864615",
+      "33154423",
+      "31253085",
+      "26270661",
+      "21592396",
+      "30215605",
+      "26678836",
+      "33140241",
+      "30043371",
+      "24228871",
+      "35062026",
+      "26782540",
+      "33407182",
+      "30736327",
+      "34179848",
+      "28083709",
+      "32825264",
+      "31115762",
+      "31117943",
+      "20408999",
+      "33329745",
+      "31612481",
+      "31108164",
+      "29237456",
+      "31114135",
+      "33642437",
+      "32135469",
+      "24172660",
+      "34130651",
+      "34290737",
+      "30620887",
+      "28659188",
+      "38895093",
+      "34338989",
+      "28703000",
+      "24371170",
+      "28653111"
+    ],
+    "review": [
+      "35310659",
+      "29486529"
+    ],
+    "pmc": [
+      "8927983"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35310659/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35310659",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fpls.2022.831204",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35310659",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

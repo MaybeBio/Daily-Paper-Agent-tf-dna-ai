@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "36584685",
+    "doi": "10.1016/j.stemcr.2022.11.010",
+    "title": "Gene regulatory network reconfiguration in direct lineage reprogramming."
+  },
+  "content": {
+    "abstract": "In direct lineage conversion, transcription factor (TF) overexpression reconfigures gene regulatory networks (GRNs) to reprogram cell identity. We previously developed CellOracle, a computational method to infer GRNs from single-cell transcriptome and epigenome data. Using inferred GRNs, CellOracle simulates gene expression changes in response to TF perturbation, enabling in silico interrogation of network reconfiguration. Here, we combine CellOracle analysis with lineage tracing of fibroblast to induced endoderm progenitor (iEP) conversion, a prototypical direct reprogramming paradigm. By linking early network state to reprogramming outcome, we reveal distinct network configurations underlying successful and failed fate conversion. Via in silico simulation of TF perturbation, we identify new factors to coax cells into successfully converting their identity, uncovering a central role for the AP-1 subunit Fos with the Hippo signaling effector, Yap1. Together, these results demonstrate the efficacy of CellOracle to infer and interpret cell-type-specific GRN configurations, providing new mechanistic insights into lineage reprogramming.",
+    "keywords": [
+      "cell fate prediction",
+      "direct lineage reprogramming",
+      "gene perturbation simulation",
+      "gene regulatory networks",
+      "machine learning",
+      "single-cell analysis"
+    ],
+    "mesh_terms": [
+      "*Gene Regulatory Networks",
+      "*Gene Expression Regulation",
+      "Transcription Factors/genetics",
+      "Transcriptome",
+      "Fibroblasts",
+      "Cellular Reprogramming/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kamimoto, Kenji",
+        "Adil, Mohd Tayyab",
+        "Jindal, Kunal",
+        "Hoffmann, Christy M",
+        "Kong, Wenjun",
+        "Yang, Xue",
+        "Morris, Samantha A"
+      ],
+      "short_names": [
+        "Kamimoto K",
+        "Adil MT",
+        "Jindal K",
+        "Hoffmann CM",
+        "Kong W",
+        "Yang X",
+        "Morris SA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Developmental Biology, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Center of Regenerative Medicine, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA.",
+        "Department of Developmental Biology, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Center of Regenerative Medicine, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA.",
+        "Department of Developmental Biology, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Center of Regenerative Medicine, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA.",
+        "Department of Developmental Biology, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Center of Regenerative Medicine, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA.",
+        "Department of Developmental Biology, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Center of Regenerative Medicine, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA.",
+        "Department of Developmental Biology, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Center of Regenerative Medicine, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA.",
+        "Department of Developmental Biology, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Center of Regenerative Medicine, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA. Electronic address: s.morris@wustl.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kamimoto, Kenji",
+        "short_name": "Kamimoto K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Developmental Biology, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Center of Regenerative Medicine, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA."
+        ]
+      },
+      {
+        "full_name": "Adil, Mohd Tayyab",
+        "short_name": "Adil MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Developmental Biology, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Center of Regenerative Medicine, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA."
+        ]
+      },
+      {
+        "full_name": "Jindal, Kunal",
+        "short_name": "Jindal K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Developmental Biology, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Center of Regenerative Medicine, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA."
+        ]
+      },
+      {
+        "full_name": "Hoffmann, Christy M",
+        "short_name": "Hoffmann CM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Developmental Biology, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Center of Regenerative Medicine, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA."
+        ]
+      },
+      {
+        "full_name": "Kong, Wenjun",
+        "short_name": "Kong W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Developmental Biology, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Center of Regenerative Medicine, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Xue",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Developmental Biology, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Center of Regenerative Medicine, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA."
+        ]
+      },
+      {
+        "full_name": "Morris, Samantha A",
+        "short_name": "Morris SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Developmental Biology, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA; Center of Regenerative Medicine, Washington University School of Medicine in St. Louis, 660 S. Euclid Avenue, Campus Box 8103, St. Louis, MO 63110, USA. Electronic address: s.morris@wustl.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Stem cell reports"
+    ],
+    "journal_abbrev": [
+      "Stem Cell Reports"
+    ],
+    "pub_date": "2023 Jan 10",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/31 06:00",
+    "fetched_at": "2026-09-28 18:30:38"
+  },
+  "links": {
+    "cites": [
+      "42681529",
+      "41734818",
+      "41684939",
+      "41269283",
+      "41250104",
+      "41107536",
+      "40744015",
+      "40683107",
+      "40614714",
+      "40537872",
+      "40119479",
+      "40060658",
+      "39834592",
+      "39486406",
+      "39279468",
+      "39172488",
+      "39062480",
+      "38840498",
+      "38721585",
+      "38159082",
+      "37749269"
+    ],
+    "refs": [
+      "36755098",
+      "35354951",
+      "35354062",
+      "35190690",
+      "35177622",
+      "35075189",
+      "34509499",
+      "33958447",
+      "33242395",
+      "32917699",
+      "32051617",
+      "31974159",
+      "31831627",
+      "31080134",
+      "31072405",
+      "30890159",
+      "30518857",
+      "30089906",
+      "30078704",
+      "29800107",
+      "29272704",
+      "29249464",
+      "29220667",
+      "28960196",
+      "27984733",
+      "27794120",
+      "26258633",
+      "25126792",
+      "24658644",
+      "23277278",
+      "22908211",
+      "22658639",
+      "21716291",
+      "21386864",
+      "18159217",
+      "17889654",
+      "16904174",
+      "16469913",
+      "14668816",
+      "11402336"
+    ],
+    "similar": [
+      "36584685",
+      "28065574",
+      "30283019",
+      "37749269",
+      "30596387",
+      "31062304",
+      "36755098",
+      "27486230",
+      "36206732",
+      "27579918",
+      "30518857",
+      "37244909",
+      "27281220",
+      "24228871",
+      "29072293",
+      "28667865",
+      "28954238",
+      "31062319",
+      "26780608",
+      "37889053",
+      "27979774",
+      "35411370",
+      "35172134",
+      "31708478",
+      "34986805",
+      "32961143",
+      "29653196",
+      "31216470",
+      "21423725",
+      "30805989",
+      "38986613",
+      "33452356",
+      "36106915",
+      "33034061",
+      "36991439",
+      "33170214",
+      "32305736",
+      "28453285",
+      "29476134",
+      "25865119",
+      "36070863",
+      "28646660",
+      "29044560",
+      "37085776",
+      "37751683",
+      "32188700",
+      "27056282",
+      "29769331",
+      "28362413",
+      "38744843",
+      "27930301",
+      "36418514",
+      "30239706",
+      "29879919",
+      "33631799",
+      "33666218",
+      "28874788",
+      "37788349",
+      "26938987",
+      "31019211",
+      "37018467",
+      "37421991",
+      "26906680",
+      "37126716",
+      "39150785",
+      "27902735",
+      "33168813",
+      "28254369",
+      "36307979",
+      "29980007",
+      "35725577",
+      "36973293",
+      "23704920",
+      "29462363",
+      "33226613",
+      "31403532",
+      "37387180",
+      "24123565",
+      "23217423",
+      "38184707",
+      "34324190",
+      "29743677",
+      "27133794",
+      "29220667",
+      "31230860",
+      "30943410",
+      "29483300",
+      "25575081",
+      "33054712",
+      "30547796",
+      "24740884",
+      "28379941",
+      "30482756",
+      "29803990",
+      "31374103",
+      "39161769",
+      "25494287",
+      "27514850",
+      "30078731",
+      "21909390",
+      "39425176",
+      "38909361",
+      "35354062",
+      "38504523"
+    ],
+    "review": [
+      "36584685",
+      "27486230",
+      "27579918",
+      "28667865",
+      "27979774",
+      "28646660",
+      "27056282",
+      "33666218",
+      "37018467",
+      "29980007",
+      "31403532",
+      "29803990"
+    ],
+    "pmc": [
+      "9860067"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2213-6711(22)00543-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36584685/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36584685",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/36584685",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse217675",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

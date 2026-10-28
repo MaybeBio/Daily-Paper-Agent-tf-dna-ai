@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38267999",
+  "title": "Monte Carlo simulation of the Varian TrueBeam flattened-filtered beams using a surrogate geometry in PRIMO.",
+  "authors": "Rodriguez, Miguel; Sempau, Josep; Brualla, Lorenzo",
+  "journal": "Radiation oncology (London, England)",
+  "published_date": "2024-01-25",
+  "window": {
+    "start": "2024-01-22",
+    "end": "2024-01-28"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用PRIMO蒙特卡罗模拟医用直线加速器光子束剂量分布，与蛋白质-DNA互作及AI/物理模拟方法完全无关。",
+  "abstract": "BACKGROUND: Monte Carlo simulation of radiation transport for medical linear accelerators (linacs) requires accurate knowledge of the geometrical description of the linac head. Since the geometry of Varian TrueBeam machines has not been disclosed, the manufacturer distributes phase-space files of the linac patient-independent part to allow researchers to compute absorbed dose distributions using the Monte Carlo method. This approach limits the possibility of achieving an arbitrarily small statistical uncertainty. This work investigates the use of the geometry of the Varian Clinac 2100, which is included in the Monte Carlo system PRIMO, as a surrogate. METHODS: Energy, radial and angular distributions extracted from the TrueBeam phase space files published by the manufacturer and from phase spaces tallied with PRIMO for the Clinac 2100 were compared for the 6, 8, 10 and 15 MV flattened-filtered beams. Dose distributions in water computed for the two sets of PSFs were compared with the Varian Representative Beam Data (RBD) for square fields with sides ranging from 3 to 30 cm. Output factors were calculated for square fields with sides ranging from 2 to 40 cm. RESULTS: Excellent agreement with the RBD was obtained for the simulations that employed the phase spaces distributed by Varian as well as for those that used the surrogate geometry, reaching in both cases Gamma ([Formula: see text], 2 mm) pass rates larger than [Formula: see text], except for the 15 MV surrogate. This result supports previous investigations that suggest a change in the material composition of the TrueBeam 15 MV flattening filter. In order to get the said agreement, PRIMO simulations were run using enlarged transport parameters to compensate the discrepancies between the actual and surrogate geometries. CONCLUSIONS: This work sustains the claim that the simulation of the 6, 8 and 10 MV flattening-filtered beams of the TrueBeam linac can be performed using the Clinac 2100 model of PRIMO without significant loss of accuracy.",
+  "abstract_zh": "背景：对医用直线加速器（linacs）的辐射输运进行蒙特卡罗模拟，需要精确了解加速器机头的几何描述。由于Varian TrueBeam机器的几何结构未公开，制造商分发该加速器患者非依赖部分的相空间文件，以便研究人员使用蒙特卡罗方法计算吸收剂量分布。这种方法限制了实现任意小统计不确定性的可能性。本研究探讨使用Varian Clinac 2100的几何结构（包含在蒙特卡罗系统PRIMO中）作为替代方案。方法：从制造商发布的TrueBeam相空间文件以及使用PRIMO对Clinac 2100记录的相空间中提取的能量、径向和角分布，在6、8、10和15 MV平坦化滤波束下进行了比较。针对两组相空间函数（PSFs）计算的水中剂量分布，与Varian代表性束数据（RBD）在边长从3到30 cm的方形野下进行了比较。输出因子在边长从2到40 cm的方形野下进行了计算。结果：对于使用Varian分布的相空间以及使用替代几何结构的模拟，均与RBD取得了极好的一致性，两种情况下的Gamma（[公式见原文]，2 mm）通过率均大于[公式见原文]，但15 MV替代情况除外。这一结果支持了先前关于TrueBeam 15 MV平坦化滤波器材料组成变化的调查。为获得上述一致性，PRIMO模拟使用了扩大的输运参数，以补偿实际几何与替代几何之间的差异。结论：本研究支持以下主张：使用PRIMO中的Clinac 2100模型模拟TrueBeam加速器的6、8和10 MV平坦化滤波束，可以在不显著损失精度的情况下进行。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38267999/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38267999/",
+  "paper_page_path": "papers/pubmed/38267999/index.html"
+}

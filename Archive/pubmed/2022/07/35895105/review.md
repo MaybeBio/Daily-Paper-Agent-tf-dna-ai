@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, conclusion, and materials and methods. No supplementary figures or tables were provided.
+- **Assessment boundary** Scientific soundness, technical rigor, clarity of claims, and alignment of evidence with conclusions. No assessment of grammar or style beyond readability for a general scientific audience.
+- **Shared manuscript claim summary** The authors report that oncogenic mutations in the DNA-binding domain of FOXO1, particularly L183P and L183R, destabilize the forkhead (FKH) domain and disrupt DNA binding. They use thermal shift assays (TSA), differential scanning calorimetry (DSC), electrophoretic mobility shift assays (EMSA), alchemical free energy perturbation (FEP), and massively parallel molecular simulations with Markov state models (MSMs) to characterize these effects. They propose that a simple hydrophobic transfer model, using solvent-accessible surface area (SASA) changes from simulations, predicts ΔΔGfold more accurately than FEP.
+- **Visible evidence base** Main text figures (Figures 1–8) and tables (Tables 1, 2, 4) are referenced but not provided. Methods are described in detail. No supplementary material was supplied.
+- **Missing materials affecting confidence** All figures, tables, and supplementary data (Figures S1–S10, Tables S1–S2) are absent. This limits verification of quantitative claims, statistical analyses, and model validation.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant question with a combined experimental and computational approach. The finding that L183 mutations destabilize the FKH domain and reduce DNA binding is plausible and potentially important. However, the absence of all figures and tables prevents verification of the central quantitative claims. The computational methods are described in detail, but the reported accuracy of the hydrophobic transfer model (RMSE 0.25 kcal/mol) is surprisingly high and requires scrutiny. The manuscript is well written and accessible, but the evidence base as provided is insufficient to fully establish the conclusions.
+- **Who would be interested in the results, and why** Researchers studying FOXO transcription factors, protein folding mechanisms, and computational prediction of mutation effects on protein stability. Clinicians and translational scientists interested in the molecular basis of DLBCL and potential targeted therapies may also find the results relevant.
+- **Major strengths** The combination of experimental biophysics (TSA, DSC, EMSA) with advanced computational methods (FEP, MSMs from Folding@home) is ambitious and comprehensive. The focus on clinically observed mutations adds translational relevance. The authors are transparent about limitations of FEP and propose an alternative model with apparent high accuracy.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims quantitative agreement between the hydrophobic transfer model and experimental ΔΔGfold values (RMSE 0.25 kcal/mol, Figure 7A).
+  - **Evidence pointer** Figure 7, Table 1, location not provided
+  - **Concern** The central quantitative claim of the paper cannot be evaluated because Figure 7 and Table 1 are not included in the provided materials. The reported RMSE of 0.25 kcal/mol is exceptionally low for a predictive model of protein stability, and without seeing the data, the scatter, the number of points, and the statistical treatment, this claim is unverifiable.
+  - **Why it matters** The paper's main contribution is the claim that a simple model outperforms FEP. If the underlying data do not support this, the conclusion is invalid.
+  - **Resolution test** Provide Figure 7 and Table 1 with clear axis labels, error bars, and a description of the statistical analysis. Show the individual data points and the fit.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the MSM predicts a folding mechanism where helix α3 forms last, and that this is consistent with sequence-based predictions of poor helix propensity for α3.
+  - **Evidence pointer** Figure 5, Figure S2, location not provided
+  - **Concern** The claim that α3 forms last is based on the MSM analysis, but the evidence (Figure 5) is not provided. The authors also cite PSIPRED predictions (Figure S2) which are not shown. Without these figures, the reader cannot assess whether the structural assignments and the population analysis are correct.
+  - **Why it matters** The proposed folding mechanism is a key novel finding. If the MSM is not well validated or the structural interpretation is flawed, this claim is unsupported.
+  - **Resolution test** Provide Figure 5 and Figure S2 with clear labeling of secondary structure elements and the population analysis. Show the validation of the MSM (e.g., Chapman-Kolmogorov test, Figure S10).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report that FEP predictions correlate with experimental Tm trends (r = -0.85) but have poor quantitative accuracy (MUE 2.11 kcal/mol, RMSE 3.5 kcal/mol).
+  - **Evidence pointer** Figure 3, Figure 7C, location not provided
+  - **Concern** The correlation coefficient of -0.85 is reported, but the corresponding figure is not provided. The authors also note that FEP fails for mutations with small ΔTm, which is a known limitation. However, the specific reasons for the poor quantitative agreement are not fully explored. The discussion of FEP limitations is reasonable, but the lack of data prevents a deeper assessment.
+  - **Why it matters** The comparison between FEP and the hydrophobic transfer model is central to the paper's argument. Without the figures, the reader cannot judge whether the comparison is fair and whether the conclusions are justified.
+  - **Resolution test** Provide Figure 3 and Figure 7C with clear labeling of the data points and the fit. Discuss the potential sources of error in FEP more quantitatively.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that the hydrophobic transfer model, combined with simulated SASA values, is a generally useful approach for predicting mutation effects on stability.
+  - **Evidence pointer** Figure 6, Figure 7A, location not provided
+  - **Concern** The model is tested on only a small number of mutations (eight to ten) in a single protein domain. The authors acknowledge this limitation but do not provide a clear path for validation on a larger dataset. The claim of general utility is therefore premature.
+  - **Why it matters** The broader applicability of the model is a key selling point. Without broader validation, the significance of the approach is limited.
+  - **Resolution test** Discuss the limitations of the model more explicitly and propose specific future validation studies on other proteins or larger mutation datasets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that the hydrophobic transfer model "more accurately" predicts changes in folding free energies, but the quantitative comparison is only presented later in the results. A brief mention of the RMSE values in the abstract would strengthen the claim.
+  - **Required correction** Add a sentence in the abstract with the key quantitative comparison (e.g., RMSE values for the hydrophobic transfer model vs. FEP).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods, FEP Calculations, location not provided
+  - **Issue** The description of the FEP calculations mentions that the last 4 ns of each 8-ns trajectory were used, but the convergence analysis (Figure S6) is not provided. It is unclear how the equilibration period was determined.
+  - **Required correction** Provide a brief description of the convergence criteria used to discard the first 4 ns, or refer to the supplementary figure with more detail.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Hydrophobic transfer model" section
+  - **Evidence pointer** Results, location not provided
+  - **Issue** The equation for ΔΔGfold is presented in the methods, but the variables are not fully defined in the results section. A brief restatement of the model in the results would improve readability.
+  - **Required correction** Briefly restate the model equation and define all variables when it is first introduced in the results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1, location not provided
+  - **Issue** The table lists mutations and their ΔTm values, but the error bars or confidence intervals are not mentioned in the text. It is unclear how reproducible the measurements are.
+  - **Required correction** Add a statement about the reproducibility of the TSA and DSC measurements, including the number of replicates and the standard deviation.
+- **Technical failings that need to be addressed before the case is established** The absence of all figures and tables is a critical failing. The central claims of the paper, including the quantitative accuracy of the hydrophobic transfer model and the folding mechanism, cannot be assessed without these data. The authors must provide the figures and tables for a complete review.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The combination of experimental and computational approaches to study clinically relevant mutations in FOXO1 is somewhat novel, but the individual methods are established. The proposed hydrophobic transfer model is a simple extension of existing concepts.
+  - **Scientific importance** The findings are potentially important for understanding the molecular basis of DLBCL and for improving computational prediction of mutation effects. However, the limited scope of the validation reduces the immediate impact.
+  - **Interdisciplinary readership** The manuscript will appeal to biophysicists, computational biologists, and cancer researchers. The writing is accessible, but the technical details may be challenging for non-specialists.
+  - **Technical soundness** The methods are described in detail, but the lack of figures and tables prevents a full assessment of the technical rigor. The reported accuracy of the hydrophobic transfer model is suspiciously high and needs scrutiny.
+  - **Readability for nonspecialists** The manuscript is generally well written, but the results section is dense and would benefit from clearer explanations of the computational methods.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the absence of all figures and tables is a major obstacle. The authors should be invited to resubmit with the complete set of figures and tables, and with additional validation of the hydrophobic transfer model.
+
+## Risk / unsupported claims
+- The claim that the hydrophobic transfer model predicts ΔΔGfold with RMSE 0.25 kcal/mol is unsupported without Figure 7A.
+- The claim that helix α3 forms last in the folding pathway is unsupported without Figure 5.
+- The claim that FEP predictions correlate with experimental Tm trends (r = -0.85) is unsupported without Figure 3B.
+- The claim that the MSM is validated by the Chapman-Kolmogorov test is unsupported without Figure S10.
+- The claim that the hydrophobic transfer model is generally applicable is unsupported due to the small number of mutations tested.

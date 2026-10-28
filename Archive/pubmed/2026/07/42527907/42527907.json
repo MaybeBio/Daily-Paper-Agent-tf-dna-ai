@@ -1,0 +1,224 @@
+{
+  "identity": {
+    "pmid": "42527907",
+    "doi": "10.1186/s12859-026-06538-5",
+    "title": "Residual-stream geometry of single-cell foundation models carries incremental gene-regulatory signal across tissues."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Single-cell foundation models such as scGPT and Geneformer learn rich representations of gene expression programs, but whether these representations encode gene regulatory relationships beyond expression-level confounds remains unclear. Attention patterns in these models have been shown to capture co-expression rather than direct regulation, leaving open the question of whether deeper representations-particularly the residual stream-contain genuine regulatory information. RESULTS: We systematically investigated residual-stream geometry in scGPT and Geneformer across four tissue contexts from the Tabula Sapiens atlas, evaluating whether geometric proximity between gene vectors provides incremental predictive value for curated TRRUST transcription factor-target edges beyond expression confounds. Under repeated stratified cross-validation, geometric features provided significant incremental signal in kidney and immune settings, validated by label-permutation and geometry-shuffle null controls; centered-cosine similarity, PCA projection and multi-layer bundling recovered comparable signal in lung tissues, and the multi-layer bundle improved every domain (kidney DeltaAUROC = + 0.122, immune + 0.042, lung + 0.028, external lung + 0.027; geometry-augmented AUROC 0.60-0.69). The effect was fully robust to leave-TF-out and leave-target-out cross-validation and to harder degree- and expression-matched negative edges, but under the stricter leave-both-out split-no transcription factor and no target shared between folds-it collapsed to near-zero (DeltaAUROC at most + 0.003, and not statistically significant in kidney or immune), marking the ceiling of out-of-entity generalization. With a comparable per-layer residual-stream extraction applied to both models, the apparent Geneformer advantage mostly disappeared (small residual gaps remained in three of four domains), indicating it largely reflected representation-construction choices rather than a substantial architectural difference. Asymmetric geometric features predicted regulatory edge orientation (AUROC 0.80-0.90), and the geometric signal added incremental value on top of expression-based gene regulatory network (GRN) inference (GENIE3, co-expression). CONCLUSION: Foundation model residual streams carry incremental, regulatory-relevant geometric signal that is distributed across layers and that complements expression-based GRN inference for retrospective edge prioritization. The signal is statistical enrichment rather than a stand-alone regulatory classifier: absolute performance is modest and out-of-entity generalization is limited, so its practical role is as an orthogonal evidence channel for edge re-ranking and hypothesis prioritization in multi-evidence frameworks.",
+    "keywords": [
+      "Gene regulatory networks",
+      "Geneformer",
+      "Mechanistic interpretability",
+      "Representation geometry",
+      "Residual stream",
+      "ScGPT",
+      "Single-cell foundation models"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Single-Cell Analysis/methods",
+      "*Gene Regulatory Networks",
+      "Transcription Factors/metabolism",
+      "*Computational Biology/methods",
+      "*Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kendiukhov, Ihor"
+      ],
+      "short_names": [
+        "Kendiukhov I"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Medical Genetics and Applied Genomics, University of Tubingen, Tubingen, Germany. ihor.kendiukhov@student.uni-tuebingen.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kendiukhov, Ihor",
+        "short_name": "Kendiukhov I",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Genetics and Applied Genomics, University of Tübingen, Tübingen, Germany. ihor.kendiukhov@student.uni-tuebingen.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2026 Jul 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/30 00:39",
+    "fetched_at": "2026-10-02 02:41:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38409223",
+      "37258680",
+      "35549404",
+      "32871105",
+      "32084340",
+      "31907445",
+      "29087512",
+      "28991892",
+      "23080391",
+      "20927193",
+      "18797474",
+      "17510665",
+      "11872831"
+    ],
+    "similar": [
+      "42527907",
+      "42398561",
+      "42482180",
+      "42475469",
+      "42296381",
+      "42509463",
+      "42467671",
+      "42155660",
+      "42585234",
+      "41093852",
+      "42086551",
+      "42123445",
+      "18426580",
+      "41288963",
+      "42059479",
+      "42379339",
+      "38342857",
+      "41554051",
+      "40251476",
+      "32054475",
+      "32019417",
+      "41300707",
+      "37085776",
+      "38653489",
+      "36064320",
+      "41883144",
+      "35961023",
+      "36321557",
+      "24228871",
+      "38980373",
+      "40662821",
+      "42320030",
+      "29914350",
+      "22456606",
+      "42560939",
+      "39207727",
+      "41317402",
+      "41386265",
+      "41801512",
+      "41871930",
+      "40633682",
+      "38778003",
+      "42455615",
+      "40708222",
+      "42069101",
+      "30547796",
+      "42033879",
+      "41896196",
+      "41206950",
+      "38950180",
+      "41451540",
+      "38879931",
+      "41067887",
+      "41498638",
+      "39512836",
+      "29879919",
+      "42531328",
+      "42064781",
+      "41329984",
+      "40702704",
+      "41436831",
+      "32241274",
+      "41310253",
+      "29246163",
+      "38409223",
+      "34251625",
+      "41643202",
+      "42523538",
+      "17319944",
+      "41489955",
+      "41388523",
+      "27897008",
+      "41662352",
+      "34962963",
+      "30598101",
+      "39161769",
+      "41087386",
+      "42024670",
+      "25707768",
+      "36695505",
+      "41178806",
+      "31985403",
+      "39934680",
+      "25024357",
+      "36450117",
+      "39082647",
+      "36626328",
+      "25369032",
+      "42510046",
+      "24266986",
+      "39833103",
+      "41320661",
+      "33002527",
+      "39679439",
+      "30547400",
+      "37889053",
+      "33874910",
+      "27556418",
+      "41716413",
+      "38806476"
+    ],
+    "review": [
+      "42527907",
+      "36321557",
+      "39207727"
+    ],
+    "pmc": [
+      "13418759"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-026-06538-5",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42527907/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

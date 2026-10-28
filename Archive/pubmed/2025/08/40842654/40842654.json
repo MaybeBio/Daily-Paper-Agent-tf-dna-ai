@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "40842654",
+    "doi": "10.3389/fnagi.2025.1566929",
+    "title": "Bioinformatics and experimental validation identify biomarkers for diagnosing Alzheimer's disease."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND PURPOSE: Alzheimer's disease (AD) is a complex condition involving multiple mechanisms, primarily characterized by the progressive decline in cognition and memory. At present, there is no simple and reliable diagnostic method available for clinical application. Therefore, this study aims to identify potential biomarkers for AD using bioinformatics, providing new insights into its diagnosis. METHODS: This study utilized the transcriptome dataset GSE63060 from the Gene Expression Omnibus (GEO) and applied bioinformatics approaches to identify candidate genes. Differentially expressed genes (DEGs), weighted gene co-expression network analysis (WGCNA), protein-protein interaction (PPI) networks, and machine learning techniques (LASSO, SVM-RFE, Boruta, and XGBoost) were employed on the GSE63060 dataset. Subsequently, the expression levels of the candidate genes were evaluated, and a receiver operating characteristic (ROC) curve was constructed to identify hub genes and establish a corresponding network. Finally, we focused on the common upstream transcription factor c-Myc among the hub genes and conducted clinical experiments to validate its potential. Serum samples were collected from 41 AD patients treated at the Second Affiliated Hospital of Harbin Medical University between October 2023 and November 2024, along with 41 control subjects. The c-Myc protein concentration was measured using ELISA, and a ROC curve was constructed to assess its diagnostic potential. RESULTS: This study identified four hub genes associated with AD: RPL36AL, NDUFA1, NDUFS5, and RPS25. Additionally, the concentration of the c-Myc protein was significantly different between the AD and control groups (p < 0.001). The diagnostic sensitivity was 87.8%, specificity was 51.2%, and the area under the curve (AUC) value was 0.753, suggesting that c-Myc has independent diagnostic significance for AD. CONCLUSION: Our study demonstrates that RPL36AL, NDUFA1, NDUFS5, and RPS25 have potential as biomarkers for the diagnosis of AD. Additionally, the experiment suggests that c-Myc could serve as a promising blood biomarker for the diagnosis of AD.",
+    "keywords": [
+      "Alzheimer's disease",
+      "ELISA",
+      "bioinformatics",
+      "biomarkers",
+      "c-Myc"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Hui",
+        "Li, Chenye",
+        "Zhai, Congchen",
+        "Li, Mei",
+        "Ma, Lan"
+      ],
+      "short_names": [
+        "Liu H",
+        "Li C",
+        "Zhai C",
+        "Li M",
+        "Ma L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Xi'an North Hospital, Xi'an, China.",
+        "The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "Tangdu Hospital of Air Force Medical University, Xi'an, China.",
+        "The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+        "The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Hui",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+          "Xi'an North Hospital, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chenye",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Zhai, Congchen",
+        "short_name": "Zhai C",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Harbin Medical University, Harbin, China.",
+          "Tangdu Hospital of Air Force Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Li, Mei",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Lan",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital of Harbin Medical University, Harbin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in aging neuroscience"
+    ],
+    "journal_abbrev": [
+      "Front Aging Neurosci"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/22 08:44",
+    "fetched_at": "2026-10-01 00:16:46"
+  },
+  "links": {
+    "cites": [
+      "41956739"
+    ],
+    "refs": [
+      "39473982",
+      "39396400",
+      "39382875",
+      "39026674",
+      "38892067",
+      "38002245",
+      "37965040",
+      "37545529",
+      "37334608",
+      "37081887",
+      "36897120",
+      "36730056",
+      "36455762",
+      "36405716",
+      "36195955",
+      "35766008",
+      "35131137",
+      "34225819",
+      "32653968",
+      "32286143",
+      "30946049",
+      "30478411",
+      "30054583",
+      "28872215",
+      "26343147",
+      "25957956",
+      "22865768",
+      "21414208",
+      "20808728",
+      "19114008",
+      "18397250",
+      "17262856",
+      "17099194",
+      "10070614",
+      "10050887"
+    ],
+    "similar": [
+      "40842654",
+      "36195955",
+      "39507054",
+      "41291841",
+      "39394418",
+      "41081092",
+      "39730451",
+      "41415264",
+      "40207815",
+      "37545529",
+      "37520121",
+      "41300737",
+      "41009659",
+      "40753530",
+      "40997906",
+      "41196851",
+      "38260098",
+      "41479901",
+      "37334608",
+      "34194312",
+      "38329682",
+      "39375405",
+      "40678591",
+      "39875978",
+      "34225819",
+      "37359526",
+      "37032823",
+      "39188714",
+      "36635346",
+      "39263286",
+      "40329774",
+      "35911963",
+      "39991151",
+      "39920860",
+      "39403102",
+      "37100862",
+      "41052072",
+      "36405716",
+      "35865542",
+      "38831425",
+      "38371524",
+      "39754246",
+      "39844282",
+      "40275274",
+      "40263690",
+      "38987624",
+      "37837870",
+      "40406620",
+      "35966794",
+      "40374840",
+      "36823662",
+      "34367470",
+      "40438507",
+      "41115648",
+      "37684281",
+      "38195609",
+      "40574839",
+      "36437991",
+      "39819531",
+      "40628511",
+      "40821971",
+      "38544384",
+      "36994393",
+      "39695788",
+      "39556279",
+      "39142001",
+      "39559355",
+      "32019384",
+      "41164826",
+      "36072674",
+      "38711508",
+      "40328901",
+      "38230733",
+      "36660690",
+      "41044520",
+      "36035141",
+      "34814332",
+      "37961387",
+      "40084401",
+      "40315768",
+      "39875572",
+      "40147738",
+      "40245021",
+      "32042816",
+      "39697326",
+      "37434738",
+      "40768057",
+      "37732314",
+      "39139563",
+      "40927314",
+      "39675129",
+      "39650656",
+      "38682214",
+      "38028617",
+      "40407862",
+      "36470144",
+      "39584743",
+      "40340571",
+      "41422136",
+      "41214111"
+    ],
+    "review": [
+      "40842654"
+    ],
+    "pmc": [
+      "12364863"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40842654/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fnagi.2025.1566929",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,111 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussions, conclusions) as provided
+- **Assessment boundary** Statistical methodology, validation approach, biological interpretation, and comparison with existing methods as described in the provided text
+- **Shared manuscript claim summary** The authors propose a new statistical model, ceQTL, based on the Chow test, to detect expression quantitative trait loci (eQTLs) that are modulated by transcription factor (TF) binding. The model tests for significant differences in TF-target gene (TG) correlation across SNP genotypes. The method is applied to simulated data and GTEx lung tissue data, and the authors report that a small fraction of eQTLs are mediated by TF binding, with some ceQTLs not detected by traditional eQTL analysis.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (partial), Results (partial), Discussions, Conclusions, Author Contributions, Funding, Data Availability
+- **Missing materials affecting confidence** Full methods details (including the exact Chow test formula, which appears truncated), complete results tables and figures (Tables 1-3, Figures 1-5 referenced but not fully described), simulation parameters in full, code availability statement, and detailed comparison statistics
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important gap in eQTL interpretation by proposing a statistical framework to identify eQTLs potentially mediated by TF binding. The concept is timely and the application to GTEx lung tissue is relevant. However, the current presentation has several critical weaknesses. The methods section is incomplete, particularly the Chow test formula which is truncated. The validation strategy relies heavily on simulation but the parameters and convergence issues are not fully detailed. The biological interpretation of the results, especially the small number of significant ceQTLs and the case studies, requires more rigorous statistical support. The comparison with existing methods (linear model with interaction) is presented but the relative performance and complementarity need clearer quantification. The manuscript would benefit from a more thorough discussion of limitations, particularly regarding multiple testing burden, the choice of TF-TG databases, and the generalizability of the findings.
+- **Who would be interested in the results, and why** Statistical geneticists and computational biologists developing methods for functional interpretation of GWAS and eQTL results. Researchers studying gene regulation mechanisms, particularly TF-mediated effects on gene expression. Investigators working with GTEx data or similar large-scale genomic datasets who seek to prioritize variants for functional follow-up. The method could also interest researchers studying disease-associated variants in non-coding regions.
+- **Major strengths** 1) Addresses a clear and important gap in eQTL interpretation by proposing a mechanism-focused approach. 2) The use of the Chow test is a novel application in this context. 3) The integration of TF binding site information with eQTL analysis is biologically motivated. 4) The application to a well-characterized tissue (lung) from GTEx provides a realistic test case. 5) The comparison with existing approaches (eQTL, linear model with interaction) is a useful addition.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The Chow test statistic formula is presented but appears truncated in the text, and the exact statistical model specification is incomplete.
+  - **Evidence pointer** Materials and Methods, ceQTL calling section
+  - **Concern** The Chow test formula is cut off in the provided text, and the full model specification (including how the sum of squares are computed, the exact number of parameters k, and the degrees of freedom) is not fully described. This prevents assessment of the statistical validity of the approach.
+  - **Why it matters** Without the complete statistical formulation, the method cannot be reproduced or independently evaluated. The Chow test has known limitations and assumptions that need to be explicitly stated and tested.
+  - **Resolution test** Provide the complete Chow test formula, a clear description of the linear models fitted for each genotype group, and a statement of the assumptions and their validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The simulation study claims robustness across sample sizes and allele frequencies, but the details are insufficient to evaluate this claim.
+  - **Evidence pointer** Results, "The ceQTL model is robust with diverse sample sizes and variant allele frequencies" section; Table 1
+  - **Concern** The simulation description is incomplete. The authors mention convergence difficulties for larger sample sizes but do not explain the cause or implications. The ground truth definition is vague ("difference in correlations of any pair of genotype groups"). The AUC values are reported as "consistent" but no numerical values or confidence intervals are provided in the text.
+  - **Why it matters** The simulation is the primary evidence for the method's validity. Without full details on simulation parameters, ground truth definition, and performance metrics, the robustness claim is not substantiated.
+  - **Resolution test** Provide complete simulation parameters, a precise definition of ground truth, and quantitative results (AUC values with variability measures) for all sample sizes and MAF conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that ceQTL identifies eQTLs mediated by TF binding and that this provides biological insight, but the evidence for biological validity is limited.
+  - **Evidence pointer** Results, case study sections; Figure 5
+  - **Concern** The case studies (e.g., ROM1:EGR1) are presented as evidence of biological relevance, but the connection between the statistical finding and the biological mechanism is largely speculative. The atSNP analysis provides supporting evidence for binding affinity changes, but the functional consequences for TG expression are not experimentally validated. The claim that ceQTL provides "more interpretable and biological insight" is not fully supported.
+  - **Why it matters** The added value of ceQTL over existing methods depends on its ability to identify biologically meaningful eQTLs. Without experimental validation or stronger functional evidence, the biological significance of the findings remains uncertain.
+  - **Resolution test** Provide additional evidence for at least a subset of ceQTLs, such as experimental validation of TF binding or expression changes, or demonstrate enrichment of ceQTLs in relevant functional genomic annotations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The comparison with the linear model with interaction (linear model X) suggests ceQTL is more powerful, but the comparison methodology is not fully described.
+  - **Evidence pointer** Results, "Comparison of ceQTLs with eQTL and linear model with interaction" section; Table 2; Figure 3
+  - **Concern** The comparison between ceQTL and linear model X is presented in terms of numbers of significant findings, but the statistical properties of the two approaches are not compared systematically. The authors note that some findings are unique to each method, but the reasons for these differences are not explored in depth. The claim that ceQTL is "more powerful" is based on the number of findings, which may reflect differences in statistical power, type I error rates, or the underlying models.
+  - **Why it matters** A fair and rigorous comparison is essential to establish the added value of ceQTL. Without a systematic evaluation (e.g., using simulated data with known ground truth to compare power and false discovery rates), the relative merits of the methods are unclear.
+  - **Resolution test** Provide a systematic comparison of ceQTL and linear model X using simulated data with known ground truth, reporting power, FDR, and calibration of p-values for both methods.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The manuscript claims the method is applicable beyond TF binding sites, but the generalizability is not demonstrated.
+  - **Evidence pointer** Discussions section
+  - **Concern** The authors suggest the approach can be extended to other genomic regions (e.g., open chromatin, miRNA binding sites), but no examples or simulations are provided to support this claim. The current implementation is specific to TF binding sites from TFLink.
+  - **Why it matters** The broader impact of the method depends on its generalizability. Without demonstration of applicability to other regulatory elements, the claim remains speculative.
+  - **Resolution test** Provide a proof-of-concept application to at least one additional type of regulatory element, or clearly state the limitations of the current implementation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses technical terms (e.g., "Chow statistics", "co-expression QTL") without brief explanations, which may limit accessibility for readers outside statistical genetics.
+  - **Required correction** Add brief parenthetical explanations for key technical terms in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, TF, TG and SNP trio construction
+  - **Evidence pointer** Materials and Methods section
+  - **Issue** The criteria for retaining TF-TG pairs from TFLink are not fully specified. The authors mention "large-scale sets" but do not describe filtering criteria (e.g., confidence scores, tissue specificity).
+  - **Required correction** Specify the filtering criteria used to select TF-TG pairs and binding sites from TFLink.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, case study
+  - **Evidence pointer** Results, case study section
+  - **Issue** The statement that DNAH5 "has the highest expression among all tissues profiled in GTEx samples" is not supported by a reference or data shown in the manuscript.
+  - **Required correction** Provide a reference or show the expression data supporting this claim.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, Figure 1D description
+  - **Evidence pointer** Results section
+  - **Issue** The description of Figure 1D contains typographical errors (e.g., "PRS26" instead of "RPS26", "expressin", "correaltion", "dispeared") that detract from readability.
+  - **Required correction** Proofread the manuscript for typographical errors.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Data simulation
+  - **Evidence pointer** Materials and Methods, Data simulation section
+  - **Issue** The simulation uses a beta distribution for initial expression values, but the rationale for this choice and its implications for the results are not discussed.
+  - **Required correction** Justify the choice of beta distribution and discuss potential limitations.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Table 2
+  - **Evidence pointer** Results section, Table 2
+  - **Issue** The numbers in Table 2 are mentioned in the text but the table itself is not fully described. The criteria for "genome-wide significant" and "FDR < 0.05" are not explicitly defined in the text.
+  - **Required correction** Define the significance thresholds and describe the contents of Table 2 in the text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (incomplete statistical formulation), R1-M2 (insufficient simulation details), R1-M4 (incomplete method comparison)
+- **Assessment against Nature-style criteria** Originality: The application of the Chow test to eQTL analysis is novel and addresses a real gap in the field. The concept of detecting eQTLs mediated by TF binding through differential co-expression is a reasonable and potentially valuable contribution. Scientific importance: The question of how eQTL variants affect gene expression is of broad interest, and a method that can identify TF-mediated effects would be useful. However, the current evidence does not fully establish the importance of the findings, as the biological validation is limited. Interdisciplinary readership: The method is relevant to statistical genetics, computational biology, and gene regulation research. The manuscript is written in a way that is largely accessible to these audiences, though some technical details are missing. Technical soundness: The statistical approach is not fully described, and the validation is incomplete. The simulation study has significant gaps, and the comparison with existing methods is not rigorous. Readability for nonspecialists: The abstract and introduction are generally clear, but the results section contains typographical errors and some technical jargon that may hinder readability.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem and the proposed approach is conceptually interesting, but the incomplete methods, insufficient simulation details, and limited biological validation prevent a definitive assessment of the method's validity and utility. The authors should address the major concerns, particularly the complete statistical formulation and a more rigorous validation strategy, before the case for ceQTL as a useful method is established.
+
+## Risk / unsupported claims
+- The claim that ceQTL identifies eQTLs "modulated by a particular TF" is not fully supported, as the statistical test detects differences in correlation but does not directly establish TF mediation.
+- The claim that ceQTL provides "more interpretable and biological insight" is not quantitatively supported by the results presented.
+- The claim that the method is robust across sample sizes and allele frequencies is not fully supported due to incomplete simulation details.
+- The claim that ceQTL and linear model X "can complement each other" is based on anecdotal examples rather than systematic analysis.
+- The biological significance of the case studies (e.g., ROM1:EGR1) is speculative without experimental validation.
+- The generalizability of the method to other regulatory elements is claimed but not demonstrated.

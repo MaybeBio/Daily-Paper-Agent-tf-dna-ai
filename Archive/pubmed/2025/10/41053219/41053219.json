@@ -1,0 +1,398 @@
+{
+  "identity": {
+    "pmid": "41053219",
+    "doi": "10.1038/s41467-025-63926-w",
+    "title": "Conformational plasticity of disordered regions enables sequence-diverse DNA recognition by transcription factor AflR."
+  },
+  "content": {
+    "abstract": "The ability of transcription factors to recognize diverse DNA sequences while maintaining binding specificity is required for gene regulation, but the molecular mechanism enabling this flexibility remains poorly understood. Here, we show that the DNA-binding domain of transcription factor AflR employs a structured zinc cluster motif and disordered terminal regions to achieve sequence-diverse DNA recognition. Using NMR spectroscopy, molecular dynamics simulations, and biochemical approaches, we demonstrate that the DNA-binding domain of AflR contains a structured zinc cluster core flanked by dynamic terminal regions. Two AflR DNA-binding domain monomers recognize inverted CG half-sites, with the zinc cluster motif providing sequence-specific anchoring while dynamic termini optimize binding through distributed interactions. While DNA binding induces overall stabilization, the terminal regions retain conformational flexibility in the bound state, enabling adaptation to sequence variations. Both zinc cluster and C-terminal residue mutations significantly disrupt the stability of the complex. Notably, the C-terminal region functions as a conformational hub coordinating structural changes required for stable complex formation with diverse target sequences. This work demonstrates how intrinsic disorder enables transcription factor sequence-diverse recognition while maintaining specificity, providing insight into the molecular basis of multi-target gene regulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/chemistry/genetics",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "*DNA-Binding Proteins/metabolism/chemistry/genetics",
+      "*Bacterial Proteins/metabolism/chemistry/genetics",
+      "*DNA/metabolism/chemistry",
+      "Protein Conformation",
+      "Binding Sites",
+      "Zinc/metabolism/chemistry",
+      "Protein Domains",
+      "*DNA, Bacterial/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Shaowen",
+        "Wang, Fenghua",
+        "Zhou, Weijie",
+        "Zhang, Xinze",
+        "Zhan, Lingpeng",
+        "Zhang, Wenyang",
+        "Wang, Wenning",
+        "Zhang, Wolun",
+        "Huang, Shaohui",
+        "Fernie, Alisdair R",
+        "Liu, Zhijun",
+        "Yan, Shijuan"
+      ],
+      "short_names": [
+        "Wu S",
+        "Wang F",
+        "Zhou W",
+        "Zhang X",
+        "Zhan L",
+        "Zhang W",
+        "Wang W",
+        "Zhang W",
+        "Huang S",
+        "Fernie AR",
+        "Liu Z",
+        "Yan S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9885-5642",
+        "ORCID: 0000-0002-8712-0536",
+        "ORCID: 0000-0001-9000-335X",
+        "ORCID: 0009-0003-7466-802X",
+        "ORCID: 0000-0002-6907-1179"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Swine and Poultry Breeding Industry; Guangdong Key Laboratory of Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou, Guangdong, China.",
+        "State Key Laboratory of Swine and Poultry Breeding Industry; Guangdong Key Laboratory of Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou, Guangdong, China.",
+        "State Key Laboratory of Swine and Poultry Breeding Industry; Guangdong Key Laboratory of Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou, Guangdong, China.",
+        "State Key Laboratory of Swine and Poultry Breeding Industry; Guangdong Key Laboratory of Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou, Guangdong, China.",
+        "Institute of Chemical Biology, Shenzhen Bay Laboratory, Shenzhen, China.",
+        "State Key Laboratory of Swine and Poultry Breeding Industry; Guangdong Key Laboratory of Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou, Guangdong, China.",
+        "Department of Chemistry, Multiscale Research Institute of Complex Systems and Institute of Biomedical Sciences, Fudan University, Shanghai, China.",
+        "LightEdge Technologies Limited, Zhongshan, Guangdong, China.",
+        "LightEdge Technologies Limited, Zhongshan, Guangdong, China.",
+        "Max Planck Institute of Molecular Plant Physiology, Potsdam-Golm, Germany.",
+        "National Facility for Protein Science in Shanghai, Zhangjiang Lab, Shanghai Advanced Research Institute, Chinese Academy of Sciences, Shanghai, China. liuzhijun@sari.ac.cn.",
+        "State Key Laboratory of Swine and Poultry Breeding Industry; Guangdong Key Laboratory of Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou, Guangdong, China. yanshijuan@gdaas.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Shaowen",
+        "short_name": "Wu S",
+        "identifiers": [
+          "0000-0002-9885-5642"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Swine and Poultry Breeding Industry; Guangdong Key Laboratory of Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Fenghua",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Swine and Poultry Breeding Industry; Guangdong Key Laboratory of Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Weijie",
+        "short_name": "Zhou W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Swine and Poultry Breeding Industry; Guangdong Key Laboratory of Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xinze",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Swine and Poultry Breeding Industry; Guangdong Key Laboratory of Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Lingpeng",
+        "short_name": "Zhan L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chemical Biology, Shenzhen Bay Laboratory, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenyang",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Swine and Poultry Breeding Industry; Guangdong Key Laboratory of Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenning",
+        "short_name": "Wang W",
+        "identifiers": [
+          "0000-0002-8712-0536"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Multiscale Research Institute of Complex Systems and Institute of Biomedical Sciences, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wolun",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "LightEdge Technologies Limited, Zhongshan, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Shaohui",
+        "short_name": "Huang S",
+        "identifiers": [],
+        "affiliations": [
+          "LightEdge Technologies Limited, Zhongshan, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Fernie, Alisdair R",
+        "short_name": "Fernie AR",
+        "identifiers": [
+          "0000-0001-9000-335X"
+        ],
+        "affiliations": [
+          "Max Planck Institute of Molecular Plant Physiology, Potsdam-Golm, Germany."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhijun",
+        "short_name": "Liu Z",
+        "identifiers": [
+          "0009-0003-7466-802X"
+        ],
+        "affiliations": [
+          "National Facility for Protein Science in Shanghai, Zhangjiang Lab, Shanghai Advanced Research Institute, Chinese Academy of Sciences, Shanghai, China. liuzhijun@sari.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Yan, Shijuan",
+        "short_name": "Yan S",
+        "identifiers": [
+          "0000-0002-6907-1179"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Swine and Poultry Breeding Industry; Guangdong Key Laboratory of Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences, Guangzhou, Guangdong, China. yanshijuan@gdaas.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Oct 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/07 00:29",
+    "fetched_at": "2026-10-01 03:37:36"
+  },
+  "links": {
+    "cites": [
+      "42222836"
+    ],
+    "refs": [
+      "39745157",
+      "38600130",
+      "38109289",
+      "37540220",
+      "37272574",
+      "36723167",
+      "36648282",
+      "36265487",
+      "35310482",
+      "35080432",
+      "34563256",
+      "34332092",
+      "34303077",
+      "34265844",
+      "34074787",
+      "34006959",
+      "32553192",
+      "32326370",
+      "32121226",
+      "31010807",
+      "30212894",
+      "29638214",
+      "29425488",
+      "28701416",
+      "28505309",
+      "28493424",
+      "27852650",
+      "26569599",
+      "26488642",
+      "25690854",
+      "25505092",
+      "25369000",
+      "25215497",
+      "24774859",
+      "24773235",
+      "24410852",
+      "24018415",
+      "23728592",
+      "21500218",
+      "20628786",
+      "20408171",
+      "20100603",
+      "19474339",
+      "19443739",
+      "19034676",
+      "17088319",
+      "16959962",
+      "16734424",
+      "11566132",
+      "10656785",
+      "10216264",
+      "9895674",
+      "9680223",
+      "8520220",
+      "8074521",
+      "7958913",
+      "7919956",
+      "2511324"
+    ],
+    "similar": [
+      "41053219",
+      "25240418",
+      "32764589",
+      "12702733",
+      "30306715",
+      "10954607",
+      "9224603",
+      "11152601",
+      "29203647",
+      "30279318",
+      "9680223",
+      "34023896",
+      "22007899",
+      "9774413",
+      "12798683",
+      "21106075",
+      "16443380",
+      "10092462",
+      "27551088",
+      "12433998",
+      "11168419",
+      "10862757",
+      "8683583",
+      "24584501",
+      "9533883",
+      "28161714",
+      "24097990",
+      "12470950",
+      "10820004",
+      "10331877",
+      "25443958",
+      "19878300",
+      "26681693",
+      "10216264",
+      "17956987",
+      "7588776",
+      "10747782",
+      "11101881",
+      "11340073",
+      "29283021",
+      "32352758",
+      "23521535",
+      "19822742",
+      "29433424",
+      "9367756",
+      "8444906",
+      "9657674",
+      "28581722",
+      "40577318",
+      "15342239",
+      "10487755",
+      "8735272",
+      "10369775",
+      "1610826",
+      "26721385",
+      "30095229",
+      "2021614",
+      "12683994",
+      "15148315",
+      "27658967",
+      "29323785",
+      "7739529",
+      "10653693",
+      "25564525",
+      "22949637",
+      "9253405",
+      "9367763",
+      "1958667",
+      "39028525",
+      "34928349",
+      "20544962",
+      "11566132",
+      "11183777",
+      "8841553",
+      "15491138",
+      "10802742",
+      "11183772",
+      "11800559",
+      "12176382",
+      "8798540",
+      "33030907",
+      "16289203",
+      "8599083",
+      "12941967",
+      "30783673",
+      "16605275",
+      "28368398",
+      "9434111",
+      "32078310",
+      "14510451",
+      "27884082",
+      "12407207",
+      "39660948",
+      "1732727",
+      "10642181",
+      "39541188",
+      "11292350",
+      "25388514",
+      "21498098",
+      "29666277"
+    ],
+    "review": [
+      "41053219",
+      "25443958",
+      "8735272"
+    ],
+    "pmc": [
+      "12501005"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-63926-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41053219/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

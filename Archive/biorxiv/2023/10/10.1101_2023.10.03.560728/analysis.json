@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.03.560728",
+  "title": "Sequence-based Protein-Protein Interaction Prediction Using Multi-kernel Deep Convolutional Neural Networks with Protein Language Model",
+  "authors": "Thanh Hai Dang; Tien Anh Vu",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-09",
+  "window": {
+    "start": "2023-10-09",
+    "end": "2023-10-15"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用多核深度卷积网络结合蛋白语言模型预测蛋白质-蛋白质相互作用，虽涉及蛋白序列建模，但对象为PPI而非蛋白质-DNA互作，方法可迁移性有限，与本课题关联较弱。",
+  "abstract": "Predicting protein-protein interactions (PPIs) using only sequence information represents a fundamental problem in biology. In the past five years, a wide range of state-of-the-art deep learning models have been developed to address the computational prediction of PPIs based on sequences. Convolutional neural networks (CNNs) are widely adopted in these model architectures; however, the design of a deep and wide CNN architecture that comprehensively extracts interaction features from pairs of proteins is not well studied. Despite the development of several protein language models that distill the knowledge of evolutionary, structural, and functional information from gigantic protein sequence databases, no studies have integrated the amino acid embeddings of the protein language model for encoding protein sequences.In this study, we introduces a novel hybrid classifier, xCAPT5, which combines the deep multi-kernel convolutional accumulated pooling siamese neural network (CAPT5) and the XGBoost model (x) to enhance interaction prediction. The CAPT5 utilizes multi-deep convolutional channels with varying kernel sizes in the Siamese architecture, enabling the capture of small- and large-scale local features. By concatenating max and average pooling features in a depth-wise manner, CAPT5 effectively learns crucial features with low computational cost. This study is the first to extract information-rich amino acid embedding from a protein language model by a deep convolutional network, through training to obtain discriminant representations of protein sequence pairs that are fed into XGBoost for predicting PPIs. Experimental results demonstrate that xCAPT5 outperforms several state-of-the-art methods on binary PPI prediction, including generalized PPI on intra-species, cross-species, inter-species, and stringent similarity tasks. The implementation of our framework is available at https://github.com/anhvt00/MCAPS",
+  "abstract_zh": "仅利用序列信息预测蛋白质-蛋白质相互作用（PPIs）是生物学中的一个基本问题。在过去五年中，已开发出多种先进的深度学习模型，用于基于序列的计算性PPI预测。卷积神经网络（CNNs）在这些模型架构中被广泛采用；然而，设计一种深度且宽泛的CNN架构，以全面提取蛋白质对之间的相互作用特征，尚未得到充分研究。尽管已开发出多种蛋白质语言模型，从庞大的蛋白质序列数据库中提炼进化、结构和功能信息，但尚无研究将蛋白质语言模型的氨基酸嵌入整合用于编码蛋白质序列。\n\n在本研究中，我们引入了一种新型混合分类器xCAPT5，它结合了深度多核卷积累积池化孪生神经网络（CAPT5）和XGBoost模型（x），以增强相互作用预测。CAPT5在孪生架构中利用不同核大小的多深度卷积通道，能够捕获小尺度和大尺度的局部特征。通过以深度方式拼接最大池化和平均池化特征，CAPT5以低计算成本有效学习关键特征。本研究首次通过深度卷积网络从蛋白质语言模型中提取信息丰富的氨基酸嵌入，通过训练获得蛋白质序列对的判别性表示，并将其输入XGBoost以预测PPIs。实验结果表明，xCAPT5在二元PPI预测上优于多种先进方法，包括种内、跨种、种间及严格相似性任务上的广义PPI预测。我们框架的实现可在https://github.com/anhvt00/MCAPS获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.03.560728",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.03.560728",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.03.560728/index.html"
+}

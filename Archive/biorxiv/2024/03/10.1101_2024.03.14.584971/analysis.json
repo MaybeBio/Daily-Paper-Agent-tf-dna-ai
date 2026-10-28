@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.03.14.584971",
+  "title": "Comprehensive detection and characterization of human druggable pockets through novel binding site descriptors",
+  "authors": "Arnau Comajuncosa-Creus; Guillem Jorba; Xavier Barril; Patrick Aloy",
+  "journal": "bioRxiv",
+  "published_date": "2024-03-16",
+  "window": {
+    "start": "2024-03-11",
+    "end": "2024-03-17"
+  },
+  "score": 3,
+  "one_liner_zh": "该文开发PocketVec描述符用于人类可成药口袋的检测与表征，聚焦小分子结合位点而非蛋白质-DNA互作，且方法为逆虚拟筛选与描述符生成，不涉及TF-DNA结合建模，与课题关联度低。",
+  "abstract": "Druggable pockets are protein regions that have the ability to bind organic small molecules, and their characterization is essential in target-based drug discovery. However, strategies to derive pocket descriptors are scarce and usually exhibit limited applicability. Here, we present PocketVec, a novel approach to generate pocket descriptors for any protein binding site of interest through the inverse virtual screening of lead-like molecules. We assess the performance of our descriptors in a variety of scenarios, showing that it is on par with the best available methodologies, while overcoming some important limitations. In parallel, we systematically search for druggable pockets in the folded human proteome, using experimentally determined protein structures and AlphaFold2 models, identifying over 32,000 binding sites in more than 20,000 protein domains. Finally, we derive PocketVec descriptors for each small molecule binding site and run an all-against-all similarity search, exploring over 1.2 billion pairwise comparisons. We show how PocketVec descriptors facilitate the identification of druggable pocket similarities not revealed by structure- or sequence-based comparisons. Indeed, our analyses unveil dense clusters of similar pockets in distinct proteins for which no inhibitor has yet been crystalized, opening the door to strategies to prioritize the development of chemical probes to cover the druggable space.",
+  "abstract_zh": "可成药口袋（druggable pockets）是蛋白质中能够结合有机小分子的区域，其表征在基于靶点的药物发现中至关重要。然而，用于推导口袋描述符的策略稀少且通常适用性有限。在此，我们提出PocketVec，一种通过逆向虚拟筛选类先导分子（lead-like molecules）为任何感兴趣的蛋白质结合位点生成口袋描述符的新方法。我们在多种场景下评估了描述符的性能，显示其与最佳现有方法相当，同时克服了一些重要局限性。并行地，我们系统搜索折叠人类蛋白质组中的可成药口袋，利用实验确定的蛋白质结构和AlphaFold2模型，在超过20,000个蛋白质结构域中识别出超过32,000个结合位点。最后，我们为每个小分子结合位点推导PocketVec描述符，并进行全对全相似性搜索，探索超过12亿对比较。我们展示了PocketVec描述符如何促进识别结构或序列比较未揭示的可成药口袋相似性。确实，我们的分析揭示了不同蛋白质中相似口袋的密集簇，这些蛋白质尚无抑制剂结晶，为优先开发化学探针以覆盖可成药空间打开了大门。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.03.14.584971",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.03.14.584971",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.03.14.584971/index.html"
+}

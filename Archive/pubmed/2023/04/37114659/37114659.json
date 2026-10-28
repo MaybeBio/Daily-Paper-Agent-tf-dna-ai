@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "pmid": "37114659",
+    "doi": "10.1093/bib/bbad138",
+    "title": "Quantitative model for genome-wide cyclic AMP receptor protein binding site identification and characteristic analysis."
+  },
+  "content": {
+    "abstract": "Cyclic AMP receptor proteins (CRPs) are important transcription regulators in many species. The prediction of CRP-binding sites was mainly based on position-weighted matrixes (PWMs). Traditional prediction methods only considered known binding motifs, and their ability to discover inflexible binding patterns was limited. Thus, a novel CRP-binding site prediction model called CRPBSFinder was developed in this research, which combined the hidden Markov model, knowledge-based PWMs and structure-based binding affinity matrixes. We trained this model using validated CRP-binding data from Escherichia coli and evaluated it with computational and experimental methods. The result shows that the model not only can provide higher prediction performance than a classic method but also quantitatively indicates the binding affinity of transcription factor binding sites by prediction scores. The prediction result included not only the most knowns regulated genes but also 1089 novel CRP-regulated genes. The major regulatory roles of CRPs were divided into four classes: carbohydrate metabolism, organic acid metabolism, nitrogen compound metabolism and cellular transport. Several novel functions were also discovered, including heterocycle metabolic and response to stimulus. Based on the functional similarity of homologous CRPs, we applied the model to 35 other species. The prediction tool and the prediction results are online and are available at: https://awi.cuhk.edu.cn/ approximately CRPBSFinder.",
+    "keywords": [
+      "HMM model",
+      "binding energy simulation",
+      "cAMP receptor protein (CRP)",
+      "regulatory network",
+      "transcription factor binding site prediction model"
+    ],
+    "mesh_terms": [
+      "*Cyclic AMP Receptor Protein/genetics/chemistry/metabolism",
+      "*Escherichia coli Proteins/metabolism",
+      "Escherichia coli/genetics/metabolism",
+      "Binding Sites/genetics",
+      "Protein Binding/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yigang",
+        "Lin, Yang-Chi-Dung",
+        "Luo, Yijun",
+        "Cai, Xiaoxuan",
+        "Qiu, Peng",
+        "Cui, Shidong",
+        "Wang, Zhe",
+        "Huang, Hsi-Yuan",
+        "Huang, Hsien-Da"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Lin YC",
+        "Luo Y",
+        "Cai X",
+        "Qiu P",
+        "Cui S",
+        "Wang Z",
+        "Huang HY",
+        "Huang HD"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+        "School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+        "School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+        "School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+        "School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+        "School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+        "School of Humanities and Social Science, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+        "School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+        "School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+        "Warshel Institute for Computational Biology, School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yigang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Yang-Chi-Dung",
+        "short_name": "Lin YC",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Yijun",
+        "short_name": "Luo Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Xiaoxuan",
+        "short_name": "Cai X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Peng",
+        "short_name": "Qiu P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Shidong",
+        "short_name": "Cui S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhe",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Humanities and Social Science, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hsi-Yuan",
+        "short_name": "Huang HY",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hsien-Da",
+        "short_name": "Huang HD",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China.",
+          "Warshel Institute for Computational Biology, School of Medicine, Life and Health Sciences, The Chinese University of Hong Kong, Shenzhen, Longgang District, Shenzhen, Guangdong Province 518172, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 May 19",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/28 12:42",
+    "fetched_at": "2026-09-28 23:34:23"
+  },
+  "links": {
+    "cites": [
+      "41584329",
+      "41099553",
+      "40615889",
+      "39541188",
+      "39342017",
+      "38891842"
+    ],
+    "refs": [
+      "34849575",
+      "32039235",
+      "31510640",
+      "30395280",
+      "29993783",
+      "29906639",
+      "29771928",
+      "29343727",
+      "27899662",
+      "27899573",
+      "27806697",
+      "25428365",
+      "25378336",
+      "24720807",
+      "24296575",
+      "24039567",
+      "23703214",
+      "21673794",
+      "21593126",
+      "21109532",
+      "20491932",
+      "19458158",
+      "19439203",
+      "19146659",
+      "19033675",
+      "17846036",
+      "17576678",
+      "16301522",
+      "15650111",
+      "15520470",
+      "15173120",
+      "15150239",
+      "15102444",
+      "14638413",
+      "14597658",
+      "14572541",
+      "12824369",
+      "11432845",
+      "11343786",
+      "10802651",
+      "10592235",
+      "10550204",
+      "10191387",
+      "9501097",
+      "8978616",
+      "8573570",
+      "8394684",
+      "7934815",
+      "6261152",
+      "4320461",
+      "3675557",
+      "3109398",
+      "2540158",
+      "1849264"
+    ],
+    "similar": [
+      "37114659",
+      "26378231",
+      "12269830",
+      "8573570",
+      "15248748",
+      "31492755",
+      "12475242",
+      "19146659",
+      "18338329",
+      "17159200",
+      "27551019",
+      "20028978",
+      "12591879",
+      "29343727",
+      "30256816",
+      "21782316",
+      "19633076",
+      "21926233",
+      "19854903",
+      "23029459",
+      "19033675",
+      "28956357",
+      "8253679",
+      "36892777",
+      "9157253",
+      "17233899",
+      "10074087",
+      "9422721",
+      "12653996",
+      "26260461",
+      "12391883",
+      "11532153",
+      "17284458",
+      "24316848",
+      "7662661",
+      "7551052",
+      "1647022",
+      "15720385",
+      "15952780",
+      "1715855",
+      "10860739",
+      "15049691",
+      "16464435",
+      "23035121",
+      "12667072",
+      "1962841",
+      "1645189",
+      "9512707",
+      "25036188",
+      "8596434",
+      "9425025",
+      "9781886",
+      "24452100",
+      "1327747",
+      "12551924",
+      "10760178",
+      "21889533",
+      "23475967",
+      "20000490",
+      "25913005",
+      "9548750",
+      "15096034",
+      "9086266",
+      "8816767",
+      "30096859",
+      "11282972",
+      "7983007",
+      "11124966",
+      "9000616",
+      "26408451",
+      "12667067",
+      "8412660",
+      "24138566",
+      "11412099",
+      "15063722",
+      "34700380",
+      "10860740",
+      "37017526",
+      "8604346",
+      "23469036",
+      "8969182",
+      "7520503",
+      "18619465",
+      "26319872",
+      "24814025",
+      "28245055",
+      "11988531",
+      "1328649",
+      "20622065",
+      "26187469",
+      "7665583",
+      "17068078",
+      "7934841"
+    ],
+    "review": [
+      "37114659",
+      "18338329",
+      "36892777"
+    ],
+    "pmc": [
+      "10199772"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biocyc.org/gene?orgid=ECOLI&id=EG11892",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "sbmC"
+      },
+      {
+        "url": "https://www.ovid.com/37114659.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37114659/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37114659",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CRP-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1478",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbad138",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

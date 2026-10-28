@@ -1,0 +1,433 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.01.543218",
+  "title": "Enhanced 5mC-Methylation-Site Recognition in DNA Sequences using Token Classification and a Domain-specific Loss Function",
+  "doi": "10.1101/2023.06.01.543218",
+  "abstract": "DNA 5-methylcytosine modification has been widely studied in mammals and plays an important role in epigenetics. Several computational methods exist that attempt to determine the methylation state of a DNA sequence centered at a possible methylation site. Here, we introduce a novel deep-learning framework, MR-DNA, that predicts the methylation state of a single nucleotide located in a gene promoter region. The idea is to adapt the named-entity recognition approach to methylation-site prediction and to incorporate biological rules during model construction. MR-DNA has a stacked model architecture consisting of a pre-trained MuLan-Methyl-DistilBERT language model and a conditional random field algorithm, trained with a self-defined methyl loss function. The resulting fine-tuned model achieves an accuracy of 97.9% on an independent test dataset of samples. An advantage of this formulation of the methylation-site identification task is that it predicts on every nucleotide of a sequence of a given length, unlike previous methods that the predict methylation state of DNA sequences of a short fixed length. For training and testing purposes, we provide a database of DNA sequences containing verified 5mC-methylation sites, calculated from data for eight human cell lines downloaded from the ENCODE database.",
+  "authors": [
+    "Wenhuan Zeng",
+    "Daniel Huson"
+  ],
+  "published_date": "2023-06-05",
+  "updated_date": "2023-06-05T11:40:16Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.01.543218",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.01.543218.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:15:25Z",
+        "timestamp": 1768504525629,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            5
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 36,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                6,
+                5
+              ]
+            ],
+            "date-time": "2023-06-05T00:00:00Z",
+            "timestamp": 1685923200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            4
+          ]
+        ]
+      },
+      "abstract": "<jats:p>DNA 5-methylcytosine modification has been widely studied in mammals and plays an important role in epigenetics. Several computational methods exist that attempt to determine the methylation state of a DNA sequence centered at a possible methylation site. Here, we introduce a novel deep-learning framework, MR-DNA, that predicts the methylation state of a single nucleotide located in a gene promoter region. The idea is to adapt the named-entity recognition approach to methylation-site prediction and to incorporate biological rules during model construction. MR-DNA has a stacked model architecture consisting of a pre-trained MuLan-Methyl-DistilBERT language model and a conditional random field algorithm, trained with a self-defined methyl loss function. The resulting fine-tuned model achieves an accuracy of 97.9% on an independent test dataset of samples. An advantage of this formulation of the methylation-site identification task is that it predicts on every nucleotide of a sequence of a given length, unlike previous methods that the predict methylation state of DNA sequences of a short fixed length. For training and testing purposes, we provide a database of DNA sequences containing verified 5mC-methylation sites, calculated from data for eight human cell lines downloaded from the ENCODE database.</jats:p>",
+      "DOI": "10.1101/2023.06.01.543218",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            5
+          ]
+        ],
+        "date-time": "2023-06-05T11:40:16Z",
+        "timestamp": 1685965216000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Enhanced 5mC-Methylation-Site Recognition in DNA Sequences using Token Classification and a Domain-specific Loss Function"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1403-292X",
+          "authenticated-orcid": false,
+          "given": "Wenhuan",
+          "family": "Zeng",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2961-604X",
+          "authenticated-orcid": false,
+          "given": "Daniel",
+          "family": "Huson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aat6806"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a019133"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Marion Turpin and Gilles Salbert . “5-methylcytosine turnover: Mechanisms and therapeutic implications in cancer”. In: Frontiers in Molecular Biosciences 9 (2022).",
+          "DOI": "10.3389/fmolb.2022.976862"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1515/bchm.1998.379.4-5.377"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yuanyuan Li and Trygve O Tollefsbol . “DNA methylation detection: bisulfite genomic sequencing analysis”. In: Epigenetics Protocols (2011), pp. 11–21.",
+          "DOI": "10.1007/978-1-61779-316-5_2"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3772"
+        },
+        {
+          "issue": "1",
+          "key": "2023060907350736000_2023.06.01.543218v1.7",
+          "first-page": "87",
+          "article-title": "An extensive examination of discovering 5-Methylcytosine Sites in Genome-Wide DNA Promoters using machine learning based approaches",
+          "volume": "19",
+          "year": "2021",
+          "journal-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "issue": "24",
+          "key": "2023060907350736000_2023.06.01.543218v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "7414",
+          "DOI": "10.3390/molecules26247414",
+          "article-title": "BiLSTM-5mC: a bidirectional long short-term memory-based approach for predicting 5-methylcytosine sites in genome-wide DNA promoters",
+          "volume": "26",
+          "year": "2021",
+          "journal-title": "Molecules"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "614",
+          "DOI": "10.3389/fcell.2020.00614",
+          "article-title": "iPromoter-5mC: a novel fusion decision predictor for the identification of 5-methylcytosine sites in genome-wide DNA promoters",
+          "volume": "8",
+          "year": "2020",
+          "journal-title": "Frontiers in Cell and Developmental Biology"
+        },
+        {
+          "issue": "5",
+          "key": "2023060907350736000_2023.06.01.543218v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "452",
+          "DOI": "10.2174/1574893617666220330150259",
+          "article-title": "m5C-HPromoter: An Ensemble Deep Learning Predictor for Identifying 5-methylcytosine Sites in Human Promoters",
+          "volume": "17",
+          "year": "2022",
+          "journal-title": "Current Bioinformatics"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1075/li.30.1.03nad"
+        },
+        {
+          "issue": "1",
+          "key": "2023060907350736000_2023.06.01.543218v1.12",
+          "first-page": "50",
+          "article-title": "A survey on deep learning for named entity recognition",
+          "volume": "34",
+          "year": "2020",
+          "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.13",
+          "article-title": "Code and named entity recognition in stackoverflow",
+          "year": "2020",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yuan Chang et al. “Chinese named entity recognition method based on BERT”. In: 2021 IEEE International Conference on Data Science and Computer Application (ICDSCA). IEEE. 2021, pp. 294–299.",
+          "DOI": "10.1109/ICDSCA53499.2021.9650256"
+        },
+        {
+          "issue": "17",
+          "key": "2023060907350736000_2023.06.01.543218v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "2792",
+          "DOI": "10.1093/bioinformatics/btab042",
+          "article-title": "HunFlair: an easy-to-use tool for state-of-the-art biomedical named entity recognition",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "6",
+          "key": "2023060907350736000_2023.06.01.543218v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbab282",
+          "DOI": "10.1093/bib/bbab282",
+          "article-title": "Deep learning methods for biomedical named entity recognition: a survey and qualitative comparison",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Usman Naseem et al. “Bioalbert: A simple and effective pre-trained language model for biomedical named entity recognition”. In: 2021 International Joint Conference on Neural Networks (IJCNN). IEEE. 2021, pp. 1–7.",
+          "DOI": "10.1109/IJCNN52387.2021.9533884"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sudha Morwal , Nusrat Jahan , and Deepti Chopra . “Named entity recognition using hidden Markov model (HMM)”. In: International Journal on Natural Language Computing (IJNLC) Vol 1 (2012).",
+          "DOI": "10.5121/ijnlc.2012.1402"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li Zhang , Yue Pan , and Tong Zhang . “Focused named entity recognition using machine learning”. In: Proceedings of the 27th annual international ACM SIGIR conference on Research and development in information retrieval. 2004, pp. 281–288.",
+          "DOI": "10.1145/1008992.1009042"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Oliver Bender , Franz Josef Och , and Hermann Ney . “Maximum entropy models for named entity recognition”. In: Proceedings of the seventh conference on Natural language learning at HLT-NAACL 2003. 2003, pp. 148–151.",
+          "DOI": "10.3115/1119176.1119196"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.21",
+          "unstructured": "Zhenfei Ju , Jian Wang , and Fei Zhu . “Named entity recognition from biomedical text using SVM”. In: 2011 5th international conference on bioinformatics and biomedical engineering. IEEE. 2011, pp. 1–4."
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Andrew McCallum and Wei Li . “Early results for named entity recognition with conditional random fields, feature induction and web-enhanced lexicons”. In: (2003).",
+          "DOI": "10.3115/1119176.1119206"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jason PC Chiu and Eric Nichols . “Named entity recognition with bidirectional LSTM-CNNs”. In: Transactions of the association for computational linguistics 4 (2016), pp. 357–370.",
+          "DOI": "10.1162/tacl_a_00104"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kai Hakala and Sampo Pyysalo . “Biomedical named entity recognition with multilingual BERT”. In: Proceedings of the 5th workshop on BioNLP open shared tasks. 2019, pp. 56–61.",
+          "DOI": "10.18653/v1/D19-5709"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.25",
+          "article-title": "Portuguese named entity recognition using BERT-CRF",
+          "year": "2019",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "1",
+          "key": "2023060907350736000_2023.06.01.543218v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "4598",
+          "DOI": "10.1038/s41598-022-08667-2",
+          "article-title": "Deep learning-based methods for natural hazard named entity recognition",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xiaojun Wu et al. “One improved model of named entity recognition by combining BERT and BiLSTM-CNN for domain of Chinese railway construction”. In: 2022 7th International Conference on Intelligent Computing and Signal Processing (ICSP). IEEE. 2022, pp. 728–732.",
+          "DOI": "10.1109/ICSP54964.2022.9778794"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wenhuan Zeng , Anupam Gautam , and Daniel H Huson . “MuLan-Methyl-Multiple Transformer-based Language Models for Accurate DNA Methylation Prediction”. In: bioRxiv (2023), pp. 2023–01.",
+          "DOI": "10.1101/2023.01.04.522704"
+        },
+        {
+          "issue": "4",
+          "key": "2023060907350736000_2023.06.01.543218v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "100991",
+          "DOI": "10.1016/j.isci.2020.100991",
+          "article-title": "iDNA-MS: an integrated computational tool for detecting DNA modification sites in multiple genomes",
+          "volume": "23",
+          "year": "2020",
+          "journal-title": "Iscience"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yunhai Luo et al. “New developments on the Encyclopedia of DNA Elements (ENCODE) data portal”. In: Nucleic acids research 48.D1 (2020), pp. D882–D889.",
+          "DOI": "10.1093/nar/gkz1062"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.32",
+          "article-title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "year": "2019",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.33",
+          "article-title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+          "year": "2018",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.34",
+          "unstructured": "Tsung-Yi Lin et al. “Focal loss for dense object detection”. In: Proceedings of the IEEE international conference on computer vision. 2017, pp. 2980–2988."
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.35",
+          "unstructured": "Thomas Wolf et al. “Transformers: State-of-the-Art Natural Language Processing”. In: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations. Online: Association for Computational Linguistics, Oct. 2020, pp. 38–45. url: https://www.aclweb.org/anthology/2020.emnlp-demos.6."
+        },
+        {
+          "key": "2023060907350736000_2023.06.01.543218v1.36",
+          "unstructured": "Hiroki Nakayama . seqeval: A Python framework for sequence labeling evaluation. Software available from https://github.com/chakki-works/seqeval. 2018. url: https://github.com/chakki-works/seqeval."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.06.01.543218",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:44:11Z",
+        "timestamp": 1768452251000
+      },
+      "score": 85.51731,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.06.01.543218"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            5
+          ]
+        ]
+      },
+      "references-count": 36,
+      "URL": "https://doi.org/10.1101/2023.06.01.543218",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            5
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

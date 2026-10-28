@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "pmid": "40244850",
+    "doi": "10.1016/j.celrep.2025.115564",
+    "title": "PP1/PNUTS phosphatase binds the restrictor complex and stimulates RNA Pol II transcription termination."
+  },
+  "content": {
+    "abstract": "The restrictor ZC3H4/WDR82 terminates antisense transcription from bidirectional promoters, but its mechanism is poorly understood. We report that ZC3H4/WDR82 immunoprecipitates with PP1 phosphatase and its nuclear targeting subunit, PP1 phosphatase nuclear targeting subunit (PNUTS), which binds to WDR82. AlphaFold predicts a complex of PP1/PNUTS with the restrictor where both PNUTS and ZC3H4 contact WDR82. A substrate trap, PP1(H66K)-PNUTS, comprising inactive PP1 fused to the PNUTS C terminus, antagonizes restrictor-mediated termination, whereas PP1(WT)-PNUTS has less of an effect, suggesting that phosphatase activity is required for termination. One PP1/PNUTS substrate implicated in termination by the restrictor is RNA polymerase II (RNA Pol II) CTD Ser5-P. PP1(H66K)-PNUTS induces Ser5-P hyperphosphorylation at 5' ends, presumably by inhibiting dephosphorylation. NET-seq analysis suggests that CTD Ser5 dephosphorylation would promote termination by increasing RNA Pol II pausing. Both inhibition of termination and CTD hyperphosphorylation require the WDR82 binding domain of PP1(H66K)-PNUTS, which mediates restrictor binding. In summary, the PP1/PNUTS phosphatase associated with the restrictor via WDR82 promotes efficient transcription termination.",
+    "keywords": [
+      "CP: Molecular biology",
+      "CTD dephosphorylation",
+      "PP1 phosphatase",
+      "Pol II CTD Ser5 phosphorylation",
+      "WDR82",
+      "ZC3H4",
+      "restrictor",
+      "transcription elongation",
+      "transcription termination"
+    ],
+    "mesh_terms": [
+      "*RNA Polymerase II/metabolism/genetics",
+      "Humans",
+      "*Protein Phosphatase 1/metabolism",
+      "Protein Binding",
+      "*Transcription Termination, Genetic",
+      "Phosphorylation",
+      "*DNA-Binding Proteins/metabolism",
+      "*Nuclear Proteins/metabolism",
+      "*RNA-Binding Proteins/metabolism",
+      "HEK293 Cells",
+      "Transcription, Genetic",
+      "HeLa Cells"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Erickson, Benjamin",
+        "Fedoryshchak, Roman",
+        "Fong, Nova",
+        "Sheridan, Ryan",
+        "Larson, Keira Y",
+        "Saviola, Anthony J",
+        "Mouilleron, Stephane",
+        "Hansen, Kirk C",
+        "Treisman, Richard",
+        "Bentley, David L"
+      ],
+      "short_names": [
+        "Erickson B",
+        "Fedoryshchak R",
+        "Fong N",
+        "Sheridan R",
+        "Larson KY",
+        "Saviola AJ",
+        "Mouilleron S",
+        "Hansen KC",
+        "Treisman R",
+        "Bentley DL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, PO Box 6511, Aurora, CO 80045, USA.",
+        "Francis Crick Institute, Midland Road, London UK.",
+        "Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, PO Box 6511, Aurora, CO 80045, USA.",
+        "RNA Bioscience Initiative, Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, PO Box 6511, Aurora, CO 80045, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, PO Box 6511, Aurora, CO 80045, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, PO Box 6511, Aurora, CO 80045, USA.",
+        "Francis Crick Institute, Midland Road, London UK.",
+        "Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, PO Box 6511, Aurora, CO 80045, USA.",
+        "Francis Crick Institute, Midland Road, London UK. Electronic address: richard.treisman@crick.ac.uk.",
+        "RNA Bioscience Initiative, Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, PO Box 6511, Aurora, CO 80045, USA. Electronic address: david.bentley@cuanschutz.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Erickson, Benjamin",
+        "short_name": "Erickson B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, PO Box 6511, Aurora, CO 80045, USA."
+        ]
+      },
+      {
+        "full_name": "Fedoryshchak, Roman",
+        "short_name": "Fedoryshchak R",
+        "identifiers": [],
+        "affiliations": [
+          "Francis Crick Institute, Midland Road, London UK."
+        ]
+      },
+      {
+        "full_name": "Fong, Nova",
+        "short_name": "Fong N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, PO Box 6511, Aurora, CO 80045, USA."
+        ]
+      },
+      {
+        "full_name": "Sheridan, Ryan",
+        "short_name": "Sheridan R",
+        "identifiers": [],
+        "affiliations": [
+          "RNA Bioscience Initiative, Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, PO Box 6511, Aurora, CO 80045, USA."
+        ]
+      },
+      {
+        "full_name": "Larson, Keira Y",
+        "short_name": "Larson KY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, PO Box 6511, Aurora, CO 80045, USA."
+        ]
+      },
+      {
+        "full_name": "Saviola, Anthony J",
+        "short_name": "Saviola AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, PO Box 6511, Aurora, CO 80045, USA."
+        ]
+      },
+      {
+        "full_name": "Mouilleron, Stephane",
+        "short_name": "Mouilleron S",
+        "identifiers": [],
+        "affiliations": [
+          "Francis Crick Institute, Midland Road, London UK."
+        ]
+      },
+      {
+        "full_name": "Hansen, Kirk C",
+        "short_name": "Hansen KC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, PO Box 6511, Aurora, CO 80045, USA."
+        ]
+      },
+      {
+        "full_name": "Treisman, Richard",
+        "short_name": "Treisman R",
+        "identifiers": [],
+        "affiliations": [
+          "Francis Crick Institute, Midland Road, London UK. Electronic address: richard.treisman@crick.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Bentley, David L",
+        "short_name": "Bentley DL",
+        "identifiers": [],
+        "affiliations": [
+          "RNA Bioscience Initiative, Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, PO Box 6511, Aurora, CO 80045, USA. Electronic address: david.bentley@cuanschutz.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports"
+    ],
+    "journal_abbrev": [
+      "Cell Rep"
+    ],
+    "pub_date": "2025 May 27",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/17 18:24",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42575993",
+      "42328439",
+      "41596760",
+      "41129591",
+      "40949999",
+      "40548551"
+    ],
+    "refs": [
+      "39603240",
+      "39603239",
+      "39494541",
+      "38851185",
+      "38821049",
+      "38538796",
+      "38404380",
+      "38092518",
+      "38029752",
+      "37995689",
+      "37923726",
+      "37329883",
+      "37329882",
+      "37194692",
+      "37164018",
+      "37080207",
+      "36759609",
+      "36460671",
+      "36396340",
+      "36206739",
+      "35325203",
+      "34165268",
+      "34004147",
+      "33888562",
+      "33767452",
+      "33711009",
+      "33264625",
+      "33243860",
+      "32975518",
+      "32966759",
+      "32084124",
+      "32006464",
+      "31677974",
+      "30928206",
+      "30624635",
+      "30503775",
+      "30355770",
+      "30282034",
+      "30247719",
+      "30115685",
+      "30056088",
+      "29899453",
+      "29298432",
+      "28973446",
+      "28768201",
+      "28394336",
+      "28100584",
+      "27560171",
+      "27023849",
+      "26593720",
+      "26577379",
+      "26545074",
+      "25990731",
+      "25910207",
+      "25774600",
+      "25650800",
+      "25066235",
+      "24945319",
+      "24591642",
+      "24204300",
+      "23973811",
+      "22431730",
+      "22388286",
+      "22360570",
+      "21248844",
+      "20516061",
+      "20360068",
+      "20305656",
+      "19941815",
+      "19820712",
+      "19687295",
+      "19505943",
+      "19396163",
+      "19217410",
+      "18660819",
+      "18342605",
+      "18157150",
+      "17998332",
+      "17636256",
+      "17318220",
+      "16427013",
+      "15565158",
+      "15565157",
+      "12574161",
+      "12185079",
+      "11018011",
+      "9450550",
+      "8639569",
+      "2836265"
+    ],
+    "similar": [
+      "40244850",
+      "31677974",
+      "37329883",
+      "39603239",
+      "38092518",
+      "32084124",
+      "33264625",
+      "37926279",
+      "37194692",
+      "39603240",
+      "38783162",
+      "20516061",
+      "41780532",
+      "12574161",
+      "20941529",
+      "37790576",
+      "37905150",
+      "30282034",
+      "40393801",
+      "24591642",
+      "39002716",
+      "18325784",
+      "25990731",
+      "24204300",
+      "40347473",
+      "28985363",
+      "30158517",
+      "41791865",
+      "15907195",
+      "30639244",
+      "22768081",
+      "12185079",
+      "40015272",
+      "24413056",
+      "41413211",
+      "28367989",
+      "29899453",
+      "19293638",
+      "40103229",
+      "40270285",
+      "24324601",
+      "34027044",
+      "39829856",
+      "20372802",
+      "17318220",
+      "26593720",
+      "30190438",
+      "25639305",
+      "41167190",
+      "24634214",
+      "38851185",
+      "36460671",
+      "41109217",
+      "9008700",
+      "18660819",
+      "32006464",
+      "24196955",
+      "39718990",
+      "23689372",
+      "25002584",
+      "19667075",
+      "12358429",
+      "32859893",
+      "26188041",
+      "22137580",
+      "17998332",
+      "35244724",
+      "30541148",
+      "37329882",
+      "25041272",
+      "37944716",
+      "34762484",
+      "35325203",
+      "32107786",
+      "35365735",
+      "28506463",
+      "28465432",
+      "32805052",
+      "7797476",
+      "25166011",
+      "41758649",
+      "32187185",
+      "29304333",
+      "15501817",
+      "21566083",
+      "32966759",
+      "39932960",
+      "30971428",
+      "18360108",
+      "25437538",
+      "17405796",
+      "18842582",
+      "38821049",
+      "8934526",
+      "29849146",
+      "38570683",
+      "15073185",
+      "25877920",
+      "35166324",
+      "36142573"
+    ],
+    "review": [
+      "40244850",
+      "39002716"
+    ],
+    "pmc": [
+      "12187157"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211-1247(25)00335-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40244850/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40244850",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

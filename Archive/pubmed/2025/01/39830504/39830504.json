@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "39830504",
+    "doi": "10.3389/fimmu.2024.1512483",
+    "title": "Metabolic reprogramming and macrophage expansion define ACPA-negative rheumatoid arthritis: insights from single-cell RNA sequencing."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Anti-citrullinated peptide antibodies (ACPA)-negative (ACPA-) rheumatoid arthritis (RA) presents significant diagnostic and therapeutic challenges due to the absence of specific biomarkers, underscoring the need to elucidate its distinctive cellular and metabolic profiles for more targeted interventions. METHODS: Single-cell RNA sequencing data from peripheral blood mononuclear cells (PBMCs) and synovial tissues of patients with ACPA- and ACPA+ RA, as well as healthy controls, were analyzed. Immune cell populations were classified based on clustering and marker gene expression, with pseudotime trajectory analysis, weighted gene co-expression network analysis (WGCNA), and transcription factor network inference providing further insights. Cell-cell communication was explored using CellChat and MEBOCOST, while scFEA enabled metabolic flux estimation. A neural network model incorporating key genes was constructed to differentiate patients with ACPA- RA from healthy controls. RESULTS: Patients with ACPA- RA demonstrated a pronounced increase in classical monocytes in PBMCs and C1QChigh macrophages (p < 0.001 and p < 0.05). Synovial macrophages exhibited increased heterogeneity and were enriched in distinct metabolic pathways, including complement cascades and glutathione metabolism. The neural network model achieved reliable differentiation between patients with ACPA- RA and healthy controls (AUC = 0.81). CellChat analysis identified CD45 and CCL5 as key pathways facilitating macrophage-monocyte interactions in ACPA- RA, prominently involving iron-mediated metabolite communication. Metabolic flux analysis indicated elevated beta-alanine and glutathione metabolism in ACPA- RA macrophages. CONCLUSION: These findings underscore that ACPA-negative rheumatoid arthritis is marked by elevated classical monocytes in circulation and metabolic reprogramming of synovial macrophages, particularly in complement cascade and glutathione metabolism pathways. By integrating single-cell RNA sequencing with machine learning, this study established a neural network model that robustly differentiates patients with ACPA- RA from healthy controls, highlighting promising diagnostic biomarkers and therapeutic targets centered on immune cell metabolism.",
+    "keywords": [
+      "ACPA",
+      "beta-alanine and glutathione metabolism",
+      "rheumatoid arthritis",
+      "single-cell RNA sequencing",
+      "synovial macrophage"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Arthritis, Rheumatoid/immunology/metabolism/genetics",
+      "Single-Cell Analysis",
+      "*Macrophages/immunology/metabolism",
+      "*Anti-Citrullinated Protein Antibodies/immunology",
+      "Male",
+      "Middle Aged",
+      "Female",
+      "Sequence Analysis, RNA",
+      "Leukocytes, Mononuclear/immunology/metabolism",
+      "*Cellular Reprogramming",
+      "Synovial Membrane/immunology/metabolism",
+      "Biomarkers",
+      "Adult",
+      "Aged",
+      "Gene Regulatory Networks",
+      "Metabolic Reprogramming"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Yafeng",
+        "Hu, Zhaolan",
+        "Huang, Roujie",
+        "Ho, Kaying",
+        "Wang, Pengfei",
+        "Kang, Jin"
+      ],
+      "short_names": [
+        "Jiang Y",
+        "Hu Z",
+        "Huang R",
+        "Ho K",
+        "Wang P",
+        "Kang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hematology, the Second Xiangya Hospital of Central South University, Changsha, China.",
+        "Department of Anesthesiology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Obstetrics and Gynecology, National Clinical Research Center for Obstetric & Gynecologic Diseases, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.",
+        "School of Nursing, The Hong Kong Polytechnic University, Hong Kong, Hong Kong SAR, China.",
+        "Department of Anesthesiology, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Rheumatology and Immunology, the Second Xiangya Hospital of Central South University, Changsha, China.",
+        "Department of Rheumatology and Immunology, Clinical Medical Research Center for Systemic Autoimmune Diseases in Hunan Province, Changsha, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Yafeng",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, the Second Xiangya Hospital of Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Zhaolan",
+        "short_name": "Hu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Second Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Roujie",
+        "short_name": "Huang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, National Clinical Research Center for Obstetric & Gynecologic Diseases, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ho, Kaying",
+        "short_name": "Ho K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Nursing, The Hong Kong Polytechnic University, Hong Kong, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Pengfei",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Second Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Jin",
+        "short_name": "Kang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, the Second Xiangya Hospital of Central South University, Changsha, China.",
+          "Department of Rheumatology and Immunology, Clinical Medical Research Center for Systemic Autoimmune Diseases in Hunan Province, Changsha, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/20 22:53",
+    "fetched_at": "2026-10-05 02:29:20"
+  },
+  "links": {
+    "cites": [
+      "41972155",
+      "40843175",
+      "40801465",
+      "40764361",
+      "40025106"
+    ],
+    "refs": [
+      "37426759",
+      "36516818",
+      "36368305",
+      "36305174",
+      "36233252",
+      "35361640",
+      "34692323",
+      "34557778",
+      "34404786",
+      "34301623",
+      "34294714",
+      "33597522",
+      "33257900",
+      "32798211",
+      "32561888",
+      "31508423",
+      "31178118",
+      "31061532",
+      "30404000",
+      "29736302",
+      "29221595",
+      "29070529",
+      "28991892",
+      "28944771",
+      "28825705",
+      "28787399",
+      "28662662",
+      "28360422",
+      "28167660",
+      "28091601",
+      "27991858",
+      "27752708",
+      "27396447",
+      "27043143",
+      "24043759",
+      "23758132",
+      "22449938",
+      "21647203",
+      "21428825",
+      "20696679",
+      "20534506",
+      "20479615",
+      "20039303",
+      "19233044",
+      "18394179",
+      "17989689",
+      "17548411",
+      "15987480",
+      "15539305",
+      "15310853",
+      "15048732",
+      "12748655",
+      "12414720",
+      "11356985"
+    ],
+    "similar": [
+      "39830504",
+      "41046204",
+      "41235232",
+      "34404786",
+      "41913032",
+      "39877346",
+      "33010041",
+      "36068607",
+      "19565497",
+      "39067546",
+      "28732135",
+      "42003657",
+      "41411762",
+      "41488645",
+      "29855173",
+      "39845946",
+      "39953769",
+      "39509434",
+      "21406456",
+      "37600067",
+      "41459480",
+      "41816328",
+      "33329548",
+      "41846910",
+      "42340574",
+      "41615676",
+      "33679701",
+      "40270010",
+      "39877357",
+      "41192021",
+      "31366403",
+      "41131607",
+      "20133791",
+      "24485167",
+      "26227320",
+      "41680947",
+      "33230538",
+      "40636121",
+      "38412870",
+      "41116042",
+      "32035179",
+      "41361849",
+      "40592131",
+      "40739375",
+      "42123445",
+      "41242266",
+      "39009881",
+      "30662440",
+      "39161769",
+      "38771826",
+      "41221285",
+      "15760928",
+      "24618262",
+      "29301931",
+      "28198158",
+      "39421742",
+      "39681508",
+      "38711508",
+      "40340864",
+      "41601671",
+      "40764361",
+      "39002007",
+      "28826660",
+      "41204223",
+      "34113405",
+      "30001740",
+      "18608178",
+      "40849271",
+      "28802150",
+      "31881419",
+      "39463978",
+      "29720240",
+      "38799455",
+      "35925523",
+      "33310262",
+      "30704942",
+      "39152765",
+      "29540200",
+      "40644421",
+      "26337028",
+      "25858640",
+      "30602956",
+      "23915385",
+      "15146415",
+      "27616146",
+      "19143467",
+      "34432649",
+      "20738854",
+      "11352233",
+      "36940312",
+      "28962582",
+      "26659717",
+      "35967336",
+      "41737229",
+      "17968929",
+      "19714586",
+      "31596149",
+      "40235495",
+      "39974976",
+      "40612944"
+    ],
+    "review": [
+      "39830504",
+      "31881419"
+    ],
+    "pmc": [
+      "11739280"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39830504/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTPRC-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1172",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1512483",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

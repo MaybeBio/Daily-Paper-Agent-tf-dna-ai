@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure legends
+- **Assessment boundary** Scientific validity, technical soundness, and conceptual advance of the claims as presented; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors propose that cold-induced silencing of Arabidopsis FLC involves a temperature-dependent transition in local chromatin structure at the H3K27me3 nucleation region, characterized by reduced nucleosome dynamics and repositioning of the +1 nucleosome closer to the TSS. They further propose that VERNALIZATION1 (VRN1) mediates this transition by limiting H2A.Z incorporation, thereby enabling Polycomb silencing.
+- **Visible evidence base** RT-qPCR, ChIP-qPCR (H3K27me3, H2Aub, H2A.Z, FLAG), targeted MNase-seq, coarse-grained molecular dynamics simulations, IP-MS, genetic analyses
+- **Missing materials affecting confidence** Raw sequencing data, full IP-MS datasets, statistical details for simulation analyses, exact primer sequences, validation of VRN1-FLAG functionality, details on bait capture efficiency
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in epigenetic regulation: how temperature signals are integrated into chromatin structure transitions that lead to Polycomb silencing. The combination of in vivo chromatin analyses with near-atomistic simulations is innovative and provides a compelling framework. However, several technical concerns and interpretive gaps need to be addressed before the central claims are fully established. The causal relationship between VRN1-mediated H2A.Z limitation, nucleosome repositioning, and Polycomb silencing requires stronger experimental support.
+- **Who would be interested in the results, and why** Researchers studying epigenetic silencing, chromatin dynamics, Polycomb biology, plant vernalization, and biophysical modeling of chromatin. The work bridges experimental chromatin biology with computational modeling, making it relevant to both experimental and theoretical groups interested in how nucleosome dynamics influence gene regulation.
+- **Major strengths** The study combines multiple complementary approaches (genetics, chromatin analyses, biophysical simulations) to address a mechanistically complex question. The high-resolution MNase-seq approach is technically sophisticated and provides novel insight into nucleosome positioning at FLC. The integration of molecular dynamics simulations with experimental data is a notable strength that adds mechanistic depth. The identification of VRN1 as a regulator of H2A.Z dynamics provides a new angle on vernalization mechanisms.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The claim that VRN1 mediates cold-induced nucleosome repositioning and that this is required for Polycomb silencing
+  - **Evidence pointer** Figure 3D-E, Supplementary Figures 5-6
+  - **Concern** The manuscript shows correlative changes in nucleosome positioning between WT and vrn1 mutant, but does not establish causality. The authors do not demonstrate that the +1 nucleosome repositioning is necessary or sufficient for H3K27me3 accumulation. The temporal relationship between nucleosome repositioning and Polycomb mark deposition is not established. Additionally, the vrn1 mutant shows multiple defects (H2A.Z accumulation, altered dynamics, failed H2Aub/H3K27me3), making it difficult to attribute the silencing defect specifically to nucleosome positioning.
+  - **Why it matters** The central mechanistic claim of the paper is that nucleosome repositioning is a causal step in the silencing pathway. Without temporal or genetic evidence establishing causality, the relationship remains correlative.
+  - **Resolution test** Provide time-course experiments showing that nucleosome repositioning precedes H3K27me3 accumulation. Use inducible VRN1 expression systems to demonstrate that restoring VRN1 function rescues nucleosome positioning before Polycomb marks appear. Alternatively, use mutants that specifically affect nucleosome remodeling without affecting H2A.Z levels to test whether repositioning alone is sufficient.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The claim that VRN1-FLAG rescues the vrn1 mutant phenotype and that VRN1 associates with FLC chromatin
+  - **Evidence pointer** Supplementary Figure 1D, Figure 2A
+  - **Concern** The manuscript does not demonstrate that the VRN1-FLAG transgene is expressed at physiological levels or that the FLAG tag does not interfere with VRN1 function. The rescue of flowering time is shown, but FLC expression levels in the complemented lines are not directly compared to WT. The ChIP signal for VRN1-FLAG at FLC is modest and the specificity of the enrichment is not fully validated with appropriate negative controls.
+  - **Why it matters** The VRN1-FLAG lines are used for both functional complementation and chromatin localization studies. If the transgene is overexpressed or mislocalized, the ChIP results may not reflect endogenous VRN1 behavior.
+  - **Resolution test** Quantify VRN1-FLAG protein levels relative to endogenous VRN1. Show that FLC expression in complemented lines matches WT levels. Include a negative control region for ChIP and demonstrate that VRN1-FLAG ChIP signal is lost in a vrn1 null background.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The claim that simulations reveal a nucleosome positioning-dependent chromatin structure that explains the transition from active to Polycomb-silenced state
+  - **Evidence pointer** Figure 5, Supplementary Figures 8-10
+  - **Concern** The simulations are based on nucleosome positions inferred from MNase-seq data, but the modeling assumptions regarding H2A.Z effects on nucleosome dynamics are not experimentally validated. The authors speculate that increased accessibility of the +1/+2/+3 region in cold conditions promotes PRC2 activity, but this is not directly tested. The relationship between simulated chromatin compaction and biological function remains speculative.
+  - **Why it matters** The simulation results are used to support the mechanistic model, but without experimental validation of the key predictions (e.g., altered PRC2 accessibility), the interpretive weight placed on these results is excessive.
+  - **Resolution test** Test the prediction that cold-induced nucleosome repositioning increases PRC2 accessibility using experimental approaches such as chromatin accessibility assays or in vitro PRC2 binding experiments with defined nucleosome templates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The claim that H2A.Z hyperaccumulates in vrn1 mutant and that this is functionally important
+  - **Evidence pointer** Figure 1D, Supplementary Figure 3
+  - **Concern** The H2A.Z ChIP data show modest differences with high variability (n=2 biological replicates). The manuscript does not provide genome-wide context for whether H2A.Z changes are specific to FLC or reflect global changes. The functional significance of the observed H2A.Z levels is not quantitatively linked to nucleosome dynamics.
+  - **Why it matters** The H2A.Z accumulation is a key part of the proposed mechanism. Without robust quantification and demonstration of specificity, this claim is not fully supported.
+  - **Resolution test** Increase biological replicates, perform genome-wide H2A.Z profiling to demonstrate FLC-specific effects, and use quantitative approaches to link H2A.Z occupancy to nucleosome dynamics measurements.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 3C
+  - **Evidence pointer** Figure 3C
+  - **Issue** The visualization of nucleosomal DNA fragments is complex and difficult to interpret. The color scale and width representation of frequency are not intuitive.
+  - **Required correction** Provide a clearer schematic or simplified representation, possibly with separate panels for different fragment lengths or a more standard heatmap representation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Statistical analyses
+  - **Evidence pointer** Methods section, figure legends
+  - **Issue** The statistical methods are described generically without specifying which tests were used for which comparisons. Some figure legends mention Student's t-test but do not specify whether corrections for multiple testing were applied.
+  - **Required correction** Provide a detailed statistical analysis section specifying tests used for each comparison, including corrections for multiple testing where applicable.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** IP-MS data
+  - **Evidence pointer** Figure 2B-D, Supplementary Figure 2
+  - **Issue** The IP-MS data are presented as volcano plots and selected protein lists, but the full datasets are not provided in the main text or clearly referenced.
+  - **Required correction** Provide the full IP-MS datasets as supplementary tables with clear accession numbers or deposition in a public repository.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** MNase-seq analysis
+  - **Evidence pointer** Methods section
+  - **Issue** The criteria for defining nucleosome positions and the windows used for quantification are not fully described. The normalization approach for comparing samples is not detailed.
+  - **Required correction** Provide detailed descriptions of peak calling, window definitions, and normalization procedures in the Methods section.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The term "overlapping di-nucleosome" is used to describe the observed structure, but the evidence for this specific structure is indirect and based on fragment lengths.
+  - **Required correction** Clarify that this is a proposed interpretation and discuss alternative explanations for the observed fragment length patterns.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal relationship between nucleosome repositioning and silencing), R1-M2 (VRN1-FLAG validation), R1-M3 (simulation predictions require experimental testing)
+- **Assessment against Nature-style criteria** Originality: The work is original in combining high-resolution nucleosome mapping with near-atomistic simulations to address a specific epigenetic question. The focus on nucleosome dynamics rather than static positioning is a novel angle. Scientific importance: The question of how temperature signals are integrated into chromatin structure transitions is of broad significance for understanding epigenetic regulation. The FLC system is well-established, and this work adds a new dimension. Interdisciplinary readership: The combination of plant genetics, chromatin biology, and biophysical modeling will appeal to researchers across these fields. Technical soundness: The experimental approaches are generally sound, but the causal claims require additional support. The simulation methodology is sophisticated but the link to biology needs strengthening. Readability for nonspecialists: The manuscript is generally well-written and accessible, though the simulation sections may be challenging for non-experts. The figures are informative but some are complex.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a compelling framework and novel technical approaches, but the central causal claims require additional experimental support. The authors should address the concerns regarding causality, VRN1-FLAG validation, and the link between simulation predictions and biological function.
+
+## Risk / unsupported claims
+- The claim that cold-induced +1 nucleosome repositioning is causally required for Polycomb silencing is not supported by the current data, which are correlative.
+- The claim that VRN1 functions specifically by limiting H2A.Z incorporation is not fully established, as the IP-MS data show interactions with many chromatin regulators and the specific contribution of H2A.Z limitation is not tested.
+- The interpretation of the observed fragment length patterns as evidence for an "overlapping di-nucleosome" structure is speculative and requires additional validation.
+- The simulation predictions regarding PRC2 accessibility are not experimentally tested and should be presented as hypotheses rather than conclusions.
+- The claim that VRN1 associates with FLC chromatin is based on ChIP with a tagged transgene that is not fully validated for physiological expression levels.

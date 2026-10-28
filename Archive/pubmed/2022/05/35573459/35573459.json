@@ -1,0 +1,466 @@
+{
+  "identity": {
+    "pmid": "35573459",
+    "doi": "10.1016/j.crstbi.2022.04.001",
+    "title": "FOXO transcription factors differ in their dynamics and intra/intermolecular interactions."
+  },
+  "content": {
+    "abstract": "Transcription factors play key roles in orchestrating a plethora of cellular mechanisms and controlling cellular homeostasis. Transcription factors share distinct DNA binding domains, which allows to group them into protein families. Among them, the Forkhead box O (FOXO) family contains transcription factors crucial for cellular homeostasis, longevity and response to stress. The dysregulation of FOXO signaling is linked to drug resistance in cancer therapy or cellular senescence, however, selective drugs targeting FOXOs are limited, thus knowledge about structure and dynamics of FOXO proteins is essential. Here, we provide an extensive study of structure and dynamics of all FOXO family members. We identify residues accounting for different dynamic and structural features. Furthermore, we show that the auto-inhibition of FOXO proteins by their C-terminal trans-activation domain is conserved throughout the family and that these interactions are not only possible intra-, but also inter-molecularly. This indicates a model in which FOXO transcription factors would modulate their activities by interacting mutually.",
+    "keywords": [
+      "CSP, chemical shift perturbation",
+      "DBE, DAF-16 family member binding element",
+      "FOXO, Forkhead box O",
+      "IGF-1, insulin-like growth factor",
+      "IRE, insulin response element",
+      "JNK, Jun N terminal kinase",
+      "MD, molecular dynamics",
+      "Molecular dynamics",
+      "NMR spectroscopy",
+      "NMR, nuclear magnetic resonance",
+      "NOE, nuclear Overhauser effect",
+      "PP2A, protein phosphatase 2A",
+      "Protein dynamics",
+      "RMSD, root-mean -square deviation",
+      "RMSF, root-mean-square-fluctuation",
+      "SGK, serum and glucocorticoid-induced kinase",
+      "Spin relaxation",
+      "TAD, transactivation domain",
+      "TF, transcription factor",
+      "Transcription activation domain",
+      "Transcription factors"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Spreitzer, Emil",
+        "Alderson, T Reid",
+        "Bourgeois, Benjamin",
+        "Eggenreich, Loretta",
+        "Habacher, Hermann",
+        "Brahmersdorfer, Greta",
+        "Pritisanac, Iva",
+        "Sanchez-Murcia, Pedro A",
+        "Madl, Tobias"
+      ],
+      "short_names": [
+        "Spreitzer E",
+        "Alderson TR",
+        "Bourgeois B",
+        "Eggenreich L",
+        "Habacher H",
+        "Brahmersdorfer G",
+        "Pritisanac I",
+        "Sanchez-Murcia PA",
+        "Madl T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Gottfried Schatz Research Center for Cell Signaling, Metabolism and Aging, Molecular Biology and Biochemistry, Medical University of Graz, Graz, Austria.",
+        "Gottfried Schatz Research Center for Cell Signaling, Metabolism and Aging, Molecular Biology and Biochemistry, Medical University of Graz, Graz, Austria.",
+        "Gottfried Schatz Research Center for Cell Signaling, Metabolism and Aging, Molecular Biology and Biochemistry, Medical University of Graz, Graz, Austria.",
+        "Gottfried Schatz Research Center for Cell Signaling, Metabolism and Aging, Molecular Biology and Biochemistry, Medical University of Graz, Graz, Austria.",
+        "Gottfried Schatz Research Center for Cell Signaling, Metabolism and Aging, Molecular Biology and Biochemistry, Medical University of Graz, Graz, Austria.",
+        "Gottfried Schatz Research Center for Cell Signaling, Metabolism and Aging, Molecular Biology and Biochemistry, Medical University of Graz, Graz, Austria.",
+        "Gottfried Schatz Research Center for Cell Signaling, Metabolism and Aging, Molecular Biology and Biochemistry, Medical University of Graz, Graz, Austria.",
+        "Division of Physiological Chemistry, Otto-Loewi Research Center, Medical University of Graz, Graz, Austria.",
+        "Gottfried Schatz Research Center for Cell Signaling, Metabolism and Aging, Molecular Biology and Biochemistry, Medical University of Graz, Graz, Austria.",
+        "BioTechMed-Graz, Graz, Austria."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Spreitzer, Emil",
+        "short_name": "Spreitzer E",
+        "identifiers": [],
+        "affiliations": [
+          "Gottfried Schatz Research Center for Cell Signaling, Metabolism and Aging, Molecular Biology and Biochemistry, Medical University of Graz, Graz, Austria."
+        ]
+      },
+      {
+        "full_name": "Alderson, T Reid",
+        "short_name": "Alderson TR",
+        "identifiers": [],
+        "affiliations": [
+          "Gottfried Schatz Research Center for Cell Signaling, Metabolism and Aging, Molecular Biology and Biochemistry, Medical University of Graz, Graz, Austria."
+        ]
+      },
+      {
+        "full_name": "Bourgeois, Benjamin",
+        "short_name": "Bourgeois B",
+        "identifiers": [],
+        "affiliations": [
+          "Gottfried Schatz Research Center for Cell Signaling, Metabolism and Aging, Molecular Biology and Biochemistry, Medical University of Graz, Graz, Austria."
+        ]
+      },
+      {
+        "full_name": "Eggenreich, Loretta",
+        "short_name": "Eggenreich L",
+        "identifiers": [],
+        "affiliations": [
+          "Gottfried Schatz Research Center for Cell Signaling, Metabolism and Aging, Molecular Biology and Biochemistry, Medical University of Graz, Graz, Austria."
+        ]
+      },
+      {
+        "full_name": "Habacher, Hermann",
+        "short_name": "Habacher H",
+        "identifiers": [],
+        "affiliations": [
+          "Gottfried Schatz Research Center for Cell Signaling, Metabolism and Aging, Molecular Biology and Biochemistry, Medical University of Graz, Graz, Austria."
+        ]
+      },
+      {
+        "full_name": "Brahmersdorfer, Greta",
+        "short_name": "Brahmersdorfer G",
+        "identifiers": [],
+        "affiliations": [
+          "Gottfried Schatz Research Center for Cell Signaling, Metabolism and Aging, Molecular Biology and Biochemistry, Medical University of Graz, Graz, Austria."
+        ]
+      },
+      {
+        "full_name": "Pritišanac, Iva",
+        "short_name": "Pritišanac I",
+        "identifiers": [],
+        "affiliations": [
+          "Gottfried Schatz Research Center for Cell Signaling, Metabolism and Aging, Molecular Biology and Biochemistry, Medical University of Graz, Graz, Austria."
+        ]
+      },
+      {
+        "full_name": "Sánchez-Murcia, Pedro A",
+        "short_name": "Sánchez-Murcia PA",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Physiological Chemistry, Otto-Loewi Research Center, Medical University of Graz, Graz, Austria."
+        ]
+      },
+      {
+        "full_name": "Madl, Tobias",
+        "short_name": "Madl T",
+        "identifiers": [],
+        "affiliations": [
+          "Gottfried Schatz Research Center for Cell Signaling, Metabolism and Aging, Molecular Biology and Biochemistry, Medical University of Graz, Graz, Austria.",
+          "BioTechMed-Graz, Graz, Austria."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current research in structural biology"
+    ],
+    "journal_abbrev": [
+      "Curr Res Struct Biol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/17 06:00",
+    "fetched_at": "2026-09-28 08:41:46"
+  },
+  "links": {
+    "cites": [
+      "42665991",
+      "41526552",
+      "40593617",
+      "40189548",
+      "40147772",
+      "40034405",
+      "39797725",
+      "39739566",
+      "39565580",
+      "38270719",
+      "38136293",
+      "37778184",
+      "36358908"
+    ],
+    "refs": [
+      "34610198",
+      "34320339",
+      "34265844",
+      "33577686",
+      "33450250",
+      "33288903",
+      "33233627",
+      "32534543",
+      "32372224",
+      "32214027",
+      "31450545",
+      "30626734",
+      "30621735",
+      "30420502",
+      "29683489",
+      "29433737",
+      "29425488",
+      "29308120",
+      "28223045",
+      "27525440",
+      "27240306",
+      "27061590",
+      "26735015",
+      "26614323",
+      "25655933",
+      "25578861",
+      "25505092",
+      "25361979",
+      "25340638",
+      "24768519",
+      "23498934",
+      "23325358",
+      "23222102",
+      "23022474",
+      "23021216",
+      "23021215",
+      "23021211",
+      "22897851",
+      "22868264",
+      "22682243",
+      "22617422",
+      "21178072",
+      "21146564",
+      "21123876",
+      "20959475",
+      "20940737",
+      "20452968",
+      "20299225",
+      "19682982",
+      "19619488",
+      "19411170",
+      "19282848",
+      "19274050",
+      "19061837",
+      "18824006",
+      "18786403",
+      "18715783",
+      "18701719",
+      "18391971",
+      "18391970",
+      "18391969",
+      "18391968",
+      "18250171",
+      "17940099",
+      "17873901",
+      "17766371",
+      "17623658",
+      "17522590",
+      "17322870",
+      "17254969",
+      "16405732",
+      "16114898",
+      "15905404",
+      "15815974",
+      "15688014",
+      "14978268",
+      "14744434",
+      "12857750",
+      "12007217",
+      "11964479",
+      "11353388",
+      "10978547",
+      "10921784",
+      "10880363",
+      "10783894",
+      "10702024",
+      "10377430",
+      "10217147",
+      "10102273",
+      "8520220",
+      "3289117",
+      "3135979",
+      "2644244",
+      "2225060",
+      "2144057",
+      "1978757",
+      "1944532"
+    ],
+    "similar": [
+      "35573459",
+      "31450545",
+      "39565580",
+      "40072071",
+      "23786484",
+      "35151693",
+      "37275916",
+      "12857750",
+      "28808415",
+      "19268509",
+      "26539642",
+      "25053419",
+      "23770673",
+      "25330323",
+      "24834345",
+      "26219299",
+      "26184557",
+      "35481640",
+      "19251054",
+      "12844367",
+      "26643314",
+      "21708191",
+      "20673162",
+      "39565573",
+      "26195740",
+      "30414140",
+      "28213398",
+      "29433737",
+      "18077353",
+      "34423888",
+      "18832074",
+      "24508462",
+      "37710009",
+      "25344604",
+      "36906255",
+      "24123695",
+      "31906091",
+      "36280450",
+      "25128467",
+      "28894507",
+      "19732467",
+      "17341623",
+      "29428128",
+      "33672704",
+      "15860415",
+      "27061590",
+      "15905404",
+      "30397974",
+      "28447066",
+      "30478249",
+      "25297652",
+      "33964506",
+      "20429429",
+      "34610198",
+      "35891793",
+      "21933986",
+      "23604319",
+      "16751106",
+      "40425537",
+      "18241854",
+      "12902457",
+      "22978495",
+      "39370942",
+      "19276113",
+      "23827971",
+      "28878670",
+      "38007022",
+      "17646672",
+      "25186470",
+      "15616007",
+      "20975207",
+      "29155239",
+      "24516399",
+      "16934425",
+      "32305626",
+      "24120971",
+      "20513639",
+      "23333309",
+      "31443842",
+      "26675724",
+      "39658986",
+      "21980390",
+      "20620993",
+      "23911329",
+      "21909281",
+      "24372208",
+      "26893349",
+      "24232446",
+      "27619188",
+      "23733789",
+      "30205794",
+      "17052184",
+      "30881341",
+      "34954873",
+      "35680690",
+      "15691653",
+      "15961397",
+      "30088222",
+      "23851496",
+      "10744677"
+    ],
+    "review": [
+      "35573459",
+      "37275916",
+      "28808415",
+      "19268509",
+      "26184557",
+      "26643314",
+      "21708191",
+      "39565573",
+      "30414140",
+      "28213398",
+      "29433737",
+      "37710009",
+      "36906255",
+      "31906091",
+      "36280450",
+      "28894507",
+      "29428128",
+      "15860415",
+      "30397974",
+      "28447066",
+      "20429429",
+      "34610198",
+      "12902457",
+      "22978495",
+      "23827971",
+      "28878670",
+      "17646672",
+      "29155239",
+      "16934425",
+      "32305626",
+      "31443842",
+      "39658986",
+      "24372208",
+      "24232446",
+      "30205794",
+      "35680690"
+    ],
+    "pmc": [
+      "9097636"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2665-928X(22)00009-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35573459/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35573459",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35468861",
+  "title": "Large-scale discovery of novel neurodevelopmental disorder-related genes through a unified analysis of single-nucleotide and copy number variants.",
+  "authors": "Hamanaka, Kohei; Miyake, Noriko; Mizuguchi, Takeshi; Miyatake, Satoko; Uchiyama, Yuri; Tsuchida, Naomi; Sekiguchi, Futoshi; Mitsuhashi, Satomi; Tsurusaki, Yoshinori; Nakashima, Mitsuko; Saitsu, Hirotomo; Yamada, Kohei; Sakamoto, Masamune; Fukuda, Hiromi; Ohori, Sachiko; Saida, Ken; Itai, Toshiyuki; Azuma, Yoshiteru; Koshimizu, Eriko; Fujita, Atsushi; Erturk, Biray; Hiraki, Yoko; Ch'ng, Gaik-Siew; Kato, Mitsuhiro; Okamoto, Nobuhiko; Takata, Atsushi; Matsumoto, Naomichi",
+  "journal": "Genome medicine",
+  "published_date": "2022-04-27",
+  "window": {
+    "start": "2022-04-25",
+    "end": "2022-05-01"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究通过整合SNV和CNV数据及深度学习模型发现神经发育障碍相关基因，但核心是基因型-表型关联与基因功能相似性分析，不涉及蛋白质-DNA互作或结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Previous large-scale studies of de novo variants identified a number of genes associated with neurodevelopmental disorders (NDDs); however, it was also predicted that many NDD-associated genes await discovery. Such genes can be discovered by integrating copy number variants (CNVs), which have not been fully considered in previous studies, and increasing the sample size. METHODS: We first constructed a model estimating the rates of de novo CNVs per gene from several factors such as gene length and number of exons. Second, we compiled a comprehensive list of de novo single-nucleotide variants (SNVs) in 41,165 individuals and de novo CNVs in 3675 individuals with NDDs by aggregating our own and publicly available datasets, including denovo-db and the Deciphering Developmental Disorders study data. Third, summing up the de novo CNV rates that we estimated and SNV rates previously established, gene-based enrichment of de novo deleterious SNVs and CNVs were assessed in the 41,165 cases. Significantly enriched genes were further prioritized according to their similarity to known NDD genes using a deep learning model that considers functional characteristics (e.g., gene ontology and expression patterns). RESULTS: We identified a total of 380 genes achieving statistical significance (5% false discovery rate), including 31 genes affected by de novo CNVs. Of the 380 genes, 52 have not previously been reported as NDD genes, and the data of de novo CNVs contributed to the significance of three genes (GLTSCR1, MARK2, and UBR3). Among the 52 genes, we reasonably excluded 18 genes [a number almost identical to the theoretically expected false positives (i.e., 380 x 0.05 = 19)] given their constraints against deleterious variants and extracted 34 \"plausible\" candidate genes. Their validity as NDD genes was consistently supported by their similarity in function and gene expression patterns to known NDD genes. Quantifying the overall similarity using deep learning, we identified 11 high-confidence (> 90% true-positive probabilities) candidate genes: HDAC2, SUPT16H, HECTD4, CHD5, XPO1, GSK3B, NLGN2, ADGRB1, CTR9, BRD3, and MARK2. CONCLUSIONS: We identified dozens of new candidates for NDD genes. Both the methods and the resources developed here will contribute to the further identification of novel NDD-associated genes.",
+  "abstract_zh": "背景：以往关于新生变异的大规模研究已识别出多个与神经发育障碍（NDDs）相关的基因；然而，据预测，仍有许多与NDD相关的基因有待发现。这些基因可通过整合拷贝数变异（CNVs）——此前研究中未充分考虑的因素——并扩大样本量来发现。方法：我们首先构建了一个模型，根据基因长度和外显子数量等因素估算每个基因的新生CNV发生率。其次，我们通过汇总自身及公开数据集（包括denovo-db和Deciphering Developmental Disorders研究数据），编制了一份包含41,165名NDD个体中新生单核苷酸变异（SNVs）和3,675名NDD个体中新生CNVs的全面列表。第三，将我们估算的新生CNV发生率与先前建立的SNV发生率相加，在41,165例病例中评估了新生有害SNVs和CNVs的基于基因的富集情况。显著富集的基因进一步根据其与已知NDD基因的相似性，使用考虑功能特征（如基因本体和表达模式）的深度学习模型进行优先级排序。结果：我们共识别出380个达到统计学显著性（5%假发现率）的基因，其中包括31个受新生CNVs影响的基因。在这380个基因中，有52个此前未被报道为NDD基因，且新生CNVs数据对三个基因（GLTSCR1、MARK2和UBR3）的显著性有所贡献。在这52个基因中，我们合理排除了18个基因[该数量与理论预期假阳性数几乎一致（即380 x 0.05 = 19）]，基于其对有害变异的约束性，并提取了34个“合理”候选基因。这些基因作为NDD基因的有效性得到其与已知NDD基因在功能和基因表达模式上相似性的一致支持。通过深度学习量化整体相似性，我们识别出11个高置信度（>90%真阳性概率）候选基因：HDAC2、SUPT16H、HECTD4、CHD5、XPO1、GSK3B、NLGN2、ADGRB1、CTR9、BRD3和MARK2。结论：我们识别出数十个新的NDD候选基因。本文开发的方法和资源将有助于进一步发现新的NDD相关基因。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35468861/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35468861/",
+  "paper_page_path": "papers/pubmed/35468861/index.html"
+}

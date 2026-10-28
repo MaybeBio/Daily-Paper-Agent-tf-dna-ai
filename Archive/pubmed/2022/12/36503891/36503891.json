@@ -1,0 +1,210 @@
+{
+  "identity": {
+    "pmid": "36503891",
+    "doi": "10.1016/j.gene.2022.147038",
+    "title": "A new machine learning based computational framework identifies therapeutic targets and unveils influential genes in pancreatic islet cells."
+  },
+  "content": {
+    "abstract": "Pancreatic islets comprise a group of cells that produce hormones regulating blood glucose levels. Particularly, the alpha and beta islet cells produce glucagon and insulin to stabilize blood glucose. When beta islet cells are dysfunctional, insulin is not secreted, inducing a glucose metabolic disorder. Identifying effective therapeutic targets against the disease is a complicated task and is not yet conclusive. To close the wide gap between understanding the molecular mechanism of pancreatic islet cells and providing effective therapeutic targets, we present a computational framework to identify potential therapeutic targets against pancreatic disorders. First, we downloaded three transcriptome expression profiling datasets pertaining to pancreatic islet cells (GSE87375, GSE79457, GSE110154) from the Gene Expression Omnibus database. For each dataset, we extracted expression profiles for two cell types. We then provided these expression profiles along with the cell types to our proposed constrained optimization problem of a support vector machine and to other existing methods, selecting important genes from the expression profiles. Finally, we performed (1) an evaluation from a classification perspective which showed the superiority of our methods against the baseline; and (2) an enrichment analysis which indicated that our methods achieved better outcomes. Results for the three datasets included 44 unique genes and 10 unique transcription factors (SP1, HDAC1, EGR1, E2F1, AR, STAT6, RELA, SP3, NFKB1, and ESR1) which are reportedly related to pancreatic islet functions, diseases, and therapeutic targets.",
+    "keywords": [
+      "Applications in biomedicine",
+      "Enrichment analysis",
+      "Machine learning",
+      "Pancreatic islet",
+      "Therapeutic targets",
+      "Transcriptome expression"
+    ],
+    "mesh_terms": [
+      "Blood Glucose/metabolism",
+      "*Islets of Langerhans/metabolism",
+      "Insulin/genetics/metabolism",
+      "Glucagon",
+      "Gene Expression Profiling",
+      "*Insulin-Secreting Cells/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Turki, Turki",
+        "Taguchi, Y-H"
+      ],
+      "short_names": [
+        "Turki T",
+        "Taguchi YH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "King Abdulaziz University, Department of Computer Science, Jeddah 21589, Saudi Arabia. Electronic address: tturki@kau.edu.sa.",
+        "Chuo University, Department of Physics, Tokyo 112-8551, Japan. Electronic address: tag@granular.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Turki, Turki",
+        "short_name": "Turki T",
+        "identifiers": [],
+        "affiliations": [
+          "King Abdulaziz University, Department of Computer Science, Jeddah 21589, Saudi Arabia. Electronic address: tturki@kau.edu.sa."
+        ]
+      },
+      {
+        "full_name": "Taguchi, Y-H",
+        "short_name": "Taguchi YH",
+        "identifiers": [],
+        "affiliations": [
+          "Chuo University, Department of Physics, Tokyo 112-8551, Japan. Electronic address: tag@granular.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Gene"
+    ],
+    "journal_abbrev": [
+      "Gene"
+    ],
+    "pub_date": "2023 Feb 15",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/13 06:00",
+    "fetched_at": "2026-10-04 21:11:17"
+  },
+  "links": {
+    "cites": [
+      "38650628"
+    ],
+    "refs": [],
+    "similar": [
+      "36503891",
+      "27390011",
+      "33741532",
+      "15812646",
+      "32229246",
+      "22143342",
+      "29859847",
+      "23051152",
+      "22597533",
+      "35151663",
+      "23092878",
+      "22847497",
+      "25676501",
+      "26662378",
+      "23985305",
+      "1967577",
+      "18958289",
+      "32463335",
+      "18845907",
+      "28951823",
+      "23073565",
+      "20138041",
+      "22841397",
+      "25940922",
+      "12509929",
+      "31983511",
+      "32712220",
+      "29209740",
+      "25961841",
+      "32067063",
+      "25853429",
+      "21104068",
+      "28050568",
+      "32413586",
+      "28794173",
+      "30508415",
+      "34467975",
+      "26792070",
+      "27731367",
+      "33504882",
+      "21596550",
+      "25483959",
+      "23372846",
+      "21984579",
+      "25965959",
+      "29589071",
+      "32522488",
+      "32894320",
+      "21212933",
+      "21633185",
+      "28130310",
+      "29412821",
+      "23648896",
+      "26971825",
+      "26691212",
+      "28711973",
+      "33042009",
+      "34183850",
+      "2864239",
+      "31767166",
+      "23879380",
+      "11723055",
+      "19666551",
+      "12193567",
+      "32726642",
+      "29271578",
+      "19566655",
+      "22911383",
+      "32694675",
+      "20158571",
+      "31012868",
+      "36206181",
+      "34463643",
+      "26109062",
+      "28343791",
+      "28275001",
+      "27329801",
+      "29093273",
+      "28698262",
+      "23982158",
+      "33098940",
+      "18984743",
+      "33053583",
+      "35399953"
+    ],
+    "review": [
+      "36503891",
+      "35151663",
+      "28951823",
+      "23073565",
+      "31983511",
+      "32067063",
+      "32894320",
+      "29412821",
+      "32694675"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-1119(22)00858-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1248",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

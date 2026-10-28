@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "37409874",
+    "doi": "10.1002/pro.4723",
+    "title": "New insights into cancer: MDM2 binds to the citrullinating enzyme PADI4."
+  },
+  "content": {
+    "abstract": "PADI4 is one of the human isoforms of a family of enzymes implicated in the conversion of arginine to citrulline. MDM2 is an E3 ubiquitin ligase which is crucial for down-regulation of degradation of the tumor suppressor gene p53. Given the relationship between both PADI4 and MDM2 with p53-signaling pathways, we hypothesized they may interact directly, and this interaction could be relevant in the context of cancer. Here, we showed their association in the nucleus and cytosol in several cancer cell lines. Furthermore, binding was hampered in the presence of GSK484, an enzymatic PADI4 inhibitor, suggesting that MDM2 could bind to the active site of PADI4, as confirmed by in silico experiments. In vitro and in silico studies showed that the isolated N-terminal region of MDM2, N-MDM2, interacted with PADI4, and residues Thr26, Val28, Phe91 and Lys98 were more affected by the presence of the enzyme. Moreover, the dissociation constant between N-MDM2 and PADI4 was comparable to the IC(50) of GSK484 from in cellulo experiments. The interaction between MDM2 and PADI4 might imply MDM2 citrullination, with potential therapeutic relevance for improving cancer treatment, due to the generation of new antigens.",
+    "keywords": [
+      "MDM2",
+      "NMR",
+      "PADI4",
+      "citrullination",
+      "isothermal titration calorimetry",
+      "molecular docking",
+      "protein ligation assay",
+      "protein-protein interactions"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Tumor Suppressor Protein p53/chemistry",
+      "Ubiquitin-Protein Ligases/chemistry",
+      "Protein-Arginine Deiminases/metabolism",
+      "Cell Line",
+      "Protein Binding",
+      "*Neoplasms",
+      "Proto-Oncogene Proteins c-mdm2/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Araujo-Abad, Salome",
+        "Rizzuti, Bruno",
+        "Villamarin-Ortiz, Adrian",
+        "Pantoja-Uceda, David",
+        "Moreno-Gonzalez, Celia M",
+        "Abian, Olga",
+        "Velazquez-Campoy, Adrian",
+        "Neira, Jose L",
+        "de Juan Romero, Camino"
+      ],
+      "short_names": [
+        "Araujo-Abad S",
+        "Rizzuti B",
+        "Villamarin-Ortiz A",
+        "Pantoja-Uceda D",
+        "Moreno-Gonzalez CM",
+        "Abian O",
+        "Velazquez-Campoy A",
+        "Neira JL",
+        "de Juan Romero C"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5702-4538",
+        "ORCID: 0000-0002-4933-0428",
+        "ORCID: 0000-0001-7890-8447"
+      ],
+      "affiliations": [
+        "IDIBE, Universidad Miguel Hernandez, Elche, Spain.",
+        "Centro de Biotecnologia, Universidad Nacional de Loja, Avda, Loja, Ecuador.",
+        "Instituto de Biocomputacion y Fisica de Sistemas Complejos (BIFI) - Unidad mixta GBsC-CSIC-BIFI, Universidad de Zaragoza, Zaragoza, Spain.",
+        "CNR-NANOTEC, SS Rende (CS), Department of Physics, University of Calabria, Rende, Italy.",
+        "Instituto de Bioingenieria, Universidad Miguel Hernandez, Elche, Spain.",
+        "Instituto de Quimica Fisica Rocasolano (IQFR-CSIC), Madrid, Spain.",
+        "IDIBE, Universidad Miguel Hernandez, Elche, Spain.",
+        "Instituto de Biocomputacion y Fisica de Sistemas Complejos (BIFI) - Unidad mixta GBsC-CSIC-BIFI, Universidad de Zaragoza, Zaragoza, Spain.",
+        "Instituto de Investigacion Sanitaria Aragon (IIS Aragon), Zaragoza, Spain.",
+        "Centro de Investigacion Biomedica en Red en el Area Tematica de Enfermedades Hepaticas y Digestivas (CIBERehd), Madrid, Spain.",
+        "Departamento de Bioquimica y Biologia Molecular y Celular, Universidad de Zaragoza, Zaragoza, Spain.",
+        "Instituto de Biocomputacion y Fisica de Sistemas Complejos (BIFI) - Unidad mixta GBsC-CSIC-BIFI, Universidad de Zaragoza, Zaragoza, Spain.",
+        "Instituto de Investigacion Sanitaria Aragon (IIS Aragon), Zaragoza, Spain.",
+        "Centro de Investigacion Biomedica en Red en el Area Tematica de Enfermedades Hepaticas y Digestivas (CIBERehd), Madrid, Spain.",
+        "Departamento de Bioquimica y Biologia Molecular y Celular, Universidad de Zaragoza, Zaragoza, Spain.",
+        "IDIBE, Universidad Miguel Hernandez, Elche, Spain.",
+        "Instituto de Biocomputacion y Fisica de Sistemas Complejos (BIFI) - Unidad mixta GBsC-CSIC-BIFI, Universidad de Zaragoza, Zaragoza, Spain.",
+        "IDIBE, Universidad Miguel Hernandez, Elche, Spain.",
+        "Unidad de Investigacion, Fundacion para el Fomento de la Investigacion Sanitaria y Biomedica de la Comunidad Valenciana (FISABIO), Hospital General Universitario de Elche, Elche, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Araujo-Abad, Salomé",
+        "short_name": "Araujo-Abad S",
+        "identifiers": [],
+        "affiliations": [
+          "IDIBE, Universidad Miguel Hernández, Elche, Spain.",
+          "Centro de Biotecnología, Universidad Nacional de Loja, Avda, Loja, Ecuador."
+        ]
+      },
+      {
+        "full_name": "Rizzuti, Bruno",
+        "short_name": "Rizzuti B",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Biocomputación y Física de Sistemas Complejos (BIFI) - Unidad mixta GBsC-CSIC-BIFI, Universidad de Zaragoza, Zaragoza, Spain.",
+          "CNR-NANOTEC, SS Rende (CS), Department of Physics, University of Calabria, Rende, Italy."
+        ]
+      },
+      {
+        "full_name": "Villamarin-Ortiz, Adrián",
+        "short_name": "Villamarin-Ortiz A",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Bioingeniería, Universidad Miguel Hernández, Elche, Spain."
+        ]
+      },
+      {
+        "full_name": "Pantoja-Uceda, David",
+        "short_name": "Pantoja-Uceda D",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Química Física Rocasolano (IQFR-CSIC), Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Moreno-Gonzalez, Celia M",
+        "short_name": "Moreno-Gonzalez CM",
+        "identifiers": [],
+        "affiliations": [
+          "IDIBE, Universidad Miguel Hernández, Elche, Spain."
+        ]
+      },
+      {
+        "full_name": "Abian, Olga",
+        "short_name": "Abian O",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Biocomputación y Física de Sistemas Complejos (BIFI) - Unidad mixta GBsC-CSIC-BIFI, Universidad de Zaragoza, Zaragoza, Spain.",
+          "Instituto de Investigación Sanitaria Aragón (IIS Aragón), Zaragoza, Spain.",
+          "Centro de Investigación Biomédica en Red en el Área Temática de Enfermedades Hepáticas y Digestivas (CIBERehd), Madrid, Spain.",
+          "Departamento de Bioquímica y Biología Molecular y Celular, Universidad de Zaragoza, Zaragoza, Spain."
+        ]
+      },
+      {
+        "full_name": "Velazquez-Campoy, Adrián",
+        "short_name": "Velazquez-Campoy A",
+        "identifiers": [
+          "0000-0001-5702-4538"
+        ],
+        "affiliations": [
+          "Instituto de Biocomputación y Física de Sistemas Complejos (BIFI) - Unidad mixta GBsC-CSIC-BIFI, Universidad de Zaragoza, Zaragoza, Spain.",
+          "Instituto de Investigación Sanitaria Aragón (IIS Aragón), Zaragoza, Spain.",
+          "Centro de Investigación Biomédica en Red en el Área Temática de Enfermedades Hepáticas y Digestivas (CIBERehd), Madrid, Spain.",
+          "Departamento de Bioquímica y Biología Molecular y Celular, Universidad de Zaragoza, Zaragoza, Spain."
+        ]
+      },
+      {
+        "full_name": "Neira, José L",
+        "short_name": "Neira JL",
+        "identifiers": [
+          "0000-0002-4933-0428"
+        ],
+        "affiliations": [
+          "IDIBE, Universidad Miguel Hernández, Elche, Spain.",
+          "Instituto de Biocomputación y Física de Sistemas Complejos (BIFI) - Unidad mixta GBsC-CSIC-BIFI, Universidad de Zaragoza, Zaragoza, Spain."
+        ]
+      },
+      {
+        "full_name": "de Juan Romero, Camino",
+        "short_name": "de Juan Romero C",
+        "identifiers": [
+          "0000-0001-7890-8447"
+        ],
+        "affiliations": [
+          "IDIBE, Universidad Miguel Hernández, Elche, Spain.",
+          "Unidad de Investigación, Fundación para el Fomento de la Investigación Sanitaria y Biomédica de la Comunidad Valenciana (FISABIO), Hospital General Universitario de Elche, Elche, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2023 Aug",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/06 13:14",
+    "fetched_at": "2026-09-29 03:25:47"
+  },
+  "links": {
+    "cites": [
+      "39840810",
+      "38785968",
+      "38005300"
+    ],
+    "refs": [
+      "36712862",
+      "36700046",
+      "36372391",
+      "36365233",
+      "35883608",
+      "35081374",
+      "35051666",
+      "34791371",
+      "34520958",
+      "34298813",
+      "33791212",
+      "33540681",
+      "33538338",
+      "33459350",
+      "33321174",
+      "32269383",
+      "32028649",
+      "31106357",
+      "30894374",
+      "30811476",
+      "30735716",
+      "30679555",
+      "30429478",
+      "29065514",
+      "28819028",
+      "28079879",
+      "27232663",
+      "27224548",
+      "27176594",
+      "25808808",
+      "25642720",
+      "25622091",
+      "25591003",
+      "25520183",
+      "25275651",
+      "25229647",
+      "24889365",
+      "24532726",
+      "23818587",
+      "23661696",
+      "22991965",
+      "21957016",
+      "21624367",
+      "21454715",
+      "21245532",
+      "21195222",
+      "20591429",
+      "20590842",
+      "20190809",
+      "19843866",
+      "19152857",
+      "19004619",
+      "18505818",
+      "18499678",
+      "18410249",
+      "17251377",
+      "17216583",
+      "16857591",
+      "16730216",
+      "16432196",
+      "15953616",
+      "15048829",
+      "14741215",
+      "12917636",
+      "12552135",
+      "12381304",
+      "11032416",
+      "9153396",
+      "8875929",
+      "7686617",
+      "6625170",
+      "2610349",
+      "1549581",
+      "1535557"
+    ],
+    "similar": [
+      "37409874",
+      "38878927",
+      "38991454",
+      "35081374",
+      "37399862",
+      "16866370",
+      "21084285",
+      "28472221",
+      "29039504",
+      "36858171",
+      "22337874",
+      "16857591",
+      "20484049",
+      "24842904",
+      "30735716",
+      "19843866",
+      "19244339",
+      "19483087",
+      "22819825",
+      "19160491",
+      "22266850",
+      "33952867",
+      "19321440",
+      "30455251",
+      "20333547",
+      "23671280",
+      "25543083",
+      "17301054",
+      "19941302",
+      "35883608",
+      "17369817",
+      "32497081",
+      "20173098",
+      "34452909",
+      "24413081",
+      "26001071",
+      "21558803",
+      "9878046",
+      "16082221",
+      "23839035",
+      "35780910",
+      "16455486",
+      "35588102",
+      "24804778",
+      "15001357",
+      "17159902",
+      "36372391",
+      "22134240",
+      "11313871",
+      "17170710",
+      "28196907",
+      "22940738",
+      "20639885",
+      "17121812",
+      "25313037",
+      "17848574",
+      "19033443",
+      "26926424",
+      "17616658",
+      "24957603",
+      "23826318",
+      "30464405",
+      "30454706",
+      "16934800",
+      "26103464",
+      "31128449",
+      "23652204",
+      "32075226",
+      "30724592",
+      "33503543",
+      "20080206",
+      "22666487",
+      "20705607",
+      "9450543",
+      "33773191",
+      "19816404",
+      "21478269",
+      "22807444",
+      "21887275",
+      "22444248",
+      "31796886",
+      "10822382",
+      "22777350",
+      "12586367",
+      "16338390",
+      "23400593",
+      "16474402",
+      "21762075",
+      "37804426",
+      "37140445"
+    ],
+    "review": [
+      "37409874",
+      "28472221",
+      "21558803",
+      "16082221",
+      "16455486",
+      "22134240"
+    ],
+    "pmc": [
+      "10364586"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37409874/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37409874",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.4723",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

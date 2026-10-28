@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report that Eleutherococcus senticosus inhibits glioblastoma cell proliferation and migration in vitro, induces ferroptosis via modulation of GPX4, FTH1, and TFR1, identifies quercetin as the main active component, and proposes a mechanism involving altered binding of transcription factors SIX1 and MYBL2 to target gene promoters.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or statistical reporting provided
+- **Missing materials affecting confidence** Full methods, experimental replicates and statistics, transcriptome and metabolome datasets, network pharmacology details, molecular biology validation data, EMSA and docking results, compound concentration and purity information, and any in vivo data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting mechanism linking a botanical extract to ferroptosis in glioblastoma cells. However, the evidence base visible in the abstract is insufficient to evaluate the rigor of the experimental design, the robustness of the data, or the validity of the causal chain proposed. Several claims, particularly regarding transcription factor promoter binding and the identification of quercetin as the sole active component, require detailed experimental support that is not visible here. The work may be of interest to researchers in phytomedicine and ferroptosis biology, but the current abstract does not establish the case at the level expected for a high-impact journal.
+- **Who would be interested in the results, and why** Researchers studying ferroptosis mechanisms in cancer, particularly those focused on glioblastoma therapeutics; investigators in natural product pharmacology and traditional Chinese medicine; and those interested in transcriptional regulation of ferroptosis-related genes. The potential link between a botanical compound and specific transcription factor promoter interactions could attract a niche but engaged audience.
+- **Major strengths** The study integrates multiple approaches (transcriptomics, metabolomics, network pharmacology, molecular biology, and computational docking) to address a defined question. The identification of specific ferroptosis-related targets (GPX4, FTH1, TFR1) and a candidate active compound (quercetin) provides a concrete mechanistic hypothesis. The proposed involvement of transcription factors SIX1 and MYBL2 adds a novel dimension to the regulation of ferroptosis genes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for causal mechanism
+  - **Claim pointer** "E. senticosus and quercetin changed the binding ability of transcription factors SIX1 and MYBL2 to the promoters of GPX4, FTH1, and TFR1."
+  - **Evidence pointer** Abstract only; methods and results sections not provided
+  - **Concern** The abstract states that EMSA and molecular docking were used to analyze binding ability and mechanisms, but no quantitative results, controls, or validation are presented. It is unclear whether the observed changes in binding are direct (compound binding to transcription factor or DNA) or indirect (via expression changes), and whether the effect is specific to these transcription factors or a general phenomenon.
+  - **Why it matters** The central mechanistic claim rests on this transcription factor promoter interaction. Without evidence of specificity, dose dependence, and functional consequence (e.g., reporter assays or knockdown experiments), the proposed pathway remains speculative.
+  - **Resolution test** Provide EMSA data with appropriate controls (e.g., unlabeled competitor, mutant probes), show dose response for quercetin and extract, and demonstrate that altering SIX1 or MYBL2 expression or binding changes GPX4, FTH1, and TFR1 levels and ferroptosis sensitivity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Identification of active component
+  - **Claim pointer** "Quercetin had similar biological effects on GBM cells as E. senticosus and is its main active component."
+  - **Evidence pointer** Abstract only; no quantitative composition data or comparative dose response provided
+  - **Concern** The abstract does not report the concentration of quercetin in the extract, the fraction of bioactivity attributable to quercetin, or whether other components contribute additively or synergistically. The claim that quercetin is the "main" active component requires quantitative correlation between extract composition and bioactivity.
+  - **Why it matters** If quercetin is not the sole or primary driver, the mechanistic conclusions may not apply to the whole extract, and the translational relevance is weakened.
+  - **Resolution test** Provide HPLC or LC-MS quantification of quercetin in the extract, show that quercetin at the concentration present in the extract reproduces the extract's effects, and test whether quercetin depletion from the extract abolishes activity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Ferroptosis causality
+  - **Claim pointer** "Treatment with E. senticosus caused significant changes in ferroptosis-related genes and metabolites in GBM cells, significantly reducing the levels of glutathione... GPX4, FTH1, and TFR1 were identified as core targets of ferroptosis induction."
+  - **Evidence pointer** Abstract only; no data on cell viability rescue or lipid peroxidation shown
+  - **Concern** The abstract reports changes in gene expression and metabolite levels but does not demonstrate that ferroptosis is the actual cell death mechanism. No data are shown for lipid peroxidation, iron dependence, or rescue by ferroptosis inhibitors (e.g., ferrostatin-1, liproxstatin-1) or by overexpression of GPX4 or FTH1.
+  - **Why it matters** Ferroptosis is defined by specific biochemical and pharmacological criteria. Changes in ferroptosis-related markers alone do not establish ferroptosis as the mode of cell death.
+  - **Resolution test** Show that cell death induced by E. senticosus or quercetin is blocked by ferroptosis inhibitors and iron chelators, and that lipid peroxidation is increased. Demonstrate that GPX4 or FTH1 overexpression rescues cells.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of experimental scope
+  - **Affected element** Objective statement
+  - **Evidence pointer** Abstract, Objective section
+  - **Issue** The objective states evaluation of inhibitory effects on proliferation and migration, but the conclusion focuses on ferroptosis induction. The relationship between these endpoints is not explicitly connected.
+  - **Required correction** Clarify whether ferroptosis is proposed as the mechanism underlying the anti-proliferative and anti-migratory effects, or as a separate observation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Concentration and dose reporting
+  - **Affected element** Methods and Results
+  - **Evidence pointer** Abstract only; no concentrations or time points provided
+  - **Issue** No information is given on the concentrations of E. senticosus extract or quercetin used, nor on treatment duration. This limits reproducibility and comparability.
+  - **Required correction** Include dose response data and specify the concentration range and treatment time in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results
+  - **Evidence pointer** Abstract only; no statistics mentioned
+  - **Issue** The abstract states "significant" changes but provides no statistical details, sample sizes, or error measures.
+  - **Required correction** Report key statistical parameters (e.g., n, p values, effect sizes) for the main findings.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Generalizability of findings
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract, Conclusion section
+  - **Issue** The conclusion is stated in general terms for GBM cells, but the abstract does not specify how many cell lines were used or whether primary cells were tested.
+  - **Required correction** Specify the number and type of GBM cell lines used and note any limitations regarding generalizability.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The causal chain from extract to quercetin to transcription factor binding to ferroptosis gene regulation to cell death is not supported by the visible evidence. The absence of ferroptosis-specific functional assays and quantitative composition data are critical gaps.
+- **Assessment against Nature-style criteria** Originality: The proposed link between E. senticosus, quercetin, and transcription factor mediated ferroptosis regulation has some novelty, but the individual components (quercetin and ferroptosis) are well studied. Scientific importance: Potentially relevant to glioblastoma therapy, but the abstract does not demonstrate translational significance or in vivo relevance. Interdisciplinary readership: The work bridges phytochemistry, cancer biology, and transcriptional regulation, which could appeal to a broad audience if fully supported. Technical soundness: Cannot be assessed from the abstract; the lack of methodological detail and statistical reporting is a major limitation. Readability for nonspecialists: The abstract is reasonably clear but uses specialized terms without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the experimental detail and functional validation required to support the mechanistic claims. Supportive if the technical concerns are resolved with full data.
+
+## Risk / unsupported claims
+- The claim that quercetin is the "main active component" is unsupported without quantitative composition and bioactivity correlation data.
+- The claim that E. senticosus induces ferroptosis is unsupported without demonstration of lipid peroxidation, iron dependence, or rescue by ferroptosis inhibitors.
+- The claim that SIX1 and MYBL2 binding changes are causal for ferroptosis gene expression changes is unsupported without functional perturbation experiments.
+- The generalizability of findings to GBM as a disease is unsupported without in vivo data or multiple cell line validation.
+- The abstract's statement that E. senticosus "significantly inhibited" proliferation and migration is unverifiable without effect sizes and statistical details.

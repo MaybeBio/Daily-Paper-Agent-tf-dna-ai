@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "41529124",
+    "doi": "10.1021/acssynbio.5c00681",
+    "title": "Engineering Programmable Tryptophan-Responsive Biosensors Based on RNA-Binding Attenuation Protein for Strain Optimization."
+  },
+  "content": {
+    "abstract": "Biosensors have been widely applied for high-throughput strain screening and dynamic regulation of metabolic networks. However, existing tryptophan sensors based on transcription factors or riboswitches often suffer from a narrow dynamic range and limited response threshold. In this study, we developed a series of tryptophan-responsive biosensors in Escherichia coli using the tryptophan-activated RNA-binding attenuation protein (TRAP) as the sensing module. First, we validated TRAP functionality and engineered a functional biosensor by fine-tuning its expression. Subsequently, screening of TRAP variants and optimization of TRAP-leader sequence interactions yielded two biosensors that exhibited distinct dynamic ranges (up to 22.1-fold) and response thresholds of 0-2.2 g/L, respectively. Using these biosensors, we screened two beneficial variants of key rate-limiting enzymes in the tryptophan biosynthetic pathway and further investigated their catalytic mechanisms through molecular dynamics simulations. Collectively, this study provides tools for engineering high tryptophan-producing strains and new strategies for biosensor design.",
+    "keywords": [
+      "Escherichia coli",
+      "TRAP",
+      "biosensor",
+      "high-throughput screening",
+      "molecular dynamics simulations",
+      "tryptophan"
+    ],
+    "mesh_terms": [
+      "*Tryptophan/metabolism",
+      "*Biosensing Techniques/methods",
+      "*Escherichia coli/metabolism/genetics",
+      "*RNA-Binding Proteins/metabolism/genetics",
+      "Molecular Dynamics Simulation",
+      "*Escherichia coli Proteins/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Xianhao",
+        "Zou, Keyi",
+        "Qian, Weihao",
+        "Lv, Xueqin",
+        "Cui, Shixiu",
+        "Li, Yangyang",
+        "Liu, Yanfeng",
+        "Li, Jianghua",
+        "Du, Guocheng",
+        "Chen, Jian",
+        "Liu, Long"
+      ],
+      "short_names": [
+        "Xu X",
+        "Zou K",
+        "Qian W",
+        "Lv X",
+        "Cui S",
+        "Li Y",
+        "Liu Y",
+        "Li J",
+        "Du G",
+        "Chen J",
+        "Liu L"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3432-2166",
+        "ORCID: 0000-0003-2903-4303",
+        "ORCID: 0000-0002-0562-9647",
+        "ORCID: 0000-0002-9679-9130"
+      ],
+      "affiliations": [
+        "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Jiaxing Institute of Future Food, Jiaxing 314000, China.",
+        "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+        "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Xianhao",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+          "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Keyi",
+        "short_name": "Zou K",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+          "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Weihao",
+        "short_name": "Qian W",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+          "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Xueqin",
+        "short_name": "Lv X",
+        "identifiers": [
+          "0000-0003-3432-2166"
+        ],
+        "affiliations": [
+          "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+          "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Shixiu",
+        "short_name": "Cui S",
+        "identifiers": [
+          "0000-0003-2903-4303"
+        ],
+        "affiliations": [
+          "Jiaxing Institute of Future Food, Jiaxing 314000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yangyang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+          "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yanfeng",
+        "short_name": "Liu Y",
+        "identifiers": [
+          "0000-0002-0562-9647"
+        ],
+        "affiliations": [
+          "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+          "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jianghua",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+          "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China."
+        ]
+      },
+      {
+        "full_name": "Du, Guocheng",
+        "short_name": "Du G",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+          "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jian",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Long",
+        "short_name": "Liu L",
+        "identifiers": [
+          "0000-0002-9679-9130"
+        ],
+        "affiliations": [
+          "Key Laboratory of Carbohydrate Chemistry and Biotechnology, Ministry of Education, Jiangnan University, Wuxi 214122, China.",
+          "Science Center for Future Foods, Ministry of Education, Jiangnan University, Wuxi 214122, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS synthetic biology"
+    ],
+    "journal_abbrev": [
+      "ACS Synth Biol"
+    ],
+    "pub_date": "2026 Feb 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/13 19:39",
+    "fetched_at": "2026-10-05 04:45:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41529124",
+      "39440815",
+      "35594503",
+      "38634289",
+      "40776718",
+      "34319697",
+      "42044312",
+      "29688705",
+      "29532902",
+      "14702295",
+      "38860925",
+      "29251347",
+      "40544235",
+      "39353369",
+      "41650555",
+      "41512477",
+      "32886884",
+      "37198736",
+      "11786553",
+      "29385546",
+      "28069823",
+      "39451669",
+      "37511626",
+      "26506462",
+      "40207619",
+      "17555767",
+      "35392910",
+      "39855706",
+      "35700119",
+      "35921946",
+      "31268296",
+      "39708492",
+      "28121425",
+      "34610458",
+      "42186857",
+      "38796416",
+      "41033575",
+      "28892124",
+      "8647825",
+      "27170323",
+      "30239947",
+      "41631420",
+      "33837017",
+      "18186477",
+      "28749656",
+      "40586241",
+      "28543037",
+      "22380540",
+      "33835775",
+      "42157063",
+      "27744683",
+      "24505391",
+      "10660627",
+      "40863014",
+      "34081459",
+      "34989926",
+      "37449325",
+      "22115774",
+      "26051748",
+      "15262409",
+      "28763198",
+      "41448801",
+      "34205463",
+      "41962432",
+      "40542734",
+      "38150159",
+      "12381302",
+      "30696431",
+      "20061467",
+      "16879415",
+      "9245598",
+      "7592410",
+      "33748869",
+      "30609888",
+      "26749125",
+      "31134799",
+      "41655136",
+      "8932308",
+      "32501000",
+      "33215672",
+      "28780284",
+      "36821745",
+      "14687568",
+      "38968698",
+      "34968029",
+      "30426284",
+      "40591922",
+      "39031508",
+      "39927766",
+      "7678334",
+      "30064218",
+      "36153615",
+      "32976557",
+      "34936092",
+      "39293710",
+      "29485214",
+      "39694130",
+      "27599980",
+      "40286824",
+      "42065742"
+    ],
+    "review": [
+      "41529124",
+      "34989926",
+      "37449325",
+      "15262409",
+      "30426284",
+      "29485214"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/asbcd6/article-lookup/doi/10.1021/acssynbio.5c00681",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

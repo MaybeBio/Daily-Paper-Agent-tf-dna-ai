@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.17.700115",
+  "title": "SE3Bind: SE(3)-equivariant model for antibody-antigen binding affinity prediction",
+  "authors": "Anushriya Subedy; Siddharth Bhadra-Lobo; Guillaume Lamoureux",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-18",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用SE(3)-等变模型预测抗体-抗原结合亲和力，虽非TF-DNA体系，但蛋白-蛋白互作建模方法可迁移至蛋白-DNA互作研究。",
+  "abstract": "Predicting antibody-antigen binding affinity is critical for therapeutic development, but machine learning-based approaches to the problem are typically hampered by the small amount of available structural and affinity data. We introduce SE3Bind, an SE(3)-equivariant architecture trained on two related tasks: re-docking of an antibody structure to its matching antigen structure, and antibody-antigen binding free energy prediction. Both tasks encourage the model to learn an energy function formulated in terms of scalar and vector fields associated with each protein. Under a stringent training/validation split of the data based on antigen sequence similarity, SE3Bind demonstrates an ability to generalize to out-of-distribution examples and achieves a performance comparable to that of existing models evaluated under similar conditions.",
+  "abstract_zh": "预测抗体-抗原结合亲和力对于治疗开发至关重要，但基于机器学习的方法通常受限于可用的结构和亲和力数据量较小。我们引入了SE3Bind，一种SE(3)-等变架构，训练于两个相关任务：抗体结构与其匹配抗原结构的重新对接，以及抗体-抗原结合自由能预测。这两个任务都促使模型学习一种以与每种蛋白质相关的标量场和矢量场形式表述的能量函数。在基于抗原序列相似性的严格训练/验证数据分割下，SE3Bind展示了其泛化到分布外示例的能力，并在类似条件下评估时达到了与现有模型相当的性能。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.17.700115",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.17.700115",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.17.700115/index.html"
+}

@@ -1,0 +1,451 @@
+{
+  "identity": {
+    "pmid": "41478761",
+    "doi": "10.1016/j.ard.2025.12.003",
+    "title": "Altered AP-1, RUNX, and EGR chromatin dynamics drive human fibrotic lung disease."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: Pulmonary fibrosis can result from autoimmune, inflammatory, or idiopathic conditions, including systemic sclerosis-associated interstitial lung disease (SSc-ILD). Previous studies have implicated myofibroblasts and SPP1(hi) macrophages as drivers of fibrosis in lungs, as well as other tissues. Single-cell RNA-sequencing has delineated fibroblast and macrophage transcriptomes but provides limited insight into the transcriptional control of profibrotic gene programmes. METHODS: To determine the chromatin accessibility dynamics and transcription factors driving profibrotic gene programmes in human pulmonary fibrosis, we performed multiomic single-nucleus assay for transposase-accessible (ATAC)/RNA-sequencing on explanted SSc-ILD and control lungs. Using the neural network tool ChromBPNet, we analysed pseudobulk fibroblast and macrophage populations to infer transcription factor binding dynamics at single base-pair resolution. Hierarchical causal modelling for single-cell multiomics data (HALO), a novel algorithm developed to derive low-dimensional representations of sparse multiomics data, revealed transcription factor-regulatory element-gene networks. RESULTS: ChromBPNet inferred increased transcription factor binding to profibrotic genes, including CTHRC1 and ADAM12 in fibroblasts, and SPP1 and CCL18 in macrophages. SSc-ILD fibroblasts showed increased binding and enhancer activity by AP-1, RUNX, and EGR transcription factors to profibrotic genes, whereas macrophages displayed enhanced binding and activity of AP-1 and basic helix-loop-helix (bHLH)-ZIP transcription factors in genes regulating the SPP1(hi) phenotype. HALO confirmed AP-1, RUNX, and EGR activity controlling profibrotic gene programmes. CONCLUSIONS: These data provide comprehensive insights into the complexity of transcriptional control of SSc-ILD gene expression programmes and define specific AP-1, RUNX, and EGR enhancers in key myofibroblast marker genes CTHRC1 and ADAM12, and a bHLH-ZIP enhancer in SPP1(hi) macrophages.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Scleroderma, Systemic/complications/genetics",
+      "*Pulmonary Fibrosis/genetics/metabolism/etiology",
+      "*Chromatin/metabolism/genetics",
+      "Fibroblasts/metabolism",
+      "*Transcription Factor AP-1/genetics/metabolism",
+      "Macrophages/metabolism",
+      "*Core Binding Factor Alpha 2 Subunit/genetics/metabolism",
+      "*Lung Diseases, Interstitial/genetics/metabolism",
+      "Early Growth Response Protein 1/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Valenzi, Eleanor",
+        "Jia, Minxue",
+        "Gerges, Peter",
+        "Fan, Jingyu",
+        "Tabib, Tracy",
+        "Behera, Rithika",
+        "Mao, Haiyi",
+        "Xue, Dan",
+        "Ju, Eun Mi",
+        "Zhou, Yuechen",
+        "Sembrat, John C",
+        "Das, Jishnu",
+        "Benos, Panayiotis V",
+        "Singh, Harinder",
+        "Lafyatis, Robert"
+      ],
+      "short_names": [
+        "Valenzi E",
+        "Jia M",
+        "Gerges P",
+        "Fan J",
+        "Tabib T",
+        "Behera R",
+        "Mao H",
+        "Xue D",
+        "Ju EM",
+        "Zhou Y",
+        "Sembrat JC",
+        "Das J",
+        "Benos PV",
+        "Singh H",
+        "Lafyatis R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, University of Pittsburgh, Pittsburgh, PA, USA; Division of Rheumatology and Clinical Immunology, University of Pittsburgh, Pittsburgh, PA, USA. Electronic address: valenzie@upmc.edu.",
+        "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Division of Rheumatology and Clinical Immunology, University of Pittsburgh, Pittsburgh, PA, USA; Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Division of Rheumatology and Clinical Immunology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Division of Rheumatology and Clinical Immunology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Division of Rheumatology and Clinical Immunology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Division of Rheumatology and Clinical Immunology, University of Pittsburgh, Pittsburgh, PA, USA; School of Medicine, Tsinghua University, Beijing, China.",
+        "Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA, USA; Department of Epidemiology, University of Florida, Gainesville, FL, USA.",
+        "Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Division of Rheumatology and Clinical Immunology, University of Pittsburgh, Pittsburgh, PA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Valenzi, Eleanor",
+        "short_name": "Valenzi E",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, University of Pittsburgh, Pittsburgh, PA, USA; Division of Rheumatology and Clinical Immunology, University of Pittsburgh, Pittsburgh, PA, USA. Electronic address: valenzie@upmc.edu."
+        ]
+      },
+      {
+        "full_name": "Jia, Minxue",
+        "short_name": "Jia M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Gerges, Peter",
+        "short_name": "Gerges P",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Fan, Jingyu",
+        "short_name": "Fan J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Tabib, Tracy",
+        "short_name": "Tabib T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology, University of Pittsburgh, Pittsburgh, PA, USA; Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Behera, Rithika",
+        "short_name": "Behera R",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Mao, Haiyi",
+        "short_name": "Mao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Xue, Dan",
+        "short_name": "Xue D",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Ju, Eun Mi",
+        "short_name": "Ju EM",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yuechen",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology, University of Pittsburgh, Pittsburgh, PA, USA; School of Medicine, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Sembrat, John C",
+        "short_name": "Sembrat JC",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Das, Jishnu",
+        "short_name": "Das J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Benos, Panayiotis V",
+        "short_name": "Benos PV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA, USA; Department of Epidemiology, University of Florida, Gainesville, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Singh, Harinder",
+        "short_name": "Singh H",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Lafyatis, Robert",
+        "short_name": "Lafyatis R",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Annals of the rheumatic diseases"
+    ],
+    "journal_abbrev": [
+      "Ann Rheum Dis"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/02 00:33",
+    "fetched_at": "2026-10-01 10:11:20"
+  },
+  "links": {
+    "cites": [
+      "42709259",
+      "42499569",
+      "42080429",
+      "41836408"
+    ],
+    "refs": [
+      "40917842",
+      "39910313",
+      "39129787",
+      "38843440",
+      "38803164",
+      "38567833",
+      "37690682",
+      "37557175",
+      "37421394",
+      "37291214",
+      "37211559",
+      "37137915",
+      "37027478",
+      "36641135",
+      "35849803",
+      "35444643",
+      "35248104",
+      "35174208",
+      "35098542",
+      "35048404",
+      "34850907",
+      "34725479",
+      "34625743",
+      "34594043",
+      "34282151",
+      "34243624",
+      "34028626",
+      "33915568",
+      "33859634",
+      "33603233",
+      "33586346",
+      "33294861",
+      "32865099",
+      "32832598",
+      "32562787",
+      "32317643",
+      "32007573",
+      "31740819",
+      "30639416",
+      "30319594",
+      "30089906",
+      "29274297",
+      "29104075",
+      "28825706",
+      "28178271",
+      "27156934",
+      "26960759",
+      "26240058",
+      "26238209",
+      "26098215",
+      "25313057",
+      "25303440",
+      "25029475",
+      "24574232",
+      "23906810",
+      "22842476",
+      "22139817",
+      "21931594",
+      "21339212",
+      "20513432",
+      "20395449",
+      "20039427",
+      "19679873",
+      "17329309",
+      "16702209",
+      "16439363",
+      "12805086",
+      "11961557"
+    ],
+    "similar": [
+      "41478761",
+      "39554071",
+      "35849803",
+      "31405848",
+      "42292441",
+      "41706126",
+      "38937794",
+      "38509595",
+      "23915349",
+      "34380701",
+      "40374521",
+      "38720423",
+      "37142338",
+      "34972106",
+      "33859634",
+      "21931594",
+      "41381212",
+      "24574232",
+      "41092115",
+      "31119153",
+      "42018656",
+      "26360820",
+      "36103378",
+      "20404807",
+      "27377409",
+      "19565505",
+      "33586346",
+      "39098251",
+      "31221805",
+      "34282151",
+      "42193930",
+      "40410053",
+      "25589515",
+      "38754983",
+      "33172999",
+      "32134204",
+      "42492262",
+      "34504485",
+      "41576947",
+      "18772333",
+      "35427207",
+      "41619352",
+      "39919902",
+      "34426111",
+      "21511034",
+      "26749424",
+      "23583295",
+      "42024552",
+      "41785251",
+      "39519222",
+      "28890333",
+      "29316328",
+      "40621880",
+      "41381303",
+      "33013852",
+      "41321019",
+      "42747578",
+      "42557786",
+      "40848531",
+      "17469163",
+      "21360508",
+      "41826820",
+      "42028853",
+      "38348044",
+      "33294861",
+      "21514423",
+      "38664790",
+      "26807760",
+      "41552925",
+      "28330499",
+      "26744410",
+      "41354972",
+      "38841857",
+      "41540455",
+      "42636583",
+      "35048404",
+      "23973299",
+      "34370624",
+      "18281687",
+      "20709822",
+      "21168185",
+      "39672802",
+      "18467708",
+      "35729674",
+      "32755451",
+      "42196343",
+      "34344444",
+      "31916109",
+      "39888372",
+      "28389562",
+      "39183565",
+      "22139817",
+      "39560968",
+      "30892142",
+      "21484765",
+      "32508810",
+      "23906810",
+      "25303440",
+      "41739705",
+      "34231378"
+    ],
+    "review": [
+      "41478761",
+      "21511034",
+      "42024552",
+      "33013852",
+      "38348044",
+      "26807760"
+    ],
+    "pmc": [
+      "13051515"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0003-4967(25)04598-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/interstitiallungdiseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Interstitial Lung Diseases"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41478761/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SPP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3592",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

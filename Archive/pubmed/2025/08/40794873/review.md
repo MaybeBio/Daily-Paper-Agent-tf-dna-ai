@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, methods, results, discussion, and data availability statements
+- **Assessment boundary** Scientific validity, methodological rigor, claims substantiation, and technical soundness based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors present an AlphaFold3-based computational screening pipeline for identifying nucleosome-binding proteins from a dataset of 7,655 human nuclear proteins, benchmarked against known acidic patch interactors (77% success rate, 23/30). They report discovery of ARID4A/ARID4B as novel nucleosome binders, validated by EMSA and pull-down assays, and present a cryo-EM structure of a dimeric RNF168 construct bound to the nucleosome, supporting a role for RNF168 dimerization in enhancing nucleosome binding and ubiquitination activity.
+- **Visible evidence base** Abstract, full methods section, results narrative, discussion, data availability, and supplementary figure/table references
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S7), the actual AlphaFold prediction dataset, benchmark details, cryo-EM validation statistics, raw gel images, and the web tool interface are referenced but not provided
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially useful computational pipeline for predicting nucleosome-binding proteins, with promising validation for two novel candidates and a cryo-EM structure that may illuminate RNF168 dimerization. However, the central claims rest heavily on supplementary materials that were not available for review, and several methodological details are insufficiently described to assess robustness. The benchmark success rate of 77% is encouraging but the exclusion criteria and negative predictive value are not fully characterized. The cryo-EM structure at 3.9 Å resolution supports the dimerization model, but the limited local resolution at the key dimer interface weakens the mechanistic conclusions. The work is of interest to the chromatin biology and structural biology communities, but the case is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Chromatin biologists studying nucleosome-protein interactions, structural biologists interested in ubiquitin ligase mechanisms, and computational biologists developing protein-protein interaction prediction tools would find this work relevant. The screening pipeline offers a scalable approach for hypothesis generation, and the RNF168 dimerization model may inform understanding of DNA damage response signaling.
+- **Major strengths** The computational screening approach is innovative and addresses a real bottleneck in chromatin biology. The benchmark against known acidic patch interactors provides a quantitative performance metric. The discovery of ARID4A/ARID4B as novel nucleosome binders with functional validation is a concrete advance. The cryo-EM structure of the dimeric RNF168 complex is a valuable contribution, and the engineered single-chain construct is a clever solution to a technical challenge.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The screening pipeline achieves a 77% success rate (23/30) for known acidic patch interactors and identifies ARID4A/ARID4B as novel nucleosome-binding proteins.
+  - **Evidence pointer** Results section "Prediction of nucleosome binding proteins using AlphaFold3 web server"; "Assessment of AlphaFold-guided prediction dataset"; Supplementary Tables S1 and S2
+  - **Concern** The benchmark set of 30 acidic patch interactors is described but the full list, the criteria for inclusion, and the specific predictions for each are not shown in the main text. The exclusion of 20 proteins interacting with partially unfolded nucleosomes or histone tails is reasonable but the rationale for each exclusion is not itemized. The SF score calculation depends on a transformation of PAE values (31.75 minus raw PAE) but the justification for this specific constant and the sensitivity of results to this choice are not discussed. The threshold for "positive hit" in benchmarking is described as "aligned well" without quantitative criteria.
+  - **Why it matters** The central claim of a 77% success rate is the key performance metric for the entire pipeline. Without transparent benchmark details, the reader cannot assess whether this success rate is robust or an artifact of permissive alignment criteria. The SF score is a novel composite metric and its behavior under different parameter choices directly affects the ranking of all 7,655 proteins.
+  - **Resolution test** Provide the full benchmark list with per-protein prediction outcomes, define quantitative alignment criteria for positive hits, and include a sensitivity analysis of the SF score to the PAE transformation constant and distance threshold.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The cryo-EM structure at 3.9 Å resolution reveals how RNF168 dimerization facilitates nucleosome binding, with the E3' subunit contacting the H2A C-terminal tail and SHL-6.5 DNA.
+  - **Evidence pointer** Results section "Structure of RNF168 dimer bound to nucleosome"; Supplementary Figures S5 and S6; Supplementary Table S3
+  - **Concern** The manuscript states that "limited local resolution at the E3'-E3 interface precludes detailed modeling," yet the structural interpretation of dimerization-dependent binding relies on this interface. The map is at 3.9 Å overall resolution, but the local resolution at the key interface is not quantified. The assignment of E3' contacts with the H2A C-terminal tail and SHL-6.5 DNA is described without showing the corresponding density or providing a validation metric such as a focused refinement or local resolution map. The claim that this is "the first cryo-EM structure of a RING E3-E2 complex bound to native nucleosomes lacking covalent E2 fusion" is a strong priority claim that requires careful verification against the literature.
+  - **Why it matters** The structural model is the primary evidence for the dimerization mechanism. If the local resolution at the dimer interface is insufficient to model side-chain interactions, the mechanistic conclusions are speculative. The priority claim, if incorrect, would undermine the novelty of the work.
+  - **Resolution test** Provide local resolution maps, a focused refinement of the E3'-E3 interface, and a clear statement of what can and cannot be modeled at the achieved resolution. Verify the priority claim against a comprehensive literature search.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The engineered scE3'-E3-E2 construct exhibits higher ubiquitination activity than scE3-E2, demonstrating that RNF168 dimerization enhances catalytic activity.
+  - **Evidence pointer** Results section "Role of RNF168 dimerization in nucleosome interaction"; Figure 4F
+  - **Concern** The in vitro ubiquitination assay is described in methods, but the quantification, replicates, and statistical analysis are not shown in the main text. The difference in activity between dimeric and monomeric constructs is stated but the magnitude and reproducibility are not documented. The authors acknowledge in the discussion that "we cannot exclude the possibility that endogenous RNF168 operates as a monomer under certain cellular conditions," which tempers the physiological relevance of the dimerization claim.
+  - **Why it matters** The enhanced activity of the dimeric construct is a key functional claim supporting the biological significance of dimerization. Without quantitative data and statistical analysis, the reader cannot assess the strength of this effect.
+  - **Resolution test** Provide quantification of ubiquitination assays with replicates, error bars, and statistical tests. Clarify whether the enhanced activity is due to increased nucleosome binding, improved catalytic efficiency, or both.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** SF score definition
+  - **Evidence pointer** Materials and methods "Nucleosome binding score calculation"
+  - **Issue** The SF score formula is described verbally but the actual equation is not presented. The transformation of PAE (31.75 minus raw PAE) is not intuitively explained.
+  - **Required correction** Present the SF formula explicitly and provide a brief intuitive explanation of why this weighting scheme is appropriate.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Benchmark exclusion criteria
+  - **Evidence pointer** Results section "Assessment of AlphaFold-guided prediction dataset"; Supplementary Figure S1C and D
+  - **Issue** The exclusion of 20 proteins interacting with partially unfolded nucleosomes or histone tails is mentioned but the specific proteins and the structural basis for exclusion are not itemized.
+  - **Required correction** Provide a supplementary table listing all excluded proteins with the reason for exclusion.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Prediction consistency metric
+  - **Evidence pointer** Results section "Assessment of AlphaFold-guided prediction dataset"; Figure 2B
+  - **Issue** The prediction consistency score is defined as one minus the ratio of RMSD to maximum RMSD, but the choice of mode RMSD and the handling of multi-site binders are not fully justified.
+  - **Required correction** Clarify the statistical rationale for using the mode and describe how multi-site binders are handled in the consistency calculation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion of limitations
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of AlphaFold limitations is brief and does not address the potential for false negatives in the screening pipeline.
+  - **Required correction** Add a paragraph discussing the false negative rate and the implications for the completeness of the predicted nucleosome-binding protein dataset.
+
+## Risk / unsupported claims
+- The claim of a 77% success rate (23/30) for acidic patch interactors is not fully verifiable without the complete benchmark dataset and quantitative alignment criteria.
+- The claim that ARID4A and ARID4B are "novel" nucleosome-binding proteins is supported by the authors' literature knowledge but cannot be independently verified from the provided text.
+- The claim of "the first cryo-EM structure of a RING E3-E2 complex bound to native nucleosomes lacking covalent E2 fusion" is a strong priority claim that requires verification against the broader literature.
+- The functional significance of RNF168 dimerization for ubiquitination activity is stated but not quantitatively supported with replicates and statistics in the provided text.
+- The generalizability of the screening pipeline to other protein families or chromatin states is discussed qualitatively but not demonstrated.
+- The claim that high prediction consistency can "effectively prevent misinterpretations of low SF scores" is based on a limited set of examples and may not be universally applicable.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38826350",
+  "title": "Predictive Biophysical Neural Network Modeling of a Compendium of in vivo Transcription Factor DNA Binding Profiles for Escherichia coli.",
+  "authors": "Lally, Patrick; Gomez-Romero, Laura; Tierrafria, Victor H; Aquino, Patricia; Rioualen, Claire; Zhang, Xiaoman; Kim, Sunyoung; Baniulyte, Gabriele; Plitnick, Jonathan; Smith, Carol; Babu, Mohan; Collado-Vides, Julio; Wade, Joseph T; Galagan, James E",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-06-03",
+  "window": {
+    "start": "2024-06-03",
+    "end": "2024-06-09"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用ChIP-Seq绘制139个大肠杆菌TF体内结合图谱，并训练可解释的BoltzNet神经网络从序列预测TF-DNA结合能，结合实验验证设计新位点，高度契合TF-DNA互作建模与AI方法主题。",
+  "abstract": "The DNA binding of most Escherichia coli Transcription Factors (TFs) has not been comprehensively mapped, and few have models that can quantitatively predict binding affinity. We report the global mapping of in vivo DNA binding for 139 E. coli TFs using ChIP-Seq. We used these data to train BoltzNet, a novel neural network that predicts TF binding energy from DNA sequence. BoltzNet mirrors a quantitative biophysical model and provides directly interpretable predictions genome-wide at nucleotide resolution. We used BoltzNet to quantitatively design novel binding sites, which we validated with biophysical experiments on purified protein. We have generated models for 125 TFs that provide insight into global features of TF binding, including clustering of sites, the role of accessory bases, the relevance of weak sites, and the background affinity of the genome. Our paper provides new paradigms for studying TF-DNA binding and for the development of biophysically motivated neural networks.",
+  "abstract_zh": "大多数大肠杆菌转录因子（Transcription Factors, TFs）的DNA结合尚未被全面绘制，且很少有模型能够定量预测其结合亲和力。我们利用ChIP-Seq技术，对139个大肠杆菌TFs进行了体内DNA结合的全基因组映射。我们使用这些数据训练了BoltzNet，这是一种新颖的神经网络，能够从DNA序列预测TF结合能量。BoltzNet模拟了定量生物物理模型，并在全基因组范围内以核苷酸分辨率提供直接可解释的预测。我们利用BoltzNet定量设计了新的结合位点，并通过纯化蛋白的生物物理实验进行了验证。我们为125个TFs生成了模型，这些模型揭示了TF结合的全局特征，包括位点聚类、辅助碱基的作用、弱位点的相关性以及基因组的背景亲和力。我们的论文为研究TF-DNA结合以及开发生物物理驱动的神经网络提供了新范式。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38826350/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38826350/",
+  "paper_page_path": "papers/pubmed/38826350/index.html"
+}

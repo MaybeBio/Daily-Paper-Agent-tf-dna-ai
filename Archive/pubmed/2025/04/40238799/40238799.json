@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "pmid": "40238799",
+    "doi": "10.1371/journal.pone.0318311",
+    "title": "Taurine is a potential therapy for rheumatoid arthritis via targeting FOXO3 through cellular senescence and autophagy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Rheumatoid arthritis (RA) is a chronic inflammatory autoimmune disease closely related to aging with unclear pathogenic mechanisms. This study aims to identify the biomarkers in RA, aging and autophagy using bioinformatics and machine learning and explore the binding stability of taurine to target utilizing computer-aided drug design (CADD). METHODS: We identified differentially expressed genes (DEGs) for RA, then crossed with gene libraries for aging and autophagy to identify common genes (Co-genes). We performed Gene Ontology (GO), Kyoto Encyclopedia of the Genome (KEGG), and ClueGO analysis for Co-genes. The Co-genes were subjected to support vector machine-recursive feature elimination (SVM-RFE), Degree, and Betweenness algorithms to get hub genes, then verified by an artificial neural network (ANN). After continuing to perform least absolute shrinkage and selection operator (LASSO) and weighted gene co-expression network analysis (WGCNA) on Co-genes, the results were crossed with hub genes to obtain genes, which were imported into various validation sets for receiver operating characteristics (ROC) to identify key genes. We analyzed the microRNA/TF network, enriched pathways, and immune cell infiltration for key genes. The binding stability of taurine with the target protein was verified by CADD. Finally, we used Western blot for in vitro experimental verification. RESULTS: We obtained 74 Co-genes enriched in RA, cellular senescence, and regulation of programmed cell death. The model prediction of hub genes works well in ANN. The key genes (MMP9, CXCL10, IL15, FOXO3) were tested in ROC with excellent efficacy. In RA, FOXO3 expression was down-regulated while MMP9, CXCL10, and IL15 expression were upregulated, and FOXO3 was negatively correlated with MMP9, CXCL10, and IL15. Two miRNAs (hsa-mir-21-5p, hsa-mir-129-2-3p) and four TFs (CTCF, KLF, FOXC1, TP53) were associated with key genes. The immune cells positively correlated with MMP9, CXCL10, and IL15 expression and negatively correlated with FOXO3 expression were Plasma cells, CD8 T cells, memory-activated CD4 T cells, and follicular helper T cells, aggregating in RA. The binding stability of taurine with FOXO3 was verified by molecular docking and molecular dynamics simulation. In vitro experiments have indicated that taurine can upregulate the expression of FOXO3 and treat RA through the FOXO3-Parkin signaling pathway. CONCLUSIONS: MMP9, CXCL10, IL15, and FOXO3 are biomarkers of RA, cellular senescence, and autophagy. Taurine might be a promising drug against RA via targeting cellular senescence and autophagy through FOXO3.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Forkhead Box Protein O3/metabolism/genetics",
+      "*Arthritis, Rheumatoid/drug therapy/genetics/metabolism/pathology",
+      "*Autophagy/drug effects/genetics",
+      "*Cellular Senescence/drug effects/genetics",
+      "*Taurine/pharmacology/therapeutic use",
+      "MicroRNAs/genetics",
+      "Gene Regulatory Networks/drug effects",
+      "Computational Biology",
+      "Gene Expression Regulation/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Qingcong",
+        "Lin, Rongjie",
+        "Li, Zhechen",
+        "Zheng, Qingzhu",
+        "Xu, Weihong"
+      ],
+      "short_names": [
+        "Zheng Q",
+        "Lin R",
+        "Li Z",
+        "Zheng Q",
+        "Xu W"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-3978-7852"
+      ],
+      "affiliations": [
+        "Department of Spinal Surgery, The First Affiliated Hospital of Fujian Medical University, Fuzhou, China.",
+        "Department of Orthopedic Surgery, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Department of Spinal Surgery, The First Affiliated Hospital of Fujian Medical University, Fuzhou, China.",
+        "Department of Laboratory Medicine, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Department of Spinal Surgery, The First Affiliated Hospital of Fujian Medical University, Fuzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Qingcong",
+        "short_name": "Zheng Q",
+        "identifiers": [
+          "0009-0009-3978-7852"
+        ],
+        "affiliations": [
+          "Department of Spinal Surgery, The First Affiliated Hospital of Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Rongjie",
+        "short_name": "Lin R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhechen",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spinal Surgery, The First Affiliated Hospital of Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Qingzhu",
+        "short_name": "Zheng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Weihong",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spinal Surgery, The First Affiliated Hospital of Fujian Medical University, Fuzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/16 18:24",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42653491",
+      "42088513",
+      "41419949"
+    ],
+    "refs": [
+      "38323918",
+      "37335368",
+      "37317964",
+      "37291596",
+      "37289866",
+      "37201621",
+      "36921027",
+      "36860872",
+      "36676791",
+      "36674718",
+      "36637079",
+      "36539927",
+      "36470150",
+      "36357240",
+      "36280621",
+      "36280450",
+      "36072578",
+      "36068483",
+      "35974106",
+      "35897741",
+      "35592318",
+      "35583231",
+      "35524726",
+      "35421606",
+      "35399134",
+      "35371598",
+      "35134475",
+      "35026520",
+      "34942978",
+      "34610198",
+      "34536213",
+      "33929638",
+      "33777017",
+      "33412391",
+      "33257900",
+      "33166035",
+      "32554926",
+      "32380080",
+      "32190092",
+      "31799533",
+      "31708994",
+      "31511227",
+      "30980385",
+      "30505247",
+      "30468486",
+      "30462359",
+      "30072986",
+      "29938591",
+      "29523960",
+      "29375577",
+      "28824718",
+      "28660311",
+      "28612747",
+      "28566325",
+      "28401267",
+      "28378188",
+      "28148302",
+      "27732890",
+      "27214848",
+      "26711533",
+      "25951043",
+      "25836756",
+      "25229346",
+      "24833586",
+      "24690414",
+      "24630600",
+      "24296720",
+      "23870130",
+      "23746838",
+      "23140366",
+      "22820736",
+      "22810731",
+      "22682888",
+      "22532377",
+      "22401175",
+      "21884931",
+      "20870100",
+      "20858714",
+      "20811357",
+      "20808728",
+      "20689021",
+      "20412774",
+      "20360629",
+      "20023410",
+      "19321440",
+      "19114008",
+      "18391970",
+      "18391969",
+      "18305538",
+      "18204439",
+      "18054315",
+      "16868648",
+      "16199517",
+      "15043200",
+      "14976264",
+      "12436209",
+      "12193736",
+      "12165497",
+      "10834863",
+      "9018238",
+      "8574962"
+    ],
+    "similar": [
+      "40238799",
+      "38834626",
+      "33407587",
+      "39170142",
+      "36189314",
+      "39498523",
+      "38711508",
+      "36532040",
+      "39509434",
+      "39326197",
+      "34484236",
+      "36238290",
+      "33604823",
+      "38491124",
+      "39142001",
+      "39139563",
+      "40082645",
+      "39953769",
+      "37779906",
+      "39263286",
+      "39375405",
+      "40263537",
+      "36317112",
+      "38059150",
+      "35181628",
+      "34736376",
+      "36660690",
+      "39730379",
+      "34224029",
+      "34911836",
+      "36969166",
+      "38285375",
+      "31246497",
+      "39586719",
+      "34536521",
+      "39738612",
+      "37553608",
+      "34767108",
+      "38376769",
+      "38941374",
+      "35434133",
+      "38774864",
+      "38650649",
+      "38573982",
+      "39537231",
+      "37492576",
+      "36685513",
+      "40313958",
+      "35844557",
+      "39820552",
+      "34583778",
+      "40312440",
+      "36998473",
+      "36131919",
+      "38755717",
+      "34271942",
+      "34040897",
+      "36699262",
+      "39736250",
+      "37622114",
+      "38286349",
+      "38549107",
+      "37179305",
+      "38260098",
+      "38645862",
+      "38414629",
+      "39086489",
+      "33397492",
+      "38656728",
+      "34477936",
+      "37325630",
+      "36829193",
+      "39540991",
+      "39396400",
+      "38951833",
+      "33897713",
+      "36621784",
+      "39556279",
+      "34113405",
+      "38771826",
+      "40274894",
+      "37740761",
+      "40068024",
+      "40294937",
+      "35842645",
+      "36225941",
+      "35602512",
+      "37821869",
+      "36291136",
+      "37605572",
+      "32945465",
+      "39670237",
+      "36420648",
+      "38371524",
+      "31465725",
+      "32910145",
+      "38885209",
+      "38393632",
+      "30456455",
+      "29049183"
+    ],
+    "review": [
+      "40238799",
+      "31465725"
+    ],
+    "pmc": [
+      "12002484"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0318311",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40238799/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

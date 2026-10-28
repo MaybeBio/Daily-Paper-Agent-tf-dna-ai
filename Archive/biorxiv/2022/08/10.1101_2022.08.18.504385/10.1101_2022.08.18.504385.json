@@ -1,0 +1,642 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.18.504385",
+  "title": "Rational optimization of a transcription factor activation domain inhibitor",
+  "doi": "10.1101/2022.08.18.504385",
+  "abstract": "<h4>Summary</h4> Transcription factors are among the most attractive therapeutic targets but are considered largely undruggable due to the intrinsically disordered nature of their activation domains. Here we show that the aromatic character of the activation domain of the androgen receptor, a therapeutic target for castration resistant prostate cancer, is key for its activity as a transcription factor by allowing it to partition into transcriptional condensates. Based on this knowledge we optimized the structure of a small molecule inhibitor, previously identified by phenotypic screening, that targets a specific transactivation unit within the domain that is partially folded and rich in aromatic residues. The optimized compounds had more affinity for their target, inhibited androgen receptor-dependent transcriptional programs, and had antitumorigenic effect in models of castration-resistant prostate cancer in cells and in vivo . These results establish a generalizable framework to target small molecules to the activation domains of oncogenic transcription factors and other disease-associated proteins with therapeutic intent.",
+  "authors": [
+    "Basu S",
+    "Martínez-Cristóbal P",
+    "Pesarrodona M",
+    "Frigolé-Vivas M",
+    "Lewis M",
+    "Szulc E",
+    "Bañuelos CA",
+    "Sánchez-Zarzalejo C",
+    "Bielskutė S",
+    "Zhu J",
+    "Pombo-García K",
+    "Garcia-Cabau C",
+    "Batlle C",
+    "Mateos B",
+    "Biesaga M",
+    "Escobedo A",
+    "Bardia L",
+    "Verdaguer X",
+    "Ruffoni A",
+    "Mawji NR",
+    "Wang J",
+    "Tam T",
+    "Brun-Heath I",
+    "Ventura S",
+    "Meierhofer D",
+    "García J",
+    "Robustelli P",
+    "Stracker TH",
+    "Sadar MD",
+    "Riera A",
+    "Hnisz D",
+    "Salvatella X"
+  ],
+  "published_date": "2022-08-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.18.504385",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.18.504385.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR533615",
+    "raw_record": {
+      "id": "PPR533615",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR533615"
+        ]
+      },
+      "doi": "10.1101/2022.08.18.504385",
+      "title": "Rational optimization of a transcription factor activation domain inhibitor",
+      "authorString": "Basu S, Martínez-Cristóbal P, Pesarrodona M, Frigolé-Vivas M, Lewis M, Szulc E, Bañuelos CA, Sánchez-Zarzalejo C, Bielskutė S, Zhu J, Pombo-García K, Garcia-Cabau C, Batlle C, Mateos B, Biesaga M, Escobedo A, Bardia L, Verdaguer X, Ruffoni A, Mawji NR, Wang J, Tam T, Brun-Heath I, Ventura S, Meierhofer D, García J, Robustelli P, Stracker TH, Sadar MD, Riera A, Hnisz D, Salvatella X.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Basu S",
+            "lastName": "Basu",
+            "firstName": "Shaon",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2648-4827"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genome Regulation, Max Planck Institute for Molecular Genetics, 14195 Berlin, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martínez-Cristóbal P",
+            "lastName": "Martínez-Cristóbal",
+            "firstName": "Paula",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pesarrodona M",
+            "lastName": "Pesarrodona",
+            "firstName": "Mireia",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Frigolé-Vivas M",
+            "lastName": "Frigolé-Vivas",
+            "firstName": "Marta",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lewis M",
+            "lastName": "Lewis",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7552-703X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Szulc E",
+            "lastName": "Szulc",
+            "firstName": "Elzbieta",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bañuelos CA",
+            "lastName": "Bañuelos",
+            "firstName": "Adriana",
+            "initials": "CA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genome Sciences, BC Cancer and Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sánchez-Zarzalejo C",
+            "lastName": "Sánchez-Zarzalejo",
+            "firstName": "Carolina",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bielskutė S",
+            "lastName": "Bielskutė",
+            "firstName": "Stasė",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhu J",
+            "lastName": "Zhu",
+            "firstName": "Jiaqi",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dartmouth College, Department of Chemistry, Hanover, NH, 03755, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pombo-García K",
+            "lastName": "Pombo-García",
+            "firstName": "Karina",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Max Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Garcia-Cabau C",
+            "lastName": "Garcia-Cabau",
+            "firstName": "Carla",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Batlle C",
+            "lastName": "Batlle",
+            "firstName": "Cristina",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut de Biotecnologia i Biomedicina and Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, 08193 Bellaterra, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mateos B",
+            "lastName": "Mateos",
+            "firstName": "Borja",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Biesaga M",
+            "lastName": "Biesaga",
+            "firstName": "Mateusz",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6443-1270"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Escobedo A",
+            "lastName": "Escobedo",
+            "firstName": "Albert",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bardia L",
+            "lastName": "Bardia",
+            "firstName": "Lídia",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Verdaguer X",
+            "lastName": "Verdaguer",
+            "firstName": "Xavier",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ruffoni A",
+            "lastName": "Ruffoni",
+            "firstName": "Alessandro",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mawji NR",
+            "lastName": "Mawji",
+            "firstName": "Nasrin",
+            "initials": "NR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genome Sciences, BC Cancer and Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang J",
+            "lastName": "Wang",
+            "firstName": "Jun",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genome Sciences, BC Cancer and Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tam T",
+            "lastName": "Tam",
+            "firstName": "Teresa",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genome Sciences, BC Cancer and Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brun-Heath I",
+            "lastName": "Brun-Heath",
+            "firstName": "Isabelle",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ventura S",
+            "lastName": "Ventura",
+            "firstName": "Salvador",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9652-6351"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Max Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meierhofer D",
+            "lastName": "Meierhofer",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Max Planck Institute for Molecular Genetics, Mass Spectrometry Facility, Berlin, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "García J",
+            "lastName": "García",
+            "firstName": "Jesús",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Robustelli P",
+            "lastName": "Robustelli",
+            "firstName": "Paul",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9282-8993"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dartmouth College, Department of Chemistry, Hanover, NH, 03755, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stracker TH",
+            "lastName": "Stracker",
+            "firstName": "Travis",
+            "initials": "TH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Radiation Oncology Branch, Center for Cancer Research, National Cancer Institute, NIH, 9000 Rockville Pike, 10 Center Dr, Building 10, Bethesda, MD, 20892, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sadar MD",
+            "lastName": "Sadar",
+            "firstName": "Marianne",
+            "initials": "MD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genome Sciences, BC Cancer and Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Riera A",
+            "lastName": "Riera",
+            "firstName": "Antoni",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                },
+                {
+                  "affiliation": "Departament de Química Orgànica i Inorgànica, Universitat de Barcelona, Martí i Franquès 1-11, 08028 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hnisz D",
+            "lastName": "Hnisz",
+            "firstName": "Denes",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genome Regulation, Max Planck Institute for Molecular Genetics, 14195 Berlin, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Salvatella X",
+            "lastName": "Salvatella",
+            "firstName": "Xavier",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain"
+                },
+                {
+                  "affiliation": "ICREA, Passeig Lluís Companys 23, 08010, Barcelona, Spain"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6443-1270"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8510-6098"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7059-5658"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7552-703X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8151-5043"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9282-8993"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9652-6351"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2648-4827"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>Summary</h4>  Transcription factors are among the most attractive therapeutic targets but are considered largely undruggable due to the intrinsically disordered nature of their activation domains. Here we show that the aromatic character of the activation domain of the androgen receptor, a therapeutic target for castration resistant prostate cancer, is key for its activity as a transcription factor by allowing it to partition into transcriptional condensates. Based on this knowledge we optimized the structure of a small molecule inhibitor, previously identified by phenotypic screening, that targets a specific transactivation unit within the domain that is partially folded and rich in aromatic residues. The optimized compounds had more affinity for their target, inhibited androgen receptor-dependent transcriptional programs, and had antitumorigenic effect in models of castration-resistant prostate cancer in cells and  in vivo . These results establish a generalizable framework to target small molecules to the activation domains of oncogenic transcription factors and other disease-associated proteins with therapeutic intent.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "648201",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/11/21/2022.08.18.504385.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.08.18.504385"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR533615"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR533615&type=FILE&fileName=EMS157435-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38049566",
+            "reference": "Nature structural & molecular biology. 2023 Dec;30(12):1958-1969",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS157435",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-08-20",
+      "firstPublicationDate": "2022-08-19",
+      "firstIndexDate": "2022-08-22",
+      "fullTextReceivedDate": "2022-12-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

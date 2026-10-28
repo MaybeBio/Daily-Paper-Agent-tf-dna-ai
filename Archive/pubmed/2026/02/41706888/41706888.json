@@ -1,0 +1,595 @@
+{
+  "identity": {
+    "pmid": "41706888",
+    "doi": "10.1073/pnas.2521923123",
+    "title": "Oncogenic function and transcriptional dynamics of MYCN in liver tumorigenesis."
+  },
+  "content": {
+    "abstract": "Hepatocellular carcinoma (HCC) is a leading cause of cancer-related mortality. It is often diagnosed at advanced stages and characterized by high recurrence rates. Although chronic liver inflammation and metabolic dysfunction are established contributors to tumorigenesis, the molecular mechanisms that link microenvironmental stress to malignant transformation remain poorly understood. MYCN, a proto-oncogenic transcription factor, has emerged as a potential biomarker of cancer stemness. However, its role in hepatocarcinogenesis remains unclear. In this study, we elucidated the oncogenic role of MYCN and its dynamic transcriptional regulation during liver tumorigenesis. Using a hydrodynamic tail vein injection-based transposon system in mice, we demonstrated that MYCN overexpression synergizes with AKT activation to promote liver tumorigenesis. Transcriptomic profiling revealed that MYCN-driven tumors exhibited features of human HCC subtypes enriched in stress-adaptive transcriptional programs. Time-resolved spatial transcriptomics further uncovered a MYCN-enriched niche characterized by epithelial-mesenchymal transition (EMT) and Wnt/beta-catenin signaling, which expanded during tumor progression and was spatially proximate to transformed malignant cells. To translate these findings to human HCC, we developed a machine learning-based MYCN niche score and validated its clinical relevance across multiple human HCC cohorts. This score reliably predicted recurrence risk and identified EMT-prone microenvironments, with stronger predictive performance in nontumor tissues, suggesting its potential in detecting precancerous niches predisposed to de novo tumorigenesis. Collectively, our findings establish MYCN as a functional driver and spatial marker of tumor-promoting microenvironments in liver tumorigenesis; additionally, we propose a clinically actionable strategy to identify high-risk patients through transcriptomic profiling of nontumor liver tissue.",
+    "keywords": [
+      "MYCN",
+      "liver cancer",
+      "oncogene",
+      "spatial transcriptome",
+      "tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "*N-Myc Proto-Oncogene Protein/genetics/metabolism",
+      "Animals",
+      "*Liver Neoplasms/genetics/pathology/metabolism",
+      "Humans",
+      "Mice",
+      "Gene Expression Regulation, Neoplastic",
+      "*Carcinoma, Hepatocellular/genetics/pathology/metabolism",
+      "*Carcinogenesis/genetics",
+      "Epithelial-Mesenchymal Transition/genetics",
+      "Wnt Signaling Pathway",
+      "Cell Transformation, Neoplastic/genetics",
+      "Liver/pathology/metabolism",
+      "Transcription, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qin, Xian-Yang",
+        "Xu, Yali",
+        "Mishra, Hricha",
+        "Shirakami, Yohei",
+        "Yeh, Shiou-Hwei",
+        "Li, Chiao-Ling",
+        "Numata, Kazushi",
+        "Suenaga, Yusuke",
+        "Wei, Feifei",
+        "Ando, Reiko",
+        "Nishimura, Hajime",
+        "Furuhata, Erina",
+        "Maeda, Shiori",
+        "Furutani, Yutaka",
+        "Yanaka, Kaori",
+        "Yamamoto, Masahiro",
+        "Goto, Masanori",
+        "Takasawa, Akira",
+        "Nishikawa, Yuji",
+        "Tomita, Hiroyuki",
+        "Gailhouste, Luc",
+        "Matsuura, Tomokazu",
+        "Chen, Pei-Jer",
+        "Shimizu, Masahito",
+        "Hippo, Yoshitaka",
+        "Suzuki, Harukazu"
+      ],
+      "short_names": [
+        "Qin XY",
+        "Xu Y",
+        "Mishra H",
+        "Shirakami Y",
+        "Yeh SH",
+        "Li CL",
+        "Numata K",
+        "Suenaga Y",
+        "Wei F",
+        "Ando R",
+        "Nishimura H",
+        "Furuhata E",
+        "Maeda S",
+        "Furutani Y",
+        "Yanaka K",
+        "Yamamoto M",
+        "Goto M",
+        "Takasawa A",
+        "Nishikawa Y",
+        "Tomita H",
+        "Gailhouste L",
+        "Matsuura T",
+        "Chen PJ",
+        "Shimizu M",
+        "Hippo Y",
+        "Suzuki H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0110-6849",
+        "ORCID: 0000-0002-2471-090X",
+        "ORCID: 0000-0002-5404-5672",
+        "ORCID: 0000-0003-4671-4431",
+        "ORCID: 0000-0002-5770-3255",
+        "ORCID: 0000-0002-1143-5400",
+        "ORCID: 0009-0008-3811-1263",
+        "ORCID: 0000-0002-2945-0166",
+        "ORCID: 0000-0002-0652-6105",
+        "ORCID: 0000-0003-1760-5252",
+        "ORCID: 0000-0002-3291-0274",
+        "ORCID: 0000-0002-4489-0522",
+        "ORCID: 0000-0002-1151-2058",
+        "ORCID: 0000-0002-4975-1812",
+        "ORCID: 0000-0002-8087-0836"
+      ],
+      "affiliations": [
+        "Laboratory for Cellular Function Conversion Technology, RIKEN Center for Integrative Medical Sciences, Yokohama, Kanagawa 230-0045, Japan.",
+        "Laboratory for Cellular Function Conversion Technology, RIKEN Center for Integrative Medical Sciences, Yokohama, Kanagawa 230-0045, Japan.",
+        "Laboratory for Cellular Function Conversion Technology, RIKEN Center for Integrative Medical Sciences, Yokohama, Kanagawa 230-0045, Japan.",
+        "Department of Gastroenterology, Graduate School of Medicine, Gifu University, Gifu 501-1194, Japan.",
+        "Department of Microbiology, National Taiwan University College of Medicine, Taipei 100, Taiwan.",
+        "Department of Microbiology, National Taiwan University College of Medicine, Taipei 100, Taiwan.",
+        "Gastroenterological Center, Yokohama City University Medical Center, Yokohama, Kanagawa 232-0024, Japan.",
+        "Laboratory of Evolutionary Oncology, Chiba Cancer Center Research Institute, Chiba 260-8717, Japan.",
+        "Division of Cancer Immunotherapy, Kanagawa Cancer Center Research Institute, Yokohama, Kanagawa 241-8515, Japan.",
+        "Support Unit for Bio-Material Analysis, Research Resources Division, RIKEN Center for Brain Science, Wako, Saitama 351-0198, Japan.",
+        "Laboratory for Cellular Function Conversion Technology, RIKEN Center for Integrative Medical Sciences, Yokohama, Kanagawa 230-0045, Japan.",
+        "Laboratory for Cellular Function Conversion Technology, RIKEN Center for Integrative Medical Sciences, Yokohama, Kanagawa 230-0045, Japan.",
+        "Laboratory for Cellular Function Conversion Technology, RIKEN Center for Integrative Medical Sciences, Yokohama, Kanagawa 230-0045, Japan.",
+        "Department of Laboratory Medicine, The Jikei University School of Medicine, Tokyo 105-8461, Japan.",
+        "Department of Laboratory Medicine, The Jikei University School of Medicine, Tokyo 105-8461, Japan.",
+        "Department of Tumor Pathology, Graduate School of Health Sciences, Kumamoto University, Kumamoto 862-0976, Japan.",
+        "Division of Tumor Pathology, Department of Pathology, Asahikawa Medical University, Asahikawa, Hokkaido 078-8510, Japan.",
+        "Division of Tumor Pathology, Department of Pathology, Asahikawa Medical University, Asahikawa, Hokkaido 078-8510, Japan.",
+        "Division of Tumor Pathology, Department of Pathology, Asahikawa Medical University, Asahikawa, Hokkaido 078-8510, Japan.",
+        "Department of Tumor Pathology, Gifu University Graduate School of Medicine, Gifu 501-1194, Japan.",
+        "Center for One Medicine Innovative Translational Research, Gifu University Institute for Advanced Study, Gifu 501-1194, Japan.",
+        "Laboratory for Brain Development and Disorders, RIKEN Center for Brain Science, Wako, Saitama 351-0198, Japan.",
+        "Department of Laboratory Medicine, The Jikei University School of Medicine, Tokyo 105-8461, Japan.",
+        "Graduate Institute of Clinical Medicine, Department of Internal Medicine, National Taiwan University College of Medicine and Hospital, Taipei 100, Taiwan.",
+        "Department of Gastroenterology, Graduate School of Medicine, Gifu University, Gifu 501-1194, Japan.",
+        "Laboratory of Evolutionary Oncology, Chiba Cancer Center Research Institute, Chiba 260-8717, Japan.",
+        "Laboratory for Cellular Function Conversion Technology, RIKEN Center for Integrative Medical Sciences, Yokohama, Kanagawa 230-0045, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qin, Xian-Yang",
+        "short_name": "Qin XY",
+        "identifiers": [
+          "0000-0002-0110-6849"
+        ],
+        "affiliations": [
+          "Laboratory for Cellular Function Conversion Technology, RIKEN Center for Integrative Medical Sciences, Yokohama, Kanagawa 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Xu, Yali",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Cellular Function Conversion Technology, RIKEN Center for Integrative Medical Sciences, Yokohama, Kanagawa 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Mishra, Hricha",
+        "short_name": "Mishra H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Cellular Function Conversion Technology, RIKEN Center for Integrative Medical Sciences, Yokohama, Kanagawa 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Shirakami, Yohei",
+        "short_name": "Shirakami Y",
+        "identifiers": [
+          "0000-0002-2471-090X"
+        ],
+        "affiliations": [
+          "Department of Gastroenterology, Graduate School of Medicine, Gifu University, Gifu 501-1194, Japan."
+        ]
+      },
+      {
+        "full_name": "Yeh, Shiou-Hwei",
+        "short_name": "Yeh SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, National Taiwan University College of Medicine, Taipei 100, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Li, Chiao-Ling",
+        "short_name": "Li CL",
+        "identifiers": [
+          "0000-0002-5404-5672"
+        ],
+        "affiliations": [
+          "Department of Microbiology, National Taiwan University College of Medicine, Taipei 100, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Numata, Kazushi",
+        "short_name": "Numata K",
+        "identifiers": [
+          "0000-0003-4671-4431"
+        ],
+        "affiliations": [
+          "Gastroenterological Center, Yokohama City University Medical Center, Yokohama, Kanagawa 232-0024, Japan."
+        ]
+      },
+      {
+        "full_name": "Suenaga, Yusuke",
+        "short_name": "Suenaga Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Evolutionary Oncology, Chiba Cancer Center Research Institute, Chiba 260-8717, Japan."
+        ]
+      },
+      {
+        "full_name": "Wei, Feifei",
+        "short_name": "Wei F",
+        "identifiers": [
+          "0000-0002-5770-3255"
+        ],
+        "affiliations": [
+          "Division of Cancer Immunotherapy, Kanagawa Cancer Center Research Institute, Yokohama, Kanagawa 241-8515, Japan."
+        ]
+      },
+      {
+        "full_name": "Ando, Reiko",
+        "short_name": "Ando R",
+        "identifiers": [
+          "0000-0002-1143-5400"
+        ],
+        "affiliations": [
+          "Support Unit for Bio-Material Analysis, Research Resources Division, RIKEN Center for Brain Science, Wako, Saitama 351-0198, Japan."
+        ]
+      },
+      {
+        "full_name": "Nishimura, Hajime",
+        "short_name": "Nishimura H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Cellular Function Conversion Technology, RIKEN Center for Integrative Medical Sciences, Yokohama, Kanagawa 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Furuhata, Erina",
+        "short_name": "Furuhata E",
+        "identifiers": [
+          "0009-0008-3811-1263"
+        ],
+        "affiliations": [
+          "Laboratory for Cellular Function Conversion Technology, RIKEN Center for Integrative Medical Sciences, Yokohama, Kanagawa 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Maeda, Shiori",
+        "short_name": "Maeda S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Cellular Function Conversion Technology, RIKEN Center for Integrative Medical Sciences, Yokohama, Kanagawa 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Furutani, Yutaka",
+        "short_name": "Furutani Y",
+        "identifiers": [
+          "0000-0002-2945-0166"
+        ],
+        "affiliations": [
+          "Department of Laboratory Medicine, The Jikei University School of Medicine, Tokyo 105-8461, Japan."
+        ]
+      },
+      {
+        "full_name": "Yanaka, Kaori",
+        "short_name": "Yanaka K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The Jikei University School of Medicine, Tokyo 105-8461, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamamoto, Masahiro",
+        "short_name": "Yamamoto M",
+        "identifiers": [
+          "0000-0002-0652-6105"
+        ],
+        "affiliations": [
+          "Department of Tumor Pathology, Graduate School of Health Sciences, Kumamoto University, Kumamoto 862-0976, Japan."
+        ]
+      },
+      {
+        "full_name": "Goto, Masanori",
+        "short_name": "Goto M",
+        "identifiers": [
+          "0000-0003-1760-5252"
+        ],
+        "affiliations": [
+          "Division of Tumor Pathology, Department of Pathology, Asahikawa Medical University, Asahikawa, Hokkaido 078-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Takasawa, Akira",
+        "short_name": "Takasawa A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Tumor Pathology, Department of Pathology, Asahikawa Medical University, Asahikawa, Hokkaido 078-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Nishikawa, Yuji",
+        "short_name": "Nishikawa Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Tumor Pathology, Department of Pathology, Asahikawa Medical University, Asahikawa, Hokkaido 078-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Tomita, Hiroyuki",
+        "short_name": "Tomita H",
+        "identifiers": [
+          "0000-0002-3291-0274"
+        ],
+        "affiliations": [
+          "Department of Tumor Pathology, Gifu University Graduate School of Medicine, Gifu 501-1194, Japan.",
+          "Center for One Medicine Innovative Translational Research, Gifu University Institute for Advanced Study, Gifu 501-1194, Japan."
+        ]
+      },
+      {
+        "full_name": "Gailhouste, Luc",
+        "short_name": "Gailhouste L",
+        "identifiers": [
+          "0000-0002-4489-0522"
+        ],
+        "affiliations": [
+          "Laboratory for Brain Development and Disorders, RIKEN Center for Brain Science, Wako, Saitama 351-0198, Japan."
+        ]
+      },
+      {
+        "full_name": "Matsuura, Tomokazu",
+        "short_name": "Matsuura T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The Jikei University School of Medicine, Tokyo 105-8461, Japan."
+        ]
+      },
+      {
+        "full_name": "Chen, Pei-Jer",
+        "short_name": "Chen PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Institute of Clinical Medicine, Department of Internal Medicine, National Taiwan University College of Medicine and Hospital, Taipei 100, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Shimizu, Masahito",
+        "short_name": "Shimizu M",
+        "identifiers": [
+          "0000-0002-1151-2058"
+        ],
+        "affiliations": [
+          "Department of Gastroenterology, Graduate School of Medicine, Gifu University, Gifu 501-1194, Japan."
+        ]
+      },
+      {
+        "full_name": "Hippo, Yoshitaka",
+        "short_name": "Hippo Y",
+        "identifiers": [
+          "0000-0002-4975-1812"
+        ],
+        "affiliations": [
+          "Laboratory of Evolutionary Oncology, Chiba Cancer Center Research Institute, Chiba 260-8717, Japan."
+        ]
+      },
+      {
+        "full_name": "Suzuki, Harukazu",
+        "short_name": "Suzuki H",
+        "identifiers": [
+          "0000-0002-8087-0836"
+        ],
+        "affiliations": [
+          "Laboratory for Cellular Function Conversion Technology, RIKEN Center for Integrative Medical Sciences, Yokohama, Kanagawa 230-0045, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2026 Feb 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/18 19:10",
+    "fetched_at": "2026-10-01 14:24:37"
+  },
+  "links": {
+    "cites": [
+      "42614793",
+      "42517066",
+      "42094549"
+    ],
+    "refs": [
+      "40443286",
+      "40074893",
+      "39972137",
+      "39687037",
+      "38552609",
+      "38380807",
+      "38280378",
+      "37946043",
+      "37414763",
+      "37167403",
+      "36708811",
+      "35731891",
+      "34919432",
+      "33937011",
+      "33597522",
+      "33585251",
+      "33538338",
+      "33235915",
+      "33033407",
+      "32746865",
+      "32377190",
+      "32113157",
+      "31988297",
+      "31740819",
+      "31701148",
+      "31588021",
+      "30287485",
+      "30209397",
+      "29686061",
+      "29152775",
+      "29141660",
+      "28964793",
+      "28432125",
+      "27566402",
+      "27365449",
+      "27088858",
+      "26361969",
+      "26348897",
+      "25181010",
+      "24818732",
+      "24728665",
+      "23430399",
+      "22004366",
+      "21574174",
+      "21159642",
+      "21147110",
+      "20432259",
+      "19029958",
+      "18321606",
+      "15989949",
+      "15475948",
+      "14645238",
+      "11357141",
+      "10837031"
+    ],
+    "similar": [
+      "41706888",
+      "30556279",
+      "29686061",
+      "41935591",
+      "41277532",
+      "31988297",
+      "31344396",
+      "31949128",
+      "39248163",
+      "41677613",
+      "41655866",
+      "21729876",
+      "41151851",
+      "40814770",
+      "30150059",
+      "33577921",
+      "41714472",
+      "41722266",
+      "29152756",
+      "27614046",
+      "42289469",
+      "40883023",
+      "41953013",
+      "34930906",
+      "41168860",
+      "28536011",
+      "39949345",
+      "40855439",
+      "27285757",
+      "41799507",
+      "41193823",
+      "31637871",
+      "42486346",
+      "37381005",
+      "34758313",
+      "31278131",
+      "28143772",
+      "30929558",
+      "30672133",
+      "32631394",
+      "34922977",
+      "27821157",
+      "27911878",
+      "40564959",
+      "26164082",
+      "40659255",
+      "41328864",
+      "28947421",
+      "41203170",
+      "33097058",
+      "42124320",
+      "39095854",
+      "38468464",
+      "33038431",
+      "31691159",
+      "40062588",
+      "40707755",
+      "34775955",
+      "31541681",
+      "32801345",
+      "33970778",
+      "41965966",
+      "35008530",
+      "26941395",
+      "31383647",
+      "30677195",
+      "39424877",
+      "28734833",
+      "38653946",
+      "30231922",
+      "29525529",
+      "40069645",
+      "40890311",
+      "28890291",
+      "33608500",
+      "22767186",
+      "21324921",
+      "31726117",
+      "26082485",
+      "39380995",
+      "30248355",
+      "38380807",
+      "38673795",
+      "25762642",
+      "29725020",
+      "29386044",
+      "32860321",
+      "29552782",
+      "41825847",
+      "33024090",
+      "31561723",
+      "34521817",
+      "40235270",
+      "34370992",
+      "38110956",
+      "26065367",
+      "30610799",
+      "31488102",
+      "41771574",
+      "37958555"
+    ],
+    "review": [
+      "41706888"
+    ],
+    "pmc": [
+      "12933037"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2521923123?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41706888/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.03.18.436020",
+  "title": "Binding affinity prediction for protein-ligand complex using deep attention mechanism based on intermolecular interactions",
+  "authors": "Sangmin Seo; Jonghwan Choi; Sanghyun Park; Jaegyoon Ahn",
+  "journal": "bioRxiv",
+  "published_date": "2021-03-18",
+  "window": {
+    "start": "2021-03-15",
+    "end": "2021-03-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度注意力机制预测蛋白-配体结合亲和力，虽涉及分子互作建模，但对象为蛋白-小分子而非蛋白-DNA，方法可迁移性有限，仅边缘相关。",
+  "abstract": "Accurate prediction of protein-ligand binding affinity is important in that it can lower the overall cost of drug discovery in structure-based drug design. For more accurate prediction, many classical scoring functions and machine learning-based methods have been developed. However, these techniques tend to have limitations, mainly resulting from a lack of sufficient interactions energy terms to describe complex interactions between proteins and ligands. Recent deep-learning techniques show strong potential to solve this problem, but the search for more efficient and appropriate deep-learning architectures and methods to represent protein-ligand complexes continues. In this study, we proposed a deep-neural network for more accurate prediction of protein-ligand complex binding affinity. The proposed model has two important features, descriptor embeddings that contains embedded information about the local structures of a protein-ligand complex and an attention mechanism for highlighting important descriptors to binding affinity prediction. The proposed model showed better performance on most benchmark datasets than existing binding affinity prediction models. Moreover, we confirmed that an attention mechanism was able to capture binding sites in a protein-ligand complex and that it contributed to improvement in predictive performance. Our code is available at https://github.com/Blue1993/BAPA . Author summary The initial step in drug discovery is to identify drug candidates for a target protein using a scoring function. Existing scoring functions, however, lack the ability to accurately predict the binding affinity of protein-ligand complexes. In this study, we proposed a deep learning-based approach to extract patterns from the local structures of protein-ligand complexes and to highlight the important local structures via an attention mechanism. The proposed model showed good performance for various benchmark datasets compared to existing models.",
+  "abstract_zh": "蛋白质-配体结合亲和力的准确预测在基于结构的药物设计中具有重要意义，因为它能降低药物发现的总体成本。为了提高预测准确性，已开发了许多经典评分函数和基于机器学习的方法。然而，这些技术往往存在局限性，主要源于缺乏足够的相互作用能量项来描述蛋白质与配体之间的复杂相互作用。近年来，深度学习技术显示出解决这一问题的强大潜力，但寻找更高效、更合适的深度学习架构和方法来表示蛋白质-配体复合物仍在继续。在本研究中，我们提出了一种深度神经网络，用于更准确地预测蛋白质-配体复合物的结合亲和力。该模型具有两个重要特征：描述符嵌入（descriptor embeddings），包含蛋白质-配体复合物局部结构的嵌入信息；以及注意力机制（attention mechanism），用于突出对结合亲和力预测重要的描述符。在大多数基准数据集上，该模型表现出优于现有结合亲和力预测模型的性能。此外，我们确认注意力机制能够捕捉蛋白质-配体复合物中的结合位点，并有助于提升预测性能。我们的代码可在 https://github.com/Blue1993/BAPA 获取。作者摘要 药物发现的第一步是使用评分函数为目标蛋白质识别候选药物。然而，现有评分函数缺乏准确预测蛋白质-配体复合物结合亲和力的能力。在本研究中，我们提出了一种基于深度学习的方法，从蛋白质-配体复合物的局部结构中提取模式，并通过注意力机制突出重要的局部结构。与现有模型相比，该模型在各种基准数据集上表现出良好的性能。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.03.18.436020",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.03.18.436020",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.03.18.436020/index.html"
+}

@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided.
+- **Assessment boundary** Technical soundness, methodological clarity, validity of claims relative to presented evidence, and alignment with Nature-style criteria. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors propose KGE-TGI, a multi-task graph-based model that predicts both the existence and type (activation/repression) of transcription factor-target gene interactions using a knowledge graph constructed from TRRUST, DisGeNET, GENEONTOLOGY, and CTD databases. The model relies solely on topological information and chemical features, not gene expression data. Reported AUC values of 0.9654 (link prediction) and 0.9339 (link type classification) under 5-fold cross-validation, with a 9% AUC improvement over a prior model (GraphTGI).
+- **Visible evidence base** Methods sections 2.1-2.5, Results sections 3.1-3.7, Tables 1-8, Figures 4-7 (referenced but not shown in provided text).
+- **Missing materials affecting confidence** Figures 1-7 and Tables 1-8 are referenced but not included in the provided material. Code and data availability statements are absent. Details on baseline methods for comparison (e.g., GraphTGI, methods from Chen et al.) are not fully specified. Statistical significance testing for performance differences is not reported.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in gene regulation prediction, namely the simultaneous prediction of TF-target gene interactions and their types using a knowledge graph embedding approach. The methodological framework is coherent and the multi-task design is reasonable. However, several technical aspects require clarification and additional validation before the claims can be fully supported. The absence of key figures and tables in the provided material limits a complete evaluation, and the lack of statistical significance testing and comparison details weakens the strength of the performance claims.
+- **Who would be interested in the results, and why** Researchers in computational biology, gene regulation, and network biology would find this work relevant, particularly those interested in knowledge graph-based methods for predicting gene regulatory interactions. The approach may also appeal to those working on multi-task learning and heterogeneous graph neural networks in biomedical applications.
+- **Major strengths** The problem is well-motivated, with a clear gap identified in existing methods that rely on gene expression data. The construction of a multi-relational knowledge graph integrating diverse biological data is a thoughtful contribution. The multi-task learning framework is appropriate for the joint prediction of link existence and type. The case study on AHR provides a practical demonstration of the model's utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves "average AUC values of 0.9654 and 0.9339 in the tasks of link prediction and link type classification, respectively" (Abstract, Section 3.1).
+  - **Evidence pointer** Section 3.1, Table 2 (referenced, not provided)
+  - **Concern** The reported AUC values are presented without confidence intervals, standard deviations, or statistical significance testing against baselines. It is unclear whether the performance differences are statistically meaningful, particularly given the potential for variance across cross-validation folds.
+  - **Why it matters** Without statistical rigor, the claim of state-of-the-art performance cannot be reliably assessed. Variability across folds could undermine the robustness of the reported results.
+  - **Resolution test** Provide mean and standard deviation for all metrics across folds, and perform statistical tests (e.g., paired t-test or Wilcoxon signed-rank test) comparing KGE-TGI against each baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "KGE-TGI model improves 9% in AUC performance compared to GraphTGI model" (Section 3.3.3).
+  - **Evidence pointer** Section 3.3.3, Table 5 (referenced, not provided)
+  - **Concern** The comparison with GraphTGI and other baselines is not described in sufficient detail. It is unclear whether the same data splits, negative sampling strategy, and evaluation protocol were used for all methods. The 9% improvement is reported without error bars or significance testing.
+  - **Why it matters** Fair and consistent evaluation is essential for a valid performance comparison. Without this, the claimed improvement may be an artifact of differing experimental setups.
+  - **Resolution test** Specify the exact experimental setup for all baselines, including data splits, negative sampling, and hyperparameters. Report results with variance and significance tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The model is described as "trained in a multi-task learning manner on a knowledge graph" (Abstract) with specific components including MGCN and GradNorm (Sections 2.2.2-2.2.5).
+  - **Evidence pointer** Sections 2.2.1-2.2.5
+  - **Concern** The manuscript does not provide details on hyperparameter tuning, training time, computational resources, or code availability. The negative sampling strategy is described but not fully specified (e.g., ratio of negatives to positives, sampling distribution). The initialization of node features for disease and GO term nodes is not described.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without these details, other researchers cannot implement or validate the approach.
+  - **Resolution test** Provide a detailed description of all hyperparameters, training procedures, and a public code repository with data processing scripts.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validity of evidence
+  - **Claim pointer** "60% (6/10) of the predicted interactions were confirmed in the TRRUST dataset" and two additional genes (CRY2, VEGFA) were supported by literature (Section 3.7).
+  - **Evidence pointer** Section 3.7, Table 8 (referenced, not provided)
+  - **Concern** The case study is limited to a single TF (AHR) and a small set of top-10 predictions. The selection criteria for the TF and the threshold for "highest-ranked" predictions are not specified. The literature evidence for CRY2 and VEGFA is mentioned but not detailed.
+  - **Why it matters** A single case study with a small sample size provides limited evidence of generalizability. The lack of clear selection criteria introduces potential bias.
+  - **Resolution test** Expand the case study to multiple TFs with diverse regulatory roles, specify the ranking threshold, and provide detailed literature evidence for all predicted interactions.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The KGE-TGI model assumes that different biological information networks contain information that can complement each other" (Section 2.2.1).
+  - **Evidence pointer** Section 2.2.1, Figure 1 (referenced, not provided)
+  - **Concern** The rationale for including specific node types (disease, GO terms) and edge types is not fully justified. The potential for information redundancy or noise from these additional sources is not discussed. The sensitivity of the model to the inclusion of each data source is not analyzed.
+  - **Why it matters** Understanding the contribution of each data source is important for interpreting the model's behavior and for potential applications to other organisms or datasets.
+  - **Resolution test** Perform an ablation study removing each data source individually and report the impact on performance. Discuss the biological rationale for each inclusion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2.1, Equation 1
+  - **Evidence pointer** Section 2.2.1
+  - **Issue** The chemical similarity matrix Csim is described as a node feature, but the dimensions and how it is combined with other features are unclear.
+  - **Required correction** Clarify the dimensionality of Csim and how it is concatenated or aggregated with other node features.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2.4, Equation 6
+  - **Evidence pointer** Section 2.2.4
+  - **Issue** The softmax output is described as scores for activation and repression, but the multi-label nature of the problem suggests that both labels could be present. The use of softmax implies a single-label setting.
+  - **Required correction** Clarify whether the problem is multi-label or multi-class. If multi-label, use a sigmoid activation per class instead of softmax.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2, Figure 4 (referenced, not provided)
+  - **Issue** The description of the five graph construction strategies is clear, but the results are only summarized in text without quantitative values.
+  - **Required correction** Include the numerical results for each strategy in the text or in a table to support the claims.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Section 3.4, Table 7 (referenced, not provided)
+  - **Issue** The performance on other datasets is reported, but the characteristics of these datasets (e.g., size, source, interaction types) are not described.
+  - **Required correction** Provide a brief description of each dataset and the rationale for selecting them for validation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.5
+  - **Evidence pointer** Section 3.5, Figure 5 (referenced, not provided)
+  - **Issue** The comparison with methods from Chen et al. is described as "directly compared," but it is unclear whether the same evaluation protocol was used.
+  - **Required correction** Specify whether the results from Chen et al. were reproduced or taken from their publication, and describe any differences in evaluation setup.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor), R1-M2 (baseline comparison details), R1-M3 (reproducibility details).
+- **Assessment against Nature-style criteria** Originality: The integration of multiple biological data sources into a knowledge graph for joint prediction of interaction existence and type is a novel contribution, though the individual components are not entirely new. Scientific importance: The problem is significant for understanding gene regulation, and the approach has potential practical value. Interdisciplinary readership: The work bridges graph-based machine learning and molecular biology, which may appeal to a broad audience, but the presentation is somewhat technical. Technical soundness: The methodology is plausible, but the lack of statistical validation and incomplete comparison details weaken the current evidence. Readability for nonspecialists: The manuscript is generally clear but assumes familiarity with graph neural networks and gene regulation concepts; some sections could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, but the current evidence does not fully establish the claimed performance advantages or the robustness of the approach.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art performance" is not supported without comprehensive comparisons and statistical testing.
+- The 9% AUC improvement over GraphTGI is not substantiated with variance or significance data.
+- The case study conclusions are based on a single TF and a small set of predictions, limiting generalizability.
+- The assumption that external information (disease, GO terms) improves prediction is supported only by a single ablation strategy comparison, without sensitivity analysis.
+- The negative sampling strategy is described but not fully specified, making the evaluation potentially non-reproducible.

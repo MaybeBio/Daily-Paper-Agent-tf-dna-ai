@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report an in-silico and in-vitro investigation of 16 natural compounds from three plant species as potential NF-kappaB inhibitors for oral cancer therapy. They claim Hydrastine showed the highest binding energy against NF-kappaB1, surpassing FDA-approved drugs 5-fluorouracil and docetaxel, and that molecular dynamics simulations and in-vitro experiments confirmed its anti-cancer activity, including cytotoxicity, apoptosis induction, and cell cycle arrest.
+- **Visible evidence base** Abstract text only; no numerical data beyond binding energies, no experimental protocols, no statistical analyses, no figures or tables
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, molecular dynamics simulation parameters and trajectories, in-vitro experimental details (cell lines, concentrations, assays, replicates), statistical analysis, compound purity and sourcing information, docking methodology and validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational and experimental screening approach for natural products against NF-kappaB in oral cancer. However, the evidence provided in the abstract is insufficient to evaluate the technical soundness of the docking, molecular dynamics, or in-vitro experiments. The claim that Hydrastine surpasses FDA-approved drugs is based solely on binding energy values, which is an oversimplified metric. The abstract lacks critical methodological details and quantitative results from the in-vitro experiments. The case for Hydrastine as a lead compound is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in natural product drug discovery, computational chemistry, and oral cancer biology may find the screening approach and the identification of Hydrastine as a candidate of interest. The combination of in-silico and in-vitro methods could appeal to those seeking integrated workflows for hit identification. However, the interest would be conditional on the full manuscript providing robust validation.
+- **Major strengths** The study addresses a clinically relevant target (NF-kappaB) in a high-burden cancer type. The inclusion of multiple natural compounds from three plant species provides a reasonable chemical diversity for screening. The combination of computational and experimental validation is a commendable approach. The comparison with FDA-approved drugs provides a clinically relevant benchmark.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of docking methodology
+  - **Claim pointer** "Hydrastine shown the highest binding energy (-6.87 kcal/mol) against NF-kappaB1, surpassing all other drugs, including the standards 5-fluorouracil (-4.04 kcal/mol) and docetaxel (-2.4 kcal/mol)"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract reports only raw binding energy values without any indication of the docking software, scoring function, protein preparation, ligand preparation, or validation of the docking protocol. Binding energy values from different docking programs are not directly comparable, and the absolute values reported are relatively weak (typically, values below -7.0 or -8.0 kcal/mol are considered more promising for lead candidates). The claim that Hydrastine "surpasses" the FDA-approved drugs based on this single metric is not justified without additional context such as docking pose analysis, ligand efficiency, or experimental potency data.
+  - **Why it matters** The central claim of the study rests on the reliability and interpretability of the docking results. Without methodological details and validation, the binding energy comparison cannot be assessed for accuracy or biological relevance. The weak absolute binding energies raise questions about whether any of the compounds are genuinely promising NF-kappaB inhibitors.
+  - **Resolution test** Provide full docking methodology, including software version, scoring function, protein structure (PDB ID), preparation steps, and validation (e.g., redocking of co-crystallized ligand with RMSD). Report additional metrics such as estimated IC50 values, ligand efficiency, and consensus scoring from multiple functions. If possible, include experimental binding affinity data (e.g., SPR, ITC) to support the docking predictions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Sufficiency of in-vitro evidence
+  - **Claim pointer** "The results of in-vitro were well-aligned with the findings of in-silico, revealing considerable cytotoxicity, apoptosis induction, and cell cycle arrest"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative data from the in-vitro experiments. There are no IC50 values, no percentages of apoptosis or cell cycle arrest, no comparison with positive controls, and no information on the cell lines used. The statement "well-aligned" is a qualitative assertion without supporting numerical evidence. The abstract does not specify which concentrations of Hydrastine were tested, how cytotoxicity was measured (e.g., MTT, CCK-8), or how apoptosis and cell cycle were assessed (e.g., flow cytometry with specific stains).
+  - **Why it matters** The in-vitro data are essential to substantiate the claim that Hydrastine has anti-cancer activity. Without quantitative results and appropriate controls, the alignment between computational predictions and experimental outcomes cannot be verified. The lack of detail prevents assessment of whether the observed effects are specific to NF-kappaB inhibition or due to general cytotoxicity.
+  - **Resolution test** Provide full in-vitro data in the manuscript, including dose-response curves, IC50 values for Hydrastine and controls across multiple cell lines (including non-cancerous controls), apoptosis quantification (e.g., Annexin V/PI staining percentages), cell cycle distribution data, and statistical significance. Include a direct assessment of NF-kappaB activity (e.g., reporter assay, Western blot for phosphorylated p65) to link the observed effects to the proposed mechanism.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Molecular dynamics simulation evidence
+  - **Claim pointer** "Further molecular dynamics simulations and in-vitro experiments verified Hydrastine's exceptional anti-cancer activity"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract mentions molecular dynamics simulations but provides no details on simulation length, force field, system setup, or the specific analyses performed (e.g., RMSD, RMSF, binding free energy calculations). The term "verified" is too strong given that MD simulations can only provide computational support, not experimental verification. The connection between MD results and the claimed "exceptional anti-cancer activity" is not explained.
+  - **Why it matters** MD simulations are often used to assess the stability of protein-ligand complexes, but they do not directly measure biological activity. The abstract's language conflates computational stability with therapeutic efficacy. Without details on the MD methodology and results, the contribution of these simulations to the overall claim cannot be evaluated.
+  - **Resolution test** Provide MD simulation parameters (software, force field, simulation time, temperature, pressure coupling), convergence metrics, and binding free energy calculations (e.g., MM-PBSA/GBSA). Clarify in the text that MD simulations support the stability of the docked pose but do not constitute experimental verification. Present MD results in figures with clear legends.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of compound selection rationale
+  - **Affected element** Introduction of compounds
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract lists 16 natural compounds from three plants but does not explain why these specific compounds were selected. The rationale for choosing these plants and compounds is not stated.
+  - **Required correction** Add a brief statement in the abstract or introduction explaining the selection criteria, such as traditional medicinal use, reported anti-cancer activity, or structural diversity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting of negative results
+  - **Affected element** Compound screening outcomes
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract focuses exclusively on Hydrastine as the best candidate but does not mention the performance of the other 15 compounds. It is unclear whether they showed no activity or were simply not discussed.
+  - **Required correction** Briefly state the range of binding energies for all compounds and indicate whether any other compounds showed promising results. This provides context for the selection of Hydrastine.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Language precision
+  - **Affected element** "exceptional anti-cancer activity"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "exceptional" is subjective and not supported by quantitative data in the abstract. The binding energy of -6.87 kcal/mol is moderate, and the in-vitro results are not quantified.
+  - **Required correction** Replace "exceptional" with a more measured descriptor such as "promising" or "notable," and support the claim with specific numerical results from the in-vitro assays.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Mechanistic link
+  - **Affected element** NF-kappaB inhibition and observed effects
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract claims NF-kappaB inhibition as the mechanism but does not provide evidence that the observed cytotoxicity, apoptosis, and cell cycle arrest are specifically due to NF-kappaB modulation rather than off-target effects.
+  - **Required correction** Include a statement in the abstract or results indicating whether NF-kappaB activity was directly measured (e.g., reporter assay, target gene expression) in the in-vitro experiments.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (docking methodology and validation), R1-M2 (quantitative in-vitro data and controls), R1-M3 (MD simulation details and appropriate interpretation)
+- **Assessment against Nature-style criteria** Originality: The combination of specific plant sources and NF-kappaB targeting in oral cancer is moderately original, but the approach of docking natural products against a cancer target is common. Scientific importance: Oral cancer is a significant health burden, and new therapeutic options are needed, but the abstract does not demonstrate that Hydrastine offers a meaningful advantage over existing treatments beyond a single docking score. Interdisciplinary readership: The work spans computational chemistry, natural product research, and cancer biology, which could attract a broad audience, but the abstract lacks sufficient detail for any single discipline to fully evaluate the work. Technical soundness: Not assessable from the abstract due to missing methodological details for both computational and experimental components. Readability for nonspecialists: The abstract is generally readable, but terms like "NF-kappaB1" and "binding energy" are used without brief explanation, and the significance of the findings is overstated relative to the evidence presented.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible workflow but lacks the quantitative and methodological detail needed to support the central claims. A revised manuscript with full experimental data, validated docking protocols, and measured NF-kappaB activity could change this assessment. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that Hydrastine "surpasses" FDA-approved drugs is unsupported because it is based solely on docking binding energies without experimental comparison of potency or efficacy.
+- The claim that MD simulations "verified" anti-cancer activity is unsupported; MD simulations cannot verify biological activity.
+- The claim that in-vitro results were "well-aligned" with in-silico findings is unverifiable without quantitative data.
+- The statement that natural compounds are "safer, more effective alternatives" is an overgeneralization not supported by the data presented.
+- The therapeutic potential of the other 15 compounds is not addressed, leaving the screening outcome incomplete.

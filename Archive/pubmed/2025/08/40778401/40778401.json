@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "40778401",
+    "doi": "10.1155/jdr/7578626",
+    "title": "Mechanistic Insights Into Qidan Yixin Decoction for Diabetic Cardiomyopathy via Macrophage Polarization."
+  },
+  "content": {
+    "abstract": "Background: Diabetic cardiomyopathy (DCM) has a multifactorial etiology, and no specific treatment is available for its management. Qidan Yixin decoction (QDYXD) demonstrated encouraging clinical results in treating DCM; however, its underlying mechanics are yet unclear. Methods: Network pharmacology was applied to determine the active ingredients and targets of QDYXD. The GeneCards and GEO databases were used to retrieve genes associated with DCM and macrophage polarization. These targets were subjected to GO and KEGG enrichment analyses, immune infiltration study, and PPI network design. The core targets were further refined using SVM-RFE, LASSO, and random forest algorithms. Docking the core targets with the main active components followed. For experimental validation, rat models were created. Results: There were 48 potential targets in all. Quercetin, methyl palmitate, luteolin, and tanshinone IIA were identified as the primary active components. Enrichment analysis indicated that one of the key pathways associated with the potential targets was the signaling pathway of HIF-1. Machine learning techniques were used to identify two core targets, LDHA and PGK1. Animal experiments demonstrated that QDYXD can suppress the upregulation of PGK1, LDHA, and HIF1A; block the polarization of M1 macrophages; and considerably enhance DCM rats' cardiac function. Conclusion: QDYXD improves cardiac function in DCM by attenuating M1 macrophage polarization and inhibiting the HIF-1 signaling pathway, specifically through the modulation of PGK1, LDHA, and HIF1A. This study provides preliminary insights into how QDYXD modulates macrophage polarization during DCM treatment. Moreover, the identification of potential active components and core molecular targets of QDYXD offers promising directions for future drug development in DCM therapy.",
+    "keywords": [
+      "diabetic cardiomyopathy",
+      "experimental validation",
+      "machine learning",
+      "macrophage polarization",
+      "network pharmacology"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Diabetic Cardiomyopathies/drug therapy/metabolism/genetics",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use",
+      "*Macrophages/drug effects/metabolism",
+      "Rats",
+      "Male",
+      "Network Pharmacology",
+      "Rats, Sprague-Dawley",
+      "Signal Transduction/drug effects",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "*Macrophage Activation/drug effects",
+      "Diabetes Mellitus, Experimental"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yi",
+        "Zhang, Juan",
+        "Gao, Wei",
+        "Han, Quancheng",
+        "Xue, Yitao",
+        "Liu, Xiujuan"
+      ],
+      "short_names": [
+        "Liu Y",
+        "Zhang J",
+        "Gao W",
+        "Han Q",
+        "Xue Y",
+        "Liu X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0223-5714",
+        "ORCID: 0000-0002-6992-5322",
+        "ORCID: 0000-0002-0530-2767",
+        "ORCID: 0009-0005-9524-3842",
+        "ORCID: 0000-0001-6575-2674",
+        "ORCID: 0000-0001-9718-2864"
+      ],
+      "affiliations": [
+        "The First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China.",
+        "Department of Cardiology, Shandong University of Traditional Chinese Medicine Affiliated Hospital, Jinan, China.",
+        "Department of Cardiology, Shandong University of Traditional Chinese Medicine Affiliated Hospital, Jinan, China.",
+        "The First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China.",
+        "Department of Cardiology, Shandong University of Traditional Chinese Medicine Affiliated Hospital, Jinan, China.",
+        "Department of Cardiology, Shandong University of Traditional Chinese Medicine Affiliated Hospital, Jinan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yi",
+        "short_name": "Liu Y",
+        "identifiers": [
+          "0000-0002-0223-5714"
+        ],
+        "affiliations": [
+          "The First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Juan",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0002-6992-5322"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Shandong University of Traditional Chinese Medicine Affiliated Hospital, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Wei",
+        "short_name": "Gao W",
+        "identifiers": [
+          "0000-0002-0530-2767"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Shandong University of Traditional Chinese Medicine Affiliated Hospital, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Han, Quancheng",
+        "short_name": "Han Q",
+        "identifiers": [
+          "0009-0005-9524-3842"
+        ],
+        "affiliations": [
+          "The First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Yitao",
+        "short_name": "Xue Y",
+        "identifiers": [
+          "0000-0001-6575-2674"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Shandong University of Traditional Chinese Medicine Affiliated Hospital, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiujuan",
+        "short_name": "Liu X",
+        "identifiers": [
+          "0000-0001-9718-2864"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Shandong University of Traditional Chinese Medicine Affiliated Hospital, Jinan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of diabetes research"
+    ],
+    "journal_abbrev": [
+      "J Diabetes Res"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/08 06:29",
+    "fetched_at": "2026-09-30 23:20:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39531318",
+      "39365391",
+      "39186834",
+      "39080660",
+      "39021834",
+      "38870521",
+      "38774880",
+      "38716618",
+      "38302936",
+      "37904598",
+      "37815494",
+      "37484306",
+      "37431236",
+      "37128721",
+      "36935107",
+      "36852907",
+      "36653905",
+      "36546685",
+      "36370105",
+      "36305812",
+      "35670059",
+      "35464057",
+      "33900303",
+      "33659302",
+      "33417962",
+      "33285229",
+      "33264402",
+      "32080423",
+      "31477170",
+      "30453885",
+      "30037278",
+      "29387942",
+      "27322403",
+      "25267579",
+      "25015141",
+      "24735618",
+      "17088869"
+    ],
+    "similar": [
+      "40778401",
+      "39914590",
+      "39051076",
+      "41346967",
+      "38812203",
+      "40499803",
+      "38802644",
+      "38959606",
+      "40172736",
+      "39577223",
+      "40373162",
+      "39136516",
+      "39929664",
+      "33134388",
+      "34926700",
+      "40750966",
+      "40921208",
+      "39993869",
+      "39075002",
+      "39066538",
+      "40086050",
+      "40225864",
+      "39805787",
+      "39004032",
+      "40461202",
+      "39565454",
+      "39454704",
+      "40350911",
+      "36624435",
+      "40466507",
+      "38055068",
+      "38757315",
+      "40850600",
+      "39310787",
+      "39879705",
+      "34047086",
+      "39798342",
+      "37799727",
+      "41488049",
+      "40916281",
+      "38050247",
+      "36280016",
+      "39877349",
+      "41473244",
+      "31382970",
+      "37288289",
+      "38801274",
+      "38613801",
+      "39311772",
+      "40032209",
+      "39465880",
+      "39095732",
+      "35851128",
+      "35442463",
+      "39041101",
+      "39923957",
+      "38243958",
+      "35528155",
+      "38619514",
+      "33771638",
+      "38759318",
+      "39343107",
+      "36726736",
+      "39279134",
+      "38697555",
+      "39280256",
+      "35960089",
+      "39810933",
+      "33417962",
+      "34649337",
+      "38206683",
+      "38190954",
+      "40959060",
+      "40676786",
+      "40570565",
+      "39701711",
+      "37833363",
+      "40850661",
+      "35097126",
+      "38674327",
+      "38579905",
+      "41189264",
+      "41083062",
+      "39552028",
+      "40013962",
+      "40599271",
+      "40133026",
+      "38013385",
+      "38845538",
+      "37138492",
+      "40392536",
+      "35716918",
+      "40835195",
+      "40816715",
+      "36637916",
+      "36803762",
+      "37852337",
+      "38551603",
+      "41038331",
+      "37369336"
+    ],
+    "review": [
+      "40778401"
+    ],
+    "pmc": [
+      "12331402"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabeticheartdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Heart Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40778401/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/jdr/7578626",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-562",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

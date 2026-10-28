@@ -1,0 +1,261 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2021-4qcqm",
+  "title": "A Machine Learning Approach to Calculate Electronic Couplings between Quasi-Diabatic Molecular Orbitals: The Case of DNA",
+  "doi": "10.26434/chemrxiv-2021-4qcqm",
+  "abstract": "Diabatization of one-electron states in flexible molecular aggregates is a great challenge due to the presence of surface crossings between molecular orbital (MO) levels and the complex interaction between MOs of neighboring molecules. In this work, we present an efficient machine learning approach to calculate electronic couplings between quasi-diabatic MOs without the need of nonadiabatic coupling calculations. Using MOs of rigid molecules as references, the MOs that can be directly regarded to be quasi-diabatic in molecular dynamics are selected out, state tracked, and phase corrected. On the basis of this information, artificial neural networks are trained to characterize the structure-dependent onsite energies of quasi-diabatic MOs and the inter-molecular electronic couplings. A representative sequence of DNA is systematically studied as an illustration. Smooth time evolution of electronic couplings in all base pairs is obtained with quasi-diabatic MOs. Especially, our method can calculate electronic couplings between different quasi-diabatic MOs independently, and thus possesses unique advantages in many applications.",
+  "authors": [
+    "Xin Bai",
+    "Xin Guo",
+    "Linjun Wang"
+  ],
+  "published_date": "2021-09-13",
+  "updated_date": "2022-02-01T08:13:39Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2021-4qcqm",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2021-4qcqm",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T18:39:07Z",
+        "timestamp": 1785436747711,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            13
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                9,
+                13
+              ]
+            ],
+            "date-time": "2021-09-13T00:00:00Z",
+            "timestamp": 1631491200000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "21873080, 21922305"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "21873080, 21922305"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Diabatization of one-electron states in flexible molecular aggregates is a great challenge due to the presence of surface crossings between molecular orbital (MO) levels and the complex interaction between MOs of neighboring molecules. In this work, we present an efficient machine learning approach to calculate electronic couplings between quasi-diabatic MOs without the need of nonadiabatic coupling calculations. Using MOs of rigid molecules as references, the MOs that can be directly regarded to be quasi-diabatic in molecular dynamics are selected out, state tracked, and phase corrected. On the basis of this information, artificial neural networks are trained to characterize the structure-dependent onsite energies of quasi-diabatic MOs and the inter-molecular electronic couplings. A representative sequence of DNA is systematically studied as an illustration. Smooth time evolution of electronic couplings in all base pairs is obtained with quasi-diabatic MOs. Especially, our method can calculate electronic couplings between different quasi-diabatic MOs independently, and thus possesses unique advantages in many applications.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2021-4qcqm",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2022-02-01T08:13:39Z",
+        "timestamp": 1643703219000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A Machine Learning Approach to Calculate Electronic Couplings between Quasi-Diabatic Molecular Orbitals: The Case of DNA"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-0342-8769",
+          "authenticated-orcid": false,
+          "given": "Xin",
+          "family": "Bai",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/00a2xv884",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Zhejiang University",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xin",
+          "family": "Guo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/00a2xv884",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Zhejiang University",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Linjun",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/00a2xv884",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Zhejiang University",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2021-4qcqm",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:15:45Z",
+        "timestamp": 1778750145000
+      },
+      "score": 76.91852,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2021-4qcqm"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            13
+          ]
+        ]
+      },
+      "references-count": 0,
+      "aliases": [
+        "10.33774/chemrxiv-2021-4qcqm"
+      ],
+      "URL": "https://doi.org/10.26434/chemrxiv-2021-4qcqm",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jpclett.1c03053",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            13
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

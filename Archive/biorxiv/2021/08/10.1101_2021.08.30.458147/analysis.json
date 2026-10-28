@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.08.30.458147",
+  "title": "LectinOracle – A Generalizable Deep Learning Model for Lectin-Glycan Binding Prediction",
+  "authors": "Jon Lundstrøm; Emma Korhonen; Frédérique Lisacek; Daniel Bojar",
+  "journal": "bioRxiv",
+  "published_date": "2021-08-31",
+  "window": {
+    "start": "2021-08-30",
+    "end": "2021-09-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用Transformer蛋白表征与图卷积网络预测凝集素-聚糖结合，虽非蛋白质-DNA互作体系，但其蛋白-配体结合预测的深度学习方法可迁移至TF-DNA结合位点预测，具有方法借鉴价值。",
+  "abstract": "Ranging from bacterial cell adhesion over viral cell entry to human innate immunity, glycan-binding proteins or lectins abound in nature. Widely used as staining and characterization reagents in cell biology, and crucial for understanding the interactions in biological systems, lectins are a focal point of study in glycobiology. Yet the sheer breadth and depth of specificity for diverse oligosaccharide motifs has made studying lectins a largely piecemeal approach, with few options to generalize. Here, we present LectinOracle, a model combining transformer-based representations for proteins and graph convolutional neural networks for glycans to predict their interaction. Using a curated dataset of 564,647 unique protein-glycan interactions, we show that LectinOracle predictions agree with literature-annotated specificities for a wide range of lectins. We further identify clusters of lectins with related binding specificity that are not clustered based on sequence similarity. Using a range of specialized glycan arrays, we show that LectinOracle predictions generalize to new glycans and lectins, with qualitative and quantitative agreement with experimental data. We further demonstrate that LectinOracle can analyze whole lectomes and their role in host-microbe interactions. We envision that the herein presented platform will advance both the study of lectins and their role in (glyco)biology.",
+  "abstract_zh": "从细菌细胞粘附、病毒进入细胞到人类先天免疫，聚糖结合蛋白或凝集素在自然界中广泛存在。凝集素在细胞生物学中广泛用作染色和表征试剂，对于理解生物系统中的相互作用至关重要，是糖生物学研究的焦点。然而，对多种寡糖基序的特异性广度和深度使得凝集素研究大多采取零散的方法，缺乏泛化的选择。在此，我们提出LectinOracle，一个结合基于Transformer的蛋白质表示和基于图卷积神经网络的聚糖表示来预测其相互作用的模型。利用一个包含564,647个独特蛋白质-聚糖相互作用的精选数据集，我们展示了LectinOracle的预测与广泛凝集素的文献注释特异性一致。我们进一步识别出具有相关结合特异性但并非基于序列相似性聚类的凝集素簇。通过一系列专门的聚糖阵列，我们展示了LectinOracle的预测能够泛化到新的聚糖和凝集素，并与实验数据在定性和定量上保持一致。我们还证明LectinOracle能够分析整个凝集素组及其在宿主-微生物相互作用中的作用。我们设想，本文提出的平台将推动凝集素及其在（糖）生物学中作用的研究。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.08.30.458147",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.08.30.458147",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.08.30.458147/index.html"
+}

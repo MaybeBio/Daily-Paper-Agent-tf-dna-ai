@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific validity, technical soundness, reproducibility, and claims as supported by the provided evidence
+- **Shared manuscript claim summary** ChromaFold, a deep learning model, predicts 3D contact maps and regulatory interactions from single-cell ATAC-seq data alone, achieving state-of-the-art performance across cell types and species, and enabling deconvolution of chromatin interactions in complex tissues.
+- **Visible evidence base** Main text descriptions, figure legends (Figs. 1–5), supplementary figure references, and methods sections
+- **Missing materials affecting confidence** Actual figure images, supplementary figures, supplementary tables, source data files, and code availability details were not provided; these are essential for verifying quantitative results and reproducibility
+
+## Reviewer
+- **Overall assessment** The manuscript presents a compelling and timely approach to predicting 3D chromatin interactions from single-cell accessibility data, addressing a significant practical limitation in the field. The model architecture is lightweight and the input requirements are minimal, which are notable strengths. However, the evidence provided in the text is insufficient to fully evaluate the robustness of the claims, particularly regarding the statistical significance of performance improvements, the generalizability across diverse cell types, and the practical utility of the deconvolution approach. The manuscript would benefit from clearer reporting of baseline comparisons, error bars, and the biological relevance of predicted interactions.
+- **Who would be interested in the results, and why** Researchers in 3D genomics, gene regulation, and single-cell biology would find this work valuable, as it offers a cost-effective computational alternative to experimental Hi-C in rare cell populations. Additionally, those studying disease-associated non-coding variants and cell-type-specific enhancer-promoter interactions would benefit from the ability to generate contact maps from widely available scATAC-seq data.
+- **Major strengths** 1. The model requires only scATAC-seq data, which is more accessible than the multi-modal inputs of competing methods. 2. The lightweight architecture enables training on standard GPUs, lowering the barrier for adoption. 3. The demonstration of cross-species generalization is a strong point, suggesting evolutionary conservation of the underlying regulatory principles. 4. The deconvolution application in pancreatic islets addresses a real biological need and is validated against independent sorted-cell Hi-C data.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "ChromaFold achieves state-of-the-art performance using only scATAC-seq" and outperforms C.Origami on held-out cell types.
+  - **Evidence pointer** Results section "ChromaFold competes with state-of-the-art models that use multiple bulk epigenomic tracks"; Figure 3
+  - **Concern** The comparison with C.Origami is described as being performed on the same training/test chromosomes, but the text does not specify whether the same hyperparameter tuning, data preprocessing, or evaluation metrics were used for both models. The claim of "state-of-the-art" performance requires a more rigorous and transparent benchmarking protocol, including multiple random seeds and statistical tests for significance.
+  - **Why it matters** Without a controlled and statistically robust comparison, the central claim of superiority over existing methods is not convincingly established. This is critical for the paper's impact and for guiding users in method selection.
+  - **Resolution test** Provide a detailed benchmarking table with mean and standard deviation of all metrics across at least three independent training runs for each model, along with p-values from appropriate statistical tests (e.g., paired t-test or Wilcoxon signed-rank test) for each comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "ChromaFold can be employed to deconvolve bulk chromatin interaction data across constituent cell types" and the results in Figure 5.
+  - **Evidence pointer** Results section "ChromaFold can deconvolve chromatin interactions in complex tissue"; Figure 5
+  - **Concern** The deconvolution approach is described as fine-tuning the pretrained model on bulk Hi-C and scATAC-seq from the same tissue, then applying it to individual cell clusters. However, the text does not specify how the fine-tuning was performed (e.g., learning rate, number of epochs, which layers were updated), nor how the model was prevented from overfitting to the bulk data. The validation against sorted-cell Hi-C is mentioned, but the quantitative results are not reported in the text.
+  - **Why it matters** The deconvolution application is a key novelty of the paper. If the fine-tuning procedure is not clearly described and validated, other researchers will not be able to reproduce or build upon this work.
+  - **Resolution test** Provide a detailed description of the fine-tuning protocol, including all hyperparameters and the exact training/validation split. Report the quantitative metrics (e.g., Pearson correlation, AUROC, AUPRC) for the deconvolution results in the main text or a supplementary table.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "ChromaFold accurately predicts the 3D contact map and peak-level interactions across diverse human and mouse test cell types."
+  - **Evidence pointer** Results sections "ChromaFold is a deep-learning model that predicts 3D contact maps from scATAC-seq data alone" and "ChromaFold can generalize across species and make cell type-specific predictions"; Figures 2 and 4
+  - **Concern** The manuscript reports average performance metrics (e.g., Pearson correlation of 0.55–0.60) but does not provide a breakdown of performance by genomic distance or by chromosome. It is unclear whether the model performs uniformly well across all distance scales or whether its performance is driven by short-range interactions, which are easier to predict. Additionally, the biological significance of the predicted peak-level interactions is not assessed beyond visual inspection of a few loci.
+  - **Why it matters** Understanding the distance-dependent performance is crucial for users who may be interested in specific interaction ranges (e.g., enhancer-promoter interactions at 100 kb–1 Mb). Without this information, the practical utility of the model for different biological questions is unclear.
+  - **Resolution test** Include a figure showing performance metrics (Pearson correlation, AUROC, AUPRC) as a function of genomic distance for both training and held-out cell types. Additionally, provide a quantitative enrichment analysis of predicted interactions for known functional elements (e.g., enhancers, promoters, CTCF sites) to demonstrate biological relevance.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction assumes familiarity with specific techniques (e.g., HiChIP, ChIA-PET) and concepts (e.g., "co-accessibility") without brief explanations. This may limit accessibility for readers outside the immediate 3D genomics field.
+  - **Required correction** Add a brief explanation of what these techniques measure and why co-accessibility is a relevant signal for predicting 3D interactions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "ChromaFold model training"
+  - **Evidence pointer** Methods, "ChromaFold model training"
+  - **Issue** The text states that "genomic regions with low mappability were masked from training based on the total signal for each bin in the contact map," but the specific threshold or method for determining "low mappability" is not defined.
+  - **Required correction** Provide the exact criteria used for masking, or cite a standard method for mappability assessment.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Preprocessing of scATAC-seq data"
+  - **Evidence pointer** Methods, "Preprocessing of scATAC-seq data"
+  - **Issue** The description of cell clustering and annotation for the pancreatic islet data is not provided, despite this being critical for the deconvolution analysis.
+  - **Required correction** Add a description of how cell clusters were identified and annotated, or refer to the original data source for these details.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmarking rigor) and R1-M2 (deconvolution reproducibility) are the primary technical issues that must be resolved. The lack of detailed quantitative results for the deconvolution and the absence of statistical significance testing for model comparisons are the most significant gaps.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The use of co-accessibility from single-cell data as a predictive feature for 3D contact maps is a novel contribution, and the deconvolution application is innovative.
+  - **Scientific importance** High. The ability to predict cell-type-specific 3D interactions from scATAC-seq alone has broad implications for understanding gene regulation and interpreting disease variants.
+  - **Interdisciplinary readership** Moderate. The work will primarily appeal to computational biologists and genomics researchers. The clinical relevance is implied but not strongly developed.
+  - **Technical soundness** Moderate. The model architecture and training approach are reasonable, but the benchmarking and validation procedures are not described with sufficient rigor to fully assess the claims.
+  - **Readability for nonspecialists** Moderate. The paper is generally well-written, but the introduction and some methods sections assume significant prior knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the potential impact is significant, but the current evidence does not fully support the "state-of-the-art" claim or the practical utility of the deconvolution approach. A revised manuscript with more rigorous benchmarking, detailed methods, and quantitative validation would be suitable for publication.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art performance" is not fully supported due to insufficient benchmarking details and lack of statistical significance testing.
+- The claim that ChromaFold "can generalize across species" is based on a limited number of mouse cell types (three) and may not be representative of broader cross-species generalizability.
+- The deconvolution results are described qualitatively; the quantitative performance metrics are not reported in the provided text, making the claim of successful deconvolution unverifiable.
+- The statement that "co-accessibility from scATAC-seq provides additional information that can be leveraged for contact map prediction" is supported by ablation analysis, but the magnitude of the improvement and its consistency across cell types are not fully quantified.

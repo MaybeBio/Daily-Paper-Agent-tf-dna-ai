@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with reference to the cited prior work and external structures mentioned
+- **Shared manuscript claim summary** The authors report a 2.75 A cryo-EM structure of the human aryl hydrocarbon receptor (AHR) complex bound to benzo[a]pyrene (B[a]P), including Hsp90 and XAP2. They propose a bipartite PAS-B ligand-binding pocket with a primary site controlling specificity and affinity and a secondary site contributing to promiscuity. They validate the structure via docking of B[a]P congeners and suggest a ligand-induced loop conformational change based on comparison with mouse and fruit fly AHR structures in different activation states.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary material provided
+- **Missing materials affecting confidence** Full manuscript, all structural figures, cryo-EM data quality metrics, docking methodology and validation statistics, sequence alignments, and experimental details for conformational comparisons
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in AHR structural biology, addressing a long-standing gap in understanding ligand recognition and activation. The reported 2.75 A resolution is commendable and the bipartite pocket model is mechanistically plausible. However, the abstract alone provides insufficient evidence to evaluate the robustness of the structural interpretation, the docking validation, or the conformational change hypothesis. The claims are promising but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists studying PAS domain proteins and ligand-dependent transcription factors; environmental toxicologists investigating polycyclic aromatic hydrocarbon signaling; medicinal chemists interested in AHR modulation for therapeutic applications; and researchers in xenobiotic metabolism and immune regulation.
+- **Major strengths** The work fills a thirty-year gap in high-resolution AHR structural data. The 2.75 A resolution is a notable technical achievement for a challenging membrane-associated complex. The bipartite pocket model offers a coherent explanation for both specificity and promiscuity. The docking validation directly tests the utility of the structure for computational applications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims a 2.75 A resolution structure of the AHR complex bound to B[a]P, substantiating a bipartite PAS-B ligand-binding pocket.
+  - **Evidence pointer** Abstract text; no figures or methods provided
+  - **Concern** The abstract does not provide any cryo-EM data quality metrics, such as Fourier shell correlation curves, local resolution estimates, or model validation statistics (e.g., MolProbity scores, Ramachandran outliers). Without these, the reliability of the structural model, particularly at the ligand-binding interface, cannot be assessed.
+  - **Why it matters** The central claim of a bipartite pocket with distinct functional roles depends on accurate assignment of ligand density and side chain conformations. Poor local resolution or model bias could lead to misinterpretation of the binding mode.
+  - **Resolution test** Provide cryo-EM validation metrics, including global and local resolution maps, ligand occupancy and B-factors, and model-to-map fit for the PAS-B domain and ligand.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that a docking study of B[a]P congeners validates the B[a]P-bound PAS-B structure as a suitable model for accurate computational ligand binding assessment.
+  - **Evidence pointer** Abstract text; no docking methodology or results provided
+  - **Concern** The abstract does not describe the docking protocol, the set of congeners tested, the scoring functions used, or the metrics for validation (e.g., correlation between predicted and experimental binding affinities, pose accuracy). Without these details, the claim of validation is unsubstantiated.
+  - **Why it matters** Docking studies can be highly sensitive to protein preparation, search algorithms, and scoring functions. A claim of suitability for accurate computational assessment requires quantitative benchmarking against experimental data.
+  - **Resolution test** Provide docking methods, congener list, predicted versus experimental affinity correlations, and comparison with alternative structures or docking approaches.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract suggests a ligand-induced loop conformational change potentially involved in the regulation of AHR function, based on comparison with mouse and fruit fly AHR PAS-B structures in different activation states.
+  - **Evidence pointer** Abstract text; no structural alignments or functional data provided
+  - **Concern** The abstract does not specify which loop is involved, the nature of the conformational change, or how the comparison across species and activation states supports the conclusion. The functional relevance is stated as "potentially" involved, which is speculative.
+  - **Why it matters** The conformational change hypothesis is a key mechanistic proposal that could link ligand binding to downstream activation. Without clear structural evidence and functional correlation, this claim remains unsupported.
+  - **Resolution test** Provide structural alignments highlighting the loop, quantify conformational differences, and include mutagenesis or functional assays linking the loop to AHR activity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract introduction
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses terms such as "bHLH/PAS protein family" and "co-chaperone XAP2" without brief explanation, which may limit accessibility for readers outside structural biology or toxicology.
+  - **Required correction** Add a brief parenthetical explanation for these terms or provide context in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not state whether the B[a]P-bound structure represents an active or inactive state of AHR, which is important for interpreting the conformational change hypothesis.
+  - **Required correction** Clarify the activation state of the complex and how it relates to the compared structures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Docking validation claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not specify the number of congeners or the range of chemical diversity tested, which affects the generalizability of the validation.
+  - **Required correction** Include the number and diversity of congeners in the abstract or refer to a table in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (cryo-EM validation), R1-M2 (docking validation), R1-M3 (conformational change evidence)
+- **Assessment against Nature-style criteria** Originality is high, as this is the first B[a]P-bound human AHR structure and the bipartite pocket model is novel. Scientific importance is substantial given AHR's role in toxicology and immunity. Interdisciplinary readership is plausible, spanning structural biology, toxicology, and pharmacology. Technical soundness cannot be fully assessed from the abstract alone, but the resolution claim is promising. Readability for nonspecialists is moderate, with some jargon that could be clarified.
+- **Recommendation posture** Supportive if technical concerns are resolved, specifically the provision of cryo-EM validation metrics, docking methodology and results, and stronger evidence for the conformational change hypothesis. Currently not established from the provided evidence.
+
+## Risk / unsupported claims
+- The bipartite pocket model with distinct functional roles for primary and secondary sites is not directly supported by the abstract alone.
+- The claim that the structure is suitable for accurate computational ligand binding assessment is unsubstantiated without docking details.
+- The ligand-induced loop conformational change is speculative and lacks direct evidence in the abstract.
+- The functional relevance of the conformational change to AHR regulation is not established.

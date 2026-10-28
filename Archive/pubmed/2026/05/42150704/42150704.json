@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "42150704",
+    "doi": "10.1016/j.slast.2026.100433",
+    "title": "Machine learning-based study on Xin-Pi simultaneous treatment formula via drug nanodelivery systems regulating macrophage polarization and TEAD2/PKM2 synergistic repair strategy in myocarditis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Myocarditis, as an important cardiovascular disease, involves complex pathogenic mechanisms including immune dysregulation and metabolic disorders. The Traditional Chinese Medicine (TCM) theory of \"simultaneous treatment of heart and spleen\" has accumulated substantial clinical experience in treating myocarditis, yet its underlying mechanisms remain insufficiently elucidated. The development of drug nanodelivery systems has revolutionized targeted therapy by enhancing drug bioavailability, prolonging circulation time, and enabling precise delivery to diseased tissues. This study aims to systematically analyze the molecular mechanisms by which Xin-Pi simultaneous treatment formula, when formulated into nanocarriers, regulates myocarditis through machine learning approaches, with particular emphasis on its regulation of macrophage polarization and the TEAD2/PKM2 signaling pathway via enhanced nanodelivery-mediated targeting. METHODS: This study employed a multi-dimensional integration strategy combining network pharmacology, machine learning algorithms, and multi-omics technologies. Active compounds and targets of representative Xin-Pi simultaneous treatment formulae were retrieved from TCMSP, with core targets screened using machine learning algorithms such as Random Forest, Support Vector Machine, and XGBoost. A myocarditis mouse model was established, and single-cell RNA sequencing technology was utilized to analyze dynamic changes and polarization characteristics of macrophage subpopulations. Spatial transcriptomics technology was employed to map the spatial distribution patterns of key molecules in myocardial tissue. Western blot, immunofluorescence, and qRT-PCR were used to validate expression changes in the TEAD2/PKM2 signaling pathway. Metabolomics and proteomics technologies were applied to comprehensively analyze the multi-target regulatory network of the Xin-Pi simultaneous treatment formula. RESULTS: The drug nanodelivery system demonstrated superior pharmacokinetic profiles with 3.5-fold increased cardiac tissue accumulation compared to free drug formulation (P < 0.001). Nanoparticles showed preferential uptake by inflammatory macrophages in the myocardial infarct border zone, achieving 4.2-fold higher intracellular drug concentration than non-targeted nanoparticles. Machine learning models successfully identified 68 core targets, with TEAD2, PKM2, TNF-alpha, and IL-1beta ranking at the forefront, achieving a prediction accuracy of 92.3%. Single-cell sequencing analysis revealed seven macrophage subpopulations in myocarditis tissue. Following nano-formulated Xin-Pi formula intervention, the proportion of M1-type pro-inflammatory macrophages significantly decreased (from 42.6% to 18.3%, P < 0.001), while M2-type anti-inflammatory macrophages significantly increased (from 15.7% to 38.9%, P < 0.001). Spatial transcriptomics analysis identified six functional regions in myocardial tissue. Molecular mechanism studies demonstrated that the nano-formulated Xin-Pi formula significantly upregulated TEAD2 expression (3.6-fold, P < 0.001) and downregulated PKM2 expression (0.28-fold, P < 0.001). Metabolomics analysis identified 32 differential metabolites and proteomics identified 156 differentially expressed proteins. CONCLUSIONS: This study provides the first systematic elucidation of the molecular mechanisms by which Xin-Pi simultaneous treatment formula, delivered via advanced nanocarrier systems, repairs myocarditis injury through regulating macrophage M1/M2 polarization balance and the TEAD2/PKM2 metabolic reprogramming network. The findings provide preclinical mechanistic evidence supporting future translational investigation; validation in human cohorts and clinical trials is required before clinical translation can be claimed.",
+    "keywords": [
+      "Drug nanodelivery systems",
+      "Machine learning",
+      "Macrophage polarization",
+      "Myocarditis",
+      "Nanomedicine",
+      "Single-cell sequencing",
+      "Spatial transcriptomics",
+      "TEAD2/PKM2",
+      "Xin-Pi simultaneous treatment"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Machine Learning",
+      "*Macrophages/drug effects",
+      "Mice",
+      "*Myocarditis/drug therapy",
+      "*Transcription Factors/metabolism/genetics",
+      "*Drugs, Chinese Herbal/pharmacology/administration & dosage",
+      "*DNA-Binding Proteins/metabolism",
+      "Male",
+      "Disease Models, Animal",
+      "Signal Transduction/drug effects",
+      "*Carrier Proteins/metabolism/genetics",
+      "TEA Domain Transcription Factors",
+      "*Drug Delivery Systems",
+      "*Nanoparticle Drug Delivery System"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yunrui",
+        "Wu, Songsong",
+        "Xu, Te",
+        "Wang, Weiwei",
+        "Wen, Yudan",
+        "Wang, Junjie",
+        "Wang, Yongguang",
+        "Pan, Jiaxi"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Wu S",
+        "Xu T",
+        "Wang W",
+        "Wen Y",
+        "Wang J",
+        "Wang Y",
+        "Pan J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, The Third Affiliated Hospital of Wenzhou Medical University, No.108 Wansong East Road, Ruian, Wenzhou, Zhejiang 325200, China.",
+        "Department of Cardiology, The Third Affiliated Hospital of Wenzhou Medical University, No.108 Wansong East Road, Ruian, Wenzhou, Zhejiang 325200, China.",
+        "Department of Cardiology, The Third Affiliated Hospital of Wenzhou Medical University, No.108 Wansong East Road, Ruian, Wenzhou, Zhejiang 325200, China.",
+        "Department of Cardiology, The Third Affiliated Hospital of Wenzhou Medical University, No.108 Wansong East Road, Ruian, Wenzhou, Zhejiang 325200, China.",
+        "Department of Cardiology, The Third Affiliated Hospital of Wenzhou Medical University, No.108 Wansong East Road, Ruian, Wenzhou, Zhejiang 325200, China.",
+        "Department of Cardiology, The Third Affiliated Hospital of Wenzhou Medical University, No.108 Wansong East Road, Ruian, Wenzhou, Zhejiang 325200, China.",
+        "Department of Cardiology, The Third Affiliated Hospital of Wenzhou Medical University, No.108 Wansong East Road, Ruian, Wenzhou, Zhejiang 325200, China. Electronic address: 13506567678@163.com.",
+        "Department of Cardiology, The Third Affiliated Hospital of Wenzhou Medical University, No.108 Wansong East Road, Ruian, Wenzhou, Zhejiang 325200, China. Electronic address: pjx19821213@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yunrui",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Third Affiliated Hospital of Wenzhou Medical University, No.108 Wansong East Road, Ruian, Wenzhou, Zhejiang 325200, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Songsong",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Third Affiliated Hospital of Wenzhou Medical University, No.108 Wansong East Road, Ruian, Wenzhou, Zhejiang 325200, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Te",
+        "short_name": "Xu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Third Affiliated Hospital of Wenzhou Medical University, No.108 Wansong East Road, Ruian, Wenzhou, Zhejiang 325200, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Weiwei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Third Affiliated Hospital of Wenzhou Medical University, No.108 Wansong East Road, Ruian, Wenzhou, Zhejiang 325200, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Yudan",
+        "short_name": "Wen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Third Affiliated Hospital of Wenzhou Medical University, No.108 Wansong East Road, Ruian, Wenzhou, Zhejiang 325200, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Junjie",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Third Affiliated Hospital of Wenzhou Medical University, No.108 Wansong East Road, Ruian, Wenzhou, Zhejiang 325200, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yongguang",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Third Affiliated Hospital of Wenzhou Medical University, No.108 Wansong East Road, Ruian, Wenzhou, Zhejiang 325200, China. Electronic address: 13506567678@163.com."
+        ]
+      },
+      {
+        "full_name": "Pan, Jiaxi",
+        "short_name": "Pan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Third Affiliated Hospital of Wenzhou Medical University, No.108 Wansong East Road, Ruian, Wenzhou, Zhejiang 325200, China. Electronic address: pjx19821213@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "SLAS technology"
+    ],
+    "journal_abbrev": [
+      "SLAS Technol"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/19 00:28",
+    "fetched_at": "2026-10-01 21:03:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42150704",
+      "40916281",
+      "41548375",
+      "40499803",
+      "42172981",
+      "42421348",
+      "39879705",
+      "41237867",
+      "42173417",
+      "42475469",
+      "40737847",
+      "41780616",
+      "42112357",
+      "36624435",
+      "41061288",
+      "40350051",
+      "41692111",
+      "40935216",
+      "39577223",
+      "40850661",
+      "41978717",
+      "42123445",
+      "40746551",
+      "42285238",
+      "41611834",
+      "42366636",
+      "40172736",
+      "39929664",
+      "40671689",
+      "41371163",
+      "39877349",
+      "40216048",
+      "41962267",
+      "41349456",
+      "39914692",
+      "32908632",
+      "41242266",
+      "42255489",
+      "42085848",
+      "41621766",
+      "42565562",
+      "40486124",
+      "38696100",
+      "39978444",
+      "42372809",
+      "42202917",
+      "37454749",
+      "40086050",
+      "39999939",
+      "41795298",
+      "42164508",
+      "42392781",
+      "41274524",
+      "42196413",
+      "40946659",
+      "41077315",
+      "41038150",
+      "40915376",
+      "38870749",
+      "40683425",
+      "42486042",
+      "41724289",
+      "40706204",
+      "35689898",
+      "40220403",
+      "42336114",
+      "41342434",
+      "38835132",
+      "41475625",
+      "41814740",
+      "41275947",
+      "38310567",
+      "39019418",
+      "40795588",
+      "40945884",
+      "38692075",
+      "40068297",
+      "41904851",
+      "40163153",
+      "42184497",
+      "42112343",
+      "41895505",
+      "41174741",
+      "41740333",
+      "41601657",
+      "42305536",
+      "41534756",
+      "40659142",
+      "40778401",
+      "42011624",
+      "33416455",
+      "41690037",
+      "41796620",
+      "41485625",
+      "40020626",
+      "41389885",
+      "41448498",
+      "41337939",
+      "39427735",
+      "41547068"
+    ],
+    "review": [
+      "42150704",
+      "41978717",
+      "42486042"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2472-6303(26)00046-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GSTP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3588",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

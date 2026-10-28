@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "42150072",
+    "doi": "10.1073/pnas.2523342123",
+    "title": "Predictions from deep learning propose substantial protein-carbohydrate interplay."
+  },
+  "content": {
+    "abstract": "Noncovalent interaction between proteins and carbohydrates (sugars, glycans) is the basis for biological functions from metabolic regulation to intercellular recognition. It is a grand challenge to identify the protein-carbohydrate interactomes in organisms. Direct experiments would require extensive libraries of glycans to distinguish binding from nonbinding proteins. Computational screening of proteins for carbohydrate binding potential provides an attractive alternative. Current estimates propose that <5% of proteins bind carbohydrates, a number that is not well established. We therefore developed a neural network, \"Protein interaction of Carbohydrates Predictor\" (PiCAP), to predict whether a protein noncovalently binds to a carbohydrate. We trained PiCAP on a manually curated dataset of known carbohydrate binders and proteins that we identified as likely not to bind carbohydrates (transcription factors, cytoskeletal components, and small-molecule-binding proteins). PiCAP achieves 90% balanced accuracy on protein-level predictions of carbohydrate binding/nonbinding. Using the same datasets, we developed Carbohydrate Protein Site Identifier 2 (CAPSIF2) to predict protein residues that interact noncovalently with carbohydrates. CAPSIF2 achieves a Dice coefficient of 0.57 on residue-level predictions on our independent test dataset, outperforming previous models. To demonstrate the models' biological applicability, we investigated human cell surface proteins and further predicted the likelihood of carbohydrate binding in six proteomes (Escherichia coli, Mus musculus, Homo sapiens, Saccharomyces cerevisiae, Caenorhabditis elegans, Drosophila melanogaster). PiCAP predicts that ~35 to 40% of proteins in these proteomes bind carbohydrates, with 75% of extracellular and cell surface proteins predicted to bind. The PiCAP predicted binders are enriched for functions including growth factor receptor binding, inflammation, and cell-cell adhesion.",
+    "keywords": [
+      "carbohydrate",
+      "glycan",
+      "interactome",
+      "protein-carbohydrate interactome",
+      "proteome"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Deep Learning",
+      "Protein Binding",
+      "*Proteins/metabolism/chemistry",
+      "Polysaccharides/metabolism/chemistry",
+      "Humans",
+      "Computational Biology/methods",
+      "*Carbohydrates/chemistry",
+      "Caenorhabditis elegans/metabolism",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Canner, Samuel W",
+        "Schnaar, Ronald L",
+        "Gray, Jeffrey J"
+      ],
+      "short_names": [
+        "Canner SW",
+        "Schnaar RL",
+        "Gray JJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8678-0639",
+        "ORCID: 0000-0002-7701-5484",
+        "ORCID: 0000-0001-6380-2324"
+      ],
+      "affiliations": [
+        "Program in Molecular Biophysics, Johns Hopkins University, Baltimore, MD 21218.",
+        "Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, Baltimore, MD 21287.",
+        "Department of Neuroscience, Johns Hopkins University School of Medicine, Baltimore, MD 21287.",
+        "Program in Molecular Biophysics, Johns Hopkins University, Baltimore, MD 21218.",
+        "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD 21218."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Canner, Samuel W",
+        "short_name": "Canner SW",
+        "identifiers": [
+          "0000-0002-8678-0639"
+        ],
+        "affiliations": [
+          "Program in Molecular Biophysics, Johns Hopkins University, Baltimore, MD 21218."
+        ]
+      },
+      {
+        "full_name": "Schnaar, Ronald L",
+        "short_name": "Schnaar RL",
+        "identifiers": [
+          "0000-0002-7701-5484"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, Baltimore, MD 21287.",
+          "Department of Neuroscience, Johns Hopkins University School of Medicine, Baltimore, MD 21287."
+        ]
+      },
+      {
+        "full_name": "Gray, Jeffrey J",
+        "short_name": "Gray JJ",
+        "identifiers": [
+          "0000-0001-6380-2324"
+        ],
+        "affiliations": [
+          "Program in Molecular Biophysics, Johns Hopkins University, Baltimore, MD 21218.",
+          "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD 21218."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2026 May 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/18 18:32",
+    "fetched_at": "2026-10-01 21:03:08"
+  },
+  "links": {
+    "cites": [
+      "41805121"
+    ],
+    "refs": [
+      "41930484",
+      "40523618",
+      "39712664",
+      "39454580",
+      "39436020",
+      "39340450",
+      "38887845",
+      "38886381",
+      "38718835",
+      "38705088",
+      "38602504",
+      "38526729",
+      "38452047",
+      "38291232",
+      "37933859",
+      "37889052",
+      "37409346",
+      "37072397",
+      "36927031",
+      "36702895",
+      "36408920",
+      "35756507",
+      "35637307",
+      "34862760",
+      "34826352",
+      "34812629",
+      "34717010",
+      "34381046",
+      "34366717",
+      "34265844",
+      "34133179",
+      "33397651",
+      "33174598",
+      "32924932",
+      "32791164",
+      "31184695",
+      "30804569",
+      "29363575",
+      "29152378",
+      "28182403",
+      "27357658",
+      "27306309",
+      "27004978",
+      "26743509",
+      "24214988",
+      "23921808",
+      "21240259",
+      "20061306",
+      "18178553",
+      "10592235",
+      "9345621",
+      "9218333",
+      "1747104"
+    ],
+    "similar": [
+      "42150072",
+      "40161692",
+      "37409346",
+      "38886381",
+      "22848404",
+      "41608988",
+      "19762259",
+      "36993750",
+      "27623166",
+      "40086131",
+      "41257586",
+      "16884331",
+      "23971886",
+      "17201922",
+      "37651627",
+      "23784792",
+      "11960993",
+      "21112338",
+      "26109352",
+      "41679684",
+      "29473490",
+      "18646839",
+      "42475469",
+      "38602504",
+      "40133785",
+      "25108191",
+      "18796161",
+      "30177739",
+      "19432560",
+      "34862760",
+      "34415020",
+      "38871095",
+      "42412847",
+      "34073705",
+      "32142788",
+      "32614943",
+      "39478454",
+      "28541224",
+      "23056230",
+      "39401628",
+      "23209685",
+      "39488202",
+      "20939902",
+      "35761175",
+      "41290782",
+      "33545173",
+      "31683069",
+      "20032467",
+      "42508035",
+      "41977286",
+      "34615357",
+      "34637380",
+      "10708647",
+      "35653954",
+      "38830995",
+      "26042329",
+      "30239928",
+      "38892007",
+      "26561965",
+      "41348880",
+      "33313775",
+      "29028926",
+      "21325337",
+      "39887187",
+      "37783054",
+      "19503817",
+      "39509302",
+      "21635751",
+      "20678238",
+      "40523618",
+      "26911287",
+      "38279081",
+      "36576775",
+      "20353594",
+      "9579797",
+      "27524389",
+      "25422425",
+      "26435036",
+      "34817219",
+      "9305986",
+      "12570781",
+      "20708922",
+      "15379628",
+      "35150250",
+      "17081050",
+      "34905768",
+      "39304807",
+      "12643546",
+      "26613983",
+      "42503872",
+      "40906828",
+      "36343278",
+      "25205292",
+      "34526500",
+      "26275959",
+      "22587966",
+      "34075638",
+      "41653916",
+      "27980000",
+      "30071670"
+    ],
+    "review": [
+      "42150072",
+      "25108191",
+      "34615357",
+      "35653954",
+      "26042329",
+      "9579797",
+      "12570781",
+      "20708922",
+      "15379628"
+    ],
+    "pmc": [
+      "13213957"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2523342123?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=42150072",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42150072/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

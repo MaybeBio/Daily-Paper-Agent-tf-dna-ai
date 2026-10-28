@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "34057467",
+    "doi": "10.1093/nar/gkab441",
+    "title": "Cooperative DNA looping by PRC2 complexes."
+  },
+  "content": {
+    "abstract": "Polycomb repressive complex 2 (PRC2) is an essential protein complex that silences gene expression via post-translational modifications of chromatin. This paper combined homology modeling, atomistic and coarse-grained molecular dynamics simulations, and single-molecule force spectroscopy experiments to characterize both its full-length structure and PRC2-DNA interactions. Using free energy calculations with a newly parameterized protein-DNA force field, we studied a total of three potential PRC2 conformations and their impact on DNA binding and bending. Consistent with cryo-EM studies, we found that EZH2, a core subunit of PRC2, provides the primary interface for DNA binding, and its curved surface can induce DNA bending. Our simulations also predicted the C2 domain of the SUZ12 subunit to contact DNA. Multiple PRC2 complexes bind with DNA cooperatively via allosteric communication through the DNA, leading to a hairpin-like looped configuration. Single-molecule experiments support PRC2-mediated DNA looping and the role of AEBP2 in regulating such loop formation. The impact of AEBP2 can be partly understood from its association with the C2 domain, blocking C2 from DNA binding. Our study suggests that accessory proteins may regulate the genomic location of PRC2 by interfering with its DNA interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "DNA/*chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Nucleic Acid Conformation",
+      "Polycomb Repressive Complex 2/*chemistry/metabolism",
+      "Protein Binding",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Xingcheng",
+        "Leicher, Rachel",
+        "Liu, Shixin",
+        "Zhang, Bin"
+      ],
+      "short_names": [
+        "Lin X",
+        "Leicher R",
+        "Liu S",
+        "Zhang B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9378-6174",
+        "ORCID: 0000-0002-3685-7503"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+        "Laboratory of Nanoscale Biophysics and Biochemistry, The Rockefeller University, New York, NY 10065, USA.",
+        "Tri-Institutional PhD Program in Chemical Biology, New York, NY 10065, USA.",
+        "Laboratory of Nanoscale Biophysics and Biochemistry, The Rockefeller University, New York, NY 10065, USA.",
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Xingcheng",
+        "short_name": "Lin X",
+        "identifiers": [
+          "0000-0002-9378-6174"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Leicher, Rachel",
+        "short_name": "Leicher R",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Nanoscale Biophysics and Biochemistry, The Rockefeller University, New York, NY 10065, USA.",
+          "Tri-Institutional PhD Program in Chemical Biology, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Shixin",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Nanoscale Biophysics and Biochemistry, The Rockefeller University, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bin",
+        "short_name": "Zhang B",
+        "identifiers": [
+          "0000-0002-3685-7503"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2021 Jun 21",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/01 06:00",
+    "fetched_at": "2026-09-27 18:33:14"
+  },
+  "links": {
+    "cites": [
+      "42441399",
+      "41875330",
+      "41357979",
+      "41316707",
+      "41279384",
+      "41168462",
+      "40673435",
+      "40598892",
+      "40184420",
+      "40029962",
+      "38289342",
+      "38161379",
+      "37745447",
+      "37695778",
+      "37496267",
+      "37293007",
+      "37131742",
+      "36993500",
+      "36545509",
+      "36029149",
+      "35858189",
+      "35800061",
+      "35364104"
+    ],
+    "refs": [
+      "33514705",
+      "33479123",
+      "33208532",
+      "32213323",
+      "32043141",
+      "31959557",
+      "31756104",
+      "31630981",
+      "31548724",
+      "31521506",
+      "31521505",
+      "31479253",
+      "31171700",
+      "31123062",
+      "31091895",
+      "31053260",
+      "30951652",
+      "30514760",
+      "30451485",
+      "30008320",
+      "29976815",
+      "29932905",
+      "29499137",
+      "29483650",
+      "29379173",
+      "29348366",
+      "29194442",
+      "29134516",
+      "29078285",
+      "29058710",
+      "29058709",
+      "28938122",
+      "28765367",
+      "28636604",
+      "28636597",
+      "27940208",
+      "27819658",
+      "27725965",
+      "27658528",
+      "27300314",
+      "27122193",
+      "27121947",
+      "26963394",
+      "26637943",
+      "26575522",
+      "26574518",
+      "26472914",
+      "26323060",
+      "25825760",
+      "25362344",
+      "25053341",
+      "24992961",
+      "24367637",
+      "24077223",
+      "23413354",
+      "23110252",
+      "21770550",
+      "21549310",
+      "21248841",
+      "21123648",
+      "20800598",
+      "20542000",
+      "20525782",
+      "19767730",
+      "18515839",
+      "18428767",
+      "17937919",
+      "17212484",
+      "17131434",
+      "15225548",
+      "10801360",
+      "9895674",
+      "9514715"
+    ],
+    "similar": [
+      "34057467",
+      "32043141",
+      "33208532",
+      "29499137",
+      "33479123",
+      "29348366",
+      "28869966",
+      "23110252",
+      "31521505",
+      "31095801",
+      "34321472",
+      "30814291",
+      "33283516",
+      "31024026",
+      "27845897",
+      "25369470",
+      "28135235",
+      "27187637",
+      "26002960",
+      "26177152",
+      "28306504",
+      "31685780",
+      "28912274",
+      "24992961",
+      "31816138",
+      "31521506",
+      "29058710",
+      "31479253",
+      "25880792",
+      "31048495",
+      "32833314",
+      "31786184",
+      "19293275",
+      "24619877",
+      "32436117",
+      "28165227",
+      "31186533",
+      "27634302",
+      "27121947",
+      "30833789",
+      "23982173",
+      "32238717",
+      "31126817",
+      "33514705",
+      "39257770",
+      "28202673",
+      "27122193",
+      "28135237",
+      "36798278",
+      "31062458",
+      "26472914",
+      "29628311",
+      "33129354",
+      "23688781",
+      "31525019",
+      "33460684",
+      "19578722",
+      "31488577",
+      "29606589",
+      "30867289",
+      "31513636",
+      "30976011",
+      "32457468",
+      "29153392",
+      "31178244",
+      "39044429",
+      "38138487",
+      "21909895",
+      "37971217",
+      "26431894",
+      "20627159",
+      "35521518"
+    ],
+    "review": [
+      "34057467",
+      "31095801",
+      "33283516",
+      "28912274",
+      "28202673",
+      "31062458",
+      "33129354",
+      "33460684"
+    ],
+    "pmc": [
+      "8216278"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34057467/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34057467",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1104",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/34057467",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkab441",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

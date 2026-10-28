@@ -1,0 +1,431 @@
+{
+  "identity": {
+    "pmid": "40791531",
+    "doi": "10.1101/2025.07.09.662874",
+    "title": "Expanding the DNA Motif Lexicon of the Transcriptional Regulatory Code."
+  },
+  "content": {
+    "abstract": "Transcriptional regulatory sequences in metazoans contain intricate combinations of transcription factor (TF) motifs. Stereospecific arrangements of simple motifs constitute composite elements (CEs) that enhance DNA-protein interaction specificity and enable combinatorial regulatory logic. Despite their importance, CEs remain underexplored. We advance CE discovery and functional characterization by developing an integrated framework that combines computational prediction, experimental testing and deep learning. The extended TF motif catalog comprises both synergistic and counteracting CEs, which are supported by evidence of TF binding in vivo and in vitro. A deep learning model GRACE trained on customized massively parallel reporter assays learns the lexicon of CEs at single-nucleotide resolution. Comparative analysis with a neural network model trained on chromatin accessibility demonstrates striking convergence and distinctions within the expanded regulatory lexicon, enabling joint predictions of motif contributions and the impact of variants on chromatin structure and transcriptional activity in diverse cellular contexts.",
+    "keywords": [
+      "TF motifs",
+      "composite elements",
+      "deep learning",
+      "gene regulatory lexicon"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Jingyu",
+        "Chaudhri, Virendra K",
+        "Bisht, Deepa",
+        "Pease, Nicholas A",
+        "Hall, David Reed",
+        "Gerges, Peter",
+        "Yi, Vivian Fang",
+        "Kales, Susan",
+        "Ho, Ching-Huang",
+        "Das, Jishnu",
+        "Ray, John P",
+        "Tewhey, Ryan",
+        "Meyer, Clifford A",
+        "Sahni, Nidhi",
+        "Singh, Harinder"
+      ],
+      "short_names": [
+        "Fan J",
+        "Chaudhri VK",
+        "Bisht D",
+        "Pease NA",
+        "Hall DR",
+        "Gerges P",
+        "Yi VF",
+        "Kales S",
+        "Ho CH",
+        "Das J",
+        "Ray JP",
+        "Tewhey R",
+        "Meyer CA",
+        "Sahni N",
+        "Singh H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2440-2015",
+        "ORCID: 0000-0002-6330-8526"
+      ],
+      "affiliations": [
+        "Center for Systems Immunology and the Departments of Immunology and Computational and Systems Biology, University of Pittsburgh, PA, USA.",
+        "Center for Systems Immunology and the Departments of Immunology and Computational and Systems Biology, University of Pittsburgh, PA, USA.",
+        "Department of Epigenetics and Molecular Carcinogenesis, Department of Bioinformatics and Computational Biology, The University of Texas, MD Anderson Cancer Center, Houston, TX, USA.",
+        "Department of Genitourinary Medical Oncology, Division of Cancer Medicine, The University of Texas, MD Anderson Cancer Center, Houston, TX, USA.",
+        "Center for Systems Immunology and the Departments of Immunology and Computational and Systems Biology, University of Pittsburgh, PA, USA.",
+        "Center for Systems Immunology and the Departments of Immunology and Computational and Systems Biology, University of Pittsburgh, PA, USA.",
+        "Center for Systems Immunology and the Departments of Immunology and Computational and Systems Biology, University of Pittsburgh, PA, USA.",
+        "Center for Systems Immunology and the Departments of Immunology and Computational and Systems Biology, University of Pittsburgh, PA, USA.",
+        "The Jackson Laboratory, Bar Harbor, ME, USA.",
+        "Center for Systems Immunology, Benaroya Research Institute, Seattle, WA, USA.",
+        "Department of Immunology, University of Washington, Seattle, WA, USA.",
+        "Center for Systems Immunology and the Departments of Immunology and Computational and Systems Biology, University of Pittsburgh, PA, USA.",
+        "Center for Systems Immunology, Benaroya Research Institute, Seattle, WA, USA.",
+        "Department of Immunology, University of Washington, Seattle, WA, USA.",
+        "The Jackson Laboratory, Bar Harbor, ME, USA.",
+        "Department of Data Sciences, Dana-Farber Cancer Institute and Harvard T.H. Chan School of Public Health, Boston, MA, USA.",
+        "Department of Epigenetics and Molecular Carcinogenesis, Department of Bioinformatics and Computational Biology, The University of Texas, MD Anderson Cancer Center, Houston, TX, USA.",
+        "Quantitative and Computational Biosciences Program, Baylor College of Medicine, Houston, TX, USA.",
+        "Center for Systems Immunology and the Departments of Immunology and Computational and Systems Biology, University of Pittsburgh, PA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Jingyu",
+        "short_name": "Fan J",
+        "identifiers": [
+          "0000-0003-2440-2015"
+        ],
+        "affiliations": [
+          "Center for Systems Immunology and the Departments of Immunology and Computational and Systems Biology, University of Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Chaudhri, Virendra K",
+        "short_name": "Chaudhri VK",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology and the Departments of Immunology and Computational and Systems Biology, University of Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Bisht, Deepa",
+        "short_name": "Bisht D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epigenetics and Molecular Carcinogenesis, Department of Bioinformatics and Computational Biology, The University of Texas, MD Anderson Cancer Center, Houston, TX, USA.",
+          "Department of Genitourinary Medical Oncology, Division of Cancer Medicine, The University of Texas, MD Anderson Cancer Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Pease, Nicholas A",
+        "short_name": "Pease NA",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology and the Departments of Immunology and Computational and Systems Biology, University of Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Hall, David Reed",
+        "short_name": "Hall DR",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology and the Departments of Immunology and Computational and Systems Biology, University of Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Gerges, Peter",
+        "short_name": "Gerges P",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology and the Departments of Immunology and Computational and Systems Biology, University of Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Yi, Vivian Fang",
+        "short_name": "Yi VF",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology and the Departments of Immunology and Computational and Systems Biology, University of Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Kales, Susan",
+        "short_name": "Kales S",
+        "identifiers": [],
+        "affiliations": [
+          "The Jackson Laboratory, Bar Harbor, ME, USA."
+        ]
+      },
+      {
+        "full_name": "Ho, Ching-Huang",
+        "short_name": "Ho CH",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology, Benaroya Research Institute, Seattle, WA, USA.",
+          "Department of Immunology, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Das, Jishnu",
+        "short_name": "Das J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology and the Departments of Immunology and Computational and Systems Biology, University of Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Ray, John P",
+        "short_name": "Ray JP",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology, Benaroya Research Institute, Seattle, WA, USA.",
+          "Department of Immunology, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Tewhey, Ryan",
+        "short_name": "Tewhey R",
+        "identifiers": [],
+        "affiliations": [
+          "The Jackson Laboratory, Bar Harbor, ME, USA."
+        ]
+      },
+      {
+        "full_name": "Meyer, Clifford A",
+        "short_name": "Meyer CA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Data Sciences, Dana-Farber Cancer Institute and Harvard T.H. Chan School of Public Health, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Sahni, Nidhi",
+        "short_name": "Sahni N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epigenetics and Molecular Carcinogenesis, Department of Bioinformatics and Computational Biology, The University of Texas, MD Anderson Cancer Center, Houston, TX, USA.",
+          "Quantitative and Computational Biosciences Program, Baylor College of Medicine, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Singh, Harinder",
+        "short_name": "Singh H",
+        "identifiers": [
+          "0000-0002-6330-8526"
+        ],
+        "affiliations": [
+          "Center for Systems Immunology and the Departments of Immunology and Computational and Systems Biology, University of Pittsburgh, PA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jul 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/12 11:15",
+    "fetched_at": "2026-09-30 23:47:42"
+  },
+  "links": {
+    "cites": [
+      "40817289"
+    ],
+    "refs": [
+      "40205063",
+      "39166482",
+      "38389303",
+      "38262408",
+      "37971305",
+      "37962376",
+      "37537351",
+      "37329354",
+      "36755098",
+      "36068320",
+      "35513721",
+      "34608324",
+      "33603233",
+      "32811816",
+      "32033573",
+      "31873292",
+      "30686579",
+      "30462313",
+      "30315111",
+      "30290144",
+      "30016330",
+      "28287392",
+      "27789702",
+      "27697431",
+      "27325706",
+      "27259153",
+      "26550823",
+      "26232396",
+      "25516281",
+      "25383968",
+      "25215497",
+      "25126959",
+      "24614316",
+      "24244184",
+      "23684984",
+      "22983707",
+      "22955616",
+      "22344693",
+      "21949271",
+      "21414485",
+      "20513432",
+      "20389281",
+      "20110278",
+      "19818654",
+      "18798982",
+      "18295580",
+      "17324271",
+      "15947094",
+      "15564374",
+      "14744435",
+      "12853946",
+      "10655586",
+      "10022840",
+      "9510247",
+      "2673023",
+      "1533441"
+    ],
+    "similar": [
+      "40791531",
+      "36742369",
+      "34650237",
+      "39829783",
+      "30423062",
+      "31206543",
+      "37214836",
+      "38853896",
+      "26291518",
+      "29363433",
+      "38940155",
+      "34486522",
+      "35858748",
+      "35435921",
+      "40672290",
+      "24218641",
+      "25428352",
+      "40881170",
+      "22456606",
+      "32973041",
+      "23512712",
+      "31372637",
+      "19956545",
+      "25791631",
+      "34755879",
+      "38781390",
+      "40205063",
+      "38853998",
+      "40020686",
+      "10592258",
+      "37919990",
+      "40102719",
+      "38952710",
+      "28204611",
+      "22189060",
+      "39481376",
+      "36902216",
+      "27567672",
+      "22534400",
+      "15287978",
+      "31053165",
+      "28137873",
+      "36012247",
+      "35293310",
+      "37805453",
+      "21486752",
+      "38654130",
+      "22955984",
+      "23272209",
+      "38189539",
+      "26160164",
+      "38517697",
+      "37100167",
+      "30524473",
+      "33137083",
+      "33134611",
+      "35045977",
+      "40060626",
+      "19652015",
+      "39644900",
+      "35263332",
+      "31723409",
+      "32825662",
+      "23181585",
+      "17381235",
+      "37889080",
+      "28234893",
+      "40567341",
+      "34272562",
+      "39091757",
+      "40667078",
+      "23497159",
+      "24335146",
+      "33581335",
+      "34524404",
+      "40777328",
+      "25788622",
+      "40780181",
+      "24564528",
+      "18950538",
+      "39413205",
+      "36057196",
+      "35240993",
+      "31481462",
+      "22955979",
+      "29116820",
+      "29105538",
+      "25442502",
+      "31114856",
+      "34383745",
+      "34285090",
+      "41035197",
+      "31742324",
+      "23144830",
+      "37935654",
+      "31871587",
+      "26971251",
+      "28472398",
+      "31345953",
+      "28100260"
+    ],
+    "review": [
+      "40791531",
+      "40881170",
+      "36057196",
+      "29105538"
+    ],
+    "pmc": [
+      "12338572"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40791531/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.07.09.662874",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

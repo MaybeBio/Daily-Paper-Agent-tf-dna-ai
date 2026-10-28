@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "35615560",
+    "doi": "10.3389/fcvm.2022.900978",
+    "title": "Single-Cell Analysis Reveals Transcriptomic Reprogramming in Aging Cardiovascular Endothelial Cells."
+  },
+  "content": {
+    "abstract": "The senescence of cardiovascular endothelial cells (ECs) is a major risk factor in the development of aging-related cardiovascular diseases. However, the molecular dynamics in cardiovascular EC aging are poorly understood. Here, we characterized the transcriptomic landscape of cardiovascular ECs during aging and observed that ribosome biogenesis, inflammation, apoptosis and angiogenesis-related genes and pathways changed with age. We also highlighted the importance of collagen genes in the crosstalk between ECs and other cell types in cardiovascular aging. Moreover, transcriptional regulatory network analysis revealed Jun as a candidate transcription factor involved in murine cardiovascular senescence and we validated the upregulation of Jun in aged cardiovascular ECs both in vitro and in vivo. Altogether, our study reveals the transcriptomic reprogramming in the aging murine cardiovascular ECs, which deepens the understanding of the molecular mechanisms of cardiovascular aging and provides new insights into potential therapeutic targets against age-related cardiovascular diseases.",
+    "keywords": [
+      "age-dependent genes",
+      "cardiovascular endothelial cells",
+      "scRNA-seq",
+      "senescence",
+      "transcriptomic reprogramming"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gou, Bo",
+        "Chu, Xiaojing",
+        "Xiao, Yi",
+        "Liu, Pinxuan",
+        "Zhang, Hao",
+        "Gao, Zeyu",
+        "Song, Moshi"
+      ],
+      "short_names": [
+        "Gou B",
+        "Chu X",
+        "Xiao Y",
+        "Liu P",
+        "Zhang H",
+        "Gao Z",
+        "Song M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Membrane Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+        "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+        "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Membrane Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+        "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+        "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Membrane Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+        "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+        "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Membrane Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+        "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+        "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Membrane Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+        "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+        "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Membrane Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+        "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+        "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Membrane Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+        "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+        "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gou, Bo",
+        "short_name": "Gou B",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Membrane Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+          "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+          "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chu, Xiaojing",
+        "short_name": "Chu X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Membrane Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+          "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+          "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Yi",
+        "short_name": "Xiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Membrane Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+          "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+          "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Pinxuan",
+        "short_name": "Liu P",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Membrane Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+          "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+          "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hao",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Membrane Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+          "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+          "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Zeyu",
+        "short_name": "Gao Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Membrane Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+          "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+          "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Song, Moshi",
+        "short_name": "Song M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Membrane Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China.",
+          "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing, China.",
+          "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cardiovascular medicine"
+    ],
+    "journal_abbrev": [
+      "Front Cardiovasc Med"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/27 06:00",
+    "fetched_at": "2026-09-28 08:58:11"
+  },
+  "links": {
+    "cites": [
+      "42497132",
+      "41387402",
+      "40089859",
+      "39135700",
+      "37957823",
+      "37730108",
+      "37656130",
+      "37390467",
+      "36713285"
+    ],
+    "refs": [
+      "35004685",
+      "34876692",
+      "34634194",
+      "34088867",
+      "34062119",
+      "34035185",
+      "33924316",
+      "33469904",
+      "32669715",
+      "32669714",
+      "32371953",
+      "32109414",
+      "32103204",
+      "32004457",
+      "31915373",
+      "31783034",
+      "31109450",
+      "31028199",
+      "30445434",
+      "29779866",
+      "29677463",
+      "29121237",
+      "28991892",
+      "27389912",
+      "27374120",
+      "25753534",
+      "25666857",
+      "24831826",
+      "24675227",
+      "24658644",
+      "24604615",
+      "24158517",
+      "23666675",
+      "23555285",
+      "22914737",
+      "22455463",
+      "21145432",
+      "20078217",
+      "18793328",
+      "17038632",
+      "16199517",
+      "16078370",
+      "15970413",
+      "15126605",
+      "15102925",
+      "14726415",
+      "14597658",
+      "14597385",
+      "11073878",
+      "10632591",
+      "10473668",
+      "9884387"
+    ],
+    "similar": [
+      "35615560",
+      "37214419",
+      "37554834",
+      "33661096",
+      "35004685",
+      "37025170",
+      "39026350",
+      "28971843",
+      "29986945",
+      "36724124",
+      "31109450",
+      "34095155",
+      "37517320",
+      "27821539",
+      "33995668",
+      "36165462",
+      "36654782",
+      "36979114",
+      "36585108",
+      "36659929",
+      "24651677",
+      "31737206",
+      "36897523",
+      "36077539",
+      "32354103",
+      "31856914",
+      "23756706",
+      "34248940",
+      "35837599",
+      "25059272",
+      "37584608",
+      "37397258",
+      "36978029",
+      "32071080",
+      "29321689",
+      "32059779",
+      "31353772",
+      "16234883",
+      "37131739",
+      "36181361",
+      "34030460",
+      "30597847",
+      "31487690",
+      "33189866",
+      "34359953",
+      "37203350",
+      "18974388",
+      "31545483",
+      "35717322",
+      "36585926",
+      "33644072",
+      "37207157",
+      "22470345",
+      "31399301",
+      "37503032",
+      "37534464",
+      "34675187",
+      "37084237",
+      "36243980",
+      "37537495",
+      "31559923",
+      "37030149",
+      "26338710",
+      "24747418",
+      "34879708",
+      "35021856",
+      "29884909",
+      "36824368",
+      "32457253",
+      "35789215",
+      "32268117",
+      "36892728",
+      "31811867",
+      "31409295",
+      "34433297",
+      "29325896",
+      "36411638",
+      "37554187"
+    ],
+    "review": [
+      "35615560",
+      "37025170",
+      "31109450",
+      "36897523",
+      "36077539",
+      "30597847",
+      "33189866"
+    ],
+    "pmc": [
+      "9124831"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35615560/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35615560",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcvm.2022.900978",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

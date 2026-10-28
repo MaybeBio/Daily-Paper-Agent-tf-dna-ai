@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.03.09.434598",
+  "title": "A linear response theory based method for prediction of large scale protein conformational changes upon ligand binding",
+  "authors": "Rajat Punia; Gaurav Goel",
+  "journal": "bioRxiv",
+  "published_date": "2021-03-10",
+  "window": {
+    "start": "2021-03-08",
+    "end": "2021-03-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于线性响应理论和正则模式激发的分子动力学方法预测配体诱导的蛋白质大尺度构象变化，虽涉及DNA β-葡萄糖基转移酶与配体结合，但核心是蛋白质-配体而非TF-DNA互作，方法可迁移至蛋白质-DNA结合构象变化研究。",
+  "abstract": "Prediction of ligand-induced protein conformational transitions is a challenging task due to a large and rugged conformational space, and limited knowledge of probable direction(s) of structure change. These transitions can involve a large scale, global (at the level of entire protein molecule) structural change and occur on a timescale of milliseconds to seconds, rendering application of conventional molecular dynamics simulations prohibitive even for small proteins. We have developed a computational protocol to efficiently and accurately predict these ligand-induced structure transitions solely from the knowledge of protein apo structure and ligand binding site. Our method involves a series of small scale conformational change steps, where at each step linear response theory is used to predict the direction of small scale global response to ligand binding in the protein conformational space ( d LRT ) followed by construction of a linear combination of slow (low frequency) normal modes (calculated for the structure from the previous step) that best overlaps with d LRT . Protein structure is evolved along this direction using molecular dynamics with excited normal modes (MDeNM) wherein excitation energy along each normal mode is determined by excitation temperature, mode frequency, and its overlap with d LRT . We show that excitation temperature (ΔT) is a very important parameter that allows limiting the extent of structural change in any one step and develop a protocol for automated determination of its optimal value at each step. We have tested our protocol for three protein–ligand systems, namely, adenylate Kinase – di(adenosine-5’)pentaphosphate, ribose binding protein – β -D-ribopyranose, and DNA β -glucosyltransferase – uridine-5’-diphosphate, that incorporate important differences in type and range of structural changes upon ligand binding. We obtain very accurate prediction for not only the structure of final protein–ligand complex (holo-structure) having a large scale conformational change, but also for biologically relevant intermediates between the apo and the holo structures. Moreover, most relevant set of normal modes for conformational change at each step are an output from our method, which can be used as collective variables for determination of free energy barriers and transition timescales along the identified pathway.",
+  "abstract_zh": "预测配体诱导的蛋白质构象转变是一项具有挑战性的任务，原因在于构象空间庞大且崎岖不平，且对结构变化可能方向的知识有限。这些转变可能涉及大规模、全局性（在整体蛋白质分子水平上）的结构变化，并在毫秒到秒的时间尺度上发生，这使得即使对于小蛋白质，传统分子动力学 (molecular dynamics) 模拟的应用也变得不可行。我们开发了一种计算协议，仅凭蛋白质的 apo 结构和配体结合位点知识，即可高效且准确地预测这些配体诱导的结构转变。我们的方法涉及一系列小规模构象变化步骤，其中每一步使用线性响应理论 (linear response theory) 预测配体结合在蛋白质构象空间中引起的小规模全局响应方向（d LRT），随后构建与 d LRT 最佳重叠的慢（低频）简正模式 (normal modes)（根据上一步结构计算）的线性组合。蛋白质结构沿此方向通过激发简正模式的分子动力学 (MDeNM) 演化，其中每个简正模式的激发能量由激发温度、模式频率及其与 d LRT 的重叠决定。我们表明，激发温度（ΔT）是一个非常重要的参数，它允许限制任何一步中结构变化的程度，并开发了一种自动确定每一步最优值的协议。我们已针对三个蛋白质-配体系统测试了我们的协议，即腺苷酸激酶 (adenylate Kinase) – 二(腺苷-5')五磷酸，核糖结合蛋白 (ribose binding protein) – β-D-吡喃核糖，以及 DNA β-葡萄糖基转移酶 – 尿苷-5'-二磷酸，这些系统在配体结合时结构变化的类型和范围上包含重要差异。我们不仅对具有大规模构象变化的最终蛋白质-配体复合物（holo 结构）的结构获得了非常准确的预测，而且对 apo 和 holo 结构之间的生物学相关中间体也获得了准确预测。此外，每一步构象变化最相关的简正模式集合是我们方法的输出，这些模式可用作集体变量，用于确定沿识别路径的自由能垒和转变时间尺度。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.03.09.434598",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.03.09.434598",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.03.09.434598/index.html"
+}

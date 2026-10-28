@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38758956",
+  "title": "Learning Micro-C from Hi-C with diffusion models.",
+  "authors": "Liu, Tong; Zhu, Hao; Wang, Zheng",
+  "journal": "PLoS computational biology",
+  "published_date": "2024-05-17",
+  "window": {
+    "start": "2024-05-13",
+    "end": "2024-05-19"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用扩散模型从Hi-C预测Micro-C染色质互作图，虽涉及染色质三维结构建模，但核心是染色质互作而非蛋白质-DNA结合，且未涉及TF-DNA特异性互作机制，仅方法上对AI建模有间接启发。",
+  "abstract": "In the last few years, Micro-C has shown itself as an improved alternative to Hi-C. It replaced the restriction enzymes in Hi-C assays with micrococcal nuclease (MNase), resulting in capturing nucleosome resolution chromatin interactions. The signal-to-noise improvement of Micro-C allows it to detect more chromatin loops than high-resolution Hi-C. However, compared with massive Hi-C datasets available in the literature, there are only a limited number of Micro-C datasets. To take full advantage of these Hi-C datasets, we present HiC2MicroC, a computational method learning and then predicting Micro-C from Hi-C based on the denoising diffusion probabilistic models (DDPM). We trained our DDPM and other regression models in human foreskin fibroblast (HFFc6) cell line and evaluated these methods in six different cell types at 5-kb and 1-kb resolution. Our evaluations demonstrate that both HiC2MicroC and regression methods can markedly improve Hi-C towards Micro-C, and our DDPM-based HiC2MicroC outperforms regression in various terms. First, HiC2MicroC successfully recovers most of the Micro-C loops even those not detected in Hi-C maps. Second, a majority of the HiC2MicroC-recovered loops anchor CTCF binding sites in a convergent orientation. Third, HiC2MicroC loops share genomic and epigenetic properties with Micro-C loops, including linking promoters and enhancers, and their anchors are enriched for structural proteins (CTCF and cohesin) and histone modifications. Lastly, we find our recovered loops are also consistent with the loops identified from promoter capture Micro-C (PCMicro-C) and Chromatin Interaction Analysis by Paired-End Tag Sequencing (ChIA-PET). Overall, HiC2MicroC is an effective tool for further studying Hi-C data with Micro-C as a template. HiC2MicroC is publicly available at https://github.com/zwang-bioinformatics/HiC2MicroC/.",
+  "abstract_zh": "近年来，Micro-C 已展现出作为 Hi-C 改进替代方案的优势。它用微球菌核酸酶（MNase）替代了 Hi-C 检测中的限制性酶，从而能够捕获核小体分辨率的染色质相互作用。Micro-C 信噪比的提升使其能够检测到比高分辨率 Hi-C 更多的染色质环。然而，与文献中大量可用的 Hi-C 数据集相比，Micro-C 数据集的数量有限。为了充分利用这些 Hi-C 数据集，我们提出了 HiC2MicroC，这是一种基于去噪扩散概率模型（DDPM）的计算方法，能够学习并从 Hi-C 预测 Micro-C。我们在人包皮成纤维细胞（HFFc6）细胞系中训练了我们的 DDPM 及其他回归模型，并在六种不同细胞类型中以 5-kb 和 1-kb 分辨率评估了这些方法。我们的评估表明，HiC2MicroC 和回归方法均能显著将 Hi-C 改善至 Micro-C 水平，而基于 DDPM 的 HiC2MicroC 在多个方面优于回归方法。首先，HiC2MicroC 成功恢复了大多数 Micro-C 环，甚至包括那些在 Hi-C 图谱中未检测到的环。其次，HiC2MicroC 恢复的环中，大多数锚定在 CTCF 结合位点，并呈会聚方向。第三，HiC2MicroC 环与 Micro-C 环共享基因组和表观遗传特性，包括连接启动子和增强子，其锚点富集了结构蛋白（CTCF 和黏连蛋白）及组蛋白修饰。最后，我们发现恢复的环也与通过启动子捕获 Micro-C（PCMicro-C）和配对末端标签测序染色质相互作用分析（ChIA-PET）鉴定的环一致。总体而言，HiC2MicroC 是以 Micro-C 为模板进一步研究 Hi-C 数据的有效工具。HiC2MicroC 可在 https://github.com/zwang-bioinformatics/HiC2MicroC/ 公开获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38758956/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38758956/",
+  "paper_page_path": "papers/pubmed/38758956/index.html"
+}

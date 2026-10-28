@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "40615101",
+    "doi": "10.1016/j.jep.2025.120241",
+    "title": "Integrated network pharmacology and experimental validation reveal EGFR/p53/Bcl-2-mediated anti-hepatocellular carcinoma effects of Zedoary Turmeric Oil."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Curcumae Rhizoma, a traditional Chinese medicine derived from the dried rhizome of Curcuma species, has long been used to treat liver-related disorders. In the classical medical text Taiping Shenghui Fang, it was recorded for the treatment of hepatocellular carcinoma (HCC) characterized by Qi stagnation and blood stasis. Its major chemical constituents include curcumin and Zedoary Turmeric Oil (ZTO). While curcumin has been extensively studied for its pharmacological activities, the therapeutic potential and mechanism of ZTO in HCC remain insufficiently understood. AIM: ZTO is a volatile oil fraction extracted from Curcumae Rhizoma, and preliminary studies have suggested its potential anti-hepatocellular carcinoma effects. However, the underlying mechanisms remain unclear. This study aimed to elucidate the molecular mechanisms of ZTO against HCC through an integrated approach combining network pharmacology and experimental validation. METHODS: An H22 xenograft tumor model was established to evaluate the in vivo anti-tumor efficacy of ZTO. The antiproliferative effects of ZTO on HCC cells were assessed in vitro using MTT and colony formation assays. The synergistic effects of ZTO and sorafenib were evaluated using MTT and tumor sphere-forming assay. The chemical constituents of ZTO were identified by gas chromatography-mass spectrometry (GC-MS). Potential targets of ZTO and HCC were retrieved from public databases, and protein-protein interaction (PPI) networks were constructed using the STRING database. Key hub targets were identified using CytoNCA, CytoHubba, and MCODE, followed by molecular dynamics simulations and molecular docking. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were performed using the DAVID database. Following network pharmacology predictions of ZTO's potential mechanism against HCC, we systematically validated these computational findings through experiments in vitro and in vivo. Finally, the pharmacokinetic study of the four active components (curcumol, beta-elemene, germacrone, and curdione) in ZTO was conducted using GC-MS. RESULTS: ZTO significantly inhibited tumor growth in xenograft model. In vitro, ZTO suppressed the proliferation of HCC cells, and it exhibited a synergistic effect when combined with sorafenib. A total of 174 overlapping targets between ZTO and HCC were identified. Among them, EGFR, p53 and Bcl-2 were recognized as key targets. The major compounds and target proteins had a good binding ability in molecular docking and molecular dynamics. GO and KEGG enrichment analyses suggested that ZTO may regulate apoptosis, cell cycle progression, and migration through the EGFR/p53/Bcl-2 signaling axis. Additionally, pathways associated with stem cell pluripotency were significantly enriched. Subsequent experimental validation confirmed that ZTO promoted apoptosis, induced G1-phase arrest, and inhibited cell migration via the EGFR/p53/Bcl-2 axis. Furthermore, ZTO reduced the size of HCC tumor spheres in a dose-dependent manner and downregulated the expression of stemness-related markers, including CD44, CD133, Oct-4, SOX2, and Nanog, both in vitro and in vivo, potentially through modulation of the Wnt/beta-catenin signaling pathway. Pharmacokinetic analysis indicated that curcumol and curdione exhibited higher bioavailability compared to beta-elemene and germacrone. CONCLUSION: Through an integrated approach combining network pharmacology and experimental validation, this study demonstrates that ZTO exerts anti-HCC effects by inhibiting cell proliferation and migration, inducing apoptosis, and causing G1-phase cell cycle arrest, primarily through modulation of the EGFR/p53/Bcl-2 signaling axis. In addition, ZTO significantly suppresses cancer stemness in HCC by downregulating key stemness-related markers. Finally, the pharmacokinetic study showed curcumol and curdione have higher bioavailability and faster absorption than beta-elemene and germacrone. These findings provide novel mechanistic insights into the anti-HCC activity of ZTO and offer a theoretical foundation for its future clinical application.",
+    "keywords": [
+      "Cancer stemness",
+      "EGFR signaling",
+      "Hepatocellular carcinoma",
+      "Network pharmacology",
+      "Zedoary turmeric oil"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Carcinoma, Hepatocellular/drug therapy/pathology/metabolism",
+      "Humans",
+      "*Liver Neoplasms/drug therapy/pathology/metabolism",
+      "Network Pharmacology",
+      "*Curcuma/chemistry",
+      "ErbB Receptors/metabolism",
+      "Mice",
+      "Proto-Oncogene Proteins c-bcl-2/metabolism",
+      "Cell Line, Tumor",
+      "Xenograft Model Antitumor Assays",
+      "*Plant Oils/pharmacology",
+      "*Antineoplastic Agents, Phytogenic/pharmacology/isolation & purification",
+      "Tumor Suppressor Protein p53/metabolism",
+      "Cell Proliferation/drug effects",
+      "*Oils, Volatile/pharmacology",
+      "Male",
+      "Sorafenib/pharmacology",
+      "Molecular Docking Simulation",
+      "Protein Interaction Maps"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhong, Min",
+        "Li, Yingpeng",
+        "Wang, Hui",
+        "Fan, Ni",
+        "Chu, Xinhong",
+        "Liu, Liang",
+        "Zhao, Chengcheng",
+        "Sun, Yujiao",
+        "Zhang, Shuai",
+        "Fu, Hui"
+      ],
+      "short_names": [
+        "Zhong M",
+        "Li Y",
+        "Wang H",
+        "Fan N",
+        "Chu X",
+        "Liu L",
+        "Zhao C",
+        "Sun Y",
+        "Zhang S",
+        "Fu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+        "College of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+        "College of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+        "College of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+        "College of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+        "College of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+        "Experimental Teaching and Practical Training Center, Heilongjiang University of Chinese Medicine, Harbin, China.",
+        "College of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin, China.",
+        "College of Integrated Chinese and Western Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, China. Electronic address: shuaizhang@tjutcm.edu.cn.",
+        "College of Integrated Chinese and Western Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, China. Electronic address: fuh0050@tjutcm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhong, Min",
+        "short_name": "Zhong M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yingpeng",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hui",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Ni",
+        "short_name": "Fan N",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Chu, Xinhong",
+        "short_name": "Chu X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Liang",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Chengcheng",
+        "short_name": "Zhao C",
+        "identifiers": [],
+        "affiliations": [
+          "Experimental Teaching and Practical Training Center, Heilongjiang University of Chinese Medicine, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yujiao",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chinese Materia Medica, Tianjin University of Traditional Chinese Medicine, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shuai",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrated Chinese and Western Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, China. Electronic address: shuaizhang@tjutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Fu, Hui",
+        "short_name": "Fu H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrated Chinese and Western Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin, China. Electronic address: fuh0050@tjutcm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2025 Aug 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/05 00:28",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [
+      "42284354",
+      "42272259",
+      "42220063",
+      "42115559",
+      "41772397",
+      "41614206"
+    ],
+    "refs": [],
+    "similar": [
+      "40615101",
+      "40543694",
+      "40316156",
+      "40322038",
+      "40057142",
+      "41293954",
+      "35318816",
+      "40261593",
+      "41395282",
+      "40902811",
+      "38816744",
+      "39586558",
+      "39093467",
+      "39301883",
+      "38520835",
+      "39427522",
+      "35456457",
+      "41357200",
+      "39419302",
+      "40883741",
+      "40694904",
+      "39871242",
+      "40397117",
+      "40242448",
+      "40452077",
+      "41308710",
+      "30882292",
+      "39071814",
+      "40499802",
+      "38310567",
+      "40147679",
+      "33341052",
+      "38467318",
+      "39544939",
+      "38040415",
+      "36043445",
+      "33932512",
+      "38381309",
+      "34384755",
+      "38845538",
+      "41241207",
+      "39396715",
+      "39052060",
+      "24199734",
+      "41242299",
+      "41130376",
+      "38941043",
+      "38403323",
+      "40685472",
+      "33866197",
+      "31158732",
+      "40086489",
+      "35953761",
+      "41058697",
+      "40412057",
+      "40634475",
+      "37453868",
+      "40571228",
+      "41016296",
+      "39510424",
+      "41127994",
+      "38032489",
+      "29197300",
+      "36158488",
+      "40286672",
+      "35777610",
+      "30551496",
+      "40699718",
+      "36234758",
+      "36403742",
+      "40255473",
+      "39933268",
+      "38446216",
+      "36883114",
+      "41135273",
+      "27806329",
+      "39023830",
+      "41386101",
+      "40676786",
+      "39735272",
+      "38822913",
+      "40338446",
+      "38493718",
+      "38110130",
+      "22559167",
+      "38417600",
+      "28284560",
+      "40486881",
+      "41097228",
+      "41126368",
+      "26141759",
+      "40816715",
+      "38042385",
+      "33915505",
+      "34619160",
+      "40259252",
+      "35351639",
+      "39256453",
+      "39346898",
+      "29363722"
+    ],
+    "review": [
+      "40615101",
+      "40397117"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(25)00931-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-668",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

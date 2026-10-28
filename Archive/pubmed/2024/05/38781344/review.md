@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, methodological soundness, and resource utility as presented in the text; visual data (figures, tables) not directly assessable
+- **Shared manuscript claim summary** The authors construct a comprehensive atlas of brain-active candidate cis-regulatory elements (b-cCREs) by integrating PsychENCODE and ENCODE data, use deep learning to model sequence syntax and predict cell type–specific regulatory activity, and analyze evolutionary conservation and heritability enrichment to link these elements to brain-related traits. They also introduce PsychSCREEN, a web-based visualization platform.
+- **Visible evidence base** Text descriptions of results, methods, and data availability statements; no figures, tables, or supplementary files provided
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, and the PsychSCREEN web platform itself; these are essential for verifying quantitative claims, model performance, and atlas comprehensiveness
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial and potentially valuable resource in the form of a brain cis-regulatory element atlas, accompanied by deep learning models and a user-facing visualization platform. The scope is ambitious and the integration of multiple data types is commendable. However, the current submission, as assessed from text alone, leaves several critical questions unanswered regarding the rigor of the atlas construction, the validation of the predictive models, and the robustness of the evolutionary and heritability analyses. The claims of comprehensiveness and biological insight are plausible but not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in neurogenomics, regulatory genomics, and psychiatric genetics would be the primary audience. The b-cCRE atlas and PsychSCREEN platform offer a resource for annotating noncoding variants from psychiatric GWAS and for studying cell type–specific gene regulation in the brain. Evolutionary biologists interested in regulatory element turnover in mammals may also find the conservation analyses relevant.
+- **Major strengths** 1) The integration of a large volume of epigenetic data from multiple consortia to create a unified atlas is a significant undertaking with clear utility. 2) The application of deep learning (ChromBPNet) to model chromatin accessibility and predict TF binding sites in a cell type–specific manner is methodologically current and powerful. 3) The combination of evolutionary conservation analysis with heritability enrichment provides a multi-faceted approach to prioritize functionally relevant elements. 4) The development of PsychSCREEN as a public resource enhances the accessibility and potential impact of the data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The atlas of 361,844 b-cCREs is described as "comprehensive" and "one of the most comprehensive collections of brain-active regulatory information available to date."
+  - **Evidence pointer** Results section "Chromatin accessibility identifies candidate fetal and adult brain-active regulatory elements"; Methods section "Defining b-cCREs"
+  - **Concern** The definition of b-cCREs relies on a consensus approach using DNase-seq data from a limited number of adult (96) and fetal (14) brain samples. The claim of comprehensiveness is difficult to evaluate without a detailed analysis of the sensitivity and specificity of this approach. How was the threshold of five supporting experiments chosen? What is the estimated recall of true brain-active regulatory elements? How do the authors account for the variable quality and depth of the underlying ENCODE experiments? A comparison to the union of all elements identified by individual experiments, or to other atlases, is necessary to support the comprehensiveness claim.
+  - **Why it matters** The utility of the atlas as a reference resource depends critically on its completeness and accuracy. If the consensus approach is too stringent, it will miss many genuine regulatory elements; if too lenient, it will include many false positives. Without a rigorous assessment of these parameters, the central resource of the paper is not fully validated.
+  - **Resolution test** Provide a detailed characterization of the b-cCRE set, including estimates of recall and precision using independent data (e.g., validated enhancers, eQTLs, or additional ATAC-seq datasets). Show a saturation analysis demonstrating that the number of identified elements plateaus with the number of experiments. Compare the b-cCRE set to existing brain regulatory element annotations to demonstrate its added value.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The ChromBPNet models "predict how binding sites for lineage-specific transcription factors contribute to cell type–specific gene regulation" and can "learn to impute footprints around TF binding sites to give insight into whether they are occupied."
+  - **Evidence pointer** Results section "Deep neural networks predict chromatin accessibility at subsets of b-cCREs"; Methods section "Building ChromBPNet models of chromatin accessibility"
+  - **Concern** The manuscript states that models were trained for four bulk ATAC-seq experiments and several pseudobulk scATAC-seq datasets, and that they "passed the quality control standards recommended by ChromBPNet." However, no quantitative performance metrics (e.g., AUPRC, correlation between predicted and observed accessibility) are provided in the text. The biological validation of the models is indirect, relying on enrichment of cell type–specific b-cCREs. The claim that the models provide insight into TF occupancy is a strong interpretation of ChromBPNet's capabilities, which are primarily predictive of accessibility, not direct measurements of binding.
+  - **Why it matters** The predictive models are a core component of the paper's contribution. Without clear performance metrics, it is impossible to assess their reliability for downstream applications, such as variant prioritization. Overstating the interpretability of the models (e.g., inferring TF occupancy from imputed footprints) could mislead users.
+  - **Resolution test** Report standard performance metrics for each ChromBPNet model (e.g., AUPRC on held-out chromosomes). Validate the imputed footprints against independent TF binding data (e.g., ChIP-seq) for a subset of TFs. Clearly distinguish between predictions of accessibility and evidence of TF binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "Primate-specific candidate elements, particularly those active during fetal brain development and in excitatory neurons and astrocytes, are implicated in the heritability of brain-related human traits."
+  - **Evidence pointer** Results section "Neuron-specific and fetal-specific b-cCREs are most conserved across mammals, while other classes are actively evolving"; Methods section "LD score regression"
+  - **Concern** The heritability enrichment analysis is a key finding, but the text does not provide the necessary statistical details. Which specific brain-related traits show significant enrichment? What are the effect sizes and confidence intervals? The claim that "primate-specific" elements are implicated is based on a small subset of b-cCREs (G3 group), and the analysis may be underpowered. The text mentions a "sevenfold heritability enrichment" for human-specific b-cCREs but with a "large standard error," which raises concerns about the robustness of this specific finding.
+  - **Why it matters** The link between evolutionary novelty and disease heritability is a compelling narrative. However, if the statistical evidence is weak or the analysis is not properly controlled for multiple testing or linkage disequilibrium structure, the conclusion could be overstated. This is a central claim that needs to be rigorously supported.
+  - **Resolution test** Provide a comprehensive table of heritability enrichment results for all trait categories and b-cCRE subgroups, including effect sizes, standard errors, and p-values. Clearly state how multiple testing was handled. Discuss the power limitations for rare subgroups like human-specific elements.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The introduction of PsychSCREEN as a "web-based platform offering interactive visualization of PsychENCODE-generated genetic and epigenetic data."
+  - **Evidence pointer** Results section "PsychSCREEN offers interactive visualization of brain regulatory elements and associated annotations"; Methods section "PsychSCREEN implementation"
+  - **Concern** While the existence of the platform is mentioned, its functionality, data content, and usability are not described in sufficient detail. The text mentions four "portals" and an API, but there is no description of the user interface, the types of queries supported, or the specific datasets available beyond the b-cCREs and ChromBPNet scores. The claim that it offers access to "PsychENCODE-generated genetic and epigenetic data" is broad and needs clarification.
+  - **Why it matters** A web resource is only valuable if it is functional, well-documented, and meets the needs of its target community. Without a clear description of its features and data, potential users cannot assess its utility. This is a significant part of the paper's contribution.
+  - **Resolution test** Provide a more detailed description of PsychSCREEN's features, including a summary of the data types and queries supported. Include screenshots or a user guide in the supplementary materials. If possible, provide a link to a live demo or the production site for reviewers to test.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The opening sentence, "Most genetic variants associated with psychiatric disorders are located in noncoding regions of the genome," is clear, but the subsequent discussion of "candidate brain cis-regulatory elements" and "sequence syntax" may be jargon-heavy for a general scientific audience.
+  - **Required correction** Briefly define what a cis-regulatory element is and what is meant by "sequence syntax" in the context of this work, perhaps with a simple analogy.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Defining b-cCREs"
+  - **Evidence pointer** Methods section "Defining b-cCREs"
+  - **Issue** The description of the consensus approach is clear, but the rationale for the specific thresholds (e.g., five experiments, z-score > 1.64) is not fully explained.
+  - **Required correction** Add a sentence or two explaining how these thresholds were chosen, e.g., based on previous ENCODE analyses or a trade-off between sensitivity and specificity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Identifying enriched TF motifs"
+  - **Evidence pointer** Methods section "Identifying enriched TF motifs using random forest classification and AME"
+  - **Issue** The text mentions that "Ten random forest classifiers were trained" and that "motifs having at least 25 instances in each set" were used. The choice of these parameters is not justified.
+  - **Required correction** Briefly state why these parameters were selected, e.g., to ensure stability of the feature importance estimates and to avoid rare motifs with unreliable statistics.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The statement "our results suggest that smaller sequence mutations within mammalian-conserved elements are more common among b-cCREs than emergence of entirely new human- or primate-specific sequences" is a key conclusion but is presented without a clear explanation of the evidence.
+  - **Required correction** Briefly restate the evidence from the conservation analysis (e.g., the distribution of elements in the alignment triangle) that supports this conclusion.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (atlas comprehensiveness), R1-M2 (model performance metrics), R1-M3 (statistical rigor of heritability analysis)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The work is original in its integration of a large-scale atlas with deep learning models and evolutionary analysis. The concept of a comprehensive brain regulatory atlas is not entirely new, but the scale and the specific combination of analyses offer a novel contribution.  
+  - **Scientific importance** The potential importance is high, given the need for better annotation of noncoding variants in psychiatric genetics. The resource could be widely used. However, the importance is contingent on the atlas's quality and the models' reliability, which are not fully demonstrated.  
+  - **Interdisciplinary readership** The topic is of interest to geneticists, neuroscientists, and computational biologists. The writing is generally clear but may be too technical for a broader audience without some simplification.  
+  - **Technical soundness** The methodological approach is sound in principle, but the lack of quantitative validation for the core resources (atlas, models) is a significant weakness. The statistical analyses need more detail to be fully assessed.  
+  - **Readability for nonspecialists** The abstract and introduction are accessible, but the results and methods sections are dense and will be challenging for non-experts. The paper would benefit from clearer explanations of key concepts and a more prominent summary of the main findings' implications.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript describes a potentially valuable resource, but the current evidence is insufficient to fully establish the claims of comprehensiveness and predictive power. A major revision with additional validation and detailed reporting of results is required.
+
+## Risk / unsupported claims
+- The claim that the b-cCRE atlas is "comprehensive" is not supported by quantitative analysis of recall or comparison to other resources.
+- The claim that ChromBPNet models provide insight into TF occupancy is an over-interpretation of the method's capabilities without direct validation.
+- The specific claim of "sevenfold heritability enrichment" for human-specific b-cCREs is presented with a caveat of a large standard error, making its significance unclear.
+- The utility and functionality of the PsychSCREEN platform cannot be assessed from the text alone.

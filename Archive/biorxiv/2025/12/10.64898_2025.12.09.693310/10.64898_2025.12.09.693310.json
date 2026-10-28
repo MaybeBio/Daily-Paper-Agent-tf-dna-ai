@@ -1,0 +1,682 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.09.693310",
+  "title": "Kar4 acts as a Ste12 regulator in <i>Saccharomyces cerevisiae</i> , promoting Ste12 binding to a specific DNA motif genome-wide",
+  "doi": "10.64898/2025.12.09.693310",
+  "abstract": "Kar4 is a putative transcription factor required for efficient mating in the budding yeast Saccharomyces cerevisiae . Kar4 functions with Ste12, the master transcriptional regulator of the yeast mating pheromone response, to promote the transcription of a subset of Ste12 targets required for mating. However, the mechanism by which Kar4 modulates Ste12 activity has remained uncertain. Here, we examined Kar4’s function at the levels of transcription (RNA-seq) and Ste12 DNA binding (ChIP-exo). We show that Kar4 promotes Ste12 binding to nearly all Ste12 DNA-binding sites associated with transcriptionally-upregulated genes, even if their upregulation is not dependent on Kar4. We further found that the majority of Ste12-binding sites have two pheromone response elements (PREs) separated by four nucleotides in a head-to-tail orientation (H-T 4 motif). Sites associated with Kar4-dependent transcription have PREs with more mismatches and substantially lower Ste12 occupancy in kar4 Δ cells than sites linked to Kar4-independent transcription. During the pheromone response in kar4 Δ cells, Ste12 exhibits increased binding to non-H-T 4 motifs, particularly T-T 3 motifs, resulting in the abnormal upregulation of many genes not transcribed during the wild-type pheromone response. Therefore, we propose that Kar4 functions by increasing the DNA-binding specificity of Ste12 globally, promoting its binding primarily to H-T 4 motifs. Our model is consistent with previously-observed slower induction kinetics of Kar4-dependent genes via a feed-forward mechanism. Lastly, we uncovered several novel aspects of the pheromone response, including a broad role for the Crz1 transcription factor, induction of stress responses, and the identification of pheromone-responsive intergenic transcripts.",
+  "authors": [
+    "Jason V. Rogers",
+    "Amanda Yeo",
+    "Val Meleshkevich",
+    "Hernan Lorenzi",
+    "Mark D. Rose",
+    "Orna Cohen-Fix"
+  ],
+  "published_date": "2025-12-12",
+  "updated_date": "2025-12-12T19:45:26Z",
+  "journal": "bioRxiv",
+  "category": "Genetics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693310",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693310.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genetics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genetics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T13:15:33Z",
+        "timestamp": 1785417333210,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            12
+          ]
+        ]
+      },
+      "group-title": "Genetics",
+      "reference-count": 70,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                12
+              ]
+            ],
+            "date-time": "2025-12-12T00:00:00Z",
+            "timestamp": 1765497600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "DK057807-19"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DK057807-19"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/00adh9b73",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "R35GM126998"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35GM126998"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/04q48ey07",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Kar4 is a putative transcription factor required for efficient mating in the budding yeast\n                  <jats:italic>Saccharomyces cerevisiae</jats:italic>\n                  . Kar4 functions with Ste12, the master transcriptional regulator of the yeast mating pheromone response, to promote the transcription of a subset of Ste12 targets required for mating. However, the mechanism by which Kar4 modulates Ste12 activity has remained uncertain. Here, we examined Kar4’s function at the levels of transcription (RNA-seq) and Ste12 DNA binding (ChIP-exo). We show that Kar4 promotes Ste12 binding to nearly all Ste12 DNA-binding sites associated with transcriptionally-upregulated genes, even if their upregulation is not dependent on Kar4. We further found that the majority of Ste12-binding sites have two pheromone response elements (PREs) separated by four nucleotides in a head-to-tail orientation (H-T 4 motif). Sites associated with Kar4-dependent transcription have PREs with more mismatches and substantially lower Ste12 occupancy in\n                  <jats:italic>kar4</jats:italic>\n                  Δ cells than sites linked to Kar4-independent transcription. During the pheromone response in\n                  <jats:italic>kar4</jats:italic>\n                  Δ cells, Ste12 exhibits increased binding to non-H-T 4 motifs, particularly T-T 3 motifs, resulting in the abnormal upregulation of many genes not transcribed during the wild-type pheromone response. Therefore, we propose that Kar4 functions by increasing the DNA-binding specificity of Ste12 globally, promoting its binding primarily to H-T 4 motifs. Our model is consistent with previously-observed slower induction kinetics of Kar4-dependent genes via a feed-forward mechanism. Lastly, we uncovered several novel aspects of the pheromone response, including a broad role for the Crz1 transcription factor, induction of stress responses, and the identification of pheromone-responsive intergenic transcripts.\n                </jats:p>",
+      "DOI": "10.64898/2025.12.09.693310",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            12
+          ]
+        ],
+        "date-time": "2025-12-12T19:45:26Z",
+        "timestamp": 1765568726000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Kar4 acts as a Ste12 regulator in\n                  <i>Saccharomyces cerevisiae</i>\n                  , promoting Ste12 binding to a specific DNA motif genome-wide"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7851-6355",
+          "authenticated-orcid": false,
+          "given": "Jason V.",
+          "family": "Rogers",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-9985-6687",
+          "authenticated-orcid": false,
+          "given": "Amanda",
+          "family": "Yeo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-7209-2525",
+          "authenticated-orcid": false,
+          "given": "Val",
+          "family": "Meleshkevich",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0910-7894",
+          "authenticated-orcid": false,
+          "given": "Hernan",
+          "family": "Lorenzi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1112-4765",
+          "authenticated-orcid": false,
+          "given": "Mark D.",
+          "family": "Rose",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5682-1287",
+          "authenticated-orcid": false,
+          "given": "Orna",
+          "family": "Cohen-Fix",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/75556"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/msb.20178024"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.peptides.2004.10.002"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bonfield, J. K. , J. Marshall , P. Danecek , H. Li , V. Ohan et al., 2021 HTSlib: C library for reading/writing high-throughput sequencing data. Gigascience 10.",
+          "DOI": "10.1093/gigascience/giab007"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/84792"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja3088407"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.02053-05"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature03998"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.10.22.2831"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.849004"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.111.127456"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Danecek, P. , J. K. Bonfield , J. Liddle , J. Marshall , V. Ohan et al., 2021 Twelve years of SAMtools and BCFtools. Gigascience 10.",
+          "DOI": "10.1093/gigascience/giab008"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr993"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bth078"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts635"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1805882115"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bth326"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ensinck, I. , A. Maman , W. S. Albihlal , M. Lassandro , G. Salzano et al., 2023 The yeast RNA methylation complex consists of conserved yet reconfigured components with m6A-dependent and independent roles. Elife 12.",
+          "DOI": "10.7554/eLife.87860"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/EC.00270-06"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.19.1.817"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.22",
+          "unstructured": "Gene Ontology, C., S. A. Aleksander , J. Balhoff , S. Carbon , J. M. Cherry et al., 2023 The Gene Ontology knowledgebase in 2023. Genetics 224."
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature02046"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.114.161620"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Grant, C. E. , and T. L. Bailey , 2021 XSTREME: Comprehensive motif analysis of biological sequence datasets. bioRxiv.",
+          "DOI": "10.1101/2021.09.02.458722"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr064"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2007-8-2-r24"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/msb.20199174"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.11.6.2952"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature15518"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(87)90491-0"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.126.4.911"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.16.8.3990"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.00439-06"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/msb.2010.64"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.36",
+          "unstructured": "Li, H. , 2013 Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM. arXiv."
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt656"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-014-0550-8"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.275.5304.1314"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "796",
+          "DOI": "10.1038/s41586-025-08916-0",
+          "article-title": "Low overlap of transcription factor DNA binding and regulatory targets",
+          "volume": "642",
+          "year": "2025",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.16.6.2830"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Park, Z. M. , E. Belnap , M. Remillard and M. D. Rose , 2023a Vir1p, the yeast homolog of virilizer, is required for mRNA m6A methylation and meiosis. Genetics 224.",
+          "DOI": "10.1093/genetics/iyad043"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1010898",
+          "DOI": "10.1371/journal.pgen.1010898",
+          "article-title": "Kar4 is required for the normal pattern of meiotic gene expression",
+          "volume": "19",
+          "year": "2023",
+          "journal-title": "PLoS Genet"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1010896"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.17.11.6410"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1011710",
+          "DOI": "10.1371/journal.pgen.1011710",
+          "article-title": "Basal association of a transcription factor favors early gene expression",
+          "volume": "21",
+          "year": "2025",
+          "journal-title": "PLoS Genet"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw257"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2011.11.013"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.287.5454.873"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1754"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03314-8"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-05265-7"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg630"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bth349"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "99",
+          "DOI": "10.1186/s13059-022-02671-5",
+          "article-title": "PEGR: a flexible management platform for reproducible epigenomic and genomic research",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Genome Biol"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.semcdb.2022.02.003"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/biostatistics/kxw041"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0960-9822(00)00413-9"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1742-4658.2010.07728.x"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.60",
+          "doi-asserted-by": "crossref",
+          "first-page": "75",
+          "DOI": "10.1016/j.bbagrm.2016.08.007",
+          "article-title": "A matter of time - How transient transcription factor interactions create dynamic gene regulatory networks",
+          "volume": "1860",
+          "year": "2017",
+          "journal-title": "Biochim Biophys Acta Gene Regul Mech"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0960-9822(06)00118-7"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbs017"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.63",
+          "unstructured": "Van Arsdell, S. W. , and J. Thorner , 1987 Hormonal regulation of gene expression in yeast, pp. 325–332 in Transcriptional Control Mechanisms. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, N.Y."
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "142",
+          "DOI": "10.1016/j.meteno.2016.05.001",
+          "article-title": "The Saccharomyces cerevisiae pheromone-response is a metabolically active stationary phase for bio-production",
+          "volume": "3",
+          "year": "2016",
+          "journal-title": "Metab Eng Commun"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/EC.00333-09"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1089/cmb.2019.0466"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2019.05.111"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1089/omi.2011.0118"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.11.12.5910"
+        },
+        {
+          "key": "2025122212401151000_2025.12.09.693310v2.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(03)00301-5"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2025.12.09.693310",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:08:07Z",
+        "timestamp": 1782277687000
+      },
+      "score": 109.84923,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2025.12.09.693310"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            12
+          ]
+        ]
+      },
+      "references-count": 70,
+      "URL": "https://doi.org/10.64898/2025.12.09.693310",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/genetics/iyag051",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that StTGA2.1, a potato TGA protein lacking a full bZIP domain (termed a mini-TGA), compensates for salicylic acid deficiency when overexpressed, physically interacts with StTGA2.2 and StTGA2.3, does not detectably bind DNA, alters transcriptional regulation, activates StPRX07 via interaction with StTGA2.3, and may distort DNA conformation upon heterodimer binding based on structural modelling and molecular dynamics simulations. The authors propose that protein truncation can generate novel functions.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or supporting data are available
+- **Missing materials affecting confidence** Full manuscript, methods, figures, tables, supplementary information, statistical details, and raw data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that a truncated TGA transcription factor can acquire a novel regulatory function through protein-protein interactions rather than direct DNA binding. The claim that such mini-TGA proteins should not be automatically dismissed as loss-of-function mutants is conceptually valuable. However, the evidence base provided is insufficient to evaluate the technical soundness of the key claims. The mechanistic hypothesis regarding DNA conformational distortion is speculative and not supported by direct experimental evidence in the abstract. The study could be of interest to plant molecular biologists and those studying transcription factor evolution, but the current abstract does not provide enough detail to assess the robustness of the conclusions.
+- **Who would be interested in the results, and why** Plant molecular biologists studying salicylic acid-mediated immunity, researchers interested in transcription factor structure-function relationships, and evolutionary biologists examining how protein truncation can generate new functions. The work may also appeal to those studying class III peroxidases in plant defense.
+- **Major strengths** The conceptual framing that truncated transcription factors can have gain-of-function roles rather than being simple loss-of-function mutants is timely and thought-provoking. The combination of interaction studies, transcriptional analysis, transactivation assays, and structural modelling suggests a multi-pronged approach. The identification of a specific target gene (StPRX07) provides a concrete downstream readout.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that StTGA2.1 overexpression compensates for SA-deficiency and that StTGA2.1 interacts with StTGA2.3 to activate StPRX07.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not provide any quantitative data, statistical tests, or experimental controls to support the claim of compensation for SA-deficiency or the activation of StPRX07. No effect sizes, p-values, or replicate numbers are given. The transactivation assay is mentioned but not described in sufficient detail to assess its validity.
+  - **Why it matters** Without quantitative evidence and appropriate controls, the core functional claims cannot be distinguished from overexpression artifacts or non-specific effects. The conclusion that StTGA2.1 has a specific regulatory role depends on demonstrating that the observed effects are robust and specific.
+  - **Resolution test** Provide effect sizes, statistical significance, replicate numbers, and appropriate controls (e.g., empty vector, mutant versions of StTGA2.1) for the overexpression and transactivation experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that StTGA2.1 physically interacts with StTGA2.2 and StTGA2.3, while its interaction with DNA was not detected.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The methods used to assess protein-protein and protein-DNA interactions are not specified. It is unclear whether the interaction studies were performed in vitro, in vivo, or both. The lack of detected DNA binding could be due to assay limitations rather than a genuine absence of DNA-binding capacity.
+  - **Why it matters** The central mechanistic model depends on StTGA2.1 acting through heterodimerization rather than direct DNA binding. If the interaction assays are not robust or the DNA-binding assay lacks appropriate positive controls, the interpretation could be incorrect.
+  - **Resolution test** Specify the interaction assay methods (e.g., yeast two-hybrid, co-immunoprecipitation, electrophoretic mobility shift assay), include positive and negative controls, and demonstrate that the DNA-binding assay is capable of detecting binding by full-length TGA proteins.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for conclusions
+  - **Claim pointer** The authors hypothesise that the compact molecular architecture of StTGA2.1 distorts DNA conformation upon heterodimer binding to enable transcriptional activation.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This is presented as a hypothesis based on structural modelling and molecular dynamics simulations, but no details of the modelling approach, force fields, simulation times, or validation are provided. The link between simulated DNA distortion and transcriptional activation is not experimentally tested.
+  - **Why it matters** The proposed mechanism is a key conceptual contribution of the study. If the structural predictions are not validated experimentally or are based on questionable modelling assumptions, the mechanistic claim is unsupported.
+  - **Resolution test** Provide details of the structural modelling and simulation methods, validate the predicted DNA distortion with experimental approaches (e.g., DNA bending assays, FRET, or mutagenesis), and demonstrate that the proposed mechanism is required for transcriptional activation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of mini-TGA
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "mini-TGA" is introduced but not formally defined. It is unclear whether this refers to a specific truncation length, a conserved feature across species, or a novel classification.
+  - **Required correction** Provide a clear definition of mini-TGA, including the extent of truncation relative to full-length TGA proteins and whether this is a general phenomenon or specific to StTGA2.1.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Direct and indirect target genes
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions identifying direct and indirect target genes but does not indicate how many were found, what criteria were used, or whether any were validated beyond StPRX07.
+  - **Required correction** Summarize the number and types of target genes identified and specify the validation status of at least a subset.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Broader implications
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The final statement that truncation events should be studied in other protein families is a reasonable suggestion but is not supported by data from other families in this study.
+  - **Required correction** Frame this as a perspective or future direction rather than a conclusion derived from the present data.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative evidence, methodological detail, and experimental validation of the proposed mechanism. Without these, the core claims are not established.
+- **Assessment against Nature-style criteria** Originality is high, as the concept of mini-TGA proteins having gain-of-function roles is novel. Scientific importance is moderate to high for the plant immunity field, but the broader significance for transcription factor biology is not yet clear. Interdisciplinary readership is limited, as the work is primarily relevant to plant molecular biology and structural biology. Technical soundness cannot be assessed from the abstract alone, and the lack of methodological detail is a significant concern. Readability for nonspecialists is adequate, though the abstract assumes familiarity with TGA transcription factors and bZIP domains.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framing is promising, but the abstract does not provide sufficient experimental detail or quantitative support to evaluate the validity of the key claims. A full manuscript with detailed methods, controls, and statistical analyses would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim that StTGA2.1 overexpression compensates for SA-deficiency is unsupported without quantitative phenotypic or molecular data.
+- The claim that StTGA2.1 activates StPRX07 through interaction with StTGA2.3 is unsupported without details of the transactivation assay and appropriate controls.
+- The mechanistic hypothesis that StTGA2.1 distorts DNA conformation to enable transcriptional activation is speculative and not experimentally validated.
+- The general statement that protein truncation can lead to novel functions is presented as a conclusion but is only supported by a single example in this study.

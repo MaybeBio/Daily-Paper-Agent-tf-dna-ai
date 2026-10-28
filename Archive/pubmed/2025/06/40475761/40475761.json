@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "40475761",
+    "doi": "10.3389/fimmu.2025.1585895",
+    "title": "Transcriptomic insights into the mechanism of action of telomere-related biomarkers in rheumatoid arthritis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Rheumatoid arthritis (RA) is an autoimmune inflammatory disease. The mechanism by which telomeres are involved in the development of RA remains unclear. This study aimed to investigate the relationship between RA and telomeres. METHODS: In this study, we identified differentially expressed genes (DEGs) between RA and control samples by analyzing transcriptome data from a public database. Candidate genes were determined through the intersection of DEGs and telomere-related genes. Biomarkers were subsequently identified using machine learning algorithms, receiver operating characteristic analysis, and expression level comparisons between RA and control samples. Additionally, a nomogram model was employed to predict the diagnostic ability of biomarkers for RA. Subsequently, the potential mechanisms of these biomarkers in RA were further explored using gene set enrichment analysis (GSEA), subcellular localization, chromosome localization, immune infiltration, functional analysis, molecular regulatory networks, drug prediction, and molecular docking. Furthermore, the expression of biomarkers between RA and control samples was validated through in vitro experiments. RESULTS: ABCC4, S100A8, VAMP2, PIM2, and ISG20 were identified as biomarkers. These biomarkers demonstrated excellent diagnostic ability for RA through a nomogram. Most of the biomarkers were found to be enriched in processes related to allograft rejection and the cell cycle. Subcellular and chromosomal localization analyses indicated that ABCC4 is localized to the plasma membrane, ISG20 to the mitochondria, PIM2 and S100A8 to the cytoplasm, and VAMP2 to the nucleus. Additionally, nine differential immune cells were identified between RA and control samples, with a strong correlation observed between the biomarkers and activated CD4 memory T cells. S100A8, PIM2, and VAMP2 exhibited high similarity to other biomarkers. Furthermore, three transcription factors (TFs), 121 microRNAs (miRNAs), and six long non-coding RNAs (lncRNAs) were identified as targeted biomarkers. Five drugs-methotrexate, adefovir, furosemide, azathioprine, and cefmetazole-were also identified as targeted biomarkers. Notably, ABCC4 interacted with all five drugs and exhibited the strongest binding energy with methotrexate. The results of the in vitro experiments were consistent with those obtained from the bioinformatics analysis. CONCLUSION: This study identified five biomarkers-ABCC4, S100A8, VAMP2, PIM2, and ISG20-and offered new insights into potential therapeutic strategies for RA.",
+    "keywords": [
+      "autoimmune diseases",
+      "bioinformatics analysis",
+      "biomarkers",
+      "in vitro experiment",
+      "rheumatoid arthritis",
+      "telomeres"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Arthritis, Rheumatoid/genetics/diagnosis/immunology/metabolism",
+      "Biomarkers/metabolism",
+      "*Transcriptome",
+      "*Telomere/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Computational Biology/methods",
+      "Gene Regulatory Networks",
+      "Nomograms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feng, Lijuan",
+        "Bai, Kaiyong",
+        "He, Limeng",
+        "Wang, Hao",
+        "Zhang, Wei"
+      ],
+      "short_names": [
+        "Feng L",
+        "Bai K",
+        "He L",
+        "Wang H",
+        "Zhang W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nuclear Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, Sichuan, China.",
+        "Department of Nuclear Medicine, The First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China.",
+        "Department of Nuclear Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, Sichuan, China.",
+        "Department of Nuclear Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, Sichuan, China.",
+        "Department of Nuclear Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, Sichuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feng, Lijuan",
+        "short_name": "Feng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Kaiyong",
+        "short_name": "Bai K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, The First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "He, Limeng",
+        "short_name": "He L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hao",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wei",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, Sichuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/06 06:32",
+    "fetched_at": "2026-09-30 19:18:44"
+  },
+  "links": {
+    "cites": [
+      "42689101",
+      "42088513",
+      "41454175",
+      "41438762"
+    ],
+    "refs": [
+      "39840927",
+      "39592576",
+      "39426311",
+      "39308854",
+      "39080525",
+      "38936136",
+      "38590725",
+      "38542097",
+      "37988981",
+      "37885715",
+      "37573587",
+      "37250717",
+      "37033949",
+      "36618823",
+      "36618352",
+      "36524127",
+      "36401167",
+      "36299582",
+      "36280621",
+      "36189312",
+      "36148395",
+      "35947933",
+      "35898498",
+      "35837069",
+      "35751589",
+      "35602512",
+      "35011166",
+      "34864868",
+      "34557778",
+      "34305925",
+      "34278794",
+      "34187325",
+      "33801603",
+      "33791811",
+      "33546769",
+      "33257900",
+      "33122450",
+      "33060323",
+      "32942096",
+      "32931017",
+      "32913074",
+      "32743864",
+      "32708725",
+      "31830499",
+      "31728577",
+      "31697380",
+      "30619377",
+      "30328024",
+      "30062189",
+      "29228799",
+      "29103996",
+      "27385284",
+      "27247223",
+      "25879839",
+      "25516281",
+      "23977231",
+      "23937229",
+      "23777936",
+      "21414208",
+      "21327427",
+      "20465571",
+      "20179676",
+      "20100792",
+      "17445960",
+      "17312183",
+      "14597658"
+    ],
+    "similar": [
+      "40475761",
+      "41816328",
+      "41957428",
+      "42243611",
+      "39509434",
+      "39139563",
+      "41340627",
+      "42483176",
+      "36238290",
+      "41246299",
+      "42251905",
+      "40082645",
+      "38711508",
+      "41913032",
+      "39953769",
+      "41066424",
+      "39466354",
+      "40500570",
+      "33407587",
+      "42003657",
+      "41947915",
+      "41660070",
+      "40592131",
+      "42340574",
+      "42741539",
+      "40596265",
+      "34484236",
+      "42456406",
+      "41052072",
+      "41846910",
+      "41479901",
+      "39845946",
+      "40238799",
+      "38771826",
+      "40406126",
+      "41517693",
+      "41488645",
+      "42528732",
+      "38285375",
+      "40636121",
+      "41088461",
+      "38273392",
+      "40644421",
+      "40929681",
+      "40374840",
+      "41021591",
+      "39736250",
+      "34113405",
+      "40681713",
+      "41459480",
+      "41760032",
+      "41068798",
+      "33430905",
+      "39118036",
+      "35434133",
+      "38656728",
+      "39170142",
+      "36045515",
+      "42416066",
+      "40374866",
+      "42450069",
+      "33397492",
+      "40801343",
+      "39067546",
+      "42496954",
+      "41637423",
+      "36224010",
+      "34477936",
+      "41200172",
+      "34224029",
+      "34691030",
+      "42327749",
+      "41737229",
+      "39326197",
+      "40288069",
+      "33325525",
+      "41316541",
+      "41703488",
+      "39920860",
+      "39221753",
+      "38941374",
+      "41146237",
+      "39656402",
+      "41789070",
+      "38573982",
+      "42123445",
+      "40532306",
+      "38644410",
+      "38212032",
+      "42565562",
+      "40550064",
+      "42135859",
+      "36189314",
+      "41225405",
+      "42393882",
+      "42306043",
+      "40093012",
+      "38869013",
+      "41265166",
+      "40016789"
+    ],
+    "review": [
+      "40475761"
+    ],
+    "pmc": [
+      "12137363"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40475761/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1585895",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

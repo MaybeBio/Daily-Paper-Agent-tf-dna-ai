@@ -1,0 +1,681 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.07.663595",
+  "title": "A Corporative Language Model for Protein–Protein Interaction, Binding Affinity, and Interface Contact Prediction",
+  "doi": "10.1101/2025.07.07.663595",
+  "abstract": "Understanding protein–protein interactions (PPIs) is crucial for deciphering cellular processes and guiding therapeutic discovery. While recent protein language models have advanced sequence-based protein representation, most are designed for individual chains and fail to capture inherent PPI patterns. Here, we introduce a novel Protein–Protein Language Model (PPLM) that jointly encodes paired sequences, enabling direct learning of interaction-aware representations beyond what single-chain models can provide. Building on this foundation, we develop PPLM-PPI, PPLM-Affinity, and PPLM-Contact for binary interaction, binding affinity, and interface contact prediction. Large-scale experiments show that PPLM-PPI achieves state-of-the-art performance across different species on binary interaction prediction, while PPLM-Affinity outperforms both ESM2 and structure-based methods on binding affinity modeling, particularly on challenging cases including antibody–antigen and TCR–pMHC complexes. PPLM-Contact further surpasses existing contact predictors on inter-protein contact prediction and interface residue recognition, including those deduced from cutting-edge complex structure predictions. Together, these results highlight the potential of co-represented language models to advance computational modeling of PPIs.",
+  "authors": [
+    "Jun Liu",
+    "Hungyu Chen",
+    "Yang Zhang"
+  ],
+  "published_date": "2025-07-10",
+  "updated_date": "2025-07-10T21:41:30Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.07.663595",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.07.663595.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:59:12Z",
+        "timestamp": 1782280752726,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            10
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 58,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                10
+              ]
+            ],
+            "date-time": "2025-07-10T00:00:00Z",
+            "timestamp": 1752105600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001459",
+          "name": "Ministry of Education, Singapore",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "T1251RES2309"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "T1251RES2309"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001459",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001459",
+          "name": "Ministry of Education, Singapore",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "T2EP20125-0039"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "T2EP20125-0039"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001459",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "Agency for Science, Technology and Research (A*STAR), Singapore",
+          "award": [
+            "IAF-PP H25J6a0034"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "IAF-PP H25J6a0034"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "National Medical Research Council Open Fund – Young Individual Research Grant, Singapore",
+          "award": [
+            "MOH-OFYIRG25jan-0011"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "MOH-OFYIRG25jan-0011"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            10
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Understanding protein–protein interactions (PPIs) is crucial for deciphering cellular processes and guiding therapeutic discovery. While recent protein language models have advanced sequence-based protein representation, most are designed for individual chains and fail to capture inherent PPI patterns. Here, we introduce a novel Protein–Protein Language Model (PPLM) that jointly encodes paired sequences, enabling direct learning of interaction-aware representations beyond what single-chain models can provide. Building on this foundation, we develop PPLM-PPI, PPLM-Affinity, and PPLM-Contact for binary interaction, binding affinity, and interface contact prediction. Large-scale experiments show that PPLM-PPI achieves state-of-the-art performance across different species on binary interaction prediction, while PPLM-Affinity outperforms both ESM2 and structure-based methods on binding affinity modeling, particularly on challenging cases including antibody–antigen and TCR–pMHC complexes. PPLM-Contact further surpasses existing contact predictors on inter-protein contact prediction and interface residue recognition, including those deduced from cutting-edge complex structure predictions. Together, these results highlight the potential of co-represented language models to advance computational modeling of PPIs.</jats:p>",
+      "DOI": "10.1101/2025.07.07.663595",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            10
+          ]
+        ],
+        "date-time": "2025-07-10T21:41:30Z",
+        "timestamp": 1752183690000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "A Corporative Language Model for Protein–Protein Interaction, Binding Affinity, and Interface Contact Prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0004-0283-3679",
+          "authenticated-orcid": false,
+          "given": "Jun",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Cancer Science Institute of Singapore, National University of Singapore, 117599, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hungyu",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, School of Computing, National University of Singapore, 117417, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2739-1916",
+          "authenticated-orcid": false,
+          "given": "Yang",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Cancer Science Institute of Singapore, National University of Singapore, 117599, Singapore"
+            },
+            {
+              "name": "Department of Computer Science, School of Computing, National University of Singapore, 117417, Singapore"
+            },
+            {
+              "name": "Department of Biochemistry, Yong Loo Lin School of Medicine, National University of Singapore, 117596, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg1272"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr040409x"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.3",
+          "first-page": "e1448",
+          "article-title": "Computational prediction of protein–protein binding affinities",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Advanced Review"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.07454"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hayes, T. et al. Simulating 500 million years of evolution with a language model. bioRxiv, 2024.2007. 2001.600583 (2024).",
+          "DOI": "10.1101/2024.07.01.600583"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.8",
+          "first-page": "7112",
+          "article-title": "Prottrans: Toward understanding the language of life through self-supervised learning",
+          "volume": "44",
+          "year": "2021",
+          "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-022-01432-w"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "1087",
+          "DOI": "10.1038/s42256-023-00721-6",
+          "article-title": "A method for multiple-sequence-alignment-free protein structure prediction using a protein language model",
+          "volume": "5",
+          "year": "2023",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gpb.2023.04.001"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "4348",
+          "DOI": "10.1038/s41467-022-32007-7",
+          "article-title": "ProtGPT2 is a deep unsupervised language model for protein design",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.13",
+          "first-page": "29287",
+          "article-title": "Language models enable zero-shot prediction of the effects of mutations on protein function",
+          "volume": "34",
+          "year": "2021",
+          "journal-title": "Advances in neural information processing systems"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jin, M. et al. ProLLM: protein chain-of-thoughts enhanced LLM for protein-protein interaction prediction. bioRxiv, 2024.2004. 2018.590025 (2024).",
+          "DOI": "10.1101/2024.04.18.590025"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "969",
+          "DOI": "10.1016/j.cels.2021.08.010",
+          "article-title": "D-SCRIPT translates genome to phenome with sequence-based, structure-aware, genome-scale predictions of protein-protein interactions",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Cell Systems"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "1861",
+          "DOI": "10.1002/prot.26564",
+          "article-title": "Estimating protein complex model accuracy based on ultrafast shape recognition and deep learning in CASP15",
+          "volume": "91",
+          "year": "2023",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.4c01850"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jproteome.2c00020"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "6963",
+          "DOI": "10.1038/s41467-022-34600-2",
+          "article-title": "Prediction of inter-chain distance maps of protein complexes with 2D attention-based deep neural networks",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "1275",
+          "DOI": "10.1038/s42256-023-00741-2",
+          "article-title": "Protein–protein contact prediction by geometric triangle-aware protein language models",
+          "volume": "5",
+          "year": "2023",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae076"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac258"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, Y. , Wang, C. , Gu, H. , Feng, H. & Ruan, Y . ESMDNN-PPI: a new protein–protein interaction prediction model developed with protein language model of ESM2 and deep neural network. Measurement Science and Technology 35, 125701 (2024).",
+          "DOI": "10.1088/1361-6501/ad761c"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.24",
+          "unstructured": "Meda, R.S. & Farimani, A.B. BAPULM: Binding Affinity Prediction using Language Models. arXiv preprint arXiv:2411.04150 (2024)."
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gorantla, R. et al. Learning Binding Affinities via Fine-tuning of Protein and Ligand Language Models. bioRxiv, 2024.2011. 2001.621495 (2024).",
+          "DOI": "10.1101/2024.11.01.621495"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/wcms.1448"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "1065703",
+          "DOI": "10.3389/fbinf.2022.1065703",
+          "article-title": "Machine learning methods for protein-protein binding affinity prediction in protein design",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "Frontiers in Bioinformatics"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.28",
+          "first-page": "1",
+          "article-title": "PPB-Affinity: Protein-Protein Binding Affinity dataset for AI-based protein drug discovery",
+          "volume": "11",
+          "year": "2024",
+          "journal-title": "Scientific Data"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw514"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "116",
+          "DOI": "10.1038/s42256-020-0149-6",
+          "article-title": "A topology-based network tree for the prediction of protein–protein binding affinity changes following mutation",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky420"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac499"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbab036"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "RP92184",
+          "DOI": "10.7554/eLife.92184",
+          "article-title": "Protein language model-embedded geometric graphs power inter-protein contact prediction",
+          "volume": "12",
+          "year": "2024",
+          "journal-title": "Elife"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab761"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.36",
+          "unstructured": "Rao, R.M. , et al. in International Conference on Machine Learning 8844-8856 (PMLR, 2021)."
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neucom.2023.127063"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.38",
+          "unstructured": "Evans, R. et al. Protein complex prediction with AlphaFold-Multimer. biorxiv, 2021.2010. 2004.463034 (2021)."
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.39",
+          "unstructured": "Abramson, J. et al. Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature, 1–3 (2024)."
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "279",
+          "DOI": "10.1038/s41592-023-02130-4",
+          "article-title": "Improving deep learning protein monomer and complex structure prediction using DeepMSA2 with huge metagenomics data",
+          "volume": "21",
+          "year": "2024",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ko, Y.S. , Parkinson, J. , Liu, C. & Wang, W. TUnA: an uncertainty-aware transformer model for sequence-based protein–protein interaction prediction. Briefings in Bioinformatics 25 (2024).",
+          "DOI": "10.1093/bib/bbae359"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "1989",
+          "DOI": "10.1038/s41467-023-37572-z",
+          "article-title": "Improving the generalizability of protein-ligand binding predictions with AI-Bind",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "7861",
+          "DOI": "10.1038/s41467-023-43597-1",
+          "article-title": "ZeroBind: a protein-specific zero-shot predictor with subgraph matching for drug-target interactions",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd984"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Szeto, C. , Lobos, C.A. , Nguyen, A.T. & Gras, S . TCR recognition of peptide–MHC-I: Rule makers and breakers. International journal of molecular sciences 22, 68 (2020).",
+          "DOI": "10.3390/ijms22010068"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Swapna, L.S. , Bhaskara, R.M. , Sharma, J. & Srinivasan, N . Roles of residues in the interface of transient protein-protein complexes before complexation. Scientific reports 2, 334 (2012).",
+          "DOI": "10.1038/srep00334"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Burley, S.K. et al. Protein Data Bank (PDB): the single global macromolecular structure archive. Protein crystallography: methods and protocols, 627–641 (2017).",
+          "DOI": "10.1007/978-1-4939-7000-1_26"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAC1000"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "1109",
+          "DOI": "10.1038/s41592-022-01585-1",
+          "article-title": "US-align: universal structure alignments of proteins, nucleic acids, and macromolecular complexes",
+          "volume": "19",
+          "year": "2022",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1081"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-019-2669-9"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.84.13.4355"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu500"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.55",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rives, A. et al. Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences. Proc Natl Acad Sci U S A 118 (2021).",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "1850",
+          "DOI": "10.1002/prot.26612",
+          "article-title": "Assessment of the assessment—All about complexes",
+          "volume": "91",
+          "year": "2023",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2026010105260337000_2025.07.07.663595v2.58",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lin, T. Focal Loss for Dense Object Detection. arXiv preprint arXiv:1708.02002 (2017).",
+          "DOI": "10.1109/ICCV.2017.324"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.07.07.663595",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:07:53Z",
+        "timestamp": 1782277673000
+      },
+      "score": 131.22363,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.07.07.663595"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            10
+          ]
+        ]
+      },
+      "references-count": 58,
+      "URL": "https://doi.org/10.1101/2025.07.07.663595",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s41467-026-70457-5",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            10
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

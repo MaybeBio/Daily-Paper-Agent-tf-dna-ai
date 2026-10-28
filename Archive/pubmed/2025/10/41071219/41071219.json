@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "41071219",
+    "doi": "10.1007/s10142-025-01718-7",
+    "title": "Tanshinone IIA ameliorates pancreatic injury in type 2 diabetic mice by modulating inflammation and endoplasmic reticulum stress via the IL-6/JAK2/STAT3 pathway."
+  },
+  "content": {
+    "abstract": "Type 2 diabetes mellitus (T2DM) is a severe metabolic disorder in which pancreatic injury plays a pivotal role in disease progression. Tanshinone IIA (TanIIA), a bioactive compound extracted from Salvia miltiorrhiza, has shown therapeutic potential in diabetes management. However, its protective effects on pancreatic injury and underlying pharmacological mechanisms remain unclear. In this study, TanIIA significantly reduced fasting blood glucose, improved insulin resistance, and alleviated islet structural damage and beta-cell apoptosis. Potential TanIIA targets were initially predicted through integrated network pharmacology, weighted gene co-expression network analysis (WGCNA), and differential gene expression analysis. Based on these integrated data, five machine learning algorithms were applied to identify candidate targets. PTGS2, NR4A2, MGLL, GABRA2, and IL-6 were determined to be core targets and were validated by qRT-PCR, with functional enrichment indicating that the JAK-STAT pathway is a key regulatory axis. Molecular docking revealed strong binding affinities between TanIIA and these core targets, with calculated binding energies of -8.7 (PTGS2), -7.6 (NR4A2), -9.8 (MGLL), -8.3 (GABRA2), and - 7.5 (IL-6) kcal/mol. Furthermore, molecular dynamics simulations confirmed the stable interaction between TanIIA and IL-6. In vivo experiments further demonstrated that TanIIA modulated the IL-6/JAK2/STAT3 pathway In vivo experiments further demonstrated that TanIIA modulated the IL-6/JAK2/STAT3 pathway, suppressed proinflammatory cytokines, promoted anti-inflammatory IL-10 expression, and regulated macrophage polarization, thereby improving the inflammatory microenvironment in islets. Additionally, TanIIA activated the PI3K-AKT pathway, alleviated glucolipotoxicity-induced endoplasmic reticulum (ER) stress, and downregulated ER stress-related proteins including p-IRE1alpha, GRP78, XBP1s, and CHOP, ultimately inhibiting beta-cell apoptosis. Collectively, these findings suggest that TanIIA ameliorates pancreatic damage in T2DM mice by targeting inflammation and ER stress through IL-6/JAK2/STAT3 signaling, providing new mechanistic insights into its antidiabetic potential.",
+    "keywords": [
+      "Bioinformatics",
+      "Endoplasmic reticulum stress",
+      "Inflammation",
+      "Tanshinone IIA",
+      "Type 2 diabetes mellitus",
+      "Beta-cell dysfunction"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Abietanes/pharmacology/chemistry/therapeutic use",
+      "STAT3 Transcription Factor/metabolism/genetics",
+      "Janus Kinase 2/metabolism/genetics",
+      "*Endoplasmic Reticulum Stress/drug effects",
+      "Mice",
+      "Interleukin-6/metabolism/genetics",
+      "*Diabetes Mellitus, Type 2/drug therapy/metabolism/pathology/genetics",
+      "Male",
+      "Signal Transduction/drug effects",
+      "*Diabetes Mellitus, Experimental/drug therapy/metabolism/pathology",
+      "Inflammation/drug therapy/metabolism",
+      "Molecular Docking Simulation",
+      "Mice, Inbred C57BL",
+      "Pancreas/drug effects/pathology/metabolism/injuries",
+      "Apoptosis/drug effects",
+      "Endoplasmic Reticulum Chaperone BiP"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yingfeng",
+        "Wang, Desheng",
+        "Liu, Yuhang",
+        "Liu, Chenyang",
+        "Chen, Meixi",
+        "Li, Jingqi",
+        "Wu, Zunqiu",
+        "Wu, Ning"
+      ],
+      "short_names": [
+        "Li Y",
+        "Wang D",
+        "Liu Y",
+        "Liu C",
+        "Chen M",
+        "Li J",
+        "Wu Z",
+        "Wu N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Clinical Medical, Guizhou Medical University, Guiyang, 550004, China.",
+        "College of Clinical Medical, Guizhou Medical University, Guiyang, 550004, China.",
+        "College of Clinical Medical, Guizhou Medical University, Guiyang, 550004, China.",
+        "Department of Ophthalmology, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, 430030, China.",
+        "College of Clinical Medical, Guizhou Medical University, Guiyang, 550004, China.",
+        "College of Clinical Medical, Guizhou Medical University, Guiyang, 550004, China.",
+        "College of Clinical Medical, Guizhou Medical University, Guiyang, 550004, China.",
+        "Department of Chemistry and Biochemistry, Basic Medical College, Guizhou Medical University, Guiyang, 550004, China. wuzunqiu1988@163.com.",
+        "Department of Chemistry and Biochemistry, Basic Medical College, Guizhou Medical University, Guiyang, 550004, China. wuning@gmc.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yingfeng",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medical, Guizhou Medical University, Guiyang, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Desheng",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medical, Guizhou Medical University, Guiyang, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuhang",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medical, Guizhou Medical University, Guiyang, 550004, China.",
+          "Department of Ophthalmology, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, 430030, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chenyang",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medical, Guizhou Medical University, Guiyang, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Meixi",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medical, Guizhou Medical University, Guiyang, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jingqi",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medical, Guizhou Medical University, Guiyang, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zunqiu",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Basic Medical College, Guizhou Medical University, Guiyang, 550004, China. wuzunqiu1988@163.com."
+        ]
+      },
+      {
+        "full_name": "Wu, Ning",
+        "short_name": "Wu N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Basic Medical College, Guizhou Medical University, Guiyang, 550004, China. wuning@gmc.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Functional & integrative genomics"
+    ],
+    "journal_abbrev": [
+      "Funct Integr Genomics"
+    ],
+    "pub_date": "2025 Oct 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/10 17:32",
+    "fetched_at": "2026-10-01 03:37:36"
+  },
+  "links": {
+    "cites": [
+      "42474759",
+      "42262869",
+      "41965629"
+    ],
+    "refs": [
+      "41454014",
+      "41051411",
+      "40210633",
+      "39986223",
+      "39941696",
+      "39921016",
+      "39857603",
+      "39824371",
+      "39823951",
+      "39675006",
+      "39382753",
+      "39343109",
+      "39243324",
+      "39069376",
+      "39059357",
+      "38927074",
+      "38744890",
+      "38720663",
+      "38640337",
+      "38088811",
+      "38086799",
+      "38049589",
+      "37711626",
+      "37468098",
+      "37165735",
+      "37128721",
+      "36370223",
+      "36001973",
+      "35899118",
+      "35841663",
+      "35602948",
+      "35326476",
+      "35170612",
+      "35032625",
+      "35024320",
+      "34702991",
+      "34427348",
+      "34278794",
+      "33408464",
+      "32841659",
+      "31806905",
+      "31520549",
+      "30344697",
+      "30297969",
+      "26574453",
+      "25660120",
+      "21029300",
+      "19499576",
+      "18776938",
+      "11278723",
+      "10592235"
+    ],
+    "similar": [
+      "41071219",
+      "40544732",
+      "39615770",
+      "40976430",
+      "28339041",
+      "39544939",
+      "39986223",
+      "39546459",
+      "39911447",
+      "40316154",
+      "40939434",
+      "26806299",
+      "39695387",
+      "31778727",
+      "34675488",
+      "41265260",
+      "41101072",
+      "27793043",
+      "40384344",
+      "31260687",
+      "40397040",
+      "41453246",
+      "39520962",
+      "38798150",
+      "25779676",
+      "38151179",
+      "41124707",
+      "23118936",
+      "27664441",
+      "25159204",
+      "40968089",
+      "29102603",
+      "30342372",
+      "39657836",
+      "34676010",
+      "39374878",
+      "25070833",
+      "34367186",
+      "41162503",
+      "35851130",
+      "33378042",
+      "40255473",
+      "34488550",
+      "35401224",
+      "31827715",
+      "40653325",
+      "29568934",
+      "39041131",
+      "41043315",
+      "29521586",
+      "40892111",
+      "37128721",
+      "38114149",
+      "22262759",
+      "32647341",
+      "31505195",
+      "40326051",
+      "33577847",
+      "38687305",
+      "39848416",
+      "39923957",
+      "40128040",
+      "35801985",
+      "40086050",
+      "32744065",
+      "40176744",
+      "38624190",
+      "40485414",
+      "39182268",
+      "31606729",
+      "40222401",
+      "34162128",
+      "25502794",
+      "41482061",
+      "33408464",
+      "30497776",
+      "26515594",
+      "41125012",
+      "40786248",
+      "39072916",
+      "23880305",
+      "30226540",
+      "37438690",
+      "39750044",
+      "38885916",
+      "40780375",
+      "31818704",
+      "38353687",
+      "39427519",
+      "38284293",
+      "34212981",
+      "31520549",
+      "34678732",
+      "33465441",
+      "40858660",
+      "41129534",
+      "41022007",
+      "39052059",
+      "37397012",
+      "25720636"
+    ],
+    "review": [
+      "41071219"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetestype2.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 2"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s10142-025-01718-7",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-DDIT3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

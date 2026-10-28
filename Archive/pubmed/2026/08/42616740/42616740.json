@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "42616740",
+    "doi": "10.1371/journal.pone.0353352",
+    "title": "CASP1 as a key autophagy-related gene in atherosclerosis: Identification by bioinformatics analysis and experimental validation."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: This study identified potential autophagy-related genes (ARGs) in atherosclerosis using bioinformatics strategies, aiming to explore novel therapeutic targets for the clinical management of atherosclerosis. METHODS: Four gene expression datasets associated with atherosclerosis (GSE100927, GSE43292, GSE28829, and GSE20129) were retrieved from the GEO database of the NCBI and subjected to comprehensive analysis. A list of ARGs was compiled by accessing the HADb. AR-DEGs were screened using the \"limma\" package in R software. Thereafter, six core genes were identified through the combined application of three machine learning algorithms and PPI network analysis, with subsequent validation conducted using external datasets GSE28829 and GSE20129. Additional analyses included GO annotation, KEGG pathway enrichment, drug prediction, immune infiltration assessment, ceRNA network establishment, and transcription factor (TF) regulatory network analysis. Finally, the expression levels of CASP1 in both in vivo and in vitro models were quantified using WB, RT-qPCR, and IF assays. RESULTS: A total of 13 AR-DEGs were detected with significant expression differences between the AS group and the control group. After integrative screening via PPI network analysis and machine learning algorithms, followed by validation against external datasets GSE28829 and GSE20129, PRKCD, SERPINA1, CASP1, CXCR4, and CCR2 were confirmed as characteristic biomarkers for AS, and their corresponding microRNAs (miRNAs) were predicted. Immune infiltration analysis indicated that these characteristic genes were correlated with immune cells. Moreover, in vivo and in vitro experimental results demonstrated that CASP1 was highly expressed in AS samples. CONCLUSION: PRKCD, SERPINA1, CASP1, CXCR4, and CCR2 were identified as key genes in atherosclerosis, and their associated ceRNA and TF regulatory networks were predicted. Among these key genes, CASP1 is a promising candidate associated with atherosclerosis and worthy of further study.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Atherosclerosis/genetics/pathology/metabolism",
+      "*Computational Biology/methods",
+      "Humans",
+      "Gene Regulatory Networks",
+      "*Caspase 1/genetics/metabolism",
+      "*Autophagy/genetics",
+      "Gene Expression Profiling",
+      "Protein Interaction Maps",
+      "Animals",
+      "Databases, Genetic",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Han",
+        "Guo, Yuanling",
+        "Wang, Lang",
+        "Shen, Yue'E",
+        "Liu, Weisong"
+      ],
+      "short_names": [
+        "Gao H",
+        "Guo Y",
+        "Wang L",
+        "Shen Y",
+        "Liu W"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-3766-0645"
+      ],
+      "affiliations": [
+        "Department of Neurology, The First Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China.",
+        "Department of Neurology, The First Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China.",
+        "Department of Neurology, The First Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China.",
+        "Department of Neurology, The First Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China.",
+        "Department of Neurology, The First Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Han",
+        "short_name": "Gao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Yuanling",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lang",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Yue'E",
+        "short_name": "Shen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Weisong",
+        "short_name": "Liu W",
+        "identifiers": [
+          "0009-0006-3766-0645"
+        ],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/19 17:43",
+    "fetched_at": "2026-10-02 04:04:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39328054",
+      "39229582",
+      "38103201",
+      "37974282",
+      "37953380",
+      "37753284",
+      "37572229",
+      "37528097",
+      "37225873",
+      "36952071",
+      "36635405",
+      "36565484",
+      "36311761",
+      "36279664",
+      "35597127",
+      "35363568",
+      "35269582",
+      "35102320",
+      "35096837",
+      "35076127",
+      "35010467",
+      "34704457",
+      "34276388",
+      "33976384",
+      "33602473",
+      "33309175",
+      "32338205",
+      "32327380",
+      "32302598",
+      "32017655",
+      "31978760",
+      "30931480",
+      "28450349",
+      "12615675",
+      "11714742",
+      "9732872"
+    ],
+    "similar": [
+      "42616740",
+      "38899746",
+      "40597456",
+      "39072329",
+      "40644421",
+      "39586719",
+      "41044520",
+      "42537010",
+      "38268224",
+      "42327749",
+      "39588003",
+      "38863714",
+      "39188714",
+      "40374866",
+      "41120603",
+      "40070840",
+      "40901831",
+      "39142001",
+      "39396400",
+      "41188989",
+      "36316672",
+      "38957433",
+      "40821971",
+      "40374840",
+      "40313958",
+      "40884580",
+      "42313235",
+      "41703488",
+      "38640260",
+      "41851623",
+      "42510870",
+      "40335993",
+      "39375405",
+      "41663970",
+      "39150631",
+      "40406126",
+      "40312440",
+      "42109727",
+      "41101222",
+      "40340571",
+      "39095691",
+      "41424060",
+      "41822387",
+      "41511918",
+      "42092981",
+      "39978305",
+      "41146237",
+      "41544081",
+      "36823662",
+      "38951833",
+      "41094572",
+      "37721628",
+      "41288681",
+      "41583468",
+      "35957838",
+      "41479901",
+      "37325630",
+      "41196851",
+      "40939772",
+      "41940395",
+      "35842645",
+      "41737229",
+      "40918148",
+      "41291978",
+      "41388523",
+      "42243611",
+      "39870856",
+      "42123445",
+      "40263537",
+      "35757392",
+      "39176085",
+      "41286296",
+      "38527674",
+      "40210656",
+      "40860289",
+      "41895505",
+      "39981695",
+      "41006883",
+      "39351239",
+      "40245021",
+      "40977739",
+      "40441253",
+      "38867322",
+      "42302029",
+      "42254657",
+      "42289108",
+      "40332792",
+      "40973872",
+      "39749331",
+      "41630435",
+      "41080564",
+      "39145311",
+      "40196107",
+      "40836320",
+      "40628511",
+      "42233387",
+      "40496861",
+      "41562054",
+      "35151359",
+      "38690269"
+    ],
+    "review": [
+      "42616740",
+      "41101222"
+    ],
+    "pmc": [
+      "13489422"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/atherosclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atherosclerosis"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0353352",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42616740/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

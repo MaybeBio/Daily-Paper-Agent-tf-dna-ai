@@ -1,0 +1,287 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.03.15.532796",
+  "title": "Identification of mammalian transcription factors that bind to inaccessible chromatin",
+  "doi": "10.1101/2023.03.15.532796",
+  "abstract": "Transcription factors (TFs) are proteins that affect gene expression by binding to regulatory regions of DNA in a sequence specific manner. The binding of TFs to DNA is controlled by many factors, including the DNA sequence, concentration of TF, chromatin accessibility and co-factors. Here, we systematically investigated the binding mechanism of hundreds of TFs by analysing ChIP-seq data with our explainable statistical model, ChIPanalyser. This tool uses as inputs the DNA sequence binding motif; the capacity to distinguish between strong and weak binding sites; the concentration of TF; and chromatin accessibility. We asked whether TFs preferred to bind to DNA in open or dense chromatin conformation and found that approximately one third of TFs are predicted to bind the genome in a DNA accessibility independent fashion. Our model predicted this to be the case when the TF binds to its strongest binding regions in the genome, and only a small number of TFs have the capacity to bind dense chromatin at their weakest binding regions, such as CTCF USF2 and CEBPB. Our study demonstrated that the binding of hundreds of human and mouse TFs is predicted by ChIPanalyser with high accuracy and showed that many TFs can bind dense chromatin.",
+  "authors": [
+    "Pop RT",
+    "Pisante A",
+    "Nagy D",
+    "Martin PCN",
+    "Mikheeva LA",
+    "Hayat A",
+    "Ficz G",
+    "Zabet NR"
+  ],
+  "published_date": "2023-03-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.03.15.532796",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.03.15.532796.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR632615",
+    "raw_record": {
+      "id": "PPR632615",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR632615"
+        ]
+      },
+      "doi": "10.1101/2023.03.15.532796",
+      "title": "Identification of mammalian transcription factors that bind to inaccessible chromatin",
+      "authorString": "Pop RT, Pisante A, Nagy D, Martin PCN, Mikheeva LA, Hayat A, Ficz G, Zabet NR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Pop RT",
+            "lastName": "Pop",
+            "firstName": "Romana",
+            "initials": "RT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-5930-5877"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, University of Essex, Colchester, CO4 3SQ, UK"
+                },
+                {
+                  "affiliation": "Centre for Molecular Medicine Norway (NCMM), Nordic EMBL Partnership, University of Oslo, Oslo, Norway"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pisante A",
+            "lastName": "Pisante",
+            "firstName": "Alessandra",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, University of Essex, Colchester, CO4 3SQ, UK"
+                },
+                {
+                  "affiliation": "Blizard Institute, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, London, UK, E1 2AT"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nagy D",
+            "lastName": "Nagy",
+            "firstName": "Dorka",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, University of Essex, Colchester, CO4 3SQ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martin PCN",
+            "lastName": "Martin",
+            "firstName": "Patrick",
+            "initials": "PCN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, University of Essex, Colchester, CO4 3SQ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mikheeva LA",
+            "lastName": "Mikheeva",
+            "firstName": "Liudmila",
+            "initials": "LA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, University of Essex, Colchester, CO4 3SQ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hayat A",
+            "lastName": "Hayat",
+            "firstName": "Ateequllah",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0277-7668"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical and Biomedical Education, St George’s, University of London, Cranmer Terrace, Tooting, London, SW17 0RE"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ficz G",
+            "lastName": "Ficz",
+            "firstName": "Gabriella",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Haemato-Oncology, Barts Cancer Institute, Queen Mary University of London, London, UK, EC1M 6BQ"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zabet NR",
+            "lastName": "Zabet",
+            "firstName": "Nicolae Radu",
+            "initials": "NR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9964-6271"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, University of Essex, Colchester, CO4 3SQ, UK"
+                },
+                {
+                  "affiliation": "Blizard Institute, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, London, UK, E1 2AT"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9964-6271"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0277-7668"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-5930-5877"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Transcription factors (TFs) are proteins that affect gene expression by binding to regulatory regions of DNA in a sequence specific manner. The binding of TFs to DNA is controlled by many factors, including the DNA sequence, concentration of TF, chromatin accessibility and co-factors. Here, we systematically investigated the binding mechanism of hundreds of TFs by analysing ChIP-seq data with our explainable statistical model, ChIPanalyser. This tool uses as inputs the DNA sequence binding motif; the capacity to distinguish between strong and weak binding sites; the concentration of TF; and chromatin accessibility. We asked whether TFs preferred to bind to DNA in open or dense chromatin conformation and found that approximately one third of TFs are predicted to bind the genome in a DNA accessibility independent fashion. Our model predicted this to be the case when the TF binds to its strongest binding regions in the genome, and only a small number of TFs have the capacity to bind dense chromatin at their weakest binding regions, such as CTCF USF2 and CEBPB. Our study demonstrated that the binding of hundreds of human and mouse TFs is predicted by ChIPanalyser with high accuracy and showed that many TFs can bind dense chromatin.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "202012/Z/16/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2023.03.15.532796"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.03.15.532796"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR632615"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR632615&type=FILE&fileName=EMS172685-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37486787",
+            "reference": "Nucleic acids research. 2023 Sep;51(16):8480-8495",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS172685",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-03-21",
+      "firstPublicationDate": "2023-03-16",
+      "firstIndexDate": "2023-03-21",
+      "fullTextReceivedDate": "2023-04-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

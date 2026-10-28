@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose iEnhancer-DS, a deep learning multi-task framework combining one-hot encoding, nucleotide chemical properties (NCP), an improved DenseNet module, self-attention, and a multilayer perceptron (MLP) for enhancer identification and strength classification. They report state-of-the-art performance with improvements in ACC and MCC of 4.03% and 8.47% for identification, and 1.40% and 3.81% for strength prediction, alongside t-SNE-based interpretability analysis.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, baseline specifications, or quantitative results beyond the reported improvements
+- **Missing materials affecting confidence** Full manuscript, experimental setup, dataset composition and splits, baseline method details, statistical significance tests, hyperparameter choices, cross-validation procedures, and code verification
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible deep learning architecture for a relevant bioinformatics problem. However, the evidence provided is insufficient to evaluate the validity of the claimed state-of-the-art performance. Key methodological details, dataset characteristics, and statistical rigor are absent. The reported improvements are presented without context regarding variance, significance, or comparability of baselines. The work may have merit, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory element prediction, particularly those developing deep learning methods for genomic sequence classification. The multi-task approach and attention-based architecture may interest researchers seeking to improve enhancer prediction accuracy and interpretability.
+- **Major strengths** The problem is relevant and timely. The proposed architecture combines established techniques (one-hot encoding, NCP, DenseNet, self-attention, MLP) in a coherent multi-task framework. The inclusion of interpretability analysis via t-SNE is a positive step. The provision of code and raw data is commendable for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "iEnhancer-DS achieves state-of-the-art performance in both enhancer identification and strength prediction"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim of state-of-the-art performance is made without specifying the datasets used, the baseline methods compared, or the evaluation protocol. Without this information, the reported improvements cannot be assessed for fairness or generalizability.
+  - **Why it matters** State-of-the-art claims are only meaningful when evaluated against comparable baselines on identical datasets with consistent protocols. The absence of these details prevents verification and undermines the central contribution.
+  - **Resolution test** Provide dataset names, sample sizes, train/test splits, baseline method descriptions, and evaluation metrics in the full manuscript. Report results with standard deviations or confidence intervals across multiple runs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "iEnhancer-DS improves ACC and MCC by 4.03% and 8.47% respectively over the current state-of-the-art methods"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The reported improvements lack statistical context. No information is given on the number of independent experiments, variance across runs, or whether the differences are statistically significant. The improvements could be within noise.
+  - **Why it matters** Without statistical significance testing, the reported gains may not be robust. This is critical for establishing that the proposed method genuinely outperforms existing approaches.
+  - **Resolution test** Report results from multiple independent runs with mean and standard deviation. Perform appropriate statistical tests (e.g., paired t-test or Wilcoxon signed-rank test) against each baseline and report p-values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "The detailed code and raw data of iEnhancer-DS can be obtained from https://github.com/zha12ja/iEnhancer-DS"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The availability of code and data is stated, but the abstract does not describe the computational environment, dependencies, or instructions for reproducing the reported results. The repository link alone does not guarantee reproducibility.
+  - **Why it matters** Reproducibility is a core requirement for computational biology methods. Without clear documentation and versioning, other researchers may not be able to replicate the results or apply the method to new data.
+  - **Resolution test** In the full manuscript, include a detailed reproducibility section with software versions, hardware specifications, and step-by-step instructions. Verify that the repository contains all necessary scripts, trained models, and data preprocessing code.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract description of the architecture
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "improved DenseNet module" is vague. It is unclear what specific modifications were made to the standard DenseNet architecture.
+  - **Required correction** Specify the exact architectural changes, such as layer counts, growth rates, or connectivity patterns, in the abstract or full text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** t-SNE analysis
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that t-SNE was used for interpretable analysis but does not explain what insights were gained or how the visualization supports the method's mechanism of action.
+  - **Required correction** Provide a brief summary of the t-SNE findings and how they relate to the model's decision-making process.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Multi-task framework description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions a multi-task framework but does not clarify how the two tasks (identification and strength classification) are jointly trained or whether they share parameters.
+  - **Required correction** Describe the multi-task learning strategy, including loss functions, weighting schemes, and whether tasks are trained simultaneously or sequentially.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of dataset details, statistical rigor, and reproducibility documentation prevents validation of the core claims.
+- **Assessment against Nature-style criteria** Originality: The combination of DenseNet with self-attention for enhancer prediction is incremental rather than conceptually novel, though the multi-task formulation adds some originality. Scientific importance: Enhancer prediction is a relevant problem, but the abstract does not demonstrate a substantial advance over existing methods. Interdisciplinary readership: The work is primarily of interest to computational biologists; the abstract does not frame the findings for a broader audience. Technical soundness: Cannot be assessed from the abstract alone; the missing methodological and statistical details are critical. Readability for nonspecialists: The abstract is reasonably clear but uses technical jargon without sufficient context for non-experts.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful method, but the absence of dataset specifications, statistical validation, and reproducibility details means the claims cannot be verified. Supportive if the full manuscript addresses these concerns.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art performance" is unsupported without dataset and baseline details.
+- The reported percentage improvements in ACC and MCC are unsupported without statistical significance testing.
+- The statement that t-SNE provides "interpretable analysis of the mechanism of action" is unsupported without presentation of the visualization and its interpretation.
+- The generalizability of the method to diverse enhancer datasets is unassessable from the abstract.

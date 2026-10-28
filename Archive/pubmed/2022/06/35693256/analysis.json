@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35693256",
+  "title": "Research on DNA-Binding Protein Identification Method Based on LSTM-CNN Feature Fusion.",
+  "authors": "Lu, Weizhong; Chen, Xiaoyi; Zhang, Yu; Wu, Hongjie; Ding, Yijie; Shen, Jiawei; Guan, Shixuan; Li, Haiou",
+  "journal": "Computational and mathematical methods in medicine",
+  "published_date": "2022-06-14",
+  "window": {
+    "start": "2022-06-13",
+    "end": "2022-06-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用LSTM-CNN特征融合方法识别DNA结合蛋白，属于广义蛋白-DNA互作预测，但未聚焦TF-DNA特异性结合或三维互作机制，方法可迁移但深度有限。",
+  "abstract": "Protein is closely related to life activities. As a kind of protein, DNA-binding protein plays an irreplaceable role in life activities. Therefore, it is very important to study DNA-binding protein, which is a subject worthy of study. Although traditional biotechnology has high precision, its cost and efficiency are increasingly unable to meet the needs of modern society. Machine learning methods can make up for the deficiencies of biological experimental techniques to a certain extent, but they are not as simple and fast as deep learning for data processing. In this paper, a deep learning framework based on parallel long and short-term memory(LSTM) and convolutional neural networks(CNN) was proposed to identify DNA-binding protein. This model can not only further extract the information and features of protein sequences, but also the features of evolutionary information. Finally, the two features are combined for training and testing. On the PDB2272 dataset, compared with PDBP_Fusion model, Accuracy(ACC) and Matthew's Correlation Coefficient (MCC) increased by 3.82% and 7.98% respectively. The experimental results of this model have certain advantages.",
+  "abstract_zh": "蛋白质与生命活动密切相关。作为一种蛋白质，DNA结合蛋白在生命活动中扮演着不可替代的角色。因此，研究DNA结合蛋白非常重要，这是一个值得研究的课题。尽管传统生物技术具有高精度，但其成本和效率日益无法满足现代社会的需求。机器学习方法在一定程度上可以弥补生物实验技术的不足，但在数据处理方面不如深度学习那样简单快捷。本文提出了一种基于并行长短期记忆（LSTM）和卷积神经网络（CNN）的深度学习框架，用于识别DNA结合蛋白。该模型不仅能进一步提取蛋白质序列的信息和特征，还能提取进化信息的特征。最后，将这两种特征结合进行训练和测试。在PDB2272数据集上，与PDBP_Fusion模型相比，准确率（ACC）和马修斯相关系数（MCC）分别提高了3.82%和7.98%。该模型的实验结果具有一定的优势。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35693256/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35693256/",
+  "paper_page_path": "papers/pubmed/35693256/index.html"
+}

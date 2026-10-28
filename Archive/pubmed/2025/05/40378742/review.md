@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors propose a multi-species screening strategy for estrogen receptor (ER) alpha agonists among plastic additives, combining machine learning (Deep Forest, ANN, conventional ML) with AlphaFold2 structural modeling. They report high-performance ML models, identification of 42 ERalpha agonists, construction of ERalpha structures for eight aquatic-related species, identification of conserved and species-specific key residues, and species-dependent docking energies. They conclude that the combined approach enables high-throughput ecotoxicity evaluation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or datasets provided
+- **Missing materials affecting confidence** Full methods (ML training details, dataset composition, validation procedures), AlphaFold2 model quality metrics (pLDDT, template modeling score), docking protocol parameters, compound list, statistical analyses, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational pipeline for prioritizing ERalpha agonists among plastic additives across multiple species. However, the evidence provided is insufficient to evaluate the robustness of the ML models, the reliability of the AlphaFold2 structures, or the biological relevance of the docking results. Several claims are either under-supported or not assessable from the abstract alone. The work may be of interest to the ecotoxicology and computational toxicology communities, but the current evidence base does not establish the case.
+- **Who would be interested in the results, and why** Researchers in environmental toxicology, computational chemistry, and regulatory risk assessment would be interested. The multi-species approach addresses a gap in cross-species hormonal effect prediction, which is relevant for ecological risk assessment of plastic additives. The combination of ML and structural biology may appeal to those developing high-throughput screening tools for emerging contaminants.
+- **Major strengths** The study addresses a relevant gap in public databases for nuclear receptor-mediated effects in aquatic organisms. The multi-species scope (eight species across diverse taxa) is ambitious and potentially valuable. The reported ML performance metrics (sensitivity 0.96, specificity >0.99, F1 >0.95) are strong, if reproducible. The identification of both conserved and species-specific key residues is a useful structural insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The DF models achieved sensitivity = 0.96, specificity > 0.99, and F1 score > 0.95, identifying 42 plastic additives as ERalpha agonists.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports model performance but provides no information on the training dataset size, composition, class balance, feature selection, cross-validation scheme, or external test set. Without these details, the reported metrics cannot be assessed for overfitting or generalizability. The identification of 42 agonists is presented without confidence intervals or uncertainty quantification.
+  - **Why it matters** High-performance metrics on an undisclosed dataset may not translate to real-world screening. The core claim of reliable high-throughput prediction depends on the validity of the ML models, which is not established from the abstract.
+  - **Resolution test** Provide full methods including dataset description, validation strategy, and external validation results. Report performance on a held-out test set with confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** ERalpha structures for eight species were constructed using AlphaFold2, and key residues were identified.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No model quality metrics (e.g., pLDDT, predicted aligned error) are reported for the AlphaFold2 structures. The reliability of the key residue identification and subsequent docking depends critically on the accuracy of these models, especially for non-model organisms like Mytilus edulis and Nipponia nippon, where template coverage may be low.
+  - **Why it matters** If the structures are inaccurate, the residue-level conclusions and docking energies are unreliable. The claim of species-specific key residues is a central finding and requires structural validation.
+  - **Resolution test** Report per-structure quality metrics and, where possible, compare with experimental structures or homology models. Discuss limitations for low-confidence regions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Docking energies < -9 kcal/mol were used to identify potential binders, with counts ranging from 4 to 13 across species.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The docking protocol is not described. No information is provided on the docking software, scoring function, receptor preparation, ligand preparation, or the threshold justification for -9 kcal/mol. The biological significance of this energy cutoff is not explained.
+  - **Why it matters** Docking results are highly sensitive to protocol choices. Without methodological details, the species-specific differences in docking energies cannot be interpreted, and the threshold may be arbitrary.
+  - **Resolution test** Provide full docking methods, justify the energy cutoff, and include validation against known binders or experimental data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The combined application of ML and AlphaFold enables high-throughput evaluation of ecotoxicity posed by emerging pollutants across multiple aquatic-related species.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not provide any experimental validation of the predicted agonists or docking results. The claim of "enables high-throughput evaluation" implies practical utility, but no evidence is presented that the predictions correlate with biological activity in any species.
+  - **Why it matters** Computational predictions without experimental confirmation remain speculative. The ecotoxicological relevance of the findings is not established, which limits the scientific impact.
+  - **Resolution test** Include experimental validation (e.g., reporter gene assays) for at least a subset of predicted agonists across representative species, or clearly state the predictions as unvalidated hypotheses.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses technical terms (e.g., "aligned serial numbers in the LBD") without defining LBD or explaining the alignment procedure. This may confuse readers outside structural biology.
+  - **Required correction** Define LBD (ligand-binding domain) and briefly explain the residue numbering alignment.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Species list
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract lists eight species but does not explain why these were chosen or whether they represent distinct ecological niches or evolutionary distances.
+  - **Required correction** Add a brief justification for species selection in the abstract or refer to a table in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Docking energy reporting
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract reports counts of compounds with docking energy < -9 kcal/mol but does not report the range, mean, or variability of docking energies for the full compound set.
+  - **Required correction** Provide summary statistics or refer to a figure/table in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (ML model validation), R1-M2 (AlphaFold2 structure quality), R1-M3 (docking protocol), R1-M4 (lack of experimental validation)
+- **Assessment against Nature-style criteria** Originality: The multi-species combination of ML and AlphaFold2 is somewhat novel, but similar approaches exist in the literature. Scientific importance: Potentially relevant for environmental risk assessment, but the lack of validation limits current impact. Interdisciplinary readership: The topic bridges computational chemistry and ecotoxicology, which may attract a broad audience. Technical soundness: Not assessable from the abstract; critical methodological details are missing. Readability for nonspecialists: The abstract is moderately accessible but uses undefined jargon.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful pipeline, but the absence of methodological details and validation means the core claims cannot be evaluated. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that the ML models reliably identify ERalpha agonists is unsupported without dataset and validation details.
+- The claim that AlphaFold2 structures are accurate enough for residue-level conclusions is unsupported without quality metrics.
+- The claim that docking energies < -9 kcal/mol indicate biologically relevant binding is unsupported without protocol details or experimental correlation.
+- The claim that the combined approach "enables high-throughput evaluation of ecotoxicity" is overstated without experimental validation.

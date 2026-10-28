@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors propose a hierarchical approach to compute standard binding free energy (SBFE) for ligands in large, flexible protein pockets by averaging local SBFEs over conformational states, using a truncated protein model and accounting for ligand-induced conformational preferences. The method is validated on T4 lysozyme mutant and applied to GYKI binding to the GluA2 AMPA receptor.
+- **Visible evidence base** Abstract text only; no numerical results, methodological details, or validation data are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation parameters, error estimates, and comparison with experimental or other computational data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful methodological idea for addressing a recognized challenge in binding free energy calculations. However, the current evidence base is insufficient to evaluate the validity, accuracy, or generalizability of the proposed approach. The claims are plausible but not substantiated from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists working on drug design, particularly those studying proteins with large or flexible binding sites that are difficult to treat with conventional SBFE methods. The application to AMPA receptors may also interest neuropharmacologists.
+- **Major strengths** The problem addressed is of genuine importance and broad relevance. The proposed hierarchical ensemble approach is conceptually reasonable and could offer a practical route for systems otherwise computationally intractable. The inclusion of conformational preferences between bound and apo states is a thoughtful consideration.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The approach "allows us to simulate a truncated portion of a large protein" and yields valid SBFE estimates.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No details are given on how truncation is performed, how boundary effects are handled, or how the ensemble average over local SBFEs is constructed and converged. Without this information, the validity of the central methodological claim cannot be assessed.  
+  - **Why it matters** Truncation of a large protein can introduce significant artifacts in free energy calculations, and the ensemble averaging scheme requires careful definition to be physically meaningful.  
+  - **Resolution test** Provide a detailed methods description, including truncation criteria, treatment of long-range electrostatics, and convergence analysis of the ensemble average.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The approach is "validated using the T4 lysozyme mutant in complex with a small molecule inhibitor."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No numerical results, comparison to experimental or reference computational values, or error metrics are provided. Validation is asserted but not demonstrated.  
+  - **Why it matters** A validation claim requires quantitative evidence to establish accuracy and reliability.  
+  - **Resolution test** Present computed versus reference binding free energies, with uncertainties and statistical measures.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** Binding energies for GYKI with GluA2 are computed for several poses.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No pose definitions, computed values, or comparison to experimental data are given. The utility for "structure validation at relatively low resolution" is not supported by any presented results.  
+  - **Why it matters** The application claim is central to demonstrating practical value, but it is entirely unsubstantiated in the abstract.  
+  - **Resolution test** Provide computed binding energies for each pose, with uncertainties and any experimental comparison.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract  
+  - **Issue** The term "hierarchical approach" is vague and not defined.  
+  - **Required correction** Clarify what the hierarchy refers to (e.g., system size, conformational sampling, or computational stages).  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Scope statement  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract does not state the computational cost or feasibility of the approach relative to full-system simulations.  
+  - **Required correction** Add a brief statement on computational efficiency or resource requirements.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** System details  
+  - **Evidence pointer** Abstract  
+  - **Issue** The specific T4 lysozyme mutant and inhibitor are not named.  
+  - **Required correction** Identify the mutant and ligand to enable reproducibility and comparison.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core methodological validity, validation evidence, and application results are all unsubstantiated from the supplied material.
+- **Assessment against Nature-style criteria**  
+  - Originality: The idea of ensemble averaging over conformational states in a truncated system is not entirely novel but may offer a useful combination; originality cannot be fully judged without methods.  
+  - Scientific importance: The problem is important and timely, with potential broad impact in drug design.  
+  - Interdisciplinary readership: Likely to appeal to computational chemists, structural biologists, and pharmacologists, but the abstract is too technical and lacks context for nonspecialists.  
+  - Technical soundness: Not assessable from the abstract; no methodological or numerical evidence is provided.  
+  - Readability for nonspecialists: The abstract is reasonably clear but assumes familiarity with SBFE and related concepts; a brief explanation of significance would improve accessibility.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a promising approach, but the absence of methods and results prevents any assessment of validity. A full manuscript with detailed methods, validation data, and application results would be required to evaluate the claims.
+
+## Risk / unsupported claims
+- The claim that the approach "brings an intractable system within the reach of modern computational tools" is unsupported without performance or feasibility data.
+- The validation claim for T4 lysozyme is unsupported without numerical results.
+- The computed binding energies for GYKI with GluA2 are unsupported without values or comparisons.
+- The utility for "structure validation at relatively low resolution" is unsupported and not explained.

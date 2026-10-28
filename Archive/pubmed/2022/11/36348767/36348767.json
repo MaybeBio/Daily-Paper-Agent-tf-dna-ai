@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "36348767",
+    "doi": "10.1002/trc2.12363",
+    "title": "Deep learning algorithm reveals probabilities of stage-specific time to conversion in individuals with neurodegenerative disease LATE."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Limbic-predominant age-related TAR DNA-binding protein 43 (TDP-43) encephalopathy (LATE) is a recently defined neurodegenerative disease. Currently, there is no effective way to make a prognosis of time to stage-specific future conversions at an individual level. METHODS: After using the Kaplan-Meier estimation and log-rank test to confirm the heterogeneity of LATE progression, we developed a deep learning-based approach to assess the stage-specific probabilities of time to LATE conversions for different subjects. RESULTS: Our approach could accurately estimate the disease incidence and transition to next stages: the concordance index was at least 82% and the integrated Brier score was less than 0.14. Moreover, we identified the top 10 important predictors for each disease conversion scenario to help explain the estimation results, which were clinicopathologically meaningful and most were also statistically significant. DISCUSSION: Our study has the potential to provide individualized assessment for future time courses of LATE conversions years before their actual occurrence.",
+    "keywords": [
+      "limbic-predominant age-related TAR DNA-binding protein 43 encephalopathy",
+      "machine learning",
+      "progression rate",
+      "stage-stratified analysis",
+      "survival models",
+      "time-to-event estimation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Xinxing",
+        "Peng, Chong",
+        "Nelson, Peter T",
+        "Cheng, Qiang"
+      ],
+      "short_names": [
+        "Wu X",
+        "Peng C",
+        "Nelson PT",
+        "Cheng Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute for Biomedical Informatics University of Kentucky Lexington Kentucky USA.",
+        "Department of Computer Science and Engineering Qingdao University Shandong China.",
+        "Sanders-Brown Aging Center and Department of Pathology University of Kentucky Lexington Kentucky USA.",
+        "Institute for Biomedical Informatics University of Kentucky Lexington Kentucky USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Xinxing",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biomedical Informatics University of Kentucky Lexington Kentucky USA."
+        ]
+      },
+      {
+        "full_name": "Peng, Chong",
+        "short_name": "Peng C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering Qingdao University Shandong China."
+        ]
+      },
+      {
+        "full_name": "Nelson, Peter T",
+        "short_name": "Nelson PT",
+        "identifiers": [],
+        "affiliations": [
+          "Sanders-Brown Aging Center and Department of Pathology University of Kentucky Lexington Kentucky USA."
+        ]
+      },
+      {
+        "full_name": "Cheng, Qiang",
+        "short_name": "Cheng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biomedical Informatics University of Kentucky Lexington Kentucky USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Alzheimer's & dementia (New York, N. Y.)"
+    ],
+    "journal_abbrev": [
+      "Alzheimers Dement (N Y)"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/10 06:00",
+    "fetched_at": "2026-09-28 16:00:09"
+  },
+  "links": {
+    "cites": [
+      "39061107"
+    ],
+    "refs": [
+      "35005207",
+      "34618331",
+      "34492068",
+      "33188391",
+      "32954307",
+      "32830216",
+      "32321203",
+      "32258428",
+      "31845964",
+      "31754655",
+      "31638949",
+      "31073534",
+      "31039256",
+      "30651152",
+      "30409231",
+      "29482517",
+      "28727739",
+      "27349729",
+      "27110626",
+      "26017442",
+      "25635347",
+      "25250162",
+      "25114068",
+      "24579083",
+      "20146698",
+      "19201945",
+      "18562394",
+      "18458218",
+      "11376466",
+      "10474158",
+      "8232972",
+      "7104545",
+      "5910392",
+      "3316501",
+      "3249765"
+    ],
+    "similar": [
+      "36348767",
+      "36189595",
+      "37150879",
+      "36190653",
+      "39051924",
+      "36778217",
+      "32830216",
+      "36321557",
+      "32409844",
+      "38517402",
+      "38045300",
+      "37966908",
+      "39061107",
+      "38470976",
+      "32452861",
+      "35121671",
+      "35767811",
+      "31107338",
+      "34854996",
+      "39021510",
+      "32180703",
+      "34563269",
+      "38938199",
+      "35728463",
+      "38266517",
+      "37007095",
+      "38853169",
+      "34492068",
+      "38133681",
+      "31845964",
+      "36691755",
+      "37195467",
+      "38744041",
+      "35005207",
+      "32734738",
+      "33749148",
+      "36302666",
+      "37306629",
+      "31992981",
+      "38873396",
+      "36264254",
+      "31174609",
+      "20153956",
+      "34800847",
+      "36967829",
+      "37891841",
+      "34491920",
+      "31815698",
+      "37171158",
+      "33624322",
+      "32492161",
+      "32282466",
+      "37182869",
+      "37883174",
+      "38896345",
+      "38877688",
+      "37563264",
+      "37235796",
+      "33051572",
+      "31039256",
+      "37694160",
+      "36890826",
+      "36057624",
+      "34558120",
+      "37229565",
+      "32433107",
+      "34192861",
+      "36135373",
+      "31383477",
+      "32753441",
+      "18819544",
+      "34442430",
+      "31379711",
+      "34597386",
+      "34003477",
+      "38997773",
+      "32183709",
+      "35052586",
+      "38520489",
+      "37742640",
+      "36706617",
+      "39085955",
+      "33306119",
+      "33078279",
+      "30956006",
+      "34458829",
+      "37741764",
+      "33188391",
+      "34009663",
+      "31539267",
+      "32814257",
+      "36836039",
+      "31577560",
+      "29525492"
+    ],
+    "review": [
+      "36348767",
+      "36190653",
+      "36321557",
+      "38873396",
+      "36967829",
+      "37891841",
+      "37563264",
+      "33051572",
+      "31039256",
+      "34558120",
+      "31383477",
+      "30956006",
+      "34458829",
+      "37741764"
+    ],
+    "pmc": [
+      "9632667"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36348767/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36348767",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

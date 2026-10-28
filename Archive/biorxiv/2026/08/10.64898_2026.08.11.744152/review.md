@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability, author contributions, competing interests, acknowledgements)
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims based solely on the provided manuscript text. No supplementary materials, figures, or tables were available for inspection beyond those referenced in the text.
+- **Shared manuscript claim summary** The authors analyze experimentally mapped adaptive landscapes of transcription factor binding sites (TFBSs) for five bacterial transcription factors spanning a regulatory hierarchy from local (TetR) to semi-global (LasR) to global (CRP, Fis, IHF). They report that three topographic properties vary systematically with regulatory scope: mean mutational robustness increases from local to global TFs, high-regulation-strength peaks are clustered in the local landscape but dispersed in global ones, and adaptive walks reach high peaks more readily in local landscapes. They also report abundant evolvability-enhancing (EE) mutations in all landscapes, which increase the regulation strength achieved by adaptive walks, with the strongest effect in the local TetR landscape. The authors conclude that regulatory scope is an organizing axis of TFBS adaptive landscapes.
+- **Visible evidence base** Main text only. Figures 1-5, Supplementary Figures S1-S12, Supplementary Methods Sections 2-14, and all tables are referenced but not provided. Statistical results are reported in text but cannot be independently verified without the underlying data and figure panels.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and potentially important question: whether the regulatory scope of a transcription factor systematically shapes the adaptive landscape of its binding sites. The conceptual framing is clear and the comparative approach across five TFs is well motivated. However, the current manuscript text provides insufficient evidence to evaluate the central claims. The Results section is presented as a series of assertions with statistical test results, but the actual data, figures, and methodological details are relegated to supplementary materials that were not provided for review. Several internal inconsistencies and ambiguities in the main text further reduce confidence. The core comparative claims rest on only five TFs, with no statistical framework for assessing whether the observed trends are significant given this small sample size. The manuscript would benefit from a more complete presentation of results in the main text and a clearer articulation of the statistical approach for cross-TF comparisons.
+- **Who would be interested in the results, and why** Evolutionary biologists studying genotype-phenotype maps and adaptive landscapes would be interested, as the work extends landscape analysis to TFBSs across a regulatory hierarchy. Molecular evolution researchers studying cis-regulatory evolution and transcription factor binding specificity would find the comparative framework valuable. Systems biologists interested in the evolutionary constraints imposed by regulatory network architecture would also be a relevant audience. The connection between regulatory scope and landscape topography could inform understanding of how gene regulatory network structure shapes evolutionary potential.
+- **Major Strengths**
+  - The conceptual question is well framed and addresses a gap in the literature: whether regulatory scope systematically influences TFBS evolutionary landscapes.
+  - The comparative design across five TFs spanning a local-to-global hierarchy is appropriate for the question.
+  - The use of experimentally mapped landscapes with large genotype sampling (up to 4^8 variants) is a strength.
+  - The inclusion of EE mutation analysis extends the study beyond static landscape topography to evolutionary dynamics.
+  - The authors acknowledge limitations appropriately, including the proxy nature of regulation strength for fitness and the bacterial-specific context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The central claim that "three topographic properties vary systematically with regulatory scope" (mean mutational robustness, high-peak clustering, peak accessibility) is presented as the main finding.
+  - **Evidence pointer** Results section, Figures 2-3, Table 1, Supplementary Figures S4-S6, location not provided
+  - **Concern** The main text reports statistical test results (Kruskal-Wallis, Dunn's post-hoc, Wilcoxon rank-sum) but does not present the actual data distributions, effect sizes beyond Cliff's delta, or visual evidence. The claim of "systematic" variation across regulatory scope is based on only five TFs, with no statistical framework for testing whether the ordering of TFs along the local-to-global axis explains the observed variation. With n=5, a trend could be driven by a single outlier. The manuscript does not report any regression or correlation analysis relating regulatory scope (as a continuous or ordinal variable) to landscape properties. Without this, the claim of systematic variation is not established.
+  - **Why it matters** The central conclusion of the paper rests on this comparative claim. If the trend across five TFs is not statistically robust, the organizing-axis interpretation is unsupported. The authors need to either provide a formal statistical test of the relationship between regulatory scope and landscape properties, or temper their conclusion to describe observed differences rather than systematic variation.
+  - **Resolution test** Provide a statistical analysis that treats regulatory scope as a predictor variable (e.g., ordinal regression, Spearman correlation with permutation-based significance) for each landscape property. Alternatively, present the data in a way that allows visual assessment of the trend across all five TFs, with confidence intervals that permit evaluation of the systematicity claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The manuscript states that "we generated the LasR dataset specifically for this study" and that all datasets were processed with "the same standardised Sort-Seq protocol and analysis pipeline."
+  - **Evidence pointer** Methods, Overview section; Supplementary Methods Section 2, location not provided
+  - **Concern** The main text provides no details on the LasR experimental design, including the TFBS library construction, the choice of the 8 randomized positions, the number of biological replicates (stated as 4 in the Combining replicates section), the sorting strategy, or the sequencing depth. The claim of using "the same standardised protocol" as previous studies cannot be verified without the supplementary methods. More critically, the manuscript does not describe how the wild-type TFBS was defined for each TF, which is essential for interpreting "high peaks" defined as exceeding wild-type regulation strength. The normalization procedure (dividing by e_max = 13) is described but the rationale and potential artifacts are not discussed.
+  - **Why it matters** Reproducibility is a core requirement. The LasR dataset is new and its quality directly affects the comparative claims. Without details on library construction, sequencing depth, and quality filtering, readers cannot assess whether differences between LasR and the other TFs reflect biology or experimental artifacts. The definition of wild-type and the normalization approach also affect the interpretation of all downstream analyses.
+  - **Resolution test** Provide the supplementary methods for review, or add sufficient detail to the main text to allow independent evaluation of the LasR dataset generation and the comparability of all five datasets. Include information on library complexity, sequencing depth per replicate, sorting thresholds, and the specific sequence used as the wild-type reference for each TF.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** The manuscript states in the Abstract that "All five landscapes are rugged and epistatic" and in the Results that "All five landscapes are rugged (Table 1; Supplementary Methods Section 7)."
+  - **Evidence pointer** Abstract; Results, Peaks and pairwise distances section; Table 1, location not provided
+  - **Concern** The main text contains a duplicated sentence: "We use regulation strength as a proxy for fitness, which reflects the assumption that strong regulation can be beneficial." appears twice in the Introduction. This suggests incomplete editing. More substantively, the claim that all landscapes are "rugged" is not defined in the main text. The fraction of local peaks (12.2% for TetR vs 5.4-6.7% for others) is reported, but the criteria for ruggedness and how it is quantified are not stated. The term "epistatic" is used in the Abstract but epistasis is not defined or analyzed in the main text. The relationship between the reported peak fractions and the qualitative label "rugged" is unclear.
+  - **Why it matters** Internal consistency and clear definitions are essential for scientific communication. The duplicated sentence suggests the manuscript is not fully polished. More importantly, the central descriptive claims about landscape ruggedness and epistasis are not operationalized in the main text, making them impossible to evaluate. Readers cannot assess whether the label "rugged" is appropriate without knowing the quantitative criteria.
+  - **Resolution test** Remove the duplicated sentence. Define ruggedness and epistasis operationally in the main text, or state the quantitative criteria used to classify landscapes as rugged. Clarify whether epistasis was directly measured or inferred from the ruggedness of the landscape.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript reports that "EE mutations also clearly affect the incidence of beneficial mutations" and that "adaptive walks that include at least one EE mutation entail greater gains in regulation-strength than walks composed entirely of non-EE mutations."
+  - **Evidence pointer** Results, Evolvability-enhancing mutations section; Figure 4, Supplementary Figures S7-S12, location not provided
+  - **Concern** The classification of EE mutations relies on a comparison of neighborhood mean regulation strength against an additive expectation. The main text states that for beneficial mutations, the null expectation is max(0, ΔS_R), but the rationale for this choice is not explained. For deleterious mutations, a stricter criterion is used, but the justification is not provided. The statistical test for EE classification uses a one-sample t-test with propagated standard errors, but the main text does not report how many mutations were classified as EE, EN, or ED in each landscape, nor the proportion of mutations in each category. The claim that EE mutations are "abundant" is not quantified in the main text. The comparison of walk outcomes between EE-containing and non-EE walks reports very small p-values (e.g., P = 3.2 x 10^-236) that are difficult to interpret without effect sizes or visualization.
+  - **Why it matters** The EE mutation analysis is a substantial component of the paper's contribution. Without reporting the distribution of mutation classifications and the effect sizes for walk outcome comparisons, the biological significance of EE mutations in TFBS landscapes cannot be assessed. The very small p-values suggest extremely large sample sizes, but the practical significance depends on effect sizes, which are not reported.
+  - **Resolution test** Report the number and proportion of EE, EN, and ED mutations in each landscape. Provide effect sizes (e.g., Cohen's d or Cliff's delta with confidence intervals) for the walk outcome comparisons. Justify the choice of null expectation for EE classification, particularly the max(0, ΔS_R) formulation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, paragraph 2
+  - **Evidence pointer** "We use regulation strength as a proxy for fitness, which reflects the assumption that strong regulation can be beneficial." (duplicated sentence)
+  - **Issue** This sentence appears twice verbatim in the Introduction, indicating an editing error.
+  - **Required correction** Remove the duplicate occurrence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Mapping adaptive landscapes of TFBSs section
+  - **Evidence pointer** "For each TF, we randomised the eight most informative positions within its binding motif"
+  - **Issue** The criterion for "most informative positions" is not defined in the main text. It is unclear whether this refers to positions with highest information content in the position weight matrix, positions with greatest contribution to binding specificity, or another metric.
+  - **Required correction** Define the criterion for selecting the eight positions, or refer to the supplementary methods where this is presumably described.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph 2
+  - **Evidence pointer** "The landscape properties of the local TetR regulator are consistent with the demands of tight and specific regulation."
+  - **Issue** The discussion interprets the observed patterns in terms of functional demands, but the manuscript does not present any independent evidence linking landscape properties to functional requirements. The interpretation is plausible but speculative.
+  - **Required correction** Acknowledge the speculative nature of this interpretation, or provide additional analysis linking landscape properties to functional outcomes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Discussion, paragraph 4
+  - **Evidence pointer** "Extending similar landscape measurements to multi-site regulatory regions will therefore be important for testing whether the relationship between regulatory scope and TFBS landscape structure generalises beyond bacteria."
+  - **Issue** The authors acknowledge the bacterial-specific context, but the Discussion could more explicitly address whether the five TFs studied are representative of their respective regulatory scope categories. With only one local, one semi-global, and three global TFs, the generalizability within categories is limited.
+  - **Required correction** Add a sentence acknowledging the limited replication within each regulatory scope category and the need for additional TFs to confirm the pattern.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The claim of systematic variation with regulatory scope is not statistically established with n=5 TFs and no formal test of the relationship.
+  - R1-M2: The LasR dataset generation and quality control are not described in sufficient detail in the main text to allow evaluation.
+  - R1-M3: The duplicated sentence and undefined terms (rugged, epistatic) indicate incomplete editing and unclear operationalization of key concepts.
+  - R1-M4: The EE mutation analysis lacks reporting of classification distributions and effect sizes.
+
+## Risk / unsupported claims
+- The claim that "regulatory scope is an organising axis of TFBS adaptive landscapes" is not supported by the evidence presented in the main text, as no statistical test relating regulatory scope to landscape properties is reported.
+- The claim that "all five landscapes are rugged and epistatic" is not operationalized in the main text; the criteria for ruggedness and epistasis are not defined.
+- The claim that "EE mutations are abundant" is not quantified in the main text; the proportion of EE mutations in each landscape is not reported.
+- The claim that "populations experiencing EE mutations consistently reach higher regulation strength" is based on comparisons with extremely small p-values but no reported effect sizes.
+- The claim that the experimental assay "capture[s] regulation-strength ranges relevant to natural TFSE evolution" is based on a comparison with predicted values for curated genomic binding sites, but the details of this comparison are not provided in the main text.
+- The interpretation that low robustness and high peak accessibility in TetR reflect "the high binding specificity of a local repressor" is speculative and not directly tested.

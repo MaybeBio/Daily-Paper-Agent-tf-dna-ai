@@ -1,0 +1,363 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2025.05.27.25328444",
+  "title": "Extending Genome-Wide Association Studies to admixed cohorts with high degrees of relatedness",
+  "doi": "10.1101/2025.05.27.25328444",
+  "abstract": "Recently admixed populations comprise a large portion of the human population worldwide, but are often excluded from Genome-Wide Association Studies (GWAS) due to analytic challenges. Our group has previously developed a local ancestry informed generalized linear model based method, Tractor , for GWAS in admixed samples, which produces accurate ancestry-specific effect sizes and boosts discovery power to identify ancestry-enriched loci. Tractor has been instrumental for elucidating the genetic architecture of complex traits across admixed cohorts, however it operates under an assumption of unrelated samples. As biobanks and other large-scale data sources continue to grow, increasing numbers of closely or cryptically related admixed samples are included. This brings new statistical challenges in conducting GWAS and motivates the timely development of novel tools that can model admixture in various cohort settings. Here, we propose a novel mixed model method, Tractor-Mix , that allows for well-calibrated association studies in datasets containing admixed samples with high degrees of relatedness. Similar to Tractor , our method conducts genetic association tests by leveraging local ancestry to produce more accurate effect sizes and boost power under heterogeneity while effectively controlling false positives. Extensive simulations show this enhanced method is competitive with other state-of-the-art approaches that do not produce ancestry-specific results. Empirical testing of Tractor-Mix on multiple cohorts, including admixed samples from the UK Biobank and Mexico City Prospective Study, highlight the value of the method, identifying ancestry-specific associations. In summary, Tractor-Mix is a powerful association framework that extends the capabilities of current models and will facilitate the inclusion of admixed samples in large-scale GWAS.",
+  "authors": [
+    "Tan T",
+    "Vergara-Lope A",
+    "Martínez-Magaña JJ",
+    "Shah NN",
+    "Yuan K",
+    "Berumen J",
+    "Alegre-Díaz J",
+    "Kuri-Morales P",
+    "Tapia-Conyer R",
+    "Gelenter J",
+    "Montalvo-Ortiz JL",
+    "Zhou W",
+    "Torres JM",
+    "Atkinson EG"
+  ],
+  "published_date": "2025-06-09",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2025.05.27.25328444",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2025.05.27.25328444.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1033377",
+    "raw_record": {
+      "id": "PPR1033377",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1033377"
+        ]
+      },
+      "doi": "10.1101/2025.05.27.25328444",
+      "title": "Extending Genome-Wide Association Studies to admixed cohorts with high degrees of relatedness",
+      "authorString": "Tan T, Vergara-Lope A, Martínez-Magaña JJ, Shah NN, Yuan K, Berumen J, Alegre-Díaz J, Kuri-Morales P, Tapia-Conyer R, Gelenter J, Montalvo-Ortiz JL, Zhou W, Torres JM, Atkinson EG.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tan T",
+            "lastName": "Tan",
+            "firstName": "Taotao",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular and Human Genetics, , , ,"
+                },
+                {
+                  "affiliation": "Department of Integrative Physiology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vergara-Lope A",
+            "lastName": "Vergara-Lope",
+            "firstName": "Alejandra",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Clinical Trial Service Unit and Epidemiological Studies Unit, Oxford Population Health, Big Data Institute, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martínez-Magaña JJ",
+            "lastName": "Martínez-Magaña",
+            "firstName": "José Jaime",
+            "initials": "JJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry, School of Medicine, , ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "U.S. Department of Veterans Affairs National Center for Posttraumatic Stress Disorder, Clinical Neurosciences Division, West Haven, CT, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shah NN",
+            "lastName": "Shah",
+            "firstName": "Nirav",
+            "initials": "NN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular and Human Genetics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yuan K",
+            "lastName": "Yuan",
+            "firstName": "Kai",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Analytic and Translational Genetics Unit, , , ,"
+                },
+                {
+                  "affiliation": ", , , ,"
+                },
+                {
+                  "affiliation": "Department of Medicine, Harvard Medical School, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Berumen J",
+            "lastName": "Berumen",
+            "firstName": "Jaime",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Experimental Research Unit from the Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Alegre-Díaz J",
+            "lastName": "Alegre-Díaz",
+            "firstName": "Jesus",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Experimental Research Unit from the Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kuri-Morales P",
+            "lastName": "Kuri-Morales",
+            "firstName": "Pablo",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Medicine, , ,"
+                },
+                {
+                  "affiliation": ", Proyecto OriGen, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tapia-Conyer R",
+            "lastName": "Tapia-Conyer",
+            "firstName": "Roberto",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gelenter J",
+            "lastName": "Gelenter",
+            "firstName": "Joel",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry, School of Medicine, , ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "U.S. Department of Veterans Affairs National Center for Posttraumatic Stress Disorder, Clinical Neurosciences Division, West Haven, CT, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Montalvo-Ortiz JL",
+            "lastName": "Montalvo-Ortiz",
+            "firstName": "Janitza",
+            "initials": "JL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry, School of Medicine, , ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "U.S. Department of Veterans Affairs National Center for Posttraumatic Stress Disorder, Clinical Neurosciences Division, West Haven, CT, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhou W",
+            "lastName": "Zhou",
+            "firstName": "Wei",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                },
+                {
+                  "affiliation": "Center for Genomic Medicine, , Harvard Medical School, , ,"
+                },
+                {
+                  "affiliation": "Program in Medical and Population Genetics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Torres JM",
+            "lastName": "Torres",
+            "firstName": "Jason",
+            "initials": "JM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Clinical Trial Service Unit and Epidemiological Studies Unit, Oxford Population Health, Big Data Institute, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Atkinson EG",
+            "lastName": "Atkinson",
+            "firstName": "Elizabeth",
+            "initials": "EG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular and Human Genetics, , , ,"
+                },
+                {
+                  "affiliation": "Jan and Dan Duncan Neurological Research Institute, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Recently admixed populations comprise a large portion of the human population worldwide, but are often excluded from Genome-Wide Association Studies (GWAS) due to analytic challenges. Our group has previously developed a local ancestry informed generalized linear model based method,  Tractor , for GWAS in admixed samples, which produces accurate ancestry-specific effect sizes and boosts discovery power to identify ancestry-enriched loci.  Tractor has been instrumental for elucidating the genetic architecture of complex traits across admixed cohorts, however it operates under an assumption of unrelated samples. As biobanks and other large-scale data sources continue to grow, increasing numbers of closely or cryptically related admixed samples are included. This brings new statistical challenges in conducting GWAS and motivates the timely development of novel tools that can model admixture in various cohort settings. Here, we propose a novel mixed model method,  Tractor-Mix , that allows for well-calibrated association studies in datasets containing admixed samples with high degrees of relatedness. Similar to  Tractor , our method conducts genetic association tests by leveraging local ancestry to produce more accurate effect sizes and boost power under heterogeneity while effectively controlling false positives. Extensive simulations show this enhanced method is competitive with other state-of-the-art approaches that do not produce ancestry-specific results. Empirical testing of  Tractor-Mix on multiple cohorts, including admixed samples from the UK Biobank and Mexico City Prospective Study, highlight the value of the method, identifying ancestry-specific associations. In summary,  Tractor-Mix is a powerful association framework that extends the capabilities of current models and will facilitate the inclusion of admixed samples in large-scale GWAS.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2025/06/09/2025.05.27.25328444.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.05.27.25328444"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1033377"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1033377&type=FILE&fileName=EMS206390-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42477114",
+            "reference": "Nature genetics. \n    2026 Jul;:",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS206390",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refsnp"
+        ]
+      },
+      "dateOfCreation": "2025-06-13",
+      "firstPublicationDate": "2025-06-09",
+      "firstIndexDate": "2025-06-13",
+      "fullTextReceivedDate": "2025-06-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

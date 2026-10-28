@@ -1,0 +1,441 @@
+{
+  "identity": {
+    "pmid": "38916345",
+    "doi": "10.1128/mbio.01144-24",
+    "title": "cAMP-independent DNA binding of the CRP family protein DdrI from Deinococcus radiodurans."
+  },
+  "content": {
+    "abstract": "The cAMP receptor proteins (CRPs) play a critical role in bacterial environmental adaptation by regulating global gene expression levels via cAMP binding. Here, we report the structure of DdrI, a CRP family protein from Deinococcus radiodurans. Combined with biochemical, kinetic, and molecular dynamics simulations analyses, our results indicate that DdrI adopts a DNA-binding conformation in the absence of cAMP and can form stable complexes with the target DNA sequence of classical CRPs. Further analysis revealed that the high-affinity cAMP binding pocket of DdrI is partially filled with Tyr113-Arg55-Glu65 sidechains, mimicking the anti-cAMP-mediated allosteric transition. Moreover, the second syn-cAMP binding site of DdrI at the protein-DNA interface is more negatively charged compared to that of classical CRPs, and manganese ions can enhance its DNA binding affinity. DdrI can also bind to a target sequence that mimics another transcription factor, DdrO, suggesting potential cross-talk between these two transcription factors. These findings reveal a class of CRPs that are independent of cAMP activation and provide valuable insights into the environmental adaptation mechanisms of D. radiodurans.IMPORTANCEBacteria need to respond to environmental changes at the gene transcriptional level, which is critical for their evolution, virulence, and industrial applications. The cAMP receptor protein (CRP) of Escherichia coli (ecCRP) senses changes in intracellular cAMP levels and is a classic example of allosteric effects in textbooks. However, the structures and biochemical activities of CRPs are not generally conserved and there exist different mechanisms. In this study, we found that the proposed CRP from Deinococcus radiodurans, DdrI, exhibited DNA binding ability independent of cAMP binding and adopted an apo structure resembling the activated CRP. Manganese can enhance the DNA binding of DdrI while allowing some degree of freedom for its target sequence. These results suggest that CRPs can evolve to become a class of cAMP-independent global regulators, enabling bacteria to adapt to different environments according to their characteristics. The first-discovered CRP family member, ecCRP (or CAP) may well not be typical of the family and be very different to the ancestral CRP-family transcription factor.",
+    "keywords": [
+      "DNA binding",
+      "allosteric effect",
+      "cAMP",
+      "dimer",
+      "microscale thermophoresis",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "*Deinococcus/genetics/metabolism",
+      "*Cyclic AMP Receptor Protein/metabolism/genetics/chemistry",
+      "*Bacterial Proteins/metabolism/genetics/chemistry",
+      "*Cyclic AMP/metabolism",
+      "*Protein Binding",
+      "Binding Sites",
+      "DNA, Bacterial/genetics/metabolism",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "DNA-Binding Proteins/metabolism/genetics/chemistry",
+      "Gene Expression Regulation, Bacterial"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yudong",
+        "Hu, Jing",
+        "Gao, Xufan",
+        "Cao, Yuchen",
+        "Ye, Shumai",
+        "Chen, Cheng",
+        "Wang, Liangyan",
+        "Xu, Hong",
+        "Guo, Miao",
+        "Zhang, Dong",
+        "Zhou, Ruhong",
+        "Hua, Yuejin",
+        "Zhao, Ye"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Hu J",
+        "Gao X",
+        "Cao Y",
+        "Ye S",
+        "Chen C",
+        "Wang L",
+        "Xu H",
+        "Guo M",
+        "Zhang D",
+        "Zhou R",
+        "Hua Y",
+        "Zhao Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-9462-135X",
+        "ORCID: 0000-0002-5455-2586"
+      ],
+      "affiliations": [
+        "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China.",
+        "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China.",
+        "Institute of Quantitative Biology, College of Life Sciences, Zhejiang University, Hangzhou, China.",
+        "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China.",
+        "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China.",
+        "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China.",
+        "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China.",
+        "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China.",
+        "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China.",
+        "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China.",
+        "Institute of Quantitative Biology, College of Life Sciences, Zhejiang University, Hangzhou, China.",
+        "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China.",
+        "Institute of Quantitative Biology, College of Life Sciences, Zhejiang University, Hangzhou, China.",
+        "Shanghai Institute for Advanced Study, Zhejiang University, Shanghai, China.",
+        "Department of Chemistry, Columbia University, New York, New York, USA.",
+        "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China.",
+        "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yudong",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0009-0003-9462-135X"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Jing",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Xufan",
+        "short_name": "Gao X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Quantitative Biology, College of Life Sciences, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Yuchen",
+        "short_name": "Cao Y",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Shumai",
+        "short_name": "Ye S",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Cheng",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liangyan",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Hong",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Miao",
+        "short_name": "Guo M",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Dong",
+        "short_name": "Zhang D",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China.",
+          "Institute of Quantitative Biology, College of Life Sciences, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Ruhong",
+        "short_name": "Zhou R",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China.",
+          "Institute of Quantitative Biology, College of Life Sciences, Zhejiang University, Hangzhou, China.",
+          "Shanghai Institute for Advanced Study, Zhejiang University, Shanghai, China.",
+          "Department of Chemistry, Columbia University, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Hua, Yuejin",
+        "short_name": "Hua Y",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ye",
+        "short_name": "Zhao Y",
+        "identifiers": [
+          "0000-0002-5455-2586"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory of Biosystems Homeostasis & Protection, Institute of Biophysics, College of Life Sciences, Zhejiang University, Hangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "mBio"
+    ],
+    "journal_abbrev": [
+      "mBio"
+    ],
+    "pub_date": "2024 Jul 17",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/25 12:42",
+    "fetched_at": "2026-10-05 01:24:22"
+  },
+  "links": {
+    "cites": [
+      "42440157",
+      "42133709",
+      "41750260",
+      "41158063",
+      "40308968"
+    ],
+    "refs": [
+      "38424107",
+      "38377994",
+      "37410076",
+      "37223727",
+      "37089576",
+      "36892777",
+      "36343262",
+      "35841886",
+      "35801857",
+      "35315431",
+      "34685516",
+      "34325194",
+      "34052926",
+      "33640453",
+      "32721821",
+      "32120333",
+      "31756434",
+      "31744922",
+      "31598697",
+      "31410466",
+      "31303977",
+      "30339218",
+      "29686138",
+      "29146813",
+      "28956357",
+      "28397370",
+      "27558436",
+      "27284196",
+      "27182600",
+      "27058167",
+      "27044084",
+      "25940620",
+      "25868646",
+      "25243898",
+      "24811920",
+      "21372322",
+      "20383002",
+      "20124702",
+      "20124692",
+      "20028978",
+      "20015337",
+      "19461840",
+      "19359484",
+      "19186251",
+      "18699868",
+      "18628769",
+      "18456811",
+      "18270589",
+      "17895995",
+      "17574998",
+      "16260780",
+      "15459345",
+      "10831446",
+      "9096308",
+      "8955352",
+      "8757802",
+      "6286624"
+    ],
+    "similar": [
+      "38916345",
+      "29686138",
+      "20028978",
+      "26378231",
+      "16267303",
+      "19193643",
+      "12475242",
+      "7662661",
+      "11412099",
+      "33640453",
+      "8573570",
+      "37017526",
+      "27182600",
+      "17159200",
+      "9512707",
+      "15096034",
+      "8253679",
+      "1645189",
+      "15720385",
+      "8764393",
+      "18338329",
+      "9157253",
+      "20338852",
+      "12269830",
+      "15186408",
+      "1715855",
+      "1655726",
+      "18713737",
+      "1384062",
+      "36700638",
+      "11988531",
+      "28956357",
+      "8380500",
+      "38652591",
+      "18041838",
+      "18761017",
+      "1327747",
+      "20494996",
+      "10074087",
+      "9548750",
+      "9422721",
+      "15813735",
+      "12667067",
+      "27551019",
+      "25469635",
+      "11890200",
+      "17369302",
+      "32080294",
+      "2547972",
+      "15159541",
+      "12653996",
+      "21764924",
+      "15952780",
+      "15063722",
+      "9466254",
+      "19359484",
+      "25434596",
+      "7715459",
+      "24058293",
+      "19229313",
+      "8596434",
+      "12022869",
+      "1328649",
+      "11024268",
+      "12667072",
+      "16464435",
+      "21586590",
+      "31744922",
+      "18332206",
+      "11124966",
+      "9425025",
+      "10320351",
+      "24074367",
+      "10860740",
+      "15719017",
+      "15967460",
+      "10860739",
+      "11979597",
+      "11343786",
+      "9548751",
+      "19439203",
+      "21782316",
+      "11532153",
+      "24509317",
+      "19146659",
+      "23035121",
+      "26260461",
+      "10722684",
+      "17933899",
+      "12591879",
+      "26187469",
+      "16166533",
+      "11591152",
+      "16401068",
+      "26442598",
+      "23115037",
+      "1647022",
+      "8895588",
+      "11952906",
+      "9829925"
+    ],
+    "review": [
+      "38916345",
+      "18338329",
+      "11343786"
+    ],
+    "pmc": [
+      "11253593"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/mbio.01144-24?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38916345/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CRP-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1478",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://bacdive.dsmz.de/strain/3852",
+        "provider": "BacDive",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "Deinococcus radiodurans BD-ID 3852"
+      }
+    ],
+    "text_mined": []
+  }
+}

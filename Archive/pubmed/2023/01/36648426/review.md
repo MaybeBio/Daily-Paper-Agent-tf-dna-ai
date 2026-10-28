@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided by the user, without supplementary files or figures.
+- **Assessment boundary** The review is limited to the content of the supplied manuscript text. Claims, methods, and results are assessed as described in the text. Supplementary materials are referenced but not independently verified.
+- **Shared manuscript claim summary** The authors present an integrative multi-omics pipeline to predict brain-region-specific gene regulatory networks (GRNs) for Alzheimer's disease (AD) phenotypes, linking transcription factors to target genes via regulatory elements. They further identify AD–Covid shared genes, use machine learning to predict Covid-19 severity, and map GWAS risk SNPs to TFBS disruptions, offering mechanistic insights into shared neuroinflammatory pathways.
+- **Visible evidence base** Results sections describing gene co-expression network analysis, module enrichment, GRN construction, machine learning performance metrics (accuracy, AUC, DCA), and GWAS SNP mapping. Methods sections describing data sources (GSE1297, GSE159699, ROSMAP, GSE157103, GSE125050), tools (WGCNA, RTN, GENIE3, TReNA, motifbreakR, DESeq2, scGRNom), and statistical approaches.
+- **Missing materials affecting confidence** Supplementary files (S1–S8), figures (S1–S15), tables (S1–S4), and detailed method descriptions in Supplementary Methods were not provided. These are essential for verifying the completeness of results, the robustness of the analyses, and the validity of the reported performance metrics.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question: the shared regulatory mechanisms between AD and Covid-19 severity. The integrative approach combining co-expression networks, chromatin interaction data, TF binding site prediction, and GWAS mapping is ambitious and potentially valuable. However, the current text provides insufficient detail to fully evaluate the rigor of the analyses. Several key claims, particularly regarding machine learning performance and the biological significance of the identified genes, are presented without adequate statistical context or comparison to existing resources. The manuscript would benefit from clearer presentation of validation strategies, more explicit handling of confounders (e.g., cell-type composition, batch effects), and a more critical discussion of limitations. The work is of interest to the neurogenomics and neuroimmunology communities, but the evidence as presented does not yet fully establish the claimed advances.
+- **Who would be interested in the results, and why** Researchers studying the genetic and regulatory basis of Alzheimer's disease, particularly those focused on gene regulatory networks and non-coding variants. Investigators exploring the intersection of neurodegeneration and infectious disease, especially the neurological sequelae of Covid-19. Computational biologists developing integrative multi-omics methods for complex diseases. Clinicians interested in biomarkers or therapeutic targets for AD and severe Covid-19.
+- **Major strengths** The study addresses a clinically relevant and under-explored question: the shared regulatory architecture between AD and Covid-19 severity. The integration of multiple data types (gene expression, chromatin interaction, GWAS) is methodologically ambitious. The use of brain-region-specific analyses is a strength, as regional heterogeneity is often overlooked. The authors provide an open-source resource, which is commendable for transparency and community use. The identification of specific TF–gene interactions (e.g., NF-κB family members) provides testable hypotheses.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that their machine learning models using AD–Covid genes outperform a benchmark model for predicting Covid-19 severity, with the DLPFC model achieving 85% accuracy and AUC 0.98.
+  - **Evidence pointer** Results section "ML prediction of Covid-19 severity from AD-Covid-related GRNs"; Figure 4B; Supplementary Table S3; location not provided for specific metrics.
+  - **Concern** The reported performance metrics are presented without confidence intervals, cross-validation details on the test set, or a clear description of how the benchmark model was constructed and tuned. The test set is small (20 samples), and the possibility of overfitting due to feature selection on the same dataset is not addressed. The claim of "outperformance" requires a more rigorous statistical comparison (e.g., DeLong test for AUC differences) and a demonstration that the results are stable across different data splits.
+  - **Why it matters** The central translational claim of the paper—that these genes can predict Covid-19 severity—rests on the validity of these machine learning results. Without robust validation, the claim is not established.
+  - **Resolution test** Provide confidence intervals for all metrics, perform nested cross-validation or a separate external validation cohort, and report the statistical significance of the difference in AUC between the AD–Covid models and the benchmark model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that their GRN construction integrates chromatin interaction data and TF binding site prediction to link TFs to regulatory elements and target genes, and that these GRNs are "highly confident."
+  - **Evidence pointer** Materials and Methods section "Prediction of GRNs from multi-omics"; Supplementary Table S1; location not provided.
+  - **Concern** The methods for GRN construction are described at a high level, but critical details are missing: how were TF–TG pairs from the three tools (RTN, GENIE3, TReNA) combined? What were the specific parameters and thresholds? How was the "shared prediction" defined? The use of a consensus approach is reasonable, but the text does not describe how conflicts between tools were resolved. Furthermore, the claim of "high confidence" is not supported by any quantitative metric (e.g., precision, recall, comparison to known regulatory interactions).
+  - **Why it matters** The GRNs are the foundation for all downstream analyses, including the identification of AD–Covid genes and the interpretation of GWAS SNPs. If the GRNs are not reliable, the subsequent claims are weakened.
+  - **Resolution test** Provide a detailed description of the consensus method, including thresholds and handling of discordant predictions. Include a validation of the GRNs against an independent resource (e.g., ENCODE, ChIP-seq data) and report metrics such as precision and recall.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their analysis "reveals" mechanistic insights into how AD and Covid-19 risk SNPs affect gene regulation, and that their SNP–TF–Regulatory Element–TG–Module–Phenotype links provide a comprehensive resource.
+  - **Evidence pointer** Results section "Identification of disease risk variants for AD phenotypes via integration of GWAS and GRNs"; Figure 5; Supplementary Figures S14–S15; location not provided.
+  - **Concern** The manuscript presents several "stories" (e.g., NF-κB, IFNAR2, CR1) but does not provide a systematic assessment of how many of the 17,795 SNPs and 144,098 SNP–TF–TG relationships are supported by additional evidence beyond the in silico prediction. The use of eQTL data for validation is mentioned, but the number of validated links is not reported. The biological significance of the findings is therefore unclear.
+  - **Why it matters** The claim of providing a "functional genomic resource" implies that the predictions are useful and reliable. Without a systematic validation rate, the utility of the resource is uncertain.
+  - **Resolution test** Report the number and proportion of SNP–TF–TG links that are supported by eQTL data, and provide a comparison to a null model (e.g., random SNPs) to demonstrate enrichment. Consider prioritizing a small number of high-confidence predictions for experimental validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that their module enrichment analyses "verify that the phenotype correlations we detected for our gene modules may indicate true biological signals."
+  - **Evidence pointer** Results section "Eigengenes and enrichments of co-expression modules"; Figure 2; Supplementary Figure S2; location not provided.
+  - **Concern** The enrichment analyses are used to support the biological relevance of the modules, but the text does not describe how multiple testing was handled across the many modules, phenotypes, and enrichment tools. The use of "highest enrichment value" for a term across tools is a potential source of bias. The interpretation of enrichment results as "verification" of biological signal is an overstatement, as enrichment alone does not confirm causality or specificity.
+  - **Why it matters** The biological interpretation of the modules is a key part of the paper's narrative. If the enrichment analysis is not rigorously controlled, the conclusions may be overstated.
+  - **Resolution test** Describe the multiple testing correction strategy across all comparisons. Consider reporting the number of significant enrichments expected by chance (e.g., via permutation testing). Soften the language from "verify" to "support."
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, paragraph 4
+  - **Evidence pointer** Introduction, paragraph 4; location not provided.
+  - **Issue** The introduction is dense and assumes familiarity with GRN concepts and the specific tools used. Terms like "TF–Regulatory Element–TG network" are introduced without a brief explanation for readers outside the immediate field.
+  - **Required correction** Add a brief, plain-language explanation of what a gene regulatory network is and why predicting it from multi-omics data is valuable. Consider a schematic figure or a short glossary.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "Gene co-expression network analysis"
+  - **Evidence pointer** Materials and Methods, "Gene co-expression network analysis"; location not provided.
+  - **Issue** The description of the K-Means clustering step is brief. It is unclear how the number of clusters was determined and whether the results were sensitive to this choice.
+  - **Required correction** Provide details on the selection of the number of clusters and a sensitivity analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, paragraph 2
+  - **Evidence pointer** Discussion, paragraph 2; location not provided.
+  - **Issue** The discussion of limitations is brief and does not address the potential confounding effect of cell-type composition in bulk tissue data, which is a known issue in AD transcriptomic studies.
+  - **Required correction** Add a paragraph discussing the limitations of bulk tissue data and the potential for cell-type composition to confound the co-expression and GRN analyses. Mention whether any deconvolution or single-cell validation was considered.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "ML prediction of Covid-19 severity"
+  - **Evidence pointer** Results, "ML prediction of Covid-19 severity"; location not provided.
+  - **Issue** The description of the machine learning results is technical and does not clearly explain the clinical scenario being modeled (e.g., what does "predicting Covid-19 severity" mean in practice?).
+  - **Required correction** Briefly explain the clinical context: what data would be available at the time of prediction, and how would the model be used?
+
+## Risk / unsupported claims
+- The claim that the AD–Covid genes "outperform" benchmark genes for predicting Covid-19 severity is not statistically substantiated without confidence intervals and significance testing.
+- The claim that the GRNs are "highly confident" is unsupported by quantitative validation metrics.
+- The claim that the SNP–TF–TG links provide "mechanistic insights" is based on in silico predictions with limited external validation; the number of eQTL-supported links is not reported.
+- The statement that enrichment analyses "verify" biological signals is an overstatement; enrichment alone does not confirm biological relevance.
+- The generalizability of the machine learning models to new, independent cohorts is not demonstrated.
+- The biological significance of the 36 prioritized AD–Covid genes is not fully established beyond their predictive performance in a small test set.

@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "38965970",
+    "doi": "10.7754/Clin.Lab.2024.231125",
+    "title": "Identifying Hub Genes Related to Vascular Endothelial Cell Permeability Through Bioinformatics and Verification."
+  },
+  "content": {
+    "abstract": "BACKGROUND: In this study, we aimed to identify the hub genes responsible for increased vascular endothelial cell permeability. METHODS: We applied the weighted Gene Expression Omnibus (GEO) database to mine dataset GSE178331 and ob-tained the most relevant high-throughput sequenced genes for an increased permeability of vascular endothelial cells due to inflammation. We constructed two weighted gene co-expression network analysis (WGCNA) networks, and the differential expression of high-throughput sequenced genes related to endothelial cell permeability were screened from the GEO database. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis were performed on the differential genes. Their degree values were obtained from the topological properties of protein-protein interaction (PPI) networks of differential genes, and the hub genes associated with an increased endothelial cell permeability were analyzed. Reverse transcription-polymerase chain reaction (RT-PCR) and western blotting techniques were used to detect the presence of these hub genes in TNF-alpha induced mRNA and the protein expression in endothelial cells. RESULTS: In total, 1,475 differential genes were mainly enriched in the cell adhesion and TNF-alpha signaling pathway. With TNF-alpha inducing an increase in the endothelial cell permeability and significantly increasing mRNA and protein expression levels, we identified three hub genes, namely PTGS2, ICAM1, and SNAI1. There was a significant difference in the high-dose TNF-alpha group and in the low-dose TNF-alpha group compared to the control group, in the endothelial cell permeability experiment (p = 0.008 vs. p = 0.02). Measurement of mRNA and protein levels of PTGS2, ICAM1, and SNAI1 by western blotting analysis showed that there was a significant impact on TNF-alpha and that there was a significant dose-dependent relationship (p < 0.05 vs. p < 0.01). CONCLUSIONS: The three hub genes identified through bioinformatics analyses in the present study may serve as biomarkers of increased vascular endothelial cell permeability. The findings offer valuable insights into the progress and mechanism of vascular endothelial cell permeability.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Computational Biology/methods",
+      "*Tumor Necrosis Factor-alpha/genetics/metabolism",
+      "*Endothelial Cells/metabolism",
+      "*Gene Regulatory Networks",
+      "*Protein Interaction Maps",
+      "Gene Expression Profiling/methods",
+      "Cyclooxygenase 2/genetics/metabolism",
+      "Capillary Permeability",
+      "Signal Transduction",
+      "Databases, Genetic",
+      "Intercellular Adhesion Molecule-1/genetics/metabolism",
+      "Snail Family Transcription Factors/genetics/metabolism",
+      "Human Umbilical Vein Endothelial Cells/metabolism",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Yunjiang",
+        "Chen, Qianyi",
+        "Cao, Lei",
+        "Zhao, Lili",
+        "Tang, Yi",
+        "Liu, Zhihan"
+      ],
+      "short_names": [
+        "Zheng Y",
+        "Chen Q",
+        "Cao L",
+        "Zhao L",
+        "Tang Y",
+        "Liu Z"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Yunjiang",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chen, Qianyi",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Cao, Lei",
+        "short_name": "Cao L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhao, Lili",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Tang, Yi",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Liu, Zhihan",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical laboratory"
+    ],
+    "journal_abbrev": [
+      "Clin Lab"
+    ],
+    "pub_date": "2024 Jul 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/05 06:42",
+    "fetched_at": "2026-09-29 23:08:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38965970",
+      "39344313",
+      "38858305",
+      "38073349",
+      "32756534",
+      "38858671",
+      "38736878",
+      "36291136",
+      "38904678",
+      "33299863",
+      "34964740",
+      "30825595",
+      "31987036",
+      "38764052",
+      "33441867",
+      "38873611",
+      "32598242",
+      "32435051",
+      "38957433",
+      "34110956",
+      "35154512",
+      "37382793",
+      "34565282",
+      "32626989",
+      "35313524",
+      "31277155",
+      "35016690",
+      "33941565",
+      "32772341",
+      "33640831",
+      "34852788",
+      "35957838",
+      "36056316",
+      "37359526",
+      "34975885",
+      "38749785",
+      "36514015",
+      "31772617",
+      "30916045",
+      "38993198",
+      "32853947",
+      "38062833",
+      "32008037",
+      "32243390",
+      "31339875",
+      "34257537",
+      "31822116",
+      "34553293",
+      "26662407",
+      "38961143",
+      "31424263",
+      "38774257",
+      "35762542",
+      "35003319",
+      "35307059",
+      "38755717",
+      "31794546",
+      "32575108",
+      "30132538",
+      "34160465",
+      "34545328",
+      "34931168",
+      "32064687",
+      "31699960",
+      "39069636",
+      "37740761",
+      "29305979",
+      "34722763",
+      "33758323",
+      "35562622",
+      "29240723",
+      "31703725",
+      "35975032",
+      "38718074",
+      "27814735",
+      "31277141",
+      "38886539",
+      "31562292",
+      "35132271",
+      "33025856",
+      "34633991",
+      "32724813",
+      "33407182",
+      "34749208",
+      "34233597",
+      "36238478",
+      "38863714",
+      "35132330",
+      "33582701",
+      "29546564",
+      "39197622",
+      "39337585",
+      "34358255",
+      "29482638",
+      "35620387",
+      "34968391",
+      "30506958",
+      "39252231",
+      "35116032",
+      "35378210",
+      "30365099",
+      "36472061",
+      "31747387",
+      "29286093",
+      "35069594",
+      "35054979",
+      "36841940",
+      "39024234",
+      "38695984",
+      "38482696",
+      "39213070",
+      "38713190",
+      "38984304",
+      "33941187",
+      "39280014",
+      "39252332",
+      "39263317",
+      "37606877",
+      "39028282",
+      "39029007",
+      "39412449",
+      "36743135",
+      "38512012",
+      "39364409"
+    ],
+    "review": [
+      "38965970"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SNAI1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1473",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7754/Clin.Lab.2024.231125",
+        "provider": "Clinical Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

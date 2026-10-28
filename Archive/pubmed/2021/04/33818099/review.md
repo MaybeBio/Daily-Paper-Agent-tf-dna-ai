@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors use an Ising-like statistical mechanical model to characterize native ensembles of three nuclear receptor ligand-binding domains (glucocorticoid receptor, PPARgamma, thyroid hormone receptor). They report diversity in native well widths, partially structured states, and conformational order; Monte Carlo simulations suggest functional conformations coexist in equilibrium with populations sensitive to temperature and ligand binding; allosteric modulation at a coregulator binding site arises from population redistribution in glucocorticoid and PPARgamma LBDs. They conclude that functional requirements drive evolution of conformationally diverse native ensembles in paralogs.
+- **Visible evidence base** Abstract text only; no quantitative results, model parameters, simulation details, or experimental validation are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, model equations and parameterization, simulation protocols, statistical analyses, and any experimental or comparative data
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis linking native ensemble diversity to functional differentiation in nuclear receptor LBDs. However, the evidence base is limited to a summary of findings with no quantitative detail, making it impossible to evaluate the robustness of the model, the validity of the conclusions, or the strength of the claims. The work may be of interest to computational biophysicists and structural biologists, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Computational biophysicists studying protein folding and allostery; structural biologists interested in nuclear receptor function and ligand-induced conformational changes; researchers in drug discovery targeting nuclear receptors, as the model could inform understanding of ligand effects on conformational ensembles.
+- **Major strengths** The hypothesis that native ensemble diversity is evolutionarily imprinted and functionally relevant is timely and conceptually appealing. The use of a paralogous family provides a natural comparative framework. The abstract clearly articulates a mechanistic link between population redistribution and allosteric modulation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the Ising-like model captures "energetically detailed" native ensembles and that Monte Carlo simulations "highlight that many of the functional conformations coexist in equilibrium"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No model details, parameter values, validation against experimental data, or convergence criteria for simulations are provided. The abstract asserts energetic detail and equilibrium coexistence without showing how these were established or tested.
+  - **Why it matters** Without evidence of model accuracy and simulation reliability, the central mechanistic claims cannot be assessed. The conclusions depend entirely on the model's ability to represent real LBD ensembles, which is not demonstrated.
+  - **Resolution test** Provide model equations, parameterization sources, validation against known experimental structures or dynamics, and simulation convergence metrics in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that "functional requirements can drive the evolution of conformationally diverse native ensembles in paralogs"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The evolutionary conclusion is presented as a result, but the abstract provides no comparative analysis across a broader set of paralogs, no phylogenetic context, and no quantitative measure of functional requirements versus ensemble diversity. The three LBDs studied are insufficient to establish an evolutionary trend.
+  - **Why it matters** The evolutionary claim is a key takeaway but is not supported by the evidence described. It appears speculative rather than demonstrated, which could mislead readers about the strength of the conclusion.
+  - **Resolution test** Include a systematic comparison of ensemble properties across multiple NR LBDs with defined functional annotations, and use statistical tests to link diversity measures to functional categories.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The claim that allosteric modulation arises via "redistribution of populations in the native ensembles"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify how ligand binding is modeled, what the coregulator binding site is, or how the population redistribution is quantified. The mechanistic link is stated but not explained in a way accessible to nonspecialists.
+  - **Why it matters** The allosteric mechanism is a central finding, but without a clear description of the model's treatment of ligand and site-specific effects, readers cannot judge the plausibility or generality of the mechanism.
+  - **Resolution test** Clarify in the full text how ligand binding perturbs the ensemble, define the coregulator site in structural terms, and show population shifts with quantitative metrics.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Terms such as "Ising-like statistical mechanical model" and "full state representation" are used without brief explanation, which may limit accessibility.
+  - **Required correction** Add a short phrase in the abstract or introduction defining the model type and the state representation in plain language.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "paralogous LBDs" but does not state whether the model accounts for sequence differences or structural templates explicitly.
+  - **Required correction** Specify in the full text how sequence variation is incorporated into the model parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Generalizability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract focuses on three LBDs but does not discuss whether the findings might extend to other NR family members or other transcription factor families.
+  - **Required correction** Add a sentence in the discussion addressing the expected scope and limitations of the model's applicability.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model validation and simulation rigor), R1-M2 (evolutionary claim without comparative evidence)
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of native ensemble diversity as an evolutionary functional trait is not entirely new but is applied here to NR LBDs in a comparative manner, which has some novelty. However, the abstract does not demonstrate a methodological advance beyond existing ensemble models.
+  - Scientific importance: The potential link between ensemble properties and allosteric function in nuclear receptors is significant for understanding signaling and drug action, but the evidence presented is insufficient to establish importance beyond a hypothesis.
+  - Interdisciplinary readership: The topic bridges biophysics, structural biology, and endocrinology, but the abstract's technical density without explanation limits broader appeal.
+  - Technical soundness: Not assessable from the abstract; no quantitative details or validation are provided.
+  - Readability for nonspecialists: The abstract is concise but uses specialized terms without context, making it challenging for readers outside computational biophysics.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting framework, but the lack of quantitative detail and validation prevents assessment of the core claims. Supportive if the full manuscript provides rigorous model validation, simulation details, and a more robust evolutionary analysis.
+
+## Risk / unsupported claims
+- The claim that native ensembles display "remarkable diversity" in specific properties is unsupported without quantitative measures or comparisons.
+- The claim that functional conformations "coexist in equilibrium" is unsupported without simulation data or equilibrium analysis.
+- The claim that allosteric modulation arises via population redistribution is unsupported without specific results linking ligand binding to site-specific changes.
+- The evolutionary conclusion that "functional requirements can drive the evolution" of ensemble diversity is unsupported without comparative or phylogenetic evidence.
+- The general applicability of the model to other NR LBDs is not assessable from the abstract.

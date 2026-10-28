@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results and discussion, conclusions, and materials and methods
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors report that the head domain of the Golgi vesicle tether p115/USO1 can bind directly to a conserved bipartite motif in the unstructured N-terminal region of Sec16A, an ER exit site organiser. They map the interaction using truncation analysis and AlphaFold3 structural prediction, validate it with mutation studies, and show that disrupting this interaction reduces the efficiency of anterograde secretion in a RUSH assay.
+- **Visible evidence base** Immunoprecipitation and mass spectrometry data (Figure 1E,F), mitochondrial relocalisation assays (Figure 2B-D), co-immunoprecipitation of truncation constructs (Figure 2E), AlphaFold3 structural prediction (Figure 3A-C), mutation analysis (Figure 3D,E), and RUSH secretion assays with CRISPR-based knockout and rescue (Figure 4E-G)
+- **Missing materials affecting confidence** Figures are referenced but not provided. No quantitative data, statistical details, or raw mass spectrometry results are shown. No replicate numbers for the interaction mapping experiments are stated. The RUSH assay data are described but the actual flow cytometry plots and statistical outputs are not visible.
+
+## Reviewer
+- **Overall assessment** This manuscript reports a novel and potentially significant interaction between p115 and Sec16A, linking two key components of the early secretory pathway. The experimental approach is logical and the combination of proteomics, truncation mapping, structural prediction, and functional assays is appropriate. However, the evidence as presented in the text alone is insufficient to fully establish the directness of the interaction, the specificity of the binding site, and the functional significance of the interaction in secretion. Several claims go beyond what the described data can support, particularly regarding the spatial organisation of the early secretory pathway. The manuscript is of interest to the membrane trafficking community but requires additional experimental detail and possibly further experiments to fully support the conclusions.
+- **Who would be interested in the results, and why** Researchers studying ER-to-Golgi transport, COPII vesicle formation, Golgi organisation, and the molecular mechanisms of vesicle tethering. The finding that p115 can directly engage Sec16A provides a potential molecular link between ER exit sites and the cis-Golgi, which is relevant to understanding how the early secretory pathway is spatially organised. The work may also interest cell biologists using AlphaFold-based interaction prediction as a discovery tool.
+- **Major strengths** The identification of a new interaction partner for p115 through unbiased proteomics is a solid starting point. The use of multiple orthogonal approaches (immunoprecipitation, mitochondrial relocalisation, truncation mapping, structural prediction, and mutation) strengthens the case for a specific interaction. The bipartite nature of the binding motif and its conservation pattern in vertebrates is an interesting observation. The functional assay showing reduced secretion upon disruption of the interaction provides a biological context for the finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for direct interaction
+  - **Claim pointer** The authors claim that p115 binds directly to Sec16A, and that the interaction is mediated by a bipartite motif in the N-terminal region of Sec16A binding into a groove in the p115 head domain.
+  - **Evidence pointer** Figures 2D,E, 3A-E, and associated text
+  - **Concern** The claim of a direct interaction rests on co-immunoprecipitation of overexpressed fragments and on AlphaFold3 prediction. Co-immunoprecipitation does not distinguish direct binding from indirect association via bridging factors. The AlphaFold3 prediction is suggestive but not experimentally validated for directness. The mutation analysis shows loss of co-precipitation, which is consistent with direct binding but does not prove it. No in vitro binding assay using purified proteins is described.
+  - **Why it matters** The central claim of the paper is that p115 directly binds Sec16A. If the interaction is indirect, the interpretation of the functional data and the proposed model for tethering ER exit sites to the Golgi would be substantially weakened.
+  - **Resolution test** Provide an in vitro binding assay with purified recombinant p115 head domain and the Sec16A fragment (residues 650-776), showing direct interaction and loss of binding with the site 1 and site 2 mutations. Alternatively, a crosslinking or surface plasmon resonance experiment would suffice.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional significance
+  - **Claim pointer** The authors state that mutations in p115 that block Sec16A binding reduce the efficiency of secretion, and that this interaction is functionally important for optimally efficient membrane trafficking.
+  - **Evidence pointer** Figure 4E-G and associated text
+  - **Concern** The RUSH assay data are described only qualitatively. The magnitude of the reduction in secretion caused by the Q462D mutation is not stated. It is unclear whether the reduction is statistically significant, how it compares to the GM130-binding mutant, and whether the Q462D mutation might affect other p115 functions beyond Sec16A binding. The text states the reduction was "similar" to that of the GM130-binding mutant, but no quantitative comparison is provided.
+  - **Why it matters** The functional claim is a key part of the paper's significance. Without quantitative data and statistical analysis, the reader cannot assess how important this interaction is for secretion, or whether the effect is specific to Sec16A binding versus a general perturbation of p115 function.
+  - **Resolution test** Provide the flow cytometry data with quantitative secretion indices, statistical comparisons (including effect sizes and p-values), and a control showing that the Q462D mutation does not affect p115 localisation, stability, or other known interactions (e.g., GM130 binding).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of the interaction
+  - **Claim pointer** The authors claim that Sec16A and Sec13 are specifically enriched with the p115 head domain, and that Sec13 is a stable complex partner of Sec16A.
+  - **Evidence pointer** Figure 1E,F and associated text
+  - **Concern** The mass spectrometry data are described but not shown. It is unclear whether Sec13 enrichment is due to its known association with Sec16A or whether it could be a direct p115 interactor. The authors do not address whether Sec13 alone can bind p115. Additionally, the specificity of the interaction for Sec16A versus Sec16B is not tested, despite the authors noting that Sec16B lacks the binding motif.
+  - **Why it matters** Understanding whether Sec13 is pulled down as part of a Sec16A complex or independently is important for interpreting the interaction network. The lack of testing against Sec16B weakens the claim that this interaction is specific to Sec16A.
+  - **Resolution test** Test whether Sec13 binds p115 in the absence of Sec16A (e.g., using a Sec16A knockout or siRNA depletion). Test whether Sec16B can bind p115 in the same assays.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conservation and evolutionary claims
+  - **Claim pointer** The authors state that the bipartite motif is conserved in vertebrates but not in invertebrates, and suggest this interaction arose early in vertebrate evolution as an extra function of p115.
+  - **Evidence pointer** Figure 3B and associated text
+  - **Concern** The conservation analysis is described only briefly. No alignment data are shown, and the criteria for defining conservation are not stated. The claim that the interaction arose in vertebrates is speculative without functional data from non-vertebrate systems.
+  - **Why it matters** The evolutionary narrative is used to frame the significance of the interaction. If the conservation analysis is not robust, this framing is weakened.
+  - **Resolution test** Provide the alignment figure with clear conservation shading and a more detailed description of the analysis. If possible, test whether the motif from a non-vertebrate species (e.g., Drosophila Sec16) can bind p115.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of experimental details
+  - **Affected element** Materials and methods, immunoprecipitation
+  - **Evidence pointer** "Precipitation of GFP-tagged proteins" section
+  - **Issue** The lysis buffer contains 0.5% TX-100, but the wash buffer for GFP-Trap beads in the protein binding assays includes a harsh wash with 1% SDS. It is unclear whether the harsh wash was also applied to the initial immunoprecipitation for mass spectrometry, which could affect the recovery of weak interactors.
+  - **Required correction** Clarify whether the harsh wash steps were used in the mass spectrometry sample preparation or only in the subsequent binding assays.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** RUSH assay
+  - **Evidence pointer** "RUSH secretion assay" section
+  - **Issue** The text states ANOVA testing was used but does not specify the number of biological replicates, whether the data met ANOVA assumptions, or what post-hoc tests were applied.
+  - **Required correction** Provide the number of independent experiments, the specific ANOVA model, and the post-hoc test used for pairwise comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of structural prediction
+  - **Affected element** Figure 3A-C
+  - **Evidence pointer** "Structural prediction reveals the basis of a direct interaction" section
+  - **Issue** The authors state that AlphaFold3 gave a "very confident prediction" for two short regions. The confidence metrics (e.g., ipTM, pLDDT) are not reported, and it is unclear how many of the top-ranked models were consistent.
+  - **Required correction** Report the relevant confidence scores and the number of models that showed the same binding mode.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and conclusions
+  - **Evidence pointer** Abstract, "Conclusions" section
+  - **Issue** The phrase "large-scale organisation of the early secretory pathway" is vague and not directly tested in the manuscript.
+  - **Required correction** Rephrase to reflect what was actually measured, such as "contribute to the efficiency of ER-to-Golgi transport."
+- **Technical failings that need to be addressed before the case is established** The lack of an in vitro binding assay to demonstrate directness of the p115-Sec16A interaction (R1-M1) is the primary technical gap. The absence of quantitative data and statistical analysis for the functional secretion assay (R1-M2) also needs to be addressed. The specificity of the interaction with respect to Sec13 and Sec16B (R1-M3) requires additional experiments.
+- **Assessment against Nature-style criteria** Originality: The finding of a direct p115-Sec16A interaction is novel and not previously reported. Scientific importance: The interaction has the potential to link ER exit site organisation with Golgi tethering, which is of interest to the membrane trafficking field. However, the functional significance is modest, as the interaction is not essential for secretion. Interdisciplinary readership: The topic is specialised and likely to appeal primarily to cell biologists and membrane trafficking researchers rather than a broad interdisciplinary audience. Technical soundness: The experimental design is generally sound, but the lack of direct binding data and quantitative functional analysis weakens the technical case. Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow, but the specialised terminology limits accessibility to nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is potentially interesting, but the directness of the interaction and the quantitative significance of the functional effect must be established with additional data.
+
+## Risk / unsupported claims
+- The claim that p115 binds "directly" to Sec16A is not fully supported without an in vitro binding assay using purified components.
+- The claim that the interaction "could potentially allow a subset of p115 molecules to reach across from the early Golgi to the ER exit sites" is speculative and not tested.
+- The statement that the interaction "contributes to the large-scale organisation of the early secretory pathway" is not supported by the data presented.
+- The evolutionary claim that the interaction arose in early vertebrates is based on limited conservation analysis and is not functionally tested.
+- The claim that the Q462D mutation reduces secretion "to a similar extent" as removal of the GM130 binding site is not quantitatively supported.

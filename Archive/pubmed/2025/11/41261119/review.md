@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, methods, and figure legends
+- **Assessment boundary** Scientific content, technical soundness, structural biology methodology, claims versus evidence, and alignment with Nature-style criteria
+- **Shared manuscript claim summary** The authors report the first structural characterization of the NFI-X DNA-binding domain (DBD), both alone (X-ray crystallography at 2.7 Å) and bound to its consensus palindromic DNA site (cryo-EM at 3.86 Å). They identify a MH1-like fold, a Zn²⁺ binding site, a dimerization mechanism involving C-terminal helix swapping, and specific DNA-binding determinants. They propose the structure as a prototype for the entire NFI family and rationalize the effects of Malan syndrome mutations.
+- **Visible evidence base** Main text figures 1–6 (as referenced), supplementary figures 1–14 (as referenced), supplementary tables 1–2 (as referenced), methods section
+- **Missing materials affecting confidence** Electron density maps and validation statistics for both structures are not shown in the provided text; cryo-EM map quality and local resolution are not described; FSC curves are not shown; no structural coordinates or validation reports are available for inspection; the exact DNA sequence used in the cryo-EM complex is not fully specified in the main text; no quantitative binding data for the Malan mutants are shown beyond qualitative EMSA images
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a long-standing gap in the structural biology of NFI transcription factors. The work is technically ambitious, combining X-ray crystallography and cryo-EM on a challenging small complex, and the resulting structures provide the first molecular views of an NFI DBD. The identification of a MH1-like fold, the Zn²⁺ site, and the C-terminal swapping dimerization mechanism are potentially important contributions. However, several technical concerns limit the strength of the conclusions as currently presented. The cryo-EM resolution of 3.86 Å for a 70 kDa complex is modest, and the manuscript does not provide sufficient validation details to assess the reliability of the DNA-protein interface modeling. The claim that the structure is "prototypic" for the entire NFI family is reasonable given sequence conservation, but the functional validation is largely limited to qualitative EMSA experiments. The mechanistic model for the Arg38-Asp124 switch is intriguing but would benefit from additional experimental support. Overall, the work is of interest to the transcription factor and structural biology communities, but the current evidence does not fully establish all claims.
+- **Who would be interested in the results, and why** Structural biologists studying transcription factor-DNA recognition, particularly those interested in MH1-domain-containing proteins and Smad-like folds. Researchers working on NFI family biology, including development, stem cell regulation, and disease. Clinicians and geneticists studying Malan syndrome and Marshall-Smith syndrome, as the structure provides a framework for interpreting pathogenic mutations. Drug discovery groups interested in targeting NFI proteins for therapeutic applications in cancer and muscular dystrophy.
+- **Major strengths** First structural characterization of an NFI family DBD, filling a significant gap. Combined use of X-ray crystallography and cryo-EM to capture both unbound and DNA-bound states. Identification of a MH1-like fold with a unique antenna domain, providing evolutionary and functional insights. Structural rationalization of previously reported biochemical data on cysteine residues and dimerization requirements. Mapping of Malan syndrome mutations onto the structure with functional EMSA validation. The proposed conformational switch mechanism involving Arg38 and Asp124 is elegant and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The cryo-EM structure of the NFI-X193/DNA complex at 3.86 Å resolution is used to define specific protein-DNA interactions and the dimerization mechanism.
+  - **Evidence pointer** Methods section "Cryo-EM data collection and image processing"; Supplementary Table 2; Figures 3 and 4
+  - **Concern** The cryo-EM structure is reported at 3.86 Å resolution for a complex of approximately 70 kDa. This is a modest resolution for defining precise side-chain-base interactions, particularly for water-mediated contacts and hydrogen bonding patterns. The manuscript does not provide the gold-standard FSC curve, local resolution estimates, or map-to-model correlation statistics. The authors state that the final model was refined with "stereochemical and NCS restraints," but no validation metrics (e.g., MolProbity score, clash score, EMRinger score) are reported for the cryo-EM structure. Without these, the reliability of the specific interactions shown in Figure 4, particularly the side-chain conformations of Arg116 and Lys125, cannot be adequately assessed.
+  - **Why it matters** The central claims of the paper depend on the accuracy of the DNA-protein interface. If the side-chain orientations or base contacts are incorrectly modeled at this resolution, the proposed base-reading mechanism and the interpretation of Malan mutations would be compromised. The field standard for cryo-EM structures at this resolution requires rigorous validation reporting.
+  - **Resolution test** Provide the FSC curve, local resolution maps, and comprehensive validation statistics (MolProbity, EMRinger, map-to-model CC) for the cryo-EM structure. Show representative density for the DNA-protein interface, particularly for Arg116, Lys125, and the β-hairpin region. If the resolution is insufficient to unambiguously assign side-chain conformations, temper the claims about specific base contacts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim** The X-ray structure of NFI-X176 (PDB: 7QQD) at 2.7 Å resolution is used to describe the unbound DBD conformation and the Zn²⁺ binding site.
+  - **Evidence pointer** Methods section "Crystallization and 3D structure determination of NFI-X176"; Supplementary Table 1; Figure 2
+  - **Concern** The manuscript reports that the structure was solved by SAD phasing using the anomalous signal of zinc, with an average FOM of 0.623 after automated building of 150 alanine residues. However, no details are provided on the final R/Rfree values, the completeness of the model (residues 13–174 are mentioned), the B-factor distribution, or the quality of the electron density for the Zn²⁺ site. The presence of two additional Zn²⁺ ions at crystal contacts is mentioned but not discussed in terms of their potential functional relevance or as possible artifacts. The refinement statistics in Supplementary Table 1 are referenced but not shown in the provided text.
+  - **Why it matters** The Zn²⁺ binding site is presented as a key structural feature with functional implications. If the coordination geometry is not well-defined by the density, or if the additional Zn²⁺ ions indicate non-specific metal binding, the interpretation could be affected. The crystallographic model serves as the basis for the unbound state comparison with the DNA-bound state, so its quality is critical.
+  - **Resolution test** Provide full refinement statistics including R/Rfree, RMSD bonds/angles, and validation metrics. Show the electron density for the Zn²⁺ coordination site and discuss the occupancy and B-factors of the metal ions. Clarify whether the additional Zn²⁺ ions are biologically relevant or crystallization artifacts.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim** The NFI-X DBD structure is proposed as a "prototype" for the entire NFI family, and the DNA-binding mechanism is presented as generalizable.
+  - **Evidence pointer** Abstract; Discussion; Supplementary Figure 1
+  - **Concern** The claim of prototypicality rests on the high sequence identity (85%) within the NFI DBDs. However, the manuscript does not experimentally test whether the DNA-binding mode observed for NFI-X is conserved in NFI-A, NFI-B, or NFI-C. The authors do not show any cross-family structural comparison or functional data for other NFI members. The sequence alignment in Supplementary Figure 1 is mentioned but not shown. The discussion of heterodimer formation suggests that different NFI family members may have distinct properties, which could affect the generalizability of the proposed mechanism.
+  - **Why it matters** The title and abstract make a strong claim about the prototypic nature of the structure. If the DNA-binding mode or dimerization mechanism differs among NFI family members, the broader significance of the work would be reduced. The claim goes beyond what the data directly support.
+  - **Resolution test** Either provide experimental evidence (e.g., EMSA or structural data) for at least one other NFI family member, or temper the language to indicate that the structure is likely representative based on sequence conservation, without overstating the claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim** The EMSA experiments with Malan syndrome mutations demonstrate that most mutations cause loss of DNA-binding activity, and the structural data provide a mechanistic explanation.
+  - **Evidence pointer** Figure 6; Discussion
+  - **Concern** The EMSA data are presented as qualitative gel images without quantification. The authors state that "most" mutations completely lose activity, but no densitometry or binding curves are provided. The Arg121Pro mutant is reported to bind DNA "to the same extent as wild-type," yet this mutant causes Malan syndrome. The authors suggest the pathological mechanism is "more complex," but no further investigation is presented. The Arg38Leu mutant shows reduced affinity, but the proposed mechanism of constitutive activation is speculative and not directly tested.
+  - **Why it matters** The functional validation of the structural model is a key part of the paper's significance. Without quantitative binding data, the severity of the mutations' effects cannot be compared, and the mechanistic interpretations remain weakly supported. The Arg121Pro case, in particular, raises questions about the relationship between DNA-binding affinity and disease.
+  - **Resolution test** Provide quantitative EMSA data (e.g., fraction bound vs. protein concentration) for at least the key mutants. For Arg121Pro, perform additional experiments (e.g., cellular assays or binding to different DNA sequences) to explore the pathological mechanism. For Arg38Leu, test the constitutive activation hypothesis directly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses the term "MH1-like fold" without explaining what MH1 refers to. Nonspecialist readers may not be familiar with Smad protein domains.
+  - **Required correction** Briefly define MH1 (e.g., "a fold similar to the Mad Homology 1 domain found in Smad transcription factors") in the abstract or introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Cryo-EM data collection and image processing"
+  - **Evidence pointer** Methods
+  - **Issue** The manuscript states that "2D class averages were used to discard bad quality particles" but does not provide the number of particles retained after each step or the final particle count used for the 3.86 Å reconstruction.
+  - **Required correction** Include the particle counts at each stage of processing and the final number used in the reconstruction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of the super-helical fibril structure is interesting but speculative regarding its functional relevance. The authors suggest it may indicate DNA-looping, but no experimental evidence is provided.
+  - **Required correction** Clearly label this as speculation and suggest future experiments to test the DNA-looping hypothesis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "NFI-X/DNA complex assembly for crystallization and cryo-EM"
+  - **Evidence pointer** Methods
+  - **Issue** The manuscript states that the NFI-X193/DNA complex was assembled by "stepwise dialysis" but does not specify the buffer composition, temperature, or duration of each step.
+  - **Required correction** Provide complete details of the complex assembly protocol for reproducibility.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Figure 4
+  - **Evidence pointer** Figure 4
+  - **Issue** The schematic in Figure 4a is described as generated manually using PowerPoint. This is unusual for a publication figure and may not meet the clarity standards expected.
+  - **Required correction** Consider generating a more professional schematic using dedicated software (e.g., PyMOL, ChimeraX, or Illustrator) for improved clarity.
+
+## Risk / unsupported claims
+- The claim that the NFI-X DBD structure is "prototypic" for the entire NFI family is not directly supported by experimental data on other family members; it is inferred from sequence conservation.
+- The proposed conformational switch mechanism involving Arg38 and Asp124 is based on comparison of two structures and is not directly tested experimentally.
+- The suggestion that the super-helical fibril structure may be functionally relevant for DNA-looping is speculative and not supported by cellular or biochemical evidence.
+- The statement that the Zn²⁺ ion plays a stabilizing structural role is supported by the structure and by the chelation experiment mentioned in the Discussion, but the chelation data are not shown.
+- The claim that Cys119 oxidation leads to reversible inactivation is based on previous literature, not on new data in this manuscript.
+- The functional significance of the Arg121Pro mutant, which retains DNA-binding activity, is not explained; the authors acknowledge this but do not provide a mechanistic hypothesis or follow-up experiments.

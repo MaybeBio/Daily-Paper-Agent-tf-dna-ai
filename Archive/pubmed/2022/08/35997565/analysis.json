@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35997565",
+  "title": "CLNN-loop: a deep learning model to predict CTCF-mediated chromatin loops in the different cell lines and CTCF-binding sites (CBS) pair types.",
+  "authors": "Zhang, Pengyu; Wu, Yingfu; Zhou, Haoru; Zhou, Bing; Zhang, Hongming; Wu, Hao",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2022-08-24",
+  "window": {
+    "start": "2022-08-22",
+    "end": "2022-08-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习模型预测CTCF介导的染色质环，虽涉及CTCF-DNA结合位点，但核心是3D基因组结构预测而非TF-DNA互作机制建模，方法可迁移但对象和互作深度有限。",
+  "abstract": "MOTIVATION: Three-dimensional (3D) genome organization is of vital importance in gene regulation and disease mechanisms. Previous studies have shown that CTCF-mediated chromatin loops are crucial to studying the 3D structure of cells. Although various experimental techniques have been developed to detect chromatin loops, they have been found to be time-consuming and costly. Nowadays, various sequence-based computational methods can capture significant features of 3D genome organization and help predict chromatin loops. However, these methods have low performance and poor generalization ability in predicting chromatin loops. RESULTS: Here, we propose a novel deep learning model, called CLNN-loop, to predict chromatin loops in different cell lines and CTCF-binding sites (CBS) pair types by fusing multiple sequence-based features. The analysis of a series of examinations based on the datasets in the previous study shows that CLNN-loop has satisfactory performance and is superior to the existing methods in terms of predicting chromatin loops. In addition, we apply the SHAP framework to interpret the predictions of different models, and find that CTCF motif and sequence conservation are important signs of chromatin loops in different cell lines and CBS pair types. AVAILABILITY AND IMPLEMENTATION: The source code of CLNN-loop is freely available at https://github.com/HaoWuLab-Bioinformatics/CLNN-loop and the webserver of CLNN-loop is freely available at http://hwclnn.sdu.edu.cn. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "动机：三维（3D）基因组组织在基因调控和疾病机制中至关重要。先前研究表明，CTCF介导的染色质环对研究细胞的三维结构至关重要。尽管已开发出多种实验技术来检测染色质环，但这些技术被发现耗时且成本高昂。如今，各种基于序列的计算方法能够捕获三维基因组组织的重要特征，并有助于预测染色质环。然而，这些方法在预测染色质环时性能较低且泛化能力较差。结果：在此，我们提出了一种新颖的深度学习模型，称为CLNN-loop，通过融合多种基于序列的特征来预测不同细胞系和CTCF结合位点（CBS）对类型中的染色质环。基于先前研究数据集的一系列检验分析表明，CLNN-loop具有令人满意的性能，并且在预测染色质环方面优于现有方法。此外，我们应用SHAP框架来解释不同模型的预测，并发现CTCF基序和序列保守性在不同细胞系和CBS对类型中是染色质环的重要标志。可用性与实现：CLNN-loop的源代码可在https://github.com/HaoWuLab-Bioinformatics/CLNN-loop免费获取，其网络服务器可在http://hwclnn.sdu.edu.cn免费访问。补充信息：补充数据可在《生物信息学》在线版获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35997565/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35997565/",
+  "paper_page_path": "papers/pubmed/35997565/index.html"
+}

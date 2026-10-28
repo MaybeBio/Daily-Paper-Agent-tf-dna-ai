@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and conclusions.
+- **Assessment boundary** The manuscript reports an in silico investigation of rosolic acid (ROA) as a potential activator of the Nrf2/ARE pathway via inhibition of Keap1, with the stated aim of mitigating arsenic-induced male reproductive toxicity. The assessment is limited to the computational evidence presented.
+- **Shared manuscript claim summary** The authors claim that ROA binds to Keap1 (PDB ID: 2FLU) with a docking score of −7.8 kcal/mol, forms stable complexes in 200 ns molecular dynamics simulations, and exhibits favorable drug-like properties, thereby positioning ROA as a novel Nrf2 activator with therapeutic potential against arsenic-induced male reproductive toxicity.
+- **Visible evidence base** Docking scores and interaction residues (Table 1, Fig. 1); ADME predictions (Table 2, Fig. 2); RMSD, RMSF, Rg, SASA, hydrogen bond analyses (Figs. 3–8); PCA (Fig. 9); FEL (Fig. 10); MM-PBSA binding energies (Table 3).
+- **Missing materials affecting confidence** No experimental validation data (e.g., cellular or animal models of arsenic toxicity); no positive control for Nrf2 activation in the same assay system; no statistical analysis of docking or simulation replicates; no information on force field parameters or simulation setup validation; no data on ROA solubility or stability under physiological conditions; no comparison with known Nrf2 activators beyond the two controls.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a straightforward computational pipeline (docking, ADME prediction, and molecular dynamics) applied to a single compound, ROA, against Keap1. The work is technically competent in its execution of standard in silico tools, but the scientific claims substantially exceed what the evidence can support. The central conclusion that ROA is a "potent Nrf2 activator" capable of mitigating arsenic-induced male reproductive toxicity is not established by the data presented. The study lacks experimental validation, comparative benchmarking against known Nrf2 activators in the same computational framework, and a clear mechanistic link between Keap1 binding and downstream Nrf2/ARE pathway activation. The manuscript would benefit from a more measured interpretation of results and a clearer articulation of the limitations of in silico predictions.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working on Keap1-Nrf2 interactions may find the docking and simulation data of interest as a preliminary screen. Researchers investigating natural polyphenols as potential Nrf2 activators might also take note. However, the lack of experimental validation limits the appeal to the broader reproductive toxicology community, who would require functional evidence of protection against arsenic-induced oxidative damage.
+- **Major strengths** The study uses a well-established computational workflow (Autodock Vina, SwissADME, GROMACS) that is reproducible and transparent. The inclusion of two control compounds (5RB and CUR) provides a comparative baseline for docking scores. The ADME analysis is thorough and includes multiple parameters relevant to drug-likeness. The molecular dynamics simulations are of reasonable length (200 ns) and include multiple metrics (RMSD, RMSF, Rg, SASA, hydrogen bonds, PCA, FEL, MM-PBSA) that collectively assess complex stability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence mismatch
+  - **Claim pointer** The abstract and conclusions state that ROA "can be a potent Nrf2 activator by exhibiting an inhibitory activity against the Keap1 protein and thus mitigating oxidative stress in arsenic-induced male reproductive toxicity."
+  - **Evidence pointer** Abstract; Conclusions; Results and discussions (Docking studies)
+  - **Concern** The claim of Nrf2 activation and mitigation of arsenic-induced reproductive toxicity is a functional biological assertion. The evidence provided is purely computational: a docking score, ADME predictions, and simulation stability. No experimental data demonstrate that ROA displaces Nrf2 from Keap1, increases Nrf2 nuclear translocation, upregulates ARE-driven gene expression, or protects cells or organisms from arsenic-induced oxidative damage. The docking score of −7.8 kcal/mol is modest and does not by itself indicate functional inhibition.
+  - **Why it matters** The title and abstract promise a novel therapeutic mechanism. Without functional validation, the central conclusion is unsupported and potentially misleading. The reproductive toxicity context is entirely absent from the experimental design; no arsenic-treated models, no reproductive cell lines, and no oxidative stress markers are examined.
+  - **Resolution test** The authors must either (a) provide experimental evidence (e.g., Keap1-Nrf2 binding assays, reporter gene assays, cellular models of arsenic exposure) demonstrating Nrf2 pathway activation and protection against oxidative stress, or (b) substantially revise the claims to state that ROA is a candidate Keap1 binder requiring further validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The docking results are used to conclude that ROA "holds the potential to act as a Keap1 inhibitor" based on binding energies of −7.8, −9.6, and −8.6 kcal/mol for ROA, 5RB, and CUR, respectively.
+  - **Evidence pointer** Results and discussions (Docking studies); Table 1
+  - **Concern** The docking scores are presented without any measure of statistical significance, replicate variability, or comparison to a decoy set. The difference between ROA (−7.8) and CUR (−8.6) is 0.8 kcal/mol, which is within the typical error range of docking methods. The conclusion that ROA's binding is "near about similar" to the controls is not quantitatively justified. Additionally, no docking validation (e.g., redocking of co-crystallized ligand, enrichment studies) is reported.
+  - **Why it matters** Docking scores are approximate and method-dependent. Without error estimates or validation, the relative ranking of compounds cannot be interpreted reliably. The claim of "potential" inhibition is therefore weakly supported.
+  - **Resolution test** Provide docking score distributions from multiple runs, perform redocking validation of the 2FLU crystal structure, and include a statistical comparison (e.g., mean ± SD) of binding energies across replicates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The introduction and conclusions imply that targeting Nrf2 via Keap1 inhibition is a novel therapeutic strategy for arsenic-induced male reproductive toxicity, and that ROA is a novel activator.
+  - **Evidence pointer** Introduction; Conclusions
+  - **Concern** The novelty of the approach is overstated. Nrf2 activation as a therapeutic strategy against oxidative stress is well established, and multiple Keap1 inhibitors have been described. The claim that this is the "first" study to examine ROA in this context may be true, but the significance of a single computational study without experimental follow-up is limited. The manuscript does not discuss how ROA compares to existing Nrf2 activators in terms of potency, selectivity, or safety.
+  - **Why it matters** For a Nature-style audience, the work must demonstrate a clear advance over existing knowledge. A computational prediction of binding to a well-studied target, without functional data, does not constitute a significant scientific contribution.
+  - **Resolution test** The authors should either provide experimental validation that distinguishes ROA from known Nrf2 activators, or reframe the manuscript as a preliminary computational screen with clearly stated limitations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The molecular dynamics simulations are described as showing that the 2FLU-ROA complex is "stable" based on RMSD, RMSF, Rg, SASA, and hydrogen bond analyses.
+  - **Evidence pointer** Results and discussions (MDS sections); Figs. 3–8
+  - **Concern** The simulation methodology is described only briefly. No information is provided on the force field used, the water model (beyond "simple point-charge"), the equilibration protocol, the number of replicates, or the convergence criteria. The RMSD values (0.16–0.20 nm) are all very similar across systems, which may indicate that the protein is rigid regardless of ligand binding, but this is not discussed. The MM-PBSA analysis reports only mean values without standard deviations or error estimates.
+  - **Why it matters** Reproducibility and interpretability of MD results depend critically on methodological details. Without this information, the stability claims cannot be independently assessed.
+  - **Resolution test** Provide full simulation parameters, including force field, thermostat/barostat settings, equilibration steps, and replicate information. Report standard deviations for all averaged quantities.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses the phrase "mitigating oxidative stress to combat arsenic-induced male reproductive toxicity" without specifying the mechanism or the experimental context. The term "combat" is vague.
+  - **Required correction** Rephrase to state that the study computationally evaluates the potential of ROA to bind Keap1 and thereby activate Nrf2, with the long-term goal of addressing arsenic-induced oxidative stress.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods (Molecular dynamics)
+  - **Evidence pointer** Methods (Molecular dynamics)
+  - **Issue** The methods state that "each structure obtained from the NPT equilibration phase underwent a 200 ns simulation in an NPT ensemble during the final production run." This is redundant and unclear. It is not specified how many independent simulations were performed or whether the systems were equilibrated to convergence.
+  - **Required correction** Clarify the simulation protocol, including the number of replicates, the equilibration time, and the criteria used to confirm equilibration.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results and discussions (Docking studies)
+  - **Evidence pointer** Results and discussions (Docking studies)
+  - **Issue** The text lists 16, 23, and 25 interacting residues for ROA, 5RB, and CUR, respectively, but does not explain the significance of these numbers or whether they correlate with binding affinity.
+  - **Required correction** Add a brief interpretation of the residue counts and their relevance to binding specificity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction cites the authors' previous work on the Nrf2 pathway but does not clearly differentiate the current study's contribution from prior publications.
+  - **Required correction** Explicitly state what is new in this study relative to previous work.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (functional claim without experimental support), R1-M2 (docking scores without statistical validation), R1-M4 (incomplete MD methodology reporting).
+- **Assessment against Nature-style criteria** 
+  - **Originality** Limited. The application of docking and MD to a known polyphenol against a well-studied target (Keap1) is not conceptually novel. The specific compound (ROA) has not been previously studied in this context, but this is a minor increment.
+  - **Scientific importance** Low to moderate. The work addresses a relevant health problem (arsenic-induced reproductive toxicity) but provides no functional data. The conclusions are speculative and do not advance mechanistic understanding.
+  - **Interdisciplinary readership** Narrow. The manuscript is likely to appeal primarily to computational biologists and medicinal chemists. The reproductive toxicology community would require experimental evidence to find the work compelling.
+  - **Technical soundness** Adequate in execution but incomplete in reporting. The docking and MD protocols are standard, but the lack of validation, replicates, and error analysis weakens the reliability of the conclusions.
+  - **Readability for nonspecialists** The manuscript is generally readable but uses jargon without sufficient explanation (e.g., "PAINS," "Brenk alerts," "MM-PBSA"). The abstract is accessible but overstates the findings.
+- **Recommendation posture** Not established from the provided evidence. The computational results are preliminary and do not support the strong claims of Nrf2 activation and therapeutic potential. The manuscript could be reconsidered if the authors substantially revise the claims to reflect the exploratory nature of the work and provide additional validation (e.g., docking validation, replicate simulations, and ideally experimental data).
+
+## Risk / unsupported claims
+- The claim that ROA is a "potent Nrf2 activator" is unsupported; no functional assay of Nrf2 activation is provided.
+- The claim that ROA can "mitigate arsenic-induced male reproductive toxicity" is unsupported; no arsenic-exposed biological model is studied.
+- The claim that ROA "holds the potential to act as a Keap1 inhibitor" is weakly supported by a single docking score without statistical or experimental validation.
+- The statement that the 2FLU-ROA complex is "stable" is based on descriptive MD metrics without quantitative thresholds or comparison to a known stable/inactive complex.
+- The ADME predictions are presented as favorable but are not compared to known Nrf2 activators or contextualized in terms of therapeutic relevance.

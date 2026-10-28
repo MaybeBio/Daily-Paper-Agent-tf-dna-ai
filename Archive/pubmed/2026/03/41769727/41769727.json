@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "41769727",
+    "doi": "10.1002/1878-0261.70214",
+    "title": "Subtype-specific enhancer RNAs define transcriptional regulators and prognosis in breast cancers."
+  },
+  "content": {
+    "abstract": "Gene expression is tightly controlled by DNA elements called enhancers by associating with lineage-specific transcription factors. These enhancers transcribe noncoding RNAs (called enhancer RNAs or eRNAs). eRNA expression is an early indicator of transcription factor activity and is associated with treatment response and survival in cancer patients. By analysing ~ 300 000 eRNA loci profiled using RNA-sequencing data sets from 975 breast cancer patients using machine learning approaches, we categorised eRNAs specific to breast cancer molecular subtypes and survival. We associated these eRNAs with subtype-specific mRNAs to define proximal co-expressed regulatory eRNAs (ProxCReAm), which are enriched in pathways characteristic of their respective subtypes. Interestingly, cistrome and transcription factor motif analyses on these eRNAs highlighted involvement of diverse nuclear receptors (GR/AHR for luminal and GR/RAR for basal) and FOX factors in luminal regions. Moreover, luminal eRNAs were associated with better outcomes and Her2 eRNAs with worse outcomes in patients. Overall, we demonstrate that machine learning approaches performed on RNA-seq data sets can classify functionally relevant subtype-specific and prognostic eRNAs, which can identify critical gene pathways and transcription factor networks in breast cancer.",
+    "keywords": [
+      "breast cancer",
+      "enhancer RNA",
+      "information gain",
+      "machine learning",
+      "random forest"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/genetics/pathology/diagnosis",
+      "*Enhancer RNAs/genetics/metabolism",
+      "Female",
+      "Prognosis",
+      "*Gene Expression Regulation, Neoplastic",
+      "Machine Learning",
+      "*Enhancer Elements, Genetic",
+      "*Transcription, Genetic",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Patel, Aamena Y",
+        "Zarrineh, Peyman",
+        "Tuffa, Nathnael T",
+        "Sheth, Jigar H",
+        "Mohan, Sumitra",
+        "Iqbal, Mudassar",
+        "Nagarajan, Sankari"
+      ],
+      "short_names": [
+        "Patel AY",
+        "Zarrineh P",
+        "Tuffa NT",
+        "Sheth JH",
+        "Mohan S",
+        "Iqbal M",
+        "Nagarajan S"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-6254-4195",
+        "ORCID: 0000-0001-8748-6223"
+      ],
+      "affiliations": [
+        "Division of Molecular and Cellular Function, School of Biological Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, UK.",
+        "Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, UK.",
+        "Bioinformatics Core Facility, Faculty of Biology, Medicine and Health, The University of Manchester, UK.",
+        "Division of Molecular and Cellular Function, School of Biological Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, UK.",
+        "Division of Molecular and Cellular Function, School of Biological Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, UK.",
+        "Division of Molecular and Cellular Function, School of Biological Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, UK.",
+        "Division of Informatics, Imaging and Data Sciences, School of Health Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, UK.",
+        "Division of Molecular and Cellular Function, School of Biological Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Patel, Aamena Y",
+        "short_name": "Patel AY",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular and Cellular Function, School of Biological Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, UK.",
+          "Division of Cancer Sciences, School of Medical Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, UK."
+        ]
+      },
+      {
+        "full_name": "Zarrineh, Peyman",
+        "short_name": "Zarrineh P",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Core Facility, Faculty of Biology, Medicine and Health, The University of Manchester, UK."
+        ]
+      },
+      {
+        "full_name": "Tuffa, Nathnael T",
+        "short_name": "Tuffa NT",
+        "identifiers": [
+          "0009-0006-6254-4195"
+        ],
+        "affiliations": [
+          "Division of Molecular and Cellular Function, School of Biological Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, UK."
+        ]
+      },
+      {
+        "full_name": "Sheth, Jigar H",
+        "short_name": "Sheth JH",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular and Cellular Function, School of Biological Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, UK."
+        ]
+      },
+      {
+        "full_name": "Mohan, Sumitra",
+        "short_name": "Mohan S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular and Cellular Function, School of Biological Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, UK."
+        ]
+      },
+      {
+        "full_name": "Iqbal, Mudassar",
+        "short_name": "Iqbal M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Informatics, Imaging and Data Sciences, School of Health Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, UK."
+        ]
+      },
+      {
+        "full_name": "Nagarajan, Sankari",
+        "short_name": "Nagarajan S",
+        "identifiers": [
+          "0000-0001-8748-6223"
+        ],
+        "affiliations": [
+          "Division of Molecular and Cellular Function, School of Biological Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular oncology"
+    ],
+    "journal_abbrev": [
+      "Mol Oncol"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/02 13:16",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40328966",
+      "39825430",
+      "39197215",
+      "39094856",
+      "38868715",
+      "38261650",
+      "38103327",
+      "37611728",
+      "36927792",
+      "36428667",
+      "35353838",
+      "35205651",
+      "35013616",
+      "34504687",
+      "34385585",
+      "34359596",
+      "33780170",
+      "33498339",
+      "33007258",
+      "32810208",
+      "32679107",
+      "32024999",
+      "31913353",
+      "31477927",
+      "31340854",
+      "31249361",
+      "31105691",
+      "30867597",
+      "30552103",
+      "30361341",
+      "30286773",
+      "30248920",
+      "30182055",
+      "29625054",
+      "29273624",
+      "28799793",
+      "28088763",
+      "27845900",
+      "27412325",
+      "27257258",
+      "27207943",
+      "27079975",
+      "26926684",
+      "26752646",
+      "26648682",
+      "26180042",
+      "25765347",
+      "25678556",
+      "25032825",
+      "24778216",
+      "24674738",
+      "24499868",
+      "24351709",
+      "24119843",
+      "23932714",
+      "23874775",
+      "23728302",
+      "23636943",
+      "23273978",
+      "23172872",
+      "22388286",
+      "22217937",
+      "21859476",
+      "21572438",
+      "21383412",
+      "21151129",
+      "20639541",
+      "20436461",
+      "20356413",
+      "20110278",
+      "19339991",
+      "19043454",
+      "19010930",
+      "18798982",
+      "17699763",
+      "17406368",
+      "16702952",
+      "15897907",
+      "11553815",
+      "11003650",
+      "10963602",
+      "6087293"
+    ],
+    "similar": [
+      "41769727",
+      "40797025",
+      "33042282",
+      "29273624",
+      "34073237",
+      "31916476",
+      "35705040",
+      "42030388",
+      "28359147",
+      "38804344",
+      "31594934",
+      "41652928",
+      "27833659",
+      "41605892",
+      "35033555",
+      "38302497",
+      "32888773",
+      "38863031",
+      "34731149",
+      "30593613",
+      "27932455",
+      "36039999",
+      "41668068",
+      "29449408",
+      "36232885",
+      "37294799",
+      "38546891",
+      "27662874",
+      "34612730",
+      "41633774",
+      "42261755",
+      "39178387",
+      "34016622",
+      "42320529",
+      "34588321",
+      "37889077",
+      "32573785",
+      "23728303",
+      "30128822",
+      "39950845",
+      "33408781",
+      "36304471",
+      "32568241",
+      "33143730",
+      "32843722",
+      "39186674",
+      "40082405",
+      "40448182",
+      "34019552",
+      "33034351",
+      "31791217",
+      "25564661",
+      "40285345",
+      "29511351",
+      "35064362",
+      "27378691",
+      "34717732",
+      "25561718",
+      "29951530",
+      "39754187",
+      "34321580",
+      "40479056",
+      "40133308",
+      "35011590",
+      "28533025",
+      "34609335",
+      "29378668",
+      "40491378",
+      "35153501",
+      "42142024",
+      "28621677",
+      "35077705",
+      "37697139",
+      "33426767",
+      "40216980",
+      "37537618",
+      "32143622",
+      "40211710",
+      "33029258",
+      "37925545",
+      "26219400",
+      "36287118",
+      "31569063",
+      "29740122",
+      "35454885",
+      "35170113",
+      "30352805",
+      "32579929",
+      "39903841",
+      "38702584",
+      "37365500",
+      "24525859",
+      "37534217",
+      "38862711",
+      "32810208",
+      "41734447",
+      "24674738",
+      "25404134",
+      "35508485",
+      "29138457"
+    ],
+    "review": [
+      "41769727",
+      "34073237",
+      "31916476",
+      "28359147",
+      "41652928",
+      "41605892",
+      "32888773",
+      "30593613",
+      "36232885",
+      "38546891",
+      "34612730",
+      "42261755",
+      "34016622",
+      "40448182",
+      "33034351",
+      "40285345",
+      "35064362",
+      "25561718",
+      "29951530",
+      "28533025",
+      "40491378",
+      "37537618",
+      "36287118",
+      "35454885",
+      "35170113"
+    ],
+    "pmc": [
+      "13352962"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41769727/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/1878-0261.70214",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

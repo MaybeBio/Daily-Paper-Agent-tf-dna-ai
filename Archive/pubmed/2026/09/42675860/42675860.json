@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "42675860",
+    "doi": "10.1016/j.ymthe.2026.08.043",
+    "title": "Rational and computation-assisted engineering of a compact and efficient CRISPR-Cas12f genome editor."
+  },
+  "content": {
+    "abstract": "The CRISPR-Cas12f system is an ultracompact genome-editing platform, yet only a few orthologs exhibit robust activity in mammalian cells. Here, we systematically screened 23 Cas12f orthologs and identified two active nucleases, PspCas12f1 and TcCas12f1, capable of genome editing in human cells. Single guide RNA (sgRNA) scaffold optimization enhanced the basal activity of PspCas12f1. To further improve its performance, we combined structure-guided rational design with protein language model-assisted filtering. Candidate mutations predicted by SaProt were further screened based on structural proximity to the DNA-binding interface and electrostatic compatibility. This integrative strategy identified Q100R and E293R, whose combination yielded the optimized variant enPspCas12f1. enPspCas12f1 achieved genome-editing efficiencies comparable to SpCas9 across multiple endogenous loci while maintaining high specificity. Collectively, our results demonstrate that integrating protein language model-assisted filtering with structure-guided rational design provides an effective strategy for engineering PspCas12f1 and may facilitate the optimization of additional compact CRISPR nucleases.",
+    "keywords": [
+      "CRISPR-Cas12f",
+      "genome editing",
+      "protein engineering",
+      "protein language model",
+      "sgRNA engineering",
+      "structure-guided design"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Jingtong",
+        "Wang, Shengzhou",
+        "Wang, Bei",
+        "Yu, Tonglu",
+        "Liu, Xuan",
+        "Li, Miaomiao",
+        "Ku, Min-Chi",
+        "Wang, Rui",
+        "Chai, Renjie",
+        "Zheng, Wei V",
+        "Wang, Yongming"
+      ],
+      "short_names": [
+        "Liu J",
+        "Wang S",
+        "Wang B",
+        "Yu T",
+        "Liu X",
+        "Li M",
+        "Ku MC",
+        "Wang R",
+        "Chai R",
+        "Zheng WV",
+        "Wang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan University Pudong Medical Center, School of Life Sciences, Fudan University, Shanghai 200438, China; Spine Surgery Department, Nantong First People's Hospital, State Key Laboratory of Digital Medical Engineering, School of Life Sciences and Technology, School of Medicine, Advanced Institute for Life and Health, Jiangsu Province High-Tech Key Laboratory for Bio-Medical Research, Southeast University, Nanjing 210096, China.",
+        "Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan University Pudong Medical Center, School of Life Sciences, Fudan University, Shanghai 200438, China.",
+        "Spine Surgery Department, Nantong First People's Hospital, State Key Laboratory of Digital Medical Engineering, School of Life Sciences and Technology, School of Medicine, Advanced Institute for Life and Health, Jiangsu Province High-Tech Key Laboratory for Bio-Medical Research, Southeast University, Nanjing 210096, China.",
+        "Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan University Pudong Medical Center, School of Life Sciences, Fudan University, Shanghai 200438, China.",
+        "Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan University Pudong Medical Center, School of Life Sciences, Fudan University, Shanghai 200438, China.",
+        "Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan University Pudong Medical Center, School of Life Sciences, Fudan University, Shanghai 200438, China.",
+        "Max-Delbruck-Center for Molecular Medicine in the Helmholtz Association (MDC), Robert-Rossle Strasse 10, 13125 Berlin, Germany; DZHK (German Centre for Cardiovascular Research), Partner Site Berlin, Berlin, Germany.",
+        "Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan University Pudong Medical Center, School of Life Sciences, Fudan University, Shanghai 200438, China; Human Phenome Institute, Academy for Engineering and Technology, State Key Laboratory of Genetic Engineering, Greater Bay Area Institute of Precision Medicine (Guangzhou), Fudan University, Shanghai 200438, China. Electronic address: wangr@fudan.edu.cn.",
+        "Spine Surgery Department, Nantong First People's Hospital, State Key Laboratory of Digital Medical Engineering, School of Life Sciences and Technology, School of Medicine, Advanced Institute for Life and Health, Jiangsu Province High-Tech Key Laboratory for Bio-Medical Research, Southeast University, Nanjing 210096, China; Co-Innovation Center of Neuroregeneration, Nantong University, Nantong 226001, China; Department of Neurology, Aerospace Center Hospital, School of Life Science, Beijing Institute of Technology, Beijing 100081, China. Electronic address: renjiec@seu.edu.cn.",
+        "Intervention and Cell Therapy Center, Peking University Shenzhen Hospital, Shenzhen, Guangdong 518036, China. Electronic address: zhengw2013@yeah.net.",
+        "Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan University Pudong Medical Center, School of Life Sciences, Fudan University, Shanghai 200438, China; Shanghai Engineering Research Center of Industrial Microorganisms, Shanghai 200438, China. Electronic address: ymw@fudan.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Jingtong",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan University Pudong Medical Center, School of Life Sciences, Fudan University, Shanghai 200438, China; Spine Surgery Department, Nantong First People's Hospital, State Key Laboratory of Digital Medical Engineering, School of Life Sciences and Technology, School of Medicine, Advanced Institute for Life and Health, Jiangsu Province High-Tech Key Laboratory for Bio-Medical Research, Southeast University, Nanjing 210096, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shengzhou",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan University Pudong Medical Center, School of Life Sciences, Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Bei",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Spine Surgery Department, Nantong First People's Hospital, State Key Laboratory of Digital Medical Engineering, School of Life Sciences and Technology, School of Medicine, Advanced Institute for Life and Health, Jiangsu Province High-Tech Key Laboratory for Bio-Medical Research, Southeast University, Nanjing 210096, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Tonglu",
+        "short_name": "Yu T",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan University Pudong Medical Center, School of Life Sciences, Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xuan",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan University Pudong Medical Center, School of Life Sciences, Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Li, Miaomiao",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan University Pudong Medical Center, School of Life Sciences, Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Ku, Min-Chi",
+        "short_name": "Ku MC",
+        "identifiers": [],
+        "affiliations": [
+          "Max-Delbrück-Center for Molecular Medicine in the Helmholtz Association (MDC), Robert-Rössle Strasse 10, 13125 Berlin, Germany; DZHK (German Centre for Cardiovascular Research), Partner Site Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Wang, Rui",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan University Pudong Medical Center, School of Life Sciences, Fudan University, Shanghai 200438, China; Human Phenome Institute, Academy for Engineering and Technology, State Key Laboratory of Genetic Engineering, Greater Bay Area Institute of Precision Medicine (Guangzhou), Fudan University, Shanghai 200438, China. Electronic address: wangr@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chai, Renjie",
+        "short_name": "Chai R",
+        "identifiers": [],
+        "affiliations": [
+          "Spine Surgery Department, Nantong First People's Hospital, State Key Laboratory of Digital Medical Engineering, School of Life Sciences and Technology, School of Medicine, Advanced Institute for Life and Health, Jiangsu Province High-Tech Key Laboratory for Bio-Medical Research, Southeast University, Nanjing 210096, China; Co-Innovation Center of Neuroregeneration, Nantong University, Nantong 226001, China; Department of Neurology, Aerospace Center Hospital, School of Life Science, Beijing Institute of Technology, Beijing 100081, China. Electronic address: renjiec@seu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zheng, Wei V",
+        "short_name": "Zheng WV",
+        "identifiers": [],
+        "affiliations": [
+          "Intervention and Cell Therapy Center, Peking University Shenzhen Hospital, Shenzhen, Guangdong 518036, China. Electronic address: zhengw2013@yeah.net."
+        ]
+      },
+      {
+        "full_name": "Wang, Yongming",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Medical Research and Innovation, Shanghai Pudong Hospital, Fudan University Pudong Medical Center, School of Life Sciences, Fudan University, Shanghai 200438, China; Shanghai Engineering Research Center of Industrial Microorganisms, Shanghai 200438, China. Electronic address: ymw@fudan.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular therapy : the journal of the American Society of Gene Therapy"
+    ],
+    "journal_abbrev": [
+      "Mol Ther"
+    ],
+    "pub_date": "2026 Aug 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/09/01 05:41",
+    "fetched_at": "2026-10-02 04:52:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42675860",
+      "41975095",
+      "42219400",
+      "42605670",
+      "38941613",
+      "42315520",
+      "42214263",
+      "36170834",
+      "37400536",
+      "37697004",
+      "42192532",
+      "33764415",
+      "38910106",
+      "29980561",
+      "42178964",
+      "41834254",
+      "41554741",
+      "38379787",
+      "41281666",
+      "41951520",
+      "41532605",
+      "39543038",
+      "41072420",
+      "41020188",
+      "41814651",
+      "36374037",
+      "30978509",
+      "37116617",
+      "37881961",
+      "41832076",
+      "33333018",
+      "39774105",
+      "40954319",
+      "40792027",
+      "42637959",
+      "36153319",
+      "42304391",
+      "39937081",
+      "40867053",
+      "41663678",
+      "35766512",
+      "37041195",
+      "34480847",
+      "37267210",
+      "38061052",
+      "42080267",
+      "35219382",
+      "26735016",
+      "30664728",
+      "34475565",
+      "40273916",
+      "41708664",
+      "32760714",
+      "29476306",
+      "33323021",
+      "35693153",
+      "26747759",
+      "39647515",
+      "40148327",
+      "33484202",
+      "33397707",
+      "38695159",
+      "29219081",
+      "40442121",
+      "26755436",
+      "30231914",
+      "28153087",
+      "30568723",
+      "41678668",
+      "42163455",
+      "37164010",
+      "42462008",
+      "29982721",
+      "31198958",
+      "42090299",
+      "40551141",
+      "38974870",
+      "40083569",
+      "37776859",
+      "35341983",
+      "40600900",
+      "32758536",
+      "29843790",
+      "26068112",
+      "27845165",
+      "34702830",
+      "29020979",
+      "42595042",
+      "39920233",
+      "40376084",
+      "41568097",
+      "40492429",
+      "42466324",
+      "36733251",
+      "42618444",
+      "34691894",
+      "27210042",
+      "33785178",
+      "25398334",
+      "42052944"
+    ],
+    "review": [
+      "42675860",
+      "35341983",
+      "27845165"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1525-0016(26)00765-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

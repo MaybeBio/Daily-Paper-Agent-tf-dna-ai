@@ -1,0 +1,127 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.27.625761",
+  "title": "Nucleotide GPT: Sequence-Based Deep Learning Prediction of Nuclear Subcompartment-Associated Genome Architecture",
+  "doi": "10.1101/2024.11.27.625761",
+  "abstract": "The spatial organization of the genome within the nucleus is partially determined by its interactions with distinct nuclear subcompartments, such as the nuclear lamina and nuclear speckles, which play key roles in gene regulation during development. However, whether these genome-nuclear subcompartment interactions are encoded in the underlying DNA sequence remains poorly understood. The mechanisms for gene regulation are primarily encoded in noncoding DNA sequences, but deciphering how these sequence features control gene expression remains a significant challenge in genomics. Here, we present Nucleotide GPT, a transformer-based model that predicts genomic associations with spatially distinct, physical nuclear subcompartments from DNA sequence alone. Pre-trained on a diverse set of multi-species genomes, we demonstrate Nucleotide GPT’s genomic understanding through evaluation on diverse prediction tasks, including histone modifications, promoter detection, and transcription factor binding sites. When finetuned to predict genome interactions with two separate nuclear subcompartments – the lamina of the inner nuclear membrane and nuclear speckles that lie more interior – Nucleotide GPT achieves an average accuracy of 73.6% for lamina-associated domains (LADs) and 79.4% accuracy for speckle-associated domains (SPADs), averaged across three cortical development cell types. Analysis of the model’s learned representations through Uniform Manifold Approximation and Projection (UMAP) reveals that Nucleotide GPT develops internal embeddings that effectively distinguish LADs from inter-LADs, with predicted probabilities closely corresponding to experimentally determined LAD classifications. When examining these representations in the context of cell type-invariant constitutive LADs (cLADs) compared to cell type-specific LADs, the model assigns lower confidence scores to cell type-specific LADs compared to cLADs that are conserved across neuronal differentiation, suggesting sequence features may play a stronger role in maintaining cLAD associations. Examination of the model’s attention patterns at correctly classified regions suggests that specific sequence elements govern model decision making about nuclear subcompartment associations. Our results demonstrate the utility of transformer architectures for studying three-dimensional (3D) genome organization and substantiate a role for DNA sequence in determining nuclear subcompartment associations.",
+  "authors": [
+    "Mclaughlin SM",
+    "Ahanger SH",
+    "Lim DA"
+  ],
+  "published_date": "2024-12-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.27.625761",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.27.625761.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR949897",
+    "raw_record": {
+      "id": "PPR949897",
+      "source": "PPR",
+      "doi": "10.1101/2024.11.27.625761",
+      "title": "Nucleotide GPT: Sequence-Based Deep Learning Prediction of Nuclear Subcompartment-Associated Genome Architecture",
+      "authorString": "Mclaughlin SM, Ahanger SH, Lim DA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mclaughlin SM",
+            "lastName": "Mclaughlin",
+            "firstName": "Shae",
+            "initials": "SM"
+          },
+          {
+            "fullName": "Ahanger SH",
+            "lastName": "Ahanger",
+            "firstName": "Sajad",
+            "initials": "SH"
+          },
+          {
+            "fullName": "Lim DA",
+            "lastName": "Lim",
+            "firstName": "Daniel",
+            "initials": "DA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7221-3425"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7221-3425"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9531-6221"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The spatial organization of the genome within the nucleus is partially determined by its interactions with distinct nuclear subcompartments, such as the nuclear lamina and nuclear speckles, which play key roles in gene regulation during development. However, whether these genome-nuclear subcompartment interactions are encoded in the underlying DNA sequence remains poorly understood. The mechanisms for gene regulation are primarily encoded in noncoding DNA sequences, but deciphering how these sequence features control gene expression remains a significant challenge in genomics. Here, we present Nucleotide GPT, a transformer-based model that predicts genomic associations with spatially distinct, physical nuclear subcompartments from DNA sequence alone. Pre-trained on a diverse set of multi-species genomes, we demonstrate Nucleotide GPT’s genomic understanding through evaluation on diverse prediction tasks, including histone modifications, promoter detection, and transcription factor binding sites. When finetuned to predict genome interactions with two separate nuclear subcompartments – the lamina of the inner nuclear membrane and nuclear speckles that lie more interior – Nucleotide GPT achieves an average accuracy of 73.6% for lamina-associated domains (LADs) and 79.4% accuracy for speckle-associated domains (SPADs), averaged across three cortical development cell types. Analysis of the model’s learned representations through Uniform Manifold Approximation and Projection (UMAP) reveals that Nucleotide GPT develops internal embeddings that effectively distinguish LADs from inter-LADs, with predicted probabilities closely corresponding to experimentally determined LAD classifications. When examining these representations in the context of cell type-invariant constitutive LADs (cLADs) compared to cell type-specific LADs, the model assigns lower confidence scores to cell type-specific LADs compared to cLADs that are conserved across neuronal differentiation, suggesting sequence features may play a stronger role in maintaining cLAD associations. Examination of the model’s attention patterns at correctly classified regions suggests that specific sequence elements govern model decision making about nuclear subcompartment associations. Our results demonstrate the utility of transformer architectures for studying three-dimensional (3D) genome organization and substantiate a role for DNA sequence in determining nuclear subcompartment associations.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.11.27.625761"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.11.27.625761"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-12-06",
+      "firstPublicationDate": "2024-12-03",
+      "firstIndexDate": "2024-12-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

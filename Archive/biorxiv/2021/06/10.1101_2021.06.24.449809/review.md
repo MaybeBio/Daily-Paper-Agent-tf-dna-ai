@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract and main text) as provided
+- **Assessment boundary** Scientific content, methodology description, evidence quality, and claims as presented in the supplied material
+- **Shared manuscript claim summary** The authors present MELD-DNA, a computational method combining implicit solvent, force field, and MELD Bayesian inference to predict protein-DNA binding modes and qualitative sequence preferences. They demonstrate its application to three systems (bZIP, P22, TATA) with varying DNA deformation, and introduce competitive binding simulations for relative affinity estimation.
+- **Visible evidence base** Main text descriptions, references to figures (Fig. 1, Fig. 2), supplementary figures (Figs. S6-S15), tables (Tables S1-S6), and computational methods in SI
+- **Missing materials affecting confidence** Supplementary information (figures, tables, computational methods details) not provided; no quantitative metrics (e.g., RMSD values, population percentages beyond one example); no force field or implicit solvent parameter details; no benchmark comparison against existing methods
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful computational approach for protein-DNA binding prediction, addressing a real gap in the field. The conceptual framework combining MELD with implicit solvent and force field is reasonable, and the three test systems cover a useful range of DNA deformation. However, the evidence as presented is largely qualitative and descriptive, with key quantitative details relegated to missing supplementary materials. The claim of successful binding mode identification is not fully supported for the TATA system, where the native conformation was not the highest population cluster. The competitive binding approach is acknowledged as qualitative, and the single detailed example (P22) shows mixed results. The manuscript would benefit from clearer quantitative reporting and a more systematic evaluation of performance.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists working on protein-DNA interactions, particularly those developing or using docking and molecular dynamics methods. Researchers interested in sequence-specific binding prediction and the balance between base and shape readout mechanisms would find the approach relevant. The method's potential to complement structural databases and inform gene regulation studies could attract a broader readership in molecular biology.
+- **Major strengths** The method addresses a recognized gap in protein-DNA structure prediction, specifically handling DNA flexibility and electrostatic interactions. The use of ambiguous guiding data with Bayesian inference is a creative approach. The three test systems with increasing DNA deformation provide a useful gradient of difficulty. The competitive binding simulation concept is novel and could offer qualitative affinity rankings. The method is open source, which supports reproducibility and community adoption.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "MELD-DNA successfully: i) samples multiple binding modes, ii) identifies the experimental binding mode through clustering of the ensembles and iii) is sensitive to DNA sequences and conformations."
+  - **Evidence pointer** Main text, Fig. 1, Figs. S6-S14, Tables S1-S4
+  - **Concern** The claim of successful binding mode identification is not uniformly supported. For bZIP and P22, the native conformation is reported as the highest population cluster, but for TATA, the experimental binding mode is not the highest population cluster in the lowest replica. The authors attribute this to intermediate replica sampling, but this is not a standard criterion for success. The evidence for sequence sensitivity is based on qualitative observations (e.g., "some sequence/structure combinations led to binding") without quantitative metrics such as binding probabilities, free energy estimates, or statistical significance.
+  - **Why it matters** The central claim of the method's utility rests on its ability to identify correct binding modes and distinguish sequences. If the method fails on the most challenging system (TATA) by the stated criterion, the general claim is weakened. Without quantitative measures, the reader cannot assess the robustness or practical utility of the approach.
+  - **Resolution test** Provide quantitative metrics for all three systems: e.g., population of native-like clusters, RMSD distributions, and comparison to known experimental structures. For TATA, clarify the success criterion and demonstrate how intermediate replica populations support the claim. Include statistical analysis (e.g., error bars, replicate runs) to support sequence sensitivity claims.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** "We further tested the value of competitive binding simulations for qualitative prediction of relative binding affinities."
+  - **Evidence pointer** Main text, Fig. 2, Figs. S12, S15, Tables S5-S6
+  - **Concern** The competitive binding approach is presented as a key innovation, but the evidence is limited. For P22, the 57/43 ratio for identical sequences is close to expected, but the TATA system showed systematic bias and was abandoned. The extension to six sequences against consensus shows qualitative preference, but the "random" sequence shows unexpected behavior when restrained to bound conformation. The authors acknowledge the approach is qualitative, but the manuscript does not provide a clear framework for interpreting the population ratios or their relationship to actual binding free energy differences.
+  - **Why it matters** The competitive binding method is positioned as a way to predict sequence preferences, a major challenge in the field. Without validation against known binding affinities or a clear theoretical basis for the population ratios, the method's predictive value is unclear. The TATA failure suggests potential systematic issues that are not fully addressed.
+  - **Resolution test** Validate the competitive binding approach against experimental binding data for at least one system. Provide a theoretical or empirical calibration of population ratios to free energy differences. Address the TATA system bias and explain how the method can be made more robust.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "MELD-DNA is able to sample through combinations of possible restraints and conformations that are consistent with each other, leading to sampling multiple binding modes."
+  - **Evidence pointer** Main text, Computational Methods in SI (not provided)
+  - **Concern** The manuscript references detailed computational methods in the SI, but these are not provided. Key parameters such as the implicit solvent model, force field parameters, replica exchange settings, simulation lengths, and the specific implementation of the ambiguous restraints are not described in the main text. The reproducibility of the method cannot be assessed without these details.
+  - **Why it matters** For a computational method paper, reproducibility is essential. The lack of methodological detail prevents other researchers from implementing or testing the approach, limiting its impact and credibility.
+  - **Resolution test** Provide the full computational methods in the main text or ensure the SI is available for review. Include all relevant parameters, software versions, and analysis scripts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and introduction
+  - **Evidence pointer** Main text, Abstract
+  - **Issue** The abstract claims the method "fills a gap" and "will have impact" but does not specify what the gap is beyond general statements. The introduction mentions docking limitations but does not clearly position MELD-DNA relative to existing protein-DNA docking tools like HADDOCK.
+  - **Required correction** Clarify the specific limitations of existing methods that MELD-DNA addresses, and state the expected performance improvements or novel capabilities more concretely.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure references
+  - **Evidence pointer** Main text, Figs. S6-S15
+  - **Issue** The main text frequently references supplementary figures without summarizing their content. For example, "see Figs. S6-S9" is used without explaining what the reader should observe. This makes the main text difficult to follow without constant cross-referencing.
+  - **Required correction** Provide brief summaries of key supplementary results in the main text, or move the most critical figures to the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Qualitative prediction"
+  - **Evidence pointer** Main text, Abstract and Results
+  - **Issue** The term "qualitative prediction" is used to describe the competitive binding results, but the manuscript does not define what qualitative means in this context (e.g., ranking only, or approximate affinity ratios). This ambiguity could confuse readers.
+  - **Required correction** Define the level of accuracy or type of output expected from the method, and clarify how the population ratios should be interpreted.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of limitations
+  - **Evidence pointer** Main text, Conclusions
+  - **Issue** The manuscript mentions potential force field issues for TATA but does not discuss broader limitations such as system size, simulation time requirements, or applicability to other protein families.
+  - **Required correction** Add a limitations section that addresses the scope of the method, computational cost, and potential failure modes.
+
+## Risk / unsupported claims
+- The claim that MELD-DNA "identifies the experimental binding mode" is not fully supported for the TATA system, where the native conformation was not the highest population cluster.
+- The claim of "sensitivity to DNA sequences" is based on qualitative observations without quantitative statistical analysis.
+- The competitive binding approach's relationship to actual binding free energies is not established.
+- The statement that the method "fills a gap" is not substantiated by comparison to existing methods.
+- The claim that the method "will have impact" in multiple fields is speculative and not supported by demonstrated outcomes.
+- The reproducibility of the method cannot be assessed due to missing computational details.

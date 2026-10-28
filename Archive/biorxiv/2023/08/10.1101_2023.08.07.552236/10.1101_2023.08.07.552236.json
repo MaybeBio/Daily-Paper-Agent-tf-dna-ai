@@ -1,0 +1,416 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.07.552236",
+  "title": "Variant annotation across homologous proteins (“Paralogue Annotation”) identifies disease-causing missense variants with high precision, and is widely applicable across protein families",
+  "doi": "10.1101/2023.08.07.552236",
+  "abstract": "<h4>Background</h4> Distinguishing pathogenic variants from those that are rare but benign remains a key challenge in clinical genetics, especially for variants not previously observed and characterised in humans. In vitro and in vivo functional characterisation are typically resource intensive, and model systems may not accurately predict influence on human disease. Many in silico tools have been developed to predict which variants are disease-causing, but typically lack precision. Here we demonstrate the applicability of a framework, called Paralogue Annotation, that draws on information from previously-characterised variants in homologous proteins to predict whether variants in a gene of interest are likely disease causing. <h4>Methods</h4> We assessed the performance of Paralogue Annotation through three orthogonal approaches: (1) comparison to established in silico variant prediction tools using 47,016 missense variants from ClinVar across 3,524 genes representing a broad range of diverse protein classes, by calculating precision and sensitivity; (2) evaluation against large-scale functional assays of variant effect; and (3) comparing odd ratios calculated from case-control association tests for inherited cardiac arrhythmia syndromes, and neurodevelopmental disorders with epilepsy, stratifying variants by Paralogue Annotation. <h4>Results</h4> Paralogue Annotation correctly annotates 4,328 ClinVar pathogenic variants, with 245 false positives, yielding a precision of 0.95. This increases to 0.99 with more stringent annotation parameters (requiring greater conservation of amino acids between annotated orthologues) at the expense of sensitivity. Compared to established tools, Paralogue Annotation has higher precision for the identification of pathogenic variants, albeit with lower sensitivity across diverse test sets. Extending the technique by transferring annotations between homologous protein domains, rather than full-length protein paralogues, increases sensitivity. Rare variants predicted pathogenic by Paralogue Annotation were more strongly disease-associated (increased odds ratio) than unstratified rare variants for six out of eight genes tested with case-control cohort approaches. <h4>Conclusions</h4> We demonstrate that Paralogue Annotation has high precision for predicting pathogenic missense variants, providing a useful line of evidence for clinical variant interpretation that is complementary to other approaches in use. As the number of characterised variants increases in reference datasets such as ClinVar, Paralogue Annotation will further increase in sensitivity and applicability.",
+  "authors": [
+    "Li N",
+    "Zhang X",
+    "Mazaika E",
+    "Theotokis P",
+    "Jang M",
+    "Ahmad M",
+    "Powell G",
+    "Heyne HO",
+    "Lal D",
+    "Barton PJ",
+    "Walsh R",
+    "Whiffin N",
+    "Ware JS"
+  ],
+  "published_date": "2023-08-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.07.552236",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.07.552236.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR703499",
+    "raw_record": {
+      "id": "PPR703499",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR703499"
+        ]
+      },
+      "doi": "10.1101/2023.08.07.552236",
+      "title": "Variant annotation across homologous proteins (“Paralogue Annotation”) identifies disease-causing missense variants with high precision, and is widely applicable across protein families",
+      "authorString": "Li N, Zhang X, Mazaika E, Theotokis P, Jang M, Ahmad M, Powell G, Heyne HO, Lal D, Barton PJ, Walsh R, Whiffin N, Ware JS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Li N",
+            "lastName": "Li",
+            "firstName": "Nicholas",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC London Institute of Medical Sciences, Imperial College London, London, UK"
+                },
+                {
+                  "affiliation": "Royal Brompton Hospital and Harefield Hospitals, Guy’s and St Thomas’ NHS Trust, London, SW3 6NP, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang X",
+            "lastName": "Zhang",
+            "firstName": "Xiaolei",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Royal Brompton Hospital and Harefield Hospitals, Guy’s and St Thomas’ NHS Trust, London, SW3 6NP, UK"
+                },
+                {
+                  "affiliation": "National Heart and Lung Institute, Imperial College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mazaika E",
+            "lastName": "Mazaika",
+            "firstName": "Erica",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8718-230X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC London Institute of Medical Sciences, Imperial College London, London, UK"
+                },
+                {
+                  "affiliation": "Royal Brompton Hospital and Harefield Hospitals, Guy’s and St Thomas’ NHS Trust, London, SW3 6NP, UK"
+                },
+                {
+                  "affiliation": "National Heart and Lung Institute, Imperial College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Theotokis P",
+            "lastName": "Theotokis",
+            "firstName": "Pantazis",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2369-2719"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Royal Brompton Hospital and Harefield Hospitals, Guy’s and St Thomas’ NHS Trust, London, SW3 6NP, UK"
+                },
+                {
+                  "affiliation": "National Heart and Lung Institute, Imperial College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jang M",
+            "lastName": "Jang",
+            "firstName": "Mikyung",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Royal Brompton Hospital and Harefield Hospitals, Guy’s and St Thomas’ NHS Trust, London, SW3 6NP, UK"
+                },
+                {
+                  "affiliation": "National Heart and Lung Institute, Imperial College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ahmad M",
+            "lastName": "Ahmad",
+            "firstName": "Mian",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Royal Brompton Hospital and Harefield Hospitals, Guy’s and St Thomas’ NHS Trust, London, SW3 6NP, UK"
+                },
+                {
+                  "affiliation": "National Heart and Lung Institute, Imperial College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Powell G",
+            "lastName": "Powell",
+            "firstName": "George",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC London Institute of Medical Sciences, Imperial College London, London, UK"
+                },
+                {
+                  "affiliation": "National Heart and Lung Institute, Imperial College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Heyne HO",
+            "lastName": "Heyne",
+            "firstName": "Henrike",
+            "initials": "HO",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9893-3850"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Hasso Plattner Institute for Digital Engineering, University of Potsdam, Potsdam, Germany"
+                },
+                {
+                  "affiliation": "Hasso Plattner Institute for Digital Health at Mount Sinai, Windreich Department of Artificial Intelligence and Human Health, NY, USA"
+                },
+                {
+                  "affiliation": "Institute for Molecular Medicine Finland, University of Helsinki, Helsinki, Finland"
+                },
+                {
+                  "affiliation": "Medical & Population Genetics Programme, Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lal D",
+            "lastName": "Lal",
+            "firstName": "Dennis",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Hasso Plattner Institute for Digital Health at Mount Sinai, Windreich Department of Artificial Intelligence and Human Health, NY, USA"
+                },
+                {
+                  "affiliation": "Genomic Medicine Institute, Lerner Research Institute, Cleveland Clinic, Cleveland, OH, United States of America"
+                },
+                {
+                  "affiliation": "Epilepsy Center, Neurological Institute, Cleveland Clinic, Cleveland, OH, USA"
+                },
+                {
+                  "affiliation": "Cologne Center for Genomics (CCG), University of Cologne, Cologne, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barton PJ",
+            "lastName": "Barton",
+            "firstName": "Paul JR",
+            "initials": "PJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1165-7767"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC London Institute of Medical Sciences, Imperial College London, London, UK"
+                },
+                {
+                  "affiliation": "Royal Brompton Hospital and Harefield Hospitals, Guy’s and St Thomas’ NHS Trust, London, SW3 6NP, UK"
+                },
+                {
+                  "affiliation": "National Heart and Lung Institute, Imperial College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Walsh R",
+            "lastName": "Walsh",
+            "firstName": "Roddy",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Experimental Cardiology, Heart Centre, Amsterdam Cardiovascular Sciences, Amsterdam UMC, University of Amsterdam"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Whiffin N",
+            "lastName": "Whiffin",
+            "firstName": "Nicola",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medical & Population Genetics Programme, Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+                },
+                {
+                  "affiliation": "Big Data Institute, University of Oxford, UK"
+                },
+                {
+                  "affiliation": "Wellcome Centre for Human Genetics, University of Oxford, Oxford OX3 7BN, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ware JS",
+            "lastName": "Ware",
+            "firstName": "James",
+            "initials": "JS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC London Institute of Medical Sciences, Imperial College London, London, UK"
+                },
+                {
+                  "affiliation": "Royal Brompton Hospital and Harefield Hospitals, Guy’s and St Thomas’ NHS Trust, London, SW3 6NP, UK"
+                },
+                {
+                  "affiliation": "National Heart and Lung Institute, Imperial College London, London, UK"
+                },
+                {
+                  "affiliation": "Medical & Population Genetics Programme, Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8718-230X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9893-3850"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1165-7767"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2369-2719"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>Background</h4>  Distinguishing pathogenic variants from those that are rare but benign remains a key challenge in clinical genetics, especially for variants not previously observed and characterised in humans.  In vitro and  in vivo functional characterisation are typically resource intensive, and model systems may not accurately predict influence on human disease. Many  in silico tools have been developed to predict which variants are disease-causing, but typically lack precision. Here we demonstrate the applicability of a framework, called Paralogue Annotation, that draws on information from previously-characterised variants in homologous proteins to predict whether variants in a gene of interest are likely disease causing.  <h4>Methods</h4>  We assessed the performance of Paralogue Annotation through three orthogonal approaches: (1) comparison to established  in silico variant prediction tools using 47,016 missense variants from ClinVar across 3,524 genes representing a broad range of diverse protein classes, by calculating precision and sensitivity; (2) evaluation against large-scale functional assays of variant effect; and (3) comparing odd ratios calculated from case-control association tests for inherited cardiac arrhythmia syndromes, and neurodevelopmental disorders with epilepsy, stratifying variants by Paralogue Annotation.  <h4>Results</h4>  Paralogue Annotation correctly annotates 4,328 ClinVar pathogenic variants, with 245 false positives, yielding a precision of 0.95. This increases to 0.99 with more stringent annotation parameters (requiring greater conservation of amino acids between annotated orthologues) at the expense of sensitivity. Compared to established tools, Paralogue Annotation has higher precision for the identification of pathogenic variants, albeit with lower sensitivity across diverse test sets. Extending the technique by transferring annotations between homologous protein domains, rather than full-length protein paralogues, increases sensitivity. Rare variants predicted pathogenic by Paralogue Annotation were more strongly disease-associated (increased odds ratio) than unstratified rare variants for six out of eight genes tested with case-control cohort approaches. <h4>Conclusions</h4>  We demonstrate that Paralogue Annotation has high precision for predicting pathogenic missense variants, providing a useful line of evidence for clinical variant interpretation that is complementary to other approaches in use. As the number of characterised variants increases in reference datasets such as ClinVar, Paralogue Annotation will further increase in sensitivity and applicability.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "107469/Z/15/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "220134/Z/20/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "200990/A/16/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/07/2023.08.07.552236.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.07.552236"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR703499"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR703499&type=FILE&fileName=EMS184926-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS184926",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pfam"
+        ]
+      },
+      "dateOfCreation": "2023-08-09",
+      "firstPublicationDate": "2023-08-07",
+      "firstIndexDate": "2023-08-09",
+      "fullTextReceivedDate": "2023-11-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

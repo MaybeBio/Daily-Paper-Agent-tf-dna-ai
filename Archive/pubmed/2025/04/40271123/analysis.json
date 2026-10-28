@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40271123",
+  "title": "Identification of biomarkers associated with energy metabolism in hypertrophic cardiomyopathy and exploration of potential mechanisms of roles.",
+  "authors": "Cai, Songyan; Jin, Tianying; Liu, Mintong; Dai, Qingyuan",
+  "journal": "Frontiers in cardiovascular medicine",
+  "published_date": "2025-04-24",
+  "window": {
+    "start": "2025-04-21",
+    "end": "2025-04-27"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过转录组与机器学习筛选肥厚型心肌病能量代谢生物标志物，仅用在线数据库预测转录因子调控，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: In hypertrophic cardiomyopathy (HCM), limited reports exist regarding its association with energy metabolism. Here, biomarkers related to energy metabolism in HCM were identified through bioinformatics analysis. METHODS: HCM transcriptome data were acquired from the GEO (GSE36961) database for comparative analysis in order to identify differentially expressed genes (DEGs). Subsequently, the identified DEGs were intersected with key module genes in Weighted gene co-expression network analysis (WGCNA) and energy metabolism related genes (EMRGs) to identify DE-EMRGs. Then, feature biomarkers were screened using the least absolute shrinkage and selection operator (LASSO) regression and support vector machine-recursive feature elimination (SVM-RFE) methods, and the intersection of the feature biomarkers obtained from both methods was used for subsequent analysis. Furthermore, biomarkers defined as biomarkers with consistent expression trends across both GSE36961 and GSE89714 datasets and significant inter-cohort differences were selected for subsequent analysis. Subsequently, an immune analysis was conducted. Additionally, the transcription factors (TFs), and drugs regulating the biomarkers were predicted based on online databases. RESULTS: The co-selection of seven potential biomarkers based on machine learning identified IGFBP3 and JAK2 as biomarkers in HCM. Upregulation of IGFBP3 and JAK2 in the HCM cohort was observed in the GSE36961 and GSE89714 datasets. Utilizing ssGSEA, it was unveiled that the HCM cohort exhibited elevated ratings of effector memory CD4T cells while displaying diminished scores across 22 other immune cell categories. Notably, JAK2 expression exhibited a strong negative correlation with myeloid-derived suppressor cells (MDSCs) infiltration, while IGFBP3 showed no significant associations with immune cell infiltration. Utilizing NetworkAnalyst, miRNAs and TFs regulating biomarkers expression in HCM were predicted, with hsa-mir-16-5p, hsa-mir-147a, hsa-mir-210b-3p, hsa-let-7b-5p, and hsa-mir-34a-5p identified as regulators of both IGFBP3 and JAK2. GATA2 was also found to be a TF regulating the expression of both biomarkers. Furthermore, the potential therapeutic targets of JAK2 and IGFBP3 in HCM were ruxolitinib and celecoxib, respectively. CONCLUSION: In conclusion, the identification of IGFBP3 and JAK2 as biomarkers in HCM, highlight promising avenues for further research and treatment development in HCM.",
+  "abstract_zh": "背景：在肥厚型心肌病（HCM）中，关于其与能量代谢关联的报道有限。本研究通过生物信息学分析，识别了HCM中与能量代谢相关的生物标志物。方法：从GEO（GSE36961）数据库获取HCM转录组数据，进行比较分析以识别差异表达基因（DEGs）。随后，将识别的DEGs与加权基因共表达网络分析（WGCNA）中的关键模块基因及能量代谢相关基因（EMRGs）取交集，以确定DE-EMRGs。接着，使用最小绝对收缩和选择算子（LASSO）回归及支持向量机递归特征消除（SVM-RFE）方法筛选特征生物标志物，并将两种方法获得的特征生物标志物的交集用于后续分析。此外，将在GSE36961和GSE89714数据集中表达趋势一致且组间差异显著的生物标志物定义为最终生物标志物，并选择其进行后续分析。随后，进行了免疫分析。另外，基于在线数据库预测了调控生物标志物的转录因子（TFs）和药物。结果：基于机器学习共筛选出七个潜在生物标志物，其中IGFBP3和JAK2被确定为HCM中的生物标志物。在GSE36961和GSE89714数据集中，观察到HCM队列中IGFBP3和JAK2表达上调。利用ssGSEA分析揭示，HCM队列中效应记忆CD4 T细胞评分升高，而其他22种免疫细胞类别评分降低。值得注意的是，JAK2表达与髓源性抑制细胞（MDSCs）浸润呈强负相关，而IGFBP3与免疫细胞浸润无显著关联。利用NetworkAnalyst预测了调控HCM中生物标志物表达的miRNAs和TFs，其中hsa-mir-16-5p、hsa-mir-147a、hsa-mir-210b-3p、hsa-let-7b-5p和hsa-mir-34a-5p被识别为同时调控IGFBP3和JAK2的因子。GATA2也被发现是调控这两种生物标志物表达的TF。此外，JAK2和IGFBP3在HCM中的潜在治疗靶点分别为ruxolitinib和celecoxib。结论：总之，IGFBP3和JAK2被确定为HCM中的生物标志物，为HCM的进一步研究和治疗开发提供了有前景的途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40271123/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40271123/",
+  "paper_page_path": "papers/pubmed/40271123/index.html"
+}

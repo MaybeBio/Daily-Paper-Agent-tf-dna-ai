@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "42322085",
+    "doi": "10.1155/genr/2859448",
+    "title": "Predicting the Impact of Deleterious Single-Nucleotide Polymorphisms in the p47ING1a Isoform of Human ING1 Gene."
+  },
+  "content": {
+    "abstract": "PURPOSE: The p47ING1a isoform of the ING1 tumor suppressor regulates cellular senescence through Rb-dependent pathways via its plant homeodomain (PHD) zinc-finger, which recognizes the H3K4me3 histone mark. However, the mutational landscape of p47ING1a and the functional consequences of PHD-domain nonsynonymous single-nucleotide polymorphisms (nsSNPs) remain poorly characterized. This study aimed to identify and structurally evaluate the most deleterious nsSNPs in p47ING1a and clarify their potential role in disrupting ING1 tumor-suppressor activity. METHODS: A total of 347 missense nsSNPs were retrieved from the NCBI dbSNP database and screened using 12 sequence-based computational tools. Variants consistently predicted as deleterious were further evaluated by I-Mutant stability analysis and ConSurf evolutionary conservation profiling. Three-dimensional structural modeling was performed using AlphaFold3, refined through GalaxyRefine, and validated by ERRAT, PROCHECK, and TM-align. Mutation-induced structural and binding effects were assessed using Missense3D, mCSM, and BeAtMuSiC. Post-translational modification sites were predicted via NetPhos 3.1, GPS 3.0, BDM-PUB, and NetOGlyc 4.0. Protein-protein interaction networks were constructed using STRING and Gene MANIA. Pan-cancer expression was analyzed through UALCAN and the Human Protein Atlas. RESULTS: Twelve computational tools converged on six high-priority variants, namely, C358S, C374G, W378G, F379V, S382L, and R400P. All localized exclusively within the PHD zinc-finger domain, residues 353-402. All six mutations were consistently predicted to destabilize the p47ING1a protein across multiple stability analyses. CONCLUSIONS: Six nsSNPs in the PHD domain of p47ING1a are predicted to disrupt protein stability, H3K4me3 binding, and Sin3A/HDAC complex interactions, thereby impairing ING1 tumor-suppressor function. These findings provide a computational basis for prioritizing variants for experimental validation through site-directed mutagenesis, chromatin-binding assays, and structure-guided therapeutic targeting of the PHD-H3K4me3 interface.",
+    "keywords": [
+      "H3K4me3",
+      "ING1",
+      "PHD zinc finger",
+      "cancer genomics",
+      "in silico analysis",
+      "nsSNPs",
+      "p47ING1a",
+      "plant homeodomain",
+      "protein stability",
+      "tumor suppressor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Polymorphism, Single Nucleotide/genetics",
+      "*Inhibitor of Growth Protein 1/genetics/chemistry/metabolism",
+      "Protein Isoforms/genetics",
+      "Mutation, Missense",
+      "Models, Molecular",
+      "PHD Zinc Fingers/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rafi, Md Oliullah",
+        "Sarker, Md Takim",
+        "Sheikh, Mohammad Ashik",
+        "Das, Sowmitro",
+        "Halder, Sajal Kumar",
+        "Islam, Md Ashiqul"
+      ],
+      "short_names": [
+        "Rafi MO",
+        "Sarker MT",
+        "Sheikh MA",
+        "Das S",
+        "Halder SK",
+        "Islam MA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1707-655X",
+        "ORCID: 0009-0006-5488-5088"
+      ],
+      "affiliations": [
+        "Department of Microbiology and Hygiene, Bangladesh Agricultural University, Mymensingh, 2202, Bangladesh, bau.edu.bd.",
+        "Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh, just.edu.bd.",
+        "Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh, just.edu.bd.",
+        "Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh, just.edu.bd.",
+        "UAB Heersink School of Medicine, Department of Biochemistry and Molecular Genetics, Birmingham, USA, uab.edu.",
+        "Department of Chemistry and Biochemistry, University of Windsor, Windsor, Canada, uwindsor.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rafi, Md Oliullah",
+        "short_name": "Rafi MO",
+        "identifiers": [
+          "0000-0002-1707-655X"
+        ],
+        "affiliations": [
+          "Department of Microbiology and Hygiene, Bangladesh Agricultural University, Mymensingh, 2202, Bangladesh, bau.edu.bd."
+        ]
+      },
+      {
+        "full_name": "Sarker, Md Takim",
+        "short_name": "Sarker MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh, just.edu.bd."
+        ]
+      },
+      {
+        "full_name": "Sheikh, Mohammad Ashik",
+        "short_name": "Sheikh MA",
+        "identifiers": [
+          "0009-0006-5488-5088"
+        ],
+        "affiliations": [
+          "Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh, just.edu.bd."
+        ]
+      },
+      {
+        "full_name": "Das, Sowmitro",
+        "short_name": "Das S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering and Biotechnology, Jashore University of Science and Technology, Jashore, 7408, Bangladesh, just.edu.bd."
+        ]
+      },
+      {
+        "full_name": "Halder, Sajal Kumar",
+        "short_name": "Halder SK",
+        "identifiers": [],
+        "affiliations": [
+          "UAB Heersink School of Medicine, Department of Biochemistry and Molecular Genetics, Birmingham, USA, uab.edu."
+        ]
+      },
+      {
+        "full_name": "Islam, Md Ashiqul",
+        "short_name": "Islam MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Windsor, Windsor, Canada, uwindsor.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genetics research"
+    ],
+    "journal_abbrev": [
+      "Genet Res (Camb)"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/20 06:38",
+    "fetched_at": "2026-10-01 23:39:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41617915",
+      "40637225",
+      "38718835",
+      "36056353",
+      "35332118",
+      "35078134",
+      "34921182",
+      "30995449",
+      "30476243",
+      "28453649",
+      "27193693",
+      "27166375",
+      "25851949",
+      "25613900",
+      "24912621",
+      "24348198",
+      "24281696",
+      "23819846",
+      "23819482",
+      "23723246",
+      "23584533",
+      "23472054",
+      "23412501",
+      "23315928",
+      "23033316",
+      "22096229",
+      "21731648",
+      "21727090",
+      "21457909",
+      "21059217",
+      "20803232",
+      "20576703",
+      "20478830",
+      "20354512",
+      "19843607",
+      "19561590",
+      "18533182",
+      "17526529",
+      "17517781",
+      "17379688",
+      "16895930",
+      "16728977",
+      "16581770",
+      "16387653",
+      "15980478",
+      "15980451",
+      "15849316",
+      "15743678",
+      "11337480",
+      "11125122",
+      "11125043",
+      "10869041",
+      "10807544",
+      "10600390",
+      "8808585",
+      "8401235"
+    ],
+    "similar": [
+      "42322085",
+      "32867672",
+      "30676783",
+      "40370698",
+      "38656135",
+      "18533182",
+      "42309611",
+      "35776277",
+      "34234628",
+      "42196261",
+      "23561625",
+      "38858637",
+      "41570449",
+      "40892789",
+      "27294143",
+      "39854591",
+      "41785731",
+      "41401744",
+      "40149454",
+      "41756011",
+      "33945048",
+      "40375073",
+      "41120341",
+      "42369210",
+      "30884445",
+      "39021990",
+      "41342182",
+      "38994097",
+      "29524840",
+      "31398194",
+      "40981192",
+      "37173831",
+      "42170779",
+      "42398308",
+      "40321699",
+      "39856236",
+      "35092861",
+      "34793541",
+      "41153361",
+      "21767350",
+      "35706533",
+      "30768627",
+      "34187970",
+      "42166461",
+      "36056132",
+      "39715225",
+      "19442115",
+      "31583691",
+      "39167281",
+      "41084424",
+      "28734179",
+      "35128084",
+      "40018382",
+      "12632089",
+      "31871931",
+      "39590603",
+      "23056176",
+      "41550510",
+      "28388287",
+      "38907316",
+      "36598356",
+      "40129965",
+      "41039863",
+      "24578721",
+      "34827731",
+      "40469839",
+      "30802828",
+      "37278385",
+      "41898807",
+      "26800850",
+      "27281824",
+      "40983009",
+      "27414033",
+      "39673052",
+      "38762014",
+      "31768259",
+      "35655118",
+      "37640005",
+      "31935276",
+      "41628231",
+      "41539145",
+      "15201991",
+      "41355503",
+      "41028104",
+      "28944862",
+      "35446184",
+      "41277739",
+      "34921182",
+      "39264222",
+      "40074423",
+      "40375167",
+      "40149458",
+      "39029460",
+      "31236417",
+      "27840822",
+      "10542254",
+      "40493574",
+      "38132435",
+      "28073065",
+      "34466701"
+    ],
+    "review": [
+      "42322085",
+      "19442115"
+    ],
+    "pmc": [
+      "13282558"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42322085/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/genr/2859448",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35687995",
+  "title": "Considering population variability of electrophysiological models improves the in silico assessment of drug-induced torsadogenic risk.",
+  "authors": "Llopis-Lorente, Jordi; Trenor, Beatriz; Saiz, Javier",
+  "journal": "Computer methods and programs in biomedicine",
+  "published_date": "2022-06-11",
+  "window": {
+    "start": "2022-06-06",
+    "end": "2022-06-12"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究药物致心律失常风险的计算机模拟与分类，对象为心肌电生理模型，不涉及蛋白质-DNA互作或TF-DNA结合，与本课题无关。",
+  "abstract": "BACKGROUND AND OBJECTIVE: In silico tools are known to aid in drug cardiotoxicity assessment. However, computational models do not usually consider electrophysiological variability, which may be crucial when predicting rare adverse events such as drug-induced Torsade de Pointes (TdP). In addition, classification tools are usually binary and are not validated using an external data set. Here we analyze the role of incorporating electrophysiological variability in the prediction of drug-induced arrhythmogenic-risk, using a ternary classification and two external validation datasets. METHODS: The effects of the 12 training CiPA drugs were simulated at three different concentrations using a single baseline model and an electrophysiologically calibrated population of models. 9 biomarkers related with action potential (AP), calcium dynamics and net charge were measured for each simulated concentration. These biomarkers were used to build ternary classifiers based on Support Vector Machines (SVM) methodology. Classifiers were validated using two external drug sets: the 16 validation CiPA drugs and 81 drugs from CredibleMeds database. RESULTS: Population of models allowed to obtain different AP responses under the same pharmacological intervention and improve the prediction of drug-induced TdP with respect to the baseline model. The classification tools based on population of models achieve an accuracy higher than 0.8 and a mean classification error (MCE) lower than 0.3 for both validation drug sets and for the two electrophysiological action potential models studied (Tomek et al. 2020 and a modified version of O'Hara et al. 2011). In addition, simulations with population of models allowed the identification of individuals with lower conductances of I(Kr), I(Ks), and I(NaK) and higher conductances of I(CaL), I(NaL), and I(NCX), which are more prone to develop TdP. CONCLUSIONS: The methodology presented here provides new opportunities to assess drug-induced TdP-risk, taking into account electrophysiological variability and may be helpful to improve current cardiac safety screening methods.",
+  "abstract_zh": "背景与目的：已知计算机模拟工具（in silico tools）有助于药物心脏毒性评估。然而，计算模型通常不考虑电生理变异性，这在预测罕见不良事件（如药物诱导的尖端扭转型室性心动过速 (Torsade de Pointes, TdP)）时可能至关重要。此外，分类工具通常是二元的，且未使用外部数据集进行验证。在此，我们分析了将电生理变异性纳入药物诱导心律失常风险预测中的作用，采用三元分类和两个外部验证数据集。方法：使用单一基线模型和电生理校准的模型群体，模拟了12种训练用CiPA药物在三种不同浓度下的效应。针对每个模拟浓度，测量了与动作电位 (action potential, AP)、钙动力学和净电荷相关的9种生物标志物。这些生物标志物用于构建基于支持向量机 (Support Vector Machines, SVM) 方法的三元分类器。分类器使用两个外部药物集进行验证：16种验证用CiPA药物和来自CredibleMeds数据库的81种药物。结果：模型群体允许在相同药理干预下获得不同的AP反应，并相对于基线模型改善了药物诱导TdP的预测。基于模型群体的分类工具在两个验证药物集以及所研究的两种电生理动作电位模型（Tomek等人2020年和O'Hara等人2011年的修改版本）中，均实现了高于0.8的准确率和低于0.3的平均分类误差 (mean classification error, MCE)。此外，使用模型群体的模拟允许识别出具有较低I(Kr)、I(Ks)和I(NaK)电导以及较高I(CaL)、I(NaL)和I(NCX)电导的个体，这些个体更易发生TdP。结论：本文提出的方法为评估药物诱导的TdP风险提供了新机会，同时考虑了电生理变异性，并可能有助于改进当前的心脏安全筛选方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35687995/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35687995/",
+  "paper_page_path": "papers/pubmed/35687995/index.html"
+}

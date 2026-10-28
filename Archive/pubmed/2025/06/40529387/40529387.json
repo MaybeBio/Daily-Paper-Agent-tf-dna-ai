@@ -1,0 +1,411 @@
+{
+  "identity": {
+    "pmid": "40529387",
+    "doi": "10.3892/etm.2025.12903",
+    "title": "Aged garlic extract major constituent S-1-propenyl-l-cysteine inhibits proinflammatory mRNA expression in bronchial epithelial IB3-1 cells exposed to the BNT162b2 vaccine."
+  },
+  "content": {
+    "abstract": "A simple experimental model system was developed and validated for the identification and characterization of molecules exhibiting the ability to inhibit the expression of genes activated during the coronavirus disease 2019 (COVID-19) 'cytokine storm' for the present study. Biomolecules derived from herbal medicinal extracts have been proposed as anti-inflammatory strategies for reducing COVID-19 'cytokine storm' and the associated Acute Respiratory Distress Syndrome. Considering this, the present study focused on a major component of Aged Garlic Extract (AGE), S-1-propenylcysteine (S1PC). The human bronchial epithelial IB3-1 cell line was used to upregulate the expression of proinflammatory genes after exposure to the COVID-19 BNT162b2 vaccine. The effects of S1PC were then studied following continuous treatment for 2 days in BNT162b2-exposed IB3-1 cells. The concentrations of S1PC were 1, 5, 10, 25, 50 and 100 microM. GC-MS analysis was performed in order to characterize the S1PC used in the experiments. Reverse-transcription-quantitative PCR and western blotting analysis revealed the accumulation of Spike mRNA and protein in BNT162b2-exposed IB3-1 cells. Subsequently, the effects of S1PC on the several biological and biochemical parameters were analyzed, including cell viability, apoptosis, the NF-kappaB pathway and the expression of proinflammatory factors. Molecular docking analysis was performed to obtain preliminary information on the putative mechanism(s) of action of S1PC. The results of the present study demonstrate that exposure of epithelial IB3-1 cells to the COVID-19 BNT162b2 vaccine is associated with a sharp increase in the expression of the transcription factor NF-kappaB and NF-kappaB-regulated genes, including IL-6, IL-8 and granulocyte-colony stimulation factor 9 (G-CSF). Treatment with S-1-propenyl-l-cysteine (S1PC) was found to reverse the BNT162b2-induced upregulation of NF-kappaB, IL-6, IL-8 and G-CSF. These effects were not associated with inhibition of cell viability, induction of apoptosis or a decrease of the cell growth rate, as demonstrated by the results based on the analysis of cell number and the proportion of early and late apoptotic cells within the cell population. With respect to possible mechanisms of action, molecular docking and molecular dynamics simulations strongly suggest that S1PC interacts with Toll-like receptor-4, possibly explaining the inhibitory effects on NF-kappaB and NF-kappaB-regulated genes. Therefore, S1PC should be further evaluated as a potential inhibitor of this COVID-19 'cytokine storm'. However, further experimental studies are needed to identify other agents that can also able to inhibit gene expression induced by the COVID-19 BNT162b2 vaccine and to verify whether combined treatments with S1PC could be proposed to obtain even superior inhibitory effects.",
+    "keywords": [
+      "BNT162b2 vaccine",
+      "IB3-1 cells",
+      "S-1-propenyl-l-cysteine",
+      "aged garlic extract",
+      "anti-severe acute respiratory syndrome coronavirus 2",
+      "inflammation",
+      "spike"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Papi, Chiara",
+        "Gasparello, Jessica",
+        "Marzaro, Giovanni",
+        "Macone, Alberto",
+        "Zurlo, Matteo",
+        "Di Padua, Federica",
+        "Fino, Pasquale",
+        "Agostinelli, Enzo",
+        "Gambari, Roberto",
+        "Finotti, Alessia"
+      ],
+      "short_names": [
+        "Papi C",
+        "Gasparello J",
+        "Marzaro G",
+        "Macone A",
+        "Zurlo M",
+        "Di Padua F",
+        "Fino P",
+        "Agostinelli E",
+        "Gambari R",
+        "Finotti A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Life Sciences and Biotechnology, Ferrara University, I-44121 Ferrara, Italy.",
+        "Department of Life Sciences and Biotechnology, Ferrara University, I-44121 Ferrara, Italy.",
+        "Department of Diagnostics and Public Health, University of Verona, I-37134 Verona, Italy.",
+        "Department of Biochemical Sciences 'A. Rossi Fanelli', Sapienza University of Rome, I-00185 Rome, Italy.",
+        "Department of Life Sciences and Biotechnology, Ferrara University, I-44121 Ferrara, Italy.",
+        "Department of Life Sciences and Biotechnology, Ferrara University, I-44121 Ferrara, Italy.",
+        "Department of Sensory Organs, Sapienza University of Rome, Policlinico Umberto I, I-00161 Rome, Italy.",
+        "Department of Sensory Organs, Sapienza University of Rome, Policlinico Umberto I, I-00161 Rome, Italy.",
+        "International Polyamines Foundation 'ETS-ONLUS', I-00159 Rome, Italy.",
+        "Department of Life Sciences and Biotechnology, Ferrara University, I-44121 Ferrara, Italy.",
+        "Department of Life Sciences and Biotechnology, Ferrara University, I-44121 Ferrara, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Papi, Chiara",
+        "short_name": "Papi C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences and Biotechnology, Ferrara University, I-44121 Ferrara, Italy."
+        ]
+      },
+      {
+        "full_name": "Gasparello, Jessica",
+        "short_name": "Gasparello J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences and Biotechnology, Ferrara University, I-44121 Ferrara, Italy."
+        ]
+      },
+      {
+        "full_name": "Marzaro, Giovanni",
+        "short_name": "Marzaro G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostics and Public Health, University of Verona, I-37134 Verona, Italy."
+        ]
+      },
+      {
+        "full_name": "Macone, Alberto",
+        "short_name": "Macone A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemical Sciences 'A. Rossi Fanelli', Sapienza University of Rome, I-00185 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Zurlo, Matteo",
+        "short_name": "Zurlo M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences and Biotechnology, Ferrara University, I-44121 Ferrara, Italy."
+        ]
+      },
+      {
+        "full_name": "Di Padua, Federica",
+        "short_name": "Di Padua F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences and Biotechnology, Ferrara University, I-44121 Ferrara, Italy."
+        ]
+      },
+      {
+        "full_name": "Fino, Pasquale",
+        "short_name": "Fino P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sensory Organs, Sapienza University of Rome, Policlinico Umberto I, I-00161 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Agostinelli, Enzo",
+        "short_name": "Agostinelli E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sensory Organs, Sapienza University of Rome, Policlinico Umberto I, I-00161 Rome, Italy.",
+          "International Polyamines Foundation 'ETS-ONLUS', I-00159 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Gambari, Roberto",
+        "short_name": "Gambari R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences and Biotechnology, Ferrara University, I-44121 Ferrara, Italy."
+        ]
+      },
+      {
+        "full_name": "Finotti, Alessia",
+        "short_name": "Finotti A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences and Biotechnology, Ferrara University, I-44121 Ferrara, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Experimental and therapeutic medicine"
+    ],
+    "journal_abbrev": [
+      "Exp Ther Med"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/18 06:25",
+    "fetched_at": "2026-09-30 20:13:04"
+  },
+  "links": {
+    "cites": [
+      "41305007",
+      "41226119",
+      "40942024"
+    ],
+    "refs": [
+      "40084194",
+      "39770027",
+      "39185405",
+      "39081874",
+      "38945082",
+      "38494253",
+      "37954597",
+      "37944576",
+      "37477130",
+      "37402337",
+      "37242574",
+      "37112792",
+      "37083725",
+      "36361701",
+      "36351374",
+      "36296272",
+      "36139760",
+      "35723296",
+      "35682644",
+      "35410404",
+      "35143839",
+      "34920929",
+      "34879096",
+      "34863335",
+      "34858554",
+      "34727803",
+      "34711839",
+      "34654691",
+      "34653729",
+      "34502117",
+      "34278794",
+      "34248142",
+      "34202584",
+      "34033999",
+      "33930279",
+      "33868439",
+      "33857397",
+      "33742149",
+      "33644468",
+      "33505220",
+      "33304368",
+      "33264547",
+      "33067112",
+      "33029105",
+      "33027770",
+      "33022510",
+      "33011285",
+      "32997945",
+      "32962703",
+      "32961074",
+      "32956495",
+      "32920514",
+      "32861276",
+      "32854750",
+      "32839624",
+      "32691370",
+      "32610079",
+      "32539627",
+      "32474885",
+      "32383269",
+      "32348588",
+      "32010332",
+      "31733592",
+      "31131037",
+      "29956777",
+      "29627723",
+      "29593733",
+      "29589534",
+      "29576354",
+      "29380376",
+      "28553226",
+      "28362335",
+      "27725449",
+      "27304673",
+      "26887651",
+      "26619985",
+      "25814049",
+      "24433094",
+      "23832629",
+      "22889332",
+      "22561123",
+      "22356248",
+      "21322102",
+      "21282106",
+      "20528926",
+      "19363120",
+      "18535784",
+      "18490773",
+      "18029230",
+      "17349209",
+      "16930560",
+      "14720072",
+      "12490959",
+      "12403695",
+      "11846609",
+      "11238803",
+      "10856170"
+    ],
+    "similar": [
+      "40529387",
+      "39770027",
+      "40084194",
+      "28362335",
+      "34033999",
+      "40432842",
+      "32042418",
+      "30630055",
+      "35186355",
+      "32010341",
+      "33588881",
+      "27134204",
+      "32765777",
+      "26887651",
+      "26764330",
+      "30237533",
+      "39053609",
+      "27725449",
+      "9950608",
+      "34789834",
+      "37477130",
+      "32010329",
+      "28183044",
+      "30807919",
+      "35692206",
+      "22561123",
+      "37944576",
+      "39971016",
+      "26418032",
+      "12840173",
+      "40673299",
+      "29089668",
+      "22772035",
+      "32615160",
+      "37308195",
+      "34883218",
+      "37083725",
+      "36002086",
+      "12436048",
+      "37847473",
+      "17012372",
+      "31872748",
+      "17721042",
+      "33465050",
+      "37809486",
+      "35131015",
+      "36738945",
+      "22732725",
+      "29142404",
+      "34653729",
+      "21148790",
+      "38972239",
+      "10970832",
+      "37939833",
+      "23952046",
+      "40020626",
+      "19185596",
+      "24816292",
+      "34648903",
+      "40360040",
+      "17891168",
+      "33860869",
+      "19410980",
+      "37308226",
+      "29326885",
+      "35622496",
+      "40171136",
+      "40942024",
+      "38790097",
+      "12388360",
+      "38972238",
+      "21496221",
+      "23935691",
+      "32890913",
+      "30668406",
+      "20935193",
+      "40674839",
+      "34722158",
+      "16301669",
+      "18768082",
+      "37863662",
+      "30298576",
+      "30128877",
+      "36646160",
+      "31678416",
+      "31541455",
+      "38621908",
+      "36745138",
+      "30342185",
+      "34785108",
+      "32132236",
+      "38614429",
+      "32010342",
+      "39571698",
+      "22230470",
+      "40460610",
+      "34697842",
+      "34684771",
+      "36466363",
+      "38778421"
+    ],
+    "review": [
+      "40529387",
+      "28362335",
+      "40432842",
+      "32010341",
+      "32010329",
+      "40171136",
+      "40942024",
+      "36745138"
+    ],
+    "pmc": [
+      "12171798"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40529387.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40529387/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

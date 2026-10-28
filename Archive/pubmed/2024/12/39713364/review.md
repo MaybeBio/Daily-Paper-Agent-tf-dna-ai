@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv, 2024)
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and results as presented in the provided text. No supplementary tables or figures were available for inspection.
+- **Shared manuscript claim summary** The authors propose L2G, a framework that repurposes pre-trained natural language models for genomics tasks via cross-modal fine-tuning. L2G uses a neural architecture search (NAS) to design a CNN embedder, a joint MMD plus task-specific loss for embedder pre-training, and then fine-tunes the entire model. The authors claim that L2G matches or outperforms fine-tuned genomic foundation models on multiple benchmarks, identifies relevant transcription factor motifs in enhancer activity prediction, and closes the modality gap between DNA and text embeddings.
+- **Visible evidence base** Main text only. Results are described in text and referenced to supplementary tables (Table S1, S3, S4, S5, S6, S7, S8, S9) and figures (Fig. 1, 2, 3, 4, 5, S1, S2, S3, S4). None of these supplementary materials were provided.
+- **Missing materials affecting confidence** All quantitative results, benchmark tables, ablation tables, supplementary figures, and algorithmic details (Algorithm 1) are referenced but not included. The absence of these materials prevents independent verification of the central performance claims and the ablation analyses.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question: whether pre-trained language models can be repurposed for genomics without large-scale domain-specific pre-training. The proposed framework, L2G, is well motivated and the design choices are clearly explained. However, the evidence base available for this review is incomplete. All quantitative results are in supplementary materials that were not provided. The central claims of superior performance, the effectiveness of the joint loss, and the NAS-based embedder cannot be verified from the main text alone. The manuscript is promising and the approach is of interest, but the case is not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in computational genomics, machine learning for biology, and foundation model applications. The work is relevant to those developing or using genomic foundation models, as it offers a resource-efficient alternative to building domain-specific models from scratch. The cross-modal transfer approach may also interest the broader machine learning community studying transfer learning across modalities.
+- **Major strengths** The problem is well framed and the motivation is clear. The authors identify specific limitations of prior work (ORCA) and propose targeted solutions. The three-stage training procedure and the use of NAS for embedder design are sensible and potentially impactful. The inclusion of motif discovery analysis adds biological relevance beyond benchmark performance. The discussion is thoughtful and acknowledges limitations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "L2G achieves the best results on ten tasks and ranks second on six others" on the Nucleotide Transformer benchmark; "L2G outperforms all other models in five out of eight tasks" on Genomic Benchmarks.
+  - **Evidence pointer** Table S4, Fig. 3, Table S5, Fig. S1C (location not provided)
+  - **Concern** The central performance claims are entirely supported by supplementary tables and figures that were not included in the provided material. Without these data, it is impossible to assess whether the reported comparisons are fair, statistically sound, or even correct.
+  - **Why it matters** The primary contribution of the paper is empirical. If the benchmark results cannot be inspected, the core claim of the manuscript is unverifiable.
+  - **Resolution test** Provide the supplementary tables and figures, including full results for all models on all tasks, with standard deviations or confidence intervals where applicable.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "we utilize NAS to tailor embedder architectures to different tasks" and "we learn the optimal kernel size and dilation rate for each convolutional layer in the CNN using the DASH algorithm"
+  - **Evidence pointer** Methods section, Neural Architecture Search subsection (location not provided)
+  - **Concern** The description of the NAS procedure is incomplete. The search space is only partially defined (backbone choices ResNet and UNet, kernel size and dilation rate). The search strategy, computational cost, and how the final architecture is selected are not described in sufficient detail. The DASH algorithm is referenced but not explained.
+  - **Why it matters** Reproducibility is a core requirement. Without a complete description of the NAS procedure, other researchers cannot implement or evaluate the method.
+  - **Resolution test** Provide a full description of the search space, the search algorithm, the number of architectures evaluated, the computational budget, and the selection criterion. Include pseudocode or a reference to a detailed algorithm description.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "we propose a new embedder training objective that jointly optimizes for both distribution alignment and downstream task performance" and "we set up a scheduler for these weights, minimizing the task-specific loss first before minimizing the joint objective"
+  - **Evidence pointer** Methods section, Embedder Pre-training subsection (location not provided)
+  - **Concern** The joint loss formulation is central to the method, but the weighting scheme (alpha and beta) and the scheduler are not described in detail. How are alpha and beta set? What is the schedule? Is the scheduler based on epochs, steps, or some other criterion? The ablation results that justify this design are in supplementary tables that were not provided.
+  - **Why it matters** The joint loss is a key novelty of the approach. Without a precise description, the method cannot be reproduced or compared against alternatives.
+  - **Resolution test** Provide the exact loss function, the values or ranges of alpha and beta, the scheduler details, and the ablation results that support the chosen configuration.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "L2G learns relevant TF motifs" and "L2G uniquely revealed the da motif" and "L2G uniquely identified BEAF-32 and CRP"
+  - **Evidence pointer** Fig. 4B, Fig. S3, Fig. S4 (location not provided)
+  - **Concern** The motif discovery results are described qualitatively. The figures that would show the discovered motifs are not provided. It is unclear how motif significance was assessed, whether the identified motifs were compared against known databases, and whether the uniqueness claims are robust to the acknowledged differences in implementation.
+  - **Why it matters** The biological relevance of the method is an important secondary claim. Without the actual motif results and a statistical assessment, the significance of these findings cannot be evaluated.
+  - **Resolution test** Provide the motif figures, a description of the significance threshold used, and a comparison of the identified motifs against known motif databases.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract (location not provided)
+  - **Issue** The abstract states that L2G "achieves superior performance to fine-tuned genomic FMs and task-specific models on more than half of tasks across multiple genomics benchmarks." The phrase "more than half" is vague and does not convey the magnitude of the improvement.
+  - **Required correction** Specify the exact number of tasks and the average improvement, or refer to the relevant tables.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Embedder Pre-training
+  - **Evidence pointer** Methods section, Embedder Pre-training subsection (location not provided)
+  - **Issue** The loss function is written as "𝓛total=α𝓛MMDhlanguage,hDNA+β𝓛task(Y,Yˆ)". The notation is ambiguous. It is unclear whether the MMD is computed between the full sequences or between pooled representations.
+  - **Required correction** Clarify the notation, for example by specifying the inputs to the MMD computation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, Fine-tuning
+  - **Evidence pointer** Methods section, Fine-tuning subsection (location not provided)
+  - **Issue** The fine-tuning step is described in a single sentence. Details such as the number of epochs, learning rate schedule, and early stopping criteria are not provided.
+  - **Required correction** Provide the fine-tuning hyperparameters or refer to a supplementary table.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Overview
+  - **Evidence pointer** Results section, Overview subsection (location not provided)
+  - **Issue** The sentence "Directly applying transformer models trained on natural language data to out-of-domain tasks like genomics can lead to the corruption of pre-trained weights" is a strong claim without a citation or supporting experiment.
+  - **Required correction** Add a citation or soften the claim to reflect that this is a known challenge.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing benchmark data), R1-M2 (incomplete NAS description), R1-M3 (incomplete loss and scheduler description). These are blocking because the central claims of the paper cannot be verified or reproduced from the provided material.
+- **Assessment against Nature-style criteria** Originality: The idea of repurposing language models for genomics via cross-modal transfer is not entirely new, but the specific combination of NAS-designed embedders and a joint loss is a novel contribution. Scientific importance: The work addresses a significant resource bottleneck in genomic foundation models and could have broad impact if the claims hold. Interdisciplinary readership: The work bridges machine learning and genomics and should be accessible to both communities, though the methods section assumes familiarity with both. Technical soundness: Cannot be fully assessed due to missing supplementary materials. The described methodology is plausible, but the incomplete descriptions of the NAS and loss scheduler are concerning. Readability for nonspecialists: The main text is generally clear, but the methods section is dense and would benefit from additional explanation of key concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The approach is promising and the problem is important, but the current evidence base is insufficient to establish the central claims. The authors should provide the supplementary materials and address the methodological gaps described above.
+
+## Risk / unsupported claims
+- The claim that L2G "achieves superior performance to fine-tuned genomic FMs and task-specific models on more than half of tasks" is unsupported without the benchmark tables.
+- The claim that L2G "closes the modality gap" is supported only by qualitative descriptions of embedding visualizations and silhouette scores, which are not provided.
+- The claim that the joint loss is superior to alternatives is unsupported without the ablation tables.
+- The claim that L2G "learns relevant TF motifs" is unsupported without the motif figures and a statistical assessment.
+- The claim that "L2G is the only fine-tuning based approach that outperforms such strong supervised baselines on the Nucleotide Transformer benchmark" is a strong statement that requires the full benchmark results and a clear definition of "supervised baselines."

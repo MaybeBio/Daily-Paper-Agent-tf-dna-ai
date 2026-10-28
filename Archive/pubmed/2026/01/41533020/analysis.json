@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41533020",
+  "title": "Integrative gene target mapping, RNA sequencing, in silico molecular docking, ADMET profiling and molecular dynamics simulation study of marine derived molecules for type 1 diabetes mellitus.",
+  "authors": "Vastrad, Basavaraj; Pattanashetti, Shivaling; Sadashivanavar, Veeresh; Pai, K S R; Vastrad, Chanabasayya",
+  "journal": "Molecular diversity",
+  "published_date": "2026-01-14",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 3,
+  "one_liner_zh": "该文通过转录组与网络分析筛选T1DM靶基因，并对海洋分子与FN1蛋白做分子对接和MD模拟，但核心是药物-蛋白互作而非蛋白质-DNA互作，TF仅作为调控网络节点出现，无TF-DNA结合建模，与本课题关联较弱。",
+  "abstract": "Type 1 diabetes mellitus (T1DM) is a metabolic disease leading threat to human health around the world. Here we aimed to explore new biomarkers and potential therapeutic targets in T1DM through adopting integrated bioinformatics tools. The gene expression Omnibus (GEO) database was used to obtain next generation sequencing data (GSE270484) of T1DM and normal control samples. Furthermore, differentially expressed genes (DEGs) were screened using the DESeq2 package in R bioconductor package. Gene Ontology (GO) and pathway enrichment analyses were performed by g:Profiler. The protein-protein interaction (PPI) network was plotted with IID PPI database and visualized using Cytoscape. Module analysis of the PPI network was done using PEWCC. Then, microRNAs (miRNAs) and transcription factors (TFs) in T1DM were screened out from the miRNet and NetworkAnalyst database. Then, the miRNA-hub gene regulatory network and TF-hub gene regulatory network were constructed by Cytoscape software. Moreover, a drug-hub gene interaction network of the hub genes was constructed and predicted the drug molecule against hub genes. The receiver operating characteristic (ROC) curves were generated to predict diagnostic value of hub genes. Finally we performed molecular docking, ADMET profiling and molecular dynamics simulation studies of marine derived chemical constituents using Schrodinger Suite 2025-1. A total of 958 DEGs were screened: 479 up regulated genes and 479 down regulated genes. DEG were mainly enriched in the terms of developmental process, membrane, cation binding, response to stimulus, cell periphery, ion binding, neuronal system and metabolism. Based on the data of protein-protein interaction (PPI), the top 10 hub genes (5 up regulated and 5 down regulated) were ranked, including FN1, GSN, ADRB2, CEP128, FLNA, CD74, EFEMP2, POU6F2, P4HA2 and BCL6. The miRNA-hub gene regulatory network and TF-hub gene regulatory network showed that hsa-mir-657, hsa-miR-1266-5p, NOTCH1 and GTF3C2 might play an important role in the pathogenesis of T1DM. The drug-hub gene interaction network showed that Clenbuterol, Diethylstilbestrol, Selegiline and Isoflurophate predicted therapeutic drugs for the T1DM. Molecular docking and molecular dynamics simulation study revealed that CMNPD5805 and CMNPD30286 as potential inhibitors of FN1 (pdb id: 3M7P) a key biomarker in pathogenesis of T1DM. These findings promote the understanding of the molecular mechanism and clinically related molecular targets for T1DM.",
+  "abstract_zh": "1型糖尿病（T1DM）是一种对全球人类健康构成威胁的代谢性疾病。本研究旨在通过整合生物信息学工具，探索T1DM的新生物标志物和潜在治疗靶点。利用基因表达综合（GEO）数据库获取T1DM和正常对照样本的下一代测序数据（GSE270484）。进一步，使用R生物导体包中的DESeq2包筛选差异表达基因（DEGs）。通过g:Profiler进行基因本体论（GO）和通路富集分析。利用IID PPI数据库绘制蛋白质-蛋白质相互作用（PPI）网络，并使用Cytoscape进行可视化。使用PEWCC进行PPI网络的模块分析。然后，从miRNet和NetworkAnalyst数据库中筛选出T1DM中的微RNA（miRNAs）和转录因子（TFs）。随后，使用Cytoscape软件构建miRNA-枢纽基因调控网络和TF-枢纽基因调控网络。此外，构建了枢纽基因的药物-枢纽基因相互作用网络，并预测了针对枢纽基因的药物分子。生成受试者工作特征（ROC）曲线以预测枢纽基因的诊断价值。最后，使用Schrodinger Suite 2025-1对海洋来源的化学成分进行了分子对接、ADMET分析和分子动力学模拟研究。共筛选出958个DEGs：479个上调基因和479个下调基因。DEGs主要富集在发育过程、膜、阳离子结合、刺激响应、细胞外周、离子结合、神经系统和代谢等术语中。基于蛋白质-蛋白质相互作用（PPI）数据，排名前10的枢纽基因（5个上调和5个下调）包括FN1、GSN、ADRB2、CEP128、FLNA、CD74、EFEMP2、POU6F2、P4HA2和BCL6。miRNA-枢纽基因调控网络和TF-枢纽基因调控网络显示，hsa-mir-657、hsa-miR-1266-5p、NOTCH1和GTF3C2可能在T1DM的发病机制中发挥重要作用。药物-枢纽基因相互作用网络显示，克伦特罗、己烯雌酚、司来吉兰和异氟磷为预测的T1DM治疗药物。分子对接和分子动力学模拟研究揭示，CMNPD5805和CMNPD30286是FN1（pdb id: 3M7P）的潜在抑制剂，FN1是T1DM发病机制中的关键生物标志物。这些发现促进了对T1DM分子机制和临床相关分子靶点的理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41533020/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41533020/",
+  "paper_page_path": "papers/pubmed/41533020/index.html"
+}

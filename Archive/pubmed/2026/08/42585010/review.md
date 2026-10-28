@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report that molecular dynamics simulations of the ARID1B ARID domain reveal conformational dynamics exposing a potentially ligandable site; 2D protein-detected NMR fragment screening identified two compounds binding with slow kinetics; X-ray structures show these compounds bind two distinct cryptic pockets absent in the ground state; despite high sequence homology with ARID1A, selective binding to ARID1B is observed, in one case greater than 140-fold, suggesting a route toward selective targeting of ARID1B in ARID1A-mutant cancers.
+- **Visible evidence base** Abstract text only; no experimental details, structural statistics, binding affinity measurements, selectivity data, or simulation parameters are available
+- **Missing materials affecting confidence** Full methods, all figures and tables, crystallographic data and refinement statistics, NMR spectra and assignment details, simulation protocols and convergence criteria, selectivity assay data, and any negative controls
+
+## Reviewer
+- **Overall assessment** The abstract presents a compelling and potentially significant finding: the identification of cryptic small-molecule binding pockets on the ARID1B ARID domain, with evidence for selective binding over the highly homologous ARID1A. The combination of computational prediction, NMR fragment screening, and X-ray crystallography is methodologically strong and appropriate for the question. However, the abstract alone does not provide sufficient quantitative detail to fully assess the robustness of the selectivity claim, the functional relevance of the binding sites, or the druggability of the pockets. The work is likely to interest researchers in cancer therapeutics and structural biology, but the case for a precision therapeutic avenue is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Cancer biologists and drug discovery researchers focused on synthetic lethality and ARID1A-mutant tumors would be directly interested, as the work addresses a well-recognized gap in targeting ARID1B. Structural biologists studying cryptic pockets and conformational dynamics in small protein domains would also find the results valuable. The demonstration of selective binding despite high sequence homology has broader implications for the feasibility of targeting closely related paralogs.
+- **Major strengths** The study integrates multiple orthogonal techniques, which strengthens the credibility of the central claim. The identification of two distinct cryptic pockets through different conformational rearrangements is a notable advance over single-pocket findings. The reported selectivity, particularly the greater than 140-fold preference for ARID1B, is a striking result that, if robust, would be of high translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the two compounds bind to two distinct cryptic pockets and that these pockets support selective binding to ARID1B, in one case greater than 140-fold.
+  - **Evidence pointer** Abstract text; no figures, tables, or methods provided
+  - **Concern** The selectivity claim of greater than 140-fold is presented without any indication of how it was measured, under what conditions, or with what controls. The abstract does not specify whether this selectivity was determined by binding affinity, cellular activity, or another assay, nor does it provide the basis for comparison with ARID1A.
+  - **Why it matters** The central translational relevance of the work rests on the selectivity claim. Without quantitative details on the assay, the possibility of assay-specific artifacts or conditions that inflate selectivity cannot be excluded. The claim is currently not verifiable from the supplied material.
+  - **Resolution test** Provide the selectivity data with full experimental details, including assay type, protein constructs, buffer conditions, and replicate numbers. Show that the selectivity is reproducible across multiple methods or conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The abstract implies that binding to these cryptic pockets provides an avenue toward selectively targeting ARID1B in ARID1A-mutant cancer.
+  - **Evidence pointer** Abstract text; no functional data provided
+  - **Concern** The abstract does not report any functional or cellular data demonstrating that the identified compounds have activity in ARID1A-mutant cancer cells, such as selective killing or inhibition of ARID1B-dependent proliferation. The link between biochemical binding and therapeutic potential is therefore speculative.
+  - **Why it matters** The stated motivation for the work is the development of a precision therapeutic. Without evidence that the compounds engage the target in cells and produce a phenotype consistent with ARID1B inhibition, the translational claim is unsupported.
+  - **Resolution test** Include cellular assays showing selective activity in ARID1A-mutant versus wild-type contexts, with appropriate genetic controls such as ARID1B knockdown or overexpression.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural validation
+  - **Claim pointer** The abstract states that X-ray structures demonstrate binding to two distinct cryptic pockets exposed through different conformational rearrangements.
+  - **Evidence pointer** Abstract text; no crystallographic details provided
+  - **Concern** The abstract does not provide any information on the resolution of the structures, the quality of the electron density for the ligands, or whether the conformational rearrangements are observed in multiple crystal forms or only in the presence of the ligands. The possibility that the pockets are artifacts of crystal packing or ligand-induced fit rather than pre-existing low-population states is not addressed.
+  - **Why it matters** The claim that these are "cryptic" pockets, meaning they are absent in the ground state but become exposed through conformational dynamics, requires evidence that the pockets are not simply induced by ligand binding. The distinction is important for the generalizability of the finding.
+  - **Resolution test** Provide crystallographic statistics, ligand occupancy and B-factor information, and evidence from multiple structures or solution-state experiments that the pockets are accessible in the absence of ligand.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "potentially ligandable site" is vague and does not specify the criteria used to define ligandability from the simulations.
+  - **Required correction** Define the computational criteria used to assess ligandability, such as pocket volume, hydrophobicity, or druggability scores.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Compound characterization
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not state whether the two compounds are chemically distinct scaffolds or close analogues, which would affect the interpretation of the two pockets as independent findings.
+  - **Required correction** Clarify the chemical relationship between the two compounds and their analogues used in the crystallographic studies.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison to prior work
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not discuss whether similar cryptic pockets have been reported in other ARID family members or related DNA-binding domains, which would help contextualize the novelty.
+  - **Required correction** Add a brief statement on the broader relevance of cryptic pockets in this protein family.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the selectivity and functional claims are central to the paper's significance and are not supported by the abstract alone. R1-M3 is important but not blocking, as the structural data may be adequate in the full manuscript.
+- **Assessment against Nature-style criteria** Originality: The identification of cryptic pockets in ARID1B is novel and not anticipated from prior structural studies of ARID domains. Scientific importance: The work addresses a clinically relevant target with a clear unmet need, and the selectivity finding is potentially transformative. Interdisciplinary readership: The work bridges structural biology, computational chemistry, and cancer biology, and would appeal to a broad audience. Technical soundness: The combination of methods is appropriate, but the abstract does not provide enough detail to fully assess the rigor of the selectivity and functional claims. Readability for nonspecialists: The abstract is clear and accessible, though some terms such as "cryptic pockets" and "synthetic lethality" may require prior knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is potentially significant, but the selectivity and functional claims must be substantiated with quantitative data and cellular validation before the case for a therapeutic avenue is established.
+
+## Risk / unsupported claims
+- The claim that the compounds provide "an avenue toward selectively targeting ARID1B in ARID1A-mutant cancer" is unsupported by the abstract, as no functional or cellular data are presented.
+- The selectivity of greater than 140-fold is not assessable without details on the assay and conditions.
+- The assertion that the pockets are "cryptic" and absent in the ground state is not fully verifiable without structural evidence of the ground state and demonstration that the pockets are not ligand-induced.
+- The relevance of the binding sites to the synthetic lethal mechanism is not established, as the abstract does not connect binding to ARID1B inhibition or cancer cell death.

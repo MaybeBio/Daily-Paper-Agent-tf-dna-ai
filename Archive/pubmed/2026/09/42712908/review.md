@@ -1,135 +1,107 @@
 ## Review setup
-- **Input scope** Full manuscript
-- **Assessment boundary** The manuscript as provided, including all sections, figures, and tables described in the text. No supplementary material was available for review.
-- **Shared manuscript claim summary** The authors claim that the FDA-approved drugs lansoprazole and nitazoxanide are functional inhibitors of the orphan nuclear receptor NR2F2, and that their antiproliferative effects in the gastric cancer cell line GCIY are mediated through NR2F2-dependent mechanisms, based on a combination of computational predictions, luciferase reporter assays, and siRNA-mediated silencing experiments.
-- **Visible evidence base** Computational: SiteMap, blind docking, molecular docking (Glide XP), molecular dynamics (3x500 ns replicas), BPMD, MM-GBSA, virtual screening of FDA library. Experimental: NR2F2-specific NanoLuc reporter assay in HeLa cells, SRB and CellTiter-Glo proliferation assays in GCIY cells, siRNA-mediated NR2F2 silencing with Western blot validation.
-- **Missing materials affecting confidence** Supplementary Tables S1 and S2, Supplementary Figure S1, and the full supplementary material were not provided. Raw data for dose-response curves (e.g., IC50 values, exact n numbers for each experiment) are not reported. The complete interaction profiles for all identified ligands (Table 3) are referenced but not fully visible in the provided text. The authors state that raw data will be made available upon request, but no data repository link is provided.
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusion sections. Figures and tables are referenced but not fully visible; supplementary material is mentioned but not provided.
+- **Assessment boundary** Evaluation is limited to the scientific content, methodological rigor, and logical coherence of the claims as presented in the provided text. Experimental data are described but primary data files, uncropped blots, raw computational outputs, and full figure panels are not available for independent verification.
+- **Shared manuscript claim summary** The authors propose that the FDA-approved drugs lansoprazole and nitazoxanide act as functional inhibitors of the orphan nuclear receptor NR2F2, based on computational predictions (site mapping, docking, molecular dynamics, MM-GBSA, virtual screening) and in vitro validation (reporter assays, proliferation assays, siRNA-mediated knockdown) in the gastric cancer cell line GCIY.
+- **Visible evidence base** Text descriptions of computational methods and results, reporter assay outcomes, proliferation assay outcomes, and western blot validation of knockdown efficiency. Figures 1–15 and Tables 1–3 are referenced but not directly inspectable.
+- **Missing materials affecting confidence** Raw computational data (docking scores, MD trajectories, MM-GBSA energy components per frame), full figure panels with statistical annotations, uncropped western blots, dose-response curves with error bars and replicate numbers, and supplementary tables (S1, S2) are not available. This limits independent verification of quantitative claims.
 
 ## Reviewer
-- **Overall assessment** This manuscript presents a computational and experimental workflow to identify FDA-approved drugs as potential NR2F2 inhibitors, with a focus on repurposing for gastric cancer. The study is well-structured and the combination of in silico and in vitro approaches is appropriate. However, several critical experimental gaps prevent the core claims from being fully supported. The most significant issues are the lack of direct binding evidence (e.g., SPR, ITC, or cellular thermal shift assay), the absence of selectivity data against other NR2F family members (NR2F1, NR2F6), and the incomplete characterization of the reporter assay (e.g., no demonstration that the compounds directly engage the LBD rather than acting through indirect signaling pathways). The siRNA rescue experiments are a strength, but the effect size is modest and the statistical framework is incompletely described. The manuscript would benefit from additional biophysical and selectivity data before the repurposing claim can be considered established.
-- **Who would be interested in the results, and why** Researchers in nuclear receptor biology, drug repurposing, and gastric cancer pharmacology would be interested. The identification of clinically used drugs as NR2F2 modulators provides potential starting points for therapeutic development, and the computational workflow may be of interest to medicinal chemists. The study also contributes to the growing evidence that NR2F2 is a ligandable orphan receptor.
-- **Major strengths** 1. The study employs a multi-layered computational approach (SiteMap, docking, MD, BPMD, MM-GBSA) to characterize two putative binding sites on NR2F2, which is methodologically sound. 2. The use of an NR2F2-specific luciferase reporter assay with appropriate controls (NR2F6, LBD-deleted NR2F2) is a strong feature for functional validation. 3. The siRNA-mediated silencing experiments provide a direct test of NR2F2 dependence for the antiproliferative effects of the compounds. 4. The focus on FDA-approved drugs is clinically relevant and aligns with drug repurposing strategies.
-- **Major Concerns**
-    - **Concern ID** R1-M1
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Experimental validation – binding
-    - **Claim pointer** The authors claim that lansoprazole, nitazoxanide, lapatinib, and glyburide are "functional interactors" of NR2F2 and that lansoprazole and nitazoxanide exert antiproliferative effects via NR2F2.
-    - **Evidence pointer** Results – Experimental validation; Discussion; Conclusion
-    - **Concern** The manuscript lacks any direct biophysical or biochemical evidence that the identified compounds bind to the NR2F2 protein. The entire claim of "functional interaction" rests on a luciferase reporter assay, which measures transcriptional output, not direct binding. The authors acknowledge this limitation in the conclusion ("Future investigations using dedicated biophysical binding assays... will be required"), but the central claim of the manuscript—that these compounds are NR2F2 inhibitors—is not supported without such evidence. The reporter assay could be influenced by off-target effects, indirect signaling pathways, or compound-mediated modulation of co-regulators. The authors do not demonstrate that the compounds bind to the NR2F2 LBD, nor do they provide evidence that the observed reporter modulation is a direct consequence of LBD occupancy.
-    - **Why it matters** Without direct binding data, the mechanism of action remains speculative. The compounds could be acting through other known targets (e.g., lapatinib inhibits EGFR/HER2, glyburide targets K_ATP channels, lansoprazole inhibits H+/K+-ATPase, nitazoxanide has multiple proposed mechanisms). The claim of "repurposing as NR2F2 inhibitors" requires evidence that the compounds physically engage the receptor. This is a fundamental requirement for a study that nominates specific molecules as NR2F2-targeted agents.
-    - **Resolution test** Provide direct binding data using a biophysical method such as surface plasmon resonance (SPR), isothermal titration calorimetry (ITC), or a cellular thermal shift assay (CETSA) for at least lansoprazole and nitazoxanide. Alternatively, a radioligand or fluorescent probe displacement assay could be used. The binding affinity (Kd or Ki) should be reported. If direct binding is not feasible, the authors should clearly reframe the claims to state that the compounds "modulate NR2F2-dependent transcription" rather than "bind to" or "inhibit" NR2F2.
+- **Overall assessment** The manuscript presents a plausible and potentially useful computational-to-experimental workflow for drug repurposing targeting NR2F2. The combination of site prediction, docking, MD, and MM-GBSA is methodologically sound in principle, and the use of siRNA knockdown to link compound activity to NR2F2 is a reasonable specificity control. However, several critical gaps weaken the current evidence base. The reporter assay data are described qualitatively without quantitative values or statistical analysis. The claim that lansoprazole and nitazoxanide act "via NR2F2" is supported by the siRNA rescue experiment, but the magnitude of rescue, dose-response consistency, and off-target effects are not fully documented. The computational predictions are not validated by direct binding assays (e.g., SPR, ITC), and the authors themselves acknowledge this limitation. The manuscript would be strengthened by providing quantitative reporter data, full dose-response curves with replicates, and a more rigorous statistical framework. The conclusion that these compounds are "bona fide functional interactors" is somewhat overstated given the indirect evidence.
+- **Who would be interested in the results, and why** Researchers in nuclear receptor biology, particularly those studying orphan receptors and ligand discovery. Investigators interested in drug repurposing for gastric cancer. Computational chemists and structural biologists working on NR2F family members. The work may also appeal to clinicians exploring repurposed therapies for gastric malignancies, though clinical translation is distant.
+- **Major strengths** The study addresses an important gap: NR2F2 is a validated oncogenic target in several cancers, yet few modulators exist. The computational pipeline is comprehensive, integrating site prediction, docking, MD, and free energy calculations. The use of an NR2F2-specific reporter assay and siRNA-mediated knockdown provides a functional link between compound activity and the target. The focus on FDA-approved drugs enhances translational relevance. The authors are transparent about the need for direct binding validation.
+- **Major Concerns** See detailed items below.
+- **Minor Comments** See detailed items below.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative reporter data missing), R1-M2 (incomplete dose-response and statistical reporting), R1-M3 (lack of direct binding evidence), R1-M4 (computational validation gaps).
+- **Assessment against Nature-style criteria** **Originality**: Moderate. Drug repurposing for NR2F2 is not entirely novel, but the specific combination of computational methods and the focus on gastric cancer adds some originality. **Scientific importance**: Moderate to high. NR2F2 is a relevant target, and identifying new modulators is valuable. However, the lack of direct binding data limits the strength of the claim. **Interdisciplinary readership**: The work bridges computational chemistry, cancer biology, and pharmacology, which could attract a broad audience. **Technical soundness**: The computational methods are standard and appropriate, but the experimental validation is incomplete, particularly regarding quantitative reporting and statistical rigor. **Readability for nonspecialists**: The manuscript is generally well-written and accessible, though some computational details may be dense for experimental readers. Overall, the manuscript has potential but does not yet meet the standard for a high-impact general journal due to the evidentiary gaps.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, and the experimental design is on the right track, but the current evidence does not fully establish that lansoprazole and nitazoxanide are direct NR2F2 inhibitors. Additional quantitative data and direct binding validation are required.
 
-    - **Concern ID** R1-M2
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Selectivity
-    - **Claim pointer** The authors claim that the compounds are NR2F2 inhibitors, but the study does not assess selectivity against the closely related family members NR2F1 and NR2F6.
-    - **Evidence pointer** Results – Luciferase assays; Discussion
-    - **Concern** The luciferase reporter assay includes a control showing that NR2F6 does not activate the reporter, and that an NR2F2 LBD-deleted derivative is inactive. However, the authors do not test whether the identified compounds modulate the activity of NR2F1 or NR2F6 in a comparable reporter assay. Given the high sequence homology between NR2F1 and NR2F2 (98% DBD, 96% LBD), it is plausible that the compounds could also interact with NR2F1. Without selectivity data, the claim that these compounds are "NR2F2 inhibitors" is overstated. They could be pan-NR2F modulators.
-    - **Why it matters** Selectivity is a critical parameter for any chemical probe or therapeutic candidate. If the compounds also modulate NR2F1 or NR2F6, the observed antiproliferative effects in GCIY cells could be mediated through multiple NR2F family members, undermining the specificity of the NR2F2 silencing experiments. The authors' conclusion that the effects are "NR2F2-dependent" is weakened without evidence that the compounds do not affect other family members.
-    - **Resolution test** Perform luciferase reporter assays for NR2F1 and NR2F6 using the same or analogous reporter constructs, testing the four hit compounds at the same concentrations used in the NR2F2 assay. If NR2F1 or NR2F6 reporters are not available, the authors should at minimum acknowledge this limitation and discuss the potential for cross-reactivity. Alternatively, demonstrate that siRNA-mediated silencing of NR2F1 or NR2F6 does not affect the antiproliferative response to the compounds.
+### Major Concerns
 
-    - **Concern ID** R1-M3
-    - **Severity** Major
-    - **Blocking** No
-    - **Axis** Experimental design – reporter assay
-    - **Claim pointer** The authors claim that the reporter assay is "NR2F2-specific" and that the LBD is required for transactivation.
-    - **Evidence pointer** Results – Figure 14; Methods – Luciferase assays
-    - **Concern** The reporter assay uses a single NR2F2 response element from the NGF1A promoter. While the authors show that NR2F6 does not activate this reporter, and that an LBD-deleted NR2F2 is inactive, the assay does not demonstrate that the compounds directly engage the LBD. The LBD-deleted construct lacks the entire LBD, which could affect protein stability, nuclear localization, or DNA binding, not just ligand responsiveness. A more rigorous control would be to test a point mutant in the predicted binding pocket (e.g., Arg385Ala) that is predicted to disrupt compound binding but preserve overall LBD structure. Additionally, the authors do not report whether the compounds affect the activity of the LBD-deleted construct, which would help rule out LBD-independent effects.
-    - **Why it matters** The central mechanistic claim of the paper is that the compounds modulate NR2F2 activity through LBD binding. The current controls are insufficient to exclude the possibility that the compounds act through other domains of NR2F2 (e.g., the DBD or N-terminal domain) or through indirect effects on co-regulators that are independent of LBD engagement. This weakens the link between the computational predictions (which focus on LBD binding) and the functional data.
-    - **Resolution test** 1. Test the compounds in the reporter assay using the LBD-deleted NR2F2 construct. If the compounds still modulate reporter activity, this would indicate an LBD-independent mechanism. 2. Generate and test a point mutant in the predicted binding site (e.g., Arg385Ala for Site 1) to demonstrate that compound activity is dependent on the predicted binding pocket. 3. Alternatively, perform a competition experiment with a known LBD-binding ligand (e.g., 1-deoxysphingolipids) to show that the compounds compete for the same binding site.
+- **Concern ID** R1-M1
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Experimental validation
+- **Claim pointer** The authors claim that lansoprazole and nitazoxanide "modulate NR2F2-dependent reporter activity" and that this supports their status as functional interactors.
+- **Evidence pointer** Results section, "Experimental validation of in silico–identified NR2F2 modulators", Figure 14
+- **Concern** The reporter assay results are described qualitatively ("showed the ability to modulate") without providing quantitative luminescence values, fold changes, or statistical significance. The dose-response relationship is mentioned but no actual dose-response curves or EC50 values are presented. Without these data, it is impossible to assess the magnitude of the effect or whether it is biologically meaningful.
+- **Why it matters** The reporter assay is the primary functional evidence that these compounds engage NR2F2. Without quantitative data, the claim of functional interaction is not verifiable. This is a central pillar of the manuscript's conclusion.
+- **Resolution test** Provide a figure with dose-response curves for each compound, including mean ± SD from at least three independent experiments, with statistical analysis (e.g., one-way ANOVA with post-hoc tests) comparing compound-treated to vehicle-treated cells. Report EC50 values where applicable.
 
-    - **Concern ID** R1-M4
-    - **Severity** Major
-    - **Blocking** No
-    - **Axis** Data presentation and statistics
-    - **Claim pointer** The authors claim that lansoprazole and nitazoxanide exert antiproliferative effects that are "mitigated by NR2F2 silencing."
-    - **Evidence pointer** Results – Figure 15; Methods – Proliferation assays
-    - **Concern** The description of the proliferation and siRNA experiments is insufficiently detailed. The authors state that "dose–response analysis performed in the presence of NR2F2 siRNAs revealed a reduced ability of the compounds to inhibit cell growth across all effective concentrations tested," but the exact concentrations tested, the number of independent experiments (n), and the statistical test used for the comparison between siRNA and control conditions are not clearly reported. The figure legend for Figure 15 is not provided in the manuscript text, making it impossible to assess the data. The authors state that "two replicates were performed for each experimental point" for the luciferase assay, but the number of replicates for the proliferation assays is not stated. The use of a two-tailed unpaired Student's t-test is mentioned, but it is unclear whether this was applied to the siRNA comparison or only to the compound vs. vehicle comparison.
-    - **Why it matters** The siRNA rescue experiment is the key experiment supporting the claim that the antiproliferative effects are NR2F2-dependent. Without clear reporting of the experimental design, sample size, and statistical analysis, the robustness of this conclusion cannot be evaluated. The modest effect size (the text states "mitigated" but does not quantify the degree of rescue) further underscores the need for rigorous statistical reporting.
-    - **Resolution test** 1. Clearly report the number of independent biological replicates (n) for each proliferation experiment. 2. Provide the exact concentrations tested for each compound. 3. Report the statistical test used for the siRNA vs. control comparison (e.g., two-way ANOVA with post-hoc test) and the resulting p-values. 4. Quantify the degree of rescue (e.g., "NR2F2 silencing reduced the antiproliferative effect by X% at Y µM concentration"). 5. Include the figure legend for Figure 15 in the manuscript text.
+- **Concern ID** R1-M2
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Experimental validation
+- **Claim pointer** The authors claim that lansoprazole and nitazoxanide exert antiproliferative effects in GCIY cells that are "mitigated by NR2F2 silencing."
+- **Evidence pointer** Results section, "Experimental validation of in silico–identified NR2F2 modulators", Figure 15
+- **Concern** The proliferation assay data are described but not shown quantitatively. The text states that silencing reduces the compounds' effects, but the extent of rescue, the statistical significance of the rescue, and the dose-response relationship are not reported. Additionally, the effect of siRNA alone on proliferation is mentioned as a "modest reduction," but this is not quantified. The figure legend is not available for inspection.
+- **Why it matters** The siRNA rescue experiment is the key experiment linking compound activity to NR2F2 specifically. Without quantitative data, it is unclear whether the rescue is partial or complete, and whether the effect is statistically robust. This is essential to support the claim that the compounds act via NR2F2.
+- **Resolution test** Provide proliferation curves (e.g., cell viability vs. compound concentration) for control siRNA and NR2F2 siRNA conditions, with at least three independent replicates. Include statistical analysis comparing the IC50 values or area under the curve between conditions. Show that NR2F2 knockdown is efficient (e.g., western blot with quantification) and that the rescue is significant.
 
-    - **Concern ID** R1-M5
-    - **Severity** Major
-    - **Blocking** No
-    - **Axis** Computational validation – binding site relevance
-    - **Claim pointer** The authors claim that two binding sites (Site 1 and Site 2) on the NR2F2 LBD are druggable and that CIA1 binds to both.
-    - **Evidence pointer** Results – SiteMap, Molecular docking, Molecular dynamics
-    - **Concern** The computational analysis identifies two putative binding sites, but the biological relevance of Site 2 is unclear. The authors show that CIA1 binds to both sites in silico, but there is no experimental evidence that Site 2 is functionally relevant for NR2F2 modulation. The MM-GBSA calculations show similar binding energies for both sites, but the BPMD data for Site 2 show a PoseScore of 2.394 for the docked pose (above the 2 Å threshold for stability) and a CompScore of 2.674 for the MD pose, which is higher than the Site 1 CompScore of -1.238. This suggests that the Site 2 binding mode may be less stable. The authors do not discuss whether the identified FDA compounds are predicted to bind to Site 1, Site 2, or both. The virtual screening results indicate that six compounds were identified for Site 1 and two for Site 2, but the experimental validation focuses on the Site 1 compounds. The role of Site 2 in the observed biological effects is not addressed.
-    - **Why it matters** If the compounds are predicted to bind to different sites, the mechanism of action could be complex and site-dependent. The lack of experimental validation for Site 2 leaves a gap in the computational model. Furthermore, if the compounds bind to Site 1, the authors should discuss whether Site 2 is a genuine allosteric site or an artifact of the apo-structure. The alignment with RXR-gamma (Supplementary Table S1) suggests that Site 1 is near the canonical ligand-binding pocket, but Site 2 may be a non-canonical site. The authors should clarify the functional significance of Site 2.
-    - **Resolution test** 1. Clearly state which binding site(s) each of the four hit compounds is predicted to bind to. 2. If Site 2 is considered a genuine binding site, provide experimental evidence for its functional relevance (e.g., by testing a Site 2-selective compound or by mutating key residues in Site 2 and assessing the effect on compound activity). 3. Alternatively, acknowledge that the role of Site 2 is currently speculative and focus the claims on Site 1.
+- **Concern ID** R1-M3
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Direct binding evidence
+- **Claim pointer** The authors conclude that lansoprazole and nitazoxanide are "bona fide functional interactors of NR2F2."
+- **Evidence pointer** Conclusion section; Discussion section
+- **Concern** The manuscript provides no direct binding data (e.g., SPR, ITC, MST, or cellular thermal shift assay) to demonstrate that these compounds physically bind to NR2F2. The computational predictions and reporter assays are indirect. The authors acknowledge this in the conclusion, but the claim of "bona fide interactors" is stronger than the evidence supports.
+- **Why it matters** Without direct binding evidence, the mechanism of action remains speculative. The compounds could affect NR2F2 activity indirectly (e.g., via signaling pathways) rather than by direct binding. This distinction is critical for the proposed repurposing strategy.
+- **Resolution test** Perform a direct binding assay (e.g., SPR or ITC) with purified NR2F2 LBD and the compounds. Report binding affinities (KD) and stoichiometry. Alternatively, a cellular thermal shift assay (CETSA) could provide in-cell binding evidence.
 
-- **Minor Comments**
-    - **Concern ID** R1-m1
-    - **Severity** Minor
-    - **Axis** Data presentation
-    - **Affected element** Figure 15
-    - **Evidence pointer** Results – RNA interference experiments
-    - **Issue** The figure legend for Figure 15 is not included in the manuscript text. The description of the figure in the results section is insufficient to interpret the data. The authors refer to "Figure 15B (left, upper panel)" and "Figure 15B, right, upper panel" but the layout of the figure is not described.
-    - **Required correction** Provide a complete figure legend for Figure 15, including a description of each panel, the axes labels, the meaning of error bars, and the statistical annotations.
+- **Concern ID** R1-M4
+- **Severity** Major
+- **Blocking** No
+- **Axis** Computational validation
+- **Claim pointer** The authors state that the computational pipeline identified two binding sites and that virtual screening yielded promising hits, with convergence between in silico predictions and experimental data.
+- **Evidence pointer** Results sections on site mapping, docking, MD, MM-GBSA, and virtual screening; Figures 2–12; Tables 1–3
+- **Concern** The computational results are described in detail, but key quantitative outputs are not presented. For example, docking scores for the identified compounds are not reported in the text, MM-GBSA values are only summarized in a table (not fully visible), and the criteria for selecting the six compounds for experimental testing are not explicitly stated. The MD simulation convergence is mentioned but no RMSD plots are shown in the text (only referenced as figures).
+- **Why it matters** The computational pipeline is the foundation of the study. Without clear quantitative metrics and selection criteria, the reproducibility and objectivity of the virtual screening are questionable. This weakens the logical link between the computational predictions and the experimental validation.
+- **Resolution test** Provide a supplementary table with docking scores, MM-GBSA binding free energies, and the selection criteria for all compounds tested. Include representative RMSD and RMSF plots for the MD simulations. State the threshold values used to define "promising binders."
 
-    - **Concern ID** R1-m2
-    - **Severity** Minor
-    - **Axis** Reproducibility
-    - **Affected element** Methods – Luciferase assays
-    - **Evidence pointer** Methods – Luciferase assays
-    - **Issue** The authors state that "two replicates were performed for each experimental point" for the luciferase assay. This is a very low number of replicates. For a dose-response curve, at least three independent biological replicates (each with technical duplicates or triplicates) are standard.
-    - **Required correction** Clarify whether the "two replicates" refer to technical or biological replicates. If they are biological replicates, the authors should acknowledge the limited statistical power. Ideally, additional replicates should be performed.
+### Minor Comments
 
-    - **Concern ID** R1-m3
-    - **Severity** Minor
-    - **Axis** Data presentation
-    - **Affected element** Results – Virtual screening
-    - **Evidence pointer** Results – Virtual screening and FDA compounds repurposing
-    - **Issue** The authors list eight compounds identified from the virtual screening (six for Site 1, two for Site 2) but only four (lapatinib, glyburide, nitazoxanide, lansoprazole) are tested in the reporter assay. The rationale for selecting these four over the others (ticagrelor, aliskiren, pentostatin, ribavirin) is not clearly stated. Aliskiren is later used as a negative control, but the basis for its selection as a negative control is not explained.
-    - **Required correction** Provide a clear rationale for why only four of the eight compounds were selected for experimental testing. Explain why aliskiren was chosen as a negative control (e.g., it was predicted to bind but did not modulate reporter activity in preliminary tests).
+- **Concern ID** R1-m1
+- **Severity** Minor
+- **Axis** Clarity
+- **Affected element** Methods section, "Cell culture and chemical compounds"
+- **Evidence pointer** Materials and methods, "Cell culture and chemical compounds"
+- **Issue** The concentration range used for the compounds in the proliferation and reporter assays is not stated in the text. The authors mention "various concentrations" but do not specify the range or the solvent controls used.
+- **Required correction** Specify the concentration range tested (e.g., 0.1–100 µM) and the solvent (DMSO) concentration used as vehicle control. State whether the compounds were tested at equimolar concentrations across assays.
 
-    - **Concern ID** R1-m4
-    - **Severity** Minor
-    - **Axis** Clarity
-    - **Affected element** Results – Molecular dynamics
-    - **Evidence pointer** Results – Stability analysis
-    - **Issue** The authors state that "the systems exhibited an RMSD of approximately 4.4 Å for the system with CIA1 bound to Site 1 and 4.0 Å for the system with CIA1 bound to Site 2." An RMSD of 4-4.5 Å for the Cα atoms of a protein of this size is relatively high and may indicate significant conformational changes or drift. The authors should comment on whether this is expected for an apo-structure or if it indicates instability.
-    - **Required correction** Add a brief discussion of the observed RMSD values. Compare them to typical RMSD values for MD simulations of nuclear receptor LBDs. If the high RMSD is due to loop flexibility, this should be stated.
+- **Concern ID** R1-m2
+- **Severity** Minor
+- **Axis** Statistical reporting
+- **Affected element** Results section, "Experimental validation"
+- **Evidence pointer** Results section, "Experimental validation of in silico–identified NR2F2 modulators"
+- **Issue** The number of independent experiments (n) for the reporter and proliferation assays is not stated. The text mentions "two replicates" for the reporter assay, which is insufficient for statistical analysis.
+- **Required correction** Report the number of independent biological replicates for each experiment. For the reporter assay, increase the number of replicates to at least three independent experiments, each performed in triplicate.
 
-    - **Concern ID** R1-m5
-    - **Severity** Minor
-    - **Axis** Completeness
-    - **Affected element** Methods – Molecular dynamics
-    - **Evidence pointer** Methods – Molecular dynamics and MM-GBSA
-    - **Issue** The authors state that "Three Na+ were added to neutralize charges." The total charge of the system should be calculated and reported. The number of counterions should be explicitly justified.
-    - **Required correction** Report the total charge of the protein-ligand complex and the number of counterions added to achieve neutrality.
+- **Concern ID** R1-m3
+- **Severity** Minor
+- **Axis** Data availability
+- **Affected element** Data availability statement
+- **Evidence pointer** Data availability statement
+- **Issue** The statement says raw data "will be made available by the authors, without undue reservation," but this is vague and does not specify where or how the data will be deposited.
+- **Required correction** Specify a repository (e.g., Zenodo, Figshare) and provide a data DOI or accession number, or state that data are available upon reasonable request with a clear contact point.
 
-    - **Concern ID** R1-m6
-    - **Severity** Minor
-    - **Axis** Data presentation
-    - **Affected element** Results – BPMD
-    - **Evidence pointer** Results – Binding pose metadynamics (BPMD)
-    - **Issue** The BPMD results are reported as single values (e.g., PoseScore of 4.063 for the docked pose in Site 1). For 10 independent simulations, the mean and standard deviation (or range) should be reported, not just a single value.
-    - **Required correction** Report the BPMD scores as mean ± SD or as a range across the 10 independent simulations.
+- **Concern ID** R1-m4
+- **Severity** Minor
+- **Axis** Literature context
+- **Affected element** Introduction and Discussion
+- **Evidence pointer** Introduction; Discussion
+- **Issue** The discussion of NR2F2's role in gastric cancer is brief. The authors cite Feng et al. (2017) showing tumor-suppressive effects, but the manuscript does not reconcile this with the pro-proliferative context implied by the current study. This apparent contradiction is not addressed.
+- **Required correction** Add a brief paragraph in the Discussion addressing the context-dependent role of NR2F2 in gastric cancer, explaining how the current findings fit with existing literature.
 
-    - **Concern ID** R1-m7
-    - **Severity** Minor
-    - **Axis** Clarity
-    - **Affected element** Results – Molecular dynamics
-    - **Evidence pointer** Results – Residues mobility analysis
-    - **Issue** The authors state that "the average RMSF values of these residues on Site 2 are lower than 1 Å: Leu215 (0.99 Å), Arg218 (0.93 Å), Met219 (0.86 Å), Ser222 (0.84 Å), Asn256 (0.63 Å) and Cys260 (0.90 Å)." These values are very low and may indicate that the binding site is rigid. The authors should discuss whether this is expected for a binding site in an apo-structure or if it suggests that the site is pre-organized for ligand binding.
-    - **Required correction** Add a brief comment on the implications of the low RMSF values for the binding site dynamics.
-
-    - **Concern ID** R1-m8
-    - **Severity** Minor
-    - **Axis** Reproducibility
-    - **Affected element** Methods – Cell cultures
-    - **Evidence pointer** Methods – Cell cultures and chemical compounds
-    - **Issue** The GCIY cell line is described as "RCB0555, Riken." The authors should confirm that the cell line was authenticated (e.g., by STR profiling) and tested for mycoplasma contamination.
-    - **Required correction** State whether the GCIY cell line was authenticated and tested for mycoplasma. If not, this should be noted as a limitation.
-
-- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of direct binding evidence), R1-M2 (lack of selectivity data against NR2F1/NR2F6), R1-M3 (insufficient controls in the reporter assay to demonstrate LBD-dependent mechanism), R1-M4 (incomplete reporting of proliferation and siRNA experiments).
+- **Concern ID** R1-m5
+- **Severity** Minor
+- **Axis** Figure quality
+- **Affected element** Figures 14 and 15
+- **Evidence pointer** Results section, "Experimental validation"
+- **Issue** The text references Figure 14B and 14C and Figure 15A and 15B, but the figures are not provided in the manuscript text. It is unclear whether the figures include error bars, statistical annotations, and full dose-response curves.
+- **Required correction** Ensure all figures are included with full axis labels, error bars, and statistical annotations. Add a figure legend describing the experimental conditions and the number of replicates.
 
 ## Risk / unsupported claims
-- The claim that lansoprazole, nitazoxanide, lapatinib, and glyburide are "functional interactors" or "inhibitors" of NR2F2 is not supported by direct binding evidence. The data only support that these compounds modulate NR2F2-dependent reporter activity and that the antiproliferative effects of lansoprazole and nitazoxanide are partially dependent on NR2F2 expression. The term "inhibitor" implies direct binding and functional antagonism, which has not been demonstrated.
-- The claim that the compounds bind to the predicted binding sites (Site 1 and/or Site 2) is unsupported by experimental data. The computational predictions are plausible but require biophysical validation.
-- The claim that the antiproliferative effects of lansoprazole and nitazoxanide are "mediated through NR2F2-dependent mechanisms" is partially supported by the siRNA data, but the effect size is modest and the possibility of additional, NR2F2-independent mechanisms cannot be excluded.
-- The claim that the reporter assay is "NR2F2-specific" is supported by the NR2F6 and LBD-deleted controls, but the assay has not been validated against NR2F1, which shares high sequence homology with NR2F2.
-- The claim that Site 2 is a functionally relevant binding site is not supported by any experimental data.
+- The claim that lansoprazole and nitazoxanide are "bona fide functional interactors of NR2F2" is not fully supported by the evidence presented, as no direct binding data are provided.
+- The claim that the computational predictions and experimental data "converge" is weakened by the lack of quantitative computational metrics (e.g., docking scores, MM-GBSA values) in the text.
+- The statement that "NR2F2 silencing significantly impaired the growth-inhibitory effects" is not verifiable without quantitative proliferation data and statistical analysis.
+- The assertion that the reporter assay is "selective" for NR2F2 is based on a single experiment with two replicates and no statistical validation.
+- The translational implication that these compounds could be repurposed for gastric cancer therapy is speculative, as no in vivo data or pharmacokinetic assessments are provided.

@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "37306046",
+    "doi": "10.15252/embr.202356834",
+    "title": "An AlphaFold2 map of the 53BP1 pathway identifies a direct SHLD3-RIF1 interaction critical for shieldin activity."
+  },
+  "content": {
+    "abstract": "53BP1 is a chromatin-binding protein that promotes DNA double-strand break repair through the recruitment of downstream effectors including RIF1, shieldin, and CST. The structural basis of the protein-protein interactions within the 53BP1-RIF1-shieldin-CST pathway that are essential for its DNA repair activity is largely unknown. Here, we used AlphaFold2-Multimer (AF2) to predict all possible pairwise combinations of proteins within this pathway and provide structural models of seven previously characterized interactions. This analysis also predicted an entirely novel binding interface between the HEAT-repeat domain of RIF1 and the eIF4E-like domain of SHLD3. Extensive interrogation of this interface through both in vitro pulldown analysis and cellular assays supports the AF2-predicted model and demonstrates that RIF1-SHLD3 binding is essential for shieldin recruitment to sites of DNA damage, and for its role in antibody class switch recombination and PARP inhibitor sensitivity. Direct physical interaction between RIF1 and SHLD3 is therefore essential for 53BP1-RIF1-shieldin-CST pathway activity.",
+    "keywords": [
+      "53BP1",
+      "AlphaFold2",
+      "DNA double-strand breaks",
+      "protein interaction prediction",
+      "shieldin"
+    ],
+    "mesh_terms": [
+      "*Furylfuramide",
+      "Tumor Suppressor p53-Binding Protein 1/genetics/metabolism",
+      "*DNA-Binding Proteins/metabolism",
+      "DNA Repair",
+      "DNA/metabolism",
+      "DNA Breaks, Double-Stranded",
+      "DNA End-Joining Repair",
+      "Telomere-Binding Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sifri, Cherine",
+        "Hoeg, Lisa",
+        "Durocher, Daniel",
+        "Setiaputra, Dheva"
+      ],
+      "short_names": [
+        "Sifri C",
+        "Hoeg L",
+        "Durocher D",
+        "Setiaputra D"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2383-7279",
+        "ORCID: 0000-0002-0109-3646",
+        "ORCID: 0000-0003-3863-8635",
+        "ORCID: 0000-0003-2956-6422"
+      ],
+      "affiliations": [
+        "Lunenfeld-Tanenbaum Research Institute, Mount Sinai Hospital, Toronto, ON, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, ON, Canada.",
+        "Lunenfeld-Tanenbaum Research Institute, Mount Sinai Hospital, Toronto, ON, Canada.",
+        "Lunenfeld-Tanenbaum Research Institute, Mount Sinai Hospital, Toronto, ON, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, ON, Canada.",
+        "Lunenfeld-Tanenbaum Research Institute, Mount Sinai Hospital, Toronto, ON, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sifri, Chérine",
+        "short_name": "Sifri C",
+        "identifiers": [
+          "0000-0003-2383-7279"
+        ],
+        "affiliations": [
+          "Lunenfeld-Tanenbaum Research Institute, Mount Sinai Hospital, Toronto, ON, Canada.",
+          "Department of Biochemistry, University of Toronto, Toronto, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Hoeg, Lisa",
+        "short_name": "Hoeg L",
+        "identifiers": [
+          "0000-0002-0109-3646"
+        ],
+        "affiliations": [
+          "Lunenfeld-Tanenbaum Research Institute, Mount Sinai Hospital, Toronto, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Durocher, Daniel",
+        "short_name": "Durocher D",
+        "identifiers": [
+          "0000-0003-3863-8635"
+        ],
+        "affiliations": [
+          "Lunenfeld-Tanenbaum Research Institute, Mount Sinai Hospital, Toronto, ON, Canada.",
+          "Department of Molecular Genetics, University of Toronto, Toronto, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Setiaputra, Dheva",
+        "short_name": "Setiaputra D",
+        "identifiers": [
+          "0000-0003-2956-6422"
+        ],
+        "affiliations": [
+          "Lunenfeld-Tanenbaum Research Institute, Mount Sinai Hospital, Toronto, ON, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "EMBO reports"
+    ],
+    "journal_abbrev": [
+      "EMBO Rep"
+    ],
+    "pub_date": "2023 Aug 3",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/12 06:42",
+    "fetched_at": "2026-09-29 02:14:02"
+  },
+  "links": {
+    "cites": [
+      "42374033",
+      "42361799",
+      "42091595",
+      "41489901",
+      "41292827",
+      "40886022",
+      "40516529",
+      "40501854",
+      "40233800",
+      "40185749",
+      "40178294",
+      "40015271",
+      "39553946",
+      "39231940",
+      "39133843",
+      "39121215",
+      "39050891",
+      "38645019",
+      "38503515",
+      "38072052"
+    ],
+    "refs": [
+      "37405868",
+      "36205622",
+      "35900023",
+      "35830881",
+      "35637307",
+      "35578024",
+      "35273146",
+      "35216668",
+      "35027730",
+      "34762488",
+      "34507520",
+      "34376693",
+      "34354233",
+      "34282049",
+      "34265844",
+      "33597306",
+      "33141022",
+      "32558186",
+      "32499435",
+      "32332881",
+      "31796627",
+      "31390554",
+      "30948458",
+      "30804506",
+      "30254264",
+      "30046110",
+      "30024881",
+      "30022168",
+      "30022158",
+      "30022119",
+      "29973717",
+      "29813047",
+      "29656893",
+      "29348174",
+      "28710774",
+      "28215280",
+      "27462807",
+      "25122746",
+      "24326623",
+      "23760478",
+      "23746845",
+      "23727112",
+      "23333306",
+      "23333305",
+      "23306437",
+      "21444690",
+      "21317883",
+      "20550933",
+      "19064641",
+      "19061853",
+      "16644291",
+      "15159415",
+      "15006351",
+      "8578593",
+      "2290857"
+    ],
+    "similar": [
+      "37306046",
+      "30022158",
+      "35216668",
+      "30022168",
+      "29656893",
+      "35439434",
+      "30046110",
+      "23333305",
+      "35472331",
+      "27494840",
+      "29160738",
+      "30948458",
+      "31645724",
+      "35027730",
+      "39227718",
+      "36442094",
+      "30022119",
+      "38187711",
+      "30154076",
+      "23306437",
+      "36205622",
+      "34260925",
+      "28076794",
+      "34768871",
+      "33448186",
+      "28544931",
+      "29190394",
+      "31390554",
+      "37696958",
+      "23333306",
+      "28700933",
+      "37031298",
+      "31896689",
+      "23727112",
+      "31653568",
+      "28213517",
+      "28241136",
+      "33087281",
+      "37665026",
+      "31796627",
+      "30254264",
+      "35416772",
+      "35177609",
+      "34521823",
+      "25799990",
+      "35253893",
+      "31911551",
+      "25337968",
+      "34354233",
+      "35393543",
+      "32332881",
+      "34376693",
+      "23306439",
+      "36854302",
+      "35007836",
+      "29133916",
+      "31182712",
+      "30812030",
+      "33857404",
+      "36075897",
+      "29203878",
+      "24462468",
+      "31792447",
+      "28781144",
+      "36288694",
+      "23847362",
+      "33017104",
+      "33811064",
+      "18931659",
+      "27841863",
+      "34503990",
+      "33597306",
+      "33141022",
+      "31273204",
+      "31822909",
+      "24769453",
+      "29789392",
+      "36553657",
+      "23345425",
+      "30530501",
+      "34452908",
+      "32434870",
+      "29929045",
+      "23486525",
+      "32779701",
+      "27217474",
+      "24692507",
+      "26053117",
+      "28604726",
+      "29106372",
+      "30104380",
+      "32648897",
+      "37002234",
+      "30996128",
+      "33361520",
+      "26544937",
+      "37034578",
+      "36606487",
+      "37773238",
+      "32306447",
+      "36746532",
+      "37548940",
+      "37565699",
+      "37516933",
+      "36918529",
+      "36352786",
+      "37131705",
+      "37985809",
+      "37777474",
+      "37704686",
+      "37548092",
+      "38266916",
+      "38407480"
+    ],
+    "review": [
+      "37306046",
+      "30948458",
+      "34768871",
+      "33448186",
+      "31896689",
+      "33087281",
+      "28781144",
+      "36553657",
+      "32779701",
+      "27217474",
+      "32648897",
+      "30996128",
+      "32306447",
+      "37548940"
+    ],
+    "pmc": [
+      "10398656"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.15252/embr.202356834",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37306046/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37306046",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/37306046",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3254",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

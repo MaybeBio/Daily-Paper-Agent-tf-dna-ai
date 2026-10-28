@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "42288513",
+    "doi": "10.1038/s41598-026-55157-w",
+    "title": "EZH2 as regulator of stemness signature and driver of esophageal squamous cell carcinomas."
+  },
+  "content": {
+    "abstract": "Esophageal squamous cell carcinoma (ESCC) is the sixth leading cause of cancer-related death globally. Current therapies remain inadequate, largely due to the persistence of stem-like residual tumor cells. The role of EZH2 as a cancer stem cell (CSC) regulator in tumor development has not been fully elucidated. We investigated EZH2 expression and its association with CSC markers in ESCC patients using bioinformatics analyses and gene expression assays. Functional analyses were used to assess the role of EZH2 in self-renewal, proliferation, migration, invasion, and chemotherapy resistance. Xenograft models were used to evaluate EZH2 impact on tumor growth, pulmonary metastasis, and angiogenesis in vivo. Additional techniques, including apoptosis assays, qRT-PCR, ICC, and IHC, were used to explore the mechanisms underlying EZH2 effects on stemness properties. EZH2 enhanced stemness and self-renewal in ESCC by upregulating stemness‑associated markers, resulting in increased colony and sphere formation in vitro. It promoted ESCC proliferation by facilitating the G1-to-S transition and upregulating CD markers involved in CSC maintenance. EZH2 also reduced apoptosis and increased cell viability. Additionally, EZH2 increased resistance to 5-fluorouracil and Cisplatin. In vivo studies demonstrated that EZH2 overexpression accelerated tumor growth, metastasis, and angiogenesis. Targeting EZH2 with specific inhibitors significantly suppressed tumor progression and improved survival in ESCC xenograft models. Our molecular docking analysis suggests a PRC2-independent (non-canonical) potential of EZH2 association with stemness regulators (NANOG, OCT4, and SOX2). This findings suggest EZH2 as a potential target for developing novel neoadjuvant therapy strategies in ESCC.",
+    "keywords": [
+      "EZH2",
+      "Cancer stem cell",
+      "Esophageal squamous cell carcinoma",
+      "Stemness",
+      "Tumorigenicity"
+    ],
+    "mesh_terms": [
+      "*Enhancer of Zeste Homolog 2 Protein/metabolism/genetics",
+      "Humans",
+      "*Neoplastic Stem Cells/metabolism/pathology",
+      "*Esophageal Squamous Cell Carcinoma/pathology/genetics/metabolism/drug therapy",
+      "Animals",
+      "*Esophageal Neoplasms/pathology/metabolism/genetics/drug therapy",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Line, Tumor",
+      "Mice",
+      "Cell Proliferation",
+      "Apoptosis",
+      "Drug Resistance, Neoplasm/genetics",
+      "Cell Movement",
+      "Female",
+      "Male",
+      "Cisplatin/pharmacology",
+      "Fluorouracil/pharmacology",
+      "Xenograft Model Antitumor Assays",
+      "Neovascularization, Pathologic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nourmohammadi, Fatemeh",
+        "Matin, Maryam M",
+        "Bahrami, Ahmad Reza",
+        "Lu, Bingwei",
+        "Zarrinpour, Vajiheh",
+        "Forghanifard, Mohammad Mahdi"
+      ],
+      "short_names": [
+        "Nourmohammadi F",
+        "Matin MM",
+        "Bahrami AR",
+        "Lu B",
+        "Zarrinpour V",
+        "Forghanifard MM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7691-6897"
+      ],
+      "affiliations": [
+        "Molecular Medicine Research Center, Hormozgan Health Institute, Hormozgan University of Medical Sciences, Bandar Abbas, Iran.",
+        "Department of Biology, Da.C., Islamic Azad University, Damghan, Iran.",
+        "Department of Biology, Faculty of Science, Ferdowsi University of Mashhad, Mashhad, Iran.",
+        "Institute of Biotechnology, Ferdowsi University of Mashhad, Mashhad, Iran.",
+        "Department of Biology, Faculty of Science, Ferdowsi University of Mashhad, Mashhad, Iran.",
+        "Institute of Biotechnology, Ferdowsi University of Mashhad, Mashhad, Iran.",
+        "Department of Pathology, School of Medicine, Stanford University, Stanford, CA, 94305, USA.",
+        "Department of Biology, Da.C., Islamic Azad University, Damghan, Iran.",
+        "Department of Biology, Da.C., Islamic Azad University, Damghan, Iran. MM.Forghanifard@iau.ac.ir."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nourmohammadi, Fatemeh",
+        "short_name": "Nourmohammadi F",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine Research Center, Hormozgan Health Institute, Hormozgan University of Medical Sciences, Bandar Abbas, Iran.",
+          "Department of Biology, Da.C., Islamic Azad University, Damghan, Iran."
+        ]
+      },
+      {
+        "full_name": "Matin, Maryam M",
+        "short_name": "Matin MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Faculty of Science, Ferdowsi University of Mashhad, Mashhad, Iran.",
+          "Institute of Biotechnology, Ferdowsi University of Mashhad, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Bahrami, Ahmad Reza",
+        "short_name": "Bahrami AR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Faculty of Science, Ferdowsi University of Mashhad, Mashhad, Iran.",
+          "Institute of Biotechnology, Ferdowsi University of Mashhad, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Lu, Bingwei",
+        "short_name": "Lu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, School of Medicine, Stanford University, Stanford, CA, 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Zarrinpour, Vajiheh",
+        "short_name": "Zarrinpour V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Da.C., Islamic Azad University, Damghan, Iran."
+        ]
+      },
+      {
+        "full_name": "Forghanifard, Mohammad Mahdi",
+        "short_name": "Forghanifard MM",
+        "identifiers": [
+          "0000-0002-7691-6897"
+        ],
+        "affiliations": [
+          "Department of Biology, Da.C., Islamic Azad University, Damghan, Iran. MM.Forghanifard@iau.ac.ir."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Jun 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/15 11:35",
+    "fetched_at": "2026-10-01 23:40:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41042414",
+      "40759634",
+      "39704172",
+      "38037076",
+      "37796391",
+      "37729426",
+      "37338278",
+      "37257519",
+      "36627897",
+      "36503350",
+      "36403545",
+      "36316365",
+      "35814365",
+      "35671803",
+      "35604910",
+      "35530133",
+      "35392233",
+      "34622148",
+      "34156519",
+      "33816512",
+      "33791221",
+      "33615636",
+      "33308321",
+      "33170084",
+      "32993787",
+      "32759723",
+      "31845453",
+      "31690961",
+      "31570380",
+      "30887517",
+      "30844722",
+      "30517868",
+      "29681949",
+      "28900112",
+      "28664387",
+      "28415635",
+      "28147317",
+      "27172794",
+      "26351355",
+      "26338103",
+      "26087194",
+      "25535899",
+      "25320104",
+      "24686850",
+      "24362326",
+      "24060864",
+      "23796192",
+      "23456637",
+      "22869594",
+      "21406404",
+      "20981352",
+      "20530701",
+      "17395884",
+      "10767643"
+    ],
+    "similar": [
+      "42288513",
+      "42030890",
+      "39383633",
+      "40523759",
+      "42274788",
+      "32239565",
+      "28431580",
+      "38994756",
+      "35317779",
+      "40135592",
+      "28854977",
+      "29530057",
+      "39093516",
+      "40660293",
+      "42014891",
+      "32653032",
+      "38923019",
+      "41039452",
+      "27329034",
+      "30189871",
+      "39934309",
+      "31296250",
+      "28681114",
+      "31981592",
+      "33459391",
+      "35606602",
+      "40730272",
+      "33408782",
+      "31638260",
+      "28534989",
+      "41327220",
+      "32005028",
+      "39051085",
+      "34167551",
+      "40404119",
+      "30576425",
+      "38914958",
+      "31043582",
+      "39620490",
+      "41006771",
+      "32698859",
+      "39341782",
+      "32819319",
+      "28184915",
+      "31908417",
+      "31314174",
+      "40854921",
+      "32239639",
+      "24561231",
+      "29604392",
+      "31331361",
+      "32012470",
+      "37264968",
+      "25351876",
+      "41174077",
+      "33897885",
+      "40417915",
+      "32330123",
+      "38934786",
+      "38436783",
+      "40211342",
+      "32867821",
+      "41085663",
+      "32678196",
+      "27974706",
+      "41411970",
+      "34893064",
+      "32237037",
+      "34036375",
+      "41092853",
+      "40102683",
+      "29145896",
+      "31747529",
+      "32367570",
+      "27588477",
+      "33098486",
+      "34520294",
+      "39702934",
+      "27015363",
+      "33345719",
+      "34839191",
+      "39511293",
+      "35706019",
+      "30736860",
+      "25644061",
+      "38251697",
+      "41207896",
+      "34316020",
+      "39672175",
+      "31438989",
+      "27407092",
+      "28404917",
+      "32619460",
+      "28713964",
+      "40923294",
+      "40021097",
+      "40140842",
+      "39985567",
+      "38664825",
+      "32014008"
+    ],
+    "review": [
+      "42288513"
+    ],
+    "pmc": [
+      "13522529"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/esophagealcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Esophageal Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-026-55157-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42288513/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NANOG-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

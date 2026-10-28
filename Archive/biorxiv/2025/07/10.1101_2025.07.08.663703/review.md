@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, end matter) as provided
+- **Assessment boundary** Scientific content, experimental logic, evidence quality, and claims as presented in the provided text. Figures, tables, and supplementary materials are referenced but not directly visible.
+- **Shared manuscript claim summary** The manuscript reports that Mre11 and the MRX complex form DNA-dependent, hexanediol-sensitive condensates in vitro; that Mre11 assembles into DNA damage-dependent foci in vegetative cells and DSB-independent foci in meiotic cells; that the C-terminal intrinsically disordered region (IDR) of Mre11 is required for condensation in vitro and for meiosis but dispensable for vegetative DNA repair; that the Mre11 C-terminal helix binds a conserved motif (SSM1) of Mer2; and that a novel SUMO-interacting motif (SIM3) within the Mre11 IDR contributes to Mre11 recruitment and DSB formation during meiosis.
+- **Visible evidence base** Results sections describing in vitro condensation assays, gel shift assays, yeast two-hybrid, NMR spectroscopy, ITC, spore viability, Southern blotting, and immunofluorescence. Methods sections for protein expression, purification, and assays. Figures S1-S10 and Tables S1-S4 are referenced but not visible.
+- **Missing materials affecting confidence** All figures and supplementary figures/tables are not visible. Quantitative data (e.g., exact foci counts, statistical values, gel images, NMR spectra, ITC thermograms) are not directly assessable. Strain construction details and primer sequences are referenced but not shown.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question in meiotic recombination: how the Mre11 nuclease is recruited to DSB sites. The work identifies multiple mechanisms involving the Mre11 C-terminal tail, including a direct interaction with Mer2 and a novel SUMO-interacting motif. The combination of in vitro biochemistry, structural prediction, and in vivo genetics is appropriate and potentially impactful. However, the manuscript as presented has several concerns that need to be addressed. The in vitro condensation data are described qualitatively without visible quantitative analysis. The in vivo relevance of the identified interactions is supported by phenotypic data, but the mechanistic link between condensation and function remains correlative. The distinction between the roles of the C-terminal helix and the SIM3 motif is not fully resolved, and the manuscript does not clearly establish whether the condensation activity is functionally required for DSB formation or is a consequence of other interactions. The claim of "hierarchical condensation" as a general assembly mechanism is speculative and would benefit from more direct evidence. Overall, the work is promising and likely of interest to the meiosis and DNA repair communities, but the current evidence does not fully establish all claims.
+- **Who would be interested in the results, and why** Researchers studying meiotic recombination, DSB formation, the MRX/MRN complex, biomolecular condensates, and SUMO signaling. The work provides new molecular details on how Mre11 is recruited to meiotic DSB sites, which is a long-standing question. The identification of a SUMO-interacting motif in Mre11 and its role in meiosis will be of interest to the SUMOylation field. The condensation framework for DSB machinery assembly is conceptually relevant to the broader field of phase-separated nuclear bodies.
+- **Major strengths** The manuscript addresses a significant gap in understanding Mre11 recruitment during meiosis. The combination of in vitro biochemistry, structural prediction, and in vivo genetics is comprehensive. The identification of a direct Mre11-Mer2 interaction and a novel SIM3 motif provides concrete molecular mechanisms. The use of multiple approaches (condensation assays, NMR, ITC, yeast two-hybrid, genetics) strengthens the conclusions. The writing is clear and the logical flow is easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "Mre11 and MRX complexes form DNA-dependent, hexanediol sensitive condensates in vitro" and "Mre11 assembles into DNA damage-dependent foci in vegetative cells and DSB-independent foci in meiotic cells"
+  - **Evidence pointer** Results sections "Mre11 and the MRX complex assemble DNA-dependent condensates in vitro" and "In meiotic cells, Mre11 foci are DSB-independent"; Figures 1, 2, S1, S2, S4
+  - **Concern** The quantitative analysis of condensate formation and foci is not visible. The manuscript states "steep increase in foci intensity above 200 nM Mre11" and "progressive increase in foci number and intensity over time" but no quantitative data, statistical tests, or representative images with scale bars are shown in the provided text. The claim that foci are "DSB-independent" in meiosis relies on the spo11-Y135F experiment, but the quantification and statistical comparison are not provided. Without visible quantitative data, the robustness of these claims cannot be assessed.
+  - **Why it matters** The central claims of the manuscript depend on the formation and quantification of condensates and foci. If the quantitative analysis is not rigorous or the effects are small, the conclusions may not be supported.
+  - **Resolution test** Provide representative images with scale bars, quantification of foci number and intensity with statistical tests (e.g., mean ± SD, n values, p values), and clear demonstration of the DSB-independence of meiotic foci with appropriate controls and statistics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "The C-terminus of Mre11 forms a short α-helix that binds a conserved region of Mer2, and mutating residues within this interface reduces Mre11 foci and DSB formation"
+  - **Evidence pointer** Results section "The C-terminus of Mre11 binds a conserved motif of Mer2"; Figures 5, S5, S6
+  - **Concern** The manuscript states that AlphaFold modeling predicted the interaction interface and that mutations in Mer2-EQEK or Mre11-LLK residues reduced interaction in pull-down assays. However, the pull-down data are described qualitatively ("strongly decreased the interaction") without quantification or replicates. The in vivo data show reduced foci and DSB formation, but the manuscript does not clearly distinguish whether the reduced DSB formation is due to loss of the Mre11-Mer2 interaction specifically or to other effects of the mutations on protein stability or folding. The statement that "mre11-ΔC15 does not phenocopy the mre11-ΔC49 and mer2-EQEK mutations" is used to argue for additional functions, but the interpretation is not fully developed.
+  - **Why it matters** The direct Mre11-Mer2 interaction is a key mechanistic claim. If the interaction is not robustly demonstrated or if the mutations have pleiotropic effects, the conclusion that this interaction is required for Mre11 recruitment and DSB formation is weakened.
+  - **Resolution test** Provide quantitative pull-down data with replicates and statistical analysis. Include controls for protein stability (e.g., western blot showing equal expression). Discuss and, if possible, test whether the mutations affect Mre11 folding or other interactions. Clarify the interpretation of the differential phenotypes of mre11-ΔC15 versus mre11-ΔC49 and mer2-EQEK.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** "SIM3 promotes the recruitment of Mre11 during meiosis" and "SIM3 collaborates with the C-terminal α-helix of Mre11 for productive recruitment to precursor DSB sites"
+  - **Evidence pointer** Results section "SIM3 contributes to Mre11 recruitment and meiotic DSB formation"; Figures 6, 7, S7-S10
+  - **Concern** The manuscript identifies SIM3 as a novel SUMO-interacting motif and shows that mutating it reduces Mre11 foci and DSB formation. However, the specific SUMOylated target(s) that SIM3 binds to are not identified. The manuscript speculates that SIM3 may interact with SUMOylated Mer2, but this is not directly tested. The contribution of SIM3 relative to the C-terminal helix interaction with Mer2 is not quantitatively compared. The manuscript states that combining SIM3 mutation with C-terminal helix truncation abolishes DSB formation, but the individual contributions are not clearly delineated.
+  - **Why it matters** The manuscript claims that SIM3 is a functionally important motif, but without identifying the relevant SUMOylated partner or quantitatively comparing its contribution to other interactions, the mechanistic model remains incomplete.
+  - **Resolution test** Identify the SUMOylated target(s) of SIM3 (e.g., by co-immunoprecipitation or proximity labeling). Quantitatively compare the effects of SIM3 mutation, C-terminal helix truncation, and the double mutant on Mre11 foci and DSB formation. Discuss whether SIM3 and the Mer2 interaction act additively or synergistically.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conceptual framework
+  - **Claim pointer** "We propose that the DSB machinery assembles via a hierarchical mechanism of successive condensate nucleation and growth events"
+  - **Evidence pointer** Discussion section "Assembly of the DSB machinery by hierarchical condensation"
+  - **Concern** The hierarchical condensation model is presented as a unifying framework, but the evidence for a direct causal link between condensation and DSB formation is correlative. The manuscript shows that Mre11 forms condensates in vitro and foci in vivo, and that mutations affecting condensation also affect DSB formation. However, it is not shown that condensation per se is required for DSB formation, as opposed to the specific protein-protein interactions that also mediate condensation. The manuscript acknowledges that a mutant specifically abolishing Mre11 self-association is lacking.
+  - **Why it matters** The hierarchical condensation model is a significant conceptual claim that goes beyond the data. If the model is not directly tested, it may overstate the role of phase separation in meiotic DSB formation.
+  - **Resolution test** Discuss alternative explanations for the data. If possible, design experiments to test whether condensation is functionally required, e.g., by using optogenetic tools to disrupt condensates or by identifying separation-of-function mutations that affect condensation but not specific interactions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract states "Mre11 assembles into DNA damage-dependent foci in vegetative cells and DSB-independent foci in meiotic cells" but the distinction between "DNA damage-dependent" and "DSB-independent" is not immediately clear to a non-specialist reader. The Introduction could better explain why this distinction is important.
+  - **Required correction** Clarify in the abstract and introduction that in vegetative cells, foci are induced by exogenous DNA damage, while in meiosis, foci form independently of Spo11-induced DSBs, indicating a role upstream of DSB formation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "The C-terminal IDR of Mre11 is required for condensation"
+  - **Evidence pointer** Figure 2C, 2D
+  - **Issue** The manuscript states that deletion of residues 10-270 and 290-472 "led to reduced numbers of foci that retained high intensity" but does not provide a mechanistic explanation for why these deletions reduce foci number but not intensity.
+  - **Required correction** Provide a brief discussion of why these deletions might affect foci number but not intensity, or acknowledge that the mechanism is unclear.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results section "In meiotic cells, Mre11 foci are DSB-independent"
+  - **Evidence pointer** Figure S4D, S4E
+  - **Issue** The manuscript states that "the number of Mre11 foci tended to decrease in late meiotic prophase" in wild-type but does not provide statistical analysis or time-course quantification.
+  - **Required correction** Provide quantitative time-course data with statistical analysis to support this observation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section "The importance of a SUMO-SIM interaction in Mre11 recruitment"
+  - **Evidence pointer** Discussion
+  - **Issue** The manuscript speculates that SIM3 may interact with SUMOylated Mer2, but this is not directly tested. The discussion should more clearly distinguish between speculation and evidence.
+  - **Required correction** Clearly label this as a hypothesis and suggest experiments to test it.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Statistical analysis and data visualization"
+  - **Evidence pointer** Methods
+  - **Issue** The methods state that Student's t-test was used but do not specify whether it was one-tailed or two-tailed, or whether corrections for multiple comparisons were applied.
+  - **Required correction** Specify the statistical test details, including whether tests were one- or two-tailed and whether multiple comparison corrections were used.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for condensates and foci), R1-M2 (robustness of the Mre11-Mer2 interaction data and in vivo relevance), R1-M3 (identification of SUMOylated targets and quantitative comparison of contributions).
+- **Assessment against Nature-style criteria** Originality: The manuscript presents novel findings, particularly the identification of a direct Mre11-Mer2 interaction and a new SIM3 motif. The condensation framework for DSB machinery assembly is conceptually original. Scientific importance: The work addresses a fundamental question in meiosis and has implications for understanding DSB formation and genome stability. The findings are likely to be of high interest to the field. Interdisciplinary readership: The work bridges biochemistry, biophysics, cell biology, and genetics, and should appeal to a broad readership. Technical soundness: The experimental approaches are generally appropriate and state-of-the-art (e.g., NMR, ITC, AlphaFold). However, the lack of visible quantitative data for key claims is a concern. Readability for nonspecialists: The manuscript is generally well-written and accessible, but some concepts (e.g., the distinction between DNA damage-dependent and DSB-independent foci) could be clarified for a broader audience.
+
+## Risk / unsupported claims
+- The claim that Mre11 and MRX form "condensates" in vitro is supported by qualitative descriptions but lacks visible quantitative analysis.
+- The claim that Mre11 foci in meiosis are "DSB-independent" is supported by the spo11-Y135F experiment, but the quantification is not visible.
+- The claim that the Mre11 C-terminal helix binds the Mer2 SSM1 motif is supported by AlphaFold and pull-down data, but the pull-down data are not quantified.
+- The claim that SIM3 is a functional SUMO-interacting motif is supported by NMR and ITC data, but the in vivo relevance is based on phenotypic analysis without identification of the SUMOylated target.
+- The hierarchical condensation model for DSB machinery assembly is presented as a framework but is not directly tested.
+- The statement that "the C-terminus of Mre11 is also important for direct interaction with Spo11" is referenced to prior work (ref 31) and is not directly tested here.

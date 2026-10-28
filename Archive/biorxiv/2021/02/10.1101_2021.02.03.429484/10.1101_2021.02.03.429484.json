@@ -1,0 +1,208 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.02.03.429484",
+  "title": "DeepDRIM: a deep neural network to reconstruct cell-type-specific gene regulatory network using single-cell RNA-Seq Data",
+  "doi": "10.1101/2021.02.03.429484",
+  "abstract": "<h4> A bstract </h4> Single-cell RNA sequencing is used to capture cell-specific gene expression, thus allowing reconstruction of gene regulatory networks. The existing algorithms struggle to deal with dropouts and cellular heterogeneity, and commonly require pseudotime-ordered cells. Here, we describe DeepDRIM a supervised deep neural network that represents gene pair joint expression as images and considers the neighborhood context to eliminate the transitive interactions. Deep-DRIM yields significantly better performance than the other nine algorithms used on the eight cell lines tested, and can be used to successfully discriminate key functional modules between patients with mild and severe symptoms of coronavirus disease 2019 (COVID-19).",
+  "authors": [
+    "Chen J",
+    "Cheong C",
+    "Lan L",
+    "Zhou X",
+    "Liu J",
+    "Lyu A",
+    "Cheung WK",
+    "Zhang L"
+  ],
+  "published_date": "2021-02-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.02.03.429484",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.02.03.429484.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR277452",
+    "raw_record": {
+      "id": "PPR277452",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR277452"
+        ]
+      },
+      "doi": "10.1101/2021.02.03.429484",
+      "title": "DeepDRIM: a deep neural network to reconstruct cell-type-specific gene regulatory network using single-cell RNA-Seq Data",
+      "authorString": "Chen J, Cheong C, Lan L, Zhou X, Liu J, Lyu A, Cheung WK, Zhang L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Chen J",
+            "lastName": "Chen",
+            "firstName": "Jiaxing",
+            "initials": "J"
+          },
+          {
+            "fullName": "Cheong C",
+            "lastName": "Cheong",
+            "firstName": "Chinwang",
+            "initials": "C"
+          },
+          {
+            "fullName": "Lan L",
+            "lastName": "Lan",
+            "firstName": "Liang",
+            "initials": "L"
+          },
+          {
+            "fullName": "Zhou X",
+            "lastName": "Zhou",
+            "firstName": "Xin",
+            "initials": "X",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4015-4787"
+            }
+          },
+          {
+            "fullName": "Liu J",
+            "lastName": "Liu",
+            "firstName": "Jiming",
+            "initials": "J"
+          },
+          {
+            "fullName": "Lyu A",
+            "lastName": "Lyu",
+            "firstName": "Aiping",
+            "initials": "A"
+          },
+          {
+            "fullName": "Cheung WK",
+            "lastName": "Cheung",
+            "firstName": "William",
+            "initials": "WK"
+          },
+          {
+            "fullName": "Zhang L",
+            "lastName": "Zhang",
+            "firstName": "Lu",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2794-7371"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5795-6722"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2794-7371"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4015-4787"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>  A  bstract </h4>  Single-cell RNA sequencing is used to capture cell-specific gene expression, thus allowing reconstruction of gene regulatory networks. The existing algorithms struggle to deal with dropouts and cellular heterogeneity, and commonly require pseudotime-ordered cells. Here, we describe DeepDRIM a supervised deep neural network that represents gene pair joint expression as images and considers the neighborhood context to eliminate the transitive interactions. Deep-DRIM yields significantly better performance than the other nine algorithms used on the eight cell lines tested, and can be used to successfully discriminate key functional modules between patients with mild and severe symptoms of coronavirus disease 2019 (COVID-19).",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/02/03/2021.02.03.429484.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.02.03.429484"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR277452"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR277452&type=FILE&fileName=EMS115822-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34424948",
+            "reference": "Briefings in bioinformatics. 2021 Nov;22(6):bbab325",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS115822",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "go"
+        ]
+      },
+      "dateOfCreation": "2021-02-04",
+      "firstPublicationDate": "2021-02-03",
+      "firstIndexDate": "2021-02-04",
+      "fullTextReceivedDate": "2021-03-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

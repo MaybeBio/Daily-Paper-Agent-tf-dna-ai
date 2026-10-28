@@ -1,0 +1,350 @@
+{
+  "identity": {
+    "pmid": "39696471",
+    "doi": "10.1186/s13059-024-03449-7",
+    "title": "EpiGePT: a pretrained transformer-based language model for context-specific human epigenomics."
+  },
+  "content": {
+    "abstract": "The inherent similarities between natural language and biological sequences have inspired the use of large language models in genomics, but current models struggle to incorporate chromatin interactions or predict in unseen cellular contexts. To address this, we propose EpiGePT, a transformer-based model designed for predicting context-specific human epigenomic signals. By incorporating transcription factor activities and 3D genome interactions, EpiGePT outperforms existing methods in epigenomic signal prediction tasks, especially in cell-type-specific long-range interaction predictions and genetic variant impacts, advancing our understanding of gene regulation. A free online prediction service is available at http://health.tsinghua.edu.cn/epigept .",
+    "keywords": [
+      "3D genome",
+      "Epigenomics",
+      "Gene Regulation",
+      "Language model",
+      "Transformer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Epigenomics/methods",
+      "Software",
+      "Chromatin/metabolism/genetics",
+      "Transcription Factors/metabolism/genetics",
+      "Genome, Human",
+      "Epigenesis, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Zijing",
+        "Liu, Qiao",
+        "Zeng, Wanwen",
+        "Jiang, Rui",
+        "Wong, Wing Hung"
+      ],
+      "short_names": [
+        "Gao Z",
+        "Liu Q",
+        "Zeng W",
+        "Jiang R",
+        "Wong WH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Ministry of Education Key Laboratory of Bioinformatics, Bioinformatics Division at the Beijing National Research Center for Information Science and Technology, Center for Synthetic and Systems Biology, Department of Automation, Tsinghua University, Beijing, 100084, China.",
+        "Department of Statistics, Stanford University, CA, Stanford, 94305, USA. liuqiao@stanford.edu.",
+        "Department of Statistics, Stanford University, CA, Stanford, 94305, USA.",
+        "Ministry of Education Key Laboratory of Bioinformatics, Bioinformatics Division at the Beijing National Research Center for Information Science and Technology, Center for Synthetic and Systems Biology, Department of Automation, Tsinghua University, Beijing, 100084, China. ruijiang@tsinghua.edu.cn.",
+        "Department of Statistics, Stanford University, CA, Stanford, 94305, USA. whwong@stanford.edu.",
+        "Department of Biomedical Data Science, Bio-X Program, Center for Personal Dynamic Regulomes, Stanford University, Stanford, CA, 94305, USA. whwong@stanford.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Zijing",
+        "short_name": "Gao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Bioinformatics, Bioinformatics Division at the Beijing National Research Center for Information Science and Technology, Center for Synthetic and Systems Biology, Department of Automation, Tsinghua University, Beijing, 100084, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Qiao",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, Stanford University, CA, Stanford, 94305, USA. liuqiao@stanford.edu."
+        ]
+      },
+      {
+        "full_name": "Zeng, Wanwen",
+        "short_name": "Zeng W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, Stanford University, CA, Stanford, 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Jiang, Rui",
+        "short_name": "Jiang R",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory of Bioinformatics, Bioinformatics Division at the Beijing National Research Center for Information Science and Technology, Center for Synthetic and Systems Biology, Department of Automation, Tsinghua University, Beijing, 100084, China. ruijiang@tsinghua.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wong, Wing Hung",
+        "short_name": "Wong WH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, Stanford University, CA, Stanford, 94305, USA. whwong@stanford.edu.",
+          "Department of Biomedical Data Science, Bio-X Program, Center for Personal Dynamic Regulomes, Stanford University, Stanford, CA, 94305, USA. whwong@stanford.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2024 Dec 18",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/19 06:22",
+    "fetched_at": "2026-10-05 02:04:00"
+  },
+  "links": {
+    "cites": [
+      "42688306",
+      "42656953",
+      "42656278",
+      "42448699",
+      "42443492",
+      "42366620",
+      "42156861",
+      "42091620",
+      "41980989",
+      "41832145",
+      "41772662",
+      "41768279",
+      "41676319",
+      "41654764",
+      "41537311",
+      "41518203",
+      "41514301",
+      "41303412",
+      "41151585",
+      "41074112",
+      "40966651",
+      "40552708",
+      "40504151",
+      "40501721",
+      "40291712",
+      "40265190",
+      "40156859",
+      "39975405",
+      "39131276"
+    ],
+    "refs": [
+      "39607691",
+      "39364207",
+      "38645715",
+      "37953350",
+      "37769837",
+      "37722043",
+      "37399400",
+      "36864178",
+      "36845200",
+      "36599988",
+      "36458445",
+      "36215037",
+      "35971425",
+      "35840754",
+      "35817977",
+      "35594859",
+      "35579274",
+      "35293310",
+      "35190730",
+      "34880490",
+      "34791415",
+      "34608324",
+      "34099641",
+      "33999180",
+      "33538820",
+      "33151298",
+      "33045745",
+      "32404885",
+      "32298981",
+      "31986264",
+      "31784727",
+      "31693090",
+      "31510693",
+      "31510655",
+      "30869141",
+      "30612741",
+      "30371827",
+      "30152809",
+      "29700067",
+      "29588361",
+      "29445086",
+      "29146937",
+      "29140464",
+      "29120462",
+      "29087512",
+      "29069282",
+      "29051481",
+      "28605766",
+      "28479595",
+      "28361702",
+      "27899611",
+      "27643841",
+      "27203113",
+      "26582918",
+      "26301843",
+      "24136345",
+      "22955616",
+      "20944595",
+      "20513432",
+      "20362541",
+      "20150147",
+      "19814784",
+      "19114725"
+    ],
+    "similar": [
+      "39696471",
+      "37502861",
+      "29365171",
+      "41337156",
+      "39550354",
+      "34379786",
+      "39708837",
+      "41766646",
+      "40999099",
+      "39498488",
+      "42114117",
+      "40504151",
+      "26206277",
+      "37387176",
+      "41296545",
+      "40315432",
+      "29608647",
+      "41832145",
+      "28605501",
+      "40931195",
+      "31897514",
+      "39283462",
+      "39724385",
+      "35293310",
+      "28302177",
+      "26301843",
+      "32847102",
+      "39779852",
+      "41978381",
+      "40221401",
+      "29106613",
+      "28064247",
+      "31006511",
+      "23945931",
+      "40240358",
+      "33381816",
+      "42301918",
+      "27706670",
+      "41006627",
+      "34326396",
+      "33239733",
+      "41555433",
+      "33096239",
+      "34020542",
+      "39789857",
+      "30559489",
+      "21074721",
+      "41408042",
+      "40346707",
+      "30853548",
+      "24339764",
+      "29069282",
+      "35456374",
+      "29030827",
+      "25693562",
+      "41606153",
+      "33978759",
+      "35285478",
+      "39884279",
+      "27391817",
+      "41169001",
+      "39541982",
+      "26083756",
+      "28973456",
+      "26091484",
+      "31501517",
+      "29581440",
+      "31045217",
+      "31318408",
+      "16237667",
+      "33860525",
+      "30555922",
+      "42234579",
+      "25957350",
+      "42068378",
+      "39487148",
+      "40848288",
+      "28420341",
+      "35440119",
+      "35277509",
+      "27993786",
+      "23511541",
+      "30310060",
+      "36699410",
+      "29907088",
+      "33300042",
+      "41236480",
+      "29643364",
+      "25693565",
+      "25693567",
+      "34048560",
+      "24271395",
+      "25240437",
+      "42178345",
+      "25693563",
+      "41592570",
+      "32689977",
+      "23510235",
+      "24997396",
+      "35100401"
+    ],
+    "review": [
+      "39696471",
+      "39708837",
+      "31897514",
+      "34020542",
+      "30559489"
+    ],
+    "pmc": [
+      "11657395"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03449-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39696471/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

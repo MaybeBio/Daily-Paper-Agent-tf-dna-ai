@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35909285",
+  "title": "Machine Learning-based Virtual Screening for STAT3 Anticancer Drug Target.",
+  "authors": "Wadood, Abdul; Ajmal, Amar; Junaid, Muhammad; Rehman, Ashfaq Ur; Uddin, Reaz; Azam, Syed Sikander; Khan, Alam Zeb; Ali, Asad",
+  "journal": "Current pharmaceutical design",
+  "published_date": "2022-08-02",
+  "window": {
+    "start": "2022-08-01",
+    "end": "2022-08-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习虚拟筛选和分子对接/MD模拟针对STAT3蛋白靶点筛选小分子抑制剂，虽涉及蛋白-DNA互作背景但核心是药物筛选而非TF-DNA结合机制建模，方法可迁移但对象与互作轴偏离。",
+  "abstract": "BACKGROUND: Signal transducers and activators of the transcription (STAT) family is composed of seven structurally similar and highly conserved members, including STAT1, STAT2, STAT3, STAT4, STAT5a, STAT5b, and STAT6. The STAT3 signaling cascade is activated by upstream kinase signals and undergoes phosphorylation, homo-dimerization, nuclear translocation, and DNA binding, resulting in the expression of target genes involved in tumor cell proliferation, metastasis, angiogenesis, and immune editing. STAT3 hyperactivation has been documented in a number of tumors, including head and neck, breast, lung, liver, kidney, prostate, pancreas cancer, multiple myeloma, and acute myeloid leukemia. Drug discovery is a timeconsuming and costly process; it may take ten to fifteen years to bring a single drug to the market. Machine learning algorithms are very fast and effective and commonly used in the field, such as drug discovery. These algorithms are ideal for the virtual screening of large compound libraries to classify molecules as active or inactive. OBJECTIVE: The present work aims to perform machine learning-based virtual screening for the STAT3 drug target. METHODS: Machine learning models, such as k-nearest neighbor, support vector machine, Gaussian naive Bayes, and random forest for classifying the active and inactive inhibitors against a STAT3 drug target, were developed. Ten-fold cross-validation was used for model validation. Then the test dataset prepared from the zinc database was screened using the random forest model. A total of 20 compounds with 88% accuracy was predicted as active against STAT3. Furthermore, these twenty compounds were docked into the active site of STAT3. The two complexes with good docking scores as well as the reference compound were subjected to MD simulation. A total of 100ns MD simulation was performed. RESULTS: Compared to all other models, the random forest model revealed better results. Compared to the standard reference compound, the top two hits revealed greater stability and compactness. CONCLUSION: In conclusion, our predicted hits have the ability to inhibit STAT3 overexpression to combat STAT3-associated diseases.",
+  "abstract_zh": "背景：信号转导与转录激活因子（STAT）家族由七个结构相似且高度保守的成员组成，包括STAT1、STAT2、STAT3、STAT4、STAT5a、STAT5b和STAT6。STAT3信号级联反应由上游激酶信号激活，并经历磷酸化、同源二聚化、核转位和DNA结合，从而导致参与肿瘤细胞增殖、转移、血管生成和免疫编辑的靶基因表达。STAT3过度激活已在多种肿瘤中被记录，包括头颈癌、乳腺癌、肺癌、肝癌、肾癌、前列腺癌、胰腺癌、多发性骨髓瘤和急性髓系白血病。药物发现是一个耗时且昂贵的过程；将单一药物推向市场可能需要十到十五年。机器学习算法非常快速且有效，常用于药物发现等领域。这些算法非常适合对大型化合物库进行虚拟筛选，以将分子分类为活性或非活性。目的：本研究旨在对STAT3药物靶点进行基于机器学习的虚拟筛选。方法：开发了机器学习模型，如k近邻、支持向量机、高斯朴素贝叶斯和随机森林，用于对STAT3药物靶点的活性和非活性抑制剂进行分类。使用十折交叉验证进行模型验证。然后，使用随机森林模型对从ZINC数据库制备的测试数据集进行筛选。共有20个化合物以88%的准确率被预测为对STAT3具有活性。此外，将这20个化合物对接至STAT3的活性位点。将两个对接得分良好的复合物以及参考化合物进行分子动力学模拟。共进行了100ns的分子动力学模拟。结果：与所有其他模型相比，随机森林模型显示出更好的结果。与标准参考化合物相比，前两个命中化合物显示出更高的稳定性和紧凑性。结论：总之，我们预测的命中化合物具有抑制STAT3过度表达以对抗STAT3相关疾病的潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35909285/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35909285/",
+  "paper_page_path": "papers/pubmed/35909285/index.html"
+}

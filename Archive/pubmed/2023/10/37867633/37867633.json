@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "37867633",
+    "doi": "10.1117/1.JBO.28.10.102911",
+    "title": "Deep-learning-based cross-modality translation from Stokes image to bright-field contrast."
+  },
+  "content": {
+    "abstract": "SIGNIFICANCE: Mueller matrix (MM) microscopy has proven to be a powerful tool for probing microstructural characteristics of biological samples down to subwavelength scale. However, in clinical practice, doctors usually rely on bright-field microscopy images of stained tissue slides to identify characteristic features of specific diseases and make accurate diagnosis. Cross-modality translation based on polarization imaging helps to improve the efficiency and stability in analyzing sample properties from different modalities for pathologists. AIM: In this work, we propose a computational image translation technique based on deep learning to enable bright-field microscopy contrast using snapshot Stokes images of stained pathological tissue slides. Taking Stokes images as input instead of MM images allows the translated bright-field images to be unaffected by variations of light source and samples. APPROACH: We adopted CycleGAN as the translation model to avoid requirements on co-registered image pairs in the training. This method can generate images that are equivalent to the bright-field images with different staining styles on the same region. RESULTS: Pathological slices of liver and breast tissues with hematoxylin and eosin staining and lung tissues with two types of immunohistochemistry staining, i.e., thyroid transcription factor-1 and Ki-67, were used to demonstrate the effectiveness of our method. The output results were evaluated by four image quality assessment methods. CONCLUSIONS: By comparing the cross-modality translation performance with MM images, we found that the Stokes images, with the advantages of faster acquisition and independence from light intensity and image registration, can be well translated to bright-field images.",
+    "keywords": [
+      "cross-modality",
+      "cycle generative adversarial network",
+      "polarization",
+      "snapshot Stokes images"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "Microscopy",
+      "Lung",
+      "Staining and Labeling",
+      "Liver/diagnostic imaging",
+      "Image Processing, Computer-Assisted/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wei, Shilong",
+        "Si, Lu",
+        "Huang, Tongyu",
+        "Du, Shan",
+        "Yao, Yue",
+        "Dong, Yang",
+        "Ma, Hui"
+      ],
+      "short_names": [
+        "Wei S",
+        "Si L",
+        "Huang T",
+        "Du S",
+        "Yao Y",
+        "Dong Y",
+        "Ma H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9662-0447"
+      ],
+      "affiliations": [
+        "Tsinghua University, Shenzhen International Graduate School, Shenzhen, China.",
+        "Tsinghua University, Shenzhen International Graduate School, Shenzhen, China.",
+        "Tsinghua University, Shenzhen International Graduate School, Shenzhen, China.",
+        "Tsinghua University, Department of Biomedical Engineering, Beijing, China.",
+        "University of Chinese Academy of Sciences, Shenzhen Hospital, Department of Pathology, Shenzhen, China.",
+        "Tsinghua University, Shenzhen International Graduate School, Shenzhen, China.",
+        "Tsinghua University, Shenzhen International Graduate School, Shenzhen, China.",
+        "Tsinghua University, Shenzhen International Graduate School, Shenzhen, China.",
+        "Tsinghua University, Department of Biomedical Engineering, Beijing, China.",
+        "Tsinghua University, Department of Physics, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wei, Shilong",
+        "short_name": "Wei S",
+        "identifiers": [],
+        "affiliations": [
+          "Tsinghua University, Shenzhen International Graduate School, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Si, Lu",
+        "short_name": "Si L",
+        "identifiers": [],
+        "affiliations": [
+          "Tsinghua University, Shenzhen International Graduate School, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Tongyu",
+        "short_name": "Huang T",
+        "identifiers": [],
+        "affiliations": [
+          "Tsinghua University, Shenzhen International Graduate School, Shenzhen, China.",
+          "Tsinghua University, Department of Biomedical Engineering, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Du, Shan",
+        "short_name": "Du S",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Shenzhen Hospital, Department of Pathology, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Yue",
+        "short_name": "Yao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Tsinghua University, Shenzhen International Graduate School, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Yang",
+        "short_name": "Dong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Tsinghua University, Shenzhen International Graduate School, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Hui",
+        "short_name": "Ma H",
+        "identifiers": [
+          "0000-0001-9662-0447"
+        ],
+        "affiliations": [
+          "Tsinghua University, Shenzhen International Graduate School, Shenzhen, China.",
+          "Tsinghua University, Department of Biomedical Engineering, Beijing, China.",
+          "Tsinghua University, Department of Physics, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomedical optics"
+    ],
+    "journal_abbrev": [
+      "J Biomed Opt"
+    ],
+    "pub_date": "2023 Oct",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/23 06:46",
+    "fetched_at": "2026-10-04 22:10:52"
+  },
+  "links": {
+    "cites": [
+      "38396427"
+    ],
+    "refs": [
+      "35717539",
+      "35299314",
+      "35003850",
+      "34775685",
+      "34552045",
+      "34260351",
+      "33793516",
+      "33299110",
+      "33014593",
+      "32845834",
+      "32822294",
+      "32514884",
+      "32411363",
+      "32225629",
+      "31309728",
+      "31142829",
+      "30854197",
+      "30728961",
+      "30559434",
+      "29989994",
+      "28856041",
+      "28083567",
+      "27623573",
+      "27087003",
+      "26953178",
+      "26315442",
+      "26302511",
+      "25328034",
+      "24781588",
+      "23666068",
+      "22446225",
+      "20733896",
+      "20383155",
+      "16299476",
+      "15376593",
+      "11689891",
+      "9950155",
+      "8657288"
+    ],
+    "similar": [
+      "37867633",
+      "34362386",
+      "34775685",
+      "35299314",
+      "31142829",
+      "32514884",
+      "37040684",
+      "32432709",
+      "30854197",
+      "33640720",
+      "36607506",
+      "39270248",
+      "32803890",
+      "37265876",
+      "32471471",
+      "38510164",
+      "34306174",
+      "38703302",
+      "31274206",
+      "37011426",
+      "34622424",
+      "37290374",
+      "36399164",
+      "32399586",
+      "32361805",
+      "38649426",
+      "33986434",
+      "36559994",
+      "35315529",
+      "31309586",
+      "39094325",
+      "33718644",
+      "32314228",
+      "31081955",
+      "38648120",
+      "35836126",
+      "37222565",
+      "34021779",
+      "33259647",
+      "35984606",
+      "33784619",
+      "30728961",
+      "32544777",
+      "35255294",
+      "31729403",
+      "19847301",
+      "36271298",
+      "24090363",
+      "35831930",
+      "37622473",
+      "32134949",
+      "39096614",
+      "35144150",
+      "36857953",
+      "29571715",
+      "37301181",
+      "29705552",
+      "34692225",
+      "33060677",
+      "32961385",
+      "33182900",
+      "31869826",
+      "35880375",
+      "35354124",
+      "31840269",
+      "35003850",
+      "32111966",
+      "36086569",
+      "35717874",
+      "32030661",
+      "37016799",
+      "35932723",
+      "32010507",
+      "32544841",
+      "35301702",
+      "33905558",
+      "30440478",
+      "31593370",
+      "36565012",
+      "33204701",
+      "36565666",
+      "33438621",
+      "35149255",
+      "31220353",
+      "34653209",
+      "27460472",
+      "33073426",
+      "33444255",
+      "31610527",
+      "37515968",
+      "31885682",
+      "32977280",
+      "35313293",
+      "29533895",
+      "31885686",
+      "36982398",
+      "33251783",
+      "39081800",
+      "33996229",
+      "39007128",
+      "38505631",
+      "33195418",
+      "38049475",
+      "39150810",
+      "37594633",
+      "38827461",
+      "38995963",
+      "31899416",
+      "35521557",
+      "35804415",
+      "38894092",
+      "37698963",
+      "37966960",
+      "37558713",
+      "38572166",
+      "34675247",
+      "38325706",
+      "39066100",
+      "37490493",
+      "39024079",
+      "30378691",
+      "36425635",
+      "39420056",
+      "38633074",
+      "38392081",
+      "38838549",
+      "33110166",
+      "36265909"
+    ],
+    "review": [
+      "37867633",
+      "32030661",
+      "38325706"
+    ],
+    "pmc": [
+      "10587695"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37867633/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37867633",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1117/1.JBO.28.10.102911",
+        "provider": "Society of Photo-Optical Instrumentation Engineers",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

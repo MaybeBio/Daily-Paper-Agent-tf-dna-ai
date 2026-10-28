@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "36087428",
+    "doi": "10.1016/j.bmc.2022.116994",
+    "title": "Ligand- and structure-based identification of novel CDK9 inhibitors for the potential treatment of leukemia."
+  },
+  "content": {
+    "abstract": "Cyclin-dependent kinase 9 (CDK9) plays a vital role in controlling cell transcription and has been an attractive target for cancer treatment. Herein, ten predictive models derived from 1330 unique molecules against CDK9 were constructed based on molecular fingerprints and graphs using two conventional machine learning and four deep learning methods. The evaluation results showed that FP-GNN deep learning architecture performed best for CDK9 inhibitors prediction with the highest BA and F1 values of 0.681 and 0.912 for testing set. We then performed virtual screening to identify new CDK9 inhibitors by incorporating the optimal established predictive model and molecular docking. Five compounds were identified to show broad anticancer activity against various cancer cell lines through bioassays. For example, C9 exhibited antiproliferative activities against HeLa, MOLM-13 and MDA-MB-231 with IC(50) values of 2.53, 3.92 and 11.65 muM. Kinase inhibition assay results demonstrated that these compounds displayed submicromolar (214  approximately  504 nM) inhibitory activities against CDK9. Further cellular mechanism evaluation revealed that C9 suppressed the activity of CDK9 and interfered with the expression of Mcl-1 and cleaved PARP in MOLM-13 cells, resulting in the induction of cellular apoptosis. In addition, C9 displayed a good stability in rat liver microsomes, artificial gastrointestinal fluid and plasm. An online platform (called DEEPCDK9Pred) was developed based on the FP-GNN models to predict or design new CDK9 inhibitors. Collectively, our findings demonstrated that FP-GNN algorithm can achieve accurate prediction of CDK9 inhibitors and the subsequent discovery of C9 as a new potential CDK9 inhibitor deserves further structural modification for the treatment of leukemia.",
+    "keywords": [
+      "CDK9 inhibitor",
+      "Deep learning",
+      "Machine learning",
+      "Molecular docking"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Antineoplastic Agents/chemistry/pharmacology",
+      "Apoptosis",
+      "Cell Line, Tumor",
+      "Cyclin-Dependent Kinase 9",
+      "*Leukemia",
+      "Ligands",
+      "Molecular Docking Simulation",
+      "Myeloid Cell Leukemia Sequence 1 Protein",
+      "Poly(ADP-ribose) Polymerase Inhibitors/pharmacology",
+      "Protein Kinase Inhibitors/chemistry/pharmacology",
+      "Rats"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Huimin",
+        "Huang, Jindi",
+        "Chen, Rui",
+        "Cai, Hanxuan",
+        "Chen, Yihao",
+        "He, Shuyun",
+        "Xu, Jianrong",
+        "Zhang, Jiquan",
+        "Wang, Ling"
+      ],
+      "short_names": [
+        "Zhang H",
+        "Huang J",
+        "Chen R",
+        "Cai H",
+        "Chen Y",
+        "He S",
+        "Xu J",
+        "Zhang J",
+        "Wang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Joint International Research Laboratory of Synthetic Biology and Medicine, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou 510006, China.",
+        "Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Joint International Research Laboratory of Synthetic Biology and Medicine, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou 510006, China.",
+        "State Key Laboratory of Functions and Applications of Medicinal Plants & College of Pharmacy, Guizhou Provincial Engineering Technology Research Center for Chemical Drug R&D, Guizhou Medical University, Guiyang 550004, China.",
+        "Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Joint International Research Laboratory of Synthetic Biology and Medicine, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou 510006, China.",
+        "Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Joint International Research Laboratory of Synthetic Biology and Medicine, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou 510006, China.",
+        "Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Joint International Research Laboratory of Synthetic Biology and Medicine, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou 510006, China.",
+        "Department of Pharmacology and Chemical Biology, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, China; Academy of Integrative Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China.",
+        "State Key Laboratory of Functions and Applications of Medicinal Plants & College of Pharmacy, Guizhou Provincial Engineering Technology Research Center for Chemical Drug R&D, Guizhou Medical University, Guiyang 550004, China.",
+        "Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Joint International Research Laboratory of Synthetic Biology and Medicine, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou 510006, China. Electronic address: lingwang@scut.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Huimin",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Joint International Research Laboratory of Synthetic Biology and Medicine, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jindi",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Joint International Research Laboratory of Synthetic Biology and Medicine, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Rui",
+        "short_name": "Chen R",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Functions and Applications of Medicinal Plants & College of Pharmacy, Guizhou Provincial Engineering Technology Research Center for Chemical Drug R&D, Guizhou Medical University, Guiyang 550004, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Hanxuan",
+        "short_name": "Cai H",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Joint International Research Laboratory of Synthetic Biology and Medicine, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yihao",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Joint International Research Laboratory of Synthetic Biology and Medicine, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "He, Shuyun",
+        "short_name": "He S",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Joint International Research Laboratory of Synthetic Biology and Medicine, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jianrong",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Chemical Biology, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, China; Academy of Integrative Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jiquan",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Functions and Applications of Medicinal Plants & College of Pharmacy, Guizhou Provincial Engineering Technology Research Center for Chemical Drug R&D, Guizhou Medical University, Guiyang 550004, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ling",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Joint International Research Laboratory of Synthetic Biology and Medicine, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou 510006, China. Electronic address: lingwang@scut.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioorganic & medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Bioorg Med Chem"
+    ],
+    "pub_date": "2022 Oct 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/11 06:00",
+    "fetched_at": "2026-09-28 13:13:35"
+  },
+  "links": {
+    "cites": [
+      "42198370",
+      "41594554",
+      "41589601",
+      "40033504",
+      "39748968",
+      "39012568",
+      "38854580",
+      "38399646",
+      "38264526",
+      "37101544"
+    ],
+    "refs": [],
+    "similar": [
+      "36087428",
+      "30253346",
+      "34477384",
+      "37837671",
+      "36332552",
+      "35605362",
+      "36615314",
+      "37572539",
+      "32781071",
+      "37661406",
+      "27847320",
+      "36103810",
+      "38878756",
+      "31238183",
+      "29471852",
+      "31376566",
+      "36304149",
+      "25596730",
+      "21768328",
+      "32781872",
+      "33306391",
+      "30194564",
+      "21776020",
+      "36562191",
+      "39012568",
+      "31872348",
+      "30025343",
+      "33581551",
+      "32645016",
+      "32653610",
+      "28651979",
+      "38488882",
+      "32866383",
+      "31243099",
+      "32447197",
+      "24362439",
+      "33338869",
+      "23301767",
+      "33122847",
+      "29550093",
+      "35956876",
+      "37581526",
+      "26349627",
+      "32707280",
+      "34507234",
+      "24102143",
+      "33129955",
+      "24911186",
+      "33632038",
+      "38847742",
+      "24445865",
+      "31923858",
+      "34365057",
+      "34670362",
+      "38117531",
+      "31699827",
+      "24865236",
+      "31603123",
+      "30196207",
+      "37513929",
+      "34688130",
+      "34538051",
+      "34508710",
+      "23775716",
+      "28714799",
+      "32838725",
+      "25936945",
+      "29241222",
+      "33484942",
+      "27561983",
+      "31827241",
+      "31254921",
+      "34091044",
+      "24688048",
+      "38564299",
+      "32357823",
+      "30132679",
+      "26627013",
+      "32320841",
+      "29329658",
+      "28646117",
+      "33353031",
+      "32088129",
+      "33142418",
+      "25908517",
+      "29651967",
+      "23296566",
+      "31038080",
+      "34792005",
+      "36124766",
+      "35358822",
+      "25643258",
+      "24803299",
+      "32770459",
+      "38172923",
+      "35126914",
+      "32284225",
+      "28692916",
+      "31612739",
+      "35033885",
+      "29753773",
+      "37672930",
+      "31838290",
+      "29682280",
+      "34811888",
+      "35092513",
+      "34995690",
+      "30925338",
+      "33103497",
+      "34509794",
+      "37101544",
+      "37116265",
+      "28961375",
+      "37128897",
+      "37302342",
+      "36827953",
+      "37308450",
+      "38269624",
+      "38291477",
+      "35442775",
+      "39368143",
+      "38808256",
+      "25638502",
+      "35530158",
+      "35884401",
+      "35897894",
+      "36493617",
+      "37719386",
+      "35814933",
+      "37355672",
+      "38418686",
+      "36284709",
+      "39369485",
+      "38025397",
+      "36814851"
+    ],
+    "review": [
+      "36087428",
+      "29471852",
+      "32866383",
+      "33632038",
+      "38564299",
+      "30132679",
+      "35126914",
+      "31612739",
+      "35092513",
+      "37128897"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.bindingdb.org/rwd/jsp/dbsearch/PrimarySearch_pubmed.jsp?pubmed_submit=Search&pubmed=36087428",
+        "provider": "BindingDB",
+        "category": "Chemical Information",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0968-0896(22)00387-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/leukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Leukemia"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1C1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1602",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36087428",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "39289290",
+    "doi": "10.1007/s12033-024-01259-7",
+    "title": "Transcriptome Analysis of Differentially Expressed Genes and Molecular Pathways Involved in C2C12 Cells Myogenic Differentiation."
+  },
+  "content": {
+    "abstract": "Muscles are essential tissues responsible for movement, stability, and metabolism, playing a crucial role in human health and well-being. A comprehensive understanding of muscle differentiation processes is imperative for combating muscle degenerative diseases such as muscular dystrophy. In this study, C2C12 cells were induced to differentiate into myotubes in vitro. Phenotypic changes were observed utilizing Gimsa and immunofluorescent staining techniques. RNA sequencing was conducted at distinct time points (0, 2, 4, and 7 days) during the differentiation process. To elucidate the underlying molecular mechanisms, differential expression analysis, gene ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis, and Gene Set Enrichment Analysis (GSEA) were performed. Soft clustering of time series gene expression was employed to establish the expression patterns of differentially expressed genes (DEGs) at various time points during myogenesis. Additionally, quantitative reverse transcription PCR was utilized to validate gene expression from RNA-seq data at the mRNA level. Throughout the myogenic differentiation of C2C12 cells, notable morphological changes were observed, with myoblasts forming multinucleated myotubes by day 4 and plump elongated structures by day 7. Gene expression analysis revealed a substantial increase in DEGs as differentiation progressed, with a significant rise in DEGs from day 0 to day 7. Enrichment analysis highlighted key biological processes and pathways involved, including signal transduction and immune system processes, as well as pathways like chemokine and calcium signaling. Noise-robust soft clustering identified distinct temporal gene expression patterns, categorizing genes into upregulated, downregulated, and biphasic response clusters. The MYH family exhibited diverse expression changes, with Myh3, Myh13, Myh6, Myh7, Myh2, Myh8, Myh14, Myh7b, Myh1, and Myh4 upregulated, Myh10, Myh9, and Myh12 downregulated. Key transcription factors displayed dynamic expression patterns, which was crucial for the regulation of myoblast differentiation. A comprehensive and dynamic transcriptomic analysis of the C2C12 myoblast differentiation process has significantly enhanced our understanding of the key genes and biological pathways involved in myogenesis.",
+    "keywords": [
+      "C2C12 cell",
+      "Myoblast",
+      "Myogenic differentiation",
+      "RNA sequencing"
+    ],
+    "mesh_terms": [
+      "Mice",
+      "Animals",
+      "*Cell Differentiation/genetics",
+      "*Muscle Development/genetics",
+      "*Gene Expression Profiling/methods",
+      "Cell Line",
+      "Myoblasts/metabolism/cytology",
+      "*Transcriptome",
+      "Gene Ontology",
+      "Signal Transduction/genetics",
+      "Muscle Fibers, Skeletal/metabolism/cytology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tao, Lingjian",
+        "Huang, Weixing",
+        "Li, Zhiyan",
+        "Wang, Wei",
+        "Lei, Xinhuan",
+        "Chen, Jiangjie",
+        "Song, Xiaoting",
+        "Lu, Fangying",
+        "Fan, Shaohua",
+        "Zhang, Liwei"
+      ],
+      "short_names": [
+        "Tao L",
+        "Huang W",
+        "Li Z",
+        "Wang W",
+        "Lei X",
+        "Chen J",
+        "Song X",
+        "Lu F",
+        "Fan S",
+        "Zhang L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0515-9841"
+      ],
+      "affiliations": [
+        "Orthopedic Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Ximen Street 150#, Taizhou, 317000, Zhejiang, China.",
+        "General Surgical Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Taizhou, 317000, China.",
+        "Department of Nursing, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, 310000, China.",
+        "Orthopedic Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Ximen Street 150#, Taizhou, 317000, Zhejiang, China.",
+        "Department of Nursing, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, 310000, China.",
+        "Orthopedic Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Ximen Street 150#, Taizhou, 317000, Zhejiang, China.",
+        "Orthopedic Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Ximen Street 150#, Taizhou, 317000, Zhejiang, China.",
+        "Orthopedic Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Ximen Street 150#, Taizhou, 317000, Zhejiang, China.",
+        "Orthopedic Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Ximen Street 150#, Taizhou, 317000, Zhejiang, China.",
+        "Orthopedic Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Ximen Street 150#, Taizhou, 317000, Zhejiang, China. fansh9705@enzemed.com.",
+        "Orthopedic Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Ximen Street 150#, Taizhou, 317000, Zhejiang, China. medzlw@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tao, Lingjian",
+        "short_name": "Tao L",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedic Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Ximen Street 150#, Taizhou, 317000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Weixing",
+        "short_name": "Huang W",
+        "identifiers": [],
+        "affiliations": [
+          "General Surgical Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Taizhou, 317000, China.",
+          "Department of Nursing, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, 310000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhiyan",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedic Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Ximen Street 150#, Taizhou, 317000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nursing, Zhejiang University School of Medicine First Affiliated Hospital, Hangzhou, 310000, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Xinhuan",
+        "short_name": "Lei X",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedic Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Ximen Street 150#, Taizhou, 317000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jiangjie",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedic Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Ximen Street 150#, Taizhou, 317000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Song, Xiaoting",
+        "short_name": "Song X",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedic Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Ximen Street 150#, Taizhou, 317000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Fangying",
+        "short_name": "Lu F",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedic Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Ximen Street 150#, Taizhou, 317000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Shaohua",
+        "short_name": "Fan S",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedic Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Ximen Street 150#, Taizhou, 317000, Zhejiang, China. fansh9705@enzemed.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Liwei",
+        "short_name": "Zhang L",
+        "identifiers": [
+          "0000-0002-0515-9841"
+        ],
+        "affiliations": [
+          "Orthopedic Department, Taizhou Hospital of Zhejiang Province, Zhejiang University, Ximen Street 150#, Taizhou, 317000, Zhejiang, China. medzlw@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular biotechnology"
+    ],
+    "journal_abbrev": [
+      "Mol Biotechnol"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/18 00:50",
+    "fetched_at": "2026-09-30 02:58:16"
+  },
+  "links": {
+    "cites": [
+      "41899902",
+      "41456440",
+      "41065964",
+      "40803287",
+      "40529508"
+    ],
+    "refs": [
+      "39314165",
+      "38836299",
+      "38820155",
+      "38272853",
+      "38206489",
+      "37919243",
+      "37815440",
+      "37000377",
+      "36613108",
+      "36611880",
+      "36575043",
+      "36533424",
+      "35521787",
+      "35011721",
+      "34852207",
+      "34663964",
+      "34359954",
+      "33383820",
+      "33271795",
+      "33184929",
+      "32251294",
+      "31825657",
+      "31533830",
+      "31407867",
+      "31375807",
+      "31336263",
+      "31301002",
+      "30859901",
+      "30703272",
+      "30652305",
+      "30378775",
+      "30348697",
+      "30312372",
+      "30072615",
+      "30050118",
+      "30048806",
+      "29761627",
+      "29716949",
+      "29307280",
+      "28680106",
+      "28432116",
+      "27633041",
+      "27560171",
+      "26453493",
+      "25751142",
+      "25651178",
+      "25516281",
+      "22012579",
+      "19910308",
+      "19403798",
+      "18084642",
+      "17062158",
+      "17045206"
+    ],
+    "similar": [
+      "39289290",
+      "30080426",
+      "31979341",
+      "19843320",
+      "29717386",
+      "30021933",
+      "40803287",
+      "20945337",
+      "36178582",
+      "35787372",
+      "28178271",
+      "28782556",
+      "24204667",
+      "17383968",
+      "30359677",
+      "17392379",
+      "29444710",
+      "41196413",
+      "33933993",
+      "21951698",
+      "24423602",
+      "21370490",
+      "33148375",
+      "23977095",
+      "23844157",
+      "29331478",
+      "36041542",
+      "33397419",
+      "29161332",
+      "36428978",
+      "30669396",
+      "38701072",
+      "31174599",
+      "35682680",
+      "33548229",
+      "23207904",
+      "28742154",
+      "30323063",
+      "26782975",
+      "30462217",
+      "31712718",
+      "36183843",
+      "24551104",
+      "27965114",
+      "31735119",
+      "39366623",
+      "28148961",
+      "27231216",
+      "23597168",
+      "26819411",
+      "32557799",
+      "27518505",
+      "23233679",
+      "21695143",
+      "40861493",
+      "41188318",
+      "25529824",
+      "34602497",
+      "33298462",
+      "30384060",
+      "35850889",
+      "30440034",
+      "22552967",
+      "39922491",
+      "31791406",
+      "34352298",
+      "22147266",
+      "37372393",
+      "30092568",
+      "18508909",
+      "26586200",
+      "39153268",
+      "35168059",
+      "14688207",
+      "40225576",
+      "34198164",
+      "27142254",
+      "25454061",
+      "17962350",
+      "33187645",
+      "33268291",
+      "27633041",
+      "19289111",
+      "27779643",
+      "41331886",
+      "29618024",
+      "38849919",
+      "24788338",
+      "19560855",
+      "34685705",
+      "28130125",
+      "38785149",
+      "22705305",
+      "37435895",
+      "28255268",
+      "28707296",
+      "21520152",
+      "32512157",
+      "29588073",
+      "40628511"
+    ],
+    "review": [
+      "39289290",
+      "27518505"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12033-024-01259-7",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MUTYH-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3994",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

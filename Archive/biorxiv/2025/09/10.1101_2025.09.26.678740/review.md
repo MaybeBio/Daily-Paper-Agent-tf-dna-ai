@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, end matter) as provided on bioRxiv
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text; no assessment of supplementary figures or tables beyond what is referenced
+- **Shared manuscript claim summary** The authors investigate the molecular interaction between the meiotic DSB protein Mer2 and the H3K4me3 reader Spp1, proposing a structural model of their complex, a 4×2 stoichiometry, an allosteric mechanism for Spp1 binding, and a role for a positively charged Spp1 motif in DNA binding within nucleoprotein condensates
+- **Visible evidence base** Results sections describing AFM force spectroscopy, AlphaFold modeling, pulldown assays, SEC-MALS, SAXS, gel shift assays, condensation assays, and yeast genetics; figures referenced but not directly viewable
+- **Missing materials affecting confidence** Actual figures, supplementary figures, supplementary tables, and raw data are not accessible; statistical details for several experiments are incomplete; AlphaFold confidence metrics are not reported in the text
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in meiotic recombination: how the H3K4me3 reader Spp1 is recruited to the axis protein Mer2 to tether chromatin loops prior to DSB formation. The combination of AlphaFold modeling with biochemical and biophysical validation is appropriate and the work provides useful molecular insight. However, several key claims, particularly regarding allostery and the occlusion-compensation model, rest on indirect evidence and would benefit from more direct experimental support. The in vivo relevance of the identified DNA-binding motif is explicitly not supported by the yeast data, which weakens the overall significance of the model. The manuscript is clearly written and will interest the meiosis and DNA repair communities, but the current evidence does not fully establish the mechanistic model proposed.
+- **Who would be interested in the results, and why** Researchers studying meiotic recombination, chromosome architecture, Spo11 DSB formation, and the loop-axis model; also those interested in biomolecular condensates and multivalent protein-DNA interactions. The structural predictions and biophysical characterization of the Mer2-Spp1 interface will be of use to structural biologists working on meiotic proteins.
+- **Major strengths** The combination of AlphaFold prediction with experimental validation is appropriate and rigorous. The identification and validation of the Spp1 R5K DNA-binding motif is a concrete, novel contribution. The AFM-based single-molecule approach provides kinetic parameters not previously available for this interaction. The manuscript is well written and the logic is generally clear.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that binding of one Spp1 subunit to Mer2 allosterically modulates the affinity of adjacent sites, leading to a 4×2 stoichiometry.
+  - **Evidence pointer** Results section "The stoichiometry of Mer2-Spp1 complexes"; Figure 4D
+  - **Concern** The allosteric model is presented as the favored explanation for the 4×2 stoichiometry, but the evidence provided is indirect. The AFM data show a lower single-molecule affinity compared to ensemble measurements, which the authors interpret as evidence for allostery. However, the difference in affinity could equally be explained by experimental artifacts (e.g., surface immobilization effects, avidity in ensemble assays, or differences in the measured interaction interface). No direct test of allostery, such as binding measurements with pre-formed complexes or mutant variants that disrupt cooperativity, is presented.
+  - **Why it matters** The allosteric mechanism is a central claim of the paper and is used to explain the stoichiometry. If the affinity difference has a trivial explanation, the mechanistic model is not supported.
+  - **Resolution test** Provide direct binding measurements that test cooperativity, for example by measuring Spp1 binding to Mer2 tetramers with one site occupied, or by using fluorescently labeled Spp1 variants in a titration assay that can distinguish sequential binding events. Alternatively, present a quantitative model that fits the AFM and ensemble data and makes testable predictions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors propose an occlusion-compensation model where Spp1 binding reduces Mer2 DNA-binding affinity but compensates via the Spp1 R5K motif.
+  - **Evidence pointer** Results section "An occlusion-compensation mechanism for Mer2-Spp1-DNA interactions"; Figures 7 and 8
+  - **Concern** The occlusion-compensation model is inferred from the observation that the R5K mutation shifts the equilibrium from Mer2-Spp1-DNA complexes toward Mer2-DNA complexes. However, the authors do not provide quantitative binding data that directly demonstrate occlusion (i.e., reduced Mer2 DNA affinity upon Spp1 binding) or compensation (i.e., increased overall affinity due to Spp1-DNA contacts). The gel shift data are qualitative and the interpretation relies on a specific model of complex assembly that is not independently validated.
+  - **Why it matters** The model is presented as a key conceptual advance, but without quantitative support it remains speculative. The in vivo data showing no phenotype for the R5K mutant further weaken the physiological relevance of this mechanism.
+  - **Resolution test** Perform quantitative DNA-binding assays (e.g., fluorescence anisotropy or EMSA with varying protein concentrations) with Mer2 alone, Mer2-Spp1 complexes, and Mer2-Spp1-R5K complexes to measure binding affinities directly. Show that Spp1 binding reduces Mer2 DNA affinity and that the R5K motif restores it.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that the R5K motif is not required for Spp1 meiotic function in vivo, based on the absence of a DSB phenotype in the SPP1-R5K mutant.
+  - **Evidence pointer** Results section "Spp1 directly contributes to DNA binding"; Figure 8C
+  - **Concern** The in vivo result directly contradicts the proposed functional importance of the DNA-binding activity. The authors acknowledge this but do not offer a satisfying explanation. If the R5K motif is dispensable in vivo, the physiological relevance of the in vitro DNA-binding activity and the occlusion-compensation model is unclear.
+  - **Why it matters** The significance of the work depends on the relevance of the identified mechanism to meiotic DSB formation. A negative in vivo result for the key motif substantially weakens the claim that this mechanism is important for the process.
+  - **Resolution test** Provide additional in vivo analysis, such as examining DSB formation at additional loci, testing the R5K mutant in sensitized backgrounds, or measuring Spp1 recruitment to chromatin in vivo. Alternatively, discuss more thoroughly why the in vitro activity may not be required in vivo.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** AFM kinetic parameters
+  - **Evidence pointer** Results section "Single-molecule probing of Mer2-Spp1 interaction by atomic force spectroscopy"; Figure 1H, I
+  - **Issue** The derivation of k_on from AFM data relies on assumptions about the effective volume and the number of binding partners that are not fully explained. The large uncertainty in k_off (0.19 ± 0.15 s⁻¹) is noted but not discussed.
+  - **Required correction** Provide a more detailed explanation of the k_on calculation, including the rationale for the effective radius and the number of Spp1 molecules. Discuss the uncertainty in k_off and its impact on the calculated K_D.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** AlphaFold model validation
+  - **Evidence pointer** Results section "Structural model of a minimal Mer2-Spp1 complex"; Figure 2
+  - **Issue** The manuscript states that AlphaFold produced high-confidence models but does not report the confidence metrics (e.g., pLDDT, PAE) or the number of models generated. The validation of the model relies on mutagenesis, but the authors do not show that the mutations specifically disrupt the predicted interface without causing global folding defects.
+  - **Required correction** Report AlphaFold confidence scores and show that mutant proteins are properly folded (e.g., by circular dichroism or size-exclusion chromatography).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Condensation assay quantification
+  - **Evidence pointer** Results section "Spp1 is recruited to Mer2 condensates as a client"; Figure 6
+  - **Issue** The condensation assays are described qualitatively. The claim that Spp1 slightly stimulates Mer2 condensation is not supported by quantitative data.
+  - **Required correction** Provide quantitative analysis of condensate formation (e.g., number, size, or total fluorescence intensity) with statistical comparisons.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The allostery claim requires direct experimental support, and the occlusion-compensation model requires quantitative binding data. The in vivo negative result for the R5K motif must be addressed more thoroughly.
+- **Assessment against Nature-style criteria** Originality: The work is original in its specific focus on the Mer2-Spp1 interaction and the identification of the R5K motif, though the general concept of Spp1-Mer2 tethering is established. Scientific importance: The work addresses a key step in meiotic DSB formation, but the in vivo relevance of the central mechanism is not established, limiting its importance. Interdisciplinary readership: The work will primarily interest meiosis and DNA repair specialists; the biophysical methods may attract a broader readership, but the significance is not framed broadly enough for a general audience. Technical soundness: The experimental approaches are appropriate, but key claims lack direct quantitative support. Readability for nonspecialists: The manuscript is clearly written and the logic is accessible, though some biophysical details may be challenging for non-specialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a plausible and interesting model, but the central claims of allostery and occlusion-compensation require stronger experimental support. The in vivo negative result must be addressed. If these issues are resolved, the work would be a solid contribution to the field.
+
+## Risk / unsupported claims
+- The allosteric modulation of Spp1 binding to Mer2 (4×2 stoichiometry) is not directly supported by the presented data.
+- The occlusion-compensation model is inferred from qualitative gel shift data and lacks quantitative binding measurements.
+- The claim that the R5K motif is not required for Spp1 meiotic function in vivo is supported by the data but contradicts the proposed model, and the discrepancy is not adequately explained.
+- The AlphaFold models are described as high-confidence but confidence metrics are not reported, making the structural claims difficult to evaluate.
+- The in vitro condensation data are presented qualitatively and do not support the claim of a stimulatory effect of Spp1 on Mer2 condensation.

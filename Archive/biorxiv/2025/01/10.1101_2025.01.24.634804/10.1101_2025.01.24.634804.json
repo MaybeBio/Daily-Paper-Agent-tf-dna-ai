@@ -1,0 +1,132 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.01.24.634804",
+  "title": "Refining sequence-to-activity models by increasing model resolution",
+  "doi": "10.1101/2025.01.24.634804",
+  "abstract": "Decoding the cis-regulatory syntax that controls gene expression is essential for improving our understanding of cell differentiation and disease. To identify regulatory motifs and their regulatory syntax, deep learning based sequence-to-activity (S2A) models learn transcription factor binding motifs and their combinations from DNA sequence by modeling measured chromatin accessibility. Previously, we developed AI-TAC, a S2A model that predicts chromatin accessibility across various immune cell types in multi-task fashion, effectively decoding the regulatory syntax underlying immune cell differentiation. While ATAC-seq is commonly used to measure regional accessibility, it also provides high-resolution profiles, the distribution of Tn5 insertion sites, that offer additional insights into the precise location and strength of TF binding sites. Here we demonstrate that modeling ATAC-seq profiles alongside accessibility consistently improves predictions of differential chromatin accessibility across cell types. Moreover, we also find that multi-task learning across related immune cell types consistently outperforms single-task models. To understand what additional information bpAI-TAC learns from ATAC-seq profiles, we systematically compare sequence attributions from models trained with and without ATAC-seq profiles. We identify novel motifs with strong effect sizes that emerge only when profile data is included. Our findings suggest that modeling ATAC-seq at base-pair resolution enables the model to learn a more nuanced and sensitive representation of the cis-regulatory syntax driving immune cell-specific chromatin landscapes.",
+  "authors": [
+    "Chandra NA",
+    "Hu Y",
+    "Buenrostro JD",
+    "Mostafavi S",
+    "Sasse A"
+  ],
+  "published_date": "2025-01-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.01.24.634804",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.01.24.634804.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR970779",
+    "raw_record": {
+      "id": "PPR970779",
+      "source": "PPR",
+      "doi": "10.1101/2025.01.24.634804",
+      "title": "Refining sequence-to-activity models by increasing model resolution",
+      "authorString": "Chandra NA, Hu Y, Buenrostro JD, Mostafavi S, Sasse A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Chandra NA",
+            "lastName": "Chandra",
+            "firstName": "Nuria Alina",
+            "initials": "NA"
+          },
+          {
+            "fullName": "Hu Y",
+            "lastName": "Hu",
+            "firstName": "Yan",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Buenrostro JD",
+            "lastName": "Buenrostro",
+            "firstName": "Jason",
+            "initials": "JD"
+          },
+          {
+            "fullName": "Mostafavi S",
+            "lastName": "Mostafavi",
+            "firstName": "Sara",
+            "initials": "S"
+          },
+          {
+            "fullName": "Sasse A",
+            "lastName": "Sasse",
+            "firstName": "Alexander",
+            "initials": "A"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Decoding the cis-regulatory syntax that controls gene expression is essential for improving our understanding of cell differentiation and disease. To identify regulatory motifs and their regulatory syntax, deep learning based sequence-to-activity (S2A) models learn transcription factor binding motifs and their combinations from DNA sequence by modeling measured chromatin accessibility. Previously, we developed AI-TAC, a S2A model that predicts chromatin accessibility across various immune cell types in multi-task fashion, effectively decoding the regulatory syntax underlying immune cell differentiation. While ATAC-seq is commonly used to measure regional accessibility, it also provides high-resolution profiles, the distribution of Tn5 insertion sites, that offer additional insights into the precise location and strength of TF binding sites. Here we demonstrate that modeling ATAC-seq profiles alongside accessibility consistently improves predictions of differential chromatin accessibility across cell types. Moreover, we also find that multi-task learning across related immune cell types consistently outperforms single-task models. To understand what additional information bpAI-TAC learns from ATAC-seq profiles, we systematically compare sequence attributions from models trained with and without ATAC-seq profiles. We identify novel motifs with strong effect sizes that emerge only when profile data is included. Our findings suggest that modeling ATAC-seq at base-pair resolution enables the model to learn a more nuanced and sensitive representation of the cis-regulatory syntax driving immune cell-specific chromatin landscapes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.01.24.634804"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.01.24.634804"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42542664",
+            "reference": "Bioinformatics advances. \n    2026 ;6(1):vbag122",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-01-29",
+      "firstPublicationDate": "2025-01-27",
+      "firstIndexDate": "2025-01-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

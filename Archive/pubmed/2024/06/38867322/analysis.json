@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38867322",
+  "title": "A comprehensive analysis of m6A/m7G/m5C/m1A-related gene expression and immune infiltration in liver ischemia-reperfusion injury by integrating bioinformatics and machine learning algorithms.",
+  "authors": "Meng, Zhanzhi; Li, Xinglong; Lu, Shounan; Hua, Yongliang; Yin, Bing; Qian, Baolin; Li, Zhongyu; Zhou, Yongzhi; Sergeeva, Irina; Fu, Yao; Ma, Yong",
+  "journal": "European journal of medical research",
+  "published_date": "2024-06-13",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过生物信息学和机器学习分析肝缺血再灌注损伤中的甲基化相关基因表达与免疫浸润，虽涉及转录因子预测但非蛋白质-DNA互作核心，且无AI/物理模拟建模方法，与本课题关联度低。",
+  "abstract": "BACKGROUND: Liver ischemia-reperfusion injury (LIRI) is closely associated with immune infiltration, which commonly occurs after liver surgery, especially liver transplantation. Therefore, it is crucial to identify the genes responsible for LIRI and develop effective therapeutic strategies that target immune response. Methylation modifications in mRNA play various crucial roles in different diseases. This study aimed to identify potential methylation-related markers in patients with LIRI and evaluate the corresponding immune infiltration. METHODS: Two Gene Expression Omnibus datasets containing human liver transplantation data (GSE12720 and GSE151648) were downloaded for integrated analysis. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes pathway enrichment analyses were conducted to investigate the functional enrichment of differentially expressed genes (DEGs). Differentially expressed methylation-related genes (DEMRGs) were identified by overlapping DEG sets and 65 genes related to N6-methyladenosine (m6A), 7-methylguanine (m7G), 5-methylcytosine (m5C), and N1-methyladenosine (m1A). To evaluate the relationship between DEMRGs, a protein-protein interaction (PPI) network was utilized. The core DEMRGs were screened using three machine learning algorithms: least absolute shrinkage and selection operator, random forest, and support vector machine-recursive feature elimination. After verifying the diagnostic efficacy using the receiver operating characteristic curve, we validated the expression of the core DEMRGs in clinical samples and performed relative cell biology experiments. Additionally, the immune status of LIRI was comprehensively assessed using the single sample gene set enrichment analysis algorithm. The upstream microRNA and transcription factors of the core DEMRGs were also predicted. RESULTS: In total, 2165 upregulated and 3191 downregulated DEGs were identified, mainly enriched in LIRI-related pathways. The intersection of DEGs and methylation-related genes yielded 28 DEMRGs, showing high interaction in the PPI network. Additionally, the core DEMRGs YTHDC1, METTL3, WTAP, and NUDT3 demonstrated satisfactory diagnostic efficacy and significant differential expression and corresponding function based on cell biology experiments. Furthermore, immune infiltration analyses indicated that several immune cells correlated with all core DEMRGs in the LIRI process to varying extents. CONCLUSIONS: We identified core DEMRGs (YTHDC1, METTL3, WTAP, and NUDT3) associated with immune infiltration in LIRI through bioinformatics and validated them experimentally. This study may provide potential methylation-related gene targets for LIRI immunotherapy.",
+  "abstract_zh": "背景：肝脏缺血再灌注损伤（LIRI）与免疫浸润密切相关，常见于肝脏手术，尤其是肝移植后。因此，识别导致LIRI的关键基因并开发针对免疫反应的有效治疗策略至关重要。mRNA中的甲基化修饰在不同疾病中发挥多种关键作用。本研究旨在识别LIRI患者中潜在的甲基化相关标志物，并评估相应的免疫浸润情况。方法：下载了两个包含人类肝移植数据的基因表达综合数据库（GSE12720和GSE151648）进行整合分析。采用基因本体论和京都基因与基因组百科全书通路富集分析，以研究差异表达基因（DEGs）的功能富集情况。通过将DEGs集合与65个与N6-甲基腺苷（m6A）、7-甲基鸟嘌呤（m7G）、5-甲基胞嘧啶（m5C）和N1-甲基腺苷（m1A）相关的基因重叠，识别出差异表达甲基化相关基因（DEMRGs）。为评估DEMRGs之间的关系，构建了蛋白质-蛋白质相互作用（PPI）网络。使用三种机器学习算法筛选核心DEMRGs：最小绝对收缩和选择算子、随机森林和支持向量机-递归特征消除。通过受试者工作特征曲线验证诊断效能后，我们在临床样本中验证了核心DEMRGs的表达，并进行了相关细胞生物学实验。此外，使用单样本基因集富集分析算法全面评估了LIRI的免疫状态。还预测了核心DEMRGs的上游microRNA和转录因子。结果：共识别出2165个上调DEGs和3191个下调DEGs，主要富集于LIRI相关通路。DEGs与甲基化相关基因的交集产生了28个DEMRGs，在PPI网络中显示出高度相互作用。此外，核心DEMRGs YTHDC1、METTL3、WTAP和NUDT3表现出满意的诊断效能，并在细胞生物学实验中显示出显著的差异表达及相应功能。进一步，免疫浸润分析表明，在LIRI过程中，多种免疫细胞与所有核心DEMRGs存在不同程度的关联。结论：我们通过生物信息学方法识别了与LIRI中免疫浸润相关的核心DEMRGs（YTHDC1、METTL3、WTAP和NUDT3），并通过实验进行了验证。本研究可能为LIRI免疫治疗提供潜在的甲基化相关基因靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38867322/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38867322/",
+  "paper_page_path": "papers/pubmed/38867322/index.html"
+}

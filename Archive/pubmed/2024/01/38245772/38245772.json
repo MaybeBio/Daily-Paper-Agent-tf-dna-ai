@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "38245772",
+    "doi": "10.1186/s13148-023-01611-9",
+    "title": "Integrative analysis identifies gene signatures mediating the effect of DNA methylation on asthma severity and lung function."
+  },
+  "content": {
+    "abstract": "DNA methylation (DNAm) changes play a key role in regulating gene expression in asthma. To investigate the role of epigenetics and transcriptomics change in asthma, we used publicly available DNAm (asthmatics, n = 96 and controls, n = 46) and gene expression (asthmatics, n = 79 and controls, n = 39) data derived from bronchial epithelial cells (BECs). We performed differential methylation/expression and weighted co-methylation/co-expression network analyses to identify co-methylated and co-expressed modules associated with asthma severity and lung function. For subjects with both DNAm and gene expression data (asthmatics, n = 79 and controls, n = 39), machine-learning technique was used to prioritize CpGs and differentially expressed genes (DEGs) for asthma risk prediction, and mediation analysis was used to uncover DEGs that mediate the effect of DNAm on asthma severity and lung function in BECs. Finally, we validated CpGs and their associated DEGs and the asthma risk prediction model in airway epithelial cells (AECs) dataset. The asthma risk prediction model based on 18 CpGs and 28 DEGs showed high accuracy in both the discovery BEC dataset with area under the receiver operating characteristic curve (AUC) = 0.99 and the validation AEC dataset (AUC = 0.82). Genes in the three co-methylated and six co-expressed modules were enriched in multiple pathways including WNT/beta-catenin signaling and notch signaling. Moreover, we identified 35 CpGs correlated with DEGs in BECs, of which 17 CpGs including cg01975495 (SERPINE1), cg10528482 (SLC9A3), cg25477769 (HNF1A) and cg26639146 (CD9), cg17945560 (TINAGL1) and cg10290200 (FLNC) were replicated in AECs. These DEGs mediate the association between DNAm and asthma severity and lung function. Overall, our study investigated the role of DNAm and gene expression change in asthma and provided an insight into the mechanisms underlying the effects of DNA methylation on asthma, asthma severity and lung function.",
+    "keywords": [
+      "Asthma",
+      "Asthma severity",
+      "Biomarkers",
+      "Lung function",
+      "Mediation analysis",
+      "Multi-omics analysis",
+      "Weighted correlation network analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*DNA Methylation",
+      "*Asthma/genetics",
+      "Epigenesis, Genetic",
+      "Transcription Factors/genetics",
+      "Lung"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dessie, Eskezeia Y",
+        "Ding, Lili",
+        "Mersha, Tesfaye B"
+      ],
+      "short_names": [
+        "Dessie EY",
+        "Ding L",
+        "Mersha TB"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9189-8447"
+      ],
+      "affiliations": [
+        "Division of Asthma Research, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, University of Cincinnati College of Medicine, Cincinnati, OH, USA.",
+        "Division of Biostatistics and Epidemiology, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, University of Cincinnati College of Medicine, Cincinnati, OH, USA.",
+        "Division of Asthma Research, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, University of Cincinnati College of Medicine, Cincinnati, OH, USA. tesfaye.mersha@cchmc.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dessie, Eskezeia Y",
+        "short_name": "Dessie EY",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Asthma Research, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, University of Cincinnati College of Medicine, Cincinnati, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Ding, Lili",
+        "short_name": "Ding L",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biostatistics and Epidemiology, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, University of Cincinnati College of Medicine, Cincinnati, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Mersha, Tesfaye B",
+        "short_name": "Mersha TB",
+        "identifiers": [
+          "0000-0002-9189-8447"
+        ],
+        "affiliations": [
+          "Division of Asthma Research, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, University of Cincinnati College of Medicine, Cincinnati, OH, USA. tesfaye.mersha@cchmc.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical epigenetics"
+    ],
+    "journal_abbrev": [
+      "Clin Epigenetics"
+    ],
+    "pub_date": "2024 Jan 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/21 00:42",
+    "fetched_at": "2026-09-29 13:42:17"
+  },
+  "links": {
+    "cites": [
+      "41703963",
+      "40950420",
+      "40584937",
+      "40462996",
+      "40014586",
+      "39254293"
+    ],
+    "refs": [
+      "37784136",
+      "37206297",
+      "36704932",
+      "35713644",
+      "35666868",
+      "35654255",
+      "35504910",
+      "35347136",
+      "35178391",
+      "35055391",
+      "35033200",
+      "34214162",
+      "34058987",
+      "33602227",
+      "33571165",
+      "33008450",
+      "32770056",
+      "32705255",
+      "32381493",
+      "32185817",
+      "30584054",
+      "29545622",
+      "29449426",
+      "29150410",
+      "28867182",
+      "28077403",
+      "27027952",
+      "26655831",
+      "26028633",
+      "25605792",
+      "25484923",
+      "23026498",
+      "22257669",
+      "21414208",
+      "19114008",
+      "16409202",
+      "12610534",
+      "11505179",
+      "8819439",
+      "2218183"
+    ],
+    "similar": [
+      "38245772",
+      "37784136",
+      "37438356",
+      "31932625",
+      "35666868",
+      "31595000",
+      "33175399",
+      "30584054",
+      "36869404",
+      "33150670",
+      "31699840",
+      "26474238",
+      "37802634",
+      "22970180",
+      "31288860",
+      "28137284",
+      "34301314",
+      "38525738",
+      "37271320",
+      "35033200",
+      "38699230",
+      "32618381",
+      "29028809",
+      "34604700",
+      "33234153",
+      "33092459",
+      "32900903",
+      "31300640",
+      "36150909",
+      "36585691",
+      "33602227",
+      "33214203",
+      "33008450",
+      "29496485",
+      "32806782",
+      "31009112",
+      "35325772",
+      "34525985",
+      "31311581",
+      "37018893",
+      "35546478",
+      "37743309",
+      "36062142",
+      "33450751",
+      "35608069",
+      "31881887",
+      "32832275",
+      "30354327",
+      "30744671",
+      "37995466",
+      "36114581",
+      "34890904",
+      "34629083",
+      "30361541",
+      "36243213",
+      "37152983",
+      "30602389",
+      "34737001",
+      "31198983",
+      "35654255",
+      "29794786",
+      "30053132",
+      "33227132",
+      "32174791",
+      "33298101",
+      "34034702",
+      "37793011",
+      "32705270",
+      "30304558",
+      "27745942",
+      "30545403",
+      "37184252",
+      "37996952",
+      "36959629",
+      "33513891",
+      "29177020",
+      "32731254",
+      "39380119",
+      "29796116",
+      "37442331",
+      "34733656",
+      "27709636",
+      "32361995",
+      "25862628",
+      "39315258",
+      "38806494",
+      "37679381",
+      "35735471",
+      "38946998",
+      "38645047",
+      "38992677"
+    ],
+    "review": [
+      "38245772",
+      "29496485",
+      "31009112",
+      "35546478"
+    ],
+    "pmc": [
+      "10800055"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://clinicalepigeneticsjournal.biomedcentral.com/articles/10.1186/s13148-023-01611-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/asthma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38245772/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38245772",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1150",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/asthma.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma"
+      }
+    ],
+    "text_mined": []
+  }
+}

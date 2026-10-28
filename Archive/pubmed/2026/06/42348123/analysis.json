@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42348123",
+  "title": "Systems-Level Developmental Reprogramming Under Waterlogging Stress in Cowpea Revealed by Integrated Phenotypic, Physiological, and Transcriptomic Analysis.",
+  "authors": "Ghanbari, Mohammad A; Olorunwa, Omolayo J; Verma, Mohit; Popescu, Sorina C; Shi, Ainong; Casey Barickman, T; Popescu, George V",
+  "journal": "Plant, cell & environment",
+  "published_date": "2026-06-25",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究通过转录组与机器学习分析豇豆淹水胁迫下的系统发育重编程，未涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Cowpea (Vigna unguiculata (L.) Walp.) is a climate-resilient grain legume that contributes to nutritional and food safety in a variety of production regions around the world; however, many of these regions are becoming more vulnerable to climate-driven flooding and waterlogging, endangering productivity and seed quality. In this study, we used RNA-seq to assess transcriptional responses to waterlogging in different cowpea genotypes during the vegetative, flowering, and maturity stages. Using measured phenotypic/physiological, biochemical, yield, and seed-quality traits, RNA-seq expression profiles were combined with differential expression analysis, KEGG pathway enrichment/Pathview mapping, transcription factor profiling, weighted gene co-expression network analysis (WGCNA), and XGBoost-based machine-learning prediction. The tolerant genotype UCR369 demonstrated stronger physiological recovery and more dynamic transcriptional adjustment than EpicSelect.4, whereas flowering and maturity exhibited the clearest divergence in waterlogging responses, which were strongly stage- and genotype-dependent. Waterlogging caused stage-dependent alterations to soluble sugars, phenolics, flavonoids and seed-quality traits while decreasing pigment status, gas exchange, chlorophyll fluorescence, membrane stability, and yield components. Pathway analysis revealed four prominent response axes: phenylpropanoid biosynthesis, flavonoid/isoflavonoid biosynthesis, starch and sucrose metabolism, and cutin/suberin/wax biosynthesis. KEGG pathway and Pathview analyses revealed activation of antioxidant and wall-associated phenolic metabolism, carbohydrate reallocation, and surface-lipid/barrier remodelling in UCR369, with a stronger integration of these responses, particularly during flowering and maturation. Transcription factor expression dynamics exhibited stage-specific activation of the MYB, bHLH, ERF/AP2, WRKY, HD-ZIP, and HSF families, which is compatible with redox buffering, hormone-linked stress signalling, and membrane/cuticle protection. WGCNA detected 35 co-expression modules, with the top five modules as the most closely linked to phenolics/starch, sucrose, plastid/pigment functions, and membrane stability. These transcriptome-scale patterns were condensed by XGBoost into a compact collection of trait-linked predictors, with the strongest cross-layer support centred on LTP3, CER1/CER22, and CASPL1D1 for cuticle/barrier remodelling, NIA2/NR2, ICL, and SAG12 for carbohydrate and redox reprogramming, HSP21 for plastid protection, and ACS6 for ethylene-associated stress signalling. Additional recurrent predictors, such as Vigun07g271600 and Vigun08g155100, point to cytochrome P450 and HSP20-related stress-protective activities. These findings establish a trait-anchored, systems-level framework for cowpea waterlogging tolerance, as well as biologically grounded targets for marker development, functional validation, and breeding in waterlogging-prone regions.",
+  "abstract_zh": "豇豆（Vigna unguiculata (L.) Walp.）是一种气候适应性强的谷类豆科作物，在全球多个产区为营养和食品安全作出贡献；然而，其中许多地区正日益面临气候驱动的洪涝和渍水胁迫，危及生产力和种子品质。在本研究中，我们利用RNA-seq评估了不同豇豆基因型在营养期、开花期和成熟期对渍水的转录响应。结合测得的表型/生理、生化、产量和种子品质性状，RNA-seq表达谱与差异表达分析、KEGG通路富集/Pathview映射、转录因子谱分析、加权基因共表达网络分析（WGCNA）以及基于XGBoost的机器学习预测相结合。耐渍基因型UCR369相较于EpicSelect.4表现出更强的生理恢复能力和更动态的转录调整，而开花期和成熟期在渍水响应中展现出最明显的差异，且这些响应强烈依赖于阶段和基因型。渍水引起可溶性糖、酚类物质、类黄酮和种子品质性状的阶段依赖性变化，同时降低色素状态、气体交换、叶绿素荧光、膜稳定性和产量构成要素。通路分析揭示了四个主要响应轴：苯丙烷生物合成、类黄酮/异黄酮生物合成、淀粉和蔗糖代谢，以及角质/木栓质/蜡质生物合成。KEGG通路和Pathview分析显示，UCR369中抗氧化和壁相关酚类代谢、碳水化合物再分配以及表面脂质/屏障重塑被激活，且这些响应具有更强的整合性，尤其在开花和成熟期。转录因子表达动态显示MYB、bHLH、ERF/AP2、WRKY、HD-ZIP和HSF家族存在阶段特异性激活，这与氧化还原缓冲、激素相关胁迫信号传导以及膜/角质层保护相一致。WGCNA检测到35个共表达模块，其中前五个模块与酚类/淀粉、蔗糖、质体/色素功能及膜稳定性关联最紧密。这些转录组尺度模式被XGBoost压缩为一组紧凑的性状关联预测因子，其中最强的跨层支持集中在LTP3、CER1/CER22和CASPL1D1（涉及角质层/屏障重塑）、NIA2/NR2、ICL和SAG12（涉及碳水化合物和氧化还原重编程）、HSP21（涉及质体保护）以及ACS6（涉及乙烯相关胁迫信号）。其他重复出现的预测因子，如Vigun07g271600和Vigun08g155100，指向细胞色素P450和HSP20相关的胁迫保护活性。这些发现为豇豆渍水耐受性建立了一个以性状锚定的系统层面框架，并为渍水易发地区的标记开发、功能验证和育种提供了生物学基础的目标。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42348123/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42348123/",
+  "paper_page_path": "papers/pubmed/42348123/index.html"
+}

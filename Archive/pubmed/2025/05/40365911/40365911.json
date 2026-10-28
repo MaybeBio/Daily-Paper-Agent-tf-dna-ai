@@ -1,0 +1,481 @@
+{
+  "identity": {
+    "pmid": "40365911",
+    "doi": "10.1093/plcell/koaf093",
+    "title": "Model-to-crop conserved NUE Regulons enhance machine learning predictions of nitrogen use efficiency."
+  },
+  "content": {
+    "abstract": "Systems biology aims to uncover gene regulatory networks (GRNs) for agricultural traits, but validating them in crops is challenging. We addressed this challenge by learning and validating model-to-crop transcription factor (TF) regulons governing nitrogen use efficiency (NUE). First, a fine-scale time-course nitrogen (N) response transcriptome analysis revealed a conserved temporal N response cascade in maize (Zea mays) and Arabidopsis (Arabidopsis thaliana). These data were used to infer time-based causal TF target edges in N-regulated GRNs. By validating 23 maize TFs in a cell-based TF-perturbation assay (Transient Assay Reporting Genome-wide Effects of Transcription factors), precision/recall analysis enabled us to prune high-confidence edges between  approximately 200 TFs/700 maize target genes. We next learned gene-to-NUE trait scores using XGBoost machine learning models trained on conserved N-responsive genes across maize and Arabidopsis accessions. By integrating NUE gene scores within our N-GRN, we ranked maize TFs based on a cumulative NUE Regulon score. NUE Regulons for top-ranked TFs were validated using the cell-based TARGET assay in maize (e.g. ZmMYB34/R3-->24 targets) and the Arabidopsis ZmMYB34/R3 ortholog (e.g. AtDIV1-->23 targets). The genes in this NUE Regulon significantly enhanced the ability of XGBoost models to predict NUE traits in both maize and Arabidopsis. Thus, our pipeline for identifying TF regulons that combines GRN inference, machine learning, and orthologous network regulons offers a strategic framework for crop trait improvement.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*Nitrogen/metabolism",
+      "*Zea mays/genetics/metabolism",
+      "*Arabidopsis/genetics/metabolism",
+      "Transcription Factors/genetics/metabolism",
+      "Gene Regulatory Networks/genetics",
+      "Gene Expression Regulation, Plant",
+      "*Crops, Agricultural/genetics/metabolism",
+      "*Regulon/genetics",
+      "Plant Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Ji",
+        "Cheng, Chia-Yi",
+        "Brooks, Matthew D",
+        "Jeffers, Tim L",
+        "Doner, Nathan M",
+        "Shih, Hung-Jui",
+        "Frangos, Samantha",
+        "Katari, Manpreet Singh",
+        "Coruzzi, Gloria M"
+      ],
+      "short_names": [
+        "Huang J",
+        "Cheng CY",
+        "Brooks MD",
+        "Jeffers TL",
+        "Doner NM",
+        "Shih HJ",
+        "Frangos S",
+        "Katari MS",
+        "Coruzzi GM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4416-7983",
+        "ORCID: 0000-0001-5054-5525",
+        "ORCID: 0000-0002-6081-6103",
+        "ORCID: 0000-0002-6021-4006",
+        "ORCID: 0000-0002-5941-6399",
+        "ORCID: 0009-0001-0015-1699",
+        "ORCID: 0009-0004-1359-276X",
+        "ORCID: 0000-0002-3377-063X",
+        "ORCID: 0000-0003-2608-2166"
+      ],
+      "affiliations": [
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+        "Department of Life Science, College of Life Science, National Taiwan University, Taipei 10663, Taiwan.",
+        "Global Change and Photosynthesis Research Unit, USDA-ARS, Urbana, IL 61801, USA.",
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Ji",
+        "short_name": "Huang J",
+        "identifiers": [
+          "0000-0002-4416-7983"
+        ],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Cheng, Chia-Yi",
+        "short_name": "Cheng CY",
+        "identifiers": [
+          "0000-0001-5054-5525"
+        ],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+          "Department of Life Science, College of Life Science, National Taiwan University, Taipei 10663, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Brooks, Matthew D",
+        "short_name": "Brooks MD",
+        "identifiers": [
+          "0000-0002-6081-6103"
+        ],
+        "affiliations": [
+          "Global Change and Photosynthesis Research Unit, USDA-ARS, Urbana, IL 61801, USA."
+        ]
+      },
+      {
+        "full_name": "Jeffers, Tim L",
+        "short_name": "Jeffers TL",
+        "identifiers": [
+          "0000-0002-6021-4006"
+        ],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Doner, Nathan M",
+        "short_name": "Doner NM",
+        "identifiers": [
+          "0000-0002-5941-6399"
+        ],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Shih, Hung-Jui",
+        "short_name": "Shih HJ",
+        "identifiers": [
+          "0009-0001-0015-1699"
+        ],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Frangos, Samantha",
+        "short_name": "Frangos S",
+        "identifiers": [
+          "0009-0004-1359-276X"
+        ],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Katari, Manpreet Singh",
+        "short_name": "Katari MS",
+        "identifiers": [
+          "0000-0002-3377-063X"
+        ],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Coruzzi, Gloria M",
+        "short_name": "Coruzzi GM",
+        "identifiers": [
+          "0000-0003-2608-2166"
+        ],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Plant cell"
+    ],
+    "journal_abbrev": [
+      "Plant Cell"
+    ],
+    "pub_date": "2025 May 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/14 12:39",
+    "fetched_at": "2026-09-30 17:46:18"
+  },
+  "links": {
+    "cites": [
+      "42648065",
+      "42122879",
+      "41862521",
+      "41411658",
+      "40373203"
+    ],
+    "refs": [
+      "39020176",
+      "38868715",
+      "38622747",
+      "38366121",
+      "37967146",
+      "37962356",
+      "37786281",
+      "37706557",
+      "37682477",
+      "37561790",
+      "37186341",
+      "37165193",
+      "37117855",
+      "36764355",
+      "36643763",
+      "36507422",
+      "36458022",
+      "36300620",
+      "35984294",
+      "35845674",
+      "35754172",
+      "35693178",
+      "35552456",
+      "35120438",
+      "35046022",
+      "34973427",
+      "34850907",
+      "34791415",
+      "34594351",
+      "34561450",
+      "34406385",
+      "34331855",
+      "34245168",
+      "34045707",
+      "33876191",
+      "33828273",
+      "33774466",
+      "33693548",
+      "33667112",
+      "33631799",
+      "33278354",
+      "33137118",
+      "33037196",
+      "32661225",
+      "32393171",
+      "32184350",
+      "32139671",
+      "32123177",
+      "32093344",
+      "31907445",
+      "31832669",
+      "31793100",
+      "31730198",
+      "31727128",
+      "31377174",
+      "31245718",
+      "30952851",
+      "30423086",
+      "30395287",
+      "30356219",
+      "30111841",
+      "29914350",
+      "29769331",
+      "29763523",
+      "29525963",
+      "29518046",
+      "29467401",
+      "29092050",
+      "29028903",
+      "28991892",
+      "28733421",
+      "28649440",
+      "28622505",
+      "28455373",
+      "28387841",
+      "28138058",
+      "28100584",
+      "27731416",
+      "27591081",
+      "27565575",
+      "27303025",
+      "27079975",
+      "26595273",
+      "26432828",
+      "26332947",
+      "26243257",
+      "26045464",
+      "25953851",
+      "25847007",
+      "25757770",
+      "25751142",
+      "25516281",
+      "25316065",
+      "25288754",
+      "25223304",
+      "25150836",
+      "24227677",
+      "23805876",
+      "23335732",
+      "23282076",
+      "23104886",
+      "22936831",
+      "22908215",
+      "22855831",
+      "22805708",
+      "22796662",
+      "22607031",
+      "22388286",
+      "22287627",
+      "22177264",
+      "22110026",
+      "22025711",
+      "21980173",
+      "21182762",
+      "21167706",
+      "20959627",
+      "20927193",
+      "20110278",
+      "20003283",
+      "19505943",
+      "19114008",
+      "18953355",
+      "18826430",
+      "18798982",
+      "18537947",
+      "18344319",
+      "18042555",
+      "17585298",
+      "17556767",
+      "17440619",
+      "17138698",
+      "16606683",
+      "16285863",
+      "16141318",
+      "15107854",
+      "14597658",
+      "14512618",
+      "12611802",
+      "9272946",
+      "7896105",
+      "1362381"
+    ],
+    "similar": [
+      "40365911",
+      "33631799",
+      "29769331",
+      "36507422",
+      "29879919",
+      "34561450",
+      "27208309",
+      "26045464",
+      "28419301",
+      "26421509",
+      "33098715",
+      "37788349",
+      "37967146",
+      "32444783",
+      "24228871",
+      "29072883",
+      "30952851",
+      "24863438",
+      "39395686",
+      "24472600",
+      "38652750",
+      "31328030",
+      "32184350",
+      "38472740",
+      "37786281",
+      "39300560",
+      "25918418",
+      "36307979",
+      "27871810",
+      "39515641",
+      "28973738",
+      "34544366",
+      "33037196",
+      "25873660",
+      "31109290",
+      "22607381",
+      "39766773",
+      "20840729",
+      "31575043",
+      "40204192",
+      "31006149",
+      "23504016",
+      "32123177",
+      "26116219",
+      "23497159",
+      "33964211",
+      "36991439",
+      "24270626",
+      "39701501",
+      "22784627",
+      "25522795",
+      "32523127",
+      "30571734",
+      "21511909",
+      "37085776",
+      "35035142",
+      "29241570",
+      "32958562",
+      "34891072",
+      "27511191",
+      "32155833",
+      "31358903",
+      "26757990",
+      "39279854",
+      "40044754",
+      "39718137",
+      "21272351",
+      "22231501",
+      "16941210",
+      "25261191",
+      "38751121",
+      "25937463",
+      "31574923",
+      "30715761",
+      "30200246",
+      "31235885",
+      "37175787",
+      "25978356",
+      "38167709",
+      "30369480",
+      "38551088",
+      "22898356",
+      "38366121",
+      "31184154",
+      "38949092",
+      "24958886",
+      "31361386",
+      "22610487",
+      "37289769",
+      "22936829",
+      "32676852",
+      "28039925",
+      "21327386",
+      "31521962",
+      "27085597",
+      "35801919",
+      "35087128",
+      "20237091",
+      "33395583",
+      "40274169"
+    ],
+    "review": [
+      "40365911",
+      "28419301",
+      "26421509",
+      "32444783",
+      "24863438",
+      "39515641",
+      "22607381",
+      "20840729",
+      "31575043",
+      "35035142",
+      "22231501",
+      "38366121"
+    ],
+    "pmc": [
+      "12124406"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40365911/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/plcell/article-lookup/doi/10.1093/plcell/koaf093",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

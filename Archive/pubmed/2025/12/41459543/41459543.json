@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "41459543",
+    "doi": "10.3389/fimmu.2025.1689340",
+    "title": "SCGB1A1 rs3741240 variant downregulates CC16: a molecular insight into COPD pathogenesis in Indian population."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Chronic Obstructive Pulmonary Disease (COPD) is a progressive inflammatory lung disorder influenced by environmental and genetic factors. The rs3741240 polymorphism in the SCGB1A1 gene, which encodes the anti-inflammatory protein CC16, is considered a genetic marker of COPD susceptibility. OBJECTIVE: This study aimed to investigate the functional significance of the SCGB1A1 rs3741240 polymorphism in 224 COPD patients and 194 controls in the West Bengal population, India. METHODS: Genotyping of rs3741240 was performed using Polymerase Chain Reaction-Restriction Fragment Length Polymorphism (PCR-RFLP). SCGB1A1 mRNA levels were quantified in healthy controls and among different genotypes using Real-Time PCR. Protein expression was assessed using Western blotting. In silico analyses identified miRNAs and transcription factors that target the SCGB1A1 promoter using the miRDB, RNA22 v2, and hTFtarget web servers. Structural modeling and docking studies were conducted to analyze miRNA-mRNA-AGO2 and TF-promoter interactions using the I-TASSER, SWISS-MODEL, GalaxyGemini, RNAfold, RNA COMPOSER, HDOCK, and DNAproDB web servers. RESULTS: The genotype and allele frequencies of the 38AA risk genotype were more prevalent in COPD patients than in controls (P = 0.01 and 0.03, respectively). Patients with 38AA genotype exhibited significantly lower FEV1 and FEV1/FVC (P <0.0001). SCGB1A1 mRNA and protein expression were significantly reduced in patients bearing the 38AA genotype compared to those bearing the GA and GG genotypes. Bioinformatics analyses suggested that reduced CC16 expression for rs3741240 might be mediated by miRNA hsa-miR-11181-3p and the transcription factors SMAD1, HAND1, and HAND2. CONCLUSION: This study is the first to reports in an Indian population that SCGB1A1 rs3741240 is linked to COPD via CC16 downregulation, revealing a key pathogenic mechanism and potential for precision medicine in management.",
+    "keywords": [
+      "COPD",
+      "SCGB1A1",
+      "SNPs",
+      "bronchial epithelial cell",
+      "gene expression",
+      "immune regulation",
+      "immunofluorescence",
+      "precision immunology"
+    ],
+    "mesh_terms": [
+      "India",
+      "*Pulmonary Disease, Chronic Obstructive/genetics",
+      "*Uteroglobin/genetics",
+      "Humans",
+      "Polymorphism, Genetic",
+      "Case-Control Studies",
+      "Gene Frequency",
+      "Genotype",
+      "Down-Regulation",
+      "Male",
+      "Female",
+      "Young Adult",
+      "Adult",
+      "Middle Aged",
+      "Nucleic Acid Conformation",
+      "MicroRNAs/genetics",
+      "Genetic Predisposition to Disease",
+      "South Asian People"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sultana, Nasima",
+        "Adhikari, Himani",
+        "Goswami, Achintya Mohan",
+        "Mondal, Amalesh",
+        "Ganai, Indranil",
+        "Biswas, Himani",
+        "Iqbal, Asif",
+        "Das, Aratrika",
+        "Moitra, Saibal",
+        "Podder, Sanjoy"
+      ],
+      "short_names": [
+        "Sultana N",
+        "Adhikari H",
+        "Goswami AM",
+        "Mondal A",
+        "Ganai I",
+        "Biswas H",
+        "Iqbal A",
+        "Das A",
+        "Moitra S",
+        "Podder S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Ecology and Allergology Laboratory, Department of Zoology, The University of Burdwan, Burdwan, India.",
+        "Ecology and Allergology Laboratory, Department of Zoology, The University of Burdwan, Burdwan, India.",
+        "Department of Physiology, Krishnagar Government College, Krishnagar, India.",
+        "Department of Physiology, Katwa College, Katwa, India.",
+        "Ecology and Allergology Laboratory, Department of Zoology, The University of Burdwan, Burdwan, India.",
+        "Post Graduate Department of Zoology, Lady Brabourne College, Kolkata, India.",
+        "Apollo Multispecialty Hospitals, Kolkata, India.",
+        "Apollo Multispecialty Hospitals, Kolkata, India.",
+        "Apollo Multispecialty Hospitals, Kolkata, India.",
+        "Ecology and Allergology Laboratory, Department of Zoology, The University of Burdwan, Burdwan, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sultana, Nasima",
+        "short_name": "Sultana N",
+        "identifiers": [],
+        "affiliations": [
+          "Ecology and Allergology Laboratory, Department of Zoology, The University of Burdwan, Burdwan, India."
+        ]
+      },
+      {
+        "full_name": "Adhikari, Himani",
+        "short_name": "Adhikari H",
+        "identifiers": [],
+        "affiliations": [
+          "Ecology and Allergology Laboratory, Department of Zoology, The University of Burdwan, Burdwan, India."
+        ]
+      },
+      {
+        "full_name": "Goswami, Achintya Mohan",
+        "short_name": "Goswami AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Krishnagar Government College, Krishnagar, India."
+        ]
+      },
+      {
+        "full_name": "Mondal, Amalesh",
+        "short_name": "Mondal A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Katwa College, Katwa, India."
+        ]
+      },
+      {
+        "full_name": "Ganai, Indranil",
+        "short_name": "Ganai I",
+        "identifiers": [],
+        "affiliations": [
+          "Ecology and Allergology Laboratory, Department of Zoology, The University of Burdwan, Burdwan, India."
+        ]
+      },
+      {
+        "full_name": "Biswas, Himani",
+        "short_name": "Biswas H",
+        "identifiers": [],
+        "affiliations": [
+          "Post Graduate Department of Zoology, Lady Brabourne College, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Iqbal, Asif",
+        "short_name": "Iqbal A",
+        "identifiers": [],
+        "affiliations": [
+          "Apollo Multispecialty Hospitals, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Das, Aratrika",
+        "short_name": "Das A",
+        "identifiers": [],
+        "affiliations": [
+          "Apollo Multispecialty Hospitals, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Moitra, Saibal",
+        "short_name": "Moitra S",
+        "identifiers": [],
+        "affiliations": [
+          "Apollo Multispecialty Hospitals, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Podder, Sanjoy",
+        "short_name": "Podder S",
+        "identifiers": [],
+        "affiliations": [
+          "Ecology and Allergology Laboratory, Department of Zoology, The University of Burdwan, Burdwan, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/29 07:08",
+    "fetched_at": "2026-10-01 10:12:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41334950",
+      "40083529",
+      "39963682",
+      "39748260",
+      "39494533",
+      "38343691",
+      "38308339",
+      "38053993",
+      "37965371",
+      "37523710",
+      "37139166",
+      "36690263",
+      "36568258",
+      "36450281",
+      "36114505",
+      "36066606",
+      "36056132",
+      "36054068",
+      "35367162",
+      "35279265",
+      "33326355",
+      "33124723",
+      "32858223",
+      "32839289",
+      "31623294",
+      "31504780",
+      "31322430",
+      "30576223",
+      "30543455",
+      "30384774",
+      "29548305",
+      "28521030",
+      "27733281",
+      "27665601",
+      "25700379",
+      "24204301",
+      "23880518",
+      "23413437",
+      "23144326",
+      "23082233",
+      "23074262",
+      "22454133",
+      "21639909",
+      "18406148",
+      "17673696",
+      "16990141",
+      "11846609",
+      "11193780",
+      "10718843",
+      "9927386",
+      "9835633",
+      "9271300"
+    ],
+    "similar": [
+      "41459543",
+      "31322430",
+      "23144326",
+      "40414468",
+      "17207022",
+      "24503426",
+      "36352422",
+      "40374938",
+      "27077124",
+      "26159408",
+      "19128353",
+      "28753063",
+      "41189718",
+      "34564359",
+      "27043015",
+      "28865600",
+      "35367162",
+      "31632001",
+      "21565178",
+      "21255142",
+      "23994291",
+      "24504887",
+      "40074049",
+      "15744536",
+      "32184583",
+      "37527206",
+      "15696492",
+      "31601004",
+      "40060920",
+      "21781513",
+      "15820084",
+      "20854423",
+      "16677451",
+      "24506742",
+      "27412345",
+      "24841653",
+      "26303146",
+      "17338426",
+      "20402821",
+      "12485534",
+      "22417142",
+      "15498369",
+      "28929109",
+      "21655952",
+      "20732370",
+      "37551548",
+      "29521291",
+      "28939338",
+      "30397981",
+      "33545665",
+      "22140090",
+      "36936944",
+      "24012056",
+      "31594110",
+      "26625766",
+      "15916738",
+      "32762031",
+      "16387800",
+      "19186046",
+      "15218992",
+      "16697770",
+      "16215398",
+      "22542718",
+      "15308043",
+      "29587639",
+      "23267696",
+      "24125144",
+      "31564857",
+      "22185326",
+      "15388001",
+      "15569478",
+      "38757624",
+      "26316738",
+      "37429370",
+      "15297273",
+      "41036501",
+      "12100044",
+      "21513434",
+      "19622350",
+      "27856929",
+      "33327505",
+      "25048491",
+      "25700379",
+      "17988552",
+      "30624803",
+      "24943193",
+      "24286382",
+      "18853286",
+      "34455057",
+      "39681482",
+      "21955800",
+      "23171362",
+      "22836641",
+      "28496318",
+      "29524578",
+      "9643286",
+      "23088317",
+      "24891316",
+      "14642084",
+      "29506519"
+    ],
+    "review": [
+      "41459543",
+      "33327505"
+    ],
+    "pmc": [
+      "12740939"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/copd.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COPD"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41459543/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1689340",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

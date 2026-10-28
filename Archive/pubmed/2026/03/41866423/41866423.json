@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "41866423",
+    "doi": "10.1038/s41598-026-45495-0",
+    "title": "Identification of key genes in the pathogenesis of hepatic ischemia-reperfusion injury based on bioinformatics and experimental verification."
+  },
+  "content": {
+    "abstract": "Hepatic ischemia-reperfusion injury (HIRI) is a frequently encountered complication during liver surgical procedures, characterized by ischemia-induced damage and exacerbated inflammatory injury upon reperfusion. The underlying mechanisms remain incompletely understood, and few targeted therapies are currently available. By employing a mouse HIRI model and whole-transcriptome sequencing, we obtained gene expression profiles across different HIRI stages. 115 candidate genes were identified by differential and intersection analyses of the self-sequenced data, which were further prioritized using protein-protein interaction network analysis and machine learning algorithms. Ultimately, three key genes-Adh4, Akr1c14, and Cxcl1-were identified, which were mainly enriched in in pathways such as aerobic respiration, mitochondrial protein containing complex, ribonucleoprotein complex biogenesis. Immune infiltration analysis indicated significant changes in 13 immune cell types, including granulocytes and neutrophils. Construction of a molecular regulatory network highlighted potential regulators such as the long non-coding RNA Socs1, transcription factor NFKB1, and microRNA mmu-let-7b-5p. The key genes were verified at both transcriptional and translational levels with animal model samples. Notably, ladarixin, a non-competitive antagonist of CXCR1/2, exhibited a protective effect against HIRI, suggesting that Cxcl1 may serve as a promising therapeutic target. However, further comprehensive research is necessary to gain deeper insights into the exact mechanisms by which these genes function.",
+    "keywords": [
+      "Gene set enrichment analysis",
+      "Hepatic ischemia-reperfusion injury",
+      "Immune infiltration analysis",
+      "Machine learning",
+      "Therapeutic targets"
+    ],
+    "mesh_terms": [
+      "*Reperfusion Injury/genetics/pathology/metabolism",
+      "Animals",
+      "Mice",
+      "*Computational Biology/methods",
+      "*Liver/pathology/metabolism/blood supply",
+      "Gene Expression Profiling",
+      "Chemokine CXCL1/genetics",
+      "Gene Regulatory Networks",
+      "Disease Models, Animal",
+      "*Liver Diseases/genetics/pathology",
+      "Male",
+      "Protein Interaction Maps",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Tao",
+        "Jiang, Zhixian",
+        "Zhao, Qingqing",
+        "Qiu, Junyi",
+        "Xiong, Qin",
+        "Zuo, Shi"
+      ],
+      "short_names": [
+        "Zhang T",
+        "Jiang Z",
+        "Zhao Q",
+        "Qiu J",
+        "Xiong Q",
+        "Zuo S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Clinical Medicine, Guizhou Medical University, Guiyang, 550014, People's Republic of China.",
+        "Department of Transplantation, Affiliated Hospital of Guizhou Medical University, Guiyang, 550001, People's Republic of China.",
+        "School of Clinical Medicine, Guizhou Medical University, Guiyang, 550014, People's Republic of China.",
+        "Clinical Research Center, Affiliated Hospital of Guizhou Medical University, Guiyang, 550001, People's Republic of China.",
+        "School of Pharmaceutical Science and Technology, Guizhou Medical University, Guiyang, 550014, People's Republic of China.",
+        "School of Pharmaceutical Science and Technology, Guizhou Medical University, Guiyang, 550014, People's Republic of China.",
+        "Department of Hepatobiliary Surgery, Affiliated Hospital of Guizhou Medical University, Guiyang, 550001, People's Republic of China. drzuoshi@gmc.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Tao",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Guizhou Medical University, Guiyang, 550014, People's Republic of China.",
+          "Department of Transplantation, Affiliated Hospital of Guizhou Medical University, Guiyang, 550001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Zhixian",
+        "short_name": "Jiang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Guizhou Medical University, Guiyang, 550014, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Qingqing",
+        "short_name": "Zhao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Research Center, Affiliated Hospital of Guizhou Medical University, Guiyang, 550001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Junyi",
+        "short_name": "Qiu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science and Technology, Guizhou Medical University, Guiyang, 550014, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Qin",
+        "short_name": "Xiong Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Science and Technology, Guizhou Medical University, Guiyang, 550014, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Shi",
+        "short_name": "Zuo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Affiliated Hospital of Guizhou Medical University, Guiyang, 550001, People's Republic of China. drzuoshi@gmc.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Mar 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/23 06:32",
+    "fetched_at": "2026-10-01 17:03:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40523539",
+      "40404636",
+      "40097763",
+      "39961215",
+      "39710484",
+      "39490995",
+      "39417505",
+      "39090641",
+      "39079388",
+      "38970988",
+      "38946464",
+      "38868715",
+      "38735388",
+      "38725059",
+      "38599169",
+      "38502859",
+      "37505622",
+      "37215979",
+      "37063851",
+      "37037815",
+      "36801615",
+      "36799021",
+      "36731792",
+      "36671515",
+      "36427477",
+      "36174680",
+      "35883665",
+      "35845045",
+      "35821597",
+      "35398259",
+      "35075820",
+      "34837066",
+      "33556337",
+      "31761683",
+      "31443682",
+      "31201834",
+      "25516281",
+      "24930139",
+      "24132163",
+      "23323831",
+      "22455463",
+      "22062192",
+      "18955130",
+      "14597658",
+      "7685932"
+    ],
+    "similar": [
+      "41866423",
+      "41534252",
+      "41299729",
+      "38690269",
+      "41550926",
+      "39341981",
+      "38867322",
+      "41678948",
+      "40316717",
+      "38694511",
+      "41468372",
+      "39147333",
+      "39324174",
+      "38935114",
+      "41253465",
+      "39855351",
+      "38994365",
+      "35658960",
+      "40316154",
+      "42565562",
+      "40510478",
+      "38494504",
+      "40406126",
+      "40049242",
+      "39473404",
+      "39993960",
+      "33290384",
+      "40263992",
+      "40034711",
+      "41350331",
+      "32603889",
+      "42270480",
+      "40878991",
+      "40842043",
+      "39586719",
+      "41291978",
+      "41217537",
+      "40196107",
+      "37006305",
+      "36660667",
+      "41401161",
+      "40933457",
+      "31781649",
+      "40416982",
+      "40591166",
+      "42361133",
+      "37878485",
+      "33705733",
+      "40634559",
+      "39351239",
+      "40421012",
+      "42176029",
+      "42238567",
+      "41354405",
+      "39800885",
+      "40705804",
+      "39118036",
+      "26859886",
+      "34308776",
+      "40785649",
+      "41878449",
+      "41424060",
+      "38622534",
+      "41504784",
+      "41052072",
+      "41200172",
+      "41540461",
+      "37918465",
+      "42074497",
+      "29901134",
+      "40374866",
+      "38495888",
+      "41044520",
+      "41316541",
+      "41300749",
+      "31699960",
+      "38456959",
+      "39069636",
+      "30796685",
+      "40091022",
+      "26165142",
+      "41754379",
+      "40286766",
+      "38493695",
+      "40332792",
+      "39044690",
+      "25902940",
+      "38902590",
+      "40505700",
+      "41214273",
+      "41221285",
+      "42065196",
+      "39025461",
+      "42123445",
+      "42024670",
+      "41703488",
+      "41667805",
+      "42015036",
+      "41863700",
+      "39844550"
+    ],
+    "review": [
+      "41866423"
+    ],
+    "pmc": [
+      "13153378"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/liverdiseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Diseases"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-026-45495-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41866423/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1260",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

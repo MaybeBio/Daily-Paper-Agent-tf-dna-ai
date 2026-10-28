@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to figures, tables, methods, or supplementary materials
+- **Shared manuscript claim summary** The authors report an integrated single-cell and multi-omics analysis of young versus aged bone marrow, identifying a novel senescent hematopoietic subpopulation, a CAPN1-MAP2K1-JUND molecular module, and predictive value of this module for aging in two independent bulk cohorts.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, cohort descriptions, statistical details, validation data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting integrative approach to aging bone marrow, but the evidence as described is insufficient to establish the central claims. Several key analytical steps are under-specified, and the link between single-cell findings and bulk cohort validation is not clearly demonstrated. The work may be of interest to the aging and hematology communities, but the current abstract does not provide enough detail to assess technical rigor or biological significance.
+- **Who would be interested in the results, and why** Researchers in aging biology, hematopoiesis, and bone marrow microenvironment studies would be interested, as the work attempts to connect single-cell heterogeneity to tissue-level senescence and proposes a candidate molecular module with potential therapeutic relevance.
+- **Major strengths** The study integrates multiple omics layers, which is a strength for capturing complex biological changes. The identification of a specific senescent subpopulation and a three-gene module with independent cohort validation is a clear and testable hypothesis. The use of multiple validation approaches, including immunohistochemistry, Western blot, and molecular docking, adds some depth.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The study identifies a novel hematopoietic subpopulation (3.19% of aged samples) that activates the cellular senescence pathway and enhances inflammatory crosstalk with CD8(+) T cells via NMU signaling.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how the subpopulation was defined, what markers were used, or how the 3.19% frequency was calculated. The statistical threshold for the NMU signaling claim is given as |avg_log2FC| > 0.58, p < 0.001, but the basis for this threshold and the specific comparison are not stated. The claim of "enhanced inflammatory crosstalk" is not supported by any quantitative measure of interaction strength or direction.
+  - **Why it matters** Without a clear definition of the subpopulation and the analytical framework, the central finding cannot be reproduced or evaluated. The NMU signaling claim is a key mechanistic assertion, and its statistical and biological basis must be transparent.
+  - **Resolution test** Provide a detailed description of subpopulation identification, including markers, clustering parameters, and the exact statistical test used for the NMU signaling claim. Show the interaction strength and directionality data for the crosstalk analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** Pseudo-bulk and proteomic analyses identified CAPN1, MAP2K1, and JUND as potential signal modules, and immunohistochemistry and Western blot confirmed their co-expression.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify how these three genes were selected from the pseudo-bulk and proteomic analyses, what criteria were used, or how "co-expression" was defined and quantified. The confirmation by immunohistochemistry and Western blot is mentioned without any quantitative data or representative results.
+  - **Why it matters** The selection of the three-gene module is a critical step, and without clear criteria, the choice may appear arbitrary. The confirmation of co-expression is essential to support the claim that these genes form a functional module.
+  - **Resolution test** Provide the selection criteria for the three genes, including statistical thresholds and ranking. Show quantitative co-expression data from immunohistochemistry and Western blot, with appropriate controls and statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** In two independent bulk-RNA cohorts (n = 58), a Cox model based on the CAPN1-MAP2K1-JUND module showed robust predictive value for aging, with AUCs of 0.7507 (p = 0.0154) and 0.90 (p = 0.0274).
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe the cohorts, the outcome definition, the covariates used in the Cox model, or the validation approach. The sample size of 58 is small, and the AUC values are reported without confidence intervals. The p-values are given but the statistical test is not specified.
+  - **Why it matters** Predictive modeling claims require transparent cohort descriptions and rigorous statistical reporting. Without these, the robustness of the predictive value cannot be assessed, and the small sample size raises concerns about overfitting.
+  - **Resolution test** Provide full cohort descriptions, outcome definitions, model specifications, and confidence intervals for the AUCs. Report the number of events and the validation strategy (e.g., cross-validation or external validation).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Sample description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "6 young and aged bone marrow specimens" but does not clarify whether this means 6 per group or 6 total.
+  - **Required correction** Specify the number of samples per group and the age ranges.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Molecular docking
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Molecular docking is mentioned but no details are given on the targets, software, or scoring criteria.
+  - **Required correction** Provide a brief description of the docking approach and the interaction interfaces identified.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Signal modules"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "signal modules" is vague and not defined in the abstract.
+  - **Required correction** Define what is meant by "signal modules" and how they relate to the identified genes.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The integrative approach is not entirely novel, but the specific combination of single-cell and proteomic data with a focus on senescence may offer some new insights. Scientific importance: The topic is relevant, but the significance of the identified module is not yet established. Interdisciplinary readership: The work may appeal to aging and hematology researchers, but the abstract is too technical for a broad audience. Technical soundness: The abstract lacks sufficient detail to assess the technical rigor of the analyses. Readability for nonspecialists: The abstract is dense and assumes familiarity with multiple omics techniques.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the lack of methodological detail and the under-specified statistical analyses prevent a fair assessment of the claims. The authors should provide full methods and results before the case can be evaluated.
+
+## Risk / unsupported claims
+- The claim of a "novel" subpopulation is unsupported without a clear definition and comparison to existing cell types.
+- The NMU signaling crosstalk claim is not supported by quantitative interaction data.
+- The selection of CAPN1, MAP2K1, and JUND as a module is not justified by clear criteria.
+- The predictive value of the Cox model is not robustly established due to small sample size and incomplete statistical reporting.
+- The biological significance of the identified module for aging mechanisms is asserted but not demonstrated.

@@ -1,0 +1,428 @@
+{
+  "identity": {
+    "pmid": "40234030",
+    "doi": "10.1101/gr.279652.124",
+    "title": "Integrating genetic variation with deep learning provides context for variants impacting transcription factor binding during embryogenesis."
+  },
+  "content": {
+    "abstract": "Understanding how genetic variation impacts transcription factor (TF) binding remains a major challenge, limiting our ability to model disease-associated variants. Here, we used a highly controlled system of F(1) crosses with extensive genetic diversity to profile allele-specific binding of four TFs at several time points during Drosophila embryogenesis. Using a combined haplotype test, we identified 9%-18% of TF-bound regions impacted by genetic variation even for essential regulators. By expanding WASP (a tool for allele-specific read mapping) to examine indels, we increased detection of allelically imbalanced peaks by 30%-50%. This fine-grained \"mutagenesis\" can reconstruct functionalized binding motifs for all factors. To prioritize causal variants, we trained a convolutional neural network (Basenji) to accurately predict binding from DNA sequence. The model can also predict measured allelic imbalance for strong effect variants, providing a mechanistic interpretation for how the variant impacts binding. This reveals unexpected relationships between TFs, including potential cooperative pairs, and mechanisms of tissue-specific recruitment of the ubiquitous factor CTCF.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Transcription Factors/metabolism/genetics",
+      "*Deep Learning",
+      "*Embryonic Development/genetics",
+      "*Genetic Variation",
+      "*Drosophila Proteins/metabolism/genetics",
+      "Alleles",
+      "Protein Binding",
+      "Binding Sites",
+      "Drosophila melanogaster/genetics/embryology",
+      "Drosophila/genetics/embryology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sigalova, Olga M",
+        "Forneris, Mattia",
+        "Stojanovska, Frosina",
+        "Zhao, Bingqing",
+        "Viales, Rebecca R",
+        "Rabinowitz, Adam",
+        "Hammal, Fayrouz",
+        "Ballester, Benoit",
+        "Zaugg, Judith B",
+        "Furlong, Eileen E M"
+      ],
+      "short_names": [
+        "Sigalova OM",
+        "Forneris M",
+        "Stojanovska F",
+        "Zhao B",
+        "Viales RR",
+        "Rabinowitz A",
+        "Hammal F",
+        "Ballester B",
+        "Zaugg JB",
+        "Furlong EEM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8598-1079",
+        "ORCID: 0000-0002-2126-9207",
+        "ORCID: 0000-0002-4327-1068",
+        "ORCID: 0000-0001-5000-7436",
+        "ORCID: 0000-0003-3739-7438",
+        "ORCID: 0000-0003-3853-6196",
+        "ORCID: 0000-0002-7612-4953",
+        "ORCID: 0000-0002-0834-7135",
+        "ORCID: 0000-0001-8324-4040",
+        "ORCID: 0000-0002-9544-8339"
+      ],
+      "affiliations": [
+        "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, D-69117 Heidelberg, Germany.",
+        "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, D-69117 Heidelberg, Germany.",
+        "European Molecular Biology Laboratory (EMBL), Structural and Computational Biology Unit, D-69117 Heidelberg, Germany.",
+        "Collaboration for Joint PhD Degree between EMBL and Heidelberg University, Faculty of Biosciences, D-69117 Heidelberg, Germany.",
+        "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, D-69117 Heidelberg, Germany.",
+        "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, D-69117 Heidelberg, Germany.",
+        "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, D-69117 Heidelberg, Germany.",
+        "Aix Marseille Univ, INSERM, TAGC, 13009 Marseille, France.",
+        "Aix Marseille Univ, INSERM, TAGC, 13009 Marseille, France.",
+        "European Molecular Biology Laboratory (EMBL), Structural and Computational Biology Unit, D-69117 Heidelberg, Germany; judith.zaugg@embl.de furlong@embl.de.",
+        "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, D-69117 Heidelberg, Germany; judith.zaugg@embl.de furlong@embl.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sigalova, Olga M",
+        "short_name": "Sigalova OM",
+        "identifiers": [
+          "0000-0001-8598-1079"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, D-69117 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Forneris, Mattia",
+        "short_name": "Forneris M",
+        "identifiers": [
+          "0000-0002-2126-9207"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, D-69117 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Stojanovska, Frosina",
+        "short_name": "Stojanovska F",
+        "identifiers": [
+          "0000-0002-4327-1068"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory (EMBL), Structural and Computational Biology Unit, D-69117 Heidelberg, Germany.",
+          "Collaboration for Joint PhD Degree between EMBL and Heidelberg University, Faculty of Biosciences, D-69117 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Zhao, Bingqing",
+        "short_name": "Zhao B",
+        "identifiers": [
+          "0000-0001-5000-7436"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, D-69117 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Viales, Rebecca R",
+        "short_name": "Viales RR",
+        "identifiers": [
+          "0000-0003-3739-7438"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, D-69117 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Rabinowitz, Adam",
+        "short_name": "Rabinowitz A",
+        "identifiers": [
+          "0000-0003-3853-6196"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, D-69117 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Hammal, Fayrouz",
+        "short_name": "Hammal F",
+        "identifiers": [
+          "0000-0002-7612-4953"
+        ],
+        "affiliations": [
+          "Aix Marseille Univ, INSERM, TAGC, 13009 Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Ballester, Benoît",
+        "short_name": "Ballester B",
+        "identifiers": [
+          "0000-0002-0834-7135"
+        ],
+        "affiliations": [
+          "Aix Marseille Univ, INSERM, TAGC, 13009 Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Zaugg, Judith B",
+        "short_name": "Zaugg JB",
+        "identifiers": [
+          "0000-0001-8324-4040"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory (EMBL), Structural and Computational Biology Unit, D-69117 Heidelberg, Germany; judith.zaugg@embl.de furlong@embl.de."
+        ]
+      },
+      {
+        "full_name": "Furlong, Eileen E M",
+        "short_name": "Furlong EEM",
+        "identifiers": [
+          "0000-0002-9544-8339"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory (EMBL), Genome Biology Unit, D-69117 Heidelberg, Germany; judith.zaugg@embl.de furlong@embl.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome research"
+    ],
+    "journal_abbrev": [
+      "Genome Res"
+    ],
+    "pub_date": "2025 May 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/16 00:24",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42056104",
+      "41889906",
+      "40634835"
+    ],
+    "refs": [
+      "38467791",
+      "37066790",
+      "36011294",
+      "35993175",
+      "35606422",
+      "35176234",
+      "34751401",
+      "34420874",
+      "33980847",
+      "33310749",
+      "33268840",
+      "33196836",
+      "33171098",
+      "31913281",
+      "31283382",
+      "30445434",
+      "30395339",
+      "30021792",
+      "29779944",
+      "29588361",
+      "29472540",
+      "29335486",
+      "29298290",
+      "29284660",
+      "29061983",
+      "28792889",
+      "28467304",
+      "28087711",
+      "28024300",
+      "27717304",
+      "27471964",
+      "27197224",
+      "27155014",
+      "27089393",
+      "27087447",
+      "26993500",
+      "26550823",
+      "26366987",
+      "26075791",
+      "25762439",
+      "25557079",
+      "25497547",
+      "25411781",
+      "25409826",
+      "24813947",
+      "24721704",
+      "24714809",
+      "24210251",
+      "24136355",
+      "24121437",
+      "22955828",
+      "22868264",
+      "22446964",
+      "22318601",
+      "22304916",
+      "22300769",
+      "22231485",
+      "21177974",
+      "20644199",
+      "20354124",
+      "20299548",
+      "20110278",
+      "20080505",
+      "19890324",
+      "19865164",
+      "19505943",
+      "19458158",
+      "18798982",
+      "17959722",
+      "17908931",
+      "17322403",
+      "17304246",
+      "16740481",
+      "15678159",
+      "12297093",
+      "8633240"
+    ],
+    "similar": [
+      "40234030",
+      "23847101",
+      "28024300",
+      "34930411",
+      "21821017",
+      "19956545",
+      "40314147",
+      "41226380",
+      "39438113",
+      "41799016",
+      "31114856",
+      "24637116",
+      "27264535",
+      "41735587",
+      "36043696",
+      "28369060",
+      "18772429",
+      "22300769",
+      "23922708",
+      "35926038",
+      "40670357",
+      "21478888",
+      "22028662",
+      "23184988",
+      "27058369",
+      "37557175",
+      "23935523",
+      "25368383",
+      "27879204",
+      "39482734",
+      "23799133",
+      "24093548",
+      "22080372",
+      "39008179",
+      "27575958",
+      "34580493",
+      "40664237",
+      "23972280",
+      "22028675",
+      "39152038",
+      "29617928",
+      "24314314",
+      "41499513",
+      "27840106",
+      "11744367",
+      "27106869",
+      "25242320",
+      "20838645",
+      "26204530",
+      "30995488",
+      "20384991",
+      "31948474",
+      "24336359",
+      "28007888",
+      "24366875",
+      "12853139",
+      "28760809",
+      "34236313",
+      "40752106",
+      "11850413",
+      "17238282",
+      "24271386",
+      "21315151",
+      "38521929",
+      "35410161",
+      "22456606",
+      "15479229",
+      "38902964",
+      "25044731",
+      "33993980",
+      "39522719",
+      "17224916",
+      "26335634",
+      "15345045",
+      "31362726",
+      "33171098",
+      "25538246",
+      "12572604",
+      "22296846",
+      "20844575",
+      "27717305",
+      "40971887",
+      "29764918",
+      "12954775",
+      "18818726",
+      "18820428",
+      "26335633",
+      "25568052",
+      "23173097",
+      "16096801",
+      "23236164",
+      "35551305",
+      "19627575",
+      "31799425",
+      "17322403",
+      "14660693",
+      "15454535",
+      "16547175",
+      "33372147",
+      "18634873"
+    ],
+    "review": [
+      "40234030",
+      "39522719"
+    ],
+    "pmc": [
+      "12047541"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=40234030",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://genome.cshlp.org/lookup/pmidlookup?view=long&pmid=40234030",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40234030/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

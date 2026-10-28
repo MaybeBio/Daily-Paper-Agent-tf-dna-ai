@@ -1,0 +1,123 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, limitations, conclusion, ethics, disclosures, funding, data availability, acknowledgments)
+- **Assessment boundary** Scientific validity, methodological rigor, internal consistency, and support of claims by the provided evidence. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors claim a causal relationship between diabetes mellitus (DM) and osteoarthritis (OA) via two-sample Mendelian randomization; identify PTEN and GATA3 as hub genes through differential expression and PPI network analyses; propose these genes as key molecular mediators linking DM to OA; and provide preliminary experimental validation in a mouse chondrocyte cell line under high-glucose conditions.
+- **Visible evidence base** GWAS summary statistics (IEU OpenGWAS, IDs ebi-a-GCST005413 and ebi-a-GCST90038686); GEO datasets GSE21340 and GSE51588; STRING, Cytoscape, cytoHubba, NetworkAnalyst, DGIdb, molecular docking (AutoDock Vina/PyRx), ADMET predictions, RT-qPCR data (Figure 8). Figures 1-7 referenced but not fully visible in the provided text.
+- **Missing materials affecting confidence** Full figures and figure legends; supplementary tables (e.g., complete DEG lists, docking scores for all compounds, ADMET parameters for all candidates); details of the drug library composition and source; exact RT-qPCR primer sequences and amplification conditions; raw data files; ethics approval documentation; PRISMA-style MR reporting checklist; full GWAS harmonization details.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant question with a multi-omics integration strategy. The MR analysis is a standard approach, but the causal claim is based on a single SNP set with a very small effect size (OR 1.00252), which raises questions about clinical and biological significance. The bioinformatics pipeline is largely conventional, and the identification of PTEN and GATA3 as hub genes is plausible but not novel. The experimental validation is limited to a single cell line with no functional assays beyond expression measurement. The molecular docking and ADMET sections are descriptive and not integrated with the disease mechanism. The manuscript would benefit from substantial methodological clarification, additional sensitivity analyses, and stronger experimental evidence before the claims can be considered established.
+- **Who would be interested in the results, and why** Researchers studying the comorbidity of metabolic diseases and musculoskeletal disorders, particularly those interested in shared molecular pathways between DM and OA. The drug repurposing angle (docking, ADMET) may interest computational pharmacologists. Clinicians managing diabetic patients with OA may find the potential therapeutic targets relevant, though the translational gap is large.
+- **Major strengths** 1) The integration of MR, transcriptomics, network analysis, and experimental validation is a comprehensive approach. 2) The authors acknowledge several limitations transparently, including lack of cross-batch correction and small sample sizes. 3) The identification of a dual-target inhibitor (ZK-806711) via docking is an interesting computational finding. 4) The study addresses a clinically important comorbidity with public health relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference validity
+  - **Claim pointer** "Mendelian randomization identified a causal relationship between diabetes-related SNPs and OA" and "we identified the molecular mechanisms linking DM and OA"
+  - **Evidence pointer** Section 3.1, Figure 1
+  - **Concern** The MR analysis reports an OR of 1.00252 (95% CI 1.0005543-1.00449, p=0.012). This effect size is extremely small and may not represent a clinically meaningful causal effect. The authors do not report the number of SNPs used as instruments after clumping, the F-statistics for individual instruments, or the results of heterogeneity and pleiotropy tests beyond the MR-Egger intercept. The direction of effect is not contextualized with absolute risk. The claim of a "causal relationship" is overstated given the magnitude and the limited sensitivity analyses presented.
+  - **Why it matters** The central claim of the manuscript rests on this MR result. If the causal estimate is not robust or is trivially small, the entire premise of the study is weakened. The authors also do not discuss the clinical relevance of an OR of 1.00252 in the context of OA incidence.
+  - **Resolution test** Provide a full MR reporting table including number of instruments, F-statistics, heterogeneity tests (Cochran Q), pleiotropy tests (MR-Egger intercept, MR-PRESSO global test results), and a leave-one-out plot. Report the causal estimate in absolute terms (e.g., risk difference per 1-unit increase in log-odds of DM). Discuss the clinical significance of the effect size. Consider replication in an independent GWAS for OA (e.g., UK Biobank or arcOGEN).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation sufficiency
+  - **Claim pointer** "In chondrocytes, hyperglycemia upregulated PTEN and downregulated GATA3 expression" and "the impact of a high-glucose environment on ATDC5 cells could be modulated by PTEN and GATA3"
+  - **Evidence pointer** Section 3.11, Figure 8
+  - **Concern** The experimental validation is limited to RT-qPCR measurement of two genes in a single mouse chondrogenic cell line (ATDC5) at two time points (6h and 24h). No protein-level validation, no functional assays (e.g., apoptosis, proliferation, inflammation), no knockdown/overexpression experiments, and no human cell or tissue validation are provided. The claim that these genes "modulate" the cellular response is not supported by the data, which only show expression changes.
+  - **Why it matters** The title and conclusion present PTEN and GATA3 as "key molecular mediators." Expression correlation alone cannot establish a mediating or causal role. The functional claim requires perturbation experiments.
+  - **Resolution test** Add protein-level analysis (Western blot or immunohistochemistry), functional assays relevant to OA pathology (e.g., apoptosis, matrix metalloproteinase expression, inflammatory cytokine secretion), and loss/gain-of-function experiments. If human samples are unavailable, state this explicitly and temper the claims accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data integration and consistency
+  - **Claim pointer** "A total of 142 co-DEGs were identified, with PTEN and GATA3 showing significant diagnostic relevance"
+  - **Evidence pointer** Sections 3.2, 3.5, Figures 2, 5
+  - **Concern** The manuscript does not clarify whether the differential expression analysis was performed separately for DM (GSE21340) and OA (GSE51588) and then intersected, or whether a combined analysis was conducted. The direction of expression change for PTEN and GATA3 in the GEO datasets is not explicitly stated. The ROC analysis reports AUC values (0.547 for PTEN in DM, 0.930 in OA; 0.853 for GATA3 in DM, 0.865 in OA), but the authors do not explain why PTEN has poor diagnostic value in DM yet high value in OA, and the opposite pattern is not discussed. The selection of these two genes from 142 co-DEGs is not justified beyond hub gene ranking.
+  - **Why it matters** The diagnostic relevance claim is central to the translational value of the study. Inconsistent or unexplained AUC values undermine the interpretation. The lack of clarity on the analysis pipeline affects reproducibility.
+  - **Resolution test** Clarify the differential expression workflow (separate vs. combined, batch correction, platform harmonization). Report the log2 fold-change and adjusted p-values for PTEN and GATA3 in each dataset. Provide a justification for hub gene selection (e.g., ranking criteria, connectivity scores). Discuss the discrepancy in AUC values across datasets.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Molecular docking and drug prediction validity
+  - **Claim pointer** "Molecular docking indicated that GATA3 inhibitors exhibited higher binding affinities than PTEN inhibitors, with ZK-806711 emerging as a promising dual-target inhibitor"
+  - **Evidence pointer** Section 3.9, Table 2
+  - **Concern** The docking methodology is described only superficially. The authors do not state the docking software version parameters, the grid box dimensions and coordinates, the preparation of the protein structures (e.g., removal of water, addition of hydrogens), or the validation of the docking protocol (e.g., redocking of co-crystallized ligands). The selection of the drug library is not described. The claim that ZK-806711 is a "promising dual-target inhibitor" is based solely on docking scores, which are not experimentally validated. The biological plausibility of targeting PTEN (a phosphatase) and GATA3 (a transcription factor) with small molecules is not discussed.
+  - **Why it matters** Docking scores are not reliable predictors of in vivo efficacy. Overinterpretation of computational results can mislead readers. The therapeutic claims are not supported by the evidence level.
+  - **Resolution test** Provide full docking parameters and validation. Include a table of all tested compounds with scores. Discuss the limitations of docking for this target class. If possible, perform molecular dynamics simulations or binding assays. Temper the language from "promising" to "computationally predicted."
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** ADMET interpretation
+  - **Claim pointer** "ADMET analysis suggested that Genz-10850 is suitable for CNS-targeted therapy"
+  - **Evidence pointer** Section 3.10, Table 3, Figure 7
+  - **Concern** The ADMET analysis is presented for only two compounds (Genz-10850 and N-cyclopropyl benzamide), but the rationale for selecting these two from the larger set is not given. The claim of CNS suitability is based on predicted blood-brain barrier penetration, but the authors do not discuss the implications of CNS penetration for an OA therapy. The toxicity predictions (hERG, carcinogenicity) are presented as binary values without confidence intervals or discussion of model limitations.
+  - **Why it matters** The ADMET section is disconnected from the disease context. CNS penetration may be irrelevant or even undesirable for an OA drug. The predictive nature of these tools is not acknowledged.
+  - **Resolution test** Justify the selection of compounds for ADMET analysis. Discuss the relevance of CNS penetration for OA treatment. Acknowledge the limitations of computational ADMET predictions. Consider comparing with known OA drugs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting transparency
+  - **Affected element** Methods section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The GWAS data harmonization process is not described. The authors do not state whether effect alleles were aligned, whether palindromic SNPs were handled, or whether proxies were used for missing SNPs.
+  - **Required correction** Add a paragraph describing the harmonization steps, including allele alignment, removal of palindromic SNPs, and use of proxies if applicable.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1, Figure 1
+  - **Issue** The MR results are reported only for the IVW method in the text. The results of MR-Egger, weighted median, and MR-PRESSO are not reported numerically, making it impossible to assess consistency across methods.
+  - **Required correction** Report the effect estimates, confidence intervals, and p-values for all MR methods in the text or in a supplementary table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 2
+  - **Evidence pointer** Section 3.2, Figure 2
+  - **Issue** The text states "GSE51558" in one instance (Section 3.2) while the dataset is elsewhere referred to as GSE51588. This is likely a typographical error but creates confusion.
+  - **Required correction** Correct the dataset identifier to GSE51588 throughout the manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language precision
+  - **Affected element** Abstract and Conclusion
+  - **Evidence pointer** Abstract, Section 6
+  - **Issue** The phrase "key molecular mediators" implies a causal mechanistic role that is not established by the data. The conclusion states "we identified the molecular mechanisms linking DM and OA," which overstates the findings.
+  - **Required correction** Revise the language to "potential mediators" and "candidate molecular links" to match the evidence level.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data Availability Statement
+  - **Evidence pointer** Data Availability Statement
+  - **Issue** The statement says data are available upon request from the corresponding author, which is inconsistent with the journal's likely policy requiring public deposition of GWAS and GEO data. The GEO datasets are public, and the GWAS data are from public repositories.
+  - **Required correction** Provide direct access links to the GEO datasets and GWAS summary statistics, or state that all data are publicly available with appropriate accession numbers.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Citation completeness
+  - **Affected element** Methods sections 2.9-2.11
+  - **Evidence pointer** Sections 2.9-2.11
+  - **Issue** The methods for molecular docking and ADMET analysis do not cite the specific software versions or the original publications for AutoDock Vina, PyRx, QikProp, and ADMETlab 2.0.
+  - **Required correction** Add citations for all software tools and specify version numbers.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Experimental design
+  - **Affected element** Section 2.12
+  - **Evidence pointer** Section 2.12
+  - **Issue** The cell culture experiments use only a mouse chondrogenic cell line (ATCD5) with no primary human cells or in vivo models. The glucose concentration (25 mM) is standard for high-glucose studies, but the authors do not provide an osmotic control (e.g., mannitol).
+  - **Required correction** Add an osmotic control group to rule out hyperosmolarity effects. Acknowledge the limitation of using a single cell line.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (MR effect size and sensitivity analyses), R1-M2 (experimental validation insufficiency), R1-M3 (data integration clarity), R1-M4 (docking methodology transparency).
+- **Assessment against Nature-style criteria**  
+  **Originality:** Moderate. The combination of MR, transcriptomics, and network analysis is not novel, and PTEN and GATA3 have been previously implicated in both DM and OA. The dual-target inhibitor finding is a minor novel computational contribution.  
+  **Scientific importance:** Moderate. The clinical question is important, but the small effect size and lack of functional validation limit the potential impact. The findings are incremental rather than transformative.  
+  **Interdisciplinary readership:** The manuscript may appeal to researchers in endocrinology, rheumatology, and computational biology. However, the disconnect between the computational and experimental sections reduces the coherence for a broad audience.  
+  **Technical soundness:** Several technical issues need resolution, including MR sensitivity reporting, docking validation, and experimental design. The lack of multiple-testing correction in DEG analysis is a concern.  
+  **Readability for nonspecialists:** The manuscript is generally readable, but the methods sections are dense and the transition from bioinformatics to experimental validation is abrupt. The discussion is overly speculative in places.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential but requires substantial revisions, particularly in strengthening the MR analysis, providing functional validation, and tempering the causal and therapeutic claims.
+
+## Risk / unsupported claims
+- The claim of a "causal relationship" between DM and OA based on an OR of 1.00252 is unsupported without additional sensitivity analyses and discussion of clinical significance.
+- The claim that PTEN and GATA3 are "key molecular mediators" is unsupported by the experimental data, which only show mRNA expression changes in one cell line.
+- The claim that ZK-806711 is a "promising dual-target inhibitor" is unsupported without experimental validation of binding or efficacy.
+- The claim that "ADMET analysis suggested that Genz-10850 is suitable for CNS-targeted therapy" is an overinterpretation of computational predictions.
+- The statement that "the impact of a high-glucose environment on ATDC5 cells could be modulated by PTEN and GATA3" is not supported by any perturbation experiments.
+- The assertion that the identified miRNAs "have a significant impact" on DM-OA comorbidity is speculative and not experimentally validated.

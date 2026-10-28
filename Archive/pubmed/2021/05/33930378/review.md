@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report systematic analysis of human hepatic FXR splice variants, identifying four novel isoforms (FXRalpha5-8) arising from previously undetected exon skipping events. These isoforms show diminished DNA binding and impaired transactivation. FXRalpha5 suppresses FXRalpha2 transactivation, is deficient in heterodimerization, coactivator recruitment, and ligand binding, and exhibits low uniform tissue expression. Molecular dynamics simulations provide mechanistic explanation.
+- **Visible evidence base** Abstract text only; no experimental data, statistical details, or methodological descriptions provided
+- **Missing materials affecting confidence** Full methods, all experimental results, figures, tables, statistical analyses, simulation parameters, and validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding novel FXR splice variants with functional deficiency and dominant negative activity. However, the evidence base is limited to the abstract, and several claims cannot be evaluated without access to the underlying data. The identification of four novel isoforms and the characterization of FXRalpha5 are scientifically plausible but require rigorous validation. The dominant negative effect is the most notable claim, yet its mechanistic basis and physiological relevance remain insufficiently supported from the provided material.
+- **Who would be interested in the results, and why** Researchers in nuclear receptor biology, bile acid metabolism, and liver disease pathogenesis would be interested. Those studying alternative splicing in drug target genes and transcriptional regulation may also find relevance. The potential dominant negative isoform could have implications for FXR-targeted therapies in cholestatic and metabolic liver diseases.
+- **Major strengths** The study addresses a gap in FXR isoform diversity by performing systematic analysis in human hepatocytes. The identification of four novel isoforms expands the known repertoire. The combination of functional assays with molecular dynamics simulations provides a multi-level approach. The dominant negative activity of FXRalpha5 is a distinctive finding with potential biological significance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims identification of four novel splice variants (FXRalpha5-8) in human hepatocytes resulting from previously undetected exon skipping events.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of novelty and the detection of exon skipping events cannot be verified without experimental evidence such as RT-PCR, sequencing, or bioinformatic analysis. The abstract does not specify the detection method, sample size, or validation criteria.
+  - **Why it matters** Novel isoform identification requires robust evidence to exclude artifacts such as PCR errors, sequencing mistakes, or contamination. Without this, the foundational claim of the study is not established.
+  - **Resolution test** Provide representative gel images, sequencing chromatograms, or RNA-seq data with read coverage supporting exon skipping. Include validation in multiple biological replicates and independent detection methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional evidence
+  - **Claim pointer** The abstract claims that FXRalpha5 suppresses the transactivation activity of FXRalpha2 and is deficient in heterodimerization, coactivator recruitment, and ligand binding.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The functional characterization of FXRalpha5 is described without quantitative data. The abstract does not report assay types, concentrations, controls, or statistical significance. The dominant negative effect is a strong claim that requires demonstration of specificity and dose dependence.
+  - **Why it matters** Dominant negative activity has therapeutic implications. If the effect is not robust or specific, the conclusion may be overstated. The mechanistic deficiencies (heterodimerization, coactivator recruitment, ligand binding) need to be shown with appropriate positive and negative controls.
+  - **Resolution test** Provide dose-response curves for FXRalpha5 suppression of FXRalpha2, co-transfection assays with reporter constructs, and binding assays with purified proteins. Include statistical analysis and effect sizes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic support
+  - **Claim pointer** The abstract claims that molecular dynamics simulations offered an explanation for the behavior of FXRalpha5 on the molecular level.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The simulation results are mentioned but not described. No details on simulation length, force field, system setup, or comparison with experimental data are provided. The link between simulation and observed functional deficiency is not articulated.
+  - **Why it matters** Molecular dynamics can provide valuable mechanistic insight, but only if the simulations are well-validated and directly connected to experimental observations. Without details, the claim is not assessable.
+  - **Resolution test** Describe simulation parameters, show structural comparisons, and demonstrate how specific molecular interactions correlate with functional outcomes. Provide validation against known FXR structures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Nomenclature
+  - **Evidence pointer** Abstract
+  - **Issue** The naming of novel isoforms as FXRalpha5-8 is introduced without explanation of the numbering convention relative to existing variants.
+  - **Required correction** Clarify the naming scheme and how it relates to previously described FXRalpha1-4.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Expression data
+  - **Evidence pointer** Abstract
+  - **Issue** The claim of low uniform expression in nearly all human tissues lacks quantitative context.
+  - **Required correction** Provide expression levels relative to known FXR isoforms and specify the tissue panel and detection method.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Clinical relevance
+  - **Evidence pointer** Abstract
+  - **Issue** The final statement about possible associations with liver diseases is vague and not tied to any data.
+  - **Required correction** Either remove the speculation or provide preliminary evidence or a clear hypothesis for future testing.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The identification of novel isoforms and the dominant negative activity are central claims that require direct experimental evidence. Without these, the case for novel functional isoforms is not established.
+- **Assessment against Nature-style criteria** Originality is moderate; the finding of novel splice variants is incremental but the dominant negative isoform adds interest. Scientific importance is potentially high for liver disease research, but the abstract does not demonstrate physiological relevance. Interdisciplinary readership is limited to nuclear receptor and liver biology specialists. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is adequate but assumes familiarity with FXR biology and nuclear receptor terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the lack of experimental detail prevents validation. Supportive if technical concerns are resolved with full data.
+
+## Risk / unsupported claims
+- The claim of four novel splice variants is unsupported without detection and validation data.
+- The dominant negative activity of FXRalpha5 is unsupported without quantitative functional assays.
+- The mechanistic explanation from molecular dynamics simulations is not assessable without simulation details.
+- The tissue expression pattern claim is unsupported without quantitative data.
+- The potential association with liver diseases is speculative and not supported by any evidence in the abstract.

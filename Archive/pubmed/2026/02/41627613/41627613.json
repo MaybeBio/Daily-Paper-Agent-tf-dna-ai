@@ -1,0 +1,417 @@
+{
+  "identity": {
+    "pmid": "41627613",
+    "doi": "10.1007/s12035-025-05401-7",
+    "title": "Neuropeptide S Protects Dopaminergic Neurons in a Paraquat-Induced Parkinson's Model Using SH-SY5Y Cells."
+  },
+  "content": {
+    "abstract": "This study is the first to comprehensively explore both intracellular and computational mechanisms through which Neuropeptide S (NPS) protects against paraquat-induced dopaminergic toxicity in a Parkinson's disease (PD)-like SH-SY5Y cell model. Paraquat induces oxidative stress, mitochondrial dysfunction, and dopaminergic neuron loss, mimicking key PD features. Bioinformatic analyses, including Reactome pathway mapping and molecular docking, confirmed a high-affinity interaction between NPS and its receptor NPSR1, activating GPCR-associated signaling. NPS treatment restored intracellular dopamine and ATP levels and increased tyrosine hydroxylase (TH) and vesicular monoamine transporter 2 (VMAT) expression. Cell viability was assessed using the MTT assay, while dopamine levels were measured via LC-MS/MS. p-ERK1/2, total ERK1/2, and Nrf2 were quantified by ELISA and western blot. Oxidative stress markers, including TBARS, MAO-A, MAO-B, and COMT, were analyzed by ELISA. Gene expression of Bax, Bcl-2, Caspase-3, Caspase-8, DAT, and VMAT was evaluated by qRT-PCR. TH, c-Fos, and NPSR1 were visualized using immunofluorescence. NPS significantly improved cell viability and restored ATP levels compromised by paraquat exposure. It also reduced TBARS, MAO-B, and COMT levels, reversed paraquat-induced ERK1/2 phosphorylation, and restored Nrf2 and MAO-A expression. Additionally, NPS upregulated the anti-apoptotic marker Bcl-2. Most of these protective effects were abolished in the presence of the NPSR antagonist ML154, indicating a receptor-mediated mechanism of action. In conclusion, NPS was found to attenuate oxidative stress, support mitochondrial and dopaminergic function, and influence apoptosis-related signaling in our cellular model. These findings suggest that targeting the NPS/NPSR1 system may hold therapeutic potential in neurodegenerative diseases such as PD, warranting further in vivo validation.",
+    "keywords": [
+      "Dopaminergic signaling pathways",
+      "Neuropeptide S",
+      "Oxidative stress",
+      "Paraquat",
+      "Parkinson's disease",
+      "SH-SY5Y cells"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Paraquat/toxicity",
+      "*Dopaminergic Neurons/drug effects/metabolism/pathology",
+      "Cell Line, Tumor",
+      "Oxidative Stress/drug effects",
+      "*Neuropeptides/pharmacology",
+      "Cell Survival/drug effects",
+      "*Neuroprotective Agents/pharmacology",
+      "Adenosine Triphosphate/metabolism",
+      "*Parkinson Disease/pathology/metabolism",
+      "Dopamine/metabolism",
+      "NF-E2-Related Factor 2/metabolism",
+      "*Models, Biological",
+      "Signal Transduction/drug effects",
+      "Mitochondria/drug effects/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kocanci, Fatma Gonca",
+        "Bulbul, Mehmet",
+        "Akcali, Irem",
+        "Kipmen-Korgun, Dijle",
+        "Cubukcu, Ebral",
+        "Aslan, Mutay Aydin",
+        "Oztuzun, Aleyna",
+        "Akkan, Simla Su",
+        "Ceker, Tugce",
+        "Agar, Aysel"
+      ],
+      "short_names": [
+        "Kocanci FG",
+        "Bulbul M",
+        "Akcali I",
+        "Kipmen-Korgun D",
+        "Cubukcu E",
+        "Aslan MA",
+        "Oztuzun A",
+        "Akkan SS",
+        "Ceker T",
+        "Agar A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Laboratory Techniques, Vocational High School of Health Services, Alanya Alaaddin Keykubat University, Alanya/Antalya, Turkiye. gonca.kocanci@alanya.edu.tr.",
+        "Department of Physiology, Faculty of Medicine, Akdeniz University, Antalya, Turkiye.",
+        "Department of Physiology, Faculty of Medicine, Akdeniz University, Antalya, Turkiye.",
+        "Department of Medical Biochemistry, Faculty of Medicine, Akdeniz University, Antalya, Turkiye.",
+        "Department of Physiology, Faculty of Medicine, Akdeniz University, Antalya, Turkiye.",
+        "Department of Medical Biochemistry, Faculty of Medicine, Akdeniz University, Antalya, Turkiye.",
+        "Department of Medical Biochemistry, Faculty of Medicine, Akdeniz University, Antalya, Turkiye.",
+        "Department of Physiology, Faculty of Medicine, Akdeniz University, Antalya, Turkiye.",
+        "Department of Medical Biochemistry, Faculty of Medicine, Akdeniz University, Antalya, Turkiye.",
+        "Department of Physiology, Faculty of Medicine, Akdeniz University, Antalya, Turkiye. ayagar@akdeniz.edu.tr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Koçancı, Fatma Gonca",
+        "short_name": "Koçancı FG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory Techniques, Vocational High School of Health Services, Alanya Alaaddin Keykubat University, Alanya/Antalya, Türkiye. gonca.kocanci@alanya.edu.tr."
+        ]
+      },
+      {
+        "full_name": "Bülbül, Mehmet",
+        "short_name": "Bülbül M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Faculty of Medicine, Akdeniz University, Antalya, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Akçalı, İrem",
+        "short_name": "Akçalı İ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Faculty of Medicine, Akdeniz University, Antalya, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Kipmen-Korgun, Dijle",
+        "short_name": "Kipmen-Korgun D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry, Faculty of Medicine, Akdeniz University, Antalya, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Çubukçu, Ebral",
+        "short_name": "Çubukçu E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Faculty of Medicine, Akdeniz University, Antalya, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Aslan, Mutay Aydın",
+        "short_name": "Aslan MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry, Faculty of Medicine, Akdeniz University, Antalya, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Öztüzün, Aleyna",
+        "short_name": "Öztüzün A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry, Faculty of Medicine, Akdeniz University, Antalya, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Akkan, Simla Su",
+        "short_name": "Akkan SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Faculty of Medicine, Akdeniz University, Antalya, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Çeker, Tugçe",
+        "short_name": "Çeker T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry, Faculty of Medicine, Akdeniz University, Antalya, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Agar, Aysel",
+        "short_name": "Agar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Faculty of Medicine, Akdeniz University, Antalya, Türkiye. ayagar@akdeniz.edu.tr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular neurobiology"
+    ],
+    "journal_abbrev": [
+      "Mol Neurobiol"
+    ],
+    "pub_date": "2026 Feb 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/03 00:06",
+    "fetched_at": "2026-10-01 13:08:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40022159",
+      "39496848",
+      "39483772",
+      "38325715",
+      "37893474",
+      "37832875",
+      "36842752",
+      "36703582",
+      "36688421",
+      "35717837",
+      "35306641",
+      "35236239",
+      "34634709",
+      "34561917",
+      "34451877",
+      "34072275",
+      "33824605",
+      "33810221",
+      "33592258",
+      "33248265",
+      "31905798",
+      "31874349",
+      "31631455",
+      "30825442",
+      "30534379",
+      "30028088",
+      "29118105",
+      "28843913",
+      "28655610",
+      "28433253",
+      "27422411",
+      "26865629",
+      "26350412",
+      "26346901",
+      "26336579",
+      "26122708",
+      "25947082",
+      "25714705",
+      "25280871",
+      "24896296",
+      "24647116",
+      "24252804",
+      "23953445",
+      "23761908",
+      "23691261",
+      "23683503",
+      "23497702",
+      "22965115",
+      "22143804",
+      "21150909",
+      "20950671",
+      "20888368",
+      "20722970",
+      "20179762",
+      "20156501",
+      "19735704",
+      "19717555",
+      "19446248",
+      "19371348",
+      "19339610",
+      "19022279",
+      "18253895",
+      "18056701",
+      "17934957",
+      "17854592",
+      "17678968",
+      "17613937",
+      "17389593",
+      "16600990",
+      "16510128",
+      "16402116",
+      "16263688",
+      "16190885",
+      "15890010",
+      "15312648",
+      "15155744",
+      "14996498",
+      "14744432",
+      "12672865",
+      "12666096",
+      "12324200",
+      "11926994",
+      "11175255",
+      "10809400",
+      "9990505",
+      "8349003",
+      "6329674"
+    ],
+    "similar": [
+      "41627613",
+      "34655599",
+      "26141122",
+      "39560297",
+      "37989471",
+      "40985323",
+      "40518038",
+      "41363052",
+      "39313012",
+      "41460594",
+      "39042624",
+      "41537354",
+      "37446291",
+      "39598753",
+      "41588381",
+      "30513525",
+      "25449120",
+      "42207326",
+      "40972826",
+      "41299521",
+      "40441584",
+      "37145378",
+      "41137178",
+      "26116522",
+      "30463061",
+      "30634017",
+      "26686574",
+      "40410551",
+      "41705245",
+      "24719552",
+      "27003823",
+      "37282969",
+      "40965719",
+      "25308934",
+      "29383690",
+      "30835941",
+      "42607138",
+      "41276706",
+      "22948038",
+      "33999357",
+      "29675576",
+      "26537816",
+      "41714663",
+      "30825442",
+      "31331066",
+      "39471877",
+      "16263688",
+      "27696114",
+      "41077168",
+      "39277761",
+      "39878879",
+      "41609041",
+      "24333330",
+      "35216503",
+      "41837475",
+      "26648392",
+      "34779396",
+      "34346167",
+      "17896796",
+      "23625270",
+      "25218963",
+      "40430379",
+      "41751894",
+      "30141137",
+      "37993864",
+      "38276990",
+      "42759523",
+      "24866057",
+      "36124540",
+      "40414345",
+      "29961319",
+      "27814668",
+      "30615919",
+      "33383311",
+      "42319576",
+      "32321640",
+      "41351721",
+      "41492840",
+      "42570822",
+      "38648865",
+      "40097764",
+      "39017801",
+      "30315936",
+      "39156892",
+      "30143600",
+      "41483847",
+      "41534432",
+      "38317520",
+      "42264744",
+      "31381935",
+      "40907592",
+      "26364587",
+      "32634439",
+      "37220279",
+      "34352280",
+      "39048340",
+      "40288659",
+      "31562951",
+      "41327786",
+      "40203997"
+    ],
+    "review": [
+      "41627613"
+    ],
+    "pmc": [
+      "12864285"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41627613/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12035-025-05401-7",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BAX-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-880",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

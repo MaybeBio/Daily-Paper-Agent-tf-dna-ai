@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39633505",
+  "title": "Image analysis-based identification of high risk ER-positive, HER2-negative breast cancers.",
+  "authors": "Lee, Dong Neuck; Li, Yao; Olsson, Linnea T; Hamilton, Alina M; Calhoun, Benjamin C; Hoadley, Katherine A; Marron, J S; Troester, Melissa A",
+  "journal": "Breast cancer research : BCR",
+  "published_date": "2024-12-05",
+  "window": {
+    "start": "2024-12-02",
+    "end": "2024-12-08"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用H&E图像和CNN进行乳腺癌亚型分类，不涉及蛋白质-DNA互作或TF-DNA结合，与本课题无关。",
+  "abstract": "BACKGROUND: Breast cancer subtypes Luminal A and Luminal B are classified by the expression of PAM50 genes and may benefit from different treatment strategies. Machine learning models based on H&E images may contain features associated with subtype, allowing early identification of tumors with higher risk of recurrence. METHODS: H&E images (n = 630 ER+/HER2-breast cancers) were pixel-level segmented into epithelium and stroma. Convolutional neural network and multiple instance learning were used to extract image features from original and segmented images. Patient-level classification models were trained to discriminate Luminal A versus B image features in tenfold cross-validation, with or without grade adjustment. The best-performing visual classifier was incorporated into envisioned diagnostic protocols as an alternative to genomic testing (PAM50). The protocols were then compared in time-to-recurrence models. RESULTS: Among ER+/HER2-tumors, the image-based protocol differentiated recurrence times with a hazard ratio (HR) of 2.81 (95% CI: 1.73-4.56), which was similar to the HR for PAM50 (2.66, 95% CI: 1.65-4.28). Grade adjustment did not improve subtype prediction accuracy, but did help balance sensitivity and specificity. Among high grade participants, sensitivity and specificity (0.734 and 0.474, respectively) became more similar (0.732 and 0.624, respectively) in grade-adjusted models. The original and epithelium-specific images had similar performance and highest accuracy, followed by stroma or binarized images showing only the epithelial-stromal interface. CONCLUSIONS: Given low rates of genomic testing uptake nationally, image-based methods may help identify ER+/HER2-patients who could benefit from testing.",
+  "abstract_zh": "背景：乳腺癌亚型Luminal A和Luminal B通过PAM50基因表达进行分类，可能受益于不同的治疗策略。基于H&E图像的机器学习模型可能包含与亚型相关的特征，从而能够早期识别复发风险较高的肿瘤。方法：对H&E图像（n = 630例ER+/HER2-乳腺癌）进行像素级分割，分为上皮和间质。使用卷积神经网络和多实例学习从原始图像和分割图像中提取图像特征。训练患者级分类模型，在十倍交叉验证中区分Luminal A与B的图像特征，无论是否进行分级调整。表现最佳的视觉分类器被纳入设想的诊断流程中，作为基因组检测（PAM50）的替代方案。随后，在复发时间模型中比较这些流程。结果：在ER+/HER2-肿瘤中，基于图像的流程区分复发时间的风险比（HR）为2.81（95% CI：1.73-4.56），与PAM50的HR（2.66，95% CI：1.65-4.28）相似。分级调整并未提高亚型预测准确性，但有助于平衡敏感性和特异性。在高分级参与者中，敏感性（0.734）和特异性（0.474）在分级调整模型中变得更加接近（分别为0.732和0.624）。原始图像和上皮特异性图像表现相似且准确性最高，其次是仅显示上皮-间质界面的间质或二值化图像。结论：鉴于全国范围内基因组检测采用率较低，基于图像的方法可能有助于识别可能受益于检测的ER+/HER2-患者。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39633505/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39633505/",
+  "paper_page_path": "papers/pubmed/39633505/index.html"
+}

@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report development of machine learning models (k-nearest neighbor, support vector machine, Gaussian naive Bayes, random forest) to classify inhibitors against STAT3, with random forest performing best. A test dataset from the ZINC database was screened, yielding 20 predicted active compounds at 88% accuracy. These compounds were docked into the STAT3 active site, and two top hits plus a reference compound were subjected to 100 ns molecular dynamics (MD) simulations. The authors conclude that the top hits show greater stability and compactness than the reference and have potential to inhibit STAT3 overexpression.
+- **Visible evidence base** Abstract text only; no quantitative results, model performance metrics beyond accuracy, docking scores, MD analysis details, or compound identifiers are provided
+- **Missing materials affecting confidence** Full methods, model training and validation details, dataset composition, docking protocol, MD simulation parameters, trajectory analyses, figures, tables, and any statistical comparisons
+
+## Reviewer
+- **Overall assessment** The abstract describes a plausible computational workflow combining machine learning, docking, and MD simulation for STAT3 inhibitor discovery. However, the evidence presented is insufficient to evaluate the validity of the claims. Key quantitative results are absent, and the conclusion of inhibitor potential is not supported by the data described. The work may have merit as a preliminary computational study, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Computational chemists and medicinal chemists working on STAT3-targeted cancer therapeutics may find the approach relevant. Researchers applying machine learning to virtual screening could also be interested in the comparative model performance. However, without detailed results, the utility for these audiences is limited.
+- **Major strengths** The study addresses a clinically relevant target (STAT3) with a well-recognized role in multiple cancers. The combination of machine learning, docking, and MD simulation represents a standard and reasonable computational pipeline. The use of multiple algorithms with cross-validation is a sound methodological choice.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that 20 compounds were predicted as active against STAT3 with 88% accuracy.
+  - **Evidence pointer** Methods section, abstract; location not provided
+  - **Concern** The abstract states that 20 compounds were predicted as active with 88% accuracy, but it is unclear what this accuracy refers to. It could be model accuracy on a validation set, or a hit rate in the screening. No confusion matrix, precision, recall, or AUC values are provided. The basis for the 88% figure is not specified.
+  - **Why it matters** Without clarity on the accuracy metric and its context, the predictive performance of the model cannot be assessed. This is central to the claim that the screening was successful.
+  - **Resolution test** Provide the specific metric definition, the dataset on which it was computed, and additional performance measures such as sensitivity, specificity, and ROC-AUC.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that the top two hits revealed greater stability and compactness compared to the standard reference compound based on 100 ns MD simulations.
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** No quantitative MD results are reported. Stability and compactness are typically assessed via root-mean-square deviation (RMSD), root-mean-square fluctuation (RMSF), radius of gyration (Rg), or similar metrics. None are given. The claim of "greater stability and compactness" is therefore unsupported.
+  - **Why it matters** The MD simulation is the primary evidence for the potential efficacy of the predicted hits. Without quantitative data, the conclusion that these compounds are superior to the reference is not established.
+  - **Resolution test** Report RMSD, RMSF, Rg, and any other relevant metrics for the two hits and the reference, with error bars or standard deviations, and describe the statistical significance of differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Conclusion validity
+  - **Claim pointer** The authors conclude that the predicted hits have the ability to inhibit STAT3 overexpression to combat STAT3-associated diseases.
+  - **Evidence pointer** Conclusion section, abstract; location not provided
+  - **Concern** The conclusion extends beyond the computational evidence. Docking scores and MD stability do not demonstrate biological inhibition of STAT3 overexpression. No experimental validation, such as cell-based assays or binding affinity measurements, is described.
+  - **Why it matters** The claim of therapeutic potential is a functional assertion that cannot be supported by in silico methods alone. Overstating conclusions may mislead readers about the maturity of the findings.
+  - **Resolution test** Either temper the conclusion to state that the compounds are promising candidates for further experimental validation, or provide experimental data supporting inhibition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description
+  - **Evidence pointer** Methods section, abstract; location not provided
+  - **Issue** The abstract does not specify the size or composition of the training dataset, the source of known inhibitors, or the criteria for labeling compounds as active or inactive.
+  - **Required correction** Provide details on dataset size, source, and activity thresholds.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model development
+  - **Evidence pointer** Methods section, abstract; location not provided
+  - **Issue** Hyperparameters for the machine learning models are not mentioned, and the random forest model is not described in terms of number of trees or feature selection.
+  - **Required correction** Include key hyperparameters or refer to a supplementary methods file.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Docking and MD details
+  - **Evidence pointer** Methods section, abstract; location not provided
+  - **Issue** The docking software, scoring function, and MD simulation package or force field are not named. The selection criteria for the "good docking scores" are not defined.
+  - **Required correction** Specify software versions, scoring functions, and selection thresholds.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Compound identification
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Issue** The 20 predicted active compounds and the two top hits are not identified by ZINC IDs or chemical structures.
+  - **Required correction** Provide compound identifiers or structures in a table or supplementary material.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of metric definition, absence of quantitative MD results, and overreach in the conclusion collectively prevent the claims from being evaluated or accepted.
+- **Assessment against Nature-style criteria** Originality: The combination of machine learning, docking, and MD for STAT3 is not novel in itself, though specific model comparisons may offer incremental value. Scientific importance: STAT3 is a relevant target, but the abstract does not demonstrate a significant advance over existing computational studies. Interdisciplinary readership: The work may appeal to computational and medicinal chemists, but the lack of detail limits broader appeal. Technical soundness: The described methods are standard, but the absence of quantitative results undermines confidence in technical execution. Readability for nonspecialists: The abstract is generally clear but uses jargon without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a reasonable workflow, but the claims are not supported by the data presented. Substantial additional detail and quantitative results are required before the findings can be assessed.
+
+## Risk / unsupported claims
+- The claim of 88% accuracy is unsupported due to undefined metric context.
+- The claim of greater stability and compactness of the top hits is unsupported without MD metrics.
+- The conclusion that the hits can inhibit STAT3 overexpression is unsupported by computational evidence alone.
+- The general performance of the random forest model relative to other models is stated but not quantified.
+- The relevance of the docking scores to biological activity is asserted without validation.

@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "34020549",
+    "doi": "10.1093/bib/bbaa187",
+    "title": "Proteome-scale analysis of phase-separated proteins in immunofluorescence images."
+  },
+  "content": {
+    "abstract": "Phase separation is an important mechanism that mediates the spatial distribution of proteins in different cellular compartments. While phase-separated proteins share certain sequence characteristics, including intrinsically disordered regions (IDRs) and prion-like domains, such characteristics are insufficient for making accurate predictions; thus, a proteome-wide understanding of phase separation is currently lacking. Here, we define phase-separated proteomes based on the systematic analysis of immunofluorescence images of 12 073 proteins in the Human Protein Atlas. The analysis of these proteins reveals that phase-separated candidate proteins exhibit higher IDR contents, higher mean net charge and lower hydropathy and prefer to bind to RNA. Kinases and transcription factors are also enriched among these candidate proteins. Strikingly, both phase-separated kinases and phase-separated transcription factors display significantly reduced substrate specificity. Our work provides the first global view of the phase-separated proteome and suggests that the spatial proximity resulting from phase separation reduces the requirement for motif specificity and expands the repertoire of substrates. The source code and data are available at https://github.com/cheneyyu/deepphase.",
+    "keywords": [
+      "deep learning",
+      "immunofluorescence images",
+      "liquid-liquid phase separation",
+      "sequence analysis"
+    ],
+    "mesh_terms": [
+      "Deep Learning",
+      "Fluorescent Antibody Technique",
+      "Humans",
+      "Intrinsically Disordered Proteins/*chemistry/isolation & purification/metabolism",
+      "Liquid-Liquid Extraction",
+      "Organelles/metabolism",
+      "Protein Conformation",
+      "Protein Processing, Post-Translational",
+      "*Proteome"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Chunyu",
+        "Shen, Boyan",
+        "You, Kaiqiang",
+        "Huang, Qi",
+        "Shi, Minglei",
+        "Wu, Congying",
+        "Chen, Yang",
+        "Zhang, Chaolin",
+        "Li, Tingting"
+      ],
+      "short_names": [
+        "Yu C",
+        "Shen B",
+        "You K",
+        "Huang Q",
+        "Shi M",
+        "Wu C",
+        "Chen Y",
+        "Zhang C",
+        "Li T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China.",
+        "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China.",
+        "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China.",
+        "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China.",
+        "MOE Key Laboratory of Bioinformatics; Bioinformatics Division and Center for Synthetic & Systems Biology, TNLIST; School of Medicine, Tsinghua University, Beijing, China.",
+        "Institute of Systems Biomedicine, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China.",
+        "MOE Key Laboratory of Bioinformatics; Bioinformatics Division and Center for Synthetic & Systems Biology, TNLIST; School of Medicine, Tsinghua University, Beijing, China.",
+        "Department of Systems Biology, Department of Biochemistry and Molecular Biophysics, Center for Motor Neuron Biology and Disease, Columbia University, New York, USA.",
+        "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Chunyu",
+        "short_name": "Yu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Boyan",
+        "short_name": "Shen B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "You, Kaiqiang",
+        "short_name": "You K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Qi",
+        "short_name": "Huang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Minglei",
+        "short_name": "Shi M",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics; Bioinformatics Division and Center for Synthetic & Systems Biology, TNLIST; School of Medicine, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Congying",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Systems Biomedicine, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics; Bioinformatics Division and Center for Synthetic & Systems Biology, TNLIST; School of Medicine, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chaolin",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Biology, Department of Biochemistry and Molecular Biophysics, Center for Motor Neuron Biology and Disease, Columbia University, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Tingting",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2021 May 20",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/23 06:00",
+    "fetched_at": "2026-10-04 19:44:05"
+  },
+  "links": {
+    "cites": [
+      "41405960",
+      "39979996",
+      "39883284",
+      "39663388",
+      "38459060",
+      "37464880",
+      "35809564",
+      "35687670",
+      "33610793",
+      "33517364"
+    ],
+    "refs": [],
+    "similar": [
+      "34020549",
+      "31694155",
+      "29068531",
+      "33248138",
+      "33610793",
+      "28924037",
+      "34624295",
+      "30924287",
+      "34571015",
+      "36291695",
+      "34418423",
+      "38588835",
+      "37285890",
+      "38855848",
+      "27062995",
+      "34223614",
+      "34830152",
+      "32681491",
+      "33503380",
+      "33078839",
+      "33684117",
+      "37498545",
+      "31724233",
+      "30940742",
+      "27838525",
+      "26307970",
+      "36754681",
+      "26402567",
+      "28002650",
+      "28934129",
+      "29424691",
+      "33555894",
+      "27718363",
+      "36528065",
+      "31941785",
+      "26922996",
+      "30531905",
+      "28387819",
+      "34871434",
+      "30994888",
+      "32824743",
+      "34884901",
+      "30218496",
+      "30878482",
+      "31969649",
+      "33923223",
+      "32503351",
+      "26712748",
+      "31500307",
+      "27291647",
+      "29080786",
+      "34655689",
+      "30471705",
+      "25031324",
+      "24532081",
+      "31506351",
+      "32225071",
+      "27377881",
+      "31260322",
+      "30039638",
+      "31678340",
+      "29397728",
+      "36009025",
+      "26851284",
+      "29626537",
+      "29511089",
+      "29753880",
+      "32553192",
+      "26455390",
+      "26513658",
+      "35659505",
+      "29716768",
+      "33582133",
+      "31207240",
+      "34390736",
+      "29413001",
+      "29945970",
+      "29791766",
+      "33357399",
+      "33567297",
+      "28167781",
+      "29763584",
+      "31023505",
+      "26699268",
+      "36728540",
+      "37574757",
+      "30617047",
+      "29509425",
+      "34108660",
+      "31636951",
+      "34931046",
+      "33325498",
+      "36175485"
+    ],
+    "review": [
+      "34020549",
+      "31694155",
+      "29068531",
+      "33248138",
+      "33610793",
+      "30924287",
+      "34418423",
+      "38588835",
+      "38855848",
+      "34223614",
+      "34830152",
+      "33503380",
+      "33078839",
+      "30940742",
+      "27838525",
+      "36754681",
+      "26402567",
+      "26922996",
+      "34884901",
+      "27291647",
+      "30471705",
+      "24532081",
+      "31678340",
+      "29753880",
+      "29716768",
+      "34390736",
+      "29413001",
+      "33357399",
+      "33567297",
+      "31023505",
+      "30617047",
+      "29509425",
+      "34108660"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/34020549.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34020549",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaa187",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

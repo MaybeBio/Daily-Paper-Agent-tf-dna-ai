@@ -1,0 +1,300 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.11.598349",
+  "title": "Identification of cognate recombination directionality factors for large serine recombinases by virtual pulldown",
+  "doi": "10.1101/2024.06.11.598349",
+  "abstract": "<h4>ABSTRACT</h4> Integrases from the “large serine” family are simple, highly directional site-specific DNA recombinases that have great promise as synthetic biology and genome editing tools. Integrative recombination (mimicking phage or mobile element insertion) requires only integrase and two short (∼40 – 50) DNA sites. The reverse reaction, excisive recombination, does not occur until it is triggered by the presence of a second protein termed a Recombination Directionality Factor (RDF), which binds specifically to its cognate integrase. Identification of RDFs has been hampered due to their lack of sequence conservation and lack of synteny with the phage integrase gene. Here we use Alphafold2-multimer to identify putative RDFs for more than half of a test set of 98 large serine recombinases, and experimental methods to verify predicted RDFs for 4 of 5 integrases chosen as test cases. We find no universally conserved structural motifs among known and predicted RDFs, yet they are all predicted to bind a similar location on their cognate integrase, suggesting convergent evolution of function. Our methodology greatly expands the available genetic toolkit of cognate integrase – RDF pairs.",
+  "authors": [
+    "Shin H",
+    "Holland A",
+    "Alsaleh A",
+    "Retiz AD",
+    "Pigli YZ",
+    "Taiwo-Aiyerin OT",
+    "Reyes TP",
+    "Bello AJ",
+    "Olorunniji FJ",
+    "Rice PA"
+  ],
+  "published_date": "2024-06-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.11.598349",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.11.598349.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR866223",
+    "raw_record": {
+      "id": "PPR866223",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR866223"
+        ]
+      },
+      "doi": "10.1101/2024.06.11.598349",
+      "title": "Identification of cognate recombination directionality factors for large serine recombinases by virtual pulldown",
+      "authorString": "Shin H, Holland A, Alsaleh A, Retiz AD, Pigli YZ, Taiwo-Aiyerin OT, Reyes TP, Bello AJ, Olorunniji FJ, Rice PA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Shin H",
+            "lastName": "Shin",
+            "firstName": "Heewhan",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry & Molecular Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Holland A",
+            "lastName": "Holland",
+            "firstName": "Alexandria",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Pharmacy and Biomolecular Sciences, Faculty of Science, , James Parsons Building, Byrom Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Alsaleh A",
+            "lastName": "Alsaleh",
+            "firstName": "Abdulrazak",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-2875-4928"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Pharmacy and Biomolecular Sciences, Faculty of Science, , James Parsons Building, Byrom Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Retiz AD",
+            "lastName": "Retiz",
+            "firstName": "Alyssa",
+            "initials": "AD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9170-9733"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry & Molecular Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pigli YZ",
+            "lastName": "Pigli",
+            "firstName": "Ying",
+            "initials": "YZ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry & Molecular Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Taiwo-Aiyerin OT",
+            "lastName": "Taiwo-Aiyerin",
+            "firstName": "Oluwateniola",
+            "initials": "OT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Pharmacy and Biomolecular Sciences, Faculty of Science, , James Parsons Building, Byrom Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Reyes TP",
+            "lastName": "Reyes",
+            "firstName": "Tania Peña",
+            "initials": "TP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry & Molecular Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bello AJ",
+            "lastName": "Bello",
+            "firstName": "Adebayo",
+            "initials": "AJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Pharmacy and Biomolecular Sciences, Faculty of Science, , James Parsons Building, Byrom Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Olorunniji FJ",
+            "lastName": "Olorunniji",
+            "firstName": "Femi",
+            "initials": "FJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9389-2981"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Pharmacy and Biomolecular Sciences, Faculty of Science, , James Parsons Building, Byrom Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rice PA",
+            "lastName": "Rice",
+            "firstName": "Phoebe",
+            "initials": "PA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry & Molecular Biology, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9170-9733"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9389-2981"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-2875-4928"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  Integrases from the “large serine” family are simple, highly directional site-specific DNA recombinases that have great promise as synthetic biology and genome editing tools. Integrative recombination (mimicking phage or mobile element insertion) requires only integrase and two short (∼40 – 50) DNA sites. The reverse reaction, excisive recombination, does not occur until it is triggered by the presence of a second protein termed a Recombination Directionality Factor (RDF), which binds specifically to its cognate integrase. Identification of RDFs has been hampered due to their lack of sequence conservation and lack of synteny with the phage integrase gene. Here we use Alphafold2-multimer to identify putative RDFs for more than half of a test set of 98 large serine recombinases, and experimental methods to verify predicted RDFs for 4 of 5 integrases chosen as test cases. We find no universally conserved structural motifs among known and predicted RDFs, yet they are all predicted to bind a similar location on their cognate integrase, suggesting convergent evolution of function. Our methodology greatly expands the available genetic toolkit of cognate integrase – RDF pairs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/X012085/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.06.11.598349"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.06.11.598349"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR866223"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR866223&type=FILE&fileName=EMS196852-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40701553",
+            "reference": "Nucleic acids research. 2025 Jul;53(14):gkaf691",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS196852",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-06-14",
+      "firstPublicationDate": "2024-06-11",
+      "firstIndexDate": "2024-06-14",
+      "fullTextReceivedDate": "2024-07-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

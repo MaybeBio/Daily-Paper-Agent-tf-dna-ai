@@ -1,0 +1,38 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodological soundness, reproducibility, and claims as supported by the provided evidence
+- **Shared manuscript claim summary** The authors present a framework that integrates a data-driven transcription factor co-regulatory network inferred from rheumatoid arthritis patient blood transcriptomics with a manually curated mechanistic RA disease map, and use the resulting integrative network to analyze anti-TNF treatment response data and perform Boolean simulations to explore perturbation effects on key transcription factors.
+- **Visible evidence base** Main text including Methods, Results, Discussion, Conclusions; references to supplementary figures and tables (Figure S1-S4, Tables 1-7) whose content is not fully provided
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not included; detailed parameter settings for CoRegNet, CaSQ, and GINsim not fully specified; no code or data availability statement; no quantitative validation metrics for network inference or Boolean model predictions
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful integrative approach combining data-driven network inference with a curated disease map, and applies it to a clinically relevant question (anti-TNF response in RA). The conceptual framework is sound and the work addresses an important gap in contextualizing transcriptional regulators within signaling pathways. However, the evidence provided is insufficient to fully evaluate the robustness of the inferred network, the validity of the Boolean model, and the biological significance of the simulation results. Several methodological details are missing, and the claims regarding predictive or explanatory power are not fully supported by the presented analyses.
+- **Who would be interested in the results, and why** Researchers in systems biology, network medicine, and rheumatology, particularly those interested in integrative modeling of complex diseases, transcription factor regulatory networks, and in silico prediction of drug response. The framework could be of interest to computational biologists developing methods for combining data-driven and knowledge-based approaches.
+- **Major strengths** The combination of a data-driven co-regulatory network with a manually curated disease map is a sensible and potentially powerful strategy. The use of publicly available datasets and established tools (CoRegNet, CaSQ, GINsim, Cell Collective) enhances reproducibility in principle. The focus on clinically relevant questions, such as anti-TNF response and potential combination therapies, gives the work translational relevance. The stepwise approach from network inference to dynamic modeling is logical and well-structured.
+- **Major Concerns** 
+  - R1-M1: The inference of the co-regulatory network using CoRegNet is described, but key parameters, quality metrics, and validation steps are not reported. The biological relevance of the 19 identified TFs is asserted based on literature, but no systematic enrichment or comparison to known RA-associated regulators is provided.
+  - R1-M2: The integration of the CoRegNet network with the RA map is described only at a high level. The "integration pairing method" is not detailed, and the criteria for matching TFs and merging networks are unclear. The resulting global network's topology and coverage are not quantitatively characterized.
+  - R1-M3: The Boolean model construction relies on CaSQ, but the logical rules generated are not presented or validated. The reduction from 38 to 23 nodes is mentioned but the reduction procedure and its impact on model behavior are not discussed.
+  - R1-M4: The simulation results are presented descriptively, but no quantitative metrics (e.g., agreement with experimental data, robustness analyses, or comparison to random models) are provided. The claim that IL6 and TGFB1 can "counterbalance" TNF blockade is based on qualitative observations without statistical support.
+  - R1-M5: The clinical relevance of the findings is overstated. The analyses are based on a small number of datasets and the simulations are purely in silico; no experimental validation or prospective clinical data are presented to support the predictions.
+- **Minor Comments** 
+  - R1-m1: The abstract mentions "patient-specific models" but the manuscript does not clearly demonstrate how individual patient data are used to generate such models beyond mapping DEGs onto the network.
+  - R1-m2: The choice of the three molecules (TNF, IL6, TGFB1) as focus for the subnetwork is justified in the Discussion, but the rationale could be stated earlier in the Methods.
+  - R1-m3: The manuscript would benefit from a clearer description of the Shiny app's functionality and how users can interact with the network.
+  - R1-m4: The number of samples used for the DEA (GSE138747 and GSE129705) is not clearly stated in the main text; this information is important for assessing statistical power.
+  - R1-m5: The supplementary tables and figures are referenced but not provided in the submitted material, making it impossible to verify the claims about TF literature support, DEG lists, and sensitivity analysis results.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of CoRegNet with a curated disease map is not entirely novel, but the specific application to RA and the integration workflow have some originality. However, the methodological novelty is incremental rather than transformative.
+  - Scientific importance: The work addresses a relevant problem in RA research, but the findings are largely descriptive and lack experimental validation. The potential impact on understanding treatment response is not fully realized.
+  - Interdisciplinary readership: The work bridges computational biology and rheumatology, which could appeal to a broad audience. However, the presentation is heavily computational and may be less accessible to clinical readers.
+  - Technical soundness: The overall approach is reasonable, but the lack of detailed parameters, validation, and quantitative assessment undermines confidence in the results.
+  - Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with network inference, Boolean modeling, and RA biology. Some sections could be clarified for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the manuscript requires substantial additional detail, validation, and possibly experimental support before the claims can be considered robust.
+
+## Risk / unsupported claims
+- The claim that the 19 TFs are "master regulators" in RA is not quantitatively supported; literature citations alone do not establish this.
+- The claim that IL6 and TGFB1 signaling can "counterbalance" TNF blockade is based on qualitative simulation observations without statistical or experimental backing.
+- The statement that the integrative network can inform on "the possibilities of success of a given therapy" is speculative and not supported by the presented data.
+- The assertion that the framework enables "patient-specific models" is not demonstrated; the analyses use group-level data and do not show individual-level predictions.
+- The biological significance of the identified DEGs and mutation carriers in the context of the network is not validated against independent datasets or functional experiments.

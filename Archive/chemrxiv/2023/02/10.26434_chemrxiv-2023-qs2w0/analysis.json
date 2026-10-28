@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2023-qs2w0",
+  "title": "iEdgeDTA: integrated edge information and 1D graph convolutional neural networks for binding affinity prediction",
+  "authors": "Natchanon suviriyapaisal; Duangdao wichadakul",
+  "journal": "ChemRxiv",
+  "published_date": "2023-02-20",
+  "window": {
+    "start": "2023-02-20",
+    "end": "2023-02-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用图卷积网络预测药物-蛋白质结合亲和力，虽涉及蛋白质-DNA互作之外的药物-蛋白体系，但方法可迁移至TF-DNA结合预测，对象与互作轴偏离核心。",
+  "abstract": "Drug repurposing, where an existing low-risk drug is applied for new indications, becomes more attractive in drug development as drug discovery is very costly and time-consuming. However, the wet-lab testing process to find a drug candidate for a new purpose from its possible binding to a protein is still expensive and laborious due to the available vast quantity of drugs and target proteins. This study aims to leverage artificial intelligence to aid drug repurposing by utilizing drug-protein interaction data and estimating their binding affinity. In this work, we propose an estimation approach that employs a graph-based deep learning technique and enhances prediction accuracy by incorporating the compound's edge information as a multi-dimensional feature. In addition, we used a pre-trained model for protein embedding and graph operation over a 1D protein sequence to overcome a fixed-length problem in the language model task and also incorporated the global feature of the protein. We evaluated the performance of our model in the same benchmark datasets using a variety of matrices, and the results show that our model can achieve the best prediction result compared to other state-of-the-art models while at the same time requiring no contact-map information compared to recent graph-based works Availability: https://github.com/cucpbioinfo/iEdgeDTA",
+  "abstract_zh": "药物重定位（drug repurposing），即利用现有低风险药物用于新适应症，在药物开发中变得更具吸引力，因为药物发现成本高昂且耗时。然而，从药物与蛋白质可能结合中寻找新用途候选药物的湿实验测试过程仍然昂贵且费力，因为可用的药物和靶蛋白数量庞大。本研究旨在利用人工智能，通过药物-蛋白质相互作用数据并估算其结合亲和力来辅助药物重定位。在这项工作中，我们提出了一种估算方法，该方法采用基于图的深度学习技术，并通过将化合物的边信息作为多维特征纳入来提高预测准确性。此外，我们使用了预训练模型进行蛋白质嵌入，并对一维蛋白质序列进行图操作，以克服语言模型任务中的固定长度问题，同时整合了蛋白质的全局特征。我们在相同基准数据集上使用多种矩阵评估了模型性能，结果表明，与最近基于图的工作相比，我们的模型在无需接触图信息的情况下，能够达到最佳预测结果，优于其他最先进模型。可用性：https://github.com/cucpbioinfo/iEdgeDTA",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2023-qs2w0",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2023-qs2w0",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2023-qs2w0/index.html"
+}

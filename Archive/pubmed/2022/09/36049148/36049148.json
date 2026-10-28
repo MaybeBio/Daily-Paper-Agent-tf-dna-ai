@@ -1,0 +1,516 @@
+{
+  "identity": {
+    "pmid": "36049148",
+    "doi": "10.1200/CCI.22.00034",
+    "title": "Leveraging an Informatics Approach to Identify an Unmet Clinical Need for BRCA1/2 Testing Among Patients With Ovarian Cancer."
+  },
+  "content": {
+    "abstract": "PURPOSE: Although BRCA1/2 testing in ovarian cancer improves outcomes, it is vastly underutilized. Scalable approaches are urgently needed to improve genomically guided care. METHODS: We developed a Natural Language Processing (NLP) pipeline to extract electronic medical record information to identify recipients of BRCA testing. We applied the NLP pipeline to assess testing status in 308 patients with ovarian cancer receiving care at a National Cancer Institute Comprehensive Cancer Center (main campus [MC] and five affiliated clinical network sites [CNS]) from 2017 to 2019. We compared characteristics between (1) patients who had/had not received testing and (2) testing utilization by site. RESULTS: We found high uptake of BRCA testing (approximately 78%) from 2017 to 2019 with no significant differences between the MC and CNS. We observed an increase in testing over time (67%-85%), higher uptake of testing among younger patients (mean age tested = 61 years v untested = 65 years, P = .01), and higher testing among Hispanic (84%) compared with White, Non-Hispanic (78%), and Asian (75%) patients (P = .006). Documentation of referral for an internal genetics consultation for BRCA pathogenic variant carriers was higher at the MC compared with the CNS (94% v 31%). CONCLUSION: We were able to successfully use a novel NLP pipeline to assess use of BRCA testing among patients with ovarian cancer. Despite relatively high levels of BRCA testing at our institution, 22% of patients had no documentation of genetic testing and documentation of referral to genetics among BRCA carriers in the CNS was low. Given success of the NLP pipeline, such an informatics-based approach holds promise as a scalable solution to identify gaps in genetic testing to ensure optimal treatment interventions in a timely manner.",
+    "keywords": [],
+    "mesh_terms": [
+      "BRCA1 Protein/genetics",
+      "*BRCA2 Protein/genetics",
+      "*Consumer Health Informatics/methods",
+      "Female",
+      "Genetic Testing",
+      "Humans",
+      "Middle Aged",
+      "Natural Language Processing",
+      "*Ovarian Neoplasms/diagnosis/genetics/pathology",
+      "Referral and Consultation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gray, Stacy W",
+        "Ottesen, Rebecca A",
+        "Currey, Madeline",
+        "Cristea, Mihaela",
+        "Nikowitz, Janet",
+        "Shehayeb, Susan",
+        "Lozano, Vanessa",
+        "Hom, Julie",
+        "Kilburn, Julie",
+        "Lopez, Lisa N",
+        "Wing, Sam",
+        "Sosa, Ernesto",
+        "Shen, Jenny",
+        "Morris, Michael",
+        "Dilsizian, Bedros",
+        "Joseph, Thomas",
+        "Shen, James",
+        "Adeimy, Camille",
+        "Phillips, Tanyanika",
+        "Bahadini, Bahareh",
+        "Niland, Joyce C"
+      ],
+      "short_names": [
+        "Gray SW",
+        "Ottesen RA",
+        "Currey M",
+        "Cristea M",
+        "Nikowitz J",
+        "Shehayeb S",
+        "Lozano V",
+        "Hom J",
+        "Kilburn J",
+        "Lopez LN",
+        "Wing S",
+        "Sosa E",
+        "Shen J",
+        "Morris M",
+        "Dilsizian B",
+        "Joseph T",
+        "Shen J",
+        "Adeimy C",
+        "Phillips T",
+        "Bahadini B",
+        "Niland JC"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6948-0143",
+        "ORCID: 0000-0003-3839-7261",
+        "ORCID: 0000-0002-4510-6496",
+        "ORCID: 0000-0002-0059-2611",
+        "ORCID: 0000-0002-2465-8988",
+        "ORCID: 0000-0002-5742-3229",
+        "ORCID: 0000-0002-3001-517X"
+      ],
+      "affiliations": [
+        "City of Hope, Duarte, CA.",
+        "City of Hope, Duarte, CA.",
+        "City of Hope, Duarte, CA.",
+        "City of Hope, Duarte, CA.",
+        "City of Hope, Duarte, CA.",
+        "City of Hope, Duarte, CA.",
+        "City of Hope, Duarte, CA.",
+        "City of Hope, Duarte, CA.",
+        "City of Hope, Duarte, CA.",
+        "University of Texas at Austin, Austin, TX.",
+        "Health Economics and Outcomes Research, Intuitive Surgical, Sunnyvale, CA.",
+        "Regal Medical Group, Northridge, CA.",
+        "The State University of New York at Stony Brook, Stony Brook, NY.",
+        "City of Hope, Duarte, CA.",
+        "City of Hope, Duarte, CA.",
+        "City of Hope, Duarte, CA.",
+        "City of Hope, Duarte, CA.",
+        "City of Hope, Duarte, CA.",
+        "City of Hope, Duarte, CA.",
+        "City of Hope, Duarte, CA.",
+        "City of Hope, Duarte, CA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gray, Stacy W",
+        "short_name": "Gray SW",
+        "identifiers": [
+          "0000-0001-6948-0143"
+        ],
+        "affiliations": [
+          "City of Hope, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Ottesen, Rebecca A",
+        "short_name": "Ottesen RA",
+        "identifiers": [],
+        "affiliations": [
+          "City of Hope, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Currey, Madeline",
+        "short_name": "Currey M",
+        "identifiers": [],
+        "affiliations": [
+          "City of Hope, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Cristea, Mihaela",
+        "short_name": "Cristea M",
+        "identifiers": [],
+        "affiliations": [
+          "City of Hope, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Nikowitz, Janet",
+        "short_name": "Nikowitz J",
+        "identifiers": [],
+        "affiliations": [
+          "City of Hope, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Shehayeb, Susan",
+        "short_name": "Shehayeb S",
+        "identifiers": [
+          "0000-0003-3839-7261"
+        ],
+        "affiliations": [
+          "City of Hope, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Lozano, Vanessa",
+        "short_name": "Lozano V",
+        "identifiers": [
+          "0000-0002-4510-6496"
+        ],
+        "affiliations": [
+          "City of Hope, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Hom, Julie",
+        "short_name": "Hom J",
+        "identifiers": [
+          "0000-0002-0059-2611"
+        ],
+        "affiliations": [
+          "City of Hope, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Kilburn, Julie",
+        "short_name": "Kilburn J",
+        "identifiers": [],
+        "affiliations": [
+          "City of Hope, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Lopez, Lisa N",
+        "short_name": "Lopez LN",
+        "identifiers": [],
+        "affiliations": [
+          "University of Texas at Austin, Austin, TX."
+        ]
+      },
+      {
+        "full_name": "Wing, Sam",
+        "short_name": "Wing S",
+        "identifiers": [],
+        "affiliations": [
+          "Health Economics and Outcomes Research, Intuitive Surgical, Sunnyvale, CA."
+        ]
+      },
+      {
+        "full_name": "Sosa, Ernesto",
+        "short_name": "Sosa E",
+        "identifiers": [
+          "0000-0002-2465-8988"
+        ],
+        "affiliations": [
+          "Regal Medical Group, Northridge, CA."
+        ]
+      },
+      {
+        "full_name": "Shen, Jenny",
+        "short_name": "Shen J",
+        "identifiers": [
+          "0000-0002-5742-3229"
+        ],
+        "affiliations": [
+          "The State University of New York at Stony Brook, Stony Brook, NY."
+        ]
+      },
+      {
+        "full_name": "Morris, Michael",
+        "short_name": "Morris M",
+        "identifiers": [],
+        "affiliations": [
+          "City of Hope, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Dilsizian, Bedros",
+        "short_name": "Dilsizian B",
+        "identifiers": [],
+        "affiliations": [
+          "City of Hope, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Joseph, Thomas",
+        "short_name": "Joseph T",
+        "identifiers": [],
+        "affiliations": [
+          "City of Hope, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Shen, James",
+        "short_name": "Shen J",
+        "identifiers": [],
+        "affiliations": [
+          "City of Hope, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Adeimy, Camille",
+        "short_name": "Adeimy C",
+        "identifiers": [],
+        "affiliations": [
+          "City of Hope, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Phillips, Tanyanika",
+        "short_name": "Phillips T",
+        "identifiers": [],
+        "affiliations": [
+          "City of Hope, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Bahadini, Bahareh",
+        "short_name": "Bahadini B",
+        "identifiers": [],
+        "affiliations": [
+          "City of Hope, Duarte, CA."
+        ]
+      },
+      {
+        "full_name": "Niland, Joyce C",
+        "short_name": "Niland JC",
+        "identifiers": [
+          "0000-0002-3001-517X"
+        ],
+        "affiliations": [
+          "City of Hope, Duarte, CA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JCO clinical cancer informatics"
+    ],
+    "journal_abbrev": [
+      "JCO Clin Cancer Inform"
+    ],
+    "pub_date": "2022 Sep",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/02 06:00",
+    "fetched_at": "2026-09-28 12:55:28"
+  },
+  "links": {
+    "cites": [
+      "42133609",
+      "39819984"
+    ],
+    "refs": [
+      "34023131",
+      "33560870",
+      "33490215",
+      "32674931",
+      "31986064",
+      "31764758",
+      "31253107",
+      "31065452",
+      "30964716",
+      "30890269",
+      "30760478",
+      "30345884",
+      "29605055",
+      "28916367",
+      "28820644",
+      "28669566",
+      "28545429",
+      "28299592",
+      "28223274",
+      "27908594",
+      "27821315",
+      "27717299",
+      "27617661",
+      "26958219",
+      "26809252",
+      "25983051",
+      "25933682",
+      "25366685",
+      "24882434",
+      "23677535",
+      "23478348",
+      "22711857",
+      "22452356",
+      "19597777",
+      "18629299"
+    ],
+    "similar": [
+      "36049148",
+      "32674931",
+      "30078507",
+      "28549976",
+      "29506471",
+      "32862574",
+      "31600840",
+      "31176273",
+      "31101686",
+      "39264630",
+      "27051053",
+      "31577534",
+      "25236687",
+      "32553590",
+      "33228436",
+      "28407998",
+      "32759180",
+      "36029389",
+      "23539753",
+      "33526602",
+      "17109443",
+      "29161300",
+      "33612442",
+      "30883681",
+      "27514840",
+      "29891109",
+      "31744886",
+      "32203957",
+      "30683677",
+      "27589855",
+      "25863477",
+      "31263023",
+      "29747489",
+      "34823292",
+      "29297111",
+      "26742938",
+      "22684231",
+      "38488054",
+      "32505554",
+      "35216584",
+      "33578357",
+      "30876489",
+      "27209246",
+      "32651552",
+      "26438354",
+      "25792249",
+      "31368036",
+      "35143328",
+      "29241717",
+      "28212807",
+      "32772980",
+      "35343191",
+      "33415992",
+      "36169650",
+      "34171390",
+      "34657357",
+      "38605155",
+      "34356066",
+      "27004793",
+      "30872026",
+      "31411802",
+      "28190312",
+      "26848529",
+      "28657222",
+      "30652428",
+      "29275357",
+      "31125106",
+      "27906166",
+      "30753636",
+      "25980896",
+      "30606148",
+      "26833043",
+      "38866043",
+      "31568561",
+      "36759000",
+      "32131779",
+      "37137525",
+      "24807107",
+      "25224030",
+      "30702160",
+      "38623660",
+      "30350268",
+      "37470594",
+      "28637432",
+      "37283256",
+      "26219728",
+      "30940100",
+      "32180084",
+      "22504673",
+      "28782087",
+      "26867710",
+      "30725392",
+      "27793035",
+      "34930165",
+      "23232854",
+      "30014164",
+      "31537627",
+      "31079832",
+      "24131973"
+    ],
+    "review": [
+      "36049148",
+      "31176273",
+      "31577534",
+      "27514840",
+      "29891109",
+      "35216584",
+      "33578357",
+      "27209246",
+      "35343191",
+      "34356066",
+      "26848529",
+      "27906166"
+    ],
+    "pmc": [
+      "9470148"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://ascopubs.org/doi/10.1200/CCI.22.00034?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/36049148.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36049148/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36049148",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

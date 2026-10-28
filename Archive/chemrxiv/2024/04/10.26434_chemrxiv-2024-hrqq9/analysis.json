@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2024-hrqq9",
+  "title": "Combined physics- and machine-learning-based method to identify druggable binding sites using SILCS-Hotspots",
+  "authors": "Erik Nordquist; Mingtian Zhao; Anmol Kumar; Alex MacKerell",
+  "journal": "ChemRxiv",
+  "published_date": "2024-04-25",
+  "window": {
+    "start": "2024-04-22",
+    "end": "2024-04-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用SILCS物理模拟与机器学习结合识别蛋白质可成药结合位点，虽涉及蛋白-配体互作而非蛋白-DNA，但方法可迁移至TF-DNA界面预测，相关性有限。",
+  "abstract": "Identifying druggable binding sites on proteins is an important and challenging problem, particularly for cryptic, allosteric binding sites that may not be obvious from X-ray, cryo-EM, or predicted structures. The Site-Identification by Ligand Competitive Saturation (SILCS) method accounts for the flexibility of the target protein using all-atom molecular simulations that include various small molecule solutes in aqueous solution. During the simulations the combination of protein flexibility and comprehensive sampling of the water and solute spatial distributions can identify buried binding pockets absent in experimentally-determined structures. Previously, we reported a method for leveraging the information in the SILCS sampling to identify binding sites (termed Hotspots) of small mono- or bi-cyclic compounds, a subset of which coincide with known binding sites of drug-like molecules. Here we build in that physics-based approach and present a machine learning model for ranking the Hotspots according to the likelihood they can accommodate drug-like molecules (e.g. molecular weight > 200 daltons). In the independent validation set, which includes various enzymes and receptors, our model recalls 65% and 88% of experimentally-validated ligand binding sites in the top 10 and 20 ranked Hotspots, respectively. Furthermore, we show that the model’s output Decision Function is a useful metric to predict binding sites and their potential druggability in new targets. Given the utility the SILCS method for ligand discovery and optimization the tools presented represent an important advancement in the identification of orthosteric and allosteric binding sites and the discovery of drug-like molecules targeting those sites.",
+  "abstract_zh": "识别蛋白质上可成药结合位点是一个重要且具有挑战性的的问题，尤其是对于在X射线、冷冻电镜或预测结构中可能不明显的隐蔽性、别构结合位点。配体竞争饱和位点识别（SILCS）方法通过包含多种小分子溶质在水溶液中的全原子分子模拟，考虑了靶蛋白的灵活性。在模拟过程中，蛋白质灵活性与水和溶质空间分布的综合采样相结合，能够识别出实验确定结构中缺失的埋藏结合口袋。此前，我们报道了一种利用SILCS采样信息来识别小分子单环或双环化合物结合位点（称为Hotspots）的方法，其中一部分与已知药物样分子的结合位点重合。在此，我们基于这种物理方法，构建了一个机器学习模型，根据Hotspots容纳药物样分子（例如分子量>200道尔顿）的可能性对其进行排序。在包含多种酶和受体的独立验证集中，我们的模型在前10个和前20个排名Hotspots中分别召回65%和88%的实验验证配体结合位点。此外，我们表明模型的输出决策函数是预测新靶点中结合位点及其潜在可成药性的有用指标。鉴于SILCS方法在配体发现和优化中的实用性，所提出的工具代表了在正构和别构结合位点识别以及针对这些位点的药物样分子发现方面的重要进展。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2024-hrqq9",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2024-hrqq9",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2024-hrqq9/index.html"
+}

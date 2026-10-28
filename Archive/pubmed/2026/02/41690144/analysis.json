@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41690144",
+  "title": "Diffusion-based virtual multi-stain staining for pituitary adenoma histopathology.",
+  "authors": "Chen, Yifan; Qiao, Nidan; Niu, Xinyuan; Zhao, Yao; Yu, Jinhua; Wu, Guoqing; Cheng, Haixia",
+  "journal": "Computerized medical imaging and graphics : the official journal of the Computerized Medical Imaging Society",
+  "published_date": "2026-02-15",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用扩散模型从H&E图像虚拟生成垂体腺瘤IHC染色，虽涉及转录因子标记物，但核心是图像翻译而非蛋白质-DNA互作建模，与本课题无关。",
+  "abstract": "BACKGROUND AND OBJECTIVE: Immunohistochemistry (IHC) for lineage-defining transcription factors-such as Pit1, Tpit, and SF1-together with markers like Ki67 and ACTH, is central to classifying pituitary neuroendocrine tumors and guiding management. Yet preparing multiple IHC slides beyond hematoxylin-eosin (H&E) is costly and inconsistent across sites. We aim to produce clinically reliable virtual IHC stains from a single H&E image under unpaired supervision. METHODS: We develop a diffusion-based one-to-many virtual staining framework that transforms a single H&E image into five key IHC stains. Our approach fuses multi-scale structural features into a unified conditional representation, processed by a shared backbone with stain-specific decoders to enable mutually reinforcing learning across stains. The model incorporates perception-prioritized, timestep-aware diffusion loss and a stain-consistency term during training, combined with classifier-guided sampling during inference, to achieve exceptional fidelity in both cellular structure and chromogenic style. For clinical validation, we further introduced the nuclear positivity rate as a slide-level endpoint to quantitatively evaluate agreement between virtual and real IHC. RESULTS AND CONCLUSION: Compared to the best-performing baseline, our method achieves superior pixel and perceptual fidelity (PSNR  upward arrow +0.94 dB, SSIM  upward arrow +0.015; FID  downward arrow-7.8%, LPIPS  downward arrow-7.9%). For the clinical endpoint, averaged across all stains, it delivers substantial improvements in mean absolute error, correlation, and accuracy relative to the baseline average-reducing MAE by approximately 28.7%, increasing correlation by 0.07, and boosting accuracy by 0.05. Coupled with roughly 80% fewer parameters and comparable throughput, these outcomes position our approach as a unified, clinically focused diffusion model for virtual multi-stain synthesis.",
+  "abstract_zh": "背景与目的：针对谱系定义转录因子（如Pit1、Tpit和SF1）以及Ki67和ACTH等标志物的免疫组织化学（IHC），是分类垂体神经内分泌肿瘤和指导管理的关键。然而，在苏木精-伊红（H&E）染色之外制备多张IHC切片成本高昂，且在不同中心间存在不一致性。我们旨在通过无配对监督，从单张H&E图像生成临床可靠的虚拟IHC染色。方法：我们开发了一种基于扩散的一对多虚拟染色框架，将单张H&E图像转换为五种关键IHC染色。我们的方法将多尺度结构特征融合为统一的条件表示，由共享主干网络配合染色特异性解码器处理，以实现跨染色的相互增强学习。该模型在训练中整合了感知优先、时间步感知的扩散损失和染色一致性项，并在推理中结合分类器引导采样，以在细胞结构和显色风格上实现卓越保真度。为进行临床验证，我们进一步引入核阳性率作为切片级终点，定量评估虚拟IHC与真实IHC之间的一致性。结果与结论：与性能最佳的基线方法相比，我们的方法在像素和感知保真度上表现更优（PSNR 上升 +0.94 dB，SSIM 上升 +0.015；FID 下降 -7.8%，LPIPS 下降 -7.9%）。对于临床终点，所有染色的平均值相对于基线平均值，在平均绝对误差、相关性和准确性方面均有显著提升——MAE降低约28.7%，相关性增加0.07，准确性提高0.05。结合约80%的参数减少和相当的吞吐量，这些结果使我们的方法成为用于虚拟多染色合成的统一、临床导向的扩散模型。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41690144/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41690144/",
+  "paper_page_path": "papers/pubmed/41690144/index.html"
+}

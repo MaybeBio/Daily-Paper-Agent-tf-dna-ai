@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "40453343",
+    "doi": "10.3389/fpls.2025.1558321",
+    "title": "Genome-wide analysis of MYB transcription factors in four Rheum L. plants provides new insights into the synthesis of Anthraquinones."
+  },
+  "content": {
+    "abstract": "R. tanguticum (Rheum tanguticum Maxim. ex Regel) is a herbaceous plant belonging to Polygonaceae family and Rheum L. genus. It holds considerable value in culinary and medicinal realms, primarily due to their rich Anthraquinones (AQs) content. Understanding the molecular mechanisms that regulate AQs biosynthesis is a prerequisite for increasing their yield. MYB transcription factors (TFs) can regulate the synthesis of a variety of plant secondary metabolites. However, only a few research have explored the role of MYB TFs in Rheum L. species. In this study, 1054 MYB genes from four Rheum L. species were identified. The number of MYB genes in each species was similar, distributed across 11 chromosomes. To investigate the phylogeny of identified MYB TFs, they were classified into four subfamilies. Sequence characteristics, phylogenetic relationships, evolutionary trends, and tissue expression of MYB genes in Rheum L. species were further studied. Subsequently, 12 MYB genes were selected, which shown differential expression in different tissues. Further research on these genes indicated a significant correlation with genes in shikimate pathway and polyketide pathway of AQs biosynthesis. Protein-protein interaction simulations in Arabidopsis thaliana and qRT-PCR experiments further confirmed this situation. This research lays the foundation for studying molecular mechanisms by which MYB TFs regulates AQs biosynthesis in four Rheum L. species.",
+    "keywords": [
+      "MYBs",
+      "RNA-Seq",
+      "Rheum L. plants",
+      "anthraquinones",
+      "genome-wide analysis",
+      "qPCR"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Tao",
+        "Zhao, Shuo",
+        "Wang, Bo",
+        "Li, Jianan",
+        "Ye, Zengrong",
+        "Zhang, Famei",
+        "Ma, Huiyuan",
+        "Zhou, Guoying"
+      ],
+      "short_names": [
+        "Wang T",
+        "Zhao S",
+        "Wang B",
+        "Li J",
+        "Ye Z",
+        "Zhang F",
+        "Ma H",
+        "Zhou G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Tibetan Medicine Research, Northwest Institute of Plateau Biology, Chinese Academy of Sciences, Xining, Qinghai, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Key Laboratory of Tibetan Medicine Research, Northwest Institute of Plateau Biology, Chinese Academy of Sciences, Xining, Qinghai, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Key Laboratory of Tibetan Medicine Research, Northwest Institute of Plateau Biology, Chinese Academy of Sciences, Xining, Qinghai, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Key Laboratory of Tibetan Medicine Research, Northwest Institute of Plateau Biology, Chinese Academy of Sciences, Xining, Qinghai, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Key Laboratory of Tibetan Medicine Research, Northwest Institute of Plateau Biology, Chinese Academy of Sciences, Xining, Qinghai, China.",
+        "College of Agriculture and Animal Husbandry, Qinghai University, Xining, China.",
+        "Key Laboratory of Tibetan Medicine Research, Northwest Institute of Plateau Biology, Chinese Academy of Sciences, Xining, Qinghai, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Key Laboratory of Tibetan Medicine Research, Northwest Institute of Plateau Biology, Chinese Academy of Sciences, Xining, Qinghai, China.",
+        "College of Life Sciences, Qinghai Normal University, Xining, China.",
+        "Key Laboratory of Tibetan Medicine Research, Northwest Institute of Plateau Biology, Chinese Academy of Sciences, Xining, Qinghai, China.",
+        "University of Chinese Academy of Sciences, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Tao",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Tibetan Medicine Research, Northwest Institute of Plateau Biology, Chinese Academy of Sciences, Xining, Qinghai, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Shuo",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Tibetan Medicine Research, Northwest Institute of Plateau Biology, Chinese Academy of Sciences, Xining, Qinghai, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Bo",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Tibetan Medicine Research, Northwest Institute of Plateau Biology, Chinese Academy of Sciences, Xining, Qinghai, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jianan",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Tibetan Medicine Research, Northwest Institute of Plateau Biology, Chinese Academy of Sciences, Xining, Qinghai, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Zengrong",
+        "short_name": "Ye Z",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Tibetan Medicine Research, Northwest Institute of Plateau Biology, Chinese Academy of Sciences, Xining, Qinghai, China.",
+          "College of Agriculture and Animal Husbandry, Qinghai University, Xining, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Famei",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Tibetan Medicine Research, Northwest Institute of Plateau Biology, Chinese Academy of Sciences, Xining, Qinghai, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Huiyuan",
+        "short_name": "Ma H",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Tibetan Medicine Research, Northwest Institute of Plateau Biology, Chinese Academy of Sciences, Xining, Qinghai, China.",
+          "College of Life Sciences, Qinghai Normal University, Xining, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Guoying",
+        "short_name": "Zhou G",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Tibetan Medicine Research, Northwest Institute of Plateau Biology, Chinese Academy of Sciences, Xining, Qinghai, China.",
+          "University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in plant science"
+    ],
+    "journal_abbrev": [
+      "Front Plant Sci"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/02 06:28",
+    "fetched_at": "2026-09-30 19:19:27"
+  },
+  "links": {
+    "cites": [
+      "42298393"
+    ],
+    "refs": [
+      "39614134",
+      "39450414",
+      "39384163",
+      "39127768",
+      "38852474",
+      "38594606",
+      "38435020",
+      "37979769",
+      "37943830",
+      "37740491",
+      "37634079",
+      "37612424",
+      "37429977",
+      "37427034",
+      "37393608",
+      "37287391",
+      "37021302",
+      "36716800",
+      "36432870",
+      "36148785",
+      "36145780",
+      "35591925",
+      "35463452",
+      "34711223",
+      "34625025",
+      "34351627",
+      "34249063",
+      "33935728",
+      "33719296",
+      "33693812",
+      "33208749",
+      "32863857",
+      "32795581",
+      "32559851",
+      "32066044",
+      "31358471",
+      "30791939",
+      "29307114",
+      "27613381",
+      "27288366",
+      "27004904",
+      "26582106",
+      "25751142",
+      "25690850",
+      "23050870",
+      "22217600",
+      "20674465",
+      "19665255",
+      "19458158",
+      "18546601",
+      "18280199",
+      "17335570",
+      "16463103",
+      "16285855",
+      "16280546",
+      "16140417",
+      "15994840",
+      "11073452",
+      "10645718",
+      "9055608",
+      "8564545",
+      "3428265",
+      "2231712"
+    ],
+    "similar": [
+      "40453343",
+      "34924706",
+      "36150022",
+      "37612424",
+      "36814206",
+      "38317158",
+      "38288415",
+      "34063617",
+      "39216584",
+      "38175288",
+      "34948043",
+      "32230872",
+      "34588881",
+      "38790216",
+      "33502632",
+      "28732175",
+      "36834551",
+      "37847105",
+      "36530396",
+      "27279646",
+      "28906468",
+      "38730330",
+      "39138573",
+      "35260976",
+      "36902072",
+      "23539153",
+      "36233158",
+      "38732436",
+      "22776508",
+      "36896232",
+      "23289054",
+      "32471942",
+      "26153751",
+      "36140760",
+      "39989073",
+      "35893632",
+      "32024128",
+      "32291329",
+      "37569814",
+      "35178913",
+      "27004683",
+      "35681121",
+      "36074230",
+      "35108591",
+      "23050870",
+      "35216373",
+      "30576529",
+      "37634079",
+      "26214869",
+      "31962068",
+      "39864355",
+      "34681950",
+      "28111967",
+      "32224874",
+      "39448923",
+      "28490275",
+      "39848346",
+      "35701743",
+      "39479299",
+      "37550611",
+      "38539101",
+      "39499341",
+      "39604839",
+      "36264987",
+      "26142104",
+      "16775410",
+      "34136563",
+      "25279462",
+      "33819564",
+      "37964053",
+      "39396954",
+      "40295739",
+      "34979911",
+      "37050056",
+      "31128265",
+      "32517318",
+      "24725266",
+      "23936468",
+      "37027022",
+      "33366315",
+      "36539045",
+      "24885077",
+      "27038155",
+      "30989850",
+      "37111954",
+      "39337532",
+      "17397551",
+      "40045187",
+      "38970019",
+      "34721453",
+      "39179980",
+      "24199943",
+      "32221666",
+      "29927971",
+      "38612520",
+      "38346523",
+      "36812971",
+      "36233003",
+      "31554868",
+      "27335308"
+    ],
+    "review": [
+      "40453343",
+      "28906468",
+      "36074230"
+    ],
+    "pmc": [
+      "12122507"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40453343/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fpls.2025.1558321",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

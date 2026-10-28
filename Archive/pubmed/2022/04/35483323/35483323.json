@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "35483323",
+    "doi": "10.1016/j.ejmech.2022.114382",
+    "title": "Discovery of novel non-steroidal selective glucocorticoid receptor modulators by structure- and IGN-based virtual screening, structural optimization, and biological evaluation."
+  },
+  "content": {
+    "abstract": "Glucocorticoids (GCs) are the most commonly used anti-inflammatory drugs. However, their excellent therapeutic effects are often accompanied by undesirable side effects. To discover selective glucocorticoid receptor modulators (SGRMs) that preferentially induce transrepression with little or no transactivation activity, a structure-based virtual screening by combining molecular docking and InteractionGraphNet (IGN) rescoring was performed, and compound HP210 was identified. HP210 did not induce the transactivation functions of GR while still acted on the NF-kappaB mediated tethered transrepression function (IC(50) = 2.32 muM), and suppressed the secretion of pro-inflammation cytokines IL-1beta and IL-6. Compared with dexamethasone, HP210 showed no cross activities with phylogenetically related mineralcorticoid receptor and progesterone receptor and no significant effect on osteoprotegerin, exhibiting a reduced side-effect profile. Then, guided by the molecular dynamics simulations and binding free energy calculations, compound HP210_b4 with over two-fold higher transrepression activity (IC(50) = 0.99 muM) was discovered. This study reported a group of non-steroidal new-scaffold SGRMs, providing valuable clues for the development of novel anti-inflammatory drugs.",
+    "keywords": [
+      "Glucocorticoid receptor",
+      "InteractionGraphNet",
+      "Molecular dynamics simulation",
+      "Selective glucocorticoid receptor modulators",
+      "Virtual screening"
+    ],
+    "mesh_terms": [
+      "Anti-Inflammatory Agents/pharmacology",
+      "*Glucocorticoids/pharmacology",
+      "Molecular Docking Simulation",
+      "NF-kappa B/metabolism",
+      "*Receptors, Glucocorticoid/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Xueping",
+        "Pang, Jinping",
+        "Chen, Changwei",
+        "Jiang, Dejun",
+        "Shen, Chao",
+        "Chai, Xin",
+        "Yang, Liu",
+        "Zhang, Xujun",
+        "Xu, Lei",
+        "Cui, Sunliang",
+        "Hou, Tingjun",
+        "Li, Dan"
+      ],
+      "short_names": [
+        "Hu X",
+        "Pang J",
+        "Chen C",
+        "Jiang D",
+        "Shen C",
+        "Chai X",
+        "Yang L",
+        "Zhang X",
+        "Xu L",
+        "Cui S",
+        "Hou T",
+        "Li D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China; State Key Lab of CAD&CG, Zhejiang University, Hangzhou, Zhejiang, 310058, China.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China.",
+        "Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, Zhejiang, China.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China.",
+        "Institute of Bioinformatics and Medical Engineering, School of Electrical and Information Engineering, Jiangsu University of Technology, Changzhou, 213001, China.",
+        "Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, Zhejiang, China.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China; State Key Lab of CAD&CG, Zhejiang University, Hangzhou, Zhejiang, 310058, China.",
+        "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China. Electronic address: lidancps@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Xueping",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China; State Key Lab of CAD&CG, Zhejiang University, Hangzhou, Zhejiang, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Jinping",
+        "short_name": "Pang J",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Changwei",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Dejun",
+        "short_name": "Jiang D",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Chao",
+        "short_name": "Shen C",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Chai, Xin",
+        "short_name": "Chai X",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Liu",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xujun",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Lei",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Medical Engineering, School of Electrical and Information Engineering, Jiangsu University of Technology, Changzhou, 213001, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Sunliang",
+        "short_name": "Cui S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, 310058, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Tingjun",
+        "short_name": "Hou T",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China; State Key Lab of CAD&CG, Zhejiang University, Hangzhou, Zhejiang, 310058, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dan",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, 310058, China. Electronic address: lidancps@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Chem"
+    ],
+    "pub_date": "2022 Jul 5",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/29 06:00",
+    "fetched_at": "2026-09-28 07:50:13"
+  },
+  "links": {
+    "cites": [
+      "40718138",
+      "40518771",
+      "40307679",
+      "40270994",
+      "39874452",
+      "37403155",
+      "36845922"
+    ],
+    "refs": [],
+    "similar": [
+      "35483323",
+      "35110698",
+      "36399795",
+      "21718312",
+      "30321666",
+      "39181225",
+      "25666906",
+      "23349769",
+      "25958032",
+      "30591629",
+      "20600811",
+      "14694204",
+      "33476654",
+      "32278042",
+      "21666059",
+      "27592454",
+      "31227605",
+      "28366807",
+      "25875480",
+      "31221758",
+      "29427627",
+      "28785063",
+      "23152771",
+      "31247261",
+      "33127380",
+      "23384835",
+      "36134594",
+      "25245083",
+      "26712006",
+      "7659084",
+      "17622575",
+      "25205742",
+      "32798371",
+      "17630118",
+      "34197882",
+      "9259316",
+      "32365641",
+      "32503533",
+      "22285804",
+      "16243974",
+      "9261164",
+      "18221974",
+      "37467946",
+      "10433509",
+      "21574866",
+      "34506144",
+      "34825505",
+      "9891987",
+      "35198100",
+      "15355994",
+      "23794417",
+      "29031898",
+      "23784308",
+      "10551779",
+      "33276107",
+      "11106637",
+      "23747654",
+      "33771121",
+      "26369990",
+      "38611825",
+      "10496964",
+      "24656565",
+      "11488985",
+      "22132201",
+      "23871663",
+      "12441176",
+      "15379669",
+      "27998979",
+      "9854452",
+      "17138619",
+      "28506584",
+      "28489375",
+      "18537686",
+      "19177906",
+      "26436695",
+      "20469868",
+      "26322830",
+      "16988013",
+      "16289013",
+      "17045197",
+      "20493772",
+      "27076634",
+      "24887434",
+      "12188035",
+      "20977419",
+      "23255118",
+      "21602840",
+      "22743576",
+      "28594906",
+      "15464020",
+      "24446728",
+      "23927519",
+      "25910399",
+      "10619401",
+      "22117551",
+      "24225022",
+      "30929949",
+      "22212616",
+      "11281371",
+      "30460461",
+      "28801231",
+      "11094166",
+      "24735610",
+      "19376972",
+      "17587578",
+      "23267834",
+      "26734587",
+      "21233489",
+      "34825633",
+      "36105346",
+      "34676039",
+      "38274668",
+      "29670697"
+    ],
+    "review": [
+      "35483323",
+      "25958032",
+      "20600811",
+      "32278042",
+      "23384835",
+      "17622575",
+      "25205742",
+      "17630118",
+      "18221974",
+      "35198100",
+      "33276107",
+      "11488985",
+      "12441176",
+      "15379669",
+      "9854452",
+      "17138619",
+      "18537686",
+      "26436695",
+      "17045197",
+      "20493772",
+      "15464020",
+      "25910399",
+      "22212616"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.bindingdb.org/rwd/jsp/dbsearch/PrimarySearch_pubmed.jsp?pubmed_submit=Search&pubmed=35483323",
+        "provider": "BindingDB",
+        "category": "Chemical Information",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0223-5234(22)00284-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/steroids.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steroids"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

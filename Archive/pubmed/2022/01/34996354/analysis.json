@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34996354",
+  "title": "Computational modeling of chromatin accessibility identified important epigenomic regulators.",
+  "authors": "Zhao, Yanding; Dong, Yadong; Hong, Wei; Jiang, Chongming; Yao, Kevin; Cheng, Chao",
+  "journal": "BMC genomics",
+  "published_date": "2022-01-09",
+  "window": {
+    "start": "2022-01-03",
+    "end": "2022-01-09"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过整合DNA序列、TF结合和组蛋白修饰信号构建两层模型预测染色质可及性，虽涉及TF-DNA结合但未聚焦三维互作机制，方法为传统机器学习而非AI或物理模拟，属于广义蛋白-DNA互作相关但深度不足。",
+  "abstract": "Chromatin accessibility is essential for transcriptional activation of genomic regions. It is well established that transcription factors (TFs) and histone modifications (HMs) play critical roles in chromatin accessibility regulation. However, there is a lack of studies that quantify these relationships. Here we constructed a two-layer model to predict chromatin accessibility by integrating DNA sequence, TF binding, and HM signals. By applying the model to two human cell lines (GM12878 and HepG2), we found that DNA sequences had limited power for accessibility prediction, while both TF binding and HM signals predicted chromatin accessibility with high accuracy. According to the HM model, HM features determined chromatin accessibility in a cell line shared manner, with the prediction power attributing to five core HM types. Results from the TF model indicated that chromatin accessibility was determined by a subset of informative TFs including both cell line-specific and generic TFs. The combined model of both TF and HM signals did not further improve the prediction accuracy, indicating that they provide redundant information in terms of chromatin accessibility prediction. The TFs and HM models can also distinguish the chromatin accessibility of proximal versus distal transcription start sites with high accuracy.",
+  "abstract_zh": "染色质可及性对于基因组区域的转录激活至关重要。众所周知，转录因子（TFs）和组蛋白修饰（HMs）在染色质可及性调控中发挥关键作用。然而，目前缺乏量化这些关系的研究。在此，我们构建了一个两层模型，通过整合DNA序列、转录因子结合和组蛋白修饰信号来预测染色质可及性。将该模型应用于两种人类细胞系（GM12878和HepG2）后，我们发现DNA序列对可及性预测的能力有限，而转录因子结合和组蛋白修饰信号均能以高精度预测染色质可及性。根据组蛋白修饰模型，组蛋白修饰特征以细胞系共享的方式决定染色质可及性，其预测能力归因于五种核心组蛋白修饰类型。转录因子模型的结果表明，染色质可及性由一组信息丰富的转录因子决定，包括细胞系特异性和通用转录因子。转录因子和组蛋白修饰信号的组合模型并未进一步提高预测精度，表明它们在染色质可及性预测方面提供冗余信息。转录因子和组蛋白修饰模型还能以高精度区分近端与远端转录起始位点的染色质可及性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34996354/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34996354/",
+  "paper_page_path": "papers/pubmed/34996354/index.html"
+}

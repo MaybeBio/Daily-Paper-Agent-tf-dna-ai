@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.28.620752",
+  "title": "Reliable prediction of protein-protein binding affinity changes upon mutations with Pythia-PPI",
+  "authors": "Fangting Tao; Jinyuan Sun; Bian Wu; George F Gao",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-03",
+  "window": {
+    "start": "2024-10-28",
+    "end": "2024-11-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用多任务学习和自蒸馏预测蛋白-蛋白结合亲和力变化，虽非TF-DNA体系，但方法可迁移至蛋白-DNA互作建模，属广义互作预测。",
+  "abstract": "Protein-protein interactions are essential for numerous biological functions, and predicting binding affinity changes caused by mutations is crucial for understanding the impact of genetic variations and advancing protein engineering. Although machine learning-based methods show promise in improving the prediction accuracy, the scarcity of experimental data remains a significant bottleneck. Here, we utilized multi-task learning and self-distillation to overcome the data limitation and improved the accuracy of deep learning-based protein binding affinity prediction. By incorporating a mutation stability prediction task, the model achieved state-of-the-art accuracy on the SKEMPI dataset and was subsequently used to predict binding affinity changes for millions of mutations, generating an expanded dataset for self-distillation. Compared with prevalent methods, Pythia-PPI increased the Pearson correlation between predictions and experimental data from 0.6447 to 0.7850 on the SKEMPI dataset, and from 0.3654 to 0.6051 on the virial-receptor dataset. These findings demonstrated Pythia-PPI to be a valuable tool for analyzing the fitness landscape of protein-protein interactions. We provided a web server at https://pythiappi.wulab.xyz for easy access to Pythia-PPI.",
+  "abstract_zh": "蛋白质-蛋白质相互作用对众多生物功能至关重要，预测由突变引起的结合亲和力变化对于理解遗传变异的影响和推进蛋白质工程至关重要。尽管基于机器学习的方法在提高预测准确性方面显示出潜力，但实验数据的稀缺性仍然是一个重大瓶颈。在此，我们利用多任务学习和自蒸馏来克服数据限制，并提高了基于深度学习的蛋白质结合亲和力预测的准确性。通过引入突变稳定性预测任务，该模型在SKEMPI数据集上达到了最先进的准确性，并随后用于预测数百万个突变的结合亲和力变化，生成了用于自蒸馏的扩展数据集。与主流方法相比，Pythia-PPI在SKEMPI数据集上将预测与实验数据之间的皮尔逊相关系数从0.6447提升至0.7850，在病毒受体数据集上从0.3654提升至0.6051。这些发现表明，Pythia-PPI是分析蛋白质-蛋白质相互作用适应度景观的宝贵工具。我们提供了一个网页服务器，网址为https://pythiappi.wulab.xyz，以便轻松访问Pythia-PPI。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.28.620752",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.28.620752",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.28.620752/index.html"
+}

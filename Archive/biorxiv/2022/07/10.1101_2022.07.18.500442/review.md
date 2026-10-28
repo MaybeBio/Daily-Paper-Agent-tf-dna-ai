@@ -1,0 +1,115 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supporting information list)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the supplied text
+- **Shared manuscript claim summary** The authors use a convolutional neural network (MuSeAM) to model ChIP-seq data for EBNA2 and EBNA3 across multiple cell lines, identify known and novel DNA-binding motifs, infer cofactor usage, and characterize cell-type specific versus shared biological processes.
+- **Visible evidence base** Abstract, Introduction, Results (narrative only), Discussion, Methods, Supporting Information list
+- **Missing materials affecting confidence** All figures, tables, supporting information files (S1-S5), and supplementary tables are referenced but not provided. No quantitative results, model performance values, motif logos, or enrichment statistics are visible in the supplied text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question about whether viral transcription factors use consistent or cell-type specific DNA-binding mechanisms across human cell lines. The conceptual framing is sound and the use of deep learning for de novo motif discovery is appropriate. However, the supplied text contains no actual results, figures, or quantitative data. All key claims rest on materials that are not visible. The manuscript cannot be evaluated for technical soundness or evidentiary support in its current form.
+- **Who would be interested in the results, and why** Researchers studying Epstein-Barr virus biology, viral transcription factor mechanisms, host-pathogen interactions, and computational genomics. The potential finding that viral TFs use approximately 10 cofactors consistently, in contrast to human TFs using 2-3, would be of interest to the gene regulation community. The methodological approach using interpretable deep learning for ChIP-seq analysis may interest computational biologists.
+- **Major strengths** The question of cell-type specificity in viral TF binding mechanisms is important and understudied. The use of de novo motif discovery rather than only known motif enrichment is a methodological improvement. The comparison between viral and human TF cofactor usage provides a useful conceptual contrast. The multi-cell-line design for EBNA2 and EBNA3 is appropriate for addressing the stated question.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence availability
+  - **Claim pointer** The manuscript claims high prediction accuracy for MuSeAM models, identification of known and novel motifs, approximately 10 consistent cofactors per vTF, and cell-type specific versus shared biological processes.
+  - **Evidence pointer** Results section, Figures 1-7, Tables 1, S1-S2, S3-S5 Folders (none provided)
+  - **Concern** The Results section contains no quantitative results, no figure descriptions, no model performance metrics, no motif information content values, no statistical significance measures, and no enrichment scores. Every substantive claim in the abstract and introduction is unsupported by visible data.
+  - **Why it matters** Without access to the figures, tables, and supporting information, the core claims cannot be verified. The claim of approximately 10 cofactors, the novelty of identified motifs, the cross-cell-line prediction performance, and the GO enrichment results all require quantitative evidence.
+  - **Resolution test** Provide all figures, tables, and supporting information files. Include model performance metrics (AUROC, accuracy) with confidence intervals, motif information content values, statistical significance thresholds for motif matches, cofactor counts with definitions, and GO enrichment statistics with multiple testing corrections.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors state that MuSeAM is more interpretable than conventional CNN and that they benchmarked MuSeAM against conventional CNN models.
+  - **Evidence pointer** Results section, Figure 1, Table 1 (not provided)
+  - **Concern** The claim that MuSeAM and conventional CNN models are "nearly identical" in performance is stated without any visible comparison data. The interpretability advantage is asserted but no demonstration is provided. The hyperparameter tuning process is described but no search space, selection criteria, or final values are given.
+  - **Why it matters** The choice of MuSeAM over conventional CNN is central to the motif discovery approach. Without performance comparison data and interpretability demonstrations, the methodological justification is incomplete. Reproducibility requires the hyperparameter values and model architecture details.
+  - **Resolution test** Provide Table 1 with full performance metrics for both architectures across all datasets. Include the hyperparameter search space, selection procedure, and final hyperparameter values. Demonstrate interpretability by showing how first-layer kernels correspond to motifs and how this aids biological interpretation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Negative control adequacy
+  - **Claim pointer** The authors generated negative sequences using gkmSVM with matching GC and repeat content, and used these for model training and evaluation.
+  - **Evidence pointer** Methods section, "Generating negative sequences"
+  - **Concern** The description of negative sequence generation is incomplete. The authors state that xfold was set to values greater than the positive set size but do not specify the actual values used for each dataset. The tolerance parameters are described as default but not quantified. The number of negative sequences actually generated for each dataset is not reported.
+  - **Why it matters** The quality and size of the negative set directly affect model training and evaluation. If the negative set is too small or poorly matched, classification performance metrics will be inflated. The reproducibility of the negative sequence generation is essential for validating the model results.
+  - **Resolution test** Report the exact xfold values, tolerance parameters, and final negative set sizes for each dataset. Describe the quality control checks on the negative sequences, such as confirming GC content and repeat fraction matching.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novel motif validation
+  - **Claim pointer** The authors identified novel motifs that do not match known human TF motifs even at permissive thresholds, and these motifs have information content comparable to human TF motifs.
+  - **Evidence pointer** Results section, Figure 3, Methods section, "Proposing novel viral binding sites"
+  - **Concern** The criteria for calling a motif "novel" are described but the actual results are not visible. The authors state that two Tier-1 and three Tier-2 novel motifs were identified, but no motif sequences, information content values, or comparison statistics are provided. The claim that these motifs are not degenerate is based on information content values that are not shown.
+  - **Why it matters** The identification of novel motifs is a central claim of the paper. Without the actual motif sequences, information content values, and the specific Tomtom comparison results, the novelty claim cannot be assessed. The biological significance of these motifs depends on their sequence specificity and potential function.
+  - **Resolution test** Provide the motif logos and position weight matrices for all novel motifs. Report the information content per position for each novel motif and the comparison values for known motifs. Show the Tomtom results with E-values and q-values for all comparisons.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Cofactor inference validity
+  - **Claim pointer** The authors claim that each vTF requires approximately 10 cofactors consistently across all binding peaks, and that this contrasts with human TFs which typically use 2-3 cofactors.
+  - **Evidence pointer** Results section, Figures 4-6, Methods section, "Inter cell-line motif comparison"
+  - **Concern** The inference of cofactor usage from motif matches is not described in sufficient detail. The authors do not explain how motif matches at ChIP peaks are converted to cofactor calls, what threshold is used for a motif to be considered present, or how the count of approximately 10 is derived. The comparison to human TF cofactor usage relies on a single prior study without critical assessment.
+  - **Why it matters** The claim of approximately 10 cofactors is a headline finding. If the inference method is not clearly described and validated, the claim is not interpretable. The comparison to human TFs requires that the same inference method be applied to human TF data, or a clear justification for why the comparison is valid.
+  - **Resolution test** Describe the complete pipeline from motif matches to cofactor calls, including all thresholds. Provide the distribution of cofactor counts across peaks and cell lines. Validate the inference method, for example by comparing to known cofactor interactions from biochemical studies. Apply the same method to human TF ChIP-seq data for a direct comparison.
+  - **Concern ID** R1-M6
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Cross-cell-line prediction interpretation
+  - **Claim pointer** The authors state that cross-cell-line model predictions show both common and unique target loci, supporting the idea of shared and cell-type specific binding mechanisms.
+  - **Evidence pointer** Results section, S2 Table (not provided)
+  - **Concern** The cross-cell-line prediction results are referenced but not shown. The interpretation that models performing "fairly well" on other cell lines indicates common targets is not quantified. The threshold for "fairly well" is not defined, and the relationship between prediction performance and biological mechanism is not established.
+  - **Why it matters** The cross-cell-line analysis is the primary evidence for the claim of both shared and cell-type specific mechanisms. Without the actual performance metrics and a clear interpretive framework, this claim is not supported.
+  - **Resolution test** Provide S2 Table with all cross-cell-line prediction metrics. Define the performance thresholds for concluding shared versus unique mechanisms. Consider alternative explanations for cross-cell-line prediction performance, such as sequence similarity between binding sites.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, last sentence
+  - **Evidence pointer** Abstract
+  - **Issue** The phrase "offers the first comprehensive investigation" is a strong claim that is not substantiated in the text. The authors do not discuss prior comparative studies of viral TF binding across cell lines.
+  - **Required correction** Soften the claim or provide a literature review demonstrating that no prior study has addressed this question comprehensively.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Learning CNN model"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the MuSeAM architecture is incomplete. The custom 1D convolution layer is mentioned but not described. The training procedure, loss function, optimizer, learning rate, and number of epochs are not specified.
+  - **Required correction** Provide a complete description of the MuSeAM architecture and training procedure, or cite the original MuSeAM publication with specific reference to the relevant sections.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** GO enrichment analysis
+  - **Evidence pointer** Methods, "Gene set enrichment analysis"
+  - **Issue** The description of GO enrichment analysis is minimal. The authors do not state the background gene set, the multiple testing correction method, or the significance threshold.
+  - **Required correction** Specify the background set, correction method (e.g., Benjamini-Hochberg), and significance threshold. Report the number of enriched terms and the range of adjusted p-values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Methods, "ChIP-Seq raw data preprocessing"
+  - **Evidence pointer** Methods section
+  - **Issue** The GEO accessions are provided as URLs, but some are incomplete or ambiguous. For example, the EBNA2-IB4 entry is listed as a search URL rather than a direct accession.
+  - **Required correction** Provide complete GEO accession numbers (e.g., GSM or GSE identifiers) for all datasets.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results, "Novel motifs" section
+  - **Evidence pointer** Results section
+  - **Issue** The term "novel" is used to describe motifs that do not match known human TF motifs. However, these motifs could match viral TF motifs or motifs from other species. The definition is too narrow.
+  - **Required correction** Clarify that "novel" refers to no match in the specific databases used, and discuss the possibility of matches in other databases or species.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (evidence availability), R1-M2 (methodological validation), R1-M3 (negative control adequacy), R1-M4 (novel motif validation), R1-M5 (cofactor inference validity), R1-M6 (cross-cell-line prediction interpretation)
+- **Assessment against Nature-style criteria** Originality: The question of cell-type specificity in viral TF binding is timely and the use of deep learning for de novo motif discovery is appropriate. However, the claim of novelty is weakened by the lack of visible results and limited discussion of prior work. Scientific importance: The potential finding that viral TFs use many cofactors consistently is interesting, but the importance depends on the validity of the inference method, which cannot be assessed. Interdisciplinary readership: The topic bridges virology, gene regulation, and computational biology, which could attract broad interest. Technical soundness: Cannot be evaluated from the supplied text. The methods descriptions are incomplete and no results are visible. Readability for nonspecialists: The text is generally clear and accessible, but the lack of figures and quantitative results makes the narrative difficult to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important question and the methodological approach is reasonable, but the complete absence of visible results, figures, and quantitative data prevents any assessment of the claims. The authors must provide all supporting materials and address the methodological concerns before the case can be evaluated.
+
+## Risk / unsupported claims
+- The claim that each vTF requires approximately 10 cofactors consistently across all binding peaks is unsupported. No cofactor inference results are visible.
+- The claim that novel motifs were identified with information content comparable to human TF motifs is unsupported. No motif sequences or information content values are provided.
+- The claim that MuSeAM and conventional CNN models perform nearly identically is unsupported. No comparison data are visible.
+- The claim that the study offers the first comprehensive investigation of cell-type specificity in EBNA binding mechanisms is unverifiable from the supplied text.
+- The claim that GO analysis reveals cell-type specific and shared biological processes is unsupported. No enrichment results are visible.
+- The claim that cross-cell-line predictions indicate both common and unique target loci is unsupported. No cross-prediction metrics are provided.
+- The claim that novel motifs are not degenerate is based on information content values that are not shown.
+- The claim that the study provides a roadmap for integrative analysis of vTF binding is a forward-looking statement that cannot be evaluated without the results.

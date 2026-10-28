@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text, including Introduction, Results, Discussion, Methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external validation or replication of data was performed.
+- **Shared manuscript claim summary** The authors propose that EBNA1 recruits TRF2 and RAP1 to the EBV origin of replication (oriP) through a conserved acidic patch on the dorsal surface of the EBNA1 DNA-binding domain, and that this interaction is essential for oriP-dependent replication.
+- **Visible evidence base** Cryo-EM reconstruction at 7.1 Å, XLMS data (804 intraprotein, 402 interprotein crosslinks), EMSA binding assays, AlphaFold3 modeling, replication assays in HEK293 cells, ChIP-qPCR, cycloheximide chase experiments, and sequence/structure comparisons with LANA and E2.
+- **Missing materials affecting confidence** Supplementary figures and files referenced but not provided; raw mass spectrometry data not shown; detailed cryo-EM data processing statistics (e.g., FSC curves, particle numbers per class) not fully described; uncropped gel images not available; statistical details for replication assay quantification not provided.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and well-integrated study combining structural, biochemical, and functional approaches to identify a novel interaction interface between EBNA1 and TRF2-RAP1. The convergence of XLMS, AlphaFold3, and cryo-EM data on the acidic patch is persuasive, and the functional validation through mutagenesis and replication assays strengthens the central claim. However, several technical concerns, particularly regarding the resolution of the cryo-EM map, the interpretation of the XLMS data, and the in vivo relevance of the findings, need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Virologists studying EBV latency and replication, structural biologists interested in protein-DNA and protein-protein interactions, and researchers in the telomere biology field, as the study reveals a novel connection between a viral protein and shelterin components. The findings may also be of interest to those developing therapeutic strategies targeting EBV-associated malignancies.
+- **Major strengths** The study uses a multi-technique approach that provides complementary evidence for the proposed model. The identification of a specific, functionally validated interaction surface on EBNA1 is a significant advance. The proposed model, in which the TRFH domain binds the dorsal surface of EBNA1 while leaving the ORC-interaction surface accessible, is elegant and provides a mechanistic framework for understanding how EBNA1 coordinates host factors at oriP.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The cryo-EM reconstruction at 7.1 Å is used to support the claim that TRF2 and RAP1 exhibit extensive conformational flexibility and that the only stable structural core is formed by EBNA1 and DNA.
+  - **Evidence pointer** Results section, Figure 3, Supplementary Figure 1
+  - **Concern** The manuscript reports a 7.1 Å reconstruction, which is insufficient to resolve side-chain interactions or unambiguously assign secondary structure elements, let alone identify specific protein-protein contacts. The claim that the "dorsal" density does not map to EBNA1 is based on this low-resolution map, and the interpretation that this density represents TRF2 is speculative without further validation. The authors state that the density was "largely lost in 3D modelling," which raises questions about the reliability of the map and the conclusions drawn from it. The lack of a local resolution map or FSC curve in the main text further limits the assessment of map quality.
+  - **Why it matters** The cryo-EM data is a cornerstone of the structural model. If the map is not of sufficient quality to support the conclusions, the central claim that TRF2 binds the dorsal surface of EBNA1 is weakened, and the study's primary structural contribution is undermined.
+  - **Resolution test** Provide a gold-standard FSC curve, local resolution estimates, and a detailed description of the 3D classification/ab initio sorting strategy. Show that the "dorsal" density is reproducible across independent particle subsets and is not an artifact of the low-resolution reconstruction. Ideally, validate the TRF2- acidic patch interaction using a higher-resolution technique, such as cross-linking coupled with high-resolution mass spectrometry on defined sub-complexes, or a targeted mutagenesis combined with a biophysical binding assay (e.g., ITC or MST) using purified TRF2-TRFH and EBNA1-DBD.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The XLMS data are used to map the interaction interface, with the claim that crosslinks are "highly concentrated on four acidic EBNA1 residues: E483, E495, D499, and E500."
+  - **Evidence pointer** Results section, Figure 5, Supplementary Figure 4, Supplementary Files
+  - **Concern** The manuscript reports a large number of crosslinks (804 intraprotein, 402 interprotein) but provides no information on the false discovery rate (FDR) for the crosslink identifications, the number of unique crosslinks after filtering, or the reproducibility between technical replicates. The validation of the XLMS data is limited to mapping intraprotein crosslinks to known structures, which is a good start, but the interprotein crosslinks, which are the key data, are not validated. The claim that the crosslinks are "highly concentrated" on four residues is not supported by a quantitative analysis or a clear threshold for what constitutes "highly concentrated." Furthermore, the use of EDC (zero-length) crosslinking is appropriate for identifying direct contacts, but the authors do not discuss the possibility of non-specific crosslinking or the impact of the high protein concentrations used in the crosslinking reaction.
+  - **Why it matters** The XLMS data are used to identify the specific interaction surface on EBNA1. If the data are not rigorously filtered and validated, the identification of the acidic patch as the key interface is not reliable, and the subsequent mutagenesis and functional studies may be targeting the wrong residues.
+  - **Resolution test** Provide a detailed description of the XLMS data filtering criteria, including the FDR threshold, the number of unique crosslinks, and the reproducibility between replicates. Show a quantitative analysis of the crosslink distribution, demonstrating that the four acidic residues are statistically over-represented. Validate the interprotein crosslinks by mapping them onto the AlphaFold3 model and showing that they are consistent with the predicted interface. Consider performing a competition experiment where a peptide corresponding to the acidic patch is used to compete with the EBNA1-TRF2 interaction in the crosslinking reaction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that the acidic patch is "essential for oriP-dependent replication" based on the replication assay with the 8x mutant.
+  - **Evidence pointer** Results section, Figure 7
+  - **Concern** The replication assay shows a severe defect for the 8x mutant, but the authors also report reduced EBNA1 protein expression at 72 h for this mutant (Figure 7c). While the cycloheximide chase experiment suggests the mutant is not inherently unstable, the reduced expression at the time of harvest could confound the interpretation of the replication defect. The authors do not provide a clear explanation for this discrepancy. Furthermore, the replication assay is performed with a plasmid expressing the mutant EBNA1, and it is not clear if the reduced replication is due to a defect in the initiation of replication or a defect in the maintenance of the plasmid over the 72 h period. The authors should also assess whether the 8x mutation affects EBNA1's ability to bind to oriP in vivo, as the ChIP-qPCR data show reduced binding, which could be a secondary effect of the mutation on DNA binding rather than a specific effect on TRF2 recruitment.
+  - **Why it matters** The functional data are critical for establishing the biological relevance of the acidic patch. If the replication defect is due to reduced protein expression or a general defect in DNA binding, the specific role of the TRF2 interaction in replication is not established.
+  - **Resolution test** Perform a complementation experiment where the 8x mutant is expressed at levels comparable to WT (e.g., using a stronger promoter or a different expression system) and assess whether the replication defect is rescued. Use a ChIP assay to directly compare the binding of WT and 8x EBNA1 to oriP in vivo, and also assess the recruitment of TRF2 and ORC2 to oriP in the presence of the 8x mutant. Consider using a plasmid-based replication assay that can distinguish between initiation and maintenance defects.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript proposes a model in which the TRFH domain binds the acidic patch on EBNA1, leaving the concave surface of TRFH (containing E153/E154) accessible for ORC recruitment.
+  - **Evidence pointer** Results section, Figure 8, Discussion
+  - **Concern** The model is based on the AlphaFold3 prediction and the XLMS data, but the authors do not provide any direct experimental evidence to support the simultaneous binding of TRFH to both EBNA1 and ORC. The model is plausible, but it is presented as a definitive conclusion rather than a hypothesis. The authors should acknowledge that the model is speculative and requires further testing.
+  - **Why it matters** The model is a key conceptual advance of the paper, but if it is not supported by direct evidence, it may be misleading to the field.
+  - **Resolution test** Perform a competition experiment where the EBNA1 acidic patch peptide is used to compete with the TRFH-ORC interaction, or vice versa. Use a biochemical assay (e.g., pull-down or size-exclusion chromatography) to demonstrate the formation of a ternary complex containing EBNA1, TRFH, and ORC. Alternatively, use a cell-based assay to show that the E153/E154 residues on TRFH are required for ORC recruitment to oriP in the presence of EBNA1.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction assumes a high level of familiarity with EBV biology and the terminology of DNA replication. The significance of oriP and the role of EBNA1 in viral latency could be explained more clearly for a broader audience.
+  - **Required correction** Briefly explain the function of oriP and the importance of EBNA1 in the viral life cycle in more accessible terms.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, EMSA
+  - **Evidence pointer** Methods, EMSA section
+  - **Issue** The EMSA methods do not specify the concentration of the DNA probe used in the binding reactions, nor the specific conditions for the "low salt" experiments with the TRFH domain.
+  - **Required correction** Provide the exact concentrations of DNA and protein used, and the salt concentration for the low-salt conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Figure 6
+  - **Evidence pointer** Results section, Figure 6
+  - **Issue** The quantification of the EMSA data in Figure 6b is described as "high confidence" for WT and 3x, but "low confidence" for 8x. The basis for this confidence assessment is not defined.
+  - **Required correction** Define the criteria for "high" and "low" confidence in the figure legend or methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Figure 7
+  - **Evidence pointer** Results section, Figure 7
+  - **Issue** The replication assay is described as being performed in HEK293 cells, but the ChIP-qPCR experiments are described as being performed in HEK293T cells. The difference in cell lines could affect the interpretation of the results.
+  - **Required correction** Clarify why different cell lines were used for different experiments, and discuss any potential impact on the conclusions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The discussion of the "dorsal" and "ventral" surfaces of EBNA1 is clear, but the significance of the TRFH domain's "convex" and "concave" surfaces may not be immediately obvious to readers unfamiliar with TRF2 structure.
+  - **Required correction** Briefly explain the functional significance of the TRFH domain's surfaces in the context of its known interactions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (cryo-EM resolution and interpretation), R1-M2 (XLMS data validation), R1-M3 (replication assay confound).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study identifies a novel interaction interface on EBNA1 that is not present in related viral proteins, providing new insight into how EBV uniquely co-opts telomere biology. This is a significant and original contribution.
+  - **Scientific importance** The findings have implications for understanding EBV latency and replication, and may inform therapeutic strategies. The identification of a specific, druggable interface is of high importance.
+  - **Interdisciplinary readership** The study bridges virology, structural biology, and telomere biology, and will be of interest to researchers in all three fields. The findings may also be relevant to those studying host-pathogen interactions.
+  - **Technical soundness** The study uses a range of state-of-the-art techniques, but the technical soundness is currently compromised by the concerns regarding the cryo-EM resolution, XLMS validation, and the replication assay confound. These issues need to be resolved.
+  - **Readability for nonspecialists** The manuscript is generally well-written, but the introduction and discussion could be more accessible to a broader audience. The figures are clear and informative.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is compelling and the multi-technique approach is commendable, but the current evidence does not fully establish the case due to the concerns outlined above.
+
+## Risk / unsupported claims
+- The claim that the 7.1 Å cryo-EM map shows TRF2-RAP1 binding to the dorsal surface of EBNA1 is not fully supported by the data presented, as the resolution is insufficient to make definitive assignments.
+- The claim that the acidic patch is "essential" for oriP replication is weakened by the reduced EBNA1 expression observed for the 8x mutant at 72 h.
+- The proposed model of simultaneous TRFH binding to EBNA1 and ORC is speculative and not directly tested.
+- The claim that the acidic patch is "unique amongst the herpesvirus episome maintenance proteins" is based on a limited comparison and requires a more comprehensive analysis.

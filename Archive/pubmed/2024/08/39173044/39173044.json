@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "39173044",
+    "doi": "10.1371/journal.pone.0306632",
+    "title": "Feasibility of the inhibitor development for cancer: A systematic approach for drug design."
+  },
+  "content": {
+    "abstract": "The traditional Chinese medicine (TCM) bupleurum-ginger-licorice formula presents significant anti-cancer effects, but its active ingredients and inhibitory mechanism remain unclear. In this work, the core effective ingredient quercetin and its signal transducer and activator of transcription 3 (Stat3) receptor both were identified by network pharmacology. Quercetin is a low-toxicity, non-carcinogenic flavonoid with antioxidant, anti-inflammatory and anticancer activities, which is widely distributed in edible plants. Stat3 can bind to specific DNA response elements and serves as a transcription factor to promote the translation of some invasion/migration-related target genes, considered as a potential anticancer target. Here, molecular docking and molecular dynamics (MD) simulation both were used to explore molecular recognition of quercetin with Stat3. The results show that quercetin impairs DNA transcription efficiency by hindering Stat3 dimerization, partially destroying DNA conformation. Specifically, when the ligand occupies the SH2 cavity of the enzyme, spatial rejection is not conductive to phosphokinase binding. It indirectly prevents the phosphorylation of Y705 and the formation of Stat3 dimer. When the inhibitor binds to the DT1005 position, it obviously shortens the distance between DNA and DBD, enhances their binding capacity, and thereby reduces the degree of freedom required for transcription. This work not only provides the binding modes between Stat3 and quercetin, but also contributes to the optimization and design of such anti-cancer inhibitors.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Quercetin/pharmacology/chemistry",
+      "*STAT3 Transcription Factor/metabolism/antagonists & inhibitors",
+      "Humans",
+      "*Molecular Docking Simulation",
+      "*Molecular Dynamics Simulation",
+      "*Drug Design",
+      "Neoplasms/drug therapy/metabolism",
+      "Antineoplastic Agents/pharmacology/chemistry",
+      "Medicine, Chinese Traditional",
+      "Network Pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Yu",
+        "Liu, Ling",
+        "Geng, Yichao",
+        "Li, Qingsong",
+        "Luo, Daxian",
+        "Liang, Li",
+        "Liu, Wei",
+        "Ouyang, Weiwei",
+        "Hu, Jianping"
+      ],
+      "short_names": [
+        "Jiang Y",
+        "Liu L",
+        "Geng Y",
+        "Li Q",
+        "Luo D",
+        "Liang L",
+        "Liu W",
+        "Ouyang W",
+        "Hu J"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-1754-3040",
+        "ORCID: 0000-0001-7367-3968"
+      ],
+      "affiliations": [
+        "Key Laboratory of Medicinal and Edible Plants Resources Development of Sichuan Education Department, School of Pharmacy, Chengdu University, Chengdu, China.",
+        "Key Laboratory of Medicinal and Edible Plants Resources Development of Sichuan Education Department, School of Pharmacy, Chengdu University, Chengdu, China.",
+        "Department of Thoracic Oncology, Affiliated Cancer Hospital, Guizhou Medical University, Guiyang, China.",
+        "Department of Thoracic Oncology, Affiliated Cancer Hospital, Guizhou Medical University, Guiyang, China.",
+        "Department of Thoracic Oncology, Affiliated Cancer Hospital, Guizhou Medical University, Guiyang, China.",
+        "Department of Thoracic Oncology, Affiliated Cancer Hospital, Guizhou Medical University, Guiyang, China.",
+        "Key Laboratory of Medicinal and Edible Plants Resources Development of Sichuan Education Department, School of Pharmacy, Chengdu University, Chengdu, China.",
+        "Key Laboratory of Medicinal and Edible Plants Resources Development of Sichuan Education Department, School of Pharmacy, Chengdu University, Chengdu, China.",
+        "Department of Thoracic Oncology, Affiliated Cancer Hospital, Guizhou Medical University, Guiyang, China.",
+        "Key Laboratory of Medicinal and Edible Plants Resources Development of Sichuan Education Department, School of Pharmacy, Chengdu University, Chengdu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Yu",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Medicinal and Edible Plants Resources Development of Sichuan Education Department, School of Pharmacy, Chengdu University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ling",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Medicinal and Edible Plants Resources Development of Sichuan Education Department, School of Pharmacy, Chengdu University, Chengdu, China.",
+          "Department of Thoracic Oncology, Affiliated Cancer Hospital, Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Yichao",
+        "short_name": "Geng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Oncology, Affiliated Cancer Hospital, Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qingsong",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Oncology, Affiliated Cancer Hospital, Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Daxian",
+        "short_name": "Luo D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Oncology, Affiliated Cancer Hospital, Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Li",
+        "short_name": "Liang L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Medicinal and Edible Plants Resources Development of Sichuan Education Department, School of Pharmacy, Chengdu University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wei",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Medicinal and Edible Plants Resources Development of Sichuan Education Department, School of Pharmacy, Chengdu University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Ouyang, Weiwei",
+        "short_name": "Ouyang W",
+        "identifiers": [
+          "0009-0008-1754-3040"
+        ],
+        "affiliations": [
+          "Department of Thoracic Oncology, Affiliated Cancer Hospital, Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Jianping",
+        "short_name": "Hu J",
+        "identifiers": [
+          "0000-0001-7367-3968"
+        ],
+        "affiliations": [
+          "Key Laboratory of Medicinal and Edible Plants Resources Development of Sichuan Education Department, School of Pharmacy, Chengdu University, Chengdu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/22 18:42",
+    "fetched_at": "2026-09-30 01:31:41"
+  },
+  "links": {
+    "cites": [
+      "42570925",
+      "40166646",
+      "39337415"
+    ],
+    "refs": [
+      "38230766",
+      "37745072",
+      "37214464",
+      "35492478",
+      "35271260",
+      "34746316",
+      "34208196",
+      "34078189",
+      "33839684",
+      "33569512",
+      "33435349",
+      "33246112",
+      "32872659",
+      "32807795",
+      "32731620",
+      "32545691",
+      "32530336",
+      "32521759",
+      "32503228",
+      "32391361",
+      "32365499",
+      "32088220",
+      "31990532",
+      "31715132",
+      "31709266",
+      "31677966",
+      "31547402",
+      "31499361",
+      "31480382",
+      "31396604",
+      "31261749",
+      "31218945",
+      "31170499",
+      "31151279",
+      "31147584",
+      "30667081",
+      "30593257",
+      "30132572",
+      "29986511",
+      "29873274",
+      "29866996",
+      "29843450",
+      "29795016",
+      "29782972",
+      "29660364",
+      "29543893",
+      "29296663",
+      "29285175",
+      "29212300",
+      "29164994",
+      "29026320",
+      "28579221",
+      "27510546",
+      "27185365",
+      "27019635",
+      "26730496",
+      "26694484",
+      "26583988",
+      "26574453",
+      "25228909",
+      "24926384",
+      "24275163",
+      "23197943",
+      "22913375",
+      "22394507",
+      "22162017",
+      "22121507",
+      "21982300",
+      "20394428",
+      "19625494",
+      "19131594",
+      "17964301",
+      "15099834",
+      "9847135",
+      "8331663"
+    ],
+    "similar": [
+      "39173044",
+      "39786519",
+      "38055068",
+      "24661007",
+      "37799727",
+      "31499589",
+      "25777967",
+      "26730496",
+      "41533160",
+      "42295420",
+      "37575231",
+      "21360612",
+      "40988247",
+      "40267837",
+      "29843450",
+      "33689932",
+      "40295613",
+      "39715975",
+      "41344519",
+      "39966335",
+      "31810784",
+      "40958307",
+      "35988839",
+      "39278295",
+      "30027840",
+      "40694904",
+      "40326031",
+      "32603980",
+      "27479469",
+      "37469733",
+      "41490553",
+      "38548028",
+      "41431059",
+      "37464874",
+      "37287284",
+      "40676786",
+      "38759074",
+      "39541255",
+      "25288792",
+      "28397855",
+      "41127994",
+      "41638057",
+      "39369170",
+      "35831728",
+      "39867868",
+      "38109076",
+      "35366469",
+      "29660364",
+      "31254923",
+      "27727126",
+      "42526131",
+      "40076902",
+      "38822913",
+      "39213234",
+      "41629408",
+      "42083525",
+      "37233418",
+      "39588392",
+      "40812665",
+      "41865690",
+      "39617073",
+      "39933661",
+      "28849890",
+      "36976504",
+      "37783074",
+      "41197925",
+      "26073084",
+      "34746316",
+      "39854209",
+      "42595923",
+      "42551761",
+      "41961679",
+      "32112605",
+      "36213575",
+      "30145375",
+      "24275163",
+      "31491838",
+      "34349502",
+      "38618280",
+      "42446554",
+      "41096701",
+      "42308789",
+      "38638040",
+      "38167125",
+      "38645989",
+      "25710482",
+      "26904961",
+      "37340752",
+      "35130311",
+      "38516703",
+      "33513419",
+      "41985846",
+      "42497765",
+      "42149148",
+      "42363492",
+      "37666060",
+      "32198236",
+      "37083798",
+      "27175602",
+      "37990309"
+    ],
+    "review": [
+      "39173044",
+      "26730496",
+      "29843450",
+      "31810784",
+      "30027840",
+      "37464874",
+      "41096701"
+    ],
+    "pmc": [
+      "11341021"
+    ],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

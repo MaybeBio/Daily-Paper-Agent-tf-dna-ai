@@ -1,0 +1,24 @@
+{
+  "source": "medrxiv",
+  "id": "10.1101/2022.05.13.22275035",
+  "title": "Modeling islet enhancers using deep learning identifies candidate causal variants at loci associated with T2D and glycemic traits",
+  "authors": "Hudaiberdiev S; Taylor DL; Song W; Narisu N; Bhuiyan RM; Taylor HJ; Yan T; Swift AJ; Bonnycastle LL; Stitzel ML; Erdos MR; Ovcharenko I; Collins FS",
+  "journal": "medRxiv",
+  "published_date": "2022-05-16",
+  "window": {
+    "start": "2022-05-16",
+    "end": "2022-05-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度学习建模胰岛增强子，预测TF调控模式并优先排序T2D相关因果变异，虽聚焦变异功能注释而非直接TF-DNA三维互作建模，但方法可迁移至TF结合位点预测与互作研究。",
+  "abstract": "Genetic association studies have identified hundreds of independent signals associated with type 2 diabetes (T2D) and related traits. Despite these successes, the identification of specific causal variants underlying a genetic association signal remains challenging. In this study, we describe a deep learning method to analyze the impact of sequence variants on enhancers. Focusing on pancreatic islets, a T2D relevant tissue, we show that our model learns islet-specific transcription factor (TF) regulatory patterns and can be used to prioritize candidate causal variants. At 101 genetic signals associated with T2D and related glycemic traits where multiple variants occur in linkage disequilibrium, our method nominates a single causal variant for each association signal, including three variants previously shown to alter reporter activity in islet-relevant cell types. For another signal associated with blood glucose levels, we biochemically test all candidate causal variants from statistical fine-mapping using a pancreatic islet beta cell line and show biochemical evidence of allelic effects on TF binding for the model-prioritized variant. To aid in future research, we publicly distribute our model and islet enhancer perturbation scores across ∼67 million genetic variants. We anticipate that deep learning methods like the one presented in this study will enhance the prioritization of candidate causal variants for functional studies.",
+  "abstract_zh": "遗传关联研究已识别出数百个与2型糖尿病（T2D）及相关性状相关的独立信号。尽管取得了这些成功，识别遗传关联信号背后的具体因果变异仍具挑战性。在本研究中，我们描述了一种深度学习方法，用于分析序列变异对增强子的影响。聚焦于胰岛（一种与T2D相关的组织），我们展示了我们的模型能够学习胰岛特异性转录因子（TF）调控模式，并可用于优先排序候选因果变异。在101个与T2D及相关血糖性状相关的遗传信号中，其中多个变异处于连锁不平衡状态，我们的方法为每个关联信号提名了一个单一因果变异，包括三个先前被证明能改变胰岛相关细胞类型中报告基因活性的变异。对于另一个与血糖水平相关的信号，我们使用胰岛β细胞系对统计精细定位中的所有候选因果变异进行了生化测试，并展示了模型优先排序变异对TF结合等位基因效应的生化证据。为助力未来研究，我们公开发布了我们的模型及约6700万个遗传变异上的胰岛增强子扰动评分。我们预期，像本研究所呈现的深度学习方法将增强功能研究中候选因果变异的优先排序。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.medrxiv.org/content/10.1101/2022.05.13.22275035",
+  "source_url": "https://www.medrxiv.org/content/10.1101/2022.05.13.22275035",
+  "paper_page_path": "papers/medrxiv/10.1101_2022.05.13.22275035/index.html"
+}

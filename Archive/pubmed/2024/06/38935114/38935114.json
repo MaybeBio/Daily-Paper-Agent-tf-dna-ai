@@ -1,0 +1,506 @@
+{
+  "identity": {
+    "pmid": "38935114",
+    "doi": "10.1097/JS9.0000000000001893",
+    "title": "Comprehensive analysis of cuproptosis-related genes involved in immune infiltration and their use in the diagnosis of hepatic ischemia-reperfusion injury: an experimental study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hepatic ischemia-reperfusion injury (HIRI) is a common injury not only during liver transplantation but also during major hepatic surgery. HIRI causes severe complications and affects the prognosis and survival of patients. Cuproptosis, a newly identified form of cell death, plays an important role in a variety of illnesses. However, its role in HIRI remains unknown. MATERIALS AND METHODS: The GSE151648 dataset was mined from the Gene Expression Omnibus (GEO) database, and differences were analyzed for intersections. Based on the differentially expressed genes (DEGs), functional annotation, differentially expressed cuproptosis-related genes (DE-CRGs) identification and lasso logistic regression were conducted. Correlation analysis of DE-CRGs and immune infiltration was further conducted, and DE-CRGs were applied to construct an HIRI diagnostic model. The hierarchical clustering method was used to classify the specimens of HIRI, and functional annotation was conducted to verify the accuracy of these DE-CRGs in predicting HIRI progression. The GSE14951 microarray dataset and GSE171539 single-cell sequencing dataset were chosen as validation datasets. At the same time, the significance of DE-CRGs was verified using a mouse model of HIRI with cuproptosis inhibitors and inducers. Finally, a network of transcription-factor-DE-CRGs and miRNA-DE-CRGs was constructed to reveal the regulation mechanisms. And potential drugs for DE-CRGs were predicted using Drug-Gene Interaction Database (DGIdb). RESULTS: Overall, 2390 DEGs and 19 DE-CRGs were identified. Through machine learning algorithms, 8 featured DE-CRGs (GNL3, ALAS1, TSC22D2, KLF5, GTF2B, DNTTIP2, SLFN11 and HNRNPU) were screened, and 2 cuproptosis-related subclusters were defined. Based on the 8 DE-CRGs obtained from the HIRI model [area under the curve (AUC)=0.97], the nomogram model demonstrated accuracy in predicting HIRI. Eight DE-CRGs were highly expressed in HIRI samples and were negatively related to immune cell infiltration. A higher level of immune infiltration and expression of CRG group B was found in the HIRI population. Differences in cell death and immune regulation were found between the 2 groups. The diagnostic value of the 8 DE-CRGs was confirmed in the validation of two datasets. The identification of 7 DE-CRGs (SLFN11 excluded) by HIRI animal model experiments was also confirmed. Using hTFtarget, miRWalk and DGIDB database, we predicted that 17 transcription factors, 192 miRNAs and 10 drugs might interact with the DE-CRGs. CONCLUSION: This study shows that cuproptosis may occur in HIRI and is correlated with immune infiltration. Additionally, a cuproptosis-related predictive model was constructed for studying the causes of HIRI and developing targeted treatment options for HIRI.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Reperfusion Injury/diagnosis/genetics/immunology",
+      "Mice",
+      "Humans",
+      "*Liver/blood supply/pathology/immunology",
+      "Disease Models, Animal",
+      "Gene Expression Profiling",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cai, Xiaopeng",
+        "Deng, Jingwen",
+        "Zhou, Xiaohu",
+        "Wang, Kaiyue",
+        "Cai, Huiqiang",
+        "Yan, Yingcai",
+        "Jiang, Jun",
+        "Yang, Jia",
+        "Gu, Jin",
+        "Zhang, Yuan",
+        "Ding, Yuan",
+        "Sun, Qiang",
+        "Wang, Weilin"
+      ],
+      "short_names": [
+        "Cai X",
+        "Deng J",
+        "Zhou X",
+        "Wang K",
+        "Cai H",
+        "Yan Y",
+        "Jiang J",
+        "Yang J",
+        "Gu J",
+        "Zhang Y",
+        "Ding Y",
+        "Sun Q",
+        "Wang W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+        "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+        "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+        "National Innovation Center for Fundamental Research on Cancer Medicine.",
+        "Cancer Center, Zhejiang University.",
+        "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease.",
+        "Department of Medical Oncology, Sir Run Run Shaw Hospital, School of Medicine, Zhejiang University, Hangzhou.",
+        "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+        "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+        "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+        "National Innovation Center for Fundamental Research on Cancer Medicine.",
+        "Cancer Center, Zhejiang University.",
+        "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease.",
+        "Department of surgery and International Institutes of Medicine, The Fourth Affiliated Hospital, Zhejiang University School of Medicine, Yiwu, Zhejiang, China.",
+        "Department of Medical Oncology, West German Cancer Center, University Hospital Essen, Essen, Germany.",
+        "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+        "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+        "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+        "National Innovation Center for Fundamental Research on Cancer Medicine.",
+        "Cancer Center, Zhejiang University.",
+        "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease.",
+        "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+        "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+        "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+        "National Innovation Center for Fundamental Research on Cancer Medicine.",
+        "Cancer Center, Zhejiang University.",
+        "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease.",
+        "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+        "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+        "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+        "National Innovation Center for Fundamental Research on Cancer Medicine.",
+        "Cancer Center, Zhejiang University.",
+        "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease.",
+        "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+        "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+        "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+        "National Innovation Center for Fundamental Research on Cancer Medicine.",
+        "Cancer Center, Zhejiang University.",
+        "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease.",
+        "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+        "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+        "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+        "National Innovation Center for Fundamental Research on Cancer Medicine.",
+        "Cancer Center, Zhejiang University.",
+        "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease.",
+        "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+        "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+        "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+        "National Innovation Center for Fundamental Research on Cancer Medicine.",
+        "Cancer Center, Zhejiang University.",
+        "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease.",
+        "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+        "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+        "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+        "National Innovation Center for Fundamental Research on Cancer Medicine.",
+        "Cancer Center, Zhejiang University.",
+        "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease.",
+        "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+        "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+        "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+        "National Innovation Center for Fundamental Research on Cancer Medicine.",
+        "Cancer Center, Zhejiang University.",
+        "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cai, Xiaopeng",
+        "short_name": "Cai X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+          "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+          "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+          "National Innovation Center for Fundamental Research on Cancer Medicine.",
+          "Cancer Center, Zhejiang University.",
+          "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease."
+        ]
+      },
+      {
+        "full_name": "Deng, Jingwen",
+        "short_name": "Deng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Sir Run Run Shaw Hospital, School of Medicine, Zhejiang University, Hangzhou."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiaohu",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+          "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+          "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+          "National Innovation Center for Fundamental Research on Cancer Medicine.",
+          "Cancer Center, Zhejiang University.",
+          "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease."
+        ]
+      },
+      {
+        "full_name": "Wang, Kaiyue",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of surgery and International Institutes of Medicine, The Fourth Affiliated Hospital, Zhejiang University School of Medicine, Yiwu, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Huiqiang",
+        "short_name": "Cai H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, West German Cancer Center, University Hospital Essen, Essen, Germany."
+        ]
+      },
+      {
+        "full_name": "Yan, Yingcai",
+        "short_name": "Yan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+          "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+          "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+          "National Innovation Center for Fundamental Research on Cancer Medicine.",
+          "Cancer Center, Zhejiang University.",
+          "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease."
+        ]
+      },
+      {
+        "full_name": "Jiang, Jun",
+        "short_name": "Jiang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+          "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+          "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+          "National Innovation Center for Fundamental Research on Cancer Medicine.",
+          "Cancer Center, Zhejiang University.",
+          "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease."
+        ]
+      },
+      {
+        "full_name": "Yang, Jia",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+          "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+          "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+          "National Innovation Center for Fundamental Research on Cancer Medicine.",
+          "Cancer Center, Zhejiang University.",
+          "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease."
+        ]
+      },
+      {
+        "full_name": "Gu, Jin",
+        "short_name": "Gu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+          "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+          "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+          "National Innovation Center for Fundamental Research on Cancer Medicine.",
+          "Cancer Center, Zhejiang University.",
+          "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+          "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+          "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+          "National Innovation Center for Fundamental Research on Cancer Medicine.",
+          "Cancer Center, Zhejiang University.",
+          "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease."
+        ]
+      },
+      {
+        "full_name": "Ding, Yuan",
+        "short_name": "Ding Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+          "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+          "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+          "National Innovation Center for Fundamental Research on Cancer Medicine.",
+          "Cancer Center, Zhejiang University.",
+          "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease."
+        ]
+      },
+      {
+        "full_name": "Sun, Qiang",
+        "short_name": "Sun Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+          "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+          "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+          "National Innovation Center for Fundamental Research on Cancer Medicine.",
+          "Cancer Center, Zhejiang University.",
+          "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease."
+        ]
+      },
+      {
+        "full_name": "Wang, Weilin",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+          "Key Laboratory of Precision Diagnosis and Treatment for Hepatobiliary and Pancreatic Tumor of Zhejiang Province.",
+          "Research Center of Diagnosis and Treatment Technology for Hepatocellular Carcinoma of Zhejiang Province.",
+          "National Innovation Center for Fundamental Research on Cancer Medicine.",
+          "Cancer Center, Zhejiang University.",
+          "ZJU-Pujian Research & Development Center of Medical Artificial Intelligence for Hepatobiliary and Pancreatic Disease."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of surgery (London, England)"
+    ],
+    "journal_abbrev": [
+      "Int J Surg"
+    ],
+    "pub_date": "2025 Jan 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/27 12:44",
+    "fetched_at": "2026-10-05 01:24:22"
+  },
+  "links": {
+    "cites": [
+      "42528680",
+      "42433268",
+      "42382686",
+      "42238567",
+      "42148602",
+      "42113073",
+      "41885366",
+      "41596083",
+      "41479522",
+      "41080962",
+      "41050689",
+      "40999456",
+      "40913202",
+      "40808953"
+    ],
+    "refs": [
+      "37372148",
+      "37277863",
+      "37232477",
+      "37162502",
+      "37105441",
+      "37045587",
+      "37027823",
+      "37027332",
+      "36940849",
+      "36929113",
+      "36923542",
+      "36894917",
+      "36794705",
+      "36774340",
+      "36447054",
+      "36413144",
+      "36361725",
+      "36293069",
+      "36094079",
+      "36010978",
+      "35916424",
+      "35393949",
+      "35370417",
+      "35298263",
+      "35298241",
+      "34932801",
+      "34837066",
+      "34504870",
+      "34360995",
+      "34294893",
+      "34217701",
+      "33711387",
+      "33237278",
+      "32964150",
+      "32858223",
+      "32713098",
+      "32274608",
+      "31513772",
+      "30843314",
+      "29954941",
+      "29187911",
+      "27998760",
+      "25605792",
+      "21199529",
+      "20808728",
+      "20613859",
+      "20427518",
+      "17571298"
+    ],
+    "similar": [
+      "38935114",
+      "38690269",
+      "39341981",
+      "36479114",
+      "41299729",
+      "38074089",
+      "37333810",
+      "38694511",
+      "37143115",
+      "39247321",
+      "36891150",
+      "37529244",
+      "36628249",
+      "41194198",
+      "37547319",
+      "39315155",
+      "36438201",
+      "38493695",
+      "40165133",
+      "37384293",
+      "39519383",
+      "37065492",
+      "37497230",
+      "40316717",
+      "36703728",
+      "37275904",
+      "39497055",
+      "38994365",
+      "37928399",
+      "37659036",
+      "40655146",
+      "40909264",
+      "37266442",
+      "37822923",
+      "37308925",
+      "39853851",
+      "38771661",
+      "37822927",
+      "36743388",
+      "40705804",
+      "39583859",
+      "36660667",
+      "36213162",
+      "39892769",
+      "36647100",
+      "38181851",
+      "37215133",
+      "40337173",
+      "40808944",
+      "38867322",
+      "36568423",
+      "37393262",
+      "36045691",
+      "36466876",
+      "38779731",
+      "37033969",
+      "39430854",
+      "37091865",
+      "38538321",
+      "39600695",
+      "36376617",
+      "37752539",
+      "38169083",
+      "38902590",
+      "36843949",
+      "36817415",
+      "37351275",
+      "40166070",
+      "36760248",
+      "38687912",
+      "37984252",
+      "39867949",
+      "39251909",
+      "41460373",
+      "36671512",
+      "37313407",
+      "37124062",
+      "38253297",
+      "37561332",
+      "39913607",
+      "40034711",
+      "37997497",
+      "38063107",
+      "36505852",
+      "38085668",
+      "37776237",
+      "36845390",
+      "40049242",
+      "36353226",
+      "37324184",
+      "38509983",
+      "41234865",
+      "38770176",
+      "37392200",
+      "36267281",
+      "39844550",
+      "37665670",
+      "39377045",
+      "41144543",
+      "39624133"
+    ],
+    "review": [
+      "38935114",
+      "36045691"
+    ],
+    "pmc": [
+      "11745764"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38935114.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38935114/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/JS9.0000000000001893",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

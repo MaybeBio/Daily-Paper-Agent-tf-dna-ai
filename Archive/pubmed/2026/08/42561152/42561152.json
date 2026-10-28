@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "42561152",
+    "doi": "10.1093/bib/bbag422",
+    "title": "Functional motif detection via in silico ablation using AlphaGenome."
+  },
+  "content": {
+    "abstract": "Deciphering which transcription factor (TF) motif instances are functionally required for enhancer activity typically demands ChIP-based assays or labor-intensive perturbation experiments. We introduce a virtual motif-perturbation framework that uses AlphaGenome, a large sequence-to-function foundation model, to infer motif-level regulatory contribution directly from DNA sequence. Candidate C/EBP$\\mathrm\\beta $ motifs are identified within chromatin-active regions and systematically ablated in silico; the resulting changes in predicted regulatory activity are quantified and assessed against a sham-derived null distribution to establish statistical confidence. To evaluate whether sequence-level perturbations recapitulate biologically meaningful regulatory dependence, we compared in silico predictions with CUT&RUN measurements of H3K27ac following CEBPB knockout in multiple myeloma cells. Key activating motifs exhibited concordant loss of H3K27ac across both settings, whereas loci with apparent discrepancies reflected biologically interpretable mechanisms. Together, these findings suggest that large sequence-based models can approximate the directional consequences of TF perturbation, supporting motif-level functional analysis directly from DNA sequence. This supports sequence-only virtual ablation as a scalable framework for hypothesis generation and regulatory annotation that can be extended to additional TFs, cell types, and chromatin modalities.",
+    "keywords": [
+      "AlphaGenome",
+      "chromatin modeling",
+      "functional motif detection",
+      "in silico perturbation",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Computer Simulation",
+      "*Nucleotide Motifs",
+      "Histones/metabolism/genetics",
+      "*Transcription Factors/metabolism/genetics",
+      "Chromatin/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liang, Yuxuan",
+        "Dziadowicz, Sebastian A",
+        "Wang, Lei",
+        "Hu, Gangqing",
+        "Yan, Pingkun",
+        "Wang, Ge"
+      ],
+      "short_names": [
+        "Liang Y",
+        "Dziadowicz SA",
+        "Wang L",
+        "Hu G",
+        "Yan P",
+        "Wang G"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-8719-7472"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, Rensselaer Polytechnic Institute, 110 Eighth Street, Troy, NY 12180, United States.",
+        "Department of Microbiology, Immunology and Cell Biology, West Virginia University, 64 Medical Center Drive, Morgantown, WV 26506-9177, United States.",
+        "Department of Microbiology, Immunology and Cell Biology, West Virginia University, 64 Medical Center Drive, Morgantown, WV 26506-9177, United States.",
+        "Department of Microbiology, Immunology and Cell Biology, West Virginia University, 64 Medical Center Drive, Morgantown, WV 26506-9177, United States.",
+        "Department of Biomedical Engineering, Rensselaer Polytechnic Institute, 110 Eighth Street, Troy, NY 12180, United States.",
+        "Department of Biomedical Engineering, Rensselaer Polytechnic Institute, 110 Eighth Street, Troy, NY 12180, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liang, Yuxuan",
+        "short_name": "Liang Y",
+        "identifiers": [
+          "0009-0000-8719-7472"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Rensselaer Polytechnic Institute, 110 Eighth Street, Troy, NY 12180, United States."
+        ]
+      },
+      {
+        "full_name": "Dziadowicz, Sebastian A",
+        "short_name": "Dziadowicz SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Immunology and Cell Biology, West Virginia University, 64 Medical Center Drive, Morgantown, WV 26506-9177, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Lei",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Immunology and Cell Biology, West Virginia University, 64 Medical Center Drive, Morgantown, WV 26506-9177, United States."
+        ]
+      },
+      {
+        "full_name": "Hu, Gangqing",
+        "short_name": "Hu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Immunology and Cell Biology, West Virginia University, 64 Medical Center Drive, Morgantown, WV 26506-9177, United States."
+        ]
+      },
+      {
+        "full_name": "Yan, Pingkun",
+        "short_name": "Yan P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Rensselaer Polytechnic Institute, 110 Eighth Street, Troy, NY 12180, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Ge",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Rensselaer Polytechnic Institute, 110 Eighth Street, Troy, NY 12180, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2026 Jul 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/06 18:35",
+    "fetched_at": "2026-10-02 03:09:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41606153",
+      "40411397",
+      "39950082",
+      "39286491",
+      "37524526",
+      "35315433",
+      "35205675",
+      "34608324",
+      "33603233",
+      "33187090",
+      "32728249",
+      "32687525",
+      "30085281",
+      "27708057",
+      "26301843",
+      "26213851",
+      "26111340",
+      "24335146",
+      "24097267",
+      "23818646",
+      "22955991",
+      "22955617",
+      "22868264",
+      "22371084",
+      "21330290",
+      "21160473",
+      "21106759",
+      "20513432",
+      "19736561",
+      "18798982",
+      "18243105",
+      "16845028",
+      "12824369",
+      "12574125",
+      "10812473",
+      "10592259"
+    ],
+    "similar": [
+      "42561152",
+      "26291518",
+      "31053165",
+      "23512712",
+      "22955984",
+      "35240993",
+      "22537144",
+      "42475469",
+      "22863112",
+      "23805837",
+      "37805453",
+      "42114111",
+      "38654130",
+      "27582178",
+      "23595227",
+      "34292930",
+      "37486787",
+      "27567672",
+      "30284014",
+      "22534400",
+      "27576892",
+      "25433490",
+      "18426580",
+      "39482734",
+      "26411866",
+      "24565409",
+      "24603674",
+      "29363433",
+      "28334916",
+      "38966997",
+      "34219317",
+      "23266217",
+      "32938397",
+      "25215497",
+      "31006511",
+      "28472398",
+      "25428352",
+      "25179504",
+      "34486522",
+      "20158869",
+      "36267125",
+      "41951735",
+      "31659164",
+      "41359035",
+      "24927817",
+      "24918633",
+      "19956545",
+      "28957321",
+      "32616518",
+      "29748466",
+      "22456606",
+      "31511300",
+      "22570616",
+      "39535534",
+      "27492288",
+      "22422841",
+      "31742324",
+      "24170599",
+      "23181585",
+      "26818008",
+      "26160164",
+      "31114856",
+      "32058623",
+      "25944915",
+      "27428271",
+      "22955990",
+      "39796242",
+      "24335146",
+      "34465294",
+      "28240320",
+      "36043696",
+      "32728244",
+      "39481376",
+      "23461573",
+      "24391522",
+      "37600946",
+      "31653198",
+      "24149073",
+      "42538372",
+      "29621972",
+      "20838582",
+      "34755879",
+      "40667078",
+      "21486936",
+      "23203885",
+      "19434238",
+      "32548603",
+      "25791631",
+      "28716036",
+      "26552868",
+      "39326643",
+      "22189060",
+      "36941077",
+      "33603233",
+      "31372637",
+      "32657363",
+      "30578913",
+      "36742369",
+      "22102575",
+      "23547170"
+    ],
+    "review": [
+      "42561152",
+      "23266217"
+    ],
+    "pmc": [
+      "13446514"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42561152/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbag422",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

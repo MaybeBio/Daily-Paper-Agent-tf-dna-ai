@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.01.16.575935",
+  "title": "Advancing Transcription Factor Binding Site Prediction Using DNA Breathing Dynamics and Sequence Transformers via Cross Attention",
+  "authors": "Anowarul Kabir; Manish Bhattarai; Kim Ø. Rasmussen; Amarda Shehu; Alan R Bishop; Boian Alexandrov; Anny Usheva",
+  "journal": "bioRxiv",
+  "published_date": "2024-01-20",
+  "window": {
+    "start": "2024-01-15",
+    "end": "2024-01-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该文利用DNA呼吸动力学等生物物理特性与序列Transformer（DNABERT2）通过交叉注意力机制多模态融合，显著提升TF-DNA结合位点预测性能，并解析疾病相关非编码变异机制，高度契合本课题的TF-DNA互作建模与AI方法核心。",
+  "abstract": "Understanding the impact of genomic variants on transcription factor binding and gene regulation remains a key area of research, with implications for unraveling the complex mechanisms underlying various functional effects. Our study delves into the role of DNA’s biophysical properties, including thermodynamic stability, shape, and flexibility in transcription factor (TF) binding. We developed a multi-modal deep learning model integrating these properties with DNA sequence data. Trained on ChIP-Seq (chromatin immunoprecipitation sequencing) data in vivo involving 690 TF-DNA binding events in human genome, our model significantly improves prediction performance in over 660 binding events, with up to 9.6% increase in AUROC metric compared to the baseline model when using no DNA biophysical properties explicitly. Further, we expanded our analysis to in vitro high-throughput Systematic Evolution of Ligands by Exponential enrichment (SELEX) and Protein Binding Microarray (PBM) datasets, comparing our model with established frameworks. The inclusion of DNA breathing features consistently improved TF binding predictions across different cell lines in these datasets. Notably, for complex ChIP-Seq datasets, integrating DNABERT2 with a cross-attention mechanism provided greater predictive capabilities and insights into the mechanisms of disease-related non-coding variants found in genome-wide association studies. This work highlights the importance of DNA biophysical characteristics in TF binding and the effectiveness of multi-modal deep learning models in gene regulation studies.",
+  "abstract_zh": "理解基因组变异对转录因子结合和基因调控的影响仍是研究的关键领域，这对于揭示各种功能效应背后的复杂机制具有重要意义。我们的研究深入探讨了DNA的生物物理特性，包括热力学稳定性、形状和柔韧性，在转录因子（TF）结合中的作用。我们开发了一种多模态深度学习模型，将这些特性与DNA序列数据相结合。该模型在体内ChIP-Seq（染色质免疫沉淀测序）数据上训练，涉及人类基因组中690个TF-DNA结合事件，在超过660个结合事件中显著提高了预测性能，与未显式使用DNA生物物理特性的基线模型相比，AUROC指标最高提升9.6%。此外，我们将分析扩展到体外高通量系统进化配体富集（SELEX）和蛋白质结合微阵列（PBM）数据集，并与现有框架进行比较。在这些数据集中，加入DNA呼吸特征持续改善了不同细胞系中的TF结合预测。值得注意的是，对于复杂的ChIP-Seq数据集，将DNABERT2与交叉注意力机制相结合，提供了更强的预测能力，并揭示了对全基因组关联研究中疾病相关非编码变异机制的见解。这项工作强调了DNA生物物理特性在TF结合中的重要性，以及多模态深度学习模型在基因调控研究中的有效性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.01.16.575935",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.01.16.575935",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.01.16.575935/index.html"
+}

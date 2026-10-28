@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusion. Supplementary tables and figures are referenced but not provided.
+- **Assessment boundary** The scientific validity of the computational approach, the interpretation of results, and the strength of the claims made. The review does not assess the choice of journal or editorial fit.
+- **Shared manuscript claim summary** The authors use molecular docking, toxicity prediction, and pharmacokinetic profiling to identify 11 flavonoids that may modulate astrogliosis by binding to proteins in the NF-κB and JAK/STAT pathways, potentially affecting GFAP expression and astrocyte polarization.
+- **Visible evidence base** The manuscript provides docking scores, redocking validation data (RMSD values), drug-likeness assessments, toxicity predictions, and pharmacokinetic predictions. The text describes results but the actual supplementary tables and figures are not available for inspection.
+- **Missing materials affecting confidence** The supplementary tables (Appendix A) and figures (Appendix B) are not provided. These are essential for verifying the docking scores, the full list of flavonoids tested, the interaction details, and the redocking poses. Without these, the quantitative results cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a straightforward computational screening study. The authors dock 60 flavonoids against a panel of 26 proteins involved in GFAP expression, filter the results based on drug-likeness and predicted toxicity, and then discuss the potential biological relevance of the top hits. The work is descriptive and hypothesis-generating. The main value lies in the prioritization of specific flavonoids for future experimental testing. However, the study is limited by its reliance on a single docking tool, the lack of a robust statistical or consensus-based approach to ranking, and the absence of any experimental validation. The claims about "predictive associations" affecting astrogliosis are speculative and not established by the data presented. The discussion is extensive but often over-interprets the in silico results, and the connection between the docking scores and the proposed biological mechanisms is not rigorously demonstrated.
+- **Who would be interested in the results, and why** Researchers in the fields of neuroinflammation, natural product pharmacology, and computational drug discovery might find this study of interest. The specific list of flavonoids and their predicted protein targets could serve as a starting point for in vitro or in vivo studies on astrogliosis modulation. The work may also be of interest to those studying the molecular mechanisms of flavonoids in CNS disorders.
+- **Major strengths**
+  - The study addresses a relevant and under-explored question: the direct molecular targets of flavonoids in the context of astrogliosis.
+  - The methodology is clearly described and follows a standard computational workflow (docking, ADMET prediction, toxicity screening).
+  - The authors include a redocking validation step, which is good practice and helps to assess the reliability of the docking protocol.
+  - The discussion attempts to link the computational predictions to existing experimental literature, which helps to contextualize the findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the docking results are reliable and that the identified flavonoids are "promising" and "effective candidates" based on binding energies lower than -9.0 kcal/mol.
+  - **Evidence pointer** Results, Molecular Docking section; Table 1; Appendix A: Supplementary Table 4.
+  - **Concern** The study relies entirely on AutoDock Vina for docking. The use of a single docking program and a single scoring function is a significant limitation. The authors do not use consensus scoring, cross-validation with another docking tool, or molecular dynamics simulations to confirm the stability of the predicted binding poses. The redocking validation is performed for only four of the five target proteins, and the RMSD for JAK1 (2.316 Å) is above the commonly accepted threshold of 2.0 Å, which the authors acknowledge but do not adequately address. The manuscript does not explain why this deviation is acceptable or what it means for the reliability of the JAK1 results.
+  - **Why it matters** The core of the paper's claim rests on the accuracy of the predicted binding affinities. If the docking protocol is not robustly validated, the ranking of the flavonoids and the subsequent biological interpretation are built on a weak foundation. The high RMSD for JAK1 suggests that the docking protocol may not be accurate for this target, which is a key protein in the proposed mechanism.
+  - **Resolution test** The authors should provide a more thorough validation of their docking protocol. This could include: (1) redocking with a different docking program (e.g., Glide, GOLD) to see if the poses and affinities are consistent; (2) performing short molecular dynamics simulations on the top flavonoid-target complexes to assess the stability of the predicted binding modes; (3) providing a clear explanation for the JAK1 RMSD value and demonstrating that the predicted binding site is still correct despite the high RMSD.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / Claim support
+  - **Claim pointer** The manuscript claims that the interactions between the flavonoids and the target proteins "might affect both GFAP expression and the astrogliosis process via the NF-κB and JAK/STAT pathway" and that these are "predictive associations" that are "extremely valuable."
+  - **Evidence pointer** Abstract; Discussion; Conclusion.
+  - **Concern** The leap from a docking score to a biological effect is not justified. The manuscript does not provide any experimental evidence to support the claim that binding to these proteins in silico would lead to a functional change in the signaling pathways. The discussion is largely speculative, suggesting that because a flavonoid binds to a protein in a computer model, it will inhibit or activate that protein in a cellular context. This is a common but significant over-interpretation of docking results. The paper does not address the fact that a high binding affinity does not necessarily translate to a biological effect, as it does not account for factors like cellular uptake, intracellular localization, or the potential for the flavonoid to act as an agonist or antagonist.
+  - **Why it matters** The central hypothesis of the paper is that these flavonoids could be used to modulate astrogliosis. Without experimental validation, the study remains a purely computational exercise. The claims of therapeutic value and the implications for "nutritional guidelines" are not supported by the data. The paper's conclusions are therefore not established.
+  - **Resolution test** The authors must temper their conclusions. They should clearly state that the study is hypothesis-generating and that the predicted interactions require experimental validation. The discussion should be revised to avoid definitive statements about the biological consequences of the predicted binding. The claim that the findings are "extremely valuable" for developing therapies is overstated and should be removed or significantly softened.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that the docking grid box was "adjusted to cover the active sites of proteins."
+  - **Evidence pointer** Materials and Methods, Molecular Docking section.
+  - **Concern** The methods section does not provide sufficient detail on how the active sites were defined for each of the 26 proteins. For proteins without a co-crystallized ligand, it is unclear how the active site was predicted. The authors do not specify the grid box dimensions or the center coordinates for each protein. This lack of detail makes it impossible to reproduce the docking experiments.
+  - **Why it matters** Reproducibility is a cornerstone of the scientific method. Without this information, other researchers cannot repeat the docking calculations, which undermines the technical validity of the study.
+  - **Resolution test** The authors should provide a supplementary table listing the grid box center and dimensions for each of the 26 proteins. They should also describe the method used to define the active site for proteins without a known ligand (e.g., using a binding site prediction server like CASTp or SiteMap).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 2.
+  - **Issue** The introduction is dense and assumes a high level of background knowledge. The description of the signaling pathways is brief and may be difficult for a reader who is not an expert in astrocyte biology to follow.
+  - **Required correction** Consider adding a simple schematic figure of the NF-κB and JAK/STAT pathways, highlighting the proteins that were targeted in this study. This would greatly improve accessibility for a broader audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Molecular Docking section
+  - **Evidence pointer** Results, Molecular Docking section.
+  - **Issue** The text states that "binding energies lower than -7 kcal/mol are commonly accepted as 'strong binding'" but then the authors use a threshold of -9 kcal/mol. The justification for this stricter threshold is not fully explained.
+  - **Required correction** Provide a more detailed justification for the -9 kcal/mol threshold. Is it based on the specific proteins or ligands used? A brief explanation would help the reader understand the rationale.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Protein-Ligand Interactions section
+  - **Evidence pointer** Results, Protein-Ligand Interactions section; Table 3.
+  - **Issue** The text mentions that "Hydrogen bonds and van der Waals interactions were mainly responsible for flavonoid–protein/drug-protein interactions." However, the analysis is purely descriptive. The authors do not quantify the number of hydrogen bonds or the contribution of different interaction types to the binding energy.
+  - **Required correction** A more quantitative analysis of the interactions (e.g., the number of hydrogen bonds, the residues involved, the distance of the bonds) would strengthen this section. This information is likely available in the docking output files and could be summarized in a table.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, Validation of the Role of Flavonoids on Molecular Pathways Based on the Previous Research
+  - **Evidence pointer** Discussion, Validation section.
+  - **Issue** The discussion of previous research is extensive but is presented as a list of studies that support the authors' findings. It does not critically evaluate the quality or consistency of the previous studies, nor does it discuss any conflicting evidence.
+  - **Required correction** The authors should critically assess the previous literature. Are there studies that show no effect of these flavonoids on the NF-κB or JAK/STAT pathways? A more balanced discussion would increase the credibility of the paper.
+
+## Risk / unsupported claims
+- The claim that the study is "the first to investigate the potential interaction between flavonoids and the transcription factors involved in GFAP expression" is difficult to verify and is a strong claim that is not supported by a comprehensive literature review within the manuscript.
+- The claim that the identified flavonoids are "the most promising and effective candidates" is not supported, as the study only uses a computational threshold and does not compare against a broader set of known active compounds or use a more sophisticated ranking method.
+- The statement that the "predictive associations" are "extremely valuable for developing nutritional guidelines" is an overreach. The study does not provide any data on dietary intake, bioavailability in the brain, or clinical outcomes.
+- The conclusion that the flavonoids "might affect both GFAP expression and the astrogliosis process" is presented as a likely outcome, but the evidence is purely correlative and based on in silico predictions. This is a hypothesis, not a finding.

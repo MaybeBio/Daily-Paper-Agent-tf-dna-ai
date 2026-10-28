@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, and conclusions as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors identify transcription factor binding site clustered regions (TFCRs) across six vertebrate species at multiple embryonic stages, characterize their developmental dynamics and evolutionary patterns, introduce a RegulatoryScore metric to quantify TFCR-gene expression synchronization, and use explainable machine learning to identify distance between TFCR and promoter as the most important predictive feature.
+- **Visible evidence base** Main text including Abstract, Introduction, Materials and Methods, Results, Discussion, Data availability statement
+- **Missing materials affecting confidence** All figures, supplementary tables, supplementary figures, and supplementary methods are referenced but not provided. This substantially limits verification of quantitative results, statistical analyses, and methodological details.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in regulatory genomics, namely how clustered TF binding sites evolve and function across species during development. The authors have assembled a substantial multi-species dataset and applied a reasonable computational framework. However, the current text, without access to figures and supplementary materials, does not allow verification of key quantitative claims. The RegulatoryScore definition is incomplete as the formula is missing. The machine learning analysis, while appropriate in concept, requires more rigorous evaluation to support the claim that distance is universally the most important feature. The evolutionary interpretations, while interesting, are somewhat speculative and would benefit from more direct comparative analyses. The manuscript is potentially publishable in a specialized journal, but the evidence as presented is insufficient to fully establish the central claims.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, comparative genomics, and developmental biology would be interested. The multi-species TFCR atlas could serve as a resource for studying cis-regulatory evolution. The RegulatoryScore metric and the machine learning framework may be of methodological interest to computational biologists studying gene regulation. The finding that TFCR-promoter distance is a key predictive feature could inform future models of transcriptional regulation.
+- **Major strengths** 1. The study spans six species and multiple embryonic stages, providing a broad comparative perspective. 2. The use of explainable machine learning to identify key regulatory features is a modern and appropriate approach. 3. The RegulatoryScore concept, if properly validated, could be a useful metric for cross-species regulatory comparison. 4. The authors address potential confounders such as sequencing depth and motif database choice.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The RegulatoryScore formula is presented as defining the synchronization between TFCR complexity and gene expression, but the actual formula is missing from the text.
+  - **Evidence pointer** Materials and Methods, "Synchronization assessment for TFCR complexity and gene expression" section
+  - **Concern** The manuscript states "the following formula is used to calculate the synchronization" but the formula itself is not displayed in the provided text. Without the exact mathematical definition, the metric cannot be evaluated, reproduced, or properly interpreted.
+  - **Why it matters** RegulatoryScore is a central contribution of the paper. If the formula is not clearly defined, the entire downstream analysis, including the machine learning prediction and the biological interpretations, cannot be assessed or replicated by other researchers.
+  - **Resolution test** Provide the complete formula for RegulatoryScore, including all variables and their definitions. Clarify the range of possible values and the interpretation of specific thresholds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "distance emerged as the most important feature for RegulatoryScore prediction across all species and all stages" based on SHAP analysis.
+  - **Evidence pointer** Results, "Explainable machine learning models illustrate the importance of distance between TFCR and promoter for RegulatoryScore prediction" section; Figure 6
+  - **Concern** The claim of universal importance of distance is made without presenting quantitative SHAP values, confidence intervals, or statistical comparisons across features. It is unclear whether distance is significantly more important than other features, whether this pattern is consistent across all species and stages, or whether the result is robust to different model hyperparameters or training data subsamples.
+  - **Why it matters** This is a key finding of the paper. If the importance of distance is not rigorously established, the central conclusion about what drives TFCR regulatory potential is weakened.
+  - **Resolution test** Provide quantitative SHAP importance values with measures of variance across cross-validation folds. Perform statistical tests comparing distance importance to other features. Show that the result is consistent across species and stages, or explicitly discuss any exceptions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the identified TFCRs had a higher proportion of promoters than randomly shuffled TFCRs across all species" and that "human TFCRs, although with low coverage in the genome, were densely distributed in the promoter regions."
+  - **Evidence pointer** Results, "Identification and characterization of TFCRs" section; Supplementary Figures S5 and S6
+  - **Concern** The comparison to shuffled TFCRs is mentioned but the statistical details are not provided in the main text. It is unclear what null model was used for shuffling, how many shuffles were performed, and what statistical test was applied. The claim about human-specific promoter enrichment is central to the evolutionary interpretation but requires more rigorous support.
+  - **Why it matters** The genomic distribution of TFCRs is a foundational observation. If the statistical comparison to the null model is not robust, the subsequent evolutionary interpretations may be built on a weak foundation.
+  - **Resolution test** Provide details of the shuffling procedure, the number of permutations, and the statistical tests used. Report effect sizes and confidence intervals for the enrichment comparisons.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose that "the evolution of TFCRs from simple to complex organisms is a process of progressively improving the efficiency of transcriptional regulation" and draw an analogy to urban public transport network planning.
+  - **Evidence pointer** Discussion section
+  - **Concern** The evolutionary interpretation is presented as a general principle but is based on a limited set of species and developmental stages. The analogy to public transport, while illustrative, does not constitute a scientific argument. The claim that TFCR evolution reflects "improving efficiency" is teleological and not directly tested.
+  - **Why it matters** The broader evolutionary narrative is likely to be a key takeaway for readers. If it is not properly qualified and supported, it may overstate the findings.
+  - **Resolution test** Soften the language to reflect that this is a hypothesis. Discuss alternative interpretations, such as neutral drift or lineage-specific adaptation. Consider whether the data can distinguish between these possibilities.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "about 98% of TFCRs identified using JASPAR were overlapped with those identified using CIS-BP" and use this to conclude that "the identification of TFCRs using CIS-BP is robust."
+  - **Evidence pointer** Materials and Methods, "Identification of TFCRs" section; Supplementary Table S5
+  - **Concern** The overlap threshold of 50% base pairs is arbitrary, and the 98% overlap figure is presented without confidence intervals or analysis of whether the non-overlapping 2% has any systematic properties. The conclusion of robustness may be premature.
+  - **Why it matters** The choice of motif database could affect TFCR identification and downstream results. If the robustness analysis is not rigorous, the generalizability of the findings is uncertain.
+  - **Resolution test** Provide a more detailed comparison of TFCRs identified with different motif databases, including analysis of the non-overlapping fraction. Consider testing additional motif databases or parameter settings.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The opening sentence is dense and could be clearer for readers outside the immediate field.
+  - **Required correction** Consider revising to provide a more accessible entry point, perhaps by starting with a concrete example or a broader question.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "Dataset collection" section
+  - **Evidence pointer** Materials and Methods, "Dataset collection" section
+  - **Issue** The description of data sources is brief. It is not clear which specific GEO accessions correspond to which species and stages, and how quality control was performed across datasets from different laboratories.
+  - **Required correction** Provide a supplementary table listing all datasets used, with accessions, species, stages, and quality metrics. Describe the quality control pipeline in more detail.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "Identification of TFCRs" section
+  - **Evidence pointer** Materials and Methods, "Identification of TFCRs" section
+  - **Issue** The bandwidth parameter of 300 bp for Gaussian kernel density estimation is stated but not justified. The sensitivity of TFCR identification to this parameter is not discussed.
+  - **Required correction** Provide a rationale for the chosen bandwidth or include a sensitivity analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion, public transport analogy
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The public transport analogy, while colorful, may distract from the scientific content and is not a standard framework in regulatory genomics.
+  - **Required correction** Consider moving the analogy to a more clearly marked speculative section or removing it in favor of a more direct summary of the findings.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Genes with high RegulatoryScore show species-specific biological processes" section
+  - **Evidence pointer** Results, "Genes with high RegulatoryScore show species-specific biological processes" section; Supplementary Figure S14
+  - **Issue** The gene ontology analysis uses a q-value threshold of 0.2, which is relatively lenient. The authors do not discuss the potential for false positives.
+  - **Required correction** Justify the chosen threshold or discuss the robustness of the enrichment results to more stringent thresholds.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing RegulatoryScore formula), R1-M2 (insufficient quantitative support for distance importance), R1-M3 (incomplete statistical details for TFCR distribution comparisons)
+- **Assessment against Nature-style criteria** Originality: The concept of TFCRs is not entirely new, building on prior work by the same group, but the multi-species developmental comparison and the machine learning approach add a novel dimension. Scientific importance: The findings are relevant to understanding regulatory evolution, but the impact is incremental rather than transformative. Interdisciplinary readership: The work is primarily of interest to regulatory genomics and comparative biology specialists; the broader evolutionary claims may attract wider attention but are not fully substantiated. Technical soundness: The computational framework is reasonable, but key details are missing (formula, statistical rigor) and the lack of figures prevents full assessment. Readability for nonspecialists: The text is generally clear but includes some jargon and the public transport analogy is not helpful for scientific communication. Overall, the manuscript does not currently meet the bar for a Nature-style publication, which requires both high technical rigor and broad significance.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and has potential, but the missing formula, incomplete statistical details, and lack of access to figures and supplementary materials prevent verification of the central claims. I would be supportive if the technical concerns are resolved and the quantitative evidence is presented rigorously.
+
+## Risk / unsupported claims
+- The claim that "distance emerged as the most important feature for RegulatoryScore prediction across all species and all stages" is not quantitatively supported in the provided text.
+- The claim that "the evolution of TFCRs from simple to complex organisms is a process of progressively improving the efficiency of transcriptional regulation" is speculative and not directly tested.
+- The statement that "the identification of TFCRs using CIS-BP is robust" based on 98% overlap with JASPAR-derived TFCRs is not fully supported without details on the overlap analysis.
+- The RegulatoryScore metric cannot be evaluated because the formula is missing.
+- All quantitative results referenced in figures and supplementary materials cannot be verified from the provided text.

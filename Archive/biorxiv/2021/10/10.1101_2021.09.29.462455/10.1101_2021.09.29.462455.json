@@ -1,0 +1,110 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.09.29.462455",
+  "title": "PEAK2VEC ENABLES INFERRENCE OF TRANSCRIPTIONAL REGULATION FROM ATAC-SEQ",
+  "doi": "10.1101/2021.09.29.462455",
+  "abstract": "<h4>ABSTRACT</h4> Transcription factor (TF) binding sites in ATAC-seq are typically determined by footprint analysis. However, the performance of footprint analysis remains unsatisfying and most TFs do not exhibit footprint patterns. In this study, we modified the convolutional neural network to project sequences into an embedding space. Sequences with similar nucleotide patterns will stay close together in the embedding. The dimensionality of this embedding space represents binding specificities of various TFs. In the simulation experiment, peak2vec accurately distinguished the three TFs in the embedding space while conventional deep learning cannot. When applied to the ATAC-seq profiles of hepatitis carcinoma, peak2vec recovered multiple motifs curated in database, while significant portion of sequences corresponding to the TF are located at the promoter region of its regulated genes.",
+  "authors": [
+    "Liang L",
+    "Lu X",
+    "Lu S"
+  ],
+  "published_date": "2021-10-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.09.29.462455",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.09.29.462455.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR402637",
+    "raw_record": {
+      "id": "PPR402637",
+      "source": "PPR",
+      "doi": "10.1101/2021.09.29.462455",
+      "title": "PEAK2VEC ENABLES INFERRENCE OF TRANSCRIPTIONAL REGULATION FROM ATAC-SEQ",
+      "authorString": "Liang L, Lu X, Lu S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Liang L",
+            "lastName": "Liang",
+            "firstName": "Lifan",
+            "initials": "L"
+          },
+          {
+            "fullName": "Lu X",
+            "lastName": "Lu",
+            "firstName": "Xinghua",
+            "initials": "X"
+          },
+          {
+            "fullName": "Lu S",
+            "lastName": "Lu",
+            "firstName": "Songjian",
+            "initials": "S"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>ABSTRACT</h4>  Transcription factor (TF) binding sites in ATAC-seq are typically determined by footprint analysis. However, the performance of footprint analysis remains unsatisfying and most TFs do not exhibit footprint patterns. In this study, we modified the convolutional neural network to project sequences into an embedding space. Sequences with similar nucleotide patterns will stay close together in the embedding. The dimensionality of this embedding space represents binding specificities of various TFs. In the simulation experiment, peak2vec accurately distinguished the three TFs in the embedding space while conventional deep learning cannot. When applied to the ATAC-seq profiles of hepatitis carcinoma, peak2vec recovered multiple motifs curated in database, while significant portion of sequences corresponding to the TF are located at the promoter region of its regulated genes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/10/01/2021.09.29.462455.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.09.29.462455"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-10-02",
+      "firstPublicationDate": "2021-10-01",
+      "firstIndexDate": "2021-10-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

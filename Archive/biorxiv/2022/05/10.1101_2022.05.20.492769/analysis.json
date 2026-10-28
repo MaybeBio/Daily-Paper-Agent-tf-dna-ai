@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.05.20.492769",
+  "title": "Alignment-free metal ion-binding site prediction from protein sequence through pretrained language model and multi-task learning",
+  "authors": "Qianmu Yuan; Sheng Chen; Yu Wang; Huiying Zhao; Yuedong Yang",
+  "journal": "bioRxiv",
+  "published_date": "2022-05-20",
+  "window": {
+    "start": "2022-05-16",
+    "end": "2022-05-22"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用预训练语言模型和Transformer预测金属离子结合位点，虽属蛋白-配体互作且方法可迁移，但对象非蛋白质-DNA互作体系，与TF-DNA课题关联较弱。",
+  "abstract": "More than one-third of the proteins contain metal ions in the Protein Data Bank. Correct identification of metal ion-binding residues is important for understanding protein functions and designing novel drugs. Due to the small size and high versatility of metal ions, it remains challenging to computationally predict their binding sites from protein sequence. Existing sequence-based methods are of low accuracy due to the lack of structural information, and time-consuming owing to the usage of multi-sequence alignment. Here, we propose LMetalSite, an alignment-free sequence-based predictor for binding sites of the four most frequently seen metal ions (Zn 2+ , Ca 2+ , Mg 2+ and Mn 2+ ). LMetalSite leverages the pretrained language model to rapidly generate informative sequence representations and employs transformer to capture long-range dependencies. Multi-task learning is adopted to compensate for the scarcity of training data and capture the intrinsic similarities between different metal ions. LMetalSite was shown to surpass state-of-the-art structure-based methods by more than 19.7%, 14.4%, 36.8%, and 12.6% in AUPR on the four independent tests, respectively. Further analyses indicated that the self-attention modules are effective to learn the structural contexts of residues from protein sequence.",
+  "abstract_zh": "在蛋白质数据银行（Protein Data Bank）中，超过三分之一的蛋白质含有金属离子。正确识别金属离子结合残基对于理解蛋白质功能和设计新型药物至关重要。由于金属离子体积小且具有高度多变性，从蛋白质序列计算预测其结合位点仍具挑战性。现有的基于序列的方法因缺乏结构信息而准确率较低，且因使用多序列比对而耗时。在此，我们提出LMetalSite，一种无需比对的基于序列的预测器，用于预测四种最常见金属离子（Zn 2+ 、Ca 2+ 、Mg 2+ 和Mn 2+ ）的结合位点。LMetalSite利用预训练语言模型快速生成信息丰富的序列表示，并采用transformer捕捉长距离依赖性。采用多任务学习以弥补训练数据的稀缺性，并捕捉不同金属离子之间的内在相似性。在四个独立测试中，LMetalSite在AUPR上分别超过最先进的结构基方法19.7%、14.4%、36.8%和12.6%。进一步分析表明，自注意力模块能有效从蛋白质序列中学习残基的结构上下文。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.05.20.492769",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.05.20.492769",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.05.20.492769/index.html"
+}

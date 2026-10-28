@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "38360836",
+    "doi": "10.1038/s41598-024-54278-4",
+    "title": "Identification of SLC40A1, LCN2, CREB5, and SLC7A11 as ferroptosis-related biomarkers in alopecia areata through machine learning."
+  },
+  "content": {
+    "abstract": "Alopecia areata (AA) is a common non-scarring hair loss condition driven by the collapse of immune privilege and oxidative stress. The role of ferroptosis, a type of cell death linked to oxidative stress, in AA is yet to be explored, even though it's implicated in various diseases. Using transcriptome data from AA patients and controls from datasets GSE68801 and GSE80342, we aimed to identify AA diagnostic marker genes linked to ferroptosis. We employed Single-sample gene set enrichment analysis (ssGSEA) for immune cell infiltration evaluation. Correlations between ferroptosis-related differentially expressed genes (FRDEGs) and immune cells/functions were identified using Spearman analysis. Feature selection was done through Support vector machine-recursive feature elimination (SVM-RFE) and LASSO regression models. Validation was performed using the GSE80342 dataset, followed by hierarchical internal validation. We also constructed a nomogram to assess the predictive ability of FRDEGs in AA. Furthermore, the expression and distribution of these molecules were confirmed through immunofluorescence. Four genes, namely SLC40A1, LCN2, CREB5, and SLC7A11, were identified as markers for AA. A prediction model based on these genes showed high accuracy (AUC = 0.9052). Immunofluorescence revealed reduced expression of these molecules in AA patients compared to normal controls (NC), with SLC40A1 and CREB5 showing significant differences. Notably, they were primarily localized to the outer root sheath and in proximity to the sebaceous glands. Our study identified several ferroptosis-related genes associated with AA. These findings, emerging from the integration of immune cell infiltration analysis and machine learning, contribute to the evolving understanding of diagnostic and therapeutic strategies in AA. Importantly, this research lays a solid foundation for subsequent studies exploring the intricate relationship between AA and ferroptosis.",
+    "keywords": [
+      "Alopecia areata",
+      "Biomarkers",
+      "Ferroptosis",
+      "Immune cell infiltration",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Alopecia Areata/genetics",
+      "Amino Acid Transport System y+/genetics",
+      "Cyclic AMP Response Element-Binding Protein A",
+      "*Ferroptosis/genetics",
+      "Lipocalin-2",
+      "Machine Learning",
+      "Genetic Markers"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Wen",
+        "Wei, Dongfan",
+        "Song, Xiuzu"
+      ],
+      "short_names": [
+        "Xu W",
+        "Wei D",
+        "Song X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Medicine, Zhejiang University, Hangzhou, 310009, China.",
+        "Department of Dermatology, Hangzhou Third People's Hospital, Affiliated Hangzhou Dermatology Hospital, Zhejiang University School of Medicine, West Lake Ave 38, Hangzhou, 310009, China.",
+        "School of Medicine, Zhejiang University, Hangzhou, 310009, China.",
+        "Department of Dermatology, Hangzhou Third People's Hospital, Affiliated Hangzhou Dermatology Hospital, Zhejiang University School of Medicine, West Lake Ave 38, Hangzhou, 310009, China.",
+        "Department of Dermatology, Hangzhou Third People's Hospital, Affiliated Hangzhou Dermatology Hospital, Zhejiang University School of Medicine, West Lake Ave 38, Hangzhou, 310009, China. songxiuzu@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Wen",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Zhejiang University, Hangzhou, 310009, China.",
+          "Department of Dermatology, Hangzhou Third People's Hospital, Affiliated Hangzhou Dermatology Hospital, Zhejiang University School of Medicine, West Lake Ave 38, Hangzhou, 310009, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Dongfan",
+        "short_name": "Wei D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Zhejiang University, Hangzhou, 310009, China.",
+          "Department of Dermatology, Hangzhou Third People's Hospital, Affiliated Hangzhou Dermatology Hospital, Zhejiang University School of Medicine, West Lake Ave 38, Hangzhou, 310009, China."
+        ]
+      },
+      {
+        "full_name": "Song, Xiuzu",
+        "short_name": "Song X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Hangzhou Third People's Hospital, Affiliated Hangzhou Dermatology Hospital, Zhejiang University School of Medicine, West Lake Ave 38, Hangzhou, 310009, China. songxiuzu@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Feb 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/16 00:42",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [
+      "41758324",
+      "41700484",
+      "41454067",
+      "41387231",
+      "41308637",
+      "41249671",
+      "41096925",
+      "40762608",
+      "39296639"
+    ],
+    "refs": [
+      "37591562",
+      "37507872",
+      "37428932",
+      "36684424",
+      "36537251",
+      "36435829",
+      "36203601",
+      "35614212",
+      "35341888",
+      "35338310",
+      "35326121",
+      "35272187",
+      "35260343",
+      "35201659",
+      "35151885",
+      "35053376",
+      "34403083",
+      "34004600",
+      "33830087",
+      "33514910",
+      "33495651",
+      "33268902",
+      "32561373",
+      "32376430",
+      "32353685",
+      "31767624",
+      "31506425",
+      "31443682",
+      "31437543",
+      "31043744",
+      "30745627",
+      "30618523",
+      "30616060",
+      "29620054",
+      "29356212",
+      "27699253",
+      "27322477",
+      "25594174",
+      "23364477",
+      "18523150",
+      "12437994"
+    ],
+    "similar": [
+      "38360836",
+      "34004600",
+      "38423372",
+      "38029552",
+      "37821869",
+      "39331874",
+      "37986345",
+      "37957905",
+      "39113509",
+      "36671050",
+      "39169865",
+      "38951638",
+      "37645416",
+      "39351238",
+      "38441793",
+      "38802844",
+      "37576602",
+      "38639655",
+      "37717318",
+      "35350787",
+      "37732314",
+      "37904700",
+      "37131411",
+      "36792688",
+      "37081490",
+      "38760473",
+      "35286691",
+      "37752199",
+      "38291374",
+      "37120553",
+      "37259023",
+      "32353685",
+      "37333624",
+      "37395033",
+      "34434248",
+      "39177325",
+      "33523560",
+      "37000707",
+      "38965390",
+      "38314944",
+      "37474873",
+      "31558844",
+      "37303674",
+      "37378023",
+      "39091931",
+      "34107850",
+      "37901384",
+      "38887322",
+      "37390872",
+      "35983595",
+      "37712959",
+      "36035135",
+      "36506045",
+      "35341274",
+      "38371524",
+      "39400935",
+      "36685847",
+      "36470144",
+      "38057699",
+      "37626095",
+      "30983035",
+      "38814177",
+      "37878471",
+      "25315746",
+      "35841206",
+      "37928394",
+      "32723274",
+      "36725810",
+      "37454542",
+      "37779906",
+      "37653201",
+      "20596022",
+      "36226171",
+      "37858131",
+      "33721346",
+      "37061114",
+      "35509981",
+      "38028617",
+      "37496049",
+      "36275721",
+      "32411613",
+      "32682334",
+      "35500219",
+      "37713821",
+      "37783761",
+      "36345357",
+      "37942417",
+      "37530128",
+      "34178024",
+      "37510267",
+      "36466094",
+      "38287255",
+      "34741776",
+      "36250071",
+      "34315405",
+      "35764238",
+      "35757721",
+      "37723556",
+      "34059009",
+      "36545400",
+      "37465372",
+      "38772922",
+      "39029052",
+      "37279744",
+      "34761566",
+      "36873892",
+      "20535136",
+      "36057911",
+      "34624650",
+      "37822529",
+      "38000702",
+      "37452932",
+      "38547657",
+      "38863444",
+      "38192427",
+      "37396920",
+      "38963039",
+      "38835517",
+      "39293745",
+      "38665119",
+      "38780016",
+      "38635107",
+      "38198162",
+      "38445615",
+      "34262953",
+      "38454353"
+    ],
+    "review": [
+      "38360836",
+      "25315746",
+      "32723274",
+      "32682334",
+      "37510267",
+      "38772922",
+      "37396920"
+    ],
+    "pmc": [
+      "10869692"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-54278-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38360836/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38360836",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-681",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

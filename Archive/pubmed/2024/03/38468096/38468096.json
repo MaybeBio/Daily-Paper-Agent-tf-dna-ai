@@ -1,0 +1,238 @@
+{
+  "identity": {
+    "pmid": "38468096",
+    "doi": "10.1007/978-1-0716-3658-9_18",
+    "title": "Encoding Genetic Circuits with DNA Barcodes Paves the Way for High-Throughput Profiling of Dose-Response Curves of Metabolite Biosensors."
+  },
+  "content": {
+    "abstract": "Metabolite biosensors, through which the intracellular metabolite concentrations could be converted to changes in gene expression, are widely used in a variety of applications according to the different output signals. However, it remains challenging to fine-tune the dose-response relationships of biosensors to meet the needs of various scenarios. On the other hand, the short read length of next-generation sequencing (NGS) has greatly limited the design capability of sequence libraries. To address these issues, we describe a DNA trackable assembly method, coupled with fluorescence-activated cell sorting and NGS (Sort-Seq), to achieve the characterization of dose-response curves in a massively parallel manner. As a proof of the concept, we constructed a malonyl-CoA biosensor library containing 5184 combinations with six levels of transcription factor dosage, four different operator positions, and 216 possible upstream enhancer sequence (UAS) designs in Saccharomyces cerevisiae BY4700. By using Sort-Seq and machine learning approach, we obtained comprehensive dose-response relationships of the combinatorial sequence space. Therefore, our pipeline provides a platform for the design, tuning, and profiling of biosensor response curves and shows great potential to facilitate the rational design of genetic circuits.",
+    "keywords": [
+      "Dose-response curve",
+      "Machine learning",
+      "Metabolite biosensor",
+      "Trackable assembly"
+    ],
+    "mesh_terms": [
+      "*DNA Barcoding, Taxonomic",
+      "*Biosensing Techniques/methods",
+      "Transcription Factors/metabolism",
+      "Gene Regulatory Networks",
+      "Saccharomyces cerevisiae/genetics/metabolism",
+      "DNA/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feng, Huibao",
+        "Zhou, Yikang",
+        "Zhang, Chong"
+      ],
+      "short_names": [
+        "Feng H",
+        "Zhou Y",
+        "Zhang C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "MOE Key Laboratory for Industrial Biocatalysis, Institute of Biochemical Engineering, Department of Chemical Engineering, Tsinghua University, Beijing, China.",
+        "MOE Key Laboratory for Industrial Biocatalysis, Institute of Biochemical Engineering, Department of Chemical Engineering, Tsinghua University, Beijing, China.",
+        "MOE Key Laboratory for Industrial Biocatalysis, Institute of Biochemical Engineering, Department of Chemical Engineering, Tsinghua University, Beijing, China. chongzhang@mail.tsinghua.edu.cn.",
+        "Center for Synthetic and Systems Biology, Tsinghua University, Beijing, China. chongzhang@mail.tsinghua.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feng, Huibao",
+        "short_name": "Feng H",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory for Industrial Biocatalysis, Institute of Biochemical Engineering, Department of Chemical Engineering, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yikang",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory for Industrial Biocatalysis, Institute of Biochemical Engineering, Department of Chemical Engineering, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chong",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory for Industrial Biocatalysis, Institute of Biochemical Engineering, Department of Chemical Engineering, Tsinghua University, Beijing, China. chongzhang@mail.tsinghua.edu.cn.",
+          "Center for Synthetic and Systems Biology, Tsinghua University, Beijing, China. chongzhang@mail.tsinghua.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/12 06:42",
+    "fetched_at": "2026-09-29 16:52:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "35089702",
+      "26998575",
+      "26750662",
+      "26280411",
+      "26258292",
+      "26149896",
+      "25956650",
+      "25419741",
+      "23924614",
+      "21903629",
+      "19363495",
+      "18985154",
+      "8022284"
+    ],
+    "similar": [
+      "38468096",
+      "35089702",
+      "26059511",
+      "33899477",
+      "26149896",
+      "31985403",
+      "32690010",
+      "41182995",
+      "35781199",
+      "31373795",
+      "40460061",
+      "33531406",
+      "40682185",
+      "31314504",
+      "36768872",
+      "36550338",
+      "31935067",
+      "31433622",
+      "27642864",
+      "39908076",
+      "28763198",
+      "35921946",
+      "35229648",
+      "41655251",
+      "31777933",
+      "34431656",
+      "38683316",
+      "29170965",
+      "29385546",
+      "36137537",
+      "16209540",
+      "41512477",
+      "38906116",
+      "29688705",
+      "27744683",
+      "40657759",
+      "23912807",
+      "40742616",
+      "27470466",
+      "34477863",
+      "32976557",
+      "34347108",
+      "36243715",
+      "34968029",
+      "28463494",
+      "38696354",
+      "35700119",
+      "39068343",
+      "33664255",
+      "38973176",
+      "33783157",
+      "20831804",
+      "35195994",
+      "29027175",
+      "21938636",
+      "31778177",
+      "19159457",
+      "25887410",
+      "29066821",
+      "28485712",
+      "29208650",
+      "30232266",
+      "35538127",
+      "37053505",
+      "37185503",
+      "31197154",
+      "31134799",
+      "29733444",
+      "27170323",
+      "15033507",
+      "24641208",
+      "30150540",
+      "38282330",
+      "40277535",
+      "31000590",
+      "28789639",
+      "38944415",
+      "39806069",
+      "41535463",
+      "33864457",
+      "38309959",
+      "34475218",
+      "30635653",
+      "26153861",
+      "29314756",
+      "30204430",
+      "31519238",
+      "31577419",
+      "37449325",
+      "41671286",
+      "36091463",
+      "41974726",
+      "28712783",
+      "41345436",
+      "29097310",
+      "19346491",
+      "26384417",
+      "29588420",
+      "32023410",
+      "20959818"
+    ],
+    "review": [
+      "38468096",
+      "33899477",
+      "41655251",
+      "34347108",
+      "33783157",
+      "31778177",
+      "37185503",
+      "30150540",
+      "40277535",
+      "37449325"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-3658-9_18",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

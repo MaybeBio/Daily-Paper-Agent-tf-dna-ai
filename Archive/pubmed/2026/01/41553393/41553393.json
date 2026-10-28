@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "41553393",
+    "doi": "10.1007/s13402-025-01160-8",
+    "title": "A novel molecular classifier enabling identification and prediction on immunotherapeutic response for MYCN-low pediatric neuroblastoma."
+  },
+  "content": {
+    "abstract": "PURPOSE: Neuroblastoma (NB) is a pediatric malignant solid tumor arising from peripheral neural crest cells, characterized by significant heterogeneity. Previous studies have stratified NB patients into risk groups based on pivotal genetic changes, but the suboptimal clinical outcomes of NB underscore the need for a more precise individualized grading system to guide the selection of novel therapeutic strategies. METHODS: In this study, we developed a dense neural network molecular classifier utilizing bulk transcriptomics data from the UCSC Treehouse database and applied it to a single-center cohort. RESULTS: The neural network molecular classifier on bulk transcriptomics refined the classification in both high-risk and low-risk groups by the traditional classification method. The classifier identified four molecular subtypes: High-risk MYCN-high NB (HR1), High-risk MYCN-low NB (HR2), Low/Intermediate-risk NB (LR1), and Low/Intermediate-risk GNB (LR2). By applying the new classifier, we identified factors such as PIK3R1, GATA2, and EYA1 that may be associated with a low-risk, differentiated ADRN-subtype NB, in addition to the classical adrenergic fate-determining factors PHOX2B, ASCL1, ALK, and GATA3. Additionally, we observed elevated GD2 and CTLA-4 expression in the High-risk MYCN-low NB group, which may serve as a potential clue for the development of personalized immunotherapeutic strategies. CONCLUSION: Our model details the current NB risk stratification at the transcriptomic level with a molecular classifier and offers potentially more personalized immunotherapeutic strategies for High-risk MYCN-low NBs.",
+    "keywords": [
+      "GD2",
+      "High-risk MYCN-low NB",
+      "Molecular classifier",
+      "Neuroblastoma"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Neuroblastoma/genetics/therapy/immunology/classification",
+      "*N-Myc Proto-Oncogene Protein/genetics/metabolism",
+      "*Immunotherapy/methods",
+      "Gene Expression Profiling",
+      "Classification Algorithms",
+      "Gene Expression Regulation, Neoplastic",
+      "Child",
+      "Neural Networks, Computer",
+      "Transcriptome/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Liyuan",
+        "Zhou, Jiquan",
+        "Fu, Tingyi",
+        "Wang, Jing",
+        "Zhan, Xingda",
+        "Shan, Yuhua",
+        "Gao, Hongxiang",
+        "Xie, Chenjie",
+        "Zhang, Lei",
+        "Jiang, Dapeng",
+        "Xu, Min",
+        "Zhang, Min",
+        "Gu, Song"
+      ],
+      "short_names": [
+        "Yang L",
+        "Zhou J",
+        "Fu T",
+        "Wang J",
+        "Zhan X",
+        "Shan Y",
+        "Gao H",
+        "Xie C",
+        "Zhang L",
+        "Jiang D",
+        "Xu M",
+        "Zhang M",
+        "Gu S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6568-1623"
+      ],
+      "affiliations": [
+        "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China.",
+        "Department of Surgery, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China.",
+        "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China.",
+        "Department of Surgery, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China.",
+        "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China.",
+        "Department of Surgery, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China.",
+        "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China.",
+        "Department of Surgery, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China.",
+        "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China.",
+        "Department of Surgery, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China.",
+        "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China.",
+        "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China.",
+        "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China.",
+        "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China.",
+        "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China.",
+        "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China.",
+        "Pediatric Translational Medicine Institute and Pediatric Congenital Heart Disease Institute, Shanghai Children's Medical Center, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China. minzhang5099@gmail.com.",
+        "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China. 731003249@shsmu.edu.cn.",
+        "Department of Surgery, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China. 731003249@shsmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Liyuan",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China.",
+          "Department of Surgery, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jiquan",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China.",
+          "Department of Surgery, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Tingyi",
+        "short_name": "Fu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China.",
+          "Department of Surgery, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China.",
+          "Department of Surgery, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Xingda",
+        "short_name": "Zhan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China.",
+          "Department of Surgery, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Shan, Yuhua",
+        "short_name": "Shan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Hongxiang",
+        "short_name": "Gao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Chenjie",
+        "short_name": "Xie C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lei",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Dapeng",
+        "short_name": "Jiang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Min",
+        "short_name": "Xu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Min",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Translational Medicine Institute and Pediatric Congenital Heart Disease Institute, Shanghai Children's Medical Center, Shanghai Jiao Tong University School of Medicine, Shanghai, 200127, China. minzhang5099@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Gu, Song",
+        "short_name": "Gu S",
+        "identifiers": [
+          "0000-0002-6568-1623"
+        ],
+        "affiliations": [
+          "Department of Oncology (Ward 2), Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Dongfang Road No.1678, Pudong, Shanghai, 200127, China. 731003249@shsmu.edu.cn.",
+          "Department of Surgery, Shanghai Children's Medical Center, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200127, China. 731003249@shsmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cellular oncology (Dordrecht, Netherlands)"
+    ],
+    "journal_abbrev": [
+      "Cell Oncol (Dordr)"
+    ],
+    "pub_date": "2026 Jan 19",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/19 12:50",
+    "fetched_at": "2026-10-05 05:16:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39729997",
+      "39214097",
+      "38653778",
+      "38553589",
+      "38021164",
+      "37867409",
+      "37554309",
+      "37537343",
+      "37018492",
+      "36585695",
+      "36327426",
+      "35787940",
+      "35660252",
+      "35614230",
+      "35121888",
+      "34815394",
+      "34319759",
+      "33404859",
+      "33341446",
+      "32937281",
+      "32733795",
+      "32486168",
+      "31171666",
+      "29377881",
+      "29203879",
+      "28780888",
+      "28740262",
+      "28650485",
+      "24086065",
+      "19707195",
+      "17586306",
+      "10421272"
+    ],
+    "similar": [
+      "41553393",
+      "33172452",
+      "42050733",
+      "27599694",
+      "34016720",
+      "41642108",
+      "34655293",
+      "40600620",
+      "33737337",
+      "40353332",
+      "39486730",
+      "41840507",
+      "31094257",
+      "31637848",
+      "39532261",
+      "41560679",
+      "27876123",
+      "36311753",
+      "42143291",
+      "12960121",
+      "26549029",
+      "37230388",
+      "39215128",
+      "37246217",
+      "36539767",
+      "29784674",
+      "40108662",
+      "27707976",
+      "28984200",
+      "28586032",
+      "41652432",
+      "32788584",
+      "27517149",
+      "40792136",
+      "26482175",
+      "38069407",
+      "33411331",
+      "33834508",
+      "41644599",
+      "40764361",
+      "37741985",
+      "40087586",
+      "33393844",
+      "22536959",
+      "37712965",
+      "42273677",
+      "29510988",
+      "32512012",
+      "28185577",
+      "39028490",
+      "17023822",
+      "37175848",
+      "24293393",
+      "19615087",
+      "29091799",
+      "40349458",
+      "37094904",
+      "39133652",
+      "32312269",
+      "39703515",
+      "38336749",
+      "32204764",
+      "42052829",
+      "38125723",
+      "42600038",
+      "23815266",
+      "29322842",
+      "36149505",
+      "31255282",
+      "37460674",
+      "38516781",
+      "26468016",
+      "29374092",
+      "41423806",
+      "30612140",
+      "35490242",
+      "27669225",
+      "41273487",
+      "29238067",
+      "36982482",
+      "39675397",
+      "37541765",
+      "31365300",
+      "31695155",
+      "32240058",
+      "41904502",
+      "42677450",
+      "28574509",
+      "42527374",
+      "24011394",
+      "37602920",
+      "26826611",
+      "34937609",
+      "38745192",
+      "21154590",
+      "34565342",
+      "37762082",
+      "15592517",
+      "41420301",
+      "32483461"
+    ],
+    "review": [
+      "41553393",
+      "31094257",
+      "38069407"
+    ],
+    "pmc": [
+      "12816145"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/neuroblastoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Neuroblastoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41553393/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s13402-025-01160-8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NBN-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1539",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

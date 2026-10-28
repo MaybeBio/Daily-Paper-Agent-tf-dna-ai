@@ -1,0 +1,235 @@
+{
+  "identity": {
+    "pmid": "36476775",
+    "doi": "",
+    "title": "Identification of perturbed pathways rendering susceptibility to tuberculosis in type 2 diabetes mellitus patients using BioNSi simulation of integrated networks of implicated human genes."
+  },
+  "content": {
+    "abstract": "In type 2 diabetes mellitus (T2DM) patients, chronic hyperglycemia and inflammation underlie susceptibility to tuberculosis (TB) and result in poor TB control. Here, an integrative pathway-based approach is used to investigate perturbed pathways in T2DM patients that render susceptibility to TB. We obtained 36 genes implicated in type 2 diabetes-associated tuberculosis (T2DMTB) from the literature. Gene expression analysis on T2DM patient data (GSE26168) showed that DEFA1 is differentially expressed at P(adj) <0.05. The human host TB susceptibility genes TNFRSF10A, MSRA, GPR148, SLC37A3, PXK, PROK2, REV3L, PGM1, HIST3H2A, PLAC4, LETM2, and EMP2 and hsa-miR-146a microRNA were also differentially expressed at P(adj) <0.05. We included all these genes and added the remaining 28 genes from the T2DMTB set and the remaining differentially expressed genes at P(adj) <0.05 in STRING and obtained a well-connected network with high confidence score (>/=0.7). Further, we extracted the KEGG pathways at FDR <0.05 and retained only the diabetes and TB pathways. The network was simulated with BioNSi using gene expression data. It is evident from BioNSi analysis that the NF-kappa B and Toll-like receptor pathways are commonly perturbed with high ranking in multiple gene expression datasets of type 2 diabetes versus healthy controls. The other pathways, necroptosis pathway and FoxO signalling pathway, appear perturbed with high ranking in different gene expression datasets. These pathways likely underlie susceptibility to TB in T2DM patients.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Diabetes Mellitus, Type 2/complications/genetics",
+      "*Tuberculosis/genetics",
+      "DNA-Directed DNA Polymerase",
+      "DNA-Binding Proteins",
+      "Membrane Glycoproteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rani, Jyoti",
+        "Bhargav, Anasuya",
+        "Seth, Surabhi",
+        "Datta, Malabika",
+        "Bajpai, Urmi",
+        "Ramachandran, Srinivasan"
+      ],
+      "short_names": [
+        "Rani J",
+        "Bhargav A",
+        "Seth S",
+        "Datta M",
+        "Bajpai U",
+        "Ramachandran S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biomedical Science, Acharya Narendra Dev College, University of Delhi, New Delhi 110019, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rani, Jyoti",
+        "short_name": "Rani J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Science, Acharya Narendra Dev College, University of Delhi, New Delhi 110019, India."
+        ]
+      },
+      {
+        "full_name": "Bhargav, Anasuya",
+        "short_name": "Bhargav A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Seth, Surabhi",
+        "short_name": "Seth S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Datta, Malabika",
+        "short_name": "Datta M",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Bajpai, Urmi",
+        "short_name": "Bajpai U",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ramachandran, Srinivasan",
+        "short_name": "Ramachandran S",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biosciences"
+    ],
+    "journal_abbrev": [
+      "J Biosci"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/09 06:00",
+    "fetched_at": "2026-09-28 17:16:10"
+  },
+  "links": {
+    "cites": [
+      "41216008",
+      "40284755"
+    ],
+    "refs": [],
+    "similar": [
+      "36476775",
+      "29073942",
+      "38801463",
+      "36187128",
+      "32305357",
+      "22230325",
+      "34354368",
+      "36368953",
+      "19057661",
+      "33067206",
+      "16245793",
+      "35456415",
+      "25703556",
+      "35288173",
+      "33915220",
+      "32705173",
+      "33865459",
+      "35456421",
+      "34967200",
+      "27123010",
+      "31749827",
+      "27906902",
+      "32851081",
+      "30197309",
+      "35751020",
+      "33248199",
+      "34763043",
+      "34245428",
+      "36237193",
+      "31082644",
+      "35073196",
+      "21539878",
+      "35046895",
+      "30917933",
+      "35271662",
+      "34512639",
+      "34779951",
+      "25857934",
+      "26329304",
+      "24373112",
+      "36596076",
+      "35419455",
+      "30938105",
+      "31364746",
+      "34671419",
+      "36360309",
+      "32533832",
+      "28179884",
+      "24059308",
+      "30988779",
+      "33149760",
+      "36111539",
+      "35544627",
+      "28695803",
+      "27450007",
+      "36007657",
+      "29414690",
+      "34632719",
+      "32048448",
+      "35773466",
+      "35187175",
+      "30336493",
+      "26438503",
+      "34261004",
+      "34096020",
+      "28237037",
+      "32131938",
+      "29477867",
+      "27450006",
+      "35788821",
+      "29620215",
+      "24975173",
+      "35703920",
+      "24586438",
+      "28317813",
+      "34803519",
+      "28260062",
+      "27291248",
+      "29946422",
+      "30180961",
+      "25559614",
+      "32547141",
+      "32733384",
+      "28779132",
+      "31915515",
+      "24260344",
+      "31175974",
+      "25379510",
+      "28189733",
+      "36061131"
+    ],
+    "review": [
+      "36476775",
+      "25703556",
+      "36237193",
+      "24059308",
+      "27450006"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ias.ac.in/article/fulltext/jbsc/047/0069",
+        "provider": "Indian Academy of Sciences",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/tuberculosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Tuberculosis"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-255",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

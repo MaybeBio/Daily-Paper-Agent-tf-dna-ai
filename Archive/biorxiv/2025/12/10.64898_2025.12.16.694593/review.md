@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors report a mechanistic dissection of the minimal NHEJ system in Mycobacterium tuberculosis, comprising homodimeric Ku and LigD. They use structural simulations, ensemble assays, and single-molecule analysis to show that monomeric Ku cannot bind DNA, that Mtb Ku exhibits limited translocation and remains predominantly at DNA ends, that Ku and LigD compete for DNA binding, and that mutations in the LigD polymerase and ligase domains differentially affect enzymatic activity. They propose a model in which Ku must remain tightly bound at DNA ends to recruit and regulate LigD.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods descriptions, statistical details, sequence alignments, simulation parameters, and raw single-molecule data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting contribution to the understanding of NHEJ in mycobacteria, with a clear conceptual framework and a plausible model. However, the evidence base available for review is limited to the abstract, which precludes verification of the central claims. The finding that Ku and LigD compete for DNA binding while also forming a functional complex is intriguing but requires careful kinetic and structural support. The differential effects of polymerase versus ligase domain mutations on enzymatic activity are notable, but the abstract does not provide sufficient mechanistic detail to assess whether the conclusions are fully supported. The use of AI-generated graphical content is disclosed, which is appropriate, though the scientific content of the figure cannot be evaluated from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in DNA repair, particularly those studying NHEJ in prokaryotes and mycobacteria; structural biologists interested in protein-DNA complexes; and investigators working on tuberculosis biology, given the potential relevance of NHEJ to Mtb pathogenesis and antibiotic resistance. The single-molecule approach may also appeal to biophysicists studying protein-DNA interactions.
+- **Major strengths** The study addresses a well-defined question with a combination of complementary techniques. The use of a monomeric Ku variant to test dimerization requirements is a logical approach. The single-molecule reconstitution of the full NHEJ machinery is ambitious and could provide valuable dynamic information. The identification of specific residues involved in Ku-LigD interactions and the differential mutational effects on polymerase versus ligase activity offer a clear path toward mechanistic understanding.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that monomeric Ku cannot bind DNA is presented as a confirmed finding.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that a monomeric form of Ku was used to confirm the necessity of homodimerization for DNA binding. However, no details are provided regarding how the monomer was generated, how its structural integrity was verified, or what assays were used to assess DNA binding. Without this information, it is not possible to determine whether the observed lack of binding is due to loss of dimerization or to misfolding or destabilization of the monomeric construct.
+  - **Why it matters** This claim is foundational to the proposed model. If the monomeric Ku is not properly folded, the conclusion that dimerization is required for DNA binding would be weakened, and the subsequent interpretation of Ku behavior at DNA ends would be compromised.
+  - **Resolution test** Provide evidence that the monomeric Ku construct is properly folded, such as circular dichroism, size-exclusion chromatography with multi-angle light scattering, or a functional assay independent of DNA binding. Include a positive control showing that the monomer retains some activity or structural integrity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that Ku and LigD compete for DNA binding is presented as a key finding.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports competition between Ku and LigD for DNA binding, but it is unclear whether this competition is observed under conditions where both proteins are present simultaneously or whether it is inferred from separate binding experiments. The kinetic parameters, concentrations used, and the order of addition are not described. Competition could arise from overlapping binding sites, steric hindrance, or allosteric effects, and the abstract does not distinguish between these possibilities.
+  - **Why it matters** The proposed model depends on a dynamic interplay between Ku and LigD. If competition is not rigorously characterized, the model's predictive value is limited, and the interpretation of the mutational effects on enzymatic activity becomes ambiguous.
+  - **Resolution test** Provide quantitative binding data, such as dissociation constants, for Ku and LigD individually and in combination. Include competition assays with varying concentrations of each protein and describe the experimental conditions in sufficient detail to allow replication.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that mutations in the polymerase domain reduce enzymatic activity while mutations in the ligase domain enhance it is presented as a central result.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that mutational analysis of residues in the polymerase and ligase domains, respectively, led to reduced activity for polymerase mutants and enhanced activity for ligase mutants. However, no information is provided about the specific residues mutated, the nature of the mutations (e.g., alanine scanning, charge reversal), the assays used to measure polymerase and ligase activity, or the magnitude of the observed effects. Without this information, it is impossible to assess whether the effects are specific to the intended function or reflect broader structural perturbations.
+  - **Why it matters** The differential effects on polymerase versus ligase activity are used to support the model that Ku regulates LigD enzymatic activity in a domain-specific manner. If the mutations are not well-characterized, the conclusion that the effects are due to disrupted Ku-LigD interactions rather than to intrinsic defects in the catalytic domains is not established.
+  - **Resolution test** Provide a table of the specific mutations, their locations in the protein structure, and the results of activity assays with appropriate controls. Include data showing that the mutations do not globally destabilize the protein, such as thermal stability assays or expression levels comparable to wild-type.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "Mtb Ku and shows limited translocation" contains a grammatical error and is unclear. It is likely meant to state that Mtb Ku shows limited translocation, but the current phrasing is confusing.
+  - **Required correction** Revise to "Mtb Ku shows limited translocation on DNA and primarily remains bound at DNA ends."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "structural simulations" but does not specify the type of simulations (e.g., molecular dynamics, docking, coarse-grained) or the software used. This limits the ability to assess the reliability of the in silico predictions.
+  - **Required correction** Specify the simulation method and software in the abstract or refer to a methods section where these details are provided.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Transparency
+  - **Affected element** Graphical abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The graphical abstract was generated with AI assistance, which is disclosed. However, it is unclear whether the AI-generated content was used for the scientific figures as well or only for the graphical abstract. This distinction is important for transparency.
+  - **Required correction** Clarify whether AI tools were used for any scientific figures or only for the graphical abstract, and specify the extent of AI involvement in each case.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient methodological detail to verify the central claims. Specifically, the generation and validation of the monomeric Ku, the characterization of Ku-LigD competition, and the specificity of the mutational effects all require additional evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The study addresses a relatively underexplored area, namely the minimal NHEJ system in Mtb, and the combination of single-molecule and mutational approaches is not entirely novel but is applied to a system that has received limited attention. The claim of differential regulation of polymerase versus ligase activity by Ku is potentially original, but the abstract does not provide enough context to assess novelty relative to existing literature.
+  - Scientific importance: The work has potential importance for understanding NHEJ in mycobacteria, which is relevant to tuberculosis biology. However, the abstract does not articulate the broader implications for DNA repair mechanisms or for therapeutic targeting, which limits the perceived significance.
+  - Interdisciplinary readership: The study bridges structural biology, biophysics, and microbiology, which could appeal to a broad audience. However, the abstract is written in a way that assumes familiarity with NHEJ terminology, which may limit accessibility to nonspecialists.
+  - Technical soundness: The technical approach is appropriate in principle, but the abstract does not provide enough detail to assess the rigor of the experiments. The lack of quantitative data and statistical information is a concern.
+  - Readability for nonspecialists: The abstract is concise but uses specialized terminology without sufficient explanation. The grammatical error noted above also detracts from clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting model, but the lack of methodological detail and supporting data prevents verification of the central claims. The manuscript may become suitable for consideration if the full evidence base is provided and the concerns raised are addressed.
+
+## Risk / unsupported claims
+- The claim that monomeric Ku cannot bind DNA is unsupported without evidence of proper folding of the monomeric construct.
+- The claim that Ku and LigD compete for DNA binding is unsupported without quantitative binding data and experimental details.
+- The claim that polymerase domain mutations reduce activity while ligase domain mutations enhance activity is unsupported without specific mutation information and activity assay details.
+- The proposed model for NHEJ in Mtb, in which Ku must stay tightly at DNA ends to regulate LigD, is presented as a conclusion but is not directly testable from the abstract alone.
+- The graphical abstract's scientific content cannot be evaluated from the abstract text.

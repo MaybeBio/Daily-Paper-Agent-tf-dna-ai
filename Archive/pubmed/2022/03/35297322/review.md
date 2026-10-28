@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract, without access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report that the antifolate drug pemetrexed (PEM) binds to CT-DNA via a less-common mode, neither intercalation nor groove binding, as inferred from spectroscopic, viscosity, voltammetric, and KI quenching studies. Metadynamic (MD) simulation suggests binding at the 3'- and 5'-ends of DNA. Isothermal titration calorimetry (ITC) yields a binding constant of 2.6x10^9 M^-1, with a spontaneous process (DeltaG = -12.84 kcal/mol) and positive enthalpy (DeltaH = 6.09 cal/mol) and entropy (DeltaS = 43.1 cal/mol) changes, indicating an entropically driven interaction.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental protocols, raw data, MD simulation parameters, ITC thermograms, statistical analyses, and control experiments are not available for verification
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting biophysical study on drug-DNA binding, but the evidence as summarized is insufficient to establish the claimed binding mode or thermodynamic parameters. Several inconsistencies and unsupported assertions require clarification and additional data before the conclusions can be considered robust.
+- **Who would be interested in the results, and why** Researchers in biophysical chemistry, drug-DNA interaction studies, and anticancer drug development would find the results relevant, particularly those interested in non-classical binding modes and thermodynamic characterization of drug-DNA systems.
+- **Major strengths** The study combines multiple experimental techniques (UV-Vis, fluorescence, CD, viscosity, voltammetry, KI quenching, ITC) with MD simulation, which is a comprehensive approach. The claim of a less-common binding mode is intriguing and could challenge conventional classifications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that spectroscopic, viscosity, voltammetric, and KI quenching studies suggest a binding mode that is "neither intercalation nor groove binding."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative data or specific experimental results (e.g., changes in absorbance, fluorescence quenching constants, viscosity slopes, or voltammetric peak shifts) to support the exclusion of intercalation and groove binding. The conclusion appears to be based on indirect inference without presenting comparative controls or reference compounds.
+  - **Why it matters** The central claim of a novel binding mode hinges on the reliability of these techniques to discriminate binding modes. Without explicit data, the claim is unverifiable and could be an artifact of experimental conditions.
+  - **Resolution test** Provide representative spectra, titration curves, and quantitative parameters (e.g., binding constants from spectroscopic titrations, viscosity slope relative to known intercalators) with appropriate controls, and explain how these rule out intercalation and groove binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that MD simulation reveals PEM binds to the 3'- and 5'-ends of the DNA molecule.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No details of the MD simulation are given, including force field, simulation length, system setup, or free energy surface analysis. The claim of end-binding is presented without supporting figures or quantitative free energy minima. The term "metadynamic" is likely a typo for "metadynamics," but this is not clarified.
+  - **Why it matters** The simulation is a key component for proposing the binding location. Without methodological details and convergence criteria, the result cannot be assessed for reliability or reproducibility.
+  - **Resolution test** Describe simulation parameters, show free energy surfaces with labeled minima, and provide statistical measures (e.g., error bars or replicate runs) to confirm the end-binding preference.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract reports a binding constant of 2.6x10^9 M^-1 and thermodynamic parameters (DeltaG = -12.84 kcal/mol, DeltaH = 6.09 cal/mol, DeltaS = 43.1 cal/mol) from ITC.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The reported DeltaH value of 6.09 cal/mol is implausibly small (likely a unit error, perhaps kcal/mol), and DeltaS of 43.1 cal/mol is inconsistent with such a small enthalpy change. The binding constant is extremely high for a non-intercalative, non-groove binding mode, which raises questions about the ITC fitting model and whether the signal corresponds to specific binding or aggregation/precipitation.
+  - **Why it matters** Thermodynamic parameters are central to the claim of an entropically driven process. Unit errors or inappropriate fitting models would invalidate the conclusions. The magnitude of the binding constant requires independent verification.
+  - **Resolution test** Correct units, provide ITC thermograms and fitting residuals, specify the binding model used, and cross-validate the binding constant with an independent method (e.g., fluorescence or UV-Vis titration).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "metadynamic" is likely a typographical error for "metadynamics," which may confuse readers.
+  - **Required correction** Correct the term to "metadynamics" and define it briefly on first use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Thermodynamic data
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The units for DeltaH and DeltaS are inconsistent (cal/mol vs. cal/mol, but DeltaH is likely kcal/mol), and the values are not internally consistent with DeltaG.
+  - **Required correction** Verify and correct units, and ensure that DeltaG, DeltaH, and DeltaS satisfy the relation DeltaG = DeltaH - T*DeltaS at the stated temperature.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextualization
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not compare the binding mode or affinity with other known DNA-binding drugs or pemetrexed analogs, limiting the perceived novelty.
+  - **Required correction** Add a brief comparison with literature values for similar drugs to contextualize the findings.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The claim of a non-intercalative, non-groove binding mode is potentially original, but the evidence is not yet convincing. Scientific importance: The study could inform drug design, but the significance is not clearly articulated. Interdisciplinary readership: The topic bridges chemistry and biology, but the abstract is too technical without sufficient context. Technical soundness: Major flaws in data reporting and missing methodological details undermine confidence. Readability for nonspecialists: The abstract is concise but contains errors and unexplained terms that hinder comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The authors must address the technical concerns, correct data inconsistencies, and provide full experimental details before the claims can be considered credible.
+
+## Risk / unsupported claims
+- The binding mode "neither intercalation nor groove binding" is unsupported without quantitative data from the cited techniques.
+- The MD simulation result of 3'- and 5'-end binding is unverifiable without simulation details and free energy data.
+- The ITC-derived binding constant and thermodynamic parameters are unreliable due to apparent unit errors and lack of fitting details.
+- The claim of an entropically driven process is not substantiated given the inconsistent enthalpy and entropy values.

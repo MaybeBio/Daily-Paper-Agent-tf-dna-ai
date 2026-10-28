@@ -1,0 +1,433 @@
+{
+  "identity": {
+    "pmid": "38704642",
+    "doi": "10.1097/JS9.0000000000001533",
+    "title": "Identification and validation of the surface proteins FIBG, PDGF-beta, and TGF-beta on serum extracellular vesicles for non-invasive detection of colorectal cancer: experimental study."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: The absence of non-invasive biomarkers for the early diagnosis of colorectal cancer (CRC) has contributed to poor prognosis. Extracellular vesicles (EVs) have emerged as promising candidates for cancer monitoring using liquid biopsy. However, the complexity of EVs isolation procedures and the absence of clear targets for detecting serum-derived EVs have hindered the clinical application of EVs in early CRC diagnosis. METHODS: In the discovery phase, we conducted a comprehensive 4D-DIA proteomic analysis of serum-derived EVs samples from 37 individuals, performing an initial screening of EVs surface proteins. In the technical validation phase, we developed an extraction-free CRC-EVArray microarray to assess the expression of these potential EVs surface proteins in a multi-centre study comprising 404 individuals. In the application phase, the authors evaluated the diagnostic efficacy of the CRC-EVArray model based on machine-learning algorithms. RESULTS: Through 4D-DIA proteomic analysis, the authors identified seven potential EVs surface proteins showing significantly differential expression in CRC patients compared to healthy controls. Utilizing our developed high-throughput CRC-EVArray microarray, we further confirmed the differential expression of three EVs surface proteins, FIBG, PDGF-beta and TGF-beta, in a large sample population. Moreover, we established an optimal CRC-EVArray model using the NNET algorithm, demonstrating superior diagnostic efficacy with an area under the curve (AUC) of 0.882 in the train set and 0.937 in the test set. Additionally, we predicted the functions and potential origins of these EVs-derived proteins through a series of multi-omics approaches. CONCLUSIONS: Our systematic exploration of surface protein expression profiles on serum-derived EVs has identified FIBG, PDGF-beta, and TGF-beta as novel diagnostic biomarkers for CRC. The development of CRC-EVArray diagnostic model based on these findings provided an effective tool for the large-scale CRC screening, thus facilitating its translation into clinical practice.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/diagnosis/blood/pathology",
+      "*Extracellular Vesicles/metabolism",
+      "*Transforming Growth Factor beta/metabolism/blood",
+      "*Biomarkers, Tumor/blood/metabolism",
+      "*Proteomics/methods",
+      "Male",
+      "Female",
+      "Middle Aged",
+      "Early Detection of Cancer/methods",
+      "Aged",
+      "Proto-Oncogene Proteins c-sis/analysis/metabolism/blood",
+      "Membrane Proteins/blood/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Zhijian",
+        "Deng, Cuncan",
+        "Ma, Caiqi",
+        "He, Guirong",
+        "Tao, Jian",
+        "Zhang, Lijun",
+        "Hu, Xiaoyun",
+        "Mo, Yanfang",
+        "Qiu, Lumei",
+        "Zhang, Ningfang",
+        "Luo, Chuanghua",
+        "Xing, Shan",
+        "Xie, Jinye",
+        "Yin, Haofan"
+      ],
+      "short_names": [
+        "Huang Z",
+        "Deng C",
+        "Ma C",
+        "He G",
+        "Tao J",
+        "Zhang L",
+        "Hu X",
+        "Mo Y",
+        "Qiu L",
+        "Zhang N",
+        "Luo C",
+        "Xing S",
+        "Xie J",
+        "Yin H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology, The Seventh Affiliated Hospital of Sun Yat-Sen University.",
+        "Digestive Diseases Center, The Seventh Affiliated Hospital of Sun Yat-sen University.",
+        "Digestive Diseases Center, The Seventh Affiliated Hospital of Sun Yat-sen University.",
+        "Department of Oncology, Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes, The Fifth Affiliated Hospital of Guangzhou Medical University.",
+        "Department of Laboratory Medicine, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen.",
+        "Department of Laboratory Medicine, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen.",
+        "Department of Laboratory Medicine, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen.",
+        "Department of Laboratory Medicine, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen.",
+        "Department of Laboratory Medicine, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen.",
+        "Department of Laboratory Medicine, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen.",
+        "Department of Laboratory Medicine, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen.",
+        "State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine, Sun Yat-sen University Cancer Center, Guangzhou, Guangdong, China.",
+        "Department of Clinical Laboratory, State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center.",
+        "Department of Laboratory Medicine, Zhongshan City People's Hospital, Zhongshan.",
+        "Digestive Diseases Center, The Seventh Affiliated Hospital of Sun Yat-sen University.",
+        "Department of Laboratory Medicine, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Zhijian",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Seventh Affiliated Hospital of Sun Yat-Sen University.",
+          "Digestive Diseases Center, The Seventh Affiliated Hospital of Sun Yat-sen University."
+        ]
+      },
+      {
+        "full_name": "Deng, Cuncan",
+        "short_name": "Deng C",
+        "identifiers": [],
+        "affiliations": [
+          "Digestive Diseases Center, The Seventh Affiliated Hospital of Sun Yat-sen University."
+        ]
+      },
+      {
+        "full_name": "Ma, Caiqi",
+        "short_name": "Ma C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes, The Fifth Affiliated Hospital of Guangzhou Medical University."
+        ]
+      },
+      {
+        "full_name": "He, Guirong",
+        "short_name": "He G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen."
+        ]
+      },
+      {
+        "full_name": "Tao, Jian",
+        "short_name": "Tao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lijun",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen."
+        ]
+      },
+      {
+        "full_name": "Hu, Xiaoyun",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen."
+        ]
+      },
+      {
+        "full_name": "Mo, Yanfang",
+        "short_name": "Mo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen."
+        ]
+      },
+      {
+        "full_name": "Qiu, Lumei",
+        "short_name": "Qiu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ningfang",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen."
+        ]
+      },
+      {
+        "full_name": "Luo, Chuanghua",
+        "short_name": "Luo C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Oncology in South China, Collaborative Innovation Center for Cancer Medicine, Sun Yat-sen University Cancer Center, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Xing, Shan",
+        "short_name": "Xing S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, State Key Laboratory of Oncology in South China, Sun Yat-sen University Cancer Center."
+        ]
+      },
+      {
+        "full_name": "Xie, Jinye",
+        "short_name": "Xie J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Zhongshan City People's Hospital, Zhongshan."
+        ]
+      },
+      {
+        "full_name": "Yin, Haofan",
+        "short_name": "Yin H",
+        "identifiers": [],
+        "affiliations": [
+          "Digestive Diseases Center, The Seventh Affiliated Hospital of Sun Yat-sen University.",
+          "Department of Laboratory Medicine, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of surgery (London, England)"
+    ],
+    "journal_abbrev": [
+      "Int J Surg"
+    ],
+    "pub_date": "2024 Aug 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/05 07:47",
+    "fetched_at": "2026-09-29 19:36:33"
+  },
+  "links": {
+    "cites": [
+      "42218435",
+      "41913242",
+      "41694494",
+      "41644673",
+      "41310078",
+      "41008611",
+      "40735766",
+      "40720603",
+      "40620113",
+      "40311616",
+      "40264204",
+      "39772141",
+      "39693038",
+      "38768469"
+    ],
+    "refs": [
+      "36868481",
+      "36856579",
+      "36739741",
+      "36646389",
+      "36362919",
+      "36239734",
+      "36220994",
+      "35988430",
+      "35908246",
+      "35650597",
+      "35505243",
+      "35362262",
+      "35265194",
+      "35143943",
+      "35094786",
+      "34817906",
+      "34288405",
+      "34282141",
+      "34012517",
+      "33953198",
+      "33753940",
+      "33753568",
+      "33737308",
+      "32929347",
+      "32243801",
+      "32029601",
+      "31646189",
+      "30948809",
+      "30776340",
+      "30234974",
+      "30089911",
+      "29895824",
+      "29663027",
+      "29532035",
+      "29386225",
+      "29339798",
+      "29330365",
+      "28815003",
+      "28275683",
+      "27960084",
+      "27086589",
+      "24752081",
+      "24645800",
+      "21098712"
+    ],
+    "similar": [
+      "38704642",
+      "38768469",
+      "40311616",
+      "39168094",
+      "32843612",
+      "40960359",
+      "40511723",
+      "28986585",
+      "39940785",
+      "34638669",
+      "34508764",
+      "29491222",
+      "39628390",
+      "40635521",
+      "36604402",
+      "40986934",
+      "32363013",
+      "34071520",
+      "31972396",
+      "41008614",
+      "39324200",
+      "21209152",
+      "39849483",
+      "40401310",
+      "34428422",
+      "38802814",
+      "35381565",
+      "40905096",
+      "39020428",
+      "32088817",
+      "39421202",
+      "31586890",
+      "39948151",
+      "30076979",
+      "33530402",
+      "40240912",
+      "41503647",
+      "40108892",
+      "40331614",
+      "38069076",
+      "38632995",
+      "38568288",
+      "36394150",
+      "23690963",
+      "36781783",
+      "27502702",
+      "38576002",
+      "29497816",
+      "39213888",
+      "31810358",
+      "38902493",
+      "31652396",
+      "26581642",
+      "40205153",
+      "37241967",
+      "24331325",
+      "35163305",
+      "20156336",
+      "40366616",
+      "40949610",
+      "31221189",
+      "31753726",
+      "41063451",
+      "41220580",
+      "33721374",
+      "31727158",
+      "40248970",
+      "23894665",
+      "27903962",
+      "36130685",
+      "24289627",
+      "40620113",
+      "27492143",
+      "28842968",
+      "40493409",
+      "41167980",
+      "34190319",
+      "38698075",
+      "34183802",
+      "36533834",
+      "38778252",
+      "31622624",
+      "40335073",
+      "40514731",
+      "39735533",
+      "26514469",
+      "25243779",
+      "31784760",
+      "38383428",
+      "40765409",
+      "41345725",
+      "40803203",
+      "31047861",
+      "34155195",
+      "39062561",
+      "39273512",
+      "39393034",
+      "31502404",
+      "27683121",
+      "33420989"
+    ],
+    "review": [
+      "38704642",
+      "40905096",
+      "39213888",
+      "40205153",
+      "35163305",
+      "40949610",
+      "34190319",
+      "38778252",
+      "40514731",
+      "31784760",
+      "39062561"
+    ],
+    "pmc": [
+      "11326011"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/38704642.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38704642/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/JS9.0000000000001533",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

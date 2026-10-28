@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "38612943",
+    "doi": "10.3390/ijms25074134",
+    "title": "Boosting Clear Cell Renal Carcinoma-Specific Drug Discovery Using a Deep Learning Algorithm and Single-Cell Analysis."
+  },
+  "content": {
+    "abstract": "Clear cell renal carcinoma (ccRCC), the most common subtype of renal cell carcinoma, has the high heterogeneity of a highly complex tumor microenvironment. Existing clinical intervention strategies, such as target therapy and immunotherapy, have failed to achieve good therapeutic effects. In this article, single-cell transcriptome sequencing (scRNA-seq) data from six patients downloaded from the GEO database were adopted to describe the tumor microenvironment (TME) of ccRCC, including its T cells, tumor-associated macrophages (TAMs), endothelial cells (ECs), and cancer-associated fibroblasts (CAFs). Based on the differential typing of the TME, we identified tumor cell-specific regulatory programs that are mediated by three key transcription factors (TFs), whilst the TF EPAS1/HIF-2alpha was identified via drug virtual screening through our analysis of ccRCC's protein structure. Then, a combined deep graph neural network and machine learning algorithm were used to select anti-ccRCC compounds from bioactive compound libraries, including the FDA-approved drug library, natural product library, and human endogenous metabolite compound library. Finally, five compounds were obtained, including two FDA-approved drugs (flufenamic acid and fludarabine), one endogenous metabolite, one immunology/inflammation-related compound, and one inhibitor of DNA methyltransferase (N4-methylcytidine, a cytosine nucleoside analogue that, like zebularine, has the mechanism of inhibiting DNA methyltransferase). Based on the tumor microenvironment characteristics of ccRCC, five ccRCC-specific compounds were identified, which would give direction of the clinical treatment for ccRCC patients.",
+    "keywords": [
+      "EPAS1/HIF-2alpha",
+      "ccRCC",
+      "deep learning algorithm",
+      "single-cell RNA sequencing",
+      "specific drug discovery",
+      "tumor microenvironment heterogeneity"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Renal Cell/drug therapy",
+      "*Deep Learning",
+      "Endothelial Cells",
+      "Algorithms",
+      "Single-Cell Analysis",
+      "Antimetabolites",
+      "DNA Modification Methylases",
+      "Drug Discovery",
+      "*Kidney Neoplasms/drug therapy",
+      "DNA",
+      "Tumor Microenvironment"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yishu",
+        "Chen, Xiaomin",
+        "Tang, Ningjun",
+        "Guo, Mengyao",
+        "Ai, Dongmei"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Chen X",
+        "Tang N",
+        "Guo M",
+        "Ai D"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2340-0333",
+        "ORCID: 0000-0002-6935-6895"
+      ],
+      "affiliations": [
+        "School of Mathematics and Physics, University of Science and Technology Beijing, Beijing 100083, China.",
+        "School of Mathematics and Physics, University of Science and Technology Beijing, Beijing 100083, China.",
+        "School of Mathematics and Physics, University of Science and Technology Beijing, Beijing 100083, China.",
+        "School of Mathematics and Physics, University of Science and Technology Beijing, Beijing 100083, China.",
+        "School of Mathematics and Physics, University of Science and Technology Beijing, Beijing 100083, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yishu",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0003-2340-0333"
+        ],
+        "affiliations": [
+          "School of Mathematics and Physics, University of Science and Technology Beijing, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaomin",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Physics, University of Science and Technology Beijing, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Ningjun",
+        "short_name": "Tang N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Physics, University of Science and Technology Beijing, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Mengyao",
+        "short_name": "Guo M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Physics, University of Science and Technology Beijing, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Ai, Dongmei",
+        "short_name": "Ai D",
+        "identifiers": [
+          "0000-0002-6935-6895"
+        ],
+        "affiliations": [
+          "School of Mathematics and Physics, University of Science and Technology Beijing, Beijing 100083, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 Apr 8",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/13 10:43",
+    "fetched_at": "2026-10-05 00:42:19"
+  },
+  "links": {
+    "cites": [
+      "42459675",
+      "42380275",
+      "42163376",
+      "41361155",
+      "41303613",
+      "41083656",
+      "39416904"
+    ],
+    "refs": [
+      "37713596",
+      "37590228",
+      "37459896",
+      "37284036",
+      "37264159",
+      "37241754",
+      "37108305",
+      "37055410",
+      "36923253",
+      "36301191",
+      "36248808",
+      "36180422",
+      "36091022",
+      "35853872",
+      "35654795",
+      "35288707",
+      "35267567",
+      "35039476",
+      "35032437",
+      "34828399",
+      "34765624",
+      "34732701",
+      "34721775",
+      "34514075",
+      "33712707",
+      "33622705",
+      "33616314",
+      "33504936",
+      "33284113",
+      "33020645",
+      "32876986",
+      "32839609",
+      "32839608",
+      "32807776",
+      "32681351",
+      "32464262",
+      "32396851",
+      "31811270",
+      "31445844",
+      "31443717",
+      "30779531",
+      "30718830",
+      "30705439",
+      "30398643",
+      "30093597",
+      "29920222",
+      "29656895",
+      "29449267",
+      "29425488",
+      "28961310",
+      "28428369",
+      "28276433",
+      "28259286",
+      "27995907",
+      "27791479",
+      "27477514",
+      "26536169",
+      "26462617",
+      "26391552",
+      "25867923",
+      "24658644",
+      "24196071",
+      "23892664",
+      "23323831",
+      "23076875",
+      "22330762",
+      "22304911",
+      "21376230",
+      "21281822",
+      "20644254",
+      "20426451",
+      "19129502",
+      "18472614",
+      "17687303",
+      "15192019",
+      "11301389",
+      "8756718"
+    ],
+    "similar": [
+      "38612943",
+      "34795663",
+      "37474942",
+      "38944814",
+      "35734169",
+      "36479115",
+      "34329838",
+      "37477388",
+      "32311223",
+      "37503331",
+      "35808868",
+      "36189255",
+      "36646951",
+      "33791390",
+      "36635779",
+      "36869574",
+      "37713131",
+      "37886854",
+      "30778739",
+      "36591240",
+      "37908350",
+      "31541711",
+      "35768519",
+      "38179741",
+      "36505496",
+      "38245436",
+      "37533434",
+      "34019793",
+      "30553971",
+      "35812372",
+      "36854280",
+      "36772805",
+      "24136229",
+      "36607615",
+      "35678045",
+      "32807776",
+      "37622107",
+      "26433571",
+      "37335139",
+      "35592316",
+      "34512816",
+      "38442575",
+      "37389608",
+      "30758643",
+      "37108666",
+      "36397015",
+      "30792476",
+      "32012488",
+      "37358013",
+      "37762031",
+      "34099557",
+      "38491523",
+      "37153569",
+      "37638025",
+      "38130918",
+      "32883810",
+      "34002799",
+      "37264263",
+      "37735297",
+      "36570012",
+      "37740762",
+      "37542141",
+      "37350959",
+      "35121646",
+      "34415102",
+      "38287102",
+      "32683301",
+      "36551318",
+      "28259286",
+      "36513558",
+      "37600792",
+      "35120484",
+      "34931765",
+      "34421357",
+      "22804960",
+      "37182129",
+      "36091022",
+      "38292868",
+      "35677048",
+      "38268058",
+      "34957104",
+      "33574053",
+      "37879247",
+      "35935986",
+      "38090562",
+      "37699648",
+      "37413991",
+      "39366533",
+      "33103699"
+    ],
+    "review": [
+      "38612943",
+      "31541711",
+      "36772805",
+      "28259286",
+      "37879247"
+    ],
+    "pmc": [
+      "11012314"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms25074134",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38612943/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38612943",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific validity, methodological soundness, claims versus evidence, and clarity of the reported work
+- **Shared manuscript claim summary** The authors propose CLAPE, a sequence-based deep learning framework combining a pre-trained protein language model (ProtBert) with contrastive learning (triplet center loss) and class-balanced focal loss, to predict protein–DNA binding sites. They report superior performance over existing sequence-based models on two benchmark datasets, improved generalization, and extension to RNA- and antibody–antigen binding sites.
+- **Visible evidence base** Text descriptions of results, tables referenced but not shown, figures referenced but not shown, supplementary tables referenced but not shown
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are absent. Statistical significance tests, confidence intervals, and detailed hyperparameter settings are not fully described. The exact formulation of the loss functions is incomplete due to missing equations.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology and proposes a reasonable combination of established techniques. The core idea of using a pre-trained protein language model with contrastive learning for binding site prediction is not entirely novel but has practical merit. However, the current evidence base is insufficient to fully evaluate the claims. Key performance comparisons, statistical rigor, and methodological details are missing or only partially described. The generalization claims are supported by limited evidence, and the extension to other ligand types is presented without sufficient benchmarking detail.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function annotation, specifically those developing sequence-based predictors for DNA-, RNA-, or ligand-binding sites. The work may also interest researchers applying pre-trained language models and contrastive learning to biological sequence problems.
+- **Major strengths** The problem is well motivated and practically relevant. The use of a pre-trained language model avoids manual feature engineering, which is a genuine advantage. The framework is presented as flexible and generalizable, which is appealing. The inclusion of class-balanced focal loss to address data imbalance is a thoughtful addition. The authors also provide code and data, which supports reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim CLAPE-DB outperforms existing sequence-based models on two benchmark datasets with AUC values of 0.871 and 0.881.
+  - **Evidence pointer** Tables 2 and 3, location not provided
+  - **Concern** The actual performance tables are not included in the provided material. Without the full tables, it is impossible to verify the claimed improvements, assess the magnitude of differences, or determine whether the comparisons were conducted fairly (e.g., same training/testing splits, same evaluation protocols). The claim of superiority cannot be evaluated.
+  - **Why it matters** The central claim of the manuscript rests on these comparative results. If the tables do not support the stated improvements, the main contribution is weakened.
+  - **Resolution test** Provide the full tables with all compared methods, including standard deviations or confidence intervals, and clarify the evaluation protocol to ensure fair comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors state CLAPE-DB shows "better generalization ability" and "superior performance" compared to other models.
+  - **Evidence pointer** Results section, generalization experiments, location not provided
+  - **Concern** No statistical tests are reported. Differences in AUC or other metrics could be within noise, especially given the class imbalance. The claim of superiority requires statistical validation, such as bootstrapped confidence intervals or significance tests across multiple runs.
+  - **Why it matters** Without statistical support, the reported improvements may not be robust or reproducible, undermining confidence in the method.
+  - **Resolution test** Report confidence intervals or p-values for the key comparisons, or perform multiple independent runs with variance reporting.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The loss function combines class-balanced focal loss and triplet center loss with a weighting hyperparameter λ set to 0.1.
+  - **Evidence pointer** Methods section, loss function description, location not provided
+  - **Concern** The exact formulations of the loss functions are not fully provided. The equations are missing from the text. The description of how λ was searched is vague ("after searching"). The triplet center loss formulation is described but the full mathematical expression is absent. This prevents replication.
+  - **Why it matters** Reproducibility is a core requirement. Without complete loss definitions and hyperparameter search details, other researchers cannot implement or validate the method.
+  - **Resolution test** Provide the complete equations for all loss components and a detailed description of the hyperparameter search procedure, including the range of values tested and the selection criterion.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim scope
+  - **Claim pointer** The authors claim CLAPE is a "general framework" for predicting ligand-binding sites, including RNA and antibody–antigen.
+  - **Evidence pointer** Results section, general framework subsection, location not provided
+  - **Concern** The results for RNA and antibody–antigen binding are only briefly mentioned. The datasets, training details, and full performance metrics are not described in the provided text. The claim of generality is therefore not adequately supported.
+  - **Why it matters** Overstating the scope of the method without sufficient evidence could mislead readers about its applicability.
+  - **Resolution test** Provide full experimental details and results for the RNA and antibody–antigen benchmarks, including comparisons with existing methods.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that CNN outperforms RNN for this task and attribute this to spatial rather than sequential determinants of binding.
+  - **Evidence pointer** Results section, backbone comparison, location not provided
+  - **Concern** The comparison between CNN, RNN, and MLP is mentioned but the results are not shown. The interpretation that CNN is better because binding is spatially determined is speculative without further analysis, such as ablation studies or attention visualization.
+  - **Why it matters** The choice of backbone is a key architectural decision. The claim needs empirical support and a more rigorous interpretation.
+  - **Resolution test** Show the backbone comparison results and provide additional analyses to support the interpretation, or temper the claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states AUC values but does not specify which dataset corresponds to which value in the main text. This is clarified later but could be confusing.
+  - **Required correction** Specify the dataset names alongside the AUC values in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, dataset description
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The description of Dataset2 mentions that GraphBind used data augmentation, and the authors used the same augmented annotations. However, the nature of this augmentation is not described.
+  - **Required correction** Briefly describe the augmentation approach used by GraphBind and how it was applied in this study.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, generalization experiment
+  - **Evidence pointer** Results section, location not provided
+  - **Issue** The text states CLAPE-DB trained on Dataset1 and tested on Dataset2 achieved AUC 0.865, which is "merely lower" than training on TR573. The term "merely" is informal and the comparison is not fully contextualized.
+  - **Required correction** Rephrase to a neutral statement and provide context for the difference.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, hyperparameters
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The learning rate for the triplet center loss optimization is mentioned but the value is not stated.
+  - **Required correction** Provide the learning rate value used for the center parameters.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing tables), R1-M2 (no statistical tests), R1-M3 (incomplete loss formulations)
+- **Assessment against Nature-style criteria** Originality: Moderate. The combination of a pre-trained language model with contrastive learning for binding site prediction is incremental rather than conceptually new. Scientific importance: Moderate. The problem is important, but the advance over existing methods needs to be clearly demonstrated. Interdisciplinary readership: Limited. The work is primarily of interest to computational biologists; the biological insights are not deep enough to attract a broad readership. Technical soundness: Cannot be fully assessed due to missing equations and results. Readability for nonspecialists: The manuscript is generally readable but assumes familiarity with deep learning terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims cannot be verified without the missing tables, statistical tests, and complete methodological details. The authors should be invited to resubmit a revised version addressing these concerns.
+
+## Risk / unsupported claims
+- The claim that CLAPE-DB outperforms existing models is unsupported without the actual comparison tables.
+- The claim of "better generalization ability" is unsupported without statistical evidence.
+- The claim that CLAPE is a "general framework" for RNA and antibody–antigen binding is unsupported due to lack of experimental details.
+- The claim that CNN is more suitable than RNN because binding is spatially determined is speculative.
+- The statement that the model "captured the properties distribution of amino acids" is only weakly supported by descriptive statistics without formal testing.

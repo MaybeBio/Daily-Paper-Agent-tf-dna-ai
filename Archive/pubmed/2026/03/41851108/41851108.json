@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "41851108",
+    "doi": "10.1038/s41467-026-69985-x",
+    "title": "RPA directly stimulates Mer3 helicase processivity to ensure normal crossover formation in meiosis."
+  },
+  "content": {
+    "abstract": "Meiotic crossover formation is critical for generating viable gametes and enhancing genetic diversity. The helicase Mer3 (HFM1 in humans) is a highly conserved factor essential for promoting crossovers and ensuring their proper distribution. Here, we identify replication protein A (RPA) as a direct interactor of budding yeast Mer3. We demonstrate that this interaction is conserved between human HFM1 and RPA. Cross-linking mass spectrometry and structural modelling with AlphaFold2 reveal a conserved and specific Mer3-RPA interface. Single-molecule magnetic tweezers assays demonstrate that direct RPA interaction is required for Mer3 helicase processivity under conditions of low DNA tension. Consistently, a mer3 mutant deficient in RPA binding exhibits reduced crossover frequencies and accumulates unresolved recombination intermediates during budding yeast meiosis. Via genome-wide localisation experiments, we link this effect to weakened recruitment of the mer3 mutant to double-strand break sites. Our findings provide mechanistic insights into coordination of meiotic recombination by the Mer3 helicase through interactions with the canonical DNA repair machinery, highlighting a conserved mechanism underlying crossover control during sexual reproduction.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Meiosis/genetics",
+      "*Saccharomyces cerevisiae Proteins/metabolism/genetics/chemistry",
+      "*Saccharomyces cerevisiae/genetics/metabolism",
+      "*Replication Protein A/metabolism/genetics/chemistry",
+      "*Crossing Over, Genetic",
+      "*DNA Helicases/metabolism/genetics/chemistry",
+      "Humans",
+      "Protein Binding",
+      "DNA Breaks, Double-Stranded",
+      "DNA Repair",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Altmannova, Veronika",
+        "Orlic, Lucija",
+        "Carrasco, Carolina",
+        "Adam, Celine",
+        "Aicart-Ramos, Clara",
+        "Guerrini, Dario",
+        "Janning, Petra",
+        "Borde, Valerie",
+        "Matos, Joao",
+        "Moreno-Herrero, Fernando",
+        "Weir, John R"
+      ],
+      "short_names": [
+        "Altmannova V",
+        "Orlic L",
+        "Carrasco C",
+        "Adam C",
+        "Aicart-Ramos C",
+        "Guerrini D",
+        "Janning P",
+        "Borde V",
+        "Matos J",
+        "Moreno-Herrero F",
+        "Weir JR"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7588-0768",
+        "ORCID: 0000-0001-9322-4932",
+        "ORCID: 0000-0002-1114-4259",
+        "ORCID: 0009-0007-5495-8184",
+        "ORCID: 0000-0001-6520-2461",
+        "ORCID: 0000-0002-3754-3709",
+        "ORCID: 0000-0003-4083-1709",
+        "ORCID: 0000-0002-6904-0284"
+      ],
+      "affiliations": [
+        "Structural Biochemistry of Meiosis Group, Friedrich Miescher Laboratory, Tubingen, Germany.",
+        "University of Vienna, Max Perutz Labs, Vienna, Austria.",
+        "Vienna Biocenter PhD Program, a Doctoral School of the University of Vienna and the Medical University of Vienna, Vienna, Austria.",
+        "Max Perutz Labs, Vienna BioCenter (VBC), Vienna, Austria.",
+        "Centro Nacional de Biotecnologia, CSIC, Madrid, Spain.",
+        "Institut Curie, PSL University, Sorbonne Universite, CNRS UMR3244, Dynamics of Genetic Information, Paris, France.",
+        "Centro Nacional de Biotecnologia, CSIC, Madrid, Spain.",
+        "Structural Biochemistry of Meiosis Group, Friedrich Miescher Laboratory, Tubingen, Germany.",
+        "Department of Chemical Biology, Max Planck Institute of Molecular Physiology, Dortmund, Germany.",
+        "Institut Curie, PSL University, Sorbonne Universite, CNRS UMR3244, Dynamics of Genetic Information, Paris, France.",
+        "University of Vienna, Max Perutz Labs, Vienna, Austria.",
+        "Max Perutz Labs, Vienna BioCenter (VBC), Vienna, Austria.",
+        "Centro Nacional de Biotecnologia, CSIC, Madrid, Spain.",
+        "Structural Biochemistry of Meiosis Group, Friedrich Miescher Laboratory, Tubingen, Germany. john.weir@tuebingen.mpg.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Altmannova, Veronika",
+        "short_name": "Altmannova V",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biochemistry of Meiosis Group, Friedrich Miescher Laboratory, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Orlić, Lucija",
+        "short_name": "Orlić L",
+        "identifiers": [
+          "0000-0001-7588-0768"
+        ],
+        "affiliations": [
+          "University of Vienna, Max Perutz Labs, Vienna, Austria.",
+          "Vienna Biocenter PhD Program, a Doctoral School of the University of Vienna and the Medical University of Vienna, Vienna, Austria.",
+          "Max Perutz Labs, Vienna BioCenter (VBC), Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Carrasco, Carolina",
+        "short_name": "Carrasco C",
+        "identifiers": [
+          "0000-0001-9322-4932"
+        ],
+        "affiliations": [
+          "Centro Nacional de Biotecnologia, CSIC, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Adam, Céline",
+        "short_name": "Adam C",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Curie, PSL University, Sorbonne Université, CNRS UMR3244, Dynamics of Genetic Information, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Aicart-Ramos, Clara",
+        "short_name": "Aicart-Ramos C",
+        "identifiers": [
+          "0000-0002-1114-4259"
+        ],
+        "affiliations": [
+          "Centro Nacional de Biotecnologia, CSIC, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Guerrini, Dario",
+        "short_name": "Guerrini D",
+        "identifiers": [
+          "0009-0007-5495-8184"
+        ],
+        "affiliations": [
+          "Structural Biochemistry of Meiosis Group, Friedrich Miescher Laboratory, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Janning, Petra",
+        "short_name": "Janning P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Biology, Max Planck Institute of Molecular Physiology, Dortmund, Germany."
+        ]
+      },
+      {
+        "full_name": "Borde, Valérie",
+        "short_name": "Borde V",
+        "identifiers": [
+          "0000-0001-6520-2461"
+        ],
+        "affiliations": [
+          "Institut Curie, PSL University, Sorbonne Université, CNRS UMR3244, Dynamics of Genetic Information, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Matos, Joao",
+        "short_name": "Matos J",
+        "identifiers": [
+          "0000-0002-3754-3709"
+        ],
+        "affiliations": [
+          "University of Vienna, Max Perutz Labs, Vienna, Austria.",
+          "Max Perutz Labs, Vienna BioCenter (VBC), Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Moreno-Herrero, Fernando",
+        "short_name": "Moreno-Herrero F",
+        "identifiers": [
+          "0000-0003-4083-1709"
+        ],
+        "affiliations": [
+          "Centro Nacional de Biotecnologia, CSIC, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Weir, John R",
+        "short_name": "Weir JR",
+        "identifiers": [
+          "0000-0002-6904-0284"
+        ],
+        "affiliations": [
+          "Structural Biochemistry of Meiosis Group, Friedrich Miescher Laboratory, Tübingen, Germany. john.weir@tuebingen.mpg.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Mar 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/19 07:11",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40479711",
+      "40133633",
+      "39251624",
+      "37788458",
+      "37774136",
+      "37668474",
+      "36942481",
+      "36941363",
+      "36681470",
+      "34969823",
+      "34265844",
+      "33199619",
+      "32955754",
+      "32856505",
+      "32840788",
+      "32557917",
+      "32386601",
+      "31236671",
+      "30074391",
+      "30053104",
+      "29920281",
+      "29804678",
+      "29668972",
+      "29599286",
+      "29523236",
+      "29033322",
+      "28051769",
+      "27016742",
+      "26491943",
+      "26258962",
+      "26245832",
+      "25731763",
+      "25261217",
+      "25058683",
+      "24597873",
+      "24071849",
+      "23798400",
+      "23771268",
+      "22820947",
+      "22723423",
+      "22500736",
+      "22384314",
+      "21840861",
+      "21145459",
+      "20566885",
+      "20350930",
+      "20197317",
+      "19838204",
+      "19799180",
+      "19793862",
+      "19716790",
+      "19136626",
+      "19013276",
+      "17686975",
+      "17662941",
+      "17286053",
+      "16990132",
+      "15334558",
+      "15300241",
+      "15066281",
+      "15066280",
+      "14499497",
+      "12484983",
+      "11971962",
+      "11461702",
+      "11376001",
+      "10825162",
+      "10407276",
+      "10373438",
+      "9545060",
+      "9242902",
+      "9207066",
+      "9121560",
+      "9039264",
+      "8990123",
+      "8390328",
+      "8287479",
+      "7588640",
+      "2190690",
+      "1320195"
+    ],
+    "similar": [
+      "41851108",
+      "11971962",
+      "36942481",
+      "15066281",
+      "33823531",
+      "42403178",
+      "10523314",
+      "16045469",
+      "15854901",
+      "23770697",
+      "38340339",
+      "11376001",
+      "41951601",
+      "23706822",
+      "30496175",
+      "16118184",
+      "36681470",
+      "36508468",
+      "39405359",
+      "28051769",
+      "30716097",
+      "38664461",
+      "26682552",
+      "24244180",
+      "41379861",
+      "40902007",
+      "34764291",
+      "31069484",
+      "34951404",
+      "21980306",
+      "42095273",
+      "22547783",
+      "32610038",
+      "34140406",
+      "32386601",
+      "30850524",
+      "29045827",
+      "35042867",
+      "20811461",
+      "33602817",
+      "24367271",
+      "19605344",
+      "37140030",
+      "18081428",
+      "28315832",
+      "21195035",
+      "27184389",
+      "37079643",
+      "41946721",
+      "35876814",
+      "27214570",
+      "24213600",
+      "20811460",
+      "27172214",
+      "24465215",
+      "34879269",
+      "19445949",
+      "24025768",
+      "41894234",
+      "29141206",
+      "24122830",
+      "30224356",
+      "12072452",
+      "30591583",
+      "26520106",
+      "39913192",
+      "34453891",
+      "25195049",
+      "31153714",
+      "17002499",
+      "37351599",
+      "34585421",
+      "35768435",
+      "33602814",
+      "18799459",
+      "41911235",
+      "26114667",
+      "23762445",
+      "39098164",
+      "24186976",
+      "26305689",
+      "26653857",
+      "32428453",
+      "25188408",
+      "30420424",
+      "34575966",
+      "34197600",
+      "30467025",
+      "29444896",
+      "25103240",
+      "18243118",
+      "16581767",
+      "20348905",
+      "23593021",
+      "27974736",
+      "12039965",
+      "28505149",
+      "24183725",
+      "12791985",
+      "28453612"
+    ],
+    "review": [
+      "41851108",
+      "26520106"
+    ],
+    "pmc": [
+      "13003030"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-69985-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41851108/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

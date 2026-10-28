@@ -1,0 +1,1164 @@
+{
+  "identity": {
+    "pmid": "41781614",
+    "doi": "10.1038/s41586-026-10176-5",
+    "title": "Genome modelling and design across all domains of life with Evo 2."
+  },
+  "content": {
+    "abstract": "All of life encodes information with DNA. Although tools for genome sequencing, synthesis and editing have transformed biological research, we still lack sufficient understanding of the immense complexity encoded by genomes to predict the effects of many classes of genomic changes or to intelligently compose new biological systems. Artificial intelligence models that learn information from genomic sequences across diverse organisms have increasingly advanced prediction and design capabilities(1,2). Here we introduce Evo 2, a biological foundation model trained on 9 trillion DNA base pairs from a highly curated genomic atlas spanning all domains of life to have a 1 million token context window with single-nucleotide resolution. Evo 2 learns to accurately predict the functional impacts of genetic variation-from noncoding pathogenic mutations to clinically significant BRCA1 variants-without task-specific fine-tuning. Mechanistic interpretability analyses reveal that Evo 2 learns representations associated with biological features, including exon-intron boundaries, transcription factor binding sites, protein structural elements and prophage genomic regions. The generative abilities of Evo 2 produce mitochondrial, prokaryotic and eukaryotic sequences at genome scale with greater naturalness and coherence than previous methods. Evo 2 also generates experimentally validated chromatin accessibility patterns when guided by predictive models(3,4) and inference-time search. We have made Evo 2 fully open, including model parameters, training code(5), inference code and the OpenGenome2 dataset, to accelerate the exploration and design of biological complexity.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Artificial Intelligence",
+      "Binding Sites",
+      "BRCA1 Protein/genetics",
+      "Chromatin/metabolism/genetics",
+      "Genetic Variation",
+      "*Genome/genetics",
+      "Genomics/methods",
+      "*Models, Genetic",
+      "Mutation",
+      "Prokaryotic Cells/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Brixi, Garyk",
+        "Durrant, Matthew G",
+        "Ku, Jerome",
+        "Naghipourfar, Mohsen",
+        "Poli, Michael",
+        "Sun, Gwanggyu",
+        "Brockman, Greg",
+        "Chang, Daniel",
+        "Fanton, Alison",
+        "Gonzalez, Gabriel A",
+        "King, Samuel H",
+        "Li, David B",
+        "Merchant, Aditi T",
+        "Nguyen, Eric",
+        "Ricci-Tam, Chiara",
+        "Romero, David W",
+        "Schmok, Jonathan C",
+        "Taghibakhshi, Ali",
+        "Vorontsov, Anton",
+        "Yang, Brandon",
+        "Deng, Myra",
+        "Gorton, Liv",
+        "Nguyen, Nam",
+        "Wang, Nicholas K",
+        "Pearce, Michael T",
+        "Simon, Elana",
+        "Adams, Etowah",
+        "Amador, Zachary J",
+        "Ashley, Euan A",
+        "Baccus, Stephen A",
+        "Dai, Haoyu",
+        "Dillmann, Steven",
+        "Ermon, Stefano",
+        "Guo, Daniel",
+        "Herschl, Michael H",
+        "Ilango, Rajesh",
+        "Janik, Ken",
+        "Lu, Amy X",
+        "Mehta, Reshma",
+        "Mofrad, Mohammad R K",
+        "Ng, Madelena Y",
+        "Pannu, Jaspreet",
+        "Re, Christopher",
+        "St John, John",
+        "Sullivan, Jeremy",
+        "Tey, Joseph",
+        "Viggiano, Ben",
+        "Zhu, Kevin",
+        "Zynda, Greg",
+        "Balsam, Daniel",
+        "Collison, Patrick",
+        "Costa, Anthony B",
+        "Hernandez-Boussard, Tina",
+        "Ho, Eric",
+        "Liu, Ming-Yu",
+        "McGrath, Thomas",
+        "Powell, Kimberly",
+        "Pinglay, Sudarshan",
+        "Burke, Dave P",
+        "Goodarzi, Hani",
+        "Hsu, Patrick D",
+        "Hie, Brian L"
+      ],
+      "short_names": [
+        "Brixi G",
+        "Durrant MG",
+        "Ku J",
+        "Naghipourfar M",
+        "Poli M",
+        "Sun G",
+        "Brockman G",
+        "Chang D",
+        "Fanton A",
+        "Gonzalez GA",
+        "King SH",
+        "Li DB",
+        "Merchant AT",
+        "Nguyen E",
+        "Ricci-Tam C",
+        "Romero DW",
+        "Schmok JC",
+        "Taghibakhshi A",
+        "Vorontsov A",
+        "Yang B",
+        "Deng M",
+        "Gorton L",
+        "Nguyen N",
+        "Wang NK",
+        "Pearce MT",
+        "Simon E",
+        "Adams E",
+        "Amador ZJ",
+        "Ashley EA",
+        "Baccus SA",
+        "Dai H",
+        "Dillmann S",
+        "Ermon S",
+        "Guo D",
+        "Herschl MH",
+        "Ilango R",
+        "Janik K",
+        "Lu AX",
+        "Mehta R",
+        "Mofrad MRK",
+        "Ng MY",
+        "Pannu J",
+        "Re C",
+        "St John J",
+        "Sullivan J",
+        "Tey J",
+        "Viggiano B",
+        "Zhu K",
+        "Zynda G",
+        "Balsam D",
+        "Collison P",
+        "Costa AB",
+        "Hernandez-Boussard T",
+        "Ho E",
+        "Liu MY",
+        "McGrath T",
+        "Powell K",
+        "Pinglay S",
+        "Burke DP",
+        "Goodarzi H",
+        "Hsu PD",
+        "Hie BL"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1253-0522",
+        "ORCID: 0000-0003-0076-2833",
+        "ORCID: 0000-0002-1260-5045",
+        "ORCID: 0000-0002-8921-5168",
+        "ORCID: 0000-0002-9465-1351",
+        "ORCID: 0000-0002-6549-1838",
+        "ORCID: 0009-0009-7341-1517",
+        "ORCID: 0000-0003-1043-3072",
+        "ORCID: 0000-0001-9418-9577",
+        "ORCID: 0009-0008-4920-6815",
+        "ORCID: 0000-0002-4773-1463",
+        "ORCID: 0000-0003-0039-2887",
+        "ORCID: 0000-0002-6575-7165",
+        "ORCID: 0000-0001-7004-4859",
+        "ORCID: 0000-0003-3824-9349",
+        "ORCID: 0009-0002-6825-646X",
+        "ORCID: 0000-0003-1510-7567",
+        "ORCID: 0000-0003-4992-9614",
+        "ORCID: 0000-0001-6553-3455",
+        "ORCID: 0000-0002-9380-2648",
+        "ORCID: 0000-0003-3224-8142"
+      ],
+      "affiliations": [
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "University of California, Berkeley, Berkeley, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "Liquid AI, San Francisco, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "Independent Researcher, San Francisco, CA, USA.",
+        "OpenAI, San Francisco, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "NVIDIA, Santa Clara, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "NVIDIA, Santa Clara, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "NVIDIA, Santa Clara, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "Independent Researcher, San Francisco, CA, USA.",
+        "Goodfire, San Francisco, CA, USA.",
+        "Goodfire, San Francisco, CA, USA.",
+        "Goodfire, San Francisco, CA, USA.",
+        "Goodfire, San Francisco, CA, USA.",
+        "Goodfire, San Francisco, CA, USA.",
+        "Goodfire, San Francisco, CA, USA.",
+        "Columbia University, New York, NY, USA.",
+        "University of Washington, Seattle, WA, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "University of California, Berkeley, Berkeley, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "NVIDIA, Santa Clara, CA, USA.",
+        "University of California, Berkeley, Berkeley, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "University of California, Berkeley, Berkeley, CA, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "Johns Hopkins University, Baltimore, MD, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "NVIDIA, Santa Clara, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "University of California, Berkeley, Berkeley, CA, USA.",
+        "NVIDIA, Santa Clara, CA, USA.",
+        "Goodfire, San Francisco, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "NVIDIA, Santa Clara, CA, USA.",
+        "Stanford University, Stanford, CA, USA.",
+        "Goodfire, San Francisco, CA, USA.",
+        "NVIDIA, Santa Clara, CA, USA.",
+        "Goodfire, San Francisco, CA, USA.",
+        "NVIDIA, Santa Clara, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "University of Washington, Seattle, WA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA.",
+        "Evo 2 Core Team, Palo Alto, CA, USA.",
+        "University of California, San Francisco, San Francisco, CA, USA.",
+        "Arc Institute, Palo Alto, CA, USA. patrick@arcinstitute.org.",
+        "Evo 2 Core Team, Palo Alto, CA, USA. patrick@arcinstitute.org.",
+        "University of California, Berkeley, Berkeley, CA, USA. patrick@arcinstitute.org.",
+        "Arc Institute, Palo Alto, CA, USA. brianhie@stanford.edu.",
+        "Evo 2 Core Team, Palo Alto, CA, USA. brianhie@stanford.edu.",
+        "Stanford University, Stanford, CA, USA. brianhie@stanford.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Brixi, Garyk",
+        "short_name": "Brixi G",
+        "identifiers": [
+          "0000-0002-1253-0522"
+        ],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "Evo 2 Core Team, Palo Alto, CA, USA.",
+          "Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Durrant, Matthew G",
+        "short_name": "Durrant MG",
+        "identifiers": [],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "Evo 2 Core Team, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ku, Jerome",
+        "short_name": "Ku J",
+        "identifiers": [],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "Evo 2 Core Team, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Naghipourfar, Mohsen",
+        "short_name": "Naghipourfar M",
+        "identifiers": [],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "Evo 2 Core Team, Palo Alto, CA, USA.",
+          "University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Poli, Michael",
+        "short_name": "Poli M",
+        "identifiers": [],
+        "affiliations": [
+          "Evo 2 Core Team, Palo Alto, CA, USA.",
+          "Stanford University, Stanford, CA, USA.",
+          "Liquid AI, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sun, Gwanggyu",
+        "short_name": "Sun G",
+        "identifiers": [],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "Evo 2 Core Team, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Brockman, Greg",
+        "short_name": "Brockman G",
+        "identifiers": [],
+        "affiliations": [
+          "Evo 2 Core Team, Palo Alto, CA, USA.",
+          "Independent Researcher, San Francisco, CA, USA.",
+          "OpenAI, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Chang, Daniel",
+        "short_name": "Chang D",
+        "identifiers": [
+          "0000-0003-0076-2833"
+        ],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "Evo 2 Core Team, Palo Alto, CA, USA.",
+          "Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Fanton, Alison",
+        "short_name": "Fanton A",
+        "identifiers": [],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "Evo 2 Core Team, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Gonzalez, Gabriel A",
+        "short_name": "Gonzalez GA",
+        "identifiers": [],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "Evo 2 Core Team, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "King, Samuel H",
+        "short_name": "King SH",
+        "identifiers": [
+          "0000-0002-1260-5045"
+        ],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "Evo 2 Core Team, Palo Alto, CA, USA.",
+          "Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, David B",
+        "short_name": "Li DB",
+        "identifiers": [
+          "0000-0002-8921-5168"
+        ],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "Evo 2 Core Team, Palo Alto, CA, USA.",
+          "Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Merchant, Aditi T",
+        "short_name": "Merchant AT",
+        "identifiers": [
+          "0000-0002-9465-1351"
+        ],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "Evo 2 Core Team, Palo Alto, CA, USA.",
+          "Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Eric",
+        "short_name": "Nguyen E",
+        "identifiers": [],
+        "affiliations": [
+          "Evo 2 Core Team, Palo Alto, CA, USA.",
+          "Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ricci-Tam, Chiara",
+        "short_name": "Ricci-Tam C",
+        "identifiers": [
+          "0000-0002-6549-1838"
+        ],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "Evo 2 Core Team, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Romero, David W",
+        "short_name": "Romero DW",
+        "identifiers": [],
+        "affiliations": [
+          "Evo 2 Core Team, Palo Alto, CA, USA.",
+          "NVIDIA, Santa Clara, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Schmok, Jonathan C",
+        "short_name": "Schmok JC",
+        "identifiers": [],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "Evo 2 Core Team, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Taghibakhshi, Ali",
+        "short_name": "Taghibakhshi A",
+        "identifiers": [],
+        "affiliations": [
+          "Evo 2 Core Team, Palo Alto, CA, USA.",
+          "NVIDIA, Santa Clara, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Vorontsov, Anton",
+        "short_name": "Vorontsov A",
+        "identifiers": [],
+        "affiliations": [
+          "Evo 2 Core Team, Palo Alto, CA, USA.",
+          "NVIDIA, Santa Clara, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Brandon",
+        "short_name": "Yang B",
+        "identifiers": [],
+        "affiliations": [
+          "Evo 2 Core Team, Palo Alto, CA, USA.",
+          "Independent Researcher, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Deng, Myra",
+        "short_name": "Deng M",
+        "identifiers": [],
+        "affiliations": [
+          "Goodfire, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Gorton, Liv",
+        "short_name": "Gorton L",
+        "identifiers": [
+          "0009-0009-7341-1517"
+        ],
+        "affiliations": [
+          "Goodfire, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Nam",
+        "short_name": "Nguyen N",
+        "identifiers": [],
+        "affiliations": [
+          "Goodfire, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Nicholas K",
+        "short_name": "Wang NK",
+        "identifiers": [
+          "0000-0003-1043-3072"
+        ],
+        "affiliations": [
+          "Goodfire, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Pearce, Michael T",
+        "short_name": "Pearce MT",
+        "identifiers": [],
+        "affiliations": [
+          "Goodfire, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Simon, Elana",
+        "short_name": "Simon E",
+        "identifiers": [],
+        "affiliations": [
+          "Goodfire, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Adams, Etowah",
+        "short_name": "Adams E",
+        "identifiers": [],
+        "affiliations": [
+          "Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Amador, Zachary J",
+        "short_name": "Amador ZJ",
+        "identifiers": [],
+        "affiliations": [
+          "University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Ashley, Euan A",
+        "short_name": "Ashley EA",
+        "identifiers": [
+          "0000-0001-9418-9577"
+        ],
+        "affiliations": [
+          "Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Baccus, Stephen A",
+        "short_name": "Baccus SA",
+        "identifiers": [],
+        "affiliations": [
+          "Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Dai, Haoyu",
+        "short_name": "Dai H",
+        "identifiers": [
+          "0009-0008-4920-6815"
+        ],
+        "affiliations": [
+          "Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Dillmann, Steven",
+        "short_name": "Dillmann S",
+        "identifiers": [
+          "0000-0002-4773-1463"
+        ],
+        "affiliations": [
+          "Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ermon, Stefano",
+        "short_name": "Ermon S",
+        "identifiers": [
+          "0000-0003-0039-2887"
+        ],
+        "affiliations": [
+          "Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Guo, Daniel",
+        "short_name": "Guo D",
+        "identifiers": [],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Herschl, Michael H",
+        "short_name": "Herschl MH",
+        "identifiers": [],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ilango, Rajesh",
+        "short_name": "Ilango R",
+        "identifiers": [],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Janik, Ken",
+        "short_name": "Janik K",
+        "identifiers": [],
+        "affiliations": [
+          "NVIDIA, Santa Clara, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Lu, Amy X",
+        "short_name": "Lu AX",
+        "identifiers": [
+          "0000-0002-6575-7165"
+        ],
+        "affiliations": [
+          "University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Mehta, Reshma",
+        "short_name": "Mehta R",
+        "identifiers": [],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Mofrad, Mohammad R K",
+        "short_name": "Mofrad MRK",
+        "identifiers": [
+          "0000-0001-7004-4859"
+        ],
+        "affiliations": [
+          "University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ng, Madelena Y",
+        "short_name": "Ng MY",
+        "identifiers": [
+          "0000-0003-3824-9349"
+        ],
+        "affiliations": [
+          "Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Pannu, Jaspreet",
+        "short_name": "Pannu J",
+        "identifiers": [],
+        "affiliations": [
+          "Johns Hopkins University, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Ré, Christopher",
+        "short_name": "Ré C",
+        "identifiers": [],
+        "affiliations": [
+          "Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "St John, John",
+        "short_name": "St John J",
+        "identifiers": [],
+        "affiliations": [
+          "NVIDIA, Santa Clara, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sullivan, Jeremy",
+        "short_name": "Sullivan J",
+        "identifiers": [],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Tey, Joseph",
+        "short_name": "Tey J",
+        "identifiers": [
+          "0009-0002-6825-646X"
+        ],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Viggiano, Ben",
+        "short_name": "Viggiano B",
+        "identifiers": [
+          "0000-0003-1510-7567"
+        ],
+        "affiliations": [
+          "Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhu, Kevin",
+        "short_name": "Zhu K",
+        "identifiers": [],
+        "affiliations": [
+          "University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zynda, Greg",
+        "short_name": "Zynda G",
+        "identifiers": [
+          "0000-0003-4992-9614"
+        ],
+        "affiliations": [
+          "NVIDIA, Santa Clara, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Balsam, Daniel",
+        "short_name": "Balsam D",
+        "identifiers": [],
+        "affiliations": [
+          "Goodfire, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Collison, Patrick",
+        "short_name": "Collison P",
+        "identifiers": [],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Costa, Anthony B",
+        "short_name": "Costa AB",
+        "identifiers": [],
+        "affiliations": [
+          "NVIDIA, Santa Clara, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Hernandez-Boussard, Tina",
+        "short_name": "Hernandez-Boussard T",
+        "identifiers": [
+          "0000-0001-6553-3455"
+        ],
+        "affiliations": [
+          "Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ho, Eric",
+        "short_name": "Ho E",
+        "identifiers": [],
+        "affiliations": [
+          "Goodfire, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Ming-Yu",
+        "short_name": "Liu MY",
+        "identifiers": [],
+        "affiliations": [
+          "NVIDIA, Santa Clara, CA, USA."
+        ]
+      },
+      {
+        "full_name": "McGrath, Thomas",
+        "short_name": "McGrath T",
+        "identifiers": [],
+        "affiliations": [
+          "Goodfire, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Powell, Kimberly",
+        "short_name": "Powell K",
+        "identifiers": [],
+        "affiliations": [
+          "NVIDIA, Santa Clara, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Pinglay, Sudarshan",
+        "short_name": "Pinglay S",
+        "identifiers": [],
+        "affiliations": [
+          "Evo 2 Core Team, Palo Alto, CA, USA.",
+          "University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Burke, Dave P",
+        "short_name": "Burke DP",
+        "identifiers": [],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "Evo 2 Core Team, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Goodarzi, Hani",
+        "short_name": "Goodarzi H",
+        "identifiers": [],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA.",
+          "Evo 2 Core Team, Palo Alto, CA, USA.",
+          "University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Hsu, Patrick D",
+        "short_name": "Hsu PD",
+        "identifiers": [
+          "0000-0002-9380-2648"
+        ],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA. patrick@arcinstitute.org.",
+          "Evo 2 Core Team, Palo Alto, CA, USA. patrick@arcinstitute.org.",
+          "University of California, Berkeley, Berkeley, CA, USA. patrick@arcinstitute.org."
+        ]
+      },
+      {
+        "full_name": "Hie, Brian L",
+        "short_name": "Hie BL",
+        "identifiers": [
+          "0000-0003-3224-8142"
+        ],
+        "affiliations": [
+          "Arc Institute, Palo Alto, CA, USA. brianhie@stanford.edu.",
+          "Evo 2 Core Team, Palo Alto, CA, USA. brianhie@stanford.edu.",
+          "Stanford University, Stanford, CA, USA. brianhie@stanford.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/05 00:39",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [
+      "42717086",
+      "42703517",
+      "42688217",
+      "42676509",
+      "42666342",
+      "42665668",
+      "42657169",
+      "42656953",
+      "42655016",
+      "42646258",
+      "42630803",
+      "42630281",
+      "42629596",
+      "42617149",
+      "42608811",
+      "42576006",
+      "42556387",
+      "42549891",
+      "42546502",
+      "42536416",
+      "42521815",
+      "42516427",
+      "42500742",
+      "42498815",
+      "42494498",
+      "42469502",
+      "42467984",
+      "42461048",
+      "42452174",
+      "42446430",
+      "42430786",
+      "42425994",
+      "42411823",
+      "42411323",
+      "42410059",
+      "42398069",
+      "42388248",
+      "42376644",
+      "42368259",
+      "42362888",
+      "42335932",
+      "42330352",
+      "42323878",
+      "42312575",
+      "42312151",
+      "42305667",
+      "42220909",
+      "42189114",
+      "42167226",
+      "42162322",
+      "42160340",
+      "42160034",
+      "42140912",
+      "42129528",
+      "42108445",
+      "42103868",
+      "42088839",
+      "42056104",
+      "42055250",
+      "42038007",
+      "42022284",
+      "41980520",
+      "41980277",
+      "41961853",
+      "41857183",
+      "41857032",
+      "41839899",
+      "41803457",
+      "41772662",
+      "41691282",
+      "41690236",
+      "41654842",
+      "41639120",
+      "41437153",
+      "41348595",
+      "40983504",
+      "40930281",
+      "40894641",
+      "40672173",
+      "40666889",
+      "40501927",
+      "40463199",
+      "40313660",
+      "40236839",
+      "39990426"
+    ],
+    "refs": [
+      "41437153",
+      "41261132",
+      "41162646",
+      "39779956",
+      "39779857",
+      "39747647",
+      "39609566",
+      "39541441",
+      "39375777",
+      "39172825",
+      "38996487",
+      "38926615",
+      "38183205",
+      "38086418",
+      "37971293",
+      "37909046",
+      "37735266",
+      "37733863",
+      "36480631",
+      "36108050",
+      "36042233",
+      "34670493",
+      "34608324",
+      "33538820",
+      "31092918",
+      "30864657",
+      "30209399",
+      "27346641",
+      "22817898",
+      "20513432",
+      "20211023",
+      "18218864",
+      "17324271",
+      "15215400",
+      "4598299",
+      "2645293"
+    ],
+    "similar": [
+      "41781614",
+      "42475469",
+      "39541441",
+      "42313599",
+      "41261132",
+      "33119236",
+      "33001599",
+      "41606153",
+      "42368259",
+      "41303412",
+      "34419522",
+      "41519127",
+      "41258300",
+      "15478601",
+      "18927605",
+      "34429265",
+      "42492189",
+      "40915439",
+      "29335803",
+      "23572549",
+      "42323878",
+      "30659153",
+      "27507169",
+      "36043696",
+      "41162646",
+      "29069282",
+      "41277691",
+      "39135093",
+      "27008018",
+      "26042329",
+      "33941236",
+      "26502339",
+      "41511382",
+      "34791440",
+      "35373735",
+      "23912807",
+      "27197224",
+      "33259518",
+      "22955617",
+      "33046896",
+      "42342250",
+      "42326814",
+      "22495300",
+      "36050782",
+      "32160537",
+      "30917778",
+      "18366609",
+      "38669177",
+      "32689977",
+      "36723807",
+      "28056763",
+      "39090688",
+      "25956794",
+      "40950025",
+      "33990600",
+      "28420341",
+      "41854075",
+      "21304941",
+      "19493340",
+      "41958479",
+      "28750606",
+      "39609566",
+      "36609218",
+      "41122975",
+      "26110593",
+      "41990516",
+      "30423062",
+      "35293310",
+      "31510655",
+      "36969097",
+      "33832990",
+      "36883553",
+      "42211230",
+      "41993329",
+      "31374565",
+      "42101103",
+      "42319255",
+      "26285121",
+      "19533212",
+      "25141179",
+      "25957350",
+      "27456004",
+      "34774128",
+      "41096905",
+      "20838582",
+      "33119230",
+      "35410163",
+      "42036810",
+      "39191651",
+      "30797597",
+      "31730374",
+      "36318263",
+      "39283464",
+      "34769020",
+      "22955616",
+      "34112792",
+      "25111899",
+      "22950945",
+      "41786603",
+      "36917472"
+    ],
+    "review": [
+      "41781614",
+      "33119236",
+      "33001599",
+      "41303412",
+      "34429265",
+      "42492189",
+      "42323878",
+      "26042329",
+      "41990516",
+      "36969097",
+      "42211230",
+      "31374565",
+      "42101103",
+      "33119230",
+      "30797597",
+      "39283464"
+    ],
+    "pmc": [
+      "13128491"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-026-10176-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41781614/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:41781614",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

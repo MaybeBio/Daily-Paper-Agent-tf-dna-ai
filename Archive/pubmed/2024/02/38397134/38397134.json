@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "38397134",
+    "doi": "10.3390/genes15020144",
+    "title": "DARDN: A Deep-Learning Approach for CTCF Binding Sequence Classification and Oncogenic Regulatory Feature Discovery."
+  },
+  "content": {
+    "abstract": "Characterization of gene regulatory mechanisms in cancer is a key task in cancer genomics. CCCTC-binding factor (CTCF), a DNA binding protein, exhibits specific binding patterns in the genome of cancer cells and has a non-canonical function to facilitate oncogenic transcription programs by cooperating with transcription factors bound at flanking distal regions. Identification of DNA sequence features from a broad genomic region that distinguish cancer-specific CTCF binding sites from regular CTCF binding sites can help find oncogenic transcription factors in a cancer type. However, the presence of long DNA sequences without localization information makes it difficult to perform conventional motif analysis. Here, we present DNAResDualNet (DARDN), a computational method that utilizes convolutional neural networks (CNNs) for predicting cancer-specific CTCF binding sites from long DNA sequences and employs DeepLIFT, a method for interpretability of deep learning models that explains the model's output in terms of the contributions of its input features. The method is used for identifying DNA sequence features associated with cancer-specific CTCF binding. Evaluation on DNA sequences associated with CTCF binding sites in T-cell acute lymphoblastic leukemia (T-ALL) and other cancer types demonstrates DARDN's ability in classifying DNA sequences surrounding cancer-specific CTCF binding from control constitutive CTCF binding and identifying sequence motifs for transcription factors potentially active in each specific cancer type. We identify potential oncogenic transcription factors in T-ALL, acute myeloid leukemia (AML), breast cancer (BRCA), colorectal cancer (CRC), lung adenocarcinoma (LUAD), and prostate cancer (PRAD). Our work demonstrates the power of advanced machine learning and feature discovery approach in finding biologically meaningful information from complex high-throughput sequencing data.",
+    "keywords": [
+      "CTCF",
+      "DARDN",
+      "DeepLIFT",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "CCCTC-Binding Factor/genetics/metabolism",
+      "*Precursor T-Cell Lymphoblastic Leukemia-Lymphoma",
+      "*Deep Learning",
+      "DNA/genetics",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cho, Hyun Jae",
+        "Wang, Zhenjia",
+        "Cong, Yidan",
+        "Bekiranov, Stefan",
+        "Zhang, Aidong",
+        "Zang, Chongzhi"
+      ],
+      "short_names": [
+        "Cho HJ",
+        "Wang Z",
+        "Cong Y",
+        "Bekiranov S",
+        "Zhang A",
+        "Zang C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9537-1781",
+        "ORCID: 0000-0001-5576-0689",
+        "ORCID: 0000-0002-8675-4780",
+        "ORCID: 0000-0002-3177-4346",
+        "ORCID: 0000-0001-9723-3246",
+        "ORCID: 0000-0003-4812-3627"
+      ],
+      "affiliations": [
+        "Department of Computer Science, University of Virginia, Charlottesville, VA 22903, USA.",
+        "Center for Public Health Genomics, University of Virginia, Charlottesville, VA 22903, USA.",
+        "Center for Public Health Genomics, University of Virginia, Charlottesville, VA 22903, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia, Charlottesville, VA 22903, USA.",
+        "Department of Computer Science, University of Virginia, Charlottesville, VA 22903, USA.",
+        "Center for Public Health Genomics, University of Virginia, Charlottesville, VA 22903, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia, Charlottesville, VA 22903, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cho, Hyun Jae",
+        "short_name": "Cho HJ",
+        "identifiers": [
+          "0000-0002-9537-1781"
+        ],
+        "affiliations": [
+          "Department of Computer Science, University of Virginia, Charlottesville, VA 22903, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhenjia",
+        "short_name": "Wang Z",
+        "identifiers": [
+          "0000-0001-5576-0689"
+        ],
+        "affiliations": [
+          "Center for Public Health Genomics, University of Virginia, Charlottesville, VA 22903, USA."
+        ]
+      },
+      {
+        "full_name": "Cong, Yidan",
+        "short_name": "Cong Y",
+        "identifiers": [
+          "0000-0002-8675-4780"
+        ],
+        "affiliations": [
+          "Center for Public Health Genomics, University of Virginia, Charlottesville, VA 22903, USA."
+        ]
+      },
+      {
+        "full_name": "Bekiranov, Stefan",
+        "short_name": "Bekiranov S",
+        "identifiers": [
+          "0000-0002-3177-4346"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia, Charlottesville, VA 22903, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Aidong",
+        "short_name": "Zhang A",
+        "identifiers": [
+          "0000-0001-9723-3246"
+        ],
+        "affiliations": [
+          "Department of Computer Science, University of Virginia, Charlottesville, VA 22903, USA."
+        ]
+      },
+      {
+        "full_name": "Zang, Chongzhi",
+        "short_name": "Zang C",
+        "identifiers": [
+          "0000-0003-4812-3627"
+        ],
+        "affiliations": [
+          "Center for Public Health Genomics, University of Virginia, Charlottesville, VA 22903, USA.",
+          "Department of Biochemistry and Molecular Genetics, University of Virginia, Charlottesville, VA 22903, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2024 Jan 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/24 11:43",
+    "fetched_at": "2026-09-29 15:44:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36170835",
+      "36139541",
+      "36018068",
+      "35790841",
+      "35551308",
+      "35284537",
+      "34608324",
+      "34601571",
+      "34579788",
+      "33906574",
+      "33603233",
+      "33535061",
+      "33046897",
+      "33046896",
+      "32946061",
+      "32933554",
+      "31910870",
+      "31666694",
+      "31298694",
+      "30971806",
+      "30511964",
+      "30367165",
+      "30351403",
+      "29956082",
+      "29702007",
+      "29608647",
+      "28297624",
+      "27197224",
+      "26700815",
+      "26301843",
+      "26213851",
+      "25750172",
+      "24004852",
+      "21367750",
+      "20513432",
+      "17512414",
+      "16883580",
+      "12130514",
+      "2065336"
+    ],
+    "similar": [
+      "38397134",
+      "33232622",
+      "32933554",
+      "37060567",
+      "38950902",
+      "31285261",
+      "32232485",
+      "39738353",
+      "39903776",
+      "29976663",
+      "35410161",
+      "32086528",
+      "33634313",
+      "29760161",
+      "29593713",
+      "28145452",
+      "29949986",
+      "19922652",
+      "31911579",
+      "34585631",
+      "35872368",
+      "30310060",
+      "31864373",
+      "35180428",
+      "32503656",
+      "29437965",
+      "37602215",
+      "24428924",
+      "31177910",
+      "26929370",
+      "29235471",
+      "40049170",
+      "35997565",
+      "29793448",
+      "34405474",
+      "35947648",
+      "38972954",
+      "31666380",
+      "30940740",
+      "31831844",
+      "30985763",
+      "30423062",
+      "33512425",
+      "33575587",
+      "38452213",
+      "32334335",
+      "33801310",
+      "36744959",
+      "37979036",
+      "37552993",
+      "35993175",
+      "33941236",
+      "29860503",
+      "34245617",
+      "29561703",
+      "38297316",
+      "28862757",
+      "27582050",
+      "31856220",
+      "24498324",
+      "16966320",
+      "30021792",
+      "34381034",
+      "36139015",
+      "23804403",
+      "38986578",
+      "29077515",
+      "36752796",
+      "31945090",
+      "31910870",
+      "34002095",
+      "10480923",
+      "18684996",
+      "32988407",
+      "38745107",
+      "33255744",
+      "33398174",
+      "37536339",
+      "31736271",
+      "30459231",
+      "31937660",
+      "33411704",
+      "37851578",
+      "32022856",
+      "27974201",
+      "22244452",
+      "29956775",
+      "31522988",
+      "32885250",
+      "39701486",
+      "33626344",
+      "39869645",
+      "34915195",
+      "24393203",
+      "28424523",
+      "34487363",
+      "37000624",
+      "37047368",
+      "32398790",
+      "26818008"
+    ],
+    "review": [
+      "38397134",
+      "30940740",
+      "32334335",
+      "35993175"
+    ],
+    "pmc": [
+      "10888155"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes15020144",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38397134/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38397134",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

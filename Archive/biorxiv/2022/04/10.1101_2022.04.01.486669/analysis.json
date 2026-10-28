@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.04.01.486669",
+  "title": "Prediction of designer-recombinases for DNA editing with generative deep learning",
+  "authors": "Lukas Theo Schmitt; Maciej Paszkowski-Rogacz; Florian Jug; Frank Buchholz",
+  "journal": "bioRxiv",
+  "published_date": "2022-04-03",
+  "window": {
+    "start": "2022-03-28",
+    "end": "2022-04-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用条件变分自编码器生成针对新DNA靶位点的重组酶序列，虽涉及蛋白质-DNA识别但非TF-DNA体系，且侧重序列生成而非互作机制建模，方法可迁移但深度有限。",
+  "abstract": "Site-specific tyrosine-type recombinases are effective tools for genome engineering, with the first engineered variants having demonstrated therapeutic potential. So far, adaptation to new DNA target site selectivity of designer-recombinases has been achieved mostly through iterative cycles of directed molecular evolution. While effective, directed molecular evolution methods are laborious and time consuming. Here we present RecGen (Recombinase Generator), an algorithm for the intelligent generation of designer-recombinases. We gathered the sequence information of over two million Cre-like recombinase sequences evolved for 89 different target sites with which we trained Conditional Variational Autoencoders for recombinase generation. Experimental validation demonstrated that the algorithm can predict recombinase sequences with activity on novel target-sites, indicating that RecGen is useful to accelerate the development of future designer-recombinases. Abstract Figure Teaser Figure: Recombinase prediction generates active recombinases for a desired target site, while existing libraries with a similar target site need to go through directed evolution to achieve activity on the new site. While evolution takes weeks, prediction and synthesis of recombinases can be done in days.",
+  "abstract_zh": "位点特异性酪氨酸型重组酶是基因组工程的有效工具，首批工程化变体已显示出治疗潜力。迄今为止，设计重组酶对新DNA靶位点选择性的适应主要通过定向分子进化的迭代循环实现。尽管有效，但定向分子进化方法费力且耗时。在此，我们提出RecGen（重组酶生成器），一种用于智能生成设计重组酶的算法。我们收集了针对89个不同靶位点进化的超过两百万条Cre样重组酶序列信息，并利用这些数据训练了条件变分自编码器以进行重组酶生成。实验验证表明，该算法能够预测对新型靶位点具有活性的重组酶序列，这表明RecGen有助于加速未来设计重组酶的开发。摘要图预告图：重组酶预测可为所需靶位点生成活性重组酶，而具有相似靶位点的现有文库需经过定向进化才能在新位点上实现活性。虽然进化需要数周时间，但重组酶的预测和合成可在数天内完成。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.04.01.486669",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.04.01.486669",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.04.01.486669/index.html"
+}

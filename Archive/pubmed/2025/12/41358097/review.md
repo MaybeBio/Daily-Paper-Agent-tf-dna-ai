@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims, and alignment with Nature-style criteria based solely on the supplied material
+- **Shared manuscript claim summary** The authors propose two novel compounds (Compound 3 and Compound 4) as potential activators of bovine PPARγ, identified through homology modeling, virtual screening, molecular docking, and molecular dynamics simulations, with predicted lower toxicity than rosiglitazone and potential application to improve beef marbling
+- **Visible evidence base** Abstract, introduction, methods, results and discussion sections, conclusions, figure references (figures not provided), table references (tables not provided), equations (eq 1)
+- **Missing materials affecting confidence** Figures, tables, supplementary data, PDB accession details for the bovine model, compound structures, full virtual screening hit lists, MD trajectory data, and experimental validation data are not provided
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computational pipeline for identifying novel PPARγ activators with potential agricultural applications. The work is methodologically conventional, combining established tools (homology modeling, virtual screening, docking, MD) in a sequential workflow. However, the scientific case is weakened by incomplete reporting of key results, absence of critical validation metrics, and overinterpretation of computational predictions as evidence of functional activity. The claims regarding "safer" compounds and "improved beef quality" are not supported by the provided evidence, which is entirely in silico. The manuscript would benefit from substantial revision, clearer presentation of data, and tempering of conclusions to match the evidence level.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, livestock genomics, and meat science may find the methodological workflow of interest. Those working on PPARγ modulation for metabolic or agricultural purposes might consider the identified compounds as candidates for further experimental testing. The potential application to beef marbling could attract interest from animal science and agribusiness sectors, though this remains speculative without experimental validation.
+- **Major strengths** The study addresses a relevant problem (low marbling in tropical beef) with a clear translational motivation. The use of multiple computational methods in sequence (homology modeling, pharmacophore-based screening, docking validation, MD) is methodologically sound in principle. The authors acknowledge the limitation of purely computational work and propose concrete experimental follow-up assays.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Compound 3 and Compound 4 showed favorable interactions with PPARγ in molecular dynamics simulations, raising expectations for the discovery of new activators"
+  - **Evidence pointer** Results and Discussion, Molecular Dynamics sections, Figures (not provided)
+  - **Concern** The claim that Compounds 3 and 4 are "activators" is not supported by any functional or binding assay. MD simulations and docking scores indicate predicted binding, not activation. The manuscript provides no experimental evidence of PPARγ transcriptional activation, ligand binding affinity, or downstream adipogenic gene expression.
+  - **Why it matters** The central premise of the manuscript is the discovery of PPARγ activators. Without experimental validation, the compounds remain hypothetical binders. The term "activator" implies functional efficacy, which cannot be established from computational predictions alone. This overstatement could mislead readers and is not consistent with the evidence level presented.
+  - **Resolution test** Provide experimental data (e.g., TR-FRET binding assay, reporter gene assay, adipocyte differentiation assay) demonstrating that Compounds 3 and 4 activate PPARγ. Alternatively, revise all claims to state "predicted activators" or "candidate binders" and clearly limit conclusions to computational predictions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The docking parameters were validated through ROC curve and redocking"
+  - **Evidence pointer** Results and Discussion, Validation Data section, Figure (not provided)
+  - **Concern** The validation section reports an AUC of 0.8408 and an RMSD of 1.703 Å but does not provide the ROC curve figure, the redocking overlay, or the criteria for acceptable RMSD. The number of actives (5) and decoys (250) is small, and no statistical significance or confidence intervals for the AUC are reported. The choice of actives (all thiazolidinediones) may bias the validation toward a narrow chemical class.
+  - **Why it matters** Docking validation is critical to establish that the scoring function can distinguish true binders from decoys in this specific target. Incomplete reporting prevents assessment of whether the validation is robust. A small, chemically homogeneous active set may not generalize to the diverse screening library.
+  - **Resolution test** Provide the ROC curve figure, decoy generation details, statistical analysis of the AUC (e.g., standard error, p-value), and a discussion of the limitations of the validation set. Justify the choice of actives and demonstrate that the validation set is representative of the screening library.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Compound 3 and Compound 4 showed... lower toxicity compared with the reference ligand"
+  - **Evidence pointer** Results and Discussion, Molecular Docking, LD50 Predicted and BOILED-Egg Model section, Table (not provided)
+  - **Concern** The claim of "lower toxicity" is based solely on predicted LD50 values from the pkCSM platform. The manuscript does not report the actual LD50 values for Compounds 3, 4, or rosiglitazone, nor the units conversion from mol/kg to mg/kg. Predicted toxicity from QSAR models is not a substitute for experimental toxicity data, and the claim of "safer" compounds is therefore unsupported.
+  - **Why it matters** The safety claim is a key differentiator for the proposed compounds relative to rosiglitazone. If the prediction is based on a single in silico model without experimental confirmation, the claim is premature and potentially misleading for agricultural applications where regulatory approval would require rigorous toxicological assessment.
+  - **Resolution test** Report the predicted LD50 values for all compounds, provide the pkCSM model confidence metrics, and clearly state that these are computational predictions requiring experimental validation. Remove or soften the "safer" claim unless supported by additional evidence.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The target sequence used showed high sequence identity with the human PPARγ protein model"
+  - **Evidence pointer** Results and Discussion, Homology Modeling of PPARγ section, Figure (not provided)
+  - **Concern** The manuscript reports 98.90% sequence identity over 272 residues but does not provide the sequence alignment figure, the percentage of the full-length bovine PPARγ covered, or the quality metrics of the homology model (e.g., QMEAN, GMQE values are mentioned but not contextualized). The model covers only 54% of the sequence (residues 234 to 505), which may exclude functionally important N-terminal domains.
+  - **Why it matters** The reliability of all downstream docking and MD results depends on the quality of the homology model. A partial model with unstated quality metrics limits confidence in the binding site representation and the conclusions drawn from it.
+  - **Resolution test** Provide the sequence alignment, model coverage details, and quality scores with interpretation. Discuss the potential impact of missing domains on the binding site and docking results.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "This controlled adipogenesis aligns with the desirable marbling phenotype in beef production"
+  - **Evidence pointer** Results and Discussion, Analysis of Interactions in the PPARγ Active Site section
+  - **Concern** The manuscript extrapolates from molecular-level interactions to a complex phenotypic outcome (beef marbling) without any bridging evidence. The link between PPARγ partial agonism in silico and improved marbling in cattle is speculative and ignores the complexity of in vivo adipogenesis, muscle biology, and animal physiology.
+  - **Why it matters** The agricultural relevance is a major motivation for the study. Overstating the translational potential without experimental or in vivo evidence weakens the scientific credibility and may mislead stakeholders in the beef industry.
+  - **Resolution test** Clearly frame the marbling application as a long-term hypothesis requiring extensive validation. Remove or substantially qualify statements that imply a direct pathway from compound binding to improved beef quality.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, sentence "In addition, como a proteína PPARγ have the power to regulate the expression of various genes"
+  - **Evidence pointer** Introduction, location not provided
+  - **Issue** The sentence contains Portuguese text ("como a proteína") and grammatical errors, indicating incomplete language editing.
+  - **Required correction** Revise to correct English, e.g., "In addition, PPARγ has the ability to regulate the expression of various genes..."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Molecular Docking Study and Analysis
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The docking grid box dimensions, center coordinates, and exhaustiveness settings are not reported. The number of "30 exchanges" is unclear; standard docking protocols use exhaustiveness or number of runs.
+  - **Required correction** Provide full docking parameters, including grid box size and center, exhaustiveness, and number of runs, to enable reproduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results and Discussion, Molecular Docking, LD50 Predicted and BOILED-Egg Model
+  - **Evidence pointer** Results and Discussion section, Table (not provided)
+  - **Issue** The manuscript refers to "Table" and "Figure" without specific numbering, making it difficult to follow which data correspond to which analysis.
+  - **Required correction** Number all tables and figures sequentially and reference them explicitly in the text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Molecular Dynamic (MD) Simulation
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The force field (GROMOS54a7) and water model (SPC) are stated, but the simulation temperature (300 K) and pressure (1 bar) are given. However, the equilibration times (1 ns NVT, 5 ns NPT) are short relative to the 150 ns production run, and no rationale is provided for these choices.
+  - **Required correction** Justify the equilibration times or extend them to standard practice. Report the number of replicates, if any, and the criteria for convergence.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions section
+  - **Issue** The conclusion states "raising expectations of new PPARγ activators that are safer than those currently on the market" but does not specify which "market" compounds are referenced beyond rosiglitazone, nor does it acknowledge that rosiglitazone is not approved for veterinary use in cattle.
+  - **Required correction** Clarify the comparison set and the regulatory context for agricultural applications.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Structure-Based Virtual Screening
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The pharmacophore model construction is described qualitatively, but the specific features, tolerances, and screening parameters used in Pharmit and ZINCPharmer are not reported.
+  - **Required correction** Provide the pharmacophore features, distances, angles, and screening settings to enable reproduction of the virtual screening.
+
+## Risk / unsupported claims
+- The term "activators" is used throughout to describe Compounds 3 and 4, but no functional activation data are provided. This is an unsupported claim based on the supplied evidence.
+- The claim of "lower toxicity" for Compounds 3 and 4 relative to rosiglitazone is based solely on predicted LD50 values from a single in silico platform and is not experimentally validated.
+- The statement that "this controlled adipogenesis aligns with the desirable marbling phenotype" implies a direct translational link that is not supported by any in vivo or ex vivo data.
+- The assertion that Compounds 3 and 4 "may form more stable complexes" and "possibly have greater potential as PPARγ modulators" is speculative, as the energy differences reported (ratios of 1.0005 and 1.0008) are within the noise of MD simulations and not statistically tested.
+- The manuscript claims "favorable interactions" in MD simulations, but no free energy calculations (e.g., MM-PBSA, MM-GBSA) or statistical analysis of interaction persistence are provided to substantiate this.
+- The homology model quality is described with QMEANDisCo of 0.77 ± 0.05, but the manuscript does not discuss whether this value is acceptable for the intended use in docking, nor does it compare the model to other available PPARγ structures.

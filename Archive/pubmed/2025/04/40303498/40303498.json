@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "40303498",
+    "doi": "10.7150/ijms.109493",
+    "title": "Analysis of the Relationship Between NF-kappaB1 and Cytokine Gene Expression in Hematological Malignancy: Leveraging Explained Artificial Intelligence and Machine Learning for Small Dataset Insights."
+  },
+  "content": {
+    "abstract": "This study measures expression of nuclear factor kappa B (NF-kappaB)1 and related cytokine genes in bone marrow mononuclear cells in patients with hematological malignancies, analyzing the relationship between them with an integrated framework of statistical analyses, machine learning (ML), and explainable artificial intelligence (XAI). While traditional dimensionality reduction techniques-such as principal component analysis, linear discriminant analysis, and t-distributed stochastic neighbor embedding-showed limited differentiation embedding, ML classifiers (k-Nearest Neighbors, Naive Bayes Classifier, Random Forest, and XGBoost) successfully identified critical patterns. Notably, normalized caspase-1 counts consistently emerged as the most influential feature associated with NF-kappaB1 activity across disease groups, as highlighted by SHapley Additive exPlanations analyses. Systematic evaluation of ML performance on small datasets revealed that a minimum sample size of 15-24 is necessary for reliable classification outcomes, particularly in cohorts of acute myeloid leukemia and myelodysplastic syndrome. These findings underscore the pivotal role of caspase-1 to the NF-kappaB1 gene expression in hematologic malignancy diseases. Furthermore, this study demonstrates the feasibility of leveraging ML and XAI to derive meaningful insights from limited data, offering a robust strategy for biomarker discovery and precision medicine in rare hematological malignancies.",
+    "keywords": [
+      "NF-kappaB / Hematological Malignancy / Machine Learning Classifiers / Explainable",
+      "Artificial Intelligence / Small Data Adaptation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "*Hematologic Neoplasms/genetics/pathology",
+      "Artificial Intelligence",
+      "*NF-kappa B p50 Subunit/genetics/metabolism",
+      "*Cytokines/genetics/metabolism",
+      "Biomarkers, Tumor/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Female",
+      "Male",
+      "Bayes Theorem",
+      "Caspase 1/metabolism/genetics",
+      "Middle Aged"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jeong, Jae-Seung",
+        "Ju, Hyunsu",
+        "Cho, Chi-Hyun"
+      ],
+      "short_names": [
+        "Jeong JS",
+        "Ju H",
+        "Cho CH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Artificial Intelligence Convergence Engineering, Sahmyook University, 01795, Republic of Korea.",
+        "Post-Silicon Semiconductor Institute, Korea Institute of Science and Technology, 02792, Republic of Korea.",
+        "Department of Laboratory Medicine, College of Medicine, Korea University Ansan Hospital, 15355, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jeong, Jae-Seung",
+        "short_name": "Jeong JS",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Artificial Intelligence Convergence Engineering, Sahmyook University, 01795, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Ju, Hyunsu",
+        "short_name": "Ju H",
+        "identifiers": [],
+        "affiliations": [
+          "Post-Silicon Semiconductor Institute, Korea Institute of Science and Technology, 02792, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Cho, Chi-Hyun",
+        "short_name": "Cho CH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, College of Medicine, Korea University Ansan Hospital, 15355, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of medical sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Med Sci"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/30 11:07",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34434197",
+      "33116753",
+      "31612070",
+      "31427375",
+      "29911119",
+      "29695914",
+      "29158945",
+      "28722711",
+      "27386492",
+      "27291964",
+      "26279205",
+      "26121197",
+      "24958609",
+      "23915189",
+      "23676582",
+      "23265730",
+      "22850787",
+      "21376230",
+      "21242203",
+      "21102550",
+      "20858024",
+      "20457564",
+      "20066092",
+      "19302050",
+      "19302047",
+      "18327243",
+      "18267068",
+      "17072321",
+      "16673382",
+      "16613833",
+      "16504092",
+      "15329734",
+      "12191486",
+      "10902190",
+      "9003785",
+      "8864118"
+    ],
+    "similar": [
+      "40303498",
+      "39402077",
+      "40306634",
+      "34400898",
+      "25912249",
+      "35660327",
+      "20723331",
+      "38940026",
+      "40216855",
+      "38339945",
+      "38485985",
+      "40142216",
+      "38355876",
+      "39054495",
+      "40292890",
+      "38426064",
+      "16835236",
+      "39392590",
+      "33342810",
+      "36527769",
+      "38438821",
+      "40319284",
+      "40127441",
+      "40264055",
+      "36969684",
+      "39787672",
+      "39492914",
+      "26300007",
+      "38963605",
+      "24100018",
+      "39337370",
+      "36917705",
+      "33847850",
+      "39972004",
+      "38786433",
+      "38069266",
+      "39718820",
+      "29637403",
+      "36694130",
+      "38546090",
+      "39489837",
+      "37062419",
+      "40186314",
+      "38905988",
+      "31394128",
+      "40103927",
+      "37105727",
+      "40053734",
+      "21963853",
+      "28373667",
+      "19702828",
+      "40038307",
+      "38778480",
+      "40217281",
+      "36080795",
+      "35477047",
+      "39588339",
+      "39322560",
+      "38690775",
+      "40250167",
+      "36738712",
+      "39796843",
+      "38202981",
+      "29069487",
+      "30761159",
+      "32704414",
+      "22825752",
+      "39285277",
+      "38875514",
+      "38794052",
+      "37315380",
+      "30979733",
+      "34147008",
+      "39915528",
+      "30135182",
+      "37931483",
+      "39503329",
+      "24419302",
+      "40263505",
+      "36243045",
+      "39669371",
+      "39047502",
+      "40140754",
+      "40140749",
+      "35336395",
+      "39295255",
+      "35106553",
+      "29363879",
+      "32417928",
+      "40282875",
+      "22677493",
+      "39695398",
+      "39550910",
+      "37453366",
+      "39010644",
+      "37806061",
+      "40274916",
+      "40330769",
+      "37030103",
+      "38943093"
+    ],
+    "review": [
+      "40303498",
+      "20723331",
+      "38438821",
+      "39718820",
+      "37105727",
+      "40250167",
+      "24419302",
+      "32417928"
+    ],
+    "pmc": [
+      "12035828"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40303498/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1260",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.medsci.org/v22p2208.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

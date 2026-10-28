@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "40087586",
+    "doi": "10.1186/s12885-025-13903-9",
+    "title": "Exploring FAM13A-N-Myc interactions to uncover potential targets in MYCN-amplified neuroblastoma: a study of protein interactions and molecular dynamics simulations."
+  },
+  "content": {
+    "abstract": "Neuroblastoma (NB), a common infantile neuroendocrine tumor, presents a substantial therapeutic challenge when MYCN is amplified. Given that the protein structure of N-Myc is disordered, we utilized Alphafold for prediction and GROMACS for optimization of the N-Myc structure, thereby improving the reliability of the predicted structure. The publicly available datasets GSE49710 and GSE73517 were adopted, which contain the transcriptome data of clinical samples from 598 NB patients. Through various machine learning algorithms, FAM13A was identified as a characteristic gene of MYCN. Cell functional experiments, including those on cell proliferation, apoptosis, and cell cycle, also indicate that FAM13A is a potential risk factor. Additionally, Alphafold and GROMACS were employed to predict and optimize the structure of FAM13A. Protein-protein docking and molecular dynamic modeling techniques were then used to validate the enhanced protein stability resulting from the interaction between N-Myc and FAM13A. Consequently, targeting FAM13A holds the potential to reduce the stability of N-Myc, hinder the proliferation of NB cells, and increase the infiltration of immune cells. This multi-faceted approach effectively combats tumor cells, making FAM13A a prospective therapeutic target for MYCN-amplified NB.",
+    "keywords": [
+      "Immune cell infiltration",
+      "MYCN",
+      "Neuroblastoma",
+      "Protein structure prediction",
+      "Protein-protein docking",
+      "Single cell transcriptomes"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Neuroblastoma/genetics/pathology/metabolism",
+      "*N-Myc Proto-Oncogene Protein/genetics/metabolism/chemistry",
+      "Molecular Dynamics Simulation",
+      "Cell Proliferation/genetics",
+      "Molecular Docking Simulation",
+      "Cell Line, Tumor",
+      "Gene Amplification",
+      "Apoptosis/genetics",
+      "Protein Binding",
+      "Gene Expression Regulation, Neoplastic",
+      "Proto-Oncogene Proteins c-myc"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yin, Hongli",
+        "Liu, Tianyi",
+        "Wu, Di",
+        "Li, Xiaolu",
+        "Li, Gen",
+        "Song, Weiwei",
+        "Wang, Xiaodong",
+        "Xin, Shan",
+        "Liu, Yisu",
+        "Pan, Jian"
+      ],
+      "short_names": [
+        "Yin H",
+        "Liu T",
+        "Wu D",
+        "Li X",
+        "Li G",
+        "Song W",
+        "Wang X",
+        "Xin S",
+        "Liu Y",
+        "Pan J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, 215003, China. yinhongli1992@outlook.com.",
+        "Department of Pharmaceutics, Dalian Women and Children's Medical Group, Dalian, Liaoning, 116012, China.",
+        "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, 215003, China.",
+        "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, 215003, China.",
+        "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, 215003, China.",
+        "Department of Pharmacy, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, 102218, China.",
+        "Department of Orthopaedics, Children's Hospital of Soochow University, Suzhou, 215003, China.",
+        "Genetics and Cellular Engineering Group, Research Unit Signaling and Translation, Helmholtz Zentrum Munich, Ingolstaedter Landstr. 1, Neuherberg, 85764, Germany. shan.xin@yale.edu.",
+        "China College of Life Sciences and Chemistry, Hunan University of Technology, Zhuzhou, 412007, China. Sophie1liu@foxmail.com.",
+        "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, 215003, China. panjian2008@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yin, Hongli",
+        "short_name": "Yin H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, 215003, China. yinhongli1992@outlook.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Tianyi",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutics, Dalian Women and Children's Medical Group, Dalian, Liaoning, 116012, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Di",
+        "short_name": "Wu D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, 215003, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaolu",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, 215003, China."
+        ]
+      },
+      {
+        "full_name": "Li, Gen",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, 215003, China."
+        ]
+      },
+      {
+        "full_name": "Song, Weiwei",
+        "short_name": "Song W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Beijing Tsinghua Changgung Hospital, School of Clinical Medicine, Tsinghua University, Beijing, 102218, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaodong",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Children's Hospital of Soochow University, Suzhou, 215003, China."
+        ]
+      },
+      {
+        "full_name": "Xin, Shan",
+        "short_name": "Xin S",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics and Cellular Engineering Group, Research Unit Signaling and Translation, Helmholtz Zentrum Munich, Ingolstaedter Landstr. 1, Neuherberg, 85764, Germany. shan.xin@yale.edu."
+        ]
+      },
+      {
+        "full_name": "Liu, Yisu",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "China College of Life Sciences and Chemistry, Hunan University of Technology, Zhuzhou, 412007, China. Sophie1liu@foxmail.com."
+        ]
+      },
+      {
+        "full_name": "Pan, Jian",
+        "short_name": "Pan J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, 215003, China. panjian2008@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2025 Mar 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/16 11:17",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36338988",
+      "36319669",
+      "36139583",
+      "35559253",
+      "35013218",
+      "34265844",
+      "33919074",
+      "33767157",
+      "33547074",
+      "33472893",
+      "32193374",
+      "32151973",
+      "32075946",
+      "30996127",
+      "30301961",
+      "30127528",
+      "30127393",
+      "29409532",
+      "29379199",
+      "29344893",
+      "28358317",
+      "28197372",
+      "25163686",
+      "24086065",
+      "22455463",
+      "22267799",
+      "20173748",
+      "19907434",
+      "19180106",
+      "19111882",
+      "18288422",
+      "17959264",
+      "17644558",
+      "17055458",
+      "16116153",
+      "13130115",
+      "12612655",
+      "11846609"
+    ],
+    "similar": [
+      "40087586",
+      "34016720",
+      "40353332",
+      "27599694",
+      "31637848",
+      "31615807",
+      "34107377",
+      "37094904",
+      "27707976",
+      "36311753",
+      "37175848",
+      "28456710",
+      "38745192",
+      "31511046",
+      "38336749",
+      "28574509",
+      "36708875",
+      "32483461",
+      "32086952",
+      "37975412",
+      "29466962",
+      "37741985",
+      "40108662",
+      "29374092",
+      "33172452",
+      "34565342",
+      "12960121",
+      "34937609",
+      "32240058",
+      "32788584",
+      "36982482",
+      "27448979",
+      "30483774",
+      "27539729",
+      "29328367",
+      "17938259",
+      "26549029",
+      "35969939",
+      "21109931",
+      "27517149",
+      "37230388",
+      "21654684",
+      "34655293",
+      "32512012",
+      "35942521",
+      "32075946",
+      "37843625",
+      "31444411",
+      "30584073",
+      "26844271",
+      "21856782",
+      "27183205",
+      "37543638",
+      "34088831",
+      "39486730",
+      "36539767",
+      "35299072",
+      "34110923",
+      "26657295",
+      "37240360",
+      "37461251",
+      "29610116",
+      "25323222",
+      "29202477",
+      "36675163",
+      "27876123",
+      "34011924",
+      "20080637",
+      "20811720",
+      "29784674",
+      "24859015",
+      "24009722",
+      "39215128",
+      "31455317",
+      "35490242",
+      "25843293",
+      "31255282",
+      "30542116",
+      "39189159",
+      "39675397",
+      "8589036",
+      "18851746",
+      "26482175",
+      "32651259",
+      "33411331",
+      "24190252",
+      "39395371",
+      "33483374",
+      "31560547",
+      "33537818",
+      "32085516",
+      "30765227",
+      "39730182",
+      "25475555",
+      "39313128",
+      "32087738",
+      "30612140",
+      "31357838",
+      "32415892",
+      "33602789"
+    ],
+    "review": [
+      "40087586"
+    ],
+    "pmc": [
+      "11907995"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-025-13903-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/neuroblastoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Neuroblastoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40087586/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

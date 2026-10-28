@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, conclusion, methods, and supplementary figure/table references.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors systematically characterize and engineer the MarR-PmarO transcriptional factor-based biosensor in E. coli, demonstrating tunability through endogenous regulator knockout, MarR expression fine-tuning, hybrid promoter construction, and site-directed mutagenesis guided by molecular dynamics simulations, yielding variants with improved dynamic ranges and response strengths.
+- **Visible evidence base** Results sections with figures referenced (Figures 1-3), supplementary figures (S1-S3), supplementary table (S1), and methods descriptions. No raw data, strain/plasmid tables, or sequence files were provided in the submitted text.
+- **Missing materials affecting confidence** Raw fluorescence data, statistical analysis details, plasmid maps, full strain/plasmid table (Table 1), DNA sequence table (Table 2), simulation output files, and replicate information are not included. This limits independent verification of quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic and logical engineering effort on a well-known biosensor system, with a clear progression from system validation to rational design. The work is technically sound in its overall approach, and the results are of interest to the synthetic biology and metabolic engineering communities. However, several claims regarding the predictive power of the molecular dynamics simulations and the practical utility of the final variants are not fully supported by the data presented. The lack of raw data and detailed statistical treatment weakens the quantitative conclusions. The manuscript would benefit from additional experimental validation and clearer presentation of data variability.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, metabolic engineering, and biosensor development would be interested. The work provides a practical example of biosensor tuning and offers promoter variants with potentially useful dynamic properties for salicylic acid-related applications. The "plug-and-play" demonstration of binding boxes and the use of simulation-guided mutagenesis are broadly relevant to those engineering transcription factor-based circuits.
+- **Major strengths** The systematic approach to dissecting the roles of endogenous regulator, promoter architecture, and binding site affinity is commendable. The combination of experimental construction with molecular dynamics simulation is a forward-looking strategy. The identification of specific promoter variants with improved response characteristics provides tangible outputs for the community.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that molecular dynamics simulations identified key nucleotides whose mutation leads to improved biosensor performance.
+  - **Evidence pointer** Results section "Site-directed mutagenesis on S14 promoter guided by modeling simulation", Figure 3, Supplementary Table S1.
+  - **Concern** The manuscript states that simulation revealed nucleotides with high binding frequency and energy, and that mutating these (e.g., I12A) led to variants with improved properties. However, the direct link between the predicted binding energy changes and the observed experimental outcomes is not quantitatively established. The simulation is described as providing binding frequencies and energies, but no correlation analysis between predicted and measured values is presented. Furthermore, the first-round mutations (I7G, I12G) largely destroyed promoter activity, which is not explained by the model. The second-round mutations (II4T, II14T) were selected based on "third and fourth highest" binding metrics, but the rationale for why these would improve rather than disrupt function is not articulated. The model's predictive utility is therefore not convincingly demonstrated.
+  - **Why it matters** The central claim of the paper is that simulation-guided design is an effective strategy for tuning biosensor dynamics. Without a clear quantitative link between simulation predictions and experimental results, this claim is not supported. The observed improvements could be due to empirical screening rather than rational design.
+  - **Resolution test** Provide a quantitative comparison of predicted binding energy changes for each mutant versus experimentally measured promoter activity or response strength. Show that the model can distinguish between mutations that improve, impair, or have no effect on function. Alternatively, include a control set of random mutations to demonstrate that the simulation-guided choices outperform unguided selection.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  umber **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the engineered variants I12AII4T and I12AII14T exhibit "improved responsive strengths and shifted dynamic ranges" suitable for applications.
+  - **Evidence pointer** Results section "Site-directed mutagenesis on S14 promoter guided by modeling simulation", Figure 3e-f.
+  - **Concern** The quantitative improvements are presented as fold-changes in fluorescence, but the absolute values, error bars, and statistical significance are not reported in the text. The maximum activity of I12AII4T is stated as 8833±152 a.u. and I12AII14T as 9061±472 a.u., but the comparison to the wild-type PmarO or S14 under identical conditions is not clearly shown in the text. The claim of "improved" response is relative, and without a clear baseline and statistical test, it is difficult to assess the significance. Additionally, the leaky expression levels for these variants are high (4820±349 and 3034±89 a.u.), which may limit their practical use in high-throughput screening where a low background is critical.
+  - **Why it matters** The practical utility of the final variants is a key selling point. If the improvements are not statistically robust or if the leakiness negates the benefits, the claim of applicability is weakened.
+  - **Resolution test** Present full dose-response curves for the final variants compared to the wild-type system, including error bars and statistical analysis (e.g., ANOVA or t-tests) for at least three biological replicates. Quantify the signal-to-noise ratio and dynamic range for each variant. Discuss the trade-off between increased response and increased leakiness in the context of specific applications.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the "plug-and-play" nature of the marO binding boxes is demonstrated.
+  - **Evidence pointer** Results section "Exploring the function of marO boxes by constructing hybrid promoters", Figure 2.
+  - **Concern** The authors show that placing a single binding box in various positions of the pL promoter creates MarR-repressible promoters. However, the "plug-and-play" claim implies a modular and predictable behavior. The results show that the position of the binding box drastically affects both the unrepressed promoter strength and the repressibility (e.g., S2 and S5 have low unrepressed activity). The authors do not provide a systematic rule or model for predicting the behavior of a given hybrid promoter based on the insertion position. The demonstration is therefore more of a feasibility study than a proof of a modular "plug-and-play" component.
+  - **Why it matters** The "plug-and-play" concept is a strong claim that would be of high interest to the synthetic biology community. If the behavior is highly context-dependent and not predictable, the claim is overstated.
+  - **Resolution test** Provide a predictive model or a set of design rules that correlate the binding box position with the resulting promoter characteristics (e.g., strength, repression ratio). Test the model by predicting the behavior of a new hybrid promoter not used in the training set.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the molecular dynamics simulation setup is a valid representation of the in vivo binding environment.
+  - **Evidence pointer** Methods section "MarR-DNA dynamic model simulation".
+  - **Concern** The simulation is performed with the protein and DNA in a water sphere without ions. The authors acknowledge this simplification. However, the absence of ions, particularly Mg2+ and K+, which are known to be critical for protein-DNA binding stability and specificity, could significantly affect the calculated binding energies and frequencies. The simulation time of 4 ns is also very short for a protein-DNA complex to reach equilibrium. The results may therefore not be representative of the true binding interactions.
+  - **Why it matters** The entire mutagenesis strategy is based on the simulation results. If the simulation is not physically realistic, the selection of target nucleotides may be flawed, and the success of the final variants could be coincidental.
+  - **Resolution test** Validate the simulation approach by comparing predicted binding energies with experimentally measured binding affinities (e.g., via electrophoretic mobility shift assay or surface plasmon resonance) for the wild-type and mutant binding boxes. Repeat simulations with physiological ion concentrations to check the robustness of the predictions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 2
+  - **Issue** The introduction mentions a "recent finding demonstrated a different mechanism for MarR biosensor which employs copper as the signal" but does not provide a citation or further context. This is confusing as it is not clear how this relates to the current work.
+  - **Required correction** Add a citation and a brief explanation of how this alternative mechanism informs or contrasts with the current study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Re-establishment and validation of MarR-PmarO biosensor system"
+  - **Evidence pointer** Figure 1b
+  - **Issue** The text states that the maximum induction concentration was set to 15 mM due to toxicity, referencing Supplementary Figure S1. However, the toxicity data is not described in the text. It is unclear what metric was used to assess toxicity (e.g., growth rate, final OD).
+  - **Required correction** Briefly describe the toxicity assay and the criteria used to determine the 15 mM limit.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Fine-tuning MarR expression level to optimize MarR-PmarO biosensor system"
+  - **Evidence pointer** Figure 1c
+  - **Issue** The text mentions that lpp0.2 and lpp0.03 caused "evident leaking expression" with levels over 7000 a.u., but the unrepressed promoter strength (PC) is not stated for comparison. It is unclear if this leakiness is a small or large fraction of the maximum possible expression.
+  - **Required correction** Provide the PC value for the PmarO promoter in the same figure or text to allow the reader to assess the severity of the leakiness.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "Exploring the function of marO boxes by constructing hybrid promoters"
+  - **Evidence pointer** Figure 2a
+  - **Issue** The description of the five insertion sites is text-heavy and difficult to follow without a clear visual representation. The figure is referenced but not described in detail.
+  - **Required correction** In the text, briefly describe the sequence context of each site (e.g., "site 1 is upstream of the -35 box, site 2 overlaps the -35 box, etc.") to make the figure easier to interpret.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "MarR-DNA dynamic model simulation"
+  - **Evidence pointer** Methods section
+  - **Issue** The methods state that the simulation ran for 4 ns until the potential energy change was marginal (<5% of the binding energy). This criterion is unusual; typically, equilibration is assessed by the stability of the root-mean-square deviation of the complex, not the total potential energy.
+  - **Required correction** Clarify the equilibration criterion and report the root-mean-square deviation of the protein-DNA complex over the simulation time to demonstrate stability.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses the term "plug-and-play" without defining it. While common in synthetic biology, it may not be immediately clear to readers from other disciplines.
+  - **Required correction** Briefly explain the concept, e.g., "function in a modular, interchangeable manner."
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of quantitative link between simulation predictions and experimental outcomes.
+  - R1-M2: Insufficient statistical treatment and baseline comparison for the final variant performance.
+  - R1-M4: Simulation setup may not be physically realistic, potentially undermining the basis for mutagenesis.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is not conceptually novel, as biosensor tuning and promoter engineering are established fields. However, the specific application of molecular dynamics simulation to guide mutagenesis in this context is a somewhat fresh approach, though not unprecedented. The originality is moderate.
+  - **Scientific importance** The results are of practical importance to the metabolic engineering community, providing new promoter variants for salicylic acid sensing. However, the fundamental insights into MarP-DNA interactions are limited, and the work is largely an engineering case study. The importance is moderate and primarily applied.
+  - **Interdisciplinary readership** The work is primarily of interest to synthetic biologists and metabolic engineers. The molecular dynamics component may attract computational biologists, but the overall scope is narrow. The interdisciplinary appeal is limited.
+  - **Technical soundness** The experimental design is generally sound, but the key claim of simulation-guided design is not rigorously validated. The lack of statistical detail and raw data is a significant weakness. The technical soundness is currently insufficient to fully support the conclusions.
+  - **Readability for nonspecialists** The manuscript is written in a clear and logical manner, but the heavy use of field-specific jargon (e.g., "plug-and-play", "dynamic range") and the dense results sections may be challenging for a general scientific audience. The readability is acceptable for a specialist journal but not for a broad audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core engineering work is valuable and the final variants are potentially useful. However, the central claim of simulation-guided design must be substantiated with quantitative data, and the performance of the final variants must be presented with proper statistical analysis. Without these revisions, the case for the manuscript's main conclusions is not fully established from the provided evidence.
+
+## Risk / unsupported claims
+- The claim that molecular dynamics simulation "guided" the successful mutagenesis is not supported by a direct correlation between predicted and measured values.
+- The claim that the final variants are "beneficial for future metabolic engineering research" is speculative, as no application-level testing (e.g., in a production pathway) is demonstrated.
+- The claim that the marO binding boxes function in a "plug-and-play" manner is only demonstrated for a limited set of positions on one promoter (pL) and may not be generalizable.
+- The statement that the simulation's energy calculations are accurate is unverified, given the simplified setup (no ions, short simulation time).
+- The claim that endogenous MarR "only showed limited influence" on dynamic performance is based on a single comparison and may not be robust.

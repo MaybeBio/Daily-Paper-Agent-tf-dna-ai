@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "35467965",
+    "doi": "10.1200/CCI.21.00163",
+    "title": "Development of a Machine Learning Model Using Limited Features to Predict 6-Month Mortality at Treatment Decision Points for Patients With Advanced Solid Tumors."
+  },
+  "content": {
+    "abstract": "PURPOSE: Patients with advanced solid tumors may receive intensive treatments near the end of life. This study aimed to create a machine learning (ML) model using limited features to predict 6-month mortality at treatment decision points (TDPs). METHODS: We identified a cohort of adults with advanced solid tumors receiving care at a major cancer center from 2014 to 2020. We identified TDPs for new lines of therapy (LoTs) and confirmed mortality at 6 months after a TDP. Using extreme gradient boosting, ML models were developed, which used or derived features from a limited set of electronic health record data considering the literature, clinical relevance, variability, availability, and predictive importance using Shapley additive explanations scores. We predicted and observed 6-month mortality after a TDP and assessed a risk stratification strategy with different risk thresholds to support communication of chance of survival. RESULTS: Four thousand one hundred ninety-two patients were included. Patients had 7,056 TDPs, for which the 6-month mortality increased from 17.9% to 46.7% after starting first to sixth LoT, respectively. On the basis of internal validation, models using both 111 (Full) or 45 (Limited-45) features accurately predicted 6-month mortality (area under the curve >/= 0.80). Using a 0.3 risk threshold in the Limited-45 model, the observed 6-month survival was 34% (95% CI, 28 to 40) versus 81% (95% CI, 81 to 82) among those classified with low or higher chance of survival, respectively. The positive predictive value of the Limited-45 model was 0.66 (95% CI, 0.60 to 0.72). CONCLUSION: We developed and validated a ML model using a limited set of 45 features readily derived from electronic health record data to predict 6-month prognosis in patients with advanced solid tumors. The model output may support shared decision making as patients consider the next LoT.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adult",
+      "DNA-Binding Proteins",
+      "Humans",
+      "*Machine Learning",
+      "*Neoplasms/diagnosis/therapy",
+      "Predictive Value of Tests",
+      "Prognosis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chalkidis, George",
+        "McPherson, Jordan",
+        "Beck, Anna",
+        "Newman, Michael",
+        "Yui, Shuntaro",
+        "Staes, Catherine"
+      ],
+      "short_names": [
+        "Chalkidis G",
+        "McPherson J",
+        "Beck A",
+        "Newman M",
+        "Yui S",
+        "Staes C"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4414-9010",
+        "ORCID: 0000-0003-4038-7951",
+        "ORCID: 0000-0003-3727-522X",
+        "ORCID: 0000-0002-5423-3251"
+      ],
+      "affiliations": [
+        "Hitachi, Ltd, Tokyo, Japan.",
+        "Huntsman Cancer Institute, Salt Lake City, UT.",
+        "Huntsman Cancer Institute, Salt Lake City, UT.",
+        "University of Utah Health, Salt Lake City, UT.",
+        "Hitachi, Ltd, Tokyo, Japan.",
+        "College of Nursing, University of Utah, Salt Lake City, UT."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chalkidis, George",
+        "short_name": "Chalkidis G",
+        "identifiers": [
+          "0000-0003-4414-9010"
+        ],
+        "affiliations": [
+          "Hitachi, Ltd, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "McPherson, Jordan",
+        "short_name": "McPherson J",
+        "identifiers": [
+          "0000-0003-4038-7951"
+        ],
+        "affiliations": [
+          "Huntsman Cancer Institute, Salt Lake City, UT."
+        ]
+      },
+      {
+        "full_name": "Beck, Anna",
+        "short_name": "Beck A",
+        "identifiers": [],
+        "affiliations": [
+          "Huntsman Cancer Institute, Salt Lake City, UT."
+        ]
+      },
+      {
+        "full_name": "Newman, Michael",
+        "short_name": "Newman M",
+        "identifiers": [],
+        "affiliations": [
+          "University of Utah Health, Salt Lake City, UT."
+        ]
+      },
+      {
+        "full_name": "Yui, Shuntaro",
+        "short_name": "Yui S",
+        "identifiers": [
+          "0000-0003-3727-522X"
+        ],
+        "affiliations": [
+          "Hitachi, Ltd, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Staes, Catherine",
+        "short_name": "Staes C",
+        "identifiers": [
+          "0000-0002-5423-3251"
+        ],
+        "affiliations": [
+          "College of Nursing, University of Utah, Salt Lake City, UT."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JCO clinical cancer informatics"
+    ],
+    "journal_abbrev": [
+      "JCO Clin Cancer Inform"
+    ],
+    "pub_date": "2022 Mar",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/26 06:00",
+    "fetched_at": "2026-09-28 07:50:13"
+  },
+  "links": {
+    "cites": [
+      "41301066",
+      "38657194",
+      "37847666",
+      "37535359",
+      "37490642",
+      "36313660"
+    ],
+    "refs": [
+      "33850304",
+      "33411622",
+      "33057696",
+      "32970131",
+      "31925998",
+      "31651973",
+      "30969439",
+      "30652575",
+      "30646043",
+      "30128552",
+      "29649399",
+      "29206553",
+      "29068784",
+      "28954284",
+      "28327989",
+      "28327985",
+      "28034065",
+      "28018571",
+      "26678976",
+      "26203912",
+      "25560714",
+      "25422490",
+      "24899109",
+      "23796586",
+      "23504709",
+      "22493340",
+      "22492896",
+      "22379068",
+      "21555700",
+      "20124172",
+      "12881260",
+      "12173344",
+      "9624023",
+      "3203132"
+    ],
+    "similar": [
+      "35467965",
+      "32282466",
+      "36749620",
+      "36276398",
+      "35639380",
+      "36568149",
+      "33793407",
+      "35943767",
+      "31651589",
+      "34951865",
+      "34019087",
+      "36653875",
+      "32031645",
+      "30646043",
+      "36091676",
+      "32433107",
+      "33900400",
+      "36312291",
+      "34050561",
+      "33328078",
+      "32195761",
+      "34152274",
+      "36603200",
+      "32749223",
+      "37077747",
+      "33539308",
+      "32332242",
+      "35303896",
+      "36701342",
+      "33331920",
+      "37416313",
+      "35378840",
+      "36711330",
+      "37316853",
+      "31715534",
+      "32667760",
+      "37358890",
+      "34589713",
+      "36279655",
+      "36585641",
+      "36321557",
+      "33836365",
+      "30646095",
+      "35846312",
+      "32970131",
+      "35033500",
+      "35576007",
+      "36485032",
+      "32736589",
+      "37023416",
+      "33789673",
+      "35997829",
+      "34620320",
+      "30399150",
+      "35277130",
+      "37000488",
+      "34079812",
+      "35238790",
+      "35671416",
+      "35405402",
+      "36825694",
+      "26469222",
+      "34468741",
+      "36567564",
+      "37077912",
+      "36570336",
+      "33373867",
+      "26679719",
+      "36088867",
+      "37012019",
+      "37268685",
+      "36306583",
+      "32168227",
+      "32102816",
+      "37339175",
+      "33260202",
+      "37535359"
+    ],
+    "review": [
+      "35467965",
+      "36321557"
+    ],
+    "pmc": [
+      "9067363"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://ascopubs.org/doi/10.1200/CCI.21.00163?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/35467965.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35467965/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35467965",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

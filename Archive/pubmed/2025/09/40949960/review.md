@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, methods, results, discussion, conclusions) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific claims, methodological soundness, and internal consistency based solely on the provided text; no assessment of figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors propose that efficient PAM recognition in CRISPR-Cas9 variants (VQR, VRER, EQR) requires not only direct PAM-contacting residue interactions but also distal network stabilization, preserved long-range allosteric communication with REC3, and entropic tuning of DNA engagement, as revealed by MD simulations and graph-theoretic analyses
+- **Visible evidence base** Text descriptions of MD simulation protocols, community network analysis, eigenvector centrality analysis, and qualitative results; no quantitative data, figures, or statistical analyses are visible
+- **Missing materials affecting confidence** All figures (Figures 1–5), Figure S1, all quantitative simulation data, trajectory analyses, convergence metrics, and the Supporting Information; these are essential for evaluating the validity of the central claims
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting hypothesis regarding the mechanistic basis of PAM recognition in engineered Cas9 variants, proposing that distal allosteric networks and domain stabilization are critical determinants. However, the evidence presented in the text is entirely qualitative, with no quantitative data, statistical analyses, or validation metrics visible. The central claims cannot be evaluated from the provided material alone. The manuscript would benefit from clearer articulation of how the computational results distinguish between correlation and causation, and from explicit quantitative comparisons across systems.
+- **Who would be interested in the results, and why** Researchers in CRISPR-Cas9 engineering, protein allostery, and computational biophysics would find the proposed design rules potentially useful for guiding rational engineering of Cas9 variants with expanded PAM compatibility. The framework may also interest those studying long-range communication in multi-domain enzymes.
+- **Major strengths** The manuscript addresses a significant and timely problem in CRISPR-Cas9 engineering, namely the mechanistic basis of PAM specificity expansion. The integration of MD simulations with graph-theoretic and centrality analyses is a sophisticated approach that could provide novel insights. The authors appropriately acknowledge prior work and position their findings within a broader context of allosteric regulation in Cas9.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "efficient PAM recognition emerges from three interdependent features: stabilization of the PAM-interacting domain, preservation of long-range allosteric communication with the REC3 hub, and entropic tuning of DNA engagement"
+  - **Evidence pointer** Results sections "Dynamic Remodeling of Cas9 Variants", "Effect of Mutations on PAM Recognition", "Alteration of the HNH-REC3 Allosteric Signaling"; Figures 2–5 (not visible)
+  - **Concern** The central claims are presented without any quantitative data in the text. No numerical values for community network metrics, eigenvector centrality scores, or communication pathway strengths are provided. The descriptions are entirely qualitative (e.g., "markedly weakened", "pronounced reduction", "robust communication pathway"), which prevents independent assessment of the magnitude and statistical significance of the reported effects.
+  - **Why it matters** Without quantitative evidence, the reader cannot determine whether the observed differences between active and inactive variants are meaningful or within the range of simulation noise. The manuscript's central thesis rests on these comparative analyses, and the absence of data undermines the ability to evaluate the validity of the proposed design rules.
+  - **Resolution test** Provide quantitative values (with error bars or confidence intervals) for key metrics such as inter-domain communication strengths, eigenvector centrality differences, and pathway persistence across replicates. Include statistical tests comparing active versus inactive variants.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The claim that MD simulations of ~1 μs in three replicates are sufficient to capture the relevant conformational dynamics and allosteric communication
+  - **Evidence pointer** Computational Methods, "Molecular Dynamics (MD) Simulations" section
+  - **Concern** The manuscript does not report any convergence metrics, such as root-mean-square deviation (RMSD) stabilization, equilibration checks, or block-averaging analyses. For a system of ~270,000 atoms, three replicates of ~1 μs each may or may not be sufficient to sample the relevant conformational space, particularly for detecting subtle differences in allosteric communication. No information is provided on the reproducibility of the results across replicates.
+  - **Why it matters** Allosteric communication analyses are highly sensitive to the quality and convergence of the underlying MD trajectories. Without demonstrated convergence, the reported differences between variants could be artifacts of insufficient sampling rather than genuine mechanistic differences.
+  - **Resolution test** Provide convergence analyses (e.g., RMSD time series, principal component overlap, or block-averaged correlation matrices) demonstrating that the simulation trajectories have reached equilibrium and that the reported metrics are stable across replicates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Causal inference
+  - **Claim pointer** The claim that "the D1135V mutation is critical for stabilizing the DNA duplex in the VQR and VRER variants, by enabling K1107 to engage directly with the DNA"
+  - **Evidence pointer** Results section "Effect of Mutations on PAM Recognition"; Figure 4 (not visible)
+  - **Concern** The manuscript describes correlations between the presence of D1135V and enhanced DNA interactions, but does not establish causality. The authors do not report any perturbation experiments (e.g., alanine scanning, additional MD simulations with D1135V removed from the VQR/VRER background) that would directly test the proposed mechanism. The claim that D1135V "enables" K1107 engagement is a mechanistic assertion that requires more direct evidence.
+  - **Why it matters** The proposed design rules are intended to guide engineering efforts. If the causal role of D1135V is not firmly established, the rules may not be reliably transferable to other Cas9 variants or PAM sequences.
+  - **Resolution test** Perform additional simulations or experiments that directly test the role of D1135V, such as simulating VQR/VRER variants with D1135V reverted to aspartate, or providing free energy calculations that quantify the contribution of D1135V to DNA binding stability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The claim that the findings "establish general design rules that can guide the rational engineering of Cas9 variants with expanded PAM compatibility"
+  - **Evidence pointer** Discussion and Conclusions sections
+  - **Concern** The study examines only three active variants (VQR, VRER, EQR) and two inactive engineered constructs. The authors generalize their findings to a broad set of design rules without testing whether the proposed principles hold for other Cas9 variants or PAM sequences. The relationship between the specific mutations in these variants and the proposed general rules is not systematically explored.
+  - **Why it matters** The stated goal of the manuscript is to provide design rules for engineering. Without demonstrating that the principles apply beyond the specific variants studied, the generalizability of the conclusions remains unsubstantiated.
+  - **Resolution test** Either temper the claims to be specific to the studied variants, or provide additional computational or experimental evidence that the proposed rules apply to a broader set of Cas9 variants and PAM sequences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "Expanding the range of Protospacer Adjacent Motifs (PAMs) recognized by CRISPR-Cas9 is essential for broadening genome-editing applications" without providing context on the current limitations or the significance of the specific variants studied.
+  - **Required correction** Add one sentence providing context on the importance of PAM expansion and the specific gap addressed by this work.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Computational Methods
+  - **Evidence pointer** Computational Methods, "Molecular Dynamics (MD) Simulations" section
+  - **Issue** The methods state that simulations were performed using a "protocol tailored for protein/nucleic acid complexes" with reference to prior work, but do not specify the exact equilibration protocol, temperature coupling scheme, or pressure coupling parameters.
+  - **Required correction** Provide a more detailed description of the simulation protocol, including equilibration steps, thermostat/barostat parameters, and any restraints applied during the simulation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section "Dynamic Remodeling of Cas9 Variants"
+  - **Evidence pointer** Results, first paragraph
+  - **Issue** The term "active variants" is used to describe VQR, VRER, and EQR, but the manuscript does not provide experimental evidence of their activity in the context of the simulations. The term could be confused with enzymatic activity measured experimentally.
+  - **Required correction** Clarify that "active" refers to the known PAM specificity of these variants from prior experimental work, and consider using "PAM-expanded variants" or similar terminology for clarity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Results section "Effect of Mutations on PAM Recognition"
+  - **Evidence pointer** Results, paragraph discussing D1135
+  - **Issue** The text states "In the ENG1-2 systems, D1135 forms a stable salt bridge with K1007" but later refers to "K1107" in the same context. It is unclear whether K1007 and K1107 are the same residue or different residues, and whether this is a typographical error.
+  - **Required correction** Verify the residue numbering and ensure consistent use of K1007 versus K1107 throughout the manuscript.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on comparison with xCas9
+  - **Issue** The discussion references prior work on xCas9 but does not provide a systematic comparison of the proposed design rules with those derived from xCas9 studies.
+  - **Required correction** Add a brief comparative analysis highlighting similarities and differences between the proposed rules and those from xCas9, to strengthen the generalizability argument.
+
+## Risk / unsupported claims
+- The claim that "efficient PAM recognition emerges from three interdependent features" is unsupported by quantitative data in the visible text; the qualitative descriptions cannot be independently verified.
+- The claim that "the D1135V mutation is critical for stabilizing the DNA duplex" is presented as a causal mechanism without direct perturbation tests or free energy calculations.
+- The claim that the findings "establish general design rules" is not supported by evidence demonstrating applicability beyond the specific variants studied.
+- The claim that "inactive variants display a pronounced reduction in centrality within the REC3 domain" is not supported by numerical values or statistical analyses in the visible text.
+- The claim that "the loss of key locking interactions between K1107 and DNA leads to pronounced destabilization of the PAM-interacting domain" is presented without quantitative measures of destabilization (e.g., RMSF, interaction energies).
+- The manuscript's assertion that the VQR, VRER, and EQR variants "preserve the communication between the key α-helix 37 and HNH" is not supported by quantitative pathway analyses in the visible text.

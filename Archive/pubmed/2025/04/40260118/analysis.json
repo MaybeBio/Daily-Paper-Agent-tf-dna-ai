@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40260118",
+  "title": "NetREm: Network Regression Embeddings reveal cell-type transcription factor coordination for gene regulation.",
+  "authors": "Khullar, Saniya; Huang, Xiang; Ramesh, Raghu; Svaren, John; Wang, Daifeng",
+  "journal": "Bioinformatics advances",
+  "published_date": "2025-04-22",
+  "window": {
+    "start": "2025-04-21",
+    "end": "2025-04-27"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用网络回归嵌入方法从单细胞表达数据推断细胞类型特异的TF-TF协调与TF-TG调控网络，虽涉及TF-DNA调控关系但缺乏三维互作建模，方法可迁移但非核心聚焦。",
+  "abstract": "MOTIVATION: Transcription factor (TF) coordination plays a key role in gene regulation via direct and/or indirect protein-protein interactions (PPIs) and co-binding to regulatory elements on DNA. Single-cell technologies facilitate gene expression measurement for individual cells and cell-type identification, yet the connection between TF-TF coordination and target gene (TG) regulation of various cell types remains unclear. RESULTS: To address this, we introduce our innovative computational approach, Network Regression Embeddings (NetREm), to reveal cell-type TF-TF coordination activities for TG regulation. NetREm leverages network-constrained regularization, using prior knowledge of PPIs among TFs, to analyze single-cell gene expression data, uncovering cell-type coordinating TFs and identifying revolutionary TF-TG candidate regulatory network links. NetREm's performance is validated using simulation studies and benchmarked across several datasets in humans, mice, yeast. Further, we showcase NetREm's ability to prioritize valid novel human TF-TF coordination links in 9 peripheral blood mononuclear and 42 immune cell sub-types. We apply NetREm to examine cell-type networks in central and peripheral nerve systems (e.g. neuronal, glial, Schwann cells) and in Alzheimer's disease versus Controls. Top predictions are validated with experimental data from rat, mouse, and human models. Additional functional genomics data helps link genetic variants to our TF-TG regulatory and TF-TF coordination networks. AVAILABILITY AND IMPLEMENTATION: https://github.com/SaniyaKhullar/NetREm.",
+  "abstract_zh": "动机：转录因子（TF）协调通过直接和/或间接蛋白质-蛋白质相互作用（PPIs）以及共结合DNA上的调控元件，在基因调控中发挥关键作用。单细胞技术便于测量单个细胞的基因表达和细胞类型鉴定，但TF-TF协调与不同细胞类型靶基因（TG）调控之间的联系仍不清楚。结果：为解决这一问题，我们引入了创新的计算方法——网络回归嵌入（NetREm），以揭示细胞类型特异性的TF-TF协调活动对TG调控的作用。NetREm利用网络约束正则化，基于TF间PPIs的先验知识，分析单细胞基因表达数据，揭示细胞类型协调的TFs，并识别革命性的TF-TG候选调控网络连接。NetREm的性能通过模拟研究验证，并在人类、小鼠、酵母的多个数据集中进行基准测试。此外，我们展示了NetREm在9种外周血单核细胞和42种免疫细胞亚型中优先排序有效的新型人类TF-TF协调连接的能力。我们将NetREm应用于检查中枢和外周神经系统（如神经元、胶质细胞、施万细胞）以及阿尔茨海默病与对照组的细胞类型网络。顶级预测通过大鼠、小鼠和人类模型的实验数据验证。额外的功能基因组学数据有助于将遗传变异与我们的TF-TG调控和TF-TF协调网络联系起来。可用性和实现：https://github.com/SaniyaKhullar/NetREm。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40260118/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40260118/",
+  "paper_page_path": "papers/pubmed/40260118/index.html"
+}

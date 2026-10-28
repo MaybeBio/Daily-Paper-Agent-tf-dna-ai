@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.09.15.460452",
+  "title": "RNANetMotif: identifying sequence-structure RNA network motifs in RNA-protein binding sites",
+  "authors": "Hongli Ma; Han Wen; Zhiyuan Xue; Guojun Li; Zhaolei Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2021-09-17",
+  "window": {
+    "start": "2021-09-13",
+    "end": "2021-09-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用图论方法识别RBP-RNA结合位点中的序列-结构网络基序，并用MD模拟验证，虽为RNA-蛋白互作而非TF-DNA，但图挖掘与MD验证方法可迁移至TF-DNA互作建模。",
+  "abstract": "RNA molecules can adopt stable secondary and tertiary structures, which is essential in mediating physical interactions with other partners such as RNA binding proteins (RBPs) and in carrying out their cellular functions. In vivo and in vitro experiments such as RNAcompete and eCLIP have revealed in vitro binding preferences of RBPs to RNA oligomers and in vivo binding sites in cells. Analysis of these binding data showed that the structure properties of the RNAs in these binding sites are important determinants of the binding events; however, it has been a challenge to incorporate the structure information into an interpretable model. Here we describe a new approach, RNANetMotif, which takes predicted secondary structure of thousands of RNA sequences bound by an RBP as input and uses a graph theory approach to recognize enriched subgraphs. These enriched subgraphs are in essence shared sequence-structure elements that are important in RBP-RNA binding. To validate our approach, we performed RNA structure modeling via discrete molecular dynamics folding simulations for selected 4 RBPs, and RNA-protein docking for LIN28. The simulation results, e.g., solvent accessibility and energetics, further support the biological relevance of the discovered network subgraphs. Author Summary RNA binding proteins (RBPs) regulate every aspect of RNA biology, including splicing, translation, transportation, and degradation. High-throughput technologies such as eCLIP have identified thousands of binding sites for a given RBP throughout the genome. It has been shown by earlier studies that, in addition to nucleotide sequences, the structure and conformation of RNAs also play important role in RBP-RNA interactions. Analogous to protein-protein interactions or protein-DNA interactions, it is likely that there exist intrinsic sequence-structure motifs common to these RNAs that underlie their binding specificity to specific RBPs. It is known that RNAs form energetically favorable secondary structures, which can be represented as a graph, with nucleotides being nodes and backbone covalent bonds and base-pairing hydrogen bonds representing edges. We hypothesize that these graphs can be mined by graph theory approaches to identify sequence-structure motifs as enriched sub-graphs. In this article, we described the details of this approach, termed RNANetMotif and associated new concepts, namely EKS (Extended K-mer Subgraphs) and GraphK graph search algorithm. To test the utility of our approach, we conducted 3D structure modeling of selected RNA sequences through molecular dynamics (MD) folding simulation and evaluated the significance of the discovered RNA motifs by comparing their spatial exposure with other regions on the RNA. We believe that this approach has the novelty of treating the RNA sequence as a graph and RBP binding sites as enriched subgraph, which has broader applications beyond RBP-RNA interactions.",
+  "abstract_zh": "RNA分子能够形成稳定的二级和三级结构，这对于介导与其他伙伴（如RNA结合蛋白 (RNA binding proteins, RBPs)）的物理相互作用以及执行其细胞功能至关重要。体内和体外实验，如RNAcompete和eCLIP，已揭示了RBPs对RNA寡聚体的体外结合偏好以及细胞内的体内结合位点。对这些结合数据的分析表明，这些结合位点中RNA的结构特性是结合事件的重要决定因素；然而，将结构信息整合到一个可解释的模型中一直是一个挑战。在此，我们描述了一种新方法，RNANetMotif，它将以RBP结合的数千条RNA序列的预测二级结构作为输入，并利用图论方法识别富集子图。这些富集子图本质上是RBP-RNA结合中重要的共享序列-结构元件。为验证我们的方法，我们通过离散分子动力学折叠模拟对选定的4种RBPs进行了RNA结构建模，并对LIN28进行了RNA-蛋白质对接。模拟结果，如溶剂可及性和能量学，进一步支持了所发现网络子图的生物学相关性。作者摘要 RNA结合蛋白 (RNA binding proteins, RBPs) 调控RNA生物学的各个方面，包括剪接、翻译、运输和降解。诸如eCLIP等高通量技术已识别出给定RBP在整个基因组中的数千个结合位点。早期研究表明，除了核苷酸序列外，RNA的结构和构象在RBP-RNA相互作用中也发挥重要作用。类似于蛋白质-蛋白质相互作用或蛋白质-DNA相互作用，这些RNA中可能存在固有的序列-结构基序，这些基序决定了它们对特定RBPs的结合特异性。已知RNA会形成能量上有利的二级结构，这些结构可以表示为图，其中核苷酸为节点，骨架共价键和碱基配对氢键为边。我们假设这些图可以通过图论方法进行挖掘，以识别作为富集子图的序列-结构基序。在本文中，我们详细描述了这种方法，称为RNANetMotif，以及相关的新概念，即EKS (Extended K-mer Subgraphs) 和GraphK图搜索算法。为测试我们方法的实用性，我们通过分子动力学 (molecular dynamics, MD) 折叠模拟对选定的RNA序列进行了3D结构建模，并通过比较所发现RNA基序的空间暴露度与RNA上其他区域来评估其显著性。我们相信，这种方法具有创新性，将RNA序列视为图，将RBP结合位点视为富集子图，其应用范围超越了RBP-RNA相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.09.15.460452",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.09.15.460452",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.09.15.460452/index.html"
+}

@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "41800992",
+    "doi": "10.5603/gpl.108200",
+    "title": "Integrative in vitro and digital twin in silico evaluation of selected natural compounds' proapoptotic and antiproliferative effects on gynecological cancer cells."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: Gynecological cancers remain a major health challenge. Natural phenolics such as caffeic acid (CA) and its derivative caffeic acid phenethyl ester (CAPE) have been investigated for anticancer potential, but their comparative effects are not fully established. This study evaluated the anticancer activity of CA and CAPE in vitro, focusing on cytotoxicity (MTT) and modulation of NF-kappaB, p53, and caspase-7 pathways in PA-1 cells, complemented by in silico digital twin simulations in HeLa cells. MATERIAL AND METHODS: PA-1 cells were treated with CA or CAPE (0-200 microM) for 24 h and 48 h. Mallory's trichrome staining assessed cell morphology. Viability was measured by MTT assay, while NF-kappaB, p53, and caspase-7 levels were quantified by ELISA (mean +/- SD). IC(5)(0) values were determined using four-parameter logistic regression. Statistical significance was analysed with Friedman ANOVA (p < 0.05). In parallel, an ODE-based digital twin model simulated dose-dependent cytotoxicity and pathway activation in HeLa cells. RESULTS: Both CA and CAPE reduced PA-1 viability in a dose- and time-dependent manner, with CAPE exerting stronger effects. CA produced prolonged NF-kappaB activation, modest p53 elevation, and moderate caspase-7 induction. CAPE caused transient NF-kappaB activation followed by suppression, robust p53 upregulation, and marked caspase-7 induction, reflecting enhanced apoptosis. Digital twin simulations reproduced these dynamics, reinforcing CAPE's stronger pro-apoptotic profile. CONCLUSIONS: CA and CAPE both show anticancer activity, with CAPE demonstrating greater efficacy. Integration of in vitro assays with digital twin simulations strengthens mechanistic interpretation and highlights CAPE as a promising anticancer candidate.",
+    "keywords": [
+      "apoptosis",
+      "caffeic acid",
+      "caffeic acid phenethyl ester (CAPE)",
+      "cell signalling pathways",
+      "digital twin",
+      "gynecological cancer cells"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Caffeic Acids/pharmacology",
+      "*Phenylethyl Alcohol/analogs & derivatives/pharmacology",
+      "*Apoptosis/drug effects",
+      "*Cell Proliferation/drug effects",
+      "HeLa Cells",
+      "NF-kappa B/metabolism/drug effects",
+      "Tumor Suppressor Protein p53/metabolism/drug effects",
+      "*Genital Neoplasms, Female/drug therapy/metabolism/pathology",
+      "Caspase 7/metabolism/drug effects",
+      "Computer Simulation",
+      "Cell Survival/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dzik, Radoslaw",
+        "Kleczka, Anna",
+        "Bregula, Agnieszka",
+        "Chwal, Joanna",
+        "Kabala-Dzik, Agata"
+      ],
+      "short_names": [
+        "Dzik R",
+        "Kleczka A",
+        "Bregula A",
+        "Chwal J",
+        "Kabala-Dzik A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6289-7234",
+        "ORCID: 0000-0002-4903-8179",
+        "ORCID: 0009-0000-9363-4595",
+        "ORCID: 0000-0002-3575-8159"
+      ],
+      "affiliations": [
+        "Department of Clinical Engineering, Academy of Silesia, Katowice, Poland. radoslaw.dzik@akademiaslaska.pl.",
+        "Department of Pathology, Faculty of Pharmaceutical Sciences in Sosnowiec, Medical University of Silesia in Katowice, Sosnowiec, Poland.",
+        "Department of Pathology, Faculty of Pharmaceutical Sciences in Sosnowiec, Medical University of Silesia in Katowice, Sosnowiec, Poland.",
+        "Department of Clinical Engineering, Academy of Silesia, Katowice, Poland.",
+        "Department of Pathology, Faculty of Pharmaceutical Sciences in Sosnowiec, Medical University of Silesia in Katowice, Sosnowiec, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dzik, Radoslaw",
+        "short_name": "Dzik R",
+        "identifiers": [
+          "0000-0002-6289-7234"
+        ],
+        "affiliations": [
+          "Department of Clinical Engineering, Academy of Silesia, Katowice, Poland. radoslaw.dzik@akademiaslaska.pl."
+        ]
+      },
+      {
+        "full_name": "Kleczka, Anna",
+        "short_name": "Kleczka A",
+        "identifiers": [
+          "0000-0002-4903-8179"
+        ],
+        "affiliations": [
+          "Department of Pathology, Faculty of Pharmaceutical Sciences in Sosnowiec, Medical University of Silesia in Katowice, Sosnowiec, Poland."
+        ]
+      },
+      {
+        "full_name": "Bregula, Agnieszka",
+        "short_name": "Bregula A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Faculty of Pharmaceutical Sciences in Sosnowiec, Medical University of Silesia in Katowice, Sosnowiec, Poland."
+        ]
+      },
+      {
+        "full_name": "Chwal, Joanna",
+        "short_name": "Chwal J",
+        "identifiers": [
+          "0009-0000-9363-4595"
+        ],
+        "affiliations": [
+          "Department of Clinical Engineering, Academy of Silesia, Katowice, Poland."
+        ]
+      },
+      {
+        "full_name": "Kabala-Dzik, Agata",
+        "short_name": "Kabala-Dzik A",
+        "identifiers": [
+          "0000-0002-3575-8159"
+        ],
+        "affiliations": [
+          "Department of Pathology, Faculty of Pharmaceutical Sciences in Sosnowiec, Medical University of Silesia in Katowice, Sosnowiec, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Ginekologia polska"
+    ],
+    "journal_abbrev": [
+      "Ginekol Pol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/09 13:42",
+    "fetched_at": "2026-10-01 15:58:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41800992",
+      "41752401",
+      "31118570",
+      "26184141",
+      "25790528",
+      "29048370",
+      "40409368",
+      "16247412",
+      "38821617",
+      "28790461",
+      "28950845",
+      "11429785",
+      "42113350",
+      "10686520",
+      "18470517",
+      "14599484",
+      "28926932",
+      "32752091",
+      "24289642",
+      "38523543",
+      "42345165",
+      "14625298",
+      "18824880",
+      "15039450",
+      "14637186",
+      "40155042",
+      "17889719",
+      "39477300",
+      "15291876",
+      "30246565",
+      "19358267",
+      "18090157",
+      "30465316",
+      "19681045",
+      "29710481",
+      "25788262",
+      "42280181",
+      "32634439",
+      "19610061",
+      "14981925",
+      "39729481",
+      "42278548",
+      "30991851",
+      "20059479",
+      "24960186",
+      "23615471",
+      "11714876",
+      "23847086",
+      "37570782",
+      "21570765",
+      "17204746",
+      "41482872",
+      "34864499",
+      "23229564",
+      "32033066",
+      "24920235",
+      "26373299",
+      "39125618",
+      "28937872",
+      "32445454",
+      "38000688",
+      "27260301",
+      "27832944",
+      "21986482",
+      "37496252",
+      "16172905",
+      "28965045",
+      "14617683",
+      "29636600",
+      "25206290",
+      "29390900",
+      "41486183",
+      "41151874",
+      "15522912",
+      "21537887",
+      "32377719",
+      "31930126",
+      "30037569",
+      "26007182",
+      "21243583",
+      "35040047",
+      "31059064",
+      "29957360",
+      "33807391",
+      "28167973",
+      "18060475",
+      "17852432",
+      "29220696",
+      "31475327",
+      "16937493",
+      "23497083",
+      "40907916",
+      "16253780",
+      "22690111",
+      "8799159",
+      "38111127",
+      "42045773",
+      "27348457",
+      "29766825",
+      "15304968"
+    ],
+    "review": [
+      "41800992"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://journals.viamedica.pl/ginekologia_polska/article/view/108200",
+        "provider": "Via Medica Medical Publishers",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

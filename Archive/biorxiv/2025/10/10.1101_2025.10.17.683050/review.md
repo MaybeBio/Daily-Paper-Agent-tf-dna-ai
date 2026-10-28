@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, methods, results, discussion, conclusion, supplementary information references)
+- **Assessment boundary** Scientific content, methodological soundness, evidence quality, and claims as presented in the provided manuscript text. No external validation performed.
+- **Shared manuscript claim summary** The authors present Lambda-ABF-OPES, an enhanced-sampling alchemical free-energy method combined with the polarizable AMOEBA force field, and apply it to five protein–ligand complexes. They claim that this approach enables spontaneous binding-site water reorganization during ligand decoupling without explicit water-based collective variables, yielding absolute binding free energies in good agreement with experiment and reproducible results.
+- **Visible evidence base** Main text figures referenced (Figs. 1–10), Tables 1–2, Supplementary Figures S1–S63, Supplementary Tables S1–S4, source data availability statements, code repository links
+- **Missing materials affecting confidence** The full Supplementary Information PDF was not provided. Figures and tables referenced in the text were not directly viewable. Numerical source data files were not inspected. Simulation input files and code were not independently run or verified.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely problem in alchemical free-energy calculations: the adequate sampling of binding-site water reorganization during ligand decoupling. The methodological combination of Lambda-ABF-OPES with a polarizable force field is well motivated, and the five test systems are appropriately chosen to span different hydration regimes. The central claim, that water reorganization can emerge spontaneously from dynamic alchemical sampling without explicit water-based collective variables, is plausible and supported by the presented analyses. However, the strength of the evidence is limited by the absence of the full Supplementary Information in the review package, which prevents full verification of convergence criteria, control calculations, and methodological details. The quantitative agreement with experiment is good but based on a small number of systems, and the manuscript would benefit from clearer statements about the limitations of the approach and the conditions under which it may fail.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists working on free-energy calculations, particularly those developing or applying alchemical methods for binding affinity prediction. Researchers interested in the role of water in molecular recognition, and practitioners using polarizable force fields, will find the methodological advances and the analysis of hydration dynamics relevant. The work may also interest experimentalists seeking to understand the structural and thermodynamic role of water in protein–ligand complexes.
+- **Major strengths** 1. The methodological combination of Lambda-ABF-OPES with a polarizable force field is novel and well justified. 2. The choice of five diverse test systems spanning different hydration regimes strengthens the generality of the conclusions. 3. The detailed analysis of site-specific hydration dynamics, distinguishing site occupation, molecular identity, and bridge geometry, is rigorous and insightful. 4. The authors are appropriately cautious about the scope of their claims, acknowledging that water-specific collective variables may still be needed in some systems. 5. The work addresses a known limitation in alchemical free-energy calculations and provides a practical solution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that the approach yields "reproducible absolute binding free energies" and that convergence was achieved within "tens of nanoseconds per independent replicate."
+  - **Evidence pointer** Table 2, Figs. S9–S11, S37–S38, S47–S48, S58–S59; location not provided in the supplied text
+  - **Concern** The convergence criteria and the quantitative assessment of reproducibility are not described in sufficient detail in the main text. The claim of reproducibility rests on three independent replicates, but the manuscript does not specify the statistical measures used to assess convergence (e.g., block averaging, autocorrelation analysis, or free-energy uncertainty estimates). The Supplementary Figures referenced for convergence are not available for inspection in this review package.
+  - **Why it matters** Reproducibility and convergence are central to the validity of any free-energy calculation. Without a clear description of the convergence criteria and the uncertainty estimates, the reader cannot assess whether the reported agreement with experiment is meaningful or fortuitous.
+  - **Resolution test** Provide a detailed description of the convergence assessment methodology in the main text or Methods, including the specific diagnostics used. Report the uncertainty on each free-energy component and on the final binding free energy. Make the convergence plots available for inspection.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The manuscript claims that the DBC restraint, combined with Lambda-ABF-OPES, allows water reorganization to emerge without explicit water-based collective variables, and that this is sufficient for the five test systems.
+  - **Evidence pointer** Methods section "Design of the Distance-to-Bound-Configuration Collective Variable", Figs. S26–S31; location not provided in the supplied text
+  - **Concern** The control calculations examining the relative contributions of the sampling components (ABF, OPES, multiple walkers) are only referenced in the Supplementary Information. The main text does not describe what these controls show or how they support the claim that the enhanced sampling, rather than the force field or the restraint, is responsible for the observed water reorganization. Without this information, it is difficult to attribute the success of the method to the specific methodological choices.
+  - **Why it matters** The central methodological claim is that the enhanced-sampling framework enables water reorganization. If the observed hydration dynamics are primarily due to the polarizable force field or the restraint design, the novelty of the approach would be diminished.
+  - **Resolution test** Summarize the key findings of the control calculations in the main text, including what each control tests and what it shows. If the controls demonstrate that the enhanced sampling is essential, state this explicitly. If the controls show that the force field or restraint is the dominant factor, discuss the implications for the method's general applicability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The manuscript states that the approach is applicable to "buried and semi-buried complexes for which hydration is strongly coupled to ligand decoupling," but also acknowledges that "additional orthogonal sampling may remain required when solvent accessibility is controlled by slow protein conformational gating."
+  - **Evidence pointer** Conclusion and Perspectives; location not provided in the supplied text
+  - **Concern** The manuscript does not provide criteria for predicting when the method will succeed or fail. The five test systems are all relatively small, rigid binding sites with well-defined hydration. It is unclear how the method would perform for larger, more flexible binding sites, or for systems where water entry requires significant protein conformational changes. The authors acknowledge this limitation but do not offer practical guidance for practitioners.
+  - **Why it matters** The utility of a new method depends on the clarity of its applicability domain. Without guidance on when the method is likely to fail, practitioners may apply it inappropriately and obtain misleading results.
+  - **Resolution test** Add a discussion section that outlines the expected limitations of the approach, including the types of systems where it is likely to succeed and where it is likely to fail. Provide practical recommendations for assessing whether the method is appropriate for a given system.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical power
+  - **Claim pointer** The manuscript reports binding free energies for five complexes and compares them with experimental values, claiming "good agreement with experiment."
+  - **Evidence pointer** Table 2; location not provided in the supplied text
+  - **Concern** The number of test systems is small (n = 5), and the experimental uncertainties are not reported. The agreement with experiment is presented as a validation of the method, but with only five systems, the statistical significance of this agreement is limited. Additionally, the manuscript does not report the experimental uncertainty on the measured binding affinities, which is necessary to assess whether the calculated values are within the expected error.
+  - **Why it matters** A method that performs well on five systems may not generalize. The absence of experimental uncertainties makes it difficult to assess the quality of the agreement.
+  - **Resolution test** Report the experimental uncertainties for each binding affinity. Discuss the limitations of the small test set and consider whether additional validation on a larger, more diverse set of systems is needed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Molecular Dynamics Protocol"
+  - **Evidence pointer** Methods section; location not provided in the supplied text
+  - **Issue** The description of the simulation setup is brief. The equilibration protocol, the length of the conventional MD simulations, and the specific parameters used for the Lambda-ABF-OPES calculations (e.g., the number of λ windows, the frequency of bias updates) are not described in the main text.
+  - **Required correction** Provide a more detailed description of the simulation protocol in the Methods section, or refer the reader to the Supplementary Information for the full protocol.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results, "5I1Q: Semi-buried Ligand Binding"
+  - **Evidence pointer** Fig. 3, Fig. 4; location not provided in the supplied text
+  - **Issue** The distinction between "site occupation," "molecular identity," and "bridge geometry" is introduced in the text but the figures are not available for inspection. The reader cannot verify the visual evidence for the claims made about the W1 and W2 sites.
+  - **Required correction** Ensure that the figures clearly illustrate the three distinct properties and that the figure captions define the relevant quantities.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results, "1I05: Buried Ligand Binding"
+  - **Evidence pointer** Fig. 8; location not provided in the supplied text
+  - **Issue** The term "dipole moment" is used for water molecules and for correlations with protein residues. It would be helpful to clarify whether these are instantaneous dipole moments computed from the simulation trajectory and how they are averaged.
+  - **Required correction** Define the dipole moment calculation in the Methods section and specify the averaging procedure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Data availability section; location not provided in the supplied text
+  - **Issue** The data availability statement provides links to repositories, but the specific contents of the Zenodo repository are not described in detail. It is unclear whether all input files, starting structures, and analysis scripts are included.
+  - **Required correction** Provide a more detailed description of the repository contents, including a file manifest or directory structure.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, "Remaining Complexes"
+  - **Evidence pointer** Figs. S33–S41; location not provided in the supplied text
+  - **Issue** The discussion of the BRD9 complex is brief. The claim that the hydration sites "exhibited pronounced dynamism" is not quantified, and the comparison with the TAF1(2) complex is qualitative.
+  - **Required correction** Provide quantitative measures of hydration dynamics (e.g., residence times, occupancy fluctuations) to support the qualitative description.
+- **Technical failings that need to be addressed before the case is established** 1. The convergence criteria and uncertainty estimates for the free-energy calculations are not described in sufficient detail (R1-M1). 2. The control calculations supporting the methodological claims are not summarized in the main text (R1-M2). 3. The experimental uncertainties on the binding affinities are not reported (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The combination of Lambda-ABF-OPES with a polarizable force field for the specific purpose of sampling water reorganization is novel and represents a meaningful advance over existing approaches. Scientific importance: The problem of water-mediated interactions in binding free-energy calculations is of broad importance, and the demonstration that water reorganization can be sampled without explicit water collective variables has practical implications. Interdisciplinary readership: The work is primarily of interest to computational chemists and biophysicists; the broader biological significance is less emphasized. Technical soundness: The methodology is sound in principle, but the evidence base is incomplete in the review package, particularly regarding convergence and control calculations. Readability for nonspecialists: The manuscript is clearly written but assumes familiarity with alchemical free-energy methods and enhanced-sampling techniques; the abstract is accessible, but the main text is technical.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core methodological advance is promising and the results are encouraging, but the manuscript requires additional detail on convergence, control calculations, and experimental uncertainties before the claims can be fully assessed.
+
+## Risk / unsupported claims
+- The claim that the approach yields "reproducible absolute binding free energies" is not fully supported without a detailed description of the convergence criteria and uncertainty estimates.
+- The claim that water reorganization emerges from the enhanced-sampling framework, rather than from the force field or restraint design, is not fully supported without a summary of the control calculations.
+- The claim of "good agreement with experiment" is based on five systems without reported experimental uncertainties, limiting the strength of this conclusion.
+- The statement that the framework is applicable to "buried and semi-buried complexes" is supported by the test systems, but the boundaries of applicability are not clearly defined.

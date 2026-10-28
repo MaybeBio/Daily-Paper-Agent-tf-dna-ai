@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "35197482",
+    "doi": "10.1038/s41540-022-00218-9",
+    "title": "Deep neural network prediction of genome-wide transcriptome signatures - beyond the Black-box."
+  },
+  "content": {
+    "abstract": "Prediction algorithms for protein or gene structures, including transcription factor binding from sequence information, have been transformative in understanding gene regulation. Here we ask whether human transcriptomic profiles can be predicted solely from the expression of transcription factors (TFs). We find that the expression of 1600 TFs can explain >95% of the variance in 25,000 genes. Using the light-up technique to inspect the trained NN, we find an over-representation of known TF-gene regulations. Furthermore, the learned prediction network has a hierarchical organization. A smaller set of around 125 core TFs could explain close to 80% of the variance. Interestingly, reducing the number of TFs below 500 induces a rapid decline in prediction performance. Next, we evaluated the prediction model using transcriptional data from 22 human diseases. The TFs were sufficient to predict the dysregulation of the target genes (rho = 0.61, P < 10(-216)). By inspecting the model, key causative TFs could be extracted for subsequent validation using disease-associated genetic variants. We demonstrate a methodology for constructing an interpretable neural network predictor, where analyses of the predictors identified key TFs that were inducing transcriptional changes during disease.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Genome",
+      "Humans",
+      "Neural Networks, Computer",
+      "Protein Binding",
+      "Transcription Factors/genetics/metabolism",
+      "*Transcriptome/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Magnusson, Rasmus",
+        "Tegner, Jesper N",
+        "Gustafsson, Mika"
+      ],
+      "short_names": [
+        "Magnusson R",
+        "Tegner JN",
+        "Gustafsson M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9395-6025",
+        "ORCID: 0000-0002-9568-5588",
+        "ORCID: 0000-0002-0048-4063"
+      ],
+      "affiliations": [
+        "Bioinformatics, Department of Physics, Chemistry and Biology, Linkoping University, Linkoping, Sweden. rasmus.magnusson@his.se.",
+        "School of Bioscience, Systems Biology Research Center, University of Skovde, Skovde, Sweden. rasmus.magnusson@his.se.",
+        "Biological and Environmental Sciences and Engineering Division, Computer, Electrical and Mathematical Sciences and Engineering Division, King Abdullah University of Science and Technology (KAUST), Thuwal, 23955-6900, Saudi Arabia.",
+        "Unit of Computational Medicine, Department of Medicine, Solna, Center for Molecular Medicine, Karolinska Institutet, Stockholm, Sweden.",
+        "Science for Life Laboratory, Solna, Sweden.",
+        "Bioinformatics, Department of Physics, Chemistry and Biology, Linkoping University, Linkoping, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Magnusson, Rasmus",
+        "short_name": "Magnusson R",
+        "identifiers": [
+          "0000-0001-9395-6025"
+        ],
+        "affiliations": [
+          "Bioinformatics, Department of Physics, Chemistry and Biology, Linköping University, Linköping, Sweden. rasmus.magnusson@his.se.",
+          "School of Bioscience, Systems Biology Research Center, University of Skövde, Skövde, Sweden. rasmus.magnusson@his.se."
+        ]
+      },
+      {
+        "full_name": "Tegnér, Jesper N",
+        "short_name": "Tegnér JN",
+        "identifiers": [
+          "0000-0002-9568-5588"
+        ],
+        "affiliations": [
+          "Biological and Environmental Sciences and Engineering Division, Computer, Electrical and Mathematical Sciences and Engineering Division, King Abdullah University of Science and Technology (KAUST), Thuwal, 23955-6900, Saudi Arabia.",
+          "Unit of Computational Medicine, Department of Medicine, Solna, Center for Molecular Medicine, Karolinska Institutet, Stockholm, Sweden.",
+          "Science for Life Laboratory, Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Gustafsson, Mika",
+        "short_name": "Gustafsson M",
+        "identifiers": [
+          "0000-0002-0048-4063"
+        ],
+        "affiliations": [
+          "Bioinformatics, Department of Physics, Chemistry and Biology, Linköping University, Linköping, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NPJ systems biology and applications"
+    ],
+    "journal_abbrev": [
+      "NPJ Syst Biol Appl"
+    ],
+    "pub_date": "2022 Feb 23",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/25 06:00",
+    "fetched_at": "2026-09-28 05:37:21"
+  },
+  "links": {
+    "cites": [
+      "41934611",
+      "41673021",
+      "40785706",
+      "40505083",
+      "39568475",
+      "39375864",
+      "39293804",
+      "39281750",
+      "39005295",
+      "37752080",
+      "37326971",
+      "37260876",
+      "36626392",
+      "36301716"
+    ],
+    "refs": [
+      "33712626",
+      "33289324",
+      "33262328",
+      "32945258",
+      "32839493",
+      "32671330",
+      "32433972",
+      "32415966",
+      "32363401",
+      "32258429",
+      "32051402",
+      "31927423",
+      "31904818",
+      "31665515",
+      "31665499",
+      "31605096",
+      "31340985",
+      "30677040",
+      "30617339",
+      "30445434",
+      "29906441",
+      "29887378",
+      "29636450",
+      "29425488",
+      "29195078",
+      "28686866",
+      "28398307",
+      "27924018",
+      "26813401",
+      "26780608",
+      "26690135",
+      "26424082",
+      "26301843",
+      "26213851",
+      "26066708",
+      "24401939",
+      "23715323",
+      "22796662",
+      "22460905",
+      "19880382",
+      "18191937",
+      "17148475"
+    ],
+    "similar": [
+      "35197482",
+      "33372147",
+      "28750606",
+      "18426580",
+      "20942926",
+      "31336830",
+      "32770026",
+      "34962264",
+      "32858223",
+      "14555624",
+      "29325558",
+      "19956545",
+      "34864886",
+      "24039560",
+      "27780826",
+      "25855217",
+      "34534646",
+      "38941464",
+      "22647244",
+      "31995498",
+      "24006872",
+      "19690563",
+      "33517372",
+      "29178828",
+      "23272209",
+      "18586698",
+      "22784627",
+      "21668997",
+      "29588420",
+      "27723775",
+      "25722376",
+      "21172055",
+      "25559499",
+      "28439033",
+      "22849367",
+      "25918418",
+      "26678747",
+      "31380773",
+      "21690103",
+      "23475160",
+      "34830338",
+      "24349230",
+      "21729923",
+      "14627835",
+      "25811458",
+      "27579918",
+      "34272562",
+      "16934159",
+      "30844478",
+      "27681103",
+      "28882572",
+      "33974299",
+      "24564277",
+      "30359306",
+      "29769331",
+      "20840729",
+      "17973026",
+      "23497388",
+      "17598888",
+      "23246694",
+      "24564526",
+      "16766556",
+      "27104786",
+      "22824421",
+      "28822748",
+      "22898448",
+      "19657679",
+      "19372274",
+      "18713790",
+      "24477691",
+      "33631799",
+      "18221524",
+      "36243974",
+      "21342583",
+      "21058951",
+      "18564415",
+      "27857060",
+      "25336442",
+      "26291518",
+      "21557082",
+      "23636944",
+      "27879476",
+      "31875420",
+      "32183354",
+      "21483898",
+      "31773180",
+      "28596516",
+      "22898356",
+      "22189060",
+      "32822422",
+      "22456606",
+      "29186304",
+      "25707768",
+      "22917900"
+    ],
+    "review": [
+      "35197482",
+      "27579918",
+      "20840729",
+      "21557082"
+    ],
+    "pmc": [
+      "8866467"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41540-022-00218-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35197482/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35197482",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://liu.diva-portal.org/smash/get/diva2:1643530/FULLTEXT01.pdf",
+        "provider": "Linkoping University Electronic Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

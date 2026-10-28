@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.02.697429",
+  "title": "CholBindNet: Interpretable Neural Networks for Cholesterol Binding Site Prediction",
+  "authors": "Alexis Hernandez; Aashish Bhatt; Ivan Revilla; Jacob Ede Levine; Sai Chandra Kosaraju; Yun Lyan Luo",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-02",
+  "window": {
+    "start": "2025-12-29",
+    "end": "2026-01-04"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习预测膜蛋白胆固醇结合位点，虽涉及配体-蛋白互作建模，但对象为胆固醇而非蛋白质-DNA，且无TF-DNA结合机制，仅方法可部分借鉴。",
+  "abstract": "Cholesterol is a key modulator of membrane protein structure and function, yet predicting cholesterol binding sites remains challenging due to its undrug-like physicochemical properties. Here, we curated more than 800 high-resolution transmembrane protein structures containing cholesterol and developed an interpretable, atom-based deep-learning framework, CholBindNet, comprising four model architectures: a 3D convolutional neural network, a graph neural network, a graph attention network, and a graph convolutional network. A Positive–Unlabeled (PU) training strategy was employed to address the scarcity of true negative samples resulting from the promiscuous nature of cholesterol binding. We show that CholBindNet substantially outperforms existing deep-learning models trained on general ligand-binding datasets. The performance and generalizability of the model were further demonstrated by rapidly assessing strong, median, and weak cholesterol-binding sites in the PIEZO2 ion channel in excellent agreement with computationally expensive all-atom molecular dynamics (MD) simulations. Additionally, strong model interpretability was achieved for CholBindNet through atom-level feature encoding, Grad-CAM visualization, and attention-based scoring analysis. Overall, CholBindNet provides an efficient and scalable approach for predicting cholesterol binding sites on membrane proteins, achieving performance comparable to MD simulations while offering mechanistic biophysical insights beyond amino-acid sequence. This work hence lays the foundation for future development of deep-learning models targeting membrane protein drug-binding sites and cholesterol-modulated therapeutics. Significance Statement Deep-learning models for ligand-binding prediction have advanced rapidly, yet those trained on soluble proteins perform poorly for membrane proteins, particularly for cholesterol binding. We introduce CholBindNet, a set of neural network models specifically designed to identify cholesterol-binding sites in transmembrane proteins. CholBindNet substantially outperforms existing deep-learning approaches and accurately ranks strong, intermediate, and weak cholesterol-binding sites in close agreement with computationally intensive all-atom molecular dynamics simulations. This work provides a practical and scalable alternative to long-timescale simulations for studying cholesterol–protein interactions. The curated cholesterol benchmark and open-source models will enable broader adoption of deep learning for investigating lipid regulation of membrane proteins and for guiding the design of drugs targeting membrane-embedded binding sites.",
+  "abstract_zh": "胆固醇是膜蛋白结构和功能的关键调节因子，然而，由于其非药物样理化性质，预测胆固醇结合位点仍具挑战性。在此，我们整理了超过800个含胆固醇的高分辨率跨膜蛋白结构，并开发了一种可解释的、基于原子的深度学习框架CholBindNet，包含四种模型架构：三维卷积神经网络、图神经网络、图注意力网络和图卷积网络。采用正-未标记（Positive–Unlabeled, PU）训练策略，以应对因胆固醇结合混杂性导致的真实负样本稀缺问题。我们表明，CholBindNet显著优于在通用配体结合数据集上训练的现有深度学习模型。通过快速评估PIEZO2离子通道中的强、中、弱胆固醇结合位点，模型的性能和泛化能力得到进一步验证，其结果与计算成本高昂的全原子分子动力学（molecular dynamics, MD）模拟高度一致。此外，CholBindNet通过原子级特征编码、Grad-CAM可视化和基于注意力的评分分析，实现了强模型可解释性。总体而言，CholBindNet为预测膜蛋白上的胆固醇结合位点提供了一种高效且可扩展的方法，其性能可与MD模拟相媲美，同时提供超越氨基酸序列的机制性生物物理见解。因此，这项工作为未来针对膜蛋白药物结合位点和胆固醇调节疗法的深度学习模型开发奠定了基础。\n\n意义声明 用于配体结合预测的深度学习模型进展迅速，但那些在可溶性蛋白上训练的模型对膜蛋白表现不佳，尤其是对胆固醇结合。我们引入了CholBindNet，这是一组专门用于识别跨膜蛋白中胆固醇结合位点的神经网络模型。CholBindNet显著优于现有深度学习方法，并能准确排序强、中、弱胆固醇结合位点，与计算密集的全原子分子动力学模拟结果高度一致。这项工作为研究胆固醇-蛋白相互作用提供了一种实用且可扩展的替代长时程模拟的方法。所整理的胆固醇基准数据集和开源模型将促进深度学习在脂质调控膜蛋白研究及指导靶向膜嵌入结合位点药物设计中的更广泛应用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.02.697429",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.02.697429",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.02.697429/index.html"
+}

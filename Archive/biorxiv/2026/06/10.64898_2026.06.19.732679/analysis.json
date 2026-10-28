@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.06.19.732679",
+  "title": "Beyond statistical significance: ranking transcription factor binding motifs by effect size",
+  "authors": "Coby Viner; Scott Mastromatteo; Danielle Denisko; Jeffrey Negrea; Yanbo Tang; Lin Zhang; Michael M. Hoffman; Lei Sun",
+  "journal": "bioRxiv",
+  "published_date": "2026-06-24",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出基于效应量而非p值对ChIP-seq中TF结合基序富集进行排序的统计方法，虽涉及TF-DNA结合位点识别，但缺乏AI或物理模拟建模，方法深度不足。",
+  "abstract": "Chromatin immunoprecipitation-sequencing (ChIP-seq) has wide use in identifying transcription factor binding sites. DNA sequence motifs specific to a targeted transcription factor occur more frequently near ChIP-seq peak centres. The most common approach to quantifying relative motif enrichment ranks motifs by p-value. Because sample sizes can vary substantially across examined motifs, p-value magnitudes may reflect this heterogeneity rather than the biological effect of interest. As alternatives, we considered four ranking methods based on effect sizes: (a) a modified Cliff’s delta, (b) the lower bound of a frequentist asymptotic confidence interval, (c) the lower bound of a frequentist finite-sample confidence interval, and (d) the lower bound of a Bayesian credible region. Through extensive simulations, the four alternatives better recovered the simulated central-enrichment ordering under heterogeneous sample sizes. Using published ChIP-seq data for GATA3, the effect size methods ranked the known targeted motif highest, even compared to highly similar motifs for other GATA family members, while p-value ranking did not. In a separate SRF application, all four alternative methods also consistently ranked the known motif highest. We recommend the asymptotic confidence interval lower bound for its simplicity, ease of implementation, and intuitive interpretation. The software is freely available ( https://github.com/ScottMastro/motif-ranking ).",
+  "abstract_zh": "染色质免疫沉淀测序（ChIP-seq）广泛用于识别转录因子结合位点。针对目标转录因子的DNA序列基序在ChIP-seq峰中心附近出现频率更高。量化相对基序富集的最常见方法是通过p值对基序进行排序。由于所检查的基序之间样本量可能差异显著，p值的大小可能反映这种异质性，而非所关注的生物学效应。作为替代方案，我们考虑了四种基于效应量的排序方法：（a）修正的Cliff's delta，（b）频率学派渐近置信区间的下界，（c）频率学派有限样本置信区间的下界，以及（d）贝叶斯可信区间的下界。通过广泛模拟，这四种替代方法在异质性样本量下更好地恢复了模拟的中心富集排序。使用已发表的GATA3 ChIP-seq数据，效应量方法将已知目标基序排在最前，即使与其他GATA家族成员的相似基序相比也是如此，而p值排序则未做到。在另一项SRF应用中，所有四种替代方法也一致地将已知基序排在最前。我们推荐使用渐近置信区间下界，因其简单、易于实现且解释直观。该软件可免费获取（ https://github.com/ScottMastro/motif-ranking ）。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.06.19.732679",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.19.732679",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.06.19.732679/index.html"
+}

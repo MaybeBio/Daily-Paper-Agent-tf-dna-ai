@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) without figures or supplementary material
+- **Assessment boundary** Scientific soundness, methodological validity, claim support, and presentation quality based solely on the provided text
+- **Shared manuscript claim summary** The authors propose a structure-guided approach using AlphaFold 3 (AF3) and FoldX to evaluate noncoding single-nucleotide variants (SNVs) affecting transcription factor (TF) binding. They benchmark against SNP-SELEX data for six TFs and report that AF3's ipTM score aligns closely with experimental allele preferences, often outperforming energy-based metrics. They also apply the approach to clinically relevant variants and report recapitulation of most reported effects.
+- **Visible evidence base** Text descriptions of results, including references to Figures 1–5 and Supplementary Figures 1–11, and Supplementary Tables 1; methods descriptions for AF3 modelling, FoldX calculations, and statistical analyses
+- **Missing materials affecting confidence** All figures, supplementary figures, supplementary tables, and the deposited OSF dataset; specific numerical values for AUCs, correlations, and P-values; details of AF3 model confidence distributions; the deltaSVM model details and training data
+
+## Reviewer
+- **Overall assessment** This manuscript presents a timely and potentially useful proof-of-concept for applying structure-based methods to noncoding variant interpretation. The central observation that ΔipTM, a byproduct of AF3, correlates with experimentally measured allele preferences is interesting and could be of value to the community. However, the current text leaves several important questions unanswered. The performance heterogeneity across TFs is acknowledged but not mechanistically explained. The clinical variant analysis is qualitative and based on a small number of examples. The comparison to deltaSVM is presented but the implications are not fully discussed. The manuscript would be strengthened by a more quantitative treatment of the results, a clearer articulation of when structural methods add value over sequence-based methods, and a more thorough discussion of the limitations of using a single AF3 seed. The writing is generally clear, but some methodological details are missing or ambiguous.
+- **Who would be interested in the results, and why** Researchers working on noncoding variant interpretation, regulatory genomics, and TF biology would be the primary audience. The work may also interest computational structural biologists developing or applying AF3 to nucleic acid complexes, and clinical geneticists seeking interpretable tools for variant prioritization. The demonstration that a deep learning model's confidence score can reflect binding preferences without additional training is conceptually novel and could spur further work in this direction.
+- **Major strengths** The study addresses a clinically relevant and technically challenging problem. The use of SNP-SELEX data as a controlled benchmark is appropriate. The observation that ΔipTM performs well is interesting and potentially useful. The authors are transparent about performance heterogeneity and limitations. The clinical examples, while limited, provide a tangible demonstration of potential utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the structural metrics "recapitulate SNP-SELEX results to a high degree" and that ΔipTM "generally surpassed energy-based metrics" is central to the paper.
+  - **Evidence pointer** Results section, Figures 2 and 3, Supplementary Figures 5–8; specific AUC values and confidence intervals are referenced but not provided in the text.
+  - **Concern** The quantitative performance of the metrics is described qualitatively ("good agreement", "best overall performance", "weak") without reporting the actual numerical values. The AUCs, confidence intervals, and correlation coefficients are essential for the reader to assess the strength of the claims. The statement that ΔipTM "generally surpassed" energy-based metrics needs a direct comparison of performance across all TFs and metrics. Without these numbers, the central claims cannot be properly evaluated.
+  - **Why it matters** The core contribution of the paper is the comparative evaluation of structural metrics. Without quantitative results, the reader cannot judge whether the proposed approach is practically useful or only marginally better than chance. This is a blocking issue for establishing the case.
+  - **Resolution test** Provide a table or figure with the numerical values for AUC (ROC and PR) for each metric and each TF, including confidence intervals. Report the Spearman correlation coefficients between each metric and PBS. State clearly which comparisons are statistically significant and by what test.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / Claim support
+  - **Claim pointer** The claim that the approach can "recapitulate most reported effects" for clinically relevant variants.
+  - **Evidence pointer** Results section, Figure 5, Supplementary Table 1.
+  - **Concern** The clinical variant analysis is based on a small number of examples (six variants described in the text). The criteria for "recapitulation" are qualitative ("agreement in direction", "shifts comparable to those observed in SNP-SELEX distributions"). The thresholds for what constitutes a "strong enough signal" are not defined. This analysis is presented as a demonstration of utility, but the lack of a predefined, quantitative decision rule weakens the claim.
+  - **Why it matters** The translational potential of the approach is a key selling point. A qualitative analysis of a few examples is not sufficient to establish that the method can reliably identify disease-relevant variants. A more systematic approach with predefined criteria would be more convincing.
+  - **Resolution test** Define a priori criteria for what constitutes a correct prediction (e.g., all three metrics agree in direction and exceed a threshold based on the SNP-SELEX distribution). Apply these criteria to a larger set of validated variants. Report sensitivity and specificity, or at least a clear count of correct and incorrect predictions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the approach is "structure-guided" and provides "mechanistic insights" beyond sequence-based methods.
+  - **Evidence anchor** Discussion section; Results section, Figure 1b.
+  - **Concern** The mechanistic interpretation is largely based on visual inspection of predicted structures (e.g., "AF3 placed the TF away from the variant"). The paper does not provide a systematic analysis of the structural features that correlate with binding preference changes. The claim that structural modelling offers "mechanistic explanations" is plausible but not rigorously demonstrated. The observation that ΔipTM works well could be interpreted as the model having learned sequence preferences, rather than providing new structural insight.
+  - **Why it matters** The added value of the structural approach over sequence-based methods is a central argument. If the performance is driven by the same sequence information that deltaSVM uses, the structural framework may not offer a genuine advantage. The paper needs to demonstrate that the structural models provide information that is not accessible from sequence alone.
+  - **Resolution test** Provide a systematic analysis of the predicted structures for a subset of variants, identifying specific contacts or conformational changes that correlate with binding preference. Compare the performance of ΔipTM to a sequence-only baseline (e.g., a simple PWM or k-mer model) to show that the structural information adds predictive value.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The use of a single AF3 seed for structure prediction.
+  - **Evidence anchor** Materials and methods, "Data prioritization and structural complex model prediction"; Results, "AF3 tends to predict shifted TF-binding sites".
+  - **Concern** The authors use a single seed for AF3 predictions. Given the stochastic nature of deep learning-based structure prediction, it is unclear how robust the predicted structures and the derived metrics are to this choice. The paper acknowledges this in the Discussion but does not test the effect of seed variation on the results.
+  - **Why it matters** If the metrics are highly sensitive to the random seed, the approach may not be reproducible or reliable. The authors' own observation that AF3 can predict large binding-site shifts for a single nucleotide change suggests that the predictions may be noisy.
+  - **Resolution test** Run AF3 with multiple seeds (e.g., 5–10) for a subset of variants and assess the variability of the predicted structures and the derived metrics. Report the variance and show that the main conclusions are robust to seed choice.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction assume familiarity with AF3, ipTM, and FoldX. A brief explanation of what these tools are and why they are relevant would make the work more accessible to a broader readership, including clinical geneticists who may not be structural biologists.
+  - **Required correction** Add one or two sentences in the Introduction explaining AF3, ipTM, and FoldX in plain terms.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Derivation of structural preference metrics"
+  - **Evidence pointer** Materials and methods, "Derivation of structural preference metrics"
+  - **Issue** The description of the "symmetric" ΔΔG calculation is unclear. The text says it is the "mean of both the forward and reverse DNA mutations" but does not explain why this is necessary or how it differs from a simple ΔΔG calculation.
+  - **Required correction** Clarify the rationale for using a symmetric ΔΔG and define the equation more explicitly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Statistical analysis"
+  - **Evidence pointer** Materials and methods, "Statistical analysis"
+  - **Issue** The text states that "pbSNPs with positive PBS values were denoted as showing reference allele preference, while those with negative PBS showed alternative allele preference." It is not clear how the structural metric directions were "adjusted to match this convention." This is important for interpreting the direction of the effects.
+  - **Required correction** Provide a clear description of how each metric was oriented with respect to the PBS sign convention.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The Discussion mentions that "a structural approach could complement existing sequence-based predictors" but does not provide a concrete example of how this complementarity would work in practice. A more specific proposal would strengthen the translational argument.
+  - **Required correction** Provide a concrete scenario where structural information would be expected to add value over sequence-based methods (e.g., for variants in poorly characterized TFs or in the context of cooperative binding).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "Structural metrics are better at identifying preference direction than differential binding"
+  - **Evidence pointer** Results, "Structural metrics are better at identifying preference direction than differential binding"
+  - **Issue** The distinction between "identifying preference direction" and "identifying differential binding" is not immediately clear. A brief explanation of why these are different tasks would help the reader.
+  - **Required correction** Add a sentence explaining that identifying differential binding is a binary classification (bound vs. not bound), while identifying preference direction is a ternary classification (reference preferred, alternative preferred, or no preference).
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative results (R1-M1) is the primary technical failing. The single-seed issue (R1-M4) is also important. The qualitative nature of the clinical variant analysis (R1-M2) needs to be addressed.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The application of AF3 to noncoding variant interpretation is novel and timely. The observation that ΔipTM can serve as a proxy for binding preference is a new finding. However, the conceptual framework (using structure to interpret variants) is not entirely new.
+  - **Scientific importance** The problem of noncoding variant interpretation is of high importance. If the approach can be shown to be robust and broadly applicable, it could be a valuable complement to existing methods. However, the current evidence is not sufficient to establish this.
+  - **Interdisciplinary readership** The work bridges structural biology, genomics, and clinical genetics. It should appeal to readers in all three fields, but the presentation needs to be accessible to each.
+  - **Technical soundness** The experimental design is reasonable, but the lack of quantitative reporting and the single-seed issue are significant weaknesses. The comparison to deltaSVM is appropriate but needs to be more thoroughly discussed.
+  - **Readability for nonspecialists** The writing is generally clear, but the abstract and introduction assume too much background knowledge. The methods section is detailed but some steps are ambiguous.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the preliminary results are promising, but the manuscript in its current form does not provide sufficient quantitative evidence to fully support the claims. The authors should provide the numerical results, address the seed variability issue, and strengthen the clinical variant analysis.
+
+## Risk / unsupported claims
+- The claim that the approach "recapitulates most reported effects" for clinical variants is not quantitatively supported.
+- The claim that structural modelling provides "mechanistic insights" beyond sequence-based methods is not rigorously demonstrated.
+- The claim that ΔipTM "generally surpassed" energy-based metrics is not supported by reported numbers.
+- The generalizability of the approach to TFs beyond the six tested is not established.
+- The practical utility of the approach for genome-scale variant interpretation is speculative.

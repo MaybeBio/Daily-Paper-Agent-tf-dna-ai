@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39661598",
+  "title": "A novel family of beta mixture models for the differential analysis of DNA methylation data: An application to prostate cancer.",
+  "authors": "Majumdar, Koyel; Silva, Romina; Perry, Antoinette Sabrina; Watson, Ronald William; Rau, Andrea; Jaffrezic, Florence; Murphy, Thomas Brendan; Gormley, Isobel Claire",
+  "journal": "PloS one",
+  "published_date": "2024-12-11",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 0,
+  "one_liner_zh": "该文提出beta混合模型用于DNA甲基化差异分析，属于纯统计建模与表观遗传学应用，不涉及蛋白质-DNA互作、转录因子结合或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Identifying differentially methylated cytosine-guanine dinucleotide (CpG) sites between benign and tumour samples can assist in understanding disease. However, differential analysis of bounded DNA methylation data often requires data transformation, reducing biological interpretability. To address this, a family of beta mixture models (BMMs) is proposed that (i) objectively infers methylation state thresholds and (ii) identifies differentially methylated CpG sites (DMCs) given untransformed, beta-valued methylation data. The BMMs achieve this through model-based clustering of CpG sites and by employing parameter constraints, facilitating application to different study settings. Inference proceeds via an expectation-maximisation algorithm, with an approximate maximization step providing tractability and computational feasibility. Performance of the BMMs is assessed through thorough simulation studies, and the BMMs are used for differential analyses of DNA methylation data from a prostate cancer study. Intuitive and biologically interpretable methylation state thresholds are inferred and DMCs are identified, including those related to genes such as GSTP1, RASSF1 and RARB, known for their role in prostate cancer development. Gene ontology analysis of the DMCs revealed significant enrichment in cancer-related pathways, demonstrating the utility of BMMs to reveal biologically relevant insights. An R package betaclust facilitates widespread use of BMMs.",
+  "abstract_zh": "识别良性样本与肿瘤样本之间差异甲基化的胞嘧啶-鸟嘌呤二核苷酸（CpG）位点有助于理解疾病。然而，对有界DNA甲基化数据的差异分析通常需要进行数据转换，这降低了生物学可解释性。为解决这一问题，提出了一族β混合模型（BMMs），其能够（i）客观推断甲基化状态阈值，并（ii）在未转换的β值甲基化数据中识别差异甲基化CpG位点（DMCs）。BMMs通过对CpG位点进行基于模型的聚类，并采用参数约束来实现这一目标，从而适用于不同的研究场景。推断过程通过期望最大化算法进行，其中近似最大化步骤提供了可处理性和计算可行性。BMMs的性能通过全面的模拟研究进行评估，并将BMMs用于前列腺癌研究中DNA甲基化数据的差异分析。推断出直观且具有生物学可解释性的甲基化状态阈值，并识别出DMCs，包括与GSTP1、RASSF1和RARB等基因相关的位点，这些基因已知在前列腺癌发展中发挥作用。对DMCs的基因本体分析显示其在癌症相关通路中显著富集，证明了BMMs在揭示生物学相关见解方面的实用性。R包betaclust促进了BMMs的广泛应用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39661598/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39661598/",
+  "paper_page_path": "papers/pubmed/39661598/index.html"
+}

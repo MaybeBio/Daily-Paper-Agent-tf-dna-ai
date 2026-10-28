@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, conclusions) as provided by the user. No supplementary figures or data files were supplied.
+- **Assessment boundary** The review is limited to the content of the provided manuscript text. Claims are assessed for internal consistency, methodological transparency, and alignment with the presented evidence. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors use atomistic molecular dynamics (MD) simulations and quantum mechanical (QM) calculations to investigate (i) the effects of four prostate cancer-linked point mutations (L575P, K581R, A587V, A588S) in the androgen receptor DNA-binding domain (AR-DBD) on protein structure, dynamics, and DNA interactions, and (ii) the impact of abasic DNA lesions within an androgen response element (ARE) on AR-DBD binding and dimerisation. They report that these mutations modulate AR activity through conformational changes that alter protein-protein and protein-DNA interfaces, and that abasic lesions, particularly an open-ring aldehyde form, enhance AR-DNA interactions and may form reversible covalent crosslinks with lysine residues (notably K610) via Schiff base formation, potentially contributing to castration-resistant prostate cancer (CRPC).
+- **Visible evidence base** The manuscript text includes descriptions of MD simulation results (RMSD, RMSF, hydrogen bond occupancies, interatomic distances), QM calculations (molecular orbitals from DFT), and references to figures (Figures 1–8) and supplementary figures (Figures S1, S2). No actual figure images, numerical data tables, or simulation parameter files were provided.
+- **Missing materials affecting confidence** The following were not provided: actual figure images or data files, detailed simulation input parameters (e.g., exact box sizes, ion concentrations beyond a general statement, equilibration protocols), force field validation for non-standard residues, convergence criteria for MD simulations, statistical analysis of replicates, and any experimental validation data. The absence of these materials limits the ability to fully assess the technical soundness and reproducibility of the findings.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question in prostate cancer research: how mutations in the AR-DBD and DNA lesions at AR binding sites may contribute to castration-resistant prostate cancer. The use of multiscale computational methods (MD and QM) is appropriate and potentially valuable. However, the manuscript has significant limitations in methodological transparency, quantitative reporting, and the strength of the conclusions drawn from the presented evidence. Several claims, particularly regarding the formation of covalent crosslinks and the mechanistic link to CRPC, are presented as strongly supported when the evidence is preliminary and indirect. The work is a useful hypothesis-generating study but does not currently establish a definitive mechanistic case.
+- **Who would be interested in the results, and why** Researchers in prostate cancer biology, particularly those studying AR signalling, drug resistance mechanisms, and the role of DNA damage and repair in cancer. Computational biochemists and structural biologists interested in protein-DNA interactions, allosteric regulation, and the application of MD and QM methods to disease-relevant systems would also find the work relevant. The potential implications for drug discovery targeting the AR-DBD could interest medicinal chemists.
+- **Major strengths**  
+  1. The study addresses a clinically significant and understudied area: the role of non-coding DNA mutations and abasic lesions in AR activation and CRPC.  
+  2. The combination of MD simulations and QM calculations provides a multiscale approach that is well-suited to the questions posed.  
+  3. The focus on specific, clinically observed mutations (L575P, K581R, A587V, A588S) and specific DNA lesions adds translational relevance.  
+  4. The authors identify a specific, testable hypothesis: that abasic lesions, particularly the open-ring aldehyde, may form covalent crosslinks with K610, which could be explored experimentally.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The authors claim that "our results strongly suggest that those abasic lesions may form reversible covalent crosslinks between DNA and lysine residues of an AR via a Schiff base."  
+    - **Evidence pointer** Section 2.3, Figure 8, Section 4.2  
+    - **Concern** The claim of covalent crosslink formation is based on (a) MD simulations showing non-covalent interactions between the open-ring aldehyde and K610, and (b) QM calculations of molecular orbitals. However, the QM calculations appear to be static optimisations of a truncated model system, not a simulation of the reaction pathway. No free energy barriers, transition states, or reaction kinetics were calculated. The MD simulations show proximity but not bond formation. The evidence is therefore insufficient to support the strong language of "strongly suggest" and "may form."  
+    - **Why it matters** The potential formation of covalent DNA-protein crosslinks is a central mechanistic claim with significant implications for understanding AR activation and CRPC. Overstating the evidence could mislead subsequent experimental efforts and the broader scientific community.  
+    - **Resolution test** The authors should either (a) provide QM calculations that explicitly model the Schiff base formation reaction, including energy barriers and thermodynamic feasibility, or (b) temper the claim to state that the simulations suggest a potential for crosslink formation that requires experimental validation.  
+  - **Concern ID** R1-M2  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The authors state that "the mutations modulate AR through conformational changes, altering both interfaces and increasing DNA interactions."  
+    - **Evidence pointer** Section 2.2, Figures 3–5  
+    - **Concern** The manuscript describes qualitative changes in structure and dynamics (e.g., "substantial conformational change," "lateral movement," "twisting movement") but provides no quantitative metrics to support these descriptions. No RMSD or RMSF values are reported in the text for the mutant systems, no hydrogen bond occupancy data are given, and no statistical comparison between wild-type and mutant simulations is presented. The claim that DNA interactions are "increased" is not supported by any numerical data.  
+    - **Why it matters** Without quantitative evidence, the reader cannot assess the magnitude or significance of the reported effects. The conclusions about how mutations alter AR function are therefore not rigorously established.  
+    - **Resolution test** The authors should provide quantitative data (e.g., average RMSD/RMSF values with standard deviations, hydrogen bond counts, interaction energies) for all systems, with appropriate statistical tests comparing mutants to wild-type.  
+  - **Concern ID** R1-M3  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Reproducibility  
+    - **Claim pointer** The methods section describes the simulation setup, but key parameters are missing.  
+    - **Evidence pointer** Section 4.1  
+    - **Concern** The methods lack critical details for reproducibility: the exact number of simulation replicates is stated as three, but the total simulation time per replicate is not clearly specified (the text mentions "microsecond timescale" in the abstract but the methods state 300 ns for dimer and dimer+DNA and 500 ns for monomer systems). The force field parameters for non-standard residues (abasic lesions) are stated to be generated using GAFF via ACPYPE, but no validation or reference for these parameters is provided. The criteria for convergence of the simulations are not described.  
+    - **Why it matters** Reproducibility is a cornerstone of scientific research. Without complete methodological details, other researchers cannot replicate the simulations or assess their validity.  
+    - **Resolution test** The authors should provide a complete description of all simulation parameters, including exact simulation lengths, temperature and pressure coupling details, and validation of non-standard residue parameters.  
+  - **Concern ID** R1-M4  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Scientific importance  
+    - **Claim pointer** The authors state that "our findings provide insight into how somatic mutations occurring in DNA non-coding regions may activate ARs."  
+    - **Evidence pointer** Section 2.3, Section 3  
+    - **Concern** The study models abasic lesions in a single ARE sequence context. The broader claim that these findings explain how somatic mutations in non-coding regions activate ARs is a significant extrapolation. The manuscript does not discuss the frequency or distribution of abasic lesions at AR binding sites in prostate cancer genomes, nor does it compare the effects of different lesion types or positions beyond the two modelled. The link between the modelled lesions and the specific somatic mutations observed in patients is not established.  
+    - **Why it matters** The clinical relevance of the findings depends on whether the modelled lesions are representative of those occurring in CRPC. Overgeneralisation could overstate the translational significance.  
+    - **Resolution test** The authors should either (a) provide evidence that the modelled lesions are prevalent at AR binding sites in prostate cancer, or (b) temper the claim to state that the findings suggest a potential mechanism that requires further investigation in patient-derived samples.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+    - **Severity** Minor  
+    - **Axis** Readability  
+    - **Affected element** Abstract  
+    - **Evidence pointer** Abstract  
+    - **Issue** The abstract is dense and uses technical jargon without sufficient context for a general scientific audience. Terms like "abasic sites," "Schiff base," and "homodimerisation interface" are not explained.  
+    - **Required correction** Provide brief definitions or context for these terms to improve accessibility.  
+  - **Concern ID** R1-m2  
+    - **Severity** Minor  
+    - **Axis** Technical soundness  
+    - **Affected element** Section 2.1  
+    - **Evidence pointer** Figure 1B, Figure 2B  
+    - **Issue** The text refers to "low root mean square fluctuations" but does not provide the actual RMSF values or a comparison to other regions.  
+    - **Required correction** Include numerical RMSF values or a supplementary figure with clear labelling.  
+  - **Concern ID** R1-m3  
+    - **Severity** Minor  
+    - **Axis** Reproducibility  
+    - **Affected element** Section 4.1  
+    - **Evidence pointer** Section 4.1  
+    - **Issue** The statement "The template used to generate this model was the DNA binding domain of rat androgen binding receptor (PDB code: 1R4I)" is unclear. The PDB code 1R4I is not a standard identifier for a rat AR-DBD structure.  
+    - **Required correction** Verify the PDB code and provide the correct identifier or a reference for the template structure.  
+  - **Concern ID** R1-m4  
+    - **Severity** Minor  
+    - **Axis** Scientific importance  
+    - **Affected element** Section 3  
+    - **Evidence pointer** Section 3  
+    - **Issue** The discussion of small-molecule inhibitors (e.g., pyrvinium pamoate) is interesting but somewhat tangential to the main findings. The connection between the simulation results and the design of new inhibitors is not fully developed.  
+    - **Required correction** Either expand this discussion to explicitly link the simulation findings to inhibitor design, or shorten it to maintain focus.  
+  - **Concern ID** R1-m5  
+    - **Severity** Minor  
+    - **Axis** Readability  
+    - **Affected element** Section 2.3  
+    - **Evidence pointer** Figure 6  
+    - **Issue** The description of the three abasic lesion models (ester-furanose, hydroxyfuranose, open-ring) is confusing. The text mentions "cytidine C11-5′-3′" and "cytidine C11-3′-5′" but does not clearly explain the difference or why these specific positions were chosen.  
+    - **Required correction** Provide a clearer explanation of the lesion models and their relevance.  
+- **Technical failings that need to be addressed before the case is established**  
+  - R1-M1: The QM evidence for covalent crosslink formation is insufficient.  
+  - R1-M2: The lack of quantitative data for MD simulation results undermines the claims about mutation effects.  
+  - R1-M3: Incomplete methodological details hinder reproducibility.  
+- **Assessment against Nature-style criteria**  
+  - **Originality** The study is original in its focus on abasic lesions in AR binding sites and their potential role in CRPC. The combination of MD and QM methods to study this specific question is novel. However, the overall approach is not unprecedented, and the novelty is somewhat diminished by the preliminary nature of the findings.  
+  - **Scientific importance** The topic is of high importance given the clinical challenge of CRPC and the need for new therapeutic strategies. The potential link between DNA damage and AR activation is a significant hypothesis. However, the current evidence is not sufficient to establish this link definitively, limiting the immediate impact.  
+  - **Interdisciplinary readership** The work has the potential to appeal to researchers in cancer biology, structural biology, and computational chemistry. However, the technical presentation may be challenging for non-specialists, and the clinical implications are not fully articulated.  
+  - **Technical soundness** The use of MD and QM methods is appropriate, but the lack of quantitative reporting and incomplete methodological details are significant weaknesses. The QM calculations, in particular, are not sufficiently rigorous to support the strong claims made.  
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with molecular dynamics, quantum chemistry, and androgen receptor biology. The abstract and introduction are dense, and the results section lacks clear summaries of key findings for a broader audience.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a plausible hypothesis, but the current evidence is not sufficient to establish the mechanistic claims. The authors should provide quantitative data, strengthen the QM analysis, and temper the conclusions to match the evidence. With these revisions, the work could make a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that abasic lesions "may form reversible covalent crosslinks" with K59 is not supported by the presented QM evidence, which does not model the reaction pathway or provide energetic feasibility.
+- The claim that the studied mutations "increase DNA interactions" is not supported by quantitative data.
+- The claim that the findings "provide insight into how somatic mutations occurring in DNA non-coding regions may activate ARs" is an extrapolation beyond the scope of the modelled systems.
+- The statement that "the overall stability of the interface was" affected by lesion type is not supported by quantitative stability metrics.
+- The assertion that "the AR-activating effects of these mutations arose from the conformational changes" is speculative, as no functional assays or correlation with known activation data are presented.

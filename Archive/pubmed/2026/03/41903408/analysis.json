@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41903408",
+  "title": "Network toxicology and machine learning revealed the association between non-alcoholic fatty liver disease induced by polystyrene nanoplastics.",
+  "authors": "Zhang, Yiqiong; Shi, Yachun; Yang, Huiru; Li, Haizhi; Li, Chengcheng; Liu, Mi; Zhong, Yinxue; Huang, Changyudong; Zhu, Liying; Xu, Yongjie; Pan, Wei",
+  "journal": "Ecotoxicology and environmental safety",
+  "published_date": "2026-03-29",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用网络毒理学和机器学习分析聚苯乙烯纳米塑料诱导非酒精性脂肪肝的关联基因，核心是毒理学与疾病表型，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "This study systematically evaluated the hepatotoxic potential of common microplastic monomers using ADMETlab 3.0, identifying styrene (PubChem ID: 7501) as exhibiting significant hepatic toxicity. Comprehensive analysis of the CTD (Comparative Toxicogenomics Database) revealed a strong association between styrene exposure and NAFLD (Non-alcoholic fatty liver disease). We integrated target prediction data from CTD, STITCH and SwissTargetPrediction databases yielding 558 candidate targets, which were cross-referenced with 2018 NAFLD related genes from GeneCards and OMIM to identify 158 overlapping genes. Applying the NCBI GEO datasets GSE48452, GSE126848, GSE89632, and GSE63067, comprising 98 control samples and 113 NAFLD samples, we trained the model using LASSO regression, random forest, and SVM-RFE algorithms to identify the core genes HSPD1 and NFE2L2. These findings were validated in the GSE135251 cohort, which included 10 control cases and 206 NAFLD cases. In vitro experiments showed 100 nm polystyrene nanoparticles (PS-NPs) at 200 mug/mL for HepG2 and 100 mug/mL for AML12 cells significantly increased lipid accumulation by Oil Red O staining. Western blot revealed dose-dependent changes in lipid metabolism regulators ACC1, FASN and CPT1A. Preliminary RT-qPCR and immunofluorescence studies indicate that PS-NPs can upregulate HSPD1 and NFE2L2. These findings suggest that PS-NPs promote hepatic lipid accumulation by regulating HSPD1 and NFE2L2, offering new insights into the pathogenesis of environmentally induced NAFLD.",
+  "abstract_zh": "本研究利用ADMETlab 3.0系统评估了常见微塑料单体的肝毒性潜力，鉴定出苯乙烯（PubChem ID: 7501）表现出显著的肝脏毒性。对CTD（比较毒物基因组学数据库）的综合分析揭示了苯乙烯暴露与非酒精性脂肪性肝病（NAFLD）之间的强关联。我们整合了来自CTD、STITCH和SwissTargetPrediction数据库的靶点预测数据，获得558个候选靶点，并与GeneCards和OMIM中2018个NAFLD相关基因进行交叉比对，识别出158个重叠基因。利用NCBI GEO数据集GSE48452、GSE126848、GSE89632和GSE63067（包含98个对照样本和113个NAFLD样本），我们采用LASSO回归、随机森林和SVM-RFE算法训练模型，以识别核心基因HSPD1和NFE2L2。这些发现在GSE135251队列中得到验证，该队列包括10个对照病例和206个NAFLD病例。体外实验显示，100 nm聚苯乙烯纳米颗粒（PS-NPs）在HepG2细胞中浓度为200 μg/mL、在AML12细胞中浓度为100 μg/mL时，通过油红O染色显著增加了脂质积累。Western blot显示脂质代谢调节因子ACC1、FASN和CPT1A呈剂量依赖性变化。初步RT-qPCR和免疫荧光研究表明，PS-NPs可上调HSPD1和NFE2L2。这些发现表明，PS-NPs通过调节HSPD1和NFE2L2促进肝脏脂质积累，为环境诱导的NAFLD发病机制提供了新见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41903408/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41903408/",
+  "paper_page_path": "papers/pubmed/41903408/index.html"
+}

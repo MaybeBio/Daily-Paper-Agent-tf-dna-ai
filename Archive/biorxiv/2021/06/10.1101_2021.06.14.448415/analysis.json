@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.06.14.448415",
+  "title": "seqgra: Principled Selection of Neural Network Architectures for Genomics Prediction Tasks",
+  "authors": "Krismer K; Hammelman J; Gifford DK",
+  "journal": "bioRxiv",
+  "published_date": "2021-06-15",
+  "window": {
+    "start": "2021-06-14",
+    "end": "2021-06-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出seqgra深度学习流程，通过规则模拟生物序列数据来评估基因组预测任务（含转录因子结合）的神经网络架构，虽涉及TF结合预测但侧重架构选择与可解释性，而非TF-DNA互作机制建模。",
+  "abstract": "Sequence models based on deep neural networks have achieved state-of-the-art performance on regulatory genomics prediction tasks, such as chromatin accessibility and transcription factor binding. But despite their high accuracy, their contributions to a mechanistic understanding of the biology of regulatory elements is often hindered by the complexity of the predictive model and thus poor interpretability of its decision boundaries. To address this, we introduce seqgra, a deep learning pipeline that incorporates the rule-based simulation of biological sequence data and the training and evaluation of models, whose decision boundaries mirror the rules from the simulation process. The method can be used to (1) generate data under the assumption of a hypothesized model of genome regulation, (2) identify neural network architectures capable of recovering the rules of said model, and (3) analyze a model’s predictive performance as a function of training set size, noise level, and the complexity of the rules behind the simulated data.",
+  "abstract_zh": "基于深度神经网络的序列模型在调控基因组学预测任务中已取得最先进性能，如染色质可及性和转录因子结合。然而，尽管其准确性高，它们对调控元件生物学机制理解的贡献常因预测模型的复杂性及其决策边界可解释性差而受阻。为解决此问题，我们引入seqgra，一个深度学习流程，它结合了基于规则的生物序列数据模拟以及模型的训练和评估，其决策边界镜像模拟过程中的规则。该方法可用于：(1) 在假设的基因组调控模型下生成数据，(2) 识别能够恢复该模型规则的神经网络架构，以及(3) 分析模型预测性能随训练集大小、噪声水平及模拟数据背后规则复杂性的变化。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.06.14.448415",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.06.14.448415",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.06.14.448415/index.html"
+}

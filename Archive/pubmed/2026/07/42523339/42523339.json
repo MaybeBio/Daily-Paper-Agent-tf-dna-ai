@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "42523339",
+    "doi": "10.64898/2026.07.15.738679",
+    "title": "A robust, sensitive phylogenetic method enables gene-level metagenomic analyses."
+  },
+  "content": {
+    "abstract": "A key goal in the microbiome field is to move from taxonomic associations towards mechanistic hypotheses about microbial gene function. However, most methods for linking microbiome changes to specific genes are biased towards finding marker genes, with weak evidence for functional relevance. Phylogenetic regression can address this issue and has been previously applied to changes in microbial prevalence, but many environments (such as the gut in health vs. disease) are characterized more by changes in abundance, which presents unique statistical challenges. We show that when applied to real differential abundances from metagenomes, phylogenetic regression has an anti-conservative bias, indicating inflated false positives. We develop an alternative non-parametric method called \"robust permutration,\" designed specifically for differential abundance data, and evaluate its performance against phylogenetic regression as well as several other phylogenetic comparative methods in realistic simulations of metagenomic data. These results show that robust permutration is the most powerful method that appropriately controls the false positive rate. We further apply robust permutration to a human case-control study of liver cirrhosis, revealing that Lachnospiraceae abundance in disease is linked to a previously uncharacterized iron-sulfur transcription factor encoded near homologs of the butyryl-CoA oxygen oxidoreductase system, a recently discovered system for oxygen detoxification. This illustrates how robust, sensitive phylogenetic methods can enable the generation of new molecular hypotheses directly from metagenomic case-control data.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tran, Nghi",
+        "Kananen, Kathryn",
+        "Bradley, Patrick H"
+      ],
+      "short_names": [
+        "Tran N",
+        "Kananen K",
+        "Bradley PH"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6080-0323",
+        "ORCID: 0000-0002-9231-8344"
+      ],
+      "affiliations": [
+        "Dept. of Microbiology, The Ohio State University, Columbus, OH 43210.",
+        "Center of Microbiome Science, The Ohio State University, Columbus, OH 43210.",
+        "Dept. of Microbiology, The Ohio State University, Columbus, OH 43210.",
+        "Center of Microbiome Science, The Ohio State University, Columbus, OH 43210.",
+        "Dept. of Microbiology, The Ohio State University, Columbus, OH 43210.",
+        "Infectious Diseases Institute, The Ohio State University, Columbus, OH 43210.",
+        "Center of Microbiome Science, The Ohio State University, Columbus, OH 43210."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tran, Nghi",
+        "short_name": "Tran N",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Microbiology, The Ohio State University, Columbus, OH 43210.",
+          "Center of Microbiome Science, The Ohio State University, Columbus, OH 43210."
+        ]
+      },
+      {
+        "full_name": "Kananen, Kathryn",
+        "short_name": "Kananen K",
+        "identifiers": [
+          "0000-0001-6080-0323"
+        ],
+        "affiliations": [
+          "Dept. of Microbiology, The Ohio State University, Columbus, OH 43210.",
+          "Center of Microbiome Science, The Ohio State University, Columbus, OH 43210."
+        ]
+      },
+      {
+        "full_name": "Bradley, Patrick H",
+        "short_name": "Bradley PH",
+        "identifiers": [
+          "0000-0002-9231-8344"
+        ],
+        "affiliations": [
+          "Dept. of Microbiology, The Ohio State University, Columbus, OH 43210.",
+          "Infectious Diseases Institute, The Ohio State University, Columbus, OH 43210.",
+          "Center of Microbiome Science, The Ohio State University, Columbus, OH 43210."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jul 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/29 13:54",
+    "fetched_at": "2026-10-02 02:41:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42097142",
+      "41820342",
+      "40511521",
+      "40482640",
+      "40476714",
+      "40311618",
+      "39565202",
+      "39540428",
+      "39206807",
+      "38597606",
+      "38158428",
+      "38109938",
+      "38063415",
+      "38035624",
+      "37750706",
+      "37356897",
+      "37141097",
+      "36656032",
+      "36379955",
+      "36179077",
+      "35771903",
+      "35597283",
+      "35356891",
+      "35258340",
+      "34850134",
+      "34784344",
+      "34782724",
+      "34737424",
+      "34555295",
+      "34520557",
+      "33739420",
+      "32887946",
+      "31779668",
+      "31588499",
+      "31553576",
+      "31189463",
+      "30589851",
+      "30091981",
+      "29401456",
+      "29242336",
+      "29187837",
+      "29146959",
+      "29091997",
+      "28330508",
+      "27910877",
+      "27756721",
+      "27312411",
+      "27187200",
+      "27078066",
+      "25918393",
+      "25337874",
+      "25161243",
+      "25126780",
+      "25079328",
+      "24910773",
+      "24500037",
+      "24374295",
+      "23879434",
+      "23843675",
+      "23034385",
+      "21574172",
+      "21333523",
+      "20972220",
+      "19151095",
+      "18497287",
+      "16428390",
+      "14597658",
+      "12433321",
+      "11972784",
+      "11807048",
+      "11742080",
+      "11012661",
+      "10553904"
+    ],
+    "similar": [
+      "42523339",
+      "42475469",
+      "40298412",
+      "33085409",
+      "34474689",
+      "34904892",
+      "31872748",
+      "39416140",
+      "20085629",
+      "36321557",
+      "40358144",
+      "39150724",
+      "36106702",
+      "41310253",
+      "40923351",
+      "23912807",
+      "30801026",
+      "35986393",
+      "42523201",
+      "31244881",
+      "36464731",
+      "39536149",
+      "28438217",
+      "41383765",
+      "30091981",
+      "37010293",
+      "27398089",
+      "41837716",
+      "34034646",
+      "42634100",
+      "25873372",
+      "30474490",
+      "32311021",
+      "30534599",
+      "33036834",
+      "41743802",
+      "39944355",
+      "28448616",
+      "21912589",
+      "37158607",
+      "29678163",
+      "28904997",
+      "38309959",
+      "11701102",
+      "31098399",
+      "38553666",
+      "40767516",
+      "34446072",
+      "40987427",
+      "22719234",
+      "42770724",
+      "28253908",
+      "27884206",
+      "42379825",
+      "36823356",
+      "36159175",
+      "41623619",
+      "34581602",
+      "36378489",
+      "39283121",
+      "41019524",
+      "29560821",
+      "30725667",
+      "42569308",
+      "36005400",
+      "35369727",
+      "26409790",
+      "30991942",
+      "42251689",
+      "42708583",
+      "42171373",
+      "32475527",
+      "39554614",
+      "39829854",
+      "42676736",
+      "26774270",
+      "21554767",
+      "36045603",
+      "26333238",
+      "29991352",
+      "41144256",
+      "29423345",
+      "42313858",
+      "38244232",
+      "42576570",
+      "32129963",
+      "41199348",
+      "41720315",
+      "33471121",
+      "36190138",
+      "24482762",
+      "28178947",
+      "40207938",
+      "37886529",
+      "38441977",
+      "36362265",
+      "25815895",
+      "40050732",
+      "33632307",
+      "29408478"
+    ],
+    "review": [
+      "42523339",
+      "36321557",
+      "39150724",
+      "36106702",
+      "40923351",
+      "11701102",
+      "32475527",
+      "39554614"
+    ],
+    "pmc": [
+      "13404960"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42523339/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.07.15.738679",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

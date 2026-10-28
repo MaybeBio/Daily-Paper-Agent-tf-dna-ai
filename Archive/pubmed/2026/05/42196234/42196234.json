@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "42196234",
+    "doi": "10.3390/ijms27104252",
+    "title": "An Integrated Machine-Learning and Reverse Network-Pharmacology Pipeline Reveals JUN/C3 Candidate Biomarkers and an Anti-Fibrotic Mechanism of Resveratrol via MAPK/JNK Signaling in Chronic Kidney Disease."
+  },
+  "content": {
+    "abstract": "Chronic kidney disease (CKD) lacks highly specific early diagnostic biomarkers and safe, effective therapeutic options. To address this, we integrated multi-cohort transcriptomics, bioinformatics, and machine learning with reverse network pharmacology, molecular docking, molecular dynamics simulations, and in vivo experiments to identify candidate biomarkers associated with CKD and candidate therapeutic compounds for CKD. Our analyses of the GSE175759 training set and external validation datasets (GSE37171 and GSE66494) using differential expression and WGCNA indicated that CKD is characterized by immune-inflammatory activation and suppressed energy metabolism. Integration of PPI analysis with three machine learning algorithms identified JUN and C3 as candidate diagnostic genes. JUN was downregulated, whereas C3 was upregulated in CKD, both showing promising discriminatory performance in the analyzed datasets. Reverse screening identified Resveratrol and Triptolide as candidate active compounds, and molecular docking together with 100 ns molecular dynamics simulations supported stable binding to JUN/C3 complexes. Given its superior safety profile, Resveratrol was selected for experimental validation. In an adenine-induced CKD rat model, Resveratrol improved renal function, reduced proteinuria, alleviated renal injury and fibrosis, and was associated with reduced activation of MAPK/JNK-c-Jun signaling. In conclusion, this study identifies JUN and C3 as candidate biomarkers associated with CKD and suggests Resveratrol as a promising preclinical intervention candidate targeting the MAPK/JNK-c-Jun axis, providing preliminary computational and preclinical evidence for biomarker discovery and natural medicine-based intervention in CKD.",
+    "keywords": [
+      "C3",
+      "JUN",
+      "MAPK/JNK",
+      "chronic kidney disease",
+      "immune inflammation",
+      "resveratrol"
+    ],
+    "mesh_terms": [
+      "*Resveratrol/pharmacology",
+      "*Renal Insufficiency, Chronic/drug therapy/metabolism/pathology/genetics",
+      "Animals",
+      "Biomarkers/metabolism",
+      "*Machine Learning",
+      "Rats",
+      "Molecular Docking Simulation",
+      "*MAP Kinase Signaling System/drug effects",
+      "Molecular Dynamics Simulation",
+      "*Complement C3/metabolism/genetics",
+      "*Network Pharmacology/methods",
+      "Fibrosis",
+      "*Proto-Oncogene Proteins c-jun/metabolism/genetics",
+      "Humans",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cai, Yuan",
+        "Feng, Xiaolong",
+        "Tao, Xinru",
+        "Li, Penghui",
+        "Liu, Jiaqin",
+        "Liu, Ping'an",
+        "Xiao, Mengxiong"
+      ],
+      "short_names": [
+        "Cai Y",
+        "Feng X",
+        "Tao X",
+        "Li P",
+        "Liu J",
+        "Liu P",
+        "Xiao M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5494-5523",
+        "ORCID: 0009-0007-9771-4868"
+      ],
+      "affiliations": [
+        "Hunan Academy of Chinese Medicine, Changsha 410013, China.",
+        "Hunan Academy of Chinese Medicine, Changsha 410013, China.",
+        "Hunan Academy of Chinese Medicine, Changsha 410013, China.",
+        "Hunan Academy of Chinese Medicine, Changsha 410013, China.",
+        "Hunan Academy of Chinese Medicine, Changsha 410013, China.",
+        "Hunan Academy of Chinese Medicine, Changsha 410013, China.",
+        "Experimental Research Center, China Academy of Chinese Medical Sciences, Beijing 100700, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cai, Yuan",
+        "short_name": "Cai Y",
+        "identifiers": [
+          "0000-0002-5494-5523"
+        ],
+        "affiliations": [
+          "Hunan Academy of Chinese Medicine, Changsha 410013, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Xiaolong",
+        "short_name": "Feng X",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Academy of Chinese Medicine, Changsha 410013, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Xinru",
+        "short_name": "Tao X",
+        "identifiers": [
+          "0009-0007-9771-4868"
+        ],
+        "affiliations": [
+          "Hunan Academy of Chinese Medicine, Changsha 410013, China."
+        ]
+      },
+      {
+        "full_name": "Li, Penghui",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Academy of Chinese Medicine, Changsha 410013, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiaqin",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Academy of Chinese Medicine, Changsha 410013, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ping'an",
+        "short_name": "Liu P",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Academy of Chinese Medicine, Changsha 410013, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Mengxiong",
+        "short_name": "Xiao M",
+        "identifiers": [],
+        "affiliations": [
+          "Experimental Research Center, China Academy of Chinese Medical Sciences, Beijing 100700, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 May 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/27 06:42",
+    "fetched_at": "2026-10-01 21:38:08"
+  },
+  "links": {
+    "cites": [
+      "42524359"
+    ],
+    "refs": [
+      "41562626",
+      "41213283",
+      "40806569",
+      "40564142",
+      "40527420",
+      "40428218",
+      "40358150",
+      "40309771",
+      "40237854",
+      "39848232",
+      "39588536",
+      "39453772",
+      "38968801",
+      "38788603",
+      "38575340",
+      "38397480",
+      "38025230",
+      "37840653",
+      "37498390",
+      "37125982",
+      "34421643",
+      "33643061",
+      "33049148",
+      "32060481",
+      "31929749",
+      "31688999",
+      "31399958",
+      "28129112",
+      "27112839",
+      "26734995",
+      "20042607",
+      "19151549",
+      "17891746",
+      "17360534",
+      "17202416",
+      "11576350",
+      "11432450",
+      "1373035"
+    ],
+    "similar": [
+      "42196234",
+      "42173417",
+      "40916281",
+      "41320114",
+      "40783939",
+      "39306212",
+      "41672117",
+      "42492702",
+      "37257328",
+      "40258914",
+      "35367329",
+      "42147814",
+      "40505415",
+      "41270547",
+      "41312369",
+      "41516127",
+      "40088035",
+      "40418741",
+      "41939426",
+      "37961861",
+      "40885502",
+      "41254063",
+      "40839986",
+      "41806693",
+      "40056634",
+      "41200172",
+      "41365194",
+      "39427047",
+      "42237586",
+      "42220119",
+      "42326009",
+      "42081554",
+      "41862672",
+      "42421348",
+      "41769869",
+      "41070114",
+      "41611834",
+      "35355655",
+      "42035996",
+      "42377012",
+      "42435052",
+      "42486830",
+      "41067325",
+      "42558367",
+      "41052072",
+      "41622156",
+      "42292468",
+      "41895505",
+      "41414679",
+      "40460921",
+      "41713711",
+      "41678889",
+      "42024670",
+      "38169205",
+      "38529522",
+      "42265520",
+      "40447172",
+      "40494438",
+      "42015036",
+      "42123445",
+      "40669280",
+      "41383484",
+      "41936306",
+      "40220489",
+      "39550923",
+      "37579922",
+      "40913866",
+      "39957043",
+      "42068089",
+      "37264340",
+      "37026010",
+      "42074514",
+      "34867380",
+      "41492010",
+      "40777016",
+      "40395438",
+      "40087213",
+      "42307826",
+      "42196413",
+      "41921237",
+      "42123756",
+      "40659145",
+      "40645949",
+      "41072781",
+      "42007886",
+      "41665627",
+      "42583273",
+      "41544047",
+      "41864115",
+      "39993869",
+      "42392495",
+      "41448498",
+      "42580240",
+      "42069300",
+      "41475627",
+      "38862934",
+      "39547397",
+      "39805793",
+      "40279968",
+      "41327360"
+    ],
+    "review": [
+      "42196234",
+      "41665627"
+    ],
+    "pmc": [
+      "13206790"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27104252",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/chronickidneydisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Chronic Kidney Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42196234/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

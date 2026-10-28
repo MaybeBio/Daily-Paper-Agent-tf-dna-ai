@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "39661598",
+    "doi": "10.1371/journal.pone.0314014",
+    "title": "A novel family of beta mixture models for the differential analysis of DNA methylation data: An application to prostate cancer."
+  },
+  "content": {
+    "abstract": "Identifying differentially methylated cytosine-guanine dinucleotide (CpG) sites between benign and tumour samples can assist in understanding disease. However, differential analysis of bounded DNA methylation data often requires data transformation, reducing biological interpretability. To address this, a family of beta mixture models (BMMs) is proposed that (i) objectively infers methylation state thresholds and (ii) identifies differentially methylated CpG sites (DMCs) given untransformed, beta-valued methylation data. The BMMs achieve this through model-based clustering of CpG sites and by employing parameter constraints, facilitating application to different study settings. Inference proceeds via an expectation-maximisation algorithm, with an approximate maximization step providing tractability and computational feasibility. Performance of the BMMs is assessed through thorough simulation studies, and the BMMs are used for differential analyses of DNA methylation data from a prostate cancer study. Intuitive and biologically interpretable methylation state thresholds are inferred and DMCs are identified, including those related to genes such as GSTP1, RASSF1 and RARB, known for their role in prostate cancer development. Gene ontology analysis of the DMCs revealed significant enrichment in cancer-related pathways, demonstrating the utility of BMMs to reveal biologically relevant insights. An R package betaclust facilitates widespread use of BMMs.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA Methylation",
+      "Male",
+      "Humans",
+      "*Prostatic Neoplasms/genetics",
+      "*CpG Islands",
+      "*Glutathione S-Transferase pi/genetics",
+      "Algorithms",
+      "Tumor Suppressor Proteins/genetics/metabolism",
+      "Receptors, Retinoic Acid/genetics/metabolism",
+      "Models, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Majumdar, Koyel",
+        "Silva, Romina",
+        "Perry, Antoinette Sabrina",
+        "Watson, Ronald William",
+        "Rau, Andrea",
+        "Jaffrezic, Florence",
+        "Murphy, Thomas Brendan",
+        "Gormley, Isobel Claire"
+      ],
+      "short_names": [
+        "Majumdar K",
+        "Silva R",
+        "Perry AS",
+        "Watson RW",
+        "Rau A",
+        "Jaffrezic F",
+        "Murphy TB",
+        "Gormley IC"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6469-488X",
+        "ORCID: 0000-0001-7713-681X"
+      ],
+      "affiliations": [
+        "School of Mathematics and Statistics, University College Dublin, Dublin, Ireland.",
+        "School of Medicine, University College Dublin, Dublin, Ireland.",
+        "Conway Institute of Biomedical and Biomolecular Research, University College Dublin, Dublin, Ireland.",
+        "Conway Institute of Biomedical and Biomolecular Research, University College Dublin, Dublin, Ireland.",
+        "School of Biology and Environmental Science, University College Dublin, Dublin, Ireland.",
+        "School of Medicine, University College Dublin, Dublin, Ireland.",
+        "Conway Institute of Biomedical and Biomolecular Research, University College Dublin, Dublin, Ireland.",
+        "INRAE, UMR1313 AgroParisTech, GABI, Universite Paris-Saclay, Gif-sur-Yvette, France.",
+        "INRAE, UMR1313 AgroParisTech, GABI, Universite Paris-Saclay, Gif-sur-Yvette, France.",
+        "School of Mathematics and Statistics, University College Dublin, Dublin, Ireland.",
+        "School of Mathematics and Statistics, University College Dublin, Dublin, Ireland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Majumdar, Koyel",
+        "short_name": "Majumdar K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, University College Dublin, Dublin, Ireland."
+        ]
+      },
+      {
+        "full_name": "Silva, Romina",
+        "short_name": "Silva R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, University College Dublin, Dublin, Ireland.",
+          "Conway Institute of Biomedical and Biomolecular Research, University College Dublin, Dublin, Ireland."
+        ]
+      },
+      {
+        "full_name": "Perry, Antoinette Sabrina",
+        "short_name": "Perry AS",
+        "identifiers": [],
+        "affiliations": [
+          "Conway Institute of Biomedical and Biomolecular Research, University College Dublin, Dublin, Ireland.",
+          "School of Biology and Environmental Science, University College Dublin, Dublin, Ireland."
+        ]
+      },
+      {
+        "full_name": "Watson, Ronald William",
+        "short_name": "Watson RW",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, University College Dublin, Dublin, Ireland.",
+          "Conway Institute of Biomedical and Biomolecular Research, University College Dublin, Dublin, Ireland."
+        ]
+      },
+      {
+        "full_name": "Rau, Andrea",
+        "short_name": "Rau A",
+        "identifiers": [
+          "0000-0001-6469-488X"
+        ],
+        "affiliations": [
+          "INRAE, UMR1313 AgroParisTech, GABI, Université Paris-Saclay, Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Jaffrezic, Florence",
+        "short_name": "Jaffrezic F",
+        "identifiers": [],
+        "affiliations": [
+          "INRAE, UMR1313 AgroParisTech, GABI, Université Paris-Saclay, Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Murphy, Thomas Brendan",
+        "short_name": "Murphy TB",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, University College Dublin, Dublin, Ireland."
+        ]
+      },
+      {
+        "full_name": "Gormley, Isobel Claire",
+        "short_name": "Gormley IC",
+        "identifiers": [
+          "0000-0001-7713-681X"
+        ],
+        "affiliations": [
+          "School of Mathematics and Statistics, University College Dublin, Dublin, Ireland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/11 18:23",
+    "fetched_at": "2026-09-30 07:42:20"
+  },
+  "links": {
+    "cites": [
+      "42395488"
+    ],
+    "refs": [
+      "36804268",
+      "34322159",
+      "34103055",
+      "33538338",
+      "33087120",
+      "32451180",
+      "32000564",
+      "30983031",
+      "30866861",
+      "30796811",
+      "30258928",
+      "29671397",
+      "29027401",
+      "28828033",
+      "27717381",
+      "26673039",
+      "25965389",
+      "25631659",
+      "25605792",
+      "24980613",
+      "24884464",
+      "24324057",
+      "24040221",
+      "23859269",
+      "23598999",
+      "23468465",
+      "23358881",
+      "23175756",
+      "23134689",
+      "22781841",
+      "22253290",
+      "21724842",
+      "21619656",
+      "21118553",
+      "19581485",
+      "19339683",
+      "15542813",
+      "15363862",
+      "15044245",
+      "11782440"
+    ],
+    "similar": [
+      "39661598",
+      "21822036",
+      "15289848",
+      "25369892",
+      "25053593",
+      "37347938",
+      "14691453",
+      "10022813",
+      "19505431",
+      "11850822",
+      "19454503",
+      "25577235",
+      "31383039",
+      "26934703",
+      "11751372",
+      "24068440",
+      "16478744",
+      "35272673",
+      "21944123",
+      "11406558",
+      "28026816",
+      "23979608",
+      "15930345",
+      "24980613",
+      "12845678",
+      "27593931",
+      "27913949",
+      "17960617",
+      "29571584",
+      "26383847",
+      "26806748",
+      "29851970",
+      "20668305",
+      "32005275",
+      "17453001",
+      "31837464",
+      "23896626",
+      "15036650",
+      "20606036",
+      "25738352",
+      "16012746",
+      "19444856",
+      "18004747",
+      "15154012",
+      "19940364",
+      "21947551",
+      "38493315",
+      "19924440",
+      "24492483",
+      "22536438",
+      "23119026",
+      "23376149",
+      "25665470",
+      "20716965",
+      "14743506",
+      "23669186",
+      "17192910",
+      "17291695",
+      "18987825",
+      "27121847",
+      "34944472",
+      "19861513",
+      "22139572",
+      "16921492",
+      "20818161",
+      "17278115",
+      "33663593",
+      "15930338",
+      "11912447",
+      "20337729",
+      "27576364",
+      "31288850",
+      "12937133",
+      "18691414",
+      "21864295",
+      "14755684",
+      "16322291",
+      "14734448",
+      "16908936",
+      "22672250",
+      "22077694",
+      "17108217",
+      "16728568",
+      "31263949",
+      "18837951",
+      "21116117",
+      "18948370",
+      "30373654",
+      "16323173",
+      "24839830",
+      "27594734",
+      "31202904",
+      "23874531",
+      "11717336",
+      "12467239",
+      "24769028",
+      "26086362",
+      "21631298",
+      "15530476",
+      "11696442"
+    ],
+    "review": [
+      "39661598",
+      "25053593",
+      "32005275",
+      "23669186",
+      "14755684",
+      "16728568",
+      "31263949"
+    ],
+    "pmc": [
+      "11633993"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0314014",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39661598/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GSTP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-212",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

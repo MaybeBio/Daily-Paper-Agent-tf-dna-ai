@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "38049725",
+    "doi": "10.1186/s12864-023-09830-3",
+    "title": "Discovery of a non-canonical GRHL1 binding site using deep convolutional and recurrent neural networks."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Transcription factors regulate gene expression by binding to transcription factor binding sites (TFBSs). Most models for predicting TFBSs are based on position weight matrices (PWMs), which require a specific motif to be present in the DNA sequence and do not consider interdependencies of nucleotides. Novel approaches such as Transcription Factor Flexible Models or recurrent neural networks consequently provide higher accuracies. However, it is unclear whether such approaches can uncover novel non-canonical, hitherto unexpected TFBSs relevant to human transcriptional regulation. RESULTS: In this study, we trained a convolutional recurrent neural network with HT-SELEX data for GRHL1 binding and applied it to a set of GRHL1 binding sites obtained from ChIP-Seq experiments from human cells. We identified 46 non-canonical GRHL1 binding sites, which were not found by a conventional PWM approach. Unexpectedly, some of the newly predicted binding sequences lacked the CNNG core motif, so far considered obligatory for GRHL1 binding. Using isothermal titration calorimetry, we experimentally confirmed binding between the GRHL1-DNA binding domain and predicted GRHL1 binding sites, including a non-canonical GRHL1 binding site. Mutagenesis of individual nucleotides revealed a correlation between predicted binding strength and experimentally validated binding affinity across representative sequences. This correlation was neither observed with a PWM-based nor another deep learning approach. CONCLUSIONS: Our results show that convolutional recurrent neural networks may uncover unanticipated binding sites and facilitate quantitative transcription factor binding predictions.",
+    "keywords": [
+      "Genetics",
+      "Grainyhead-like 1",
+      "Machine learning",
+      "Neural networks",
+      "Transcription factor binding"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Transcription Factors/metabolism",
+      "Binding Sites",
+      "*Gene Expression Regulation",
+      "Protein Binding",
+      "Neural Networks, Computer",
+      "Nucleotides/metabolism",
+      "Repressor Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Proft, Sebastian",
+        "Leiz, Janna",
+        "Heinemann, Udo",
+        "Seelow, Dominik",
+        "Schmidt-Ott, Kai M",
+        "Rutkiewicz, Maria"
+      ],
+      "short_names": [
+        "Proft S",
+        "Leiz J",
+        "Heinemann U",
+        "Seelow D",
+        "Schmidt-Ott KM",
+        "Rutkiewicz M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1707-0625",
+        "ORCID: 0000-0002-6531-7047",
+        "ORCID: 0000-0002-8191-3850",
+        "ORCID: 0000-0002-9746-4412",
+        "ORCID: 0000-0002-7700-7142",
+        "ORCID: 0000-0001-8339-3230"
+      ],
+      "affiliations": [
+        "Exploratory Diagnostic Sciences, Berlin Institute of Health, Charite - Universitatsmedizin Berlin, 10117, Berlin, Germany.",
+        "Institute of Medical Genetics and Human Genetics, Charite - Universitatsmedizin Berlin, Freie Universitat Berlin and Humboldt-Universitat zu Berlin, 13353, Berlin, Germany.",
+        "Department of Nephrology and Hypertension, Hannover Medical School, 30625, Hannover, Germany.",
+        "Department of Nephrology and Intensive Care Medicine, Charite - Universitatsmedizin Berlin, Freie Universitat Berlin and Humboldt-Universitat zu Berlin, 12203, Berlin, Germany.",
+        "Molecular and Translational Kidney Research, Max-Delbruck-Center for Molecular Medicine in the Helmholtz Association, 13125, Berlin, Germany.",
+        "Macromolecular Structure and Interaction, Max Delbruck Center for Molecular Medicine in the Helmholtz Association, 13125, Berlin, Germany. heinemann@mdc-berlin.de.",
+        "Exploratory Diagnostic Sciences, Berlin Institute of Health, Charite - Universitatsmedizin Berlin, 10117, Berlin, Germany. dominik.seelow@bih-charite.de.",
+        "Institute of Medical Genetics and Human Genetics, Charite - Universitatsmedizin Berlin, Freie Universitat Berlin and Humboldt-Universitat zu Berlin, 13353, Berlin, Germany. dominik.seelow@bih-charite.de.",
+        "Department of Nephrology and Hypertension, Hannover Medical School, 30625, Hannover, Germany. Nephrologie@mh-hannover.de.",
+        "Department of Nephrology and Intensive Care Medicine, Charite - Universitatsmedizin Berlin, Freie Universitat Berlin and Humboldt-Universitat zu Berlin, 12203, Berlin, Germany. Nephrologie@mh-hannover.de.",
+        "Molecular and Translational Kidney Research, Max-Delbruck-Center for Molecular Medicine in the Helmholtz Association, 13125, Berlin, Germany. Nephrologie@mh-hannover.de.",
+        "Macromolecular Structure and Interaction, Max Delbruck Center for Molecular Medicine in the Helmholtz Association, 13125, Berlin, Germany.",
+        "Department of Structural Biology of Eukaryotes, Institute of Bioorganic Chemistry, Polish Academy of Sciences, Poznan, 61-704, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Proft, Sebastian",
+        "short_name": "Proft S",
+        "identifiers": [
+          "0000-0002-1707-0625"
+        ],
+        "affiliations": [
+          "Exploratory Diagnostic Sciences, Berlin Institute of Health, Charité - Universitätsmedizin Berlin, 10117, Berlin, Germany.",
+          "Institute of Medical Genetics and Human Genetics, Charité - Universitätsmedizin Berlin, Freie Universität Berlin and Humboldt-Universität zu Berlin, 13353, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Leiz, Janna",
+        "short_name": "Leiz J",
+        "identifiers": [
+          "0000-0002-6531-7047"
+        ],
+        "affiliations": [
+          "Department of Nephrology and Hypertension, Hannover Medical School, 30625, Hannover, Germany.",
+          "Department of Nephrology and Intensive Care Medicine, Charité - Universitätsmedizin Berlin, Freie Universität Berlin and Humboldt-Universität zu Berlin, 12203, Berlin, Germany.",
+          "Molecular and Translational Kidney Research, Max-Delbrück-Center for Molecular Medicine in the Helmholtz Association, 13125, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Heinemann, Udo",
+        "short_name": "Heinemann U",
+        "identifiers": [
+          "0000-0002-8191-3850"
+        ],
+        "affiliations": [
+          "Macromolecular Structure and Interaction, Max Delbrück Center for Molecular Medicine in the Helmholtz Association, 13125, Berlin, Germany. heinemann@mdc-berlin.de."
+        ]
+      },
+      {
+        "full_name": "Seelow, Dominik",
+        "short_name": "Seelow D",
+        "identifiers": [
+          "0000-0002-9746-4412"
+        ],
+        "affiliations": [
+          "Exploratory Diagnostic Sciences, Berlin Institute of Health, Charité - Universitätsmedizin Berlin, 10117, Berlin, Germany. dominik.seelow@bih-charite.de.",
+          "Institute of Medical Genetics and Human Genetics, Charité - Universitätsmedizin Berlin, Freie Universität Berlin and Humboldt-Universität zu Berlin, 13353, Berlin, Germany. dominik.seelow@bih-charite.de."
+        ]
+      },
+      {
+        "full_name": "Schmidt-Ott, Kai M",
+        "short_name": "Schmidt-Ott KM",
+        "identifiers": [
+          "0000-0002-7700-7142"
+        ],
+        "affiliations": [
+          "Department of Nephrology and Hypertension, Hannover Medical School, 30625, Hannover, Germany. Nephrologie@mh-hannover.de.",
+          "Department of Nephrology and Intensive Care Medicine, Charité - Universitätsmedizin Berlin, Freie Universität Berlin and Humboldt-Universität zu Berlin, 12203, Berlin, Germany. Nephrologie@mh-hannover.de.",
+          "Molecular and Translational Kidney Research, Max-Delbrück-Center for Molecular Medicine in the Helmholtz Association, 13125, Berlin, Germany. Nephrologie@mh-hannover.de."
+        ]
+      },
+      {
+        "full_name": "Rutkiewicz, Maria",
+        "short_name": "Rutkiewicz M",
+        "identifiers": [
+          "0000-0001-8339-3230"
+        ],
+        "affiliations": [
+          "Macromolecular Structure and Interaction, Max Delbrück Center for Molecular Medicine in the Helmholtz Association, 13125, Berlin, Germany.",
+          "Department of Structural Biology of Eukaryotes, Institute of Bioorganic Chemistry, Polish Academy of Sciences, Poznań, 61-704, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2023 Dec 4",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/05 00:42",
+    "fetched_at": "2026-10-04 22:31:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38836027",
+      "35269877",
+      "34850907",
+      "33931584",
+      "33446556",
+      "33420191",
+      "33005921",
+      "32905524",
+      "32008358",
+      "31932695",
+      "31510640",
+      "31373606",
+      "30323198",
+      "29970003",
+      "29659719",
+      "29309642",
+      "28305337",
+      "28007888",
+      "27471964",
+      "27084946",
+      "26819106",
+      "26552868",
+      "26213851",
+      "25953851",
+      "25261935",
+      "24586629",
+      "24419085",
+      "24243859",
+      "24039567",
+      "23332764",
+      "23230269",
+      "22951020",
+      "21330290",
+      "20110278",
+      "19443739",
+      "18505553",
+      "18288204",
+      "17540862",
+      "17311810",
+      "16831572",
+      "10812473",
+      "10415511",
+      "2919167",
+      "2200121",
+      "1909284"
+    ],
+    "similar": [
+      "38049725",
+      "34613923",
+      "38701417",
+      "37328639",
+      "24472686",
+      "35240993",
+      "25901299",
+      "36155619",
+      "23427986",
+      "36094959",
+      "34962264",
+      "34929739",
+      "24926895",
+      "31634140",
+      "27806697",
+      "24039567",
+      "35013237",
+      "34534646",
+      "29993783",
+      "34752400",
+      "33498086",
+      "24419085",
+      "35652477",
+      "39063155",
+      "34570823",
+      "34073774",
+      "34272562",
+      "27503086",
+      "38632583",
+      "21912677",
+      "28764727",
+      "33931584",
+      "29617928",
+      "29970003",
+      "30835229",
+      "38643066",
+      "27209209",
+      "35410161",
+      "20074339",
+      "38517697",
+      "36748992",
+      "38733561",
+      "29654070",
+      "27567672",
+      "20339533",
+      "22952610",
+      "24042128",
+      "29617876",
+      "18627598",
+      "26130577",
+      "26552868",
+      "33975951",
+      "27871221",
+      "21059262",
+      "35968123",
+      "29301499",
+      "15262788",
+      "30922998",
+      "31336830",
+      "39350338",
+      "38397134",
+      "28245811",
+      "31537716",
+      "37803120",
+      "24586611",
+      "29309642",
+      "22492513",
+      "20158869",
+      "15053842",
+      "35246878",
+      "27264535",
+      "17951829",
+      "34882561",
+      "30040077",
+      "26289072",
+      "34664074",
+      "23320072",
+      "23771139",
+      "27896980",
+      "32393327",
+      "26586801",
+      "33535061",
+      "32298689",
+      "30106688",
+      "26818008",
+      "33522898",
+      "33767912",
+      "21347314",
+      "30423062",
+      "26069269",
+      "30323198",
+      "29588420",
+      "29617378",
+      "30944626",
+      "37985457",
+      "30447332",
+      "18093302",
+      "35462009",
+      "38732207",
+      "24093548"
+    ],
+    "review": [
+      "38049725",
+      "35652477",
+      "26069269"
+    ],
+    "pmc": [
+      "10696883"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-023-09830-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/38049725/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38049725/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38049725",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

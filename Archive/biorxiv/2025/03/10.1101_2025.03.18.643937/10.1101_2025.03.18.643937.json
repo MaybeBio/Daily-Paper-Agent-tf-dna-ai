@@ -1,0 +1,432 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.18.643937",
+  "title": "A Simple Generative Model for the Prediction of T-Cell Receptor - Peptide Binding in T-cell Therapy for Cancer",
+  "doi": "10.1101/2025.03.18.643937",
+  "abstract": "Objective To develop a deep learning model capable of predicting epitope peptides recognized by specific CDR3 (Complementarity-Determining Region 3) sequences of T-cell receptors (TCRs) in the context of Major Histocompatibility Complex (MHC) molecules, addressing the challenges of incomplete datasets and the need for novel sequence generation in adoptive T-cell therapy for cancer. Methods We implemented a sequence to sequence generative model named “GRIP” (Generative Reconstruction of antIgen Peptides) using a Long Short-Term Memory (LSTM) network with attention mechanisms. The model was trained and validated on publicly available datasets, employing data balancing, label smoothing, and dynamic learning rate scheduling to enhance performance and generalization. Accuracy was assessed at the amino acid level. Results The model achieved a training accuracy of 97% and a test accuracy of 85% for predicting epitope sequences at the amino acid level. Probabilistic sequence generation allowed GRIP to produce biologically plausible epitope sequences, even for unseen CDR3 inputs. Attention-based interpretability provided insights into the model’s focus on critical sequence elements. The model outperformed existing approaches in handling data imbalance and generalization to novel epitopes. Conclusion GRIP offers a novel solution to the TCR-epitope binding problem by generating potential epitope sequences instead of matching to known data, addressing a fundamental gap in existing models. This approach has significant implications for personalized immunotherapy, facilitating the design of targeted T-cell therapies for cancer.",
+  "authors": [
+    "Athanasios Papanikolaou",
+    "Vladimir Sivtsov",
+    "Enrica Zereik",
+    "Eliana Ruggiero",
+    "Chiara Bonini",
+    "Fabio Bonsignorio"
+  ],
+  "published_date": "2025-03-19",
+  "updated_date": "2025-03-19T16:48:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.18.643937",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.18.643937.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            13
+          ]
+        ],
+        "date-time": "2026-04-13T14:46:39Z",
+        "timestamp": 1776091599905,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            19
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 29,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                19
+              ]
+            ],
+            "date-time": "2025-03-19T00:00:00Z",
+            "timestamp": 1742342400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Objective</jats:title>\n                  <jats:p>To develop a deep learning model capable of predicting epitope peptides recognized by specific CDR3 (Complementarity-Determining Region 3) sequences of T-cell receptors (TCRs) in the context of Major Histocompatibility Complex (MHC) molecules, addressing the challenges of incomplete datasets and the need for novel sequence generation in adoptive T-cell therapy for cancer.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Methods</jats:title>\n                  <jats:p>We implemented a sequence to sequence generative model named “GRIP” (Generative Reconstruction of antIgen Peptides) using a Long Short-Term Memory (LSTM) network with attention mechanisms. The model was trained and validated on publicly available datasets, employing data balancing, label smoothing, and dynamic learning rate scheduling to enhance performance and generalization. Accuracy was assessed at the amino acid level.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>The model achieved a training accuracy of 97% and a test accuracy of 85% for predicting epitope sequences at the amino acid level. Probabilistic sequence generation allowed GRIP to produce biologically plausible epitope sequences, even for unseen CDR3 inputs. Attention-based interpretability provided insights into the model’s focus on critical sequence elements. The model outperformed existing approaches in handling data imbalance and generalization to novel epitopes.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>GRIP offers a novel solution to the TCR-epitope binding problem by generating potential epitope sequences instead of matching to known data, addressing a fundamental gap in existing models. This approach has significant implications for personalized immunotherapy, facilitating the design of targeted T-cell therapies for cancer.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2025.03.18.643937",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            19
+          ]
+        ],
+        "date-time": "2025-03-19T16:48:14Z",
+        "timestamp": 1742402894000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "A Simple Generative Model for the Prediction of T-Cell Receptor - Peptide Binding in T-cell Therapy for Cancer"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0002-0098-0013",
+          "authenticated-orcid": false,
+          "given": "Athanasios",
+          "family": "Papanikolaou",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Zagreb Faculty of Electrical Engineering and Computing, Zagreb, Croatia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-0098-4766",
+          "authenticated-orcid": false,
+          "given": "Vladimir",
+          "family": "Sivtsov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Zagreb Faculty of Electrical Engineering and Computing, Zagreb, Croatia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6380-3554",
+          "authenticated-orcid": false,
+          "given": "Enrica",
+          "family": "Zereik",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Italian National Research Council, INstitute of Marine Engineering (CNR-INM), Genoa, Italy"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2954-8278",
+          "authenticated-orcid": false,
+          "given": "Eliana",
+          "family": "Ruggiero",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "IRCCS San Raffaele Scientific Institute, Experimental Hematology lab, Division of Immunology, Transplantation and Infectious Diseases, Milan, Italy"
+            },
+            {
+              "name": "Experimental Hematology lab, Division of Immunology, Transplantation and Infectious Diseases, Milan, Italy"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0772-1674",
+          "authenticated-orcid": false,
+          "given": "Chiara",
+          "family": "Bonini",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "IRCCS San Raffaele Scientific Institute, Experimental Hematology lab, Division of Immunology, Transplantation and Infectious Diseases, Milan, Italy"
+            },
+            {
+              "name": "Experimental Hematology lab, Division of Immunology, Transplantation and Infectious Diseases, Milan, Italy"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5802-2814",
+          "authenticated-orcid": false,
+          "given": "Fabio",
+          "family": "Bonsignorio",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Zagreb Faculty of Electrical Engineering and Computing, Zagreb, Croatia"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.1",
+          "unstructured": "Abul K. Abbas , Andrew H. H. Lichtman , and Shiv Pillai . Basic Immunology. Elsevier, 2019."
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.adg8014"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.3",
+          "unstructured": "Simon J.D. Prince. Understanding Deep Learning. MIT Press, 2023."
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Anna Weber , Aurélien Pélissier , and María Rodríguez Martínez . T-cell receptor binding prediction: A machine learning revolution. ImmunoInformatics, page 100040, 2024.",
+          "DOI": "10.1016/j.immuno.2024.100040"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.immuno.2023.100027"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.82813"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad356"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.abo5128"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4841"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/genes12040572"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.12",
+          "unstructured": "Martina Milighetti , Yuta Nagano , James Henderson , Uri Hershberg , Andreas Tiffeau-Mayer , Anne-Florence Bitbol , and Benny Chain . Intra- and inter-chain contacts determine TCR specificity: applying protein co-evolution methods to TCRαβ pairing. bioRxiv, pages 2024–05, 2024."
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fimmu.2022.1014256"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbad086"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae420"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.16",
+          "unstructured": "Kevin E Wu , Kathryn Yost , Bence Daniel , Julia Belk , Yu Xia , Takeshi Egawa , Ansuman Satpathy , Howard Chang , and James Zou . TCR-BERT: learning the grammar of T-cell receptors for flexible antigen-binding analyses. In Machine Learning in Computational Biology, pages 194–229. PMLR, 2024."
+        },
+        {
+          "issue": "1",
+          "key": "2026041123301843000_2025.03.18.643937v1.17",
+          "first-page": "2024",
+          "article-title": "Deep learning predictions of TCR-epitope interactions reveal epitope-specific chains in dual alpha T cells",
+          "volume": "15",
+          "year": "3211",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Omar NA Demerdash and Jeremy C Smith . TCR-H: explainable machine learning prediction of T-cell receptor epitope binding on unseen datasets. Frontiers in Immunology, 15:1426173, 2024.",
+          "DOI": "10.3389/fimmu.2024.1426173"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-021-00413-z"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5121/ijdms.2012.4508"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0408677102"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4236/ajmb.2011.12010"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "David Harding-Larsen , Jonathan Funk , Madsen , Carlos G. Acevedo-Rocha , and Mazurenko . Protein representations: Encoding biological information for machine learning in biocatalysis. apr 2024.",
+          "DOI": "10.26434/chemrxiv-2024-7hwf7"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-021-00383-2"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "John-William Sidhom , H. Benjamin Larman , Drew M. Pardoll , and Alexander S. Baras . DeepTCR is a deep learning framework for revealing sequence concepts within t-cell repertoires. Nature Communications, 12(1), mar 2021.",
+          "DOI": "10.1038/s41467-021-21879-w"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alessandro Montemurro , Viktoria Schuster, Povlsen , Vanessa Jurtz, Chronister , Sine R. Hadrup , Ole Winther, Peters , and Morten Nielsen . NetTCR-2.0 enables accurate prediction of TCR-peptide binding by using paired TCRα and β sequence data. Communications Biology, 4(1), sep 2021.",
+          "DOI": "10.1038/s42003-021-02610-3"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1008814"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "William D. Chronister , Austin Crinklaw , Swapnil Mahajan , Randi Vita , and Koşal . TCRMatch: Predicting T-cell receptor specificity based on sequence similarity to previously characterized receptors. Frontiers in Immunology, 12.",
+          "DOI": "10.3389/fimmu.2021.640725"
+        },
+        {
+          "key": "2026041123301843000_2025.03.18.643937v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/imm.13641"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.03.18.643937",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T06:30:23Z",
+        "timestamp": 1775975423000
+      },
+      "score": 85.32475,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.03.18.643937"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            19
+          ]
+        ]
+      },
+      "references-count": 29,
+      "URL": "https://doi.org/10.1101/2025.03.18.643937",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            19
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

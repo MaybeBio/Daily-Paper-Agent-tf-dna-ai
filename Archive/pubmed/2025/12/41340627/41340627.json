@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "41340627",
+    "doi": "10.2147/COPD.S556818",
+    "title": "Integrating Bioinformatics Analysis with RT-qPCR Experimental Validation to Investigate Immune Cell and Telomere-Related Biomarkers in Chronic Obstructive Pulmonary Disease."
+  },
+  "content": {
+    "abstract": "PURPOSE: Chronic obstructive pulmonary disease (COPD) is one of the most widespread diseases. Previous research has found that immune cells and telomeres may affect COPD's pathogenesis, but their combined mechanism in COPD remains unclear. This study aims to investigate the diagnostic value of telomere-associated genes and immune cells in COPD, as well as their synergistic mechanisms, thereby providing novel insights for the clinical management of COPD. PATIENTS AND METHODS: Data comprising 19 COPD cases, 24 control samples, and 2086 telomere-related genes (TRGs) were obtained from public databases. The differentially expressed genes (DEGs) between COPD and control were obtained by differential expression analysis. The key module genes related to different immune cells (DICs) were obtained via weighted gene co-expression network analysis (WGCNA). Subsequently, biomarkers were further identified by intersecting all genes, utilizing machine learning algorithm, and verifying the expression level.Furthermore, the nomogram was constructed, and gene set enrichment analysis (GSEA) of biomarkers was adopted. The transcription factors (TFs), microRNAs (miRNAs) and drugs linked to biomarkers were obtained from the databases. The expression of biomarkers in 10 clinical samples was validated via reverse transcription quantitative polymerase chain reaction (RT-qPCR). RESULTS: In this study, ALDH2 and HNMT were identified as biomarkers. The nomogram results demonstrated that the model had an outstanding predictive ability for COPD (area under curve (AUC) = 0.88). Besides, ALDH2 and HNMT were enriched in junction, starch, and sucrose metabolism. In addition, a total of 6 TFs such as ELF3, and 2 miRNAs, such as miR-206, were linked to ALDH2 and HNMT, and clozapine was the drug that had been found to be associated with both ALDH2 and HNMT. Finally, the RT-qPCR results were consistent with bioinformatics analysis. CONCLUSION: This study identified 2 biomarkers (ALDH2 and HNMT), which might serve as potential targets for COPD. A nomogram model constructed based on biomarkers was employed for the clinical auxiliary diagnosis of COPD. This study provided new scientific evidence for improving the diagnostic process and individualized treatment strategies for COPD.",
+    "keywords": [
+      "biomarkers",
+      "chronic obstructive pulmonary disease",
+      "immune cells",
+      "telomeres"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pulmonary Disease, Chronic Obstructive/genetics/immunology/diagnosis",
+      "*Computational Biology/methods",
+      "Gene Regulatory Networks",
+      "*Telomere/genetics",
+      "Predictive Value of Tests",
+      "Gene Expression Profiling",
+      "MicroRNAs/genetics",
+      "Case-Control Studies",
+      "Reproducibility of Results",
+      "Databases, Genetic",
+      "Male",
+      "*Real-Time Polymerase Chain Reaction",
+      "Female",
+      "Middle Aged",
+      "Nomograms",
+      "Aged",
+      "*Aldehyde Dehydrogenase, Mitochondrial/genetics",
+      "Genetic Markers",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Shengwei",
+        "Tang, Weiwei",
+        "Yang, Haixia"
+      ],
+      "short_names": [
+        "Wang S",
+        "Tang W",
+        "Yang H"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-0790-7274"
+      ],
+      "affiliations": [
+        "Department of Emergence Medicine, Nanjing Brain Hospital, Nanjing, Jiangsu, 210029, People's Republic of China.",
+        "Department of Emergence Medicine, Nanjing Brain Hospital, Nanjing, Jiangsu, 210029, People's Republic of China.",
+        "Department of Emergence Medicine, Nanjing Brain Hospital, Nanjing, Jiangsu, 210029, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Shengwei",
+        "short_name": "Wang S",
+        "identifiers": [
+          "0009-0009-0790-7274"
+        ],
+        "affiliations": [
+          "Department of Emergence Medicine, Nanjing Brain Hospital, Nanjing, Jiangsu, 210029, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Tang, Weiwei",
+        "short_name": "Tang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergence Medicine, Nanjing Brain Hospital, Nanjing, Jiangsu, 210029, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yang, Haixia",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergence Medicine, Nanjing Brain Hospital, Nanjing, Jiangsu, 210029, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of chronic obstructive pulmonary disease"
+    ],
+    "journal_abbrev": [
+      "Int J Chron Obstruct Pulmon Dis"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/04 06:26",
+    "fetched_at": "2026-10-01 07:55:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40927188",
+      "40078927",
+      "40068080",
+      "39789599",
+      "39235257",
+      "38868715",
+      "38855330",
+      "38573590",
+      "38459464",
+      "38389299",
+      "38145013",
+      "37885715",
+      "37609638",
+      "37485340",
+      "36915111",
+      "36568386",
+      "35751589",
+      "35350787",
+      "35265136",
+      "35140708",
+      "35011166",
+      "35002373",
+      "34675499",
+      "33611867",
+      "32110283",
+      "30450911",
+      "30229407",
+      "29141660",
+      "27921210",
+      "26770229",
+      "25516281",
+      "23590301",
+      "22671584",
+      "22455463",
+      "21709667",
+      "21269502",
+      "19114008",
+      "14597658",
+      "8114344"
+    ],
+    "similar": [
+      "41340627",
+      "40093012",
+      "41246299",
+      "40617086",
+      "39346628",
+      "40747360",
+      "40161396",
+      "40453984",
+      "40787468",
+      "40078927",
+      "40332792",
+      "40927188",
+      "39845878",
+      "40475761",
+      "39691970",
+      "38873611",
+      "29713155",
+      "41013727",
+      "40695908",
+      "39142001",
+      "40274954",
+      "40826767",
+      "35975032",
+      "41181152",
+      "40045538",
+      "40374840",
+      "39975557",
+      "39893187",
+      "39962573",
+      "40524719",
+      "38863714",
+      "41516150",
+      "38957709",
+      "39349929",
+      "38802460",
+      "41185886",
+      "34764646",
+      "39344484",
+      "41731716",
+      "39780155",
+      "41132649",
+      "28435243",
+      "34797299",
+      "39138958",
+      "26089660",
+      "35281477",
+      "39920860",
+      "40307363",
+      "39080630",
+      "40273141",
+      "32606648",
+      "41200172",
+      "41158511",
+      "40547036",
+      "40374866",
+      "38162988",
+      "41320661",
+      "42099899",
+      "41030501",
+      "35637927",
+      "34250093",
+      "40754871",
+      "41432483",
+      "39950319",
+      "40244418",
+      "41053199",
+      "39512836",
+      "40964458",
+      "41146237",
+      "40997906",
+      "38987688",
+      "40129981",
+      "36217332",
+      "41816328",
+      "41120603",
+      "41739808",
+      "41013556",
+      "40406126",
+      "40313958",
+      "41479901",
+      "40118992",
+      "41620539",
+      "41964403",
+      "40255693",
+      "41137279",
+      "35350787",
+      "41328289",
+      "41052072",
+      "40196107",
+      "35690768",
+      "39670237",
+      "36937804",
+      "39544937",
+      "40849369",
+      "41540481",
+      "40918403",
+      "30988604",
+      "40421012",
+      "41069939",
+      "26935494"
+    ],
+    "review": [
+      "41340627"
+    ],
+    "pmc": [
+      "12671885"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/copd.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COPD"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41340627/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-12",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/COPD.S556818",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

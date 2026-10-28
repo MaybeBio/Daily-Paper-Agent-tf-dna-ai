@@ -1,0 +1,118 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends not provided)
+- **Assessment boundary** Scientific claims, methodology, data interpretation, and resource utility as presented in the provided text
+- **Shared manuscript claim summary** The authors developed a deep learning framework combining ESM2 protein language model embeddings with a transformer encoder to identify global regulators (GRs) across 14,800 prokaryotic type strain genomes. They report 173,256 additional GR homologs for 214 experimentally validated GR types, 100,694 newly predicted GR-like proteins including 52 putative GR types, and integrated these findings into a public database (PGRR). They further characterize taxonomic distribution, lineage-specific enrichment, functional divergence, and regulatory network architecture of GRs.
+- **Visible evidence base** Results sections describing model performance metrics (AUC, accuracy), comparative benchmarking against random forest, taxonomic distribution analyses, functional enrichment analyses, network construction, and database description. Methods sections detailing data collection, homology search, model architecture, training strategy, binding site prediction, and functional annotation.
+- **Missing materials affecting confidence** Figures and tables referenced (Fig. 1-7, Tables 1-2, Tables S2-S6) are not provided. Supplemental material is not accessible. No code repository or model weights are described. No experimental validation data (e.g., ChIP-seq, electrophoretic mobility shift assay) for predicted novel GRs is presented. The manuscript text contains apparent typographical errors (e.g., "bacterial directly from sequence data" in Introduction, "order Enterobacterales" in Results) that may indicate incomplete editing.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a large-scale computational effort to expand the known repertoire of prokaryotic global regulators using deep protein language models. The scale of the analysis (14,800 genomes) and the integration of multiple prediction layers are commendable. However, the manuscript as provided has several critical gaps. The central claim of discovering "novel" GR types rests on computational prediction alone, with no experimental validation. The evaluation of model generalization on unseen GR types shows a substantial performance drop in the more challenging discrimination task (AUC 0.758), which is not adequately discussed. The functional and network analyses depend on predicted target genes without experimental confirmation. The manuscript also contains internal inconsistencies in reported numbers and methodological details that need clarification. The PGRR database is a potentially valuable resource, but its accessibility and usability cannot be assessed from the provided text alone.
+- **Who would be interested in the results, and why** Researchers in microbial transcriptional regulation, comparative genomics, and synthetic biology would be the primary audience. The PGRR database could serve as a reference resource for those seeking to identify regulatory elements in understudied prokaryotic lineages. The methodological framework combining protein language models with transformer architectures may interest computational biologists working on regulatory protein prediction. The lineage-specific enrichment patterns could inform evolutionary studies of regulatory network evolution.
+- **Major strengths** 1) The scale of genome coverage (14,800 type strains) is substantial and provides a broad phylogenetic sampling. 2) The combination of homology-based and deep learning approaches is methodologically sound and addresses limitations of sequence similarity alone. 3) The explicit evaluation of generalization to unseen GR types is a rigorous practice. 4) The PGRR database represents a potentially valuable community resource. 5) The analysis of lineage-specific enrichment and network architecture provides biological context beyond simple cataloging.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for core claim
+  - **Claim pointer** The manuscript claims identification of 52 putative novel GR types and 100,694 GR-like proteins of unknown function, implying these represent previously unrecognized global regulators.
+  - **Evidence pointer** Results section "AI mining of GRs", Table 2 (not provided)
+  - **Concern** The central claim of discovering novel GR types rests entirely on computational prediction. No experimental validation (e.g., DNA binding assays, transcriptomics, or genetic perturbation) is presented for any of the 52 putative GR types or the 76,113 proteins of unknown function. The manuscript does not describe any orthogonal computational validation either (e.g., structural predictions, co-evolution analysis, or independent benchmark datasets).
+  - **Why it matters** Without any validation, the biological relevance of these predictions remains uncertain. The term "global regulator" implies a demonstrated regulatory function, not merely sequence features shared with known GRs. The false positive rate of such classifiers, especially for divergent sequences, is a well-known challenge. The manuscript's own data show reduced performance on unseen GR types (AUC 0.758 in the GR vs. TF discrimination task), suggesting that novel predictions may carry substantially higher error rates.
+  - **Resolution test** Provide experimental validation for at least a subset of predicted novel GRs (e.g., DNA binding assays, transcriptomic analysis following perturbation, or reporter assays). Alternatively, provide strong orthogonal computational evidence such as structural modeling, conserved motif analysis, or independent dataset validation demonstrating that predicted novel GRs share functional characteristics with known GRs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency and reproducibility
+  - **Claim pointer** The manuscript describes a deep learning framework combining ESM2 embeddings with a transformer encoder and reports specific performance metrics (AUC 0.983, accuracy 0.905).
+  - **Evidence pointer** Methods section "Model architecture" and "Model training", Results section "Model construction and evaluation"
+  - **Concern** The methods description lacks critical details for reproducibility. The training data composition is described inconsistently: the Results state 74,872 sequences from 142 GR types, while the Methods state 91,604 sequences from 169 GR types. The negative dataset of 2,151,890 sequences is mentioned in Results but the Methods describe 21,518,895 non-GR sequences. The hyperparameter choices (learning rate 1e-6, weight decay 1e-1, dropout 0.4) are stated but no rationale or ablation studies are provided. No information is given about training duration, hardware, or convergence criteria. The manuscript does not describe how the final threshold for classification was selected.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational biology. The internal inconsistencies in dataset sizes raise questions about the reliability of the reported results. Without clear methodological details, other researchers cannot replicate or build upon this work. The lack of ablation studies means the contribution of each component (ESM2, transformer, training strategy) to the final performance is unknown.
+  - **Resolution test** Clarify the exact dataset composition with consistent numbers. Provide complete training details including hyperparameter selection rationale, threshold selection, and convergence criteria. Make code and model weights publicly available. Consider adding ablation studies showing the contribution of each architectural component.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of model performance
+  - **Claim pointer** The manuscript states the model "maintained high predictive power on unseen types of GRs (AUC = 0.972)" but also reports reduced accuracy for novel GR types in the GR vs. TF discrimination task (AUC = 0.758).
+  - **Evidence pointer** Results section "Model construction and evaluation", Figure 2 (not provided)
+  - **Concern** The manuscript presents the generalization performance (AUC 0.972 on unseen GR types) as a strength, but the more challenging and biologically relevant task of distinguishing GRs from other transcription factors shows substantially lower performance (AUC 0.758). This discrepancy is not adequately discussed. The manuscript does not explain what this performance gap means for the reliability of novel GR predictions in real-world applications where the distinction from other TFs is critical.
+  - **Why it matters** The practical utility of this tool depends on its ability to distinguish GRs from the broader class of transcription factors, not just from non-regulatory proteins. An AUC of 0.758 in this task suggests that a significant fraction of predictions may be false positives. This directly impacts the reliability of the 52 putative novel GR types and the 76,113 unknown function proteins.
+  - **Resolution test** Provide a more detailed analysis of the GR vs. TF discrimination task, including precision-recall curves, error analysis, and discussion of the biological implications of the performance gap. Consider whether the model architecture or training strategy can be improved to address this limitation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional and network analysis validity
+  - **Claim pointer** The manuscript claims identification of conserved and lineage-specific GR regulons, functional divergence across lineages, and hierarchical network architectures based on predicted target genes.
+  - **Evidence pointer** Results sections "Diverse regulatory functions of GRs" and "GRs operate in hierarchical and lineage-specific networks", Tables S3-S6 (not provided)
+  - **Concern** The functional and network analyses depend entirely on predicted target genes derived from motif scanning (FIMO) of upstream regions. The manuscript does not describe any validation of these predicted targets against experimental datasets (e.g., ChIP-seq, RegulonDB, or expression data). The threshold for defining "core" targets (50% of genomes in at least two genera) is arbitrary and not justified. The network analysis appears to be based on predicted GR-GR interactions without experimental confirmation.
+  - **Why it matters** Predicted regulatory interactions are known to have high false positive rates. The biological conclusions about conserved versus lineage-specific regulons, functional divergence, and network architecture are only as reliable as the underlying target predictions. Without validation, these claims may overstate the biological significance of the findings.
+  - **Resolution test** Validate predicted targets against available experimental datasets for model organisms (e.g., E. coli, B. subtilis). Provide precision estimates for target predictions. Discuss the limitations of motif-based target prediction and how they might affect the biological conclusions.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Benchmarking and comparison to existing methods
+  - **Claim pointer** The manuscript implies the developed framework offers advantages over traditional sequence similarity and domain-based methods.
+  - **Evidence pointer** Introduction, Results section "Model construction and evaluation"
+  - **Concern** The manuscript does not provide a systematic comparison against existing computational methods for regulatory protein identification. The only benchmark is against a random forest baseline, which is a relatively weak comparison. No comparison is made to other deep learning approaches, profile-based methods (e.g., HMMER with curated models), or existing databases of regulatory proteins.
+  - **Why it matters** To establish the value of this new approach, it must be compared against the current state of the art. Without such comparisons, the claimed advantages over existing methods are not substantiated. The random forest baseline may not represent the best available alternative.
+  - **Resolution test** Provide systematic benchmarking against multiple existing methods on the same datasets, including measures of precision, recall, and computational efficiency. Discuss cases where the new method succeeds or fails relative to existing approaches.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and consistency
+  - **Affected element** Dataset size reporting
+  - **Evidence pointer** Results section "Model construction and evaluation", Methods section "Identification of homologous proteins of all GRs based on AI model data set preparation"
+  - **Issue** The number of GR sequences used for training is reported as 74,872 in Results but 91,604 in Methods. The negative dataset size is reported as 2,151,890 in Results but 21,518,895 in Methods. These discrepancies are confusing and undermine confidence in the reported numbers.
+  - **Required correction** Reconcile the numbers between Results and Methods sections. If the discrepancy is due to different filtering steps, describe these steps explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Model performance metrics
+  - **Evidence pointer** Results section "Model construction and evaluation"
+  - **Issue** The manuscript reports AUC and accuracy but does not report precision, recall, F1 score, or a confusion matrix. For an imbalanced classification problem, accuracy alone can be misleading.
+  - **Required correction** Report additional performance metrics including precision, recall, F1 score, and confusion matrix. Consider reporting performance at different operating points.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Comparison of model performance across taxa
+  - **Evidence pointer** Results section "Model construction and evaluation", Figure 2E-G (not provided)
+  - **Issue** The claim that model performance is not dependent on training data abundance is based on visual inspection of plots. No statistical test is reported.
+  - **Required correction** Provide a statistical analysis (e.g., correlation test, regression analysis) to support the claim of no relationship between training data size and performance.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Text in Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The sentence "deep learning frameworks, including convolutional and recurrent neural networks, have been developed for predicting bacterial directly from sequence data" appears to be missing a word (likely "regulators" or "proteins").
+  - **Required correction** Correct the typographical error.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Text in Results
+  - **Evidence pointer** Results section "Model construction and evaluation"
+  - **Issue** The phrase "the richness of order Enterobacterales" is confusing. Enterobacterales is an order, and the sentence seems to be discussing training data abundance at different taxonomic levels. The reference to a specific order is unclear in this context.
+  - **Required correction** Clarify the sentence to accurately describe the analysis of training data abundance across taxonomic levels.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Resource accessibility
+  - **Affected element** PGRR database and GR-Discriminator tool
+  - **Evidence pointer** Results section "PGRR database", Discussion section
+  - **Issue** The manuscript describes the PGRR database and GR-Discriminator tool but does not provide details on data download options, API access, or licensing. The availability of the underlying prediction data (e.g., all predicted GRs across all genomes) is not specified.
+  - **Required correction** Provide clear statements on data accessibility, download formats, and any usage restrictions. Consider providing a static data dump for reproducibility.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Binding site prediction
+  - **Evidence pointer** Methods section "Binding site scanning and target gene prediction"
+  - **Issue** The description of the three-tiered filtering strategy is incomplete. The manuscript states that for motifs shorter than 6 bp, the P value threshold was "stringently set to zero," which would exclude all matches. This seems contradictory and needs clarification.
+  - **Required correction** Clarify the filtering strategy for short motifs. If the intent was to exclude short motifs entirely, state this explicitly. If a different threshold was used, describe it accurately.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of experimental or orthogonal validation for novel GR predictions), R1-M2 (inconsistent dataset reporting and insufficient methodological detail for reproducibility), R1-M3 (inadequate discussion of performance gap in GR vs. TF discrimination task)
+- **Assessment against Nature-style criteria** Originality: The application of protein language models to global regulator discovery is a novel combination, though the individual components (ESM2, transformer classifiers) are established. Scientific importance: The scale of the analysis and the potential for discovering novel regulatory elements in understudied lineages is significant, but the lack of validation limits the immediate impact. Interdisciplinary readership: The work bridges computational biology, microbiology, and synthetic biology, which could attract broad interest. Technical soundness: The core methodology is reasonable, but the inconsistent reporting and lack of validation undermine confidence. Readability for nonspecialists: The manuscript is generally accessible, though some sections assume familiarity with machine learning and regulatory biology terminology. The manuscript would benefit from clearer explanations of the biological significance of the findings for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a large-scale computational effort with potentially valuable resources, but the central claims of novel GR discovery require validation. The methodological inconsistencies must be resolved, and the performance limitations in the more challenging discrimination task need to be addressed. The authors should provide experimental validation for a subset of predictions, clarify the methodological details, and strengthen the benchmarking before the case for novel GR discovery can be considered established.
+
+## Risk / unsupported claims
+- The claim of identifying 52 "putative GR types" is unsupported without experimental validation or strong orthogonal evidence.
+- The claim that the model "maintained high predictive power on unseen types of GRs" is weakened by the substantially lower performance in the GR vs. TF discrimination task (AUC 0.758), which is not adequately discussed.
+- The biological conclusions about conserved and lineage-specific regulons, functional divergence, and network architecture are based entirely on predicted target genes without experimental validation.
+- The claim that PGRR is "the most comprehensive catalog of global regulators currently available" is not substantiated by comparison to existing resources.
+- The statement that "39 GRs are supported by literature or predicted target genes" conflates literature support with computational prediction, which are not equivalent forms of evidence.
+- The relationship between the 214 experimentally validated GRs, the 52 putative GRs, and the 100,694 GR-like proteins is not clearly defined, making the total count of "over 270,000" difficult to interpret.

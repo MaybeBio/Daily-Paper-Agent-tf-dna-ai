@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41595475",
+  "title": "GenBlosum: On Determining Whether Cancer Mutations Are Functional or Random.",
+  "authors": "Leyva, Alejandro; Khan Niazi, Muhammad Khalid",
+  "journal": "Genes",
+  "published_date": "2026-01-28",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于BLOSUM评分和密码子中性模型分析癌症突变的功能性，未涉及蛋白质-DNA互作、TF-DNA结合或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: Genetic mutations have proven to be the epicenters of cancer and disease progression. Traditional WXS sequencing and BLOSUM scoring can be used to infer the evolutionary conservation of amino acid substitutions, though these approaches are not informed by probable base pair sequence changes. Within gene mutation analysis, most tools focus on amino acid conservation or codon switching independently, limiting their ability to contextualize observed mutations against stochastic mutational processes. In the clinical setting, variants of unspecified significance remain difficult to interpret, as clinicians are often unable to determine whether observed mutations arise from oncogenic selection or from stochastic mutational degradation. METHODS: We analyzed mutation sequences from the TCGA BRCA cohort for TP53 and PIK3CA and developed a model that integrates BLOSUM scoring with statistical modeling of base pair changes to evaluate deviation from codon-aware neutral expectations. Observed mutational distributions were compared against a stochastic neutral model to assess statistical significance. RESULTS: Within the TCGA BRCA cohort, TP53 mutations were significantly more evolutionarily radical than expected under the codon-aware neutral model, while PIK3CA mutations were significantly more evolutionarily conservative, as determined using chi-square testing. These opposing patterns are consistent with the distinct functional roles of TP53 and PIK3CA in oncogenesis, where TP53 is inhibited through disruptive loss-of-function mutations, whereas PIK3CA is recurrently mutated in a manner that preserves protein structure and promotes constitutive pathway activation. This contrast reflects selective pressure toward disabling tumor suppressor function while maintaining persistent oncogenic signaling. CONCLUSIONS: Codon-aware neutral modeling provides a statistical framework for distinguishing mutations that deviate from stochastic expectations and may aid in the interpretation of variants of unspecified significance. By contextualizing mutational severity relative to neutral processes, this approach offers insight into tumor evolution and may support prognostic assessment without relying on predefined gene-level neutrality.",
+  "abstract_zh": "背景：基因突变已被证明是癌症和疾病进展的核心因素。传统的WXS测序和BLOSUM评分可用于推断氨基酸替换的进化保守性，但这些方法并未考虑可能的碱基对序列变化。在基因突变分析中，大多数工具独立关注氨基酸保守性或密码子转换，限制了其将观察到的突变置于随机突变过程背景下进行解读的能力。在临床环境中，意义未明的变异仍难以解释，因为临床医生往往无法确定观察到的突变是源于致癌选择还是随机突变退化。方法：我们分析了TCGA BRCA队列中TP53和PIK3CA的突变序列，并开发了一个模型，该模型整合了BLOSUM评分与碱基对变化的统计建模，以评估与密码子感知中性预期的偏差。将观察到的突变分布与随机中性模型进行比较，以评估统计显著性。结果：在TCGA BRCA队列中，TP53突变在密码子感知中性模型下显著比预期更具进化激进性，而PIK3CA突变则显著比预期更具进化保守性，这一结论通过卡方检验确定。这些相反的模式与TP53和PIK3CA在致癌作用中的不同功能角色一致，其中TP53通过破坏性功能丧失突变被抑制，而PIK3CA则以保留蛋白质结构并促进组成性通路激活的方式反复突变。这种对比反映了选择压力倾向于失活肿瘤抑制功能，同时维持持续的致癌信号传导。结论：密码子感知中性建模提供了一个统计框架，用于区分偏离随机预期的突变，并可能有助于解释意义未明的变异。通过将突变严重性与中性过程相关联，该方法提供了对肿瘤进化的洞察，并可能在不依赖预定义基因水平中性的情况下支持预后评估。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41595475/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41595475/",
+  "paper_page_path": "papers/pubmed/41595475/index.html"
+}

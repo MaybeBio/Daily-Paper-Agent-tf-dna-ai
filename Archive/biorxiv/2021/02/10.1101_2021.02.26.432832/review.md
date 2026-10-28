@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors report the crystal structure of the Ioc4-PWWP domain and characterize its function in isolation and within the Isw1b remodeller. They claim that Ioc4-PWWP preferentially binds H3K36me3-containing nucleosomes, that DNA binding is required for nucleosome binding, that a unique insertion motif enhances this binding, that H3K36me3 and DNA binding promote full-length Ioc4 nucleosome interaction in vitro and recruitment in vivo, and that a functional PWWP domain supports efficient remodelling, ordered chromatin, and suppression of non-coding RNAs.
+- **Visible evidence base** Abstract text only; no structural coordinates, biochemical data, in vivo datasets, or statistical details are available
+- **Missing materials affecting confidence** Full manuscript, methods, all figures and tables, structural validation data, experimental replicates, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and mechanistically plausible model linking H3K36me3 recognition and DNA binding by the Ioc4-PWWP domain to Isw1b recruitment and function. The claims are internally consistent and align with prior knowledge of PWWP domain biology and Isw1b function. However, the evidence base available for this review is limited to the abstract, which precludes independent verification of the structural, biochemical, and in vivo findings. The conclusions are promising but cannot be fully assessed without the underlying data.
+- **Who would be interested in the results, and why** Researchers studying chromatin remodelling, histone post-translational modification readout, PWWP domain structure and function, transcription-coupled chromatin maintenance, and mechanisms of non-coding RNA suppression would find these results relevant. The work also speaks to the broader question of how multivalent nucleosome interactions confer targeting specificity to chromatin enzymes.
+- **Major strengths** The abstract integrates structural, biochemical, and in vivo approaches to address a specific mechanistic question. The identification of a dual requirement for H3K36me3 and DNA binding in Ioc4 recruitment is a clear and testable model. The inclusion of a unique insertion motif as a contributing factor adds mechanistic depth. The connection to chromatin ordering and non-coding RNA suppression provides functional relevance beyond recruitment.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract states that the Ioc4-PWWP domain preferentially binds H3K36me3-containing nucleosomes and that DNA binding is required for nucleosome binding.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not provide quantitative binding data, such as dissociation constants, specificity comparisons against other histone methylations, or mutagenesis controls that distinguish the contributions of the PWWP aromatic cage versus the DNA-binding surface. Without these, the claim of preferential binding and the necessity of DNA binding cannot be evaluated.  
+  - **Why it matters** The central mechanistic claim rests on the relative and absolute contributions of two binding activities. If DNA binding is only ancillary rather than strictly required, the model changes substantially. The abstract does not allow the reader to assess the strength or specificity of the interactions.  
+  - **Resolution test** Provide binding curves or affinity measurements for Ioc4-PWWP against H3K36me3 nucleosomes, unmodified nucleosomes, and nucleosomes with mutated DNA surfaces, plus point mutants in the PWWP aromatic cage and the DNA-binding region. Show that loss of DNA binding abolishes nucleosome interaction under the same conditions used to demonstrate H3K36me3 preference.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that H3K36me3 and DNA binding are necessary for Ioc4 recruitment to gene bodies in vivo and that a fully functional PWWP domain promotes efficient remodelling and ordered chromatin.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No in vivo data are described, including the nature of the mutants used, the genomic assays performed, or the phenotypic readouts. The causal link between PWWP function and chromatin ordering or non-coding RNA suppression is asserted without any indication of effect sizes, statistical significance, or controls.  
+  - **Why it matters** The in vivo claims are the most consequential for the biological relevance of the study. Without details on mutant phenotypes and assay robustness, the reader cannot determine whether the observed effects are specific to the proposed mechanism or reflect indirect consequences of altered Isw1b stability or localization.  
+  - **Resolution test** Show chromatin immunoprecipitation or localization data for wild-type versus PWWP mutants in the H3K36me3-binding and DNA-binding surfaces, with corresponding nucleosome occupancy and non-coding RNA measurements. Include statistical comparisons and appropriate controls such as rescue experiments.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical validation  
+  - **Claim pointer** The abstract states that the crystal structure of the Ioc4-PWWP domain is presented.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No structural details are given, including resolution, refinement statistics, or whether the structure is in a free or ligand-bound state. The claim that the unique insertion motif contributes to DNA binding is not supported by any structural or mutational evidence in the abstract.  
+  - **Why it matters** Structural claims require validation of model quality and functional interpretation. Without these, the structural contribution to the mechanistic model cannot be assessed.  
+  - **Resolution test** Provide the structural statistics table, electron density quality for the insertion motif and DNA-binding surface, and mutagenesis data showing that deletion or alteration of the insertion motif reduces DNA binding and nucleosome interaction.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "furthered by the unique insertion motif" is vague. It is unclear whether the motif directly contacts DNA, stabilizes the domain, or enhances binding indirectly.  
+  - **Required correction** Specify the proposed mechanism for how the insertion motif contributes to DNA binding, and define "furthered" in quantitative terms.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Experimental scope  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not state whether the Ioc4-PWWP domain was tested against other histone methylations, such as H3K36me1 or H3K36me2, which would clarify the specificity of the preference for H3K36me3.  
+  - **Required correction** Include a statement on the methylation state specificity tested, or note that such data are presented in the full manuscript.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Statistical reporting  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No statistical measures or replicate numbers are mentioned for any of the biochemical or in vivo experiments.  
+  - **Required correction** Add a sentence in the abstract or methods indicating the number of replicates and the statistical tests used for key comparisons.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central mechanistic and functional claims cannot be evaluated from the abstract alone. R1-M3 is important but not blocking if the structural data are adequately validated in the full manuscript.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The dual requirement for histone methylation readout and DNA binding in a PWWP domain within a remodelling complex is a notable conceptual advance, though PWWP domains are known to bind DNA in other contexts. The specific application to Isw1b recruitment appears novel.  
+  - **Scientific importance** The findings have clear relevance to chromatin biology and transcription-coupled nucleosome maintenance. The link to non-coding RNA suppression adds potential physiological significance.  
+  - **Interdisciplinary readership** The work bridges structural biology, biochemistry, and genomics, which would appeal to a broad audience in chromatin and gene regulation.  
+  - **Technical soundness** Cannot be assessed from the abstract. The claims require rigorous quantitative binding data, structural validation, and robust in vivo experiments.  
+  - **Readability for nonspecialists** The abstract is concise and accessible, though some terms such as "remodeller function" and "ordered chromatin" could be clarified for a general audience.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The model is compelling and the abstract suggests a well-designed study, but the current evidence base is insufficient to establish the claims. Full review of the manuscript data is required before a definitive recommendation can be made.
+
+## Risk / unsupported claims
+- The claim that DNA binding is required for nucleosome binding is unsupported without quantitative binding data and mutagenesis controls.
+- The claim that H3K36me3 and DNA binding are necessary for in vivo recruitment is unsupported without localization or chromatin immunoprecipitation data.
+- The claim that a fully functional PWWP domain promotes efficient remodelling and ordered chromatin, thereby preventing non-coding RNA production, is unsupported without phenotypic and genomic data.
+- The structural claim regarding the unique insertion motif and its role in DNA binding is unverifiable from the abstract alone.

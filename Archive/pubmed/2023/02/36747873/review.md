@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific claims, methodology, and interpretability of the presented results, based solely on the provided text
+- **Shared manuscript claim summary** The authors introduce tiSFM, a neural network architecture for sequence-to-function prediction that is claimed to be intrinsically interpretable, outperforming a state-of-the-art CNN (AI-TAC) on hematopoietic open chromatin data while using fewer parameters, and providing biologically meaningful interpretations of internal model parameters without post hoc analyses.
+- **Visible evidence base** Main text, Methods, Results, Discussion, references to Figures 1–5, Tables S1–S2, Figures S1–S4
+- **Missing materials affecting confidence** Figures, tables, and supplementary materials are referenced but not provided; no code or data availability verification possible; no quantitative performance metrics (e.g., R² values, confidence intervals) are reported in the text
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually appealing architecture that aims to bridge predictive performance and interpretability in sequence-to-function modeling. The core idea of embedding prior TF motif knowledge into a neural network with interpretable parameters is timely and potentially valuable. However, the evidence provided in the text is insufficient to fully evaluate the claims. Key quantitative results, figure contents, and supplementary analyses are not accessible, limiting the ability to assess the strength of the performance claims and the biological validity of the interpretations. The manuscript would benefit from clearer reporting of metrics, more detailed methodological justifications, and a more critical discussion of limitations.
+- **Who would be interested in the results, and why** Researchers in computational genomics, regulatory genomics, and machine learning applied to biology would be interested. The work addresses a central challenge in deep learning for genomics: moving beyond black-box predictions toward interpretable models. The potential to identify lineage-specific transcription factors and regulatory mechanisms from model parameters directly could appeal to experimental biologists studying gene regulation and differentiation.
+- **Major strengths**  
+  - The architectural design is novel and thoughtfully motivated, integrating prior biological knowledge (PWMs) into a trainable framework.  
+  - The claim of intrinsic interpretability, if substantiated, would be a significant advance over post hoc attribution methods.  
+  - The application to a well-characterized hematopoietic differentiation dataset provides a relevant and challenging test case.  
+  - The inclusion of a "tree-diff" analysis to identify developmental transitions is a creative extension.
+- **Major Concerns**
+  - **Concern ID** R1-M1  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Evidence sufficiency  
+    - **Claim pointer** "tiSFM outperforms a state-of-the-art convolutional neural network model custom-tailored to this dataset"  
+    - **Evidence pointer** Figures 1B and 1C, Table S1; location not provided  
+    - **Concern** The claim of superior performance is central to the manuscript, but no quantitative metrics (e.g., R² values, standard errors, statistical significance) are reported in the text. The figures are referenced but not available for inspection. Without explicit numbers and error bars, the reader cannot assess the magnitude or reliability of the performance difference.  
+    - **Why it matters** The performance claim is a key justification for the architecture's utility. If the improvement is marginal or not statistically robust, the practical value of tiSFM is weakened.  
+    - **Resolution test** Provide mean R² (or equivalent) with standard errors for all models and cell-types, along with statistical tests (e.g., paired t-tests across folds) to demonstrate significant improvement over AI-TAC.
+  - **Concern ID** R1-M2  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Interpretability validation  
+    - **Claim pointer** "tiSFM’s model parameters have biologically meaningful interpretations" and "correctly identifies context specific activities of transcription factors"  
+    - **Evidence pointer** Figures 2A, 2B, 3A, 3B; location not provided  
+    - **Concern** The biological interpretability claims are supported by qualitative statements (e.g., Pax5, Ebf1 for B cells) but lack quantitative validation. For example, how is "correct" defined? Is there a comparison against known regulatory networks or expression data? The inclusion ratio metric is mentioned but not defined or contextualized. The relationship between pooling parameters and information content (Figure 3A) is described as a correlation, but the correlation coefficient and significance are not reported.  
+    - **Why it matters** The central novelty is interpretability. Without rigorous validation, the claim that the model parameters are biologically meaningful remains anecdotal.  
+    - **Resolution test** Provide quantitative assessments, such as enrichment of highlighted TFs against known lineage-specific regulators, correlation coefficients with significance for the pooling-information content relationship, and a clear definition of inclusion ratio with thresholds.
+  - **Concern ID** R1-M3  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Methodological clarity  
+    - **Claim pointer** "tiSFM is more performant than current state-of-the-art models" and "uses fewer parameters"  
+    - **Evidence pointer** Methods, Model Architecture; location not provided  
+    - **Concern** The description of the architecture is incomplete. The equations for data transformation, convolution, pooling, and interaction are given, but the exact dimensions, hyperparameters, and training details (e.g., learning rate schedule, batch size, number of epochs) are not fully specified. The claim of "fewer parameters" is not quantified.  
+    - **Why it matters** Reproducibility is a cornerstone of scientific contribution. Without full architectural and training details, other researchers cannot implement or fairly compare tiSFM.  
+    - **Resolution test** Provide a complete specification of the architecture, including layer sizes, parameter counts, and training hyperparameters, possibly in a supplementary table.
+  - **Concern ID** R1-M4  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Generalizability  
+    - **Claim pointer** "tiSFM presents a step forward in interpretable sequence-to-function modeling and can readily be applied to contexts other than modeling open chromatin"  
+    - **Evidence pointer** Discussion; location not provided  
+    - **Concern** The generalizability claim is speculative. The model is tested on a single dataset (hematopoietic ATAC-seq) with a specific set of PWMs. It is unclear how the architecture would perform on other sequence-to-function tasks (e.g., RNA expression, protein binding) or with different motif databases.  
+    - **Why it matters** The broader impact of the work depends on its applicability beyond the presented case. Without evidence of transferability, the claim is unsupported.  
+    - **Resolution test** Include preliminary results on at least one additional dataset or task, or clearly frame the generalizability as a hypothesis for future work.
+- **Minor Comments**
+  - **Concern ID** R1-m1  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Abstract and Introduction  
+    - **Evidence pointer** Abstract, Introduction; location not provided  
+    - **Issue** The term "totally interpretable" is used without a precise definition. It is unclear what "totally" means in this context, especially given that the interaction layer is not cell-type specific and the model still requires some interpretation of parameters.  
+    - **Required correction** Define the scope of interpretability explicitly, acknowledging any limitations.
+  - **Concern ID** R1-m2  
+    - **Severity** Minor  
+    - **Axis** Reporting  
+    - **Affected element** Results, "Kernel fine-tuning" section  
+    - **Evidence pointer** Section "Kernel fine-tuning does not alter model interpretability"; location not provided  
+    - **Issue** The average MSE of 0.04 between initial and fine-tuned kernels is reported without context. It is unclear if this is a small or large change relative to the scale of the weights.  
+    - **Required correction** Provide a baseline or normalized measure of change, such as relative MSE or a visual comparison.
+  - **Concern ID** R1-m3  
+    - **Severity** Minor  
+    - **Axis** Statistical rigor  
+    - **Affected element** Results, "Sparsity constraints" section  
+    - **Evidence pointer** Figure 4A; location not provided  
+    - **Issue** The statement that sparsity "does not substantially improve model performance" is vague. It is unclear whether performance is maintained, slightly worse, or variable across cell-types.  
+    - **Required correction** Report the range of performance changes across cell-types and indicate whether any differences are statistically significant.
+  - **Concern ID** R1-m4  
+    - **Severity** Minor  
+    - **Axis** Accessibility  
+    - **Affected element** Methods, "Data Processing"  
+    - **Evidence pointer** Methods; location not provided  
+    - **Issue** The description of the "tree-diff" transformation is brief. The parent-child relationships in the hematopoietic lineage tree are not fully defined, and the rationale for this transformation could be clearer.  
+    - **Required correction** Provide a more detailed explanation of the lineage tree construction and the tree-diff calculation, possibly with a schematic.
+- **Technical failings that need to be addressed before the case is established**  
+  - Lack of quantitative performance metrics (R², standard errors, statistical tests) for the main comparison against AI-TAC.  
+  - Incomplete architectural and training details, hindering reproducibility.  
+  - Insufficient validation of biological interpretability claims, with no quantitative enrichment or correlation analyses.  
+  - Unsupported generalizability claims beyond the single dataset tested.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The architecture is original in its explicit integration of prior motif knowledge into a fully interpretable framework, distinguishing it from post hoc interpretation approaches. This is a creative contribution.  
+  - **Scientific importance** The problem of interpretability in deep learning for genomics is of high importance. If the claims are substantiated, the work could influence future model design. However, the current evidence is insufficient to establish this impact.  
+  - **Interdisciplinary readership** The work bridges machine learning and regulatory genomics, and would appeal to both communities. The writing is generally accessible, though some methodological details may be challenging for non-specialists.  
+  - **Technical soundness** The methodological approach is plausible, but the lack of quantitative results and full specifications prevents a thorough assessment of technical rigor.  
+  - **Readability for nonspecialists** The manuscript is reasonably well-written, with clear motivation and context. However, the results section relies heavily on figures that are not provided, making it difficult for any reader to follow the evidence.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims of performance and interpretability are promising but not adequately supported by the accessible material. The manuscript would be suitable for reconsideration after major revisions that include quantitative results, full methodological details, and rigorous validation of the interpretability claims.
+
+## Risk / unsupported claims
+- The claim that tiSFM "outperforms" AI-TAC is unsupported without quantitative metrics and statistical tests.
+- The claim that internal parameters are "intrinsically interpretable" is not rigorously validated; the text provides qualitative examples but no systematic assessment.
+- The claim that tiSFM "can readily be applied to contexts other than modeling open chromatin" is speculative and not supported by evidence.
+- The statement that "learning the right TF binding preferences is critical to good performance" is an interpretation that is not directly tested.
+- The claim that the interaction layer provides "extensive homotypic and heterotypic TF-TF interaction insights" is not substantiated with specific examples or validation.

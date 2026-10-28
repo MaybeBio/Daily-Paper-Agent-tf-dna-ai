@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report that the nuclear receptor transcription factor SlHR96 is overexpressed in indoxacarb-resistant strains of *Spodoptera litura*, is upregulated upon indoxacarb exposure, regulates the expression of four detoxification genes (SlCOE050, SlCOE090, SlUGT33J17, SlABCB3-2) via direct promoter binding, and that SlHR96 protein can bind indoxacarb and its metabolite DCJW. They conclude that SlHR96 senses indoxacarb stress and rapidly upregulates multiple detoxification genes, conferring resistance.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, or figures provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analyses, strain characterization data, knockdown validation data, promoter binding assay details, molecular modeling parameters, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting regulatory mechanism for insecticide resistance involving a nuclear receptor. The logical flow from overexpression to functional validation to promoter binding is coherent. However, the abstract alone provides insufficient detail to assess the robustness of the experimental evidence, the specificity of the proposed mechanism, or the quantitative support for the conclusions. Several claims require additional context and data to be fully evaluated.
+- **Who would be interested in the results, and why** Researchers in insect toxicology, pesticide resistance management, and molecular entomology would be interested. The work addresses a fundamental question about how insects coordinately upregulate multiple detoxification genes, which has implications for understanding resistance evolution and designing resistance management strategies. The involvement of a nuclear receptor as a sensor of insecticide stress could also interest those studying xenobiotic sensing in insects.
+- **Major strengths** The study addresses an important and understudied question regarding the regulatory mechanisms underlying coordinated detoxification gene overexpression. The combination of gene knockdown, promoter binding assays, and molecular docking provides a multi-level approach. The identification of a single transcription factor regulating multiple resistance-related genes is mechanistically significant and could have practical implications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that SlHR96 knockdown suppressed expression of multiple detoxification genes and increased susceptibility to indoxacarb
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that SlHR96 knockdown suppressed expression of four genes and increased susceptibility, but provides no quantitative data. It is unclear whether the suppression was partial or complete, whether all four genes were affected to similar degrees, and what magnitude of change in susceptibility was observed. Without effect sizes, statistical significance, and replication details, the strength of this functional link cannot be assessed.
+  - **Why it matters** The central conclusion that SlHR96 regulates resistance depends on demonstrating that its knockdown produces biologically meaningful changes in both gene expression and phenotypic susceptibility. If the effects are small or variable, the proposed regulatory role may not be physiologically relevant.
+  - **Resolution test** Provide quantitative data showing fold-change in expression of each detoxification gene upon SlHR96 knockdown, with statistical comparisons, and bioassay data showing mortality or LD50 shifts with confidence intervals and replication numbers.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of regulation
+  - **Claim pointer** The claim that SlHR96 binds to the promoters of SlCOE050, SlCOE090, SlUGT33J17 and SlABCB3-2
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports dual-luciferase reporter assays and yeast one-hybrid assays verified binding, but does not indicate whether binding was specific to these promoters or whether SlHR96 also binds other promoters. It is unclear whether the binding sites are conserved, what the binding affinities are, and whether the assays included appropriate negative controls. The abstract also does not state whether SlHR96 acts directly as a transcriptional activator or whether co-factors are involved.
+  - **Why it matters** Establishing direct and specific promoter binding is essential to support the claim that SlHR96 is a master regulator of these genes. If binding is weak or non-specific, the regulatory model would need revision.
+  - **Resolution test** Show representative binding data with positive and negative controls, report binding affinities or relative activities, and identify the specific response elements in each promoter.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic link between ligand binding and regulation
+  - **Claim pointer** The claim that SlHR96 can bind indoxacarb and DCJW and that this sensing leads to rapid regulation of detoxification genes
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports molecular modeling and docking showing SlHR96 can bind indoxacarb and DCJW, but does not provide any functional evidence that such binding triggers transcriptional activation. Docking studies are predictive and do not demonstrate that ligand binding causes a conformational change leading to promoter activation. The abstract also does not clarify whether DCJW is the active metabolite in vivo or whether indoxacarb itself is the relevant ligand.
+  - **Why it matters** The proposed model that SlHR96 senses insecticide stress and rapidly upregulates detoxification genes requires evidence that ligand binding is functionally coupled to transcriptional activity. Without this, the sensing role remains speculative.
+  - **Resolution test** Provide functional assays such as ligand-dependent transactivation assays in cell culture, or mutagenesis of the predicted ligand-binding domain to show loss of function, and demonstrate that indoxacarb or DCJW exposure induces SlHR96-dependent promoter activation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Strain description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "indoxacarb-resistant strains" without specifying how many strains were used, their resistance levels, or how they were generated.
+  - **Required correction** Specify the number of resistant strains, their resistance ratios, and whether they were field-collected or laboratory-selected.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Gene selection rationale
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not explain why these four particular detoxification genes were selected for study, or whether they represent a broader set of SlHR96 targets.
+  - **Required correction** State the criteria for gene selection and indicate whether genome-wide or transcriptome-wide approaches were used to identify SlHR96 targets.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "rapidly"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract concludes that SlHR96 "rapidly" regulates gene overexpression, but no temporal data are presented to support the term "rapid."
+  - **Required correction** Either provide time-course data showing the kinetics of gene induction or remove the term "rapidly" from the conclusion.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The functional significance of SlHR96 knockdown, the specificity of promoter binding, and the functional coupling of ligand binding to transcriptional activation are all essential to the central claims and cannot be evaluated from the abstract alone.
+- **Assessment against Nature-style criteria** Originality: The concept of a nuclear receptor coordinating multiple detoxification genes in insecticide resistance is not entirely novel but is underexplored in this context. Scientific importance: The work could be important for resistance management, but the significance depends on the robustness of the mechanistic evidence. Interdisciplinary readership: The topic is primarily of interest to insect toxicologists and molecular biologists; broader appeal is limited. Technical soundness: Cannot be assessed from the abstract; requires full methods and data. Readability for nonspecialists: The abstract is reasonably clear but uses specialized terminology without sufficient context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible model, but the key mechanistic claims require quantitative data and functional validation that are not visible in the abstract. A supportive recommendation would require the full manuscript to address the concerns raised.
+
+## Risk / unsupported claims
+- The claim that SlHR96 "rapidly" regulates gene overexpression is unsupported by temporal data.
+- The claim that SlHR96 "senses" indoxacarb and DCJW is speculative without functional ligand-response assays.
+- The claim that SlHR96 regulates "multiple" detoxification genes is supported only for four genes, and it is unclear whether these are representative or exhaustive.
+- The general statement that this work is "critical for a deeper understanding of the regulatory mechanism of insecticide resistance" is an overstatement without broader contextual evidence.

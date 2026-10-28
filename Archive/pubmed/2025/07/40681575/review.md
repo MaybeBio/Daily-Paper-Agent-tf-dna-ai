@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Results, Discussion, Methods) without supplementary files
+- **Assessment boundary** Scientific soundness, methodological rigor, internal consistency, and support of conclusions based solely on the provided main text
+- **Shared manuscript claim summary** The authors used a machine learning model (NR-Toxpred) to screen 57,277 chemicals for potential RXR binding, selected six tert-butylphenols from a cluster analysis, and tested them in vitro (Tox21 cHTS data) and in vivo (Xenopus laevis precocious metamorphosis assays). They report that three compounds (4E-DTBP, 4sB-DTBP, TTBP) potentiate T3 action in vivo at nanomolar concentrations, while predicted-inactive compounds do not, and they propose a structural basis for this activity based on molecular dynamics simulations.
+- **Visible evidence base** Main text figures (Figs 1–4), Tables 1–2, Methods section, in-text references to supplementary figures and tables
+- **Missing materials affecting confidence** Supplementary Information (Figures S1–S10, Table S1) not provided; raw data files not provided; Tox21 assay protocol details not provided; statistical output tables not provided
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially valuable workflow integrating computational screening, in vitro data, and in vivo validation to identify RXR-active food contact chemicals. The central finding, that three tert-butylphenols potentiate T3 signaling in a vertebrate model at sub-micromolar concentrations, is of public health relevance. However, several technical concerns limit the strength of the conclusions as currently presented, particularly regarding the statistical analysis of the in vivo data, the interpretation of the MM-PBSA results, and the lack of dose-response data for key endpoints.
+- **Who would be interested in the results, and why** Researchers in environmental toxicology, endocrine disruption, food safety, and computational toxicology would be interested. The work bridges in silico screening and whole-organism validation, which is a growing priority for regulatory toxicology. The identification of specific food contact chemicals with RXR activity could inform risk assessment and prioritization efforts.
+- **Major strengths** (1) The integration of multiple complementary approaches (ML prediction, docking, MM-PBSA, in vitro cHTS, in vivo transgenic reporter, and morphology) provides a comprehensive pipeline. (2) The use of a developmentally relevant vertebrate model with a clean thyroid hormone background (pre-metamorphic tadpoles) is methodologically sound. (3) The inclusion of a predicted-inactive compound (2,6-DTBP) as a negative control strengthens the structure-activity argument. (4) The public health relevance of the identified compounds is clearly articulated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** "4E-DTBP, 4sB-DTBP, and TTBP were all able to significantly potentiate TH action in an in vivo model for RXR interactions in TH signaling in the nanomolar exposure range"
+  - **Evidence pointer** Figure 3, Figure 4, Methods (Tadpole luciferase assay, Tadpole precocious metamorphosis morphology assay)
+  - **Concern** The statistical analysis of the in vivo data is inadequately described. The Methods state that "Brown-Forsythe and Welch ANOVAs were used" and "Dunnet's T3 multiple comparisons test was used," but no details are provided on how many independent experiments were performed, whether the data from different clutches were pooled, how the "significance" thresholds were set, or whether multiple-comparison corrections were applied across the full set of compounds tested. The figures show significance stars but no error bars or data point distributions, making it impossible to assess the magnitude and reliability of the reported effects. Furthermore, the claim of "nanomolar exposure range" is based on nominal water concentrations, not measured or internal exposure levels.
+  - **Why it matters** The central conclusion of the paper, that specific food contact chemicals potentiate TH signaling in vivo, rests entirely on these statistical comparisons. Without transparent reporting of the statistical design, the effect sizes, and the variability, the reader cannot evaluate the robustness of the finding. This is particularly important given the small effect sizes typically seen in such developmental assays and the potential for clutch effects.
+  - **Resolution test** Provide full statistical details: number of independent biological replicates (clutches), number of animals per group, the exact model used (e.g., mixed-effects model with clutch as random effect), the multiple-comparison correction method, and effect sizes with confidence intervals. Show individual data points on all figures. If the data are not normally distributed, justify the use of parametric tests or use appropriate non-parametric alternatives.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dose-response and exposure relevance
+  - **Claim pointer** "the most potent RXR agonism by 2,6-tert-butylphenols was observed with those containing butyl groups at the C4 position, with the ability to activate RXR decreasing with decreasing size of the R-group"
+  - **Evidence pointer** Figure 2, Figure 3, Figure 4
+  - **Concern** The manuscript does not present dose-response data for any of the active compounds. The in vivo experiments appear to have been conducted at single concentrations (the text mentions 100 nM, 300 nM, 1000 nM for different compounds, but the rationale for these concentrations is not given). The in vitro cHTS data are presented as heat maps (Fig 2b,c) but the actual concentration-response curves are not shown. Without dose-response information, the claim of a structure-activity relationship (bulkier group = more potent) is not supported, as potency cannot be distinguished from efficacy at a single concentration. Moreover, the relevance of the tested concentrations to real human exposure levels is not discussed.
+  - **Why it matters** For a paper whose title emphasizes "in silico to in vivo," the lack of dose-response data weakens the translational claim. The structure-activity relationship is a key conclusion, but it is based on single-point comparisons. The exposure relevance argument, which is central to the public health framing, requires at least a discussion of whether the active concentrations are plausibly encountered in humans.
+  - **Resolution test** Provide full dose-response curves for at least the three active compounds in the in vitro assays, and ideally in the in vivo luciferase assay. If dose-response in vivo is not feasible, provide a clear justification for the chosen concentrations and a discussion of human exposure levels relative to the active concentrations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational methodology validation
+  - **Claim pointer** "The docking scores and binding free energy (MM-PBSA) results are summarized for the 104 chemicals in the supplementary information Table S1"
+  - **Evidence pointer** Figure 1, Table 2, Methods (Molecular docking, Single point MM-PBSA, Molecular dynamic simulation)
+  - **Concern** The computational pipeline is described but not validated. No positive or negative controls are presented for the docking or MM-PBSA calculations. The manuscript does not report how the docking scores correlate with known RXR ligand binding affinities, nor is there any benchmarking of the MM-PBSA approach against experimentally determined binding free energies. The MM-PBSA values in Table 2 show a wide range, but the error estimates (standard deviations) are not reported. The claim that the three active compounds have "strong binding affinities" is based on ΔGbind values that are not compared to any reference ligand (e.g., 9-cis RA or bexarotene) in the same computational setup.
+  - **Why it matters** The in silico predictions are the foundation of the compound selection. If the computational methods are not validated, the selection of compounds for in vivo testing could be biased or arbitrary. The lack of error estimates on the MM-PBSA values makes it impossible to assess whether the differences between active and inactive compounds are meaningful.
+  - **Resolution test** Add a validation section showing that the docking and MM-PBSA methods can correctly rank known RXR ligands (e.g., 9-cis RA, bexarotene, TBT-Cl) relative to known non-binders. Report standard deviations for all MM-PBSA values. Include a comparison of the calculated ΔGbind for the active compounds with that of a known high-affinity RXR ligand calculated using the same protocol.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Compound selection and representativeness
+  - **Claim pointer** "we chose six members of the butylphenol cluster that appear in the Food Contact Chemicals Database"
+  - **Evidence pointer** Results (In silico analysis), Table 1
+  - **Concern** The selection of the six compounds for testing is not fully justified. The authors state that they chose "six members of the butylphenol cluster," but the criteria for selecting these specific six from the 58 compounds in Cluster 1 are not given. The negative control (2,6-DTBP) is described as "predicted to be inactive by ML," but it is not clear whether this compound was part of the original 104 predicted actives or was added separately. The selection of E703, which has a tertiary amine rather than an alkyl group, is also not explained.
+  - **Why it matters** The representativeness of the tested compounds affects the generalizability of the conclusions. If the six compounds were selected based on availability or other non-scientific criteria, the structure-activity conclusions could be biased.
+  - **Resolution test** Provide a clear description of the selection criteria for the six compounds, including why these specific compounds were chosen from the cluster. Clarify whether 2,6-DTBP was among the 104 predicted actives or was added as a separate negative control.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3
+  - **Issue** The figure legend states "Statistics were calculated as stated in the methods" but does not indicate what the error bars represent (SEM, SD, 95% CI). The figure appears to show bar graphs without individual data points.
+  - **Required correction** Add error bar definition to the legend and show individual data points as overlaid scatter plots.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Results section (In vivo disruption)
+  - **Evidence pointer** Results (In vivo disruption), Figure 3
+  - **Issue** The text states "we exposed 1-week old tadpoles for two days to 25 nM T3" for the luciferase assay, but the morphology assay used "10 nM T3" for five days. The rationale for using different T3 concentrations in the two assays is not explained.
+  - **Required correction** Provide a brief justification for the different T3 concentrations used in the two assays.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Methods (Tadpole luciferase assay)
+  - **Evidence pointer** Methods (Tadpole luciferase assay)
+  - **Issue** The Methods state that "3–4 clutches (10 animals per clutch) were assayed independently," but the statistical analysis section does not describe how clutch-to-clutch variability was handled in the final analysis.
+  - **Required correction** Describe whether clutch was included as a random effect in the statistical model or whether data were pooled after confirming no clutch effect.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Title and Abstract
+  - **Evidence pointer** Title, Abstract
+  - **Issue** The title states "An in silico to in vivo approach," but the in vitro Tox21 data are also a key component. The title may underrepresent the full scope of the work.
+  - **Required correction** Consider revising the title to reflect the inclusion of in vitro data, e.g., "An in silico to in vivo approach identifies retinoid-X receptor activating tert-butylphenols used in food contact materials" could be amended to include "in vitro and in vivo validation."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Not present in the provided text
+  - **Issue** No data availability statement is present in the provided text. Given the computational nature of the work, the authors should state where the ML predictions, docking scores, and MM-PBSA data are deposited.
+  - **Required correction** Add a data availability statement indicating where all computational data and analysis scripts can be accessed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical reporting) and R1-M2 (dose-response) are the most critical. Without transparent statistics and dose-response data, the central claims of in vivo activity and structure-activity relationships are not fully supported. R1-M3 (computational validation) is also important, as the in silico pipeline is the foundation of the compound selection.
+- **Assessment against Nature-style criteria** Originality: The integration of ML screening with in vivo validation in a developmental model is a useful contribution, though the individual components are not novel. Scientific importance: The identification of specific food contact chemicals with RXR activity at sub-micromolar concentrations is of public health relevance, but the broader significance depends on exposure assessment and mechanistic depth, which are not fully addressed. Interdisciplinary readership: The work bridges computational chemistry, toxicology, and developmental biology, which could attract a broad readership. Technical soundness: The in vivo model is well-established, but the statistical reporting and lack of dose-response data are significant weaknesses. Readability for nonspecialists: The manuscript is generally well-written and accessible, though the computational methods section may be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept and the in vivo model are appropriate, and the findings are potentially important. However, the statistical reporting, dose-response data, and computational validation need to be substantially improved before the conclusions can be considered robust.
+
+## Risk / unsupported claims
+- The claim that the three active compounds "potentiate T3 action in the nanomolar exposure range" is not fully supported without dose-response data and measured exposure concentrations.
+- The structure-activity relationship claim (bulkier group at C4 = more potent) is based on single-concentration comparisons and is therefore not robustly established.
+- The statement that "104 chemicals were considered reliable" based on applicability domain analysis is not verifiable without details on the applicability domain assessment.
+- The claim that the computational predictions are "high confidence" is not supported by any validation against known RXR ligands.
+- The statement that 2,4-DTBP "caused 100% lethality in less than 24 h" at 100 nM is reported without supporting data or a reference to supplementary material.
+- The assertion that "the three positive compounds we focused on all potentiated TH action in a precocious metamorphosis model at sub-micromolar concentrations" is based on the luciferase and morphology assays, but the morphology data are only presented in supplementary figures that were not provided for review.

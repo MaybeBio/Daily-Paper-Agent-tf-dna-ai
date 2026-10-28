@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text, including Summary, Introduction, Results, Discussion, STAR Methods, and Supplemental information descriptions.
+- **Assessment boundary** Scientific validity, technical soundness, and support for claims based solely on the provided manuscript content. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors report the design and characterization of small molecule inhibitors targeting the PBX1 transcription factor at its protein-DNA interaction interface. They propose that PBX1 is overexpressed in multiple cancers, that their lead compound T417 destabilizes the PBX1-DNA complex, inhibits PBX1 transcriptional activity, suppresses growth of PBX1-high cancer cells, and re-sensitizes platinum-resistant ovarian cancer models to carboplatin, with minimal toxicity in mice.
+- **Visible evidence base** Western blots of PBX1 expression in human tissues and mouse models (Figure 1A, 1B); Kaplan-Meier survival analyses (Figure 1C-1E); docking analysis (Figure 2A); EMSA dose-response data (Figure 2B); CETSA data (Figure 3A-3C); SPR binding and competition data (Figure 3D-3F); luciferase reporter assay (Figure 5A); ChIP-qPCR (Figure 5B); qRT-PCR (Figure 5C); cytotoxicity correlations across cell lines (Figure 5D, 5E); GSEA (Figure 5F, 5G); Western blots of resistant cell lines (Figure 6A); viability assays (Figure 6B); spheroid assays (Figure 6C); combination treatment viability (Figure 6D); xenograft tumor growth data (Figure 7B-7G); toxicity data (Figures S3-S5).
+- **Missing materials affecting confidence** Chemical structures of the compounds are not shown in the main text or figures provided. Synthetic procedures and compound characterization data are not included. Purity and solubility data are limited to computational predictions (XLogP). No crystallographic or biophysical structural data confirming the proposed binding mode are provided. The identity of the "earlier compound D46" and its comparison data are only mentioned in the Discussion. Statistical details for several experiments (e.g., number of replicates, error bar definitions) are incomplete. The specific PBX1 DNA-binding domain construct used for SPR is not described in sufficient detail.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and challenging problem, namely the pharmacological targeting of a transcription factor through disruption of its protein-DNA interaction. The authors provide a multi-pronged dataset spanning biochemical, biophysical, cellular, and in vivo experiments. The central claim, that T417 is a specific inhibitor of PBX1-DNA binding with therapeutic potential, is plausible but not fully established from the evidence presented. Key gaps include the absence of compound structures, limited selectivity data, and incomplete mechanistic validation. The work is of interest to the cancer biology and drug discovery communities, but the current evidence does not fully support the strength of the conclusions drawn.
+- **Who would be interested in the results, and why** Cancer biologists studying transcriptional dependencies in ovarian and breast cancer would find the PBX1 axis relevant. Drug discovery researchers interested in targeting transcription factors, a class historically considered undruggable, would be interested in the approach. Clinicians focused on platinum-resistant ovarian cancer might see translational potential. The work also speaks to the broader field of structure-guided inhibitor design against protein-DNA interfaces.
+- **Major strengths** The study tackles a difficult target class and provides a clear rationale for PBX1 as a therapeutic target. The combination of computational docking, biochemical assays (EMSA, CETSA, SPR), transcriptional readouts (reporter, ChIP, qRT-PCR), and in vivo efficacy models is comprehensive. The correlation between PBX1 expression and drug sensitivity across a panel of cell lines and primary cultures is a useful finding. The toxicity assessment in mice, albeit limited, is a positive step for a first-in-class inhibitor.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that T417 binds to the PBX1-DNA interface and destabilizes the complex, supported by docking, EMSA, CETSA, and SPR.
+  - **Evidence pointer** Figure 2A, 2B; Figure 3A-3F; Methods sections "Electrophoretic mobility shift assay", "Cellular thermal shift assay", "Surface plasmon resonance"
+  - **Concern** The chemical structures of T417 and its analogs are not provided anywhere in the manuscript. Without structures, the reader cannot assess the medicinal chemistry rationale, the basis for analog selection, or the potential for off-target effects. Furthermore, the SPR experiments use a PBX1 DNA-binding domain construct, but the exact protein boundaries, purity, and activity of this recombinant protein are not described. The CETSA experiments are performed in cells overexpressing PBX1-V5, but the specificity of the thermal shift for PBX1 over other cellular proteins is not demonstrated. The docking pose is presented as a static image without validation by mutagenesis or co-crystallization.
+  - **Why it matters** The central mechanism of action rests on the physical interaction between T417 and PBX1. Without compound structures and rigorous biophysical validation, the claim that T417 specifically binds the PBX1-DNA interface is not verifiable. This is the foundation of the entire study.
+  - **Resolution test** Provide the chemical structures of all compounds. Include a detailed description of the recombinant PBX1 protein used in SPR, including purity and functional activity. Perform mutagenesis of the proposed binding pocket residues (e.g., H205, K266, R288, I289, K292) and show loss of T417 binding or activity. Ideally, obtain a co-crystal structure of T417 with the PBX1 DNA-binding domain.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that T417 selectively suppresses the growth of PBX1-high cancer cells and that PBX1 expression levels predict response to the inhibitor.
+  - **Evidence pointer** Figure 5D, 5E; Figure 6B; Figure 7B-7G
+  - **Concern** The correlation between PBX1 expression and drug sensitivity is based on a panel of cell lines, but the number of cell lines, their tissue origins, and the range of PBX1 expression levels are not fully described. The claim of selectivity is weakened by the lack of a negative control cell line with very low or absent PBX1 expression that is otherwise matched for genetic background. The in vivo experiments use only two xenograft models (A2780 and SKOV3-CR), and the comparison to parental SKOV3 is limited. The authors do not show whether T417 affects normal PBX1-expressing tissues in vivo beyond the limited toxicity readouts.
+  - **Why it matters** The therapeutic window of a PBX1 inhibitor depends on its selectivity for cancer cells over normal cells. If PBX1 is required for normal tissue homeostasis, the observed minimal toxicity in mice may not translate to humans. The predictive value of PBX1 expression as a biomarker is a key translational claim that requires a more robust dataset.
+  - **Resolution test** Expand the cell line panel to include a wider range of PBX1 expression levels and tissue types. Include isogenic cell lines with PBX1 knockout or knockdown to demonstrate on-target effects. In vivo, include a model with low PBX1 expression as a negative control and assess PBX1 pathway engagement in normal tissues.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that T417 re-sensitizes platinum-resistant tumors to carboplatin, based on in vitro and in vivo combination studies.
+  - **Evidence pointer** Figure 6D; Figure 7D-7G
+  - **Concern** The combination index or statistical interaction between T417 and carboplatin is not rigorously analyzed. The in vivo combination group is compared to single agents, but the dosing schedule, the timing of measurements, and the criteria for "re-sensitization" are not clearly defined. The mechanism by which PBX1 inhibition restores platinum sensitivity is not experimentally addressed, despite the Discussion referencing glutathione and estrogen pathways.
+  - **Why it matters** The claim of re-sensitization is clinically important, but without a clear demonstration of synergy or additivity and without mechanistic insight, the conclusion is premature.
+  - **Resolution test** Perform formal combination index analysis (e.g., Chou-Talalay) in vitro. In vivo, use a factorial design with multiple dose levels and assess tumor growth delay and survival. Provide mechanistic data linking PBX1 inhibition to platinum sensitivity, such as measurements of glutathione levels or DNA repair markers.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that T417 displays minimal toxicity in mice based on hematologic, clinical chemistry, and histologic analyses.
+  - **Evidence pointer** Figures S3-S5
+  - **Concern** The toxicity study is limited to a single dose and a short duration (3 weeks). The number of mice per group, the specific parameters measured, and the statistical analysis are not fully described. The lack of observed toxicity at 5 mg/kg does not establish a therapeutic index, as the maximum tolerated dose and the dose-response relationship for efficacy are not defined.
+  - **Why it matters** A claim of minimal toxicity is only meaningful in the context of an efficacious dose. Without a dose-escalation study and a clear margin between efficacy and toxicity, the safety profile is not established.
+  - **Resolution test** Conduct a formal dose-escalation toxicity study with multiple dose levels, including a dose that exceeds the efficacious dose. Measure a comprehensive panel of toxicity markers and assess recovery after treatment cessation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The Introduction is dense and assumes familiarity with ovarian cancer subtypes and molecular pathways. The connection between PBX1, Notch3, and platinum resistance is stated but not explained clearly for a general readership.
+  - **Required correction** Briefly explain the Notch3-PBX1 axis and why PBX1 is a relevant downstream target. Define HGSC and other subtypes at first mention.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 5D, 5E
+  - **Evidence pointer** Figure 5D, 5E; Methods "Drug sensitivity and cell viability assay"
+  - **Issue** The correlation between PBX1 expression and IC50 is presented as a Pearson correlation coefficient, but the number of cell lines and the scatter plot are not shown. The statistical significance of the correlation is not reported.
+  - **Required correction** Provide the scatter plot with the number of cell lines, the Pearson r value, and the p value. State the tissue origins of the cell lines.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 3D-3F
+  - **Evidence pointer** Figure 3D-3F; Methods "Surface plasmon resonance"
+  - **Issue** The SPR data are described as showing binding of PBX1 to DNA and competition by T417, but the kinetic parameters (ka, kd, KD) for the T417-PBX1 interaction are not reported. The IC50 from SPR (5 µM) is mentioned but the fitting model and the quality of the fit are not described.
+  - **Required correction** Report the kinetic parameters for T417 binding to PBX1, if measured, or state that only competition was assessed. Describe the data fitting model and the goodness of fit.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The Discussion claims that T417 is the "first successful class of compounds" targeting PBX1-DNA interaction. This is a strong claim that is not supported by a comprehensive literature review.
+  - **Required correction** Soften the claim to "to our knowledge" and cite any prior attempts to target PBX1 or related TALE homeodomain proteins.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods "Cellular thermal shift assay"
+  - **Evidence pointer** Methods "Cellular thermal shift assay"
+  - **Issue** The CETSA method describes treatment of cells with 50 µM compound, which is a high concentration. The relevance of this concentration to the IC50 values in cellular assays is not discussed.
+  - **Required correction** Discuss the relationship between the CETSA concentration and the functional concentrations used in proliferation or reporter assays.
+- **Assessment against Nature-style criteria** Originality: The approach of targeting a transcription factor at its DNA interface is not entirely new, but the specific focus on PBX1 and the compound series described here represent a novel contribution. Scientific importance: The work addresses a clinically relevant problem, platinum resistance in ovarian cancer, and identifies a potentially druggable target. The importance is moderate to high, contingent on the validity of the selectivity claims. Interdisciplinary readership: The work bridges structural biology, medicinal chemistry, and cancer biology, and would appeal to readers across these fields. Technical soundness: The experimental design is generally sound, but key technical details are missing, particularly compound structures, protein characterization, and statistical rigor. Readability for nonspecialists: The manuscript is written in a style accessible to a broad scientific audience, though the Introduction and Discussion assume some background in cancer biology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept is promising and the dataset is extensive, but the missing compound structures, incomplete biophysical validation, and insufficient selectivity data prevent the claims from being fully established. The authors should address the blocking concerns before the case for a novel PBX1-targeting therapeutic strategy can be considered robust.
+
+## Risk / unsupported claims
+- The claim that T417 is the "first successful class of compounds" targeting PBX1-DNA interaction is not supported by a comprehensive literature search.
+- The claim that PBX1 expression levels predict response to T417 is based on a limited cell line panel and requires validation in a larger, more diverse dataset.
+- The claim of minimal toxicity is based on a short-term, single-dose study and does not establish a therapeutic index.
+- The proposed binding mode of T417 to the PBX1 DNA-binding groove is based solely on computational docking and is not validated by mutagenesis or structural data.
+- The mechanism by which T417 re-sensitizes platinum-resistant cells is not experimentally addressed, despite being a central translational claim.

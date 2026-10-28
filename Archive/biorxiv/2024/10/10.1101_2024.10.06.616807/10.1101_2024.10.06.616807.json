@@ -1,0 +1,504 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.06.616807",
+  "title": "E(Q)AGNN-PPIS: Attention Enhanced Equivariant Graph Neural Network for Protein-Protein Interaction Site Prediction",
+  "doi": "10.1101/2024.10.06.616807",
+  "abstract": "Identifying protein binding sites, the specific regions on a protein’s surface where interactions with other molecules occur, is crucial for understanding disease mechanisms and facilitating drug discovery. Although numerous computational techniques have been developed to identify protein binding sites, serving as a valuable screening tool that reduces the time and cost associated with conventional experimental approaches, achieving significant improvements in prediction accuracy remains a formidable challenge. Recent advancements in protein structure prediction, notably through tools like AlphaFold, have made vast numbers of 3-D protein structures available, presenting an opportunity to enhance binding site prediction methods. The availability of detailed 3-D structures has led to the development of Equivariant Graph Neural Networks (GNNs), which can analyze complex spatial relationships in protein structures while maintaining invariance to rotations and translations. However, current equivariant GNN methods still face limitations in fully exploiting the geometric features of protein structures. To address this, we introduce E(Q)AGNN-PPIS 1 , an Equivariant Attention-Enhanced Graph Neural Network designed for predicting protein binding sites by leveraging 3-D protein structure. Our method augments the Equivariant GNN framework by integrating an attention mechanism. This attention component allows the model to focus on the most relevant structural features for binding site prediction, significantly enhancing its ability to capture complex spatial patterns and interactions within the protein structure. Our experimental findings underscore the enhanced performance of E(Q)AGNN-PPIS compared to current state-of-the-art approaches, exhibiting gains of 8.33% in the Area Under the Precision-Recall Curve (AUPRC) and 10% in the Matthews Correlation Coefficient (MCC) across benchmark datasets. Additionally, our method demonstrates robust generalization across proteins with varying sequence lengths, outperforming baseline methods.",
+  "authors": [
+    "Animesh",
+    "Rishi Suvvada",
+    "Plaban Kumar Bhowmick",
+    "Pralay Mitra"
+  ],
+  "published_date": "2024-10-06",
+  "updated_date": "2024-10-06T23:25:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.06.616807",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.06.616807.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T23:04:46Z",
+        "timestamp": 1768518286499,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            6
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 49,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                6
+              ]
+            ],
+            "date-time": "2024-10-06T00:00:00Z",
+            "timestamp": 1728172800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            14
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Identifying protein binding sites, the specific regions on a protein’s surface where interactions with other molecules occur, is crucial for understanding disease mechanisms and facilitating drug discovery. Although numerous computational techniques have been developed to identify protein binding sites, serving as a valuable screening tool that reduces the time and cost associated with conventional experimental approaches, achieving significant improvements in prediction accuracy remains a formidable challenge. Recent advancements in protein structure prediction, notably through tools like AlphaFold, have made vast numbers of 3-D protein structures available, presenting an opportunity to enhance binding site prediction methods. The availability of detailed 3-D structures has led to the development of Equivariant Graph Neural Networks (GNNs), which can analyze complex spatial relationships in protein structures while maintaining invariance to rotations and translations. However, current equivariant GNN methods still face limitations in fully exploiting the geometric features of protein structures. To address this, we introduce E(Q)AGNN-PPIS\n                  <jats:sup>1</jats:sup>\n                  , an Equivariant Attention-Enhanced Graph Neural Network designed for predicting protein binding sites by leveraging 3-D protein structure. Our method augments the Equivariant GNN framework by integrating an attention mechanism. This attention component allows the model to focus on the most relevant structural features for binding site prediction, significantly enhancing its ability to capture complex spatial patterns and interactions within the protein structure. Our experimental findings underscore the enhanced performance of E(Q)AGNN-PPIS compared to current state-of-the-art approaches, exhibiting gains of 8.33% in the Area Under the Precision-Recall Curve (AUPRC) and 10% in the Matthews Correlation Coefficient (MCC) across benchmark datasets. Additionally, our method demonstrates robust generalization across proteins with varying sequence lengths, outperforming baseline methods.\n                </jats:p>",
+      "DOI": "10.1101/2024.10.06.616807",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            6
+          ]
+        ],
+        "date-time": "2024-10-06T23:25:14Z",
+        "timestamp": 1728257114000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "E(Q)AGNN-PPIS: Attention Enhanced Equivariant Graph Neural Network for Protein-Protein Interaction Site Prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5406-0741",
+          "authenticated-orcid": false,
+          "family": "Animesh",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Rishi",
+          "family": "Suvvada",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6573-0093",
+          "authenticated-orcid": false,
+          "given": "Plaban Kumar",
+          "family": "Bhowmick",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4119-3788",
+          "authenticated-orcid": false,
+          "given": "Pralay",
+          "family": "Mitra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.1",
+          "first-page": "15",
+          "article-title": "Fundamentals of protein structure",
+          "volume": "44",
+          "year": "2003",
+          "journal-title": "Structural bioinformatics"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl079"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nchembio.119"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.4",
+          "first-page": "107",
+          "article-title": "Matpip: A deep-learning architecture with explainable ai for sequence-driven, feature mixed protein-protein interaction prediction",
+          "volume": "244",
+          "year": "2024",
+          "journal-title": "Computer Methods and Programs in Biomedicine"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty995"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac253"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. Zhou , Y. Jiang , and Y. Yang , “AGAT-PPIS: A novel protein–protein interaction site predictor based on augmented graph attention network with initial residual and identity mapping,” Briefings in Bioinformatics, vol. 24, no. 3, bbad122, 2023.",
+          "DOI": "10.1093/bib/bbad122"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.8",
+          "first-page": "107",
+          "article-title": "GHGPR-PPIS: A graph convolutional network for identifying protein-protein interaction site using heat kernel with generalized pagerank techniques and edge self-attention feature processing block",
+          "volume": "168",
+          "year": "2024",
+          "journal-title": "Computers in Biology and Medicine"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq302"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-9-1"
+        },
+        {
+          "issue": "5",
+          "key": "2024101611401472000_2024.10.06.616807v2.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1356",
+          "DOI": "10.1046/j.1432-1033.2002.02767.x",
+          "article-title": "Prediction of protein–protein interaction sites in heterocomplexes with neural networks",
+          "volume": "269",
+          "year": "2002",
+          "journal-title": "European Journal of Biochemistry"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz324"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. He , X. Zhang , S. Ren , and J. Sun , “Deep residual learning for image recognition,” in Proceedings of the IEEE conference on computer vision and pattern recognition, 2016, pp. 770–778.",
+          "DOI": "10.1109/CVPR.2016.90"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/78.650093"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.15",
+          "article-title": "How powerful are graph neural networks?",
+          "year": "2018",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz699"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx350"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa750"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac480"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-020-00478-9"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neucom.2019.05.013"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.22",
+          "article-title": "Equipocket: An e (3)-equivariant geometric graph neural network for ligand binding site prediction",
+          "year": "2023",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.24",
+          "unstructured": "T. N. Kipf and M. Welling , “Semi-supervised classification with graph convolutional networks,” in Proceedings of the 5th International Conference on Learning Representations, ICLR, 2017."
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.2c01092"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.26",
+          "unstructured": "P. Velickovic , G. Cucurull , A. Casanova , A. Romero , P. Lió , and Y. Bengio , “Graph attention networks,” in Proceedings of the 6th International Conference on Learning Representations, ICLR, 2018."
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.27",
+          "unstructured": "V. G. Satorras , E. Hoogeboom , and M. Welling , “E (n) equivariant graph neural networks,” in International conference on machine learning, PMLR, 2021, pp. 9323– 9332."
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.28",
+          "unstructured": "B. Jing , S. Eismann , P. Suriana , R. J. L. Townshend , and R. Dror , “Learning from protein structure with geometric vector perceptrons,” in International Conference on Learning Representations, 2020."
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae076"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "F. Madeira , N. Madhusoodanan , J. Lee , et al., “The emblebi job dispatcher sequence analysis tools framework in 2024,” Nucleic Acids Research, gkae241, 2024.",
+          "DOI": "10.1093/nar/gkae241"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btm098"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1818"
+        },
+        {
+          "issue": "12",
+          "key": "2024101611401472000_2024.10.06.616807v2.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "2577",
+          "DOI": "10.1002/bip.360221211",
+          "article-title": "Dictionary of protein secondary structure: Pattern recognition of hydrogenbonded and geometrical features",
+          "volume": "22",
+          "year": "1983",
+          "journal-title": "Biopolymers: Original Research on Biomolecules"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.34",
+          "unstructured": "J. Gilmer , S. S. Schoenholz , P. F. Riley , O. Vinyals , and G. E. Dahl , “Neural message passing for quantum chemistry,” in International conference on machine learning, PMLR, 2017, pp. 1263–1272."
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.35",
+          "article-title": "Geometric deep learning: Grids, groups, graphs, geodesics, and gauges",
+          "year": "2021",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "1",
+          "key": "2024101611401472000_2024.10.06.616807v2.36",
+          "first-page": "61",
+          "article-title": "The graph neural network model",
+          "volume": "20",
+          "year": "2008",
+          "journal-title": "IEEE transactions on neural networks"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.37",
+          "article-title": "Equivariant graph neural networks for 3d macromolecular structure",
+          "year": "2021",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.38",
+          "article-title": "Layer normalization",
+          "year": "2016",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.39",
+          "unstructured": "A. Paszke , S. Gross , F. Massa , et al., “Pytorch: An imperative style, high-performance deep learning library,” Advances in neural information processing systems, vol. 32, 2019."
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.40",
+          "article-title": "Fast graph representation learning with pytorch geometric",
+          "year": "2019",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.41",
+          "article-title": "Adam: A method for stochastic optimization",
+          "year": "2014",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.42",
+          "unstructured": "M. Chen , Z. Wei , Z. Huang , B. Ding , and Y. Li , “Simple and deep graph convolutional networks,” in International conference on machine learning, PMLR, 2020, pp. 1725– 1735."
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2020.02.026"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.21248"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0666-6"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.46",
+          "article-title": "Graph convolutional networks using heat kernel for semisupervised learning",
+          "year": "2020",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s40537-023-00724-5"
+        },
+        {
+          "issue": "1",
+          "key": "2024101611401472000_2024.10.06.616807v2.48",
+          "first-page": "82",
+          "article-title": "Pymol: An open-source molecular graphics tool",
+          "volume": "40",
+          "year": "2002",
+          "journal-title": "CCP4 Newsl. Protein Crystallogr"
+        },
+        {
+          "key": "2024101611401472000_2024.10.06.616807v2.49",
+          "unstructured": "M. Black , Z. Wan , A. Nayyeri , and Y. Wang , “Understanding oversquashing in gnns through the lens of effective resistance,” in International Conference on Machine Learning, PMLR, 2023, pp. 2528–2547."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.10.06.616807",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:12:46Z",
+        "timestamp": 1768461166000
+      },
+      "score": 101.9335,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.10.06.616807"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            6
+          ]
+        ]
+      },
+      "references-count": 49,
+      "URL": "https://doi.org/10.1101/2024.10.06.616807",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1109/TSIPN.2025.3587396",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

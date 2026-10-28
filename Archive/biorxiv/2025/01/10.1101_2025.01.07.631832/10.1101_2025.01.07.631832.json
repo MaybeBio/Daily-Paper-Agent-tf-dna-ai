@@ -1,0 +1,681 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.01.07.631832",
+  "title": "Hybrid molecular dynamics–deep generative framework expands <i>apo</i> RNA ensembles toward cryptic ligand-binding conformations: application to HIV-1 TAR",
+  "doi": "10.1101/2025.01.07.631832",
+  "abstract": "RNA plays vital roles in diverse biological processes and represents an attractive class of therapeutic targets. In particular, cryptic ligand-binding sites—absent in apo structures but formed upon conformational rearrangement—offer high specificity for RNA–ligand recognition, yet remain rare among experimentally-resolved RNA–ligand complex structures and difficult to predict in silico . RNA-targeted structure-based drug design (SBDD) is therefore limited by challenges in sampling cryptic states. Here, we apply Molearn, a hybrid molecular dynamics–deep generative framework, to expand apo RNA conformational ensembles toward cryptic states. Focusing on the paradigmatic HIV-1 TAR–MV2003 system, Molearn was trained exclusively on apo TAR conformations and used to generate a diverse ensemble of TAR structures. Candidate cryptic MV2003-binding conformations were subsequently identified using post-generation geometric analyses. Docking simulations of these conformations with MV2003 yielded binding poses with RNA–ligand interaction scores comparable to those of NMR-derived complexes. Notably, this work provides the first demonstration that a generative model can access cryptic RNA conformations that are ligand-binding competent and have not been recovered in prior molecular dynamics and deep generative modeling studies. Finally, we discuss current limitations in scalability and systematic detection, including application to the Internal Ribosome Entry Site, and outline future directions toward RNA-targeted SBDD.",
+  "authors": [
+    "Ikuo Kurisaki",
+    "Michiaki Hamada"
+  ],
+  "published_date": "2025-01-10",
+  "updated_date": "2025-01-10T17:35:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.01.07.631832",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.01.07.631832.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            11
+          ]
+        ],
+        "date-time": "2026-04-11T17:49:50Z",
+        "timestamp": 1775929790619,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            10
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 80,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                10
+              ]
+            ],
+            "date-time": "2025-01-10T00:00:00Z",
+            "timestamp": 1736467200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "the Core Research for Evolutional Science and Technology",
+          "award": [
+            "JPMJCR21F1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JPMJCR21F1"
+              ]
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100009619",
+          "name": "Japan Agency for Medical Research and Development",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "23ae0121049h0003"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "23ae0121049h0003"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100009619",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "Grant-in-Aid for Scientific Research",
+          "award": [
+            "23H00509"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "23H00509"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  RNA plays vital roles in diverse biological processes and represents an attractive class of therapeutic targets. In particular, cryptic ligand-binding sites—absent in\n                  <jats:italic>apo</jats:italic>\n                  structures but formed upon conformational rearrangement—offer high specificity for RNA–ligand recognition, yet remain rare among experimentally-resolved RNA–ligand complex structures and difficult to predict\n                  <jats:italic>in silico</jats:italic>\n                  . RNA-targeted structure-based drug design (SBDD) is therefore limited by challenges in sampling cryptic states. Here, we apply Molearn, a hybrid molecular dynamics–deep generative framework, to expand\n                  <jats:italic>apo</jats:italic>\n                  RNA conformational ensembles toward cryptic states. Focusing on the paradigmatic HIV-1 TAR–MV2003 system, Molearn was trained exclusively on\n                  <jats:italic>apo</jats:italic>\n                  TAR conformations and used to generate a diverse ensemble of TAR structures. Candidate cryptic MV2003-binding conformations were subsequently identified using post-generation geometric analyses. Docking simulations of these conformations with MV2003 yielded binding poses with RNA–ligand interaction scores comparable to those of NMR-derived complexes. Notably, this work provides the first demonstration that a generative model can access cryptic RNA conformations that are ligand-binding competent and have not been recovered in prior molecular dynamics and deep generative modeling studies. Finally, we discuss current limitations in scalability and systematic detection, including application to the Internal Ribosome Entry Site, and outline future directions toward RNA-targeted SBDD.\n                </jats:p>",
+      "DOI": "10.1101/2025.01.07.631832",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            10
+          ]
+        ],
+        "date-time": "2025-01-10T17:35:12Z",
+        "timestamp": 1736530512000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Hybrid molecular dynamics–deep generative framework expands\n                  <i>apo</i>\n                  RNA ensembles toward cryptic ligand-binding conformations: application to HIV-1 TAR"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4519-1093",
+          "authenticated-orcid": false,
+          "given": "Ikuo",
+          "family": "Kurisaki",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Waseda Research Institute for Science and Engineering, Waseda University, 169-8555, Tokyo, Japan"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9466-1034",
+          "authenticated-orcid": false,
+          "given": "Michiaki",
+          "family": "Hamada",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Science and Engineering, Waseda University, 169-8555, Tokyo, Japan"
+            },
+            {
+              "name": "AIST-Waseda University Computational Bio Big-Data Open Innovation Laboratory (CBBD-OIL), National Institute of Advanced Industrial Science and Technology, 169-8555, Tokyo, Japan"
+            },
+            {
+              "name": "Graduate School of Medicine, Nippon Medical School, 113-8602, Tokyo, Japan"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-019-0136-0"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-022-00558-8"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41556-024-01444-5"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.3c00575"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hmg/ddl181"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2009.02.011"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C. Wahlestedt , Nat. Rev. Drug Discov., 2014, 13, 433.",
+          "DOI": "10.1038/nrd4280"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.8",
+          "first-page": "1",
+          "volume": "9",
+          "year": "2024",
+          "journal-title": "Signal Transduct. Target. Ther"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chembiol.2003.09.002"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd2400"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.2c04344"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41388-024-03077-2"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.4c01193"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.2c00381"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad957"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/24.20.3974"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M000920200"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1074-5521(02)00151-5"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2003.12.046"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2003.12.028"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2011.03.039"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq713"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1197"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci100101w"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D1CP00679G"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "F. P. Panei , P. Gkeka and M. Bonomi , Nat. Commun., 2024, 15, 49638.",
+          "DOI": "10.1038/s41467-024-49638-7"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1529/biophysj.106.097782"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1713027115"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "285",
+          "DOI": "10.1007/s12551-024-01202-9",
+          "volume": "16",
+          "year": "2024",
+          "journal-title": "Biophys. Rev"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "4201",
+          "DOI": "10.1016/j.csbj.2025.10.003",
+          "volume": "27",
+          "year": "2025",
+          "journal-title": "Comput. Struct. Biotechnol. J"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2022.12.022"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct501025q"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.4c01357"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "V. K. Ramaswamy , S. C. Musson , C. G. Willcocks and M. T. Degiacomi , Phys. Rev. X, 2021, 11, 011052.",
+          "DOI": "10.1103/PhysRevX.11.011052"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.4c03182"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1074-5521(00)00127-7"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1097-2765(04)00261-8"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. Xue , B. Gracia , D. Herschlag , R. Russell and H. M. Al-Hashimi , Nat. Commun., 2016, 7, 11768.",
+          "DOI": "10.1038/ncomms11768"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41589-020-0644-4"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H. L. Shi , A. Rangadurai , H. Abou Assi , R. Roy , D. A. Case , D. Herschlag , J. D. Yesselman and H. M. Al-Hashimi , Nat. Commun., 2020, 11, 19371.",
+          "DOI": "10.1038/s41467-020-19371-y"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct300613v"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.445869"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.265.5176.1219"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp8001614"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp902584c"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11498"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1407969111"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Geng , L. Ganser , R. Roy , H. L. Shi , S. Pratihar , D. A. Case and H. M. Al-Hashimi , Nat. Commun., 2023, 14, 43673.",
+          "DOI": "10.1038/s41467-023-43673-6"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.3c04614"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.50",
+          "first-page": "4507",
+          "volume": "44",
+          "year": "1984",
+          "journal-title": "Cancer Res"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.51",
+          "unstructured": "D. A. Case , H. M. Aktulga , K. Belfon , I. Y. Ben-Shalom , J. T. Berryman , S. R. Brozell , D. S. Cerutti , T. E. Cheatham III , G. A. Cisneros , V. W. D. Cruzeiro , T. A. Darden , N. Forouzesh , G. Giambasu , T. Giese , M. K. Gilson , H. Gohlke , A. W. Goetz , J. Harris , S. Izadi , S. A. Izmailov , K. Kasavajhala , M. C. Kaymak , E. King , A. Kovalenko , T. Kurtzman , T. S. Lee , P. Li , C. Lin , J. Liu , T. Luchko , R. Luo , M. Machado , V. Man , M. Manathunga , K. M. Merz , Y. Miao , O. Mikhailovskii , G. Monard , H. Nguyen , K. A. O’Hearn , A. Onufriev , F. Pan , S. Pantano , R. Qi , A. Rahnamoun , D. R. Roe , A. Roitberg , C. Sagui , S. Schott-Verdugo , A. Shajan , J. Shen , C. L. Simmerling , N. R. Skrynnikov , J. Smith , J. Swails , R. C. Walker , J. Wang , J. Wang , H. Wei , X. Wu , Y. Wu , Y. Xiong , Y. Xue , D. M. York , S. Zhao , Q. Zhu and P. A. Kollman , AMBER 2022, University of California, San Francisco, 2022."
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cpc.2012.09.022"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12900-019-0100-4"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.54",
+          "doi-asserted-by": "crossref",
+          "unstructured": "P. Xiong , R. Wu , J. Zhan and Y. Zhou , Nat. Commun., 2021, 12, 23100.",
+          "DOI": "10.1038/s41467-021-23100-4"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmgm.2010.10.007"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct500381c"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.0c00798"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D3SC04185A"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1008309"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.61",
+          "first-page": "gkae541",
+          "volume": "52",
+          "year": "2024",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.62",
+          "unstructured": "M. Xu , L. Yu , Y. Song , C. Shi , S. Ermon and J. Tang , presented in part at the International Conference on Learning Representations, 2022."
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.63",
+          "first-page": "vbad001",
+          "volume": "5",
+          "year": "2025",
+          "journal-title": "Bioinform. Adv"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.6b05425"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.accounts.9b00613"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c01002"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.26550"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijbiomac.2022.09.183"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpclett.2c00359"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.26497"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2020.08.003"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1261/rna.051102.115"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2016.01.029"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.2c01189"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-36699-3"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.76",
+          "first-page": "btae745",
+          "volume": "41",
+          "year": "2025",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.77",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. D. Veenbaas , J. T. Koehn , P. S. Irving , N. N. Lama and K. M. Weeks , Proc. Natl. Acad. Sci. U.S.A., 2025, 122, e2401234.",
+          "DOI": "10.1073/pnas.2422346122"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-18594-3"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.79",
+          "first-page": "1",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Chem. Sci"
+        },
+        {
+          "key": "2026041110254403000_2025.01.07.631832v8.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06415-8"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.01.07.631832",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            11
+          ]
+        ],
+        "date-time": "2026-04-11T17:25:55Z",
+        "timestamp": 1775928355000
+      },
+      "score": 93.63953,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.01.07.631832"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            10
+          ]
+        ]
+      },
+      "references-count": 80,
+      "URL": "https://doi.org/10.1101/2025.01.07.631832",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            10
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

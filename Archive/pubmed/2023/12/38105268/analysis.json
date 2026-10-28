@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38105268",
+  "title": "Comparison of models for stroke-free survival prediction in patients with CADASIL.",
+  "authors": "Chhoa, Henri; Chabriat, Hugues; Chevret, Sylvie; Biard, Lucie",
+  "journal": "Scientific reports",
+  "published_date": "2023-12-18",
+  "window": {
+    "start": "2023-12-18",
+    "end": "2023-12-24"
+  },
+  "score": 0,
+  "one_liner_zh": "该文比较Cox回归与机器学习模型预测CADASIL患者无卒中生存期，对象为临床表型而非蛋白质-DNA互作，无相关建模方法，与本课题无关。",
+  "abstract": "Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy, which is caused by mutations of the NOTCH3 gene, has a large heterogeneous progression, presenting with declines of various clinical scores and occurrences of various clinical event. To help assess disease progression, this work focused on predicting the composite endpoint of stroke-free survival time by comparing the performance of Cox proportional hazards regression to that of machine learning models using one of four feature selection approaches applied to demographic, clinical and magnetic resonance imaging observational data collected from a study cohort of 482 patients. The quality of the modeling process and the predictive performance were evaluated in a nested cross-validation procedure using the time-dependent Brier Score and AUC at 5 years from baseline, the former measuring the overall performance including calibration and the latter highlighting the discrimination ability, with both metrics taking into account the presence of right-censoring. The best model for each metric was the componentwise gradient boosting model with a mean Brier score of 0.165 and the random survival forest model with a mean AUC of 0.773, both combined with the LASSO feature selection method.",
+  "abstract_zh": "由NOTCH3基因突变引起的伴有皮层下梗死和白质脑病的常染色体显性遗传性脑动脉病，其进展具有高度异质性，表现为各种临床评分的下降及多种临床事件的发生。为帮助评估疾病进展，本研究聚焦于预测无卒中生存时间的复合终点，通过比较Cox比例风险回归与机器学习模型的性能，并采用四种特征选择方法之一，应用于来自482名患者研究队列的人口统计学、临床及磁共振成像观察数据。建模过程的质量和预测性能在嵌套交叉验证程序中评估，使用基于基线的5年时间依赖性Brier评分和AUC，前者衡量包括校准在内的整体性能，后者突出判别能力，两项指标均考虑右删失的存在。每个指标的最佳模型分别为：分量梯度提升模型，平均Brier评分为0.165；随机生存森林模型，平均AUC为0.773，两者均结合LASSO特征选择方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38105268/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38105268/",
+  "paper_page_path": "papers/pubmed/38105268/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.07.530278",
+  "title": "Identifying and overcoming the sampling challenges in relative binding free energy calculations of a model protein:protein complex",
+  "authors": "Ivy Zhang; Dominic A. Rufa; Iván Pulido; Michael M. Henry; Laura E. Rosen; Kevin Hauser; Sukrit Singh; John D. Chodera",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-08",
+  "window": {
+    "start": "2023-03-06",
+    "end": "2023-03-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用相对结合自由能计算预测蛋白-蛋白复合物突变效应，虽非TF-DNA体系，但方法可迁移至蛋白-DNA互作建模。",
+  "abstract": "Relative alchemical binding free energy calculations are routinely used in drug discovery projects to optimize the affinity of small molecules for their drug targets. Alchemical methods can also be used to estimate the impact of amino acid mutations on protein:protein binding affinities, but these calculations can involve sampling challenges due to the complex networks of protein and water interactions frequently present in protein:protein interfaces. We investigate these challenges by extending a GPU-accelerated open-source relative free energy calculation package (Perses) to predict the impact of amino acid mutations on protein:protein binding. Using the well-characterized model system barnase:barstar, we describe analyses for identifying and characterizing sampling problems in protein:protein relative free energy calculations. We find that mutations with sampling problems often involve charge-changes, and inadequate sampling can be attributed to slow degrees of freedom that are mutation-specific. We also explore the accuracy and efficiency of current state-of-the-art approaches—alchemical replica exchange and alchemical replica exchange with solute tempering—for overcoming relevant sampling problems. By employing sufficiently long simulations, we achieve accurate predictions (RMSE 1.61, 95% CI: [1.12, 2.11] kcal/mol), with 86% of estimates within 1 kcal/mol of the experimentally-determined relative binding free energies and 100% of predictions correctly classifying the sign of the changes in binding free energies. Ultimately, we provide a model workflow for applying protein mutation free energy calculations to protein:protein complexes, and importantly, catalog the sampling challenges associated with these types of alchemical transformations. Our free open-source package (Perses) is based on OpenMM and available at https://github.com/choderalab/perses .",
+  "abstract_zh": "相对自由能计算（relative alchemical binding free energy calculations）常规用于药物发现项目中，以优化小分子对其药物靶标的亲和力。Alchemical方法也可用于估算氨基酸突变对蛋白质：蛋白质结合亲和力的影响，但这些计算可能因蛋白质：蛋白质界面中常见的复杂蛋白质和水相互作用网络而面临采样挑战。我们通过扩展一个GPU加速的开源相对自由能计算包（Perses）来研究这些挑战，以预测氨基酸突变对蛋白质：蛋白质结合的影响。利用特征明确的模型系统barnase:barstar，我们描述了用于识别和表征蛋白质：蛋白质相对自由能计算中采样问题的分析方法。我们发现，存在采样问题的突变通常涉及电荷变化，而采样不足可归因于突变特异性的慢自由度。我们还探讨了当前最先进方法——alchemical副本交换和带溶质升温的alchemical副本交换——在克服相关采样问题上的准确性和效率。通过采用足够长的模拟，我们实现了准确预测（RMSE 1.61，95% CI：[1.12, 2.11] kcal/mol），其中86%的估计值在实验确定的相对结合自由能的1 kcal/mol以内，且100%的预测正确分类了结合自由能变化的符号。最终，我们提供了一个模型工作流程，用于将蛋白质突变自由能计算应用于蛋白质：蛋白质复合物，并重要的是，编目了与这些类型的alchemical变换相关的采样挑战。我们的免费开源包（Perses）基于OpenMM，可在https://github.com/choderalab/perses获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.07.530278",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.07.530278",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.07.530278/index.html"
+}

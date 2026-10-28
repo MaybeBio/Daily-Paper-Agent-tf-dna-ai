@@ -1,0 +1,409 @@
+{
+  "identity": {
+    "pmid": "40927289",
+    "doi": "10.3389/fendo.2025.1621878",
+    "title": "Identification of lactylation-related biomarkers in osteoporosis from transcriptome and single-cell data."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Emerging evidence indicates that lactase-mediated histone lactylation can activate osteogenic gene expression and promote bone formation. However, the role of lactylation-related genes (LRGs) in osteoporosis (OP) remains unclear. This study aims to clarify the key roles of LRGs and the molecular mechanisms of related biomarkers in OP. METHODS: Three datasets (GSE7158, GSE56815, and GSE147287) and 327 LRGs were analyzed in this study. First, the biomarkers associated with OP were identified through differential gene expression analysis, machine learning algorithms, expression validation, and receiver operating characteristic (ROC) curve analysis. Subsequently, nomograms, functional enrichment analyses, immune infiltration analyses, regulatory network construction, drug prediction, and molecular docking were performed to characterize the functional and clinical significance of the biomarkers. Single-cell analysis was used to screen key cell types. Finally, reverse transcription quantitative polymerase chain reaction (RT-qPCR) was conducted to validate biomarker expression. RESULTS: CSRP2 and FUBP1 can serve as biomarkers for the early prediction of osteoporosis risk in individuals with low peak bone mass or bone mineral density. The nomogram showed that these two biomarkers could accurately predict OP risk. Functional analysis revealed that CSRP2 and FUBP1 were closely associated with inflammation regulation. FUBP1 was strongly positively correlated with mesenchymal stem cells (MSCs). Both CSRP2 and FUBP1 exhibited strong binding to bisphenol A and tetrachlorodibenzodioxin, with binding energies < -5 kcal/mol. The key cell types associated with OP were identified as bone marrow MSCs, T cells, natural killer cells, and hematopoietic stem cells. CSRP2 expression was significantly associated with natural killer cell differentiation. RT-qPCR confirmed that CSRP2 was downregulated and FUBP1 was upregulated in OP samples, consistent with the findings in the GSE7158 and GSE56815 datasets. CONCLUSIONS: CSRP2 and FUBP1 can serve as biomarkers for the early prediction of osteoporosis risk in individuals with low BMD/PBM. The findings of this study offer critical clinical guidance for OP prevention and treatment.",
+    "keywords": [
+      "biomarkers",
+      "lactylation",
+      "nomogram",
+      "osteoporosis",
+      "single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Osteoporosis/genetics/metabolism",
+      "*Biomarkers/metabolism/analysis",
+      "*Transcriptome",
+      "Single-Cell Analysis",
+      "Female",
+      "Bone Density",
+      "RNA-Binding Proteins/genetics/metabolism",
+      "Male",
+      "DNA-Binding Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Jiafeng",
+        "Zhang, Hongxing",
+        "Wang, Huaize",
+        "Jiang, Ting",
+        "Gao, Minglei",
+        "Ma, Xingfu",
+        "Xiong, Yingzong",
+        "Li, Yingchun",
+        "Xu, Ran",
+        "Zhu, Junchen"
+      ],
+      "short_names": [
+        "Peng J",
+        "Zhang H",
+        "Wang H",
+        "Jiang T",
+        "Gao M",
+        "Ma X",
+        "Xiong Y",
+        "Li Y",
+        "Xu R",
+        "Zhu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedics I, Second Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, Anhui, China.",
+        "Department of Orthopedics I, Second Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, Anhui, China.",
+        "Department of Orthopedics I, Second Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, Anhui, China.",
+        "Department of Spinal Surgery, First Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, China.",
+        "Department of Orthopedics I, Second Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, Anhui, China.",
+        "Department of Orthopedics I, Second Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, Anhui, China.",
+        "Department of Orthopedics I, Second Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, Anhui, China.",
+        "Department of Orthopedics I, Second Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, Anhui, China.",
+        "Graduate School, Anhui University of Traditional Chinese Medicine, Hefei, China.",
+        "Department of Orthopedics I, Second Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, Anhui, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Jiafeng",
+        "short_name": "Peng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics I, Second Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hongxing",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics I, Second Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Huaize",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics I, Second Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Ting",
+        "short_name": "Jiang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Spinal Surgery, First Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Minglei",
+        "short_name": "Gao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics I, Second Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xingfu",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics I, Second Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Yingzong",
+        "short_name": "Xiong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics I, Second Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yingchun",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics I, Second Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Ran",
+        "short_name": "Xu R",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Anhui University of Traditional Chinese Medicine, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Junchen",
+        "short_name": "Zhu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics I, Second Affiliated Hospital, Anhui University of Traditional Chinese Medicine, Hefei, Anhui, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in endocrinology"
+    ],
+    "journal_abbrev": [
+      "Front Endocrinol (Lausanne)"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/10 06:29",
+    "fetched_at": "2026-10-05 04:19:33"
+  },
+  "links": {
+    "cites": [
+      "42294469"
+    ],
+    "refs": [
+      "40152990",
+      "39918019",
+      "39576015",
+      "39568587",
+      "39375626",
+      "39200293",
+      "39149122",
+      "38855330",
+      "38804196",
+      "38791370",
+      "38788487",
+      "38458178",
+      "38372699",
+      "38108882",
+      "37975354",
+      "37885715",
+      "37752768",
+      "37475866",
+      "37464088",
+      "37242427",
+      "37105556",
+      "36551192",
+      "36370105",
+      "36311708",
+      "36147571",
+      "36096182",
+      "35628159",
+      "35605402",
+      "35011166",
+      "34803492",
+      "34790042",
+      "34676493",
+      "34188192",
+      "34177945",
+      "34116677",
+      "34062119",
+      "34026818",
+      "33781345",
+      "33649780",
+      "33597522",
+      "33414409",
+      "33413595",
+      "33277626",
+      "32719657",
+      "32197115",
+      "31979369",
+      "31948061",
+      "31720707",
+      "31700863",
+      "31645732",
+      "30727928",
+      "30635626",
+      "30450911",
+      "30360733",
+      "30343319",
+      "30241973",
+      "30013446",
+      "30010082",
+      "29330445",
+      "29141660",
+      "29049590",
+      "28936598",
+      "28825705",
+      "27849171",
+      "27207943",
+      "25751060",
+      "25684021",
+      "25035950",
+      "24639677",
+      "24599274",
+      "24524038",
+      "24091675",
+      "24003246",
+      "23937229",
+      "22455463",
+      "21978689",
+      "21635718",
+      "21414208",
+      "21269502",
+      "20808728",
+      "19625651",
+      "19223260",
+      "18757139",
+      "18657804",
+      "17173138",
+      "15901668",
+      "12194850",
+      "11752295",
+      "9286703",
+      "9039266"
+    ],
+    "similar": [
+      "40927289",
+      "40241169",
+      "41195206",
+      "40131629",
+      "41246341",
+      "40189548",
+      "39791175",
+      "40603950",
+      "40642528",
+      "36034449",
+      "38213143",
+      "39238187",
+      "39351238",
+      "38260098",
+      "40248193",
+      "40826484",
+      "38528539",
+      "40914702",
+      "39130750",
+      "38650009",
+      "40124361",
+      "41504052",
+      "41357842",
+      "38728482",
+      "37361541",
+      "41310117",
+      "36311708",
+      "41246299",
+      "36967763",
+      "40313558",
+      "41459514",
+      "40918403",
+      "36513616",
+      "40211501",
+      "40630963",
+      "38658320",
+      "30993394",
+      "40727594",
+      "40609267",
+      "36077598",
+      "33551990",
+      "40796591",
+      "40696520",
+      "40345018",
+      "39582915",
+      "40299834",
+      "41191207",
+      "38956267",
+      "41221285",
+      "40672388",
+      "39285310",
+      "40642071",
+      "40740765",
+      "36213260",
+      "39647286",
+      "36685841",
+      "38817665",
+      "40504273",
+      "38976947",
+      "40130382",
+      "33176682",
+      "41444522",
+      "40666524",
+      "41035644",
+      "36050744",
+      "41329034",
+      "40998040",
+      "41482017",
+      "38738994",
+      "33101205",
+      "41323394",
+      "39383820",
+      "41137708",
+      "37605572",
+      "39587887",
+      "38637425",
+      "40411576",
+      "38735373",
+      "41460373",
+      "35620387",
+      "40764361",
+      "39975557",
+      "41054070",
+      "39636180",
+      "40361222",
+      "41239652",
+      "41200172",
+      "40252437",
+      "39118036",
+      "40972794",
+      "40273141",
+      "41458160",
+      "40169651",
+      "39990773",
+      "40050898",
+      "39060945",
+      "39988894",
+      "41013856",
+      "41291841",
+      "40406620"
+    ],
+    "review": [
+      "40927289"
+    ],
+    "pmc": [
+      "12414738"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoporosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoporosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40927289/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3592",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fendo.2025.1621878",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "41664335",
+    "doi": "10.2174/0115680266428644251129111429",
+    "title": "Gene Expression Profiling to Unveil Novel Biomarkers for Early Diagnosis and Therapies for Breast Cancer."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Breast cancer (BC) is a leading cause of cancer-related death worldwide. Early detection and accurate diagnosis can improve patient outcomes and survival rates. Thus, identifying drugs and biomarkers for early detection is necessary for diagnosis, prognosis, and treatment. MATERIALS AND METHODS: Using machine learning techniques, we identified 160 differentially expressed genes (DEGs) between BC and control samples from four microarray datasets (GSE26910, GSE3744, GSE29431, and GSE42568), which were adopted due to the frequent presence of outliers in microarray gene-expression datasets, stemming from multiple stages in the data generation processes. Through protein-protein interaction network analysis, 10 DEGs (FN1, CXCL10, CD34, PECAM1, PTGS2, CXCL12, JUN, EGFR, CD36, and CAV1) were selected as pivotal Hub genes (HubGs) as potential biomarkers for BC. RESULTS: We validated the expression profiles of hub genes (HubGs) in breast cancer (BC) and control samples using box plot analysis based on data from the TCGA and GTEx databases. The identified HubGs demonstrated strong prognostic potential, as shown by Kaplan-Meier survival analyses and performance in a random forest prediction model. Regulatory network analysis revealed that HubG activity is modulated at a limited number of transcriptional and posttranscriptional stages. Functional enrichment analysis highlighted key molecular functions, cellular components, biological processes, and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways associated with BC pathogenesis and linked to these HubGs. Finally, molecular docking studies targeting HubG-mediated receptors led to the identification of seven top-ranked candidate drugs-Olaparib, Tucatinib, Telmisartan, Danazol, Troglitazone, Abemaciclib, and Lapatinib- proposed for potential BC treatment. DISCUSSION: In this study, we identified 10 critical differentially expressed genes (cDEGs)- CD34, PECAM1, PTGS2, CXCL12, JUN, EGFR, CD36, CAV1, FN1, and CXCL10-as pivotal hub genes (HubGs) involved in breast cancer (BC). These HubGs were determined through protein- protein interaction (PPI) network analysis of 160 cDEGs derived from four independent microarray datasets. Functional enrichment analysis revealed that these HubGs are associated with key biological processes, cellular components, molecular functions, and pathways relevant to BC progression. Furthermore, we identified three top-ranked transcription factors (BRCA1, STAT3, and TP53) and three microRNAs (hsa-miR-16-5p, hsa-miR-155-5p, and hsa-miR-23b-3p) as crucial regulators of HubGs, acting at both transcriptional and post-transcriptional levels. CONCLUSION: The stability of the top three receptor-ligand complexes was validated through molecular dynamics simulations. Therefore, our findings could be a valuable resource for researchers and medical professionals, aiding in BC diagnosis and treatment.",
+    "keywords": [
+      "Breast cancer",
+      "Differential gene expression",
+      "Hub genes",
+      "Microarray data",
+      "Molecular docking",
+      "Molecular dynamic simulation."
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Gene Expression Profiling",
+      "*Breast Neoplasms/diagnosis/genetics/drug therapy",
+      "*Biomarkers, Tumor/genetics",
+      "Female",
+      "Early Detection of Cancer",
+      "Gene Expression Regulation, Neoplastic",
+      "Protein Interaction Maps"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hossain, Alomgir",
+        "Islam, Md Asadul",
+        "Khalekuzzaman, Md",
+        "Acharjee, Uzzal",
+        "Sikdar, Biswanath",
+        "Faruqe, Md Omar",
+        "Matin, Mohammad Nurul",
+        "Zaman, Rashed"
+      ],
+      "short_names": [
+        "Hossain A",
+        "Islam MA",
+        "Khalekuzzaman M",
+        "Acharjee U",
+        "Sikdar B",
+        "Faruqe MO",
+        "Matin MN",
+        "Zaman R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Genetic Engineering and Biotechnology, University of Rajshahi, Rajshahi-6205, Bangladesh.",
+        "Computational Biosciences and Chemistry Research Organization, Rajshahi-6205, Bangladesh.",
+        "Department of Genetic Engineering and Biotechnology, University of Rajshahi, Rajshahi-6205, Bangladesh.",
+        "Department of Genetic Engineering and Biotechnology, University of Rajshahi, Rajshahi-6205, Bangladesh.",
+        "Department of Genetic Engineering and Biotechnology, University of Rajshahi, Rajshahi-6205, Bangladesh.",
+        "Department of Genetic Engineering and Biotechnology, University of Rajshahi, Rajshahi-6205, Bangladesh.",
+        "Department of Computer Science and Engineering, University of Rajshahi, Rajshahi-6205, Bangladesh.",
+        "Department of Genetic Engineering and Biotechnology, University of Rajshahi, Rajshahi-6205, Bangladesh.",
+        "Department of Biotechnology, Yeungnam University, Gyeongsan-38541, Republic of Korea.",
+        "Department of Genetic Engineering and Biotechnology, University of Rajshahi, Rajshahi-6205, Bangladesh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hossain, Alomgir",
+        "short_name": "Hossain A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering and Biotechnology, University of Rajshahi, Rajshahi-6205, Bangladesh.",
+          "Computational Biosciences and Chemistry Research Organization, Rajshahi-6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Islam, Md Asadul",
+        "short_name": "Islam MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering and Biotechnology, University of Rajshahi, Rajshahi-6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Khalekuzzaman, Md",
+        "short_name": "Khalekuzzaman M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering and Biotechnology, University of Rajshahi, Rajshahi-6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Acharjee, Uzzal",
+        "short_name": "Acharjee U",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering and Biotechnology, University of Rajshahi, Rajshahi-6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Sikdar, Biswanath",
+        "short_name": "Sikdar B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering and Biotechnology, University of Rajshahi, Rajshahi-6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Faruqe, Md Omar",
+        "short_name": "Faruqe MO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of Rajshahi, Rajshahi-6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Matin, Mohammad Nurul",
+        "short_name": "Matin MN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering and Biotechnology, University of Rajshahi, Rajshahi-6205, Bangladesh.",
+          "Department of Biotechnology, Yeungnam University, Gyeongsan-38541, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Zaman, Rashed",
+        "short_name": "Zaman R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetic Engineering and Biotechnology, University of Rajshahi, Rajshahi-6205, Bangladesh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current topics in medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Curr Top Med Chem"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/10 06:30",
+    "fetched_at": "2026-10-01 13:44:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40826140",
+      "39223632",
+      "39198848",
+      "38849411",
+      "38811600",
+      "38763973",
+      "38639840",
+      "37893423",
+      "37559688",
+      "37483616",
+      "37371076",
+      "37370847",
+      "37241189",
+      "37241170",
+      "36835056",
+      "36797736",
+      "36672335",
+      "36502691",
+      "36482272",
+      "36084384",
+      "36035176",
+      "35789270",
+      "35617355",
+      "35465161",
+      "35158857",
+      "34791371",
+      "34739968",
+      "34572912",
+      "34572770",
+      "34561446",
+      "34527184",
+      "34503097",
+      "34440024",
+      "34207383",
+      "34206026",
+      "34123844",
+      "34041263",
+      "33977725",
+      "33425742",
+      "33083112",
+      "32963527",
+      "32836215",
+      "32696718",
+      "32540642",
+      "32517735",
+      "32334446",
+      "32211045",
+      "31921624",
+      "31701148",
+      "31461797",
+      "30931480",
+      "30881011",
+      "30872657",
+      "30371825",
+      "29790900",
+      "29156006",
+      "28732212",
+      "28630300",
+      "28288141",
+      "27869779",
+      "26622560",
+      "26062977",
+      "25521941",
+      "25192721",
+      "23586463",
+      "22037828",
+      "21045058",
+      "20679336",
+      "17350568",
+      "16644253",
+      "16542223",
+      "16096348",
+      "15980585",
+      "14597658",
+      "12824332",
+      "10592235",
+      "10592173"
+    ],
+    "similar": [
+      "41664335",
+      "37893423",
+      "36502691",
+      "35390032",
+      "41189173",
+      "38984486",
+      "39048164",
+      "36567949",
+      "38717954",
+      "32616754",
+      "39239087",
+      "29081411",
+      "36991484",
+      "42074514",
+      "35447458",
+      "40898538",
+      "33439992",
+      "40604083",
+      "40658875",
+      "35617355",
+      "36096037",
+      "40473526",
+      "31987036",
+      "35409328",
+      "36913345",
+      "36204232",
+      "31733575",
+      "39454454",
+      "33407587",
+      "32456464",
+      "37556419",
+      "41596512",
+      "31037764",
+      "39988630",
+      "35994213",
+      "41456067",
+      "39232183",
+      "41300749",
+      "34390411",
+      "41751506",
+      "39535278",
+      "37158948",
+      "34172056",
+      "34895070",
+      "37029310",
+      "35037412",
+      "34797837",
+      "29693125",
+      "39348357",
+      "30569120",
+      "32598242",
+      "34686186",
+      "35686034",
+      "34384030",
+      "29063236",
+      "33371806",
+      "40834023",
+      "41158841",
+      "40826767",
+      "40127075",
+      "40287845",
+      "39888730",
+      "28416776",
+      "31081184",
+      "33437215",
+      "39780215",
+      "31290690",
+      "40763562",
+      "39529627",
+      "38444712",
+      "36786134",
+      "40826700",
+      "31127138",
+      "37434679",
+      "40246772",
+      "40603423",
+      "42180604",
+      "36291136",
+      "37534476",
+      "34734085",
+      "40828203",
+      "32597160",
+      "35996248",
+      "38524085",
+      "28739725",
+      "33455094",
+      "39516222",
+      "42065189",
+      "40496857",
+      "39107655",
+      "38839916",
+      "31692035",
+      "37904009",
+      "39342024",
+      "41367897",
+      "28952134",
+      "35677896",
+      "32556504",
+      "34603487",
+      "41300841"
+    ],
+    "review": [
+      "41664335",
+      "38984486"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2602",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/250124/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

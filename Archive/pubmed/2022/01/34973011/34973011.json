@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "34973011",
+    "doi": "10.1007/978-3-030-78775-2_9",
+    "title": "Bioinformatics Analyses of Spatial Peripheral Circadian Clock-Mediated Gene Expression of Glucocorticoid Receptor-Related Genes."
+  },
+  "content": {
+    "abstract": "Glucocorticoids are ubiquitous, pleotropic steroid hormones secreted from the cortices of the adrenal glands in a circadian fashion under the strong influence of the central Clock center located in the suprachiasmatic nuclei (SCN) of the hypothalamus. In previous work, we reported that the circadian transcription factor CLOCK and its heterodimer partner BMAL1 suppress the transcriptional activity of the glucocorticoid receptor (GR) by acetylating a lysine cluster located in its hinge region between the DNA- and ligand-binding domains. This regulation of GR transcriptional activity by CLOCK/BMAL1 functions as a counter-regulatory loop against the diurnally fluctuating circulating glucocorticoids. Here, we have performed further analyses of our data using bioinformatics and computational methods. Gene expression data were analyzed using unsupervised machine learning methods, such as hierarchical clustering, k-means, Naive Bayes classification, and polynomial regression analyses. We determined expression patterns of Clock-related genes, unraveled the dynamics of spatial data, and defined the temporal function of Clock-mediated GR-regulated genes. Gene expressions manifested nonlinear dynamics, possibly because we obtained dynamic results from stationary measurements. The mechanics of the circadian rhythms are still obscure, and more studies are required to understand how such rhythms influence mammalian physiology.",
+    "keywords": [
+      "Bioinformatics",
+      "CLOCK",
+      "Circadian rhythms",
+      "Computational analysis",
+      "Gene expression"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Bayes Theorem",
+      "CLOCK Proteins/genetics",
+      "*Circadian Clocks/genetics",
+      "Computational Biology",
+      "Gene Expression",
+      "*Receptors, Glucocorticoid/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lambrou, George I",
+        "Kino, Tomoshige",
+        "Koide, Hishashi",
+        "Ng, Sinnie Sin Man",
+        "Geronikolou, Styliani A",
+        "Bacopoulou, Flora",
+        "Charmandari, Evangelia",
+        "G, Chrousos"
+      ],
+      "short_names": [
+        "Lambrou GI",
+        "Kino T",
+        "Koide H",
+        "Ng SSM",
+        "Geronikolou SA",
+        "Bacopoulou F",
+        "Charmandari E",
+        "G C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "National and Kapodistrian University of Athens, First Department of Pediatrics, Choremeio Research Laboratory, Athens, Greece.",
+        "Laboratory of Molecular and Genomic Endocrinology, Division of Translational Medicine, Sidra Medicine, Out-patient Clinic, Doha, Qatar. kinot1025@gmail.com.",
+        "Program in Reproductive and Adult Endocrinology, Eunice Kennedy Shriver National, Institute of Child Health and Human Development, National Institutes of Health, Bethesda, MD, USA.",
+        "Unit on Molecular Hormone Action, Program in Reproductive and Adult Endocrinology, Eunice Kennedy Shriver, National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, MD, USA.",
+        "Biomedical Research Foundation of Academy of Athens, Clinical, Translational, Experimental Surgery Research Center of Pediatrics, Athens, Greece.",
+        "National and Kapodistrian University of Athens, First Department of Pediatrics, Choremeio Research Laboratory, Athens, Greece.",
+        "National and Kapodistrian University of Athens, First Department of Pediatrics, Choremeio Research Laboratory, Athens, Greece.",
+        "National and Kapodistrian University of Athens, First Department of Pediatrics, Choremeio Research Laboratory, Athens, Greece. chrousos@gmail.com.",
+        "National and Kapodistrian University of Athens, University Research Institute of Maternal and Child Health & Precision Medicine, \"Aghia Sophia\" Children's Hospital, Athens, Greece. chrousos@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lambrou, George I",
+        "short_name": "Lambrou GI",
+        "identifiers": [],
+        "affiliations": [
+          "National and Kapodistrian University of Athens, First Department of Pediatrics, Choremeio Research Laboratory, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Kino, Tomoshige",
+        "short_name": "Kino T",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular and Genomic Endocrinology, Division of Translational Medicine, Sidra Medicine, Out-patient Clinic, Doha, Qatar. kinot1025@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Koide, Hishashi",
+        "short_name": "Koide H",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Reproductive and Adult Endocrinology, Eunice Kennedy Shriver National, Institute of Child Health and Human Development, National Institutes of Health, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Ng, Sinnie Sin Man",
+        "short_name": "Ng SSM",
+        "identifiers": [],
+        "affiliations": [
+          "Unit on Molecular Hormone Action, Program in Reproductive and Adult Endocrinology, Eunice Kennedy Shriver, National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Geronikolou, Styliani A",
+        "short_name": "Geronikolou SA",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Research Foundation of Academy of Athens, Clinical, Translational, Experimental Surgery Research Center of Pediatrics, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Bacopoulou, Flora",
+        "short_name": "Bacopoulou F",
+        "identifiers": [],
+        "affiliations": [
+          "National and Kapodistrian University of Athens, First Department of Pediatrics, Choremeio Research Laboratory, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Charmandari, Evangelia",
+        "short_name": "Charmandari E",
+        "identifiers": [],
+        "affiliations": [
+          "National and Kapodistrian University of Athens, First Department of Pediatrics, Choremeio Research Laboratory, Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "G, Chrousos",
+        "short_name": "G C",
+        "identifiers": [],
+        "affiliations": [
+          "National and Kapodistrian University of Athens, First Department of Pediatrics, Choremeio Research Laboratory, Athens, Greece. chrousos@gmail.com.",
+          "National and Kapodistrian University of Athens, University Research Institute of Maternal and Child Health & Precision Medicine, \"Aghia Sophia\" Children's Hospital, Athens, Greece. chrousos@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advances in experimental medicine and biology"
+    ],
+    "journal_abbrev": [
+      "Adv Exp Med Biol"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/02 06:00",
+    "fetched_at": "2026-09-28 03:32:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "20660302",
+      "20106676",
+      "19633971",
+      "19141540",
+      "18802415",
+      "17440046",
+      "16204701",
+      "15892879",
+      "12865428",
+      "11937023",
+      "11937022",
+      "11537948",
+      "11343908",
+      "7715646"
+    ],
+    "similar": [
+      "34973011",
+      "19141540",
+      "23033538",
+      "21164265",
+      "24378737",
+      "21980503",
+      "26403971",
+      "21146585",
+      "21703244",
+      "22217103",
+      "25512305",
+      "24389417",
+      "31557761",
+      "27031999",
+      "29266826",
+      "30852291",
+      "31671854",
+      "26194231",
+      "34708230",
+      "26271538",
+      "24674978",
+      "23052244",
+      "25367898",
+      "23211520",
+      "23707790",
+      "12387815",
+      "25945798",
+      "26394143",
+      "30824531",
+      "26980725",
+      "29305918",
+      "25228643",
+      "27022680",
+      "25798696",
+      "26895328",
+      "30481281",
+      "23425359",
+      "27725099",
+      "26690871",
+      "29671710",
+      "32348679",
+      "31000463",
+      "23010657",
+      "15473909",
+      "25369242",
+      "30464218",
+      "26037310",
+      "28143926",
+      "28401917",
+      "25746393",
+      "21721853",
+      "31773385",
+      "12699623",
+      "21452916",
+      "20807668",
+      "24895278",
+      "30283092",
+      "34332958",
+      "23189207",
+      "20930143",
+      "26332965",
+      "32667666",
+      "32134712",
+      "25063847",
+      "23580255",
+      "23056261",
+      "31173839",
+      "31353184",
+      "12960008",
+      "22031781",
+      "23394803",
+      "23755214",
+      "32222559",
+      "26841172",
+      "26961881",
+      "32115725",
+      "21802440",
+      "24327317",
+      "22215611",
+      "31996314",
+      "18208549",
+      "34158177",
+      "24065634",
+      "19222558",
+      "20382135",
+      "29534090",
+      "31296059",
+      "32497529",
+      "37525888",
+      "36177918"
+    ],
+    "review": [
+      "34973011",
+      "21164265",
+      "25512305",
+      "34708230",
+      "25367898",
+      "23707790",
+      "29305918",
+      "26690871",
+      "31000463",
+      "23010657",
+      "25369242",
+      "26332965",
+      "31173839",
+      "21802440",
+      "31996314",
+      "34158177"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/978-3-030-78775-2_9",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "40660393",
+    "doi": "10.1186/s41065-025-00500-w",
+    "title": "Insight into the shared pathogenic link between COVID-19 and pterygium: a systematic bioinformatics analysis with experimental validation."
+  },
+  "content": {
+    "abstract": "The outbreak of coronavirus disease 2019 (COVID-19) has resulted in a remarkable threat to global public health over the past few years. Despite the tremendous studies of COVID-19 ongoing, few have focused on the viral impact on the ocular surface. As one of the most common inflammatory diseases of the ocular surface, pterygium could be triggered under multiple environmental exposures. In the present work, we aimed at investigating the potential interactions between pterygium and COVID-19. Based on bioinformatic tools, we compared databases of COVID-19 and pterygium and screened for common differentially expressed genes (DEGs). Multifactor regulatory network and co-expression network of the common DEGs were analyzed. In vitro experiments, including siRNA knockdown using human conjunctival fibroblasts (HConFs) confirmed the bioinformatics results. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis implied that immune response was associated with COVID-19-induced ocular events. We then identified five common DEGs, including ERP27, SYTL5, STXBP6, EXTL1 and DIO2, which was further validated by in vitro experiments. Three hub genes were further extracted which included SYTL5, STXBP6 and ERP27 through protein-protein interactions (PPI) network. Furthermore, we illustrated a regulatory network consisting of eight transcription factors (STAT6B, GATA1, POU2F2, PGR, RBPJ, STAT3, CRTC1 and HMGA1) and one microRNA (hsa-miR-384). Overall, we investigated the common link between SARS-CoV-2 and pterygium in the modulation of gene profiles on the ocular surface. Our study proposed a novel insight into the common pathogenic mechanisms between COVID-19 and pterygium, which are associated with immune dysregulation and pathological proliferation, indicating a viral impact on pterygium susceptibility. This innovative perspective may enable a more comprehensive understanding and advance towards improved clinical prevention and treatment.",
+    "keywords": [
+      "COVID-19",
+      "Conjunctival fibroblasts",
+      "Pterygium",
+      "SARS-CoV-2"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pterygium/genetics",
+      "*COVID-19/genetics",
+      "Computational Biology/methods",
+      "SARS-CoV-2",
+      "Gene Regulatory Networks",
+      "Conjunctiva/metabolism",
+      "Gene Ontology",
+      "Protein Interaction Maps",
+      "Fibroblasts/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Tianyi",
+        "Cai, Xueyao",
+        "Shi, Wenjun",
+        "Ding, Xia",
+        "Cai, Yuchen"
+      ],
+      "short_names": [
+        "Zhou T",
+        "Cai X",
+        "Shi W",
+        "Ding X",
+        "Cai Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China.",
+        "Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai, China.",
+        "Department of Plastic and Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China.",
+        "Department of Plastic and Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China.",
+        "Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China. abcdingxia@126.com.",
+        "Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai, China. abcdingxia@126.com.",
+        "Department of Plastic and Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China. 1917@sjtu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Tianyi",
+        "short_name": "Zhou T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China.",
+          "Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Xueyao",
+        "short_name": "Cai X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic and Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Wenjun",
+        "short_name": "Shi W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic and Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Xia",
+        "short_name": "Ding X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China. abcdingxia@126.com.",
+          "Shanghai Key Laboratory of Orbital Diseases and Ocular Oncology, Shanghai, China. abcdingxia@126.com."
+        ]
+      },
+      {
+        "full_name": "Cai, Yuchen",
+        "short_name": "Cai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic and Reconstructive Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, 639 Zhi-Zao-Ju Road, Huangpu District, Shanghai, 200011, China. 1917@sjtu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Hereditas"
+    ],
+    "journal_abbrev": [
+      "Hereditas"
+    ],
+    "pub_date": "2025 Jul 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/15 00:30",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38236961",
+      "37062427",
+      "36815509",
+      "36692516",
+      "36656709",
+      "36639608",
+      "36494595",
+      "36378561",
+      "36306975",
+      "36206195",
+      "35864955",
+      "35137147",
+      "34997134",
+      "34826419",
+      "34769520",
+      "34309201",
+      "34206333",
+      "34022129",
+      "33912553",
+      "33691172",
+      "32885530",
+      "32700091",
+      "32502616",
+      "32275855",
+      "32232433",
+      "32192578",
+      "32015507",
+      "31737624",
+      "31706267",
+      "30940661",
+      "30847945",
+      "29551597",
+      "28410726",
+      "28400721",
+      "26019213",
+      "24825356",
+      "24695009",
+      "23414097",
+      "23192347",
+      "22353746",
+      "21738478",
+      "20811049",
+      "18514391",
+      "18369135",
+      "16033762",
+      "15110891",
+      "15094131"
+    ],
+    "similar": [
+      "40660393",
+      "33299863",
+      "36768371",
+      "36187094",
+      "39093763",
+      "34920753",
+      "36692516",
+      "36189314",
+      "36398070",
+      "32645133",
+      "38259479",
+      "40247093",
+      "40408617",
+      "38267482",
+      "36104591",
+      "41044520",
+      "36575422",
+      "40340571",
+      "38062833",
+      "41066424",
+      "40628511",
+      "39351239",
+      "32382146",
+      "38601162",
+      "37040729",
+      "36532040",
+      "39129283",
+      "34776447",
+      "28983581",
+      "36924127",
+      "41153026",
+      "36059456",
+      "34975833",
+      "35749386",
+      "36389792",
+      "33847347",
+      "34553293",
+      "33407587",
+      "31373692",
+      "38648205",
+      "40821971",
+      "35242109",
+      "29063236",
+      "28952134",
+      "36509426",
+      "38764052",
+      "41203806",
+      "38104081",
+      "33877681",
+      "37184686",
+      "38809379",
+      "40164374",
+      "41286198",
+      "28302149",
+      "37657050",
+      "35464423",
+      "37426635",
+      "34954105",
+      "35235083",
+      "35002537",
+      "34623759",
+      "34964740",
+      "38736878",
+      "33726831",
+      "39377750",
+      "38993198",
+      "40826767",
+      "34826419",
+      "30132538",
+      "40091022",
+      "39496786",
+      "31024802",
+      "31987036",
+      "40597456",
+      "32811479",
+      "34997134",
+      "33083497",
+      "30935420",
+      "34580601",
+      "38909539",
+      "36768914",
+      "35390032",
+      "37991568",
+      "39387979",
+      "32756534",
+      "31460784",
+      "41120603",
+      "34722763",
+      "39170609",
+      "40383755",
+      "40790764",
+      "38549107",
+      "34671419",
+      "32435051",
+      "30825595",
+      "34787756",
+      "36119022",
+      "30813939",
+      "39172048",
+      "34975885"
+    ],
+    "review": [
+      "40660393",
+      "31373692",
+      "34997134"
+    ],
+    "pmc": [
+      "12261744"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://hereditasjournal.biomedcentral.com/articles/10.1186/s41065-025-00500-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40660393/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT6-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

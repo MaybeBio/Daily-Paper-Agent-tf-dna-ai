@@ -1,0 +1,433 @@
+{
+  "identity": {
+    "pmid": "41826696",
+    "doi": "10.1038/s41556-026-01916-w",
+    "title": "An SP110-SP100 axis is a critical regulator of promyelocytic leukaemia body dynamics and mitotic fidelity."
+  },
+  "content": {
+    "abstract": "Stimulation of the innate immune system by foreign RNA elicits a potent interferon response and can trigger cell death. The mechanisms by which cells balance a robust response with cell-intrinsic lethality are still being uncovered. Here, using genome-wide CRISPR-Cas9 genetic screens with triphosphorylated RNA stimulation, we discover that promyelocytic leukaemia (PML) nuclear body-localized speckled protein 110 (SP110) is a potent inhibitor of type 1 interferon-driven cell death. Death suppression by SP110 counteracts a toxic activity of SP100, a major constituent of PML bodies. Loss of SP110 leads to mitotic retention of SP100 and PML bodies, which associate with and perturb segregating chromosomes, leading to micronucleus formation, DNA damage and genotoxic cell death. A combination of cryo-electron microscopy, AlphaFold modelling and cellular biochemistry reveals that SP110 dissolves toxic SP100 oligomers via necessary and sufficient direct interactions between their caspase activation and recruitment domains. These data reveal the critical roles of SP100 and SP110 in governing the disassembly of PML bodies during mitosis, as well as the repercussions if this process is misregulated.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Mitosis",
+      "*Autoantigens/metabolism/genetics/chemistry",
+      "*Promyelocytic Leukemia Protein/metabolism/genetics",
+      "*Antigens, Nuclear/metabolism/genetics/chemistry",
+      "*Leukemia, Promyelocytic, Acute/metabolism/genetics/pathology",
+      "*Nuclear Proteins/metabolism/genetics",
+      "DNA Damage",
+      "CRISPR-Cas Systems",
+      "Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aird, Eric J",
+        "Rabl, Julius",
+        "Knuesel, Tabea",
+        "Groen, Kevin",
+        "Awwad, Samah W",
+        "Korablev, Boris",
+        "Scherpe, Lynn",
+        "Al-Herz, Waleed",
+        "Hupfer, Robin",
+        "Recher, Mike",
+        "Jackson, Stephen P",
+        "Hale, Benjamin G",
+        "Corn, Jacob E"
+      ],
+      "short_names": [
+        "Aird EJ",
+        "Rabl J",
+        "Knuesel T",
+        "Groen K",
+        "Awwad SW",
+        "Korablev B",
+        "Scherpe L",
+        "Al-Herz W",
+        "Hupfer R",
+        "Recher M",
+        "Jackson SP",
+        "Hale BG",
+        "Corn JE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4873-042X",
+        "ORCID: 0000-0002-8330-4653",
+        "ORCID: 0000-0002-9121-6936",
+        "ORCID: 0000-0001-9317-7937",
+        "ORCID: 0000-0002-3891-9480",
+        "ORCID: 0000-0002-7798-5309"
+      ],
+      "affiliations": [
+        "Institute of Molecular Health Sciences, Department of Biology, ETH Zurich, Zurich, Switzerland.",
+        "Cryo-EM Knowledge Hub, ETH Zurich, Zurich, Switzerland.",
+        "Institute of Molecular Health Sciences, Department of Biology, ETH Zurich, Zurich, Switzerland.",
+        "Institute of Medical Virology, University of Zurich, Zurich, Switzerland.",
+        "Cancer Research UK Cambridge Institute, University of Cambridge, Cambridge, UK.",
+        "Institute of Molecular Health Sciences, Department of Biology, ETH Zurich, Zurich, Switzerland.",
+        "Institute of Molecular Health Sciences, Department of Biology, ETH Zurich, Zurich, Switzerland.",
+        "Department of Pediatrics, College of Medicine, Kuwait University, Kuwait City, Kuwait.",
+        "Immunodeficiency Laboratory, Department of Biomedicine, University of Basel, Basel, Switzerland.",
+        "Immunodeficiency Laboratory, Department of Biomedicine, University of Basel, Basel, Switzerland.",
+        "University Center for Immunology, University Hospital, Basel, Switzerland.",
+        "Cancer Research UK Cambridge Institute, University of Cambridge, Cambridge, UK.",
+        "Institute of Medical Virology, University of Zurich, Zurich, Switzerland.",
+        "Institute of Molecular Health Sciences, Department of Biology, ETH Zurich, Zurich, Switzerland. jacob.corn@biol.ethz.ch."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aird, Eric J",
+        "short_name": "Aird EJ",
+        "identifiers": [
+          "0000-0002-4873-042X"
+        ],
+        "affiliations": [
+          "Institute of Molecular Health Sciences, Department of Biology, ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Rabl, Julius",
+        "short_name": "Rabl J",
+        "identifiers": [],
+        "affiliations": [
+          "Cryo-EM Knowledge Hub, ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Knuesel, Tabea",
+        "short_name": "Knuesel T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Health Sciences, Department of Biology, ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Groen, Kevin",
+        "short_name": "Groen K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Virology, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Awwad, Samah W",
+        "short_name": "Awwad SW",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research UK Cambridge Institute, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Korablev, Boris",
+        "short_name": "Korablev B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Health Sciences, Department of Biology, ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Scherpe, Lynn",
+        "short_name": "Scherpe L",
+        "identifiers": [
+          "0000-0002-8330-4653"
+        ],
+        "affiliations": [
+          "Institute of Molecular Health Sciences, Department of Biology, ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Al-Herz, Waleed",
+        "short_name": "Al-Herz W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, College of Medicine, Kuwait University, Kuwait City, Kuwait."
+        ]
+      },
+      {
+        "full_name": "Hupfer, Robin",
+        "short_name": "Hupfer R",
+        "identifiers": [],
+        "affiliations": [
+          "Immunodeficiency Laboratory, Department of Biomedicine, University of Basel, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Recher, Mike",
+        "short_name": "Recher M",
+        "identifiers": [
+          "0000-0002-9121-6936"
+        ],
+        "affiliations": [
+          "Immunodeficiency Laboratory, Department of Biomedicine, University of Basel, Basel, Switzerland.",
+          "University Center for Immunology, University Hospital, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Jackson, Stephen P",
+        "short_name": "Jackson SP",
+        "identifiers": [
+          "0000-0001-9317-7937"
+        ],
+        "affiliations": [
+          "Cancer Research UK Cambridge Institute, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Hale, Benjamin G",
+        "short_name": "Hale BG",
+        "identifiers": [
+          "0000-0002-3891-9480"
+        ],
+        "affiliations": [
+          "Institute of Medical Virology, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Corn, Jacob E",
+        "short_name": "Corn JE",
+        "identifiers": [
+          "0000-0002-7798-5309"
+        ],
+        "affiliations": [
+          "Institute of Molecular Health Sciences, Department of Biology, ETH Zurich, Zurich, Switzerland. jacob.corn@biol.ethz.ch."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature cell biology"
+    ],
+    "journal_abbrev": [
+      "Nat Cell Biol"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/14 06:33",
+    "fetched_at": "2026-10-01 15:57:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40138345",
+      "40111224",
+      "39983719",
+      "39779698",
+      "39169234",
+      "38718835",
+      "38503515",
+      "37028415",
+      "36419248",
+      "36383022",
+      "36286622",
+      "35952671",
+      "35353002",
+      "35138947",
+      "34739333",
+      "34513832",
+      "34265844",
+      "34230650",
+      "33598438",
+      "33122441",
+      "33109765",
+      "33068409",
+      "32782357",
+      "32386862",
+      "32313254",
+      "32302571",
+      "32242017",
+      "32203325",
+      "31578484",
+      "31439014",
+      "31416160",
+      "31283436",
+      "30809026",
+      "30664151",
+      "30385506",
+      "30279182",
+      "30011268",
+      "29976794",
+      "29758260",
+      "29472270",
+      "29187165",
+      "29046350",
+      "28968443",
+      "28825155",
+      "28783698",
+      "28622525",
+      "28196594",
+      "28165473",
+      "27661255",
+      "27455396",
+      "27453484",
+      "27079975",
+      "25613900",
+      "25605792",
+      "25516281",
+      "25476604",
+      "25018021",
+      "25012502",
+      "24555472",
+      "24362405",
+      "23890385",
+      "23104886",
+      "22460905",
+      "22388286",
+      "20124702",
+      "20106923",
+      "19620789",
+      "18798982",
+      "18480407",
+      "17227866",
+      "17210054",
+      "16492707",
+      "15572765",
+      "15308735",
+      "15264254",
+      "15208674"
+    ],
+    "similar": [
+      "41826696",
+      "10913195",
+      "41093075",
+      "28439026",
+      "29046350",
+      "27162364",
+      "27356898",
+      "30802273",
+      "19279115",
+      "21118961",
+      "18480407",
+      "11238464",
+      "9636146",
+      "10330182",
+      "22773875",
+      "16492707",
+      "8681971",
+      "11704856",
+      "24089549",
+      "31416160",
+      "9412458",
+      "17693089",
+      "23830076",
+      "16177824",
+      "27580912",
+      "35353002",
+      "10023669",
+      "29309427",
+      "25033267",
+      "10212234",
+      "12490166",
+      "17343971",
+      "33598438",
+      "10921892",
+      "21471311",
+      "24623443",
+      "26057166",
+      "11753375",
+      "28745271",
+      "39136995",
+      "20130140",
+      "27535048",
+      "23306558",
+      "9151854",
+      "22503841",
+      "41008598",
+      "9230084",
+      "11112690",
+      "18706885",
+      "12565818",
+      "26608315",
+      "27099310",
+      "30260704",
+      "8695863",
+      "18680765",
+      "37127643",
+      "11313457",
+      "12511612",
+      "21779164",
+      "18664490",
+      "23485562",
+      "27129259",
+      "28521962",
+      "22278248",
+      "22213200",
+      "38411156",
+      "23221561",
+      "26223657",
+      "11716540",
+      "17626080",
+      "18616965",
+      "26347895",
+      "22237204",
+      "16873258",
+      "9103677",
+      "7493645",
+      "21217204",
+      "11716541",
+      "15807293",
+      "29191918",
+      "31669778",
+      "10779416",
+      "26468536",
+      "16873256",
+      "9973607",
+      "33984443",
+      "18844582",
+      "7545807",
+      "16873257",
+      "12855769",
+      "31088931",
+      "11909962",
+      "24412926",
+      "27758112",
+      "8986606",
+      "20823370",
+      "10077561",
+      "12123283",
+      "28250117",
+      "25908860"
+    ],
+    "review": [
+      "41826696",
+      "11704856",
+      "31416160",
+      "17693089",
+      "17343971",
+      "33598438",
+      "41008598",
+      "18680765",
+      "37127643",
+      "28521962",
+      "38411156",
+      "18616965",
+      "22237204",
+      "9103677",
+      "15807293",
+      "27758112"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41556-026-01916-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

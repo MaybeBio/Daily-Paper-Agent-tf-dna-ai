@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors propose that pyocyanin (PYO) directly binds to the transcriptional repressors MexR and NalD of the MexAB-OprM efflux pump in Pseudomonas aeruginosa, causing their dissociation from promoter DNA and thereby derepressing efflux pump expression. They further propose a negative feedback loop in which PYO, via NalD, regulates its own biosynthesis.
+- **Visible evidence base** In vitro binding assays (SPR, ITC, MST), EMSA-based DNA dissociation experiments, in vivo gene expression analyses (qRT-PCR), phenotypic assays (MIC, disc diffusion, spot assays), computational docking and MD simulations, and mutant complementation studies.
+- **Missing materials affecting confidence** Raw gel images, full SPR/ITC/MST sensorgrams and thermograms, statistical details for all quantitative comparisons, MD simulation convergence metrics, and complete supplementary figures and tables were not available for inspection.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in Pseudomonas aeruginosa biology: how the virulence factor pyocyanin modulates antibiotic resistance through the MexAB-OprM efflux pump. The central claim, that PYO acts as a direct ligand for MexR and NalD, is supported by a multi-technique approach including SPR, ITC, MST, and EMSA. The identification of specific binding residues through mutagenesis adds mechanistic depth. However, several concerns temper enthusiasm. The in vivo relevance of the measured micromolar binding affinities is not fully contextualized against physiological PYO concentrations. The proposed negative feedback loop, while intriguing, relies on correlative gene expression data and a single EMSA for promoter binding. The manuscript would be strengthened by direct in vivo demonstration of PYO-MexR/NalD interaction, quantitative assessment of feedback dynamics, and clearer integration of the proposed model with existing literature on MexAB-OprM regulation.
+- **Who would be interested in the results, and why** Researchers studying Pseudomonas aeruginosa pathogenesis, antibiotic resistance mechanisms, RND efflux pump regulation, and bacterial signaling by secondary metabolites. The work also has relevance for those interested in the intersection of virulence and resistance, and in the development of anti-virulence or resistance-modifying strategies.
+- **Major strengths** The study employs a commendable range of orthogonal biophysical techniques to establish direct PYO-protein binding. The identification of specific residues critical for PYO recognition provides a clear foundation for future mechanistic studies. The exploration of a potential negative feedback loop involving NalD and phenazine biosynthesis adds a novel regulatory dimension. The writing is generally clear and the figures, as described, appear well-organized.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo relevance and physiological context
+  - **Claim pointer** The authors claim that PYO binding to MexR and NalD (KD 5.17 and 7.03 μM) leads to derepression of MexAB-OprM and enhanced antibiotic resistance.
+  - **Evidence pointer** Results sections "PYO is essential for MexAB-OprM-mediated antibiotic resistance" and "NalD and MexR are PYO-responsive transcriptional regulators"; Figures 1, 2, 3.
+  - **Concern** The physiological relevance of the measured micromolar KD values is not established. The manuscript does not report the intracellular or extracellular concentrations of PYO in the experimental systems used, nor does it discuss whether these concentrations are sufficient to occupy a significant fraction of MexR/NalD in vivo. The in vitro EMSA experiments use PYO concentrations that may not reflect physiological conditions.
+  - **Why it matters** Without contextualizing the binding affinity against actual PYO concentrations, the physiological significance of the proposed mechanism remains uncertain. If PYO concentrations in the relevant cellular compartment are far below the KD, the contribution of this direct binding mechanism to efflux pump derepression would be minimal compared to other regulatory pathways.
+  - **Resolution test** The authors should measure or cite literature values for PYO concentrations in the periplasm/cytoplasm of P. aeruginosa under conditions relevant to their experiments. They should demonstrate that PYO at these concentrations can displace MexR/NalD from the promoter in vivo, for example using ChIP-qPCR or a reporter system.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Direct in vivo evidence for the proposed mechanism
+  - **Claim pointer** The authors claim that PYO directly binds to MexR and NalD in vivo to regulate MexAB-OprM expression.
+  - **Evidence pointer** Results sections "NalD and MexR are PYO-responsive transcriptional regulators" and "PYO-binding sites in MexR and NalD"; Figures 2, 3, 4.
+  - **Concern** The evidence for direct PYO-protein interaction is entirely derived from in vitro experiments (SPR, ITC, MST, EMSA) and computational modeling. The manuscript lacks direct in vivo evidence that PYO binds to MexR/NalD, such as a cellular thermal shift assay, pull-down, or a genetically encoded biosensor. The in vivo experiments (qRT-PCR, phenotypic assays) are consistent with the model but do not prove direct binding.
+  - **Why it matters** In vitro binding does not guarantee in vivo relevance. Other cellular factors, post-translational modifications, or local environmental conditions could alter the interaction. Direct in vivo evidence would substantially strengthen the central claim of the paper.
+  - **Resolution test** Perform an in vivo crosslinking or proximity ligation assay to demonstrate PYO-dependent changes in MexR/NalD-DNA interactions or MexR/NalD-PYO physical association within cells.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic clarity of the negative feedback loop
+  - **Claim pointer** The authors claim that PYO establishes a negative feedback regulatory mechanism through NalD, which acts as a transcriptional activator of phenazine biosynthesis genes, restricting PYO overproduction.
+  - **Evidence pointer** Results section "High level PYO negatively feedback to regulate its own synthesis"; Figure 6.
+  - **Concern** The proposed negative feedback loop is based on gene expression changes in knockout/complemented strains and a single EMSA showing NalD binding to phz promoters. The mechanism by which NalD acts as an activator for phenazine genes while being a repressor for mexAB-oprM is not explained. The logic of how PYO binding to NalD (which would release it from DNA) leads to reduced phenazine gene expression (if NalD is an activator) is not fully articulated.
+  - **Why it matters** The feedback loop is a significant conceptual advance, but the mechanistic details are crucial for its acceptance. The dual role of NalD as both repressor and activator, and how PYO differentially modulates these functions, is a key question that is not addressed.
+  - **Resolution test** Provide a detailed mechanistic model for how NalD activates phenazine gene transcription. Test whether PYO binding to NalD affects its ability to activate phz promoters in a reporter assay. Quantify the dynamics of the feedback loop with time-course experiments.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor and data presentation
+  - **Claim pointer** The authors report KD values from SPR, ITC, and MST, and gene expression changes from qRT-PCR.
+  - **Evidence pointer** Methods sections for SPR, ITC, MST, and qRT-PCR; Figures 3, 6; Table 1.
+  - **Concern** The manuscript reports KD values but does not provide the full binding curves, sensorgrams, or thermograms in the main text or accessible supplementary data. The number of replicates and the statistical analysis for the qRT-PCR data are not fully described. The variability in KD measurements across the three techniques is not discussed.
+  - **Why it matters** Quantitative binding data are central to the paper's claims. Without access to the raw data and details of the analysis, the reliability of the reported affinities cannot be fully assessed. The discrepancy between techniques (e.g., SPR vs. ITC vs. MST) could indicate systematic errors or complex binding behavior.
+  - **Resolution test** Provide representative raw data for all biophysical experiments in the supplementary materials. Include a table comparing KD values from all techniques with appropriate errors. Clearly state the number of biological and technical replicates for all quantitative assays.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Introduction, last paragraph
+  - **Evidence pointer** Introduction section
+  - **Issue** The final paragraph of the introduction could more clearly state the specific hypotheses being tested and the key findings of the study.
+  - **Required correction** Revise the final paragraph to explicitly list the main claims: (1) PYO binds directly to MexR and NalD; (2) this binding causes their dissociation from the mexA promoter; (3) specific residues mediate this interaction; (4) PYO and antibiotics compete for binding; (5) a negative feedback loop regulates PYO homeostasis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 2E
+  - **Evidence pointer** Results section "NalD and MexR are PYO-responsive transcriptional regulators"
+  - **Issue** The oxidation experiment shown in Figure 2E uses a non-reducing SDS-PAGE to show PYO-induced dimerization of MexR. It is unclear if this is a specific effect of PYO or a general oxidative effect, and whether this oxidation is required for the observed DNA dissociation.
+  - **Required correction** Clarify the relationship between PYO-induced oxidation and PYO binding. Include a control with a reducing agent to show that the oxidation is reversible and test whether the oxidation alone (e.g., with H2O2) is sufficient to cause DNA dissociation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Figure 3C and 3D
+  - **Evidence pointer** Results section "NalD and MexR are PYO-responsive transcriptional regulators"
+  - **Issue** The spot assays show that loss of mexR or nalD in a PYO-deficient background reduces viability on antibiotic plates. The interpretation is that PYO normally acts through these repressors to enhance resistance. However, the effect could also be due to indirect effects of the knockouts on other resistance mechanisms.
+  - **Required correction** Acknowledge this limitation and, if possible, show that complementation with wild-type mexR/nalD (but not the PYO-binding mutants) restores the phenotype, which would strengthen the causal link.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion could better contextualize the findings with respect to the known complexity of MexAB-OprM regulation, including the roles of other regulators like NalC, MdrR, and the two-component systems.
+  - **Required correction** Add a paragraph discussing how the PYO-MexR/NalD axis integrates with the broader regulatory network, and what questions remain about the hierarchy and interplay of these regulators.
+- **Technical failings that need to be addressed before the case is established** The lack of in vivo evidence for direct PYO-MexR/NalD binding (R1-M2) is a significant gap. The physiological relevance of the binding affinities (R1-M1) must be addressed. The mechanistic details of the proposed feedback loop (R1-M3) require further experimental support. The quantitative data presentation (R1-M4) needs to be more rigorous.
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of a virulence factor directly binding to and modulating efflux pump repressors is novel and extends the understanding of the virulence-resistance nexus. The identification of a potential feedback loop is also original.
+  - **Scientific importance** The work has significant implications for understanding how P. aeruginosa coordinates virulence and resistance, and could inform new therapeutic strategies. The importance is high, given the clinical relevance of the pathogen.
+  - **Interdisciplinary readership** The topic is of interest to microbiologists, infectious disease researchers, and structural biologists. The biophysical and computational approaches broaden the appeal, but the primary audience is likely specialists in P. aeruginosa biology and antibiotic resistance.
+  - **Technical soundness** The in vitro biophysical work appears technically sound, but the lack of raw data and the absence of in vivo validation for the central binding claim are weaknesses. The computational work is appropriate but not definitive.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but the significance of the findings could be framed more clearly for a broader audience. The abstract is concise and effective.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the in vitro data are promising. However, the lack of in vivo evidence for direct binding, the unclear physiological relevance of the measured affinities, and the incomplete mechanistic model for the feedback loop prevent the case from being fully established. Addressing these concerns would significantly strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim that PYO binding to MexR/NalD is the primary mechanism for PYO-induced MexAB-OprM upregulation in vivo is not fully supported, as the manuscript does not rule out other indirect mechanisms.
+- The claim that NalD acts as a transcriptional activator of phenazine biosynthesis genes is based on limited evidence (gene expression changes and a single EMSA) and the mechanism is not defined.
+- The physiological relevance of the competitive binding between PYO and novobiocin is speculative, as the manuscript does not demonstrate that this competition occurs at clinically or environmentally relevant concentrations in vivo.
+- The statement that the regulatory pathway provides an "energy-efficient survival strategy" is an interpretation that is not directly tested.

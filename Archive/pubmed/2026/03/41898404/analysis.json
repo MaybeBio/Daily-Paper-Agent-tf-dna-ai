@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41898404",
+  "title": "Design and Testing of Root-Specific Synthetic Promoters by Machine Learning.",
+  "authors": "Lu, Chunhao; Song, Yuepeng; Zhang, Deqiang",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2026-03-28",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用随机森林从转录组和TFBS基序中预测组织特异性顺式调控模块并设计根特异合成启动子，虽涉及TF-DNA结合位点预测，但聚焦启动子工程而非TF-DNA互作机制建模，方法可迁移但深度有限。",
+  "abstract": "Synthetic promoters are crucial for precise gene expression in transgenic plants, but their rational design is hindered by the difficulty in identifying functional cis-regulatory elements (CREs). In this study, we aimed to develop a systematic approach for discovering tissue-specific cis-regulatory modules (CRMs) and generating functional synthetic promoters in poplar. We performed extensive transcriptomic analysis across various poplar tissues to obtain categorical labels and detected motifs in all gene promoters using known transcription factor binding site (TFBS) position weight matrices. Informative, tissue-specific TFBSs were predicted using a random forest model. Applying this to a root-specific gene, PopRTS1, we identified putative root-specific CRMs. These CRMs were then used to construct synthetic promoters, which were experimentally validated through rapid infiltration and GUS staining assays across different tissues. We successfully identified a root-specific synthetic promoter, PRTS1. Our findings demonstrate that machine learning can effectively decipher regulatory codes from omics data to predict functional CRMs. This work provides a feasible and systematic method for screening and designing tissue-specific synthetic promoters, offering significant potential for advancing targeted gene expression systems in plant biotechnology.",
+  "abstract_zh": "合成启动子对于转基因植物中的精确基因表达至关重要，但其合理设计因难以识别功能性顺式调控元件（CREs）而受阻。在本研究中，我们旨在开发一种系统方法，用于发现组织特异性顺式调控模块（CRMs）并在杨树中生成功能性合成启动子。我们对多种杨树组织进行了广泛的转录组分析以获得分类标签，并使用已知转录因子结合位点（TFBS）位置权重矩阵检测所有基因启动子中的基序。通过随机森林模型预测了信息丰富且组织特异性的TFBSs。将此方法应用于根特异性基因PopRTS1，我们识别了推定的根特异性CRMs。随后利用这些CRMs构建合成启动子，并通过快速渗透和GUS染色实验在不同组织中进行了验证。我们成功鉴定了一个根特异性合成启动子PRTS1。我们的研究结果表明，机器学习能够有效解读组学数据中的调控代码，以预测功能性CRMs。这项工作为筛选和设计组织特异性合成启动子提供了一种可行且系统的方法，为推进植物生物技术中的靶向基因表达系统提供了重要潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41898404/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41898404/",
+  "paper_page_path": "papers/pubmed/41898404/index.html"
+}

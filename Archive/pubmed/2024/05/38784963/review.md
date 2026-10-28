@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and conclusions
+- **Assessment boundary** Scientific validity of claims, experimental design, data interpretation, and consistency between evidence and conclusions
+- **Shared manuscript claim summary** The authors propose that a conserved glycine residue (G290) in the DNA-recognition helix of the Drosophila HOX cofactor Extradenticle (EXD) is responsible for its intrinsically weak DNA-binding affinity. Replacing G290 with alanine increases helix stability, quenches microsecond-millisecond dynamics, enhances overall protein stability, and improves DNA-binding affinity approximately three-fold. The authors argue that evolution preserves glycine at this position because the resulting flexibility and weaker affinity are functionally important for EXD's role as a HOX cofactor, particularly for DNA sequence discrimination.
+- **Visible evidence base** NMR chemical shift assignments, HSQC spectra, NOESY patterns, backbone 15N relaxation data, hydrogen exchange protection factors, EMSA binding curves, 1.5 μs MD simulations with MM/GBSA analysis
+- **Missing materials affecting confidence** Supplementary figures referenced but not provided; raw NMR relaxation data not shown; MD simulation convergence metrics not reported; no replicate information for MD simulations; no statistical analysis details for EMSA replicates beyond mean and standard deviation
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an interesting and potentially important question: why does a conserved glycine residue persist in the DNA-recognition helix of a homeodomain protein when its replacement with alanine improves both stability and DNA-binding affinity? The combination of NMR spectroscopy, hydrogen exchange, and long-timescale MD simulations provides a multi-pronged approach to characterize the biophysical consequences of the G290A mutation. The central observation that a single conservative mutation enhances stability and affinity while quenching dynamics is well supported by the data presented. However, the manuscript's broader evolutionary argument, which is the most conceptually significant claim, rests on speculative reasoning rather than direct experimental evidence. The claim that enhanced affinity and reduced flexibility would compromise DNA sequence discrimination is plausible but not tested. The manuscript would be strengthened by direct measurements of sequence specificity or by experiments addressing the functional consequences of the mutation in a biological context.
+- **Who would be interested in the results, and why** Researchers studying homeodomain proteins, transcription factor DNA-binding specificity, and the biophysical basis of protein-DNA recognition would find this work relevant. The study also speaks to the broader question of how evolution balances protein stability, dynamics, and function, which would interest evolutionary biochemists. The methodological combination of NMR and MD simulation is of interest to structural biologists. The specific system, EXD-HOX cooperativity in Drosophila development, will appeal to developmental biologists studying Hox gene function.
+- **Major strengths** The study combines multiple complementary biophysical techniques to characterize the effects of a single point mutation. The NMR and MD data are mutually reinforcing, showing consistent conclusions about increased stability and reduced dynamics in the mutant. The observation that the two DNA-binding elements (helix H3 and the N-terminal arm) communicate through the bound DNA is an interesting mechanistic insight. The authors are appropriately cautious in framing the evolutionary interpretation as speculative, offering several plausible explanations rather than overinterpreting their data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional significance
+  - **Claim pointer** The authors claim that increased stability and affinity of EXDG290A would compromise DNA sequence discrimination and thus EXD function as a HOX cofactor.
+  - **Evidence pointer** Discussion section, location not provided
+  - **Concern** The central evolutionary argument of the paper, that glycine is preserved because it enables DNA sequence discrimination, is not tested experimentally. The authors do not measure DNA-binding specificity for the wild-type versus mutant protein, nor do they assess whether the enhanced affinity of EXDG290A comes at the cost of reduced selectivity between different DNA sequences. The claim that "the function of the EXD as a HOX co-factor requires its ability to discriminate similar DNA sequences, which is most likely compromised" is presented as a conclusion but is entirely speculative.
+  - **Why it matters** The evolutionary interpretation is the most conceptually significant contribution of the paper. Without direct evidence that the G290A mutation affects DNA-binding specificity or biological function, the paper's broader significance is substantially weakened. The biophysical characterization alone, while competent, is of narrower interest.
+  - **Resolution test** The authors should either (a) measure DNA-binding specificity of EXDWT and EXDG290A against a panel of related DNA sequences to test whether the mutant shows reduced discrimination, (b) perform functional assays in a relevant biological context, or (c) substantially temper the evolutionary claims to match the evidence presented.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors report a ΔΔGG→A of −2.6 kcal/mol for the entire homeodomain based on hydrogen exchange data.
+  - **Evidence pointer** Results section, "Amide hydrogen exchange reveals increased stability of EXDG290A", location not provided
+  - **Concern** The calculation of ΔΔG from protection factors is not described in sufficient detail. The authors state that protection factors increased by an average of approximately 90-fold for core residues, which corresponds to −2.6 kcal/mol, but the specific residues included in this average, the error propagation, and the assumptions underlying the conversion from protection factors to free energy are not provided. The relationship between protection factors and thermodynamic stability is not straightforward and depends on the exchange mechanism assumed.
+  - **Why it matters** The quantitative stability change is a key quantitative claim of the paper. If the ΔΔG calculation is not rigorously justified, the magnitude of the reported stabilization effect is uncertain.
+  - **Resolution test** Provide a detailed description of how protection factors were converted to free energy values, including which residues were included, how the EX2 mechanism was verified, and how errors were propagated. Alternatively, present the protection factor data directly without converting to ΔΔG.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation rigor
+  - **Claim pointer** The authors use 1.5 μs MD simulations to support their conclusions about increased stability and reduced dynamics in the mutant.
+  - **Evidence pointer** Methods section, "Molecular dynamics simulations and analysis", location not provided
+  - **Concern** The manuscript does not report whether the simulations reached convergence, how many independent replicates were performed, or whether the force field parameters were appropriate for the system. The use of different force fields for free proteins (CHARMM36m) and DNA-bound complexes (AMBER99SB) is not justified. For a study that relies heavily on MD simulation to support its conclusions, these methodological details are essential.
+  - **Why it matters** MD simulation results can be sensitive to force field choice and may not be converged on the microsecond timescale for protein dynamics. Without evidence of convergence and reproducibility, the simulation-based conclusions are difficult to evaluate.
+  - **Resolution test** Report convergence metrics (e.g., RMSD stabilization, block averaging), perform multiple independent simulations to assess reproducibility, and justify the choice of force fields for each system.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data availability
+  - **Claim pointer** The authors reference multiple supplementary figures to support their claims.
+  - **Evidence pointer** Results section, multiple locations
+  - **Concern** Supplementary figures SI 1 through SI 9 are referenced throughout the manuscript but were not provided for review. These include critical data such as SEC elution profiles, additional relaxation data, MD simulation analyses, and DNA-binding data. Without access to these materials, several claims cannot be fully evaluated.
+  - **Why it matters** The supplementary materials contain data that directly support key claims about protein shape, dynamics, and DNA-binding behavior. The inability to assess these data limits confidence in the conclusions.
+  - **Resolution test** Provide the supplementary materials for review, or ensure that all key claims are supported by data presented in the main text.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract ends mid-sentence with "which is most likely comprom" and the sentence is incomplete. This appears to be a truncation error.
+  - **Required correction** Complete the final sentence of the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** EMSA methods
+  - **Evidence pointer** Methods section, "Molecular dynamics simulations and analysis" (EMSA described in Results), location not provided
+  - **Issue** The EMSA experiments are described in the Results section but no methodological detail is provided in the Methods section. The buffer conditions, incubation time, temperature, and analysis method for quantifying bound versus free DNA are not described.
+  - **Required correction** Add a description of the EMSA methodology to the Methods section, including all relevant experimental conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** EMSA results
+  - **Evidence pointer** Results section, "G290A mutation enhances the DNA-binding affinity of EXD", location not provided
+  - **Issue** The KD values are reported as mean ± standard deviation from 4 and 5 experiments for wild-type and mutant, respectively. However, no statistical test is reported to establish that the three-fold difference is significant.
+  - **Required correction** Report the results of an appropriate statistical test (e.g., t-test) comparing the KD values, or provide the individual data points so the reader can assess the variability.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of N-terminal arm
+  - **Evidence pointer** Discussion section, location not provided
+  - **Issue** The authors state that the N-terminal arm makes more stable contact with the DNA minor groove in the mutant, but the causal relationship between helix H3 stability and N-terminal arm ordering is inferred from correlation in the simulation rather than demonstrated mechanistically.
+  - **Required correction** Clarify that the communication between the two DNA-binding elements is a hypothesis supported by the simulation data, not a demonstrated mechanism.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, location not provided
+  - **Issue** The introduction does not discuss previous studies on glycine residues in DNA-recognition helices of homeodomains or other transcription factors. Given that the paper's central claim is that glycine at this position is unusual and functionally significant, some discussion of whether similar phenomena have been observed in other systems would strengthen the context.
+  - **Required correction** Add a brief discussion of relevant literature on glycine residues in protein-DNA interfaces and their functional consequences.
+- **Technical failings that need to be addressed before the case is established** The evolutionary interpretation (R1-M1) requires experimental testing or substantial tempering. The ΔΔG calculation (R1-M2) needs methodological detail. MD simulation convergence and force field choices (R1-M3) must be documented. Supplementary data (R1-M4) must be available for assessment.
+- **Assessment against Nature-style criteria** Originality: The question of why a destabilizing glycine is conserved in a DNA-recognition helix is interesting and somewhat novel, though the general concept that protein dynamics can be functionally important is well established. Scientific importance: The biophysical characterization is competent but the broader significance depends on the evolutionary argument, which is currently speculative. Interdisciplinary readership: The work bridges structural biology, biophysics, and evolutionary biology, but the current framing may not fully engage readers outside the immediate field. Technical soundness: The NMR and MD methods appear appropriate, but missing methodological details and supplementary data limit full assessment. Readability for nonspecialists: The manuscript is generally clearly written, though some sections assume familiarity with NMR relaxation theory and MD simulation analysis.
+- **Recommendation posture** Supportive if the major concerns are addressed. The biophysical characterization is solid and the question is interesting, but the paper's most significant claim, the evolutionary rationale for glycine conservation, requires either direct experimental support or substantial reframing. The missing methodological details and supplementary data must also be provided.
+
+## Risk / unsupported claims
+- The claim that EXDG290A would have compromised DNA sequence discrimination is unsupported by direct experimental evidence.
+- The claim that the two DNA-binding elements communicate through the bound DNA is inferred from simulation data and not directly demonstrated.
+- The quantitative ΔΔG value of −2.6 kcal/mol is not fully supported by the methodological detail provided.
+- The claim that increased stability of the mutant would compromise EXD function as a HOX cofactor is speculative and not tested.
+- The assertion that evolution preserves glycine at position 290 for functional reasons beyond stability and affinity is a hypothesis, not a conclusion supported by the data.

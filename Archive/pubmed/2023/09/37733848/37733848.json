@@ -1,0 +1,569 @@
+{
+  "identity": {
+    "pmid": "37733848",
+    "doi": "10.1126/science.add1250",
+    "title": "Short tandem repeats bind transcription factors to tune eukaryotic gene expression."
+  },
+  "content": {
+    "abstract": "Short tandem repeats (STRs) are enriched in eukaryotic cis-regulatory elements and alter gene expression, yet how they regulate transcription remains unknown. We found that STRs modulate transcription factor (TF)-DNA affinities and apparent on-rates by about 70-fold by directly binding TF DNA-binding domains, with energetic impacts exceeding many consensus motif mutations. STRs maximize the number of weakly preferred microstates near target sites, thereby increasing TF density, with impacts well predicted by statistical mechanics. Confirming that STRs also affect TF binding in cells, neural networks trained only on in vivo occupancies predicted effects identical to those observed in vitro. Approximately 90% of TFs preferentially bound STRs that need not resemble known motifs, providing a cis-regulatory mechanism to target TFs to genomic sites.",
+    "keywords": [],
+    "mesh_terms": [
+      "Eukaryotic Cells",
+      "*Microsatellite Repeats",
+      "*Transcription Factors/chemistry/genetics",
+      "*Gene Expression Regulation",
+      "Protein Binding",
+      "Humans",
+      "Animals",
+      "Saccharomyces cerevisiae",
+      "Protein Domains",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Horton, Connor A",
+        "Alexandari, Amr M",
+        "Hayes, Michael G B",
+        "Marklund, Emil",
+        "Schaepe, Julia M",
+        "Aditham, Arjun K",
+        "Shah, Nilay",
+        "Suzuki, Peter H",
+        "Shrikumar, Avanti",
+        "Afek, Ariel",
+        "Greenleaf, William J",
+        "Gordan, Raluca",
+        "Zeitlinger, Julia",
+        "Kundaje, Anshul",
+        "Fordyce, Polly M"
+      ],
+      "short_names": [
+        "Horton CA",
+        "Alexandari AM",
+        "Hayes MGB",
+        "Marklund E",
+        "Schaepe JM",
+        "Aditham AK",
+        "Shah N",
+        "Suzuki PH",
+        "Shrikumar A",
+        "Afek A",
+        "Greenleaf WJ",
+        "Gordan R",
+        "Zeitlinger J",
+        "Kundaje A",
+        "Fordyce PM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6018-3556",
+        "ORCID: 0000-0001-8655-8109",
+        "ORCID: 0000-0001-5315-7042",
+        "ORCID: 0000-0002-1150-7304",
+        "ORCID: 0000-0003-0416-0469",
+        "ORCID: 0000-0002-9839-7733",
+        "ORCID: 0000-0002-0081-8537",
+        "ORCID: 0000-0002-6108-0273",
+        "ORCID: 0000-0002-6443-4671",
+        "ORCID: 0000-0001-8584-9879",
+        "ORCID: 0000-0003-1409-3095",
+        "ORCID: 0000-0002-5172-3335",
+        "ORCID: 0000-0003-3084-2287",
+        "ORCID: 0000-0002-9505-0638"
+      ],
+      "affiliations": [
+        "Department of Genetics, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Computer Science, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+        "ChEM-H Institute, Stanford University, Stanford, CA 94305, USA.",
+        "Stowers Institute for Medical Research, Kansas City, MO 64110, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Computer Science, Stanford University, Stanford, CA 94305, USA.",
+        "Center for Genomic and Computational Biology, Duke University School of Medicine, Durham, NC 27710, USA.",
+        "Department of Biostatistics and Bioinformatics, Duke University School of Medicine, Durham, NC 27710, USA.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Genetics, Stanford University, Stanford, CA 94305, USA.",
+        "Center for Genomic and Computational Biology, Duke University School of Medicine, Durham, NC 27710, USA.",
+        "Department of Biostatistics and Bioinformatics, Duke University School of Medicine, Durham, NC 27710, USA.",
+        "Department of Computer Science, Duke University, Durham, NC 27708, USA.",
+        "Department of Molecular Genetics and Microbiology, Duke University School of Medicine, Durham, NC 27710, USA.",
+        "Stowers Institute for Medical Research, Kansas City, MO 64110, USA.",
+        "The University of Kansas Medical Center, Kansas City, KS 66103, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Computer Science, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA 94305, USA.",
+        "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+        "ChEM-H Institute, Stanford University, Stanford, CA 94305, USA.",
+        "Chan Zuckerberg Biohub, San Francisco, CA 94110, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Horton, Connor A",
+        "short_name": "Horton CA",
+        "identifiers": [
+          "0000-0001-6018-3556"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Alexandari, Amr M",
+        "short_name": "Alexandari AM",
+        "identifiers": [
+          "0000-0001-8655-8109"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Hayes, Michael G B",
+        "short_name": "Hayes MGB",
+        "identifiers": [
+          "0000-0001-5315-7042"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Marklund, Emil",
+        "short_name": "Marklund E",
+        "identifiers": [
+          "0000-0002-1150-7304"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Schaepe, Julia M",
+        "short_name": "Schaepe JM",
+        "identifiers": [
+          "0000-0003-0416-0469"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Aditham, Arjun K",
+        "short_name": "Aditham AK",
+        "identifiers": [
+          "0000-0002-9839-7733"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+          "ChEM-H Institute, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Shah, Nilay",
+        "short_name": "Shah N",
+        "identifiers": [
+          "0000-0002-0081-8537"
+        ],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, MO 64110, USA."
+        ]
+      },
+      {
+        "full_name": "Suzuki, Peter H",
+        "short_name": "Suzuki PH",
+        "identifiers": [
+          "0000-0002-6108-0273"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Shrikumar, Avanti",
+        "short_name": "Shrikumar A",
+        "identifiers": [
+          "0000-0002-6443-4671"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Afek, Ariel",
+        "short_name": "Afek A",
+        "identifiers": [
+          "0000-0001-8584-9879"
+        ],
+        "affiliations": [
+          "Center for Genomic and Computational Biology, Duke University School of Medicine, Durham, NC 27710, USA.",
+          "Department of Biostatistics and Bioinformatics, Duke University School of Medicine, Durham, NC 27710, USA.",
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Greenleaf, William J",
+        "short_name": "Greenleaf WJ",
+        "identifiers": [
+          "0000-0003-1409-3095"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Gordân, Raluca",
+        "short_name": "Gordân R",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomic and Computational Biology, Duke University School of Medicine, Durham, NC 27710, USA.",
+          "Department of Biostatistics and Bioinformatics, Duke University School of Medicine, Durham, NC 27710, USA.",
+          "Department of Computer Science, Duke University, Durham, NC 27708, USA.",
+          "Department of Molecular Genetics and Microbiology, Duke University School of Medicine, Durham, NC 27710, USA."
+        ]
+      },
+      {
+        "full_name": "Zeitlinger, Julia",
+        "short_name": "Zeitlinger J",
+        "identifiers": [
+          "0000-0002-5172-3335"
+        ],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, MO 64110, USA.",
+          "The University of Kansas Medical Center, Kansas City, KS 66103, USA."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [
+          "0000-0003-3084-2287"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA 94305, USA.",
+          "Department of Computer Science, Stanford University, Stanford, CA 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Fordyce, Polly M",
+        "short_name": "Fordyce PM",
+        "identifiers": [
+          "0000-0002-9505-0638"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA 94305, USA.",
+          "Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.",
+          "ChEM-H Institute, Stanford University, Stanford, CA 94305, USA.",
+          "Chan Zuckerberg Biohub, San Francisco, CA 94110, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "Science"
+    ],
+    "pub_date": "2023 Sep 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/21 18:41",
+    "fetched_at": "2026-09-29 07:17:46"
+  },
+  "links": {
+    "cites": [
+      "42589526",
+      "42565874",
+      "42557397",
+      "42526427",
+      "42509369",
+      "42457721",
+      "42401553",
+      "42300130",
+      "42286103",
+      "42248947",
+      "42185583",
+      "42115246",
+      "42108447",
+      "42055287",
+      "42010009",
+      "41933202",
+      "41927798",
+      "41878771",
+      "41833943",
+      "41699912",
+      "41691336",
+      "41688495",
+      "41677725",
+      "41676624",
+      "41675509",
+      "41605898",
+      "41539721",
+      "41505096",
+      "41388549",
+      "41373454",
+      "41308636",
+      "41278993",
+      "41278958",
+      "41232529",
+      "41142115",
+      "41105762",
+      "41102254",
+      "41039007",
+      "41010028",
+      "41001006",
+      "40950208",
+      "40940643",
+      "40932769",
+      "40923760",
+      "40903577",
+      "40884402",
+      "40796852",
+      "40768359",
+      "40764461",
+      "40744492",
+      "40695934",
+      "40687843",
+      "40670419",
+      "40613715",
+      "40594678",
+      "40481049",
+      "40475611",
+      "40463169",
+      "40462000",
+      "40456778",
+      "40447998",
+      "40446031",
+      "40437022",
+      "40413307",
+      "40401350",
+      "40378829",
+      "40360798",
+      "40329378",
+      "40291654",
+      "40287827",
+      "40282366",
+      "40246989",
+      "40240364",
+      "40179879",
+      "40174587",
+      "40166346",
+      "40148540",
+      "40138198",
+      "40131775",
+      "40094553",
+      "40092660",
+      "40075057",
+      "40050353",
+      "40047902",
+      "40035343",
+      "40034796",
+      "40027831",
+      "39975040",
+      "39947477",
+      "39929864",
+      "39922842",
+      "39890865",
+      "39879549",
+      "39858262",
+      "39829783",
+      "39818622",
+      "39805837",
+      "39775235",
+      "39753635",
+      "39747403",
+      "39741260",
+      "39738068",
+      "39692189",
+      "39684407",
+      "39644900",
+      "39609246",
+      "39605729",
+      "39605368",
+      "39570974",
+      "39525087",
+      "39521909",
+      "39487168",
+      "39481376",
+      "39367220",
+      "39282467",
+      "39255977",
+      "39229005",
+      "39172750",
+      "39169390",
+      "39091757",
+      "39041420",
+      "39033307",
+      "38987807",
+      "38986578",
+      "38979213",
+      "38947075",
+      "38802502",
+      "38801070",
+      "38798557",
+      "38791212",
+      "38721783",
+      "38634255",
+      "38602535",
+      "38485789",
+      "38417378",
+      "38366034",
+      "38336885",
+      "38296828",
+      "38273037",
+      "38254923",
+      "38130056",
+      "38007576",
+      "37990137",
+      "37873116",
+      "37557175",
+      "37486893",
+      "37214836",
+      "37143118",
+      "35810331"
+    ],
+    "refs": [],
+    "similar": [
+      "37733848",
+      "22189060",
+      "19158363",
+      "26285121",
+      "27108803",
+      "24228761",
+      "33340452",
+      "16873495",
+      "32054475",
+      "26291518",
+      "31341088",
+      "23847101",
+      "34486522",
+      "32043966",
+      "12054769",
+      "26160164",
+      "24603674",
+      "23272209",
+      "9746540",
+      "19956545",
+      "31093693",
+      "29588420",
+      "28790414",
+      "31330780",
+      "19652015",
+      "31855461",
+      "18371204",
+      "22534400",
+      "28957321",
+      "25905672",
+      "9697188",
+      "27567672",
+      "1324415",
+      "23562153",
+      "19815308",
+      "36057196",
+      "28712775",
+      "22369666",
+      "20870645",
+      "24918633",
+      "16464824",
+      "23636944",
+      "22453733",
+      "25708259",
+      "20172488",
+      "25428367",
+      "25559499",
+      "27803259",
+      "26234679",
+      "10619353",
+      "27871221",
+      "18171135",
+      "30858133",
+      "23805837",
+      "25442502",
+      "15474298",
+      "16643658",
+      "25215497",
+      "29605182",
+      "36043696",
+      "16267080",
+      "34187518",
+      "18586698",
+      "30524473",
+      "24689750",
+      "26675734",
+      "30995488",
+      "22037607",
+      "16844711",
+      "23595228",
+      "10705431",
+      "17996093",
+      "23320072",
+      "24218641",
+      "22238267",
+      "28472398",
+      "18426580",
+      "26766026",
+      "29425488",
+      "20675356",
+      "35983231",
+      "26022613",
+      "32357166",
+      "35410161",
+      "39413205",
+      "37733865",
+      "38042705"
+    ],
+    "review": [
+      "37733848",
+      "31093693",
+      "36057196",
+      "16643658",
+      "29425488"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/science.add1250",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/37733848.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/37733848",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

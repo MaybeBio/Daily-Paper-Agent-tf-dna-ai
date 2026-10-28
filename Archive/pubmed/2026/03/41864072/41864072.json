@@ -1,0 +1,389 @@
+{
+  "identity": {
+    "pmid": "41864072",
+    "doi": "10.1016/j.drup.2026.101388",
+    "title": "Endothelial SMAD1-MCAM axis facilitates sunitinib resistance and progression of clear cell renal cell carcinoma via LAMB1-ITGB1 signaling."
+  },
+  "content": {
+    "abstract": "Clear cell renal cell carcinoma (ccRCC) is characterized by high metastatic potential and frequent resistance to conventional therapies, highlighting the need for a deeper understanding of its tumor microenvironment. Here, we integrated single-cell RNA sequencing and spatial transcriptomics from large ccRCC cohorts to map the cellular landscape of ccRCC. We identified a distinct stromal cell subpopulation, Melanoma Cell Adhesion Molecule, MCAM(+) endothelial cells (MCAM(+) ECs), which spatially associates with EMT-like tumor cells and promotes disease progression. Mechanistically, our findings suggest that MCAM(+) ECs facilitate metastatic features via a LAMB1-ITGB1-RhoA signaling axis, contributing to epithelial-mesenchymal transition (EMT) and extracellular matrix remodeling. Furthermore, transcriptional analysis and experimental validation revealed that SMAD1 acts as a pivotal regulator of MCAM(+) EC reprogramming by modulating MCAM and LAMB1 expression. To assess clinical relevance, we applied an integrative machine learning framework to develop an MCAM+ EC-based Risk Score (MERS). This model effectively stratified patients by overall survival and metastatic risk, demonstrating superior prognostic accuracy compared to standard clinicopathological features. Collectively, our study elucidates a critical tumor-stroma crosstalk mechanism governed by the SMAD1-MCAM-LAMB1-ITGB1-RhoA axis, providing novel mechanistic insights into the metastatic process and identifying potential candidates for therapeutic intervention in ccRCC.",
+    "keywords": [
+      "Clear cell renal cell carcinoma",
+      "Endothelial cells",
+      "LAMB1-ITGB1-Rhoa axis",
+      "MCAM(+) EC",
+      "Metastasis",
+      "SMAD1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Renal Cell/drug therapy/pathology/genetics/metabolism",
+      "*Kidney Neoplasms/drug therapy/pathology/genetics/metabolism",
+      "Signal Transduction/drug effects",
+      "*Drug Resistance, Neoplasm/genetics",
+      "*Smad1 Protein/metabolism/genetics",
+      "*Integrin beta1/metabolism/genetics",
+      "*Laminin/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Animals",
+      "Disease Progression",
+      "Cell Line, Tumor",
+      "Tumor Microenvironment",
+      "Epithelial-Mesenchymal Transition",
+      "Endothelial Cells/metabolism",
+      "Antineoplastic Agents/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Hanzhong",
+        "Liu, Ying",
+        "Zhang, Wangzheqi",
+        "Guo, Yadong",
+        "Lin, Anqi",
+        "Jin, Yuming",
+        "Lu, Ping",
+        "Fang, Yu",
+        "Zhang, Haoling",
+        "Qu, Le",
+        "Luo, Peng",
+        "Wu, Lingfeng",
+        "Chen, Yinghu",
+        "Kang, Xiaohong",
+        "Wang, Linhui",
+        "Jiang, Aimin"
+      ],
+      "short_names": [
+        "Zhang H",
+        "Liu Y",
+        "Zhang W",
+        "Guo Y",
+        "Lin A",
+        "Jin Y",
+        "Lu P",
+        "Fang Y",
+        "Zhang H",
+        "Qu L",
+        "Luo P",
+        "Wu L",
+        "Chen Y",
+        "Kang X",
+        "Wang L",
+        "Jiang A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China; Department of Urology, Changhai Hospital, Naval Medical University, Shanghai, China; Department of Urology, The First Naval Hospital of Southern Theater Command, Zhanjiang, China.",
+        "Department of Urology, Changhai Hospital, Naval Medical University, Shanghai, China.",
+        "Department of Anesthesiology, Changhai Hospital, Naval Medical University, Shanghai, China.",
+        "Department of Urology, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China; Urologic Cancer Institute, Tongji University School of Medicine, Shanghai, China.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China; Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Lianyungang, China.",
+        "Department of Urology, The First Naval Hospital of Southern Theater Command, Zhanjiang, China.",
+        "The First Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China.",
+        "Department of Urology, Changhai Hospital, Naval Medical University, Shanghai, China.",
+        "Department of Biomedical Sciences, Advanced Medical and Dental Institute, Universiti Sains Malaysia, Penang, Malaysia.",
+        "Department of Urology, Affiliated Jinling Hospital, Medical School of Nanjing University, Nanjing, China.",
+        "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China; Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Lianyungang, China.",
+        "Department of Urology, The Frist Hospital of Jiaxing, Frist Affiliated Hospital of Jiaxing University, Jiaxing, Zhejiang, China.",
+        "Department of Urology, The First Naval Hospital of Southern Theater Command, Zhanjiang, China. Electronic address: 1476669205@qq.com.",
+        "The First Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China. Electronic address: 1fy2014036@xxmu.edu.cn.",
+        "Department of Urology, Changhai Hospital, Naval Medical University, Shanghai, China. Electronic address: wanglinhui@smmu.edu.cn.",
+        "The First Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China; Department of Urology, Changhai Hospital, Naval Medical University, Shanghai, China; Department of Urology, The First Naval Hospital of Southern Theater Command, Zhanjiang, China. Electronic address: czjiangaimin@smmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Hanzhong",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China; Department of Urology, Changhai Hospital, Naval Medical University, Shanghai, China; Department of Urology, The First Naval Hospital of Southern Theater Command, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ying",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Changhai Hospital, Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wangzheqi",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Changhai Hospital, Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Yadong",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China; Urologic Cancer Institute, Tongji University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Anqi",
+        "short_name": "Lin A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China; Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Lianyungang, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Yuming",
+        "short_name": "Jin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Naval Hospital of Southern Theater Command, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Ping",
+        "short_name": "Lu P",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Yu",
+        "short_name": "Fang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Changhai Hospital, Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Haoling",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, Advanced Medical and Dental Institute, Universiti Sains Malaysia, Penang, Malaysia."
+        ]
+      },
+      {
+        "full_name": "Qu, Le",
+        "short_name": "Qu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Jinling Hospital, Medical School of Nanjing University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Peng",
+        "short_name": "Luo P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China; Donghai County People's Hospital (Affiliated Kangda College of Nanjing Medical University), Lianyungang, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Lingfeng",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Frist Hospital of Jiaxing, Frist Affiliated Hospital of Jiaxing University, Jiaxing, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yinghu",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Naval Hospital of Southern Theater Command, Zhanjiang, China. Electronic address: 1476669205@qq.com."
+        ]
+      },
+      {
+        "full_name": "Kang, Xiaohong",
+        "short_name": "Kang X",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China. Electronic address: 1fy2014036@xxmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Linhui",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Changhai Hospital, Naval Medical University, Shanghai, China. Electronic address: wanglinhui@smmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Jiang, Aimin",
+        "short_name": "Jiang A",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Henan Medical University, Xinxiang, Henan, China; Department of Urology, Changhai Hospital, Naval Medical University, Shanghai, China; Department of Urology, The First Naval Hospital of Southern Theater Command, Zhanjiang, China. Electronic address: czjiangaimin@smmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Drug resistance updates : reviews and commentaries in antimicrobial and anticancer chemotherapy"
+    ],
+    "journal_abbrev": [
+      "Drug Resist Updat"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/22 06:07",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [
+      "42580154"
+    ],
+    "refs": [],
+    "similar": [
+      "41864072",
+      "40770761",
+      "42053610",
+      "39174859",
+      "31978894",
+      "42172707",
+      "41694575",
+      "42067912",
+      "41698049",
+      "39956807",
+      "41693360",
+      "40790482",
+      "40607252",
+      "32814829",
+      "40299934",
+      "42196217",
+      "39789627",
+      "30683903",
+      "42205867",
+      "40642093",
+      "41999263",
+      "41610717",
+      "41888110",
+      "32051393",
+      "39329191",
+      "41188452",
+      "42358821",
+      "41050079",
+      "40990946",
+      "30975145",
+      "40435846",
+      "41135615",
+      "28349447",
+      "41872817",
+      "40948085",
+      "39425205",
+      "41779200",
+      "41476960",
+      "42158467",
+      "41716413",
+      "32513235",
+      "33201837",
+      "42010588",
+      "40016772",
+      "41932875",
+      "42074150",
+      "38822145",
+      "38970690",
+      "40683967",
+      "38773612",
+      "41080993",
+      "39307376",
+      "39999286",
+      "31401413",
+      "32041631",
+      "34030133",
+      "42367801",
+      "37676078",
+      "42253948",
+      "38831470",
+      "32371578",
+      "41285235",
+      "41135953",
+      "39614426",
+      "25123505",
+      "41782880",
+      "33223511",
+      "41184988",
+      "34795663",
+      "39299601",
+      "30670025",
+      "40723891",
+      "28659173",
+      "39818256",
+      "36847128",
+      "41029360",
+      "26114873",
+      "41274476",
+      "32282241",
+      "41673210",
+      "41593693",
+      "38488671",
+      "30915742",
+      "25120023",
+      "41946263",
+      "41967697",
+      "41611162",
+      "40695833",
+      "33859753",
+      "39614428",
+      "39301023",
+      "28975890",
+      "38702028",
+      "41610310",
+      "34922539",
+      "31915310",
+      "40909272",
+      "37511343",
+      "40770345",
+      "41540415"
+    ],
+    "review": [
+      "41864072"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1368-7646(26)00039-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-229",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1368-7646(26)00039-7",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

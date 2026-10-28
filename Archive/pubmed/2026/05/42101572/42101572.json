@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "42101572",
+    "doi": "10.1007/s12022-026-09919-x",
+    "title": "Lineage Classification of Pituitary Neuroendocrine Tumors From Whole-Slide Images Using Attention-Guided Graph Representation Learning."
+  },
+  "content": {
+    "abstract": "Pituitary neuroendocrine tumors (PitNETs) are common sellar neoplasms and represent a major component of routine pituitary pathology. In the 2022 World Health Organization (WHO) Classification, transcription factor-defined lineage assignment is central to diagnosis. However, lineage-related morphologic information on routine hematoxylin and eosin (H&E)-stained whole-slide images (WSIs) has not been systematically characterized. We developed an attention-guided graph neural network to predict PitNET lineage directly from H&E-stained WSIs and to identify regions prioritized for classification. Consecutive patients who underwent surgical resection for PitNETs at Beijing Tiantan Hospital between 2021 and 2025 were included. In the internal hold-out set, the five fold-specific models achieved a mean F1-score of 92.78% and a mean balanced accuracy of 94.84%. In a temporally independent validation cohort, the final model achieved an F1-score of 87.64% and a balanced accuracy of 89.48%. Performance varied across lineages and histomorphologic subtypes, and the most common error pattern was misassignment of PIT-1 and T-PIT tumors to SF-1. Attention maps predominantly highlighted tumor-rich regions. Quantitative cell-level morphometry supported lineage-associated patterns, including larger cell and nuclear sizes in PIT-1 tumors, more elongated nuclei in SF-1 tumors, and higher cellular density with reduced intercellular spacing in T-PIT tumors. In six cases with multiple synchronous PitNETs of distinct lineages, patch-level prediction maps corresponded closely to transcription factor immunohistochemistry. In a small exploratory subset with available DNA methylation data, methylation classifier results were concordant with model predictions in 11 of 15 cases and with routine histopathologic diagnoses in 8 of 15 cases. These findings indicate that routine H&E-stained WSIs contain learnable morphologic information related to PitNET lineage. Attention-guided spatial modeling provides an interpretable framework for characterizing lineage-associated patterns in PitNETs.",
+    "keywords": [
+      "Attention mechanism",
+      "Graph neural networks",
+      "Pituitary neuroendocrine tumors",
+      "Transcription factor lineage",
+      "Whole-slide images"
+    ],
+    "mesh_terms": [
+      "*Neuroendocrine Tumors/pathology/classification",
+      "Humans",
+      "*Pituitary Neoplasms/pathology/classification",
+      "Graph Neural Networks",
+      "Cell Lineage",
+      "Representation Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hao, Jie",
+        "Wang, Chen",
+        "Li, Jiao",
+        "Du, Jiang",
+        "Qian, Qing",
+        "Liu, Xing"
+      ],
+      "short_names": [
+        "Hao J",
+        "Wang C",
+        "Li J",
+        "Du J",
+        "Qian Q",
+        "Liu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Medical Information, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+        "Institute of Medical Information, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+        "Institute of Medical Information, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+        "Department of Neuropathology, Beijing Neurosurgical Institute, Capital Medical University, Beijing, China. dujiang@bjtth.org.",
+        "Institute of Medical Information, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China. qian.qing@imicams.ac.cn.",
+        "Department of Neuropathology, Beijing Neurosurgical Institute, Capital Medical University, Beijing, China. liuxing_bjni@mail.ccmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hao, Jie",
+        "short_name": "Hao J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Information, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chen",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Information, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiao",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Information, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Du, Jiang",
+        "short_name": "Du J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuropathology, Beijing Neurosurgical Institute, Capital Medical University, Beijing, China. dujiang@bjtth.org."
+        ]
+      },
+      {
+        "full_name": "Qian, Qing",
+        "short_name": "Qian Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Information, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China. qian.qing@imicams.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Xing",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuropathology, Beijing Neurosurgical Institute, Capital Medical University, Beijing, China. liuxing_bjni@mail.ccmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Endocrine pathology"
+    ],
+    "journal_abbrev": [
+      "Endocr Pathol"
+    ],
+    "pub_date": "2026 May 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/08 12:38",
+    "fetched_at": "2026-10-01 19:59:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41643698",
+      "41063205",
+      "41060331",
+      "40998830",
+      "40966149",
+      "40718390",
+      "40579705",
+      "40377798",
+      "40295206",
+      "40167112",
+      "39793218",
+      "39681557",
+      "38504018",
+      "37661840",
+      "36155478",
+      "35291028",
+      "34185289",
+      "34185076",
+      "32185515",
+      "31883967",
+      "31561183",
+      "30215160"
+    ],
+    "similar": [
+      "42101572",
+      "35291028",
+      "30215160",
+      "40295206",
+      "40296825",
+      "39579326",
+      "42346142",
+      "38756997",
+      "41063205",
+      "42436482",
+      "41828530",
+      "40276548",
+      "35947342",
+      "40813692",
+      "41808436",
+      "42126653",
+      "41521161",
+      "39549524",
+      "41501761",
+      "38101298",
+      "37268858",
+      "40167112",
+      "42031964",
+      "41639477",
+      "35212383",
+      "38228887",
+      "36517420",
+      "41060331",
+      "41382947",
+      "41898535",
+      "35725837",
+      "38649148",
+      "42159881",
+      "33321163",
+      "41872867",
+      "38658971",
+      "37491061",
+      "30390035",
+      "41369112",
+      "39688088",
+      "36754052",
+      "41310253",
+      "39845357",
+      "34017065",
+      "28821944",
+      "38963295",
+      "37661840",
+      "34167699",
+      "40579705",
+      "42036854",
+      "39218431",
+      "37418134",
+      "40613749",
+      "37515411",
+      "32193825",
+      "37699356",
+      "33631002",
+      "36544040",
+      "41504789",
+      "28651368",
+      "35312985",
+      "41923035",
+      "35345309",
+      "39388031",
+      "40869149",
+      "36527335",
+      "38318099",
+      "28766057",
+      "38758238",
+      "33690870",
+      "42196836",
+      "42450291",
+      "37478528",
+      "40116948",
+      "39952399",
+      "37743343",
+      "34544556",
+      "37743330",
+      "38238771",
+      "32813227",
+      "39233337",
+      "40621753",
+      "36321557",
+      "32432709",
+      "34708902",
+      "37438981",
+      "42333631",
+      "39934142",
+      "26743473",
+      "41841638",
+      "33694064",
+      "31883967",
+      "33476394",
+      "40085941",
+      "38844718",
+      "37491056",
+      "38030890",
+      "39581068",
+      "40718392",
+      "30423170"
+    ],
+    "review": [
+      "42101572",
+      "35291028",
+      "41828530",
+      "39549524",
+      "41639477",
+      "38228887",
+      "41060331",
+      "35725837",
+      "34017065",
+      "28821944",
+      "38963295",
+      "34167699",
+      "42036854",
+      "39218431",
+      "36544040",
+      "35312985",
+      "35345309",
+      "28766057",
+      "33690870",
+      "42450291",
+      "39952399",
+      "34544556",
+      "36321557"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pituitarytumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pituitary Tumors"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12022-026-09919-x",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

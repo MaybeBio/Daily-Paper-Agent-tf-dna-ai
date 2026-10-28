@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text, including figures and supplementary file descriptions, as provided.
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and presentation quality, based solely on the provided material.
+- **Shared manuscript claim summary** The authors use unsupervised machine learning (BLSOM) on oligonucleotide composition to compare human and six bat genomes, reporting Mb-level CpG islands near bat scaffold termini and Mb-level TFBS islands in human centromeric and pericentromeric heterochromatin, with implications for nuclear 3D organization.
+- **Visible evidence base** Main text, figures (Fig. 1–4), supplementary figure and table descriptions, and references cited within the text.
+- **Missing materials affecting confidence** Raw data files, complete supplementary figures and tables, detailed parameter settings for BLSOM, statistical test details, and access to the cited Hi-C dataset analysis are not fully available in the provided material.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel application of BLSOM to compare human and bat genomes, identifying large-scale genomic features that are potentially interesting. However, the evidence for the central claims is incomplete, and several methodological details are insufficiently described. The biological interpretation, particularly regarding nuclear organization, is speculative and not directly supported by the data presented. The work may be of interest to a specialized audience, but the current form does not fully establish the case.
+- **Who would be interested in the results, and why** Researchers in comparative genomics, genome evolution, and machine learning applications in biology would be interested. The identification of Mb-level CpG and TFBS islands in specific genomic regions could inform studies on genome architecture and evolution, though the functional significance remains unclear.
+- **Major strengths** The use of an explainable unsupervised machine learning method (BLSOM) is a strength, as it allows for data-driven discovery without predefined models. The combination of BLSOM with direct distribution map analysis is a practical strategy for validating findings. The study addresses an important topic, bat genomes as reservoirs for zoonotic viruses, and provides a comparative perspective with the human genome.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The claim that "Mb-level CpG islands" exist near bat scaffold termini is based on visual inspection of distribution maps without quantitative thresholds or statistical validation.
+  - **Evidence pointer** Figure 1F, Supplemental Figs. S2 and S3, location not provided
+  - **Concern** The definition of "Mb-level CpG island" is not operationalized. No criteria are given for what constitutes a peak, how peak height or width is measured, or how background levels are determined. The use of odds ratio (Obs/Exp) is mentioned but not systematically applied or statistically tested.
+  - **Why it matters** Without a clear, quantitative definition, the central finding cannot be reproduced or compared across species or studies. The claim of "islands" implies a distinct structure that is not demonstrated.
+  - **Resolution test** Provide a formal definition of Mb-level CpG islands, including thresholds for enrichment, minimum size, and statistical significance (e.g., compared to a null model or randomized sequences). Apply this definition consistently to all bat and human chromosomes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "Mb-level TFBS islands" are enriched in human centromeric and pericentromeric regions is based on BLSOM heatmaps and distribution plots, but the analysis is limited to a subset of TFBSs and lacks a systematic comparison.
+  - **Evidence pointer** Figure 4B, 4D, Supplemental Figs. S9 and S11, location not provided
+  - **Concern** The analysis of TFBS enrichment is restricted to 181 hexanucleotide TFBSs from SwissRegulon. The selection criteria for these TFBSs are not described, and the analysis does not account for multiple testing or background TFBS density. The claim that "more than half" of TFBSs are enriched is not quantified with a clear threshold.
+  - **Why it matters** The conclusion that TFBS islands exist in heterochromatin is a key finding, but without rigorous statistical analysis, it may reflect chance or methodological artifacts. The biological interpretation depends on the reliability of this enrichment.
+  - **Resolution test** Perform a genome-wide enrichment analysis of all TFBSs, with appropriate multiple testing correction. Compare observed enrichment to a null model that accounts for sequence composition and genomic context. Provide quantitative measures of enrichment for each TFBS.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretive validity
+  - **Claim pointer** The conclusion that Mb-level TFBS and CpG islands are involved in nuclear 3D organization is speculative and not directly tested.
+  - **Evidence pointer** Discussion section, location not provided
+  - **Concern** The link between the observed sequence features and nuclear architecture is based on prior literature and the authors' previous work, but no new data (e.g., Hi-C, microscopy) are presented to support this connection in the current study.
+  - **Why it matters** The title and conclusion emphasize the potential role in nuclear organization, but the study does not provide evidence for this function. Overinterpretation may mislead readers and overstate the significance of the findings.
+  - **Resolution test** Either remove or clearly label the nuclear organization discussion as speculative, or include direct experimental or computational evidence linking the identified islands to 3D genome organization.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The BLSOM method is described, but key parameters (e.g., learning rate, neighborhood function, number of iterations, initialization) are not provided.
+  - **Evidence pointer** Materials and methods, BLSOM section, location not provided
+  - **Concern** The reproducibility of the BLSOM results depends on the exact implementation. The authors reference their previous work, but the current manuscript does not specify the parameters used for the analyses presented.
+  - **Why it matters** Without these details, other researchers cannot replicate the analysis or assess the robustness of the results.
+  - **Resolution test** Provide a full description of BLSOM parameters, or make the code and parameter files available in a public repository.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1A legend
+  - **Evidence pointer** Figure 1A, location not provided
+  - **Issue** The legend does not explain the color scheme for bat species clearly, and the abbreviation list is incomplete.
+  - **Required correction** Provide a complete list of species abbreviations and a clear description of the color coding in the legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Distribution analysis
+  - **Evidence pointer** Figures 1E, 2C, 3E, 4D, location not provided
+  - **Issue** The distribution plots show peaks but no error bars or confidence intervals, making it unclear if the observed patterns are robust.
+  - **Required correction** Add measures of variability or statistical tests to support the visual patterns.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Mb-level CpG islands"
+  - **Evidence pointer** Throughout the manuscript, location not provided
+  - **Issue** The term "island" is typically used for short CpG-rich regions; using it for Mb-level features may cause confusion.
+  - **Required correction** Consider using a different term, such as "Mb-level CpG-enriched regions," and define it clearly.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Supplementary material
+  - **Evidence pointer** Supplementary file descriptions, location not provided
+  - **Issue** The supplementary figures and tables are described but not provided in the manuscript text, making it difficult to assess the full evidence.
+  - **Required correction** Ensure all supplementary materials are accessible and referenced clearly in the text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative definition for CpG islands), R1-M2 (insufficient statistical analysis of TFBS enrichment), R1-M3 (speculative interpretation without direct evidence), R1-M4 (incomplete methodological details for reproducibility).
+- **Assessment against Nature-style criteria** Originality: The application of BLSOM to bat-human comparative genomics is novel, but the findings are descriptive and lack mechanistic insight. Scientific importance: The potential link to nuclear organization is interesting but not established; the relevance to zoonotic disease is tangential. Interdisciplinary readership: The work may appeal to computational biologists and genomicists, but the biological implications are not developed enough for a broad audience. Technical soundness: The BLSOM method is established, but the analysis lacks rigor in defining and validating the reported features. Readability for nonspecialists: The manuscript is generally clear but includes jargon and assumes familiarity with machine learning and genomics; the speculative discussion may confuse readers.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claims require substantial additional analysis and clarification. I would be supportive if the technical concerns are resolved, particularly the quantitative definition of islands, statistical validation, and a more cautious interpretation of the biological significance.
+
+## Risk / unsupported claims
+- The existence of "Mb-level CpG islands" is not quantitatively defined or statistically validated.
+- The claim of "Mb-level TFBS islands" in human centromeric and pericentromeric regions lacks rigorous enrichment analysis.
+- The proposed role of these islands in nuclear 3D organization is speculative and not supported by direct evidence in this study.
+- The relevance of the findings to zoonotic virus research is mentioned but not developed or supported by data.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.11.519349",
+  "title": "FrustraPocket: A protein–ligand binding site predictor using energetic local frustration",
+  "authors": "Maria I. Freiberger; Camila M. Clemente; Eneko Valero; Jorge G. Pombo; Cesar O. Leonetti; Soledad Ravetti; R. Gonzalo Parra; Diego U. Ferreiro",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-14",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用能量局部挫折和简单机器学习预测蛋白-配体结合位点，虽非TF-DNA体系，但结合位点预测方法可迁移至蛋白-DNA互作研究。",
+  "abstract": "Proteins are evolved polymers that minimize their free energy upon folding to their native states. Still, many folded proteins display energetic conflict between residues in various regions that can be identified as highly frustrated, and these have been shown to be related to several physiological functions. Here we show that small-ligand binding sites are typically enriched in locally frustrated interactions in the unbound state. We built a tool using a simple machine learning algorithm named FrustraPocket that combines the notion of small-molecule binding pockets and the localization of clusters of highly frustrated interactions to identify potential protein-ligand binding sites solely from the unbound forms. Availability and implementation (github) https://github.com/CamilaClemente/FrustraPocket/ Docker container https://hub.docker.com/r/proteinphysiologylab/frustrapocket",
+  "abstract_zh": "蛋白质是进化而来的聚合物，在折叠至其天然状态时会最小化其自由能。尽管如此，许多折叠蛋白质在不同区域之间仍表现出能量冲突，这些冲突可被识别为高度受挫的相互作用，并已被证明与多种生理功能相关。在此，我们展示了小分子配体结合位点通常富集于未结合状态下的局部受挫相互作用中。我们构建了一个使用简单机器学习算法、名为FrustraPocket的工具，该工具结合了小分子结合口袋的概念与高度受挫相互作用簇的定位，仅从未结合形式即可识别潜在的蛋白质-配体结合位点。可用性与实现（GitHub）https://github.com/CamilaClemente/FrustraPocket/ Docker容器 https://hub.docker.com/r/proteinphysiologylab/frustrapocket",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.11.519349",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.11.519349",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.11.519349/index.html"
+}

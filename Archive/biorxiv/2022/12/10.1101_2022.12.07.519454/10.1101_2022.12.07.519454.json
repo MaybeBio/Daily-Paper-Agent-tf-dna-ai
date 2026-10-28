@@ -1,0 +1,1038 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.12.07.519454",
+  "title": "Expanding the HDAC druggable landscape beyond enzymatic activity",
+  "doi": "10.1101/2022.12.07.519454",
+  "abstract": "<h4>ABSTRACT</h4> Enzymatic pockets such as those of histone deacetylases (HDACs) are among the most favored targets for drug development. However, enzymatic inhibitors often exhibit low selectivity and high toxicity due to targeting multiple enzyme paralogs, which are often involved in distinct multisubunit complexes. Here, we report the discovery and characterization of a non-enzymatic small molecule inhibitor of HDAC transcriptional repression functions with comparable anti-tumor activity to the enzymatic HDAC inhibitor Vorinostat, and anti-psychedelic activity of an HDAC2 knockout in vivo . We highlight that these phenotypes are achieved while modulating the expression of 20- and 80-fold fewer genes than enzymatic and genetic inhibition in the respective models. Thus, by achieving the same biological outcomes as established therapeutics while impacting a dramatically smaller number of genes, inhibitors of protein-protein interactions can offer important advantages in improving the selectivity of epigenetic modulators. <h4>GRAPHICAL ABSTRACT</h4>",
+  "authors": [
+    "Olivet J",
+    "Choi SG",
+    "Sierra S",
+    "O’Grady TM",
+    "de la Fuente Revenga M",
+    "Laval F",
+    "Botchkarev VV",
+    "Gorgulla C",
+    "Coote PW",
+    "Blavier J",
+    "Geffken EA",
+    "Lakhani J",
+    "Song K",
+    "Yeoh ZC",
+    "Hu B",
+    "Varca AC",
+    "Bruyr J",
+    "Ibrahim S",
+    "Jivanjee T",
+    "Bromley JD",
+    "Nyquist SK",
+    "Richardson A",
+    "Yue H",
+    "Wang Y",
+    "Calonghi N",
+    "Stefan A",
+    "Spirohn K",
+    "Vertommen D",
+    "Baietti MF",
+    "Lemmens I",
+    "Seo H",
+    "Dozmorov MG",
+    "Willems L",
+    "Tavernier J",
+    "Das K",
+    "Leucci E",
+    "Hochkoeppler A",
+    "Sun ZJ",
+    "Calderwood MA",
+    "Hao T",
+    "Shalek AK",
+    "Hill DE",
+    "Boeszoermenyi A",
+    "Arthanari H",
+    "Buhrlage SJ",
+    "Dhe-Paganon S",
+    "González-Maeso J",
+    "Dequiedt F",
+    "Twizere J",
+    "Vidal M"
+  ],
+  "published_date": "2022-12-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.12.07.519454",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.12.07.519454.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR581378",
+    "raw_record": {
+      "id": "PPR581378",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR581378"
+        ]
+      },
+      "doi": "10.1101/2022.12.07.519454",
+      "title": "Expanding the HDAC druggable landscape beyond enzymatic activity",
+      "authorString": "Olivet J, Choi SG, Sierra S, O’Grady TM, de la Fuente Revenga M, Laval F, Botchkarev VV, Gorgulla C, Coote PW, Blavier J, Geffken EA, Lakhani J, Song K, Yeoh ZC, Hu B, Varca AC, Bruyr J, Ibrahim S, Jivanjee T, Bromley JD, Nyquist SK, Richardson A, Yue H, Wang Y, Calonghi N, Stefan A, Spirohn K, Vertommen D, Baietti MF, Lemmens I, Seo H, Dozmorov MG, Willems L, Tavernier J, Das K, Leucci E, Hochkoeppler A, Sun ZJ, Calderwood MA, Hao T, Shalek AK, Hill DE, Boeszoermenyi A, Arthanari H, Buhrlage SJ, Dhe-Paganon S, González-Maeso J, Dequiedt F, Twizere J, Vidal M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Olivet J",
+            "lastName": "Olivet",
+            "firstName": "Julien",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4115-5546"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Laboratory of Viral Interactomes, Interdisciplinary Cluster for Applied Genoproteomics (GIGA)-Molecular Biology of Diseases, University of Liège, Liège, Belgium"
+                },
+                {
+                  "affiliation": "Structural Biology Unit, Laboratory of Virology and Chemotherapy, Rega Institute for Medical Research, Department of Microbiology, Immunology and Transplantation, Katholieke Universiteit Leuven, Leuven, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Choi SG",
+            "lastName": "Choi",
+            "firstName": "Soon Gang",
+            "initials": "SG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0314-3958"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sierra S",
+            "lastName": "Sierra",
+            "firstName": "Salvador",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology and Biophysics, Virginia Commonwealth University School of Medicine, Richmond, VA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "O’Grady TM",
+            "lastName": "O’Grady",
+            "firstName": "Tina",
+            "initials": "TM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Gene Expression and Cancer, Interdisciplinary Cluster for Applied Genoproteomics (GIGA)-Molecular Biology of Diseases, University of Liège, Liège, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de la Fuente Revenga M",
+            "lastName": "de la Fuente Revenga",
+            "firstName": "Mario",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology and Biophysics, Virginia Commonwealth University School of Medicine, Richmond, VA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Laval F",
+            "lastName": "Laval",
+            "firstName": "Florent",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Laboratory of Viral Interactomes, Interdisciplinary Cluster for Applied Genoproteomics (GIGA)-Molecular Biology of Diseases, University of Liège, Liège, Belgium"
+                },
+                {
+                  "affiliation": "Laboratory of Cellular and Molecular Epigenetics, Interdisciplinary Cluster for Applied Genoproteomics (GIGA)-Cancer, University of Liège, Liège, Belgium"
+                },
+                {
+                  "affiliation": "TERRA Teaching and Research Center, Gembloux Agro-Bio Tech, University of Liège, Gembloux, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Botchkarev VV",
+            "lastName": "Botchkarev",
+            "firstName": "Vladimir",
+            "initials": "VV",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gorgulla C",
+            "lastName": "Gorgulla",
+            "firstName": "Christoph",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Biological Chemistry and Molecular Pharmacology, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Physics, Faculty of Arts and Sciences, Harvard University, Cambridge, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Coote PW",
+            "lastName": "Coote",
+            "firstName": "Paul",
+            "initials": "PW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Biological Chemistry and Molecular Pharmacology, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Blavier J",
+            "lastName": "Blavier",
+            "firstName": "Jérémy",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Viral Interactomes, Interdisciplinary Cluster for Applied Genoproteomics (GIGA)-Molecular Biology of Diseases, University of Liège, Liège, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Geffken EA",
+            "lastName": "Geffken",
+            "firstName": "Ezekiel",
+            "initials": "EA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lakhani J",
+            "lastName": "Lakhani",
+            "firstName": "Jimit",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Song K",
+            "lastName": "Song",
+            "firstName": "Kijun",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yeoh ZC",
+            "lastName": "Yeoh",
+            "firstName": "Zoe",
+            "initials": "ZC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2694-9068"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hu B",
+            "lastName": "Hu",
+            "firstName": "Bin",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Biological Chemistry and Molecular Pharmacology, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Varca AC",
+            "lastName": "Varca",
+            "firstName": "Anthony",
+            "initials": "AC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Biological Chemistry and Molecular Pharmacology, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bruyr J",
+            "lastName": "Bruyr",
+            "firstName": "Jonathan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Gene Expression and Cancer, Interdisciplinary Cluster for Applied Genoproteomics (GIGA)-Molecular Biology of Diseases, University of Liège, Liège, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ibrahim S",
+            "lastName": "Ibrahim",
+            "firstName": "Samira",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Broad Institute of Harvard and Massachusetts Institute of Technology, Cambridge, MA, USA"
+                },
+                {
+                  "affiliation": "Institute for Medical Engineering and Science, Department of Chemistry and Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge, MA, USA"
+                },
+                {
+                  "affiliation": "Ragon Institute of Massachusetts General Hospital, Massachusetts Institute of Technology and Harvard University, Cambridge, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jivanjee T",
+            "lastName": "Jivanjee",
+            "firstName": "Tasneem",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Broad Institute of Harvard and Massachusetts Institute of Technology, Cambridge, MA, USA"
+                },
+                {
+                  "affiliation": "Institute for Medical Engineering and Science, Department of Chemistry and Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge, MA, USA"
+                },
+                {
+                  "affiliation": "Ragon Institute of Massachusetts General Hospital, Massachusetts Institute of Technology and Harvard University, Cambridge, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bromley JD",
+            "lastName": "Bromley",
+            "firstName": "Joshua",
+            "initials": "JD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Broad Institute of Harvard and Massachusetts Institute of Technology, Cambridge, MA, USA"
+                },
+                {
+                  "affiliation": "Institute for Medical Engineering and Science, Department of Chemistry and Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge, MA, USA"
+                },
+                {
+                  "affiliation": "Ragon Institute of Massachusetts General Hospital, Massachusetts Institute of Technology and Harvard University, Cambridge, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nyquist SK",
+            "lastName": "Nyquist",
+            "firstName": "Sarah",
+            "initials": "SK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Broad Institute of Harvard and Massachusetts Institute of Technology, Cambridge, MA, USA"
+                },
+                {
+                  "affiliation": "Institute for Medical Engineering and Science, Department of Chemistry and Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge, MA, USA"
+                },
+                {
+                  "affiliation": "Ragon Institute of Massachusetts General Hospital, Massachusetts Institute of Technology and Harvard University, Cambridge, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Richardson A",
+            "lastName": "Richardson",
+            "firstName": "Aaron",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yue H",
+            "lastName": "Yue",
+            "firstName": "Hong",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4347-3193"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang Y",
+            "lastName": "Wang",
+            "firstName": "Yang",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Calonghi N",
+            "lastName": "Calonghi",
+            "firstName": "Natalia",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Biochemistry, Department of Pharmacy and Biotechnology, University of Bologna, Bologna, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stefan A",
+            "lastName": "Stefan",
+            "firstName": "Alessandra",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Biotechnology, Department of Pharmacy and Biotechnology, University of Bologna, Bologna, Italy"
+                },
+                {
+                  "affiliation": "Consorzio per lo Sviluppo dei Sistemi a Grande Interfase, University of Firenze, Florence, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spirohn K",
+            "lastName": "Spirohn",
+            "firstName": "Kerstin",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vertommen D",
+            "lastName": "Vertommen",
+            "firstName": "Didier",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "de Duve Institute, Université Catholique de Louvain, Brussels, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baietti MF",
+            "lastName": "Baietti",
+            "firstName": "Maria",
+            "initials": "MF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1495-226X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "TRACE Patient Derived Xenograft Platform, Department of Oncology, Leuven Cancer Institute, Katholieke Universiteit Leuven, Leuven, Belgium"
+                },
+                {
+                  "affiliation": "Laboratory for RNA Cancer Biology, Department of Oncology, Leuven Cancer Institute, Katholieke Universiteit Leuven, Leuven, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lemmens I",
+            "lastName": "Lemmens",
+            "firstName": "Irma",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Medical Biotechnology, Vlaams Instituut voor Biotechnologie, Ghent, Belgium"
+                },
+                {
+                  "affiliation": "Cytokine Receptor Laboratory, Department of Biomolecular Medicine, Faculty of Medicine and Health Sciences, Ghent University, Ghent, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Seo H",
+            "lastName": "Seo",
+            "firstName": "Hyuk-Soo",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Biological Chemistry and Molecular Pharmacology, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dozmorov MG",
+            "lastName": "Dozmorov",
+            "firstName": "Mikhail",
+            "initials": "MG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biostatistics, Virginia Commonwealth University School of Medicine, Richmond, VA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Willems L",
+            "lastName": "Willems",
+            "firstName": "Luc",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Cellular and Molecular Epigenetics, Interdisciplinary Cluster for Applied Genoproteomics (GIGA)-Cancer, University of Liège, Liège, Belgium"
+                },
+                {
+                  "affiliation": "TERRA Teaching and Research Center, Gembloux Agro-Bio Tech, University of Liège, Gembloux, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tavernier J",
+            "lastName": "Tavernier",
+            "firstName": "Jan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Medical Biotechnology, Vlaams Instituut voor Biotechnologie, Ghent, Belgium"
+                },
+                {
+                  "affiliation": "Cytokine Receptor Laboratory, Department of Biomolecular Medicine, Faculty of Medicine and Health Sciences, Ghent University, Ghent, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Das K",
+            "lastName": "Das",
+            "firstName": "Kalyan",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural Biology Unit, Laboratory of Virology and Chemotherapy, Rega Institute for Medical Research, Department of Microbiology, Immunology and Transplantation, Katholieke Universiteit Leuven, Leuven, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Leucci E",
+            "lastName": "Leucci",
+            "firstName": "Eleonora",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "TRACE Patient Derived Xenograft Platform, Department of Oncology, Leuven Cancer Institute, Katholieke Universiteit Leuven, Leuven, Belgium"
+                },
+                {
+                  "affiliation": "Laboratory for RNA Cancer Biology, Department of Oncology, Leuven Cancer Institute, Katholieke Universiteit Leuven, Leuven, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hochkoeppler A",
+            "lastName": "Hochkoeppler",
+            "firstName": "Alejandro",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Biotechnology, Department of Pharmacy and Biotechnology, University of Bologna, Bologna, Italy"
+                },
+                {
+                  "affiliation": "Consorzio per lo Sviluppo dei Sistemi a Grande Interfase, University of Firenze, Florence, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sun ZJ",
+            "lastName": "Sun",
+            "firstName": "Zhen-Yu Jim",
+            "initials": "ZJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Biological Chemistry and Molecular Pharmacology, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Calderwood MA",
+            "lastName": "Calderwood",
+            "firstName": "Michael",
+            "initials": "MA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hao T",
+            "lastName": "Hao",
+            "firstName": "Tong",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shalek AK",
+            "lastName": "Shalek",
+            "firstName": "Alex",
+            "initials": "AK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Broad Institute of Harvard and Massachusetts Institute of Technology, Cambridge, MA, USA"
+                },
+                {
+                  "affiliation": "Institute for Medical Engineering and Science, Department of Chemistry and Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge, MA, USA"
+                },
+                {
+                  "affiliation": "Ragon Institute of Massachusetts General Hospital, Massachusetts Institute of Technology and Harvard University, Cambridge, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hill DE",
+            "lastName": "Hill",
+            "firstName": "David",
+            "initials": "DE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Boeszoermenyi A",
+            "lastName": "Boeszoermenyi",
+            "firstName": "Andras",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Biological Chemistry and Molecular Pharmacology, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Arthanari H",
+            "lastName": "Arthanari",
+            "firstName": "Haribabu",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Biological Chemistry and Molecular Pharmacology, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Buhrlage SJ",
+            "lastName": "Buhrlage",
+            "firstName": "Sara",
+            "initials": "SJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Biological Chemistry and Molecular Pharmacology, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dhe-Paganon S",
+            "lastName": "Dhe-Paganon",
+            "firstName": "Sirano",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Biological Chemistry and Molecular Pharmacology, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "González-Maeso J",
+            "lastName": "González-Maeso",
+            "firstName": "Javier",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology and Biophysics, Virginia Commonwealth University School of Medicine, Richmond, VA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dequiedt F",
+            "lastName": "Dequiedt",
+            "firstName": "Franck",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Gene Expression and Cancer, Interdisciplinary Cluster for Applied Genoproteomics (GIGA)-Molecular Biology of Diseases, University of Liège, Liège, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Twizere J",
+            "lastName": "Twizere",
+            "firstName": "Jean-Claude",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Laboratory of Viral Interactomes, Interdisciplinary Cluster for Applied Genoproteomics (GIGA)-Molecular Biology of Diseases, University of Liège, Liège, Belgium"
+                },
+                {
+                  "affiliation": "TERRA Teaching and Research Center, Gembloux Agro-Bio Tech, University of Liège, Gembloux, Belgium"
+                },
+                {
+                  "affiliation": "Division of Science and Math, New York University Abu Dhabi, Abu Dhabi, UAE"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vidal M",
+            "lastName": "Vidal",
+            "firstName": "Marc",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Cancer Systems Biology, Dana-Farber Cancer Institute, Boston, MA, USA"
+                },
+                {
+                  "affiliation": "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1495-226X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2694-9068"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0314-3958"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4115-5546"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4347-3193"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>ABSTRACT</h4>  Enzymatic pockets such as those of histone deacetylases (HDACs) are among the most favored targets for drug development. However, enzymatic inhibitors often exhibit low selectivity and high toxicity due to targeting multiple enzyme paralogs, which are often involved in distinct multisubunit complexes. Here, we report the discovery and characterization of a non-enzymatic small molecule inhibitor of HDAC transcriptional repression functions with comparable anti-tumor activity to the enzymatic HDAC inhibitor Vorinostat, and anti-psychedelic activity of an  HDAC2 knockout  in vivo . We highlight that these phenotypes are achieved while modulating the expression of 20- and 80-fold fewer genes than enzymatic and genetic inhibition in the respective models. Thus, by achieving the same biological outcomes as established therapeutics while impacting a dramatically smaller number of genes, inhibitors of protein-protein interactions can offer important advantages in improving the selectivity of epigenetic modulators.  <h4>GRAPHICAL ABSTRACT</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/01/14/2022.12.07.519454.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.12.07.519454"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR581378"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR581378&type=FILE&fileName=EMS158296-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS158296",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "nct",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-12-09",
+      "firstPublicationDate": "2022-12-08",
+      "firstIndexDate": "2022-12-09",
+      "fullTextReceivedDate": "2023-01-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

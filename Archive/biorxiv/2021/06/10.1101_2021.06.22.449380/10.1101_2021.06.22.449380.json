@@ -1,0 +1,1061 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.06.22.449380",
+  "title": "A multiscale approach for computing gated ligand binding from molecular dynamics and Brownian dynamics simulations",
+  "doi": "10.1101/2021.06.22.449380",
+  "abstract": "We develop an approach to characterise the effects of gating by a multi-conformation protein consisting of macrostate conformations that are either accessible or inaccessible to ligand binding. We first construct a Markov state model of the apo-protein from atomistic molecular dynamics simulations from which we identify macrostates and their conformations, compute their relative macrostate populations and interchange kinetics, and structurally characterise them in terms of ligand accessibility. We insert the calculated first-order rate constants for conformational transitions into a multi-state gating theory from which we derive a gating factor γ that quantifies the degree of conformational gating. Applied to HIV-1 protease, our approach yields a kinetic network of three accessible (semi-open, open and wide-open) and two inaccessible (closed and a newly identified, ‘parted’) macrostate conformations. The ‘parted’ conformation sterically partitions the active site, suggesting a possible role in product release. We find that the binding kinetics of drugs and drug-like inhibitors to HIV-1 protease falls in the slow gating regime. However, because γ =0.75, conformational gating only modestly slows ligand binding. Brownian dynamics simulations of the diffusional association of eight inhibitors to the protease - that have a wide range of experimental association constants (~10 4 - 10 10 M −1 s −1 ) - yields gated rate constants in the range ~0.5-5.7 × 10 8 M −1 s −1 . This indicates that, whereas the association rate of some inhibitors could be described by the model, for many inhibitors either subsequent conformational transitions or alternate binding mechanisms may be rate-limiting. For systems known to be modulated by conformational gating, the approach could be scaled computationally efficiently to screen association kinetics for a large number of ligands. Graphical TOC Entry",
+  "authors": [
+    "S. Kashif Sadiq",
+    "Abraham Muñiz Chicharro",
+    "Patrick Friedrich",
+    "Rebecca C. Wade"
+  ],
+  "published_date": "2021-06-23",
+  "updated_date": "2021-06-23T16:05:14Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.06.22.449380",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.06.22.449380.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T17:04:06Z",
+        "timestamp": 1768496646926,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            23
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 131,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  We develop an approach to characterise the effects of gating by a multi-conformation protein consisting of macrostate conformations that are either accessible or inaccessible to ligand binding. We first construct a Markov state model of the apo-protein from atomistic molecular dynamics simulations from which we identify macrostates and their conformations, compute their relative macrostate populations and interchange kinetics, and structurally characterise them in terms of ligand accessibility. We insert the calculated first-order rate constants for conformational transitions into a multi-state gating theory from which we derive a gating factor\n                  <jats:italic>γ</jats:italic>\n                  that quantifies the degree of conformational gating. Applied to HIV-1 protease, our approach yields a kinetic network of three accessible (semi-open, open and wide-open) and two inaccessible (closed and a newly identified, ‘parted’) macrostate conformations. The ‘parted’ conformation sterically partitions the active site, suggesting a possible role in product release. We find that the binding kinetics of drugs and drug-like inhibitors to HIV-1 protease falls in the slow gating regime. However, because\n                  <jats:italic>γ</jats:italic>\n                  =0.75, conformational gating only modestly slows ligand binding. Brownian dynamics simulations of the diffusional association of eight inhibitors to the protease - that have a wide range of experimental association constants (~10\n                  <jats:sup>4</jats:sup>\n                  - 10\n                  <jats:sup>10</jats:sup>\n                  M\n                  <jats:sup>−1</jats:sup>\n                  s\n                  <jats:sup>−1</jats:sup>\n                  ) - yields gated rate constants in the range ~0.5-5.7 × 10\n                  <jats:sup>8</jats:sup>\n                  M\n                  <jats:sup>−1</jats:sup>\n                  s\n                  <jats:sup>−1</jats:sup>\n                  . This indicates that, whereas the association rate of some inhibitors could be described by the model, for many inhibitors either subsequent conformational transitions or alternate binding mechanisms may be rate-limiting. For systems known to be modulated by conformational gating, the approach could be scaled computationally efficiently to screen association kinetics for a large number of ligands.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Graphical TOC Entry</jats:title>\n                  <jats:fig id=\"ufig1\" orientation=\"portrait\" position=\"anchor\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"449380v2_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>",
+      "DOI": "10.1101/2021.06.22.449380",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            23
+          ]
+        ],
+        "date-time": "2021-06-23T16:05:14Z",
+        "timestamp": 1624464314000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "A multiscale approach for computing gated ligand binding from molecular dynamics and Brownian dynamics simulations"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5112-0307",
+          "authenticated-orcid": false,
+          "given": "S. Kashif",
+          "family": "Sadiq",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Abraham Muñiz",
+          "family": "Chicharro",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Patrick",
+          "family": "Friedrich",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5951-8670",
+          "authenticated-orcid": false,
+          "given": "Rebecca C.",
+          "family": "Wade",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "207",
+          "DOI": "10.1016/j.sbi.2020.01.016",
+          "article-title": "Advances in the calculation of binding free energies",
+          "volume": "61",
+          "year": "2020",
+          "journal-title": "Current opinion in structural biology"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.2",
+          "first-page": "31",
+          "article-title": "The role of binding kinetics in therapeutically useful drug action",
+          "volume": "12",
+          "year": "2009",
+          "journal-title": "Current opinion in drug discovery & development"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2017.02.002"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0095-8522(49)90023-9"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "1451",
+          "DOI": "10.1007/PL00000788",
+          "article-title": "Superefficient enzymes",
+          "volume": "58",
+          "year": "2001",
+          "journal-title": "Cellular and Molecular Life Sciences CMLS"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0001-8686(00)00053-1"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "12079",
+          "DOI": "10.1021/jp025894j",
+          "article-title": "A general expression for bimolecular association rates with orientational constraints",
+          "volume": "106",
+          "year": "2002",
+          "journal-title": "The Journal of Physical Chemistry B"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.89.8.3338"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "2017",
+          "DOI": "10.1016/S0006-3495(04)74263-0",
+          "article-title": "Finite element solution of the steady-state Smoluchowski equation for rate constant calculations",
+          "volume": "86",
+          "year": "2004",
+          "journal-title": "Biophysical Journal"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "341",
+          "DOI": "10.1002/prot.20489",
+          "article-title": "Exploring the charge space of protein–protein association: a proteomic study",
+          "volume": "60",
+          "year": "2005",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.95.11.5942"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0006-3495(03)74574-3"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "105",
+          "DOI": "10.1146/annurev-biophys-070816-033639",
+          "article-title": "Rate constants and mechanisms of protein–ligand binding",
+          "volume": "46",
+          "year": "2017",
+          "journal-title": "Annual review of biophysics"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "789",
+          "DOI": "10.1038/nchembio.232",
+          "article-title": "The role of dynamic conformational ensembles in biomolecular recognition",
+          "volume": "5",
+          "year": "2009",
+          "journal-title": "Nature chemical biology"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002054"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Changeux, J.-P. ; Edelstein, S. Conformational selection or induced fit? 50 years of debate resolved. F1000 biology reports 2011, 3.",
+          "DOI": "10.3410/B3-19"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0907195106"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1407545111"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2009.11.029"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ou, L. ; Matthews, M. ; Pang, X. ; Zhou, H.-X. The dock-and-coalesce mechanism for the association of a WASP disordered region with the Cdc42 GTP ase. 2017.",
+          "DOI": "10.1111/febs.14197"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2011.10.015"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2011.11.002"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c2cp41196b"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1409122111"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/293316a0"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.444397"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1529/biophysj.105.074575"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.476255"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.95.16.9280"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2009.10.007"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.31",
+          "first-page": "1",
+          "article-title": "Gated diffusion-controlled reactions",
+          "volume": "4",
+          "year": "2011",
+          "journal-title": "BMC biophysics"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.446900"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0006-3495(97)78838-6"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.2000.4404"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja00078a027"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja9073672"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "5097",
+          "DOI": "10.1021/acs.jctc.7b00631",
+          "article-title": "Multiscale simulation of receptor–drug association kinetics: Application to neuraminidase inhibitors",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "3597",
+          "DOI": "10.1021/acs.jpcb.6b09388",
+          "article-title": "SEEKR: simulation enabled estimation of kinetic rates, a computational tool to estimate molecular kinetics and its application to trypsin–benzamidine binding",
+          "volume": "121",
+          "year": "2017",
+          "journal-title": "The Journal of Physical Chemistry B"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "4941",
+          "DOI": "10.1021/acs.jpclett.8b02047",
+          "article-title": "Quantitative ranking of ligand binding kinetics with a multiscale milestoning simulation approach",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "The journal of physical chemistry letters"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "5348",
+          "DOI": "10.1021/acs.jctc.0c00495",
+          "article-title": "Predicting Ligand Binding Kinetics Using a Markovian Milestoning with Voronoi Tessellations Multiscale Approach",
+          "volume": "16",
+          "year": "2020",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2017.10.001"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "126",
+          "DOI": "10.1016/j.sbi.2020.06.022",
+          "article-title": "Recent progress in molecular simulation methods for drug binding kinetics",
+          "volume": "64",
+          "year": "2020",
+          "journal-title": "Current Opinion in Structural Biology"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.5b01684"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1103547108"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1003767"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.46",
+          "first-page": "1",
+          "article-title": "Protein conformational plasticity and complex ligand-binding kinetics explored by atomistic simulations and Markov models",
+          "volume": "6",
+          "year": "2015",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms15955"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "1005",
+          "DOI": "10.1038/nchem.2785",
+          "article-title": "Complete protein–protein association kinetics in atomic detail revealed by molecular dynamics simulations and Markov modelling",
+          "volume": "9",
+          "year": "2017",
+          "journal-title": "Nature chemistry"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0905466106"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja9090353"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1003962107"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.5b02324"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1210983109"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "6625",
+          "DOI": "10.1021/jp400797y",
+          "article-title": "NMR relaxation in proteins with fast internal motions and slow conformational exchange: model-free framework and Markov state simulations",
+          "volume": "117",
+          "year": "2013",
+          "journal-title": "The Journal of Physical Chemistry B"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms4790"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "6591",
+          "DOI": "10.1021/acs.jpcb.5b02582",
+          "article-title": "Conformational transition in signal transduction: metastable states and transition pathways in the activation of a signaling protein",
+          "volume": "119",
+          "year": "2015",
+          "journal-title": "The Journal of Physical Chemistry B"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4878494"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2014.04.002"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4828816"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.3565032"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.7b12191"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.62",
+          "doi-asserted-by": "crossref",
+          "first-page": "635",
+          "DOI": "10.1137/110858616",
+          "article-title": "A variational approach to modeling slow processes in stochastic dynamical systems",
+          "volume": "11",
+          "year": "2013",
+          "journal-title": "Multiscale Modeling & Simulation"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.3554380"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "2000",
+          "DOI": "10.1021/ct300878a",
+          "article-title": "Improvements in Markov state model construction reveal many non-native interactions in the folding of NTL9",
+          "volume": "9",
+          "year": "2013",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4811489"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "787",
+          "DOI": "10.1021/ct900620b",
+          "article-title": "Enhanced modeling via network theory: Adaptive sampling of Markov state models",
+          "volume": "6",
+          "year": "2010",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.67",
+          "doi-asserted-by": "crossref",
+          "first-page": "2064",
+          "DOI": "10.1021/ct400919u",
+          "article-title": "On-the-fly learning and sampling of ligand binding by high-throughput molecular simulations",
+          "volume": "10",
+          "year": "2014",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.5053582"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-04058-2"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ar500356n"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1424461112"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja903045y"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.73",
+          "doi-asserted-by": "crossref",
+          "first-page": "154109",
+          "DOI": "10.1063/5.0021399",
+          "article-title": "Peptide Gaussian accelerated molecular dynamics (Pep-GaMD): Enhanced sampling and free energy and kinetics calculations of peptide binding",
+          "volume": "153",
+          "year": "2020",
+          "journal-title": "The Journal of Chemical Physics"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2017.01.006"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.75",
+          "first-page": "1",
+          "article-title": "Kinetics of protein-ligand unbinding via smoothed potential molecular dynamics simulations",
+          "volume": "5",
+          "year": "2015",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.76",
+          "doi-asserted-by": "crossref",
+          "first-page": "2983",
+          "DOI": "10.1021/acs.jctc.6b00277",
+          "article-title": "Adaptive multilevel splitting method for molecular dynamics calculation of benzamidine-trypsin dissociation time",
+          "volume": "12",
+          "year": "2016",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.77",
+          "doi-asserted-by": "crossref",
+          "first-page": "072308",
+          "DOI": "10.1063/1.5024217",
+          "article-title": "Acceleration of biomolecular kinetics in Gaussian accelerated molecular dynamics",
+          "volume": "149",
+          "year": "2018",
+          "journal-title": "The Journal of chemical physics"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.2548279"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.2000.4018"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0969-2126(02)00720-7"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4615-5373-1_2"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JVI.76.20.10226-10233.2002"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JVI.79.16.10601-10607.2005"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.84",
+          "doi-asserted-by": "crossref",
+          "first-page": "1416",
+          "DOI": "10.1016/j.bbapap.2017.08.009",
+          "article-title": "Conformations of the HIV-1 protease: a crystal structure data set analysis",
+          "volume": "1865",
+          "year": "2017",
+          "journal-title": "Biochimica et Biophysica Acta (BBA)-Proteins and Proteomics"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.85",
+          "doi-asserted-by": "crossref",
+          "first-page": "990",
+          "DOI": "10.1002/prot.25534",
+          "article-title": "Exploring the conformational landscapes of HIV protease structural ensembles using principal component analysis",
+          "volume": "86",
+          "year": "2018",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0300-9084(91)90169-2"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2005.11.005"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1111202108"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0969-2126(99)80172-5"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1110/ps.33202"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.91",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cbic.201402585"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi700864p"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.93",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1111/j.1747-0285.2007.00464.x",
+          "article-title": "Binding pathways of ligands to HIV-1 protease: coarse-grained and atomistic simulations",
+          "volume": "69",
+          "year": "2007",
+          "journal-title": "Chemical biology & drug design"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.94",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja058211x"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.95",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.22806"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja2008032"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm0208370"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.98",
+          "doi-asserted-by": "crossref",
+          "first-page": "3438",
+          "DOI": "10.1021/ct2004885",
+          "article-title": "A. Gating and intermolecular interactions in ligand-protein association: coarse-grained modeling of HIV-1 protease",
+          "volume": "7",
+          "year": "2011",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.99",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.biochem.6b01112"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.100",
+          "doi-asserted-by": "crossref",
+          "first-page": "1533",
+          "DOI": "10.1021/acs.biochem.7b01248",
+          "article-title": "A. Ligand binding pathways and conformational transitions of the HIV protease",
+          "volume": "57",
+          "year": "2018",
+          "journal-title": "Biochemistry"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.101",
+          "doi-asserted-by": "crossref",
+          "first-page": "5525",
+          "DOI": "10.1021/acs.jctc.5b00743",
+          "article-title": "PyEMMA 2: A software package for estimation, validation, and analysis of Markov models",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.103",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.10349"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.104",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi00098a024"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.105",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi961268z"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.106",
+          "doi-asserted-by": "crossref",
+          "first-page": "450",
+          "DOI": "10.1002/prot.20304",
+          "article-title": "A molecular dynamics study of the structural stability of HIV-1 protease under physiological conditions: The role of Na+ ions in stabilizing the active site",
+          "volume": "58",
+          "year": "2005",
+          "journal-title": "Proteins: Struct. Funct. Bioinf"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.107",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20821"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.108",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.109",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0010-4655(95)00041-D"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.110",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.445869"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.111",
+          "doi-asserted-by": "crossref",
+          "first-page": "1632",
+          "DOI": "10.1021/ct9000685",
+          "article-title": "ACEMD: Accelerating Biomolecular Dynamics in the Microsecond Time Scale",
+          "volume": "5",
+          "year": "2009",
+          "journal-title": "J. Chem. Theor. Comput"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.112",
+          "doi-asserted-by": "crossref",
+          "first-page": "119",
+          "DOI": "10.1002/prot.20274",
+          "article-title": "Solvation Influences Flap Collapse in HIV-1 Protease",
+          "volume": "58",
+          "year": "2005",
+          "journal-title": "Proteins: Struct. Funct. Bioinf"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.113",
+          "doi-asserted-by": "crossref",
+          "first-page": "2371",
+          "DOI": "10.1021/ct900275y",
+          "article-title": "An implementation of the smooth particle mesh ewald method on gpu hardware",
+          "volume": "5",
+          "year": "2009",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.114",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.470117"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.115",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0021-9991(77)90098-5"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.116",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1096-987X(199906)20:8<786::AID-JCC5>3.0.CO;2-B"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.117",
+          "doi-asserted-by": "crossref",
+          "first-page": "316",
+          "DOI": "10.1021/ct5008845",
+          "article-title": "Computing the role of near attack conformations in an enzyme-catalyzed nucleophilic bimolecular reaction",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.118",
+          "doi-asserted-by": "crossref",
+          "first-page": "684",
+          "DOI": "10.3390/catal10060684",
+          "article-title": "Fine-Tuning of Sequence Specificity by Near Attack Conformations in Enzyme-Catalyzed Peptide Hydrolysis",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Catalysts"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.119",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21787"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.120",
+          "doi-asserted-by": "crossref",
+          "first-page": "3696",
+          "DOI": "10.1021/acs.jctc.5b00255",
+          "article-title": "ff14SB: improving the accuracy of protein side chain and backbone parameters from ff99SB",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.121",
+          "doi-asserted-by": "crossref",
+          "first-page": "1134",
+          "DOI": "10.1021/acsmedchemlett.8b00397",
+          "article-title": "Prediction of drug–target binding kinetics by comparative binding energy analysis",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "ACS medicinal chemistry letters"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.122",
+          "unstructured": "Case, D. ; Ben-Shalom, I. ; Brozell, S. ; Cerutti, D. ; Cheatham III, T. ; Cruzeiro, V. ; Darden, T. ; Duke, R. ; Ghoreishi, D. ; Gilson, M. ; Gohlke, H. ; Goetz, A. ; Greene, D. ; Harris, R. ; Homeyer, N. ; Huang, Y. ; Izadi, S. ; Kovalenko, A. ; Kurtzman, T. ; Lee, T. ; LeGrand, S. ; Li, P. ; Lin, C. ; Liu, J. ; Luchko, T. ; Luo, R. ; Mermelstein, D. ; Merz, K. ; Miao, Y. ; Monard, G. ; Nguyen, C. ; Nguyen, H. ; Omelyan, I. ; Onufriev, A. ; Pan, F. ; Qi, R. ; Roe, D. ; Roitberg, A. ; Sagui, C. ; Schott-Verdugo, S. ; Shen, J. ; Simmerling, C. ; Smith, J. ; Salomon-Ferrer, R. ; Swails, J. ; Walker, R. ; Wang, J. ; Wei, H. ; Wolf, R. ; Wu, X. ; Xiao, L. ; DM, Y.; Kollman, P. AMBER 2018. University of California, San Francisco 2018,"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.123",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.181342398"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.124",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.23971"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.125",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp953109f"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.126",
+          "unstructured": "Ganotra, G. K. Computational studies of drug-binding kinetics. Ph.D. thesis, Heidelberg University, 2020."
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.127",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0006-3495(00)76630-6"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.128",
+          "doi-asserted-by": "crossref",
+          "first-page": "1830",
+          "DOI": "10.1002/prot.23008",
+          "article-title": "Dynamic flaps in HIV-1 protease adopt unique ordering at different stages in the catalytic cycle",
+          "volume": "79",
+          "year": "2011",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.129",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1529/biophysj.106.100560"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.130",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2015.05.007"
+        },
+        {
+          "key": "2021102201050565000_2021.06.22.449380v2.131",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lyonnais, S. ; Sadiq, S. K. ; Lorca-Oró, C. ; Dufau, L. ; Nieto-Marquez, S. ; Escriba, T. ; Gabrielli, N. ; Tan, X. ; Ouizougun-Oubari, M. ; Okoronkwo, J. ; Reboud-Ravaux, M. ; Gatell, J. M. ; Marquet, R. ; Paillart, J.-C. ; Meyerhans, A. ; TisnÃl’, C. ; Gorelick, R. J. ; Mirambeau, G. The HIV-1 ribonucleoprotein dynamically regulates its condensate behavior and drives acceleration of protease activity through membrane-less granular phase-separation. bioRxiv 2019, 528638.",
+          "DOI": "10.1101/528638"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.06.22.449380",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:52:26Z",
+        "timestamp": 1768441946000
+      },
+      "score": 81.59755,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.06.22.449380"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            23
+          ]
+        ]
+      },
+      "references-count": 131,
+      "URL": "https://doi.org/10.1101/2021.06.22.449380",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jctc.1c00673",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            23
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

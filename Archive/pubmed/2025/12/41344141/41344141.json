@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "41344141",
+    "doi": "10.1016/j.ecoenv.2025.119504",
+    "title": "A combined study of network-based prediction and in vitro experimental validation on the procarcinogenic mechanism of propylparaben in estrogen receptor-positive breast cancer cells."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: To investigate the carcinogenic mechanisms and potential molecular targets of the environmental endocrine disruptor Propylparaben in estrogen receptor-positive breast cancer. METHODS: Based on a network toxicology strategy, this study first predicted and analyzed the physicochemical properties and in vivo/vitro toxicity of Propylparaben, screened its potential targets, and intersected them with estrogen receptor-positive breast cancer-related genes to obtain candidate toxicological targets. GO, KEGG, and PPI enrichment analyses were subsequently performed to identify key functional modules. Transcriptomic data from breast cancer were integrated, and core targets were screened using LASSO regression, SVM-RFE, and random forest algorithms. A multigene diagnostic model was then constructed, evaluated, and externally validated. Differential expression analysis, protein-level validation, and molecular docking were conducted to confirm expression patterns and binding capabilities of the core targets. Using MCF-7 cells as the in vitro model, dose-dependent Propylparaben intervention experiments were conducted to examine the transcriptional responses of the target genes. Drug sensitivity prediction, survival analysis, and GSEA-based functional annotation were further performed to evaluate the clinical potential and oncogenic mechanisms of the core targets. RESULTS: Propylparaben demonstrated strong estrogen receptor agonist activity, metabolic enzyme inhibition, and moderate carcinogenic risk, suggesting classical endocrine-disrupting properties. A total of 109 candidate toxicological targets associated with estrogen receptor-positive breast cancer were identified and found enriched in carcinogenic and tumor-suppressive pathways such as PI3K/AKT, mTOR, MAPK, and p53. Eight core targets were selected via machine learning, with SLC2A1 and KIF11 showing significant upregulation at both mRNA and protein levels, as well as stable binding affinities with Propylparaben. MCF-7 cell experiments confirmed their dose-dependent transcriptional upregulation upon Propylparaben treatment. Drug sensitivity analysis revealed that high expression of these targets correlated with increased sensitivity to Fulvestrant. KIF11 was predictive of neoadjuvant therapy response, while high SLC2A1 expression was significantly associated with poor survival outcomes. GSEA indicated that high expression of these genes significantly activated glycolysis, cell cycle, mTORC1, MYC, and E2F pathways, while suppressing antitumor mechanisms including p53 and complement cascades. CONCLUSION: Propylparaben may promote the occurrence and progression of estrogen receptor-positive breast cancer by upregulating SLC2A1 and KIF11, activating metabolic and proliferative pathways, and simultaneously suppressing tumor-suppressive signals.",
+    "keywords": [
+      "ER-positive breast cancer",
+      "Endocrine disruptor",
+      "Machine learning",
+      "Molecular docking",
+      "Propylparaben"
+    ],
+    "mesh_terms": [
+      "*Parabens/toxicity",
+      "Humans",
+      "*Breast Neoplasms/metabolism/genetics",
+      "Female",
+      "MCF-7 Cells",
+      "*Endocrine Disruptors/toxicity",
+      "Receptors, Estrogen/metabolism",
+      "Molecular Docking Simulation",
+      "*Carcinogens/toxicity"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wen, Jiaying",
+        "Liang, Yingying",
+        "Mo, Laiming",
+        "Sun, Weiliang",
+        "Qin, Yanqiu",
+        "Yue, Haiying",
+        "Zhu, Huijun"
+      ],
+      "short_names": [
+        "Wen J",
+        "Liang Y",
+        "Mo L",
+        "Sun W",
+        "Qin Y",
+        "Yue H",
+        "Zhu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiation Oncology, The Second Affiliated Hospital of Guangxi Medical University, No. 166 Daxue East Road, Xixiangtang District, Nanning, Guangxi 530007, China.",
+        "Department of Radiation Oncology, The Second Affiliated Hospital of Guangxi Medical University, No. 166 Daxue East Road, Xixiangtang District, Nanning, Guangxi 530007, China.",
+        "Department of Laboratory Medicine, The Seventh Affiliated Hospital of Sun Yat-sen University, Guangming District, Shenzhen, Guangdong 518107, China.",
+        "Department of Medical Oncology, The Second Affiliated Hospital of Guangxi Medical University, No. 166 Daxue East Road, Xixiangtang District, Nanning, Guangxi 530007, China.",
+        "Department of Medical Oncology, The Second Affiliated Hospital of Guangxi Medical University, No. 166 Daxue East Road, Xixiangtang District, Nanning, Guangxi 530007, China.",
+        "Department of Radiation Oncology, The Second Affiliated Hospital of Guangxi Medical University, No. 166 Daxue East Road, Xixiangtang District, Nanning, Guangxi 530007, China.",
+        "Department of Radiation Oncology, The Second Affiliated Hospital of Guangxi Medical University, No. 166 Daxue East Road, Xixiangtang District, Nanning, Guangxi 530007, China. Electronic address: w9909@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wen, Jiaying",
+        "short_name": "Wen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, The Second Affiliated Hospital of Guangxi Medical University, No. 166 Daxue East Road, Xixiangtang District, Nanning, Guangxi 530007, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Yingying",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, The Second Affiliated Hospital of Guangxi Medical University, No. 166 Daxue East Road, Xixiangtang District, Nanning, Guangxi 530007, China."
+        ]
+      },
+      {
+        "full_name": "Mo, Laiming",
+        "short_name": "Mo L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, The Seventh Affiliated Hospital of Sun Yat-sen University, Guangming District, Shenzhen, Guangdong 518107, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Weiliang",
+        "short_name": "Sun W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The Second Affiliated Hospital of Guangxi Medical University, No. 166 Daxue East Road, Xixiangtang District, Nanning, Guangxi 530007, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Yanqiu",
+        "short_name": "Qin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The Second Affiliated Hospital of Guangxi Medical University, No. 166 Daxue East Road, Xixiangtang District, Nanning, Guangxi 530007, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Haiying",
+        "short_name": "Yue H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, The Second Affiliated Hospital of Guangxi Medical University, No. 166 Daxue East Road, Xixiangtang District, Nanning, Guangxi 530007, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Huijun",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, The Second Affiliated Hospital of Guangxi Medical University, No. 166 Daxue East Road, Xixiangtang District, Nanning, Guangxi 530007, China. Electronic address: w9909@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Ecotoxicology and environmental safety"
+    ],
+    "journal_abbrev": [
+      "Ecotoxicol Environ Saf"
+    ],
+    "pub_date": "2026 Jan 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/05 01:02",
+    "fetched_at": "2026-10-01 07:55:32"
+  },
+  "links": {
+    "cites": [
+      "42152095",
+      "41673191"
+    ],
+    "refs": [],
+    "similar": [
+      "41344141",
+      "41183465",
+      "41371106",
+      "27581495",
+      "26253279",
+      "40597935",
+      "37957900",
+      "41261566",
+      "41534354",
+      "37121592",
+      "41246859",
+      "40936892",
+      "40924735",
+      "40482448",
+      "26116361",
+      "25212826",
+      "37799727",
+      "23844554",
+      "39780215",
+      "19101832",
+      "41508180",
+      "21362200",
+      "39440778",
+      "40092695",
+      "41301871",
+      "41415207",
+      "19270750",
+      "36882618",
+      "29921289",
+      "40255473",
+      "25128701",
+      "40512387",
+      "39159684",
+      "24481588",
+      "35684480",
+      "39147995",
+      "24457069",
+      "40097769",
+      "32787886",
+      "40332431",
+      "25530422",
+      "23891847",
+      "40916281",
+      "37148752",
+      "38582151",
+      "39992538",
+      "34231077",
+      "35346647",
+      "41435607",
+      "41303381",
+      "38729448",
+      "41211465",
+      "38381406",
+      "41442003",
+      "34406386",
+      "29945225",
+      "41016300",
+      "38178684",
+      "36532015",
+      "41465929",
+      "39323640",
+      "40818522",
+      "33980285",
+      "41226680",
+      "39701786",
+      "39108110",
+      "38773429",
+      "15199112",
+      "25849766",
+      "23707773",
+      "35254385",
+      "31601247",
+      "27252418",
+      "23880059",
+      "41111053",
+      "41223749",
+      "31180176",
+      "39396715",
+      "36403742",
+      "22113133",
+      "40593011",
+      "40615101",
+      "24916694",
+      "19609946",
+      "25213081",
+      "31506496",
+      "24774538",
+      "38840248",
+      "41413866",
+      "40816715",
+      "40317014",
+      "30128822",
+      "31189691",
+      "23056216",
+      "38783288",
+      "27185372",
+      "41293954",
+      "39993869",
+      "33408778",
+      "33278557"
+    ],
+    "review": [
+      "41344141",
+      "19270750"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0147-6513(25)01849-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

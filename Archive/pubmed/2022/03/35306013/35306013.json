@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "35306013",
+    "doi": "10.1016/j.ijbiomac.2022.03.073",
+    "title": "Transcriptome-wide identification and computational insights into protein modeling and docking of CAMTA transcription factors in Eleusine coracana L (finger millet)."
+  },
+  "content": {
+    "abstract": "Calmodulin-binding transcription activator (CAMTA) are a group of transcription factors that are known to perform various important biological functions in plants. Here, we report 7 putative CAMTA transcription factors identified from finger millet transcriptome data. They were further analyzed for physicochemical properties, subcellular localization, conserved domains and motifs, Gene Ontology (GO) terms, phylogeny, 3D structure prediction and CAMTA-Ca(2+)-Calmodulin interaction through protein-protein docking. All EcCAMTAs were found to be localized in the nucleus and possessed a calmodulin binding domain (CaMBD). GO results indicated the involvement of CAMTAs in DNA binding and protein binding molecular functions. Phylogenetic analysis classified EcCAMTA genes into 3-subgroups. 3D-structure of CAMTA proteins was elucidated through ab-initio protein modeling and its interaction with Calmodulin was investigated by docking studies. Our study provides molecular insight into the structure and function of CAMTA genes in finger millet and also highlights the role of omics-based in-silico approaches for identification of novel gene families in the absence of a reference genome or annotated database. This being the first study of CAMTA transcription factor family in finger millet, it could serve as a resource for further studies of CAMTA genes either in finger millet or other related millets and cereal crops.",
+    "keywords": [
+      "3D modeling",
+      "CAMTA transcription factors",
+      "Finger millet",
+      "Protein-protein docking",
+      "Transcriptome data"
+    ],
+    "mesh_terms": [
+      "Calmodulin/genetics",
+      "*Eleusine/genetics",
+      "Gene Expression Regulation, Plant",
+      "Phylogeny",
+      "Transcription Factors/genetics/metabolism",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kadri, Syeda Ulfath Tazeen",
+        "Mulla, Sikandar I",
+        "Babu R, Nagesh",
+        "Suchithra, B",
+        "Bilal, Muhammad",
+        "Ameen, Fuad",
+        "Bharagava, Ram Naresh",
+        "Saratale, Ganesh Dattatraya",
+        "Ferreira, Luiz Fernando Romanholo",
+        "Americo-Pinheiro, Juliana Heloisa Pine"
+      ],
+      "short_names": [
+        "Kadri SUT",
+        "Mulla SI",
+        "Babu R N",
+        "Suchithra B",
+        "Bilal M",
+        "Ameen F",
+        "Bharagava RN",
+        "Saratale GD",
+        "Ferreira LFR",
+        "Americo-Pinheiro JHP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, School of Allied Health Sciences, REVA University, Bangalore 560064, India; Department of Biochemistry, Maharani's Science College for Women, Bangalore 560001, India.",
+        "Department of Biochemistry, School of Allied Health Sciences, REVA University, Bangalore 560064, India. Electronic address: sikandar.mulla@gmail.com.",
+        "Department of Biochemistry, Maharani's Science College for Women, Bangalore 560001, India. Electronic address: nageshbabur@gmail.com.",
+        "Department of Biochemistry, Maharani's Science College for Women, Bangalore 560001, India.",
+        "School of Life Science and Food Engineering, Huaiyin Institute of Technology, Huaian, China.",
+        "Department of Botany and Microbiology, College of Science, King Saud University, Riyadh, 11451, Saudi Arabia.",
+        "Department of Microbiology (DM), School for Environmental Sciences (SES), Babasaheb Bhimrao Ambedkar University (A Central University), VidyaVihar, Raebareli Road, Lucknow, 226025, Uttar Pradesh, India.",
+        "Department of Food Science and Biotechnology, Dongguk University-Seoul, Ilsandong-gu, Goyang-si 10326, Gyeonggido, Republic of Korea.",
+        "Graduate Program in Process Engineering, Tiradentes University, Av. Murilo Dantas, 300, Farolandia, Aracaju, Sergipe 49032-490, Brazil.",
+        "Brazil University, Street Carolina Fonseca, number 584, Sao Paulo, SP, 08230-030, Brazil."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kadri, Syeda Ulfath Tazeen",
+        "short_name": "Kadri SUT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, School of Allied Health Sciences, REVA University, Bangalore 560064, India; Department of Biochemistry, Maharani's Science College for Women, Bangalore 560001, India."
+        ]
+      },
+      {
+        "full_name": "Mulla, Sikandar I",
+        "short_name": "Mulla SI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, School of Allied Health Sciences, REVA University, Bangalore 560064, India. Electronic address: sikandar.mulla@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Babu R, Nagesh",
+        "short_name": "Babu R N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Maharani's Science College for Women, Bangalore 560001, India. Electronic address: nageshbabur@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Suchithra, B",
+        "short_name": "Suchithra B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Maharani's Science College for Women, Bangalore 560001, India."
+        ]
+      },
+      {
+        "full_name": "Bilal, Muhammad",
+        "short_name": "Bilal M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Food Engineering, Huaiyin Institute of Technology, Huaian, China."
+        ]
+      },
+      {
+        "full_name": "Ameen, Fuad",
+        "short_name": "Ameen F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Botany and Microbiology, College of Science, King Saud University, Riyadh, 11451, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Bharagava, Ram Naresh",
+        "short_name": "Bharagava RN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology (DM), School for Environmental Sciences (SES), Babasaheb Bhimrao Ambedkar University (A Central University), VidyaVihar, Raebareli Road, Lucknow, 226025, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Saratale, Ganesh Dattatraya",
+        "short_name": "Saratale GD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Food Science and Biotechnology, Dongguk University-Seoul, Ilsandong-gu, Goyang-si 10326, Gyeonggido, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Ferreira, Luiz Fernando Romanholo",
+        "short_name": "Ferreira LFR",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Program in Process Engineering, Tiradentes University, Av. Murilo Dantas, 300, Farolândia, Aracaju, Sergipe 49032-490, Brazil."
+        ]
+      },
+      {
+        "full_name": "Américo-Pinheiro, Juliana Heloisa Pinê",
+        "short_name": "Américo-Pinheiro JHP",
+        "identifiers": [],
+        "affiliations": [
+          "Brazil University, Street Carolina Fonseca, number 584, São Paulo, SP, 08230-030, Brazil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2022 May 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/21 06:00",
+    "fetched_at": "2026-09-28 06:33:16"
+  },
+  "links": {
+    "cites": [
+      "42148569",
+      "40994538",
+      "40727428",
+      "40006791",
+      "39304579",
+      "36039655"
+    ],
+    "refs": [],
+    "similar": [
+      "35306013",
+      "28619070",
+      "31204698",
+      "34649525",
+      "35169940",
+      "33302232",
+      "24469585",
+      "24838653",
+      "37180580",
+      "29615731",
+      "38396743",
+      "32928120",
+      "26973658",
+      "26496774",
+      "21643752",
+      "33596255",
+      "38281915",
+      "28149050",
+      "36142414",
+      "30843175",
+      "34790215",
+      "36071408",
+      "29985386",
+      "30321245",
+      "27415007",
+      "24875415",
+      "25157851",
+      "35682943",
+      "24477586",
+      "25101868",
+      "25869323",
+      "39337256",
+      "30498672",
+      "32144322",
+      "29459009",
+      "31010823",
+      "24477581",
+      "32171257",
+      "27213684",
+      "28794922",
+      "36138347",
+      "27881984",
+      "17103137",
+      "33780741",
+      "30968267",
+      "24825394",
+      "32702710",
+      "29430346",
+      "21116864",
+      "8608927",
+      "33265064",
+      "30847125",
+      "30092057",
+      "20861563",
+      "39367004",
+      "36570897",
+      "39315219",
+      "36941636",
+      "27898819",
+      "36299586",
+      "39153062",
+      "25300836",
+      "27460530",
+      "33819868",
+      "25684084",
+      "29428798",
+      "38324135",
+      "21584677",
+      "17425116",
+      "30083176",
+      "27423073",
+      "11925432",
+      "29391403",
+      "25279462",
+      "36432758",
+      "29902967",
+      "33343600",
+      "25917109",
+      "30945676",
+      "33166822",
+      "26255946",
+      "27165545",
+      "25016822",
+      "18030720",
+      "25409524",
+      "23522794",
+      "26450508",
+      "33706694",
+      "23435937",
+      "31665327",
+      "28144246",
+      "34116128",
+      "24996305",
+      "27200054",
+      "33228307",
+      "27446162",
+      "25219306",
+      "22888132",
+      "22357211",
+      "34220934",
+      "31000288",
+      "29443531",
+      "26150823",
+      "23065288",
+      "27194798",
+      "28831141",
+      "35712571",
+      "37071197",
+      "28729759",
+      "30262977",
+      "36724188",
+      "30349675",
+      "26539183",
+      "37836117",
+      "37970380",
+      "37344528",
+      "36383531",
+      "39196414"
+    ],
+    "review": [
+      "35306013",
+      "27881984",
+      "30968267",
+      "39153062",
+      "30083176",
+      "33343600",
+      "23522794",
+      "26450508",
+      "28144246",
+      "27446162"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(22)00543-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

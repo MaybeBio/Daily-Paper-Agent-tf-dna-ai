@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41226380",
+  "title": "Machine Learning-Driven Prediction of Spatiotemporal Dynamics of Active Nuclei During Drosophila Embryogenesis.",
+  "authors": "Malidarreh, Parisa Boodaghi; Borad, Priyanshi; Rout, Biraaj; Makridou, Anna; Abbasi, Shiva; Nasr, Mohammad Sadegh; Saurav, Jillur Rahman; Fenelon, Kelli D; Veerla, Jai Prakash; Luber, Jacob M; Koromila, Theodora",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2025-11-13",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习预测果蝇胚胎中sog基因表达的空间动态，虽涉及转录因子调控但未聚焦TF-DNA结合建模，方法可迁移至顺式调控逻辑预测，属广义蛋白-DNA相关但深度不足。",
+  "abstract": "In this study, we apply machine learning to model the spatiotemporal dynamics of gene expression during early Drosophila embryogenesis. By optimizing model architecture, feature selection, and spatial grid resolution, we developed a predictive pipeline capable of accurately classifying active nuclei and forecasting their future distribution in time. We evaluated the model on two reporter constructs for the short gastrulation (sog) gene, sogD and sogD_∆Su(H), allowing us to assess its performance across distinct genetic contexts. The model achieved high accuracy on the wild-type sogD dataset, particularly along the dorsal-ventral (DV) axis during nuclear cycle 14 (NC14), and accurately predicted expression in the central regions of both wild-type and Suppressor of Hairless (Su(H)) mutant enhancers, sogD_∆Su(H). Bootstrap analysis confirmed that the model performed better in the central region than at the edges, where prediction accuracy dropped. Our previous work showed that Su(H) can act both as a repressor at the borders and as a stabilizer of transcriptional bursts in the center of the sog expression domain. This dual function is not unique to Su(H); other broadly expressed transcription factors also exhibit context-dependent regulatory roles, functioning as activators in some regions and repressors in others. These results highlight the importance of spatial context in transcriptional regulation and demonstrate the ability of machine learning to capture such nuanced behavior. Looking ahead, incorporating mechanistic features such as transcriptional bursting parameters into predictive models could enable simulations that forecast not just where genes are expressed but also how their dynamics unfold over time. This form of in silico enhancer mutagenesis would make it possible to predict the effects of specific binding site changes on both spatial expression patterns and underlying transcriptional activity, offering a powerful framework for studying cis-regulatory logic and modeling early developmental processes across diverse genetic backgrounds.",
+  "abstract_zh": "在本研究中，我们应用机器学习来模拟早期果蝇胚胎发生过程中基因表达的时空动态。通过优化模型架构、特征选择和空间网格分辨率，我们开发了一个预测流程，能够准确分类活跃细胞核并预测其未来的时间分布。我们针对短腹化（sog）基因的两个报告构建体sogD和sogD_∆Su(H)评估了模型，从而能够评估其在不同遗传背景下的性能。该模型在野生型sogD数据集上实现了高准确性，特别是在核周期14（NC14）期间的背腹（DV）轴上，并准确预测了野生型和Suppressor of Hairless（Su(H)）突变增强子sogD_∆Su(H)中心区域的表达。Bootstrap分析证实，模型在中心区域的表现优于边缘区域，边缘的预测准确性有所下降。我们先前的工作表明，Su(H)既可作为边界处的抑制因子，也可作为sog表达域中心转录爆发的稳定因子。这种双重功能并非Su(H)所独有；其他广泛表达的转录因子也表现出情境依赖的调控作用，在某些区域作为激活因子，在其他区域作为抑制因子。这些结果突显了空间背景在转录调控中的重要性，并展示了机器学习捕捉此类细微行为的能力。展望未来，将转录爆发参数等机制特征纳入预测模型，可能实现模拟，不仅预测基因表达的位置，还能预测其动态随时间如何展开。这种计算机模拟增强子诱变将能够预测特定结合位点变化对空间表达模式和潜在转录活性的影响，为研究顺式调控逻辑和模拟不同遗传背景下的早期发育过程提供强大框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41226380/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41226380/",
+  "paper_page_path": "papers/pubmed/41226380/index.html"
+}

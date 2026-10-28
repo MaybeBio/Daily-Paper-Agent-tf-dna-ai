@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "42340349",
+    "doi": "10.1021/acs.jpcb.6c02031",
+    "title": "Comparing Enhanced Sampling Methods in Exploring the Conformational Space of beta-Catenin(17-48)."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) play critical roles in cellular signaling and regulation, yet their dynamic conformational landscapes make them difficult to characterize experimentally and computationally. Phosphorylation, one of the most common post-translational modifications, frequently occurs within intrinsically disordered regions and can modulate protein structure and function. Enhanced sampling molecular dynamics methods offer a potential route to more efficiently explore the diverse conformations accessible to IDPs, but systematic comparisons of their performance sampling the conformational landscape of such systems remain limited. Here, we evaluate the conformational sampling of the intrinsically disordered beta-catenin(17-48) peptide in both its nonphosphorylated and phosphorylated states using three enhanced sampling approaches: Gaussian-accelerated molecular dynamics (GaMD), metadynamics (METAD), and weighted ensemble simulations (WESTPA), in comparison with conventional molecular dynamics simulations. Two collective variables (CVs) were explored to guide sampling: the varphi dihedral angles of the phosphorylation sites Ser33 and Ser37 and the end-to-end distance of the peptide. We found that different enhanced sampling methods explored distinct regions of conformational space rather than converging to a single ensemble, with GaMD largely overlapping with unbiased simulations. Notably, METAD and WESTPA more readily accessed conformational regions not observed in unbiased simulations. Analysis of the combined conformational ensembles identified intermediate conformations connecting the nonphosphorylated and phosphorylated states, which are preferentially sampled in simulations employing adaptive strategies. Additionally, the Ser33/Ser37 varphi angle CV more effectively captures phosphorylation-dependent conformational shifts than the end-to-end distance metric. Together, these results highlight how both the choice of enhanced sampling strategy and the selection of collective variables influence the exploration of IDP conformational landscapes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*beta Catenin/chemistry/metabolism",
+      "Phosphorylation",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gil Pineda, Laura I",
+        "Poleto, Marcelo D",
+        "Michel, Haley M",
+        "Goodberlet, Ashley M",
+        "Lemkul, Justin A"
+      ],
+      "short_names": [
+        "Gil Pineda LI",
+        "Poleto MD",
+        "Michel HM",
+        "Goodberlet AM",
+        "Lemkul JA"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9210-690X",
+        "ORCID: 0000-0002-4787-3410",
+        "ORCID: 0000-0001-6661-8653"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Virginia Tech, Blacksburg, Virginia 24061, United States.",
+        "Department of Biochemistry, Virginia Tech, Blacksburg, Virginia 24061, United States.",
+        "Department of Biochemistry, Virginia Tech, Blacksburg, Virginia 24061, United States.",
+        "Department of Biochemistry, Virginia Tech, Blacksburg, Virginia 24061, United States.",
+        "Department of Biochemistry, Center for Drug Discovery, Virginia Tech, Blacksburg, Virginia 24061, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gil Pineda, Laura I",
+        "short_name": "Gil Pineda LI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Virginia Tech, Blacksburg, Virginia 24061, United States."
+        ]
+      },
+      {
+        "full_name": "Polêto, Marcelo D",
+        "short_name": "Polêto MD",
+        "identifiers": [
+          "0000-0001-9210-690X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Virginia Tech, Blacksburg, Virginia 24061, United States."
+        ]
+      },
+      {
+        "full_name": "Michel, Haley M",
+        "short_name": "Michel HM",
+        "identifiers": [
+          "0000-0002-4787-3410"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Virginia Tech, Blacksburg, Virginia 24061, United States."
+        ]
+      },
+      {
+        "full_name": "Goodberlet, Ashley M",
+        "short_name": "Goodberlet AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Virginia Tech, Blacksburg, Virginia 24061, United States."
+        ]
+      },
+      {
+        "full_name": "Lemkul, Justin A",
+        "short_name": "Lemkul JA",
+        "identifiers": [
+          "0000-0001-6661-8653"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Center for Drug Discovery, Virginia Tech, Blacksburg, Virginia 24061, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2026 Jul 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/24 12:36",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41803440",
+      "41204756",
+      "41126530",
+      "39303207",
+      "39013164",
+      "38905589",
+      "38576161",
+      "38506664",
+      "38250404",
+      "37657994",
+      "36350035",
+      "35043623",
+      "33951592",
+      "32282198",
+      "32097582",
+      "31363226",
+      "28992700",
+      "28927523",
+      "28746339",
+      "28301772",
+      "28034310",
+      "27819658",
+      "26575776",
+      "26574339",
+      "26488642",
+      "25352545",
+      "25061441",
+      "24830552",
+      "24773235",
+      "24463371",
+      "23312353",
+      "23183883",
+      "21947276",
+      "21530234",
+      "21500218",
+      "20628786",
+      "20419129",
+      "18245460",
+      "18232845",
+      "17608477",
+      "17604998",
+      "16939197",
+      "16287116",
+      "15629534",
+      "15303830",
+      "12271136",
+      "6667333",
+      "1566067"
+    ],
+    "similar": [
+      "42340349",
+      "38018910",
+      "37108059",
+      "39555603",
+      "30840442",
+      "40042172",
+      "31548393",
+      "42129207",
+      "35298814",
+      "32756904",
+      "35725761",
+      "34680048",
+      "26575570",
+      "26584388",
+      "30708285",
+      "38116756",
+      "42475469",
+      "32696368",
+      "25897952",
+      "34056776",
+      "33581430",
+      "39158517",
+      "33383937",
+      "36124940",
+      "32666802",
+      "33030907",
+      "31362509",
+      "40101966",
+      "34576338",
+      "36934808",
+      "41706900",
+      "37870995",
+      "35298813",
+      "39984300",
+      "30134733",
+      "41994866",
+      "40960922",
+      "42268730",
+      "34869581",
+      "24446368",
+      "37905972",
+      "23912807",
+      "41137856",
+      "25659594",
+      "41082321",
+      "40532196",
+      "41257331",
+      "39983022",
+      "40172236",
+      "42140310",
+      "21056574",
+      "27588692",
+      "32145945",
+      "32403216",
+      "41001960",
+      "28092832",
+      "31809054",
+      "39340152",
+      "34585768",
+      "39093570",
+      "27975243",
+      "26574339",
+      "30204435",
+      "40264953",
+      "41851975",
+      "41259435",
+      "33459730",
+      "41894491",
+      "26052838",
+      "42359590",
+      "39539017",
+      "40095314",
+      "42014948",
+      "28448138",
+      "39190324",
+      "42594575",
+      "38928405",
+      "40853068",
+      "36791464",
+      "38792177",
+      "34647743",
+      "33623120",
+      "38505224",
+      "34845619",
+      "41129692",
+      "30553249",
+      "32859072",
+      "27300592",
+      "40768165",
+      "40029731",
+      "32579908",
+      "33382616",
+      "36472885",
+      "31793290",
+      "38512658",
+      "30979035",
+      "26742101",
+      "34680137",
+      "38979147",
+      "39099394"
+    ],
+    "review": [
+      "42340349",
+      "39555603",
+      "30840442",
+      "32756904",
+      "34680048",
+      "32403216",
+      "39093570",
+      "40264953",
+      "42014948",
+      "38505224",
+      "31793290"
+    ],
+    "pmc": [
+      "13403295"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42340349/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.6c02031",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

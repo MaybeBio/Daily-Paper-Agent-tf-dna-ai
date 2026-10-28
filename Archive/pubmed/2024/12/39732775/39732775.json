@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "39732775",
+    "doi": "10.1038/s41598-024-82559-5",
+    "title": "Hybridisation of in silico and in vitro bioassays for studying the activation of Nrf2 by natural compounds."
+  },
+  "content": {
+    "abstract": "Oxidative stress, characterized by the damaging accumulation of free radicals, is associated with various diseases, including cardiovascular, neurodegenerative, and metabolic disorders. The transcription factor Nrf2 is pivotal in cellular defense against oxidative stress by regulating genes that detoxify free radicals, thus maintaining redox homeostasis and preventing cellular aging. Keap1 plays a regulatory role through its interaction with Nrf2, ensuring Nrf2 degradation under homeostatic conditions and facilitating its stabilization and nuclear translocation during oxidative stress. In the initial stage of our study, we conducted in vitro assays on HaCaT cells, a human keratinocyte cell line, to measure the expression levels of Nrf2 to reveal the activity of promising medicinal plants, which were then selected for further evaluation. Subsequently, this study leverages in silico techniques, integrating machine learning with molecular docking and dynamics, to screen natural compounds that potentially activate Nrf2. Data from the ChEMBL database were categorized into active and inactive compounds and used for training different machine-learning models to predict potential Nrf2 activators. The best-performing model was used to select compounds for further evaluation via molecular docking and dynamics, assessing their interactions with Keap1/Nrf2. The LC-MS/MS-based chemical profiles also validated the presence of these chemical compounds. This approach underscores the synergy between in vitro bioassays and in silico approaches in identifying Nrf2 activators, offering a cost-effective strategy for drug development.",
+    "keywords": [],
+    "mesh_terms": [
+      "*NF-E2-Related Factor 2/metabolism",
+      "Humans",
+      "*Molecular Docking Simulation",
+      "*Kelch-Like ECH-Associated Protein 1/metabolism",
+      "*Computer Simulation",
+      "Biological Products/pharmacology/chemistry",
+      "Machine Learning",
+      "Oxidative Stress/drug effects",
+      "Biological Assay/methods",
+      "HaCaT Cells",
+      "Molecular Dynamics Simulation",
+      "Tandem Mass Spectrometry/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nguyen, Bui Quoc Huy",
+        "Le, Nguyen Thien Han",
+        "Nguyen, Thi Yen Nhi",
+        "Nguyen, Hoang Khue Tu",
+        "Yen, Chia-Hung",
+        "Nguyen, Minh Hien"
+      ],
+      "short_names": [
+        "Nguyen BQH",
+        "Le NTH",
+        "Nguyen TYN",
+        "Nguyen HKT",
+        "Yen CH",
+        "Nguyen MH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The University of Danang - VN-UK Institute for Research and Executive Education, 41 Le Duan Street, Hai Chau 1 ward, Hai Chau District, Danang city, Vietnam.",
+        "University of Health Sciences, Vietnam National University Ho Chi Minh City, YA1 Administrative Building, Hai Thuong Lan Ong Street, Dong Hoa Ward, Di An City, Binh Duong Province, 75308, Vietnam.",
+        "University of Health Sciences, Vietnam National University Ho Chi Minh City, YA1 Administrative Building, Hai Thuong Lan Ong Street, Dong Hoa Ward, Di An City, Binh Duong Province, 75308, Vietnam.",
+        "Vietnam National University Ho Chi Minh City, Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City, 70000, Vietnam.",
+        "Vietnam National University Ho Chi Minh City, Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City, 70000, Vietnam.",
+        "School of Biotechnology, Ho Chi Minh City International University, National University Ho Chi Minh City, Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City, 70000, Vietnam.",
+        "Graduate Institute of Natural Products, College of Pharmacy, Kaohsiung Medical University, No.100, Shih-Chuan 1st Road, Sanmin District, Kaohsiung City, 80708, Taiwan.",
+        "National Natural Product Libraries and High-Throughput Screening Core Facility, Kaohsiung Medical University, No.100, Shih-Chuan 1st Road, Sanmin District, Kaohsiung City, 80708, Taiwan.",
+        "University of Health Sciences, Vietnam National University Ho Chi Minh City, YA1 Administrative Building, Hai Thuong Lan Ong Street, Dong Hoa Ward, Di An City, Binh Duong Province, 75308, Vietnam. nmhien@uhsvnu.edu.vn.",
+        "Vietnam National University Ho Chi Minh City, Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City, 70000, Vietnam. nmhien@uhsvnu.edu.vn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nguyen, Bui Quoc Huy",
+        "short_name": "Nguyen BQH",
+        "identifiers": [],
+        "affiliations": [
+          "The University of Danang - VN-UK Institute for Research and Executive Education, 41 Le Duan Street, Hai Chau 1 ward, Hai Chau District, Danang city, Vietnam."
+        ]
+      },
+      {
+        "full_name": "Le, Nguyen Thien Han",
+        "short_name": "Le NTH",
+        "identifiers": [],
+        "affiliations": [
+          "University of Health Sciences, Vietnam National University Ho Chi Minh City, YA1 Administrative Building, Hai Thuong Lan Ong Street, Dong Hoa Ward, Di An City, Binh Duong Province, 75308, Vietnam."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Thi Yen Nhi",
+        "short_name": "Nguyen TYN",
+        "identifiers": [],
+        "affiliations": [
+          "University of Health Sciences, Vietnam National University Ho Chi Minh City, YA1 Administrative Building, Hai Thuong Lan Ong Street, Dong Hoa Ward, Di An City, Binh Duong Province, 75308, Vietnam.",
+          "Vietnam National University Ho Chi Minh City, Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City, 70000, Vietnam."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Hoang Khue Tu",
+        "short_name": "Nguyen HKT",
+        "identifiers": [],
+        "affiliations": [
+          "Vietnam National University Ho Chi Minh City, Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City, 70000, Vietnam.",
+          "School of Biotechnology, Ho Chi Minh City International University, National University Ho Chi Minh City, Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City, 70000, Vietnam."
+        ]
+      },
+      {
+        "full_name": "Yen, Chia-Hung",
+        "short_name": "Yen CH",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Institute of Natural Products, College of Pharmacy, Kaohsiung Medical University, No.100, Shih-Chuan 1st Road, Sanmin District, Kaohsiung City, 80708, Taiwan.",
+          "National Natural Product Libraries and High-Throughput Screening Core Facility, Kaohsiung Medical University, No.100, Shih-Chuan 1st Road, Sanmin District, Kaohsiung City, 80708, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Minh Hien",
+        "short_name": "Nguyen MH",
+        "identifiers": [],
+        "affiliations": [
+          "University of Health Sciences, Vietnam National University Ho Chi Minh City, YA1 Administrative Building, Hai Thuong Lan Ong Street, Dong Hoa Ward, Di An City, Binh Duong Province, 75308, Vietnam. nmhien@uhsvnu.edu.vn.",
+          "Vietnam National University Ho Chi Minh City, Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City, 70000, Vietnam. nmhien@uhsvnu.edu.vn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Dec 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/29 06:21",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [
+      "42192700",
+      "40877299",
+      "40183099"
+    ],
+    "refs": [
+      "38647086",
+      "38247494",
+      "37935248",
+      "37674886",
+      "37031208",
+      "36717440",
+      "36552553",
+      "36335764",
+      "36043942",
+      "34248833",
+      "33915987",
+      "33795749",
+      "33741451",
+      "33238435",
+      "32835911",
+      "32640524",
+      "32290267",
+      "32162523",
+      "31412289",
+      "30877063",
+      "29558939",
+      "29338970",
+      "29289692",
+      "28256516",
+      "27457280",
+      "27382417",
+      "27353885",
+      "26057936",
+      "25708189",
+      "24287781",
+      "23341755",
+      "22864849",
+      "22374609",
+      "19499576",
+      "18423384",
+      "16790436"
+    ],
+    "similar": [
+      "39732775",
+      "40333848",
+      "28746889",
+      "37630254",
+      "37392347",
+      "39880664",
+      "32024620",
+      "38762209",
+      "33406386",
+      "33166928",
+      "38104880",
+      "28801166",
+      "39706064",
+      "31167117",
+      "27312421",
+      "39556932",
+      "31412289",
+      "33359860",
+      "31482617",
+      "36326112",
+      "32156661",
+      "39603427",
+      "28024463",
+      "32032607",
+      "33571414",
+      "22686525",
+      "33656904",
+      "32947073",
+      "27045103",
+      "34732330",
+      "22476201",
+      "26721592",
+      "35851832",
+      "37441735",
+      "34415206",
+      "39862944",
+      "31599006",
+      "27472294",
+      "32866756",
+      "39523109",
+      "33114450",
+      "40008899",
+      "36800917",
+      "38479222",
+      "36930785",
+      "36086898",
+      "39864603",
+      "31283229",
+      "40089199",
+      "32347981",
+      "35323490",
+      "37039781",
+      "25918130",
+      "31279986",
+      "31349040",
+      "39689597",
+      "40163430",
+      "32860805",
+      "33922165",
+      "31092832",
+      "38885324",
+      "34176443",
+      "28502971",
+      "34012501",
+      "34278476",
+      "37503638",
+      "36634873",
+      "38354876",
+      "29717933",
+      "30793592",
+      "23333765",
+      "30876764",
+      "26878775",
+      "39800144",
+      "36819782",
+      "32284348",
+      "33186606",
+      "35669855",
+      "33645047",
+      "28912423",
+      "32776282",
+      "34299054",
+      "33502009",
+      "38149556",
+      "36292968",
+      "31270710",
+      "38664646",
+      "30861618",
+      "32004978",
+      "38198955",
+      "29966676",
+      "30692632",
+      "39277998",
+      "32275923",
+      "39965408",
+      "31874248",
+      "32161178",
+      "34619494",
+      "20951123",
+      "25827424"
+    ],
+    "review": [
+      "39732775",
+      "39880664",
+      "28801166",
+      "31482617",
+      "22686525",
+      "33656904",
+      "34732330",
+      "37441735",
+      "34415206",
+      "33114450",
+      "36800917",
+      "36930785",
+      "36086898",
+      "25918130",
+      "33922165",
+      "28502971",
+      "34012501",
+      "29717933",
+      "23333765",
+      "32284348",
+      "33186606",
+      "33645047"
+    ],
+    "pmc": [
+      "11682235"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-82559-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39732775/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

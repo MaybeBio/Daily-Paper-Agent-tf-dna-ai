@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "42510823",
+    "doi": "10.3390/genes17070783",
+    "title": "Mitotic Hub Gene Network in Colorectal Cancer: Integrated Transcriptomic, Protein-Level, and Clinical-Genomic Characterization of a Ten-Gene Signature."
+  },
+  "content": {
+    "abstract": "Background: Colorectal cancer (CRC) remains a heterogeneous disease, and improved biomarkers are needed to support prognostic assessment. This study aimed to characterize hub genes in CRC and evaluate whether a gene signature provides biologically meaningful and prognostic information in clinical-genomic models. Methods: We integrated three GEO microarray datasets (GSE110223, GSE110224, and GSE23878) to identify common differentially expressed genes using adjusted p<0.05 and mid R:log2FCmid R:>1. Hub genes and protein expression were identified through protein-protein interaction network analysis using maximal clique centrality and Human Protein Atlas, respectively. Prognostic relevance was evaluated in TCGA-COAD/READ using Kaplan-Meier analysis, multivariable Cox regression, Cox-derived prognostic indices, time-dependent ROC analysis, and regression-based machine learning for internal robustness. Principal component analysis (PCA) was used to derive a standardized PC1-based score from the 10-hub gene signature. Results: A ten-gene mitotic hub signature (TPX2, UBE2C, AURKA, NEK2, PRC1, CCNB1, CDK1, CEP55, FOXM1, and RRM2) was consistently upregulated across the three datasets and enriched for cell-cycle and mitotic pathways. Protein-level and survival analyses supported the biological relevance of several hub genes. In TCGA-COAD/READ, the signature showed limited standalone prognostic value and did not retain independent significance after adjustment for clinical variables, although it contributed modestly in integrated clinical-genomic models. PCA showed a one-dimensional signature, with PC1 capturing the dominant shared expression pattern. Gradient Boosting Regressor (R(2) = 0.8035, MSE = 0.0473) supported the internal robustness of the DEG-based expression pattern. Conclusions: The ten-gene mitotic hub signature represents a coherent CRC-related proliferative program with limited value as an isolated prognostic marker, but it may still be useful as part of integrated risk models that require external validation.",
+    "keywords": [
+      "bioinformatics",
+      "colorectal cancer",
+      "differentially expressed genes",
+      "machine learning",
+      "prognostic markers"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/genetics/pathology/metabolism",
+      "Gene Expression Regulation, Neoplastic/genetics",
+      "*Gene Regulatory Networks",
+      "*Transcriptome/genetics",
+      "Prognosis",
+      "Biomarkers, Tumor/genetics",
+      "Cell Cycle Proteins/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Microtubule-Associated Proteins/genetics",
+      "Aurora Kinase A/genetics",
+      "Ubiquitin-Conjugating Enzymes/genetics",
+      "NIMA-Related Kinases/genetics",
+      "*Mitosis/genetics",
+      "Ribonucleoside Diphosphate Reductase/genetics",
+      "Nuclear Proteins/genetics",
+      "Protein Interaction Maps/genetics",
+      "Forkhead Box Protein M1/genetics",
+      "CDC2 Protein Kinase/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kamal, Ebtihal",
+        "Moglad, Ehssan",
+        "Mohager, Samah O",
+        "Ahmed, Mehad",
+        "Aldoseri, Mobarak Mahfod",
+        "Suwayyid, Barakat A Al",
+        "Bawadood, Azizah Salim",
+        "Hamdan, Hamdan Z",
+        "Akbulut, Mikail"
+      ],
+      "short_names": [
+        "Kamal E",
+        "Moglad E",
+        "Mohager SO",
+        "Ahmed M",
+        "Aldoseri MM",
+        "Suwayyid BAA",
+        "Bawadood AS",
+        "Hamdan HZ",
+        "Akbulut M"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-6081-2615",
+        "ORCID: 0009-0008-6906-1553",
+        "ORCID: 0000-0002-8381-0679",
+        "ORCID: 0000-0001-9269-8239",
+        "ORCID: 0000-0002-6323-3288"
+      ],
+      "affiliations": [
+        "Department of Basic Medical Sciences, College of Medicine, Prince Sattam bin Abdulaziz University, Al-Kharj 16273, Saudi Arabia.",
+        "Department of Pharmaceutics, College of Pharmacy, Prince Sattam bin Abdulaziz University, Al-Kharj 16273, Saudi Arabia.",
+        "Department of Basic Medical Sciences, College of Medicine, Prince Sattam bin Abdulaziz University, Al-Kharj 16273, Saudi Arabia.",
+        "Department of Basic Medical Sciences, College of Medicine, Prince Sattam bin Abdulaziz University, Al-Kharj 16273, Saudi Arabia.",
+        "College of Medicine, Prince Sattam bin Abdulaziz University, Al-Kharj 16273, Saudi Arabia.",
+        "Department of Basic Medical Sciences, College of Medicine, Prince Sattam bin Abdulaziz University, Al-Kharj 16273, Saudi Arabia.",
+        "Department of Basic Medical Sciences, College of Medicine, Prince Sattam bin Abdulaziz University, Al-Kharj 16273, Saudi Arabia.",
+        "Department of Pathology, College of Medicine, Qassim University, P.O. Box 6655, Buraidah 51452, Saudi Arabia.",
+        "Department of Biology, Faculty of Science, Erciyes University, Kayseri 38280, Turkiye."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kamal, Ebtihal",
+        "short_name": "Kamal E",
+        "identifiers": [
+          "0009-0000-6081-2615"
+        ],
+        "affiliations": [
+          "Department of Basic Medical Sciences, College of Medicine, Prince Sattam bin Abdulaziz University, Al-Kharj 16273, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Moglad, Ehssan",
+        "short_name": "Moglad E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutics, College of Pharmacy, Prince Sattam bin Abdulaziz University, Al-Kharj 16273, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Mohager, Samah O",
+        "short_name": "Mohager SO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medical Sciences, College of Medicine, Prince Sattam bin Abdulaziz University, Al-Kharj 16273, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Ahmed, Mehad",
+        "short_name": "Ahmed M",
+        "identifiers": [
+          "0009-0008-6906-1553"
+        ],
+        "affiliations": [
+          "Department of Basic Medical Sciences, College of Medicine, Prince Sattam bin Abdulaziz University, Al-Kharj 16273, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Aldoseri, Mobarak Mahfod",
+        "short_name": "Aldoseri MM",
+        "identifiers": [],
+        "affiliations": [
+          "College of Medicine, Prince Sattam bin Abdulaziz University, Al-Kharj 16273, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Suwayyid, Barakat A Al",
+        "short_name": "Suwayyid BAA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medical Sciences, College of Medicine, Prince Sattam bin Abdulaziz University, Al-Kharj 16273, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Bawadood, Azizah Salim",
+        "short_name": "Bawadood AS",
+        "identifiers": [
+          "0000-0002-8381-0679"
+        ],
+        "affiliations": [
+          "Department of Basic Medical Sciences, College of Medicine, Prince Sattam bin Abdulaziz University, Al-Kharj 16273, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Hamdan, Hamdan Z",
+        "short_name": "Hamdan HZ",
+        "identifiers": [
+          "0000-0001-9269-8239"
+        ],
+        "affiliations": [
+          "Department of Pathology, College of Medicine, Qassim University, P.O. Box 6655, Buraidah 51452, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Akbulut, Mikail",
+        "short_name": "Akbulut M",
+        "identifiers": [
+          "0000-0002-6323-3288"
+        ],
+        "affiliations": [
+          "Department of Biology, Faculty of Science, Erciyes University, Kayseri 38280, Türkiye."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2026 Jul 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/28 06:37",
+    "fetched_at": "2026-10-02 02:42:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40450791",
+      "39382813",
+      "38553459",
+      "38393891",
+      "38295766",
+      "37760539",
+      "37389063",
+      "36672877",
+      "36370105",
+      "35406504",
+      "34743578",
+      "33920293",
+      "33848627",
+      "31258721",
+      "30477151",
+      "29776402",
+      "26818619",
+      "26779436",
+      "25613900",
+      "25605792",
+      "25287128",
+      "24803826",
+      "24556998",
+      "23586463",
+      "22864622",
+      "22588877",
+      "22323288",
+      "18843382",
+      "16790497",
+      "14597658",
+      "12857871",
+      "11752295",
+      "11742988"
+    ],
+    "similar": [
+      "42510823",
+      "38393891",
+      "30654001",
+      "36319976",
+      "41872824",
+      "30132881",
+      "40419032",
+      "41569184",
+      "34187556",
+      "33029085",
+      "31724326",
+      "33630978",
+      "42249833",
+      "41804278",
+      "34406843",
+      "37212262",
+      "31871312",
+      "30588191",
+      "41062962",
+      "34814332",
+      "32677673",
+      "41693435",
+      "34364366",
+      "34042518",
+      "30336768",
+      "33376727",
+      "31805030",
+      "38688978",
+      "34789836",
+      "38143740",
+      "34308980",
+      "29973580",
+      "34072728",
+      "35178291",
+      "34794761",
+      "41496017",
+      "41436831",
+      "35490318",
+      "31822116",
+      "32707305",
+      "32309427",
+      "41907458",
+      "31886176",
+      "23357462",
+      "32104700",
+      "41947260",
+      "41158841",
+      "32598242",
+      "33946043",
+      "37740761",
+      "40320470",
+      "38914609",
+      "40454893",
+      "41342434",
+      "25632068",
+      "32578582",
+      "32756534",
+      "36267311",
+      "41562081",
+      "40640592",
+      "31987036",
+      "31893510",
+      "40438100",
+      "35140706",
+      "41670819",
+      "34825846",
+      "31173250",
+      "34344319",
+      "40763562",
+      "42510873",
+      "42332846",
+      "31087508",
+      "34390411",
+      "34257537",
+      "38828693",
+      "36834602",
+      "40289088",
+      "40828203",
+      "39470543",
+      "42244292",
+      "35634481",
+      "33892811",
+      "36820595",
+      "32064687",
+      "39282247",
+      "39396837",
+      "41567198",
+      "41367897",
+      "41485251",
+      "35680454",
+      "36385010",
+      "40681545",
+      "33025856",
+      "32922202",
+      "31545466",
+      "41194017",
+      "32103339",
+      "32127012",
+      "41822495",
+      "29608985"
+    ],
+    "review": [
+      "42510823",
+      "37212262"
+    ],
+    "pmc": [
+      "13408991"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes17070783",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42510823/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KRT+Group+A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1236",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

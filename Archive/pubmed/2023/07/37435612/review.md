@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods descriptions, database implementation, clustering algorithm description, navigation, conclusion, and supporting statements)
+- **Assessment boundary** Scientific and technical evaluation of the described database, the proposed structural clustering algorithm, and the claims made regarding comprehensiveness, novelty, and utility. No evaluation of the live web application or code repositories was possible beyond what is described in the text.
+- **Shared manuscript claim summary** The authors present CBP60-DB, a plant kingdom-wide structural and bioinformatic database of the CALMODULIN-BINDING PROTEIN 60 (CBP60) family, containing 1052 gene homologs, 2376 transcripts, and 1996 unique proteins across 62 genomes. They employed ColabFold (an AlphaFold2 derivative) for structure prediction and developed a novel clustering algorithm based on pairwise structural comparison metrics (e.g., TM-align, RMSD) combined with UMAP dimensionality reduction for visualization. The authors claim this algorithm is novel, simple, accurate, easily reproducible, and facilitates ortholog selection and functional inference.
+- **Visible evidence base** Full manuscript text including abstract, introduction, database implementation details, clustering algorithm description, data archival list, and navigation guide. No figures, tables, supplementary files, or code repositories were provided for inspection.
+- **Missing materials affecting confidence** Figures 1-4 (including the structural cluster visualization, index page, search page, and protein information page screenshots), Table S1 (MUSCLE alignment parameters), the Google Colaboratory notebook, the GitHub repository, the live database website, and any validation or benchmarking data for the clustering algorithm. Without these, the functional claims and the performance of the algorithm cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful community resource: a structural database of the CBP60 protein family across plant species, built using AlphaFold-based predictions. The scope of the dataset (62 genomes, 1996 proteins) is substantial and could serve as a foundation for comparative studies of this important transcription factor family. However, the manuscript is largely descriptive and lacks critical validation. The central methodological claim, a "novel structural clustering algorithm," is presented without benchmarking, quantitative evaluation, or comparison to existing structural clustering methods. The biological insights derived from the database are not demonstrated beyond the assertion that the resource exists. The writing is clear but the scientific case for novelty and utility is not established from the provided evidence.
+- **Who would be interested in the results, and why** Plant molecular biologists and pathologists studying CBP60 family members, salicylic acid signaling, and plant immunity would find the database a convenient starting point for identifying orthologs and generating structural hypotheses. Researchers interested in applying AlphaFold predictions to large protein families and in developing structural clustering tools may also find the approach of interest, provided the algorithm is properly validated.
+- **Major strengths**
+  - The database addresses a genuine gap: a kingdom-wide structural resource for a biologically important but understudied protein family outside Arabidopsis.
+  - The use of ColabFold for large-scale structure prediction is practical and appropriate for the scale attempted.
+  - The authors provide multiple access routes (web interface, API, GitHub), which enhances usability and reproducibility.
+  - The integration of external tools (DNA-Binding Residues, Eukaryotic Linear Motifs) adds functional context to the structural data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / validation
+  - **Claim pointer** "we have generated a novel clustering visualization algorithm to interrogate kingdom-wide structural similarities for more efficient inference of conserved functions across various plant taxa" and "The proposed algorithm is simple, accurate, and can be easily reproduced on any modern device."
+  - **Evidence pointer** Section "CLUSTERING PROTEINS BY STRUCTURAL SIMILARITY"; Figure 1 (referenced but not provided)
+  - **Concern** The clustering algorithm is described conceptually but no quantitative validation is presented. There is no benchmark against known structural classifications, no comparison to existing methods (e.g., DALI, Foldseek, or sequence-based clustering), no assessment of cluster stability or sensitivity to parameters, and no measure of how well the clusters correspond to known functional groups (e.g., CBP60g vs. SARD1 clades). The claim of "accuracy" is unsupported.
+  - **Why it matters** The algorithm is presented as a central novelty of the paper. Without validation, readers cannot assess whether the clusters are biologically meaningful or whether the tool provides any advantage over existing approaches. This undermines the core scientific contribution.
+  - **Resolution test** Provide a benchmark section demonstrating that the algorithm recovers known functional or phylogenetic groupings within the CBP60 family, and compare its performance to at least one established structural clustering or classification method. Include quantitative metrics (e.g., adjusted Rand index, silhouette score) and a description of parameter choices and their influence on results.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / biological insight
+  - **Claim pointer** "we present a plant kingdom-wide identification of this important protein family in a user-friendly AlphaFold-anchored database, representing a novel and significant resource for the broader plant biology community."
+  - **Evidence pointer** Abstract; Section "CONCLUSION AND OUTLOOK"
+  - **Concern** The manuscript does not demonstrate any biological insight derived from the database. There is no analysis of structural conservation across species, no identification of novel subfamilies or structural features, no discussion of how the predicted structures inform function beyond what is already known from Arabidopsis. The database is described as a resource, but its utility is asserted rather than shown.
+  - **Why it matters** A database paper should provide at least one example of how the resource can be used to generate or test a biological hypothesis. Without such a demonstration, the significance of the resource to the broader community remains speculative.
+  - **Resolution test** Include a case study, e.g., a structural comparison of CBP60g/SARD1 orthologs across diverse species, highlighting conserved or divergent structural features that correlate with known functional differences or that suggest new hypotheses. This would substantiate the claim of utility.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / data quality
+  - **Claim pointer** "we have created CBP60-DB ... that comprehensively characterized 1052 CBP60 gene homologs (encoding 2376 unique transcripts and 1996 unique proteins) across 62 phylogenetically diverse genomes in the plant kingdom."
+  - **Evidence pointer** Section "PLANT KINGDOM-WIDE SEQUENCE COLLECTION AND ALPHafold-BASED PROTEIN FOLDING"; Data archival list
+  - **Concern** The criteria for inclusion of the 62 genomes are not described. It is unclear whether these represent a balanced phylogenetic sampling, a selection based on genome availability, or another criterion. Additionally, the completeness of the CBP60 family identification (e.g., how orthologs were defined, what bit-score or E-value thresholds were used) is not stated. The term "comprehensively characterized" is therefore difficult to evaluate.
+  - **Why it matters** The value of a comparative database depends on the quality and representativeness of the underlying sequence set. Without clear inclusion criteria and orthology assignment methods, users cannot judge whether the absence of a CBP60 in a given species is biologically meaningful or an artifact of the pipeline.
+  - **Resolution test** Specify the genome selection criteria, the orthology detection method (e.g., BLAST, HMMER, OrthoFinder), and the thresholds used. Provide a supplementary table listing all species and the number of CBP60 genes identified per species.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / reproducibility
+  - **Claim pointer** "The predicted structures are available in the protein databank (PDB) and the newer macromolecular Crystallographic Information File (mmCIF) file formats."
+  - **Evidence pointer** Section "DATA ARCHIVAL"
+  - **Concern** The manuscript states that structures are available in PDB and mmCIF formats, but these are described as "predicted protein crystal structure" in the data archival list. This is a misnomer; AlphaFold predictions are not crystal structures. Additionally, no details are provided on the ColabFold parameters used (e.g., number of recycles, model type, whether templates were used), which are essential for reproducibility of the structure predictions.
+  - **Why it matters** Reproducibility is a core requirement for a resource paper. Incorrect terminology and missing parameter details could mislead users and prevent replication of the predictions.
+  - **Resolution test** Correct the terminology to "predicted structures." Provide a complete list of ColabFold parameters used for all predictions, and state whether any filtering or quality control (e.g., pLDDT thresholds) was applied before inclusion in the database.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, paragraph on AlphaFold2 and ColabFold
+  - **Evidence pointer** Section "INTRODUCTION"
+  - **Issue** The distinction between AlphaFold2 and ColabFold is explained, but the explanation assumes familiarity with terms like "recycling steps" and "MMseqs2" without defining them for a general plant biology audience.
+  - **Required correction** Briefly define these terms or provide a one-sentence explanation of why they matter for prediction quality.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness / clarity
+  - **Affected element** Clustering algorithm description
+  - **Evidence pointer** Section "CLUSTERING PROTEINS BY STRUCTURAL SIMILARITY"
+  - **Issue** The description of the algorithm states that a "feature tensor" is produced from pairwise comparisons and then flattened before UMAP. The exact nature of the features (e.g., TM-score values, RMSD values, or both) and how they are combined is not specified.
+  - **Required correction** Provide a precise mathematical description of the feature tensor construction, including which metrics are used and how they are normalized or weighted.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Database implementation section
+  - **Evidence pointer** Section "DATABASE IMPLEMENTATION"
+  - **Issue** The choice of the Go programming language and the use of an internal hash table are justified, but the performance comparison to a traditional DBMS is only qualitative. A simple benchmark (e.g., query response time) would strengthen the claim.
+  - **Required correction** Add a brief performance comparison or state that no formal benchmark was conducted and that the choice was based on simplicity and scalability needs.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance / context
+  - **Affected element** Introduction and conclusion
+  - **Evidence pointer** Section "INTRODUCTION"; Section "CONCLUSION AND OUTLOOK"
+  - **Issue** The manuscript cites the recent phylogenetic analysis of the CBP60 family (Zheng et al., 2021) but does not clearly state what new information the structural database adds beyond that sequence-based analysis.
+  - **Required correction** Add a sentence explicitly contrasting the sequence-based phylogeny with the structural perspective offered by CBP60-DB, and state what types of questions the structural data can address that sequences cannot.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of validation for the clustering algorithm.
+  - R1-M2: No demonstrated biological use case or insight from the database.
+  - R1-M3: Unspecified sequence inclusion and orthology criteria.
+  - R1-M4: Missing ColabFold parameters and incorrect terminology ("crystal structure").
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The application of AlphaFold-based structure prediction to a specific protein family across a kingdom is not entirely new, but the scale and the specific focus on CBP60 proteins are original. The clustering algorithm is claimed as novel, but without validation its originality cannot be assessed as a contribution.
+  - **Scientific importance** Moderate. The CBP60 family is important for plant immunity, and a structural resource could accelerate research. However, the manuscript does not demonstrate that the database yields new biological understanding, which limits its immediate importance.
+  - **Interdisciplinary readership** Limited. The database and algorithm may appeal to computational biologists and plant pathologists, but the manuscript does not frame the work in a way that would attract a broader readership. The lack of a compelling biological example reduces cross-disciplinary appeal.
+  - **Technical soundness** Weak. The core algorithmic claim is unvalidated, and the sequence-to-structure pipeline lacks reproducibility details. The database implementation is described clearly, but the scientific methodology is not rigorously supported.
+  - **Readability for nonspecialists** Adequate. The writing is clear and the structure is logical, but some technical terms (e.g., MMseqs2, recycling steps) are not explained for a general audience. The absence of figures in the provided material makes it difficult to assess the visual clarity of the database interface.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially useful resource, but the central claims of algorithmic novelty and database utility are not supported by the evidence presented. Substantial revisions, including validation of the clustering algorithm, a demonstrated biological use case, and full methodological transparency, are required before the case is made.
+
+## Risk / unsupported claims
+- The claim that the clustering algorithm is "novel" and "accurate" is unsupported; no comparison to existing methods or quantitative evaluation is provided.
+- The claim that the database enables "more efficient inference of conserved functions" is not demonstrated; no example of functional inference is given.
+- The claim of "comprehensive" characterization of the CBP60 family is not fully assessable without details on genome selection and orthology detection criteria.
+- The statement that structures are available in "protein databank (PDB)" format could be misinterpreted as deposition in the Protein Data Bank repository; the text should clarify that these are local files in PDB format, not deposited entries.
+- The use of the term "predicted protein crystal structure" is inaccurate and should be corrected to "predicted protein structure."

@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The study evaluates twenty Bangladeshi medicinal plant extracts for antibiofilm activity against *Staphylococcus aureus* and *Pseudomonas aeruginosa*, identifies active phytochemicals from five best-performing plants, and uses molecular docking and molecular dynamics simulation to predict interactions with SarA and LasR. The authors conclude that epicatechin and its derivative EEE are promising scaffolds for antibiofilm agent development.
+- **Visible evidence base** Abstract text only; no experimental details, numerical datasets, structural coordinates, or simulation parameters provided
+- **Missing materials affecting confidence** Full methods, raw inhibition data, dose-response curves, compound purity and sourcing information, docking validation metrics, MD simulation convergence criteria, MMPBSA calculation details, statistical analyses, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible workflow combining in vitro screening with computational target prediction. However, the evidence base available for review is limited to the abstract, which precludes verification of methodological rigor, data quality, and the validity of the central conclusions. The claim that epicatechin and EEE can serve as scaffolds for antibiofilm agent development is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in antimicrobial drug discovery, natural product chemistry, and computational biology would find the combination of phenotypic screening and in silico target prediction of interest. The focus on biofilm-related regulators SarA and LasR addresses an important mechanism in antibiotic resistance, which may attract investigators working on alternative therapeutic strategies.
+- **Major strengths** The study addresses a clinically relevant problem, namely biofilm-associated antibiotic resistance. The integration of in vitro screening with computational target identification is a logical and potentially efficient approach. The inclusion of molecular dynamics simulation beyond static docking is commendable as it attempts to assess complex stability.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence
+  - **Claim pointer** The abstract states that *Cassia fistula* and *Ananas comosus* showed greater than or equal to 75% inhibition of biofilm formation, and that specific compounds showed the best predictive binding affinities for SarA and LasR.
+  - **Evidence pointer** Abstract Results section; no figures or tables provided
+  - **Concern** The abstract reports inhibition percentages and binding affinities without any indication of experimental replicates, statistical significance, or variability. No dose-response information is provided, and it is unclear whether the reported inhibition values represent maximum effects or effects at a single concentration. Similarly, docking scores are presented as single values without standard deviations or validation against known inhibitors.
+  - **Why it matters** Without measures of variability and statistical testing, the reported differences between plant extracts and compounds cannot be distinguished from experimental noise. The absence of dose-response data prevents assessment of potency and efficacy, which are essential for any claim of therapeutic potential.
+  - **Resolution test** Provide full experimental details including number of replicates, statistical tests used, dose-response curves with IC50 or minimum inhibitory concentration values, and confidence intervals for all reported inhibition and binding affinity data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational validation
+  - **Claim pointer** The abstract claims that EEE exhibited a stable ligand-protein complex with SarA in a 200 ns MD simulation with an MMPBSA binding energy of -39.899 kJ/mol, and that epicatechin showed the most stable complex with LasR with an MMPBSA binding energy of -63.717 kJ/mol.
+  - **Evidence pointer** Abstract Results section; no simulation details provided
+  - **Concern** The abstract provides no information on the criteria used to define stability, such as root-mean-square deviation, root-mean-square fluctuation, or hydrogen bond occupancy over the simulation trajectory. The MMPBSA values are presented without error estimates or comparison to control systems. It is also unclear whether the docking poses used as starting points for MD were validated or whether the simulations reached equilibrium.
+  - **Why it matters** Molecular dynamics results are only meaningful when convergence and stability are demonstrated with appropriate metrics. Without these, the claim of a stable complex is unsupported. MMPBSA calculations are known to be sensitive to parameter choices and trajectory length, and single values without error bars cannot support comparative conclusions.
+  - **Resolution test** Provide RMSD and RMSF plots, hydrogen bond analyses, convergence assessments, and MMPBSA calculations with standard deviations from multiple independent simulations or trajectory blocks. Include comparisons with negative control ligands or known non-binders.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Compound identification and relevance
+  - **Claim pointer** The abstract identifies specific phytochemicals from the plant extracts and concludes that epicatechin and EEE could be used as scaffolds for new antibiofilm agents.
+  - **Evidence pointer** Abstract Results and Conclusion sections; no compound identification methodology provided
+  - **Concern** The abstract does not describe how the phytochemicals were identified or quantified in the plant extracts. It is unclear whether these compounds were isolated, detected by analytical chemistry, or merely selected from literature reports. The connection between the in vitro activity of crude extracts and the specific compounds tested in silico is not established.
+  - **Why it matters** The central conclusion depends on the assumption that the identified compounds are present in the active extracts and are responsible for the observed activity. Without analytical evidence linking the compounds to the extracts, the in silico results may be irrelevant to the experimental findings.
+  - **Resolution test** Provide analytical data such as LC-MS or HPLC profiles demonstrating the presence and quantity of the identified compounds in the active extracts. If compounds were not detected, clearly state that the computational work is exploratory and not directly linked to the extract activity.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract Background and Objective
+  - **Evidence pointer** Abstract Background and Objective sections
+  - **Issue** The abstract does not specify the concentration range tested for the plant extracts, nor does it clarify whether the inhibition percentages refer to biofilm formation or biofilm eradication.
+  - **Required correction** Specify the assay type, concentration range, and whether the measured activity is preventive or eradicative.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract Methods
+  - **Evidence pointer** Abstract Methods section
+  - **Issue** The abstract mentions PyRx and GROMACS but does not state the docking scoring function, force field parameters, or water model used in the simulations.
+  - **Required correction** Include key computational parameters in the abstract or indicate that full details are available in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Abstract Conclusion
+  - **Evidence pointer** Abstract Conclusion section
+  - **Issue** The conclusion states that epicatechin and EEE could be used as scaffolds, but the abstract does not discuss any potential limitations, such as the lack of experimental validation of the computational predictions or the absence of cytotoxicity data.
+  - **Required correction** Add a sentence acknowledging that the computational predictions require experimental validation and that no toxicity or bioavailability data are presented.
+
+## Risk / unsupported claims
+- The claim that *Cassia fistula* and *Ananas comosus* showed greater than or equal to 75% inhibition of biofilm formation is unsupported without replicate data and statistical analysis.
+- The claim that specific compounds showed the best predictive binding affinity for SarA and LasR is unsupported without validation of the docking protocol and comparison to known binders.
+- The claim that EEE and epicatechin formed stable complexes with SarA and LasR, respectively, is unsupported without MD convergence metrics and error estimates for MMPBSA values.
+- The conclusion that epicatechin and EEE could be used as scaffolds for antibiofilm agent development is not established from the provided evidence, as the link between extract activity and the specific compounds is not demonstrated.
+- The relevance of the computational targets SarA and LasR to the observed antibiofilm activity is not experimentally validated.

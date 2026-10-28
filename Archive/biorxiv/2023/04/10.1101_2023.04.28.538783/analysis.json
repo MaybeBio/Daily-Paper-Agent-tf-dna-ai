@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.04.28.538783",
+  "title": "Uncovering Co-regulatory Modules and Gene Regulatory Networks in the Heart through Machine Learning-based Analysis of Large-scale Epigenomic Data",
+  "authors": "Vahab N; Bonu T; Kuhlmann L; Ramialison M; Tyagi S",
+  "journal": "bioRxiv",
+  "published_date": "2023-04-28",
+  "window": {
+    "start": "2023-04-24",
+    "end": "2023-04-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用机器学习分析大规模表观基因组数据预测转录因子共结合模块与基因调控网络，虽涉及TF-DNA结合位点预测，但缺乏三维互作建模与动态机制研究，方法可迁移至TF-DNA互作课题。",
+  "abstract": "The availability of large scale epigenomic data from different cell types and conditions has provided valuable information to evaluate and learn features that predict co-binding of transcription factors (TF). However, previous attempts to develop models for predicting motif cooccurrence were not scalable for global analysis of any combination of motifs or cross-species predictions. Further, mapping co-regulatory modules (CRM) to their gene regulatory networks (GRN) is crucial in understanding the underlying function. Currently, there is no comprehensive pipeline to locate CRM and GRN on a large scale with speed and accuracy. In this study, we analyzed and evaluated different TF binding characteristics that would facilitate co-binding with biological significance to identify all possible clusters of co-binding TFs. We curated the UniBind database, which contains ChIP-Seq data from over 1983 samples and 232 TFs, and implemented two machine learning models to predict CRMs and potential regulatory networks they operate on. We narrowed our focus to study heart related regulatory motifs. Our findings highlight the importance of the NKX family of transcription factors in cardiac development and provide potential targets for further investigation in cardiac disease.",
+  "abstract_zh": "不同细胞类型和条件下大规模表观基因组数据的可用性，为评估和学习预测转录因子（TF）共结合的特征提供了宝贵信息。然而，先前开发预测基序共现模型的尝试，在全局分析任意基序组合或跨物种预测方面缺乏可扩展性。此外，将共调控模块（CRM）映射至其基因调控网络（GRN）对于理解其潜在功能至关重要。目前，尚无综合流程能够大规模、快速且准确地定位CRM和GRN。在本研究中，我们分析并评估了不同TF结合特征，这些特征有助于促进具有生物学意义的共结合，以识别所有可能的共结合TF簇。我们整理了UniBind数据库，其中包含来自1983多个样本和232个TF的ChIP-Seq数据，并实施了两种机器学习模型来预测CRM及其可能作用的调控网络。我们将研究重点缩小至心脏相关调控基序。我们的发现强调了NKX转录因子家族在心脏发育中的重要性，并为心脏疾病的进一步研究提供了潜在靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.04.28.538783",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.04.28.538783",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.04.28.538783/index.html"
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report molecular dynamics (MD) simulations of a cGAS-DNA monomer complex (cGAS(1)-DNA(1)) in which DNA engages both DNA-binding sites as seen in the dimeric complex (cGAS(2)-DNA(2)), with an immature active site. Energetic analyses using MM/GBSA suggest that two monomers are slightly less stable than the dimer and that a significant energy barrier exists for dimer formation from two monomers, providing thermodynamic and kinetic explanations for the experimentally observed unfavorable oligomerization at low cGAS and DNA concentrations.
+- **Visible evidence base** Abstract text only; no simulation details, force field parameters, convergence criteria, energetic decomposition, or experimental comparison data are provided
+- **Missing materials affecting confidence** Full methods, simulation setup, force field validation, convergence analysis, MM/GBSA calculation details, error estimates, structural figures, energetic tables, and any comparison with experimental data beyond the cited observation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing a relevant question in cGAS activation, namely the structural and energetic basis for length- and concentration-dependent oligomerization. However, the claims are stated with insufficient methodological detail and quantitative support to be evaluated from the supplied material. The central energetic conclusion, that two monomers are "slightly less stable" than the dimer and that a "significant energy barrier" exists, is presented without numerical values, error bars, or convergence evidence. The link to the experimental observation is qualitative and lacks a direct quantitative comparison. The work may be of interest to the structural biology and innate immunity communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying cGAS activation mechanisms, nucleic acid sensing, liquid-liquid phase separation in innate immunity, and computational biophysicists interested in protein-DNA interaction energetics. The proposed monomeric intermediate and its energetic relationship to the dimer could inform models of cGAS activation thresholds.
+- **Major strengths** The study addresses a specific and mechanistically important gap in cGAS biology, namely the structural state of the monomeric complex and the energetic cost of dimerization. The use of MD and MM/GBSA is appropriate for the question. The abstract clearly states the proposed structural finding (DNA engaging both binding sites in the monomer) and the energetic interpretation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Energetic analysis indicates that two cGAS(1)-DNA(1) complexes are just slightly less stable than the cGAS(2)-DNA(2) complex and there exists a significant energy barrier for the formation of the cGAS(2)-DNA(2) complex from two cGAS(1)-DNA(1) complexes"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no numerical values for the relative stabilities or the energy barrier, no error estimates, and no indication of how many independent simulations or replicas were performed. MM/GBSA results are known to be sensitive to the choice of internal dielectric constant, entropy contributions, and the conformational ensemble sampled. Without these details, the claim of "slightly less stable" and "significant energy barrier" cannot be assessed for statistical or methodological robustness.
+  - **Why it matters** The central conclusion of the paper rests on the quantitative reliability of the energetic comparison. If the energy difference is within the typical error of MM/GBSA calculations (often several kcal/mol), the claim of "slightly less stable" may not be meaningful. Similarly, the existence of a "significant energy barrier" requires a defined reaction coordinate and sampling that demonstrates the barrier is not an artifact of insufficient sampling or poor convergence.
+  - **Resolution test** Provide the mean and standard deviation of the MM/GBSA binding free energies for the monomer and dimer complexes from at least three independent simulations, along with a description of the entropy treatment and a convergence analysis (e.g., block averaging or time evolution of the energy). For the barrier, provide a free energy profile along a defined dimerization coordinate with error bars and evidence of adequate sampling.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "which provides thermodynamic and kinetic explanations for an experimental observation that cGAS-DNA oligomerization is unfavored in low concentration of cGAS and DNA"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The link between the computed energetics and the experimental observation is qualitative. The abstract does not specify the experimental conditions (e.g., DNA length, salt concentration, protein concentration range) under which oligomerization is unfavored, nor does it show that the computed free energy difference and barrier are quantitatively consistent with the concentration dependence. A "slightly less stable" monomer and a "significant barrier" could explain the observation, but many other factors (e.g., electrostatic screening, DNA length effects, conformational entropy) could also contribute. The claim of providing an "explanation" is therefore overstated without a direct quantitative comparison.
+  - **Why it matters** The paper's contribution to the field depends on whether the computational results can be meaningfully connected to experimental behavior. A qualitative statement of consistency is insufficient to establish that the proposed mechanism is the correct or dominant one.
+  - **Resolution test** Provide a quantitative comparison, such as a calculated equilibrium constant for dimerization from the free energy difference and a comparison with the experimental concentration threshold. Alternatively, perform simulations at multiple DNA lengths or salt concentrations and show that the trend in computed stability matches the experimental trend.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "we report the structure of the cGAS-DNA monomer (the cGAS(1)-DNA(1) complex), in which the DNA binds simultaneously to the major parts of two DNA-binding sites as observed in the cGAS-DNA dimer (the cGAS(2)-DNA(2) complex) and its active site is largely immature"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The structural claim is presented as a finding, but the abstract does not describe how the monomeric complex was generated (e.g., starting from the dimer and removing one monomer, or assembling from free components), how the stability of this monomeric state was assessed (e.g., RMSD, contact persistence), or how "largely immature" was defined. Without these details, the reader cannot judge whether the observed monomer is a stable, relevant state or an artifact of the simulation setup.
+  - **Why it matters** The structural description is the foundation for the energetic analysis. If the monomeric complex is not a well-defined, converged state, the subsequent energetic comparison is compromised.
+  - **Resolution test** Provide a description of the simulation setup, the criteria used to define the monomeric complex as stable (e.g., RMSD plateau, persistent contacts), and a comparison of the active site geometry with the known active state. Include representative structural figures in the full manuscript.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses the terms "cGAS(1)-DNA(1)" and "cGAS(2)-DNA(2)" without defining the notation. A reader unfamiliar with the field may not immediately understand that these denote the stoichiometry of the complexes.
+  - **Required correction** Define the notation at first use, e.g., "the 1:1 cGAS-DNA complex (cGAS(1)-DNA(1))" and "the 2:2 complex (cGAS(2)-DNA(2))".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not specify the force field, water model, simulation length, or temperature/pressure conditions. These are standard details expected in a computational study abstract.
+  - **Required correction** Add a brief statement of the simulation protocol, e.g., "using the AMBER ff14SB force field with TIP3P water, 500 ns simulations at 310 K and 1 atm."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state the DNA length used in the simulations. Since cGAS activation is length-dependent, this is a key parameter.
+  - **Required correction** Specify the DNA length and sequence used in the simulations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative energetic data and error analysis), R1-M2 (qualitative link to experiment), R1-M3 (insufficient structural validation of the monomeric state)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The proposed monomeric intermediate with dual-site DNA binding is a potentially novel structural insight, but the abstract does not provide enough detail to distinguish it from previously proposed models. The originality is plausible but not fully demonstrated.
+  - **Scientific importance** The question of how cGAS oligomerization is regulated by DNA concentration is of significant interest to the innate immunity field. However, the importance of the specific computational finding is diminished by the lack of quantitative connection to experimental data.
+  - **Interdisciplinary readership** The topic bridges structural biology, immunology, and computational biophysics. The abstract is accessible to these communities, but the lack of methodological detail limits its utility to computational readers and the lack of quantitative experimental comparison limits its appeal to experimentalists.
+  - **Technical soundness** The choice of MD and MM/GBSA is appropriate, but the abstract does not provide sufficient evidence of convergence, error estimation, or methodological rigor. The technical soundness cannot be confirmed from the supplied material.
+  - **Readability for nonspecialists** The abstract is generally clear but uses undefined notation and omits key parameters (DNA length, simulation conditions). It is readable but not fully self-contained.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially interesting computational study, but the central energetic claims are not quantitatively supported, the structural finding is not validated, and the link to experiment is qualitative. The paper may become publishable after substantial revision and addition of methodological and quantitative details, but the case is not made in the current form.
+
+## Risk / unsupported claims
+- The claim that the monomeric complex has an "active site that is largely immature" is unsupported without a defined metric or comparison to the active state.
+- The claim that two monomers are "slightly less stable" than the dimer is unsupported without numerical free energy values and error estimates.
+- The claim of a "significant energy barrier" for dimer formation is unsupported without a defined reaction coordinate and free energy profile.
+- The claim that the results provide "thermodynamic and kinetic explanations" for the experimental observation is unsupported without a quantitative comparison to experimental conditions and data.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.01.526585",
+  "title": "PLANET: A Multi-Objective Graph Neural Network Model for Protein–Ligand Binding Affinity Prediction",
+  "authors": "Xiangying Zhang; Haotian Gao; Haojie Wang; Zhihang Chen; Zhe Zhang; Xinchong Chen; Yan Li; Yifei Qi; Renxiao Wang",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-03",
+  "window": {
+    "start": "2023-01-30",
+    "end": "2023-02-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出多目标图神经网络PLANET预测蛋白-配体结合亲和力，虽非TF-DNA体系，但蛋白-配体互作建模与图神经网络方法可迁移至TF-DNA结合预测，具有一定借鉴价值。",
+  "abstract": "Predicting protein-ligand binding affinity is a central issue in drug design. Various deep learning models have been developed in recent years to tackle this issue, but many of them merely focus on reproducing the binding affinity of known binders. In this study, we have developed a graph neural network model called PLANET (Protein-Ligand Affinity prediction NETwork). This model takes the graph-represented 3D structure of the binding pocket on the target protein and the 2D chemical structure of the ligand molecule as input, and it was trained through a multi-objective process with three related tasks, including deriving the protein–ligand binding affinity, protein–ligand contact map, and intra-ligand distance matrix. To serve those tasks, a large number of decoy non-binders were selected and added to the standard PDBbind data set. When tested on the CASF-2016 benchmark, PLANET exhibited a scoring power comparable to other deep learning models that rely on 3D protein–ligand complex structures as input. It also showed notably better performance in virtual screening trials on the DUD-E and LIT-PCBA benchmark. In particular, PLANET achieved comparable accuracy on LIT-PCBA as the conventional docking program Glide. However, it only took less than 1% of the computation time required by Glide to finish the same job because it did not perform exhaustive conformational sampling. In summary, PLANET exhibited a decent performance in binding affinity prediction as well as virtual screening, which makes it potentially useful for drug discovery in practice.",
+  "abstract_zh": "预测蛋白质-配体结合亲和力是药物设计中的核心问题。近年来，已开发出多种深度学习模型来解决此问题，但其中许多仅专注于重现已知结合物的结合亲和力。在本研究中，我们开发了一种名为PLANET（蛋白质-配体亲和力预测网络）的图神经网络模型。该模型以目标蛋白质结合口袋的图表示三维结构和配体分子的二维化学结构为输入，并通过一个多目标过程进行训练，该过程包含三个相关任务，即推导蛋白质-配体结合亲和力、蛋白质-配体接触图以及配体内部距离矩阵。为服务于这些任务，我们从标准PDBbind数据集中选取并添加了大量诱饵非结合物。在CASF-2016基准测试中，PLANET展现出的评分能力与依赖三维蛋白质-配体复合物结构作为输入的其他深度学习模型相当。在DUD-E和LIT-PCBA基准的虚拟筛选试验中，它也表现出显著更优的性能。特别是，PLANET在LIT-PCBA上达到了与传统对接程序Glide相当的准确性。然而，由于它未进行详尽的构象采样，完成相同任务仅需不到Glide计算时间的1%。总之，PLANET在结合亲和力预测和虚拟筛选方面均表现出良好性能，这使其在实际药物发现中具有潜在应用价值。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.01.526585",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.01.526585",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.01.526585/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41049163",
+  "title": "Automated detection and characterization of small cell lung cancer liver metastasis on computed tomography.",
+  "authors": "Ty, Sophia; Haque, Fahmida; Desai, Parth; Takahashi, Nobuyuki; Chaudhary, Usamah; Choyke, Peter L; Thomas, Anish; Turkbey, Baris; Harmon, Stephanie A",
+  "journal": "Diagnostic and interventional radiology (Ankara, Turkey)",
+  "published_date": "2025-10-06",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度学习分割CT肝转移灶并基于影像组学分类小细胞肺癌神经内分泌表型，属纯医学影像AI应用，无蛋白质-DNA互作或TF-DNA结合建模内容。",
+  "abstract": "PURPOSE: Small cell lung cancer (SCLC) is an aggressive disease with diverse phenotypes that reflect the heterogeneous expression of tumor-related genes. Recent studies have shown that neuroendocrine (NE) transcription factors may be used to classify SCLC tumors with distinct therapeutic responses. The liver is a common site of metastatic disease in SCLC and can drive a poor prognosis. Here, we present a computational approach to detect and characterize metastatic SCLC (mSCLC) liver lesions and their associated NE-related phenotype as a method to improve patient management. METHODS: This study utilized computed tomography scans of patients with hepatic lesions from two data sources for segmentation and classification of liver disease: (1) a public dataset from patients of various cancer types (segmentation; n = 131) and (2) an institutional cohort of patients with SCLC (segmentation and classification; n = 86). We developed deep learning segmentation algorithms and compared their performance for automatically detecting liver lesions, evaluating the results with and without the inclusion of the SCLC cohort. Following segmentation in the SCLC cohort, radiomic features were extracted from the detected lesions, and least absolute shrinkage and selection operator regression was utilized to select features from a training cohort (80/20 split). Subsequently, we trained radiomics-based machine learning classifiers to stratify patients based on their NE tumor profile, defined as expression levels of a preselected gene set derived from bulk RNA sequencing or circulating free DNA chromatin immunoprecipitation sequencing. RESULTS: Our liver lesion detection tool achieved lesion-based sensitivities of 66%-83% for the two datasets. In patients with mSCLC, the radiomics-based NE phenotype classifier distinguished patients as positive or negative for harboring NE-like liver metastasis phenotype with an area under the receiver operating characteristic curve of 0.73 and an F1 score of 0.88 in the testing cohort. CONCLUSION: We demonstrate the potential of utilizing artificial intelligence (AI)-based platforms as clinical decision support systems, which could help clinicians determine treatment options for patients with SCLC based on their associated molecular tumor profile. CLINICAL SIGNIFICANCE: Targeted therapy requires accurate molecular characterization of disease, which imaging and AI may aid in determining.",
+  "abstract_zh": "目的：小细胞肺癌（SCLC）是一种侵袭性疾病，具有多种表型，反映了肿瘤相关基因的异质性表达。近期研究表明，神经内分泌（NE）转录因子可用于分类具有不同治疗反应的SCLC肿瘤。肝脏是SCLC转移性疾病的常见部位，可能导致预后不良。在此，我们提出一种计算方法，用于检测和表征转移性SCLC（mSCLC）肝脏病灶及其相关的NE相关表型，作为改善患者管理的方法。方法：本研究利用来自两个数据源的肝病灶患者计算机断层扫描图像，进行肝脏疾病的分割和分类：（1）来自多种癌症类型患者的公共数据集（分割；n = 131）和（2）一个机构性SCLC患者队列（分割和分类；n = 86）。我们开发了深度学习分割算法，并比较了其在自动检测肝脏病灶方面的性能，评估了包含和不包含SCLC队列的结果。在SCLC队列中完成分割后，从检测到的病灶中提取影像组学特征，并利用最小绝对收缩和选择算子回归从训练队列（80/20分割）中选择特征。随后，我们训练了基于影像组学的机器学习分类器，根据患者的NE肿瘤谱进行分层，该谱定义为预选基因集的表达水平，这些基因集来源于批量RNA测序或循环游离DNA染色质免疫沉淀测序。结果：我们的肝脏病灶检测工具在两个数据集中实现了基于病灶的敏感性为66%-83%。在mSCLC患者中，基于影像组学的NE表型分类器将患者区分为具有NE样肝转移表型阳性或阴性，测试队列中的受试者工作特征曲线下面积为0.73，F1评分为0.88。结论：我们展示了利用基于人工智能（AI）平台作为临床决策支持系统的潜力，这可能帮助临床医生根据患者相关的分子肿瘤谱确定SCLC患者的治疗选择。临床意义：靶向治疗需要对疾病进行准确的分子表征，而影像学和AI可能有助于确定这一点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41049163/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41049163/",
+  "paper_page_path": "papers/pubmed/41049163/index.html"
+}

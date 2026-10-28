@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "41714472",
+    "doi": "10.1007/s00018-026-06131-2",
+    "title": "FOXK1 induced upregulation of KIF20A promotes hepatocellular carcinoma progression via Wnt/beta-Catenin/EMT signaling."
+  },
+  "content": {
+    "abstract": "Liver cancer ranks sixth in incidence and third in mortality worldwide, with hepatocellular carcinoma (HCC) accounting for 90% of cases. Kinesin family genes (KIFs) have been implicated in HCC progression, but their specific roles remain unclear. Here, using multiple transcriptomic datasets and machine learning, we systematically screened KIF genes in HCC and identified nine key differentially expressed KIFs (KIF3A, KIF3B, KIF5B, KIF11, KIF13A, KIF13B, KIF20A, KIFC3, KLC2) as diagnostic biomarkers. A logistic regression model showed excellent diagnostic accuracy (AUC = 0.992) in the GSE121248 dataset. Six genes (KIF3A, KIF5B, KIF11, KIF13B, KIF20A, KLC2) were validated in TCGA, several correlating with prognosis. Notably, KIF20A was an independent prognostic factor, validated across cohorts. Single-cell and experimental data revealed high KIF20A expression in HCC cells, promoting proliferation and migration. Mechanistically, KIF20A drives tumor growth and metastasis via Wnt/beta-catenin signaling and epithelial-mesenchymal transition (EMT) proteins such as N-cadherin, Slug, Snail, and Twist1/2. Wnt pathway activator SKL2001 and inhibitor LGK974 confirmed KIF20A's role in tumor progression. Upstream, the transcription factor FOXK1 was identified as a key positive regulator of KIF20A. FOXK1 is overexpressed in HCC, strongly correlates with KIF20A, and predicts poor prognosis. ChIP-seq and promoter assays verified FOXK1's direct binding to the KIF20A promoter, activating its transcription. In conclusion, KIF20A serves as a diagnostic and prognostic biomarker promoting HCC progression via Wnt/beta-catenin signaling, regulated by FOXK1, offering new therapeutic targets.",
+    "keywords": [
+      "Biomarker",
+      "FOXK",
+      "Hepatocellular carcinoma",
+      "KIF20A",
+      "Kinesin family members",
+      "Wnt/beta-catenin signaling pathway"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Kinesins/genetics/metabolism",
+      "*Liver Neoplasms/pathology/genetics/metabolism",
+      "*Carcinoma, Hepatocellular/pathology/genetics/metabolism",
+      "*Wnt Signaling Pathway/genetics",
+      "*Forkhead Transcription Factors/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "*Epithelial-Mesenchymal Transition/genetics",
+      "Disease Progression",
+      "*Up-Regulation/genetics",
+      "Cell Line, Tumor",
+      "Animals",
+      "beta Catenin/metabolism",
+      "Cell Proliferation/genetics",
+      "Cell Movement/genetics",
+      "Prognosis",
+      "Mice, Nude"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Jiaxuan",
+        "Zhang, Meng",
+        "Li, Jialing",
+        "Tian, Yu",
+        "Zhao, Jinyan",
+        "Liu, Xue"
+      ],
+      "short_names": [
+        "Liu J",
+        "Zhang M",
+        "Li J",
+        "Tian Y",
+        "Zhao J",
+        "Liu X"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-0614-9572"
+      ],
+      "affiliations": [
+        "Provincial Key Laboratory of Digital Medicine and Biomechanics & Guangdong Engineering Research Center for Translation of Medical 3D Printing Application, Guangzhou, China.",
+        "National Virtual & Reality Experimental Education Center for Medical Morphology, Southern Medical University, Guangzhou, China.",
+        "Key Discipline of Human Anatomy, School of Basic Medical Sciences, Southern Medical University, Guangzhou, China.",
+        "Department of Hepatobiliary Surgery, Affiliated Hospital of Hebei University, Baoding, China.",
+        "Department of Family and Community Medicine, University of Illinois College of Medicine Rockford, Rockford, IL, USA.",
+        "Science Research Center, the Huizhou Central People's Hospital, Guangdong Medical University, 41 E Ling North Road, Huizhou, Guangdong, China. Tian_Yu@ben.edu.",
+        "Department of Laboratory Medicine, Shanghai General Hospital, Shanghai Jiaotong University School of Medicine, No. 85/86 Wujin Road, Shanghai, China. jingy1213@163.com.",
+        "Department of Interventional Radiology, Eastern Hepatobiliary Surgery Hospital, Third Affiliated Hospital of Naval Medical University, No. 700 Moyu North Road, Shanghai, China. 19830701liu@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Jiaxuan",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of Digital Medicine and Biomechanics & Guangdong Engineering Research Center for Translation of Medical 3D Printing Application, Guangzhou, China.",
+          "National Virtual & Reality Experimental Education Center for Medical Morphology, Southern Medical University, Guangzhou, China.",
+          "Key Discipline of Human Anatomy, School of Basic Medical Sciences, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Meng",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, Affiliated Hospital of Hebei University, Baoding, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jialing",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Family and Community Medicine, University of Illinois College of Medicine Rockford, Rockford, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Tian, Yu",
+        "short_name": "Tian Y",
+        "identifiers": [
+          "0009-0005-0614-9572"
+        ],
+        "affiliations": [
+          "Science Research Center, the Huizhou Central People's Hospital, Guangdong Medical University, 41 E Ling North Road, Huizhou, Guangdong, China. Tian_Yu@ben.edu."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jinyan",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Shanghai General Hospital, Shanghai Jiaotong University School of Medicine, No. 85/86 Wujin Road, Shanghai, China. jingy1213@163.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Xue",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology, Eastern Hepatobiliary Surgery Hospital, Third Affiliated Hospital of Naval Medical University, No. 700 Moyu North Road, Shanghai, China. 19830701liu@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cellular and molecular life sciences : CMLS"
+    ],
+    "journal_abbrev": [
+      "Cell Mol Life Sci"
+    ],
+    "pub_date": "2026 Feb 19",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/20 00:32",
+    "fetched_at": "2026-10-01 14:24:37"
+  },
+  "links": {
+    "cites": [
+      "42271494"
+    ],
+    "refs": [
+      "40038775",
+      "39596248",
+      "39272934",
+      "39232134",
+      "39000337",
+      "38971490",
+      "38666385",
+      "38446308",
+      "38433242",
+      "38275755",
+      "38070277",
+      "38063438",
+      "37957153",
+      "37716704",
+      "37648881",
+      "37556918",
+      "37209098",
+      "37036809",
+      "36939276",
+      "36894036",
+      "36830695",
+      "36798768",
+      "36790767",
+      "36709077",
+      "36633525",
+      "36594221",
+      "36400469",
+      "36377660",
+      "36213538",
+      "36037925",
+      "35418689",
+      "35313389",
+      "35303793",
+      "35251989",
+      "35166233",
+      "34740608",
+      "34708244",
+      "34324953",
+      "34188192",
+      "34095464",
+      "34046368",
+      "33734139",
+      "33331418",
+      "33097916",
+      "32976381",
+      "32940362",
+      "32884985",
+      "32550913",
+      "32492896",
+      "32160081",
+      "31858647",
+      "31054270",
+      "31011252",
+      "30661224",
+      "30377095",
+      "29845286",
+      "29425488",
+      "29307467",
+      "29113792",
+      "28575679",
+      "28480065",
+      "28431155",
+      "28267429",
+      "28203733",
+      "28108047",
+      "25961928",
+      "19935670",
+      "15723056",
+      "15708345"
+    ],
+    "similar": [
+      "41714472",
+      "41203170",
+      "41935591",
+      "41722266",
+      "40814770",
+      "30929558",
+      "42210256",
+      "41799507",
+      "31278131",
+      "32748349",
+      "31771611",
+      "41655866",
+      "37439386",
+      "41168860",
+      "37875822",
+      "40883023",
+      "39127439",
+      "30248355",
+      "39707043",
+      "29552782",
+      "37162618",
+      "32631394",
+      "38364252",
+      "28498415",
+      "38773433",
+      "30610799",
+      "34930906",
+      "38468464",
+      "30453289",
+      "24101726",
+      "30243081",
+      "40069645",
+      "41187860",
+      "34370992",
+      "39150093",
+      "34775955",
+      "31746531",
+      "30468709",
+      "40108613",
+      "35008530",
+      "31561723",
+      "28890291",
+      "41965966",
+      "32052444",
+      "30150059",
+      "28969700",
+      "30556279",
+      "29552781",
+      "31691159",
+      "41050079",
+      "40808272",
+      "39835603",
+      "30948333",
+      "30791932",
+      "34939898",
+      "28241806",
+      "41486392",
+      "32801345",
+      "42289469",
+      "39555078",
+      "38724713",
+      "40109873",
+      "41740302",
+      "34784846",
+      "33122451",
+      "31727171",
+      "42040893",
+      "35864528",
+      "29274277",
+      "27666874",
+      "29867138",
+      "37453868",
+      "31785055",
+      "38926329",
+      "33729094",
+      "34816637",
+      "26975630",
+      "27036048",
+      "22911555",
+      "42465750",
+      "31402556",
+      "31071459",
+      "28810875",
+      "36350420",
+      "26941395",
+      "34521817",
+      "37839635",
+      "27611941",
+      "23483955",
+      "25328135",
+      "34158395",
+      "38971490",
+      "39624268",
+      "31637871",
+      "34427817",
+      "28646927",
+      "31955177",
+      "29351758",
+      "32682011",
+      "31498866"
+    ],
+    "review": [
+      "41714472"
+    ],
+    "pmc": [
+      "12932808"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41714472/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s00018-026-06131-2",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SNAI2-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-397",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

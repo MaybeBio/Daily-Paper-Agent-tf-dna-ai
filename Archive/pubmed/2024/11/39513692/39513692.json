@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "39513692",
+    "doi": "10.1099/jmm.0.001912",
+    "title": "Nanomotion technology: an innovative method to study cell metabolism in Escherichia coli, as a potential indicator for tolerance."
+  },
+  "content": {
+    "abstract": "Introduction. Antibiotic tolerance corresponds to the bacterial ability to survive a transient exposure to antibiotics and is often associated with treatment failure. Current methods of identifying tolerance based on bacterial growth are time-consuming. This study explores the use of a growth-independent method utilizing nanomotion technology to detect antibiotic-tolerant bacteria.Hypothesis. The nanomotion signal obtained from a nanomechanical sensor measures real-time metabolic activity and cellular processes and could provide valuable information about the tolerance of bacteria to antibiotics that cannot be detected by standard antibiotic susceptibility tests.Aim. The aim of this study is to investigate the potential of nanomotion technology to record antibiotic-tolerant bacteria.Methodology. We generated a slow-growing Escherichia coli strain by manipulating mazF expression levels and confirmed its viability by several standard methods. We subsequently measured its nanomotion and the nanomotion of the WT E. coli in the presence or absence of antibiotics. Supervised machine learning was employed to distinguish slow-growing from exponentially growing bacteria. Observations for bacterial nanomotions were confirmed by standard kill curves.Results. We distinguished slow-growing from exponentially growing bacteria using specific features from the nanomotion signal. Furthermore, the exposition of both growth phenotypes to polymyxin decreased the nanomotion signal indicating cell death. Similarly, when exponentially growing cells were exposed to ampicillin, an antibiotic whose efficacy depends on the growth rate, the nanomotion signal also decreased. In contrast, the nanomotion signal remained unchanged for slow-growing bacteria upon exposure to ampicillin. In addition, antibiotic exposure can cause bacterial elongation, in which the biomass of a cell increases without cell division. By overexpressing sulA, we mimicked antibiotic-induced elongation. Differences in the nanomotion signal were observed when comparing elongating and non-elongating phenotypes.Conclusion. This work shows that nanomotion signals entail information about the reaction to antibiotics that standard MIC-based antibiotic susceptibility tests cannot detect. In the future, nanomotion-based antibiotic tolerance tests could be developed for clinical use in chronic or relapsing infections.",
+    "keywords": [
+      "antibiotic",
+      "growth-independent method",
+      "nanomotion",
+      "rapid AST",
+      "tolerance"
+    ],
+    "mesh_terms": [
+      "*Escherichia coli/drug effects/metabolism",
+      "*Anti-Bacterial Agents/pharmacology",
+      "*Microbial Sensitivity Tests",
+      "Escherichia coli Proteins/metabolism/genetics",
+      "Drug Resistance, Bacterial",
+      "Nanotechnology/methods",
+      "DNA-Binding Proteins",
+      "Endoribonucleases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aubry, Christele",
+        "Kebbi-Beghdadi, Carole",
+        "Luraschi-Eggemann, Amanda",
+        "Cathomen, Gino",
+        "Cichocka, Danuta",
+        "Sturm, Alexander",
+        "Greub, Gilbert",
+        "The Eradiamr Consortium"
+      ],
+      "short_names": [
+        "Aubry C",
+        "Kebbi-Beghdadi C",
+        "Luraschi-Eggemann A",
+        "Cathomen G",
+        "Cichocka D",
+        "Sturm A",
+        "Greub G",
+        "The Eradiamr Consortium"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Microbiology, Lausanne University Hospital and Lausanne University, CH-1011 Lausanne, Switzerland.",
+        "Institute of Microbiology, Lausanne University Hospital and Lausanne University, CH-1011 Lausanne, Switzerland.",
+        "Institute of Microbiology, Lausanne University Hospital and Lausanne University, CH-1011 Lausanne, Switzerland.",
+        "Resistell AG, Hofackerstrasse 40, CH-4132 Muttenz, Switzerland.",
+        "Resistell AG, Hofackerstrasse 40, CH-4132 Muttenz, Switzerland.",
+        "Resistell AG, Hofackerstrasse 40, CH-4132 Muttenz, Switzerland.",
+        "Resistell AG, Hofackerstrasse 40, CH-4132 Muttenz, Switzerland.",
+        "Institute of Microbiology, Lausanne University Hospital and Lausanne University, CH-1011 Lausanne, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aubry, Christèle",
+        "short_name": "Aubry C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Microbiology, Lausanne University Hospital and Lausanne University, CH-1011 Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Kebbi-Beghdadi, Carole",
+        "short_name": "Kebbi-Beghdadi C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Microbiology, Lausanne University Hospital and Lausanne University, CH-1011 Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Luraschi-Eggemann, Amanda",
+        "short_name": "Luraschi-Eggemann A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Microbiology, Lausanne University Hospital and Lausanne University, CH-1011 Lausanne, Switzerland.",
+          "Resistell AG, Hofackerstrasse 40, CH-4132 Muttenz, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Cathomen, Gino",
+        "short_name": "Cathomen G",
+        "identifiers": [],
+        "affiliations": [
+          "Resistell AG, Hofackerstrasse 40, CH-4132 Muttenz, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Cichocka, Danuta",
+        "short_name": "Cichocka D",
+        "identifiers": [],
+        "affiliations": [
+          "Resistell AG, Hofackerstrasse 40, CH-4132 Muttenz, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Sturm, Alexander",
+        "short_name": "Sturm A",
+        "identifiers": [],
+        "affiliations": [
+          "Resistell AG, Hofackerstrasse 40, CH-4132 Muttenz, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Greub, Gilbert",
+        "short_name": "Greub G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Microbiology, Lausanne University Hospital and Lausanne University, CH-1011 Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "The Eradiamr Consortium",
+        "short_name": "The Eradiamr Consortium",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of medical microbiology"
+    ],
+    "journal_abbrev": [
+      "J Med Microbiol"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/13 13:47",
+    "fetched_at": "2026-09-30 05:56:55"
+  },
+  "links": {
+    "cites": [
+      "42379820",
+      "40969889",
+      "40775282",
+      "40710105"
+    ],
+    "refs": [
+      "38499536",
+      "38214519",
+      "36374111",
+      "34475315",
+      "34319868",
+      "31919223",
+      "31363066",
+      "30980069",
+      "30602518",
+      "29205867",
+      "29072271",
+      "28636922",
+      "28062319",
+      "27080241",
+      "25548177",
+      "25480295",
+      "25316924",
+      "25043002",
+      "24923554",
+      "24616433",
+      "24020075",
+      "23812189",
+      "23665232",
+      "23300476",
+      "23152052",
+      "22983967",
+      "21927020",
+      "20947621",
+      "20805405",
+      "20133586",
+      "19858257",
+      "17923487",
+      "15687275",
+      "15537630",
+      "15308767",
+      "11420333",
+      "10033323",
+      "9501185",
+      "6753736",
+      "4928018",
+      "3534137",
+      "1905285",
+      "1103132"
+    ],
+    "similar": [
+      "39513692",
+      "35670099",
+      "38499536",
+      "28062319",
+      "29205867",
+      "37207717",
+      "40772932",
+      "35437320",
+      "38530058",
+      "33251814",
+      "39093940",
+      "38814092",
+      "24089366",
+      "32616264",
+      "37094120",
+      "32047133",
+      "40316115",
+      "38311846",
+      "40272183",
+      "33835090",
+      "39902939",
+      "15793130",
+      "18430255",
+      "31061169",
+      "33821795",
+      "17105735",
+      "36410804",
+      "40586599",
+      "35014598",
+      "33002406",
+      "24375411",
+      "17420206",
+      "39948723",
+      "26578677",
+      "37032906",
+      "31740490",
+      "39748127",
+      "33731833",
+      "30629681",
+      "34756069",
+      "34704829",
+      "31860281",
+      "35534481",
+      "40600718",
+      "37559199",
+      "20041955",
+      "30336045",
+      "28113053",
+      "40622217",
+      "39038993",
+      "31344478",
+      "18519731",
+      "26349518",
+      "38920373",
+      "35196813",
+      "31772059",
+      "26637243",
+      "34281389",
+      "15308767",
+      "30602518",
+      "39335547",
+      "39791466",
+      "30530714",
+      "28145464",
+      "39637174",
+      "40969889",
+      "30624176",
+      "39572010",
+      "40080939",
+      "29233898",
+      "27617412",
+      "38904391",
+      "39565111",
+      "23812189",
+      "28743810",
+      "25540985",
+      "35575513",
+      "22404714",
+      "26997474",
+      "30472191",
+      "34787438",
+      "31664493",
+      "41226639",
+      "41173335",
+      "29895634",
+      "39182027",
+      "25805724",
+      "40622216",
+      "24449771",
+      "23936064",
+      "41120967",
+      "36651776",
+      "36314749",
+      "40391890",
+      "38904380",
+      "32098819",
+      "41039364",
+      "16234865",
+      "35616398",
+      "37676915"
+    ],
+    "review": [
+      "39513692",
+      "41120967"
+    ],
+    "pmc": [
+      "12453397"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://jmm.microbiologyresearch.org/pubmed/content/journal/jmm/10.1099/jmm.0.001912",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/antibiotics.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotics"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39513692/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://iris.unil.ch/handle/iris/240888",
+        "provider": "University of Lausanne/CHUV - IRIS",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

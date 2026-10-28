@@ -1,0 +1,123 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methodology, results, discussion, concluding remarks, supporting information description)
+- **Assessment boundary** Scientific and technical evaluation of the COFFEE coarse-grained force field, its validation against experimental data, and the claims of transferability and sequence-specificity
+- **Shared manuscript claim summary** The authors present COFFEE, a coarse-grained energy function for DNA-protein complexes that integrates the SOP-SC protein model with the TIS DNA model without recalibration, using a statistical potential derived from crystal structures for DNA-protein contacts. They claim quantitative reproduction of crystallographic B-factors, SAXS profiles, and NMR chemical shifts, and demonstrate salt-induced nucleosome unwrapping and ARG-to-LYS mutation effects.
+- **Visible evidence base** Abstract, introduction, methodology descriptions (equations referenced but not fully shown), results for six DNA-protein complexes, nucleosome simulations, figures referenced (Figs. 1-9), supporting information tables referenced (Tables S1-S13)
+- **Missing materials affecting confidence** Full equations (Eqs. 1-13 referenced but not displayed in the provided text), actual figures and data plots, supporting information contents, simulation parameters and convergence criteria, specific numerical values for B-factor comparisons, statistical error estimates
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially valuable coarse-grained model for DNA-protein complexes, addressing a genuine need in the field. The modular integration of established models (SOP-SC and TIS) with a statistical potential is conceptually sound and the validation strategy is appropriate. However, the provided text lacks the full methodological details and quantitative validation data necessary to fully assess the claims. The nucleosome applications are interesting but require more rigorous comparison with experimental data and discussion of limitations.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular simulation, particularly those studying DNA-protein interactions, chromatin structure, nucleosome dynamics, and transcription mechanisms. The model's transferability and computational efficiency would appeal to those needing to simulate large complexes at biologically relevant timescales. The sequence-specific statistical potential is relevant to those studying transcription factor binding specificity.
+- **Major strengths** The modular approach of combining validated models without recalibration is elegant and practical. The single adjustable parameter (λ_DNAPRO) is a significant advantage for transferability. The validation across multiple experimental observables (B-factors, SAXS, NMR) is comprehensive. The nucleosome unwrapping application demonstrates the model's ability to capture large-scale conformational changes. The ARG-to-LYS mutation study addresses an important biological question.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that COFFEE quantitatively reproduces crystallographic B-factors for diverse DNA-protein complexes
+  - **Evidence pointer** Fig. 2, Section "COFFEE reproduces the crystallographic B-factors for diverse DNA-protein complexes"
+  - **Concern** The manuscript text does not provide quantitative metrics for the agreement between simulated and experimental B-factors. The authors state "quantitatively reproduced" and "good agreement" but no correlation coefficients, R-factor values, or error estimates are given. The visual inspection of figures is insufficient to establish quantitative accuracy, especially given that B-factors are highly sensitive to simulation conditions and crystal packing effects.
+  - **Why it matters** The central claim of the paper is that COFFEE is quantitatively accurate. Without statistical measures of agreement, this claim cannot be properly evaluated. B-factor reproduction is a stringent test, and the lack of quantitative comparison undermines confidence in the model's predictive power.
+  - **Resolution test** Provide correlation coefficients, mean absolute errors, or similar statistical measures between simulated and experimental B-factors for all six complexes. Include error bars from multiple simulation runs. Discuss the expected accuracy limits of coarse-grained models for B-factor prediction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that COFFEE predicts SAXS profiles in quantitative agreement with experiments
+  - **Evidence pointer** Fig. 4, Section "Calculated scattering profiles are in quantitative agreement with SAXS experiments"
+  - **Concern** The manuscript states agreement is "remarkable" and "quantitative" but provides no quantitative measures such as chi-squared values, R-factors, or reduced chi-squared statistics. The comparison is made for only three complexes, and the text notes "modest" deviations at high q values without specifying their magnitude. The Kratky plots are relegated to supporting information, making assessment difficult.
+  - **Why it matters** SAXS validation is a key component of the transferability claim. Without quantitative agreement metrics, the reader cannot distinguish between good agreement and merely reasonable qualitative similarity. The high-q region is particularly informative about local structure, and the noted deviations could indicate systematic issues.
+  - **Resolution test** Provide chi-squared or R-factor values for each SAXS comparison. Include the Kratky plots in the main text. Quantify the deviations at high q and discuss their structural implications. Compare with expected accuracy of other CG models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the statistical potential (SP) derived from crystal structures provides sequence-specific DNA-protein interactions
+  - **Evidence pointer** Section "Statistical potential for native DNA-protein contacts", Fig. 1, Tables S9-S13
+  - **Concern** The derivation of the statistical potential is described only in outline. The choice of reference state (random occurrence) is acknowledged as a simplification, but the potential limitations of this approach for DNA-protein interactions are not discussed. The distance cutoff for defining contacts is not specified. The effective temperature T in the Boltzmann relation is not defined or justified. The transferability of SPs derived from crystal structures to solution conditions is not addressed.
+  - **Why it matters** The sequence-specificity of the SP is the key novel feature of COFFEE. If the SP is not properly derived or has significant biases, the sequence-specific predictions (including the ARG-to-LYS mutation effects) could be artifacts. The reference state problem is known to be critical for SP quality.
+  - **Resolution test** Provide the full derivation of the SP including the distance cutoff, reference state justification, and effective temperature. Validate the SP against known DNA-protein binding affinities or specificities. Discuss known limitations of knowledge-based potentials and how they might affect COFFEE predictions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that ARG-to-LYS mutations destabilize the nucleosome due to "chemical interactions in subtle ways"
+  - **Evidence pointer** Fig. 9, Section "Mutations at superhelical locations enhance nucleosome flexibility"
+  - **Concern** The manuscript states that ARG-to-LYS mutations do not alter electrostatic interactions (both +1 charge) but affect stability through "chemical interactions." However, the specific chemical interactions responsible are not identified or analyzed. The claim that this cannot be explained by electrostatics alone requires more rigorous analysis. The manuscript does not provide free energy differences or quantitative measures of destabilization.
+  - **Why it matters** This is presented as a key application demonstrating COFFEE's ability to capture subtle sequence effects. Without mechanistic insight into why ARG-to-LYS mutations destabilize the nucleosome, the claim is not fully supported. The biological implications (CENP-A nucleosomes) depend on this mechanistic understanding.
+  - **Resolution test** Provide free energy differences between wild-type and mutant nucleosomes. Analyze the specific interactions lost or altered upon mutation (e.g., hydrogen bonding, cation-pi interactions, steric effects). Compare with experimental data on ARG-to-LYS effects in nucleosomes. Discuss alternative explanations.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that COFFEE is a "transferable" model for simulating arbitrary DNA-protein complexes
+  - **Evidence pointer** Throughout the manuscript, particularly the concluding remarks
+  - **Concern** The transferability claim is based on validation against six DNA-protein complexes and one nucleosome system. While this is a reasonable start, the diversity of DNA-protein interactions in biology (e.g., single-stranded DNA binding proteins, DNA repair enzymes, chromatin remodelers) is much broader. The model's performance on complexes with significant conformational changes upon binding, or with non-standard DNA structures, is not tested.
+  - **Why it matters** Transferability is a strong claim that requires demonstration across a wide range of systems. If the model fails on certain classes of complexes, its utility is limited. The claim of transferability without broader validation could mislead potential users.
+  - **Resolution test** Test COFFEE on additional diverse DNA-protein complexes, including those with different binding modes, DNA conformations, and protein folds. Discuss the expected limitations of the model. Provide guidance on when COFFEE is appropriate and when it is not.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and methodology
+  - **Evidence pointer** Section "Methodology"
+  - **Issue** The methodology section references equations (Eqs. 1-13) that are not displayed in the provided text. This makes it impossible to follow the model description without accessing the supporting information.
+  - **Required correction** Include the full equations in the main text or provide a more detailed verbal description of the energy function components.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation methodology
+  - **Evidence pointer** Section "Simulations"
+  - **Issue** The simulation details are sparse. The text mentions Langevin dynamics at 298 K for 10^8 steps with 20 random seeds, but does not specify the integration time step, the friction coefficient γ, the equilibration protocol, or the system size. The use of the underdamped regime is mentioned but not justified.
+  - **Required correction** Provide complete simulation parameters, including time step, friction coefficient, equilibration time, and system composition. Justify the choice of underdamped dynamics.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** B-factor calculation
+  - **Evidence pointer** Section "COFFEE reproduces the crystallographic B-factors for diverse DNA-protein complexes"
+  - **Issue** The method for calculating B-factors from simulations is not described. B-factors can be calculated from atomic fluctuations, but the relationship between coarse-grained bead fluctuations and crystallographic B-factors requires careful treatment, including accounting for the number of atoms per bead.
+  - **Required correction** Describe the B-factor calculation method, including any scaling factors or conversion procedures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Chemical shift calculation
+  - **Evidence pointer** Section "Calculation of Chemical Shifts"
+  - **Issue** The LARMOR-Cα method is referenced but not described. The text states it is "trained using a random forest classifier on the RefDB database," but the applicability of this method to coarse-grained simulations is not discussed. The resolution of the coarse-grained model may not provide the atomic detail required for accurate chemical shift prediction.
+  - **Required correction** Provide more detail on the LARMOR-Cα method and its applicability to coarse-grained simulations. Discuss potential limitations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Nucleosome unwrapping analysis
+  - **Evidence pointer** Section "Calculation of the number of unwrapped base-pairs"
+  - **Issue** The order parameter for unwrapped base pairs is described, but the choice of parameters (d0 = 10 Å, n = 6, m = 12) is not justified. The sensitivity of the results to these parameters is not discussed.
+  - **Required correction** Justify the parameter choices and discuss the sensitivity of the unwrapping results to these parameters.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Figure descriptions
+  - **Evidence pointer** Figs. 1-9
+  - **Issue** The figure descriptions in the text are minimal. For example, Fig. 2 is referenced for B-factor comparisons but the reader cannot determine what exactly is plotted (e.g., per-residue B-factors, per-nucleotide, averaged over the complex).
+  - **Required correction** Provide more detailed figure captions and refer to specific panels in the text.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Statistical potential validation
+  - **Evidence pointer** Fig. 1, Tables S9-S13
+  - **Issue** The statistical potential is derived from a non-redundant set of DNA-protein complexes, but the number of complexes used and the redundancy criteria are not specified. The potential for overfitting or bias in the contact statistics is not discussed.
+  - **Required correction** Specify the number of complexes used, the redundancy threshold, and discuss potential biases in the dataset.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Comparison with existing models
+  - **Evidence pointer** Introduction and concluding remarks
+  - **Issue** The manuscript does not provide a quantitative comparison of COFFEE's performance with existing CG models for DNA-protein complexes (e.g., 3SPN, oxDNA, MARTINI). The advantages of COFFEE are stated qualitatively but not demonstrated.
+  - **Required correction** Include a comparison with at least one existing model on a common test case, or discuss the expected advantages and disadvantages more specifically.
+
+## Risk / unsupported claims
+- The claim of "quantitative" agreement with B-factors, SAXS, and chemical shifts is not supported by quantitative metrics in the provided text.
+- The claim that ARG-to-LYS mutations destabilize the nucleosome through "chemical interactions in subtle ways" is not mechanistically explained.
+- The claim of transferability to "arbitrary DNA-protein complexes" is not supported by the limited validation set.
+- The claim that the statistical potential captures sequence-specific interactions is not validated against known binding specificity data.
+- The statement that COFFEE "accurately describes" salt-induced nucleosome unwrapping lacks quantitative comparison with experimental unwrapping data.
+- The claim that the model captures "chemical interactions" beyond electrostatics is not supported by specific analysis.
+- The assertion that COFFEE would be "ideal" for instances where sequence specificity is important is not demonstrated with comparative examples.

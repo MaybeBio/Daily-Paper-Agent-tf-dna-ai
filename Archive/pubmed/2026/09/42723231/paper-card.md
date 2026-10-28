@@ -1,229 +1,295 @@
 ## 01 基本信息
 
 - **标题**：A Novel SXXLF Motif in the FXR N-Terminal Domain Mediates Coregulator and Interdomain Interactions
-- **作者**：Villalona, Priscilla; Pulahinge, Thilini; Yu, Tracy; Wenning, Jordan; Khan, Sabab Hasan; Frisbie, Crawford Joseph; Magafas, Jill; Barbe, Addison; Okafor, C Denise
-- **单位**：未提供（PubMed 记录未列出单位信息）
-- **期刊/平台**：Chembiochem : a European journal of chemical biology
+- **作者与单位**：Villalona, Priscilla; Pulahinge, Thilini; Wenning, Jordan; Khan, Sabab Hasan; Frisbie, Crawford Joseph; Magafas, Jill; Barbe, Addison; Okafor, C Denise（单位未在提供材料中列出，部分作者受 NSF CAREER 2144679、NIH DP2-GM149753 等资助）
+- **期刊/预印本平台**：Chembiochem : a European journal of chemical biology
 - **年份**：2026（在线日期 2026-09-11）
-- **论文类型**：研究论文（Research Article）
-- **领域**：核受体生物学；蛋白质-蛋白质互作；转录调控；分子动力学模拟
-- **关键词**：FXR（法尼醇X受体）；N端结构域（NTD）；SXXLF motif；共调节因子；分子动力学；变构耦合
-- **DOI/arXiv**：10.1002/cbic.202500967
+- **论文类型**：实验研究（含分子生物学实验与分子动力学模拟）
+- **领域**：核受体结构与功能；蛋白质-蛋白质互作；转录调控
+- **关键词**：FXR；N-terminal domain；SXXLF motif；coregulator；interdomain interaction；molecular dynamics
+- **DOI/arXiv 号**：10.1002/cbic.202500967
 - **代码**：未提供
-- **数据**：未提供（MD 模拟轨迹等未公开）
-- **阅读日期**：2026-05-12（按当前日期推算）
-- **在该课题方向中的位置**：本文聚焦核受体 FXR 的 NTD 内一个新型 SXXLF motif，该 motif 同时介导 NTD 与共调节因子（coregulator）的直接互作及 NTD 与配体结合域（LBD）的域间互作。对「TF–DNA 结合机制 × 物理模拟」课题而言，本文提供了：(1) 一个非 DNA 结合界面上的短线性 motif 如何调控转录活性的范例；(2) MD 模拟用于表征突变诱导的构象与变构耦合变化的可迁移方法；(3) 核受体 NTD 内在无序区域（IDR）功能研究的实验范式（哺乳动物双杂交/单杂交 + 突变 + MD）。
+- **数据**：未提供（AlphaFold 3 模型与 MD 轨迹未公开）
+- **阅读日期**：2026-09-11
+- **在该课题方向中的位置**：本文聚焦核受体 FXR 的 N 端无序结构域（NTD）与 LBD 及共调节因子（coregulator）的互作，鉴定了一个新的 SXXLF 基序。对「TF–DNA 结合机制 × AI/物理模拟」方向而言，本文提供了：(1) 无序结构域介导的蛋白-蛋白互作如何间接影响 DNA 结合转录活性的案例；(2) AlphaFold 3 预测全长受体结构 + MD 模拟验证突变效应的可迁移工作流；(3) 非经典 LXXLL 类基序的发现方法（序列分析 + 突变 + 功能验证 + 模拟）。
 
 ---
 
 ## 02 一句话总结
 
-本文通过突变分析、哺乳动物双杂交/单杂交实验和分子动力学（MD）模拟，在 FXR 的 N 端结构域（NTD）中鉴定并验证了一个新型 SXXLF motif，该 motif 同时介导 NTD 与共调节蛋白的直接互作及 NTD 与配体结合域（LBD）的域间接触，其突变显著改变 FXR 的构象与变构耦合，从而调节转录活性。
+本文通过荧光素酶报告基因、哺乳动物双/单杂交和分子动力学模拟，证明 FXR 的 NTD 通过一个新型 SXXLF（SENLF）基序与 LBD 及共调节因子互作，突变该基序显著降低转录活性并改变 NTD-LBD 的构象耦合，但该基序并非 NTD 全部功能的唯一介导者。
 
 ---
 
 ## 03 研究问题
 
-- **具体问题**：FXR 的 NTD（一个保守性差、内在无序的结构域）在 FXR 转录调控中的功能是什么？NTD 中是否存在特定的序列 motif 介导其与共调节因子及 FXR 其他结构域的互作？
-- **为什么重要**：核受体超家族中 NTD 的 AF-1 功能在 AR、ER、MR 中已有研究，但 FXR 的 NTD 功能完全未知。FXR 是脂质和胆汁酸代谢的关键调控因子，理解其 NTD 的分子机制有助于揭示 NR 家族中 NTD 功能的保守性与多样性，并为靶向 FXR 的调控提供新位点。
-- **现有方法为何不足**：NTD 是内在无序区域（IDR），难以用传统结构生物学方法（X-ray、Cryo-EM）解析；且 NTD 序列在 NR 间保守性极低，无法直接通过同源比对预测功能 motif。此前对 FXR NTD 的功能研究几乎空白。
-- **精确研究问题（Can...?）**：Can a specific sequence motif within the intrinsically disordered NTD of FXR mediate both coregulator recruitment and interdomain (NTD–LBD) interactions, and does its mutation alter FXR's conformational ensemble and transcriptional output?
+- **具体问题**：FXR 的 N 端无序结构域（NTD）是否参与与其他 FXR 结构域（尤其是 LBD）的互作？是否直接结合共调节因子？如果参与，是由什么序列基序介导的？
+- **为什么重要**：核受体 NTD 是内在无序区，传统结构生物学难以解析，其功能长期被低估。FXR 是脂质和胆汁酸代谢的关键调控因子，理解其 NTD 的互作机制有助于揭示 NR 家族中保守但未被识别的调控模式。
+- **现有方法为何不足**：NR 研究长期聚焦 LBD 和 DBD 的结构与功能，NTD 因无序性难以结晶或冷冻电镜解析；已有的 NTD 功能研究（AR、ER、MR）多为单受体描述，缺乏对 FXR NTD 的系统功能解剖。
+- **精确的「Can ... ?」研究问题**：Can a specific sequence motif in the intrinsically disordered NTD of FXR mediate both interdomain (NTD–LBD) and coregulator interactions, and does its mutation alter FXR's transcriptional activity and conformational dynamics?
 
 ---
 
 ## 04 背景与发展脉络
 
-> 注：以下脉络为「经外部核验」的领域通识 + 本文框架的混合，具体标注。
+> 注：以下脉络为「经外部核验」的领域常识与本文框架的结合，非仅本文观点。
 
-1. **核受体 NTD 功能研究的早期阶段**（1990s–2000s）：AF-1 被定义为配体非依赖的激活功能，位于 NTD。代表性工作：AR、ER、MR 的 NTD 被证明参与共调节因子招募和自身转录激活（经外部核验的领域共识）。
-2. **NTD 无序性认识阶段**（2000s–2010s）：NTD 被广泛认定为内在无序区域（IDR），缺乏稳定三级结构，功能依赖折叠-结合耦合（folding-upon-binding）机制（经外部核验）。
-3. **NR 中短线性 motif（SLiM）的发现**：在 AR 中鉴定出 FQNLF、WXXLF 等 motif 介导 NTD–LBD 的 N/C 互作；ER 中也有类似 motif（经外部核验，如 He et al. 2004, Cancer Res; 但具体文献未在本文引用列表中确认）。
-4. **FXR 结构-功能研究**：FXR 的 LBD 结构已解析，配体结合与共调节因子招募机制清楚；但 NTD 功能完全未知（本文框架）。
-5. **本文主张的位置**：首次在 FXR NTD 中鉴定 SXXLF motif，证明其同时介导共调节因子互作和 NTD–LBD 域间互作，并利用 MD 揭示突变对构象与变构耦合的影响。这是 NR 领域首个在 FXR 中报道的 NTD 功能 motif。
+1. **NR 结构-功能研究（1980s–2000s）**：NR 被分为 A/B（NTD）、C（DBD）、D（铰链）、E/F（LBD）结构域。LBD 和 DBD 的结构被大量解析，NTD 因无序性长期被排除在结构研究之外。代表方法：X 射线晶体学、NMR。
+2. **NTD 功能研究（2000s–2010s）**：AR 的 FXXLF/WXXLF 基序被发现介导 NTD-LBD 分子内互作（N/C 互作），ER 和 MR 的 NTD 被证明结合共调节因子。代表方法：GST pull-down、哺乳动物双杂交、荧光共振能量转移。
+3. **无序蛋白与相分离视角（2010s–至今）**：内在无序区（IDR）被重新认识为功能关键区域，参与转录凝聚体形成。NR NTD 的 IDR 特性开始被纳入功能模型。
+4. **AI 结构预测与长时程 MD（2020s–至今）**：AlphaFold 2/3 可预测全长蛋白（含 IDR 的倾向性结构），MD 模拟可探索无序区的构象 ensemble 和突变效应。代表方法：AlphaFold 3、Amber、Anton 3 超算。
+5. **本文位置**：首次将 FXR NTD 作为独立功能单元进行系统解剖，鉴定 SXXLF 基序，并整合 AlphaFold 3 + 微秒级 MD 来验证突变对构象和耦合的影响。属于「NR NTD 功能研究」与「AI 结构预测 + MD 验证」两条脉络的交汇点。
 
 ---
 
 ## 05 核心痛点
 
 | 痛点 | 表现 | 成因或作者解释 | 文中证据 |
-|------|------|----------------|----------|
-| NTD 功能未知 | FXR 的 NTD 从未被系统研究，其在转录调控中的作用完全空白 | NTD 保守性差、内在无序，难以用传统结构方法研究；FXR 研究长期聚焦 LBD | 引言部分（未提供具体行号） |
-| NTD 无序性阻碍 motif 预测 | 无法通过序列比对或结构预测直接定位功能 motif | IDR 缺乏稳定结构，同源序列比对信号弱 | 作者采用突变扫描 + 功能实验组合策略（Methods 节） |
-| 域间互作机制不清 | NTD 与 LBD 之间是否存在直接接触未知 | 缺乏 FXR 全长结构；NTD 无序导致难以捕获互作构象 | 作者用哺乳动物双杂交证明 NTD–LBD 互作（Results 节） |
-| 突变效应难以解释 | 单个 motif 突变如何影响整体构象与变构耦合不清楚 | 实验方法只能提供静态或平均信号，无法解析构象动态 | 作者引入 MD 模拟表征突变前后的构象变化与变构耦合（Results 节） |
+|---|---|---|---|
+| NTD 结构不可解析 | 无实验结构，无法从结构推断功能 | NTD 为内在无序区（IDR），难以结晶或冷冻电镜解析 | Introduction 提及 "highly disordered, making it challenging to use in structural studies" |
+| NTD 功能被忽视 | FXR 研究中 NTD 角色长期空白 | 领域聚焦 LBD/DBD，NTD 被认为主要是柔性连接 | Introduction 对 NR NTD 研究的综述 |
+| 无序区基序难以预测 | 序列分析难以从 IDR 中识别功能基序 | IDR 缺乏稳定二级结构，保守性低 | 作者通过序列比对发现 SENLF 与 AR 的 FQNLF 相似（Results 图 3A） |
+| 突变效应难以在结构层面解释 | 点突变对无序区构象的影响无法用静态结构说明 | 需要动态模拟才能捕捉构象 ensemble 变化 | MD 模拟显示 SENAA 突变改变 NTD 与 LBD 的距离和耦合（Results 图 5、S2） |
+| 体外互作与体内功能脱节 | 肽段结合实验显示弱结合（EC50 ~32 µM），但功能实验显示显著效应 | 弱亲和力互作在细胞内可能被高浓度/多价效应放大 | 荧光偏振实验 EC50 32.1 µM（Results 图 4B） |
 
 ---
 
 ## 06 核心思想
 
-**1) 表面方法**：对 FXR NTD 进行序列分析，预测候选 motif（SXXLF）；通过定点突变 + 哺乳动物双杂交（检测 NTD–LBD 互作和 NTD–coregulator 互作）+ 哺乳动物单杂交（检测转录激活）+ MD 模拟（比较野生型与突变体的构象系综和变构耦合），系统验证该 motif 的功能。
+### 1) 表面方法
+- 构建 ΔNTD 和 SENAA 点突变体，通过荧光素酶报告基因检测转录活性；
+- 哺乳动物双杂交（M2H）检测 NTD-LBD 和 NTD-coregulator 互作；
+- 哺乳动物单杂交（M1H）检测 NTD 独立转录激活能力；
+- 荧光偏振（FP）肽段结合实验定量 NTD 肽段与 LBD 的结合；
+- AlphaFold 3 预测全长 FXR 结构，MD 模拟（Amber + Anton 3）比较 WT 与 SENAA 的构象动态。
 
-**2) 核心洞察**：一个位于内在无序 NTD 中的短线性 motif（SXXLF）可以同时充当两个互作界面的关键决定子——既直接结合共调节因子，又介导与 LBD 的域间接触。这意味着 NTD 通过一个多价 motif 实现「一石二鸟」的调控功能，且该 motif 的突变不仅影响局部互作，还通过变构耦合重塑整个 FXR 的构象系综，最终改变转录输出。
+### 2) 核心洞察
+- FXR 的 NTD 不是被动柔性尾巴，而是通过一个具体的序列基序（SENLF）主动参与分子内（NTD-LBD）和分子间（NTD-coregulator）互作；
+- 该基序属于 SXXLF 类型，与 AR 的 FXXLF/WXXLF 类似但序列不同，提示 NR 家族存在更多未被识别的非经典互作基序；
+- NTD 对转录活性的贡献是多方面的：SENLF 基序介导部分功能，但 ΔNTD 的表型比 SENAA 更严重，说明 NTD 还有其他功能区域；
+- MD 模拟揭示突变不仅改变局部接触，还改变整个 NTD 相对 LBD 的构象分布和 allosteric coupling。
 
-**3) 可能的普适教训 [Analysis]**：在 IDR 中寻找功能 motif 时，不应仅关注与已知 partner 的互作，还应考虑同一 motif 是否参与域间自互作（intramolecular）。这种「双功能 motif」可能是 NR 家族 NTD 调控的普遍策略——一个短序列同时编码互作特异性和构象调控信息。对 TF–DNA 互作课题的启示：DNA 结合域（DBD）之外的 IDR 区域可能通过类似的 motif 同时调控 DNA 结合与共调节因子招募，值得在 TF 研究中系统筛查。
+### 3) 可能的普适教训 [Analysis]
+- 无序结构域的功能可以通过「序列基序 + 功能突变 + 动态模拟」三件套来解剖，即使没有高分辨率结构；
+- AlphaFold 3 对 IDR 的预测虽置信度低，但可作为 MD 模拟的起点，用于生成可检验的构象假设；
+- 弱亲和力互作（µM 级）在转录调控中可能具有功能意义，不能仅凭亲和力判断生物学相关性；
+- 对 TF 类蛋白，分子内（domain-domain）互作与分子间（TF-coregulator）互作往往耦合，单点突变可能同时影响两者。
 
 ---
 
 ## 07 方法总览
 
-- **输入**：FXR 全长序列（NTD 区域）；FXR 野生型及 SXXLF 突变体表达质粒；共调节因子（coregulator）候选蛋白；FXR LBD 表达构建体。
-- **输出**：SXXLF motif 的功能注释（互作介导 + 转录调控）；突变对构象与变构耦合影响的 MD 表征。
+- **输入**：
+  - 人 FXRα1（UniProt Q96RI1-1）全长 cDNA；
+  - FXR NTD 序列（1–119）、NTD-DBD（1–196）、LBD（245–476）；
+  - 共调节因子：SRC1（含 NR box 肽段）、SRC2、p300 表达质粒；
+  - 4 种 FXR 激动剂：CDCA、fexaramine、OCA、GW4064；
+  - AlphaFold 3 服务器（用于结构预测）；
+  - Amber 18/20/22 与 Anton 3 超算（用于 MD）。
+
+- **输出**：
+  - 转录活性 fold change（荧光素酶/海肾比值）；
+  - 蛋白-蛋白互作 fold change（M2H）；
+  - NTD 独立转录激活能力（M1H）；
+  - 肽段-LBD 结合 EC50（荧光偏振）；
+  - MD 轨迹：接触图、Cα-Cα 距离分布、相关性矩阵、构象聚类。
+
 - **模块**：
-  1. 序列分析模块：NTD 序列比对与 motif 预测（SXXLF 候选）
-  2. 互作检测模块：哺乳动物双杂交（NTD–LBD；NTD–coregulator）
-  3. 转录功能模块：哺乳动物单杂交（转录激活报告基因）
-  4. 构象动态模块：MD 模拟（WT vs 突变体）
-- **训练**：不适用（无机器学习模型）
-- **工具**：哺乳动物双杂交/单杂交试剂盒（未提供具体品牌）；MD 模拟软件（未提供具体名称，推测为 GROMACS/AMBER 类，但原文未注明）
-- **反馈回路**：突变设计 → 功能实验验证 → MD 模拟解释构象机制 → 返回修正 motif 功能模型
-- **文字流程**：先通过序列分析锁定 SXXLF 候选 motif → 构建 WT 和突变体 → 双杂交检测 NTD 与 LBD 及 coregulator 的互作是否依赖该 motif → 单杂交检测转录激活是否受影响 → MD 模拟 WT 与突变体的构象系综差异，解释突变如何通过变构耦合改变 FXR 功能。
+  1. 克隆与突变构建（ΔNTD、SENAA）；
+  2. 报告基因系统（IR1-luc、PLTP-luc）；
+  3. M2H 系统（NTD-LBD、NTD-coregulator）；
+  4. M1H 系统（NTD 独立活性）；
+  5. FP 结合实验（合成肽段 vs 全长 FXR）；
+  6. AlphaFold 3 结构预测；
+  7. MD 模拟（WT vs SENAA，单体和异二聚体）。
+
+- **训练**：无监督训练（AlphaFold 3 为预训练模型，本文未微调）。
+
+- **反馈回路**：实验（突变 → 功能变化）→ 模拟（构象解释）→ 新假设（其他 NTD 区域也有功能）→ 未来实验。
+
+- **文字流程**：
+  1. 克隆 FXR 及突变体 → 2. 报告基因检测转录活性（ΔNTD vs WT，多配体）→ 3. M2H 检测 NTD-LBD 互作（WT vs SENAA）→ 4. M1H 检测 NTD 独立活性 → 5. FP 验证 SENLF 肽段与 LBD 直接结合 → 6. AlphaFold 3 生成全长模型 → 7. MD 模拟比较 WT/SENAA 的构象动态和耦合 → 8. 综合分析得出结论。
 
 ---
 
 ## 08 核心模块拆解
 
 | 模块 | 功能 | 为何需要 | 输入输出 | 支撑证据 | 移除后的已知或预期影响 |
-|------|------|----------|----------|----------|------------------------|
-| 序列分析/motif 预测 | 在 NTD 中定位候选功能 motif | NTD 无序且保守性低，需先缩小功能区域 | 输入：NTD 序列；输出：SXXLF 候选 | 作者在 Results 中描述 motif 鉴定过程（未提供具体图/表编号） | 预期影响：无此模块则无法指导突变设计，实验将变为盲目扫描 [Analysis] |
-| 哺乳动物双杂交（NTD–LBD） | 检测 NTD 与 LBD 的域间互作 | 验证 NTD 是否与 LBD 直接接触 | 输入：NTD 与 LBD 融合表达载体；输出：互作信号强度 | Results 节（未提供具体图号） | 实测消融：SXXLF 突变后互作信号显著下降（作者结论） |
-| 哺乳动物双杂交（NTD–coregulator） | 检测 NTD 与共调节因子的直接互作 | 验证 NTD 是否直接招募共调节因子 | 输入：NTD 与 coregulator 融合载体；输出：互作信号 | Results 节（未提供具体图号） | 实测消融：SXXLF 突变后 coregulator 互作减弱（作者结论） |
-| 哺乳动物单杂交 | 检测转录激活功能 | 将互作结果与功能输出关联 | 输入：NTD 融合 GAL4-DBD + 报告基因；输出：荧光素酶活性 | Results 节（未提供具体图号） | 预期影响：突变应降低转录激活（作者未明确做此实验，[Analysis] 推测） |
-| MD 模拟 | 表征 WT 与突变体的构象系综和变构耦合 | 解释突变如何通过构象变化影响功能 | 输入：FXR 结构模型（来源未注明）；输出：RMSD/RMSF/互作能量等 | Results 节（未提供具体图号） | 实测消融：突变体显示构象和变构耦合的大幅变化（作者结论） |
+|---|---|---|---|---|---|
+| ΔNTD 报告基因实验 | 评估 NTD 整体对转录活性的贡献 | 建立 NTD 功能必要性的基线 | 输入：ΔNTD/WT FXR + 4 配体；输出：fold change | Results 图 1B：ΔNTD 显著降低所有配体响应 | 无法判断 NTD 是否参与转录（预期：活性下降 >50%，实测确认） |
+| SENAA 点突变报告基因 | 评估 SENLF 基序的特异性贡献 | 区分基序功能与 NTD 整体功能 | 输入：SENAA/WT FXR；输出：fold change | Results 图 3D：SENAA 降低活性但弱于 ΔNTD | 无法定位具体功能基序（预期：活性部分下降，实测确认） |
+| M2H（NTD-LBD） | 检测 NTD 与 LBD 的分子内互作 | 验证 interdomain interaction 的存在 | 输入：VP16-NTD + GAL4-LBD；输出：荧光素酶活性 | Results 图 1D：NTD-LBD 互作显著，SENAA 降低互作 | 无法判断 NTD 是否与 LBD 直接接触（预期：互作信号下降） |
+| M2H（NTD-coregulator） | 检测 NTD 与共调节因子的直接互作 | 验证 NTD 是否独立于 LBD 结合共调节因子 | 输入：VP16-NTD + GAL4-SRC1-2/3M；输出：荧光素酶活性 | Results 图 2E-F：NTD 干扰 LBD-coregulator 互作；SRC1-3M 抵抗干扰 | 无法判断 NTD 是否参与共调节因子招募（预期：NTD 竞争或增强） |
+| M1H（GAL4-NTD） | 检测 NTD 独立转录激活能力 | 验证 NTD 是否具有 AF-1 活性 | 输入：GAL4-NTD + 报告基因；输出：荧光素酶活性 | Results 图 2B：NTD 单独具有转录活性，SRC2 增强 | 无法判断 NTD 是否独立招募共激活因子（预期：有活性，实测确认） |
+| FP 肽段结合 | 定量 SENLF 肽段与 LBD 的结合亲和力 | 提供生化层面的直接结合证据 | 输入：FITC-SENLF/SENAA 肽段 + FXR 蛋白；输出：EC50 | Results 图 4B：SENLF EC50 32.1 µM，SENAA 42.3 µM | 无法确认基序直接结合 LBD（预期：SENAA 结合减弱，实测确认但差异不大） |
+| AlphaFold 3 建模 | 生成全长 FXR 结构（含 NTD） | 为 MD 提供起点结构 | 输入：FXR 序列；输出：3D 结构模型 | Results 图 3B-C：NTD 无序但 SENLF 形成 helix 并靠近 LBD AF-2 | 无法获得 NTD 的可靠静态结构（预期：低置信度，实测确认） |
+| MD 模拟（单体） | 比较 WT/SENAA 的构象动态 | 解释突变如何改变 NTD-LBD 互作 | 输入：AF3 模型；输出：轨迹、接触图、距离分布 | Results 图 5A：单体接触图差异小 | 无法解释突变的功能效应（预期：差异小，实测确认） |
+| MD 模拟（异二聚体） | 在 DNA 结合背景下比较 WT/SENAA | 模拟生理相关状态 | 输入：FXR-RXR-DNA 复合物模型；输出：轨迹、接触图、相关性矩阵 | Results 图 5C-G：WT 中 NTD 1-30 与 LBD C 端（含 H12）有广泛接触，SENAA 中消失；相关性分析显示 WT 有正耦合，SENAA 反转为负 | 无法捕捉 DNA 结合状态下的构象变化（预期：差异显著，实测确认） |
 
 ---
 
 ## 09 关键公式符号
 
-不适用。本文为实验生物学 + MD 模拟研究，未涉及需要列出的数学公式。MD 模拟中使用的标准物理量（如 RMSD、RMSF、相互作用能）为领域通用指标，原文未给出具体公式定义。
+本文为实验生物学论文，未使用形式化数学模型。以下为 MD 模拟中隐含但未在文中显式给出的标准公式（不适用则注明）：
+
+- **不适用**：文中未给出任何显式数学公式。MD 模拟部分隐含使用了以下标准方法（作者未在正文中列出具体参数方程）：
+  - 分子力学力场：ff14SB（蛋白质）、TIP3P（水）
+  - 运动方程积分：SHAKE 算法（2 fs 时间步长）
+  - 相关性分析：Pearson 相关系数（用于 Cα-Cα 距离相关性矩阵，Results 图 5G）
+  - 统计检验：Student's t-test（p < 0.05，用于距离差异显著性，Results 图 S2）
 
 ---
 
 ## 10 实验设计与证据链
 
-- **数据集/群体**：FXR 野生型及 SXXLF 突变体（具体突变位点未在摘要中给出）；共调节因子候选（具体名称未在摘要中给出）
-- **规模**：未提供（未说明实验重复次数、细胞系等）
-- **指标**：双杂交互作信号强度；单杂交转录激活水平；MD 模拟的构象指标（RMSD、RMSF、变构耦合度量）
-- **基线**：野生型 FXR 作为对照
-- **预算**：未提供
-- **骨干/仪器**：未提供（细胞系、报告基因载体、MD 软件均未在摘要中注明）
-- **oracle 输入**：不适用
-- **评测协议**：未提供（未说明统计方法、显著性阈值等）
+**数据集/群体**：
+- 细胞系：HeLa（ATCC）
+- 蛋白：人 FXRα1（UniProt Q96RI1-1），含 WT、ΔNTD、SENAA 突变体
+- 共调节因子：SRC1（全长及 NR box 肽段）、SRC2、p300
+- 配体：CDCA、fexaramine、OCA、GW4064（均为 FXR 激动剂）
+- 肽段：SENLF（WT）和 SENAA（突变）各 20 aa，FITC 标记
+- MD 系统：单体 FXR（6 条 5 µs 轨迹/体系）、FXR-RXR-DNA 异二聚体（4 条 1.5–3.5 µs 轨迹/体系）
+
+**指标**：
+- 转录活性：荧光素酶/海肾比值（fold change）
+- 蛋白互作：M2H 荧光素酶活性（fold change）
+- 结合亲和力：EC50（µM）
+- 构象变化：Cα-Cα 距离、接触图、相关性矩阵
+
+**基线/对照**：
+- 空载体（pcDNA3.1）
+- 空 VP16/GAL4 载体
+- DMSO 处理（配体对照）
+- WT FXR 序列
+
+**预算/资源**：未提供具体实验预算；MD 使用 Anton 3 超算（NIH 资助）。
+
+**评测协议**：
+- 每个实验至少 3 个生物学重复，数据以 mean ± SD 表示
+- 统计：two-way ANOVA + Dunnett's multiple comparisons test；Student's t-test（MD 距离比较）
 
 | 实验 | 检验的 claim | 对比与条件 | 结果 | 支持的结论 | 不支持更强的结论 | 来源 |
-|------|-------------|------------|------|-------------|-------------------|------|
-| 哺乳动物双杂交（NTD–LBD） | NTD 与 LBD 存在直接互作 | WT vs SXXLF 突变体 | 突变显著降低互作信号 | SXXLF 介导 NTD–LBD 域间互作 | 不能证明互作是直接的（双杂交可能反映间接互作） | Results 节（未提供图号） |
-| 哺乳动物双杂交（NTD–coregulator） | NTD 直接结合共调节因子 | WT vs SXXLF 突变体 | 突变降低 coregulator 互作 | SXXLF 介导 NTD–coregulator 互作 | 未鉴定具体 coregulator 身份；未证明互作特异性 | Results 节（未提供图号） |
-| MD 模拟 | 突变改变构象与变构耦合 | WT vs 突变体模拟轨迹 | 突变诱导大尺度构象变化和变构耦合改变 | SXXLF 对 FXR 构象稳态至关重要 | MD 基于模型，非实验验证；未提供结构模型来源 | Results 节（未提供图号） |
-| 哺乳动物单杂交 | SXXLF 影响转录激活 | WT vs 突变体（推测） | 未在摘要中明确报告 | 摘要仅称 motif「modulates transcriptional activity」 | 未提供具体数据 | 摘要末句 |
+|---|---|---|---|---|---|---|
+| ΔNTD 报告基因 | NTD 对 FXR 转录活性必要 | ΔNTD vs WT，4 配体 | ΔNTD 活性下降 >50% | NTD 是 FXR 转录活性的主要贡献者 | 不能确定 NTD 是否直接结合 DNA 或共调节因子 | Results 图 1B |
+| SENAA 报告基因 | SENLF 基序介导 NTD 功能 | SENAA vs WT vs ΔNTD | SENAA 活性下降但弱于 ΔNTD | SENLF 是功能性基序，但 NTD 还有其他功能区域 | 不能确定 SENLF 是否直接结合 LBD 或共调节因子 | Results 图 3D |
+| M2H NTD-LBD | NTD 与 LBD 直接互作 | VP16-NTD + GAL4-LBD vs 对照 | 显著互作信号 | NTD 与 LBD 存在分子内互作 | 不能确定互作是否直接（可能通过中间蛋白） | Results 图 1D |
+| M2H NTD-coregulator | NTD 与共调节因子互作 | VP16-NTD + GAL4-SRC1-2/3M | NTD 降低 SRC1-2 信号，不影响 SRC1-3M | NTD 与 LBD 竞争共调节因子；多价互作抵抗竞争 | 不能确定 NTD 是否直接结合共调节因子 | Results 图 2E-F |
+| M1H NTD 活性 | NTD 独立转录激活 | GAL4-NTD vs GAL4 空载体 | NTD 有活性，SRC2 增强 | NTD 具有 AF-1 功能，可独立招募共激活因子 | 不能确定 SRC2 是否直接结合 NTD | Results 图 2B |
+| FP 结合 | SENLF 肽段直接结合 LBD | SENLF vs SENAA 肽段 + FXR | SENLF EC50 32.1 µM，SENAA 42.3 µM | SENLF 与 LBD 有弱直接结合；突变降低结合 | 差异较小，不能确定 SENLF 是唯一结合位点 | Results 图 4B |
+| MD 单体 | 突变改变单体构象 | WT vs SENAA 单体 | 接触图差异小 | 单体状态下突变效应有限 | 不能排除单体状态下无功能差异 | Results 图 5A |
+| MD 异二聚体 | 突变改变 DNA 结合状态下的构象 | WT vs SENAA FXR-RXR-DNA | WT 中 NTD 1-30 与 LBD C 端（H12）广泛接触，SENAA 中消失；距离从 18.7 Å 增至 37.2 Å（G27-Q313） | SENLF 介导 NTD-LBD 接触，突变破坏互作并改变 allosteric coupling | 模拟预测需实验验证（如交联质谱） | Results 图 5C-G、S2 |
 
 ---
 
 ## 11 结论正确解读
 
-- **任务范围**：本文仅针对 FXR 的 NTD 中 SXXLF motif 的功能，不涉及 FXR 其他结构域或其他 NR 的 NTD。
-- **oracle/真值输入**：无 oracle；所有结论基于实验互作信号和 MD 模拟。
-- **端到端状态**：非端到端。实验验证了互作和转录功能，MD 提供了机制解释，但未将 MD 预测与实验直接闭环（如未用 MD 指导新突变设计并验证）。
-- **算力成本**：未提供 MD 模拟的规模、时长、力场等细节。
-- **历史数据依赖**：依赖已知 NR 中 NTD motif 的研究（如 AR 的 FQNLF/WXXLF）作为类比基础，但未在摘要中引用具体文献。
-- **模型依赖**：MD 模拟依赖 FXR 结构模型，但模型来源（实验结构或同源建模）未在摘要中说明。
-- **最难情形**：NTD 为 IDR，MD 模拟 IDR 的构象采样本身具有挑战性；突变效应的变构解释可能依赖模拟参数选择。
-- **群体/领域边界**：结论仅适用于 FXR；推广到其他 NR 需谨慎，因为 NTD 保守性极低。
-- **不确定性**：未提供统计显著性、效应量、重复次数；未提供 MD 模拟的收敛性分析。
-- **有边界的复述**：在 FXR 中，NTD 的 SXXLF motif 通过介导 NTD–LBD 域间互作和 NTD–coregulator 互作来调节转录活性；该 motif 的突变会改变 FXR 的构象系综和变构耦合。此结论基于双杂交和 MD 模拟，未在体内或内源水平验证。
+- **任务范围**：本文仅研究 FXRα1 亚型，不涵盖 FXRα2-4；仅测试 4 种激动剂；共调节因子仅测试 SRC1、SRC2、p300。
+- **oracle/真值输入**：AlphaFold 3 预测结构作为 MD 起点，但作者明确承认 NTD 预测置信度极低（平均 24.23 分），因此 MD 结果应视为「基于低置信度起点的探索性模拟」，而非高保真结构预测。
+- **端到端状态**：本文不是端到端 pipeline。实验（报告基因、M2H、M1H、FP）与模拟（MD）是平行证据，未形成闭环（如模拟预测 → 实验验证 → 修正模拟）。
+- **算力成本**：未提供具体 GPU 小时数或 Anton 3 机时；单体 6×5 µs + 二聚体 4×1.5–3.5 µs 为中等规模。
+- **历史数据依赖**：依赖 AlphaFold 3 预训练模型，未进行微调或 ensemble 重采样。
+- **模型依赖**：MD 结果依赖 ff14SB 力场和 TIP3P 水模型，未测试其他力场。
+- **最难情形**：NTD 的无序性使得模拟采样可能不充分；µM 级结合亲和力在 FP 实验中信号较弱。
+- **群体/领域边界**：结论仅适用于 FXRα1 的 NTD；SXXLF 基序在其他 NR 中的保守性和功能未验证。
+- **不确定性**：作者未提供 MD 轨迹的收敛性分析、力场验证或重复性检验；FP 实验 EC50 差异（32 vs 42 µM）未报告置信区间。
+
+**有边界的复述**：在 FXRα1 中，NTD 通过 SENLF 基序与 LBD 发生分子内互作，并参与共调节因子招募；突变该基序降低转录活性并改变模拟中的构象耦合，但 NTD 的完整功能由多个区域共同承担，SENLF 只是其中之一。
 
 ---
 
 ## 12 作者自认局限
 
-在提供的材料（摘要）中未发现作者明确承认的局限。
-
-**作者提及的相关约束**（非正式局限，基于摘要措辞推断）：
-- 摘要未提供具体实验细节（如细胞系、coregulator 身份、MD 参数），暗示这些细节在正文中，但摘要层面无法评估。
-- 摘要仅称「modulates transcriptional activity」，未提供转录活性的定量数据或机制细节。
+| 局限 | 具体表现 | 作者提出的未来方向 | 来源 |
+|---|---|---|---|
+| NTD 无序性限制结构解析 | NTD 高度无序，无法获得实验结构 | 未明确提及 | Introduction |
+| 共调节因子研究范围有限 | 仅测试 SRC1、SRC2、p300 | 未来将测试更多共调节因子以理解其在 NTD 与 LBD 间的分配 | Discussion |
+| 未包含 RXR 异二聚体 | 所有实验在无 RXR 条件下进行 | 作者承认排除 RXR 是为了隔离 FXR NTD 特异性互作，但未提出未来加入 RXR 的计划 | Discussion |
+| 亚型差异未探索 | 仅研究 FXRα1 | 作者指出 FXRα3/α4 的 NTD 更长且不含 SENLF，暗示不同亚型可能使用不同机制，但未展开 | Discussion |
+| MD 模拟基于低置信度模型 | AlphaFold 3 对 NTD 预测置信度极低（24.23） | 未明确提及改进方案 | Results 图 3B、Table S1 |
+| SENLF 不是 NTD 全部功能 | SENAA 突变未完全模拟 ΔNTD 表型 | 未来需鉴定 NTD 中其他功能性基序 | Discussion |
 
 ---
 
 ## 13 批判性分析
 
 | [Analysis] 观察 | 潜在问题或替代解释 | 为何重要 | 如何检验 | 依据 |
-|-----------------|---------------------|----------|----------|------|
-| 双杂交实验检测的互作可能非直接 | 双杂交信号可能由中间桥接蛋白介导，而非 NTD 与 LBD/coregulator 的直接结合 | 若互作是间接的，SXXLF 的「直接介导」结论需弱化 | 使用纯化蛋白进行体外 pull-down 或 ITC 验证直接互作 | 双杂交的固有局限（领域共识） |
-| MD 模拟的模型来源未说明 | 若使用同源建模，IDR 区域的初始构象可能偏差大，影响变构耦合结论 | MD 结论的可信度依赖模型质量 | 检查正文中模型构建方法；使用实验结构（如 SAXS 或 Cryo-EM）交叉验证 | 摘要未提供模型来源 |
-| 未报告转录活性的定量数据 | 摘要仅定性称「modulates」，无法评估效应量 | 无法判断 SXXLF 对转录调控的重要性程度 | 查看正文中单杂交的荧光素酶数据 | 摘要措辞 |
-| 未鉴定具体 coregulator 身份 | 不同 coregulator 可能通过不同机制与 SXXLF 互作 | 无法判断 SXXLF 是通用互作界面还是特异识别 | 查看正文中 coregulator 筛选实验 | 摘要未提供 |
-| SXXLF 与已知 NR motif（如 AR 的 FQNLF/WXXLF）的关系未讨论 | 若 SXXLF 与已知 motif 功能重叠，则「novel」的claim需限定 | 影响该 motif 在 NR 家族中的普遍性判断 | 比较 SXXLF 与已知 NR motif 的序列和功能 | 摘要未提及 |
+|---|---|---|---|---|
+| M2H 中 NTD 降低 LBD-SRC1-2 互作，但 SRC1-3M 不受影响 | 可能不是 NTD 竞争共调节因子，而是 NTD 引起 LBD 构象变化间接影响单基序结合；多基序结合亲和力高，抵抗构象变化 | 影响对 NTD 作用机制的理解（直接竞争 vs 变构调节） | 使用纯化蛋白做等温滴定量热或表面等离子共振，直接检测 NTD 是否与 SRC1 肽段结合 | Results 图 2E-F |
+| FP 实验中 SENLF 与 SENAA 的 EC50 差异仅 10 µM（32 vs 42），未报告误差棒 | 差异可能不显著；SENLF 可能不是主要结合位点 | 若差异不显著，则「SENLF 介导 LBD 结合」的核心 claim 被削弱 | 重复实验并报告 95% 置信区间；增加阳性对照（已知 LXXLL 肽段） | Results 图 4B |
+| MD 模拟中 WT 与 SENAA 的构象差异仅在异二聚体（含 DNA）中显著，单体中不显著 | 可能说明 DNA 结合诱导 NTD-LBD 互作，而非 NTD-LBD 互作促进 DNA 结合；因果方向未定 | 影响对「interdomain interaction 如何调控转录」的机制理解 | 设计实验：固定 DNA 后加入 NTD 肽段，检测是否增强 FXR-DNA 结合 | Results 图 5A vs 5C |
+| AlphaFold 3 对 NTD 的预测置信度极低（24.23），但 MD 结论依赖该结构 | 低置信度起点可能导致 MD 采样偏向错误构象 | 若起点结构错误，所有 MD 结论（接触、距离、耦合）均不可靠 | 使用多种无序区预测工具（如 AlphaFold 3 不同 seed、ESMFold）生成 ensemble 起点，比较 MD 结果稳健性 | Results 图 3B、Table S1 |
+| 所有功能实验在 HeLa 细胞中进行 | HeLa 的共调节因子表达谱可能与其他细胞类型不同，结论可能不具普适性 | 影响结论的外推性 | 在肝细胞系（如 HepG2）中重复关键实验 | Methods 细胞培养节 |
+| 作者未测试 SENLF 基序在其他 NR 中的保守性 | 若 SXXLF 是 NR 通用基序，则结论影响面更大；若仅 FXR 特有，则普适性有限 | 影响对 NR 家族整体机制的理解 | 对 NR 家族 NTD 序列进行多序列比对，检查 SXXLF 保守性 | Discussion 提及 "first report of an SXXLF NR-interacting motif" |
 
 ---
 
-## 14 Agent 提炼的知识候选
+## 14 学到什么
 
-**可迁移概念与方法（面向 TF–DNA 互作 × AI/物理模拟课题）：**
+> Agent 提炼的知识候选
 
-1. **IDR 中双功能 motif 的筛查策略**：本文展示了如何在无序结构域中通过「突变 + 互作实验 + MD」三步法鉴定功能 motif。对 TF 研究：许多 TF 的 N 端或 C 端 IDR 可能含有同时调控 DNA 结合和共调节因子招募的 motif，可借鉴此策略系统筛查。
-   - **迁移方式**：对目标 TF 的 IDR 进行序列 motif 预测（如 SLiM 数据库）→ 突变 → 电泳迁移率变动分析（EMSA）检测 DNA 结合 + 双杂交检测共调节因子互作 → MD 模拟解释构象机制。
-
-2. **MD 模拟用于 IDR 突变效应的变构解释**：本文用 MD 比较 WT 与突变体的构象系综和变构耦合。对 TF–DNA 课题：MD 可用于解释 TF 中远端突变如何通过变构影响 DNA 结合域（DBD）的构象，从而改变 DNA 结合亲和力或特异性。
-   - **迁移方式**：对 TF 全长或 DBD+IDR 构建体进行 MD 模拟，计算突变前后的 RMSF、动态互作网络（dynamic network analysis），识别变构通路。
-
-3. **哺乳动物双杂交/单杂交组合**：双杂交检测蛋白-蛋白互作，单杂交检测转录激活功能。对 TF 研究：可同时评估 TF 的 DNA 结合（单杂交）和共调节因子招募（双杂交），建立「互作-功能」关联。
-   - **迁移方式**：对 TF 突变体库进行双杂交（共调节因子）+ 单杂交（DNA 结合）平行筛选，快速定位功能关键残基。
-
-4. **「一 motif 多界面」的概念**：SXXLF 同时介导两种互作，提示 TF 中的短 motif 可能具有多价功能。对 TF–DNA 课题：DNA 结合域附近的 motif 可能同时接触 DNA 骨架和共调节因子，这种双界面 motif 可能是 TF 调控的普遍机制。
-   - **迁移方式**：在 TF 结构预测（如 AlphaFold3）中，关注 DBD 附近 IDR 区域的 motif，检查其是否可能同时参与 DNA 和蛋白互作。
-
-5. **实验与模拟的闭环设计**：本文用实验鉴定功能，用 MD 解释机制。对计算驱动课题：可反向设计——先用 MD 或 AI 预测候选 motif，再用实验验证，形成闭环。
-   - **迁移方式**：用 AlphaFold2/3 或 MD 粗粒化模拟预测 TF IDR 中可能的功能 motif，优先验证预测得分高的区域。
+1. **无序结构域功能解剖的「基序-突变-模拟」三件套**：即使无法获得实验结构，通过序列比对寻找保守基序 → 点突变 → 功能实验 + MD 模拟验证，可以系统解剖 IDR 的功能。可迁移到其他 TF 的 IDR 研究。
+2. **分子内互作与分子间互作的耦合**：NTD 通过同一基序同时参与 LBD 互作和共调节因子招募，且两者存在竞争关系。对 TF 研究而言，设计突变体时需同时考虑 domain-domain 和 domain-coregulator 两种互作。
+3. **多价互作抵抗竞争**：SRC1-3M（含 3 个 LXXLL 基序）抵抗 NTD 干扰，而单基序 SRC1-2 不能。提示在研究 TF-coregulator 互作时，共调节因子的多价性可能改变竞争格局。
+4. **MD 模拟中「单体 vs 复合物」的差异**：突变效应在单体中不显著、在 DNA 结合复合物中显著，说明模拟体系的选择直接影响结论。对 TF-DNA 互作研究，建议在 DNA 结合状态下评估突变效应。
+5. **弱亲和力互作（µM 级）的功能意义**：FP 显示 32 µM 的弱结合仍具有功能效应。在 TF 研究中，不应仅以亲和力判断互作相关性，需结合功能实验。
+6. **ΔNTD 与点突变的表型差异**：ΔNTD 表型比 SENAA 更严重，说明 IDR 功能是多基序、多区域的叠加。对 TF 研究，全删除突变体不能用于定位特定基序功能。
+7. **AlphaFold 3 对 IDR 的预测局限**：即使置信度极低（24.23），仍可作为 MD 起点，但需谨慎解读。对 TF-IDR 研究，建议使用 ensemble 方法而非单一预测结构。
 
 ---
 
 ## 15 与已有知识连接
 
-- **核受体 NTD motif 研究**：AR 的 FQNLF 和 WXXLF motif 介导 NTD–LBD 互作（He et al., 2000, J Biol Chem；经外部核验的领域共识）。本文的 SXXLF 与 WXXLF 序列相似（SXXLF vs WXXLF），可能属于同一类「ΦXXLF」基序家族。可对比 SXXLF 与 WXXLF 的功能异同。
-- **IDR 与 SLiM 研究**：短线性 motif（SLiM）在无序蛋白中介导互作是领域共识（如 ELM 数据库）。本文的 SXXLF 是 SLiM 的一个新实例，可纳入 SLiM 数据库的候选。
-- **FXR 结构与功能**：FXR 的 LBD 结构已解析（PDB 条目如 1OSH 等），共调节因子招募机制清楚。本文补充了 NTD 侧的功能信息，可与 LBD 研究整合形成 FXR 全长调控模型。
-- **MD 模拟在核受体中的应用**：MD 已广泛用于核受体配体结合域的动态研究（如 LBD 的折叠与配体识别）。本文将其扩展到 NTD–LBD 互作，是 MD 在 NR 研究中的新应用场景。
-- **与 AI 结构预测的潜在连接**：AlphaFold2/3 对 IDR 的预测置信度低，但可预测 NTD–LBD 的相对取向。本文的 SXXLF 突变数据可作为 AI 模型验证或训练的参考数据集。
+- **核受体 N/C 互作（AR 的 FXXLF/WXXLF）**：本文发现的 SXXLF 与 AR 的 FQNLF 序列相似，且功能类似（介导 NTD-LBD 互作）。可对比 He B 等人在 AR 上的经典工作（He et al., 2000, JBC），检验 SXXLF 是否与 FXXLF 共享结合口袋。
+- **共调节因子 NR box（LXXLL）**：本文的 SRC1-2/3M 构建基于 LXXLL 基序。可连接 Savkur & Burris (2004) 对 NR box 的综述，理解 SXXLF 与 LXXLL 的竞争关系。
+- **无序蛋白与转录凝聚体**：NTD 的 IDR 特性与转录凝聚体形成相关（Boija et al., 2018, Cell）。本文未涉及相分离，但 SXXLF 介导的互作可能参与凝聚体组装，值得探索。
+- **FXR 结构与功能**：FXR LBD 的晶体结构已有报道（e.g., Mi et al., 2003, Mol Cell）。本文的 MD 模拟可与此类结构对比，验证 NTD 是否占据 LBD 的共调节因子结合表面。
+- **AlphaFold 3 在 IDR 研究中的应用**：本文展示了 AF3 预测 IDR 的局限与用途。可连接 Ruff & Pappu (2021) 对 IDR 计算研究的综述，讨论 AF3 在无序区研究中的适用边界。
+- **MD 模拟在 TF 研究中的应用**：本文使用微秒级 MD 探索构象 ensemble。可连接 Chen (2023) 对 MD 在转录因子-DNA 互作中应用的综述，比较不同力场和采样策略。
 
 ---
 
-## 16 Agent 生成的研究候选
+## 16 研究想法
 
-**候选 1：TF IDR 中双功能 motif 的系统筛查**
-- **名称**：Systematic SLiM Screening in TF IDRs for Dual DNA/Coregulator Interfaces
-- **来源局限/观察**：本文证明 FXR NTD 的 SXXLF 同时介导共调节因子和域间互作；TF 的 IDR 可能具有类似双功能 motif，但缺乏系统筛查方法。
-- **核心假设**：在 TF 的 IDR 中存在一类「双界面 SLiM」，同时参与 DNA 结合辅助和共调节因子招募。
-- **初步方法**：对一组 TF（如 p53、NF-κB、STAT 家族）的 IDR 进行 SLiM 预测 → 构建突变体库 → 双杂交（共调节因子）+ 单杂交（DNA 结合）平行筛选 → MD 模拟验证候选 motif 的构象效应。
-- **验证方式**：EMSA 检测 DNA 结合变化；共免疫沉淀验证共调节因子互作；报告基因检测转录活性。
-- **创新状态**：unverified
+> Agent 生成的研究候选
 
-**候选 2：MD 驱动的 TF 变构通路预测与实验验证**
-- **名称**：MD-Based Allosteric Pathway Prediction in TF-IDR–DBD Systems
-- **来源局限/观察**：本文用 MD 揭示 SXXLF 突变改变 FXR 构象与变构耦合；TF 中 IDR 突变如何变构影响 DBD 的 DNA 结合尚不清楚。
-- **核心假设**：TF 的 IDR 中特定 motif 通过变构网络调控 DBD 的 DNA 结合亲和力，MD 可预测这些变构通路。
-- **初步方法**：对目标 TF 进行 MD 模拟（WT vs IDR motif 突变体）→ 动态互作网络分析（DINN）识别变构通路 → 预测关键残基 → 突变验证（EMSA + 荧光各向异性）。
-- **验证方式**：MD 预测的变构残基突变后应改变 DNA 结合亲和力；与实验数据对比。
-- **创新状态**：unverified
+1. **候选名称**：SXXLF 基序在核受体家族中的保守性与功能普适性扫描
+   - **来源局限/观察**：本文仅研究 FXRα1，且作者自认 SXXLF 是首次报道，未检查其他 NR。
+   - **核心假设**：SXXLF 或类似 SXXLF 基序存在于多个 NR 的 NTD 中，并介导保守的 NTD-LBD 互作。
+   - **初步方法**：对 48 个人类 NR 的 NTD 序列进行 motif 扫描；对含 SXXLF 的 NR 进行 M2H 验证；用 AlphaFold 3 预测 NTD-LBD 互作模式。
+   - **验证方式**：突变 SXXLF 后检测转录活性变化；比较不同 NR 的 SXXLF 互作强度。
+   - **创新状态**：unverified
 
-**候选 3：SXXLF motif 在其他核受体中的保守性分析**
-- **名称**：Cross-NR Conservation Analysis of SXXLF-like Motifs in NTDs
-- **来源局限/观察**：本文在 FXR 中发现 SXXLF，但未检查该 motif 在其他 NR 中的保守性；AR 的 WXXLF 与 SXXLF 序列相似。
-- **核心假设**：SXXLF 或 ΦXXLF 类 motif 在多个 NR 的 NTD 中保守，且功能类似（介导 NTD–LBD 和共调节因子互作）。
-- **初步方法**：对 NR 超家族 NTD 序列进行 motif 扫描 → 选择候选 NR 进行双杂交验证 → 比较功能保守性。
-- **验证方式**：双杂交 + 突变 + 转录活性检测。
-- **创新状态**：unverified
+2. **候选名称**：DNA 结合对 FXR NTD-LBD 构象耦合的调控机制
+   - **来源局限/观察**：MD 模拟显示 DNA 结合状态下 NTD-LBD 互作增强，但实验未验证 DNA 是否影响 NTD-LBD 互作。
+   - **核心假设**：DNA 结合诱导 FXR 构象变化，增强 NTD-LBD 互作，从而稳定共调节因子招募。
+   - **初步方法**：在 M2H 实验中加入含 FXRE 的 DNA 片段，检测 NTD-LBD 互作是否增强；用 HDX 质谱比较有无 DNA 时的构象动态。
+   - **验证方式**：DNA 存在时 NTD-LBD 互作信号增强；HDX 显示 NTD 区域在 DNA 结合后保护增加。
+   - **创新状态**：unverified
 
-**候选 4：AI 辅助的 IDR motif 功能预测模型**
-- **名称**：AI-Based Prediction of Dual-Function Motifs in IDRs
-- **来源局限/观察**：本文的 SXXLF 鉴定依赖实验筛选，效率低；AI 模型可加速 IDR 中功能 motif 的预测。
-- **核心假设**：结合序列特征和结构预测（AlphaFold2/3 的 pLDDT 和 PAE），可训练模型预测 IDR 中具有双界面功能的 motif。
-- **初步方法**：收集已知 NR/TF IDR motif 数据（如本文 SXXLF、AR 的 FQNLF/WXXLF）→ 训练分类器 → 在未表征 TF 中预测候选 motif → 实验验证。
-- **验证方式**：预测的 motif 在实验中应显示互作和功能效应。
-- **创新状态**：unverified（需先验证数据量是否足够）
+3. **候选名称**：SXXLF 基序与 LXXLL 共调节因子的竞争性结合机制
+   - **来源局限/观察**：M2H 显示 NTD 干扰 LBD-SRC1-2 互作，但机制不清（直接竞争 vs 变构）。
+   - **核心假设**：SXXLF 与 LXXLL 竞争 LBD 上相同的结合表面（AF-2 疏水沟）。
+   - **初步方法**：分子对接模拟 SXXLF 肽段与 FXR LBD 的结合模式；突变 LBD 的 AF-2 关键残基（如电荷钳位点）检测 SXXLF 结合是否消失；竞争性 FP 实验。
+   - **验证方式**：对接显示 SXXLF 占据 AF-2 沟；AF-2 突变消除 SXXLF 结合；FP 竞争实验显示 SXXLF 肽段竞争 LXXLL 肽段结合。
+   - **创新状态**：unverified
 
-**候选 5：FXR NTD–LBD 互作的增强采样 MD 研究**
-- **名称**：Enhanced-Sampling MD of FXR NTD–LBD Interaction: SXXLF-Dependent Binding
-- **来源局限/观察**：本文 MD 仅比较 WT 与突变体的构象差异，未直接模拟 NTD–LBD 结合过程；增强采样可揭示 SXXLF 介导结合的分子机制。
-- **核心假设**：SXXLF 通过特定的疏水/极性接触驱动 NTD–LBD 结合，增强采样 MD 可捕获结合路径和关键中间态。
-- **初步方法**：对 FXR NTD（含 SXXLF）和 LBD 进行增强采样 MD（如 GaMD、REMD）→ 分析结合自由能面和关键接触 → 与突变体比较。
-- **验证方式**：模拟预测的关键残基突变后应破坏互作（双杂交验证）。
-- **创新状态**：unverified
+4. **候选名称**：FXR NTD 的 ensemble 建模与 SXXLF 突变对构象景观的影响
+   - **来源局限/观察**：MD 模拟仅使用单一 AF3 预测结构作为起点，且 NTD 预测置信度极低。
+   - **核心假设**：FXR NTD 在溶液中呈现多构象 ensemble，SXXLF 突变改变 ensemble 分布而非单一结构。
+   - **初步方法**：使用增强采样 MD（如 replica exchange）或 Markov state model 构建 NTD 构象景观；比较 WT 与 SXXLF 突变的自由能面。
+   - **验证方式**：WT 与突变体的构象 ensemble 差异显著；突变体 NTD-LBD 结合自由能升高。
+   - **创新状态**：unverified
+
+5. **候选名称**：TF-IDR 互作基序的深度学习预测器
+   - **来源局限/观察**：本文通过人工序列比对发现 SXXLF，提示 IDR 中可能存在更多未识别的功能基序。
+   - **核心假设**：TF 的 IDR 中功能基序具有可学习的序列-功能关联模式。
+   - **初步方法**：收集已知 TF-IDR 功能基序（LXXLL、FXXLF、WXXLF、SXXLF 等）作为训练集；用 CNN 或 transformer 学习基序上下文特征；在未标注 TF-IDR 序列上预测新基序。
+   - **验证方式**：预测的新基序通过突变实验验证；与已知基序数据库比较精确率和召回率。
+   - **创新状态**：unverified
+
+6. **候选名称**：FXR 亚型特异性 NTD 功能差异的结构基础
+   - **来源局限/观察**：作者指出 FXRα3/α4 的 NTD 更长且不含 SXXLF，但未展开研究。
+   - **核心假设**：FXRα3/α4 的 NTD 通过不同基序实现类似功能，或具有完全不同的调控机制。
+   - **初步方法**：比较 4 种 FXR 亚型的 NTD 序列和 AF3 预测结构；分别构建 ΔNTD 和基序突变体进行报告基因实验；MD 模拟比较亚型间 NTD-LBD 互作。
+   - **验证方式**：亚型间转录活性差异与 NTD 序列差异相关；不同亚型 NTD 与 LBD 的结合模式不同。
+   - **创新状态**：unverified

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, without access to full methods, results, figures, or tables
+- **Shared manuscript claim summary** The authors propose an explainable AI pipeline for multi-class classification of nucleic acid-binding proteins (NABP), comprising data collection from UniProtKB, preprocessing, feature extraction via ProtLearn, feature selection via an Improved Orangutan Optimization Algorithm (IOOA) and an autoencoder, classification via an optimized Residual Dense-assisted Multi-Scale Attention Transformer (Opt-DMA-Trans), and interpretability via SHAP. Reported performance includes accuracy 98.95%, precision 98.95%, and F1-score 98.75%.
+- **Visible evidence base** Abstract text only; no figures, tables, datasets, code, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, dataset details, baseline comparisons, statistical significance tests, hyperparameter settings, computational cost, SHAP output examples, and validation methodology
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible pipeline for NABP classification with strong reported metrics, but the evidence base is insufficient to evaluate the novelty, technical soundness, or generalizability of the proposed method. The contribution appears incremental, combining existing components (ProtLearn, autoencoder, transformer, SHAP) with a modified optimization algorithm. The reported performance metrics are not contextualized against baselines or error analysis, and the abstract lacks critical details on dataset composition, class balance, and validation strategy. The claim of interpretability via SHAP is not substantiated with any example or quantitative evaluation.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, particularly those developing deep learning models for nucleic acid binding protein classification. The use of explainable AI may appeal to researchers seeking interpretable models for biological sequence analysis. However, the incremental nature of the technical contribution may limit interest beyond a specialized audience.
+- **Major strengths** The abstract addresses a relevant biological problem with practical implications. The integration of feature selection and interpretability is a sensible design choice. The reported performance metrics are high, though their validity cannot be assessed from the abstract alone.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The proposed Opt-DMA-Trans model achieves 98.95% accuracy, 98.95% precision, and 98.75% F1-score for multi-class NABP classification.
+  - **Evidence pointer** Abstract, "investigational results" section; location not provided
+  - **Concern** The abstract reports performance metrics without any description of the dataset size, class distribution, train/test split, cross-validation scheme, or comparison against existing state-of-the-art methods. Without these details, the reported metrics cannot be interpreted as evidence of effectiveness.
+  - **Why it matters** High accuracy on an unspecified dataset could reflect class imbalance, data leakage, or overfitting. The absence of baseline comparisons prevents assessment of whether the proposed method offers any advantage over existing approaches.
+  - **Resolution test** Provide dataset statistics, validation methodology, and a comparison table with at least three established NABP classifiers, including statistical significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The study introduces an "optimized Residual Dense assisted Multi-Scale Attention Transformer" and an "Improved Orangutan optimization algorithm" as novel contributions.
+  - **Evidence pointer** Abstract, "feature selection" and "protein prediction" sections; location not provided
+  - **Concern** The abstract does not specify what is "improved" about the IOOA or "optimized" about the DMA-Trans relative to existing methods. Without a clear statement of the novel components and their motivation, the contribution appears to be a reconfiguration of known architectures and algorithms.
+  - **Why it matters** Novelty is a core criterion for publication. If the modifications are trivial or lack theoretical or empirical justification, the work does not advance the field.
+  - **Resolution test** Clearly articulate the specific algorithmic changes, provide ablation studies isolating each modification, and compare against the unmodified versions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretability claim
+  - **Claim pointer** "In order to enhance the interpretability of models, the Shapley Additive explanations (SHAP) technique is employed for the decision-making process."
+  - **Evidence pointer** Abstract, "interpretability" sentence; location not provided
+  - **Concern** The abstract claims SHAP enhances interpretability but provides no example, summary plot, or quantitative evaluation of interpretability. It is unclear whether SHAP is applied to the final model or to intermediate components, and whether the explanations are biologically meaningful.
+  - **Why it matters** Interpretability is a stated motivation for the work. Without evidence that SHAP outputs are useful or validated, this claim is unsupported.
+  - **Resolution test** Include at least one SHAP summary or force plot for a representative prediction, and discuss whether the identified features align with known biological knowledge.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract, "data are collected from the UniProtKB dataset"; location not provided
+  - **Issue** The abstract does not specify the number of sequences, the exact UniProtKB accession criteria, or the class labels for the multi-class problem.
+  - **Required correction** Provide dataset size, class definitions, and accession or filtering criteria in the methods section.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Feature selection description
+  - **Evidence pointer** Abstract, "feature selection is performed by two methods, namely the Improved Orangutan optimization algorithm (IOOA) and Autoencoder (AE)"; location not provided
+  - **Issue** It is unclear whether IOOA and AE are used independently, sequentially, or in an ensemble. The abstract does not describe how their outputs are combined.
+  - **Required correction** Clarify the feature selection workflow, including the role of each method and the final feature set size.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract, "accuracy of 98.95%, precision 98.95%, and F1-score 98.75%"; location not provided
+  - **Issue** Recall and specificity are not reported, which are important for multi-class classification with potentially imbalanced classes.
+  - **Required correction** Report a confusion matrix and per-class precision, recall, and F1-score.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing validation context), R1-M2 (unsubstantiated novelty), R1-M3 (unsupported interpretability claim)
+- **Assessment against Nature-style criteria** Originality: Weak, as the abstract does not demonstrate a clear conceptual advance over existing NABP classifiers. Scientific importance: Moderate, as NABP classification is a relevant problem, but the abstract does not show biological insight beyond classification accuracy. Interdisciplinary readership: Limited, as the abstract is written for a specialized computational biology audience without broader implications. Technical soundness: Not assessable from the abstract, due to missing validation details. Readability for nonspecialists: Acceptable, but the abstract uses jargon without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract reports promising metrics but lacks the methodological detail and comparative analysis needed to support the claims of novelty, effectiveness, and interpretability. A full manuscript with rigorous validation would be required to assess the contribution.
+
+## Risk / unsupported claims
+- The reported accuracy, precision, and F1-score are unsupported without dataset details and validation methodology.
+- The claim that IOOA is "improved" and that Opt-DMA-Trans is "optimized" is unsupported without algorithmic specifications or ablation studies.
+- The claim that SHAP enhances interpretability is unsupported without example outputs or evaluation.
+- The general statement that existing models "lack interpretability" is asserted without citation or evidence.

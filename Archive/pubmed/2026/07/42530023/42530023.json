@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "42530023",
+    "doi": "10.1002/jcp.70213",
+    "title": "Multiomics Profiling Identifies Blood-Based Diagnostic Markers for Sepsis."
+  },
+  "content": {
+    "abstract": "Sepsis, characterized by a rapid transition to systemic immune dysregulation and multiorgan failure, poses a formidable clinical challenge. The lack of spatiotemporally stable biomarkers severely impedes early diagnosis and risk stratification. By integrating large-scale transcriptomic profiling with machine learning algorithms, this study identified a robust three-gene diagnostic signature (TLR5, HMGB2, and C19orf59). Single-cell RNA sequencing precisely localized the sepsis-induced specific upregulation of these targets to the myeloid immune compartment, notably monocytes and neutrophils. Crucially, disease severity stratification analysis (based on SOFA scores) revealed that while TLR5 and HMGB2 excel in identifying high-risk sepsis, C19orf59 maintains highly consistent diagnostic efficacy across all clinical severity strata. To definitively validate these findings while rigorously eliminating confounding effects from surgical or environmental stress, strictly time-matched sham-controlled cecal ligation and puncture (CLP) murine models and vehicle-controlled in vitro models were utilized. In vivo results corroborated the persistent in situ upregulation of this signature across vital target organs (lung, heart, liver) and systemic circulation. Parallel in vitro lipopolysaccharide (LPS)-stimulated cellular models further characterized their dynamic expression, with HMGB2 exhibiting a distinct biphasic kinetic profile mechanistically characteristic of danger-associated molecular patterns (DAMPs). Finally, independent clinical validation using sepsis patient serum corroborated the translational relevance of these targets. Collectively, this systematic multidimensional evaluation establishes TLR5, HMGB2, and C19orf59 as a highly reliable diagnostic and severity-stratification panel, providing novel molecular insights into the septic pathological cascade.",
+    "keywords": [
+      "diagnostic biomarkers",
+      "machine learning",
+      "sepsis",
+      "single-cell analysis",
+      "spatiotemporal dynamics"
+    ],
+    "mesh_terms": [
+      "*Sepsis/blood/diagnosis/genetics",
+      "Animals",
+      "Humans",
+      "*Biomarkers/blood",
+      "Multiomics",
+      "*Toll-Like Receptor 5/genetics/blood",
+      "Gene Expression Profiling/methods",
+      "*HMGB2 Protein/genetics/blood",
+      "Single-Cell Gene Expression Analysis",
+      "Male",
+      "Transcriptome",
+      "Mice",
+      "Machine Learning",
+      "Disease Models, Animal",
+      "Lipopolysaccharides",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Xin",
+        "Guo, Xiaoqing",
+        "Jiang, Shuai",
+        "Cao, Yanting",
+        "Wang, Shuya",
+        "Xie, Wentao",
+        "Tian, Jiayin",
+        "Zhou, Yazhe",
+        "Wang, Man",
+        "Chang, Hui",
+        "Yang, Yang"
+      ],
+      "short_names": [
+        "Zhang X",
+        "Guo X",
+        "Jiang S",
+        "Cao Y",
+        "Wang S",
+        "Xie W",
+        "Tian J",
+        "Zhou Y",
+        "Wang M",
+        "Chang H",
+        "Yang Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-5611-1908",
+        "ORCID: 0000-0002-1163-2359"
+      ],
+      "affiliations": [
+        "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China.",
+        "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China.",
+        "Department of Aerospace Hygiene, The Air Force Medical University, Xi'an, China.",
+        "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China.",
+        "Department of Cardiology, Xi'an People's Hospital (Xi'an Fourth Hospital), The Affiliated People's Hospital of Northwest University, Xi'an, China.",
+        "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China.",
+        "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China.",
+        "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China.",
+        "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China.",
+        "Department of Cardiology, Xi'an People's Hospital (Xi'an Fourth Hospital), The Affiliated People's Hospital of Northwest University, Xi'an, China.",
+        "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China.",
+        "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China.",
+        "Department of Cardiology, Xi'an People's Hospital (Xi'an Fourth Hospital), The Affiliated People's Hospital of Northwest University, Xi'an, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Xin",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Xiaoqing",
+        "short_name": "Guo X",
+        "identifiers": [],
+        "affiliations": [
+          "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Shuai",
+        "short_name": "Jiang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Aerospace Hygiene, The Air Force Medical University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Yanting",
+        "short_name": "Cao Y",
+        "identifiers": [
+          "0009-0006-5611-1908"
+        ],
+        "affiliations": [
+          "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China.",
+          "Department of Cardiology, Xi'an People's Hospital (Xi'an Fourth Hospital), The Affiliated People's Hospital of Northwest University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shuya",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Wentao",
+        "short_name": "Xie W",
+        "identifiers": [],
+        "affiliations": [
+          "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Jiayin",
+        "short_name": "Tian J",
+        "identifiers": [],
+        "affiliations": [
+          "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yazhe",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Man",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Xi'an People's Hospital (Xi'an Fourth Hospital), The Affiliated People's Hospital of Northwest University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Hui",
+        "short_name": "Chang H",
+        "identifiers": [],
+        "affiliations": [
+          "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yang",
+        "short_name": "Yang Y",
+        "identifiers": [
+          "0000-0002-1163-2359"
+        ],
+        "affiliations": [
+          "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, Xi'an, China.",
+          "Department of Cardiology, Xi'an People's Hospital (Xi'an Fourth Hospital), The Affiliated People's Hospital of Northwest University, Xi'an, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cellular physiology"
+    ],
+    "journal_abbrev": [
+      "J Cell Physiol"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/30 12:43",
+    "fetched_at": "2026-10-02 02:41:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39465419",
+      "39438692",
+      "39184737",
+      "39029061",
+      "38711476",
+      "38572649",
+      "38376246",
+      "38189137",
+      "38142698",
+      "36801619",
+      "35027333",
+      "31954465",
+      "30944018",
+      "26020106",
+      "25613900",
+      "21593866"
+    ],
+    "similar": [
+      "42530023",
+      "42305536",
+      "41570698",
+      "42099630",
+      "42148128",
+      "41611834",
+      "42347208",
+      "41735888",
+      "40526611",
+      "41112767",
+      "41472734",
+      "41939867",
+      "22381171",
+      "38868781",
+      "39506629",
+      "39481313",
+      "40591166",
+      "41740292",
+      "42429909",
+      "42291298",
+      "39456859",
+      "41649833",
+      "41326582",
+      "40821793",
+      "40783504",
+      "41307757",
+      "42096424",
+      "40808951",
+      "42233387",
+      "41816342",
+      "39993996",
+      "42520680",
+      "41333476",
+      "39904039",
+      "42703773",
+      "41109923",
+      "40612938",
+      "42434863",
+      "40580488",
+      "41186507",
+      "40777016",
+      "40792106",
+      "41718721",
+      "40527380",
+      "42475469",
+      "41843179",
+      "41225282",
+      "41173111",
+      "41659414",
+      "39108261",
+      "40607951",
+      "42327787",
+      "39719759",
+      "42631563",
+      "39384856",
+      "42106604",
+      "42733265",
+      "41713386",
+      "42208328",
+      "41192111",
+      "42232056",
+      "40784892",
+      "41570454",
+      "38780016",
+      "42266692",
+      "39430765",
+      "40595246",
+      "42015036",
+      "39763654",
+      "41624837",
+      "38910259",
+      "42558367",
+      "41601671",
+      "41624884",
+      "24612859",
+      "41246346",
+      "41389851",
+      "38404591",
+      "42404897",
+      "41254473",
+      "40830558",
+      "42247642",
+      "42495647",
+      "40362669",
+      "42216755",
+      "41789070",
+      "41890760",
+      "38678951",
+      "37510271",
+      "42040898",
+      "41436831",
+      "41346577",
+      "41445732",
+      "41635814",
+      "38593502",
+      "40215772",
+      "41806693",
+      "39226829",
+      "42234716",
+      "42292468"
+    ],
+    "review": [
+      "42530023"
+    ],
+    "pmc": [
+      "13421852"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42530023/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/jcp.70213",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3820",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

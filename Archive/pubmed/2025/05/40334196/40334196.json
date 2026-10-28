@@ -1,0 +1,263 @@
+{
+  "identity": {
+    "pmid": "40334196",
+    "doi": "10.1371/journal.pone.0322978",
+    "title": "A KAN-based hybrid deep neural networks for accurate identification of transcription factor binding sites."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Predicting protein-DNA binding sites in vivo is a challenging but urgent task in many fields such as drug design and development. Most promoters contain many transcription factor (TF) binding sites, yet only a few have been identified through time-consuming biochemical experiments. To address this challenge, numerous computational approaches have been proposed to predict TF binding sites from DNA sequences. However, current deep learning methods often face issues such as gradient vanishing as the model depth increases, leading to suboptimal feature extraction. RESULTS: We propose a model called CBR-KAN (where C represents Convolutional Neural Network (CNN), B represents Bidirectional Long Short Term Memory (BiLSTM), and R represents Residual Mechanism) to predict transcription factor binding sites. Specifically, we designed a multi-scale convolution module (ConvBlock1, 2, 3) combined with BiLSTM network, introduced KAN network to replace traditional multilayer perceptron, and promoted model optimization through residual connections. Testing on 50 common ChIP seq benchmark datasets shows that CBR-KAN outperforms other state-of-the-art methods such as DeepBind, DanQ, DeepD2V, and DeepSEA in predicting TF binding sites. CONCLUSIONS: The CBR-KAN model significantly improves prediction accuracy for transcription factor binding sites by effectively integrating multiple neural network architectures and mechanisms. This approach not only enhances feature extraction but also stabilizes training and boosts generalization capabilities. The promising results on multiple key performance indicators demonstrate the potential of CBR-KAN in bioinformatics applications.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism",
+      "Binding Sites",
+      "*Neural Networks, Computer",
+      "Deep Learning",
+      "*Computational Biology/methods",
+      "Protein Binding",
+      "Algorithms",
+      "Humans",
+      "Promoter Regions, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Guodong",
+        "Ye, Jiahao",
+        "Hao, Huijun",
+        "Chen, Wei"
+      ],
+      "short_names": [
+        "He G",
+        "Ye J",
+        "Hao H",
+        "Chen W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9942-2216"
+      ],
+      "affiliations": [
+        "School of Information Engineering, Wenzhou Business College, Wenzhou, Zhejiang, PR China.",
+        "School of Information Engineering, Wenzhou Business College, Wenzhou, Zhejiang, PR China.",
+        "School of Information Engineering, Wenzhou Business College, Wenzhou, Zhejiang, PR China.",
+        "School of Information Engineering, Wenzhou Business College, Wenzhou, Zhejiang, PR China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Guodong",
+        "short_name": "He G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Engineering, Wenzhou Business College, Wenzhou, Zhejiang, PR China."
+        ]
+      },
+      {
+        "full_name": "Ye, Jiahao",
+        "short_name": "Ye J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Engineering, Wenzhou Business College, Wenzhou, Zhejiang, PR China."
+        ]
+      },
+      {
+        "full_name": "Hao, Huijun",
+        "short_name": "Hao H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Engineering, Wenzhou Business College, Wenzhou, Zhejiang, PR China."
+        ]
+      },
+      {
+        "full_name": "Chen, Wei",
+        "short_name": "Chen W",
+        "identifiers": [
+          "0000-0002-9942-2216"
+        ],
+        "affiliations": [
+          "School of Information Engineering, Wenzhou Business College, Wenzhou, Zhejiang, PR China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/07 18:46",
+    "fetched_at": "2026-09-30 17:21:14"
+  },
+  "links": {
+    "cites": [
+      "42367058",
+      "41095063",
+      "41094801"
+    ],
+    "refs": [
+      "39215231",
+      "34073774",
+      "31590652",
+      "31090248",
+      "30106688",
+      "27153639",
+      "27084946",
+      "26873929",
+      "26301843",
+      "26213851",
+      "26017442",
+      "25451870",
+      "24500199",
+      "19029915",
+      "18684996",
+      "9377276"
+    ],
+    "similar": [
+      "40334196",
+      "34073774",
+      "38701417",
+      "40102719",
+      "32960766",
+      "32770026",
+      "38644393",
+      "35652477",
+      "39701486",
+      "29993783",
+      "33837387",
+      "34534646",
+      "29970003",
+      "34929739",
+      "33334313",
+      "34752400",
+      "38733561",
+      "39121059",
+      "34664074",
+      "39350338",
+      "39173070",
+      "31725778",
+      "40183298",
+      "39457474",
+      "39125714",
+      "31323206",
+      "37328639",
+      "39550226",
+      "28245811",
+      "38848239",
+      "31336830",
+      "39076052",
+      "39848362",
+      "36935548",
+      "39471921",
+      "30323198",
+      "40121399",
+      "38615462",
+      "39270885",
+      "31372637",
+      "38588617",
+      "39096613",
+      "38381315",
+      "35768792",
+      "39407120",
+      "30588558",
+      "36328750",
+      "39227799",
+      "40065237",
+      "39433833",
+      "39943338",
+      "39929298",
+      "34272562",
+      "36748992",
+      "39133595",
+      "36094959",
+      "39208057",
+      "30106688",
+      "29617928",
+      "36049552",
+      "39695955",
+      "31521253",
+      "38732207",
+      "35263332",
+      "40210910",
+      "34613923",
+      "30709337",
+      "38643894",
+      "30835229",
+      "33522898",
+      "35378437",
+      "37723425",
+      "38975896",
+      "30351403",
+      "39514139",
+      "35462009",
+      "36959539",
+      "39168294",
+      "36860882",
+      "40246881",
+      "30419785",
+      "37845681",
+      "31714956",
+      "38871095",
+      "39270533",
+      "31537716",
+      "31208331",
+      "31336774",
+      "34700255",
+      "38528797",
+      "32696716",
+      "40262076",
+      "33137083",
+      "31634140",
+      "32404971",
+      "39708840",
+      "38781186",
+      "33571101",
+      "39316475",
+      "36155619"
+    ],
+    "review": [
+      "40334196",
+      "35652477",
+      "38643894"
+    ],
+    "pmc": [
+      "12058130"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0322978",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40334196/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-329",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "41989578",
+    "doi": "10.1007/s00203-026-04857-y",
+    "title": "Transcriptomics and network pharmacology reveal that baicalin alleviates acute lung injury induced by H1N1 via targeting STAT1."
+  },
+  "content": {
+    "abstract": "Hemagglutinin 1 neuraminidase 1 (H1N1) infection triggers acute lung injury (ALI), and baicalin exerts therapeutic effects on ALI, yet its underlying molecular mechanism remains elusive. Core ALI target genes were identified and screened via the Gene Expression Omnibus (GEO) database, weighted gene co-expression network analysis (WGCNA), differential analysis, and machine learning. Baicalin target genes were obtained using Super-PRED, the Comparative Toxicogenomics Database (CTD), and SwissTargetPrediction, with Cytoscape 3.9.1 employed for network construction. H1N1 was used to induce in vivo and in vitro ALI models. Cell Counting Kit-8 (CCK-8), reverse transcription quantitative polymerase chain reaction (RT-qPCR), cell transfection, western blot (WB), and enzyme-linked immunosorbent assay (ELISA) detected cell viability, mRNA levels, gene overexpression, protein levels, and inflammatory cytokines. Transepithelial electrical resistance (TER) and Transwell assays assessed transmembrane resistance and monolayer permeability, while hematoxylin-eosin (HE) staining, colorimetric assay, and bicinchoninic acid (BCA) assay evaluated tissue pathology, myeloperoxidase (MPO) activity, and bronchoalveolar lavage fluid (BALF) protein concentration. Molecular docking and cellular thermal shift assay (CETSA) were used to predict and evaluate the binding stability between proteins and small-molecule compounds. Integrated analyses revealed signal transducer and activator of transcription 1 (STAT1) as the potential key target of baicalin against H1N1-induced ALI. In cell models, H1N1 elevated IL-1beta, IL-6, and CXCL10 levels, reduced TER, increased monolayer permeability, and downregulated ZO-1 and Claudin-5; baicalin partially reversed these changes, whereas STAT1 overexpression attenuated baicalin's effects. Animal models confirmed H1N1-induced lung damage, increased lung wet/dry (W/D) ratio, elevated MPO activity and BALF protein concentration, validating the regulatory roles of H1N1, baicalin, and STAT1 overexpression. Baicalin alleviates H1N1-induced ALI progression by regulating STAT1, suggesting a possible therapeutic mechanism in ALI.",
+    "keywords": [
+      "Acute lung injury",
+      "Baicalin",
+      "Hemagglutinin 1 neuraminidase 1",
+      "Signal transducer and activator of transcription 1"
+    ],
+    "mesh_terms": [
+      "*Acute Lung Injury/drug therapy/virology/genetics",
+      "*Flavonoids/pharmacology/administration & dosage",
+      "Animals",
+      "*STAT1 Transcription Factor/genetics/metabolism",
+      "*Influenza A Virus, H1N1 Subtype",
+      "Network Pharmacology",
+      "Humans",
+      "Mice",
+      "Molecular Docking Simulation",
+      "Gene Expression Profiling",
+      "Lung/pathology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Wenxiang",
+        "Dou, Yufeng",
+        "Ji, Hui",
+        "Li, Xia",
+        "Liang, Pengbo",
+        "Liu, Xiaoli"
+      ],
+      "short_names": [
+        "He W",
+        "Dou Y",
+        "Ji H",
+        "Li X",
+        "Liang P",
+        "Liu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Integrated Traditional Chinese and Western Medicine, Xi'an Children's Hospital, No. 69, Xijuyuan Lane, Lianhu District, Xi'an, 710003, China.",
+        "Department of Integrated Traditional Chinese and Western Medicine, Xi'an Children's Hospital, No. 69, Xijuyuan Lane, Lianhu District, Xi'an, 710003, China. wyxdyf99@163.com.",
+        "Department of Integrated Traditional Chinese and Western Medicine, Xi'an Children's Hospital, No. 69, Xijuyuan Lane, Lianhu District, Xi'an, 710003, China.",
+        "Department of Integrated Traditional Chinese and Western Medicine, Xi'an Children's Hospital, No. 69, Xijuyuan Lane, Lianhu District, Xi'an, 710003, China.",
+        "Department of Integrated Traditional Chinese and Western Medicine, Xi'an Children's Hospital, No. 69, Xijuyuan Lane, Lianhu District, Xi'an, 710003, China.",
+        "Department of Integrated Traditional Chinese and Western Medicine, Xi'an Children's Hospital, No. 69, Xijuyuan Lane, Lianhu District, Xi'an, 710003, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Wenxiang",
+        "short_name": "He W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrated Traditional Chinese and Western Medicine, Xi'an Children's Hospital, No. 69, Xijuyuan Lane, Lianhu District, Xi'an, 710003, China."
+        ]
+      },
+      {
+        "full_name": "Dou, Yufeng",
+        "short_name": "Dou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrated Traditional Chinese and Western Medicine, Xi'an Children's Hospital, No. 69, Xijuyuan Lane, Lianhu District, Xi'an, 710003, China. wyxdyf99@163.com."
+        ]
+      },
+      {
+        "full_name": "Ji, Hui",
+        "short_name": "Ji H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrated Traditional Chinese and Western Medicine, Xi'an Children's Hospital, No. 69, Xijuyuan Lane, Lianhu District, Xi'an, 710003, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xia",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrated Traditional Chinese and Western Medicine, Xi'an Children's Hospital, No. 69, Xijuyuan Lane, Lianhu District, Xi'an, 710003, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Pengbo",
+        "short_name": "Liang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrated Traditional Chinese and Western Medicine, Xi'an Children's Hospital, No. 69, Xijuyuan Lane, Lianhu District, Xi'an, 710003, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoli",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrated Traditional Chinese and Western Medicine, Xi'an Children's Hospital, No. 69, Xijuyuan Lane, Lianhu District, Xi'an, 710003, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Archives of microbiology"
+    ],
+    "journal_abbrev": [
+      "Arch Microbiol"
+    ],
+    "pub_date": "2026 Apr 16",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/17 07:10",
+    "fetched_at": "2026-10-01 18:31:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41311809",
+      "40597807",
+      "40498836",
+      "40228571",
+      "40098998",
+      "39996324",
+      "39965585",
+      "39864619",
+      "39660529",
+      "39654323",
+      "39558475",
+      "39552861",
+      "39368134",
+      "39254228",
+      "39021925",
+      "38887753",
+      "38600381",
+      "38058059",
+      "37725153",
+      "37708335",
+      "37700323",
+      "37298268",
+      "37022097",
+      "36942763",
+      "36913799",
+      "36838858",
+      "36366543",
+      "36353796",
+      "36291185",
+      "36202056",
+      "36051349",
+      "35739646",
+      "35656941",
+      "35473340",
+      "35461824",
+      "35235782",
+      "35078570",
+      "34860273",
+      "34839256",
+      "33789621",
+      "33464919",
+      "33007416",
+      "32987855",
+      "32958247",
+      "32673519",
+      "32091393",
+      "32087725",
+      "31290419",
+      "31273392",
+      "31035089",
+      "28950072",
+      "27028393",
+      "27025854",
+      "26903337",
+      "26606328",
+      "25792631",
+      "24892308",
+      "23919993",
+      "20970742",
+      "20073554",
+      "19924393",
+      "17085014",
+      "16253798"
+    ],
+    "similar": [
+      "41989578",
+      "40962463",
+      "39181290",
+      "40946659",
+      "40912485",
+      "40902813",
+      "40998926",
+      "36882272",
+      "41794257",
+      "37586441",
+      "38972239",
+      "39374881",
+      "40588145",
+      "41075514",
+      "31545263",
+      "40133025",
+      "38692075",
+      "40784326",
+      "34737012",
+      "40216045",
+      "31958713",
+      "35078570",
+      "39660129",
+      "37243760",
+      "41260550",
+      "38812235",
+      "41017810",
+      "40850661",
+      "33179083",
+      "41106098",
+      "35026506",
+      "40139580",
+      "40056637",
+      "36115602",
+      "39922147",
+      "40553825",
+      "42052827",
+      "36567560",
+      "39278295",
+      "36700766",
+      "41084430",
+      "36180862",
+      "39541844",
+      "41455169",
+      "40872344",
+      "39272057",
+      "42107750",
+      "38280662",
+      "38460358",
+      "32522221",
+      "39650849",
+      "41732871",
+      "40347881",
+      "38613798",
+      "30668313",
+      "39072201",
+      "37139806",
+      "38824823",
+      "39746408",
+      "40415359",
+      "31441412",
+      "41496195",
+      "40499803",
+      "37052973",
+      "38547623",
+      "40324631",
+      "36583372",
+      "41423154",
+      "35545320",
+      "37987961",
+      "32147387",
+      "27036629",
+      "39223886",
+      "38583346",
+      "40147558",
+      "26782291",
+      "38149564",
+      "40634934",
+      "36183949",
+      "34109517",
+      "29727715",
+      "33490163",
+      "39914692",
+      "41135618",
+      "38588614",
+      "41455569",
+      "38501503",
+      "38750983",
+      "41520962",
+      "34608599",
+      "39307770",
+      "36202056",
+      "38301209",
+      "34109422",
+      "39552861",
+      "41265280",
+      "33039959",
+      "40816582",
+      "41997441",
+      "41643267"
+    ],
+    "review": [
+      "41989578"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s00203-026-04857-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3375",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

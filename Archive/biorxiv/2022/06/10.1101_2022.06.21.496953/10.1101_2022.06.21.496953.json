@@ -1,0 +1,720 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.06.21.496953",
+  "title": "TF-COMB - discovering grammar of transcription factor binding sites",
+  "doi": "10.1101/2022.06.21.496953",
+  "abstract": "Cooperativity between transcription factors is important to regulate target gene expression. In particular, the binding grammar of TFs in relation to each other, as well as in the context of other genomic elements, is crucial for TF functionality. However, tools to easily uncover co-occurrence between DNA-binding proteins, and investigate the regulatory modules of TFs, are limited. Here we present TF-COMB (Transcription Factor Co-Occurrence using Market Basket analysis) - a tool to investigate co-occurring TFs and binding grammar within regulatory regions. We found that TF-COMB can accurately identify known co-occurring TFs from ChIP-seq data, as well as uncover preferential localization to other genomic elements. With the use of ATAC-seq footprinting and TF motif locations, we found that TFs exhibit both preferred orientation and distance in relation to each other, and that these are biologically significant. Finally, we extended the analysis to not only investigate individual TF pairs, but also TF pairs in the context of networks, which enabled the investigation of TF complexes and TF hubs. In conclusion, TF-COMB is a flexible tool to investigate various aspects of TF binding grammar. Graphical abstract",
+  "authors": [
+    "Mette Bentsen",
+    "Vanessa Heger",
+    "Hendrik Schultheis",
+    "Carsten Kuenne",
+    "Mario Looso"
+  ],
+  "published_date": "2022-06-22",
+  "updated_date": "2022-06-23T03:50:28Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.06.21.496953",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.06.21.496953.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:35:06Z",
+        "timestamp": 1768502106330,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            22
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 71,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            22
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Cooperativity between transcription factors is important to regulate target gene expression. In particular, the binding grammar of TFs in relation to each other, as well as in the context of other genomic elements, is crucial for TF functionality. However, tools to easily uncover co-occurrence between DNA-binding proteins, and investigate the regulatory modules of TFs, are limited. Here we present TF-COMB (Transcription Factor Co-Occurrence using Market Basket analysis) - a tool to investigate co-occurring TFs and binding grammar within regulatory regions. We found that TF-COMB can accurately identify known co-occurring TFs from ChIP-seq data, as well as uncover preferential localization to other genomic elements. With the use of ATAC-seq footprinting and TF motif locations, we found that TFs exhibit both preferred orientation and distance in relation to each other, and that these are biologically significant. Finally, we extended the analysis to not only investigate individual TF pairs, but also TF pairs in the context of networks, which enabled the investigation of TF complexes and TF hubs. In conclusion, TF-COMB is a flexible tool to investigate various aspects of TF binding grammar.</jats:p>\n                <jats:sec>\n                  <jats:title>Graphical abstract</jats:title>\n                  <jats:fig id=\"ufig1\" position=\"float\" fig-type=\"figure\" orientation=\"portrait\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"496953v1_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>",
+      "DOI": "10.1101/2022.06.21.496953",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            23
+          ]
+        ],
+        "date-time": "2022-06-23T03:50:28Z",
+        "timestamp": 1655956228000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "TF-COMB - discovering grammar of transcription factor binding sites"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8016-0199",
+          "authenticated-orcid": false,
+          "given": "Mette",
+          "family": "Bentsen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7858-5788",
+          "authenticated-orcid": false,
+          "given": "Vanessa",
+          "family": "Heger",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8447-813X",
+          "authenticated-orcid": false,
+          "given": "Hendrik",
+          "family": "Schultheis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8013-5906",
+          "authenticated-orcid": false,
+          "given": "Carsten",
+          "family": "Kuenne",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1495-9530",
+          "authenticated-orcid": false,
+          "given": "Mario",
+          "family": "Looso",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2009.08.003"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3207"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2021.02.016"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Balsalobre, A. and J. Drouin , Pioneer factors as master regulators of the epigenome and cell fate. Nat Rev Mol Cell Biol, 2022.",
+          "DOI": "10.1038/s41580-022-00464-z"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.01.029"
+        },
+        {
+          "issue": "1",
+          "key": "2022062405550810000_2022.06.21.496953v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "94",
+          "DOI": "10.1186/s12915-018-0564-x",
+          "article-title": "Open questions: How many genes do we have?",
+          "volume": "16",
+          "year": "2018",
+          "journal-title": "BMC Biology"
+        },
+        {
+          "issue": "7820",
+          "key": "2022062405550810000_2022.06.21.496953v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "244",
+          "DOI": "10.1038/s41586-020-2559-3",
+          "article-title": "Index and biological spectrum of human DNase I hypersensitive sites",
+          "volume": "584",
+          "year": "2020",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jankowski, A. , S. Prabhakar , and J. Tiuryn , TACO: a general-purpose tool for predicting cell-type–specific transcription factor dimers. BMC Genomics, 2014. 15(208).",
+          "DOI": "10.1186/1471-2164-15-208"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "400",
+          "DOI": "10.1186/s12859-015-0827-2",
+          "article-title": "PC-TraFF: identification of potentially collaborating transcription factors using pointwise mutual information",
+          "volume": "16",
+          "year": "2015",
+          "journal-title": "BMC Bioinformatics"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr341"
+        },
+        {
+          "issue": "1",
+          "key": "2022062405550810000_2022.06.21.496953v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "4267",
+          "DOI": "10.1038/s41467-020-18035-1",
+          "article-title": "ATAC-seq footprinting unravels kinetics of transcription factor binding during zygotic genome activation",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-019-1642-2"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kotu, V. and B. Deshpande , Chapter 6 - Association Analysis, in Data Science (Second Edition), V. Kotu and B. Deshpande, Editors. 2019, Morgan Kaufmann. p. 199–220.",
+          "DOI": "10.1016/B978-0-12-814761-0.00006-X"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Anandhavalli, M. , M. Ghose , and M. Gauthaman , Association Rule Mining in Genomics. International Journal of Computer Theory and Engineering, 2010. 2.",
+          "DOI": "10.7763/IJCTE.2010.V2.151"
+        },
+        {
+          "issue": "4",
+          "key": "2022062405550810000_2022.06.21.496953v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "293",
+          "DOI": "10.1016/S0306-4379(03)00072-3",
+          "article-title": "Selecting the right objective measure for association analysis",
+          "volume": "29",
+          "year": "2004",
+          "journal-title": "Information Systems"
+        },
+        {
+          "issue": "2",
+          "key": "2022062405550810000_2022.06.21.496953v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "97",
+          "DOI": "10.1007/s13278-010-0003-7",
+          "article-title": "Market basket analysis with networks",
+          "volume": "1",
+          "year": "2011",
+          "journal-title": "Social Network Analysis and Mining"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-9-336"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "31",
+          "DOI": "10.1109/MCSE.2010.118",
+          "article-title": "Cython: The Best of Both Worlds",
+          "volume": "13",
+          "year": "2011",
+          "journal-title": "Computing in Science & Engineering"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1081"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.11.021"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAB1113"
+        },
+        {
+          "issue": "1",
+          "key": "2022062405550810000_2022.06.21.496953v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "187",
+          "DOI": "10.1002/pro.3978",
+          "article-title": "The BioGRID database: A comprehensive biomedical resource of curated protein, genetic, and chemical interactions",
+          "volume": "30",
+          "year": "2021",
+          "journal-title": "Protein science : a publication of the Protein Society"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1100"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Madeira, F. , et al., Search and sequence analysis tools services from EMBL-EBI in 2022. Nucleic acids research, 2022: p. gkac240.",
+          "DOI": "10.1093/nar/gkac240"
+        },
+        {
+          "issue": "D1",
+          "key": "2022062405550810000_2022.06.21.496953v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "D33",
+          "DOI": "10.1093/nar/gky822",
+          "article-title": "AnimalTFDB 3.0: a comprehensive resource for annotation and prediction of animal transcription factors",
+          "volume": "47",
+          "year": "2019",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-018-28948-z"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.27",
+          "unstructured": "Smit, A.H. , R; Green P .. RepeatMasker Open-4.0. 2013-2015; Available from: http://www.repeatmasker.org."
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr387"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt598"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv726"
+        },
+        {
+          "issue": "5",
+          "key": "2022062405550810000_2022.06.21.496953v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "342",
+          "DOI": "10.1016/j.gpb.2018.05.004",
+          "article-title": "TICA: Transcriptional Interaction and Coregulation Analyzer",
+          "volume": "16",
+          "year": "2018",
+          "journal-title": "Genomics, Proteomics & Bioinformatics"
+        },
+        {
+          "issue": "1",
+          "key": "2022062405550810000_2022.06.21.496953v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "13",
+          "DOI": "10.1186/s13062-020-00268-1",
+          "article-title": "NAUTICA: classifying transcription factor interactions by positional and protein-protein interaction information",
+          "volume": "15",
+          "year": "2020",
+          "journal-title": "Biol Direct"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0052055"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz800"
+        },
+        {
+          "issue": "9",
+          "key": "2022062405550810000_2022.06.21.496953v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "e108065",
+          "DOI": "10.1371/journal.pone.0108065",
+          "article-title": "CisMiner: genome-wide in-silico cis-regulatory module prediction by fuzzy itemset mining",
+          "volume": "9",
+          "year": "2014",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1006372"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1112"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "issue": "1",
+          "key": "2022062405550810000_2022.06.21.496953v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "102",
+          "DOI": "10.1016/0959-437X(94)90098-1",
+          "article-title": "Myc—Max—Mad: a transcription factor network controlling cell cycle progression, differentiation and death",
+          "volume": "4",
+          "year": "1994",
+          "journal-title": "Current Opinion in Genetics & Development"
+        },
+        {
+          "issue": "4",
+          "key": "2022062405550810000_2022.06.21.496953v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "93",
+          "DOI": "10.3390/cancers10040093",
+          "article-title": "The Role of Activator Protein-1 (AP-1) Family Members in CD30-Positive Lymphomas",
+          "volume": "10",
+          "year": "2018",
+          "journal-title": "Cancers"
+        },
+        {
+          "issue": "1",
+          "key": "2022062405550810000_2022.06.21.496953v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "43",
+          "DOI": "10.1038/s41467-020-20282-1",
+          "article-title": "ZNF143 mediates CTCF-bound promoter–enhancer loops required for murine hematopoietic stem and progenitor cell function",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "issue": "4",
+          "key": "2022062405550810000_2022.06.21.496953v1.42",
+          "first-page": "339",
+          "article-title": "Nuclear transcription factor Y and its roles in cellular processes related to human disease",
+          "volume": "3",
+          "year": "2013",
+          "journal-title": "American journal of cancer research"
+        },
+        {
+          "issue": "3",
+          "key": "2022062405550810000_2022.06.21.496953v1.43",
+          "first-page": "231",
+          "article-title": "Members of the USF family of helix-loop-helix proteins bind DNA as homo-as well as heterodimers",
+          "volume": "2",
+          "year": "1992",
+          "journal-title": "Gene expression"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1069861"
+        },
+        {
+          "issue": "1",
+          "key": "2022062405550810000_2022.06.21.496953v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "1519",
+          "DOI": "10.1038/s41467-020-15183-2",
+          "article-title": "CHD4 slides nucleosomes by decoupling entry- and exit-side DNA translocation",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1911708117"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-019-6088-0"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt303"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.215160.116"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ygeno.2014.02.002"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lai, X. , et al., Pioneer Factors in Animals and Plants—Colonizing Chromatin for Gene Regulation. Molecules, 2018. 23(8).",
+          "DOI": "10.3390/molecules23081914"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrmicro1267"
+        },
+        {
+          "issue": "1",
+          "key": "2022062405550810000_2022.06.21.496953v1.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "16675",
+          "DOI": "10.1038/s41598-017-16856-7",
+          "article-title": "Direct conversion of human fibroblasts into hepatocyte-like cells by ATF5, PROX1, FOXA2, FOXA3, and HNF4A transduction",
+          "volume": "7",
+          "year": "2017",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "issue": "11",
+          "key": "2022062405550810000_2022.06.21.496953v1.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "3715",
+          "DOI": "10.4049/jimmunol.1701385",
+          "article-title": "Critical Functions of IRF4 in B and T Lymphocytes",
+          "volume": "199",
+          "year": "2017",
+          "journal-title": "The Journal of Immunology"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "72",
+          "DOI": "10.3389/fgene.2020.00072",
+          "article-title": "Integrating Peak Colocalization and Motif Enrichment Analysis for the Discovery of Genome-Wide Regulatory Modules and Transcription Factor Recruitment Rules",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Front Genet"
+        },
+        {
+          "issue": "3",
+          "key": "2022062405550810000_2022.06.21.496953v1.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "967",
+          "DOI": "10.1016/j.celrep.2014.09.051",
+          "article-title": "Host Cell Factor-1 Recruitment to E2F-Bound and Cell-Cycle-Control Genes Is Mediated by THAP11 and ZNF143",
+          "volume": "9",
+          "year": "2014",
+          "journal-title": "Cell Reports"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1182/blood-2003-01-0251"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.onc.1204385"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-017-02464-y"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/msb.20145504"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/1742-5468/2008/10/P10008"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.62",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kang, K. , et al., Epigenomic Analysis of RAD51 ChIP-seq Data Reveals cis-regulatory Elements Associated with Autophagy in Cancer Cell Lines. Cancers, 2021. 13(11).",
+          "DOI": "10.3390/cancers13112547"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/jcs.02714"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.64",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wahlström, T. and M. Henriksson , Mnt Takes Control as Key Regulator of the Myc/Max/Mxd Network, in Advances in Cancer Research. 2007, Academic Press. p. 61–80.",
+          "DOI": "10.1016/S0065-230X(06)97003-1"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2013-14-1-r6"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.139105.112"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.104471.109"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M414122200"
+        },
+        {
+          "issue": "2",
+          "key": "2022062405550810000_2022.06.21.496953v1.69",
+          "doi-asserted-by": "crossref",
+          "first-page": "255",
+          "DOI": "10.1016/j.molcel.2020.11.015",
+          "article-title": "Molecular Co-occupancy Identifies Transcription Factor Binding Cooperativity In Vivo",
+          "volume": "81",
+          "year": "2021",
+          "journal-title": "Molecular Cell"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2011.07.006"
+        },
+        {
+          "key": "2022062405550810000_2022.06.21.496953v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.307769.117"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.06.21.496953",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:15:24Z",
+        "timestamp": 1768446924000
+      },
+      "score": 124.627365,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.06.21.496953"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            22
+          ]
+        ]
+      },
+      "references-count": 71,
+      "URL": "https://doi.org/10.1101/2022.06.21.496953",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.csbj.2022.07.025",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            22
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

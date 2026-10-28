@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a multi-method study of the tripeptide tyrosyl-lysyl-threonine (YKT), combining DFT-based quantum mechanical calculations, molecular dynamics simulations, molecular docking, spectroscopic measurements (UV, FT-IR, FTIR-ATR, Raman), gel electrophoresis, and in vitro cytotoxicity assays on MCF-7, HeLa, and BEAS-2B cell lines. They claim that YKT binds to CT-DNA via intercalative and electrostatic modes, cleaves pBR322 DNA in the presence of H2O2, and exhibits cytotoxic effects, with potential implications for cancer drug development.
+- **Visible evidence base** Abstract text only; no quantitative data, spectra, docking scores, simulation parameters, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, computational details, statistical analyses, cell viability data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a broad and ambitious multi-technique study, but the claims are stated without quantitative support or methodological detail. The central conclusions regarding DNA binding mode, cleavage activity, and cytotoxicity cannot be evaluated from the provided material. The work may be of interest to the peptide and nucleic acid interaction community, but the current evidence base is insufficient to establish the stated findings.
+- **Who would be interested in the results, and why** Researchers in peptide-based drug design, DNA-targeting therapeutics, and computational biophysics would be interested, as the study combines structural, spectroscopic, and in silico approaches to characterize a bioactive tripeptide. The potential anticancer properties and DNA interaction profile are relevant to medicinal chemistry and cancer biology.
+- **Major strengths** The study integrates multiple complementary techniques, including DFT, MD, docking, spectroscopy, and in vitro assays, which is a comprehensive approach. The choice of a tripeptide with reported bioactive properties is a reasonable starting point for structure-activity investigations. The inclusion of both computational and experimental DNA binding assessments is a positive feature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that YKT binds to CT-DNA via intercalative and electrostatic modes and cleaves pBR322 DNA in the presence of H2O2.
+  - **Evidence pointer** Abstract, experimental results section; location not provided
+  - **Concern** The abstract states these findings without presenting any quantitative data, such as binding constants, spectral shifts, gel images, or cleavage efficiency values. No experimental conditions, concentrations, or controls are described.
+  - **Why it matters** Without quantitative or visual evidence, the claimed binding mode and cleavage activity cannot be independently assessed. Intercalative versus electrostatic binding requires specific spectroscopic or thermodynamic signatures that are not shown.
+  - **Resolution test** Provide binding constants from UV titration, representative gel electrophoresis images with appropriate controls, and a clear description of how the binding mode was distinguished.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors claim cytotoxic effects of YKT on MCF-7, HeLa, and BEAS-2B cell lines.
+  - **Evidence pointer** Abstract, in vitro section; location not provided
+  - **Concern** No cytotoxicity data, such as IC50 values, dose-response curves, or statistical comparisons, are provided. The abstract does not specify concentrations, exposure times, or assay types.
+  - **Why it matters** Cytotoxicity claims require quantitative dose-response data and appropriate statistical analysis to be meaningful. Without these, the biological relevance and selectivity of YKT cannot be evaluated.
+  - **Resolution test** Report IC50 values for each cell line, include dose-response curves, and state the statistical methods and replicates used.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational validation
+  - **Claim pointer** The authors claim that DFT calculations at B3LYP/6-311++G(d,p) level and MD simulations were used to characterize conformational, vibrational, and dynamic properties.
+  - **Evidence pointer** Abstract, computational methods; location not provided
+  - **Concern** The abstract provides no validation of the computational methods, such as comparison of calculated vibrational wavenumbers with experimental spectra, convergence criteria for MD simulations, or force field parameters used.
+  - **Why it matters** Computational results are only meaningful if validated against experimental data or established benchmarks. Without this, the conformational and vibrational assignments remain unsubstantiated.
+  - **Resolution test** Include a comparison table of calculated versus experimental vibrational frequencies, specify MD simulation parameters and equilibration criteria, and state the force field used.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, scope statement
+  - **Evidence pointer** Abstract, first sentence; location not provided
+  - **Issue** The abstract lists many methods but does not clarify how each method contributes to the overall conclusions.
+  - **Required correction** Briefly state the specific role of each method in addressing the study objectives.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, DNA binding description
+  - **Evidence pointer** Abstract, experimental results; location not provided
+  - **Issue** The term "intercalatively and electrostatically bound" is used without defining the relative contribution of each mode.
+  - **Required correction** Clarify whether one mode dominates or if both are equally significant, and provide supporting evidence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, pharmacokinetic profile
+  - **Evidence pointer** Abstract, pharmacokinetic section; location not provided
+  - **Issue** The pharmacokinetic profile is mentioned but no parameters or methods are described.
+  - **Required correction** Specify which pharmacokinetic properties were predicted and the computational tools used.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of DNA binding mode, cleavage activity, and cytotoxicity are not supported by the provided evidence. Computational results lack validation.
+- **Assessment against Nature-style criteria** Originality: The combination of techniques is not novel in itself, but the specific tripeptide may offer new insights; however, this cannot be assessed from the abstract. Scientific importance: The potential anticancer relevance is plausible but not established. Interdisciplinary readership: The study spans chemistry, biology, and computational science, which could appeal to a broad audience. Technical soundness: Not assessable due to missing data and methodological details. Readability for nonspecialists: The abstract is dense and assumes familiarity with multiple techniques, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially interesting study, but the absence of quantitative data and methodological transparency prevents any assessment of validity. A revised manuscript with full experimental details and data would be required for further evaluation.
+
+## Risk / unsupported claims
+- The claim that YKT binds to CT-DNA via intercalative and electrostatic modes is unsupported without quantitative binding data or spectral evidence.
+- The claim that YKT cleaves pBR322 DNA in the presence of H2O2 is unsupported without gel images or cleavage efficiency data.
+- The claim of cytotoxic effects on MCF-7, HeLa, and BEAS-2B cell lines is unsupported without IC50 values or dose-response data.
+- The claim that DFT and MD results characterize conformational and dynamic properties is unverifiable without validation against experimental data.
+- The pharmacokinetic profile claim is unverifiable as no parameters or methods are provided.

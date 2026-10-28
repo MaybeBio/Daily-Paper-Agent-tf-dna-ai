@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Methodological validity, statistical rigor, biological interpretation, and reproducibility of the MD-MSS approach as applied to p53
+- **Shared manuscript claim summary** The authors present MD-MSS (Sectors 3.0), a recursive algorithm that refines molecular dynamics-based sectors by iteratively swapping residues to maximize intra-sector cohesion. They claim this method can extract multiple sectors, and apply it to three p53 constructs (WT, Y220C, PK11000-bound) to identify covarying residue networks relevant to allosteric signaling.
+- **Visible evidence base** Methods section (simulation protocols, analysis tools), Results section (correlation matrices, rank-ordered matrices, sector identification, structural mapping), Discussion (interpretation of sector significance)
+- **Missing materials affecting confidence** Supplementary figures (Figure S1), full sector residue lists, Venn diagram details (Figure 8), rank-order data, code availability, convergence criteria details, statistical significance testing
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful methodological advance in sector analysis for MD simulations, with a clear conceptual motivation. However, the current evidence base is insufficient to establish the validity, robustness, or biological significance of the claimed findings. Key methodological details are missing, statistical validation is absent, and the biological interpretation is speculative. The work may be of interest to computational biophysicists, but the case for its broader impact on allosteric drug design is not yet made.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists working on allosteric regulation, protein dynamics, and MD trajectory analysis would be the primary audience. Those developing sector-based methods or applying covariance analysis to identify functional networks in proteins would find the algorithmic refinement of interest. The p53 application may attract cancer researchers focused on allosteric reactivation strategies, though the biological claims are currently too preliminary to be actionable.
+- **Major strengths** 1) The conceptual motivation is clear: addressing the known limitation of covariance-based sector methods that rely on global correlation rather than intra-sector cohesion. 2) The iterative refinement approach is a logical and potentially valuable extension of existing MDS methodology. 3) The application to a clinically relevant system (p53 Y220C rescue) provides a meaningful test case. 4) The use of freely available tools (cpptraj, Python) enhances potential accessibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the iterative refinement algorithm "successfully differentiate[s] between residues that are not just simply correlated well with the entire protein overall, but can select residues that are highly correlated with just the sector itself" (Results, "Rank Ordering Correlation of Residues").
+  - **Evidence pointer** Results section, "Rank Ordering Correlation of Residues"; Methods section, "Trajectory Analysis"
+  - **Concern** The manuscript does not provide a formal definition of the convergence criterion for the iterative swapping procedure. The text states "If the Vpica of S1 has increased, the move is accepted. Otherwise, it is rejected," but no stopping rule is specified. It is unclear when the algorithm terminates, how many iterations were performed, whether the procedure is deterministic or stochastic, and whether the final result is sensitive to the initial ordering of residues. Without this information, the reproducibility of the method is questionable.
+  - **Why it matters** A central claim of the paper is that the method is "replicable" and "systematic." If the convergence behavior is not characterized, readers cannot assess whether the reported sectors are stable or artifacts of the specific implementation. This undermines the methodological contribution.
+  - **Resolution test** Provide a precise algorithmic description including the convergence criterion, the number of iterations required for each construct, and a sensitivity analysis (e.g., starting from different initial orderings or random seeds) to demonstrate that the final sector composition is robust.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The claim that the identified sectors are "significantly more cohesive than residues not in the network" (Discussion, referencing Fabry et al. 45) and that the two sectors identified in p53 are biologically meaningful.
+  - **Evidence pointer** Results section, "Rank Ordering Correlation of Residues" and "Structural Mapping"; Discussion section
+  - **Concern** No statistical significance testing is reported. The improvement in Vpica values from 25.432 to 27.785 (first sector) and 15.623 to 21.141 (second sector) is presented as evidence of improved cohesion, but no confidence intervals, null models, or permutation tests are provided. It is impossible to determine whether these improvements are statistically meaningful or could arise by chance. Additionally, the biological relevance of the sectors is asserted based on overlap with known hotspot mutations and DNA-contacting residues, but no enrichment analysis or comparison to random residue sets is performed.
+  - **Why it matters** The core value proposition of the method is that it identifies biologically relevant sectors. Without statistical validation, the observed improvements in cohesion could be trivial, and the claimed biological significance is unsupported. This is critical for establishing the method's utility.
+  - **Resolution test** Perform permutation tests (e.g., randomly assigning residues to sectors while preserving size) to establish that the observed Vpica improvements are statistically significant. Conduct enrichment analysis for known functional residues (hotspots, DNA contacts) against a null distribution. Report effect sizes and confidence intervals.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that the method is applicable to "any trajectory" and "any pairwise matrix" (Conclusions).
+  - **Evidence pointer** Methods section, "Trajectory Analysis"; Conclusions
+  - **Concern** The manuscript does not provide the Python code or a detailed pseudocode for the MD-MSS algorithm. The Methods section states "The Python script is available in the Supporting Information," but this is not included in the provided material. Additionally, the specific parameters used (e.g., the definition of "top 20%", the handling of negative correlations, the exact form of the Vpica calculation) are not fully specified. The claim of broad applicability is therefore not verifiable.
+  - **Why it matters** For a methods paper, reproducibility is paramount. Without access to the code and complete parameter specifications, other researchers cannot apply or validate the method. This limits the potential impact and scientific contribution.
+  - **Resolution test** Provide the full code as supplementary material, include a detailed pseudocode in the main text, and specify all parameters and their default values. Ideally, include a test case with known expected output to allow validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation
+  - **Claim pointer** The claim that the sectors "may provide candidate binding sites" for allosteric drugs and that the findings have implications for "curing this currently uncurable disease" (Conclusions).
+  - **Evidence pointer** Discussion section; Conclusions
+  - **Concern** The biological interpretation is highly speculative. The manuscript does not demonstrate that the identified sectors are functionally relevant, e.g., through mutational analysis, correlation with known allosteric pathways, or experimental validation. The leap from computational sector identification to therapeutic implications is not supported by the data presented. The Y220C/PK11000 system is mentioned as a "proof of concept," but no specific mechanistic insight is derived from the sector analysis.
+  - **Why it matters** Overstating biological implications without evidence can mislead readers and detract from the methodological contribution. The paper would be stronger if it clearly separated the methodological advance from speculative biological interpretation.
+  - **Resolution test** Either temper the biological claims to match the evidence, or add functional validation (e.g., comparing sector residues to known allosteric sites, performing in silico mutagenesis, or correlating sector membership with experimental perturbation data).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, "Trajectory Analysis"
+  - **Evidence pointer** Methods section, "Trajectory Analysis"
+  - **Issue** The description of the Vpica calculation is incomplete. The text refers to "Vpica values" and "Vpica_in ref (45)" but does not define the mathematical form of these quantities in the current manuscript. Readers unfamiliar with Fabry et al. 45 will not be able to follow the methodology.
+  - **Required correction** Provide a self-contained definition of Vpica, including the formula and the interpretation of the values.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results section, "Structural Mapping"
+  - **Evidence pointer** Results section, "Structural Mapping"; Figure 7
+  - **Issue** The description of Figure 7 is vague. The text states that "the spatial separation of the residues in the sector is suggested" and that parallel planes "roughly partition the sector residues into spatially distinct regions," but the criteria for defining these planes and the significance of the spatial separation are not explained.
+  - **Required correction** Clarify how the planes were defined and what biological or methodological insight the spatial partitioning provides.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section, "Rank Ordering Correlation of Residues"
+  - **Evidence pointer** Results section, "Rank Ordering Correlation of Residues"
+  - **Issue** The manuscript states that "26 sector residues change from the average rearrange, to the final rearrange" but does not provide the list of these residues or discuss the implications of this change.
+  - **Required correction** Provide the specific residues that changed and discuss whether this indicates instability in the method or meaningful refinement.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section, "Molecular Dynamics Simulations"
+  - **Evidence pointer** Methods section, "Molecular Dynamics Simulations"
+  - **Issue** The simulation protocol is described in general terms, but key parameters such as the number of replicas, the equilibration time, the ensemble used (NPT vs NVT), and the temperature/pressure coupling schemes are not specified. The statement "1 μs of neutral dynamics" is insufficient for reproducibility.
+  - **Required correction** Provide a complete list of simulation parameters, including software versions, force field details, and any relevant input files.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction cites Fabry et al. 45 for the MDS2.0 methodology but does not clearly distinguish the specific contributions of the current work beyond "iterative refinement." The novelty claim would be strengthened by a more explicit comparison to prior sector methods.
+  - **Required correction** Add a paragraph explicitly contrasting MD-MSS with MDS1.0, MDS2.0, and sequence-based SCA, highlighting the specific algorithmic differences and expected advantages.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of convergence criteria and sensitivity analysis for the iterative algorithm (R1-M1). 2) Absence of statistical validation for cohesion improvements and biological enrichment (R1-M2). 3) Incomplete code and parameter disclosure (R1-M3). 4) Overstated biological implications without functional evidence (R1-M4).
+- **Assessment against Nature-style criteria** Originality: Moderate. The iterative refinement concept is a reasonable extension of existing work but is not conceptually transformative. Scientific importance: Moderate. The method may be useful to a niche community but the current evidence does not demonstrate broad impact. Interdisciplinary readership: Limited. The manuscript is written for computational biophysicists; the biological framing is not sufficiently developed to attract a wider audience. Technical soundness: Weak. The lack of convergence analysis, statistical testing, and code availability undermines confidence in the results. Readability for nonspecialists: Acceptable. The writing is generally clear, but the methods section assumes familiarity with sector analysis and MD covariance techniques.
+- **Recommendation posture** Currently not established from the provided evidence. The methodological idea has merit, but the manuscript requires substantial additional analysis, validation, and clarification before the claims can be supported. I would be supportive if the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that MD-MSS "successfully" identifies more cohesive sectors is unsupported without statistical significance testing.
+- The claim that the identified sectors are biologically relevant to allosteric signaling in p53 is unsupported without functional validation or enrichment analysis.
+- The claim that the method is applicable to "any trajectory" and "any pairwise matrix" is unverifiable without code and full parameter disclosure.
+- The claim that sector analysis "may provide candidate binding sites" for allosteric drugs is speculative and not grounded in the presented data.
+- The statement that the second sector is "truly independent" is not adequately tested; the analysis with and without absolute values (Figure 5) is mentioned but not interpreted in sufficient detail.

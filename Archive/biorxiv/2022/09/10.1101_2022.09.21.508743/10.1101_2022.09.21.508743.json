@@ -1,0 +1,514 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.09.21.508743",
+  "title": "Allelic Transcription Factor binding shape transcriptional kinetics observed with scRNA-seq in human cell lines",
+  "doi": "10.1101/2022.09.21.508743",
+  "abstract": "Gene expression from bulk RNA-seq studies is an average measurement between two chromosomes and across cell populations. Both allelic and cell-to-cell heterogeneity in gene expression results from promoter bursting patterns that repeatedly alternate between an activated and inactivated state. Increased cell-to-cell heterogeneity in gene expression has been associated with aging and stem cell pluripotency. However, studies of bursting kinetics and their molecular mechanism are relatively limited in human cells compared to other species due to laborious single-molecule experiments. Here, we systematically investigate the regulatory effect of genetic variants and transcription factor (TF) binding on transcriptional kinetics at the single chromosome level with GM12878. We found that the transcription initiation rate and burst frequency correlate most with eQTL effect sizes among transcriptional kinetics, which suggests that eQTLs affect average gene expression mainly through altering burst kinetics. We further found that ∼90% of the variance of burst frequency can be explained by TF occupancy in phase with the core promoter. We identified and replicated several examples where eQTL or GWAS catalog loci perturb TF binding affinity and are consequently associated with the change of burst kinetics.",
+  "authors": [
+    "Bowen Jin",
+    "Hao Feng",
+    "William S. Bush"
+  ],
+  "published_date": "2022-09-22",
+  "updated_date": "2022-09-22T10:05:51Z",
+  "journal": "bioRxiv",
+  "category": "Genetics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.09.21.508743",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.09.21.508743.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genetics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genetics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:45:58Z",
+        "timestamp": 1768502758981,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            22
+          ]
+        ]
+      },
+      "group-title": "Genetics",
+      "reference-count": 54,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            4
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Gene expression from bulk RNA-seq studies is an average measurement between two chromosomes and across cell populations. Both allelic and cell-to-cell heterogeneity in gene expression results from promoter bursting patterns that repeatedly alternate between an activated and inactivated state. Increased cell-to-cell heterogeneity in gene expression has been associated with aging and stem cell pluripotency. However, studies of bursting kinetics and their molecular mechanism are relatively limited in human cells compared to other species due to laborious single-molecule experiments. Here, we systematically investigate the regulatory effect of genetic variants and transcription factor (TF) binding on transcriptional kinetics at the single chromosome level with GM12878. We found that the transcription initiation rate and burst frequency correlate most with eQTL effect sizes among transcriptional kinetics, which suggests that eQTLs affect average gene expression mainly through altering burst kinetics. We further found that ∼90% of the variance of burst frequency can be explained by TF occupancy in phase with the core promoter. We identified and replicated several examples where eQTL or GWAS catalog loci perturb TF binding affinity and are consequently associated with the change of burst kinetics.</jats:p>",
+      "DOI": "10.1101/2022.09.21.508743",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            22
+          ]
+        ],
+        "date-time": "2022-09-22T10:05:51Z",
+        "timestamp": 1663841151000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Allelic Transcription Factor binding shape transcriptional kinetics observed with scRNA-seq in human cell lines"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1442-6259",
+          "authenticated-orcid": false,
+          "given": "Bowen",
+          "family": "Jin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hao",
+          "family": "Feng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9729-6519",
+          "authenticated-orcid": false,
+          "given": "William S.",
+          "family": "Bush",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg1615"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2018.11.004"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "689",
+          "DOI": "10.1186/s12864-021-07974-8",
+          "article-title": "SCReadCounts: estimation of cell-level SNVs expression from scRNA-seq data",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "BMC Genomics"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2014.12.001"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature13920"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature06965"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aax0249"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "74",
+          "DOI": "10.1186/s13059-017-1200-8",
+          "article-title": "SCALE: modeling allele-specific gene expression by single-cell RNA sequencing",
+          "volume": "18",
+          "year": "2017",
+          "journal-title": "Genome Biology"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2013-14-1-r7"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature04844"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ceb.2020.08.001"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncb2881"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aah4115"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-011520-105250"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1213530109"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0707904105"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nicolas D , Zoller B , Suter DM , Naef F. 2018. Modulation of transcriptional burst frequency by histone acetylation.",
+          "DOI": "10.1073/pnas.1722330115"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2018.11.004"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cub.2017.05.028"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "409",
+          "DOI": "10.1016/j.cels.2018.01.012",
+          "article-title": "Frequency Modulation of Transcriptional Bursting Enables Sensitive and Rapid Gene Regulation",
+          "volume": "6",
+          "year": "2018",
+          "journal-title": "Cell Systems"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "471",
+          "DOI": "10.1016/j.cels.2017.10.003",
+          "article-title": "Systematic Analysis of the Determinants of Gene Expression Noise in Embryonic Stem Cells",
+          "volume": "5",
+          "year": "2017",
+          "journal-title": "Cell Systems"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.05.025"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2010.03.001"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-021-00661-y"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-018-0836-1"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz363"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-017-1165-7"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp352"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bressloff PC . Stochastic processes in cell biology. Vol. 41. Berlin: Springer, 2014.",
+          "DOI": "10.1007/978-3-319-08488-6"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "112",
+          "DOI": "10.1038/s41597-019-0116-4",
+          "article-title": "Single-cell RNA sequencing of a European and an African lymphoblastoid cell line",
+          "volume": "6",
+          "year": "2019",
+          "journal-title": "Sci Data"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1861"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0803850105"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw202"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.09.056"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa197"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1081"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3545"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "708",
+          "DOI": "10.1038/s41587-020-0497-0",
+          "article-title": "Single-cell RNA counting at allele and isoform resolution using Smart-seq3",
+          "volume": "38",
+          "year": "2020",
+          "journal-title": "Nat Biotechnol"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa197"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-021-00661-y"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.05.025"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-021-00924-w"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1002228",
+          "DOI": "10.1371/journal.pgen.1002228",
+          "article-title": "Analysis of DNA Methylation in a Three-Generation Family Reveals Widespread Genetic Influence on Epigenetic Regulation",
+          "volume": "7",
+          "year": "2011",
+          "journal-title": "PLOS Genetics"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1202142"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "George L , Indig FE , Abdelmohsen K , Gorospe M. Intracellular RNA-tracking methods. Open Biology 8: 180104.",
+          "DOI": "10.1098/rsob.180104"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "36",
+          "DOI": "10.1186/s12920-018-0354-x",
+          "article-title": "HLA and proteasome expression body map",
+          "volume": "11",
+          "year": "2018",
+          "journal-title": "BMC Medical Genomics"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2207392119",
+          "DOI": "10.1073/pnas.2207392119",
+          "article-title": "Inferring gene regulation from stochastic transcriptional variation across single cells at steady state",
+          "volume": "119",
+          "year": "2022",
+          "journal-title": "Proc Natl Acad Sci U S A"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ajmg.b.32349"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "1169",
+          "DOI": "10.1038/s41467-020-14976-9",
+          "article-title": "Embracing the dropouts in single-cell RNA-seq analysis",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0145-2126(00)00125-9"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz169"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41591-019-0695-9"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "229",
+          "DOI": "10.1186/s13059-022-02796-7",
+          "article-title": "scTAM-seq enables targeted highconfidence analysis of DNA methylation in single cells",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Genome Biology"
+        },
+        {
+          "key": "2023050811550628000_2022.09.21.508743v4.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1161/ATVBAHA.117.310549"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.09.21.508743",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:38:26Z",
+        "timestamp": 1768448306000
+      },
+      "score": 108.14183,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.09.21.508743"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            22
+          ]
+        ]
+      },
+      "references-count": 54,
+      "URL": "https://doi.org/10.1101/2022.09.21.508743",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            22
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

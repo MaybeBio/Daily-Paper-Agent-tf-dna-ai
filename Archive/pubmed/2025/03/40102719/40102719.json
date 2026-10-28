@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "40102719",
+    "doi": "10.1186/s12864-025-11399-y",
+    "title": "CacPred: a cascaded convolutional neural network for TF-DNA binding prediction."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Transcription factors (TFs) regulate the genes' expression by binding to DNA sequences. Aligned TFBSs of the same TF are seen as cis-regulatory motifs, and substantial computational efforts have been invested to find motifs. In recent years, convolutional neural networks (CNNs) have succeeded in TF-DNA binding prediction, but existing DL methods' accuracy needs to be improved and convolution function in TF-DNA binding prediction should be further explored. RESULTS: We develop a cascaded convolutional neural network model named CacPred to predict TF-DNA binding on 790 Chromatin immunoprecipitation-sequencing (ChIP-seq) datasets and seven ChIP-nexus (chromatin immunoprecipitation experiments with nucleotide resolution through exonuclease, unique barcode, and single ligation) datasets. We compare CacPred to six existing DL models across nine standard evaluation metrics. Our results indicate that CacPred outperforms all comparison models for TF-DNA binding prediction, and the average accuracy (ACC), matthews correlation coefficient (MCC), and the area of eight metrics radar (AEMR) are improved by 3.3%, 9.2%, and 6.4% on 790 ChIP-seq datasets. Meanwhile, CacPred improves the average ACC, MCC, and AEMR of 5.5%, 16.8%, and 12.9% on seven ChIP-nexus datasets. To explain the proposed method, motifs are used to show features CacPred learned. In light of the results, CacPred can find some significant motifs from input sequences. CONCLUSIONS: This paper indicates that CacPred performs better than existing models on ChIP-seq data. Seven ChIP-nexus datasets are also analyzed, and they coincide with results that our proposed method performs the best on ChIP-seq data. CacPred only is equipped with the convolutional algorithm, demonstrating that pooling processing of the existing models leads to losing some sequence information. Some significant motifs are found, showing that CacPred can learn features from input sequences. In this study, we demonstrate that CacPred is an effective and feasible model for predicting TF-DNA binding. CacPred is freely available at https://github.com/zhangsq06/CacPred .",
+    "keywords": [
+      "ChIP-seq",
+      "Deep learning",
+      "TF-DNA binding prediction",
+      "Transcription factor"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Binding Sites",
+      "Chromatin Immunoprecipitation Sequencing",
+      "Computational Biology/methods",
+      "*Convolutional Neural Networks",
+      "DNA/metabolism",
+      "*Neural Networks, Computer",
+      "Protein Binding",
+      "*Software",
+      "*Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Shuangquan",
+        "Ma, Anjun",
+        "Xie, Xuping",
+        "Lian, Zhichao",
+        "Wang, Yan"
+      ],
+      "short_names": [
+        "Zhang S",
+        "Ma A",
+        "Xie X",
+        "Lian Z",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9245-5982"
+      ],
+      "affiliations": [
+        "School of Cyber Science and Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China.",
+        "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China.",
+        "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA.",
+        "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China.",
+        "School of Cyber Science and Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China. newlzcts@njust.edu.cn.",
+        "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China. wy6868@jlu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Shuangquan",
+        "short_name": "Zhang S",
+        "identifiers": [
+          "0000-0001-9245-5982"
+        ],
+        "affiliations": [
+          "School of Cyber Science and Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China.",
+          "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Anjun",
+        "short_name": "Ma A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH, 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Xie, Xuping",
+        "short_name": "Xie X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China."
+        ]
+      },
+      {
+        "full_name": "Lian, Zhichao",
+        "short_name": "Lian Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Cyber Science and Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China. newlzcts@njust.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun, 130012, China. wy6868@jlu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2025 Mar 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/19 06:22",
+    "fetched_at": "2026-09-30 13:55:56"
+  },
+  "links": {
+    "cites": [
+      "41782896"
+    ],
+    "refs": [
+      "34607350",
+      "33962132",
+      "33325480",
+      "33303016",
+      "33043324",
+      "32770026",
+      "32574834",
+      "32551184",
+      "31695723",
+      "31396667",
+      "31186519",
+      "31161194",
+      "31128062",
+      "30967126",
+      "30922998",
+      "30420244",
+      "29654070",
+      "28395661",
+      "28245811",
+      "28075484",
+      "27919220",
+      "27789702",
+      "27197224",
+      "27084946",
+      "26213851",
+      "25751057",
+      "25392745",
+      "23732275",
+      "22073148",
+      "21486936",
+      "21342573",
+      "19458158",
+      "15173120",
+      "11933069",
+      "11028911"
+    ],
+    "similar": [
+      "40102719",
+      "33498086",
+      "34929739",
+      "31742324",
+      "35263332",
+      "38643066",
+      "34752400",
+      "34174819",
+      "39701486",
+      "37328639",
+      "38515040",
+      "39350338",
+      "35681170",
+      "40848288",
+      "20838582",
+      "30957858",
+      "34272562",
+      "24039567",
+      "26971251",
+      "38701417",
+      "35997564",
+      "24927817",
+      "25957350",
+      "41634097",
+      "21486936",
+      "29970003",
+      "29993783",
+      "41325984",
+      "33372147",
+      "37805453",
+      "19956545",
+      "41022541",
+      "25070602",
+      "34073774",
+      "32976105",
+      "30897079",
+      "31138617",
+      "28750606",
+      "31336830",
+      "35410161",
+      "41294241",
+      "23427986",
+      "40334196",
+      "30395277",
+      "23272209",
+      "32404971",
+      "38940155",
+      "20158869",
+      "34292930",
+      "29757349",
+      "35042722",
+      "32770026",
+      "30517703",
+      "21912677",
+      "40065237",
+      "32946398",
+      "23758851",
+      "31723409",
+      "29617928",
+      "32825662",
+      "26679776",
+      "31070745",
+      "31372637",
+      "25442502",
+      "30423062",
+      "28234893",
+      "28334268",
+      "41601205",
+      "31899481",
+      "27153645",
+      "37919990",
+      "22863112",
+      "39796242",
+      "40914877",
+      "28718849",
+      "39482734",
+      "23522376",
+      "33975951",
+      "21081511",
+      "34607350",
+      "33603233",
+      "39402535",
+      "39708840",
+      "36748992",
+      "24472686",
+      "27814676",
+      "36094959",
+      "27780826",
+      "35462009",
+      "26703974",
+      "27845669",
+      "24581441",
+      "27587683",
+      "28240320",
+      "31653198",
+      "28623590",
+      "28981893",
+      "36049552",
+      "30578913",
+      "34613923"
+    ],
+    "review": [
+      "40102719",
+      "31742324"
+    ],
+    "pmc": [
+      "11916463"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-025-11399-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40102719/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

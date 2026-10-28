@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors identify two compounds, PPG and 9-HPF, as inhibitors of Plasmodium falciparum single-stranded DNA-binding protein (PfSSB). They report that these compounds disrupt PfSSB's ssDNA binding, show antimalarial activity against drug-sensitive (3D7) and artemisinin-resistant (C580Y) strains, are non-toxic in an MTT assay, are structurally distinct from existing antimalarials, and that virtual screening of 59,807 analogs identified candidates with higher predicted affinities.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data beyond IC50 and resistance index values, assay protocols, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, compound structures, purity and characterization data, raw biophysical and cellular assay data, cytotoxicity details, virtual screening methodology and results, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting target and a plausible hit-discovery workflow, but the evidence base is too limited to evaluate the validity of the central claims. The reported IC50 values are in the micromolar range, which is weak for antimalarial leads, and the claim of "strong binding affinity" is not supported by quantitative data in the abstract. The resistance index values are close to 1, which does not clearly demonstrate an advantage against artemisinin-resistant strains. The virtual screening result is presented without any validation. The case for PPG and 9-HPF as viable antimalarial leads is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in antimalarial drug discovery, particularly those focused on new targets such as apicoplast biology or DNA replication proteins, and those seeking compounds active against artemisinin-resistant parasites. The work may also interest medicinal chemists working on scaffold hopping or structure-based virtual screening.
+- **Major strengths** The target choice, PfSSB, is biologically rational and underexplored, which gives the work a degree of novelty. The use of multiple orthogonal assays (biolayer interferometry, gel retardation, cellular growth inhibition, cytotoxicity) is a sound strategy. The explicit testing against an artemisinin-resistant strain is commendable. The structural novelty claim, if substantiated, would be relevant to cross-resistance concerns.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Biolayer interferometry assay and the gel retardation assays demonstrate that they have a stronger binding affinity and disrupt PfSSB's ssDNA binding ability."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that the compounds have "stronger binding affinity" but provides no quantitative binding constants, no comparison to a positive or negative control, and no indication of the concentration range tested. The gel retardation assay is described only qualitatively. Without numerical data, the strength of the interaction cannot be assessed.
+  - **Why it matters** The central mechanism of action claim rests on direct binding and functional disruption of PfSSB. If the binding affinity is weak or the disruption is only partial at high concentrations, the proposed mechanism and the rationale for the entire study are undermined.
+  - **Resolution test** Provide dissociation constants (e.g., KD from biolayer interferometry) with replicates and statistical error, and show gel retardation data with dose-response and appropriate controls, including a known ssDNA competitor and a negative control protein.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "PPG and 9-HPF show antimalarial activity against drug-sensitive P. falciparum (3D7) with IC(50) values of 54.95 and 9.13 muM, respectively, and they can also effectively inhibit artemisinin-resistant P. falciparum (C580Y) with a resistance index of 0.79 and 1.26, respectively."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The IC50 values are in the micromolar range, which is generally considered weak for antimalarial leads. The resistance index values of 0.79 and 1.26 are close to 1, meaning the compounds show essentially no differential potency between the sensitive and resistant strains. The phrase "effectively inhibit" is not supported by these numbers, as a resistance index near 1 indicates equal potency, not enhanced activity against the resistant strain.
+  - **Why it matters** The claim of activity against artemisinin-resistant parasites is a key selling point. If the compounds are only equipotent against both strains, the advantage over existing drugs is not demonstrated. Moreover, the micromolar potency raises questions about whether the observed activity is target-mediated or due to nonspecific effects.
+  - **Resolution test** Provide full dose-response curves with confidence intervals, replicate counts, and a comparator drug (e.g., chloroquine or artemisinin) tested under identical conditions. Clarify whether the resistance index is calculated from mean IC50 values and provide statistical comparison. If possible, show that the compounds retain activity in a panel of resistant strains beyond C580Y.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "MTT cytotoxicity assays confirm that both compounds are nontoxic"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify the cell line used, the concentration range tested, the selectivity index relative to the antimalarial IC50, or the criteria for "nontoxic." A compound can be non-toxic at low concentrations but toxic at concentrations relevant to the observed IC50.
+  - **Why it matters** A selectivity index is essential to determine whether the antimalarial activity is specific or merely a consequence of general cytotoxicity. Without this, the therapeutic potential cannot be assessed.
+  - **Resolution test** Provide the cell line, concentration range, CC50 values, and calculated selectivity indices for both compounds. State the threshold used to define "nontoxic."
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "virtual screening of 59,807 compounds with similar structures to PPG and 9-HPF identifies candidates with higher affinities for PfSSB"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a virtual screening result without any experimental validation of the identified candidates. No docking scores, hit criteria, or follow-up assays are described. The claim of "higher affinities" is purely computational and has not been tested.
+  - **Why it matters** Virtual screening predictions are frequently false positives. Without experimental confirmation, this claim is speculative and does not add evidentiary weight to the study.
+  - **Resolution test** Provide the virtual screening methodology, scoring functions, and hit selection criteria. Ideally, validate at least a subset of the top candidates in the same biophysical and cellular assays used for PPG and 9-HPF.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Target description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states PfSSB is "crucial for DNA replication process in apicoplast," but does not clarify whether PfSSB is exclusively apicoplast-localized or whether it has additional roles in the nucleus or mitochondrion.
+  - **Required correction** Clarify the subcellular localization and any evidence for functional specificity, or state that this is assumed based on homology.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Compound characterization
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state whether PPG and 9-HPF are known compounds, natural products, or novel synthetic molecules, nor does it provide any structural information.
+  - **Required correction** Include compound structures or at least a chemical class description, and state whether they are previously reported.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Resistance index interpretation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The resistance index values of 0.79 and 1.26 are presented without explanation of what range would be considered favorable. A value below 1 might suggest slightly better activity against the resistant strain, but the difference is likely within experimental error.
+  - **Required correction** Provide a definition of resistance index and a statistical comparison of IC50 values between strains.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Assay details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the concentration of DMSO used, the parasite synchronization method, or the incubation time for the growth inhibition assay.
+  - **Required correction** Provide these details in the full manuscript to ensure reproducibility.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The central claims of target engagement, antimalarial efficacy, selectivity, and computational hit identification are all insufficiently supported by the abstract-level evidence.
+- **Assessment against Nature-style criteria**  
+  - Originality: The target is underexplored, which is a point in favor, but the abstract does not demonstrate that the compounds are mechanistically novel beyond binding to PfSSB.  
+  - Scientific importance: Drug resistance is a major global health issue, and new targets are needed. However, the micromolar potency and lack of demonstrated advantage against resistant strains limit the immediate significance.  
+  - Interdisciplinary readership: The work spans parasitology, biophysics, and medicinal chemistry, which could appeal to a broad audience, but the abstract does not provide enough depth for any single discipline to evaluate the claims.  
+  - Technical soundness: The use of multiple assays is appropriate, but the lack of quantitative data and controls in the abstract prevents assessment of technical rigor.  
+  - Readability for nonspecialists: The abstract is generally clear, but terms like "resistance index" and "biolayer interferometry" are used without explanation.  
+  Overall, the work does not meet the bar for a high-impact general journal based on the abstract alone.
+- **Recommendation posture** Currently not established from the provided evidence. The authors should be encouraged to resubmit with full quantitative data, including binding constants, dose-response curves with statistical analysis, selectivity indices, and experimental validation of virtual screening hits.
+
+## Risk / unsupported claims
+- The claim that PPG and 9-HPF "inhibit the DNA binding property of PfSSB" is unsupported without quantitative binding or functional data.
+- The claim that the compounds "effectively inhibit" artemisinin-resistant parasites is unsupported given resistance index values near 1.
+- The claim that the compounds are "nontoxic" is unsupported without specifying cell line, concentration range, and selectivity index.
+- The claim that virtual screening "identifies candidates with higher affinities" is unsupported without experimental validation.
+- The claim that the compounds are "structurally distinct from existing antimalarials" is not verifiable from the abstract, as no structures or similarity metrics are provided.

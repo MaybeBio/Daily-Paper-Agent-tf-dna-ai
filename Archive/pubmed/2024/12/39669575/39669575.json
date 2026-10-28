@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "39669575",
+    "doi": "10.3389/fimmu.2024.1489235",
+    "title": "Integrated immunogenomic analyses of high-grade serous ovarian cancer reveal vulnerability to combination immunotherapy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The efficacy of immunotherapies in high-grade serous ovarian cancer (HGSOC) is limited, but clinical trials investigating the potential of combination immunotherapy including poly-ADP-ribose polymerase inhibitors (PARPis) are ongoing. Homologous recombination repair deficiency or BRCAness and the composition of the tumor microenvironment appear to play a critical role in determining the therapeutic response. METHODS: We conducted comprehensive immunogenomic analyses of HGSOC using data from several patient cohorts. Machine learning methods were used to develop a classification model for BRCAness from gene expression data. Integrated analysis of bulk and single-cell RNA sequencing data was used to delineate the tumor immune microenvironment and was validated by immunohistochemistry. The impact of PARPi and BRCA1 mutations on the activation of immune-related pathways was studied using ovarian cancer cell lines, RNA sequencing, and immunofluorescence analysis. RESULTS: We identified a 24-gene signature that predicts BRCAness. Comprehensive immunogenomic analyses across patient cohorts identified samples with BRCAness and high immune infiltration. Further characterization of these samples revealed increased infiltration of immunosuppressive cells, including tumor-associated macrophages expressing TREM2, C1QA, and LILRB4, as specified by single-cell RNA sequencing data and gene expression analysis of samples from patients receiving combination therapy with PARPi and anti-PD-1. Our findings show also that genomic instability and PARPi activated the cGAS-STING signaling pathway in vitro and the downstream innate immune response in a similar manner to HGSOC patients with BRCAness status. Finally, we have developed a web application (https://ovrseq.icbi.at) and an associated R package OvRSeq, which allow for comprehensive characterization of ovarian cancer patient samples and assessment of a vulnerability score that enables stratification of patients to predict response to the combination immunotherapy. CONCLUSIONS: Genomic instability in HGSOC affects the tumor immune environment, and TAMs play a crucial role in modulating the immune response. Based on various datasets, we have developed a diagnostic application that uses RNA sequencing data not only to comprehensively characterize HGSOC but also to predict vulnerability and response to combination immunotherapy.",
+    "keywords": [
+      "BRCAness",
+      "PARP inhibitor",
+      "high-grade serous ovarian cancer",
+      "immunotherapy",
+      "precision oncology",
+      "tumor immune microenvironment",
+      "tumor-associated macrophages"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Ovarian Neoplasms/genetics/immunology/therapy/drug therapy",
+      "*Tumor Microenvironment/immunology/genetics",
+      "*Immunotherapy/methods",
+      "Cystadenocarcinoma, Serous/genetics/immunology/therapy/pathology/drug therapy",
+      "Cell Line, Tumor",
+      "Poly(ADP-ribose) Polymerase Inhibitors/therapeutic use",
+      "Neoplasm Grading",
+      "BRCA1 Protein/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Mutation",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "Single-Cell Analysis",
+      "Biomarkers, Tumor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gronauer, Raphael",
+        "Madersbacher, Leonie",
+        "Monfort-Lanzas, Pablo",
+        "Floriani, Gabriel",
+        "Sprung, Susanne",
+        "Zeimet, Alain Gustave",
+        "Marth, Christian",
+        "Fiegl, Heidelinde",
+        "Hackl, Hubert"
+      ],
+      "short_names": [
+        "Gronauer R",
+        "Madersbacher L",
+        "Monfort-Lanzas P",
+        "Floriani G",
+        "Sprung S",
+        "Zeimet AG",
+        "Marth C",
+        "Fiegl H",
+        "Hackl H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Bioinformatics, Biocenter, Medical University of Innsbruck, Innsbruck, Austria.",
+        "Institute of Bioinformatics, Biocenter, Medical University of Innsbruck, Innsbruck, Austria.",
+        "Institute of Bioinformatics, Biocenter, Medical University of Innsbruck, Innsbruck, Austria.",
+        "Institute of Medical Biochemistry, Biocenter, Medical University of Innsbruck, Innsbruck, Austria.",
+        "Institute of Bioinformatics, Biocenter, Medical University of Innsbruck, Innsbruck, Austria.",
+        "Institute of Pathology, Innpath GmbH, Innsbruck, Austria.",
+        "Department of Obstetrics and Gynecology, Medical University of Innsbruck, Innsbruck, Austria.",
+        "Department of Obstetrics and Gynecology, Medical University of Innsbruck, Innsbruck, Austria.",
+        "Department of Obstetrics and Gynecology, Medical University of Innsbruck, Innsbruck, Austria.",
+        "Institute of Bioinformatics, Biocenter, Medical University of Innsbruck, Innsbruck, Austria."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gronauer, Raphael",
+        "short_name": "Gronauer R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics, Biocenter, Medical University of Innsbruck, Innsbruck, Austria."
+        ]
+      },
+      {
+        "full_name": "Madersbacher, Leonie",
+        "short_name": "Madersbacher L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics, Biocenter, Medical University of Innsbruck, Innsbruck, Austria."
+        ]
+      },
+      {
+        "full_name": "Monfort-Lanzas, Pablo",
+        "short_name": "Monfort-Lanzas P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics, Biocenter, Medical University of Innsbruck, Innsbruck, Austria.",
+          "Institute of Medical Biochemistry, Biocenter, Medical University of Innsbruck, Innsbruck, Austria."
+        ]
+      },
+      {
+        "full_name": "Floriani, Gabriel",
+        "short_name": "Floriani G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics, Biocenter, Medical University of Innsbruck, Innsbruck, Austria."
+        ]
+      },
+      {
+        "full_name": "Sprung, Susanne",
+        "short_name": "Sprung S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Innpath GmbH, Innsbruck, Austria."
+        ]
+      },
+      {
+        "full_name": "Zeimet, Alain Gustave",
+        "short_name": "Zeimet AG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Medical University of Innsbruck, Innsbruck, Austria."
+        ]
+      },
+      {
+        "full_name": "Marth, Christian",
+        "short_name": "Marth C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Medical University of Innsbruck, Innsbruck, Austria."
+        ]
+      },
+      {
+        "full_name": "Fiegl, Heidelinde",
+        "short_name": "Fiegl H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Medical University of Innsbruck, Innsbruck, Austria."
+        ]
+      },
+      {
+        "full_name": "Hackl, Hubert",
+        "short_name": "Hackl H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics, Biocenter, Medical University of Innsbruck, Innsbruck, Austria."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/13 11:32",
+    "fetched_at": "2026-09-30 07:42:20"
+  },
+  "links": {
+    "cites": [
+      "42389486",
+      "41839869",
+      "41256843"
+    ],
+    "refs": [
+      "37939124",
+      "37709296",
+      "37653142",
+      "37474523",
+      "36980477",
+      "36822672",
+      "36758419",
+      "36724681",
+      "36633525",
+      "36609487",
+      "36593360",
+      "36581696",
+      "36517593",
+      "36142615",
+      "36109621",
+      "35849879",
+      "35681079",
+      "35618786",
+      "35613413",
+      "35274707",
+      "35168570",
+      "35132262",
+      "34944851",
+      "34686340",
+      "34670865",
+      "34289354",
+      "33891471",
+      "33834176",
+      "33149148",
+      "32854711",
+      "32783918",
+      "32529193",
+      "32398324",
+      "32193378",
+      "32103204",
+      "32066851",
+      "32025018",
+      "31851799",
+      "31126321",
+      "31046082",
+      "30988514",
+      "30951143",
+      "30930117",
+      "30914433",
+      "30676622",
+      "30540933",
+      "30522700",
+      "30395155",
+      "30084834",
+      "30013048",
+      "29978035",
+      "29788099",
+      "29625055",
+      "29409532",
+      "29295995",
+      "28978689",
+      "28650338",
+      "28596308",
+      "28302823",
+      "28052254",
+      "27268795",
+      "26957554",
+      "26871470",
+      "26775620",
+      "26463832",
+      "25605792",
+      "25516281",
+      "25431634",
+      "25319062",
+      "23323831",
+      "23104886",
+      "23047548",
+      "22933060",
+      "22576213",
+      "22300766",
+      "22155872",
+      "21720365",
+      "20547991",
+      "19237447",
+      "17008531",
+      "16322292",
+      "16199517",
+      "15322536"
+    ],
+    "similar": [
+      "39669575",
+      "39896800",
+      "32164626",
+      "41953398",
+      "39851178",
+      "40260248",
+      "41323499",
+      "33522069",
+      "33213473",
+      "32164585",
+      "31775874",
+      "40010770",
+      "42500684",
+      "42418892",
+      "39408764",
+      "42058211",
+      "35964058",
+      "41465250",
+      "34047476",
+      "41735641",
+      "42001613",
+      "33811746",
+      "42061278",
+      "30640700",
+      "39876019",
+      "32544083",
+      "31409614",
+      "39627836",
+      "41417832",
+      "40355485",
+      "40859223",
+      "39496775",
+      "36142803",
+      "41214101",
+      "42157333",
+      "33452206",
+      "28972047",
+      "40777041",
+      "41520487",
+      "41652625",
+      "41436831",
+      "42624178",
+      "40308576",
+      "41933852",
+      "32863940",
+      "41425595",
+      "26830315",
+      "40382612",
+      "36159999",
+      "39970633",
+      "40438115",
+      "39568014",
+      "34745121",
+      "40378056",
+      "35675036",
+      "41488652",
+      "42404891",
+      "39726597",
+      "40447755",
+      "34958553",
+      "39477310",
+      "42546410",
+      "32483290",
+      "41350901",
+      "35618786",
+      "35120576",
+      "30318511",
+      "27016230",
+      "41684035",
+      "36539830",
+      "35017656",
+      "39276533",
+      "27634150",
+      "39136009",
+      "42050900",
+      "41293150",
+      "34356119",
+      "39863903",
+      "41034557",
+      "40120139",
+      "41716413",
+      "41208987",
+      "29464354",
+      "41099994",
+      "41498033",
+      "42510824",
+      "26871470",
+      "39315092",
+      "41000388",
+      "39342345",
+      "40796942",
+      "41813751",
+      "42277915",
+      "42106020",
+      "32709712",
+      "38689382",
+      "32980128",
+      "42050327",
+      "41946828",
+      "39155781"
+    ],
+    "review": [
+      "39669575",
+      "41933852",
+      "26830315",
+      "36159999",
+      "39477310",
+      "41684035",
+      "35017656",
+      "27634150"
+    ],
+    "pmc": [
+      "11634877"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39669575/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STING1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3638",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1489235",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse237361",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

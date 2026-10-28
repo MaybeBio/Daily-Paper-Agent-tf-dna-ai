@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a deep learning model integrating channel and spatial attention mechanisms for predicting transcription factor binding sites (TFBSs) at single-nucleotide resolution across cell types. They report superior performance on 23 TF-cell type combinations, with mean AUROC of 0.986, mean AUPRC of 0.169, and outperformance against FactorNet, Leopard, and DeepGRN on nine shared datasets. Visualization analyses are claimed to confirm cell-type-specific TFBS identification.
+- **Visible evidence base** Abstract text only; no dataset descriptions, model architecture details, hyperparameters, baseline configurations, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, baseline implementation details, dataset split procedures, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of attention mechanisms to TFBS prediction, but the evidence provided is insufficient to evaluate the technical soundness, novelty, or robustness of the claims. Several quantitative statements are internally inconsistent or lack necessary context. The work may be of interest to computational biologists, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, transcription factor binding prediction, and deep learning applications in genomics. The cross-cell-type prediction aspect may also interest researchers studying cell-type-specific gene regulation.
+- **Major strengths** The problem is well-motivated and practically relevant. The use of multiple data types (ChIP-seq and DNase-seq) and multiple cell lines suggests a reasonably broad evaluation scope. The reported AUROC values are high, and the comparison to established models is a useful framing.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieved a mean AUPRC of 0.169, over 1,000-fold higher than the random baseline 0.000156.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The AUPRC value of 0.169 is extremely low for a model claimed to have near-perfect AUROC (0.986). This discrepancy suggests either a highly imbalanced dataset with an extremely low positive rate, or a mismatch in evaluation methodology. The random baseline of 0.000156 implies a positive class proportion of approximately 0.0156 percent, which is unusually low even for single-nucleotide TFBS prediction tasks. The claim of "over 1,000-fold higher" is technically true but potentially misleading, as the absolute AUPRC remains very low.
+  - **Why it matters** AUPRC is the more informative metric for highly imbalanced classification problems. A mean AUPRC of 0.169, even if 1,000-fold above random, may not represent practically useful predictive performance. The abstract does not report precision or recall values, making it impossible to assess whether the model is practically usable.
+  - **Resolution test** Provide the positive class proportion, precision-recall curves, and F1 scores. Clarify whether the AUPRC is computed per TF-cell type and then averaged, or pooled across all predictions. Report AUPRC for individual TF-cell type combinations, especially those with lower AUROC values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model exhibited superior performance across 23 TF-cell type combinations, achieving a mean AUROC of 0.986, with 91% of samples yielding an AUROC above 0.970.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The abstract states the model was trained and tested on data from 51 groups involving 10 transcription factors across 13 cell lines, yet performance is reported for only 23 TF-cell type combinations. The relationship between the 51 groups and the 23 evaluated combinations is unclear. Additionally, the phrase "91% of samples" is ambiguous, as it is unclear whether "samples" refers to TF-cell type combinations, individual genomic loci, or something else.
+  - **Why it matters** Without clarity on the evaluation subset, it is impossible to determine whether the reported performance is representative or cherry-picked. The discrepancy between 51 groups and 23 combinations raises concerns about selective reporting.
+  - **Resolution test** Clarify the relationship between the 51 groups and the 23 TF-cell type combinations. Report performance for all evaluated combinations, not just the 23. Define what "samples" means in the 91% statement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and novelty
+  - **Claim pointer** The model integrates channel and spatial attention mechanisms, and outperformed FactorNet, Leopard, and DeepGRN on nine shared TF-cell type datasets.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The abstract does not describe how the proposed attention mechanisms differ from existing attention-based architectures in the TFBS prediction literature. Attention mechanisms have been widely used in genomic deep learning models for several years. The comparison to only three baselines on only nine datasets is limited, and no information is provided about whether these baselines were retrained, fine-tuned, or used with their published weights.
+  - **Why it matters** The novelty claim is central to the paper's contribution. Without a clear description of the architectural innovation and a more comprehensive baseline comparison, the incremental value of this work over existing methods cannot be assessed.
+  - **Resolution test** Provide a clear architectural diagram and a description of how the attention mechanisms differ from prior work. Expand the baseline comparison to include more recent models and report results on all 23 TF-cell type combinations, not just nine. Describe the baseline evaluation protocol in detail.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The model was trained and tested using a comprehensive dataset that included ChIP-seq data from 51 groups and DNase-seq data from 13 datasets.
+  - **Evidence pointer** Abstract, methods section; location not provided
+  - **Concern** No information is provided about data preprocessing, genome build, peak calling methods, negative set construction, sequence length, data augmentation, or train-validation-test splits. The abstract does not mention whether the DNase-seq data were used as auxiliary input, as additional training data, or for a separate evaluation. Without these details, the results cannot be reproduced or independently verified.
+  - **Why it matters** Reproducibility is a core requirement for computational biology papers. The lack of methodological detail in the abstract may be acceptable if the full manuscript provides these details, but the current submission does not allow any assessment of the data handling procedures.
+  - **Resolution test** Provide complete data preprocessing and split details in the full manuscript. State the exact role of DNase-seq data. Make code and processed data publicly available.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, results section
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Issue** The abstract uses "TF-cell type combinations" without defining this term. A reader unfamiliar with the TFBS prediction literature may not understand what constitutes a combination.
+  - **Required correction** Define the term explicitly, for example, "a TF-cell type combination refers to a specific transcription factor assayed in a specific cell line."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, results section
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Issue** The abstract reports mean AUROC and mean AUPRC but does not report standard deviations or confidence intervals. Given the variability expected across different TF-cell type combinations, measures of dispersion are necessary.
+  - **Required correction** Report standard deviations or interquartile ranges for both metrics, and state the number of combinations used to compute each mean.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract, conclusion section
+  - **Evidence pointer** Abstract, conclusion section; location not provided
+  - **Issue** The claim that the model facilitates "in-depth investigations into gene expression regulatory mechanisms and the molecular pathogenesis of related diseases" is speculative and not supported by any biological validation in the abstract.
+  - **Required correction** Soften the claim or provide at least one example of a biological finding enabled by the model.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, results section
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Issue** The comparison to FactorNet, Leopard, and DeepGRN is described as "outperformed them in terms of AUROC on nine shared TF-cell type datasets," but no statistical significance testing is mentioned.
+  - **Required correction** State whether the performance differences were tested for statistical significance, and if so, which test was used.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (AUPRC discrepancy), R1-M2 (evaluation subset ambiguity), R1-M3 (novelty and baseline comparison), R1-M4 (reproducibility)
+- **Assessment against Nature-style criteria** Originality: The abstract does not sufficiently differentiate the proposed attention mechanism from existing work, so originality cannot be assessed. Scientific importance: TFBS prediction is an important problem, but the practical utility of the model is undermined by the low absolute AUPRC. Interdisciplinary readership: The work is primarily of interest to computational biologists; the abstract does not frame the work for a broader biological audience. Technical soundness: The reported metrics are internally inconsistent and the evaluation protocol is underspecified, so technical soundness is not established. Readability for nonspecialists: The abstract is generally readable but uses undefined terms and lacks context for the reported metrics.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient methodological detail or internally consistent results to support the claims. A full manuscript with complete methods, expanded evaluations, and clarified metrics would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim of "superior performance across 23 TF-cell type combinations" is unsupported because the relationship between the 51 training groups and the 23 evaluated combinations is not explained.
+- The claim that the model "enabled accurate identification of cell-type-specific TFBSs" is unsupported because the visualization analyses are not described and no quantitative validation of cell-type specificity is provided.
+- The claim that the model outperformed FactorNet, Leopard, and DeepGRN is only weakly supported because the comparison is limited to nine datasets and no statistical testing or baseline configuration details are provided.
+- The claim that the model provides "an efficient computational framework" is unsupported because no runtime, memory usage, or computational cost comparisons are reported.
+- The claim regarding facilitation of "molecular pathogenesis of related diseases" is speculative and not supported by any biological evidence in the abstract.

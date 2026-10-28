@@ -1,0 +1,210 @@
+{
+  "identity": {
+    "pmid": "41489955",
+    "doi": "10.1109/JBHI.2025.3650661",
+    "title": "scHyperLink: Revealing Cell-Type-Specific Gene Regulation With Hypergraph Neural Networks."
+  },
+  "content": {
+    "abstract": "Single-cell RNA sequencing (scRNA-seq) allows gene expression to be measured at single-cell resolution, offering new opportunities to investigate Gene Regulatory Networks (GRNs), which represent the regulatory interactions between transcription factors (TFs) and their target genes. Given their relational structure, GRNs are formulated as graphs, enabling gene interaction inference to be framed as a link prediction task among graph nodes (i.e., genes). Prior work adopts Graph Neural Networks (GNNs) to this end, employing their unique ability to model inter-node relationships. However, since GNNs are inherently limited to pair-wise node interactions, they struggle to capture the higher-order dependencies characteristic of GRNs. Gene expression is regulated through multi-way feedback loops involving multiple TFs and targets, and disregarding these higher-order dependencies can lower accuracy in gene interaction inference. To overcome this limitation, we introduce scHyperLink, a hypergraph-based framework for GRN reconstruction. scHyperLink models gene interactions using Hypergraph Neural Networks (HGNNs), where hyperedges allow the simultaneous representation of multi-gene regulatory relationships. scHyperLink integrates experimentally derived interaction graphs with dynamically learned hyperedges to better reflect the underlying regulatory structure. We demonstrate that scHyperLink achieves higher accuracy than state-of-the-art on cell-type-specific benchmark datasets, particularly in sparse regimes with few known interactions. Moreover, we validate the biological relevance of scHyperLink via interpretability analyses on inferred hypergraphs and showcase its scalability to tissue-level analyses. We share the analyzed datasets and source codes for reproducibility.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Graph Neural Networks",
+      "*Gene Regulatory Networks/genetics",
+      "Humans",
+      "*Computational Biology/methods",
+      "Algorithms",
+      "Transcription Factors/genetics/metabolism",
+      "Single-Cell Gene Expression Analysis",
+      "Animals",
+      "*Gene Expression Regulation/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kulkul, Emre",
+        "Cukur, Tolga",
+        "Koc, Aykut"
+      ],
+      "short_names": [
+        "Kulkul E",
+        "Cukur T",
+        "Koc A"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Kulkul, Emre",
+        "short_name": "Kulkul E",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Cukur, Tolga",
+        "short_name": "Cukur T",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Koc, Aykut",
+        "short_name": "Koc A",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE journal of biomedical and health informatics"
+    ],
+    "journal_abbrev": [
+      "IEEE J Biomed Health Inform"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/06 13:06",
+    "fetched_at": "2026-10-01 10:42:17"
+  },
+  "links": {
+    "cites": [
+      "42059479"
+    ],
+    "refs": [],
+    "similar": [
+      "41489955",
+      "38342857",
+      "41896196",
+      "37985457",
+      "42560939",
+      "30547796",
+      "42475469",
+      "41554051",
+      "41544912",
+      "40251476",
+      "42061403",
+      "40699953",
+      "38950180",
+      "38896510",
+      "37085776",
+      "40662821",
+      "40116659",
+      "42059479",
+      "40853813",
+      "41871930",
+      "41288963",
+      "41206950",
+      "38980373",
+      "41067887",
+      "39960893",
+      "40956752",
+      "37939200",
+      "35961023",
+      "39800872",
+      "40220759",
+      "40062616",
+      "39934680",
+      "38653489",
+      "39975293",
+      "41774282",
+      "41883144",
+      "41191474",
+      "39417321",
+      "40708222",
+      "28254369",
+      "41300707",
+      "29879919",
+      "41093852",
+      "42114583",
+      "40421418",
+      "41052197",
+      "41750401",
+      "34424948",
+      "32054475",
+      "42086551",
+      "41775092",
+      "41267133",
+      "32174324",
+      "38879931",
+      "36695505",
+      "39535258",
+      "41317402",
+      "37244909",
+      "42225598",
+      "36626328",
+      "41826830",
+      "41984780",
+      "39401117",
+      "42308421",
+      "40983951",
+      "39311699",
+      "38744843",
+      "40409400",
+      "41518505",
+      "41370157",
+      "39062480",
+      "40037709",
+      "42129640",
+      "30051742",
+      "36307979",
+      "36070863",
+      "40654959",
+      "39999494",
+      "42024938",
+      "42482180",
+      "38778003",
+      "39679439",
+      "31985403",
+      "41530500",
+      "39207727",
+      "24228871",
+      "40426257",
+      "41643576",
+      "41043336",
+      "42378449",
+      "42133704",
+      "35050715",
+      "40982511",
+      "38451769",
+      "39694856",
+      "34962260",
+      "30961611",
+      "36585783",
+      "34251625",
+      "38581416"
+    ],
+    "review": [
+      "41489955",
+      "41750401",
+      "36695505"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/JBHI.2025.3650661",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

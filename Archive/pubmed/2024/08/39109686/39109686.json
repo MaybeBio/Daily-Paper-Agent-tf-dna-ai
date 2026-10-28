@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "39109686",
+    "doi": "10.1111/mmi.15297",
+    "title": "In vivo assembly of bacterial partition condensates on circular supercoiled and linear DNA."
+  },
+  "content": {
+    "abstract": "In bacteria, faithful DNA segregation of chromosomes and plasmids is mainly mediated by ParABS systems. These systems, consisting of a ParA ATPase, a DNA binding ParB CTPase, and centromere sites parS, orchestrate the separation of newly replicated DNA copies and their intracellular positioning. Accurate segregation relies on the assembly of a high-molecular-weight complex, comprising a few hundreds of ParB dimers nucleated from parS sites. This complex assembles in a multi-step process and exhibits dynamic liquid-droplet properties. Despite various proposed models, the complete mechanism for partition complex assembly remains elusive. This study investigates the impact of DNA supercoiling on ParB DNA binding profiles in vivo, using the ParABS system of the plasmid F. We found that variations in DNA supercoiling does not significantly affect any steps in the assembly of the partition complex. Furthermore, physical modeling, leveraging ChIP-seq data from linear plasmids F, suggests that ParB sliding is restricted to approximately 2 Kbp from parS, highlighting the necessity for additional mechanisms beyond ParB sliding over DNA for concentrating ParB into condensates nucleated at parS. Finally, explicit simulations of a polymer coated with bound ParB suggest a dominant role for ParB-ParB interactions in DNA compaction within ParB condensates.",
+    "keywords": [
+      "DNA supercoiling",
+      "ParB condensate",
+      "bridging",
+      "linear DNA",
+      "partition complex",
+      "plasmids"
+    ],
+    "mesh_terms": [
+      "*DNA, Superhelical/metabolism/genetics",
+      "*DNA, Bacterial/metabolism/genetics",
+      "Plasmids/metabolism/genetics",
+      "Bacterial Proteins/metabolism/genetics",
+      "Escherichia coli/genetics/metabolism",
+      "Escherichia coli Proteins/metabolism/genetics",
+      "DNA, Circular/metabolism/genetics",
+      "DNA-Binding Proteins/metabolism",
+      "Chromosome Segregation",
+      "Chromosomes, Bacterial/metabolism/genetics",
+      "Adenosine Triphosphatases/metabolism",
+      "F Factor/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alaoui, Hicham Sekkouri",
+        "Quebre, Valentin",
+        "Delimi, Linda",
+        "Rech, Jerome",
+        "Debaugny-Diaz, Roxanne",
+        "Labourdette, Delphine",
+        "Campos, Manuel",
+        "Cornet, Francois",
+        "Walter, Jean-Charles",
+        "Bouet, Jean-Yves"
+      ],
+      "short_names": [
+        "Alaoui HS",
+        "Quebre V",
+        "Delimi L",
+        "Rech J",
+        "Debaugny-Diaz R",
+        "Labourdette D",
+        "Campos M",
+        "Cornet F",
+        "Walter JC",
+        "Bouet JY"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1488-5455"
+      ],
+      "affiliations": [
+        "Laboratoire de Microbiologie et Genetique Moleculaires, Centre de Biologie Integrative (CBI), Centre National de la Recherche Scientifique (CNRS), Universite de Toulouse Paul Sabatier, UPS, Toulouse, France.",
+        "Laboratoire de Microbiologie et Genetique Moleculaires, Centre de Biologie Integrative (CBI), Centre National de la Recherche Scientifique (CNRS), Universite de Toulouse Paul Sabatier, UPS, Toulouse, France.",
+        "Laboratoire Charles Coulomb (L2C), Universite de Montpellier, CNRS, Montpellier, France.",
+        "Laboratoire de Microbiologie et Genetique Moleculaires, Centre de Biologie Integrative (CBI), Centre National de la Recherche Scientifique (CNRS), Universite de Toulouse Paul Sabatier, UPS, Toulouse, France.",
+        "Laboratoire de Microbiologie et Genetique Moleculaires, Centre de Biologie Integrative (CBI), Centre National de la Recherche Scientifique (CNRS), Universite de Toulouse Paul Sabatier, UPS, Toulouse, France.",
+        "TBI, Universite de Toulouse, CNRS, INRA, INSA, Toulouse, France.",
+        "Laboratoire de Microbiologie et Genetique Moleculaires, Centre de Biologie Integrative (CBI), Centre National de la Recherche Scientifique (CNRS), Universite de Toulouse Paul Sabatier, UPS, Toulouse, France.",
+        "Laboratoire de Microbiologie et Genetique Moleculaires, Centre de Biologie Integrative (CBI), Centre National de la Recherche Scientifique (CNRS), Universite de Toulouse Paul Sabatier, UPS, Toulouse, France.",
+        "Laboratoire Charles Coulomb (L2C), Universite de Montpellier, CNRS, Montpellier, France.",
+        "Laboratoire de Microbiologie et Genetique Moleculaires, Centre de Biologie Integrative (CBI), Centre National de la Recherche Scientifique (CNRS), Universite de Toulouse Paul Sabatier, UPS, Toulouse, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alaoui, Hicham Sekkouri",
+        "short_name": "Alaoui HS",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Microbiologie et Génétique Moléculaires, Centre de Biologie Intégrative (CBI), Centre National de la Recherche Scientifique (CNRS), Université de Toulouse Paul Sabatier, UPS, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Quèbre, Valentin",
+        "short_name": "Quèbre V",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Microbiologie et Génétique Moléculaires, Centre de Biologie Intégrative (CBI), Centre National de la Recherche Scientifique (CNRS), Université de Toulouse Paul Sabatier, UPS, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Delimi, Linda",
+        "short_name": "Delimi L",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire Charles Coulomb (L2C), Université de Montpellier, CNRS, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Rech, Jérôme",
+        "short_name": "Rech J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Microbiologie et Génétique Moléculaires, Centre de Biologie Intégrative (CBI), Centre National de la Recherche Scientifique (CNRS), Université de Toulouse Paul Sabatier, UPS, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Debaugny-Diaz, Roxanne",
+        "short_name": "Debaugny-Diaz R",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Microbiologie et Génétique Moléculaires, Centre de Biologie Intégrative (CBI), Centre National de la Recherche Scientifique (CNRS), Université de Toulouse Paul Sabatier, UPS, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Labourdette, Delphine",
+        "short_name": "Labourdette D",
+        "identifiers": [],
+        "affiliations": [
+          "TBI, Université de Toulouse, CNRS, INRA, INSA, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Campos, Manuel",
+        "short_name": "Campos M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Microbiologie et Génétique Moléculaires, Centre de Biologie Intégrative (CBI), Centre National de la Recherche Scientifique (CNRS), Université de Toulouse Paul Sabatier, UPS, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Cornet, François",
+        "short_name": "Cornet F",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Microbiologie et Génétique Moléculaires, Centre de Biologie Intégrative (CBI), Centre National de la Recherche Scientifique (CNRS), Université de Toulouse Paul Sabatier, UPS, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Walter, Jean-Charles",
+        "short_name": "Walter JC",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire Charles Coulomb (L2C), Université de Montpellier, CNRS, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Bouet, Jean-Yves",
+        "short_name": "Bouet JY",
+        "identifiers": [
+          "0000-0003-1488-5455"
+        ],
+        "affiliations": [
+          "Laboratoire de Microbiologie et Génétique Moléculaires, Centre de Biologie Intégrative (CBI), Centre National de la Recherche Scientifique (CNRS), Université de Toulouse Paul Sabatier, UPS, Toulouse, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular microbiology"
+    ],
+    "journal_abbrev": [
+      "Mol Microbiol"
+    ],
+    "pub_date": "2025 Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/07 12:43",
+    "fetched_at": "2026-10-05 01:46:18"
+  },
+  "links": {
+    "cites": [
+      "42573070",
+      "41020499",
+      "39977301",
+      "39441069"
+    ],
+    "refs": [],
+    "similar": [
+      "39109686",
+      "42573070",
+      "34286695",
+      "39441069",
+      "41020499",
+      "38652748",
+      "38908027",
+      "40998818",
+      "33861734",
+      "37850647",
+      "30446599",
+      "22018490",
+      "1860842",
+      "28407103",
+      "21965538",
+      "36871427",
+      "38842933",
+      "17308337",
+      "23632076",
+      "32543349",
+      "33055234",
+      "16359334",
+      "34562373",
+      "36622167",
+      "29186514",
+      "23443047",
+      "34573327",
+      "25964325",
+      "40601632",
+      "24927534",
+      "32379828",
+      "11150297",
+      "16306995",
+      "26055701",
+      "25997351",
+      "34613769",
+      "40586307",
+      "36374535",
+      "23345617",
+      "10064607",
+      "20659294",
+      "34250901",
+      "9915704",
+      "26647183",
+      "28373206",
+      "16452432",
+      "18826408",
+      "42523405",
+      "18048919",
+      "36301085",
+      "27622187",
+      "24859756",
+      "11359568",
+      "41068141",
+      "21142182",
+      "11886565",
+      "28562673",
+      "8429038",
+      "38142222",
+      "31318889",
+      "16306264",
+      "31835030",
+      "23428603",
+      "27332137",
+      "32198399",
+      "10714993",
+      "36062913",
+      "8885272",
+      "33319179",
+      "7730268",
+      "27135801",
+      "17635186",
+      "23683072",
+      "22934648",
+      "19028896",
+      "41343662",
+      "34902429",
+      "18426389",
+      "35767606",
+      "37569892",
+      "18477635",
+      "29648658",
+      "36044845",
+      "3049080",
+      "35904809",
+      "10713146",
+      "12169611",
+      "2842786",
+      "11948158",
+      "19001378",
+      "7748936",
+      "41448349",
+      "32077854",
+      "32679076",
+      "11254973",
+      "24829297",
+      "12207703",
+      "27377966",
+      "36206370",
+      "20615449"
+    ],
+    "review": [
+      "39109686",
+      "36871427",
+      "32543349",
+      "27622187",
+      "38142222",
+      "22934648",
+      "18426389",
+      "11254973"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39109686.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/mmi.15297",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-71",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse256357",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

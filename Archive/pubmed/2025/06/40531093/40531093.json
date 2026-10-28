@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "40531093",
+    "doi": "10.1021/acs.molpharmaceut.5c00343",
+    "title": "AIoptamer: Artificial Intelligence-Driven Aptamer Optimization Pipeline for Targeted Therapeutics in Healthcare."
+  },
+  "content": {
+    "abstract": "Aptamers are short, single-stranded DNA or RNA molecules known for their high specificity and affinity toward target biomolecules, making them powerful tools in drug discovery, diagnostics, and biosensing. However, conventional aptamer selection methods such as SELEX (Systematic Evolution of Ligands by EXponential Enrichment) are often labor-intensive, time-consuming, and resource-demanding. To overcome these limitations, we introduce a novel AI-driven aptamer optimization pipeline (AIoptamer: AI-driven optimization of aptamers) that integrates artificial intelligence with advanced classical computational approaches to accelerate aptamer discovery and design. The workflow begins with a known aptamer-host complex and systematically generates all possible aptamer sequence variants to target the same host. These variants are then screened using AI-based models that rank them based on sequence features and predicted binding affinity. Top candidates undergo structural modeling through CHIMERA_NA, an in-house mutagenesis tool designed to perform structural mutations in nucleic acids. The modeled structures are further evaluated using PredPRBA, a deep learning-based scoring function tailored for RNA-protein binding affinity prediction and PDA-Pred, a machine learning based model for predicting DNA-protein binding affinity. The highest-ranking aptamer-host complexes are then refined through molecular dynamics (MD) simulations to assess structural stability and interaction strength at the atomic level. Our pipeline demonstrates effectiveness across both RNA and DNA aptamer complexes, offering a generalized and robust framework for aptamer optimization. By combining AI-powered prediction with conventional computational techniques, our method advances the rational design of aptamers and significantly reduces reliance on traditional experimental trial-and-error strategies, making aptamer optimization faster, scalable and more efficient.",
+    "keywords": [
+      "Aptamers",
+      "Artificial Intelligence (AI)",
+      "Drug Discovery",
+      "Machine Learning (ML)",
+      "Molecular Dynamics Simulations"
+    ],
+    "mesh_terms": [
+      "*Aptamers, Nucleotide/chemistry/therapeutic use",
+      "*Artificial Intelligence",
+      "SELEX Aptamer Technique/methods",
+      "Humans",
+      "Drug Discovery/methods",
+      "Machine Learning",
+      "Ligands",
+      "Deep Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gupta, Tushar",
+        "Sharma, Priyanka",
+        "Malik, Sheeba",
+        "Pant, Pradeep"
+      ],
+      "short_names": [
+        "Gupta T",
+        "Sharma P",
+        "Malik S",
+        "Pant P"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-7733-0971",
+        "ORCID: 0000-0003-3890-1958"
+      ],
+      "affiliations": [
+        "Department of Biotechnology, Bennett University, Greater Noida 201310, Uttar Pradesh, India.",
+        "Department of Biotechnology, Bennett University, Greater Noida 201310, Uttar Pradesh, India.",
+        "Department of Biochemistry and Cellular and Molecular Biology, The University of Tennessee, Knoxville, Tennessee 37996, United States.",
+        "Department of Biotechnology, Bennett University, Greater Noida 201310, Uttar Pradesh, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gupta, Tushar",
+        "short_name": "Gupta T",
+        "identifiers": [
+          "0009-0007-7733-0971"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, Bennett University, Greater Noida 201310, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Sharma, Priyanka",
+        "short_name": "Sharma P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Bennett University, Greater Noida 201310, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Malik, Sheeba",
+        "short_name": "Malik S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Cellular and Molecular Biology, The University of Tennessee, Knoxville, Tennessee 37996, United States."
+        ]
+      },
+      {
+        "full_name": "Pant, Pradeep",
+        "short_name": "Pant P",
+        "identifiers": [
+          "0000-0003-3890-1958"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, Bennett University, Greater Noida 201310, Uttar Pradesh, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular pharmaceutics"
+    ],
+    "journal_abbrev": [
+      "Mol Pharm"
+    ],
+    "pub_date": "2025 Jul 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/18 14:19",
+    "fetched_at": "2026-09-30 20:13:04"
+  },
+  "links": {
+    "cites": [
+      "42706252",
+      "42370332",
+      "42345883",
+      "42112351",
+      "42071120",
+      "41951835",
+      "41931849",
+      "41918630",
+      "41761629",
+      "41737040",
+      "41454080",
+      "41053953"
+    ],
+    "refs": [],
+    "similar": [
+      "40531093",
+      "33808496",
+      "41951835",
+      "39158322",
+      "42080590",
+      "41149295",
+      "34343165",
+      "39390781",
+      "39431516",
+      "34227370",
+      "41428391",
+      "37406007",
+      "39732319",
+      "38012571",
+      "36004970",
+      "40610378",
+      "27526193",
+      "26538121",
+      "32537639",
+      "41630488",
+      "29186809",
+      "29186905",
+      "32311376",
+      "41533571",
+      "41685932",
+      "40053911",
+      "35130439",
+      "42309126",
+      "33554306",
+      "39774569",
+      "37300603",
+      "41758998",
+      "33888692",
+      "42272446",
+      "22489154",
+      "21955150",
+      "30866536",
+      "34170922",
+      "36735817",
+      "36591965",
+      "24895227",
+      "39901496",
+      "36354431",
+      "40582587",
+      "40164941",
+      "40563445",
+      "41524971",
+      "26163061",
+      "41149291",
+      "37314701",
+      "23811206",
+      "37068137",
+      "22480209",
+      "27173394",
+      "42152987",
+      "41145852",
+      "26980177",
+      "35889390",
+      "40320157",
+      "26642994",
+      "41957161",
+      "41026857",
+      "31689200",
+      "36080490",
+      "35320268",
+      "35025110",
+      "34756455",
+      "39056626",
+      "41981644",
+      "41298250",
+      "33182550",
+      "36430951",
+      "34427974",
+      "25728760",
+      "17681489",
+      "42166782",
+      "41155330",
+      "39029851",
+      "29297663",
+      "41910880",
+      "35556210",
+      "36688616",
+      "19480397",
+      "38127053",
+      "25727321",
+      "30193856",
+      "21639912",
+      "39385698",
+      "40563458",
+      "29036890",
+      "35274201",
+      "33208068",
+      "29032056",
+      "40065745",
+      "38947800",
+      "38626500",
+      "30379519",
+      "27755981",
+      "37086150",
+      "33294137"
+    ],
+    "review": [
+      "40531093",
+      "33808496",
+      "41951835",
+      "39158322",
+      "41149295",
+      "39390781",
+      "39732319",
+      "41630488",
+      "29186809",
+      "29186905",
+      "32311376",
+      "42309126",
+      "33554306",
+      "39774569",
+      "37300603",
+      "42272446",
+      "22489154",
+      "21955150",
+      "30866536",
+      "36591965",
+      "39901496",
+      "36354431",
+      "41149291",
+      "27173394",
+      "26980177",
+      "40320157",
+      "34756455",
+      "39056626",
+      "41298250",
+      "33182550",
+      "36430951",
+      "34427974",
+      "17681489",
+      "41155330",
+      "39029851",
+      "29297663",
+      "41910880",
+      "30193856",
+      "40563458",
+      "29036890",
+      "35274201",
+      "33208068",
+      "29032056",
+      "40065745",
+      "38947800",
+      "38626500"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/mpohbp/article-lookup/doi/10.1021/acs.molpharmaceut.5c00343",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

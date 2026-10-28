@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methodology, experimental setup, results, discussion, conclusion, references list)
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and support of claims based solely on the provided manuscript text. No external data or code was accessed.
+- **Shared manuscript claim summary** The authors propose a framework combining top-k sparse autoencoders with causal intervention to extract and validate transcription-factor binding features in genomic language models. They claim to recover monosemantic features mapping to TF motifs, demonstrate that naive validation is confounded by sequence composition, and establish causal use of specific features for representing cell-type-specific TF binding via ablation experiments.
+- **Visible evidence base** Textual description of methodology, results summaries, and references to figures and tables (Fig. 1-5, Table 1) whose actual content is not provided in the manuscript text.
+- **Missing materials affecting confidence** All figures and tables are referenced but not included in the provided text. Numerical results, statistical details, hyperparameter choices, and implementation specifics are only partially described. The full algorithm pseudocode (Algorithm 1) is mentioned but not shown.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem in genomic deep learning interpretability. The proposed framework combining sparse dictionary learning with causal ablation is conceptually sound and the motivation is well-argued. However, the provided text lacks the empirical detail necessary to fully evaluate the strength of the claims. The theoretical analysis is presented in a compressed form and the results sections rely heavily on figures and tables that are not available in the supplied material. The core ideas are promising, but the evidence base as presented is insufficient to fully establish the central claims.
+- **Who would be interested in the results, and why** Researchers working on interpretability of foundation models in genomics, developers of genomic language models, and computational biologists studying transcription-factor binding and regulatory genomics. The framework offers a reusable validation standard that could be adopted by the community.
+- **Major strengths** The problem is well-motivated and important. The combination of sparse dictionary learning with causal intervention is a novel and appropriate approach. The explicit treatment of compositional confounds (GC content, repetitive elements) is a significant contribution. The inclusion of negative controls and cross-architecture validation is methodologically rigorous. The theoretical analysis (Propositions 1 and 2) provides a principled basis for the empirical design.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that "causally validated binding features emerge reproducibly (7-14 of 15 tested features per condition)" across three TFs and two architectures.
+  - **Evidence pointer** Section 5.5, Table 1 (not provided in text)
+  - **Concern** The central quantitative claim of the paper is presented only as a summary in the text. The actual data in Table 1, which would show per-condition results, per-feature statistics, and the specific numbers behind the "7-14 of 15" range, is not available in the provided material. Without this data, the reproducibility and statistical strength of the main result cannot be assessed.
+  - **Why it matters** The core contribution of the paper is the empirical demonstration that the framework works. If the underlying data is not visible, the central claim cannot be verified.
+  - **Resolution test** Provide the full Table 1 with per-condition counts, effect sizes, and significance levels. Include the distribution of AUC values across features.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The manuscript states that "training top-k sparse autoencoders on the hidden activations" of two models recovers "thousands of monosemantic features."
+  - **Evidence pointer** Section 3.1, Section 5.1, Fig. 1 (not provided)
+  - **Concern** The description of the SAE training is incomplete. Key hyperparameters (learning rate schedule, number of training steps, batch composition, dictionary initialization details beyond "random data activations") are not fully specified. The claim of "monosemantic" features is asserted but the evaluation of monosemanticity is not described in the text. Fig. 1, which presumably shows reconstruction fidelity and live-feature fraction, is not available.
+  - **Why it matters** Reproducibility is a stated goal of the framework. Without complete training details and a clear definition of how monosemanticity was assessed, other groups cannot replicate or build on this work.
+  - **Resolution test** Provide full training details, a precise definition of monosemanticity used, and the content of Fig. 1.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims that the composition-matched test "removes these confounds" and that the causal test distinguishes binding features from motif-only features.
+  - **Evidence pointer** Section 3.2, Section 3.3, Section 5.3, Section 5.4
+  - **Concern** The statistical details of the Mann-Whitney U tests are not fully specified. The manuscript does not state how multiple testing was handled beyond Bonferroni correction, how the number of windows per class was determined, or how the AUC confidence intervals were computed. The threshold of AUC > 0.55 is stated but its justification is not given.
+  - **Why it matters** The validity of the framework depends on the statistical rigor of the comparisons. Without clear specifications, the false positive rate of the pipeline cannot be estimated.
+  - **Resolution test** Provide complete statistical specifications, including sample sizes, multiple testing correction details, and justification for the AUC threshold.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Theoretical soundness
+  - **Claim pointer** Proposition 2 states that a motif-only feature can have a larger absolute ablation effect than a binding feature, yet a binding-specificity AUC at chance.
+  - **Evidence pointer** Section 3.4, Section 5.4
+  - **Concern** The proof of Proposition 2 is presented in a highly compressed form. The statement that "if the geometric factor gamma does not anti-correlate with binding" is a significant assumption that is not discussed in detail. The empirical demonstration of this dissociation is described for a single feature only.
+  - **Why it matters** The theoretical framework is a key contribution. If the assumptions are not clearly stated and discussed, the generality of the result is unclear.
+  - **Resolution test** Expand the proof of Proposition 2, discuss the assumption on gamma, and provide empirical evidence across multiple features that the predicted dissociation holds.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.1, equations (1) and (2)
+  - **Evidence pointer** location not provided
+  - **Issue** The equations for the SAE encoder and training objective are referenced but not displayed in the provided text. The notation is introduced but the actual mathematical expressions are missing.
+  - **Required correction** Include the full equations for the SAE forward pass and loss function.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3, Algorithm 1
+  - **Evidence pointer** location not provided
+  - **Issue** Algorithm 1 is referenced as summarizing the full procedure but is not included in the provided text.
+  - **Required correction** Provide the pseudocode for Algorithm 1.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 4, data sources
+  - **Evidence pointer** location not provided
+  - **Issue** The manuscript states that data was "obtained from their public repositories" but does not provide version numbers, access dates, or specific download URLs.
+  - **Required correction** Provide precise data accession information, including version identifiers and access dates.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 5.2, "440 of 6,576 tested features"
+  - **Evidence pointer** location not provided
+  - **Issue** The number of tested features (6,576) is not clearly derived. It is unclear whether this is the total number of live features in the dictionary or a subset.
+  - **Required correction** Clarify how the set of tested features was defined.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 5.3, "feature 8087"
+  - **Evidence pointer** location not provided
+  - **Issue** The exemplar feature is identified by ID but no additional characterization is provided in the text.
+  - **Required correction** Provide additional context for this feature, such as its associated sequence motif or genomic localization.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative data), R1-M2 (incomplete methodological detail), R1-M3 (incomplete statistical specification)
+- **Assessment against Nature-style criteria** Originality: High. The combination of sparse dictionary learning with causal ablation for genomic model interpretability is novel. Scientific importance: High. The problem of validating interpretability claims in genomic deep learning is significant and the proposed framework addresses a real need. Interdisciplinary readership: Moderate. The work will appeal to computational biologists and machine learning researchers, but the presentation assumes familiarity with both fields. Technical soundness: Not fully assessable from the provided text. The theoretical framework is plausible but the empirical evidence is not visible. Readability for nonspecialists: Moderate. The manuscript is clearly written but the technical content is dense and the missing figures and equations hinder comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the motivation is strong, but the central empirical claims cannot be verified without the missing figures, tables, and methodological details. The authors should be encouraged to resubmit a complete version for full review.
+
+## Risk / unsupported claims
+- The claim that "causally validated binding features emerge reproducibly (7-14 of 15 tested features per condition)" is unsupported in the provided text as Table 1 is not included.
+- The claim that "naive validation of such features against position weight matrices is severely confounded" is supported only by a qualitative description in Section 5.2; the quantitative comparison is not shown.
+- The claim that "middle layers yielding the most interpretable dictionaries" is stated in Section 1 but the supporting data in Fig. 1 is not available.
+- The claim that "byte-pair tokenization does not impede, and may sharpen, the emergence of binding representations" is stated in Section 5.5 but the comparative data is not shown.
+- The theoretical results in Propositions 1 and 2 are presented in a compressed form and the proofs are not fully verifiable from the provided text.
+- The claim that the framework "provides a reusable standard for interpretability claims" is an assertion of generalizability that is not fully supported by the evidence presented for three TFs and two models.

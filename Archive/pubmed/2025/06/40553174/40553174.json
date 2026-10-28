@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "40553174",
+    "doi": "10.1007/s10522-025-10276-1",
+    "title": "Elucidating the anti-aging bioactive compounds and mechanisms of Jingfang Granules formula based on network pharmacology and Caenorhabditis elegans."
+  },
+  "content": {
+    "abstract": "Jingfang Granule (JFG), a traditional Chinese medicine preparation, is widely used in clinical practice. It has been shown to extend both lifespan and healthspan in the Caenorhabditis elegans model. However, the molecular mechanisms of its main constituents and their targets remain unclear. In this study, through network pharmacology, molecular docking, and experiments on C. elegans including lifespan assays and stress resistance assays, the bioactive compounds of JFG and their targets were screened. Network analysis identified a total of 187 candidate components and 150 drug-disease related targets, among which TP53, STAT3, IL6, TNF, AKT1, ESR1, CCND1, BCL2, MAPK1, and MAPK3 were the core nodes. Gene Ontology (GO) enrichment analysis revealed that these targets were mainly involved in aging-related and anti-apoptotic processes. Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis suggested that the AGE-RAGE signaling pathway, which is crucial in diabetic complications, might be involved. Experiments on Caenorhabditis elegans further confirmed that neohesperidin, kaempferol, and stigmasterol in Jingfang Granule exhibited good anti-aging effects and stress resistance. They could extend the lifespan of Caenorhabditis elegans by activating the target genes of the transcription factors DAF-16, HSF-1, and SKN-1. By combining the strategies of network pharmacology and molecular biology, this study elucidated the anti-aging mechanisms of the Jingfang Granule formula and its bioactive compounds. Therefore, the Jingfang Granule formula and its bioactive compounds hold potential for lifespan extension, healthspan improvement, and enhanced stress resistance.",
+    "keywords": [
+      "Caenorhabditis elegans",
+      "Anti-aging",
+      "Jingfang Granules formula",
+      "Network pharmacology",
+      "Stress resistance"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Caenorhabditis elegans/drug effects/genetics",
+      "*Network Pharmacology/methods",
+      "*Drugs, Chinese Herbal/pharmacology/chemistry",
+      "*Longevity/drug effects",
+      "*Aging/drug effects",
+      "Molecular Docking Simulation",
+      "Caenorhabditis elegans Proteins/metabolism/genetics",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Rui",
+        "Zhao, Taili",
+        "Shi, Tingting",
+        "Feng, Chuanjiao",
+        "Li, Honghua",
+        "Xu, Ying",
+        "Zhang, Qingqing",
+        "Yin, Xin",
+        "Yao, Jingchun",
+        "Zhang, Guimin",
+        "Xia, Xuekui"
+      ],
+      "short_names": [
+        "Zhao R",
+        "Zhao T",
+        "Shi T",
+        "Feng C",
+        "Li H",
+        "Xu Y",
+        "Zhang Q",
+        "Yin X",
+        "Yao J",
+        "Zhang G",
+        "Xia X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250353, China.",
+        "Biology Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250103, China.",
+        "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250353, China.",
+        "Biology Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250103, China.",
+        "Biology Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250103, China.",
+        "Biology Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250103, China.",
+        "State Key Laboratory of Integration and Innovation of Classic Formula and Modern Chinese Medicine, Lunan Pharmaceutical Group Co. Ltd, Linyi, 276005, China.",
+        "Biology Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250103, China.",
+        "Biology Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250103, China.",
+        "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250353, China. yinxin@sdas.org.",
+        "Biology Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250103, China. yinxin@sdas.org.",
+        "State Key Laboratory of Integration and Innovation of Classic Formula and Modern Chinese Medicine, Lunan Pharmaceutical Group Co. Ltd, Linyi, 276005, China.",
+        "State Key Laboratory of Integration and Innovation of Classic Formula and Modern Chinese Medicine, Lunan Pharmaceutical Group Co. Ltd, Linyi, 276005, China. lunanzhangguimin@yeah.net.",
+        "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250353, China. xiaxk@sdas.org.",
+        "Biology Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250103, China. xiaxk@sdas.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Rui",
+        "short_name": "Zhao R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250353, China.",
+          "Biology Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250103, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Taili",
+        "short_name": "Zhao T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250353, China.",
+          "Biology Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250103, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Tingting",
+        "short_name": "Shi T",
+        "identifiers": [],
+        "affiliations": [
+          "Biology Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250103, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Chuanjiao",
+        "short_name": "Feng C",
+        "identifiers": [],
+        "affiliations": [
+          "Biology Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250103, China."
+        ]
+      },
+      {
+        "full_name": "Li, Honghua",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Integration and Innovation of Classic Formula and Modern Chinese Medicine, Lunan Pharmaceutical Group Co. Ltd, Linyi, 276005, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Ying",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Biology Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250103, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qingqing",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Biology Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250103, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Xin",
+        "short_name": "Yin X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250353, China. yinxin@sdas.org.",
+          "Biology Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250103, China. yinxin@sdas.org."
+        ]
+      },
+      {
+        "full_name": "Yao, Jingchun",
+        "short_name": "Yao J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Integration and Innovation of Classic Formula and Modern Chinese Medicine, Lunan Pharmaceutical Group Co. Ltd, Linyi, 276005, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Guimin",
+        "short_name": "Zhang G",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Integration and Innovation of Classic Formula and Modern Chinese Medicine, Lunan Pharmaceutical Group Co. Ltd, Linyi, 276005, China. lunanzhangguimin@yeah.net."
+        ]
+      },
+      {
+        "full_name": "Xia, Xuekui",
+        "short_name": "Xia X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Bioengineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250353, China. xiaxk@sdas.org.",
+          "Biology Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250103, China. xiaxk@sdas.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biogerontology"
+    ],
+    "journal_abbrev": [
+      "Biogerontology"
+    ],
+    "pub_date": "2025 Jun 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/24 13:15",
+    "fetched_at": "2026-09-30 20:29:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39684858",
+      "39179161",
+      "38880400",
+      "38828741",
+      "38814954",
+      "38768535",
+      "38471269",
+      "38397753",
+      "37913913",
+      "37572203",
+      "37291126",
+      "37077029",
+      "36896597",
+      "36347302",
+      "36280450",
+      "35935939",
+      "35537009",
+      "35483559",
+      "35140229",
+      "34787618",
+      "33692692",
+      "33516447",
+      "32987855",
+      "32881908",
+      "32467649",
+      "32121354",
+      "31948007",
+      "31819371",
+      "31790899",
+      "31700619",
+      "28434978",
+      "27192932",
+      "27150237",
+      "25613505",
+      "24265619",
+      "23949012",
+      "23878618",
+      "23776698",
+      "22155175",
+      "21303257",
+      "21143187",
+      "19330126",
+      "19043800",
+      "17551714",
+      "16166371",
+      "12869585",
+      "12690206",
+      "11846609",
+      "11197524",
+      "11180401"
+    ],
+    "similar": [
+      "40553174",
+      "37454750",
+      "40849548",
+      "37572203",
+      "40333562",
+      "41182424",
+      "34951222",
+      "40128047",
+      "39581459",
+      "33124727",
+      "33881421",
+      "35537009",
+      "42011594",
+      "40676786",
+      "39066538",
+      "38916485",
+      "40922365",
+      "37080367",
+      "42018048",
+      "39278295",
+      "40973886",
+      "37499457",
+      "39015338",
+      "36471963",
+      "30266681",
+      "39197398",
+      "40226869",
+      "37807411",
+      "38765004",
+      "31730453",
+      "41840248",
+      "36049411",
+      "40013962",
+      "38206683",
+      "37883761",
+      "40237055",
+      "34660782",
+      "35196362",
+      "34349502",
+      "38812206",
+      "40466506",
+      "39353373",
+      "41730400",
+      "39410900",
+      "34159207",
+      "40350911",
+      "33866197",
+      "38178682",
+      "34374387",
+      "41414713",
+      "35040393",
+      "41364125",
+      "41974236",
+      "39890089",
+      "41251816",
+      "34240728",
+      "40632158",
+      "42084774",
+      "40728954",
+      "38759074",
+      "40783635",
+      "37952525",
+      "34397058",
+      "39742571",
+      "37171332",
+      "41804763",
+      "35837376",
+      "40605076",
+      "40721767",
+      "38621884",
+      "41473244",
+      "40864327",
+      "38704482",
+      "38696100",
+      "38343057",
+      "29454917",
+      "30710163",
+      "35872979",
+      "40486127",
+      "35176999",
+      "38178684",
+      "40124554",
+      "39617073",
+      "32643448",
+      "32285078",
+      "40585331",
+      "34872267",
+      "38582151",
+      "34153045",
+      "38812235",
+      "41995502",
+      "40725959",
+      "39736144",
+      "35988839",
+      "38109076",
+      "39565454",
+      "36401485",
+      "39061044",
+      "38697555",
+      "40086050"
+    ],
+    "review": [
+      "40553174"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://doi.org/10.1007/s10522-025-10276-1",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

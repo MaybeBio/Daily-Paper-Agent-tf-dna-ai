@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that perfluoroalkyl acids (PFAAs) bind to extracellular DNA with binding affinities of 10^4 to 10^5 L/mol, that binding occurs preferentially at thymine-associated grooves via hydrogen bonds and van der Waals forces, and that such binding reduces PFAA bioavailability in pakchoi seedlings.
+- **Visible evidence base** Abstract text only; methods and results are summarized without numerical detail beyond binding constants
+- **Missing materials affecting confidence** Full methods, ITC raw data, spectral data, simulation parameters, plant uptake experimental design, statistical analyses, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting mechanism by which extracellular DNA could sequester PFAAs and reduce their plant uptake. However, the evidence as summarized is insufficient to fully evaluate the rigor of the binding measurements, the specificity of the proposed binding sites, or the causal link between binding and reduced bioavailability. The claims are directionally supported but not quantitatively verifiable from the abstract alone.
+- **Who would be interested in the results, and why** Environmental chemists and toxicologists studying the fate and transport of perfluoroalkyl substances, plant scientists investigating contaminant uptake mechanisms, and researchers focused on the role of biomacromolecules in modulating pollutant bioavailability. The work could inform risk assessment models for PFAA-contaminated agricultural soils.
+- **Major strengths** The study addresses a novel and environmentally relevant interaction that has been understudied. The use of multiple complementary techniques (ITC, spectroscopy, simulations) strengthens the mechanistic interpretation. The reported binding affinities are placed in context relative to serum albumin, which helps gauge significance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims specific binding affinities for PFHxA-DNA, PFOA-DNA, PFNA-DNA, and PFOS-DNA, and states these are 1 to 2 orders of magnitude stronger than PFAA binding to human serum albumin.
+  - **Evidence pointer** Abstract, ITC assays section; location not provided
+  - **Concern** The binding constants are presented as single values without error estimates, replicates, or experimental conditions (e.g., buffer composition, ionic strength, temperature, DNA sequence or length). ITC-derived affinities are highly sensitive to these parameters, and the absence of such details precludes assessment of measurement reliability.
+  - **Why it matters** If the binding constants are not robust, the comparative claim against serum albumin and the subsequent bioavailability conclusions are undermined. The magnitude of the reported affinities is central to the paper's significance.
+  - **Resolution test** Provide ITC data with standard deviations, number of replicates, and full experimental conditions. Confirm that the DNA substrate is well-defined and that the binding model used for fitting is justified.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that spectral analysis suggests interactions of PFAAs with all four nucleobases, with thymine-associated grooves as the major binding sites.
+  - **Evidence pointer** Abstract, spectral analysis section; location not provided
+  - **Concern** The abstract does not specify which spectroscopic methods were used, how binding site assignments were made, or whether control experiments (e.g., with free nucleobases or modified DNA) were performed. The claim of groove-specific binding is strong and requires direct evidence, not just inference from spectral shifts.
+  - **Why it matters** Misassignment of binding sites could lead to incorrect mechanistic conclusions. The proposed thymine-groove preference is a key novelty claim and must be rigorously supported.
+  - **Resolution test** Describe the spectroscopic methods and show data that distinguish groove binding from intercalation or external electrostatic binding. Include controls and, if possible, competitive binding experiments with nucleobase analogs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that PFAA-DNA binding decreased the bioavailability of PFAAs in plant seedlings.
+  - **Evidence pointer** Abstract, plant seedling section; location not provided
+  - **Concern** The abstract provides no quantitative data on the extent of bioavailability reduction, the concentration range tested, or whether the effect is dependent on DNA concentration or PFAA chain length. It is unclear whether the observed effect is specific to DNA or could be attributed to general ionic or hydrophobic interactions.
+  - **Why it matters** The environmental relevance of the study hinges on demonstrating a meaningful and dose-dependent reduction in bioavailability. Without these details, the claim remains qualitative and the practical significance is uncertain.
+  - **Resolution test** Provide plant uptake data with statistical comparisons, dose-response relationships, and appropriate controls (e.g., DNA-free or non-binding macromolecule treatments).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, first sentence
+  - **Evidence pointer** Abstract, opening statement; location not provided
+  - **Issue** The phrase "emerging ionic organic pollutants worldwide" is vague and does not convey the specific environmental concern of PFAAs, such as persistence and bioaccumulation.
+  - **Required correction** Clarify the environmental relevance by mentioning persistence, bioaccumulation, or regulatory concern in one sentence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, binding affinity comparison
+  - **Evidence pointer** Abstract, ITC assays section; location not provided
+  - **Issue** The comparison to human serum albumin is made without specifying the source or conditions of those prior measurements, which may not be directly comparable.
+  - **Required correction** State the reference conditions for the albumin binding data or temper the comparison with a caveat about methodological differences.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract, simulation methods
+  - **Evidence pointer** Abstract, molecular dynamics and quantum chemical calculations; location not provided
+  - **Issue** The abstract does not indicate the level of theory or force field used, which limits reproducibility and assessment of the computational claims.
+  - **Required correction** Briefly mention the simulation approach and validation, or refer to methods section for details.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the interaction between PFAAs and extracellular DNA is a novel angle. Scientific importance is potentially significant for environmental fate and bioavailability, but the current evidence does not yet establish the magnitude or generality of the effect. Interdisciplinary readership is plausible, spanning environmental chemistry, plant biology, and toxicology. Technical soundness cannot be fully assessed from the abstract due to missing methodological detail and quantitative support. Readability for nonspecialists is adequate but could be improved with clearer framing of environmental relevance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary data, but the key claims require additional quantitative and methodological detail to be convincing. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that PFAA-DNA binding affinities are 1 to 2 orders of magnitude stronger than PFAA-albumin binding is unsupported without error estimates and comparable experimental conditions.
+- The claim of thymine-associated groove binding as the major site is unsupported without detailed spectral evidence and controls.
+- The claim that PFAA-DNA binding decreases bioavailability in pakchoi is unsupported without quantitative plant uptake data and statistical analysis.
+- The general statement that "such interactions affect the bioavailability of PFAAs" is broader than the evidence presented, which only addresses one plant species and a limited set of PFAAs.

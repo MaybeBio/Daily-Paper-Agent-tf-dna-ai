@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "39253514",
+    "doi": "10.1101/2024.08.27.609971",
+    "title": "Dissecting the regulatory logic of specification and differentiation during vertebrate embryogenesis."
+  },
+  "content": {
+    "abstract": "The interplay between transcription factors and chromatin accessibility regulates cell type diversification during vertebrate embryogenesis. To systematically decipher the gene regulatory logic guiding this process, we generated a single-cell multi-omics atlas of RNA expression and chromatin accessibility during early zebrafish embryogenesis. We developed a deep learning model to predict chromatin accessibility based on DNA sequence and found that a small number of transcription factors underlie cell-type-specific chromatin landscapes. While Nanog is well-established in promoting pluripotency, we discovered a new function in priming the enhancer accessibility of mesendodermal genes. In addition to the classical stepwise mode of differentiation, we describe instant differentiation, where pluripotent cells skip intermediate fate transitions and terminally differentiate. Reconstruction of gene regulatory interactions reveals that this process is driven by a shallow network in which maternally deposited regulators activate a small set of transcription factors that co-regulate hundreds of differentiation genes. Notably, misexpression of these transcription factors in pluripotent cells is sufficient to ectopically activate their targets. This study provides a rich resource for analyzing embryonic gene regulation and reveals the regulatory logic of instant differentiation.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Jialin",
+        "Castillo-Hair, Sebastian M",
+        "Du, Lucia Y",
+        "Wang, Yiqun",
+        "Carte, Adam N",
+        "Colomer-Rosell, Mariona",
+        "Yin, Christopher",
+        "Seelig, Georg",
+        "Schier, Alexander F"
+      ],
+      "short_names": [
+        "Liu J",
+        "Castillo-Hair SM",
+        "Du LY",
+        "Wang Y",
+        "Carte AN",
+        "Colomer-Rosell M",
+        "Yin C",
+        "Seelig G",
+        "Schier AF"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Biozentrum, University of Basel, Basel, 4056, Switzerland.",
+        "Allen Discovery Center for Cell Lineage Tracing, University of Washington, Seattle, WA, 98195, USA.",
+        "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA, 98195, USA.",
+        "Biozentrum, University of Basel, Basel, 4056, Switzerland.",
+        "Allen Discovery Center for Cell Lineage Tracing, University of Washington, Seattle, WA, 98195, USA.",
+        "Biozentrum, University of Basel, Basel, 4056, Switzerland.",
+        "Center for Marine Biotechnology and Biomedicine, Scripps Institution of Oceanography, UCSD, La Jolla, CA, 92037, USA.",
+        "Biozentrum, University of Basel, Basel, 4056, Switzerland.",
+        "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, 02115, USA.",
+        "Biozentrum, University of Basel, Basel, 4056, Switzerland.",
+        "Allen Discovery Center for Cell Lineage Tracing, University of Washington, Seattle, WA, 98195, USA.",
+        "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA, 98195, USA.",
+        "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA, 98195, USA.",
+        "Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA, 98195, USA.",
+        "Biozentrum, University of Basel, Basel, 4056, Switzerland.",
+        "Allen Discovery Center for Cell Lineage Tracing, University of Washington, Seattle, WA, 98195, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Jialin",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Biozentrum, University of Basel, Basel, 4056, Switzerland.",
+          "Allen Discovery Center for Cell Lineage Tracing, University of Washington, Seattle, WA, 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Castillo-Hair, Sebastian M",
+        "short_name": "Castillo-Hair SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA, 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Du, Lucia Y",
+        "short_name": "Du LY",
+        "identifiers": [],
+        "affiliations": [
+          "Biozentrum, University of Basel, Basel, 4056, Switzerland.",
+          "Allen Discovery Center for Cell Lineage Tracing, University of Washington, Seattle, WA, 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Yiqun",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Biozentrum, University of Basel, Basel, 4056, Switzerland.",
+          "Center for Marine Biotechnology and Biomedicine, Scripps Institution of Oceanography, UCSD, La Jolla, CA, 92037, USA."
+        ]
+      },
+      {
+        "full_name": "Carte, Adam N",
+        "short_name": "Carte AN",
+        "identifiers": [],
+        "affiliations": [
+          "Biozentrum, University of Basel, Basel, 4056, Switzerland.",
+          "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Colomer-Rosell, Mariona",
+        "short_name": "Colomer-Rosell M",
+        "identifiers": [],
+        "affiliations": [
+          "Biozentrum, University of Basel, Basel, 4056, Switzerland.",
+          "Allen Discovery Center for Cell Lineage Tracing, University of Washington, Seattle, WA, 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Yin, Christopher",
+        "short_name": "Yin C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA, 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Seelig, Georg",
+        "short_name": "Seelig G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical & Computer Engineering, University of Washington, Seattle, WA, 98195, USA.",
+          "Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA, 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Schier, Alexander F",
+        "short_name": "Schier AF",
+        "identifiers": [],
+        "affiliations": [
+          "Biozentrum, University of Basel, Basel, 4056, Switzerland.",
+          "Allen Discovery Center for Cell Lineage Tracing, University of Washington, Seattle, WA, 98195, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Aug 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/10 06:43",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41818362",
+      "40472848",
+      "39591963",
+      "38977847",
+      "38906136",
+      "38718319",
+      "38263801",
+      "38086419",
+      "38086418",
+      "37968389",
+      "37443338",
+      "37365273",
+      "36755098",
+      "36563664",
+      "36198796",
+      "36192604",
+      "35789323",
+      "35288709",
+      "35182480",
+      "34987221",
+      "34965941",
+      "34725479",
+      "34446581",
+      "34321199",
+      "34062119",
+      "33633365",
+      "33603233",
+      "33171098",
+      "33098772",
+      "32978299",
+      "32848249",
+      "31940339",
+      "31827285",
+      "31691826",
+      "31378591",
+      "31282856",
+      "30971806",
+      "30318151",
+      "30166440",
+      "29867222",
+      "29786094",
+      "29700229",
+      "29700227",
+      "29700225",
+      "29670286",
+      "29242584",
+      "28825706",
+      "28658625",
+      "28325473",
+      "27197224",
+      "26692521",
+      "26301843",
+      "25867923",
+      "25842977",
+      "24286030",
+      "24056933",
+      "22931925",
+      "22868264",
+      "22421047",
+      "21164479",
+      "20621055",
+      "20110278",
+      "19379839",
+      "19013452",
+      "17185316",
+      "16285872",
+      "16153702",
+      "12015968",
+      "10725245",
+      "10668630",
+      "8589427",
+      "8565839",
+      "7600949",
+      "2387237"
+    ],
+    "similar": [
+      "39253514",
+      "31940339",
+      "33501917",
+      "37468546",
+      "32448362",
+      "38652107",
+      "41188035",
+      "38977847",
+      "22593555",
+      "31053165",
+      "38395976",
+      "21876557",
+      "37292794",
+      "34667153",
+      "35976093",
+      "30846691",
+      "37609947",
+      "41000825",
+      "32591361",
+      "36068320",
+      "31746740",
+      "37989524",
+      "35145080",
+      "38364856",
+      "21160473",
+      "41562256",
+      "40063068",
+      "40577680",
+      "34931323",
+      "30661644",
+      "35977485",
+      "34607603",
+      "19952138",
+      "41258103",
+      "36912146",
+      "40326510",
+      "32755547",
+      "38124496",
+      "36881507",
+      "20026622",
+      "35621159",
+      "41632074",
+      "41235466",
+      "11171388",
+      "31885203",
+      "39742806",
+      "32115407",
+      "41469554",
+      "41202818",
+      "41735542",
+      "28663367",
+      "26770212",
+      "33846424",
+      "17267691",
+      "41618446",
+      "31136738",
+      "35604124",
+      "32912294",
+      "36333732",
+      "29539636",
+      "33990559",
+      "33171098",
+      "32553182",
+      "26119756",
+      "38579708",
+      "24960041",
+      "34417498",
+      "40859396",
+      "40690927",
+      "31114856",
+      "21245162",
+      "26751055",
+      "24170706",
+      "37542287",
+      "35584683",
+      "39253426",
+      "41643202",
+      "41594627",
+      "33930315",
+      "21663792",
+      "31827285",
+      "39876710",
+      "30686579",
+      "35063083",
+      "17712424",
+      "40675154",
+      "40349339",
+      "36001968",
+      "33837132",
+      "31433977",
+      "39326643",
+      "36639687",
+      "38020976",
+      "22936984",
+      "34647658",
+      "32109853",
+      "36522450",
+      "36070691",
+      "32732264",
+      "27036552"
+    ],
+    "review": [
+      "39253514",
+      "26770212",
+      "24170706"
+    ],
+    "pmc": [
+      "11383055"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39253514/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NANOG-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.08.27.609971",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38187522",
+  "title": "Dynamic Multiplexed Control and Modeling of Optogenetic Systems Using the High-Throughput Optogenetic Platform, Lustro.",
+  "authors": "Harmer, Zachary P; Thompson, Jaron C; Cole, David L; Zavala, Victor M; McClean, Megan N",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-01-08",
+  "window": {
+    "start": "2024-01-08",
+    "end": "2024-01-14"
+  },
+  "score": 3,
+  "one_liner_zh": "该文利用高通量光遗传平台Lustro和贝叶斯优化控制蓝光敏感分裂转录因子，虽涉及转录因子但聚焦光控系统动态调控，未研究TF-DNA结合识别或互作机制，且方法为实验平台与优化，非AI/物理模拟建模，与本课题关联较弱。",
+  "abstract": "The ability to control cellular processes using optogenetics is inducer-limited, with most optogenetic systems responding to blue light. To address this limitation we leverage an integrated framework combining Lustro, a powerful high-throughput optogenetics platform, and machine learning tools to enable multiplexed control over blue light-sensitive optogenetic systems. Specifically, we identify light induction conditions for sequential activation as well as preferential activation and switching between pairs of light-sensitive spit transcription factors in the budding yeast, Saccharomyces cerevisiae . We use the high-throughput data generated from Lustro to build a Bayesian optimization framework that incorporates data-driven learning, uncertainty quantification, and experimental design to enable the prediction of system behavior and the identification of optimal conditions for multiplexed control. This work lays the foundation for designing more advanced synthetic biological circuits incorporating optogenetics, where multiple circuit components can be controlled using designer light induction programs, with broad implications for biotechnology and bioengineering.",
+  "abstract_zh": "利用光遗传学控制细胞过程的能力受限于诱导剂，大多数光遗传学系统响应蓝光。为解决这一限制，我们利用一个整合框架，结合Lustro（一种强大的高通量光遗传学平台）和机器学习工具，实现对蓝光敏感光遗传学系统的多重控制。具体而言，我们鉴定了光诱导条件，用于在出芽酵母（Saccharomyces cerevisiae）中实现光敏分裂转录因子对的顺序激活以及优先激活和切换。我们利用Lustro产生的高通量数据构建了一个贝叶斯优化框架，该框架整合了数据驱动学习、不确定性量化和实验设计，以预测系统行为并识别多重控制的最佳条件。这项工作为设计更先进的合成生物电路奠定了基础，其中多个电路组件可通过设计的光诱导程序进行控制，对生物技术和生物工程具有广泛意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38187522/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38187522/",
+  "paper_page_path": "papers/pubmed/38187522/index.html"
+}

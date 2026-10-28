@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39541188",
+  "title": "Predicting bacterial transcription factor binding sites through machine learning and structural characterization based on DNA duplex stability.",
+  "authors": "Borges Farias, Andre; Sganzerla Martinez, Gustavo; Galan-Vasquez, Edgardo; Nicolas, Marisa Fabiana; Perez-Rueda, Ernesto",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-11-14",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用机器学习基于DNA双链稳定性预测细菌转录因子结合位点并区分IR/DR结构，结合结构特征揭示TF-DNA互作机制，高度契合本课题。",
+  "abstract": "Transcriptional factors (TFs) in bacteria play a crucial role in gene regulation by binding to specific DNA sequences, thereby assisting in the activation or repression of genes. Despite their central role, deciphering shape recognition of bacterial TFs-DNA interactions remains an intricate challenge. A deeper understanding of DNA secondary structures could greatly enhance our knowledge of how TFs recognize and interact with DNA, thereby elucidating their biological function. In this study, we employed machine learning algorithms to predict transcription factor binding sites (TFBS) and classify them as directed-repeat (DR) or inverted-repeat (IR). To accomplish this, we divided the set of TFBS nucleotide sequences by size, ranging from 8 to 20 base pairs, and converted them into thermodynamic data known as DNA duplex stability (DDS). Our results demonstrate that the Random Forest algorithm accurately predicts TFBS with an average accuracy of over 82% and effectively distinguishes between IR and DR with an accuracy of 89%. Interestingly, upon converting the base pairs of several TFBS-IR into DDS values, we observed a symmetric profile typical of the palindromic structure associated with these architectures. This study presents a novel TFBS prediction model based on a DDS characteristic that may indicate how respective proteins interact with base pairs, thus providing insights into molecular mechanisms underlying bacterial TFs-DNA interaction.",
+  "abstract_zh": "细菌中的转录因子（TFs）通过结合特定DNA序列在基因调控中发挥关键作用，从而协助基因的激活或抑制。尽管其核心作用，解析细菌TF-DNA相互作用的形状识别仍是一个复杂挑战。对DNA二级结构的更深入理解可极大增强我们对TF如何识别并相互作用于DNA的认识，进而阐明其生物学功能。在本研究中，我们采用机器学习算法预测转录因子结合位点（TFBS），并将其分类为直接重复（DR）或反向重复（IR）。为实现此目标，我们将TFBS核苷酸序列按大小（从8到20个碱基对）进行划分，并将其转换为热力学数据，即DNA双链稳定性（DDS）。我们的结果表明，随机森林算法以超过82%的平均准确率精确预测TFBS，并以89%的准确率有效区分IR和DR。有趣的是，将若干TFBS-IR的碱基对转换为DDS值后，我们观察到与这些结构相关的回文结构所特有的对称图谱。本研究提出了一种基于DDS特征的新型TFBS预测模型，该特征可能指示相应蛋白质如何与碱基对相互作用，从而为细菌TF-DNA相互作用的分子机制提供见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39541188/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39541188/",
+  "paper_page_path": "papers/pubmed/39541188/index.html"
+}

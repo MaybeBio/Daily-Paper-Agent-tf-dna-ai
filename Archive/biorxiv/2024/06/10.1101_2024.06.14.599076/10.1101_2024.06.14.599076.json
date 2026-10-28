@@ -1,0 +1,143 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.14.599076",
+  "title": "Iterative deep learning-design of human enhancers exploits condensed sequence grammar to achieve cell type-specificity",
+  "doi": "10.1101/2024.06.14.599076",
+  "abstract": "<h4>Summary</h4> An important and largely unsolved problem in synthetic biology is how to target gene expression to specific cell types. Here, we apply iterative deep learning to design synthetic enhancers with strong differential activity between two human cell lines. We initially train models on published datasets of enhancer activity and chromatin accessibility and use them to guide the design of synthetic enhancers that maximize predicted specificity. We experimentally validate these sequences, use the measurements to re-optimize the predictor, and design a second generation of enhancers with improved specificity. Our design methods embed relevant transcription factor binding site (TFBS) motifs with higher frequencies than comparable endogenous enhancers while using a more selective motif vocabulary, and we show that enhancer activity is correlated with transcription factor expression at the single cell level. Finally, we characterize causal features of top enhancers via perturbation experiments and show enhancers as short as 50bp can maintain specificity.",
+  "authors": [
+    "Yin C",
+    "Hair SC",
+    "Byeon GW",
+    "Bromley P",
+    "Meuleman W",
+    "Seelig G"
+  ],
+  "published_date": "2024-06-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.14.599076",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.14.599076.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR868061",
+    "raw_record": {
+      "id": "PPR868061",
+      "source": "PPR",
+      "doi": "10.1101/2024.06.14.599076",
+      "title": "Iterative deep learning-design of human enhancers exploits condensed sequence grammar to achieve cell type-specificity",
+      "authorString": "Yin C, Hair SC, Byeon GW, Bromley P, Meuleman W, Seelig G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Yin C",
+            "lastName": "Yin",
+            "firstName": "Christopher",
+            "initials": "C"
+          },
+          {
+            "fullName": "Hair SC",
+            "lastName": "Hair",
+            "firstName": "Sebastian Castillo",
+            "initials": "SC"
+          },
+          {
+            "fullName": "Byeon GW",
+            "lastName": "Byeon",
+            "firstName": "Gun Woo",
+            "initials": "GW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5022-4342"
+            }
+          },
+          {
+            "fullName": "Bromley P",
+            "lastName": "Bromley",
+            "firstName": "Peter",
+            "initials": "P"
+          },
+          {
+            "fullName": "Meuleman W",
+            "lastName": "Meuleman",
+            "firstName": "Wouter",
+            "initials": "W"
+          },
+          {
+            "fullName": "Seelig G",
+            "lastName": "Seelig",
+            "firstName": "Georg",
+            "initials": "G"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5022-4342"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>Summary</h4>  An important and largely unsolved problem in synthetic biology is how to target gene expression to specific cell types. Here, we apply iterative deep learning to design synthetic enhancers with strong differential activity between two human cell lines. We initially train models on published datasets of enhancer activity and chromatin accessibility and use them to guide the design of synthetic enhancers that maximize predicted specificity. We experimentally validate these sequences, use the measurements to re-optimize the predictor, and design a second generation of enhancers with improved specificity. Our design methods embed relevant transcription factor binding site (TFBS) motifs with higher frequencies than comparable endogenous enhancers while using a more selective motif vocabulary, and we show that enhancer activity is correlated with transcription factor expression at the single cell level. Finally, we characterize causal features of top enhancers via perturbation experiments and show enhancers as short as 50bp can maintain specificity.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.06.14.599076"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40472848",
+            "reference": "Cell systems. 2025 Jul;16(7):101302",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-06-17",
+      "firstPublicationDate": "2024-06-14",
+      "firstIndexDate": "2024-06-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

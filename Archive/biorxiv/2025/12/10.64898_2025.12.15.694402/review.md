@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, and claims as presented in the provided text; no external data or supplementary materials were available for verification
+- **Shared manuscript claim summary** The authors present a pooled, sequencing-based framework for quantifying plasmid propagation fitness in *E. coli* across millions of nucleotides, identify sequence-encoded mechanisms (cryptic promoters, transcription factor binding site homology, recombination-prone structures) that govern propagation, and introduce TRACE, a neural network model predicting plasmid propagation from DNA sequence
+- **Visible evidence base** Abstract, Introduction, Results (narrative only), Discussion, Methods (protocol descriptions); no figures, tables, or supplementary data were provided
+- **Missing materials affecting confidence** All figures (Fig. 1–4), supplementary figures (Fig. S1–S10), tables (Table S1), and the underlying datasets; no quantitative results, model performance metrics beyond those stated in text, or statistical details were accessible
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant and timely problem: predicting plasmid propagation in *E. coli* from sequence, which has direct relevance to biotechnology and therapeutic manufacturing. The proposed pooled assay and the TRACE model are conceptually promising. However, the provided text is a narrative summary without the supporting figures, quantitative data, or methodological details necessary to evaluate the validity of the claims. The core conclusions, particularly the generalisability of TRACE and the mechanistic attributions, cannot be assessed from the supplied material. The manuscript has potential but is currently not established from the evidence provided.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, plasmid engineering, and bioprocessing would be interested. The work offers a high-throughput method to predict plasmid stability and yield, which is directly relevant to DNA vaccine and gene therapy manufacturing. The TRACE model, if validated, could serve as a design tool for sequence optimisation. The mechanistic insights into cryptic promoter activity and transcription factor sequestration in *E. coli* would also interest molecular microbiologists studying host–vector interactions.
+- **Major strengths** The study addresses a clear gap in the field, moving beyond empirical trial-and-error to a data-driven, sequence-based predictive framework. The pooled assay design, using long-read sequencing and competitive growth, is a logical and scalable approach. The inclusion of a fully degenerate library for unbiased sequence–fitness mapping is a strong methodological choice. The integration of multiple mechanistic hypotheses (transcription, structure, regulation) into a unified model is conceptually ambitious and appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The pooled assay provides a biologically grounded, high-throughput proxy for plasmid maintainability, and the LFC metric reflects plasmid-specific maintenance costs.
+  - **Evidence pointer** Results, Assay Development and Validation; Fig. 1B, Fig. S1, Fig. S2
+  - **Concern** The validation of the assay relies on correlations with PCN (ρ = 0.71) and weak correlations with growth metrics. However, the actual data (scatter plots, correlation confidence intervals, number of replicates) are not shown. The claim that LFC captures "plasmid-specific maintenance costs" rather than growth effects is inferred from weak correlations with OD-based metrics, but without seeing the distribution of LFC values, the dynamic range, or the reproducibility across replicates, this conclusion is not verifiable. The selection of 192 plasmids and the criteria for "neutral," "reduced," "low," and "severe" fitness categories are not defined quantitatively.
+  - **Why it matters** The entire framework depends on the LFC metric being a reliable and interpretable measure of plasmid fitness. If the assay is noisy or biased by factors not controlled for (e.g., copy number effects, segregational instability unrelated to insert sequence), all downstream conclusions, including the mechanistic attributions and the TRACE model, would be compromised.
+  - **Resolution test** Provide the full dataset for the validation experiments, including replicate-level LFC values, correlation plots with PCN and growth curves, and a clear definition of fitness categories with thresholds. Show that the LFC metric is reproducible and that the weak correlation with growth rate is not due to a narrow range of growth phenotypes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation and generalisability
+  - **Claim pointer** TRACE generalises across plasmid architectures and can be fine-tuned on experimental datasets to improve predictions of manufacturability and host compatibility.
+  - **Evidence pointer** Results, A Sequence-Based Predictive Framework; Fig. 4B, 4D, 4E
+  - **Concern** The performance metrics for TRACE are stated as r ≈ 0.52 and ρ ≈ 0.57 on the 192 bp library, and ρ ≈ 0.17 on full plasmids, improving to ρ ≈ 0.40 after fine-tuning. These are modest correlations. The claim of generalisation across architectures is based on a single test set of 1,847 constructs, and the improvement from fine-tuning is presented without error bars or comparison to baseline models. The text does not specify how the model was trained, what the loss function was, how hyperparameters were selected, or how the train/test splits were constructed to avoid data leakage. The claim that the model "learns a reproducible sequence grammar" is supported only by motif enrichment analysis, which is not shown.
+  - **Why it matters** The predictive power of TRACE is the central deliverable of the paper. If the model's performance is not robustly demonstrated, or if the generalisation claim is based on a narrow test set, the practical utility of the tool is not established. The modest correlations also raise the question of whether the model is capturing the dominant biological mechanisms or merely weak statistical associations.
+  - **Resolution test** Provide full model training details, including architecture, hyperparameters, and validation strategy. Show performance on multiple independent test sets, including plasmids with different backbones and insert types. Include error bars or confidence intervals for all performance metrics. Compare TRACE against simpler baseline models (e.g., GC content, length, motif counts) to demonstrate added value.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic attribution
+  - **Claim pointer** Promoter-like motifs, transcription factor binding site homology, and recombination-prone architectures emerge as major determinants of propagation efficiency.
+  - **Evidence pointer** Results, Assay Development and Validation; Fig. 2A–2F, Fig. S4–S6
+  - **Concern** The text describes three mechanisms but does not provide the quantitative evidence linking each mechanism to fitness. For transcription, the correlation with predicted promoter strength is weak (r = −0.17), and the RNA-seq analysis is only described for 24 selected plasmids, with no data shown. For structural instability, concatemer detection is mentioned but no quantification is provided. For TF sequestration, the MEME analysis is described but the enrichment statistics and the specific TFs implicated are not shown. The claim that these mechanisms act in combination is supported only by the feature ablation of the pairwise ranking model, which is not described in detail.
+  - **Why it matters** The mechanistic framework is the scientific core of the paper. Without clear evidence linking specific sequence features to fitness, the conclusions remain speculative. The weak correlation for promoter strength suggests that the mechanism is not dominant, and the text acknowledges this, but the alternative explanations are not rigorously tested.
+  - **Resolution test** Provide the full results of the RNA-seq analysis, including differential expression or read coverage plots for the 24 selected plasmids. Show the concatemer quantification for all low-fitness plasmids. Present the MEME enrichment results with statistical significance and the specific TF motifs identified. Describe the feature ablation study in detail, including the model architecture and the contribution of each feature class.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Methods, Plasmid Library Construction
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the fully degenerate 192 bp library is brief. It is unclear how the degenerate sequences were designed, whether they were randomised at every position, and how the library complexity was controlled.
+  - **Required correction** Provide details on the oligonucleotide library design, including the degree of degeneracy, the number of unique sequences, and any filtering steps to remove unwanted motifs.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Assay Development and Validation
+  - **Evidence pointer** Results section
+  - **Issue** The text reports correlation coefficients (ρ, r) and p-values for some comparisons but does not state the sample sizes or the type of correlation used (e.g., Spearman vs. Pearson) consistently.
+  - **Required correction** Clearly state the sample size for each correlation, the correlation type, and the confidence intervals. For the multi-strain comparisons, specify the statistical test used and the number of biological replicates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Model interpretability
+  - **Affected element** Results, A Sequence-Based Predictive Framework
+  - **Evidence pointer** Fig. 4F, 4G
+  - **Issue** The example plasmid profile in Fig. 4F is described but not shown. The text mentions "detrimental local motifs" but does not explain how these are identified or how the "local fitness score" is computed.
+  - **Required correction** Provide a clear description of the sliding-window aggregation method and the interpretation of the nucleotide-resolution burden profile. Show the example profile and explain how a user would act on the output.
+- **Technical failings that need to be addressed before the case is established** The lack of access to the figures and quantitative data is the primary failing. The manuscript text alone does not provide sufficient evidence to support the claims of assay validity, mechanistic attribution, or model performance. Specific technical details missing include: (1) the full dataset for assay validation, (2) the RNA-seq analysis results, (3) the concatemer quantification, (4) the TF motif enrichment statistics, (5) the TRACE model architecture and training details, and (6) the performance metrics with error bars.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of a pooled, sequence-based assay for plasmid fitness and a predictive neural network is novel. The use of a fully degenerate library to map sequence–fitness relationships is a creative approach. However, the originality cannot be fully assessed without seeing the data and the model details.
+  - **Scientific importance** The problem is important. Predicting plasmid stability and yield is a bottleneck in biomanufacturing. If the framework works as described, it could have broad impact. The mechanistic insights, if validated, would advance understanding of host–vector interactions.
+  - **Interdisciplinary readership** The work bridges synthetic biology, genomics, and machine learning. It would appeal to researchers in these fields, as well as those in bioprocess engineering. The writing is accessible, but the lack of data makes it difficult for a nonspecialist to evaluate the strength of the claims.
+  - **Technical soundness** The experimental design is logical, but the technical execution cannot be evaluated from the text. The model development is described at a high level, and the reported performance metrics are modest. The lack of detail on validation and error analysis is a concern.
+  - **Readability for nonspecialists** The text is well-written and the concepts are explained clearly. The abstract and introduction are accessible. However, the results section assumes familiarity with the methods, and the lack of figures makes it harder to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has strong potential, but the claims cannot be verified without the full dataset, figures, and model details. I would be supportive if the technical concerns are resolved and the evidence is made available.
+
+## Risk / unsupported claims
+- The claim that the pooled assay provides a "biologically grounded, high-throughput proxy for plasmid maintainability" is unsupported without the validation data.
+- The claim that "promoter-like motifs, transcription factor binding site homology, and recombination-prone architectures emerge as major determinants" is unsupported without the quantitative results for each mechanism.
+- The claim that TRACE "generalises across plasmid architectures" is unsupported given the modest correlation on the full-plasmid test set and the lack of comparison to baselines.
+- The claim that "plasmid behaviour arises from higher-order interactions between parts" is inferred from the feature ablation but not demonstrated with data.
+- The claim that TRACE provides "nucleotide-resolution burden profile" and can "diagnose" specific liabilities is not supported by any example or validation.

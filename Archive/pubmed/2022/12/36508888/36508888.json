@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "36508888",
+    "doi": "10.1016/j.nicl.2022.103285",
+    "title": "Event-based modeling of T1-weighted MRI is related to pathology in frontotemporal lobar degeneration due to tau and TDP."
+  },
+  "content": {
+    "abstract": "BACKGROUND: In previous studies of patients with frontotemporal lobar degeneration due to tau (FTLD-tau) and FTLD due to TDP (FTLD-TDP), cortical volumes derived from T1-weighted MRI have been used to identify a sequence of volume loss according to arbitrary volumetric criteria. Event-based modeling (EBM) is a probabilistic, generative machine learning model that determines the characteristic sequence of changes, or \"events\", occurring during disease progression. EBM also estimates an individual patient's disease \"stage\" by identifying which events have already occurred. In the present study, we use an EBM analysis to derive stages of regional anatomic atrophy in FTLD-tau and FTLD-TDP, and validated these stages against pathologic burden. METHODS: Sporadic autopsy-confirmed patients with FTLD-tau (N = 42) and FTLD-TDP (N = 21), and 167 healthy controls with available T1-weighted images were identified. A subset of patients had quantitative digital histopathology of cortex performed at autopsy (FTLD-tau = 30, FTLD-TDP = 17). MRI images were processed, producing regional measures of cortical volumes. K-means clustering was used to find cortical regions with similar amounts of GM volume changes (n = 5 clusters). EBM was used to determine the characteristic sequence of cortical atrophy of identified clusters in autopsy-confirmed FTLD-tau and FTLD-TDP, and estimate each patient's disease stage by cortical volume biomarkers. Linear regressions related pathologic burden to EBM-estimated disease stages. RESULTS: EBM for cortical volume biomarkers generated statistically robust characteristic sequences of cortical atrophy in each group of patients. Cortical volume-based EBM-estimated disease stage was associated with pathologic burden in FTLD-tau (R2 = 0.16, p = 0.017) and FTLD-TDP (R2 = 0.51, p = 0.0008). CONCLUSIONS: We provide evidence that EBM can identify sequences of pathologically-confirmed cortical atrophy in sporadic FTLD-tau and FTLD-TDP.",
+    "keywords": [
+      "Biomarkers",
+      "Dementia",
+      "Event based model",
+      "Frontotemporal lobar degeneration",
+      "Structural MRI"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Frontotemporal Dementia/pathology",
+      "*Frontotemporal Lobar Degeneration/diagnostic imaging/pathology",
+      "tau Proteins",
+      "Magnetic Resonance Imaging",
+      "Atrophy",
+      "Biomarkers",
+      "DNA-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Olm, Christopher A",
+        "Burke, Sarah E",
+        "Peterson, Claire",
+        "Lee, Edward B",
+        "Trojanowski, John Q",
+        "Massimo, Lauren",
+        "Irwin, David J",
+        "Grossman, Murray",
+        "Gee, James C"
+      ],
+      "short_names": [
+        "Olm CA",
+        "Burke SE",
+        "Peterson C",
+        "Lee EB",
+        "Trojanowski JQ",
+        "Massimo L",
+        "Irwin DJ",
+        "Grossman M",
+        "Gee JC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Penn Image Computing and Science Laboratory, Department of Radiology, University of Pennsylvania, Philadelphia, PA, United States; Penn Frontotemporal Degeneration Center, Department of Neurology, University of Pennsylvania, Philadelphia, PA, United States. Electronic address: olm@pennmedicine.upenn.edu.",
+        "Penn Frontotemporal Degeneration Center, Department of Neurology, University of Pennsylvania, Philadelphia, PA, United States. Electronic address: Sarah.Burke@pennmedicine.upenn.edu.",
+        "Penn Frontotemporal Degeneration Center, Department of Neurology, University of Pennsylvania, Philadelphia, PA, United States; Digital Neuropathology Laboratory, Department of Neurology, University of Pennsylvania, Philadelphia, PA, United States. Electronic address: cspeters@uab.edu.",
+        "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, United States. Electronic address: Edward.Lee@pennmedicine.upenn.edu.",
+        "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, United States.",
+        "Penn Frontotemporal Degeneration Center, Department of Neurology, University of Pennsylvania, Philadelphia, PA, United States. Electronic address: Lauren.Massimo@pennmedicine.upenn.edu.",
+        "Penn Frontotemporal Degeneration Center, Department of Neurology, University of Pennsylvania, Philadelphia, PA, United States; Digital Neuropathology Laboratory, Department of Neurology, University of Pennsylvania, Philadelphia, PA, United States. Electronic address: dirwin@pennmedicine.upenn.edu.",
+        "Penn Frontotemporal Degeneration Center, Department of Neurology, University of Pennsylvania, Philadelphia, PA, United States. Electronic address: mgrossma@pennmedicine.upenn.edu.",
+        "Penn Image Computing and Science Laboratory, Department of Radiology, University of Pennsylvania, Philadelphia, PA, United States. Electronic address: gee@upenn.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Olm, Christopher A",
+        "short_name": "Olm CA",
+        "identifiers": [],
+        "affiliations": [
+          "Penn Image Computing and Science Laboratory, Department of Radiology, University of Pennsylvania, Philadelphia, PA, United States; Penn Frontotemporal Degeneration Center, Department of Neurology, University of Pennsylvania, Philadelphia, PA, United States. Electronic address: olm@pennmedicine.upenn.edu."
+        ]
+      },
+      {
+        "full_name": "Burke, Sarah E",
+        "short_name": "Burke SE",
+        "identifiers": [],
+        "affiliations": [
+          "Penn Frontotemporal Degeneration Center, Department of Neurology, University of Pennsylvania, Philadelphia, PA, United States. Electronic address: Sarah.Burke@pennmedicine.upenn.edu."
+        ]
+      },
+      {
+        "full_name": "Peterson, Claire",
+        "short_name": "Peterson C",
+        "identifiers": [],
+        "affiliations": [
+          "Penn Frontotemporal Degeneration Center, Department of Neurology, University of Pennsylvania, Philadelphia, PA, United States; Digital Neuropathology Laboratory, Department of Neurology, University of Pennsylvania, Philadelphia, PA, United States. Electronic address: cspeters@uab.edu."
+        ]
+      },
+      {
+        "full_name": "Lee, Edward B",
+        "short_name": "Lee EB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, United States. Electronic address: Edward.Lee@pennmedicine.upenn.edu."
+        ]
+      },
+      {
+        "full_name": "Trojanowski, John Q",
+        "short_name": "Trojanowski JQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA, United States."
+        ]
+      },
+      {
+        "full_name": "Massimo, Lauren",
+        "short_name": "Massimo L",
+        "identifiers": [],
+        "affiliations": [
+          "Penn Frontotemporal Degeneration Center, Department of Neurology, University of Pennsylvania, Philadelphia, PA, United States. Electronic address: Lauren.Massimo@pennmedicine.upenn.edu."
+        ]
+      },
+      {
+        "full_name": "Irwin, David J",
+        "short_name": "Irwin DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Penn Frontotemporal Degeneration Center, Department of Neurology, University of Pennsylvania, Philadelphia, PA, United States; Digital Neuropathology Laboratory, Department of Neurology, University of Pennsylvania, Philadelphia, PA, United States. Electronic address: dirwin@pennmedicine.upenn.edu."
+        ]
+      },
+      {
+        "full_name": "Grossman, Murray",
+        "short_name": "Grossman M",
+        "identifiers": [],
+        "affiliations": [
+          "Penn Frontotemporal Degeneration Center, Department of Neurology, University of Pennsylvania, Philadelphia, PA, United States. Electronic address: mgrossma@pennmedicine.upenn.edu."
+        ]
+      },
+      {
+        "full_name": "Gee, James C",
+        "short_name": "Gee JC",
+        "identifiers": [],
+        "affiliations": [
+          "Penn Image Computing and Science Laboratory, Department of Radiology, University of Pennsylvania, Philadelphia, PA, United States. Electronic address: gee@upenn.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NeuroImage. Clinical"
+    ],
+    "journal_abbrev": [
+      "Neuroimage Clin"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/13 06:00",
+    "fetched_at": "2026-10-04 21:11:17"
+  },
+  "links": {
+    "cites": [
+      "41065198",
+      "40684252",
+      "40437594",
+      "37563165"
+    ],
+    "refs": [],
+    "similar": [
+      "36508888",
+      "34952351",
+      "35325815",
+      "23475817",
+      "33622418",
+      "35318284",
+      "36215050",
+      "35395770",
+      "35168140",
+      "34371283",
+      "34997851",
+      "30324308",
+      "20236174",
+      "30133939",
+      "34256835",
+      "29554190",
+      "39233675",
+      "27662293",
+      "34823271",
+      "35136978",
+      "37533060",
+      "23053135",
+      "36974379",
+      "21172844",
+      "25821176",
+      "38940350",
+      "34919645",
+      "35820647",
+      "21172843",
+      "30851133",
+      "28719018",
+      "37118844",
+      "32804255",
+      "31562527",
+      "28984110",
+      "32220237",
+      "36115219",
+      "19299900",
+      "38879502",
+      "33199433",
+      "21908872",
+      "29807909",
+      "38109286",
+      "37046309",
+      "24289467",
+      "37150879",
+      "31333403",
+      "21987561",
+      "32869362",
+      "24353332",
+      "19946779",
+      "30297518",
+      "37223129",
+      "21048198",
+      "24861427",
+      "28960544",
+      "20369906",
+      "37592884",
+      "36066634",
+      "38865340",
+      "21556732",
+      "28877758",
+      "37149835",
+      "32748432",
+      "32778130",
+      "36456471",
+      "34961893",
+      "33112398",
+      "35871340",
+      "36949537",
+      "24373676",
+      "19940270",
+      "17615169",
+      "36273219",
+      "37461300",
+      "24035575",
+      "32798912",
+      "28666471",
+      "25352065",
+      "32281118",
+      "30320576",
+      "28859337",
+      "19823856",
+      "35320398",
+      "28100023",
+      "34686217",
+      "31640778",
+      "37908186",
+      "35879741",
+      "24174584",
+      "31019099",
+      "36251576",
+      "27435172",
+      "21554923",
+      "35662116",
+      "29758948",
+      "33433877",
+      "29409526",
+      "26227957",
+      "32507755",
+      "37500561",
+      "35481808",
+      "39088063",
+      "29228211",
+      "37386798",
+      "36054427",
+      "37961381",
+      "33433871",
+      "39387948",
+      "39369804",
+      "39228745",
+      "38572850",
+      "38050082",
+      "38909120",
+      "39039147",
+      "38644997",
+      "39119853",
+      "35992608",
+      "34854532",
+      "36030718",
+      "36030249"
+    ],
+    "review": [
+      "36508888",
+      "21987561",
+      "28960544",
+      "20369906",
+      "37149835",
+      "24035575",
+      "35320398",
+      "28100023",
+      "21554923",
+      "32507755"
+    ],
+    "pmc": [
+      "9763503"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2213-1582(22)00350-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36508888/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36508888",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2213-1582(22)00350-3",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

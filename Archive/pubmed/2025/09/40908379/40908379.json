@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "40908379",
+    "doi": "10.1007/s11030-025-11336-x",
+    "title": "In silico identification of peptidomimetic inhibitors targeting PXR and RXR interaction to overcome the inactivation of vitamin D in asthma."
+  },
+  "content": {
+    "abstract": "Asthma is a chronic inflammatory disorder of the airways. Standard treatments, such as inhaled corticosteroids like fluticasone, beclomethasone, and budesonide, are effective in managing asthma symptoms by reducing inflammation through immune suppression. However, prolonged corticosteroid therapy can impair vitamin D metabolism, exacerbating vitamin D deficiency, which is essential for immune regulation and anti-inflammatory responses via the vitamin D receptor (VDR). Activation of the pregnane X receptor (PXR) by corticosteroids induces cytochrome P450 enzyme CYP24A1, accelerating vitamin D catabolism and reducing its anti-inflammatory efficacy. This effect is mediated through the interaction between PXR and its nuclear partner, the retinoid X receptor (RXR), which together regulate gene transcription. Disrupting this PXR-RXR dimerization could offer a selective means to prevent vitamin D degradation without interfering with other physiological functions of PXR or RXR.In this study, we aimed to inhibit the PXR and retinoid X receptor (RXR) interaction by designing peptidomimetic molecules based on the key RXR residues interacting with PXR. To achieve this, we used a multifaceted approach, incorporating pharmacophore and similarity-based peptidomimetics screening, molecular docking, ADMET analysis, and molecular dynamics (MD) simulations. The molecular docking results indicated that 38 compounds had a docking score higher than - 7. Among them, six showed favorable ADMET properties. These molecules were then subjected to MD simulations, where two molecules, notably MMs02510246 and MMs03733211, showed strong interaction with PXR during the 300 ns of MD simulation. Two others partially changed the starting binding site, while two others completely retained their initial binding site and bound to another site. Our study identified two potential molecules that could inhibit the PXR-RXR interaction. These two molecules could potentially inhibit the PXR-RXR interaction, which may help reduce corticosteroid-induced vitamin D inactivation, thereby improving asthma management outcomes without compromising vitamin D's anti-inflammatory benefits. Further experimental analyses are needed to validate our results.",
+    "keywords": [
+      "Asthma",
+      "CYP24A1",
+      "Corticosteroids",
+      "PXR-RXR Complex",
+      "Peptidomimetics",
+      "Vitamin D deficiency"
+    ],
+    "mesh_terms": [
+      "*Pregnane X Receptor/metabolism/chemistry/antagonists & inhibitors",
+      "*Retinoid X Receptors/metabolism/chemistry/antagonists & inhibitors",
+      "*Asthma/drug therapy/metabolism",
+      "Humans",
+      "Molecular Docking Simulation",
+      "*Vitamin D/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Peptidomimetics/pharmacology/chemistry",
+      "Protein Binding/drug effects",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Elgharbaoui, Boutaina",
+        "Bouricha, E L Mehdi",
+        "El Guenouni, Kaoutar",
+        "Magri, Meryam",
+        "Belyamani, Lahcen",
+        "Ibrahimi, Azeddine",
+        "ELjaoudi, Rachid",
+        "Elhafidi, Naima"
+      ],
+      "short_names": [
+        "Elgharbaoui B",
+        "Bouricha ELM",
+        "El Guenouni K",
+        "Magri M",
+        "Belyamani L",
+        "Ibrahimi A",
+        "ELjaoudi R",
+        "Elhafidi N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Medical Biotechnology Laboratory (MedBiotech), Faculty of Medecine and Pharmacy of Rabat, Mohammed Vth University in Rabat, Rabat, Morocco.",
+        "Mohammed VI University of Sciences and Health, UM6SS, Casablanca, Morocco.",
+        "Mohammed VI Center for Research and Innovation, (CM6RI), Rabat, Morocco.",
+        "Mohammed VI University of Sciences and Health, UM6SS, Casablanca, Morocco. elmehdi.bouricha@gmail.com.",
+        "Mohammed VI Center for Research and Innovation, (CM6RI), Rabat, Morocco. elmehdi.bouricha@gmail.com.",
+        "Mohammed VI University of Sciences and Health, UM6SS, Casablanca, Morocco.",
+        "Mohammed VI Center for Research and Innovation, (CM6RI), Rabat, Morocco.",
+        "Medical Biotechnology Laboratory (MedBiotech), Faculty of Medecine and Pharmacy of Rabat, Mohammed Vth University in Rabat, Rabat, Morocco.",
+        "Mohammed VI University of Sciences and Health, UM6SS, Casablanca, Morocco.",
+        "Mohammed VI Center for Research and Innovation, (CM6RI), Rabat, Morocco.",
+        "Emergency Department, Military Hospital Mohammed V, Rabat, Morocco.",
+        "Medical Biotechnology Laboratory (MedBiotech), Faculty of Medecine and Pharmacy of Rabat, Mohammed Vth University in Rabat, Rabat, Morocco.",
+        "Medical Biotechnology Laboratory (MedBiotech), Faculty of Medecine and Pharmacy of Rabat, Mohammed Vth University in Rabat, Rabat, Morocco.",
+        "Medical Biotechnology Laboratory (MedBiotech), Faculty of Medecine and Pharmacy of Rabat, Mohammed Vth University in Rabat, Rabat, Morocco. n.elhafidi@um5r.ac.ma.",
+        "Mohammed VI Center for Research and Innovation, (CM6RI), Rabat, Morocco. n.elhafidi@um5r.ac.ma.",
+        "Division of Pediatric Immuno-allergology and Infectious Diseases, Children University Hospital, Ibn Sina University Hospital, Rabat, Morocco. n.elhafidi@um5r.ac.ma."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Elgharbaoui, Boutaina",
+        "short_name": "Elgharbaoui B",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Biotechnology Laboratory (MedBiotech), Faculty of Medecine and Pharmacy of Rabat, Mohammed Vth University in Rabat, Rabat, Morocco.",
+          "Mohammed VI University of Sciences and Health, UM6SS, Casablanca, Morocco.",
+          "Mohammed VI Center for Research and Innovation, (CM6RI), Rabat, Morocco."
+        ]
+      },
+      {
+        "full_name": "Bouricha, E L Mehdi",
+        "short_name": "Bouricha ELM",
+        "identifiers": [],
+        "affiliations": [
+          "Mohammed VI University of Sciences and Health, UM6SS, Casablanca, Morocco. elmehdi.bouricha@gmail.com.",
+          "Mohammed VI Center for Research and Innovation, (CM6RI), Rabat, Morocco. elmehdi.bouricha@gmail.com."
+        ]
+      },
+      {
+        "full_name": "El Guenouni, Kaoutar",
+        "short_name": "El Guenouni K",
+        "identifiers": [],
+        "affiliations": [
+          "Mohammed VI University of Sciences and Health, UM6SS, Casablanca, Morocco.",
+          "Mohammed VI Center for Research and Innovation, (CM6RI), Rabat, Morocco."
+        ]
+      },
+      {
+        "full_name": "Magri, Meryam",
+        "short_name": "Magri M",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Biotechnology Laboratory (MedBiotech), Faculty of Medecine and Pharmacy of Rabat, Mohammed Vth University in Rabat, Rabat, Morocco."
+        ]
+      },
+      {
+        "full_name": "Belyamani, Lahcen",
+        "short_name": "Belyamani L",
+        "identifiers": [],
+        "affiliations": [
+          "Mohammed VI University of Sciences and Health, UM6SS, Casablanca, Morocco.",
+          "Mohammed VI Center for Research and Innovation, (CM6RI), Rabat, Morocco.",
+          "Emergency Department, Military Hospital Mohammed V, Rabat, Morocco."
+        ]
+      },
+      {
+        "full_name": "Ibrahimi, Azeddine",
+        "short_name": "Ibrahimi A",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Biotechnology Laboratory (MedBiotech), Faculty of Medecine and Pharmacy of Rabat, Mohammed Vth University in Rabat, Rabat, Morocco."
+        ]
+      },
+      {
+        "full_name": "ELjaoudi, Rachid",
+        "short_name": "ELjaoudi R",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Biotechnology Laboratory (MedBiotech), Faculty of Medecine and Pharmacy of Rabat, Mohammed Vth University in Rabat, Rabat, Morocco."
+        ]
+      },
+      {
+        "full_name": "Elhafidi, Naima",
+        "short_name": "Elhafidi N",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Biotechnology Laboratory (MedBiotech), Faculty of Medecine and Pharmacy of Rabat, Mohammed Vth University in Rabat, Rabat, Morocco. n.elhafidi@um5r.ac.ma.",
+          "Mohammed VI Center for Research and Innovation, (CM6RI), Rabat, Morocco. n.elhafidi@um5r.ac.ma.",
+          "Division of Pediatric Immuno-allergology and Infectious Diseases, Children University Hospital, Ibn Sina University Hospital, Rabat, Morocco. n.elhafidi@um5r.ac.ma."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular diversity"
+    ],
+    "journal_abbrev": [
+      "Mol Divers"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/05 00:35",
+    "fetched_at": "2026-10-01 01:03:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39386976",
+      "37367966",
+      "37175549",
+      "35899144",
+      "35874901",
+      "32972987",
+      "32881101",
+      "32654294",
+      "31106357",
+      "29356861",
+      "28963450",
+      "27713266",
+      "25860834",
+      "25579995",
+      "25455453",
+      "23525103",
+      "23330542",
+      "21333771",
+      "20808434",
+      "20504912",
+      "19892860",
+      "19499576",
+      "19399780",
+      "18931373",
+      "18757876",
+      "18305371",
+      "15630458",
+      "9489701",
+      "7630882"
+    ],
+    "similar": [
+      "40908379",
+      "33361153",
+      "18981260",
+      "15316010",
+      "29842849",
+      "9379138",
+      "15647825",
+      "11723248",
+      "33812052",
+      "24121122",
+      "41935425",
+      "40790048",
+      "28939253",
+      "8579895",
+      "22829544",
+      "27320333",
+      "29356861",
+      "8721985",
+      "21917910",
+      "33397237",
+      "12893883",
+      "16204233",
+      "12469913",
+      "9731705",
+      "8622645",
+      "9513041",
+      "9228086",
+      "39098090",
+      "22466564",
+      "41533263",
+      "37340688",
+      "25536521",
+      "11564604",
+      "39125814",
+      "30848264",
+      "28427429",
+      "38957441",
+      "11891851",
+      "16936639",
+      "8923469",
+      "25505647",
+      "16608838",
+      "33483427",
+      "23525103",
+      "40050074",
+      "14978251",
+      "31533970",
+      "28432535",
+      "9058382",
+      "18362166",
+      "41663637",
+      "8825559",
+      "40183276",
+      "29430850",
+      "28289823",
+      "35212371",
+      "39822032",
+      "29300860",
+      "12787891",
+      "39594626",
+      "20153625",
+      "40285969",
+      "11094341",
+      "31008491",
+      "33333074",
+      "26379245",
+      "9632709",
+      "16857725",
+      "36893891",
+      "21291553",
+      "38373033",
+      "8394351",
+      "10893342",
+      "12145331",
+      "16219912",
+      "23928187",
+      "39208642",
+      "25039279",
+      "31782213",
+      "27107558",
+      "9723887",
+      "8961271",
+      "18617990",
+      "26355550",
+      "42037680",
+      "17875939",
+      "7705332",
+      "25504973",
+      "23006820",
+      "30333233",
+      "12167569",
+      "18544536",
+      "11818502",
+      "40634953",
+      "29658431",
+      "40681575",
+      "30286109",
+      "15528208",
+      "12520523",
+      "41163170"
+    ],
+    "review": [
+      "40908379",
+      "9379138",
+      "8579895",
+      "27320333",
+      "40050074",
+      "31008491",
+      "31782213"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/asthma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma"
+      },
+      {
+        "url": "https://doi.org/10.1007/s11030-025-11336-x",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/asthma.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42543505",
+  "title": "TFE3-DualNet: An Interpretable Foundation Model-Based Deep Learning Ensemble for Diagnosing TFE3-Rearranged Renal Cell Carcinoma From Whole-Slide Images in a Two-Center Cohort.",
+  "authors": "Chen, Yu-Hang; Xu, Quan-Hui; Yao, Hao-Hua; Liu, Ke-Zhi; Gui, Cheng-Peng; Fu, Liang-Min; Wang, Ying-Han; Zhu, Jiang-Quan; Li, Jun-Cai; Chen, Min-Yu; Huang, Kang-Bo; Lin, Han-Sen; Liao, Bing; Cao, Yun; Wei, Jin-Huan; Li, Peng-Ju; Luo, Jun-Hang; Cao, Jia-Zheng",
+  "journal": "Cancer medicine",
+  "published_date": "2026-08-03",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用病理基础模型集成诊断TFE3重排肾细胞癌，对象为组织切片图像而非蛋白质-DNA互作，无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: TFE3-rearranged renal cell carcinoma (TFE3-rRCC) is a rare, aggressive subtype that predominantly affects adolescents and young adults. Its marked morphologic heterogeneity can delay recognition and downstream confirmatory testing. METHODS: We assembled a two-center retrospective cohort of patients < 30 years with renal cell carcinoma (n = 228; 59 TFE3-rRCC), using fluorescence in situ hybridization (FISH) as the reference standard. Model development was performed in a development cohort (n = 129), followed by independent external validation (n = 99). We developed TFE3-DualNet, an ensemble of weakly supervised CLAM models trained on routine hematoxylin and eosin (H&E) whole-slide images (WSIs) using patch embeddings extracted from two pathology foundation models (UNI and CHIEF). We compared performance with three immunohistochemistry (IHC) scoring methods and a feature-fusion CLAM baseline using concatenated H&E-derived UNI and CHIEF features, and assessed interpretability by attention mapping. RESULTS: In the external validation cohort, TFE3-DualNet achieved an area under the receiver operating characteristic curve (AUROC) of 0.932, with accuracy 0.879, sensitivity 0.893, and specificity 0.873. The model outperformed IHC scoring methods (AUROC 0.793-0.819; all p < 0.05) and exceeded the feature-fusion baseline (AUROC 0.906). Attention hotspots localized to diagnostically relevant tumor regions and showed concordance with TFE3 IHC patterns. CONCLUSIONS: TFE3-DualNet showed encouraging performance as an interpretable H&E WSI-based screening model for TFE3-rRCC in young patients, supporting its potential use to prioritize confirmatory testing and pathologist review in routine diagnostic workflows.",
+  "abstract_zh": "背景：TFE3重排肾细胞癌（TFE3-rRCC）是一种罕见的侵袭性亚型，主要影响青少年和年轻成人。其显著的形态学异质性可能延迟识别及后续的确认性检测。方法：我们构建了一个两中心回顾性队列，纳入年龄<30岁的肾细胞癌患者（n = 228；其中59例为TFE3-rRCC），以荧光原位杂交（FISH）作为参考标准。模型开发在开发队列（n = 129）中进行，随后进行独立外部验证（n = 99）。我们开发了TFE3-DualNet，这是一个由弱监督CLAM模型组成的集成模型，基于从两个病理基础模型（UNI和CHIEF）提取的补丁嵌入，在常规苏木精-伊红（H&E）全切片图像（WSIs）上训练。我们将性能与三种免疫组织化学（IHC）评分方法及一个使用串联H&E衍生的UNI和CHIEF特征的特征融合CLAM基线进行比较，并通过注意力映射评估可解释性。结果：在外部验证队列中，TFE3-DualNet实现了受试者工作特征曲线下面积（AUROC）为0.932，准确率为0.879，敏感性为0.893，特异性为0.873。该模型优于IHC评分方法（AUROC 0.793-0.819；所有p < 0.05），并超过特征融合基线（AUROC 0.906）。注意力热点定位于诊断相关的肿瘤区域，并与TFE3 IHC模式一致。结论：TFE3-DualNet作为基于H&E WSI的可解释筛查模型，在年轻患者TFE3-rRCC中显示出令人鼓舞的性能，支持其在常规诊断工作流程中用于优先安排确认性检测和病理医生复核的潜在用途。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42543505/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42543505/",
+  "paper_page_path": "papers/pubmed/42543505/index.html"
+}

@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "40452186",
+    "doi": "10.1016/j.xhgg.2025.100463",
+    "title": "Transcriptomic signatures of rare variant impacts across sex and the X chromosome."
+  },
+  "content": {
+    "abstract": "The human X chromosome contains hundreds of genes and has well-established impacts on sex differences and traits. However, the X chromosome is often excluded from many genetic analyses, limiting broader understanding of variant effects. In particular, the functional impact of rare variants on the X chromosome is understudied. To investigate functional rare variants on the X chromosome, we use observations of outlier gene expression from Genotype Tissue Expression consortium data. We show that outlier genes are enriched for having nearby rare variants on the X chromosome, and this enrichment is stronger for males. Using the RIVER model, we identified 733 rare variants in 450 genes predicted to have functional differences between males and females. We examined the pharmacogenetic implications of these variants and observed that 25% of drugs with a known sex difference in adverse drug reactions were connected to genes that contained a sex-biased rare variant. We further identify that sex-biased rare variants preferentially impact transcription factors with predicted sex-differential binding, such as the XIST-modulated SIX1. Overall, we observed more within-sex variation than between-sex variation. Combined, our study investigates functional rare variants on the X chromosome, and further details how sex stratification of variant effect prediction improves identification of rare variants with predicted sex-biased effects, transcription factor biology, and pharmacogenomic impacts.",
+    "keywords": [
+      "X chromosome",
+      "machine learning",
+      "rare variant",
+      "sex differences"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Chromosomes, Human, X/genetics",
+      "Male",
+      "Female",
+      "*Transcriptome",
+      "*Genetic Variation",
+      "Gene Expression Profiling",
+      "Sex Characteristics",
+      "Sex Factors",
+      "Polymorphism, Single Nucleotide"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ungar, Rachel A",
+        "Li, Taibo",
+        "Vetr, Nikolai G",
+        "Ersaro, Nicole",
+        "Battle, Alexis",
+        "Montgomery, Stephen B"
+      ],
+      "short_names": [
+        "Ungar RA",
+        "Li T",
+        "Vetr NG",
+        "Ersaro N",
+        "Battle A",
+        "Montgomery SB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Genetics, School of Medicine, Stanford University, Stanford, CA, USA; Department of Pathology, School of Medicine, Stanford University, Stanford, CA, USA.",
+        "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD, USA.",
+        "Department of Pathology, School of Medicine, Stanford University, Stanford, CA, USA.",
+        "Department of Biomedical Data Science, School of Medicine, Stanford University, Stanford, CA, USA.",
+        "Department of Computer Science, Johns Hopkins University, Baltimore, MD, USA.",
+        "Department of Genetics, School of Medicine, Stanford University, Stanford, CA, USA; Department of Pathology, School of Medicine, Stanford University, Stanford, CA, USA; Department of Biomedical Data Science, School of Medicine, Stanford University, Stanford, CA, USA. Electronic address: smontgom@stanford.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ungar, Rachel A",
+        "short_name": "Ungar RA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, School of Medicine, Stanford University, Stanford, CA, USA; Department of Pathology, School of Medicine, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Taibo",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Vetr, Nikolai G",
+        "short_name": "Vetr NG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, School of Medicine, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ersaro, Nicole",
+        "short_name": "Ersaro N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Data Science, School of Medicine, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Battle, Alexis",
+        "short_name": "Battle A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Johns Hopkins University, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Montgomery, Stephen B",
+        "short_name": "Montgomery SB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, School of Medicine, Stanford University, Stanford, CA, USA; Department of Pathology, School of Medicine, Stanford University, Stanford, CA, USA; Department of Biomedical Data Science, School of Medicine, Stanford University, Stanford, CA, USA. Electronic address: smontgom@stanford.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "HGG advances"
+    ],
+    "journal_abbrev": [
+      "HGG Adv"
+    ],
+    "pub_date": "2025 Jul 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/02 06:28",
+    "fetched_at": "2026-09-30 19:19:27"
+  },
+  "links": {
+    "cites": [
+      "41744256",
+      "40766617"
+    ],
+    "refs": [
+      "39530240",
+      "38159139",
+      "38057664",
+      "37953380",
+      "37868038",
+      "37664846",
+      "37619562",
+      "37267899",
+      "37234706",
+      "37228747",
+      "37179358",
+      "37172561",
+      "37111771",
+      "36848382",
+      "36335097",
+      "36323681",
+      "35953856",
+      "35639768",
+      "35588732",
+      "35576557",
+      "35337371",
+      "35337096",
+      "35116695",
+      "34726154",
+      "34557778",
+      "34375979",
+      "34063067",
+      "33784977",
+      "33669040",
+      "33664507",
+      "33618777",
+      "33600428",
+      "33583074",
+      "33573230",
+      "33522483",
+      "33277594",
+      "33179017",
+      "32913098",
+      "32913073",
+      "32913072",
+      "32579922",
+      "32545367",
+      "32503637",
+      "32461654",
+      "32348611",
+      "32213654",
+      "32191528",
+      "32170911",
+      "32059713",
+      "32048185",
+      "31844524",
+      "31676410",
+      "31601707",
+      "31395900",
+      "31289836",
+      "31249361",
+      "31160820",
+      "30581192",
+      "30554168",
+      "30503520",
+      "30357393",
+      "29902481",
+      "29793534",
+      "29022581",
+      "28867356",
+      "28590408",
+      "28159880",
+      "28122818",
+      "27857184",
+      "27535533",
+      "27268795",
+      "27197214",
+      "27101133",
+      "26833834",
+      "26328486",
+      "25693544",
+      "25420486",
+      "25086666",
+      "24793291",
+      "24516404",
+      "23987514",
+      "23223713",
+      "23184518",
+      "22455463",
+      "22343431",
+      "22343424",
+      "22158971",
+      "21926414",
+      "21922541",
+      "20811451",
+      "20513432",
+      "20110278",
+      "11062153",
+      "10556288"
+    ],
+    "similar": [
+      "40452186",
+      "37221602",
+      "40347836",
+      "27197214",
+      "39639337",
+      "41714944",
+      "21756339",
+      "31818333",
+      "41578372",
+      "29096703",
+      "23667180",
+      "41820841",
+      "26220359",
+      "42039161",
+      "40999523",
+      "42368022",
+      "31937374",
+      "31427530",
+      "24793291",
+      "38957312",
+      "38627676",
+      "39293802",
+      "39281750",
+      "39716176",
+      "31748848",
+      "39473393",
+      "21763416",
+      "31044242",
+      "31094050",
+      "38501524",
+      "38489177",
+      "32913072",
+      "24163133",
+      "42104453",
+      "38822397",
+      "20624738",
+      "27325607",
+      "39706197",
+      "39954678",
+      "20236443",
+      "41574968",
+      "41990167",
+      "33264334",
+      "38545844",
+      "24696400",
+      "22950647",
+      "30290841",
+      "25679222",
+      "32693839",
+      "26454253",
+      "34732242",
+      "40950053",
+      "21047393",
+      "42475469",
+      "29022581",
+      "26108491",
+      "39250132",
+      "34082482",
+      "41934611",
+      "29767774",
+      "20142438",
+      "25679214",
+      "30948856",
+      "34432020",
+      "41861831",
+      "27905879",
+      "32489015",
+      "41726570",
+      "29335024",
+      "26209245",
+      "40388606",
+      "38458775",
+      "24951664",
+      "27974502",
+      "32441398",
+      "22960374",
+      "26685068",
+      "37497639",
+      "23097318",
+      "23140559",
+      "39324238",
+      "32926103",
+      "41730952",
+      "23925789",
+      "39856216",
+      "21858147",
+      "41680906",
+      "41635935",
+      "23170910",
+      "34890163",
+      "28394350",
+      "40758559",
+      "22499666",
+      "29946024",
+      "37208698",
+      "33971972",
+      "40570058",
+      "17707844",
+      "42330953",
+      "17521342"
+    ],
+    "review": [
+      "40452186",
+      "39639337",
+      "38501524",
+      "38489177",
+      "42104453",
+      "20236443",
+      "41574968",
+      "39250132",
+      "41726570",
+      "38458775"
+    ],
+    "pmc": [
+      "12214130"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-2477(25)00066-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40452186/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2666-2477(25)00066-1",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

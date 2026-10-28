@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supplementary references)
+- **Assessment boundary** Scientific validity, methodological rigor, reproducibility, and interpretation of results as presented in the provided text
+- **Shared manuscript claim summary** The authors present a multi-scale machine learning framework integrating physicochemical, structural, ESM-2 language model, and SASA/ΔΔG features to predict antibody-antigen binding affinity changes upon mutation. Under leave-one-complex-out deep mutational scanning (LOCO-DMS) cross-validation on the AbAgym dataset, gradient boosting achieves MCC = 0.206, and a confidence-stratified ensemble reaches MCC = 0.374 (83.5% accuracy, 25.5% coverage). The authors report that no single feature modality exceeds the majority baseline alone, that multi-scale fusion is necessary, and that a Boltzmann ceiling analysis bounds the theoretical maximum MCC at 0.473.
+- **Visible evidence base** Abstract, Introduction, Results sections (framework overview, dataset characteristics, baseline performance, pathogen-specific performance, structural features, language model embeddings, comprehensive benchmarking, feature integration, confidence-stratified prediction, deep learning architectures, prospective validation), Discussion, Limitations, Methods (datasets, hand-crafted features, structural features, GNN, classification model, cross-validation, evaluation metrics), Code availability, Data availability
+- **Missing materials affecting confidence** Figures 1-4 are referenced but not provided; Tables 1A, 2A, 3A, 5, 6 and Supplementary Tables S1-S5 are referenced but not provided; exact hyperparameter configurations for deep learning models are not fully specified; no code repository link is provided; no statistical significance tests are reported; no comparison with actual published tool outputs (only feature-set proxies are used)
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important problem in computational antibody engineering: predicting binding affinity changes upon mutation with rigorous generalization evaluation. The use of LOCO-DMS cross-validation is a strength and represents a more stringent evaluation than typical stratified splits. However, the manuscript has several critical issues that prevent acceptance in its current form. The reported performance metrics are modest (MCC = 0.206 aggregate; 0.374 with confidence filtering), and the central claim that multi-scale fusion is "necessary" is not convincingly established given that the improvement over the best single modality is small (0.140 to 0.168, a 20% relative improvement). The Boltzmann ceiling analysis, while conceptually interesting, relies on assumptions about label noise that are not empirically validated. The comparison with published methods uses "feature-set proxies" rather than actual tool outputs, which weakens the novelty claims. The prospective validation results (MCC = 0.103) are concerning and suggest that the method does not generalize well to unseen complexes, which is the stated primary goal. The manuscript would benefit from clearer reporting of experimental details, statistical significance testing, and a more cautious interpretation of the results.
+- **Who would be interested in the results, and why** Computational biologists and machine learning researchers working on protein-protein interaction prediction, antibody engineering groups in academia and industry, and researchers developing deep learning methods for biological sequence and structure data. The LOCO-DMS evaluation framework and the Boltzmann ceiling analysis may be of methodological interest. The finding that self-attention matches gradient boosting under rigorous evaluation is relevant to the deep learning community.
+- **Major strengths** 1) Use of LOCO-DMS cross-validation, which is more rigorous than standard cross-validation for assessing generalization to unseen complexes. 2) Systematic comparison of multiple feature modalities and model architectures under identical evaluation conditions. 3) The Boltzmann ceiling analysis provides a useful conceptual framework for interpreting aggregate performance metrics. 4) The confidence-stratified ensemble approach is practical and addresses real deployment needs. 5) The authors are transparent about limitations, including the cross-pathogen transfer failure and modest prospective performance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and significance testing
+  - **Claim pointer** The manuscript claims that multi-scale fusion outperforms all single-modality approaches and that the improvement is consistent across model choices.
+  - **Evidence pointer** Results section "Multi-scale feature integration exceeds majority baseline"; Table 5 (referenced, not provided)
+  - **Concern** No statistical significance testing is reported for any of the performance comparisons. The differences between feature configurations (e.g., 0.140 to 0.168 MCC) and between models (e.g., GBM 0.206 vs. SelfAttention 0.200) are small, and without confidence intervals or significance tests, it is impossible to determine whether these differences are meaningful or within noise. The claim that "six model-feature configurations independently surpassed this threshold" requires statistical validation.
+  - **Why it matters** The central claim of the paper is that multi-scale fusion is necessary and beneficial. If the observed improvements are not statistically significant, this claim is unsupported. Small differences in MCC can arise from random variation, especially with class-imbalanced data.
+  - **Resolution test** Report confidence intervals (e.g., bootstrap) for all reported metrics, and perform statistical significance tests (e.g., McNemar's test for paired classifications, or permutation tests) for the key comparisons: multi-modal vs. best single modality, and GBM vs. SelfAttention.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparison with existing methods
+  - **Claim pointer** The manuscript claims novelty by stating "No prior method combines all five feature modalities under leave-one-complex-out evaluation" and provides a comparison with published method proxies.
+  - **Evidence pointer** Results section "Comparison with published methods under LOCO evaluation"; Table 4 (referenced, not provided)
+  - **Concern** The comparison with published methods uses "feature-set proxies" that mimic input modalities rather than running the actual published tools. This is not a valid comparison. Published tools have specific architectures, training procedures, and hyperparameters that cannot be replicated by feature-set proxies. The claim that the method outperforms existing approaches is therefore not established.
+  - **Why it matters** The novelty and practical value of the proposed method depend on demonstrating improvement over existing tools. A proxy-based comparison does not provide this evidence and could mislead readers about the method's relative performance.
+  - **Resolution test** Run the actual published tools (e.g., mCSM-AB2, FoldX, Rosetta, TopNetTree) on the same LOCO-DMS splits and report their performance alongside the proposed method. If this is not feasible, clearly state that a direct comparison was not performed and temper the novelty claims accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological detail
+  - **Claim pointer** The manuscript describes a multi-scale framework with specific feature counts and model configurations, and states that "All analysis code is available from the corresponding author upon reasonable request."
+  - **Evidence pointer** Methods section; Code availability section
+  - **Concern** The manuscript lacks sufficient detail for reproduction. The deep learning architectures are described at a high level (e.g., "ResidualMLP with skip connections", "SelfAttention model employed multi-head self-attention (4 heads)") but exact layer sizes, activation functions, regularization parameters, learning rate schedules, and early stopping criteria are not specified. The GNN architecture is described with equations but the training procedure (optimizer, epochs, batch size) is not fully detailed. The code is not publicly available in a repository, only "upon reasonable request," which is not consistent with modern reproducibility standards.
+  - **Why it matters** Reproducibility is a core requirement for scientific publication. Without complete methodological detail and publicly available code, other researchers cannot build on this work or verify the claims.
+  - **Resolution test** Provide a public code repository (e.g., GitHub) with the full implementation, and include complete hyperparameter specifications for all models in the Methods or Supplementary Information.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of the Boltzmann ceiling analysis
+  - **Claim pointer** The manuscript states that "Boltzmann ceiling analysis shows 45.9% of mutations are near-neutral (|ΔΔG| < kBT), bounding theoretical maximum MCC at 0.473; our method achieves 79.1% of this limit."
+  - **Evidence pointer** Results section "The near-neutral prediction barrier and Boltzmann ceiling"; Discussion
+  - **Concern** The Boltzmann ceiling analysis assumes that near-neutral mutations are fundamentally unpredictable because thermal fluctuations render the "true" label stochastic. This assumption is plausible but not empirically validated. The threshold of |ΔΔG| < kBT (approximately 0.6 kcal/mol) is used to define "near-neutral," but the relationship between this threshold and experimental measurement noise is not established. The claim that the method achieves "79.1% of the ceiling" may be misleading if the ceiling itself is not well-calibrated.
+  - **Why it matters** The ceiling analysis is used to reframe the modest aggregate MCC as a success rather than a limitation. If the ceiling is not valid, this reframing is unjustified and could mislead readers about the method's actual performance.
+  - **Resolution test** Provide empirical evidence for the noise floor assumption, such as replicate measurements of the same mutations showing label instability for near-neutral mutations. Alternatively, present the ceiling analysis as a theoretical framework with clear caveats rather than a quantitative bound.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Prospective validation and generalization claims
+  - **Claim pointer** The manuscript reports that prospective validation on five held-out complexes achieved mean ensemble MCC = 0.103, and states that "generalization to entirely unseen antibody-antigen systems remains the primary open challenge."
+  - **Evidence pointer** Results section "Prospective validation on held-out DMS experiments"; Supplementary Table S3 (referenced, not provided)
+  - **Concern** The prospective validation results are very modest (MCC = 0.103), which raises questions about the practical utility of the method for the stated goal of predicting binding affinity in unseen antibody-antigen complexes. The manuscript acknowledges this limitation but does not adequately address whether the method provides any practical benefit over simpler baselines in this setting. The selection of the five held-out complexes is not described, and it is unclear whether they are representative of the diversity of antibody-antigen systems.
+  - **Why it matters** The primary motivation for the work is generalization to unseen complexes. If the method performs only slightly above chance in this setting, the practical value is questionable, and the claims about the framework's utility need to be tempered.
+  - **Resolution test** Provide a detailed description of the held-out complex selection criteria, report per-complex results, and compare against a simple baseline (e.g., majority class prediction) in the prospective setting. Discuss the conditions under which the method provides practical benefit.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of feature descriptions
+  - **Affected element** Methods section "Hand-crafted sequence features (111 features)"
+  - **Evidence pointer** Methods section
+  - **Issue** The manuscript states that 111 hand-crafted features are extracted, but the Results section describes a 93-feature representation (38 physicochemical + 34 structural + 4 ESM-2 + 17 SASA/ΔΔG). The relationship between the 111 features and the 93 features is unclear. Additionally, the ESM-2 features are described as 1,045 features reduced to 150 principal components in one section, but only 4 ESM-2 features appear in the final 93-feature set.
+  - **Required correction** Clarify the feature selection process and how the 111 hand-crafted features relate to the 93-feature representation. Explain how 1,045 ESM-2 features are reduced to 4 features in the final set.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Dataset description
+  - **Affected element** Methods section "Datasets"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the AbAgym dataset states 36,541 mutations are used, but the abstract states 36,541 mutations across 68 experiments. The relationship between the full AbAgym dataset (37,259 mutations mentioned in the Results) and the 36,541 used is not explained. The filtering criteria are not described.
+  - **Required correction** Describe the filtering process that reduced the dataset from 37,259 to 36,541 mutations, and clarify the exact dataset composition used for each analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure and table references
+  - **Affected element** Results section
+  - **Evidence pointer** Results section throughout
+  - **Issue** Multiple figures and tables are referenced (Figures 1-4, Tables 1A, 2A, 3A, 5, 6, Supplementary Tables S1-S5) but none are provided in the manuscript text. This makes it impossible to evaluate the claims fully.
+  - **Required correction** Ensure all figures and tables are included in the manuscript or supplementary materials, with clear captions and legends.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** CDR definition
+  - **Affected element** Methods section "Hand-crafted sequence features"
+  - **Evidence pointer** Methods section
+  - **Issue** The CDR boundaries are defined using "approximate positional definitions" rather than Kabat or IMGT numbering. This is acknowledged but the potential impact on feature quality is not discussed. Different CDR definitions could significantly alter the computed features.
+  - **Required correction** Discuss the potential impact of approximate CDR definitions on the results, or use a more standard CDR definition method.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Computational resources
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section
+  - **Issue** The manuscript mentions GPU usage (NVIDIA L4) for deep learning but does not report training times, computational costs, or the total compute budget. This information is useful for assessing the practical feasibility of the approach.
+  - **Required correction** Report approximate training times and computational requirements for the main experiments.
+
+## Risk / unsupported claims
+- The claim that "No prior method combines all five feature modalities under leave-one-complex-out evaluation" is a strong novelty claim that cannot be verified from the provided text alone, as the literature review is limited to the Introduction and does not systematically cover all prior work.
+- The claim that the method achieves "79.1% of the Boltzmann ceiling" depends on the validity of the ceiling calculation, which is not empirically validated.
+- The comparison with published methods using "feature-set proxies" does not support the claim that the proposed method outperforms existing tools.
+- The claim that "multi-scale feature integration captures complementary binding-relevant information inaccessible to any individual representation" is based on the observation that no single modality exceeds the majority baseline, but the improvement from fusion is small and not statistically validated.
+- The statement that "self-attention matching gradient boosting" is presented as a key finding, but the significance of this match is not tested, and the practical implications are unclear.
+- The prospective validation results (MCC = 0.103) are presented as evidence of the method's limitations, but the manuscript does not provide a clear benchmark for what would constitute acceptable performance in this setting.

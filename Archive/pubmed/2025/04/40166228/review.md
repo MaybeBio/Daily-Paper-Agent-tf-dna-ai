@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors analyzed paired single-cell transcriptomic and chromatin accessibility data from 26 human brain samples from the SEA-AD Consortium, benchmarked multi-omics integration methods, constructed a unified cell state space, identified AD-associated gene expression and pathway changes in glial subpopulations, and used interpretable machine learning to highlight SLC family genes across glial cell types and transcription factor-mediated regulatory programs (JUN, FOSL2 in astrocytes; ZNF family in microglia; SOX family in oligodendrocytes).
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, benchmarking details, statistical analyses, and validation results
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable integrative analysis of paired single-cell multiomics data in Alzheimer's disease, with a focus on glial cell subtypes and regulatory programs. The scope is relevant and the proposed workflow could be of interest to the single-cell genomics and neurodegeneration communities. However, the abstract alone provides insufficient evidence to evaluate the technical soundness, robustness, or novelty of the findings. Key claims regarding benchmarking outcomes, cell-state alignment quality, and specific regulatory programs are stated without quantitative support. The case for disrupted glial gene regulatory programs is plausible but not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in Alzheimer's disease neurobiology, single-cell genomics, epigenomics, and computational biology would be interested. The study addresses a gap in cell-subpopulation-specific regulatory understanding in AD and proposes an interpretable machine learning workflow that could be adapted by others working with paired multiomics data.
+- **Major strengths** The study addresses a timely and important question using a well-regarded public resource (SEA-AD). The focus on glial cells, which are increasingly recognized as central to AD pathogenesis, is appropriate. The combination of transcriptomic and chromatin accessibility data with interpretable machine learning is a modern and potentially powerful approach. The identification of specific transcription factor families and SLC genes provides concrete hypotheses for follow-up.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that their analytic workflow enabled effective batch correction and cross-modality alignment, creating a unified cell state space.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No quantitative metrics, benchmarking results, or validation of the alignment are presented. The claim of effectiveness is unsupported.  
+  - **Why it matters** Cross-modality alignment is a known challenge in single-cell multiomics. Without evidence of alignment quality, all downstream integrative analyses are potentially compromised.  
+  - **Resolution test** Provide benchmarking metrics (e.g., batch entropy, alignment scores, cell-type purity) and visual or statistical validation of the unified cell state space in the full manuscript.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Statistical rigor  
+  - **Claim pointer** The authors claim AD-associated gene expression and pathway changes in glial subpopulations and highlight important transcriptomic and epigenomic signatures.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No effect sizes, p-values, false discovery rates, or confidence intervals are reported. The magnitude and significance of the claimed changes are not assessable.  
+  - **Why it matters** Without statistical support, the reader cannot distinguish robust biological signals from noise, particularly in high-dimensional single-cell data with multiple testing challenges.  
+  - **Resolution test** Report adjusted p-values, effect sizes, and replication or validation results for the key differentially expressed genes and pathways.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Interpretability and validity of machine learning findings  
+  - **Claim pointer** The authors claim that interpretable machine learning paradigms discovered the profound involvement of SLC family genes and glial cell-specific regulatory programs mediated by JUN, FOSL2, ZNF, and SOX transcription factors.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not describe the machine learning models used, their training and evaluation procedures, feature importance metrics, or how interpretability was achieved and validated. The biological relevance of the identified genes and transcription factors is asserted without functional validation or orthogonal evidence.  
+  - **Why it matters** Interpretable machine learning can produce spurious or non-unique solutions. Without model details and validation, the claimed regulatory programs may not be reproducible or biologically meaningful.  
+  - **Resolution test** Provide model specifications, cross-validation results, feature importance analyses, and independent validation (e.g., orthogonal datasets, perturbation experiments, or literature-based evidence) in the full manuscript.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Novelty  
+  - **Claim pointer** The authors claim that their findings offer novel insights into disease-related changes in gene regulation.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not situate the findings within the existing literature. SLC genes, JUN, FOSL2, ZNF, and SOX families have been previously implicated in AD or glial biology in various contexts. The specific novelty of this study is unclear.  
+  - **Why it matters** For a high-impact claim, the authors must demonstrate what is genuinely new beyond prior single-cell or bulk studies.  
+  - **Resolution test** Include a comparative discussion with prior AD multiomics and glial studies, and clearly state the incremental contribution in the full manuscript.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "profound involvement" is subjective and not supported by quantitative descriptors.  
+  - **Required correction** Replace with a specific quantitative statement, such as the number of SLC genes identified and their effect sizes.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Methods description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not state which multi-omics integration methods were benchmarked or which criteria were used for selection.  
+  - **Required correction** Name the benchmarked methods and the selection criteria in the abstract or methods summary.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Sample description  
+  - **Affected element** Cohort details  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions 26 human brain samples but does not specify case-control composition, brain regions, or demographic information.  
+  - **Required correction** Provide a brief description of the cohort composition in the abstract or refer to a cohort table in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (alignment validation), R1-M2 (statistical reporting), R1-M3 (machine learning model transparency and validation)
+- **Assessment against Nature-style criteria**  
+  - Originality: The combination of paired scRNA-seq and scATAC-seq with interpretable machine learning in AD glial cells is potentially original, but the abstract does not demonstrate how the findings extend beyond existing literature.  
+  - Scientific importance: The topic is important, and glial regulatory programs in AD are of high interest. However, the abstract does not provide evidence that the findings will change current understanding.  
+  - Interdisciplinary readership: The work bridges genomics, computational biology, and neurobiology, which could appeal to a broad audience if the methods and findings are clearly presented.  
+  - Technical soundness: Not assessable from the abstract; major methodological details and validations are missing.  
+  - Readability for nonspecialists: The abstract is generally readable but uses technical terms without sufficient context for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially valuable study, but the absence of quantitative results, methodological details, and validation prevents assessment of the core claims. A full manuscript review would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that the analytic workflow enabled effective batch correction and cross-modality alignment is unsupported by any quantitative evidence.
+- The claim of AD-associated gene expression and pathway changes is unsupported without statistical reporting.
+- The claim of "profound involvement" of SLC family genes is unsupported and subjective.
+- The identification of specific transcription factor-mediated regulatory programs (JUN, FOSL2, ZNF, SOX) is not validated by functional or orthogonal evidence.
+- The claim of novel insights is not substantiated relative to existing literature.

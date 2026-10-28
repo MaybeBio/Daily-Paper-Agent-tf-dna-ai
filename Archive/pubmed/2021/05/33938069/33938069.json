@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "33938069",
+    "doi": "10.1002/gcc.22956",
+    "title": "Single nucleotide polymorphism array-based signature of low hypodiploidy in acute lymphoblastic leukemia."
+  },
+  "content": {
+    "abstract": "Low hypodiploidy (30-39 chromosomes) is one of the most prevalent genetic subtypes among adults with ALL and is associated with a very poor outcome. Low hypodiploid clones can often undergo a chromosomal doubling generating a near-triploid clone (60-78 chromosomes). When cytogenetic techniques detect a near triploid clone, a diagnostic challenge may ensue in differentiating presumed duplicated low hypodiploidy from good risk high hyperdiploid ALL (51-67 chromosomes). We used single-nucleotide polymorphism (SNP) arrays to analyze low hypodiploid/near triploid (HoTr) (n = 48) and high hyperdiploid (HeH) (n = 40) cases. In addition to standard analysis, we derived log2 ratios for entire chromosomes enabling us to analyze the cohort using machine-learning techniques. Low hypodiploid and near triploid cases clustered together and separately from high hyperdiploid samples. Using these approaches, we also identified three cases with 50-60 chromosomes, originally called as HeH, which were, in fact, HoTr and two cases incorrectly called as HoTr. TP53 mutation analysis supported the new classification of all cases tested. Next, we constructed a classification and regression tree model for predicting ploidy status with chromosomes 1, 7, and 14 being the key discriminators. The classifier correctly identified 47/50 (94%) HoTr cases. We validated the classifier using an independent cohort of 44 cases where it correctly called 7/7 (100%) low hypodiploid cases. The results of this study suggest that HoTr is more frequent among older adults with ALL than previously estimated and that SNP array analysis should accompany cytogenetics where possible. The classifier can assist where SNP array patterns are challenging to interpret.",
+    "keywords": [
+      "SNP array",
+      "acute lymphoblastic leukemia",
+      "cytogenetics",
+      "hypodiploid"
+    ],
+    "mesh_terms": [
+      "Adult",
+      "Diploidy",
+      "Female",
+      "Humans",
+      "Machine Learning",
+      "Male",
+      "Middle Aged",
+      "*Polymorphism, Single Nucleotide",
+      "Precursor Cell Lymphoblastic Leukemia-Lymphoma/*genetics/pathology",
+      "Triploidy",
+      "Tumor Suppressor Protein p53/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Creasey, Thomas",
+        "Enshaei, Amir",
+        "Nebral, Karin",
+        "Schwab, Claire",
+        "Watts, Kathryn",
+        "Cuthbert, Gavin",
+        "Vora, Ajay",
+        "Moppett, John",
+        "Harrison, Christine J",
+        "Fielding, Adele K",
+        "Haas, Oskar A",
+        "Moorman, Anthony V"
+      ],
+      "short_names": [
+        "Creasey T",
+        "Enshaei A",
+        "Nebral K",
+        "Schwab C",
+        "Watts K",
+        "Cuthbert G",
+        "Vora A",
+        "Moppett J",
+        "Harrison CJ",
+        "Fielding AK",
+        "Haas OA",
+        "Moorman AV"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8536-5428",
+        "ORCID: 0000-0002-0526-6794"
+      ],
+      "affiliations": [
+        "Leukaemia Research Cytogenetics Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, UK.",
+        "Leukaemia Research Cytogenetics Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, UK.",
+        "Department of Clinical Genetics, Children's Cancer Research Institute, Vienna, Austria.",
+        "Leukaemia Research Cytogenetics Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, UK.",
+        "Northern Genetics Service, The Newcastle-upon-Tyne Hospitals NHS Foundation Trust, Institute of Genetic Medicine, International Centre for Life, Newcastle upon Tyne, UK.",
+        "Northern Genetics Service, The Newcastle-upon-Tyne Hospitals NHS Foundation Trust, Institute of Genetic Medicine, International Centre for Life, Newcastle upon Tyne, UK.",
+        "Haematology and Oncology Department, Great Ormond Street Hospital, London, UK.",
+        "Paediatric Haematology Department, Bristol Royal Hospital for Children, Bristol, UK.",
+        "Leukaemia Research Cytogenetics Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, UK.",
+        "Department of Haematology, UCL Cancer Institute, London, UK.",
+        "Department of Clinical Genetics, Children's Cancer Research Institute, Vienna, Austria.",
+        "Leukaemia Research Cytogenetics Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Creasey, Thomas",
+        "short_name": "Creasey T",
+        "identifiers": [
+          "0000-0001-8536-5428"
+        ],
+        "affiliations": [
+          "Leukaemia Research Cytogenetics Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, UK."
+        ]
+      },
+      {
+        "full_name": "Enshaei, Amir",
+        "short_name": "Enshaei A",
+        "identifiers": [],
+        "affiliations": [
+          "Leukaemia Research Cytogenetics Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, UK."
+        ]
+      },
+      {
+        "full_name": "Nebral, Karin",
+        "short_name": "Nebral K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Genetics, Children's Cancer Research Institute, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Schwab, Claire",
+        "short_name": "Schwab C",
+        "identifiers": [],
+        "affiliations": [
+          "Leukaemia Research Cytogenetics Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, UK."
+        ]
+      },
+      {
+        "full_name": "Watts, Kathryn",
+        "short_name": "Watts K",
+        "identifiers": [],
+        "affiliations": [
+          "Northern Genetics Service, The Newcastle-upon-Tyne Hospitals NHS Foundation Trust, Institute of Genetic Medicine, International Centre for Life, Newcastle upon Tyne, UK."
+        ]
+      },
+      {
+        "full_name": "Cuthbert, Gavin",
+        "short_name": "Cuthbert G",
+        "identifiers": [],
+        "affiliations": [
+          "Northern Genetics Service, The Newcastle-upon-Tyne Hospitals NHS Foundation Trust, Institute of Genetic Medicine, International Centre for Life, Newcastle upon Tyne, UK."
+        ]
+      },
+      {
+        "full_name": "Vora, Ajay",
+        "short_name": "Vora A",
+        "identifiers": [],
+        "affiliations": [
+          "Haematology and Oncology Department, Great Ormond Street Hospital, London, UK."
+        ]
+      },
+      {
+        "full_name": "Moppett, John",
+        "short_name": "Moppett J",
+        "identifiers": [],
+        "affiliations": [
+          "Paediatric Haematology Department, Bristol Royal Hospital for Children, Bristol, UK."
+        ]
+      },
+      {
+        "full_name": "Harrison, Christine J",
+        "short_name": "Harrison CJ",
+        "identifiers": [
+          "0000-0002-0526-6794"
+        ],
+        "affiliations": [
+          "Leukaemia Research Cytogenetics Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, UK."
+        ]
+      },
+      {
+        "full_name": "Fielding, Adele K",
+        "short_name": "Fielding AK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Haematology, UCL Cancer Institute, London, UK."
+        ]
+      },
+      {
+        "full_name": "Haas, Oskar A",
+        "short_name": "Haas OA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Genetics, Children's Cancer Research Institute, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Moorman, Anthony V",
+        "short_name": "Moorman AV",
+        "identifiers": [],
+        "affiliations": [
+          "Leukaemia Research Cytogenetics Group, Translational and Clinical Research Institute, Newcastle University, Newcastle upon Tyne, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes, chromosomes & cancer"
+    ],
+    "journal_abbrev": [
+      "Genes Chromosomes Cancer"
+    ],
+    "pub_date": "2021 Sep",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/04 06:00",
+    "fetched_at": "2026-09-27 16:56:38"
+  },
+  "links": {
+    "cites": [
+      "42174641",
+      "41772825",
+      "41097763",
+      "40185891",
+      "37240110",
+      "36550215",
+      "36266323",
+      "35269896",
+      "35008193",
+      "34994994"
+    ],
+    "refs": [
+      "34657128",
+      "31425927",
+      "30657737",
+      "30371878",
+      "29131699",
+      "28003275",
+      "27903530",
+      "27268795",
+      "27207943",
+      "27161658",
+      "26774012",
+      "26544893",
+      "25781572",
+      "25678190",
+      "24619868",
+      "24352198",
+      "24071793",
+      "23941516",
+      "23434627",
+      "23334668",
+      "22889820",
+      "22495321",
+      "21779515",
+      "21518781",
+      "21098271",
+      "20837533",
+      "20409752",
+      "19897583",
+      "19052058",
+      "17170120",
+      "15147369",
+      "15039281",
+      "11328273"
+    ],
+    "similar": [
+      "33938069",
+      "31425927",
+      "24619868",
+      "26544893",
+      "34690454",
+      "26185311",
+      "15039281",
+      "15147369",
+      "35008193",
+      "36630200",
+      "28003275",
+      "9162196",
+      "27903530",
+      "2757002",
+      "30715800",
+      "35212133",
+      "9054669",
+      "10482981",
+      "30714092",
+      "2737611",
+      "14669294",
+      "20435627",
+      "8605327",
+      "21098271",
+      "2306521",
+      "23508829",
+      "32693366",
+      "21156235",
+      "23334668",
+      "25961940",
+      "20237506",
+      "11463448",
+      "27161658",
+      "25706938",
+      "22889820",
+      "9858226",
+      "34788984",
+      "17473063",
+      "3855691",
+      "16875587",
+      "20113840",
+      "10198622",
+      "19897583",
+      "2378987",
+      "27696391",
+      "9529139",
+      "23716545",
+      "16849281",
+      "30657737",
+      "3181397",
+      "33245684",
+      "1518147",
+      "10590047",
+      "34715050",
+      "18021563",
+      "36779909",
+      "1377941",
+      "30203896",
+      "11937268",
+      "31519067",
+      "16875938",
+      "28608976",
+      "16875937",
+      "11454422",
+      "12935932",
+      "1747871",
+      "10784628",
+      "11106823",
+      "10602421",
+      "15661262",
+      "2804351",
+      "9557603",
+      "29034503",
+      "25677247",
+      "22801382",
+      "24829203",
+      "19545391",
+      "17890455",
+      "30540863",
+      "2205354",
+      "20513528",
+      "9665480",
+      "12829593",
+      "24319172",
+      "39898462",
+      "9595040",
+      "25261097",
+      "2713510",
+      "34217275",
+      "14506697",
+      "293126",
+      "17350480",
+      "15942938",
+      "19415723",
+      "34340673",
+      "1381244",
+      "17454190",
+      "11189520",
+      "3474042",
+      "37120350"
+    ],
+    "review": [
+      "33938069",
+      "35008193",
+      "28003275",
+      "27903530",
+      "29034503",
+      "19545391",
+      "30540863",
+      "24319172",
+      "19415723"
+    ],
+    "pmc": [
+      "8600946"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/33938069.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33938069/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33938069",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/gcc.22956",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33938069",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

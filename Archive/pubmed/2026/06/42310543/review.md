@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) and figure legends. Supplementary tables and figures referenced but not provided.
+- **Assessment boundary** Scientific soundness, technical rigor, support of claims by evidence, and suitability for a generalist journal audience. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors report a genome-wide identification of 114 CqNPF and 15 CqNRT2 genes in quinoa, functional validation of 14 transporters via yeast complementation, and evidence that CqNLP2.1/2.2 transcription factors bind the CqNRT2.2 promoter and activate its expression. Overexpression of CqNRT2.2 or CqNLP2.1 in Arabidopsis promotes root elongation. Molecular docking predicts nitrate binding by CqNLP2.1/2.2. A signaling model for nitrate and low-nitrogen perception in quinoa is proposed.
+- **Visible evidence base** Main text figures 1–9 (as described in legends), tables S1–S33 (referenced, not provided), RNA-seq data deposited at CNCB (accessions provided).
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S33) not provided; raw RNA-seq data not independently assessed; details of WGCNA parameters and module membership statistics not fully described; no data on endogenous quinoa mutant or silencing validation; no quantitative data for yeast growth complementation; no statistical details for docking scores.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive genomic inventory of NPF and NRT2 families in quinoa and identifies CqNRT2.2 as a candidate key player in nitrate uptake under low-nitrogen conditions. The combination of phylogenetics, expression profiling, yeast complementation, promoter-reporter assays, and heterologous overexpression in Arabidopsis is commendable in scope. However, the central claim that CqNLP2.1 regulates CqNRT2.2 in a nitrate-signaling pathway is only partially supported: the Y1H and dual-luciferase assays demonstrate binding and transactivation in heterologous systems, but the absence of loss-of-function or native-context validation in quinoa weakens the mechanistic conclusion. The molecular docking results are explicitly acknowledged by the authors as computational predictions, which is appropriate. The manuscript would benefit from clearer presentation of quantitative data, additional replication details, and tempering of the proposed model given the lack of direct in planta evidence in quinoa.
+- **Who would be interested in the results, and why** Researchers studying nitrate transport and signaling in non-model crops, particularly Amaranthaceae species; plant nutritionists interested in nitrogen-use efficiency in quinoa; comparative genomics groups working on NPF/NRT2 family evolution in polyploid plants. The gene inventory and expression data will serve as a useful community resource.
+- **Major strengths** 1) Genome-wide identification and phylogenetic classification of 114 CqNPF and 15 CqNRT2 genes provides a valuable resource. 2) Functional screening in yeast identifies 14 transporters with confirmed nitrate uptake capacity, a non-trivial experimental effort. 3) The combination of WGCNA, promoter-binding prediction, Y1H, and dual-luciferase assays provides convergent evidence for a CqNLP2.1–CqNRT2.2 regulatory link. 4) The authors appropriately flag computational predictions (docking) as requiring experimental validation. 5) The proposed model is clearly presented and will generate testable hypotheses.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for mechanistic claim
+  - **Claim pointer** "CqNLP2.1 is a key transcription factor in the NO₃⁻ signaling pathway" and "CqNLP2.1 directly regulates the expression of CqNRT2.2"
+  - **Evidence pointer** Figures 5, 6; Results section "CqNLP2.1 is a key transcription factor in the NO₃⁻ signaling pathway"
+  - **Concern** The claim of direct regulation rests on Y1H and dual-luciferase assays performed in heterologous systems (yeast and tobacco). While these are standard and acceptable first-line assays, they do not demonstrate that CqNLP2.1 regulates CqNRT2.2 in the native quinoa context. No data are presented from quinoa mutants, silencing lines, or even quinoa protoplasts/transient expression. The WGCNA correlation is descriptive and does not establish causality. The authors themselves note in the Discussion that "experimental validation is required," but the abstract and conclusions state the regulatory relationship more definitively.
+  - **Why it matters** The central mechanistic advance claimed by the manuscript is the identification of a transcription factor–target gene pair in the quinoa nitrate response. Without native-context validation, the claim remains a hypothesis supported by heterologous correlation data. This distinction is critical for a generalist readership.
+  - **Resolution test** Provide loss-of-function or knockdown data in quinoa (e.g., VIGS, CRISPR, or stable silencing) showing that reduced CqNLP2.1 expression leads to decreased CqNRT2.2 expression and reduced nitrate uptake. Alternatively, demonstrate CqNLP2.1 binding to the native CqNRT2.2 promoter in quinoa chromatin (ChIP-qPCR). At minimum, rephrase the abstract and conclusions to clearly state that the regulatory relationship is "predicted" or "supported in heterologous systems."
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative data and statistical reporting
+  - **Claim pointer** "Overexpression of either CqNRT2.2 or CqNLP2.1 in Arabidopsis significantly promoted primary root elongation" and "statistically significant differences observed between the wild-type and overexpression lines"
+  - **Evidence pointer** Figure 7; Results section "Overexpression of CqNRT2.2 and CqNLP2.1 in Arabidopsis enhances root growth under low NO₃⁻"
+  - **Concern** The manuscript states that root elongation was significantly promoted and that statistical significance was observed, but no quantitative data (mean values, effect sizes, error bars, p-values, or test statistics) are presented in the text or figure legends. Figure 7 shows images and bar charts, but the legends do not report sample sizes, number of independent experiments, or statistical methods. The reader cannot assess the robustness or magnitude of the reported effects.
+  - **Why it matters** Quantitative reporting is essential for evaluating the biological significance of the phenotype. A claim of "significant" root elongation without supporting statistics is not verifiable and does not meet reporting standards for a journal with broad readership.
+  - **Resolution test** Add a dedicated statistics subsection describing tests used, sample sizes, and replication. Include effect sizes and p-values in figure panels or legends. If the data are already in supplementary tables, reference them explicitly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional interpretation of yeast complementation
+  - **Claim pointer** "Heterologous complementation assays in the NO₃⁻-transporter-deficient yeast mutant Δynt confirmed that 11 CqNPF and 3 CqNRT2 transporters possess NO₃⁻ uptake capacity"
+  - **Evidence pointer** Figure 4; Results section "Molecular cloning of CqNPFs and CqNRT2s and heterologous complementation analysis"
+  - **Concern** The yeast complementation assay demonstrates growth restoration on nitrate as sole nitrogen source, which is a standard functional test. However, the assay does not distinguish between direct nitrate transport and indirect effects (e.g., nitrate reduction, signaling, or metabolic rescue). The authors acknowledge this limitation in the Discussion, but the Results section states the conclusion more strongly. Additionally, no kinetic parameters (Km, Vmax) or uptake assays with labeled nitrate are provided, which would strengthen the interpretation of transporter function.
+  - **Why it matters** The manuscript claims "NO₃⁻ uptake capacity" for 14 transporters. Growth complementation is suggestive but not definitive evidence of transport. For a generalist audience, the distinction between "growth rescue" and "direct transport" should be explicit.
+  - **Resolution test** Either add direct nitrate uptake measurements (e.g., ¹⁵N-labeled nitrate or electrophysiological assays) for at least the key transporter CqNRT2.2, or revise the language to "growth complementation consistent with nitrate uptake capacity."
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model overreach
+  - **Claim pointer** "CqNLP2.1 acts as a transcription factor in the quinoa NO₃⁻ signaling pathway, potentially regulating growth and development by modulating expression of the NO₃⁻-responsive gene CqNRT2.2" and the proposed signaling model in Figure 9
+  - **Evidence pointer** Figure 9; Discussion section "Putative signaling events for NO₃⁻ and low-nitrogen perception"
+  - **Concern** The proposed model in Figure 9 is described as "hypothetical" and "adapted and modified" from other species, which is appropriate. However, the model includes several components (e.g., calcium signaling, CPKs, CNGCs, NIGT1/HRS1/HHO1) for which the authors present only expression correlation data, not functional evidence in quinoa. The model risks being interpreted by readers as a validated pathway rather than a working hypothesis.
+  - **Why it matters** For a generalist journal, a clear distinction between established findings and speculative models is essential. The current presentation may overstate the level of support for the full pathway.
+  - **Resolution test** Clearly label Figure 9 as a "working model" in the figure itself, and in the text explicitly state which components are supported by direct evidence in quinoa versus inferred from other species.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** WGCNA parameters
+  - **Evidence pointer** Methods section "Predicting the upstream regulatory factors of CqNPFs and CqNRT2s"
+  - **Issue** The soft-thresholding power is stated as 8, but no justification is given for this choice, and the reader is not told how many samples were used for the WGCNA, whether all RNA-seq samples were included, or how the scale-free topology fit was assessed.
+  - **Required correction** Provide the number of samples, the range of soft-thresholding powers tested, and the scale-free topology fit index (e.g., R² value) for the chosen power.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Supplementary materials
+  - **Evidence pointer** Throughout; Supplementary Tables S1–S33
+  - **Issue** The manuscript references 33 supplementary tables and multiple supplementary figures, but these are not provided with the submission. The reader cannot verify the gene lists, module assignments, or primer sequences.
+  - **Required correction** Ensure all supplementary materials are included in the submission package, or provide a statement of availability with a repository link.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Gene nomenclature
+  - **Evidence pointer** Throughout
+  - **Issue** The manuscript uses "CqNRT2.2" and "CqNPF" nomenclature but does not state whether these follow standard conventions for Chenopodium quinoa gene naming. Some gene names appear with inconsistent formatting (e.g., italic vs. non-italic).
+  - **Required correction** Adopt consistent gene nomenclature throughout, and state the naming convention used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 4
+  - **Evidence pointer** Figure 4 legend
+  - **Issue** The yeast complementation assay is described as showing growth restoration, but the figure appears to show spot assays without quantitative growth curves. The legend does not specify the number of biological replicates or the dilution series used.
+  - **Required correction** Add a description of the dilution series, number of replicates, and whether the assay was repeated independently.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1 legend
+  - **Issue** The legend states n=14 for biomass and n=11 for root parameters, but the statistical test used is only described as "one-way ANOVA followed by Tukey's HSD." No information is given about whether data met ANOVA assumptions or whether transformations were applied.
+  - **Required correction** Add a brief description of data distribution checks and any transformations used.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Language precision
+  - **Affected element** Abstract and Conclusions
+  - **Evidence pointer** Abstract; Conclusions
+  - **Issue** The abstract states "CqNLP2.1 is predicted to regulate CqNRT2.2" but the Conclusions state "CqNLP2.1 in particular plays a potential role in regulating NO₃⁻ signaling." The shift from "predicted" to "plays a potential role" is subtle but could be read as increased confidence. The docking results are described as "potential but unconfirmed" in the Results, which is appropriate.
+  - **Required correction** Maintain consistent hedging language throughout, particularly in the abstract and conclusions, to match the level of evidence.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Reference accuracy
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 2
+  - **Issue** The statement "AtNRT1.1 also functions as a NO₃⁻ sensor" is attributed to reference [20], but the authors do not specify whether this refers to the transceptor function or the more recent nitrate sensor role. The distinction matters for the proposed model.
+  - **Required correction** Clarify the specific claim being referenced and ensure the citation supports it.
+- **Technical failings that need to be addressed before the case is established** 1) Absence of native-context validation for the CqNLP2.1–CqNRT2.2 regulatory relationship (R1-M1). 2) Lack of quantitative statistical reporting for the Arabidopsis overexpression phenotypes (R1-M2). 3) Incomplete methods details for WGCNA and yeast assays (R1-m1, R1-m4). 4) Supplementary data not provided for verification.
+
+## Risk / unsupported claims
+- The claim that CqNLP2.1 "directly regulates" CqNRT2.2 is not fully supported by the provided evidence; Y1H and dual-luciferase assays in heterologous systems are suggestive but not conclusive for the native quinoa context.
+- The claim that molecular docking "predicts" nitrate binding by CqNLP2.1/2.2 is appropriately hedged by the authors, but the functional significance of this predicted binding is entirely unexplored and should not be interpreted as evidence of nitrate sensing.
+- The proposed signaling model in Figure 9 includes multiple components (calcium signaling, CPKs, CNGCs, NIGT1/HRS1/HHO1) for which only correlative expression data are presented; these should be clearly labeled as speculative.
+- The statement that "CqNRT2.2 may also play a role in NO₃⁻ signaling" is speculative and not directly tested; the authors acknowledge this, but the abstract could be read as implying more support than exists.
+- The yeast complementation results are described as confirming "NO₃⁻ uptake capacity," but growth rescue alone does not exclude indirect mechanisms; direct transport assays are needed for definitive assignment of transport function.

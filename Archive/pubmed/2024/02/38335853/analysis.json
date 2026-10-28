@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38335853",
+  "title": "Feature engineering from meta-data for prediction of differentially expressed genes: An investigation of Mus musculus exposed to space-conditions.",
+  "authors": "Okwori, Michael; Eslami, Ali",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2024-02-10",
+  "window": {
+    "start": "2024-02-05",
+    "end": "2024-02-11"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用XGBoost预测小鼠在太空条件下的差异表达基因，虽涉及转录因子特征，但核心是基因表达预测而非蛋白质-DNA互作建模，且无AI/物理模拟的互作机制研究。",
+  "abstract": "Transcription profiling is a key process that can reveal those biological mechanisms driving the response to various exposure conditions or gene perturbations. In this work, we investigate the prediction of differentially expressed genes (DEGs) when exposed to conditions in space from a set of diverse engineered features. To do this, we collected DEGs and non-differentially expressed genes (NDEGs) of Mus musculus-based experiments on the GeneLab database. We engineered a diverse set of features from factors reported in the literature to affect gene expression. An extreme gradient boosting (XGBoost) model was trained to predict if a given gene would be differentially expressed at various levels of differential expression. The test results on a separate holdout dataset showed an area under the receiver operating characteristics curves (AUCs) of 0.90+/-0.07, averaged across the five selected percentages of the most and least differentially expressed genes. Subsequently, we investigated the impact of selection of features, both individually with a correlation-based feature-selection procedure and in groups with a combination procedure, on the prediction performance. The feature selection confirmed some known drivers of adaptation to radiation and highlighted some new transcription factors and micro RNAs (miRNAs). Finally, gene ontology (GO) analysis revealed biological processes that tend to have expression patterns most suitable for this approach. This work highlights the potential of detection of differentially expressed genes using a machine learning (ML) approach, and provides some evidence of gene expression changes being captured by a diverse feature set not related to the condition under study.",
+  "abstract_zh": "转录谱分析是一个关键过程，能够揭示驱动对各种暴露条件或基因扰动响应的生物机制。在本研究中，我们探讨了利用一组多样化的工程特征，预测在太空条件下暴露时差异表达基因（DEGs）的能力。为此，我们从GeneLab数据库中收集了基于小鼠（Mus musculus）实验的差异表达基因和非差异表达基因（NDEGs）。我们根据文献中报道的影响基因表达的因素，设计了一组多样化的特征。训练了一个极端梯度提升（XGBoost）模型，以预测给定基因在不同差异表达水平下是否会被差异表达。在独立保留数据集上的测试结果显示，接收者操作特征曲线下面积（AUCs）为0.90±0.07，该值是在选定的五个最差异表达和最不差异表达基因百分比上平均得到的。随后，我们研究了特征选择的影响，包括基于相关性的特征选择程序单独选择特征，以及组合程序分组选择特征，对预测性能的影响。特征选择确认了一些已知的辐射适应驱动因素，并突出了新的转录因子和微小RNA（miRNAs）。最后，基因本体论（GO）分析揭示了倾向于具有最适合此方法的表达模式的生物过程。这项工作凸显了使用机器学习（ML）方法检测差异表达基因的潜力，并提供了一些证据表明基因表达变化可被与所研究条件无关的多样化特征集捕获。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38335853/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38335853/",
+  "paper_page_path": "papers/pubmed/38335853/index.html"
+}

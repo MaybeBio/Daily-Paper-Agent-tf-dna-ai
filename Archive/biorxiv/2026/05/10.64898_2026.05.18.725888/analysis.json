@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.05.18.725888",
+  "title": "Deep Learning of High-throughput Transcription Factor–DNA Binding Affinity Data: Quantitative Comparison with Pairwise-Additive Models",
+  "authors": "Ke Shen; Zhi Wang; Xiaoliang Sunney Xie",
+  "journal": "bioRxiv",
+  "published_date": "2026-05-19",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 9,
+  "one_liner_zh": "该文利用高通量TF-DNA结合亲和力数据，系统比较深度学习与成对加和模型，揭示非加性效应及长程位置依赖，核心聚焦TF-DNA结合建模，方法为AI，高度匹配课题。",
+  "abstract": "Transcription factors (TFs) regulate gene expression by binding to specific DNA sequences. Widely used models of TF–DNA binding, such as position weight matrices (PWMs) and position-specific affinity matrices (PSAMs), assume binding free energy is the sum of independent base contributions. However, there is ample evidence that non-additive effects significantly influence TF binding. Here, we utilize data from a high-throughput in vitro assay ( ivt FOODIE) to generate genome-scale TF–DNA dissociation constants ( K d ) and systematically evaluate sequence-to-affinity models of increasing complexity. We demonstrate that pairwise additive models exhibit systematic deviations from the measured affinity landscapes. Models incorporating adjacent dinucleotide interactions and deep learning architectures achieve markedly improved agreement with experimental K d values. The magnitude of this non-pairwise-additivity depends strongly on the TF family. In silico mutation screening reveals widespread, TF-specific long-range interposition dependencies, highlighting the role of energetic coupling across distant positions in target recognition. These results provide a quantitative framework for comparing non-pairwise-additive energetic effects across diverse TFs.",
+  "abstract_zh": "转录因子（TFs）通过结合特定DNA序列来调控基因表达。广泛使用的TF-DNA结合模型，如位置权重矩阵（PWMs）和位置特异性亲和力矩阵（PSAMs），假设结合自由能是各独立碱基贡献之和。然而，有充分证据表明非加性效应显著影响TF结合。在此，我们利用高通量体外实验（ivt FOODIE）的数据生成基因组规模的TF-DNA解离常数（K d），并系统评估复杂度递增的序列-亲和力模型。我们证明，成对加性模型在测量的亲和力景观中表现出系统性偏差。纳入相邻二核苷酸相互作用和深度学习架构的模型与实验K d值的一致性显著提高。这种非成对加性的大小强烈依赖于TF家族。计算机模拟突变筛选揭示了广泛的、TF特异性的长程位置间依赖性，强调了远距离位置间能量耦合在靶标识别中的作用。这些结果为比较不同TF间的非成对加性效应提供了一个定量框架。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.05.18.725888",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.18.725888",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.05.18.725888/index.html"
+}

@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "41126368",
+    "doi": "10.1186/s40001-025-03270-3",
+    "title": "Bruceine D inhibits hepatocellular carcinoma by regulating the STAT3 signaling pathway through HSP70."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hepatocellular carcinoma (HCC) is a leading cause of cancer-related mortality worldwide, with limited effective therapies and poor prognosis. Although sorafenib and lenvatinib are approved for advanced HCC, their clinical efficacy is often compromised by drug resistance and adverse effects. Bruceine D (BD) has shown antitumor potential in several cancers, but its mechanisms in HCC remain poorly defined. METHODS: The effects of BD on HCC cell proliferation, apoptosis, and migration were assessed by MTT, colony formation, EdU incorporation, flow cytometry, wound healing, and transwell assays. Differentially expressed genes were identified by RNA sequencing and validated by RT-qPCR, with particular focus on Hsp70 family members. Protein expression and interactions were analyzed using Western blotting, co-immunoprecipitation (Co-IP), and Cellular Thermal Shift Assay (CETSA). Molecular docking was performed to predict BD binding sites on Hsp70. The antitumor efficacy and safety of BD were further evaluated in BALB/c nude mouse xenograft models. RESULTS: BD significantly inhibited HCC cell growth, induced apoptosis, and suppressed migration in a dose-dependent manner in vitro study. Transcriptomic profiling revealed downregulation of Hsp70 family members (HspA1A, HspA1B, HspA8), confirmed by RT-qPCR and Western blotting. Molecular docking suggested hydrogen bond interactions of BD with multiple residues in the Hsp70 domain. Co-IP assays demonstrated that Hsp70 binds STAT3, and BD disrupted this interaction, resulting in reduced STAT3 phosphorylation and suppression of downstream effectors (MCL-1, survivin). CETSA proved BD protected HSP70 at various temperature gradients in HCC cells. In vivo, BD markedly reduced tumor volume without affecting body weight or causing histopathological abnormalities in major organs. CONCLUSIONS: This study demonstrates that BD exerts potent antitumor effects against HCC by inhibiting proliferation, inducing apoptosis, and suppressing migration, primarily through disruption of the Hsp70/STAT3 signaling axis. With its favorable safety profile, BD represents a promising candidate for further development as a therapeutic agent in HCC.",
+    "keywords": [
+      "Bruceine D",
+      "Hepatocellular carcinoma",
+      "Hsp70",
+      "STAT3"
+    ],
+    "mesh_terms": [
+      "*Carcinoma, Hepatocellular/drug therapy/metabolism/pathology",
+      "*STAT3 Transcription Factor/metabolism",
+      "*Liver Neoplasms/drug therapy/metabolism/pathology",
+      "Humans",
+      "*HSP70 Heat-Shock Proteins/metabolism/genetics",
+      "Animals",
+      "Mice",
+      "Signal Transduction/drug effects",
+      "Cell Proliferation/drug effects",
+      "*Quassins/pharmacology/therapeutic use",
+      "Apoptosis/drug effects",
+      "Xenograft Model Antitumor Assays",
+      "Cell Movement/drug effects",
+      "Mice, Inbred BALB C",
+      "Mice, Nude",
+      "Cell Line, Tumor",
+      "Molecular Docking Simulation",
+      "Gene Expression Regulation, Neoplastic/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Pu",
+        "Xu, Qing",
+        "Wu, Shuling",
+        "Zhu, Fanyun",
+        "Zhou, Yi",
+        "Lin, Qingqing",
+        "Zhao, Min",
+        "Yang, Ju",
+        "Zhao, Haiyang",
+        "Zhou, Bin",
+        "Zhao, Chengguang"
+      ],
+      "short_names": [
+        "Chen P",
+        "Xu Q",
+        "Wu S",
+        "Zhu F",
+        "Zhou Y",
+        "Lin Q",
+        "Zhao M",
+        "Yang J",
+        "Zhao H",
+        "Zhou B",
+        "Zhao C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Affiliated Yueqing Hospital, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+        "The Affiliated Yueqing Hospital, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+        "Oncology Discipline Group, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, People's Republic of China.",
+        "School of Pharmaceutical Sciences, Wenzhou Medical University, Building 11, Chashan Street, University Town, Wenzhou, 325035, Zhejiang, People's Republic of China.",
+        "The Institute of Life Sciences, Wenzhou University, Wenzhou, 325035, Zhejiang, People's Republic of China.",
+        "The Affiliated Yueqing Hospital, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+        "Oncology Discipline Group, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, People's Republic of China.",
+        "School of Pharmaceutical Sciences, Wenzhou Medical University, Building 11, Chashan Street, University Town, Wenzhou, 325035, Zhejiang, People's Republic of China.",
+        "The Affiliated Yueqing Hospital, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+        "Oncology Discipline Group, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, People's Republic of China.",
+        "School of Pharmaceutical Sciences, Wenzhou Medical University, Building 11, Chashan Street, University Town, Wenzhou, 325035, Zhejiang, People's Republic of China.",
+        "The Affiliated Yueqing Hospital, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+        "Oncology Discipline Group, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, People's Republic of China.",
+        "School of Pharmaceutical Sciences, Wenzhou Medical University, Building 11, Chashan Street, University Town, Wenzhou, 325035, Zhejiang, People's Republic of China.",
+        "The Affiliated Yueqing Hospital, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+        "Oncology Discipline Group, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, People's Republic of China.",
+        "School of Pharmaceutical Sciences, Wenzhou Medical University, Building 11, Chashan Street, University Town, Wenzhou, 325035, Zhejiang, People's Republic of China.",
+        "Department of Nutrition, Affiliated Hospital of Jiangnan University, Wuxi, China.",
+        "The Institute of Life Sciences, Wenzhou University, Wenzhou, 325035, Zhejiang, People's Republic of China. haiyangwzu@163.com.",
+        "Oncology Discipline Group, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, People's Republic of China. pzhoubin@sina.com.",
+        "The Affiliated Yueqing Hospital, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China. zhaochengguang@wmu.edu.cn.",
+        "Oncology Discipline Group, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, People's Republic of China. zhaochengguang@wmu.edu.cn.",
+        "School of Pharmaceutical Sciences, Wenzhou Medical University, Building 11, Chashan Street, University Town, Wenzhou, 325035, Zhejiang, People's Republic of China. zhaochengguang@wmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Pu",
+        "short_name": "Chen P",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Yueqing Hospital, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Qing",
+        "short_name": "Xu Q",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Yueqing Hospital, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+          "Oncology Discipline Group, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, People's Republic of China.",
+          "School of Pharmaceutical Sciences, Wenzhou Medical University, Building 11, Chashan Street, University Town, Wenzhou, 325035, Zhejiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wu, Shuling",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "The Institute of Life Sciences, Wenzhou University, Wenzhou, 325035, Zhejiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Fanyun",
+        "short_name": "Zhu F",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Yueqing Hospital, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+          "Oncology Discipline Group, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, People's Republic of China.",
+          "School of Pharmaceutical Sciences, Wenzhou Medical University, Building 11, Chashan Street, University Town, Wenzhou, 325035, Zhejiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yi",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Yueqing Hospital, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+          "Oncology Discipline Group, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, People's Republic of China.",
+          "School of Pharmaceutical Sciences, Wenzhou Medical University, Building 11, Chashan Street, University Town, Wenzhou, 325035, Zhejiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lin, Qingqing",
+        "short_name": "Lin Q",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Yueqing Hospital, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+          "Oncology Discipline Group, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, People's Republic of China.",
+          "School of Pharmaceutical Sciences, Wenzhou Medical University, Building 11, Chashan Street, University Town, Wenzhou, 325035, Zhejiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Min",
+        "short_name": "Zhao M",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Yueqing Hospital, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China.",
+          "Oncology Discipline Group, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, People's Republic of China.",
+          "School of Pharmaceutical Sciences, Wenzhou Medical University, Building 11, Chashan Street, University Town, Wenzhou, 325035, Zhejiang, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yang, Ju",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nutrition, Affiliated Hospital of Jiangnan University, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Haiyang",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "The Institute of Life Sciences, Wenzhou University, Wenzhou, 325035, Zhejiang, People's Republic of China. haiyangwzu@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhou, Bin",
+        "short_name": "Zhou B",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Discipline Group, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, People's Republic of China. pzhoubin@sina.com."
+        ]
+      },
+      {
+        "full_name": "Zhao, Chengguang",
+        "short_name": "Zhao C",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Yueqing Hospital, Wenzhou Medical University, Wenzhou, 325000, Zhejiang, China. zhaochengguang@wmu.edu.cn.",
+          "Oncology Discipline Group, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University, Wenzhou, 325000, Zhejiang, People's Republic of China. zhaochengguang@wmu.edu.cn.",
+          "School of Pharmaceutical Sciences, Wenzhou Medical University, Building 11, Chashan Street, University Town, Wenzhou, 325035, Zhejiang, People's Republic of China. zhaochengguang@wmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2025 Oct 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/23 06:28",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [
+      "42684554",
+      "42449433"
+    ],
+    "refs": [
+      "40714073",
+      "39986353",
+      "39915447",
+      "37271476",
+      "35215292",
+      "34900531",
+      "33390953",
+      "33217831",
+      "33133685",
+      "33122847",
+      "33005803",
+      "32733808",
+      "32532960",
+      "32133645",
+      "32071301",
+      "31638181",
+      "31631559",
+      "31226632",
+      "30031797",
+      "30021391",
+      "29628281",
+      "29501325",
+      "29343244",
+      "28645563",
+      "28454219",
+      "28050192",
+      "27916795",
+      "26494212",
+      "25342631",
+      "24530415",
+      "24516705",
+      "22960394",
+      "22591702",
+      "22353262",
+      "20300187",
+      "20093776",
+      "19286308",
+      "17345125",
+      "15741319",
+      "10592173",
+      "8098537"
+    ],
+    "similar": [
+      "41126368",
+      "30553869",
+      "41460538",
+      "28645563",
+      "31072375",
+      "21513518",
+      "41293954",
+      "38609562",
+      "38873890",
+      "39014520",
+      "38243928",
+      "23828071",
+      "38901205",
+      "38372878",
+      "40615101",
+      "38837427",
+      "39023830",
+      "27259268",
+      "38743191",
+      "40595780",
+      "31980595",
+      "41198556",
+      "40412057",
+      "40222446",
+      "30648776",
+      "31631559",
+      "40702694",
+      "24418169",
+      "40593127",
+      "32486841",
+      "34338398",
+      "39302935",
+      "41130376",
+      "32407961",
+      "39427522",
+      "33176070",
+      "22180308",
+      "41299678",
+      "40714073",
+      "30370582",
+      "39672234",
+      "32993568",
+      "23848338",
+      "32123532",
+      "25322871",
+      "30585547",
+      "40615733",
+      "41172918",
+      "40239884",
+      "31085375",
+      "39121898",
+      "23613111",
+      "40240166",
+      "34176092",
+      "28423613",
+      "22559167",
+      "28284560",
+      "39862789",
+      "40466508",
+      "32187962",
+      "38862254",
+      "19137011",
+      "39348778",
+      "30918019",
+      "41014833",
+      "32741371",
+      "22978563",
+      "39326134",
+      "39844408",
+      "33332531",
+      "39848416",
+      "32575795",
+      "38948063",
+      "25320076",
+      "39675549",
+      "39510424",
+      "39674355",
+      "25883212",
+      "40086489",
+      "40227531",
+      "40311593",
+      "31431619",
+      "39763282",
+      "41318154",
+      "34801560",
+      "31478228",
+      "32057900",
+      "41186842",
+      "33974236",
+      "40240708",
+      "41424411",
+      "40424981",
+      "39910429",
+      "29253760",
+      "40362400",
+      "39032475",
+      "31151472",
+      "32004989",
+      "41019041",
+      "24535538"
+    ],
+    "review": [
+      "41126368"
+    ],
+    "pmc": [
+      "12542169"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-025-03270-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41126368/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3713",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

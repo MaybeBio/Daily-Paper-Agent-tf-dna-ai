@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "40969532",
+    "doi": "10.48130/forres-0025-0014",
+    "title": "Gene regulatory network prediction using machine learning, deep learning, and hybrid approaches."
+  },
+  "content": {
+    "abstract": "Construction of gene regulatory networks (GRNs) is essential for elucidating the regulatory mechanisms underlying metabolic pathways, biological processes, and complex traits. In this study, we developed and evaluated machine learning, deep learning, and hybrid approaches for constructing GRNs by integrating prior knowledge and large-scale transcriptomic data from Arabidopsis thaliana, poplar, and maize. Among these, hybrid models that combined convolutional neural networks and machine learning consistently outperformed traditional machine learning and statistical methods, achieving over 95% accuracy on the holdout test datasets. These models not only identified a greater number of known transcription factors regulating the lignin biosynthesis pathway but also demonstrated higher precision in ranking key master regulators such as MYB46 and MYB83, as well as many upstream regulators, including members of the VND, NST, and SND families, at the top of candidate lists. To address the challenge of limited training data in non-model species, we implemented transfer learning, enabling cross-species GRN inference by applying models trained on well-characterized and data-rich species to another species with limited data. This strategy enhanced model performance and demonstrated the feasibility of knowledge transfer across species. Overall, our findings underscore the effectiveness of hybrid and transfer learning approaches in GRN prediction, offering a scalable framework for elucidating regulatory mechanisms in both model and non-model plant systems.",
+    "keywords": [
+      "Convolutional neural network",
+      "Deep learning",
+      "Gene regulatory network",
+      "Machine learning",
+      "Transfer learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mummadi, Sai Teja",
+        "Islam, Md Khairul",
+        "Busov, Victor",
+        "Wei, Hairong"
+      ],
+      "short_names": [
+        "Mummadi ST",
+        "Islam MK",
+        "Busov V",
+        "Wei H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3551-4998"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Michigan Technological University, Houghton, MI, USA.",
+        "Computational Science and Engineering, Michigan Technological University, Houghton, MI, USA.",
+        "College of Forest Resources and Environmental Science, Michigan Technological University, Houghton, MI, USA.",
+        "Department of Computer Science, Michigan Technological University, Houghton, MI, USA.",
+        "Computational Science and Engineering, Michigan Technological University, Houghton, MI, USA.",
+        "College of Forest Resources and Environmental Science, Michigan Technological University, Houghton, MI, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mummadi, Sai Teja",
+        "short_name": "Mummadi ST",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Michigan Technological University, Houghton, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Islam, Md Khairul",
+        "short_name": "Islam MK",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Science and Engineering, Michigan Technological University, Houghton, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Busov, Victor",
+        "short_name": "Busov V",
+        "identifiers": [],
+        "affiliations": [
+          "College of Forest Resources and Environmental Science, Michigan Technological University, Houghton, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Wei, Hairong",
+        "short_name": "Wei H",
+        "identifiers": [
+          "0000-0002-3551-4998"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Michigan Technological University, Houghton, MI, USA.",
+          "Computational Science and Engineering, Michigan Technological University, Houghton, MI, USA.",
+          "College of Forest Resources and Environmental Science, Michigan Technological University, Houghton, MI, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Forestry research"
+    ],
+    "journal_abbrev": [
+      "For Res (Fayettev)"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/19 06:33",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [
+      "42514552",
+      "42196168"
+    ],
+    "refs": [
+      "40160891",
+      "40155655",
+      "39794374",
+      "39716023",
+      "39525415",
+      "39266676",
+      "38344650",
+      "38305455",
+      "37711605",
+      "37258680",
+      "34499112",
+      "34138872",
+      "33816921",
+      "33344884",
+      "32474603",
+      "32324217",
+      "30547401",
+      "30452523",
+      "30405137",
+      "29718177",
+      "29186304",
+      "28726847",
+      "28250767",
+      "28166718",
+      "28158291",
+      "27474269",
+      "27473064",
+      "26993098",
+      "26873929",
+      "26301843",
+      "26213851",
+      "25732536",
+      "25533953",
+      "25433465",
+      "25148240",
+      "24817823",
+      "24695404",
+      "23226279",
+      "23173819",
+      "23104886",
+      "22236040",
+      "22197883",
+      "21883551",
+      "21496241",
+      "21284754",
+      "21227733",
+      "21135241",
+      "21062823",
+      "21059685",
+      "20952636",
+      "20927193",
+      "20676068",
+      "20110278",
+      "19910308",
+      "17703195",
+      "17558387",
+      "17329564",
+      "17237351",
+      "17214507",
+      "16723010",
+      "14503002",
+      "11751219",
+      "1925541"
+    ],
+    "similar": [
+      "40969532",
+      "29879919",
+      "37085776",
+      "30547796",
+      "40098114",
+      "35062026",
+      "40365911",
+      "38652750",
+      "40966655",
+      "30555503",
+      "28066488",
+      "41000795",
+      "37038446",
+      "37726702",
+      "39975293",
+      "41310253",
+      "40662821",
+      "35168083",
+      "40251476",
+      "38950180",
+      "41300707",
+      "39605181",
+      "35692809",
+      "41498638",
+      "24984711",
+      "38980373",
+      "30891794",
+      "38751121",
+      "40654959",
+      "40183298",
+      "37897702",
+      "33817013",
+      "40046767",
+      "38250147",
+      "37788349",
+      "23046216",
+      "40137139",
+      "27479082",
+      "41267133",
+      "37985457",
+      "40808255",
+      "40883359",
+      "40708222",
+      "29404850",
+      "41206950",
+      "34991439",
+      "38354497",
+      "38996550",
+      "40952788",
+      "40400111",
+      "41288963",
+      "40411397",
+      "38048895",
+      "40133868",
+      "40062616",
+      "39137088",
+      "28245811",
+      "39967188",
+      "36430386",
+      "40411144",
+      "30041500",
+      "40607808",
+      "34962963",
+      "30026067",
+      "39228157",
+      "39622169",
+      "36585783",
+      "40440642",
+      "31660848",
+      "40520474",
+      "28254085",
+      "40770344",
+      "41257586",
+      "41238423",
+      "39753024",
+      "41021995",
+      "33668664",
+      "38913855",
+      "32449176",
+      "32207875",
+      "41067887",
+      "41317402",
+      "41452880",
+      "36450117",
+      "40274878",
+      "41161262",
+      "34500139",
+      "40956752",
+      "19808805",
+      "40849575",
+      "41283681",
+      "35526094",
+      "33294129",
+      "37530887",
+      "39800837",
+      "37387156",
+      "40972407",
+      "37928448",
+      "22197883",
+      "41345436"
+    ],
+    "review": [
+      "40969532",
+      "40966655",
+      "30555503",
+      "24984711",
+      "39137088",
+      "39228157",
+      "40440642"
+    ],
+    "pmc": [
+      "12441907"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40969532/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

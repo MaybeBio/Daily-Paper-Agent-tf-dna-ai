@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36070863",
+  "title": "Boosting single-cell gene regulatory network reconstruction via bulk-cell transcriptomic data.",
+  "authors": "Shu, Hantao; Ding, Fan; Zhou, Jingtian; Xue, Yexiang; Zhao, Dan; Zeng, Jianyang; Ma, Jianzhu",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2022-09-08",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用轴向Transformer整合bulk和单细胞转录组数据重建基因调控网络，虽涉及转录因子调控关系预测，但缺乏三维结构或物理模拟的蛋白质-DNA互作建模，属于广义GRN推断，方法可迁移但非直接聚焦TF-DNA结合机制。",
+  "abstract": "Computational recovery of gene regulatory network (GRN) has recently undergone a great shift from bulk-cell towards designing algorithms targeting single-cell data. In this work, we investigate whether the widely available bulk-cell data could be leveraged to assist the GRN predictions for single cells. We infer cell-type-specific GRNs from both the single-cell RNA sequencing data and the generic GRN derived from the bulk cells by constructing a weakly supervised learning framework based on the axial transformer. We verify our assumption that the bulk-cell transcriptomic data are a valuable resource, which could improve the prediction of single-cell GRN by conducting extensive experiments. Our GRN-transformer achieves the state-of-the-art prediction accuracy in comparison to existing supervised and unsupervised approaches. In addition, we show that our method can identify important transcription factors and potential regulations for Alzheimer's disease risk genes by using the predicted GRN. Availability: The implementation of GRN-transformer is available at https://github.com/HantaoShu/GRN-Transformer.",
+  "abstract_zh": "基因调控网络（GRN）的计算恢复近期已从面向批量细胞的研究方向，显著转向设计针对单细胞数据的算法。在本研究中，我们探讨了广泛可用的批量细胞数据是否能够被利用来辅助单细胞的GRN预测。我们通过构建基于轴向变换器的弱监督学习框架，从单细胞RNA测序数据和源自批量细胞的通用GRN中推断出细胞类型特异性的GRN。我们通过进行大量实验，验证了我们的假设，即批量细胞转录组数据是一种有价值的资源，能够改善单细胞GRN的预测。与现有的监督和无监督方法相比，我们的GRN-transformer实现了最先进的预测准确性。此外，我们展示了我们的方法能够利用预测的GRN识别阿尔茨海默病风险基因的重要转录因子和潜在调控关系。可用性：GRN-transformer的实现可在https://github.com/HantaoShu/GRN-Transformer获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36070863/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36070863/",
+  "paper_page_path": "papers/pubmed/36070863/index.html"
+}

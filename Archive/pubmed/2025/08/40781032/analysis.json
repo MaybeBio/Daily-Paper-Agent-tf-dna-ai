@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40781032",
+  "title": "Integrative scATAC-seq and mtDNA mutation analysis reveals disease-driven regulatory aberrations in AML.",
+  "authors": "Tian, Chen; Dong, Yijun; Sun, Xin; Xu, Longchen; Ma, Xiaoli; Tao, Yuwei; Wang, Fang; Zhang, Haohang; Li, Jie; Li, Kun; Chen, Yasong; Liu, Hongxing; Lan, Xun",
+  "journal": "Science bulletin",
+  "published_date": "2025-08-09",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用mtscATAC-seq和cisGRN算法分析AML中染色质可及性与转录调控异常，涉及TF（WT1、CEBPB）与DNA调控元件结合，但核心是表观组学与GRN分析，非TF-DNA互作建模或AI/物理模拟方法。",
+  "abstract": "Disturbances in transcriptional regulation during hematopoiesis can lead to aberrant hematopoietic differentiation and potential leukemogenesis. Given the high relapse risk of acute myeloid leukemia (AML), understanding its progression mechanisms and identifying prognostic biomarkers are crucial for improving treatment outcomes. Here, we applied a mitochondrial single-cell assay for transposase-accessible chromatin with sequencing mitochondria single-cell ATAC-seq (mtscATAC-seq), supplemented with single-cell RNA-seq, to comprehensively characterize AML cells. By constructing a single-cell hematopoiesis reference and mapping tumor cells to it, we identified significant alterations in chromatin accessibility of cis-regulatory elements (CREs) associated with AML differentiation. Using an in-house developed algorithm, cisGRN, we analyzed CRE dynamics and discovered that mutations in the zinc finger domain of WT1 are associated with decreased chromatin accessibility and hypermethylation at the regulatory regions of their target genes, leading to gene downregulation. Functional validation confirmed the pathogenic effects of five WT1 zinc finger mutations: R467Q, R467L, R467W, H470Y, and H470R. Additionally, we identified a CRE mutation that emerges early in hematopoiesis, introducing a new binding motif for CCAAT enhancer binding protein beta (CEBPB), which facilitates its binding to the enhancer, activating enhancer activity and GATA binding protein 4 (GATA4) expression, thereby promoting AML proliferation. These effects were validated through luciferase reporter assays and prime editing experiments. Using mitochondria DNA tracing and machine learning modeling, we identified relapse-associated clones resembling leukemia stem cells (LSCs) and uncovered marker genes in the clones that more accurately predict drug resistance and relapse risk. Collectively, our findings underscore the utility of combining mtscATAC-seq, lineage tracing, and gene regulatory network (GRN) analysis to uncover aberrant regulatory changes and track relapse-prone AML clones.",
+  "abstract_zh": "造血过程中转录调控的紊乱可导致异常造血分化及潜在的白血病发生。鉴于急性髓系白血病（AML）的高复发风险，理解其进展机制并识别预后生物标志物对于改善治疗结局至关重要。在此，我们应用线粒体单细胞转座酶可及染色质测序（mtscATAC-seq），并辅以单细胞RNA测序，全面表征AML细胞。通过构建单细胞造血参考图谱并将肿瘤细胞映射至其上，我们识别出与AML分化相关的顺式调控元件（CREs）染色质可及性的显著改变。利用我们内部开发的算法cisGRN，我们分析了CRE动态变化，并发现WT1锌指结构域突变与其靶基因调控区域的染色质可及性降低及高甲基化相关，导致基因下调。功能验证确认了五种WT1锌指突变（R467Q、R467L、R467W、H470Y和H470R）的致病效应。此外，我们识别出一个在造血早期出现的CRE突变，该突变引入了CCAAT增强子结合蛋白β（CEBPB）的新结合基序，促进其与增强子结合，激活增强子活性及GATA结合蛋白4（GATA4）表达，从而促进AML增殖。这些效应通过荧光素酶报告基因实验和引物编辑实验得到验证。利用线粒体DNA追踪和机器学习建模，我们识别出类似白血病干细胞（LSCs）的复发相关克隆，并揭示了克隆中能更准确预测耐药性和复发风险的标记基因。总体而言，我们的发现强调了结合mtscATAC-seq、谱系追踪和基因调控网络（GRN）分析在揭示异常调控变化及追踪易复发AML克隆中的实用性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40781032/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40781032/",
+  "paper_page_path": "papers/pubmed/40781032/index.html"
+}

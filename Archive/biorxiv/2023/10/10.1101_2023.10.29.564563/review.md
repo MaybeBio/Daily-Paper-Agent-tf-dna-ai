@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, methods, and figure legends as provided
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose that dense linear arrays of the telomeric protein Rap1 can physically stall DNA loop extrusion by condensin, with efficiency dependent on array density, length, and DNA tension. They support this with in vitro single-molecule assays and in vivo experiments showing condensin accumulation at array borders, local chromatin decompaction, and effects on dicentric chromosome breakage.
+- **Visible evidence base** In vitro single-molecule loop extrusion assays with purified Rap1 and condensin; ChIP experiments for condensin localization; microscopy-based chromatin decompaction measurements; MicroC contact frequency analysis; dicentric chromosome breakage assays; AFM imaging of Rap1 arrays
+- **Missing materials affecting confidence** Raw data files, full statistical analysis details, exact sample sizes for some experiments, control experiments for specificity of Rap1 binding in vivo, detailed analysis parameters for MicroC data, and complete figure panels referenced but not fully described in text
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question in chromosome biology: how SMC complexes interact with densely protein-coated DNA regions such as telomeres. The combination of in vitro single-molecule assays and in vivo experiments is commendable and provides strong evidence that dense protein arrays can stall condensin-driven loop extrusion. The finding that physical density, rather than specific protein-protein interactions, underlies the stalling is novel and has broad implications. However, several technical concerns regarding the interpretation of the in vitro data, the quantitative analysis of stalling efficiency, and the causal link between in vitro stalling and in vivo phenotypes need to be addressed before the conclusions are fully established.
+- **Who would be interested in the results, and why** Researchers studying SMC complexes, loop extrusion, chromosome organization, telomere biology, and genome stability. The work is also relevant to biophysicists interested in protein-DNA interactions and polymer physics. The finding that dense protein arrays can act as physical barriers to loop extrusion has implications for understanding how chromatin structure is regulated at telomeres, highly transcribed genes, and DNA repair sites.
+- **Major strengths** 1) The study combines complementary in vivo and in vitro approaches, providing multiple lines of evidence for the central claim. 2) The single-molecule assays are well-designed and provide direct visualization of condensin encountering Rap1 arrays. 3) The systematic variation of array density, length, and DNA tension provides mechanistic insight into the stalling process. 4) The demonstration that physical density, rather than specific interactions, underlies stalling is a conceptually important finding. 5) The in vivo experiments connect the in vitro observations to functional consequences in cells.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation
+  - **Claim pointer** The authors claim that "dense linear Rap1 arrays can completely halt DNA loop extrusion" with "near-100% efficiency" based on their in vitro single-molecule assays.
+  - **Evidence pointer** Figure 2F, Figure 3A-B, Results section "High-density Rap1 arrays stall loop extrusion in vitro"
+  - **Concern** The reported stalling efficiency of 83 ± 8% for the 16x Rap1 array with 6-bp gaps is described as "near-100%", but the data show that approximately 17% of encounters result in passing events. The authors do not provide a clear explanation for why some condensin complexes can bypass the array. Additionally, the definition of "stalling" relies on a threshold in the moving MSD, and the sensitivity of the results to this threshold is not discussed. The claim of "complete" stalling is therefore overstated.
+  - **Why it matters** The distinction between 83% and 100% stalling is mechanistically important. If a significant fraction of condensin complexes can pass the array, the barrier is not absolute, and the mechanism may involve probabilistic bypass rather than a hard block. This affects the interpretation of how telomeres are protected from loop extrusion in vivo.
+  - **Resolution test** The authors should provide a more detailed analysis of the stalling events, including the distribution of stalling times and the fraction of events that eventually pass. They should also test whether the stalling efficiency depends on the direction of approach or the position of the array relative to the condensin loading site. A clearer statement of the uncertainty in the stalling efficiency and its dependence on the analysis threshold is required.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design
+  - **Claim pointer** The authors claim that "Rap1 arrays in the chromosome are found to act as contact insulators and to accumulate condensin at their borders" based on ChIP and MicroC experiments.
+  - **Evidence pointer** Figure 1C, Figure 4A-B, Results section "Condensin is enriched at the border of Rap1 arrays" and "Condensin stalling at dense Rap1 arrays induces local chromatin decompaction in anaphase"
+  - **Concern** The in vivo experiments rely on engineered arrays inserted at specific genomic locations. The authors do not provide sufficient evidence that these arrays are fully saturated with Rap1 in vivo, nor do they rule out the possibility that the observed effects are due to changes in chromatin structure caused by the insertion itself rather than by Rap1 binding. The comparison between dense and sparse arrays is informative, but the lack of a control with a non-Rap1-binding protein array of similar density weakens the conclusion that the effect is specifically due to protein density.
+  - **Why it matters** The in vivo experiments are critical for establishing the physiological relevance of the in vitro findings. If the arrays are not fully occupied by Rap1, or if the insertion itself perturbs chromatin, the interpretation of the results as evidence for Rap1-mediated stalling is compromised.
+  - **Resolution test** The authors should include a control experiment with an array of a DNA-binding protein that does not bind telomeric sequences, or with a mutated array that cannot bind Rap1, to demonstrate that the observed effects are specifically due to Rap1 binding. They should also provide evidence for the occupancy of the arrays by Rap1 in vivo, for example by ChIP-qPCR.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative analysis
+  - **Claim pointer** The authors claim that "stalling is modulated by DNA tension" and that "the blocking efficiency exhibits a more pronounced effect of the DNA tension at higher array lengths."
+  - **Evidence pointer** Figure 3A-B, Results section "Stalling of loop extrusion depends on array density, array length, and DNA tension"
+  - **Concern** The quantitative relationship between DNA tension and stalling efficiency is not fully characterized. The authors report data for a range of forces (0-0.2 pN), but the number of independent measurements at each force is not stated, and the statistical significance of the differences between force conditions is not reported. The claim of a "more pronounced effect" at higher array lengths is based on visual inspection of the data rather than a formal statistical test.
+  - **Why it matters** The tension dependence is a key mechanistic feature of the stalling process. Without proper statistical analysis, it is difficult to assess the robustness of this finding and to compare it with theoretical predictions.
+  - **Resolution test** The authors should provide the number of independent measurements for each condition and perform a formal statistical test (e.g., ANOVA or regression analysis) to assess the significance of the tension and array length effects. They should also consider fitting the data to a physical model to extract quantitative parameters.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors propose that "the blocking efficiency depends on the array length and the DNA gap size between neighboring proteins" and that "small intra-array gaps sharply decrease the blocking."
+  - **Evidence pointer** Figure 3A-B, Results section "Stalling of loop extrusion depends on array density, array length, and DNA tension"
+  - **Concern** The mechanistic interpretation of the gap-size dependence is not fully developed. The authors suggest that the stalling is due to a physical block, but they do not provide a quantitative model that explains why a 6-bp gap is sufficient to block condensin while a 35-bp gap allows passage. The potential role of DNA bending stiffness, as suggested by the AFM data, is mentioned but not integrated into a coherent model.
+  - **Why it matters** A quantitative understanding of the gap-size dependence would strengthen the claim that the stalling is due to a physical mechanism and would allow predictions for other protein arrays. Without such a model, the interpretation remains largely descriptive.
+  - **Resolution test** The authors should develop a quantitative model that relates the stalling efficiency to the array geometry (gap size, array length) and the mechanical properties of DNA. They could test this model by varying the gap size more systematically and by comparing the predictions with the experimental data.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that "dense linear Rap1 arrays can completely halt DNA loop extrusion" but the data show 83% stalling efficiency, not 100%. This overstatement could mislead readers.
+  - **Required correction** Revise the abstract to state that dense arrays "efficiently stall" or "largely halt" loop extrusion, with the specific efficiency reported in the results.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 2F
+  - **Evidence pointer** Figure 2F
+  - **Issue** The error bars and statistical significance for the stalling efficiency comparisons are not described in the text or figure legend.
+  - **Required correction** Add a description of the statistical tests used and the number of independent experiments in the figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Methods section "Single-molecule-visualization assay"
+  - **Evidence pointer** Methods section
+  - **Issue** The method for determining the stalling efficiency from kymographs is described, but the criteria for distinguishing stalling from passing events are not fully specified. The threshold for the moving MSD is not defined.
+  - **Required correction** Provide a more detailed description of the analysis pipeline, including the exact criteria for stalling and passing events, and the sensitivity of the results to these criteria.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 3C-E
+  - **Evidence pointer** Figure 3C-E
+  - **Issue** The AFM data are presented as representative images and summary statistics, but the number of molecules analyzed and the variability between experiments are not reported.
+  - **Required correction** Add the number of molecules analyzed and the standard deviation or confidence intervals to the figure or legend.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The authors speculate that the stalling mechanism may apply to other protein arrays, such as nucleosomes, but they do not provide experimental evidence or a detailed argument for this generalization.
+  - **Required correction** Either provide additional evidence or clearly state that this is a speculative hypothesis that remains to be tested.
+
+## Risk / unsupported claims
+- The claim that dense Rap1 arrays "completely halt" loop extrusion is not supported by the data, which show 83% stalling efficiency.
+- The claim that Rap1 arrays act as "contact insulators" in vivo is supported by the MicroC data, but the causal link between stalling and insulation is inferred rather than directly demonstrated.
+- The claim that the stalling mechanism is purely physical and does not involve specific protein-protein interactions is supported by the LacI experiments, but the possibility of weak non-specific interactions between condensin and Rap1 cannot be fully excluded.
+- The generalization of the findings to other SMC complexes and protein arrays is speculative and not directly tested.
+- The quantitative relationship between DNA tension and stalling efficiency is not rigorously established due to the lack of statistical analysis.
+- The in vivo relevance of the in vitro stalling efficiency is not directly demonstrated; the authors do not measure the fraction of condensin complexes that are stalled at native telomeres in cells.
+
+## Assessment against Nature-style criteria
+- **Originality** The manuscript presents a novel finding: that dense linear protein arrays can physically stall DNA loop extrusion by condensin. While previous work has examined the interaction of SMC complexes with individual roadblocks, the systematic study of protein arrays is new and provides a unique perspective on how chromatin structure is regulated at telomeres. The combination of in vitro and in vivo approaches is innovative and strengthens the conclusions.
+- **Scientific importance** The findings have broad implications for understanding chromosome organization, telomere biology, and genome stability. The demonstration that protein density, rather than specific interactions, can control loop extrusion is conceptually important and may apply to other contexts, such as transcription and DNA repair. The work also provides a mechanistic explanation for the preferential breakage of dicentric chromosomes at telomere fusions.
+- **Interdisciplinary readership** The work will appeal to researchers in chromosome biology, biophysics, and genomics. The single-molecule assays and AFM imaging are technically sophisticated and will be of interest to biophysicists. The in vivo experiments connect the biophysical findings to cellular processes, making the work relevant to cell biologists and geneticists.
+- **Technical soundness** The experimental approaches are generally well-executed, and the combination of methods provides strong support for the main conclusions. However, there are some concerns about the quantitative analysis of stalling efficiency, the lack of statistical rigor in some comparisons, and the absence of controls for the in vivo experiments. These issues need to be addressed to fully establish the case.
+- **Readability for nonspecialists** The manuscript is generally well-written and accessible, with clear explanations of the experimental approaches and their significance. The figures are informative, and the main conclusions are clearly stated. However, some sections, particularly the methods, are dense and may be challenging for nonspecialists. The abstract could be improved by avoiding overstatement of the results.
+
+## Recommendation posture
+Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a novel finding with broad implications. The combination of in vitro and in vivo approaches is a major strength. However, the overstatement of the stalling efficiency, the lack of statistical rigor in some analyses, and the need for additional controls in the in vivo experiments prevent the case from being fully established at this stage. If these concerns are addressed, the manuscript would be suitable for publication in a high-impact journal.

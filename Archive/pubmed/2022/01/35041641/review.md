@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, materials and methods) as provided
+- **Assessment boundary** Scientific claims, methodology, and interpretation as presented in the supplied text; no external data or supplementary files were available for verification
+- **Shared manuscript claim summary** The authors use stochastic simulations to show that in the single-input module motif, the mean first-passage time (MFPT) to reach 50% of steady-state expression for an auto-regulated TF gene and its target gene can be tuned over orders of magnitude by varying TF binding affinity and the number of competing decoy binding sites. They report non-monotonic dependencies, power-law scaling for auto-activation, and distinct noise characteristics depending on the regulatory mode. They argue these effects occur at intermediate parameter values and are robust across prokaryotic and eukaryotic parameter regimes.
+- **Visible evidence base** Main text figures referenced (Fig 1, 2, 3, 4, 5, 6) and equations in Materials and methods; supplementary figures and texts (S1–S5, S7, S8) are mentioned but not provided
+- **Missing materials affecting confidence** Supplementary figures and texts (S1–S5, S7, S8), figure files themselves, parameter tables, and simulation code were not included in the supplied material. This limits verification of quantitative claims and robustness analyses.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in gene regulatory dynamics: how regulatory architecture, specifically binding affinity and network size, controls the timing of gene expression. The use of MFPT as a single-cell measure is appropriate and well motivated. The finding that intermediate parameter values produce extreme response times is interesting and potentially useful for synthetic biology. However, the manuscript has several weaknesses. The analytical treatment is incomplete, the power-law claims lack mechanistic explanation, and the generality of the results to eukaryotic systems is asserted but not convincingly demonstrated from the provided text. The noise analysis is descriptive and lacks a clear link to known stochastic gene expression results. The discussion of biological relevance is speculative and would benefit from concrete examples or experimental predictions. Overall, the core simulation results appear sound, but the manuscript would be strengthened by deeper analysis and clearer presentation of the mechanisms at play.
+- **Who would be interested in the results, and why** Researchers in gene regulatory networks, stochastic gene expression, and synthetic biology would be interested. The results provide design principles for tuning response times in genetic circuits, which is directly relevant for synthetic gene circuit design. The finding that decoy binding sites can dramatically slow or speed responses has implications for understanding natural regulatory networks where decoy sites are common. The noise analysis adds to the understanding of how regulatory architecture affects cell-to-cell variability in response timing.
+- **Major strengths** The study systematically explores a relevant parameter space using stochastic simulations, which is appropriate for the questions asked. The use of MFPT is well justified and distinguishes single-cell from population-level timing. The finding of non-monotonic behavior and power-law scaling is novel and potentially impactful. The authors also examine noise in timing, which is often overlooked. The model is clearly described and the parameter choices are biologically motivated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the non-monotonic behavior of MFPT can be understood from the ratio of steady-state expression level (SSE) to an effective production rate (R), and that this ratio captures the response time.
+  - **Evidence pointer** Results section "Role of TF-binding affinities in controlling expression timing of auto-regulated genes", Fig 2C and 2F
+  - **Concern** The argument that the ratio SSE/R explains the non-monotonic MFPT is presented qualitatively. The authors state that "the response time, which is then the product of the red and blue curves (SSE/R) will be non-monotonic with an intermediate maximum that approximately coincides with the maximum of the MFPT." However, no quantitative comparison between the predicted ratio and the simulated MFPT is shown. The approximation R = br0 + b(r − r0)kon/(kon + koff) is a steady-state production rate from a single TF, but the actual production rate during the transient approach to threshold is time-dependent and depends on the number of TFs present. The authors do not demonstrate that this simplified ratio accurately predicts the simulated MFPT across the parameter range. A quantitative test, such as plotting SSE/R against MFPT for multiple parameter sets, is needed to support this claim.
+  - **Why it matters** The mechanistic explanation for the central finding of the paper rests on this ratio argument. Without quantitative validation, the claim that the non-monotonic behavior is understood is not established. This weakens the conceptual contribution of the work.
+  - **Resolution test** Provide a figure or table comparing the simulated MFPT with the predicted SSE/R ratio for a range of koff and α values. Show that the location and magnitude of the predicted maximum match the simulation results within a reasonable tolerance. Alternatively, derive a more rigorous approximation that accounts for the time-dependent production rate and validate it against simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the power-law dependence of the peak MFPT on auto-regulatory strength α is a general feature, with an exponent of approximately 0.5 that is independent of transcription and translation rates.
+  - **Evidence pointer** Results section "Role of TF-binding affinities in controlling expression timing of auto-regulated genes", Fig 3A
+  - **Concern** The power-law relationship is reported, but no mechanistic explanation is provided for why the exponent is 0.5 or why it is independent of other rates. The authors state that "the mechanisms for generating power law behavior are typically associated with stochastic processes, however in this case the emergence of this property can be seen even in the deterministic treatment of the system." This is an intriguing observation, but the manuscript does not explore the origin of the power law further. Without a mechanistic understanding, the claim remains empirical and its generality is uncertain. The authors also note that the exponent depends on the chosen threshold (Fig 3B and 3C), which complicates the interpretation.
+  - **Why it matters** A power-law scaling law, if robust and mechanistically understood, would be a significant contribution. As presented, the finding is descriptive and lacks the depth needed to be broadly useful. The threshold dependence of the exponent also raises questions about the universality of the scaling.
+  - **Resolution test** Provide a derivation or a simplified model that explains the power-law exponent. Show that the exponent is robust across a wider range of parameters and thresholds, or explain why the threshold dependence is expected. Discuss the biological implications of the power-law scaling.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the results are "qualitatively robust to parameter ranges more typical of Eukaryotic systems as well."
+  - **Evidence pointer** Results section "Model", last paragraph; supplementary figures S2 and S3 are referenced but not provided
+  - **Concern** The claim of generality to eukaryotic systems is made in the main text, but the supporting evidence is only in the supplementary materials, which were not provided for review. The main text does not describe what parameter changes were made to mimic eukaryotic systems (e.g., longer protein half-lives, different mRNA degradation rates, different transcription/translation rates). Without seeing the supplementary figures or a description of the parameter changes, this claim cannot be evaluated. The statement is too vague to be useful.
+  - **Why it matters** The generality of the findings is a key selling point of the paper. If the results are only valid for prokaryotic-like parameters, the impact is reduced. The authors need to clearly state what was varied and show the results in the main text or provide a more detailed description in the main text.
+  - **Resolution test** Move the key robustness results to the main text or provide a clear description of the parameter changes in the main text. Show that the qualitative features (non-monotonic MFPT, power-law scaling, noise trends) persist across the eukaryotic parameter range.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the noise in first passage time, measured by the coefficient of variation (CV), differs between auto-activation and auto-repression, and that this difference is informative for understanding the fidelity of response timing.
+  - **Evidence pointer** Results section "The precision of expression timing depends on the nature of regulation", Fig 5
+  - **Concern** The noise analysis is presented descriptively. The authors show that for a given MFPT, the CV can differ depending on whether koff or decoy number is varied, and that auto-activation and auto-repression have opposite trends. However, the manuscript does not provide a mechanistic explanation for these differences. For example, why does stronger binding lead to tighter distributions for auto-activation but broader distributions for auto-repression? The authors mention that the FPT distribution can be bimodal for strong auto-repression, but do not explain the origin of this bimodality. A deeper analysis of the sources of noise in the first passage time would strengthen the paper.
+  - **Why it matters** The noise in response timing is an important biological property, as it affects the precision of cellular decisions. Understanding how regulatory architecture controls this noise is valuable. The current analysis is too superficial to provide such understanding.
+  - **Resolution test** Provide a more detailed analysis of the noise sources, such as decomposing the variance into contributions from transcription, translation, and binding fluctuations. Explain the origin of the bimodal distribution for strong auto-repression. Discuss the biological implications of the noise differences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction assumes familiarity with the single-input module motif and its biological relevance. A brief explanation of why this motif is common and why timing matters would help nonspecialist readers.
+  - **Required correction** Add a sentence or two explaining the biological context of the single-input module and why temporal control of gene expression is important.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model description
+  - **Evidence pointer** Materials and methods, "Model and simulation methodology"
+  - **Issue** The reaction scheme is presented in a compressed format that is difficult to parse. The notation for the reactions is not standard and may confuse readers.
+  - **Required correction** Present the reactions in a clearer format, such as a table or a numbered list, with explicit rate constants for each reaction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Parameter choices
+  - **Evidence pointer** Materials and methods, "Model and simulation methodology"
+  - **Issue** The parameter values are mentioned in the text, but a summary table of all parameters and their values would be helpful for reproducibility.
+  - **Required correction** Add a table listing all parameters, their symbols, values, and biological justification.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The statement "the concept is essentially irrelevant" regarding steady-state levels in extreme parameter regimes is somewhat informal and could be misinterpreted.
+  - **Required correction** Rephrase to be more precise, e.g., "in these extreme regimes, the time to reach steady state may exceed biologically relevant timescales, making the steady-state concept less useful."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative validation of the SSE/R ratio argument) is the most critical. The claim that the ratio explains the non-monotonic MFPT is central to the paper's mechanistic interpretation and is not adequately supported. R1-M3 (eukaryotic robustness) is also important, as the claim of generality is not verifiable from the provided material.
+- **Assessment against Nature-style criteria** Originality: The study addresses a relatively unexplored question, namely how regulatory architecture controls the timing of gene expression, and the finding of extreme response times at intermediate parameter values is novel. Scientific importance: The results have potential implications for understanding natural gene regulatory networks and for synthetic biology, but the lack of experimental validation or concrete predictions limits the immediate impact. Interdisciplinary readership: The topic is of interest to biophysicists, systems biologists, and synthetic biologists, but the presentation is somewhat specialized and may not appeal to a broader audience. Technical soundness: The simulation methodology is appropriate, but the analytical arguments are incomplete and the robustness claims are not fully supported. Readability for nonspecialists: The manuscript is generally well written, but the introduction and discussion could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core simulation results are interesting and potentially important, but the mechanistic interpretation needs to be strengthened and the robustness claims need to be verifiable. The manuscript would be suitable for publication in a specialized journal like PLoS Computational Biology after these concerns are addressed.
+
+## Risk / unsupported claims
+- The claim that the SSE/R ratio explains the non-monotonic MFPT is not quantitatively validated (R1-M1).
+- The claim of robustness to eukaryotic parameters is not verifiable from the provided material (R1-M3).
+- The power-law scaling law is reported without a mechanistic explanation, and its threshold dependence is not discussed in depth (R1-M2).
+- The noise analysis is descriptive and lacks a mechanistic basis (R1-M4).
+- The statement that "the concept is essentially irrelevant" regarding steady-state levels in extreme regimes is an overstatement that is not fully justified.

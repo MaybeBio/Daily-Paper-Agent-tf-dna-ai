@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40143808",
+  "title": "Toward Accurate Deep Learning-Based Prediction of Ki67, ER, PR, and HER2 Status From H&E-Stained Breast Cancer Images.",
+  "authors": "Akbarnejad, Amir; Ray, Nilanjan; Barnes, Penny J; Bigras, Gilbert",
+  "journal": "Applied immunohistochemistry & molecular morphology : AIMM",
+  "published_date": "2025-03-27",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度学习从H&E染色乳腺癌图像预测分子标志物状态，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Despite improvements in machine learning algorithms applied to digital pathology, only moderate accuracy, to predict molecular information from histology alone, has been achieved so far. One of the obstacles is the lack of large data sets to properly train machine learning models. We therefore built a data set of 185,538 breast cancer (BC) including hematoxylin and eosin (H&E) and associated immunohistochemistry (IHC) images of the proliferative marker Ki67, estrogen receptor (ER), progesterone receptor (PR), and the human epidermal growth factor receptor 2 (HER2). Optimal registration of H&E and IHC pairs was achieved. Ki67, ER, and PR IHC labels, to be predicted, were extracted from IHC assays using image analysis. These labels were ordinaly classified with incremental thresholds (cumulative logit models with balanced and partial proportional odds). HER2 label was determined as follows: positive if tumor IHC 3+ pattern is identified and otherwise negative. Cases with IHC equivocal score (2+) were excluded. A vision transformer (ViT)-based pipeline, trained with this data set, achieved prediction performance of 90% in terms of area under the curve (AUC) of the receiver operating characteristic (ROC) curves. ViT outperformed the weakly supervised clustering-constrained attention multiple instance learning (CLAM) which was developed to automatically identify subregions of high diagnostic value in whole slide. As a first step to \"explain\" artificial intelligence (AI), we evaluated the ability of both classifiers to localize these high diagnostic value subregions by inspecting their respective \"attention\" heat-maps. Despite high ViT AUC-ROC results, heat-maps do not obviously match areas of high diagnostic value subregions; it might however provide direction for future work to improve AI attention within whole slide images. Our proposed data set is publicly available.",
+  "abstract_zh": "尽管应用于数字病理学的机器学习算法有所改进，但迄今为止，仅从组织学预测分子信息所达到的准确度仍属中等。障碍之一在于缺乏大型数据集来适当训练机器学习模型。因此，我们构建了一个包含185,538例乳腺癌（BC）的数据集，其中包括苏木精-伊红（H&E）染色图像及相关的增殖标志物Ki67、雌激素受体（ER）、孕激素受体（PR）和人表皮生长因子受体2（HER2）的免疫组织化学（IHC）图像。实现了H&E与IHC配对图像的最佳配准。待预测的Ki67、ER和PR的IHC标签通过图像分析从IHC检测中提取。这些标签采用增量阈值进行有序分类（使用平衡和部分比例优势的累积logit模型）。HER2标签的确定方式如下：若肿瘤IHC 3+模式被识别则为阳性，否则为阴性。IHC不确定评分（2+）的病例被排除。基于视觉变换器（ViT）的流程，使用该数据集进行训练，在受试者工作特征（ROC）曲线的曲线下面积（AUC）方面达到了90%的预测性能。ViT优于弱监督的聚类约束注意力多实例学习（CLAM），后者旨在自动识别全切片中具有高诊断价值的子区域。作为“解释”人工智能（AI）的第一步，我们通过检查两种分类器各自的“注意力”热图，评估了它们定位这些高诊断价值子区域的能力。尽管ViT的AUC-ROC结果较高，但热图并未明显匹配高诊断价值子区域的区域；然而，这可能为未来改进全切片图像中AI注意力的工作提供方向。我们提出的数据集是公开可用的。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40143808/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40143808/",
+  "paper_page_path": "papers/pubmed/40143808/index.html"
+}

@@ -1,0 +1,532 @@
+{
+  "identity": {
+    "pmid": "42228572",
+    "doi": "10.1016/j.celrep.2026.117407",
+    "title": "Consensus Pituitary Atlas, a scalable resource for annotation, novel marker discovery, and analyses in mouse pituitary gland research."
+  },
+  "content": {
+    "abstract": "Previous single-cell profiling studies of the pituitary gland have yielded minimally reproducible insights due to their low statistical power and methodological inconsistencies. To address this, we generate the uniformly pre-processed Consensus Pituitary Atlas (CPA) using all 283 existing mouse pituitary single-cell datasets ( approximately 1.3 million high-quality cells). The CPA reveals cell typing and lineage markers, including low-expression transcripts that previous analyses could not detect. Leveraging the scale of the CPA, we develop machine learning models to automate and standardize cell type annotation and doublet identification for future studies. Utilizing the curated metadata, we identify sex-biased and age-dependent gene expression patterns at cell type resolution. To uncover drivers of cell fates, first we determine consensus cell communication patterns. Second, we use RNA sequencing and chromatin accessibility data to identify transcription factors associated with cell fates across modalities. The epitome platform provides a user-friendly interface with the CPA and allows streamlined analyses.",
+    "keywords": [
+      "CP: developmental biology",
+      "CP: stem cell research",
+      "cell fate",
+      "cell signaling",
+      "epitome",
+      "lineage",
+      "machine learning",
+      "multi-omics",
+      "pituitary atlas",
+      "single-cell",
+      "stem cells",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Pituitary Gland/metabolism/cytology",
+      "Mice",
+      "*Biomarkers/metabolism",
+      "Male",
+      "Machine Learning",
+      "Female",
+      "Single-Cell Analysis",
+      "Transcription Factors/metabolism",
+      "Cell Lineage",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kover, Bence",
+        "Willis, Thea L",
+        "Sherwin, Olivia",
+        "Kaufman-Cook, James",
+        "Kemkem, Yasmine",
+        "Vazquez Segoviano, Miriam",
+        "Lodge, Emily J",
+        "Zamojski, Michel",
+        "Mendelev, Natalia",
+        "Zhang, Zidong",
+        "Smith, Gregory R",
+        "Bernard, Daniel J",
+        "Lu, Hui-Chun",
+        "Sealfon, Stuart C",
+        "Ruf-Zamojski, Frederique",
+        "Andoniadou, Cynthia L"
+      ],
+      "short_names": [
+        "Kover B",
+        "Willis TL",
+        "Sherwin O",
+        "Kaufman-Cook J",
+        "Kemkem Y",
+        "Vazquez Segoviano M",
+        "Lodge EJ",
+        "Zamojski M",
+        "Mendelev N",
+        "Zhang Z",
+        "Smith GR",
+        "Bernard DJ",
+        "Lu HC",
+        "Sealfon SC",
+        "Ruf-Zamojski F",
+        "Andoniadou CL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK.",
+        "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK.",
+        "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK.",
+        "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK.",
+        "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK.",
+        "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK.",
+        "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK.",
+        "Regenerative Medicine Institute, Cedars-Sinai Medical Center, Los Angeles, CA 90048, USA.",
+        "Department of Neurology, Center for Advanced Research on Diagnostic Assays, Icahn School of Medicine at Mount Sinai (ISMMS), New York, NY, USA.",
+        "Department of Neurology, Center for Advanced Research on Diagnostic Assays, Icahn School of Medicine at Mount Sinai (ISMMS), New York, NY, USA.",
+        "Department of Neurology, Center for Advanced Research on Diagnostic Assays, Icahn School of Medicine at Mount Sinai (ISMMS), New York, NY, USA.",
+        "Department of Pharmacology and Therapeutics, McGill University, Montreal, QC H3G 1Y6, Canada.",
+        "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK.",
+        "Department of Neurology, Center for Advanced Research on Diagnostic Assays, Icahn School of Medicine at Mount Sinai (ISMMS), New York, NY, USA.",
+        "Department of Neurology, Center for Advanced Research on Diagnostic Assays, Icahn School of Medicine at Mount Sinai (ISMMS), New York, NY, USA; Department of Medicine, Cedars-Sinai Medical Center, Los Angeles, CA 90048, USA; Department of Biomedical Sciences, Cedars-Sinai Medical Center, Los Angeles, CA 90048, USA.",
+        "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK; Department of Medicine III, Faculty of Medicine Carl Gustav Carus, Technische Universitat Dresden, Dresden, Germany. Electronic address: cynthia.andoniadou@kcl.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kövér, Bence",
+        "short_name": "Kövér B",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK."
+        ]
+      },
+      {
+        "full_name": "Willis, Thea L",
+        "short_name": "Willis TL",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK."
+        ]
+      },
+      {
+        "full_name": "Sherwin, Olivia",
+        "short_name": "Sherwin O",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK."
+        ]
+      },
+      {
+        "full_name": "Kaufman-Cook, James",
+        "short_name": "Kaufman-Cook J",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK."
+        ]
+      },
+      {
+        "full_name": "Kemkem, Yasmine",
+        "short_name": "Kemkem Y",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK."
+        ]
+      },
+      {
+        "full_name": "Vazquez Segoviano, Miriam",
+        "short_name": "Vazquez Segoviano M",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK."
+        ]
+      },
+      {
+        "full_name": "Lodge, Emily J",
+        "short_name": "Lodge EJ",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK."
+        ]
+      },
+      {
+        "full_name": "Zamojski, Michel",
+        "short_name": "Zamojski M",
+        "identifiers": [],
+        "affiliations": [
+          "Regenerative Medicine Institute, Cedars-Sinai Medical Center, Los Angeles, CA 90048, USA."
+        ]
+      },
+      {
+        "full_name": "Mendelev, Natalia",
+        "short_name": "Mendelev N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Center for Advanced Research on Diagnostic Assays, Icahn School of Medicine at Mount Sinai (ISMMS), New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zidong",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Center for Advanced Research on Diagnostic Assays, Icahn School of Medicine at Mount Sinai (ISMMS), New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Smith, Gregory R",
+        "short_name": "Smith GR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Center for Advanced Research on Diagnostic Assays, Icahn School of Medicine at Mount Sinai (ISMMS), New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Bernard, Daniel J",
+        "short_name": "Bernard DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Therapeutics, McGill University, Montreal, QC H3G 1Y6, Canada."
+        ]
+      },
+      {
+        "full_name": "Lu, Hui-Chun",
+        "short_name": "Lu HC",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK."
+        ]
+      },
+      {
+        "full_name": "Sealfon, Stuart C",
+        "short_name": "Sealfon SC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Center for Advanced Research on Diagnostic Assays, Icahn School of Medicine at Mount Sinai (ISMMS), New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Ruf-Zamojski, Frederique",
+        "short_name": "Ruf-Zamojski F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Center for Advanced Research on Diagnostic Assays, Icahn School of Medicine at Mount Sinai (ISMMS), New York, NY, USA; Department of Medicine, Cedars-Sinai Medical Center, Los Angeles, CA 90048, USA; Department of Biomedical Sciences, Cedars-Sinai Medical Center, Los Angeles, CA 90048, USA."
+        ]
+      },
+      {
+        "full_name": "Andoniadou, Cynthia L",
+        "short_name": "Andoniadou CL",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Craniofacial and Regenerative Biology, King's College London, London SE1 9RT, UK; Department of Medicine III, Faculty of Medicine Carl Gustav Carus, Technische Universität Dresden, Dresden, Germany. Electronic address: cynthia.andoniadou@kcl.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports"
+    ],
+    "journal_abbrev": [
+      "Cell Rep"
+    ],
+    "pub_date": "2026 Jun 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/02 18:42",
+    "fetched_at": "2026-10-01 22:27:17"
+  },
+  "links": {
+    "cites": [
+      "42227347"
+    ],
+    "refs": [
+      "41903535",
+      "41717998",
+      "41478285",
+      "41277528",
+      "41077482",
+      "40658750",
+      "40467748",
+      "40399281",
+      "40381980",
+      "40369297",
+      "40044116",
+      "39964842",
+      "39898054",
+      "39818879",
+      "39743592",
+      "39390263",
+      "39366377",
+      "39366214",
+      "39320918",
+      "39272895",
+      "39253355",
+      "39223377",
+      "38822427",
+      "38718793",
+      "38717911",
+      "38575991",
+      "38246572",
+      "38191932",
+      "38146776",
+      "38142853",
+      "38113852",
+      "38103263",
+      "38084892",
+      "38049697",
+      "37814324",
+      "37792947",
+      "37760441",
+      "37692284",
+      "37590228",
+      "37534368",
+      "37183548",
+      "36951304",
+      "36764399",
+      "36699385",
+      "36613635",
+      "36610997",
+      "36550119",
+      "36451046",
+      "36249417",
+      "36221127",
+      "35974106",
+      "35957608",
+      "35880426",
+      "35713880",
+      "35699412",
+      "35693209",
+      "35643321",
+      "35263594",
+      "35132262",
+      "34949812",
+      "34850907",
+      "34844637",
+      "34725479",
+      "34584091",
+      "34494548",
+      "34161279",
+      "33976139",
+      "33970215",
+      "33658631",
+      "33574062",
+      "33571131",
+      "33491336",
+      "33399538",
+      "33373440",
+      "33257685",
+      "33176151",
+      "33009549",
+      "32730587",
+      "32193873",
+      "31915267",
+      "31913463",
+      "31692290",
+      "31620083",
+      "31501550",
+      "31448886",
+      "31444346",
+      "31249361",
+      "31042697",
+      "30954476",
+      "30912742",
+      "30692597",
+      "30548673",
+      "30335147",
+      "30139767",
+      "29642903",
+      "29636450",
+      "29409532",
+      "29180744",
+      "28825706",
+      "28402530",
+      "28369316",
+      "28250425",
+      "27884101",
+      "27631552",
+      "27351100",
+      "27245663",
+      "27141961",
+      "27065882",
+      "27043002",
+      "26978244",
+      "26651607",
+      "25878059",
+      "25731977",
+      "25480420",
+      "25006821",
+      "24485249",
+      "24094324",
+      "23070814",
+      "22743772",
+      "22247279",
+      "22179700",
+      "21622576",
+      "18929624",
+      "18798982",
+      "18287078",
+      "17717072",
+      "16932809",
+      "16322098",
+      "14726486",
+      "12651892",
+      "12566470",
+      "11940053",
+      "11557786",
+      "10848608",
+      "9770544",
+      "9564857",
+      "9462743",
+      "9343431",
+      "9241280",
+      "9090387",
+      "7958897",
+      "7588287",
+      "2716850",
+      "1977085",
+      "1707237"
+    ],
+    "similar": [
+      "42228572",
+      "30335147",
+      "41688827",
+      "42574456",
+      "32193873",
+      "26740066",
+      "42531047",
+      "40011786",
+      "42458112",
+      "33976139",
+      "40063068",
+      "42098867",
+      "41719583",
+      "41716413",
+      "36221127",
+      "31597106",
+      "33153500",
+      "35699412",
+      "42694321",
+      "42475469",
+      "34643097",
+      "42074484",
+      "42035243",
+      "30247555",
+      "42024670",
+      "42053376",
+      "38092916",
+      "27580035",
+      "38977846",
+      "33633365",
+      "27564454",
+      "39487735",
+      "41632825",
+      "35195064",
+      "40471991",
+      "41315351",
+      "37183548",
+      "41033661",
+      "34374760",
+      "28364143",
+      "39509434",
+      "41065575",
+      "42633787",
+      "24881871",
+      "39523319",
+      "42411605",
+      "33947861",
+      "37749269",
+      "38731915",
+      "24100213",
+      "41246346",
+      "42276065",
+      "42227377",
+      "41436831",
+      "41842930",
+      "39788105",
+      "39494524",
+      "40394458",
+      "39095595",
+      "41382277",
+      "34798805",
+      "27304916",
+      "40967560",
+      "18287078",
+      "33226342",
+      "34761274",
+      "27852218",
+      "38609714",
+      "32959418",
+      "38426141",
+      "30475227",
+      "37295962",
+      "42131915",
+      "33538002",
+      "29746690",
+      "38092913",
+      "41733593",
+      "29796621",
+      "11845287",
+      "42040898",
+      "41410097",
+      "42560939",
+      "40024421",
+      "42074555",
+      "33913090",
+      "33373440",
+      "39418984",
+      "9514159",
+      "41677399",
+      "34187545",
+      "41521161",
+      "38962008",
+      "41242266",
+      "33988830",
+      "41284187",
+      "41905994",
+      "42766563",
+      "24917506",
+      "34711832",
+      "40832854"
+    ],
+    "review": [
+      "42228572",
+      "29746690"
+    ],
+    "pmc": [
+      "13397322"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211-1247(26)00485-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42228572/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

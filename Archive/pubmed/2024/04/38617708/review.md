@@ -1,0 +1,118 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report an in silico screen of 100 natural or synthetic small molecules against the Tcf/Lef binding hotspot on β-catenin, followed by molecular dynamics simulations, in vitro cytotoxicity testing against breast cancer stem cells (CSCs) isolated from MDA-MB-231 cells, and RT-qPCR analysis of Wnt pathway target genes. They identify alpha-hederin (AH) as the only compound with cytotoxicity against breast CSCs, show that AH downregulates Cyclin D1 and CD44 and upregulates p53, and predict acceptable drug-likeness. They claim this is the first demonstration that AH is a potent inhibitor of the Wnt/β-catenin signaling pathway and induces apoptosis in breast CSCs.
+- **Visible evidence base** Abstract text only; no docking scores, MD simulation parameters, cytotoxicity data, RT-qPCR results, or ADMET predictions are shown
+- **Missing materials affecting confidence** Full methods, docking energy values, MD simulation trajectories or stability metrics, in vitro dose-response curves, statistical analyses, RT-qPCR primer details and quantification, ADMET prediction outputs, and any apoptosis assay data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible workflow combining computational screening and in vitro validation, and the identification of alpha-hederin as a candidate Wnt/β-catenin inhibitor is of potential interest. However, the evidence base provided is insufficient to evaluate the technical soundness of the docking, MD, or in vitro experiments, and several claims exceed what the abstract can support. The claim of apoptosis induction is not supported by any data described in the abstract. The novelty claim, while plausible, cannot be verified without a literature search and full context. The manuscript may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in cancer stem cell biology, Wnt signaling, and natural product drug discovery would be interested. The potential of a plant-derived compound to target CSCs via β-catenin inhibition has therapeutic implications for triple-negative breast cancer, a subtype with limited targeted options. The combination of in silico and in vitro approaches may also appeal to computational chemists and pharmacologists.
+- **Major strengths** The study addresses a clinically relevant problem, namely the elimination of CSCs in triple-negative breast cancer. The workflow integrates computational screening with experimental validation, which is a reasonable strategy for hit identification. The focus on the β-catenin/Tcf-Lef interface is mechanistically targeted. The identification of a single candidate from a 100-compound library suggests a selective screening outcome.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that molecular docking studies were performed against the Tcf/Lef binding hotspot on β-catenin using a library of 100 small molecules, and that ligands with docking energy better than −7 kcal/mol were further investigated.  
+  - **Evidence pointer** Abstract, Methods section not provided  
+  - **Concern** No docking scores, receptor preparation details, ligand preparation methods, or scoring function are reported. The threshold of −7 kcal/mol is stated but no values are shown for any compound, including AH. Without these data, the quality of the docking screen cannot be assessed.  
+  - **Why it matters** Docking results are highly dependent on the protein structure, grid placement, and scoring function. The absence of any quantitative output prevents verification of the screening stringency and the basis for selecting AH.  
+  - **Resolution test** Provide a table of docking scores for all 100 compounds, the PDB structure used, the grid coordinates, and the software and scoring function employed. Show the docking score for AH explicitly.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that molecular dynamics simulations were performed for compounds passing the docking threshold.  
+  - **Evidence pointer** Abstract, Methods section not provided  
+  - **Concern** No MD simulation parameters, duration, force field, solvent model, or stability metrics (e.g., RMSD, RMSF, binding free energy) are reported. The abstract does not state what was evaluated in the MD simulations or how the results influenced compound selection.  
+  - **Why it matters** MD simulations are used to assess binding stability, but without any reported outcomes, the contribution of this step to the screening pipeline is unclear and cannot be evaluated.  
+  - **Resolution test** Report MD simulation length, software, force field, and key stability or binding metrics for AH and any comparators. Clarify how MD results were used to prioritize compounds.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim support  
+  - **Claim pointer** The abstract states that AH was identified as the only compound in the selected library that has cytotoxicity against breast CSCs, and later claims that AH induces apoptosis in breast CSCs.  
+  - **Evidence pointer** Abstract, Results section not provided  
+  - **Concern** The abstract reports cytotoxicity but does not describe any apoptosis assay. The claim of apoptosis induction is not supported by any data mentioned in the abstract. Cytotoxicity can occur through non-apoptotic mechanisms, and the two terms are not interchangeable.  
+  - **Why it matters** The central conclusion of the study, that AH induces apoptosis in breast CSCs, requires direct experimental evidence such as annexin V staining, caspase activation, or DNA fragmentation assays. Without this, the claim is unsupported.  
+  - **Resolution test** Provide apoptosis assay data, including the method, concentrations tested, and quantitative results. If apoptosis was not directly measured, revise the claim to state that AH is cytotoxic and that the mechanism remains to be determined.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that AH significantly downregulated Cyclin D1 and CD44 and upregulated p53 as measured by RT-qPCR.  
+  - **Evidence pointer** Abstract, Results section not provided  
+  - **Concern** No quantitative data, statistical values, or experimental details are provided. The abstract does not specify the number of biological replicates, the reference genes used for normalization, or the magnitude of the expression changes.  
+  - **Why it matters** RT-qPCR results are only meaningful with proper normalization and statistical reporting. Without these details, the significance of the expression changes cannot be assessed.  
+  - **Resolution test** Provide fold-change values with error bars, p-values or confidence intervals, the reference gene used, and the number of independent experiments.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Claim support  
+  - **Claim pointer** The abstract states that AH was predicted to have acceptable drug-likeness based on in silico ADMET predictions.  
+  - **Evidence pointer** Abstract, Methods section not provided  
+  - **Concern** The ADMET prediction is mentioned but no specific properties, software, or criteria for "acceptable" are reported. The abstract does not state which parameters were evaluated or how they were interpreted.  
+  - **Why it matters** Drug-likeness is a multi-parameter assessment, and the claim of acceptability requires transparency about the computational tools and thresholds used.  
+  - **Resolution test** List the ADMET properties predicted, the software used, and the values obtained for AH. State the criteria used to judge acceptability.  
+  - **Concern ID** R1-M6  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract claims that this is the first demonstration that AH is a potent inhibitor of the Wnt/β-catenin signaling pathway and induces apoptosis in breast CSCs.  
+  - **Evidence pointer** Abstract, Introduction and Discussion sections not provided  
+  - **Concern** The novelty claim is stated without supporting context. The abstract does not describe prior work on AH and Wnt signaling, and no literature comparison is provided.  
+  - **Why it matters** A first-in-field claim requires a thorough literature review to establish that no prior report exists. Without this, the claim is unverifiable.  
+  - **Resolution test** Provide a literature search summary in the introduction and discussion that demonstrates the absence of prior reports on AH and Wnt/β-catenin inhibition in breast CSCs.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract, first sentence  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The phrase "a small molecules" is a grammatical error.  
+  - **Required correction** Change to "a small molecule" or "small molecules" as appropriate.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract, methods description  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The phrase "for it's ability" uses an incorrect apostrophe.  
+  - **Required correction** Change to "for its ability".  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract, methods description  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The phrase "Cyclin D1 and CD44)and the tumor suppressor p53by real-time quantitative PCR" lacks spaces after the closing parenthesis and before "by".  
+  - **Required correction** Change to "Cyclin D1 and CD44) and the tumor suppressor p53 by real-time quantitative PCR".  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract, methods description  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract states that CSCs were "isolated from MDA-MB-231 triple negative breast cancer cells" but does not describe the isolation method.  
+  - **Required correction** Specify the isolation method, such as sphere formation or flow cytometry-based sorting, in the full text.  
+  - **Concern ID** R1-m5  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract, methods description  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not state the concentration range or exposure time for AH treatment in the in vitro experiments.  
+  - **Required correction** Provide dose and time information in the full text.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (docking data absent), R1-M2 (MD simulation data absent), R1-M3 (apoptosis claim unsupported), R1-M4 (RT-qPCR data absent), R1-M5 (ADMET data absent), R1-M6 (novelty claim unverified)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The claim of first demonstration of AH as a Wnt/β-catenin inhibitor in breast CSCs is potentially original, but it is not substantiated with a literature comparison. The approach of screening natural compounds against the β-catenin/Tcf-Lef interface is not novel in itself.  
+  - **Scientific importance** The topic is relevant to cancer therapeutics, but the abstract does not provide sufficient data to establish the significance of the findings. The clinical implications are stated but not supported with functional or mechanistic depth.  
+  - **Interdisciplinary readership** The work bridges computational chemistry, cancer biology, and pharmacology, which could appeal to a broad audience. However, the abstract lacks the technical detail needed for specialists in any of these fields to assess the work.  
+  - **Technical soundness** The workflow is reasonable in concept, but the absence of all quantitative results and methodological details prevents an assessment of technical soundness.  
+  - **Readability for nonspecialists** The abstract is generally readable, but the grammatical errors and lack of context for the computational methods reduce clarity.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible study, but the absence of all primary data and the unsupported apoptosis claim mean that the case for AH as a potent Wnt/β-catenin inhibitor in breast CSCs is not made. The authors should provide the full dataset and revise the claims to match the evidence.
+
+## Risk / unsupported claims
+- The claim that AH induces apoptosis in breast CSCs is unsupported, as no apoptosis assay is described in the abstract.
+- The claim that AH is a "potent inhibitor" of the Wnt/β-catenin signaling pathway is not supported by any quantitative potency data, such as IC50 values or binding affinities.
+- The claim that AH was the "only compound" with cytotoxicity against breast CSCs cannot be evaluated without the full screening results.
+- The claim of "acceptable drug-likeness" is unverifiable without specific ADMET predictions and criteria.
+- The novelty claim of being the "first demonstration" cannot be assessed without a literature review.
+- The significance of the RT-qPCR results cannot be evaluated without fold-change values, statistical tests, and normalization details.

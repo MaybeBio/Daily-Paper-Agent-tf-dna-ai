@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "40979590",
+    "doi": "10.3389/fgene.2025.1617834",
+    "title": "Integrative analysis of single-cell and microarray data reveals SPI1-centered macrophage regulatory signatures in ulcerative colitis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ulcerative colitis (UC) is a type of inflammatory bowel disease (IBD) marked by persistent inflammation and ulceration of the colonic mucosal lining. Macrophages regulate intestinal inflammation through distinct polarization profiles. Emerging evidence indicates that the transcription factor SPI1 is a critical regulator of macrophage activity and contributes to both the initiation and progression of UC. METHODS: In this study, single-cell RNA sequencing (scRNA-seq) was conducted to profile the transcriptomic landscape of macrophages in the intestinal tissues of UC patients. A gene regulatory network (GRN) was constructed using pySCENIC, which identified SPI1 as a distinct transcriptional regulator involved in macrophage activation. To pinpoint key downstream targets of SPI1, microarray data were analyzed through a combination of weighted gene co-expression network analysis (WGCNA), differential expression (DE) analysis, and several machine learning algorithms, including LASSO, Recursive feature elimination with a random forest classifier (RFE-RF), and Support Vector Machine-Recursive Feature Elimination (SVM-RFE). An in vitro model of M1-polarized macrophages was then established, and Western blot (WB) was used to assess the protein expression of SPI1. SPI1 was then silenced using siRNA, and its impact on macrophage polarization was evaluated using flow cytometry and ELISA. RESULTS: GRN analysis results suggest that the SPI1(+) regulon regulates macrophage activation in UC. Using WGCNA on microarray data, we identified key downstream regulatory target genes, specifically IRAK3, IL1RN, CD55 and PEA15, based on microarray data. Their potential as biomarkers was subsequently validated through several machine learning algorithms. In vitro experiments demonstrated elevated expression of SPI1 in M1-polarized macrophages, as confirmed by WB analysis. Flow cytometry and ELISA analyses revealed that SPI1 silencing inhibited M1 macrophage polarization. CONCLUSION: This study identified SPI1 as a potential key transcription factor involved in macrophage polarization in UC, possibly exerting its regulatory effects through IRAK3, IL1RN, CD55 and PEA15. These findings offer a novel perspective on the molecular mechanisms underlying intestinal inflammation in UC.",
+    "keywords": [
+      "SPI1",
+      "gene regulatory network (GRN)",
+      "macrophage",
+      "single-cell RNA (scRNA) sequencing",
+      "ulcerative colitis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Yeqing",
+        "Yu, Chengwei",
+        "Dai, Shanshan",
+        "Liu, Yixu",
+        "Hu, Lanlan",
+        "Lu, Weimin"
+      ],
+      "short_names": [
+        "Yu Y",
+        "Yu C",
+        "Dai S",
+        "Liu Y",
+        "Hu L",
+        "Lu W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China.",
+        "Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China.",
+        "Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China.",
+        "Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China.",
+        "Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China.",
+        "Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Yeqing",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Chengwei",
+        "short_name": "Yu C",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Shanshan",
+        "short_name": "Dai S",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yixu",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Lanlan",
+        "short_name": "Hu L",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Weimin",
+        "short_name": "Lu W",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/22 12:46",
+    "fetched_at": "2026-10-01 02:40:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39938514",
+      "39425913",
+      "38734693",
+      "38526945",
+      "38406578",
+      "38022496",
+      "37495570",
+      "37488863",
+      "37344477",
+      "36757800",
+      "36550123",
+      "35392084",
+      "35212366",
+      "35194640",
+      "34907668",
+      "34557778",
+      "33493267",
+      "32561888",
+      "31103439",
+      "31018132",
+      "30914450",
+      "30049418",
+      "29401083",
+      "28885228",
+      "28404156",
+      "27342843",
+      "25943565",
+      "25901973",
+      "25605792",
+      "25232259",
+      "24504023",
+      "24155895",
+      "22213050",
+      "22025201",
+      "21414208",
+      "20848470",
+      "20808728",
+      "20424185",
+      "19114008",
+      "18569989",
+      "15917297",
+      "15021969",
+      "15004190",
+      "10637275",
+      "10383454",
+      "10203717",
+      "9649185",
+      "6611056"
+    ],
+    "similar": [
+      "40979590",
+      "41242266",
+      "39923303",
+      "41029776",
+      "41324863",
+      "41485180",
+      "40620701",
+      "39707393",
+      "41368500",
+      "38164749",
+      "38979414",
+      "38880160",
+      "38656456",
+      "41080154",
+      "38274809",
+      "40433374",
+      "36969832",
+      "40762728",
+      "36419192",
+      "41423154",
+      "38849409",
+      "39346531",
+      "38295660",
+      "41080550",
+      "41148551",
+      "40708063",
+      "39326132",
+      "34426111",
+      "39427735",
+      "38022496",
+      "40907407",
+      "39423480",
+      "37142141",
+      "41124707",
+      "40115777",
+      "41219826",
+      "40414048",
+      "41388523",
+      "38633005",
+      "41243474",
+      "40328901",
+      "35212366",
+      "40902395",
+      "38026254",
+      "38014839",
+      "40661186",
+      "36483809",
+      "39806040",
+      "40172736",
+      "39614449",
+      "39975557",
+      "41050686",
+      "37597495",
+      "41308390",
+      "40021664",
+      "41110296",
+      "40370742",
+      "40860935",
+      "40948782",
+      "39170615",
+      "39647286",
+      "41371161",
+      "41192115",
+      "40791849",
+      "37782162",
+      "39675441",
+      "39197215",
+      "32428507",
+      "39414957",
+      "39238649",
+      "38432866",
+      "39467429",
+      "41406086",
+      "38117365",
+      "39841217",
+      "40765736",
+      "39288627",
+      "35959356",
+      "38441793",
+      "39862635",
+      "40737847",
+      "38613801",
+      "40308738",
+      "40350912",
+      "40886983",
+      "40189621",
+      "40332343",
+      "36147340",
+      "41498037",
+      "39192288",
+      "40808866",
+      "34085173",
+      "40330488",
+      "41029870",
+      "41185333",
+      "39903649",
+      "37369160",
+      "38951638",
+      "40296690",
+      "38711508"
+    ],
+    "review": [
+      "40979590",
+      "39675441",
+      "38432866"
+    ],
+    "pmc": [
+      "12446007"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40979590/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2025.1617834",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

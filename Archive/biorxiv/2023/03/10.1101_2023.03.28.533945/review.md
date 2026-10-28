@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, methods, data/code availability statements)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the provided text; no external validation or replication attempted
+- **Shared manuscript claim summary** The authors present PRINT, a deep learning-based computational method that corrects sequence bias in chromatin accessibility data and performs multi-scale footprinting to detect protein-DNA interactions of varying sizes. They apply PRINT to single-cell multi-omic (ATAC + RNA) data from human hematopoiesis and mouse hematopoietic stem cell aging, identifying "sub-cCREs" as modular units within cis-regulatory elements that undergo structural reorganization (e.g., nucleosome sliding, TF binding changes) associated with gene expression changes, including age-related alterations.
+- **Visible evidence base** Abstract; main text sections (Introduction, Results subsections, Discussion); Methods (experimental and computational); Data Availability; Code Availability; figure and table references as cited in text
+- **Missing materials affecting confidence** Figures and extended data figures (referenced but not provided); supplementary notes; detailed benchmark results; raw data; code implementation details; validation statistics beyond those mentioned in text
+
+## Reviewer
+- **Overall assessment** This manuscript presents a novel computational framework (PRINT) with potential broad utility for chromatin accessibility analysis. The conceptual advance of multi-scale footprinting and the identification of sub-cCREs as functional modular units is interesting and timely. However, the evidence as presented in the text is insufficient to fully evaluate the method's performance, the robustness of the sub-cCRE segmentation approach, and the strength of the biological claims, particularly regarding aging. Several key validations and statistical details are referenced but not shown, limiting the current assessment.
+- **Who would be interested in the results, and why** Researchers in gene regulation, chromatin biology, single-cell genomics, and computational biology. The method addresses a recognized limitation (sequence bias in ATAC-seq footprinting) and offers a new framework for studying regulatory element dynamics, which could be of interest to those studying development, differentiation, and aging.
+- **Major strengths** 1) The conceptual advance of multi-scale footprinting to capture both TF and nucleosome dynamics in a unified framework. 2) The use of deep learning to correct sequence bias, with demonstrated improvement over existing methods (as claimed). 3) The application to large-scale single-cell multi-omic data, providing a resource for the community. 4) The identification of sub-cCREs as a potentially new layer of regulatory organization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We find that multi-scale footprints enable more accurate inference of TF and nucleosome binding" and "the model achieved a median precision of 0.71 on held out test ChIP data, outperforming prior methods (0.65 for HINT-ATAC and 0.62 for TOBIAS when benchmarked at a matched recall)"
+  - **Evidence pointer** Figure 2f, Extended Data Table 2, location not provided
+  - **Concern** The performance comparison against HINT-ATAC and TOBIAS is a central claim, but the details of the benchmarking are not provided in the text. It is unclear how the "matched recall" was achieved, whether the same TF sets and cell types were used, and whether the comparison was fair in terms of input data and parameters. The precision values are presented without confidence intervals or statistical significance testing. Furthermore, the false positive rate of 0.8% on BAC data is mentioned but the methodology for this assessment is not described.
+  - **Why it matters** The superiority of PRINT over existing tools is a key selling point. Without rigorous and transparent benchmarking, the claim of improved accuracy is not established, which undermines the foundation of the entire study.
+  - **Resolution test** Provide a detailed benchmarking protocol, including the exact datasets, TF lists, parameters, and statistical tests used. Show precision-recall curves or similar metrics across a range of thresholds, not just a single point. Include confidence intervals and significance tests for the performance differences. Describe the BAC-based false positive assessment in detail.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "we designed an algorithm to segment each cCRE into sub-cCREs with strong self-association. As a result, we detected 265,070 sub-cCREs across human hematopoiesis."
+  - **Evidence pointer** Figure 3b, Methods, location not provided
+  - **Concern** The sub-cCRE segmentation algorithm is described only conceptually ("conceptually similar to segmentation algorithms for TADs"). The specific parameters (e.g., local neighborhood radius, boundary score threshold, smoothing method) are not given. The validation of these sub-cCREs is not described: how do the authors know these are biologically meaningful units rather than statistical artifacts? The relationship between sub-cCREs and known regulatory features (e.g., TF binding sites, nucleosome positioning, enhancer-promoter interactions) is not quantitatively assessed.
+  - **Why it matters** The sub-cCRE concept is a major conceptual contribution. If the segmentation is not robust or validated, the subsequent biological interpretations (e.g., sub-cCRE dynamics in differentiation and aging) are built on an unstable foundation.
+  - **Resolution test** Provide a detailed description of the algorithm, including all parameters and the rationale for their choice. Validate sub-cCREs against independent data (e.g., ChIP-seq, ATAC-seq from other platforms, evolutionary conservation). Show that sub-cCREs are reproducible across technical replicates and robust to parameter changes. Demonstrate that sub-cCREs capture known regulatory boundaries or functional elements.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / Support for biological claims
+  - **Claim pointer** "we discover wide-spread changes to the structure and function of candidate cis-regulatory elements (cCREs) across hematopoiesis, wherein nucleosomes slide, expose DNA for TF binding, and promote gene expression" and "we find a spectrum of aging alterations among HSCs corresponding to a global gain of sub-cCRE activity while preserving cCRE accessibility"
+  - **Evidence pointer** Figures 3, 4, location not provided
+  - **Concern** The biological findings are presented as broad statements without quantitative support in the text. For hematopoiesis, the number of cCREs showing structural changes, the magnitude of nucleosome sliding, and the correlation strength between sub-cCRE activity and gene expression are not reported. For aging, the claim of "global gain of sub-cCRE activity" is not supported by specific numbers or effect sizes. The distinction between Class I and Class II changes is described, but the statistical robustness of this classification is not shown. The pathway enrichments are mentioned but the significance thresholds and effect sizes are not given.
+  - **Why it matters** The biological insights are the ultimate goal of the study. Without quantitative evidence, the claims remain anecdotal and the significance of the findings cannot be assessed.
+  - **Resolution test** Provide effect sizes, confidence intervals, and p-values for the key comparisons (e.g., number of sub-cCREs gained/lost, correlation coefficients, enrichment scores). Show representative examples with clear quantification. For the aging data, provide a clear description of the statistical model used and how multiple testing was handled.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "we provide a pre-trained deep learning model that can be extended to any new species or applied to personal genomes"
+  - **Evidence pointer** Data Availability, Code Availability, location not provided
+  - **Concern** While the code and data are made available, the manuscript does not describe the computational environment, dependencies, or expected runtime for the method. The pre-trained model is mentioned but its architecture, training details, and usage instructions are not fully specified in the text. The tutorial is referenced but not described.
+  - **Why it matters** For a computational method paper, reproducibility and ease of use are critical for adoption by the community.
+  - **Resolution test** Provide a detailed description of the software environment, dependencies, and a step-by-step guide for applying PRINT to new data. Include information on expected runtime and hardware requirements.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "we discover wide-spread changes to the structure and function of candidate cis-regulatory elements (cCREs) across hematopoiesis" but does not specify the number of cell types or the scale of the analysis. The term "sub-cCREs" is introduced without a clear definition in the abstract.
+  - **Required correction** Briefly define sub-cCREs in the abstract and provide a quantitative summary of the scale of the analysis (e.g., number of cell types, number of cCREs analyzed).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Methods
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The description of the neural network architecture for the TF binding predictor is incomplete. The number of layers and nodes is given, but activation functions, regularization, and training details (e.g., learning rate, batch size, epochs) are not fully specified.
+  - **Required correction** Provide a complete description of the neural network architecture and training procedure, or refer to a supplementary section with these details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results (aging analysis)
+  - **Evidence pointer** Figure 4, location not provided
+  - **Issue** The differential testing for sub-cCREs between young and old mice is described as using a t-test, but the text does not specify how the pseudobulk replicates were defined or how the FDR was controlled.
+  - **Required correction** Clarify the statistical design, including the number of biological replicates, how pseudobulks were generated, and the multiple testing correction method.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results (hematopoiesis)
+  - **Evidence pointer** Figure 3, location not provided
+  - **Issue** The text mentions "sub-cCREs as modular cCRE subunits" but does not provide a clear schematic or example of how sub-cCREs relate to the overall cCRE structure.
+  - **Required correction** Include a schematic figure or a clear textual description with an example locus to illustrate the sub-cCRE concept.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmarking rigor), R1-M2 (sub-cCRE segmentation validation), R1-M3 (quantitative support for biological claims)
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The concept of multi-scale footprinting and sub-cCREs is novel and represents a conceptual advance over existing footprinting methods.
+  - **Scientific importance** Potentially high. If validated, the method could provide new insights into regulatory element dynamics and their role in gene expression, with implications for development and aging.
+  - **Interdisciplinary readership** Moderate to high. The work bridges computational biology, genomics, and cell biology, and would be of interest to a broad audience in these fields.
+  - **Technical soundness** Currently not fully established. The core computational methods are plausible, but the benchmarking and validation are insufficiently described to assess their robustness.
+  - **Readability for nonspecialists** The main text is generally well-written and accessible, but some technical details (e.g., the segmentation algorithm) are described at a level that may be challenging for non-computational readers. The abstract is clear but could benefit from a more explicit definition of key terms.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance is significant, but the current evidence is insufficient to fully support the claims. The authors must provide rigorous benchmarking, detailed method descriptions, and quantitative support for the biological findings.
+
+## Risk / unsupported claims
+- The claim that PRINT "accurately corrects for sequence bias" is supported by correlation with BAC data, but the generalizability to diverse cell types and conditions is not fully demonstrated.
+- The claim of "wide-spread changes to the structure and function of cCREs" in hematopoiesis is not quantified in the text.
+- The claim of a "global gain of sub-cCRE activity" in aging is not supported by specific numbers or effect sizes.
+- The biological significance of sub-cCREs (e.g., their relationship to known regulatory mechanisms) is asserted but not rigorously demonstrated.
+- The performance comparison with HINT-ATAC and TOBIAS is presented without sufficient methodological detail to be fully evaluated.
+- The false positive rate of 0.8% on BAC data is stated without a description of the assessment methodology.

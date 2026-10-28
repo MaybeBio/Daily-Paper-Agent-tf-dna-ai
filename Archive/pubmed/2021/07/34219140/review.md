@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full manuscript, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors propose a novel convolutional layer, termed variable convolutional (vConv) layer, that adaptively learns kernel length from data for motif identification in high-throughput omics data. They claim superior performance over canonical convolutional networks in DNA-protein binding and DNase footprinting tasks, and state that vConv can serve as an in-place replacement for standard convolutional layers in multi-layer neural networks. Source code is made available on GitHub.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or code repository contents are accessible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed model architectures, hyperparameter settings, benchmark datasets, statistical significance tests, and the GitHub repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful methodological contribution to motif identification in omics data, with a clear conceptual advance in adaptive kernel length learning. However, the evidence provided is insufficient to evaluate the validity, robustness, or generalizability of the claimed performance improvements. The lack of quantitative results, experimental details, and access to the code repository prevents a rigorous assessment of the technical soundness and the strength of the claims.
+- **Who would be interested in the results, and why** Computational biologists, bioinformaticians, and machine learning researchers working on regulatory genomics, transcription factor binding site prediction, and sequence motif discovery. The proposed layer could be of interest to those seeking to improve deep learning models for genomic sequence analysis without manual kernel size tuning.
+- **Major strengths** The conceptual idea of learning kernel length adaptively from data is elegant and addresses a practical limitation of fixed-size convolutional kernels in motif detection. The claim of in-place replacement compatibility with existing architectures is practically valuable, as it could lower adoption barriers. The commitment to open-source code is commendable and aligns with reproducibility standards.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that vConv-based networks have superior performance to convolutional counterparts regardless of model complexity.
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative metrics provided
+  - **Concern** The claim of superior performance is made without any reported numerical results, effect sizes, or statistical comparisons. No benchmark datasets, evaluation metrics, or baseline configurations are described.
+  - **Why it matters** Without quantitative evidence, the central performance claim cannot be verified or reproduced. The phrase "regardless of model complexity" is particularly strong and requires systematic ablation studies that are not visible.
+  - **Resolution test** Provide performance tables with metrics such as AUC, precision-recall, or F1 scores for vConv versus canonical convolutional networks across multiple datasets and model depths, including statistical significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The vConv layer learns kernel length from data adaptively.
+  - **Evidence pointer** Abstract only; methodological details not provided
+  - **Concern** The mechanism by which kernel length is learned is not described. It is unclear whether this involves a continuous relaxation, a search over discrete lengths, or a differentiable parameterization. The computational cost and convergence behavior of this learning process are also unaddressed.
+  - **Why it matters** The novelty and feasibility of the approach hinge on the learning mechanism. Without a clear description, the method cannot be evaluated for correctness, efficiency, or potential failure modes.
+  - **Resolution test** Provide a detailed mathematical formulation of the vConv layer, including how kernel length is parameterized and optimized, along with complexity analysis and convergence experiments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** vConv can be readily integrated into multi-layer neural networks as an in-place replacement of canonical convolutional layers.
+  - **Evidence pointer** Abstract only; no integration experiments described
+  - **Concern** The claim of in-place replacement is not supported by any demonstration in deeper architectures. It is unclear whether the adaptive kernel length introduces instability, overfitting, or optimization difficulties when stacked in multiple layers.
+  - **Why it matters** The practical utility of the method depends on its seamless integration into existing deep learning pipelines. If the layer only works in shallow networks or requires special tuning, the claim is overstated.
+  - **Resolution test** Show experiments where vConv replaces convolutional layers in at least two established deep architectures (e.g., DeepSEA, Basset) and report comparable or better performance with stable training.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability statement
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that source codes are freely available on GitHub, but no repository URL or version information is provided.
+  - **Required correction** Include the GitHub repository URL and a version tag or commit identifier in the abstract or manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "variable convolutional" is not defined beyond the abbreviation vConv, and the distinction from other adaptive convolution methods (e.g., dilated or deformable convolutions) is not clarified.
+  - **Required correction** Add a brief definition and explicitly contrast vConv with existing adaptive kernel methods in the introduction or methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Application domains
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions DNA-protein binding and DNase footprinting, but does not specify the number of datasets, species, or cell types used.
+  - **Required correction** List the datasets and their characteristics in the abstract or main text to allow readers to assess the breadth of evaluation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and the lack of a described learning mechanism prevent any validation of the core claims. R1-M3 is also blocking because the in-place replacement claim requires architectural integration evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of adaptive kernel length learning is a reasonable incremental advance over fixed-kernel convolutions, but similar ideas exist in the broader neural architecture search literature. The originality is moderate and not clearly groundbreaking.
+  - Scientific importance: Motif identification is a core problem in regulatory genomics, and improved methods could have broad utility. However, the importance of this specific contribution is not established without evidence of substantial performance gains.
+  - Interdisciplinary readership: The work sits at the intersection of machine learning and genomics, which has a wide audience. The abstract is accessible, but the lack of technical detail limits its appeal to specialists.
+  - Technical soundness: Cannot be assessed from the abstract alone. The learning mechanism and experimental validation are not described.
+  - Readability for nonspecialists: The abstract is clear and concise, but the term "variable convolutional" and the claimed benefits are not sufficiently explained for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising idea, but the absence of quantitative results, methodological details, and integration experiments means the claims cannot be evaluated. The authors should provide the full manuscript with comprehensive experiments and a detailed description of the vConv layer before a supportive recommendation can be considered.
+
+## Risk / unsupported claims
+- The claim of superior performance over convolutional counterparts is unsupported due to lack of quantitative data.
+- The claim that vConv learns kernel length adaptively is unverifiable without a methodological description.
+- The claim of in-place replacement compatibility is unsupported without integration experiments in multi-layer networks.
+- The generalizability to diverse omics data types beyond the two mentioned applications is not assessable.

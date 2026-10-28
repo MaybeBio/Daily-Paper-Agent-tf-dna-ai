@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39276594",
+  "title": "Dissecting AI-based mutation prediction in lung adenocarcinoma: A comprehensive real-world study.",
+  "authors": "Dernbach, Gabriel; Kazdal, Daniel; Ruff, Lukas; Alber, Maximilian; Romanovsky, Eva; Schallenberg, Simon; Christopoulos, Petros; Weis, Cleo-Aron; Muley, Thomas; Schneider, Marc A; Schirmacher, Peter; Thomas, Michael; Muller, Klaus-Robert; Budczies, Jan; Stenzinger, Albrecht; Klauschen, Frederick",
+  "journal": "European journal of cancer (Oxford, England : 1990)",
+  "published_date": "2024-09-15",
+  "window": {
+    "start": "2024-09-09",
+    "end": "2024-09-15"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度学习从组织图像预测肺癌突变，属于纯表型-基因型关联，无蛋白质-DNA互作体系、结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "INTRODUCTION: Molecular profiling of lung cancer is essential to identify genetic alterations that predict response to targeted therapy. While deep learning shows promise for predicting oncogenic mutations from whole tissue images, existing studies often face challenges such as limited sample sizes, a focus on earlier stage patients, and insufficient analysis of robustness and generalizability. METHODS: This retrospective study evaluates factors influencing mutation prediction accuracy using the large Heidelberg Lung Adenocarcinoma Cohort (HLCC), a cohort of 2356 late-stage FFPE samples. Validation is performed in the publicly available TCGA-LUAD cohort. RESULTS: Models trained on the larger HLCC cohort generalized well to the TCGA dataset for mutations in EGFR (AUC 0.76), STK11 (AUC 0.71) and TP53 (AUC 0.75), in line with the hypothesis that larger cohort sizes improve model robustness. Variation in performance due to pre-processing and modeling choices, such as mutation variant calling, affected EGFR prediction accuracy by up to 7 %. DISCUSSION: Model explanations suggest that acinar and papillary growth patterns are critical for the detection of EGFR mutations, whereas solid growth patterns and large nuclei are indicative of TP53 mutations. These findings highlight the importance of specific morphological features in mutation detection and the potential of deep learning models to improve mutation prediction accuracy. CONCLUSION: Although deep learning models trained on larger cohorts show improved robustness and generalizability in predicting oncogenic mutations, they cannot replace comprehensive molecular profiling. However, they may support patient pre-selection for clinical trials and deepen the insight in genotype-phenotype relationships.",
+  "abstract_zh": "引言：肺癌的分子分型对于识别预测靶向治疗反应的遗传变异至关重要。尽管深度学习在从全组织图像预测致癌突变方面显示出潜力，但现有研究常面临样本量有限、侧重于早期患者以及稳健性和泛化性分析不足等挑战。方法：本回顾性研究利用大型海德堡肺腺癌队列（HLCC），一个包含2356例晚期FFPE样本的队列，评估影响突变预测准确性的因素。验证在公开可用的TCGA-LUAD队列中进行。结果：在较大HLCC队列上训练的模型在EGFR（AUC 0.76）、STK11（AUC 0.71）和TP53（AUC 0.75）突变方面对TCGA数据集泛化良好，这与较大队列规模提高模型稳健性的假设一致。预处理和建模选择（如突变变异调用）导致的性能变化，对EGFR预测准确性的影响高达7%。讨论：模型解释表明，腺泡和乳头状生长模式对检测EGFR突变至关重要，而实性生长模式和大细胞核则指示TP53突变。这些发现强调了特定形态学特征在突变检测中的重要性，以及深度学习模型在提高突变预测准确性方面的潜力。结论：尽管在较大队列上训练的深度学习模型在预测致癌突变方面显示出改进的稳健性和泛化性，但它们无法替代全面的分子分型。然而，它们可能支持临床试验中的患者预筛选，并加深对基因型-表型关系的洞察。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39276594/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39276594/",
+  "paper_page_path": "papers/pubmed/39276594/index.html"
+}

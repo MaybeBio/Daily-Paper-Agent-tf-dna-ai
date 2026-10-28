@@ -1,0 +1,401 @@
+{
+  "identity": {
+    "pmid": "33916983",
+    "doi": "10.3390/ijms22083813",
+    "title": "A Bit Stickier, a Bit Slower, a Lot Stiffer: Specific vs. Nonspecific Binding of Gal4 to DNA."
+  },
+  "content": {
+    "abstract": "Transcription factors regulate gene activity by binding specific regions of genomic DNA thanks to a subtle interplay of specific and nonspecific interactions that is challenging to quantify. Here, we exploit Reflective Phantom Interface (RPI), a label-free biosensor based on optical reflectivity, to investigate the binding of the N-terminal domain of Gal4, a well-known gene regulator, to double-stranded DNA fragments containing or not its consensus sequence. The analysis of RPI-binding curves provides interaction strength and kinetics and their dependence on temperature and ionic strength. We found that the binding of Gal4 to its cognate site is stronger, as expected, but also markedly slower. We performed a combined analysis of specific and nonspecific binding-equilibrium and kinetics-by means of a simple model based on nested potential wells and found that the free energy gap between specific and nonspecific binding is of the order of one kcal/mol only. We investigated the origin of such a small value by performing all-atom molecular dynamics simulations of Gal4-DNA interactions. We found a strong enthalpy-entropy compensation, by which the binding of Gal4 to its cognate sequence entails a DNA bending and a striking conformational freezing, which could be instrumental in the biological function of Gal4.",
+    "keywords": [
+      "biophysics",
+      "biosensor",
+      "entropy-enthalpy compensation",
+      "molecular dynamics",
+      "protein-DNA interactions",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Base Sequence",
+      "Binding Sites",
+      "DNA/*chemistry/metabolism",
+      "DNA-Binding Proteins/*chemistry/metabolism",
+      "Kinetics",
+      "Models, Molecular",
+      "Models, Theoretical",
+      "Molecular Conformation",
+      "Protein Binding",
+      "Saccharomyces cerevisiae Proteins/*chemistry/metabolism",
+      "Structure-Activity Relationship",
+      "Transcription Factors/*chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Carzaniga, Thomas",
+        "Zanchetta, Giuliano",
+        "Frezza, Elisa",
+        "Casiraghi, Luca",
+        "Vanjur, Luka",
+        "Nava, Giovanni",
+        "Tagliabue, Giovanni",
+        "Dieci, Giorgio",
+        "Buscaglia, Marco",
+        "Bellini, Tommaso"
+      ],
+      "short_names": [
+        "Carzaniga T",
+        "Zanchetta G",
+        "Frezza E",
+        "Casiraghi L",
+        "Vanjur L",
+        "Nava G",
+        "Tagliabue G",
+        "Dieci G",
+        "Buscaglia M",
+        "Bellini T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4236-4019",
+        "ORCID: 0000-0002-6650-0353",
+        "ORCID: 0000-0003-0122-7859",
+        "ORCID: 0000-0002-5049-1819",
+        "ORCID: 0000-0001-9573-7301",
+        "ORCID: 0000-0001-5010-0278",
+        "ORCID: 0000-0003-4898-4400"
+      ],
+      "affiliations": [
+        "Dipartimento di Biotecnologie Mediche e Medicina Traslazionale, Universita di Milano, 20054 Segrate (MI), Italy.",
+        "Dipartimento di Biotecnologie Mediche e Medicina Traslazionale, Universita di Milano, 20054 Segrate (MI), Italy.",
+        "CiTCoM, CNRS, Universite de Paris, F-75006 Paris, France.",
+        "Dipartimento di Biotecnologie Mediche e Medicina Traslazionale, Universita di Milano, 20054 Segrate (MI), Italy.",
+        "Dipartimento di Biotecnologie Mediche e Medicina Traslazionale, Universita di Milano, 20054 Segrate (MI), Italy.",
+        "Dipartimento di Biotecnologie Mediche e Medicina Traslazionale, Universita di Milano, 20054 Segrate (MI), Italy.",
+        "Proxentia S.r.l., Viale Ortles 22/4, 20139 Milano, Italy.",
+        "Dipartimento di Scienze Chimiche, della Vita e della Sostenibilita Ambientale, Universita di Parma, 43124 Parma, Italy.",
+        "Dipartimento di Biotecnologie Mediche e Medicina Traslazionale, Universita di Milano, 20054 Segrate (MI), Italy.",
+        "Dipartimento di Biotecnologie Mediche e Medicina Traslazionale, Universita di Milano, 20054 Segrate (MI), Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Carzaniga, Thomas",
+        "short_name": "Carzaniga T",
+        "identifiers": [
+          "0000-0002-4236-4019"
+        ],
+        "affiliations": [
+          "Dipartimento di Biotecnologie Mediche e Medicina Traslazionale, Università di Milano, 20054 Segrate (MI), Italy."
+        ]
+      },
+      {
+        "full_name": "Zanchetta, Giuliano",
+        "short_name": "Zanchetta G",
+        "identifiers": [
+          "0000-0002-6650-0353"
+        ],
+        "affiliations": [
+          "Dipartimento di Biotecnologie Mediche e Medicina Traslazionale, Università di Milano, 20054 Segrate (MI), Italy."
+        ]
+      },
+      {
+        "full_name": "Frezza, Elisa",
+        "short_name": "Frezza E",
+        "identifiers": [
+          "0000-0003-0122-7859"
+        ],
+        "affiliations": [
+          "CiTCoM, CNRS, Université de Paris, F-75006 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Casiraghi, Luca",
+        "short_name": "Casiraghi L",
+        "identifiers": [
+          "0000-0002-5049-1819"
+        ],
+        "affiliations": [
+          "Dipartimento di Biotecnologie Mediche e Medicina Traslazionale, Università di Milano, 20054 Segrate (MI), Italy."
+        ]
+      },
+      {
+        "full_name": "Vanjur, Luka",
+        "short_name": "Vanjur L",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Biotecnologie Mediche e Medicina Traslazionale, Università di Milano, 20054 Segrate (MI), Italy."
+        ]
+      },
+      {
+        "full_name": "Nava, Giovanni",
+        "short_name": "Nava G",
+        "identifiers": [
+          "0000-0001-9573-7301"
+        ],
+        "affiliations": [
+          "Dipartimento di Biotecnologie Mediche e Medicina Traslazionale, Università di Milano, 20054 Segrate (MI), Italy."
+        ]
+      },
+      {
+        "full_name": "Tagliabue, Giovanni",
+        "short_name": "Tagliabue G",
+        "identifiers": [],
+        "affiliations": [
+          "Proxentia S.r.l., Viale Ortles 22/4, 20139 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Dieci, Giorgio",
+        "short_name": "Dieci G",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze Chimiche, della Vita e della Sostenibilità Ambientale, Università di Parma, 43124 Parma, Italy."
+        ]
+      },
+      {
+        "full_name": "Buscaglia, Marco",
+        "short_name": "Buscaglia M",
+        "identifiers": [
+          "0000-0001-5010-0278"
+        ],
+        "affiliations": [
+          "Dipartimento di Biotecnologie Mediche e Medicina Traslazionale, Università di Milano, 20054 Segrate (MI), Italy."
+        ]
+      },
+      {
+        "full_name": "Bellini, Tommaso",
+        "short_name": "Bellini T",
+        "identifiers": [
+          "0000-0003-4898-4400"
+        ],
+        "affiliations": [
+          "Dipartimento di Biotecnologie Mediche e Medicina Traslazionale, Università di Milano, 20054 Segrate (MI), Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Apr 7",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/01 06:00",
+    "fetched_at": "2026-09-27 16:37:23"
+  },
+  "links": {
+    "cites": [
+      "41580774",
+      "39634532",
+      "36275619",
+      "34871443"
+    ],
+    "refs": [
+      "32738217",
+      "32682257",
+      "29216364",
+      "28790414",
+      "27581526",
+      "27122358",
+      "26890964",
+      "26188676",
+      "26047462",
+      "25692597",
+      "25313048",
+      "25304387",
+      "25215497",
+      "24838572",
+      "24243859",
+      "23696673",
+      "23430151",
+      "23407358",
+      "22296921",
+      "22084422",
+      "21071403",
+      "19815308",
+      "19625494",
+      "19443739",
+      "19372434",
+      "19158363",
+      "18611375",
+      "17703195",
+      "17055530",
+      "16959962",
+      "16670683",
+      "15797195",
+      "15797194",
+      "15514152",
+      "15465864",
+      "15256668",
+      "15081905",
+      "15053673",
+      "12218191",
+      "11404456",
+      "9593720",
+      "8668194",
+      "8566551",
+      "8346441",
+      "2511324",
+      "1557122"
+    ],
+    "similar": [
+      "33916983",
+      "18611375",
+      "8312971",
+      "8003979",
+      "18491920",
+      "11080623",
+      "7958913",
+      "8130221",
+      "1958667",
+      "1303761",
+      "28056036",
+      "14730976",
+      "9150406",
+      "7899077",
+      "30908862",
+      "10931832",
+      "11316794",
+      "8486650",
+      "18755072",
+      "12798683",
+      "8227030",
+      "10642181",
+      "15459288",
+      "1557122",
+      "12903360",
+      "23166026",
+      "15003448",
+      "9628342",
+      "16615914",
+      "2497463",
+      "1544495",
+      "10228169",
+      "12381320",
+      "2511324",
+      "10588902",
+      "15161958",
+      "8683583",
+      "11206057",
+      "1557129",
+      "2107541",
+      "2186803",
+      "11863454",
+      "1557130",
+      "12727884",
+      "10747782",
+      "23345104",
+      "8248805",
+      "9551098",
+      "22488857",
+      "15469275",
+      "16605275",
+      "7666521",
+      "8528081",
+      "8672437",
+      "12564929",
+      "25813861",
+      "2018497",
+      "26002116",
+      "18931787",
+      "26721385",
+      "8346441",
+      "10331877",
+      "8383120",
+      "8337832",
+      "17197415",
+      "14680970",
+      "15514679",
+      "16784907",
+      "16758500",
+      "16239078",
+      "7479865",
+      "31533362",
+      "16681380",
+      "10734220",
+      "9866677",
+      "11152601",
+      "12909011",
+      "8503934",
+      "9371585",
+      "8081746",
+      "35269555",
+      "38721783",
+      "37897044",
+      "26745409",
+      "35108320",
+      "21543711"
+    ],
+    "review": [
+      "33916983"
+    ],
+    "pmc": [
+      "8067546"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://air.unimi.it/handle/2434/832334",
+        "provider": "Archivio Istituzionale della Ricerca Unimi - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from AIR - Univ. Milan"
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms22083813",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33916983/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/33916983",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33916983",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33916983",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

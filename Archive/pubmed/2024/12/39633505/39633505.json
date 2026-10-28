@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "39633505",
+    "doi": "10.1186/s13058-024-01915-5",
+    "title": "Image analysis-based identification of high risk ER-positive, HER2-negative breast cancers."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Breast cancer subtypes Luminal A and Luminal B are classified by the expression of PAM50 genes and may benefit from different treatment strategies. Machine learning models based on H&E images may contain features associated with subtype, allowing early identification of tumors with higher risk of recurrence. METHODS: H&E images (n = 630 ER+/HER2-breast cancers) were pixel-level segmented into epithelium and stroma. Convolutional neural network and multiple instance learning were used to extract image features from original and segmented images. Patient-level classification models were trained to discriminate Luminal A versus B image features in tenfold cross-validation, with or without grade adjustment. The best-performing visual classifier was incorporated into envisioned diagnostic protocols as an alternative to genomic testing (PAM50). The protocols were then compared in time-to-recurrence models. RESULTS: Among ER+/HER2-tumors, the image-based protocol differentiated recurrence times with a hazard ratio (HR) of 2.81 (95% CI: 1.73-4.56), which was similar to the HR for PAM50 (2.66, 95% CI: 1.65-4.28). Grade adjustment did not improve subtype prediction accuracy, but did help balance sensitivity and specificity. Among high grade participants, sensitivity and specificity (0.734 and 0.474, respectively) became more similar (0.732 and 0.624, respectively) in grade-adjusted models. The original and epithelium-specific images had similar performance and highest accuracy, followed by stroma or binarized images showing only the epithelial-stromal interface. CONCLUSIONS: Given low rates of genomic testing uptake nationally, image-based methods may help identify ER+/HER2-patients who could benefit from testing.",
+    "keywords": [
+      "Breast cancer",
+      "CBCS3",
+      "Distance weighted learning",
+      "Histology",
+      "Image segmentation",
+      "Multiple instance learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/pathology/genetics/metabolism/diagnosis/diagnostic imaging",
+      "Female",
+      "*Erb-b2 Receptor Tyrosine Kinases/metabolism/genetics",
+      "*Receptors, Estrogen/metabolism",
+      "*Biomarkers, Tumor/genetics",
+      "Neoplasm Recurrence, Local/genetics/pathology",
+      "Image Processing, Computer-Assisted/methods",
+      "Middle Aged",
+      "Machine Learning",
+      "Neural Networks, Computer",
+      "Prognosis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Dong Neuck",
+        "Li, Yao",
+        "Olsson, Linnea T",
+        "Hamilton, Alina M",
+        "Calhoun, Benjamin C",
+        "Hoadley, Katherine A",
+        "Marron, J S",
+        "Troester, Melissa A"
+      ],
+      "short_names": [
+        "Lee DN",
+        "Li Y",
+        "Olsson LT",
+        "Hamilton AM",
+        "Calhoun BC",
+        "Hoadley KA",
+        "Marron JS",
+        "Troester MA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biostatistics, University of North Carolina, Chapel Hill, NC, USA.",
+        "Department of Statistics and Operations Research, University of North Carolina, Chapel Hill, NC, USA.",
+        "Department of Epidemiology, University of North Carolina, Chapel Hill, NC, USA.",
+        "Lineberger Comprehensive Cancer Center, University of North Carolina, Chapel Hill, NC, USA.",
+        "Department of Pathology and Laboratory Medicine, University of North Carolina, Chapel Hill, NC, USA.",
+        "Department of Genetics, University of North Carolina, Chapel Hill, NC, USA.",
+        "Department of Statistics and Operations Research, University of North Carolina, Chapel Hill, NC, USA. marron@unc.edu.",
+        "Department of Epidemiology, University of North Carolina, Chapel Hill, NC, USA. troester@unc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Dong Neuck",
+        "short_name": "Lee DN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, University of North Carolina, Chapel Hill, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Yao",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics and Operations Research, University of North Carolina, Chapel Hill, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Olsson, Linnea T",
+        "short_name": "Olsson LT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology, University of North Carolina, Chapel Hill, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Hamilton, Alina M",
+        "short_name": "Hamilton AM",
+        "identifiers": [],
+        "affiliations": [
+          "Lineberger Comprehensive Cancer Center, University of North Carolina, Chapel Hill, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Calhoun, Benjamin C",
+        "short_name": "Calhoun BC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of North Carolina, Chapel Hill, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Hoadley, Katherine A",
+        "short_name": "Hoadley KA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, University of North Carolina, Chapel Hill, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Marron, J S",
+        "short_name": "Marron JS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics and Operations Research, University of North Carolina, Chapel Hill, NC, USA. marron@unc.edu."
+        ]
+      },
+      {
+        "full_name": "Troester, Melissa A",
+        "short_name": "Troester MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology, University of North Carolina, Chapel Hill, NC, USA. troester@unc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Breast cancer research : BCR"
+    ],
+    "journal_abbrev": [
+      "Breast Cancer Res"
+    ],
+    "pub_date": "2024 Dec 4",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/05 06:23",
+    "fetched_at": "2026-09-30 07:20:52"
+  },
+  "links": {
+    "cites": [
+      "42151660",
+      "41545684"
+    ],
+    "refs": [
+      "39001357",
+      "38270534",
+      "35432688",
+      "34926274",
+      "34845230",
+      "31358020",
+      "30182055",
+      "26451490",
+      "23000897",
+      "22217398",
+      "21709140",
+      "21152360",
+      "20671804",
+      "19204204",
+      "10963602"
+    ],
+    "similar": [
+      "39633505",
+      "31992350",
+      "30679318",
+      "26846986",
+      "27762648",
+      "40227228",
+      "41261821",
+      "25777181",
+      "25880075",
+      "33152285",
+      "39821037",
+      "35699854",
+      "24521998",
+      "26631838",
+      "29409530",
+      "23035882",
+      "27022068",
+      "41327380",
+      "29137653",
+      "40963050",
+      "35568835",
+      "30694768",
+      "22418568",
+      "28057031",
+      "32859560",
+      "22544643",
+      "40997745",
+      "37773555",
+      "40044693",
+      "28249905",
+      "39177880",
+      "20697807",
+      "25081661",
+      "27569020",
+      "39477071",
+      "24521995",
+      "24337596",
+      "40148997",
+      "32592992",
+      "22489698",
+      "25736840",
+      "39779447",
+      "40143808",
+      "40413084",
+      "30367449",
+      "40063317",
+      "39924532",
+      "28423537",
+      "20711652",
+      "34146382",
+      "32962980",
+      "32350370",
+      "29450494",
+      "27362843",
+      "34257555",
+      "33028590",
+      "24443618",
+      "25086634",
+      "21063923",
+      "29523126",
+      "27743957",
+      "21472434",
+      "22961208",
+      "32048817",
+      "24060333",
+      "35985932",
+      "30361874",
+      "26579819",
+      "22621334",
+      "28984296",
+      "16757721",
+      "36911927",
+      "27172895",
+      "30927939",
+      "27477822",
+      "30613307",
+      "30129697",
+      "40183298",
+      "23022996",
+      "40288025",
+      "27281556",
+      "28409323",
+      "39251516",
+      "40243160",
+      "31209809",
+      "35711896",
+      "29573739",
+      "28378298",
+      "26340863",
+      "40936892",
+      "20049641",
+      "25964246",
+      "29902286",
+      "32229175",
+      "31307414",
+      "38161200",
+      "25600243",
+      "28957821",
+      "24008056",
+      "23701403"
+    ],
+    "review": [
+      "39633505",
+      "39821037"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-024-01915-5",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39633505/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

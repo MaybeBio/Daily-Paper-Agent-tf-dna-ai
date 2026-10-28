@@ -1,0 +1,116 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methodology, results, discussion, conclusion, data availability)
+- **Assessment boundary** Computational drug discovery study; no experimental validation of predicted inhibitors
+- **Shared manuscript claim summary** The authors developed a full-length homology model of FOXC2, performed ligand-based virtual screening against 15 million compounds to find MC-1-F2 analogues, conducted structure-based docking and de novo design, and identified eight promising lead compounds with favorable physicochemical properties and predicted binding affinities
+- **Visible evidence base** Abstract, introduction, methodology, results, discussion, conclusion, data availability sections; figures and tables referenced but not provided
+- **Missing materials affecting confidence** Figures 1-11, Tables 1-2, Supplementary Tables S1-S2, structural coordinates of the homology model, docking poses, MD trajectory data, and validation metrics were not available for independent assessment
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational workflow combining ligand-based and structure-based approaches to identify potential FOXC2 inhibitors. The study addresses a relevant therapeutic target in cancer metastasis and applies a reasonable multi-step virtual screening pipeline. However, the scientific case is substantially weakened by the absence of experimental validation, the lack of a positive control in the docking and screening procedures, and several methodological ambiguities. The homology model quality metrics are partially reported but the model itself is not available for inspection. The claim that eight compounds are "promising leads" is not established from the provided evidence, as no functional assays, cellular studies, or in vivo experiments are presented. The manuscript would benefit from clearer justification of methodological choices and a more critical interpretation of the computational results.
+- **Who would be interested in the results, and why** Computational medicinal chemists and structural biologists working on transcription factor targeting, particularly those interested in FOXC2 as an oncology target. Researchers developing virtual screening workflows that combine ligand-based and structure-based methods may find the methodological pipeline of interest. The identification of a putative allosteric binding site involving the C-terminal region could be of interest to groups studying FOXC2 regulation.
+- **Major strengths** The study addresses a clinically relevant target with an unmet need for small molecule inhibitors. The combination of ligand-based and structure-based approaches is methodologically sound in principle. The authors appropriately recognize the limitation of MC-1-F2's poor physicochemical properties and aim to improve upon this. The use of multiple validation tools (MolProbity, ERRAT, ProSA) for model assessment is commendable. The application of a neural network-based binding predictor (BindScope) as a secondary filter is a modern approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** "eight promising hits as lead compounds targeting FOXC2"
+  - **Evidence pointer** Results section, Discussion and Conclusion section
+  - **Concern** The manuscript identifies eight compounds as "promising hits" and "lead compounds" based solely on computational predictions. No experimental validation of any kind is presented, including no binding assays, no cellular activity data, no target engagement studies, and no in vivo efficacy experiments. The term "lead compound" implies a level of validation that is not supported by the evidence provided.
+  - **Why it matters** Computational predictions in virtual screening are known to have high false positive rates. Without experimental confirmation, the claim that these are "promising leads" is speculative and potentially misleading. The scientific community requires at least some experimental validation, even preliminary, to support such claims.
+  - **Resolution test** Provide experimental validation data such as surface plasmon resonance, isothermal titration calorimetry, or cellular assays demonstrating target engagement and functional activity for at least the top compounds. Alternatively, substantially temper the claims to reflect that these are computational predictions requiring experimental validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The virtual screening protocol identifies compounds with higher binding affinity than MC-1-F2
+  - **Evidence pointer** Results section, "Screening using docking method against the determined active site" and "De novo design of inhibitors against full-length FOXC2"
+  - **Concern** The docking and screening protocol lacks a positive control. The authors do not report docking scores for MC-1-F2 itself in the same screening pipeline, nor do they report enrichment studies or decoy sets to validate that their screening protocol can distinguish known binders from non-binders. The claim that the identified compounds have "higher binding affinities" than MC-1-F2 is based on MM/GBSA calculations without benchmarking against known experimental values.
+  - **Why it matters** Without validation of the screening protocol using known actives and inactives, the reliability of the docking scores and the subsequent selection of hits cannot be assessed. The absence of a positive control makes it impossible to determine whether the scoring function is appropriate for this target.
+  - **Resolution test** Include docking scores for MC-1-F2 as a reference, perform enrichment studies using a decoy set, and benchmark the MM/GBSA calculations against experimentally determined binding affinities for known FOXC2 ligands or closely related forkhead family proteins.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model quality and availability
+  - **Claim pointer** "The quality of this 3D model of full-length FOXC2 was evaluated using MolProbity, ERRAT, and ProSA modules"
+  - **Evidence pointer** Results section, "Quality of the generated 3D structure of the full-length FOXC2"
+  - **Concern** The homology model is the central structural basis for all downstream docking and design studies, yet the model coordinates are not provided, and the reported validation metrics are incomplete. The Ramachandran plot shows 3.6% outliers, which is relatively high for a model intended for structure-based drug design. The authors report ERRAT and ProSA scores but do not provide the actual values or comparative context. The model is not deposited in any public repository.
+  - **Why it matters** The reliability of all docking results depends entirely on the quality of the homology model. Without access to the model coordinates and complete validation metrics, independent assessment of the model quality is impossible. A model with 3.6% Ramachandran outliers may have local structural inaccuracies in the binding site that could compromise docking reliability.
+  - **Resolution test** Deposit the model coordinates in a public repository, provide complete validation metrics with comparative context to experimental structures, and demonstrate that the binding site geometry is reliable through additional validation such as molecular dynamics equilibration analysis and binding site conservation analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Binding site identification
+  - **Claim pointer** "The binding site associated with the highest score upon docking of MC-1-F2 was chosen to be the active site"
+  - **Evidence pointer** Results section, "Identification of the generated model active site"
+  - **Concern** The binding site selection procedure is circular. The authors used docking of MC-1-F2 to select among three candidate sites, but MC-1-F2 is a large molecule with poor physicochemical properties, and its experimentally characterized binding mode is not well defined. The claim that the selected site is the "active site" is not supported by mutagenesis data, conservation analysis, or comparison with known forkhead domain binding sites.
+  - **Why it matters** If the selected binding site is not the biologically relevant site, all subsequent docking and design efforts are targeting the wrong location. The authors themselves suggest the compounds may be allosteric, which further complicates the interpretation of the binding site relevance.
+  - **Resolution test** Provide additional evidence for the biological relevance of the selected binding site, such as sequence conservation analysis across FOX family members, comparison with known protein-protein interaction interfaces, or site-directed mutagenesis data. Alternatively, clearly frame the identified site as a putative allosteric site requiring experimental validation.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physicochemical property assessment
+  - **Claim pointer** "The physicochemical properties of the top ten hits are favorable compared to MC-1-F2, that could provide better bioavailability and higher chance of being an efficient drug"
+  - **Evidence pointer** Results section, "De novo design of inhibitors against full-length FOXC2", Table 2
+  - **Concern** The authors claim improved physicochemical properties but only report a limited set of properties. The comparison to MC-1-F2 is incomplete, and the authors do not discuss whether the improved properties come at the cost of reduced binding affinity or specificity. The claim that better properties mean "higher chance of being an efficient drug" is an oversimplification that ignores other critical factors such as metabolic stability, permeability, and toxicity.
+  - **Why it matters** The central motivation of the study is to overcome MC-1-F2's poor physicochemical properties. If the property improvements are marginal or come with trade-offs, the practical value of the identified compounds is diminished.
+  - **Resolution test** Provide a comprehensive physicochemical property comparison including solubility, permeability predictions, metabolic stability predictions, and discuss the property-activity trade-offs. Include a more nuanced discussion of what "drug-likeness" means in this context.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methodology, "Ligand-based drug design"
+  - **Evidence pointer** Methodology section
+  - **Issue** The description of the similarity search is incomplete. The authors state that "Multi-fingerprint browser based on city-block distance using daylight-type substructure fingerprint (sFP) was utilized" but do not specify the similarity threshold used, the number of fingerprints employed, or the parameters for the city-block distance calculation.
+  - **Required correction** Provide the specific parameters used for the similarity search, including the similarity cutoff, the fingerprint length, and the search algorithm details.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section, "Ligand-based drug design"
+  - **Evidence pointer** Results section
+  - **Issue** The manuscript states that the search "resulted in nearly 11,000 compounds" in the Results section but the Methodology states "nearly 1,000 compounds from the ZINC database and nearly 10,000 compounds from the ChEMBL database." The discrepancy between "nearly 11,000" and the sum of the individual database counts should be clarified.
+  - **Required correction** Reconcile the numbers reported in the Methodology and Results sections to ensure consistency.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Discussion and Conclusion
+  - **Evidence pointer** Discussion and Conclusion section
+  - **Issue** The abstract and results mention "eight promising hits" but the discussion states "top 8 hits" while the results section describes "top 10 hits" from the combined LBDD and SBDD approaches. The manuscript should clarify whether the final set is eight or ten compounds.
+  - **Required correction** Ensure consistent reporting of the final number of identified compounds throughout the manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methodology, "Molecular dynamics simulations"
+  - **Evidence pointer** Methodology section
+  - **Issue** The molecular dynamics simulation parameters are not fully described. The manuscript mentions the use of CHARMM for the homology model simulation and AMBER for the ligand complex simulations but does not specify the force field parameters for the ligands, the water box dimensions, the temperature and pressure coupling methods, or the simulation time for the ligand complex simulations.
+  - **Required correction** Provide complete simulation parameters for both the homology model MD and the ligand complex MD simulations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Results section, "MM/GBSA calculation"
+  - **Evidence pointer** Results section
+  - **Issue** The MM/GBSA results are presented without error estimates or statistical analysis. The authors report binding free energies but do not provide standard deviations from multiple runs or convergence analysis.
+  - **Required correction** Report the MM/GBSA values with standard deviations and discuss the convergence of the calculations.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction does not discuss alternative computational approaches that have been applied to FOXC2 or other forkhead family proteins, nor does it compare the current approach to existing FOXC2 inhibitor discovery efforts beyond MC-1-F2.
+  - **Required correction** Add a brief discussion of prior computational studies targeting FOXC2 or related forkhead proteins to contextualize the novelty of the current approach.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and Software Availability
+  - **Evidence pointer** Data and Software Availability section
+  - **Issue** The authors do not provide the SMILES strings or structural coordinates of the eight identified compounds, nor do they provide the docking poses or the MM/GBSA input files. This limits the reproducibility of the study.
+  - **Required correction** Provide the chemical structures of the identified compounds and the key computational outputs as supplementary data.
+
+## Risk / unsupported claims
+- The claim that eight compounds are "promising hits as lead compounds" is unsupported without experimental validation
+- The claim that the identified compounds have "higher binding affinities" than MC-1-F2 is based solely on MM/GBSA calculations without experimental benchmarking
+- The assertion that the selected binding site is the "active site" is not supported by experimental evidence
+- The claim that improved physicochemical properties will lead to "better bioavailability and higher chance of being an efficient drug" is speculative
+- The statement that the homology model is "stable" based on RMSD values is weakly supported, as the reported RMSD range of 1.15-1.20 nm is relatively high and the analysis appears to be based on a single simulation
+- The claim that BindScore "outperforms classical virtual screening methods" is presented without comparative data from this study
+- The functional significance of the four shared binding residues (ASN449, LEU459, SER476, THR484) is speculative without mutagenesis or functional studies

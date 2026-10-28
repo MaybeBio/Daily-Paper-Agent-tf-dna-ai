@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and conclusions as presented in the provided manuscript
+- **Shared manuscript claim summary** The manuscript reports that the PHD finger of TIP5 binds the histone octamer in a zinc-dependent manner, that the PHD-BRD interdomain linker enhances this binding in a length-dependent fashion, and that AlphaFold 3 predictions provide structural rationalization for these observations.
+- **Visible evidence base** Figures 1–6 (referenced but not fully visible in text), Table 1, Supplemental Figure S1, Methods section
+- **Missing materials affecting confidence** Actual figure images, raw quantification data, statistical details, AlphaFold 3 output files, experimental replicates information
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in chromatin biology, namely how the TIP5 PHD-BRD module engages the histone octamer. The experimental design is straightforward and the finding that linker length correlates with binding affinity is potentially interesting. However, the study is largely descriptive and the computational predictions are presented as exploratory, which limits the strength of the mechanistic conclusions. Several technical details and controls are insufficiently described, and the link between the in vitro observations and the proposed biological implications remains speculative.
+- **Who would be interested in the results, and why** Researchers studying chromatin remodeling complexes, PHD finger biology, histone recognition mechanisms, and the structure-function relationships of BAZ family proteins. The findings may also be of interest to those investigating nucleosome recognition by multidomain chromatin factors.
+- **Major strengths** The study addresses a gap in understanding how TIP5 engages the full histone octamer rather than isolated histone peptides. The use of both experimental pull-down assays and computational predictions provides complementary perspectives. The finding that the interdomain linker contributes positively to binding contrasts with previous reports on the related BAZ2B protein, which adds a comparative dimension.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that zinc depletion or mutation of the PHD finger abolishes TIP5-octamer interaction, and that high salt partially restores binding.
+  - **Evidence pointer** Figure 1A–D, Section 3.1, Section 3.2
+  - **Concern** The manuscript does not provide sufficient evidence that the observed effects are specifically due to PHD finger disruption rather than global protein misfolding or aggregation. The 1,10-phenanthroline treatment is applied to full-length TIP5, and the extent of zinc removal is not quantified. The partial restoration at 500 mM KCl is interpreted as "improper folding alleviated by higher ionic strength," but alternative explanations such as non-specific electrostatic interactions are not rigorously excluded. The mutant studies are only performed on GST-fusion fragments, not on full-length TIP5, so the relevance to the full-length protein context is unclear.
+  - **Why it matters** The central conclusion that an intact PHD finger is crucial for octamer binding depends on demonstrating specificity of the disruption. Without controls for protein folding status, aggregation state, or non-specific binding, the mechanistic interpretation is not secure.
+  - **Resolution test** Provide circular dichroism or limited proteolysis data showing that zinc depletion or mutation does not globally unfold the PHD domain. Include a control with a structurally unrelated zinc-binding domain. Quantify residual zinc content. Test the mutant in the context of full-length TIP5.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that extending the interdomain linker progressively enhances binding affinity, with the long linker showing the highest affinity.
+  - **Evidence pointer** Figure 4B, 4D, Section 3.3
+  - **Concern** The quantification of binding affinities is based on pull-down assays with a single concentration of histone octamer. No binding curves, dissociation constants, or concentration-dependent experiments are presented. The statement that the long linker has the "highest binding affinity" is not supported by equilibrium binding measurements. The differences between PHD, PHD+sl, and PHD+ll are reported as relative band intensities, but the statistical treatment and number of replicates are not fully described.
+  - **Why it matters** The central claim of linker-length-dependent affinity enhancement requires quantitative binding data. Without such data, the conclusion that linker length modulates affinity is not established.
+  - **Resolution test** Perform quantitative binding assays (e.g., fluorescence polarization, ITC, or surface plasmon resonance) with purified components to determine equilibrium dissociation constants for each construct.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The claim that AlphaFold 3 predictions explain the observed binding preferences and that the long linker reduces hydrogen bonds while increasing van der Waals interactions.
+  - **Evidence pointer** Figure 6A–D, Table 1, Section 3.4
+  - **Concern** The AlphaFold 3 predictions are acknowledged as exploratory, yet they are used to rationalize experimental observations. The correlation between predicted contact numbers and measured binding is not quantitatively assessed. The anomaly regarding the "stickiness" of the short linker is mentioned but not resolved. The predictive confidence scores (pTM, ipTM) are in the 0.66–0.72 range, which is moderate, and the manuscript does not discuss the limitations of using these predictions to draw mechanistic conclusions.
+  - **Why it matters** The computational analysis is presented as providing insight into binding interfaces, but the moderate confidence and lack of experimental validation of predicted interfaces weaken the interpretive value.
+  - **Resolution test** Validate predicted interfaces through mutagenesis of specific residues predicted to be involved in contacts. Provide a more rigorous statistical comparison between predicted parameters and experimental binding data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness
+  - **Claim pointer** The claim that the PHD finger is the primary binding partner for histone H3 within the octamer.
+  - **Evidence pointer** Figure 5, Section 3.4
+  - **Concern** The experiment in Figure 5 shows that all four histones are present in the pull-down, but the manuscript does not demonstrate which histone is the direct binding partner. The statement that H3 is the primary partner is inferred from prior literature and from the AlphaFold predictions, but no direct evidence (e.g., cross-linking, competition experiments, or binding to individual histones) is provided.
+  - **Why it matters** The manuscript claims to identify H3 as the primary binding partner, but the experimental system does not distinguish direct from indirect interactions within the octamer complex.
+  - **Resolution test** Perform binding assays with individual recombinant histones or H3 tail peptides to demonstrate direct interaction. Use competition experiments with H3 tail peptides to compete octamer binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the baculovirus amplification and protein expression lacks details on the multiplicity of infection, time course of expression, and yield.
+  - **Required correction** Provide additional experimental details for reproducibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 1B, 1D, 4D
+  - **Evidence pointer** Location not provided
+  - **Issue** The quantification methods are described as using ImageJ, but the number of independent experiments, error bars, and statistical tests are not fully specified in the text.
+  - **Required correction** Clearly state the number of replicates, the measure of variability, and the statistical tests used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion of the biological implications of TIP5 overexpression in cancer is speculative and not directly connected to the experimental findings.
+  - **Required correction** Either remove or clearly label this section as speculative and outside the scope of the current data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Location not provided
+  - **Issue** The AlphaFold 3 prediction parameters and selection criteria for the "most representative" models are not described in sufficient detail.
+  - **Required correction** Provide the specific parameters used for model selection and the criteria for choosing the representative structures.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (specificity of zinc disruption effects), R1-M2 (lack of quantitative binding data)
+- **Assessment against Nature-style criteria** Originality: The study addresses a specific question about TIP5-octamer interactions, but the conceptual framework is largely built on prior work on BAZ family proteins. The finding regarding linker length is incremental rather than transformative. Scientific importance: The results are of interest to a specialized audience in chromatin biology, but the broader significance is limited by the descriptive nature of the study and the lack of mechanistic depth. Interdisciplinary readership: The manuscript is unlikely to attract readers beyond the chromatin field. Technical soundness: The experimental approach is appropriate for initial observations, but the lack of quantitative binding data and controls for protein folding status are significant weaknesses. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with chromatin terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents preliminary observations that could develop into a solid contribution with additional quantitative binding data, proper controls for the specificity of zinc disruption, and validation of the computational predictions.
+
+## Risk / unsupported claims
+- The claim that the long linker reduces hydrogen bonds while increasing van der Waals interactions is based on exploratory AlphaFold predictions with moderate confidence scores and is not experimentally validated.
+- The claim that the PHD finger is the primary binding partner for H3 within the octamer is inferred rather than directly demonstrated.
+- The statement that high salt restores binding of zinc-depleted TIP5 via "improper folding alleviated" is speculative and not supported by structural or biophysical evidence.
+- The biological implications regarding TIP5 overexpression in cancer are presented without direct experimental support from this study.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38688978",
+  "title": "Identification and clinicopathological analysis of potential p73-regulated biomarkers in colorectal cancer via integrative bioinformatics.",
+  "authors": "Bareja, Chanchal; Dwivedi, Kountay; Uboveja, Apoorva; Mathur, Ankit; Kumar, Naveen; Saluja, Daman",
+  "journal": "Scientific reports",
+  "published_date": "2024-05-01",
+  "window": {
+    "start": "2024-04-29",
+    "end": "2024-05-05"
+  },
+  "score": 3,
+  "one_liner_zh": "该文通过转录组和机器学习识别结直肠癌中p73调控的生物标志物，但核心是基因表达与临床分类，缺乏蛋白质-DNA互作建模或TF-DNA结合机制研究，仅边缘相关。",
+  "abstract": "This study aims to decipher crucial biomarkers regulated by p73 for the early detection of colorectal cancer (CRC) by employing a combination of integrative bioinformatics and expression profiling techniques. The transcriptome profile of HCT116 cell line p53 -/- p73 +/+ and p53 -/- p73 knockdown was performed to identify differentially expressed genes (DEGs). This was corroborated with three CRC tissue expression datasets available in Gene Expression Omnibus. Further analysis involved KEGG and Gene ontology to elucidate the functional roles of DEGs. The protein-protein interaction (PPI) network was constructed using Cytoscape to identify hub genes. Kaplan-Meier (KM) plots along with GEPIA and UALCAN database analysis provided the insights into the prognostic and diagnostic significance of these hub genes. Machine/deep learning algorithms were employed to perform TNM-stage classification. Transcriptome profiling revealed 1289 upregulated and 1897 downregulated genes. When intersected with employed CRC datasets, 284 DEGs were obtained. Comprehensive analysis using gene ontology and KEGG revealed enrichment of the DEGs in metabolic process, fatty acid biosynthesis, etc. The PPI network constructed using these 284 genes assisted in identifying 20 hub genes. Kaplan-Meier, GEPIA, and UALCAN analyses uncovered the clinicopathological relevance of these hub genes. Conclusively, the deep learning model achieved TNM-stage classification accuracy of 0.78 and 0.75 using 284 DEGs and 20 hub genes, respectively. The study represents a pioneer endeavor amalgamating transcriptomics, publicly available tissue datasets, and machine learning to unveil key CRC-associated genes. These genes are found relevant regarding the patients' prognosis and diagnosis. The unveiled biomarkers exhibit robustness in TNM-stage prediction, thereby laying the foundation for future clinical applications and therapeutic interventions in CRC management.",
+  "abstract_zh": "本研究旨在通过整合生物信息学与表达谱分析技术，揭示由p73调控的关键生物标志物，用于结直肠癌（CRC）的早期检测。对HCT116细胞系p53 -/- p73 +/+和p53 -/- p73敲低进行了转录组谱分析，以识别差异表达基因（DEGs）。这一结果与Gene Expression Omnibus中可用的三个CRC组织表达数据集进行了验证。进一步分析涉及KEGG和基因本体论，以阐明DEGs的功能角色。使用Cytoscape构建了蛋白质-蛋白质相互作用（PPI）网络，以识别枢纽基因。Kaplan-Meier（KM）图以及GEPIA和UALCAN数据库分析提供了这些枢纽基因在预后和诊断意义方面的见解。采用机器/深度学习算法进行TNM分期分类。转录组谱分析揭示了1289个上调基因和1897个下调基因。与所用CRC数据集交叉后，获得了284个DEGs。通过基因本体论和KEGG的综合分析显示，DEGs在代谢过程、脂肪酸生物合成等方面富集。使用这284个基因构建的PPI网络有助于识别20个枢纽基因。Kaplan-Meier、GEPIA和UALCAN分析揭示了这些枢纽基因的临床病理学相关性。最终，深度学习模型分别使用284个DEGs和20个枢纽基因实现了TNM分期分类准确率0.78和0.75。本研究是将转录组学、公开可用的组织数据集和机器学习相结合的开创性尝试，旨在揭示关键的CRC相关基因。这些基因被发现与患者的预后和诊断相关。所揭示的生物标志物在TNM分期预测中表现出稳健性，从而为未来CRC管理中的临床应用和治疗干预奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38688978/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38688978/",
+  "paper_page_path": "papers/pubmed/38688978/index.html"
+}

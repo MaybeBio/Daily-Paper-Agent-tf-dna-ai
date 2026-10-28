@@ -1,0 +1,433 @@
+{
+  "identity": {
+    "pmid": "36156153",
+    "doi": "10.1093/nar/gkac806",
+    "title": "A massively parallel reporter assay reveals focused and broadly encoded RNA localization signals in neurons."
+  },
+  "content": {
+    "abstract": "Asymmetric subcellular mRNA localization allows spatial regulation of gene expression and functional compartmentalization. In neurons, localization of specific mRNAs to neurites is essential for cellular functioning. However, it is largely unknown how transcript sorting works in a sequence-specific manner. Here, we combined subcellular transcriptomics and massively parallel reporter assays and tested  approximately 50 000 sequences for their ability to localize to neurites. Mapping the localization potential of &gt;300 genes revealed two ways neurite targeting can be achieved: focused localization motifs and broadly encoded localization potential. We characterized the interplay between RNA stability and localization and identified motifs able to bias localization towards neurite or soma as well as the trans-acting factors required for their action. Based on our data, we devised machine learning models that were able to predict the localization behavior of novel reporter sequences. Testing this predictor on native mRNA sequencing data showed good agreement between predicted and observed localization potential, suggesting that the rules uncovered by our MPRA also apply to the localization of native full-length transcripts.",
+    "keywords": [],
+    "mesh_terms": [
+      "Neurites/metabolism",
+      "*Neurons/metabolism",
+      "*RNA Stability",
+      "RNA, Messenger/genetics/metabolism",
+      "Trans-Activators/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mikl, Martin",
+        "Eletto, Davide",
+        "Nijim, Malak",
+        "Lee, Minkyoung",
+        "Lafzi, Atefeh",
+        "Mhamedi, Farah",
+        "David, Orit",
+        "Sain, Simona Baghai",
+        "Handler, Kristina",
+        "Moor, Andreas E"
+      ],
+      "short_names": [
+        "Mikl M",
+        "Eletto D",
+        "Nijim M",
+        "Lee M",
+        "Lafzi A",
+        "Mhamedi F",
+        "David O",
+        "Sain SB",
+        "Handler K",
+        "Moor AE"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8913-7158",
+        "ORCID: 0000-0001-8715-8449"
+      ],
+      "affiliations": [
+        "Department of Biosystems Science and Engineering, ETH Zurich, Basel, Switzerland.",
+        "Department of Human Biology, University of Haifa, Haifa, Israel.",
+        "Department of Biosystems Science and Engineering, ETH Zurich, Basel, Switzerland.",
+        "Department of Human Biology, University of Haifa, Haifa, Israel.",
+        "Department of Biosystems Science and Engineering, ETH Zurich, Basel, Switzerland.",
+        "Department of Biosystems Science and Engineering, ETH Zurich, Basel, Switzerland.",
+        "Department of Biosystems Science and Engineering, ETH Zurich, Basel, Switzerland.",
+        "Department of Human Biology, University of Haifa, Haifa, Israel.",
+        "Department of Biosystems Science and Engineering, ETH Zurich, Basel, Switzerland.",
+        "Department of Biosystems Science and Engineering, ETH Zurich, Basel, Switzerland.",
+        "Department of Biosystems Science and Engineering, ETH Zurich, Basel, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mikl, Martin",
+        "short_name": "Mikl M",
+        "identifiers": [
+          "0000-0001-8913-7158"
+        ],
+        "affiliations": [
+          "Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland.",
+          "Department of Human Biology, University of Haifa, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Eletto, Davide",
+        "short_name": "Eletto D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Nijim, Malak",
+        "short_name": "Nijim M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Biology, University of Haifa, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Lee, Minkyoung",
+        "short_name": "Lee M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Lafzi, Atefeh",
+        "short_name": "Lafzi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Mhamedi, Farah",
+        "short_name": "Mhamedi F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "David, Orit",
+        "short_name": "David O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Biology, University of Haifa, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Sain, Simona Baghai",
+        "short_name": "Sain SB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Handler, Kristina",
+        "short_name": "Handler K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Moor, Andreas E",
+        "short_name": "Moor AE",
+        "identifiers": [
+          "0000-0001-8715-8449"
+        ],
+        "affiliations": [
+          "Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2022 Oct 14",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/27 06:00",
+    "fetched_at": "2026-09-28 14:13:21"
+  },
+  "links": {
+    "cites": [
+      "42680754",
+      "42455625",
+      "42428795",
+      "42132289",
+      "42094343",
+      "42086745",
+      "42039511",
+      "41824572",
+      "41398473",
+      "41197609",
+      "41163196",
+      "40316942",
+      "40243060",
+      "40089499",
+      "40037712",
+      "40033325",
+      "39982819",
+      "39605352",
+      "39404071",
+      "39362779",
+      "39019033",
+      "38956277",
+      "38940340",
+      "38726866",
+      "36867563",
+      "36646877",
+      "36107770",
+      "35513423",
+      "35096024",
+      "34998919",
+      "34211375"
+    ],
+    "refs": [
+      "36107770",
+      "33837370",
+      "33564394",
+      "33509999",
+      "33404500",
+      "32728246",
+      "32705646",
+      "32607472",
+      "32546731",
+      "32504555",
+      "31598693",
+      "31594945",
+      "31530582",
+      "31178116",
+      "31066453",
+      "30742998",
+      "30678683",
+      "30590745",
+      "30395289",
+      "30174293",
+      "29859120",
+      "29656876",
+      "29466324",
+      "29410437",
+      "29335281",
+      "28928394",
+      "28798045",
+      "28633045",
+      "28416821",
+      "28137873",
+      "27956239",
+      "27911744",
+      "27055826",
+      "26907613",
+      "26816383",
+      "26496609",
+      "25838129",
+      "25549890",
+      "24829458",
+      "23949380",
+      "23512712",
+      "23351709",
+      "23328393",
+      "22912410",
+      "22743772",
+      "22609971",
+      "22578497",
+      "22371081",
+      "22215810",
+      "21098654",
+      "19965463",
+      "19910308",
+      "19617889",
+      "19369540",
+      "19239891",
+      "18792935",
+      "18451862",
+      "17923096",
+      "16391004",
+      "12629046",
+      "10980424",
+      "10871274",
+      "9412505",
+      "9322162",
+      "2162385",
+      "2148488"
+    ],
+    "similar": [
+      "36156153",
+      "37451262",
+      "7639096",
+      "36646877",
+      "30590745",
+      "32059075",
+      "28928394",
+      "36867563",
+      "26907613",
+      "29225039",
+      "29378846",
+      "31152051",
+      "22383561",
+      "33606245",
+      "35438793",
+      "15964806",
+      "12763001",
+      "8770551",
+      "36107770",
+      "23903829",
+      "21116543",
+      "24244461",
+      "24098440",
+      "32961072",
+      "37872110",
+      "22493061",
+      "10925159",
+      "30678683",
+      "17998247",
+      "9412505",
+      "19429778",
+      "21566646",
+      "21557500",
+      "25825524",
+      "17452113",
+      "34663436",
+      "36949389",
+      "33436052",
+      "33357440",
+      "9698395",
+      "12436937",
+      "11416190",
+      "29079635",
+      "38647082",
+      "14523087",
+      "17893325",
+      "12445464",
+      "24127433",
+      "28640665",
+      "16648466",
+      "31206543",
+      "25301173",
+      "11923432",
+      "36464487",
+      "30742998",
+      "30723792",
+      "11466470",
+      "32581689",
+      "29236252",
+      "12521293",
+      "23962664",
+      "20308067",
+      "29277556",
+      "34285053",
+      "11781334",
+      "8735217",
+      "28204611",
+      "35166036",
+      "10980424",
+      "28298474",
+      "24152552",
+      "25879614",
+      "31501331",
+      "17928298",
+      "19141871",
+      "9739080",
+      "18192611",
+      "12451135",
+      "17853436",
+      "12457569",
+      "23226105",
+      "22087843",
+      "7776983",
+      "19965463",
+      "25838129",
+      "32160541",
+      "19156858",
+      "33682620",
+      "28039391",
+      "16120223",
+      "24009167",
+      "38688123",
+      "19474145",
+      "33199649"
+    ],
+    "review": [
+      "36156153",
+      "32059075",
+      "12763001",
+      "21116543",
+      "32961072",
+      "37872110",
+      "21557500",
+      "17452113",
+      "12436937",
+      "28640665",
+      "11466470",
+      "12521293",
+      "35166036",
+      "10980424",
+      "17853436",
+      "12457569",
+      "19965463",
+      "33682620"
+    ],
+    "pmc": [
+      "9561380"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36156153/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36156153",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-290",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse173098",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkac806",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

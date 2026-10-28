@@ -1,0 +1,249 @@
+{
+  "identity": {
+    "pmid": "42617514",
+    "doi": "10.1016/j.ecoenv.2026.120679",
+    "title": "CEBPB as a candidate mediator of DEGDB-induced tumor-associated phenotypes in colorectal cancer cells."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: To investigate the effects of exposure to diethylene glycol dibenzoate (DEGDB) on malignant progression in colorectal cancer (CRC) cells and to identify a prioritized candidate gene. METHODS: PubChem, SwissADME, ADMETlab 3.0, and ProTox 3.0 were used to characterize the chemical structure and predict the physicochemical and toxicological properties of DEGDB. DEGDB-related targets were retrieved from the Comparative Toxicogenomics Database, STITCH, and SwissTargetPrediction and integrated with differentially expressed genes identified in the GSE39582 and GSE44076 datasets. Functional enrichment analysis and reverse transcription quantitative polymerase chain reaction were used to prioritize CEBPB. Using the GSE132465 single-cell ribonucleic acid (RNA) sequencing dataset, we characterized the cell type-specific expression of CEBPB, intercellular communication, pseudotemporal dynamics, and associated regulatory networks. In silico perturbation analysis was performed to predict transcriptional changes after CEBPB knockout. In HCT116 and SW620 cells, cell proliferation, colony formation, Transwell migration, and wound-healing assays were used to evaluate the effects of DEGDB exposure and CEBPB knockdown. The prognostic relevance of CEBPB was assessed in patients with stage I-II colon adenocarcinoma from The Cancer Genome Atlas (TCGA), and molecular docking was used to predict potential interactions between DEGDB and candidate proteins. RESULTS: A total of 35 DEGDB-related genes and 908 CRC-associated differentially expressed genes were identified, yielding five overlapping candidate genes: CEBPB, SCD, DGAT2, IGF2, and PPARG. DEGDB treatment consistently increased CEBPB messenger RNA expression in both cell lines, with a comparatively large magnitude of change; therefore, CEBPB was selected as the prioritized candidate gene. Single-cell analysis showed that CEBPB expression was higher in tumor-derived epithelial cells than in normal-derived epithelial cells and increased progressively along the pseudotime trajectory. In silico knockout analysis suggested that CEBPB deletion could substantially alter transcriptional regulatory networks in CRC-associated cells. DEGDB treatment upregulated CEBPB and enhanced CRC cell proliferation, colony formation, migration, and wound closure; these effects were attenuated by CEBPB-targeting small interfering RNA. In the early-stage colon adenocarcinoma cohort, high CEBPB expression was associated with worse overall survival. Molecular docking predicted potential interactions between DEGDB and the candidate proteins. CONCLUSIONS: Under the in vitro exposure conditions used in this study, DEGDB significantly promoted malignant phenotypes in CRC cells, whereas CEBPB knockdown effectively attenuated these effects. Collectively, these findings indicate that CEBPB may partially mediate DEGDB-induced malignant behavior in CRC cells and may serve as a candidate regulator for subsequent mechanistic studies and population-based exposure and risk assessment.",
+    "keywords": [
+      "CEBPB",
+      "Colorectal cancer",
+      "Diethylene glycol dibenzoate",
+      "In Silico Perturbation Analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/genetics/pathology/chemically induced",
+      "*CCAAT-Enhancer-Binding Protein-beta/genetics/metabolism",
+      "Cell Proliferation/drug effects",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Phenotype",
+      "Cell Line, Tumor",
+      "Cell Movement/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jingrong",
+        "Liu, Jingya",
+        "Zhu, Huan",
+        "Lian, Jie",
+        "Lu, Haibo"
+      ],
+      "short_names": [
+        "Wang J",
+        "Liu J",
+        "Zhu H",
+        "Lian J",
+        "Lu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Outpatient Chemotherapy, Harbin Medical University Cancer Hospital, Harbin, Heilongjiang 150080, China.",
+        "Department of Outpatient Chemotherapy, Harbin Medical University Cancer Hospital, Harbin, Heilongjiang 150080, China.",
+        "Department of Outpatient Chemotherapy, Harbin Medical University Cancer Hospital, Harbin, Heilongjiang 150080, China.",
+        "Department of Outpatient Chemotherapy, Harbin Medical University Cancer Hospital, Harbin, Heilongjiang 150080, China; Heilongjiang Province Key Laboratory of Research on Molecular Targeted Anti-Tumor Drugs, Harbin 150081, China. Electronic address: lianjie@hrbmu.edu.cn.",
+        "Department of Outpatient Chemotherapy, Harbin Medical University Cancer Hospital, Harbin, Heilongjiang 150080, China. Electronic address: luhaibo@hrbmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jingrong",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Outpatient Chemotherapy, Harbin Medical University Cancer Hospital, Harbin, Heilongjiang 150080, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jingya",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Outpatient Chemotherapy, Harbin Medical University Cancer Hospital, Harbin, Heilongjiang 150080, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Huan",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Outpatient Chemotherapy, Harbin Medical University Cancer Hospital, Harbin, Heilongjiang 150080, China."
+        ]
+      },
+      {
+        "full_name": "Lian, Jie",
+        "short_name": "Lian J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Outpatient Chemotherapy, Harbin Medical University Cancer Hospital, Harbin, Heilongjiang 150080, China; Heilongjiang Province Key Laboratory of Research on Molecular Targeted Anti-Tumor Drugs, Harbin 150081, China. Electronic address: lianjie@hrbmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lu, Haibo",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Outpatient Chemotherapy, Harbin Medical University Cancer Hospital, Harbin, Heilongjiang 150080, China. Electronic address: luhaibo@hrbmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Ecotoxicology and environmental safety"
+    ],
+    "journal_abbrev": [
+      "Ecotoxicol Environ Saf"
+    ],
+    "pub_date": "2026 Sep 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/19 23:42",
+    "fetched_at": "2026-10-02 04:04:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42617514",
+      "42319418",
+      "41716413",
+      "39246119",
+      "40976901",
+      "41411347",
+      "42486346",
+      "33892791",
+      "40684834",
+      "41743630",
+      "42624235",
+      "42263871",
+      "39722009",
+      "40692252",
+      "41240582",
+      "41351424",
+      "36051345",
+      "41508245",
+      "38602278",
+      "30472235",
+      "41621766",
+      "42618857",
+      "41436831",
+      "42501233",
+      "38666541",
+      "40143685",
+      "31118064",
+      "41559659",
+      "39382748",
+      "42472386",
+      "42606648",
+      "31038794",
+      "31395078",
+      "40643716",
+      "42470494",
+      "42401341",
+      "39614427",
+      "40891683",
+      "42477639",
+      "42749842",
+      "31186036",
+      "40023971",
+      "39448762",
+      "42396657",
+      "40065477",
+      "41191606",
+      "41486187",
+      "26691157",
+      "40544194",
+      "42143313",
+      "30365932",
+      "37334577",
+      "40295509",
+      "32178558",
+      "30662328",
+      "42370143",
+      "38087342",
+      "27440078",
+      "31144675",
+      "41907458",
+      "38445432",
+      "40933995",
+      "35837768",
+      "41694394",
+      "30081850",
+      "32814111",
+      "39851228",
+      "39973554",
+      "42756464",
+      "29734178",
+      "38278779",
+      "42224996",
+      "40496864",
+      "42530263",
+      "27784965",
+      "40682845",
+      "38430448",
+      "27451147",
+      "31690663",
+      "41958675",
+      "42769851",
+      "41635856",
+      "42069097",
+      "40990012",
+      "41628115",
+      "40522623",
+      "41580703",
+      "40068177",
+      "42595923",
+      "26619963",
+      "41613113",
+      "30015962",
+      "38546882",
+      "29772438",
+      "35864528",
+      "30016502",
+      "42558886",
+      "40750402",
+      "42050706",
+      "42319491"
+    ],
+    "review": [
+      "42617514"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0147-6513(26)01009-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3521",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

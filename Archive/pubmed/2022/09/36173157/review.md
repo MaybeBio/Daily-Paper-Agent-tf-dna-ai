@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure/table references
+- **Assessment boundary** Scientific validity, technical soundness, and interpretive claims of the presented data; no assessment of editorial fit or publication policy
+- **Shared manuscript claim summary** The authors identify surface-exposed residues on the central six turns of the Trim28 coiled-coil as the KRAB domain binding interface, present AlphaFold2 models of the Trim28-KRAB complex, propose leucine 301 as a key hydrophobic "pin" residue, and validate the model through site-directed mutagenesis and surface plasmon resonance binding assays
+- **Visible evidence base** Results sections on coiled-coil mutant binding analysis, AlphaFold2 modeling, and mutagenesis validation; Figures 1-6 and Tables 1-2 referenced; Supplementary Figures S1-S3 referenced
+- **Missing materials affecting confidence** Raw SPR sensorgrams, full kinetic fitting parameters, AlphaFold2 confidence metrics beyond pLDDT (e.g., PAE plots for all models), sequence alignments used for AF2 modeling, and experimental details for the coiled-coil mutant panel construction
+
+## Reviewer
+- **Overall assessment** The manuscript presents a focused and technically competent investigation of the Trim28-KRAB interaction, combining structure prediction with experimental validation. The identification of L301 as a critical residue is well supported by the mutagenesis data. However, several technical concerns regarding the SPR analysis, the generalizability of the AF2 models across KRAB-ZFP family members, and the interpretation of the asymmetric binding mode require clarification before the central claims can be fully accepted.
+- **Who would be interested in the results, and why** Researchers studying KRAB-ZFP mediated transcriptional silencing, TRIM family protein interactions, endogenous retrovirus regulation, and those applying AlphaFold2 to protein-protein interaction prediction. The work provides a molecular framework for understanding how a large family of transcription factors engages a common co-repressor.
+- **Major strengths** The combination of structure prediction with experimental mutagenesis is a powerful approach. The SPR data provide quantitative binding affinities for a panel of mutants, allowing systematic evaluation of the predicted interface. The consistency of the AF2 models across multiple KRAB domains strengthens the claim of a conserved binding mode. The identification of specific salt bridge and hydrophobic contacts provides testable hypotheses for future functional studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of binding data
+  - **Claim pointer** The authors claim that specific mutations in the Trim28 coiled-coil result in defined fold-changes in binding affinity to the KRAB domain, with L301S showing a 2,112-fold decrease and K297E completely abolishing binding
+  - **Evidence pointer** Results section "Validation of modeled interactions", Figure 6, Table 2
+  - **Concern** The SPR analysis methodology is incompletely described. The authors state that data were analyzed by "either equilibrium or kinetic analysis" but do not specify which mutants were analyzed by which method, nor the criteria for choosing one method over the other. For the kinetic analysis, a "two-state reaction model" was used, but the rationale for this model choice over simpler 1:1 binding models is not provided. For mutants with very weak binding (e.g., L301S at 30.8 μM), equilibrium analysis may not have reached saturation, and the reported Kd values may be unreliable. Additionally, the KRAB domain was immobilized on the sensor chip, and the avidity effects of the dimeric Trim28 analyte binding to a surface-immobilized ligand are not discussed. The reported Kd values may reflect avidity rather than intrinsic affinity.
+  - **Why it matters** The quantitative binding data are the primary experimental validation of the structural model. If the Kd values are not accurately determined, the relative importance of individual residues cannot be reliably ranked, and the conclusion that L301 is the most critical residue is weakened.
+  - **Resolution test** Provide full SPR sensorgrams and fitting residuals for all mutants. Specify which analysis method (kinetic or equilibrium) was used for each mutant and justify the choice. Include a discussion of avidity effects and, if possible, perform control experiments with a monovalent Trim28 construct or use a different immobilization strategy. Show that the binding response reaches saturation for the weakest-binding mutants.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model generalizability
+  - **Claim pointer** The authors state that AF2 models of Trim28 in complex with KRAB domains from ZFP932, ZFP57, and KID3 all show a "uniform binding site and identical binding mode," implying a conserved interaction mechanism across the KRAB-ZFP family
+  - **Evidence pointer** Results section "A model of the KRAB-Trim28 interface from Alphafold", Figure 5
+  - **Concern** The manuscript does not provide quantitative comparison metrics for the four KRAB domain models. The claim of "identical binding mode" is based on visual inspection of superimposed structures. No RMSD values across the KRAB domains in the complex are provided, nor are interaction interface areas or contact residue maps compared. The sequence identity between the KRAB domains used is not stated, and it is unclear whether the selected KRAB domains represent the full diversity of the family. The authors also do not address whether the AF2 confidence scores for the KRAB domain orientation are comparable across the four models.
+  - **Why it matters** The claim of a conserved binding mode across the KRAB-ZFP family is a central conclusion with broad implications. If the models are not quantitatively compared, the claim of uniformity is not established, and the possibility of family member-specific variations in binding mode remains open.
+  - **Resolution test** Provide a quantitative comparison of the four KRAB domain complexes, including interface RMSD values, contact residue maps, and buried surface area calculations. State the sequence identity between the KRAB domains used. Discuss whether the selected KRAB domains are representative of the family diversity. If possible, include PAE plots for all four models to demonstrate equivalent confidence in the interface predictions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of asymmetric binding
+  - **Claim pointer** The authors describe the KRAB domain binding "asymmetrically across the two-fold symmetry axis of the coiled-coil region of the Trim28 homodimer" and propose that L301 from each chain binds into distinct hydrophobic pockets on the KRAB domain
+  - **Evidence pointer** Results section "A model of the KRAB-Trim28 interface from Alphafold", Figure 4
+  - **Concern** The functional significance of the asymmetric binding mode is not experimentally addressed. The authors do not test whether the two hydrophobic pockets on the KRAB domain are functionally equivalent, nor do they explore whether mutations that disrupt one pocket have different effects than mutations that disrupt the other. The claim that the asymmetry is "accommodated" by the two hydrophobic clusters is descriptive rather than mechanistic. The authors also do not discuss whether the asymmetry has implications for the stoichiometry of the complex in solution or for the ability of a single KRAB domain to recruit two Trim28 dimers.
+  - **Why it matters** The asymmetric binding mode is a novel structural finding that could have important functional consequences. Without experimental probing of the two pockets, the functional relevance of the asymmetry remains speculative.
+  - **Resolution test** Design mutations that specifically disrupt one hydrophobic pocket while leaving the other intact, and test their effects on binding affinity and on transcriptional repression in a cellular assay. Alternatively, use a heterodimeric Trim28 approach with different mutations on each chain to probe the contribution of each pocket independently.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Results section "KRAB-ZFPs bind the center of the coiled-coil domain of Trim28"
+  - **Evidence pointer** Figure 1, Table 1
+  - **Issue** The description of the mutant panel is difficult to follow. The authors refer to "Turns 1-2," "Turns 3-4," etc., and "top-face" and "bottom-face" mutants, but the relationship between these designations and the specific residues listed in Table 1 is not immediately clear. The figure legend for Figure 1 does not adequately explain the color coding or the spatial arrangement of the mutations.
+  - **Required correction** Provide a clearer schematic of the coiled-coil showing the position of each turn and the location of each mutation on the helical wheel. Clarify in the text which residues belong to which turn and which face. Consider adding a table that lists each mutant with its corresponding turn and face designation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section "Alphafold2"
+  - **Evidence pointer** Methods section "Alphafold2"
+  - **Issue** The description of the AF2 modeling is sparse. The authors state that models were produced using "AlphaFold2_advanced on Google Colab GPUs" but do not provide the specific version, the number of recycles, the multiple sequence alignment depth, or whether the models were ranked by pLDDT or PAE. The statement that "no differences were observed in the Trim28:KRAB interface between the 5 models" is not quantified.
+  - **Required correction** Provide full details of the AF2 modeling parameters, including software version, MSA depth, number of recycles, and model ranking criteria. Quantify the similarity between the five models, for example by reporting pairwise RMSD values for the interface residues.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section, paragraph 3
+  - **Issue** The authors state that the KRAB-B box "does not potentiate repression by contributing to the binding interface" but do not discuss alternative mechanisms by which the KRAB-B box could enhance repression, such as recruiting additional protein partners or stabilizing the KRAB domain fold.
+  - **Required correction** Add a brief discussion of alternative mechanisms for KRAB-B box function, citing relevant literature, to provide a more balanced interpretation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 6
+  - **Evidence pointer** Figure 6
+  - **Issue** The SPR sensorgrams in Figure 6 are presented as a single panel without individual subpanels for each mutant. This makes it difficult to assess the quality of the data for individual mutants, particularly those with weak binding.
+  - **Required correction** Present the sensorgrams as individual subpanels for each mutant, with the fitted curves overlaid. Include a panel showing the equilibrium binding isotherm for mutants analyzed by equilibrium methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (SPR methodology and data reliability) and R1-M2 (quantitative comparison of AF2 models) are the primary technical issues. The SPR data are the sole experimental validation of the model, and the current description does not allow the reader to assess their reliability. The claim of a conserved binding mode across the KRAB-ZFP family requires quantitative support.
+- **Assessment against Nature-style criteria** Originality: The work provides a novel structural model of the Trim28-KRAB interaction, building on prior low-resolution data. The identification of L301 as a key residue is a new finding. Scientific importance: The Trim28-KRAB interaction is central to a major gene silencing pathway, and a detailed molecular understanding has broad implications for developmental biology and epigenetics. Interdisciplinary readership: The work will appeal to structural biologists, epigeneticists, and those studying transposable element regulation. Technical soundness: The combination of AF2 prediction and experimental validation is appropriate, but the SPR methodology needs clarification and the AF2 model comparison needs quantification. Readability for nonspecialists: The manuscript is generally well-written and accessible, though the mutant panel description could be clearer.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central claim of an L301-mediated hydrophobic interaction is plausible and partially supported, but the reliability of the quantitative binding data must be established, and the claim of a conserved binding mode across the KRAB-ZFP family requires quantitative support.
+
+## Risk / unsupported claims
+- The claim that the KRAB domain binds "asymmetrically" across the two-fold symmetry axis is based solely on a single AF2 model and is not experimentally validated. The functional significance of this asymmetry is speculative.
+- The claim that the binding interface spans residues between V293 and R311 is based on the mutant panel, but the authors do not provide a complete alanine scan of the interface, leaving open the possibility that additional residues outside this range contribute to binding.
+- The statement that the KRAB-B box "does not participate in the binding interface" is based on the AF2 models, but the authors do not experimentally test a KRAB-B-containing construct in their binding assays.
+- The claim that the AF2 models are "high confidence" is based on pLDDT scores, but the manuscript does not report PAE values for the interface residues, which are critical for assessing the reliability of inter-domain predictions.

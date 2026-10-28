@@ -1,0 +1,464 @@
+{
+  "identity": {
+    "pmid": "35986043",
+    "doi": "10.1038/s41598-022-17913-6",
+    "title": "Biophysical and pharmacokinetic characterization of a small-molecule inhibitor of RUNX1/ETO tetramerization with anti-leukemic effects."
+  },
+  "content": {
+    "abstract": "Acute myeloid leukemia (AML) is a malignant disease of immature myeloid cells and the most prevalent acute leukemia among adults. The oncogenic homo-tetrameric fusion protein RUNX1/ETO results from the chromosomal translocation t(8;21) and is found in AML patients. The nervy homology region 2 (NHR2) domain of ETO mediates tetramerization; this oligomerization is essential for oncogenic activity. Previously, we identified the first-in-class small-molecule inhibitor of NHR2 tetramer formation, 7.44, which was shown to specifically interfere with NHR2, restore gene expression down-regulated by RUNX1/ETO, inhibit the proliferation of RUNX1/ETO-depending SKNO-1 cells, and reduce the RUNX1/ETO-related tumor growth in a mouse model. However, no biophysical and structural characterization of 7.44 binding to the NHR2 domain has been reported. Likewise, the compound has not been characterized as to physicochemical, pharmacokinetic, and toxicological properties. Here, we characterize the interaction between the NHR2 domain of RUNX1/ETO and 7.44 by biophysical assays and show that 7.44 interferes with NHR2 tetramer stability and leads to an increase in the dimer population of NHR2. The affinity of 7.44 with respect to binding to NHR2 is K(lig) = 3.75 +/- 1.22 microM. By NMR spectroscopy combined with molecular dynamics simulations, we show that 7.44 binds with both heteroaromatic moieties to NHR2 and interacts with or leads to conformational changes in the N-termini of the NHR2 tetramer. Finally, we demonstrate that 7.44 has favorable physicochemical, pharmacokinetic, and toxicological properties. Together with biochemical, cellular, and in vivo assessments, the results reveal 7.44 as a lead for further optimization towards targeted therapy of t(8;21) AML.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Chromosomes, Human, Pair 21",
+      "Chromosomes, Human, Pair 8/metabolism",
+      "*Core Binding Factor Alpha 2 Subunit/genetics/metabolism",
+      "Humans",
+      "*Leukemia, Myeloid, Acute/drug therapy/genetics/metabolism",
+      "Mice",
+      "Oncogene Proteins, Fusion/metabolism",
+      "Translocation, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gopalswamy, Mohanraj",
+        "Kroeger, Tobias",
+        "Bickel, David",
+        "Frieg, Benedikt",
+        "Akter, Shahina",
+        "Schott-Verdugo, Stephan",
+        "Viegas, Aldino",
+        "Pauly, Thomas",
+        "Mayer, Manuela",
+        "Przibilla, Julia",
+        "Reiners, Jens",
+        "Nagel-Steger, Luitgard",
+        "Smits, Sander H J",
+        "Groth, Georg",
+        "Etzkorn, Manuel",
+        "Gohlke, Holger"
+      ],
+      "short_names": [
+        "Gopalswamy M",
+        "Kroeger T",
+        "Bickel D",
+        "Frieg B",
+        "Akter S",
+        "Schott-Verdugo S",
+        "Viegas A",
+        "Pauly T",
+        "Mayer M",
+        "Przibilla J",
+        "Reiners J",
+        "Nagel-Steger L",
+        "Smits SHJ",
+        "Groth G",
+        "Etzkorn M",
+        "Gohlke H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute for Pharmaceutical and Medicinal Chemistry, Heinrich Heine University Dusseldorf, Universitatsstr. 1, 40225, Dusseldorf, Germany.",
+        "Institute for Pharmaceutical and Medicinal Chemistry, Heinrich Heine University Dusseldorf, Universitatsstr. 1, 40225, Dusseldorf, Germany.",
+        "Institute for Pharmaceutical and Medicinal Chemistry, Heinrich Heine University Dusseldorf, Universitatsstr. 1, 40225, Dusseldorf, Germany.",
+        "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Julich GmbH, Wilhelm-Johnen-Str, 52425, Julich, Germany.",
+        "Institute for Pharmaceutical and Medicinal Chemistry, Heinrich Heine University Dusseldorf, Universitatsstr. 1, 40225, Dusseldorf, Germany.",
+        "Institute for Pharmaceutical and Medicinal Chemistry, Heinrich Heine University Dusseldorf, Universitatsstr. 1, 40225, Dusseldorf, Germany.",
+        "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Julich GmbH, Wilhelm-Johnen-Str, 52425, Julich, Germany.",
+        "John von Neumann Institute for Computing (NIC), Julich Supercomputing Centre (JSC), Institute of Bio- and Geosciences (IBG-4: Bioinformatics), Forschungszentrum Julich GmbH, Wilhelm-Johnen-Str, 52425, Julich, Germany.",
+        "Institute for Physical Biology, Heinrich Heine University Dusseldorf, Universitatsstr. 1, 40225, Dusseldorf, Germany.",
+        "UCIBIO, Chemistry Department, Faculty of Sciences and Technology, NOVA University of Lisbon, 2829-516, Caparica, Portugal.",
+        "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Julich GmbH, Wilhelm-Johnen-Str, 52425, Julich, Germany.",
+        "Institute for Physical Biology, Heinrich Heine University Dusseldorf, Universitatsstr. 1, 40225, Dusseldorf, Germany.",
+        "Pharmacelsus GmbH, Science Park 2, 66123, Saarbrucken, Germany.",
+        "Pharmacelsus GmbH, Science Park 2, 66123, Saarbrucken, Germany.",
+        "Institute of Biochemistry and Center for Structural Studies, Heinrich Heine University Dusseldorf, Universitatsstr. 1, 40225, Dusseldorf, Germany.",
+        "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Julich GmbH, Wilhelm-Johnen-Str, 52425, Julich, Germany.",
+        "Institute for Physical Biology, Heinrich Heine University Dusseldorf, Universitatsstr. 1, 40225, Dusseldorf, Germany.",
+        "Institute of Biochemistry and Center for Structural Studies, Heinrich Heine University Dusseldorf, Universitatsstr. 1, 40225, Dusseldorf, Germany.",
+        "Institute of Biochemical Plant Physiology, Heinrich Heine University Dusseldorf, Universitatsstr. 1, 40225, Dusseldorf, Germany.",
+        "Institute for Physical Biology, Heinrich Heine University Dusseldorf, Universitatsstr. 1, 40225, Dusseldorf, Germany.",
+        "Julich Center for Structural Biology (JuStruct), Forschungszentrum Julich GmbH, Wilhelm-Johnen-Str, 52425, Julich, Germany.",
+        "Institute for Pharmaceutical and Medicinal Chemistry, Heinrich Heine University Dusseldorf, Universitatsstr. 1, 40225, Dusseldorf, Germany. gohlke@uni-duesseldorf.de.",
+        "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Julich GmbH, Wilhelm-Johnen-Str, 52425, Julich, Germany. gohlke@uni-duesseldorf.de.",
+        "John von Neumann Institute for Computing (NIC), Julich Supercomputing Centre (JSC), Institute of Bio- and Geosciences (IBG-4: Bioinformatics), Forschungszentrum Julich GmbH, Wilhelm-Johnen-Str, 52425, Julich, Germany. gohlke@uni-duesseldorf.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gopalswamy, Mohanraj",
+        "short_name": "Gopalswamy M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Pharmaceutical and Medicinal Chemistry, Heinrich Heine University Düsseldorf, Universitätsstr. 1, 40225, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Kroeger, Tobias",
+        "short_name": "Kroeger T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Pharmaceutical and Medicinal Chemistry, Heinrich Heine University Düsseldorf, Universitätsstr. 1, 40225, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Bickel, David",
+        "short_name": "Bickel D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Pharmaceutical and Medicinal Chemistry, Heinrich Heine University Düsseldorf, Universitätsstr. 1, 40225, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Frieg, Benedikt",
+        "short_name": "Frieg B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Jülich GmbH, Wilhelm-Johnen-Str, 52425, Jülich, Germany."
+        ]
+      },
+      {
+        "full_name": "Akter, Shahina",
+        "short_name": "Akter S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Pharmaceutical and Medicinal Chemistry, Heinrich Heine University Düsseldorf, Universitätsstr. 1, 40225, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Schott-Verdugo, Stephan",
+        "short_name": "Schott-Verdugo S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Pharmaceutical and Medicinal Chemistry, Heinrich Heine University Düsseldorf, Universitätsstr. 1, 40225, Düsseldorf, Germany.",
+          "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Jülich GmbH, Wilhelm-Johnen-Str, 52425, Jülich, Germany.",
+          "John von Neumann Institute for Computing (NIC), Jülich Supercomputing Centre (JSC), Institute of Bio- and Geosciences (IBG-4: Bioinformatics), Forschungszentrum Jülich GmbH, Wilhelm-Johnen-Str, 52425, Jülich, Germany."
+        ]
+      },
+      {
+        "full_name": "Viegas, Aldino",
+        "short_name": "Viegas A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Physical Biology, Heinrich Heine University Düsseldorf, Universitätsstr. 1, 40225, Düsseldorf, Germany.",
+          "UCIBIO, Chemistry Department, Faculty of Sciences and Technology, NOVA University of Lisbon, 2829-516, Caparica, Portugal."
+        ]
+      },
+      {
+        "full_name": "Pauly, Thomas",
+        "short_name": "Pauly T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Jülich GmbH, Wilhelm-Johnen-Str, 52425, Jülich, Germany.",
+          "Institute for Physical Biology, Heinrich Heine University Düsseldorf, Universitätsstr. 1, 40225, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Mayer, Manuela",
+        "short_name": "Mayer M",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmacelsus GmbH, Science Park 2, 66123, Saarbrücken, Germany."
+        ]
+      },
+      {
+        "full_name": "Przibilla, Julia",
+        "short_name": "Przibilla J",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmacelsus GmbH, Science Park 2, 66123, Saarbrücken, Germany."
+        ]
+      },
+      {
+        "full_name": "Reiners, Jens",
+        "short_name": "Reiners J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry and Center for Structural Studies, Heinrich Heine University Düsseldorf, Universitätsstr. 1, 40225, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Nagel-Steger, Luitgard",
+        "short_name": "Nagel-Steger L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Jülich GmbH, Wilhelm-Johnen-Str, 52425, Jülich, Germany.",
+          "Institute for Physical Biology, Heinrich Heine University Düsseldorf, Universitätsstr. 1, 40225, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Smits, Sander H J",
+        "short_name": "Smits SHJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry and Center for Structural Studies, Heinrich Heine University Düsseldorf, Universitätsstr. 1, 40225, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Groth, Georg",
+        "short_name": "Groth G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemical Plant Physiology, Heinrich Heine University Düsseldorf, Universitätsstr. 1, 40225, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Etzkorn, Manuel",
+        "short_name": "Etzkorn M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Physical Biology, Heinrich Heine University Düsseldorf, Universitätsstr. 1, 40225, Düsseldorf, Germany.",
+          "Jülich Center for Structural Biology (JuStruct), Forschungszentrum Jülich GmbH, Wilhelm-Johnen-Str, 52425, Jülich, Germany."
+        ]
+      },
+      {
+        "full_name": "Gohlke, Holger",
+        "short_name": "Gohlke H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Pharmaceutical and Medicinal Chemistry, Heinrich Heine University Düsseldorf, Universitätsstr. 1, 40225, Düsseldorf, Germany. gohlke@uni-duesseldorf.de.",
+          "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Jülich GmbH, Wilhelm-Johnen-Str, 52425, Jülich, Germany. gohlke@uni-duesseldorf.de.",
+          "John von Neumann Institute for Computing (NIC), Jülich Supercomputing Centre (JSC), Institute of Bio- and Geosciences (IBG-4: Bioinformatics), Forschungszentrum Jülich GmbH, Wilhelm-Johnen-Str, 52425, Jülich, Germany. gohlke@uni-duesseldorf.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2022 Aug 19",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/20 06:00",
+    "fetched_at": "2026-09-28 12:22:24"
+  },
+  "links": {
+    "cites": [
+      "41327104",
+      "40784929",
+      "40399488",
+      "39384814"
+    ],
+    "refs": [
+      "31420257",
+      "31222090",
+      "30093631",
+      "29724897",
+      "29615500",
+      "29054528",
+      "28472107",
+      "28453293",
+      "28154087",
+      "27182629",
+      "26990877",
+      "26986511",
+      "26967507",
+      "26836257",
+      "26774645",
+      "26739938",
+      "26708083",
+      "26592383",
+      "26574453",
+      "26574392",
+      "26563884",
+      "25554227",
+      "25428174",
+      "25285605",
+      "25262799",
+      "24760083",
+      "24066861",
+      "23957251",
+      "23812588",
+      "22911360",
+      "22650257",
+      "22438792",
+      "21954774",
+      "21812660",
+      "21778406",
+      "21646537",
+      "21454532",
+      "21091654",
+      "20430957",
+      "19901550",
+      "19637179",
+      "19459938",
+      "19414342",
+      "19229944",
+      "18593145",
+      "17332359",
+      "16616331",
+      "16110030",
+      "15870183",
+      "15456252",
+      "15116359",
+      "13678404",
+      "11788061",
+      "11414845",
+      "11274893",
+      "10882122",
+      "10491855",
+      "9811843",
+      "8811914",
+      "8520220",
+      "8334990"
+    ],
+    "similar": [
+      "35986043",
+      "40399488",
+      "30093631",
+      "17332359",
+      "31533028",
+      "22343733",
+      "23865046",
+      "23812588",
+      "20430957",
+      "22613795",
+      "19001502",
+      "26449661",
+      "19036704",
+      "16892037",
+      "24342949",
+      "12393465",
+      "26546158",
+      "27851970",
+      "30792202",
+      "28611288",
+      "29721072",
+      "30300583",
+      "20460523",
+      "23772668",
+      "16616331",
+      "22223820",
+      "36820913",
+      "33225787",
+      "33958724",
+      "28092997",
+      "20583973",
+      "21262832",
+      "18952841",
+      "18258796",
+      "16294039",
+      "12427969",
+      "17412887",
+      "30637949",
+      "25928846",
+      "22031861",
+      "32071087",
+      "16025155",
+      "36613512",
+      "22983443",
+      "35152350",
+      "18469864",
+      "23223432",
+      "39146497",
+      "33152396",
+      "27231175",
+      "11983111",
+      "38802066",
+      "32029705",
+      "24314118",
+      "24402164",
+      "40889732",
+      "25612891",
+      "21447743",
+      "25242324",
+      "22875638",
+      "16741927",
+      "21937700",
+      "11920209",
+      "33382982",
+      "29674693",
+      "24130502",
+      "29518627",
+      "19760607",
+      "40539509",
+      "9418879",
+      "40991730",
+      "16390317",
+      "29493383",
+      "27346355",
+      "12819347",
+      "21488857",
+      "36823395",
+      "41221736",
+      "37341821",
+      "17197433",
+      "33386742",
+      "33201243",
+      "20561400",
+      "24616160",
+      "17389244",
+      "20708017",
+      "11283671",
+      "38702444",
+      "19826043",
+      "33431365",
+      "17197431",
+      "8639850",
+      "7828132",
+      "27709797",
+      "16380455",
+      "8943060",
+      "30593567",
+      "9584201",
+      "8876234",
+      "40781784"
+    ],
+    "review": [
+      "35986043",
+      "20583973",
+      "17412887",
+      "40889732",
+      "22875638"
+    ],
+    "pmc": [
+      "9391460"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-022-17913-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35986043/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35986043",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

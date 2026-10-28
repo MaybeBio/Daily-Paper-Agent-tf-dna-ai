@@ -1,0 +1,116 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.06.08.730880",
+  "title": "TMO: ASYMMETRIC CROSS-MODAL ATTENTION FOR LEARNING CELL-STATE-DEPENDENT REGULATORY LAGS FROM SINGLE-CELL MULTIOMIC DATA",
+  "doi": "10.64898/2026.06.08.730880",
+  "abstract": "<h4>Background</h4> Single-cell multi-omics technologies simultaneously measure chromatin accessibility (ATAC) and gene expression (RNA), providing a unique window into the temporal ordering of regulatory events during differentiation. However, most computational models treat the two modalities symmetrically, ignoring the directional relationship between chromatin and transcription, and existing lag-aware methods estimate a single global lag per gene, failing to capture cell-state-dependent dynamics. <h4>Methods and Results</h4> We introduce Temporal Multi-Omics (TMO), a deep learning framework that learns signed, cell-state-conditional regulatory lags (Δ τ ) using asymmetric cross-modal attention. TMO projects RNA and ATAC into 50 latent components each, tokenises each cell as a sequence of 100 tokens, and uses a two-pass transformer in which a data-driven lag prior – derived from a sliding-window cross-correlation function – directly biases attention asymmetrically. On four independent 10x Multiome datasets (mouse brain, human brain, mouse kidney, human PBMC), the asymmetric model achieves Lag Concordance Scores (LCS) of 0.988–0.999, compared to 0.048–0.108 for an architecturally identical symmetric baseline. A stratified 80/20 held-out experiment confirms that the learned component-lag ordering generalises to unseen cells (held-out LCS 0.85–0.99). Clustered Δ τ heatmaps show positive Δ τ (ATAC-led priming) in early pseudotime and negative Δ τ (RNA-led, activity-dependent regulation) in late pseudotime; the ATAC-RNA correlation heatmap exhibits a U-shaped pattern indicative of developmental decoupling. Components with the most positive Δ τ are enriched for chromatin organization and stem cell differentiation (FDR < 0.05), while those with the most negative Δ τ are enriched for synaptic signalling and immune activation. Ablating the cell-state information from the lag predictor reduces the LCS and collapses per-component temporal dynamics (KS p ≤ 0.039 in all four tissues), proving that TMO’s dynamic lag patterns depend on cell-state conditioning. Independent ChIP-seq validation for four transcription factors (PAX5, Pax6, ASCL1, Hnf4 α ) confirms highly significant separation between target genes and expression-matched background ( p < 10 −4 in all cases). Two Multiome Perturb-seq screens provide causal validation: SMARCB1 knockout shows a directional trend (1.5-fold target shift, p = 0.056, n = 147 perturbed cells), and SMARCE1 knockout reaches statistical significance ( p = 0.0089, n = 3,394 perturbed cells). Gene-level cross-correlation independently validates that the regulatory lag signal is present in the raw data, and TMO further identifies rare, statistically significant biphasic gene programs where the regulatory direction reverses across pseudotime. <h4>Conclusions</h4> T MO is the first method to make regulatory lag a learnable, cell-state-conditional, and architecturally encoded parameter. It is scalable, interpretable, and open-source, providing a powerful tool for studying regulatory timing in development, disease, and perturbation screens. <h4>Highlights</h4> TMO learns signed, cell-state-conditional regulatory lags (Δ τ ) from paired ATAC+RNA data. Asymmetric cross-modal attention biases the model towards the direction of regulation (ATAC leads RNA or RNA leads ATAC). The asymmetric model achieves Lag Concordance Scores > 0.98, far outperforming a symmetric baseline (< 0.11). Stratified 80/20 held-out experiments across all four tissues show that the learned component-lag ordering transfers to unseen cells (held-out LCS 0.85–0.99). Perturb-seq screening detects perturbation-induced shifts in regulatory timing: SMARCB1 knockout shows a directional trend ( p = 0.056), and SMARCE1 knockout reaches significance ( p = 0.0089), demonstrating causal relevance. Independent ChIP-seq validation across four transcription factors and tissues confirms that TMO-derived lags distinguish physically bound genes from expression-matched background ( p < 10 −4 in all cases). Removing the cell embedding from the LagMLP causes a substantial drop in LCS and collapses the per-component temporal dynamics, proving that TMO’s cell-state conditioning is essential. TMO is open-source, scalable, and ready for application to any 10x Multiome dataset. Gene-level cross-correlation confirms the lag signal is intrinsic to the data and is 3.7–4.7× more variable than TMO’s denoised component profiles. TMO identifies statistically significant biphasic gene programs whose regulatory direction reverses across pseudotime, a new dynamic inaccessible to existing scalar methods. 1. <h4>Figure 1: Graphical Abstract</h4> Figure 1: <h4>Graphical Abstract | TMO – Temporal Multi-Omics.</h4> TMO uses asymmetric cross-modal attention in a two-pass transformer to learn signed, cell-state-conditional regulatory lags (Δ τ ) between chromatin accessibility (ATAC) and gene expression (RNA) from paired single-cell multi-omic data. A data-driven lag prior derived from a sliding-window cross-correlation function biases ATAC-to-RNA attention, enabling the model to capture ATAC-led priming (positive Δ τ , red) early in differentiation and RNA-led, activity-dependent regulation (negative Δ τ , blue) late in differentiation. Across four tissues, the asymmetric model achieves Lag Concordance Scores (LCS) of 0.988–0.999, while a symmetric baseline collapses to <0.11. Independent ChIP-seq and Perturb-seq validations confirm that the learned lags reflect genuine transcription factor binding and respond to genetic perturbations. TMO is open-source, scalable, and available as a Scanpy-like Python package (tmopy). Made with BioRender.",
+  "authors": [
+    "Lopez-Delgado PA",
+    "Delgado-Carlo MM"
+  ],
+  "published_date": "2026-06-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.06.08.730880",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.08.730880.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1250521",
+    "raw_record": {
+      "id": "PPR1250521",
+      "source": "PPR",
+      "doi": "10.64898/2026.06.08.730880",
+      "title": "TMO: ASYMMETRIC CROSS-MODAL ATTENTION FOR LEARNING CELL-STATE-DEPENDENT REGULATORY LAGS FROM SINGLE-CELL MULTIOMIC DATA",
+      "authorString": "Lopez-Delgado PA, Delgado-Carlo MM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lopez-Delgado PA",
+            "lastName": "Lopez-Delgado",
+            "firstName": "Phabel",
+            "initials": "PA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-7160-1740"
+            }
+          },
+          {
+            "fullName": "Delgado-Carlo MM",
+            "lastName": "Delgado-Carlo",
+            "firstName": "Mirna",
+            "initials": "MM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0005-8957-2877"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0009-0004-7160-1740"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0005-8957-2877"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "<h4>Background</h4>  Single-cell multi-omics technologies simultaneously measure chromatin accessibility (ATAC) and gene expression (RNA), providing a unique window into the temporal ordering of regulatory events during differentiation. However, most computational models treat the two modalities symmetrically, ignoring the directional relationship between chromatin and transcription, and existing lag-aware methods estimate a single global lag per gene, failing to capture cell-state-dependent dynamics. <h4>Methods and Results</h4>  We introduce Temporal Multi-Omics (TMO), a deep learning framework that learns signed, cell-state-conditional regulatory lags (Δ  τ ) using asymmetric cross-modal attention. TMO projects RNA and ATAC into 50 latent components each, tokenises each cell as a sequence of 100 tokens, and uses a two-pass transformer in which a data-driven lag prior – derived from a sliding-window cross-correlation function – directly biases attention asymmetrically. On four independent 10x Multiome datasets (mouse brain, human brain, mouse kidney, human PBMC), the asymmetric model achieves Lag Concordance Scores (LCS) of 0.988–0.999, compared to 0.048–0.108 for an architecturally identical symmetric baseline. A stratified 80/20 held-out experiment confirms that the learned component-lag ordering generalises to unseen cells (held-out LCS 0.85–0.99). Clustered Δ  τ heatmaps show positive Δ  τ (ATAC-led priming) in early pseudotime and negative Δ  τ (RNA-led, activity-dependent regulation) in late pseudotime; the ATAC-RNA correlation heatmap exhibits a U-shaped pattern indicative of developmental decoupling. Components with the most positive Δ  τ are enriched for chromatin organization and stem cell differentiation (FDR < 0.05), while those with the most negative Δ  τ are enriched for synaptic signalling and immune activation. Ablating the cell-state information from the lag predictor reduces the LCS and collapses per-component temporal dynamics (KS  p ≤ 0.039 in all four tissues), proving that TMO’s dynamic lag patterns depend on cell-state conditioning. Independent ChIP-seq validation for four transcription factors (PAX5, Pax6, ASCL1, Hnf4  α ) confirms highly significant separation between target genes and expression-matched background (  p < 10  −4 in all cases). Two Multiome Perturb-seq screens provide causal validation: SMARCB1 knockout shows a directional trend (1.5-fold target shift,  p = 0.056,  n = 147 perturbed cells), and SMARCE1 knockout reaches statistical significance (  p = 0.0089,  n = 3,394 perturbed cells). Gene-level cross-correlation independently validates that the regulatory lag signal is present in the raw data, and TMO further identifies rare, statistically significant biphasic gene programs where the regulatory direction reverses across pseudotime.  <h4>Conclusions</h4>  T MO is the first method to make regulatory lag a learnable, cell-state-conditional, and architecturally encoded parameter. It is scalable, interpretable, and open-source, providing a powerful tool for studying regulatory timing in development, disease, and perturbation screens.  <h4>Highlights</h4>  TMO learns signed, cell-state-conditional regulatory lags (Δ  τ ) from paired ATAC+RNA data.  Asymmetric cross-modal attention biases the model towards the direction of regulation (ATAC leads RNA or RNA leads ATAC). The asymmetric model achieves Lag Concordance Scores > 0.98, far outperforming a symmetric baseline (< 0.11). Stratified 80/20 held-out experiments across all four tissues show that the learned component-lag ordering transfers to unseen cells (held-out LCS 0.85–0.99). Perturb-seq screening detects perturbation-induced shifts in regulatory timing: SMARCB1 knockout shows a directional trend (  p = 0.056), and SMARCE1 knockout reaches significance (  p = 0.0089), demonstrating causal relevance.  Independent ChIP-seq validation across four transcription factors and tissues confirms that TMO-derived lags distinguish physically bound genes from expression-matched background (  p < 10  −4 in all cases).  Removing the cell embedding from the LagMLP causes a substantial drop in LCS and collapses the per-component temporal dynamics, proving that TMO’s cell-state conditioning is essential. TMO is open-source, scalable, and ready for application to any 10x Multiome dataset. Gene-level cross-correlation confirms the lag signal is intrinsic to the data and is 3.7–4.7× more variable than TMO’s denoised component profiles. TMO identifies statistically significant biphasic gene programs whose regulatory direction reverses across pseudotime, a new dynamic inaccessible to existing scalar methods. 1. <h4>Figure 1: Graphical Abstract</h4>  Figure 1: <h4>Graphical Abstract | TMO – Temporal Multi-Omics.</h4>  TMO uses asymmetric cross-modal attention in a two-pass transformer to learn signed, cell-state-conditional regulatory lags (Δ  τ ) between chromatin accessibility (ATAC) and gene expression (RNA) from paired single-cell multi-omic data. A data-driven lag prior derived from a sliding-window cross-correlation function biases ATAC-to-RNA attention, enabling the model to capture ATAC-led priming (positive Δ  τ , red) early in differentiation and RNA-led, activity-dependent regulation (negative Δ  τ , blue) late in differentiation. Across four tissues, the asymmetric model achieves Lag Concordance Scores (LCS) of 0.988–0.999, while a symmetric baseline collapses to <0.11. Independent ChIP-seq and Perturb-seq validations confirm that the learned lags reflect genuine transcription factor binding and respond to genetic perturbations. TMO is open-source, scalable, and available as a Scanpy-like Python package (tmopy). Made with BioRender.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.06.08.730880"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-06-12",
+      "firstPublicationDate": "2026-06-11",
+      "firstIndexDate": "2026-06-12",
+      "hasEvaluations": "N"
+    }
+  }
+}

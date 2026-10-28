@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present DNA-Diffusion, a diffusion model framework that generates 200 bp cell type-specific synthetic regulatory elements. They claim the generated sequences retain endogenous properties, including transcription factor binding site composition, potential for cell type-specific chromatin accessibility, and capacity to activate gene expression in different cell contexts, as evaluated by state-of-the-art prediction models. They further claim robust generation of DNA sequences with cell type-specific regulatory potential and position the work as a step toward mammalian synthetic biology and precision gene therapy.
+- **Visible evidence base** Abstract text only; no quantitative results, model architecture details, evaluation metrics, or comparative baselines are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, model training and evaluation details, baseline comparisons, statistical analyses, and any validation experiments
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially interesting application of diffusion models to regulatory element design. However, the provided material is insufficient to evaluate the technical soundness, novelty, or validity of the claims. No quantitative evidence is presented, and key methodological details are absent. The core claims regarding cell type-specificity and functional activity are asserted without supporting data. The work may be of interest to the synthetic biology and genomics communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, regulatory genomics, and generative model applications to biology would be interested. The potential to design synthetic regulatory elements with cell type-specific activity could inform gene therapy and cell engineering approaches. Computational biologists working on sequence generation and chromatin accessibility modeling may also find the framework relevant.
+- **Major strengths** The problem addressed is timely and important. The use of diffusion models for regulatory element design is a reasonable extension of current generative approaches. The stated evaluation dimensions, including transcription factor binding site composition and chromatin accessibility potential, are appropriate for assessing sequence quality.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim robust generation of DNA sequences with cell type-specific regulatory potential.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative results are presented to support the claim of robust generation. Metrics such as accuracy, enrichment scores, or comparisons to endogenous sequences are absent. The term "robustly" implies statistical and biological validation that is not demonstrated.
+  - **Why it matters** Without quantitative evidence, the central claim of the manuscript cannot be assessed. The reader cannot determine whether the generated sequences are functionally meaningful or merely statistically similar to endogenous sequences.
+  - **Resolution test** Provide quantitative evaluation results, including performance metrics for transcription factor binding site composition, chromatin accessibility predictions, and gene expression activation, with appropriate statistical tests and comparisons to baseline models.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The framework uses a cell type-specific diffusion model to generate synthetic 200 bp regulatory elements based on chromatin accessibility across different cell types.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe the model architecture, training data, or how cell type-specificity is achieved. It is unclear whether the model conditions on cell type labels, uses separate models per cell type, or incorporates chromatin accessibility data directly. The choice of 200 bp length is not justified.
+  - **Why it matters** Reproducibility and technical evaluation require clarity on model design. Without this information, the validity of the approach and the interpretation of results cannot be assessed.
+  - **Resolution test** Include a detailed methods section describing the model architecture, training procedure, data sources, and the mechanism for cell type-specific generation. Justify the sequence length choice.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim validation
+  - **Claim pointer** The authors claim the generated sequences retain properties of endogenous sequences, including capacity to activate gene expression in different cell contexts.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of gene expression activation is based on "state-of-the-art prediction models" but no model names, performance benchmarks, or experimental validation are provided. Predictive models are not a substitute for experimental evidence, and the abstract does not clarify whether any wet-lab validation was performed.
+  - **Why it matters** The functional claim is central to the therapeutic relevance of the work. Without experimental validation or at least detailed predictive model evaluation, the claim remains speculative.
+  - **Resolution test** Provide details of the prediction models used, their validation status, and ideally experimental confirmation of gene expression activation for a subset of generated sequences.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "regulatory modulation approach" is vague and could be more precise.
+  - **Required correction** Rephrase to specify the type of regulatory modulation, such as activation or repression of target genes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not situate the work relative to existing generative models for regulatory sequences, such as GANs or variational autoencoders.
+  - **Required correction** Add a brief statement on how diffusion models compare to prior approaches in this domain.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Evaluation metrics
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract lists evaluation metrics but does not indicate whether any of these were experimentally validated.
+  - **Required correction** Clarify which evaluations are computational and which, if any, involve experimental assays.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of diffusion models to regulatory element design is a plausible extension of existing work, but the abstract does not demonstrate a clear conceptual advance over prior generative approaches. Originality cannot be fully assessed without a literature comparison.
+  - Scientific importance: The problem of designing functional regulatory elements is important, and the potential therapeutic applications are significant. However, the importance is not substantiated by evidence in the abstract.
+  - Interdisciplinary readership: The topic bridges machine learning and genomics, which could appeal to a broad audience. The abstract is written in accessible language, but the lack of technical detail limits its utility for specialists.
+  - Technical soundness: Not assessable from the abstract. Model design, evaluation, and validation are not described.
+  - Readability for nonspecialists: The abstract is generally readable, but terms such as "diffusion models" and "chromatin accessibility" are used without brief explanation, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising direction, but the absence of quantitative results and methodological detail prevents a supportive recommendation. The case could be strengthened with a full manuscript that addresses the major concerns.
+
+## Risk / unsupported claims
+- The claim of "robustly generate DNA sequences with cell type-specific regulatory potential" is unsupported without quantitative data.
+- The claim that generated sequences "activate gene expression in different cell contexts" is unsupported without experimental validation or detailed predictive model evaluation.
+- The claim that the framework "paves the way for revolutionizing a regulatory modulation approach" is speculative and not supported by the provided evidence.
+- The assertion that generated sequences "retain properties of endogenous sequences" is not verifiable from the abstract alone.

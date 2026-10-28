@@ -1,0 +1,261 @@
+{
+  "identity": {
+    "pmid": "39990254",
+    "doi": "10.1093/bioadv/vbaf008",
+    "title": "Accurate prediction of nucleic acid binding proteins using protein language model."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Nucleic acid binding proteins (NABPs) play critical roles in various and essential biological processes. Many machine learning-based methods have been developed to predict different types of NABPs. However, most of these studies have limited applications in predicting the types of NABPs for any given protein with unknown functions, due to several factors such as dataset construction, prediction scope and features used for training and testing. In addition, single-stranded DNA binding proteins (DBP) (SSBs) have not been extensively investigated for identifying novel SSBs from proteins with unknown functions. RESULTS: To improve prediction accuracy of different types of NABPs for any given protein, we developed hierarchical and multi-class models with machine learning-based methods and a feature extracted from protein language model ESM2. Our results show that by combining the feature from ESM2 and machine learning methods, we can achieve high prediction accuracy up to 95% for each stage in the hierarchical approach, and 85% for overall prediction accuracy from the multi-class approach. More importantly, besides the much improved prediction of other types of NABPs, the models can be used to accurately predict single-stranded DBPs, which is underexplored. AVAILABILITY AND IMPLEMENTATION: The datasets and code can be found at https://figshare.com/projects/Prediction_of_nucleic_acid_binding_proteins_using_protein_language_model/211555.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Siwen",
+        "Xu, Jinbo",
+        "Guo, Jun-Tao"
+      ],
+      "short_names": [
+        "Wu S",
+        "Xu J",
+        "Guo JT"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5949-8948"
+      ],
+      "affiliations": [
+        "Department of Bioinformatics and Genomics, University of North Carolina at Charlotte, Charlotte, NC 28223, United States.",
+        "Toyota Technological Institute at Chicago, Chicago, IL 60637, United States.",
+        "Department of Bioinformatics and Genomics, University of North Carolina at Charlotte, Charlotte, NC 28223, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Siwen",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Genomics, University of North Carolina at Charlotte, Charlotte, NC 28223, United States."
+        ]
+      },
+      {
+        "full_name": "Xu, Jinbo",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Toyota Technological Institute at Chicago, Chicago, IL 60637, United States."
+        ]
+      },
+      {
+        "full_name": "Guo, Jun-Tao",
+        "short_name": "Guo JT",
+        "identifiers": [
+          "0000-0001-5949-8948"
+        ],
+        "affiliations": [
+          "Department of Bioinformatics and Genomics, University of North Carolina at Charlotte, Charlotte, NC 28223, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics advances"
+    ],
+    "journal_abbrev": [
+      "Bioinform Adv"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/24 12:27",
+    "fetched_at": "2026-09-30 12:23:43"
+  },
+  "links": {
+    "cites": [
+      "42441082",
+      "41683618",
+      "41646832",
+      "41444992",
+      "40391089"
+    ],
+    "refs": [
+      "39345796",
+      "38856168",
+      "38507445",
+      "38281252",
+      "38279650",
+      "38127815",
+      "37964216",
+      "37158175",
+      "36927031",
+      "36631405",
+      "36503892",
+      "36416116",
+      "36139026",
+      "33655206",
+      "32946833",
+      "32352006",
+      "31888057",
+      "31725778",
+      "31722485",
+      "31693872",
+      "31267738",
+      "31123959",
+      "30323214",
+      "30316822",
+      "30032213",
+      "29753757",
+      "29287069",
+      "29097781",
+      "28606086",
+      "27993780",
+      "27147539",
+      "26752681",
+      "26304539",
+      "25365966",
+      "25269475",
+      "24977146",
+      "24475169",
+      "20677174",
+      "18042272",
+      "11104519"
+    ],
+    "similar": [
+      "39990254",
+      "38856168",
+      "36044786",
+      "35521556",
+      "39276905",
+      "38396246",
+      "38830995",
+      "32920048",
+      "38127815",
+      "36416116",
+      "31888057",
+      "29722257",
+      "37391046",
+      "32946833",
+      "38048895",
+      "35378437",
+      "37824738",
+      "28606086",
+      "33986992",
+      "37387145",
+      "38316843",
+      "34932484",
+      "34780180",
+      "40027759",
+      "36071406",
+      "39233898",
+      "33780341",
+      "35389869",
+      "25474071",
+      "39038391",
+      "38747369",
+      "36139026",
+      "39528950",
+      "38003686",
+      "37651627",
+      "30808287",
+      "34415301",
+      "40158838",
+      "31123959",
+      "34571539",
+      "39576667",
+      "39202449",
+      "39363630",
+      "30800250",
+      "38171929",
+      "39731012",
+      "37193676",
+      "36711471",
+      "30668479",
+      "32808039",
+      "38245002",
+      "38015872",
+      "31693872",
+      "38279650",
+      "37015594",
+      "38636332",
+      "40134870",
+      "25708089",
+      "32628616",
+      "37697283",
+      "31521251",
+      "34176069",
+      "37745556",
+      "30891794",
+      "35649392",
+      "33454744",
+      "38281252",
+      "35150231",
+      "39714563",
+      "36503892",
+      "38450672",
+      "22373313",
+      "37866116",
+      "34699365",
+      "36124796",
+      "36425113",
+      "37562328",
+      "38606185",
+      "37029810",
+      "38486135",
+      "28002428",
+      "27565741",
+      "29419752",
+      "38695120",
+      "34291709",
+      "36719781",
+      "26130574",
+      "30616476",
+      "37883249",
+      "40225296",
+      "31393553",
+      "27993784",
+      "28961273",
+      "38205268",
+      "31746764",
+      "40183298",
+      "30442636",
+      "35997560",
+      "34857774",
+      "25474679"
+    ],
+    "review": [
+      "39990254",
+      "36139026",
+      "39202449"
+    ],
+    "pmc": [
+      "11845279"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39990254/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformaticsadvances/article-lookup/doi/10.1093/bioadv/vbaf008",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39715281",
+  "title": "Multicellular model of neuroblastoma proposes unconventional therapy based on multiple roles of p53.",
+  "authors": "Wertheim, Kenneth Y; Chisholm, Robert; Richmond, Paul; Walker, Dawn",
+  "journal": "PLoS computational biology",
+  "published_date": "2024-12-23",
+  "window": {
+    "start": "2024-12-23",
+    "end": "2024-12-29"
+  },
+  "score": 2,
+  "one_liner_zh": "该文构建神经母细胞瘤多细胞模型模拟肿瘤微环境与药物反应，虽涉及p53和MYCN但无蛋白质-DNA互作、结合位点预测或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Neuroblastoma is the most common extra-cranial solid tumour in children. Over half of all high-risk cases are expected to succumb to the disease even after chemotherapy, surgery, and immunotherapy. Although the importance of MYCN amplification in this disease is indisputable, the mechanistic details remain enigmatic. Here, we present a multicellular model of neuroblastoma comprising a continuous automaton, discrete cell agents, and a centre-based mechanical model, as well as the simulation results we obtained with it. The continuous automaton represents the tumour microenvironment as a grid-like structure, where each voxel is associated with continuous variables such as the oxygen level therein. Each discrete cell agent is defined by several attributes, including its cell cycle position, mutations, gene expression pattern, and more with behaviours such as cell cycling and cell death being stochastically dependent on these attributes. The centre-based mechanical model represents the properties of these agents as physical objects, describing how they repel each other as soft spheres. By implementing a stochastic simulation algorithm on modern GPUs, we simulated the dynamics of over one million neuroblastoma cells over a period of months. Specifically, we set up 1200 heterogeneous tumours and tracked the MYCN-amplified clone's dynamics in each, revealed the conditions that favour its growth, and tested its responses to 5000 drug combinations. Our results are in agreement with those reported in the literature and add new insights into how the MYCN-amplified clone's reproductive advantage in a tumour, its gene expression profile, the tumour's other clones (with different mutations), and the tumour's microenvironment are inter-related. Based on the results, we formulated a hypothesis, which argues that there are two distinct populations of neuroblastoma cells in the tumour; the p53 protein is pro-survival in one and pro-apoptosis in the other. It follows that alternating between inhibiting MDM2 to restore p53 activity and inhibiting ARF to attenuate p53 activity is a promising, if unorthodox, therapeutic strategy. The multicellular model has the advantages of modularity, high resolution, and scalability, making it a potential foundation for creating digital twins of neuroblastoma patients.",
+  "abstract_zh": "神经母细胞瘤是儿童中最常见的颅外实体肿瘤。即使在化疗、手术和免疫治疗后，超过一半的高风险病例预计仍将死于该疾病。尽管MYCN扩增在该疾病中的重要性无可争议，但其机制细节仍然神秘。在此，我们提出了一个神经母细胞瘤的多细胞模型，该模型包含一个连续自动机、离散细胞代理以及一个基于中心的机械模型，以及我们通过该模型获得的模拟结果。连续自动机将肿瘤微环境表示为网格状结构，其中每个体素与连续变量（如其中的氧水平）相关联。每个离散细胞代理由多个属性定义，包括其细胞周期位置、突变、基因表达模式等，其行为（如细胞周期和细胞死亡）随机依赖于这些属性。基于中心的机械模型将这些代理的属性表示为物理对象，描述它们如何作为软球体相互排斥。通过在现代GPU上实现随机模拟算法，我们模拟了超过一百万个神经母细胞瘤细胞在数月内的动态。具体来说，我们设置了1200个异质性肿瘤，并追踪了每个肿瘤中MYCN扩增克隆的动态，揭示了有利于其生长的条件，并测试了其对5000种药物组合的反应。我们的结果与文献报道一致，并为MYCN扩增克隆在肿瘤中的生殖优势、其基因表达谱、肿瘤的其他克隆（具有不同突变）以及肿瘤微环境之间的相互关系提供了新的见解。基于这些结果，我们提出了一种假设，认为肿瘤中存在两个不同的神经母细胞瘤细胞群体；p53蛋白在一个群体中促进生存，在另一个群体中促进凋亡。因此，交替抑制MDM2以恢复p53活性和抑制ARF以减弱p53活性是一种有前景的、尽管非正统的治疗策略。该多细胞模型具有模块化、高分辨率和可扩展性的优势，使其成为创建神经母细胞瘤患者数字孪生的潜在基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39715281/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39715281/",
+  "paper_page_path": "papers/pubmed/39715281/index.html"
+}

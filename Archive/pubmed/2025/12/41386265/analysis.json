@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41386265",
+  "title": "Benchmarking large language models for identifying transcription factor regulatory interactions.",
+  "authors": "Noel, Lake; Hsiao, Yi-Wen; He, Yimeng; Hung, Andrew; Cui, Xiaojiang; Ray, Edward; Moore, Jason H; Peng, Pei-Chen; Huang, Xiuzhen",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2025-12-13",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文基准测试大语言模型在识别TF-靶基因调控互作上的表现，虽涉及TF-DNA调控关系，但主要依赖文本知识提取而非三维结构或结合机制建模，方法上仅用LLM查询，缺乏AI/物理模拟的互作建模深度。",
+  "abstract": "MOTIVATION: Transcription factors (TFs) and their target genes form regulatory networks that control gene expression and influence diverse biological processes and disease outcomes. Although multiple computational methods and curated databases have been developed to identify TF-target interactions, they often require specialized expertise. Large language models (LLMs) chatbots offer a more accessible alternative for querying TF-target interactions. In this study, we benchmarked four prominent LLMs, Anthropic's Claude 3.5 Sonnet, Google's Gemini 1.0 Pro, OpenAI's GPT-4o, and Meta's Llama3 8b, using 8432 literature-curated human TF-target interactions. We examined four regulatory categories: bidirectional, ambiguous, self-regulated, and unidirectional interactions. RESULTS: Under single-turn queries, Claude 3.5 Sonnet and GPT-4o outperformed the others, with balanced accuracies reaching 50.0 +/- 7.6% (GPT-4o, self-regulated) and 48.2 +/- 1.0% (Claude 3.5 Sonnet, unidirectional). Zero-temperature settings generally enhanced reproducibility, and multi-turn prompting improved performance for most models, increasing Claude 3.5 Sonnet's accuracy on self-regulated pairs by 32.6%. Excluding TF-target pairs with all unknown regulation types also generally improved accuracy, with unidirectional regulation reaching near 70% balanced accuracy in some cases. We also benchmarked Anthropic's Claude 3.5 Sonnet, Google's Gemini 2.0 Flash, OpenAI's GPT-4o, and Meta's Llama3 using 5148 experimentally derived TF-target interactions. Claude 3.5 Sonnet consistently outperformed the other models across conditions. Our findings highlight that prompt engineering and strategic use of model parameters consistently influence LLM chatbots' performance on TF-target identifications. This study establishes a benchmarking framework and demonstrates the potential of pre-trained general-purpose LLMs to support regulatory biology research, especially for researchers without extensive computational expertise. AVAILABILITY AND IMPLEMENTATION: The literature-based TF-target interactions ground truth were obtained from TRRUST v2 human dataset (www.grnpedia.org/trrust). The experimental derived TF-target interactions ground truth were obtained from TFLink Home Sapiens small-scale interaction table (https://tflink.net/). Processed TF-target interactions data and the analytical pipeline has been compiled as an interactive Python notebook file and is available at https://github.com/pengpclab/LLM-TF-interactions.",
+  "abstract_zh": "动机：转录因子（TFs）及其靶基因形成调控网络，控制基因表达并影响多种生物过程和疾病结果。尽管已开发多种计算方法和精选数据库来识别TF-靶标相互作用，它们通常需要专业知识。大型语言模型（LLMs）聊天机器人为查询TF-靶标相互作用提供了更易访问的替代方案。在本研究中，我们使用8432个文献精选的人类TF-靶标相互作用，对四种主流LLMs进行了基准测试：Anthropic的Claude 3.5 Sonnet、Google的Gemini 1.0 Pro、OpenAI的GPT-4o和Meta的Llama3 8b。我们考察了四种调控类别：双向、模糊、自我调控和单向相互作用。结果：在单轮查询下，Claude 3.5 Sonnet和GPT-4o表现优于其他模型，平衡准确率分别达到50.0 +/- 7.6%（GPT-4o，自我调控）和48.2 +/- 1.0%（Claude 3.5 Sonnet，单向）。零温度设置通常增强可重复性，多轮提示提高了大多数模型的性能，使Claude 3.5 Sonnet在自我调控对上的准确率提高了32.6%。排除所有调控类型未知的TF-靶标对也普遍提高了准确率，在某些情况下单向调控的平衡准确率接近70%。我们还使用5148个实验衍生的TF-靶标相互作用，对Anthropic的Claude 3.5 Sonnet、Google的Gemini 2.0 Flash、OpenAI的GPT-4o和Meta的Llama3进行了基准测试。Claude 3.5 Sonnet在所有条件下均持续优于其他模型。我们的发现强调，提示工程和模型参数的策略性使用持续影响LLM聊天机器人在TF-靶标识别中的性能。本研究建立了一个基准测试框架，并展示了预训练通用LLMs支持调控生物学研究的潜力，特别是对于缺乏广泛计算专业知识的科研人员。可用性和实现：基于文献的TF-靶标相互作用真实数据来自TRRUST v2人类数据集（www.grnpedia.org/trrust）。实验衍生的TF-靶标相互作用真实数据来自TFLink Home Sapiens小规模相互作用表（https://tflink.net/）。处理后的TF-靶标相互作用数据和分析流程已编译为交互式Python笔记本文件，可在https://github.com/pengpclab/LLM-TF-interactions获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41386265/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41386265/",
+  "paper_page_path": "papers/pubmed/41386265/index.html"
+}

@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "36243974",
+    "doi": "10.1093/nar/gkac881",
+    "title": "Interpretable deep learning for chromatin-informed inference of transcriptional programs driven by somatic alterations across cancers."
+  },
+  "content": {
+    "abstract": "Cancer is a disease of gene dysregulation, where cells acquire somatic and epigenetic alterations that drive aberrant cellular signaling. These alterations adversely impact transcriptional programs and cause profound changes in gene expression. Interpreting somatic alterations within context-specific transcriptional programs will facilitate personalized therapeutic decisions but is a monumental task. Toward this goal, we develop a partially interpretable neural network model called Chromatin-informed Inference of Transcriptional Regulators Using Self-attention mechanism (CITRUS). CITRUS models the impact of somatic alterations on transcription factors and downstream transcriptional programs. Our approach employs a self-attention mechanism to model the contextual impact of somatic alterations. Furthermore, CITRUS uses a layer of hidden nodes to explicitly represent the state of transcription factors (TFs) to learn the relationships between TFs and their target genes based on TF binding motifs in the open chromatin regions of tumor samples. We apply CITRUS to genomic, transcriptomic, and epigenomic data from 17 cancer types profiled by The Cancer Genome Atlas. CITRUS predicts patient-specific TF activities and reveals transcriptional program variations between and within tumor types. We show that CITRUS yields biological insights into delineating TFs associated with somatic alterations in individual tumors. Thus, CITRUS is a promising tool for precision oncology.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Chromatin/genetics",
+      "*Neoplasms/genetics",
+      "*Deep Learning",
+      "Precision Medicine",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tao, Yifeng",
+        "Ma, Xiaojun",
+        "Palmer, Drake",
+        "Schwartz, Russell",
+        "Lu, Xinghua",
+        "Osmanbeyoglu, Hatice Ulku"
+      ],
+      "short_names": [
+        "Tao Y",
+        "Ma X",
+        "Palmer D",
+        "Schwartz R",
+        "Lu X",
+        "Osmanbeyoglu HU"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4970-2252",
+        "ORCID: 0000-0002-8599-2269",
+        "ORCID: 0000-0002-3175-1777"
+      ],
+      "affiliations": [
+        "Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA, USA.",
+        "Department of Biomedical Informatics, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "UPMC Hillman Cancer Center, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "UPMC Hillman Cancer Center, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA, USA.",
+        "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA, USA.",
+        "Department of Biomedical Informatics, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Pharmaceutical Science, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Biomedical Informatics, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "UPMC Hillman Cancer Center, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Bioengineering, School of Engineering, University of Pittsburgh, Pittsburgh, PA, USA.",
+        "Department of Biostatistics, School of Public Health, University of Pittsburgh, Pittsburgh, PA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tao, Yifeng",
+        "short_name": "Tao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiaojun",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.",
+          "UPMC Hillman Cancer Center, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Palmer, Drake",
+        "short_name": "Palmer D",
+        "identifiers": [],
+        "affiliations": [
+          "UPMC Hillman Cancer Center, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Schwartz, Russell",
+        "short_name": "Schwartz R",
+        "identifiers": [
+          "0000-0002-4970-2252"
+        ],
+        "affiliations": [
+          "Computational Biology Department, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA, USA.",
+          "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Lu, Xinghua",
+        "short_name": "Lu X",
+        "identifiers": [
+          "0000-0002-8599-2269"
+        ],
+        "affiliations": [
+          "Department of Biomedical Informatics, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.",
+          "Department of Pharmaceutical Science, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Osmanbeyoglu, Hatice Ulku",
+        "short_name": "Osmanbeyoglu HU",
+        "identifiers": [
+          "0000-0002-3175-1777"
+        ],
+        "affiliations": [
+          "Department of Biomedical Informatics, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.",
+          "UPMC Hillman Cancer Center, University of Pittsburgh, Pittsburgh, PA, USA.",
+          "Department of Bioengineering, School of Engineering, University of Pittsburgh, Pittsburgh, PA, USA.",
+          "Department of Biostatistics, School of Public Health, University of Pittsburgh, Pittsburgh, PA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2022 Oct 28",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/17 06:00",
+    "fetched_at": "2026-09-28 15:06:37"
+  },
+  "links": {
+    "cites": [
+      "41521668",
+      "41016012",
+      "39605479",
+      "39122941",
+      "37508462"
+    ],
+    "refs": [
+      "34500467",
+      "34433819",
+      "32874135",
+      "32402082",
+      "32025007",
+      "31797588",
+      "31276486",
+      "31114913",
+      "30361341",
+      "29755131",
+      "29738578",
+      "28139702",
+      "27926873",
+      "26925389",
+      "26571099",
+      "25247763",
+      "25215497",
+      "25183703",
+      "24071849",
+      "24037242",
+      "23986566",
+      "23512614",
+      "23383675",
+      "22962493",
+      "22248053",
+      "21330290",
+      "20459804",
+      "19458158"
+    ],
+    "similar": [
+      "36243974",
+      "31554806",
+      "28139702",
+      "35293310",
+      "25183703",
+      "31797588",
+      "35609422",
+      "31759992",
+      "32143622",
+      "39236169",
+      "32770026",
+      "32615918",
+      "30696696",
+      "26056275",
+      "29335749",
+      "26291518",
+      "31053165",
+      "33728716",
+      "30102398",
+      "34544361",
+      "31362726",
+      "37598467",
+      "18426580",
+      "37788349",
+      "34272562",
+      "35666736",
+      "28750606",
+      "31345953",
+      "24603674",
+      "33372147",
+      "22456606",
+      "35197482",
+      "36693565",
+      "36850002",
+      "28215225",
+      "37420249",
+      "38445965",
+      "37852782",
+      "36360189",
+      "35831531",
+      "30400878",
+      "38990734",
+      "27496222",
+      "35396274",
+      "30358822",
+      "26868017",
+      "37782656",
+      "22849367",
+      "32978299",
+      "20238423",
+      "31276486",
+      "35440061",
+      "37540844",
+      "32424069",
+      "33279581",
+      "28961802",
+      "38600550",
+      "33859751",
+      "27780826",
+      "38940155",
+      "36711841",
+      "34996354",
+      "25433490",
+      "37503199",
+      "32244895",
+      "31801079",
+      "35549704",
+      "29325176",
+      "34864886",
+      "30359306",
+      "22126206",
+      "37568673",
+      "35398245",
+      "23130835",
+      "21172055",
+      "33741710",
+      "33517372",
+      "36040971",
+      "22537144",
+      "29769331",
+      "35167097",
+      "29326300",
+      "23885756",
+      "23246694",
+      "25335464",
+      "35906698",
+      "31853542",
+      "24564277",
+      "29802231",
+      "29953437",
+      "28505376",
+      "24918633",
+      "38654130",
+      "31659164",
+      "27091612",
+      "32664951",
+      "36114445",
+      "28984190"
+    ],
+    "review": [
+      "36243974",
+      "35609422",
+      "31759992",
+      "29335749",
+      "33728716",
+      "35831531",
+      "37540844",
+      "32244895",
+      "22126206",
+      "23130835"
+    ],
+    "pmc": [
+      "9638905"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36243974/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36243974",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkac881",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

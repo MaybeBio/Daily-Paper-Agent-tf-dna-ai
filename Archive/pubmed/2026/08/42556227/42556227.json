@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "42556227",
+    "doi": "10.1016/j.ecoenv.2026.120597",
+    "title": "Diethylene glycol dibenzoate an emerging plasticizer disrupts bone formation via MMP3 targeting: Insights from bioinformatics and in vitro validation."
+  },
+  "content": {
+    "abstract": "DEGDB, also known as diethylene glycol dibenzoate, is a new eco-conscious plasticizer on the block. However, the environmental and health implications of this substance remain poorly understood. The research utilized a synergistic bioinformatics and laboratory methodology to explore the functions and underlying process of DEGDB in the context of osteoporosis (OP). Through mining transcriptome datasets and constructing machine learning models, we identified five core genes associated with DEGDB-related OP. Cross-analysis with protein-protein interaction networks pinpointed matrix metalloproteinase 3 (MMP3) as a key target. Molecular docking and dynamics simulations confirmed a stable binding affinity between DEGDB and MMP3. In vitro experiments using bone marrow mesenchymal stem cells (BMSCs) revealed that non-cytotoxic concentrations of DEGDB significantly inhibited osteogenic differentiation, as evidenced by reduced alkaline phosphatase activity, mineralized nodule formation, and downregulation of osteogenic markers (Runt-related transcription factor 2, RUNX2; Collagen type I alpha 1 chain, COL1A1). Mechanistically, DEGDB promoted the phosphorylation of the NF-kappaB (Nuclear factor kappa B) pathway and subsequently upregulated the expression of MMP3, both at mRNA and protein levels. These findings suggest that DEGDB may impair bone formation by activating the NF-kappaB/MMP3 axis, highlighting its potential risk as an environmental pollutant contributing to OP and providing new insights into the molecular mechanisms linking plasticizer exposure to bone metabolic disorders.",
+    "keywords": [
+      "Bone formation",
+      "Diethylene glycol dibenzoate",
+      "MMP3",
+      "Machine learning",
+      "Vitro validation"
+    ],
+    "mesh_terms": [
+      "*Osteogenesis/drug effects",
+      "Animals",
+      "Mesenchymal Stem Cells/drug effects",
+      "Computational Biology",
+      "*Matrix Metalloproteinase 3/metabolism/genetics",
+      "*Plasticizers/toxicity",
+      "Molecular Docking Simulation",
+      "Cell Differentiation/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Miao",
+        "Mai, Genning",
+        "Meng, Chenhui",
+        "Li, Xiaoxuan",
+        "Zhao, Ruijun",
+        "Feng, Zheya",
+        "Pan, Zhaofeng",
+        "Wang, Fanchen",
+        "Ling, Jiajun",
+        "Wang, Haibin",
+        "He, Qi"
+      ],
+      "short_names": [
+        "Li M",
+        "Mai G",
+        "Meng C",
+        "Li X",
+        "Zhao R",
+        "Feng Z",
+        "Pan Z",
+        "Wang F",
+        "Ling J",
+        "Wang H",
+        "He Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopaedic Surgery, The First Affiliated Hospital, Guangzhou University of Chinese Medicine, 16 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong 510120, PR China; The Laboratory of Orthopaedics and Traumatology of Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; First School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China.",
+        "First School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong 510120, PR China; The Laboratory of Orthopaedics and Traumatology of Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; First School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China.",
+        "Fifth School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China.",
+        "The Second School of Clinical Medicine, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong 510120, PR China.",
+        "First School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong 510120, PR China; Third School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; The Laboratory of Orthopaedics and Traumatology of Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; First School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong 510120, PR China; The Laboratory of Orthopaedics and Traumatology of Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; First School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China.",
+        "The Second School of Clinical Medicine, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong 510120, PR China.",
+        "Department of Orthopaedic Surgery, The First Affiliated Hospital, Guangzhou University of Chinese Medicine, 16 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong 510120, PR China; The Laboratory of Orthopaedics and Traumatology of Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; First School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China. Electronic address: wanghaibin0058@gzucm.edu.cn.",
+        "Department of Orthopaedic Surgery, The First Affiliated Hospital, Guangzhou University of Chinese Medicine, 16 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; The Laboratory of Orthopaedics and Traumatology of Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; First School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China. Electronic address: heqi06@gzucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Miao",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, The First Affiliated Hospital, Guangzhou University of Chinese Medicine, 16 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong 510120, PR China; The Laboratory of Orthopaedics and Traumatology of Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; First School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China."
+        ]
+      },
+      {
+        "full_name": "Mai, Genning",
+        "short_name": "Mai G",
+        "identifiers": [],
+        "affiliations": [
+          "First School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China."
+        ]
+      },
+      {
+        "full_name": "Meng, Chenhui",
+        "short_name": "Meng C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong 510120, PR China; The Laboratory of Orthopaedics and Traumatology of Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; First School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaoxuan",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Fifth School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ruijun",
+        "short_name": "Zhao R",
+        "identifiers": [],
+        "affiliations": [
+          "The Second School of Clinical Medicine, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong 510120, PR China."
+        ]
+      },
+      {
+        "full_name": "Feng, Zheya",
+        "short_name": "Feng Z",
+        "identifiers": [],
+        "affiliations": [
+          "First School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China."
+        ]
+      },
+      {
+        "full_name": "Pan, Zhaofeng",
+        "short_name": "Pan Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong 510120, PR China; Third School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; The Laboratory of Orthopaedics and Traumatology of Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; First School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Fanchen",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong 510120, PR China; The Laboratory of Orthopaedics and Traumatology of Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; First School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China."
+        ]
+      },
+      {
+        "full_name": "Ling, Jiajun",
+        "short_name": "Ling J",
+        "identifiers": [],
+        "affiliations": [
+          "The Second School of Clinical Medicine, Guangzhou University of Chinese Medicine, Guangzhou, Guangdong 510120, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Haibin",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, The First Affiliated Hospital, Guangzhou University of Chinese Medicine, 16 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; State Key Laboratory of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, Guangdong 510120, PR China; The Laboratory of Orthopaedics and Traumatology of Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; First School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China. Electronic address: wanghaibin0058@gzucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "He, Qi",
+        "short_name": "He Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, The First Affiliated Hospital, Guangzhou University of Chinese Medicine, 16 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; The Laboratory of Orthopaedics and Traumatology of Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China; First School of Clinical Medicine, Guangzhou University of Chinese Medicine, 12 Jichang Road, Baiyun District, Guangzhou, Guangdong 510405, PR China. Electronic address: heqi06@gzucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Ecotoxicology and environmental safety"
+    ],
+    "journal_abbrev": [
+      "Ecotoxicol Environ Saf"
+    ],
+    "pub_date": "2026 Sep 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/06 11:36",
+    "fetched_at": "2026-10-02 03:09:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42556227",
+      "42224996",
+      "41564679",
+      "40684834",
+      "40215821",
+      "42002781",
+      "42475469",
+      "41482017",
+      "41088057",
+      "41184110",
+      "37344864",
+      "28857167",
+      "39082354",
+      "41258401",
+      "40510335",
+      "31703756",
+      "42617514",
+      "40239729",
+      "37853466",
+      "38735373",
+      "15084905",
+      "42385430",
+      "39675109",
+      "31364143",
+      "37019682",
+      "41264994",
+      "31674048",
+      "42128337",
+      "41303381",
+      "40154899",
+      "38658320",
+      "38258549",
+      "31957858",
+      "41253466",
+      "31485621",
+      "41838059",
+      "32865810",
+      "41203806",
+      "40215713",
+      "40939850",
+      "42276194",
+      "38940781",
+      "40513341",
+      "42487291",
+      "24510807",
+      "39971368",
+      "40358879",
+      "39154827",
+      "34416564",
+      "40038790",
+      "39954559",
+      "21951285",
+      "35663324",
+      "41740552",
+      "39884015",
+      "42013695",
+      "38621468",
+      "40350837",
+      "40589197",
+      "40828205",
+      "42393739",
+      "37427673",
+      "37904187",
+      "39920313",
+      "31858576",
+      "20362069",
+      "34624508",
+      "35777302",
+      "41291922",
+      "38824271",
+      "41265152",
+      "42608871",
+      "38748896",
+      "41878437",
+      "34967263",
+      "33143524",
+      "41173929",
+      "38996954",
+      "42138552",
+      "31074104",
+      "25187572",
+      "39695926",
+      "31718857",
+      "40421821",
+      "35470497",
+      "27401008",
+      "29234953",
+      "40775331",
+      "38776853",
+      "39848018",
+      "42462530",
+      "41843192",
+      "33743412",
+      "41501229",
+      "27287253",
+      "33137853",
+      "40268538",
+      "40311832",
+      "36617832",
+      "41564522"
+    ],
+    "review": [
+      "42556227"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0147-6513(26)00927-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3568",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "37555920",
+    "doi": "10.1007/s10815-023-02903-y",
+    "title": "Identification of potential diagnostic biomarkers and therapeutic targets for endometriosis based on bioinformatics and machine learning analysis."
+  },
+  "content": {
+    "abstract": "PURPOSE: Endometriosis (EMs) is a major gynecological condition in women. Due to the absence of definitive symptoms, its early detection is very challenging; thus, it is crucial to find biomarkers to ease its diagnosis and therapy. Here, we aimed to identify potential diagnostic and therapeutic targets for EMs by constructing a regulatory network and using machine learning approaches. METHODS: Three Gene Expression Omnibus (GEO) datasets were merged, and differentially expressed genes (DEGS) were identified after preprocessing steps. Using the DEGs, a transcription factor (TF)-mRNA-miRNA regulatory network was constructed, and hub genes were detected based on four different algorithms in CytoHubba. The hub genes were used to build a GaussianNB diagnostic model and also in docking analysis that were performed using Discovery Studio and AutoDock Vina software. RESULTS: A total of 119 DEGs were identified between EMs and non-EMs samples. A regulatory network consisting of 52 mRNAs, 249 miRNAs, and 37 TFs was then constructed. The diagnostic model was introduced using the hub genes selected from the network (GATA6, HMOX1, HS3ST1, NFASC, and PTGIS) that its area under the curve (AUC) was 0.98 and 0.92 in the training and validation cohorts, respectively. Based on docking analysis, two chemical compounds, rofecoxib and retinoic acid, had potential therapeutic effects on EMs. CONCLUSION: In conclusion, this study identified potential diagnostic and therapeutic targets for EMs which demand more experimental confirmations.",
+    "keywords": [
+      "Diagnostic biomarkers",
+      "Docking analysis",
+      "Endometriosis",
+      "Gene expression",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Endometriosis/diagnosis/drug therapy/genetics",
+      "*MicroRNAs/genetics",
+      "Computational Biology",
+      "Algorithms",
+      "Machine Learning",
+      "Gene Expression Profiling",
+      "Biomarkers"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hosseini, Maryam",
+        "Hammami, Behnaz",
+        "Kazemi, Mohammad"
+      ],
+      "short_names": [
+        "Hosseini M",
+        "Hammami B",
+        "Kazemi M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6794-6891"
+      ],
+      "affiliations": [
+        "Department of Genetics and Molecular Biology, School of Medicine, Isfahan University of Medical Sciences, Isfahan, Iran.",
+        "Department of Genetics and Molecular Biology, School of Medicine, Isfahan University of Medical Sciences, Isfahan, Iran.",
+        "Department of Genetics and Molecular Biology, School of Medicine, Isfahan University of Medical Sciences, Isfahan, Iran. m_kazemi@med.mui.ac.ir.",
+        "Reproductive Sciences and Sexual Health Research Center, Isfahan University of Medical Sciences, Isfahan, Iran. m_kazemi@med.mui.ac.ir."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hosseini, Maryam",
+        "short_name": "Hosseini M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Molecular Biology, School of Medicine, Isfahan University of Medical Sciences, Isfahan, Iran."
+        ]
+      },
+      {
+        "full_name": "Hammami, Behnaz",
+        "short_name": "Hammami B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics and Molecular Biology, School of Medicine, Isfahan University of Medical Sciences, Isfahan, Iran."
+        ]
+      },
+      {
+        "full_name": "Kazemi, Mohammad",
+        "short_name": "Kazemi M",
+        "identifiers": [
+          "0000-0002-6794-6891"
+        ],
+        "affiliations": [
+          "Department of Genetics and Molecular Biology, School of Medicine, Isfahan University of Medical Sciences, Isfahan, Iran. m_kazemi@med.mui.ac.ir.",
+          "Reproductive Sciences and Sexual Health Research Center, Isfahan University of Medical Sciences, Isfahan, Iran. m_kazemi@med.mui.ac.ir."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of assisted reproduction and genetics"
+    ],
+    "journal_abbrev": [
+      "J Assist Reprod Genet"
+    ],
+    "pub_date": "2023 Oct",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/09 12:55",
+    "fetched_at": "2026-09-29 05:20:57"
+  },
+  "links": {
+    "cites": [
+      "41872379",
+      "40140093",
+      "38665804",
+      "38002087"
+    ],
+    "refs": [
+      "36359004",
+      "36339397",
+      "36212136",
+      "35830453",
+      "35601407",
+      "35496348",
+      "35207704",
+      "34850920",
+      "34831096",
+      "34683848",
+      "34522169",
+      "34201813",
+      "33842373",
+      "33584822",
+      "33354413",
+      "33320017",
+      "33202017",
+      "32858595",
+      "31853298",
+      "31607790",
+      "31552087",
+      "31531901",
+      "30809650",
+      "30798642",
+      "30589192",
+      "29402198",
+      "29087512",
+      "26226356",
+      "26206343",
+      "25990557",
+      "25750101",
+      "25521941",
+      "24307685",
+      "22902396",
+      "22608095",
+      "22257669",
+      "21659316",
+      "17069513",
+      "16632515",
+      "15474083",
+      "14960456",
+      "14693816",
+      "14102742",
+      "12036371",
+      "11259830",
+      "11052792",
+      "10087424",
+      "8586309"
+    ],
+    "similar": [
+      "37555920",
+      "38456992",
+      "38863714",
+      "36341343",
+      "35757392",
+      "36660246",
+      "36532015",
+      "39061076",
+      "39149122",
+      "36195955",
+      "35496348",
+      "39142001",
+      "39139563",
+      "36524127",
+      "38650009",
+      "34280006",
+      "34536521",
+      "36823662",
+      "36212136",
+      "37740761",
+      "34218797",
+      "38169604",
+      "33280594",
+      "37449753",
+      "36049413",
+      "38660311",
+      "38062833",
+      "37092838",
+      "36930359",
+      "38549776",
+      "31987036",
+      "34727222",
+      "36660690",
+      "35713363",
+      "37250717",
+      "35773742",
+      "36513616",
+      "37878219",
+      "32462942",
+      "38987624",
+      "39346628",
+      "39108650",
+      "39316330",
+      "35658960",
+      "35379124",
+      "39263286",
+      "35397550",
+      "33237828",
+      "37115484",
+      "36291136",
+      "35872921",
+      "38268224",
+      "36627660",
+      "35281953",
+      "39081100",
+      "32738584",
+      "38690269",
+      "33639954",
+      "35975032",
+      "36339397",
+      "34814332",
+      "37632659",
+      "38608447",
+      "34409913",
+      "38098472",
+      "32236623",
+      "36104591",
+      "39028999",
+      "36499614",
+      "38831425",
+      "30542696",
+      "38017285",
+      "38701300",
+      "38041130",
+      "34099740",
+      "36059456",
+      "34744455",
+      "35144391",
+      "36277723",
+      "35958412",
+      "32651898",
+      "35996248",
+      "37986378",
+      "30138363",
+      "37760894",
+      "32165186",
+      "39071134",
+      "35585523",
+      "35322335",
+      "33705733",
+      "38912048",
+      "38544384",
+      "38899746",
+      "38509535",
+      "32307200",
+      "38197976",
+      "38370978",
+      "33430905",
+      "37720213",
+      "29357938",
+      "38374020",
+      "38192048"
+    ],
+    "review": [
+      "37555920"
+    ],
+    "pmc": [
+      "10504186"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/endometriosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Endometriosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37555920/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s10815-023-02903-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

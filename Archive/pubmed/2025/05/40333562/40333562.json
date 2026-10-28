@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "pmid": "40333562",
+    "doi": "10.3390/molecules30081668",
+    "title": "Unlocking the Potential of Curcumae Rhizoma Aqueous Extract in Stress Resistance and Extending Lifespan in Caenorhabditis elegans."
+  },
+  "content": {
+    "abstract": "The enhancement of stress resistance is crucial for delaying aging and extending a healthy lifespan. Traditional Chinese medicine (TCM), a cherished treasure of Chinese heritage, has shown potential in mitigating stress and promoting longevity. This study integrates network pharmacology and in vivo analysis to investigate the mechanisms and effects of Curcumae Rhizoma (C. Rhizoma), known as \"E Zhu\" in Chinese. Ultra-Performance Liquid Chromatography-Tandem Mass Spectrometry (UPLC-MS/MS) identified 10 active compounds in its aqueous extract, interacting with 128 stress-related targets. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses revealed pathways such as stress response, FoxO signaling, and insulin resistance. In Caenorhabditis elegans, 10 mg/mL of C. Rhizoma aqueous extract improved resistance to UV, thermal, oxidative, and pathogen-induced stress, extending lifespan in a dose-dependent manner. Mechanistically, it reduced reactive oxygen species (ROS), increased superoxide dismutase (SOD) activity, and enhanced UV resistance via the insulin/IGF-1 pathway and DAF-16 translocation. Molecular docking highlighted hexahydrocurcumin (HHC) and related compounds as key bioactives. Furthermore, we also observed that C. Rhizoma aqueous extract significantly extended both the lifespan and healthspan of nematodes. These findings highlight the potential of C. Rhizoma in stress mitigation and longevity promotion, offering valuable insights into the therapeutic applications of TCM.",
+    "keywords": [
+      "Caenorhabditis elegans",
+      "IIS",
+      "ROS",
+      "molecular docking",
+      "network pharmacology",
+      "stress resistance"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Caenorhabditis elegans/drug effects/physiology/metabolism",
+      "*Longevity/drug effects",
+      "*Plant Extracts/pharmacology/chemistry",
+      "*Curcuma/chemistry",
+      "*Rhizome/chemistry",
+      "*Stress, Physiological/drug effects",
+      "Molecular Docking Simulation",
+      "Caenorhabditis elegans Proteins/metabolism",
+      "Reactive Oxygen Species/metabolism",
+      "Oxidative Stress/drug effects",
+      "Signal Transduction/drug effects",
+      "Forkhead Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jing, Linyao",
+        "Zhao, Yanlin",
+        "Jiang, Lijun",
+        "Song, Fei",
+        "An, Lu",
+        "Qi, Edmund",
+        "Fu, Xueqi",
+        "Chen, Jing",
+        "Ma, Junfeng"
+      ],
+      "short_names": [
+        "Jing L",
+        "Zhao Y",
+        "Jiang L",
+        "Song F",
+        "An L",
+        "Qi E",
+        "Fu X",
+        "Chen J",
+        "Ma J"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-5954-8671",
+        "ORCID: 0000-0002-8914-3125"
+      ],
+      "affiliations": [
+        "State Key Laboratory for Diagnosis and Treatment of Severe Zoonotic Infectious Diseases, Key Laboratory for Zoonosis Research of the Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China.",
+        "State Key Laboratory for Diagnosis and Treatment of Severe Zoonotic Infectious Diseases, Key Laboratory for Zoonosis Research of the Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China.",
+        "Changchun Heber Biological Technology Co., Ltd., Changchun 130012, China.",
+        "State Key Laboratory for Diagnosis and Treatment of Severe Zoonotic Infectious Diseases, Key Laboratory for Zoonosis Research of the Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China.",
+        "State Key Laboratory for Diagnosis and Treatment of Severe Zoonotic Infectious Diseases, Key Laboratory for Zoonosis Research of the Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China.",
+        "State Key Laboratory for Diagnosis and Treatment of Severe Zoonotic Infectious Diseases, Key Laboratory for Zoonosis Research of the Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China.",
+        "State Key Laboratory for Diagnosis and Treatment of Severe Zoonotic Infectious Diseases, Key Laboratory for Zoonosis Research of the Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China.",
+        "State Key Laboratory for Diagnosis and Treatment of Severe Zoonotic Infectious Diseases, Key Laboratory for Zoonosis Research of the Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China.",
+        "State Key Laboratory for Diagnosis and Treatment of Severe Zoonotic Infectious Diseases, Key Laboratory for Zoonosis Research of the Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jing, Linyao",
+        "short_name": "Jing L",
+        "identifiers": [
+          "0009-0002-5954-8671"
+        ],
+        "affiliations": [
+          "State Key Laboratory for Diagnosis and Treatment of Severe Zoonotic Infectious Diseases, Key Laboratory for Zoonosis Research of the Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yanlin",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Diagnosis and Treatment of Severe Zoonotic Infectious Diseases, Key Laboratory for Zoonosis Research of the Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Lijun",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun Heber Biological Technology Co., Ltd., Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Song, Fei",
+        "short_name": "Song F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Diagnosis and Treatment of Severe Zoonotic Infectious Diseases, Key Laboratory for Zoonosis Research of the Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "An, Lu",
+        "short_name": "An L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Diagnosis and Treatment of Severe Zoonotic Infectious Diseases, Key Laboratory for Zoonosis Research of the Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Edmund",
+        "short_name": "Qi E",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Diagnosis and Treatment of Severe Zoonotic Infectious Diseases, Key Laboratory for Zoonosis Research of the Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Xueqi",
+        "short_name": "Fu X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Diagnosis and Treatment of Severe Zoonotic Infectious Diseases, Key Laboratory for Zoonosis Research of the Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jing",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Diagnosis and Treatment of Severe Zoonotic Infectious Diseases, Key Laboratory for Zoonosis Research of the Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Junfeng",
+        "short_name": "Ma J",
+        "identifiers": [
+          "0000-0002-8914-3125"
+        ],
+        "affiliations": [
+          "State Key Laboratory for Diagnosis and Treatment of Severe Zoonotic Infectious Diseases, Key Laboratory for Zoonosis Research of the Ministry of Education, School of Life Sciences, Jilin University, Changchun 130012, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2025 Apr 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/07 18:47",
+    "fetched_at": "2026-09-30 17:21:14"
+  },
+  "links": {
+    "cites": [
+      "42689473",
+      "41400846"
+    ],
+    "refs": [
+      "39423481",
+      "39256376",
+      "38198955",
+      "37963471",
+      "37710009",
+      "37683399",
+      "37443152",
+      "37282796",
+      "37075623",
+      "37046086",
+      "36906287",
+      "36038103",
+      "35661679",
+      "35616518",
+      "35580439",
+      "35395415",
+      "34933255",
+      "34666601",
+      "34589382",
+      "34518687",
+      "34062764",
+      "34052360",
+      "33863916",
+      "33721752",
+      "32574880",
+      "32315734",
+      "32302925",
+      "32105850",
+      "31906434",
+      "31800113",
+      "31658697",
+      "31506862",
+      "31234252",
+      "30941682",
+      "30773782",
+      "30643686",
+      "30200410",
+      "30182836",
+      "30174780",
+      "29986408",
+      "29616245",
+      "29524491",
+      "29415408",
+      "28407774",
+      "27899662",
+      "27575804",
+      "27059687",
+      "27057197",
+      "26936686",
+      "26881213",
+      "26643314",
+      "26497336",
+      "25547723",
+      "24845678",
+      "24735618",
+      "24398983",
+      "24123695",
+      "23467430",
+      "23084465",
+      "23000938",
+      "21296097",
+      "20381605",
+      "18936753",
+      "18775680",
+      "18498744",
+      "18006689",
+      "15890021",
+      "15134509",
+      "14505349",
+      "12750521",
+      "12690206",
+      "12031889",
+      "11747821",
+      "11684456",
+      "11381260",
+      "11248550",
+      "11089981",
+      "8642084",
+      "726520"
+    ],
+    "similar": [
+      "40333562",
+      "33881421",
+      "39353373",
+      "31401497",
+      "39197398",
+      "32285078",
+      "30238944",
+      "26626487",
+      "33124727",
+      "28434978",
+      "39025156",
+      "31952185",
+      "27478096",
+      "39483065",
+      "32443669",
+      "28667441",
+      "39581459",
+      "30266681",
+      "38877105",
+      "24964141",
+      "30077708",
+      "36903481",
+      "34240728",
+      "39740706",
+      "31286949",
+      "38705496",
+      "31379987",
+      "29495517",
+      "38277040",
+      "34935259",
+      "21858156",
+      "33471780",
+      "36052763",
+      "31332584",
+      "37734471",
+      "36581039",
+      "30710163",
+      "31669661",
+      "28366735",
+      "30004006",
+      "29605769",
+      "34397058",
+      "39565590",
+      "29670680",
+      "30624146",
+      "35366456",
+      "26592451",
+      "38326350",
+      "33924155",
+      "28831863",
+      "31799533",
+      "27853905",
+      "33802064",
+      "31206890",
+      "35041882",
+      "34374387",
+      "25644181",
+      "39528176",
+      "27533765",
+      "29255944",
+      "31766103",
+      "24835194",
+      "23736695",
+      "35016885",
+      "35122267",
+      "34675482",
+      "38754743",
+      "29902502",
+      "30423886",
+      "25367047",
+      "33488924",
+      "36480684",
+      "27554775",
+      "36172739",
+      "39450574",
+      "22864793",
+      "31960183",
+      "31418439",
+      "36549628",
+      "18536978",
+      "23959012",
+      "40260541",
+      "32722431",
+      "21932172",
+      "36234702",
+      "28128482",
+      "34575832",
+      "36662174",
+      "32506187",
+      "39684858",
+      "28954389",
+      "32860532",
+      "35119578",
+      "32908638",
+      "31871554",
+      "25720500",
+      "37232088",
+      "36519399",
+      "25826281",
+      "39683560"
+    ],
+    "review": [
+      "40333562"
+    ],
+    "pmc": [
+      "12029441"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules30081668",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40333562/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

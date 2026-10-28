@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "42582384",
+    "doi": "10.3389/fimmu.2026.1866358",
+    "title": "Risk stratification and multi-omics reveal RAD51 inhibition as a radiosensitizing strategy in triple-negative breast cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Triple-negative breast cancer (TNBC) is a highly aggressive subtype characterized by significant inter- and intra-tumoral heterogeneity. Its varied response to radiotherapy limits clinical outcomes, yet the underlying molecular determinants remain poorly understood. METHODS: By integrating single-cell and bulk transcriptomic data, we profiled cell-type-specific radiosensitivity and defined distinct molecular subtypes via consensus clustering. A random survival forest (RSF) prognostic model was then constructed using 34 survival-associated genes and interpreted via SHAP analysis, and its performance was validated in multiple independent external cohorts. RAD51 was prioritized via Dependency Map (DepMap) analysis, and its functional role was validated in vitro and in vivo, supporting its role as a biological dependency in radiotherapy response. Moreover, tumor immune remodeling was further evaluated by immunofluorescence and protein analysis. RESULTS: Single-cell analysis revealed that fibroblasts, macrophages, and proliferative cells harbored elevated radioresistance signatures compared to lymphoid lineages. Bulk profiling identified two distinct subtypes: Cluster A (immunosuppressive, radioresistant, poor prognosis) and Cluster B (immune-active, favorable survival). The RSF model robustly stratified patient risk, with high-risk tumors tightly linked to an immune-desert microenvironment. DepMap analysis nominated RAD51 as a core biological dependency. Importantly, RAD51 knockdown sensitized TNBC cells to irradiation by exacerbating DNA damage, triggering G2/M phase arrest, and driving apoptosis. Consistently, in vivo RAD51 silencing synergized with radiotherapy to significantly suppress tumor growth. Notably, this combination reshaped the immunosuppressive TME, driving robust CD8(+) T cell infiltration, M1 macrophage repolarization, and adaptive PD-L1 upregulation. CONCLUSION: This integrative multi-omics study delineates the cellular and molecular landscape of TNBC radioresistance. The RSF model provides a robust tool for risk stratification, while identifying RAD51 as a potential therapeutic target to restore radiosensitivity and reverse immunosuppression, particularly in high-risk, immune-cold tumors.",
+    "keywords": [
+      "RAD51",
+      "machine learning",
+      "radioresistance",
+      "single-cell RNA sequencing",
+      "triple-negative breast cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Triple Negative Breast Neoplasms/genetics/radiotherapy/immunology/pathology",
+      "Female",
+      "*Radiation Tolerance/genetics",
+      "*Rad51 Recombinase/genetics/antagonists & inhibitors/metabolism",
+      "Animals",
+      "Multiomics",
+      "Cell Line, Tumor",
+      "Mice",
+      "Risk Assessment",
+      "Gene Expression Regulation, Neoplastic",
+      "Prognosis",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "An, Ran",
+        "Li, Jianming",
+        "Liu, Tianhui",
+        "Tang, Cunyu",
+        "Lu, Hong"
+      ],
+      "short_names": [
+        "An R",
+        "Li J",
+        "Liu T",
+        "Tang C",
+        "Lu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Breast Imaging, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Tianjin, China.",
+        "Tianjin Medical University Cancer Institute & Hospital, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+        "Key Laboratory of Breast Cancer Prevention and Therapy, Tianjin Medical University, Ministry of Education, Tianjin, China.",
+        "Tianjin Medical University Cancer Institute & Hospital, Key Laboratory of Cancer Prevention and Therapy, Tianjin, China.",
+        "Department of Breast Imaging, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Tianjin, China.",
+        "Tianjin Medical University Cancer Institute & Hospital, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+        "Key Laboratory of Breast Cancer Prevention and Therapy, Tianjin Medical University, Ministry of Education, Tianjin, China.",
+        "Tianjin Medical University Cancer Institute & Hospital, Key Laboratory of Cancer Prevention and Therapy, Tianjin, China.",
+        "Department of Breast Imaging, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Tianjin, China.",
+        "Tianjin Medical University Cancer Institute & Hospital, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+        "Key Laboratory of Breast Cancer Prevention and Therapy, Tianjin Medical University, Ministry of Education, Tianjin, China.",
+        "Tianjin Medical University Cancer Institute & Hospital, Key Laboratory of Cancer Prevention and Therapy, Tianjin, China.",
+        "Tianjin Medical University Cancer Institute & Hospital, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+        "Tianjin Medical University Cancer Institute & Hospital, Key Laboratory of Cancer Prevention and Therapy, Tianjin, China.",
+        "Department of Radiation Oncology, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center of Cancer, Tianjin, China.",
+        "Department of Breast Imaging, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Tianjin, China.",
+        "Tianjin Medical University Cancer Institute & Hospital, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+        "Key Laboratory of Breast Cancer Prevention and Therapy, Tianjin Medical University, Ministry of Education, Tianjin, China.",
+        "Tianjin Medical University Cancer Institute & Hospital, Key Laboratory of Cancer Prevention and Therapy, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "An, Ran",
+        "short_name": "An R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Imaging, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Tianjin, China.",
+          "Tianjin Medical University Cancer Institute & Hospital, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+          "Key Laboratory of Breast Cancer Prevention and Therapy, Tianjin Medical University, Ministry of Education, Tianjin, China.",
+          "Tianjin Medical University Cancer Institute & Hospital, Key Laboratory of Cancer Prevention and Therapy, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jianming",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Imaging, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Tianjin, China.",
+          "Tianjin Medical University Cancer Institute & Hospital, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+          "Key Laboratory of Breast Cancer Prevention and Therapy, Tianjin Medical University, Ministry of Education, Tianjin, China.",
+          "Tianjin Medical University Cancer Institute & Hospital, Key Laboratory of Cancer Prevention and Therapy, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Tianhui",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Imaging, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Tianjin, China.",
+          "Tianjin Medical University Cancer Institute & Hospital, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+          "Key Laboratory of Breast Cancer Prevention and Therapy, Tianjin Medical University, Ministry of Education, Tianjin, China.",
+          "Tianjin Medical University Cancer Institute & Hospital, Key Laboratory of Cancer Prevention and Therapy, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Cunyu",
+        "short_name": "Tang C",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Medical University Cancer Institute & Hospital, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+          "Tianjin Medical University Cancer Institute & Hospital, Key Laboratory of Cancer Prevention and Therapy, Tianjin, China.",
+          "Department of Radiation Oncology, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center of Cancer, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Hong",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Imaging, Tianjin Medical University Cancer Institute and Hospital, National Clinical Research Center for Cancer, Tianjin, China.",
+          "Tianjin Medical University Cancer Institute & Hospital, Tianjin's Clinical Research Center for Cancer, Tianjin, China.",
+          "Key Laboratory of Breast Cancer Prevention and Therapy, Tianjin Medical University, Ministry of Education, Tianjin, China.",
+          "Tianjin Medical University Cancer Institute & Hospital, Key Laboratory of Cancer Prevention and Therapy, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/12 11:38",
+    "fetched_at": "2026-10-02 03:35:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40680743",
+      "39905235",
+      "38715072",
+      "38572751",
+      "37931633",
+      "37541797",
+      "36658726",
+      "36477705",
+      "36428789",
+      "35711838",
+      "35626173",
+      "34493872",
+      "34166607",
+      "33812473",
+      "33050580",
+      "32849557",
+      "32467568",
+      "32355263",
+      "32289271",
+      "32161398",
+      "31980749",
+      "30679171",
+      "30504836",
+      "30021152",
+      "29939325",
+      "28759347",
+      "28719811",
+      "27939063",
+      "27225691",
+      "27214603",
+      "26105538",
+      "25752562",
+      "25423595",
+      "24478982",
+      "23917950",
+      "22918414",
+      "22320227",
+      "22258607",
+      "18285604",
+      "17671126",
+      "17620276",
+      "12442171",
+      "11782381",
+      "10728684",
+      "6082487"
+    ],
+    "similar": [
+      "42582384",
+      "41488652",
+      "42023218",
+      "41759266",
+      "41098738",
+      "40438115",
+      "41716413",
+      "42035196",
+      "40145099",
+      "41436831",
+      "42111497",
+      "41472745",
+      "42500577",
+      "41566505",
+      "41293150",
+      "41798945",
+      "41511527",
+      "41520125",
+      "41601657",
+      "40541706",
+      "42212139",
+      "39776914",
+      "42159784",
+      "40517736",
+      "42032729",
+      "42099633",
+      "40557143",
+      "31492187",
+      "41058682",
+      "41656832",
+      "39870964",
+      "42050659",
+      "38435998",
+      "42359574",
+      "41063153",
+      "41988184",
+      "41399382",
+      "42116764",
+      "34341184",
+      "37081516",
+      "41451212",
+      "41188946",
+      "42358823",
+      "41968987",
+      "41595458",
+      "41209020",
+      "41727639",
+      "40633212",
+      "41035636",
+      "40454580",
+      "41609069",
+      "42095675",
+      "42039207",
+      "41882633",
+      "40777041",
+      "42008953",
+      "39271768",
+      "39712016",
+      "42120731",
+      "37767092",
+      "41325182",
+      "41423668",
+      "40627035",
+      "41957185",
+      "31640742",
+      "42177558",
+      "41413822",
+      "42245636",
+      "42358814",
+      "40764992",
+      "40783744",
+      "34587437",
+      "41094064",
+      "41350246",
+      "32294924",
+      "41831248",
+      "38863037",
+      "39867909",
+      "41485251",
+      "30736840",
+      "41694346",
+      "39206896",
+      "42100798",
+      "39116492",
+      "37263064",
+      "41836446",
+      "42511503",
+      "40642093",
+      "38704606",
+      "40308576",
+      "41383634",
+      "41102194",
+      "42317342",
+      "42088484",
+      "41883034",
+      "40963916",
+      "41482351",
+      "41046657",
+      "41107799",
+      "40197136"
+    ],
+    "review": [
+      "42582384"
+    ],
+    "pmc": [
+      "13457375"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42582384/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1866358",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

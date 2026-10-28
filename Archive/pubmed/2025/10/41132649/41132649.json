@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "41132649",
+    "doi": "10.3389/fimmu.2025.1675292",
+    "title": "Bioinformatics identification of mitochondria and macrophage polarization-related genes in COPD and their potential mechanisms."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: This study investigated key genes associated with both chronic obstructive pulmonary disease (COPD) and macrophage polarization or mitochondrial dysfunction, and explored their underlying mechanisms through bioinformatics analysis. METHODS: Data from GSE151052, GSE106986, and GSE171541 were utilized. Critical module genes linked to mitochondria-related genes (MRGs) and macrophage polarization-related genes (MPRGs) were identified via co-expression networks. Biomarkers for COPD were then screened using differential expression analysis, machine learning, and receiver operating characteristic (ROC) curves. A nomogram was developed to assess COPD risk. Additionally, immune infiltration, molecular regulation, and drug prediction analyses were conducted. Single-cell analysis in GSE171541 identified key cell types involved in COPD. RESULTS: A series of analyses identified three COPD biomarkers-P2RY1, UBASH3B, and HMCN1-which exhibited strong discriminatory power between COPD and control samples. The nomogram effectively predicted COPD risk. Immune infiltration analysis revealed a strong positive correlation between UBASH3B and immature dendritic cells, while P2RY1 showed a strong negative correlation with eosinophils. Molecular regulation indicated that all three biomarkers were modulated by specific miRNAs and transcription factors. Nickel was identified as a potential drug co-predicted for the biomarkers. Single-cell analysis identified seven key cell types: macrophages, monocytes, T cells, AT2 cells, proliferating cells, endothelial cells, and stromal cells. CONCLUSION: Three biomarkers associated with mitochondrial function and macrophage polarization were identified in COPD through bioinformatics analysis. These biomarkers offer potential for enhancing COPD diagnosis and treatment, and provide insights into the molecular mechanisms underlying the disease.",
+    "keywords": [
+      "COPD",
+      "HMCN1",
+      "P2RY1",
+      "UBASH3B",
+      "bioinformatics",
+      "macrophage polarization",
+      "mitochondria"
+    ],
+    "mesh_terms": [
+      "*Pulmonary Disease, Chronic Obstructive/genetics/immunology/metabolism",
+      "Humans",
+      "*Computational Biology/methods",
+      "*Macrophages/immunology/metabolism",
+      "*Mitochondria/genetics/metabolism",
+      "Biomarkers",
+      "Gene Regulatory Networks",
+      "*Macrophage Activation/genetics",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Chenchen",
+        "Fu, Peishu",
+        "Yu, Juanchun",
+        "Liu, Lingling",
+        "Wei, Xiong",
+        "Li, Xiao"
+      ],
+      "short_names": [
+        "Zhang C",
+        "Fu P",
+        "Yu J",
+        "Liu L",
+        "Wei X",
+        "Li X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Geriatrics, Chongqing Key Laboratory of Aging and Regeneration Medicine, The First Affiliated Hospital (Southwest Hospital) of Army Medical University, Chongqing, China.",
+        "Department of Pharmacy, the First Affiliated Hospital of Army Medical University, Chongqing, China.",
+        "Department of Clinical Laboratory, the Second Affiliated Hospital of Army Medical University, Chongqing, China.",
+        "Department of Geriatrics, Chongqing Key Laboratory of Aging and Regeneration Medicine, The First Affiliated Hospital (Southwest Hospital) of Army Medical University, Chongqing, China.",
+        "Department of Geriatrics, Chongqing Key Laboratory of Aging and Regeneration Medicine, The First Affiliated Hospital (Southwest Hospital) of Army Medical University, Chongqing, China.",
+        "Department of Geriatrics, Chongqing Key Laboratory of Aging and Regeneration Medicine, The First Affiliated Hospital (Southwest Hospital) of Army Medical University, Chongqing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Chenchen",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Chongqing Key Laboratory of Aging and Regeneration Medicine, The First Affiliated Hospital (Southwest Hospital) of Army Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Peishu",
+        "short_name": "Fu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, the First Affiliated Hospital of Army Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Juanchun",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, the Second Affiliated Hospital of Army Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Lingling",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Chongqing Key Laboratory of Aging and Regeneration Medicine, The First Affiliated Hospital (Southwest Hospital) of Army Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Xiong",
+        "short_name": "Wei X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Chongqing Key Laboratory of Aging and Regeneration Medicine, The First Affiliated Hospital (Southwest Hospital) of Army Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiao",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Chongqing Key Laboratory of Aging and Regeneration Medicine, The First Affiliated Hospital (Southwest Hospital) of Army Medical University, Chongqing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/24 06:26",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [
+      "41972161"
+    ],
+    "refs": [
+      "40118081",
+      "39816684",
+      "39647487",
+      "39558087",
+      "39127830",
+      "39048109",
+      "39014433",
+      "39000454",
+      "38914543",
+      "38880789",
+      "38762325",
+      "38530936",
+      "38339213",
+      "38152590",
+      "38132091",
+      "38112134",
+      "38110986",
+      "38065400",
+      "38062958",
+      "38043756",
+      "37660060",
+      "37485340",
+      "37077365",
+      "36973787",
+      "36969832",
+      "36724365",
+      "35938159",
+      "35918384",
+      "35855746",
+      "35790774",
+      "35786135",
+      "35751589",
+      "35705052",
+      "35326114",
+      "35126365",
+      "35018096",
+      "35011166",
+      "34994052",
+      "34557778",
+      "34409029",
+      "34250093",
+      "34214709",
+      "34026786",
+      "33714238",
+      "33390983",
+      "33309519",
+      "33254023",
+      "33171058",
+      "32907876",
+      "32640238",
+      "32562817",
+      "32440109",
+      "32035013",
+      "31571851",
+      "30787437",
+      "29883409",
+      "29670919",
+      "29412171",
+      "28848433",
+      "27813830",
+      "27790272",
+      "26770229",
+      "25605792",
+      "25549589",
+      "24930139",
+      "24111605",
+      "23900981",
+      "23619691",
+      "23533311",
+      "23323831",
+      "21414208",
+      "19114008",
+      "17086186",
+      "14597658",
+      "14582898"
+    ],
+    "similar": [
+      "41132649",
+      "34250093",
+      "40274954",
+      "40453984",
+      "40332792",
+      "41340627",
+      "39762849",
+      "40655182",
+      "40093012",
+      "40617086",
+      "39346628",
+      "40442788",
+      "40161396",
+      "40214820",
+      "35637927",
+      "41239605",
+      "40244418",
+      "39845878",
+      "39920860",
+      "41137279",
+      "39950319",
+      "39914590",
+      "35350787",
+      "41185886",
+      "40927188",
+      "38873611",
+      "41158511",
+      "39026250",
+      "39491527",
+      "41424725",
+      "39344484",
+      "39962573",
+      "41030501",
+      "35281477",
+      "40255693",
+      "40787468",
+      "40050510",
+      "38802460",
+      "40640787",
+      "40747360",
+      "39691970",
+      "41053199",
+      "41013727",
+      "40826767",
+      "39265357",
+      "40505755",
+      "41479901",
+      "39589066",
+      "39923303",
+      "41229413",
+      "39780155",
+      "41181152",
+      "40421007",
+      "41350331",
+      "40612944",
+      "39349929",
+      "40311344",
+      "41320661",
+      "30221738",
+      "39762477",
+      "40374840",
+      "41438105",
+      "40755781",
+      "37057099",
+      "38987624",
+      "40078927",
+      "36746116",
+      "41305746",
+      "41204556",
+      "41243474",
+      "39533441",
+      "34764646",
+      "39206196",
+      "41127826",
+      "29713155",
+      "39893187",
+      "41122706",
+      "40211718",
+      "40216945",
+      "38875998",
+      "40475761",
+      "40612794",
+      "40808946",
+      "40496861",
+      "40966021",
+      "40496561",
+      "41334450",
+      "34797299",
+      "40045538",
+      "41106766",
+      "40307363",
+      "41044520",
+      "40775242",
+      "39509434",
+      "39139563",
+      "38440722",
+      "39142001",
+      "39396400",
+      "38162988",
+      "39723414"
+    ],
+    "review": [
+      "41132649",
+      "41229413",
+      "39206196"
+    ],
+    "pmc": [
+      "12540082"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/copd.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COPD"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41132649/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1675292",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

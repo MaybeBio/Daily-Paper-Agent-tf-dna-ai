@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "34729473",
+    "doi": "10.1093/nargab/lqab094",
+    "title": "Comprehensive understanding of Tn5 insertion preference improves transcription regulatory element identification."
+  },
+  "content": {
+    "abstract": "Tn5 transposase, which can efficiently tagment the genome, has been widely adopted as a molecular tool in next-generation sequencing, from short-read sequencing to more complex methods such as assay for transposase-accessible chromatin using sequencing (ATAC-seq). Here, we systematically map Tn5 insertion characteristics across several model organisms, finding critical parameters that affect its insertion. On naked genomic DNA, we found that Tn5 insertion is not uniformly distributed or random. To uncover drivers of these biases, we used a machine learning framework, which revealed that DNA shape cooperatively works with DNA motif to affect Tn5 insertion preference. These intrinsic insertion preferences can be modeled using nucleotide dependence information from DNA sequences, and we developed a computational pipeline to correct for these biases in ATAC-seq data. Using our pipeline, we show that bias correction improves the overall performance of ATAC-seq peak detection, recovering many potential false-negative peaks. Furthermore, we found that these peaks are bound by transcription factors, underscoring the biological relevance of capturing this additional information. These findings highlight the benefits of an improved understanding and precise correction of Tn5 insertion preference.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Houyu",
+        "Lu, Ting",
+        "Liu, Shan",
+        "Yang, Jianyu",
+        "Sun, Guohuan",
+        "Cheng, Tao",
+        "Xu, Jin",
+        "Chen, Fangyao",
+        "Yen, Kuangyu"
+      ],
+      "short_names": [
+        "Zhang H",
+        "Lu T",
+        "Liu S",
+        "Yang J",
+        "Sun G",
+        "Cheng T",
+        "Xu J",
+        "Chen F",
+        "Yen K"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9579-7291"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin 300020, China.",
+        "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin 300020, China.",
+        "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin 300020, China.",
+        "Department of Developmental Biology, School of Basic Medical Sciences, Southern Medical University, Guangzhou 510515, China.",
+        "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin 300020, China.",
+        "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin 300020, China.",
+        "Division of Cell, Developmental and Integrative Biology, School of Medicine, South China University of Technology, Guangzhou 510006, China.",
+        "Department of Epidemiology and Biostatistics, School of Public Health, Xi'an Jiaotong University Health Science Center, Xi'an, Shaanxi 710061, China.",
+        "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin 300020, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Houyu",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin 300020, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Ting",
+        "short_name": "Lu T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin 300020, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Shan",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin 300020, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jianyu",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Developmental Biology, School of Basic Medical Sciences, Southern Medical University, Guangzhou 510515, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Guohuan",
+        "short_name": "Sun G",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin 300020, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Tao",
+        "short_name": "Cheng T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin 300020, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jin",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cell, Developmental and Integrative Biology, School of Medicine, South China University of Technology, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Fangyao",
+        "short_name": "Chen F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, School of Public Health, Xi'an Jiaotong University Health Science Center, Xi'an, Shaanxi 710061, China."
+        ]
+      },
+      {
+        "full_name": "Yen, Kuangyu",
+        "short_name": "Yen K",
+        "identifiers": [
+          "0000-0001-9579-7291"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin 300020, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR genomics and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "NAR Genom Bioinform"
+    ],
+    "pub_date": "2021 Dec",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/04 06:00",
+    "fetched_at": "2026-09-28 01:28:36"
+  },
+  "links": {
+    "cites": [
+      "42265104",
+      "42244906",
+      "41790830",
+      "40963104",
+      "40682824",
+      "40452285",
+      "39713401",
+      "39572230",
+      "39386625",
+      "39026714",
+      "38049698",
+      "37372484",
+      "36894706",
+      "36597861",
+      "35604124"
+    ],
+    "refs": [
+      "33633365",
+      "33184180",
+      "32966548",
+      "32848148",
+      "32813015",
+      "32728249",
+      "32728248",
+      "32660981",
+      "32620137",
+      "31988135",
+      "31811153",
+      "31752678",
+      "31731201",
+      "31691826",
+      "31626807",
+      "31584093",
+      "31249361",
+      "31199868",
+      "31171699",
+      "31169497",
+      "31160376",
+      "30962623",
+      "30808370",
+      "30791920",
+      "30462313",
+      "30361341",
+      "30134160",
+      "30093547",
+      "29988122",
+      "29472273",
+      "29425488",
+      "29309061",
+      "29165643",
+      "29126307",
+      "28825706",
+      "28473536",
+      "28167566",
+      "28112643",
+      "28095828",
+      "27993786",
+      "27903897",
+      "27789702",
+      "27211489",
+      "27207943",
+      "27079975",
+      "26814966",
+      "26668005",
+      "26083756",
+      "25953851",
+      "25843630",
+      "25775564",
+      "25503965",
+      "25218058",
+      "25079858",
+      "24695404",
+      "24317252",
+      "24097267",
+      "23922824",
+      "23703209",
+      "23576721",
+      "23193258",
+      "23104886",
+      "22388286",
+      "22313799",
+      "21493656",
+      "21330290",
+      "21143862",
+      "20808728",
+      "20512117",
+      "20334529",
+      "20110278",
+      "19865164",
+      "19505943",
+      "18798982",
+      "18680433",
+      "15961478",
+      "15308758",
+      "15262929",
+      "15102449",
+      "12034835",
+      "10884228",
+      "10812473",
+      "9724770",
+      "9516433",
+      "6315531",
+      "2928107",
+      "2852135"
+    ],
+    "similar": [
+      "34729473",
+      "37274120",
+      "32312702",
+      "29052193",
+      "33172005",
+      "27832532",
+      "32312703",
+      "32213349",
+      "31409230",
+      "28764645",
+      "36712015",
+      "29155775",
+      "38426058",
+      "30064353",
+      "29982337",
+      "33555221",
+      "31270048",
+      "33584814",
+      "30042136",
+      "32336246",
+      "31199868",
+      "32039199",
+      "30016465",
+      "28095828",
+      "38943021",
+      "31262838",
+      "32321568",
+      "31164146",
+      "33606259",
+      "26846207",
+      "32774784",
+      "22313799",
+      "28075484",
+      "27993786",
+      "32850739",
+      "17074070",
+      "27903897",
+      "30416387",
+      "33074546",
+      "27008018",
+      "30065749",
+      "32321567",
+      "26977395",
+      "31160376",
+      "30375457",
+      "29605855",
+      "32405341",
+      "6264444",
+      "32353042",
+      "2451025",
+      "27443938",
+      "39026714",
+      "28655330",
+      "31123324",
+      "32251359",
+      "34382186",
+      "29030848",
+      "2166130",
+      "2174544",
+      "16346988",
+      "29572403",
+      "25648327",
+      "29605854",
+      "33654878",
+      "36961044",
+      "34071577",
+      "34660666",
+      "32309280",
+      "30580963",
+      "37426200",
+      "34520517"
+    ],
+    "review": [
+      "34729473",
+      "32312702",
+      "33172005",
+      "32312703",
+      "38943021",
+      "33606259"
+    ],
+    "pmc": [
+      "8557372"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34729473/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34729473",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse164997",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://academic.oup.com/nargab/article-lookup/doi/10.1093/nargab/lqab094",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

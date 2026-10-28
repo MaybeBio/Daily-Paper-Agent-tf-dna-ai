@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.20.695738",
+  "title": "Predicting interaction-specific protein–protein interaction perturbations by missense variants with MutPred-PPI",
+  "authors": "Stewart R; Laval F; Coppin G; Spirohn-Fitzgerald K; Tixhon M; Hao T; Calderwood MA; Mort M; Cooper DN; Vidal M; Radivojac P",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-23",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用图注意力网络预测错义变异对蛋白质-蛋白质互作的扰动，虽非TF-DNA体系，但基于AlphaFold 3复合物接触图与蛋白语言模型的AI方法可迁移至蛋白-DNA互作界面建模，对本课题有方法借鉴价值。",
+  "abstract": "Disruption of protein–protein interactions (PPIs) is a major mechanism of a variant’s deleterious effect. Computational tools are needed to assess such variants at scale, yet existing predictors rarely consider loss of specific interactions, particularly when variants perturb binding interfaces without significantly affecting protein stability. To address this problem, we present MutPred-PPI, a graph attention network that predicts interaction-specific (edgetic) effects of missense variants by operating on AlphaFold 3-based protein complex contact graphs with protein language model embeddings imposed upon nodes. We systematically evaluated our model with stringent group cross-validation as well as benchmark data recently collected within the IGVF Consortium. MutPred-PPI outperformed all baseline methods across all evaluation criteria, achieving an AUC of 0.85 on seen proteins and 0.72 on previously unseen proteins in cross-validation, demonstrating strong generalizability despite scarce training data. To demonstrate biomedical relevance, we applied MutPred-PPI to variants from ClinVar, HGMD, COSMIC, gnomAD, and two de novo neurodevelopmental disorder-linked datasets. Disease-associated variants from Clin-Var and HGMD showed strong enrichment for both quasi-null and edgetic effects, whereas population variants from gnomAD increasingly preserved interactions with higher allele frequencies. Notably, we observed a strong edgetic disruption signature in highly recurrent cancer variants from both the full COSMIC dataset and a subset of variants from oncogenes. Recurrent tumor suppressor gene variants and autism spectrum disorder-associated variants exhibited moderate quasi-null enrichment, whilst neurodevelopmental disorder-linked variants showed a weak edgetic disruption signature. These results indicate distinct PPI perturbation mechanisms across disease types and show that MutPred-PPI captures functionally relevant molecular effects of pathogenic variants.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）的破坏是变异体有害效应的主要机制之一。需要计算工具来大规模评估此类变异，然而现有预测器很少考虑特定相互作用的丧失，尤其是当变异扰动结合界面而不显著影响蛋白质稳定性时。为解决此问题，我们提出了MutPred-PPI，一种图注意力网络，通过基于AlphaFold 3的蛋白质复合物接触图，并在节点上施加蛋白质语言模型嵌入，来预测错义变异的相互作用特异性（edgetic）效应。我们使用严格的组交叉验证以及最近在IGVF联盟内收集的基准数据，系统评估了我们的模型。MutPred-PPI在所有评估标准上均优于所有基线方法，在交叉验证中对已知蛋白质实现了0.85的AUC，对先前未见蛋白质实现了0.72的AUC，尽管训练数据稀缺，仍显示出强大的泛化能力。为展示生物医学相关性，我们将MutPred-PPI应用于来自ClinVar、HGMD、COSMIC、gnomAD以及两个新生神经发育障碍相关数据集的变异。来自ClinVar和HGMD的疾病相关变异显示出对准无效和edgetic效应的强烈富集，而来自gnomAD的群体变异在较高等位基因频率下逐渐保留相互作用。值得注意的是，我们在来自完整COSMIC数据集和癌基因亚集的频繁复发癌症变异中观察到强烈的edgetic破坏特征。复发肿瘤抑制基因变异和自闭症谱系障碍相关变异表现出中等程度的准无效富集，而神经发育障碍相关变异则显示出微弱的edgetic破坏特征。这些结果表明，不同疾病类型间存在不同的PPI扰动机制，并显示MutPred-PPI能够捕获致病变异的功能相关分子效应。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.20.695738",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.20.695738",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.20.695738/index.html"
+}

@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "42104208",
+    "doi": "10.1111/cts.70592",
+    "title": "Feed-Forward Deep Neural Networks Predict Substrate-Specific Effects of Transporter Variants to Explain Drug Response Variability."
+  },
+  "content": {
+    "abstract": "Genetic variants in drug transporter genes shape the interindividual variability in drug response. However, their functional interpretation has remained limited due to the substrate dependence of variant effects. Existing predictors are substrate-agnostic and cannot capture how a single amino acid change differentially affects transport across drugs. Here, we present the substrate-specific effect predictor (SSEP), the first model to predict transporter variant effects in a substrate-dependent manner. SSEP integrates curated in vitro uptake assays with deep mutational scanning data, leveraging multiscale features extracted from modeled variant-substrate complexes. Based on a feed-forward deep neural network architecture, SSEP provides quantitative, substrate-specific activity scores that correlate with experimental uptake data (Spearman's rho = 0.64) across multiple transporter families (OCT1, MATE, CNT, and OATP) and substrate classes (biguanides, tetraethylammonium, selective serotonin agonists, sympathomimetics and opiates). In benchmarking analyses, SSEP showed higher concordance (Kruskal-Wallis p = 1.11 x 10(-41)) with experimental uptake than commonly used substrate-agnostic predictors. Application of SSEP on UK Biobank data revealed that OCT1 (SLC22A1) variant burden weighted by metformin-specific SSEP scores was significantly associated with maintenance dose (beta = 30 mg/day per unit increase in predicted functional burden; p = 0.033), whereas substrate-agnostic weights showed no association (p = 0.78). Together, these results show that SSEP enables quantitative, drug-specific prediction of transporter variant effects, thereby improving the identification of clinically relevant transporter variants in population-scale data.",
+    "keywords": [
+      "biobank",
+      "drug transporters",
+      "metformin",
+      "pharmacogenomics",
+      "precision medicine"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Neural Networks, Computer",
+      "Substrate Specificity/genetics",
+      "*Membrane Transport Proteins/genetics/metabolism",
+      "Organic Cation Transporter 1/genetics/metabolism",
+      "Treatment Effect Heterogeneity",
+      "Metformin",
+      "Benchmarking",
+      "*Pharmacogenomic Variants",
+      "*Deep Learning",
+      "Octamer Transcription Factor-1"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Park, Yoomi",
+        "Zhou, Yitian",
+        "Xiao, Ming",
+        "Nies, Anne T",
+        "Lauschke, Volker M"
+      ],
+      "short_names": [
+        "Park Y",
+        "Zhou Y",
+        "Xiao M",
+        "Nies AT",
+        "Lauschke VM"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3070-938X",
+        "ORCID: 0000-0003-3066-5444",
+        "ORCID: 0000-0002-5407-0835",
+        "ORCID: 0000-0001-6862-0730",
+        "ORCID: 0000-0002-1140-6204"
+      ],
+      "affiliations": [
+        "Department of Physiology and Pharmacology and Center for Molecular Medicine, Karolinska Institutet and University Hospital, Stockholm, Sweden.",
+        "Medical Research Center, Seoul National University College of Medicine, Seoul, South Korea.",
+        "Department of Physiology and Pharmacology and Center for Molecular Medicine, Karolinska Institutet and University Hospital, Stockholm, Sweden.",
+        "Department of Information Science and Engineering, Royal Institute of Technology, KTH, Stockholm, Sweden.",
+        "Dr. Margarete Fischer-Bosch Institute of Clinical Pharmacology, Stuttgart, Germany.",
+        "University of Tubingen, Tubingen, Germany.",
+        "Cluster of Excellence iFIT (EXC 2180) \"Image-Guided and Functionally Instructed Tumor Therapies,\" University of Tubingen, Tubingen, Germany.",
+        "Department of Physiology and Pharmacology and Center for Molecular Medicine, Karolinska Institutet and University Hospital, Stockholm, Sweden.",
+        "Dr. Margarete Fischer-Bosch Institute of Clinical Pharmacology, Stuttgart, Germany.",
+        "University of Tubingen, Tubingen, Germany.",
+        "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Park, Yoomi",
+        "short_name": "Park Y",
+        "identifiers": [
+          "0000-0003-3070-938X"
+        ],
+        "affiliations": [
+          "Department of Physiology and Pharmacology and Center for Molecular Medicine, Karolinska Institutet and University Hospital, Stockholm, Sweden.",
+          "Medical Research Center, Seoul National University College of Medicine, Seoul, South Korea."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yitian",
+        "short_name": "Zhou Y",
+        "identifiers": [
+          "0000-0003-3066-5444"
+        ],
+        "affiliations": [
+          "Department of Physiology and Pharmacology and Center for Molecular Medicine, Karolinska Institutet and University Hospital, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Xiao, Ming",
+        "short_name": "Xiao M",
+        "identifiers": [
+          "0000-0002-5407-0835"
+        ],
+        "affiliations": [
+          "Department of Information Science and Engineering, Royal Institute of Technology, KTH, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Nies, Anne T",
+        "short_name": "Nies AT",
+        "identifiers": [
+          "0000-0001-6862-0730"
+        ],
+        "affiliations": [
+          "Dr. Margarete Fischer-Bosch Institute of Clinical Pharmacology, Stuttgart, Germany.",
+          "University of Tübingen, Tübingen, Germany.",
+          "Cluster of Excellence iFIT (EXC 2180) \"Image-Guided and Functionally Instructed Tumor Therapies,\" University of Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Lauschke, Volker M",
+        "short_name": "Lauschke VM",
+        "identifiers": [
+          "0000-0002-1140-6204"
+        ],
+        "affiliations": [
+          "Department of Physiology and Pharmacology and Center for Molecular Medicine, Karolinska Institutet and University Hospital, Stockholm, Sweden.",
+          "Dr. Margarete Fischer-Bosch Institute of Clinical Pharmacology, Stuttgart, Germany.",
+          "University of Tübingen, Tübingen, Germany.",
+          "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical and translational science"
+    ],
+    "journal_abbrev": [
+      "Clin Transl Sci"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/09 00:34",
+    "fetched_at": "2026-10-01 19:59:13"
+  },
+  "links": {
+    "cites": [
+      "42620075"
+    ],
+    "refs": [
+      "41391767",
+      "39987793",
+      "39342994",
+      "38951922",
+      "38718835",
+      "38703769",
+      "38573379",
+      "36927031",
+      "36359014",
+      "35995278",
+      "35152405",
+      "34652573",
+      "34265844",
+      "33551812",
+      "33434947",
+      "32206879",
+      "32194983",
+      "31679053",
+      "31597043",
+      "31593619",
+      "31455423",
+      "30564131",
+      "30359687",
+      "30305743",
+      "30206299",
+      "29882324",
+      "29679469",
+      "29236753",
+      "28791698",
+      "28509958",
+      "27676604",
+      "27445813",
+      "26659468",
+      "26157489",
+      "25510240",
+      "25155823",
+      "22342776",
+      "20921968",
+      "20639304",
+      "20567254",
+      "18945920",
+      "17476361"
+    ],
+    "similar": [
+      "42104208",
+      "38703769",
+      "41914879",
+      "22415520",
+      "39956342",
+      "40319555",
+      "27859023",
+      "27350110",
+      "40098288",
+      "38802404",
+      "26702643",
+      "23532667",
+      "30375241",
+      "33037045",
+      "30885951",
+      "26335661",
+      "26657401",
+      "20567254",
+      "42475469",
+      "29236753",
+      "41391767",
+      "20660041",
+      "26605869",
+      "20639304",
+      "19591196",
+      "39576667",
+      "42310538",
+      "21605667",
+      "28699756",
+      "31564168",
+      "23835420",
+      "27488918",
+      "39068198",
+      "37043676",
+      "33903987",
+      "17111267",
+      "25563903",
+      "29979413",
+      "16272756",
+      "32843330",
+      "39342994",
+      "22735389",
+      "28364304",
+      "37333090",
+      "36359014",
+      "18157518",
+      "36065506",
+      "26426900",
+      "32482756",
+      "31593619",
+      "36321557",
+      "12719534",
+      "28362799",
+      "23984399",
+      "38988092",
+      "25753371",
+      "31427432",
+      "42403708",
+      "21779389",
+      "39422716",
+      "42283632",
+      "42653422",
+      "30132394",
+      "28223391",
+      "31771949",
+      "41529637",
+      "14576340",
+      "20883471",
+      "25510240",
+      "42667690",
+      "27278216",
+      "32127372",
+      "17072090",
+      "26327616",
+      "40661743",
+      "39209551",
+      "24530383",
+      "29679469",
+      "41348741",
+      "25883089",
+      "24495124",
+      "26285765",
+      "18728938",
+      "25582574",
+      "29193038",
+      "26157489",
+      "27550354",
+      "26961540",
+      "21356203",
+      "33658230",
+      "36555439",
+      "10385678",
+      "41854300",
+      "42504935",
+      "22072731",
+      "29061131",
+      "35469921",
+      "34884800",
+      "17476361",
+      "12644585"
+    ],
+    "review": [
+      "42104208",
+      "41914879",
+      "27859023",
+      "30375241",
+      "31564168",
+      "29979413",
+      "36065506",
+      "36321557",
+      "23984399",
+      "14576340",
+      "27278216"
+    ],
+    "pmc": [
+      "13156069"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42104208/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/cts.70592",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

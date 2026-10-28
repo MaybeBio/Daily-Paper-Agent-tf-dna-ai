@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.21.671354",
+  "title": "The genetic architecture of the human bZIP interaction network",
+  "authors": "Bendel A; Eichenberger B; Kempf G; Klein D; Shimada K; Franco M; Jaaks-Kraatz S; Durdu S; Herrmann V; Roth G; Soneson C; Smallwood S; Thomä N; Schübeler D; Stadler M; Zenke F; Diss G",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-22",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过深度突变扫描量化人类bZIP蛋白家族二聚化互作网络，并用CNN预测结合分数，虽非TF-DNA体系，但蛋白互作建模与AI方法可迁移至TF-DNA研究。",
+  "abstract": "Generative biology holds the promise to transform our ability to design and understand living systems by creating novel proteins, pathways, and organisms with tailored functions that address challenges in medicine, sustainability, and technology. However, training generative models requires large quantities of data that captures the genetic architecture of protein function in all its complexity, but these are currently scarce. Here, we systematically mutagenized all 54 human basic-leucine zipper (bZIP) domains and quantified their interactions with each other using bindingPCA, a quantitative deep mutational scanning assay. This resulted in ∼2 million interaction measurements, capturing the effect of all single amino acid substitutions at each of the 35 interfacial positions. We found that mutation effects are largely additive in the vicinity of each wild-type bZIPs, but diverge across the family, indicating strong context dependency. A global additive thermodynamic model provided moderate prediction of mutation effects, while individual models per bZIP achieved higher performance, supporting a model of local simplicity and global complexity. Our results therefore suggest that the genetic architecture of protein function is more complex than previously anticipated, which could hinder predictability. However, a convolutional neural network trained on this dataset could accurately predict binding scores from sequence alone. Furthermore, the model enabled the design of synthetic bZIPs with high target specificity, demonstrating practical applicability for bioengineering purposes. Our study shows that capturing family-wide diversity is essential to reveal context dependencies and train accurate quantitative models of protein-protein interactions.",
+  "abstract_zh": "生成生物学有望通过创造新型蛋白质、通路和具有定制功能的生物体，来变革我们设计和理解生命系统的能力，从而应对医学、可持续性和技术领域的挑战。然而，训练生成模型需要大量捕捉蛋白质功能遗传架构及其全部复杂性的数据，但目前这些数据稀缺。在此，我们系统性地突变所有54个人类碱性亮氨酸拉链（bZIP）结构域，并使用bindingPCA（一种定量深度突变扫描测定法）量化它们之间的相互作用。这产生了约200万次相互作用测量，捕捉了35个界面位置上每个单一氨基酸替换的效果。我们发现，在每个野生型bZIP附近，突变效应大体上是加性的，但在整个家族中却出现分歧，表明存在强烈的上下文依赖性。一个全局加性热力学模型对突变效应提供了中等程度的预测，而每个bZIP的个体模型则实现了更高性能，支持了局部简单性和全局复杂性的模型。因此，我们的结果表明，蛋白质功能的遗传架构比先前预期的更为复杂，这可能阻碍可预测性。然而，基于此数据集训练的卷积神经网络能够仅从序列准确预测结合分数。此外，该模型还使设计具有高靶标特异性的合成bZIP成为可能，展示了其在生物工程目的中的实际应用性。我们的研究表明，捕捉家族级多样性对于揭示上下文依赖性和训练蛋白质-蛋白质相互作用的准确定量模型至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.21.671354",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.21.671354",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.21.671354/index.html"
+}

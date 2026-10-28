@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34664074",
+  "title": "MAResNet: predicting transcription factor binding sites by combining multi-scale bottom-up and top-down attention and residual network.",
+  "authors": "Han, Ke; Shen, Long-Chen; Zhu, Yi-Heng; Xu, Jian; Song, Jiangning; Yu, Dong-Jun",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2021-10-20",
+  "window": {
+    "start": "2021-10-18",
+    "end": "2021-10-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出MAResNet深度学习模型，结合多尺度注意力与残差网络预测转录因子结合位点，核心聚焦TF-DNA互作位点识别，方法为AI建模，高度匹配课题。",
+  "abstract": "Accurate identification of transcription factor binding sites is of great significance in understanding gene expression, biological development and drug design. Although a variety of methods based on deep-learning models and large-scale data have been developed to predict transcription factor binding sites in DNA sequences, there is room for further improvement in prediction performance. In addition, effective interpretation of deep-learning models is greatly desirable. Here we present MAResNet, a new deep-learning method, for predicting transcription factor binding sites on 690 ChIP-seq datasets. More specifically, MAResNet combines the bottom-up and top-down attention mechanisms and a state-of-the-art feed-forward network (ResNet), which is constructed by stacking attention modules that generate attention-aware features. In particular, the multi-scale attention mechanism is utilized at the first stage to extract rich and representative sequence features. We further discuss the attention-aware features learned from different attention modules in accordance with the changes as the layers go deeper. The features learned by MAResNet are also visualized through the TMAP tool to illustrate that the method can extract the unique characteristics of transcription factor binding sites. The performance of MAResNet is extensively tested on 690 test subsets with an average AUC of 0.927, which is higher than that of the current state-of-the-art methods. Overall, this study provides a new and useful framework for the prediction of transcription factor binding sites by combining the funnel attention modules with the residual network.",
+  "abstract_zh": "转录因子结合位点的精确识别对于理解基因表达、生物发育及药物设计具有重要意义。尽管已开发出多种基于深度学习模型和大规模数据的方法来预测DNA序列中的转录因子结合位点，但预测性能仍有进一步提升的空间。此外，对深度学习模型的有效解释也极为必要。在此，我们提出MAResNet，一种新的深度学习方法，用于在690个ChIP-seq数据集上预测转录因子结合位点。具体而言，MAResNet结合了自下而上与自上而下的注意力机制以及最先进的前馈网络（ResNet），该网络通过堆叠生成注意力感知特征的注意力模块构建而成。特别地，在第一阶段采用多尺度注意力机制以提取丰富且具有代表性的序列特征。我们进一步根据层数加深时的变化，讨论了从不同注意力模块学习到的注意力感知特征。通过TMAP工具对MAResNet学习到的特征进行可视化，以说明该方法能够提取转录因子结合位点的独特特征。MAResNet的性能在690个测试子集上进行了广泛测试，平均AUC为0.927，高于当前最先进的方法。总体而言，本研究通过将漏斗注意力模块与残差网络相结合，为转录因子结合位点的预测提供了一个新颖且有用的框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34664074/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34664074/",
+  "paper_page_path": "papers/pubmed/34664074/index.html"
+}

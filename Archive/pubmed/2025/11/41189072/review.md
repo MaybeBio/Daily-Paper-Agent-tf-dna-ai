@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and internal consistency of the provided manuscript. No external literature verification or replication of analyses was performed.
+- **Shared manuscript claim summary** The authors claim that myricetin, identified via virtual screening as a RORγt inhibitor, suppresses Th17 polarization by blocking RORγt transcriptional activity on the il17 promoter, and that oral administration of myricetin to 3xTg-AD mice improves cognitive function, reduces AD-like pathology (Aβ plaques, phosphorylated tau, neuronal damage, glial activation), and decreases Th17 cell proportions in peripheral blood and hippocampus.
+- **Visible evidence base** Virtual screening results (Glide scores), molecular dynamics simulation (RMSD), molecular docking (binding energy), behavioral tests (NOR, MWM), histological staining (HE, Nissl, Thioflavin T, IHC), Western blot, flow cytometry, qRT-PCR, ChIP, dual-luciferase reporter assay, EMSA, MST. Figures referenced but not provided in the submitted text.
+- **Missing materials affecting confidence** Figures and supplementary data are not included in the provided text. Statistical details (exact p values, effect sizes, group sizes, number of independent replicates) are largely absent. No information on compound purity, vehicle control composition, or blinding of behavioral assessments. No raw data or analysis scripts. No information on sample sizes for in vitro experiments.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question, namely whether a natural flavonoid can modulate Th17-driven neuroinflammation in Alzheimer's disease via RORγt inhibition. The combination of computational screening, in vitro mechanistic work, and in vivo validation in a widely used AD mouse model is commendable in scope. However, the current presentation has several weaknesses that prevent the case from being fully established. Key concerns include incomplete reporting of experimental details, lack of statistical rigor in several places, potential overinterpretation of correlational data, and insufficient evidence that the observed in vivo effects are causally linked to RORγt inhibition in T cells rather than to off-target or pleiotropic effects of myricetin. The manuscript would benefit from additional experiments and substantially improved reporting.
+- **Who would be interested in the results, and why** Researchers in neuroimmunology, Alzheimer's disease pathogenesis, and natural product pharmacology would find these results of interest. The work also speaks to the growing field of targeting peripheral immune cells to modulate central nervous system pathology, and to the repurposing of dietary flavonoids for neurodegenerative conditions. Clinicians and drug developers focused on disease-modifying AD therapies may also take note, though the translational gap remains substantial.
+- **Major strengths** The study combines multiple complementary approaches, from in silico screening to in vivo behavioral and pathological assessment. The use of the 3xTg-AD model, which recapitulates both amyloid and tau pathology, is appropriate. The mechanistic experiments (ChIP, EMSA, MST, dual-luciferase) provide a plausible molecular basis for myricetin's action on RORγt. The observation that Th17 cells are elevated in AD patients and mice aligns with a growing literature and supports the rationale for targeting this axis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  umber **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The authors state that myricetin "ameliorates AD pathology by inhibiting RORγt-driven Th17 polarization," implying a causal chain from RORγt inhibition to reduced neuroinflammation to improved cognition.
+  - **Evidence pointer** Results sections "Myricetin Improves Learning and Memory Impairments in AD Mice" and "Myricetin Suppresses Th17 Polarization via Blocking the Transcriptional Activity of RORγt"; Discussion
+  - **Concern** The in vivo experiments demonstrate correlations between myricetin treatment, reduced Th17 proportions, and improved behavioral and pathological outcomes. However, no experiment directly tests whether the cognitive and pathological benefits depend on RORγt or on Th17 cells. Myricetin is known to have multiple targets, including antioxidant and anti-inflammatory pathways independent of RORγt. The manuscript does not include a rescue experiment, a RORγt-deficient model, or a T-cell-specific intervention to establish causality.
+  - **Why it matters** Without causal evidence, the central claim that RORγt inhibition in Th17 cells mediates the therapeutic effect is not established. The observed benefits could arise from myricetin's effects on microglia, astrocytes, or other cell types, as the authors themselves note in the Discussion.
+  - **Resolution test** Provide evidence that genetic ablation or pharmacological inhibition of RORγt in T cells phenocopies myricetin's effects, or that myricetin fails to improve outcomes in mice lacking RORγt in T cells. Alternatively, show that adoptive transfer of myricetin-treated Th17 cells is sufficient to confer protection.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and reporting
+  - **Claim pointer** The authors report significant differences between groups in behavioral tests, histology, and molecular analyses.
+  - **Evidence pointer** Results sections; Statistical Analysis subsection
+  - **Concern** The manuscript does not report effect sizes, exact p values, confidence intervals, or the number of independent biological replicates for most experiments. Group sizes for animal experiments are not stated. The statistical methods section mentions t-tests and ANOVA with Bonferroni correction, but it is unclear whether assumptions were checked, whether data were normally distributed, and whether multiple comparisons were appropriately controlled across the many endpoints measured.
+  - **Why it matters** In a field where reproducibility is a major concern, incomplete statistical reporting undermines confidence in the robustness of the findings. The reader cannot assess whether the reported differences are reliable or whether the study is adequately powered.
+  - **Resolution test** Provide full statistical details for every comparison, including exact p values, effect sizes, group sizes, and numbers of replicates. State whether data met assumptions for parametric tests. Consider reporting adjusted p values for multiple comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Dose and pharmacokinetic relevance
+  - **Claim pointer** The authors state that myricetin was administered at 50 mg/kg/day for 8.5 weeks and produced significant effects.
+  - **Evidence pointer** Materials and Methods, "In Vivo" subsection; Results
+  - **Concern** No justification is provided for the chosen dose, and no data are shown on myricetin bioavailability, brain penetration, or plasma or brain concentrations achieved. The manuscript does not discuss whether this dose is pharmacologically relevant in humans or whether it corresponds to achievable dietary intake.
+  - **Why it matters** For a natural product proposed as a therapeutic, demonstrating that the compound reaches the target tissue at relevant concentrations is essential. Without pharmacokinetic data, the translational relevance of the findings is unclear.
+  - **Resolution test** Measure myricetin concentrations in plasma and brain tissue after dosing. Provide a dose-response study or at least a rationale for the selected dose based on prior literature or pilot data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Internal consistency and data presentation
+  - **Claim pointer** The authors state that myricetin reduced Aβ plaques, phosphorylated tau, and glial activation, and improved cognition.
+  - **Evidence pointer** Results sections; Figures 3 and 4 (referenced but not provided)
+  - **Concern** The text describes results from multiple staining and Western blot experiments, but the figures are not available for review. It is therefore impossible to assess the quality of the data, the appropriateness of quantification methods, or whether representative images are truly representative. Additionally, the relationship between the reduction in Th17 cells in peripheral blood versus hippocampus is not clearly delineated.
+  - **Why it matters** Peer review relies on the ability to inspect primary data. The absence of figures limits the assessment of data quality and the validity of the conclusions drawn from them.
+  - **Resolution test** Provide all figures and supplementary materials for review. Clarify whether Th17 cell proportions were measured in blood, brain, or both, and how these compartments relate.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting clarity
+  - **Affected element** Materials and Methods, "Single-Cell Sequencing Data Acquisition and Processing"
+  - **Evidence pointer** Methods section
+  - **Issue** The single-cell RNA-seq dataset GSE181279 is described, but the analysis appears to be limited to reporting cell proportions. It is unclear whether any differential expression or trajectory analysis was performed, and how this dataset informs the subsequent in vivo and in vitro experiments.
+  - **Required correction** Clarify the specific contribution of the single-cell analysis to the study's conclusions. If only proportions were examined, state this explicitly and justify the relevance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Materials and Methods, "In Vivo" subsection
+  - **Evidence pointer** Methods section
+  - **Issue** The sex of the mice is mentioned in the Discussion as a deliberate choice (female only), but this is not stated in the Methods. The age at treatment initiation and the exact duration of treatment are inconsistent (8.5 weeks in the Abstract, 8 weeks in the Methods).
+  - **Required correction** State the sex and age of mice in the Methods. Reconcile the treatment duration discrepancy between the Abstract and Methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph on Th17 dynamics
+  - **Evidence pointer** Discussion
+  - **Issue** The authors speculate on the rise and fall of Th17 cells during AD progression, but this is not directly measured in the study. The discussion of immune senescence and microbiome changes is speculative and not supported by data presented.
+  - **Required correction** Clearly label this section as speculative and consider shortening or supporting with citations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data Availability Statement
+  - **Evidence pointer** Data Availability Statement
+  - **Issue** The statement says data are available on reasonable request, but no contact details or repository identifiers are provided.
+  - **Required correction** Provide a clear data availability statement with a contact email or repository link.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal link not established), R1-M2 (statistical reporting inadequate), R1-M3 (dose justification and pharmacokinetics missing). These are the primary technical issues that must be resolved.
+- **Assessment against Nature-style criteria** Originality: The concept of targeting Th17 cells in AD is not entirely new, but the specific focus on myricetin as a RORγt inhibitor with in vivo validation adds a novel angle. Scientific importance: The work addresses a plausible disease-modifying mechanism, but the lack of causal evidence limits its current impact. Interdisciplinary readership: The work bridges immunology, neurobiology, and natural product chemistry, which could appeal to a broad audience. Technical soundness: The combination of methods is appropriate, but the execution and reporting have gaps as detailed above. Readability for nonspecialists: The manuscript is generally well-structured and understandable, though some sections assume familiarity with immunology and computational methods.
+
+## Risk / unsupported claims
+- The claim that myricetin "ameliorates AD pathology by inhibiting RORγt-driven Th17 polarization" is not supported by direct causal evidence.
+- The claim that myricetin "blocked RORγt recruitment to the IL17 promoter" is based on ChIP data, but the quality and quantification of these data cannot be assessed without figures.
+- The statement that Th17 cells "may be a contributing factor in the progression of AD" is correlational and based on limited data.
+- The discussion of myricetin's effects on other immune cell types (Treg, Tfh, B cells, macrophages) is based on external literature and not on data from this study.
+- The pharmacokinetic relevance of the 50 mg/kg/day dose is not established.

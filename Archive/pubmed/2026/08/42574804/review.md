@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that macrophage-to-myofibroblast transition (MMT) occurs in bladder cancer, is driven by the transcription factor KLF6, and promotes immune evasion via PD-L1 upregulation, contributing to immunotherapy resistance. They further propose the cardiac glycoside Periplocymarin as a candidate inhibitor of the KLF6-MMT axis based on virtual screening and molecular docking.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or statistical outputs beyond P values and one docking score
+- **Missing materials affecting confidence** Full methods, all figures and tables, supplementary analyses, cohort-level data, validation details, and any sensitivity or control analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis linking macrophage-to-myofibroblast transition to immune evasion in bladder cancer, with KLF6 as a proposed driver. However, the evidence as summarized is largely correlative or computational, and the causal chain from KLF6 to MMT to PD-L1 to immunotherapy resistance is not established from the supplied material. The abstract reports multiple analyses but provides insufficient detail to assess technical rigor, effect sizes, or robustness. The clinical relevance and translational claims are premature given the evidence base described.
+- **Who would be interested in the results, and why** Researchers in tumor immunology, particularly those studying myeloid cell plasticity and immune checkpoint resistance; investigators working on bladder cancer biology and immunotherapy biomarkers; and groups interested in transcription factor-driven cellular transitions in the tumor microenvironment. The proposed link between MMT and PD-L1 could be of interest to those seeking new combination strategies for checkpoint inhibitor resistance.
+- **Major strengths** The study integrates multiple data modalities, including bulk transcriptomics, single-cell RNA-seq, spatial transcriptomics, and independent immunotherapy cohorts, which is a comprehensive approach. The identification of a specific transcription factor (KLF6) with a proposed direct target (ACTA2) provides a mechanistic hypothesis. The use of both in vitro and in vivo models, albeit briefly described, adds experimental weight. The translational angle, including virtual screening and docking, is a constructive step toward therapeutic nomination.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "KLF6 emerged as the key transcriptional driver of MMT, directly binding the ACTA2 proximal promoter" and "KLF6 overexpression promoted MMT, tumour growth, and PD-L1 upregulation in vivo"
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The abstract states that KLF6 is the "key" driver and that it "directly binds" the ACTA2 promoter, but the evidence described includes spatial pseudotime analysis, in vitro overexpression, virtual knockout, and FIMO motif scanning. These are largely correlative or computational. The in vivo experiment shows that KLF6 overexpression promotes MMT, tumor growth, and PD-L1 upregulation, but no loss-of-function in vivo data, no rescue experiments, and no direct binding validation (e.g., ChIP-seq or ChIP-qPCR) are described. The term "key driver" implies necessity, which is not demonstrated.
+  - **Why it matters** The central mechanistic claim of the paper rests on KLF6 being both necessary and sufficient for MMT and its downstream effects. Without loss-of-function data or direct binding validation, the causal role of KLF6 is not established. This weakens the entire downstream narrative, including the proposed therapeutic targeting of KLF6.
+  - **Resolution test** Provide in vivo loss-of-function data (e.g., KLF6 knockdown or conditional knockout) showing that MMT, tumor growth, and PD-L1 upregulation are attenuated. Include direct binding evidence such as ChIP-qPCR or ChIP-seq for KLF6 at the ACTA2 promoter. Show that the proposed phenotype is dependent on KLF6, not merely associated with its overexpression.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for immune evasion mechanism
+  - **Claim pointer** "Spatial analysis revealed enhanced CD274 (PD-L1) expression by MMT cells, which may contribute to immune evasion through engagement of PDCD1 (PD-1) on tumour-infiltrating T cells (P < 0.001)"
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The abstract reports a spatial correlation between MMT cells and PD-L1 expression, and between PD-L1 and PD-1 on T cells. However, correlation in spatial data does not demonstrate functional engagement or immune evasion. No functional assays (e.g., T cell killing assays, co-culture experiments, or blockade experiments) are described. The P value reported does not indicate effect size or biological significance.
+  - **Why it matters** The title and conclusions hinge on the claim that KLF6-driven MMT promotes PD-L1-mediated immune evasion. Without functional evidence that MMT-derived PD-L1 suppresses T cell activity, the mechanistic link is speculative. The clinical relevance, particularly the claim that this contributes to immunotherapy resistance, is not supported by the data described.
+  - **Resolution test** Provide functional data showing that MMT cells suppress T cell activation or killing in a PD-L1-dependent manner, and that this suppression is reversed by PD-1/PD-L1 blockade. If possible, show that KLF6 manipulation alters this functional outcome. At minimum, demonstrate that PD-L1 from MMT cells is required for the observed immune evasion phenotype.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Clinical and translational claims
+  - **Claim pointer** "the MMT signature was strongly associated with immunotherapy resistance (P = 0.037 for overall survival)" and "suggests that disrupting this programme with Periplocymarin may provide a strategy to overcome immunotherapy resistance"
+  - **Evidence pointer** Abstract, Results and Conclusions sections; location not provided
+  - **Concern** The association between the MMT signature and overall survival in immunotherapy cohorts is reported with a single P value, but no effect size, hazard ratio, or confidence interval is given. The claim of "strong association" is not supported by the data presented. Furthermore, the proposal that Periplocymarin may overcome immunotherapy resistance is based solely on virtual screening and docking, with no experimental validation of target engagement, cellular activity, or in vivo efficacy.
+  - **Why it matters** The translational claim is a major selling point of the paper. If the association is weak or the drug candidate is not validated, the clinical relevance is overstated. The abstract does not provide enough information to assess whether the signature has any predictive value beyond chance, and the drug nomination is entirely computational.
+  - **Resolution test** Report hazard ratios with confidence intervals for the MMT signature in both immunotherapy cohorts. Provide experimental validation of Periplocymarin, including cellular assays showing inhibition of KLF6 activity or MMT, and ideally in vivo efficacy in a relevant tumor model. Without such data, the therapeutic claim should be removed or substantially softened.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Survival analysis
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Issue** The abstract reports P values for survival associations but does not provide effect sizes, confidence intervals, or details on the statistical model used (e.g., Cox proportional hazards, cutoff selection for high vs. low signature).
+  - **Required correction** Include hazard ratios and confidence intervals, and specify the statistical method and any multiple testing corrections.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological clarity
+  - **Affected element** Virtual knockout and virtual screening
+  - **Evidence pointer** Abstract, Methods section; location not provided
+  - **Issue** The terms "virtual knockout" and "virtual screening" are used without explanation of the computational methods, databases, or validation steps. The docking score of -6.5 kcal/mol is reported without context or comparison to known inhibitors.
+  - **Required correction** Briefly describe the computational methods and provide context for the docking score, such as comparison to a positive control or known binding affinities.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data integration
+  - **Affected element** Multi-omics integration
+  - **Evidence pointer** Abstract, Methods section; location not provided
+  - **Issue** The abstract lists multiple data modalities but does not explain how they were integrated or whether the MMT signature was validated across all datasets. The number of spatial transcriptomics sections (nine) is small, and it is unclear if this is sufficient for robust conclusions.
+  - **Required correction** Clarify the integration approach and state whether the MMT signature was consistently observed across all datasets. Discuss the limitations of the spatial sample size.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "Key driver" designation
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Issue** The term "key driver" is used for KLF6, but the evidence described does not establish that KLF6 is the most important or necessary driver among potentially multiple regulators of MMT.
+  - **Required correction** Use more cautious language such as "a candidate driver" or "a potential regulator" unless loss-of-function data establish necessity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of loss-of-function and direct binding evidence for KLF6), R1-M2 (no functional immune evasion assays), R1-M3 (insufficient statistical reporting and lack of experimental validation for the drug candidate)
+- **Assessment against Nature-style criteria** Originality: The concept of MMT in bladder cancer and its link to PD-L1 is novel and could be of interest. Scientific importance: Potentially high if the causal chain is validated, but currently the evidence is insufficient to establish importance. Interdisciplinary readership: The topic bridges immunology, cancer biology, and computational biology, which could attract a broad audience. Technical soundness: Cannot be fully assessed from the abstract; the described methods are diverse but lack detail and validation. Readability for nonspecialists: The abstract is dense and assumes familiarity with multiple advanced techniques; it would benefit from clearer framing of the central hypothesis and its implications.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the multi-omics approach is commendable, but the causal claims, functional immune data, and translational implications are not supported by the abstract alone. The manuscript could become suitable for publication if the major concerns are addressed with additional experiments and more rigorous statistical reporting.
+
+## Risk / unsupported claims
+- The claim that KLF6 is the "key" driver of MMT is unsupported without loss-of-function in vivo data and direct binding validation.
+- The claim that MMT contributes to immune evasion via PD-L1 is unsupported without functional T cell assays.
+- The claim that the MMT signature is "strongly associated" with immunotherapy resistance is unsupported without effect sizes and confidence intervals.
+- The proposal that Periplocymarin may overcome immunotherapy resistance is unsupported without any experimental validation of its activity.
+- The overall conclusion that this work "connects KLF6-driven MMT to PD-L1-mediated immune evasion" is not established from the evidence described.

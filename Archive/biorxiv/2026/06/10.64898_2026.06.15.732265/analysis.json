@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.06.15.732265",
+  "title": "Simulation-based Bayesian deep learning enables uncertainty-aware tumor fraction estimation in cell-free DNA",
+  "authors": "Hadas Volkov; Maria Raitses-Gurevich; Meitar Grad; Rani Shlayem; Artem Danilevsky; Tami Rubinek; Malka Gorfine; Noam Shomron",
+  "journal": "bioRxiv",
+  "published_date": "2026-06-19",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用贝叶斯深度学习从游离DNA估计肿瘤分数，虽涉及DNA但非蛋白质-DNA互作，且无结合建模或AI/物理模拟方法用于互作机制，与本课题无关。",
+  "abstract": "Background Estimating tumor fraction from whole-genome cell-free DNA sequencing is critical for liquid biopsy, but is hampered by weak signals and baseline noise at low tumor fractions. Existing computational methods often require matched controls or large labeled datasets for training and lack uncertainty quantification. To address these gaps, we developed purNPE, a Bayesian deep-learning framework trained without labeled cancer cell-free DNA samples. Specifically, purNPE leverages a two-part generative model: one component simulates diverse tumor copy-number profiles based on evolutionary genealogies, while a second, data-driven component learns and replicates realistic sequencing background patterns from cancer-free cell-free DNA. By training a Neural Posterior Estimator on synthetic tumor profiles augmented with learned noise, purNPE performs amortized inference in milliseconds without needing a reference sample set at inference. Results In a real-world pan-cancer cohort, purNPE achieved comparable performance with existing methods against orthogonal mutant-allele-fraction validation (MAE = 0.066 ). In silico and semi-synthetic experiments suggested analytical sensitivity around 1% tumor fraction under the evaluated conditions and showed strong classification accuracy in low tumor fractions (AUC = 0.98 for TF ≤ 3% versus controls). Conclusions This work provides a framework for using simulation-based inference to derive calibrated, uncertainty-aware TF estimates, offering a potential alternative to traditional data-dependent methods.",
+  "abstract_zh": "背景 从全基因组无细胞DNA测序中估计肿瘤分数对于液体活检至关重要，但在低肿瘤分数下，由于信号微弱和基线噪声，这一过程受到阻碍。现有计算方法通常需要匹配的对照样本或大型标记数据集进行训练，且缺乏不确定性量化。为解决这些不足，我们开发了purNPE，一种无需标记癌症无细胞DNA样本即可训练的贝叶斯深度学习框架。具体而言，purNPE利用一个两部分生成模型：一部分基于进化谱系模拟多样化的肿瘤拷贝数谱，另一部分为数据驱动组件，从无癌无细胞DNA中学习并复制真实的测序背景模式。通过在合成肿瘤谱上训练神经后验估计器，并增强学习到的噪声，purNPE在推理时无需参考样本集即可在毫秒内进行摊销推理。结果 在真实世界的泛癌队列中，purNPE在正交突变等位基因分数验证下实现了与现有方法相当的性能（MAE = 0.066）。计算机模拟和半合成实验表明，在评估条件下，分析灵敏度约为1%的肿瘤分数，并在低肿瘤分数下显示出强大的分类准确性（TF ≤ 3%时AUC = 0.98，与对照组相比）。结论 本研究提供了一个利用基于模拟的推理来获得校准且具有不确定性意识的TF估计框架，为传统数据依赖方法提供了一种潜在替代方案。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.06.15.732265",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.15.732265",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.06.15.732265/index.html"
+}

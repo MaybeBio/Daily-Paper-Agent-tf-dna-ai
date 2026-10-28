@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.01.28.526011",
+  "title": "A dual diffusion model enables 3D binding bioactive molecule generation and lead optimization given target pockets",
+  "authors": "Lei Huang; Tingyang Xu; Yang Yu; Peilin Zhao; Ka-Chun Wong; Hengtong Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2023-01-30",
+  "window": {
+    "start": "2023-01-30",
+    "end": "2023-02-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出双扩散模型PMDM用于针对蛋白口袋的3D配体生成与先导优化，虽涉及蛋白-配体结合建模，但对象为小分子-蛋白而非蛋白质-DNA互作，方法可迁移性有限，仅边缘相关。",
+  "abstract": "Structure-based generative chemistry aims to explore much bigger chemical space to design a ligand with high binding affinity to the target proteins; it is a critical step in de novo computer-aided drug discovery. Traditional in silico methods suffer from calculation inefficiency and the performances of existing machine learning methods could be bottlenecked by the auto-regressive sampling strategy. To address these concerns, we herein have developed a novel conditional deep generative model, PMDM, for 3D molecule generation fitting specified target proteins. PMDM incorporates a dual equivariant diffusion model framework to leverage the local and global molecular dynamics to generate 3D molecules in a one-shot fashion. By considering the conditioned protein semantic information and spatial information, PMDM is able to generate chemically and conformationally valid molecules which suitably fit pocket holes. We have conducted comprehensive experiments to demonstrate that PMDM can generate drug-like, synthesis-accessible, novel, and high-binding affinity molecules targeting specific proteins, outperforming the state-of-the-art (SOTA) models in terms of multiple evaluation metrics. In addition, we perform chemical space analysis for generated molecules and lead compound optimization for SARS-CoV-2 main protease (M pro ) by only utilizing three atoms as the seed fragment. The experimental results implicate that the structures of generated molecules are rational compared to the reference molecules, and PMDM can generate massive bioactive molecules highly binding to the targeted proteins which are not included in the training set.",
+  "abstract_zh": "基于结构的生成化学旨在探索更大的化学空间，以设计对靶蛋白具有高结合亲和力的配体；这是从头计算机辅助药物发现中的关键步骤。传统的计算机模拟方法存在计算效率低下的问题，而现有机器学习方法的性能可能受限于自回归采样策略。为解决这些问题，我们在此开发了一种新型条件深度生成模型PMDM，用于生成适配特定靶蛋白的三维分子。PMDM融合了双等变扩散模型框架，利用局部和全局分子动力学以一次性方式生成三维分子。通过考虑条件化的蛋白质语义信息和空间信息，PMDM能够生成化学和构象上有效且适合口袋空腔的分子。我们进行了全面实验，证明PMDM能够生成针对特定蛋白质的类药性、可合成、新颖且高结合亲和力的分子，在多项评估指标上优于最先进（SOTA）模型。此外，我们仅利用三个原子作为种子片段，对生成的分子进行了化学空间分析，并对SARS-CoV-2主蛋白酶（M pro ）进行了先导化合物优化。实验结果表明，与参考分子相比，生成分子的结构合理，且PMDM能够生成大量与靶蛋白高度结合、但未包含在训练集中的生物活性分子。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.01.28.526011",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.01.28.526011",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.01.28.526011/index.html"
+}

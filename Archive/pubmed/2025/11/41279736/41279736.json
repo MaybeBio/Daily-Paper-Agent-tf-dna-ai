@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "41279736",
+    "doi": "10.1101/2025.10.10.681672",
+    "title": "A Structure-Guided Kinase-Transcription Factor Interactome Atlas Reveals Docking Landscapes of the Kinome."
+  },
+  "content": {
+    "abstract": "Protein kinases orchestrate cellular processes through phosphorylation, yet the structural basis for their specific binding partner interactions remains largely unmapped. Here, we present a structure-guided atlas of the human and Drosophila kinome, built by applying a new interface-aware scoring framework (iLIS) to AlphaFold-Multimer predictions. The resulting atlas recapitulates hallmark sequence preferences, confirms previously reported and functionally related protein-protein interactions, and uncovers unrecognized docking interactions. Notably, our analysis predicts a potentially widespread docking motif on homeodomain transcription factors that mediates interactions with basophilic kinases. Furthermore, we map putative allosteric interaction hotspots across the kinome and provide proof-of-concept evidence that targeting these surfaces can inhibit kinase activity. Finally, we demonstrate the physiological utility of the atlas by identifying a novel regulatory mechanism between Sgg/GSK3 and Hnf4 that controls lipid metabolism in vivo. This resource provides a blueprint for dissecting signaling networks and for the rational design of docking-site-specific kinase modulators.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Ah-Ram",
+        "Huang, Kerui",
+        "Johnson, Jared L",
+        "Yaron-Barir, Tomer M",
+        "Wang, Keven",
+        "Cantley, Lewis C",
+        "Hu, Yanhui",
+        "Perrimon, Norbert"
+      ],
+      "short_names": [
+        "Kim AR",
+        "Huang K",
+        "Johnson JL",
+        "Yaron-Barir TM",
+        "Wang K",
+        "Cantley LC",
+        "Hu Y",
+        "Perrimon N"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9597-6759",
+        "ORCID: 0000-0003-1866-8407",
+        "ORCID: 0000-0001-6574-7314",
+        "ORCID: 0000-0002-1298-7653",
+        "ORCID: 0000-0003-1494-1402",
+        "ORCID: 0000-0001-7542-472X"
+      ],
+      "affiliations": [
+        "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA 02115, USA.",
+        "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA 02115, USA.",
+        "Department of Cell Biology, Harvard Medical School, Boston, MA 02115, USA.",
+        "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA 02115, USA.",
+        "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA 02115, USA.",
+        "Department of Pediatrics, Boston Children's Hospital, Harvard Medical School, Boston 02115, MA 02115, USA.",
+        "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA 02115, USA.",
+        "Department of Cell Biology, Harvard Medical School, Boston, MA 02115, USA.",
+        "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA 02115, USA.",
+        "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA 02115, USA.",
+        "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA 02115, USA.",
+        "Howard Hughes Medical Institute, Harvard Medical School, Boston, MA 02115, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Ah-Ram",
+        "short_name": "Kim AR",
+        "identifiers": [
+          "0000-0001-9597-6759"
+        ],
+        "affiliations": [
+          "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Kerui",
+        "short_name": "Huang K",
+        "identifiers": [
+          "0000-0003-1866-8407"
+        ],
+        "affiliations": [
+          "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Johnson, Jared L",
+        "short_name": "Johnson JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology, Harvard Medical School, Boston, MA 02115, USA.",
+          "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Yaron-Barir, Tomer M",
+        "short_name": "Yaron-Barir TM",
+        "identifiers": [
+          "0000-0001-6574-7314"
+        ],
+        "affiliations": [
+          "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA 02115, USA.",
+          "Department of Pediatrics, Boston Children's Hospital, Harvard Medical School, Boston 02115, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Keven",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Cantley, Lewis C",
+        "short_name": "Cantley LC",
+        "identifiers": [
+          "0000-0002-1298-7653"
+        ],
+        "affiliations": [
+          "Department of Cell Biology, Harvard Medical School, Boston, MA 02115, USA.",
+          "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Hu, Yanhui",
+        "short_name": "Hu Y",
+        "identifiers": [
+          "0000-0003-1494-1402"
+        ],
+        "affiliations": [
+          "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Perrimon, Norbert",
+        "short_name": "Perrimon N",
+        "identifiers": [
+          "0000-0001-7542-472X"
+        ],
+        "affiliations": [
+          "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA 02115, USA.",
+          "Howard Hughes Medical Institute, Harvard Medical School, Boston, MA 02115, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Nov 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/24 12:38",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [
+      "41570036"
+    ],
+    "refs": [
+      "40739343",
+      "40674483",
+      "40547482",
+      "40195117",
+      "40015271",
+      "39888268",
+      "39848140",
+      "39841846",
+      "39762531",
+      "39719499",
+      "39468210",
+      "39294458",
+      "38720073",
+      "38718835",
+      "38600112",
+      "38301657",
+      "38297118",
+      "38225382",
+      "38109936",
+      "37962385",
+      "37957331",
+      "37880344",
+      "37774136",
+      "37270540",
+      "37149653",
+      "37061542",
+      "37061423",
+      "36794774",
+      "36690744",
+      "36631611",
+      "36571722",
+      "35637307",
+      "35312319",
+      "35273146",
+      "35076390",
+      "34924565",
+      "34762488",
+      "34354255",
+      "34282049",
+      "34265844",
+      "33753225",
+      "33672471",
+      "33324237",
+      "33070389",
+      "32015543",
+      "31875044",
+      "31821414",
+      "31621188",
+      "30554999",
+      "30016406",
+      "29544874",
+      "27908682",
+      "26964834",
+      "26941849",
+      "26464018",
+      "25531225",
+      "25009998",
+      "24813628",
+      "24730530",
+      "24637728",
+      "22615398",
+      "21169378",
+      "19942586",
+      "19254568",
+      "19060903",
+      "18719252",
+      "18585359",
+      "18024473",
+      "17949044",
+      "17079133",
+      "16567630",
+      "16442618",
+      "15886395",
+      "15726414",
+      "15034147",
+      "12773374",
+      "12502784",
+      "12471243",
+      "12368087",
+      "11500365",
+      "11470884",
+      "11430833",
+      "10698939",
+      "10688916",
+      "10640274",
+      "10488341",
+      "10413115",
+      "9545243",
+      "9537326",
+      "9334334",
+      "8995387",
+      "8875929",
+      "7874496",
+      "6776413",
+      "6421639",
+      "3935327",
+      "3447015",
+      "3291115",
+      "3000605",
+      "2820993",
+      "2743978",
+      "2572329",
+      "2572327",
+      "2165385",
+      "1846781"
+    ],
+    "similar": [
+      "41279736",
+      "42475469",
+      "25003367",
+      "12600273",
+      "25966461",
+      "22133092",
+      "42423121",
+      "25099472",
+      "12529172",
+      "12788955",
+      "41750280",
+      "35685361",
+      "19369195",
+      "12225289",
+      "42337369",
+      "28716922",
+      "31078911",
+      "16567630",
+      "20522560",
+      "23912807",
+      "31203490",
+      "31184298",
+      "26538579",
+      "19196711",
+      "17537753",
+      "40945733",
+      "41278790",
+      "40703672",
+      "29697977",
+      "12754209",
+      "41378882",
+      "37985454",
+      "28628649",
+      "35494619",
+      "10074458",
+      "23981301",
+      "35305389",
+      "16846213",
+      "42039469",
+      "9501093",
+      "36736316",
+      "26921330",
+      "31925639",
+      "11134045",
+      "41139418",
+      "40153681",
+      "26776172",
+      "27719654",
+      "26370088",
+      "38260445",
+      "12086621",
+      "23688557",
+      "12657723",
+      "28628118",
+      "36631611",
+      "37834301",
+      "31969433",
+      "33988507",
+      "42527527",
+      "25427151",
+      "18451328",
+      "27731453",
+      "36692152",
+      "33213062",
+      "21256157",
+      "12374740",
+      "37988460",
+      "12118065",
+      "11278799",
+      "41567635",
+      "42589402",
+      "11838236",
+      "32144844",
+      "11029469",
+      "25540073",
+      "42465437",
+      "39657274",
+      "34931978",
+      "16439366",
+      "40320752",
+      "27556159",
+      "20865152",
+      "20873783",
+      "20853887",
+      "25518860",
+      "41424949",
+      "18212044",
+      "21098038",
+      "35595169",
+      "42421348",
+      "40862632",
+      "41055214",
+      "41837652",
+      "16720585",
+      "31652310",
+      "29217616",
+      "34958800",
+      "31284641",
+      "25766872",
+      "12832467"
+    ],
+    "review": [
+      "41279736",
+      "12600273",
+      "31184298",
+      "27719654",
+      "21256157",
+      "11838236",
+      "34958800"
+    ],
+    "pmc": [
+      "12632555"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41279736/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.10.10.681672",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

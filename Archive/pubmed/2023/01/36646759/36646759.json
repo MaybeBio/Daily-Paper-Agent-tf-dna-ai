@@ -1,0 +1,453 @@
+{
+  "identity": {
+    "pmid": "36646759",
+    "doi": "10.1038/s41422-022-00773-0",
+    "title": "Fructose-1,6-bisphosphatase 1 dephosphorylates IkappaBalpha and suppresses colorectal tumorigenesis."
+  },
+  "content": {
+    "abstract": "Emerging evidence demonstrates that some metabolic enzymes that phosphorylate soluble metabolites can also phosphorylate a variety of protein substrates as protein kinases to regulate cell cycle, apoptosis and many other fundamental cellular processes. However, whether a metabolic enzyme dephosphorylates protein as a protein phosphatase remains unknown. Here we reveal the gluconeogenic enzyme fructose 1,6-biphosphatase 1 (FBP1) that catalyzes the hydrolysis of fructose 1,6-bisphosphate (F-1,6-BP) to fructose 6-phosphate (F-6-P) as a protein phosphatase by performing a high-throughput screening of metabolic phosphatases with molecular docking followed by molecular dynamics (MD) simulations. Moreover, we identify IkappaBalpha as the substrate of FBP1-mediated dephosphorylation by performing phosphoproteomic analysis. Mechanistically, FBP1 directly interacts with and dephosphorylates the serine (S) 32/36 of IkappaBalpha upon TNFalpha stimulation, thereby inhibiting NF-kappaB activation. MD simulations indicate that the catalytic mechanism of FBP1-mediated IkappaBalpha dephosphorylation is similar to F-1,6-BP dephosphorylation, except for higher energetic barriers for IkappaBalpha dephosphorylation. Functionally, FBP1-dependent NF-kappaB inactivation suppresses colorectal tumorigenesis by sensitizing tumor cells to inflammatory stresses and preventing the mobilization of myeloid-derived suppressor cells. Our finding reveals a previously unrecognized role of FBP1 as a protein phosphatase and establishes the critical role of FBP1-mediated IkappaBalpha dephosphorylation in colorectal tumorigenesis.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Fructose-Bisphosphatase/analysis/metabolism",
+      "NF-kappa B",
+      "NF-KappaB Inhibitor alpha",
+      "Molecular Docking Simulation",
+      "Carcinogenesis",
+      "Phosphoric Monoester Hydrolases",
+      "Cell Transformation, Neoplastic",
+      "Fructose",
+      "*Colorectal Neoplasms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Wencheng",
+        "Chu, Huiying",
+        "Zhang, Yajuan",
+        "Luo, Tianhang",
+        "Yu, Hua",
+        "Zhu, Hongwen",
+        "Liu, Ye",
+        "Gao, Hong",
+        "Zhao, Yun",
+        "Li, Quanlin",
+        "Wang, Xiongjun",
+        "Li, Guohui",
+        "Yang, Weiwei"
+      ],
+      "short_names": [
+        "Zhu W",
+        "Chu H",
+        "Zhang Y",
+        "Luo T",
+        "Yu H",
+        "Zhu H",
+        "Liu Y",
+        "Gao H",
+        "Zhao Y",
+        "Li Q",
+        "Wang X",
+        "Li G",
+        "Yang W"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8123-9504",
+        "ORCID: 0000-0002-7807-6094",
+        "ORCID: 0000-0002-9108-8786",
+        "ORCID: 0000-0001-8223-705X",
+        "ORCID: 0000-0002-1661-9137"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Cell Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Shanghai, China.",
+        "Laboratory of Molecular Modeling, State Key Lab of Molecular Reaction Dynamics, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, Liaoning, China.",
+        "State Key Laboratory of Cell Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Shanghai, China.",
+        "Department of General Surgery, Changhai Hospital, The Second Military Medical University, Shanghai, China.",
+        "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, Guangdong, China.",
+        "Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China.",
+        "Laboratory of Molecular Modeling, State Key Lab of Molecular Reaction Dynamics, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, Liaoning, China.",
+        "State Key Laboratory of Cell Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Shanghai, China.",
+        "State Key Laboratory of Cell Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Shanghai, China.",
+        "Key Laboratory of Systems Health Science of Zhejiang Province, School of Life Sciences, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, Zhejiang, China.",
+        "Endoscopy Center and Endoscopy Research Institute, Zhongshan Hospital, Fudan University, Shanghai, China. li.quanlin@zs-hospital.sh.cn.",
+        "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, Guangdong, China. wangxiongjun@gzhu.edu.cn.",
+        "Laboratory of Molecular Modeling, State Key Lab of Molecular Reaction Dynamics, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, Liaoning, China. ghli@dicp.ac.cn.",
+        "State Key Laboratory of Cell Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Shanghai, China. wyang@sibcb.ac.cn.",
+        "Key Laboratory of Systems Health Science of Zhejiang Province, School of Life Sciences, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, Zhejiang, China. wyang@sibcb.ac.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Wencheng",
+        "short_name": "Zhu W",
+        "identifiers": [
+          "0000-0001-8123-9504"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Cell Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chu, Huiying",
+        "short_name": "Chu H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Modeling, State Key Lab of Molecular Reaction Dynamics, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yajuan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cell Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Tianhang",
+        "short_name": "Luo T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Changhai Hospital, The Second Military Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Hua",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Hongwen",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ye",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Modeling, State Key Lab of Molecular Reaction Dynamics, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Hong",
+        "short_name": "Gao H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cell Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yun",
+        "short_name": "Zhao Y",
+        "identifiers": [
+          "0000-0002-7807-6094"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Cell Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Shanghai, China.",
+          "Key Laboratory of Systems Health Science of Zhejiang Province, School of Life Sciences, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Quanlin",
+        "short_name": "Li Q",
+        "identifiers": [
+          "0000-0002-9108-8786"
+        ],
+        "affiliations": [
+          "Endoscopy Center and Endoscopy Research Institute, Zhongshan Hospital, Fudan University, Shanghai, China. li.quanlin@zs-hospital.sh.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiongjun",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Precise Genome Engineering Center, School of Life Sciences, Guangzhou University, Guangzhou, Guangdong, China. wangxiongjun@gzhu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Guohui",
+        "short_name": "Li G",
+        "identifiers": [
+          "0000-0001-8223-705X"
+        ],
+        "affiliations": [
+          "Laboratory of Molecular Modeling, State Key Lab of Molecular Reaction Dynamics, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, Liaoning, China. ghli@dicp.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Weiwei",
+        "short_name": "Yang W",
+        "identifiers": [
+          "0000-0002-1661-9137"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Cell Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Shanghai, China. wyang@sibcb.ac.cn.",
+          "Key Laboratory of Systems Health Science of Zhejiang Province, School of Life Sciences, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou, Zhejiang, China. wyang@sibcb.ac.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell research"
+    ],
+    "journal_abbrev": [
+      "Cell Res"
+    ],
+    "pub_date": "2023 Mar",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/17 06:00",
+    "fetched_at": "2026-09-28 19:15:02"
+  },
+  "links": {
+    "cites": [
+      "42548808",
+      "42450176",
+      "42368569",
+      "42279749",
+      "42266182",
+      "42248910",
+      "41919502",
+      "41479411",
+      "41371402",
+      "40783392",
+      "40611205",
+      "40434518",
+      "40419474",
+      "40362498",
+      "40276541",
+      "40185717",
+      "40175621",
+      "40100307",
+      "39902328",
+      "39641861",
+      "39207107",
+      "39148613",
+      "39100676",
+      "39073311",
+      "38834617",
+      "38717677",
+      "38538923",
+      "38349431",
+      "37970353"
+    ],
+    "refs": [
+      "34620838",
+      "34265844",
+      "32367049",
+      "32152438",
+      "31622013",
+      "31585088",
+      "31243371",
+      "31231372",
+      "30150719",
+      "29602904",
+      "29550444",
+      "29463470",
+      "29379212",
+      "29336888",
+      "29139553",
+      "29129972",
+      "28714978",
+      "28580957",
+      "27197151",
+      "26858199",
+      "26583988",
+      "25689837",
+      "25043030",
+      "24958609",
+      "24818718",
+      "23453623",
+      "21949741",
+      "20427268",
+      "20303878",
+      "19674963",
+      "19522824",
+      "19499576",
+      "19404270",
+      "19254476",
+      "18930133",
+      "18832739",
+      "18542874",
+      "18267068",
+      "17406391",
+      "16981200",
+      "16240095",
+      "12360211",
+      "11229684",
+      "11106428",
+      "10973957",
+      "10634209",
+      "9695819",
+      "8341661"
+    ],
+    "similar": [
+      "36646759",
+      "32754266",
+      "22039417",
+      "36266488",
+      "19881551",
+      "36232688",
+      "35404841",
+      "32041737",
+      "3003364",
+      "31938049",
+      "31948940",
+      "25043030",
+      "28387640",
+      "35179010",
+      "7558035",
+      "28624442",
+      "37084733",
+      "29139553",
+      "33960626",
+      "37142076",
+      "38538923",
+      "31594093",
+      "6096384",
+      "35477823",
+      "34298040",
+      "2849261",
+      "36692596",
+      "28720574",
+      "7592845",
+      "27780144",
+      "28485159",
+      "15811958",
+      "30723389",
+      "35653238",
+      "36964915",
+      "30415122",
+      "28990097",
+      "28262837",
+      "7929321",
+      "2997199",
+      "29016355",
+      "17298737",
+      "235537",
+      "3027062",
+      "30171256",
+      "37507476",
+      "29650758",
+      "3000145",
+      "10775461",
+      "15131058",
+      "31863529",
+      "23083334",
+      "12907607",
+      "1322913",
+      "14711835",
+      "36613872",
+      "2983680",
+      "2994640",
+      "30429463",
+      "16619039",
+      "34363719",
+      "6289906",
+      "9873017",
+      "33122826",
+      "2845925",
+      "12649434",
+      "221467",
+      "38349431",
+      "32060227",
+      "37337926",
+      "6274412",
+      "18579519",
+      "15856023",
+      "30193944",
+      "36166646",
+      "17028156",
+      "30150719",
+      "33838472",
+      "32085715",
+      "6296091",
+      "32472219",
+      "2844169",
+      "24013630",
+      "38111981",
+      "10722693",
+      "6100582",
+      "38589931",
+      "2122108",
+      "28599390",
+      "34582005",
+      "1328239",
+      "14534291",
+      "6256000",
+      "19874889",
+      "31448674",
+      "11023824",
+      "28653874",
+      "27701768",
+      "14602581",
+      "38649455",
+      "39073311"
+    ],
+    "review": [
+      "36646759",
+      "6096384"
+    ],
+    "pmc": [
+      "9977772"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41422-022-00773-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36646759/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36646759",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-200",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

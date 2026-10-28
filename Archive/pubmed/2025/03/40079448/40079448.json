@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "40079448",
+    "doi": "10.1111/hel.70019",
+    "title": "Flagellar Assembly Factor FliW2 De-Represses Helicobacter pylori FlaA-Mediated Motility by Allosteric Obstruction of Global Regulator CsrA."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Helicobacter pylori colonizes the human stomach as a dominant member of the gastric microbiota and constitutively expresses flagellar motility for survival. Carbon storage regulator A (CsrA) is a posttranscriptional global regulator and a critical determinant of H. pylori's motility and pathogenicity. The regulation of H. pylori CsrA is still uncertain although in other species CsrA is reported to be antagonized by small RNAs and proteins. In this study, we attempted to unveil how CsrA is regulated and hypothesized that H. pylori CsrA activity is antagonized by a flagellar assembly factor, FliW2, via protein allosteric obstruction. MATERIALS AND METHODS: Multiple sequence comparisons indicated that, along its length and in contrast to fliW1, the fliW2 of H. pylori J99 is conserved. We then generated an isogenic DeltafliW2 strain whose function was characterized using phenotypic and biochemical approaches. We also applied a machine learning approach (AlphaFold2) to predict FliW2-CsrA binding domains and investigated the FliW2-CsrA interaction using pull-down assays and in vivo bacterial two-hybrid systems. RESULTS: We observed the reduced expression of major flagellin FlaA and impaired flagellar filaments that attenuated the motility of the DeltafliW2 strain. Furthermore, a direct interaction between FliW2 and CsrA was demonstrated, and a novel region of the C-terminal extension of CsrA was suggested to be crucial for CsrA interacting with FliW2. Based on our AlphaFold2 prediction, this C-terminal region of FliW2-CsrA interaction does not overlap with CsrA's N-terminal RNA binding domain, implying that FliW2 allosterically antagonizes CsrA activity and restricts CsrA's binding to flaA mRNAs. CONCLUSIONS: Our data points to novel regulatory roles that the H. pylori flagellar assembly factor FliW2 has in obstructing CsrA activity, and thus FliW2 may indirectly antagonize CsrA's regulation of flaA mRNA processing and translation. Our findings reveal a new regulatory mechanism of flagellar motility in H. pylori.",
+    "keywords": [
+      "Helicobacter pylori",
+      "CsrA",
+      "FliW2",
+      "flagellar biosynthesis",
+      "major flagellin a (FlaA)",
+      "motility"
+    ],
+    "mesh_terms": [
+      "*Helicobacter pylori/genetics/physiology/metabolism",
+      "*Flagellin/metabolism/genetics",
+      "*Bacterial Proteins/metabolism/genetics",
+      "*Gene Expression Regulation, Bacterial",
+      "*Flagella/metabolism/genetics/physiology",
+      "Protein Binding",
+      "*RNA-Binding Proteins/metabolism/genetics",
+      "*Repressor Proteins/metabolism/genetics",
+      "Allosteric Regulation",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Su, Marcia Shu-Wei",
+        "Dickins, Benjamin",
+        "Kiang, Fang Yie",
+        "Tsai, Wei-Jiun",
+        "Chen, Yueh-Lin",
+        "Chen, Jenn-Wei",
+        "Wang, Shuying",
+        "Tsai, Pei-Jane",
+        "Wu, Jiunn-Jong"
+      ],
+      "short_names": [
+        "Su MS",
+        "Dickins B",
+        "Kiang FY",
+        "Tsai WJ",
+        "Chen YL",
+        "Chen JW",
+        "Wang S",
+        "Tsai PJ",
+        "Wu JJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5080-9778"
+      ],
+      "affiliations": [
+        "Department of Medical Laboratory Science and Biotechnology, College of Medical and Health Sciences, Asia University, Taichung, Taiwan.",
+        "Department of Biotechnology and Laboratory Science in Medicine, College of Biomedical Science and Engineering, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+        "Department of Biosciences, Nottingham Trent University, Nottingham, UK.",
+        "Department of Biotechnology and Laboratory Science in Medicine, College of Biomedical Science and Engineering, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+        "Institute of Basic Medical Sciences, College of Medicine, National Cheng-Kung University, Tainan, Taiwan.",
+        "Department of Biotechnology and Laboratory Science in Medicine, College of Biomedical Science and Engineering, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+        "Department of Microbiology and Immunology, College of Medicine, National Cheng-Kung University, Tainan, Taiwan.",
+        "Department of Microbiology and Immunology, College of Medicine, National Cheng-Kung University, Tainan, Taiwan.",
+        "Department of Medical Laboratory Science and Biotechnology, College of Medicine, National Cheng Kung University, Tainan, Taiwan.",
+        "Department of Medical Laboratory Science and Biotechnology, College of Medical and Health Sciences, Asia University, Taichung, Taiwan.",
+        "Department of Biotechnology and Laboratory Science in Medicine, College of Biomedical Science and Engineering, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+        "Department of Medical Research, China Medical University Hospital, China Medical University, Taichung, Taiwan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Su, Marcia Shu-Wei",
+        "short_name": "Su MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory Science and Biotechnology, College of Medical and Health Sciences, Asia University, Taichung, Taiwan.",
+          "Department of Biotechnology and Laboratory Science in Medicine, College of Biomedical Science and Engineering, National Yang Ming Chiao Tung University, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Dickins, Benjamin",
+        "short_name": "Dickins B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Nottingham Trent University, Nottingham, UK."
+        ]
+      },
+      {
+        "full_name": "Kiang, Fang Yie",
+        "short_name": "Kiang FY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Laboratory Science in Medicine, College of Biomedical Science and Engineering, National Yang Ming Chiao Tung University, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Tsai, Wei-Jiun",
+        "short_name": "Tsai WJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Basic Medical Sciences, College of Medicine, National Cheng-Kung University, Tainan, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chen, Yueh-Lin",
+        "short_name": "Chen YL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Laboratory Science in Medicine, College of Biomedical Science and Engineering, National Yang Ming Chiao Tung University, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chen, Jenn-Wei",
+        "short_name": "Chen JW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Immunology, College of Medicine, National Cheng-Kung University, Tainan, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Wang, Shuying",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Immunology, College of Medicine, National Cheng-Kung University, Tainan, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Tsai, Pei-Jane",
+        "short_name": "Tsai PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory Science and Biotechnology, College of Medicine, National Cheng Kung University, Tainan, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiunn-Jong",
+        "short_name": "Wu JJ",
+        "identifiers": [
+          "0000-0002-5080-9778"
+        ],
+        "affiliations": [
+          "Department of Medical Laboratory Science and Biotechnology, College of Medical and Health Sciences, Asia University, Taichung, Taiwan.",
+          "Department of Biotechnology and Laboratory Science in Medicine, College of Biomedical Science and Engineering, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+          "Department of Medical Research, China Medical University Hospital, China Medical University, Taichung, Taiwan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Helicobacter"
+    ],
+    "journal_abbrev": [
+      "Helicobacter"
+    ],
+    "pub_date": "2025 Mar-Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/13 14:06",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [
+      "41586523",
+      "40901325"
+    ],
+    "refs": [
+      "38897989",
+      "38643366",
+      "35647692",
+      "35637307",
+      "34946105",
+      "34290242",
+      "33837194",
+      "33586844",
+      "33193284",
+      "33106347",
+      "31614448",
+      "31113895",
+      "30154784",
+      "29567971",
+      "29150605",
+      "28659885",
+      "28400753",
+      "27551070",
+      "27516547",
+      "27257952",
+      "27235416",
+      "27229370",
+      "27105595",
+      "26863876",
+      "25833324",
+      "25825427",
+      "25109343",
+      "24474799",
+      "23329690",
+      "23051923",
+      "21939377",
+      "21169378",
+      "20548942",
+      "17555441",
+      "15130117",
+      "14651608",
+      "12694612",
+      "11895962",
+      "11328886",
+      "11298291",
+      "9781871",
+      "9211896"
+    ],
+    "similar": [
+      "40079448",
+      "25109343",
+      "30113298",
+      "21895793",
+      "27551070",
+      "35227071",
+      "27229370",
+      "10559162",
+      "11489132",
+      "9023175",
+      "7768796",
+      "1435261",
+      "28402041",
+      "27353476",
+      "8501031",
+      "15361076",
+      "39882902",
+      "28400753",
+      "33586844",
+      "33106347",
+      "20691071",
+      "16077121",
+      "17555441",
+      "21091500",
+      "20716375",
+      "25825427",
+      "18931105",
+      "15946806",
+      "17276136",
+      "24837287",
+      "12480886",
+      "25802298",
+      "19332819",
+      "29581407",
+      "10960117",
+      "19465658",
+      "28444418",
+      "15302931",
+      "12791140",
+      "10234819",
+      "15130117",
+      "12448680",
+      "9781871",
+      "28851853",
+      "40261933",
+      "23572556",
+      "35107334",
+      "16035242",
+      "21999436",
+      "18689480",
+      "12044670",
+      "19383688",
+      "16617375",
+      "15165253",
+      "23144244",
+      "30201783",
+      "27516547",
+      "17050924",
+      "9231413",
+      "14651608",
+      "28870757",
+      "38897989",
+      "26863876",
+      "9882675",
+      "15322055",
+      "32934077",
+      "7891557",
+      "11985711",
+      "21939377",
+      "20143463",
+      "20831410",
+      "29358496",
+      "8332066",
+      "21908661",
+      "40116479",
+      "29595414",
+      "29170397",
+      "17693507",
+      "31387901",
+      "10858255",
+      "18713317",
+      "39792952",
+      "29229777",
+      "10225855",
+      "14562386",
+      "11727819",
+      "31427391",
+      "29859293",
+      "15231786",
+      "22037401",
+      "11298291",
+      "11514517",
+      "37655916",
+      "31447808",
+      "32508757",
+      "19383707",
+      "37976320",
+      "12890020",
+      "25833324",
+      "15293450"
+    ],
+    "review": [
+      "40079448",
+      "28444418",
+      "9781871",
+      "21939377"
+    ],
+    "pmc": [
+      "11905337"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40079448.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40079448/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/hel.70019",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://bacdive.dsmz.de/strain/1172",
+        "provider": "BacDive",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "Bacillus subtilis BD-ID 1172"
+      }
+    ],
+    "text_mined": []
+  }
+}

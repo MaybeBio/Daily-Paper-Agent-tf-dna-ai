@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose estrogen-related receptor (ERR) as a novel molecular target for controlling lepidopteran pests. They report ERR expression in silkworm metabolic tissues, ChIP-seq identification of ERR response elements in metabolism-related gene promoters, inhibition of ERR target genes by XCT-790 and bisphenol A leading to larval mortality, direct ERR-XCT-790 binding by biofilm interferometry, and in silico identification of small-molecule inhibitors with stronger ERR affinity.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, ChIP-seq data and analysis details, binding assay parameters, molecular docking methodology, compound identities and validation data, statistical reporting, and any negative controls
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting concept, namely ERR as a target for lepidopteran pest control, with silkworm as a model. However, the evidence as summarized is insufficient to establish the central claims. Key mechanistic steps are asserted without quantitative support, the link between ERR inhibition and lethality is correlative rather than causal, and the proposed small-molecule inhibitors are identified only in silico with no functional validation. The work may have merit as a preliminary study, but the case for a validated molecular target is not currently established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in insect toxicology, pesticide discovery, and lepidopteran pest management would be interested in a potential new target for insecticide development. Those studying nuclear receptor biology in insects, particularly ERR function in metabolism, may also find the data relevant. The use of silkworm as a pesticide screening model could appeal to the sericulture and agrochemical communities.
+- **Major strengths** The choice of silkworm as a pesticide-sensitive model is logical and potentially practical. The combination of transcriptomic-level target identification (ChIP-seq) with inhibitor testing and structural modeling represents a multi-pronged approach. The focus on metabolic genes in fat body and midgut is biologically reasonable for pesticide metabolism.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between ERR inhibition and lethality
+  - **Claim pointer** The abstract states that XCT-790 and bisphenol A inhibited ERR target gene expression, resulting in pupation difficulties and death.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract reports that inhibitor treatment reduced expression of five target genes and that larvae died, but no evidence is presented that the lethality is specifically due to ERR inhibition rather than off-target toxicity of XCT-790 or bisphenol A. No rescue experiments, genetic knockdown controls, or dose-response data are mentioned.
+  - **Why it matters** Without establishing causality, the claim that ERR is a viable molecular target is unsupported. Off-target effects are a common confound in inhibitor studies, and bisphenol A is a known endocrine disruptor with broad effects.
+  - **Resolution test** Provide genetic evidence, such as ERR knockdown or knockout, showing a similar phenotype to inhibitor treatment. Include a rescue experiment where ERR overexpression or target gene supplementation reverses the lethal phenotype. Report dose-response relationships and demonstrate that lethality correlates with ERR inhibition specifically.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation of proposed small-molecule inhibitors
+  - **Claim pointer** The abstract claims that small-molecule compounds with stronger affinity for ERR were identified via molecular docking and that these can be used for future pest control.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The inhibitors are identified only through computational docking. No experimental validation is reported, such as binding affinity measurements, in vitro activity assays, or in vivo efficacy testing. The claim that these compounds "can be used" for pest control is speculative.
+  - **Why it matters** Computational predictions frequently do not translate to functional inhibitors. Without experimental confirmation, the practical utility of these compounds is unsubstantiated, and the central translational claim of the paper fails.
+  - **Resolution test** Provide experimental binding data (e.g., ITC, SPR, or BLI) for the identified compounds, demonstrate inhibition of ERR transcriptional activity in cell-based assays, and show efficacy in a lepidopteran bioassay with appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** ChIP-seq evidence quality and interpretation
+  - **Claim pointer** The abstract states that many estrogen-related response elements were identified in the 2000-bp promoter region of metabolism-related genes, almost all of which were potential ERR target genes.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** No details are given on ChIP-seq quality, peak calling thresholds, replication, or how "potential ERR target genes" were defined. The phrase "almost all" is vague and lacks quantitative support. The functional relevance of these binding events is not demonstrated.
+  - **Why it matters** ChIP-seq data can be noisy, and binding does not imply functional regulation. Without validation of at least a subset of targets by independent methods and demonstration of transcriptional regulation, the target gene list is not reliable.
+  - **Resolution test** Report ChIP-seq statistics, peak calling criteria, and replicate concordance. Validate several predicted targets by qPCR or reporter assays. Show that ERR binding correlates with transcriptional regulation upon ERR modulation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability to lepidopteran pests
+  - **Claim pointer** The abstract concludes that ERR inhibitors can be used for future control of Lepidoptera pests based on silkworm data.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** All experiments appear to be conducted in a single species, Bombyx mori. No data from actual pest species, such as Spodoptera or Helicoverpa, are presented. ERR expression, function, and inhibitor sensitivity may differ across lepidopterans.
+  - **Why it matters** The translational claim requires demonstration in target pest species. Silkworm is a domesticated model, and its physiology may not represent pest species in agricultural settings.
+  - **Resolution test** Include experiments in at least one or two major lepidopteran pest species showing ERR expression, inhibitor efficacy, and lethality. Alternatively, clearly frame the study as a proof-of-concept in silkworm and temper the generalizability claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of experimental design
+  - **Affected element** Inhibitor treatment description
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract does not specify concentrations, exposure duration, or route of administration for XCT-790 and bisphenol A.
+  - **Required correction** Provide these details in the full manuscript and summarize key parameters in the abstract if space permits.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Gene expression and lethality data
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** No statistical measures, sample sizes, or significance thresholds are reported for the gene expression or mortality data.
+  - **Required correction** Include statistical details in the full manuscript and report effect sizes and p-values for key comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "Estrogen-related response elements"
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The term is unusual; ERR typically binds to ERRE motifs or SF-1 response elements. The abstract does not clarify the motif identity.
+  - **Required correction** Define the motif sequence and cite relevant literature for ERR binding specificity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Structural modeling validation
+  - **Affected element** Predicted 3D structure of ERR
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract mentions prediction of the 3D structure but does not indicate the method or validation metrics.
+  - **Required correction** Specify the modeling approach and provide validation scores (e.g., Ramachandran plot, QMEAN) in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal link), R1-M2 (inhibitor validation), R1-M3 (ChIP-seq rigor), R1-M4 (species generalizability)
+- **Assessment against Nature-style criteria** Originality: The concept of ERR as an insecticide target is relatively novel and could be of interest. Scientific importance: Potentially high if validated, but current evidence is preliminary and does not establish a robust target. Interdisciplinary readership: The work bridges insect physiology, toxicology, and computational chemistry, which could appeal to a broad audience, but the lack of validation limits this appeal. Technical soundness: The abstract does not provide sufficient methodological detail to assess technical rigor; key claims lack quantitative support. Readability for nonspecialists: The abstract is generally clear but uses specialized terms without sufficient context, and the logical flow from data to conclusions is not fully transparent.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising, but the abstract does not provide sufficient evidence to support the central claims of ERR as a validated target or the utility of the proposed inhibitors. Substantial additional experimental work, as outlined in the resolution tests, would be required to make the case convincing.
+
+## Risk / unsupported claims
+- The claim that ERR inhibitors "can be used for future control of Lepidoptera pests" is unsupported, as no pest species were tested and inhibitor validation is only computational.
+- The claim that lethality results from ERR inhibition is unsupported, as no causal evidence is provided.
+- The claim that "almost all" identified response elements correspond to potential ERR target genes is unquantified and not verifiable from the abstract.
+- The binding of ERR to XCT-790 is mentioned but not quantitatively described, and its functional relevance is not established.
+- The translational potential of the identified small-molecule compounds is speculative without experimental validation.

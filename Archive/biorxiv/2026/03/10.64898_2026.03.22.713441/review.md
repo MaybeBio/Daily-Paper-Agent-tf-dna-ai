@@ -1,0 +1,105 @@
+## Review setup
+- **Input scope** Full manuscript text including Summary, Introduction, Results, Discussion, Methods, and Supplemental Information descriptions
+- **Assessment boundary** Scientific content, technical soundness, structural interpretation, functional claims, and cellular validation as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors report cryo-EM structures of RAD54B-N bound to RAD51-ssDNA and RAD51-dsDNA filaments, identify three RAD51 interaction sites including a novel β-domain, and propose a modular mechanism where the N-terminal domain stabilizes filaments and promotes strand exchange while the C-terminal ATPase domain is required for D-loop formation. The β-domain is proposed to bridge distal RAD51 protomers, contact dsDNA, regulate ATPase activity, and support higher-order assembly. Cellular experiments in U2OS cells are used to support the relevance of these sites for homologous recombination repair of camptothecin-induced DSBs.
+- **Visible evidence base** Results sections describing pull-down assays, nuclease protection assays, D-loop assays, ATPase assays, EMSA, crosslinking assays, dsDNA capture assays, cryo-EM data collection and processing, model building, and cell-based γH2AX foci assays. Figures S1-S6 and Tables are referenced but not fully visible.
+- **Missing materials affecting confidence** Actual figures and supplementary data are not provided in the manuscript text. Specific numerical values for ATPase rates, binding affinities, and statistical analyses are not included. The cryo-EM validation metrics (FSC curves, model statistics, map quality indicators) are not presented. The Discussion section is partially truncated. The "Resource Availability" section is empty.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial body of work aimed at defining the molecular mechanism of RAD54B in homologous recombination. The identification of a novel β-domain that bridges distal RAD51 protomers and contacts dsDNA is potentially significant. The modular functional separation between NTD and CTD is an interesting concept. However, the manuscript as presented has several critical gaps. The cryo-EM structures are described but key validation metrics are absent. The functional assays are described but quantitative data and statistical analyses are not shown. The cellular experiments are described but the connection between the specific molecular defects observed in vitro and the cellular phenotype is not fully established. The claim that the β-domain regulates ATPase activity and higher-order assembly is intriguing but the mechanistic link is not clearly demonstrated. The manuscript would benefit from clearer presentation of quantitative data and a more rigorous discussion of alternative interpretations.
+- **Who would be interested in the results, and why** Researchers in the fields of DNA repair, homologous recombination, genome stability, and cancer biology would be interested. The structural information on RAD54B-RAD51 interactions could inform studies on RAD51 modulator biology and potentially therapeutic targeting of DNA repair pathways. The proposed modular mechanism may be relevant to understanding how different RAD51 accessory factors coordinate their activities.
+- **Major strengths** The combination of cryo-EM, biochemistry, and cellular assays provides a multi-pronged approach. The identification of a previously unrecognized β-domain with multiple proposed functions is novel. The functional separation between NTD and CTD activities is a conceptually interesting framework. The use of multiple complementary assays (pull-down, nuclease protection, D-loop, ATPase, EMSA, crosslinking, capture) strengthens the biochemical conclusions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims cryo-EM structures of RAD54B-N bound to RAD51-ssDNA and RAD51-dsDNA filaments at sufficient resolution to build atomic models and identify specific interaction sites.
+  - **Evidence pointer** Results section "Structural basis of RAD54B interaction with RAD51-DNA filaments"; Methods section "Cryo-EM Data Processing"
+  - **Concern** The manuscript reports global resolutions of 2.6 Å, 2.9 Å, 3.0 Å, and 2.4 Å for various reconstructions, but no validation metrics are provided. There is no mention of FSC curves, model-to-map correlation, Ramachandran statistics, or other standard cryo-EM validation criteria. The local resolution of the β-domain region is not discussed, which is critical given that this is the most novel structural finding. The manuscript states that "detailed interaction features could not be discerned" for the β-domain in the ssDNA complex, yet later makes specific claims about β-domain contacts with dsDNA. The model building section describes using AlphaFold models rigid-body docked into maps, but does not describe how the models were validated or refined against the maps in detail.
+  - **Why it matters** Without proper validation metrics, the structural claims cannot be assessed. The resolution of the β-domain region is particularly important because the functional claims about this domain depend on the accuracy of the structural model. If the β-domain is not well-resolved, the claims about its interactions with RAD51 and dsDNA are speculative.
+  - **Resolution test** Provide FSC curves, local resolution maps, model validation statistics (MolProbity scores, Ramachandran analysis, clash scores), and clearly indicate the resolution of the β-domain region in each reconstruction. Show representative density for the key interaction interfaces.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that RAD54B-N inhibits RAD51 ATPase activity and that this inhibition is mediated by site 1.
+  - **Evidence pointer** Results section "N-terminal domain of RAD54B is sufficient to modulate RAD51 filaments"; Methods section "ATPase Assay"
+  - **Concern** The ATPase assay description is confusing. The first paragraph describes a malachite green method, but then a second paragraph describes a "two-solution reaction setup" with a different buffer composition. It is unclear which method was used for which experiment. The manuscript states that RAD54B-N inhibits RAD51 ATPase activity but does not provide quantitative data (e.g., rates, IC50 values, or fold inhibition). The claim that site 1 is the principal determinant of ATPase suppression is based on the Δ10 mutant, but the manuscript does not show that this mutant is properly folded or that the deletion does not cause global structural perturbations.
+  - **Why it matters** The ATPase inhibition is a central mechanistic claim. Without quantitative data and proper controls, the conclusion that site 1 mediates ATPase inhibition is not established. The potential for the Δ10 deletion to cause misfolding or aggregation is a significant concern that is not addressed.
+  - **Resolution test** Provide quantitative ATPase data with appropriate controls, including dose-response curves, and demonstrate that the Δ10 mutant is properly folded (e.g., by circular dichroism, size exclusion chromatography, or thermal stability assays).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the β-domain bridges distal RAD51 protomers and contacts dsDNA via a positively charged loop, and that this contributes to filament stabilization and D-loop formation.
+  - **Evidence pointer** Results section "The β-domain of RAD54B plays key roles in homologous recombination via dsDNA binding and bridging distal RAD51 protomers"; Methods section "RAD51-Bridge Crosslink Assay", "dsDNA Capture Assay", "Electrophoretic Mobility Shift Assay"
+  - **Concern** The crosslink assay shows a band of approximately 90 kDa, consistent with two RAD51 protomers and one β-domain, but the manuscript does not provide evidence that this is a specific interaction rather than a non-specific crosslinked aggregate. The claim that the β-domain bridges distal RAD51 protomers is based on this single assay. The dsDNA capture assay shows reduced capture with the 4A mutant, but the manuscript does not provide quantitative data or statistical analysis. The EMSA results are described qualitatively. The claim that the β-domain regulates RAD54B ATPase activity is based on the observation that the 4A mutation reduces ATPase activity, but the mechanism is not explored.
+  - **Why it matters** The β-domain is the most novel finding of this manuscript. The functional claims about this domain need to be supported by rigorous biochemical evidence. The current data are suggestive but not conclusive.
+  - **Resolution test** Provide quantitative data for the crosslink, capture, and EMSA assays with appropriate controls and statistical analysis. Show that the 4A mutation does not cause global structural changes in the β-domain. Explore the mechanism of ATPase regulation by the β-domain.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that RAD54B knockout cells show defective repair of camptothecin-induced DSBs and that this defect is rescued by wild-type RAD54B but not by mutants lacking the identified interaction sites.
+  - **Evidence pointer** Results section "The RAD51 interaction sites and the β-domain of RAD54B are important for DSB repair by HR in U2OS cells"; Methods section "Cell Biology experiments"
+  - **Concern** The cellular experiments are described but no quantitative data are shown. The manuscript states that RAD54B-KO cells showed "markedly elevated foci numbers" but does not provide the actual numbers, statistical analysis, or representative images. The rescue experiments are described but the expression levels of the mutant constructs are not shown. It is not clear whether the mutants are expressed at levels comparable to wild-type. The manuscript does not address whether the mutants might have dominant-negative effects or whether the lack of rescue is due to protein instability.
+  - **Why it matters** The cellular data are essential to connect the biochemical findings to physiological relevance. Without quantitative data and proper controls, the claim that the identified sites are important for HR repair in cells is not established.
+  - **Resolution test** Provide quantitative γH2AX foci data with statistical analysis, representative images, and western blots showing expression levels of wild-type and mutant RAD54B constructs.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that RAD54B stabilizes RAD51 filaments and promotes strand exchange, and that this is distinct from RAD54's role.
+  - **Evidence pointer** Results section "RAD54B enhances RAD51 recombination activities via direct interactions"; Discussion section
+  - **Concern** The manuscript does not directly compare RAD54B function to RAD54 function in the same assays. The Discussion mentions that RAD54 and RAD54B may act synergistically, but this is speculative. The manuscript does not address how RAD54B's proposed mechanism of filament stabilization and ATPase inhibition relates to the known functions of other RAD51 modulators such as RAD51AP1 or the RAD51 paralogs.
+  - **Why it matters** The novelty of the findings depends on how RAD54B's mechanism compares to other known RAD51 modulators. Without direct comparison, the significance of the proposed mechanism is unclear.
+  - **Resolution test** Include comparative experiments with RAD54 or other RAD51 modulators in the same assays, or provide a more detailed discussion of how RAD54B's mechanism differs from known modulators.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Summary section
+  - **Evidence pointer** Summary, Highlights
+  - **Issue** The Summary and Highlights contain grammatical errors and awkward phrasing. For example, "the N-terminal region engaing and stabilising RAD51 filaments, capturing of the homologous strands" and "the ATPase motor domainrequired for homology search" contain typos and missing words.
+  - **Required correction** Proofread the Summary and Highlights for grammatical errors and clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section "ATPase Assay"
+  - **Issue** The ATPase assay section describes two different methods without clearly indicating which was used for which experiment. The first paragraph describes a malachite green method, and the second describes a two-solution setup with different buffer conditions.
+  - **Required correction** Clarify which method was used for each experiment and ensure consistency in buffer conditions and data analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section "Cryo-EM Data Processing"
+  - **Issue** The cryo-EM data processing section describes the use of "template-free helical refinement" but does not provide details on how the helical parameters were determined or validated. The section also mentions "EMReady" for map improvement but does not describe how this affected the final maps.
+  - **Required correction** Provide more details on helical parameter determination and validation, and describe the effect of EMReady on map quality.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The Discussion section appears truncated and does not fully develop the implications of the findings. The section on "RAD51 modulators use shared interaction sites on RAD51" is interesting but could be expanded.
+  - **Required correction** Expand the Discussion to more fully address the implications of the findings and the relationship to other RAD51 modulators.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section "Cell Biology experiments"
+  - **Issue** The cell biology methods describe γH2AX foci counting but do not provide details on the criteria for counting foci or the number of cells analyzed per condition.
+  - **Required correction** Provide more details on foci counting criteria and the number of cells analyzed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (cryo-EM validation), R1-M2 (ATPase data quantification), R1-M3 (β-domain functional evidence), R1-M4 (cellular data quantification)
+- **Assessment against Nature-style criteria** Originality: The identification of a novel β-domain in RAD54B is potentially original, but the manuscript does not clearly establish how this differs from known RAD51 modulator mechanisms. Scientific importance: The work addresses an important question in DNA repair, but the significance is not fully established without quantitative data and direct comparison to other modulators. Interdisciplinary readership: The work would appeal to structural biologists, biochemists, and DNA repair researchers, but the presentation is not accessible to a broader audience. Technical soundness: The technical quality cannot be fully assessed due to missing validation metrics and quantitative data. Readability for nonspecialists: The manuscript is not written in a way that would be accessible to nonspecialists, with technical jargon and incomplete explanations.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents interesting preliminary findings, but the lack of quantitative data, validation metrics, and direct comparisons to known modulators prevents a full assessment of the claims. Major revisions are required to address the technical concerns and provide the necessary data to support the conclusions.
+
+## Risk / unsupported claims
+- The claim that RAD54B-N inhibits RAD51 ATPase activity is not supported by quantitative data.
+- The claim that the β-domain bridges distal RAD51 protomers is based on a single crosslink assay without proper controls.
+- The claim that the β-domain contacts dsDNA via a positively charged loop is based on structural data that is not fully validated.
+- The claim that the β-domain regulates RAD54B ATPase activity is not mechanistically explored.
+- The claim that the identified sites are important for HR repair in human cells is not supported by quantitative data or statistical analysis.
+- The claim that RAD54B and RAD54 may act synergistically is speculative and not directly tested.
+- The structural claims cannot be fully assessed without cryo-EM validation metrics.

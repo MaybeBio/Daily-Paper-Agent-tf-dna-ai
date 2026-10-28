@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, including summary, introduction, results, discussion, methods, and supplementary figure legends. Figures and main tables were not provided.
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness based solely on the provided text. No assessment of data quality or statistics beyond what is described in the text.
+- **Shared manuscript claim summary** The authors propose that CGGBP1 binds short CGG triplet repeats at human gene promoters, prevents formation of DNA secondary structures such as G-quadruplexes and R-loops, and thereby maintains transcription elongation and prevents transcription-replication conflicts.
+- **Visible evidence base** Text descriptions of ChIP-seq analysis, EU incorporation assays, immunofluorescence, PLA, DRIP, and an episomal reporter system. Supplementary figure legends are present but the figures themselves are not.
+- **Missing materials affecting confidence** Main figures, all supplementary figures, statistical details, and raw data are not provided. This substantially limits the ability to verify the described results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and potentially important question: whether short CGG triplet repeats, which are abundant in the human genome, can form harmful secondary structures and whether CGGBP1 counteracts this. The authors present a model that is plausible and consistent with prior literature on CGGBP1 and on R-loop biology. However, the evidence as described in the text is incomplete and in several places does not fully support the strength of the claims made. Key issues include the reliance on a single publicly available ChIP-seq dataset without validation, the lack of direct evidence for G-quadruplex formation in cells, the indirect nature of the transcription-replication conflict measurements, and the absence of key controls in the episomal system. The manuscript has potential but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying genome stability, transcription-replication conflicts, R-loop biology, G-quadruplex function, and trinucleotide repeat disorders. The work also has potential relevance for understanding fragile X syndrome and other repeat expansion diseases, as it addresses how short repeats are normally handled.
+- **Major strengths** The question is timely and important. The combination of genome-wide binding analysis with functional assays in a relevant human cell line is appropriate. The use of an episomal system to directly test the effect of CGGBP1 on R-loop formation at a defined locus is a good approach. The authors also connect their findings to the broader literature on secondary structures and genome instability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that CGGBP1 binds to human gene promoter sites prone to G-quadruplex and R-loop secondary structure formation.
+  - **Evidence pointer** Results section "Global profiling of CGGBP1 binding sites in the human genome", Figures 1A-F
+  - **Concern** The genome-wide binding analysis relies entirely on a publicly available ENCODE ChIP-seq dataset in K562 cells. No validation of CGGBP1 binding is provided in the U2OS cells used for all functional experiments. The text states that peaks are enriched at promoters and that these regions have high GC content and GC skew, but the link to actual G-quadruplex or R-loop formation is only inferred from sequence features and a published DRIP-seq dataset, not directly demonstrated at CGGBP1-bound sites.
+  - **Why it matters** The central claim of the paper is that CGGBP1 binds to promoters prone to secondary structure formation. If the binding data are not validated in the same cell type used for functional assays, and if the secondary structure propensity is only inferred, the foundation of the model is weakened.
+  - **Resolution test** Provide ChIP-seq or ChIP-qPCR validation of CGGBP1 binding in U2OS cells at the identified loci. Directly measure G-quadruplex or R-loop levels at CGGBP1-bound promoters, for example by G4 ChIP-seq or DRIP-seq in the same cell type.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal evidence
+  - **Claim pointer** The authors claim that altering CGGBP1 levels leads to transcription elongation defects and replication fork stalling, and that this is due to secondary structure formation.
+  - **Evidence pointer** Results sections "Altering cellular CGGBP1 levels leads to global transcriptional changes", "Altering cellular CGGBP1 levels impacts the level of chromatin-bound RNAPII complexes", "CGGBP1 levels are important to mitigate transcription-replication interference", Figures 2-4
+  - **Concern** The text describes increased EU incorporation upon CGGBP1 knockdown and decreased EU incorporation upon overexpression, but the interpretation of these results is not straightforward. The authors suggest the increase in EU signal may reflect RNAPI or RNAPIII activity, which complicates the conclusion about RNAPII-specific effects. The chromatin fractionation and immunofluorescence data show changes in RNAPII levels, but the link to transcription elongation defects is not directly demonstrated. The PLA assay for transcription-replication conflicts is described, but the specificity and quantification of this assay are not fully detailed.
+  - **Why it matters** The model proposes that CGGBP1 prevents secondary structures that block transcription and replication. The current evidence is largely correlative and does not directly demonstrate that the observed defects are due to secondary structure formation at CGGBP1-bound sites.
+  - **Resolution test** Use a more direct assay for transcription elongation, such as PRO-seq or native elongating transcript sequencing. Show that the replication defects are dependent on transcription and on the presence of the CGG repeats. Provide evidence that the observed effects are due to R-loops or G-quadruplexes, for example by overexpressing RNase H1 or using G4-stabilizing ligands.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Direct evidence for mechanism
+  - **Claim pointer** The authors claim that CGGBP1 counteracts or prevents the formation of RNA:DNA hybrids at a CGG-repeat containing episomal transcription unit.
+  - **Evidence pointer** Results section "R-loops are enriched at a CGG-repeat containing episomal transcription unit after CGGBP1 depletion", Figure 6
+  - **Concern** The episomal system is described as having 10 CGG repeats inserted downstream of a doxycycline-inducible promoter. The DRIP assay shows increased R-loop formation upon CGGBP1 depletion, but the text does not describe key controls, such as whether the effect is dependent on transcription, whether the R-loops are specifically at the CGG repeat, or whether the effect is rescued by CGGBP1 re-expression. The copy number analysis is mentioned but the stability of the episome under the different conditions is not fully addressed.
+  - **Why it matters** This is the most direct evidence for the proposed mechanism, but as described it is incomplete. Without these controls, it is difficult to conclude that CGGBP1 specifically prevents R-loop formation at CGG repeats.
+  - **Resolution test** Include transcription run-on or inhibition experiments to show the R-loops are transcription-dependent. Map the R-loops to the CGG repeat region. Perform rescue experiments with CGGBP1 overexpression or with a DNA-binding mutant.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of drug treatment
+  - **Claim pointer** The authors claim that pyridostatin (PDS) treatment causes DNA damage in a CGGBP1-dependent manner, and that this is due to G-quadruplex stabilization.
+  - **Evidence pointer** Results section "Pyridostatin-induced DNA damage in S-phase cells is dependent on cellular CGGBP1 levels", Figure 5
+  - **Concern** The text states that PDS treatment increases EU incorporation and γH2AX foci in control cells, but that CGGBP1 depletion rescues these effects. The interpretation is that CGGBP1 binding to PDS-stabilized G4s creates a stronger block. However, PDS is a general G4-stabilizing drug and its effects may not be specific to CGGBP1-bound sites. The text does not describe experiments to show that the PDS effect is dependent on the presence of CGG repeats or on CGGBP1 binding.
+  - **Why it matters** The PDS experiments are used to support the model that CGGBP1 binds to G4 structures and that this binding can be detrimental when G4s are stabilized. Without specificity controls, the interpretation is speculative.
+  - **Resolution test** Use a more specific approach, such as a G4-stabilizing ligand that can be targeted to specific loci, or mutate the CGGBP1 binding sites to show the effect is dependent on CGGBP1 binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Location not provided
+  - **Issue** The sentence "Disease-length repetitive CGG-tracts are prone to form R loops (Groh et al., 2014; Loomis et al., 2014), These RNA:DNA hybrids form when nascent transcripts reanneal to their template DNA" contains a grammatical error. The comma after the citation should be a period or semicolon.
+  - **Required correction** Correct the punctuation to separate the two sentences.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Global profiling of CGGBP1 binding sites in the human genome"
+  - **Evidence pointer** Location not provided
+  - **Issue** The text states that "not all identified CGGBP1 ChIP-Seq peaks were directly associated with the presence of short CGG repeats" but does not provide a quantitative estimate of what fraction of peaks contain CGG repeats. This information would help the reader understand the specificity of CGGBP1 binding.
+  - **Required correction** Provide a percentage or other quantitative measure of CGG repeat enrichment at CGGBP1 peaks.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Methods section "Quantification and statistical analyses"
+  - **Evidence pointer** Location not provided
+  - **Issue** The text states that "Statistical significance is determined by the value of p < 0.05 by One-Way ANOVA test, where appropriate." It is not clear whether multiple testing corrections were applied, and the number of replicates for many experiments is stated as N=1 in the supplementary figure legends.
+  - **Required correction** Clarify the statistical approach, including whether multiple testing corrections were used, and discuss the limitations of experiments with N=1.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section "DNA:RNA immunoprecipitation"
+  - **Evidence pointer** Location not provided
+  - **Issue** The DRIP protocol is described briefly. It is not clear whether the S9.6 antibody was validated for specificity, for example by RNase H treatment of all samples or by using a negative control antibody.
+  - **Required correction** Provide details on the specificity controls used for the DRIP assay.
+- **Technical failings that need to be addressed before the case is established** The lack of validation of the ChIP-seq data in the experimental cell line, the absence of direct evidence for G-quadruplex formation in cells, the incomplete controls in the episomal system, and the reliance on N=1 experiments for several key conclusions are the main technical issues.
+- **Assessment against Nature-style criteria** Originality: The question of how short CGG repeats are normally handled is somewhat novel, but the general concept that R-loops and G4s cause transcription-replication conflicts is well established. Scientific importance: The work has potential relevance for repeat expansion diseases and genome stability, but the significance is not yet fully demonstrated. Interdisciplinary readership: The topic is of interest to molecular biologists, geneticists, and cancer biologists. Technical soundness: The experimental approaches are appropriate but the execution and reporting are incomplete. Readability for nonspecialists: The manuscript is generally well written and accessible, but some sections are dense and would benefit from clearer explanations.
+- **Recommendation posture** Supportive if technical concerns are resolved. The model is interesting and plausible, but the evidence as presented is not sufficient to fully establish the claims. The authors need to provide additional validation and controls to strengthen the case.
+
+## Risk / unsupported claims
+- The claim that CGGBP1 binding sites are prone to G4 and R-loop formation is inferred from sequence features and a published dataset, not directly demonstrated.
+- The claim that CGGBP1 prevents R-loop formation at CGG repeats is based on a single episomal system without full controls.
+- The claim that PDS-induced DNA damage is due to CGGBP1 binding to G4s is speculative without specificity controls.
+- The global transcriptional changes upon CGGBP1 knockdown or overexpression are not clearly linked to RNAPII-specific effects, as the authors themselves note the potential contribution of RNAPI and RNAPIII.
+- The relevance of the findings to endogenous short CGG repeats in the genome is not directly tested.

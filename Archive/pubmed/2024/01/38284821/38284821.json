@@ -1,0 +1,410 @@
+{
+  "identity": {
+    "pmid": "38284821",
+    "doi": "10.1158/1541-7786.MCR-23-0639",
+    "title": "Semi-Supervised, Attention-Based Deep Learning for Predicting TMPRSS2:ERG Fusion Status in Prostate Cancer Using Whole Slide Images."
+  },
+  "content": {
+    "abstract": "Our study illuminates the potential of deep learning in effectively inferring key prostate cancer genetic alterations from the tissue morphology depicted in routinely available histology slides, offering a cost-effective method that could revolutionize diagnostic strategies in oncology.",
+    "keywords": [],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "*Deep Learning",
+      "Oncogene Proteins, Fusion/genetics",
+      "*Prostatic Neoplasms/pathology",
+      "Prostatectomy",
+      "Transcriptional Regulator ERG",
+      "Serine Endopeptidases/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Omar, Mohamed",
+        "Xu, Zhuoran",
+        "Rand, Sophie B",
+        "Alexanderani, Mohammad K",
+        "Salles, Daniela C",
+        "Valencia, Itzel",
+        "Schaeffer, Edward M",
+        "Robinson, Brian D",
+        "Lotan, Tamara L",
+        "Loda, Massimo",
+        "Marchionni, Luigi"
+      ],
+      "short_names": [
+        "Omar M",
+        "Xu Z",
+        "Rand SB",
+        "Alexanderani MK",
+        "Salles DC",
+        "Valencia I",
+        "Schaeffer EM",
+        "Robinson BD",
+        "Lotan TL",
+        "Loda M",
+        "Marchionni L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8068-1920",
+        "ORCID: 0000-0001-6733-541X",
+        "ORCID: 0000-0003-0941-208X",
+        "ORCID: 0009-0006-1018-3033",
+        "ORCID: 0000-0003-1904-185X",
+        "ORCID: 0000-0002-7450-9307",
+        "ORCID: 0000-0003-0699-1899",
+        "ORCID: 0000-0001-5374-890X",
+        "ORCID: 0000-0002-0494-9067",
+        "ORCID: 0000-0001-9674-8379",
+        "ORCID: 0000-0002-7336-8071"
+      ],
+      "affiliations": [
+        "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, New York.",
+        "Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, New York.",
+        "Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, New York.",
+        "Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, New York.",
+        "Department of Pathology, Johns Hopkins University, Baltimore, Maryland.",
+        "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, New York.",
+        "Feinberg School of Medicine, Northwestern University, Chicago, Illinois.",
+        "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, New York.",
+        "Department of Pathology, Johns Hopkins University, Baltimore, Maryland.",
+        "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, New York.",
+        "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, New York."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Omar, Mohamed",
+        "short_name": "Omar M",
+        "identifiers": [
+          "0000-0002-8068-1920"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, New York.",
+          "Dana-Farber Cancer Institute, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Xu, Zhuoran",
+        "short_name": "Xu Z",
+        "identifiers": [
+          "0000-0001-6733-541X"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, New York.",
+          "Dana-Farber Cancer Institute, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Rand, Sophie B",
+        "short_name": "Rand SB",
+        "identifiers": [
+          "0000-0003-0941-208X"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, New York.",
+          "Dana-Farber Cancer Institute, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Alexanderani, Mohammad K",
+        "short_name": "Alexanderani MK",
+        "identifiers": [
+          "0009-0006-1018-3033"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, New York."
+        ]
+      },
+      {
+        "full_name": "Salles, Daniela C",
+        "short_name": "Salles DC",
+        "identifiers": [
+          "0000-0003-1904-185X"
+        ],
+        "affiliations": [
+          "Department of Pathology, Johns Hopkins University, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Valencia, Itzel",
+        "short_name": "Valencia I",
+        "identifiers": [
+          "0000-0002-7450-9307"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, New York."
+        ]
+      },
+      {
+        "full_name": "Schaeffer, Edward M",
+        "short_name": "Schaeffer EM",
+        "identifiers": [
+          "0000-0003-0699-1899"
+        ],
+        "affiliations": [
+          "Feinberg School of Medicine, Northwestern University, Chicago, Illinois."
+        ]
+      },
+      {
+        "full_name": "Robinson, Brian D",
+        "short_name": "Robinson BD",
+        "identifiers": [
+          "0000-0001-5374-890X"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, New York."
+        ]
+      },
+      {
+        "full_name": "Lotan, Tamara L",
+        "short_name": "Lotan TL",
+        "identifiers": [
+          "0000-0002-0494-9067"
+        ],
+        "affiliations": [
+          "Department of Pathology, Johns Hopkins University, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Loda, Massimo",
+        "short_name": "Loda M",
+        "identifiers": [
+          "0000-0001-9674-8379"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, New York."
+        ]
+      },
+      {
+        "full_name": "Marchionni, Luigi",
+        "short_name": "Marchionni L",
+        "identifiers": [
+          "0000-0002-7336-8071"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, New York."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cancer research : MCR"
+    ],
+    "journal_abbrev": [
+      "Mol Cancer Res"
+    ],
+    "pub_date": "2024 Apr 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/29 12:44",
+    "fetched_at": "2026-09-29 14:28:10"
+  },
+  "links": {
+    "cites": [
+      "42113020",
+      "40760471"
+    ],
+    "refs": [
+      "36138135",
+      "34730818",
+      "34686474",
+      "34611303",
+      "34579788",
+      "34207594",
+      "33649564",
+      "33633799",
+      "33538338",
+      "33311458",
+      "33204028",
+      "33126125",
+      "32690604",
+      "32555646",
+      "32140566",
+      "32098314",
+      "31926806",
+      "31926805",
+      "31636101",
+      "31561183",
+      "31484154",
+      "31308507",
+      "31160815",
+      "31092853",
+      "31068988",
+      "30984469",
+      "30224757",
+      "30182055",
+      "29467373",
+      "28570557",
+      "28418027",
+      "27342907",
+      "26544944",
+      "25915839",
+      "25728532",
+      "24505269",
+      "21677539",
+      "20964841",
+      "17527075",
+      "16254181",
+      "1180967"
+    ],
+    "similar": [
+      "38284821",
+      "19584163",
+      "29127096",
+      "31210145",
+      "35513774",
+      "20145164",
+      "17108102",
+      "27320318",
+      "29205202",
+      "21394739",
+      "19029822",
+      "27377958",
+      "25780911",
+      "17059688",
+      "23352841",
+      "28849022",
+      "19734849",
+      "27798103",
+      "23701505",
+      "20693979",
+      "17637754",
+      "17632455",
+      "24815454",
+      "20878952",
+      "29773553",
+      "24378408",
+      "16575875",
+      "16820092",
+      "32677026",
+      "20118910",
+      "18065961",
+      "23918819",
+      "18676740",
+      "21584900",
+      "24931216",
+      "22821757",
+      "17385188",
+      "20693982",
+      "26670747",
+      "22452941",
+      "17991527",
+      "18483239",
+      "28050800",
+      "33301988",
+      "30718921",
+      "24266818",
+      "27285981",
+      "27926866",
+      "20303538",
+      "31090091",
+      "30078722",
+      "21743434",
+      "21707704",
+      "35452553",
+      "27910803",
+      "19190343",
+      "36622760",
+      "34341114",
+      "32639612",
+      "25239421",
+      "32229180",
+      "23201468",
+      "22736790",
+      "25252136",
+      "23664537",
+      "28445989",
+      "32573479",
+      "23086769",
+      "18694509",
+      "29844131",
+      "21377967",
+      "21040948",
+      "25263440",
+      "21677539",
+      "37298233",
+      "32429651",
+      "18781147",
+      "36125519",
+      "21813756",
+      "22505341",
+      "30042415",
+      "38331878",
+      "19933109",
+      "23447416",
+      "24195515",
+      "28783165",
+      "18642766",
+      "26424596",
+      "21802835",
+      "36443337",
+      "16254181",
+      "27630329",
+      "27753122",
+      "18283340",
+      "30301696",
+      "22821767",
+      "30545222",
+      "17032499"
+    ],
+    "review": [
+      "38284821",
+      "31210145",
+      "33301988",
+      "24266818",
+      "27910803",
+      "22736790",
+      "21377967"
+    ],
+    "pmc": [
+      "10985477"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38284821/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38284821",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://aacrjournals.org/mcr/article-lookup/doi/10.1158/1541-7786.MCR-23-0639",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

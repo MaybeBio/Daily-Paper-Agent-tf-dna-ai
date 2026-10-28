@@ -1,0 +1,237 @@
+{
+  "identity": {
+    "pmid": "38149460",
+    "doi": "10.1093/molbev/msad284",
+    "title": "Ascertainment Bias in the Genomic Test of Positive Selection on Regulatory Sequences."
+  },
+  "content": {
+    "abstract": "Evolution of gene expression mediated by cis-regulatory changes is thought to be an important contributor to organismal adaptation, but identifying adaptive cis-regulatory changes is challenging due to the difficulty in knowing the expectation under no positive selection. A new approach for detecting positive selection on transcription factor binding sites (TFBSs) was recently developed, thanks to the application of machine learning in predicting transcription factor (TF) binding affinities of DNA sequences. Given a TFBS sequence from a focal species and the corresponding inferred ancestral sequence that differs from the former at n sites, one can predict the TF-binding affinities of many n-step mutational neighbors of the ancestral sequence and obtain a null distribution of the derived binding affinity, which allows testing whether the binding affinity of the real derived sequence deviates significantly from the null distribution. Applying this test genomically to all experimentally identified binding sites of 3 TFs in humans, a recent study reported positive selection for elevated binding affinities of TFBSs. Here, we show that this genomic test suffers from an ascertainment bias because, even in the absence of positive selection for strengthened binding, the binding affinities of known human TFBSs are more likely to have increased than decreased in evolution. We demonstrate by computer simulation that this bias inflates the false positive rate of the selection test. We propose several methods to mitigate the ascertainment bias and show that almost all previously reported positive selection signals disappear when these methods are applied.",
+    "keywords": [
+      "ChIP-seq",
+      "adaptation",
+      "human",
+      "regulatory evolution",
+      "transcription factor binding sites"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Transcription Factors/metabolism",
+      "Computer Simulation",
+      "Binding Sites/genetics",
+      "Protein Binding",
+      "*Genomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Daohan",
+        "Zhang, Jianzhi"
+      ],
+      "short_names": [
+        "Jiang D",
+        "Zhang J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6141-1290"
+      ],
+      "affiliations": [
+        "Department of Ecology and Evolutionary Biology, University of Michigan, Ann Arbor, MI 48109, USA.",
+        "Present address: Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, USA.",
+        "Department of Ecology and Evolutionary Biology, University of Michigan, Ann Arbor, MI 48109, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Daohan",
+        "short_name": "Jiang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ecology and Evolutionary Biology, University of Michigan, Ann Arbor, MI 48109, USA.",
+          "Present address: Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, CA 90089, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jianzhi",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0001-6141-1290"
+        ],
+        "affiliations": [
+          "Department of Ecology and Evolutionary Biology, University of Michigan, Ann Arbor, MI 48109, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular biology and evolution"
+    ],
+    "journal_abbrev": [
+      "Mol Biol Evol"
+    ],
+    "pub_date": "2024 Jan 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/27 06:41",
+    "fetched_at": "2026-10-04 23:31:46"
+  },
+  "links": {
+    "cites": [
+      "41867741"
+    ],
+    "refs": [],
+    "similar": [
+      "38149460",
+      "37662307",
+      "18704158",
+      "40740140",
+      "32043966",
+      "17914226",
+      "20158869",
+      "28251865",
+      "18485226",
+      "19956545",
+      "41247408",
+      "27567672",
+      "16595861",
+      "17377845",
+      "24039567",
+      "24472686",
+      "22784574",
+      "27871221",
+      "33246961",
+      "32155318",
+      "24927817",
+      "16670430",
+      "36043696",
+      "34486522",
+      "34174819",
+      "20838582",
+      "23272209",
+      "16362910",
+      "22672438",
+      "41518500",
+      "35713985",
+      "33975951",
+      "36057196",
+      "21572512",
+      "28485207",
+      "38701417",
+      "22534400",
+      "27503086",
+      "37805453",
+      "23527292",
+      "32126279",
+      "17956628",
+      "28623591",
+      "27106869",
+      "33919522",
+      "25775564",
+      "22075113",
+      "19293946",
+      "12946282",
+      "21059262",
+      "21693437",
+      "24097306",
+      "20363979",
+      "41536793",
+      "23504016",
+      "36774380",
+      "18627598",
+      "35681170",
+      "20172488",
+      "21690103",
+      "21068212",
+      "28750606",
+      "24603674",
+      "18369429",
+      "24564277",
+      "12385991",
+      "27357948",
+      "40646689",
+      "30447332",
+      "22504445",
+      "25245407",
+      "16873495",
+      "27209209",
+      "26285121",
+      "36155619",
+      "17530920",
+      "34394179",
+      "30709337",
+      "37682473",
+      "31093693",
+      "41225704",
+      "26545200",
+      "36264496",
+      "30517703",
+      "23281809",
+      "40102719",
+      "27899623",
+      "25918418",
+      "20079828",
+      "19132088",
+      "23822978",
+      "26599758",
+      "40914877",
+      "23522376",
+      "26160164",
+      "28957653",
+      "27356864",
+      "16817975",
+      "23749186",
+      "25442502"
+    ],
+    "review": [
+      "38149460",
+      "36057196",
+      "33919522",
+      "30447332"
+    ],
+    "pmc": [
+      "10766478"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38149460/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38149460",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msad284",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

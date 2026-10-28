@@ -1,0 +1,322 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.10.20.512998",
+  "title": "The PENGUIN approach to reconstruct protein interactions at enhancer-promoter regions and its application to prostate cancer",
+  "doi": "10.1101/2022.10.20.512998",
+  "abstract": "Here we introduce Promoter-ENhancer-GUided Interaction Networks (PENGUIN), a method to uncover protein-protein interaction (PPI) networks at enhancer-promoter contacts. By integrating H3K27ac-HiChIP data and tissue-specific PPI information, PENGUIN enables cluster enhancers-promoter PPI networks (EPINs) and pinpoint actionable factors. Validating PENGUIN in cancer (LNCaP) and benign (LHSAR) prostate cell lines, we observed distinct CTCF-enriched clusters, which identifies diverse chromatin conformations. In LNCaP, we found an EPIN cluster enriched with oncogenes and prostate cancer-associated SNPs. We uncovered a total of 208 SNPs in LNCaP EPINs and used CRISPR/Cas9 knockout and RNAi screens to confirm their relevance. PENGUIN’s application in prostate cancer demonstrates its potential for studying human diseases. The approach allows exploration in different cell types and combinations of GWAS data, offering promising avenues for future investigations. In conclusion, PENGUIN provides valuable insights into the interplay between enhancer-promoter interactions and PPI networks, facilitating the identification of relevant genes and potential intervention targets.",
+  "authors": [
+    "Armaos A",
+    "Serra F",
+    "Núñez-Carpintero I",
+    "Seo J",
+    "Baca SC",
+    "Gustincich S",
+    "Valencia A",
+    "Freedman ML",
+    "Cirillo D",
+    "Giambartolomei C",
+    "Tartaglia GG"
+  ],
+  "published_date": "2022-10-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.10.20.512998",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.10.20.512998.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR562417",
+    "raw_record": {
+      "id": "PPR562417",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR562417"
+        ]
+      },
+      "doi": "10.1101/2022.10.20.512998",
+      "title": "The PENGUIN approach to reconstruct protein interactions at enhancer-promoter regions and its application to prostate cancer",
+      "authorString": "Armaos A, Serra F, Núñez-Carpintero I, Seo J, Baca SC, Gustincich S, Valencia A, Freedman ML, Cirillo D, Giambartolomei C, Tartaglia GG.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Armaos A",
+            "lastName": "Armaos",
+            "firstName": "Alexandros",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Istituto Italiano di Tecnologia, Via Enrico Melen 83, Building B, 7th floor, 16152 Genova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Serra F",
+            "lastName": "Serra",
+            "firstName": "François",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Barcelona Supercomputing Center, Plaça Eusebi Güell, 1-3, 08034 Barcelona, Spain"
+                },
+                {
+                  "affiliation": "Present: Josep Carreras Leukaemia Research Institute, Badalona, Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Núñez-Carpintero I",
+            "lastName": "Núñez-Carpintero",
+            "firstName": "Iker",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Barcelona Supercomputing Center, Plaça Eusebi Güell, 1-3, 08034 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Seo J",
+            "lastName": "Seo",
+            "firstName": "Ji-Heui",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medical Oncology, The Center for Functional Cancer Epigenetics, Dana Farber Cancer Institute, Boston, MA 02215, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baca SC",
+            "lastName": "Baca",
+            "firstName": "Sylvan",
+            "initials": "SC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medical Oncology, The Center for Functional Cancer Epigenetics, Dana Farber Cancer Institute, Boston, MA 02215, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gustincich S",
+            "lastName": "Gustincich",
+            "firstName": "Stefano",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Istituto Italiano di Tecnologia, Via Enrico Melen 83, Building B, 7th floor, 16152 Genova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Valencia A",
+            "lastName": "Valencia",
+            "firstName": "Alfonso",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Barcelona Supercomputing Center, Plaça Eusebi Güell, 1-3, 08034 Barcelona, Spain"
+                },
+                {
+                  "affiliation": "ICREA - Institució Catalana de Recerca I Estudis Avançats, Pg. Lluís Companys 23, 08010 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Freedman ML",
+            "lastName": "Freedman",
+            "firstName": "Matthew",
+            "initials": "ML",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medical Oncology, The Center for Functional Cancer Epigenetics, Dana Farber Cancer Institute, Boston, MA 02215, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cirillo D",
+            "lastName": "Cirillo",
+            "firstName": "Davide",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Barcelona Supercomputing Center, Plaça Eusebi Güell, 1-3, 08034 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Giambartolomei C",
+            "lastName": "Giambartolomei",
+            "firstName": "Claudia",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Istituto Italiano di Tecnologia, Via Enrico Melen 83, Building B, 7th floor, 16152 Genova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tartaglia GG",
+            "lastName": "Tartaglia",
+            "firstName": "Gian Gaetano",
+            "initials": "GG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Istituto Italiano di Tecnologia, Via Enrico Melen 83, Building B, 7th floor, 16152 Genova, Italy"
+                },
+                {
+                  "affiliation": "ICREA - Institució Catalana de Recerca I Estudis Avançats, Pg. Lluís Companys 23, 08010 Barcelona, Spain"
+                },
+                {
+                  "affiliation": "Sapienza University Rome, Biology and Biotechnologies Department C. Darwin, P.le Aldo Moro 5, 00185"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2637-5236"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Here we introduce Promoter-ENhancer-GUided Interaction Networks (PENGUIN), a method to uncover protein-protein interaction (PPI) networks at enhancer-promoter contacts. By integrating H3K27ac-HiChIP data and tissue-specific PPI information, PENGUIN enables cluster enhancers-promoter PPI networks (EPINs) and pinpoint actionable factors. Validating PENGUIN in cancer (LNCaP) and benign (LHSAR) prostate cell lines, we observed distinct CTCF-enriched clusters, which identifies diverse chromatin conformations. In LNCaP, we found an EPIN cluster enriched with oncogenes and prostate cancer-associated SNPs. We uncovered a total of 208 SNPs in LNCaP EPINs and used CRISPR/Cas9 knockout and RNAi screens to confirm their relevance. PENGUIN’s application in prostate cancer demonstrates its potential for studying human diseases. The approach allows exploration in different cell types and combinations of GWAS data, offering promising avenues for future investigations. In conclusion, PENGUIN provides valuable insights into the interplay between enhancer-promoter interactions and PPI networks, facilitating the identification of relevant genes and potential intervention targets.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "309545",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "855923",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "727658",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/22/2022.10.20.512998.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.10.20.512998"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR562417"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR562417&type=FILE&fileName=EMS156214-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38057321",
+            "reference": "Nature communications. 2023 Dec;14(1):8084",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS156214",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "refsnp"
+        ]
+      },
+      "dateOfCreation": "2022-10-27",
+      "firstPublicationDate": "2022-10-21",
+      "firstIndexDate": "2022-10-27",
+      "fullTextReceivedDate": "2023-07-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

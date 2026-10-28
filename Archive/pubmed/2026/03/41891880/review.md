@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and methods, Results, Discussion, selected supplementary figure legends referenced in text)
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to presented evidence, and suitability for a high-impact generalist audience
+- **Shared manuscript claim summary** The authors present CNN-ChIPr, a convolutional neural network model that predicts the relative strength of cohesin- and RNA Polymerase II-associated chromatin interactions from ChIP-seq, ATAC-seq, DNA sequence, genomic distance, CTCF motif orientation, and TAD membership features. The model is trained on GMCF12878 or K562 ChIA-PET data and tested on other cell lines. The authors report high correlation between predicted and experimental interaction strengths, accurate reconstruction of contact maps, and successful identification of enhancer-target gene connections in breast and prostate cancer cell lines.
+- **Visible evidence base** Main text figures 1-7 (referenced), supplementary figures S1-S22 (referenced), supplementary tables S1-S3 (referenced), methods descriptions for data processing, model architecture, training, and evaluation
+- **Missing materials affecting confidence** Actual figure images and numerical values are not provided. Supplementary figures and tables are referenced but not included. Exact performance metrics (correlation coefficients, AUPRC, AUROC values) are stated qualitatively but not numerically in the text. Details of the CNN architecture (number of layers, kernel sizes, pooling, regularization strength) are described only partially. No information on hyperparameter search results beyond a reference to Supplementary Table S2. No details on the exact number of training, validation, and test samples per cell line. No information on how peaks were called for each ChIP-seq dataset or how peak sets were matched across cell lines. No details on the ChIA-PET loop calling thresholds or quality filters beyond MAPQ > 30.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a practically useful tool for predicting chromatin interaction strength from readily available ChIP-seq data. The core idea of formatting 1D ChIP-seq signals into 2D grids for CNN processing is reasonable and the authors demonstrate consistent performance across multiple cell lines and interaction types. However, the manuscript as presented has several gaps that prevent full assessment of the method's validity and generalizability. The most significant concerns are the lack of quantitative performance metrics in the main text, the absence of a clear baseline comparison against simpler models, and insufficient detail on how the model generalizes to cell types with substantially different chromatin landscapes. The cancer biology applications are interesting but presented at a level that does not fully demonstrate the claimed utility.
+- **Who would be interested in the results, and why** Computational biologists and genomics researchers working on 3D genome organization, enhancer-promoter interactions, and gene regulation would be the primary audience. The tool could be useful for researchers who need to predict chromatin interactions in samples where Hi-C or ChIA-PET experiments are impractical, such as clinical specimens. The cancer biology community studying hormone-driven transcription programs may also find the application to AR and ER enhancer targeting of interest.
+- **Major strengths** The manuscript addresses a real need for computational alternatives to expensive 3D genomics experiments. The use of 2D ChIP-seq grids is a creative adaptation of CNN methods. The authors demonstrate robustness by training on one cell line and testing on multiple others. The application to cancer-relevant enhancer-target gene identification is a compelling use case. The model architecture is described in sufficient detail for reproduction, and code availability is stated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CNN-ChIPr "performs well in predicting cohesin- and RNA Pol II-associated chromatin interactions at the peak-level resolution" and that predictions "correlate significantly higher with experimental interactions" than baseline models.
+  - **Evidence pointer** Results section, Figures 2-5, Supplementary Figures S1-S3, S6-S10
+  - **Concern** The manuscript does not provide any numerical performance metrics in the main text. Correlation coefficients, AUPRC, and AUROC values are described only qualitatively as "high" or "significantly better." Without actual numbers, the reader cannot assess whether the performance is practically useful or merely statistically significant. The comparison to GLR and GLR_dist models is mentioned but the actual differences are not quantified. The claim of "significantly higher" performance requires effect sizes and confidence intervals.
+  - **Why it matters** The central claim of the paper is that CNN-ChIPr provides accurate predictions. Without quantitative evidence, this claim cannot be evaluated. The comparison to baselines is essential to establish that the CNN architecture adds value over simpler models.
+  - **Resolution test** Provide a table of Pearson correlation coefficients, AUPRC, and AUROC values for all models and cell lines tested, with confidence intervals or standard errors. Include the actual values for baseline comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CNN-ChIPr can be used to identify enhancer-target gene connections in cancer cell lines, and that strongly associated genes identified by predictions show similar properties to those identified by experimental data.
+  - **Evidence pointer** Results section, Figures 6-7, Supplementary Figures S18-S19
+  - **Concern** The cancer cell line application is presented as a demonstration of utility, but the analysis is described at a high level. The authors state that strongly associated genes have higher expression and that pathway enrichment yields expected results, but do not provide the actual enrichment statistics, gene counts, or overlap significance values. The comparison between predicted and experimental strongly associated genes is described but the degree of overlap is not quantified. The claim that CNN-ChIPr can substitute for experimental 3D genome data in these contexts requires a more rigorous demonstration.
+  - **Why it matters** The translational utility of the method depends on its ability to recapitulate experimental findings. Without quantitative assessment of the agreement between predicted and experimental gene-target assignments, the claim of utility is not established.
+  - **Resolution test** Provide the Jaccard index or similar overlap measure between predicted and experimental strongly associated gene sets. Include enrichment p-values and effect sizes for expression comparisons. Show the actual pathway enrichment results with adjusted p-values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the model is robust to changes in training data, demonstrated by training on K562 and testing on other cell lines.
+  - **Evidence pointer** Results section, Figure 4, Supplementary Figures S6-S8
+  - **Concern** The robustness analysis is described but the results are not shown in the main text. The authors state that CNN-ChIPr "performed well" when trained on K562, but the actual performance metrics are not provided. The comparison between models trained on GM12878 versus K562 is mentioned in the discussion but not quantified. The claim that GM12878 is better training data is based on karyotype considerations but the performance difference is not shown.
+  - **Why it matters** The generalizability of the model is a key selling point. If the model performs well regardless of training cell line, this strengthens the claim of broad utility. If performance varies substantially, the user needs guidance on which training data to use.
+  - **Resolution test** Provide a comparison of performance metrics for models trained on GM12878 versus K562, tested on the same cell lines. Include the actual values and statistical tests for differences.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that CNN-ChIPr "complements experimental 3D genome mapping technologies and provides a powerful alternative in contexts where such assays are impractical or infeasible."
+  - **Evidence pointer** Discussion section
+  - **Concern** The claim of utility in clinical specimens and time-course studies is plausible but not demonstrated. The authors do not show any analysis of how the model performs on lower-quality or sparser ChIP-seq data that might be obtained from clinical samples. The resolution of the predictions (peak-level) may not be sufficient for all applications. The manuscript does not discuss the limitations of the approach in terms of resolution, sensitivity to input data quality, or the types of interactions that may be missed.
+  - **Why it matters** The stated utility of the method depends on its applicability to real-world scenarios. Without demonstration on challenging data or discussion of limitations, the claim of broad utility is overstated.
+  - **Resolution test** Add a discussion of limitations, including the types of interactions the model may fail to predict and the minimum data quality requirements. If possible, include an analysis on downsampled or lower-quality ChIP-seq data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 2
+  - **Issue** The introduction provides a good overview of existing methods but the description of the "pearl necklace" model of PAX2 silencing is tangential to the current manuscript and may confuse readers who are not familiar with the prior work.
+  - **Required correction** Consider moving the PAX2 example to the discussion or removing it from the introduction to keep the focus on the current method.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Data used
+  - **Evidence pointer** Methods section, "Data used"
+  - **Issue** The description of the ChIP-seq data processing is incomplete. The authors state that they used "several ChIP-seq datasets" but do not specify the exact datasets, the peak calling method, or the normalization approach in sufficient detail.
+  - **Required correction** Provide a complete list of datasets used with accession numbers, peak calling parameters, and a more detailed description of the normalization procedure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, CNN-ChIPr structure
+  - **Evidence pointer** Methods section, "CNN-ChIPr structure"
+  - **Issue** The description of the model architecture is incomplete. The authors mention convolutional layers, flattening layers, and fully connected layers, but do not specify the number of layers, the number of filters, the kernel sizes, the activation functions for each layer, or the regularization approach.
+  - **Required correction** Provide a complete description of the model architecture, including all hyperparameters, in the methods section or in a supplementary table.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Control interactions
+  - **Evidence pointer** Methods section, "Control interactions for ChIA-PET samples"
+  - **Issue** The description of the control interaction generation is brief. The "mirror image" approach is described but the rationale for this approach and its potential limitations are not discussed.
+  - **Required correction** Provide a more detailed description of the control generation procedure and discuss potential biases in the control set.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, Cancer cell line application
+  - **Evidence pointer** Results section, "Applying CNN-ChIPr on breast and prostate cancer cell lines"
+  - **Issue** The description of the cancer cell line analysis is dense and assumes familiarity with the specific cell lines and experimental systems. The relevance of the findings to the broader utility of the method could be made clearer.
+  - **Required correction** Provide a brief explanation of why MCF7 and LNCaP are relevant model systems and what the key findings demonstrate about the method's utility.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative performance metrics), R1-M2 (lack of quantitative assessment of cancer cell line application), R1-M3 (lack of quantitative robustness comparison)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The approach of using 2D grids of ChIP-seq data for CNN-based prediction of chromatin interactions is a reasonable adaptation of existing methods, but the underlying concept is not entirely novel. The authors build on their prior ChIPr work and apply established deep learning techniques. The originality is moderate.
+  - **Scientific importance** The problem of predicting chromatin interactions from readily available data is important and the potential applications in cancer biology are compelling. However, the importance of the specific contribution over existing methods is not fully established without quantitative comparisons.
+  - **Interdisciplinary readership** The manuscript is primarily of interest to computational biologists and genomics researchers. The cancer biology applications may attract a broader audience, but the presentation is not sufficiently accessible for a generalist readership.
+  - **Technical soundness** The methodological approach is sound in principle, but the lack of quantitative metrics and incomplete architectural details prevent full assessment. The evaluation against baselines is described but not quantified.
+  - **Readability for nonspecialists** The manuscript is generally well-written but assumes familiarity with ChIA-PET, ChIP-seq, and deep learning concepts. The introduction and discussion are accessible, but the methods and results sections are dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The method appears to be useful and the applications are compelling, but the manuscript requires substantial revision to provide quantitative evidence for the claims and to address the methodological gaps identified above.
+
+## Risk / unsupported claims
+- The claim that CNN-ChIPr "performs well" and "correlates significantly higher" than baselines is not supported by quantitative evidence in the provided text.
+- The claim that CNN-ChIPr can be used as an alternative to experimental 3D genome mapping in clinical specimens or time-course studies is not demonstrated.
+- The claim that strongly associated genes identified by predictions have significantly higher expression is not supported by statistical values.
+- The claim that pathway enrichment of predicted strongly associated genes yields the same results as experimental data is not supported by enrichment statistics.
+- The claim that the model is robust to changes in training data is not supported by quantitative comparison.
+- The claim that minimal model1 performs "very close" to the full model is not supported by numerical comparison.
+- The claim that the model can accurately identify functional disease-associated SNPs and their gene targets from GWAS studies is stated in the introduction but not demonstrated in the results.

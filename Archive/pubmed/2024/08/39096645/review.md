@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The authors report a computational pipeline that designs an RNA molecule, RNA1, predicted to bind the DNA binding domain of the MafA homodimer and potentially act as a transcriptional repressor modulator in multiple myeloma. The pipeline involves RNA library generation from a MafA-DNA structure, global docking, local docking, 500 ns molecular dynamics simulations, MM-PBSA binding free energy analysis, and principal component analysis. The authors claim this is the first computational study presenting an RNA candidate targeting MafA.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or simulation parameters are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation setup details, docking scores, MM-PBSA values, structural figures, validation data, and any control experiments beyond the positive control MafA-DNA complex
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially interesting computational approach to RNA-based targeting of MafA, a relevant protein in multiple myeloma. However, the evidence presented is insufficient to evaluate the technical soundness or biological relevance of the claims. Key quantitative results, validation steps, and methodological details are absent. The claim of novelty is plausible but not verifiable from the abstract alone. The work may be of interest to computational biologists and RNA drug design researchers, but the current evidence base does not establish the case.
+- **Who would be interested in the results, and why** Computational biologists and researchers in RNA-based therapeutics would be interested in the pipeline and the proposed RNA1 candidate. Researchers studying multiple myeloma and MafA biology might find the potential modulator relevant, though the lack of experimental validation limits immediate appeal.
+- **Major strengths** The study addresses a clear gap in the literature, namely the absence of RNA-based MafA modulators. The use of a structure-based approach with multiple computational stages, including MD simulations and MM-PBSA analysis, is methodologically reasonable. The identification of a specific candidate, RNA1, with a proposed binding preference for a single monomer, provides a concrete hypothesis for future work.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that RNA1 is a strong RNA based MafA binder based on MM-PBSA relative binding free energy analysis.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract reports that MM-PBSA analysis "pointed towards a strong RNA based MafA binder, RNA1," but no numerical values, comparison thresholds, or statistical measures are provided. Without quantitative data, such as binding free energy values for RNA1 versus the positive control or other candidates, the strength of this claim cannot be assessed.  
+  - **Why it matters** MM-PBSA is an approximate method, and its results are highly dependent on simulation parameters, force fields, and analysis protocols. A claim of "strong binding" requires explicit numbers and context to be meaningful.  
+  - **Resolution test** Provide MM-PBSA binding free energy values for RNA1 and all tested candidates, including the positive control, with error estimates and a clear statistical comparison.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that RNA1 prefers binding to a single monomer of the dimeric DNA binding domain of MafA using a higher number of hydrophobic interactions compared with the positive control MafA-DNA complex.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract states this preference is shown "through a detailed MD analysis," but no specific metrics, such as interaction counts, contact maps, or occupancy values, are given. The comparison to the positive control is qualitative and lacks supporting data.  
+  - **Why it matters** The claim of monomer-specific binding and hydrophobic interaction enrichment is central to the proposed mechanism of action. Without quantitative interaction analysis, the conclusion is unsupported.  
+  - **Resolution test** Present interaction analysis data, such as per-residue contact frequencies, hydrophobic contact counts, and a direct comparison to the MafA-DNA complex, with appropriate error analysis.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors claim this is the first computational study presenting an RNA molecule capable of potentially targeting MafA protein.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The novelty claim is stated without a literature search or comparative analysis. While it may be true, the abstract does not provide evidence that no prior RNA-based MafA modulator has been reported.  
+  - **Why it matters** Novelty is a key criterion for the significance of the work. An unsupported claim of being "first" undermines the credibility of the study.  
+  - **Resolution test** Include a brief literature review in the full manuscript that demonstrates the absence of prior RNA-based MafA modulators, with citations.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that principal component analysis led to identification of the actual interaction region of RNA1 and MafA monomer.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not describe how PCA was used to identify an interaction region, nor what the identified region is. PCA is typically used for conformational analysis, not direct interaction site identification, so the methodology is unclear.  
+  - **Why it matters** The interaction region is a key output of the study. Without a clear description of the PCA methodology and the resulting region, the claim is not reproducible or verifiable.  
+  - **Resolution test** Describe the PCA protocol in detail, including which atoms or residues were included, and present the identified interaction region with structural figures and residue lists.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract uses terms like "MD-ready complexes" and "global docking" without brief explanations, which may confuse readers unfamiliar with computational methods.  
+  - **Required correction** Add brief parenthetical explanations for technical terms, such as "molecular dynamics (MD)-ready complexes" and "global docking (a search for binding poses across the entire protein surface)."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Simulation length justification  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract states 500 ns MD simulations were used but does not justify this length or mention convergence checks.  
+  - **Required correction** In the full manuscript, include a justification for the simulation length and show convergence metrics, such as root-mean-square deviation stabilization over time.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Discussion of limitations  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract mentions limitations are discussed but does not summarize them, leaving the reader without a sense of the study's caveats.  
+  - **Required correction** Include a brief summary of key limitations in the abstract, such as the lack of experimental validation or the approximate nature of MM-PBSA.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The lack of quantitative data, unclear methodology for PCA, and unsupported novelty claim collectively prevent the case from being established.
+- **Assessment against Nature-style criteria**  
+  - Originality: The approach is potentially original, but the novelty claim is not substantiated in the abstract.  
+  - Scientific importance: The target, MafA, is relevant to multiple myeloma, but the significance of a purely computational RNA candidate without experimental validation is limited.  
+  - Interdisciplinary readership: The work may appeal to computational biologists and RNA therapeutics researchers, but the abstract is too technical for a broad audience.  
+  - Technical soundness: Not assessable from the abstract due to missing quantitative data and methodological details.  
+  - Readability for nonspecialists: The abstract is dense and uses jargon without explanation, reducing accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially interesting computational study, but the lack of quantitative results, methodological clarity, and validation means the claims cannot be evaluated. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that RNA1 is a "strong" binder is unsupported without numerical MM-PBSA data.
+- The claim of monomer-specific binding with higher hydrophobic interactions is unsupported without interaction analysis data.
+- The claim of being the "first computational study" is unverifiable from the abstract.
+- The identification of the "actual interaction region" via PCA is not described and thus not assessable.

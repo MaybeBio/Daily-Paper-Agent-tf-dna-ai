@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, methodological soundness, experimental design, and evidence quality as presented in the provided text
+- **Shared manuscript claim summary** The authors propose NyxBind, a two-stage framework that applies contrastive learning across transcription factor binding site (TFBS) categories to refine embeddings from pretrained genomic language models, achieving state-of-the-art TFBS prediction performance across 159 ChIP-seq datasets and improved motif visualization
+- **Visible evidence base** Textual descriptions of methods and results, including reported numerical improvements (4.71 percentage point MCC gain over DNABERT2), ablation study descriptions, and motif recovery counts
+- **Missing materials affecting confidence** All figures, tables, supplementary tables, statistical significance tests, hyperparameter details, and the full mathematical formulation of the SMNRL objective
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in regulatory genomics, namely the limited discriminative capacity of masked language model embeddings for TFBS classification. The proposed contrastive learning stage is a reasonable and timely idea. However, the evidence as presented is insufficient to fully evaluate the claims. Key quantitative results are referenced to tables and figures that are not available in the provided material, the statistical significance of improvements is not reported, and several methodological details are missing. The core claim of consistent superiority across all metrics and datasets cannot be verified from the text alone.
+- **Who would be interested in the results, and why** Researchers working on transcription factor binding prediction, genomic language model fine-tuning, and representation learning for regulatory genomics. The contrastive learning approach applied to TFBS-labeled sequences may also interest those developing parameter-efficient adaptation strategies for genomic foundation models.
+- **Major strengths** The problem is well motivated and the contrastive learning strategy is a sensible extension of existing pretraining paradigms. The evaluation across 159 datasets is broad. The inclusion of both full-parameter and LoRA-based fine-tuning is practical. The motif visualization analysis adds a biologically interpretable dimension.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "Across 159 TFBS prediction tasks, NyxBind achieves the best performance on all evaluation metrics and improves Matthews Correlation Coefficient by 4.71 percentage points over DNABERT2."
+  - **Evidence pointer** Table 3, Figure 3, Supplementary Table S4 (location not provided)
+  - **Concern** The central performance claim is presented as a summary statement, but the underlying data are in tables and figures that are not available in the provided material. No confidence intervals, standard deviations, or statistical significance tests are reported for the 4.71 percentage point MCC improvement. It is unclear whether this improvement is consistent across all 159 datasets or driven by a subset.
+  - **Why it matters** The primary contribution of the manuscript is the claimed performance gain. Without access to the full results and without statistical assessment, the reader cannot determine whether the improvement is robust or within the range of random variation.
+  - **Resolution test** Provide the full results table with per-dataset metrics, include statistical significance testing (e.g., paired tests across datasets), and report variance or confidence intervals for the aggregate improvements.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** "NyxBind employs an advanced contrastive learning strategy to construct positive and negative sequence pairs across different TFBSs" and "SMNRL consistently demonstrated the best overall discriminative performance"
+  - **Evidence pointer** Materials and methods, Contrastive learning section; Results, Training objective variants section (location not provided)
+  - **Concern** The SMNRL objective is mentioned but its mathematical formulation is not provided in the text. The description of how positive and negative pairs are constructed is incomplete. Specifically, it is unclear how sequences from the same TF across different cell types are paired, how negative pairs are sampled, and whether hard negatives are used. The ablation study comparing five loss functions is described only in text with reference to Table 1, which is not available.
+  - **Why it matters** The methodological novelty rests on the contrastive learning formulation. Without the precise objective and pair construction strategy, the work cannot be reproduced or compared with existing contrastive learning approaches.
+  - **Resolution test** Provide the full mathematical formulation of SMNRL, describe the pair construction procedure in detail, and include the ablation results table with all five loss functions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "NyxBind recovered the largest number of matching motifs, identifying 31 out of 33 TFBS patterns."
+  - **Evidence pointer** Results, NyxBind effectively identifies motifs from sequences section; Supplementary Tables S5 and S6 (location not provided)
+  - **Concern** The motif recovery result is presented as a single count without details on the threshold criteria, the statistical significance of the matches, or the comparison methodology. The text acknowledges that BertSNR produced "slightly more statistically significant alignments according to P-value distributions," which complicates the interpretation of the headline count. The comparison with DeepSNR and D-AEDNet is described but the full results are not visible.
+  - **Why it matters** The motif visualization claim is a secondary contribution. The current presentation does not allow the reader to assess whether the recovered motifs are biologically meaningful or whether the comparison is fair across methods.
+  - **Resolution test** Provide the full motif comparison table with per-TF results, significance thresholds, and a clear description of the evaluation protocol.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental design
+  - **Claim pointer** "NyxBind supports both full-parameter and parameter-efficient fine-tuning while maintaining strong performance."
+  - **Evidence pointer** Results, NyxBind performs well with both LoRA and full-parameter fine-tuning section; Table 4 (location not provided)
+  - **Concern** The comparison between full-parameter FT and LoRA is presented as a strength, but the text does not report the number of trainable parameters for the full-parameter setting, the total parameter count of the base model, or the computational cost of each approach. The claim that LoRA reduces GPU memory by nearly 50 percent is stated without measurement details.
+  - **Why it matters** Parameter-efficient fine-tuning claims are only meaningful when the resource trade-offs are quantified. The current description is insufficient for practitioners to decide between the two approaches.
+  - **Resolution test** Report the parameter counts, training time, and memory usage for both FT strategies, and clarify the hardware and measurement methodology.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Data description
+  - **Evidence pointer** Materials and methods, Data section (location not provided)
+  - **Issue** The text states that 690 ChIP-seq datasets were used for contrastive learning, resulting in 160 TFBS categories, but the relationship between the 690 datasets and the 160 categories is not fully explained. It is also unclear why 159 datasets were used for benchmarking when 160 categories exist.
+  - **Required correction** Clarify the mapping from datasets to TFBS categories and explain the discrepancy between 159 and 160.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Training details
+  - **Evidence pointer** Materials and methods, Contrastive learning section (location not provided)
+  - **Issue** The number of training epochs for contrastive learning is not stated. The text mentions three epochs for the contrastive stage but does not specify the number of epochs for fine-tuning.
+  - **Required correction** Report the number of epochs for all training stages.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Baseline descriptions
+  - **Evidence pointer** Materials and methods, Evaluation of NyxBind and alternative models for TFBS prediction section (location not provided)
+  - **Issue** The description of baseline models is brief. For DeepBind and DanQ, the text states that PyTorch implementations from DeepSTF were used, but the specific version or configuration is not described. For the NT series, the text lists several variants but does not specify which were used in the main comparison.
+  - **Required correction** Provide complete descriptions of all baseline models, including their configurations and any modifications made for fair comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Result reporting
+  - **Evidence pointer** Results, NyxBind improves TFBS prediction section (location not provided)
+  - **Issue** The text reports average improvements across 159 datasets but does not indicate the distribution of results, the number of datasets where NyxBind underperforms, or any measure of variability.
+  - **Required correction** Report the range, quartiles, or standard deviation of per-dataset improvements, and state the number of datasets where NyxBind does not achieve the best performance.
+- **Technical failings that need to be addressed before the case is established** The SMNRL objective is not defined mathematically. The pair construction strategy for contrastive learning is underspecified. Statistical significance of the main performance claims is not established. The motif recovery evaluation protocol is incomplete. Computational cost claims for LoRA are not substantiated with measurements.
+- **Assessment against Nature-style criteria** Originality: The application of contrastive learning to TFBS-labeled sequences for refining genomic language model embeddings is a reasonable incremental contribution, though similar ideas have been explored in prior work such as DNABERTS. Scientific importance: TFBS prediction is a relevant problem, and improvements in representation quality could have downstream utility, but the magnitude and robustness of the reported gains are not yet established. Interdisciplinary readership: The work sits within computational biology and machine learning, with limited immediate relevance beyond these communities. Technical soundness: The experimental design is broadly reasonable, but the missing mathematical formulation, incomplete statistical reporting, and absent computational cost analysis prevent a full assessment. Readability for nonspecialists: The text is generally clear, though the contrastive learning section assumes familiarity with the loss function landscape.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the evaluation scope is commendable, but the manuscript in its current form does not provide sufficient evidence to fully substantiate the claims. The missing mathematical formulation, statistical testing, and detailed results tables must be addressed before the case is established.
+
+## Risk / unsupported claims
+- The claim of "best performance on all evaluation metrics" across 159 datasets is not verifiable without the full results table and statistical testing.
+- The 4.71 percentage point MCC improvement over DNABERT2 is reported without confidence intervals or significance testing.
+- The claim that SMNRL "consistently demonstrated the best overall discriminative performance" is based on a table that is not available.
+- The motif recovery claim of 31 out of 33 is presented without the full comparison data or significance thresholds.
+- The statement that LoRA reduces GPU memory by nearly 50 percent is not supported by measurement details.
+- The claim that NyxBind embeddings are "biologically meaningful" is based on motif visualization results that are only partially described.

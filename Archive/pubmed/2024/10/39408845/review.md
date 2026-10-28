@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and conclusions.
+- **Assessment boundary** Scientific content, methodological soundness, data interpretation, and claims as presented in the provided text. No external data or supplementary materials were consulted.
+- **Shared manuscript claim summary** The authors reconstruct an expanded gene regulatory network (eGRN) for *Cordyceps militaris* by integrating interolog- and homolog-based protein–protein interaction predictions with transcriptomic data from light- versus dark-grown cultures. They identify five transcription factors and ten target genes as potentially light-responsive, and use molecular docking to propose two novel TFs as candidate interaction partners of the photoreceptor CmWC-1.
+- **Visible evidence base** Figures 1–9, Tables 1–4, and associated text as described in the manuscript. No raw data, supplementary files, or code were provided.
+- **Missing materials affecting confidence** Raw RNA-seq data, differential expression statistics, network construction parameters, docking output files, and validation experiments are not available. The manuscript does not provide accession numbers for the RNA-seq data used in the DEG analysis beyond the BioProject for the light condition.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a bioinformatics-driven approach to identify putative light-responsive transcription factors and their target genes in *Cordyceps militaris*. The integration of a reconstructed gene regulatory network with transcriptomic data is a reasonable strategy, and the identification of five candidate TFs is of potential interest to the fungal biology community. However, the study is largely computational and predictive, with no experimental validation of the key claims. Several methodological details are unclear or potentially problematic, particularly regarding the construction of the eGRN, the criteria for selecting "key" TFs, and the interpretation of docking results. The manuscript would benefit from clearer presentation of the network statistics, a more rigorous treatment of the transcriptomic analysis, and a more cautious interpretation of the docking data.
+- **Who would be interested in the results, and why** Researchers studying light signaling in fungi, particularly those working on *Cordyceps* species or other ascomycetes, may find the candidate TFs and target genes useful as a starting point for experimental work. The eGRN itself could serve as a resource for the community. Those interested in secondary metabolite regulation, especially cordycepin and carotenoid biosynthesis, may also find the predicted regulatory connections relevant.
+- **Major strengths** The study addresses a relevant and under-explored question in *C. militaris* biology. The use of two model fungi (*A. nidulans* and *N. crassa*) as templates for network inference is a sensible approach. The integration of multiple data types (interologs, homologs, transcriptomics) is a strength. The identification of specific candidate TFs with known roles in development and secondary metabolism in other fungi provides a plausible biological narrative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of network construction
+  - **Claim pointer** The eGRN is described as containing 507 TFs and 8662 regulated genes, built using interolog- and homolog-based methods.
+  - **Evidence pointer** Section 2.1, Figure 2
+  - **Concern** The manuscript does not provide sufficient detail on how the eGRN was constructed. Specifically, the criteria for defining a "TF" (beyond the FTFD database), the thresholds for interolog transfer, and the method for integrating the two approaches (interolog vs. homolog) are not described. The number of TFs (507) is substantially larger than the 71 TFs in the previous GRN [14], but the source of this expansion is not clearly explained. It is unclear whether the 427 CmWC-1 target genes from [15] were added as edges or nodes, and how this affected the network topology.
+  - **Why it matters** The central claim of the paper—that the eGRN is a useful framework for identifying light-responsive TFs—depends entirely on the reliability of the network. Without a clear and reproducible description of the construction method, the network cannot be evaluated or used by others.
+  - **Resolution test** Provide a detailed step-by-step description of the network construction pipeline, including all thresholds, databases, and integration steps. Provide network statistics (e.g., degree distribution, clustering coefficient) and a comparison with the previous GRN. Make the network available in a standard format (e.g., SBML, GraphML).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor of transcriptomic analysis
+  - **Claim pointer** The DEG analysis identified 1013 DEGs (479 up, 534 down) between light and dark conditions.
+  - **Evidence pointer** Section 2.4, Figure 5
+  - **Concern** The manuscript states that DESeq2 was used with thresholds of |log2fold change| ≥ 1 and FDR < 0.001, but the Methods section (3.2) states a Q-value < 0.05. These are inconsistent. Furthermore, the analysis was performed with only two biological replicates per condition, which is underpowered for DESeq2 and may lead to unreliable dispersion estimates. The manuscript does not report the number of genes tested, the distribution of p-values, or any quality control metrics (e.g., PCA, sample correlation).
+  - **Why it matters** The identification of light-responsive genes is a core component of the study. If the DEG analysis is not statistically robust, the subsequent mapping to the eGRN and the identification of key TFs are built on an unstable foundation.
+  - **Resolution test** Clarify the exact thresholds used. Provide evidence of reproducibility (e.g., PCA plots, MA plots). If only two replicates are available, acknowledge the limitation and consider using a more conservative approach or additional validation (e.g., qPCR).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of docking results
+  - **Claim pointer** CCM_05727 and CCM_06992 are proposed as promising candidates for interacting with CmWC-1 based on docking scores.
+  - **Evidence pointer** Section 2.7, Table 4, Figure 9
+  - **Concern** The docking analysis is used to infer physical interactions, but the manuscript does not discuss the limitations of this approach. Docking scores are not a reliable proxy for binding affinity, and the use of a single template (4F3L) for all TFs is questionable, as the structural diversity of the candidate proteins is not addressed. The manuscript also does not report the quality of the homology models (e.g., QMEAN, GMQE scores) or the docking parameters used.
+  - **Why it matters** The claim that two novel TFs are "promising candidates" for interaction with CmWC-1 is a key finding of the paper. If the docking analysis is not rigorously performed and interpreted, this claim is not supported.
+  - **Resolution test** Provide model quality scores for all docked proteins. Justify the choice of template. Discuss the limitations of docking and avoid over-interpreting the scores. Consider using additional computational methods (e.g., molecular dynamics) or experimental validation (e.g., co-immunoprecipitation).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for functional claims
+  - **Claim pointer** The five identified TFs are "likely crucial for the growth, development, and secondary metabolite production in C. militaris."
+  - **Evidence pointer** Section 2.5, Table 3
+  - **Concern** The functional claims are based on homology to TFs in other fungi and on the number of regulated genes in the network. However, no experimental evidence is provided to support these claims. The manuscript does not discuss whether the expression of these TFs themselves is light-responsive, nor does it examine the expression patterns of the target genes beyond their presence in the DEG list.
+  - **Why it matters** The title and abstract emphasize the identification of "potential" TFs, but the discussion and conclusions imply a stronger functional role. Without experimental validation, the claims remain speculative.
+  - **Resolution test** Soften the language in the conclusions. Clearly state that these are predictions requiring experimental validation. If possible, include expression data for the TFs themselves or perform a simple validation (e.g., qPCR for a few target genes).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Section 2.5, last paragraph
+  - **Evidence pointer** "As seen in Table 3, the top five TFs with the highest number of regulated genes and highest normalized betweenness scores are CCM_07504, CCM_04849, CCM_01128, CCM_05172, and CCM_06477."
+  - **Issue** The sentence is ambiguous. It is unclear whether the "top five" are selected based on the number of regulated genes, the betweenness score, or a combination of both. The criteria for selection should be stated explicitly.
+  - **Required correction** Rewrite the sentence to clearly state the selection criteria, e.g., "The five TFs with the highest normalized betweenness scores, which also regulated the largest number of genes, were selected for further analysis."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency of terminology
+  - **Affected element** Section 2.7
+  - **Evidence pointer** "cmWC1" and "CmWC-1" are used interchangeably.
+  - **Issue** The gene/protein name is written inconsistently. This can confuse readers.
+  - **Required correction** Use a single, consistent nomenclature throughout the manuscript (e.g., CmWC-1).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Section 3.2
+  - **Evidence pointer** "Raw RNA-Seq data were kept in FASTQ format, and the FASTQ files, including detailed read sequences, were deposited in the NCBI Sequence Read Archive under the BioProject accession number PRJNA1146582"
+  - **Issue** The accession number is provided for the light condition, but the dark condition data is referenced from a previous study [36]. It is unclear whether the dark condition data is publicly available and how it was processed to ensure comparability.
+  - **Required correction** Clarify the source of the dark condition data and confirm that the same processing pipeline was used for both datasets.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 7
+  - **Evidence pointer** Figure 7A, 7B, 7C
+  - **Issue** The figure is described as showing three panels, but the text does not clearly explain what each panel represents. The reader is left to infer the differences between the genome-scale GRN, the eGRN, and the light-responsive subnetwork.
+  - **Required correction** Add a clear legend and description for each panel in the figure caption.
+- **Technical failings that need to be addressed before the case is established** The inconsistency in DEG thresholds (FDR < 0.001 vs. Q-value < 0.05) must be resolved. The lack of detail on eGRN construction prevents reproducibility. The docking analysis is presented without model quality metrics or discussion of limitations. The functional claims for the identified TFs are not supported by experimental evidence.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is moderately original, applying existing network inference and docking methods to a new organism and question. It does not introduce a fundamentally new concept or method.
+  - **Scientific importance** The findings are of interest to a specialized audience studying fungal light responses and secondary metabolism, but the impact is limited by the lack of experimental validation. The potential importance is moderate.
+  - **Interdisciplinary readership** The manuscript is likely to appeal primarily to fungal biologists and computational biologists. The methods and findings are not likely to attract a broad interdisciplinary audience.
+  - **Technical soundness** The technical soundness is currently insufficient due to the issues described above, particularly regarding network construction, statistical rigor, and docking interpretation.
+  - **Readability for nonspecialists** The manuscript is generally readable, but some sections (e.g., network construction, docking) assume familiarity with bioinformatics methods. The abstract is clear, but the results section could be more accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a plausible computational framework and identifies interesting candidates, but the lack of methodological detail, statistical rigor, and experimental validation prevents the claims from being fully supported. The authors should address the major concerns, particularly the network construction and DEG analysis, before the case is established.
+
+## Risk / unsupported claims
+- The claim that the five identified TFs are "likely crucial" for growth, development, and secondary metabolite production is unsupported by experimental evidence.
+- The claim that CCM_05727 and CCM_06992 are "promising candidates" for interaction with CmWC-1 is based solely on docking scores, which are not validated.
+- The statement that the eGRN "successfully revealed" seven target genes of CmWC-1 is not supported by a comparison with the previous GRN or by any experimental validation.
+- The proposed GO term "transcription" for CCM_04852 is speculative and not experimentally confirmed.
+- The biological significance of the docking RMSD values is not established, and the interpretation of these values as indicators of "stability" is not justified.

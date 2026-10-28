@@ -1,0 +1,64 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full-text methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose iDRNA-ITF, a sequence-based method that uses an induction and transfer framework to incorporate functional properties of residues for predicting DNA- and RNA-binding residues in proteins. They claim state-of-the-art performance on four test sets, outperforming existing sequence-based methods, and provide a freely available webserver.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, baseline comparisons, or implementation details are included
+- **Missing materials affecting confidence** Full methods, model architecture details, training and test dataset specifications, evaluation metrics, baseline method descriptions, statistical significance tests, and webserver functionality verification
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational approach for a relevant problem in protein function prediction. The core idea of using an induction and transfer framework to leverage functional properties of residues is interesting and potentially novel. However, the abstract provides no quantitative evidence, no methodological detail sufficient for reproducibility, and no clear definition of the functional properties being induced or transferred. The claim of state-of-the-art performance is unsupported by any numbers, comparisons, or statistical context. The work may be of interest to the computational biology community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-nucleic acid interaction prediction, particularly those developing sequence-based predictors for DNA- and RNA-binding residue identification. Researchers in protein function annotation and drug design may also find the approach relevant if the performance claims are substantiated.
+- **Major strengths** The problem addressed is biologically important and practically relevant. The proposed framework, combining induction and transfer learning, is conceptually interesting and could offer a methodological advance over existing sequence-based approaches. The provision of a freely available webserver is a practical strength that supports usability and community adoption.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that iDRNA-ITF achieves state-of-the-art performance, outperforming other existing sequence-based methods on four test sets.
+  - **Evidence pointer** Abstract only; no section, figure, or table provided
+  - **Concern** The abstract provides no quantitative results, no performance metrics, no baseline names, and no statistical significance tests. The claim of state-of-the-art performance is presented without any supporting data.
+  - **Why it matters** A performance claim of this nature is the central contribution of the paper. Without numerical evidence, the claim cannot be evaluated, verified, or compared against existing methods. This is a fundamental requirement for any predictive method paper.
+  - **Resolution test** Provide performance metrics (e.g., accuracy, Matthews correlation coefficient, area under the ROC curve) for iDRNA-ITF and all compared baselines on each of the four test sets, along with statistical significance assessments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The abstract states that functional properties of residues are induced by a nucleic acid-binding residue feature extraction network and transferred into feature integration modules of the DNA- and RNA-binding residue prediction networks.
+  - **Evidence pointer** Abstract only; no section, figure, or table provided
+  - **Concern** The abstract does not define what "functional properties" means in this context, how they are induced, what the feature extraction network architecture is, or how the transfer mechanism operates. The description is too vague to assess novelty or reproducibility.
+  - **Why it matters** The methodological contribution is the induction and transfer framework. Without a clear description of the architecture, training procedure, and feature definitions, the approach cannot be evaluated for technical soundness or compared with prior work.
+  - **Resolution test** Provide a detailed description of the network architectures, the nature of the induced functional properties, the transfer mechanism, and the training procedure, ideally with a schematic figure and pseudocode.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset and evaluation transparency
+  - **Claim pointer** The abstract states that experimental results were obtained on four test sets.
+  - **Evidence pointer** Abstract only; no section, figure, or table provided
+  - **Concern** The abstract does not describe the composition, source, size, or construction of the four test sets. It is unclear whether these are independent benchmarks, cross-validation folds, or newly constructed datasets. The relationship between training and test data is not specified.
+  - **Why it matters** Dataset characteristics directly affect the validity and generalizability of performance claims. Without this information, the results cannot be interpreted or compared with existing benchmarks in the field.
+  - **Resolution test** Describe each test set in detail, including source databases, sequence counts, residue counts, positive-to-negative ratios, and any redundancy reduction procedures. Clarify whether the test sets are independent of training data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Webserver availability statement
+  - **Evidence pointer** Abstract text
+  - **Issue** The webserver URL is provided, but there is no indication of its usability, interface, or whether it has been tested for stability and accessibility.
+  - **Required correction** Add a brief statement on webserver implementation, user interface, and any usage statistics or uptime guarantees, or refer to a supplementary methods section.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "Induction and transfer framework"
+  - **Evidence pointer** Abstract text
+  - **Issue** The terms "induction" and "transfer" are used without formal definition. In machine learning, "transfer learning" has a specific meaning, and "induction" is ambiguous in this context.
+  - **Required correction** Define both terms explicitly in the context of the proposed method, and clarify how the framework differs from standard transfer learning approaches.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparative scope
+  - **Affected element** Baseline methods
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that iDRNA-ITF outperforms "other existing sequence-based methods" but does not name any of them.
+  - **Required correction** List the specific baseline methods compared, with citations, and justify their selection as representative of the state of the art.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and dataset descriptions collectively prevent any assessment of the technical validity of the claims.
+- **Assessment against Nature-style criteria** Originality: The induction and transfer framework is conceptually interesting, but without methodological detail, its novelty relative to existing transfer learning approaches in protein function prediction cannot be assessed. Scientific importance: The problem is important, and a genuinely improved predictor would be valuable, but the importance of this specific contribution is not yet demonstrated. Interdisciplinary readership: The work is likely to appeal primarily to computational biologists and bioinformaticians; broader appeal would depend on demonstrated biological insights or practical impact. Technical soundness: Not assessable from the abstract alone; the lack of architectural, training, and evaluation details is a critical gap. Readability for nonspecialists: The abstract is concise and generally clear, but the methodological terms are undefined, which may hinder comprehension for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to evaluate the validity of the performance claims or the technical merit of the method. A full manuscript with detailed methods, results, and dataset descriptions would be required for a substantive assessment.

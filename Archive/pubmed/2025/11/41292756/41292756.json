@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "41292756",
+    "doi": "10.1101/2025.11.13.688264",
+    "title": "Characterizing spatial functional microniches with SpaceTravLR."
+  },
+  "content": {
+    "abstract": "The advent of spatial omics has revolutionized our understanding of tissue biology; however, these technologies remain largely descriptive and do not capture how changes in gene regulation propagate across spatial neighborhoods. While in-silico perturbation methods and foundation models aim to model the impact of genetic perturbations, these methods are limited to single-cell approaches that lack spatial resolution. Other studies can delineate morphological domains based on transcriptional similarity, but not spatial functional microniches. We address this major unmet need by developing SpaceTravLR (Spatially perturbing Transcription factors, Ligands and Receptors), a novel interpretable machine learning approach that generalizes across tissues and species, uncovering spatial features linked to functional outcomes, thereby capturing functional microniches with spatial resolution. SpaceTravLR infers how single or combinatorial genetic perturbations rewire signals across the tissue neighborhood, by propagating effects through underlying spatially resolved molecular networks, thereby modeling how perturbations can reshape both the targeted cell and its surrounding neighborhood. SpaceTravLR defines novel spatial microniches across a range of tissues at different scales of organization (niches, neighborhoods and tissues), disease and developmental contexts. SpaceTravLR's perturbation predictions are made solely from spatial omics data and closely align with experimental validation or known outcomes based on mechanistic studies. Critically, our approach enables the generation of mechanistic hypotheses underlying identified niches. We show SpaceTravLR discovered a novel mechanism for Ccr4 that drives the spatial location of a pathogenic population of allergen-specific T helper 2 (Th2) cells as they develop in the lymph node, which was experimentally validated in a murine model. Overall, SpaceTravLR provides a novel interpretable and experimentally validated framework for uncovering how genes act individually and combinatorially through cell-intrinsic and cell-extrinsic circuits to shape spatial tissue organization and function.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramjattun, Koushul",
+        "Wang, Alyson",
+        "Lee, Hannah",
+        "Giri, Shilpi",
+        "Chen, Yijia",
+        "MacDonald, William A",
+        "Lord, Nathan D",
+        "Poholek, Amanda C",
+        "Lee, Youjin",
+        "Das, Jishnu"
+      ],
+      "short_names": [
+        "Ramjattun K",
+        "Wang A",
+        "Lee H",
+        "Giri S",
+        "Chen Y",
+        "MacDonald WA",
+        "Lord ND",
+        "Poholek AC",
+        "Lee Y",
+        "Das J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5747-064X"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Ramjattun, Koushul",
+        "short_name": "Ramjattun K",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Alyson",
+        "short_name": "Wang A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lee, Hannah",
+        "short_name": "Lee H",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Giri, Shilpi",
+        "short_name": "Giri S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chen, Yijia",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "MacDonald, William A",
+        "short_name": "MacDonald WA",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lord, Nathan D",
+        "short_name": "Lord ND",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Poholek, Amanda C",
+        "short_name": "Poholek AC",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lee, Youjin",
+        "short_name": "Lee Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Das, Jishnu",
+        "short_name": "Das J",
+        "identifiers": [
+          "0000-0002-5747-064X"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Nov 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/26 06:29",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [
+      "42510645"
+    ],
+    "refs": [],
+    "similar": [
+      "41292756",
+      "42475469",
+      "23912807",
+      "41310253",
+      "41716413",
+      "41573962",
+      "41902503",
+      "40826382",
+      "40545244",
+      "41033661",
+      "41453080",
+      "38678389",
+      "40571903",
+      "40671942",
+      "42114120",
+      "41573850",
+      "41256408",
+      "41667720",
+      "40887856",
+      "42256531",
+      "42411605",
+      "41867722",
+      "42190664",
+      "42465440",
+      "39628288",
+      "38798592",
+      "42386773",
+      "26844322",
+      "40475468",
+      "42465400",
+      "41939867",
+      "41699549",
+      "40830271",
+      "39394532",
+      "40672304",
+      "26042329",
+      "41628049",
+      "42044575",
+      "41481687",
+      "41282090",
+      "40166134",
+      "40034445",
+      "41171131",
+      "41810324",
+      "37353907",
+      "36064320",
+      "36147664",
+      "41521220",
+      "41757003",
+      "33001599",
+      "39294367",
+      "40950234",
+      "41486374",
+      "40475415",
+      "42107067",
+      "41456712",
+      "42146333",
+      "41889931",
+      "42493559",
+      "37953661",
+      "38746321",
+      "41370198",
+      "42134646",
+      "39120644",
+      "38410424",
+      "40964035",
+      "41428393",
+      "40405483",
+      "42342408",
+      "41916307",
+      "41089681",
+      "31679171",
+      "41736104",
+      "42233387",
+      "40404817",
+      "40950184",
+      "39417483",
+      "42075434",
+      "40236029",
+      "39314450",
+      "40804270",
+      "41040309",
+      "41650976",
+      "41040798",
+      "40894583",
+      "42399758",
+      "41168487",
+      "26844326",
+      "41922721",
+      "41248160",
+      "40551145",
+      "41628769",
+      "39623794",
+      "37209635",
+      "24571639",
+      "41756915",
+      "41110299",
+      "42443980",
+      "38092912",
+      "26269925"
+    ],
+    "review": [
+      "41292756",
+      "41902503",
+      "26844322",
+      "26042329",
+      "42044575",
+      "41481687",
+      "41810324",
+      "37353907",
+      "36147664",
+      "33001599",
+      "42493559",
+      "42075434",
+      "26844326",
+      "41628769",
+      "42443980",
+      "26269925"
+    ],
+    "pmc": [
+      "12642522"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41292756/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.11.13.688264",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

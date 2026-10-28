@@ -1,0 +1,646 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.08.27.747542",
+  "title": "DISRUPTION OF A DNA REPAIR PROTEIN PROMOTES ANTIBIOTIC RESISTANCE IN <i>ACINETOBACTER BAUMANNII</i>",
+  "doi": "10.64898/2026.08.27.747542",
+  "abstract": "Acinetobacter baumannii is a high-priority Gram negative opportunistic pathogen known for its high rates of multidrug resistance (MDR). Minocycline (MIN), a tetracycline class antibiotic, is one of the most effective antibiotics for treating A. baumannii infections in patients. Unfortunately, MIN resistance is spreading internationally and has begun to emerge in the United States. While efflux pumps are correlated with MIN resistant A. baumannii , clinical data suggests alternative mechanisms of MIN resistance. To explore the genetic basis for MIN resistance in A. baumannii we employed a machine learning model to predict genetic resistance correlates from clinical isolates. Mutations in ruvB , a DNA repair protein, were strongly correlated with MIN resistant clinical strains of A. baumannii . Consistent with the prediction, tn26 insertion in ruvB in A. baumannii strain AB5075, and deletion of ruvB in strain ATCC 19606, increased MIN minimum inhibitory concentrations to a level that exceeds the MIN resistance breakpoint. RuvB complexes with RuvA and RuvC to resolve Holliday junctions during recombination. However, only ruvB mutants showed the resistance phenotype; neither ruvA nor ruvC mutants were MIN resistant, suggesting loss of the complex’s activity was not the basis for resistance. We observed ruvB mutants produced increased biomass during planktonic growth relative to the other two ruv mutants. Upon examination, the ruvB ::tn26 mutant had a 451% increase in biomass and 360% thicker biofilms relative to wildtype. We determined the disruption of ruvB lead to thicker biofilms and enriched in extracellular DNA (eDNA), and DNase I treatment collapsed the enhanced biofilm phenotype and markedly reduced tetracycline-class MICs. FLAG–RuvA accumulated within the biofilm matrix in the absence of RuvB, supporting a model in which RuvA contributes to stabilization of eDNA-rich structures. In a murine pneumonia model, ruvB disruption did not significantly alter survival or pulmonary burden in untreated infection but reduced bacterial dissemination and increased minocycline resistance. Together, these findings reveal an unexpected connection between Holliday junction processing, eDNA-rich biofilm architecture, and antibiotic resistance in A. baumannii .",
+  "authors": [
+    "Suman Tiwari",
+    "Syed H. Raza",
+    "Namrata Bonde",
+    "Roberto Jhonatan Olea-Ozuna",
+    "Tuhina Maity",
+    "Muneer Yaqub",
+    "Tahira Amdid Ratna",
+    "Kelli Palmer",
+    "Joseph Boll",
+    "Jonathan Monk",
+    "Nicholas A. Dillon"
+  ],
+  "published_date": "2026-08-27",
+  "updated_date": "2026-08-28T03:55:11Z",
+  "journal": "bioRxiv",
+  "category": "Microbiology",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747542",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747542.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Microbiology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Microbiology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            31
+          ]
+        ],
+        "date-time": "2026-08-31T12:19:59Z",
+        "timestamp": 1788178799179,
+        "version": "build-2803163510"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            27
+          ]
+        ]
+      },
+      "group-title": "Microbiology",
+      "reference-count": 48,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                27
+              ]
+            ],
+            "date-time": "2026-08-27T00:00:00Z",
+            "timestamp": 1787788800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            27
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  <jats:italic>Acinetobacter baumannii</jats:italic>\n                  is a high-priority Gram negative opportunistic pathogen known for its high rates of multidrug resistance (MDR). Minocycline (MIN), a tetracycline class antibiotic, is one of the most effective antibiotics for treating\n                  <jats:italic>A. baumannii</jats:italic>\n                  infections in patients. Unfortunately, MIN resistance is spreading internationally and has begun to emerge in the United States. While efflux pumps are correlated with MIN resistant\n                  <jats:italic>A. baumannii</jats:italic>\n                  , clinical data suggests alternative mechanisms of MIN resistance. To explore the genetic basis for MIN resistance in\n                  <jats:italic>A. baumannii</jats:italic>\n                  we employed a machine learning model to predict genetic resistance correlates from clinical isolates. Mutations in\n                  <jats:italic>ruvB</jats:italic>\n                  , a DNA repair protein, were strongly correlated with MIN resistant clinical strains of\n                  <jats:italic>A. baumannii</jats:italic>\n                  . Consistent with the prediction, tn26 insertion in\n                  <jats:italic>\n                    <jats:underline>ruvB</jats:underline>\n                  </jats:italic>\n                  in\n                  <jats:italic>A. baumannii</jats:italic>\n                  strain AB5075, and deletion of\n                  <jats:italic>ruvB</jats:italic>\n                  in strain ATCC 19606, increased MIN minimum inhibitory concentrations to a level that exceeds the MIN resistance breakpoint. RuvB complexes with RuvA and RuvC to resolve Holliday junctions during recombination. However, only\n                  <jats:italic>ruvB</jats:italic>\n                  mutants showed the resistance phenotype; neither\n                  <jats:italic>ruvA</jats:italic>\n                  nor\n                  <jats:italic>ruvC</jats:italic>\n                  mutants were MIN resistant, suggesting loss of the complex’s activity was not the basis for resistance. We observed\n                  <jats:italic>ruvB</jats:italic>\n                  mutants produced increased biomass during planktonic growth relative to the other two\n                  <jats:italic>ruv</jats:italic>\n                  mutants. Upon examination, the\n                  <jats:italic>ruvB</jats:italic>\n                  ::tn26 mutant had a 451% increase in biomass and 360% thicker biofilms relative to wildtype. We determined the disruption of\n                  <jats:italic>ruvB</jats:italic>\n                  lead to thicker biofilms and enriched in extracellular DNA (eDNA), and DNase I treatment collapsed the enhanced biofilm phenotype and markedly reduced tetracycline-class MICs. FLAG–RuvA accumulated within the biofilm matrix in the absence of RuvB, supporting a model in which RuvA contributes to stabilization of eDNA-rich structures. In a murine pneumonia model,\n                  <jats:italic>ruvB</jats:italic>\n                  disruption did not significantly alter survival or pulmonary burden in untreated infection but reduced bacterial dissemination and increased minocycline resistance. Together, these findings reveal an unexpected connection between Holliday junction processing, eDNA-rich biofilm architecture, and antibiotic resistance in\n                  <jats:italic>A. baumannii</jats:italic>\n                  .\n                </jats:p>",
+      "DOI": "10.64898/2026.08.27.747542",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            28
+          ]
+        ],
+        "date-time": "2026-08-28T03:55:11Z",
+        "timestamp": 1787889311000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "DISRUPTION OF A DNA REPAIR PROTEIN PROMOTES ANTIBIOTIC RESISTANCE IN\n                  <i>ACINETOBACTER BAUMANNII</i>"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Suman",
+          "family": "Tiwari",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX 75080, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Syed H.",
+          "family": "Raza",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX 75080, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Namrata",
+          "family": "Bonde",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX 75080, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Roberto Jhonatan",
+          "family": "Olea-Ozuna",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX 75080, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tuhina",
+          "family": "Maity",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX 75080, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Muneer",
+          "family": "Yaqub",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX 75080, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tahira Amdid",
+          "family": "Ratna",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX 75080, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kelli",
+          "family": "Palmer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX 75080, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1412-9780",
+          "authenticated-orcid": false,
+          "given": "Joseph",
+          "family": "Boll",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX 75080, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jonathan",
+          "family": "Monk",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Bioengineering, University of California, San Diego, CA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2351-0700",
+          "authenticated-orcid": false,
+          "given": "Nicholas A.",
+          "family": "Dillon",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biological Sciences, University of Texas at Dallas, Richardson, TX 75080, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0140-6736(21)02724-0/ATTACHMENT/4504FC2B-08AE-46D6-BD75-80811DF8B5E6/MMC1.PDF"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sharma R , Lakhanpal D . Acinetobacter baumannii: A comprehensive review of global epidemiology, clinical implications, host interactions, mechanisms of antimicrobial resistance and mitigation strategies. Microb Pathog. 2025;204:107605.",
+          "DOI": "10.1016/j.micpath.2025.107605"
+        },
+        {
+          "issue": "7",
+          "key": "2026083105050822000_2026.08.27.747542v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "694",
+          "DOI": "10.3390/antibiotics14070694",
+          "article-title": "Combating the Growing Threat of Acinetobacter baumannii Resistance",
+          "volume": "14",
+          "year": "2025",
+          "journal-title": "Antibiotics"
+        },
+        {
+          "issue": "2",
+          "key": "2026083105050822000_2026.08.27.747542v1.4",
+          "first-page": "295",
+          "article-title": "Minocycline susceptibility breakpoints for Acinetobacter baumannii: do we need to re-evaluate them?",
+          "volume": "74",
+          "year": "2018",
+          "journal-title": "Journal of Antimicrobial Chemotherapy"
+        },
+        {
+          "issue": "6",
+          "key": "2026083105050822000_2026.08.27.747542v1.5",
+          "first-page": "e61785",
+          "article-title": "An Ancient Drug for a Modern Era: Minocycline for the Treatment of Multi-Drug-Resistant Acinetobacter baumannii",
+          "volume": "16",
+          "year": "2024",
+          "journal-title": "Cureus"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.6",
+          "first-page": "2012",
+          "article-title": "The Acinetobacter baumannii Oxymoron: Commensal Hospital Dweller Turned Pan-Drug-Resistant Menace",
+          "volume": "3",
+          "year": "2012",
+          "journal-title": "Frontiers in Microbiology"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/mbio.00360-13"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/10409230701648494"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.0030176"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrmicro2333"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1909017116"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/mBio.01076-14"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.00131-15"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/mBio.01313-14"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/AEM.03975-14"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.16",
+          "unstructured": "Institute CaLS. CLSI vs FDA Breakpoints, 34th ed. CLSI Guideline M100. Clinical and Laboratory Standards Institute; 2024."
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.17",
+          "unstructured": "CLSI. Methods for Dilution Antimicrobial Susceptibility Tests for Bacteria That Grow Aerobically. 11th ed. CLSI standard M07. Wayne, PA: Clinical and Laboratory Standards Institute. 2018."
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.ppat.1012933"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/plas.1996.0038"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tiwari S , Nizet O , Dillon N . Development of a high-throughput minimum inhibitory concentration (HT-MIC) testing workflow. Frontiers in Microbiology. 2023;14.",
+          "DOI": "10.3389/fmicb.2023.1079033"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "O’Toole GA . Microtiter dish biofilm formation assay. J Vis Exp. 2011(47).",
+          "DOI": "10.3791/2437-v"
+        },
+        {
+          "issue": "12",
+          "key": "2026083105050822000_2026.08.27.747542v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "2411",
+          "DOI": "10.1016/S0022-2275(20)30026-2",
+          "article-title": "LDL-mediated interaction of Lp[a] with HepG2 cells: a novel fluorescence microscopy approach",
+          "volume": "38",
+          "year": "1997",
+          "journal-title": "J Lipid Res"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M504121200"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-1759(82)90225-3"
+        },
+        {
+          "issue": "9",
+          "key": "2026083105050822000_2026.08.27.747542v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "910",
+          "DOI": "10.1038/nmeth.2599",
+          "article-title": "STED nanoscopy combined with optical tweezers reveals protein dynamics on densely covered DNA",
+          "volume": "10",
+          "year": "2013",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "issue": "1",
+          "key": "2026083105050822000_2026.08.27.747542v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "108",
+          "DOI": "10.1038/s41522-025-00751-5",
+          "article-title": "Extracellular DNA filaments associated with surface polysaccharide II give Clostridioides difficile biofilm matrix a network-like structure",
+          "volume": "11",
+          "year": "2025",
+          "journal-title": "npj Biofilms and Microbiomes"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "193",
+          "DOI": "10.1016/j.ebiom.2019.07.041",
+          "article-title": "Surprising synergy of dual translation inhibition vs. Acinetobacter baumannii and other multidrug-resistant bacterial pathogens",
+          "volume": "46",
+          "year": "2019",
+          "journal-title": "EBioMedicine"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.genet.31.1.213"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-022-05121-1"
+        },
+        {
+          "issue": "1",
+          "key": "2026083105050822000_2026.08.27.747542v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "3549",
+          "DOI": "10.1038/s41467-023-39250-6",
+          "article-title": "Molecular mechanisms of Holliday junction branch migration catalyzed by an asymmetric RuvB hexamer",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.295.5559.1487"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.copbio.2014.12.002"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bit.27760"
+        },
+        {
+          "issue": "2",
+          "key": "2026083105050822000_2026.08.27.747542v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "466",
+          "DOI": "10.3390/microorganisms10020466",
+          "article-title": "Bacterial Biofilms Utilize an Underlying Extracellular DNA Matrix Structure That Can Be Targeted for Biofilm Resolution",
+          "volume": "10",
+          "year": "2022",
+          "journal-title": "Microorganisms"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lin Ǫ , Sheng M , Tian Y , Li B , Kang Z , Yang Y , et al. Antibiofilm activity and synergistic effects of DNase I and lysostaphin against Staphylococcus aureus biofilms. Food Ǫuality and Safety. 2024;8.",
+          "DOI": "10.1093/fqsafe/fyae024"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/AAC.00471-08"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrmicro2415"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/femsre/fux010"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrmicro.2017.148"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.181.18.5543-5550.1999"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(93)90724-5"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1097-2765(02)00641-X"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3109/1040841X.2013.841639"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1524-475X.2007.00283.x"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MMBR.00013-14"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cmi.2014.10.024"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/lam.12134"
+        },
+        {
+          "key": "2026083105050822000_2026.08.27.747542v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrmicro.2017.99"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.08.27.747542",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            31
+          ]
+        ],
+        "date-time": "2026-08-31T12:05:18Z",
+        "timestamp": 1788177918000
+      },
+      "score": 62.463135,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.08.27.747542"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            27
+          ]
+        ]
+      },
+      "references-count": 48,
+      "URL": "https://doi.org/10.64898/2026.08.27.747542",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            27
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

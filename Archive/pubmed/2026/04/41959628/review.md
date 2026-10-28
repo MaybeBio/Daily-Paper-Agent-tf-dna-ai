@@ -1,0 +1,120 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Materials and methods, Results, Discussion, Data availability, Author contributions, Conflict of interest, Generative AI statement, Publisher's note, Supplementary material link)
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, reproducibility, and presentation quality. Editorial and stylistic issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors present PRIMED, a machine learning framework that concatenates representations from three ESM protein language models (ESM-2, ESM-3, ESM-C) and feeds them into a multilayer perceptron to predict DNA-binding residues. They report strong performance on three test sets (Test-46, Test-129, Test-10K), outperforming existing methods including CLAPE-DB, and claim that the integrated pLM representations capture complementary structural and functional information.
+- **Visible evidence base** Full text of the manuscript, including Methods, Results, Discussion, and references to Tables 1-5, Figures 1-7, and Supplementary Tables S1-S7 and Figures S1-S4. No actual data files, code, or supplementary material were provided for inspection.
+- **Missing materials affecting confidence** The actual datasets, trained model weights, code, and all supplementary tables and figures were not provided. The GitHub link is mentioned but not accessible in this review context. This limits verification of all quantitative claims, statistical analyses, and reproducibility.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology, namely the prediction of DNA-binding residues from protein sequence. The use of pre-trained protein language models is timely and the integration of three ESM variants is a reasonable idea. However, the manuscript has several significant methodological gaps and reporting deficiencies that prevent a full evaluation of the claims. The most critical issues are the incomplete description of the model architecture (the feedforward equation is missing), the lack of clarity on how the Test-10K dataset was curated and validated, the absence of key baseline comparisons, and the incomplete reporting of statistical analyses. The claim of "state-of-the-art" performance is not fully supported by the evidence presented, particularly given the modest improvements over CLAPE-DB and the lack of comparison with more recent methods. The manuscript would benefit from a more rigorous evaluation protocol, including cross-dataset validation, and a clearer articulation of the novelty relative to existing pLM-based approaches.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, protein-DNA interactions, and the application of protein language models to downstream tasks. Researchers developing machine learning methods for residue-level annotation of protein sequences would also find the approach relevant. The manuscript may also be of interest to experimentalists seeking computational tools for prioritizing DNA-binding residues in structural studies or mutagenesis experiments.
+- **Major strengths** The problem is well-motivated and of practical importance. The use of multiple pLM representations is a sensible strategy that leverages complementary information. The authors include a large-scale test set (Test-10K) to assess generalizability, which is commendable. The manuscript is generally well-written and the figures are described clearly. The discussion of the limitations of current DBR definitions and the need for standardized benchmarks is a valuable contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model architecture is described as a multilayer perceptron with the feedforward computation expressed in an equation, but the equation itself is missing from the manuscript.
+  - **Evidence pointer** Section "Model architecture", location not provided
+  - **Concern** The equation defining the MLP forward pass is referenced but not shown. Without this equation, the exact architecture (number of layers, activation functions, dropout placement) cannot be fully verified, and the reproducibility of the method is compromised.
+  - **Why it matters** A central claim of the paper is that a simple MLP suffices for DBR prediction when fed with rich pLM features. Without the explicit architecture, readers cannot reproduce the model or assess whether the design choices are appropriate.
+  - **Resolution test** Provide the missing equation and a clear textual description of the architecture, including layer sizes, activation functions, dropout rates, and any normalization or regularization steps.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The Test-10K dataset is described as curated from UniProtKB/Swiss-Prot, but the curation procedure is not described in sufficient detail.
+  - **Evidence pointer** Section "Datasets for training and evaluation", location not provided
+  - **Concern** The authors state that they scanned UniProt for entries with 'DNA-BIND' feature annotations or textual descriptions indicating DNA-binding activity, and treated unannotated residues as non-binding. However, they do not specify the exact search terms, the date of the search, the number of hits, the filtering criteria beyond sequence identity, or how they handled proteins with partial annotations. The claim that this dataset is "independent" is also questionable, as the authors only filtered by UniProt-PDB ID mapping and 80% sequence identity, which may not fully prevent overlap with training data.
+  - **Why it matters** The Test-10K dataset is a key contribution of the paper, intended to demonstrate generalizability. If the curation is not reproducible or the labels are noisy, the conclusions drawn from this dataset are weakened.
+  - **Resolution test** Provide a detailed, step-by-step description of the curation pipeline, including search queries, inclusion/exclusion criteria, handling of ambiguous annotations, and a clear statement of how independence from the training set was ensured. Ideally, provide the list of UniProt IDs and the annotation sources.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that PRIMED outperforms existing methods, including CLAPE-DB, DRNAPred, DNAPred, SVMnuc, NCBRPred, and DBPred, on Test-46 and Test-129.
+  - **Evidence pointer** Section "Prediction performance on benchmark datasets", Table 5, location not provided
+  - **Concern** The comparison with baseline methods is incomplete. The authors state that metrics for other methods were "extracted from the CLAPE-DB study," but they do not specify which methods were re-evaluated with the same protocol, which were taken from published values, and whether the thresholds used for each method were optimized in the same way. Furthermore, no comparison is made with more recent pLM-based methods, which is a significant omission given the rapid progress in this area.
+  - **Why it matters** The claim of state-of-the-art performance depends on a fair and comprehensive comparison. If the baselines are not evaluated under identical conditions, the reported improvements may be inflated.
+  - **Resolution test** Clearly describe the evaluation protocol for each baseline method, including how thresholds were set, whether the same train/test split was used, and whether any post-processing was applied. Add comparisons with at least two recent pLM-based DBR predictors.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report a statistical analysis using a paired two-sided t-test over ten iterations, with p-values < 0.05 considered significant.
+  - **Evidence pointer** Section "Evaluation", location not provided
+  - **Concern** The description of the statistical test is incomplete. It is not clear what is being compared (e.g., per-protein AUC values?), how the 50% random subsets were sampled, whether the same subsets were used for all methods, and whether multiple testing corrections were applied. The results of these tests are only mentioned in the text and in Figure 4, but the actual p-values are not reported in the text or tables.
+  - **Why it matters** The statistical significance of the improvements is a key part of the claim that PRIMED is better than CLAPE-DB. Without a clear description of the test and the actual p-values, this claim cannot be evaluated.
+  - **Resolution test** Provide a detailed description of the statistical testing procedure, including the exact null hypothesis, the sampling scheme, and the full results (e.g., p-values for each comparison). If multiple comparisons are made, apply appropriate corrections.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the UMAP visualization shows that pLM representations capture structural information, as evidenced by a correlation between UMAP1 and relative solvent accessibility (RSA).
+  - **Evidence pointer** Section "Feature space visualization and correlation with solvent accessibility", Figure 6, location not provided
+  - **Concern** The correlation between UMAP1 and RSA (r = 0.41) is described as "moderate," but the interpretation is somewhat overstated. A correlation of 0.41 indicates that UMAP1 explains only about 17% of the variance in RSA. The authors do not discuss whether this correlation is specific to DNA-binding proteins or whether it would be observed for any protein. The analysis is also limited to a single test set (Test-129), and the authors note that Test-46 was excluded due to inconsistencies with PDB entries, which raises questions about the reliability of the structural annotations.
+  - **Why it matters** The claim that pLM representations implicitly encode solvent accessibility is used to support the interpretability of the model. If the correlation is weak or not specific, this claim is weakened.
+  - **Resolution test** Provide a more nuanced interpretation of the correlation, including a discussion of its biological relevance. Consider performing the same analysis on a control set of non-DNA-binding proteins to demonstrate specificity.
+  - **Concern ID** R1-M6
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the threshold of 0.813 was optimized on the training set to maximize MCC.
+  - **Evidence pointer** Section "Prediction performance on benchmark datasets", location not provided
+  - **Concern** The threshold optimization procedure is not described. It is unclear whether the threshold was selected on the training set, a validation set, or the test set. If the threshold was optimized on the test set, the reported metrics would be optimistically biased. The authors also report that lowering the threshold to 0.5 results in an MCC of 0.311 on Test-10K, but it is not clear how this compares to the MCC at the optimized threshold on the same dataset.
+  - **Why it matters** The choice of threshold directly affects all reported metrics. If the threshold is not chosen in a principled and unbiased way, the reported performance may not reflect the model's true generalization ability.
+  - **Resolution test** Clearly describe the threshold selection procedure, including which dataset was used for optimization. Report metrics at multiple thresholds or use a threshold-free metric (e.g., AUC) as the primary comparison.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction
+  - **Evidence pointer** Section "Introduction", location not provided
+  - **Issue** The manuscript contains two separate Introduction sections. The first is a brief summary, and the second is a more detailed introduction. This is redundant and confusing.
+  - **Required correction** Merge the two sections into a single, coherent introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Datasets for training and evaluation"
+  - **Evidence pointer** Section "Datasets for training and evaluation", location not provided
+  - **Issue** The definition of DBRs (0.5 Å plus the sum of van der Waals radii) is unusual. Typically, a distance cutoff of 3.5-4.0 Å between heavy atoms is used. The authors should justify this choice.
+  - **Required correction** Provide a justification for the chosen distance cutoff or use a more standard definition.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Protein representations"
+  - **Evidence pointer** Section "Protein representations", location not provided
+  - **Concern** The authors state that ESM-2, ESM-3, and ESM-C are "complementary" but do not provide quantitative evidence for this claim. It is possible that the representations are highly redundant.
+  - **Required correction** Provide an analysis of the redundancy or complementarity of the three representations (e.g., correlation between representations, ablation study).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, "Prediction performance on benchmark datasets"
+  - **Evidence pointer** Section "Prediction performance on benchmark datasets", location not provided
+  - **Issue** The text states that "PRIMED achieves the strongest performance among all sequence-based predictors," but the comparison in Table 5 includes methods that may use structural information. The authors should clarify which methods are sequence-based and which are structure-based.
+  - **Required correction** Clearly label each method in Table 5 as sequence-based or structure-based.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Section "Discussion", location not provided
+  - **Issue** The Discussion is relatively brief and does not fully contextualize the results. For example, the authors do not discuss the computational cost of running three pLMs versus a single model, nor do they discuss potential limitations of the MLP approach.
+  - **Required correction** Expand the Discussion to include a more thorough analysis of the method's limitations and practical considerations.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Section "Data availability statement", location not provided
+  - **Issue** The data availability statement provides a GitHub link, but it is not clear whether the code and trained models are also available there.
+  - **Required correction** Clarify what is available at the GitHub link (datasets, code, models) and provide a persistent DOI if possible.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art accuracy" is not fully supported, as the comparison with baselines is incomplete and no comparison with recent pLM-based methods is provided.
+- The claim that the three pLM representations are "complementary" is not supported by quantitative evidence.
+- The claim that the UMAP visualization demonstrates that pLM representations capture structural information is overstated, given the moderate correlation (r = 0.41) and the lack of a control analysis.
+- The claim that Test-10K is an "independent" dataset is not fully supported, as the filtering procedure may not guarantee non-overlap with training data.
+- The performance metrics on Test-10K are reported in a way that is difficult to interpret, as the authors do not provide a clear comparison with CLAPE-DB at the same threshold.
+- The statistical significance of the improvements over CLAPE-DB is claimed but the actual p-values are not reported in the text or tables.
+- The manuscript states that "PRIMED demonstrated strong performance" but the actual values for sensitivity, specificity, and F1 are not reported in the main text for all datasets.
+- The authors claim that the model is "high-throughput" but no runtime or scalability analysis is provided.
+- The authors claim that the method "balances interpretability, efficiency, and predictive power" but no analysis of interpretability or efficiency is presented.

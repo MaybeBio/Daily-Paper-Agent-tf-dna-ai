@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41370198",
+  "title": "A spatially informed matrix normal model for gene co-expression analysis in spatial transcriptomics studies.",
+  "authors": "Tan, Chichun; Ma, Ying",
+  "journal": "Nucleic acids research",
+  "published_date": "2025-12-10",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 2,
+  "one_liner_zh": "该文提出空间转录组基因共表达分析统计模型spMOCA，虽涉及转录因子靶基因识别，但核心是基因共表达网络而非蛋白质-DNA互作建模，且方法为统计模型而非AI或物理模拟，与本课题关联微弱。",
+  "abstract": "The rapid advancement of spatially resolved transcriptomics (SRT) technology enables gene expression profiling across tissue locations while preserving spatial context. Gene co-expression analysis in SRT data provides critical insights into how genes function together within the tissue microenvironment. However, existing methods fail to effectively capture the joint influence of gene-gene interactions and spatial dependencies, limiting their biological interpretability. Here, we introduce spMOCA (SPatially informed Matrix-nOrmal model for gene Co-expression Analysis), a statistical framework for inferring gene co-expression networks while explicitly modeling spatial dependencies. By leveraging a matrix-normal model, spMOCA jointly accounts for gene-gene and spatial covariance, disentangling intrinsic co-expression relationships from spatially induced effects. Through extensive simulations, we show that spMOCA provides more accurate and unbiased estimates of gene-gene correlations than existing approaches across a range of spatial dependency levels. In applications to nine SRT datasets spanning diverse technologies, tissues, and species, spMOCA consistently identifies more experimentally validated transcription factor target genes than alternative methods. In tumors, it uncovers gene modules linked to tumorigenesis and immune pathways, revealing prognostic markers. In aging mouse brains, it captures dynamic co-expression changes associated with neurodegeneration. In cross-species analyses, it detects conserved gene modules and cell type-specific pathways in the mouse and human cortex.",
+  "abstract_zh": "空间分辨转录组学（spatially resolved transcriptomics, SRT）技术的快速发展，使得在保留空间背景的同时，能够对组织位置上的基因表达进行 profiling。在 SRT 数据中，基因共表达分析为理解基因在组织微环境中的协同功能提供了关键见解。然而，现有方法未能有效捕捉基因-基因相互作用与空间依赖性的联合影响，限制了其生物学可解释性。在此，我们引入 spMOCA（SPatially informed Matrix-nOrmal model for gene Co-expression Analysis），这是一种统计框架，用于推断基因共表达网络，同时显式建模空间依赖性。通过利用矩阵正态模型（matrix-normal model），spMOCA 联合考虑基因-基因协方差和空间协方差，将内在共表达关系与空间诱导效应区分开来。通过广泛的模拟，我们表明，在一系列空间依赖性水平下，spMOCA 比现有方法提供更准确且无偏的基因-基因相关性估计。在涵盖多种技术、组织和物种的九个 SRT 数据集的应用中，spMOCA 始终识别出比替代方法更多经实验验证的转录因子靶基因。在肿瘤中，它揭示了与肿瘤发生和免疫通路相关的基因模块，并发现了预后标志物。在衰老小鼠大脑中，它捕捉到与神经退行性变相关的动态共表达变化。在跨物种分析中，它检测到小鼠和人类皮层中保守的基因模块及细胞类型特异性通路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41370198/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41370198/",
+  "paper_page_path": "papers/pubmed/41370198/index.html"
+}

@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "36755591",
+    "doi": "10.1016/j.heliyon.2023.e13088",
+    "title": "GDF11 inhibits adipogenesis of human adipose-derived stromal cells through ALK5/KLF15/beta-catenin/PPARgamma cascade."
+  },
+  "content": {
+    "abstract": "Obesity is a metabolic disease characterized by excessive fat storage, and the adipogenic differentiation of adipose-derived stromal cells (ADSCs) is closely linked to its occurrence. Growth differentiation factor 11 (GDF11), a well-known molecule in the field of anti-aging, also has great potential in regulating stem cell differentiation. In this study, we found that GDF11 inhibited adipogenic differentiation of human ADSCs in vitro by activating the WNT/beta-catenin and SMAD2/3 pathways while inhibiting the AKT pathway. Moreover, the transcription factor Kruppel-like factor 15 (KLF15) was discovered to be an important downstream factor for GDF11 in inhibiting adipogenesis via the WNT/beta-catenin pathway. Furthermore, AlphaFold2 structure prediction and inhibitor-blocking experiments revealed that ALK5 is a functional receptor of GDF11. Collectively, we demonstrated that GDF11 is a potential target for inhibiting adipogenic differentiation and combating obesity.",
+    "keywords": [
+      "Adipogenesis",
+      "GDF11",
+      "KLF15",
+      "Obesity",
+      "PPARgamma",
+      "WNT/beta-catenin pathway"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Shimin",
+        "Zhong, Lishan",
+        "Chen, Jingyi",
+        "Zhao, Zibo",
+        "Wang, Rongze",
+        "Zhu, Yexuan",
+        "Liu, Junwei",
+        "Wu, Yanting",
+        "Ye, Cuifang",
+        "Jin, Fujun",
+        "Ren, Zhe"
+      ],
+      "short_names": [
+        "Lin S",
+        "Zhong L",
+        "Chen J",
+        "Zhao Z",
+        "Wang R",
+        "Zhu Y",
+        "Liu J",
+        "Wu Y",
+        "Ye C",
+        "Jin F",
+        "Ren Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China.",
+        "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China.",
+        "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China.",
+        "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China.",
+        "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China.",
+        "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China.",
+        "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China.",
+        "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China.",
+        "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China.",
+        "School of Biomedical and Pharmaceutical Sciences, Guangdong University of Technology, Guangzhou, China.",
+        "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Shimin",
+        "short_name": "Lin S",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Lishan",
+        "short_name": "Zhong L",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jingyi",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zibo",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Rongze",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yexuan",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Junwei",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yanting",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Cuifang",
+        "short_name": "Ye C",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Fujun",
+        "short_name": "Jin F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical and Pharmaceutical Sciences, Guangdong University of Technology, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Zhe",
+        "short_name": "Ren Z",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Jinan Biomedicine Research and Development Center, College of Life Science and Technology, Institute of Biomedicine, Jinan University, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Heliyon"
+    ],
+    "journal_abbrev": [
+      "Heliyon"
+    ],
+    "pub_date": "2023 Feb",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/10 06:00",
+    "fetched_at": "2026-09-28 20:13:36"
+  },
+  "links": {
+    "cites": [
+      "42315824",
+      "41822302",
+      "41809448",
+      "41199749",
+      "40927774",
+      "39872377",
+      "38494851"
+    ],
+    "refs": [
+      "35920128",
+      "35864959",
+      "34083547",
+      "33684566",
+      "33126224",
+      "32850455",
+      "32165710",
+      "31847906",
+      "31637864",
+      "31038259",
+      "30610207",
+      "30568302",
+      "30279140",
+      "29551501",
+      "29425507",
+      "29241541",
+      "29118722",
+      "29113418",
+      "28571740",
+      "28436570",
+      "27703192",
+      "26919250",
+      "25833891",
+      "24904744",
+      "24797481",
+      "24733068",
+      "24220850",
+      "24167585",
+      "22767436",
+      "21900150",
+      "21494231",
+      "20956975",
+      "19114990",
+      "18775362",
+      "17956727",
+      "16790475",
+      "15664998",
+      "15520336",
+      "11782441",
+      "10072786",
+      "9367890",
+      "7574486",
+      "5336210",
+      "2006196"
+    ],
+    "similar": [
+      "36755591",
+      "35920128",
+      "27255637",
+      "25847080",
+      "18203713",
+      "24982018",
+      "18584948",
+      "31038259",
+      "35054838",
+      "33712067",
+      "36293138",
+      "24232498",
+      "21039998",
+      "23238999",
+      "33743412",
+      "36450849",
+      "39147236",
+      "33684566",
+      "36380113",
+      "16210377",
+      "26109067",
+      "26498061",
+      "27592552",
+      "30134207",
+      "37429144",
+      "15308623",
+      "32720112",
+      "38632591",
+      "28651950",
+      "29288588",
+      "32579400",
+      "23280878",
+      "25986621",
+      "20097210",
+      "35787089",
+      "31861646",
+      "32105664",
+      "24300824",
+      "25943560",
+      "24530909",
+      "32326181",
+      "17917885",
+      "33021719",
+      "28367764",
+      "24556500",
+      "28056548",
+      "33825675",
+      "35983694",
+      "24798646",
+      "35340882",
+      "32919095",
+      "36152739",
+      "27864366",
+      "33123912",
+      "38969042",
+      "24252344",
+      "27395058",
+      "35263629",
+      "31847906",
+      "28122918",
+      "12954078",
+      "31752244",
+      "28606512",
+      "31709279",
+      "17673669",
+      "26333491",
+      "25534870",
+      "26026854",
+      "33376493",
+      "26797706",
+      "21146546",
+      "30391794",
+      "21798269",
+      "38367915",
+      "19577541",
+      "31571831",
+      "26816335",
+      "26478571",
+      "32732866",
+      "31061100",
+      "26865060",
+      "29153558",
+      "29545541",
+      "34271966",
+      "24850830",
+      "28163317",
+      "33993187",
+      "27653860",
+      "17464333",
+      "26595172",
+      "29432795",
+      "25714610",
+      "32845070",
+      "35066304",
+      "26568817",
+      "37395518",
+      "33423166",
+      "31249661",
+      "25646693",
+      "26010009"
+    ],
+    "review": [
+      "36755591",
+      "25986621"
+    ],
+    "pmc": [
+      "9900277"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-8440(23)00295-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36755591/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36755591",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

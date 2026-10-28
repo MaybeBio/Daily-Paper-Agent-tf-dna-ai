@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "39893170",
+    "doi": "10.1038/s41540-025-00493-2",
+    "title": "Network analyses of brain tumor multiomic data reveal pharmacological opportunities to alter cell state transitions."
+  },
+  "content": {
+    "abstract": "Glioblastoma Multiforme (GBM) remains a particularly difficult cancer to treat, and survival outcomes remain poor. In addition to the lack of dedicated drug discovery programs for GBM, extensive intratumor heterogeneity and epigenetic plasticity related to cell-state transitions are major roadblocks to successful drug therapy in GBM. To study these phenomenon, publicly available snRNAseq and bulk RNAseq data from patient samples were used to categorize cells from patients into four cell states (i.e., phenotypes), namely: (i) neural progenitor-like (NPC-like), (ii) oligodendrocyte progenitor-like (OPC-like), (iii) astrocyte-like (AC-like), and (iv) mesenchymal-like (MES-like). Patients were subsequently grouped into subpopulations based on which cell-state was the most dominant in their respective tumor. By incorporating phosphoproteomic measurements from the same patients, a protein-protein interaction network (PPIN) was constructed for each cell state. These four-cell state PPINs were pooled to form a single Boolean network that was used for in silico protein knockout simulations to investigate mechanisms that either promote or prevent cell state transitions. Simulation results were input into a boosted tree machine learning model which predicted the cell states or phenotypes of GBM patients from an independent public data source, the Glioma Longitudinal Analysis (GLASS) Consortium. Combining the simulation results and the machine learning predictions, we generated hypotheses for clinically relevant causal mechanisms of cell state transitions. For example, the transcription factor TFAP2A can be seen to promote a transition from the NPC-like to the MES-like state. Such protein nodes and the associated signaling pathways provide potential drug targets that can be further tested in vitro and support cell state-directed (CSD) therapy.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Brain Neoplasms/genetics/metabolism/drug therapy/pathology",
+      "*Glioblastoma/genetics/metabolism/drug therapy/pathology",
+      "Protein Interaction Maps",
+      "Computational Biology/methods",
+      "Proteomics/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bumbaca, Brandon",
+        "Huggins, Jonah R",
+        "Birtwistle, Marc R",
+        "Gallo, James M"
+      ],
+      "short_names": [
+        "Bumbaca B",
+        "Huggins JR",
+        "Birtwistle MR",
+        "Gallo JM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7053-4954",
+        "ORCID: 0000-0002-0341-0705",
+        "ORCID: 0000-0003-1553-4817"
+      ],
+      "affiliations": [
+        "Department of Pharmaceutical Sciences, School of Pharmacy and Pharmaceutical Sciences, University at Buffalo, Buffalo, NY, USA. bbumbaca@buffalo.edu.",
+        "Department of Chemical and Biomolecular Engineering, Clemson University, Clemson, SC, USA.",
+        "Department of Chemical and Biomolecular Engineering, Clemson University, Clemson, SC, USA.",
+        "Department of Bioengineering, Clemson University, Clemson, SC, USA.",
+        "Department of Pharmaceutical Sciences, School of Pharmacy and Pharmaceutical Sciences, University at Buffalo, Buffalo, NY, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bumbaca, Brandon",
+        "short_name": "Bumbaca B",
+        "identifiers": [
+          "0000-0001-7053-4954"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmacy and Pharmaceutical Sciences, University at Buffalo, Buffalo, NY, USA. bbumbaca@buffalo.edu."
+        ]
+      },
+      {
+        "full_name": "Huggins, Jonah R",
+        "short_name": "Huggins JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Clemson University, Clemson, SC, USA."
+        ]
+      },
+      {
+        "full_name": "Birtwistle, Marc R",
+        "short_name": "Birtwistle MR",
+        "identifiers": [
+          "0000-0002-0341-0705"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Clemson University, Clemson, SC, USA.",
+          "Department of Bioengineering, Clemson University, Clemson, SC, USA."
+        ]
+      },
+      {
+        "full_name": "Gallo, James M",
+        "short_name": "Gallo JM",
+        "identifiers": [
+          "0000-0003-1553-4817"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmacy and Pharmaceutical Sciences, University at Buffalo, Buffalo, NY, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NPJ systems biology and applications"
+    ],
+    "journal_abbrev": [
+      "NPJ Syst Biol Appl"
+    ],
+    "pub_date": "2025 Feb 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/02 05:10",
+    "fetched_at": "2026-09-30 10:35:31"
+  },
+  "links": {
+    "cites": [
+      "41511341"
+    ],
+    "refs": [
+      "37433817",
+      "37330579",
+      "36699385",
+      "36642831",
+      "36539501",
+      "36104561",
+      "34932099",
+      "34594038",
+      "34528760",
+      "34424912",
+      "34087162",
+      "34062119",
+      "33766119",
+      "33681822",
+      "33577785",
+      "33502086",
+      "33462507",
+      "33362239",
+      "33199490",
+      "32641768",
+      "32607472",
+      "32437507",
+      "32332754",
+      "32142659",
+      "32101725",
+      "31728204",
+      "31340985",
+      "31327527",
+      "31167470",
+      "30992437",
+      "30912184",
+      "30200436",
+      "30187121",
+      "30119081",
+      "29457794",
+      "29432615",
+      "29321659",
+      "29091775",
+      "28881959",
+      "28855349",
+      "28697342",
+      "28607484",
+      "28263967",
+      "27898060",
+      "27806376",
+      "26771021",
+      "25605792",
+      "25516281",
+      "24925914",
+      "24706837",
+      "24352766",
+      "24120142",
+      "23182702",
+      "22854781",
+      "21848914",
+      "20714216",
+      "20555079",
+      "20150378",
+      "20129251",
+      "20032975",
+      "19228619",
+      "18772890",
+      "18772396",
+      "16818626",
+      "16530701",
+      "15758010",
+      "10841526"
+    ],
+    "similar": [
+      "39893170",
+      "38826227",
+      "38766170",
+      "34301218",
+      "38650010",
+      "26295306",
+      "33671112",
+      "40473799",
+      "31298733",
+      "38698847",
+      "32243127",
+      "38684700",
+      "32467990",
+      "40874786",
+      "41235227",
+      "38864705",
+      "38848360",
+      "29969452",
+      "40084746",
+      "39326421",
+      "26514451",
+      "40222970",
+      "33657365",
+      "40362575",
+      "39115241",
+      "30952620",
+      "40148380",
+      "41096621",
+      "30401645",
+      "35414102",
+      "40301302",
+      "36054938",
+      "27419830",
+      "40362216",
+      "40813896",
+      "27705931",
+      "29669750",
+      "38619743",
+      "35441887",
+      "39184354",
+      "39733415",
+      "38554116",
+      "39424705",
+      "29767255",
+      "31973233",
+      "25360666",
+      "32094299",
+      "41097037",
+      "31462285",
+      "40883024",
+      "39629136",
+      "40806540",
+      "24146797",
+      "29700308",
+      "30816530",
+      "41275140",
+      "41489302",
+      "28571041",
+      "40524155",
+      "35109816",
+      "25415071",
+      "32616845",
+      "31232447",
+      "40317362",
+      "39946771",
+      "23404835",
+      "26245897",
+      "27764801",
+      "40188875",
+      "16623952",
+      "40381621",
+      "41041071",
+      "23918370",
+      "41316429",
+      "41023048",
+      "39754188",
+      "40869207",
+      "34516348",
+      "39833546",
+      "30376874",
+      "38773970",
+      "40263417",
+      "27530866",
+      "40993804",
+      "36853018",
+      "33406529",
+      "40490203",
+      "39936963",
+      "30864699",
+      "41208987",
+      "29129044",
+      "28286260",
+      "41267067",
+      "30953361",
+      "38967113",
+      "33176854",
+      "35710828",
+      "32075484",
+      "25361488",
+      "39332586"
+    ],
+    "review": [
+      "39893170",
+      "26514451",
+      "39424705",
+      "40869207"
+    ],
+    "pmc": [
+      "11787326"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41540-025-00493-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39893170/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3929",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

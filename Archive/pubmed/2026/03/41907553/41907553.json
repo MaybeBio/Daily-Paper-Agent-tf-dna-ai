@@ -1,0 +1,467 @@
+{
+  "identity": {
+    "pmid": "41907553",
+    "doi": "10.3389/fendo.2026.1772033",
+    "title": "Daixie recipe ameliorates diet-induced MASH in mice via activating PI3K/AKT and Keap1/Nrf2 signaling."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Metabolic dysfunction-associated steatohepatitis (MASH) is a highly prevalent liver disease that can progress to cirrhosis and hepatocellular carcinoma. Despite its growing clinical burden, effective therapies remain limited. Daixie recipe (DXR), derived from Danggui Shaoyao San in Jingui Yaolue, has shown notable clinical efficacy in treating MASH, yet its underlying pharmacological mechanisms remain to be clarified. PURPOSE: To clarify the pharmacological effects of DXR and to elucidate the underlying mechanisms of DXR for treating MASH. METHODS: UHPLC-Q-Orbitrap HRMS was used to identify the phytochemcials in DXR. The key targets and ingredients for combating MASH were explored by using a suite of in vitro and in vivo experiments, as well as molecular dynamics simulations and bioinformatics analysis. The MASH model was established in C57BL/6 male mice by feeding either a high-fat, high-fructose, high-cholesterol diet or a methionine- and choline-deficient (MCD) diet. ELISA and Western Blotting were used to measure liver tissue pathology, serum biochemistry, lipid synthesis enzymes, oxidative stress markers, pro-inflammatory mediators, apoptosis-related factors, and p-AKT1, Nrf2, and HO-1 expression. The effects of DXR on the PI3K/AKT pathway and Keap1/Nrf2 signaling were analyzed in free fatty acid-induced AML12 cells and HEK293-Nrf2-Luc cells. RESULTS: DXR shows significant therapeutic efficacy in ameliorating hepatic steatosis and inflammation, as evidenced by the marked reduction in the levels of serum biomarkers (such as ALT, AST, TG, TC, and LDL-c). Phytochemcial analysis coupling with network pharmacology analyses identify key targets of DXR for treating MASH, including AKT1, EGFR, TP53, STAT3, and IL6, with biological processes related to oxidative stress. Further investigations show that DXR significantly up-regulates p-AKT1, Nrf2, and HO-1, suggesting that this recipe activates both the PI3K/AKT and Keap1/Nrf2 signaling pathways. It is also found that DXR down-regulates the expression levels of key lipogenic enzymes (such as FASN, SCD1, and ACC1) but upregulates CPT1a in hepatocytes. DXR also exhibits significant antioxidant and anti-inflammatory effects, as demonstrated by a marked reduction in MDA levels and inflammatory cytokines (TNF-alpha, IL-1beta, and IL-6), along with the increased activity levels of both SOD and GSH-Px. Additionally, DXR reduces hepatocyte apoptosis by up-regulating Bcl-2 and down-regulating Bax. Molecular dynamics simulations and luciferase reporter assays show that four flavonoids in DXR are key active constituents to activate the PI3K/AKT and Keap1/Nrf2 signaling pathways. Specifically, quercetin promotes AKT1 phosphorylation, while four flavonoids activate Nrf2 signaling, with apigenin exhibiting the most potent effect. CONCLUSIONS: DXR effectively ameliorates MASH in a mouse model by reducing hepatic steatosis, inflammation, and oxidative stress. Its mechanism of action involves the suppression of lipid synthesis and the prevention of hepatocyte apoptosis, achieved by modulating key anti-inflammatory and antioxidant signaling pathways. Flavonoids (such as apigenin and quercetin) are identified as the key active ingredients in DXR responsible for activating Keap1/Nrf2 and PI3K/AKT signaling pathways.",
+    "keywords": [
+      "Daixie recipe (DXR)",
+      "Keap1/Nrf2 signaling pathway",
+      "PI3K/Akt signaling pathway",
+      "hepatocyte apoptosis",
+      "metabolic dysfunction-associated steatohepatitis (MASH)",
+      "oxidative stress"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Kelch-Like ECH-Associated Protein 1/metabolism",
+      "*NF-E2-Related Factor 2/metabolism",
+      "*Proto-Oncogene Proteins c-akt/metabolism",
+      "Mice",
+      "*Signal Transduction/drug effects",
+      "Male",
+      "*Phosphatidylinositol 3-Kinases/metabolism",
+      "*Drugs, Chinese Herbal/pharmacology",
+      "Mice, Inbred C57BL",
+      "Diet, High-Fat/adverse effects",
+      "*Non-alcoholic Fatty Liver Disease/metabolism/drug therapy/etiology",
+      "*Fatty Liver/metabolism/drug therapy/etiology/pathology",
+      "Oxidative Stress/drug effects",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Xiaoli",
+        "You, Jiawen",
+        "Deng, Yanyan",
+        "Hu, Yiren",
+        "Qi, Shenglan",
+        "Li, Qian",
+        "Yang, Yunyi",
+        "Qu, Xiaoxiao",
+        "Shao, Yanting",
+        "Fu, Xinyi",
+        "Yang, Shiyu",
+        "Wang, Zhiying",
+        "Li, Yunhao",
+        "Zheng, Min",
+        "Liu, Wei",
+        "Yang, Hongjie",
+        "Ge, Guangbo",
+        "Yao, Zheng",
+        "He, Yanming"
+      ],
+      "short_names": [
+        "He X",
+        "You J",
+        "Deng Y",
+        "Hu Y",
+        "Qi S",
+        "Li Q",
+        "Yang Y",
+        "Qu X",
+        "Shao Y",
+        "Fu X",
+        "Yang S",
+        "Wang Z",
+        "Li Y",
+        "Zheng M",
+        "Liu W",
+        "Yang H",
+        "Ge G",
+        "Yao Z",
+        "He Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Shanghai Frontiers Science Center of Traditional Chinese Medicine (TCM) Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Traditional Chinese Medicine, Zhuanqiao Community Health Service Center, Shanghai, China.",
+        "Key Laboratory of Liver and Kidney Diseases (Ministry of Education), Institute of Liver Diseases, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Shanghai Frontiers Science Center of Traditional Chinese Medicine (TCM) Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Key Laboratory of Liver and Kidney Diseases (Ministry of Education), Institute of Liver Diseases, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Shanghai Frontiers Science Center of Traditional Chinese Medicine (TCM) Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Xiaoli",
+        "short_name": "He X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "You, Jiawen",
+        "short_name": "You J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Yanyan",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Traditional Chinese Medicine (TCM) Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yiren",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Zhuanqiao Community Health Service Center, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Shenglan",
+        "short_name": "Qi S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Liver and Kidney Diseases (Ministry of Education), Institute of Liver Diseases, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qian",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Traditional Chinese Medicine (TCM) Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yunyi",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Qu, Xiaoxiao",
+        "short_name": "Qu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Yanting",
+        "short_name": "Shao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Xinyi",
+        "short_name": "Fu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Shiyu",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhiying",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yunhao",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Min",
+        "short_name": "Zheng M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wei",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Liver and Kidney Diseases (Ministry of Education), Institute of Liver Diseases, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Hongjie",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Guangbo",
+        "short_name": "Ge G",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Traditional Chinese Medicine (TCM) Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Zheng",
+        "short_name": "Yao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "He, Yanming",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Center of Experimental Animals, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in endocrinology"
+    ],
+    "journal_abbrev": [
+      "Front Endocrinol (Lausanne)"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/30 12:48",
+    "fetched_at": "2026-10-01 17:34:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40860880",
+      "40803572",
+      "40590228",
+      "40494889",
+      "40327083",
+      "39733550",
+      "39468621",
+      "39097726",
+      "39001962",
+      "38851997",
+      "38617542",
+      "38451123",
+      "37925004",
+      "37852100",
+      "37679454",
+      "37208742",
+      "36384580",
+      "36209983",
+      "34681695",
+      "34326769",
+      "33953586",
+      "33476308",
+      "33342543",
+      "33185364",
+      "33178326",
+      "32574624",
+      "32452701",
+      "32207804",
+      "31737171",
+      "28930295",
+      "28001083",
+      "27342212",
+      "26997538",
+      "26928243",
+      "26823198",
+      "26707365",
+      "26463593",
+      "23895155"
+    ],
+    "similar": [
+      "41907553",
+      "41690038",
+      "41038150",
+      "41865215",
+      "41455169",
+      "39805761",
+      "41308396",
+      "40517619",
+      "41093119",
+      "40350886",
+      "40020792",
+      "40683423",
+      "42061567",
+      "41831735",
+      "33977953",
+      "42543339",
+      "41990925",
+      "41962267",
+      "41905728",
+      "40368273",
+      "42431285",
+      "41547913",
+      "41887383",
+      "35926779",
+      "39577223",
+      "38750475",
+      "40543693",
+      "39209138",
+      "41666508",
+      "40812556",
+      "39442744",
+      "39962463",
+      "39922149",
+      "41344517",
+      "38878526",
+      "41047055",
+      "23867319",
+      "38104880",
+      "38990057",
+      "39038503",
+      "38458086",
+      "42017543",
+      "39708935",
+      "42276391",
+      "39571827",
+      "39864603",
+      "32106596",
+      "39706064",
+      "42416832",
+      "41964679",
+      "39571916",
+      "41151450",
+      "42450300",
+      "33186701",
+      "33406386",
+      "41087767",
+      "38621978",
+      "41905731",
+      "35605918",
+      "39287141",
+      "25701356",
+      "38669969",
+      "41494249",
+      "41167512",
+      "39908585",
+      "41276549",
+      "42173417",
+      "41057370",
+      "40914217",
+      "34648903",
+      "38583728",
+      "42421348",
+      "41518995",
+      "41363052",
+      "39233848",
+      "25045414",
+      "42205105",
+      "40146248",
+      "41360503",
+      "36403742",
+      "40752599",
+      "40332054",
+      "31885821",
+      "40684491",
+      "42522177",
+      "42336298",
+      "32219872",
+      "40139580",
+      "40615099",
+      "40020626",
+      "40045550",
+      "38789816",
+      "40737847",
+      "35926351",
+      "39128305",
+      "41355131",
+      "36548730",
+      "40118958",
+      "33379332",
+      "42021886"
+    ],
+    "review": [
+      "41907553"
+    ],
+    "pmc": [
+      "13021464"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41907553/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3953",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fendo.2026.1772033",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

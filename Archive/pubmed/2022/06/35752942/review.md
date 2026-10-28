@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) for a study on p53 phosphorylation by CK1δ using molecular dynamics simulations.
+- **Assessment boundary** The review is limited to the scientific content, methodology, and claims presented in the provided text. No external data, supplementary figures, or unpublished materials were available for assessment.
+- **Shared manuscript claim summary** The authors propose a mechanistic model for the sequential phosphorylation of p53 at Thr18 by CK1δ, which requires prior phosphorylation at Ser15. Using accelerated molecular dynamics (aMD) simulations, they suggest that phosphorylated Ser15 is sequestered by a positively charged pocket on CK1δ, orienting Thr18 near ATP for phosphate transfer, and that this process involves an electrostatically driven induced fit mechanism forming a fuzzy complex.
+- **Visible evidence base** The manuscript provides simulation-based evidence including: free peptide conformational analysis (Rg, end-to-end distance, helicity), bound peptide analysis (Rg, helicity, intermolecular interactions), distance measurements between Thr18 and ATP γ-phosphate, binding energy calculations (MMPBSA), alanine scanning, and structural observations of the CK1δ pocket. Supporting figures are referenced but not provided.
+- **Missing materials affecting confidence** Supplementary figures (S1–S8), simulation trajectory data, force field parameter details for phosphorylated serine, convergence criteria details, and any experimental validation data are not available. The absence of these materials limits full verification of the claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a plausible computational model for the sequential phosphorylation of p53 at Thr18 by CK1δ. The study addresses a biologically relevant question and employs appropriate simulation techniques (aMD) to enhance conformational sampling. However, the conclusions are based solely on computational predictions without experimental validation, and several methodological details and analyses are insufficiently described to fully support the mechanistic claims. The model is interesting but the evidence presented is not yet conclusive.
+- **Who would be interested in the results, and why** Researchers in the fields of p53 biology, kinase signaling, post-translational modification, and intrinsically disordered proteins would find this study relevant. The proposed mechanism of sequential phosphorylation and the concept of a fuzzy complex in kinase-substrate recognition could inform experimental designs and drug discovery efforts targeting the p53-MDM2 axis or CK1δ activity.
+- **Major strengths** The study addresses a specific and important mechanistic question. The use of aMD is appropriate for sampling disordered peptide conformations. The authors consider both free and bound states, and include binding energy calculations and alanine scanning to support their model. The discussion contextualizes findings within existing literature and proposes testable hypotheses.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "phosphorylated Ser15 is sequestered in a positively charged region of the kinase which then holds the remaining peptide, thus localizing Thr18 to the vicinity of the ATP with its hydroxyl oriented in position to accept the incoming phosphate from ATP."
+  - **Evidence pointer** Results section, "Effect of Ser15 phosphorylation on the structure of CK1δ" and "Phosphorylated p53 peptide binds more strongly to CK1δ"; Figures 4 and 5 (referenced, not provided).
+  - **Concern** The central mechanistic claim relies on the distance between Thr18 and ATP γ-phosphate and the orientation of the Thr18 hydroxyl. While a major peak at 5 Å is reported for the phosphorylated peptide, the manuscript does not provide a clear threshold or comparative analysis demonstrating that this distance is catalytically competent. The orientation of the hydroxyl group is described qualitatively but not quantified. Furthermore, the structural basis for the "induced fit" mechanism is not rigorously established; the authors infer it from increased flexibility and binding energy, but do not show a clear conformational selection versus induced fit distinction.
+  - **Why it matters** The core conclusion of the paper is that Ser15 phosphorylation primes Thr18 for phosphorylation by orienting it correctly. Without a robust quantitative analysis of the distance and orientation distributions, and without a clear demonstration of the induced fit mechanism, the mechanistic claim is not fully supported by the data presented.
+  - **Resolution test** Provide quantitative distributions of the Thr18-γ-phosphate distance and the Thr18 hydroxyl orientation angle for both p53 and p53pSer15 complexes, with statistical comparisons. Additionally, perform a time-resolved analysis of the binding process to distinguish between conformational selection and induced fit, or provide additional simulations starting from different initial conformations to support the proposed mechanism.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the phosphorylated p53 TAD1 peptide binds more strongly to CK1δ than does p53" based on MMPBSA calculations (ΔG = −96.6 vs −79.7 kcal/mol).
+  - **Evidence pointer** Results section, "Phosphorylated p53 peptide binds more strongly to CK1δ"; Table 1 (referenced, not provided).
+  - **Concern** MMPBSA is known to be highly sensitive to the choice of parameters (e.g., solute dielectric constant, radii set) and often overestimates absolute binding energies. The manuscript does not report error estimates or standard deviations for the calculated ΔG values, nor does it describe the specific MMPBSA parameters used. The difference of ~17 kcal/mol is presented as significant, but without error bars or replicate analysis, this could be within the noise of the method. Additionally, the entropic contributions are not discussed, which are critical for binding affinity.
+  - **Why it matters** The claim of stronger binding for the phosphorylated peptide is a key supporting point for the proposed mechanism. If the binding energy difference is not robust, the argument that Ser15 phosphorylation enhances peptide recruitment to CK1δ is weakened.
+  - **Resolution test** Report the standard deviation or standard error of the mean for the MMPBSA calculations across the triplicate simulations. Provide details on the MMPBSA parameters used (e.g., PB or GB model, radii set, solute dielectric). Consider performing additional analyses such as MM/GBSA with different models or umbrella sampling to validate the binding affinity difference.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose that "upon phosphorylation at Ser15 the p53 TAD1 peptide binds to CK1δ through an electrostatically driven induced fit mechanism resulting in a flanking fuzzy complex."
+  - **Evidence pointer** Discussion section; Figures 2 and 7 (referenced, not provided).
+  - **Concern** The concept of a "flanking fuzzy complex" is introduced but not clearly defined or distinguished from other types of fuzzy complexes. The authors classify the complex as "flanking" based on the disordered termini, but the evidence for this classification is not explicitly presented. The functional implications of this type of complex for the phosphorylation reaction are not discussed in depth.
+  - **Why it matters** The classification of the complex as a specific type of fuzzy complex is a novel claim that adds conceptual value. However, without a clear definition and supporting evidence, this claim appears speculative and does not strengthen the mechanistic model.
+  - **Resolution test** Provide a clear definition of the "flanking fuzzy complex" in the context of this system, and present specific structural or dynamic evidence (e.g., residue-resolved order parameters, contact maps) that supports this classification. Discuss the potential functional consequences of this type of complex for the phosphorylation reaction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, paragraphs 1–3; Discussion, paragraph 1
+  - **Issue** The introduction and discussion contain several long, complex sentences that may be difficult for nonspecialist readers to follow. For example, the description of fuzzy complex categories in the introduction is dense and could be simplified.
+  - **Required correction** Consider breaking down long sentences and providing clearer definitions of key terms (e.g., "fuzzy complex," "induced fit," "conformational selection") for readers who may not be experts in biophysics or molecular dynamics.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Accelerated MD simulations"
+  - **Evidence pointer** Methods section, "Accelerated MD simulations"
+  - **Issue** The description of the aMD boost parameters is incomplete. The authors state that "dual-boost aMD simulations were performed with boost energies added in both the total potential energy and the dihedral energy," but they do not specify the values of the boost parameters (e.g., alpha, EthreshP, EthreshD) or how they were determined.
+  - **Required correction** Provide the specific aMD parameters used in the simulations, or cite a reference for the parameter selection protocol. This is essential for reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "MD simulations of CK1δ complexes"
+  - **Evidence pointer** Methods section, "MD simulations of CK1δ complexes"
+  - **Issue** The manuscript states that "the binding pose of the peptide to CK1δ was taken from Protein Data Bank structure 6ru7, that includes a p63 peptide." The sequence identity between the p63 peptide and the p53 peptide used in this study is not discussed. If the p63 peptide differs significantly from p53 in the region of interest, the initial binding pose may not be representative.
+  - **Required correction** Provide a sequence alignment of the p63 peptide from 6ru7 and the p53 peptide used in this study, and discuss any differences that could affect the binding mode.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on conservation
+  - **Issue** The authors state that conservation of the positively charged residues "clearly suggests that the sequential phosphorylation process with Ser15 getting phosphorylated first is likely conserved in evolution." This is an overstatement, as sequence conservation of the binding pocket does not directly demonstrate conservation of the phosphorylation order.
+  - **Required correction** Soften this claim to indicate that the conservation is "consistent with" or "suggests the possibility of" a conserved mechanism, rather than stating it "clearly suggests" the process is conserved.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative analysis of Thr18-ATP distance and orientation), R1-M2 (robustness of MMPBSA binding energy calculations).
+- **Assessment against Nature-style criteria**
+  - **Originality** The study addresses a specific mechanistic question with a computational approach. While the use of MD to study kinase-substrate interactions is not new, the focus on the sequential phosphorylation of p53 and the proposed fuzzy complex model offers some originality.
+  - **Scientific importance** The question of how phosphorylation at one site primes a subsequent phosphorylation is biologically important, particularly for p53 regulation. However, the study is purely computational and lacks experimental validation, which limits its immediate impact.
+  - **Interdisciplinary readership** The topic is relevant to structural biology, biophysics, and cancer biology. However, the heavy reliance on simulation details may limit accessibility to a broader biological audience.
+  - **Technical soundness** The simulation methodology is generally appropriate, but key analyses (distance/orientation distributions, binding energy errors) are incomplete, and the aMD parameters are not fully described. These issues need to be addressed to establish technical soundness.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that may be challenging for nonspecialists. The abstract is clear, but the introduction and discussion could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The proposed mechanism is plausible and interesting, but the current evidence is not sufficient to fully establish the claims. The authors should address the quantitative analysis of the Thr18-ATP geometry, provide robust error estimates for binding energies, and clarify the definition and evidence for the "flanking fuzzy complex."
+
+## Risk / unsupported claims
+- The claim that the "flanking fuzzy complex" is formed is not fully supported by the presented data; the classification is speculative without clear structural or dynamic evidence.
+- The claim that the sequential phosphorylation process is "likely conserved in evolution" based on sequence conservation of the binding pocket is an overstatement.
+- The claim that the Thr18 hydroxyl is "oriented in position to accept the incoming phosphate" is not quantitatively supported by the data presented.
+- The binding energy difference between p53 and p53pSer15 is presented without error estimates, making the significance of the difference unassessable.

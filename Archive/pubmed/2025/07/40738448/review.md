@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report that ajmalicine (AJM) binds to herring testis (HT) DNA via a groove binding mode, with binding affinity in the 10^5 M^-1 range, non-cooperative binding, exothermic and entropy-driven thermodynamics, non-polyelectrolytic forces dominating the interaction, and minimal perturbation of DNA structure as assessed by circular dichroism and molecular dynamics simulations.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or numerical data beyond those stated in the abstract
+- **Missing materials affecting confidence** Full methods, fluorescence titration data, Scatchard plots, thermodynamic parameter values, salt-dependent fluorescence data, iodide quenching data, urea denaturation data, dye displacement assay details, molecular docking parameters, circular dichroism spectra, molecular dynamics simulation parameters and trajectories, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting study of a plant alkaloid binding to DNA, with a reasonable combination of biophysical and computational methods. However, the abstract alone provides insufficient detail to evaluate the rigor of the experimental design, the quality of the data, or the robustness of the conclusions. Several claims are made without supporting quantitative values or statistical context. The work may be of interest to researchers in drug-DNA interactions and natural product pharmacology, but the evidence base as presented is too thin to establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers working on small molecule-DNA interactions, natural product-based drug discovery, and biophysical characterization of ligand-nucleic acid binding would find this study relevant. The focus on ajmalicine, an alkaloid with known pharmacological activity, may also attract investigators interested in repurposing or optimizing such compounds for therapeutic applications targeting DNA.
+- **Major strengths** The study combines multiple complementary biophysical techniques (fluorescence spectroscopy, salt-dependent assays, quenching, denaturation, dye displacement, circular dichroism) with computational approaches (molecular docking and molecular dynamics simulations), which is a sound strategy for characterizing ligand-DNA interactions. The claim of groove binding is supported by convergent evidence from several independent assays, which strengthens the overall conclusion.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim binding affinities in the range of 10^5 M^-1 with non-cooperative binding based on Scatchard plot analysis using the McGhee-von Hippel method.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports only a range of binding affinity values without specific numbers, error estimates, or the number of independent replicates. The McGhee-von Hippel analysis requires careful fitting of binding isotherms, and the quality of the fit, the assumptions made, and the treatment of the fluorescence data (e.g., inner filter effect corrections) are not described. Without these details, the reliability of the reported affinity and the cooperativity parameter cannot be assessed.
+  - **Why it matters** Binding affinity and cooperativity are central quantitative claims of the study. If the fitting procedure or the underlying data are flawed, the entire thermodynamic and mechanistic interpretation would be compromised.
+  - **Resolution test** Provide the full Scatchard plot, the fitted parameters with standard errors, the number of replicates, and a description of how fluorescence data were corrected for inner filter effects and how the binding model was selected.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that thermodynamic parameters indicate an exothermic binding driven by positive entropic and negative enthalpic changes.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that thermodynamic parameters were calculated from fluorescence data at varying temperatures, but no actual values for enthalpy, entropy, or Gibbs free energy are provided. The claim of "exothermic-entropy driven" binding is a specific mechanistic statement that requires quantitative support. Moreover, the temperature range used, the number of temperatures tested, and the method of analysis (e.g., van't Hoff plot) are not described.
+  - **Why it matters** Thermodynamic signatures are often used to infer binding modes and driving forces. Without the actual values and the associated errors, the reader cannot evaluate whether the claimed exothermic and entropy-driven character is statistically robust or within the expected range for groove binding.
+  - **Resolution test** Report the enthalpy, entropy, and free energy changes with uncertainties, the temperature range and number of temperatures used, and the van't Hoff or other analysis method employed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that salt-dependent fluorescence indicated that non-polyelectrolytic forces govern the interaction between AJM and DNA.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not provide the salt concentration range tested, the ionic strength dependence of the binding affinity, or the calculated contribution of polyelectrolyte versus non-polyelectrolyte forces. The conclusion that non-polyelectrolytic forces dominate is a quantitative statement that requires a plot of log K versus log [salt] and the derived slope.
+  - **Why it matters** The salt dependence is used to distinguish between electrostatic and non-electrostatic contributions to binding. Without the actual data, this claim is unsupported and cannot be verified.
+  - **Resolution test** Provide the salt-dependent binding data, the range of salt concentrations, and the derived polyelectrolyte contribution with appropriate analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that iodide quenching, urea denaturation assays, dye displacement assays, and molecular docking studies suggested groove binding of AJM to HT-DNA.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract lists these assays as evidence for groove binding but provides no quantitative results. For iodide quenching, the Stern-Volmer constant and the comparison with a known intercalator would be needed. For urea denaturation, the effect on binding affinity or melting temperature is not reported. For dye displacement, the specific dye used, the displacement efficiency, and the comparison with a known groove binder are absent. For docking, the binding pose, the interacting residues, and the docking score are not given.
+  - **Why it matters** Groove binding versus intercalation is a key mechanistic distinction. Each of these assays has known limitations and can produce ambiguous results if not properly controlled. Without the actual data, the conclusion of groove binding is not established.
+  - **Resolution test** Provide the quantitative results for each assay, including appropriate positive and negative controls, and the docking scores and binding poses.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that circular dichroism spectra showed minimal perturbation of HT-DNA upon AJM binding via the groove region, and that molecular dynamics simulation showed stability of the HT-DNA upon AJM binding.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not provide the CD spectral changes (e.g., molar ellipticity values at characteristic wavelengths), the concentration ratio of AJM to DNA, or the time scale and parameters of the molecular dynamics simulation. The claim of "minimal perturbation" is qualitative and requires quantitative comparison with control spectra. The stability claim from MD requires RMSD, RMSF, and binding energy analyses.
+  - **Why it matters** These structural and dynamic claims are used to support the groove binding mode and the overall stability of the complex. Without quantitative data, these claims are not verifiable.
+  - **Resolution test** Provide CD spectra with molar ellipticity values, the AJM:DNA ratios used, and MD simulation details including force field, simulation time, and stability metrics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract introduction
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The opening sentences are general and could be more concise. The relevance of ajmalicine specifically, beyond being a bioactive compound, is not clearly stated.
+  - **Required correction** Briefly state why ajmalicine is of particular interest for DNA binding studies, such as its known pharmacological profile or structural features.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state the broader implications of the findings for drug development or for understanding ajmalicine's mechanism of action.
+  - **Required correction** Add one or two sentences on the potential therapeutic or mechanistic significance of the groove binding mode of ajmalicine.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Binding stoichiometry claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "single preferred binding of AJM to DNA" but does not specify the binding site size or the number of base pairs occluded per bound ligand.
+  - **Required correction** Report the binding site size or the stoichiometry as determined from the McGhee-von Hippel analysis.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5. The abstract lacks the quantitative data and methodological details necessary to evaluate the central claims of binding affinity, thermodynamics, salt dependence, groove binding mode, and structural stability.
+- **Assessment against Nature-style criteria** Originality: The study of ajmalicine-DNA interaction appears to be novel, as the abstract states this has not been fully elucidated. However, the approach is standard for ligand-DNA binding studies. Scientific importance: The findings may be of interest to the drug discovery community, but the abstract does not articulate a clear advance beyond characterizing one more ligand-DNA interaction. Interdisciplinary readership: The work spans biophysics, computational chemistry, and pharmacology, which could attract a broad audience, but the abstract is too technical and lacks context for nonspecialists. Technical soundness: Cannot be assessed from the abstract alone; the missing quantitative data and methodological details are substantial. Readability for nonspecialists: The abstract is reasonably clear but uses jargon without explanation and lacks a clear statement of significance.
+
+## Risk / unsupported claims
+- The claim of non-cooperative binding with affinity in the 10^5 M^-1 range is unsupported without the actual fitted parameters and error estimates.
+- The thermodynamic characterization (exothermic, entropy-driven) is unsupported without numerical values for enthalpy, entropy, and free energy.
+- The claim that non-polyelectrolytic forces govern the interaction is unsupported without salt-dependent binding data.
+- The groove binding mode conclusion is not established without quantitative results from the listed assays and docking studies.
+- The claims of minimal DNA perturbation and stability from CD and MD are not verifiable without spectra and simulation metrics.

@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, figure legends, supplementary figure legends) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, claim support, and presentation quality based solely on the supplied text
+- **Shared manuscript claim summary** The authors present a computational pipeline using AlphaFold2-multimer to predict recombination directionality factors (RDFs) for large serine recombinases (LSRs), validate predictions experimentally for a subset of candidates, and propose that the method will expand the toolkit of integrase-RDF pairs for synthetic biology applications
+- **Visible evidence base** Abstract, introduction, methods, results, discussion, figure legends, supplementary figure legends, data availability statement
+- **Missing materials affecting confidence** Main figures (Figures 1-7) are not provided; Supplementary Figures 1-8 and Supplementary Table 1 are not provided; numerical data, statistical analyses, and raw experimental results are not available; no sequence alignments or structural coordinates are shown
+
+## Reviewer
+- **Overall assessment** The manuscript describes a conceptually appealing application of AlphaFold2-multimer to identify RDFs for LSRs, a problem of genuine practical importance given the growing use of these recombinases in genome engineering. The core idea, using predicted protein-protein interaction confidence as a proxy for functional pairing, is reasonable and timely. However, the evidence presented in the text is insufficient to fully evaluate the method's reliability, particularly regarding the false positive rate, the criteria for "confident" predictions, and the generalizability of the approach. The experimental validation is limited to a small number of cases, and the reported success rate (4 of 5 integrases) is encouraging but not statistically robust. The manuscript would benefit from clearer presentation of the prediction criteria, a more systematic analysis of failures, and additional discussion of potential limitations and alternative approaches.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, genome engineering, and phage biology would find this work relevant. The ability to rapidly identify RDFs for LSRs would enable the construction of orthogonal recombination systems for multiplexed genome editing, DNA assembly, and logic circuit design. The methodological approach, using AlphaFold2-multimer for virtual pulldown, may also interest computational biologists working on protein-protein interaction prediction.
+- **Major strengths** The problem addressed is important and timely. The use of AlphaFold2-multimer for this purpose is innovative and leverages recent advances in structure prediction. The authors include both positive controls (known RDFs) and experimental validation of new predictions, which strengthens the claims. The observation that RDFs bind a conserved region despite lacking sequence or structural homology is interesting and potentially mechanistically significant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity and reproducibility
+  - **Claim pointer** The authors state that they "automated Alphafold2-multimer to efficiently predict RDFs" and that they made "confident predictions" for 33 of 65 LSRs in the first round and 43 of 64 total.
+  - **Evidence pointer** Materials and Methods, Virtual pulldowns; Results, Prediction of new RDFs by virtual pulldown
+  - **Concern** The criteria for a "confident" or "moderate to high confidence" prediction are not defined quantitatively. The authors mention using ipTM and pTM scores and visual inspection of PAE plots, but no thresholds are provided. This makes the method difficult to reproduce or apply by others. Additionally, the decision to repeat failed pulldowns with a larger bait fragment is described qualitatively, without clear rules for when this should be done.
+  - **Why it matters** Without explicit, quantitative criteria for hit selection, the method cannot be independently applied or benchmarked. The reported success rate may depend heavily on subjective judgment, undermining the claim of a generalizable pipeline.
+  - **Resolution test** Provide explicit thresholds for ipTM, pTM, and PAE-based filtering, or a decision tree for when to use different bait constructs. Ideally, include a benchmark against a set of known RDFs with defined sensitivity and specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation scope and rigor
+  - **Claim pointer** The authors state that "RDFs for 4 of the 5 integrases picked for in vivo verification do indeed function as predicted" and that two of these were further verified in vitro.
+  - **Evidence pointer** Results, Experimental verification of newly predicted RDFs; Figure 6; Supplementary Figures 7-8
+  - **Concern** The experimental validation is limited to a small number of cases (5 integrases, 6 predicted RDFs). The authors do not report how many total predictions were made, so the validation rate is unclear. The criteria for selecting these particular integrases for testing are described as "the most active integrases" from a previous study, which may introduce selection bias. No negative controls (e.g., predicted non-RDF proteins tested for activity) are described.
+  - **Why it matters** The claim that the method "greatly expands the available genetic toolkit" depends on the false positive rate being acceptably low. With only 5 test cases, the confidence interval on the true success rate is very wide. The lack of negative controls makes it difficult to assess whether the method is specifically identifying RDFs or simply predicting any protein that can bind the integrase.
+  - **Resolution test** Report the total number of predictions made and the number tested. Include negative controls (e.g., proteins predicted to bind elsewhere on the integrase, or random phage proteins) in the experimental validation. Provide quantitative activity measurements rather than qualitative "active/inactive" calls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and completeness of the test set
+  - **Claim pointer** The authors state that they "identified putative RDFs for approximately 60% of the test set of integrases" and that the method will work for "those yet to be discovered."
+  - **Evidence pointer** Results, Prediction of new RDFs by virtual pulldown; Discussion
+  - **Concern** The test set is derived from two published collections of LSRs, which may not be representative of the full diversity of LSRs. The authors note that 24 of the remaining integrases may not have RDFs, but this is speculative. The method's performance on LSRs from different phylogenetic groups or with different domain architectures is not assessed. The authors also do not discuss how the method would perform for LSRs with very large C-terminal extensions or other unusual features.
+  - **Why it matters** The claim of general applicability is central to the manuscript's significance. If the method only works for a subset of LSRs with particular characteristics, this should be clearly stated. The 60% success rate may be an overestimate if the test set is biased toward LSRs with identifiable RDFs.
+  - **Resolution test** Apply the method to a more diverse set of LSRs, including those from different bacterial phyla and with different domain architectures. Report performance stratified by LSR characteristics. Discuss potential failure modes and how they might be addressed.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors state that "they are all predicted to bind a similar location on their cognate integrase, suggesting convergent evolution of function."
+  - **Evidence pointer** Results, Previously identified RDFs; Figure 2; Supplementary Figures 1-2
+  - **Concern** The claim of convergent evolution is based solely on predicted structures, not experimental evidence. The authors do not discuss alternative explanations, such as the possibility that AlphaFold2-multimer is biased toward predicting binding at certain protein surfaces, or that the observed similarity reflects a common evolutionary origin that is not detectable at the sequence level. The functional significance of the binding location is not experimentally tested (e.g., by mutagenesis).
+  - **Why it matters** The mechanistic claim is interesting but goes beyond the data presented. If the binding site is not functionally important, the claim of convergent evolution is weakened. The authors should either temper this claim or provide additional evidence.
+  - **Resolution test** Perform mutagenesis of the predicted binding interface and test the effect on RDF function. Discuss alternative explanations for the observed binding site conservation. If possible, compare with experimentally determined structures of LSR-RDF complexes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Presentation and clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the method identifies RDFs for "more than half" of the test set, but the exact number (43 of 64) is not given. This is imprecise and could be misleading.
+  - **Required correction** State the exact number and proportion in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Materials and Methods, Virtual pulldowns
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The description of the bait construct is incomplete. The authors state they used "the last 400 amino acids of the LSR" for some experiments, but it is unclear whether this was used for all virtual pulldowns or only for the positive controls.
+  - **Required correction** Clarify which bait construct was used for each set of predictions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, Experimental verification
+  - **Evidence pointer** Figure 6; Supplementary Figures 7-8
+  - **Issue** The results are described qualitatively (e.g., "complete switching," "essentially inactive"). No quantitative data (e.g., recombination efficiency percentages, error bars) are provided in the text.
+  - **Required correction** Provide quantitative measurements of recombination activity for all tested constructs, with appropriate controls and replicates.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The authors do not discuss potential limitations of the AlphaFold2-multimer approach, such as computational cost, dependence on input sequence quality, or the possibility of false positives due to non-specific binding predictions.
+  - **Required correction** Add a paragraph discussing limitations and potential improvements to the method.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction cites several references but does not clearly distinguish between LSRs and the related tyrosine family recombinases in terms of their utility for genome editing. This could confuse readers unfamiliar with the field.
+  - **Required correction** Briefly clarify the key differences between LSRs and tyrosine recombinases in the context of their applications.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative prediction criteria) and R1-M2 (limited experimental validation with no negative controls) are the most significant. Without addressing these, the core claim of a reliable, generalizable method is not fully supported.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The application of AlphaFold2-multimer to RDF discovery is novel and timely. While the concept of using predicted interaction confidence for functional pairing is not entirely new, its specific application to LSR-RDF systems is original.
+  - **Scientific importance** The work addresses a real bottleneck in the use of LSRs for genome engineering. Expanding the toolkit of characterized integrase-RDF pairs has clear practical value. However, the importance is somewhat tempered by the limited experimental validation and the lack of a clear benchmark against existing methods.
+  - **Interdisciplinary readership** The work bridges computational biology, structural biology, and synthetic biology. The potential applications in genome editing and genetic circuit design would interest a broad audience. However, the manuscript assumes familiarity with LSR biology and AlphaFold2, which may limit accessibility.
+  - **Technical soundness** The computational approach is reasonable, but the lack of quantitative criteria for hit selection and the small experimental validation set weaken the technical case. The in vitro validation for two pairs is a strength, but more extensive testing is needed.
+  - **Readability for nonspecialists** The manuscript is generally well-written but includes jargon and assumes background knowledge. The figures (not provided) would likely help, but the text alone is challenging for nonspecialists. The abstract is accessible, but the methods and results sections require domain expertise.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the preliminary results are encouraging, but the manuscript requires substantial revision to establish the method's reliability and generalizability. Specifically, the authors must provide quantitative prediction criteria, expand the experimental validation with appropriate controls, and address the limitations of the approach.
+
+## Risk / unsupported claims
+- The claim that the method "greatly expands the available genetic toolkit" is not fully supported given the limited number of experimentally validated predictions.
+- The claim of "convergent evolution of function" for RDFs is speculative and not directly tested.
+- The statement that "approximately 60% of the test set" yielded putative RDFs is presented without a clear definition of what constitutes a successful prediction.
+- The assertion that the method will work for "those yet to be discovered" is an extrapolation beyond the data presented.
+- The claim that C-terminal extensions may block RDF binding is speculative and not experimentally tested.
+- The statement that the method "can obviate the need for painstaking genetic experiments" is an overstatement given the limited validation and the need for experimental confirmation of predictions.

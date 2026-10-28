@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "39657630",
+    "doi": "10.1093/bib/bbae634",
+    "title": "Benchmarking recent computational tools for DNA-binding protein identification."
+  },
+  "content": {
+    "abstract": "Identification of DNA-binding proteins (DBPs) is a crucial task in genome annotation, as it aids in understanding gene regulation, DNA replication, transcriptional control, and various cellular processes. In this paper, we conduct an unbiased benchmarking of 11 state-of-the-art computational tools as well as traditional tools such as ScanProsite, BLAST, and HMMER for identifying DBPs. We highlight the data leakage issue in conventional datasets leading to inflated performance. We introduce new evaluation datasets to support further development. Through a comprehensive evaluation pipeline, we identify potential limitations in models, feature extraction techniques, and training methods, and recommend solutions regarding these issues. We show that combining the predictions of the two best computational tools with BLAST-based prediction significantly enhances DBP identification capability. We provide this consensus method as user-friendly software. The datasets and software are available at https://github.com/Rafeed-bot/DNA_BP_Benchmarking.",
+    "keywords": [
+      "BLAST",
+      "CD-HIT",
+      "DNA-binding protein",
+      "deep learning",
+      "machine learning",
+      "motif"
+    ],
+    "mesh_terms": [
+      "*Benchmarking",
+      "*Computational Biology/methods",
+      "*Software",
+      "*DNA-Binding Proteins/metabolism/genetics",
+      "Algorithms",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Xizi",
+        "Chi, Amadeus Song Yi",
+        "Lin, Andre Huikai",
+        "Ong, Tze Jet",
+        "Wong, Limsoon",
+        "Rahman, Chowdhury Rafeed"
+      ],
+      "short_names": [
+        "Luo X",
+        "Chi ASY",
+        "Lin AH",
+        "Ong TJ",
+        "Wong L",
+        "Rahman CR"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computing, National University of Singapore, Singapore 119077, Singapore.",
+        "School of Computing, National University of Singapore, Singapore 119077, Singapore.",
+        "School of Computing, National University of Singapore, Singapore 119077, Singapore.",
+        "School of Computing, National University of Singapore, Singapore 119077, Singapore.",
+        "School of Computing, National University of Singapore, Singapore 119077, Singapore.",
+        "School of Computing, National University of Singapore, Singapore 119077, Singapore."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Xizi",
+        "short_name": "Luo X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing, National University of Singapore, Singapore 119077, Singapore."
+        ]
+      },
+      {
+        "full_name": "Chi, Amadeus Song Yi",
+        "short_name": "Chi ASY",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing, National University of Singapore, Singapore 119077, Singapore."
+        ]
+      },
+      {
+        "full_name": "Lin, Andre Huikai",
+        "short_name": "Lin AH",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing, National University of Singapore, Singapore 119077, Singapore."
+        ]
+      },
+      {
+        "full_name": "Ong, Tze Jet",
+        "short_name": "Ong TJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing, National University of Singapore, Singapore 119077, Singapore."
+        ]
+      },
+      {
+        "full_name": "Wong, Limsoon",
+        "short_name": "Wong L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing, National University of Singapore, Singapore 119077, Singapore."
+        ]
+      },
+      {
+        "full_name": "Rahman, Chowdhury Rafeed",
+        "short_name": "Rahman CR",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computing, National University of Singapore, Singapore 119077, Singapore."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Nov 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/11 00:23",
+    "fetched_at": "2026-09-30 07:42:20"
+  },
+  "links": {
+    "cites": [
+      "42345194"
+    ],
+    "refs": [
+      "38986796",
+      "38048333",
+      "36926275",
+      "36408920",
+      "36274238",
+      "35693256",
+      "35609601",
+      "35443054",
+      "34912382",
+      "34791419",
+      "34743902",
+      "34265844",
+      "34232869",
+      "34037687",
+      "33990665",
+      "33986992",
+      "33390682",
+      "31898477",
+      "31350877",
+      "31123959",
+      "30601936",
+      "30316822",
+      "30032213",
+      "29753757",
+      "29287069",
+      "29097781",
+      "29036616",
+      "28514151",
+      "28132027",
+      "27907159",
+      "27787820",
+      "27490858",
+      "27411231",
+      "26213851",
+      "25240115",
+      "25196432",
+      "25184541",
+      "24475169",
+      "23180855",
+      "22868682",
+      "22198341",
+      "22039361",
+      "21342579",
+      "20192761",
+      "20156993",
+      "20089514",
+      "19385697",
+      "19008251",
+      "18846087",
+      "18175049",
+      "18042272",
+      "17910531",
+      "17624492",
+      "16899225",
+      "16845026",
+      "16731699",
+      "16551468",
+      "16284202",
+      "15980589",
+      "15769473",
+      "14986705",
+      "14630155",
+      "12758155",
+      "10592235",
+      "10075823",
+      "9570129",
+      "9377276",
+      "9305837",
+      "9254694",
+      "8601471",
+      "7265238",
+      "4124164",
+      "2644244",
+      "2422697",
+      "2231712"
+    ],
+    "similar": [
+      "39657630",
+      "36416116",
+      "37651627",
+      "38316843",
+      "32920048",
+      "39107889",
+      "35378437",
+      "25708928",
+      "38647153",
+      "38747369",
+      "38856168",
+      "39804669",
+      "28056762",
+      "34932484",
+      "40139667",
+      "33900591",
+      "34176069",
+      "29281002",
+      "31204427",
+      "37437362",
+      "30216669",
+      "36044786",
+      "30241466",
+      "32249316",
+      "29753757",
+      "36736370",
+      "38627250",
+      "36719781",
+      "30285084",
+      "38872097",
+      "31571280",
+      "33780341",
+      "32324731",
+      "27556805",
+      "33837387",
+      "33316035",
+      "39558584",
+      "30184176",
+      "38871095",
+      "31123959",
+      "32300371",
+      "39214282",
+      "33822882",
+      "35021193",
+      "30668479",
+      "38924517",
+      "36868685",
+      "34219140",
+      "38761901",
+      "31661923",
+      "38092052",
+      "32444882",
+      "33238837",
+      "26922376",
+      "32142788",
+      "31578220",
+      "33660783",
+      "33481715",
+      "31521132",
+      "39639396",
+      "30177583",
+      "26197066",
+      "39207729",
+      "39668338",
+      "38245002",
+      "38849445",
+      "34291709",
+      "35286461",
+      "38986796",
+      "27565741",
+      "28969586",
+      "39388235",
+      "24894505",
+      "39352141",
+      "31714956",
+      "36049552",
+      "39576587",
+      "38935068",
+      "40225296",
+      "34226917",
+      "34903012",
+      "39186797",
+      "38486135",
+      "34600479",
+      "28682387",
+      "29270430",
+      "40185915",
+      "33055239",
+      "34283824",
+      "32578842",
+      "33538038",
+      "39731012",
+      "35801913",
+      "38927611",
+      "38830995",
+      "34461978",
+      "36469190",
+      "35731758",
+      "39428397",
+      "39550226"
+    ],
+    "review": [
+      "39657630",
+      "31204427",
+      "30285084",
+      "33316035",
+      "30184176",
+      "36868685",
+      "38245002",
+      "31714956"
+    ],
+    "pmc": [
+      "11630855"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39657630.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39657630/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD48-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae634",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

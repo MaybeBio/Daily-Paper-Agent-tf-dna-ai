@@ -1,0 +1,24 @@
+{
+  "source": "medrxiv",
+  "id": "10.1101/2025.05.06.25327057",
+  "title": "Identification of (ultra-)rare functional promoter mutations in cancer using sequence-based deep learning models",
+  "authors": "van Lieshout T; Urzúa-Traslaviña CG; Barbadilla-Martínez L; Luong Boi MC; Westra H; Klaassen NH; Franceschini-Santos VH; Parra-Martínez M; de Ridder J; van Steensel B; Voest E; Franke LH",
+  "journal": "medRxiv",
+  "published_date": "2025-05-06",
+  "window": {
+    "start": "2025-05-05",
+    "end": "2025-05-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用序列深度学习模型PARM和Borzoi预测启动子区罕见突变的功能影响，虽涉及DNA调控序列建模，但未聚焦TF-DNA结合互作机制，方法可迁移但对象和互作深度有限。",
+  "abstract": "The identification of non-coding somatic cancer-driver mutations remains challenging due to difficulties in interpreting rare and ultra-rare variants. We hypothesized that sequence-based models can be used to systematically prioritize such mutations for their functional relevance. Here we present a computational framework that leverages sequence-based models to assess the functional impact of (ultra-)rare somatic single nucleotide variants (SNVs) in promoter regions. We analysed SNVs derived from 24,529 whole-tumour genomes from three cohorts and applied the sequence-based model PARM, which was trained on massively parallel reporter assay data. We identified up to 492 promoter regions significantly enriched for putatively functional SNVs, including known cancer-drivers such as TERT . Overall, we find that functional promoter mutations are significantly enriched in established cancer-driver genes ( p -value = 9.7·10 -5 ). Cross-cohort validation and replication using an independent sequence-based model (Borzoi) identified nine candidate cancer genes where the prioritized promoter mutations were shown to be functional by affecting gene expression levels. These genes included well known cancer genes such as including TERT, TP53 and PMS2 , but also several new candidates for which no coding mutations have previously been implicated in cancer, including PMS2, AIMP2, SASS6, RPL13A, ALKBH4, FICD and YAE1 . These findings demonstrate the utility of sequence-based models for identifying functional non-coding mutations and provide a framework for uncovering regulatory elements implicated in cancer.",
+  "abstract_zh": "非编码体细胞癌症驱动突变的识别仍具挑战性，原因在于解读罕见和超罕见变异的困难。我们假设基于序列的模型可用于系统性地优先排序此类突变以评估其功能相关性。在此，我们提出一个计算框架，利用基于序列的模型评估启动子区域中（超）罕见体细胞单核苷酸变异（SNVs）的功能影响。我们分析了来自三个队列的24,529个全肿瘤基因组中的SNVs，并应用了基于序列的模型PARM，该模型在大量平行报告基因分析数据上进行了训练。我们识别出多达492个启动子区域显著富集了推定功能性SNVs，包括已知的癌症驱动基因如TERT。总体而言，我们发现功能性启动子突变在已确立的癌症驱动基因中显著富集（p值 = 9.7·10⁻⁵）。使用独立基于序列的模型（Borzoi）进行跨队列验证和重复，识别出九个候选癌症基因，其中优先排序的启动子突变通过影响基因表达水平被证明具有功能性。这些基因包括众所周知的癌症基因如TERT、TP53和PMS2，但也包括几个此前未在癌症中涉及编码突变的新候选基因，包括PMS2、AIMP2、SASS6、RPL13A、ALKBH4、FICD和YAE1。这些发现证明了基于序列的模型在识别功能性非编码突变中的实用性，并为揭示与癌症相关的调控元件提供了框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.medrxiv.org/content/10.1101/2025.05.06.25327057",
+  "source_url": "https://www.medrxiv.org/content/10.1101/2025.05.06.25327057",
+  "paper_page_path": "papers/medrxiv/10.1101_2025.05.06.25327057/index.html"
+}

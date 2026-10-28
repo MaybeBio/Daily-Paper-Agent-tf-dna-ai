@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "38005265",
+    "doi": "10.3390/molecules28227540",
+    "title": "Study of the Anti-Inflammatory Mechanism of beta-Carotene Based on Network Pharmacology."
+  },
+  "content": {
+    "abstract": "beta-carotene is known to have pharmacological effects such as anti-inflammatory, antioxidant, and anti-tumor properties. However, its main mechanism and related signaling pathways in the treatment of inflammation are still unclear. In this study, component target prediction was performed by using literature retrieval and the SwissTargetPrediction database. Disease targets were collected from various databases, including DisGeNET, OMIM, Drug Bank, and GeneCards. A protein-protein interaction (PPI) network was constructed, and enrichment analysis of gene ontology and biological pathways was carried out for important targets. The analysis showed that there were 191 unique targets of beta-carotene after removing repeat sites. A total of 2067 targets from the three databases were integrated, 58 duplicate targets were removed, and 2009 potential disease action targets were obtained. Biological function enrichment analysis revealed 284 biological process (BP) entries, 31 cellular component (CC) entries, 55 molecular function (MF) entries, and 84 cellular pathways. The biological processes were mostly associated with various pathways and their regulation, whereas the cell components were mainly membrane components. The main molecular functions included RNA polymerase II transcription factor activity, DNA binding specific to the ligand activation sequence, DNA binding, steroid binding sequence-specific DNA binding, enzyme binding, and steroid hormone receptors. The pathways involved in the process included the TNF signaling pathway, sphingomyelin signaling pathway, and some disease pathways. Lastly, the anti-inflammatory signaling pathway of beta-carotene was systematically analyzed using network pharmacology, while the molecular mechanism of beta-carotene was further explored by molecular docking. In this study, the anti-inflammatory mechanism of beta-carotene was preliminarily explored and predicted by bioinformatics methods, and further experiments will be designed to verify and confirm the predicted results, in order to finally reveal the anti-inflammatory mechanism of beta-carotene.",
+    "keywords": [
+      "inflammatory",
+      "molecular docking",
+      "network pharmacology",
+      "beta-carotene"
+    ],
+    "mesh_terms": [
+      "*beta Carotene",
+      "Network Pharmacology",
+      "Molecular Docking Simulation",
+      "Anti-Inflammatory Agents/pharmacology",
+      "Steroids",
+      "DNA",
+      "*Drugs, Chinese Herbal"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Shilin",
+        "Chen, Ran",
+        "Chen, Jingyun",
+        "Yang, Ning",
+        "Li, Kun",
+        "Zhang, Zhen",
+        "Zhang, Rongqing"
+      ],
+      "short_names": [
+        "Wu S",
+        "Chen R",
+        "Chen J",
+        "Yang N",
+        "Li K",
+        "Zhang Z",
+        "Zhang R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8057-7624"
+      ],
+      "affiliations": [
+        "Zhejiang Provincial Key Laboratory of Applied Enzymology, Yangtze Delta Region Institute of Tsinghua University, Jiaxing 314006, China.",
+        "College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China.",
+        "Zhejiang Provincial Key Laboratory of Applied Enzymology, Yangtze Delta Region Institute of Tsinghua University, Jiaxing 314006, China.",
+        "College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China.",
+        "Zhejiang Provincial Key Laboratory of Applied Enzymology, Yangtze Delta Region Institute of Tsinghua University, Jiaxing 314006, China.",
+        "College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China.",
+        "Zhejiang Provincial Key Laboratory of Applied Enzymology, Yangtze Delta Region Institute of Tsinghua University, Jiaxing 314006, China.",
+        "College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China.",
+        "Zhejiang Provincial Key Laboratory of Applied Enzymology, Yangtze Delta Region Institute of Tsinghua University, Jiaxing 314006, China.",
+        "College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China.",
+        "Zhejiang Provincial Key Laboratory of Applied Enzymology, Yangtze Delta Region Institute of Tsinghua University, Jiaxing 314006, China.",
+        "College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China.",
+        "Zhejiang Provincial Key Laboratory of Applied Enzymology, Yangtze Delta Region Institute of Tsinghua University, Jiaxing 314006, China.",
+        "College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Shilin",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory of Applied Enzymology, Yangtze Delta Region Institute of Tsinghua University, Jiaxing 314006, China.",
+          "College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ran",
+        "short_name": "Chen R",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory of Applied Enzymology, Yangtze Delta Region Institute of Tsinghua University, Jiaxing 314006, China.",
+          "College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jingyun",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory of Applied Enzymology, Yangtze Delta Region Institute of Tsinghua University, Jiaxing 314006, China.",
+          "College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Ning",
+        "short_name": "Yang N",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory of Applied Enzymology, Yangtze Delta Region Institute of Tsinghua University, Jiaxing 314006, China.",
+          "College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Li, Kun",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory of Applied Enzymology, Yangtze Delta Region Institute of Tsinghua University, Jiaxing 314006, China.",
+          "College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhen",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0000-0001-8057-7624"
+        ],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory of Applied Enzymology, Yangtze Delta Region Institute of Tsinghua University, Jiaxing 314006, China.",
+          "College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Rongqing",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory of Applied Enzymology, Yangtze Delta Region Institute of Tsinghua University, Jiaxing 314006, China.",
+          "College of Fisheries and Life Science, Shanghai Ocean University, Shanghai 201306, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2023 Nov 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/25 12:44",
+    "fetched_at": "2026-09-29 10:44:25"
+  },
+  "links": {
+    "cites": [
+      "42451612",
+      "42356376",
+      "42180281",
+      "41872657",
+      "41572398",
+      "41459082",
+      "41377601",
+      "41300511",
+      "41300455",
+      "41225848",
+      "41012392",
+      "40806062",
+      "40508032",
+      "40429833",
+      "40371109",
+      "40330210",
+      "39972496",
+      "39280287"
+    ],
+    "refs": [
+      "37822694",
+      "37745036",
+      "37562217",
+      "37562175",
+      "37141387",
+      "36801268",
+      "36740344",
+      "36326669",
+      "36296703",
+      "36105385",
+      "35911749",
+      "35760072",
+      "35325185",
+      "34894921",
+      "33769912",
+      "33147650",
+      "33107270",
+      "32854331",
+      "32628989",
+      "32605249",
+      "32580617",
+      "32054173",
+      "31982382",
+      "31978554",
+      "31106366",
+      "30460722",
+      "30053299",
+      "29705706",
+      "28481132",
+      "27856787",
+      "27586268",
+      "26879404",
+      "24909173",
+      "23915189",
+      "23442671",
+      "23250430",
+      "22972296",
+      "22889596",
+      "22810193",
+      "22674334",
+      "18981574",
+      "18650913",
+      "18417477",
+      "18006136",
+      "17921993",
+      "17476347",
+      "14715517",
+      "12109591",
+      "12022944",
+      "9830030",
+      "9028879",
+      "9020361",
+      "1985393"
+    ],
+    "similar": [
+      "38005265",
+      "37382018",
+      "35040393",
+      "35178959",
+      "36386135",
+      "35616676",
+      "36200249",
+      "35578843",
+      "36604925",
+      "36472042",
+      "36472040",
+      "36280016",
+      "36472041",
+      "35851128",
+      "34873575",
+      "37499457",
+      "34746302",
+      "36471978",
+      "35430443",
+      "37563784",
+      "36550856",
+      "34889224",
+      "35850814",
+      "37802827",
+      "33645090",
+      "36261841",
+      "36471963",
+      "35850844",
+      "35718498",
+      "37434431",
+      "33496115",
+      "34738438",
+      "33998855",
+      "35097126",
+      "33243703",
+      "36872279",
+      "34808299",
+      "37833363",
+      "34707348",
+      "36624435",
+      "36401375",
+      "33645093",
+      "37556042",
+      "37462488",
+      "36452059",
+      "34660782",
+      "37171332",
+      "37282910",
+      "36874006",
+      "36046463",
+      "34994139",
+      "37480968",
+      "36952106",
+      "37454750",
+      "34951253",
+      "37233418",
+      "36581572",
+      "35988839",
+      "36221378",
+      "37592794",
+      "35960090",
+      "32928080",
+      "36083487",
+      "37657026",
+      "32237520",
+      "36164911",
+      "37080367",
+      "36660250",
+      "37437794",
+      "35970314",
+      "37530723",
+      "35692141",
+      "35730236",
+      "34581057",
+      "34941025",
+      "35069454",
+      "33634308",
+      "33496116",
+      "35837376",
+      "36590763",
+      "34467696",
+      "35528155",
+      "36725269",
+      "37266623",
+      "37802787",
+      "36401463",
+      "37478234",
+      "37575231",
+      "38246999",
+      "39064924",
+      "38363917",
+      "35071383"
+    ],
+    "review": [
+      "38005265",
+      "33243703"
+    ],
+    "pmc": [
+      "10673508"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules28227540",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38005265/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38005265",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "identity": {
+    "pmid": "40756416",
+    "doi": "10.2147/JIR.S528347",
+    "title": "Combined Analysis of Transcriptome and Mendelian Randomization Reveals AKT1 and PPARG as Biomarkers Related to Glucose Metabolism in Sepsis."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: This study aimed to identify diagnostic and therapeutic biomarkers related to glucose metabolism in sepsis, as hyperglycemia and blood glucose fluctuations influence sepsis progression. METHODS: Datasets from public databases were analyzed using various methods, including differential expression analysis, PPI network screening, machine learning algorithms and Mendelian randomization. A nomogram model was developed, and biomarker functions were explored through enrichment analysis, immunoinfiltration analysis, transcription factors (TFs) and microRNA (miRNA) prediction, and drug prediction. Quantitative reverse transcription-polymerase chain reaction (qRT-PCR) was performed to validate the expression of biomarkers in sepsis and control group. RESULTS: There were 3,899 differential expressed genes (DEGs) in sepsis, with 141 related to glucose metabolism. Eleven hub genes were identified from the PPI network, and six biomarkers were selected through machine learning and area under the curve (AUC) validation. Notably, PPARG (OR = 1.0730, 95% CI: 1.0330-1.1160) and AKT1 (OR = 0.9211, 95% CI: 0.8569-0.9902) had causal relationships with sepsis. The diagnostic nomogram based on these biomarkers showed good efficacy. Enrichment analysis suggested AKT1 inhibits sepsis development, while PPARG promotes it. Drug prediction indicated strong interactions between AKT1 and gigantol, and PPARG with echinatin. qRT-PCR showed reduced expression of PPARG and AKT1 in sepsis, aligning with bioinformatics predictions. CONCLUSION: In summary, AKT1 and PPARG are causally associated with sepsis, showing diagnostic potential. AKT1 may inhibit sepsis development, while PPARG may promote it. These findings provide valuable insights for sepsis diagnosis and therapeutic drug development.",
+    "keywords": [
+      "Mendelian randomization",
+      "biomarkers",
+      "glucose metabolism",
+      "sepsis",
+      "transcriptomics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Jie",
+        "Li, Wendi",
+        "Ma, Qianqian",
+        "Ding, Liying",
+        "Wang, Zhaoyun",
+        "Wang, Rong",
+        "Huang, Yanan",
+        "Ma, Gang",
+        "Gao, Jun"
+      ],
+      "short_names": [
+        "Ma J",
+        "Li W",
+        "Ma Q",
+        "Ding L",
+        "Wang Z",
+        "Wang R",
+        "Huang Y",
+        "Ma G",
+        "Gao J"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-0998-1241"
+      ],
+      "affiliations": [
+        "Department of Anesthesia and Perioperative Medicine, First People's Hospital of Yinchuan, The Second Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, 750001, People's Republic of China.",
+        "Department of Anesthesia and Perioperative Medicine, General Hospital of Ningxia Medical University, The First Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, 750004, People's Republic of China.",
+        "Department of Child Rehabilitation Education, Ningxia Rehabilitation Center for the Disabled, Yinchuan, Ningxia, 750002, People's Republic of China.",
+        "Department of Anesthesia and Perioperative Medicine, First People's Hospital of Yinchuan, The Second Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, 750001, People's Republic of China.",
+        "Department of Gynecology, Gynecology Clinic of Li Ying, Wuzhong, Ningxia, 751100, People's Republic of China.",
+        "Department of Anesthesia and Perioperative Medicine, First People's Hospital of Yinchuan, The Second Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, 750001, People's Republic of China.",
+        "Department of Anesthesia and Perioperative Medicine, First People's Hospital of Yinchuan, The Second Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, 750001, People's Republic of China.",
+        "Department of Anesthesia and Perioperative Medicine, First People's Hospital of Yinchuan, The Second Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, 750001, People's Republic of China.",
+        "Department of Anesthesia and Perioperative Medicine, General Hospital of Ningxia Medical University, The First Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, 750004, People's Republic of China.",
+        "Department of Anesthesia and Perioperative Medicine, First People's Hospital of Yinchuan, The Second Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, 750001, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Jie",
+        "short_name": "Ma J",
+        "identifiers": [
+          "0009-0005-0998-1241"
+        ],
+        "affiliations": [
+          "Department of Anesthesia and Perioperative Medicine, First People's Hospital of Yinchuan, The Second Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, 750001, People's Republic of China.",
+          "Department of Anesthesia and Perioperative Medicine, General Hospital of Ningxia Medical University, The First Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, 750004, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Wendi",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Child Rehabilitation Education, Ningxia Rehabilitation Center for the Disabled, Yinchuan, Ningxia, 750002, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ma, Qianqian",
+        "short_name": "Ma Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesia and Perioperative Medicine, First People's Hospital of Yinchuan, The Second Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, 750001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ding, Liying",
+        "short_name": "Ding L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Gynecology Clinic of Li Ying, Wuzhong, Ningxia, 751100, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhaoyun",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesia and Perioperative Medicine, First People's Hospital of Yinchuan, The Second Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, 750001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Rong",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesia and Perioperative Medicine, First People's Hospital of Yinchuan, The Second Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, 750001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yanan",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesia and Perioperative Medicine, First People's Hospital of Yinchuan, The Second Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, 750001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ma, Gang",
+        "short_name": "Ma G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesia and Perioperative Medicine, General Hospital of Ningxia Medical University, The First Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, 750004, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Gao, Jun",
+        "short_name": "Gao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesia and Perioperative Medicine, First People's Hospital of Yinchuan, The Second Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, 750001, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of inflammation research"
+    ],
+    "journal_abbrev": [
+      "J Inflamm Res"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/04 12:27",
+    "fetched_at": "2026-09-30 23:21:30"
+  },
+  "links": {
+    "cites": [
+      "42319089"
+    ],
+    "refs": [
+      "39712019",
+      "39616476",
+      "39331858",
+      "39236479",
+      "39201697",
+      "38854692",
+      "38784400",
+      "38755249",
+      "38723525",
+      "38623737",
+      "38577320",
+      "38433477",
+      "38168953",
+      "38114466",
+      "37891333",
+      "37878653",
+      "37801894",
+      "37703850",
+      "37454173",
+      "37395985",
+      "37314209",
+      "37291149",
+      "37124033",
+      "37077915",
+      "36860870",
+      "36803959",
+      "36735197",
+      "36579349",
+      "36466921",
+      "36269831",
+      "36209190",
+      "36106958",
+      "35938165",
+      "35887790",
+      "35845045",
+      "35790774",
+      "35751589",
+      "35749601",
+      "35599576",
+      "35562803",
+      "35418563",
+      "35303581",
+      "35136484",
+      "34864868",
+      "34858335",
+      "34853469",
+      "34758337",
+      "34705481",
+      "34514712",
+      "34462428",
+      "34278479",
+      "34217595",
+      "34162154",
+      "33716977",
+      "33711283",
+      "33641552",
+      "33613563",
+      "33507316",
+      "33500122",
+      "33350984",
+      "33149752",
+      "33004804",
+      "32941609",
+      "32404983",
+      "32289254",
+      "32179763",
+      "32150970",
+      "32098494",
+      "31954465",
+      "31888703",
+      "31804299",
+      "31671729",
+      "31151462",
+      "30911129",
+      "30686944",
+      "30020428",
+      "29846171",
+      "29544173",
+      "29040600",
+      "28866506",
+      "28115590",
+      "28107491",
+      "28073784",
+      "28073756",
+      "27177728",
+      "27110551",
+      "27061298",
+      "26903338",
+      "26628391",
+      "26050253",
+      "25773750",
+      "25605792",
+      "25210146",
+      "25064373",
+      "23323831",
+      "22707615",
+      "22455463",
+      "20401516",
+      "19933838",
+      "19499576",
+      "19365556",
+      "11387480"
+    ],
+    "similar": [
+      "40756416",
+      "40350654",
+      "39022342",
+      "40837006",
+      "39029061",
+      "39483475",
+      "41415264",
+      "41013727",
+      "40124361",
+      "40973872",
+      "39647286",
+      "41196851",
+      "38260098",
+      "40593846",
+      "40821971",
+      "38873611",
+      "40909263",
+      "37115484",
+      "39370621",
+      "40782973",
+      "38880160",
+      "40129981",
+      "40453984",
+      "39512836",
+      "39586719",
+      "40830558",
+      "38573982",
+      "40425742",
+      "39263286",
+      "39346628",
+      "41261618",
+      "41367897",
+      "41199372",
+      "40636121",
+      "39735547",
+      "40755754",
+      "41479901",
+      "39353384",
+      "41333919",
+      "39650552",
+      "38167131",
+      "41129337",
+      "40642087",
+      "41080564",
+      "39616476",
+      "39896814",
+      "39904039",
+      "40901474",
+      "40093012",
+      "39953444",
+      "40835946",
+      "39875572",
+      "39341952",
+      "41218493",
+      "38649912",
+      "41115648",
+      "36699262",
+      "40613196",
+      "38089628",
+      "38987624",
+      "30985693",
+      "36823662",
+      "41246299",
+      "40073855",
+      "40055592",
+      "41424725",
+      "40108736",
+      "41358199",
+      "39957315",
+      "37235492",
+      "33761636",
+      "40756031",
+      "40593053",
+      "34536521",
+      "38291374",
+      "37171501",
+      "39062507",
+      "41450821",
+      "41143248",
+      "37305753",
+      "41316541",
+      "39717623",
+      "39139563",
+      "40404777",
+      "38785203",
+      "39754246",
+      "40304330",
+      "38518057",
+      "40165133",
+      "37752822",
+      "41378206",
+      "37081490",
+      "40822862",
+      "39776247",
+      "41376372",
+      "41291841",
+      "35818227",
+      "35844622",
+      "39238373",
+      "39763654"
+    ],
+    "review": [
+      "40756416"
+    ],
+    "pmc": [
+      "12318527"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40756416/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/JIR.S528347",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

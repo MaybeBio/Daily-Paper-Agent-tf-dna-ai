@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36582986",
+  "title": "Comprehensive 100-bp resolution genome-wide epigenomic profiling data for the hg38 human reference genome.",
+  "authors": "Li, Ronnie Y; Huang, Yanting; Zhao, Zhiyue; Qin, Zhaohui S",
+  "journal": "Data in brief",
+  "published_date": "2022-12-31",
+  "window": {
+    "start": "2022-12-26",
+    "end": "2023-01-01"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提供hg38人类基因组100-bp分辨率的全基因组表观遗传谱数据资源，包含TF ChIP-seq等，可作为TF-DNA结合预测的输入特征，但本身不涉及互作建模或机制研究。",
+  "abstract": "This manuscript presents a comprehensive collection of diverse epigenomic profiling data for the human genome in 100-bp resolution with full genome-wide coverage. The datasets are processed from raw read count data collected from five types of sequencing-based assays collected by the Encyclopedia of DNA Elements consortium (ENCODE, http://www.encodeproject.org). Data from high-throughput sequencing assays were processed and crystallized into a total of 6,305 genome-wide profiles. To ensure the quality of the features, we filtered out assays with low read depth, inconsistent read counts, and poor data quality. The types of sequencing-based experiment assays include DNase-seq, histone and TF ChIP-seq, ATAC-seq, and Poly(A) RNA-seq. Merging of processed data was done by averaging read counts across technical replicates to obtain signals in about 30 million predefined 100-bp bins that tile the entire genome. We provide an example of fetching read counts using disease-related risk variants from the GWAS Catalog. Additionally, we have created a tabix index enabling fast user retrieval of read counts given coordinates in the human genome. The data processing pipeline is replicable for users' own purposes and for other experimental assays. The processed data can be found on Zenodo at https://zenodo.org/record/7015783. These data can be used as features for statistical and machine learning models to predict or infer a wide range of variables of biological interest. They can also be applied to generate novel insights into gene expression, chromatin accessibility, and epigenetic modifications across the human genome. Finally, the processing pipeline can be easily applied to data from any other genome-wide profiling assays, expanding the amount of available data.",
+  "abstract_zh": "本手稿呈现了人类基因组在100-bp分辨率下、全基因组覆盖的多种表观基因组谱数据的综合集合。这些数据集是从DNA元件百科全书联盟（ENCODE，http://www.encodeproject.org）收集的五种基于测序的检测方法中，从原始读取计数数据加工而来。高通量测序检测的数据经过处理并固化为总共6,305个全基因组谱。为确保特征质量，我们过滤掉了读取深度低、读取计数不一致和数据质量差的检测。基于测序的实验检测类型包括DNase-seq、组蛋白和TF ChIP-seq、ATAC-seq以及Poly(A) RNA-seq。处理数据的合并通过平均技术重复的读取计数来实现，从而在约3000万个预定义的100-bp区间中获得信号，这些区间覆盖整个基因组。我们提供了一个示例，展示如何使用来自GWAS Catalog的疾病相关风险变异来获取读取计数。此外，我们创建了一个tabix索引，使用户能够根据人类基因组中的坐标快速检索读取计数。数据处理流程可复现，适用于用户自身目的及其他实验检测。处理后的数据可在Zenodo上找到，网址为https://zenodo.org/record/7015783。这些数据可用作统计和机器学习模型的特征，以预测或推断多种生物学相关变量。它们还可用于生成关于人类基因组中基因表达、染色质可及性和表观遗传修饰的新见解。最后，该处理流程可轻松应用于任何其他全基因组谱检测的数据，从而扩展可用数据的数量。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36582986/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36582986/",
+  "paper_page_path": "papers/pubmed/36582986/index.html"
+}

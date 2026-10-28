@@ -1,0 +1,441 @@
+{
+  "identity": {
+    "pmid": "41489113",
+    "doi": "10.1177/15347354251408836",
+    "title": "Modified Wen Luo Tong Alleviated Chemotherapy-Induced Peripheral Neuropathy via Regulating the CX3CL1/CX3CR1 Axis Through Inhibiting NF-kappaB and STAT3 Pathways."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Chemotherapy-induced peripheral neuropathy (CIPN) is a serious clinical problem with no widely applicable solutions. Modified Wen Luo Tong (mWLT) was designed specifically for paclitaxel-related CIPN, yet its efficacy and mechanisms remain unclear. This study aimed to investigate its therapeutic effects and potential mechanisms via network pharmacology and animal experimental validation. METHODS: Paclitaxel-induced CIPN rat models were treated with mWLT pediluvium. The effect of mWLT was estimated by behavior test. The components and targets of 5 herbs in mWLT were screened from TCMSP and TCMIP databases. CIPN-related targets were retrieved from Genecards and DisGeNET. Networks of gene ontology and pathway associations related to intersection targets were constructed and visualized. A pharmacological network encompassing the intersecting genes and active components was mapped out. A protein-protein interaction network was established for these intersecting targets and visualized using Cytoscape software. Finally, the findings derived from network pharmacology were validated through a series of in vivo experiments, including ELISA, Western Blot, immunohistochemistry and RT-qPCR. Molecular docking was used to predict binding sites between small molecules of mWLT and CX3CR1. RESULTS: mWLT ameliorates mechanical withdrawal threshold of CIPN model rats. Three hundred and three targets of mWLT against CIPN were identified through intersection analysis, and 8 hub targets such as IL6, TNF and STAT3 were pinpointed. Enrichment analysis of intersection targets highlighted cellular response to cytokine stimulus, JAK-STAT3 pathway and NF-kappaB pathway. Thus, we speculated that mWLT may exert its effects by acting on IL6 and TNF, subsequently regulating IL6-JAK-STAT3 and TNFalpha-NF-kappaB signaling pathway, ultimately mitigating CIPN. Experimental validation demonstrated that mWLT significantly decreased the levels of IL-6, IL-1beta and TNF-alpha in both spinal cord and plasma. Additionally, mWLT downregulated the phosphorylation of JAK, STAT3 and NF-kappaB in spinal cord. Further analyses using Immunohistochemistry, Western Blot and ELISA confirmed that mWLT reduced the protein expression of CX3CL1. RT-qPCR results revealed downregulation of Cx3cl1 and Cx3cr1 mRNA level in spinal cord and dorsal root ganglia. Molecular docking predicts 4 potential of compounds derived from mWLT to treat CIPN targeting CX3CR1. CONCLUSION: mWLT exerts therapeutic effects in the treatment of CIPN by inhibiting CX3CL1/CX3CR1 axis and modulating JAK-STAT3 and NF-kappaB pathway.",
+    "keywords": [
+      "CX3CL1/CX3CR1 axis",
+      "JAK-STAT3 pathways",
+      "NF-kappaB pathways",
+      "chemotherapy-induced peripheral neuropathy",
+      "modified Wen Luo Tong",
+      "network pharmacology"
+    ],
+    "mesh_terms": [
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use",
+      "Molecular Docking Simulation",
+      "*Peripheral Nervous System Diseases/chemically induced/drug therapy/metabolism/pathology",
+      "STAT3 Transcription Factor/metabolism",
+      "NF-kappa B/metabolism",
+      "*Paclitaxel/adverse effects",
+      "*Chemokine CX3CL1/metabolism",
+      "*CX3C Chemokine Receptor 1/metabolism",
+      "Network Pharmacology",
+      "Signal Transduction/drug effects",
+      "Antineoplastic Agents",
+      "Rats, Sprague-Dawley",
+      "Animals",
+      "Rats",
+      "Protein Interaction Maps/drug effects",
+      "Protein Interaction Mapping",
+      "Spinal Cord/drug effects/metabolism/pathology",
+      "Ganglia, Spinal/drug effects/metabolism/pathology",
+      "Male",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Feize",
+        "Zhang, Jianjing",
+        "Wang, Hongyan",
+        "Luo, Hanwen",
+        "Lyu, Huimiao",
+        "Zhang, Yawen",
+        "Ling, Guanjing",
+        "Li, Yilin",
+        "Li, Jinghua",
+        "Wang, Wei",
+        "Wang, Qiyan",
+        "Lu, Linghui"
+      ],
+      "short_names": [
+        "Wu F",
+        "Zhang J",
+        "Wang H",
+        "Luo H",
+        "Lyu H",
+        "Zhang Y",
+        "Ling G",
+        "Li Y",
+        "Li J",
+        "Wang W",
+        "Wang Q",
+        "Lu L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4363-9221",
+        "ORCID: 0000-0002-0504-1966"
+      ],
+      "affiliations": [
+        "Beijing University of Chinese Medicine Third Affiliated Hospital, Beijing, China.",
+        "Beijing University of Chinese Medicine School of Traditional Chinese Medicine, Beijing, China.",
+        "Beijing Key Laboratory of TCM Syndrome and Formula, Beijing, China.",
+        "Ministry of Education Key Laboratory of Beijing University of Chinese Medicine, Beijing, China.",
+        "Beijing University of Chinese Medicine Third Affiliated Hospital, Beijing, China.",
+        "Beijing University of Chinese Medicine School of Traditional Chinese Medicine, Beijing, China.",
+        "Beijing Key Laboratory of TCM Syndrome and Formula, Beijing, China.",
+        "Ministry of Education Key Laboratory of Beijing University of Chinese Medicine, Beijing, China.",
+        "Beijing University of Chinese Medicine Third Affiliated Hospital, Beijing, China.",
+        "Beijing University of Chinese Medicine School of Traditional Chinese Medicine, Beijing, China.",
+        "Beijing Key Laboratory of TCM Syndrome and Formula, Beijing, China.",
+        "Ministry of Education Key Laboratory of Beijing University of Chinese Medicine, Beijing, China.",
+        "Beijing University of Chinese Medicine School of Traditional Chinese Medicine, Beijing, China.",
+        "Beijing Key Laboratory of TCM Syndrome and Formula, Beijing, China.",
+        "Ministry of Education Key Laboratory of Beijing University of Chinese Medicine, Beijing, China.",
+        "Beijing University of Chinese Medicine School of Traditional Chinese Medicine, Beijing, China.",
+        "Beijing Key Laboratory of TCM Syndrome and Formula, Beijing, China.",
+        "Ministry of Education Key Laboratory of Beijing University of Chinese Medicine, Beijing, China.",
+        "Beijing University of Chinese Medicine Third Affiliated Hospital, Beijing, China.",
+        "Beijing University of Chinese Medicine School of Traditional Chinese Medicine, Beijing, China.",
+        "Beijing Key Laboratory of TCM Syndrome and Formula, Beijing, China.",
+        "Beijing Key Laboratory of TCM Syndrome and Formula, Beijing, China.",
+        "Ministry of Education Key Laboratory of Beijing University of Chinese Medicine, Beijing, China.",
+        "Beijing University of Chinese Medicine School of Life Science, Beijing, China.",
+        "Beijing University of Chinese Medicine School of Traditional Chinese Medicine, Beijing, China.",
+        "Beijing Key Laboratory of TCM Syndrome and Formula, Beijing, China.",
+        "Ministry of Education Key Laboratory of Beijing University of Chinese Medicine, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Feize",
+        "short_name": "Wu F",
+        "identifiers": [
+          "0000-0002-4363-9221"
+        ],
+        "affiliations": [
+          "Beijing University of Chinese Medicine Third Affiliated Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jianjing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine School of Traditional Chinese Medicine, Beijing, China.",
+          "Beijing Key Laboratory of TCM Syndrome and Formula, Beijing, China.",
+          "Ministry of Education Key Laboratory of Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hongyan",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine Third Affiliated Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Hanwen",
+        "short_name": "Luo H",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine School of Traditional Chinese Medicine, Beijing, China.",
+          "Beijing Key Laboratory of TCM Syndrome and Formula, Beijing, China.",
+          "Ministry of Education Key Laboratory of Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Lyu, Huimiao",
+        "short_name": "Lyu H",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine Third Affiliated Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yawen",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine School of Traditional Chinese Medicine, Beijing, China.",
+          "Beijing Key Laboratory of TCM Syndrome and Formula, Beijing, China.",
+          "Ministry of Education Key Laboratory of Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ling, Guanjing",
+        "short_name": "Ling G",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine School of Traditional Chinese Medicine, Beijing, China.",
+          "Beijing Key Laboratory of TCM Syndrome and Formula, Beijing, China.",
+          "Ministry of Education Key Laboratory of Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yilin",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine School of Traditional Chinese Medicine, Beijing, China.",
+          "Beijing Key Laboratory of TCM Syndrome and Formula, Beijing, China.",
+          "Ministry of Education Key Laboratory of Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jinghua",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine Third Affiliated Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine School of Traditional Chinese Medicine, Beijing, China.",
+          "Beijing Key Laboratory of TCM Syndrome and Formula, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qiyan",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Key Laboratory of TCM Syndrome and Formula, Beijing, China.",
+          "Ministry of Education Key Laboratory of Beijing University of Chinese Medicine, Beijing, China.",
+          "Beijing University of Chinese Medicine School of Life Science, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Linghui",
+        "short_name": "Lu L",
+        "identifiers": [
+          "0000-0002-0504-1966"
+        ],
+        "affiliations": [
+          "Beijing University of Chinese Medicine School of Traditional Chinese Medicine, Beijing, China.",
+          "Beijing Key Laboratory of TCM Syndrome and Formula, Beijing, China.",
+          "Ministry of Education Key Laboratory of Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Integrative cancer therapies"
+    ],
+    "journal_abbrev": [
+      "Integr Cancer Ther"
+    ],
+    "pub_date": "2026 Jan-Dec",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/05 12:48",
+    "fetched_at": "2026-10-01 10:42:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39900253",
+      "39815403",
+      "39735655",
+      "38941655",
+      "38678499",
+      "38199208",
+      "37771579",
+      "37626378",
+      "37302888",
+      "37245871",
+      "36858276",
+      "36240739",
+      "35303581",
+      "34883416",
+      "34678925",
+      "34546311",
+      "33613570",
+      "33065974",
+      "32958760",
+      "32663120",
+      "32252195",
+      "30843484",
+      "30233366",
+      "29589535",
+      "29405201",
+      "29313211",
+      "29282807",
+      "29158945",
+      "29130769",
+      "28849713",
+      "27780505",
+      "27642352",
+      "27267059",
+      "25521941",
+      "25494456",
+      "25461978",
+      "24755282",
+      "24743146",
+      "23365595",
+      "21756962",
+      "20410127",
+      "20398373",
+      "18652822",
+      "16493391",
+      "7387124"
+    ],
+    "similar": [
+      "41489113",
+      "39004032",
+      "41930443",
+      "41619865",
+      "37454750",
+      "33444723",
+      "42011617",
+      "39610125",
+      "41814740",
+      "41508081",
+      "41655547",
+      "41365176",
+      "38696100",
+      "41316260",
+      "39075002",
+      "39369919",
+      "25494456",
+      "39354758",
+      "42001837",
+      "39874850",
+      "39617073",
+      "41747788",
+      "26782291",
+      "34234411",
+      "40570565",
+      "40133025",
+      "41814794",
+      "34159207",
+      "40013962",
+      "39923957",
+      "29568873",
+      "37807411",
+      "37356743",
+      "39701711",
+      "38417244",
+      "40330488",
+      "40553825",
+      "40316154",
+      "38697555",
+      "39278295",
+      "38914662",
+      "38115276",
+      "41294237",
+      "38588987",
+      "41534756",
+      "40020626",
+      "41389887",
+      "40124554",
+      "40499803",
+      "40754029",
+      "41265260",
+      "41921863",
+      "41866004",
+      "37741472",
+      "41814772",
+      "40273561",
+      "36403742",
+      "41483656",
+      "40865347",
+      "41795298",
+      "38812235",
+      "39244174",
+      "37499457",
+      "40593998",
+      "40721767",
+      "41731839",
+      "39490433",
+      "41188309",
+      "33862102",
+      "38996953",
+      "37802827",
+      "30554535",
+      "42109914",
+      "37287284",
+      "39326136",
+      "39488873",
+      "41533160",
+      "39145055",
+      "41189252",
+      "39851100",
+      "41724289",
+      "41865728",
+      "32393298",
+      "42004947",
+      "35622496",
+      "39076092",
+      "40850661",
+      "38845538",
+      "37480968",
+      "40918953",
+      "41213440",
+      "39577223",
+      "41490553",
+      "39085510",
+      "41172141",
+      "41344519",
+      "39093467",
+      "33513419",
+      "40435578",
+      "39839500"
+    ],
+    "review": [
+      "41489113"
+    ],
+    "pmc": [
+      "12775300"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1177/15347354251408836?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/peripheralnervedisorders.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Peripheral Nerve Disorders"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41489113/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CX3CL1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

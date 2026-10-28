@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific and technical soundness of the data resource, reproducibility, and utility claims
+- **Shared manuscript claim summary** The authors present a processed, uniformly formatted collection of 6,305 genome-wide epigenomic profiles at 100-bp resolution for the hg38 human reference genome, derived from five ENCODE assay types. They claim quality filtering, technical replicate merging, tabix indexing for efficient retrieval, and utility for machine learning and statistical modeling.
+- **Visible evidence base** Abstract, Data Description, Experimental Design Materials and Methods, Table 1, Fig. 1, Data Availability, Code Availability
+- **Missing materials affecting confidence** No actual data files or code were inspected. No validation metrics, quality control statistics, or comparison to existing resources are provided. No details on bin definition, genome assembly version, or handling of multi-mapping reads.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a potentially useful data resource, but the provided text is insufficient to establish technical soundness or reproducibility. The core claims about data quality, processing accuracy, and utility are not supported by quantitative evidence. The description of the pipeline is high-level and omits critical parameters. The example application is anecdotal and does not demonstrate the claimed advantage over existing resources. The manuscript reads more like a data note than a rigorous methods paper, and the evidence base is too thin for a Nature-level assessment.
+- **Who would be interested in the results, and why** Computational biologists and machine learning researchers working on regulatory genomics, variant prioritization, and epigenome annotation would be the primary audience. The resource could save significant preprocessing effort for those needing uniformly processed, genome-wide signal tracks. However, the lack of validation and quality metrics limits confidence for these users.
+- **Major strengths** The concept of providing uniformly processed, tabular, 100-bp resolution data across multiple assay types is genuinely useful. The inclusion of tabix indexing is a practical feature for efficient retrieval. The pipeline is described as replicable and applicable to other assay types, which is a positive aspect.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "To ensure the quality of the features, we filtered out assays with low read depth, inconsistent read counts, and poor data quality."
+  - **Evidence pointer** Metadata acquisition and filtering section, location not provided
+  - **Concern** The filtering criteria are described only qualitatively. The authors state they removed ENCODE audit colors red and yellow, but no thresholds, counts of removed versus retained experiments, or any quantitative quality metrics are provided. The self-imposed criteria are also vague, such as "only kept .bam files" without specifying alignment quality filters.
+  - **Why it matters** Without quantitative filtering details, users cannot assess the quality of the retained data or reproduce the filtering. The claim of quality assurance is unverifiable.
+  - **Resolution test** Provide a table or figure showing the number of experiments removed at each filtering step, with explicit thresholds for read depth, alignment quality, and audit status. Include a summary of retained data quality metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "The data processing pipeline is replicable for users' own purposes and for other experimental assays."
+  - **Evidence pointer** Read count extraction and merging section, location not provided
+  - **Concern** The pipeline description lacks critical parameters. The authors do not specify the exact version of the reference genome annotation, how 100-bp bins were defined (e.g., sliding windows, tiling, overlap handling), how multi-mapping reads were treated, or the exact R package versions and functions used. The use of the XSEDE cluster is mentioned but no job scripts or configuration files are referenced.
+  - **Why it matters** Reproducibility is a core claim. Without precise parameters and code documentation, the pipeline cannot be independently run or verified.
+  - **Resolution test** Provide a detailed step-by-step protocol with exact software versions, parameters, and a link to a versioned code repository with example inputs and outputs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation
+  - **Claim pointer** "These data can be used as features for statistical and machine learning models to predict or infer a wide range of variables of biological interest."
+  - **Evidence pointer** Example from GWAS data section, location not provided
+  - **Concern** The example using GWAS variants is described only narratively. No results are shown, no comparison to existing resources is made, and the claimed advantage over binary peak calls is not demonstrated with data. The reference to DIVAN is anecdotal and not substantiated within this manuscript.
+  - **Why it matters** The utility claim is central to the resource's value. Without a concrete demonstration of improved performance or novel insights, the claim is unsupported.
+  - **Resolution test** Provide a quantitative comparison of the continuous read-count features versus binary peak calls in a specific prediction task, with performance metrics and statistical significance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data integrity
+  - **Claim pointer** "Merging of processed data was done by averaging read counts across technical replicates to obtain signals in about 30 million predefined 100-bp bins that tile the entire genome."
+  - **Evidence pointer** Read count extraction and merging section, location not provided
+  - **Concern** The number of bins is stated as "about 30 million," but the hg38 genome is approximately 3.1 billion base pairs. At 100-bp resolution, this implies roughly 31 million bins, which is consistent. However, the authors do not specify how bins overlapping assembly gaps, alternative contigs, or decoy sequences were handled. The bin definition is not described in detail.
+  - **Why it matters** Inconsistent bin definitions across the genome can introduce artifacts in downstream analyses. Users need to know exactly which regions are covered and how boundaries are defined.
+  - **Resolution test** Provide a precise description of bin construction, including handling of non-canonical chromosomes, gaps, and blacklisted regions. Report the exact number of bins and the total genomic span covered.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1, location not provided
+  - **Issue** The table lists counts per assay type but does not indicate the number of unique cell lines, tissues, or biological conditions represented. This information is important for users to assess the diversity of the resource.
+  - **Required correction** Add columns or a supplementary table summarizing the number of unique biosamples, cell lines, and tissues per assay type.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Data and code availability section, location not provided
+  - **Issue** The GitHub repository is mentioned but no version, commit hash, or license is specified. The code is not described in terms of dependencies or installation instructions.
+  - **Required correction** Provide a versioned release with a DOI, a README with installation and usage instructions, and a list of dependencies with versions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Read count extraction
+  - **Evidence pointer** Read count extraction and merging section, location not provided
+  - **Issue** The authors state they used GenomicRanges and GenomicAlignments but do not specify how read counting was performed, such as whether strand-specific counting was used for RNA-seq or whether fragment-level counting was applied for ATAC-seq.
+  - **Required correction** Specify the exact counting function and parameters used for each assay type.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention the total data volume, file sizes, or the number of samples, which would help users assess the practical usability of the resource.
+  - **Required correction** Add a sentence summarizing the total data size and the number of unique biosamples.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** Originality: The concept of a uniformly processed, tabular, 100-bp resolution epigenomic resource is not entirely novel, as similar resources exist, but the specific combination of assay types and format may offer some originality. Scientific importance: Potentially high for computational researchers, but the lack of validation undermines the importance claim. Interdisciplinary readership: The resource could appeal to both experimental and computational biologists, but the manuscript is written primarily for a computational audience. Technical soundness: Not established from the provided evidence due to missing parameters and validation. Readability for nonspecialists: The manuscript is reasonably clear but assumes familiarity with ENCODE and genomic data formats.
+
+## Risk / unsupported claims
+- The claim that filtering ensures data quality is unsupported without quantitative metrics.
+- The claim that the pipeline is replicable is unsupported without detailed parameters and code documentation.
+- The claim that the data are useful for machine learning is unsupported without a concrete demonstration.
+- The claim that continuous read counts provide greater sensitivity than binary peak calls is unsupported within this manuscript.
+- The exact number of bins and their genomic coverage is not verifiable from the provided text.

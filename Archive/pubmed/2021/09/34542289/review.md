@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report lead optimization of the MEIS1 inhibitor MEISi-1 through synthesis of 45 novel analogues, structure-activity relationship (SAR) analysis, docking and molecular dynamics simulations, identification of 11 potent inhibitors with 4h, 4f, and 4b as most potent, favorable predicted pharmacokinetics, and absence of cytotoxicity and mutagenicity for the tested compounds.
+- **Visible evidence base** Abstract text only; no experimental details, compound structures, assay protocols, statistical analyses, or simulation parameters provided
+- **Missing materials affecting confidence** Full manuscript, synthetic schemes, biological assay data, docking and MD simulation results, pharmacokinetic prediction methods, cytotoxicity and mutagenicity assay details, compound characterization data
+
+## Reviewer
+- **Overall assessment** The abstract presents a logical and potentially valuable medicinal chemistry campaign targeting MEIS1, a transcription factor with emerging relevance in cardiac regeneration and HSC biology. The reported scope (45 analogues, SAR, computational support, preliminary safety profiling) is appropriate for a lead optimization study. However, the abstract alone provides insufficient detail to evaluate the rigor of the biological assays, the validity of the computational methods, or the robustness of the SAR conclusions. The claim that 11 compounds are "potent inhibitors" with a "better inhibitory profile" lacks quantitative context, and the most potent compounds (4h, 4f, 4b) are not placed in a comparative framework against the parent MEISi-1. The safety statements are encouraging but cannot be assessed without assay details. Overall, the work appears promising but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers in medicinal chemistry and chemical biology focused on transcription factor inhibitors, particularly those targeting MEIS1 or related homeobox proteins. Investigators studying HSC expansion for transplantation and regenerative medicine, as well as those exploring cardiac regeneration, would find the pharmacological modulation of MEIS1 of direct relevance. Computational chemists interested in docking and MD-based SAR interpretation may also find the study useful as a case example.
+- **Major strengths** The study addresses a relatively underexplored target (MEIS1) with a clear translational rationale (HSC expansion, cardiac regeneration). The synthesis of 45 analogues represents a substantial medicinal chemistry effort. The integration of SAR with computational studies (docking, MD) provides a multi-pronged approach. The inclusion of preliminary safety assessments (cytotoxicity, mutagenicity) is commendable for early-stage lead optimization.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Eleven compounds were depicted as potent inhibitors demonstrating a better inhibitory profile on MEIS1 and target genes Meis1, Hif-1alpha, and p21."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide any quantitative data (e.g., IC50 values, percentage inhibition, fold changes in gene expression) to support the designation of 11 compounds as "potent inhibitors" or to justify the claim of a "better inhibitory profile" relative to MEISi-1. Without numerical context, the potency claim is unverifiable.
+  - **Why it matters** Potency claims are central to the study's conclusion that lead optimization was successful. The absence of quantitative benchmarks prevents readers from assessing the magnitude of improvement, the statistical significance of the differences, and the biological relevance of the observed effects.
+  - **Resolution test** Provide IC50 or EC50 values for MEIS1 inhibition and quantitative gene expression data (with error bars and statistical tests) for Meis1, Hif-1alpha, and p21 for the 11 compounds and the parent MEISi-1 under identical assay conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Structure-activity relationship studies revealed the significance of a para-methoxy group on ring A and a hydrophobic moiety at the meta position of ring B."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The SAR conclusion is stated without any supporting data, such as a table of analogues with their substituents and corresponding activities, or a discussion of how the SAR was derived (e.g., matched molecular pair analysis, activity cliffs). The abstract does not indicate whether the SAR is based on the full set of 45 analogues or a subset, nor does it address potential confounding factors such as solubility or permeability differences.
+  - **Why it matters** SAR claims are the core intellectual contribution of a lead optimization study. Without transparent data linking structure to activity, the claim cannot be independently evaluated, and the utility of the SAR for future design is limited.
+  - **Resolution test** Include a comprehensive SAR table (or figure) listing all 45 analogues with substituent variations and corresponding activity values, and clearly describe the criteria used to define "significance" for each position.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Obtained biological data were supported by inhibitor docking and molecular dynamics simulation studies."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that computational studies support the biological data but provides no details on the docking protocol, scoring functions, MD simulation length, force field, or how the simulations were used to rationalize the SAR. Without this information, the claim of "support" is not assessable.
+  - **Why it matters** Computational support is only meaningful if the methods are appropriate and the results are quantitatively linked to the experimental observations. Vague statements of support do not allow reviewers or readers to judge whether the simulations add value or are merely post hoc rationalizations.
+  - **Resolution test** Describe the docking and MD methods in sufficient detail (e.g., software, parameters, validation) and show a clear correlation between computed binding metrics (e.g., binding free energies, interaction fingerprints) and experimental activity data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The predicted pharmacokinetics properties fulfill drug-likeness criteria."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which pharmacokinetic properties were predicted, which software or models were used, or which "drug-likeness criteria" were applied. The term "fulfill" implies a binary pass/fail, but no thresholds are given.
+  - **Why it matters** Pharmacokinetic predictions are only useful if the methods are transparent and the criteria are defined. Without this, the claim is unverifiable and could be misleading if the predictions are based on models with known limitations.
+  - **Resolution test** List the predicted properties (e.g., LogP, solubility, permeability, metabolic stability), the prediction tool used, and the specific criteria (e.g., Lipinski's rule of five, Veber rules) with the corresponding values for the compounds.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "compounds exerted neither cytotoxicity on human dermal fibroblasts nor mutagenicity."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that compounds showed no cytotoxicity or mutagenicity but does not specify which compounds were tested, the concentration range, the assay types (e.g., MTT, Ames test), or the positive/negative controls used. The scope of this claim is unclear.
+  - **Why it matters** Safety claims are critical for advancing compounds toward in vivo studies. Without assay details and the tested compound set, the claim cannot be evaluated, and the absence of toxicity in one cell type or one mutagenicity assay does not guarantee broader safety.
+  - **Resolution test** Specify the compounds tested, the assay formats, concentration ranges, and controls, and provide quantitative results (e.g., % viability, mutagenic index) with statistical analysis.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "MEIS1 as a promising target in the context of pharmacological inhibition, we identified a potent myeloid ecotropic viral integration site (MEIS) inhibitor" is grammatically awkward and could be misinterpreted. The term "MEIS" is used without definition, and the relationship between MEIS1 and MEIS is not clarified.
+  - **Required correction** Revise the sentence for clarity, e.g., "Given the role of MEIS1 as a promising pharmacological target, we previously identified a potent inhibitor, MEISi-1." Define "MEIS" at first use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Compound naming
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to compounds 4h, 4f, and 4b without providing any structural context or indicating how these are numbered. Readers unfamiliar with the series cannot interpret these designations.
+  - **Required correction** Briefly describe the structural features of these compounds or refer to a figure/table in the full manuscript where the structures are shown.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Background
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "our previous findings" regarding MEIS1's role in cardiac regeneration and HSC regulation but does not provide a citation or brief context. This makes it difficult for readers to understand the rationale for targeting MEIS1.
+  - **Required correction** Add a citation to the previous work or briefly describe the key evidence linking MEIS1 to these processes.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative potency data), R1-M2 (unsupported SAR claim), R1-M3 (insufficient computational detail), R1-M4 (undefined pharmacokinetic criteria), R1-M5 (incomplete safety data)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The target (MEIS1) is relatively novel in the context of small-molecule inhibition, and the study appears to build on prior work from the same group. However, the abstract does not clearly differentiate this work from existing MEIS1 inhibitors or other transcription factor-targeting strategies, so the degree of conceptual novelty is unclear.
+  - **Scientific importance** The potential applications in HSC expansion and cardiac regeneration are clinically relevant, and a validated MEIS1 inhibitor could have broad impact. However, the abstract does not provide evidence of in vivo efficacy or functional outcomes beyond gene expression changes, limiting the immediate significance.
+  - **Interdisciplinary readership** The work bridges medicinal chemistry, computational biology, and stem cell biology, which could attract a diverse audience. However, the abstract is written in a specialized manner that may not be accessible to nonspecialists, particularly regarding the SAR and computational methods.
+  - **Technical soundness** The synthetic effort (45 analogues) is substantial, but the lack of quantitative data and methodological detail in the abstract prevents assessment of the technical rigor. The computational and safety claims are particularly under-supported.
+  - **Readability for nonspecialists** The abstract is concise but assumes familiarity with MEIS1 biology, SAR terminology, and computational docking concepts. The grammatical issue noted in R1-m1 further reduces clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The study has clear potential and addresses a relevant target, but the abstract alone does not provide sufficient quantitative or methodological detail to support the central claims of potency, SAR, computational validation, and safety. A full manuscript with complete data would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The designation of 11 compounds as "potent inhibitors" with a "better inhibitory profile" is unsupported without quantitative activity data.
+- The SAR conclusion regarding the para-methoxy group on ring A and hydrophobic moiety at meta position of ring B is unsupported without a data table or analysis.
+- The claim that computational studies "supported" the biological data is unverifiable without method details.
+- The statement that predicted pharmacokinetics "fulfill drug-likeness criteria" is unverifiable without specifying the criteria and prediction methods.
+- The claim of no cytotoxicity and no mutagenicity is unverifiable without assay details, tested compounds, and concentration ranges.
+- The relative potency of 4h, 4f, and 4b compared to MEISi-1 is not stated, so the improvement over the parent compound cannot be assessed.

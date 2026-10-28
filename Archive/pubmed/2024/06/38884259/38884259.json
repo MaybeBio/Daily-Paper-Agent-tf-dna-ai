@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "38884259",
+    "doi": "10.1093/nar/gkae514",
+    "title": "Reinventing gene expression connectivity through regulatory and spatial structural empowerment via principal node aggregation graph neural network."
+  },
+  "content": {
+    "abstract": "The intricacies of the human genome, manifested as a complex network of genes, transcend conventional representations in text or numerical matrices. The intricate gene-to-gene relationships inherent in this complexity find a more suitable depiction in graph structures. In the pursuit of predicting gene expression, an endeavor shared by predecessors like the L1000 and Enformer methods, we introduce a novel spatial graph-neural network (GNN) approach. This innovative strategy incorporates graph features, encompassing both regulatory and structural elements. The regulatory elements include pair-wise gene correlation, biological pathways, protein-protein interaction networks, and transcription factor regulation. The spatial structural elements include chromosomal distance, histone modification and Hi-C inferred 3D genomic features. Principal Node Aggregation models, validated independently, emerge as frontrunners, demonstrating superior performance compared to traditional regression and other deep learning models. By embracing the spatial GNN paradigm, our method significantly advances the description of the intricate network of gene interactions, surpassing the performance, predictable scope, and initial requirements set by previous methods.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Gene Regulatory Networks",
+      "*Neural Networks, Computer",
+      "Gene Expression Regulation",
+      "Protein Interaction Maps/genetics",
+      "Transcription Factors/metabolism/genetics",
+      "Genome, Human",
+      "Algorithms",
+      "Histone Code"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yan, Fengyao",
+        "Jiang, Limin",
+        "Chen, Danqian",
+        "Ceccarelli, Michele",
+        "Guo, Yan"
+      ],
+      "short_names": [
+        "Yan F",
+        "Jiang L",
+        "Chen D",
+        "Ceccarelli M",
+        "Guo Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4702-6617",
+        "ORCID: 0000-0001-5252-3960"
+      ],
+      "affiliations": [
+        "Department of Public Health and Sciences, University of Miami, Miami, FL 33126, USA.",
+        "Department of Computer Science, University of South Carolina, Columbia, SC 29201, USA.",
+        "Department of Public Health and Sciences, University of Miami, Miami, FL 33126, USA.",
+        "Department of Public Health and Sciences, University of Miami, Miami, FL 33126, USA.",
+        "Department of Public Health and Sciences, University of Miami, Miami, FL 33126, USA.",
+        "Department of Public Health and Sciences, University of Miami, Miami, FL 33126, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yan, Fengyao",
+        "short_name": "Yan F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Public Health and Sciences, University of Miami, Miami, FL 33126, USA.",
+          "Department of Computer Science, University of South Carolina, Columbia, SC 29201, USA."
+        ]
+      },
+      {
+        "full_name": "Jiang, Limin",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Public Health and Sciences, University of Miami, Miami, FL 33126, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Danqian",
+        "short_name": "Chen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Public Health and Sciences, University of Miami, Miami, FL 33126, USA."
+        ]
+      },
+      {
+        "full_name": "Ceccarelli, Michele",
+        "short_name": "Ceccarelli M",
+        "identifiers": [
+          "0000-0002-4702-6617"
+        ],
+        "affiliations": [
+          "Department of Public Health and Sciences, University of Miami, Miami, FL 33126, USA."
+        ]
+      },
+      {
+        "full_name": "Guo, Yan",
+        "short_name": "Guo Y",
+        "identifiers": [
+          "0000-0001-5252-3960"
+        ],
+        "affiliations": [
+          "Department of Public Health and Sciences, University of Miami, Miami, FL 33126, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2024 Jul 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/17 12:42",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [
+      "40505083"
+    ],
+    "refs": [
+      "37925448",
+      "37072791",
+      "36931200",
+      "36745614",
+      "36454018",
+      "36318117",
+      "36169237",
+      "35325548",
+      "35024864",
+      "34608324",
+      "34143767",
+      "33945541",
+      "33883548",
+      "31340985",
+      "30476243",
+      "29219072",
+      "29195078",
+      "28053168",
+      "25954001",
+      "25873244",
+      "25497547",
+      "24071849",
+      "22955987",
+      "22460905",
+      "18599624",
+      "17412833",
+      "17008526",
+      "16982645",
+      "11752295"
+    ],
+    "similar": [
+      "38884259",
+      "37939200",
+      "38950180",
+      "33706810",
+      "35325548",
+      "39401117",
+      "38877401",
+      "37985457",
+      "35396274",
+      "37963003",
+      "33371891",
+      "40306096",
+      "34429265",
+      "40602636",
+      "39446541",
+      "40505083",
+      "39766779",
+      "41750401",
+      "32471347",
+      "29187152",
+      "39266676",
+      "35696650",
+      "41350235",
+      "41396756",
+      "41050338",
+      "40784939",
+      "40784875",
+      "41945943",
+      "37862225",
+      "40956752",
+      "38342857",
+      "39644579",
+      "40920362",
+      "40811188",
+      "22456606",
+      "41134033",
+      "34706640",
+      "41139924",
+      "40582680",
+      "33243142",
+      "26576632",
+      "39978104",
+      "38451769",
+      "41554051",
+      "30547796",
+      "14555624",
+      "41881288",
+      "39062717",
+      "19081792",
+      "31324140",
+      "38643595",
+      "40972418",
+      "36241966",
+      "41465557",
+      "30452523",
+      "35578674",
+      "38670157",
+      "41875143",
+      "40853813",
+      "20808951",
+      "38879931",
+      "38255770",
+      "38674382",
+      "39704704",
+      "39223474",
+      "40073281",
+      "39417321",
+      "40119464",
+      "37085776",
+      "39413889",
+      "37803123",
+      "39893390",
+      "34986805",
+      "41441912",
+      "39679439",
+      "38261340",
+      "30547400",
+      "37738898",
+      "38243703",
+      "33294129",
+      "39470307",
+      "41677071",
+      "40633682",
+      "38833802",
+      "40524427",
+      "42133704",
+      "27587684",
+      "25433699",
+      "40251476",
+      "31443612",
+      "34962260",
+      "41260212",
+      "40911636",
+      "29069589",
+      "34889446",
+      "38935070",
+      "41947419",
+      "39217862",
+      "38896510",
+      "34258781"
+    ],
+    "review": [
+      "38884259",
+      "34429265"
+    ],
+    "pmc": [
+      "11260459"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38884259/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38884259",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae514",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

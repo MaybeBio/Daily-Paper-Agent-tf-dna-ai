@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "42407419",
+    "doi": "10.1016/j.compbiolchem.2026.109219",
+    "title": "Identification of cell pyroptosis-related gene signature for prognosis in skin cutaneous melanoma."
+  },
+  "content": {
+    "abstract": "This study aims to identify a prognostic gene signature associated with cell pyroptosis and skin cutaneous melanoma (SKCM). A large amount of SKCM data was collected from the TCGA and GTEx, and differentially expressed genes were identified. By further mining public databases, genes associated with cell pyroptosis were screened to identify pyroptosis-related differentially expressed genes (PRDEGs). The biological roles of these PRDEGs were systematically characterized using Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses. Additionally, multiple SKCM prognostic models were constructed using a total of 101 machine learning algorithms in the TCGA cohort. Based on the C-index in the independent external validation cohort GSE65904, this study selected the optimal prognostic model, CoxBoost + survival-SVM. This model demonstrated favorable prognostic performance compared to that reported in previous publications. Based on this model, we developed a nomogram that integrates clinical and pathological features with the RiskScore for cell pyroptosis. Clinical correlation analysis showed that a higher RiskScore was associated with better overall survival. Additionally, GSDMD, CD274, PROM2, and GSTP1 were incorporated into the prognostic gene signature. Regulatory networks for gene features were also constructed to investigate associations among transcription factors, miRNAs, and genes.",
+    "keywords": [
+      "Cell Pyroptosis",
+      "Gene Signature",
+      "Machine Learning",
+      "Prognostic Model",
+      "Skin Cutaneous Melanoma"
+    ],
+    "mesh_terms": [
+      "*Melanoma/genetics/diagnosis/pathology",
+      "Humans",
+      "*Skin Neoplasms/genetics/diagnosis/pathology",
+      "Prognosis",
+      "*Pyroptosis/genetics",
+      "Cutaneous Malignant Melanoma",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zuo, Shuang",
+        "Zuo, Can",
+        "Song, Jinmiao",
+        "Li, Yu",
+        "Zhai, Hui"
+      ],
+      "short_names": [
+        "Zuo S",
+        "Zuo C",
+        "Song J",
+        "Li Y",
+        "Zhai H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Software, Xinjiang University, Xinjiang, China.",
+        "School of Software, Xinjiang University, Xinjiang, China.",
+        "School of Software, Xinjiang University, Xinjiang, China.",
+        "The First Affiliated Hospital of Xinjiang Medical University, Xinjiang, China.",
+        "The First Affiliated Hospital of Xinjiang Medical University, Xinjiang, China. Electronic address: zhaihui1985@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zuo, Shuang",
+        "short_name": "Zuo S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Software, Xinjiang University, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Can",
+        "short_name": "Zuo C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Software, Xinjiang University, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Song, Jinmiao",
+        "short_name": "Song J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Software, Xinjiang University, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yu",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Xinjiang Medical University, Xinjiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhai, Hui",
+        "short_name": "Zhai H",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Xinjiang Medical University, Xinjiang, China. Electronic address: zhaihui1985@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/07 04:11",
+    "fetched_at": "2026-10-05 05:44:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42407419",
+      "40460484",
+      "41656832",
+      "40903770",
+      "34604952",
+      "37950289",
+      "34903008",
+      "41938517",
+      "38279987",
+      "41613147",
+      "40547036",
+      "40755114",
+      "38879775",
+      "35855761",
+      "36086707",
+      "37539569",
+      "41229385",
+      "41006685",
+      "35957812",
+      "41254408",
+      "35940218",
+      "40607411",
+      "35373463",
+      "36438905",
+      "37086280",
+      "36060650",
+      "33031392",
+      "41286029",
+      "33823876",
+      "39799269",
+      "41409301",
+      "36818162",
+      "35434038",
+      "39355255",
+      "34291650",
+      "34613934",
+      "35232428",
+      "41078717",
+      "33877656",
+      "40596554",
+      "34517481",
+      "41208987",
+      "41573564",
+      "38755712",
+      "34660598",
+      "38364052",
+      "42483177",
+      "34809598",
+      "41840725",
+      "36513682",
+      "35116193",
+      "41425556",
+      "38766879",
+      "37541541",
+      "39052109",
+      "33164879",
+      "38881438",
+      "40012115",
+      "37304304",
+      "40200221",
+      "38555737",
+      "41158274",
+      "36173063",
+      "37722701",
+      "42238596",
+      "34721986",
+      "32799111",
+      "37267825",
+      "37031510",
+      "37673824",
+      "40091022",
+      "39083978",
+      "39213172",
+      "37847069",
+      "35018237",
+      "40350499",
+      "41558945",
+      "32902917",
+      "36071753",
+      "38898266",
+      "34327145",
+      "41021162",
+      "37004045",
+      "40224981",
+      "36086718",
+      "39835132",
+      "38363903",
+      "40604111",
+      "35443644",
+      "32964032",
+      "41574107",
+      "35574984",
+      "41996313",
+      "39167030",
+      "37955686",
+      "41535649",
+      "33169786",
+      "41804614",
+      "39820824",
+      "34384498"
+    ],
+    "review": [
+      "42407419"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(26)00346-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/skincancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Skin Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-212",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

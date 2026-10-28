@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "40733185",
+    "doi": "10.3390/molecules30142919",
+    "title": "Structure-Based Design of Small-Molecule Inhibitors of Human Interleukin-6."
+  },
+  "content": {
+    "abstract": "Human Interleukin-6 (hIL-6) is a pro inflammatory cytokine that binds to its receptor, IL-6Ralpha followed by binding to gp130 and subsequent dimerization to form a hexamer signaling complex. As a critical inflammation mediator, hIL-6 is associated with a diverse range of diseases and monoclonal antibodies in clinical use that either target IL-6Ralpha or hIL-6 to inhibit signaling. Here, we perform high-throughput structure-based computational screening using ensemble docking for small-molecule antagonists for which the target conformations were taken from 600 ns long molecular dynamics simulations of the apo protein. Prior knowledge of the contact sites from binary complex studies and experimental work was incorporated into the docking studies. The top 20 scoring ligands from the in silico studies after post analysis were subjected to in vitro functional assays. Among these compounds, the ligand with the second-highest calculated binding affinity experimentally showed an ~84% inhibitory effect on IL6-induced STAT3 reporter activity at 10 muM concentration. This finding may pave the way for designing small-molecule inhibitors of hIL-6 of therapeutic significance.",
+    "keywords": [
+      "Human Interleukin-6",
+      "binding affinity",
+      "ensemble docking",
+      "inhibitors",
+      "molecular dynamics",
+      "small molecule antagonist"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Interleukin-6/chemistry/metabolism",
+      "Molecular Docking Simulation",
+      "*Drug Design",
+      "Molecular Dynamics Simulation",
+      "*Small Molecule Libraries/chemistry/pharmacology",
+      "Ligands",
+      "Protein Binding",
+      "STAT3 Transcription Factor/metabolism",
+      "Structure-Activity Relationship",
+      "Receptors, Interleukin-6/chemistry",
+      "Binding Sites",
+      "*Interleukin-6 Inhibitors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Joshi, Ankit",
+        "Xiao, Zhousheng",
+        "Suman, Shreya",
+        "Cooper, Connor",
+        "Ha, Khanh",
+        "Carson, James A",
+        "Quarles, Leigh Darryl",
+        "Smith, Jeremy C",
+        "Gupta, Madhulika"
+      ],
+      "short_names": [
+        "Joshi A",
+        "Xiao Z",
+        "Suman S",
+        "Cooper C",
+        "Ha K",
+        "Carson JA",
+        "Quarles LD",
+        "Smith JC",
+        "Gupta M"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-7577-6282",
+        "ORCID: 0000-0002-3363-5673",
+        "ORCID: 0000-0002-2978-3227",
+        "ORCID: 0000-0001-9753-6204"
+      ],
+      "affiliations": [
+        "Computational Biophysics Lab, Indian Institute of Technology (Indian School of Mines) Dhanbad, Dhanbad 826004, Jharkhand, India.",
+        "Division of Nephrology, University of Tennessee Health Science Center, Memphis, TN 38163, USA.",
+        "Computational Biophysics Lab, Indian Institute of Technology (Indian School of Mines) Dhanbad, Dhanbad 826004, Jharkhand, India.",
+        "Biosciences Division, Oak Ridge National Lab, Oak Ridge, TN 37831, USA.",
+        "Tickle College of Engineering, University of Tennessee, Knoxville, TN 37996, USA.",
+        "Integrative Muscle Biology Laboratory, Division of Regenerative and Rehabilitation Sciences, College of Health Professions, University of Tennessee Health Science Center, Memphis, TN 38163, USA.",
+        "Division of Nephrology, University of Tennessee Health Science Center, Memphis, TN 38163, USA.",
+        "Biosciences Division, Oak Ridge National Lab, Oak Ridge, TN 37831, USA.",
+        "Computational Biophysics Lab, Indian Institute of Technology (Indian School of Mines) Dhanbad, Dhanbad 826004, Jharkhand, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Joshi, Ankit",
+        "short_name": "Joshi A",
+        "identifiers": [
+          "0009-0000-7577-6282"
+        ],
+        "affiliations": [
+          "Computational Biophysics Lab, Indian Institute of Technology (Indian School of Mines) Dhanbad, Dhanbad 826004, Jharkhand, India."
+        ]
+      },
+      {
+        "full_name": "Xiao, Zhousheng",
+        "short_name": "Xiao Z",
+        "identifiers": [
+          "0000-0002-3363-5673"
+        ],
+        "affiliations": [
+          "Division of Nephrology, University of Tennessee Health Science Center, Memphis, TN 38163, USA."
+        ]
+      },
+      {
+        "full_name": "Suman, Shreya",
+        "short_name": "Suman S",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biophysics Lab, Indian Institute of Technology (Indian School of Mines) Dhanbad, Dhanbad 826004, Jharkhand, India."
+        ]
+      },
+      {
+        "full_name": "Cooper, Connor",
+        "short_name": "Cooper C",
+        "identifiers": [],
+        "affiliations": [
+          "Biosciences Division, Oak Ridge National Lab, Oak Ridge, TN 37831, USA."
+        ]
+      },
+      {
+        "full_name": "Ha, Khanh",
+        "short_name": "Ha K",
+        "identifiers": [],
+        "affiliations": [
+          "Tickle College of Engineering, University of Tennessee, Knoxville, TN 37996, USA."
+        ]
+      },
+      {
+        "full_name": "Carson, James A",
+        "short_name": "Carson JA",
+        "identifiers": [],
+        "affiliations": [
+          "Integrative Muscle Biology Laboratory, Division of Regenerative and Rehabilitation Sciences, College of Health Professions, University of Tennessee Health Science Center, Memphis, TN 38163, USA."
+        ]
+      },
+      {
+        "full_name": "Quarles, Leigh Darryl",
+        "short_name": "Quarles LD",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nephrology, University of Tennessee Health Science Center, Memphis, TN 38163, USA."
+        ]
+      },
+      {
+        "full_name": "Smith, Jeremy C",
+        "short_name": "Smith JC",
+        "identifiers": [
+          "0000-0002-2978-3227"
+        ],
+        "affiliations": [
+          "Biosciences Division, Oak Ridge National Lab, Oak Ridge, TN 37831, USA."
+        ]
+      },
+      {
+        "full_name": "Gupta, Madhulika",
+        "short_name": "Gupta M",
+        "identifiers": [
+          "0000-0001-9753-6204"
+        ],
+        "affiliations": [
+          "Computational Biophysics Lab, Indian Institute of Technology (Indian School of Mines) Dhanbad, Dhanbad 826004, Jharkhand, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2025 Jul 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/30 06:30",
+    "fetched_at": "2026-09-30 22:50:42"
+  },
+  "links": {
+    "cites": [
+      "42312209",
+      "41774272",
+      "41562931"
+    ],
+    "refs": [
+      "38366102",
+      "37421735",
+      "36977690",
+      "36971365",
+      "36881032",
+      "36677735",
+      "36319930",
+      "35385549",
+      "35339985",
+      "34528670",
+      "33983732",
+      "33872590",
+      "33786327",
+      "33337480",
+      "33326239",
+      "33118813",
+      "33053283",
+      "32910185",
+      "32881084",
+      "32462717",
+      "32251717",
+      "30695645",
+      "30455994",
+      "30016456",
+      "29606412",
+      "29420799",
+      "28961788",
+      "28008232",
+      "27883294",
+      "27790014",
+      "27547870",
+      "27390150",
+      "27389975",
+      "26886082",
+      "26124203",
+      "26026064",
+      "25986720",
+      "25713122",
+      "24981612",
+      "24223973",
+      "24035711",
+      "23832629",
+      "23813626",
+      "23048026",
+      "22873531",
+      "21990364",
+      "21982300",
+      "21735484",
+      "21296109",
+      "21160066",
+      "21030257",
+      "19915009",
+      "19185845",
+      "18650419",
+      "18625622",
+      "18351591",
+      "17639077",
+      "17554779",
+      "16222654",
+      "16055650",
+      "15485627",
+      "14515143",
+      "12829785",
+      "11410049",
+      "11274893",
+      "11259830",
+      "11125296",
+      "11121117",
+      "10756480",
+      "10660911",
+      "9716487",
+      "9143707",
+      "9118960",
+      "8436132",
+      "8265649",
+      "7632928",
+      "7519211",
+      "2788466",
+      "2462501",
+      "2335213",
+      "2037043",
+      "1321818"
+    ],
+    "similar": [
+      "40733185",
+      "39763828",
+      "32881084",
+      "28783950",
+      "15861391",
+      "38366102",
+      "23027872",
+      "8654370",
+      "15245871",
+      "35385549",
+      "14672670",
+      "17085445",
+      "25710482",
+      "12646580",
+      "29842849",
+      "37120484",
+      "38095360",
+      "15895091",
+      "38525928",
+      "23376248",
+      "24682171",
+      "27315035",
+      "35133941",
+      "39112658",
+      "39515709",
+      "28887659",
+      "12829785",
+      "40114577",
+      "25108504",
+      "33671607",
+      "30047845",
+      "33932608",
+      "26555695",
+      "21176991",
+      "11698289",
+      "28352119",
+      "23625024",
+      "11991991",
+      "37967248",
+      "25148595",
+      "26026064",
+      "24456369",
+      "37735921",
+      "38954072",
+      "24712547",
+      "26795501",
+      "27527709",
+      "38100546",
+      "16973585",
+      "41161068",
+      "33530327",
+      "23971943",
+      "25266271",
+      "26603928",
+      "26298810",
+      "41192685",
+      "8702737",
+      "38385444",
+      "38147404",
+      "28422491",
+      "26043365",
+      "26810262",
+      "29481075",
+      "24286395",
+      "40733228",
+      "36995131",
+      "37309035",
+      "23951139",
+      "30500557",
+      "30366191",
+      "39059491",
+      "37707987",
+      "28913782",
+      "32240456",
+      "25288792",
+      "34376712",
+      "39703994",
+      "26636371",
+      "33418104",
+      "28572720",
+      "39262267",
+      "15530423",
+      "31491838",
+      "40424842",
+      "30415122",
+      "36319930",
+      "40442621",
+      "25137647",
+      "25987043",
+      "37855364",
+      "40418107",
+      "29228881",
+      "26724452",
+      "29594774",
+      "37688373",
+      "8566809",
+      "22976951",
+      "31473433",
+      "30759820",
+      "30557817"
+    ],
+    "review": [
+      "40733185",
+      "25108504"
+    ],
+    "pmc": [
+      "12298599"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules30142919",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40733185/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

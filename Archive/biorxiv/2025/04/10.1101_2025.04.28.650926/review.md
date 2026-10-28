@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, conclusion, and materials and methods. Figures and supplementary materials were not provided.
+- **Assessment boundary** The review is limited to the scientific claims, experimental design, data interpretation, and internal consistency of the provided text. No assessment of figure quality, raw data, or statistical outputs is possible without the actual figures and tables.
+- **Shared manuscript claim summary** The authors propose that azadiradione (AZD) directly binds the DNA-binding domain (DBD) of HSF1, inducing oligomerization of monomeric HSF1 independent of the leucine zipper oligomerization domain, thereby enhancing HSE-binding affinity. Conversely, AZD destabilizes pre-assembled oligomeric HSF1, promoting amyloid-like aggregation and loss of DNA binding, which is proposed as a potential anticancer mechanism.
+- **Visible evidence base** Text descriptions of fluorescence polarization (FP) binding assays, dynamic light scattering (DLS), intrinsic protein fluorescence, ANS binding, and ThT fluorescence assays. All quantitative results (Kd values, hydrodynamic radii, spectra) are reported in the text but the corresponding figures are not available for inspection.
+- **Missing materials affecting confidence** All figures and tables, raw data, statistical analysis outputs, supplementary information, and experimental replicates. The absence of figures severely limits the ability to assess data quality, curve fits, and the magnitude of reported effects.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and potentially significant question regarding the molecular mechanism of a natural product that reportedly activates HSF1. The central claim that AZD acts through the DBD and bypasses the canonical oligomerization domain is provocative and, if rigorously supported, would be of considerable interest. However, the evidence as presented in the text is insufficient to establish this claim. The study relies heavily on in vitro biophysical assays with purified protein fragments, and the interpretation of these assays is speculative in several places. The reported Kd values and fold-changes are presented without clear context of experimental variability, and the mechanistic model proposed in the Discussion goes beyond what the data can support. The manuscript would benefit from a more cautious interpretation and additional orthogonal evidence.
+- **Who would be interested in the results, and why** Researchers studying the heat shock response, HSF1 biology, protein homeostasis, and neurodegeneration would be interested in the potential of AZD as a direct HSF1 activator. The proposed context-dependent dual activity (activation of monomer, inhibition of oligomer) would also be of interest to cancer biologists exploring HSF1 as a therapeutic target. The biophysical approach to studying a small molecule binding to a transcription factor DBD may appeal to structural biologists and drug discovery groups.
+- **Major strengths** The study addresses a clear gap in understanding how AZD directly activates HSF1. The use of purified protein variants, including a DBD-only construct and an oligomerization-deficient mutant, is a logical approach to dissect domain requirements. The combination of FP, DLS, and fluorescence spectroscopy provides multiple lines of biophysical evidence. The observation that AZD has opposing effects on monomeric versus oligomeric HSF1 is intriguing and could have important biological implications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for central claim
+  - **Claim pointer** The manuscript claims that AZD interacts with the DBD of HSF1 and that this interaction drives oligomerization and HSE binding independent of the oligomerization domain.
+  - **Evidence pointer** Results sections titled "Monomeric HSF1 forms oligomers upon incubation with AZD and binds the HSE with enhanced affinity" and "AZD increases the binding affinity of the constitutively monomeric HSF1 variant for the HSE"; Discussion section.
+  - **Concern** The central claim that AZD binds the DBD is inferred from the observation that a DBD-only construct and an oligomerization-deficient mutant respond to AZD. However, no direct binding assay between AZD and the DBD is presented. The intrinsic fluorescence assay (Figure 5) reports Kd values for AZD binding to full-length monomer, CM, and DBD, but the text does not provide the actual Kd values for these interactions, only stating they are "quite close." Without these values and the corresponding binding curves, the claim of a specific DBD interaction is not established. Furthermore, the mechanism by which AZD binding to the DBD induces oligomerization is not explained. The DBD is known to mediate DNA binding, not protein-protein oligomerization, in the canonical model. The authors speculate about DBD-DBD contacts via the wing motif, but no experimental evidence supports this. The claim that the oligomerization domain is "redundant" is based on a single mutant and a single assay. This is a strong claim that requires more robust evidence, such as crosslinking, sedimentation equilibrium, or a direct binding assay with a labeled AZD analog.
+  - **Why it matters** The entire mechanistic model and the novelty of the paper rest on the claim that AZD acts through the DBD. If this is not rigorously demonstrated, the paper reduces to a set of phenomenological observations without a clear molecular basis.
+  - **Resolution test** Provide direct binding data (e.g., ITC, MST, or NMR) showing AZD binds to the isolated DBD with a defined stoichiometry. Show that a DBD point mutant that disrupts AZD binding abolishes AZD-induced oligomerization and HSE binding. Provide evidence for the proposed DBD-DBD interface, such as crosslinking or mutagenesis of the wing motif.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency and data interpretation
+  - **Claim pointer** The manuscript claims that AZD induces oligomerization of monomeric HSF1 and enhances HSE binding, but also that AZD weakens HSE binding of pre-assembled oligomeric HSF1 by inducing amyloid-like aggregation.
+  - **Evidence pointer** Results sections "Monomeric HSF1 forms oligomers upon incubation with AZD and binds the HSE with enhanced affinity" and "AZD interrupts the binding of trimeric/oligomeric HSF1 with the HSE"; Discussion section.
+  - **Concern** The dual, opposing activity of AZD is presented as a key finding. However, the mechanistic basis for this dichotomy is not explained. If AZD binds the DBD and promotes oligomerization of monomers, why does it not also stabilize pre-formed oligomers? The authors suggest that AZD induces a conformational change that destabilizes the oligomer, but this is speculative. The DLS data for the oligomeric forms show only a "small increase" in hydrodynamic radius, which is interpreted as destabilization. This is a weak basis for such a significant claim. The ANS and ThT data are presented as evidence of amyloid-like aggregation, but the text does not provide quantitative data (e.g., ThT fluorescence fold-increase, ANS binding stoichiometry). The claim that this aggregation is "amyloid-like" is based solely on ThT fluorescence, which is not specific. The authors do not discuss why the same compound that stabilizes monomer association would also drive aggregation of the oligomer. This inconsistency undermines the coherence of the proposed model.
+  - **Why it matters** The proposed context-dependent activity is a central selling point of the paper, particularly for the anticancer application. If the mechanism is not coherent or well-supported, the translational implications are weakened.
+  - **Resolution test** Provide a clear structural or biophysical explanation for the differential effect. For example, show that AZD binds to a site that is accessible in the monomer but buried in the oligomer. Provide quantitative ThT and ANS data with appropriate controls (e.g., known amyloid fibrils as positive control). Show that the "aggregates" are indeed amyloid-like using electron microscopy or X-ray diffraction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental rigor and controls
+  - **Claim pointer** The manuscript claims that AZD binds to HSE DNA in the absence of protein, and that this interaction is specific and saturable.
+  - **Evidence pointer** Results section "AZD interacts with HSE and mutant HSE in the absence of protein"; Figure 6.
+  - **Concern** The interaction of AZD with DNA is a surprising and important observation. However, the text does not provide sufficient detail on the specificity of this interaction. The authors show that AZD binds mutant HSE with higher affinity than wild-type HSE, but they do not explain why. They also do not test a non-specific DNA sequence as a control. The fluorescence assay used (intrinsic fluorescence of FAM-labeled DNA) can be prone to artifacts, such as fluorescence quenching or enhancement due to non-specific interactions. The authors should demonstrate that the AZD-DNA interaction is sequence-specific and not simply a general DNA-binding property of the hydrophobic small molecule.
+  - **Why it matters** If AZD binds DNA non-specifically, this could confound the interpretation of the protein-DNA binding assays. The claim that AZD induces conformational changes in DNA is also based on this assay and would be strengthened by a more rigorous demonstration of specificity.
+  - **Resolution test** Include a control with a scrambled or non-specific DNA sequence. Perform a competition assay with unlabeled non-specific DNA. Show that the AZD-DNA interaction is saturable and has a defined stoichiometry. Consider using a different biophysical method (e.g., CD spectroscopy) to confirm the conformational change.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative data reporting
+  - **Claim pointer** The manuscript reports Kd values for various protein-DNA and protein-AZD interactions.
+  - **Evidence pointer** Results sections describing FP assays and intrinsic fluorescence assays; Figures 2, 4, 5, 6.
+  - **Concern** The text reports Kd values for HSF1-HSE interactions in the presence and absence of AZD, but the number of replicates, the error associated with each Kd, and the statistical significance of the differences are not reported in the text. The Kd values are presented as single numbers with standard errors, but it is unclear how many independent experiments were performed. The fold-changes (e.g., 7.1-fold, 75-fold) are presented as definitive, but without confidence intervals, it is impossible to assess the reliability of these claims. The intrinsic fluorescence binding isotherms are described but the actual Kd values for AZD-protein interactions are not given in the text.
+  - **Why it matters** The quantitative claims are the core evidence for the paper's conclusions. Without proper statistical reporting, the reader cannot evaluate the robustness of the findings.
+  - **Resolution test** Provide the number of independent replicates for each experiment. Report Kd values with 95% confidence intervals. Perform and report statistical tests comparing Kd values across conditions. Include the Kd values for AZD-protein interactions in the text or a table.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, first paragraph of Introduction
+  - **Issue** The abstract states that AZD "regulates Heat Shock Factor 1 function" but the dual activating/inhibiting activity is not clearly summarized. The Introduction could more clearly distinguish the known indirect activators from the proposed direct mechanism of AZD.
+  - **Required correction** Revise the abstract to explicitly state the context-dependent dual activity. In the Introduction, clarify the gap in knowledge regarding direct HSF1 activators.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section "AZD interacts with HSE and mutant HSE in the absence of protein"
+  - **Evidence pointer** Same section
+  - **Issue** The term "interacts" is used to describe the AZD-DNA binding, but the nature of this interaction (intercalation, groove binding, etc.) is not specified. The term "binds" would be more appropriate, and the mode of binding should be discussed.
+  - **Required correction** Use "binds" instead of "interacts" and add a brief discussion of the potential mode of DNA binding.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Missing experimental detail
+  - **Affected element** Materials and Methods, FP assay
+  - **Evidence pointer** FP assay section
+  - **Issue** The concentration of the FAM-labeled HSE probe is not stated. The buffer conditions for the FP assay are not fully described.
+  - **Required correction** Specify the probe concentration and the exact buffer composition used in the FP assay.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of DLS data
+  - **Affected element** Results section "AZD interrupts the binding of trimeric/oligomeric HSF1 with the HSE"
+  - **Evidence pointer** Figure 3G-H
+  - **Issue** The DLS data show a "small increase" in hydrodynamic radius for the oligomeric forms upon AZD addition. This is interpreted as destabilization. However, a small increase could also be consistent with a conformational change that does not lead to aggregation. The authors should be more cautious in this interpretation.
+  - **Required correction** Soften the interpretation of the DLS data and acknowledge that the increase in hydrodynamic radius could have multiple explanations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of related work
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on anticancer activity
+  - **Issue** The discussion of the anticancer potential of AZD is brief and does not fully engage with the existing literature on HSF1 inhibitors, some of which are mentioned. A more thorough comparison with the mechanisms of other HSF1 inhibitors would strengthen the discussion.
+  - **Required correction** Expand the discussion to compare the proposed mechanism of AZD with those of other known HSF1 inhibitors.
+- **Technical failings that need to be addressed before the case is established** The lack of direct binding data for AZD to the DBD (R1-M1) is a critical technical gap. The absence of quantitative statistical reporting (R1-M4) is a significant failing. The lack of a non-specific DNA control in the AZD-DNA binding assay (R1-M3) is a technical oversight. The interpretation of DLS data as evidence of "amyloid-like aggregation" without electron microscopy or other structural confirmation is a technical weakness.
+- **Assessment against Nature-style criteria** Originality: The proposed mechanism of direct DBD binding by a small molecule, bypassing the oligomerization domain, is original and would be of high interest if proven. Scientific importance: The potential to activate HSF1 in neurodegenerative contexts and inhibit it in cancer is of high importance. However, the importance is contingent on the validity of the mechanistic claims. Interdisciplinary readership: The topic bridges protein biophysics, cell stress biology, and drug discovery, which would appeal to a broad readership. Technical soundness: The technical soundness is currently inadequate due to the lack of direct binding evidence, missing controls, and incomplete statistical reporting. Readability for nonspecialists: The manuscript is generally well-written and accessible, but the Discussion is speculative and could be more clearly tied to the data.
+- **Recommendation posture** Currently not established from the provided evidence. The central mechanistic claim is not supported by direct evidence, and the quantitative data are not reported with sufficient rigor. The manuscript has potential, but it requires substantial additional experimentation and revision before the claims can be considered established.
+
+## Risk / unsupported claims
+- The claim that AZD binds specifically to the DBD of HSF1 is unsupported by direct binding data.
+- The claim that the oligomerization domain is redundant for AZD-induced oligomerization is based on a single mutant and is not fully established.
+- The claim that AZD induces "amyloid-like aggregation" of oligomeric HSF1 is not supported by structural evidence.
+- The claim that AZD induces conformational changes in HSE DNA is based on a single fluorescence assay without a non-specific DNA control.
+- The claim that the anticancer effect of AZD is mediated by HSF1 inhibition is speculative and not directly tested in this manuscript.
+- The Kd values for AZD-protein interactions are mentioned but not reported, making the binding affinity claims unverifiable.

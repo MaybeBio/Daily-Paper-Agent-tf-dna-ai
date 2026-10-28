@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "39816084",
+    "doi": "10.52225/narra.v4i3.1344",
+    "title": "Comprehensive in silico analysis of single nucleotide polymorphism and molecular dynamics simulation of human GATA6 protein in ventricular septal defect."
+  },
+  "content": {
+    "abstract": "Congenital heart disease (CHD) represents nearly one-third of congenital birth defects annually, with ventricular septal defect (VSD) being the most common type. The aim of this study was to explore the role of specific GATA binding protein 6 gene (GATA6) mutations as a potential etiological factor in the development of VSD through an in silico approach. Data were collected from the human gene databases: DisGeNET and GeneCards, with protein-protein interaction networks constructed via STRING and Cytoscape. Gene ontology and pathway enrichment analyses were conducted using DAVID, with data analysis in R with significance set at FDR p<0.05. Target single nucleotide polymorphisms (SNPs) of GATA6 were obtained from NCBI dbSNP, and non- synonymous single nucleotide polymorphism (nsSNP) effects were predicted using SIFT, PolyPhen-2, I-Mutant 2.0, Fathmm, MutPred 2.0, SNP&GO, and PON-P2. Conserved regions of GATA6 were analyzed using ConSurf, with functional classification, variant conservation, and stability changes evaluated in Google Colab. Multiple sequence alignment was performed using ClustalW. Mutation modeling and molecular dynamics analysis, using GROMACS, revealed that among 87 intersecting genes, 16 proteins were interconnected with GATA6, showing a centrality value of 0.4378. Gene ontology analysis highlighted atrioventricular canal development, protein-DNA complexes, and transcription factor regulation as key processes for cardiac development, especially in the ventricular septum. NsSNP and molecular dynamics analyses identified rs387906818 and rs387906820 as having the highest pathogenic potential for VSD due to amino acid structural changes.",
+    "keywords": [
+      "GATA6",
+      "VSD",
+      "in silico",
+      "molecular dynamic simulation",
+      "nsSNP"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*GATA6 Transcription Factor/genetics",
+      "*Polymorphism, Single Nucleotide",
+      "*Heart Septal Defects, Ventricular/genetics",
+      "*Molecular Dynamics Simulation",
+      "Mutation",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hidayat, Taufiq",
+        "Irwanto, Irwanto",
+        "Rohman, Ali",
+        "Muhyiddin, Afrizal Aa",
+        "Putri, Safira Na",
+        "Kurniawan, Dedy B",
+        "Syaban, Mokhamad Fr",
+        "Firdaus, Theakirana",
+        "Rahman, Mahrus A",
+        "Utamayasa, I Ka"
+      ],
+      "short_names": [
+        "Hidayat T",
+        "Irwanto I",
+        "Rohman A",
+        "Muhyiddin AA",
+        "Putri SN",
+        "Kurniawan DB",
+        "Syaban MF",
+        "Firdaus T",
+        "Rahman MA",
+        "Utamayasa IK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Doctoral Program in Medical Science, Faculty of Medicine, Universitas Airlangga, Surabaya, Indonesia.",
+        "Division of Pediatric Cardiology, Department of Pediatric, Faculty of Medicine, Universitas Airlangga, Surabaya, Indonesia.",
+        "Division of Pediatric Cardiology, Department of Pediatric, Dr. Soetomo General Academic Hospital, Surabaya, Indonesia.",
+        "Department of Pediatric, Faculty of Medicine, Universitas Airlangga, Surabaya, Indonesia.",
+        "Department of Pediatric, Dr. Soetomo General Academic Hospital, Surabaya, Indonesia.",
+        "Department of Chemistry, Faculty of Science and Technology, Universitas Airlangga, Surabaya, Indonesia.",
+        "Department of Pediatric, Faculty of Medicine, Universitas Airlangga, Surabaya, Indonesia.",
+        "Department of Pediatric, Dr. Soetomo General Academic Hospital, Surabaya, Indonesia.",
+        "Faculty of Medicine, Universitas Brawijaya, Malang, Indonesia.",
+        "Faculty of Medicine, Universitas Brawijaya, Malang, Indonesia.",
+        "Faculty of Medicine, Universitas Brawijaya, Malang, Indonesia.",
+        "Faculty of Medicine, Universitas Brawijaya, Malang, Indonesia.",
+        "Division of Pediatric Cardiology, Department of Pediatric, Faculty of Medicine, Universitas Airlangga, Surabaya, Indonesia.",
+        "Division of Pediatric Cardiology, Department of Pediatric, Dr. Soetomo General Academic Hospital, Surabaya, Indonesia.",
+        "Division of Pediatric Cardiology, Department of Pediatric, Faculty of Medicine, Universitas Airlangga, Surabaya, Indonesia.",
+        "Division of Pediatric Cardiology, Department of Pediatric, Dr. Soetomo General Academic Hospital, Surabaya, Indonesia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hidayat, Taufiq",
+        "short_name": "Hidayat T",
+        "identifiers": [],
+        "affiliations": [
+          "Doctoral Program in Medical Science, Faculty of Medicine, Universitas Airlangga, Surabaya, Indonesia.",
+          "Division of Pediatric Cardiology, Department of Pediatric, Faculty of Medicine, Universitas Airlangga, Surabaya, Indonesia.",
+          "Division of Pediatric Cardiology, Department of Pediatric, Dr. Soetomo General Academic Hospital, Surabaya, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Irwanto, Irwanto",
+        "short_name": "Irwanto I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric, Faculty of Medicine, Universitas Airlangga, Surabaya, Indonesia.",
+          "Department of Pediatric, Dr. Soetomo General Academic Hospital, Surabaya, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Rohman, Ali",
+        "short_name": "Rohman A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Science and Technology, Universitas Airlangga, Surabaya, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Muhyiddin, Afrizal Aa",
+        "short_name": "Muhyiddin AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric, Faculty of Medicine, Universitas Airlangga, Surabaya, Indonesia.",
+          "Department of Pediatric, Dr. Soetomo General Academic Hospital, Surabaya, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Putri, Safira Na",
+        "short_name": "Putri SN",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, Universitas Brawijaya, Malang, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Kurniawan, Dedy B",
+        "short_name": "Kurniawan DB",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, Universitas Brawijaya, Malang, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Syaban, Mokhamad Fr",
+        "short_name": "Syaban MF",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, Universitas Brawijaya, Malang, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Firdaus, Theakirana",
+        "short_name": "Firdaus T",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, Universitas Brawijaya, Malang, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Rahman, Mahrus A",
+        "short_name": "Rahman MA",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Cardiology, Department of Pediatric, Faculty of Medicine, Universitas Airlangga, Surabaya, Indonesia.",
+          "Division of Pediatric Cardiology, Department of Pediatric, Dr. Soetomo General Academic Hospital, Surabaya, Indonesia."
+        ]
+      },
+      {
+        "full_name": "Utamayasa, I Ka",
+        "short_name": "Utamayasa IK",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Cardiology, Department of Pediatric, Faculty of Medicine, Universitas Airlangga, Surabaya, Indonesia.",
+          "Division of Pediatric Cardiology, Department of Pediatric, Dr. Soetomo General Academic Hospital, Surabaya, Indonesia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Narra J"
+    ],
+    "journal_abbrev": [
+      "Narra J"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/16 06:21",
+    "fetched_at": "2026-09-30 09:44:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39133135",
+      "38857582",
+      "38718835",
+      "38574486",
+      "38450335",
+      "37762421",
+      "37450163",
+      "37238360",
+      "37204622",
+      "36718848",
+      "36603229",
+      "36525927",
+      "36443461",
+      "36370105",
+      "36199567",
+      "35563646",
+      "35325185",
+      "35309259",
+      "35182466",
+      "35015542",
+      "34917776",
+      "34733677",
+      "34066830",
+      "33718433",
+      "33237286",
+      "33219223",
+      "32524025",
+      "31978374",
+      "31835852",
+      "31712642",
+      "31680165",
+      "31275994",
+      "31049593",
+      "30834692",
+      "30783674",
+      "30348673",
+      "30236283",
+      "29152378",
+      "29086303",
+      "28968714",
+      "28669847",
+      "28387920",
+      "27574197",
+      "27322403",
+      "27152669",
+      "26953528",
+      "26633127",
+      "26445707",
+      "26109048",
+      "25883144",
+      "25647319",
+      "25356219",
+      "25036032",
+      "24858909",
+      "23819482",
+      "23315928",
+      "22158542",
+      "21287615",
+      "21037260",
+      "20581743",
+      "19084512",
+      "18485694",
+      "17950269",
+      "16847256",
+      "15980478"
+    ],
+    "similar": [
+      "39816084",
+      "25036032",
+      "27152669",
+      "22407241",
+      "28388287",
+      "39854591",
+      "37817532",
+      "42691045",
+      "30768627",
+      "28359874",
+      "27414033",
+      "27756709",
+      "38656135",
+      "22576768",
+      "39107825",
+      "30802828",
+      "36995110",
+      "40076735",
+      "38165846",
+      "31935276",
+      "27294143",
+      "19181906",
+      "25380965",
+      "25606441",
+      "42369210",
+      "40370698",
+      "20581743",
+      "34260301",
+      "20137692",
+      "41084424",
+      "33945048",
+      "38773180",
+      "33439552",
+      "40149454",
+      "22801995",
+      "39715225",
+      "30629480",
+      "20631719",
+      "24817641",
+      "39927874",
+      "41401744",
+      "24385578",
+      "42694451",
+      "25515806",
+      "41039863",
+      "25928801",
+      "26847462",
+      "36518267",
+      "40892789",
+      "23727221",
+      "26236721",
+      "37278385",
+      "27390651",
+      "26297999",
+      "29257216",
+      "41381739",
+      "33757570",
+      "24378235",
+      "23644027",
+      "31976320",
+      "26742958",
+      "39085111",
+      "34827731",
+      "42353858",
+      "21839733",
+      "26812303",
+      "34352456",
+      "40080060",
+      "23020118",
+      "38215673",
+      "32787631",
+      "26288759",
+      "30676783",
+      "39333893",
+      "27677826",
+      "24578721",
+      "23749171",
+      "35655118",
+      "40760458",
+      "36011517",
+      "38030295",
+      "22866542",
+      "22824468",
+      "38884729",
+      "20659440",
+      "22028795",
+      "40576883",
+      "25768091",
+      "31398194",
+      "23862152",
+      "23056176",
+      "26127002",
+      "35092861",
+      "22648249",
+      "19619907",
+      "38489015",
+      "22824467",
+      "40571049",
+      "22498567",
+      "38762014"
+    ],
+    "review": [
+      "39816084"
+    ],
+    "pmc": [
+      "11731669"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39816084/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2233",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

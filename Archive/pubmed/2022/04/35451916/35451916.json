@@ -1,0 +1,350 @@
+{
+  "identity": {
+    "pmid": "35451916",
+    "doi": "10.1080/07391102.2022.2064331",
+    "title": "Combined machine learning and pharmacophore based virtual screening approaches to screen for antibiofilm inhibitors targeting LasR of Pseudomonas aeruginosa."
+  },
+  "content": {
+    "abstract": "Pseudomonas aeruginosa, a virulent pathogen affects patients with cystic fibrosis and nosocomial infections. Quorum sensing (QS) mechanism plays a crucial role in causing these ailments by mediating biofilm formation and expressing virulent genes. A novel approach to circumvent this bacterial infection is by hindering its QS network. Targeting LasR of las system serves beneficial as it holds the top position in QS system cascade. Here, we have integrated machine learning, pharmacophore based virtual screening, molecular docking and simulation studies to look for new leads as inhibitors for LasR. Support vector machine (SVM) learning algorithm was used to generate QSAR models from 66 antagonist dataset. The top three models resulted in correlation coefficient (R(2)) values of 0.67, 0.86, and 0.91, respectively. The correlation coefficient (R(2)(test)) values on external test set were found to be 0.62, 0.57, and 0.55, respectively. A four-point pharmacophore model was developed. The pharmacophore hypothesis AAAD_1 was used to screen for potential leads against MolPort database in ZincPharmer. The leads which showed predicted pIC50 value of >8.00 by SVM models were subjected to docking analysis that reranked the compounds based on docking scores. Four top leads namely ZINC3851967 N-[3,5-bis(trifluoromethyl)phenyl]-5-tert-butyl-6-chloropyrazine-2-carboxamide, ZINC4024175 4-Amino-1-[(2R,3S,4S,5S)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-2-oxopyrimidine-5-carbonitrile, ZINC2125703 N-[(5-Methoxy-4,7-dimethyl-2-oxo-2H-chromen-3-yl)acetyl]-beta-alanine, and ZINC3851966 N-[3,5-Bis(trifluoromethyl)phenyl]5-tert-butylpyrazine-2-carboxamide were selected. These compounds were checked for its stability by performing a molecular dynamics simulation for a period of 100 ns. The ADME properties of the leads were also determined. Hence, the compounds identified in this study can be used as possible leads for developing a novel inhibitor for LasR.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "LasR inhibitor",
+      "Pseudomonas aeruginosa",
+      "QSAR model",
+      "molecular descriptors",
+      "molecular docking",
+      "molecular dynamics simulation",
+      "pharmacophore modeling",
+      "support vector machine",
+      "virtual screening"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Docking Simulation",
+      "*Pseudomonas aeruginosa/genetics",
+      "*Trans-Activators/genetics/metabolism",
+      "Pharmacophore",
+      "Quorum Sensing",
+      "Molecular Dynamics Simulation",
+      "Biofilms",
+      "Bacterial Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vetrivel, Aishwarya",
+        "Ramasamy, Janani",
+        "Natchimuthu, Santhi",
+        "Senthil, Kalaiselvi",
+        "Ramasamy, Monica",
+        "Murugesan, Rajeswari"
+      ],
+      "short_names": [
+        "Vetrivel A",
+        "Ramasamy J",
+        "Natchimuthu S",
+        "Senthil K",
+        "Ramasamy M",
+        "Murugesan R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, Biotechnology and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India.",
+        "Department of Biochemistry, Biotechnology and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India.",
+        "Department of Biochemistry, Biotechnology and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India.",
+        "Department of Biochemistry, Biotechnology and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India.",
+        "Department of Biochemistry, Biotechnology and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India.",
+        "Department of Biochemistry, Biotechnology and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vetrivel, Aishwarya",
+        "short_name": "Vetrivel A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Biotechnology and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Ramasamy, Janani",
+        "short_name": "Ramasamy J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Biotechnology and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Natchimuthu, Santhi",
+        "short_name": "Natchimuthu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Biotechnology and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Senthil, Kalaiselvi",
+        "short_name": "Senthil K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Biotechnology and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Ramasamy, Monica",
+        "short_name": "Ramasamy M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Biotechnology and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Murugesan, Rajeswari",
+        "short_name": "Murugesan R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Biotechnology and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2023 Jun",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/23 06:00",
+    "fetched_at": "2026-09-28 07:38:38"
+  },
+  "links": {
+    "cites": [
+      "39599508",
+      "39506977",
+      "37552115"
+    ],
+    "refs": [],
+    "similar": [
+      "35451916",
+      "37468720",
+      "31787031",
+      "35075974",
+      "37096792",
+      "28818490",
+      "37552115",
+      "32824118",
+      "28351711",
+      "29526565",
+      "34308062",
+      "27703072",
+      "30849491",
+      "33713665",
+      "29076756",
+      "32163399",
+      "37485898",
+      "23203920",
+      "26078448",
+      "24002091",
+      "35967851",
+      "38379380",
+      "18566810",
+      "32265330",
+      "35961070",
+      "35585729",
+      "30959097",
+      "28712963",
+      "26048802",
+      "28939255",
+      "38020496",
+      "27825554",
+      "33288622",
+      "31284940",
+      "22715388",
+      "19246742",
+      "29571725",
+      "22986632",
+      "28065820",
+      "26358567",
+      "29601791",
+      "39063243",
+      "30913464",
+      "34488244",
+      "30033130",
+      "24319092",
+      "30707095",
+      "33932548",
+      "34809538",
+      "38339148",
+      "35767197",
+      "31178047",
+      "31605708",
+      "31355691",
+      "33403919",
+      "29135250",
+      "37166373",
+      "31398531",
+      "35869653",
+      "31773197",
+      "16966394",
+      "25704369",
+      "30850547",
+      "33915968",
+      "29735954",
+      "34676801",
+      "36748317",
+      "34494853",
+      "33950778",
+      "32242496",
+      "21031308",
+      "31644930",
+      "29348452",
+      "27939874",
+      "32037806",
+      "32691823",
+      "30846553",
+      "20132256",
+      "35014597",
+      "30727758",
+      "28453568",
+      "32418905",
+      "15505212",
+      "38101651",
+      "24736783",
+      "34660340",
+      "34405765",
+      "37642215",
+      "34611855",
+      "26840534",
+      "27650847",
+      "23283479",
+      "36841313",
+      "29085409",
+      "19330325",
+      "17363368",
+      "36064977",
+      "28466892",
+      "30190495",
+      "35471121",
+      "26517484",
+      "20844762",
+      "35528444",
+      "39303517",
+      "37216358",
+      "38589405",
+      "37811195",
+      "37641144",
+      "38697440",
+      "36974974",
+      "36651083",
+      "37462852",
+      "32664863",
+      "36106982",
+      "37836625",
+      "35862656",
+      "36995235",
+      "38637479",
+      "36106953",
+      "37811784",
+      "37578046",
+      "37698364",
+      "36762704",
+      "36979940",
+      "36974951",
+      "37711372",
+      "38954070",
+      "37098781",
+      "37895810",
+      "37597062",
+      "38347617",
+      "38779737",
+      "36248344",
+      "35773549",
+      "35491692",
+      "35751129",
+      "38444388",
+      "38230441",
+      "38385459",
+      "35516480",
+      "37906702",
+      "37038705",
+      "38517648",
+      "37222400",
+      "37697727",
+      "35467485",
+      "38807196",
+      "37904339",
+      "38197431",
+      "37959685",
+      "38379294",
+      "37626747",
+      "38507171",
+      "38217308",
+      "37000926",
+      "35052822",
+      "24748756",
+      "36264095",
+      "37790109",
+      "36260173",
+      "35424985",
+      "35531003",
+      "38197419",
+      "38088360",
+      "38100546",
+      "25663107",
+      "38344924",
+      "38095558",
+      "36062572",
+      "38370460",
+      "37714933",
+      "38973840",
+      "38109183",
+      "37254716",
+      "39045026",
+      "39417979",
+      "38780832",
+      "32831519",
+      "38264524"
+    ],
+    "review": [
+      "35451916",
+      "33932548"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2022.2064331?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2022.2064331",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

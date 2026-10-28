@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, experimental procedures, and data availability
+- **Assessment boundary** Scientific content, technical soundness, and support of claims based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors propose that BET family tandem bromodomains can scaffold acetylated nucleosomes multivalently, specifically through internucleosomal interactions, and that this activity may contribute to chromatin organization in active genetic regions. They use SAXS, Rosetta modeling, EPR, BRET, ITC, sucrose gradient sedimentation, and AlphaScreen assays to test this hypothesis.
+- **Visible evidence base** Abstract, Results sections with figures referenced (Figures 1-6, S1-S12), Discussion, Experimental procedures, Data availability statement
+- **Missing materials affecting confidence** Figures and supplementary figures/tables are referenced but not provided; raw SAXS data, EPR spectra, BRET curves, ITC thermograms, sucrose gradient gels, AlphaScreen raw counts, and complete statistical details are not visible; no cell-based functional validation is presented
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question in chromatin biology: how BET proteins with tandem bromodomains might use multivalent interactions to organize chromatin. The combination of biophysical approaches is ambitious and the central claim, that BET tandem bromodomains can scaffold nucleosomes in vitro, is potentially significant. However, the evidence as presented has several gaps. The SAXS-derived distance distributions are model-dependent and the Rosetta modeling lacks clear validation. The BRET and ITC data are interpreted to rule out intranucleosomal binding, but the logic is indirect. The sucrose gradient and AlphaScreen assays are the most direct evidence for internucleosomal scaffolding, but the manuscript does not provide sufficient quantitative controls or mechanistic depth. The bioinformatic analysis is correlative and does not establish a functional link. The claim of "first direct biophysical evidence" is strong and requires more rigorous support than currently visible.
+- **Who would be interested in the results, and why** Researchers studying epigenetic readers, bromodomain biology, chromatin structure, and 3D genome organization. The work is also relevant to those interested in multivalent protein-nucleosome interactions and the development of biophysical assays for chromatin-binding proteins. The potential link to transcriptional regulation and disease (BRD4 is a drug target) broadens the audience.
+- **Major strengths** The hypothesis is clearly formulated and mechanistically interesting. The combination of multiple biophysical techniques (SAXS, EPR, BRET, ITC, sedimentation, AlphaScreen) is comprehensive. The use of point mutants to test the requirement for both bromodomains is a good control strategy. The study addresses a gap in understanding why BET proteins have tandem bromodomains.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural modeling
+  - **Claim pointer** The claim that the disordered linker separates BET tandem bromodomain acetylation binding sites by 15 to 157 Å, with most distances sufficient to span a nucleosome (>57 Å), is central to the hypothesis.
+  - **Evidence pointer** Figure 2D-E, Experimental procedures "SAXS analysis" and "Rosetta modeling"
+  - **Concern** The SAXS data are used to derive Rg and Dmax values, which are then used as filters for Rosetta ab initio modeling. However, the manuscript does not provide details on the quality of the SAXS data, the fitting of the P(r) functions, or the uncertainty in Rg and Dmax. The Rosetta FloppyTail protocol generates models, but the manuscript does not describe how the models were validated against the SAXS data beyond the Rg and Dmax filters. The distance distribution shown in Figure 2D is a histogram of models passing these filters, but it is not clear if this distribution is robust to the choice of filters or if the models are physically realistic. The claim that "most" distances are >57 Å depends on the model ensemble, which is not independently verified.
+  - **Why it matters** The entire hypothesis rests on the premise that the tandem bromodomains can adopt conformations spanning nucleosome dimensions. If the model ensemble is biased or inaccurate, the interpretation of all subsequent experiments is compromised.
+  - **Resolution test** Provide a more detailed validation of the Rosetta models, such as comparison of back-calculated SAXS profiles from the models to the experimental data, or use of an independent method (e.g., smFRET) to measure interdomain distances. Show that the distance distribution is stable across different modeling parameters and filters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the conclusion that intranucleosomal binding is not biologically relevant
+  - **Claim pointer** The conclusion that "BRET bromodomain binding of multiple acetylation sites on a histone tail does not increase BRD4-histone tail affinity, suggesting that BET bromodomain intranucleosome binding is not biologically relevant."
+  - **Evidence pointer** Figure 3, Experimental procedures "NanoBRET peptide binding assays" and "Isothermal titration calorimetry"
+  - **Concern** The BRET assay is used to infer bivalent engagement of a single histone tail by both bromodomains. However, the assay measures a proximity change within the BRD4 construct, not direct binding to a nucleosome. The ITC data show similar affinities for di- and tri-acetylated peptides, but the interpretation that this rules out intranucleosomal binding is not fully justified. The tri-acetylated peptides have an additional acetyl group at position 12, 16, or 20, which may not be the optimal spacing for bivalent engagement by BRD4. The lack of a positive control for bivalent binding (e.g., a peptide with two acetylation sites at the optimal spacing) weakens the conclusion. The statement that intranucleosome binding is "not biologically relevant" is a strong negative claim that requires more evidence.
+  - **Why it matters** If intranucleosomal binding is incorrectly ruled out, the model of BET function may be incomplete. The conclusion is used to argue that internucleosomal scaffolding is the primary mechanism.
+  - **Resolution test** Include a positive control for bivalent engagement, such as a peptide with two acetylation sites at a known optimal spacing for the tandem bromodomains. Use a more direct assay for nucleosome binding, such as electrophoretic mobility shift assays or surface plasmon resonance with nucleosomes containing defined acetylation patterns. Temper the conclusion to state that intranucleosomal binding was not detected under these conditions, rather than claiming it is not biologically relevant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Directness of evidence for internucleosomal scaffolding
+  - **Claim pointer** The claim that "BET bromodomains can scaffold multiple acetylated nucleosomes" and that this is "the first direct biophysical evidence" for such activity.
+  - **Evidence pointer** Figures 4-5, Experimental procedures "Sucrose gradient binding assay" and "AlphaScreen"
+  - **Concern** The sucrose gradient assay shows that BRD4 increases the sedimentation rate of nucleosomes, which is interpreted as scaffolding. However, this could also be explained by non-specific aggregation or by BRD4 binding to multiple nucleosomes without forming a defined complex. The AlphaScreen assay is a proximity-based assay that can report on clustering, but it is not clear if the signal is due to specific multivalent interactions or to non-specific protein-protein interactions at high concentrations. The manuscript does not provide a quantitative analysis of the stoichiometry of the proposed complexes. The claim of "first direct biophysical evidence" is strong and requires a more rigorous demonstration that the observed effects are due to specific, multivalent bromodomain-acetyllysine interactions.
+  - **Why it matters** The central conclusion of the paper is that BET proteins can scaffold nucleosomes. If the evidence is not direct or is confounded by non-specific effects, the main claim is not established.
+  - **Resolution test** Provide a quantitative analysis of the sedimentation data, such as calculating the apparent molecular weight of the complexes. Use a competitive inhibitor (e.g., JQ1) to show that the scaffolding effect is specific to the bromodomain-acetyllysine interaction. Perform the AlphaScreen assay with a monovalent control (e.g., a single bromodomain) to show that the signal requires both bromodomains. Consider using size-exclusion chromatography coupled with multi-angle light scattering to directly measure complex stoichiometry.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Relevance of the bioinformatic analysis
+  - **Claim pointer** The claim that BRD4 is selectively enriched in transcriptionally active relative to inactive compartmental domains, and that this supports a role in chromatin organization.
+  - **Evidence pointer** Figure 6, Experimental procedures "ChIP-Seq data analysis"
+  - **Concern** The bioinformatic analysis is presented as supporting evidence, but it is purely correlative. The manuscript does not demonstrate that the enrichment of BRD4 in active compartments is dependent on its bromodomains or on nucleosome scaffolding. The analysis does not distinguish between BRD4 binding to acetylated nucleosomes versus other mechanisms of recruitment. The statistical methods are described but the results are not shown in sufficient detail to assess the robustness of the findings.
+  - **Why it matters** The bioinformatic analysis is used to connect the in vitro findings to potential in vivo relevance. If this connection is weak, the broader implications of the study are diminished.
+  - **Resolution test** Provide a more detailed description of the bioinformatic analysis, including the number of compartments analyzed, the statistical significance of the enrichment, and the effect sizes. Consider analyzing whether the enrichment of BRD4 correlates with the presence of acetylated nucleosomes. Acknowledge the correlative nature of this analysis and its limitations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure references
+  - **Affected element** Results section
+  - **Evidence pointer** Figures 1-6, S1-S12
+  - **Issue** The manuscript references many figures and supplementary figures, but the figures themselves are not provided. It is difficult to assess the data without seeing the actual plots, gels, and micrographs.
+  - **Required correction** Ensure that all figures and supplementary figures are included in the final submission and that they are of high quality and clearly labeled.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** ITC and BRET data
+  - **Evidence pointer** Figure 3, Experimental procedures
+  - **Issue** The ITC data are reported as Kd values, but the number of replicates and the errors are not clearly stated. The BRET data show EC50 values with standard deviations, but the number of independent experiments is not specified.
+  - **Required correction** Clearly state the number of independent replicates for each experiment and report the appropriate statistical measures (e.g., mean ± SD or SEM).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Discussion
+  - **Issue** The term "scaffolding" is used to describe the proposed function, but it is not precisely defined. It could mean bringing nucleosomes into proximity, forming a specific complex, or organizing higher-order structures.
+  - **Required correction** Define what is meant by "scaffolding" in the context of this study and discuss the possible modes of interaction.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of experimental details
+  - **Affected element** EPR experiments
+  - **Evidence pointer** Experimental procedures, Figure S8
+  - **Issue** The EPR experiments are mentioned in the results and methods, but the details of the DEER measurements and the analysis are not fully described. The lack of a DEER signal is interpreted as indicating a broad distance distribution, but this interpretation requires more explanation.
+  - **Required correction** Provide more details on the EPR sample preparation, the DEER experiment parameters, and the data analysis. Explain why the absence of a DEER signal is interpreted as a broad distance distribution and discuss alternative explanations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion focuses on the proposed model of internucleosomal scaffolding but does not thoroughly consider alternative models, such as intranucleosomal interactions or interactions with non-histone proteins.
+  - **Required correction** Add a brief discussion of alternative models and why the presented data favor the proposed model.
+
+## Risk / unsupported claims
+- The claim that the linker distance distribution (15-157 Å) is representative of the native conformational ensemble is not fully supported, as the Rosetta models are not validated against the SAXS data beyond Rg and Dmax filters.
+- The conclusion that intranucleosomal binding is "not biologically relevant" is not supported by the data, as the assays used may not be sensitive to all modes of bivalent engagement.
+- The claim of "first direct biophysical evidence" for internucleosomal scaffolding is not fully supported, as the assays used (sucrose gradient, AlphaScreen) are indirect and may be confounded by non-specific effects.
+- The bioinformatic analysis is correlative and does not establish a causal link between BRD4 enrichment and nucleosome scaffolding.
+- The statement that BET proteins "maintain overall chromatin structure" is not directly tested in this study and is an extrapolation from in vitro data.

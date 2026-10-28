@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41450215",
+  "title": "MegaPlantTF: a machine learning framework for comprehensive identification and classification of plant transcription factors.",
+  "authors": "Akotenou, Genereux; Hassan, Asmaa H; Mokhtar, Morad M; El Allali, Achraf",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2025-12-26",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用k-mer特征和深度学习框架对植物转录因子进行识别与家族分类，但仅涉及TF蛋白序列分类，未研究TF-DNA结合位点、互作界面或动态机制，与本课题的蛋白-DNA互作建模核心关联较弱。",
+  "abstract": "MOTIVATION: Understanding the role of transcription factors (TFs) in plants is essential for the study of gene regulation and various biological processes. However, both TF detection and classification remain challenging due to the great diversity and complexity of these proteins. Conventional approaches, such as BLAST, often suffer from high computational complexity and limited performance on less common TF families. RESULTS: We introduce MegaPlantTF, the first comprehensive machine learning and deep learning framework for the prediction (TF versus non-TF) and classification (family-level) of plant TFs. Our method employs k-mer-based protein representations and a two-stage architecture combining a deep feed-forward neural network with a stacking ensemble classifier. To ensure robust performance assessment, we report micro-, macro-, and weighted-average performance metrics, providing a holistic evaluation of both frequent and underrepresented TF families. Additionally, we employ threshold-based evaluation to calibrate confidence in TF detection. The results show that MegaPlantTF achieves strong accuracy and precision, particularly with a k-mer size of 3 and a classification threshold of 0.5, and maintains stable performance even under stringent thresholds. In addition to the standard cross-validation tests, a use case study on Sorghum bicolor confirms that our method performs strongly in the genome-wide analysis, making it highly suitable for large-scale TF identification and classification tasks. MegaPlantTF represents a novel contribution by integrating k-mer encoding, binary family-specific classifiers, and a two-stage stacking ensemble into a unified, reproducible framework for large-scale plant TF identification and classification. AVAILABILITY AND IMPLEMENTATION: MegaPlantTF is freely accessible through a public web server available at https://bioinformatics.um6p.ma/MegaPlantTF. The complete source code, including pretrained models and example datasets, is available at https://github.com/Bioinformatics-UM6P/MegaPlantTF.",
+  "abstract_zh": "动机：理解转录因子（TFs）在植物中的作用对于研究基因调控和各种生物过程至关重要。然而，由于这些蛋白质的多样性和复杂性，TF检测和分类仍然具有挑战性。传统方法，如BLAST，通常面临高计算复杂性和在较少见TF家族上性能有限的问题。结果：我们介绍了MegaPlantTF，这是首个用于植物TF预测（TF与非TF）和分类（家族级别）的综合机器学习和深度学习框架。我们的方法采用基于k-mer的蛋白质表示和两阶段架构，结合深度前馈神经网络与堆叠集成分类器。为确保稳健的性能评估，我们报告了微平均、宏平均和加权平均性能指标，提供对频繁和代表性不足TF家族的整体评估。此外，我们采用基于阈值的评估来校准TF检测的置信度。结果表明，MegaPlantTF实现了高准确率和精确率，特别是在k-mer大小为3和分类阈值为0.5时，并在严格阈值下保持稳定性能。除了标准交叉验证测试外，对高粱（Sorghum bicolor）的案例研究证实，我们的方法在全基因组分析中表现强劲，使其非常适合大规模TF识别和分类任务。MegaPlantTF通过将k-mer编码、二元家族特异性分类器和两阶段堆叠集成整合到一个统一、可复现的框架中，为大规模植物TF识别和分类做出了新颖贡献。可用性和实现：MegaPlantTF可通过公共网络服务器免费访问，网址为https://bioinformatics.um6p.ma/MegaPlantTF。完整源代码，包括预训练模型和示例数据集，可在https://github.com/Bioinformatics-UM6P/MegaPlantTF获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41450215/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41450215/",
+  "paper_page_path": "papers/pubmed/41450215/index.html"
+}

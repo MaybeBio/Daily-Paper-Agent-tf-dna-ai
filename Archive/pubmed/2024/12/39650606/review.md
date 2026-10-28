@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, ArXiv, 2024)
+- **Assessment boundary** Scientific content, methodology, reporting quality, and claims as presented in the provided text. No external verification of cited studies or supplementary materials was possible.
+- **Shared manuscript claim summary** The authors present a scoping review of NLP techniques, particularly LLMs and transformer architectures, applied to human genomic sequence analysis. They focus on three areas: tokenization, transformer models, and regulatory annotation prediction. They report 26 studies (2021–April 2024) and claim that these techniques enhance genomic data processing and prediction of regulatory elements, while noting challenges in interpretability and standardization.
+- **Visible evidence base** Full text of the review, including Methods, Results, Discussion, and references to Tables 1 and 2 (tables not provided in the supplied material). Supplementary Materials A and B are referenced but not provided.
+- **Missing materials affecting confidence** Tables 1 and 2 (summarizing studies and model performance); Supplementary Materials A (PRISMA checklist) and B (search strategies); full search strings; list of excluded studies with reasons; PRISMA flow diagram; details of data extraction and synthesis methods.
+
+## Reviewer
+- **Overall assessment** This scoping review addresses a timely and relevant topic at the intersection of NLP and genomics. The manuscript is clearly written and the structure is logical. However, the review's methodological rigor is insufficient for a Nature-level audience. The search strategy is described only in broad terms, the screening and selection process lacks quantitative detail (e.g., total records identified, PRISMA flow), and the synthesis of findings is largely narrative without a clear framework for assessing study quality or bias. The claims about the "promise" of NLP in genomics are supported by the selected studies, but the evidence base is not systematically evaluated. The review would benefit from a more transparent and reproducible methodology, a critical appraisal of included studies, and a clearer articulation of the review's contribution beyond summarizing recent work.
+- **Who would be interested in the results, and why** Computational biologists, bioinformaticians, and researchers in genomics and AI/ML who are interested in applying or developing NLP methods for genomic sequence analysis. Clinicians and researchers in personalized medicine may also find the overview of current capabilities and limitations useful. The review provides a snapshot of the field that could help orient newcomers and inform research directions.
+- **Major strengths**
+  - Timely and relevant topic with clear practical implications.
+  - Well-organized structure with clear subsections.
+  - Provides a useful overview of tokenization methods (k-mers, BPE, fixed nucleotide) and transformer architectures applied to genomics.
+  - Discusses practical considerations such as computational resource requirements, which is valuable for researchers.
+  - Acknowledges limitations of the field (interpretability, lack of pipelines) and suggests future directions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology / Reproducibility
+  - **Claim pointer** The review claims to follow PRISMA guidelines and to have conducted a comprehensive search across multiple databases.
+  - **Evidence pointer** Methods section, "Search strategy" and "Study selection"; Supplementary Materials A and B (not provided)
+  - **Concern** The search strategy is described only in general terms ("broad combinations of keywords and related terms"). The actual search strings, Boolean operators, and database-specific adaptations are not provided in the main text and are relegated to supplementary materials that were not available for review. The screening process is described, but the total number of records identified, the number screened, and the number excluded at each stage are not reported in the text. A PRISMA flow diagram is not included in the main text.
+  - **Why it matters** A scoping review's value depends on the comprehensiveness and reproducibility of its search. Without the full search strategies and a clear flow of records, readers cannot assess whether the review is truly comprehensive or whether relevant studies were missed. This undermines the reliability of the review's conclusions.
+  - **Resolution test** Provide the full search strategies for each database in the main text or as a clearly referenced supplement. Include a PRISMA flow diagram showing the number of records identified, screened, excluded (with reasons), and included. Report the total number of records retrieved from each database.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence synthesis / Critical appraisal
+  - **Claim pointer** The review states that "tokenization and transformer models enhance the processing and understanding of genomic data" and reports specific performance metrics (e.g., F1 scores, accuracy) for selected models.
+  - **Evidence pointer** Results section, "Preprocessing and Modeling" and "Predicting Regulatory Annotations"; Tables 1 and 2 (not provided)
+  - **Concern** The review reports performance metrics for individual studies (e.g., F1 = 0.95, accuracy = 0.933) but does not critically appraise the quality of these studies, the comparability of datasets, or the potential for reporting bias. There is no discussion of study heterogeneity, risk of bias, or the generalizability of the reported metrics. The synthesis is purely narrative, with no framework for assessing the strength of evidence.
+  - **Why it matters** Without critical appraisal, the review cannot support strong claims about the effectiveness of NLP methods. The reported metrics may not be directly comparable across studies due to differences in datasets, tasks, and evaluation protocols. A scoping review should map the evidence but should also flag methodological limitations of the included studies to avoid overstating the findings.
+  - **Resolution test** Add a section on quality appraisal of included studies, even if brief. Discuss the heterogeneity of datasets and evaluation methods. Avoid making overarching claims about "enhancement" without acknowledging the limitations of the evidence base. Present the performance metrics in a comparative table with clear annotations on study design and potential biases.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope / Generalizability
+  - **Claim pointer** The review focuses on "human genomic sequencing data" and includes studies on DNA methylation, transcription factor binding, chromatin accessibility, and cancer-related applications.
+  - **Evidence pointer** Results section, "Predicting Regulatory Annotations"; Discussion section, "One limitation of this study is the constrained scope of the literature review sources, which primarily includes human genome data and only limited exploration of bacterial, viral, and other non-human DNA."
+  - **Concern** The review's scope is limited to human genomics, which is acknowledged in the Discussion. However, the title and introduction suggest a broader focus on "genomic codes" without specifying human-only. This discrepancy may mislead readers. Additionally, the review does not discuss how the methods might transfer to non-human genomes or metagenomic data, which are areas of active research.
+  - **Why it matters** The scope limitation is acknowledged but not adequately contextualized. A clearer statement of the review's scope in the title and abstract would improve accuracy. Discussing potential transferability to other domains would enhance the review's utility.
+  - **Resolution test** Revise the title and abstract to explicitly state the focus on human genomics. Add a brief discussion of how the methods and findings might relate to non-human or metagenomic applications, or explicitly state that this is outside the scope.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Reporting
+  - **Affected element** Methods, "Eligibility criteria"
+  - **Evidence pointer** Methods section, "Eligibility criteria"
+  - **Issue** The eligibility criteria are described only in terms of topic relevance ("NLP in the context of genomic data analysis"). No explicit inclusion/exclusion criteria are given regarding study design, publication type, or language beyond "published in English."
+  - **Required correction** Specify the inclusion and exclusion criteria in more detail (e.g., study design, peer-reviewed vs. preprint, availability of full text). This will improve transparency and reproducibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity / Reporting
+  - **Affected element** Results, "Data Diversity and Accessibility"
+  - **Evidence pointer** Results section, "Data Diversity and Accessibility"
+  - **Issue** The section on data accessibility is vague. It states that "most datasets are publicly accessible" but does not provide specific examples or quantify the proportion. The statement "a few studies having limited or request-based access" is also imprecise.
+  - **Required correction** Provide a more detailed breakdown of data accessibility across the included studies, perhaps in a table or with specific examples. This would strengthen the review's practical value.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity / Reporting
+  - **Affected element** Discussion, "Computational Resources Requirements"
+  - **Evidence pointer** Discussion section, "Computational Resources Requirements"
+  - **Issue** The discussion of computational resources is anecdotal (e.g., "Ji et al. trained DNABERT for 25 days using 8 GPUs"). It would be more useful to provide a systematic summary of resource requirements across studies, if available.
+  - **Required correction** Consider adding a table or summary of computational resource usage (e.g., GPU hours, model size) for the included studies, if this information is reported. If not, state that this information is often not reported in the literature.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity / Reporting
+  - **Affected element** Discussion, "Emerging Directions"
+  - **Evidence pointer** Discussion section, "Emerging Directions"
+  - **Issue** The "Emerging Directions" section is brief and lists topics (e.g., gene-disease associations, chromatin accessibility) without sufficient elaboration on why these are promising or what specific challenges remain.
+  - **Required correction** Expand this section to provide more context on why these directions are important and what specific research questions or technical hurdles need to be addressed.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1 (search strategy and PRISMA flow not fully reported) is a blocking issue because it undermines the reproducibility and comprehensiveness of the review.
+  - R1-M2 (lack of critical appraisal) is a blocking issue because it prevents the reader from assessing the strength of the evidence behind the review's claims.
+- **Assessment against Nature-style criteria**
+  - **Originality** The topic is timely, but the review does not clearly articulate what new insights it provides beyond existing reviews or surveys in this area. The originality is moderate.
+  - **Scientific importance** The application of NLP to genomics is of high importance, and a well-conducted scoping review could be valuable. However, the current methodological weaknesses limit the scientific contribution.
+  - **Interdisciplinary readership** The topic bridges computer science and biology, and the review is written in a way that is largely accessible to both communities. However, some sections (e.g., detailed model descriptions) may be too technical for a general biology audience.
+  - **Technical soundness** The technical descriptions of NLP methods are generally accurate, but the review lacks a systematic and critical evaluation of the included studies. The absence of a quality appraisal is a significant technical shortcoming.
+  - **Readability for nonspecialists** The manuscript is clearly written and well-structured. The use of jargon is appropriate but could be better explained for a broader audience. The abstract and introduction are accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The review addresses a relevant topic and is clearly written, but the methodological reporting is insufficient to support its claims. The authors must provide the full search strategies, a PRISMA flow diagram, and a critical appraisal of the included studies before the review's conclusions can be considered reliable.
+
+## Risk / unsupported claims
+- The claim that "tokenization and transformer models enhance the processing and understanding of genomic data" is a general statement that is not supported by a systematic synthesis of the evidence. The review reports individual study metrics but does not critically evaluate them.
+- The statement that "most datasets are publicly accessible" is unsupported by specific data or examples.
+- The claim that "NLP models can provide valuable insights into the mechanisms of gene expression" (in the context of post-transcriptional interactions) is an overstatement given the lack of critical appraisal of the included studies.
+- The review's conclusion that the field "holds significant promise for future breakthroughs" is speculative and not directly supported by the evidence presented.

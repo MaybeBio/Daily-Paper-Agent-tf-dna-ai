@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39906159",
+  "title": "From homogeneity to heterogeneity: Refining stochastic simulations of gene regulation.",
+  "authors": "Chae, Seok Joo; Shin, Seolah; Lee, Kangmin; Lee, Seunggyu; Kim, Jae Kyoung",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2025-02-05",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用随机模拟（Gillespie算法及QSSA近似）研究基因调控中转录因子扩散与空间异质性对表达动态的影响，虽涉及TF-DNA调控但无三维互作建模或AI/物理模拟方法，仅作方法学参考。",
+  "abstract": "Cellular processes are intricately controlled through gene regulation, which is significantly influenced by intrinsic noise due to the small number of molecules involved. The Gillespie algorithm, a widely used stochastic simulation method, is pervasively employed to model these systems. However, this algorithm typically assumes that DNA is homogeneously distributed throughout the nucleus, which is not realistic. In this study, we evaluated whether stochastic simulations based on the assumption of spatial homogeneity can accurately capture the dynamics of gene regulation. Our findings indicate that when transcription factors diffuse slowly, these simulations fail to accurately capture gene expression, highlighting the necessity to account for spatial heterogeneity. However, incorporating spatial heterogeneity considerably increases computational time. To address this, we explored various stochastic quasi-steady-state approximations (QSSAs) that simplify the model and reduce simulation time. While both the stochastic total quasi-steady state approximation (stQSSA) and the stochastic low-state quasi-steady-state approximation (slQSSA) reduced simulation time, only the slQSSA provided an accurate model reduction. Our study underscores the importance of utilizing appropriate methods for efficient and accurate stochastic simulations of gene regulatory dynamics, especially when incorporating spatial heterogeneity.",
+  "abstract_zh": "细胞过程通过基因调控被精细地控制，而这一过程受到内在噪声的显著影响，这源于所涉及分子数量较少。Gillespie算法作为一种广泛使用的随机模拟方法，被普遍用于模拟这些系统。然而，该算法通常假设DNA在细胞核内均匀分布，这并不符合实际情况。在本研究中，我们评估了基于空间均匀性假设的随机模拟是否能准确捕捉基因调控的动态。我们的发现表明，当转录因子扩散缓慢时，这些模拟无法准确捕捉基因表达，凸显了考虑空间异质性的必要性。然而，纳入空间异质性会显著增加计算时间。为解决这一问题，我们探索了多种随机准稳态近似（QSSAs），以简化模型并减少模拟时间。虽然随机总准稳态近似（stQSSA）和随机低态准稳态近似（slQSSA）均减少了模拟时间，但只有slQSSA提供了准确的模型简化。我们的研究强调了在基因调控动态的随机模拟中，尤其是在纳入空间异质性时，采用适当方法以实现高效且准确模拟的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39906159/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39906159/",
+  "paper_page_path": "papers/pubmed/39906159/index.html"
+}

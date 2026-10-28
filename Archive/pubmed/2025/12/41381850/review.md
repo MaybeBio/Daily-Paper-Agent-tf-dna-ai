@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure/table legends as referenced.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The authors report that FOXO4-CR3 binds to the KIX domain of CBP via two consecutive ΦXXΦΦ motifs, with the second motif (ISDLM, FOXO4 487-491) serving as the primary binding determinant. They propose that FOXO4-CR3 binds preferentially to the MLL site of KIX, that binding induces partial α-helical structure in the region spanning both motifs, and that the complex adopts multiple orientations rather than a single fixed conformation. Thermodynamic analyses indicate distinct enthalpic and entropic contributions for the two KIX binding sites.
+- **Visible evidence base** NMR chemical shift perturbation (CSP) data for KIX, KIX MLLmut, and KIX c-Mybmut; ITC-derived thermodynamic parameters for KIX mutants; CD spectroscopy; Cα chemical shift index data; PRE experiments with spin labels at KIX N-terminus, KIX C-terminus, and CR3 C481; AlphaFold3 and AlphaFold2-multimer docking models.
+- **Missing materials affecting confidence** Raw NMR spectra, complete CSP tables for all residues, ITC thermograms, PRE intensity ratio data with error analysis for all residues, AlphaFold model confidence metrics (pLDDT, PAE), and validation of the 1:1 binding model for wild-type KIX. Supplementary figures referenced but not fully described in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a biophysical characterization of the FOXO4-CR3 interaction with the KIX domain of CBP, identifying a second ΦXXΦΦ motif that contributes to binding. The work combines multiple solution-state techniques and computational modeling to propose a model of dynamic, multi-orientational binding at the MLL site. The data are generally consistent with the conclusions, but several technical limitations and interpretive ambiguities need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation, particularly those focused on KIX domain interactions with transactivation domains, intrinsically disordered protein binding mechanisms, and the biophysics of multi-motif recognition. The work may also interest those investigating FOXO family transcription factors and their coactivator recruitment.
+- **Major strengths** The study addresses a clear gap in understanding FOXO4-KIX binding, which was previously assumed to follow the single-motif paradigm established for FOXO3a. The combination of CSP, ITC, CD, PRE, and docking provides a multi-pronged approach. The identification of a second functional ΦXXΦΦ motif and the proposal of dynamic binding orientations are conceptually interesting. The thermodynamic dissection of the two KIX binding sites adds quantitative depth.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and claim support
+  - **Claim pointer** The authors claim that FOXO4-CR3 binds primarily through the second ΦXXΦΦ motif (ISDLM) and that the first motif (MDNII) plays a secondary role.
+  - **Evidence pointer** Figure 3, Supplementary Figure S5, Supplementary Figure S6
+  - **Concern** The CSP data for CR3 upon KIX titration show significant perturbations for residues in both motifs, but the distinction between "primary" and "secondary" binding contributions is not quantitatively justified. The M491A mutation (Supplementary Figure S6) is described as disrupting the second motif, yet the resulting CSP pattern still shows perturbations in the second motif region, which is not adequately explained. The claim that the second motif is the primary binding site is inferred from perturbation magnitudes, but no binding affinity measurements for the M491A mutant are provided to directly test this.
+  - **Why it matters** The central claim of the paper rests on the relative functional importance of the two motifs. Without direct binding data for motif-disrupted mutants, the assignment of primary versus secondary roles is speculative.
+  - **Resolution test** Provide ITC or NMR-derived binding affinities for FOXO4-CR3 M491A and for a mutant disrupting the first motif (e.g., I483A/I484A). If the second motif is primary, M491A should show a substantial reduction in affinity, while first-motif mutants should have a smaller effect.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design and data interpretation
+  - **Claim pointer** The authors state that "the binding is mainly driven entropically for the MLL site and enthalpically for the c-Myb site" based on ITC data from KIX mutants.
+  - **Evidence pointer** Table 1, Figure 4, Supplementary Table S1
+  - **Concern** The ITC experiments were performed using KIX mutants to isolate individual binding sites. However, the thermodynamic parameters for wild-type KIX were fitted to a 1:1 binding model, which the authors acknowledge may be a mixture of two binding events. The interpretation that MLL site binding is entropy-driven and c-Myb site binding is enthalpy-driven relies on the assumption that the mutant proteins faithfully represent the individual sites in the wild-type context. This assumption is not validated, and the possibility of allosteric effects between the two sites (which the authors themselves discuss) complicates the interpretation.
+  - **Why it matters** The thermodynamic distinction is a key finding of the paper. If the mutant-based assignments are not reliable, the conclusion about differential driving forces is weakened.
+  - **Resolution test** Perform ITC experiments with a CR3 variant that selectively binds only one site (e.g., a mutant that disrupts one motif) to directly measure site-specific thermodynamics. Alternatively, use a competitive binding approach or global fitting of the wild-type isotherm to a two-site model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation
+  - **Claim pointer** The authors propose that "FOXO4-CR3 orientation is not restrained in the KIX-CR3 complex" based on PRE and docking data.
+  - **Evidence pointer** Figure 7, Figure 8, Supplementary Figure S10
+  - **Concern** The PRE data show widespread intensity reductions across CR3, which is interpreted as multiple orientations. However, the PRE data are qualitative, and the distinction between multiple discrete orientations, a broad conformational ensemble, or non-specific binding is not rigorously established. The AlphaFold3 models show two distinct orientations, but the confidence metrics are acknowledged to be below the threshold for high-confidence prediction. The conclusion of "unconstrained orientation" is therefore not strongly supported.
+  - **Why it matters** The dynamic binding model is a novel aspect of the study. If the data cannot distinguish between dynamic disorder and static heterogeneity, the interpretation is overreaching.
+  - **Resolution test** Perform relaxation dispersion experiments or molecular dynamics simulations to characterize the conformational dynamics of the complex. Alternatively, use PRE data quantitatively to fit an ensemble of orientations and assess whether a single orientation can explain the data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** The authors report that "increased helicity of FOXO4-CR3 upon KIX MLL site binding was demonstrated by circular dichroism and Cα chemical shifts."
+  - **Evidence pointer** Figure 5, Figure 6
+  - **Concern** The CD-based helicity calculations rely on subtracting the KIX spectrum from the complex spectrum, which assumes that the KIX conformation is unchanged upon binding. This assumption is not tested. The Cα chemical shift data are presented for residues 472-492, but the statistical significance of the shifts relative to the average is not rigorously assessed. The claim of "around two turns of α-helix" is an estimate that is not supported by a quantitative structural model.
+  - **Why it matters** The induced-fit mechanism is a key part of the proposed model. If the helicity increase is not robustly demonstrated, the mechanistic conclusion is weakened.
+  - **Resolution test** Perform 13Cα/13Cβ secondary shift analysis with a defined random coil library and calculate per-residue confidence intervals. Consider using 15N relaxation or H/D exchange to independently assess structure formation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Methods, NMR experiments
+  - **Evidence pointer** Methods section, "Nuclear magnetic resonance experiments"
+  - **Issue** The backbone assignment completeness is not reported. The text states 73 of 87 residues were assigned, but the locations of unassigned residues (beyond "a few residues in helix α3") are not specified. This limits the interpretation of CSP data, particularly for the c-Myb site.
+  - **Required correction** Provide a table or figure showing assigned versus unassigned residues, and discuss the potential impact of missing assignments on the CSP analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 4
+  - **Evidence pointer** Figure 4
+  - **Issue** The figure shows thermodynamic parameters for wild-type KIX and mutants, but the statistical comparison between conditions is not described. It is unclear whether the differences in ΔH and -TΔS between MLLmut and c-Mybmut are statistically significant.
+  - **Required correction** Add statistical analysis (e.g., t-tests or ANOVA) and indicate significance levels in the figure or legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph on binding modes
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors state that "the binding of c-Myb and MLL is cooperative" and cite previous work, but the current study does not directly test cooperativity. The relevance of this point to the present findings is not clearly articulated.
+  - **Required correction** Clarify whether cooperativity is directly relevant to the current study or if it is contextual background. If relevant, describe how the present data inform this point.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, ITC
+  - **Evidence pointer** Methods section, "Isothermal titration calorimetry analysis"
+  - **Issue** The ITC fitting model is described as "Independent model," but the stoichiometry (n) is not reported. Given the potential for two binding sites, the fitted stoichiometry is important for interpreting the Kd values.
+  - **Required correction** Report the fitted stoichiometry for each experiment and discuss whether n values are consistent with a 1:1 model.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, section on PRE experiments
+  - **Evidence pointer** Figure 7
+  - **Issue** The PRE data are presented as intensity ratios, but the threshold for significant reduction (0.5) is not justified. The error bars are described as derived from signal-to-noise, but the propagation method is not fully explained.
+  - **Required correction** Justify the 0.5 threshold and provide a more detailed description of the error analysis in the Methods.
+
+## Risk / unsupported claims
+- The claim that the second ΦXXΦΦ motif is the "primary" binding site is not directly supported by mutagenesis-based affinity measurements.
+- The thermodynamic distinction between entropy-driven MLL site binding and enthalpy-driven c-Myb site binding relies on mutant proteins that may not faithfully represent the wild-type binding sites.
+- The conclusion of "unconstrained orientation" is inferred from qualitative PRE data and low-confidence docking models; the data do not exclude a single dominant orientation with local dynamics.
+- The estimated helicity gain of "around two turns" is not quantitatively validated by a structural model.
+- The statement that "the binding of c-Myb and MLL is cooperative" is presented as context but is not tested in this study; its relevance to the current findings is unclear.

@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Methods, Figure Legends not fully provided)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and conclusions as presented in the provided text
+- **Shared manuscript claim summary** The authors propose that FoxP3, unlike other forkhead transcription factors, forms a head-to-head dimer via its RBR linker region, which is required for DNA binding, Runx1 recruitment, and proper Treg function. They further propose that a disease-associated mutation (R337Q) induces an alternative swap-dimer conformation that impairs FoxP3 function, and that this swap-dimer represents a non-functional or hypomorphic state.
+- **Visible evidence base** SEC-MALS, EMSA, X-ray crystallography (3.1-4.0 Å), pull-down assays, co-immunoprecipitation, retroviral transduction of primary CD4+ T cells, CRISPR-generated mouse model, ChIP-seq reanalysis, thermal shift assays
+- **Missing materials affecting confidence** Figure panels referenced but not fully described (e.g., S1A-S1G, S2A-S2F, S3A-S3C, S4A-S4C, S5A-S5B, S6A-S6E); crystallographic statistics table (Table S1) not provided; detailed methods for ChIP-seq reanalysis partially described; flow cytometry gating strategies not shown; statistical details for mouse experiments not fully specified
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and potentially important revision of the current understanding of FoxP3 structure and function. The combination of structural, biochemical, and in vivo data is ambitious and the central claim—that FoxP3 adopts a head-to-head dimer conformation that is functionally distinct from the previously described swap-dimer—is well-supported by the in vitro data. The identification of R337Q as a mutation that promotes swap-dimerization provides a plausible mechanism for a subset of IPEX mutations. However, several technical concerns and gaps in the presented evidence need to be addressed before the case is fully established, particularly regarding the resolution of the crystal structures, the physiological relevance of the head-to-head dimer in vivo, and the quantitative aspects of the functional rescue experiments.
+- **Who would be interested in the results, and why** Immunologists studying Treg biology and FoxP3 function; structural biologists interested in transcription factor dimerization and DNA recognition; clinical researchers studying IPEX syndrome and other autoimmune disorders; researchers studying the evolution of transcription factor DNA-binding domains.
+- **Major strengths** 1) The combination of structural, biochemical, and in vivo approaches is comprehensive and mutually reinforcing. 2) The discovery that the RBR linker controls forkhead domain folding is novel and provides a mechanistic explanation for previous discrepancies in the literature. 3) The identification of a head-to-head dimerization mode that is unique to FoxP3 among forkhead factors is an important conceptual advance. 4) The use of a CRISPR-generated mouse model carrying a patient-derived mutation (R337Q) strengthens the translational relevance of the findings. 5) The demonstration that H-H dimerization creates a docking site for Runx1 links structure to cofactor recruitment in a functionally meaningful way.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The crystal structures of FoxP3 ΔN' and FoxP3 ΔN" in complex with IR-FKHM4g reveal a head-to-head dimer conformation.
+  - **Evidence pointer** Results section "Overall architecture of FoxP3"; Table S1 (not provided)
+  - **Concern** The crystal structures were solved at 4.0 Å and 3.1 Å resolution, respectively. At these resolutions, particularly 4.0 Å, the ability to unambiguously assign side-chain conformations, identify specific hydrogen bonds and hydrophobic contacts, and definitively distinguish between alternative dimer conformations is severely limited. The authors state that the electron density for the RBR loop was "not as well defined as other parts of the protein," which is concerning given that this loop is central to the proposed H-H dimer interface. The manuscript does not provide sufficient detail on the quality of the electron density maps, the refinement statistics, or the validation of the model (e.g., Ramachandran plot statistics, MolProbity scores) to assess the reliability of the structural conclusions.
+  - **Why it matters** The entire premise of the paper rests on the structural interpretation that FoxP3 forms a head-to-head dimer in its native context. If the density for the key interface residues is ambiguous, the conclusion that H-H dimerization is the physiologically relevant conformation is not securely established. The 4.0 Å structure, in particular, may not be of sufficient quality to support the detailed mechanistic claims made.
+  - **Resolution test** Provide full crystallographic data and refinement statistics in Table S1, including Rfree, Ramachandran statistics, and coordinate error estimates. Show representative electron density maps (2Fo-Fc and Fo-Fc) for the H-H dimer interface, particularly for the RBR loop residues. If possible, obtain higher-resolution structures or validate the key interface contacts using an orthogonal method such as crosslinking mass spectrometry or solution NMR.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The R337Q mutation induces swap-dimerization, which impairs DNA binding, Runx1 recruitment, and transcriptional activity, and this is the mechanism underlying the partial loss of Treg function in R337Q mice.
+  - **Evidence pointer** Results section "IPOPEX mutation R337Q induces swap dimerization and impairs DNA and Runx1 binding"; Figures 7A-7J
+  - **Concern** The evidence that R337Q induces swap-dimerization in the context of the full-length protein or in vivo is indirect. The SEC-MALS data showing R337Q FoxP3 RBR-forkhead is a dimer (Figure 7G) is presented, but the claim that this is specifically a swap-dimer relies on the observation that A372S reverts it to a monomer. However, A372S is a mutation designed to disrupt the swap interface, and its effect on the R337Q background could also be explained by a general destabilization of the dimer interface rather than a specific reversal of swap-dimerization. Furthermore, the in vivo data from R337Q mice show a partial phenotype, but the manuscript does not demonstrate that the swap-dimer is actually present in Treg cells from these mice. The claim that "swap-dimerization can naturally occur through loss-of-function IPEX mutations" is therefore not directly demonstrated in a physiological context.
+  - **Why it matters** The paper's central mechanistic claim is that R337Q causes disease by promoting a specific misfolded state (swap-dimer). If the evidence for this specific mechanism is not definitive, the conclusion is weakened. The partial rescue by A372S is suggestive but not conclusive, as A372S could have off-target effects on protein stability or folding that are independent of swap-dimerization.
+  - **Resolution test** Provide direct evidence for the presence of swap-dimers in cells or in vivo, e.g., by using a conformation-specific antibody, a FRET-based assay, or by analyzing the oligomeric state of FoxP3 in lysates from R337Q mouse Tregs. Alternatively, demonstrate that the A372S rescue is specific by showing that other mutations that destabilize the swap interface have similar effects, or that mutations that stabilize the H-H dimer do not rescue R337Q.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** H-H dimerization is important for DNA binding and enables FoxP3 to recognize diverse DNA sequences beyond the inverted repeat.
+  - **Evidence pointer** Results sections "H-H dimerization is important for DNA binding, regardless of DNA sequence" and "H-H dimerization enables FoxP3 to recognize diverse DNA sequences"; Figures 3, 4, 5
+  - **Concern** The in vitro DNA binding data convincingly show that H-H dimerization is important for high-affinity binding to IR-FKHM4g. However, the claim that H-H dimerization enables recognition of diverse sequences in vivo is based on a limited set of in vitro experiments with a small number of designed sequences. The ChIP-seq reanalysis (Figure 5A-5B) did not find enrichment of IR-FKHM4g, which the authors interpret as evidence for diverse sequence recognition. However, an alternative interpretation is that the ChIP-seq data reflect indirect binding or binding through cofactors, and the lack of IR-FKHM4g enrichment does not necessarily support the H-H dimer model. The manuscript would be strengthened by a more systematic analysis of FoxP3 binding specificity, e.g., using SELEX or a more comprehensive motif analysis.
+  - **Why it matters** The claim that H-H dimerization expands the DNA binding repertoire of FoxP3 is a key part of the paper's conceptual framework. If this claim is not well-supported, the functional significance of H-H dimerization is less clear.
+  - **Resolution test** Perform a more comprehensive analysis of FoxP3 DNA binding specificity, e.g., using SELEX-seq or protein binding microarrays, comparing WT FoxP3 with H-H dimerization-deficient mutants. Alternatively, use the ChIP-seq data to identify sequence features that correlate with FoxP3 binding and test whether these features are consistent with the H-H dimer model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1A
+  - **Evidence pointer** Results section "Overall architecture of FoxP3"
+  - **Issue** The domain architecture diagram in Figure 1A is not described in sufficient detail in the text. The boundaries of the RBR region and the precise location of the R337 residue are not clearly indicated.
+  - **Required correction** Add a more detailed description of Figure 1A in the text, including the residue numbers for each domain boundary and the position of R337.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 7C-7F
+  - **Evidence pointer** Results section "IPOPEX mutation R337Q induces swap dimerization and impairs DNA and Runx1 binding"
+  - **Issue** The flow cytometry data from R337Q mice (Figures 7C-7F) are described qualitatively. The number of mice used, the statistical test applied, and the effect sizes are not reported.
+  - **Required correction** Provide the number of mice per group, the statistical test used, and the p-values for the comparisons shown in Figures 7C-7F.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section "Crystallization"
+  - **Issue** The methods for crystallization and structure determination are described, but the details of the molecular replacement search models, the refinement strategy, and the validation of the final models are not fully described.
+  - **Required correction** Provide a more complete description of the structure determination and refinement, including the search models used, the resolution limits, and the final R/Rfree values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion speculates that "FoxP3 folding could be a novel therapeutic target" without providing any experimental evidence or a concrete proposal for how this might be achieved. This statement is speculative and not directly supported by the data.
+  - **Required correction** Either remove this speculation or provide a more concrete and testable hypothesis for how the folding landscape of FoxP3 could be targeted therapeutically.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (crystallographic resolution and model quality), R1-M2 (direct evidence for swap-dimer in vivo)
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The identification of a head-to-head dimerization mode for FoxP3 that is distinct from the swap-dimer and is mediated by the RBR linker is a novel and unexpected finding that challenges the prevailing view in the field.
+  - **Scientific importance** High. The findings have implications for understanding FoxP3 function in Treg biology, the mechanism of IPEX mutations, and the evolution of forkhead domain function. The proposed link between dimerization state and cofactor recruitment is conceptually important.
+  - **Interdisciplinary readership** Moderate to high. The work will be of interest to immunologists, structural biologists, and clinical researchers. The combination of structural and functional approaches makes it accessible to a broad audience, though the detailed structural analysis may be less accessible to non-specialists.
+  - **Technical soundness** Moderate. The biochemical and cell-based experiments are generally well-executed. However, the reliance on relatively low-resolution crystal structures for the central structural claim is a significant concern. The in vivo evidence for the swap-dimer mechanism is indirect.
+  - **Readability for nonspecialists** Good. The manuscript is generally well-written and the logic is clear. The figures are likely to be informative, though the text could benefit from a more accessible explanation of the structural concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is novel and important, and the data are largely consistent with the proposed model. However, the concerns regarding the quality of the crystal structures and the lack of direct in vivo evidence for the swap-dimer mechanism need to be addressed before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that the head-to-head dimer is the "physiological" form of FoxP3 is not directly demonstrated in vivo; it is inferred from in vitro experiments with recombinant proteins.
+- The claim that R337Q induces swap-dimerization in vivo is not directly demonstrated; it is inferred from in vitro SEC-MALS data and the partial rescue by A372S.
+- The claim that H-H dimerization enables FoxP3 to recognize diverse DNA sequences in vivo is not directly supported by the ChIP-seq analysis, which did not find enrichment of IR-FKHM4g.
+- The speculation that FoxP3 folding could be a therapeutic target is not supported by any experimental evidence.
+- The functional significance of the observed DNA bending (~25°) is not experimentally tested.

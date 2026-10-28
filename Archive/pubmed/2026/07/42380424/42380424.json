@@ -1,0 +1,216 @@
+{
+  "identity": {
+    "pmid": "42380424",
+    "doi": "10.1038/s41598-026-57725-6",
+    "title": "An optimized dual-branch method for DNA enhancer identification based on pretrained models and multi-scale local regulatory motif extraction."
+  },
+  "content": {
+    "abstract": "Accurate identification of enhancer sequences requires concurrent modeling of global contextual information and local regulatory motifs in DNA. Although the pretrained language model DNABERT-2 can effectively capture long-range dependencies, it is still limited in representing position-sensitive local patterns such as transcription factor binding sites. To address this issue, we propose iEnhancer-Hybrid, a model with a dual branch architecture. One branch leverages DNABERT-2 to extract global contextual features from the input sequence, whereas the other branch employs a three-layer multi scale dilated convolution (MDC) network to enlarge the receptive field and capture local regulatory motifs at multiple scales, thereby improving predictive performance without substantially increasing the number of parameters. The features from the two branches are integrated through a fusion layer for joint classification, enabling complementary representation of global semantics and local motifs. Experimental results on the independent iEnhancer-2L test set show that iEnhancer-Hybrid achieved an ACC of 81.25% and an AUC of 86.84%, attaining the highest values among the compared methods. Finally, input-gradient-based saliency analysis, together with STREME/Tomtom motif comparison of model-prioritized sequence fragments against JASPAR 2024 transcription factor binding profiles, indicated that the learned local patterns were consistent with known transcription factor binding motifs, supporting the motif-level interpretability and biological relevance of the predictions.",
+    "keywords": [
+      "Enhancer prediction",
+      "Hybrid deep learning architecture",
+      "Multi-scale dilated convolutional neural network",
+      "Transcription factor binding motifs"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhan, SiQi",
+        "Xu, ZhiZhan",
+        "Yang, Wei",
+        "Li, FangLi"
+      ],
+      "short_names": [
+        "Zhan S",
+        "Xu Z",
+        "Yang W",
+        "Li F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Information Engineering, Jiangxi Institute of Technology, NanChang, 330098, JiangXi, China.",
+        "2011 Collaborative Innovation Center, Jiangxi Institute of Technology, NanChang, 330098, JiangXi, China. qtileron@gmail.com.",
+        "College of Information Engineering, Jiangxi Institute of Technology, NanChang, 330098, JiangXi, China.",
+        "College of Information Engineering, Jiangxi Institute of Technology, NanChang, 330098, JiangXi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhan, SiQi",
+        "short_name": "Zhan S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Engineering, Jiangxi Institute of Technology, NanChang, 330098, JiangXi, China."
+        ]
+      },
+      {
+        "full_name": "Xu, ZhiZhan",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "2011 Collaborative Innovation Center, Jiangxi Institute of Technology, NanChang, 330098, JiangXi, China. qtileron@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Yang, Wei",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Engineering, Jiangxi Institute of Technology, NanChang, 330098, JiangXi, China."
+        ]
+      },
+      {
+        "full_name": "Li, FangLi",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Engineering, Jiangxi Institute of Technology, NanChang, 330098, JiangXi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Jun 30",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/01 06:35",
+    "fetched_at": "2026-10-02 00:48:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42380424",
+      "37113248",
+      "41283958",
+      "41627694",
+      "41399733",
+      "36748992",
+      "36715222",
+      "41755271",
+      "35942693",
+      "39701486",
+      "41813686",
+      "36403092",
+      "40989420",
+      "39214282",
+      "41977286",
+      "39860687",
+      "40914877",
+      "40335860",
+      "41634097",
+      "37019116",
+      "41354216",
+      "39519295",
+      "41722294",
+      "41257600",
+      "41892896",
+      "41475079",
+      "38236675",
+      "37890420",
+      "31874637",
+      "36566623",
+      "38776837",
+      "31026297",
+      "42098517",
+      "40302345",
+      "40714931",
+      "41558219",
+      "40598008",
+      "41367738",
+      "35676633",
+      "40889118",
+      "41471598",
+      "38203136",
+      "38460901",
+      "41532285",
+      "40108817",
+      "38645864",
+      "39696434",
+      "41299278",
+      "33538820",
+      "39096613",
+      "41861773",
+      "41056347",
+      "36049552",
+      "34364858",
+      "40101555",
+      "36321557",
+      "40237918",
+      "39838982",
+      "42242678",
+      "40349379",
+      "42281074",
+      "41308087",
+      "39653625",
+      "42348910",
+      "41872312",
+      "41057424",
+      "41440580",
+      "41791267",
+      "40306096",
+      "33767912",
+      "42235009",
+      "42037333",
+      "41035538",
+      "38454673",
+      "37723425",
+      "41130478",
+      "29970003",
+      "41034439",
+      "41090123",
+      "40889326",
+      "34272562",
+      "34700255",
+      "41595447",
+      "39577030",
+      "41544987",
+      "38613888",
+      "41829572",
+      "28245811",
+      "33808317",
+      "37442977",
+      "38250147",
+      "39066156",
+      "20579334",
+      "27896980",
+      "40440150",
+      "42234354",
+      "41023673",
+      "37922717",
+      "37559017",
+      "39528563"
+    ],
+    "review": [
+      "42380424",
+      "36321557"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-57725-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

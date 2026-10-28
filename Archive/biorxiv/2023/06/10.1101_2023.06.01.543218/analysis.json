@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.01.543218",
+  "title": "Enhanced 5mC-Methylation-Site Recognition in DNA Sequences using Token Classification and a Domain-specific Loss Function",
+  "authors": "Wenhuan Zeng; Daniel Huson",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-05",
+  "window": {
+    "start": "2023-06-05",
+    "end": "2023-06-11"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用深度学习预测DNA 5mC甲基化位点，虽涉及DNA序列与蛋白修饰相关，但非蛋白质-DNA互作或TF-DNA结合体系，且无三维互作建模与机制研究，仅序列级分类任务。",
+  "abstract": "DNA 5-methylcytosine modification has been widely studied in mammals and plays an important role in epigenetics. Several computational methods exist that attempt to determine the methylation state of a DNA sequence centered at a possible methylation site. Here, we introduce a novel deep-learning framework, MR-DNA, that predicts the methylation state of a single nucleotide located in a gene promoter region. The idea is to adapt the named-entity recognition approach to methylation-site prediction and to incorporate biological rules during model construction. MR-DNA has a stacked model architecture consisting of a pre-trained MuLan-Methyl-DistilBERT language model and a conditional random field algorithm, trained with a self-defined methyl loss function. The resulting fine-tuned model achieves an accuracy of 97.9% on an independent test dataset of samples. An advantage of this formulation of the methylation-site identification task is that it predicts on every nucleotide of a sequence of a given length, unlike previous methods that the predict methylation state of DNA sequences of a short fixed length. For training and testing purposes, we provide a database of DNA sequences containing verified 5mC-methylation sites, calculated from data for eight human cell lines downloaded from the ENCODE database.",
+  "abstract_zh": "DNA 5-甲基胞嘧啶修饰在哺乳动物中已被广泛研究，并在表观遗传学中发挥重要作用。已有多种计算方法试图确定以潜在甲基化位点为中心的DNA序列的甲基化状态。在此，我们介绍一种新颖的深度学习框架MR-DNA，用于预测基因启动子区域中单个核苷酸的甲基化状态。其思路是将命名实体识别方法适应于甲基化位点预测，并在模型构建过程中融入生物学规则。MR-DNA采用堆叠模型架构，由预训练的MuLan-Methyl-DistilBERT语言模型和条件随机场算法组成，并使用自定义的甲基损失函数进行训练。所得到的微调模型在独立测试数据集上的准确率达到97.9%。该甲基化位点识别任务公式的一个优势在于，它能对给定长度的序列中的每个核苷酸进行预测，而以往方法仅能预测短固定长度DNA序列的甲基化状态。为训练和测试目的，我们提供了一个包含已验证5mC甲基化位点的DNA序列数据库，该数据库基于从ENCODE数据库下载的八种人类细胞系数据计算得出。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.01.543218",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.01.543218",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.01.543218/index.html"
+}

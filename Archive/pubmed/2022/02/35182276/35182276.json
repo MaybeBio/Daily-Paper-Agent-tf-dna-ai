@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "35182276",
+    "doi": "10.1007/s10528-022-10199-3",
+    "title": "Estrogen Receptor Gene Polymorphism as a Possible Genetic Risk Factor for Treatment Response in ER-Positive Breast Cancer Patients."
+  },
+  "content": {
+    "abstract": "Estrogen receptor-alpha (ESR1) single nucleotide polymorphisms (SNPs) have been related to breast cancer (BC) susceptibility. In this retrospective study we investigated ESR1 SNPs in association with survival and treatment response in BC patients. Seven ESR1 SNPs were genotyped using TaqMan probe assay in 100 formalin-fixed paraffin embedded blocks of Egyptian ER(+)BC patients. Log-binomial regression was used to assess the association of 5 ESR1 SNPs with relative risk of non-response to adjuvant-hormonal treatment. We compared the performance of five machine learning classification models for prediction of treatment response. Predictive models were developed using rs1801132, rs2228480, and rs9322354 that were significantly associated with increased risk for non-response along with the relevant clinical features. Survival analysis was performed to detect prognostic significance of ESR1 SNPs in ESR(+)BC patients. rs1801132 (C), rs2228480 (A), and rs9322354 (G) minor alleles significantly increased the risk of non-response to tamoxifen by more than 81, 84, and 117%, respectively, in ER(+)BC patients on anthracycline/anthracycline-taxanes-based chemotherapy. Multivariate Cox regression survival analysis revealed that rs1801132 (C) and large tumor size were independent predictors for poor survival outcome in ER(+)BC. The best response predictive model was a combination random forest, K-nearest neighbor, and decision tree having an area under the curve of 0.94 and an accuracy of 90.8%. Our proposed predictive model based on ESR1 rs1801132, rs2228480, and rs9322354 SNPs represents a promising genetic risk stratification for selection patients who could benefit from tamoxifen therapy in such a way that might facilitate personalized medicine required to improve ER(+)BC patients' outcome.",
+    "keywords": [
+      "ESR1 polymorphism",
+      "Estrogen receptor-positive breast cancer",
+      "Genetic risk factor",
+      "Hormonal treatment",
+      "Prognosis",
+      "Response prediction"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "Anthracyclines/therapeutic use",
+      "*Breast Neoplasms/drug therapy/genetics/pathology",
+      "Polymorphism, Single Nucleotide",
+      "*Receptors, Estrogen/genetics",
+      "Retrospective Studies",
+      "Risk Factors",
+      "Tamoxifen/therapeutic use",
+      "Estrogen Receptor alpha"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Allahloubi, Nasr M A",
+        "Zekri, Abdel-Rahman N",
+        "Ragab, Mohamed",
+        "Mohanad, Marwa",
+        "Ahmed, Ola S",
+        "Eid, Salem",
+        "Ghareeb, Mohamed",
+        "Gouda, Iman",
+        "Bahnassy, Abeer A"
+      ],
+      "short_names": [
+        "Allahloubi NMA",
+        "Zekri AN",
+        "Ragab M",
+        "Mohanad M",
+        "Ahmed OS",
+        "Eid S",
+        "Ghareeb M",
+        "Gouda I",
+        "Bahnassy AA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3827-9647"
+      ],
+      "affiliations": [
+        "Department of Medical Oncology, National Cancer Institute, Cairo University, Giza, Egypt.",
+        "Virology and Immunology Unit, Cancer Biology Department, National Cancer Institute, Cairo University, Giza, Egypt.",
+        "Medical Oncology, Faculty of Medicine, Zagazig University, Zagagig, Egypt.",
+        "Biochemistry Department, College of Pharmaceutical Sciences and Drug Manufacturing, Misr University for Science and Technology, 6th of October, Giza, Egypt. marwamohanad@gmail.com.",
+        "Virology and Immunology Unit, Cancer Biology Department, National Cancer Institute, Cairo University, Giza, Egypt.",
+        "Department of Medical Oncology, National Cancer Institute, Cairo University, Giza, Egypt.",
+        "Department of Medical Oncology, National Cancer Institute, Cairo University, Giza, Egypt.",
+        "Department of Pathology, National Cancer Institute, Cairo University, Giza, Egypt.",
+        "Tissue Culture and Cytogenetics Unit, Pathology Department, National Cancer Institute, Cairo University, Giza, Egypt."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Allahloubi, Nasr M A",
+        "short_name": "Allahloubi NMA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, National Cancer Institute, Cairo University, Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Zekri, Abdel-Rahman N",
+        "short_name": "Zekri AN",
+        "identifiers": [],
+        "affiliations": [
+          "Virology and Immunology Unit, Cancer Biology Department, National Cancer Institute, Cairo University, Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Ragab, Mohamed",
+        "short_name": "Ragab M",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Oncology, Faculty of Medicine, Zagazig University, Zagagig, Egypt."
+        ]
+      },
+      {
+        "full_name": "Mohanad, Marwa",
+        "short_name": "Mohanad M",
+        "identifiers": [
+          "0000-0002-3827-9647"
+        ],
+        "affiliations": [
+          "Biochemistry Department, College of Pharmaceutical Sciences and Drug Manufacturing, Misr University for Science and Technology, 6th of October, Giza, Egypt. marwamohanad@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Ahmed, Ola S",
+        "short_name": "Ahmed OS",
+        "identifiers": [],
+        "affiliations": [
+          "Virology and Immunology Unit, Cancer Biology Department, National Cancer Institute, Cairo University, Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Eid, Salem",
+        "short_name": "Eid S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, National Cancer Institute, Cairo University, Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Ghareeb, Mohamed",
+        "short_name": "Ghareeb M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, National Cancer Institute, Cairo University, Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Gouda, Iman",
+        "short_name": "Gouda I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, National Cancer Institute, Cairo University, Giza, Egypt."
+        ]
+      },
+      {
+        "full_name": "Bahnassy, Abeer A",
+        "short_name": "Bahnassy AA",
+        "identifiers": [],
+        "affiliations": [
+          "Tissue Culture and Cytogenetics Unit, Pathology Department, National Cancer Institute, Cairo University, Giza, Egypt."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical genetics"
+    ],
+    "journal_abbrev": [
+      "Biochem Genet"
+    ],
+    "pub_date": "2022 Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/20 06:00",
+    "fetched_at": "2026-09-28 05:24:23"
+  },
+  "links": {
+    "cites": [
+      "36531037"
+    ],
+    "refs": [
+      "32257663",
+      "32036684",
+      "31786857",
+      "31571407",
+      "31539757",
+      "31350959",
+      "31213877",
+      "30854468",
+      "30359238",
+      "30123365",
+      "29861877",
+      "28808214",
+      "28721070",
+      "28490933",
+      "27227944",
+      "27070141",
+      "26765445",
+      "26436112",
+      "26434778",
+      "26278220",
+      "25778331",
+      "25651787",
+      "24584714",
+      "23666105",
+      "23246022",
+      "22605952",
+      "22424082",
+      "21957356",
+      "20846920",
+      "20616674",
+      "20527604",
+      "20453838",
+      "20404251",
+      "19901117",
+      "19760036",
+      "19447249",
+      "19204201",
+      "19097774",
+      "18678836",
+      "17893378",
+      "17116941",
+      "16421368"
+    ],
+    "similar": [
+      "35182276",
+      "31562548",
+      "27225751",
+      "26590813",
+      "27070141",
+      "25228414",
+      "20429621",
+      "30826563",
+      "35151276",
+      "21947828",
+      "19760036",
+      "33281037",
+      "33547330",
+      "23951298",
+      "20556506",
+      "28109853",
+      "19744330",
+      "24928087",
+      "26482374",
+      "35485697",
+      "18498629",
+      "27542969",
+      "25337220",
+      "23074401",
+      "27217450",
+      "28178648",
+      "31647985",
+      "31733575",
+      "18668363",
+      "21269472",
+      "18928543",
+      "31675993",
+      "19082882",
+      "30816325",
+      "19941161",
+      "23972025",
+      "30646914",
+      "30733051",
+      "15894097",
+      "33247680",
+      "30306428",
+      "15569979",
+      "20515469",
+      "29414691",
+      "25081647",
+      "20570923",
+      "26396922",
+      "25395315",
+      "22151962",
+      "25218596",
+      "22738860",
+      "33452979",
+      "36175898",
+      "24253811",
+      "19130322",
+      "24047421",
+      "21122099",
+      "33185851",
+      "19173092",
+      "21674849",
+      "21281480",
+      "27178332",
+      "1634918",
+      "29902286",
+      "19205877",
+      "18705406",
+      "20697068",
+      "1281648",
+      "15069113",
+      "33632172",
+      "22532573",
+      "30309792",
+      "20837693",
+      "30177847",
+      "19094228",
+      "34190995",
+      "7563153",
+      "7455895",
+      "20383761",
+      "29544444",
+      "29893332",
+      "27526056",
+      "20731819",
+      "27722840",
+      "22559056",
+      "17889406",
+      "18812550",
+      "10619354",
+      "36831182",
+      "28179588",
+      "33952417",
+      "25227710",
+      "36705562",
+      "33384956",
+      "37761908",
+      "32632202",
+      "32973967",
+      "39286133",
+      "38085049"
+    ],
+    "review": [
+      "35182276",
+      "27070141",
+      "19760036",
+      "31647985",
+      "15894097",
+      "18705406",
+      "1281648",
+      "33384956"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1007/s10528-022-10199-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-145",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

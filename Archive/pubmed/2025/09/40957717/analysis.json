@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40957717",
+  "title": "Partner-RBR: Predicting Multitype RNA-Binding Residues Based on Mutual Learning.",
+  "authors": "Huang, Zhijian; Dong, Yihan; Nie, Wenjuan; Chen, Hang; Aljanabi, Qahtan Adnan; Deng, Lei",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-09-17",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用蛋白语言模型与TextCNN预测RNA结合残基，虽非TF-DNA体系，但蛋白-核酸结合位点预测方法可迁移至TF-DNA研究。",
+  "abstract": "RNA molecules play diverse and critical roles in various biological processes, including gene expression, post-transcriptional regulation, and disease pathogenesis. Understanding the interaction between proteins and RNA necessitates the precise identification of RNA-binding residues. Traditional approaches are costly and time-consuming, and existing computational methods are often agnostic to RNA types. In this study, we introduce Partner-RBR, a novel method for the comprehensive identification of RNA-binding residues capable of accommodating a range of RNA types. Our approach leverages protein sequences and integrates features from multiple sources, including Multiple Sequence Alignment (MSA), the protein language model, and predicted protein structures obtained from AlphaFold protein structure database. Local sequence information is captured using a sliding window, while structural neighbors are considered by creating an adjacency matrix. The hierarchical semantic information is extracted using a TextCNN architecture, and performance is further enhanced through mutual learning. Through the proposed framework, we have achieved the identification of key patterns and the extraction of critical information on RNA-binding residues. Upon evaluation using a public test data set, Partner-RBR demonstrates significant improvements in predictive performance, exhibiting a substantial increase in the Area Under the Curve (AUC) from 2 to 10% compared to existing methods. Notably, it achieves the lowest error rates for both cross-prediction and overprediction, effectively distinguishing RNA-binding residues from DNA-binding residues and non-nucleic acid-binding residues. The data set and code of Partner-RBR are available at: https://github.com/Hhhzj-7/Partner-RBR.",
+  "abstract_zh": "RNA分子在多种生物过程中发挥多样且关键的作用，包括基因表达、转录后调控和疾病发病机制。理解蛋白质与RNA之间的相互作用需要精确识别RNA结合残基。传统方法成本高昂且耗时，现有计算方法通常对RNA类型不敏感。在本研究中，我们介绍了Partner-RBR，一种能够适应多种RNA类型的RNA结合残基综合识别新方法。我们的方法利用蛋白质序列，并整合来自多个来源的特征，包括多序列比对 (Multiple Sequence Alignment, MSA)、蛋白质语言模型，以及从AlphaFold蛋白质结构数据库获得的预测蛋白质结构。局部序列信息通过滑动窗口捕获，而结构邻居则通过创建邻接矩阵来考虑。层次语义信息使用TextCNN架构提取，并通过相互学习进一步增强性能。通过所提出的框架，我们实现了RNA结合残基关键模式的识别和关键信息的提取。在使用公共测试数据集进行评估时，Partner-RBR在预测性能上表现出显著提升，与现有方法相比，曲线下面积 (Area Under the Curve, AUC) 增加了2%至10%。值得注意的是，它在交叉预测和过度预测方面均实现了最低错误率，有效区分了RNA结合残基与DNA结合残基及非核酸结合残基。Partner-RBR的数据集和代码可在以下网址获取：https://github.com/Hhhzj-7/Partner-RBR。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40957717/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40957717/",
+  "paper_page_path": "papers/pubmed/40957717/index.html"
+}

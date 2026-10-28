@@ -1,0 +1,594 @@
+{
+  "identity": {
+    "pmid": "35969771",
+    "doi": "10.1073/pnas.2207392119",
+    "title": "Inferring gene regulation from stochastic transcriptional variation across single cells at steady state."
+  },
+  "content": {
+    "abstract": "Regulatory relationships between transcription factors (TFs) and their target genes lie at the heart of cellular identity and function; however, uncovering these relationships is often labor-intensive and requires perturbations. Here, we propose a principled framework to systematically infer gene regulation for all TFs simultaneously in cells at steady state by leveraging the intrinsic variation in the transcriptional abundance across single cells. Through modeling and simulations, we characterize how transcriptional bursts of a TF gene are propagated to its target genes, including the expected ranges of time delay and magnitude of maximum covariation. We distinguish these temporal trends from the time-invariant covariation arising from cell states, and we delineate the experimental and technical requirements for leveraging these small but meaningful cofluctuations in the presence of measurement noise. While current technology does not yet allow adequate power for definitively detecting regulatory relationships for all TFs simultaneously in cells at steady state, we investigate a small-scale dataset to inform future experimental design. This study supports the potential value of mapping regulatory connections through stochastic variation, and it motivates further technological development to achieve its full potential.",
+    "keywords": [
+      "gene regulation",
+      "single-cell transcriptomics",
+      "transcriptional bursting"
+    ],
+    "mesh_terms": [
+      "Computer Simulation",
+      "*Gene Expression Regulation",
+      "Gene Regulatory Networks",
+      "*Models, Biological",
+      "*Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gupta, Anika",
+        "Martin-Rufino, Jorge D",
+        "Jones, Thouis R",
+        "Subramanian, Vidya",
+        "Qiu, Xiaojie",
+        "Grody, Emanuelle I",
+        "Bloemendal, Alex",
+        "Weng, Chen",
+        "Niu, Sheng-Yong",
+        "Min, Kyung Hoi",
+        "Mehta, Arnav",
+        "Zhang, Kaite",
+        "Siraj, Layla",
+        "Al' Khafaji, Aziz",
+        "Sankaran, Vijay G",
+        "Raychaudhuri, Soumya",
+        "Cleary, Brian",
+        "Grossman, Sharon",
+        "Lander, Eric S"
+      ],
+      "short_names": [
+        "Gupta A",
+        "Martin-Rufino JD",
+        "Jones TR",
+        "Subramanian V",
+        "Qiu X",
+        "Grody EI",
+        "Bloemendal A",
+        "Weng C",
+        "Niu SY",
+        "Min KH",
+        "Mehta A",
+        "Zhang K",
+        "Siraj L",
+        "Al' Khafaji A",
+        "Sankaran VG",
+        "Raychaudhuri S",
+        "Cleary B",
+        "Grossman S",
+        "Lander ES"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7631-5442",
+        "ORCID: 0000-0003-0044-443X",
+        "ORCID: 0000-0001-6422-1134"
+      ],
+      "affiliations": [
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Department of Biomedical Informatics, Harvard Medical School, Boston, MA 02115.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Division of Hematology/Oncology, Boston Children's Hospital, Boston, MA 02115.",
+        "Dana-Farber Cancer Institute, Boston, MA 02215.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Whitehead Institute for Biomedical Research, Cambridge, MA 02142.",
+        "HHMI, Massachusetts Institute of Technology, Cambridge, MA 02139.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Division of Hematology/Oncology, Boston Children's Hospital, Boston, MA 02115.",
+        "Dana-Farber Cancer Institute, Boston, MA 02215.",
+        "Whitehead Institute for Biomedical Research, Cambridge, MA 02142.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Whitehead Institute for Biomedical Research, Cambridge, MA 02142.",
+        "Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology, Cambridge, MA 02139.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Dana-Farber Cancer Institute, Boston, MA 02215.",
+        "Department of Medicine, Massachusetts General Hospital, Boston, MA 02114.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Division of Hematology/Oncology, Boston Children's Hospital, Boston, MA 02115.",
+        "Dana-Farber Cancer Institute, Boston, MA 02215.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Department of Biomedical Informatics, Harvard Medical School, Boston, MA 02115.",
+        "Center for Data Sciences, Brigham and Women's Hospital, Boston, MA 02115.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+        "Department of Biology, Massachusetts Institute of Technology, Cambridge, MA 02142.",
+        "Department of Systems Biology, Harvard Medical School, Boston, MA 02115."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gupta, Anika",
+        "short_name": "Gupta A",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+          "Department of Biomedical Informatics, Harvard Medical School, Boston, MA 02115."
+        ]
+      },
+      {
+        "full_name": "Martin-Rufino, Jorge D",
+        "short_name": "Martin-Rufino JD",
+        "identifiers": [
+          "0000-0002-7631-5442"
+        ],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+          "Division of Hematology/Oncology, Boston Children's Hospital, Boston, MA 02115.",
+          "Dana-Farber Cancer Institute, Boston, MA 02215."
+        ]
+      },
+      {
+        "full_name": "Jones, Thouis R",
+        "short_name": "Jones TR",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Subramanian, Vidya",
+        "short_name": "Subramanian V",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Qiu, Xiaojie",
+        "short_name": "Qiu X",
+        "identifiers": [],
+        "affiliations": [
+          "Whitehead Institute for Biomedical Research, Cambridge, MA 02142.",
+          "HHMI, Massachusetts Institute of Technology, Cambridge, MA 02139."
+        ]
+      },
+      {
+        "full_name": "Grody, Emanuelle I",
+        "short_name": "Grody EI",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Bloemendal, Alex",
+        "short_name": "Bloemendal A",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Weng, Chen",
+        "short_name": "Weng C",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+          "Division of Hematology/Oncology, Boston Children's Hospital, Boston, MA 02115.",
+          "Dana-Farber Cancer Institute, Boston, MA 02215.",
+          "Whitehead Institute for Biomedical Research, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Niu, Sheng-Yong",
+        "short_name": "Niu SY",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Min, Kyung Hoi",
+        "short_name": "Min KH",
+        "identifiers": [],
+        "affiliations": [
+          "Whitehead Institute for Biomedical Research, Cambridge, MA 02142.",
+          "Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology, Cambridge, MA 02139."
+        ]
+      },
+      {
+        "full_name": "Mehta, Arnav",
+        "short_name": "Mehta A",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+          "Dana-Farber Cancer Institute, Boston, MA 02215.",
+          "Department of Medicine, Massachusetts General Hospital, Boston, MA 02114."
+        ]
+      },
+      {
+        "full_name": "Zhang, Kaite",
+        "short_name": "Zhang K",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Siraj, Layla",
+        "short_name": "Siraj L",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Al' Khafaji, Aziz",
+        "short_name": "Al' Khafaji A",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Sankaran, Vijay G",
+        "short_name": "Sankaran VG",
+        "identifiers": [
+          "0000-0003-0044-443X"
+        ],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+          "Division of Hematology/Oncology, Boston Children's Hospital, Boston, MA 02115.",
+          "Dana-Farber Cancer Institute, Boston, MA 02215."
+        ]
+      },
+      {
+        "full_name": "Raychaudhuri, Soumya",
+        "short_name": "Raychaudhuri S",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+          "Department of Biomedical Informatics, Harvard Medical School, Boston, MA 02115.",
+          "Center for Data Sciences, Brigham and Women's Hospital, Boston, MA 02115."
+        ]
+      },
+      {
+        "full_name": "Cleary, Brian",
+        "short_name": "Cleary B",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Grossman, Sharon",
+        "short_name": "Grossman S",
+        "identifiers": [
+          "0000-0001-6422-1134"
+        ],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142."
+        ]
+      },
+      {
+        "full_name": "Lander, Eric S",
+        "short_name": "Lander ES",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA 02142.",
+          "Department of Biology, Massachusetts Institute of Technology, Cambridge, MA 02142.",
+          "Department of Systems Biology, Harvard Medical School, Boston, MA 02115."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2022 Aug 23",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/16 06:00",
+    "fetched_at": "2026-09-28 12:22:24"
+  },
+  "links": {
+    "cites": [
+      "42547851",
+      "42105235",
+      "42059479",
+      "41779826",
+      "40555388",
+      "39939367",
+      "39741416",
+      "39454576",
+      "39294560",
+      "39135102",
+      "38964322",
+      "38900637",
+      "38867109",
+      "38740619",
+      "38562714",
+      "38493227",
+      "38432314",
+      "38353329",
+      "38003008",
+      "37986720",
+      "37961453",
+      "37645989",
+      "37580132",
+      "36993765"
+    ],
+    "refs": [
+      "35672358",
+      "34608310",
+      "34341563",
+      "34035432",
+      "33128048",
+      "33098772",
+      "32868927",
+      "32735851",
+      "32716923",
+      "32533938",
+      "32518404",
+      "32483332",
+      "32355211",
+      "32284584",
+      "32231336",
+      "32181581",
+      "32139547",
+      "32135093",
+      "31907445",
+      "31784727",
+      "31395745",
+      "31391463",
+      "31316066",
+      "31282856",
+      "31197158",
+      "31152582",
+      "30849375",
+      "30602787",
+      "30580963",
+      "30554946",
+      "30472192",
+      "30353734",
+      "30089906",
+      "30024089",
+      "29961576",
+      "29887381",
+      "29706549",
+      "29579101",
+      "29574055",
+      "29454937",
+      "29425488",
+      "29355846",
+      "28991892",
+      "28957658",
+      "28945705",
+      "28652613",
+      "28504683",
+      "28446220",
+      "28388437",
+      "28091601",
+      "27984733",
+      "27984732",
+      "27924870",
+      "27873472",
+      "27824854",
+      "27571553",
+      "27368104",
+      "26967295",
+      "26687353",
+      "26527727",
+      "25728770",
+      "25410303",
+      "25036631",
+      "24981864",
+      "24766815",
+      "24637398",
+      "24531970",
+      "24297917",
+      "24022005",
+      "23996796",
+      "23953111",
+      "23935018",
+      "23557991",
+      "23416756",
+      "23064634",
+      "22805708",
+      "22499939",
+      "22410830",
+      "22365828",
+      "22119784",
+      "21596317",
+      "21593866",
+      "21415320",
+      "21145464",
+      "19941827",
+      "19011635",
+      "18957198",
+      "18806792",
+      "18669654",
+      "18478531",
+      "18388284",
+      "17417638",
+      "16646834",
+      "16360033",
+      "16267872",
+      "15790857",
+      "15790856",
+      "15130938",
+      "12934013",
+      "12687005",
+      "12237400",
+      "12183631",
+      "11967532",
+      "10902190"
+    ],
+    "similar": [
+      "35969771",
+      "34986805",
+      "18426580",
+      "22849367",
+      "23497388",
+      "41288963",
+      "24565025",
+      "28341132",
+      "39705007",
+      "25281301",
+      "18586698",
+      "29051499",
+      "38653489",
+      "22784627",
+      "32052437",
+      "18366607",
+      "17890736",
+      "38980373",
+      "41022589",
+      "20866831",
+      "18182844",
+      "34481381",
+      "35167097",
+      "40633682",
+      "34292930",
+      "40662784",
+      "39589130",
+      "21172055",
+      "16131521",
+      "39833103",
+      "34314098",
+      "25855217",
+      "34251621",
+      "39679439",
+      "25433699",
+      "39163638",
+      "30411251",
+      "19657679",
+      "26424082",
+      "17971223",
+      "36497174",
+      "36326081",
+      "26267711",
+      "31138635",
+      "35041641",
+      "23046840",
+      "23246694",
+      "23093926",
+      "27720190",
+      "26611531",
+      "22958362",
+      "17241460",
+      "37085776",
+      "31881824",
+      "20444835",
+      "32174324",
+      "20942926",
+      "36693565",
+      "38941464",
+      "37424431",
+      "27295631",
+      "24228871",
+      "39591750",
+      "37074578",
+      "36790055",
+      "22106333",
+      "30547796",
+      "32054475",
+      "27879476",
+      "32019417",
+      "29325558",
+      "21367870",
+      "28666320",
+      "37108512",
+      "27760135",
+      "39135102",
+      "25887857",
+      "28237795",
+      "17319944",
+      "22456606",
+      "24710559",
+      "20805189",
+      "38857275",
+      "25162401",
+      "20185727",
+      "21483898",
+      "16551355",
+      "34251620",
+      "34166361",
+      "24967515",
+      "32858223",
+      "20176728",
+      "29769331",
+      "36114445",
+      "20840729",
+      "18831784",
+      "32357166",
+      "34864886",
+      "24407294",
+      "37706624"
+    ],
+    "review": [
+      "35969771",
+      "18182844",
+      "34481381",
+      "34314098",
+      "27720190",
+      "20840729"
+    ],
+    "pmc": [
+      "9407670"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2207392119?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35969771/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35969771",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse202292",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

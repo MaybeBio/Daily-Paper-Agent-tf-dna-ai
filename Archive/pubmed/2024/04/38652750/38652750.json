@@ -1,0 +1,437 @@
+{
+  "identity": {
+    "pmid": "38652750",
+    "doi": "10.1073/pnas.2322751121",
+    "title": "Organ-delimited gene regulatory networks provide high accuracy in candidate transcription factor selection across diverse processes."
+  },
+  "content": {
+    "abstract": "Organ-specific gene expression datasets that include hundreds to thousands of experiments allow the reconstruction of organ-level gene regulatory networks (GRNs). However, creating such datasets is greatly hampered by the requirements of extensive and tedious manual curation. Here, we trained a supervised classification model that can accurately classify the organ-of-origin for a plant transcriptome. This K-Nearest Neighbor-based multiclass classifier was used to create organ-specific gene expression datasets for the leaf, root, shoot, flower, and seed in Arabidopsis thaliana. A GRN inference approach was used to determine the: i. influential transcription factors (TFs) in each organ and, ii. most influential TFs for specific biological processes in that organ. These genome-wide, organ-delimited GRNs (OD-GRNs), recalled many known regulators of organ development and processes operating in those organs. Importantly, many previously unknown TF regulators were uncovered as potential regulators of these processes. As a proof-of-concept, we focused on experimentally validating the predicted TF regulators of lipid biosynthesis in seeds, an important food and biofuel trait. Of the top 20 predicted TFs, eight are known regulators of seed oil content, e.g., WRI1, LEC1, FUS3. Importantly, we validated our prediction of MybS2, TGA4, SPL12, AGL18, and DiV2 as regulators of seed lipid biosynthesis. We elucidated the molecular mechanism of MybS2 and show that it induces purple acid phosphatase family genes and lipid synthesis genes to enhance seed lipid content. This general approach has the potential to be extended to any species with sufficiently large gene expression datasets to find unique regulators of any trait-of-interest.",
+    "keywords": [
+      "Arabidopsis",
+      "gene regulatory network",
+      "machine learning",
+      "meta-analysis",
+      "seed lipid biosynthesis"
+    ],
+    "mesh_terms": [
+      "*Arabidopsis/genetics/metabolism",
+      "*Transcription Factors/metabolism/genetics",
+      "*Gene Regulatory Networks",
+      "*Gene Expression Regulation, Plant",
+      "Arabidopsis Proteins/genetics/metabolism",
+      "Organ Specificity/genetics",
+      "Transcriptome/genetics",
+      "Seeds/genetics/metabolism",
+      "Gene Expression Profiling/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ranjan, Rajeev",
+        "Srijan, Sonali",
+        "Balekuttira, Somaiah",
+        "Agarwal, Tina",
+        "Ramey, Melissa",
+        "Dobbins, Madison",
+        "Kuhn, Rachel",
+        "Wang, Xiaojin",
+        "Hudson, Karen",
+        "Li, Ying",
+        "Varala, Kranthi"
+      ],
+      "short_names": [
+        "Ranjan R",
+        "Srijan S",
+        "Balekuttira S",
+        "Agarwal T",
+        "Ramey M",
+        "Dobbins M",
+        "Kuhn R",
+        "Wang X",
+        "Hudson K",
+        "Li Y",
+        "Varala K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1344-4044",
+        "ORCID: 0000-0002-5258-7355",
+        "ORCID: 0000-0003-1051-6636"
+      ],
+      "affiliations": [
+        "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907.",
+        "Center for Plant Biology, Purdue University, West Lafayette, IN 47907.",
+        "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907.",
+        "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907.",
+        "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907.",
+        "Center for Plant Biology, Purdue University, West Lafayette, IN 47907.",
+        "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907.",
+        "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907.",
+        "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907.",
+        "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907.",
+        "Center for Plant Biology, Purdue University, West Lafayette, IN 47907.",
+        "United States Department of Agriculture-Agricultural Research Service Crop Production and Pest Control Research Unit, West Lafayette, IN 47907.",
+        "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907.",
+        "Center for Plant Biology, Purdue University, West Lafayette, IN 47907.",
+        "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907.",
+        "Center for Plant Biology, Purdue University, West Lafayette, IN 47907."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ranjan, Rajeev",
+        "short_name": "Ranjan R",
+        "identifiers": [
+          "0000-0002-1344-4044"
+        ],
+        "affiliations": [
+          "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907.",
+          "Center for Plant Biology, Purdue University, West Lafayette, IN 47907."
+        ]
+      },
+      {
+        "full_name": "Srijan, Sonali",
+        "short_name": "Srijan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907."
+        ]
+      },
+      {
+        "full_name": "Balekuttira, Somaiah",
+        "short_name": "Balekuttira S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907."
+        ]
+      },
+      {
+        "full_name": "Agarwal, Tina",
+        "short_name": "Agarwal T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907.",
+          "Center for Plant Biology, Purdue University, West Lafayette, IN 47907."
+        ]
+      },
+      {
+        "full_name": "Ramey, Melissa",
+        "short_name": "Ramey M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907."
+        ]
+      },
+      {
+        "full_name": "Dobbins, Madison",
+        "short_name": "Dobbins M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907."
+        ]
+      },
+      {
+        "full_name": "Kuhn, Rachel",
+        "short_name": "Kuhn R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaojin",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907.",
+          "Center for Plant Biology, Purdue University, West Lafayette, IN 47907."
+        ]
+      },
+      {
+        "full_name": "Hudson, Karen",
+        "short_name": "Hudson K",
+        "identifiers": [],
+        "affiliations": [
+          "United States Department of Agriculture-Agricultural Research Service Crop Production and Pest Control Research Unit, West Lafayette, IN 47907."
+        ]
+      },
+      {
+        "full_name": "Li, Ying",
+        "short_name": "Li Y",
+        "identifiers": [
+          "0000-0002-5258-7355"
+        ],
+        "affiliations": [
+          "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907.",
+          "Center for Plant Biology, Purdue University, West Lafayette, IN 47907."
+        ]
+      },
+      {
+        "full_name": "Varala, Kranthi",
+        "short_name": "Varala K",
+        "identifiers": [
+          "0000-0003-1051-6636"
+        ],
+        "affiliations": [
+          "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, IN 47907.",
+          "Center for Plant Biology, Purdue University, West Lafayette, IN 47907."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2024 Apr 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/23 18:51",
+    "fetched_at": "2026-09-29 19:05:46"
+  },
+  "links": {
+    "cites": [
+      "41754240",
+      "41518508",
+      "40908642",
+      "40684262"
+    ],
+    "refs": [
+      "36629302",
+      "35991420",
+      "35851483",
+      "35605194",
+      "35504287",
+      "35365602",
+      "34849730",
+      "34518686",
+      "33846597",
+      "33658387",
+      "33631799",
+      "33088199",
+      "32958562",
+      "32445409",
+      "32129896",
+      "31927423",
+      "31594849",
+      "30952851",
+      "30445315",
+      "30154812",
+      "29807586",
+      "29769331",
+      "29660088",
+      "29079824",
+      "28676568",
+      "28270825",
+      "28263959",
+      "27932421",
+      "27924042",
+      "27862469",
+      "27681170",
+      "27655842",
+      "27610578",
+      "27549386",
+      "27288837",
+      "26243618",
+      "26152712",
+      "25355510",
+      "25194028",
+      "24014578",
+      "23995083",
+      "23505340",
+      "23243127",
+      "22879396",
+      "22796662",
+      "22177264",
+      "21883555",
+      "21303553",
+      "21045071",
+      "20927193",
+      "19033274",
+      "18811951",
+      "18689444",
+      "17522888",
+      "17419836",
+      "16600316",
+      "15806101",
+      "15500472",
+      "15388519",
+      "11975337",
+      "9733529"
+    ],
+    "similar": [
+      "38652750",
+      "29879919",
+      "29769331",
+      "24228871",
+      "20385809",
+      "34480800",
+      "34215912",
+      "41849781",
+      "37148285",
+      "25358340",
+      "27457996",
+      "33631799",
+      "40365911",
+      "30382087",
+      "29272447",
+      "21635767",
+      "26045464",
+      "30104383",
+      "22784627",
+      "18476867",
+      "32154880",
+      "33974299",
+      "37788349",
+      "26503031",
+      "38949092",
+      "31428455",
+      "42401421",
+      "27551092",
+      "27314514",
+      "40208194",
+      "20840729",
+      "38337133",
+      "37058107",
+      "27932421",
+      "21245844",
+      "39737697",
+      "22363552",
+      "26729600",
+      "39821491",
+      "21282061",
+      "30134624",
+      "29797091",
+      "22279962",
+      "26888061",
+      "35046022",
+      "38657282",
+      "39041422",
+      "29072883",
+      "38734125",
+      "27434024",
+      "23972083",
+      "27866313",
+      "36307979",
+      "19478073",
+      "20920253",
+      "41518505",
+      "38594953",
+      "30547796",
+      "18923020",
+      "28739919",
+      "39422819",
+      "33066688",
+      "26659952",
+      "24289287",
+      "39148037",
+      "34643970",
+      "33793890",
+      "42289463",
+      "35318532",
+      "23319655",
+      "23046216",
+      "31678628",
+      "33846597",
+      "28066488",
+      "25445270",
+      "23095045",
+      "35262735",
+      "17419836",
+      "21593420",
+      "10948227",
+      "23314941",
+      "23872538",
+      "18422904",
+      "24148294",
+      "24277279",
+      "32184350",
+      "40598113",
+      "27246098",
+      "25361952",
+      "42439944",
+      "40908642",
+      "33104784",
+      "32880205",
+      "21045071",
+      "34562334",
+      "19772648",
+      "28197719",
+      "20113437",
+      "21214652",
+      "22898356"
+    ],
+    "review": [
+      "38652750",
+      "34480800",
+      "27457996",
+      "42401421",
+      "20840729",
+      "38337133",
+      "39821491",
+      "29797091",
+      "38657282",
+      "19478073",
+      "42289463",
+      "35318532",
+      "31678628",
+      "18422904"
+    ],
+    "pmc": [
+      "11066984"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2322751121?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38652750/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38652750",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://rrc.nbrp.jp/references/list?pubmed=38652750",
+        "provider": "National BioResource Project",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": "NBRP resources"
+      }
+    ],
+    "text_mined": []
+  }
+}

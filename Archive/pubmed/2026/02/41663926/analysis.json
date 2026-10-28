@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41663926",
+  "title": "UniChrom: a universal deep learning architecture for cross-scale chromatin interaction prediction.",
+  "authors": "Wang, Shuaibin; Chen, Tong; Yang, Zhongxin; Xu, Xuan; Shen, Yin",
+  "journal": "BMC genomics",
+  "published_date": "2026-02-10",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用注意力深度学习预测染色质互作，虽涉及CTCF等蛋白-DNA结合因子，但核心是染色质构象而非TF-DNA特异性结合建模，方法可迁移但对象与互作轴偏离。",
+  "abstract": "Chromatin interactions regulate gene expression and genome organization, but computational prediction across cell types remains challenging. We developed UniChrom, a deep learning framework integrating DNA sequences and epigenomic features through attention-based neural networks to predict chromatin interactions. Evaluation across human lymphoblastoid, leukemia, and fibroblast cell lines demonstrates superior performance compared to existing methods, with fivefold cross-validation and Wilcoxon tests confirming statistical significance (p < 0.05). Distance-stratified analysis reveals robust performance across all genomic scales, including long-range interactions exceeding 1.77 megabases (AUC: 0.976). Independent validation on endothelial cells confirms cross-lineage generalization (AUC: 0.962). Bootstrapping analysis with 1,000 iterations validates performance stability with tight 95% confidence intervals. DeepSHAP interpretability identifies CTCF and cohesin components as dominant features alongside cell-type-specific histone modifications, while DeepLIFT reveals functional regulatory motifs at interaction anchors. UniChrom provides a statistically validated framework for investigating genome architecture across cellular contexts with potential applications in understanding gene regulation in development and disease.",
+  "abstract_zh": "染色质相互作用调控基因表达和基因组组织，但跨细胞类型的计算预测仍具挑战性。我们开发了UniChrom，一种深度学习框架，通过基于注意力的神经网络整合DNA序列和表观基因组特征来预测染色质相互作用。在人类淋巴母细胞、白血病和成纤维细胞系中的评估显示，与现有方法相比性能更优，五折交叉验证和Wilcoxon检验确认了统计显著性（p < 0.05）。距离分层分析揭示在所有基因组尺度上的稳健性能，包括超过1.77兆碱基的长程相互作用（AUC: 0.976）。在内皮细胞上的独立验证确认了跨谱系泛化能力（AUC: 0.962）。基于1,000次迭代的自举分析验证了性能稳定性，95%置信区间狭窄。DeepSHAP可解释性识别出CTCF和cohesin组分以及细胞类型特异性组蛋白修饰为主要特征，而DeepLIFT揭示了相互作用锚点处的功能性调控基序。UniChrom提供了一个经统计验证的框架，用于研究跨细胞环境的基因组结构，并在理解发育和疾病中的基因调控方面具有潜在应用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41663926/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41663926/",
+  "paper_page_path": "papers/pubmed/41663926/index.html"
+}

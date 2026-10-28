@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability, author contributions, acknowledgments)
+- **Assessment boundary** Scientific content, technical soundness, claims versus evidence, resource utility, and alignment with Nature-style criteria. No line numbers were provided; evidence pointers refer to sections, figures, or tables as named in the manuscript.
+- **Shared manuscript claim summary** The authors present a single-cell multiomic atlas of chromatin accessibility and paired gene expression from the human first-trimester brain (6–13 post-conceptional weeks), comprising 526,094 nuclei across 76 biological samples. They identify 135 clusters, link candidate cis-regulatory elements (cCREs) to genes, observe age- and differentiation-associated increases in accessible regions, apply topic modeling and convolutional neural networks to infer regulatory syntax, and use GWAS integration to implicate specific cell types in psychiatric disorders, notably midbrain GABAergic neurons in major depressive disorder.
+- **Visible evidence base** Abstract, main text sections, methods descriptions, figure legends referenced in text (Fig. 1–5, Extended figures 1–9, Extended data 3, 4, 7), data availability and code availability statements.
+- **Missing materials affecting confidence** Figures and extended figures themselves were not provided; only textual descriptions and legends. No supplementary tables, no detailed quality control metrics, no full method parameters for several analyses (e.g., Harmony, LSI, topic modeling, CNN training details, DELAY fine-tuning), no validation statistics for the CNN beyond average AUC, no detailed GWAS enrichment results, no comparison with existing atlases beyond brief mentions.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a substantial and potentially valuable resource: a first-trimester human brain chromatin accessibility atlas with paired gene expression, spanning multiple brain regions and developmental stages. The scale of data, the integration of multiomic measurements, and the combination of topic modeling, CNN-based regulatory logic inference, and GWAS integration are ambitious and, if technically validated, would represent a significant contribution to the field. However, the current manuscript, as provided, does not fully establish the technical robustness of several key analyses. The CNN-based enhancer logic section, the DELAY-based gene regulatory network inference, and the GWAS cell-type enrichment results are presented with limited validation and insufficient methodological detail. The claim of a "comprehensive" atlas is partially supported by the data volume, but the lack of detailed quality metrics, the absence of comparison with existing datasets, and the limited discussion of technical limitations reduce confidence. The manuscript is well-written and accessible, but several conclusions, particularly those regarding disease relevance and regulatory mechanisms, are not fully supported by the evidence presented in the text alone.
+- **Who would be interested in the results, and why** Developmental neuroscientists studying human brain patterning and cell-type specification would find this resource valuable. Researchers in regulatory genomics and chromatin biology would be interested in the cCRE-gene linkage and the application of topic modeling and CNN approaches to define regulatory syntax. The GWAS integration will appeal to psychiatric genetics researchers, particularly those interested in cell-type-specific vulnerability in disorders such as MDD, schizophrenia, and ADHD. The resource may also be useful for those developing in vitro models of neurodevelopment, as the authors suggest.
+- **Major strengths** 1) The scale and regional coverage of the dataset, including understudied posterior brain regions, is a clear advance. 2) The paired multiomic design (ATAC + RNA) enables direct cCRE-gene linkage, which is more powerful than ATAC-only atlases. 3) The combination of multiple computational approaches (topic modeling, CNN, DELAY) to extract regulatory logic is innovative. 4) The GWAS integration with cell-type-specific accessibility is a useful framework for linking non-coding variants to cell types. 5) The resource is made available through a web browser and code repositories, which will facilitate community use.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / validation
+  - **Claim pointer** The authors claim that the CNN "was able to predict the correct class with an average ROC AUC score of 0.92" and that TF-MoDisCo identified "on average 6 seqlets per accessible region" with "84% of the selected regions associated with at least one seqlet."
+  - **Evidence pointer** Section "Enhancer logic in neuronal specification"; Figure 3a-b; location not provided
+  - **Concern** The CNN performance is reported as a single average AUC value. No class-specific AUCs, precision-recall curves, or confusion matrices are provided. The selection of the five neuronal classes is described, but the number of training and test sequences per class, the cross-validation scheme, and the criteria for defining "selected regions" are not specified. The claim that 84% of regions have at least one seqlet is presented without a null expectation or comparison to a shuffled-sequence control. Without these details, it is not possible to assess whether the model has genuinely learned cell-type-specific regulatory syntax or is exploiting trivial sequence features.
+  - **Why it matters** The CNN analysis is a central pillar of the paper's claim to provide "regulatory syntax" and is used later to interpret ESRRB regulation. If the model is not rigorously validated, the downstream interpretations of TF binding motifs in cCREs are not reliable.
+  - **Resolution test** Provide class-specific performance metrics, a clear description of the training/validation/test split, the number of sequences per class, and a comparison against a baseline model (e.g., a model trained on shuffled sequences or a simpler k-mer-based classifier). Report the distribution of seqlet counts per region and compare to a background model to demonstrate enrichment.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / reproducibility
+  - **Claim pointer** The authors state that DELAY was used to infer a gene regulatory network of 148 TFs in the Purkinje lineage and that "stochastic simulations" recapitulated expression dynamics.
+  - **Evidence pointer** Section "Gene regulatory dynamics in Purkinje Neuron development"; Figure 4b-d; Extended data 4; location not provided
+  - **Concern** The DELAY method is described in a single sentence with a reference, but the specific implementation for this dataset is not detailed. The fine-tuning on plasma B-cell differentiation data and the use of ataxin-7 ChIP-seq targets are mentioned, but the rationale for these choices and the impact on the final network inference are not discussed. The stochastic simulations are stated to "recapitulate" dynamics, but no quantitative comparison between simulated and observed expression is shown. The network of 148 TFs is presented as a result, but its stability, edge confidence, and validation against known Purkinje biology are not assessed.
+  - **Why it matters** The ESRRB regulatory model, a key illustrative result, depends entirely on the reliability of the DELAY-inferred network. If the network inference is not robustly validated, the proposed two-step activation model for ESRRB is speculative.
+  - **Resolution test** Provide a detailed description of the DELAY implementation, including input features, hyperparameters, and training procedure. Show quantitative agreement between simulated and observed expression for key TFs. Validate a subset of inferred edges against independent ChIP-seq or perturbation data. Discuss the sensitivity of the network to parameter choices.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor / interpretation
+  - **Claim pointer** The authors report that "midbrain-derived GABAergic neurons (multiple groups)" were significantly associated with major depressive disorder (MDD), and that this association was validated in a second cohort.
+  - **Evidence pointer** Section "Chromatin accessibility and GWAS polymorphisms predict cellular targets in neuropsychiatric disorders"; Figure 5a; Extended data 7; location not provided
+  - **Concern** The GWAS enrichment analysis uses LD-score regression, but the specific cell-type groupings, the number of tests, the multiple-testing correction procedure, and the effect sizes are not reported in the text. The validation cohort is mentioned but not described. The statement that "no significant enrichments were found" for several disorders is presented without reporting the uncorrected or corrected p-values. The interpretation of the MDD association is based on the known role of midbrain GABAergic neurons in reward and stress, but the link between the associated SNPs and specific genes or regulatory mechanisms is not established.
+  - **Why it matters** The disease relevance claims are likely to attract broad attention. If the statistical framework is not transparent, the conclusions cannot be evaluated, and the risk of overinterpretation is high.
+  - **Resolution test** Provide a full description of the LD-score regression setup, including the list of cell-type annotations, the number of tests, the correction method, and the effect sizes and p-values for all disorders. Describe the validation cohort and the replication criteria. For the MDD association, show which specific SNPs and cCREs drive the signal and whether the linked genes are expressed in midbrain GABAergic neurons.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Resource utility / completeness
+  - **Claim pointer** The authors describe the atlas as "comprehensive" and state that it provides "a higher degree of detail to some key gene regulatory mechanisms."
+  - **Evidence pointer** Abstract; Discussion; location not provided
+  - **Concern** The manuscript does not provide a systematic comparison with existing chromatin accessibility atlases of the developing human brain, such as the forebrain-focused datasets mentioned in the introduction. The number of nuclei per region, per age, and per cell class is not reported in the text. The coverage of the genome (e.g., number of peaks, fraction of reads in peaks) is only briefly mentioned. The authors do not discuss the limitations of the dataset, such as potential batch effects, the representativeness of the samples, or the challenges of mapping regulatory elements in a developing tissue with heterogeneous cell types.
+  - **Why it matters** A "comprehensive" atlas should be benchmarked against existing resources and its limitations clearly stated. Without this, users cannot assess the utility of the resource for their specific questions.
+  - **Resolution test** Add a section comparing the number of nuclei, peaks, and cell types with existing atlases. Report the number of nuclei per region and age. Discuss the coverage and potential biases. Provide a clear statement of limitations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / reproducibility
+  - **Affected element** Methods section, "Gene expression imputation & marker selection"
+  - **Evidence pointer** Methods; location not provided
+  - **Issue** The description of the imputation method is brief. The "anchor" net approach is mentioned, but the specific parameters (e.g., number of anchors, distance metric) are not given.
+  - **Required correction** Provide a more detailed description of the imputation procedure, including software versions and parameters, to ensure reproducibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity / interpretation
+  - **Affected element** Section "Chromatin accessibility in the first trimester"
+  - **Evidence pointer** Figure 1d; location not provided
+  - **Issue** The text states that samples were collected from 6 to 13 post-conception weeks, but the number of samples per week is not reported. The distribution of ages across the dataset is unclear.
+  - **Required correction** Report the number of biological samples and nuclei per age and per region, either in the text or in a supplementary table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Section "Cis-Regulatory elements predict gene expression and Transcription Factor specificity"
+  - **Evidence pointer** Figure 2c-e; Extended figure 6a; location not provided
+  - **Issue** The comparison of specificity between gene expression and chromatin accessibility is described qualitatively. The metric used to calculate specificity (variance of Pearson residuals) is mentioned, but the statistical test for the difference is not described.
+  - **Required correction** Specify the statistical test used to compare specificity distributions and report the relevant statistics.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section "Chromatin accessibility and GWAS polymorphisms predict cellular targets in neuropsychiatric disorders"
+  - **Evidence pointer** Figure 5d; location not provided
+  - **Issue** The example of rs114155007 overlapping an OTX2 binding site is presented as a single observation. It is unclear whether this overlap is statistically significant relative to the number of MDD-associated SNPs tested.
+  - **Required correction** Provide a permutation-based or other statistical assessment of the overlap between MDD-associated SNPs and predicted TF binding sites.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of detailed CNN validation metrics and null controls (R1-M1). 2) Insufficient description and validation of DELAY-based GRN inference and simulation (R1-M2). 3) Incomplete reporting of GWAS enrichment methodology and results (R1-M3). 4) Absence of benchmarking against existing atlases and limited discussion of dataset limitations (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The work is original in its scope, combining multiomic measurements across the entire first-trimester brain with advanced computational analyses. The focus on posterior brain regions and the integration of CNN and DELAY approaches are novel. Scientific importance: The resource has the potential to be highly important for the field, providing a reference for gene regulation during early human brain development. The disease relevance findings, if validated, could have significant implications. Interdisciplinary readership: The work will appeal to developmental biologists, genomicists, computational biologists, and psychiatric geneticists. The writing is generally accessible, but the methods sections assume familiarity with advanced computational techniques. Technical soundness: The data generation appears sound, but the computational analyses, particularly the CNN and DELAY, are not sufficiently validated in the current text. The GWAS analysis lacks transparency. Readability for nonspecialists: The abstract and introduction are clear, but the results sections are dense and may be challenging for readers without a computational background. Overall, the manuscript has the potential to meet Nature-style standards, but the technical validation and reporting must be substantially improved.
+- **Recommendation posture** Supportive if technical concerns are resolved. The dataset and the overall approach are promising and likely to be of significant value. However, the current manuscript does not fully establish the validity of the key computational analyses and the disease relevance claims. A revised version with detailed validation, transparent reporting, and benchmarking against existing resources would be needed to support publication in a high-impact venue.
+
+## Risk / unsupported claims
+- The claim that the CNN identifies "putative functional TF-binding sites" is not supported without null controls and independent validation.
+- The proposed two-step activation model for ESRRB is speculative and depends on the unvalidated DELAY network.
+- The statement that midbrain GABAergic neurons are "the most vulnerable" to MDD-related mutations is not supported by the reported data, as effect sizes and comparisons with other cell types are not provided.
+- The claim that the atlas is "comprehensive" is not benchmarked against existing datasets and the coverage is not fully described.
+- The statement that "no significant enrichments were found" for several disorders is not supported by reported p-values or effect sizes.

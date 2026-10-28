@@ -1,0 +1,276 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2024-s5sbs",
+  "title": "Binding Affinity Prediction with 3D Machine Learning: Training Data and Challenging External Testing",
+  "doi": "10.26434/chemrxiv-2024-s5sbs",
+  "abstract": "Protein-ligand binding affinity prediction is one of the major challenges in computational assisted drug discovery. An active area of research uses machine learning (ML) models trained on 3D structures of protein ligand complexes to predict binding modes, discriminate active and inactives, or predict affinity. Methodological advances in deep learning, and artificial intelligence along with increased experimental data (3D structures and bioactivities) has led to many studies using different architectures, representation, and features. Unfortunately, many models do not learn details of interactions or the underlying physics that drive protein-ligand affinity, but instead just memorize patterns in the available training data with poor generalizability and future use. In this work we incorporate “dense”, feature rich datasets that contain up to several thousand analogue molecules per drug discovery target. For the training set, PDBbind dataset is used with enrichment from 8 internal lead optimization (LO) datasets and inactive and decoy poses in a variety of combinations. A variety of different model architectures was used and the model performance was validated using the binding affinity for 12 internal LO and 6 ChEMBL external test sets. Results show a significant improvement in the performance and generalization power, especially for virtual screening and suggest promise for the future of ML protein-ligand affinity prediction with a greater emphasis on training using datasets that capture the rich details of the affinity landscape.",
+  "authors": [
+    "Jose Carlos Gómez-Tamayo",
+    "Lili Cao",
+    "Mazen Ahmad",
+    "Gary Tresadern"
+  ],
+  "published_date": "2024-02-01",
+  "updated_date": "2024-02-01T08:10:49Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2024-s5sbs",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2024-s5sbs",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T12:25:40Z",
+        "timestamp": 1785414340702,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            1
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                2,
+                1
+              ]
+            ],
+            "date-time": "2024-02-01T00:00:00Z",
+            "timestamp": 1706745600000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100000780",
+          "name": "European Commission",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "823712"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "823712"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000780",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Protein-ligand binding affinity prediction is one of the major challenges in computational assisted drug discovery. An active area of research uses machine learning (ML) models trained on 3D structures of protein ligand complexes to predict binding modes, discriminate active and inactives, or predict affinity. Methodological advances in deep learning, and artificial intelligence along with increased experimental data (3D structures and bioactivities) has led to many studies using different architectures, representation, and features. Unfortunately, many models do not learn details of interactions or the underlying physics that drive protein-ligand affinity, but instead just memorize patterns in the available training data with poor generalizability and future use. In this work we incorporate “dense”, feature rich datasets that contain up to several thousand analogue molecules per drug discovery target. For the training set, PDBbind dataset is used with enrichment from 8 internal lead optimization (LO) datasets and inactive and decoy poses in a variety of combinations. A variety of different model architectures was used and the model performance was validated using the binding affinity for 12 internal LO and 6 ChEMBL external test sets. Results show a significant improvement in the performance and generalization power, especially for virtual screening and suggest promise for the future of ML protein-ligand affinity prediction with a greater emphasis on training using datasets that capture the rich details of the affinity landscape.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2024-s5sbs",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2024-02-01T08:10:49Z",
+        "timestamp": 1706775049000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Binding Affinity Prediction with 3D Machine Learning: Training Data and Challenging External Testing"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4709-6030",
+          "authenticated-orcid": false,
+          "given": "Jose Carlos",
+          "family": "Gómez-Tamayo",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04yzcpd71",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Janssen (Belgium)",
+              "place": [
+                "Belgium"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lili",
+          "family": "Cao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04wwrrg31",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "AstraZeneca (Sweden)",
+              "place": [
+                "Sweden"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mazen",
+          "family": "Ahmad",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04yzcpd71",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Janssen (Belgium)",
+              "place": [
+                "Belgium"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gary",
+          "family": "Tresadern",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04yzcpd71",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Janssen (Belgium)",
+              "place": [
+                "Belgium"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2024-s5sbs",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:59:40Z",
+        "timestamp": 1778752780000
+      },
+      "score": 89.08708,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2024-s5sbs"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            1
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2024-s5sbs",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            1
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

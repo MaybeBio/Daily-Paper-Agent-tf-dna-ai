@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report solution AFM imaging of yeast condensin in the presence and absence of ATP, AMP-PNP, ATPgammaS, and ADP, combined with coarse-grained molecular dynamics simulations of the Smc2/4 heterodimer. They propose that ATP binding and head engagement are coupled to hinge opening, and that the N-terminal region of Brn1 re-associates with the Smc2 head after ADP release.
+- **Visible evidence base** Abstract text only; no quantitative data, images, simulation parameters, or statistical analyses are available
+- **Missing materials affecting confidence** Full methods, AFM image analysis protocols, simulation force fields and sampling details, structural fitting procedures, statistical treatment, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis linking the ATP hydrolysis cycle of yeast condensin to conformational changes observed by solution AFM and coarse-grained simulations. The central claims are biologically interesting and potentially significant for understanding loop extrusion. However, the abstract alone does not provide sufficient evidence to evaluate the robustness of the structural assignments, the statistical significance of the conformational differences, or the validity of the simulation-to-experiment matching. The case is not yet established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying SMC complexes, chromosome organization, loop extrusion mechanisms, and ATP-driven conformational changes in molecular motors. The combination of single-molecule imaging and coarse-grained simulation will also appeal to biophysicists and computational biologists interested in integrative structural biology.
+- **Major strengths** The study addresses a specific and unresolved question, namely the coupling between ATP hydrolysis states and hinge dynamics in condensin. The use of multiple nucleotide conditions (ATP, AMP-PNP, ATPgammaS, ADP) is a logical approach to dissect the hydrolysis cycle. The integration of solution AFM with coarse-grained molecular dynamics is a technically ambitious strategy that could provide mechanistic insight beyond static structures.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that head engagement upon ATP binding is coupled to hinge opening
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that the results "suggested" this coupling, but no quantitative data are presented to support the correlation between nucleotide state, head engagement, and hinge conformation. It is unclear how many AFM images were analyzed per condition, how hinge opening was defined and measured, and whether the observed differences are statistically significant.
+  - **Why it matters** The central mechanistic conclusion depends on a robust correlation between ATP binding and hinge opening. Without statistical evidence and clear structural criteria, the claim remains speculative.
+  - **Resolution test** Provide quantitative distributions of hinge angles or open/closed states for each nucleotide condition, with sample sizes and statistical tests, and demonstrate that the differences are reproducible and specific to ATP binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The claim that molecular dynamics simulations selected the structure best representing each AFM image
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not describe how the selection was performed, what criteria were used to match simulated structures to AFM images, or how many independent simulations were run. The reliability of the selected structures is therefore not assessable.
+  - **Why it matters** The structural interpretation of AFM images depends entirely on the validity of the simulation-to-experiment matching. If the selection criteria are biased or underpowered, the proposed conformations may not reflect the true solution states.
+  - **Resolution test** Describe the fitting and selection procedure in detail, including the scoring function, the number of candidate structures, and the convergence of the simulations. Provide validation against known structural features of condensin.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The claim that the N-terminal region of Brn1 re-associates with the Smc2 head after ADP release
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** This claim is presented as a result, but the abstract provides no direct evidence for the location or dynamics of Brn1. It is unclear whether this conclusion comes from AFM images, simulations, or a combination, and how the re-association was detected.
+  - **Why it matters** This is a specific molecular interaction that would require high-resolution or site-specific labeling to support. Without such evidence, the claim is not established.
+  - **Resolution test** Provide direct evidence for Brn1 positioning, such as labeled AFM experiments, cross-linking data, or simulation trajectories that explicitly track the Brn1 N-terminus relative to the Smc2 head.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "flexible molecular fitting" is used without definition, and the relationship between this prior method and the current simulation approach is unclear.
+  - **Required correction** Define the term and clarify how the current method differs from or improves upon the previous fitting approach.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Nucleotide conditions
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract lists AMP-PNP, ATPgammaS, and ADP but does not state whether ATP alone was also tested in the current study or only in the prior work.
+  - **Required correction** Specify which nucleotide conditions were used in the present experiments and which were carried over from the previous study.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** Simulation scope
+  - **Evidence pointer** Abstract text
+  - **Issue** The simulations are described as being of an Smc2/4 heterodimer, but condensin includes additional subunits. The abstract does not explain how the absence of these subunits affects the interpretation.
+  - **Required correction** State whether the simulations included only Smc2/4 or the full complex, and discuss the potential impact of omitted subunits on the conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the coupling of ATP hydrolysis to hinge dynamics in condensin is a focused and timely question. Scientific importance is potentially high for the chromosome biology and SMC fields, but the abstract does not yet demonstrate a definitive advance. Interdisciplinary readership is plausible given the combination of single-molecule imaging and simulation, but the abstract lacks the technical detail needed for nonspecialists to assess the methods. Technical soundness cannot be evaluated from the abstract alone, and the lack of quantitative evidence is a major limitation. Readability for nonspecialists is acceptable, though the mechanistic claims would benefit from clearer definitions of structural states.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the experimental design is reasonable, but the abstract does not provide sufficient quantitative or methodological detail to support the central claims. A revised manuscript with full data and methods could be supportive.
+
+## Risk / unsupported claims
+- The coupling between ATP binding, head engagement, and hinge opening is unsupported by quantitative evidence in the abstract.
+- The re-association of the Brn1 N-terminal region with the Smc2 head after ADP release is unsupported by any direct evidence in the abstract.
+- The claim that simulation-selected structures represent the true solution conformations is not assessable without details of the fitting procedure and validation.

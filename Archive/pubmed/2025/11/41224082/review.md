@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that the beta-catenin/TCF4 complex directly activates the miR-302 promoter in colorectal cancer cells, that miR-302 cluster members activate the NANOG promoter, and that NANOG and beta-catenin/TCF4 synergistically enhance miR-302 promoter activity, forming a positive feedback loop sustaining stem-like traits. Molecular dynamics simulations are used to support binding interactions among TCF4, NANOG, and the miR-302 promoter.
+- **Visible evidence base** Abstract text only; mentions promoter-driven luciferase reporter assays, chromatin immunoprecipitation (ChIP), and molecular dynamics simulations, but no data, figures, or numerical results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical details, simulation parameters, cell line identities, and any validation or control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting regulatory model linking Wnt/beta-catenin signalling, NANOG, and the miR-302 cluster in colorectal cancer. However, the evidence base visible in the abstract is insufficient to evaluate the strength of the claims. Key mechanistic assertions, particularly direct promoter activation, synergy, and the proposed feedback loop, are stated without quantitative support or experimental detail. The molecular dynamics component is mentioned but not described in a way that allows assessment of its relevance or rigor. The work may be of interest to cancer biology and non-coding RNA communities, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying Wnt/beta-catenin signalling in cancer, investigators focused on pluripotency-associated non-coding RNAs, and those interested in transcriptional regulatory networks in cancer stem cells. The proposed feedback loop involving NANOG and miR-302 could be relevant to understanding stemness maintenance in colorectal cancer and potentially other solid tumours.
+- **Major strengths** The proposed model is mechanistically coherent and integrates multiple regulatory layers (Wnt signalling, transcription factors, and non-coding RNA). The combination of experimental approaches (reporter assays, ChIP) with computational simulation is a reasonable strategy to address both binding and functional questions. The potential therapeutic angle regarding stemness-associated pathways is timely.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the beta-catenin/TCF4 complex significantly enhances miR-302 expression through direct promoter activation in CRC cells.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that ChIP and luciferase assays were used, but no quantitative results, effect sizes, statistical significance, or experimental conditions are reported. Direct promoter activation requires demonstration of both physical binding and functional transcriptional output, and the abstract does not provide sufficient detail to assess whether both were convincingly shown.
+  - **Why it matters** The central claim of the paper rests on direct regulation of the miR-302 promoter by beta-catenin/TCF4. Without visible quantitative evidence, the reader cannot determine whether the effect is robust, specific, or physiologically relevant.
+  - **Resolution test** Provide ChIP enrichment values with appropriate controls, luciferase activity fold changes with statistical comparisons, and ideally a mutant promoter or deletion construct to demonstrate sequence-specific dependence on TCF4 binding sites.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that NANOG and beta-catenin/TCF4 synergistically enhance miR-302 promoter activity, suggesting a positive feedback loop.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** Synergy is a specific quantitative claim that requires demonstration that the combined effect exceeds the sum of individual effects. The abstract does not report the relevant values or the statistical test used to establish synergy. Furthermore, the existence of a feedback loop requires evidence of functional consequences in a biological system, not only promoter reporter activity.
+  - **Why it matters** The feedback loop is a key conceptual contribution of the work. If synergy is not rigorously demonstrated, the proposed loop remains speculative.
+  - **Resolution test** Show dose-response and combination index analyses or equivalent statistical demonstration of synergy. Provide data on endogenous miR-302 and NANOG expression changes upon perturbation of each component in CRC cells.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** The abstract claims that molecular dynamics simulations elucidate binding interactions between TCF4, NANOG, and the miR-302 promoter, corroborating experimental observations.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not describe the simulation system, force field, timescale, or how the modelled promoter sequence was defined. It is unclear whether the simulations model protein-DNA complexes directly or infer interactions indirectly. The phrase "corroborating" implies a level of agreement that cannot be evaluated without details.
+  - **Why it matters** Molecular dynamics results are only meaningful if the simulation setup is physically realistic and the analysis is appropriately linked to experimental findings. Without these details, the computational component cannot be assessed.
+  - **Resolution test** Describe the simulation protocol, including system construction, equilibration, production run length, and analysis metrics. Clarify how simulation predictions were compared with ChIP or reporter data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Cell line and model system description
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract refers to "CRC cells" without specifying which cell lines were used. Different CRC lines have varying Wnt pathway status and NANOG expression, which could affect the generalizability of the findings.
+  - **Required correction** Specify the cell lines used and, if relevant, their Wnt pathway mutation status.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Use of "stem-like traits"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that the proposed loop sustains "stem-like traits" but does not define which traits were measured or whether functional assays (e.g., sphere formation, differentiation potential) were performed.
+  - **Required correction** Define the specific stemness phenotypes assessed and indicate whether functional assays were conducted or whether this is inferred from expression data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretive caution
+  - **Affected element** Therapeutic implication statement
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The final sentence highlights "potential therapeutic opportunities" but no data in the abstract support a therapeutic claim. This is an extrapolation beyond the presented evidence.
+  - **Required correction** Soften the therapeutic language or add a qualifying statement indicating that this is speculative and requires further investigation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core mechanistic claims (direct promoter activation and synergy) are not supported by visible quantitative evidence. R1-M3 is non-blocking but needs clarification for the computational component to be interpretable.
+- **Assessment against Nature-style criteria** Originality: The proposed axis linking beta-catenin/TCF4, NANOG, and miR-302 in a feedback loop is potentially novel, but the abstract does not clearly distinguish it from prior work on Wnt regulation of miR-302 or NANOG-miR connections. Scientific importance: If fully validated, the findings could contribute to understanding stemness regulation in CRC, but the significance is not yet established from the abstract alone. Interdisciplinary readership: The combination of experimental and computational approaches could appeal to both molecular biologists and computational biologists, but the abstract does not provide enough detail for either audience to evaluate rigor. Technical soundness: Cannot be assessed from the abstract; no data, statistics, or protocols are visible. Readability for nonspecialists: The abstract is generally clear and well structured, though some terms (e.g., "molecular dynamics simulations") are used without sufficient context for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a reasonable experimental strategy, but the absence of quantitative results and methodological detail prevents assessment of whether the claims are supported. A full manuscript with complete data would be required to evaluate the case.
+
+## Risk / unsupported claims
+- Direct promoter activation of miR-302 by beta-catenin/TCF4 is asserted but not quantitatively supported in the abstract.
+- Synergistic enhancement of miR-302 promoter activity by NANOG and beta-catenin/TCF4 is claimed without reported values or statistical analysis.
+- The existence of a positive feedback loop is inferred from promoter reporter data, which is insufficient without endogenous expression or functional perturbation data.
+- Molecular dynamics simulations are stated to corroborate experimental findings, but no simulation details or comparison metrics are provided.
+- The relevance of the proposed axis to "stem-like traits" in CRC is stated without defining or measuring such traits.
+- Therapeutic opportunities are mentioned without any supporting data.

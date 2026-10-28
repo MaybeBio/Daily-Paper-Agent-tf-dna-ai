@@ -1,0 +1,431 @@
+{
+  "identity": {
+    "pmid": "41940383",
+    "doi": "10.7717/peerj.20988",
+    "title": "Machine learning integrated bulk and single cell transcriptomic analyses reveal oxidative stress associated mitochondrial polarization signatures in diabetic foot ulcers."
+  },
+  "content": {
+    "abstract": "Diabetic foot ulcers (DFU) are a major complication of diabetes, and its pathogenesis remains incompletely elucidated. Converging evidence indicates that oxidative stress and dysregulated mitochondrial polarization participate in DFU progression, nominating these processes as therapeutically actionable targets. This study integrates bulk and single-cell transcriptomic data with machine learning to reconstruct cross-scale, cell type-resolved molecular atlases and regulatory networks. Macrophages and fibroblasts emerged as communication hubs, dominating pathway enrichment and ligand-receptor programs such as macrophage migration inhibitory factor signaling pathway (MIF), ANNEXIN signaling pathway, and COMPLEMENT signaling pathway. Peptidylprolyl isomerase F (PPIF), which encodes cyclophilin D (CypD) and apolipoprotein E (APOE) were further prioritized as putative drivers within macrophages and fibroblasts, and a five-gene classifier was derived with robust performance (internal/external AUC = 0.833/0.933). Within DFU lesions, under the control of non-coding RNA circuitry, SOX5 may shape the inflammatory microenvironment, APOE may participate in lipid-metabolic remodeling, and PPIF (CypD) likely links reactive oxygen species (ROS) accumulation to a p53-dependent mitochondrial death pathway (necroptosis/apoptosis). Orthogonal validation showed significantly increased CypD in diabetic foot ulcer skin (DFUS) and diabetic foot ulcer tendon (DFUT) relative to diabetic foot skin (DFS) and DFT (Diabetic foot tendon), with up-regulated p53 and Cytc and down-regulated ApoE in DFUS; in primary foot-skin fibroblasts, a high-glucose plus tert-butyl hydroperoxide (HG+TBHP) model reproduced elevated ROS, loss of mitochondrial Deltapsim (mitochondrial membrane potential), growth restriction, and apoptosis, supporting a ROS-CypD/mPTP (mitochondrial permeability transition pore)-Deltapsim depolarization-p53/Cytc apoptosis axis. The delineated PPIF-centered regulatory network includes upstream transcription factors CEBPB/REL/SPI1 and a downstream ceRNA axis comprising miR-128-3p/miR-23a-3p-long non-coding RNA OIP5-AS1. Additionally, the significant role of polarization-specific reprogramming in regulating macrophage function highlights therapeutic strategies focused on metabolic reprogramming and inhibition of the PPIF/mPTP pathway. Collectively, a cell type-resolved molecular map of DFU is provided, healing-relevant cell populations and regulatory circuits are prioritized, and a translational, testable intervention framework is proposed.",
+    "keywords": [
+      "Diabetic foot ulcers",
+      "Machine learning",
+      "Macrophage polarization",
+      "Mitochondrial polarization",
+      "Oxidative stress",
+      "Single-cell transcriptomics"
+    ],
+    "mesh_terms": [
+      "*Oxidative Stress/genetics",
+      "*Diabetic Foot/genetics/metabolism/pathology",
+      "Humans",
+      "*Mitochondria/metabolism",
+      "*Machine Learning",
+      "Macrophages/metabolism",
+      "Single-Cell Analysis",
+      "Fibroblasts/metabolism",
+      "Gene Expression Profiling",
+      "Single-Cell Gene Expression Analysis",
+      "Transcriptome",
+      "Apolipoproteins E/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Zeao",
+        "Zeng, Zhaoyang",
+        "Ma, Xuepeng",
+        "Jing, Shuai-Shuai",
+        "Wu, Yu",
+        "Shan, Bin",
+        "Pan, Haibang",
+        "Shi, Yuhong",
+        "Liu, Ai",
+        "Jiang, Hugang",
+        "Li, Ning"
+      ],
+      "short_names": [
+        "Guo Z",
+        "Zeng Z",
+        "Ma X",
+        "Jing SS",
+        "Wu Y",
+        "Shan B",
+        "Pan H",
+        "Shi Y",
+        "Liu A",
+        "Jiang H",
+        "Li N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Integrated Traditional Chinese and Western Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China.",
+        "School of Integrated Traditional Chinese and Western Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China.",
+        "The Affiliated Hospital of Gansu University of Chinese Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China.",
+        "School of Integrated Traditional Chinese and Western Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China.",
+        "School of Integrated Traditional Chinese and Western Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China.",
+        "School of Integrated Traditional Chinese and Western Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China.",
+        "School of Integrated Traditional Chinese and Western Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China.",
+        "The Affiliated Hospital of Gansu University of Chinese Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China.",
+        "The Affiliated Hospital of Gansu University of Chinese Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China.",
+        "School of Integrated Traditional Chinese and Western Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China.",
+        "School of Integrated Traditional Chinese and Western Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China.",
+        "The Affiliated Hospital of Gansu University of Chinese Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Zeao",
+        "short_name": "Guo Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Traditional Chinese and Western Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Zhaoyang",
+        "short_name": "Zeng Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Traditional Chinese and Western Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China.",
+          "The Affiliated Hospital of Gansu University of Chinese Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xuepeng",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Traditional Chinese and Western Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jing, Shuai-Shuai",
+        "short_name": "Jing SS",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Traditional Chinese and Western Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yu",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Traditional Chinese and Western Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Shan, Bin",
+        "short_name": "Shan B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Traditional Chinese and Western Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Haibang",
+        "short_name": "Pan H",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Hospital of Gansu University of Chinese Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Yuhong",
+        "short_name": "Shi Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Hospital of Gansu University of Chinese Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ai",
+        "short_name": "Liu A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Traditional Chinese and Western Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Hugang",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Traditional Chinese and Western Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ning",
+        "short_name": "Li N",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Hospital of Gansu University of Chinese Medicine, Gansu University of Traditional Chinese Medicine, Lanzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PeerJ"
+    ],
+    "journal_abbrev": [
+      "PeerJ"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/06 12:36",
+    "fetched_at": "2026-10-01 18:01:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39517120",
+      "39486969",
+      "39289562",
+      "39225408",
+      "39218928",
+      "39127092",
+      "38950058",
+      "38553615",
+      "38377027",
+      "37965760",
+      "37664606",
+      "37395769",
+      "37341017",
+      "37287964",
+      "36800849",
+      "36781216",
+      "36738738",
+      "36548709",
+      "36532755",
+      "36333281",
+      "36064604",
+      "35982296",
+      "35966780",
+      "35918892",
+      "35909542",
+      "35901239",
+      "35882135",
+      "35858331",
+      "35613278",
+      "35316618",
+      "35298140",
+      "35292359",
+      "35204825",
+      "35013299",
+      "34831154",
+      "34721299",
+      "34673115",
+      "34557778",
+      "34452918",
+      "34443506",
+      "34062119",
+      "33675846",
+      "33596041",
+      "32938916",
+      "32856346",
+      "32791151",
+      "32089734",
+      "31740819",
+      "31690575",
+      "31577194",
+      "31197253",
+      "31127200",
+      "31041853",
+      "31035003",
+      "30937614",
+      "30787437",
+      "29622724",
+      "29273315",
+      "28991892",
+      "28836909",
+      "28614678",
+      "28433685",
+      "28396078",
+      "28279172",
+      "27732846",
+      "27475046",
+      "27426947",
+      "26689461",
+      "26318001",
+      "25964631",
+      "25772951",
+      "25722455",
+      "25677125",
+      "25605792",
+      "25556624",
+      "24819400",
+      "24506868",
+      "24113180",
+      "23953180",
+      "23323831",
+      "22726440",
+      "21414208",
+      "20427518",
+      "19114008",
+      "18035408",
+      "16314467",
+      "16199517",
+      "15800626",
+      "12107741",
+      "7589825"
+    ],
+    "similar": [
+      "41940383",
+      "42045413",
+      "42459332",
+      "41025297",
+      "40612951",
+      "41583446",
+      "40616164",
+      "41272316",
+      "41310324",
+      "41805994",
+      "41465092",
+      "41255536",
+      "42136654",
+      "40261295",
+      "40024299",
+      "42399485",
+      "41504054",
+      "39730319",
+      "35013299",
+      "41807627",
+      "40764361",
+      "41503916",
+      "38862997",
+      "40420926",
+      "41686577",
+      "42103860",
+      "39991734",
+      "39543487",
+      "38950058",
+      "38468410",
+      "42475469",
+      "27607190",
+      "39835574",
+      "42123445",
+      "42067603",
+      "39102374",
+      "42265520",
+      "42025984",
+      "42095912",
+      "26318001",
+      "40948769",
+      "41997558",
+      "39409014",
+      "38934613",
+      "36686438",
+      "40749079",
+      "42531047",
+      "42510881",
+      "41412232",
+      "37950842",
+      "41921800",
+      "42127081",
+      "38613800",
+      "42565562",
+      "39779214",
+      "40882313",
+      "42298176",
+      "41027406",
+      "33471430",
+      "42024670",
+      "40730246",
+      "40824138",
+      "38847916",
+      "41436831",
+      "38107519",
+      "42536203",
+      "39921129",
+      "34114688",
+      "42227377",
+      "38972156",
+      "39761761",
+      "38385859",
+      "31707396",
+      "38656652",
+      "42071066",
+      "42233387",
+      "41601657",
+      "38312602",
+      "39079197",
+      "41909133",
+      "38206528",
+      "41767398",
+      "42589358",
+      "36443035",
+      "37267693",
+      "40620796",
+      "36915987",
+      "26689461",
+      "35982296",
+      "41736104",
+      "25437049",
+      "32763913",
+      "40354856",
+      "42126679",
+      "40445390",
+      "42098867",
+      "39923303",
+      "41716413",
+      "40121493",
+      "42034938"
+    ],
+    "review": [
+      "41940383",
+      "36915987"
+    ],
+    "pmc": [
+      "13050221"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabeticfoot.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Foot"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41940383/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3842",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7717/peerj.20988",
+        "provider": "PeerJ, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

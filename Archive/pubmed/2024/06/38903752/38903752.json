@@ -1,0 +1,233 @@
+{
+  "identity": {
+    "pmid": "38903752",
+    "doi": "10.3389/fgene.2024.1411847",
+    "title": "LGC-DBP: the method of DNA-binding protein identification based on PSSM and deep learning."
+  },
+  "content": {
+    "abstract": "The recognition of DNA Binding Proteins (DBPs) plays a crucial role in understanding biological functions such as replication, transcription, and repair. Although current sequence-based methods have shown some effectiveness, they often fail to fully utilize the potential of deep learning in capturing complex patterns. This study introduces a novel model, LGC-DBP, which integrates Long Short-Term Memory (LSTM), Gated Inception Convolution, and Improved Channel Attention mechanisms to enhance the prediction of DBPs. Initially, the model transforms protein sequences into Position Specific Scoring Matrices (PSSM), then processed through our deep learning framework. Within this framework, Gated Inception Convolution merges the concepts of gating units with the advantages of Graph Convolutional Network (GCN) and Dilated Convolution, significantly surpassing traditional convolution methods. The Improved Channel Attention mechanism substantially enhances the model's responsiveness and accuracy by shifting from a single input to three inputs and integrating three sigmoid functions along with an additional layer output. These innovative combinations have significantly improved model performance, enabling LGC-DBP to recognize and interpret the complex relationships within DBP features more accurately. The evaluation results show that LGC-DBP achieves an accuracy of 88.26% and a Matthews correlation coefficient of 0.701, both surpassing existing methods. These achievements demonstrate the model's strong capability in integrating and analyzing multi-dimensional data and mark a significant advancement over traditional methods by capturing deeper, nonlinear interactions within the data.",
+    "keywords": [
+      "bioinformatics",
+      "channel attention mechanism",
+      "deep learning",
+      "inception convolution",
+      "position-specific scoring matrix"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Yiqi",
+        "Sun, Ailun"
+      ],
+      "short_names": [
+        "Zhu Y",
+        "Sun A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science and Technology, College of Computer and Control Engineering, Northeast Forestry University, Harbin, China.",
+        "Department of Computer Science and Technology, College of Computer and Control Engineering, Northeast Forestry University, Harbin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Yiqi",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Technology, College of Computer and Control Engineering, Northeast Forestry University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Ailun",
+        "short_name": "Sun A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Technology, College of Computer and Control Engineering, Northeast Forestry University, Harbin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/21 06:41",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38237792",
+      "37583550",
+      "36971393",
+      "34455627",
+      "33410688",
+      "31942072",
+      "31267738",
+      "30668479",
+      "29753757",
+      "29097781",
+      "27490858",
+      "26482832",
+      "25883148",
+      "21935457",
+      "20855926",
+      "14986705",
+      "12837780",
+      "11181991",
+      "10850972",
+      "10733860",
+      "10493868",
+      "8472349",
+      "7370364",
+      "3024847",
+      "2410919"
+    ],
+    "similar": [
+      "38903752",
+      "36719781",
+      "37437362",
+      "35378437",
+      "38873109",
+      "35872410",
+      "36211019",
+      "36427763",
+      "33986992",
+      "33617347",
+      "38200437",
+      "39423981",
+      "38365583",
+      "35421797",
+      "38250147",
+      "38698017",
+      "35447463",
+      "36403092",
+      "38382306",
+      "34291709",
+      "38383520",
+      "38856168",
+      "38689959",
+      "31123959",
+      "35676633",
+      "35063713",
+      "36688628",
+      "36590083",
+      "38303477",
+      "38236675",
+      "38778935",
+      "31319963",
+      "28851273",
+      "31472418",
+      "38388632",
+      "36679639",
+      "36232325",
+      "34152393",
+      "37510043",
+      "38303459",
+      "22574904",
+      "38454695",
+      "37807013",
+      "33410688",
+      "38075265",
+      "37196649",
+      "38097937",
+      "37782584",
+      "38442101",
+      "38316843",
+      "38741790",
+      "38402249",
+      "30071670",
+      "36171550",
+      "38340022",
+      "36921434",
+      "34571539",
+      "35104237",
+      "34478704",
+      "36860882",
+      "38103435",
+      "36360220",
+      "38790434",
+      "32920048",
+      "35740899",
+      "36049552",
+      "36244303",
+      "35798589",
+      "37871999",
+      "37799340",
+      "33238837",
+      "38179749",
+      "38781186",
+      "30808287",
+      "36654017",
+      "31228283",
+      "35066446",
+      "31810201",
+      "37654692",
+      "35801442",
+      "37501025",
+      "38709606",
+      "38178985",
+      "37050645",
+      "38531147",
+      "35860402",
+      "34271012",
+      "28881969",
+      "38575098",
+      "34682038",
+      "35799660",
+      "35922751",
+      "37896468",
+      "38832222",
+      "32808039",
+      "34976047"
+    ],
+    "review": [
+      "38903752",
+      "35860402"
+    ],
+    "pmc": [
+      "11188361"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38903752/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38903752",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2024.1411847",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

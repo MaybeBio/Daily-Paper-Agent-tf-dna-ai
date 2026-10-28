@@ -1,0 +1,511 @@
+{
+  "identity": {
+    "pmid": "37378023",
+    "doi": "10.3389/fendo.2023.1198763",
+    "title": "Machine learning identifies ferroptosis-related genes as potential diagnostic biomarkers for osteoarthritis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteoarthritis (OA) is one of the most common forms of degenerative arthritis and a major cause of pain and disability. Ferroptosis, a novel mode of cell death, has been verified to participate in the development of OA, but its mechanism is still unclear. This paper analyzed the ferroptosis-related genes (FRGs) in OA and explored their potential clinical value. METHODS: We downloaded data through the GEO database and screened for DEGs. Subsequently, FRGs were obtained using two machine learning methods, LASSO regression and SVM-RFE. The accuracy of the FRGs as disease diagnosis was identified using ROC curves and externally validated. The CIBERSORT analyzed the immune microenvironment rug regulatory network constructed through the DGIdb. The competitive endogenous RNA (ceRNA) visualization network was constructed to search for possible therapeutic targets. The expression levels of FRGs were verified by qRT-PCR and immunohistochemistry. RESULTS: In this study, we found 4 FRGs. The ROC curve showed that the combined 4 FRGs had the highest diagnostic value. Functional enrichment analysis showed that the 4 FRGs in OA could influence the development of OA through biological oxidative stress, immune response, and other processes. qRT-PCR and immunohistochemistry verified the expression of these key genes, further confirming our findings. Monocytes and macrophages are heavily infiltrated in OA tissues, and the persistent state of immune activation may promote the progression of OA. ETHINYL ESTRADIOL was a possible targeted therapeutic agent for OA. Meanwhile, ceRNA network analysis identified some lncRNAs that could regulate the FRGs. CONCLUSION: We identify 4 FRGs (AQP8, BRD7, IFNA4, and ARHGEF26-AS1) closely associated with bio-oxidative stress and immune response, which may become early diagnostic and therapeutic targets for OA.",
+    "keywords": [
+      "ferroptosis",
+      "immune infiltration",
+      "machine learning",
+      "osteoarthritis",
+      "targeted therapy"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Ferroptosis/genetics",
+      "Machine Learning",
+      "*RNA, Long Noncoding",
+      "*Osteoarthritis/diagnosis/genetics",
+      "Biomarkers",
+      "Chromosomal Proteins, Non-Histone",
+      "Bromodomain Containing Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qiu, Yue",
+        "Yao, Jun",
+        "Li, Lin",
+        "Xiao, Meimei",
+        "Meng, Jinzhi",
+        "Huang, Xing",
+        "Cai, Yang",
+        "Wen, Zhenpei",
+        "Huang, Junpu",
+        "Zhu, Miaomiao",
+        "Chen, Siyuan",
+        "Long, Xingqing",
+        "Li, Jingqi"
+      ],
+      "short_names": [
+        "Qiu Y",
+        "Yao J",
+        "Li L",
+        "Xiao M",
+        "Meng J",
+        "Huang X",
+        "Cai Y",
+        "Wen Z",
+        "Huang J",
+        "Zhu M",
+        "Chen S",
+        "Long X",
+        "Li J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "First Clinical Medical College, Guangxi Medical University, Nanning, China.",
+        "First Clinical Medical College, Guangxi Medical University, Nanning, China.",
+        "First Clinical Medical College, Guangxi Medical University, Nanning, China.",
+        "First Clinical Medical College, Guangxi Medical University, Nanning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qiu, Yue",
+        "short_name": "Qiu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Jun",
+        "short_name": "Yao J",
+        "identifiers": [],
+        "affiliations": [
+          "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lin",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Meimei",
+        "short_name": "Xiao M",
+        "identifiers": [],
+        "affiliations": [
+          "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Jinzhi",
+        "short_name": "Meng J",
+        "identifiers": [],
+        "affiliations": [
+          "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xing",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Yang",
+        "short_name": "Cai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Zhenpei",
+        "short_name": "Wen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Junpu",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Bone and Joint Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Miaomiao",
+        "short_name": "Zhu M",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Siyuan",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Long, Xingqing",
+        "short_name": "Long X",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jingqi",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Guangxi Medical University, Nanning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in endocrinology"
+    ],
+    "journal_abbrev": [
+      "Front Endocrinol (Lausanne)"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/28 13:08",
+    "fetched_at": "2026-09-29 03:02:35"
+  },
+  "links": {
+    "cites": [
+      "41829040",
+      "41457818",
+      "41220401",
+      "40636124",
+      "40481573",
+      "40444490",
+      "40429891",
+      "40089565",
+      "39306824",
+      "38867424"
+    ],
+    "refs": [
+      "36467069",
+      "36346025",
+      "36335193",
+      "36304464",
+      "36243109",
+      "36211822",
+      "35958605",
+      "35835748",
+      "35126351",
+      "33691090",
+      "33560326",
+      "33495651",
+      "33446092",
+      "33414452",
+      "33376672",
+      "33195475",
+      "33042838",
+      "32863216",
+      "32500021",
+      "32413317",
+      "32081707",
+      "32035570",
+      "31638917",
+      "31522568",
+      "31375658",
+      "31034380",
+      "30925886",
+      "30382270",
+      "30340925",
+      "29511597",
+      "25311420",
+      "24657164",
+      "17458518",
+      "17110522",
+      "6884680"
+    ],
+    "similar": [
+      "37378023",
+      "37702097",
+      "37986345",
+      "38741149",
+      "37723556",
+      "36911415",
+      "37904700",
+      "37275855",
+      "36335193",
+      "37131411",
+      "37550393",
+      "38402377",
+      "39331874",
+      "38660574",
+      "37645416",
+      "37395033",
+      "37810027",
+      "39221753",
+      "35152560",
+      "34861872",
+      "39072329",
+      "38767974",
+      "36875702",
+      "37503333",
+      "39169865",
+      "37530128",
+      "36873737",
+      "37259023",
+      "37007565",
+      "37163321",
+      "35733917",
+      "37454542",
+      "38428406",
+      "35810010",
+      "37081490",
+      "36106017",
+      "38370466",
+      "35637927",
+      "37942417",
+      "37305039",
+      "38711596",
+      "37901384",
+      "37474873",
+      "39113509",
+      "36407421",
+      "37752199",
+      "37866944",
+      "38814177",
+      "38887322",
+      "39026664",
+      "34966745",
+      "37576602",
+      "38333254",
+      "35901060",
+      "39173977",
+      "37316756",
+      "34868391",
+      "35501667",
+      "37021001",
+      "36685512",
+      "36918862",
+      "37919056",
+      "34499810",
+      "36440700",
+      "38649061",
+      "37957905",
+      "38323182",
+      "34868393",
+      "37593129",
+      "36407322",
+      "36359826",
+      "35651940",
+      "38780016",
+      "36110200",
+      "36506045",
+      "38292759",
+      "33782454",
+      "37594094",
+      "35100981",
+      "38192427",
+      "37144125",
+      "37612746",
+      "36304446",
+      "38409788",
+      "36201853",
+      "34672420",
+      "35598038",
+      "37478211",
+      "35236323",
+      "37461802",
+      "33954048",
+      "36082523",
+      "37878496",
+      "38127891",
+      "37946105",
+      "37138862",
+      "38897125",
+      "39148085",
+      "34506683",
+      "36717858",
+      "39282111",
+      "39258983",
+      "37497233",
+      "35444445",
+      "34624650",
+      "35559049",
+      "36653725",
+      "34113405",
+      "37488941",
+      "37303674",
+      "38423139",
+      "36414988",
+      "34418989",
+      "36175889",
+      "38997894",
+      "36466094",
+      "34733933",
+      "35495160",
+      "38637111",
+      "38578040",
+      "34539737",
+      "36627660",
+      "34284753",
+      "34536521",
+      "35783271",
+      "34557413",
+      "35067161",
+      "38212150",
+      "35901969",
+      "35473522",
+      "38175691",
+      "36700234",
+      "38645862",
+      "35282071",
+      "35308568",
+      "38229237",
+      "35967352",
+      "35559020",
+      "36550843",
+      "35373463",
+      "37805587",
+      "37626095",
+      "37960823",
+      "35911966",
+      "38129557",
+      "37608136",
+      "34734046",
+      "30890688",
+      "34370716",
+      "36585417",
+      "37120553",
+      "38360836",
+      "36276279",
+      "36262887",
+      "35057634",
+      "35265525",
+      "34671612",
+      "34195903",
+      "36035135",
+      "37629061",
+      "37822529",
+      "35410338",
+      "39347495",
+      "37301835",
+      "34784264",
+      "36275721",
+      "31960487",
+      "36437923",
+      "37671131",
+      "37709486",
+      "37853432",
+      "38866217",
+      "38517368",
+      "39042632",
+      "38961491",
+      "38835517",
+      "37928394",
+      "38268862",
+      "38014635",
+      "39216434",
+      "38720455",
+      "38263097",
+      "37031354",
+      "39286216",
+      "37465372",
+      "39029052",
+      "37930112",
+      "36923465",
+      "38496843",
+      "38994346",
+      "38639655",
+      "39351146",
+      "38293780",
+      "37006267",
+      "38882183",
+      "37943983",
+      "38963039",
+      "37462886",
+      "38187306",
+      "39040542",
+      "39128418",
+      "37485340",
+      "38127902",
+      "38332532",
+      "38863444",
+      "38561399",
+      "39293745",
+      "36443992",
+      "37599272",
+      "39418100",
+      "37795447",
+      "37739212",
+      "39052183",
+      "37435058"
+    ],
+    "review": [
+      "37378023",
+      "37739212"
+    ],
+    "pmc": [
+      "10292652"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37378023/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37378023",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fendo.2023.1198763",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.08.25.672132",
+  "title": "Functional selection in a population of synthetic cells with a minimal metabolism",
+  "doi": "10.1101/2025.08.25.672132",
+  "abstract": "<h4>ABSTRACT</h4> Various synthetic microcompartment systems have been developed to mimic key features of living cells. Here, we focus on artificial cells that capture their capacity to serve as vessels for Darwinian evolution. We assemble micro-compartmentalized In Vitro Transcription-Translation-Replication systems containing a minimal genome, a basic metabolic pathway, a reconstituted protein expression machinery, and a simple DNA replication module, wired in a positive feedback loop. The minimal genome encodes the enzyme deoxyribonucleoside kinase (DNK) whose expression, and then metabolic activity, is required for the genome’s replication. We show that these compartments act as minimal Darwinian elements by filtering out non-functional genotypes. We track individual replicators from a library of 42 genetic variants to reveal the system’s dynamics at both the population and the single replicator levels. At the population level, we extract the fitness function, which links a genome’s metabolic efficiency to its selective success, considering co-encapsulation and hitch-hiking effects. At the individual replicator level, we observe a bimodal distribution of replication yields and propose a mixed model with an inter-droplet heterogeneity with presence or absence of a metabolic feedback loop on the replicator. In addition, we leverage this autonomous self-selection loop to generate a high-resolution mutational map of the DNK enzyme.",
+  "authors": [
+    "Di Meo T",
+    "Bunel L",
+    "Ragala G",
+    "Van Tongeren M",
+    "Sieskind R",
+    "Danelon C",
+    "Rondelez Y"
+  ],
+  "published_date": "2025-08-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.08.25.672132",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.25.672132.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1072949",
+    "raw_record": {
+      "id": "PPR1072949",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1072949"
+        ]
+      },
+      "doi": "10.1101/2025.08.25.672132",
+      "title": "Functional selection in a population of synthetic cells with a minimal metabolism",
+      "authorString": "Di Meo T, Bunel L, Ragala G, Van Tongeren M, Sieskind R, Danelon C, Rondelez Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Di Meo T",
+            "lastName": "Di Meo",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gulliver Laboratory, UMR7083 , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bunel L",
+            "lastName": "Bunel",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gulliver Laboratory, UMR7083 , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ragala G",
+            "lastName": "Ragala",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gulliver Laboratory, UMR7083 , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Van Tongeren M",
+            "lastName": "Van Tongeren",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gulliver Laboratory, UMR7083 , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sieskind R",
+            "lastName": "Sieskind",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gulliver Laboratory, UMR7083 , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Danelon C",
+            "lastName": "Danelon",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Toulouse Biotechnology Institute (TBI), , , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rondelez Y",
+            "lastName": "Rondelez",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gulliver Laboratory, UMR7083 , , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  Various synthetic microcompartment systems have been developed to mimic key features of living cells. Here, we focus on artificial cells that capture their capacity to serve as vessels for Darwinian evolution. We assemble micro-compartmentalized In Vitro Transcription-Translation-Replication systems containing a minimal genome, a basic metabolic pathway, a reconstituted protein expression machinery, and a simple DNA replication module, wired in a positive feedback loop. The minimal genome encodes the enzyme deoxyribonucleoside kinase (DNK) whose expression, and then metabolic activity, is required for the genome’s replication. We show that these compartments act as minimal Darwinian elements by filtering out non-functional genotypes. We track individual replicators from a library of 42 genetic variants to reveal the system’s dynamics at both the population and the single replicator levels. At the population level, we extract the fitness function, which links a genome’s metabolic efficiency to its selective success, considering co-encapsulation and hitch-hiking effects. At the individual replicator level, we observe a bimodal distribution of replication yields and propose a mixed model with an inter-droplet heterogeneity with presence or absence of a metabolic feedback loop on the replicator. In addition, we leverage this autonomous self-selection loop to generate a high-resolution mutational map of the DNK enzyme.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "acronym": "ERC_",
+            "grantId": "647275",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.08.25.672132"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1072949"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1072949&type=FILE&fileName=EMS208307-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS208307",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-08-27",
+      "firstPublicationDate": "2025-08-25",
+      "firstIndexDate": "2025-08-27",
+      "fullTextReceivedDate": "2025-09-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, figure legends not included, supplementary materials referenced but not provided)
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text; no assessment of figures or supplementary data beyond what is described
+- **Shared manuscript claim summary** The authors report that HIV-1 Rev binds Importin β (Impβ) with a 1:2 stoichiometry through two independent binding sites located at the N- and C-terminal halves of the Impβ HEAT-repeat superhelix. They identify the N-terminal tip of Rev helix α2 within the Arginine-Rich Motif as a primary binding epitope and propose a structural model based on crosslinking mass spectrometry, compensatory mutagenesis, and docking simulations.
+- **Visible evidence base** SEC/MALLS, native gel shift, native MS, ITC, NMR chemical shift analysis, SEC-SAXS, peptide scanning by DSF, FP competition assays, BS3 crosslinking MS, HADDOCK docking, rigid-body docking
+- **Missing materials affecting confidence** Figures (all), supplementary figures S1-S4, supplementary tables S1-S5, experimental replicates and error analysis details, raw data for ITC and FP assays, SAXS data quality metrics, NMR assignment completeness statistics, crosslink identification confidence scores
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive multi-technique investigation of the HIV-1 Rev/Importin β interaction, reporting a surprising 1:2 stoichiometry that challenges the prevailing view of Impβ as a monomer-binding import receptor. The combination of solution biophysics, crosslinking MS, and docking is appropriate and the data appear internally consistent. However, the structural model is presented with limited validation, and several key claims regarding the independence of the two binding sites and the functional relevance of the 1:2 stoichiometry require stronger experimental support. The manuscript is of interest to the virology and nuclear transport communities, but the current evidence does not fully establish the proposed model.
+- **Who would be interested in the results, and why** Researchers studying HIV-1 replication, particularly Rev trafficking and function; investigators in the nuclear transport field interested in importin cargo recognition mechanisms; structural biologists studying protein-protein interactions involving intrinsically disordered proteins; those interested in atypical importin binding modes and their functional consequences.
+- **Major strengths** 1) The use of multiple orthogonal biophysical techniques (native MS, ITC, SEC-MALLS, SAXS) to establish stoichiometry is rigorous. 2) The identification of two spatially distinct binding sites on Impβ is a novel finding with potential implications for importin biology. 3) The combination of experimental crosslinking data with docking simulations provides a testable structural hypothesis. 4) The use of an oligomerization-deficient Rev mutant to dissect binding from Rev self-association is well conceived.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Stoichiometry claim
+  - **Claim pointer** "Impβ binds two Rev monomers through independent binding sites" (Abstract); "Impβ can bind either one or two molecules of WT Rev" (Results)
+  - **Evidence pointer** Figure 2 (native MS), Figure 1f (native gel), Figure 3 (ITC), location not provided for exact figure panels
+  - **Concern** The claim of 1:2 stoichiometry relies heavily on native MS and gel shift data, but the authors acknowledge that the second binding site has ~10-fold lower affinity (Kd = 9.6 μM vs 0.8 μM). At physiological concentrations of Rev and Impβ, the occupancy of the second site would be low. The functional relevance of a weak second site is unclear, and the authors do not address whether the 1:2 complex forms under conditions relevant to HIV-1 infection. Furthermore, the ITC data are fit to a "two non-symmetric classes of binding sites" model, but the authors do not report whether alternative models (e.g., cooperative binding, sequential binding with conformational change) were tested and excluded.
+  - **Why it matters** The central claim of the paper is the 1:2 stoichiometry. If the second site is not physiologically relevant, the novelty of the finding is substantially diminished. The distinction between independent vs cooperative binding also affects the interpretation of the structural model.
+  - **Resolution test** Provide quantitative occupancy calculations at estimated intracellular concentrations of Rev and Impβ. Report ITC model comparison statistics (e.g., AIC or BIC) for one-site vs two-site fits. Perform binding experiments at lower temperatures or with stabilized Impβ to determine if the second site is populated under more physiological conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural model validation
+  - **Claim pointer** "crosslinking mass spectrometry and compensatory mutagenesis data combined with molecular docking simulations suggest a structural model in which one Rev monomer binds to the C-terminal half of Impβ with Rev helix α2 roughly parallel to the HEAT-repeat superhelical axis while the other monomer binds to the N-terminal half" (Abstract)
+  - **Evidence pointer** Figure 10, Figures S5-S8, Tables S2-S4; location not provided
+  - **Concern** The structural model is derived from docking simulations guided by crosslinking and mutagenesis data, but the validation is limited. The authors report that the model agrees with SAXS data (χ² = 1.93, improving to 0.87 with a normal mode perturbation), but this is a single comparison and the SAXS data were measured on the 1:1 complex, not the 1:2 complex. The crosslinking data are not shown in the main text, and the number of unique crosslinks supporting the model is not stated. The compensatory mutagenesis data identify only a handful of residue pairs, and the authors do not demonstrate that these pairs are in direct contact in the model. The docking results are not compared to any negative controls (e.g., docking a different helical hairpin protein to Impβ).
+  - **Why it matters** The structural model is a key deliverable of the paper. Without robust validation, the model remains speculative and could mislead the field. The distinction between the N-site and C-site binding modes is central to the claim of atypical binding behavior.
+  - **Resolution test** Provide a table of all crosslinks used to constrain the docking, with confidence scores. Show that the model is robust to removal of individual crosslinks or mutagenesis constraints. Compare the docking scores of the proposed model to decoy models (e.g., Rev docked to other importin surfaces, or a different helical hairpin protein docked to Impβ). If possible, validate the model with mutagenesis of predicted interface residues not used to generate the model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Epitope mapping
+  - **Claim pointer** "The N-terminal tip of Rev helix α2 within Rev's Arginine-Rich Motif (ARM) as a primary Impβ binding epitope" (Abstract); "These findings point to the N-terminal tip of Rev helix α2 as a major binding epitope recognized by Impβ" (Results)
+  - **Evidence pointer** Figure 8, Table S1; location not provided
+  - **Concern** The peptide scanning data (Figure 7) show that peptides spanning residues 33-55 of Rev stabilize Impβ, but the FP competition assay uses a Rev-NLS peptide that may not fully recapitulate the binding mode of the full-length protein. The single-point mutation data (Figure 8d,e) show that R35D, R38D, R39D, and R41D each reduce binding by only 1.6-1.9-fold, which is modest. The authors do not test whether combinations of these mutations (beyond the triple mutants R2-R4) have additive or synergistic effects. The claim that the "N-terminal tip" is a "major" epitope is not strongly supported by the magnitude of the effects.
+  - **Why it matters** The epitope identification is important for understanding how Rev competes with other Impβ cargos and for potential therapeutic targeting. Overstating the importance of specific residues could misdirect follow-up studies.
+  - **Resolution test** Test a mutant Rev with all four critical arginines (R35, R38, R39, R41) mutated to aspartate and measure binding affinity by ITC or FP. Perform alanine scanning (rather than charge reversal) to separate electrostatic from steric effects. Map the identified epitope onto the structural model and show that it is consistent with the predicted interface.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conformational dynamics
+  - **Claim pointer** "SAXS data suggest that the HEAT repeats of Impβ retain an extended conformation upon binding Rev" (Abstract); "The binding of the second Rev monomer might significantly reduce the conformational entropy of the Impβ HEAT-repeat array" (Results)
+  - **Evidence pointer** Figure 5, location not provided
+  - **Concern** The SAXS analysis is used to argue that Impβ remains extended upon Rev binding, but the authors note that they could only study the 1:1 complex by SEC-SAXS. The comparison to known Impβ structures is qualitative (χ² values < 4 for the best fits), and the authors do not report whether other conformations (e.g., more compact forms) were tested. The interpretation of the ITC entropy data is speculative, as the authors do not measure the conformational dynamics of Impβ directly (e.g., by NMR relaxation dispersion or H/D exchange).
+  - **Why it matters** The claim that Impβ does not undergo a large conformational change upon Rev binding is important for distinguishing this interaction from other importin-cargo complexes. If the conformational change is actually significant, the structural model could be incorrect.
+  - **Resolution test** Perform SAXS on the 1:2 complex if conditions can be found to stabilize it. Use ensemble optimization methods (EOM) to test for conformational heterogeneity. Measure backbone dynamics of Impβ in the free and Rev-bound states by NMR, if feasible.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** ITC methods
+  - **Evidence pointer** Methods section, "Isothermal titration calorimetry" (location not provided)
+  - **Issue** The ITC experiments are described as using "35-50 μM Rev OD or Rev OD Δ and 100-130 μM Impβ proteins" in the cell and syringe, respectively. The stoichiometry (N) values obtained from the fits are not reported in the text.
+  - **Required correction** Report the N values for all ITC experiments, along with the fitting model and goodness-of-fit statistics.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** NMR assignments
+  - **Evidence pointer** Results section, NMR subsection (location not provided)
+  - **Issue** The authors state that 67 of 116 Rev residues could be assigned, but do not specify which residues were unassigned or why (e.g., line broadening, overlap). This is relevant for interpreting the chemical shift perturbation data.
+  - **Required Correction** Provide a table or figure showing assigned vs. unassigned residues, and comment on whether the unassigned regions include the epitope identified by other methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** FP competition assays
+  - **Evidence pointer** Figure 8, Table S1; location not provided
+  - **Issue** The IC50 values are reported as single values without error bars or confidence intervals in the text. The number of independent replicates is not stated.
+  - **Required Correction** Report IC50 values with standard deviations or 95% confidence intervals, and state the number of replicates for each measurement.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "N-site" and "C-site" nomenclature
+  - **Evidence pointer** Results section, crosslinking subsection (location not provided)
+  - **Issue** The terms "N-site" and "C-site" are introduced without a formal definition of the boundaries of these sites on Impβ.
+  - **Required Correction** Define the N-site and C-site in terms of the HEAT repeat numbers or residue ranges, and state whether these sites overlap with known cargo binding regions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion (location not provided)
+  - **Issue** The authors do not discuss the limitations of using a truncated Rev construct (Rev OD Δ) for SAXS experiments, nor the potential impact of the V16D/I55N mutations on the Rev structure.
+  - **Required Correction** Add a paragraph acknowledging the potential caveats of using mutant Rev constructs and truncated versions for biophysical studies.
+
+## Risk / unsupported claims
+- The claim that the two Rev binding sites on Impβ are "independent" is not directly tested; the ITC data could be consistent with negative or positive cooperativity, and the authors do not report a cooperative binding model fit.
+- The structural model for the N-site Rev binding is not presented in detail; the authors focus on the C-site model, leaving the N-site binding mode largely uncharacterized.
+- The functional relevance of the 1:2 stoichiometry is not addressed experimentally; no cellular or viral replication assays are presented to support the claim that this binding mode is important for HIV-1 infection.
+- The statement that "Impβ retains an extended conformation upon binding Rev" is based on SAXS data from the 1:1 complex only and may not apply to the 1:2 complex.
+- The claim that the identified acidic residues on Impβ (Asp288, Glu289, Glu299, Glu437) are "likely to be spatially proximal" to Rev basic residues is based on compensatory mutagenesis, which can also reflect indirect or allosteric effects; direct structural evidence is lacking.

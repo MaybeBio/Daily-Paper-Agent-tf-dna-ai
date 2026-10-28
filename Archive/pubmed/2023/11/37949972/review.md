@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, and figure legends as provided.
+- **Assessment boundary** The manuscript reports a novel protein-protein interaction between AID and UBN1 in B-cells, supported by computational predictions, co-immunoprecipitation, pull-down assays, co-localization, and proximity ligation assays. The assessment is limited to the evidence presented in the provided text and does not include evaluation of supplementary figures or tables beyond what is referenced.
+- **Shared manuscript claim summary** The authors claim that AID, the enzyme mediating SHM and CSR, interacts with UBN1, a component of the HIRA chaperone complex, in B-cells. This interaction is predicted by in-silico docking and MD simulation, and validated by co-immunoprecipitation, in-vitro pull-down, co-localization, and proximity ligation assays. The authors propose that this interaction may be relevant to AID targeting and SHM, though functional consequences are not explored.
+- **Visible evidence base** Molecular docking and MD simulation results (Figs. 1, 2, S1, Table S1), co-immunoprecipitation data (Figs. 3, 4, S3, S4, S5), pull-down assays with cell lysate and purified proteins (Figs. 5, 6, S9, S10), co-localization by immunofluorescence (Figs. 7, 8, S11, S12, S13), and proximity ligation assay (Figs. 9, 10). Supplementary figures and tables are referenced but not fully visible in the provided material.
+- **Missing materials affecting confidence** Full western blot images with molecular weight markers, negative controls for co-immunoprecipitation (e.g., isotype controls, beads-only), quantification of co-localization and PLA signals, statistical analysis details, and the complete supplementary figures and tables are not provided. The exact experimental replicates and any negative results are not described.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward and potentially interesting observation: AID interacts with UBN1 in B-cells. The combination of computational prediction and multiple biochemical and cell-based assays is commendable. However, the evidence for a direct, specific interaction is not fully established. The co-immunoprecipitation and pull-down experiments lack critical controls and quantification. The co-localization data are qualitative and the PLA signal is described as weak. The functional relevance of this interaction is entirely speculative. The manuscript would benefit from a more rigorous experimental approach, including proper negative controls, quantitative analysis, and ideally a functional assay linking the interaction to SHM or CSR. As presented, the case for a biologically meaningful AID-UBN1 interaction is suggestive but not conclusive.
+- **Who would be interested in the results, and why** Researchers studying AID biology, antibody diversification, and the molecular mechanisms of SHM and CSR would be interested. Additionally, those investigating chromatin modifiers and histone chaperone complexes in the context of immune responses may find the potential link between AID and the HIRA complex of interest. The work could also appeal to computational biologists interested in protein-protein interaction prediction.
+- **Major Strengths** The manuscript addresses a relevant and under-explored question: the potential connection between AID and the HIRA chaperone complex via UBN1. The use of multiple orthogonal approaches (computational, biochemical, cell-based) to investigate the interaction is a strength. The inclusion of both human and chicken B-cell lines adds cross-species validity. The writing is generally clear and the figures are logically organized.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that co-immunoprecipitation experiments establish an interaction between UBN1 and AID in B-cells.
+  - **Evidence pointer** Figures 3 and 4, Supplementary Figures S3 and S4
+  - **Concern** The co-immunoprecipitation experiments lack essential controls. There is no mention of a negative control antibody (e.g., isotype-matched IgG) or a beads-only control to rule out non-specific binding. Additionally, the input lanes and the specificity of the antibodies used are not described in sufficient detail. Without these controls, the observed bands could be due to non-specific antibody cross-reactivity or protein A/G binding.
+  - **Why it matters** The central claim of the manuscript rests on the specificity of the AID-UBN1 interaction. If the co-immunoprecipitation is not rigorously controlled, the conclusion that AID and UBN1 specifically interact is not supported.
+  - **Resolution test** The authors should include co-immunoprecipitation experiments with an isotype control antibody, a beads-only control, and ideally a lysate from AID-knockout cells (which they have access to, as shown in Fig. S5) as a negative control. They should also show input and flow-through fractions to demonstrate the efficiency and specificity of the pull-down.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the in-vitro pull-down assay using purified proteins demonstrates a direct interaction between AID and UBN1.
+  - **Evidence pointer** Figure 6, Supplementary Figure S10
+  - **Concern** The pull-down assay with purified proteins is described, but the purity of the recombinant proteins is not stated. If the proteins are not pure, the interaction could be mediated by a contaminating bacterial protein. Furthermore, the stoichiometry of the proteins used is not given, and there is no titration or competition experiment to demonstrate specificity. The use of a single concentration of each protein is insufficient to establish a direct, specific interaction.
+  - **Why it matters** A direct interaction is a strong claim that requires rigorous biochemical evidence. If the proteins are not pure or the assay is not properly controlled, the conclusion of a direct interaction is not justified.
+  - **Resolution test** The authors should provide evidence of protein purity (e.g., Coomassie-stained gels). They should perform the pull-down with increasing concentrations of one protein while keeping the other constant to show saturability. A competition experiment with an unlabeled protein or a mutant version of UBN1 or AID that disrupts the interaction would further strengthen the claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that the AID-UBN1 interaction may be relevant to SHM, potentially by restricting AID activity to hotspot regions.
+  - **Evidence pointer** Discussion section, Figure 11
+  - **Concern** The functional relevance of the AID-UBN1 interaction is purely speculative. No experiments are performed to test whether this interaction affects SHM or CSR. The proposed model in Figure 11 is not supported by any direct evidence. The authors themselves acknowledge that the fate of the interaction needs to be explored, but the manuscript would be significantly strengthened by even a preliminary functional experiment.
+  - **Why it matters** Without any functional data, the significance of the observed interaction is unclear. The manuscript currently reports a protein-protein interaction without demonstrating its biological consequence, which limits its impact.
+  - **Resolution test** The authors could perform a simple experiment, such as knocking down UBN1 in a B-cell line and measuring SHM frequency at a reporter locus, or testing whether AID and UBN1 co-occupy the Ig locus by chromatin immunoprecipitation. Even a preliminary experiment would provide a link between the interaction and its proposed function.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the proximity ligation assay validates that AID interacts with UBN1 in cells.
+  - **Evidence pointer** Figures 9 and 10
+  - **Concern** The PLA signal is described as "quite less" in intensity and number of spots. There is no quantification of the PLA signal, no negative control (e.g., cells stained with only one primary antibody or with irrelevant primary antibodies), and no statistical analysis. The images are qualitative and the conclusion of a direct interaction is based on a weak signal.
+  - **Why it matters** PLA is a powerful technique, but only when properly controlled and quantified. A weak signal without controls could be due to non-specific proximity or antibody artifacts. The claim of a direct interaction is not robustly supported.
+  - **Resolution test** The authors should include a negative control (e.g., AID knockout cells, or cells stained with only one primary antibody) and quantify the number of PLA spots per cell across multiple fields, with statistical comparison. They should also report the efficiency of the PLA reaction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction assume significant prior knowledge of AID biology and chromatin remodeling. Terms like "WRC motif," "HIRA chaperone complex," and "SHM hallmark" are used without brief explanation.
+  - **Required correction** Provide brief definitions or context for these terms to make the manuscript accessible to a broader readership.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section
+  - **Evidence pointer** Materials and Methods, "Co-localization of AID and UBN1"
+  - **Issue** The co-localization assay description lacks details on image acquisition settings, the number of cells analyzed, and whether the analysis was blinded. The method for determining co-localization (e.g., Pearson's coefficient) is not stated.
+  - **Required correction** Provide quantitative co-localization analysis (e.g., Pearson's or Manders' coefficients) and describe the image analysis software and settings used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section
+  - **Evidence pointer** Results, "In-silico estimation of UBN1-AID interaction"
+  - **Issue** The MD simulation is described as a 150 ns simulation, but the text states a 100 ns equilibrium followed by a 50 ns production run. This is confusing. The total simulation time should be clarified.
+  - **Required correction** Clarify the total simulation time and the purpose of the equilibrium phase versus the production phase.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion speculates on the role of UBN1 in SHM but does not cite specific evidence linking UBN1 expression levels to SHM activity in B-cells, beyond the general role of the HIRA complex.
+  - **Required correction** Either provide specific citations supporting the speculation or temper the claims to more clearly distinguish speculation from established fact.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the most critical. The co-immunoprecipitation and pull-down experiments must include proper negative controls and demonstrate specificity. Without these, the central claim of an AID-UBN1 interaction is not established. R1-M4 also needs to be addressed with proper controls and quantification for the PLA data.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The manuscript reports a novel interaction between AID and UBN1. While the interaction is plausible given the known roles of both proteins, the observation is incremental. The originality is moderate.
+  - **Scientific importance** The potential link between AID and the HIRA chaperone complex is interesting, but the lack of functional data limits the importance. The manuscript does not advance our understanding of SHM or CSR mechanisms.
+  - **Interdisciplinary readership** The topic is of interest to immunologists and molecular biologists. The computational component may appeal to a narrower audience. The interdisciplinary appeal is limited.
+  - **Technical soundness** The computational methods are standard, but the experimental validation is incomplete. The lack of controls and quantification in the key experiments is a significant technical weakness.
+  - **Readability for nonspecialists** The manuscript is written for a specialist audience. The abstract and introduction could be more accessible, but the overall structure is logical.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript reports a potentially interesting interaction, but the experimental evidence is not sufficiently rigorous to support the claims. The authors must address the technical concerns, particularly the lack of controls in the co-immunoprecipitation and pull-down assays, and provide quantitative data for the co-localization and PLA experiments. If these concerns are resolved, the manuscript could be considered for publication in a specialized journal.
+
+## Risk / unsupported claims
+- The claim of a direct interaction between AID and UBN1 is not fully supported due to missing controls in the co-immunoprecipitation and pull-down experiments.
+- The proposed model in Figure 11, suggesting that UBN1 loads AID and H3.3 at the Ig locus, is entirely speculative and not supported by any experimental evidence.
+- The statement that the interaction may restrict AID activity to hotspot regions is speculative and not tested.
+- The claim that the PLA signal indicates a direct interaction is weakened by the lack of quantification and negative controls.
+- The functional relevance of the AID-UBN1 interaction to SHM or CSR is not assessed and cannot be evaluated from the provided data.

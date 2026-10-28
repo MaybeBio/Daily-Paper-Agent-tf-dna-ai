@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results and discussion, conclusions) as provided
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims, and alignment with Nature-style criteria based solely on the supplied material
+- **Shared manuscript claim summary** The authors propose an integrated computational workflow combining an inflammation-based QSAR model, molecular docking, short and long MD simulations, and MM/GBSA free energy calculations to identify potential NF-κB inhibitors from three small molecule libraries, with the stated aim of contributing to SARS-CoV-2 drug discovery efforts. They report five hit ligands with predicted anti-inflammatory activity, favorable protein-ligand interactions, and conformational stability compared to a known inhibitor (procyanidin B2).
+- **Visible evidence base** Abstract, Introduction, Methods, Results and discussion, Conclusions, Figure 1, Figure 2, Figure 3, Table 1, references to Supplementary Figures S1-S16 and Scheme 1
+- **Missing materials affecting confidence** Supplementary figures and tables (S1-S16), Scheme 1, full QSAR model validation statistics, docking scores, force field parameters, simulation convergence criteria, and raw data for MM/GBSA calculations were not provided. These are essential for independent verification of the reported results.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward application of established computational methods to a relevant therapeutic target. The workflow is logical and the authors are transparent about the in silico nature of the study. However, the scientific case is not established from the provided material. The central claims regarding the quality and potential utility of the five hit ligands rest on evidence that is either not shown, not quantitatively supported, or not compared against appropriate benchmarks. The link to SARS-CoV-2 is asserted rather than demonstrated, and the methodological choices require additional justification and validation.
+- **Who would be interested in the results, and why** Computational chemists and drug discovery researchers working on NF-κB or similar targets may find the workflow of interest as a template for combining QSAR, docking, and MD. Researchers focused on COVID-19 therapeutics may be interested in the proposed hits, though the lack of experimental validation and the indirect connection to SARS-CoV-2 limit the immediate utility. The study may also be of interest to those applying commercial platforms such as MetaCore/MetaDrug and Schrodinger suites in academic settings.
+- **Major strengths** The study addresses a relevant and timely target (NF-κB) with potential implications for COVID-19. The integrated workflow is clearly described and follows a logical progression from QSAR screening to MD-based validation. The authors appropriately acknowledge the limitations of in silico predictions and the need for experimental follow-up. The use of multiple criteria (QSAR activity, toxicity prediction, MM/GBSA scores, structural stability) to prioritize hits is a reasonable strategy.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that five hit ligands have "highly predicted anti-inflammation activity and nearly no predicted toxicities which had strongly favorable protein-ligand interactions and conformational stability at the binding pocket compared to a known NF-κB inhibitor (procyanidin B2)."
+  - **Evidence pointer** Results and discussion, Figure 2, Figure 3, Table 1, Supplementary Figures S1-S15
+  - **Concern** The evidence supporting this central claim is not fully presented in the provided material. The MM/GBSA scores for the five hits are compared to procyanidin B2, but the numerical values, error estimates, and statistical significance of the differences are not reported in the text. The interaction diagrams in Figure 3 are qualitative and do not provide quantitative measures of binding affinity or specificity. The claim of "nearly no predicted toxicities" is referenced to Supplementary Figure S2, which was not provided, and the threshold for "low toxicity" is not defined.
+  - **Why it matters** The central conclusion of the manuscript rests on the identification of these five hits as promising leads. Without quantitative data, statistical analysis, and a clear comparison to the control, the reader cannot assess whether the hits are genuinely superior to the known inhibitor or whether the differences are within the noise of the computational methods. The lack of this evidence undermines the validity of the primary claim.
+  - **Resolution test** Provide the numerical MM/GBSA scores with standard deviations for all 11 hits and the control, along with a statistical test (e.g., per-residue decomposition or bootstrap analysis) demonstrating that the differences are significant. Include the full toxicity prediction data for the hits and the control, with the specific thresholds used. Show the complete interaction diagrams with quantitative occupancy values for all relevant contacts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors state that the inflammation-based QSAR model has a sensitivity of 0.86, specificity of 0.84, and accuracy of 0.85, and that it was used to screen the libraries.
+  - **Evidence pointer** Methods, Binary QSAR model analysis
+  - **Concern** The QSAR model is described as having been developed within the MetaCore/MetaDrug platform, but no details are provided regarding the training set composition, descriptor types, model equation, or external validation. The reported performance metrics (sensitivity, specificity, accuracy) are presented without confidence intervals or an external test set evaluation. The applicability domain of the model is not discussed, which is critical when screening diverse libraries such as the Specs collections.
+  - **Why it matters** The entire screening cascade depends on the reliability of the QSAR model. If the model is not adequately validated or its applicability domain is not defined, the initial selection of 382 molecules may be biased or unreliable, propagating errors through the subsequent docking and MD steps. The authors' previous work is cited, but the current manuscript should provide sufficient information for the reader to assess the model's suitability for this specific application.
+  - **Resolution test** Provide a detailed description of the QSAR model, including the training and test set sizes, descriptor types, model equation or algorithm, and external validation results. Discuss the applicability domain and how the screened libraries fall within it. Report confidence intervals for the performance metrics and, if possible, an independent validation set.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Target relevance
+  - **Claim pointer** The authors propose NF-κB inhibition as a therapeutic strategy for COVID-19, stating that "the inflammatory response mediated by SARS-CoV-2 is predominated by NF-κB activation."
+  - **Evidence pointer** Abstract, Introduction
+  - **Concern** The link between NF-κB and SARS-CoV-2 is asserted with limited supporting evidence. While the Introduction cites several studies, the specific mechanism by which NF-κB inhibition would benefit COVID-19 patients is not elaborated. The manuscript does not discuss whether the proposed hits would be expected to have antiviral activity, anti-inflammatory activity, or both, nor does it address potential safety concerns of systemic NF-κB inhibition given its central role in immune function.
+  - **Why it matters** The stated aim of the study is to contribute to SARS-CoV-2 drug discovery. If the connection between NF-κB and COVID-19 pathology is not clearly established, the relevance of the identified hits to COVID-19 treatment remains speculative. This weakens the significance of the work and its alignment with the journal's scope.
+  - **Resolution test** Provide a more detailed discussion of the evidence linking NF-κB to COVID-19 pathogenesis, including specific pathways and clinical observations. Clarify whether the proposed hits are intended as antiviral agents, anti-inflammatory agents, or both, and discuss the potential risks and benefits of NF-κB inhibition in the context of COVID-19.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison to known inhibitors
+  - **Claim pointer** The authors compare their hits to procyanidin B2, a known NF-κB inhibitor, and state that the control showed a "significantly weaker" MM/GBSA score.
+  - **Evidence pointer** Results and discussion, Figure 2, Table 1
+  - **Concern** The comparison to procyanidin B2 is limited to a single known inhibitor. The manuscript does not compare the hits to other known NF-κB inhibitors or to decoy molecules to assess the specificity of the binding predictions. Additionally, the choice of procyanidin B2 as the sole control is not justified, and its binding mode and affinity for the NF-κB/IκBα complex are not described.
+  - **Why it matters** Without a broader set of comparators, the reader cannot determine whether the identified hits are genuinely promising or merely artifacts of the computational methods. The use of a single control limits the interpretability of the relative binding affinities and the claimed superiority of the hits.
+  - **Resolution test** Include additional known NF-κB inhibitors and decoy molecules in the analysis. Provide a table comparing the MM/GBSA scores, interaction profiles, and predicted toxicities of the hits against this expanded set. Justify the choice of procyanidin B2 as the control and describe its known binding mode.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Molecular docking
+  - **Evidence pointer** Methods, Molecular docking
+  - **Issue** The description of the docking grid setup is brief. The statement "allowed the rotatable amino acids to rotate their side chains" is vague and does not specify which residues were treated as flexible or how this was implemented in Glide.
+  - **Required correction** Specify the residues treated as flexible, the rationale for their selection, and the exact Glide settings used for the flexible side-chain option.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, MD simulations
+  - **Evidence pointer** Methods, Molecular dynamics simulations
+  - **Issue** The MD simulation protocol lacks several details necessary for reproduction, including the equilibration protocol, the number of steps, the thermostat and barostat parameters, and the treatment of long-range electrostatics.
+  - **Required correction** Provide a complete description of the MD simulation protocol, including equilibration steps, integration time step, cutoff distances, and any restraints applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results and discussion, Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The figure legend states that the mean MM/GBSA score is −40.52 kcal/mol and the cutoff is −58.29 kcal/mol, but the number of compounds above and below the cutoff is not stated, and the distribution of scores is not described.
+  - **Required correction** State the number of compounds selected by the cutoff and describe the distribution of scores (e.g., range, standard deviation).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results and discussion
+  - **Evidence pointer** Results and discussion
+  - **Issue** The term "hit ligands" is used interchangeably with "lead molecules" and "hit compounds." This imprecise terminology may confuse readers regarding the stage of the drug discovery pipeline.
+  - **Required correction** Use consistent terminology throughout, distinguishing between "hits" (initial screening results) and "leads" (compounds selected for further optimization).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results and discussion
+  - **Evidence pointer** Results and discussion
+  - **Issue** The authors state that "the majority of these 11 ligands were also predicted to have potential therapeutic activity in arthritis, asthma, cancer, depression, HIV, hyperlipidemia, migraines and obesity," but no data or figure is referenced to support this claim.
+  - **Required correction** Provide the supporting data, either in the main text or as a supplementary table, showing the predicted activities of the 11 ligands across these disease states.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (insufficient quantitative evidence for the central claim), R1-M2 (inadequate QSAR model validation), R1-M3 (unsubstantiated link to SARS-CoV-2), R1-M4 (insufficient comparator set). These are the primary technical issues that prevent the manuscript from establishing its case.
+- **Assessment against Nature-style criteria** Originality: The combination of QSAR, docking, and MD is not novel in itself, and the manuscript does not present a new method or a new biological insight. The application to NF-κB in the context of COVID-19 is timely but the approach is largely derivative of prior work. Scientific importance: The potential identification of NF-κB inhibitors is of interest, but the lack of experimental validation and the indirect connection to COVID-19 limit the immediate impact. Interdisciplinary readership: The work sits at the interface of computational chemistry and virology, but the presentation is likely to be accessible primarily to computational specialists. Technical soundness: The workflow is reasonable but the lack of validation details and quantitative results undermines confidence in the conclusions. Readability for nonspecialists: The manuscript is generally well-written and the logic is clear, but the heavy reliance on supplementary material and the absence of key quantitative data make it difficult for a nonspecialist to assess the validity of the claims.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a plausible workflow but the central claims are not supported by the data shown. Substantial revisions are required to provide quantitative evidence, validate the QSAR model, expand the comparator set, and clarify the relevance to COVID-19. If these concerns are addressed, the work may be suitable for publication in a specialized computational journal, though it is unlikely to meet the bar for Nature-style journals given the incremental methodological nature and the lack of experimental validation.
+
+## Risk / unsupported claims
+- The claim that five hit ligands have "strongly favorable protein-ligand interactions and conformational stability" compared to procyanidin B2 is unsupported by the quantitative data provided.
+- The claim that the identified hits have "nearly no predicted toxicities" is not verifiable without the toxicity prediction data.
+- The assertion that NF-κB inhibition is a viable therapeutic strategy for COVID-19 is not sufficiently supported by the evidence presented in the manuscript.
+- The statement that the majority of the 11 ligands have predicted therapeutic activity in multiple disease states is not supported by any data in the provided material.
+- The overall relevance of the findings to SARS-CoV-2 drug discovery is asserted but not demonstrated, as no direct link between the identified hits and antiviral activity or COVID-19 pathology is established.

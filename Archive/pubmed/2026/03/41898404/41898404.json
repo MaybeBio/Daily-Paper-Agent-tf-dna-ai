@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "41898404",
+    "doi": "10.3390/ijms27062540",
+    "title": "Design and Testing of Root-Specific Synthetic Promoters by Machine Learning."
+  },
+  "content": {
+    "abstract": "Synthetic promoters are crucial for precise gene expression in transgenic plants, but their rational design is hindered by the difficulty in identifying functional cis-regulatory elements (CREs). In this study, we aimed to develop a systematic approach for discovering tissue-specific cis-regulatory modules (CRMs) and generating functional synthetic promoters in poplar. We performed extensive transcriptomic analysis across various poplar tissues to obtain categorical labels and detected motifs in all gene promoters using known transcription factor binding site (TFBS) position weight matrices. Informative, tissue-specific TFBSs were predicted using a random forest model. Applying this to a root-specific gene, PopRTS1, we identified putative root-specific CRMs. These CRMs were then used to construct synthetic promoters, which were experimentally validated through rapid infiltration and GUS staining assays across different tissues. We successfully identified a root-specific synthetic promoter, PRTS1. Our findings demonstrate that machine learning can effectively decipher regulatory codes from omics data to predict functional CRMs. This work provides a feasible and systematic method for screening and designing tissue-specific synthetic promoters, offering significant potential for advancing targeted gene expression systems in plant biotechnology.",
+    "keywords": [
+      "Populus",
+      "cis-regulatory module",
+      "machine learning",
+      "synthetic promoter"
+    ],
+    "mesh_terms": [
+      "*Promoter Regions, Genetic",
+      "*Machine Learning",
+      "*Plant Roots/genetics/metabolism",
+      "*Populus/genetics",
+      "Gene Expression Regulation, Plant",
+      "Plants, Genetically Modified/genetics",
+      "Transcription Factors/metabolism/genetics",
+      "Binding Sites",
+      "Plant Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Chunhao",
+        "Song, Yuepeng",
+        "Zhang, Deqiang"
+      ],
+      "short_names": [
+        "Lu C",
+        "Song Y",
+        "Zhang D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8946-6437",
+        "ORCID: 0000-0002-8849-2366"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Tree Genetics and Breeding, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China.",
+        "National Engineering Research Center of Tree Breeding and Ecological Restoration, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China.",
+        "Key Laboratory of Genetics and Breeding in Forest Trees and Ornamental Plants, Ministry of Education, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China.",
+        "National Engineering Research Center of Tree Breeding and Ecological Restoration, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China.",
+        "Key Laboratory of Genetics and Breeding in Forest Trees and Ornamental Plants, Ministry of Education, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China.",
+        "National Engineering Research Center of Tree Breeding and Ecological Restoration, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China.",
+        "Key Laboratory of Genetics and Breeding in Forest Trees and Ornamental Plants, Ministry of Education, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China.",
+        "College of Horticulture and Landscape Architecture, Beijing Vocational College of Agriculture, Beijing 102442, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Chunhao",
+        "short_name": "Lu C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China.",
+          "National Engineering Research Center of Tree Breeding and Ecological Restoration, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China.",
+          "Key Laboratory of Genetics and Breeding in Forest Trees and Ornamental Plants, Ministry of Education, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Song, Yuepeng",
+        "short_name": "Song Y",
+        "identifiers": [
+          "0000-0001-8946-6437"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China.",
+          "National Engineering Research Center of Tree Breeding and Ecological Restoration, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China.",
+          "Key Laboratory of Genetics and Breeding in Forest Trees and Ornamental Plants, Ministry of Education, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Deqiang",
+        "short_name": "Zhang D",
+        "identifiers": [
+          "0000-0002-8849-2366"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China.",
+          "National Engineering Research Center of Tree Breeding and Ecological Restoration, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China.",
+          "Key Laboratory of Genetics and Breeding in Forest Trees and Ornamental Plants, Ministry of Education, College of Biological Sciences and Technology, Beijing Forestry University, Beijing 100083, China.",
+          "College of Horticulture and Landscape Architecture, Beijing Vocational College of Agriculture, Beijing 102442, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Mar 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/28 06:39",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [
+      "42196168"
+    ],
+    "refs": [
+      "41024142",
+      "40509592",
+      "38961476",
+      "38664394",
+      "38298604",
+      "37108797",
+      "36387605",
+      "36330242",
+      "36241578",
+      "36171722",
+      "36082166",
+      "35901078",
+      "35840754",
+      "34918159",
+      "34735005",
+      "34098218",
+      "34083762",
+      "34054902",
+      "33471413",
+      "32908305",
+      "32856047",
+      "32396837",
+      "32329779",
+      "32145071",
+      "31986354",
+      "31740773",
+      "31740772",
+      "31740769",
+      "31737027",
+      "31701126",
+      "31551359",
+      "30971806",
+      "30873216",
+      "30803117",
+      "30754915",
+      "30593858",
+      "30013180",
+      "29907306",
+      "29907304",
+      "29859265",
+      "29463772",
+      "29069589",
+      "28373393",
+      "27557757",
+      "27261064",
+      "27185945",
+      "26853706",
+      "26655679",
+      "26569598",
+      "26524248",
+      "26213851",
+      "25888697",
+      "25825364",
+      "25092118",
+      "24963940",
+      "24893752",
+      "24547703",
+      "24467902",
+      "24458563",
+      "24146624",
+      "24138055",
+      "24105275",
+      "23633298",
+      "23017908",
+      "22183647",
+      "21946354",
+      "21849619",
+      "20472752",
+      "19478073",
+      "18243105",
+      "17757866",
+      "16973872",
+      "16839417",
+      "16683017",
+      "15343339",
+      "11846609",
+      "11487705",
+      "3186459"
+    ],
+    "similar": [
+      "41898404",
+      "38232002",
+      "25224536",
+      "21050446",
+      "26655679",
+      "32085397",
+      "32347064",
+      "39465144",
+      "16414919",
+      "33256091",
+      "41779193",
+      "33471413",
+      "35940614",
+      "38588982",
+      "40149473",
+      "28445829",
+      "42050350",
+      "27503086",
+      "38870342",
+      "22405574",
+      "31393049",
+      "34115286",
+      "31680166",
+      "27084679",
+      "27557757",
+      "25900569",
+      "24893752",
+      "42151799",
+      "22388917",
+      "26849672",
+      "17924115",
+      "29797449",
+      "25486888",
+      "12825693",
+      "23602097",
+      "31426752",
+      "28074264",
+      "38583807",
+      "24675528",
+      "23828545",
+      "20584286",
+      "42475469",
+      "42012136",
+      "14675444",
+      "27557758",
+      "20369359",
+      "10350081",
+      "26030672",
+      "23860795",
+      "22313678",
+      "23977227",
+      "22058225",
+      "18796165",
+      "20113489",
+      "41768065",
+      "26081459",
+      "23840763",
+      "17827349",
+      "29855997",
+      "8866892",
+      "34914734",
+      "32856047",
+      "37372330",
+      "40133648",
+      "27557764",
+      "29879919",
+      "39120800",
+      "40013512",
+      "29859265",
+      "31623779",
+      "26476450",
+      "23979312",
+      "17601165",
+      "39740398",
+      "31041775",
+      "26250538",
+      "32076710",
+      "32424304",
+      "24736620",
+      "25442502",
+      "18547376",
+      "25819608",
+      "30191675",
+      "26941290",
+      "24260266",
+      "12425082",
+      "17996093",
+      "25035402",
+      "41950962",
+      "17321612",
+      "21694767",
+      "41553553",
+      "20482790",
+      "24555803",
+      "36976742",
+      "41593481",
+      "34143419",
+      "20179934",
+      "38354497",
+      "24042128"
+    ],
+    "review": [
+      "41898404",
+      "42012136",
+      "41768065",
+      "29855997",
+      "40013512",
+      "29859265"
+    ],
+    "pmc": [
+      "13026494"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27062540",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41898404/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

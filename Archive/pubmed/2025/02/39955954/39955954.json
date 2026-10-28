@@ -1,0 +1,246 @@
+{
+  "identity": {
+    "pmid": "39955954",
+    "doi": "10.1016/j.bbrc.2025.151469",
+    "title": "Feature gene selection and functional validation of SH3KBP1 in infantile hemangioma using machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Infantile hemangioma (IH) is a prevalent vascular tumor in infancy with a complex pathogenesis that remains unclear. This study aimed to investigate the underlying mechanisms of IH using comprehensive bioinformatics analyses and in vitro experiments. METHODS: Using GSE127487, we identified differentially expressed genes (DEGs) in IH patients across three age groups (6, 12, and 24 months). GO and KEGG enrichment analyses were performed to identify biological processes and pathways. Immune cell infiltration, transcription factor target genes, miRNA expression, and metabolic pathways were analyzed. WGCNA classified IH patients into clusters, and machine learning algorithms identified key genes. The role of SH3KBP1, the most abundantly expressed gene in the skin, was investigated using shRNA knockdown and functional assays. RESULTS: Gene expression in IH patients exhibited dynamic changes with age. Cellular processes and signaling pathways were consistent in the early proliferative phase, with gradual resolution in the late phase. Immune infiltration analysis revealed reduced immune cells in patients, while Pericytes were increased. NR5A1 was downregulated, while ZNF112, HSF4, and multiple miRNAs were upregulated with age. Metabolic pathways confirmed differences between proliferative and involution phases. WGCNA identified two clusters: Cluster 1 (angiogenesis and signal transduction) and Cluster 2 (metabolic and synthetic processes). Key genes, including SH3KBP1, were identified using machine learning algorithms. In vitro experiments demonstrated SH3KBP1's crucial role in cell migration and invasion. CONCLUSION: This study unravels the gene expression and regulatory mechanisms of IH at different stages, providing new insights into its pathophysiology. SH3KBP1 offers a potential biomarker for future diagnostic and therapeutic strategies.",
+    "keywords": [
+      "Biomarker",
+      "Infantile hemangioma",
+      "Machine learning",
+      "Pathogenesis",
+      "SH3KBP1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "Infant",
+      "*Hemangioma/genetics/pathology/metabolism",
+      "Child, Preschool",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Expression Profiling",
+      "*Adaptor Proteins, Signal Transducing/genetics/metabolism",
+      "Male",
+      "Computational Biology",
+      "MicroRNAs/genetics",
+      "Female",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yin, Jiu",
+        "Gou, Hui",
+        "Qi, Jian",
+        "Xing, Wenli"
+      ],
+      "short_names": [
+        "Yin J",
+        "Gou H",
+        "Qi J",
+        "Xing W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Suining Central Hospital, Suning, 629000, Sichuan, China. Electronic address: yinjiu110@126.com.",
+        "Suining First People's Hospital, Suning, 629000, Sichuan, China. Electronic address: 17828921683@163.com.",
+        "Nanchong Fifth People's Hospital, Nanchong, 637199, Sichuan, China. Electronic address: 979866279@qq.com.",
+        "Suining Central Hospital, Suning, 629000, Sichuan, China. Electronic address: 19911866140@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yin, Jiu",
+        "short_name": "Yin J",
+        "identifiers": [],
+        "affiliations": [
+          "Suining Central Hospital, Suning, 629000, Sichuan, China. Electronic address: yinjiu110@126.com."
+        ]
+      },
+      {
+        "full_name": "Gou, Hui",
+        "short_name": "Gou H",
+        "identifiers": [],
+        "affiliations": [
+          "Suining First People's Hospital, Suning, 629000, Sichuan, China. Electronic address: 17828921683@163.com."
+        ]
+      },
+      {
+        "full_name": "Qi, Jian",
+        "short_name": "Qi J",
+        "identifiers": [],
+        "affiliations": [
+          "Nanchong Fifth People's Hospital, Nanchong, 637199, Sichuan, China. Electronic address: 979866279@qq.com."
+        ]
+      },
+      {
+        "full_name": "Xing, Wenli",
+        "short_name": "Xing W",
+        "identifiers": [],
+        "affiliations": [
+          "Suining Central Hospital, Suning, 629000, Sichuan, China. Electronic address: 19911866140@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical and biophysical research communications"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Res Commun"
+    ],
+    "pub_date": "2025 Mar 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/17 00:21",
+    "fetched_at": "2026-10-05 03:23:36"
+  },
+  "links": {
+    "cites": [
+      "42725068",
+      "42472083",
+      "41959623",
+      "41208840",
+      "41148847"
+    ],
+    "refs": [],
+    "similar": [
+      "39955954",
+      "39286286",
+      "38863714",
+      "39142001",
+      "36181115",
+      "37199314",
+      "40253457",
+      "35501731",
+      "32084582",
+      "40313958",
+      "39897091",
+      "26772808",
+      "35992538",
+      "20069356",
+      "39292333",
+      "38845569",
+      "29724816",
+      "26957058",
+      "38755717",
+      "40196107",
+      "39512836",
+      "39234248",
+      "39139563",
+      "40313967",
+      "38268224",
+      "30851338",
+      "38867322",
+      "37740761",
+      "40129981",
+      "39507054",
+      "35360837",
+      "38596938",
+      "31610202",
+      "39845878",
+      "40328901",
+      "38306011",
+      "38382868",
+      "40258895",
+      "39050860",
+      "39081100",
+      "39697326",
+      "39754246",
+      "39496786",
+      "39806429",
+      "39071134",
+      "39559355",
+      "37854191",
+      "34362467",
+      "39833772",
+      "36740704",
+      "39023471",
+      "40131879",
+      "39206894",
+      "39069636",
+      "39080525",
+      "40312440",
+      "39415336",
+      "38750296",
+      "38686376",
+      "38987624",
+      "39917301",
+      "29095957",
+      "32236623",
+      "31469292",
+      "28438094",
+      "40151199",
+      "39509434",
+      "39375405",
+      "36049413",
+      "39738398",
+      "38767974",
+      "39707377",
+      "39870856",
+      "39068752",
+      "39823156",
+      "39965013",
+      "31987036",
+      "39229380",
+      "29266350",
+      "39998898",
+      "39920860",
+      "28928430",
+      "38711508",
+      "38291374",
+      "33945391",
+      "33519918",
+      "32004974",
+      "39251231",
+      "39418810",
+      "40083558",
+      "39406802",
+      "35620387",
+      "39606015",
+      "30132538",
+      "35182329",
+      "39722894",
+      "34536521",
+      "38062833",
+      "39707003",
+      "40093012"
+    ],
+    "review": [
+      "39955954",
+      "26772808",
+      "38845569",
+      "39023471"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-291X(25)00183-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/birthmarks.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Birthmarks"
+      }
+    ],
+    "text_mined": []
+  }
+}

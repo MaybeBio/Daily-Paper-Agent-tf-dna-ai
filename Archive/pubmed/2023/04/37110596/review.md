@@ -1,0 +1,113 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided by the author
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims relative to the evidence presented, and clarity of presentation. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors report all-atom molecular dynamics simulations of UvsX and RecA dimers bound to ATP and dsDNA at 298 K and 310 K, claiming conserved structural features and catalytic centers, but differential regional flexibility, DNA-binding affinity, and temperature-dependent behavior between the two proteins.
+- **Visible evidence base** Main text figures referenced (Figures 1–8), supplementary figures referenced (Figures S1–S9), sequence alignment data, RMSD/RMSF/Rg/SASA analyses, FEL analysis, MM/GBSA binding free energies, PSN communication paths
+- **Missing materials affecting confidence** Actual figure images, supplementary data files, simulation parameter details (e.g., exact box size, ion concentration, equilibration protocols), PDB validation metrics for the homology model, convergence assessments, error bars or standard deviations for binding free energies, and raw trajectory data
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computational comparative study of two RecA family recombinases, UvsX and RecA, using MD simulations. The work addresses a relevant question regarding the dynamic and binding differences between these proteins. However, the study is largely descriptive, and several key claims are not fully supported by the evidence presented. The homology model of UvsX, which is central to the study, lacks rigorous validation. The binding free energy calculations and their interpretation require more careful statistical treatment. The temperature-dependent claims are based on only two temperatures, which limits generalizability. The communication pathway analysis is preliminary and would benefit from experimental or mutational validation. Overall, the manuscript has merit as a descriptive computational study, but the strength of the conclusions is not commensurate with the evidence provided.
+- **Who would be interested in the results, and why** Researchers in the fields of homologous recombination, DNA repair mechanisms, and structural biology of RecA family proteins. Computational biophysicists interested in protein-DNA interactions and allosteric communication. The comparative nature of the study may also appeal to those studying evolutionary conservation and divergence in protein function.
+- **Major strengths** The study addresses a relatively under-explored protein (UvsX) using a comparative approach with the well-characterized RecA. The use of multiple independent simulations (three per system) is commendable. The analysis includes a range of complementary computational techniques (RMSD, RMSF, Rg, SASA, FEL, MM/GBSA, PSN), providing a multi-faceted view of protein dynamics. The identification of specific residues involved in ATP and DNA binding offers testable hypotheses for future experimental work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the UvsX homology model is reliable based on Ramachandran plot statistics (over 90% of residues in favored regions).
+  - **Evidence pointer** Section 2.1, Figure S2
+  - **Concern** The validation of the UvsX homology model is insufficient. A Ramachandran plot alone is a necessary but not sufficient check for model quality. The authors do not report sequence identity between template and target, template selection criteria, or other validation metrics such as QMEAN, Z-score, or DOPE score comparisons across models. The manuscript states that the model with the lowest DOPE value was selected, but no DOPE values are reported. Furthermore, the authors do not discuss the quality of the modeled L1 and L2 loops, which are critical for DNA binding and are described as missing in the crystal structure.
+  - **Why it matters** The entire study depends on the accuracy of the UvsX model. If the model is incorrect, particularly in the DNA-binding loops, all subsequent analyses of DNA binding, dynamics, and communication pathways are compromised. The lack of rigorous model validation undermines confidence in the core findings.
+  - **Resolution test** Provide a detailed description of the template selection process, report sequence identity/similarity between template and target, and include multiple validation metrics (e.g., QMEAN, ProSA Z-score, DOPE score distribution). Additionally, validate the modeled loops by comparing their conformations to known structures of homologous proteins or by performing a short equilibrium simulation to assess loop stability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that UvsX exhibits "unusually unstable binding to DNA" at 298 K and "almost constant binding" at 310 K, based on MM/GBSA binding free energy calculations.
+  - **Evidence pointer** Section 2.3, Figures S6 and S7
+  - **Concern** The MM/GBSA results are presented without any statistical analysis. No standard deviations, standard errors, or confidence intervals are reported for the binding free energies. The claim of "unstable binding" appears to be based on visual inspection of time series plots (Figures S6 and S7) rather than quantitative analysis. Additionally, the manuscript does not report whether the differences between temperatures and between proteins are statistically significant. The number of snapshots (200 per trajectory) is reasonable, but the analysis of these snapshots is not described in sufficient detail.
+  - **Why it matters** The differential DNA-binding behavior between UvsX and RecA at different temperatures is a central finding of the study. Without proper statistical treatment, the reader cannot assess whether the observed differences are meaningful or within the noise of the calculation. This weakens the main comparative conclusion of the paper.
+  - **Resolution test** Report mean and standard deviation (or standard error) for all binding free energy values. Perform appropriate statistical tests (e.g., t-test or Mann-Whitney U test) to compare conditions. Provide a quantitative definition of "unstable binding" (e.g., fluctuation magnitude, number of binding/unbinding events) and demonstrate that this definition is met with statistical significance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the identified communication pathways between ATP and DNA binding domains (via residues Ile195 in RecA and Thr196 in UvsX) provide insight into the allosteric regulation of these proteins.
+  - **Evidence pointer** Section 2.4, Figure 8
+  - **Concern** The communication pathway analysis is purely descriptive. The authors identify a single residue (Ile195 in RecA, Thr196 in UvsX) as a "significant link" but do not provide any quantitative measure of significance. The PSN analysis is performed on a single structure or averaged over the trajectory, but this is not clearly stated. The biological relevance of these pathways is not tested or discussed in the context of known functional data. The authors do not compare their identified pathways with any experimental mutagenesis data or with known allosteric mechanisms in RecA family proteins.
+  - **Why it matters** The claim of communication between ATP and DNA binding sites is potentially interesting, but without validation or comparison to experimental data, it remains speculative. The significance of identifying a single residue as a "link" is unclear without a statistical framework or functional validation. This weakens the novelty and impact of the finding.
+  - **Resolution test** Provide a quantitative measure of pathway significance (e.g., betweenness centrality, pathway persistence across trajectories). Compare identified pathways with known functional residues from experimental studies. If possible, perform in silico mutagenesis (e.g., alanine scanning) to test the predicted importance of the identified residues.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the simulations reached equilibrium and that the trajectories can be used for subsequent analysis, based on RMSD curves that "tended to be stable in the later parts of the simulation."
+  - **Evidence pointer** Section 2.2, Figure S3
+  - **Concern** The assessment of convergence is superficial. The authors state that RMSD curves are similar and stable but do not provide quantitative convergence criteria. No block averaging, autocorrelation analysis, or split-half analysis is presented. The statement that "the simulation results can be generalized" based on three independent simulations is not justified without demonstrating that the three replicates sample the same ensemble. Additionally, the authors do not report the time at which equilibrium was reached or whether the last 150 ns (after discarding the first 50 ns) is sufficient for convergence.
+  - **Why it matters** All subsequent analyses (RMSF, Rg, SASA, FEP, MM/GBSA, PSN) depend on the assumption that the simulations are equilibrated and sampling the relevant ensemble. If the simulations are not converged, the reported properties may be artifacts of the initial conditions or insufficient sampling. This affects the reliability of all quantitative claims in the paper.
+  - **Resolution test** Provide quantitative convergence metrics, such as block-averaged RMSD with standard errors, autocorrelation times for key observables, or a comparison of the first and second halves of the trajectories. Demonstrate that the three replicates produce statistically indistinguishable distributions of key properties (e.g., RMSD, Rg).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract contains grammatical errors and awkward phrasing that impede comprehension. For example, "their normal operation ensures the stability of the genome and the healthy development of organisms" is vague, and "the simulation of RecA was synchronized with the property comparison learning for UvsX" is unclear.
+  - **Required correction** Revise the abstract for clarity and grammatical correctness. Define key terms (e.g., "property comparison learning") or remove them if not essential.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Section 4.3
+  - **Evidence pointer** Section 4.3
+  - **Issue** The manuscript states that the system was solvated in a cubic box with sides of 1.0 nm. This is likely a typographical error, as a 1.0 nm box would be far too small to contain a protein dimer with DNA. The intended value is probably 1.0 nm as a minimum distance from the solute to the box edge, or a larger box size.
+  - **Required correction** Clarify the box dimensions. If 1.0 nm is the solute-to-edge distance, state this explicitly. If it is the box side length, correct the value.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Section 4.3
+  - **Evidence pointer** Section 4.3
+  - **Issue** The force field is described as "Amber14sb_parmbsc1." This is ambiguous. The parmbsc1 force field is a refinement for nucleic acids and is typically used in combination with a protein force field such as ff14SB. The authors should specify the exact combination of protein and nucleic acid force fields used.
+  - **Required correction** Specify the exact force field combination, e.g., "ff14SB for protein and parmbsc1 for DNA."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Section 4.5
+  - **Evidence pointer** Section 4.5
+  - **Issue** The MM/GBSA calculations are described as using 200 snapshots with a time interval of 1 ns. This implies that the entire 200 ns trajectory is used, including the first 50 ns that the authors state were discarded for equilibration. This is inconsistent.
+  - **Required correction** Clarify whether the first 50 ns were excluded from the MM/GBSA analysis. If so, specify the correct snapshot selection (e.g., 150 snapshots from 50–200 ns).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, Section 3
+  - **Evidence pointer** Section 3
+  - **Issue** The discussion of the biological implications of the temperature-dependent differences is speculative and not well-grounded in the physiological context. The authors mention that UvsX is important for T4 phage infection but do not explain how the observed temperature-dependent DNA binding relates to the phage life cycle or to the temperature conditions of the host.
+  - **Required correction** Provide a more focused discussion of the biological relevance of the temperature-dependent behavior, or temper the claims to match the level of evidence.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The statement "The reason for this discrepancy might be discovered in the subsequent detailed conformation diagrams" is vague and does not guide the reader to the relevant figures or analysis.
+  - **Required correction** Either point to the specific figure or analysis that addresses the discrepancy, or remove the statement.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Section 4.1
+  - **Evidence pointer** Section 4.1
+  - **Issue** The docking protocol is described briefly, but the authors do not report the docking results (e.g., binding energies, cluster analysis) or how the docked pose was selected for subsequent MD simulations. This is important for reproducibility.
+  - **Required correction** Report the docking scores for the selected poses and describe the selection criteria.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Section 2.3
+  - **Evidence pointer** Section 2.3, Figures 5 and 6
+  - **Issue** The residue numbering for UvsX is not clearly defined. The authors refer to residues such as Lys63-Ser67 and Thr200, but it is unclear whether these numbers correspond to the full-length UvsX sequence or to the modeled construct. This is important for interpreting the results.
+  - **Required correction** Clarify the residue numbering scheme and provide a sequence alignment figure with clear numbering for both proteins.
+
+## Risk / unsupported claims
+- The claim that UvsX has a "looser conformation and greater exposure to solvent" than RecA is based on Rg and SASA values, but no statistical comparison is provided. The differences may not be significant.
+- The claim that "both recombinant enzymes bind more strongly to ATP at 310 K" is based on MM/GBSA calculations without error estimates. The difference may be within calculation uncertainty.
+- The claim that the identified communication pathways (Ile195 in RecA, Thr196 in UvsX) are functionally relevant is unsupported by any experimental or mutational data.
+- The claim that the UvsX model is reliable based on Ramachandran plot statistics alone is insufficient. The model quality is not rigorously established.
+- The claim that the simulations are converged and representative is not quantitatively demonstrated.
+- The statement that "the two temperatures have an opposite effect on the two proteins binding DNA" is a strong conclusion drawn from a limited set of simulations at only two temperatures, without statistical validation.

@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided; no figures, tables, or supplementary materials were available for inspection.
+- **Assessment boundary** Assessment is limited to the written claims and methodological descriptions as presented. Figures, tables, and supplementary files referenced in the text were not provided and therefore could not be independently evaluated.
+- **Shared manuscript claim summary** The authors propose that cancer-specific α2-6 sialylation of IGF1R at residue N607, mediated by ST6GAL1, impairs binding of the therapeutic monoclonal antibody ganitumab, thereby contributing to clinical resistance. They further propose that enzymatic or pharmacological removal of sialic acids enhances ganitumab binding and efficacy, and that ST6GAL1 expression or IGF1R N607 sialylation status could serve as patient stratification biomarkers.
+- **Visible evidence base** Text descriptions of in vitro binding assays, clonogenic survival assays, immunoprecipitation, lectin pulldown, mass spectrometry-based glycoproteomics, AlphaFold3 structural prediction, molecular dynamics simulations, xenograft mouse models, and patient tissue immunohistochemistry. No actual data, numerical values, or statistical outputs are visible in the provided material.
+- **Missing materials affecting confidence** All figures, supplementary figures, tables (including Table S1 and S2), raw mass spectrometry data, statistical outputs, and detailed experimental results. The absence of these materials substantially limits the ability to verify the claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a clinically important problem, namely the failure of anti-IGF1R monoclonal antibodies in oncology, and proposes a mechanistically plausible explanation involving site-specific sialylation. The hypothesis is well motivated, and the combination of biochemical, structural, computational, in vivo, and patient-derived evidence is ambitious and potentially impactful. However, the provided text alone does not allow verification of the central claims. Key quantitative data, representative images, statistical analyses, and methodological details are referenced but not visible. The claim of tumor specificity rests on a single normal cell line comparison, and the clinical correlation analysis is described only in narrative form. The manuscript is therefore promising but not yet established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in cancer biology, glycobiology, and antibody therapeutics would find these results of interest. The work has direct relevance to ongoing clinical development of IGF1R-targeted agents and to the broader question of how post-translational modifications modulate antibody-drug interactions. Clinicians involved in ovarian cancer trials and translational researchers focused on patient stratification biomarkers would also be interested.
+- **Major strengths** The study addresses a clinically significant and unresolved problem with a clear hypothesis. The combination of multiple complementary approaches, including in vivo models, patient tissue analysis, and molecular dynamics simulation, is commendable. The identification of a specific glycosylation site and the demonstration of tumor specificity, if confirmed, would represent a meaningful advance. The potential for patient stratification based on ST6GAL1 expression is clinically actionable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that sialylation of IGF1R significantly decreases recognition by ganitumab across various cancer types, reducing efficacy in vitro and in vivo.
+  - **Evidence pointer** Results section, Figures 1a-d; location not provided
+  - **Concern** The text describes results but provides no visible quantitative data, representative images, or statistical outputs. The claim of efficacy reduction in vivo is based on bioluminescence imaging and nodule counts, but no numerical values, effect sizes, or significance levels are presented. The in vitro binding data are described qualitatively. Without access to the actual data, the strength and reproducibility of these effects cannot be assessed.
+  - **Why it matters** The central premise of the manuscript, that sialylation impairs ganitumab binding and efficacy, must be rigorously supported by quantitative evidence. If the effect sizes are small or variable, the clinical relevance would be diminished.
+  - **Resolution test** Provide the actual data for Figures 1a-d, including numerical values, error bars, statistical tests used, and significance levels. Show representative images for bioluminescence, immunoprecipitation, and clonogenic assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that sialylated IGF1R is virtually absent in normal cells, indicating tumor-specific modification.
+  - **Evidence pointer** Results section, Figure 2f; location not provided
+  - **Concern** The claim of tumor specificity is based on a single normal cell line (OSE) compared to cancer cell lines. This is insufficient to establish tumor specificity. Normal tissues comprise multiple cell types, and a single cell line cannot represent the diversity of normal physiology. Additionally, the patient tissue data described in Figure 1e and Supplementary Figures S1g-h are not shown.
+  - **Why it matters** The tumor specificity of the sialylation is a key claim with implications for therapeutic targeting. If normal cells also express sialylated IGF1R, the proposed therapeutic window would be narrower.
+  - **Resolution test** Include additional normal cell lines and, ideally, normal tissue sections. Show the patient tissue data with and without sialidase treatment, with quantification and statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that ST6GAL1 is responsible for sialylation of IGF1R and that ST6GAL1-high tumors are more likely to benefit from desialylation-mediated enhancement of ganitumab binding.
+  - **Evidence pointer** Results section, Figures 3a-d and Supplementary Figure S4; location not provided
+  - **Concern** The text states that ST6GAL1 knockout increased immunoprecipitation and inhibition of IGF1R by ganitumab, but no data are shown. The correlation analysis between ST6GAL1 expression and ganitumab binding enhancement is described only narratively. The stratification of tumors into high and low ST6GAL1 groups is not accompanied by any visible data, cutoffs, or statistical validation.
+  - **Why it matters** The patient stratification claim is a major translational contribution. Without visible data demonstrating a significant correlation, the clinical utility of ST6GAL1 as a biomarker is not established.
+  - **Resolution test** Show the ST6GAL1 knockout data, the correlation plot with statistical values, and the H-score distributions for high and low ST6GAL1 groups.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that N607 glycosylation destabilizes the IGF1R-ganitumab complex based on molecular dynamics simulations.
+  - **Evidence pointer** Results section, Figure 4b; location not provided
+  - **Concern** The MD simulation is described as showing higher RMSD values for the glycosylated complex, but no simulation details, convergence criteria, replicate numbers, or error estimates are provided. The choice of a single glycan structure and the force field parameters are not discussed. The statistical significance of RMSD differences is not addressed.
+  - **Why it matters** The MD simulation is used to support the mechanistic explanation. If the simulation is not robust or the differences are within thermal fluctuations, the mechanistic claim is weakened.
+  - **Resolution test** Provide detailed simulation parameters, convergence analysis, replicate simulations, and statistical comparison of RMSD distributions. Show representative simulation snapshots or distance plots.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the effect is specific to sialylation and not fucosylation, based on inhibitor studies.
+  - **Evidence pointer** Results section, Supplementary Figures S1a-b; location not provided
+  - **Concern** The specificity claim relies on the use of chemical inhibitors. The text does not describe the concentrations used, the specificity of the inhibitors, or whether off-target effects were assessed. The fucosylation data are only mentioned in a supplementary figure.
+  - **Why it matters** The specificity of the effect is important for the mechanistic interpretation. If the inhibitors have off-target effects, the conclusion that sialylation specifically is responsible would be less certain.
+  - **Resolution test** Provide inhibitor concentrations, validation of inhibitor specificity, and show the fucosylation data with appropriate controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction; location not provided
+  - **Issue** The abstract states that sialylation is "virtually absent in normal cells," but the evidence for this is limited to one normal cell line. This overstatement should be tempered.
+  - **Required correction** Revise to "absent in the normal cell line tested" or provide additional evidence for tumor specificity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods, Mass spectrometry
+  - **Evidence pointer** Materials and Methods, Mass spectrometry section; location not provided
+  - **Issue** The mass spectrometry method description lacks details on the number of biological replicates, the criteria for glycan assignment, and the false discovery rate control.
+  - **Required correction** Add details on replicates, assignment criteria, and FDR control.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Materials and Methods, Statistical analysis
+  - **Evidence pointer** Materials and Methods, Statistical analysis; location not provided
+  - **Issue** The statistical methods section is brief. It does not specify which tests were used for which experiments, how normality was assessed, or how multiple comparisons were handled beyond the mention of one-way ANOVA.
+  - **Required correction** Provide a more detailed statistical analysis plan, including specific tests for each figure panel.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Figure 3f
+  - **Evidence pointer** Results section, Figure 3f; location not provided
+  - **Issue** The text refers to "Figure 3f" for the clonogenic assay with the N607Q mutant, but the figure numbering appears inconsistent with the narrative flow (Figure 3 is described as ST6GAL1-related, while the N607Q experiments are described later).
+  - **Required correction** Ensure figure numbering is consistent and logical throughout the manuscript.
+- **Technical failings that need to be addressed before the case is established** The absence of visible quantitative data for all key experiments, the limited normal cell comparison for tumor specificity, the lack of detailed MD simulation validation, and the incomplete description of statistical methods are the primary technical issues. These must be addressed before the claims can be considered established.
+- **Assessment against Nature-style criteria**  
+  *Originality*: The concept of site-specific sialylation of IGF1R as a resistance mechanism to therapeutic antibodies is novel and not previously described. The identification of N607 as a specific site is a new contribution.  
+  *Scientific importance*: If confirmed, the findings could explain the failure of anti-IGF1R therapies and provide a rationale for patient stratification. This is of high importance to the oncology community.  
+  *Interdisciplinary readership*: The work bridges glycobiology, cancer biology, structural biology, and clinical translation. It would appeal to a broad readership.  
+  *Technical soundness*: The combination of methods is appropriate, but the lack of visible data and incomplete methodological details prevent a full assessment of technical soundness.  
+  *Readability for nonspecialists*: The manuscript is generally well written and accessible, though some sections assume familiarity with glycobiology and structural simulation terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The hypothesis is compelling and the experimental approach is comprehensive, but the current submission does not provide sufficient visible evidence to establish the claims. The authors should be encouraged to resubmit with complete data, additional normal controls, and more detailed methodological and statistical descriptions.
+
+## Risk / unsupported claims
+- The claim that sialylation of IGF1R is "tumor-specific" is unsupported by the visible evidence, which includes only one normal cell line.
+- The claim that ST6GAL1-high tumors are more likely to benefit from desialylation is not supported by visible data.
+- The claim that N607 glycosylation destabilizes the IGF1R-ganitumab complex is based on MD simulations that are not described in sufficient detail to assess their validity.
+- The clinical relevance of the findings, while plausible, is not established from the provided patient data descriptions.
+- The statement that "sialylation represents a common barrier in IGF1R-targeted therapies" is a generalization that extends beyond the data presented, which focus on ovarian cancer and a limited set of other cancer cell lines.

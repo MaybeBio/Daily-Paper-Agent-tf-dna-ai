@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2106.13634v1",
+  "title": "Multi-scale Poisson process approaches for differential expression analysis of high-throughput sequencing data",
+  "authors": "Heejung Shim; Zhengrong Xing; Ester Pantaleo; Francesca Luca; Roger Pique-Regi; Matthew Stephens",
+  "journal": "",
+  "published_date": "2021-06-25",
+  "window": {
+    "start": "2021-06-21",
+    "end": "2021-06-27"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出多尺度泊松过程方法用于高通量测序数据的差异表达分析，虽涉及转录因子结合表型，但核心是统计推断而非蛋白质-DNA互作建模，且无AI或物理模拟方法，与课题关联较弱。",
+  "abstract": "Estimating and testing for differences in molecular phenotypes (e.g. gene expression, chromatin accessibility, transcription factor binding) across conditions is an important part of understanding the molecular basis of gene regulation. These phenotypes are commonly measured using high-throughput sequencing assays (e.g., RNA-seq, ATAC-seq, ChIP-seq), which provide high-resolution count data that reflect how the phenotypes vary along the genome. Multiple methods have been proposed to help exploit these high-resolution measurements for differential expression analysis. However, they ignore the count nature of the data, instead using normal approximations that work well only for data with large sample sizes or high counts. Here we develop count-based methods to address this problem. We model the data for each sample using an inhomogeneous Poisson process with spatially structured underlying intensity function, and then, building on multi-scale models for the Poisson process, estimate and test for differences in the underlying intensity function across samples (or groups of samples). Using both simulation and real ATAC-seq data we show that our method outperforms previous normal-based methods, especially in situations with small sample sizes or low counts.",
+  "abstract_zh": "估计和检验分子表型（如基因表达、染色质可及性、转录因子结合）在不同条件下的差异，是理解基因调控分子基础的重要部分。这些表型通常通过高通量测序实验（如RNA-seq、ATAC-seq、ChIP-seq）进行测量，这些实验提供高分辨率计数数据，反映表型沿基因组的变化情况。已有多种方法被提出，以利用这些高分辨率测量进行差异表达分析。然而，这些方法忽略了数据的计数性质，而是采用正态近似，这种方法仅适用于样本量较大或计数较高的数据。在此，我们开发了基于计数的方法来解决这一问题。我们使用具有空间结构底层强度函数的非齐次泊松过程对每个样本的数据进行建模，然后基于泊松过程的多尺度模型，估计并检验样本（或样本组）间底层强度函数的差异。通过模拟和真实ATAC-seq数据，我们证明我们的方法优于先前基于正态的方法，尤其是在样本量较小或计数较低的情况下。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2106.13634v1",
+  "source_url": "https://arxiv.org/abs/2106.13634v1",
+  "paper_page_path": "papers/arxiv/2106.13634v1/index.html"
+}

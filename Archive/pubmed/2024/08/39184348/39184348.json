@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "39184348",
+    "doi": "10.3389/fgene.2024.1444459",
+    "title": "TF-EPI: an interpretable enhancer-promoter interaction detection method based on Transformer."
+  },
+  "content": {
+    "abstract": "The detection of enhancer-promoter interactions (EPIs) is crucial for understanding gene expression regulation, disease mechanisms, and more. In this study, we developed TF-EPI, a deep learning model based on Transformer designed to detect these interactions solely from DNA sequences. The performance of TF-EPI surpassed that of other state-of-the-art methods on multiple benchmark datasets. Importantly, by utilizing the attention mechanism of the Transformer, we identified distinct cell type-specific motifs and sequences in enhancers and promoters, which were validated against databases such as JASPAR and UniBind, highlighting the potential of our method in discovering new biological insights. Moreover, our analysis of the transcription factors (TFs) corresponding to these motifs and short sequence pairs revealed the heterogeneity and commonality of gene regulatory mechanisms and demonstrated the ability to identify TFs relevant to the source information of the cell line. Finally, the introduction of transfer learning can mitigate the challenges posed by cell type-specific gene regulation, yielding enhanced accuracy in cross-cell line EPI detection. Overall, our work unveils important sequence information for the investigation of enhancer-promoter pairs based on the attention mechanism of the Transformer, providing an important milestone in the investigation of cis-regulatory grammar.",
+    "keywords": [
+      "Transformer",
+      "attention mechanism",
+      "enhancer-promoter interactions",
+      "motif discovery",
+      "transfer learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Bowen",
+        "Zhang, Weihang",
+        "Zeng, Xin",
+        "Loza, Martin",
+        "Park, Sung-Joon",
+        "Nakai, Kenta"
+      ],
+      "short_names": [
+        "Liu B",
+        "Zhang W",
+        "Zeng X",
+        "Loza M",
+        "Park SJ",
+        "Nakai K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, University of Tokyo, Tokyo, Japan.",
+        "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, University of Tokyo, Tokyo, Japan.",
+        "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, University of Tokyo, Tokyo, Japan.",
+        "Human Genome Center, Institute of Medical Science, University of Tokyo, Tokyo, Japan.",
+        "Human Genome Center, Institute of Medical Science, University of Tokyo, Tokyo, Japan.",
+        "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, University of Tokyo, Tokyo, Japan.",
+        "Human Genome Center, Institute of Medical Science, University of Tokyo, Tokyo, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Bowen",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Zhang, Weihang",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Zeng, Xin",
+        "short_name": "Zeng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Loza, Martin",
+        "short_name": "Loza M",
+        "identifiers": [],
+        "affiliations": [
+          "Human Genome Center, Institute of Medical Science, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Park, Sung-Joon",
+        "short_name": "Park SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Human Genome Center, Institute of Medical Science, University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Nakai, Kenta",
+        "short_name": "Nakai K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, University of Tokyo, Tokyo, Japan.",
+          "Human Genome Center, Institute of Medical Science, University of Tokyo, Tokyo, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/26 12:42",
+    "fetched_at": "2026-09-30 01:48:35"
+  },
+  "links": {
+    "cites": [
+      "41697918",
+      "40772277",
+      "40515390"
+    ],
+    "refs": [
+      "38504114",
+      "37488417",
+      "36370105",
+      "36361852",
+      "35062021",
+      "34680352",
+      "34608324",
+      "34399797",
+      "34174819",
+      "34113473",
+      "33828297",
+      "33594051",
+      "33538820",
+      "33096548",
+      "33046897",
+      "33046896",
+      "31969180",
+      "31701148",
+      "31086298",
+      "30562350",
+      "30517703",
+      "30262496",
+      "30010637",
+      "27064255",
+      "26338778",
+      "25757416",
+      "25497547",
+      "22495300",
+      "22018398",
+      "20110278",
+      "19890323",
+      "17324271",
+      "14757645",
+      "10497252",
+      "9624006"
+    ],
+    "similar": [
+      "39184348",
+      "41861881",
+      "35633468",
+      "40772277",
+      "38890584",
+      "40869356",
+      "42475469",
+      "40902506",
+      "39546160",
+      "36520922",
+      "41675661",
+      "34473626",
+      "34486522",
+      "41319043",
+      "33160328",
+      "41697918",
+      "41031058",
+      "35062021",
+      "33096548",
+      "31318408",
+      "38485768",
+      "40515390",
+      "40036975",
+      "32770026",
+      "36043696",
+      "30709337",
+      "33425492",
+      "31905774",
+      "27490187",
+      "33137083",
+      "34573367",
+      "35820811",
+      "34570239",
+      "33234095",
+      "32226593",
+      "33950192",
+      "42099803",
+      "36671456",
+      "40457173",
+      "29363433",
+      "35130376",
+      "37144127",
+      "37474674",
+      "32054475",
+      "24714811",
+      "25559499",
+      "34272562",
+      "39337329",
+      "41877008",
+      "36715222",
+      "31372637",
+      "22534400",
+      "40105319",
+      "41478195",
+      "30142147",
+      "39766779",
+      "35241702",
+      "30649185",
+      "39131276",
+      "31588505",
+      "42140663",
+      "19956545",
+      "40205063",
+      "37312570",
+      "38139375",
+      "36941077",
+      "39519295",
+      "28881991",
+      "29476833",
+      "34113473",
+      "37805453",
+      "29764360",
+      "41039989",
+      "41832145",
+      "38430611",
+      "25428352",
+      "39096613",
+      "42244099",
+      "41768065",
+      "37348298",
+      "15287978",
+      "28716036",
+      "34174819",
+      "36891511",
+      "41359035",
+      "38014229",
+      "23497159",
+      "35551305",
+      "40240607",
+      "30423062",
+      "39326643",
+      "31742324",
+      "41426306",
+      "40472848",
+      "26486725",
+      "31181110",
+      "17764576",
+      "23497388",
+      "36321557",
+      "40778316"
+    ],
+    "review": [
+      "39184348",
+      "41675661",
+      "33234095",
+      "32226593",
+      "37312570",
+      "41768065",
+      "31742324"
+    ],
+    "pmc": [
+      "11341371"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39184348/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2024.1444459",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:39184348",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

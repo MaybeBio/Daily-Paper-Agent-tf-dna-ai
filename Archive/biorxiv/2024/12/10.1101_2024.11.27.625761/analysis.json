@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.27.625761",
+  "title": "Nucleotide GPT: Sequence-Based Deep Learning Prediction of Nuclear Subcompartment-Associated Genome Architecture",
+  "authors": "Mclaughlin SM; Ahanger SH; Lim DA",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-03",
+  "window": {
+    "start": "2024-12-02",
+    "end": "2024-12-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用Transformer模型从DNA序列预测核亚区室关联，虽涉及TF结合位点预测但非核心，属广义蛋白-DNA互作相关且方法可迁移，故评5分。",
+  "abstract": "The spatial organization of the genome within the nucleus is partially determined by its interactions with distinct nuclear subcompartments, such as the nuclear lamina and nuclear speckles, which play key roles in gene regulation during development. However, whether these genome-nuclear subcompartment interactions are encoded in the underlying DNA sequence remains poorly understood. The mechanisms for gene regulation are primarily encoded in noncoding DNA sequences, but deciphering how these sequence features control gene expression remains a significant challenge in genomics. Here, we present Nucleotide GPT, a transformer-based model that predicts genomic associations with spatially distinct, physical nuclear subcompartments from DNA sequence alone. Pre-trained on a diverse set of multi-species genomes, we demonstrate Nucleotide GPT’s genomic understanding through evaluation on diverse prediction tasks, including histone modifications, promoter detection, and transcription factor binding sites. When finetuned to predict genome interactions with two separate nuclear subcompartments – the lamina of the inner nuclear membrane and nuclear speckles that lie more interior – Nucleotide GPT achieves an average accuracy of 73.6% for lamina-associated domains (LADs) and 79.4% accuracy for speckle-associated domains (SPADs), averaged across three cortical development cell types. Analysis of the model’s learned representations through Uniform Manifold Approximation and Projection (UMAP) reveals that Nucleotide GPT develops internal embeddings that effectively distinguish LADs from inter-LADs, with predicted probabilities closely corresponding to experimentally determined LAD classifications. When examining these representations in the context of cell type-invariant constitutive LADs (cLADs) compared to cell type-specific LADs, the model assigns lower confidence scores to cell type-specific LADs compared to cLADs that are conserved across neuronal differentiation, suggesting sequence features may play a stronger role in maintaining cLAD associations. Examination of the model’s attention patterns at correctly classified regions suggests that specific sequence elements govern model decision making about nuclear subcompartment associations. Our results demonstrate the utility of transformer architectures for studying three-dimensional (3D) genome organization and substantiate a role for DNA sequence in determining nuclear subcompartment associations.",
+  "abstract_zh": "细胞核内基因组的空间组织部分由其与不同核亚区室（如核纤层和核斑点）的相互作用决定，这些相互作用在发育过程中的基因调控中发挥关键作用。然而，这些基因组-核亚区室相互作用是否编码在底层DNA序列中，仍知之甚少。基因调控机制主要编码在非编码DNA序列中，但解读这些序列特征如何控制基因表达仍是基因组学中的重大挑战。在此，我们提出Nucleotide GPT，一种基于Transformer的模型，仅从DNA序列预测与空间上不同的物理核亚区室的基因组关联。该模型在多种多物种基因组上预训练，我们通过评估多种预测任务（包括组蛋白修饰、启动子检测和转录因子结合位点）展示了Nucleotide GPT的基因组理解能力。当微调以预测基因组与两个独立核亚区室——内核膜纤层和更靠内部的核斑点——的相互作用时，Nucleotide GPT在三种皮层发育细胞类型中，对纤层相关结构域（LADs）的平均准确率为73.6%，对斑点相关结构域（SPADs）的平均准确率为79.4%。通过均匀流形逼近与投影（UMAP）对模型学习到的表示进行分析，揭示Nucleotide GPT发展出内部嵌入，能有效区分LADs与inter-LADs，预测概率与实验确定的LAD分类紧密对应。当在细胞类型不变的组成型LADs（cLADs）与细胞类型特异性LADs的背景下检查这些表示时，模型对细胞类型特异性LADs分配的置信度分数低于在神经元分化中保守的cLADs，这表明序列特征可能在维持cLAD关联中发挥更强作用。对模型在正确分类区域注意力模式的检查表明，特定序列元件主导模型关于核亚区室关联的决策。我们的结果证明了Transformer架构在研究三维（3D）基因组组织中的实用性，并证实了DNA序列在决定核亚区室关联中的作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.27.625761",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.27.625761",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.27.625761/index.html"
+}

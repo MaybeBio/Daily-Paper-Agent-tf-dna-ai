@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "41589601",
+    "doi": "10.1002/advs.202513099",
+    "title": "DualPG-DTA: A Large Language Model-Powered Graph Neural Network Framework for Enhanced Drug-Target Affinity Prediction and Discovery of Novel CDK9 Inhibitors Exhibiting In Vivo Anti-Leukemia Activity."
+  },
+  "content": {
+    "abstract": "Accurate prediction of drug-target interactions constitutes a crucial foundation for drug discovery. DualPG-DTA is presented, a general framework for binding affinity prediction that integrates two pre-trained language models to generate atomic-level molecular representations and residue-level protein embeddings. The architecture constructs dual molecular-protein graphs processed through dedicated graph neural networks equipped with dynamic attention mechanisms to extract context-aware sequence-level features, which are fused via a multimodal module for affinity predictions. Benchmark results show that DualPG-DTA consistently outperforms existing models across all metrics. Applied to CDK9 inhibitor discovery, the framework is used to develop robust regression/classification models and identified compound C1 as a novel CDK9 inhibitor with an IC(50) of 1.2 nM. C1 demonstrates exceptional CDK family selectivity alongside optimal pharmacokinetic properties, including prolonged half-life, adequate clearance, robust plasma exposure, and oral bioavailability. Notably, oral C1 demonstrated potent antitumor efficacy in a Venetoclax-resistant MV4-11 acute myeloid leukemia (AML) xenograft model, with concurrent demonstration of favorable tolerability and safety profiles. Collectively, the study not only establishes a unified framework for precise binding affinity prediction but also identifies C1 as a highly promising therapeutic lead targeting CDK9 to conquer Venetoclax resistance in AML.",
+    "keywords": [
+      "CDK9",
+      "Drug-target binding affinity prediction",
+      "graph neural networks",
+      "inhibitor",
+      "pre-training",
+      "virtual screening"
+    ],
+    "mesh_terms": [
+      "*Cyclin-Dependent Kinase 9/antagonists & inhibitors",
+      "Humans",
+      "Graph Neural Networks",
+      "*Drug Discovery/methods",
+      "*Protein Kinase Inhibitors/pharmacology/therapeutic use",
+      "Animals",
+      "Large Language Models",
+      "Mice",
+      "*Antineoplastic Agents/pharmacology/therapeutic use",
+      "*Leukemia/drug therapy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yihao",
+        "Huang, Jindi",
+        "Liu, Cong",
+        "Zhang, Shipeng",
+        "Li, Xinze",
+        "Zhang, Zhang",
+        "Chen, Tie-Gen",
+        "Wang, Ling"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Huang J",
+        "Liu C",
+        "Zhang S",
+        "Li X",
+        "Zhang Z",
+        "Chen TG",
+        "Wang L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5116-7749"
+      ],
+      "affiliations": [
+        "Joint International Research Laboratory of Synthetic Biology and Medicine, Ministry of Education, Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou, 510006, China.",
+        "Joint International Research Laboratory of Synthetic Biology and Medicine, Ministry of Education, Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou, 510006, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, School of Pharmacy, Jinan University, Guangzhou, 510632, China.",
+        "International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education, Guangzhou City Key Laboratory of Precision Chemical Drug Development, School of Pharmacy, Jinan University, Guangzhou, 510632, China.",
+        "Joint International Research Laboratory of Synthetic Biology and Medicine, Ministry of Education, Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou, 510006, China.",
+        "Joint International Research Laboratory of Synthetic Biology and Medicine, Ministry of Education, Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou, 510006, China.",
+        "State Key Laboratory of Bioactive Molecules and Druggability Assessment, School of Pharmacy, Jinan University, Guangzhou, 510632, China.",
+        "International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education, Guangzhou City Key Laboratory of Precision Chemical Drug Development, School of Pharmacy, Jinan University, Guangzhou, 510632, China.",
+        "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, 528400, China.",
+        "Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China.",
+        "Joint International Research Laboratory of Synthetic Biology and Medicine, Ministry of Education, Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou, 510006, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yihao",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Joint International Research Laboratory of Synthetic Biology and Medicine, Ministry of Education, Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou, 510006, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jindi",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Joint International Research Laboratory of Synthetic Biology and Medicine, Ministry of Education, Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou, 510006, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Cong",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, School of Pharmacy, Jinan University, Guangzhou, 510632, China.",
+          "International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education, Guangzhou City Key Laboratory of Precision Chemical Drug Development, School of Pharmacy, Jinan University, Guangzhou, 510632, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shipeng",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Joint International Research Laboratory of Synthetic Biology and Medicine, Ministry of Education, Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou, 510006, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xinze",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Joint International Research Laboratory of Synthetic Biology and Medicine, Ministry of Education, Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou, 510006, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhang",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Molecules and Druggability Assessment, School of Pharmacy, Jinan University, Guangzhou, 510632, China.",
+          "International Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Discovery of Chinese Ministry of Education, Guangzhou City Key Laboratory of Precision Chemical Drug Development, School of Pharmacy, Jinan University, Guangzhou, 510632, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Tie-Gen",
+        "short_name": "Chen TG",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Zhongshan, 528400, China.",
+          "Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai, 201203, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ling",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0000-0001-5116-7749"
+        ],
+        "affiliations": [
+          "Joint International Research Laboratory of Synthetic Biology and Medicine, Ministry of Education, Guangdong Provincial Key Laboratory of Fermentation and Enzyme Engineering, Guangdong Provincial Engineering and Technology Research Center of Biopharmaceuticals, School of Biology and Biological Engineering, South China University of Technology, Guangzhou, 510006, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/27 12:59",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [
+      "42461227",
+      "42192700",
+      "42073351"
+    ],
+    "refs": [
+      "40556781",
+      "40428123",
+      "40143108",
+      "40007773",
+      "38552281",
+      "38141210",
+      "37976593",
+      "37852036",
+      "37610162",
+      "37000857",
+      "36549969",
+      "36124766",
+      "36087428",
+      "35471889",
+      "34929738",
+      "34477384",
+      "34265844",
+      "33866349",
+      "33360998",
+      "33119053",
+      "32296028",
+      "29949957",
+      "29291023",
+      "29086119",
+      "24723570",
+      "24521231",
+      "22037378",
+      "17166826",
+      "15972445"
+    ],
+    "similar": [
+      "41589601",
+      "31872348",
+      "41285097",
+      "42050415",
+      "42541540",
+      "41973256",
+      "38365583",
+      "32447197",
+      "40690748",
+      "37176031",
+      "37572539",
+      "41441912",
+      "42053777",
+      "30194564",
+      "42476249",
+      "42320115",
+      "34477384",
+      "40811402",
+      "30253346",
+      "38552281",
+      "41540516",
+      "41222841",
+      "41299450",
+      "39321746",
+      "42475469",
+      "40019659",
+      "36087428",
+      "40811270",
+      "39833138",
+      "31238183",
+      "40215944",
+      "39406109",
+      "39947929",
+      "41066447",
+      "41410431",
+      "41474730",
+      "42295634",
+      "40544651",
+      "29471852",
+      "39178382",
+      "41814546",
+      "31827241",
+      "40383016",
+      "41636346",
+      "42131843",
+      "40481301",
+      "40795814",
+      "42450193",
+      "40068407",
+      "39208057",
+      "42334640",
+      "34264057",
+      "32645016",
+      "39133595",
+      "42478599",
+      "36071406",
+      "39772628",
+      "31376566",
+      "41820521",
+      "42166265",
+      "38885173",
+      "39792322",
+      "33306391",
+      "41547300",
+      "42001823",
+      "41534433",
+      "41077294",
+      "39808974",
+      "41913214",
+      "23775716",
+      "41807414",
+      "42288985",
+      "38878756",
+      "42450132",
+      "34445696",
+      "42133861",
+      "41596767",
+      "41961394",
+      "31612739",
+      "35715739",
+      "39772543",
+      "40966797",
+      "41370157",
+      "34647738",
+      "26627013",
+      "41381639",
+      "41260778",
+      "41239996",
+      "40994189",
+      "40790157",
+      "41199760",
+      "41233668",
+      "41547391",
+      "40663653",
+      "40392624",
+      "41564724",
+      "35033885",
+      "38099302",
+      "35605362",
+      "39350770"
+    ],
+    "review": [
+      "41589601",
+      "29471852",
+      "31612739"
+    ],
+    "pmc": [
+      "12948262"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/leukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Leukemia"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41589601/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1602",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

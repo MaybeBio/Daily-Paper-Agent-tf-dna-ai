@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-x3r3z-v3",
+  "title": "Doing More with Less: Accurate and Scalable Ligand Free Energy Calculations by Focusing on the Binding Site",
+  "authors": "David Alencar Araripe; Alejandro Díaz Holguín; Antti Poso; Gerard J.P. van Westen; Johan Åqvist; Hugo Gutiérrez-de-Terán; Willem Jespers",
+  "journal": "ChemRxiv",
+  "published_date": "2025-12-02",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 4,
+  "one_liner_zh": "该文介绍QligFEP平台，用球形边界条件聚焦结合位点加速配体自由能计算，虽涉及结合位点但对象为小分子-蛋白，非蛋白质-DNA互作，方法可迁移性有限。",
+  "abstract": "Predicting how chemical modifications affect drug binding is central to rational drug design. Free Energy Perturbation (FEP) calculations provide accurate estimates of these binding affinity changes, but existing methods often require substantial computational resources and expert knowledge. Here we present QligFEP v2.1.0, an automated open-source platform for calculating relative binding free energies using spherical boundary conditions (SBC), which dramatically reduces computational cost by confining simulations to a focused region around the binding site. QligFEP features a configurable restraint algorithm that automatically handles diverse chemical transformations, streamlined setup procedures, and enhanced analysis tools. We validated the method using industry benchmarks comprising 16 protein targets and 639 ligand transformations. Statistical analysis demonstrates that QligFEP achieves comparable accuracy to established commercial and open-source alternatives, while requiring only a fraction of the computational resources. The perturbation protocol simulates ~6250 atoms per perturbation leg and completes transformation replicates in under 2 hours on standard computational clusters, which is substantially faster than traditional full-system simulations, and currently would cost less than $1 on current AWS spot instances. The combination of accuracy, automation, and computational efficiency positions QligFEP as a practical solution for accelerating compound optimization in drug discovery, making rigorous binding affinity predictions accessible for large scale applications and to research groups with limited computational infrastructure.",
+  "abstract_zh": "预测化学修饰如何影响药物结合是理性药物设计的核心。自由能微扰（Free Energy Perturbation, FEP）计算能提供这些结合亲和力变化的准确估计，但现有方法通常需要大量计算资源和专业知识。在此，我们介绍QligFEP v2.1.0，一个自动化的开源平台，用于使用球形边界条件（spherical boundary conditions, SBC）计算相对结合自由能，通过将模拟限制在结合位点周围的聚焦区域，大幅降低了计算成本。QligFEP具有可配置的约束算法，能自动处理多样化的化学转化，简化设置流程，并增强分析工具。我们使用包含16个蛋白质靶标和639个配体转化的行业基准验证了该方法。统计分析表明，QligFEP在达到与已建立的商业和开源替代方案相当的精度的同时，仅需其计算资源的一小部分。该微扰协议每微扰分支模拟约6250个原子，并在标准计算集群上于2小时内完成转化重复，这比传统的全系统模拟快得多，且目前在AWS spot实例上的成本低于1美元。准确性、自动化和计算效率的结合，使QligFEP成为加速药物发现中化合物优化的实用解决方案，使严格的结合亲和力预测适用于大规模应用以及计算基础设施有限的研究团队。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-x3r3z-v3",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-x3r3z-v3",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-x3r3z-v3/index.html"
+}

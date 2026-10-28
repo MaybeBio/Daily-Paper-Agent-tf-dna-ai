@@ -1,0 +1,445 @@
+{
+  "identity": {
+    "pmid": "37301184",
+    "doi": "10.1016/j.phymed.2023.154917",
+    "title": "Magnolol as STAT3 inhibitor for treating multiple sclerosis by restricting Th17 cells."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Multiple sclerosis (MS) is an immune disease in the central nervous system (CNS) associated with Th17 cells. Moreover, STAT3 initiates Th17 cell differentiation and IL-17A expression through facilitating RORgammat in MS. Here, we reported that magnolol, isolated from Magnolia officinalis Rehd. Et Wils, was regarded as a candidate for MS treatment verified by both in vitro and in vivo studies. METHODS: In vivo, experimental autoimmune encephalomyelitis (EAE) model in mice was employed to evaluate the alleviation of magnolol on myeloencephalitis. In vitro, FACS assay was employed to evaluate the effect of magnolol on Th17 and Treg cell differentiation and IL-17A expression; network pharmacology-based study was applied to probe the involved mechanisms; western blotting, immunocytochemistry, and luciferase reporter assay was used to further confirm the regulation of magnolol on JAK/STATs signaling pathway; surface plasmon resonance (SPR) assay and molecular docking were applied to manifest affinity with STAT3 and binding sites; overexpression of STAT3 was employed to verify whether magnolol attenuates IL-17A through STAT3 signaling pathway. RESULTS: In vivo, magnolol alleviated loss of body weight and severity of EAE mice; magnolol improved lesions in spinal cords and attenuated CD45 infiltration, and serum cytokines levels; correspondingly, magnolol focused on inhibiting Th17 differentiation and IL-17A expression in splenocyte of EAE mice; moreover, magnolol selectively inhibited p-STAT3(Y705) and p-STAT4(Y693) of both CD4(+) and CD8(+) T cells in splenocyte of EAE mice. In vitro, magnolol selectively inhibited Th17 differentiation and IL-17A expression without impact on Treg cells; network pharmacology-based study revealed that magnolol perhaps diminished Th17 cell differentiation through regulating STAT family members; western blotting further confirmed that magnolol inhibited p-JAK2(Y1007) and selectively antagonized p-STAT3(Y705) and slightly decreased p-STAT4(Y693); magnolol antagonized both STAT3 nucleus location and transcription activity; magnolol had a high affinity with STAT3 and the specific binding site perhaps to be at SH2 domain; overexpression of STAT3 resulted in failed inhibition of magnolol on IL-17A. CONCLUSION: Magnolol selectively inhibited Th17 differentiation and cytokine expression through selectively blocking of STAT3 resulting in decreased the ratio of Th17/Treg cells for treating MS, suggesting that the potential of magnolol for treating MS as novel STAT3 inhibitor.",
+    "keywords": [
+      "Magnolol",
+      "Multiple sclerosis (MS)",
+      "Rorgammat",
+      "Signal transducer and activators of transcription 3 (stat3)",
+      "Th17"
+    ],
+    "mesh_terms": [
+      "Mice",
+      "Animals",
+      "*Multiple Sclerosis/drug therapy",
+      "Th17 Cells",
+      "Interleukin-17/metabolism",
+      "CD8-Positive T-Lymphocytes/metabolism",
+      "Molecular Docking Simulation",
+      "*Encephalomyelitis, Autoimmune, Experimental/drug therapy",
+      "STAT3 Transcription Factor/metabolism",
+      "Cell Differentiation",
+      "Cytokines/metabolism",
+      "Mice, Inbred C57BL",
+      "Th1 Cells",
+      "Biphenyl Compounds",
+      "Lignans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Jian-Yu",
+        "Tian, Xiao-Yun",
+        "Wei, Shan-Shan",
+        "Xu, Wen",
+        "Pan, Rong-Rong",
+        "Chen, Lin-Lin",
+        "Chen, Lang-Dong",
+        "Nan, Li-Hong",
+        "Yao-Lin",
+        "Shan-Deng",
+        "Wang, Qian-Qian",
+        "Ma, Xue-Qin",
+        "Huang, Ming-Qing"
+      ],
+      "short_names": [
+        "Chen JY",
+        "Tian XY",
+        "Wei SS",
+        "Xu W",
+        "Pan RR",
+        "Chen LL",
+        "Chen LD",
+        "Nan LH",
+        "Yao-Lin",
+        "Shan-Deng",
+        "Wang QQ",
+        "Ma XQ",
+        "Huang MQ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacology, School of Pharmacy, Fujian University of Traditional Chinese Medicine, No.1, Hua Tuo Road, Min Hou Shang Jie, Fuzhou 350122, China.",
+        "Department of Pharmacology, School of Pharmacy, Fujian University of Traditional Chinese Medicine, No.1, Hua Tuo Road, Min Hou Shang Jie, Fuzhou 350122, China.",
+        "School of Pharmacy, Second Military Medical University, No.325, Guo He Road, Shanghai 30025, China.",
+        "Department of Pharmacology, School of Pharmacy, Fujian University of Traditional Chinese Medicine, No.1, Hua Tuo Road, Min Hou Shang Jie, Fuzhou 350122, China.",
+        "Seventh People's Hospital of Shanghai University of Traditional Chinese Medicine, No. 358, Datong road, Pudong New Area, Shanghai 200137, China.",
+        "School of Pharmacy, Second Military Medical University, No.325, Guo He Road, Shanghai 30025, China.",
+        "School of Pharmacy, Second Military Medical University, No.325, Guo He Road, Shanghai 30025, China.",
+        "Department of Pharmacology, School of Pharmacy, Fujian University of Traditional Chinese Medicine, No.1, Hua Tuo Road, Min Hou Shang Jie, Fuzhou 350122, China.",
+        "Department of Pharmacology, School of Pharmacy, Fujian University of Traditional Chinese Medicine, No.1, Hua Tuo Road, Min Hou Shang Jie, Fuzhou 350122, China.",
+        "Department of Pharmacology, School of Pharmacy, Fujian University of Traditional Chinese Medicine, No.1, Hua Tuo Road, Min Hou Shang Jie, Fuzhou 350122, China.",
+        "Medical College, Dalian University, Dalian 116622, China. Electronic address: wangqianqian@dlu.edu.cn.",
+        "Department of Pharmaceutical Analysis, School of Pharmacy, Key Laboratory of Hui Ethnic Medicine Modernization, Ministry of Education, Ningxia Medical University, 1160 Shenli Street, Yinchuan 750004, China. Electronic address: maxueqin217@126.com.",
+        "Department of Pharmacology, School of Pharmacy, Fujian University of Traditional Chinese Medicine, No.1, Hua Tuo Road, Min Hou Shang Jie, Fuzhou 350122, China. Electronic address: hmq1115@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Jian-Yu",
+        "short_name": "Chen JY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Fujian University of Traditional Chinese Medicine, No.1, Hua Tuo Road, Min Hou Shang Jie, Fuzhou 350122, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Xiao-Yun",
+        "short_name": "Tian XY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Fujian University of Traditional Chinese Medicine, No.1, Hua Tuo Road, Min Hou Shang Jie, Fuzhou 350122, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Shan-Shan",
+        "short_name": "Wei SS",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Second Military Medical University, No.325, Guo He Road, Shanghai 30025, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wen",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Fujian University of Traditional Chinese Medicine, No.1, Hua Tuo Road, Min Hou Shang Jie, Fuzhou 350122, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Rong-Rong",
+        "short_name": "Pan RR",
+        "identifiers": [],
+        "affiliations": [
+          "Seventh People's Hospital of Shanghai University of Traditional Chinese Medicine, No. 358, Datong road, Pudong New Area, Shanghai 200137, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Lin-Lin",
+        "short_name": "Chen LL",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Second Military Medical University, No.325, Guo He Road, Shanghai 30025, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Lang-Dong",
+        "short_name": "Chen LD",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Second Military Medical University, No.325, Guo He Road, Shanghai 30025, China."
+        ]
+      },
+      {
+        "full_name": "Nan, Li-Hong",
+        "short_name": "Nan LH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Fujian University of Traditional Chinese Medicine, No.1, Hua Tuo Road, Min Hou Shang Jie, Fuzhou 350122, China."
+        ]
+      },
+      {
+        "full_name": "Yao-Lin",
+        "short_name": "Yao-Lin",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Fujian University of Traditional Chinese Medicine, No.1, Hua Tuo Road, Min Hou Shang Jie, Fuzhou 350122, China."
+        ]
+      },
+      {
+        "full_name": "Shan-Deng",
+        "short_name": "Shan-Deng",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Fujian University of Traditional Chinese Medicine, No.1, Hua Tuo Road, Min Hou Shang Jie, Fuzhou 350122, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qian-Qian",
+        "short_name": "Wang QQ",
+        "identifiers": [],
+        "affiliations": [
+          "Medical College, Dalian University, Dalian 116622, China. Electronic address: wangqianqian@dlu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ma, Xue-Qin",
+        "short_name": "Ma XQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Analysis, School of Pharmacy, Key Laboratory of Hui Ethnic Medicine Modernization, Ministry of Education, Ningxia Medical University, 1160 Shenli Street, Yinchuan 750004, China. Electronic address: maxueqin217@126.com."
+        ]
+      },
+      {
+        "full_name": "Huang, Ming-Qing",
+        "short_name": "Huang MQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Fujian University of Traditional Chinese Medicine, No.1, Hua Tuo Road, Min Hou Shang Jie, Fuzhou 350122, China. Electronic address: hmq1115@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2023 Aug",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/11 01:06",
+    "fetched_at": "2026-09-29 01:51:37"
+  },
+  "links": {
+    "cites": [
+      "41900109",
+      "41673747",
+      "41103585",
+      "40444654",
+      "40337508",
+      "40093952",
+      "39845807",
+      "39700118",
+      "38259497"
+    ],
+    "refs": [],
+    "similar": [
+      "37301184",
+      "36989705",
+      "35122866",
+      "28600752",
+      "37832863",
+      "38308917",
+      "35638564",
+      "28213589",
+      "37227550",
+      "38054637",
+      "37230280",
+      "33781828",
+      "33205383",
+      "37080068",
+      "36615213",
+      "38885894",
+      "33380901",
+      "28681958",
+      "37187004",
+      "36607588",
+      "26477735",
+      "34433042",
+      "35787889",
+      "26384304",
+      "38838376",
+      "26223651",
+      "26559850",
+      "25263529",
+      "17493959",
+      "24568746",
+      "28202908",
+      "23578791",
+      "22943202",
+      "30615197",
+      "33876425",
+      "33788130",
+      "30031314",
+      "38185267",
+      "35872534",
+      "33927721",
+      "26110284",
+      "37385966",
+      "38920670",
+      "25887665",
+      "34140958",
+      "27774592",
+      "32686813",
+      "24842756",
+      "26440666",
+      "30741923",
+      "28946394",
+      "28878115",
+      "37894952",
+      "22252297",
+      "33879167",
+      "29127843",
+      "38833897",
+      "32829384",
+      "28507026",
+      "38061117",
+      "32186151",
+      "19539560",
+      "35300342",
+      "29535739",
+      "29523162",
+      "24323580",
+      "24782182",
+      "28580587",
+      "35851130",
+      "35959804",
+      "27581464",
+      "30294880",
+      "39353391",
+      "25528476",
+      "16418805",
+      "35348816",
+      "23064699",
+      "32503584",
+      "25142300",
+      "37269741",
+      "29548993",
+      "35276582",
+      "28165507",
+      "23221338",
+      "26784569",
+      "28759648",
+      "25073789",
+      "32570032",
+      "30972071",
+      "28962999",
+      "25457839",
+      "30823934",
+      "30557558",
+      "26123499",
+      "32173452",
+      "12055272",
+      "35219910",
+      "27083389",
+      "39068463",
+      "18792410",
+      "24469975",
+      "35304225",
+      "29794014",
+      "33480040",
+      "32146280",
+      "21835648",
+      "36801213",
+      "33013847",
+      "23685554",
+      "38070316",
+      "37369312",
+      "37498431",
+      "35298438",
+      "39141200",
+      "37591119",
+      "37454252",
+      "38153198",
+      "29773813",
+      "38324068",
+      "33951698",
+      "35916034",
+      "38541664",
+      "39074418",
+      "34391933",
+      "38963020",
+      "39167321",
+      "32010153",
+      "36026478",
+      "36525604",
+      "36857006",
+      "38411708",
+      "38479724",
+      "30093408",
+      "37093664",
+      "38172644",
+      "29880011",
+      "31549795",
+      "36528755",
+      "35867069",
+      "37405565",
+      "37443284",
+      "38015631",
+      "34992408",
+      "38377868",
+      "37280225",
+      "38043269",
+      "38113242",
+      "37799385",
+      "37487967",
+      "37711216",
+      "33996256",
+      "37531112",
+      "37256725",
+      "20974859",
+      "39298642",
+      "37874883",
+      "37441600",
+      "37884768",
+      "26770017",
+      "36478263",
+      "39229522",
+      "37938185",
+      "18708155",
+      "21776333",
+      "37365574",
+      "38861030",
+      "35344430",
+      "37867943",
+      "33176238",
+      "37790513",
+      "35995509",
+      "37759616",
+      "37179747",
+      "37719372",
+      "39305848",
+      "37837188",
+      "37778170",
+      "38813732",
+      "39180344",
+      "34765462"
+    ],
+    "review": [
+      "37301184",
+      "23578791",
+      "37884768",
+      "26770017"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(23)00278-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/multiplesclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Multiple Sclerosis"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

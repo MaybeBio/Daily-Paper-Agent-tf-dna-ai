@@ -1,0 +1,429 @@
+{
+  "identity": {
+    "pmid": "33888512",
+    "doi": "10.1101/gr.266171.120",
+    "title": "Modeling transcriptional regulation of model species with deep learning."
+  },
+  "content": {
+    "abstract": "To enable large-scale analyses of transcription regulation in model species, we developed DeepArk, a set of deep learning models of the cis-regulatory activities for four widely studied species: Caenorhabditis elegans, Danio rerio, Drosophila melanogaster, and Mus musculus DeepArk accurately predicts the presence of thousands of different context-specific regulatory features, including chromatin states, histone marks, and transcription factors. In vivo studies show that DeepArk can predict the regulatory impact of any genomic variant (including rare or not previously observed) and enables the regulatory annotation of understudied model species.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Caenorhabditis elegans/genetics",
+      "*Deep Learning",
+      "*Drosophila melanogaster/genetics",
+      "Gene Expression Regulation",
+      "Mice",
+      "Zebrafish/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cofer, Evan M",
+        "Raimundo, Joao",
+        "Tadych, Alicja",
+        "Yamazaki, Yuji",
+        "Wong, Aaron K",
+        "Theesfeld, Chandra L",
+        "Levine, Michael S",
+        "Troyanskaya, Olga G"
+      ],
+      "short_names": [
+        "Cofer EM",
+        "Raimundo J",
+        "Tadych A",
+        "Yamazaki Y",
+        "Wong AK",
+        "Theesfeld CL",
+        "Levine MS",
+        "Troyanskaya OG"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3877-0433",
+        "ORCID: 0000-0002-8976-1898",
+        "ORCID: 0000-0001-8645-0739",
+        "ORCID: 0000-0002-7294-0646",
+        "ORCID: 0000-0002-8379-6600",
+        "ORCID: 0000-0002-5676-5737"
+      ],
+      "affiliations": [
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Graduate Program in Quantitative and Computational Biology, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Yutaka Seino Distinguished Center for Diabetes Research, Kansai Electric Power Medical Research Institute, Kobe, 650-0047, Japan.",
+        "Flatiron Institute, Simons Foundation, New York, New York 10010, USA.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Department of Molecular Biology, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Flatiron Institute, Simons Foundation, New York, New York 10010, USA.",
+        "Department of Computer Science, Princeton University, Princeton, New Jersey 08540, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cofer, Evan M",
+        "short_name": "Cofer EM",
+        "identifiers": [
+          "0000-0003-3877-0433"
+        ],
+        "affiliations": [
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08544, USA.",
+          "Graduate Program in Quantitative and Computational Biology, Princeton University, Princeton, New Jersey 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Raimundo, João",
+        "short_name": "Raimundo J",
+        "identifiers": [
+          "0000-0002-8976-1898"
+        ],
+        "affiliations": [
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Tadych, Alicja",
+        "short_name": "Tadych A",
+        "identifiers": [
+          "0000-0001-8645-0739"
+        ],
+        "affiliations": [
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Yamazaki, Yuji",
+        "short_name": "Yamazaki Y",
+        "identifiers": [],
+        "affiliations": [
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08544, USA.",
+          "Yutaka Seino Distinguished Center for Diabetes Research, Kansai Electric Power Medical Research Institute, Kobe, 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Wong, Aaron K",
+        "short_name": "Wong AK",
+        "identifiers": [
+          "0000-0002-7294-0646"
+        ],
+        "affiliations": [
+          "Flatiron Institute, Simons Foundation, New York, New York 10010, USA."
+        ]
+      },
+      {
+        "full_name": "Theesfeld, Chandra L",
+        "short_name": "Theesfeld CL",
+        "identifiers": [
+          "0000-0002-8379-6600"
+        ],
+        "affiliations": [
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Levine, Michael S",
+        "short_name": "Levine MS",
+        "identifiers": [],
+        "affiliations": [
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08544, USA.",
+          "Department of Molecular Biology, Princeton University, Princeton, New Jersey 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Troyanskaya, Olga G",
+        "short_name": "Troyanskaya OG",
+        "identifiers": [
+          "0000-0002-5676-5737"
+        ],
+        "affiliations": [
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08544, USA.",
+          "Flatiron Institute, Simons Foundation, New York, New York 10010, USA.",
+          "Department of Computer Science, Princeton University, Princeton, New Jersey 08540, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome research"
+    ],
+    "journal_abbrev": [
+      "Genome Res"
+    ],
+    "pub_date": "2021 Jun",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/24 06:00",
+    "fetched_at": "2026-09-27 16:21:05"
+  },
+  "links": {
+    "cites": [
+      "41514301",
+      "41318326",
+      "41075790",
+      "39778579",
+      "39199333",
+      "38581418",
+      "37662358",
+      "35410163"
+    ],
+    "refs": [
+      "33888511",
+      "33603233",
+      "33462483",
+      "33046897",
+      "32687525",
+      "31679514",
+      "31510655",
+      "31375807",
+      "31249361",
+      "31213516",
+      "31138913",
+      "30982648",
+      "30923381",
+      "30661751",
+      "30518940",
+      "30464347",
+      "30413482",
+      "30407534",
+      "30038395",
+      "30013180",
+      "29618526",
+      "29606591",
+      "29588361",
+      "29539636",
+      "29097404",
+      "28340351",
+      "28089518",
+      "27376237",
+      "27293191",
+      "27197224",
+      "27079975",
+      "26671609",
+      "26301843",
+      "26075791",
+      "26017442",
+      "24709821",
+      "23594743",
+      "22371081",
+      "21330290",
+      "19505943",
+      "19270160",
+      "17803355",
+      "17554307",
+      "17234948",
+      "17122774",
+      "14976312"
+    ],
+    "similar": [
+      "33888512",
+      "30137380",
+      "21091219",
+      "34493287",
+      "35858396",
+      "23799133",
+      "27812991",
+      "23626672",
+      "28666356",
+      "25627242",
+      "31248380",
+      "9074495",
+      "23984798",
+      "35124155",
+      "25690965",
+      "21316939",
+      "25164757",
+      "37491400",
+      "21177977",
+      "22722344",
+      "18752680",
+      "28720579",
+      "22291600",
+      "31724725",
+      "25629007",
+      "7774921",
+      "23450642",
+      "26133010",
+      "33385325",
+      "20716685",
+      "21430782",
+      "18508807",
+      "9660175",
+      "12944426",
+      "9927589",
+      "31744421",
+      "11253650",
+      "22456606",
+      "9735366",
+      "30367057",
+      "34634810",
+      "35803984",
+      "7735317",
+      "25164742",
+      "15226743",
+      "9131585",
+      "21430772",
+      "12610537",
+      "19260763",
+      "12951570",
+      "25142568",
+      "12027012",
+      "26525455",
+      "11017058",
+      "27615122",
+      "18635772",
+      "23063246",
+      "36229673",
+      "29058338",
+      "25023089",
+      "23792917",
+      "12200468",
+      "11820809",
+      "22633491",
+      "23074262",
+      "29855387",
+      "16518452",
+      "25153327",
+      "23624434",
+      "29912392",
+      "16557266",
+      "14602075",
+      "31806443",
+      "22019781",
+      "25102930",
+      "23516347",
+      "8816471",
+      "16650000",
+      "19425157",
+      "34118308",
+      "12200161",
+      "28882225",
+      "15629040",
+      "27588814",
+      "15238157",
+      "24985912",
+      "27207881",
+      "29074739",
+      "17522641",
+      "18416813",
+      "33378446",
+      "23893482",
+      "10961941",
+      "28053067",
+      "9427643",
+      "17535977",
+      "14623821",
+      "19656951",
+      "37884343",
+      "38594933",
+      "33779562",
+      "36225316"
+    ],
+    "review": [
+      "33888512",
+      "27812991",
+      "35124155",
+      "21316939",
+      "37491400",
+      "22291600",
+      "25629007",
+      "23450642",
+      "26133010",
+      "33385325",
+      "31744421",
+      "11253650",
+      "9131585",
+      "12610537",
+      "12951570",
+      "12027012",
+      "26525455",
+      "27615122",
+      "23063246",
+      "29058338",
+      "16557266",
+      "25102930",
+      "34118308",
+      "12200161",
+      "28882225",
+      "33378446",
+      "10961941",
+      "28053067",
+      "17535977",
+      "38594933",
+      "33779562"
+    ],
+    "pmc": [
+      "8168591"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=33888512",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://genome.cshlp.org/lookup/pmidlookup?view=long&pmid=33888512",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33888512/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33888512",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:33888512",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=biotools_deepark",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://scite.ai/reports/33888512",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

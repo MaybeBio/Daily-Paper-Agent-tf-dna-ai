@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and methods as presented in the abstract; no full-text methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The abstract describes a protocol for recombinant expression and purification of Leishmania amazonensis RPA-1, plus molecular modeling and molecular dynamics simulation methods, framed by the hypothesis that trypanosomatid RPA-1 may function as a telomere end-binding protein (TEBP) due to shared structural and functional features.
+- **Visible evidence base** Abstract text only; no experimental data, figures, tables, or detailed protocols are visible
+- **Missing materials affecting confidence** Full methods section, purification data (e.g., SDS-PAGE, chromatograms), biophysical characterization (e.g., binding assays), modeling validation metrics, simulation parameters, and any comparative structural analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful protocol for producing recombinant RPA-1 from Leishmania amazonensis and for computational structural analysis. The biological rationale linking trypanosomatid RPA-1 to TEBP function is interesting but is presented as background speculation rather than as a tested hypothesis. The core value of the work, as described, lies in the methodological contribution, but the abstract does not provide sufficient detail to assess the quality, reproducibility, or novelty of the protocol. The claim that the methods "could be probably applied" to other primitive eukaryotes is speculative and unsupported by evidence in the abstract.
+- **Who would be interested in the results, and why** Researchers studying DNA replication and repair in trypanosomatids, particularly those focused on Leishmania biology; investigators interested in telomere biology in early-divergent eukaryotes; and methodologists developing recombinant protein production and molecular dynamics protocols for OB-fold proteins. The protocol could serve as a practical reference for labs working on homologous proteins in related organisms.
+- **Major strengths** The abstract identifies a clear gap in knowledge regarding whether RPA-1 telomeric protective roles are exclusive to trypanosomatids. The proposed combination of experimental and computational methods is logical and potentially complementary. The focus on a neglected pathogen group (Leishmania) adds translational relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims to describe a protocol to obtain "highly purified and biologically active" recombinant RPA-1.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no data demonstrating purity or biological activity. Terms such as "highly purified" and "biologically active" are operational claims that require experimental support, such as electrophoretic homogeneity, mass spectrometry verification, or functional ssDNA-binding assays.
+  - **Why it matters** Without evidence of purity and activity, the protocol's utility for downstream structural and functional studies is unverified. Readers cannot assess whether the described methods are fit for purpose.
+  - **Resolution test** Provide representative purification data (e.g., SDS-PAGE with molecular weight markers, chromatographic profiles) and a functional assay (e.g., electrophoretic mobility shift assay or fluorescence anisotropy) showing ssDNA binding activity of the purified protein.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that molecular modeling and molecular dynamics simulations methods are described.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No details are given on the modeling approach (e.g., template selection, homology modeling, ab initio), model validation (e.g., Ramachandran plots, QMEAN, PROCHECK), or simulation parameters (e.g., force field, water model, simulation length, equilibration protocol). Without these, the computational methods cannot be evaluated for rigor or reproducibility.
+  - **Why it matters** Molecular dynamics results are highly sensitive to setup choices. The absence of methodological detail prevents assessment of whether the simulations are likely to produce meaningful conformational sampling or stable trajectories.
+  - **Resolution test** Specify the modeling pipeline, validation metrics, and simulation parameters in the full protocol, and include at least one representative validation result (e.g., RMSD stability plot or model quality score).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The abstract implies that the protocol is novel or non-obvious for Leishmania RPA-1.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not state what is new relative to existing protocols for recombinant expression of Leishmania proteins or for molecular dynamics of OB-fold proteins. Without a comparative statement, the novelty of the protocol is unclear.
+  - **Why it matters** For a methods-oriented publication, establishing novelty is essential to justify publication and to guide readers on when to use this protocol over existing alternatives.
+  - **Resolution test** Add a sentence in the abstract or introduction explicitly stating the key innovations or adaptations (e.g., specific expression host, purification tag, or simulation strategy) that distinguish this protocol from prior work.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Background section
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses terms such as "OB-fold" and "TEBP" without defining them, which may hinder readers outside the molecular parasitology field.
+  - **Required correction** Define "OB-fold" and "TEBP" at first mention, or provide a brief explanatory phrase.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of scope
+  - **Affected element** Applicability claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "could be probably applied" is vague and hedged, making the scope of the protocol unclear.
+  - **Required correction** Specify the conditions under which the protocol is likely transferable (e.g., sequence similarity thresholds, expression system compatibility) or remove the speculation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance framing
+  - **Affected element** Hypothesis statement
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract presents the TEBP hypothesis as background but does not state whether the protocol is designed to test it or merely to enable future testing.
+  - **Required correction** Clarify whether the protocol is intended to directly test the TEBP hypothesis or to provide tools for such testing.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract's central claims of producing "highly purified and biologically active" protein and providing valid computational methods are unsupported by any visible evidence or methodological detail. Without these, the protocol's utility and reliability cannot be established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The abstract does not clearly establish novelty relative to existing protocols, so originality is currently weak or unassessable.
+  - Scientific importance: The biological question regarding RPA-1 as a TEBP in trypanosomatids is of interest to a specialized community, but the abstract does not demonstrate that the protocol advances this question directly.
+  - Interdisciplinary readership: The work bridges molecular parasitology and computational biophysics, but the abstract is written in a way that may not attract readers outside these niches.
+  - Technical soundness: Not assessable from the abstract alone; the absence of data and methodological detail is a major limitation.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific jargon without definition, reducing accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially useful protocol, but the absence of experimental data, methodological detail, and explicit novelty claims prevents a supportive recommendation. If the full manuscript provides the missing evidence and addresses the blocking concerns, the work could become publishable as a methods contribution.
+
+## Risk / unsupported claims
+- The claim of obtaining "highly purified and biologically active" recombinant RPA-1 is unsupported by any data in the abstract.
+- The claim that the molecular modeling and molecular dynamics methods are valid or reproducible is unassessable without methodological details.
+- The statement that the protocol "could be probably applied" to other primitive eukaryotes is speculative and unsupported.
+- The implication that trypanosomatid RPA-1 may be a TEBP is presented as background, not as a tested claim, but the abstract does not clarify whether the protocol is intended to test this hypothesis.

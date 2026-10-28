@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40359430",
+  "title": "Identifying the DNA methylation preference of transcription factors using ProtBERT and SVM.",
+  "authors": "Li, Yanchao; Zou, Quan; Dai, Qi; Stalin, Antony; Luo, Ximei",
+  "journal": "PLoS computational biology",
+  "published_date": "2025-05-13",
+  "window": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用ProtBERT和SVM预测转录因子对甲基化DNA的结合偏好，虽涉及TF-DNA互作但聚焦于分类预测而非三维结合机制建模，方法可迁移但深度有限。",
+  "abstract": "Transcription factors (TFs) can affect gene expression by binding to certain specific DNA sequences. This binding process of TFs may be modulated by DNA methylation. A subset of TFs that serve as methylation readers preferentially binds to certain methylated DNA and is defined as TFPM. The identification of TFPMs enhances our understanding of DNA methylation's role in gene regulation. However, their experimental identification is resource-demanding. In this study, we propose a novel two-step computational approach to classify TFs and TFPMs. First, we employed a fine-tuned ProtBERT model to differentiate between the classes of TFs and non-TFs. Second, we combined the Reduced Amino Acid Category (RAAC) with K-mer and SVM to predict the potential of TFs to bind to methylated DNA. Comparative experiments demonstrate that our proposed methods outperform all existing approaches and emphasize the efficiency of our computational framework in classifying TFs and TFPMs. Cross-species validation on an independent mouse dataset further demonstrates the generalizability of our proposed framework In addition, we conducted predictions on all human transcription factors and found that most of the top 20 proteins belong to the Krueppel C2H2-type Zinc-finger family. So far, some studies have demonstrated a partial correlation between this family and DNA methylation and confirmed the preference of some of its members, thereby showing the robustness of our approach.",
+  "abstract_zh": "转录因子（TFs）通过结合特定的DNA序列来影响基因表达。这一结合过程可能受到DNA甲基化的调控。作为甲基化读取器的一部分转录因子，优先结合特定甲基化DNA，被定义为TFPM。识别TFPMs加深了我们对DNA甲基化在基因调控中作用的理解。然而，其实验识别资源消耗大。在本研究中，我们提出了一种新颖的两步计算方法来分类TFs和TFPMs。首先，我们采用微调后的ProtBERT模型来区分TFs与非TFs类别。其次，我们将简化氨基酸类别（RAAC）与K-mer及SVM结合，预测TFs结合甲基化DNA的潜力。对比实验表明，我们提出的方法优于所有现有方法，并强调了我们的计算框架在分类TFs和TFPMs方面的效率。在独立小鼠数据集上的跨物种验证进一步证明了我们提出框架的泛化能力。此外，我们对所有人类转录因子进行了预测，发现前20个蛋白质中大多数属于Krueppel C2H2型锌指家族。迄今为止，一些研究已表明该家族与DNA甲基化之间存在部分相关性，并确认了其部分成员的偏好性，从而展示了我们方法的稳健性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40359430/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40359430/",
+  "paper_page_path": "papers/pubmed/40359430/index.html"
+}

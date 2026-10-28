@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that voglibose (VOG), an alpha glucosidase inhibitor, binds to CT-DNA via surface binding, driven by hydrophobic interactions and hydrogen bonding, as supported by spectroscopic, calorimetric, viscometric, and metadynamics simulation data.
+- **Visible evidence base** Abstract text only; no numerical data beyond thermodynamic parameters, no spectra, no simulation details
+- **Missing materials affecting confidence** Full text, all figures and tables, experimental protocols, simulation parameters, statistical analyses, and raw data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible multi-technique study of VOG-DNA interaction, but the evidence as summarized is insufficient to establish the claimed surface binding mode or the thermodynamic interpretation. Several quantitative inconsistencies and missing methodological details undermine confidence in the conclusions.
+- **Who would be interested in the results, and why** Researchers in biophysical chemistry, drug-DNA interaction studies, and diabetes therapeutics might find interest, as VOG is a clinically used drug and understanding its off-target DNA binding could have pharmacological relevance. The methodological combination of spectroscopy, calorimetry, and simulation could appeal to those studying ligand-DNA binding mechanisms.
+- **Major strengths** The use of multiple complementary techniques (UV-Vis, fluorescence, CD, viscosity, ITC, competitive displacement, and metadynamics simulation) is commendable. The attempt to correlate experimental and computational findings is a positive feature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Thermodynamic consistency
+  - **Claim pointer** The abstract reports DeltaH (0.0188 cal/mol), DeltaS (63.3 cal/mol/K), and DeltaG (-18.8 kcal/mol), and states that these reveal spontaneous binding with hydrophobic and H-bonding interactions playing major roles.
+  - **Evidence pointer** Abstract, thermodynamic parameters section
+  - **Concern** The reported DeltaH value of 0.0188 cal/mol is implausibly small and inconsistent with the reported DeltaG of -18.8 kcal/mol and DeltaS of 63.3 cal/mol/K. Using the Gibbs equation DeltaG = DeltaH - T*DeltaS at 298 K, the calculated DeltaG would be approximately -18.9 kcal/mol, which is consistent with the reported DeltaG, but the DeltaH value is physically unrealistic for a binding process. A near-zero DeltaH with a large positive DeltaS would imply an entirely entropy-driven process, yet the abstract claims both hydrophobic and H-bonding interactions are major contributors, which typically involve significant enthalpic components.
+  - **Why it matters** Thermodynamic parameters are central to the claim of binding spontaneity and interaction types. An inconsistent or erroneous DeltaH value undermines the quantitative basis of the binding model and the interpretation of interaction forces.
+  - **Resolution test** Provide the raw ITC data, fitting model, and units verification. Recalculate DeltaH, DeltaS, and DeltaG from the integrated heat data and confirm consistency with the Gibbs equation. If the reported values are correct, explain the physical meaning of a near-zero DeltaH in the context of the proposed interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Binding mode evidence
+  - **Claim pointer** The abstract claims that competitive displacement assays with EB and Hoechst 33258, viscosity measurements, and metadynamics simulations confirm surface binding of VOG to CT-DNA.
+  - **Evidence pointer** Abstract, competitive displacement, viscosity, and simulation sections
+  - **Concern** The abstract does not provide quantitative results from the displacement assays (e.g., quenching constants, displacement percentages) or viscosity measurements (e.g., relative viscosity changes as a function of VOG concentration). Without these data, the claim of surface binding is not substantiated. Additionally, the metadynamics simulation is described only in qualitative terms; no free energy profiles, binding poses, or convergence criteria are given.
+  - **Why it matters** The central conclusion of the study is the binding mode. If the evidence for surface binding is not quantitatively presented, the claim cannot be evaluated or reproduced.
+  - **Resolution test** Provide the displacement assay data (e.g., Stern-Volmer constants, apparent binding constants) and viscosity data (e.g., eta/eta0 vs. [VOG]/[DNA] plots). For simulations, provide free energy surfaces, representative binding conformations, and validation of simulation convergence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Ionic strength effect interpretation
+  - **Claim pointer** The abstract states that the effect of ionic strength confirms the existence of hydrophobic interaction between VOG and CT-DNA.
+  - **Evidence pointer** Abstract, ionic strength section
+  - **Concern** The abstract does not describe how ionic strength was varied or what the observed effect was. Typically, a lack of ionic strength dependence suggests hydrophobic interactions, while a strong dependence indicates electrostatic interactions. However, without specific data (e.g., binding constants at different salt concentrations), this claim is unverifiable.
+  - **Why it matters** The interpretation of interaction type is a key part of the binding mechanism. Unsupported claims about ionic strength effects weaken the overall mechanistic picture.
+  - **Resolution test** Provide binding constants or fluorescence data at multiple ionic strengths and show the trend. Explain how the observed trend specifically supports hydrophobic interactions over other possibilities.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Units and notation
+  - **Affected element** Thermodynamic parameters
+  - **Evidence pointer** Abstract, thermodynamic parameters
+  - **Issue** The units for DeltaH are given as cal/mol, while DeltaG is given as kcal/mol. This inconsistency in units is confusing and may indicate an error.
+  - **Required correction** Use consistent units (e.g., kcal/mol for all) or clearly state the conversion.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** CD spectroscopy
+  - **Evidence pointer** Abstract, CD section
+  - **Issue** The abstract mentions CD spectroscopy but does not report any specific findings from CD measurements, such as changes in DNA conformation or induced CD signals.
+  - **Required correction** Include a brief summary of CD results or state that CD data were consistent with surface binding.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Simulation validation
+  - **Affected element** Metadynamics simulation
+  - **Evidence pointer** Abstract, simulation section
+  - **Issue** The abstract does not mention the simulation time scale, force field, or whether the simulation was validated against experimental data.
+  - **Required correction** Provide key simulation parameters and validation details in the abstract or indicate where they are described in the full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (thermodynamic inconsistency) and R1-M2 (lack of quantitative evidence for binding mode) are the primary technical failings. R1-M3 (ionic strength interpretation) also requires clarification.
+- **Assessment against Nature-style criteria**  
+  - Originality: The study applies a standard set of biophysical techniques to a specific drug-DNA system. The combination with metadynamics is somewhat novel, but the overall approach is not highly original.  
+  - Scientific importance: The findings may have modest pharmacological relevance, but the abstract does not articulate broader implications for drug design or DNA-targeted therapy.  
+  - Interdisciplinary readership: The work bridges chemistry, biophysics, and pharmacology, but the abstract is too technical and lacks context for a broad audience.  
+  - Technical soundness: The technical soundness is currently compromised by the thermodynamic inconsistency and lack of quantitative data.  
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with multiple techniques; it does not provide sufficient background or clear take-home messages.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract contains promising elements, but the thermodynamic inconsistency and lack of quantitative support for the central binding mode claim require substantial revision and additional data before the conclusions can be accepted.
+
+## Risk / unsupported claims
+- The claim that binding is spontaneous and driven by hydrophobic and H-bonding interactions is unsupported due to the inconsistent thermodynamic parameters.
+- The claim of surface binding is unsupported without quantitative displacement, viscosity, and simulation data.
+- The claim that ionic strength confirms hydrophobic interactions is unsupported without specific experimental data.
+- The overall binding mode conclusion is not evaluable from the abstract alone.

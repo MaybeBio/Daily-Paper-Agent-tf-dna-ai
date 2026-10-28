@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "40394677",
+    "doi": "10.1186/s12967-025-06576-2",
+    "title": "A novel NFKB1 agonist remodels tumor microenvironment and activates dendritic cells to promote anti-tumor immunity in colorectal cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The immunosuppressive nature of the tumor microenvironment (TME) and the existence of cancer stem cells (CSCs) present significant hurdles in tumor therapy. The identification of therapeutic agents that can target both CSCs and the TME could be a potential approach to overcome treatment resistance. METHODS: We conducted an in vivo chemical screen to identify F1929-1458, which is capable of eliciting an organism-wide response to destroy stem cell tumors in Drosophila. We then performed functional validation using a mouse colorectal cancer graft tumor model established with the CT26 cell line characterized by its high content of CSCs. Single-cell sequencing was employed to analyze alterations in the TME. Small molecule pull-down mass spectrometry, cellular thermal shift assay, drug affinity experiment, and molecular docking were utilized to identify the target of F1929-1458. An in vitro co-culture system was applied to establish that the damage-associated molecular patterns (DAMPs) released by the tumor cells are accountable for the activation of dendritic cells (DCs). RESULTS: We demonstrated that F1929-1458 treatment enhanced T cell infiltration and T cell mediated tumor regression, its anti-tumor effect was nullified in nude mice and was abolished after anti-CD3 neutralizing antibody treatment. We found that F1929-1458 binds NFKB1 to activate the NF-kappaB signaling pathway in tumor cells. The activation further elicits cellular stress, causing tumor cells to release DAMPs (HMGB1-gDNA complex, ATP, and OxLDL). These DAMPs, in turn, stimulate the cGAS-STING and NLRP3 inflammasome pathways in DCs, resulting in the generation of type I IFNs and IL-1beta. These cytokines facilitate the maturation of DCs and antigen presentation, ultimately enhancing T cell-mediated anti-tumor immunity. Additionally, we showed that the combination of F1929-1458 and the anti-PD-1 antibody exhibited a synergistic anti-tumor effect. CONCLUSION: Our study identified a novel NFKB1 agonist that promotes anti-tumor immunity by remodeling the TME and activating DCs and that may provide a new way to overcome resistance to current anti-tumor immunotherapy in colorectal cancer.",
+    "keywords": [
+      "Anti-tumor immunity",
+      "DAMPs",
+      "F1929-1458",
+      "NF-kappaB signaling pathway",
+      "NFKB1"
+    ],
+    "mesh_terms": [
+      "*Colorectal Neoplasms/immunology/pathology/drug therapy",
+      "Animals",
+      "*Tumor Microenvironment/drug effects",
+      "*Dendritic Cells/drug effects/immunology",
+      "Cell Line, Tumor",
+      "Humans",
+      "*NF-kappa B p50 Subunit/agonists/metabolism",
+      "Mice",
+      "Neoplastic Stem Cells/drug effects/pathology",
+      "*Immunity/drug effects",
+      "Alarmins/metabolism",
+      "*Antineoplastic Agents/pharmacology/therapeutic use",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Ying",
+        "Li, Qiaoming",
+        "Wang, Zixiang",
+        "Sun, Ling V",
+        "Hou, Steven X"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Li Q",
+        "Wang Z",
+        "Sun LV",
+        "Hou SX"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2410-793X"
+      ],
+      "affiliations": [
+        "Department of Cell and Developmental Biology at School of Life Sciences, State Key Laboratory of Genetic Engineering, Institute of Metabolism and Integrative Biology, Human Phenome Institute, Children's Hospital, Zhongshan Hospital, Fudan University, Shanghai, 200438, China.",
+        "Department of Cell and Developmental Biology at School of Life Sciences, State Key Laboratory of Genetic Engineering, Institute of Metabolism and Integrative Biology, Human Phenome Institute, Children's Hospital, Zhongshan Hospital, Fudan University, Shanghai, 200438, China.",
+        "Department of Cell and Developmental Biology at School of Life Sciences, State Key Laboratory of Genetic Engineering, Institute of Metabolism and Integrative Biology, Human Phenome Institute, Children's Hospital, Zhongshan Hospital, Fudan University, Shanghai, 200438, China.",
+        "Department of Cell and Developmental Biology at School of Life Sciences, State Key Laboratory of Genetic Engineering, Institute of Metabolism and Integrative Biology, Human Phenome Institute, Children's Hospital, Zhongshan Hospital, Fudan University, Shanghai, 200438, China. lingsun@fudan.edu.cn.",
+        "Department of Cell and Developmental Biology at School of Life Sciences, State Key Laboratory of Genetic Engineering, Institute of Metabolism and Integrative Biology, Human Phenome Institute, Children's Hospital, Zhongshan Hospital, Fudan University, Shanghai, 200438, China. stevenhou@fudan.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Ying",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology at School of Life Sciences, State Key Laboratory of Genetic Engineering, Institute of Metabolism and Integrative Biology, Human Phenome Institute, Children's Hospital, Zhongshan Hospital, Fudan University, Shanghai, 200438, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qiaoming",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology at School of Life Sciences, State Key Laboratory of Genetic Engineering, Institute of Metabolism and Integrative Biology, Human Phenome Institute, Children's Hospital, Zhongshan Hospital, Fudan University, Shanghai, 200438, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zixiang",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology at School of Life Sciences, State Key Laboratory of Genetic Engineering, Institute of Metabolism and Integrative Biology, Human Phenome Institute, Children's Hospital, Zhongshan Hospital, Fudan University, Shanghai, 200438, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Ling V",
+        "short_name": "Sun LV",
+        "identifiers": [
+          "0000-0003-2410-793X"
+        ],
+        "affiliations": [
+          "Department of Cell and Developmental Biology at School of Life Sciences, State Key Laboratory of Genetic Engineering, Institute of Metabolism and Integrative Biology, Human Phenome Institute, Children's Hospital, Zhongshan Hospital, Fudan University, Shanghai, 200438, China. lingsun@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Hou, Steven X",
+        "short_name": "Hou SX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology at School of Life Sciences, State Key Laboratory of Genetic Engineering, Institute of Metabolism and Integrative Biology, Human Phenome Institute, Children's Hospital, Zhongshan Hospital, Fudan University, Shanghai, 200438, China. stevenhou@fudan.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2025 May 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/21 00:29",
+    "fetched_at": "2026-10-05 03:51:35"
+  },
+  "links": {
+    "cites": [
+      "42653402",
+      "42633379",
+      "42226921",
+      "41704419",
+      "41354099"
+    ],
+    "refs": [
+      "39019974",
+      "38599169",
+      "38239560",
+      "37820583",
+      "37820582",
+      "37786300",
+      "37535729",
+      "37211559",
+      "36705879",
+      "36352227",
+      "35732115",
+      "35681225",
+      "35378213",
+      "35325594",
+      "35281921",
+      "35181780",
+      "35157987",
+      "34874513",
+      "34678227",
+      "34389815",
+      "34062119",
+      "33877596",
+      "33824268",
+      "32302571",
+      "31924786",
+      "31800176",
+      "31740819",
+      "29625053",
+      "29226797",
+      "28782469",
+      "28102259",
+      "28018360",
+      "27718847",
+      "27680705",
+      "27005831",
+      "25704823",
+      "24616500",
+      "23890059",
+      "23258413",
+      "22895640",
+      "21772280",
+      "21362564",
+      "17122772",
+      "17122771",
+      "16340960",
+      "16340959",
+      "15483317",
+      "12750173",
+      "12511873",
+      "12097249",
+      "11983228",
+      "11509174",
+      "9521319"
+    ],
+    "similar": [
+      "40394677",
+      "40812610",
+      "42206267",
+      "24362470",
+      "40665874",
+      "41260904",
+      "39368338",
+      "41981447",
+      "41291775",
+      "34016722",
+      "41796309",
+      "37786300",
+      "41566465",
+      "40349900",
+      "41246306",
+      "40977690",
+      "34526097",
+      "32727810",
+      "41436831",
+      "33526609",
+      "38555819",
+      "41564474",
+      "37531900",
+      "42116133",
+      "41622236",
+      "40520004",
+      "28807001",
+      "30683126",
+      "40207651",
+      "37771774",
+      "42394822",
+      "41687545",
+      "30321818",
+      "42260484",
+      "41716413",
+      "42184673",
+      "39353381",
+      "42304527",
+      "27423825",
+      "41789073",
+      "39832699",
+      "41988184",
+      "41171702",
+      "40859952",
+      "36209176",
+      "40300857",
+      "42574810",
+      "29390972",
+      "42458463",
+      "33408094",
+      "39642461",
+      "34049930",
+      "41925912",
+      "39877587",
+      "42050706",
+      "39826284",
+      "38970078",
+      "42165513",
+      "38986909",
+      "41380410",
+      "39531934",
+      "42057205",
+      "39592531",
+      "40440957",
+      "31924786",
+      "39344665",
+      "41484455",
+      "40643531",
+      "26472466",
+      "41601391",
+      "25371568",
+      "33537094",
+      "36581220",
+      "25483888",
+      "38580332",
+      "42419183",
+      "27172902",
+      "35148751",
+      "38906202",
+      "40103499",
+      "39278301",
+      "30819254",
+      "41965764",
+      "41038145",
+      "40531239",
+      "42000707",
+      "42541898",
+      "41253490",
+      "40093909",
+      "39326815",
+      "31547863",
+      "40409102",
+      "40174816",
+      "28153581",
+      "35793868",
+      "40890772",
+      "38336268",
+      "42156849",
+      "42061111",
+      "41242665"
+    ],
+    "review": [
+      "40394677",
+      "41566465",
+      "41687545"
+    ],
+    "pmc": [
+      "12090520"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-06576-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=40394677",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40394677/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STING1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1260",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

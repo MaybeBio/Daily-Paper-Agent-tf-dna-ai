@@ -1,0 +1,141 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.06.627191",
+  "title": "Efficient High-Throughput DNA Breathing Features Generation Using Jax-EPBD",
+  "doi": "10.1101/2024.12.06.627191",
+  "abstract": "DNA breathing dynamics—transient base-pair opening and closing due to thermal fluctuations—are vital for processes like transcription, replication, and repair. Traditional models, such as the Extended Peyrard-Bishop-Dauxois (EPBD), provide insights into these dynamics but are computationally limited for long sequences. We present JAX-EPBD , a high-throughput Langevin molecular dynamics framework leveraging JAX for GPU-accelerated simulations, achieving up to 30x speedup and superior scalability compared to the original C-based EPBD implementation. JAX-EPBD efficiently captures time-dependent behaviors, including bubble lifetimes and base flipping kinetics, enabling genome-scale analyses. Applying it to transcription factor (TF) binding affinity prediction using SELEX datasets, we observed consistent improvements in R 2 values when incorporating breathing features with sequence data. Validating on the 77-bp AAV P5 promoter, JAX-EPBD revealed sequence-specific differences in bubble dynamics correlating with transcriptional activity. These findings establish JAX-EPBD as a powerful and scalable tool for understanding DNA breathing dynamics and their role in gene regulation and transcription factor binding.",
+  "authors": [
+    "Inan TT",
+    "Kabir A",
+    "Rasmussen K",
+    "Shehu A",
+    "Usheva A",
+    "Bishop A",
+    "Alexandrov B",
+    "Bhattarai M"
+  ],
+  "published_date": "2024-12-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.06.627191",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.06.627191.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR954061",
+    "raw_record": {
+      "id": "PPR954061",
+      "source": "PPR",
+      "doi": "10.1101/2024.12.06.627191",
+      "title": "Efficient High-Throughput DNA Breathing Features Generation Using Jax-EPBD",
+      "authorString": "Inan TT, Kabir A, Rasmussen K, Shehu A, Usheva A, Bishop A, Alexandrov B, Bhattarai M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Inan TT",
+            "lastName": "Inan",
+            "firstName": "Toki Tahmid",
+            "initials": "TT"
+          },
+          {
+            "fullName": "Kabir A",
+            "lastName": "Kabir",
+            "firstName": "Anowarul",
+            "initials": "A"
+          },
+          {
+            "fullName": "Rasmussen K",
+            "lastName": "Rasmussen",
+            "firstName": "Kim",
+            "initials": "K"
+          },
+          {
+            "fullName": "Shehu A",
+            "lastName": "Shehu",
+            "firstName": "Amarda",
+            "initials": "A"
+          },
+          {
+            "fullName": "Usheva A",
+            "lastName": "Usheva",
+            "firstName": "Anny",
+            "initials": "A"
+          },
+          {
+            "fullName": "Bishop A",
+            "lastName": "Bishop",
+            "firstName": "Alan",
+            "initials": "A"
+          },
+          {
+            "fullName": "Alexandrov B",
+            "lastName": "Alexandrov",
+            "firstName": "Boian",
+            "initials": "B"
+          },
+          {
+            "fullName": "Bhattarai M",
+            "lastName": "Bhattarai",
+            "firstName": "Manish",
+            "initials": "M"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "DNA breathing dynamics—transient base-pair opening and closing due to thermal fluctuations—are vital for processes like transcription, replication, and repair. Traditional models, such as the Extended Peyrard-Bishop-Dauxois (EPBD), provide insights into these dynamics but are computationally limited for long sequences. We present  JAX-EPBD , a high-throughput Langevin molecular dynamics framework leveraging  JAX for GPU-accelerated simulations, achieving up to 30x speedup and superior scalability compared to the original C-based EPBD implementation.  JAX-EPBD efficiently captures time-dependent behaviors, including bubble lifetimes and base flipping kinetics, enabling genome-scale analyses. Applying it to transcription factor (TF) binding affinity prediction using SELEX datasets, we observed consistent improvements in  R 2 values when incorporating breathing features with sequence data. Validating on the 77-bp AAV P5 promoter,  JAX-EPBD revealed sequence-specific differences in bubble dynamics correlating with transcriptional activity. These findings establish  JAX-EPBD as a powerful and scalable tool for understanding DNA breathing dynamics and their role in gene regulation and transcription factor binding.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.12.06.627191"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.06.627191"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc0",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-12-15",
+      "firstPublicationDate": "2024-12-12",
+      "firstIndexDate": "2024-12-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

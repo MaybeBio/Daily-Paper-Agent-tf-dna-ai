@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, conclusions) as provided by the user.
+- **Assessment boundary** The scientific content, methodology, data interpretation, and claims as presented in the provided text. No external validation or supplementary data (e.g., figures, tables, videos) was available for direct inspection.
+- **Shared manuscript claim summary** The manuscript uses all-atom molecular dynamics simulations to compare two alternatively-spliced UPF1 isoforms (with and without an 11-amino-acid insertion in the regulatory loop) in complex with various GC- and AU-rich mRNA motifs. The authors report distinct open/closed conformations between the 1B and RecA2 domains, differential binding affinities, and effects of cancer-associated mutations on UPF1-mRNA interactions, proposing a link between these structural features and UPF1 catalytic activity in NMD.
+- **Visible evidence base** Text descriptions of results, methods, and conclusions. References to figures (Figure 1-5), supplementary figures (S1-S3), tables (S1, S2), and videos (S1-S3) are made, but their content is not directly visible in the provided material.
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, and videos referenced in the text. Specific numerical data (e.g., RMSD values, occupancy percentages, distance measurements) are only described qualitatively. No raw simulation trajectories or analysis scripts are provided.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and potentially interesting question regarding the structural dynamics of UPF1 isoforms and their mRNA binding specificity. The use of molecular dynamics simulations to explore the impact of a regulatory loop insertion on conformational states and binding is a reasonable approach. However, the current presentation relies heavily on qualitative descriptions of results without providing the actual data (figures, tables, numerical values) for verification. The link between the observed conformational states and functional outcomes (ATPase activity, NMD efficiency) is largely speculative and not directly tested. The manuscript would benefit from a more rigorous quantitative analysis and a clearer connection to experimental evidence.
+- **Who would be interested in the results, and why** Researchers in the fields of RNA biology, mRNA surveillance, and structural biology, particularly those studying NMD mechanisms, RNA helicases, and the functional consequences of alternative splicing. The findings on isoform-specific mRNA binding and the effects of cancer mutations could be of interest to those investigating disease-associated dysregulation of NMD.
+- **Major strengths** The study addresses a specific and mechanistically important question about UPF1 isoform function. The use of MD simulations to probe conformational dynamics and binding specificity is a suitable approach. The inclusion of cancer-associated mutations adds a potentially translational dimension. The authors identify specific residues involved in mRNA binding, which could guide future experimental studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and reproducibility
+  - **Claim pointer** The manuscript claims specific conformational states ('open' and 'closed') and differential binding affinities between UPF1 isoforms and various mRNA motifs, and that these correlate with catalytic activity.
+  - **Evidence pointer** Results sections 2.1, 2.2, 2.3; Figures 2, 3, 4, 5; Tables S1, S2; Videos S1-S3. Location not provided for specific data points.
+  - **Concern** The core findings are presented only through qualitative descriptions in the text. The actual data supporting the claims (e.g., distance plots, RMSD/RMSF graphs, occupancy tables, interaction maps) are not visible in the provided material. Without access to these data, the validity of the stated conformational states, binding preferences, and mutation effects cannot be independently assessed. The manuscript's conclusions rest entirely on the interpretation of data that the reviewer cannot see.
+  - **Why it matters** A scientific claim must be verifiable from the presented evidence. The current submission does not allow for this verification. The reader cannot judge whether the simulations were converged, whether the observed differences are statistically significant, or whether the qualitative descriptions accurately reflect the simulation data. This is a fundamental issue that prevents the case from being established.
+  - **Resolution test** The authors must provide the actual figures, tables, and numerical data (with error bars and statistical analysis) for all key results. The data should be presented in a way that allows the reader to directly evaluate the claims about conformational states, binding affinities, and mutation effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific rigor and interpretation
+  - **Claim pointer** The manuscript proposes that the 'closed conformation' between 1B and RecA2 domains induces catalytic activity, while the 'open conformation' reduces it, and that this is linked to mRNA binding affinity.
+  - **Evidence pointer** Results sections 2.1, 2.2, 2.3; Conclusions. Location not provided.
+  - **Concern** The causal link between the observed conformational states, binding affinity, and catalytic activity is not established. The simulations only provide static or dynamic structural information. The manuscript does not measure or simulate ATPase activity directly. The claim that a 'closed conformation' induces catalytic activity is an inference from structural data and prior literature, but it is not tested in this study. The relationship between binding affinity and activity is also presented as a simple correlation without considering potential complexities (e.g., induced fit, allosteric effects beyond the 1B-RecA2 distance).
+  - **Why it matters** The central hypothesis of the paper is that the structural differences between isoforms explain their functional differences. Without directly testing or simulating the catalytic step, the functional conclusions remain speculative. The manuscript overreaches in its interpretation, presenting a plausible but unproven mechanism as a finding.
+  - **Resolution test** The authors should either (a) perform simulations that directly probe the ATPase active site or the catalytic cycle, (b) clearly frame the functional link as a hypothesis or prediction rather than a conclusion, or (c) support their claims with experimental data from the literature that directly connects these specific conformational states to activity in UPF1.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodology and validation
+  - **Claim pointer** The manuscript states that the UPF1 isoform_1 structure was modeled using the isoform_2 crystal structure as a template, and that the position of poly(U) mRNA was taken from a different structure (pdb id: 2xzo).
+  - **Evidence pointer** Materials and Methods, Section 3. Location not provided.
+  - **Concern** The methods for building the isoform_1 model and for placing the mRNA in the isoform_1 and isoform_2 systems are described, but the validation of these models is not presented. For example, there is no mention of how the modeled loop was checked for stability, whether the mRNA placement was energetically favorable, or whether the simulation results are sensitive to the initial placement. The use of a template structure (2xzo) that lacks the CH domain to place mRNA in a structure that includes it (2wjv) could introduce artifacts.
+  - **Why it matters** The reliability of the simulation results depends on the quality of the starting models. If the modeled loop or the mRNA placement is not properly validated, the subsequent dynamics and binding interactions could be artifacts of the model building rather than real features of the system. This is a technical concern that could affect the validity of all downstream results.
+  - **Resolution test** The authors should provide a validation of their modeled systems, such as a comparison of the modeled loop conformation with known structures, an analysis of the stability of the mRNA in the binding site over the simulation, or a discussion of the potential limitations of using a template without the CH domain.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Abstract and Results sections
+  - **Evidence pointer** Abstract; Sections 2.1, 2.2. Location not provided.
+  - **Issue** The abstract and results sections use terms like 'open' and 'closed' conformations without a clear, quantitative definition. The reader is left to infer what these terms mean in terms of specific structural parameters.
+  - **Required correction** Define the 'open' and 'closed' conformations explicitly, for example, by specifying the distance range or angle that distinguishes them. This would make the claims more precise and testable.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Section 3. Location not provided.
+  - **Issue** The methods section describes the simulation setup but does not provide details on the number of replicates, the convergence criteria, or the statistical analysis used to compare different systems. It is unclear if the reported differences are based on single simulations or multiple replicates.
+  - **Required correction** Provide details on the number of independent simulations performed, how convergence was assessed, and what statistical tests were used to support the claims of differential binding or stability.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3, Figure 5. Location not provided.
+  - **Issue** The manuscript states that the UP1P533T system shows decreased binding and increased 1B-RecA2 distance, but it does not discuss the potential mechanism by which this specific mutation causes these effects. Is it a direct effect on the binding interface, or an allosteric effect?
+  - **Required correction** Add a brief discussion of the potential structural or dynamic basis for the observed effects of the P533T mutation, based on the simulation data or known structural information.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of accessible data (figures, tables, numerical values) to support the qualitative claims. Without this, the results cannot be verified. Additionally, the lack of direct simulation or measurement of catalytic activity means the central functional claim is not supported by the presented evidence. The modeling methodology requires validation to ensure the results are not artifacts of the system setup.
+- **Assessment against Nature-style criteria**
+  - **Originality** The question of how a specific insertion in the UPF1 regulatory loop affects mRNA binding specificity and conformational dynamics is a specific and somewhat novel angle. However, the general concept of UPF1 conformational changes upon RNA binding is known. The originality is moderate.
+  - **Scientific importance** Understanding the molecular basis of UPF1 isoform-specific function is important for the NMD field and for understanding how alternative splicing can modulate core cellular pathways. The potential link to cancer mutations adds to the importance. However, the current study is purely computational and does not provide new functional data, limiting its immediate impact.
+  - **Interdisciplinary readership** The topic is primarily of interest to molecular biologists, biochemists, and computational biophysicists. The findings are unlikely to attract a broad interdisciplinary audience beyond these fields.
+  - **Technical soundness** The technical soundness cannot be fully assessed due to the lack of visible data. The methodology (MD simulations) is standard, but the validation and statistical rigor are not demonstrated. The interpretation linking structure to function is not fully supported.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with MD simulations and NMD. The abstract is somewhat accessible, but the results and methods sections would be challenging for a nonspecialist. The lack of clear definitions for key terms (e.g., 'open'/'closed') further hinders readability.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question, but the lack of accessible data and the speculative nature of the functional conclusions prevent the case from being made. The authors should be encouraged to resubmit after providing the full dataset, quantitative analysis, and a more cautious interpretation of the functional implications.
+
+## Risk / unsupported claims
+- The claim that the 'closed conformation' induces catalytic activity is unsupported by the presented evidence, as no catalytic activity was measured or simulated.
+- The claim that GC-rich mRNA motifs have better binding with UPF1 compared to AU-rich motifs is presented as a general conclusion, but the supporting data (Figure 3a) is not visible and the statistical significance is not reported.
+- The claim that the 11-amino-acid insertion is responsible for the open/closed conformational difference is based on simulations of two isoforms, but the functional consequence of this difference is not directly tested.
+- The specific effects of the cancer mutations (P533L/T, A839T) on binding and conformation are described, but the mechanistic basis and the relevance to cancer biology are not discussed in depth.
+- The statement that the findings can "inform NMD-associated mechanistic and kinetic studies" is a forward-looking suggestion, not a supported conclusion from the current data.

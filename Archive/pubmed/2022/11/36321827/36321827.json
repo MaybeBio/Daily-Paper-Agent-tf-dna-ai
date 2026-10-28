@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "36321827",
+    "doi": "10.1128/msystems.00480-22",
+    "title": "Coordination of CcpA and CodY Regulators in Staphylococcus aureus USA300 Strains."
+  },
+  "content": {
+    "abstract": "The complex cross talk between metabolism and gene regulatory networks makes it difficult to untangle individual constituents and study their precise roles and interactions. To address this issue, we modularized the transcriptional regulatory network (TRN) of the Staphylococcus aureus USA300 strain by applying independent component analysis (ICA) to 385 RNA sequencing samples. We then combined the modular TRN model with a metabolic model to study the regulation of carbon and amino acid metabolism. Our analysis showed that regulation of central carbon metabolism by CcpA and amino acid biosynthesis by CodY are closely coordinated. In general, S. aureus increases the expression of CodY-regulated genes in the presence of preferred carbon sources such as glucose. This transcriptional coordination was corroborated by metabolic model simulations that also showed increased amino acid biosynthesis in the presence of glucose. Further, we found that CodY and CcpA cooperatively regulate the expression of ribosome hibernation-promoting factor, thus linking metabolic cues with translation. In line with this hypothesis, expression of CodY-regulated genes is tightly correlated with expression of genes encoding ribosomal proteins. Together, we propose a coarse-grained model where expression of S. aureus genes encoding enzymes that control carbon flux and nitrogen flux through the system is coregulated with expression of translation machinery to modularly control protein synthesis. While this work focuses on three key regulators, the full TRN model we present contains 76 total independently modulated sets of genes, each with the potential to uncover other complex regulatory structures and interactions. IMPORTANCE Staphylococcus aureus is a versatile pathogen with an expanding antibiotic resistance profile. The biology underlying its clinical success emerges from an interplay of many systems such as metabolism and gene regulatory networks. This work brings together models for these two systems to establish fundamental principles governing the regulation of S. aureus central metabolism and protein synthesis. Studies of these fundamental biological principles are often confined to model organisms such as Escherichia coli. However, expanding these models to pathogens can provide a framework from which complex and clinically important phenotypes such as virulence and antibiotic resistance can be better understood. Additionally, the expanded gene regulatory network model presented here can deconvolute the biology underlying other important phenotypes in this pathogen.",
+    "keywords": [
+      "Staphylococcus aureus",
+      "gene regulation",
+      "metabolism",
+      "network modeling"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Staphylococcus aureus/genetics",
+      "Repressor Proteins/genetics",
+      "Virulence/genetics",
+      "*Staphylococcal Infections/genetics",
+      "Glucose/metabolism",
+      "Amino Acids/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Poudel, Saugat",
+        "Hefner, Ying",
+        "Szubin, Richard",
+        "Sastry, Anand",
+        "Gao, Ye",
+        "Nizet, Victor",
+        "Palsson, Bernhard O"
+      ],
+      "short_names": [
+        "Poudel S",
+        "Hefner Y",
+        "Szubin R",
+        "Sastry A",
+        "Gao Y",
+        "Nizet V",
+        "Palsson BO"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bioengineering, University of California San Diego, San Diego, California, USA.",
+        "Department of Bioengineering, University of California San Diego, San Diego, California, USA.",
+        "Department of Bioengineering, University of California San Diego, San Diego, California, USA.",
+        "Department of Bioengineering, University of California San Diego, San Diego, California, USA.",
+        "Department of Bioengineering, University of California San Diego, San Diego, California, USA.",
+        "Department of Biological Sciences, University of California San Diego, San Diego, California, USA.",
+        "Collaborative to Halt Antibiotic-Resistant Microbes (CHARM), Department of Pediatrics, University of California San Diego, San Diego, California, USA.",
+        "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California San Diego, San Diego, California, USA.",
+        "Department of Bioengineering, University of California San Diego, San Diego, California, USA.",
+        "Collaborative to Halt Antibiotic-Resistant Microbes (CHARM), Department of Pediatrics, University of California San Diego, San Diego, California, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Poudel, Saugat",
+        "short_name": "Poudel S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, San Diego, California, USA."
+        ]
+      },
+      {
+        "full_name": "Hefner, Ying",
+        "short_name": "Hefner Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, San Diego, California, USA."
+        ]
+      },
+      {
+        "full_name": "Szubin, Richard",
+        "short_name": "Szubin R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, San Diego, California, USA."
+        ]
+      },
+      {
+        "full_name": "Sastry, Anand",
+        "short_name": "Sastry A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, San Diego, California, USA."
+        ]
+      },
+      {
+        "full_name": "Gao, Ye",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, San Diego, California, USA.",
+          "Department of Biological Sciences, University of California San Diego, San Diego, California, USA."
+        ]
+      },
+      {
+        "full_name": "Nizet, Victor",
+        "short_name": "Nizet V",
+        "identifiers": [],
+        "affiliations": [
+          "Collaborative to Halt Antibiotic-Resistant Microbes (CHARM), Department of Pediatrics, University of California San Diego, San Diego, California, USA.",
+          "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California San Diego, San Diego, California, USA."
+        ]
+      },
+      {
+        "full_name": "Palsson, Bernhard O",
+        "short_name": "Palsson BO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, San Diego, California, USA.",
+          "Collaborative to Halt Antibiotic-Resistant Microbes (CHARM), Department of Pediatrics, University of California San Diego, San Diego, California, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "mSystems"
+    ],
+    "journal_abbrev": [
+      "mSystems"
+    ],
+    "pub_date": "2022 Dec 20",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/03 06:00",
+    "fetched_at": "2026-09-28 15:43:17"
+  },
+  "links": {
+    "cites": [
+      "41650264",
+      "41488771",
+      "41479409",
+      "41294339",
+      "41146725",
+      "41099525",
+      "40961346",
+      "40673679",
+      "39937900",
+      "39745366",
+      "39640530",
+      "39494532",
+      "39464055",
+      "38934464",
+      "37431942"
+    ],
+    "refs": [
+      "37310465",
+      "35306876",
+      "34879815",
+      "34777307",
+      "34570751",
+      "34253058",
+      "33852189",
+      "33311500",
+      "32669712",
+      "32616573",
+      "32414924",
+      "31797920",
+      "31684101",
+      "31451773",
+      "31080069",
+      "30625152",
+      "30297357",
+      "30012726",
+      "29357354",
+      "29243175",
+      "29072300",
+      "28755958",
+      "28196956",
+      "27902777",
+      "27312411",
+      "27286824",
+      "27135538",
+      "27116338",
+      "27001516",
+      "26632588",
+      "25963986",
+      "25368190",
+      "25157083",
+      "24987116",
+      "24945831",
+      "24551039",
+      "24279750",
+      "23927696",
+      "23925119",
+      "23404398",
+      "23209408",
+      "22556256",
+      "22367118",
+      "22106209",
+      "21253898",
+      "21106498",
+      "21097612",
+      "20664636",
+      "20212490",
+      "19458158",
+      "19450265",
+      "18700257",
+      "18197761",
+      "17986343",
+      "17982469",
+      "10946390"
+    ],
+    "similar": [
+      "36321827",
+      "37310465",
+      "35735992",
+      "32616573",
+      "35862951",
+      "30297357",
+      "29712876",
+      "19450265",
+      "27116338",
+      "27329753",
+      "36135382",
+      "22526672",
+      "29357354",
+      "25069977",
+      "29378891",
+      "29967117",
+      "37367300",
+      "29941424",
+      "39382300",
+      "39302699",
+      "32015143",
+      "28130304",
+      "19251851",
+      "31696578",
+      "30012726",
+      "20363936",
+      "25340474",
+      "25374845",
+      "28448019",
+      "18156263",
+      "16569828",
+      "31501288",
+      "36106854",
+      "28196956",
+      "28910576",
+      "28536677",
+      "30228237",
+      "34781744",
+      "35475645",
+      "26260460",
+      "33958641",
+      "23132867",
+      "21131496",
+      "28005941",
+      "20212088",
+      "30424799",
+      "30540769",
+      "31471305",
+      "16995897",
+      "24194525",
+      "20525824",
+      "19050758",
+      "26895237",
+      "30833333",
+      "31645429",
+      "22106056",
+      "23209405",
+      "33526614",
+      "24068926",
+      "25547798",
+      "20333240",
+      "34101490",
+      "29099691",
+      "15916606",
+      "31937649",
+      "24391052",
+      "30933991",
+      "23209408",
+      "35389253",
+      "19665927",
+      "27530340",
+      "35806357",
+      "16531115",
+      "30150231",
+      "38534138",
+      "26083414",
+      "32843554",
+      "31217288",
+      "38814539",
+      "27185828",
+      "35546540",
+      "32282137",
+      "36167441",
+      "35281456",
+      "31912866",
+      "22106209",
+      "31209148",
+      "34126772",
+      "25368190",
+      "34287060",
+      "18304359",
+      "36809838",
+      "31744924",
+      "37278526",
+      "31437692",
+      "30760492",
+      "38591898",
+      "23442205",
+      "24651379"
+    ],
+    "review": [
+      "36321827",
+      "35806357"
+    ],
+    "pmc": [
+      "9765215"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/msystems.00480-22?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/staphylococcalinfections.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Staphylococcal Infections"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36321827/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36321827",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3549",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

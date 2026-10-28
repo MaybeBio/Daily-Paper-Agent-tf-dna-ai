@@ -1,0 +1,295 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.19.644233",
+  "title": "deepTFBS: Improving within- and cross-species prediction of transcription factor binding using deep multi-task and transfer learning",
+  "doi": "10.1101/2025.03.19.644233",
+  "abstract": "The precise prediction of transcription factor binding sites (TFBSs) is crucial in understanding gene regulation. In this study, we present deepTFBS, a comprehensive deep learning (DL) framework that builds a robust DNA language model of TF binding grammar for accurately predicting TFBSs within and across plant species. Taking advantages of multi-task DL and transfer learning, deepTFBS is capable of leveraging the knowledge learned from large-scale TF binding profiles to enhance the prediction of TFBSs under small-sample training and cross-species prediction tasks. When tested using available information on 359 Arabidopsis TFs, deepTFBS outperformed previously described prediction strategies, including position weight matrix, deepSEA and DanQ, with a 244.49%, 49.15%, and 23.32% improvement of the area under the precision-recall curve (PRAUC), respectively. Further cross-species prediction of TFBS in wheat showed that deepTFBS yielded a significant PRAUC improvement of 30.6% over these three baseline models. deepTFBS can also utilize information from gene conservation and binding motifs, enabling efficient TFBS prediction in species where experimental data availability is limited. A case study, focusing on the WUSCHEL (WUS) transcription factor, illustrated the potential use of deepTFBS in cross-species applications, in our example between Arabidopsis and wheat. deepTFBS is publically available at https://github.com/cma2015/deepTFBS.",
+  "authors": [
+    "Jingjing Zhai",
+    "Yuzhou Zhang",
+    "Chujun Zhang",
+    "Xiaotong Yi",
+    "Minggui Song",
+    "Chenglong Tang",
+    "Pengjun Ding",
+    "Zenglin Li",
+    "Chuang Ma"
+  ],
+  "published_date": "2025-03-20",
+  "updated_date": "2025-03-23T01:24:28Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.19.644233",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.19.644233.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T23:25:39Z",
+        "timestamp": 1768519539099,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            20
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 0,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                20
+              ]
+            ],
+            "date-time": "2025-03-20T00:00:00Z",
+            "timestamp": 1742428800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:p>The precise prediction of transcription factor binding sites (TFBSs) is crucial in understanding gene regulation. In this study, we present deepTFBS, a comprehensive deep learning (DL) framework that builds a robust DNA language model of TF binding grammar for accurately predicting TFBSs within and across plant species. Taking advantages of multi-task DL and transfer learning, deepTFBS is capable of leveraging the knowledge learned from large-scale TF binding profiles to enhance the prediction of TFBSs under small-sample training and cross-species prediction tasks. When tested using available information on 359 Arabidopsis TFs, deepTFBS outperformed previously described prediction strategies, including position weight matrix, deepSEA and DanQ, with a 244.49%, 49.15%, and 23.32% improvement of the area under the precision-recall curve (PRAUC), respectively. Further cross-species prediction of TFBS in wheat showed that deepTFBS yielded a significant PRAUC improvement of 30.6% over these three baseline models. deepTFBS can also utilize information from gene conservation and binding motifs, enabling efficient TFBS prediction in species where experimental data availability is limited. A case study, focusing on the WUSCHEL (WUS) transcription factor, illustrated the potential use of deepTFBS in cross-species applications, in our example between Arabidopsis and wheat. deepTFBS is publically available at https://github.com/cma2015/deepTFBS.</jats:p>",
+      "DOI": "10.1101/2025.03.19.644233",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            23
+          ]
+        ],
+        "date-time": "2025-03-23T01:24:28Z",
+        "timestamp": 1742693068000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "deepTFBS: Improving within- and cross-species prediction of transcription factor binding using deep multi-task and transfer learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1535-3103",
+          "authenticated-orcid": false,
+          "given": "Jingjing",
+          "family": "Zhai",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2627-6956",
+          "authenticated-orcid": false,
+          "given": "Yuzhou",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chujun",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiaotong",
+          "family": "Yi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4406-3877",
+          "authenticated-orcid": false,
+          "given": "Minggui",
+          "family": "Song",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chenglong",
+          "family": "Tang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Pengjun",
+          "family": "Ding",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1608-8890",
+          "authenticated-orcid": false,
+          "given": "Zenglin",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9612-7898",
+          "authenticated-orcid": false,
+          "given": "Chuang",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.03.19.644233",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T08:19:17Z",
+        "timestamp": 1768465157000
+      },
+      "score": 103.36838,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.03.19.644233"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            20
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.1101/2025.03.19.644233",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1002/advs.202503135",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

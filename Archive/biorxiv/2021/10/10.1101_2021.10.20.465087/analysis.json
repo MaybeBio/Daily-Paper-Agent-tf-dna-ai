@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.10.20.465087",
+  "title": "A Network-based Deep Learning Framework Catalyzes GWAS and Multi-Omics Findings to Biology and Drug Repurposing for Alzheimer’s Disease",
+  "authors": "Xu J; Hou Y; Zhou Y; Hu M; Cheng F",
+  "journal": "bioRxiv",
+  "published_date": "2021-10-21",
+  "window": {
+    "start": "2021-10-18",
+    "end": "2021-10-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用网络拓扑深度学习整合GWAS与多组学数据预测阿尔茨海默病风险基因，虽涉及转录因子结合QTL特征，但核心是疾病基因识别与药物重定位，非蛋白质-DNA互作建模，方法可迁移性有限。",
+  "abstract": "Human genome sequencing studies have identified numerous loci associated with complex diseases, including Alzheimer’s disease (AD). Translating human genetic findings (i.e., genome-wide association studies [GWAS]) to pathobiology and therapeutic discovery, however, remains a major challenge. To address this critical problem, we present a net work t opology-based deep learning framework to identify disease- a ssociated g enes (NETTAG). NETTAG is capable of integrating multigenomics data along with the protein-protein interactome to infer putative risk genes and drug targets impacted by GWAS loci. Specifically, we leverage non-coding GWAS loci effects on expression quantitative trait loci (eQTLs), histone-QTLs, and transcription factor binding-QTLs, enhancers and CpG islands, promoter regions, open chromatin, and promoter flanking regions. The key premises of NETTAG are that the disease risk genes exhibit distinct functional characteristics compared to non-risk genes and therefore can be distinguished by their aggregated genomic features under the human protein interactome. Applying NETTAG to the latest AD GWAS data, we identified 156 putative AD-risk genes (i.e., APOE , BIN1 , GSK3B , MARK4 , and PICALM ). We showed that predicted risk genes are: 1) significantly enriched in AD-related pathobiological pathways, 2) more likely to be differentially expressed regarding transcriptome and proteome of AD brains, and 3) enriched in druggable targets with approved medicines (i.e., choline and ibudilast). In summary, our findings suggest that understanding of human pathobiology and therapeutic development could benefit from a network-based deep learning methodology that utilizes GWAS findings under the multimodal genomic analyses.",
+  "abstract_zh": "人类基因组测序研究已鉴定出众多与复杂疾病相关的位点，包括阿尔茨海默病（AD）。然而，将人类遗传学发现（即全基因组关联研究 [GWAS]）转化为病理生物学和治疗发现，仍是一项重大挑战。为解决这一关键问题，我们提出了一种基于网络拓扑的深度学习框架，用于识别疾病相关基因（NETTAG）。NETTAG能够整合多基因组学数据以及蛋白质-蛋白质相互作用组，以推断受GWAS位点影响的推定风险基因和药物靶点。具体而言，我们利用非编码GWAS位点对表达数量性状位点（eQTLs）、组蛋白-QTLs、转录因子结合-QTLs、增强子、CpG岛、启动子区域、开放染色质和启动子侧翼区域的影响。NETTAG的关键前提是，疾病风险基因与非风险基因相比表现出独特的功能特征，因此可以通过其在人类蛋白质相互作用组下的聚合基因组特征进行区分。将NETTAG应用于最新的AD GWAS数据，我们识别出156个推定的AD风险基因（即APOE、BIN1、GSK3B、MARK4和PICALM）。我们表明，预测的风险基因：1）在AD相关病理生物学通路中显著富集，2）更可能在AD大脑的转录组和蛋白质组中差异表达，3）富集于具有已批准药物的可成药靶点（即胆碱和异丁司特）。总之，我们的发现表明，人类病理生物学的理解和治疗开发可能受益于一种基于网络的深度学习方法，该方法在多模态基因组分析中利用GWAS发现。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.10.20.465087",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.10.20.465087",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.10.20.465087/index.html"
+}

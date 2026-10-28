@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40458850",
+  "title": "Exploring Key Genes of Glutathione Metabolism in Systemic Lupus Erythematosus Based on Mendelian Randomisation, Single-Cell RNA Sequencing and Multiple Machine Learning Approaches.",
+  "authors": "Wang, Kejiang; Li, Xiaoqiong; Tang, Ying; Zhao, Lizhou",
+  "journal": "IET systems biology",
+  "published_date": "2025-06-03",
+  "window": {
+    "start": "2025-06-02",
+    "end": "2025-06-08"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究基于孟德尔随机化、单细胞测序和机器学习探索SLE中谷胱甘肽代谢关键基因，未涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Systemic lupus erythematosus (SLE) is a complex autoimmune disease characterised by immune dysregulation leading to inflammation and organ damage. Despite the rising global incidence of SLE, its aetiology remains unclear. We applied Mendelian randomisation (MR), multi-omics integration, machine learning (ML), and SHAP to identify key metabolites and genes associated with SLE, revealing the crucial role of the glutathione pathway. MR analysis was performed on 1400 serum metabolites, revealing significant enrichment in the glutathione metabolic pathway. Single-cell RNA sequencing (scRNA-seq) data classified monocytes into Metabolism_high and Metabolism_low groups based on glutathione metabolism scores. Differentially expressed genes were analysed using GSEA, metabolic pathway activity assessment, transcription factor prediction, cellular communication analysis, and Pseudotime analysis. LASSO regression identified hub genes and machine learning models (CatBoost, XGBoost, NGBoost) were developed. The SHAP method was used to interpret these models. Expression of key genes was validated across multiple datasets. MR analysis confirmed that metabolites were enriched in the glutathione pathway, identifying nine hub genes. Machine learning models achieved AUCs of 0.85, 0.80, and 0.83 in the validation set. SHAP analysis highlighted LAP3 as the top contributing gene across all models. scRNA-seq data showed that LAP3 plays a significant role in the immune microenvironment of SLE. Validation across multiple datasets (training, validation, and GSE112087) revealed elevated LAP3 expression in PBMCs of SLE patients, with AUCs of 0.935, 0.795, and 0.817, respectively, suggesting strong diagnostic potential. Glutathione metabolism is closely associated with SLE development and LAP3 may play a key role in its progression. Both glutathione metabolism and LAP3 could serve as potential targets for SLE diagnosis and treatment.",
+  "abstract_zh": "系统性红斑狼疮（SLE）是一种复杂的自身免疫性疾病，其特征是免疫失调导致炎症和器官损伤。尽管SLE的全球发病率不断上升，但其病因仍不清楚。我们应用孟德尔随机化（Mendelian randomisation, MR）、多组学整合、机器学习（machine learning, ML）和SHAP来识别与SLE相关的关键代谢物和基因，揭示了谷胱甘肽通路的关键作用。对1400种血清代谢物进行了MR分析，发现谷胱甘肽代谢通路显著富集。单细胞RNA测序（single-cell RNA sequencing, scRNA-seq）数据根据谷胱甘肽代谢评分将单核细胞分为Metabolism_high和Metabolism_low两组。使用GSEA、代谢通路活性评估、转录因子预测、细胞通讯分析和拟时间分析对差异表达基因进行了分析。LASSO回归识别出核心基因，并开发了机器学习模型（CatBoost、XGBoost、NGBoost）。使用SHAP方法解释这些模型。关键基因的表达在多个数据集中得到验证。MR分析确认代谢物富集于谷胱甘肽通路，识别出九个核心基因。机器学习模型在验证集中的AUC分别为0.85、0.80和0.83。SHAP分析强调LAP3是所有模型中贡献最大的基因。scRNA-seq数据显示，LAP3在SLE的免疫微环境中发挥重要作用。跨多个数据集（训练集、验证集和GSE112087）的验证显示，SLE患者外周血单个核细胞（PBMCs）中LAP3表达升高，AUC分别为0.935、0.795和0.817，表明其具有强大的诊断潜力。谷胱甘肽代谢与SLE的发展密切相关，LAP3可能在其进展中发挥关键作用。谷胱甘肽代谢和LAP3均可作为SLE诊断和治疗的潜在靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40458850/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40458850/",
+  "paper_page_path": "papers/pubmed/40458850/index.html"
+}

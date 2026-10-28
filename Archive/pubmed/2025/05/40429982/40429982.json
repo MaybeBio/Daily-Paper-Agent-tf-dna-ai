@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "40429982",
+    "doi": "10.3390/ijms26104839",
+    "title": "Structural Characterisation of TetR/AcrR Regulators in Streptomyces fildesensis So13.3: An In Silico CRISPR-Based Strategy to Influence the Suppression of Actinomycin D Production."
+  },
+  "content": {
+    "abstract": "The growing threat of antimicrobial resistance has intensified the search for new bioactive compounds, particularly in extreme environments such as Antarctica. Streptomyces fildesensis So13.3, isolated from Antarctic soil, harbours a biosynthetic gene cluster (BGC) associated with actinomycin D production, an antibiotic with biomedical relevance. This study investigates the regulatory role of TetR/AcrR transcription factors encoded within this biosynthetic gene cluster (BGC), focusing on their structural features and expression under different nutritional conditions. Additionally, we propose that repressing an active pathway could lead to the activation of silent biosynthetic routes, and our in-silico analysis provides a foundation for selecting key mutations and experimentally validating this strategy. Expression analysis revealed that TetR-279, in particular, was upregulated in ISP4 and IMA media, suggesting its participation in nutrient-dependent BGC regulation. Structural modelling identified key differences between TetR-206 and TetR-279, with the latter containing a tetracycline-repressor-like domain. Molecular dynamics simulations confirmed TetR-279's structural stability but showed that the S166P CRISPy-web-guided mutation considerably affected its flexibility, while V167A and V167I had modest effects. These results underscore the importance of integrating omics, structural prediction, and gene editing to evaluate and manipulate transcriptional regulation in non-model bacteria. Targeted disruption of TetR-279 may derepress actinomycin biosynthesis, enabling access to silent or cryptic secondary metabolites with potential pharmaceutical applications.",
+    "keywords": [
+      "Antarctic Streptomyces",
+      "CRISPR-based activation",
+      "biosynthetic gene clusters",
+      "molecular dynamics simulation"
+    ],
+    "mesh_terms": [
+      "*Streptomyces/genetics/metabolism",
+      "*Dactinomycin/biosynthesis",
+      "*Bacterial Proteins/genetics/metabolism/chemistry",
+      "Gene Expression Regulation, Bacterial",
+      "Multigene Family",
+      "Molecular Dynamics Simulation",
+      "*Transcription Factors/genetics/metabolism/chemistry",
+      "Anti-Bacterial Agents/biosynthesis",
+      "*CRISPR-Cas Systems",
+      "Biosynthetic Pathways/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Leal, Karla",
+        "Machuca, Juan",
+        "Gajardo, Humberto",
+        "Palma, Matias",
+        "Contreras, Maria Jose",
+        "Nunez-Montero, Kattia",
+        "Gutierrez, Alvaro",
+        "Barrientos, Leticia"
+      ],
+      "short_names": [
+        "Leal K",
+        "Machuca J",
+        "Gajardo H",
+        "Palma M",
+        "Contreras MJ",
+        "Nunez-Montero K",
+        "Gutierrez A",
+        "Barrientos L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7526-464X",
+        "ORCID: 0000-0002-5754-9796",
+        "ORCID: 0000-0002-8629-5107",
+        "ORCID: 0000-0002-5344-054X"
+      ],
+      "affiliations": [
+        "Facultad de Ingenieria, Instituto de Ciencias Aplicadas, Universidad Autonoma de Chile, Temuco 4780000, Chile.",
+        "Facultad de Ciencias de la Salud, Instituto de Ciencias Biomedicas, Universidad Autonoma de Chile, Temuco 4780000, Chile.",
+        "Facultad de Ingenieria, Instituto de Ciencias Aplicadas, Universidad Autonoma de Chile, Temuco 4780000, Chile.",
+        "Facultad de Ingenieria, Instituto de Ciencias Aplicadas, Universidad Autonoma de Chile, Temuco 4780000, Chile.",
+        "Facultad de Ingenieria, Instituto de Ciencias Aplicadas, Universidad Autonoma de Chile, Temuco 4780000, Chile.",
+        "Facultad de Ciencias de la Salud, Instituto de Ciencias Aplicadas, Universidad Autonoma de Chile, Temuco 4780000, Chile.",
+        "Laboratory of Integrative Biology (LIBi), Millennium Institute on Immunology and Immunotherapy, Centro de Excelencia en Medicina Traslacional (CEMT), Scientific and Technological Bioresource Nucleus (BI-REN), Universidad de La Frontera, Temuco 4810296, Chile.",
+        "Facultad de Ciencias de la Salud, Instituto de Ciencias Aplicadas, Universidad Autonoma de Chile, Temuco 4780000, Chile."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Leal, Karla",
+        "short_name": "Leal K",
+        "identifiers": [
+          "0000-0001-7526-464X"
+        ],
+        "affiliations": [
+          "Facultad de Ingeniería, Instituto de Ciencias Aplicadas, Universidad Autónoma de Chile, Temuco 4780000, Chile."
+        ]
+      },
+      {
+        "full_name": "Machuca, Juan",
+        "short_name": "Machuca J",
+        "identifiers": [],
+        "affiliations": [
+          "Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, Temuco 4780000, Chile."
+        ]
+      },
+      {
+        "full_name": "Gajardo, Humberto",
+        "short_name": "Gajardo H",
+        "identifiers": [
+          "0000-0002-5754-9796"
+        ],
+        "affiliations": [
+          "Facultad de Ingeniería, Instituto de Ciencias Aplicadas, Universidad Autónoma de Chile, Temuco 4780000, Chile."
+        ]
+      },
+      {
+        "full_name": "Palma, Matías",
+        "short_name": "Palma M",
+        "identifiers": [],
+        "affiliations": [
+          "Facultad de Ingeniería, Instituto de Ciencias Aplicadas, Universidad Autónoma de Chile, Temuco 4780000, Chile."
+        ]
+      },
+      {
+        "full_name": "Contreras, María José",
+        "short_name": "Contreras MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Facultad de Ingeniería, Instituto de Ciencias Aplicadas, Universidad Autónoma de Chile, Temuco 4780000, Chile."
+        ]
+      },
+      {
+        "full_name": "Nuñez-Montero, Kattia",
+        "short_name": "Nuñez-Montero K",
+        "identifiers": [
+          "0000-0002-8629-5107"
+        ],
+        "affiliations": [
+          "Facultad de Ciencias de la Salud, Instituto de Ciencias Aplicadas, Universidad Autónoma de Chile, Temuco 4780000, Chile."
+        ]
+      },
+      {
+        "full_name": "Gutiérrez, Álvaro",
+        "short_name": "Gutiérrez Á",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Integrative Biology (LIBi), Millennium Institute on Immunology and Immunotherapy, Centro de Excelencia en Medicina Traslacional (CEMT), Scientific and Technological Bioresource Nucleus (BI-REN), Universidad de La Frontera, Temuco 4810296, Chile."
+        ]
+      },
+      {
+        "full_name": "Barrientos, Leticia",
+        "short_name": "Barrientos L",
+        "identifiers": [
+          "0000-0002-5344-054X"
+        ],
+        "affiliations": [
+          "Facultad de Ciencias de la Salud, Instituto de Ciencias Aplicadas, Universidad Autónoma de Chile, Temuco 4780000, Chile."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 May 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/28 06:28",
+    "fetched_at": "2026-09-30 18:44:24"
+  },
+  "links": {
+    "cites": [
+      "42039799",
+      "41598187",
+      "40871447"
+    ],
+    "refs": [
+      "39716183",
+      "39592035",
+      "39590667",
+      "39321948",
+      "39118116",
+      "38206949",
+      "37079280",
+      "37047235",
+      "36809035",
+      "36790176",
+      "35521033",
+      "34265844",
+      "34162873",
+      "33505378",
+      "33140504",
+      "32807803",
+      "32651565",
+      "32349314",
+      "31930403",
+      "31915684",
+      "31548381",
+      "31131406",
+      "31097761",
+      "31032519",
+      "30778233",
+      "30347637",
+      "29899444",
+      "29790989",
+      "29679043",
+      "29465015",
+      "29062934",
+      "28634080",
+      "26797105",
+      "25448017",
+      "23855666",
+      "11846609",
+      "10592235",
+      "8744570",
+      "2669964"
+    ],
+    "similar": [
+      "40429982",
+      "30341075",
+      "32086301",
+      "39118116",
+      "34311581",
+      "36790176",
+      "24383524",
+      "40853003",
+      "41983701",
+      "40183567",
+      "39026365",
+      "31409675",
+      "29876602",
+      "23084948",
+      "40025688",
+      "29738221",
+      "39592035",
+      "34488446",
+      "40133269",
+      "28221784",
+      "34346752",
+      "34313330",
+      "29500267",
+      "23084947",
+      "34299187",
+      "31256228",
+      "40369383",
+      "21757492",
+      "37874037",
+      "25868645",
+      "40003958",
+      "28684749",
+      "25957493",
+      "39207110",
+      "31399403",
+      "25575546",
+      "29038257",
+      "33341113",
+      "21342465",
+      "42298000",
+      "42036976",
+      "30238507",
+      "33580428",
+      "39656307",
+      "19892763",
+      "17350183",
+      "40890301",
+      "29686142",
+      "33666690",
+      "41943028",
+      "40420564",
+      "26187956",
+      "31018504",
+      "38564716",
+      "24242236",
+      "19332826",
+      "18296523",
+      "31097761",
+      "41364162",
+      "21624452",
+      "16313616",
+      "26637421",
+      "21124051",
+      "35269603",
+      "36017630",
+      "20190084",
+      "27704182",
+      "34770989",
+      "31231913",
+      "40555885",
+      "27709288",
+      "11816964",
+      "23471619",
+      "42334692",
+      "34281384",
+      "23316039",
+      "26433383",
+      "40772721",
+      "27604457",
+      "37076767",
+      "29038911",
+      "27357227",
+      "11790750",
+      "21622528",
+      "31820069",
+      "23083511",
+      "35801861",
+      "38904409",
+      "16164554",
+      "40550857",
+      "28634080",
+      "34586912",
+      "42435068",
+      "32396716",
+      "20304989",
+      "24153004",
+      "24768719",
+      "42475469",
+      "14973031",
+      "32641781"
+    ],
+    "review": [
+      "40429982",
+      "37874037",
+      "41364162",
+      "40555885",
+      "11816964",
+      "23471619"
+    ],
+    "pmc": [
+      "12112392"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms26104839",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40429982/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

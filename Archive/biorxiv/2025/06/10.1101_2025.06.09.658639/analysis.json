@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.09.658639",
+  "title": "AbDesign: Database of point mutants of antibodies with associated structures reveals poor generalization of binding predictions from machine learning models",
+  "authors": "Bartosz Janusz; Dawid Chomicz; Samuel Demharter; Marloes Arts; Jurrian de Kanter; Yano Wilke; Helena Britze; Sonia Wrobel; Tomasz Gawłowski; Pawel Dudzic; Kärt Ukkivi; Lauri Peil; Roberto Spreafico; Konrad Krawczyk",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-13",
+  "window": {
+    "start": "2025-06-09",
+    "end": "2025-06-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该文构建抗体-抗原突变数据库并评测机器学习与物理方法对结合预测的泛化能力，虽非TF-DNA体系，但涉及蛋白-蛋白互作结合预测与物理建模，方法可迁移至蛋白-DNA互作研究。",
+  "abstract": "Antibodies are naturally evolved molecular recognition scaffolds that can bind a variety of surfaces. Their designability is crucial to the development of biologics, with computational methods holding promise in accelerating the delivery of medicines to the clinic. Modeling antibody-antigen recognition is prohibitively difficult, with data paucity being one of the biggest hurdles. Current affinity datasets comprise a small number of experimental measurements, which are often not standardized between molecules. Here, we address these issues by creating a dataset of seven antigens with two antibodies each, for which we introduce a heterogeneous set of mutations to the CDR-H3 measured by ELISA. Each of the parental complexes has a known crystal structure. We perform benchmarking of state-of-the-art affinity prediction algorithms to gauge their effectiveness. Current computational methods exhibit significant limitations in accurately predicting the effects of single-point mutations. In contrast, the older empirical, physics-based method FoldX, performs well in identifying mutants that retain binding. These findings highlight the need for more resources like the one presented here — large, molecularly diverse, and experimentally consistent datasets.",
+  "abstract_zh": "抗体是自然进化而来的分子识别支架，能够结合多种表面。其可设计性对于生物制剂的开发至关重要，计算方法有望加速药物进入临床的进程。对抗体-抗原识别的建模极为困难，数据匮乏是最大的障碍之一。当前的亲和力数据集包含少量实验测量值，且这些测量值在不同分子之间往往缺乏标准化。在此，我们通过创建一个包含七种抗原、每种对应两种抗体的数据集来解决这些问题，并对CDR-H3引入一组异质性突变，通过ELISA进行测量。每个亲本复合物均具有已知的晶体结构。我们对最先进的亲和力预测算法进行基准测试，以评估其有效性。当前计算方法在准确预测单点突变效应方面表现出显著局限性。相比之下，较早期的基于经验的物理方法FoldX在识别保留结合能力的突变体方面表现良好。这些发现强调了需要更多类似本研究所提供的资源——大规模、分子多样性丰富且实验数据一致的数据集。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.09.658639",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.09.658639",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.09.658639/index.html"
+}

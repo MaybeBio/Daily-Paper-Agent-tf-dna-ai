@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "34232831",
+    "doi": "10.1177/09622802211008945",
+    "title": "A competing risks model with binary time varying covariates for estimation of breast cancer risks in BRCA1 families."
+  },
+  "content": {
+    "abstract": "Mammographic screening and prophylactic surgery such as risk-reducing salpingo oophorectomy can potentially reduce breast cancer risks among mutation carriers of BRCA families. The evaluation of these interventions is usually complicated by the fact that their effects on breast cancer may change over time and by the presence of competing risks. We introduce a correlated competing risks model to model breast and ovarian cancer risks within BRCA1 families that accounts for time-varying covariates. Different parametric forms for the effects of time-varying covariates are proposed for more flexibility and a correlated gamma frailty model is specified to account for the correlated competing events.We also introduce a new ascertainment correction approach that accounts for the selection of families through probands affected with either breast or ovarian cancer, or unaffected. Our simulation studies demonstrate the good performances of our proposed approach in terms of bias and precision of the estimators of model parameters and cause-specific penetrances over different levels of familial correlations. We applied our new approach to 498 BRCA1 mutation carrier families recruited through the Breast Cancer Family Registry. Our results demonstrate the importance of the functional form of the time-varying covariate effect when assessing the role of risk-reducing salpingo oophorectomy on breast cancer. In particular, under the best fitting time-varying covariate model, the overall effect of risk-reducing salpingo oophorectomy on breast cancer risk was statistically significant in women with BRCA1 mutation.",
+    "keywords": [
+      "BRCA families",
+      "Breast and ovarian cancers",
+      "competing risks",
+      "correlated frailty model",
+      "penetrance",
+      "risk-reducing salpingo oophorectomy",
+      "time-varying covariate"
+    ],
+    "mesh_terms": [
+      "BRCA1 Protein",
+      "*Breast Neoplasms/genetics/prevention & control",
+      "Female",
+      "*Genetic Predisposition to Disease",
+      "Humans",
+      "Mutation",
+      "*Ovarian Neoplasms/genetics/prevention & control",
+      "Risk"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Choi, Yun-Hee",
+        "Jung, Hae",
+        "Buys, Saundra",
+        "Daly, Mary",
+        "John, Esther M",
+        "Hopper, John",
+        "Andrulis, Irene",
+        "Terry, Mary Beth",
+        "Briollais, Laurent"
+      ],
+      "short_names": [
+        "Choi YH",
+        "Jung H",
+        "Buys S",
+        "Daly M",
+        "John EM",
+        "Hopper J",
+        "Andrulis I",
+        "Terry MB",
+        "Briollais L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5533-509X",
+        "ORCID: 0000-0001-5741-9812"
+      ],
+      "affiliations": [
+        "Department of Epidemiology and Biostatistics, Western University, London, Canada.",
+        "Department of Epidemiology and Biostatistics, Western University, London, Canada.",
+        "Health Sciences Center, University of Utah, Salt Lake City, UT, USA.",
+        "Fox Chase Cancer Center, Philadelphia, PA, USA.",
+        "School of Medicine, Stanford University, Stanford, CA, USA.",
+        "School of Population and Global Health, The University of Melbourne, Carlton, Australia.",
+        "Lunenfeld-Tanenbaum Research Institute, Mount Sinai Hospital, Toronto, Canada.",
+        "Mailman School of Public Health, Columbia University, New York, NY, USA.",
+        "Lunenfeld-Tanenbaum Research Institute, Mount Sinai Hospital, Toronto, Canada.",
+        "Biostatistics, Dalla Lana School of Public Health, University of Toronto, Toronto, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Choi, Yun-Hee",
+        "short_name": "Choi YH",
+        "identifiers": [
+          "0000-0002-5533-509X"
+        ],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, Western University, London, Canada."
+        ]
+      },
+      {
+        "full_name": "Jung, Hae",
+        "short_name": "Jung H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology and Biostatistics, Western University, London, Canada."
+        ]
+      },
+      {
+        "full_name": "Buys, Saundra",
+        "short_name": "Buys S",
+        "identifiers": [],
+        "affiliations": [
+          "Health Sciences Center, University of Utah, Salt Lake City, UT, USA."
+        ]
+      },
+      {
+        "full_name": "Daly, Mary",
+        "short_name": "Daly M",
+        "identifiers": [],
+        "affiliations": [
+          "Fox Chase Cancer Center, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "John, Esther M",
+        "short_name": "John EM",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Hopper, John",
+        "short_name": "Hopper J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Population and Global Health, The University of Melbourne, Carlton, Australia."
+        ]
+      },
+      {
+        "full_name": "Andrulis, Irene",
+        "short_name": "Andrulis I",
+        "identifiers": [],
+        "affiliations": [
+          "Lunenfeld-Tanenbaum Research Institute, Mount Sinai Hospital, Toronto, Canada."
+        ]
+      },
+      {
+        "full_name": "Terry, Mary Beth",
+        "short_name": "Terry MB",
+        "identifiers": [],
+        "affiliations": [
+          "Mailman School of Public Health, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Briollais, Laurent",
+        "short_name": "Briollais L",
+        "identifiers": [
+          "0000-0001-5741-9812"
+        ],
+        "affiliations": [
+          "Lunenfeld-Tanenbaum Research Institute, Mount Sinai Hospital, Toronto, Canada.",
+          "Biostatistics, Dalla Lana School of Public Health, University of Toronto, Toronto, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Statistical methods in medical research"
+    ],
+    "journal_abbrev": [
+      "Stat Methods Med Res"
+    ],
+    "pub_date": "2021 Sep",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/08 06:00",
+    "fetched_at": "2026-10-04 20:00:55"
+  },
+  "links": {
+    "cites": [
+      "41944717",
+      "37288022",
+      "33630024"
+    ],
+    "refs": [
+      "31347460",
+      "30590388",
+      "30496449",
+      "29164654",
+      "28832484",
+      "28632866",
+      "28376175",
+      "27378229",
+      "25936246",
+      "25467311",
+      "23737081",
+      "20707868",
+      "20216074",
+      "18612208",
+      "17416853",
+      "17348081",
+      "15217505",
+      "8557185",
+      "7481183",
+      "3423500",
+      "373811"
+    ],
+    "similar": [
+      "34232831",
+      "33630024",
+      "31918993",
+      "23487443",
+      "20810374",
+      "19263514",
+      "15863145",
+      "26181175",
+      "16314625",
+      "12023992",
+      "41800703",
+      "36614207",
+      "20204502",
+      "34348913",
+      "30295091",
+      "30872561",
+      "35216860",
+      "34171390",
+      "34324701",
+      "30141832",
+      "40784323",
+      "41236914",
+      "39590130",
+      "33308637",
+      "27159752",
+      "31409076",
+      "36999211",
+      "27426853",
+      "22556274",
+      "24389920",
+      "40532962",
+      "22711610",
+      "34356066",
+      "10388011",
+      "23232752",
+      "16450717",
+      "38605155",
+      "33010199",
+      "18451254",
+      "17570734",
+      "19141781",
+      "29747489",
+      "16549852",
+      "33534430",
+      "37792368",
+      "33037428",
+      "26928677",
+      "18268356",
+      "31055694",
+      "26946931",
+      "22889855",
+      "41680304",
+      "16417652",
+      "35557031",
+      "36917763",
+      "41342555",
+      "32948638",
+      "17109443",
+      "18758995",
+      "33377156",
+      "16835424",
+      "16731090",
+      "25192939",
+      "37918957",
+      "40974500",
+      "34997316",
+      "18344704",
+      "31429902",
+      "24529552",
+      "24191513",
+      "29266833",
+      "17218848",
+      "36930999",
+      "37045546",
+      "12473589",
+      "39414838",
+      "34456057",
+      "22187038",
+      "14984481",
+      "20428881",
+      "35048954",
+      "34816639",
+      "21392246",
+      "40347974",
+      "15083174",
+      "16492929",
+      "20632911",
+      "30489631",
+      "18513387",
+      "31362334",
+      "41232373",
+      "25434434",
+      "28407998",
+      "35469032",
+      "27649974",
+      "29252925",
+      "35323372",
+      "31429903",
+      "24366442",
+      "15340362"
+    ],
+    "review": [
+      "34232831",
+      "36614207",
+      "34348913",
+      "30295091",
+      "35216860",
+      "30141832",
+      "31409076",
+      "27426853",
+      "34356066",
+      "17570734",
+      "19141781",
+      "31429902",
+      "24529552",
+      "17218848",
+      "36930999",
+      "14984481",
+      "20632911",
+      "25434434",
+      "27649974",
+      "35323372",
+      "24366442"
+    ],
+    "pmc": [
+      "8424615"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1177/09622802211008945?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/34232831.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34232831/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34232831",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

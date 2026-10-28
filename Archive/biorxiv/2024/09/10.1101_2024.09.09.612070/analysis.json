@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.09.09.612070",
+  "title": "Calcium Binding Affinity in the Mutational Landscape of Troponin-C: Free Energy Calculation, Coevolution Modeling and Machine Learning",
+  "authors": "Pooja; Pradipta Bandyopadhyay",
+  "journal": "bioRxiv",
+  "published_date": "2024-09-09",
+  "window": {
+    "start": "2024-09-09",
+    "end": "2024-09-15"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究肌钙蛋白C的钙离子结合亲和力突变预测，虽用MD和机器学习，但对象为蛋白-离子互作而非蛋白质-DNA，与TF-DNA课题关联较弱。",
+  "abstract": "Mutation in calcium-binding proteins (CBPs) can significantly influence Ca 2+ binding affinity (BA), resulting in substantial impairment in the signaling process and leading to several lethal diseases. The knowledge behind the changes in the binding affinity can help in understanding the signaling process and designing inhibitors for therapeutic usage. However, accurate prediction of BA for a large number of mutations has been elusive. In this work, for an important calcium binding protein, cardiac Troponin-C, we have developed an integrative modeling approach that combines molecular dynamics (MD)-based binding free energy calculations, prediction of plausible mutants using evolutionary information, and an interpretable machine learning model to predict Ca 2+ BA for a large number of mutations (seventy-six in all). For the binding free energy calculation, we have used a charge-scaling based MD simulation that considers the polarization in the system, which is critical for divalent ion binding with proteins. The well-known molecular mechanics Poisson-Boltzmann surface area (MM-PBSA) method was used for the binding free energy calculations. The calculated results for twenty-four disease mutants, which are associated with different cardiomyopathies and have experimental binding affinity, are in close agreement with the experimental results. To study other plausible mutations, we have probed the evolutionary landscape of cardiac Troponin-C and used the EVmutation method of Hopf et al. (Nature biotechnology 2017, 35, 128–135) to generate sixty-one additional mutants. Finally, a Support vector regression model was developed for both observed and plausible mutations. Our machine learning model used simple structure and sequence-based descriptors along with MD-based descriptors and gave a mean squared error (MSE) of only 0.16 kcal/mol. Assessment of the contribution of each descriptor shows that the number of water molecules within the Ca 2+ binding site, type of amino acid substitution (e.g. polar to hydrophobic reduces the binding affinity), and the distance of mutation with Ca 2+ are the most important factors in determining the binding affinity. This integrative modeling can be used for other CBPs and can lay the path for modeling the complex and astronomically large mutational landscape of Calcium-binding proteins.",
+  "abstract_zh": "钙结合蛋白（CBPs）中的突变能显著影响Ca 2+ 结合亲和力（BA），导致信号传导过程严重受损，并引发多种致命疾病。了解结合亲和力变化背后的知识有助于理解信号传导过程，并为治疗用途设计抑制剂。然而，对大量突变体的BA进行准确预测一直难以实现。在本工作中，针对一种重要的钙结合蛋白——心肌肌钙蛋白C，我们开发了一种整合建模方法，该方法结合了基于分子动力学（MD）的结合自由能计算、利用进化信息预测可能突变体，以及一个可解释的机器学习模型，以预测大量突变体（共七十六个）的Ca 2+ BA。对于结合自由能计算，我们使用了基于电荷缩放的MD模拟，该模拟考虑了系统中的极化效应，这对二价离子与蛋白质结合至关重要。结合自由能计算采用了众所周知的分子力学泊松-玻尔兹曼表面积（MM-PBSA）方法。对与不同心肌病相关且具有实验结合亲和力的二十四个疾病突变体的计算结果与实验结果高度一致。为研究其他可能的突变体，我们探测了心肌肌钙蛋白C的进化景观，并使用Hopf等人（《自然生物技术》2017, 35, 128–135）的EVmutation方法生成了六十一个额外突变体。最后，针对观察到的和可能的突变体开发了支持向量回归模型。我们的机器学习模型使用了简单的结构和序列描述符以及基于MD的描述符，均方误差（MSE）仅为0.16 kcal/mol。对每个描述符贡献的评估显示，Ca 2+ 结合位点内的水分子数量、氨基酸替换类型（例如，极性到疏水性会降低结合亲和力）以及突变与Ca 2+ 的距离是决定结合亲和力的最重要因素。这种整合建模方法可应用于其他CBPs，并为建模钙结合蛋白复杂且天文数字般庞大的突变景观铺平道路。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.09.09.612070",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.09.09.612070",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.09.09.612070/index.html"
+}

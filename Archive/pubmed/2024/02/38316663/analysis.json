@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38316663",
+  "title": "Multi-contrast learning-guided lightweight few-shot learning scheme for predicting breast cancer molecular subtypes.",
+  "authors": "Pan, Xiang; Wang, Pei; Jia, Shunyuan; Wang, Yihang; Liu, Yuan; Zhang, Yan; Jiang, Chunjuan",
+  "journal": "Medical & biological engineering & computing",
+  "published_date": "2024-02-06",
+  "window": {
+    "start": "2024-02-05",
+    "end": "2024-02-11"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用多对比学习与轻量级少样本学习预测乳腺癌分子亚型，基于DCE-MRI影像，与蛋白质-DNA互作及TF-DNA结合建模完全无关。",
+  "abstract": "Invasive gene expression profiling studies have exposed prognostically significant breast cancer subtypes: normal-like, luminal, HER-2 enriched, and basal-like, which is defined in large part by human epidermal growth factor receptor 2 (HER-2), progesterone receptor (PR), and estrogen receptor (ER). However, while dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) has been generally employed in the screening and therapy of breast cancer, there is a challenging problem to noninvasively predict breast cancer molecular subtypes, which have extremely low-data regimes. In this paper, a novel few-shot learning scheme, which combines lightweight contrastive convolutional neural network (LC-CNN) and multi-contrast learning strategy (MCLS), is worthwhile to be developed for predicting molecular subtype of breast cancer in DCE-MRI. Moreover, MCLS is designed to construct One-vs-Rest and One-vs-One classification tasks, which addresses inter-class similarity among normal-like, luminal, HER-2 enriched, and basal-like. Extensive experiments demonstrate the superiority of our proposed scheme over state-of-the-art methods. Furthermore, our scheme is able to achieve competitive results on few samples due to joint LC-CNN and MCLS for excavating contrastive correlations of a pair of DCE-MRI.",
+  "abstract_zh": "侵入性基因表达谱研究已揭示了具有预后意义的乳腺癌亚型：正常样型、管腔型、HER-2富集型和基底样型，这些亚型在很大程度上由人表皮生长因子受体2（HER-2）、孕激素受体（PR）和雌激素受体（ER）定义。然而，尽管动态对比增强磁共振成像（DCE-MRI）已普遍用于乳腺癌的筛查和治疗，但非侵入性预测乳腺癌分子亚型仍是一个具有挑战性的问题，尤其是在数据量极低的情况下。本文提出了一种新颖的小样本学习方案，该方案结合了轻量级对比卷积神经网络（LC-CNN）和多对比学习策略（MCLS），用于在DCE-MRI中预测乳腺癌分子亚型。此外，MCLS被设计用于构建One-vs-Rest和One-vs-One分类任务，以解决正常样型、管腔型、HER-2富集型和基底样型之间的类间相似性问题。大量实验表明，我们提出的方案优于现有最先进的方法。此外，由于LC-CNN和MCLS的联合作用，能够挖掘一对DCE-MRI图像中的对比相关性，我们的方案在少量样本上也能取得有竞争力的结果。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38316663/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38316663/",
+  "paper_page_path": "papers/pubmed/38316663/index.html"
+}

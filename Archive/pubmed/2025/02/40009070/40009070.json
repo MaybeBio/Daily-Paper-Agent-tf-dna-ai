@@ -1,0 +1,415 @@
+{
+  "identity": {
+    "pmid": "40009070",
+    "doi": "10.7554/eLife.100705",
+    "title": "Multi-omics analyses and machine learning prediction of oviductal responses in the presence of gametes and embryos."
+  },
+  "content": {
+    "abstract": "The oviduct is the site of fertilization and preimplantation embryo development in mammals. Evidence suggests that gametes alter oviductal gene expression. To delineate the adaptive interactions between the oviduct and gamete/embryo, we performed a multi-omics characterization of oviductal tissues utilizing bulk RNA-sequencing (RNA-seq), single-cell RNA-sequencing (scRNA-seq), and proteomics collected from distal and proximal at various stages after mating in mice. We observed robust region-specific transcriptional signatures. Specifically, the presence of sperm induces genes involved in pro-inflammatory responses in the proximal region at 0.5 days post-coitus (dpc). Genes involved in inflammatory responses were produced specifically by secretory epithelial cells in the oviduct. At 1.5 and 2.5 dpc, genes involved in pyruvate and glycolysis were enriched in the proximal region, potentially providing metabolic support for developing embryos. Abundant proteins in the oviductal fluid were differentially observed between naturally fertilized and superovulated samples. RNA-seq data were used to identify transcription factors predicted to influence protein abundance in the proteomic data via a novel machine learning model based on transformers of integrating transcriptomics and proteomics data. The transformers identified influential transcription factors and correlated predictive protein expressions in alignment with the in vivo-derived data. Lastly, we found some differences between inflammatory responses in sperm-exposed mouse oviducts compared to hydrosalpinx Fallopian tubes from patients. In conclusion, our multi-omics characterization and subsequent in vivo confirmation of proteins/RNAs indicate that the oviduct is adaptive and responsive to the presence of sperm and embryos in a spatiotemporal manner.",
+    "keywords": [
+      "C57BL/6J",
+      "Mus",
+      "Mus musculus",
+      "cell biology",
+      "mouse",
+      "oviduct",
+      "preimplantation embryo",
+      "sperm",
+      "superovulation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Female",
+      "Mice",
+      "*Machine Learning",
+      "Male",
+      "Proteomics",
+      "*Oviducts/physiology/metabolism",
+      "*Fallopian Tubes/physiology/metabolism",
+      "*Spermatozoa/physiology",
+      "*Embryo, Mammalian/physiology",
+      "Transcriptome",
+      "Mice, Inbred C57BL",
+      "Embryonic Development",
+      "*Germ Cells/physiology",
+      "Single-Cell Analysis",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Finnerty, Ryan M",
+        "Carulli, Daniel J",
+        "Hedge, Akshata",
+        "Wang, Yanli",
+        "Boadu, Frimpong",
+        "Winuthayanon, Sarayut",
+        "Jack Cheng, Jianlin",
+        "Winuthayanon, Wipawee"
+      ],
+      "short_names": [
+        "Finnerty RM",
+        "Carulli DJ",
+        "Hedge A",
+        "Wang Y",
+        "Boadu F",
+        "Winuthayanon S",
+        "Jack Cheng J",
+        "Winuthayanon W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5196-8471"
+      ],
+      "affiliations": [
+        "Department of OB/GYN & Women's Health, School of Medicine, University of Missouri-Columbia, Columbia, United States.",
+        "Division of Animal Sciences, College of Agriculture, Food and Natural Resources, University of Missouri-Columbia, Columbia, United States.",
+        "Department of Electrical Engineering and Computer Science, College of Engineering, University of Missouri, Columbia, United States.",
+        "Department of Electrical Engineering and Computer Science, College of Engineering, University of Missouri, Columbia, United States.",
+        "Department of Electrical Engineering and Computer Science, College of Engineering, University of Missouri, Columbia, United States.",
+        "Division of Animal Sciences, College of Agriculture, Food and Natural Resources, University of Missouri-Columbia, Columbia, United States.",
+        "Department of Electrical Engineering and Computer Science, College of Engineering, University of Missouri, Columbia, United States.",
+        "Department of OB/GYN & Women's Health, School of Medicine, University of Missouri-Columbia, Columbia, United States.",
+        "Division of Animal Sciences, College of Agriculture, Food and Natural Resources, University of Missouri-Columbia, Columbia, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Finnerty, Ryan M",
+        "short_name": "Finnerty RM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of OB/GYN & Women's Health, School of Medicine, University of Missouri-Columbia, Columbia, United States."
+        ]
+      },
+      {
+        "full_name": "Carulli, Daniel J",
+        "short_name": "Carulli DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Animal Sciences, College of Agriculture, Food and Natural Resources, University of Missouri-Columbia, Columbia, United States."
+        ]
+      },
+      {
+        "full_name": "Hedge, Akshata",
+        "short_name": "Hedge A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering and Computer Science, College of Engineering, University of Missouri, Columbia, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanli",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering and Computer Science, College of Engineering, University of Missouri, Columbia, United States."
+        ]
+      },
+      {
+        "full_name": "Boadu, Frimpong",
+        "short_name": "Boadu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering and Computer Science, College of Engineering, University of Missouri, Columbia, United States."
+        ]
+      },
+      {
+        "full_name": "Winuthayanon, Sarayut",
+        "short_name": "Winuthayanon S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Animal Sciences, College of Agriculture, Food and Natural Resources, University of Missouri-Columbia, Columbia, United States."
+        ]
+      },
+      {
+        "full_name": "Jack Cheng, Jianlin",
+        "short_name": "Jack Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering and Computer Science, College of Engineering, University of Missouri, Columbia, United States."
+        ]
+      },
+      {
+        "full_name": "Winuthayanon, Wipawee",
+        "short_name": "Winuthayanon W",
+        "identifiers": [
+          "0000-0002-5196-8471"
+        ],
+        "affiliations": [
+          "Department of OB/GYN & Women's Health, School of Medicine, University of Missouri-Columbia, Columbia, United States.",
+          "Division of Animal Sciences, College of Agriculture, Food and Natural Resources, University of Missouri-Columbia, Columbia, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2025 Feb 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/26 12:24",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [
+      "42644105",
+      "41720824",
+      "41602618",
+      "41594877",
+      "41292027",
+      "41053274",
+      "40100261"
+    ],
+    "refs": [
+      "38184630",
+      "37027763",
+      "35320732",
+      "34980209",
+      "34605806",
+      "34496237",
+      "34360835",
+      "34260920",
+      "33990675",
+      "33864778",
+      "33818810",
+      "33693543",
+      "33607043",
+      "33158924",
+      "32810249",
+      "32181010",
+      "32121434",
+      "32049047",
+      "31706265",
+      "31472078",
+      "31178118",
+      "31131960",
+      "30567491",
+      "30447998",
+      "29409532",
+      "29228115",
+      "27875265",
+      "27662642",
+      "27651517",
+      "27345318",
+      "27177963",
+      "27120206",
+      "27069007",
+      "26740593",
+      "26623518",
+      "26142856",
+      "25999361",
+      "25926440",
+      "25472047",
+      "24771982",
+      "24682781",
+      "24469827",
+      "23954936",
+      "23453951",
+      "22566960",
+      "22470458",
+      "20098461",
+      "19726075",
+      "19307558",
+      "19297625",
+      "19064908",
+      "18449896",
+      "18004800",
+      "16198162",
+      "15260992",
+      "15215194",
+      "14973272",
+      "12904313",
+      "11906198",
+      "11473946",
+      "10735059",
+      "10341719",
+      "9603241",
+      "9436683",
+      "9352027",
+      "8839764",
+      "8566260",
+      "6890080",
+      "4841384",
+      "4604330",
+      "3708057",
+      "2590709",
+      "1751628",
+      "1751627",
+      "1591334",
+      "1518007",
+      "1339849",
+      "1241287"
+    ],
+    "similar": [
+      "40009070",
+      "38915688",
+      "30134841",
+      "27512123",
+      "37891479",
+      "33348856",
+      "33818810",
+      "16105986",
+      "36499219",
+      "33512581",
+      "15832314",
+      "23427237",
+      "39239798",
+      "27475493",
+      "34424529",
+      "16239302",
+      "28591825",
+      "17008265",
+      "25926440",
+      "34993641",
+      "21173072",
+      "14973272",
+      "25281772",
+      "27875265",
+      "29370405",
+      "23953067",
+      "8839764",
+      "23028122",
+      "38916490",
+      "28250237",
+      "20584881",
+      "32121434",
+      "29800303",
+      "9068419",
+      "32088048",
+      "31295879",
+      "33167378",
+      "40244179",
+      "38802796",
+      "8527852",
+      "35626659",
+      "19299315",
+      "28100167",
+      "28630101",
+      "33020549",
+      "22827365",
+      "18004800",
+      "31022701",
+      "32251939",
+      "37453097",
+      "20534761",
+      "28419524",
+      "34103548",
+      "36318634",
+      "38885555",
+      "18638131",
+      "22631885",
+      "11597312",
+      "20935135",
+      "11906198",
+      "16574812",
+      "25190504",
+      "32088033",
+      "26740066",
+      "11155328",
+      "32506761",
+      "30193777",
+      "32075098",
+      "29228115",
+      "31081144",
+      "18649258",
+      "23551866",
+      "37942801",
+      "31418961",
+      "36208536",
+      "21366984",
+      "34057175",
+      "32731579",
+      "39761349",
+      "33565139",
+      "18671285",
+      "15271449",
+      "24629593",
+      "26242217",
+      "7490715",
+      "1518007",
+      "31145487",
+      "15201197",
+      "32024564",
+      "28082352",
+      "30456442",
+      "15286042",
+      "15587109",
+      "34039711",
+      "9433970",
+      "26069941",
+      "11062013",
+      "21205391",
+      "10341719",
+      "34854517"
+    ],
+    "review": [
+      "40009070",
+      "27512123",
+      "33348856",
+      "17008265",
+      "34993641",
+      "27875265",
+      "8839764",
+      "23028122",
+      "20584881",
+      "29800303",
+      "33167378",
+      "35626659",
+      "22827365",
+      "36318634",
+      "18638131",
+      "20935135",
+      "25190504",
+      "32088033",
+      "32506761",
+      "29228115",
+      "18649258",
+      "21366984",
+      "34057175",
+      "15271449",
+      "32024564",
+      "15587109"
+    ],
+    "pmc": [
+      "11864756"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.informatics.jax.org/reference/40009070",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40009070/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.100705",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

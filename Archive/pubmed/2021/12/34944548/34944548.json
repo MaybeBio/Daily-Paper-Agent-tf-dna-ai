@@ -1,0 +1,416 @@
+{
+  "identity": {
+    "pmid": "34944548",
+    "doi": "10.3390/biom11121905",
+    "title": "A Computational Approach to Investigate TDP-43 RNA-Recognition Motif 2 C-Terminal Fragments Aggregation in Amyotrophic Lateral Sclerosis."
+  },
+  "content": {
+    "abstract": "Many of the molecular mechanisms underlying the pathological aggregation of proteins observed in neurodegenerative diseases are still not fully understood. Among the aggregate-associated diseases, Amyotrophic Lateral Sclerosis (ALS) is of relevant importance. In fact, although understanding the processes that cause the disease is still an open challenge, its relationship with protein aggregation is widely known. In particular, human TDP-43, an RNA/DNA binding protein, is a major component of the pathological cytoplasmic inclusions observed in ALS patients. Indeed, the deposition of the phosphorylated full-length TDP-43 in spinal cord cells has been widely studied. Moreover, it has also been shown that the brain cortex presents an accumulation of phosphorylated C-terminal fragments (CTFs). Even if it is debated whether the aggregation of CTFs represents a primary cause of ALS, it is a hallmark of TDP-43 related neurodegeneration in the brain. Here, we investigate the CTFs aggregation process, providing a computational model of interaction based on the evaluation of shape complementarity at the molecular interfaces. To this end, extensive Molecular Dynamics (MD) simulations were conducted for different types of protein fragments, with the aim of exploring the equilibrium conformations. Adopting a newly developed approach based on Zernike polynomials, able to find complementary regions in the molecular surface, we sampled a large set of solvent-exposed portions of CTFs structures as obtained from MD simulations. Our analysis proposes and assesses a set of possible association mechanisms between the CTFs, which could drive the aggregation process of the CTFs. To further evaluate the structural details of such associations, we perform molecular docking and additional MD simulations to propose possible complexes and assess their stability, focusing on complexes whose interacting regions are both characterized by a high shape complementarity and involve beta3 and beta5 strands at their interfaces.",
+    "keywords": [
+      "Amyotrophic Lateral Sclerosis",
+      "TDP-43",
+      "binding regions",
+      "molecular dynamics simulation",
+      "protein aggregation"
+    ],
+    "mesh_terms": [
+      "Amino Acid Motifs",
+      "Amyotrophic Lateral Sclerosis/*metabolism",
+      "Binding Sites",
+      "Computational Biology/*methods",
+      "DNA-Binding Proteins/*chemistry/*metabolism",
+      "Humans",
+      "Models, Molecular",
+      "Molecular Conformation",
+      "Molecular Docking Simulation",
+      "Phosphorylation",
+      "Protein Aggregates",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Grassmann, Greta",
+        "Miotto, Mattia",
+        "Di Rienzo, Lorenzo",
+        "Salaris, Federico",
+        "Silvestri, Beatrice",
+        "Zacco, Elsa",
+        "Rosa, Alessandro",
+        "Tartaglia, Gian Gaetano",
+        "Ruocco, Giancarlo",
+        "Milanetti, Edoardo"
+      ],
+      "short_names": [
+        "Grassmann G",
+        "Miotto M",
+        "Di Rienzo L",
+        "Salaris F",
+        "Silvestri B",
+        "Zacco E",
+        "Rosa A",
+        "Tartaglia GG",
+        "Ruocco G",
+        "Milanetti E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0043-8921",
+        "ORCID: 0000-0003-2216-2222",
+        "ORCID: 0000-0002-3593-6023",
+        "ORCID: 0000-0001-9999-7223",
+        "ORCID: 0000-0002-2762-9533"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, University of Bologna, Viale Carlo Berti Pichat 6/2, 40127 Bologna, Italy.",
+        "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy.",
+        "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy.",
+        "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy.",
+        "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy.",
+        "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy.",
+        "Department of Biology and Biotechnologies \"Charles Darwin\", Sapienza University of Rome, Piazzale Aldo Moro 5, 00185 Rome, Italy.",
+        "Department of Neuroscience and Brain Technologies, Istituto Italiano di Tecnologia, Via Morego 30, 16163 Genoa, Italy.",
+        "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy.",
+        "Department of Biology and Biotechnologies \"Charles Darwin\", Sapienza University of Rome, Piazzale Aldo Moro 5, 00185 Rome, Italy.",
+        "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy.",
+        "Department of Neuroscience and Brain Technologies, Istituto Italiano di Tecnologia, Via Morego 30, 16163 Genoa, Italy.",
+        "Center for Human Technologies, Via Enrico Melen 83, 16152 Genova, Italy.",
+        "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy.",
+        "Department of Physics, Sapienza University of Rome, Piazzale Aldo Moro 5, 00185 Rome, Italy.",
+        "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy.",
+        "Department of Physics, Sapienza University of Rome, Piazzale Aldo Moro 5, 00185 Rome, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Grassmann, Greta",
+        "short_name": "Grassmann G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Bologna, Viale Carlo Berti Pichat 6/2, 40127 Bologna, Italy.",
+          "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Miotto, Mattia",
+        "short_name": "Miotto M",
+        "identifiers": [
+          "0000-0002-0043-8921"
+        ],
+        "affiliations": [
+          "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Di Rienzo, Lorenzo",
+        "short_name": "Di Rienzo L",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Salaris, Federico",
+        "short_name": "Salaris F",
+        "identifiers": [
+          "0000-0003-2216-2222"
+        ],
+        "affiliations": [
+          "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Silvestri, Beatrice",
+        "short_name": "Silvestri B",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy.",
+          "Department of Biology and Biotechnologies \"Charles Darwin\", Sapienza University of Rome, Piazzale Aldo Moro 5, 00185 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Zacco, Elsa",
+        "short_name": "Zacco E",
+        "identifiers": [
+          "0000-0002-3593-6023"
+        ],
+        "affiliations": [
+          "Department of Neuroscience and Brain Technologies, Istituto Italiano di Tecnologia, Via Morego 30, 16163 Genoa, Italy."
+        ]
+      },
+      {
+        "full_name": "Rosa, Alessandro",
+        "short_name": "Rosa A",
+        "identifiers": [
+          "0000-0001-9999-7223"
+        ],
+        "affiliations": [
+          "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy.",
+          "Department of Biology and Biotechnologies \"Charles Darwin\", Sapienza University of Rome, Piazzale Aldo Moro 5, 00185 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Tartaglia, Gian Gaetano",
+        "short_name": "Tartaglia GG",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy.",
+          "Department of Neuroscience and Brain Technologies, Istituto Italiano di Tecnologia, Via Morego 30, 16163 Genoa, Italy.",
+          "Center for Human Technologies, Via Enrico Melen 83, 16152 Genova, Italy."
+        ]
+      },
+      {
+        "full_name": "Ruocco, Giancarlo",
+        "short_name": "Ruocco G",
+        "identifiers": [
+          "0000-0002-2762-9533"
+        ],
+        "affiliations": [
+          "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy.",
+          "Department of Physics, Sapienza University of Rome, Piazzale Aldo Moro 5, 00185 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Milanetti, Edoardo",
+        "short_name": "Milanetti E",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Nano- & Neuro-Science, Istituto Italiano di Tecnologia, Viale Regina Elena 291, 00161 Rome, Italy.",
+          "Department of Physics, Sapienza University of Rome, Piazzale Aldo Moro 5, 00185 Rome, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2021 Dec 19",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/25 06:00",
+    "fetched_at": "2026-09-28 03:12:40"
+  },
+  "links": {
+    "cites": [
+      "42422879",
+      "40178551",
+      "39982412",
+      "39548508",
+      "37353566",
+      "35643629"
+    ],
+    "refs": [
+      "35047894",
+      "34992214",
+      "34342983",
+      "34179095",
+      "33659275",
+      "33398173",
+      "33363707",
+      "33051572",
+      "32227880",
+      "31920533",
+      "31031584",
+      "30837838",
+      "30742796",
+      "30370948",
+      "30356856",
+      "30315897",
+      "30309612",
+      "29864135",
+      "29531287",
+      "29431050",
+      "28902511",
+      "28733604",
+      "28663553",
+      "28521030",
+      "27636092",
+      "25873944",
+      "25282113",
+      "24497641",
+      "24329489",
+      "24256250",
+      "24240615",
+      "23372158",
+      "22961589",
+      "21777387",
+      "20541943",
+      "19444816",
+      "19214247",
+      "18434538",
+      "16563741",
+      "923582",
+      "326146"
+    ],
+    "similar": [
+      "34944548",
+      "29279008",
+      "24497641",
+      "23558684",
+      "40311013",
+      "30938443",
+      "19164285",
+      "33577819",
+      "28257838",
+      "19938686",
+      "32778941",
+      "38615537",
+      "27317832",
+      "28793209",
+      "30309612",
+      "26723245",
+      "20133711",
+      "20379728",
+      "28566288",
+      "30315897",
+      "18535185",
+      "27545621",
+      "22563080",
+      "40404809",
+      "31917988",
+      "30824544",
+      "21454607",
+      "31031584",
+      "31241884",
+      "26757674",
+      "33441818",
+      "29751083",
+      "40188980",
+      "26908597",
+      "20102522",
+      "26936937",
+      "30630951",
+      "29982983",
+      "18546284",
+      "26751167",
+      "31914861",
+      "36982587",
+      "23300771",
+      "20055380",
+      "38466778",
+      "30540446",
+      "37853696",
+      "33917983",
+      "21946215",
+      "31430111",
+      "28754988",
+      "26980269",
+      "33300249",
+      "39336748",
+      "23840565",
+      "26108573",
+      "31882736",
+      "33065281",
+      "35758309",
+      "25635624",
+      "31759630",
+      "23372158",
+      "36293362",
+      "31911437",
+      "27226551",
+      "29987190",
+      "21905193",
+      "28663553",
+      "38902525",
+      "19125255",
+      "32040555",
+      "33097688",
+      "34131277",
+      "30120266",
+      "35112738",
+      "19465477",
+      "37569549",
+      "26078717",
+      "21678031",
+      "28833982",
+      "27101846",
+      "40422183",
+      "19112176",
+      "38739752",
+      "38896345",
+      "35751132",
+      "33692125",
+      "21541367",
+      "18989115",
+      "24440310",
+      "36841957",
+      "22641816",
+      "36614144",
+      "22993125",
+      "35438230",
+      "19496940",
+      "25788357",
+      "20030209",
+      "32337711",
+      "21777387"
+    ],
+    "review": [
+      "34944548",
+      "30938443",
+      "19938686",
+      "31031584",
+      "40188980",
+      "20102522",
+      "36293362",
+      "40422183",
+      "18989115",
+      "36614144",
+      "20030209"
+    ],
+    "pmc": [
+      "8699346"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom11121905",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/amyotrophiclateralsclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Amyotrophic Lateral Sclerosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34944548/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34944548",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

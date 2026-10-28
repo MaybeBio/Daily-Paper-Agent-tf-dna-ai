@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.26.676276",
+  "title": "Machine Learning-Driven Prediction of TLR4 Binding Affinity: A Comprehensive Molecular Feature Analysis for Drug Discovery",
+  "authors": "Brandon Yee; Maximilian Rutowski; Wilson Collins",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-27",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习预测TLR4配体结合亲和力，对象为蛋白-小分子互作而非蛋白质-DNA互作，且无TF-DNA结合建模，仅边缘相关。",
+  "abstract": "Toll-like receptor 4 (TLR4) represents a promising therapeutic target for inflammatory diseases and cancer, but developing selective modulators remains challenging. We present a machine learning approach for predicting TLR4 binding affinity using comprehensive molecular descriptors. Our ensemble learning pipeline extracted 53 physicochemical features from a curated dataset of 49 unique TLR4 ligands, achieving cross-validation R 2 of 0.74 ± 0.10 with statistical significance confirmed by permutation testing (p < 0.01). The most predictive features were Bertz complexity (importance: 0.173), molecular shape descriptors (0.159), and molar refractivity (0.145), while traditional drug-like properties such as LogP showed lower importance (0.056). This suggests TLR4 binding follows distinct structure-activity patterns compared to conventional drug targets. Compounds with intermediate structural complexity (Bertz complexity: 400-600) demonstrated optimal binding affinity. The model successfully identified key molecular scaffolds including flavonoids and terpenoids, aligning with known natural product TLR4 modulators. This work provides the first comprehensive machine learning analysis of TLR4 binding determinants and offers a computational framework for rational design of TLR4-targeted therapeutics, with identified molecular features providing actionable insights for developing next-generation immunomodulatory drugs.",
+  "abstract_zh": "Toll样受体4（Toll-like receptor 4, TLR4）是炎症性疾病和癌症的一个有前景的治疗靶点，但开发选择性调节剂仍具挑战性。我们提出了一种利用全面分子描述符预测TLR4结合亲和力的机器学习方法。我们的集成学习流程从包含49种独特TLR4配体的精选数据集中提取了53个物理化学特征，实现了交叉验证R²为0.74 ± 0.10，并通过置换检验（p < 0.01）确认了统计显著性。最具预测性的特征包括Bertz复杂度（重要性：0.173）、分子形状描述符（0.159）和摩尔折射率（0.145），而传统药物样性质如LogP的重要性较低（0.056）。这表明TLR4结合遵循与传统药物靶点不同的结构-活性模式。具有中等结构复杂度（Bertz复杂度：400-600）的化合物表现出最佳结合亲和力。该模型成功识别了包括黄酮类和萜类在内的关键分子骨架，与已知的天然产物TLR4调节剂一致。这项工作提供了首个全面的TLR4结合决定因素的机器学习分析，并为TLR4靶向治疗药物的合理设计提供了一个计算框架，所识别的分子特征为开发下一代免疫调节药物提供了可操作的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.26.676276",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.26.676276",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.26.676276/index.html"
+}

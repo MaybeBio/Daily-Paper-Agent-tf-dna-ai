@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and conclusions as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report identification of a 22 bp A/T-rich binding site (nov1p22bp) for the MarR-like transcriptional regulator Saro_0803 in the nov1 promoter, characterize the binding as charge-dominated via molecular docking and mutagenesis, and propose a hydrophobic aromatic pocket (F30, F43, F47, W61) as the resveratrol-binding site that mediates ligand-induced dissociation from DNA.
+- **Visible evidence base** EMSA, ITC, SEC, AUC, NMR (1D 1H, 2D 1H-15N HSQC), molecular docking (AlphaFold2 structure, HDOCK), site-directed mutagenesis, SPR
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S12) referenced but not provided; raw ITC thermograms, SPR sensorgrams, and NMR spectral overlays not shown in main text; no quantitative error bars or replicate numbers for binding assays; no negative control data for docking validations; no statistical analysis details
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in MarR family transcriptional regulation and biosensor design, and the authors combine multiple biophysical techniques to characterize the Saro_0803–DNA and Saro_0803–resveratrol interactions. The identification of a 22 bp core binding site and the mutagenesis-guided validation of key residues are valuable contributions. However, the evidence for the proposed resveratrol-binding pocket is largely indirect, relying on docking and alanine-scanning without structural confirmation. Several quantitative claims lack statistical support, and the semi-quantitative nature of some EMSA results weakens the strength of the conclusions. The manuscript would benefit from clearer presentation of raw data and more rigorous quantitative analysis.
+- **Who would be interested in the results, and why** Researchers in bacterial transcriptional regulation, MarR family protein biochemistry, and synthetic biology, particularly those interested in developing biosensors for stilbene compounds or engineering ligand-responsive transcription factors. The work also has relevance for those studying protein–DNA recognition mechanisms and ligand-induced allosteric regulation.
+- **Major strengths** 1) Systematic identification of a minimal 22 bp DNA binding site through progressive truncation experiments. 2) Combination of multiple orthogonal biophysical methods (EMSA, ITC, SEC, NMR) to characterize binding. 3) Mutagenesis validation of docking-predicted DNA-binding residues, including a gain-of-function mutant (A87R). 4) Identification of a putative resveratrol-binding pocket with experimental support from alanine mutations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "we identified a bilateral hydrophobic pocket within Saro_0803 comprising four aromatic residues that are crucial to maintaining the resveratrol binding capability of the transcriptional factor"
+  - **Evidence pointer** Section 3.5, Figures 5e, 5f, S11
+  - **Concern** The claim that F30, F43, F47, and W61 form a functional resveratrol-binding pocket is based solely on molecular docking and alanine-scanning mutagenesis. No structural data (e.g., co-crystal structure, NMR structure of the complex) or direct binding measurements with the isolated pocket are provided. The docking model is not validated by any experimental restraint, and the possibility of indirect effects of these mutations on protein folding or stability is not addressed.
+  - **Why it matters** Without direct structural or biophysical evidence for the binding site, the proposed mechanism of resveratrol-induced dissociation remains speculative. This is central to the manuscript's main conclusion and to its potential utility for biosensor engineering.
+  - **Resolution test** Provide co-crystal structure or NMR-derived complex structure of Saro_0803 with resveratrol, or demonstrate that the four aromatic residues form a bona fide binding pocket through isothermal titration calorimetry with a peptide or domain containing only the pocket, or show that mutations do not affect protein stability (e.g., via circular dichroism or thermal shift assays).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** "Saro_0803 binds to the core sequence with a micromolar affinity (Kd ~3.57 µM)" and "the binding affinity of Saro_0803 to resveratrol to be Kd ~79.8 µM by SPR and ~35.7 µM by ITC"
+  - **Evidence pointer** Sections 3.3, 3.5, Figures 3b, 5b, 5c
+  - **Concern** The reported Kd values are presented as single-point estimates without error bars, replicate numbers, or goodness-of-fit parameters. The discrepancy between SPR and ITC values for resveratrol binding (approximately 2-fold) is not discussed. No information is provided on the fitting model used, the stoichiometry of binding, or whether the data were corrected for heats of dilution or buffer mismatches.
+  - **Why it matters** Quantitative binding affinities are central to the characterization of both DNA and ligand interactions. Without proper error analysis and replicate measurements, the reliability of these values and the conclusions drawn from them cannot be assessed.
+  - **Resolution test** Provide mean ± SD or SEM from at least three independent experiments for each Kd, include representative raw titration curves with fitted models, and discuss the discrepancy between SPR and ITC values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** "Saro_0803 is likely to accommodate resveratrol as a ligand with an aromatic pocket, and thus, loses the tight binding of the target DNA fragment nov1p22bp"
+  - **Evidence pointer** Section 3.5, Figure 5a
+  - **Concern** The EMSA data in Figure 5a show only modest changes in band intensity upon resveratrol addition, which the authors attribute to limited resveratrol solubility. The claim that resveratrol inhibits Saro_0803–nov1p22bp binding is therefore based on a semi-quantitative observation with unclear dynamic range. The mechanism of inhibition (competitive, allosteric, or non-specific) is not established.
+  - **Why it matters** The proposed regulatory mechanism of resveratrol-induced dissociation is a key conclusion. Weak or ambiguous experimental support undermines the mechanistic narrative and the potential for biosensor applications.
+  - **Resolution test** Perform quantitative EMSA with a wider range of resveratrol concentrations, use a solubility-enhancing approach (e.g., co-solvent or cyclodextrin), or employ a solution-based binding assay (e.g., fluorescence anisotropy or MST) to demonstrate a clear dose-dependent inhibition of DNA binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.5, NMR titration
+  - **Evidence pointer** Section 2.5
+  - **Issue** The NMR titration experiments are described for both DNA and resveratrol binding, but the results are only briefly mentioned in Section 3.3 and 3.5. No spectra or quantitative chemical shift perturbation data are shown in the main text.
+  - **Required correction** Provide representative overlaid HSQC spectra for both titrations and a plot of chemical shift perturbations versus ligand concentration, or clearly state that these data are shown in supplementary figures.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.11, SPR
+  - **Evidence pointer** Section 2.11
+  - **Issue** SPR is mentioned as a method for measuring resveratrol binding, but no SPR data are shown in the main text or described in the results section.
+  - **Required correction** Either include the SPR sensorgrams and kinetic parameters in the results, or remove the method description if the data are not presented.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All binding assays
+  - **Evidence pointer** Sections 3.3, 3.4, 3.5
+  - **Issue** No statistical analysis is reported for any of the binding comparisons between wild-type and mutant proteins.
+  - **Required correction** Add statistical tests (e.g., t-tests or ANOVA) for comparisons of Kd values between wild-type and mutants, and report p-values or confidence intervals.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Title and throughout
+  - **Evidence pointer** Title, Abstract
+  - **Issue** The term "promotor" is used in the title and elsewhere; the correct spelling is "promoter."
+  - **Required correction** Correct the spelling throughout the manuscript.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.10, Molecular docking
+  - **Evidence pointer** Section 2.10
+  - **Issue** The docking protocol is described briefly, but no parameters for the HDOCK server run (e.g., docking mode, scoring function settings) or criteria for selecting the final model are provided.
+  - **Required correction** Provide full docking parameters and selection criteria, or cite a standard protocol.
+
+## Risk / unsupported claims
+- The existence of a "bilateral hydrophobic pocket" for resveratrol binding is not experimentally validated by structural data; the claim is supported only by docking and mutagenesis.
+- The mechanism of resveratrol-induced inhibition of DNA binding (allosteric vs. competitive) is not established; the EMSA data are semi-quantitative and show modest effects.
+- The claim that Saro_0803 "distinguishes resveratrol from its precursors" is not directly tested in this study; it is only referenced from prior work.
+- The functional significance of the A87R gain-of-function mutation is not explored beyond binding affinity; no downstream transcriptional or cellular assays are provided.
+- The statement that the 22 bp binding site "occupies the −10 box" is based on sequence position but not validated by promoter activity assays.

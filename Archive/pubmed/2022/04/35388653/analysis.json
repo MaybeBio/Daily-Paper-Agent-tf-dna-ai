@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35388653",
+  "title": "Genome-wide expression reveals potential biomarkers in breast cancer bone metastasis.",
+  "authors": "Singh, Yashbir; Subbarao, Naidu; Jaimini, Abhinav; Hathaway, Quincy A; Kunovac, Amina; Erickson, Bradley; Swarup, Vishnu; Singh, Himanshu Narayan",
+  "journal": "Journal of integrative bioinformatics",
+  "published_date": "2022-04-08",
+  "window": {
+    "start": "2022-04-04",
+    "end": "2022-04-10"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于GEO表达谱筛选乳腺癌骨转移差异基因并做通路与药物对接分析，虽涉及TF调控但无蛋白-DNA互作建模或AI/物理模拟方法，与本课题核心关联弱。",
+  "abstract": "Breast cancer metastases are most commonly found in bone, an indication of poor prognosis. Pathway-based biomarkers identification may help elucidate the cellular signature of breast cancer metastasis in bone, further characterizing the etiology and promoting new therapeutic approaches. We extracted gene expression profiles from mouse macrophages from the GEO dataset, GSE152795 using the GEO2R webtool. The differentially expressed genes (DEGs) were filtered by log2 fold-change with threshold 1.5 (FDR < 0.05). STRING database and Enrichr were used for GO-term analysis, miRNA and TF analysis associated with DEGs. Autodock Vienna was exploited to investigate interaction of anti-cancer drugs, Actinomycin-D and Adriamycin. Sensitivity and specificity of DEGs was assessed using receiver operating characteristic (ROC) analyses. A total of 61 DEGs, included 27 down-regulated and 34 up-regulated, were found to be significant in breast cancer bone metastasis. Major DEGs were associated with lipid metabolism and immunological response of tumor tissue. Crucial DEGs, Bcl3, ADGRG7, FABP4, VCAN, and IRF4 were regulated by miRNAs, miR-497, miR-574, miR-138 and TFs, CCDN1, STAT6, IRF8. Docking analysis showed that these genes possessed strong binding with the drugs. ROC analysis demonstrated Bcl3 is specific to metastasis. DEGs Bcl3, ADGRG7, FABP4, IRF4, their regulating miRNAs and TFs have strong impact on proliferation and metastasis of breast cancer in bone tissues. In conclusion, present study revealed that DEGs are directly involved in of breast tumor metastasis in bone tissues. Identified genes, miRNAs, and TFs can be possible drug targets that may be used for the therapeutics. However, further experimental validation is necessary.",
+  "abstract_zh": "乳腺癌转移最常发生于骨骼，提示预后不良。基于通路的生物标志物识别可能有助于阐明乳腺癌骨转移的细胞特征，进一步明确病因并促进新治疗方法的开发。我们利用GEO2R网络工具从GEO数据集GSE152795中提取了小鼠巨噬细胞的基因表达谱。差异表达基因（DEGs）通过log2倍数变化阈值1.5（FDR < 0.05）进行筛选。使用STRING数据库和Enrichr进行GO术语分析、miRNA和转录因子（TF）分析与DEGs的关联。利用Autodock Vienna研究抗癌药物放线菌素D和阿霉素的相互作用。通过受试者工作特征（ROC）分析评估DEGs的敏感性和特异性。共发现61个DEGs，包括27个下调和34个上调，在乳腺癌骨转移中显著。主要DEGs与肿瘤组织的脂质代谢和免疫反应相关。关键DEGs，Bcl3、ADGRG7、FABP4、VCAN和IRF4，受miRNAs（miR-497、miR-574、miR-138）和转录因子（CCDN1、STAT6、IRF8）调控。对接分析显示这些基因与药物具有强结合能力。ROC分析表明Bcl3对转移具有特异性。DEGs Bcl3、ADGRG7、FABP4、IRF4及其调控miRNAs和转录因子对乳腺癌在骨组织中的增殖和转移有显著影响。总之，本研究揭示DEGs直接参与乳腺肿瘤在骨组织中的转移。识别的基因、miRNAs和转录因子可能是可用于治疗的潜在药物靶点。然而，进一步的实验验证是必要的。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35388653/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35388653/",
+  "paper_page_path": "papers/pubmed/35388653/index.html"
+}

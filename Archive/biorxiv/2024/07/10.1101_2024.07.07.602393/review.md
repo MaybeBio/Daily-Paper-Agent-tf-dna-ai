@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided by the author. Supplementary figures and tables are referenced but not supplied.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the presented evidence. No assessment of formatting, grammar, or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to compare two Lac repressor-operator DNA complexes (O-SymL and O2) with free DNA and free protein, and report sequence-dependent asymmetric dynamics of the two protein subunits, differences in DNA bending and groove widths, and propose that Lac repressor recognition combines Lock-and-Key and Induced Fit/Conformational Selection mechanisms.
+- **Visible evidence base** Main text figures 1, 3, 4, 5, 6, 7 (as referenced); supplementary figures S1-S7 and tables S1(a/b), 2, 3 (referenced but not provided); methods sections 2.1-2.5; results sections 3.1-3.7.
+- **Missing materials affecting confidence** Supplementary figures S1-S7 and tables S1(a/b), 2, 3 are referenced but not supplied. This limits verification of convergence, RMSF comparisons, bending angle distributions, and hydrogen bond occupancy data. The exact simulation protocol parameters (e.g., salt concentration, equilibration details, number of replicates) are not fully specified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a question of genuine interest in transcription factor-DNA recognition, namely whether DNA sequence modulates protein dynamics asymmetrically in a symmetric homodimer. The simulation strategy is reasonable and the systems are well chosen. However, the evidence presented in the main text is insufficient to fully support several central claims, particularly regarding asymmetric dynamics, the role of conformational entropy, and the proposed dual recognition mechanism. The lack of supplementary data and some methodological ambiguities prevent a complete evaluation. The work has potential but requires substantial additional analysis and clarification before the conclusions can be considered established.
+- **Who would be interested in the results, and why** Researchers in molecular biophysics, computational biology, and gene regulation would be interested. The study speaks to fundamental questions of protein-DNA recognition mechanisms, allostery in transcription factors, and the role of DNA sequence in modulating protein dynamics. Those working on Lac repressor specifically, or on bacterial gene regulation more broadly, would find the comparative analysis of two operators relevant.
+- **Major strengths** The choice of two biologically relevant operator sequences with different affinities is appropriate. The use of multiple simulation systems (two complexes, two free DNAs, one free protein) allows for comparative analysis. The focus on dynamics, rather than static structures, is timely. The attempt to connect microscopic dynamics to functional outcomes such as tetramerization and gene regulation is ambitious and potentially valuable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "asymmetric dynamics of the two subunits of Lac repressor protein" is produced by differences in hydrogen bonding network and DNA base pair step deformation.
+  - **Evidence pointer** Section 3.2, Section 3.3, Figure 4, Figure S3 (not provided)
+  - **Concern** The central claim of asymmetric subunit dynamics is supported primarily by RMSF differences and qualitative descriptions of hydrogen bond occupancy. The supplementary figure S3, which apparently compares two force fields, is not provided. No quantitative measure of asymmetry (e.g., a difference metric with statistical significance) is presented. The RMSF differences described may be within thermal noise for a single 300 ns trajectory.
+  - **Why it matters** The asymmetric dynamics claim is foundational to the entire manuscript. If it is not robustly demonstrated, the subsequent conclusions about allostery and gene regulation lose their basis.
+  - **Resolution test** Provide the supplementary data, add a quantitative asymmetry index with error estimates (e.g., block averaging or replicate simulations), and demonstrate that the asymmetry is reproducible and not a trajectory artifact.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors conclude that "Lac operator is unique as it uses both Lock & Key mechanism for DNA recognition... and also Induced Fit/Conformational Selection model of recognition."
+  - **Evidence pointer** Section 3.7, Section 4, Table 3 (not provided)
+  - **Concern** The conclusion about dual recognition mechanisms is not supported by the presented analysis. The authors show that DNA bending differs between free and bound states and that the protein induces deformation, but they do not perform a kinetic or thermodynamic analysis that would distinguish Lock-and-Key from Induced Fit or Conformational Selection. These are mechanistic models that require time-resolved or free energy data, not just static comparisons of end states.
+  - **Why it matters** This is a strong mechanistic claim that goes beyond the data presented. Overinterpretation of simulation end states as evidence for specific binding mechanisms could mislead the field.
+  - **Resolution test** Either temper the conclusion to describe observed structural changes without assigning a specific mechanism, or perform additional simulations (e.g., free energy perturbation, umbrella sampling, or Markov state models) that can actually distinguish between the proposed models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The authors state that "the difference of hydrogen bonding network and deformation of DNA base pair step produce the asymmetric dynamics" and that "variation of minor groove widths can direct overall shape complementarity."
+  - **Evidence pointer** Section 3.2, Section 3.7, Table S1 (not provided), Figure S7 (not provided)
+  - **Concern** The hydrogen bond analysis is described qualitatively. Occupancy percentages are given for a few interactions, but the full table S1 is not available. The relationship between hydrogen bond changes and the observed dynamics is asserted rather than demonstrated. Similarly, the groove width analysis is referenced to supplementary figures that are not provided.
+  - **Why it matters** Without the detailed data, the reader cannot verify the causal link between specific interactions and the observed dynamic changes. The manuscript's core narrative depends on this link.
+  - **Resolution test** Provide the supplementary tables and figures, and add a correlation analysis (e.g., between hydrogen bond occupancy changes and RMSF changes per residue) to substantiate the claimed causal relationship.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** The authors state that "the systems reach the equilibrium state at 50 ns" and analyze trajectories from 50-300 ns.
+  - **Evidence pointer** Section 3.1, Figure S1 (not provided)
+  - **Concern** The convergence assessment relies on RMSD plots that are not shown. A single 300 ns trajectory per system is short for drawing conclusions about slow conformational changes in large protein-DNA complexes. No replicate simulations are mentioned. The claim of equilibrium at 50 ns needs to be supported by additional metrics (e.g., radius of gyration, contact maps, or cluster analysis).
+  - **Why it matters** If the simulations are not fully converged, all subsequent analyses may reflect transient states rather than equilibrium properties, undermining the thermodynamic interpretations.
+  - **Resolution test** Provide the RMSD plots, add convergence metrics beyond RMSD, and ideally include replicate simulations or extended timescales to demonstrate robustness.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The entropy calculation method is described briefly. The equation for conformational entropy is mentioned but the bin size, the treatment of missing bins, and the statistical uncertainty are not discussed.
+  - **Required correction** Provide details on bin width selection, the number of frames used, and an estimate of the statistical error in the entropy values.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Section 3.7
+  - **Evidence pointer** Section 3.7, Table 3
+  - **Issue** The text states that free O-Sym and O2 have bending angles of approximately 15 degrees, but the table is not provided. The comparison between free and bound bending angles is central to the DNA deformation claim.
+  - **Required correction** Include the table in the main text or ensure it is available in the supplement, and explicitly state the numerical values in the text for clarity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.6
+  - **Evidence pointer** Section 3.6, Figure S5
+  - **Issue** The secondary structure analysis shows that residues 50-58 fold into an alpha helix upon O-SymL binding but remain disordered upon O2 binding. This is an interesting observation, but the functional implication is not discussed in depth.
+  - **Required correction** Expand on what this difference might mean for the differential affinity of the two operators, or at least acknowledge the limitation of not being able to directly connect this to binding affinity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The modeling of the Lac-O2 complex relies on superposition of the N-terminal domains from two different structures (1EFA and 2KEJ). The quality of this model and the potential artifacts introduced by this approach are not discussed.
+  - **Required correction** Add a validation step for the modeled complex (e.g., Ramachandran analysis, clash checks, or comparison with known contacts) and discuss the limitations of the homology-based approach.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (asymmetric dynamics not quantitatively established), R1-M2 (mechanistic conclusion not supported by data), R1-M3 (causal link between interactions and dynamics not demonstrated), R1-M4 (convergence not adequately shown).
+- **Assessment against Nature-style criteria** Originality: The question of sequence-dependent asymmetric dynamics in a symmetric transcription factor dimer is a fresh angle on a well-studied system. The work is not entirely novel in approach (MD simulations of Lac repressor exist) but the specific comparative analysis of two operators is a contribution. Scientific importance: The findings could inform understanding of how DNA sequence modulates transcription factor function, which is broadly relevant. However, the importance is currently limited by the lack of experimental validation or connection to functional assays. Interdisciplinary readership: The topic bridges structural biology, biophysics, and gene regulation, which could attract a broad audience. Technical soundness: The simulation methodology is standard, but the analysis lacks quantitative rigor in several places, and the missing supplementary data prevents full assessment. Readability for nonspecialists: The manuscript is written in a way that is largely accessible, though some sections assume familiarity with MD simulation terminology. The abstract is clear, but the introduction could better frame the significance for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has a reasonable premise and the simulation strategy is appropriate, but the central claims require additional quantitative analysis, access to the supplementary data, and a more cautious interpretation of the mechanistic implications. I would be supportive if the technical concerns are resolved and the conclusions are tempered to match the evidence.
+
+## Risk / unsupported claims
+- The claim that Lac repressor uses both Lock-and-Key and Induced Fit/Conformational Selection mechanisms is not supported by the presented data. The analysis only shows end-state structural differences, which cannot distinguish between these kinetic models.
+- The claim that "asymmetric dynamics of the two subunits" is a key feature for gene regulation is speculative. The connection between the observed simulation dynamics and in vivo function is not established.
+- The statement that "variation of minor groove widths can direct overall shape complementarity" is presented as a conclusion but is not quantitatively demonstrated in the main text.
+- The assertion that the O2 operator has "poorer repressing capability" based on bending propensity is an extrapolation from simulation data without experimental support.
+- The convergence of the simulations at 50 ns is claimed but cannot be verified without the supplementary figures.

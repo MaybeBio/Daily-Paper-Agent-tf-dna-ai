@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "40078458",
+    "doi": "10.3389/fcvm.2025.1521722",
+    "title": "Bioinformatics analysis of the expression of potential common genes and immune-related genes between atrial fibrillation and chronic kidney disease."
+  },
+  "content": {
+    "abstract": "RESEARCH OBJECTIVE: This study is based on bioinformatics analysis to explore the co-expressed differentially expressed genes (DEGs) between atrial fibrillation (AF) and chronic kidney disease (CKD), identify the biomarkers for the occurrence and development of the two diseases, investigate the potential connections between AF and CKD, and explore the associations with immune cells. METHODS: We downloaded Two AF gene chip datasets (GSE79768, GSE14975) and two CKD gene chip datasets (GSE37171, GSE120683) from the GEO database. After pre-processing and standardizing the datasets, two DEGs datasets were obtained. The DEGs were screened using R language, and the intersection was taken through Venn diagrams to obtain the co-expressed DEGs of AF and CKD. To obtain the signal pathways where the co-expressed DEGs were significantly enriched, GO/KEGG enrichment analyses were used to analysis the co-expressed DEGs. The Cytoscape software was used to further construct a PPI network and screen key characteristic genes, and the top 15 co-expressed DEGs were screened through the topological algorithm MCC. To further screen key characteristic genes, two machine-learning algorithms, LASSO regression and RF algorithm, were performed to screen key characteristic genes for the two disease datasets respectively to determine the diagnostic values of the characteristic genes in the two diseases. The GeneMANIA online database and Networkanalyst platform were used to construct gene-gene and TFs-gene interaction network diagrams respectively to predict gene functions and find key transcription factors. Finally, the correlation between key genes and immune cell subtypes was performed by Spearman analysis. RESEARCH RESULTS: A total of 425 DEGs were screened out from the AF dataset, and 4,128 DEGs were screened out from the CKD dataset. After taking the intersection of the two, 82 co-expressed DEGs were obtained. The results of GO enrichment analysis of DEGs showed that the genes were mainly enriched in biological processes such as secretory granule lumen, blood microparticles, complement binding, and antigen binding. KEGG functional enrichment analysis indicated that the genes were mainly enriched in pathways such as the complement coagulation cascade, systemic lupus erythematosus, and Staphylococcus aureus infection. The top 15 DEGs were obtained through the MCC topological algorithm of Cytoscape software. Subsequently, based on LASSO regression and RF algorithm, the key characteristic genes of the 15 co-expressed DEGs of AF and CKD were further screened, and by taking the intersection through Venn diagrams, five key characteristic genes were finally obtained: PPBP, CXCL1, LRRK2, RGS18, RSAD2. ROC curves were constructed to calculate the area under the curve to verify the diagnostic efficacy of the key characteristic genes for diseases. The results showed that RSAD2 had the highest diagnostic value for AF, and the diagnostic values of PPBP, CXCL1, and RSAD2 for CKD were all at a relatively strong verification level. Based on AUC >0.7, co-expressed key genes with strong diagnostic efficacy were obtained: PPBP, CXCL1, RSAD2. The results of the GeneMANIA online database showed that the two biomarkers, BBPB and CXCL1, mainly had functional interactions with cytokine activity, chemokine receptor activity, cell response to chemokines, neutrophil migration, response to chemokines, granulocyte chemotaxis, and granulocyte migration. The TFs-gene regulatory network identified FOXC1, FOXL1, and GATA2 as the main transcription factors of the key characteristic genes. Finally, through immune infiltration analysis, the results indicated that there were various immune cell infiltrations in the development processes of AF and CKD. RESEARCH CONCLUSION: PPBP, CXCL1, and RSAD2 are key genes closely related to the occurrence and development processes between AF and CKD. Among them, the CXCLs/CXCR signaling pathway play a crucial role in the development processes of the two diseases likely. In addition, FOXC1, FOXL1, and GATA2 may be potential therapeutic targets for AF combined with CKD, and the development of the diseases is closely related to immune cell infiltration.",
+    "keywords": [
+      "CXCLs/CXCR",
+      "atrial fibrillation",
+      "bioinformatics",
+      "chronic kidney disease",
+      "immune process",
+      "inflammatory"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Teng, Jieying",
+        "Deng, Guoxiong"
+      ],
+      "short_names": [
+        "Teng J",
+        "Deng G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, The Fifth Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Cardiology, The First People's Hospital of Nanning, Nanning, China.",
+        "Department of Cardiology, The Fifth Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Cardiology, The First People's Hospital of Nanning, Nanning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Teng, Jieying",
+        "short_name": "Teng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Fifth Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+          "Department of Cardiology, The First People's Hospital of Nanning, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Guoxiong",
+        "short_name": "Deng G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Fifth Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+          "Department of Cardiology, The First People's Hospital of Nanning, Nanning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cardiovascular medicine"
+    ],
+    "journal_abbrev": [
+      "Front Cardiovasc Med"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/13 06:27",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39263796",
+      "39101202",
+      "39083268",
+      "38634789",
+      "38589444",
+      "38189150",
+      "37817408",
+      "37550764",
+      "37532952",
+      "37445678",
+      "36328098",
+      "36296981",
+      "35803367",
+      "35552540",
+      "34252450",
+      "33996954",
+      "33841968",
+      "33396359",
+      "33193444",
+      "32946266",
+      "32716709",
+      "32648149",
+      "32328072",
+      "32296020",
+      "31961420",
+      "31517441",
+      "30988731",
+      "30852913",
+      "30546024",
+      "30049467",
+      "29514257",
+      "29038657",
+      "28807932",
+      "28431249",
+      "28368308",
+      "27941934",
+      "27887750",
+      "27180200",
+      "26460250",
+      "25744602",
+      "25547404",
+      "25477463",
+      "25265341",
+      "23940812",
+      "23810443",
+      "23724069",
+      "23550035",
+      "22673890",
+      "22388323",
+      "20547939",
+      "20484892",
+      "20038802",
+      "18555777",
+      "18251008",
+      "12055238",
+      "11358962",
+      "8702798"
+    ],
+    "similar": [
+      "40078458",
+      "33841968",
+      "38274270",
+      "36860851",
+      "35305619",
+      "36189314",
+      "37235492",
+      "37883760",
+      "39586719",
+      "36467340",
+      "36733486",
+      "39375405",
+      "28432618",
+      "34384424",
+      "37971162",
+      "37465678",
+      "34553293",
+      "38115636",
+      "35790963",
+      "40110435",
+      "38660311",
+      "39403102",
+      "36642989",
+      "38384969",
+      "36157062",
+      "31258663",
+      "33468161",
+      "31673979",
+      "35273648",
+      "38650009",
+      "39875572",
+      "37113991",
+      "38656659",
+      "35307059",
+      "37264340",
+      "32922167",
+      "35958412",
+      "39055656",
+      "36923221",
+      "32778054",
+      "38863714",
+      "36118873",
+      "38951833",
+      "34536521",
+      "39142001",
+      "38549107",
+      "40055592",
+      "37325483",
+      "40263537",
+      "35911963",
+      "38319987",
+      "33741890",
+      "36647491",
+      "39188714",
+      "39086489",
+      "37460430",
+      "35023949",
+      "37250717",
+      "40329965",
+      "39351239",
+      "37063958",
+      "36212172",
+      "36246560",
+      "36568366",
+      "35713363",
+      "37519764",
+      "39766817",
+      "37359526",
+      "32383373",
+      "35709926",
+      "38526604",
+      "36104591",
+      "40312440",
+      "39877037",
+      "36568397",
+      "37980550",
+      "33407587",
+      "37283588",
+      "39145072",
+      "39341981",
+      "35003319",
+      "37520121",
+      "37582718",
+      "38615114",
+      "36699262",
+      "40102753",
+      "39331874",
+      "36814902",
+      "37396579",
+      "36506310",
+      "36532018",
+      "38371524",
+      "35558576",
+      "36704339",
+      "35278479",
+      "38260098",
+      "32265825",
+      "39345724",
+      "39120060",
+      "40109657"
+    ],
+    "review": [
+      "40078458"
+    ],
+    "pmc": [
+      "11897265"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40078458/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcvm.2025.1521722",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

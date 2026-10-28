@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "40540299",
+    "doi": "10.1096/fj.202500965R",
+    "title": "Deciphering the Regulatory Networks of the Migrasome-Associated Cell Subpopulation in Heterotopic Ossification via Multi-Omics Analysis."
+  },
+  "content": {
+    "abstract": "Heterotopic ossification (HO) is a pathological process where bone forms in extraskeletal tissues, often occurring as a complication of tissue repair following injury. This condition can lead to movement limitations, pain, and functional impairment. However, the underlying pathomechanisms remain poorly understood. This study aims to elucidate key biomolecular networks involved in HO through a comprehensive multi-omics analysis. Single-cell, bulk, and spatial transcriptome datasets were obtained from the Gene Expression Omnibus (GEO) database. Migrasome score analysis identified a critical cell subtype associated with HO. Key genes were identified through high-dimensional weighted gene co-expression network analysis (hdWGCNA), machine learning, and dataset validation from clinical samples. Then we analyzed immune infiltration, microRNA (miRNA) networks, co-expression networks, transcription factor (TF) regulatory networks, and signaling pathways to investigate potential regulatory mechanisms of HO. Spatial transcriptomics revealed the spatial patterns of cell subpopulation distribution and key molecule expression. Experimental validation further confirmed the expression patterns of key molecules in HO. As a result, we identified mesenchymal lineage cells (MLin) as the key migrasome-associated cell subtype and determined peptidylprolyl isomerase B (Ppib) and transgelin (Tagln) as the key molecules. We constructed a regulatory network of these biomolecules and clarified their spatial distribution. Notably, the expression of Ppib and Tagln is temporally correlated with HO progression. Collectively, the identification of Ppib and Tagln, along with the construction of key biomolecular networks, facilitates the discovery of novel biomarkers for HO, offering promising potential for the development of preventive and therapeutic strategies.",
+    "keywords": [
+      "hdWGCNA",
+      "heterotopic ossification",
+      "machine learning",
+      "migrasome",
+      "single-cell RNA sequencing",
+      "spatial transcriptomics"
+    ],
+    "mesh_terms": [
+      "*Ossification, Heterotopic/genetics/metabolism/pathology",
+      "Humans",
+      "*Gene Regulatory Networks",
+      "Transcriptome",
+      "Gene Expression Profiling",
+      "Mesenchymal Stem Cells/metabolism",
+      "MicroRNAs/genetics",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Guanzhi",
+        "Deng, Xiao",
+        "Li, Tong",
+        "Liu, Yuchen",
+        "Tan, Lei",
+        "Zhang, Kairui",
+        "Yu, Bin"
+      ],
+      "short_names": [
+        "Li G",
+        "Deng X",
+        "Li T",
+        "Liu Y",
+        "Tan L",
+        "Zhang K",
+        "Yu B"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5366-348X"
+      ],
+      "affiliations": [
+        "Division of Orthopaedics and Traumatology, Department of Orthopaedics, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Guangdong Provincial Key Laboratory of Bone and Cartilage Regenerative Medicine, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Division of Orthopaedics and Traumatology, Department of Orthopaedics, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Guangdong Provincial Key Laboratory of Bone and Cartilage Regenerative Medicine, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Division of Orthopaedics and Traumatology, Department of Orthopaedics, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Guangdong Provincial Key Laboratory of Bone and Cartilage Regenerative Medicine, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Division of Orthopaedics and Traumatology, Department of Orthopaedics, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Guangdong Provincial Key Laboratory of Bone and Cartilage Regenerative Medicine, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Division of Orthopaedics and Traumatology, Department of Orthopaedics, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Guangdong Provincial Key Laboratory of Bone and Cartilage Regenerative Medicine, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Division of Orthopaedics and Traumatology, Department of Orthopaedics, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Guangdong Provincial Key Laboratory of Bone and Cartilage Regenerative Medicine, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Division of Orthopaedics and Traumatology, Department of Orthopaedics, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Guangdong Provincial Key Laboratory of Bone and Cartilage Regenerative Medicine, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Guanzhi",
+        "short_name": "Li G",
+        "identifiers": [
+          "0000-0001-5366-348X"
+        ],
+        "affiliations": [
+          "Division of Orthopaedics and Traumatology, Department of Orthopaedics, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+          "Guangdong Provincial Key Laboratory of Bone and Cartilage Regenerative Medicine, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Xiao",
+        "short_name": "Deng X",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Orthopaedics and Traumatology, Department of Orthopaedics, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+          "Guangdong Provincial Key Laboratory of Bone and Cartilage Regenerative Medicine, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Tong",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Orthopaedics and Traumatology, Department of Orthopaedics, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+          "Guangdong Provincial Key Laboratory of Bone and Cartilage Regenerative Medicine, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuchen",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Orthopaedics and Traumatology, Department of Orthopaedics, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+          "Guangdong Provincial Key Laboratory of Bone and Cartilage Regenerative Medicine, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Lei",
+        "short_name": "Tan L",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Orthopaedics and Traumatology, Department of Orthopaedics, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+          "Guangdong Provincial Key Laboratory of Bone and Cartilage Regenerative Medicine, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Kairui",
+        "short_name": "Zhang K",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Orthopaedics and Traumatology, Department of Orthopaedics, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+          "Guangdong Provincial Key Laboratory of Bone and Cartilage Regenerative Medicine, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Bin",
+        "short_name": "Yu B",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Orthopaedics and Traumatology, Department of Orthopaedics, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+          "Guangdong Provincial Key Laboratory of Bone and Cartilage Regenerative Medicine, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "FASEB journal : official publication of the Federation of American Societies for Experimental Biology"
+    ],
+    "journal_abbrev": [
+      "FASEB J"
+    ],
+    "pub_date": "2025 Jun 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/20 12:27",
+    "fetched_at": "2026-09-30 20:13:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39736135",
+      "39308190",
+      "39182134",
+      "39110383",
+      "39062199",
+      "39045052",
+      "39026663",
+      "39025912",
+      "39019974",
+      "38945957",
+      "38851421",
+      "38840183",
+      "38499860",
+      "38472175",
+      "38325754",
+      "37426759",
+      "37402721",
+      "37367700",
+      "37280595",
+      "37261543",
+      "37100287",
+      "36828839",
+      "36788616",
+      "36612129",
+      "36522666",
+      "36494806",
+      "36421451",
+      "36405728",
+      "36276940",
+      "36248275",
+      "36185637",
+      "36127250",
+      "35776288",
+      "35665757",
+      "35179563",
+      "34737845",
+      "34338296",
+      "34315404",
+      "34048705",
+      "33603203",
+      "33597522",
+      "33298867",
+      "32994478",
+      "32484792",
+      "32028956",
+      "32024825",
+      "31721068",
+      "31700694",
+      "31606109",
+      "31371827",
+      "31044187",
+      "30786091",
+      "30672120",
+      "30642095",
+      "30531897",
+      "30161026",
+      "29608179",
+      "29462673",
+      "28991892",
+      "28855144",
+      "27916375",
+      "27490926",
+      "26135077",
+      "25342562",
+      "24658644",
+      "24327087",
+      "22806925",
+      "22706122",
+      "21282188",
+      "6220140"
+    ],
+    "similar": [
+      "40540299",
+      "33391181",
+      "34389038",
+      "34612770",
+      "26721400",
+      "41504052",
+      "33715398",
+      "40216809",
+      "34737845",
+      "40437419",
+      "39512836",
+      "30635039",
+      "41424060",
+      "41316383",
+      "40374866",
+      "41080564",
+      "36713424",
+      "41099090",
+      "41107929",
+      "30672120",
+      "39320014",
+      "28645539",
+      "39031800",
+      "39026663",
+      "32382555",
+      "38863714",
+      "40574839",
+      "40725477",
+      "41006377",
+      "40532306",
+      "32858559",
+      "40764361",
+      "41284112",
+      "33606989",
+      "41009952",
+      "40473799",
+      "41200169",
+      "36522666",
+      "32293797",
+      "41425573",
+      "37597797",
+      "40887856",
+      "35964153",
+      "40287052",
+      "39932915",
+      "38760675",
+      "39450542",
+      "40808948",
+      "25944403",
+      "41432483",
+      "28297577",
+      "40097519",
+      "39896809",
+      "38573853",
+      "32484792",
+      "41465092",
+      "39589893",
+      "40761790",
+      "41052072",
+      "7971796",
+      "39080525",
+      "41217566",
+      "39703515",
+      "41196851",
+      "41246350",
+      "39833160",
+      "39541897",
+      "40767016",
+      "40474806",
+      "41290867",
+      "41031145",
+      "37426759",
+      "24136804",
+      "40207230",
+      "41162503",
+      "40350654",
+      "36012474",
+      "41109923",
+      "40274967",
+      "25253675",
+      "40507971",
+      "21991826",
+      "32853181",
+      "28826842",
+      "40711603",
+      "39044829",
+      "37153569",
+      "41151234",
+      "40613560",
+      "40823759",
+      "40330470",
+      "40909272",
+      "28986986",
+      "34315404",
+      "39604866",
+      "30989716",
+      "39656402",
+      "28455214",
+      "39294296",
+      "40818967"
+    ],
+    "review": [
+      "40540299",
+      "39320014",
+      "36522666",
+      "32293797",
+      "21991826",
+      "28826842",
+      "34315404",
+      "30989716"
+    ],
+    "pmc": [
+      "12180572"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40540299/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1096/fj.202500965R",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TAGLN-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-443",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:40540299",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37339154",
+  "title": "Knowledge graph embedding for profiling the interaction between transcription factors and their target genes.",
+  "authors": "Wu, Yang-Han; Huang, Yu-An; Li, Jian-Qiang; You, Zhu-Hong; Hu, Peng-Wei; Hu, Lun; Leung, Victor C M; Du, Zhi-Hua",
+  "journal": "PLoS computational biology",
+  "published_date": "2023-06-20",
+  "window": {
+    "start": "2023-06-19",
+    "end": "2023-06-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用知识图谱嵌入预测转录因子-靶基因互作类型，虽涉及TF-DNA调控网络，但基于拓扑信息而非三维结构或结合机制，方法可迁移但深度有限。",
+  "abstract": "Interactions between transcription factor and target gene form the main part of gene regulation network in human, which are still complicating factors in biological research. Specifically, for nearly half of those interactions recorded in established database, their interaction types are yet to be confirmed. Although several computational methods exist to predict gene interactions and their type, there is still no method available to predict them solely based on topology information. To this end, we proposed here a graph-based prediction model called KGE-TGI and trained in a multi-task learning manner on a knowledge graph that we specially constructed for this problem. The KGE-TGI model relies on topology information rather than being driven by gene expression data. In this paper, we formulate the task of predicting interaction types of transcript factor and target genes as a multi-label classification problem for link types on a heterogeneous graph, coupled with solving another link prediction problem that is inherently related. We constructed a ground truth dataset as benchmark and evaluated the proposed method on it. As a result of the 5-fold cross experiments, the proposed method achieved average AUC values of 0.9654 and 0.9339 in the tasks of link prediction and link type classification, respectively. In addition, the results of a series of comparison experiments also prove that the introduction of knowledge information significantly benefits to the prediction and that our methodology achieve state-of-the-art performance in this problem.",
+  "abstract_zh": "转录因子与靶基因之间的相互作用构成了人类基因调控网络的主要部分，这些相互作用在生物学研究中仍是复杂因素。具体而言，在已建立数据库中记录的近半数相互作用中，其相互作用类型尚未得到确认。尽管已有多种计算方法用于预测基因相互作用及其类型，但目前仍没有方法能仅基于拓扑信息进行预测。为此，我们在此提出了一种基于图的预测模型，称为KGE-TGI，并以多任务学习方式在我们专门为此问题构建的知识图谱上进行训练。KGE-TGI模型依赖于拓扑信息，而非由基因表达数据驱动。在本文中，我们将转录因子与靶基因相互作用类型的预测任务形式化为异质图上链接类型的多标签分类问题，并同时解决一个与之固有相关的链接预测问题。我们构建了一个真实数据集作为基准，并在此上评估了所提出的方法。通过5折交叉实验，所提方法在链接预测和链接类型分类任务中分别达到了平均AUC值0.9654和0.9339。此外，一系列对比实验的结果也证明，引入知识信息显著有利于预测，且我们的方法在此问题上达到了最先进的性能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37339154/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37339154/",
+  "paper_page_path": "papers/pubmed/37339154/index.html"
+}

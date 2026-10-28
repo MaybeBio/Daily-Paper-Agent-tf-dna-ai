@@ -1,0 +1,155 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.05.27.727946",
+  "title": "DeepDiffusion: a Physics-Informed Neural Network for Heterogeneous Facilitated 1D Diffusion",
+  "doi": "10.64898/2026.05.27.727946",
+  "abstract": "Single-molecule fluorescence microscopy combined with optical tweezers has enabled the direct observation of diffusing proteins on tethered DNA. These and complementary techniques reveal facilitated one-dimensional diffusion as a common functional mechanism for numerous DNA-binding proteins, with a wide range of heterogeneous diffusive behaviours arising from different DNA-binding modes. However, detailed investigations have been limited by the lack of methods to detect such heterogeneous diffusion. We have developed DeepDiffusion, a physics-informed neural network model for estimating the instantaneous diffusion at each point along a single-molecule trajectory. We show, using synthetic trajectories, that DeepDiffusion can accurately detect subtle changes in diffusion even when challenged with large underlying errors. DeepDiffusion can recapitulate previously characterised heterogeneity in experimental data and reveal mechanistic details of facilitated diffusion that are inaccessible to current methods. We expect DeepDiffusion to become a powerful tool for single-molecule researchers, allowing them to investigate the diffusion of their proteins of interest in unprecedented detail.",
+  "authors": [
+    "Ray KK",
+    "Ambrose B",
+    "della Maggiora G",
+    "de Diego Pinedo N",
+    "Bauer S",
+    "Yakimovich A",
+    "Rueda DS"
+  ],
+  "published_date": "2026-05-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.05.27.727946",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.27.727946.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1242355",
+    "raw_record": {
+      "id": "PPR1242355",
+      "source": "PPR",
+      "doi": "10.64898/2026.05.27.727946",
+      "title": "DeepDiffusion: a Physics-Informed Neural Network for Heterogeneous Facilitated 1D Diffusion",
+      "authorString": "Ray KK, Ambrose B, della Maggiora G, de Diego Pinedo N, Bauer S, Yakimovich A, Rueda DS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ray KK",
+            "lastName": "Ray",
+            "firstName": "Korak Kumar",
+            "initials": "KK"
+          },
+          {
+            "fullName": "Ambrose B",
+            "lastName": "Ambrose",
+            "firstName": "Benjamin",
+            "initials": "B"
+          },
+          {
+            "fullName": "della Maggiora G",
+            "lastName": "della Maggiora",
+            "firstName": "Gabriel",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6320-5105"
+            }
+          },
+          {
+            "fullName": "de Diego Pinedo N",
+            "lastName": "de Diego Pinedo",
+            "firstName": "Nicolas",
+            "initials": "N"
+          },
+          {
+            "fullName": "Bauer S",
+            "lastName": "Bauer",
+            "firstName": "Stefan",
+            "initials": "S"
+          },
+          {
+            "fullName": "Yakimovich A",
+            "lastName": "Yakimovich",
+            "firstName": "Artur",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2458-4904"
+            }
+          },
+          {
+            "fullName": "Rueda DS",
+            "lastName": "Rueda",
+            "firstName": "David",
+            "initials": "DS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4657-6323"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6320-5105"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2458-4904"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4657-6323"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Single-molecule fluorescence microscopy combined with optical tweezers has enabled the direct observation of diffusing proteins on tethered DNA. These and complementary techniques reveal facilitated one-dimensional diffusion as a common functional mechanism for numerous DNA-binding proteins, with a wide range of heterogeneous diffusive behaviours arising from different DNA-binding modes. However, detailed investigations have been limited by the lack of methods to detect such heterogeneous diffusion. We have developed DeepDiffusion, a physics-informed neural network model for estimating the instantaneous diffusion at each point along a single-molecule trajectory. We show, using synthetic trajectories, that DeepDiffusion can accurately detect subtle changes in diffusion even when challenged with large underlying errors. DeepDiffusion can recapitulate previously characterised heterogeneity in experimental data and reveal mechanistic details of facilitated diffusion that are inaccessible to current methods. We expect DeepDiffusion to become a powerful tool for single-molecule researchers, allowing them to investigate the diffusion of their proteins of interest in unprecedented detail.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.05.27.727946"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-06-03",
+      "firstPublicationDate": "2026-05-29",
+      "firstIndexDate": "2026-06-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

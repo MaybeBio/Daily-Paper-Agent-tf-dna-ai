@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38018912",
+  "title": "Characterization on the oncogenic effect of the missense mutations of p53 via machine learning.",
+  "authors": "Pan, Qisheng; Portelli, Stephanie; Nguyen, Thanh Binh; Ascher, David B",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2023-11-29",
+  "window": {
+    "start": "2023-11-27",
+    "end": "2023-12-03"
+  },
+  "score": 6,
+  "one_liner_zh": "用机器学习结合生物物理特征预测p53错义突变的功能后果，虽涉及蛋白稳定性与残基活性，但未聚焦TF-DNA结合位点或互作机制建模，属于蛋白功能预测，方法可迁移但对象偏离。",
+  "abstract": "Dysfunctions caused by missense mutations in the tumour suppressor p53 have been extensively shown to be a leading driver of many cancers. Unfortunately, it is time-consuming and labour-intensive to experimentally elucidate the effects of all possible missense variants. Recent works presented a comprehensive dataset and machine learning model to predict the functional outcome of mutations in p53. Despite the well-established dataset and precise predictions, this tool was trained on a complicated model with limited predictions on p53 mutations. In this work, we first used computational biophysical tools to investigate the functional consequences of missense mutations in p53, informing a bias of deleterious mutations with destabilizing effects. Combining these insights with experimental assays, we present two interpretable machine learning models leveraging both experimental assays and in silico biophysical measurements to accurately predict the functional consequences on p53 and validate their robustness on clinical data. Our final model based on nine features obtained comparable predictive performance with the state-of-the-art p53 specific method and outperformed other generalized, widely used predictors. Interpreting our models revealed that information on residue p53 activity, polar atom distances and changes in p53 stability were instrumental in the decisions, consistent with a bias of the properties of deleterious mutations. Our predictions have been computed for all possible missense mutations in p53, offering clinical diagnostic utility, which is crucial for patient monitoring and the development of personalized cancer treatment.",
+  "abstract_zh": "肿瘤抑制因子p53中的错义突变引起的功能障碍已被广泛证明是多种癌症的主要驱动因素。遗憾的是，通过实验阐明所有可能的错义变异的影响既耗时又费力。近期研究提供了一个全面的数据集和机器学习模型，用于预测p53突变的功能结果。尽管数据集完善且预测精确，该工具基于复杂模型训练，对p53突变的预测能力有限。在本工作中，我们首先利用计算生物物理工具探究p53错义突变的功能后果，揭示了有害突变倾向于具有去稳定化效应的偏差。结合这些见解与实验测定，我们提出了两个可解释的机器学习模型，利用实验测定和计算机模拟生物物理测量，准确预测p53的功能后果，并在临床数据上验证了其稳健性。我们基于九个特征的最终模型获得了与最先进的p53特异性方法相当的预测性能，并优于其他通用且广泛使用的预测器。对模型的解释揭示，残基p53活性、极性原子距离及p53稳定性变化的信息在决策中起关键作用，这与有害突变特性的偏差一致。我们的预测已针对p53中所有可能的错义突变进行计算，提供了临床诊断实用性，这对患者监测和个性化癌症治疗的发展至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38018912/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38018912/",
+  "paper_page_path": "papers/pubmed/38018912/index.html"
+}

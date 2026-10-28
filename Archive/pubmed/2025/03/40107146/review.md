@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors characterize four aryl hydrocarbon receptor (AHR) paralogs from marine medaka (Oryzias melastigma) and compare their in vitro sensitivity to 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) and other ligands with Japanese medaka (Oryzias latipes) AHRs. They report variable EC50 values across paralogs, species-specific sensitivity differences, ligand affinity orders consistent with transactivation potency, and preliminary in vivo LC50 data suggesting similar or slightly greater TCDD sensitivity in marine medaka.
+- **Visible evidence base** Abstract text only; no methods, statistical details, figures, tables, or supplementary information provided
+- **Missing materials affecting confidence** Full methods for in vitro reporter assays, computational docking protocols, in vivo exposure conditions, statistical analyses, and all primary data (figures, tables, supplementary files)
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable comparative toxicology study addressing species differences in AHR-mediated dioxin sensitivity between two closely related medaka species. The reported EC50 variations and the observation that sensitivity to TCDD may not generalize to other ligand types are interesting. However, the abstract alone provides insufficient detail to evaluate technical rigor, statistical validity, or the robustness of the computational and in vivo claims. Several statements are presented without supporting data or statistical confirmation, and the in vivo comparison is explicitly preliminary. The case for a broad conclusion about species-specific AHR biology is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in aquatic toxicology, environmental risk assessment, and comparative molecular biology would be interested. The work addresses whether marine and freshwater medaka, widely used as model species, respond equivalently to dioxin-like compounds, which is directly relevant to regulatory toxicity testing and cross-species extrapolation. The ligand-specific sensitivity findings may also interest those studying AHR structure-function relationships.
+- **Major strengths** The study addresses a timely and practical question about cross-species comparability in ecotoxicology. The inclusion of multiple AHR paralogs and multiple ligands, combined with computational modeling, provides a multi-faceted approach. The explicit comparison of EC50 values between species offers quantitative insight. The preliminary in vivo data, while limited, adds ecological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report EC50 values for omeAHR1a, omeAHR1b, omeAHR2a, and omeAHR2b with large standard deviations (e.g., 0.16+/-0.12 nM, 2.96+/-2.96 nM, 9.00+/-6.88 nM) and claim marked variations in sensitivity.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The EC50 values are presented with standard deviations that in some cases approach or exceed the mean (e.g., omeAHR1b and omeAHR2b), indicating high variability. The abstract does not report the number of independent replicates, the statistical method used to compare EC50 values, or whether the differences between paralogs and between species are statistically significant. Without these details, the claim of "marked variations" and "heightened sensitivity" cannot be rigorously evaluated.
+  - **Why it matters** The central conclusion of species-specific sensitivity rests on the reliability and statistical robustness of these EC50 estimates. High variability and lack of significance testing undermine confidence in the quantitative comparisons.
+  - **Resolution test** Provide replicate numbers, error bars, and statistical comparisons (e.g., ANOVA or non-parametric tests) for all EC50 values. Demonstrate that the reported differences are statistically significant and reproducible.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "most of omeAHR2a, olaAHR2a, dreAHR2, and hsaAHR interact with ligands in the affinity order of TCDD > PCB126 > BNF > indole, mirroring their AHR transactivation potency, but the docking poses and dynamics can vary."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The computational modeling results are summarized without any methodological detail. It is unclear what docking software, scoring functions, force fields, or simulation parameters were used, how many poses were analyzed, or how "affinity order" was determined (e.g., binding free energies, docking scores). The claim that docking poses and dynamics "can vary" is vague and does not specify which systems or under what conditions.
+  - **Why it matters** Computational predictions are only meaningful if the methods are transparent and validated. Without this, the reader cannot assess whether the affinity order is robust or an artifact of the chosen methodology.
+  - **Resolution test** Describe the computational methods in detail, including software versions, validation against experimental data, and criteria for defining affinity order. Show representative docking poses and dynamics data, and clarify the variability mentioned.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for conclusions
+  - **Claim pointer** The authors state that "one AHR subform's high sensitivity to dioxin-TCDD may extend to DLCs but not to other types of ligands."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** This is a generalizing claim based on data from a limited set of ligands (TCDD, PCB126, BNF, indole). The abstract does not specify which AHR subform this refers to, how many ligands were tested, or whether the pattern was consistent across all tested paralogs. The phrase "may extend" is appropriately cautious, but the evidence base for this claim is not described.
+  - **Why it matters** This claim has implications for predicting cross-chemical toxicity, but if it is based on a single subform or a narrow ligand set, it may be overinterpreted.
+  - **Resolution test** Specify the AHR subform(s) and the full ligand panel tested. Provide data showing that sensitivity to TCDD correlates with DLCs but not with non-DLC ligands across multiple subforms.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for conclusions
+  - **Claim pointer** The authors report preliminary in vivo LC50 values for marine medaka (1.64 ng/L, 95% CI 1.05-2.55 ng/L) and Japanese medaka (3.42 ng/L, 95% CI 1.37-6.48 ng/L) and state that marine medaka has "similar sensitivity, and possibly slightly greater (not statistically determined yet)."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The in vivo data are explicitly preliminary and the difference is not statistically confirmed. The overlapping confidence intervals (1.05-2.55 vs. 1.37-6.48) suggest that the difference may not be significant. Presenting this as a comparative finding, even with caveats, is premature without statistical testing.
+  - **Why it matters** The in vivo comparison is a key translational component of the study. An unconfirmed difference could mislead readers about the ecological relevance of the in vitro findings.
+  - **Resolution test** Conduct a formal statistical comparison (e.g., likelihood ratio test or bootstrap) of the LC50 values and report the outcome. If the difference is not significant, state this explicitly and avoid implying a trend.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "the question that 'will they report equal results due to their close phylogenetic relation' has been raised" is awkwardly phrased and informal for a scientific abstract.
+  - **Required correction** Rephrase to a more formal statement, e.g., "Given their close phylogenetic relationship, it is unclear whether the two species respond equivalently to dioxin exposure."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** In vivo data reporting
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The in vivo LC50 values are reported with confidence intervals, but the exposure duration, life stage, and route of exposure are not stated.
+  - **Required correction** Add brief details on exposure conditions (e.g., "embryo-larval exposure for X days") to contextualize the LC50 values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Ligand naming
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** "BNF" is used without definition. While common in toxicology, it should be spelled out at first use.
+  - **Required correction** Write "beta-naphthoflavone (BNF)" at first mention.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor of EC50 comparisons), R1-M2 (computational methodology transparency), R1-M4 (unconfirmed in vivo difference). R1-M3 is a generalization concern that requires additional data.
+- **Assessment against Nature-style criteria** Originality: The comparative approach across two closely related medaka species is somewhat novel, but the concept of species-specific AHR sensitivity is not new. Scientific importance: The findings could inform regulatory risk assessment, but the preliminary nature of key data limits current impact. Interdisciplinary readership: The topic bridges toxicology, molecular biology, and environmental science, but the abstract is too specialized for a broad audience. Technical soundness: Not assessable from the abstract alone; major methodological details are missing. Readability for nonspecialists: The abstract is dense and assumes familiarity with AHR biology and EC50 concepts; the informal phrasing in one sentence detracts from clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting preliminary findings, but the lack of methodological detail, statistical validation, and confirmed in vivo results prevents a definitive assessment. I would be supportive if the full manuscript addresses the technical concerns, particularly statistical rigor and computational transparency.
+
+## Risk / unsupported claims
+- The claim of "marked variations" in EC50 values across AHR paralogs is unsupported without statistical testing.
+- The claim of "heightened sensitivity" of omeAHR2a and omeAHR1a compared to Japanese medaka counterparts is unsupported without significance testing.
+- The ligand affinity order from computational modeling is unverifiable without methodological details.
+- The generalization that high TCDD sensitivity extends to DLCs but not other ligands is not supported by the limited ligand set described.
+- The in vivo comparison suggesting "possibly slightly greater" sensitivity in marine medaka is explicitly not statistically determined and should not be presented as a finding.

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with stated evidence; no assessment of formatting or editorial policy
+- **Shared manuscript claim summary** The authors present DARSI, a convolutional neural network trained on MPRA data from 95 E. coli operons, that predicts discretized gene expression levels from raw DNA sequences and identifies transcription factor binding sites via saliency mapping, recovering known sites and predicting novel ones
+- **Visible evidence base** Main text figures referenced (Figs 1–5), supplementary text sections S1–S8, GitHub repository mentioned but not accessible in this review
+- **Missing materials affecting confidence** Actual figures, supplementary tables, GitHub repository contents, detailed model hyperparameters, and full benchmark results are not provided; only textual descriptions are available
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful application of convolutional neural networks to MPRA data for binding site identification, with a reasonable motivation and a clear pipeline. However, the evidence as presented is insufficient to fully establish the central claims. Key limitations include the absence of quantitative benchmarking against alternative methods, lack of statistical validation for the saliency-based binding site calls, and an unclear relationship between the classification accuracy and the biological validity of the identified sites. The work is of interest to the gene regulation and computational biology communities, but the current evidence base does not fully support the strength of the conclusions drawn.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation, particularly those using MPRA or similar high-throughput reporter assays, would be interested in a tool that can predict expression and locate binding sites from sequence alone. Computational biologists developing interpretable deep learning methods for genomics may also find the approach relevant. The potential to generate experimentally testable hypotheses from existing MPRA datasets is an attractive feature for experimental groups.
+- **Major strengths** The motivation is clear and addresses a real gap in MPRA analysis, namely the assumption of independent base pair contributions. The choice of a convolutional architecture over large pretrained models is well justified given the small dataset sizes typical of MPRA experiments. The pipeline is described in sufficient detail to be reproducible, and the authors provide a GitHub repository with code and data. The use of saliency maps for interpretability is appropriate and aligns with the goal of identifying functional elements.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that DARSI achieves an average predictive accuracy of 79.8% across 95 operons and that this accuracy is sufficient to reliably identify binding sites
+  - **Evidence pointer** Results section "DARSI can predict gene expression from raw sequence", Fig 3
+  - **Concern** The reported accuracy of 79.8% is presented as the key performance metric, but the basis for this number is unclear. It is not stated whether this is a balanced accuracy, macro-averaged accuracy, or something else. Given the class imbalance described (zero expression bin overrepresented), a naive classifier predicting the majority class could achieve high accuracy. The authors mention undersampling/oversampling to create an evenly split dataset, but the exact composition of the test set and the metric used are not specified. Furthermore, the confusion matrix for yqhC is shown, but no aggregate statistics across all 95 operons are provided beyond the single average accuracy figure. The relationship between classification accuracy and the reliability of saliency-based binding site identification is also not established; a model with 80% accuracy may still produce noisy or misleading saliency maps.
+  - **Why it matters** Without a clear and rigorous performance evaluation, the predictive power of DARSI is not convincingly demonstrated. If the accuracy metric is inflated by class imbalance or other artifacts, the downstream binding site predictions may be unreliable, undermining the central claim of the paper.
+  - **Resolution test** Provide a detailed description of the accuracy metric, including how it is computed and whether it is balanced. Report per-class precision, recall, and F1 scores averaged across all 95 operons, with confidence intervals. Additionally, perform a baseline comparison, such as a logistic regression on k-mer frequencies or a simple position-weight matrix model, to show that DARSI outperforms simpler approaches. Finally, demonstrate that saliency-based binding site predictions are robust to model retraining, for example by showing consistency across multiple training runs with different random seeds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that DARSI identifies binding sites at single-base pair resolution, recovering 88.4% of known sites and predicting 73 novel sites
+  - **Evidence pointer** Results section "Uncovering binding sites using saliency maps", Figs 4 and 5
+  - **Concern** The method for converting saliency maps into discrete binding site calls is not fully described. The authors state that peaks exceeding one standard deviation above the mean and spanning at least 10 bp are selected, but the exact algorithm for defining peak boundaries, merging adjacent peaks, and handling overlapping or nested sites is not given. The validation against known sites is described only in terms of a percentage (88.4%), with no details on how overlap between predicted and annotated sites is defined (e.g., exact base pair match, partial overlap, distance threshold). The 73 novel sites are presented without any supporting evidence beyond their existence; no analysis of their sequence features, conservation, or potential functional relevance is provided. The comparison to mutual information-based approaches is mentioned but only shown for three representative operons in S2 Fig, which is insufficient to draw general conclusions.
+  - **Why it matters** The central biological claim of the paper is the identification of binding sites. If the criteria for calling a site are arbitrary or poorly defined, and if the validation is not rigorous, the novelty and utility of the approach are not established. The lack of detail on novel sites makes it impossible to assess their credibility.
+  - **Resolution test** Provide a precise, step-by-step description of the binding site calling algorithm, including pseudocode. Define the criteria for matching predicted sites to annotated sites (e.g., minimum overlap fraction, distance threshold) and report sensitivity and specificity across all 95 operons. For novel sites, provide supporting evidence such as sequence conservation across related species, enrichment of known motif patterns, or overlap with independent ChIP-seq or DNase-seq data where available. Expand the comparison to mutual information to all operons, not just three examples, and quantify the agreement and disagreement between the two methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that DARSI provides a new framework for MPRA data analysis that accounts for interactions between distant base pairs
+  - **Evidence pointer** Introduction, Discussion
+  - **Concern** The authors argue that existing MPRA analysis methods assume independence between base pairs, and that DARSI overcomes this limitation. However, no direct evidence is presented that DARSI actually captures interactions between distant bases. The convolutional architecture can in principle learn such interactions, but the manuscript does not demonstrate this capability. For example, no analysis is shown of whether the model's predictions are sensitive to mutations at two distant positions simultaneously, or whether the saliency maps reveal synergistic or epistatic effects. The comparison to mutual information, which is a local measure, is suggestive but not conclusive.
+  - **Why it matters** The claimed advantage over existing methods is a key part of the paper's significance. If DARSI does not actually capture long-range interactions, its contribution is incremental rather than transformative.
+  - **Resolution test** Perform a targeted analysis to test for interaction effects. For example, take a subset of operons and mutate two distant positions (e.g., 50 bp apart) individually and together, and compare the model's predicted expression changes. If the model captures interactions, the effect of the double mutation should differ from the sum of the individual effects. Alternatively, use a feature attribution method that can capture pairwise interactions, such as integrated gradients or Shapley values, and show that distant position pairs contribute non-additively to predictions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, second paragraph
+  - **Issue** The abstract contains two paragraphs that appear to be redundant, with the second paragraph largely repeating the content of the first. This is likely a formatting error but should be corrected.
+  - **Required correction** Merge the two paragraphs into a single coherent abstract, or remove the redundant paragraph.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model training details
+  - **Evidence pointer** Results section "DARSI: A convolutional neural network for gene expression prediction from MPRA data", S3 Text
+  - **Issue** The description of the model architecture and training procedure is incomplete. The number of layers, filter sizes, pooling strategies, activation functions, and regularization methods are not specified in the main text. The authors refer to S3 Text, but the details there are not visible in this review.
+  - **Required correction** Provide a complete description of the architecture and training hyperparameters in the main text or ensure S3 Text contains all necessary details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure references
+  - **Evidence pointer** Results section "Uncovering binding sites using saliency maps"
+  - **Issue** The text refers to S2 Fig for comparisons between DARSI and mutual information, but the main text does not describe what is shown in S2 Fig. The reader is left without context for interpreting this comparison.
+  - **Required correction** Add a brief description in the main text of what S2 Fig shows and what conclusions should be drawn from it.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code and data availability
+  - **Evidence pointer** Materials and methods, "The DARSI pipeline repository"
+  - **Issue** The authors state that code and data are available on GitHub, but the repository URL is not provided in the manuscript. This is a significant omission for reproducibility.
+  - **Required correction** Include the full GitHub repository URL in the manuscript.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Results section "Uncovering binding sites using saliency maps"
+  - **Issue** The term "expression shift" is used to describe the saliency-based binding site predictions, but it is not clearly defined. It is unclear whether this refers to the predicted change in expression upon mutation, the saliency value itself, or something else.
+  - **Required correction** Define "expression shift" explicitly when it is first introduced.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The performance metric must be rigorously defined and benchmarked, and the binding site calling algorithm must be fully specified and validated. Without these, the central claims of predictive accuracy and binding site identification are not established.
+- **Assessment against Nature-style criteria** Originality: The application of CNNs to MPRA data for binding site identification is not entirely novel, as similar approaches exist in the literature, but the specific focus on small datasets and interpretability is a reasonable contribution. Scientific importance: The problem of extracting regulatory information from MPRA data is important, and a reliable tool would be valuable. However, the current evidence does not demonstrate a clear advantage over existing methods. Interdisciplinary readership: The work is likely to appeal to both experimental biologists and computational researchers, but the presentation assumes familiarity with deep learning concepts. Technical soundness: The methodology is plausible but incompletely described and insufficiently validated. Readability for nonspecialists: The manuscript is generally well written, but some sections, particularly the description of saliency maps, may be challenging for readers without a machine learning background.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the pipeline is potentially useful, but the current evidence base is insufficient to fully support the claims. A revised manuscript with rigorous performance benchmarking, a fully specified binding site calling algorithm, and validation of novel predictions would substantially strengthen the case.
+
+## Risk / unsupported claims
+- The claim of 79.8% average predictive accuracy is unsupported without a clear definition of the metric and baseline comparisons.
+- The claim of recovering 88.4% of known binding sites is unsupported without a precise definition of the matching criteria.
+- The claim that DARSI accounts for interactions between distant base pairs is not directly demonstrated.
+- The 73 novel binding site predictions are presented without any supporting evidence or analysis.
+- The comparison to mutual information-based approaches is only shown for three operons and cannot be generalized.

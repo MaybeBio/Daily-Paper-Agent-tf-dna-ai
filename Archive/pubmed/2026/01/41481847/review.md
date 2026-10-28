@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary material were available for evaluation
+- **Shared manuscript claim summary** The authors present a computational model of the precatalytic complex between an 18-residue truncated ComC peptide and the PEP domain of ComA in *Streptococcus mutans*. They report that a protonated active-site histidine stabilizes the complex, that conserved peptide residues F11 and L19 occupy a hydrophobic cleft, that alanine-scanning calculations reproduce experimental selectivity (DeltaDeltaG approximately 2.5 kcal/mol at conserved positions), that weakly selective positions (DeltaDeltaG < 0.5 kcal/mol) may serve as inhibitor design targets, that Gly-Gly motif mutations disrupt the precatalytic state, and that histidine deprotonation may trigger product release in the postcatalytic complex.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, force fields, convergence criteria, error estimates, or structural validation data are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation protocols, force field parameters, free energy calculation details, error analysis, and any experimental data referenced for comparison
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable computational study addressing a mechanistically important question in quorum sensing. The central claims are plausible and align with prior experimental observations, but the absence of methodological detail and quantitative validation in the provided material prevents independent assessment of the reliability of the results. The study appears to have merit, but the case is not fully established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in bacterial quorum sensing, peptide signaling, and biofilm formation would find the mechanistic insights relevant. Computational biophysicists interested in peptide-protein recognition and free energy methods may also be interested. Additionally, those working on antimicrobial or anti-biofilm strategies targeting *S. mutans* could find the proposed inhibitor design directions useful.
+- **Major strengths** The study addresses a specific and mechanistically important question with clear biological relevance. The connection between computational predictions and prior experimental kinetic data provides a framework for validation. The identification of weakly selective positions as potential inhibitor targets offers a practical translational direction. The proposed role of histidine protonation state in product release is a testable mechanistic hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the model of the precatalytic complex is reliable and that computed DeltaDeltaG values quantitatively reproduce experimental selectivity.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No methodological details are provided regarding how the complex was modeled, what simulation methods were used, how free energies were computed, or how statistical and systematic errors were estimated. Without this information, the reliability of the structural model and the quantitative DeltaDeltaG values cannot be assessed.
+  - **Why it matters** The central conclusions depend entirely on the accuracy of the computational model and the free energy calculations. If the methods are not adequately described or validated, the claims cannot be reproduced or trusted by the community.
+  - **Resolution test** Provide full methodological details including system preparation, force field parameters, equilibration and production protocols, free energy calculation methods (e.g., FEP, TI, MM-PBSA), convergence checks, and error estimates. Demonstrate that the model is stable and that the computed values are robust to reasonable variations in protocol.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that the truncated 18-residue ComC peptide model is representative of the full 46-residue precursor and that conclusions drawn from this truncated system apply to the full-length context.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not explain how the 18-residue truncation was chosen, whether the truncated peptide retains the relevant structural and dynamic properties of the full-length ComC, or whether the binding mode is expected to be preserved. The truncation may omit residues that contribute to binding or alter the conformational ensemble.
+  - **Why it matters** If the truncation introduces artifacts, the computed binding energetics and mechanistic conclusions may not reflect the biologically relevant full-length system, undermining the translational claims about inhibitor design.
+  - **Resolution test** Justify the truncation choice with structural or sequence-based arguments. If possible, compare binding modes or key interactions between the truncated and full-length systems in additional simulations or discuss the limitations explicitly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive validity
+  - **Claim pointer** The authors claim that deprotonation of the active-site histidine can act as a switch for product release in the postcatalytic complex.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states this as a finding from simulations of the postcatalytic complex, but no details are given about how the postcatalytic state was modeled, what protonation states were compared, or what energetic or dynamic evidence supports the switch mechanism.
+  - **Why it matters** This is a mechanistically significant claim that goes beyond the binding affinity calculations. Without supporting evidence, it remains speculative and may overinterpret the simulation results.
+  - **Resolution test** Provide details of the postcatalytic complex simulations, including how the product state was defined, what protonation states were sampled, and what quantitative measures (e.g., free energy differences, residence times, conformational changes) support the proposed switch.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses "DeltaDeltaG" without defining the reference state or the sign convention. It is unclear whether positive values indicate reduced binding affinity upon mutation.
+  - **Required correction** Define DeltaDeltaG explicitly, including the reference state and the sign convention used, so that readers can interpret the reported values correctly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental comparison
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that the computed DeltaDeltaG of approximately 2.5 kcal/mol "supports previous kinetic experiments," but no quantitative comparison is provided. It is unclear how well the computed values match the experimental measurements.
+  - **Required correction** Provide a direct comparison between computed and experimental values, including the experimental assay conditions and the uncertainty in both sets of values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Inhibitor design claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that weakly selective positions "could be targeted for future substrate-based peptide inhibitor design" is vague. It is not clear what specific design strategy is envisioned or why weakly selective positions would be preferred over strongly selective ones for inhibitor development.
+  - **Required correction** Clarify the rationale for targeting weakly selective positions and provide a more concrete description of the proposed inhibitor design approach.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of methodological detail and the lack of justification for the truncation strategy prevent the central claims from being evaluated. R1-M3, while not blocking, requires additional evidence to support the mechanistic interpretation.
+- **Assessment against Nature-style criteria** Originality: The study addresses a specific mechanistic question that has not been resolved experimentally, and the computational approach offers a plausible route to new insights. The originality is moderate and incremental rather than paradigm-shifting. Scientific importance: The question of ComC recognition by ComA is relevant to quorum sensing and biofilm formation in a clinically important organism, but the significance is primarily within a specialized subfield. Interdisciplinary readership: The work is likely to appeal mainly to computational biophysicists and quorum sensing researchers; the broader interdisciplinary appeal is limited. Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail is a significant concern. Readability for nonspecialists: The abstract is reasonably clear but uses specialized terminology without sufficient context for a general scientific audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses a relevant question and the conclusions are plausible, but the current material does not provide sufficient evidence to establish the case. Full methodological transparency and validation are required before the claims can be accepted.
+
+## Risk / unsupported claims
+- The claim that the 18-residue truncated peptide model is representative of the full-length 46-residue ComC is unsupported in the provided material.
+- The quantitative DeltaDeltaG values and their agreement with experimental data cannot be evaluated without methodological details.
+- The proposed histidine deprotonation switch for product release is speculative based on the abstract alone.
+- The translational claim about inhibitor design targets is not supported by specific evidence in the abstract.

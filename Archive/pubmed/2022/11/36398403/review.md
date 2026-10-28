@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract text
+- **Shared manuscript claim summary** The authors report microsecond molecular dynamics simulations of FXR ligand-binding domain (LBD) in monomeric and FXR/RXR heterodimeric forms, comparing two steroidal antagonists (2a and 2h) against agonists GW4064 and chenodeoxycholic acid (CDCA), with and without coactivator. They propose that antagonist-induced conformational changes in specific LBD regions (alpha5/alpha6, alphaAF-2, alpha9-11) destabilize alphaAF-2, thereby preventing both coactivator and corepressor recruitment, and suggest that the agonism/antagonism shift requires a more nuanced understanding than crystal structures provide.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or simulation details provided
+- **Missing materials affecting confidence** Full manuscript, simulation parameters, force field details, convergence criteria, structural validation, quantitative data, and any supporting figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational investigation into FXR antagonism mechanisms, but the evidence base is insufficient to evaluate the technical rigor or validity of the claims. The central mechanistic proposal, that antagonist-induced alphaAF-2 destabilization prevents both coactivator and corepressor recruitment, is interesting but not substantiated by the provided material. The abstract lacks quantitative results, methodological details, and comparative analysis necessary to assess the strength of the conclusions.
+- **Who would be interested in the results, and why** Researchers in nuclear receptor biology, structural pharmacology, and computational drug discovery would be interested. The work addresses a fundamental question about FXR antagonism mechanisms, which has implications for designing therapeutic modulators of bile acid and cholesterol homeostasis. The proposed conformational mechanism could inform future drug design efforts targeting FXR.
+- **Major strengths** The study addresses a relevant and under-explored question regarding the diversity of FXR antagonism mechanisms. The use of microsecond-scale MD simulations is appropriate for capturing conformational dynamics that static crystal structures may miss. The comparison across multiple ligands, receptor states, and cofactor conditions is a thoughtful design.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that MD data suggest ligand-specific influence on conformations of FXR-LBD regions and that antagonist-induced changes in the heterodimerization interface are associated with alphaAF-2 destabilization.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative data, statistical measures, or convergence assessments to support the claimed conformational differences. No details on simulation setup, force field, system size, or replicate numbers are given. Without these, the reliability of the MD results cannot be evaluated.
+  - **Why it matters** MD simulations are sensitive to force field parameters, sampling length, and initial conditions. Claims about specific conformational changes and their functional consequences require demonstration of convergence and reproducibility. The absence of such details undermines confidence in the mechanistic conclusions.
+  - **Resolution test** Provide simulation parameters, convergence metrics (e.g., RMSD stability, free energy profiles), replicate analysis, and statistical comparisons between ligand conditions. Show that observed conformational differences are robust across independent simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The abstract states that antagonist-induced changes prevent both coactivator and corepressor recruitment.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim that both coactivator and corepressor recruitment are prevented is a strong functional assertion. The abstract does not describe how recruitment was assessed in the simulations, nor does it provide any binding free energy calculations, contact analysis, or experimental validation. The link between conformational destabilization and recruitment prevention is inferred, not demonstrated.
+  - **Why it matters** This is the central mechanistic claim of the study. If the evidence is only indirect conformational observation, the conclusion overreaches. The claim has significant implications for understanding FXR antagonism and requires direct or at least strongly correlative evidence.
+  - **Resolution test** Show quantitative analysis of coactivator and corepressor binding in the simulations, such as binding free energies, hydrogen bond occupancy, or contact persistence. Ideally, support with experimental data on recruitment under similar conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The abstract suggests that FXR antagonism/agonism shift requires a deeper assessment than originally proposed by crystal structures.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The comparison to crystal structures is mentioned but not elaborated. The abstract does not specify which crystal structures are referenced, how the MD results differ from them, or why the MD findings are more informative. This claim is presented as a conclusion without supporting comparison.
+  - **Why it matters** The novelty of the work partly rests on showing that dynamic simulations reveal features not captured by static structures. Without a clear comparison, the added value of the MD approach is not established.
+  - **Resolution test** Include a direct comparison of key structural features from MD ensembles versus relevant crystal structures, highlighting specific differences and their functional implications.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses terms like "alphaAF-2-trapping mechanism" and "alpha5/alpha6 region" without defining them for readers outside the nuclear receptor field.
+  - **Required correction** Briefly define or contextualize these terms, or provide a schematic reference, to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "in the FXR monomer or FXR/RXR heterodimer r" contains a stray "r" that appears to be a typographical error.
+  - **Required correction** Correct the typo to "FXR/RXR heterodimer" for clarity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "microsecond molecular dynamics simulations" but does not specify the total simulation time per system or the number of replicates.
+  - **Required correction** Include total simulation time and replicate count to allow readers to gauge sampling adequacy.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of methodological detail and quantitative evidence prevents assessment of the central claims. The comparison to crystal structures (R1-M3) also needs strengthening.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of FXR antagonism mechanisms is timely, and the focus on heterodimer dynamics is a potentially novel angle. However, the abstract does not clearly distinguish the findings from prior computational studies on nuclear receptor dynamics.
+  - Scientific importance: If substantiated, the proposed mechanism could have implications for FXR-targeted drug design. The importance is moderate but not transformative at this stage.
+  - Interdisciplinary readership: The topic bridges structural biology, computational chemistry, and pharmacology, which could attract a broad audience. However, the abstract is not sufficiently accessible to nonspecialists.
+  - Technical soundness: Not assessable from the abstract alone. The absence of methodological details is a critical gap.
+  - Readability for nonspecialists: The abstract is concise but uses field-specific jargon without explanation, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the lack of methodological detail and quantitative support means the claims cannot be evaluated. I would be supportive if the full manuscript provides rigorous simulation data, convergence analysis, and direct evidence for the recruitment prevention claim.
+
+## Risk / unsupported claims
+- The claim that antagonist-induced changes prevent both coactivator and corepressor recruitment is unsupported by the abstract evidence.
+- The claim that MD data suggest ligand-specific conformational influences is unquantified and not verifiable.
+- The assertion that the agonism/antagonism shift requires deeper assessment than crystal structures propose is not supported by any comparative data in the abstract.
+- The overall mechanistic model of alphaAF-2 destabilization as the key event is plausible but not established.

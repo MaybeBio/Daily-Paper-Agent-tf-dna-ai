@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "37662358",
+    "doi": "10.1101/2023.08.21.554146",
+    "title": "Active learning of enhancer and silencer regulatory grammar in photoreceptors."
+  },
+  "content": {
+    "abstract": "Cis-regulatory elements (CREs) direct gene expression in health and disease, and models that can accurately predict their activities from DNA sequences are crucial for biomedicine. Deep learning represents one emerging strategy to model the regulatory grammar that relates CRE sequence to function. However, these models require training data on a scale that exceeds the number of CREs in the genome. We address this problem using active machine learning to iteratively train models on multiple rounds of synthetic DNA sequences assayed in live mammalian retinas. During each round of training the model actively selects sequence perturbations to assay, thereby efficiently generating informative training data. We iteratively trained a model that predicts the activities of sequences containing binding motifs for the photoreceptor transcription factor Cone-rod homeobox (CRX) using an order of magnitude less training data than current approaches. The model's internal confidence estimates of its predictions are reliable guides for designing sequences with high activity. The model correctly identified critical sequence differences between active and inactive sequences with nearly identical transcription factor binding sites, and revealed order and spacing preferences for combinations of motifs. Our results establish active learning as an effective method to train accurate deep learning models of cis-regulatory function after exhausting naturally occurring training examples in the genome.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Friedman, Ryan Z",
+        "Ramu, Avinash",
+        "Lichtarge, Sara",
+        "Myers, Connie A",
+        "Granas, David M",
+        "Gause, Maria",
+        "Corbo, Joseph C",
+        "Cohen, Barak A",
+        "White, Michael A"
+      ],
+      "short_names": [
+        "Friedman RZ",
+        "Ramu A",
+        "Lichtarge S",
+        "Myers CA",
+        "Granas DM",
+        "Gause M",
+        "Corbo JC",
+        "Cohen BA",
+        "White MA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "Department of Genetics, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "Department of Genetics, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "Department of Genetics, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "Department of Pathology and Immunology, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "Department of Genetics, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "Department of Pathology and Immunology, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "Department of Pathology and Immunology, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "Department of Genetics, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, Saint Louis, MO, 63110.",
+        "Department of Genetics, Washington University School of Medicine, Saint Louis, MO, 63110."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Friedman, Ryan Z",
+        "short_name": "Friedman RZ",
+        "identifiers": [],
+        "affiliations": [
+          "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, Saint Louis, MO, 63110.",
+          "Department of Genetics, Washington University School of Medicine, Saint Louis, MO, 63110."
+        ]
+      },
+      {
+        "full_name": "Ramu, Avinash",
+        "short_name": "Ramu A",
+        "identifiers": [],
+        "affiliations": [
+          "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, Saint Louis, MO, 63110.",
+          "Department of Genetics, Washington University School of Medicine, Saint Louis, MO, 63110."
+        ]
+      },
+      {
+        "full_name": "Lichtarge, Sara",
+        "short_name": "Lichtarge S",
+        "identifiers": [],
+        "affiliations": [
+          "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, Saint Louis, MO, 63110.",
+          "Department of Genetics, Washington University School of Medicine, Saint Louis, MO, 63110."
+        ]
+      },
+      {
+        "full_name": "Myers, Connie A",
+        "short_name": "Myers CA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Immunology, Washington University School of Medicine, Saint Louis, MO, 63110."
+        ]
+      },
+      {
+        "full_name": "Granas, David M",
+        "short_name": "Granas DM",
+        "identifiers": [],
+        "affiliations": [
+          "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, Saint Louis, MO, 63110.",
+          "Department of Genetics, Washington University School of Medicine, Saint Louis, MO, 63110."
+        ]
+      },
+      {
+        "full_name": "Gause, Maria",
+        "short_name": "Gause M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Immunology, Washington University School of Medicine, Saint Louis, MO, 63110."
+        ]
+      },
+      {
+        "full_name": "Corbo, Joseph C",
+        "short_name": "Corbo JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Immunology, Washington University School of Medicine, Saint Louis, MO, 63110."
+        ]
+      },
+      {
+        "full_name": "Cohen, Barak A",
+        "short_name": "Cohen BA",
+        "identifiers": [],
+        "affiliations": [
+          "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, Saint Louis, MO, 63110.",
+          "Department of Genetics, Washington University School of Medicine, Saint Louis, MO, 63110."
+        ]
+      },
+      {
+        "full_name": "White, Michael A",
+        "short_name": "White MA",
+        "identifiers": [],
+        "affiliations": [
+          "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine, Saint Louis, MO, 63110.",
+          "Department of Genetics, Washington University School of Medicine, Saint Louis, MO, 63110."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Aug 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/04 06:43",
+    "fetched_at": "2026-09-29 06:34:47"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38355306",
+      "38227575",
+      "38093018",
+      "38086419",
+      "37490428",
+      "37161475",
+      "36693380",
+      "36445037",
+      "36335397",
+      "35817977",
+      "35762203",
+      "35551305",
+      "35435921",
+      "35264797",
+      "35190730",
+      "34670493",
+      "34608324",
+      "34486522",
+      "34322657",
+      "33983921",
+      "33888512",
+      "33832990",
+      "33753082",
+      "33689769",
+      "33603233",
+      "33065027",
+      "32939066",
+      "32728249",
+      "32711843",
+      "32405017",
+      "32094911",
+      "32043966",
+      "32015543",
+      "31821414",
+      "31792407",
+      "31704182",
+      "31633482",
+      "31206543",
+      "30923381",
+      "30478442",
+      "30445545",
+      "30158147",
+      "29388736",
+      "29305491",
+      "29140464",
+      "29097404",
+      "28964699",
+      "28292907",
+      "28256534",
+      "28137873",
+      "27863239",
+      "27783940",
+      "27153584",
+      "27152947",
+      "26785491",
+      "26550828",
+      "26324254",
+      "25636815",
+      "25035418",
+      "23892608",
+      "23818646",
+      "23497081",
+      "23435728",
+      "23129659",
+      "22868264",
+      "22304916",
+      "21875935",
+      "21730952",
+      "21408158",
+      "20648062",
+      "19997485",
+      "17662965",
+      "17653270",
+      "17242361",
+      "15696541",
+      "15689355",
+      "15190009",
+      "15056733",
+      "14724639",
+      "12653536",
+      "12506003",
+      "12023297",
+      "11928508",
+      "9427255",
+      "9390563",
+      "9390562",
+      "9390516"
+    ],
+    "similar": [
+      "37662358",
+      "34486522",
+      "39778579",
+      "32043966",
+      "31915147",
+      "20693478",
+      "42475469",
+      "30158147",
+      "39131276",
+      "37600946",
+      "17953763",
+      "38227575",
+      "25442502",
+      "29563767",
+      "27783940",
+      "38355306",
+      "35435921",
+      "33137083",
+      "41554183",
+      "23818646",
+      "17653270",
+      "41832145",
+      "26486725",
+      "41544987",
+      "41639451",
+      "42079234",
+      "29855387",
+      "38250147",
+      "39322281",
+      "25035418",
+      "30084954",
+      "41920894",
+      "29187214",
+      "36999047",
+      "31969903",
+      "38588559",
+      "37539835",
+      "21730952",
+      "39904740",
+      "32443951",
+      "36043696",
+      "22511886",
+      "36715222",
+      "20808951",
+      "21435340",
+      "40914877",
+      "35644251",
+      "42140663",
+      "34149757",
+      "41285795",
+      "38249001",
+      "41926741",
+      "36321557",
+      "41310253",
+      "22215325",
+      "24097306",
+      "36030022",
+      "28204611",
+      "40472848",
+      "30466480",
+      "40633538",
+      "35410163",
+      "26499213",
+      "41514301",
+      "15262804",
+      "28716036",
+      "37950299",
+      "34898596",
+      "42216449",
+      "9931337",
+      "27490187",
+      "33074102",
+      "33259518",
+      "19956545",
+      "15689355",
+      "39489607",
+      "23512712",
+      "31206543",
+      "30374023",
+      "39843737",
+      "41125441",
+      "41495833",
+      "39974895",
+      "39199333",
+      "26072432",
+      "36510125",
+      "39696434",
+      "20661307",
+      "36945371",
+      "23892608",
+      "37292699",
+      "40183298",
+      "11951083",
+      "33036834",
+      "41478195",
+      "41420926",
+      "30016497",
+      "24565409",
+      "33962556",
+      "20463752"
+    ],
+    "review": [
+      "37662358",
+      "41554183",
+      "32443951",
+      "36321557",
+      "26499213",
+      "39199333",
+      "26072432"
+    ],
+    "pmc": [
+      "10473580"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37662358/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37662358",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LBX1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.08.21.554146",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse165812",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

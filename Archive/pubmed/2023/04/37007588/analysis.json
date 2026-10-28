@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37007588",
+  "title": "Transfer learning identifies sequence determinants of cell-type specific regulatory element accessibility.",
+  "authors": "Salvatore, Marco; Horlacher, Marc; Marsico, Annalisa; Winther, Ole; Andersson, Robin",
+  "journal": "NAR genomics and bioinformatics",
+  "published_date": "2023-04-04",
+  "window": {
+    "start": "2023-04-03",
+    "end": "2023-04-09"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用迁移学习预测细胞类型特异的染色质可及性，识别转录因子结合位点序列特征，虽涉及TF-DNA结合位点但非直接三维互作建模，方法可迁移至TF-DNA研究。",
+  "abstract": "Dysfunction of regulatory elements through genetic variants is a central mechanism in the pathogenesis of disease. To better understand disease etiology, there is consequently a need to understand how DNA encodes regulatory activity. Deep learning methods show great promise for modeling of biomolecular data from DNA sequence but are limited to large input data for training. Here, we develop ChromTransfer, a transfer learning method that uses a pre-trained, cell-type agnostic model of open chromatin regions as a basis for fine-tuning on regulatory sequences. We demonstrate superior performances with ChromTransfer for learning cell-type specific chromatin accessibility from sequence compared to models not informed by a pre-trained model. Importantly, ChromTransfer enables fine-tuning on small input data with minimal decrease in accuracy. We show that ChromTransfer uses sequence features matching binding site sequences of key transcription factors for prediction. Together, these results demonstrate ChromTransfer as a promising tool for learning the regulatory code.",
+  "abstract_zh": "通过遗传变异导致的调控元件功能异常是疾病发病机制中的核心机制。为了更好地理解疾病病因，因此需要理解DNA如何编码调控活性。深度学习方法在从DNA序列建模生物分子数据方面展现出巨大潜力，但受限于需要大量输入数据进行训练。在此，我们开发了ChromTransfer，一种迁移学习方法，利用预训练的、不依赖于细胞类型的开放染色质区域模型作为基础，对调控序列进行微调。我们证明，与未使用预训练模型的方法相比，ChromTransfer在学习序列特异性染色质可及性方面表现出更优性能。重要的是，ChromTransfer能够在输入数据量较小的情况下进行微调，且准确度下降最小。我们显示，ChromTransfer利用与关键转录因子结合位点序列匹配的序列特征进行预测。综合这些结果，ChromTransfer被证明是学习调控编码的有力工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37007588/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37007588/",
+  "paper_page_path": "papers/pubmed/37007588/index.html"
+}

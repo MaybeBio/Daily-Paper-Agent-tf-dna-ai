@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "41828630",
+    "doi": "10.3390/ijms27052413",
+    "title": "Network Pharmacology and Molecular Docking Combined with In Vivo Validation to Elucidate the Molecular Mechanisms of Adenophorae Radix in Fracture Healing."
+  },
+  "content": {
+    "abstract": "Fracture healing is a multistage regenerative process requiring the coordinated regulation of inflammation, osteogenesis, and bone remodeling, yet pharmacological agents that effectively modulate these processes remain limited. Adenophorae Radix (AR), a traditional medicinal herb used for tissue repair, has not been mechanistically investigated in skeletal regeneration. In this study, a mouse femoral fracture model was employed to evaluate the effects of short-term (7 days) and long-term (5 weeks) oral administration of AR. Bone regeneration was assessed using micro-computed tomography, histological staining, and quantitative real-time polymerase chain reaction. Network pharmacology and molecular docking were applied to predict bioactive AR constituents and their target pathways, followed by in vivo validation. Short-term AR treatment significantly upregulated osteogenic markers, including RUNX2 and osteocalcin, in the bone marrow, indicating early activation of osteoblast differentiation. Long-term administration enhanced bone mineral density, trabecular organization, and callus maturation. Network pharmacology analysis identified cycloartenol acetate, beta-sitosterol, and mandenol as major active compounds targeting osteogenesis- and osteoclast-related pathways, converging on HIF1A, PTGS2, and PPARG. Molecular docking demonstrated strong binding affinities between these compounds and their predicted targets, which was supported by increased expression of HIF1A, PTGS2, and PPARG in AR-treated femora. Collectively, these findings suggest that AR promotes fracture healing by regulating osteogenic differentiation and bone remodeling through multi-target transcriptional networks.",
+    "keywords": [
+      "Adenophorae radix",
+      "bone fracture",
+      "bone remodeling",
+      "fracture healing",
+      "osteogenesis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Molecular Docking Simulation",
+      "*Fracture Healing/drug effects",
+      "Mice",
+      "Osteogenesis/drug effects",
+      "*Network Pharmacology",
+      "*Drugs, Chinese Herbal/pharmacology/chemistry",
+      "Male",
+      "X-Ray Microtomography",
+      "*Femoral Fractures/drug therapy/metabolism",
+      "Core Binding Factor Alpha 1 Subunit/metabolism/genetics",
+      "Bone Remodeling/drug effects",
+      "Cell Differentiation/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Park, Jiin",
+        "Kim, Jin Hee",
+        "Huh, Eugene",
+        "Lee, Minji",
+        "Lee, Seungmin",
+        "Youn, Yousuk",
+        "Lee, Sangho",
+        "Oh, Myung Sook"
+      ],
+      "short_names": [
+        "Park J",
+        "Kim JH",
+        "Huh E",
+        "Lee M",
+        "Lee S",
+        "Youn Y",
+        "Lee S",
+        "Oh MS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8683-6436",
+        "ORCID: 0009-0001-1090-1705",
+        "ORCID: 0009-0000-4098-8744",
+        "ORCID: 0000-0001-8189-4066"
+      ],
+      "affiliations": [
+        "Department of Biomedical and Pharmaceutical Sciences, Graduate School, Kyung Hee University, Seoul 02447, Republic of Korea.",
+        "Department of Biomedical and Pharmaceutical Sciences, Graduate School, Kyung Hee University, Seoul 02447, Republic of Korea.",
+        "Department of Formulae Pharmacology, College of Korean Medicine, Gachon University, Seongnam-si 13120, Republic of Korea.",
+        "Department of Biomedical and Pharmaceutical Sciences, Graduate School, Kyung Hee University, Seoul 02447, Republic of Korea.",
+        "Department of Biomedical and Pharmaceutical Sciences, Graduate School, Kyung Hee University, Seoul 02447, Republic of Korea.",
+        "Chamjalham Hospital of Korean Medicine, Suwon 16263, Republic of Korea.",
+        "Chamjalham Hospital of Korean Medicine, Seoul 05316, Republic of Korea.",
+        "Department of Biomedical and Pharmaceutical Sciences, Graduate School, Kyung Hee University, Seoul 02447, Republic of Korea.",
+        "Department of Oriental Pharmaceutical Science, College of Pharmacy, Kyung Hee University, Seoul 02447, Republic of Korea.",
+        "Institute of Integrated Pharmaceutical Sciences, College of Pharmacy, Kyung Hee University, Seoul 02447, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Park, Jiin",
+        "short_name": "Park J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical and Pharmaceutical Sciences, Graduate School, Kyung Hee University, Seoul 02447, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Jin Hee",
+        "short_name": "Kim JH",
+        "identifiers": [
+          "0000-0002-8683-6436"
+        ],
+        "affiliations": [
+          "Department of Biomedical and Pharmaceutical Sciences, Graduate School, Kyung Hee University, Seoul 02447, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Huh, Eugene",
+        "short_name": "Huh E",
+        "identifiers": [
+          "0009-0001-1090-1705"
+        ],
+        "affiliations": [
+          "Department of Formulae Pharmacology, College of Korean Medicine, Gachon University, Seongnam-si 13120, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Minji",
+        "short_name": "Lee M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical and Pharmaceutical Sciences, Graduate School, Kyung Hee University, Seoul 02447, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Seungmin",
+        "short_name": "Lee S",
+        "identifiers": [
+          "0009-0000-4098-8744"
+        ],
+        "affiliations": [
+          "Department of Biomedical and Pharmaceutical Sciences, Graduate School, Kyung Hee University, Seoul 02447, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Youn, Yousuk",
+        "short_name": "Youn Y",
+        "identifiers": [],
+        "affiliations": [
+          "Chamjalham Hospital of Korean Medicine, Suwon 16263, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Sangho",
+        "short_name": "Lee S",
+        "identifiers": [],
+        "affiliations": [
+          "Chamjalham Hospital of Korean Medicine, Seoul 05316, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Oh, Myung Sook",
+        "short_name": "Oh MS",
+        "identifiers": [
+          "0000-0001-8189-4066"
+        ],
+        "affiliations": [
+          "Department of Biomedical and Pharmaceutical Sciences, Graduate School, Kyung Hee University, Seoul 02447, Republic of Korea.",
+          "Department of Oriental Pharmaceutical Science, College of Pharmacy, Kyung Hee University, Seoul 02447, Republic of Korea.",
+          "Institute of Integrated Pharmaceutical Sciences, College of Pharmacy, Kyung Hee University, Seoul 02447, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Mar 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/14 06:31",
+    "fetched_at": "2026-10-01 15:57:32"
+  },
+  "links": {
+    "cites": [
+      "42548817",
+      "42249966"
+    ],
+    "refs": [
+      "40458424",
+      "40142075",
+      "39816786",
+      "39468464",
+      "39394187",
+      "38956429",
+      "38792583",
+      "37369936",
+      "37175732",
+      "36118169",
+      "34723233",
+      "34206294",
+      "31885494",
+      "30985337",
+      "29662760",
+      "28255336",
+      "27603155",
+      "27252362",
+      "26946132",
+      "25914769",
+      "25566863",
+      "25266456",
+      "23389618",
+      "21489527",
+      "20863714",
+      "20501658",
+      "19649655",
+      "19419302",
+      "16455216",
+      "15830840",
+      "12616527",
+      "12045254"
+    ],
+    "similar": [
+      "41828630",
+      "41581244",
+      "38706357",
+      "40332137",
+      "38776853",
+      "41088057",
+      "40185260",
+      "42421348",
+      "41558580",
+      "37879510",
+      "37690812",
+      "27545451",
+      "39810723",
+      "38670404",
+      "42142793",
+      "41013542",
+      "37212284",
+      "42013695",
+      "33047358",
+      "42200075",
+      "33444724",
+      "41843163",
+      "41254785",
+      "41824834",
+      "26314884",
+      "27178636",
+      "39808649",
+      "41448498",
+      "39278295",
+      "41033422",
+      "40916281",
+      "25089831",
+      "41921863",
+      "39356317",
+      "40889600",
+      "41101073",
+      "27713171",
+      "41845029",
+      "42566641",
+      "42598782",
+      "39076092",
+      "41730740",
+      "40671012",
+      "42008819",
+      "39915758",
+      "41651949",
+      "20939055",
+      "17680724",
+      "41652857",
+      "41534747",
+      "30702934",
+      "40488746",
+      "40220409",
+      "30998964",
+      "41276831",
+      "37169100",
+      "38616655",
+      "40049105",
+      "40294988",
+      "41946238",
+      "40393465",
+      "36196152",
+      "37741472",
+      "40675106",
+      "40435578",
+      "41891757",
+      "39410900",
+      "31213805",
+      "40316154",
+      "39004032",
+      "30197508",
+      "37109624",
+      "27844205",
+      "42474720",
+      "42173417",
+      "23459092",
+      "39366157",
+      "29225463",
+      "41566330",
+      "27113026",
+      "36257457",
+      "41963931",
+      "39917920",
+      "42385430",
+      "41967781",
+      "29680264",
+      "41031039",
+      "41141342",
+      "42462530",
+      "40615099",
+      "41747788",
+      "34027631",
+      "40532987",
+      "40220939",
+      "25801198",
+      "39617073",
+      "40013962",
+      "27156834",
+      "41904851",
+      "42102673"
+    ],
+    "review": [
+      "41828630",
+      "41946238"
+    ],
+    "pmc": [
+      "12986031"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27052413",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/leginjuriesanddisorders.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Leg Injuries and Disorders"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41828630/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

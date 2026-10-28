@@ -1,0 +1,187 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.14.618350",
+  "title": "Assessing the Validity of Leucine Zipper Constructs Predicted in AlphaFold2",
+  "doi": "10.1101/2024.10.14.618350",
+  "abstract": "AP-1 transcription factors are a network of cellular regulators, that combine in different dimer pairs to control a range of pathways involved in differentiation, growth, and cell death. They dimerise via leucine zipper coiled-coil domains, that are preceded by a basic DNA binding domain. Depending on which AP-1 transcription factors dimerise, different DNA sequences will be recognised resulting in differential gene expression. The affinity of AP-1 transcription factors for each other dictates which dimers form. The relative concentration of AP-1 transcription factors varies with tissue type and environment, adding another layer of control to this integral network of cellular regulation. The development of artificial intelligence (AI) protein structure prediction programs gives us a new technique to investigate or predict how dimerization effects combinatorial control. AlphaFold2 and AlphaFold-Multimer are AI programs that predict 3D structures of proteins using primary sequence as their only input, even if there is no homologous model available. To fully realise the potential of AI for structural biology, it is essential to understand its current capabilities and limitations. In this study we used the classical example of an AP-1 dimer: Fos and Jun, to interrogate how AlphaFold2 and AlphaFold-Multimer model leucine zipper domains, and if AlphaFold-Multimer can be used to differentiate between probable and improbable dimer interfaces. We found that AlphaFold-Multimer predicts highly confident leucine zipper dimers, even for dimer pairs, such as the FosB homodimer, for which electrostatics are known to prevent their formation in vivo. This is an important case study concerning high-confidence, but low-accuracy protein structure prediction. <h4>statement</h4> Artificial intelligence (AI) programs that predict protein structures, like AlphaFold, could transform structural biology by speeding up the experimental process. However, it is important to grasp the capabilities and limitations of these AI tools. This study examines how AlphaFold identifies structural features, specifically a leucine zipper, while not considering other factors like electrostatic interactions, using the well-studied transcription factors Fos and Jun as a case study.",
+  "authors": [
+    "Mitic I",
+    "Michie KA",
+    "Jacques DA"
+  ],
+  "published_date": "2024-10-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.14.618350",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.14.618350.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR926333",
+    "raw_record": {
+      "id": "PPR926333",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR926333"
+        ]
+      },
+      "doi": "10.1101/2024.10.14.618350",
+      "title": "Assessing the Validity of Leucine Zipper Constructs Predicted in AlphaFold2",
+      "authorString": "Mitic I, Michie KA, Jacques DA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mitic I",
+            "lastName": "Mitic",
+            "firstName": "Isobel",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Medicine, School of Biomedical Sciences, , , ,"
+                },
+                {
+                  "affiliation": "EMBL Australia Node in Single Molecule Science, School of Biomedical Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Michie KA",
+            "lastName": "Michie",
+            "firstName": "Katharine",
+            "initials": "KA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural Biology Facility, Mark Wainwright Analytical Centre, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jacques DA",
+            "lastName": "Jacques",
+            "firstName": "David",
+            "initials": "DA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6426-4510"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Medicine, School of Biomedical Sciences, , , ,"
+                },
+                {
+                  "affiliation": "EMBL Australia Node in Single Molecule Science, School of Biomedical Sciences, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6426-4510"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "AP-1 transcription factors are a network of cellular regulators, that combine in different dimer pairs to control a range of pathways involved in differentiation, growth, and cell death. They dimerise via leucine zipper coiled-coil domains, that are preceded by a basic DNA binding domain. Depending on which AP-1 transcription factors dimerise, different DNA sequences will be recognised resulting in differential gene expression. The affinity of AP-1 transcription factors for each other dictates which dimers form. The relative concentration of AP-1 transcription factors varies with tissue type and environment, adding another layer of control to this integral network of cellular regulation. The development of artificial intelligence (AI) protein structure prediction programs gives us a new technique to investigate or predict how dimerization effects combinatorial control. AlphaFold2 and AlphaFold-Multimer are AI programs that predict 3D structures of proteins using primary sequence as their only input, even if there is no homologous model available. To fully realise the potential of AI for structural biology, it is essential to understand its current capabilities and limitations. In this study we used the classical example of an AP-1 dimer: Fos and Jun, to interrogate how AlphaFold2 and AlphaFold-Multimer model leucine zipper domains, and if AlphaFold-Multimer can be used to differentiate between probable and improbable dimer interfaces. We found that AlphaFold-Multimer predicts highly confident leucine zipper dimers, even for dimer pairs, such as the FosB homodimer, for which electrostatics are known to prevent their formation in vivo. This is an important case study concerning high-confidence, but low-accuracy protein structure prediction. <h4>statement</h4>  Artificial intelligence (AI) programs that predict protein structures, like AlphaFold, could transform structural biology by speeding up the experimental process. However, it is important to grasp the capabilities and limitations of these AI tools. This study examines how AlphaFold identifies structural features, specifically a leucine zipper, while not considering other factors like electrostatic interactions, using the well-studied transcription factors Fos and Jun as a case study.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "214344/Z/18/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.10.14.618350"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.10.14.618350"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR926333"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR926333&type=FILE&fileName=EMS199510-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS199510",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-10-19",
+      "firstPublicationDate": "2024-10-17",
+      "firstIndexDate": "2024-10-19",
+      "fullTextReceivedDate": "2024-10-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

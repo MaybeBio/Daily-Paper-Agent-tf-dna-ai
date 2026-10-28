@@ -1,0 +1,156 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.20.700394",
+  "title": "A Systematic Evaluation of Protein Phase Separation Predictors Across Diverse Protein Landscapes",
+  "doi": "10.64898/2026.01.20.700394",
+  "abstract": "<h4>Background</h4> Liquid–liquid phase separation (LLPS) plays a central role in cellular regulation, with its dysregulation linked to numerous disease outcomes. LLPS has also being increasingly implicated as critical in various biological contexts, with a key example being virus replication. These findings have driven the development of numerous computational predictors to screen and identify phase-separating proteins from sequence and/or structural models. Despite the growing need for these tools, their comparative performance across diverse biological contexts remains incompletely understood, complicating tool selection and result interpretation. <h4>Results</h4> A systematic comparative analysis of nine LLPS prediction algorithms was conducted using multiple curated datasets comprising both LLPS-positive (LLPS+) and -negative (LLPS-) proteins. The datasets span a range of biologically relevant scenarios, including intrinsically disordered proteins, folded proteins, proteins with LLPS-abolishing variants, benchmark datasets, and viral proteins. Substantial variability in predictive performance was observed across algorithms when assessing proteins of different structural classes. Numerous showed reduced accuracy in distinguishing LLPS+ and LLPS- folded proteins. Sensitivity to the impact of small LLPS-abolishing mutations also varied markedly between predictors, with structure-informed algorithms generally outperforming most sequence-based predictors. Similar decreases in predictive capability were also observed across several algorithms when analysing viral proteins, which are often-under-represented in predictor training datasets. <h4>Conclusions</h4> These results demonstrate that LLPS predictor performance is strongly context dependent, leading to different predictors being optimal for different biological questions. For overall protein assessment, DeePhase and Molphase provided the most consistently accurate predictions, being the least impacted by structural bias. For assessing the impact of small mutations on LLPS propensity, PSPHunter, a built-for-purpose algorithm, reliably predicts mutation impacts with structure-informed algorithms PSPire and PICNIC also providing strong insight. Across all evaluated datasets, the findings highlight the need for well-benchmarked training and testing data that encompasses a broad and diverse range of protein classes.",
+  "authors": [
+    "Gilroy KE",
+    "Barr JN"
+  ],
+  "published_date": "2026-01-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.20.700394",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.20.700394.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1228064",
+    "raw_record": {
+      "id": "PPR1228064",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1228064"
+        ]
+      },
+      "doi": "10.64898/2026.01.20.700394",
+      "title": "A Systematic Evaluation of Protein Phase Separation Predictors Across Diverse Protein Landscapes",
+      "authorString": "Gilroy KE, Barr JN.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Gilroy KE",
+            "lastName": "Gilroy",
+            "firstName": "Kate",
+            "initials": "KE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Molecular and Cellular Biology, Faculty of Biological Sciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barr JN",
+            "lastName": "Barr",
+            "firstName": "John",
+            "initials": "JN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9035-2039"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Molecular and Cellular Biology, Faculty of Biological Sciences, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9035-2039"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "<h4>Background</h4>  Liquid–liquid phase separation (LLPS) plays a central role in cellular regulation, with its dysregulation linked to numerous disease outcomes. LLPS has also being increasingly implicated as critical in various biological contexts, with a key example being virus replication. These findings have driven the development of numerous computational predictors to screen and identify phase-separating proteins from sequence and/or structural models. Despite the growing need for these tools, their comparative performance across diverse biological contexts remains incompletely understood, complicating tool selection and result interpretation. <h4>Results</h4>  A systematic comparative analysis of nine LLPS prediction algorithms was conducted using multiple curated datasets comprising both LLPS-positive (LLPS+) and -negative (LLPS-) proteins. The datasets span a range of biologically relevant scenarios, including intrinsically disordered proteins, folded proteins, proteins with LLPS-abolishing variants, benchmark datasets, and viral proteins. Substantial variability in predictive performance was observed across algorithms when assessing proteins of different structural classes. Numerous showed reduced accuracy in distinguishing LLPS+ and LLPS- folded proteins. Sensitivity to the impact of small LLPS-abolishing mutations also varied markedly between predictors, with structure-informed algorithms generally outperforming most sequence-based predictors. Similar decreases in predictive capability were also observed across several algorithms when analysing viral proteins, which are often-under-represented in predictor training datasets. <h4>Conclusions</h4>  These results demonstrate that LLPS predictor performance is strongly context dependent, leading to different predictors being optimal for different biological questions. For overall protein assessment, DeePhase and Molphase provided the most consistently accurate predictions, being the least impacted by structural bias. For assessing the impact of small mutations on LLPS propensity, PSPHunter, a built-for-purpose algorithm, reliably predicts mutation impacts with structure-informed algorithms PSPire and PICNIC also providing strong insight. Across all evaluated datasets, the findings highlight the need for well-benchmarked training and testing data that encompasses a broad and diverse range of protein classes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.01.20.700394"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1228064"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1228064&type=FILE&fileName=EMS214502-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42231907",
+            "reference": "Computational and structural biotechnology journal. \n    2026 ;35(1):0115",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214502",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-01-22",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-06-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

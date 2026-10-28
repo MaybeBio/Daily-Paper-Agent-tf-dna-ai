@@ -1,0 +1,222 @@
+{
+  "identity": {
+    "pmid": "40236137",
+    "doi": "10.1101/2025.03.27.645368",
+    "title": "Macrophages maintain signaling fidelity in response to ligand mixtures."
+  },
+  "content": {
+    "abstract": "As immune sentinel cells, macrophages are required to respond specifically to diverse immune threats and initiate appropriate immune responses. This stimulus-response specificity (SRS) is in part encoded in the signaling dynamics of the NFkappaB transcription factor. While experimental stimulus-response studies have typically focused on single defined ligands, in physiological contexts cells are exposed to multi-ligand mixtures. It remains unclear how macrophages combine multi-ligand information and whether they are able to maintain SRS in such complex exposure conditions. Here, we leveraged an established mathematical model that captures the heterogeneous single-cell NFkappaB responses of macrophage populations to extend experimental studies with systematic simulations of complex mixtures containing up to five ligands. Live-cell microscopy experiments for some conditions validated model predictions but revealed a discrepancy when TLR3 and TLR9 are stimulated. Refining the model suggested that the observed but unexpected ligand antagonism arises from a limited capacity for endosomal transport which is required for responses to CpG and pIC. With the updated model, we systematically analyzed SRS across all combinatorial-ligand conditions and employed three ways of quantifying SRS involving trajectory decomposition into informative trajectory features or machine learning. Our findings show that macrophages most effectively distinguish single-ligand stimuli, and distinguishability declines as more ligands are combined. However, even in complex combinatorial conditions, macrophages still maintain statistically significant distinguishability. These results indicate a robustness of innate immune response specificity: even in the context of complex exposure conditions, the NFkappaB temporal signaling code of macrophages can still classify immune threats to direct an appropriate response. SIGNIFICANCE </=120: Macrophages sense diverse pathogens within complex environments and respond appropriately. Experimental studies have found that the NFkappaB pathway responds with stimulus-specific dynamics when macrophages are exposed to single ligand stimuli. However, it remains unclear complex contexts might erode this stimulus-specificity. Here we systematically studies NFkappaB responses using a mathematical model that provides simulations of the heterogeneous population of single cell responses. We show that although the model is parameterized to single ligand data it can predict the responses to multi-ligand mixtures. Indeed, model validation uncovered signaling antagonism between two ligands and the underlying mechanism. Importantly, we found that NFkappaB signaling dynamics distinguish ligands within multi-ligand mixtures indicating a robustness of the NFkappaB temporal code that was not previously appreciated.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Xiaolu",
+        "Sen, Supriya",
+        "Gonzalez, Julian",
+        "Hoffmann, Alexander"
+      ],
+      "short_names": [
+        "Guo X",
+        "Sen S",
+        "Gonzalez J",
+        "Hoffmann A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5740-2428",
+        "ORCID: 0000-0002-5607-3845"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Xiaolu",
+        "short_name": "Guo X",
+        "identifiers": [
+          "0000-0002-5740-2428"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Sen, Supriya",
+        "short_name": "Sen S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Gonzalez, Julian",
+        "short_name": "Gonzalez J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hoffmann, Alexander",
+        "short_name": "Hoffmann A",
+        "identifiers": [
+          "0000-0002-5607-3845"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Apr 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/16 11:01",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40236137",
+      "40236106",
+      "33979588",
+      "38872050",
+      "36657439",
+      "38843840",
+      "23876795",
+      "39413794",
+      "21665277",
+      "38483906",
+      "34525335",
+      "37212045",
+      "36321557",
+      "33627672",
+      "32864512",
+      "34080973",
+      "34166361",
+      "27379091",
+      "39143485",
+      "19717524",
+      "31293585",
+      "24941444",
+      "23912807",
+      "39131345",
+      "19142232",
+      "21947771",
+      "34215697",
+      "21940676",
+      "23567895",
+      "14976215",
+      "25274725",
+      "37026001",
+      "31972132",
+      "33597952",
+      "32064589",
+      "34342534",
+      "26159724",
+      "26567289",
+      "1627833",
+      "32697413",
+      "31809875",
+      "25856589",
+      "16421230",
+      "24409285",
+      "37475016",
+      "35453507",
+      "27476088",
+      "37689116",
+      "16872373",
+      "22116297",
+      "20849883",
+      "38654826",
+      "21098741",
+      "25425469",
+      "26787872",
+      "23293603",
+      "32631940",
+      "20650880",
+      "37851522",
+      "37946271",
+      "30084534",
+      "37649905",
+      "37821959",
+      "16231973",
+      "19997504",
+      "9712725",
+      "33388338",
+      "19923461",
+      "32098801",
+      "35457102",
+      "34858955",
+      "20697956",
+      "35471841",
+      "39579618",
+      "30621583",
+      "23634218",
+      "22809727",
+      "20335312",
+      "31759325",
+      "38317239",
+      "15611271",
+      "29393460",
+      "34182556",
+      "38527452",
+      "12168659",
+      "21874021",
+      "21545719",
+      "31024544",
+      "24492342",
+      "25928566",
+      "29687414",
+      "35357214",
+      "29403501",
+      "18276597",
+      "29228214",
+      "1322572",
+      "16766221",
+      "25634698",
+      "26569339",
+      "12928413"
+    ],
+    "review": [
+      "40236137",
+      "34525335",
+      "36321557",
+      "27379091",
+      "33597952",
+      "34858955",
+      "35471841",
+      "31024544"
+    ],
+    "pmc": [
+      "11996307"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40236137/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.03.27.645368",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

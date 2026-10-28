@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "36147659",
+    "doi": "10.1016/j.csbj.2022.08.059",
+    "title": "CASPIAN: A method to identify chromatin topological associated domains based on spatial density cluster."
+  },
+  "content": {
+    "abstract": "With the development of Hi-C technology, the detection of topologically associated domains (TADs) boundaries plays an important role in exploring the relationship between gene structure and expression. However, a method that can identify accurate TAD boundaries from the Hi-C contact matrix with different resolutions is currently lacking. We proposed a method named CASPIAN that can identify chromatin TAD boundaries based on the spatial density clustering algorithm. CASPIAN requires few parameters to call TADs. This method is realized using the hierarchical density-based clustering method HDBSCAN, where the distance of pairwise bins is calculated based on three distance metrics (Euclidean, Manhattan, and Chebyshev distance metric) to adapt to the characteristics of the Hi-C contact matrix generated from simulation experiments or normalized methods. Our results show that, same as standard methods (e.g., Insulation Score, TopDom), CASPIAN can enrich factors related to promoting the gene expression, such as CTCF, H3K4me1, H3K4me3, RAD21, POLR2A, and SMC3. We also calculated the approximate proportion of various factors anchored at the TAD boundaries to observe the distribution of these factors surrounding the TAD boundaries. In conclusion, CASPIAN is an easy method to explore the relationship between transcription factors and TAD boundaries. CASPIAN is available online (https://gitee.com/ghaiyan/caspian).",
+    "keywords": [
+      "Chromatin structure",
+      "Cluster",
+      "Hi-C",
+      "Spatial distance",
+      "TAD"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gong, Haiyan",
+        "Yang, Yi",
+        "Zhang, Xiaotong",
+        "Li, Minghong",
+        "Zhang, Sichen",
+        "Chen, Yang"
+      ],
+      "short_names": [
+        "Gong H",
+        "Yang Y",
+        "Zhang X",
+        "Li M",
+        "Zhang S",
+        "Chen Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computer and Communication Engineering, Beijing Key Laboratory of Knowledge Engineering for Materials Science, Beijing Advanced Innovation Center for Materials Genome Engineering, University of Science and Technology Beijing, Beijing 100083, China.",
+        "School of Computer and Communication Engineering, Beijing Key Laboratory of Knowledge Engineering for Materials Science, Beijing Advanced Innovation Center for Materials Genome Engineering, University of Science and Technology Beijing, Beijing 100083, China.",
+        "School of Computer and Communication Engineering, Beijing Key Laboratory of Knowledge Engineering for Materials Science, Beijing Advanced Innovation Center for Materials Genome Engineering, University of Science and Technology Beijing, Beijing 100083, China.",
+        "Shunde Graduate School, University of Science and Technology Beijing, Foshan 528399, Guangdong, China.",
+        "School of Computer and Communication Engineering, Beijing Key Laboratory of Knowledge Engineering for Materials Science, Beijing Advanced Innovation Center for Materials Genome Engineering, University of Science and Technology Beijing, Beijing 100083, China.",
+        "School of Computer and Communication Engineering, Beijing Key Laboratory of Knowledge Engineering for Materials Science, Beijing Advanced Innovation Center for Materials Genome Engineering, University of Science and Technology Beijing, Beijing 100083, China.",
+        "The State Key Laboratory of Medical Molecular Biology, Department of Biochemistry and Molecular Biology, Institute of Basic Medical Sciences, School of Basic Medicine, Chinese Academy of Medical Sciences, Peking Union Medical College, Beijing 100005, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gong, Haiyan",
+        "short_name": "Gong H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer and Communication Engineering, Beijing Key Laboratory of Knowledge Engineering for Materials Science, Beijing Advanced Innovation Center for Materials Genome Engineering, University of Science and Technology Beijing, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yi",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer and Communication Engineering, Beijing Key Laboratory of Knowledge Engineering for Materials Science, Beijing Advanced Innovation Center for Materials Genome Engineering, University of Science and Technology Beijing, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaotong",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer and Communication Engineering, Beijing Key Laboratory of Knowledge Engineering for Materials Science, Beijing Advanced Innovation Center for Materials Genome Engineering, University of Science and Technology Beijing, Beijing 100083, China.",
+          "Shunde Graduate School, University of Science and Technology Beijing, Foshan 528399, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Minghong",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer and Communication Engineering, Beijing Key Laboratory of Knowledge Engineering for Materials Science, Beijing Advanced Innovation Center for Materials Genome Engineering, University of Science and Technology Beijing, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Sichen",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer and Communication Engineering, Beijing Key Laboratory of Knowledge Engineering for Materials Science, Beijing Advanced Innovation Center for Materials Genome Engineering, University of Science and Technology Beijing, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "The State Key Laboratory of Medical Molecular Biology, Department of Biochemistry and Molecular Biology, Institute of Basic Medical Sciences, School of Basic Medicine, Chinese Academy of Medical Sciences, Peking Union Medical College, Beijing 100005, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/24 06:00",
+    "fetched_at": "2026-09-28 13:49:02"
+  },
+  "links": {
+    "cites": [
+      "42203861",
+      "41366351",
+      "40131313",
+      "39457417",
+      "38932542",
+      "38655013",
+      "38148793",
+      "37879935",
+      "37822562",
+      "36927888"
+    ],
+    "refs": [
+      "35817979",
+      "35236295",
+      "32689928",
+      "32451505",
+      "32252545",
+      "32083658",
+      "31654669",
+      "30184171",
+      "29334377",
+      "29269730",
+      "29137603",
+      "28912419",
+      "28742097",
+      "28604721",
+      "28334773",
+      "28130423",
+      "27259200",
+      "27153657",
+      "26862051",
+      "26804913",
+      "26704975",
+      "26686651",
+      "26315910",
+      "26111025",
+      "26030525",
+      "25800747",
+      "25497547",
+      "25161224",
+      "24385922",
+      "22955616",
+      "22495300",
+      "22001755",
+      "19815776"
+    ],
+    "similar": [
+      "36147659",
+      "37822562",
+      "38932542",
+      "29137603",
+      "38655013",
+      "35413815",
+      "28742097",
+      "29416042",
+      "26315910",
+      "38449288",
+      "35104223",
+      "32689928",
+      "34160760",
+      "37279476",
+      "35741810",
+      "29408904",
+      "35181793",
+      "31863747",
+      "31847870",
+      "26518482",
+      "32987404",
+      "31177910",
+      "33838653",
+      "31260328",
+      "35639502",
+      "28060558",
+      "32968472",
+      "31049567",
+      "30591009",
+      "30260021",
+      "33866359",
+      "38062027",
+      "34415530",
+      "31881832",
+      "28863138",
+      "36945527",
+      "32252545",
+      "33494803",
+      "27706140",
+      "34605807",
+      "28977529",
+      "32083658",
+      "28057745",
+      "30867673",
+      "33563719",
+      "31275364",
+      "35502750",
+      "27249516",
+      "32000688",
+      "28737770",
+      "30111883",
+      "33897976",
+      "31887284",
+      "29994683",
+      "28784160",
+      "28752854",
+      "30086749",
+      "28408976",
+      "25367294",
+      "34849199",
+      "29273679",
+      "28388407",
+      "32060283",
+      "30871473",
+      "28826674",
+      "31801998",
+      "26150425",
+      "25409831",
+      "35736638",
+      "35328034",
+      "35236295",
+      "32895530",
+      "25274727",
+      "35144531",
+      "30704404",
+      "28087711",
+      "34034791",
+      "26226004",
+      "36531953",
+      "32211023",
+      "30898144"
+    ],
+    "review": [
+      "36147659",
+      "31863747",
+      "28060558",
+      "31275364",
+      "31887284",
+      "28408976"
+    ],
+    "pmc": [
+      "9464881"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(22)00393-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36147659/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36147659",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3993",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

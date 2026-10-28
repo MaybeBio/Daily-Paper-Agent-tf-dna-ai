@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors use a deep learning model to identify genomic regions subject to regulatory turnover across three mutational pathways (human–chimp substitutions, human population variation, random mutations). They report enhancer turnover in approximately 6% of the genome, with over 80% of novel activity arising from enhancer repurposing between cell types. Turnover frequency is similar across pathways despite limited overlap in source regions. Turnover loci are enriched within 100 kb of genes, particularly neurodevelopmental genes (CNTNAP2, NPAS3, AUTS2). These enhancers are described as vulnerable to random mutations and enriched for cell type–specific transcription factor binding sites. The authors conclude that enhancer repurposing within vulnerable loci drives regulatory innovation while preserving core regulatory networks.
+- **Visible evidence base** Abstract text only; no quantitative results beyond those stated, no methodological details, no validation metrics, no genomic coordinates, no statistical analyses, no figures or tables
+- **Missing materials affecting confidence** Full manuscript, methods description, model architecture and training details, validation and benchmarking results, all figures and tables, supplementary data, statistical test details, and any comparison with existing regulatory turnover studies
+
+## Reviewer
+- **Overall assessment** The abstract presents an intriguing hypothesis about regulatory plasticity and enhancer repurposing, with potentially broad implications for understanding human genome evolution and neurodevelopmental gene regulation. However, the current evidence base is insufficient to evaluate the technical soundness of the deep learning approach, the robustness of the turnover predictions, or the statistical support for the central claims. The similarity in turnover frequency across three distinct mutational pathways is a notable observation, but without methodological detail and validation, the case is not yet established.
+- **Who would be interested in the results, and why** Evolutionary biologists studying regulatory genome evolution, computational biologists developing deep learning models for functional genomics, and researchers interested in the genetic basis of neurodevelopment and neurocognitive traits. The claim that enhancer repurposing drives regulatory innovation while maintaining core networks could inform studies of phenotypic divergence and disease-associated variation.
+- **Major strengths** The conceptual framing of regulatory turnover as a measurable quantity across three evolutionary pathways is innovative. The focus on enhancer repurposing between cell types as a dominant mechanism is a potentially important insight. The identification of neurodevelopmental genes as hotspots of turnover provides a concrete and testable biological anchor.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The deep learning model identifies substrates of regulatory turnover using genome-wide mutations mimicking three evolutionary pathways.
+  - **Evidence pointer** Abstract; methods not provided
+  - **Concern** No information is provided about the deep learning model architecture, training data, input features, or how "regulatory activity" is defined and predicted. Without this, the biological meaning of the predicted turnover is unclear.
+  - **Why it matters** The central methodology underpins all subsequent claims. If the model is not adequately validated against experimental regulatory data, the turnover predictions may reflect model artifacts rather than biological phenomena.
+  - **Resolution test** Provide a detailed methods section including model architecture, training and test datasets, validation against independent enhancer assays (e.g., STARR-seq, MPRA), and performance metrics (e.g., AUROC, precision-recall) for predicting regulatory activity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical support
+  - **Claim pointer** Enhancer turnover occurs in approximately 6% of the whole genome, with more than 80% of novel activity arising from repurposing of enhancers between cell types.
+  - **Evidence pointer** Abstract; no statistical details provided
+  - **Concern** The abstract reports percentages without confidence intervals, significance tests, or definitions of "turnover" and "novel activity." It is unclear how these numbers were derived and whether they are robust to model parameters or genomic background.
+  - **Why it matters** These quantitative claims are central to the paper's message. Without statistical rigor, the 6% and 80% figures cannot be evaluated for biological significance or compared with other studies.
+  - **Resolution test** Provide confidence intervals, permutation or bootstrap-based significance testing, and clear operational definitions of turnover and repurposing. Show that results are stable across model seeds and parameter choices.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretability of results
+  - **Claim pointer** Frequency of turnover in a cell type is remarkably similar across the three pathways, despite only approximately 19% overlap in the source regions.
+  - **Evidence pointer** Abstract; no data shown
+  - **Concern** The similarity in turnover frequency across pathways is presented as a key finding, but the abstract does not explain what this similarity means mechanistically. The 19% overlap in source regions is mentioned without context on how overlap was defined or whether it is expected by chance.
+  - **Why it matters** The interpretation that this similarity reflects a shared regulatory constraint is plausible but not established. Alternative explanations, such as model bias or genomic features common to all pathways, are not addressed.
+  - **Resolution test** Provide a quantitative comparison of turnover frequency distributions across pathways with appropriate statistical tests. Discuss potential confounders and demonstrate that the similarity is not an artifact of the model or genomic architecture.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological validation
+  - **Claim pointer** Flanking enhancers of neurodevelopmental genes (CNTNAP2, NPAS3, AUTS2) undergo high turnover irrespective of the mutational model pathway, suggesting high plasticity in neurocognitive evolution.
+  - **Evidence pointer** Abstract; no experimental validation
+  - **Concern** The claim that these enhancers are "vulnerable by nature" and enriched for cell type–specific transcription factor binding sites is based solely on model predictions. No experimental evidence is provided to confirm that predicted turnover corresponds to functional regulatory changes.
+  - **Why it matters** The evolutionary significance of the findings depends on whether predicted turnover reflects real regulatory divergence. Without functional validation, the link to neurocognitive evolution remains speculative.
+  - **Resolution test** Provide experimental validation for at least a subset of predicted turnover loci, such as reporter assays comparing human and chimp enhancer activity, or CRISPR-based perturbation in relevant cell types. Show that predicted vulnerable enhancers have differential activity across species or cell types.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "regulatory plasticity"
+  - **Evidence pointer** Abstract, title
+  - **Issue** The term "regulatory plasticity" is used in the title and abstract but not explicitly defined. It is unclear whether it refers to the capacity for regulatory change, the rate of turnover, or the functional flexibility of enhancers.
+  - **Required correction** Provide an explicit definition of regulatory plasticity in the introduction or methods, and use it consistently throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model availability
+  - **Evidence pointer** Abstract; no code or model details
+  - **Issue** No mention is made of code availability, model weights, or access to the deep learning model. This limits reproducibility.
+  - **Required correction** State in the abstract or methods that the model and code will be made publicly available, and provide a repository link in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison with existing literature
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not reference prior work on regulatory turnover or enhancer evolution, making it difficult to assess the novelty of the findings in context.
+  - **Required correction** Add brief context in the introduction or discussion citing key prior studies on regulatory evolution and enhancer turnover, and explicitly state how this work advances beyond them.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model validation), R1-M2 (statistical support), R1-M3 (interpretability), R1-M4 (biological validation). These are all blocking because the abstract alone does not provide sufficient evidence to evaluate the central claims.
+- **Assessment against Nature-style criteria** Originality: The concept of comparing three mutational pathways in a single framework is original, but the abstract does not demonstrate how this differs from prior computational predictions of regulatory evolution. Scientific importance: The potential link to neurodevelopmental gene regulation is important, but the significance is not yet established without validation. Interdisciplinary readership: The topic bridges genomics, evolution, and neurobiology, which could attract broad interest, but the abstract is too technical for nonspecialists without context. Technical soundness: Not assessable from the abstract; the deep learning approach and statistical methods are not described. Readability for nonspecialists: The abstract is dense and assumes familiarity with enhancer biology and deep learning; key terms are not explained.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and potentially significant, but the abstract alone does not provide sufficient methodological detail, statistical support, or biological validation to assess the validity of the claims. A full manuscript with detailed methods, validation, and experimental confirmation would be required to evaluate the case.
+
+## Risk / unsupported claims
+- The claim that enhancer turnover occurs in approximately 6% of the genome is unsupported without model details and statistical confidence.
+- The claim that over 80% of novel activity arises from enhancer repurposing is unsupported without definitions and validation.
+- The claim that turnover frequency is "remarkably similar" across pathways is unsupported without statistical comparison.
+- The claim that neurodevelopmental gene enhancers are "vulnerable by nature" is unsupported without functional evidence.
+- The conclusion that enhancer repurposing drives regulatory innovation while keeping core networks intact is speculative and not directly tested.
+- The generalizability of the deep learning model to human regulatory evolution is not assessable from the abstract.

@@ -1,0 +1,272 @@
+{
+  "identity": {
+    "pmid": "35666736",
+    "doi": "10.1371/journal.pcbi.1010162",
+    "title": "Characterizing collaborative transcription regulation with a graph-based deep learning approach."
+  },
+  "content": {
+    "abstract": "Human epigenome and transcription activities have been characterized by a number of sequence-based deep learning approaches which only utilize the DNA sequences. However, transcription factors interact with each other, and their collaborative regulatory activities go beyond the linear DNA sequence. Therefore leveraging the informative 3D chromatin organization to investigate the collaborations among transcription factors is critical. We developed ECHO, a graph-based neural network, to predict chromatin features and characterize the collaboration among them by incorporating 3D chromatin organization from 200-bp high-resolution Micro-C contact maps. ECHO predicted 2,583 chromatin features with significantly higher average AUROC and AUPR than the best sequence-based model. We observed that chromatin contacts of different distances affected different types of chromatin features' prediction in diverse ways, suggesting complex and divergent collaborative regulatory mechanisms. Moreover, ECHO was interpretable via gradient-based attribution methods. The attributions on chromatin contacts identify important contacts relevant to chromatin features. The attributions on DNA sequences identify TF binding motifs and TF collaborative binding. Furthermore, combining the attributions on contacts and sequences reveals important sequence patterns in the neighborhood which are relevant to a target sequence's chromatin feature prediction.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites/genetics",
+      "Chromatin/genetics",
+      "*DNA/chemistry",
+      "*Deep Learning",
+      "Gene Expression Regulation",
+      "Humans",
+      "Protein Binding",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Zhenhao",
+        "Feng, Fan",
+        "Liu, Jie"
+      ],
+      "short_names": [
+        "Zhang Z",
+        "Feng F",
+        "Liu J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5990-312X",
+        "ORCID: 0000-0002-9504-0587"
+      ],
+      "affiliations": [
+        "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Department of Computer Science and Engineering, University of Michigan, Ann Arbor, Michigan, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Zhenhao",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, Michigan, United States of America."
+        ]
+      },
+      {
+        "full_name": "Feng, Fan",
+        "short_name": "Feng F",
+        "identifiers": [
+          "0000-0002-5990-312X"
+        ],
+        "affiliations": [
+          "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, Michigan, United States of America."
+        ]
+      },
+      {
+        "full_name": "Liu, Jie",
+        "short_name": "Liu J",
+        "identifiers": [
+          "0000-0002-9504-0587"
+        ],
+        "affiliations": [
+          "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, Michigan, United States of America.",
+          "Department of Computer Science and Engineering, University of Michigan, Ann Arbor, Michigan, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/07 06:00",
+    "fetched_at": "2026-09-28 09:30:15"
+  },
+  "links": {
+    "cites": [
+      "41503157"
+    ],
+    "refs": [
+      "34608324",
+      "33950192",
+      "33381816",
+      "32885250",
+      "32214235",
+      "31701148",
+      "31398323",
+      "30013180",
+      "29588361",
+      "29425488",
+      "29126249",
+      "27863956",
+      "27197224",
+      "27084946",
+      "26550828",
+      "26550823",
+      "26316348",
+      "26301843",
+      "26213851",
+      "26161953",
+      "26119342",
+      "24614316",
+      "24380390",
+      "24342920",
+      "21445285",
+      "21106903",
+      "19815776",
+      "12743039",
+      "12045153",
+      "11423983"
+    ],
+    "similar": [
+      "35666736",
+      "35293310",
+      "33232622",
+      "30423062",
+      "33413545",
+      "35396274",
+      "26818008",
+      "36360189",
+      "37598467",
+      "32770026",
+      "26291518",
+      "28750606",
+      "33372147",
+      "38422958",
+      "34272562",
+      "25957350",
+      "37100167",
+      "31372637",
+      "37569400",
+      "24603674",
+      "35263332",
+      "34534646",
+      "22955984",
+      "30922998",
+      "34524404",
+      "36902216",
+      "36094959",
+      "34486522",
+      "33522898",
+      "34664074",
+      "35652477",
+      "30835229",
+      "35831531",
+      "22479205",
+      "28212748",
+      "19956545",
+      "22456606",
+      "34073774",
+      "35440119",
+      "37224527",
+      "32978299",
+      "32976105",
+      "29267972",
+      "21106904",
+      "32847102",
+      "27091612",
+      "31521504",
+      "29786094",
+      "36243974",
+      "36484687",
+      "25775564",
+      "32728244",
+      "33634313",
+      "18725950",
+      "25442502",
+      "38187606",
+      "28576882",
+      "35240993",
+      "36057196",
+      "28245811",
+      "28472398",
+      "26016777",
+      "22954627",
+      "29074739",
+      "33741685",
+      "33603233",
+      "36495179",
+      "24774859",
+      "25433490",
+      "35681170",
+      "23527292",
+      "31336830",
+      "19158363",
+      "32043966",
+      "25108460",
+      "39404010",
+      "33381816",
+      "33950192",
+      "22126206",
+      "16735158",
+      "22534400",
+      "34370721",
+      "37402191",
+      "33796819",
+      "38853998",
+      "39318505",
+      "38594933",
+      "37971967",
+      "37401370",
+      "37205975"
+    ],
+    "review": [
+      "35666736",
+      "35652477",
+      "35831531",
+      "31521504",
+      "36057196",
+      "24774859",
+      "22126206",
+      "16735158"
+    ],
+    "pmc": [
+      "9203014"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1010162",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35666736/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35666736",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

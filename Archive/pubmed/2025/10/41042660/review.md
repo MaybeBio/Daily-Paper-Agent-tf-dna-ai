@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose LTN-TFpredict, a neurosymbolic framework combining Logic Tensor Networks with deep learning for transcription factor prediction. The model uses pre-trained protein language model embeddings and logical constraints derived from five TF-related motifs. The authors claim state-of-the-art accuracy over multiple baselines and strict logical compliance with domain knowledge.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all numerical results, dataset composition and splits, baseline implementation details, hyperparameter settings, statistical significance tests, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting integration of neurosymbolic methods with biological sequence prediction. The motivation is clear and the choice of LTNs for incorporating domain knowledge is reasonable. However, the abstract lacks any quantitative evidence, and several claims are either unsupported or not assessable from the supplied material. The comparison set is broad but the absence of results prevents evaluation of the stated improvements. The claim of "strict logical compliance" is particularly problematic without formal definitions or verification procedures.
+- **Who would be interested in the results, and why** Researchers in computational biology, specifically those working on transcription factor prediction and gene regulatory network inference, would be interested. Additionally, the neurosymbolic AI community, particularly those applying logic-based methods to biological sequence problems, would find the approach relevant. The work may also appeal to method developers seeking interpretable deep learning alternatives for genomic applications.
+- **Major strengths** The conceptual framing is clear and addresses a genuine gap in the field, namely the underutilization of domain knowledge in deep learning models for TF prediction. The choice of five specific TF-related motifs is biologically grounded and provides a concrete mechanism for knowledge integration. The comparison set is appropriately broad, covering traditional classifiers, CNN-based models, transformer architectures, and alternative integration strategies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "LTN-TFpredict consistently outperforms traditional classifiers (TFpredict, XGBoost), CNN-based models (DeepTFactor, ProtCNN), transformer-based architectures (ESM-TFpredict, ProtT5), and two alternative strategies: multi-loss optimization and motif-based data augmentation, achieving state-of-the-art accuracy"
+  - **Evidence pointer** Abstract, "Experimental results" section; location not provided
+  - **Concern** The abstract claims consistent outperformance over six baselines and two alternative strategies, yet no numerical results, performance metrics, or statistical significance values are reported. Without any quantitative data, the central claim of state-of-the-art accuracy cannot be evaluated.
+  - **Why it matters** The primary contribution of the paper is the claimed performance improvement. If this claim is not supported by reported results, the case for the method's utility is not established. The absence of any numbers in the abstract is unusual for a computational biology methods paper and prevents even preliminary assessment.
+  - **Resolution test** Provide quantitative results in the abstract or full text, including at minimum accuracy, precision, recall, F1, and AUC values for all compared methods, along with confidence intervals or p-values from appropriate statistical tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim validity
+  - **Claim pointer** "preserving strict logical compliance with domain knowledge"
+  - **Evidence pointer** Abstract, "Experimental results" section; location not provided
+  - **Concern** The claim of "strict logical compliance" is not defined or demonstrated. In LTN frameworks, logical constraints are typically soft, with a satisfaction level that can be measured. The term "strict" implies hard enforcement, which is not standard for LTNs. No definition of compliance, no satisfaction scores, and no verification procedure are provided.
+  - **Why it matters** This claim is central to the interpretability and biological validity aspects of the contribution. If the logical constraints are soft, then "strict compliance" is misleading. If they are hard, the mechanism must be described. Without clarification, the interpretability claim is ambiguous and potentially overstated.
+  - **Resolution test** Define what "strict logical compliance" means in the LTN context, report logical constraint satisfaction values (e.g., truth values or loss components), and describe how compliance was verified across the test set.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "incorporates logical constraints derived from five key TF-related motifs: zinc fingers, leucine zippers, basic helix-loop-helix, forkhead, and winged helix-turn-helix"
+  - **Evidence pointer** Abstract, "Methods" section; location not provided
+  - **Concern** The abstract states that logical constraints are derived from five motifs, but provides no information on how these motifs are encoded as logical rules, how the rules are weighted, or how they interact with the neural network components. The specific formulation of the logical constraints is essential for reproducibility.
+  - **Why it matters** The novelty of the approach lies in the integration of these logical constraints. Without details on the rule formulation, other researchers cannot replicate the method or assess whether the chosen rules are appropriate or complete. This is a core methodological element.
+  - **Resolution test** Provide the formal logical rules used, the process for deriving them from motif information, and the integration mechanism within the LTN framework, either in the full text or supplementary materials.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model naming
+  - **Evidence pointer** Abstract, title and "Methods" section; location not provided
+  - **Issue** The model name "LTN-TFpredict" is used, but the relationship to the existing "TFpredict" baseline is not clarified. It is unclear whether LTN-TFpredict is a direct extension of TFpredict or an independent implementation.
+  - **Required correction** Clarify the relationship between LTN-TFpredict and TFpredict, including whether the same feature sets or architectures are shared.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Baseline selection
+  - **Evidence pointer** Abstract, "Experimental results" section; location not provided
+  - **Issue** The abstract lists several baselines but does not justify why these specific methods were chosen or whether they represent the current state of the art in TF prediction. The absence of any very recent methods (post-2023) is notable.
+  - **Required correction** Provide a brief justification for baseline selection and include the most recent comparable methods to strengthen the claim of state-of-the-art performance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Dataset scope
+  - **Evidence pointer** Abstract, "Experimental results" section; location not provided
+  - **Issue** The abstract does not describe the dataset used for evaluation, including organism, sequence length, class balance, or whether the test set is independent of training. This limits assessment of generalizability.
+  - **Required correction** Specify the dataset characteristics and evaluation protocol in the abstract or full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and the undefined claim of strict logical compliance prevent the core contributions from being assessed. R1-M3, while not blocking, is essential for reproducibility and should be addressed.
+- **Assessment against Nature-style criteria** Originality: The combination of LTNs with protein language model embeddings for TF prediction appears novel, though the abstract does not fully distinguish it from prior neurosymbolic work in biology. Scientific importance: TF prediction is a relevant problem, but the importance of the incremental contribution cannot be assessed without results. Interdisciplinary readership: The work bridges AI and biology, which has broad appeal, but the abstract is written in a way that assumes familiarity with both LTNs and TF biology. Technical soundness: Cannot be evaluated from the abstract alone; the logical constraint formulation and evaluation methodology are not described. Readability for nonspecialists: The abstract is reasonably clear but uses jargon from both fields without sufficient explanation for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual approach is promising, but the abstract lacks the quantitative and methodological detail necessary to support the central claims. A revised version with reported results, defined logical compliance, and methodological specifics could change this assessment.
+
+## Risk / unsupported claims
+- "Consistently outperforms" all listed baselines and alternative strategies: unsupported, no numerical data provided
+- "Achieving state-of-the-art accuracy": unsupported, no comparison to current SOTA with reported metrics
+- "Preserving strict logical compliance with domain knowledge": unsupported and undefined, no satisfaction metrics or verification described
+- "Improving both predictive performance and biological validity": biological validity is not defined or measured
+- "Robust, interpretable, and biologically grounded solution": interpretability is asserted but not demonstrated with examples or analyses

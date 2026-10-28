@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and supplementary figure/table references
+- **Assessment boundary** Scientific validity, technical soundness, interpretation of results, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors present a genome-wide STARR-seq screen in CHOK1SV GS-KO cells, identifying 13,395 regions with enhancer activity. They integrate these data with ATAC-seq and histone modification ChIP-seq to classify enhancers as accessible or masked, show that top enhancers can drive transgene expression comparable to or exceeding viral enhancers, and identify YY1 and ETS motifs as key determinants of enhancer strength, validated by mutagenesis and DeepSTARR modeling.
+- **Visible evidence base** Main text figures 1-6 (referenced), supplementary figures S1-S5 (referenced), supplementary tables S1-S5 (referenced), methods section, results section, discussion section
+- **Missing materials affecting confidence** Raw sequencing data, quality control metrics for STARR-seq libraries, detailed peak calling parameters, DeepSTARR model architecture and hyperparameters, exact statistical test details for comparisons, supplementary figures and tables themselves, genome browser tracks or validation of individual loci
+
+## Reviewer
+- **Overall assessment** This manuscript provides a valuable resource for the CHO cell engineering community by generating a genome-wide functional map of enhancers using STARR-seq, a method not previously applied to CHO cells. The integration with chromatin state data and the identification of YY1 as a key regulator of enhancer strength are interesting and potentially impactful findings. The work is technically sound in its core approach, but several concerns regarding data completeness, statistical rigor, and the strength of certain claims need to be addressed. The translational relevance for bioprocessing is clear, but the demonstration of utility in stable cell lines, which is the industrially relevant context, is lacking.
+- **Who would be interested in the results, and why** Researchers in bioprocessing and CHO cell engineering will be interested in the catalog of validated enhancers as potential building blocks for expression vector design. Scientists studying gene regulation, enhancer biology, and transcription factor function will find the YY1 and ETS findings relevant to understanding enhancer strength determinants. The study also provides a methodological template for applying STARR-seq to non-model, industrially relevant cell lines.
+- **Major strengths** 1) First genome-wide functional enhancer map in CHO cells using STARR-seq, filling a clear knowledge gap. 2) Integration of multiple epigenomic datasets (ATAC-seq, ChIP-seq) with functional data provides a comprehensive view of enhancer chromatin context. 3) The identification of YY1 as a key determinant of enhancer strength, supported by both computational modeling and experimental mutagenesis, is a mechanistically interesting finding. 4) The demonstration that top enhancers can outperform viral enhancers in driving transgene expression has clear practical implications. 5) The distinction between accessible and masked enhancers and their different genomic and functional associations is a conceptually useful framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / data completeness
+  - **Claim pointer** The manuscript claims a "comprehensive map of functionally-validated enhancers" based on 13,395 STARR-seq peaks.
+  - **Evidence pointer** Results section "Systematic Identification of Genomic Regions With Enhancer Activity in CHO Cells", Figure 1, Methods "Whole-Genome STARR-seq Data Analysis"
+  - **Concern** The manuscript does not provide sufficient quality control metrics for the STARR-seq experiment. Key parameters such as library complexity, number of independent clones, sequencing depth per replicate, reproducibility metrics beyond a single R-squared value, and the false discovery rate for peak calling are not reported. The peak calling threshold (log2 fold-change ≥ 2.5, p < 10-5) is stated, but the number of peaks passing this threshold from the initial 71,493 calls to the final 13,395 is not clearly explained. Without these details, the robustness and comprehensiveness of the enhancer map cannot be fully assessed.
+  - **Why it matters** STARR-seq is prone to technical artifacts including PCR amplification bias, cloning bias, and false positives from cryptic promoters or read-through transcription. Without rigorous QC metrics, the reliability of the 13,395 enhancer calls is uncertain, which undermines the foundational resource claim of the paper.
+  - **Resolution test** Provide detailed QC metrics including: number of peaks called at various significance thresholds, genomic inflation factor, reproducibility between replicates (e.g., IDR analysis), library complexity estimates, and a clear description of the filtering steps from raw peaks to final enhancer set. Show that the final set is robust to threshold choices.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim strength / external validity
+  - **Claim pointer** The authors state that "the most active sequences could drive transgene expression at levels similar to or higher than strong viral enhancers" and that these enhancers could be used to "augment current expression vector designs."
+  - **Evidence pointer** Results section "Using Newly Identified STARR-seq Enhancers for Recombinant Protein Expression", Figure 2E, Methods "GFP and SEAP Reporter Assays"
+  - **Concern** The reporter assays were performed in transient transfection, which is not the industrially relevant context. Stable cell line performance, which involves genomic integration position effects, chromatin context, and long-term stability, is not tested. The claim that these enhancers could be used in expression vectors for improved production is therefore premature. Additionally, only 26 sequences were tested in the reporter assays, which is a small fraction of the identified enhancers, and the selection criteria for these 26 are not fully described.
+  - **Why it matters** The translational value of this work for bioprocessing depends on whether these enhancers function in stable cell lines. Transient assays can overestimate enhancer activity due to episomal copy number effects and lack of chromatin repression. The claim of utility for "enhanced biopharmaceutical production" requires demonstration in a stable context.
+  - **Resolution test** Include stable pool or clonal cell line data for at least a subset of the top enhancers, showing sustained expression over time. Alternatively, temper the claims to specify that the enhancers are validated in transient contexts and that stable cell line testing is a necessary next step.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation / causal inference
+  - **Claim pointer** The authors claim that "ETS and YY1 transcription factor binding motifs were identified as key determinants of enhancer identity and strength" and that YY1 acts as a transcriptional activator in CHO cells.
+  - **Evidence pointer** Results section "The Transcription Factors YY1 and ETS are Associated With Strong Enhancer Activity", Figure 6, Methods "Transcription Factor Motif Enrichment Analysis and Scanning", "YY1 Binding Motif Mutagenesis"
+  - **Concern** The mutagenesis experiment disrupted YY1 motifs in enhancer sequences and showed reduced activity, which supports a role for YY1. However, the manuscript does not show whether YY1 protein is actually bound at these loci in CHO cells (e.g., via ChIP-seq for YY1). The correlation between YY1 motif number and enhancer activity could be confounded by other sequence features. The claim that YY1 is a "key determinant" of enhancer strength would be strengthened by direct evidence of YY1 occupancy and by testing whether YY1 overexpression or knockdown modulates enhancer activity.
+  - **Why it matters** The mechanistic claim about YY1 is a central finding of the paper. Without direct evidence of YY1 binding and functional perturbation, the conclusion that YY1 is a key determinant remains correlative. This distinction matters for the broader understanding of enhancer regulation in CHO cells.
+  - **Resolution test** Perform YY1 ChIP-seq in CHO cells to show occupancy at strong enhancers. Alternatively, perform YY1 knockdown or overexpression experiments and measure effects on enhancer-driven reporter expression. At minimum, acknowledge the lack of direct binding evidence as a limitation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / data interpretation
+  - **Claim pointer** The manuscript states that "half of the regions found to have enhancer activity were within inaccessible chromatin in their native context" and introduces the concept of "masked enhancers."
+  - **Evidence pointer** Results section "Chromatin Context of STARR-seq Enhancers", Figure 3
+  - **Concern** The classification of enhancers as "accessible" or "masked" relies on overlap with ATAC-seq peaks. However, the ATAC-seq data is from a different study (Bevan et al. 2021) and may have been generated under different culture conditions or cell line subclones. The manuscript does not address potential batch effects or condition-specific differences in chromatin accessibility. Additionally, the term "masked" implies a specific mechanism (heterochromatin-mediated silencing) that is only weakly supported by H3K9me3 enrichment data.
+  - **Why it matters** The accessible/masked distinction is a key conceptual contribution of the paper. If the ATAC-seq data is not directly comparable to the STARR-seq conditions, the classification could be inaccurate. The mechanistic interpretation of "masking" needs stronger support.
+  - **Resolution test** Generate ATAC-seq data from the same cells and culture conditions used for STARR-seq, or at least demonstrate that the published ATAC-seq data is representative of the conditions used. Provide additional evidence for the "masked" state, such as DNA methylation data or heterochromatin protein binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / reproducibility
+  - **Affected element** Methods, "STARR-seq Enhancer Length Optimization"
+  - **Evidence pointer** Methods section "STARR-seq Enhancer Length Optimization"
+  - **Issue** The description of the length optimization experiment is brief. It is unclear how the 50 most active peaks were selected, how the 186 fragments were designed (specifically the overlap and tiling strategy), and why only 159 of 186 were successfully synthesized. The criteria for determining the optimal length are not stated.
+  - **Required correction** Provide a more detailed description of the fragment design strategy, including the tiling approach, overlap between fragments, and the criteria used to determine optimal enhancer length. State the success rate of synthesis and any potential biases introduced by the synthesis failure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, "Using Newly Identified STARR-seq Enhancers for Recombinant Protein Expression"
+  - **Evidence pointer** Figure 2E, Methods "GFP and SEAP Reporter Assays"
+  - **Issue** The statistical comparison between enhancer-driven expression and controls is not described. It is unclear how many biological replicates were performed, what statistical test was used, and whether multiple testing corrections were applied when comparing 26 sequences.
+  - **Required correction** Describe the statistical methods used for reporter assay comparisons, including the number of replicates, the test used, and whether corrections for multiple comparisons were applied. Show individual data points in Figure 2E rather than only summary statistics.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation / overstatement
+  - **Affected element** Discussion, first paragraph
+  - **Evidence pointer** Discussion section
+  - **Issue** The statement that this is a "comprehensive map" is repeated in the discussion, but the manuscript only tested a small subset of enhancers in functional assays. The map is comprehensive in terms of STARR-seq coverage, but the functional validation is limited.
+  - **Required correction** Qualify the term "comprehensive" to refer specifically to the STARR-seq screen, and clarify that functional validation was performed on a subset of enhancers.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility / data availability
+  - **Affected element** Data Availability Statement
+  - **Evidence pointer** Data Availability Statement
+  - **Issue** The data availability statement says data is available in the supporting information, but the supporting information is not provided with the manuscript. For a genomics resource paper, raw sequencing data should be deposited in a public repository (e.g., GEO, SRA) with an accession number.
+  - **Required correction** Provide a GEO or SRA accession number for the STARR-seq, ATAC-seq, and ChIP-seq data. If raw data cannot be shared, state this explicitly and provide processed data files in a public repository.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, "DeepSTARR Training and Interpretation"
+  - **Evidence pointer** Methods section "DeepSTARR Training and Interpretation"
+  - **Issue** The description of DeepSTARR training lacks key details: the number of training epochs, learning rate, batch size, early stopping criteria, and the architecture of the model (number of layers, hidden units). The manuscript states scripts from de Almeida et al. (2022) were used, but it is unclear if any modifications were made for CHO cells.
+  - **Required correction** Provide the full hyperparameter settings and any modifications made to the original DeepSTARR architecture. State the final model performance metrics beyond the Pearson correlation coefficient (e.g., AUPRC, loss curves).
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Chromatin Context of STARR-seq Enhancers"
+  - **Evidence pointer** Figure 3A
+  - **Issue** The overlap analysis between STARR-seq enhancers and putative active enhancers (H3K4me1+; H3K27ac+; ATAC-seq+) is presented as a single percentage (16%). It would be informative to show the overlap with each individual mark and with combinations of marks to understand which features are most predictive of STARR-seq activity.
+  - **Required correction** Provide a more detailed breakdown of overlaps between STARR-seq enhancers and individual chromatin marks, and consider a Venn diagram or UpSet plot to show combinations.
+
+## Risk / unsupported claims
+- The claim that the identified enhancers can be used to "augment current expression vector designs" for "enhanced biopharmaceutical production" is not supported by stable cell line data; only transient transfection was used.
+- The claim that YY1 is a "key determinant" of enhancer strength is supported by motif analysis and mutagenesis, but direct evidence of YY1 binding in CHO cells is not provided.
+- The classification of enhancers as "masked" implies a mechanism of heterochromatin-mediated silencing that is only weakly supported by H3K9me3 enrichment data.
+- The "comprehensive" nature of the enhancer map is based on STARR-seq coverage, but functional validation was performed on only 26 sequences, which is a small fraction of the 13,395 identified enhancers.
+- The generalizability of the findings to other CHO cell lines is not addressed; the authors acknowledge this in the discussion but do not provide any comparative data.
+- The DeepSTARR model predictions are correlated with experimental data, but the manuscript does not demonstrate that the model can predict enhancer activity in independent genomic contexts or that the identified motifs are causal rather than merely associated.

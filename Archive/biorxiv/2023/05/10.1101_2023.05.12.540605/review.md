@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, acknowledgments)
+- **Assessment boundary** Technical validity and reproducibility of the described anchoring method; evidence supporting claims of topological closure, surface anchoring, stability under flow, and accessibility to DNA-binding proteins
+- **Shared manuscript claim summary** The authors report a method using RecA-mediated D-loop formation and a complement-stabilized, circularized oligonucleotide to create a site-specific, topologically closed anchor on a large (~20 kbp) plasmid. This anchor enables surface immobilization of supercoiled DNA for single-molecule and ensemble biophysical assays without requiring in situ manipulation or complex instrumentation.
+- **Visible evidence base** Abstract; Introduction; Materials and Methods (partial, with some reagent details); Results (Figures 1–3 referenced, but figure panels not fully described); Discussion; Acknowledgments
+- **Missing materials affecting confidence** Full figure panels and legends; raw gel images; quantification details for D-loop yields; detailed microscopy image analysis parameters; negative control data; statistical analysis; plasmid characterization data (e.g., supercoiling density verification); complete oligonucleotide sequences; buffer compositions for key steps
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and potentially useful method for immobilizing supercoiled plasmid DNA on surfaces via a RecA-generated, circularized complement-stabilized D-loop. The approach is novel in its combination of established components (RecA strand exchange, D-loop formation, biotin-streptavidin anchoring) and could address a real need in the single-molecule biophysics community. However, the evidence provided is insufficient to fully establish the key claims, particularly regarding topological closure, stability under flow, and retention of supercoiling. Several technical details and control experiments are missing, and the presentation would benefit from clearer quantification and statistical treatment. The method's generalizability and practical advantages are plausible but not fully demonstrated.
+- **Who would be interested in the results, and why** Researchers in single-molecule biophysics, DNA replication, transcription, and DNA repair who study protein-DNA interactions on supercoiled or topologically constrained templates. The method could also interest labs performing ensemble biophysical measurements (e.g., SPR) on supercoiled DNA, and those seeking cost-effective alternatives to PNA-based or force-spectroscopy approaches.
+- **Major strengths** 1) The method addresses a genuine technical gap: immobilizing large, supercoiled DNA without linearization or in situ manipulation. 2) The use of RecA and programmable oligonucleotides offers a potentially simple, cost-effective, and site-specific alternative to existing approaches. 3) The demonstration of in situ linearization and flow-induced extension suggests practical utility for single-molecule assays. 4) The discussion of supercoiling parameters (linking number, writhe, twist) shows appropriate theoretical consideration.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The resulting joint molecule is topologically closed, surface anchorable and stable under microfluidic flow."
+  - **Evidence pointer** Results, Figures 2 and 3; Materials and Methods (D-loop assays, purification, flow-cell fabrication)
+  - **Concern** The claim of topological closure is inferred from heat stability of the ligated product (Figure 2B, lane 3), but the evidence is indirect. Heat stability could arise from non-covalent but kinetically trapped interactions, or from incomplete deproteinization. No direct demonstration of topological linkage (e.g., via topoisomerase sensitivity, two-dimensional gel electrophoresis, or atomic force microscopy) is provided. Additionally, the stability under flow is only qualitatively shown (Figure 3B), with no quantification of anchor survival rates or long-term stability.
+  - **Why it matters** Topological closure is the central mechanistic claim of the method. If the linkage is not truly topological, the method's utility for studying supercoiling-dependent processes is undermined. Stability under flow is critical for practical single-molecule experiments.
+  - **Resolution test** Provide direct evidence of topological linkage, such as resistance to exonuclease digestion, sensitivity to topoisomerase I (which would relax but not release the circle), or gel-based assays distinguishing catenated from non-catenated forms. Quantify anchor survival over time and under varying flow rates, with appropriate controls (e.g., non-circularized D-loop, no-ligase controls).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "tethered molecules remain supercoiled and retain accessibility to DNA binding proteins"
+  - **Evidence pointer** Results, Figure 3; Discussion (supercoiling calculations)
+  - **Concern** The claim that tethered molecules remain supercoiled is not directly tested. The authors calculate the expected change in superhelical density upon D-loop formation (σ final = -0.056), but no experimental verification (e.g., via chloroquine gel electrophoresis, psoralen crosslinking, or DNA topology-sensitive dyes) is shown. Accessibility to DNA-binding proteins is only demonstrated with a restriction enzyme (in situ linearization), which is a limited proxy for the diverse proteins (e.g., helicases, polymerases) that might be used in future assays.
+  - **Why it matters** The method's value proposition is enabling studies on supercoiled templates. If supercoiling is lost during anchoring or if the anchor blocks protein access, the method fails its primary purpose.
+  - **Resolution test** Directly assay supercoiling status of anchored plasmids (e.g., by comparing mobility on chloroquine gels before and after anchoring, or using a supercoiling-sensitive fluorescent probe). Test accessibility with a range of DNA-binding proteins (e.g., a sequence-specific transcription factor, a helicase) in addition to a restriction enzyme.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "We found the approach to saturation of D-loop yield occurred at ∼100 nM of the input D-loop forming oligonucleotide"
+  - **Evidence pointer** Results, Figure 1B and 1C; Materials and Methods (D-loop assays)
+  - **Concern** The titration data are described but not fully shown. The yield quantification method (gel-based, using radiolabeled oligonucleotides) is mentioned, but the number of replicates, error bars, and statistical analysis are not reported. The "saturation" point is stated without a clear definition (e.g., percentage of plasmid converted).
+  - **Why it matters** Reproducibility of the method depends on clear, quantitative characterization of the D-loop formation step. Without error bars and replicate numbers, the robustness of the yield is unclear.
+  - **Resolution test** Provide full titration curves with at least three independent replicates, error bars, and a defined metric for D-loop yield (e.g., percentage of input plasmid converted). Include a representative gel image.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The method obviates the need for subsequent manipulation of surface tethered DNA"
+  - **Evidence pointer** Results, Figure 3; Materials and Methods (flow-cell fabrication, DNA tethering)
+  - **Concern** The method still requires flow to extend DNA molecules for imaging (as shown in Figure 3B). The claim of "obviating subsequent manipulation" is therefore somewhat overstated; while no force-spectroscopy tools are needed, microfluidic flow is still a form of manipulation. The distinction from existing methods (e.g., magnetic tweezers) is valid, but the phrasing should be clarified.
+  - **Why it matters** The claim is central to the method's perceived advantage. Overstating it could mislead potential users about the experimental requirements.
+  - **Resolution test** Revise the claim to specify that no in situ torsional manipulation is required, while acknowledging that flow is used for extension. Alternatively, demonstrate anchoring and imaging without flow (e.g., in a quiescent chamber).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Materials and Methods (oligonucleotide sequences)
+  - **Evidence pointer** Materials and Methods (D-loop assays)
+  - **Issue** The sequences of the 70-mer and 106-mer oligonucleotides are not provided in the text, only described. This is a critical omission for reproducibility.
+  - **Required correction** Provide full sequences, including the positions of the biotin modification and the 5′-phosphate, either in the main text or as supplementary material.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Figure 3
+  - **Evidence pointer** Results (Figure 3)
+  - **Issue** The figure legend is not provided, and the description of the imaging data is brief. The distinction between "supercoiled circular" and "linearized" molecules is based on length measurements, but the criteria for classification (e.g., threshold length) are not stated.
+  - **Required correction** Provide a full figure legend with experimental details, and state the criteria used to classify molecules as circular versus linear.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and Methods (flow-cell fabrication)
+  - **Evidence pointer** Materials and Methods (flow-cell fabrication and coverslip functionalisation)
+  - **Issue** The coverslip functionalization protocol is described, but the density of biotin-binding sites and the efficiency of streptavidin coupling are not quantified. This could affect reproducibility across labs.
+  - **Required correction** Include a characterization step (e.g., fluorescent streptavidin binding assay) or reference a standard protocol with expected surface densities.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion (supercoiling calculations)
+  - **Evidence pointer** Discussion
+  - **Issue** The calculation of ΔLk = 6.6 for D-loop formation is presented without derivation or citation. The assumptions (e.g., length of the D-loop, helical repeat) are not stated.
+  - **Required correction** Provide the calculation details or a citation, and state the assumptions used.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (topological closure not directly demonstrated), R1-M2 (supercoiling retention not verified), R1-M3 (D-loop yield quantification incomplete)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The method is a novel combination of known techniques (RecA-mediated strand exchange, D-loop formation, biotin-streptavidin anchoring) applied to a specific problem (immobilizing supercoiled plasmids). The concept of using a circularized complement-stabilized D-loop as a topological anchor is not previously described, to my knowledge. This is a moderate degree of originality.  
+  - **Scientific importance** The ability to study protein-DNA interactions on supercoiled templates at the single-molecule level is of significant interest to the DNA replication, transcription, and repair communities. If fully validated, the method could enable new experiments. However, the importance is somewhat incremental, as existing methods (e.g., magnetic tweezers) already allow such studies, albeit with more complex instrumentation.  
+  - **Interdisciplinary readership** The method is primarily of interest to biophysicists and molecular biologists. The potential application to SPR and other ensemble methods broadens the appeal somewhat, but the readership is likely to be specialized.  
+  - **Technical soundness** The core technical claims are not fully supported by the evidence provided. The lack of direct topological characterization and supercoiling verification is a significant gap. The D-loop yield data are under-reported.  
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, with clear explanations of the rationale and the method's advantages. The abstract is concise and understandable. However, some technical details (e.g., supercoiling calculations) may be challenging for nonspecialists without additional context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The method is potentially valuable, but the current evidence does not fully establish the central claims of topological closure, supercoiling retention, and stability. Direct experimental validation of these points, along with more complete quantification, is required before the method can be considered reliable for the intended applications.
+
+## Risk / unsupported claims
+- Topological closure of the circularized D-loop is inferred from heat stability but not directly demonstrated.
+- Retention of supercoiling in tethered plasmids is calculated but not experimentally verified.
+- Stability under microfluidic flow is shown qualitatively but not quantified.
+- Accessibility to DNA-binding proteins is only tested with a restriction enzyme, not a broader range of proteins.
+- The claim that the method "obviates the need for subsequent manipulation" is overstated, as flow is still used for extension.
+- The generalizability of the method to other plasmid sizes and sequences is asserted but not tested.
+- The cost-effectiveness and ease of implementation are claimed but not quantitatively compared to existing methods.

@@ -1,0 +1,257 @@
+{
+  "identity": {
+    "pmid": "41544987",
+    "doi": "10.1016/j.ygeno.2026.111201",
+    "title": "Dbert2_LR: A deep learning-based model for predicting cis-regulatory elements in crops."
+  },
+  "content": {
+    "abstract": "Cis-regulatory elements (CREs) are key determinants of gene expression underlying complex agronomic traits. However, accurately identifying CREs in crops with large and highly repetitive genomes (such as upland cotton) remains extremely challenging. To address this, we developed Dbert2_LR, a novel hybrid deep-learning framework that integrates the pretrained genomic foundation model DNABERT-2 with parallel bidirectional RNN and LSTM networks. This architecture efficiently captures both deep contextual dependencies and local sequence patterns in DNA, enabling high-accuracy classification of promoters, enhancers, and non-regulatory sequences. Systematic evaluations on Arabidopsis thaliana and upland cotton show that Dbert2_LR outperforms multiple benchmark models, achieving macro-averaged F1 scores of 0.890 and 0.637, respectively. More importantly, in-silico saturation mutagenesis (ISM) analysis confirmed that the model's decisions strongly depend on known transcription factor binding motifs such as TATA-box, DOF, and E-box, revealing its biological interpretability and helping overcome the \"black-box\" nature of deep learning. To facilitate broader use, we also developed user-friendly A_cre and C_cre prediction systems. This study provides a powerful new tool for functional annotation of complex crop genomes and lays the foundation for CRE-based molecular breeding design.",
+    "keywords": [
+      "Cis-regulatory elements",
+      "Deep learning",
+      "Interpretability",
+      "Prediction system"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Crops, Agricultural/genetics",
+      "Arabidopsis/genetics",
+      "*Regulatory Sequences, Nucleic Acid",
+      "Gossypium/genetics",
+      "Genome, Plant",
+      "Promoter Regions, Genetic",
+      "Predictive Learning Models",
+      "Long Short Term Memory"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Huan",
+        "Guo, Faxu",
+        "Huang, Longyu",
+        "Wang, Jian",
+        "Zhou, Guomin",
+        "Zhang, Jianhua"
+      ],
+      "short_names": [
+        "Liu H",
+        "Guo F",
+        "Huang L",
+        "Wang J",
+        "Zhou G",
+        "Zhang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Agricultural Information, Chinese Academy of Agricultural Sciences / Key Laboratory of Agricultural Big Data, Ministry of Agriculture and Rural Affairs, Beijing 100081, China; National Nanfan Research Institute, Chinese Academy of Agriculture Science (CAAS), Sanya 572024, China.",
+        "College of Mechanical and Electrical Engineering, Gansu Agricultural University, Lanzhou 730070, China.",
+        "National Nanfan Research Institute, Chinese Academy of Agriculture Science (CAAS), Sanya 572024, China.",
+        "Institute of Agricultural Information, Chinese Academy of Agricultural Sciences / Key Laboratory of Agricultural Big Data, Ministry of Agriculture and Rural Affairs, Beijing 100081, China.",
+        "National Agriculture Science Data Center, Beijing 100081, China; Nanjing Institute of Agricultural Mechanization, Ministry of Agriculture and Rural Affairs, Nanjing 210014, China; Institute of Western Agriculture, Chinese Academy of Agricultural Sciences, Changji 831100, China.",
+        "Institute of Agricultural Information, Chinese Academy of Agricultural Sciences / Key Laboratory of Agricultural Big Data, Ministry of Agriculture and Rural Affairs, Beijing 100081, China; National Nanfan Research Institute, Chinese Academy of Agriculture Science (CAAS), Sanya 572024, China. Electronic address: zhangjianhua@caas.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Huan",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Agricultural Information, Chinese Academy of Agricultural Sciences / Key Laboratory of Agricultural Big Data, Ministry of Agriculture and Rural Affairs, Beijing 100081, China; National Nanfan Research Institute, Chinese Academy of Agriculture Science (CAAS), Sanya 572024, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Faxu",
+        "short_name": "Guo F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Mechanical and Electrical Engineering, Gansu Agricultural University, Lanzhou 730070, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Longyu",
+        "short_name": "Huang L",
+        "identifiers": [],
+        "affiliations": [
+          "National Nanfan Research Institute, Chinese Academy of Agriculture Science (CAAS), Sanya 572024, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jian",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Agricultural Information, Chinese Academy of Agricultural Sciences / Key Laboratory of Agricultural Big Data, Ministry of Agriculture and Rural Affairs, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Guomin",
+        "short_name": "Zhou G",
+        "identifiers": [],
+        "affiliations": [
+          "National Agriculture Science Data Center, Beijing 100081, China; Nanjing Institute of Agricultural Mechanization, Ministry of Agriculture and Rural Affairs, Nanjing 210014, China; Institute of Western Agriculture, Chinese Academy of Agricultural Sciences, Changji 831100, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jianhua",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Agricultural Information, Chinese Academy of Agricultural Sciences / Key Laboratory of Agricultural Big Data, Ministry of Agriculture and Rural Affairs, Beijing 100081, China; National Nanfan Research Institute, Chinese Academy of Agriculture Science (CAAS), Sanya 572024, China. Electronic address: zhangjianhua@caas.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genomics"
+    ],
+    "journal_abbrev": [
+      "Genomics"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/17 00:36",
+    "fetched_at": "2026-10-05 04:44:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41544987",
+      "25303887",
+      "41429964",
+      "24459896",
+      "29855387",
+      "40065399",
+      "40382355",
+      "36192696",
+      "41024142",
+      "41554183",
+      "41514301",
+      "25442502",
+      "39690739",
+      "31541440",
+      "41518523",
+      "39904740",
+      "24204023",
+      "41922965",
+      "41832145",
+      "39131276",
+      "17346352",
+      "38664394",
+      "17291162",
+      "42333573",
+      "41920894",
+      "16412085",
+      "39696434",
+      "41888146",
+      "40025784",
+      "40994438",
+      "28158264",
+      "41634097",
+      "42003104",
+      "19357200",
+      "41576119",
+      "20222994",
+      "40983924",
+      "41981876",
+      "31311821",
+      "17137509",
+      "42413033",
+      "40598008",
+      "38187729",
+      "26474639",
+      "40874866",
+      "41937163",
+      "39232709",
+      "22168340",
+      "41285795",
+      "18694893",
+      "41693567",
+      "39199333",
+      "39284975",
+      "35258588",
+      "36222139",
+      "41762162",
+      "26499213",
+      "21171996",
+      "22744985",
+      "21829493",
+      "24205361",
+      "41267404",
+      "15733318",
+      "12820902",
+      "35435921",
+      "33407131",
+      "41034712",
+      "26876195",
+      "38859587",
+      "17672917",
+      "42069934",
+      "42152569",
+      "23530833",
+      "22369687",
+      "12954097",
+      "42140663",
+      "41194493",
+      "42123519",
+      "39090688",
+      "42236716",
+      "34491989",
+      "41120679",
+      "21036669",
+      "28119334",
+      "41010053",
+      "22915576",
+      "41595447",
+      "41865039",
+      "26799292",
+      "34898596",
+      "31177403",
+      "40140332",
+      "39133828",
+      "34149757",
+      "41708941",
+      "40930401",
+      "41801512",
+      "38889146",
+      "24888606",
+      "31776348"
+    ],
+    "review": [
+      "41544987",
+      "41429964",
+      "41554183",
+      "41922965",
+      "42333573",
+      "40994438",
+      "39199333",
+      "26499213",
+      "26876195"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0888-7543(26)00009-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

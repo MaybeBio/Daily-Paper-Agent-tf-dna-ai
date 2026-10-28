@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided by the user. No figures, tables, or supplementary material were included in the submission.
+- **Assessment boundary** The review is limited to the content of the provided manuscript text. Claims, methods, and results are assessed based on what is explicitly stated. Figures, tables, and supplementary information referenced in the text were not available for direct inspection.
+- **Shared manuscript claim summary** The authors propose that Raman bands in the 1400–1500 cm⁻¹ region of linear polyethylenimine (PEI) and its low-molecular-weight model compounds (NEPA, DETA, TEPA, PEHA) arise from vibrations with significant CH₂ scissoring and NH bending character. They further claim these bands are sensitive to local dielectric environment and hydrogen bonding, and use them as markers to show that PEI binds single-stranded DNA (ssDNA) primarily via electrostatic interactions with the phosphate backbone, inducing ssDNA condensation. Molecular dynamics (MD) simulations are presented as corroborating evidence.
+- **Visible evidence base** The manuscript text includes descriptions of Raman spectra, DFT calculations, solvent-dependent cross-section measurements, PEI-ssDNA binding experiments, and MD simulations. Specific numerical data, spectra, and simulation outputs are referenced as figures and tables but were not provided.
+- **Missing materials affecting confidence** Figures 1–6, Tables 1–2, Tables S1–S5, Figures S1–S8, and all associated numerical data were not included. Experimental details for cross-section measurements and MD simulation parameters are partially described but not fully verifiable without the supplementary information.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic and potentially valuable approach to using Raman spectroscopy for probing PEI–nucleic acid interactions. The idea of using polymer-centered vibrational markers rather than nucleic acid markers is a useful conceptual contribution. However, the strength of the conclusions depends heavily on quantitative cross-section analyses and spectral assignments that cannot be fully evaluated from the text alone. The MD simulations are described at a level that supports qualitative agreement but not rigorous validation. The work is likely of interest to the gene delivery and biophysical spectroscopy communities, but the current evidence base is insufficient to fully establish the central claims.
+- **Who would be interested in the results, and why** Researchers in gene delivery and polymer-based nucleic acid packaging, particularly those studying polyethylenimine and related cationic polymers. Also of interest to spectroscopists working on Raman-based biomolecular interaction analysis, and computational chemists studying polymer–nucleic acid binding. The proposed spectral markers could be adopted by others studying polyamine–DNA interactions.
+- **Major strengths** The study addresses a gap in the literature by focusing on polymer-centered spectral changes rather than only nucleic acid signals. The use of multiple model compounds (NEPA, DETA, TEPA, PEHA) to build a systematic understanding of PEI spectra is a logical and thorough approach. The combination of Raman spectroscopy with DFT calculations and MD simulations provides a multi-pronged strategy. The demonstration that PEI spectra can be modeled as a sum of internal and terminal monomer contributions is a useful simplification with practical implications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of spectral assignments
+  - **Claim pointer** The authors claim that the intense Raman bands in the 1400–1500 cm⁻¹ region derive from vibrations with significant CH₂ scissoring and NH bending character, and that these bands are sensitive to local dielectric environment and hydrogen bonding.
+  - **Evidence pointer** Results and Discussion, "Raman spectra of low molecular weight PEIs" and "Raman spectra of NEPA"; Tables 1 and S1–S4; Figures 3 and 4
+  - **Concern** The assignment of the 1400–1500 cm⁻¹ bands to CH₂ scissoring and NH bending is based on DFT calculations, but the level of theory, basis set, scaling factor, and solvent model are only briefly mentioned. The agreement between calculated and experimental spectra is stated but not shown quantitatively. The claim that these bands are sensitive to both dielectric environment and hydrogen bonding is based on cross-section measurements in three solvents, but the analysis assumes the validity of eq. 3 without fully addressing potential confounding factors such as specific solvent–solute interactions beyond hydrogen bonding, or changes in molecular conformation across solvents.
+  - **Why it matters** The entire application of these bands as markers for PEI–ssDNA binding rests on the reliability of the vibrational assignments and the interpretation of intensity changes. If the assignments are incorrect or the intensity changes are due to other factors, the central conclusions would be undermined.
+  - **Resolution test** Provide a detailed comparison of calculated and experimental spectra, including a table of calculated and observed frequencies with assignments. Show that the intensity changes in different solvents are reproducible and that the cross-section ratios are robust to reasonable variations in the correction factor. Consider additional control experiments, such as measurements in solvents with similar dielectric constants but different hydrogen-bonding capabilities.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Sufficiency of evidence for binding mechanism
+  - **Claim pointer** The authors claim that PEI primarily binds ssDNA via electrostatic interactions with the phosphate backbone, which induces condensation of the ssDNA, and that MD simulations confirm this finding.
+  - **Evidence pointer** Results and Discussion, "PEI-DNA Binding Interactions"; Figures 5 and 6; Figure S8
+  - **Concern** The Raman evidence for binding is based on intensity changes in the 1400–1500 cm⁻¹ region and a downshift of the PO₂⁻ stretching mode. However, the difference spectrum (Figure 5d) shows broad, poorly resolved features, and the assignment of the 1460 cm⁻¹ negative feature to PEI CH₂ scissoring is not definitively established. The MD simulations are described qualitatively, with no quantitative metrics such as binding free energies, contact lifetimes, or comparison of multiple force fields. The claim that the simulations "confirm" the Raman interpretation is overstated given the level of detail provided.
+  - **Why it matters** The binding mechanism is the central biological claim of the paper. If the evidence is not conclusive, the broader implications for gene delivery applications are weakened.
+  - **Resolution test** Provide a more detailed analysis of the difference spectrum, including fitting of individual bands and assignment of the 1460 cm⁻¹ feature. Present quantitative MD results, such as radial distribution functions, binding free energies, or time-averaged contact numbers, and discuss the sensitivity of the results to simulation parameters. Consider additional experimental controls, such as varying ionic strength to modulate electrostatic interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and completeness of methods
+  - **Claim pointer** The authors state that Raman spectra were measured using a home-built spectrometer and that spectral processing and fitting were performed using home-written MATLAB scripts, with scripts provided in the SI.
+  - **Evidence pointer** Experimental Methods, "Raman Spectroscopy" and "Spectral Processing and fitting"
+  - **Concern** The description of the Raman spectrometer is minimal. Key parameters such as laser wavelength stability, spectral calibration procedure, polarization effects, and temperature control are not described. The spectral fitting procedure is not detailed, including the functional form used, the number of peaks fitted, and the criteria for determining the number of peaks. The use of acetonitrile as an internal standard is mentioned, but the normalization procedure is not fully described.
+  - **Why it matters** Reproducibility is a core requirement for a quantitative spectroscopic study. Without sufficient methodological detail, other laboratories cannot replicate the measurements or assess the reliability of the cross-section values.
+  - **Resolution test** Expand the methods section to include full details of the spectrometer setup, calibration, and data processing. Provide a step-by-step description of the fitting procedure, including initial guesses, constraints, and error analysis. Include representative raw and fitted spectra in the SI.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Introduction, paragraph 2
+  - **Evidence pointer** "Unfortunately, most of what is known about the interactions that stabilize polyplexes stems from structural data on the nucleic acid cargo and not the polymers."
+  - **Issue** The sentence is slightly awkward and could be rephrased for clarity.
+  - **Required correction** Consider revising to: "Unfortunately, most of what is known about the interactions that stabilize polyplexes is derived from structural data on the nucleic acid cargo, rather than on the polymers themselves."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of figure captions
+  - **Affected element** Figures 1–6
+  - **Evidence pointer** Figure captions were not provided in the manuscript text.
+  - **Issue** The text refers to figures extensively, but the captions are not included in the provided material, making it difficult to assess the content of each figure.
+  - **Required correction** Ensure that all figure captions are complete and self-explanatory, including definitions of all symbols and abbreviations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency of terminology
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** "polyethylenimine" vs. "polyethyleneimine" in the title
+  - **Issue** The title uses "polyethyleneimine" while the abstract and text use "polyethylenimine." This inconsistency should be resolved.
+  - **Required correction** Use a single spelling throughout the manuscript, preferably the one used in the abstract and text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Cross-section measurements, Table 2
+  - **Evidence pointer** Table 2 was not provided, but the text reports cross-section values and ratios.
+  - **Issue** The text reports uncertainties in the cross-section ratios but does not describe how many replicate measurements were performed or how the uncertainties were propagated.
+  - **Required correction** Add a description of the number of replicates and the method of error propagation in the methods section or SI.
+- **Technical failings that need to be addressed before the case is established** The spectral assignments and the interpretation of intensity changes as reporting on dielectric and hydrogen-bonding effects need to be supported by more detailed data and analysis. The MD simulations need to be presented with quantitative results to substantiate the claim of confirmation. The methods section needs to be expanded to allow reproducibility.
+- **Assessment against Nature-style criteria** Originality: The approach of using polymer-centered Raman markers for PEI–DNA binding is a novel contribution, though it builds on established spectroscopic methods. Scientific importance: The work addresses a relevant problem in gene delivery, but the immediate impact is moderate, as the findings are primarily methodological. Interdisciplinary readership: The work bridges spectroscopy, polymer chemistry, and nucleic acid biophysics, and would appeal to a specialized interdisciplinary audience. Technical soundness: The technical approach is reasonable, but the evidence presented is insufficient to fully validate the central claims. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with Raman spectroscopy and MD simulations.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript has merit and addresses a useful gap, but the current evidence base is insufficient to fully establish the central claims. The authors should provide additional data and analysis to strengthen the spectral assignments, the interpretation of intensity changes, and the MD simulation results.
+
+## Risk / unsupported claims
+- The claim that the 1400–1500 cm⁻¹ Raman bands of PEI are sensitive to both dielectric environment and hydrogen bonding is not fully supported without detailed cross-section data and control experiments.
+- The claim that MD simulations "confirm" the Raman-based interpretation of binding is not supported by the level of detail provided; the simulations are described qualitatively.
+- The claim that the PEHA–ssDNA spectrum cannot be modeled as a linear combination of the individual spectra is stated but not demonstrated with quantitative fitting results.
+- The assignment of the negative feature at 1460 cm⁻¹ in the difference spectrum to PEI CH₂ scissoring modes is plausible but not definitively established.
+- The statement that the internal monomers of PEHA and TEPA adopt similar conformations to high-molecular-weight PEI is based on spectral similarity but is not quantitatively verified.

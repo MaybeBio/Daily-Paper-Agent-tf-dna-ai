@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "41403939",
+    "doi": "10.3389/fimmu.2025.1709256",
+    "title": "Altered lipid profiles in the prefrontal cortex are associated with neuroinflammation after severe burn injury."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Severe burn injuries can cause long-term cognitive impairments, potentially driven by lipid-mediated neuroinflammation in the central nervous system (CNS). The disruption of lipid homeostasis may contribute to neuroinflammatory responses, exacerbating neuronal damage. This study investigates whether acipimox, an anti-lipolytic agent, modulates lipid accumulation and neuroinflammation in the prefrontal cortex following severe burns. METHODS: Sprague Dawley rats were randomized into four groups: sham vehicle, sham acipimox, burn vehicle, and burn acipimox. A scald injury covering 40-60% of total body surface area was induced, and rats were treated with acipimox (50 mg/kg/day, intraperitoneally) or vehicle for seven days. Lipidomic analysis assessed alterations in lipid profiles, while machine learning (XGBoost) identified key lipid drivers of burn-induced neuroinflammation. Additionally, mRNA expression of inflammatory markers, including interleukin-1beta (IL-1beta), nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kappaB), and toll-like receptor 4 (TLR4), was quantified to evaluate neuroinflammatory responses. Cytokine-lipid correlations were also examined using Spearman analysis. RESULTS: Lipidomic analysis identified significant alterations in a subset of the 21 lipid classes analyzed, particularly long-chain and very-long-chain fatty acids, including lysophosphatidylethanolamines, lysophosphatidylcholines, phosphatidylglycerols, phosphatidylethanolamines, and triacylglycerols (p < 0.05). Machine learning (XGBoost) identified these lipids as significantly modulated with burn injury (AUC > 0.80). Acipimox treatment reduced lipid accumulation, restoring levels to sham values. Furthermore, mRNA analysis showed group differences in IL-1beta (overall ANOVA p = 0.030), with significant pairwise difference observed for burn-vehicle vs sham-acipimox. Acipimox also modulated NF-kappaB and TLR4 expression, indicating attenuation of inflammatory signaling. IL-1beta and LPL positively correlated with lipid classes elevated by burn and reversed by acipimox, while IL-6, TNF-alpha, NF-kappaB, and TLR4 showed predominantly negative associations. DISCUSSION: These findings suggest that severe burns induce significant lipid dysregulation in the CNS, contributing to neuroinflammation and potential cognitive impairment. By targeting lipolysis, acipimox mitigates lipid accumulation, suppresses inflammatory pathways, and normalizes lipid levels, highlighting a potential therapeutic mechanism. CONCLUSION: This study establishes a mechanistic link between elevated lipolysis and CNS inflammation following severe burns. Acipimox effectively modulates lipid profiles and reduces neuroinflammation, underscoring its potential for managing burn-induced neurological complications. Further studies are needed to validate these findings and explore clinical applications.",
+    "keywords": [
+      "acipimox",
+      "burn injury",
+      "cytokines",
+      "lipidomics",
+      "lipolysis",
+      "machine learning",
+      "neuroinflammation",
+      "prefrontal cortex"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Burns/metabolism/complications/drug therapy",
+      "Rats",
+      "Rats, Sprague-Dawley",
+      "*Neuroinflammatory Diseases/metabolism/etiology",
+      "*Prefrontal Cortex/metabolism/drug effects/pathology/immunology",
+      "Male",
+      "*Lipid Metabolism/drug effects",
+      "Lipidomics",
+      "*Lipids",
+      "Disease Models, Animal",
+      "Toll-Like Receptor 4/metabolism",
+      "Cytokines/metabolism",
+      "NF-kappa B/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "O'Leary, Sean",
+        "Prasai, Anesh",
+        "Robledo, Ariadna",
+        "Thang, Christopher",
+        "Wang, Ye",
+        "Deshpande, Rahul R",
+        "Russell, William K",
+        "Murton, Andrew J",
+        "Wolf, Steven E",
+        "El Ayadi, Amina"
+      ],
+      "short_names": [
+        "O'Leary S",
+        "Prasai A",
+        "Robledo A",
+        "Thang C",
+        "Wang Y",
+        "Deshpande RR",
+        "Russell WK",
+        "Murton AJ",
+        "Wolf SE",
+        "El Ayadi A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, University of Texas Medical Branch, Galveston, TX, United States.",
+        "Department of Surgery, University of Texas Medical Branch, Galveston, TX, United States.",
+        "Department of Medicine, University of Miami, Miami, FL, United States.",
+        "Department of Dermatology, Massachusetts General Hospital, Harvard Medical School, Boston, MA, United States.",
+        "Department of Surgery, University of Texas Medical Branch, Galveston, TX, United States.",
+        "Department of Biochemistry and Molecular Biology, University of Texas Medical Branch, Galveston, TX, United States.",
+        "Department of Biochemistry and Molecular Biology, University of Texas Medical Branch, Galveston, TX, United States.",
+        "Department of Surgery, University of Texas Medical Branch, Galveston, TX, United States.",
+        "Sealy Center on Aging, The University of Texas Medical Branch, Galveston, TX, United States.",
+        "Shriners Children's Texas, Galveston, TX, United States.",
+        "Department of Surgery, University of Texas Medical Branch, Galveston, TX, United States.",
+        "Department of Surgery, University of Texas Medical Branch, Galveston, TX, United States.",
+        "Shriners Children's Texas, Galveston, TX, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "O'Leary, Sean",
+        "short_name": "O'Leary S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, University of Texas Medical Branch, Galveston, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Prasai, Anesh",
+        "short_name": "Prasai A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Texas Medical Branch, Galveston, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Robledo, Ariadna",
+        "short_name": "Robledo A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, University of Miami, Miami, FL, United States."
+        ]
+      },
+      {
+        "full_name": "Thang, Christopher",
+        "short_name": "Thang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Massachusetts General Hospital, Harvard Medical School, Boston, MA, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Ye",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Texas Medical Branch, Galveston, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Deshpande, Rahul R",
+        "short_name": "Deshpande RR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Texas Medical Branch, Galveston, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Russell, William K",
+        "short_name": "Russell WK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Texas Medical Branch, Galveston, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Murton, Andrew J",
+        "short_name": "Murton AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Texas Medical Branch, Galveston, TX, United States.",
+          "Sealy Center on Aging, The University of Texas Medical Branch, Galveston, TX, United States.",
+          "Shriners Children's Texas, Galveston, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Wolf, Steven E",
+        "short_name": "Wolf SE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Texas Medical Branch, Galveston, TX, United States."
+        ]
+      },
+      {
+        "full_name": "El Ayadi, Amina",
+        "short_name": "El Ayadi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, University of Texas Medical Branch, Galveston, TX, United States.",
+          "Shriners Children's Texas, Galveston, TX, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/17 06:40",
+    "fetched_at": "2026-10-01 09:08:23"
+  },
+  "links": {
+    "cites": [
+      "41649613"
+    ],
+    "refs": [
+      "41173857",
+      "39861166",
+      "39507265",
+      "38731864",
+      "38534329",
+      "38074192",
+      "38024184",
+      "37474543",
+      "36865685",
+      "36234950",
+      "36208823",
+      "34830402",
+      "34584502",
+      "34293432",
+      "33790392",
+      "33240266",
+      "32973458",
+      "32796836",
+      "32313529",
+      "31534977",
+      "31425403",
+      "31164141",
+      "31056206",
+      "30542257",
+      "30401568",
+      "30367109",
+      "30308051",
+      "29713142",
+      "29410613",
+      "29377010",
+      "29161523",
+      "29158945",
+      "28990588",
+      "28534174",
+      "28298525",
+      "27982130",
+      "27609857",
+      "26990767",
+      "26586436",
+      "26244931",
+      "26182828",
+      "26048578",
+      "25495224",
+      "24553556",
+      "23915189",
+      "22486454",
+      "21789167",
+      "20706656",
+      "19095356",
+      "18580216",
+      "15370071",
+      "15183630",
+      "10752752",
+      "10696148",
+      "9247081",
+      "7986160",
+      "3606248",
+      "1511566"
+    ],
+    "similar": [
+      "41403939",
+      "33238688",
+      "40701120",
+      "36243579",
+      "36601662",
+      "15774288",
+      "26091790",
+      "30293367",
+      "36872241",
+      "39245241",
+      "23209806",
+      "40392906",
+      "40449268",
+      "28738820",
+      "40915437",
+      "37562566",
+      "38459276",
+      "34650664",
+      "39207074",
+      "38493721",
+      "28648038",
+      "40237256",
+      "38184025",
+      "30060489",
+      "40274650",
+      "30590319",
+      "11265018",
+      "27590301",
+      "39311785",
+      "18404077",
+      "34743981",
+      "38114218",
+      "22572938",
+      "28835068",
+      "33962830",
+      "25440843",
+      "41261295",
+      "28825114",
+      "40924979",
+      "37141577",
+      "17585043",
+      "34196587",
+      "36870460",
+      "40279088",
+      "38527567",
+      "34517275",
+      "35837771",
+      "41265260",
+      "30827308",
+      "28648042",
+      "41248567",
+      "33639054",
+      "39122228",
+      "15256371",
+      "38552431",
+      "41419172",
+      "17431085",
+      "40652178",
+      "18461018",
+      "38183122",
+      "38365106",
+      "29678169",
+      "37770901",
+      "24621048",
+      "39591495",
+      "37092189",
+      "36709599",
+      "41273630",
+      "35131015",
+      "38798254",
+      "40876570",
+      "40235455",
+      "12095132",
+      "24464748",
+      "25876634",
+      "34903409",
+      "30953818",
+      "25906757",
+      "35346242",
+      "39925007",
+      "39094400",
+      "36872850",
+      "40563086",
+      "34000276",
+      "40453075",
+      "11954829",
+      "39580135",
+      "33628116",
+      "29136779",
+      "15842901",
+      "25839444",
+      "19166837",
+      "38867628",
+      "38181931",
+      "40836407",
+      "29374923",
+      "41109630",
+      "31981962",
+      "29973026",
+      "40043852"
+    ],
+    "review": [
+      "41403939"
+    ],
+    "pmc": [
+      "12702713"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/burns.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Burns"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41403939/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1709256",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

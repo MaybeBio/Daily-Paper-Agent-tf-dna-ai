@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "41752517",
+    "doi": "10.3390/molecules31040739",
+    "title": "GenReP: An Ensemble Model for Predicting TP53 in Response to Pharmaceutical Compounds."
+  },
+  "content": {
+    "abstract": "TP53 is a tumor-suppressor gene involved in regulating apoptosis, DNA repair, and genomic stability. Mutations in TP53 are implicated in approximately half of all detected cancers, including breast, lung, colorectal, and ovarian cancers, making it a significant target for therapeutic interventions. Many pharmaceutical drugs aim to restore TP53 function, and there is a need for predictive tools to assess how compounds may affect TP53 expression. In this study, we propose a new ensemble machine-learning model to predict the direction of TP53 relative gene expression in response to pharmaceutical compounds. Our model utilizes molecular fingerprints, descriptors, and scaffold-based features extracted from SMILES representations of compounds concatenated into a single feature vector. Trained using our newly generated benchmark dataset based on the Connectivity Map (CMap) database and addressing class imbalance with the Synthetic Minority Over-sampling Technique (SMOTE), our model achieves 62.9%, 93.9%, 40.3%, and 0.39 in terms of accuracy, sensitivity, specificity, and Matthews Correlation Coefficient (MCC), respectively. As the first-of-its-kind TP53 gene regulation prediction, our study serves as a convincing proof-of-concept that paves the way for future investigation. GenReP as a stand-alone predictor, its source code, and our newly generated benchmark dataset are publicly available.",
+    "keywords": [
+      "Connectivity Map",
+      "TP53",
+      "ensemble classifier",
+      "feature extraction",
+      "gene expression"
+    ],
+    "mesh_terms": [
+      "*Tumor Suppressor Protein p53/genetics/metabolism",
+      "Humans",
+      "Prediction Algorithms",
+      "Ensemble Learning",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Spadaro, Austin",
+        "Sharma, Alok",
+        "Dehzangi, Iman"
+      ],
+      "short_names": [
+        "Spadaro A",
+        "Sharma A",
+        "Dehzangi I"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7668-3501"
+      ],
+      "affiliations": [
+        "Center for Computational and Integrative Biology, Rutgers University, Camden, NJ 08102, USA.",
+        "Institute for Integrated and Intelligent Systems, Griffith University, Brisbane, QLD 4111, Australia.",
+        "College of Informatics, Korea University, Seoul 02841, Republic of Korea.",
+        "Laboratory for Medical Science Mathematics, RIKEN Center for Integrative Medical Sciences, Yokohama 230-0045, Japan.",
+        "Center for Computational and Integrative Biology, Rutgers University, Camden, NJ 08102, USA.",
+        "Department of Computer Science, Rutgers University, Camden, NJ 08102, USA.",
+        "Rutgers Cancer Institute, Rutgers University, New Brunswick, NJ 08901, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Spadaro, Austin",
+        "short_name": "Spadaro A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational and Integrative Biology, Rutgers University, Camden, NJ 08102, USA."
+        ]
+      },
+      {
+        "full_name": "Sharma, Alok",
+        "short_name": "Sharma A",
+        "identifiers": [
+          "0000-0002-7668-3501"
+        ],
+        "affiliations": [
+          "Institute for Integrated and Intelligent Systems, Griffith University, Brisbane, QLD 4111, Australia.",
+          "College of Informatics, Korea University, Seoul 02841, Republic of Korea.",
+          "Laboratory for Medical Science Mathematics, RIKEN Center for Integrative Medical Sciences, Yokohama 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Dehzangi, Iman",
+        "short_name": "Dehzangi I",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational and Integrative Biology, Rutgers University, Camden, NJ 08102, USA.",
+          "Department of Computer Science, Rutgers University, Camden, NJ 08102, USA.",
+          "Rutgers Cancer Institute, Rutgers University, New Brunswick, NJ 08901, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2026 Feb 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/27 06:31",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38700613",
+      "38604414",
+      "37384816",
+      "37301933",
+      "35121854",
+      "33431010",
+      "33096023",
+      "32722796",
+      "31898477",
+      "29366762",
+      "29195078",
+      "28001064",
+      "27483067",
+      "27444372",
+      "26301843",
+      "26213851",
+      "25961525",
+      "24981612",
+      "24387333",
+      "24351051",
+      "24091391",
+      "20679242",
+      "20516128",
+      "20494116",
+      "20182602",
+      "19183001",
+      "17283280",
+      "17008526",
+      "16489364",
+      "16101415",
+      "12935332",
+      "12653499",
+      "12036371",
+      "11032954",
+      "10065152",
+      "9843981",
+      "8709122",
+      "7063747"
+    ],
+    "similar": [
+      "41752517",
+      "36990028",
+      "31425802",
+      "40444411",
+      "38048895",
+      "32003548",
+      "38790205",
+      "15583825",
+      "42184786",
+      "40282384",
+      "42475469",
+      "41154264",
+      "37157217",
+      "41525224",
+      "34731411",
+      "41530306",
+      "41787364",
+      "42374910",
+      "19336573",
+      "10786679",
+      "34325986",
+      "21118481",
+      "40121301",
+      "33267753",
+      "32927274",
+      "42394746",
+      "40333905",
+      "41688057",
+      "42241216",
+      "41714171",
+      "40019487",
+      "40461636",
+      "32484602",
+      "40474131",
+      "41452825",
+      "35587730",
+      "38831346",
+      "41388366",
+      "41413508",
+      "42209554",
+      "41456007",
+      "31177126",
+      "41039229",
+      "17388661",
+      "20504346",
+      "31856726",
+      "40450249",
+      "40133201",
+      "36284327",
+      "40346110",
+      "42050907",
+      "22275381",
+      "35450798",
+      "41615842",
+      "39319553",
+      "40817318",
+      "42286075",
+      "41724212",
+      "41002558",
+      "42153320",
+      "42215649",
+      "32629073",
+      "42044068",
+      "31216622",
+      "39752849",
+      "39426757",
+      "37530887",
+      "41310253",
+      "39682541",
+      "41634608",
+      "41898804",
+      "41734599",
+      "40309751",
+      "24374933",
+      "40703379",
+      "39031414",
+      "33879103",
+      "37803253",
+      "41681695",
+      "35771720",
+      "40486872",
+      "42485907",
+      "28397142",
+      "41946801",
+      "41464836",
+      "41901583",
+      "41023958",
+      "38140698",
+      "24074787",
+      "39562670",
+      "26086041",
+      "27630122",
+      "31366730",
+      "33372637",
+      "29168598",
+      "41527527",
+      "25437231",
+      "38082253",
+      "41957161",
+      "42520287"
+    ],
+    "review": [
+      "41752517",
+      "22275381"
+    ],
+    "pmc": [
+      "12943182"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules31040739",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41752517/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

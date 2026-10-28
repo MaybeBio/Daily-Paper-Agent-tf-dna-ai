@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34415301",
+  "title": "Improved datasets and evaluation methods for the automatic prediction of DNA-binding proteins.",
+  "authors": "Zaitzeff, Alexander; Leiby, Nicholas; Motta, Francis C; Haase, Steven B; Singer, Jedediah M",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2021-08-21",
+  "window": {
+    "start": "2021-08-16",
+    "end": "2021-08-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文改进DNA结合蛋白预测的数据集与评估方法，使用蛋白语言模型特征和梯度提升模型，虽非TF-DNA特异性结合机制研究，但方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "MOTIVATION: Accurate automatic annotation of protein function relies on both innovative models and robust datasets. Due to their importance in biological processes, the identification of DNA-binding proteins directly from protein sequence has been the focus of many studies. However, the datasets used to train and evaluate these methods have suffered from substantial flaws. We describe some of the weaknesses of the datasets used in previous DNA-binding protein literature and provide several new datasets addressing these problems. We suggest new evaluative benchmark tasks that more realistically assess real-world performance for protein annotation models. We propose a simple new model for the prediction of DNA-binding proteins and compare its performance on the improved datasets to two previously published models. In addition, we provide extensive tests showing how the best models predict across taxa. RESULTS: Our new gradient boosting model, which uses features derived from a published protein language model, outperforms the earlier models. Perhaps surprisingly, so does a baseline nearest neighbor model using BLAST percent identity. We evaluate the sensitivity of these models to perturbations of DNA-binding regions and control regions of protein sequences. The successful data-driven models learn to focus on DNA-binding regions. When predicting across taxa, the best models are highly accurate across species in the same kingdom and can provide some information when predicting across kingdoms. AVAILABILITY AND IMPLEMENTATION: The data and results for this article can be found at https://doi.org/10.5281/zenodo.5153906. The code for this article can be found at https://doi.org/10.5281/zenodo.5153683. The code, data and results can also be found at https://github.com/AZaitzeff/tools_for_dna_binding_proteins.",
+  "abstract_zh": "动机：蛋白质功能的准确自动注释依赖于创新模型和稳健的数据集。由于DNA结合蛋白在生物过程中的重要性，直接从蛋白质序列中识别这些蛋白已成为许多研究的焦点。然而，用于训练和评估这些方法的数据集存在重大缺陷。我们描述了先前DNA结合蛋白文献中数据集的一些弱点，并提供了几个解决这些问题的新数据集。我们建议新的评估基准任务，以更真实地评估蛋白质注释模型在实际应用中的性能。我们提出一个用于预测DNA结合蛋白的简单新模型，并在改进的数据集上将其性能与两个先前发表的模型进行比较。此外，我们提供了广泛测试，展示最佳模型如何跨分类群进行预测。结果：我们的新梯度提升模型，利用来自已发表蛋白质语言模型的特征，优于早期模型。也许令人惊讶的是，一个使用BLAST百分比同一性的基线最近邻模型也表现更优。我们评估了这些模型对DNA结合区域和蛋白质序列控制区域扰动的敏感性。成功的数据驱动模型学会聚焦于DNA结合区域。在跨分类群预测时，最佳模型在同一界内的物种间高度准确，并在跨界预测时能提供一些信息。可用性和实现：本文的数据和结果可在https://doi.org/10.5281/zenodo.5153906找到。本文的代码可在https://doi.org/10.5281/zenodo.5153683找到。代码、数据和结果也可在https://github.com/AZaitzeff/tools_for_dna_binding_proteins找到。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34415301/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34415301/",
+  "paper_page_path": "papers/pubmed/34415301/index.html"
+}

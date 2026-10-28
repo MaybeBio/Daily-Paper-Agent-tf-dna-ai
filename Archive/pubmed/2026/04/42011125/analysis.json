@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42011125",
+  "title": "KANBind as a diagnostic probe for DNA-binding protein prediction: A prevalence-calibrated reality check under strict homology control.",
+  "authors": "Wen, Qipeng; Jiang, Shaohua; Zhang, Yiwen",
+  "journal": "Journal of bioinformatics and computational biology",
+  "published_date": "2026-04-21",
+  "window": {
+    "start": "2026-04-20",
+    "end": "2026-04-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用KANBind作为诊断探针，在严格同源控制和真实患病率下评估序列型DNA结合蛋白预测，揭示基准虚高与假阳性问题，虽聚焦DBP预测而非TF-DNA特异性互作机制，但方法学与基准设计对TF-DNA结合位点预测有重要借鉴。",
+  "abstract": "Deep learning reports over 90% DNA-binding protein (DBP) prediction performance on common benchmarks, but these results are usually obtained on balanced test sets and may not translate to proteome-wide scans with extreme class imbalance. Here, we use KANBind as a diagnostic probe to stress-test sequence-based DBP prediction under strict homology control and realistic prevalence. Evaluated on the homology-controlled HBTD benchmark with prevalence-calibrated reporting, KANBind achieves a calibrated precision of 0.0558 at a realistic bacterial prevalence ([Formula: see text]), implying an expected false discovery rate (FDR) of 94.42%. In a proteome-scale scan, this corresponds to approximately 95 false positives per 100 predicted DBPs. Interpretability analysis indicates that predictions are driven mainly by coarse physicochemical cues such as electrostatics, which may be necessary for DNA binding but are insufficient to determine DBP function. Together, these results suggest that apparent benchmark gains can be dominated by homology leakage and evaluation on balanced sets rather than by generalizable functional rules, motivating stress-test benchmarks with strict homology control and realistic negative backgrounds.",
+  "abstract_zh": "深度学习在常见基准上报告了超过90%的DNA结合蛋白（DBP）预测性能，但这些结果通常是在平衡测试集上获得的，可能无法推广到具有极端类别不平衡的全蛋白质组扫描中。在此，我们使用KANBind作为诊断探针，在严格同源控制和现实流行率下对基于序列的DBP预测进行压力测试。在同源控制的HBTD基准上，采用流行率校准报告进行评估，KANBind在现实细菌流行率（[公式：见原文]）下实现了0.0558的校准精确度，这意味着预期错误发现率（FDR）为94.42%。在全蛋白质组规模扫描中，这对应于每100个预测DBP中约有95个假阳性。可解释性分析表明，预测主要由粗粒度物理化学线索（如静电作用）驱动，这些线索可能对DNA结合是必要的，但不足以确定DBP功能。综合来看，这些结果表明，表面上的基准提升可能主要由同源泄漏和平衡集评估主导，而非可泛化的功能规则，从而激励采用严格同源控制和现实阴性背景的压力测试基准。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42011125/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42011125/",
+  "paper_page_path": "papers/pubmed/42011125/index.html"
+}

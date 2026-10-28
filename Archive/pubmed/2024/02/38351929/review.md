@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, abstract, references to supplementary material)
+- **Assessment boundary** Scientific content, methodological rigor, claims and their support, presentation quality, and alignment with Nature-style criteria. No assessment of code functionality or supplementary figures beyond what is described in the text.
+- **Shared manuscript claim summary** The authors present a computational pipeline that simulates massively parallel reporter assays (MPRAs) using thermodynamic models of gene expression. They generate synthetic single-cell expression data for several regulatory architectures, compute summary statistics (information footprints and expression shift matrices), and systematically perturb biological and experimental parameters to examine their effects on the ability to infer regulatory architecture. They also extend the framework to non-equilibrium conditions using graph-theoretic methods.
+- **Visible evidence base** Main text figures referenced (Fig 1-15), equations (Eq 1-6, 9-17, 26-27, 29-30, 32-33, 35, 38-42, 44-47), and descriptions of supplementary appendices (S1-S15). No actual figure images, numerical data tables, or code outputs were provided.
+- **Missing materials affecting confidence** Figure images and captions, supplementary appendices (S1-S15), code repository contents, and any quantitative results beyond those stated in the text. Without these, several claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually valuable computational framework for simulating MPRA experiments and testing how experimental design parameters affect the interpretability of summary statistics. The authors address an important gap: the lack of a "theory of the experiment" for MPRA pipelines. The work is clearly motivated, well-structured, and demonstrates thoughtful consideration of multiple regulatory architectures and parameter regimes. However, the manuscript has several significant weaknesses. The central claims about the utility of the pipeline for optimizing experimental design and revealing limits of MPRA interpretation are supported primarily through qualitative descriptions of figures that were not available for review. The analytical derivations are presented in supplementary material that was not provided, making it impossible to verify the correctness of key equations. The treatment of non-equilibrium effects is described as "preliminary" and lacks depth. The discussion of biological implications is somewhat speculative. The manuscript would benefit from more quantitative presentation of results, clearer articulation of what specific new insights the pipeline provides beyond existing knowledge, and a more critical examination of the assumptions underlying the thermodynamic models.
+- **Who would be interested in the results, and why** Researchers in gene regulation, quantitative biology, and genomics who use or interpret MPRA data would find this work relevant. The paper addresses practical questions about experimental design (mutation rate, library size, plasmid vs. genomic context) and data interpretation (information footprints, expression shift matrices) that are directly applicable to experimentalists. The theoretical framework for simulating MPRA pipelines could also interest computational biologists developing inference methods for regulatory genomics. The extension to non-equilibrium models may appeal to theorists working on stochastic gene expression.
+- **Major strengths** 1) Addresses a timely and important problem: the need for quantitative frameworks to interpret high-throughput regulatory genomics data. 2) Provides a systematic exploration of multiple parameters affecting MPRA interpretation, which is valuable for experimental design. 3) The use of experimentally determined energy matrices (Sort-Seq data) grounds the simulations in realistic biology. 4) The extension to non-equilibrium conditions using graph-theoretic methods demonstrates forward-thinking. 5) The writing is generally clear and accessible, with good use of examples (e.g., lac operon, mar operon).
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that their pipeline "reveals important effects of the parameters on MPRA data" and "demonstrates the ability to optimize MPRA experimental designs."
+  - **Evidence pointer** Results sections 1.2-1.3, 2.1-2.4, 3.1-3.3; Figures 4-14 (location not provided)
+  - **Concern** The central claims about parameter effects and design optimization are supported primarily through qualitative descriptions of figures that were not available for review. The text describes trends (e.g., "signal decreases," "signal saturates") without providing quantitative values, effect sizes, or statistical measures. For a computational study where all data is generated in silico, it should be straightforward to present quantitative results (e.g., signal-to-noise ratios as a function of mutation rate, library size, etc.) in tables or numerical form within the text. Without this, the reader cannot assess the magnitude of the claimed effects or the practical significance of the recommendations.
+  - **Why it matters** The paper's primary contribution is claimed to be practical guidance for experimental design. Without quantitative results, the guidance cannot be evaluated or applied. The claims as stated are too vague to be actionable.
+  - **Resolution test** Provide quantitative summaries of key results, such as: (a) signal-to-noise ratio as a function of mutation rate for different regulatory architectures; (b) minimum library size required to achieve a given signal-to-noise threshold; (c) the specific range of Δεrd values over which repressor binding is detectable; (d) quantitative comparison of footprint quality across different regulatory logics. These could be presented as tables or numerical values in the text or figure captions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that their thermodynamic models can be used to "infer the underlying regulatory architecture" from synthetic data, and that the pipeline can "carefully examine the mapping between mutations in binding sites and their corresponding expression profiles."
+  - **Evidence pointer** Section 1.1, Eq 1-6, Figures 1-3 (location not provided)
+  - **Concern** The manuscript does not demonstrate a closed-loop inference procedure. The authors generate synthetic data from known models and then compute summary statistics, but they do not show that these statistics can be used to recover the known regulatory architecture in an automated or quantitative way. The text describes visual inspection of footprints (e.g., "peaks with negative expression shifts near the -10 and -35 positions") but does not present an inference algorithm or quantitative criteria for identifying binding sites from the summary statistics. The claim of "deciphering regulatory architectures" implies a recovery or inference step that is not demonstrated.
+  - **Why it matters** The title and framing of the paper promise a method for deciphering regulatory architecture. If the pipeline only generates synthetic data and computes summary statistics without demonstrating how these statistics lead to architectural inference, the central promise is not fulfilled. The paper would be more accurately framed as a sensitivity analysis of MPRA summary statistics.
+  - **Resolution test** Implement and describe a concrete inference procedure (e.g., thresholding on mutual information, model selection between competing architectures) and demonstrate its accuracy on the synthetic datasets. Report true positive and false positive rates for binding site identification across different parameter regimes. Alternatively, reframe the paper's claims to focus on characterizing summary statistics rather than deciphering architecture.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "all code used in this work and the presented figures are available open source" and that they are "developing an interactive website."
+  - **Evidence pointer** Data availability section (location not provided)
+  - **Concern** While the code availability statement is commendable, the manuscript does not describe the computational methods in sufficient detail for reproduction. Key parameters (e.g., ranges of mutation rates, library sizes, copy numbers, energy values) are mentioned qualitatively but not specified systematically. The stochastic simulation methods (how expression noise is generated, how sampling is performed) are not described. The relationship between the equilibrium thermodynamic models and the "single-cell" expression data is not fully clarified (e.g., how cell-to-cell variability is introduced).
+  - **Why it matters** For a computational paper, reproducibility is essential. Without detailed methods, other groups cannot build on this work or verify the claims. The paper's value as a community resource depends on clear methodological documentation.
+  - **Resolution test** Add a detailed Methods section or supplementary appendix describing: (a) all parameter values and ranges used; (b) the exact procedure for generating synthetic expression data (including noise models); (c) the algorithm for computing mutual information and expression shifts; (d) computational costs and runtime. Provide a table summarizing all default parameters and their biological justification.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their pipeline "will help us to optimize MPRA experimental design with the goal of accurately annotating transcription factor binding sites in regulatory elements, while revealing the limits of MPRA experiments in elucidating complex regulatory architectures."
+  - **Evidence pointer** Discussion section (location not provided)
+  - **Concern** The paper does not clearly articulate what specific, non-obvious insights are gained from this simulation study that could not be anticipated from general considerations. For example, the finding that low mutation rates reduce signal at binding sites is intuitive. The finding that plasmid-based systems may titrate transcription factors is known from the experimental literature. The paper would be strengthened by identifying at least one non-obvious prediction or design principle that emerges from the simulations and that could be tested experimentally.
+  - **Why it matters** For a Nature-style publication, the work needs to demonstrate conceptual advance beyond what is already known or expected. The current framing suggests the pipeline is a useful tool, but does not clearly identify what new biological or methodological understanding is gained.
+  - **Resolution test** Highlight at least one specific, non-obvious finding from the simulations (e.g., a parameter regime where footprint interpretation is systematically misleading, or a design principle that contradicts common practice). Discuss how this finding could be tested experimentally and what the implications would be for existing MPRA studies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract (location not provided)
+  - **Issue** The abstract states that the authors "create tens of thousands of synthetic single-cell gene expression outputs" but does not specify the range of regulatory architectures or parameter regimes explored. The abstract also uses the phrase "theory of the experiment" without defining it clearly.
+  - **Required correction** Briefly specify the scope of architectures and parameters in the abstract, and define "theory of the experiment" (e.g., a quantitative framework that predicts experimental outcomes given design parameters).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 1.1, Eq 1
+  - **Evidence pointer** Eq 1 (location not provided)
+  - **Issue** The equation for pbound is presented without derivation or citation. The notation (e.g., Δεpd, Δεrd) is introduced but the physical meaning of each term could be clearer for non-specialist readers.
+  - **Required correction** Add a brief derivation or citation for Eq 1, and define each symbol in the text immediately following the equation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.3, transcription factor titration
+  - **Evidence pointer** Section 2.3 (location not provided)
+  - **Concern** The discussion of transcription factor titration in plasmid-based systems is interesting but does not consider the role of non-specific binding of transcription factors to the plasmid backbone, which could further reduce the effective free concentration.
+  - **Required correction** Add a brief discussion of non-specific binding to plasmid DNA as a potential additional titration mechanism, or justify why it is neglected.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.3, overlapping binding sites
+  - **Evidence pointer** Section 3.3, Figures 14-15 (location not provided)
+  - **Concern** The description of overlapping binding sites is clear but the distinction between "overlapping" and "adjacent" binding sites could be more explicit. The text mentions "sliding" the repressor along the RNAP binding site but does not specify the step size or the range of overlaps tested.
+  - **Required correction** Specify the exact range of overlaps tested (e.g., 0% to 100% in 10% increments) and clarify the definition of overlap used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 4, non-equilibrium models
+  - **Evidence pointer** Section 4, Figure 15 (location not provided)
+  - **Concern** The non-equilibrium extension is described as "preliminary" and the results are presented briefly. The choice of which edge to break detailed balance on (AP→A) is not justified.
+  - **Required correction** Justify the choice of edge for breaking detailed balance, or state that it is an arbitrary choice for demonstration. Consider discussing whether other choices would lead to qualitatively different results.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence), R1-M2 (demonstrated inference), R1-M3 (methodological detail)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of thermodynamic models to simulate MPRA pipelines is not entirely new, but the systematic exploration of parameter effects and the extension to non-equilibrium conditions provide some novelty. The paper does not introduce fundamentally new theoretical concepts.
+  - **Scientific importance** Moderate. The work addresses a practical need in the MPRA community, but the specific insights gained are not clearly distinguished from what could be anticipated from general reasoning. The potential impact on experimental design is real but not fully demonstrated.
+  - **Interdisciplinary readership** Moderate. The paper bridges theory and experiment in gene regulation, which could interest both quantitative biologists and experimentalists. However, the presentation is somewhat specialized and may not appeal to a broad interdisciplinary audience.
+  - **Technical soundness** The theoretical framework appears sound, but the lack of quantitative results and detailed methods prevents full assessment. The analytical derivations are relegated to supplementary material that was not provided.
+  - **Readability for nonspecialists** The paper is generally well-written and uses clear examples, but assumes familiarity with MPRA terminology and thermodynamic modeling. The abstract and introduction are accessible, but the results sections become increasingly technical.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a potentially useful framework, but the central claims are not quantitatively supported in the visible text, the inference capability implied by the title is not demonstrated, and methodological details are insufficient for reproducibility. The paper could become suitable for publication after substantial revision, including quantitative presentation of results, demonstration of a concrete inference procedure, and expanded methodological detail.
+
+## Risk / unsupported claims
+- The claim that the pipeline can "decipher regulatory architectures" is not supported, as no inference or recovery procedure is demonstrated.
+- The claim that the pipeline "optimizes MPRA experimental design" is not quantitatively supported, as no specific design recommendations with effect sizes are provided.
+- The claim that information footprints are "robust to extrinsic noise" is only qualitatively supported and lacks quantitative thresholds.
+- The claim that the non-equilibrium extension "presents opportunities to explore MPRA datasets" is speculative and not backed by concrete examples of new insights.
+- The claim that the pipeline can be applied to "entire bacterial genomes" is stated as a motivation but not demonstrated or discussed in terms of scalability.
+- The specific numerical values for parameters (e.g., P≈10³, R≈10, Δεrd≈-15 kBT) are stated without citations or justification for their biological relevance.

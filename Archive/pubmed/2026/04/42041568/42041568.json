@@ -1,0 +1,437 @@
+{
+  "identity": {
+    "pmid": "42041568",
+    "doi": "10.3390/cells15080700",
+    "title": "Integrative Computational Approaches to Prostate Cancer with Conditional Reprogramming and AI-Driven Precision Medicine."
+  },
+  "content": {
+    "abstract": "Prostate cancer, particularly metastatic castration-resistant prostate cancer (mCRPC), presents therapeutic challenges rooted in adaptive lineage plasticity and neuroendocrine transdifferentiation. Conventional genome-based models fail to account for the divergent clinical trajectories observed among tumors that share identical driver mutations. This limitation requires reconceptualizing cancer as a dynamic system in which tumor cells can execute context-dependent molecular programs governed by epigenetic and transcriptional network remodeling. This review critically evaluates three convergent technological pillars reshaping prostate cancer research and clinical care. First, conditional reprogramming (CR) enables the rapid generation of patient-derived models that preserve genomic fidelity, intratumoral heterogeneity, and reversible phenotypic plasticity without genetic manipulation. Second, single-cell and spatial multi-omics approaches have clarified the cellular trajectories underlying luminal-to-neuroendocrine transdifferentiation, identifying a therapeutically actionable intermediate state. They have revealed the hierarchical transcription factor network (FOXA2-NKX2-1-p300/CBP) which orchestrates chromatin remodeling during this lethal transition. Third, physics-informed machine learning and digital twin architectures aim to move beyond correlative risk prediction toward mechanistically sound forecasting of tumor evolution, treatment response, and resistance emergence. We address unresolved challenges in prospective clinical validation, spatial heterogeneity capture, regulatory pathways for functional diagnostics, and the imperative for causal, as opposed to associative, inference from perturbational datasets. The integration of these three domains through closed-loop experimental-computational feedback cycles represents a paradigm shift from reactive to anticipatory precision oncology.",
+    "keywords": [
+      "FOXA2-NKX2-1",
+      "conditional reprogramming",
+      "digital twins",
+      "lineage plasticity",
+      "neuroendocrine transdifferentiation",
+      "physics-informed machine learning",
+      "precision oncology",
+      "prostate cancer",
+      "single-cell multi-omics",
+      "spatial transcriptomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Precision Medicine/methods",
+      "Male",
+      "*Prostatic Neoplasms/genetics/pathology/therapy",
+      "*Cellular Reprogramming/genetics",
+      "Machine Learning",
+      "*Artificial Intelligence",
+      "Animals",
+      "*Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fadiel, Ahmed",
+        "Malpani, Punit",
+        "Eichenbaum, Kenneth D",
+        "Naftolin, Frederick",
+        "Hassouneh, Aya",
+        "Chong, Geralyn",
+        "Odunsi, Kunle"
+      ],
+      "short_names": [
+        "Fadiel A",
+        "Malpani P",
+        "Eichenbaum KD",
+        "Naftolin F",
+        "Hassouneh A",
+        "Chong G",
+        "Odunsi K"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-0393-5361",
+        "ORCID: 0000-0001-9634-8295",
+        "ORCID: 0000-0003-4617-4535",
+        "ORCID: 0009-0005-1390-7247"
+      ],
+      "affiliations": [
+        "Computational Oncology Unit, The University of Chicago Comprehensive Cancer Center, Chicago, IL 60637, USA.",
+        "Computational Oncology Unit, The University of Chicago Comprehensive Cancer Center, Chicago, IL 60637, USA.",
+        "Department of Anesthesiology, Oakland University William Beaumont School of Medicine, Royal Oak, MI 48309, USA.",
+        "Department of Anesthesiology, Wayne State University, Detroit, MI 48341, USA.",
+        "e-Bio Corporation, New York, NY 10001, USA.",
+        "Department of Electrical and Computer Engineering, Western Michigan University, 1903 W. Michigan Ave, Kalamazoo, MI 49008, USA.",
+        "Computational Oncology Unit, The University of Chicago Comprehensive Cancer Center, Chicago, IL 60637, USA.",
+        "University of Chicago Medicine Comprehensive Cancer Center, 5481 South Maryland Avenue, MC1140, Chicago, IL 60637, USA.",
+        "Department of Obstetrics and Gynecology, University of Chicago, Chicago, IL 60637, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fadiel, Ahmed",
+        "short_name": "Fadiel A",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Oncology Unit, The University of Chicago Comprehensive Cancer Center, Chicago, IL 60637, USA."
+        ]
+      },
+      {
+        "full_name": "Malpani, Punit",
+        "short_name": "Malpani P",
+        "identifiers": [
+          "0009-0007-0393-5361"
+        ],
+        "affiliations": [
+          "Computational Oncology Unit, The University of Chicago Comprehensive Cancer Center, Chicago, IL 60637, USA."
+        ]
+      },
+      {
+        "full_name": "Eichenbaum, Kenneth D",
+        "short_name": "Eichenbaum KD",
+        "identifiers": [
+          "0000-0001-9634-8295"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology, Oakland University William Beaumont School of Medicine, Royal Oak, MI 48309, USA.",
+          "Department of Anesthesiology, Wayne State University, Detroit, MI 48341, USA."
+        ]
+      },
+      {
+        "full_name": "Naftolin, Frederick",
+        "short_name": "Naftolin F",
+        "identifiers": [],
+        "affiliations": [
+          "e-Bio Corporation, New York, NY 10001, USA."
+        ]
+      },
+      {
+        "full_name": "Hassouneh, Aya",
+        "short_name": "Hassouneh A",
+        "identifiers": [
+          "0000-0003-4617-4535"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, Western Michigan University, 1903 W. Michigan Ave, Kalamazoo, MI 49008, USA."
+        ]
+      },
+      {
+        "full_name": "Chong, Geralyn",
+        "short_name": "Chong G",
+        "identifiers": [
+          "0009-0005-1390-7247"
+        ],
+        "affiliations": [
+          "Computational Oncology Unit, The University of Chicago Comprehensive Cancer Center, Chicago, IL 60637, USA."
+        ]
+      },
+      {
+        "full_name": "Odunsi, Kunle",
+        "short_name": "Odunsi K",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chicago Medicine Comprehensive Cancer Center, 5481 South Maryland Avenue, MC1140, Chicago, IL 60637, USA.",
+          "Department of Obstetrics and Gynecology, University of Chicago, Chicago, IL 60637, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cells"
+    ],
+    "journal_abbrev": [
+      "Cells"
+    ],
+    "pub_date": "2026 Apr 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/27 12:33",
+    "fetched_at": "2026-10-01 19:27:23"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41573270",
+      "41266662",
+      "41114342",
+      "40819002",
+      "40796801",
+      "40730645",
+      "40691407",
+      "40505283",
+      "40442579",
+      "40357238",
+      "40347618",
+      "39707344",
+      "39643184",
+      "39496938",
+      "39470950",
+      "38935882",
+      "38920635",
+      "38641741",
+      "38532133",
+      "38250042",
+      "38230766",
+      "37838656",
+      "37679602",
+      "37507248",
+      "37121942",
+      "36612061",
+      "35981096",
+      "35875103",
+      "35676445",
+      "35058087",
+      "34936871",
+      "34719426",
+      "33785741",
+      "33538338",
+      "33328604",
+      "32963937",
+      "32512818",
+      "32203305",
+      "31804971",
+      "31717887",
+      "31260412",
+      "30332595",
+      "29772101",
+      "28729483",
+      "28059768",
+      "28009986",
+      "23013073",
+      "22189618",
+      "22102361",
+      "20371346",
+      "19487300",
+      "19129921"
+    ],
+    "similar": [
+      "42041568",
+      "42475469",
+      "42675339",
+      "41419150",
+      "41266662",
+      "42366266",
+      "40691407",
+      "42464692",
+      "42123604",
+      "42065059",
+      "42783413",
+      "42488354",
+      "41747370",
+      "42274624",
+      "40347618",
+      "41520911",
+      "35657153",
+      "42480965",
+      "42598790",
+      "41645653",
+      "42456531",
+      "40974488",
+      "42792911",
+      "42704980",
+      "42322793",
+      "42361409",
+      "42509447",
+      "31717887",
+      "40263498",
+      "42747576",
+      "42162504",
+      "41942920",
+      "41044012",
+      "38851846",
+      "36332622",
+      "41734662",
+      "42297231",
+      "42170760",
+      "41096677",
+      "39853587",
+      "42249833",
+      "42435187",
+      "41751160",
+      "41290079",
+      "35909568",
+      "41764551",
+      "42679437",
+      "42391467",
+      "41755349",
+      "42782912",
+      "41596454",
+      "42782779",
+      "42684194",
+      "39677680",
+      "41943684",
+      "42183196",
+      "42271438",
+      "41716413",
+      "42014520",
+      "40654157",
+      "36868394",
+      "42562952",
+      "39435580",
+      "36779846",
+      "41723338",
+      "42096960",
+      "41384688",
+      "41808840",
+      "42500587",
+      "42280469",
+      "39962436",
+      "42209845",
+      "42450251",
+      "39332994",
+      "41992363",
+      "30953518",
+      "42240739",
+      "41324821",
+      "37882463",
+      "41890710",
+      "40517231",
+      "42237704",
+      "41796725",
+      "42516385",
+      "38654072",
+      "41912135",
+      "41314754",
+      "41912303",
+      "42589294",
+      "38600757",
+      "42603101",
+      "41505790",
+      "42526354",
+      "41159730",
+      "41403016",
+      "42576339",
+      "32512818",
+      "42379504",
+      "28005952",
+      "39682746"
+    ],
+    "review": [
+      "42041568",
+      "42675339",
+      "41419150",
+      "41266662",
+      "42366266",
+      "42464692",
+      "42123604",
+      "42065059",
+      "42783413",
+      "42488354",
+      "41747370",
+      "42274624",
+      "40347618",
+      "41520911",
+      "35657153",
+      "42480965",
+      "41645653",
+      "42456531",
+      "40974488",
+      "42704980",
+      "42322793",
+      "42509447",
+      "31717887",
+      "42747576",
+      "42162504",
+      "41942920",
+      "41044012",
+      "41734662",
+      "42297231",
+      "42170760",
+      "41096677",
+      "39853587",
+      "42435187",
+      "41751160",
+      "41290079",
+      "35909568",
+      "42679437",
+      "41755349",
+      "42782912",
+      "41596454",
+      "42782779",
+      "42684194",
+      "41943684",
+      "42183196",
+      "42271438",
+      "42014520",
+      "40654157",
+      "36868394",
+      "42562952",
+      "39435580",
+      "41723338",
+      "42096960",
+      "41384688",
+      "41808840",
+      "42500587",
+      "42280469",
+      "42209845",
+      "42450251",
+      "41992363",
+      "30953518",
+      "42240739",
+      "41324821",
+      "37882463",
+      "41890710",
+      "40517231",
+      "42237704",
+      "41796725",
+      "42516385",
+      "41912135",
+      "41314754",
+      "41912303",
+      "38600757",
+      "42603101",
+      "41505790",
+      "42526354",
+      "41159730",
+      "41403016",
+      "42576339",
+      "42379504"
+    ],
+    "pmc": [
+      "13114512"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cells15080700",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42041568/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1240",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

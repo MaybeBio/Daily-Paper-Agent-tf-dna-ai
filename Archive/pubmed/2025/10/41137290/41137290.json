@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "41137290",
+    "doi": "10.1097/MD.0000000000045341",
+    "title": "Integrated bioinformatics analysis and machine learning identifies FZD4, SRPX2, and COL8A1 as angiogenesis hub genes in endometriosis."
+  },
+  "content": {
+    "abstract": "This study aims to identify angiogenesis-associated genes (AAGs) in endometriosis (EM) by integrating bioinformatics analysis with machine learning, and to investigate their underlying mechanisms. Differentially expressed genes (DEGs) were screened from integrated EM-related gene sets in the Gene Expression Omnibus database. These DEGs were integrated with AAGs retrieved from the AMIGO2 database. Weighted gene co-expression network analysis (WGCNA) was then employed to identify potential EM-AAGs, followed by functional enrichment analysis using gene ontology (GO) and Kyoto Encyclopedia of Genes and Genomes. Five machine learning algorithms - Random Forest, LASSO, XGBoost, Gradient Boosting Machine (GBM), and SVM-RFE - were utilized for cross-validated screening of hub genes. The diagnostic efficacy of these genes was evaluated through receiver operating characteristic curves, calibration curves, and decision curve analysis. Further analyses included single-gene gene set enrichment analysis (GSEA), immune infiltration profiling, prediction of regulatory transcription factors, and construction of a competitive endogenous RNA (ceRNA) network. This study identified FZD4, SRPX2, and COL8A1 as hub genes for angiogenesis in EM. These genes were significantly upregulated in EM patients and demonstrated excellent diagnostic efficacy. Immune infiltration analysis revealed their regulatory associations with immune cell subpopulations, including M1/M2 macrophages and neutrophils. Single-gene GSEA and competitive endogenous RNA (ceRNA) network construction further elucidated their core regulatory roles in cell cycle control and multi-tiered molecular networks. Integrated bioinformatics and machine learning revealed FZD4, SRPX2, and COL8A1 as hub genes of angiogenesis in EM, proposing novel anti-angiogenic therapeutic strategies targeting EM.",
+    "keywords": [
+      "angiogenesis",
+      "bioinformatics analysis",
+      "biomarkers",
+      "endometriosis",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Endometriosis/genetics",
+      "*Machine Learning",
+      "*Frizzled Receptors/genetics",
+      "Computational Biology/methods",
+      "*Neovascularization, Pathologic/genetics",
+      "*Nerve Tissue Proteins/genetics",
+      "*Membrane Proteins/genetics",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Angiogenesis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jiaoyue",
+        "Li, Fawei",
+        "Zhang, Sijia",
+        "Zhai, Changming",
+        "Ma, Xiaona"
+      ],
+      "short_names": [
+        "Li J",
+        "Li F",
+        "Zhang S",
+        "Zhai C",
+        "Ma X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8535-4355"
+      ],
+      "affiliations": [
+        "The Third School of Clinical Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "Beijing University of Chinese Medicine, Beijing, China.",
+        "The Third School of Clinical Medicine, Beijing University of Chinese Medicine, Beijing, China.",
+        "Department of Rheumatism, Beijing University of Chinese Medicine Third Affiliated Hospital, Beijing University of Chinese Medicine, Beijing, China.",
+        "Department of Gynecology, Beijing University of Chinese Medicine Affiliated Third Hospital, Beijing University of Chinese Medicine, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jiaoyue",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "The Third School of Clinical Medicine, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Fawei",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Sijia",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "The Third School of Clinical Medicine, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhai, Changming",
+        "short_name": "Zhai C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatism, Beijing University of Chinese Medicine Third Affiliated Hospital, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiaona",
+        "short_name": "Ma X",
+        "identifiers": [
+          "0000-0002-8535-4355"
+        ],
+        "affiliations": [
+          "Department of Gynecology, Beijing University of Chinese Medicine Affiliated Third Hospital, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2025 Oct 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/25 06:32",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40141102",
+      "40049264",
+      "38398227",
+      "37557978",
+      "36918177",
+      "36613776",
+      "34985397",
+      "34850920",
+      "34082653",
+      "33290552",
+      "32833569",
+      "32484539",
+      "32212520",
+      "31806698",
+      "30931480",
+      "30335862",
+      "29884654",
+      "28720098",
+      "25822800",
+      "25534318",
+      "24297251",
+      "24291760",
+      "23193258",
+      "19667118",
+      "19574425",
+      "19065654",
+      "19033274",
+      "16919435",
+      "10592173",
+      "10027628"
+    ],
+    "similar": [
+      "41137290",
+      "41432483",
+      "40997906",
+      "40374840",
+      "41146237",
+      "41479901",
+      "39142001",
+      "40097519",
+      "36532015",
+      "41120378",
+      "40821971",
+      "41388523",
+      "41013556",
+      "41200172",
+      "41006883",
+      "40924862",
+      "41052072",
+      "36524127",
+      "39609718",
+      "41164826",
+      "38755717",
+      "38711508",
+      "39396400",
+      "39139563",
+      "39754246",
+      "41044520",
+      "40312440",
+      "36660690",
+      "40500570",
+      "40313958",
+      "38867322",
+      "40830558",
+      "38660311",
+      "41351083",
+      "40589764",
+      "40165344",
+      "37179305",
+      "41300841",
+      "39375405",
+      "40406620",
+      "40328901",
+      "40129981",
+      "40630623",
+      "39870856",
+      "39509434",
+      "40574839",
+      "36341343",
+      "41104127",
+      "41316541",
+      "40967560",
+      "39263286",
+      "40849369",
+      "40969769",
+      "38987624",
+      "39853851",
+      "40245021",
+      "38690269",
+      "40685483",
+      "40406126",
+      "39403102",
+      "40374866",
+      "36225941",
+      "39473404",
+      "35865542",
+      "37740761",
+      "41029776",
+      "39855613",
+      "41009659",
+      "41132671",
+      "39496786",
+      "41305746",
+      "41094572",
+      "41424583",
+      "35938015",
+      "40966021",
+      "39377750",
+      "39670237",
+      "34280006",
+      "40659785",
+      "37454542",
+      "35719392",
+      "39206894",
+      "38863714",
+      "39559355",
+      "41262249",
+      "39341981",
+      "40973872",
+      "40196107",
+      "41291841",
+      "40046872",
+      "39697326",
+      "40592741",
+      "41214111",
+      "39433800",
+      "41013727",
+      "39845878",
+      "39043774",
+      "40884580",
+      "38291374",
+      "39351239"
+    ],
+    "review": [
+      "41137290"
+    ],
+    "pmc": [
+      "12558289"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/endometriosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Endometriosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41137290/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000045341",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

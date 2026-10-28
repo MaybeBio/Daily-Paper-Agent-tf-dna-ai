@@ -1,0 +1,298 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.01.10.523217",
+  "title": "Phylogenetic modeling of enhancer shifts in African mole-rats reveals regulatory changes associated with tissue-specific traits",
+  "doi": "10.1101/2023.01.10.523217",
+  "abstract": "<h4>ABSTRACT</h4> Changes in gene regulation have long been thought to underlie most phenotypic differences between species. Subterranean rodents, and in particular the naked mole-rat, have attracted substantial attention due to their proposed phenotypic adaptations, which include hypoxia tolerance, metabolic changes and cancer resistance. However, it is largely unknown what regulatory changes may associate with these phenotypic traits, and whether these are unique to the naked mole-rat, the mole-rat clade or also present in other mammals. Here, we investigate regulatory evolution in heart and liver from two African mole-rat species and two rodent outgroups using genome-wide epigenomic profiling. First, we adapted and applied a phylogenetic modeling approach to quantitatively compare epigenomic signals at orthologous regulatory elements, and identified thousands of promoter and enhancer regions with differential epigenomic activity in mole-rats. These elements associate with known mole-rat adaptation in metabolic and functional pathways, and suggest candidate genetic loci that may underlie mole-rat innovations. Second, we evaluated ancestral and species-specific regulatory changes in the study phylogeny, and report several candidate pathways experiencing stepwise remodeling during the evolution of mole-rats – such as the insulin and hypoxia response pathways. Third, we report non-orthologous regulatory elements overlap with lineage-specific repetitive elements and appear to modify metabolic pathways by rewiring of HNF4 and RAR/RXR transcription factor binding sites in mole-rats. These comparative analyses reveal how mole-rat regulatory evolution informs previously reported phenotypic adaptations. Moreover, the phylogenetic modeling framework we propose here improves upon the state-of-the-art by addressing known limitations of inter-species comparisons of epigenomic profiles, and has broad implications in the field of comparative functional genomics.",
+  "authors": [
+    "Parey E",
+    "Frost S",
+    "Uribarren A",
+    "Park TJ",
+    "Zoettl M",
+    "Smith ESJ",
+    "Berthelot C",
+    "Villar D"
+  ],
+  "published_date": "2023-01-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.01.10.523217",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.01.10.523217.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR595466",
+    "raw_record": {
+      "id": "PPR595466",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR595466"
+        ]
+      },
+      "doi": "10.1101/2023.01.10.523217",
+      "title": "Phylogenetic modeling of enhancer shifts in African mole-rats reveals regulatory changes associated with tissue-specific traits",
+      "authorString": "Parey E, Frost S, Uribarren A, Park TJ, Zoettl M, Smith ESJ, Berthelot C, Villar D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Parey E",
+            "lastName": "Parey",
+            "firstName": "Elise",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3394-2697"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut de Biologie de l'Ecole Normale Supérieure (IBENS), Ecole Normale Supérieure, CNRS, INSERM, Université PSL, Paris, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Frost S",
+            "lastName": "Frost",
+            "firstName": "Stephanie",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2174-0510"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Blizard Institute, Barts and the London School of Medicine and Dentistry, Queen Mary University of London, 4 Newark Street, London E1 2AT"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Uribarren A",
+            "lastName": "Uribarren",
+            "firstName": "Ainhoa",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute, Cancer Research UK and University of Cambridge, Robinson Way, Cambridge CB2 0RE"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Park TJ",
+            "lastName": "Park",
+            "firstName": "Thomas",
+            "initials": "TJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2447-2948"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences and Laboratory of Integrative Neuroscience, University of Illinois at Chicago, Chicago, IL, United States of America"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zoettl M",
+            "lastName": "Zoettl",
+            "firstName": "Markus",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and Environmental Science, Linnaeus University, 44054 Hus Vita, Kalmar, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Smith ESJ",
+            "lastName": "Smith",
+            "firstName": "Ewan St. John",
+            "initials": "ESJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2699-1979"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, University of Cambridge, Tennis Ct Rd, Cambridge CB2 1PD"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Berthelot C",
+            "lastName": "Berthelot",
+            "firstName": "Camille",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5054-2690"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut de Biologie de l'Ecole Normale Supérieure (IBENS), Ecole Normale Supérieure, CNRS, INSERM, Université PSL, Paris, France"
+                },
+                {
+                  "affiliation": "Institut Pasteur, Université Paris Cité, CNRS UMR 3525, INSERM UA12, Comparative Functional Genomics group, F-75015 Paris, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Villar D",
+            "lastName": "Villar",
+            "firstName": "Diego",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8614-6232"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Blizard Institute, Barts and the London School of Medicine and Dentistry, Queen Mary University of London, 4 Newark Street, London E1 2AT"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5054-2690"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2447-2948"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2699-1979"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8614-6232"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2174-0510"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3394-2697"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  Changes in gene regulation have long been thought to underlie most phenotypic differences between species. Subterranean rodents, and in particular the naked mole-rat, have attracted substantial attention due to their proposed phenotypic adaptations, which include hypoxia tolerance, metabolic changes and cancer resistance. However, it is largely unknown what regulatory changes may associate with these phenotypic traits, and whether these are unique to the naked mole-rat, the mole-rat clade or also present in other mammals. Here, we investigate regulatory evolution in heart and liver from two African mole-rat species and two rodent outgroups using genome-wide epigenomic profiling. First, we adapted and applied a phylogenetic modeling approach to quantitatively compare epigenomic signals at orthologous regulatory elements, and identified thousands of promoter and enhancer regions with differential epigenomic activity in mole-rats. These elements associate with known mole-rat adaptation in metabolic and functional pathways, and suggest candidate genetic loci that may underlie mole-rat innovations. Second, we evaluated ancestral and species-specific regulatory changes in the study phylogeny, and report several candidate pathways experiencing stepwise remodeling during the evolution of mole-rats – such as the insulin and hypoxia response pathways. Third, we report non-orthologous regulatory elements overlap with lineage-specific repetitive elements and appear to modify metabolic pathways by rewiring of HNF4 and RAR/RXR transcription factor binding sites in mole-rats. These comparative analyses reveal how mole-rat regulatory evolution informs previously reported phenotypic adaptations. Moreover, the phylogenetic modeling framework we propose here improves upon the state-of-the-art by addressing known limitations of inter-species comparisons of epigenomic profiles, and has broad implications in the field of comparative functional genomics.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "British Heart Foundation",
+            "grantId": "FS/18/39/33684",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.01.10.523217"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR595466"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR595466&type=FILE&fileName=EMS160092-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37625847",
+            "reference": "Genome research. 2023 Sep;33(9):1513-1526",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS160092",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-01-13",
+      "firstPublicationDate": "2023-01-10",
+      "firstIndexDate": "2023-01-13",
+      "fullTextReceivedDate": "2023-03-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

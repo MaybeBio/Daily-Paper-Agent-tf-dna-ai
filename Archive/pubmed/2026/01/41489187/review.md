@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that a ~13-kb deletion in the chayote gene SeAPRR2 causes white peel formation by disrupting chloroplast development. They propose that SeAPRR2 acts as a master regulator that directly binds promoter cis-elements and activates transcription of SeHEMA1 and SeLHCB4, and that heterologous overexpression of these genes in tomato increases chlorophyll content and chloroplast number.
+- **Visible evidence base** Abstract text only; mentions of chlorophyll content measurements, metabolomics, transcriptomics, resequencing, WGCNA, DAP-Seq, Y1H, DLR, GUS activity, EMSA, molecular docking, and tomato overexpression experiments
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, statistical details, sample sizes, experimental replicates, raw data, methods descriptions, and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting genetic mechanism for peel colour variation in chayote, with a plausible causal variant and a proposed regulatory module. However, the evidence as summarised is insufficient to fully establish the causal chain from the deletion to the white phenotype, and several key controls and quantitative details are absent. The work may be of interest to plant genetics and horticulture researchers, but the current abstract does not provide enough information to assess technical rigour or generalisability.
+- **Who would be interested in the results, and why** Researchers studying fruit and vegetable quality traits, particularly peel or rind colour genetics in cucurbits; plant molecular biologists interested in transcription factor regulation of chloroplast development; breeders seeking molecular markers for colour traits in chayote and related crops.
+- **Major strengths** The study integrates multiple complementary approaches (phenotyping, metabolomics, transcriptomics, genomics, DNA-protein interaction assays, and heterologous overexpression) to address a single trait. The identification of a large-fragment deletion as a causal variant is a clear and testable genetic finding. The proposed dual-target regulatory module (SeAPRR2 to SeHEMA1 and SeLHCB4) provides a coherent mechanistic hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal evidence
+  - **Claim pointer** The abstract states that the ~13-kb deletion in SeAPRR2 is responsible for the white peel phenotype.
+  - **Evidence pointer** Abstract, "Integrated transcriptomic, resequencing, and WGCNA analyses" (location not provided)
+  - **Concern** The abstract does not provide any evidence that the deletion is causal rather than merely associated. No segregation analysis, complementation test, or CRISPR-generated mutant phenotype is described. The association between the deletion and the white phenotype could be due to linkage disequilibrium with another causal variant.
+  - **Why it matters** Establishing causality is essential for the central claim of the paper. Without functional validation in chayote itself, the deletion-phenotype link remains correlative.
+  - **Resolution test** Provide segregation data in a mapping population, or show that introducing the deletion into a green-peel background reproduces the white phenotype, or that restoring SeAPRR2 function in white-peel lines rescues green colour.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** The abstract claims that SeAPRR2 activates transcription of SeHEMA1 and SeLHCB4 via promoter binding.
+  - **Evidence pointer** Abstract, "DAP-Seq revealed... Y1H, DLR, GUS activity, EMSA, and molecular docking assays" (location not provided)
+  - **Concern** The abstract lists multiple assays but provides no quantitative results, no positive or negative controls, and no indication of binding specificity or transcriptional activation strength. Molecular docking is a computational prediction and does not constitute functional validation. It is unclear whether the binding is specific to the proposed cis-element and whether activation is physiologically relevant.
+  - **Why it matters** The proposed regulatory module is the mechanistic core of the paper. Without clear evidence of specific binding and functional activation, the module remains speculative.
+  - **Resolution test** Show representative binding data with mutant cis-element controls, quantify transcriptional activation relative to a known positive control, and demonstrate that loss of SeAPRR2 binding reduces SeHEMA1 and SeLHCB4 expression in a relevant context.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Phenotypic relevance
+  - **Claim pointer** The abstract claims that heterologous overexpression of SeAPRR2, SeHEMA1, and SeLHCB4 in tomato significantly elevated chlorophyll content and increased chloroplast number.
+  - **Evidence pointer** Abstract, "Heterologous overexpression... in tomato" (location not provided)
+  - **Concern** The abstract does not specify whether each gene was overexpressed individually or in combination, nor does it provide effect sizes, statistical comparisons, or phenotypic images. Overexpression in tomato does not directly demonstrate that the same mechanism operates in chayote peel, and the relevance to the white peel phenotype is indirect.
+  - **Why it matters** The tomato experiment is presented as supporting evidence for the functional role of the genes, but without details on the experimental design and the magnitude of effects, its interpretative value is limited.
+  - **Resolution test** Provide quantitative data with appropriate statistical tests, specify the overexpression constructs and combinations used, and include phenotypic characterisation of chloroplast ultrastructure in transgenic tomato lines.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Phenotype description
+  - **Evidence pointer** Abstract, first sentence (location not provided)
+  - **Issue** The abstract states that DGP, GP, and LGP have higher chlorophyll content than WP, but does not specify whether the differences are statistically significant or how many biological replicates were used.
+  - **Required correction** Add significance values and replicate numbers for the chlorophyll measurements.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Metabolomics data
+  - **Evidence pointer** Abstract, "metabolomics confirming the reduction of galactolipids" (location not provided)
+  - **Issue** The abstract mentions reduced DGDG and MGDG but does not state the magnitude of reduction or whether this is specific to WP or also seen in LGP.
+  - **Required correction** Provide quantitative values and statistical comparisons for galactolipid levels across all peel colour types.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** DAP-Seq and cis-element
+  - **Evidence pointer** Abstract, "DAP-Seq revealed that SeAPRR2 binds to the cis-element (AAT(G/C)ATT)" (location not provided)
+  - **Issue** The abstract does not state how many biological replicates were used for DAP-Seq, nor whether the motif was identified de novo or tested as a candidate.
+  - **Required correction** Specify DAP-Seq replicate numbers and the method of motif identification.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretive caution
+  - **Affected element** "Master regulator" claim
+  - **Evidence pointer** Abstract, final paragraph (location not provided)
+  - **Issue** The term "master regulator" implies broad regulatory control, but the abstract only demonstrates effects on two target genes.
+  - **Required correction** Soften the claim to "regulator" or provide evidence for additional direct targets.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causality of the deletion), R1-M2 (specificity and functional relevance of promoter binding), R1-M3 (quantitative and design details of the tomato overexpression experiments)
+- **Assessment against Nature-style criteria** Originality: the specific SeAPRR2-SeHEMA1/SeLHCB4 module in chayote appears novel, but the general concept of transcription factors regulating chloroplast development is well established. Scientific importance: moderate, as it addresses a quality trait in a minor crop; the mechanistic insight may transfer to other cucurbits. Interdisciplinary readership: limited, primarily plant genetics and molecular biology audiences. Technical soundness: cannot be fully assessed from the abstract; several key controls and quantitative details are missing. Readability for nonspecialists: the abstract is generally clear but uses specialised terms without brief explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible model, but the causal role of the deletion and the functional specificity of the proposed regulatory module require additional experimental support. I would be supportive if the technical concerns are resolved with full data presentation.
+
+## Risk / unsupported claims
+- The claim that the ~13-kb deletion is responsible for the white phenotype is unsupported without segregation or complementation data.
+- The claim that SeAPRR2 activates SeHEMA1 and SeLHCB4 transcription is only weakly supported by the listed assays, as no quantitative results or controls are provided.
+- The claim that heterologous overexpression in tomato "significantly elevated" chlorophyll and chloroplast number is unverifiable without effect sizes and statistical details.
+- The designation of SeAPRR2 as a "master regulator" is overstated given the evidence for only two direct targets.
+- The statement that the deletion mechanism provides "novel genetic insights for breeding" is speculative without demonstration of practical applicability.

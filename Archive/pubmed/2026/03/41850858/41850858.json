@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "41850858",
+    "doi": "10.5582/bst.2026.01026",
+    "title": "The ATF5-GPER1 axis drives female protection in hepatocellular carcinoma through dual tumor-suppressive and immune-modulatory mechanisms."
+  },
+  "content": {
+    "abstract": "Hepatocellular carcinoma (HCC) exhibits marked sexual dimorphism, with females demonstrating superior survival, yet the underlying molecular mechanisms remain unclear. We integrated bulk transcriptomics (GSE39791, TCGA-LIHC, GSE14520) and single-cell RNA sequencing (five datasets, n = 58 patients, 238,982 cells) with machine learning (LASSO, SVM, random forest) to identify female-protective genes driving HCC disparities. Activating transcription factor 5 (ATF5) emerged as a female-protective gene with higher expression in females versus males across cohorts. Single-cell analyses revealed ATF5 defines a female-enriched, low-grade malignant subcluster with elevated apoptotic programs and reduced proliferative signaling, and pseudotime analysis showed coordinated ATF5-GPER1 downregulation during malignant progression (Spearman rho = -0.52 and -0.48; both p < 0.001). In the immune compartment, ATF5 marked a female-enriched IFN-gamma(+) macrophage state with enhanced immunostimulatory programs and preferential CXCL9/10-CXCR3-mediated communication with CD8/NK cells. Mechanistically, ATF5 transcriptionally activates G protein-coupled estrogen receptor 1 (GPER1), forming an estrogen-responsive regulatory module that functionally suppresses proliferation, induces apoptosis (HepG2: 26.45% vs. 11.88%, p < 0.0001), and inhibits migration in a GPER1-dependent manner as demonstrated by rescue experiments. Tissue microarray validation (n = 167) confirmed high ATF5 expression predicts improved recurrence-free survival specifically in female patients (HR = 0.34, p = 0.040) but not males (p = 0.080). The ATF5-GPER1 axis represents a female-protective circuit operating through tumor-intrinsic suppression and immune remodeling, offering mechanistic insight into HCC sexual dimorphism and identifying ATF5 as a sex-specific prognostic biomarker with potential therapeutic implications.",
+    "keywords": [
+      "estrogen signaling",
+      "sex differences",
+      "single-cell RNA sequencing",
+      "transcription factor",
+      "tumor-associated macrophages"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Liver Neoplasms/genetics/immunology/pathology/mortality",
+      "*Activating Transcription Factors/genetics/metabolism",
+      "*Carcinoma, Hepatocellular/genetics/immunology/pathology/mortality",
+      "Male",
+      "Gene Expression Regulation, Neoplastic",
+      "*Receptors, Estrogen/metabolism/genetics",
+      "*Receptors, G-Protein-Coupled/metabolism/genetics",
+      "Apoptosis/genetics",
+      "Sex Characteristics",
+      "Cell Proliferation/genetics",
+      "Cell Line, Tumor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Zhiquan",
+        "Wang, Hao",
+        "He, Qiang",
+        "Cui, Hongshuai",
+        "Wu, Zhongjun",
+        "Liao, Rui"
+      ],
+      "short_names": [
+        "Xu Z",
+        "Wang H",
+        "He Q",
+        "Cui H",
+        "Wu Z",
+        "Liao R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hepatobiliary Surgery, the First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Hepatobiliary Surgery, the First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Hepatobiliary Surgery, the First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Gastrointestinal Surgery, Qingdao Central Hospital, University of Health and Rehabilitation Sciences, Qingdao, China.",
+        "Department of Hepatobiliary Surgery, the First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Hepatobiliary Surgery, the First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Zhiquan",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, the First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hao",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, the First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "He, Qiang",
+        "short_name": "He Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, the First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Hongshuai",
+        "short_name": "Cui H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, Qingdao Central Hospital, University of Health and Rehabilitation Sciences, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhongjun",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, the First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Rui",
+        "short_name": "Liao R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, the First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioscience trends"
+    ],
+    "journal_abbrev": [
+      "Biosci Trends"
+    ],
+    "pub_date": "2026 May 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/19 01:32",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41850858",
+      "39582864",
+      "18701499",
+      "41200185",
+      "41716413",
+      "40857870",
+      "41558300",
+      "34530087",
+      "42244292",
+      "39433650",
+      "41112257",
+      "32873626",
+      "41293954",
+      "41986494",
+      "41953013",
+      "22528486",
+      "42227003",
+      "41366455",
+      "40683486",
+      "42217552",
+      "41208969",
+      "30641053",
+      "42352243",
+      "41760269",
+      "41436831",
+      "40956482",
+      "37762356",
+      "41766871",
+      "40645977",
+      "41659855",
+      "41120498",
+      "41144132",
+      "39814999",
+      "41171436",
+      "39777247",
+      "42074524",
+      "41613800",
+      "41685312",
+      "40887474",
+      "41316300",
+      "41601632",
+      "40855439",
+      "41722834",
+      "41153430",
+      "40211257",
+      "41194934",
+      "41935591",
+      "41268553",
+      "40567110",
+      "41639489",
+      "40038727",
+      "40740783",
+      "41674779",
+      "40374855",
+      "41880053",
+      "41286303",
+      "40032894",
+      "42021543",
+      "40416605",
+      "42183188",
+      "39082336",
+      "41392192",
+      "39798003",
+      "39859485",
+      "41962406",
+      "40485623",
+      "41661103",
+      "40001159",
+      "41949386",
+      "40307857",
+      "30664155",
+      "42317344",
+      "39611512",
+      "39023830",
+      "41655866",
+      "40796933",
+      "41778427",
+      "42104313",
+      "41508037",
+      "40874684",
+      "33689775",
+      "30238408",
+      "32685003",
+      "40330470",
+      "39893200",
+      "38824477",
+      "41491166",
+      "41357200",
+      "42065054",
+      "42155390",
+      "39773565",
+      "42139279",
+      "41371106",
+      "42195019",
+      "40646641",
+      "42050573",
+      "40148834",
+      "41472554",
+      "40227950",
+      "29510736"
+    ],
+    "review": [
+      "41850858"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.5582/bst.2026.01026",
+        "provider": "J-STAGE, Japan Science and Technology Information Aggregator, Electronic",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

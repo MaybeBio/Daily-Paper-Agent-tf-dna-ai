@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or statistical details were available for evaluation
+- **Shared manuscript claim summary** The authors generated BRCA2 variants lacking the DNA binding domain (DBD) and/or C-terminal domain (CTD) in mouse ES cells, and assessed homologous recombination (HR) function, nuclear mobility via single particle tracking, and architectural changes of purified proteins via scanning force microscopy. They report that CTD deletions do not affect BRCA2 mobility or the DNA damage-induced increase in immobile fraction, while proteins lacking CTD and/or DBD are defective in architectural changes that correlate with reduced HR function. They conclude that BRCA2 has activities at damage sites beyond promoting RAD51 delivery.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical analyses provided
+- **Missing materials affecting confidence** Full manuscript, methods details, quantitative data, statistical analyses, figure legends, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting study on the domain-specific roles of BRCA2 in DNA repair, combining cellular dynamics and biophysical approaches. However, the evidence base is limited to the abstract, and several key claims cannot be evaluated without access to the underlying data. The conclusion that BRCA2 has activities beyond RAD51 delivery is intriguing but requires stronger direct evidence than what is summarized here.
+- **Who would be interested in the results, and why** Researchers in DNA repair, homologous recombination, genome stability, and cancer biology would be interested, as BRCA2 is a central tumor suppressor and understanding its domain functions has implications for mechanistic models of repair and for therapeutic targeting. The combination of live-cell mobility measurements and single-molecule imaging may also appeal to biophysicists studying protein dynamics.
+- **Major strengths** The study addresses a relevant and under-explored question about the functional contributions of specific BRCA2 domains beyond RAD51 loading. The use of multiple complementary approaches (cellular HR assays, single particle tracking, scanning force microscopy) is a methodological strength. The finding that mobility is unaffected by CTD deletions while architectural changes are impaired provides a potentially nuanced view of BRCA2 function.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that "BRCA2 activity at sites of damage beyond promoting RAD51 delivery" is emphasized by their results.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not provide direct evidence for any specific activity beyond RAD51 delivery. The observed defects in architectural changes and reduced HR function could be fully explained by impaired RAD51 loading or downstream steps. No alternative function is directly tested or demonstrated.  
+  - **Why it matters** This is the central conceptual claim of the abstract. Without direct evidence for a distinct function, the conclusion overreaches the data presented.  
+  - **Resolution test** Provide experimental data showing that a specific BRCA2-dependent process (e.g., replication fork protection, DNA end processing, or recruitment of other factors) is impaired independently of RAD51 loading, or show that RAD51 loading is unaffected in conditions where HR is still defective.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Quantitative support  
+  - **Claim pointer** The claim that "BRCA2 mobility and DNA damage-induced increase in the immobile fraction was largely unaffected by C-terminal deletions" is presented as a key result.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** No quantitative data, statistical comparisons, or effect sizes are provided. The term "largely unaffected" is vague and could mask subtle but biologically meaningful changes. Without numbers, the reader cannot assess the robustness of this conclusion.  
+  - **Why it matters** This negative result is central to the paper's message that mobility is not the limiting factor. If the assay is underpowered or the effect is small, the conclusion may not hold.  
+  - **Resolution test** Provide mean values, standard deviations or errors, sample sizes, and statistical tests for mobility parameters and immobile fractions across all variants, with and without DNA damage.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Causal link  
+  - **Claim pointer** The authors state that "purified proteins missing CTD and/or DBD were defective in architectural changes correlating with reduced homologous recombination function in cells."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The correlation between architectural changes and HR function is stated but not quantified. Correlation does not establish causation, and the abstract does not indicate whether the architectural defects are directly responsible for reduced HR or merely associated.  
+  - **Why it matters** The paper's mechanistic interpretation depends on this link. Without evidence that the architectural change is functionally required, the conclusion remains speculative.  
+  - **Resolution test** Show that restoring architectural changes (e.g., via compensatory mutations or altered binding conditions) rescues HR function, or demonstrate a direct mechanistic connection between the observed conformational change and a specific step in HR.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of "architectural changes"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not specify what kind of architectural changes were measured (e.g., compaction, bending, multimerization) or how they relate to BRCA2 function.  
+  - **Required correction** Define the architectural parameters measured by scanning force microscopy and briefly state their presumed functional relevance.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Variant description  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not specify which domains were deleted in each variant (e.g., DBD only, CTD only, both) or whether the variants were expressed at comparable levels.  
+  - **Required correction** Provide a clear description of the variants used and confirm that expression levels and protein stability were controlled.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** RAD51 delivery  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract implies that RAD51 delivery is not the sole function, but it does not state whether RAD51 loading was directly measured or inferred from HR outcomes.  
+  - **Required correction** Clarify whether RAD51 focus formation or loading was assessed, and if not, acknowledge this as a limitation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central conceptual claim (R1-M1) is not supported by direct evidence, the key negative result (R1-M2) lacks quantitative backing, and the correlation-based link (R1-M3) is not established as causal.
+- **Assessment against Nature-style criteria**  
+  - Originality: The question of BRCA2 domain-specific functions beyond RAD51 loading is timely and somewhat original, though the abstract does not yet demonstrate a novel function.  
+  - Scientific importance: High, given BRCA2's central role in genome stability and cancer.  
+  - Interdisciplinary readership: Potentially broad, spanning cell biology, biophysics, and cancer research, but the abstract is too brief to convey the interdisciplinary appeal effectively.  
+  - Technical soundness: Cannot be assessed from the abstract alone; the approaches are appropriate in principle, but the lack of quantitative detail prevents evaluation.  
+  - Readability for nonspecialists: The abstract is concise and generally clear, but terms like "architectural changes" and "immobile fraction" are used without sufficient context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not provide sufficient quantitative or mechanistic support for the main conclusions. A full manuscript with detailed methods and data would be required to assess whether the claims are justified.
+
+## Risk / unsupported claims
+- The claim that BRCA2 has activities at damage sites beyond promoting RAD51 delivery is unsupported by direct evidence in the abstract.
+- The claim that mobility is "largely unaffected" by C-terminal deletions is unquantified and cannot be evaluated.
+- The correlation between architectural changes and HR function is stated without statistical or mechanistic support.
+- Any specific functional role of the DBD or CTD in DNA repair beyond what is described cannot be inferred from the abstract.

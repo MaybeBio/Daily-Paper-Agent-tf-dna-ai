@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "38255812",
+    "doi": "10.3390/ijms25020738",
+    "title": "Use of Multiple Machine Learning Approaches for Selecting Urothelial Cancer-Specific DNA Methylation Biomarkers in Urine."
+  },
+  "content": {
+    "abstract": "Diagnosing urothelial cancer (UCa) via invasive cystoscopy is painful, specifically in men, and can cause infection and bleeding. Because the UCa risk is higher for male patients, urinary non-invasive UCa biomarkers are highly desired to stratify men for invasive cystoscopy. We previously identified multiple DNA methylation sites in urine samples that detect UCa with a high sensitivity and specificity in men. Here, we identified the most relevant markers by employing multiple statistical approaches and machine learning (random forest, boosted trees, LASSO) using a dataset of 251 male UCa patients and 111 controls. Three CpG sites located in ALOX5, TRPS1 and an intergenic region on chromosome 16 have been concordantly selected by all approaches, and their combination in a single decision matrix for clinical use was tested based on their respective thresholds of the individual CpGs. The combination of ALOX5 and TRPS1 yielded the best overall sensitivity (61%) at a pre-set specificity of 95%. This combination exceeded both the diagnostic performance of the most sensitive bioinformatic approach and that of the best single CpG. In summary, we showed that overlap analysis of multiple statistical approaches identifies the most reliable biomarkers for UCa in a male collective. The results may assist in stratifying men for cystoscopy.",
+    "keywords": [
+      "DNA methylation biomarker",
+      "LASSO",
+      "boosted trees",
+      "random forest",
+      "urothelial cancer"
+    ],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "Biomarkers, Tumor/genetics",
+      "DNA Methylation",
+      "*Body Fluids",
+      "Machine Learning",
+      "DNA, Neoplasm",
+      "*Neoplasms",
+      "Repressor Proteins",
+      "Fingers/*abnormalities",
+      "*Hair Diseases",
+      "Nose/*abnormalities",
+      "*Langer-Giedion Syndrome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kohler, Christina U",
+        "Schork, Karin",
+        "Turewicz, Michael",
+        "Eisenacher, Martin",
+        "Roghmann, Florian",
+        "Noldus, Joachim",
+        "Marcus, Katrin",
+        "Bruning, Thomas",
+        "Kafferlein, Heiko U"
+      ],
+      "short_names": [
+        "Kohler CU",
+        "Schork K",
+        "Turewicz M",
+        "Eisenacher M",
+        "Roghmann F",
+        "Noldus J",
+        "Marcus K",
+        "Bruning T",
+        "Kafferlein HU"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4345-2213",
+        "ORCID: 0000-0003-3756-4347",
+        "ORCID: 0000-0003-0737-1114",
+        "ORCID: 0000-0003-2687-7444",
+        "ORCID: 0000-0003-0299-489X",
+        "ORCID: 0000-0002-3313-8845"
+      ],
+      "affiliations": [
+        "Institute for Prevention and Occupational Medicine of the German Social Accident Insurance, Ruhr University Bochum (IPA), Burkle-de-la-Camp Platz 1, 44789 Bochum, Germany.",
+        "Medizinisches Proteom-Center, Medical Faculty, Ruhr-University Bochum and Medical Proteome Analysis, Center for Protein Diagnostics (PRODI), Gesundheitscampus 4, 44081 Bochum, Germany.",
+        "Medizinisches Proteom-Center, Medical Faculty, Ruhr-University Bochum and Medical Proteome Analysis, Center for Protein Diagnostics (PRODI), Gesundheitscampus 4, 44081 Bochum, Germany.",
+        "Medizinisches Proteom-Center, Medical Faculty, Ruhr-University Bochum and Medical Proteome Analysis, Center for Protein Diagnostics (PRODI), Gesundheitscampus 4, 44081 Bochum, Germany.",
+        "Department of Urology, Marien Hospital Herne, University Hospital of the Ruhr University Bochum, Holkeskampring 40, 44625 Herne, Germany.",
+        "Department of Urology, Marien Hospital Herne, University Hospital of the Ruhr University Bochum, Holkeskampring 40, 44625 Herne, Germany.",
+        "Medizinisches Proteom-Center, Medical Faculty, Ruhr-University Bochum and Medical Proteome Analysis, Center for Protein Diagnostics (PRODI), Gesundheitscampus 4, 44081 Bochum, Germany.",
+        "Institute for Prevention and Occupational Medicine of the German Social Accident Insurance, Ruhr University Bochum (IPA), Burkle-de-la-Camp Platz 1, 44789 Bochum, Germany.",
+        "Institute for Prevention and Occupational Medicine of the German Social Accident Insurance, Ruhr University Bochum (IPA), Burkle-de-la-Camp Platz 1, 44789 Bochum, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Köhler, Christina U",
+        "short_name": "Köhler CU",
+        "identifiers": [
+          "0000-0002-4345-2213"
+        ],
+        "affiliations": [
+          "Institute for Prevention and Occupational Medicine of the German Social Accident Insurance, Ruhr University Bochum (IPA), Bürkle-de-la-Camp Platz 1, 44789 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Schork, Karin",
+        "short_name": "Schork K",
+        "identifiers": [
+          "0000-0003-3756-4347"
+        ],
+        "affiliations": [
+          "Medizinisches Proteom-Center, Medical Faculty, Ruhr-University Bochum and Medical Proteome Analysis, Center for Protein Diagnostics (PRODI), Gesundheitscampus 4, 44081 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Turewicz, Michael",
+        "short_name": "Turewicz M",
+        "identifiers": [
+          "0000-0003-0737-1114"
+        ],
+        "affiliations": [
+          "Medizinisches Proteom-Center, Medical Faculty, Ruhr-University Bochum and Medical Proteome Analysis, Center for Protein Diagnostics (PRODI), Gesundheitscampus 4, 44081 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Eisenacher, Martin",
+        "short_name": "Eisenacher M",
+        "identifiers": [
+          "0000-0003-2687-7444"
+        ],
+        "affiliations": [
+          "Medizinisches Proteom-Center, Medical Faculty, Ruhr-University Bochum and Medical Proteome Analysis, Center for Protein Diagnostics (PRODI), Gesundheitscampus 4, 44081 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Roghmann, Florian",
+        "short_name": "Roghmann F",
+        "identifiers": [
+          "0000-0003-0299-489X"
+        ],
+        "affiliations": [
+          "Department of Urology, Marien Hospital Herne, University Hospital of the Ruhr University Bochum, Hölkeskampring 40, 44625 Herne, Germany."
+        ]
+      },
+      {
+        "full_name": "Noldus, Joachim",
+        "short_name": "Noldus J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Marien Hospital Herne, University Hospital of the Ruhr University Bochum, Hölkeskampring 40, 44625 Herne, Germany."
+        ]
+      },
+      {
+        "full_name": "Marcus, Katrin",
+        "short_name": "Marcus K",
+        "identifiers": [
+          "0000-0002-3313-8845"
+        ],
+        "affiliations": [
+          "Medizinisches Proteom-Center, Medical Faculty, Ruhr-University Bochum and Medical Proteome Analysis, Center for Protein Diagnostics (PRODI), Gesundheitscampus 4, 44081 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Brüning, Thomas",
+        "short_name": "Brüning T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Prevention and Occupational Medicine of the German Social Accident Insurance, Ruhr University Bochum (IPA), Bürkle-de-la-Camp Platz 1, 44789 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Käfferlein, Heiko U",
+        "short_name": "Käfferlein HU",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Prevention and Occupational Medicine of the German Social Accident Insurance, Ruhr University Bochum (IPA), Bürkle-de-la-Camp Platz 1, 44789 Bochum, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 Jan 6",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/23 06:43",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [
+      "42676643",
+      "40471489",
+      "39587670",
+      "39295845"
+    ],
+    "refs": [
+      "35955727",
+      "35955004",
+      "34753702",
+      "34745226",
+      "34431515",
+      "34295762",
+      "34237708",
+      "34162499",
+      "34095228",
+      "33666134",
+      "33355250",
+      "33213418",
+      "33011748",
+      "32832275",
+      "32752173",
+      "32664878",
+      "32309439",
+      "32153047",
+      "31932775",
+      "31850197",
+      "31284295",
+      "31151158",
+      "31008534",
+      "29902678",
+      "29354796",
+      "29285224",
+      "29141603",
+      "29028927",
+      "28163793",
+      "27814275",
+      "24691641",
+      "24404589",
+      "24357935",
+      "23682613",
+      "23335087",
+      "21586619",
+      "17855397",
+      "16903934",
+      "16243968",
+      "15569975",
+      "14532840",
+      "12559279",
+      "7615848"
+    ],
+    "similar": [
+      "38255812",
+      "31008534",
+      "23293878",
+      "24886451",
+      "31662300",
+      "39327968",
+      "29521629",
+      "29651829",
+      "23835950",
+      "23621477",
+      "36990068",
+      "38262580",
+      "23451857",
+      "24909213",
+      "38369890",
+      "35063444",
+      "22127049",
+      "31598943",
+      "29270239",
+      "29706459",
+      "30541476",
+      "23572024",
+      "28468609",
+      "22854906",
+      "23668231",
+      "23510776",
+      "38377146",
+      "27267340",
+      "38575639",
+      "29686738",
+      "24448126",
+      "38574886",
+      "30522940",
+      "27133561",
+      "25628322",
+      "39240881",
+      "31343132",
+      "38899779",
+      "22964620",
+      "23735005",
+      "22474724",
+      "36093893",
+      "25514040",
+      "26320192",
+      "22481165",
+      "32498593",
+      "37331526",
+      "38193387",
+      "24357341",
+      "26540763",
+      "30458885",
+      "32746809",
+      "38750495",
+      "20569260",
+      "35231919",
+      "31590287",
+      "26027762",
+      "24502542",
+      "34897794",
+      "30866861",
+      "33542011",
+      "32707764",
+      "31985322",
+      "30691926",
+      "39072393",
+      "25333908",
+      "8530105",
+      "8974918",
+      "30999858",
+      "30696380",
+      "32844440",
+      "27417036",
+      "29854012",
+      "32153047",
+      "27026199",
+      "39244604",
+      "37569864",
+      "21844942",
+      "29436063",
+      "27746284",
+      "28106542",
+      "29288007",
+      "30283995",
+      "6885060",
+      "34285179",
+      "27706911",
+      "30309818",
+      "6885052",
+      "38529947",
+      "30444590",
+      "27586786",
+      "19758263",
+      "36879192",
+      "29848370",
+      "36734315",
+      "31233548",
+      "29988684",
+      "32139301",
+      "24783650",
+      "32817589"
+    ],
+    "review": [
+      "38255812",
+      "30458885",
+      "37569864",
+      "30283995"
+    ],
+    "pmc": [
+      "10815677"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms25020738",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/hairproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Hair Problems"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38255812/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38255812",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

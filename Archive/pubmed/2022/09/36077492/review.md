@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and conclusions
+- **Assessment boundary** Scientific validity of claims, methodological rigor, and interpretation of molecular dynamics simulation results for p53 mutants V157F and R158L
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to show that lung-enriched p53 mutants V157F and R158L exhibit aggregation-prone structural features, altered loop 1 conformational sampling, and dynamic equilibrium between misfolded and properly folded local conformations, providing mechanistic insights into allosteric effects
+- **Visible evidence base** Figures 1–5, Supplemental Figures S1–S3, methods section describing simulation protocols and analysis techniques
+- **Missing materials affecting confidence** No experimental validation data, no raw simulation trajectories, no convergence analysis beyond qualitative description, no statistical analysis of replicate simulations, no comparison with other force fields or enhanced sampling methods
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computational study of two lung-enriched p53 mutants using molecular dynamics simulations. The work addresses a clinically relevant question and the simulations appear technically competent. However, the study is purely computational with no experimental validation, the statistical power is limited by only three replicates per system, and several claims about allosteric mechanisms and drug design implications are overstated relative to the evidence provided. The manuscript would benefit from more rigorous analysis of simulation convergence, clearer presentation of uncertainties, and tempering of conclusions that extend beyond what MD simulations can establish.
+- **Who would be interested in the results, and why** Researchers studying p53 structural biology, particularly those interested in mutant p53 aggregation and conformational dynamics. Computational biophysicists working on allosteric communication in proteins would also find the methodology relevant. Clinically oriented researchers investigating lung cancer therapeutics targeting mutant p53 may find the suggested druggable conformations of interest, though they would require experimental confirmation.
+- **Major strengths** The study addresses a clinically relevant and understudied pair of p53 mutants. The simulation protocol is reasonable with appropriate force field choice and explicit solvent. The analysis of local conformational states (F157 ring orientation, beta6-beta7 turn) is thoughtful and connects to known experimental structures. The allosteric pathway analysis provides a mechanistic framework for understanding long-range effects of mutations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and reproducibility
+  - **Claim pointer** The manuscript claims that V157F and R158L mutants display "slightly lesser beta-sheet structure, larger radius of gyration, larger volume and larger exposed surface area" compared to WT
+  - **Evidence pointer** Figure 1b–f, Supplemental Figure S1
+  - **Concern** Only three independent 1 microsecond simulations were performed per system. The differences reported between WT and mutants appear small ("slightly lesser", "larger" without quantitative effect sizes). No standard error or confidence intervals are shown for the distributions in Figure 1b–f. With n=3 replicates, the statistical power to detect modest structural differences is very limited, and the manuscript does not report whether differences are statistically significant.
+  - **Why it matters** The central claim of the paper is that these mutants adopt aggregation-prone conformations. If the observed differences are within the range of natural fluctuation for n=3 simulations, the conclusion is not supported. The lack of error bars or statistical testing undermines confidence in all subsequent interpretations.
+  - **Resolution test** Provide per-replicate values with means and standard deviations, perform appropriate statistical tests (e.g., block averaging or bootstrapping), and report effect sizes with confidence intervals. If differences are not statistically significant, the claims must be revised accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The abstract and conclusions state that these results "provide molecular mechanistic insights into allosteric mechanisms" and "provide a basis and idea for the design of related drugs"
+  - **Evidence pointer** Sections 2.2–2.4, Figure 3i–k
+  - **Concern** The allosteric pathway analysis identifies correlation paths from mutation sites to loop 1, but the manuscript does not demonstrate that these paths represent causal allosteric communication. The pathway analysis is purely correlational. Furthermore, the drug design suggestion is speculative; no binding site analysis, druggability assessment, or ligand interaction study is presented. The leap from simulation observations to therapeutic implications is not supported by the data.
+  - **Why it matters** Overstating conclusions beyond what the evidence supports is a significant issue for a scientific manuscript. The allosteric mechanism claim requires either perturbation studies (e.g., mutation of pathway residues) or more sophisticated analysis (e.g., mutual information, community analysis) to establish communication. The drug design claim requires at least a demonstration that the identified conformations are druggable.
+  - **Resolution test** Either temper the conclusions to describe observed conformational differences without claiming mechanistic allostery, or add analyses that directly test allosteric communication. Remove or substantially soften drug design implications unless supported by additional data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological completeness
+  - **Claim pointer** The manuscript claims that the local structure around mutation sites is "in a dynamic equilibrium between the misfolded and properly folded conformations"
+  - **Evidence pointer** Sections 2.3–2.4, Figures 4c–e, 5a
+  - **Concern** The claim of dynamic equilibrium implies that the simulations have adequately sampled transitions between the identified states. However, the manuscript does not report transition rates, free energy barriers, or the number of observed transitions between 'up'/'down' or 'open'/'close' states. With 1 microsecond simulations, it is possible that only one or few transitions were observed, which would not establish equilibrium. The PMF plots in Figures 4c and 5a may represent non-equilibrium sampling.
+  - **Why it matters** The concept of dynamic equilibrium is central to the proposed mechanism and the drug design implications. If the simulations have not demonstrated reversible transitions between states, the equilibrium claim is unsupported. This affects the interpretation of the conformational states as accessible therapeutic targets.
+  - **Resolution test** Report the number of transitions observed between states, calculate free energy barriers, and demonstrate that the simulations have converged with respect to state populations. If transitions are rare, use enhanced sampling methods or acknowledge the limitation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** External validity
+  - **Claim pointer** The manuscript implies that observations on the p53 core domain (p53C) monomer are relevant to full-length p53 behavior in cells
+  - **Evidence pointer** Section 3.1, throughout
+  - **Concern** The simulations use only the core domain (residues 94–297) as a monomer. Full-length p53 functions as a tetramer, and the core domain is known to be influenced by the oligomerization domain and post-translational modifications. The aggregation-prone behavior of mutant p53 in cells involves complex interactions with chaperones, DNA, and other binding partners. The relevance of monomeric core domain simulations to the in vivo situation is not discussed.
+  - **Why it matters** The clinical relevance of the findings depends on whether the simulated system captures the biologically relevant behavior. If the tetrameric context or other domains significantly alter the conformational landscape, the conclusions may not translate to the cellular environment.
+  - **Resolution test** Discuss the limitations of the monomeric core domain model explicitly. If possible, perform simulations of the tetramer or include the oligomerization domain. At minimum, acknowledge that the relevance to full-length p53 requires experimental validation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Simulation convergence assessment
+  - **Evidence pointer** Supplemental Figure S1
+  - **Issue** The convergence assessment is described qualitatively ("achieve reasonable dynamic equilibrium after 600 ns"). No quantitative criteria for convergence are provided, and the figure is only in supplemental material.
+  - **Required correction** Provide quantitative convergence criteria (e.g., RMSD plateau, block averaging) and show the convergence data in the main text or describe the criteria explicitly in the methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation setup details
+  - **Evidence pointer** Section 3.2
+  - **Issue** The methods state simulations were performed with GROMACS-9.1.3, but this version number appears incorrect (GROMACS versions are typically numbered differently). Additionally, the temperature coupling reference temperature is not specified, and the equilibration protocol is not described.
+  - **Required correction** Verify the software version, specify the target temperature and pressure coupling parameters, and describe the equilibration procedure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Loop 1 conformational states
+  - **Evidence pointer** Section 2.2, Figure 3d–f
+  - **Issue** The manuscript describes three conformational states for WT loop 1 but does not clearly explain the biological significance of the intermediate state or why its absence in mutants is functionally important.
+  - **Required correction** Clarify the functional implications of the intermediate state and discuss why its population or absence matters for DNA binding.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Comparison with previous studies
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction mentions that V157F and R158L occur with high frequency in lung squamous cell carcinomas but does not discuss previous structural or biophysical studies of these specific mutants, if any exist.
+  - **Required correction** Add a brief review of prior experimental or computational work on these mutants to contextualize the novelty of the current findings.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 3i–k
+  - **Evidence pointer** Figure 3i–k
+  - **Issue** The allosteric pathway figures are difficult to interpret from the description alone. The pathways are shown as lines but the residues involved and the nature of the correlation are not clearly labeled.
+  - **Required correction** Add residue labels to the pathway figures and provide a clearer explanation of what the pathway lines represent in the figure legend.
+
+## Risk / unsupported claims
+- The claim that V157F and R158L mutants have "a higher aggregation tendency than WT p53C" is inferred from structural descriptors (beta-sheet content, SASA, radius of gyration) but no direct aggregation simulation or experimental aggregation assay is presented
+- The claim of "dynamic equilibrium between misfolded and properly folded conformations" is not supported by evidence of reversible transitions between states
+- The allosteric pathway analysis is correlational and does not establish causal communication between mutation sites and loop 1
+- The drug design implications are speculative and not supported by any binding or druggability analysis
+- The relevance of monomeric p53 core domain simulations to full-length tetrameric p53 function in cells is not established
+- The statement that V157F and R158L mutations "can affect the conformation switch of loop 1 through long-range associations" is based on pathway analysis but the mechanism of this long-range communication is not demonstrated

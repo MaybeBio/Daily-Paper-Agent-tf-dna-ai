@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2507.20426v1",
+  "title": "ResCap-DBP: A Lightweight Residual-Capsule Network for Accurate DNA-Binding Protein Prediction Using Global ProteinBERT Embeddings",
+  "authors": "Samiul Based Shuvo; Tasnia Binte Mamun; U Rajendra Acharya",
+  "journal": "",
+  "published_date": "2025-07-27",
+  "window": {
+    "start": "2025-07-21",
+    "end": "2025-07-27"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用残差胶囊网络结合ProteinBERT嵌入从序列预测DNA结合蛋白，属于广义蛋白-DNA互作识别，方法可迁移至TF-DNA结合位点预测，但未聚焦TF-DNA特异性结合机制。",
+  "abstract": "DNA-binding proteins (DBPs) are integral to gene regulation and cellular processes, making their accurate identification essential for understanding biological functions and disease mechanisms. Experimental methods for DBP identification are time-consuming and costly, driving the need for efficient computational prediction techniques. In this study, we propose a novel deep learning framework, ResCap-DBP, that combines a residual learning-based encoder with a one-dimensional Capsule Network (1D-CapsNet) to predict DBPs directly from raw protein sequences. Our architecture incorporates dilated convolutions within residual blocks to mitigate vanishing gradient issues and extract rich sequence features, while capsule layers with dynamic routing capture hierarchical and spatial relationships within the learned feature space. We conducted comprehensive ablation studies comparing global and local embeddings from ProteinBERT and conventional one-hot encoding. Results show that ProteinBERT embeddings substantially outperform other representations on large datasets. Although one-hot encoding showed marginal advantages on smaller datasets, such as PDB186, it struggled to scale effectively. Extensive evaluations on four pairs of publicly available benchmark datasets demonstrate that our model consistently outperforms current state-of-the-art methods. It achieved AUC scores of 98.0% and 89.5% on PDB14189andPDB1075, respectively. On independent test sets PDB2272 and PDB186, the model attained top AUCs of 83.2% and 83.3%, while maintaining competitive performance on larger datasets such as PDB20000. Notably, the model maintains a well balanced sensitivity and specificity across datasets. These results demonstrate the efficacy and generalizability of integrating global protein representations with advanced deep learning architectures for reliable and scalable DBP prediction in diverse genomic contexts.",
+  "abstract_zh": "DNA结合蛋白（DBPs）在基因调控和细胞过程中不可或缺，因此其准确识别对于理解生物学功能和疾病机制至关重要。用于DBP鉴定的实验方法耗时且成本高昂，这推动了对高效计算预测技术的需求。在本研究中，我们提出了一种新颖的深度学习框架ResCap-DBP，该框架结合了基于残差学习的编码器与一维胶囊网络（1D-CapsNet），可直接从原始蛋白质序列预测DBPs。我们的架构在残差块中引入了扩张卷积，以缓解梯度消失问题并提取丰富的序列特征，而具有动态路由的胶囊层则捕获学习特征空间中的层次和空间关系。我们进行了全面的消融研究，比较了来自ProteinBERT的全局和局部嵌入以及传统独热编码。结果表明，ProteinBERT嵌入在大型数据集上显著优于其他表示。尽管独热编码在较小数据集（如PDB186）上显示出轻微优势，但其在扩展性方面表现不佳。对四对公开基准数据集的广泛评估表明，我们的模型始终优于当前最先进的方法。在PDB14189和PDB1075上，模型分别取得了98.0%和89.5%的AUC分数。在独立测试集PDB2272和PDB186上，模型达到了83.2%和83.3%的最高AUC，同时在PDB20000等较大数据集上保持了竞争性能。值得注意的是，模型在各数据集上保持了良好的敏感性和特异性平衡。这些结果证明了将全局蛋白质表示与先进深度学习架构相结合，在不同基因组背景下实现可靠且可扩展的DBP预测的有效性和泛化能力。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2507.20426v1",
+  "source_url": "https://arxiv.org/abs/2507.20426v1",
+  "paper_page_path": "papers/arxiv/2507.20426v1/index.html"
+}

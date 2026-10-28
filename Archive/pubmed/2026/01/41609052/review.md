@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors use all-atom and coarse-grained molecular dynamics simulations to propose that two p53C hotspot mutants, M237I and R249S, alter temperature-dependent structural properties and aggregation propensity, thereby accelerating liquid-liquid phase separation and subsequent aggregation, with region-specific and mutant-specific mechanistic differences.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or simulation parameters provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, system setup, convergence criteria, quantitative data, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study linking oncogenic p53C mutations to temperature-dependent phase separation. However, the current evidence base is insufficient to evaluate the technical soundness of the simulations or the robustness of the mechanistic claims. Several statements are qualitative and lack quantitative support. The work may be of interest to the biophysics and cancer biology communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying p53 aggregation and phase separation, computational biophysicists interested in protein liquid-liquid phase separation mechanisms, and cancer biologists focused on gain-of-function effects of mutant p53. The proposed link between specific mutations and temperature-dependent LLPS could inform therapeutic strategies targeting phase separation.
+- **Major strengths** The study addresses a timely and biologically relevant question, namely the molecular basis of mutant p53 phase separation. The combination of all-atom and coarse-grained simulations is appropriate for spanning timescales and system sizes. The identification of two specific temperature-sensitive regions provides a concrete mechanistic hypothesis that is testable.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that both mutants alter the temperature-dependent behavior of beta-sheet content in a manner opposite to that of WT.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The abstract states that beta-sheet content changes are opposite between mutants and WT, but no quantitative data, statistical measures, or simulation convergence information are provided. It is unclear how beta-sheet content was computed, over which timescales, and whether the differences are significant relative to sampling error.
+  - **Why it matters** Beta-sheet content is a central structural observable in this study. Without evidence of convergence and statistical robustness, the central claim of opposite temperature-dependent behavior cannot be assessed.
+  - **Resolution test** Provide time series of beta-sheet content for each system, block-averaged estimates with uncertainties, and a clear description of the secondary structure assignment method. Show that the observed differences exceed sampling noise.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that CG simulations reveal significantly strengthened intermolecular interactions within Regions A and B at elevated temperatures, facilitating liquid-like condensate formation and transition to solid-like phases.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The abstract does not specify the CG model used, the mapping scheme, the force field parameters, or how intermolecular interactions were quantified. The claim that interactions are "significantly strengthened" implies statistical testing, but no metrics or error bars are reported. The link between strengthened interactions and phase behavior is asserted rather than demonstrated.
+  - **Why it matters** The phase separation mechanism is the core contribution of the study. Without details on the CG model and interaction analysis, the reader cannot judge whether the simulations are physically meaningful or whether the conclusions are overinterpreted.
+  - **Resolution test** Specify the CG model and parameters, describe the interaction energy calculation, and provide statistical comparisons across temperatures and mutants. If phase behavior is claimed, show evidence of condensate formation, such as cluster size distributions or density profiles.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that M237I enhances aggregation propensity at lower temperatures by increasing solvent exposure of aggregation-prone segments and altering crucial inter-interactions.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** No simulation details are given, including temperature coupling, salt concentration, box size, number of copies, or simulation length. The term "aggregation propensity" is not defined operationally. The mechanistic explanation is qualitative and not tied to specific observables.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. Without these details, the results cannot be replicated or compared with other work, and the mechanistic claims remain unsupported.
+  - **Resolution test** Provide full simulation setup in the methods, define aggregation propensity with a specific metric, and show quantitative comparisons between WT and mutants at each temperature.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that these results suggest promising avenues for anticancer therapeutic strategies that target phase separation-driven oncogenesis.
+  - **Evidence pointer** Abstract, conclusion; location not provided
+  - **Concern** The therapeutic implication is stated without any discussion of druggability, specificity, or feasibility. The leap from simulation observations to therapeutic strategy is not supported by the data presented.
+  - **Why it matters** Overstated translational claims can mislead readers and reduce the credibility of the mechanistic findings.
+  - **Resolution test** Either remove the therapeutic claim or temper it to a speculative statement clearly separated from the simulation results.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, results section
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "alter the temperature-dependent behavior of beta-sheet content in a manner opposite to that of WT" is ambiguous. It is unclear whether both mutants show the same opposite trend or different trends relative to WT.
+  - **Required correction** Specify the direction of change for each mutant relative to WT at each temperature.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Abstract, results section
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "crucial inter-interactions" is vague and not defined.
+  - **Required correction** Replace with a specific interaction type, such as hydrophobic contacts, hydrogen bonds, or salt bridges, and indicate how they were measured.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, results section
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "greater water retention" for R249S but does not explain how this was quantified or why it is mechanistically relevant.
+  - **Required correction** Define the water retention metric and explain its connection to phase separation behavior.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract, results section
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The sentence describing CG simulation results is long and combines multiple claims, making it difficult to parse.
+  - **Required correction** Split into shorter sentences and present the observations and interpretations separately.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns relate to missing simulation details, lack of quantitative evidence, and undefined observables, all of which are essential to evaluate the validity of the central claims.
+- **Assessment against Nature-style criteria** 
+  - Originality: The study addresses a relevant question, but the abstract does not clearly distinguish its findings from prior computational studies of p53 aggregation or phase separation. The originality is not fully established from the supplied material.
+  - Scientific importance: The link between oncogenic mutations and temperature-dependent phase separation is potentially important, but the abstract does not provide sufficient mechanistic depth to assess the significance of the contribution.
+  - Interdisciplinary readership: The topic bridges biophysics and cancer biology, which could attract a broad audience. However, the abstract is written in a way that assumes familiarity with simulation methods and phase separation concepts, which may limit accessibility.
+  - Technical soundness: Not assessable from the abstract alone. Critical details on simulation protocols, force fields, sampling, and analysis are missing.
+  - Readability for nonspecialists: The abstract is dense and uses jargon without definition. It would benefit from clearer explanations of key terms and a more structured presentation of findings.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the lack of methodological detail and quantitative support prevents a positive assessment. A full manuscript with complete methods and results would be required to evaluate the claims.
+
+## Risk / unsupported claims
+- The claim that both mutants alter beta-sheet content in a manner opposite to WT is unsupported without quantitative data.
+- The claim that CG simulations reveal significantly strengthened intermolecular interactions is unsupported without details on the model and statistical analysis.
+- The claim that M237I enhances aggregation propensity at lower temperatures is unsupported without a defined metric and comparative data.
+- The claim that R249S results in greater water retention is unsupported without a quantification method.
+- The claim that the results suggest therapeutic strategies is speculative and not supported by the data.
+- The overall mechanistic model linking specific regions to phase separation and solid-like transition is not assessable from the abstract.

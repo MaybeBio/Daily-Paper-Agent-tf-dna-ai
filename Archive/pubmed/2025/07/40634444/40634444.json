@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "40634444",
+    "doi": "10.1038/s41598-025-09979-9",
+    "title": "Anoikis-related biomarkers PARP1 and SDCBP as diagnostic and therapeutic targets for asthma."
+  },
+  "content": {
+    "abstract": "This study aims to explore the association between anoikis-related genes (ARGs) and asthma. The dataset GSE143303 for asthma were sourced from the GEO database, while ARGs were retrieved from the Harmonizome web portal and the GeneCards database. Differentially expressed genes (DEGs) identification and GO, KEGG enrichment analysis were performed to reveal potential biological pathways. To identify hub anoikis-related DEGs (hub ARDEGs), we employed WGCNA and machine learning methods including LASSO and Random Forest. Additionally, we constructed risk prediction nomogram model and ROC curves to evaluate the asthma diagnostic value of hub ARDEGs. SsGSEA immune infiltration analysis was used to analyze the role of hub ARDEGs in the asthma immune microenvironment. Finally, miRNAs and transcription factors (TFs) interacting with these hub ARDEGs were investigated. DEGs of ARGs between asthma and healthy controls, along with WGCNA, led to the identification of six ARDEGs. GO and KEGG analyses revealed that these ARDEGs were primarily involved in the apoptotic signaling pathway and adherens junctions. Machine learning methods further narrowed down the six ARDEGs to two hub ARDEGs: PARP1 and SDCBP, which were significantly upregulated in asthma and validated using the GSE147878 and experimental models. Based on these two hub ARDEGs, a risk prediction model for asthma was developed, demonstrating strong diagnostic potential and tissue specificity in endobronchial biopsies. Immune analysis revealed variations in immune cell infiltration within asthma samples correlated with hub ARDEGs. Additionally, the miRNA-TF-mRNA interaction network of hub ARDEGs highlights the complexity of the regulatory process. The process of anoikis, immune dysregulation, and asthma are closely interconnected. The anoikis-related biomarkers PARP1 and SDCBP may serve as diagnostic markers and therapeutic targets for asthma.",
+    "keywords": [
+      "Anoikis",
+      "Asthma",
+      "Biomarkers",
+      "Machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Asthma/diagnosis/genetics/metabolism/drug therapy",
+      "*Poly (ADP-Ribose) Polymerase-1/genetics/metabolism",
+      "Biomarkers/metabolism",
+      "*Anoikis/genetics",
+      "MicroRNAs/genetics",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "*Haptoglobins/genetics/metabolism",
+      "Machine Learning",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Li-Jie",
+        "Song, Na-Na",
+        "Deng, Ni-Shan",
+        "Zhu, Miao-Juan",
+        "Li, Qing-Qing",
+        "Huang, Si-Si",
+        "Shi, Xiu",
+        "Hu, Zhen-Hong",
+        "Nie, Han-Xiang"
+      ],
+      "short_names": [
+        "Yang LJ",
+        "Song NN",
+        "Deng NS",
+        "Zhu MJ",
+        "Li QQ",
+        "Huang SS",
+        "Shi X",
+        "Hu ZH",
+        "Nie HX"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+        "Department of Clinical Laboratory, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+        "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+        "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+        "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+        "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+        "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+        "Department of Respiratory and Critical Care Medicine, General Hospital of Center Theater of PLA, Wuhan, 430070, China.",
+        "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China. nhxiang@whu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Li-Jie",
+        "short_name": "Yang LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Song, Na-Na",
+        "short_name": "Song NN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Renmin Hospital of Wuhan University, Wuhan, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Ni-Shan",
+        "short_name": "Deng NS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Miao-Juan",
+        "short_name": "Zhu MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qing-Qing",
+        "short_name": "Li QQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Si-Si",
+        "short_name": "Huang SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Xiu",
+        "short_name": "Shi X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Zhen-Hong",
+        "short_name": "Hu ZH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, General Hospital of Center Theater of PLA, Wuhan, 430070, China."
+        ]
+      },
+      {
+        "full_name": "Nie, Han-Xiang",
+        "short_name": "Nie HX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China. nhxiang@whu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/10 00:36",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39486220",
+      "39417505",
+      "39286778",
+      "39195245",
+      "39120302",
+      "37725846",
+      "37627260",
+      "37612281",
+      "37415620",
+      "37189651",
+      "37156885",
+      "36525939",
+      "36348405",
+      "35341975",
+      "34850920",
+      "34655640",
+      "34276407",
+      "33711259",
+      "33442032",
+      "33432665",
+      "33095870",
+      "32928475",
+      "32910899",
+      "32901857",
+      "32360725",
+      "32229377",
+      "32061839",
+      "31441146",
+      "30964965",
+      "29760085",
+      "28974953",
+      "26205779",
+      "22622521",
+      "21284655",
+      "19847166",
+      "19270179",
+      "19114008",
+      "17644558",
+      "17463414",
+      "15176693"
+    ],
+    "similar": [
+      "40634444",
+      "37503333",
+      "39419187",
+      "40819162",
+      "40312440",
+      "39867944",
+      "39392250",
+      "39911741",
+      "38863714",
+      "38519735",
+      "41255601",
+      "40746552",
+      "40775257",
+      "40313967",
+      "39730379",
+      "40059945",
+      "41146237",
+      "39556279",
+      "40792128",
+      "41432483",
+      "41044520",
+      "38608447",
+      "39697326",
+      "39403102",
+      "41006883",
+      "40374866",
+      "41145553",
+      "39473404",
+      "40491449",
+      "40596265",
+      "36855217",
+      "37032832",
+      "40574839",
+      "39021997",
+      "39898909",
+      "40977739",
+      "40093012",
+      "36125921",
+      "37663760",
+      "39142001",
+      "40500570",
+      "38371524",
+      "40319145",
+      "38965390",
+      "40849369",
+      "41196851",
+      "38509535",
+      "40849565",
+      "38783263",
+      "39512836",
+      "40406620",
+      "39506588",
+      "41019433",
+      "37860011",
+      "39914590",
+      "41479901",
+      "40151199",
+      "40115777",
+      "39086489",
+      "38775414",
+      "38051734",
+      "37081871",
+      "38268224",
+      "38711508",
+      "38062833",
+      "34536521",
+      "39080525",
+      "39661012",
+      "37740761",
+      "38839020",
+      "41052072",
+      "39349110",
+      "41079183",
+      "40997906",
+      "40739239",
+      "40966021",
+      "35473522",
+      "40014587",
+      "39431237",
+      "39139563",
+      "39375405",
+      "39341981",
+      "36291136",
+      "40593989",
+      "40028162",
+      "40216809",
+      "39422340",
+      "39670237",
+      "41401544",
+      "40091022",
+      "36576616",
+      "38423139",
+      "40860289",
+      "35615282",
+      "39243324",
+      "40374840",
+      "41013556",
+      "38527674",
+      "35558576",
+      "40196107"
+    ],
+    "review": [
+      "40634444"
+    ],
+    "pmc": [
+      "12241600"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/asthma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-09979-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40634444/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-556",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/asthma.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma"
+      }
+    ],
+    "text_mined": []
+  }
+}

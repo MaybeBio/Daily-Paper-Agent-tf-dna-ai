@@ -1,0 +1,264 @@
+{
+  "identity": {
+    "pmid": "38890395",
+    "doi": "10.1038/s41598-024-63542-6",
+    "title": "Empowering artificial intelligence in characterizing the human primary pacemaker of the heart at single cell resolution."
+  },
+  "content": {
+    "abstract": "The sinus node (SN) serves as the primary pacemaker of the heart and is the first component of the cardiac conduction system. Due to its anatomical properties and sample scarcity, the cellular composition of the human SN has been historically challenging to study. Here, we employed a novel deep learning deconvolution method, namely Bulk2space, to characterise the cellular heterogeneity of the human SN using existing single-cell datasets of non-human species. As a proof of principle, we used Bulk2Space to profile the cells of the bulk human right atrium using publicly available mouse scRNA-Seq data as a reference. 18 human cell populations were identified, with cardiac myocytes being the most abundant. Each identified cell population correlated to its published experimental counterpart. Subsequently, we applied the deconvolution to the bulk transcriptome of the human SN and identified 11 cell populations, including a population of pacemaker cardiomyocytes expressing pacemaking ion channels (HCN1, HCN4, CACNA1D) and transcription factors (SHOX2 and TBX3). The connective tissue of the SN was characterised by adipocyte and fibroblast populations, as well as key immune cells. Our work unravelled the unique single cell composition of the human SN by leveraging the power of a novel machine learning method.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Sinoatrial Node/cytology/metabolism",
+      "*Myocytes, Cardiac/metabolism/cytology",
+      "*Single-Cell Analysis/methods",
+      "Mice",
+      "Animals",
+      "Artificial Intelligence",
+      "Transcriptome",
+      "Heart Atria/metabolism/cytology",
+      "Deep Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chelu, Alexandru",
+        "Cartwright, Elizabeth J",
+        "Dobrzynski, Halina"
+      ],
+      "short_names": [
+        "Chelu A",
+        "Cartwright EJ",
+        "Dobrzynski H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Cardiovascular Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, Manchester, M13 9PL, UK. alexandru.chelu@postgrad.manchester.ac.uk.",
+        "Division of Cardiovascular Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, Manchester, M13 9PL, UK.",
+        "Division of Cardiovascular Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, Manchester, M13 9PL, UK.",
+        "Department of Anatomy, Jagiellonian University Medical College, 31-008, Krakow, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chelu, Alexandru",
+        "short_name": "Chelu A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiovascular Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, Manchester, M13 9PL, UK. alexandru.chelu@postgrad.manchester.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Cartwright, Elizabeth J",
+        "short_name": "Cartwright EJ",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiovascular Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, Manchester, M13 9PL, UK."
+        ]
+      },
+      {
+        "full_name": "Dobrzynski, Halina",
+        "short_name": "Dobrzynski H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiovascular Sciences, Faculty of Biology, Medicine and Health, The University of Manchester, Manchester, M13 9PL, UK.",
+          "Department of Anatomy, Jagiellonian University Medical College, 31-008, Kraków, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Jun 18",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/19 00:43",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [
+      "40021668"
+    ],
+    "refs": [
+      "37438528",
+      "36632093",
+      "36575170",
+      "36310179",
+      "35959412",
+      "35859355",
+      "35549404",
+      "34527187",
+      "34062119",
+      "34004232",
+      "33436583",
+      "33059532",
+      "32971526",
+      "32669714",
+      "32403949",
+      "31948481",
+      "31882993",
+      "31253831",
+      "31178118",
+      "30759401",
+      "30670690",
+      "29608179",
+      "28431249",
+      "25822800",
+      "25729366",
+      "24759974",
+      "21538926",
+      "20203315",
+      "19289639",
+      "18626064",
+      "17222809",
+      "10974216"
+    ],
+    "similar": [
+      "38890395",
+      "25623957",
+      "23753573",
+      "31409881",
+      "33040635",
+      "32771895",
+      "33059532",
+      "24583250",
+      "26138475",
+      "31320323",
+      "23877224",
+      "22419669",
+      "27434649",
+      "33548033",
+      "25533636",
+      "21945247",
+      "25101952",
+      "23767866",
+      "19289639",
+      "26304511",
+      "30936179",
+      "23077655",
+      "33706013",
+      "31291594",
+      "28855177",
+      "19837079",
+      "33964276",
+      "24218458",
+      "12702747",
+      "38553636",
+      "20396805",
+      "17473172",
+      "33934225",
+      "21220308",
+      "27097650",
+      "28346695",
+      "17234970",
+      "34004232",
+      "20525877",
+      "19096026",
+      "28390247",
+      "28899000",
+      "11854131",
+      "26001410",
+      "33044128",
+      "32014794",
+      "29037217",
+      "34600492",
+      "23365865",
+      "25668431",
+      "21538926",
+      "19246679",
+      "27363295",
+      "34215719",
+      "29246574",
+      "27840107",
+      "32028091",
+      "17222809",
+      "28350969",
+      "16989793",
+      "38778426",
+      "31253831",
+      "19336273",
+      "33975000",
+      "17399641",
+      "12594186",
+      "26424448",
+      "19166829",
+      "21406959",
+      "27941801",
+      "38041810",
+      "26681531",
+      "34951544",
+      "21576278",
+      "24533169",
+      "28185290",
+      "15914112",
+      "23878236",
+      "19808392",
+      "18565102",
+      "15644313",
+      "25742394",
+      "35255712",
+      "16923751",
+      "26384234",
+      "23954346",
+      "18991834",
+      "22527936",
+      "34427691",
+      "25733770",
+      "29315578",
+      "29274077",
+      "23589888",
+      "20396710",
+      "17850290",
+      "19591835",
+      "29628472"
+    ],
+    "review": [
+      "38890395",
+      "25668431",
+      "32028091",
+      "28350969",
+      "25733770"
+    ],
+    "pmc": [
+      "11189420"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-63542-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38890395/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38890395",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

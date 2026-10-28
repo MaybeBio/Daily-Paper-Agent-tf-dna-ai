@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and methods, Results, Discussion) without supplementary tables or figures
+- **Assessment boundary** Structural biology claims, DNA-binding mechanism claims, functional validation via mutagenesis and plant complementation assays
+- **Shared manuscript claim summary** The manuscript reports the crystal structure of the STENOFOLIA homeodomain (STF-HD) in complex with a 22 bp target promoter DNA containing TGA and TAAT motifs. The authors describe a unique tetrameric assembly of STF-HD on DNA, with two protomers recognizing TGA motifs via major-groove interactions and two additional protomers contacting the minor groove via their α3 helices. The authors propose that this tetrameric binding mode is functionally significant based on mutagenesis and plant complementation experiments.
+- **Visible evidence base** Abstract, Introduction, Materials and methods, Results, Discussion sections; references to Figures 1-13 and Tables 1-2; reference to Supplementary Tables S1-S3
+- **Missing materials affecting confidence** Supplementary figures and tables (including Supplementary Table S1 with DNA sequences, Supplementary Table S2 with plant complementation data, Supplementary Table S3 with genomic promoter analysis); electron density maps; crystallographic data quality metrics beyond those summarized in Table 1; raw EMSA and FP data; statistical details for plant phenotype quantification
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel crystal structure of the STF homeodomain tetramer bound to promoter DNA, which is the first report of a homeodomain α3 helix binding to the DNA minor groove. The structural findings are potentially significant for understanding WOX family transcription factor DNA recognition. However, the functional significance of the tetrameric assembly and the minor-groove interactions is not fully established from the provided evidence. The manuscript would benefit from additional biochemical validation and clearer presentation of the functional data.
+- **Who would be interested in the results, and why** Researchers studying plant transcription factors, particularly the WUSCHEL-related homeobox (WOX) family; structural biologists interested in homeodomain-DNA recognition mechanisms; plant developmental biologists studying leaf morphogenesis and meristem maintenance. The finding of a tetrameric homeodomain assembly and minor-groove recognition by an α3 helix would be of broad interest to the transcription factor community.
+- **Major strengths** The crystal structure is the first of a WOX family homeodomain in complex with DNA, and the observation of a tetrameric assembly with α3 helices binding the minor groove is unprecedented. The authors provide functional validation through mutagenesis and plant complementation assays, connecting structural observations to biological function. The comparison with WUS-HD structures is informative and places the findings in context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the tetrameric STF-HD assembly observed in the crystal structure is functionally relevant and that the minor-groove interactions of HDA′ and HDB′ are important for DNA binding and STF function.
+  - **Evidence pointer** Results section "The structure of the STF-HD-DNA complex"; Figures 2 and 3; Discussion section
+  - **Concern** The tetrameric assembly is formed with two protomers (HDA′ and HDB′) related by crystallographic symmetry. The authors acknowledge the possibility of a crystallization artifact but do not provide independent biochemical evidence for tetramer formation in solution. The mutagenesis data targeting the minor-groove interactions (KRR/AAA, R113Q) show reduced DNA binding, but the authors do not demonstrate that these mutations specifically disrupt tetramer formation rather than simply reducing DNA-binding affinity through other mechanisms. The functional significance of the tetrameric assembly remains uncertain.
+  - **Why it matters** The central claim of the manuscript is the unique tetrameric DNA-binding mode. Without solution-phase evidence for tetramer formation (e.g., analytical ultracentrifugation, size-exclusion chromatography with multi-angle light scattering, or cross-linking experiments), the biological relevance of the crystallographic tetramer is not established.
+  - **Resolution test** Provide solution-phase evidence for tetramer formation of STF-HD in the presence of DNA, such as SEC-MALS or AUC experiments. Alternatively, demonstrate that mutations disrupting the tetramer interface specifically abolish cooperative DNA binding without affecting monomeric DNA binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the α3 helix of STF-HD binds DNA in the minor groove, which is stated as the first such observation for a homeodomain.
+  - **Evidence pointer** Results section "The structure of the STF-HD-DNA complex"; Figures 4 and 7
+  - **Concern** The assignment of minor-groove binding by the α3 helices of HDA′ and HDB′ relies on the interpretation of the electron density and the model building. The authors state that HDB′ is more disordered, with the last visible residue being Gln159, and that its α3 helix is unwound. The quality of the electron density for these regions is not discussed in detail. Given the unprecedented nature of this observation, the authors should provide a more detailed assessment of the confidence in the model for these regions, including B-factor analysis and electron density maps.
+  - **Why it matters** The claim of minor-groove binding by an α3 helix is unprecedented and would represent a significant departure from established homeodomain-DNA recognition paradigms. If the model is not well supported by the electron density, this claim could be overstated.
+  - **Resolution test** Provide electron density maps (2Fo-Fc and Fo-Fc) for the regions of HDA′ and HDB′ that contact the minor groove, along with B-factor analysis. Discuss the confidence in the register and side-chain placement for these regions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that the tetrameric binding mode could be a shared mechanism among WUS clade WOX family members based on analysis of genomic promoter regions.
+  - **Evidence pointer** Discussion section; Supplementary Table S3
+  - **Concern** The claim that the observed tetrameric binding could be a shared mechanism is based on the presence of similar sequence features in genomic promoter regions (Supplementary Table S3). However, the analysis is not described in the main text, and the criteria for identifying "similar" sequence features are not stated. Without a clear description of the bioinformatic analysis and its statistical significance, this claim is not well supported.
+  - **Why it matters** The potential generality of the tetrameric binding mode is an important aspect of the manuscript's significance. If the sequence analysis is not rigorous, the claim of a shared mechanism is speculative.
+  - **Resolution test** Describe the bioinformatic analysis in the main text or provide a supplementary methods section. State the criteria for identifying potential tetrameric binding sites and provide statistical support for the enrichment of such sites in WUS/STF target promoters.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the R151A mutation abolishes binding to TGA-only sequences but retains binding to TAAT-containing sequences, and that this mutant is functionally defective in vivo.
+  - **Evidence pointer** Results section "Structure-based mutagenesis"; Figures 8h, 8i, 8j, 8k, 9h
+  - **Concern** The EMSA data for R151A show differential binding to TGA-only versus TAAT-containing sequences, but the quantitative difference is not reported. The in vivo functional data show a severe defect, but the statistical analysis is not described in detail. The authors state that "both the affinity and precise structural conformation of DNA binding are essential for STF function in vivo," but the data do not clearly separate these two factors.
+  - **Why it matters** The interpretation that the precise structural conformation, rather than binding affinity alone, determines function is an important conclusion. Without quantitative binding data and clear statistical analysis of the plant phenotypes, this conclusion is not fully supported.
+  - **Resolution test** Provide quantitative binding data (e.g., Kd values from FP assays) for R151A against both TGA-only and TAAT-containing sequences. Provide statistical analysis of the plant phenotype data, including effect sizes and confidence intervals.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction provides extensive background on WOX family transcription factors but does not clearly state the specific gap in knowledge that this structure addresses beyond noting that WOX HD structures are "less well studied."
+  - **Required correction** Briefly state what is unknown about WOX HD DNA recognition and how the STF-HD structure addresses this gap.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and methods, "Fluorescence polarization assays"
+  - **Evidence pointer** Materials and methods section
+  - **Issue** The FP assay description does not specify the buffer conditions, temperature, or equilibration time. The Kd calculation method is described as "nonlinear regression for curve fitting" but the specific model (e.g., one-site binding) is not stated.
+  - **Required correction** Provide complete experimental details for the FP assays, including buffer composition, temperature, and the binding model used for Kd calculation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Structure-based mutagenesis"
+  - **Evidence pointer** Results section; Figure 10
+  - **Issue** The FP data in Figure 10 are described qualitatively ("neither mutant showed a significant decrease in DNA-binding affinity"), but the Kd values and their errors are not reported in the text.
+  - **Required correction** Report the Kd values and standard deviations for the WT and mutant proteins in the text or figure legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the potential link between STF-HD tetramerization and TPL corepressor recruitment is speculative and not directly supported by experimental data in this manuscript.
+  - **Required correction** Clearly label this as speculation and consider moving it to a "perspectives" paragraph or removing it if it cannot be supported.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (tetramer formation in solution not demonstrated), R1-M2 (electron density quality for minor-groove interactions not assessed)
+- **Assessment against Nature-style criteria** Originality: The structure is the first of a WOX family homeodomain-DNA complex and the observation of α3-mediated minor-groove binding is novel. Scientific importance: The findings have the potential to inform understanding of WOX family DNA recognition and plant development, but the functional significance of the tetrameric assembly is not fully established. Interdisciplinary readership: The work will appeal to structural biologists, plant biologists, and transcription factor researchers, but the broader significance beyond the WOX family is not clearly articulated. Technical soundness: The crystallographic analysis appears sound, but the functional validation is incomplete, and the solution-phase behavior of the complex is not characterized. Readability for nonspecialists: The manuscript is generally well written, but the significance of the tetrameric assembly and minor-groove binding could be explained more clearly for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural findings are novel and potentially significant, but the manuscript requires additional evidence to establish the functional relevance of the tetrameric assembly and to support the unprecedented claim of α3-mediated minor-groove binding.
+
+## Risk / unsupported claims
+- The claim that the tetrameric STF-HD assembly is functionally significant is not fully supported without solution-phase evidence for tetramer formation.
+- The claim that the α3 helix binds DNA in the minor groove is not fully supported without a detailed assessment of electron density quality for the relevant regions.
+- The claim that the tetrameric binding mode could be a shared mechanism among WUS clade WOX family members is speculative without a described and statistically rigorous bioinformatic analysis.
+- The statement that "both the affinity and precise structural conformation of DNA binding are essential for STF function in vivo" is not fully supported by the presented data, which do not clearly separate these two factors.

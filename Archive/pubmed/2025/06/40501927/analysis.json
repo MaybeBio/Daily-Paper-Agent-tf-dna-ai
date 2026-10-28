@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40501927",
+  "title": "\"Frustratingly easy\" domain adaptation for cross-species transcription factor binding prediction.",
+  "authors": "Ebeid, Mark Maher; Balci, Ali Tugrul; Chikina, Maria; Benos, Panayiotis V; Kostka, Dennis",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-06-12",
+  "window": {
+    "start": "2025-06-09",
+    "end": "2025-06-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出MORALE域适应框架，通过对齐跨物种序列嵌入的统计矩，提升深度学习模型对转录因子结合位点的跨物种预测能力，核心聚焦TF-DNA结合预测且方法为AI，高度匹配本课题。",
+  "abstract": "MOTIVATION: Understanding how DNA sequence encodes gene regulation remains a central challenge in genomics. While deep learning models can predict regulatory activity from sequence with high accuracy, their generalizability across species-and thus their ability to capture fundamental biological principles-remains limited. Cross-species prediction provides a powerful test of model robustness and offers a window into conserved regulatory logic, but effectively bridging species-specific genomic differences remains a major barrier. RESULTS: We present MORALE, a novel and scalable domain adaptation framework that significantly advances cross-species prediction of transcription factor (TF) binding. By aligning statistical moments of sequence embeddings across species, MORALE enables deep learning models to learn species-invariant regulatory features without requiring adversarial training or complex architectures. Applied to multi-species TF ChIP-seq datasets, MORALE achieves state-of-the-art performance-outperforming both baseline and adversarial approaches across all TFs-while preserving model interpretability and recovering canonical motifs with greater precision. In the five-species transfer setting, MORALE not only improves human prediction accuracy beyond human-only training but also reveals regulatory features conserved across mammals. These results highlight the potential of simple yet powerful domain adaptation techniques to drive generalization and discovery in regulatory genomics. Crucially, MORALE is architecture-agnostic and can be seamlessly integrated into any embedding-based sequence model. AVAILABILITY: Code is available at https://github.com/loudrxiv/frustrating.",
+  "abstract_zh": "动机：理解DNA序列如何编码基因调控仍是基因组学中的一个核心挑战。尽管深度学习模型能够以高精度从序列预测调控活性，但其跨物种的泛化能力——以及由此捕获基本生物学原理的能力——仍然有限。跨物种预测为模型鲁棒性提供了强有力的测试，并为了解保守的调控逻辑提供了窗口，但有效弥合物种特异的基因组差异仍是一个主要障碍。结果：我们提出了MORALE，一种新颖且可扩展的域适应框架，显著推进了转录因子（TF）结合的跨物种预测。通过跨物种对齐序列嵌入的统计矩，MORALE使深度学习模型能够学习物种不变的调控特征，而无需对抗训练或复杂架构。应用于多物种TF ChIP-seq数据集，MORALE实现了最先进的性能——在所有TF上均优于基线和对抗方法——同时保持模型可解释性，并以更高精度恢复典型基序。在五物种迁移设置中，MORALE不仅将人类预测准确性提升至超越仅人类训练的水平，还揭示了跨哺乳动物保守的调控特征。这些结果凸显了简单而强大的域适应技术在推动调控基因组学泛化和发现方面的潜力。关键的是，MORALE是架构无关的，可以无缝集成到任何基于嵌入的序列模型中。可用性：代码可在https://github.com/loudrxiv/frustrating获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40501927/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40501927/",
+  "paper_page_path": "papers/pubmed/40501927/index.html"
+}

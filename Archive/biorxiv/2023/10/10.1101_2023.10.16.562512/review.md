@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability, author contributions, competing interests, acknowledgments)
+- **Assessment boundary** Scientific content and technical soundness as presented in the provided text; no supplementary figures, tables, videos, or methods details were available for review
+- **Shared manuscript claim summary** The authors propose that p53 undergoes liquid-liquid phase separation (LLPS) in the nucleus of cancer cells and upon overexpression, forming liquid-like condensates that can bind DNA. They report that cancer-associated mutations (R175H, R248Q) promote misfolding and rigidification of these condensates, impairing DNA binding. They further propose that the nucleo-cytoplasmic environment, particularly nucleic acids, modulates p53 phase separation: RNA and non-specific DNA promote LLPS and maintain liquidity, while specific target DNA dissolves condensates. In vitro experiments with the p53 core domain (p53C) are presented to support these claims.
+- **Visible evidence base** Main text figures referenced: Fig. 1a–l, Fig. 2a–l, Fig. 3a–k, Fig. 4a–l, Fig. 5a–i, Fig. 6a–m; supplementary figures S1–S15; supplementary movies 1–6; methods summary in main text
+- **Missing materials affecting confidence** Supplementary figures, tables, movies, detailed methods, raw data, statistical analysis details, experimental replicates, and full figure legends were not provided. This substantially limits the ability to assess data quality, reproducibility, and statistical robustness.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and potentially important question regarding the phase separation behavior of p53 and its modulation by the cellular environment. The combination of cell-based imaging and in vitro reconstitution is appropriate and potentially powerful. However, the current evidence base, as presented in the text, has several gaps that prevent full evaluation. Key concerns include the lack of quantitative image analysis, limited statistical reporting, absence of key controls (e.g., for fusion events, FRAP normalization, DNA binding specificity), and incomplete characterization of the condensed state (e.g., whether "rigidification" corresponds to gelation, aggregation, or amyloid formation). The claim that nuclear p53 condensates are functional and that target DNA dissolves them is intriguing but not fully supported by the data described. The manuscript would benefit from more rigorous quantitative analysis and additional controls to strengthen the causal links proposed.
+- **Who would be interested in the results, and why** Researchers in the fields of phase separation and biomolecular condensates, p53 biology and tumor suppression, transcription factor regulation, and cancer biology. The work could also interest those studying the role of nucleic acids in modulating condensate properties and the links between condensate material states and disease.
+- **Major strengths** The study combines cell-based observations with in vitro reconstitution, which is a strong approach. The use of super-resolution microscopy (STED, lattice light-sheet) is appropriate for visualizing condensates. The hypothesis that the nucleo-cytoplasmic environment modulates p53 phase separation is well-motivated and conceptually interesting. The finding that specific DNA dissolves condensates while non-specific DNA promotes them is a potentially significant observation with implications for understanding p53 function at target gene loci.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that p53 forms liquid condensates in the nucleus of cancer cells and upon overexpression, supported by fusion events and FRAP recovery.
+  - **Evidence pointer** Fig. 1e–h, Fig. 1k–l, Fig. 2j; location not provided
+  - **Concern** The evidence for liquid-like behavior is based on fusion events and FRAP recovery, but no quantitative analysis is presented. For example, how many fusion events were observed, over what time scale, and how was "fusion" distinguished from simple overlap of two nearby condensates? FRAP recovery percentages are given (e.g., ~80% with t1/2 ~12 s), but the number of replicates, standard deviations, and the method of normalization are not described. Without this information, the claim that these condensates are liquid-like is not rigorously established.
+  - **Why it matters** The liquid-like state is central to the authors' model. If the condensates are not demonstrably liquid, the interpretation of subsequent experiments (e.g., rigidification, functional implications) is weakened.
+  - **Resolution test** Provide quantitative FRAP data with replicates and statistical analysis, and show representative fusion events with time-lapse images and quantification of fusion dynamics. Include controls for photobleaching and immobile fractions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that cancer-associated mutations (R175H, R248Q) promote a faster liquid-to-arrested-state transition in both nucleus and cytoplasm, and that this is associated with misfolding.
+  - **Evidence pointer** Fig. 1h, Fig. 2h, Fig. 2j–l; location not provided
+  - **Concern** The comparison between WT and mutant condensates is described qualitatively (e.g., "significantly reduced recovery" for mutants), but no statistical analysis is presented. The claim that mutants are more misfolded is based on Pab240 staining, but the quantification of this staining (e.g., intensity, colocalization coefficient) is not provided. Additionally, the relationship between misfolding and rigidification is inferred but not directly tested (e.g., by manipulating misfolding or using a misfolding-prone mutant).
+  - **Why it matters** The differential behavior of mutants is a key finding with potential clinical relevance. Without quantitative and statistical support, the claim is not convincing.
+  - **Resolution test** Provide quantitative FRAP data for WT and mutants with statistical comparisons (e.g., ANOVA with post-hoc tests). Quantify Pab240 colocalization with appropriate metrics and controls. Consider experiments that directly link misfolding to rigidification (e.g., using pharmacological chaperones or misfolding-inducing conditions).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that RNA and non-specific DNA promote p53C LLPS and maintain liquidity, while specific target DNA dissolves condensates.
+  - **Evidence pointer** Fig. 5a–f, Fig. 6a–g; location not provided
+  - **Concern** The in vitro experiments are described, but the concentrations of nucleic acids used, the stoichiometry relative to p53C, and the buffer conditions are not specified in the main text. The distinction between "target" and "non-target" DNA is based on sequence, but the specificity of the effect is not rigorously demonstrated. For example, is the dissolution effect specific to the p53 consensus sequence, or would any DNA with similar GC content or length have the same effect? The authors also do not show whether the effect of TR-DNA is dose-dependent or reversible.
+  - **Why it matters** The differential effect of specific versus non-specific DNA is a central mechanistic claim. If not rigorously established, the model of p53 condensates dissolving at target gene loci is speculative.
+  - **Resolution test** Provide detailed experimental conditions (concentrations, buffer, salt). Include dose-response experiments for TR-DNA and NTR-DNA. Test a range of DNA sequences with varying affinity for p53 to demonstrate specificity. Show reversibility of dissolution (e.g., by adding competing DNA or removing TR-DNA).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that nuclear p53 condensates are functional and that their dissolution upon target DNA binding is part of the p53 life cycle and function.
+  - **Evidence pointer** Fig. 3a–k; location not provided
+  - **Concern** The functional relevance of p53 condensates is inferred from p21 expression and DNA binding assays, but the direct link between condensate formation and transcriptional activity is not established. For example, the authors do not show that disrupting condensates (e.g., by mutating the IDR or using a small molecule) affects p21 expression or apoptosis. The claim that condensates act as a "ready pool" of functional p53 is speculative without such perturbation experiments.
+  - **Why it matters** The functional significance of p53 phase separation is the most important claim in the manuscript. Without direct evidence linking condensate state to function, the broader relevance of the work is limited.
+  - **Resolution test** Perform experiments where condensate formation is perturbed (e.g., by mutating predicted DPRs, using 1,6-hexanediol, or optogenetic tools) and measure effects on p21 expression, DNA binding, and apoptosis. Alternatively, show that p53 condensates recruit RNA Pol II or other transcriptional machinery at target loci.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Fig. 1a
+  - **Evidence pointer** Fig. 1a; location not provided
+  - **Issue** The domain architecture figure is described in the text but not shown in the provided material. The description of "low complexity region (63-89 residues)" and "multiple disordered regions" is clear, but the figure would help readers understand the domain organization.
+  - **Required correction** Ensure Fig. 1a clearly labels all domains, disordered regions, and the DPRs predicted by FuzDrop.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods summary
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The methods summary is brief and refers to supplementary information for details. Key parameters such as protein concentration, salt concentration, temperature, and time for in vitro LLPS assays are not given in the main text.
+  - **Required correction** Provide key experimental parameters in the main text or ensure the supplementary methods are complete and accessible.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Fig. 3c
+  - **Evidence pointer** Fig. 3c; location not provided
+  - **Issue** The apoptosis data (Annexin-PI assay) is described as showing "a gradual increase in apoptotic population," but no statistical analysis or error bars are mentioned.
+  - **Required correction** Include statistical analysis (e.g., mean ± SEM, n, p-values) for apoptosis data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Fig. 4l
+  - **Evidence pointer** Fig. 4l; location not provided
+  - **Issue** The lack of ThT and CR binding is interpreted as evidence that aggregates are not amyloid. However, ThT and CR can have false negatives for certain amyloid structures. This should be acknowledged.
+  - **Required correction** Acknowledge the limitations of ThT and CR assays and consider additional methods (e.g., electron microscopy with amyloid-specific stains, X-ray diffraction) to rule out amyloid formation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Fig. 6h–j
+  - **Evidence pointer** Fig. 6h–j; location not provided
+  - **Issue** The spatial distribution of TR-DNA, NTR-DNA, and p53C in residual condensates is described, but the images are not provided. The description of "hollow-ring-like condensates" is interesting but hard to evaluate without images.
+  - **Required correction** Ensure the figures clearly show the spatial distribution with appropriate color coding and scale bars.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative analysis of liquid-like behavior), R1-M2 (statistical comparison of WT vs mutants), R1-M3 (specificity and conditions for nucleic acid effects), R1-M4 (direct link between condensates and function)
+- **Assessment against Nature-style criteria** Originality: The work addresses a novel question regarding p53 phase separation and its modulation by the nucleo-cytoplasmic environment. While phase separation of transcription factors is an active area, the specific focus on p53 and the differential effects of specific versus non-specific DNA is original. Scientific importance: The potential link between p53 phase separation, cancer mutations, and transcriptional function is of high importance. If rigorously established, this could have implications for understanding p53 loss-of-function in cancer. Interdisciplinary readership: The topic bridges cell biology, biophysics, and cancer biology, which could attract a broad readership. Technical soundness: The technical approach is appropriate, but the current evidence base has gaps in quantitative analysis and controls that need to be addressed. Readability for nonspecialists: The manuscript is generally well-written and accessible, but some sections (e.g., in vitro LLPS experiments) may be challenging for nonspecialists without more context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is interesting and potentially significant, but the current evidence does not fully establish the central claims. The authors need to provide quantitative data, statistical analysis, and additional controls to strengthen the case.
+
+## Risk / unsupported claims
+- The claim that nuclear p53 condensates are functional and act as a "ready pool" for DNA binding is not directly supported by perturbation experiments.
+- The claim that specific DNA dissolves p53 condensates is based on in vitro experiments, but the physiological relevance is not demonstrated.
+- The claim that cancer mutations promote misfolding and rigidification is supported by Pab240 staining, but the quantification and direct link to function are lacking.
+- The claim that cytoplasmic condensates undergo a liquid-to-arrested-state transition is based on FRAP and morphology, but the molecular nature of the arrested state (e.g., gel, aggregate, amyloid) is not characterized.
+- The claim that RNA and non-specific DNA promote LLPS and maintain liquidity is based on in vitro experiments, but the concentrations and conditions are not fully specified, and the mechanism is not explored.

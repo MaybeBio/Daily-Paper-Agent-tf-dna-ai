@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34291709",
+  "title": "DBP-GAPred: An intelligent method for prediction of DNA-binding proteins types by enhanced evolutionary profile features with ensemble learning.",
+  "authors": "Barukab, Omar; Ali, Farman; Khan, Sher Afzal",
+  "journal": "Journal of bioinformatics and computational biology",
+  "published_date": "2021-07-23",
+  "window": {
+    "start": "2021-07-19",
+    "end": "2021-07-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用PSSM增强特征和集成学习预测DNA结合蛋白类型（ssDBPs/dsDBPs），属广义蛋白-DNA互作分类，但未涉及TF-DNA特异性结合或三维互作建模，方法可迁移性有限。",
+  "abstract": "DNA-binding proteins (DBPs) perform an influential role in diverse biological activities like DNA replication, slicing, repair, and transcription. Some DBPs are indispensable for understanding many types of human cancers (i.e. lung, breast, and liver cancer) and chronic diseases (i.e. AIDS/HIV, asthma), while other kinds are involved in antibiotics, steroids, and anti-inflammatory drugs designing. These crucial processes are closely related to DBPs types. DBPs are categorized into single-stranded DNA-binding proteins (ssDBPs) and double-stranded DNA-binding proteins (dsDBPs). Few computational predictors have been reported for discriminating ssDBPs and dsDBPs. However, due to the limitations of the existing methods, an intelligent computational system is still highly desirable. In this work, features from protein sequences are discovered by extending the notion of dipeptide composition (DPC), evolutionary difference formula (EDF), and K-separated bigram (KSB) into the position-specific scoring matrix (PSSM). The highly intrinsic information was encoded by a compression approach named discrete cosine transform (DCT) and the model was trained with support vector machine (SVM). The prediction performance was further boosted by the genetic algorithm (GA) ensemble strategy. The novel predictor (DBP-GAPred) acquired 1.89%, 0.28%, and 6.63% higher accuracies on jackknife, 10-fold, and independent dataset tests, respectively than the best predictor. These outcomes confirm the superiority of our method over the existing predictors.",
+  "abstract_zh": "DNA结合蛋白（DBPs）在DNA复制、切割、修复和转录等多种生物活动中发挥着重要作用。某些DBPs对于理解多种人类癌症（如肺癌、乳腺癌和肝癌）及慢性疾病（如艾滋病/艾滋病毒、哮喘）至关重要，而其他类型的DBPs则参与抗生素、类固醇和抗炎药物的设计。这些关键过程与DBPs的类型密切相关。DBPs被分为单链DNA结合蛋白（ssDBPs）和双链DNA结合蛋白（dsDBPs）。已有少数计算预测器用于区分ssDBPs和dsDBPs。然而，由于现有方法的局限性，仍迫切需要一种智能计算系统。在本工作中，通过将二肽组成（DPC）、进化差异公式（EDF）和K分离双字母组（KSB）的概念扩展到位置特异性评分矩阵（PSSM）中，发现了蛋白质序列的特征。高度内在信息通过一种名为离散余弦变换（DCT）的压缩方法进行编码，并使用支持向量机（SVM）训练模型。预测性能通过遗传算法（GA）集成策略进一步提升。新型预测器（DBP-GAPred）在刀切法、10折交叉验证和独立数据集测试中分别比最佳预测器高出1.89%、0.28%和6.63%的准确率。这些结果证实了我们的方法优于现有预测器。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34291709/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34291709/",
+  "paper_page_path": "papers/pubmed/34291709/index.html"
+}

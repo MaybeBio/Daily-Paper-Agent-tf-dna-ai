@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Computational methods, results, and interpretations as presented; no independent replication or access to supplementary materials
+- **Shared manuscript claim summary** The authors apply network theory analyses, specifically heat kernel embeddings and Wasserstein distance-based embedding error metrics, to molecular dynamics (MD) simulation trajectories of the p53 DNA-binding domain (DBD) to characterize long-range electrostatic reorganization induced by the Y220C mutation and to evaluate the differential efficacy of five small-molecule allosteric effector compounds in restoring wild-type-like electrostatic dynamics.
+- **Visible evidence base** Main text including abstract, introduction, results (Sections 2.1-2.2), discussion (Sections 3.1-3.6), materials and methods (Sections 4.1-4.8), conclusions, and acknowledgments. Figures 1-6 and Table 1 are referenced but not visible. Supplementary figures S1-S6 are referenced but not visible.
+- **Missing materials affecting confidence** All figures and Table 1 are not provided, preventing direct evaluation of the primary visual evidence. Supplementary materials, including code, histograms, scree plots, and embedding projections, are not accessible. MD trajectory source details from Han et al. [30] are only partially described. Statistical details, such as confidence intervals or significance testing for EED values, are not reported.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting application of network theory to a clinically relevant problem, namely the allosteric rescue of the p53 Y220C mutant. The methodological framework, combining heat kernel embeddings with Wasserstein distance metrics, is conceptually sound and could offer a useful complement to existing structural analyses. However, the current manuscript has several significant limitations that prevent a full assessment of the claims. The absence of all figures and Table 1 is a major barrier, as the results are described almost entirely through these visualizations. The methods section lacks critical details on network construction thresholds, validation of the "knee point" approach, and the statistical treatment of EED values. The interpretation of results, particularly the claim that compound 22 is a promising therapeutic alternative to PK11000, appears to extend beyond what the computational evidence can directly support. The manuscript would benefit from clearer articulation of what is novel relative to prior work from the same group, and from a more cautious framing of the biological implications.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying allosteric regulation in p53 and other tumor suppressors would find the methodological approach of interest. Researchers in the drug discovery community, particularly those focused on reactivating mutant p53, may be interested in the comparative ranking of effector compounds. However, the audience is likely to be specialized, and the broader cancer biology community may find the lack of experimental validation limiting.
+- **Major strengths** The study addresses a clinically important problem, the rescue of a common p53 cancer mutant, using a sophisticated computational framework. The focus on long-range electrostatic interactions, rather than purely structural or contact-based measures, is a thoughtful and potentially more sensitive approach to capturing allosteric effects. The use of Wasserstein distance to compare distributions of embeddings is statistically principled. The authors are transparent about the source of MD trajectories and the processing steps, which aids reproducibility. The discussion of specific regions, such as the S6-S7 loop and residue R209, connects the computational findings to known functional and mutational data, adding biological context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The results sections (2.1 and 2.2) describe key findings, including hub-like residues, embedding error distributions, and regional EED patterns, all of which are presented through Figures 1-6 and Table 1.
+  - **Evidence pointer** Figures 1-6, Table 1, location not provided
+  - **Concern** The manuscript's central results are entirely dependent on figures and a table that are not included in the provided material. The text descriptions, while detailed, cannot substitute for the actual data visualizations. For example, the claim that "residues with higher numbers of electrostatic interactions were reflected by node embeddings with values ≥ 0.0105 along PC1" requires the figure to verify the threshold and the distribution. Similarly, the regional analysis in Section 3.4 and the comparative efficacy of compounds in Figure 6b cannot be independently assessed.
+  - **Why it matters** Without the figures, the reader cannot evaluate the validity of the interpretations, the magnitude of the reported effects, or the basis for ranking compound efficacy. This is a fundamental barrier to assessing the manuscript's claims.
+  - **Resolution test** Provide all figures and Table 1 with appropriate legends and axis labels. Ensure that all claims in the text are directly traceable to specific panels in the figures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The methods describe the construction of locally thresholded interaction networks (Section 4.2) and the optimization of the diffusion parameter t using a "knee point" detection algorithm (Section 4.4).
+  - **Evidence pointer** Section 4.2, Section 4.4, location not provided
+  - **Concern** The description of the network construction and thresholding is insufficiently detailed. The authors state that edge weights were "normalized and thresholded to sparsify the networks" but do not specify the normalization method, the threshold value or criterion, or how the choice of threshold affects the results. Similarly, the "knee point" algorithm for selecting t = 6 is mentioned but not described; the reader cannot assess whether this choice is robust or arbitrary. The scree plot in Figure S3 is referenced but not visible.
+  - **Why it matters** The entire analysis depends on these parameters. If the thresholding or the diffusion parameter is chosen in a way that is not justified or is overly sensitive, the resulting networks and embeddings may not be meaningful. The lack of detail prevents replication and undermines confidence in the robustness of the findings.
+  - **Resolution test** Provide a detailed description of the normalization and thresholding procedure, including the exact criterion used. Describe the knee point algorithm and justify the choice of t = 6, ideally with a sensitivity analysis showing that results are stable across a range of t values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical validity
+  - **Claim pointer** The EED analysis (Section 2.2, Figure 5) and the regional analysis (Section 3.4, Figure 6) report differences in embedding errors and EED values across constructs and regions.
+  - **Evidence pointer** Section 2.2, Section 3.4, location not provided
+  - **Concern** The manuscript reports EED values and proportions of residues with high EED values but provides no statistical framework for assessing the significance of these observations. There is no mention of confidence intervals, bootstrapping, or hypothesis testing. The comparison of compound efficacy, particularly the claim that compound 22 is uniquely effective in restoring L6, S6-S7, and L1 simultaneously, appears to be based on descriptive statistics alone.
+  - **Why it matters** Without an assessment of variability or significance, it is impossible to know whether the observed differences between compounds are meaningful or within the noise of the method. This is critical for the central claim of differential drug efficacy.
+  - **Resolution test** Add statistical analyses, such as bootstrapped confidence intervals for EED values or permutation tests comparing compound effects, to support the claims of differential efficacy.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and context
+  - **Claim pointer** The introduction and discussion position the work as a novel application of network theory to allosteric drug rescue in p53.
+  - **Evidence pointer** Section 1, Section 3, location not provided
+  - **Concern** The authors reference prior work from the Thayer lab using MD-MSM and MD-Sector analyses on the same system [13], but the novelty of the current approach relative to that work is not clearly articulated. It is unclear what new biological or methodological insight the heat kernel and Wasserstein distance approach provides over the previously published analyses. The discussion would benefit from a more explicit comparison of the current findings with those from [13].
+  - **Why it matters** For a methods-oriented paper, the novelty of the approach is a key selling point. If the current method largely recapitulates prior findings, the contribution is incremental. If it provides new insights, these need to be highlighted.
+  - **Resolution test** Add a section in the discussion that explicitly compares the current results with those from [13], highlighting what is new and what is confirmed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, description of EED analysis
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Issue** The notation for EED values is introduced in a confusing manner. The text states "let EEY220C,Y220Cdj denote the Wasserstein embedding error value of p53-residue i in the calculated embedding error distribution between construct x and Y220C mutant-bound p53 to drug dj." The use of "x" is undefined and the subscript notation is inconsistent with the later equation (3).
+  - **Required correction** Clarify the notation. Define all variables clearly and ensure consistency between the text and equation (3).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.1, MD simulation specifications
+  - **Evidence pointer** Section 4.1, location not provided
+  - **Issue** The methods state that trajectories were sourced from Han et al. [30] but do not provide any validation of the simulation quality, such as RMSD plots or convergence metrics, beyond a brief mention of RMSD convergence analyses.
+  - **Required correction** Include a brief summary of the convergence metrics or refer to the original publication for details, to assure the reader of the quality of the input data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.6, discussion of compound 22
+  - **Evidence pointer** Section 3.6, location not provided
+  - **Issue** The claim that compound 22 is a "safer therapeutic alternative" to PK11000 is based on the absence of covalent binding, but the manuscript does not discuss potential off-target effects or toxicity of compound 22 itself.
+  - **Required correction** Soften the claim or add a caveat that safety is inferred only from the lack of covalent modification and requires experimental validation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.4, regional analysis
+  - **Evidence pointer** Section 3.4, location not provided
+  - **Issue** The section repeats much of the results from Section 2.2 without adding new interpretation. This makes the discussion feel redundant.
+  - **Required correction** Condense the discussion to focus on interpretation and implications, rather than restating results.
+- **Technical failings that need to be addressed before the case is established** The absence of all figures and Table 1 is the most critical failing, as it prevents verification of the primary results. The lack of detail on network thresholding and the diffusion parameter selection is a second major issue, as these are central to the method. The absence of any statistical analysis of the EED values is a third issue, as it undermines the claims of differential drug efficacy. These need to be addressed before the manuscript's conclusions can be considered established.
+- **Assessment against Nature-style criteria** Originality: The application of heat kernel embeddings and Wasserstein distances to allosteric analysis in p53 is a reasonable extension of existing network methods, but the novelty is not clearly established relative to prior work from the same group. Scientific importance: The problem of rescuing mutant p53 is of high importance, and the potential to rank drug candidates computationally is valuable. However, the current study is purely computational and lacks experimental validation, limiting its immediate impact. Interdisciplinary readership: The methods are likely to be of interest to computational biophysicists and structural biologists, but the presentation may be too specialized for a broader chemistry or biology audience. Technical soundness: The conceptual framework is sound, but the lack of methodological detail and statistical rigor raises concerns about the robustness of the findings. Readability for nonspecialists: The manuscript is clearly written but assumes familiarity with network theory and MD simulations, which may limit accessibility. Overall, the manuscript has potential but is not yet at the level of a high-impact general journal.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, and the authors have access to the necessary data and methods. However, the manuscript in its current form cannot be accepted due to the missing evidence and methodological gaps. The authors should be encouraged to resubmit after addressing the major concerns, particularly by providing the figures, detailing the methods, and adding statistical support for their claims.
+
+## Risk / unsupported claims
+- The claim that compound 22 is a "safer therapeutic alternative" to PK11000 is unsupported, as no toxicity or off-target data are presented.
+- The claim that the method "effectively detected the differential efficacies" of the compounds is not fully supported without statistical analysis or experimental validation.
+- The statement that "32% of residues with high EED values are located in the beta-sheet core" cannot be verified without Figure 6 or a detailed table.
+- The generalizability of the method to "any residue of interest in systems for which MD simulations are available" is an overstatement, as the method has only been demonstrated on one system and the sensitivity to parameters is unknown.
+- The biological interpretation that compound 22 "re-establishes" wild-type-like dynamics is an inference from computational metrics and is not directly validated by functional assays.

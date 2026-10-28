@@ -1,0 +1,350 @@
+{
+  "identity": {
+    "pmid": "42467704",
+    "doi": "10.1371/journal.pgen.1012222",
+    "title": "Identifying severe COVID-19 risk variants modulating enhancer reporter activity in lung cells."
+  },
+  "content": {
+    "abstract": "Common genetic variants contribute to risk for complex human diseases. However, despite thousands of associations, variants modulating disease risk and their functional impact remain largely unknown. This includes SARS-CoV-2 infection, where outcomes range from asymptomatic to fatal. Most genetic risk variants associated with COVID-19 disease, identified through genome wide association studies, are located in the non-coding genome and may function by altering gene expression in disease-relevant cells and tissues. To address this at scale, we tested >4800 severe COVID-19-associated variants to determine the impact of individual variants and variant combinations on regulatory activity using Self-Transcribing Active Regulatory Region sequencing, a massively-parallel reporter assay. Focusing on variants that may have their impact in the lung, in a lung epithelial cell line (A549) we identify 166 variants within active sequences, of which 29 modulate activity allele-specifically. Evaluating variant combinations, we observe both additive and non-additive effects on regulatory activity. We employ state-of-the-art deep learning models to interpret allele-specific variant effects on regulatory activity and endogenous genomic features. Our work provides a set of prioritised severe COVID-19-associated variants that modulate regulatory activity in lung epithelial cells, candidate transcription factors, and candidate target genes with potential to be disease modifying.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*COVID-19/genetics/virology/pathology",
+      "*Enhancer Elements, Genetic/genetics",
+      "*SARS-CoV-2/genetics",
+      "Genome-Wide Association Study",
+      "*Lung/virology/metabolism/pathology",
+      "A549 Cells",
+      "Genetic Predisposition to Disease",
+      "Genes, Reporter",
+      "Alleles",
+      "Genetic Variation",
+      "Epithelial Cells",
+      "Polymorphism, Single Nucleotide"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Weykopf, Giovanna",
+        "Bickmore, Wendy A",
+        "Biddie, Simon C",
+        "Friman, Elias T"
+      ],
+      "short_names": [
+        "Weykopf G",
+        "Bickmore WA",
+        "Biddie SC",
+        "Friman ET"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-2048-4796",
+        "ORCID: 0000-0001-6660-7735",
+        "ORCID: 0000-0001-9944-6560"
+      ],
+      "affiliations": [
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, United Kingdom.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, United Kingdom.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, United Kingdom.",
+        "Intensive Care Unit, Royal Infirmary of Edinburgh, Edinburgh, United Kingdom.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Weykopf, Giovanna",
+        "short_name": "Weykopf G",
+        "identifiers": [
+          "0009-0006-2048-4796"
+        ],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Bickmore, Wendy A",
+        "short_name": "Bickmore WA",
+        "identifiers": [
+          "0000-0001-6660-7735"
+        ],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Biddie, Simon C",
+        "short_name": "Biddie SC",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, United Kingdom.",
+          "Intensive Care Unit, Royal Infirmary of Edinburgh, Edinburgh, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Friman, Elias T",
+        "short_name": "Friman ET",
+        "identifiers": [
+          "0000-0001-9944-6560"
+        ],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS genetics"
+    ],
+    "journal_abbrev": [
+      "PLoS Genet"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/17 23:02",
+    "fetched_at": "2026-10-02 01:51:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42393744",
+      "41741648",
+      "41606153",
+      "41501460",
+      "41420925",
+      "41265437",
+      "41153440",
+      "40205616",
+      "40205063",
+      "40025489",
+      "39965570",
+      "39910069",
+      "39848247",
+      "39814889",
+      "39753113",
+      "39579740",
+      "39466470",
+      "39443793",
+      "38942804",
+      "38191623",
+      "37857933",
+      "37762093",
+      "37674002",
+      "37603556",
+      "37198478",
+      "36941077",
+      "36763080",
+      "36680215",
+      "36423637",
+      "36043696",
+      "36037215",
+      "35354968",
+      "35298243",
+      "35255492",
+      "35193936",
+      "34737427",
+      "34581622",
+      "34404754",
+      "34083488",
+      "33729549",
+      "33689769",
+      "33602314",
+      "33590861",
+      "33405482",
+      "33331649",
+      "33307546",
+      "33057197",
+      "33046894",
+      "32728249",
+      "32248749",
+      "32180801",
+      "31710517",
+      "31503413",
+      "31427789",
+      "31253979",
+      "30866806",
+      "30618377",
+      "30575722",
+      "30473701",
+      "30467342",
+      "29789573",
+      "29752282",
+      "28100584",
+      "27863239",
+      "27693352",
+      "26287746",
+      "25516281",
+      "25505178",
+      "25260700",
+      "25205466",
+      "24485249",
+      "23716395",
+      "23583980",
+      "23418343",
+      "23328393",
+      "23220500",
+      "22955828",
+      "22955616",
+      "22388286",
+      "22371081",
+      "20513432",
+      "19210659",
+      "19158813",
+      "17555970",
+      "17512142",
+      "15128701",
+      "11053448",
+      "4357758"
+    ],
+    "similar": [
+      "42467704",
+      "40846081",
+      "33626337",
+      "24920305",
+      "40421528",
+      "34065289",
+      "38906146",
+      "33536081",
+      "39876559",
+      "27096366",
+      "30079747",
+      "40205616",
+      "29956121",
+      "32442411",
+      "41578410",
+      "32248749",
+      "38997781",
+      "37749132",
+      "33164753",
+      "41465135",
+      "40966877",
+      "36763080",
+      "33828297",
+      "39107801",
+      "41761307",
+      "33714028",
+      "38369936",
+      "39557769",
+      "26915270",
+      "40838804",
+      "33607284",
+      "29351903",
+      "39684907",
+      "40318978",
+      "35887306",
+      "34998241",
+      "41314149",
+      "25211022",
+      "39615159",
+      "34762851",
+      "34737427",
+      "29625024",
+      "28754724",
+      "38947339",
+      "34033342",
+      "32946763",
+      "39711218",
+      "42056104",
+      "34072601",
+      "40670354",
+      "37932299",
+      "27409348",
+      "42234579",
+      "33883027",
+      "31691800",
+      "27357287",
+      "35563239",
+      "41012626",
+      "35513721",
+      "39796169",
+      "40375105",
+      "35940203",
+      "25434007",
+      "39341862",
+      "41064594",
+      "38413607",
+      "27259154",
+      "42049757",
+      "34529725",
+      "41265437",
+      "29061142",
+      "39910069",
+      "33152068",
+      "22590553",
+      "28683716",
+      "24439111",
+      "34889888",
+      "31421124",
+      "41057608",
+      "26492816",
+      "41268733",
+      "41311061",
+      "39191651",
+      "29378629",
+      "40591496",
+      "41096905",
+      "41927765",
+      "39753113",
+      "31322430",
+      "34402426",
+      "41915226",
+      "33712570",
+      "30445632",
+      "34852650",
+      "39631147",
+      "27005890",
+      "34489471",
+      "42393744",
+      "35373860",
+      "25918370"
+    ],
+    "review": [
+      "42467704",
+      "26915270",
+      "33607284"
+    ],
+    "pmc": [
+      "13399529"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pgen.1012222",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42467704/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "35075100",
+    "doi": "10.12659/MSM.934102",
+    "title": "Virtual Screening and Molecular Docking to Study the Mechanism of Chinese Medicines in the Treatment of Coronavirus Infection."
+  },
+  "content": {
+    "abstract": "BACKGROUND Heat-clearing and detoxifying herbs (HDHs) play an important role in the prevention and treatment of coronavirus infection. However, their mechanism of action needs further study. This study aimed to explore the anti-coronavirus basis and mechanism of HDHs. MATERIAL AND METHODS Database mining was performed on 7 HDHs. Core ingredients and targets were screened according to ADME rules combined with Neighborhood, Co-occurrence, Co-expression, and other algorithms. GO enrichment and KEGG pathway analyses were performed using the R language. Finally, high-throughput molecular docking was used for verification. RESULTS HDHs mainly acts on NOS3, EGFR, IL-6, MAPK8, PTGS2, MAPK14, NFKB1, and CASP3 through quercetin, luteolin, wogonin, indirubin alkaloids, ss-sitosterol, and isolariciresinol. These targets are mainly involved in the regulation of biological processes such as inflammation, activation of MAPK activity, and positive regulation of NF-kappaB transcription factor activity. Pathway analysis further revealed that the pathways regulated by these targets mainly include: signaling pathways related to viral and bacterial infections such as tuberculosis, influenza A, Ras signaling pathways; inflammation-related pathways such as the TLR, TNF, MAPK, and HIF-1 signaling pathways; and immune-related pathways such as NOD receptor signaling pathways. These pathways play a synergistic role in inhibiting lung inflammation and regulating immunity and antiviral activity. CONCLUSIONS HDHs play a role in the treatment of coronavirus infection by regulating the body's immunity, fighting inflammation, and antiviral activities, suggesting a molecular basis and new strategies for the treatment of COVID-19 and a foundation for the screening of new antiviral drugs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Alkaloids/chemistry/pharmacology",
+      "Caspase 3/drug effects/genetics",
+      "Coronavirus/*drug effects/metabolism",
+      "Coronavirus Infections/drug therapy",
+      "Cyclooxygenase 2/drug effects/genetics",
+      "Databases, Pharmaceutical",
+      "Drugs, Chinese Herbal/chemistry/*pharmacology/therapeutic use",
+      "Flavanones/chemistry/pharmacology",
+      "Humans",
+      "Indoles/chemistry/pharmacology",
+      "Interleukin-6/genetics",
+      "Lignin/chemistry/pharmacology",
+      "Luteolin/chemistry/pharmacology",
+      "Mitogen-Activated Protein Kinase 14/drug effects/genetics",
+      "Mitogen-Activated Protein Kinase 8/drug effects/genetics",
+      "Molecular Docking Simulation",
+      "NF-kappa B p50 Subunit/drug effects/genetics",
+      "Naphthols/chemistry/pharmacology",
+      "Nitric Oxide Synthase Type III/drug effects/genetics",
+      "Protein Interaction Maps",
+      "Quercetin/chemistry/pharmacology",
+      "SARS-CoV-2/*drug effects/metabolism",
+      "Signal Transduction",
+      "Sitosterols/chemistry/pharmacology",
+      "Transcriptome/drug effects/genetics",
+      "*COVID-19 Drug Treatment"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ping, Fan",
+        "Wang, Yanxia",
+        "Shen, Xia",
+        "Tan, Conge",
+        "Zhu, Lin",
+        "Xing, Wenwen",
+        "Xu, Jun"
+      ],
+      "short_names": [
+        "Ping F",
+        "Wang Y",
+        "Shen X",
+        "Tan C",
+        "Zhu L",
+        "Xing W",
+        "Xu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Pharmacy, Shaanxi University of Chinese Medicine, Xianyang, Shaanxi, China (mainland).",
+        "College of Pharmacy, Shaanxi University of Chinese Medicine, Xianyang, Shaanxi, China (mainland).",
+        "College of Pharmacy, Shaanxi University of Chinese Medicine, Xianyang, Shaanxi, China (mainland).",
+        "College of Basic Medicine, Shaanxi University of Chinese Medicine, Xianyang, Shaanxi, China (mainland).",
+        "College of Pharmacy, Shaanxi University of Chinese Medicine, Xianyang, Shaanxi, China (mainland).",
+        "College of Basic Medicine, Shaanxi University of Chinese Medicine, Xianyang, Shaanxi, China (mainland).",
+        "Chinese Medicine Research and Development Center, Tianjin Institute of Pharmaceutical Research, Tianjin, China (mainland)."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ping, Fan",
+        "short_name": "Ping F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Shaanxi University of Chinese Medicine, Xianyang, Shaanxi, China (mainland)."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanxia",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Shaanxi University of Chinese Medicine, Xianyang, Shaanxi, China (mainland)."
+        ]
+      },
+      {
+        "full_name": "Shen, Xia",
+        "short_name": "Shen X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Shaanxi University of Chinese Medicine, Xianyang, Shaanxi, China (mainland)."
+        ]
+      },
+      {
+        "full_name": "Tan, Conge",
+        "short_name": "Tan C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medicine, Shaanxi University of Chinese Medicine, Xianyang, Shaanxi, China (mainland)."
+        ]
+      },
+      {
+        "full_name": "Zhu, Lin",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Shaanxi University of Chinese Medicine, Xianyang, Shaanxi, China (mainland)."
+        ]
+      },
+      {
+        "full_name": "Xing, Wenwen",
+        "short_name": "Xing W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medicine, Shaanxi University of Chinese Medicine, Xianyang, Shaanxi, China (mainland)."
+        ]
+      },
+      {
+        "full_name": "Xu, Jun",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Chinese Medicine Research and Development Center, Tianjin Institute of Pharmaceutical Research, Tianjin, China (mainland)."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medical science monitor : international medical journal of experimental and clinical research"
+    ],
+    "journal_abbrev": [
+      "Med Sci Monit"
+    ],
+    "pub_date": "2022 Jan 25",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/26 06:00",
+    "fetched_at": "2026-09-28 04:33:33"
+  },
+  "links": {
+    "cites": [
+      "42548694",
+      "42063458",
+      "39130417",
+      "35683996",
+      "35563673"
+    ],
+    "refs": [
+      "34153851",
+      "33689451",
+      "33360370",
+      "33221457",
+      "33171821",
+      "32927253",
+      "32726645",
+      "32712334",
+      "32504068",
+      "32489064",
+      "32436824",
+      "32401715",
+      "32296570",
+      "32160845",
+      "32142651",
+      "32094589",
+      "31986264",
+      "31930040",
+      "31571160",
+      "30791550",
+      "30099288",
+      "29801717",
+      "29765498",
+      "27710942",
+      "27338826",
+      "26859324",
+      "20188673"
+    ],
+    "similar": [
+      "35075100",
+      "33191068",
+      "34731090",
+      "32445956",
+      "33054436",
+      "32643448",
+      "33513419",
+      "33274236",
+      "34605344",
+      "35227178",
+      "37732603",
+      "33376732",
+      "35442463",
+      "33029094",
+      "33357725",
+      "33831468",
+      "33082858",
+      "33746604",
+      "35859316",
+      "35438554",
+      "34088885",
+      "32978039",
+      "33146673",
+      "35029877",
+      "33485971",
+      "34273999",
+      "36164884",
+      "36471963",
+      "34313585",
+      "37833759",
+      "33645094",
+      "38775895",
+      "35069542",
+      "34692849",
+      "35227068",
+      "37009506",
+      "38864249",
+      "35750104",
+      "33877545",
+      "32767929",
+      "34077310",
+      "35837376",
+      "33658066",
+      "33158717",
+      "33134394",
+      "36890149",
+      "35430443",
+      "36471978",
+      "34997010",
+      "22414473",
+      "33845366",
+      "34873575",
+      "33581688",
+      "33135607",
+      "32593158",
+      "37653800",
+      "36164910",
+      "35503609",
+      "34941025",
+      "37843333",
+      "37855353",
+      "33299870",
+      "33691446",
+      "32505843",
+      "31760157",
+      "34472274",
+      "33452734",
+      "33444721",
+      "37773840",
+      "32632717",
+      "33421743",
+      "34791846",
+      "37218202",
+      "34746302",
+      "36604925",
+      "33241658",
+      "33441867",
+      "33140889",
+      "35366469",
+      "35988839",
+      "34493195",
+      "35838222",
+      "34986125",
+      "33358854",
+      "32081843",
+      "33382964",
+      "36034710",
+      "33573560",
+      "36590764",
+      "32359824",
+      "30647760",
+      "35947018",
+      "33251769",
+      "37799727",
+      "36581572",
+      "37694790",
+      "37881069",
+      "33953223",
+      "35237344",
+      "38206728",
+      "39394443"
+    ],
+    "review": [
+      "35075100",
+      "32445956",
+      "33358854"
+    ],
+    "pmc": [
+      "8800284"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.medscimonit.com/abstract/index/idArt/934102",
+        "provider": "International Scientific Literature, Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35075100/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35075100",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1260",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

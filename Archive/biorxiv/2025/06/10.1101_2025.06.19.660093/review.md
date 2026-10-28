@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability) as provided on bioRxiv.
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and presentation quality based solely on the provided text. No external data, figures, or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors present DeepCompARE, a lightweight convolutional neural network, and an in silico ablation (ISA) framework to systematically characterize transcription factor (TF) cooperativity across regulatory elements. They claim that most TF motif pairs act independently (additively), and define synergy and redundancy as opposite ends of a cooperativity spectrum. They further link TF redundancy to promoter function and broad expression, and TF synergy to enhancer activity, physical interactions, and cell-type specificity.
+- **Visible evidence base** Abstract, Introduction, Results (narrative only, no figures or tables visible), Discussion, Methods (partial), Data availability, Author contributions, Acknowledgements.
+- **Missing materials affecting confidence** All figures, supplementary figures, tables, and detailed methodological appendices are referenced but not provided. This severely limits the ability to evaluate the core results, model performance metrics, statistical analyses, and the validity of the cooperativity definitions.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant and timely question in gene regulation: the genome-wide rules of TF cooperativity. The proposed framework, combining a lightweight deep learning model with a novel ablation strategy, is conceptually appealing and computationally efficient. The authors present a clear conceptual framework distinguishing additive, redundant, and synergistic TF interactions. However, the current manuscript, as provided, is essentially a narrative summary without the supporting data, figures, or detailed methods necessary to verify the claims. The core findings, such as the prevalence of additivity, the cooperativity scores, and the functional associations, cannot be assessed. The manuscript has potential, but the evidence base is insufficient for a rigorous evaluation.
+- **Who would be interested in the results, and why** Researchers in gene regulation, computational biology, and genomics would be interested. The work offers a scalable method for interpreting deep learning models of regulatory DNA and provides a quantitative framework for understanding TF cooperativity, which is central to deciphering cis-regulatory logic. The potential link between cooperativity modes and enhancer/promoter function is of broad interest.
+- **Major strengths**
+    1.  **Conceptual Clarity**: The authors clearly define and distinguish between additive, redundant, and synergistic TF interactions, addressing a known source of confusion in the field.
+    2.  **Methodological Innovation**: The ISA framework is a computationally efficient alternative to ISM, enabling genome-wide analyses that would otherwise be intractable. The lightweight model design is a practical contribution.
+    3.  **Biological Insight**: The proposed link between TF redundancy and promoter robustness, and TF synergy and enhancer specificity, provides a compelling and testable hypothesis.
+    4.  **Validation Strategy**: The use of multiple regulatory assays (CAGE, DNase, STARR, SuRE) and benchmarking against a state-of-the-art model (Enformer) is a strong approach.
+- **Major Concerns**
+    - **R1-M1**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Evidence
+        - **Claim pointer** The manuscript claims that DeepCompARE achieves high prediction accuracy and performs better or on par with Enformer on variant effect prediction.
+        - **Evidence pointer** Results section, "Deep comparative modeling of regulatory activity from DNA sequence with DeepCompARE"; Supplementary Figures 1 and 2 (not provided).
+        - **Concern** The central performance claims of the model are presented without any quantitative data. The text mentions "high correlation" (mean Pearson R = 0.76) and benchmarking results, but the actual data, comparisons, and statistical significance are not shown in the provided text. The reader cannot evaluate the model's accuracy or its claimed superiority/parity with Enformer.
+        - **Why it matters** The entire downstream analysis, including the cooperativity scores, is predicated on the model's ability to accurately predict regulatory activity. If the model's performance is not rigorously demonstrated, the biological conclusions drawn from its predictions are not trustworthy.
+        - **Resolution test** Provide the actual performance metrics (e.g., correlation coefficients, AUPRC) for all tracks and cell types, including error bars and comparisons to baseline models. Show the benchmarking results against Enformer, including the specific datasets and statistical tests used.
+    - **R1-M2**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Evidence
+        - **Claim pointer** The manuscript claims that "around half of TF pairs behave additively" and that synergy and redundancy are distinct modes of cooperativity with different functional associations.
+        - **Evidence pointer** Results section, "Pairwise independence between distant TF binding sites" and "Redundancy and synergy explain opposite modes of TF cooperativity"; Figures 3, 4, 5 (not provided).
+        - **Concern** The core biological findings are presented as narrative summaries without any supporting data. The distributions of independence, synergy, and redundancy scores, the statistical significance of the associations with promoter/enhancer activity, and the relationship with physical interactions are not shown. The definitions of the scores are given, but their application and the resulting biological patterns are not demonstrated.
+        - **Why it matters** The main contribution of the paper is the genome-wide characterization of TF cooperativity. Without the actual data, figures, and statistical analyses, these claims are unverifiable and the paper's central thesis is unsupported.
+        - **Resolution test** Show the distributions of cooperativity scores, the classification of TF pairs into additive/redundant/synergistic categories, and the statistical tests supporting the associations with regulatory element type, cell-type specificity, and PPI data. Provide the data behind Figures 3, 4, and 5.
+    - **R1-M3**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Methodology
+        - **Claim pointer** The manuscript defines a "cooperativity score" and uses it to classify TF pairs as independent, redundant, or synergistic.
+        - **Evidence pointer** Methods section, "Formal definition of cooperativity: redundancy and synergy".
+        - **Concern** The mathematical definitions are presented, but the practical implementation and interpretation are unclear. For instance, the choice of the interaction threshold (±0.1) is stated but not justified. More critically, the manuscript states that "the four modalities almost always agree on the cooperativity of all TF pairs," but the methodology for reconciling disagreements and the criteria for exclusion are not detailed. The process of aggregating scores across different sequence contexts and the handling of context-dependent effects need further clarification.
+        - **Why it matters** The cooperativity score is the central metric of the paper. If its calculation, normalization, and interpretation are not transparent and robust, the resulting biological conclusions are on shaky ground.
+        - **Resolution test** Provide a detailed, step-by-step description of how the cooperativity score is calculated, including the handling of different sequence contexts, the aggregation across modalities, and the justification for the interaction threshold. Show the concordance between modalities and the sensitivity of the results to the chosen thresholds.
+    - **R1-M4**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Methodology
+        - **Claim pointer** The manuscript claims that the ISA framework is a valid and efficient alternative to ISM for interpreting model predictions.
+        - **Evidence pointer** Results section, "Deep comparative modeling of regulatory activity from DNA sequence with DeepCompARE"; Supplementary Figure 2 (not provided).
+        - **Concern** The validation of ISA is mentioned (correlation with ISM), but the details are missing. The manuscript does not discuss the potential limitations of ISA, such as the effect of masking a motif on the model's ability to recognize other features, or the choice of the "N" masking strategy. The claim that ISA avoids the creation of novel motifs is made, but the comparison to ISM in this regard is not shown.
+        - **Why it matters** ISA is presented as a key methodological innovation. Its validity and limitations must be thoroughly demonstrated for the results to be credible.
+        - **Resolution test** Provide a detailed comparison of ISA and ISM, including the correlation of scores, the computational cost, and a discussion of the potential artifacts of each method. Show the data behind Supplementary Figure 2.
+- **Minor Comments**
+    - **R1-m1**
+        - **Severity** Minor
+        - **Axis** Clarity
+        - **Affected element** Introduction, paragraph 4
+        - **Evidence pointer** "The challenge is at least fourfold."
+        - **Issue** The four challenges are listed but not clearly connected to the specific solutions provided by the authors.
+        - **Required correction** Briefly state how each challenge is addressed by the proposed framework (e.g., "To address the lack of a baseline model, we...") to improve the logical flow.
+    - **R1-m2**
+        - **Severity** Minor
+        - **Axis** Reproducibility
+        - **Affected element** Methods, "CAGE experiment"
+        - **Evidence pointer** "SLIC-CAGE libraries were prepared as outlined in detail by Cvetesic, N et al., 2018."
+        - **Issue** The reference is incomplete (missing journal, volume, pages, DOI).
+        - **Required correction** Provide the full citation for the SLIC-CAGE protocol.
+    - **R1-m3**
+        - **Severity** Minor
+        - **Axis** Clarity
+        - **Affected element** Methods, "Formal definition of cooperativity"
+        - **Evidence pointer** The equations for e_AB, e_A|-B, etc.
+        - **Issue** The notation is dense and could be clearer for a general audience.
+        - **Required correction** Add a brief verbal explanation of each term and equation to aid readability.
+    - **R1-m4**
+        - **Severity** Minor
+        - **Axis** Presentation
+        - **Affected element** Discussion
+        - **Evidence pointer** "We further speculate that the synergy level of a regulatory element can be a proxy for its syntactical rigor."
+        - **Issue** The term "syntactical rigor" is introduced without a clear definition.
+        - **Required correction** Define what is meant by "syntactical rigor" and how it would be measured or recognized.
+- **Technical failings that need to be addressed before the case is established**
+    - R1-M1: Lack of quantitative evidence for model performance.
+    - R1-M2: Lack of data supporting the central biological claims.
+    - R1-M3: Insufficient detail on the calculation and interpretation of the cooperativity score.
+- **Assessment against Nature-style criteria**
+    - **Originality**: The conceptual framework for distinguishing additive, redundant, and synergistic interactions is a valuable contribution. The ISA method is a novel and practical approach. However, the originality of the biological findings cannot be assessed without the data.
+    - **Scientific importance**: The question of TF cooperativity is of fundamental importance. The potential to link cooperativity modes to enhancer/promoter function is significant. The importance is high, but the current evidence is insufficient to confirm the impact.
+    - **Interdisciplinary readership**: The topic is relevant to molecular biology, genomics, and computational biology. The writing is generally accessible, but the methods section is dense. The potential for broad interest is high.
+    - **Technical soundness**: The technical approach is sound in principle, but the lack of detail and supporting data prevents a full assessment. The validation of ISA and the robustness of the cooperativity scores are critical and currently unverified.
+    - **Readability for nonspecialists**: The abstract and introduction are clear. The results and methods are more technical and would be challenging for a nonspecialist. The narrative style is good, but the lack of figures makes it difficult to follow the results.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a compelling framework and interesting hypotheses, but the core claims are unsupported by the visible data. A thorough revision with full figures, detailed methods, and comprehensive statistical analyses is required before the scientific case can be evaluated.

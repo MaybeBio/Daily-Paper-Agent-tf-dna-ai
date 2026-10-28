@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report engineering a D-lactic acid (DLA) responsive promoter-repressor system from Pseudomonas fluorescens A506, codon-optimized and functionally validated in Lactobacillus delbrueckii subsp. bulgaricus VI104. They claim peak performance at 60-100 mM DLA, demonstrate application for dynamic control of D-lactate dehydrogenase (dldh) overexpression, confirm cross-species compatibility of regulatory elements, provide molecular docking insights into repressor-operator interactions, and report a 2.15-fold increase in DLA biosynthesis with a maximum titre of 9.02 g L(-1) in bioreactor.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, strain construction details, promoter-repressor characterization data, fluorometry and microscopy results, bioreactor fermentation profiles, docking methodology and validation, statistical analyses, and all primary data supporting quantitative claims
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of dynamic metabolic engineering in a non-model organism, L. bulgaricus, which is of biotechnological relevance. However, the current evidence base is limited to the abstract, and several claims require scrutiny regarding quantitative support, mechanistic interpretation, and generalizability. The work may be of interest to the synthetic biology and lactic acid bacteria engineering communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in dynamic metabolic engineering, synthetic biology, and lactic acid bacteria fermentation would be interested. The work offers a tool for controlled metabolite production in a food-grade organism, which could appeal to those developing biotherapeutics and probiotics. The cross-species compatibility and docking analyses may also interest molecular microbiologists studying regulatory systems.
+- **Major strengths** The study addresses a relevant gap by applying dynamic regulation in a non-model, industrially relevant organism. The use of a native promoter-repressor system re-engineered for the target host is a sensible approach. The application to dldh overexpression with autonomous growth-production transition is a practical demonstration. The inclusion of molecular docking adds mechanistic depth.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative claim support
+  - **Claim pointer** The engineered promoter construct elevated DLA biosynthesis by 2.15-fold and attained a maximum DLA titre of 9.02 g L(-1) in bioreactor setup.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a specific fold increase and titre value, but no information is provided on the comparator strain, culture conditions, biological replicates, or statistical variability. Without these details, the quantitative claims cannot be evaluated for robustness or significance.
+  - **Why it matters** The central application claim rests on these numbers. If the fold increase is not statistically validated or the titre is not reproducible, the practical utility of the system is undermined.
+  - **Resolution test** Provide full fermentation data with appropriate controls, replicate numbers, error bars, and statistical tests in the manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation of regulatory system
+  - **Claim pointer** The codon-optimized regulatory architecture exhibited peak performance at DLA inducer concentration range of 60-100 mM, validated by fluorometry and microscopy.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states peak performance but does not define the performance metric (e.g., dynamic range, response time, leakiness). Fluorometry and microscopy are mentioned but no data are shown. The inducer range is narrow, and it is unclear whether this range is physiologically relevant or whether higher concentrations cause toxicity or saturation.
+  - **Why it matters** The dynamic range and sensitivity of the promoter-repressor system are critical for its utility. Without defined metrics and data, the claim of "heightened sensitivity" is unsupported.
+  - **Resolution test** Include dose-response curves, dynamic range calculations, and representative microscopy images with quantification in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** Molecular docking elucidated critical noncovalent interactions between D-LldR repressor and operator nucleotide sequence in absence of inducer DLA.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** Docking studies are predictive and require experimental validation. The abstract does not specify the docking software, scoring function, or whether the predicted interactions were tested by mutagenesis. The phrase "critical" is strong and implies functional significance that is not demonstrated.
+  - **Why it matters** Overinterpretation of docking results can mislead readers about the mechanism. Without validation, the mechanistic claim remains speculative.
+  - **Resolution test** Provide docking parameters, validation of the model, and ideally site-directed mutagenesis data to confirm the predicted interactions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Cross-species compatibility
+  - **Claim pointer** Cross-species compatibility was confirmed by excising regulatory elements from the promoter-repressor system and functionally assessing them in recombinant L. bulgaricus.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract implies that regulatory elements from P. fluorescens were tested in L. bulgaricus, but it is unclear what "excising" means in this context. Were the elements tested in isolation or as part of a chimeric system? What functional readout was used? The claim of "cross-species compatibility" is vague.
+  - **Why it matters** The portability of the system is a key selling point. If the elements do not function as claimed, the generalizability of the approach is weakened.
+  - **Resolution test** Clarify the experimental design and provide functional data for the excised elements in the target host.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** "Dynamic metabolic engineering" and "autonomously regulating the transition between growth and production phases"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "autonomously" is used without defining the mechanism of transition. It is unclear whether the system responds to endogenous DLA or requires external induction.
+  - **Required correction** Define the trigger for the growth-to-production transition and clarify whether the system is truly autonomous or requires inducer addition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** "2.15-folds" and "9.02 g L(-1)"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The fold increase is reported without a comparator description, and the titre is given without fermentation time or productivity context.
+  - **Required correction** Specify the reference strain and conditions, and report titre alongside fermentation time and volumetric productivity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** "peak performance at DLA inducer concentration range of 60-100 mM"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The inducer range is reported as a range, but it is unclear whether this is the optimal range or the full tested range.
+  - **Required correction** Clarify whether 60-100 mM is the optimal window or the tested range, and report the response at concentrations outside this window.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core quantitative and functional claims are not supported by the abstract alone. R1-M3 and R1-M4 are non-blocking but require additional data for full validation.
+- **Assessment against Nature-style criteria** Originality: The application of a DLA-responsive system in L. bulgaricus is novel, but the concept of dynamic regulation is not new. Scientific importance: The work has potential for biotechnological applications, but the significance is not yet demonstrated beyond a single example. Interdisciplinary readership: The work may appeal to synthetic biologists and fermentation technologists, but the abstract is too narrow for broad interdisciplinary interest. Technical soundness: Cannot be fully assessed from the abstract; quantitative claims lack supporting data. Readability for nonspecialists: The abstract is reasonably clear but uses jargon without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The authors should provide full data to support the quantitative and functional claims. If the data are robust, the work could be of interest, but the case is not made from the abstract alone.
+
+## Risk / unsupported claims
+- The 2.15-fold increase in DLA biosynthesis and the maximum titre of 9.02 g L(-1) are unsupported without comparator details and statistical analysis.
+- The claim of "heightened sensitivity" of the re-engineered system is unsupported without defined performance metrics.
+- The "critical" noncovalent interactions predicted by docking are unsupported without experimental validation.
+- The "autonomous" transition between growth and production phases is not defined and is therefore not assessable.
+- The claim of "cross-species compatibility" is vague and not supported by specific functional data.

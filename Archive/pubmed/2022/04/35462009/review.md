@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a meta-learning-based CNN method (MLCNN) to predict transcription factor binding sites (TFBSs) from ChIP-seq data, aiming to suppress the influence of noisy labels arising from peak-calling errors. The method learns an explicit weighting function guided by a small amount of unbiased meta-data, assigns sample weights based on training loss, and is reported to outperform existing CNN methods on 424 ChIP-seq datasets while also detecting noisy samples.
+- **Visible evidence base** Abstract text only; no figures, tables, or detailed experimental descriptions provided
+- **Missing materials affecting confidence** Full methods, model architecture details, hyperparameter settings, dataset composition and preprocessing, baseline comparisons, statistical significance tests, visualization results, and case study details
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful approach to a recognized problem in TFBS prediction, namely the presence of noisy labels in ChIP-seq-derived training data. The meta-learning strategy is conceptually reasonable. However, the abstract provides insufficient technical detail and quantitative evidence to evaluate the validity, robustness, or generalizability of the claimed improvements. The core claims of superior performance and noise suppression cannot be assessed from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, particularly those developing deep learning models for TFBS prediction or other genomic classification tasks with noisy labels. Researchers interested in meta-learning applications in biology may also find the approach relevant.
+- **Major strengths** The problem addressed is well recognized and practically important. The proposed solution is conceptually novel in applying meta-learning to explicitly model and down-weight noisy samples in TFBS classification. The use of a small unbiased meta-dataset to guide weighting is a sensible design choice. The scale of evaluation across 424 datasets is potentially substantial.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The method "can adaptively learn an explicit weighting function from ChIP-seq data and update the parameter of classifier simultaneously" and "outperforms other existing state-of-the-art CNN methods"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not describe the architecture of the weighting function, the optimization procedure, the nature of the meta-data, or how the meta-data were obtained and verified as unbiased. Without these details, the technical soundness of the proposed meta-learning scheme cannot be assessed.  
+  - **Why it matters** The core novelty rests on the design and training of the weighting function. If the meta-data are not truly unbiased or the weighting function is not properly regularized, the method may simply overfit to the meta-set or fail to generalize.  
+  - **Resolution test** Provide a full description of the weighting function, meta-data construction, and training algorithm, including any theoretical guarantees or empirical validation of convergence and stability.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence quality  
+  - **Claim pointer** "The experimental results on 424 ChIP-seq datasets show that MLCNN not only outperforms other existing state-of-the-art CNN methods"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** No quantitative results are reported. There are no performance metrics, no baseline names, no statistical significance tests, and no description of how the 424 datasets were split or whether results are averaged or per-dataset.  
+  - **Why it matters** A claim of superior performance across 424 datasets is strong and requires rigorous statistical evidence. Without numbers or error bars, the claim is unverifiable.  
+  - **Resolution test** Report performance metrics (e.g., AUC, F1, precision, recall) for MLCNN and all baselines, with standard deviations or confidence intervals, and specify the statistical test used to establish significance.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** "MLCNN can also detect noisy samples which are given the small weights to suppress them"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The claim of noise detection is qualitative. No definition of "noisy sample" is given, no ground truth for noise is established, and no evaluation metric for detection accuracy is provided.  
+  - **Why it matters** If the method assigns low weights to samples that are not actually noisy, it may discard informative data. The utility of the noise detection claim depends on a clear and validated definition of noise.  
+  - **Resolution test** Define the noise model, provide a method to generate or identify ground-truth noisy labels, and report detection performance (e.g., precision, recall, or correlation with known noise levels).  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** "Several case studies demonstrate that MLCNN has superior performance to others"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The case studies are not described. It is unclear which cell types, TFs, or genomic contexts were used, and whether these cases are representative or cherry-picked.  
+  - **Why it matters** Case studies can illustrate behavior but do not substitute for systematic evaluation. Without context, the generalizability of the method remains unclear.  
+  - **Resolution test** Describe the case studies in detail, including selection criteria, and show that they are representative of the broader dataset distribution.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Method name  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The method is referred to as both TFBS_MLCNN and MLCNN. This dual naming may cause confusion.  
+  - **Required correction** Use a single consistent name throughout the manuscript.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Dataset description  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract states "424 ChIP-seq datasets" but does not specify the source, species, or TF diversity.  
+  - **Required correction** Provide a brief description of the dataset source and composition in the abstract or main text.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Baseline comparison  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The phrase "state-of-the-art CNN methods" is vague.  
+  - **Required correction** Name the specific baseline methods and cite them appropriately.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of architectural details, quantitative results, and a validated noise detection metric means the central claims are not currently supported.
+- **Assessment against Nature-style criteria**  
+  - Originality: The meta-learning approach to noise suppression in TFBS prediction appears conceptually novel, though the abstract does not allow verification of novelty against prior meta-learning applications in genomics.  
+  - Scientific importance: The problem of noisy labels in ChIP-seq data is important and widely relevant. If the method is validated, it could have broad utility.  
+  - Interdisciplinary readership: The work sits at the intersection of machine learning and genomics, which is of interest to both communities. However, the abstract is too technical for a general biology audience and too vague for a machine learning audience.  
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail and quantitative evidence is a major limitation.  
+  - Readability for nonspecialists: The abstract is reasonably clear in its motivation but uses terms such as "meta-learning" and "weighting function" without sufficient explanation for a broad readership.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising idea, but the absence of technical detail and quantitative results prevents any assessment of validity. A full manuscript with detailed methods, results, and statistical analysis would be required to evaluate the claims.
+
+## Risk / unsupported claims
+- The claim of superior performance over state-of-the-art CNN methods is unsupported due to lack of quantitative results.
+- The claim of noise detection capability is unsupported due to lack of a defined noise model and evaluation metrics.
+- The claim that the method "can adaptively learn an explicit weighting function" is unverifiable without architectural or algorithmic details.
+- The generalizability implied by "424 ChIP-seq datasets" is unverifiable without dataset composition and per-dataset results.

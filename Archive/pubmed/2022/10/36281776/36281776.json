@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "36281776",
+    "doi": "10.1002/bip.23524",
+    "title": "Association strength of E6 to E6AP/p53 complex correlates with HPV-mediated oncogenesis risk."
+  },
+  "content": {
+    "abstract": "Human papillomavirus (HPV) is recognized as the causative agent of cervical cancer in women, and it is associated with other anogenital and head/neck cancers. More than 120 types of HPV have been identified and many classified as high- or low-risk according to their oncogenic potential. One of its proteins, E6, has evolved to overcome the oncosuppressor functions of p53 by targeting this protein for degradation via interaction with the human ubiquitin-ligase E6AP. This study evaluates the correlation between the association strength of 40 HPV E6 types to the E6AP/p53 complex and the HPV oncogenesis risk using molecular simulations and machine and deep learning (ML/DL). In addition, a ML/DL-driven prediction is proposed for the HPV unclassified oncogenic risk type. The results indicate that thermodynamics play a pivotal role in the establishment of HPV-associated cancer and highlight the need to include some viral types in the HPV-related cancer surveillance and prevention strategies.",
+    "keywords": [
+      "binding free energy",
+      "cervical cancer",
+      "human papillomavirus",
+      "machine learning",
+      "molecular dynamics"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "Papillomaviridae/metabolism",
+      "*Oncogene Proteins, Viral/metabolism",
+      "Tumor Suppressor Protein p53/metabolism",
+      "*Papillomavirus Infections/complications",
+      "*Alphapapillomavirus/metabolism",
+      "Ubiquitin-Protein Ligases/metabolism",
+      "Carcinogenesis",
+      "*Neoplasms",
+      "Ubiquitin/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ferraz, Matheus Vitor Ferreira",
+        "Viana, Isabelle Freire Tabosa",
+        "Coelho, Danilo Fernandes",
+        "da Cruz, Carlos Henrique Bezerra",
+        "de Arruda Lima, Maira",
+        "de Luna Aragao, Madson Allan",
+        "Lins, Roberto Dias"
+      ],
+      "short_names": [
+        "Ferraz MVF",
+        "Viana IFT",
+        "Coelho DF",
+        "da Cruz CHB",
+        "de Arruda Lima M",
+        "de Luna Aragao MA",
+        "Lins RD"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6958-3115",
+        "ORCID: 0000-0003-4648-6635",
+        "ORCID: 0000-0002-1111-0825",
+        "ORCID: 0000-0003-3490-1213",
+        "ORCID: 0000-0001-5313-3913",
+        "ORCID: 0000-0002-3983-8025"
+      ],
+      "affiliations": [
+        "Aggeu Magalhaes Institute, Oswaldo Cruz Foundation, Recife, Brazil.",
+        "Department of Fundamental Chemistry, Federal University of Pernambuco, Recife, Brazil.",
+        "Aggeu Magalhaes Institute, Oswaldo Cruz Foundation, Recife, Brazil.",
+        "Aggeu Magalhaes Institute, Oswaldo Cruz Foundation, Recife, Brazil.",
+        "Department of Fundamental Chemistry, Federal University of Pernambuco, Recife, Brazil.",
+        "Institute of Chemical and Biological Technology Antonio Xavier, NOVA University Lisbon, Lisbon, Portugal.",
+        "Aggeu Magalhaes Institute, Oswaldo Cruz Foundation, Recife, Brazil.",
+        "Aggeu Magalhaes Institute, Oswaldo Cruz Foundation, Recife, Brazil.",
+        "Aggeu Magalhaes Institute, Oswaldo Cruz Foundation, Recife, Brazil.",
+        "Department of Fundamental Chemistry, Federal University of Pernambuco, Recife, Brazil."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ferraz, Matheus Vitor Ferreira",
+        "short_name": "Ferraz MVF",
+        "identifiers": [
+          "0000-0002-6958-3115"
+        ],
+        "affiliations": [
+          "Aggeu Magalhães Institute, Oswaldo Cruz Foundation, Recife, Brazil.",
+          "Department of Fundamental Chemistry, Federal University of Pernambuco, Recife, Brazil."
+        ]
+      },
+      {
+        "full_name": "Viana, Isabelle Freire Tabosa",
+        "short_name": "Viana IFT",
+        "identifiers": [
+          "0000-0003-4648-6635"
+        ],
+        "affiliations": [
+          "Aggeu Magalhães Institute, Oswaldo Cruz Foundation, Recife, Brazil."
+        ]
+      },
+      {
+        "full_name": "Coêlho, Danilo Fernandes",
+        "short_name": "Coêlho DF",
+        "identifiers": [
+          "0000-0002-1111-0825"
+        ],
+        "affiliations": [
+          "Aggeu Magalhães Institute, Oswaldo Cruz Foundation, Recife, Brazil.",
+          "Department of Fundamental Chemistry, Federal University of Pernambuco, Recife, Brazil."
+        ]
+      },
+      {
+        "full_name": "da Cruz, Carlos Henrique Bezerra",
+        "short_name": "da Cruz CHB",
+        "identifiers": [
+          "0000-0003-3490-1213"
+        ],
+        "affiliations": [
+          "Institute of Chemical and Biological Technology António Xavier, NOVA University Lisbon, Lisbon, Portugal."
+        ]
+      },
+      {
+        "full_name": "de Arruda Lima, Maíra",
+        "short_name": "de Arruda Lima M",
+        "identifiers": [],
+        "affiliations": [
+          "Aggeu Magalhães Institute, Oswaldo Cruz Foundation, Recife, Brazil."
+        ]
+      },
+      {
+        "full_name": "de Luna Aragão, Madson Allan",
+        "short_name": "de Luna Aragão MA",
+        "identifiers": [
+          "0000-0001-5313-3913"
+        ],
+        "affiliations": [
+          "Aggeu Magalhães Institute, Oswaldo Cruz Foundation, Recife, Brazil."
+        ]
+      },
+      {
+        "full_name": "Lins, Roberto Dias",
+        "short_name": "Lins RD",
+        "identifiers": [
+          "0000-0002-3983-8025"
+        ],
+        "affiliations": [
+          "Aggeu Magalhães Institute, Oswaldo Cruz Foundation, Recife, Brazil.",
+          "Department of Fundamental Chemistry, Federal University of Pernambuco, Recife, Brazil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biopolymers"
+    ],
+    "journal_abbrev": [
+      "Biopolymers"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/26 06:00",
+    "fetched_at": "2026-09-28 15:21:55"
+  },
+  "links": {
+    "cites": [
+      "42226266",
+      "38925955"
+    ],
+    "refs": [],
+    "similar": [
+      "36281776",
+      "12167343",
+      "31971989",
+      "20167600",
+      "9497376",
+      "26789255",
+      "35916535",
+      "10864652",
+      "31609195",
+      "34878887",
+      "30875378",
+      "24376816",
+      "16493710",
+      "12619117",
+      "24854633",
+      "31002735",
+      "33115863",
+      "10974372",
+      "32855237",
+      "16482544",
+      "19007434",
+      "15731267",
+      "19700180",
+      "15890204",
+      "20862247",
+      "31492752",
+      "28835500",
+      "27197052",
+      "29281732",
+      "23206439",
+      "21765936",
+      "35163748",
+      "21228227",
+      "35364103",
+      "15784893",
+      "10413422",
+      "35150860",
+      "34662469",
+      "20530688",
+      "11027293",
+      "17023019",
+      "36989302",
+      "30510267",
+      "26151636",
+      "12036950",
+      "17934525",
+      "9053858",
+      "17804489",
+      "1321031",
+      "9426453",
+      "12620801",
+      "9714244",
+      "30664221",
+      "16129685",
+      "38418456",
+      "38670961",
+      "22013048",
+      "2175676",
+      "17130828",
+      "10400710",
+      "35380358",
+      "15166424",
+      "31749782",
+      "20157568",
+      "27240147",
+      "10626788",
+      "26086730",
+      "8221889",
+      "36043765",
+      "24045364",
+      "31693922",
+      "37379354",
+      "35044207",
+      "30361475",
+      "18412244",
+      "8207801",
+      "9582024",
+      "8676476",
+      "17224909",
+      "15960845",
+      "11275986",
+      "21980285",
+      "9369221",
+      "23474763",
+      "9625796",
+      "23416977",
+      "22896608",
+      "34638625",
+      "26234678",
+      "17121805",
+      "1657399",
+      "23935506",
+      "32736693",
+      "36146532",
+      "11158620",
+      "25304375",
+      "1661671",
+      "9233760",
+      "9162297",
+      "29339538",
+      "34202736",
+      "28786561",
+      "38020382"
+    ],
+    "review": [
+      "36281776",
+      "12619117",
+      "19007434",
+      "35163748",
+      "35380358"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/hpv.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "HPV"
+      },
+      {
+        "url": "https://doi.org/10.1002/bip.23524",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract, without access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that a three-residue insertion (KQY) in the FruR DNA binding domain (DBD) promotes a Tyr-Tyr stacking interaction that decouples unfolding cooperativity from binding. They report that this stacking localizes stabilization energy, leading to probe-dependent melting temperatures spanning nearly 10 K and a partially structured intermediate. Disruption of the stacking via alanine mutation produces a molten-globular state with non-native interactions, enhanced fluctuations, and minimal calorimetric cooperativity, yet this variant retains near-wild-type DNA binding affinity with altered bound-state secondary structure. The authors conclude that the aromatic stacking rescues the domain from disorder and dictates stability, cooperativity, and binding details.
+- **Visible evidence base** Abstract text only; no experimental or simulation data, figures, tables, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, simulation protocols, thermodynamic data, binding assays, structural characterization, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents an intriguing hypothesis that local stabilization energy from a specific aromatic stacking interaction can decouple unfolding cooperativity from DNA binding in a transcription factor domain. The conceptual framework is appealing and potentially relevant to the broader understanding of protein stability-function relationships. However, the abstract alone provides insufficient evidence to evaluate the robustness of the claims. Key quantitative results, experimental controls, and simulation validation are not accessible. The claim that a molten-globular variant retains near-wild-type binding affinity is particularly striking and would require careful scrutiny of binding assays and structural characterization. The manuscript may hold significant interest, but the current evidence base does not allow a rigorous assessment of technical soundness or the strength of the conclusions.
+- **Who would be interested in the results, and why** Researchers in protein folding, biophysics, and molecular recognition would find the decoupling of cooperativity and binding conceptually valuable. Those studying intrinsically disordered proteins and folding intermediates may also be interested in the proposed role of a specific interaction in rescuing a marginally stable domain. Additionally, investigators working on LacI-family transcription factors or DNA-binding domains could benefit from the structural and functional insights.
+- **Major strengths** The hypothesis is clearly articulated and mechanistically plausible. The combination of experiments and simulations is appropriate for addressing the question. The observation that a molten-globular variant retains binding affinity is a potentially novel and impactful finding. The conceptual link between anisotropic stabilization energy distribution and functional outcomes is a valuable framing.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the Tyr-Tyr stacking interaction contributes to a decoupled unfolding due to localization of stabilization energy, leading to probe-dependent melting temperatures spanning nearly 10 K and a partially structured intermediate.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that melting temperatures from different probes span nearly 10 K, but no specific probes, experimental conditions, or thermodynamic data are provided. The claim of a partially structured intermediate is not supported by any direct evidence such as circular dichroism, nuclear magnetic resonance, or differential scanning calorimetry data. Without access to the actual measurements and analysis, the existence and nature of the intermediate cannot be evaluated.
+  - **Why it matters** The decoupled unfolding and intermediate stabilization are central to the manuscript's thesis. If the evidence for these phenomena is weak or ambiguous, the entire conceptual framework is undermined. The 10 K spread in melting temperatures could arise from experimental artifacts or probe-specific reporting rather than genuine decoupling.
+  - **Resolution test** Provide the full thermodynamic data, including melting curves from each probe, the analysis method used to extract melting temperatures, and direct evidence for the intermediate state (e.g., equilibrium unfolding profiles, structural probes, or simulation-derived free energy surfaces).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the alanine mutation promotes a molten-globular state with non-native interactions, enhanced thermodynamic fluctuations, and minimal calorimetric cooperativity.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The characterization of the mutant as molten-globular is a strong claim that requires multiple complementary lines of evidence, such as calorimetric profiles, structural dispersion measurements, and binding or folding kinetics. The abstract mentions "minimal calorimetric cooperativity" but does not provide the calorimetric data or the criteria used to define this state. The presence of non-native interactions is asserted without specific experimental or simulation evidence.
+  - **Why it matters** The molten-globular designation is central to the argument that the stacking interaction rescues the domain from disorder. If the mutant is not truly molten-globular or if the characterization is incomplete, the interpretation of the binding results and the proposed rescue mechanism would be substantially weakened.
+  - **Resolution test** Provide the full calorimetric data, structural characterization (e.g., near-UV CD, ANS binding, or NMR), and simulation results that demonstrate the molten-globular nature and the presence of non-native interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the molten-globular variant binds to the operator site on DNA with an affinity similar to that of the wild-type but with altered secondary-structure characteristics in the bound state.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This is the most surprising and potentially impactful claim. However, no binding assay details, affinity values, or structural data for the bound state are provided. The statement that binding affinity is "similar" requires quantitative comparison with appropriate error analysis. The altered secondary-structure characteristics in the bound state are not described, and it is unclear how these were measured.
+  - **Why it matters** If a molten-globular protein can bind its DNA target with near-wild-type affinity, this would challenge conventional views of the relationship between protein folding and function. However, the claim could also arise from non-specific DNA binding or artifacts in the assay. The lack of detail prevents any assessment of the validity or significance of this finding.
+  - **Resolution test** Provide the binding assay methodology, quantitative affinity values with statistical comparisons, and structural evidence (e.g., circular dichroism spectra of the bound complex or structural models) that demonstrate the altered secondary structure in the bound state.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "horizontal line KQY horizontal line" is unusual and likely a formatting artifact. The intended meaning is a three-residue insertion of KQY, but the presentation is confusing.
+  - **Required correction** Rewrite as "a three-residue insertion (KQY)" or similar standard notation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "chaperone-like role of DNA"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "chaperone-like role" is used to describe the effect of DNA's negative electrostatic potential on the bound protein. This is a metaphorical usage that may be misleading, as chaperones typically assist in folding through iterative binding and release, not through static electrostatic interactions.
+  - **Required correction** Clarify the intended meaning, for example by stating that DNA's electrostatic potential stabilizes or induces secondary structure in the bound protein, or provide a specific definition of "chaperone-like" in this context.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** "verge of disorder"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "verge of disorder" is vague and not quantitatively defined. It is unclear what metric or threshold is used to assess proximity to disorder.
+  - **Required correction** Provide a quantitative measure, such as a stability margin, conformational heterogeneity index, or comparison to known disordered proteins, to support this characterization.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central claims regarding decoupled unfolding, the molten-globular state, and retained binding affinity are not verifiable from the abstract alone. Full experimental and simulation data are required to establish the case.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of decoupling cooperativity from binding via a specific local interaction is conceptually novel and could offer a fresh perspective on protein stability-function relationships. However, the abstract does not provide enough context to assess how this advances beyond existing literature on folding intermediates and binding promiscuity.
+  - Scientific importance: If the claims are fully supported, the finding that a molten-globular variant retains binding affinity would be of broad significance to protein biophysics and molecular recognition. The potential implications for understanding how proteins tolerate destabilizing mutations while maintaining function are substantial.
+  - Interdisciplinary readership: The topic bridges protein folding, biophysics, and DNA-binding protein function, which could attract readers from multiple disciplines. However, the abstract's technical density may limit accessibility for non-specialists.
+  - Technical soundness: Cannot be assessed from the abstract. The lack of methodological detail and quantitative data prevents evaluation of experimental design, data quality, or simulation validity.
+  - Readability for nonspecialists: The abstract is concise but uses specialized terminology (e.g., "molten-globular," "calorimetric cooperativity") without sufficient explanation. The logical flow is clear, but the significance of the findings would be difficult for a general scientific audience to grasp without additional context.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is intriguing and the potential impact is high, but the abstract alone does not provide sufficient data to support the central claims. A full review of the manuscript with complete experimental and simulation details would be necessary to determine whether the case is convincingly made.
+
+## Risk / unsupported claims
+- The claim that Tyr-Tyr stacking localizes stabilization energy and causes decoupled unfolding is unsupported without thermodynamic and structural data.
+- The existence of a partially structured intermediate state is unsupported without direct experimental or simulation evidence.
+- The characterization of the alanine mutant as molten-globular with non-native interactions is unsupported without calorimetric, structural, and simulation data.
+- The claim that the molten-globular variant binds DNA with near-wild-type affinity is unsupported without quantitative binding data.
+- The statement that DNA plays a "chaperone-like role" through electrostatic potential is an interpretation that is not substantiated by the abstract.
+- The assertion that FruR DBD is "at the verge of disorder" is not quantitatively defined or supported.

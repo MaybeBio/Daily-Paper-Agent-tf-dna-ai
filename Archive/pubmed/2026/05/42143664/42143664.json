@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "42143664",
+    "doi": "10.1007/s10238-026-02173-9",
+    "title": "DNA methylation biomarkers associated with early gastric cardia carcinogenesis."
+  },
+  "content": {
+    "abstract": "Gastric cardia cancer (GCC) is an aggressive malignancy with poor prognosis, underscoring the need for better characterization of molecular alterations during early gastric cardia carcinogenesis. This study aimed to identify and validate tissue-based DNA methylation markers associated with early precancerous and neoplastic lesions of the gastric cardia. We integrated genome-wide DNA methylation data (850 K array) from 69 gastric cardia samples, including normal mucosa (n = 22), intestinal metaplasia (IM, n = 32), intraepithelial neoplasia (IEN, n = 7), and GCC (n = 8). Differential methylation analysis revealed stage-specific methylation patterns. Machine learning algorithms, including Least Absolute Shrinkage and Selection Operator (LASSO) regression and Random Forest, were used to refine candidate diagnostic biomarkers, followed by immunohistochemical validation of candidate gene expression in an independent cohort (n = 212). GCC progression showed increasing epigenetic dysregulation, with hyper-differentially methylated probes (DMPs) predominating in precancerous lesions (79.3-86.3%) and hypo-DMPs in GCC (87.7%). Hyper-DMPs were enriched in promoter-associated cytosine-phosphate-guanosine (CpG) islands (P < 0.001). Two DMPs, EDNRB_cg04390523 and SALL1_cg09016242, were consistently identified by both algorithms and showed good diagnostic accuracy (AUC = 0.947, 95% CI: 0.897-0.997) for distinguishing precancerous gastric cardia lesions and GCC from normal tissue in the integrated dataset. Consistent with methylation findings, EDNRB protein expression progressively decreased from normal to IM/IEN tissues (P < 0.001). This study identifies EDNRB and SALL1 promoter hypermethylation as promising tissue-based candidate biomarkers associated with early neoplastic transformation and provides a basis for further longitudinal and translational studies in gastric cardia precancerous lesions and cancer.",
+    "keywords": [
+      "EDNRB",
+      "SALL1",
+      "DNA methylation",
+      "Gastric cardia cancer",
+      "Intestinal metaplasia",
+      "Intraepithelial neoplasia"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*DNA Methylation",
+      "*Stomach Neoplasms/genetics/pathology/diagnosis",
+      "*Cardia/pathology",
+      "*Biomarkers, Tumor/genetics",
+      "Female",
+      "Male",
+      "Middle Aged",
+      "Receptor, Endothelin B/genetics",
+      "*Carcinogenesis/genetics",
+      "Transcription Factors/genetics",
+      "Aged",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liao, Xiaoqi",
+        "Zhang, Zhihua",
+        "Xu, Guohua",
+        "Zheng, Danwei",
+        "Lei, Zhijin",
+        "Chen, Songqin",
+        "Zhao, Shukun",
+        "Lin, Runhua"
+      ],
+      "short_names": [
+        "Liao X",
+        "Zhang Z",
+        "Xu G",
+        "Zheng D",
+        "Lei Z",
+        "Chen S",
+        "Zhao S",
+        "Lin R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, 515041, People's Republic of China.",
+        "Department of Pathology, Shantou University Medical College, No. 22, Xinling Road, Shantou, 515041, People's Republic of China.",
+        "Department of Gastroenterology, Huiyang Sanhe Hospital, Huizhou, 516211, People's Republic of China.",
+        "Department of Pathology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, 515041, People's Republic of China.",
+        "Department of Pathology, Shantou University Medical College, No. 22, Xinling Road, Shantou, 515041, People's Republic of China.",
+        "Department of Pathology, Jieyang People's Hospital, Jieyang, 522000, People's Republic of China.",
+        "Department of Pathology, Shantou University Medical College, No. 22, Xinling Road, Shantou, 515041, People's Republic of China.",
+        "Department of Pathology, Shantou University Medical College, No. 22, Xinling Road, Shantou, 515041, People's Republic of China. rhlin2010@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liao, Xiaoqi",
+        "short_name": "Liao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, 515041, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhihua",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Shantou University Medical College, No. 22, Xinling Road, Shantou, 515041, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xu, Guohua",
+        "short_name": "Xu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Huiyang Sanhe Hospital, Huizhou, 516211, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Danwei",
+        "short_name": "Zheng D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, 515041, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lei, Zhijin",
+        "short_name": "Lei Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Shantou University Medical College, No. 22, Xinling Road, Shantou, 515041, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Songqin",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Jieyang People's Hospital, Jieyang, 522000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Shukun",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Shantou University Medical College, No. 22, Xinling Road, Shantou, 515041, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lin, Runhua",
+        "short_name": "Lin R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Shantou University Medical College, No. 22, Xinling Road, Shantou, 515041, People's Republic of China. rhlin2010@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical and experimental medicine"
+    ],
+    "journal_abbrev": [
+      "Clin Exp Med"
+    ],
+    "pub_date": "2026 May 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/17 14:32",
+    "fetched_at": "2026-10-01 20:30:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40706249",
+      "40668443",
+      "40057667",
+      "39883469",
+      "39847241",
+      "39788311",
+      "39402618",
+      "39134824",
+      "38572751",
+      "38258659",
+      "37881109",
+      "37751933",
+      "37741137",
+      "36803423",
+      "36342849",
+      "34736341",
+      "32736574",
+      "32368784",
+      "32107902",
+      "32061307",
+      "31926772",
+      "31312217",
+      "30429608",
+      "29520154",
+      "25308915",
+      "21414208",
+      "20205715",
+      "18564167"
+    ],
+    "similar": [
+      "42143664",
+      "38258659",
+      "36342849",
+      "32736574",
+      "39235559",
+      "39496833",
+      "19695681",
+      "33387485",
+      "12448005",
+      "25740824",
+      "33359128",
+      "32129880",
+      "26769141",
+      "30510283",
+      "30846004",
+      "29749528",
+      "29566283",
+      "25420558",
+      "25206281",
+      "36453428",
+      "25663388",
+      "26877610",
+      "19160099",
+      "23705663",
+      "34171355",
+      "39819319",
+      "22161215",
+      "31640781",
+      "26984265",
+      "26456015",
+      "41125735",
+      "36779430",
+      "29956735",
+      "29574700",
+      "33394233",
+      "17438355",
+      "26207911",
+      "21264540",
+      "28042954",
+      "38507065",
+      "42097499",
+      "23819566",
+      "23616123",
+      "23669186",
+      "21302620",
+      "30213786",
+      "19375421",
+      "20798208",
+      "25650663",
+      "40668443",
+      "28058013",
+      "30510376",
+      "27986126",
+      "34369258",
+      "11306456",
+      "14968123",
+      "41034874",
+      "34034702",
+      "26823831",
+      "30656427",
+      "25009298",
+      "24931004",
+      "22576578",
+      "36057424",
+      "31675985",
+      "39354571",
+      "27206798",
+      "27189370",
+      "10737716",
+      "28345805",
+      "40059124",
+      "37245006",
+      "39244604",
+      "16134180",
+      "22749770",
+      "21531217",
+      "41220724",
+      "19399343",
+      "31334584",
+      "23896626",
+      "22983529",
+      "12695555",
+      "27760737",
+      "30286088",
+      "39455684",
+      "34366718",
+      "28418867",
+      "38302798",
+      "25260683",
+      "32317010",
+      "42116048",
+      "19639607",
+      "23018867",
+      "32710740",
+      "16528374",
+      "39988770",
+      "33115518",
+      "31194837",
+      "41166059",
+      "20398667"
+    ],
+    "review": [
+      "42143664",
+      "23669186"
+    ],
+    "pmc": [
+      "13346290"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42143664/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s10238-026-02173-9",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

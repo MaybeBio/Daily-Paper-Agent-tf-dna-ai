@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.12.675784",
+  "title": "Modanovo: A Unified Model for Post-Translational Modification-Aware de Novo Sequencing Using Experimental Spectra from In Vivo and Synthetic Peptides",
+  "authors": "Klaproth-Andrade D; Bruns Y; Gabriel W; Nix C; Bergant V; Pichlmair A; Wilhelm M; Gagneur J",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-16",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 0,
+  "one_liner_zh": "该文开发基于Transformer的从头测序模型Modanovo，聚焦翻译后修饰肽段质谱解析，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Post-translational modifications (PTMs) play a central role in cellular regulation and are implicated in numerous diseases. Database searching remains the standard for identifying modified peptides from tandem mass spectra, but is hindered by the combinatorial expansion of modification types and sites. De novo peptide sequencing offers an attractive alternative, yet existing methods remain limited to unmodified peptides or a narrow set of PTMs. Here, we curated a large dataset of spectra from endogenous and synthetic peptides from ProteomeTools spanning 19 biologically relevant amino acid-PTM combinations, covering phosphorylation, acetylation, and ubiquitination. We used this dataset to develop Modanovo, an extension of the Casanovo transformer architecture for de novo peptide sequencing. Modanovo achieved robust performance across these amino acid-PTM combinations (median area under the precision-coverage curve 0.92), while maintaining performance on unmodified peptides (0.93), nearly identical to Casanovo (0.94). The model outperformed π-PrimeNovo-PTM and showed increased precision and complementarity to the database search tool MSFragger. Robustness was confirmed across independent datasets, particularly at peptide lengths frequently represented in the curated dataset. Applied to a phosphoproteomics dataset from monkeypox virus-infected cells, Modanovo recovered numerous confident peptides not reported by database search, including new viral phosphosites supported by spectral evidence, thereby demonstrating its complementarity to database-driven identification approaches. These results establish Modanovo as a broadly applicable model for comprehensive de novo sequencing of both modified and unmodified peptides.",
+  "abstract_zh": "翻译后修饰（PTMs）在细胞调控中扮演核心角色，并与多种疾病相关。数据库搜索仍是串联质谱鉴定修饰肽段的标准方法，但受限于修饰类型和位点的组合爆炸。从头测序（de novo peptide sequencing）提供了一种有吸引力的替代方案，然而现有方法仍局限于未修饰肽段或少数几种PTM。在此，我们整理了一个大型谱图数据集，来源于ProteomeTools中的内源性和合成肽段，涵盖19种生物学相关的氨基酸-PTM组合，包括磷酸化、乙酰化和泛素化。我们利用该数据集开发了Modanovo，这是Casanovo变换器架构的扩展，用于从头肽段测序。Modanovo在这些氨基酸-PTM组合中表现出稳健性能（精确度-覆盖率曲线下面积中位数为0.92），同时在未修饰肽段上保持性能（0.93），与Casanovo（0.94）几乎一致。该模型优于π-PrimeNovo-PTM，并显示出与数据库搜索工具MSFragger相比更高的精确度和互补性。在独立数据集上确认了其稳健性，尤其是在所整理数据集中频繁出现的肽段长度上。应用于猴痘病毒感染细胞的磷酸化蛋白质组学数据集时，Modanovo恢复了数据库搜索未报告的众多高置信度肽段，包括有谱图证据支持的新病毒磷酸化位点，从而展示了其与数据库驱动鉴定方法的互补性。这些结果确立了Modanovo作为全面从头测序修饰和未修饰肽段的广泛适用模型。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.12.675784",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.12.675784",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.12.675784/index.html"
+}

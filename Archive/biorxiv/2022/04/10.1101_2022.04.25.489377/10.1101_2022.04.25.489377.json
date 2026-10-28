@@ -1,0 +1,129 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.04.25.489377",
+  "title": "Depicting pseudotime-lagged causality across single-cell trajectories for accurate gene-regulatory inference",
+  "doi": "10.1101/2022.04.25.489377",
+  "abstract": "Identifying the causal interactions in gene-regulatory networks requires an accurate understanding of the time-lagged relationships between transcription factors and their target genes. Here we describe DELAY, a convolutional neural network for the inference of gene-regulatory relationships across pseudotime-ordered single-cell trajectories. We show that combining supervised deep learning with joint-probability matrices of pseudotime-lagged trajectories allows the network to overcome important limitations of ordinary Granger causality-based methods, such as the inability to infer cyclic relationships such as feedback loops. Our network outperforms several common methods for inferring gene regulation and predicts novel regulatory networks from scRNA-seq and scATAC-seq datasets given partial ground-truth labels. To validate this approach, we used DELAY to identify important genes and modules in the regulatory network of auditory hair cells, as well as likely DNA-binding partners for two hair cell cofactors (Hist1h1c and Ccnd1) and a novel binding sequence for the hair cell-specific transcription factor Fiz1. We provide an open-source implementation of DELAY at https://github.com/calebclayreagor/DELAY .",
+  "authors": [
+    "Reagor CC",
+    "Velez-Angel N",
+    "Hudspeth AJ"
+  ],
+  "published_date": "2022-04-26",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.04.25.489377",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.04.25.489377.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR493688",
+    "raw_record": {
+      "id": "PPR493688",
+      "source": "PPR",
+      "doi": "10.1101/2022.04.25.489377",
+      "title": "Depicting pseudotime-lagged causality across single-cell trajectories for accurate gene-regulatory inference",
+      "authorString": "Reagor CC, Velez-Angel N, Hudspeth AJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Reagor CC",
+            "lastName": "Reagor",
+            "firstName": "Caleb",
+            "initials": "CC"
+          },
+          {
+            "fullName": "Velez-Angel N",
+            "lastName": "Velez-Angel",
+            "firstName": "Nicolas",
+            "initials": "N"
+          },
+          {
+            "fullName": "Hudspeth AJ",
+            "lastName": "Hudspeth",
+            "initials": "AJ"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8908-7768"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Identifying the causal interactions in gene-regulatory networks requires an accurate understanding of the time-lagged relationships between transcription factors and their target genes. Here we describe DELAY, a convolutional neural network for the inference of gene-regulatory relationships across pseudotime-ordered single-cell trajectories. We show that combining supervised deep learning with joint-probability matrices of pseudotime-lagged trajectories allows the network to overcome important limitations of ordinary Granger causality-based methods, such as the inability to infer cyclic relationships such as feedback loops. Our network outperforms several common methods for inferring gene regulation and predicts novel regulatory networks from scRNA-seq and scATAC-seq datasets given partial ground-truth labels. To validate this approach, we used DELAY to identify important genes and modules in the regulatory network of auditory hair cells, as well as likely DNA-binding partners for two hair cell cofactors (Hist1h1c and Ccnd1) and a novel binding sequence for the hair cell-specific transcription factor Fiz1. We provide an open-source implementation of DELAY at  https://github.com/calebclayreagor/DELAY .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/05/10/2022.04.25.489377.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.04.25.489377"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37113980",
+            "reference": "PNAS nexus. 2023 Apr;2(4):pgad113",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-05-19",
+      "firstPublicationDate": "2022-04-26",
+      "firstIndexDate": "2022-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

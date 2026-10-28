@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "40611790",
+    "doi": "10.1021/acs.jcim.5c00907",
+    "title": "Ultrahigh-Throughput Virtual Screening Strategies against PPI Targets: A Case Study of STAT Inhibitors."
+  },
+  "content": {
+    "abstract": "In recent years, virtual screening of ultralarge (10(8+)) libraries of synthetically accessible compounds (uHTVS) became a popular approach in hit identification. With AI-assisted virtual screening workflows, such as Deep Docking, these protocols might be feasible even without supercomputers. Yet, these methodologies have their own conceptual limitations, including the fact that physics-based docking is replaced by a cheaper deep learning (DL) step for the vast majority of compounds. In turn, the performance of this DL step will highly depend on the performance of the underlying docking model that is used to evaluate parts of the whole data set to train the DL architecture itself. Here, we evaluated the performance of the popular Deep Docking workflow on compound libraries of different sizes, against benchmark cases of classic brute-force docking approaches conducted on smaller libraries. We were especially interested in more difficult, protein-protein interaction-type oncotargets where the reliability of the underlying docking model is harder to assess. Specifically, our virtual screens have resulted in several new inhibitors of two oncogenic transcription factors, STAT3 and STAT5b. For STAT5b, in particular, we disclose the first application of virtual screening against its N-terminal domain, whose importance was recognized more recently. While the AI-based uHTVS is computationally more demanding, it can achieve exceptionally good hit rates (50.0% for STAT3). Deep Docking can also work well with a compound library containing only several million (instead of several billion) compounds, achieving a 42.9% hit rate against the SH2 domain of STAT5b, while presenting a highly economic workflow with just under 120,000 compounds actually docked.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Docking Simulation",
+      "*High-Throughput Screening Assays/methods",
+      "*STAT3 Transcription Factor/antagonists & inhibitors/metabolism/chemistry",
+      "Humans",
+      "*STAT5 Transcription Factor/antagonists & inhibitors/metabolism/chemistry",
+      "Deep Learning",
+      "Drug Evaluation, Preclinical/methods",
+      "Small Molecule Libraries/pharmacology/chemistry",
+      "User-Computer Interface"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Szalai, Tibor Viktor",
+        "Peczka, Nikolett",
+        "Sipos-Szabo, Levente",
+        "Petri, Laszlo",
+        "Bajusz, David",
+        "Keseru, Gyorgy M"
+      ],
+      "short_names": [
+        "Szalai TV",
+        "Peczka N",
+        "Sipos-Szabo L",
+        "Petri L",
+        "Bajusz D",
+        "Keseru GM"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-4088-3117",
+        "ORCID: 0009-0002-1210-7940",
+        "ORCID: 0000-0003-4277-9481",
+        "ORCID: 0000-0003-1039-7809"
+      ],
+      "affiliations": [
+        "Medicinal Chemistry Research Group and Drug Innovation Centre, HUN-REN Research Centre for Natural Sciences, Magyar tudosok krt. 2, 1117 Budapest, Hungary.",
+        "Department of Inorganic and Analytical Chemistry, Faculty of Chemical Technology and Biotechnology, Budapest University of Technology and Economics, Muegyetem rkp. 3, H-1111 Budapest, Hungary.",
+        "Medicinal Chemistry Research Group and Drug Innovation Centre, HUN-REN Research Centre for Natural Sciences, Magyar tudosok krt. 2, 1117 Budapest, Hungary.",
+        "Department of Organic Chemistry and Technology, Faculty of Chemical Technology and Biotechnology, Budapest University of Technology and Economics, Muegyetem rkp. 3, H-1111 Budapest, Hungary.",
+        "Medicinal Chemistry Research Group and Drug Innovation Centre, HUN-REN Research Centre for Natural Sciences, Magyar tudosok krt. 2, 1117 Budapest, Hungary.",
+        "Department of Organic Chemistry and Technology, Faculty of Chemical Technology and Biotechnology, Budapest University of Technology and Economics, Muegyetem rkp. 3, H-1111 Budapest, Hungary.",
+        "Medicinal Chemistry Research Group and Drug Innovation Centre, HUN-REN Research Centre for Natural Sciences, Magyar tudosok krt. 2, 1117 Budapest, Hungary.",
+        "Medicinal Chemistry Research Group and Drug Innovation Centre, HUN-REN Research Centre for Natural Sciences, Magyar tudosok krt. 2, 1117 Budapest, Hungary.",
+        "Medicinal Chemistry Research Group and Drug Innovation Centre, HUN-REN Research Centre for Natural Sciences, Magyar tudosok krt. 2, 1117 Budapest, Hungary.",
+        "Department of Organic Chemistry and Technology, Faculty of Chemical Technology and Biotechnology, Budapest University of Technology and Economics, Muegyetem rkp. 3, H-1111 Budapest, Hungary."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Szalai, Tibor Viktor",
+        "short_name": "Szalai TV",
+        "identifiers": [
+          "0009-0000-4088-3117"
+        ],
+        "affiliations": [
+          "Medicinal Chemistry Research Group and Drug Innovation Centre, HUN-REN Research Centre for Natural Sciences, Magyar tudósok krt. 2, 1117 Budapest, Hungary.",
+          "Department of Inorganic and Analytical Chemistry, Faculty of Chemical Technology and Biotechnology, Budapest University of Technology and Economics, Műegyetem rkp. 3, H-1111 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Péczka, Nikolett",
+        "short_name": "Péczka N",
+        "identifiers": [],
+        "affiliations": [
+          "Medicinal Chemistry Research Group and Drug Innovation Centre, HUN-REN Research Centre for Natural Sciences, Magyar tudósok krt. 2, 1117 Budapest, Hungary.",
+          "Department of Organic Chemistry and Technology, Faculty of Chemical Technology and Biotechnology, Budapest University of Technology and Economics, Műegyetem rkp. 3, H-1111 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Sipos-Szabó, Levente",
+        "short_name": "Sipos-Szabó L",
+        "identifiers": [
+          "0009-0002-1210-7940"
+        ],
+        "affiliations": [
+          "Medicinal Chemistry Research Group and Drug Innovation Centre, HUN-REN Research Centre for Natural Sciences, Magyar tudósok krt. 2, 1117 Budapest, Hungary.",
+          "Department of Organic Chemistry and Technology, Faculty of Chemical Technology and Biotechnology, Budapest University of Technology and Economics, Műegyetem rkp. 3, H-1111 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Petri, László",
+        "short_name": "Petri L",
+        "identifiers": [],
+        "affiliations": [
+          "Medicinal Chemistry Research Group and Drug Innovation Centre, HUN-REN Research Centre for Natural Sciences, Magyar tudósok krt. 2, 1117 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Bajusz, Dávid",
+        "short_name": "Bajusz D",
+        "identifiers": [
+          "0000-0003-4277-9481"
+        ],
+        "affiliations": [
+          "Medicinal Chemistry Research Group and Drug Innovation Centre, HUN-REN Research Centre for Natural Sciences, Magyar tudósok krt. 2, 1117 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Keserű, György M",
+        "short_name": "Keserű GM",
+        "identifiers": [
+          "0000-0003-1039-7809"
+        ],
+        "affiliations": [
+          "Medicinal Chemistry Research Group and Drug Innovation Centre, HUN-REN Research Centre for Natural Sciences, Magyar tudósok krt. 2, 1117 Budapest, Hungary.",
+          "Department of Organic Chemistry and Technology, Faculty of Chemical Technology and Biotechnology, Budapest University of Technology and Economics, Műegyetem rkp. 3, H-1111 Budapest, Hungary."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Jul 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/04 06:26",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [
+      "42666514"
+    ],
+    "refs": [
+      "39329252",
+      "39305268",
+      "39085342",
+      "38696451",
+      "38335044",
+      "38177786",
+      "37933841",
+      "37802967",
+      "35939280",
+      "35671403",
+      "35186897",
+      "34912117",
+      "34060239",
+      "33510482",
+      "33403848",
+      "33326239",
+      "33118813",
+      "32872372",
+      "32607441",
+      "32111215",
+      "31820982",
+      "31817042",
+      "31690038",
+      "31175292",
+      "31170499",
+      "30847297",
+      "30767086",
+      "30624918",
+      "29873274",
+      "29234062",
+      "29136547",
+      "28600954",
+      "28559059",
+      "28400581",
+      "28287479",
+      "27102702",
+      "26469307",
+      "26295373",
+      "26169829",
+      "25702814",
+      "25419444",
+      "24900612",
+      "24065300",
+      "23688234",
+      "23579614",
+      "23396540",
+      "22716043",
+      "22623533",
+      "22148584",
+      "22007643",
+      "21486047",
+      "21325026",
+      "20131845",
+      "19594124",
+      "19399780",
+      "18683176",
+      "18247434",
+      "17552493",
+      "17114005",
+      "16793553",
+      "16335919",
+      "15048827",
+      "15027866",
+      "15027865",
+      "12176867",
+      "12096912",
+      "12036371",
+      "11994402",
+      "11994401",
+      "11470604",
+      "11259830",
+      "10851059",
+      "10640742",
+      "10526573",
+      "10521404",
+      "10469645",
+      "10458605",
+      "10347215",
+      "9716487",
+      "9690618",
+      "9636188",
+      "9390692",
+      "9374464",
+      "9108058",
+      "9009201",
+      "8755534",
+      "8614832",
+      "7908325",
+      "7869054",
+      "7476908",
+      "3933006"
+    ],
+    "similar": [
+      "40611790",
+      "25710482",
+      "39305268",
+      "25098340",
+      "28092042",
+      "23977103",
+      "24960626",
+      "34731475",
+      "18258175",
+      "39753705",
+      "33932608",
+      "35008818",
+      "28299742",
+      "37655823",
+      "28636670",
+      "41339251",
+      "25148595",
+      "30430945",
+      "37802967",
+      "37882338",
+      "39635776",
+      "40082701",
+      "25038507",
+      "26501243",
+      "27315035",
+      "26025037",
+      "27391578",
+      "38038795",
+      "38723187",
+      "39786519",
+      "25541527",
+      "40553334",
+      "32786511",
+      "39237523",
+      "25859944",
+      "19274102",
+      "29766737",
+      "29420886",
+      "27316988",
+      "32152607",
+      "32227557",
+      "33105480",
+      "30390802",
+      "40961324",
+      "30500183",
+      "24266594",
+      "31593460",
+      "28809009",
+      "38753096",
+      "23240691",
+      "26636371",
+      "24358939",
+      "26035098",
+      "40290933",
+      "27077332",
+      "35909285",
+      "39966348",
+      "29882343",
+      "38095360",
+      "24050442",
+      "40401777",
+      "39715975",
+      "30985989",
+      "37978263",
+      "40858884",
+      "28150235",
+      "23259763",
+      "24922077",
+      "34788802",
+      "31210110",
+      "22747098",
+      "41161068",
+      "32691963",
+      "25384979",
+      "20981521",
+      "25947277",
+      "28624143",
+      "39994010",
+      "40853597",
+      "39509180",
+      "29346071",
+      "39475501",
+      "35121854",
+      "35142215",
+      "20206418",
+      "23740393",
+      "27198617",
+      "39488933",
+      "30047845",
+      "39596331",
+      "38658534",
+      "25134459",
+      "23345155",
+      "39551420",
+      "36122548",
+      "26111183",
+      "29739850",
+      "32113119",
+      "25344840",
+      "26730496"
+    ],
+    "review": [
+      "40611790",
+      "35008818",
+      "39635776",
+      "26501243",
+      "26025037",
+      "20981521",
+      "40853597",
+      "35121854",
+      "36122548",
+      "26111183"
+    ],
+    "pmc": [
+      "12308805"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40611790/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c00907",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36748992",
+  "title": "Cooperation of local features and global representations by a dual-branch network for transcription factor binding sites prediction.",
+  "authors": "Yu, Yutong; Ding, Pengju; Gao, Hongli; Liu, Guozhu; Zhang, Fa; Yu, Bin",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2023-02-08",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 8,
+  "one_liner_zh": "提出双分支网络DSAC融合卷积局部特征与自注意力全局表示，用于转录因子结合位点预测，核心聚焦TF-DNA互作且方法为深度学习，高度匹配课题。",
+  "abstract": "Interactions between DNA and transcription factors (TFs) play an essential role in understanding transcriptional regulation mechanisms and gene expression. Due to the large accumulation of training data and low expense, deep learning methods have shown huge potential in determining the specificity of TFs-DNA interactions. Convolutional network-based and self-attention network-based methods have been proposed for transcription factor binding sites (TFBSs) prediction. Convolutional operations are efficient to extract local features but easy to ignore global information, while self-attention mechanisms are expert in capturing long-distance dependencies but difficult to pay attention to local feature details. To discover comprehensive features for a given sequence as far as possible, we propose a Dual-branch model combining Self-Attention and Convolution, dubbed as DSAC, which fuses local features and global representations in an interactive way. In terms of features, convolution and self-attention contribute to feature extraction collaboratively, enhancing the representation learning. In terms of structure, a lightweight but efficient architecture of network is designed for the prediction, in particular, the dual-branch structure makes the convolution and the self-attention mechanism can be fully utilized to improve the predictive ability of our model. The experiment results on 165 ChIP-seq datasets show that DSAC obviously outperforms other five deep learning based methods and demonstrate that our model can effectively predict TFBSs based on sequence feature alone. The source code of DSAC is available at https://github.com/YuBinLab-QUST/DSAC/.",
+  "abstract_zh": "DNA与转录因子（TFs）之间的相互作用在理解转录调控机制和基因表达中扮演着关键角色。由于训练数据的大量积累和低成本，深度学习方法在确定TFs-DNA相互作用特异性方面展现出巨大潜力。基于卷积网络和自注意力网络的方法已被提出用于转录因子结合位点（TFBSs）预测。卷积操作擅长提取局部特征但容易忽略全局信息，而自注意力机制则擅长捕捉长距离依赖但难以关注局部特征细节。为了尽可能全面地发现给定序列的综合特征，我们提出了一种结合自注意力和卷积的双分支模型，称为DSAC，该模型以交互方式融合局部特征和全局表示。在特征方面，卷积和自注意力协同促进特征提取，增强表示学习。在结构方面，设计了一种轻量但高效的网络架构用于预测，特别是双分支结构使得卷积和自注意力机制能够被充分利用，以提高我们模型的预测能力。在165个ChIP-seq数据集上的实验结果表明，DSAC明显优于其他五种基于深度学习的方法，并证明我们的模型能够仅基于序列特征有效预测TFBSs。DSAC的源代码可在https://github.com/YuBinLab-QUST/DSAC/获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36748992/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36748992/",
+  "paper_page_path": "papers/pubmed/36748992/index.html"
+}

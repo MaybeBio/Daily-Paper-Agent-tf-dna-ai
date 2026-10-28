@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41035197",
+  "title": "PTF-Vac: An explainable and generative deep co-learning encoder-decoder system for ab initio discovery of plant transcription factor binding sites.",
+  "authors": "Gupta, Sagar; Jyoti; Bhati, Umesh; Kesarwani, Veerbhan; Sharma, Akanksha; Shankar, Ravi",
+  "journal": "Plant communications",
+  "published_date": "2025-10-02",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出基于深度共学习编码器-解码器的生成式系统PTF-Vac，用于从头发现植物转录因子结合位点，核心聚焦TF-DNA互作建模，方法为AI生成式深度学习，高度匹配本课题。",
+  "abstract": "Discovery of transcription factor (TF) binding sites (TFBSs) and their motifs in plants poses significant challenges due to high cross-species variability. The interactions between TFs and their binding sites are highly specific and context dependent. Most existing TFBS-finding tools are not sufficiently accurate to discover these binding sites in plants. They fail to capture cross-species variability, interdependence between TF structures and corresponding TFBSs, and the context specificity of binding. Because they are coupled to a predefined TF-specific model/matrix, they are strongly influenced by the volume and quality of data provided to build the motifs. All these software applications make the assumption that the user input is specific to a particular TF, limiting their use for practical applications such as genomic annotation of newly sequenced species. Here, we report PTF-Vac, an explainable deep-learning encoder-decoder generative system. PTF-Vac is based on PTFSpot, a universal model of deep co-learning on variability in binding sites and TF structure, making it completely free from the bottlenecks described above. PTF-Vac decouples the process of TFBS discovery from the prior step of motif finding and the requirement for TF-specific motif models. Because it is guided by a universal model for TF-DNA interactions, it can discover binding motifs irrespective of data volume and species and without reference to TF-specific models. In a comprehensive benchmarking study across an extremely high volume of experimental data, PTF-Vac outperformed most advanced motif-finding deep-learning algorithms. PTF-Vac thus opens a completely new chapter in ab initio TFBS discovery through generative AI.",
+  "abstract_zh": "在植物中，转录因子（TF）结合位点（TFBSs）及其基序的发现因跨物种变异性高而面临重大挑战。转录因子与其结合位点之间的相互作用具有高度特异性和情境依赖性。现有大多数TFBS发现工具在植物中识别这些结合位点的准确性不足，未能捕捉跨物种变异性、TF结构与相应TFBSs之间的相互依赖性以及结合的情境特异性。由于这些工具与预定义的TF特异性模型/矩阵耦合，它们受用于构建基序的数据量和质量影响显著。所有此类软件均假设用户输入针对特定TF，限制了其在新测序物种基因组注释等实际应用中的使用。在此，我们报告PTF-Vac，一种可解释的深度学习编码器-解码器生成系统。PTF-Vac基于PTFSpot，一个关于结合位点变异性和TF结构深度共学习的通用模型，使其完全摆脱上述瓶颈。PTF-Vac将TFBS发现过程与先前的基序发现步骤及对TF特异性基序模型的需求解耦。由于受TF-DNA相互作用的通用模型引导，它能独立于数据量和物种，且无需参考TF特异性模型即可发现结合基序。在涵盖极大量实验数据的全面基准测试中，PTF-Vac超越了大多数先进的基序发现深度学习算法。因此，PTF-Vac通过生成式AI开启了从头TFBS发现的全新篇章。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41035197/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41035197/",
+  "paper_page_path": "papers/pubmed/41035197/index.html"
+}

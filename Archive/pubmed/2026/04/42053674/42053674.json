@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "42053674",
+    "doi": "10.1007/s12672-026-04989-z",
+    "title": "Integrative systems biology and drug repurposing reveal key regulatory hubs and a prognostic signature in gastric cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Gastric cancer remains one of the most lethal malignancies worldwide, characterized by extensive molecular heterogeneity, late diagnosis, and limited therapeutic options. Identifying key regulatory genes, upstream transcription factors, and clinically meaningful prognostic markers is essential for improving patient management and accelerating targeted drug discovery. METHODS: We performed an integrative systems biology analysis using microarray data (GSE146996) comprising 50 tumor and 15 normal gastric tissues. After RMA normalization, differentially expressed genes (DEGs) were identified and used to construct a protein-protein interaction network in STRING, followed by hub-gene prioritization via CytoHubba. Functional annotation was performed using ClueGO (KEGG) and BiNGO (GO). Upstream transcription factors were predicted with iRegulon. To assess clinical relevance, RNA-seq and survival data from the TCGA-STAD cohort were used for univariate Cox regression, Kaplan-Meier analysis, LASSO Cox modeling, and development of a multigene prognostic signature. Finally, network pharmacology, homology modeling, and AutoDock Vina-based molecular docking identified candidate therapeutic compounds targeting key hub proteins. RESULTS: A total of 16,304 DEGs were identified, and a refined gastric-specific PPI network of 1,282 genes revealed FN1, CTNNB1, ACTB, and HSP90AB1 as central hubs. Enrichment analysis emphasized pathways related to PI3K-Akt signaling, focal adhesion, proteoglycans in cancer, and immune regulation. iRegulon identified several transcription factors, including SSX3, ARP1, and RBBP9. Prognostic assessment in TCGA-STAD showed that FN1 and SRSF7 were significantly associated with overall survival. Based on these associations, a simple two-gene Cox-based prognostic model was constructed, showing modest stratification of patients into high- and low-risk groups (log-rank p = 0.047). Docking analysis identified several computationally predicted high-affinity compound-protein interactions, including SNX-5422 for HSP90AB1 (-9.5 kcal/mol), Empesertib and ICG-001 for CTNNB1 ( approximately  - 9.1 kcal/mol), and Pimozide for ACTB (-9.4 kcal/mol). DISCUSSION: Integrating transcriptomic profiling with network biology, transcription factor prediction, survival modeling, and molecular docking highlights a multilayer regulatory architecture underlying gastric cancer progression. The identification of survival-associated genes and druggable hubs provides biologically relevant, hypothesis-generating insights that help bridge basic systems biology with translational oncology. Although the prognostic model demonstrated moderate predictive power, its stability across time points suggests potential utility as a foundation for further refinement and validation. Likewise, the identified compounds warrant experimental exploration to confirm their therapeutic promise. CONCLUSION: This comprehensive pipeline identified key molecular drivers, upstream regulators, survival-associated biomarkers, and potential therapeutic compounds in gastric cancer. The findings offer a robust framework for future experimental validation and contribute to the development of personalized therapeutic strategies for improving clinical outcomes in gastric cancer.",
+    "keywords": [
+      "Gastric cancer",
+      "Hub genes",
+      "Molecular docking",
+      "Network pharmacology",
+      "Prognostic signature",
+      "Transcriptomics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Akhavan, Reza",
+        "Foroughian, Mahdi",
+        "Amerizadeh, Forouzan"
+      ],
+      "short_names": [
+        "Akhavan R",
+        "Foroughian M",
+        "Amerizadeh F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Emergency Medicine, Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran.",
+        "Department of Emergency Medicine, Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran.",
+        "Cancer Molecular Pathology Research Center, Mashhad University of Medical Sciences, Mashhad, Iran. amerizadehf951@gmail.com.",
+        "Department of Internal Medicine, Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran. amerizadehf951@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Akhavan, Reza",
+        "short_name": "Akhavan R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency Medicine, Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Foroughian, Mahdi",
+        "short_name": "Foroughian M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency Medicine, Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Amerizadeh, Forouzan",
+        "short_name": "Amerizadeh F",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Molecular Pathology Research Center, Mashhad University of Medical Sciences, Mashhad, Iran. amerizadehf951@gmail.com.",
+          "Department of Internal Medicine, Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran. amerizadehf951@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Discover oncology"
+    ],
+    "journal_abbrev": [
+      "Discov Oncol"
+    ],
+    "pub_date": "2026 Apr 29",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/29 12:43",
+    "fetched_at": "2026-10-01 19:26:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40971231",
+      "40729072",
+      "40499340",
+      "40487290",
+      "40097530",
+      "39872497",
+      "39726315",
+      "39678619",
+      "39664386",
+      "39631567",
+      "39613162",
+      "39558183",
+      "39428608",
+      "39311198",
+      "39202397",
+      "39148138",
+      "38947375",
+      "38924676",
+      "38798252",
+      "38769295",
+      "38618976",
+      "38417385",
+      "38253629",
+      "38243263",
+      "37663256",
+      "37440660",
+      "37241221",
+      "37194711",
+      "36923930",
+      "36726841",
+      "36610583",
+      "36305812",
+      "36274380",
+      "36209270",
+      "35497064",
+      "34902129",
+      "34831450",
+      "34486492",
+      "34358419",
+      "33552715",
+      "32070993",
+      "31912146",
+      "31882398",
+      "31367296",
+      "30383889",
+      "29207189",
+      "29032105",
+      "25740226",
+      "25521941",
+      "24951638",
+      "23757357",
+      "23737448",
+      "18931379",
+      "16272168",
+      "16247479",
+      "15972284",
+      "15264254",
+      "9271371"
+    ],
+    "similar": [
+      "42053674",
+      "42475469",
+      "42383223",
+      "42785137",
+      "41291892",
+      "41288681",
+      "41342434",
+      "41872824",
+      "41599736",
+      "42278407",
+      "41828401",
+      "42724399",
+      "41211465",
+      "41385176",
+      "36253873",
+      "42787726",
+      "41234880",
+      "35634481",
+      "42120472",
+      "36479114",
+      "42359574",
+      "42164373",
+      "31127138",
+      "42421348",
+      "35996248",
+      "41716413",
+      "39434198",
+      "41044520",
+      "41664335",
+      "42348043",
+      "41208974",
+      "41126956",
+      "39780215",
+      "41671946",
+      "41500779",
+      "41371106",
+      "42257259",
+      "41665790",
+      "42079608",
+      "41191606",
+      "42135732",
+      "42592322",
+      "40530015",
+      "41492010",
+      "42477639",
+      "41415264",
+      "40355485",
+      "41386839",
+      "41049291",
+      "41583466",
+      "41734447",
+      "39353384",
+      "41613945",
+      "42700077",
+      "42486346",
+      "40681545",
+      "32707305",
+      "41551463",
+      "41456064",
+      "38841624",
+      "39749345",
+      "41451347",
+      "40419032",
+      "41413822",
+      "42698445",
+      "41244925",
+      "42561036",
+      "41013216",
+      "33969120",
+      "35392086",
+      "37212262",
+      "34876056",
+      "39048164",
+      "41384025",
+      "40746552",
+      "41569184",
+      "42180849",
+      "39282247",
+      "42223795",
+      "36405735",
+      "41714375",
+      "42393402",
+      "36319976",
+      "38023180",
+      "40711603",
+      "42145839",
+      "41316541",
+      "30975489",
+      "42169914",
+      "41689016",
+      "41789004",
+      "41613113",
+      "42599654",
+      "39974420",
+      "36241983",
+      "41234821",
+      "37605650",
+      "42180883",
+      "41296174",
+      "34384424"
+    ],
+    "review": [
+      "42053674",
+      "37212262"
+    ],
+    "pmc": [
+      "13272696"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42053674/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3376",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "42568211",
+    "doi": "10.1111/bpa.70131",
+    "title": "Artificial intelligence-based 3D segmentation of tangle-associated TDP-43 in neurodegeneration."
+  },
+  "content": {
+    "abstract": "TAR DNA-binding protein 43 (TDP-43) inclusions are often associated with hyperphosphorylated tau, thus neurofibrillary tangles as the hallmark of Alzheimer's disease (AD) and primary age-related tauopathy (PART). TDP-43 in AD is associated with cognitive impairment, and while staging is known, the localization, cellular and inclusion characteristics of TDP-43 are yet to be elucidated. We investigate relationships between TDP-43 inclusions and the tangle maturation continuum in AD, PART, and co-pathologies by multiplex immunostaining combined with artificial intelligence (AI)-based segmentation via object recognition, reconstruction, and quantification. We performed anti-phosphorylated TDP-43 immunofluorescence with phosphorylated tau labeling different stages and modifications of tangles (AT8, pS396, TauC3, MN423, GT38) in three controls, three cases with PART and TDP-43 (PART-TDP), five cases with high likelihood AD and TDP-43 (AD-TDP), and four cases of high likelihood AD with TDP-43 and Lewy Body disease (AD-TDP-LBD). Confocal imaging was taken from eight regions: amygdala (amygdala-BL and amygdala-CM) and hippocampus (Cornu Ammonis (CA)-1, CA2/3, CA4, dentate gyrus (DG), subiculum (SUB)), and entorhinal cortex (ERC) and quantified with AI segmentation to identify 3D spatial relations, thus the maturity of neurofibrillary tangle associated TDP-43 (TAT) inclusions. TATs, which were either identified by pTDP-43 and AT8 or pTDP-43 and pS396 double positivity, were also investigated by Thioflavin S (ThioS) histochemistry. We found pS396 labeled mature TATs predominated in PART and AD in every region. Basolateral and centromedial amygdala displayed overall greatest number of pre-TATs and mature TATs. Mature TATs were homogenously distributed among hippocampal subfields whereas CA4 and DG had the greatest mature TAT composition. ERC revealed closer numbers of pre-TATs and mature TATs yet mature TATs predominated all groups. Unbiased AI-based object identification, reconstruction, and TAT maturation analysis pipeline in conjunction with TDP-43, tau, and ThioS multiplex immunostaining demonstrated unique aggregation and maturation patterns, highlighting region-specific dynamics in the neurodegenerative processes of PART and AD.",
+    "keywords": [
+      "Alzheimer's disease (AD)",
+      "TAR DNA-binding protein 43 (TDP-43)",
+      "artificial intelligence (AI)",
+      "neurofibrillary tangle associated TDP-43 (TAT)",
+      "phosphorylated tau",
+      "primary age-related tauopathy (PART)"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Uruk, Gokhan",
+        "Youssef, Hossam",
+        "Gatto, Rodolfo G",
+        "Hossain, Nadia",
+        "Whitwell, Jennifer L",
+        "Reichard, Robert R",
+        "Josephs, Keith A"
+      ],
+      "short_names": [
+        "Uruk G",
+        "Youssef H",
+        "Gatto RG",
+        "Hossain N",
+        "Whitwell JL",
+        "Reichard RR",
+        "Josephs KA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8706-9443",
+        "ORCID: 0009-0000-8876-8038",
+        "ORCID: 0000-0003-2170-6662",
+        "ORCID: 0000-0001-9202-1172",
+        "ORCID: 0000-0001-6914-1563",
+        "ORCID: 0000-0003-2930-8634"
+      ],
+      "affiliations": [
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Radiology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Laboratory Medicine and Pathology (Neuropathology), Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Uruk, Gokhan",
+        "short_name": "Uruk G",
+        "identifiers": [
+          "0000-0002-8706-9443"
+        ],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Youssef, Hossam",
+        "short_name": "Youssef H",
+        "identifiers": [
+          "0009-0000-8876-8038"
+        ],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Gatto, Rodolfo G",
+        "short_name": "Gatto RG",
+        "identifiers": [
+          "0000-0003-2170-6662"
+        ],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Hossain, Nadia",
+        "short_name": "Hossain N",
+        "identifiers": [
+          "0000-0001-9202-1172"
+        ],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Whitwell, Jennifer L",
+        "short_name": "Whitwell JL",
+        "identifiers": [
+          "0000-0001-6914-1563"
+        ],
+        "affiliations": [
+          "Department of Radiology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Reichard, Robert R",
+        "short_name": "Reichard RR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathology (Neuropathology), Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Josephs, Keith A",
+        "short_name": "Josephs KA",
+        "identifiers": [
+          "0000-0003-2930-8634"
+        ],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Brain pathology (Zurich, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Brain Pathol"
+    ],
+    "pub_date": "2026 Aug 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/08 12:52",
+    "fetched_at": "2026-10-02 03:09:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41444683",
+      "41319161",
+      "41126294",
+      "41020416",
+      "40826370",
+      "40814960",
+      "40722308",
+      "39973236",
+      "39954963",
+      "39459805",
+      "39439289",
+      "38884346",
+      "38877668",
+      "38728190",
+      "38466778",
+      "38093787",
+      "37563264",
+      "37150879",
+      "37037195",
+      "36736288",
+      "36512061",
+      "36463537",
+      "35871112",
+      "35838075",
+      "35570492",
+      "35411392",
+      "33971027",
+      "33797838",
+      "33725124",
+      "33427938",
+      "32372343",
+      "31992981",
+      "31985469",
+      "31562527",
+      "31039256",
+      "30837838",
+      "30604226",
+      "30386817",
+      "29928558",
+      "29415231",
+      "29213602",
+      "28919059",
+      "26810071",
+      "26659578",
+      "26538548",
+      "26224156",
+      "25473830",
+      "25348064",
+      "24904307",
+      "24659241",
+      "24240737",
+      "21339500",
+      "21170538",
+      "19125255",
+      "18064739",
+      "17267521",
+      "17030660",
+      "12719624",
+      "11837744",
+      "9100672",
+      "8713166",
+      "7522386",
+      "3758285",
+      "2495152",
+      "1759558",
+      "1750357"
+    ],
+    "similar": [
+      "42568211",
+      "42576167",
+      "38093787",
+      "30382507",
+      "37525358",
+      "37037195",
+      "35871112",
+      "36989381",
+      "38728190",
+      "33150361",
+      "32349792",
+      "40843926",
+      "42542447",
+      "34854996",
+      "19422539",
+      "39659977",
+      "28919059",
+      "36316708",
+      "40407905",
+      "35920592",
+      "36057624",
+      "28160067",
+      "35366087",
+      "36244581",
+      "34689831",
+      "32372343",
+      "34289895",
+      "28281308",
+      "17963732",
+      "39160362",
+      "40512809",
+      "39737785",
+      "40952471",
+      "42395416",
+      "41776730",
+      "39302368",
+      "31796108",
+      "27036121",
+      "26224156",
+      "23053135",
+      "40501554",
+      "20102526",
+      "41366514",
+      "34335226",
+      "17469117",
+      "42418450",
+      "39522802",
+      "37777806",
+      "40042444",
+      "41646315",
+      "24684788",
+      "39675237",
+      "38884346",
+      "27296779",
+      "42204616",
+      "40836826",
+      "27495267",
+      "40562864",
+      "38167557",
+      "38980423",
+      "40501844",
+      "38916996",
+      "28416393",
+      "36934675",
+      "38715119",
+      "30092839",
+      "39985478",
+      "37592884",
+      "30010126",
+      "40576462",
+      "32388566",
+      "10082824",
+      "24240737",
+      "38489180",
+      "35491780",
+      "18607609",
+      "40671812",
+      "24588894",
+      "37043115",
+      "23869942",
+      "41688738",
+      "32925029",
+      "34930382",
+      "37001766",
+      "35296366",
+      "34259858",
+      "35168140",
+      "29878075",
+      "30290707",
+      "33969528",
+      "12580546",
+      "32892355",
+      "31929165",
+      "39711133",
+      "42063624",
+      "35029300",
+      "40088623",
+      "29171994",
+      "26091809",
+      "40705123"
+    ],
+    "review": [
+      "42568211",
+      "36244581",
+      "40562864",
+      "39985478"
+    ],
+    "pmc": [
+      "13451656"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42568211/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/bpa.70131",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1091",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

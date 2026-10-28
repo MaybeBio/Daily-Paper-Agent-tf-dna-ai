@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38783706",
+  "title": "Predicting RNA polymerase II transcriptional elongation pausing and associated histone code.",
+  "authors": "Ren, Lixin; Ma, Wanbiao; Wang, Yong",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-05-24",
+  "window": {
+    "start": "2024-05-20",
+    "end": "2024-05-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习预测RNA聚合酶II转录延伸暂停并关联组蛋白修饰，虽涉及转录调控但非蛋白质-DNA互作建模核心，方法可迁移性有限。",
+  "abstract": "RNA Polymerase II (Pol II) transcriptional elongation pausing is an integral part of the dynamic regulation of gene transcription in the genome of metazoans. It plays a pivotal role in many vital biological processes and disease progression. However, experimentally measuring genome-wide Pol II pausing is technically challenging and the precise governing mechanism underlying this process is not fully understood. Here, we develop RP3 (RNA Polymerase II Pausing Prediction), a network regularized logistic regression machine learning method, to predict Pol II pausing events by integrating genome sequence, histone modification, gene expression, chromatin accessibility, and protein-protein interaction data. RP3 can accurately predict Pol II pausing in diverse cellular contexts and unveil the transcription factors that are associated with the Pol II pausing machinery. Furthermore, we utilize a forward feature selection framework to systematically identify the combination of histone modification signals associated with Pol II pausing. RP3 is freely available at https://github.com/AMSSwanglab/RP3.",
+  "abstract_zh": "RNA聚合酶II（Pol II）转录延伸暂停是后生动物基因组中基因转录动态调控的一个组成部分。它在许多关键生物过程和疾病进展中发挥核心作用。然而，通过实验测量全基因组范围内的Pol II暂停在技术上具有挑战性，且该过程背后的精确调控机制尚未完全阐明。在此，我们开发了RP3（RNA聚合酶II暂停预测），一种网络正则化逻辑回归机器学习方法，通过整合基因组序列、组蛋白修饰、基因表达、染色质可及性和蛋白质-蛋白质相互作用数据来预测Pol II暂停事件。RP3能够在多种细胞环境中准确预测Pol II暂停，并揭示与Pol II暂停机制相关的转录因子。此外，我们利用前向特征选择框架系统性地识别与Pol II暂停相关的组蛋白修饰信号组合。RP3可在https://github.com/AMSSwanglab/RP3免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38783706/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38783706/",
+  "paper_page_path": "papers/pubmed/38783706/index.html"
+}

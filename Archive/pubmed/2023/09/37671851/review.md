@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The abstract reports identification of a novel natural product, SBS-3.1, from a virtual screen of the ZINC natural product library, which is claimed to inhibit TNF-alpha-induced NF-kappaB activation by targeting the p50 Rel-homology region, reduce inflammatory signaling (NF-kappaB p65, p38, ERK1/2), and promote apoptosis in A-549 lung cancer cells, with a reported GI50 of 30.53 muM.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or raw data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods descriptions, compound characterization data, molecular dynamics simulation parameters, MMPBSA calculation details, cell-based assay protocols, and statistical reporting
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding in the context of inflammation-associated lung cancer therapy, namely the identification of a natural product that may modulate NF-kappaB signaling. However, the evidence as presented is insufficient to establish the core claims. The abstract lacks critical methodological detail, quantitative results beyond a single GI50 value, and any statistical or reproducibility information. The link between computational predictions and experimental validation is asserted but not demonstrated with sufficient rigor. The claim that SBS-3.1 promotes apoptosis via NF-kappaB inhibition is plausible but not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in cancer biology, particularly those focused on inflammation-driven tumorigenesis and NF-kappaB signaling. Investigators working on natural product discovery and drug development for lung cancer may also find the compound of interest. The computational approach may appeal to those in structural biology and molecular docking fields.
+- **Major strengths** The study addresses a clinically relevant problem, namely inflammation in the lung cancer tumor microenvironment. The use of a natural product library screen is a reasonable approach for lead identification. The combination of computational modeling and in vitro validation is a common and potentially effective strategy. The focus on the p50 subunit of NF-kappaB is a specific and mechanistically meaningful target.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that SBS-3.1 inhibits TNF-alpha-induced NF-kappaB activation and inflammatory signals, and promotes apoptosis in lung cancer cells.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract provides only a single quantitative outcome, the GI50 value of 30.53 muM, for the anti-proliferative effect. No data are shown for the percentage changes in NF-kappaB p65, p38, or ERK1/2 positive cells, nor for the extent of apoptosis elevation. Without these values, the magnitude and statistical significance of the claimed effects cannot be assessed.  
+  - **Why it matters** The central claim of the study is that SBS-3.1 modulates inflammatory signaling and promotes apoptosis. If the effect sizes are small or not statistically robust, the conclusion may not hold. The absence of quantitative data prevents any evaluation of biological relevance.  
+  - **Resolution test** Provide the percentage of positive cells for each marker in treated versus control groups, with error bars and statistical tests, and the apoptosis assay results with comparable detail.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** The abstract claims that virtual docking and molecular dynamics simulation identified SBS-3.1 as a lead compound that binds efficiently and stably with p50 protein.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No details are given on the docking scoring function, the simulation length, the force field used, or the criteria for selecting SBS-3.1 over other candidates. The MMPBSA analysis is mentioned but no binding free energy value is reported. Without these parameters, the computational claim is not reproducible or verifiable.  
+  - **Why it matters** The computational identification is the foundation for the entire study. If the methods are not described or the results not quantified, the lead compound selection cannot be independently assessed, and the subsequent experimental work lacks a validated starting point.  
+  - **Resolution test** Provide full computational methods, including software versions, parameters, and the binding free energy value with associated errors.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic link  
+  - **Claim pointer** The abstract claims that inhibition of NF-kappaB and inflammatory signals by SBS-3.1 promoted apoptosis in lung cancer.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract does not establish a causal relationship between NF-kappaB inhibition and apoptosis. It is possible that SBS-3.1 induces apoptosis through an off-target mechanism, and the observed reduction in NF-kappaB signaling is a consequence rather than a cause. No rescue experiments, knockdown controls, or alternative pathway analyses are mentioned.  
+  - **Why it matters** The proposed mechanism is the main scientific contribution. If the causal link is not demonstrated, the study only reports correlative observations, which weakens the significance of the findings.  
+  - **Resolution test** Include experiments where NF-kappaB activation is restored or inhibited independently, or where downstream targets of NF-kappaB are measured, to show that apoptosis is dependent on this pathway.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Specificity and off-target effects  
+  - **Claim pointer** The abstract claims that SBS-3.1 targets the Rel-homology region of p50.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract does not provide evidence that SBS-3.1 binds specifically to p50 rather than to other NF-kappaB family members or unrelated proteins. No binding assays, mutagenesis studies, or selectivity screens are described.  
+  - **Why it matters** Specificity is critical for a proposed drug lead. If the compound affects multiple targets, the observed effects may not be attributable to p50 binding, and the therapeutic potential is less clear.  
+  - **Resolution test** Provide binding affinity measurements, such as surface plasmon resonance or isothermal titration calorimetry, and test the compound against related Rel proteins.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Compound nomenclature  
+  - **Evidence pointer** Abstract title and text  
+  - **Issue** The compound is referred to as both "SBS 3.1" and "SBS-3.1" in the abstract. This inconsistency may cause confusion.  
+  - **Required correction** Use a single consistent name throughout the manuscript.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reporting  
+  - **Affected element** Cell line description  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract states "TNF-alpha induced A-549" but does not clarify whether the cells were pre-treated with TNF-alpha, co-treated, or if the cells are a specific variant.  
+  - **Required correction** Specify the treatment protocol for TNF-alpha in relation to SBS-3.1 administration.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Statistical information  
+  - **Evidence pointer** Abstract text  
+  - **Issue** No statistical measures, such as p-values or confidence intervals, are reported for any of the experimental outcomes.  
+  - **Required correction** Include statistical details for all quantitative claims in the abstract or refer to figures where these are provided.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Language  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The phrase "T ME" appears to be an abbreviation for tumor microenvironment but is not defined.  
+  - **Required correction** Define the abbreviation at first use or use the full term.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns relate to missing quantitative data, insufficient methodological detail, and lack of causal evidence, respectively. Without addressing these, the core claims of the study cannot be validated.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The use of a natural product library screen targeting the p50 subunit is not entirely novel, but the specific compound and its proposed mechanism may offer some originality. However, the abstract does not demonstrate how this advances beyond existing NF-kappaB inhibitors.  
+  - **Scientific importance** The topic is of high importance given the role of inflammation in lung cancer. However, the significance is diminished by the lack of robust evidence and the preliminary nature of the findings.  
+  - **Interdisciplinary readership** The work spans computational chemistry, structural biology, and cancer biology, which could attract a broad audience. Yet, the abstract is too sparse to engage specialists from each field effectively.  
+  - **Technical soundness** The technical approach is reasonable in principle, but the absence of methodological details and quantitative results prevents an assessment of soundness.  
+  - **Readability for nonspecialists** The abstract is generally readable but contains undefined abbreviations and lacks context for the computational methods, which may hinder nonspecialist understanding.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis and preliminary data, but the lack of quantitative results, methodological transparency, and causal evidence means the claims cannot be supported as presented. The study may become viable after substantial revision and addition of data.
+
+## Risk / unsupported claims
+- The claim that SBS-3.1 "binds efficiently and stably" with p50 is unsupported because no binding affinity or simulation stability metrics are provided.
+- The claim that SBS-3.1 "decreased the percentage" of NF-kappaB p65, p38, and ERK1/2 positive cells is unsupported because no numerical data or statistical analysis are given.
+- The claim that apoptosis was "elevated" is unsupported for the same reason.
+- The causal claim that NF-kappaB inhibition "promoted apoptosis" is not established from the correlative evidence described.
+- The GI50 value of 30.53 muM is reported without error margins or replicate information, making its reliability unassessable.

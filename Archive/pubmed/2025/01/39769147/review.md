@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Structural biology claims, biophysical characterization, computational analyses, and functional implications presented in the manuscript
+- **Shared manuscript claim summary** The authors report a novel homodimeric crystal structure of the first two zinc finger motifs (Zif1-2) of the GLI1 transcription factor in the absence of DNA. They propose that this "linearized" dimeric conformation represents the native apo state of GLI1 Zif1-2, distinct from the bent monomeric conformation observed in the GLI1-DNA co-crystal structure. The study includes X-ray crystallography, size-exclusion chromatography, molecular dynamics simulations, in silico mutagenesis with free energy calculations, and ProteinBERT-based protease susceptibility predictions.
+- **Visible evidence base** Full manuscript text including Results, Discussion, Materials and Methods, and figure legends; no raw diffraction data, validation reports, or supplementary files were provided for independent verification
+- **Missing materials affecting confidence** Electron density maps, PDB validation report for 7T91, diffraction data statistics completeness, supplementary figures (Figure S1, S2), raw SEC chromatograms with molecular weight standards, MD simulation convergence metrics, and the full ProteinBERT prediction output
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting crystal structure of GLI1 Zif1-2 in a dimeric arrangement, but the central claim that this represents the native apo conformation of GLI1 is insufficiently supported. The crystallographic analysis appears incomplete, the SEC data are not quantitatively interpreted, and the MD simulations are not adequately described or analyzed. The functional significance of the proposed dimerization is speculative and not experimentally tested. While the structure itself may be of interest to the structural biology community, the broader claims about GLI1 regulation and implications for inhibitor design are not established by the data presented.
+- **Who would be interested in the results, and why** Structural biologists studying zinc finger proteins and transcription factor DNA-binding domains; cancer researchers interested in GLI1 as a therapeutic target in Hedgehog signaling; computational biologists working on protein-protein interaction prediction and stability analysis. The structure provides a new conformation of GLI1 Zif1-2 that may inform understanding of how GLI1 functions in the absence of DNA.
+- **Major strengths** The crystal structure determination is a valuable contribution, providing the first apo structure of GLI1 Zif1-2. The observation of a domain-swapped or linearized dimer arrangement is novel and potentially biologically relevant. The combination of experimental structure determination with computational analyses (MD, in silico mutagenesis, LLM-based prediction) represents a multi-pronged approach. The authors correctly note the limitations of their crystallization attempts with longer constructs.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The crystal structure is described as a "novel homodimeric crystal structure of Zif1-2" with a "linearized" conformation.
+  - **Evidence pointer** Section 2.1, 2.2; Table 4
+  - **Concern** The crystallographic analysis is not presented with sufficient detail to assess its quality. The refinement statistics in Table 4 are not described in the text, and no electron density maps or validation metrics (e.g., Ramachandran plot, clash score, B-factor analysis) are shown. The initial refinement problems (Rfree = 44.78) and subsequent ARP/wARP rebuilding are described, but the final model quality is not critically evaluated. The authors do not report the resolution of the final model in the text, nor do they discuss the quality of the electron density for the key interface residues.
+  - **Why it matters** The central claim of a novel dimeric structure depends entirely on the quality of the crystallographic model. Without proper validation, the observed dimer interface could be a crystallographic artifact. The manuscript does not provide sufficient evidence that the dimer is not a packing artifact or that the "linearized" conformation is not an artifact of the crystallization conditions.
+  - **Resolution test** Provide the PDB validation report, electron density maps for the interface region, and a detailed description of the refinement statistics including resolution, Rfree/Rwork, and model geometry. Show that the dimer interface is biologically relevant (e.g., conserved residues, shape complementarity, buried surface area analysis) and not merely a crystal packing contact.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The size-exclusion chromatography data (Figure 4a) indicate that the molecular weight of GLI1 Zif1-2 (234–302) was between that of the monomer (~6 kDa) and dimer (~12 kDa)."
+  - **Evidence pointer** Section 2.3; Figure 4a
+  - **Concern** The SEC data are not quantitatively analyzed. The authors state that the molecular weight was "between" monomer and dimer, which is not a definitive demonstration of dimerization. No calibration curve, elution volumes, or calculated molecular weights are provided. The statement that other constructs (234–326, 234–358, 234–388) "also formed a dimer" is based on unshown data. The SEC experiment appears to have been performed only once without replicates or proper standards.
+  - **Why it matters** The claim that Zif1-2 forms a stable dimer in solution is critical to the biological relevance of the crystal structure. If the SEC data are ambiguous, the dimer could be a crystallization artifact. The authors need to provide rigorous biophysical evidence for dimerization in solution.
+  - **Resolution test** Provide a properly calibrated SEC experiment with molecular weight standards, show the elution profile with calculated molecular weights, and include replicates. Use an orthogonal method (e.g., analytical ultracentrifugation, multi-angle light scattering) to confirm the oligomeric state.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The molecular dynamics simulation result of the homodimer, the in silico mutagenesis, and the predicted protease stability of these mutants using a large language model are also presented."
+  - **Evidence pointer** Sections 2.4, 2.5, 4.5, 4.6, 4.7; Figure 5, 6
+  - **Concern** The MD simulation methodology is inadequately described. The text states that 200 ns simulations were performed with two replicates, but the results section (2.4) refers to "100 ns simulation" while the methods (4.5) state "200 ns simulation." This discrepancy is not explained. No convergence analysis, RMSD plots, or trajectory analysis are shown. The in silico mutagenesis results are presented as a single table without statistical analysis or error estimates. The ProteinBERT predictions are described qualitatively without showing the actual prediction scores or how they were interpreted.
+  - **Why it matters** The computational analyses are used to support the biological relevance of the dimer and to guide future experiments. If the simulations are not properly validated or the methods are inconsistent, the conclusions drawn from them are unreliable. The discrepancy between 100 ns and 200 ns suggests a lack of rigor in the analysis.
+  - **Resolution test** Clarify the simulation length, provide convergence metrics (RMSD vs. time plots, RMSF analysis), show the actual MM-GBSA free energy values with standard deviations, and present the ProteinBERT prediction scores in a quantitative format.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "The dimeric conformation of Zif motifs could represent the native conformation of apo form GLI1 Zif motifs in the cell."
+  - **Evidence pointer** Section 1, 2.3, 3
+  - **Concern** The claim that the dimeric conformation represents the native apo state of GLI1 is not supported by any in-cell or in-solution evidence. The authors only show that the isolated Zif1-2 construct can form a dimer in the crystal and possibly in solution. They do not demonstrate that full-length GLI1 forms a dimer in cells, nor do they address the fact that the construct used (residues 234–302) is only a fragment of the full DNA-binding domain. The authors themselves acknowledge that "whether the full-length GLI1 molecule in the cell is dimeric warrants further investigation," which undermines the significance of the claim.
+  - **Why it matters** The biological relevance of the dimer is the main justification for the study's importance. Without evidence that the dimer exists in the context of full-length GLI1 in cells, the structure is of limited functional significance.
+  - **Resolution test** Provide experimental evidence for dimerization of full-length GLI1 or a longer construct in solution or in cells (e.g., cross-linking, FRET, co-immunoprecipitation). Alternatively, temper the claims to be more clearly limited to the isolated Zif1-2 fragment.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The binding of DNA may restrain Zif1-2 from forming a linearized dimer."
+  - **Evidence pointer** Section 3
+  - **Concern** This claim is speculative and not directly tested. The authors compare the apo dimer structure with the DNA-bound structure from PDB 2GLI, but they do not perform any experiments to test whether DNA binding prevents dimerization. The MD simulation of the monomer does not address this question directly.
+  - **Why it matters** The proposed mechanism of DNA-regulated dimerization is an interesting hypothesis but is not supported by direct evidence. Without experimental testing, this remains speculation.
+  - **Resolution test** Perform DNA binding assays with the dimeric form, or co-crystallization experiments with DNA to test whether the dimer dissociates upon DNA binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The description of the structure determination process is confusing. The authors state that the initial refinement was "stuck with a very high Rfree and R factor, 44.78 and 46.92, respectively," but then state that the ARP/wARP model had an R factor of 27.79, and the final model had R = 19.8 and Rfree = 22.5. The progression is not clearly explained.
+  - **Required correction** Clarify the step-by-step refinement process, including why the initial model failed and how ARP/wARP improved it. Provide the resolution of the final model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Figure 3
+  - **Issue** The description of the hydrophobic interface is not clear. The authors state that "the same set of residues from the Zif1 and Zif2 interface described in the 2GLI structure are involved in the dimerization," but it is not clear whether these are the same residues in the same positions or different residues that play analogous roles.
+  - **Required correction** Provide a clear comparison of the interface residues between the 2GLI structure and the new dimer structure, possibly with a sequence alignment or structural overlay.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Figure 6
+  - **Issue** The ProteinBERT analysis is described as predicting "protease susceptibility" but the connection to protein stability is not clearly explained. The authors state that "the mutations of interest, especially W272G and W272N, were stable mutations" but do not explain what "stable" means in this context.
+  - **Required correction** Clarify the relationship between protease susceptibility and protein stability, and define what "stable" means in the context of the ProteinBERT predictions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 4.5
+  - **Evidence pointer** Section 4.5
+  - **Issue** The MD simulation methods are described in a confusing manner. The text states that "the system underwent seven-step minimization first and then was gradually heated up to a temperature of 300 K under restraints. Subsequently, 10 ns restraint-free equilibration was performed using the NVT ensemble. Once equilibration was reached, a 200 ns MD simulation was carried out using the NVT ensemble." The use of NVT for both equilibration and production is unusual and not justified.
+  - **Required correction** Justify the choice of NVT ensemble for both equilibration and production runs, or use NPT for production as is standard practice.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4.7
+  - **Evidence pointer** Section 4.7
+  - **Issue** The description of ProteinBERT is imprecise. The authors state it was "pretrained (~106 M known protein sequences to learn protein representation) and fine-tuned (~15 K protein sequences with protease susceptibility assay data)." The notation "~106 M" is ambiguous and likely should be "~106 million."
+  - **Required correction** Clarify the notation and provide the correct number of sequences used for pretraining and fine-tuning.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (crystallographic validation), R1-M2 (SEC quantification), R1-M3 (MD methodology inconsistency and lack of convergence analysis)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The apo structure of GLI1 Zif1-2 is new, but the concept of zinc finger dimerization is not unprecedented. The study does not present a fundamentally new principle or mechanism.
+  - **Scientific importance** Limited. The structure is a useful addition to the GLI1 structural knowledge, but the biological significance of the dimer is not established. The implications for inhibitor design are speculative.
+  - **Interdisciplinary readership** Narrow. The study is primarily of interest to structural biologists and those working on GLI1/Hedgehog signaling. The computational analyses are not sufficiently developed to attract a broader computational biology audience.
+  - **Technical soundness** Insufficient. The crystallographic validation is incomplete, the SEC data are not quantitative, and the MD simulations have methodological inconsistencies. The in silico mutagenesis and LLM predictions lack statistical rigor.
+  - **Readability for nonspecialists** Acceptable. The manuscript is generally well-written and the concepts are explained clearly, though some technical details are confusing.
+- **Recommendation posture** Not currently established from the provided evidence. The manuscript requires substantial revisions to address the technical concerns, particularly regarding crystallographic validation and solution-state characterization of the dimer. The authors should either provide rigorous evidence for the biological relevance of the dimer or significantly temper their claims.
+
+## Risk / unsupported claims
+- The claim that the dimeric conformation "could represent the native conformation of apo form GLI1 Zif motifs in the cell" is unsupported by direct experimental evidence.
+- The claim that "the binding of DNA may prevent Zif1-2 dimer formation" is speculative and not directly tested.
+- The statement that other Zif truncations (234–326, 234–358, 234–388) "also formed a dimer" is based on unshown SEC data.
+- The claim that the dimer interface is "unique" is not substantiated by comparison with other zinc finger dimer structures.
+- The ProteinBERT predictions are presented qualitatively without quantitative scores, making the claim that specific mutations are "stable" unverifiable.
+- The MD simulation results are described without showing actual trajectory data, making the claim that the linear monomer is "less stable" unsupported.

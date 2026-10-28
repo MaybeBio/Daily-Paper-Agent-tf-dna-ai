@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "33918195",
+    "doi": "10.3390/cancers13071677",
+    "title": "Deciphering the Methylation Landscape in Breast Cancer: Diagnostic and Prognostic Biosignatures through Automated Machine Learning."
+  },
+  "content": {
+    "abstract": "DNA methylation plays an important role in breast cancer (BrCa) pathogenesis and could contribute to driving its personalized management. We performed a complete bioinformatic analysis in BrCa whole methylome datasets, analyzed using the Illumina methylation 450 bead-chip array. Differential methylation analysis vs. clinical end-points resulted in 11,176 to 27,786 differentially methylated genes (DMGs). Innovative automated machine learning (AutoML) was employed to construct signatures with translational value. Three highly performing and low-feature-number signatures were built: (1) A 5-gene signature discriminating BrCa patients from healthy individuals (area under the curve (AUC): 0.994 (0.982-1.000)). (2) A 3-gene signature identifying BrCa metastatic disease (AUC: 0.986 (0.921-1.000)). (3) Six equivalent 5-gene signatures diagnosing early disease (AUC: 0.973 (0.920-1.000)). Validation in independent patient groups verified performance. Bioinformatic tools for functional analysis and protein interaction prediction were also employed. All protein encoding features included in the signatures were associated with BrCa-related pathways. Functional analysis of DMGs highlighted the regulation of transcription as the main biological process, the nucleus as the main cellular component and transcription factor activity and sequence-specific DNA binding as the main molecular functions. Overall, three high-performance diagnostic/prognostic signatures were built and are readily available for improving BrCa precision management upon prospective clinical validation. Revisiting archived methylomes through novel bioinformatic approaches revealed significant clarifying knowledge for the contribution of gene methylation events in breast carcinogenesis.",
+    "keywords": [
+      "bioinformatics",
+      "breast cancer",
+      "machine learning",
+      "methylation",
+      "pathway",
+      "predictive model",
+      "signature",
+      "transcription"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Panagopoulou, Maria",
+        "Karaglani, Makrina",
+        "Manolopoulos, Vangelis G",
+        "Iliopoulos, Ioannis",
+        "Tsamardinos, Ioannis",
+        "Chatzaki, Ekaterini"
+      ],
+      "short_names": [
+        "Panagopoulou M",
+        "Karaglani M",
+        "Manolopoulos VG",
+        "Iliopoulos I",
+        "Tsamardinos I",
+        "Chatzaki E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9853-3571",
+        "ORCID: 0000-0003-0849-5469",
+        "ORCID: 0000-0002-5832-4257"
+      ],
+      "affiliations": [
+        "Laboratory of Pharmacology, Medical School, Democritus University of Thrace, GR-68100 Alexandroupolis, Greece.",
+        "Laboratory of Pharmacology, Medical School, Democritus University of Thrace, GR-68100 Alexandroupolis, Greece.",
+        "Laboratory of Pharmacology, Medical School, Democritus University of Thrace, GR-68100 Alexandroupolis, Greece.",
+        "Department of Basic Sciences, School of Medicine, University of Crete, GR-71003 Heraklion, Greece.",
+        "JADBio, Gnosis Data Analysis PC, Science and Technology Park of Crete, GR-70013 Heraklion, Greece.",
+        "Department of Computer Science, University of Crete, GR-70013 Heraklion, Greece.",
+        "Institute of Applied and Computational Mathematics, Foundation for Research and Technology-Hellas, GR-70013 Heraklion, Greece.",
+        "Laboratory of Pharmacology, Medical School, Democritus University of Thrace, GR-68100 Alexandroupolis, Greece.",
+        "Institute of Agri-Food and Life Sciences, Hellenic Mediterranean University Research Centre, GR-71410 Heraklion, Greece."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Panagopoulou, Maria",
+        "short_name": "Panagopoulou M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Pharmacology, Medical School, Democritus University of Thrace, GR-68100 Alexandroupolis, Greece."
+        ]
+      },
+      {
+        "full_name": "Karaglani, Makrina",
+        "short_name": "Karaglani M",
+        "identifiers": [
+          "0000-0002-9853-3571"
+        ],
+        "affiliations": [
+          "Laboratory of Pharmacology, Medical School, Democritus University of Thrace, GR-68100 Alexandroupolis, Greece."
+        ]
+      },
+      {
+        "full_name": "Manolopoulos, Vangelis G",
+        "short_name": "Manolopoulos VG",
+        "identifiers": [
+          "0000-0003-0849-5469"
+        ],
+        "affiliations": [
+          "Laboratory of Pharmacology, Medical School, Democritus University of Thrace, GR-68100 Alexandroupolis, Greece."
+        ]
+      },
+      {
+        "full_name": "Iliopoulos, Ioannis",
+        "short_name": "Iliopoulos I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Sciences, School of Medicine, University of Crete, GR-71003 Heraklion, Greece."
+        ]
+      },
+      {
+        "full_name": "Tsamardinos, Ioannis",
+        "short_name": "Tsamardinos I",
+        "identifiers": [],
+        "affiliations": [
+          "JADBio, Gnosis Data Analysis PC, Science and Technology Park of Crete, GR-70013 Heraklion, Greece.",
+          "Department of Computer Science, University of Crete, GR-70013 Heraklion, Greece.",
+          "Institute of Applied and Computational Mathematics, Foundation for Research and Technology-Hellas, GR-70013 Heraklion, Greece."
+        ]
+      },
+      {
+        "full_name": "Chatzaki, Ekaterini",
+        "short_name": "Chatzaki E",
+        "identifiers": [
+          "0000-0002-5832-4257"
+        ],
+        "affiliations": [
+          "Laboratory of Pharmacology, Medical School, Democritus University of Thrace, GR-68100 Alexandroupolis, Greece.",
+          "Institute of Agri-Food and Life Sciences, Hellenic Mediterranean University Research Centre, GR-71410 Heraklion, Greece."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancers"
+    ],
+    "journal_abbrev": [
+      "Cancers (Basel)"
+    ],
+    "pub_date": "2021 Apr 2",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/01 06:00",
+    "fetched_at": "2026-09-27 16:37:23"
+  },
+  "links": {
+    "cites": [
+      "42399352",
+      "41491226",
+      "39643918",
+      "38886359",
+      "38025660",
+      "37628841",
+      "37256234",
+      "36261477",
+      "36232413",
+      "35898310",
+      "35865634",
+      "35814412",
+      "35710826",
+      "35409077",
+      "35328380",
+      "35207316",
+      "34769391",
+      "34302024",
+      "34207031"
+    ],
+    "refs": [
+      "35710826",
+      "33578793",
+      "33575553",
+      "33082888",
+      "32962113",
+      "32650268",
+      "32649035",
+      "32514046",
+      "32453457",
+      "32298288",
+      "32202050",
+      "32005973",
+      "32002550",
+      "31998560",
+      "31747912",
+      "31737498",
+      "31699026",
+      "31576252",
+      "31548545",
+      "31360238",
+      "31289491",
+      "31198475",
+      "31133011",
+      "30968063",
+      "30871603",
+      "30866861",
+      "30643192",
+      "30618174",
+      "30476243",
+      "30474411",
+      "30405052",
+      "30393425",
+      "30371505",
+      "30260026",
+      "30221688",
+      "30207593",
+      "29938218",
+      "29678673",
+      "29380207",
+      "29373828",
+      "29352327",
+      "29338701",
+      "29274663",
+      "28714863",
+      "28693600",
+      "28381193",
+      "28138307",
+      "28128423",
+      "27633997",
+      "26628957",
+      "26213588",
+      "26095253",
+      "25865047",
+      "25750696",
+      "25357107",
+      "25262207",
+      "24953305",
+      "24725405",
+      "23864729",
+      "23476028",
+      "23467471",
+      "23338608",
+      "23314698",
+      "23175756",
+      "23143270",
+      "21118553",
+      "19498003",
+      "19033363",
+      "18082200",
+      "16507410",
+      "16432157",
+      "14597658",
+      "11752295"
+    ],
+    "similar": [
+      "33918195",
+      "35328380",
+      "33365308",
+      "34956313",
+      "35465161",
+      "38911294",
+      "34302024",
+      "37178414",
+      "36757135",
+      "33350104",
+      "35958490",
+      "34233259",
+      "34721975",
+      "30643192",
+      "36062142",
+      "30715658",
+      "32962113",
+      "30537139",
+      "36033386",
+      "37582308",
+      "35726216",
+      "33499882",
+      "35694087",
+      "34716619",
+      "30984247",
+      "32274635",
+      "33134164",
+      "35498539",
+      "31646666",
+      "31959227",
+      "36247248",
+      "31105737",
+      "34022836",
+      "36585691",
+      "36140725",
+      "35409077",
+      "29721079",
+      "35853971",
+      "37059863",
+      "32707305",
+      "34707800",
+      "37098532",
+      "35844885",
+      "29642861",
+      "32922438",
+      "38028548",
+      "37171615",
+      "36747547",
+      "31930083",
+      "23631487",
+      "36942103",
+      "36779430",
+      "31777591",
+      "34513864",
+      "34313009",
+      "35224098",
+      "33367533",
+      "35432482",
+      "38845821",
+      "28852427",
+      "31959204",
+      "37330302",
+      "36232628",
+      "37685980",
+      "36261477",
+      "35990668",
+      "35965804",
+      "36057424",
+      "34059009",
+      "38323183",
+      "36911389",
+      "34722297",
+      "36660659",
+      "30950057",
+      "34532357",
+      "31081184",
+      "37771430",
+      "31423189",
+      "37212262",
+      "20830311",
+      "27308556",
+      "37216014",
+      "37033959",
+      "30786922",
+      "32693820",
+      "35694102",
+      "34034542",
+      "35202405",
+      "36993976",
+      "37744384"
+    ],
+    "review": [
+      "33918195",
+      "38845821"
+    ],
+    "pmc": [
+      "8037759"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cancers13071677",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33918195/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33918195",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:33918195",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://scite.ai/reports/33918195",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

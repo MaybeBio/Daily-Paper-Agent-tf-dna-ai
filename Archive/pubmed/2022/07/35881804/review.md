@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including main figures referenced in text, methods, and supplementary figure/table references. No actual figures, supplementary files, or raw data were provided.
+- **Assessment boundary** Assessment is limited to the claims as stated in the text and the methodological descriptions provided. No independent verification of experimental results was possible.
+- **Shared manuscript claim summary** The authors report that shelterin, the six-subunit telomere-protective complex, assembles as a dimeric complex with extensive conformational heterogeneity. Using negative-stain electron microscopy, mass photometry, native mass spectrometry, cross-linking mass spectrometry, and AlphaFold-Multimer modeling, they characterize several subcomplexes and the full complex, concluding that intrinsic flexibility of linker regions and interdomain associations underlie the structural variability that has precluded high-resolution structure determination.
+- **Visible evidence base** Text descriptions of results from negative-stain EM 2D class averages, mass photometry measurements, native MS, XLMS, and AlphaFold-Multimer predictions. Figure references (Figs. 1–5) and supplementary figure/table references are cited but not viewable.
+- **Missing materials affecting confidence** All figures, supplementary figures, supplementary tables, raw mass spectrometry data, EM micrographs, and detailed purification protocols referenced as "SI Appendix" were not provided. This substantially limits the ability to evaluate data quality, statistical rigor, and the validity of interpretive claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in telomere biology, namely the architecture and stoichiometry of the shelterin complex. The authors employ a commendable multi-technique approach to tackle a biochemically challenging system. The central claims, that shelterin is dimeric and conformationally heterogeneous, are plausible and consistent with prior literature. However, the evidence as presented in the text alone is insufficient to fully establish these conclusions. The lack of access to the actual figures and supplementary data prevents verification of key claims, particularly regarding 2D class average interpretations, mass photometry peak assignments, and XLMS data quality. The manuscript is well-written and the conceptual framing is strong, but several technical details and interpretive leaps require clarification.
+- **Who would be interested in the results, and why** Researchers in telomere biology, chromosome biology, and DNA repair will find these results directly relevant. The study also has broader appeal to structural biologists interested in intrinsically dynamic macromolecular complexes and to methodologists developing hybrid approaches (EM, MS, computational modeling) for challenging specimens. The findings have potential implications for understanding telomere-related diseases, though the authors do not overreach in this direction.
+- **Major strengths** The multi-technique strategy is appropriate and powerful. The use of mass photometry and native MS to establish stoichiometry is rigorous. The combination of XLMS with AlphaFold-Multimer provides complementary evidence for conformational variability. The authors are appropriately cautious in acknowledging limitations, such as the inability to achieve high-resolution structures. The "toy wooden snake" analogy is helpful for conceptualizing the observed flexibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that shelterin forms a "fully dimeric complex" is central to the paper.
+  - **Evidence pointer** Figure 3D and E, Figure 4E, SI Appendix Table 4, "location not provided" for specific data points.
+  - **Concern** The mass photometry data for the TRF1 complex show multiple peaks (80, 170, 270, 470 kDa), which the authors interpret as representing different stoichiometric species, with the dimeric form dominating upon DNA addition. However, the text states that the complex "partially dissociates during purification and/or dilution to low concentration." This raises the question of whether the "fully dimeric" state is the native, functional state or an artifact of the specific reconstitution and measurement conditions. The assignment of the 470 kDa peak to the fully dimeric complex relies on calculated molecular masses, but the text does not provide error estimates or replicate numbers for these measurements. Without seeing the actual mass photometry distributions and statistical analysis, it is difficult to assess whether the dimeric assignment is robust or whether other assemblies (e.g., higher-order oligomers) could contribute to the observed peaks.
+  - **Why it matters** The stoichiometry of shelterin is a fundamental architectural question. If the dimeric state is not the predominant or functionally relevant form under physiological conditions, the central conclusion of the paper is weakened. The authors need to demonstrate that the dimeric assembly is not an artifact of their reconstitution system.
+  - **Resolution test** Provide quantitative mass photometry data with error bars and replicate counts for each peak. Show that the dimeric species is stable across a range of protein concentrations and buffer conditions. Ideally, validate the stoichiometry using an independent method, such as size-exclusion chromatography with multi-angle light scattering (SEC-MALS) or analytical ultracentrifugation, under the same conditions used for EM.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretive validity
+  - **Claim pointer** The claim that the observed conformational heterogeneity is due to flexible linkers and dynamic interdomain associations, and that this explains the lack of high-resolution structures.
+  - **Evidence pointer** Figures 1D, 1E, 2D, 3F, 4D, SI Appendix Figures 1, 3, 4, 7, 8, "location not provided".
+  - **Concern** The interpretation of 2D class averages from negative-stain EM is inherently subjective, especially for highly heterogeneous samples. The authors state that "many of the reference-free 2D class averages" show specific features, but they do not provide a quantitative analysis of the distribution of classes or the proportion of particles in each conformational state. The claim that the "toy wooden snake" model describes the complex's behavior is a qualitative interpretation. The XLMS data, while supporting proximity of certain domains, do not directly demonstrate the range of motion or the timescale of conformational changes. The AlphaFold-Multimer models are predictions and, as the authors note, may not capture the full conformational landscape. The conclusion that heterogeneity is intrinsic to the complex, rather than a result of sample preparation or grid-induced artifacts, needs stronger support.
+  - **Why it matters** The paper's main conceptual contribution is the idea that shelterin's structural heterogeneity is an intrinsic property. If this heterogeneity is instead a consequence of the negative-stain procedure, the reconstitution conditions, or the grid preparation, the conclusions would be significantly altered. The authors need to rule out preparation-induced heterogeneity.
+  - **Resolution test** Provide a quantitative breakdown of 2D class populations (e.g., percentage of particles in each class). Compare negative-stain results with cryo-EM data, if available, to rule out staining artifacts. Perform the EM analysis at multiple protein concentrations and in different buffer conditions to show that the heterogeneity is not concentration- or buffer-dependent. Use a cross-validation approach, such as comparing 2D class averages from independently prepared grids.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical rigor
+  - **Claim pointer** The claim that the 3×Δ mutant, with linker regions deleted, does not significantly alter the complex's structural variability.
+  - **Evidence pointer** Figure 2D, SI Appendix Figure 4B, "location not provided".
+  - **Concern** The text states that the 3×Δ mutant "also exhibits considerable structural variability" and that 2D class averages "closely resemble those of the wild-type complex." However, this is a qualitative comparison. The authors do not provide a quantitative metric for comparing the heterogeneity of the wild-type and mutant complexes. It is possible that the mutant has reduced flexibility that is not apparent from visual inspection of a few selected class averages. The choice of which linker regions to delete is also not fully justified in the text.
+  - **Why it matters** The 3×Δ experiment is designed to test the hypothesis that specific linker regions contribute to the observed heterogeneity. If the deletion does not reduce heterogeneity, it suggests that the flexibility is distributed across multiple regions or is an intrinsic property of the folded domains themselves. This has implications for understanding the evolutionary constraints on shelterin structure.
+  - **Resolution test** Provide a quantitative comparison of the 2D class averages, such as the number of distinct classes, the distribution of particles across classes, or a measure of the angular spread in the class averages. Justify the choice of deleted regions based on sequence conservation, predicted disorder, or prior structural data. Consider performing a more systematic deletion analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of evidence
+  - **Claim pointer** The claim that the full shelterin complex can be reconstituted and is stable enough for analysis.
+  - **Evidence pointer** Figure 4A–E, SI Appendix Figures 11–13, "location not provided".
+  - **Concern** The text describes reconstitution of the full six-subunit complex and its analysis by negative-stain EM and mass photometry. However, the text also notes that the complex "quantitatively bound to membranes during concentration/buffer exchange by spin filtration," requiring a workaround with an amylose pull-down. This suggests that the full complex may be prone to aggregation or non-specific interactions, which could affect the interpretation of the EM and mass photometry data. The text does not provide a clear assessment of the sample quality (e.g., monodispersity, aggregation state) for the full complex.
+  - **Why it matters** The full complex is the most biologically relevant species. If the reconstituted complex is not well-behaved, the conclusions drawn from its analysis may not reflect the native state of shelterin.
+  - **Resolution test** Provide a detailed characterization of the full complex sample quality, including size-exclusion chromatography profiles, dynamic light scattering data, or negative-stain EM micrographs at low magnification to assess aggregation. Show that the complex is stable over the time course of the experiments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1A
+  - **Evidence pointer** Figure 1A, "location not provided".
+  - **Issue** The schematic in Figure 1A is described in the text but not visible. The domain architecture of POT1 and TPP1, including the linker regions, is critical for understanding the subsequent experiments.
+  - **Required correction** Ensure the figure clearly labels all domains and linker regions, including the 33-aa linker in POT1 and the 25-aa linker in TPP1.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Mass photometry and native MS data
+  - **Evidence pointer** Figures 3D, 3E, 4E, SI Appendix Table 4, "location not provided".
+  - **Issue** The text reports measured masses but does not provide standard deviations, number of replicates, or statistical significance for the differences between observed and expected masses.
+  - **Required correction** Add error bars and replicate numbers to the mass photometry and native MS data. State the number of independent measurements for each reported mass.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Negative-stain EM data collection
+  - **Evidence pointer** Methods section, "Negative-Stain EM Data Collection and Image Processing", "location not provided".
+  - **Issue** The text states that particles were "autopicked" and subjected to 2D classification, but it does not report the total number of particles used for the final classification, the number of classes generated, or the resolution of the class averages.
+  - **Required correction** Provide the number of particles in the final dataset, the number of 2D classes, and a measure of class average quality (e.g., Fourier shell correlation or a visual example).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of POT1/TPP1/TIN2 core
+  - **Evidence pointer** Discussion section, "location not provided".
+  - **Issue** The "toy wooden snake" analogy is introduced in the Discussion but is not clearly defined in terms of the structural elements it represents.
+  - **Required correction** Define the analogy more precisely, specifying which domains represent the "segments" and which interactions represent the "string" connecting them.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion of prior structural studies
+  - **Evidence pointer** Discussion section, "location not provided".
+  - **Issue** The authors mention a recent cryo-EM study (reference 64) but do not discuss in detail how their findings compare or contrast with that study's structural observations.
+  - **Required correction** Add a brief comparison with the cryo-EM study, noting any agreements or discrepancies in the observed architecture or flexibility.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of quantitative rigor in the analysis of negative-stain EM data. The conclusions regarding conformational heterogeneity rely heavily on qualitative interpretation of 2D class averages. The authors should provide a quantitative framework for describing the heterogeneity, such as the number of distinct classes, the population distribution, and a measure of the conformational spread. Additionally, the mass photometry data, which is central to the stoichiometry claim, needs more detailed statistical reporting. The issue of sample stability and potential aggregation, particularly for the full complex, needs to be addressed more thoroughly.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its systematic application of multiple biophysical techniques to the intact shelterin complex and its subcomplexes. The finding of extensive conformational heterogeneity is a novel contribution to the field.
+  - **Scientific importance** The question of shelterin architecture is of high importance to telomere biology. The results have implications for understanding how shelterin performs its multiple functions. However, the importance is somewhat tempered by the fact that the study does not provide a high-resolution structure, which would be the definitive answer to the architectural question.
+  - **Interdisciplinary readership** The topic is of primary interest to specialists in telomere biology and chromosome biology. The methodological approaches may appeal to structural biologists, but the broader cell biology community may find the lack of functional data limiting.
+  - **Technical soundness** The techniques are appropriate and generally well-executed, but the lack of quantitative analysis in the EM data and the incomplete statistical reporting in the mass photometry data are weaknesses. The AlphaFold-Multimer predictions are used appropriately as supporting evidence, not as primary proof.
+  - **Readability for nonspecialists** The manuscript is clearly written and the conceptual framing is accessible. The "toy wooden snake" analogy helps convey the main finding. However, the significance of the work for nonspecialists may be limited by the highly specialized nature of the topic.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central claims are plausible and likely correct, but the evidence as presented is not fully convincing. The authors need to provide quantitative support for their interpretations of the EM data and more robust statistical analysis of the mass photometry data. If these concerns are addressed, the paper would be a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that shelterin is "fully dimeric" is not fully supported by the data as presented, given the observed partial dissociation and the lack of quantitative analysis of the mass photometry peaks.
+- The claim that the conformational heterogeneity is intrinsic to the complex and not an artifact of sample preparation is not fully established, as no control experiments (e.g., different grid preparations, cross-linking before grid preparation) are described.
+- The claim that the 3×Δ mutant does not significantly alter structural variability is based on qualitative comparison and is not quantitatively supported.
+- The interpretation of specific features in 2D class averages (e.g., assignment of lobes to specific domains) is not verifiable without the actual figures and may be considered speculative.
+- The statement that "deletion of the 150-aa region of TPP1 did not have a significant effect" is not supported by any quantitative data presented in the text.

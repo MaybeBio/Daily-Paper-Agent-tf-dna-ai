@@ -1,0 +1,998 @@
+{
+  "identity": {
+    "pmid": "34616061",
+    "doi": "10.1038/s41586-020-03182-8",
+    "title": "DNA methylation atlas of the mouse brain at single-cell resolution."
+  },
+  "content": {
+    "abstract": "Mammalian brain cells show remarkable diversity in gene expression, anatomy and function, yet the regulatory DNA landscape underlying this extensive heterogeneity is poorly understood. Here we carry out a comprehensive assessment of the epigenomes of mouse brain cell types by applying single-nucleus DNA methylation sequencing(1,2) to profile 103,982 nuclei (including 95,815 neurons and 8,167 non-neuronal cells) from 45 regions of the mouse cortex, hippocampus, striatum, pallidum and olfactory areas. We identified 161 cell clusters with distinct spatial locations and projection targets. We constructed taxonomies of these epigenetic types, annotated with signature genes, regulatory elements and transcription factors. These features indicate the potential regulatory landscape supporting the assignment of putative cell types and reveal repetitive usage of regulators in excitatory and inhibitory cells for determining subtypes. The DNA methylation landscape of excitatory neurons in the cortex and hippocampus varied continuously along spatial gradients. Using this deep dataset, we constructed an artificial neural network model that precisely predicts single neuron cell-type identity and brain area spatial location. Integration of high-resolution DNA methylomes with single-nucleus chromatin accessibility data(3) enabled prediction of high-confidence enhancer-gene interactions for all identified cell types, which were subsequently validated by cell-type-specific chromatin conformation capture experiments(4). By combining multi-omic datasets (DNA methylation, chromatin contacts, and open chromatin) from single nuclei and annotating the regulatory genome of hundreds of cell types in the mouse brain, our DNA methylation atlas establishes the epigenetic basis for neuronal diversity and spatial organization throughout the mouse cerebrum.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Atlases as Topic",
+      "Brain/*cytology/metabolism",
+      "Chromatin/chemistry/genetics/metabolism",
+      "Cytosine/chemistry/metabolism",
+      "*DNA Methylation",
+      "Datasets as Topic",
+      "Dentate Gyrus/cytology",
+      "Enhancer Elements, Genetic/genetics",
+      "*Epigenome",
+      "*Epigenomics",
+      "Gene Expression Profiling",
+      "Hippocampus/cytology/metabolism",
+      "Male",
+      "Mice",
+      "Mice, Inbred C57BL",
+      "Models, Biological",
+      "Neural Pathways",
+      "Neurons/*classification/cytology/*metabolism",
+      "*Single-Cell Analysis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Hanqing",
+        "Zhou, Jingtian",
+        "Tian, Wei",
+        "Luo, Chongyuan",
+        "Bartlett, Anna",
+        "Aldridge, Andrew",
+        "Lucero, Jacinta",
+        "Osteen, Julia K",
+        "Nery, Joseph R",
+        "Chen, Huaming",
+        "Rivkin, Angeline",
+        "Castanon, Rosa G",
+        "Clock, Ben",
+        "Li, Yang Eric",
+        "Hou, Xiaomeng",
+        "Poirion, Olivier B",
+        "Preissl, Sebastian",
+        "Pinto-Duarte, Antonio",
+        "O'Connor, Carolyn",
+        "Boggeman, Lara",
+        "Fitzpatrick, Conor",
+        "Nunn, Michael",
+        "Mukamel, Eran A",
+        "Zhang, Zhuzhu",
+        "Callaway, Edward M",
+        "Ren, Bing",
+        "Dixon, Jesse R",
+        "Behrens, M Margarita",
+        "Ecker, Joseph R"
+      ],
+      "short_names": [
+        "Liu H",
+        "Zhou J",
+        "Tian W",
+        "Luo C",
+        "Bartlett A",
+        "Aldridge A",
+        "Lucero J",
+        "Osteen JK",
+        "Nery JR",
+        "Chen H",
+        "Rivkin A",
+        "Castanon RG",
+        "Clock B",
+        "Li YE",
+        "Hou X",
+        "Poirion OB",
+        "Preissl S",
+        "Pinto-Duarte A",
+        "O'Connor C",
+        "Boggeman L",
+        "Fitzpatrick C",
+        "Nunn M",
+        "Mukamel EA",
+        "Zhang Z",
+        "Callaway EM",
+        "Ren B",
+        "Dixon JR",
+        "Behrens MM",
+        "Ecker JR"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2060-1922",
+        "ORCID: 0000-0003-1962-8802",
+        "ORCID: 0000-0003-0153-5659",
+        "ORCID: 0000-0001-6997-6018",
+        "ORCID: 0000-0002-2215-7653",
+        "ORCID: 0000-0003-3203-9535",
+        "ORCID: 0000-0002-6366-5267",
+        "ORCID: 0000-0002-5435-1127",
+        "ORCID: 0000-0002-6273-2181",
+        "ORCID: 0000-0002-7168-8186",
+        "ORCID: 0000-0001-5799-5895"
+      ],
+      "affiliations": [
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Division of Biological Sciences, University of California, San Diego, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Bioinformatics and Systems Biology Program, University of California, San Diego, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Department of Human Genetics, University of California Los Angeles, Los Angeles, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Peptide Biology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Ludwig Institute for Cancer Research, La Jolla, CA, USA.",
+        "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Institute of Genomic Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Moores Cancer Center, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Institute of Genomic Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Moores Cancer Center, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Institute of Genomic Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Moores Cancer Center, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Flow Cytometry Core Facility, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Flow Cytometry Core Facility, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Flow Cytometry Core Facility, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Department of Cognitive Science, University of California, San Diego, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Systems Neurobiology Laboratories, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Ludwig Institute for Cancer Research, La Jolla, CA, USA.",
+        "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Institute of Genomic Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Moores Cancer Center, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+        "Peptide Biology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA. ecker@salk.edu.",
+        "Howard Hughes Medical Institute, The Salk Institute for Biological Studies, La Jolla, CA, USA. ecker@salk.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Hanqing",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+          "Division of Biological Sciences, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jingtian",
+        "short_name": "Zhou J",
+        "identifiers": [
+          "0000-0003-2060-1922"
+        ],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+          "Bioinformatics and Systems Biology Program, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Tian, Wei",
+        "short_name": "Tian W",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Luo, Chongyuan",
+        "short_name": "Luo C",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+          "Department of Human Genetics, University of California Los Angeles, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Bartlett, Anna",
+        "short_name": "Bartlett A",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Aldridge, Andrew",
+        "short_name": "Aldridge A",
+        "identifiers": [
+          "0000-0003-1962-8802"
+        ],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Lucero, Jacinta",
+        "short_name": "Lucero J",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Osteen, Julia K",
+        "short_name": "Osteen JK",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Nery, Joseph R",
+        "short_name": "Nery JR",
+        "identifiers": [
+          "0000-0003-0153-5659"
+        ],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Huaming",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Rivkin, Angeline",
+        "short_name": "Rivkin A",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Castanon, Rosa G",
+        "short_name": "Castanon RG",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Clock, Ben",
+        "short_name": "Clock B",
+        "identifiers": [],
+        "affiliations": [
+          "Peptide Biology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Yang Eric",
+        "short_name": "Li YE",
+        "identifiers": [
+          "0000-0001-6997-6018"
+        ],
+        "affiliations": [
+          "Ludwig Institute for Cancer Research, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Hou, Xiaomeng",
+        "short_name": "Hou X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+          "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+          "Institute of Genomic Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+          "Moores Cancer Center, University of California, San Diego School of Medicine, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Poirion, Olivier B",
+        "short_name": "Poirion OB",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+          "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+          "Institute of Genomic Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+          "Moores Cancer Center, University of California, San Diego School of Medicine, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Preissl, Sebastian",
+        "short_name": "Preissl S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+          "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+          "Institute of Genomic Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+          "Moores Cancer Center, University of California, San Diego School of Medicine, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Pinto-Duarte, Antonio",
+        "short_name": "Pinto-Duarte A",
+        "identifiers": [
+          "0000-0002-2215-7653"
+        ],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "O'Connor, Carolyn",
+        "short_name": "O'Connor C",
+        "identifiers": [],
+        "affiliations": [
+          "Flow Cytometry Core Facility, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Boggeman, Lara",
+        "short_name": "Boggeman L",
+        "identifiers": [],
+        "affiliations": [
+          "Flow Cytometry Core Facility, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Fitzpatrick, Conor",
+        "short_name": "Fitzpatrick C",
+        "identifiers": [],
+        "affiliations": [
+          "Flow Cytometry Core Facility, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Nunn, Michael",
+        "short_name": "Nunn M",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Mukamel, Eran A",
+        "short_name": "Mukamel EA",
+        "identifiers": [
+          "0000-0003-3203-9535"
+        ],
+        "affiliations": [
+          "Department of Cognitive Science, University of California, San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhuzhu",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Callaway, Edward M",
+        "short_name": "Callaway EM",
+        "identifiers": [
+          "0000-0002-6366-5267"
+        ],
+        "affiliations": [
+          "Systems Neurobiology Laboratories, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ren, Bing",
+        "short_name": "Ren B",
+        "identifiers": [
+          "0000-0002-5435-1127"
+        ],
+        "affiliations": [
+          "Ludwig Institute for Cancer Research, La Jolla, CA, USA.",
+          "Center for Epigenomics, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+          "Department of Cellular and Molecular Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+          "Institute of Genomic Medicine, University of California, San Diego School of Medicine, La Jolla, CA, USA.",
+          "Moores Cancer Center, University of California, San Diego School of Medicine, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Dixon, Jesse R",
+        "short_name": "Dixon JR",
+        "identifiers": [
+          "0000-0002-6273-2181"
+        ],
+        "affiliations": [
+          "Peptide Biology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Behrens, M Margarita",
+        "short_name": "Behrens MM",
+        "identifiers": [
+          "0000-0002-7168-8186"
+        ],
+        "affiliations": [
+          "Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ecker, Joseph R",
+        "short_name": "Ecker JR",
+        "identifiers": [
+          "0000-0001-5799-5895"
+        ],
+        "affiliations": [
+          "Genomic Analysis Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA. ecker@salk.edu.",
+          "Howard Hughes Medical Institute, The Salk Institute for Biological Studies, La Jolla, CA, USA. ecker@salk.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2021 Oct",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/08 06:00",
+    "fetched_at": "2026-09-28 00:35:07"
+  },
+  "links": {
+    "cites": [
+      "42686997",
+      "42681808",
+      "42641604",
+      "42585575",
+      "42569314",
+      "42525289",
+      "42510785",
+      "42490494",
+      "42490476",
+      "42490430",
+      "42487511",
+      "42320469",
+      "42255505",
+      "42230572",
+      "42196356",
+      "42171375",
+      "42140984",
+      "42135303",
+      "42011025",
+      "41929106",
+      "41857393",
+      "41820383",
+      "41819104",
+      "41726865",
+      "41723114",
+      "41684299",
+      "41676689",
+      "41676679",
+      "41675968",
+      "41593234",
+      "41369758",
+      "41309554",
+      "41287777",
+      "41256638",
+      "41256431",
+      "41226415",
+      "41170156",
+      "41134907",
+      "41091402",
+      "41087658",
+      "41087414",
+      "41081550",
+      "41068581",
+      "41017824",
+      "40907475",
+      "40903587",
+      "40862085",
+      "40835891",
+      "40830271",
+      "40817911",
+      "40813851",
+      "40801633",
+      "40790233",
+      "40696189",
+      "40675959",
+      "40631194",
+      "40538761",
+      "40508170",
+      "40502140",
+      "40501897",
+      "40465750",
+      "40403730",
+      "40399669",
+      "40355611",
+      "40196612",
+      "40093845",
+      "40033282",
+      "40009678",
+      "39975320",
+      "39975013",
+      "39888214",
+      "39869481",
+      "39856430",
+      "39829922",
+      "39796274",
+      "39792333",
+      "39764062",
+      "39758139",
+      "39736632",
+      "39719707",
+      "39554055",
+      "39548084",
+      "39506564",
+      "39494521",
+      "39494115",
+      "39463975",
+      "39463924",
+      "39455499",
+      "39424717",
+      "39385032",
+      "39267837",
+      "39265576",
+      "39229027",
+      "39223609",
+      "39134824",
+      "39085432",
+      "39060615",
+      "39009672",
+      "38987810",
+      "38943021",
+      "38915722",
+      "38905499",
+      "38879719",
+      "38812092",
+      "38744973",
+      "38697122",
+      "38697120",
+      "38627848",
+      "38589516",
+      "38508188",
+      "38473715",
+      "38464236",
+      "38412294",
+      "38352532",
+      "38291400",
+      "38187559",
+      "38177592",
+      "38168991",
+      "38145338",
+      "38116123",
+      "38114612",
+      "38105994",
+      "38092919",
+      "38092918",
+      "38092917",
+      "38092913",
+      "38092912",
+      "37953264",
+      "37941075",
+      "37870443",
+      "37824674",
+      "37824669",
+      "37808734",
+      "37787856",
+      "37732074",
+      "37649383",
+      "37640946",
+      "37586578",
+      "37563440",
+      "37502923",
+      "37492103",
+      "37390046",
+      "37326968",
+      "37284150",
+      "37215576",
+      "37131654",
+      "37098340",
+      "37086337",
+      "37045821",
+      "37009740",
+      "36912526",
+      "36835623",
+      "36833719",
+      "36824816",
+      "36823458",
+      "36708167",
+      "36650278",
+      "36617464",
+      "36580914",
+      "36551655",
+      "36548245",
+      "36519514",
+      "36503213",
+      "36497177",
+      "36494343",
+      "36318260",
+      "36313573",
+      "36307828",
+      "36287261",
+      "36265466",
+      "36120601",
+      "36083269",
+      "35915179",
+      "35868277",
+      "35840754",
+      "35783147",
+      "35718270",
+      "35685374",
+      "35622236",
+      "35456393",
+      "35419551",
+      "35400543",
+      "35388090",
+      "35284424",
+      "35205351",
+      "35145550",
+      "35145299",
+      "34955761",
+      "34747412",
+      "34616075",
+      "34616068",
+      "34616065",
+      "34356635",
+      "34176785",
+      "33976139",
+      "33789096",
+      "33722077",
+      "33412093",
+      "32839016"
+    ],
+    "refs": [
+      "34616068",
+      "34616066",
+      "34616065",
+      "34004146",
+      "32728242",
+      "32728240",
+      "32386544",
+      "31776509",
+      "31701148",
+      "31545165",
+      "31501549",
+      "31435019",
+      "31249361",
+      "31235599",
+      "31222186",
+      "31061482",
+      "30914743",
+      "30742040",
+      "30530112",
+      "30382198",
+      "30262495",
+      "30237449",
+      "30225888",
+      "30096314",
+      "30022098",
+      "29434377",
+      "29409532",
+      "29352183",
+      "29335606",
+      "29087517",
+      "29056337",
+      "28798132",
+      "28498846",
+      "28473536",
+      "28193886",
+      "27818507",
+      "27471252",
+      "26967279",
+      "26087164",
+      "26030523",
+      "25692984",
+      "25497547",
+      "24362762",
+      "23995138",
+      "23911104",
+      "23828890",
+      "22037496",
+      "21609825",
+      "21330290",
+      "17964244",
+      "17151600",
+      "16595560",
+      "16147522",
+      "15452856",
+      "12687690",
+      "10508514"
+    ],
+    "similar": [
+      "34616061",
+      "38092913",
+      "34616068",
+      "37131654",
+      "34616075",
+      "34616060",
+      "28798132",
+      "38092916",
+      "34616065",
+      "34616066",
+      "37824674",
+      "38092919",
+      "34616063",
+      "37824643",
+      "35277705",
+      "38092917",
+      "30078704",
+      "34616062",
+      "32728242",
+      "35132236",
+      "30936163",
+      "33926839",
+      "22170606",
+      "26087164",
+      "37996647",
+      "31501549",
+      "33412093",
+      "32579919",
+      "33057195",
+      "35947991",
+      "36272405",
+      "31384045",
+      "34162876",
+      "34789882",
+      "32431014",
+      "38236718",
+      "34273410",
+      "32058623",
+      "36922587",
+      "38093010",
+      "35143307",
+      "31827285",
+      "32728240",
+      "35858915",
+      "34616072",
+      "31501571",
+      "24966180",
+      "33239788",
+      "36599988",
+      "29539636",
+      "35978191",
+      "30643296",
+      "21467265",
+      "33184180",
+      "31471188",
+      "37294468",
+      "39095595",
+      "32883324",
+      "28621329",
+      "26635396",
+      "25693563",
+      "26091484",
+      "33789083",
+      "21427231",
+      "33957080",
+      "33844685",
+      "25985232",
+      "24847876",
+      "24057217",
+      "39283462",
+      "31367015",
+      "33619351",
+      "31110271",
+      "37468639",
+      "37758947",
+      "31235917",
+      "32231307",
+      "34616073",
+      "34588430",
+      "30400878",
+      "37953264",
+      "31769130",
+      "33182325",
+      "27309802",
+      "38866804",
+      "33976139",
+      "39333082",
+      "21233399",
+      "39232166",
+      "34616071",
+      "34711971",
+      "26542228",
+      "28320934",
+      "37904591",
+      "31988093",
+      "18442397",
+      "33859189",
+      "33188066",
+      "33589836",
+      "33149216",
+      "23828890",
+      "32461553",
+      "37914932",
+      "39313544",
+      "37137383",
+      "36207411",
+      "38977846",
+      "30385464",
+      "38987810",
+      "31348493",
+      "35718270",
+      "37333391",
+      "38838671",
+      "22996553",
+      "39217176",
+      "36927507",
+      "31253786",
+      "34172755",
+      "34429139",
+      "31178122",
+      "34280183",
+      "30096299",
+      "33009362",
+      "32839016",
+      "38781390",
+      "37649383",
+      "38091510",
+      "35750513",
+      "36229609",
+      "34936877",
+      "37910612",
+      "33545232",
+      "34210887",
+      "30545857",
+      "39223609",
+      "39025969",
+      "38827229",
+      "36360237",
+      "34727520",
+      "30089906",
+      "38508188",
+      "39385032",
+      "38951027",
+      "35883430",
+      "38199997",
+      "35363567",
+      "38961076",
+      "39117640",
+      "39250680",
+      "30166440",
+      "34433064",
+      "38781369",
+      "34591592",
+      "37774676",
+      "39229027",
+      "39236169",
+      "38730185",
+      "38693260",
+      "38442065",
+      "32976581",
+      "39345645",
+      "39056441",
+      "25953818",
+      "37676945",
+      "34626538",
+      "37824614",
+      "39333158",
+      "35576146",
+      "38781378",
+      "37106232",
+      "37502923",
+      "38948843",
+      "35771910",
+      "36973557",
+      "29096072",
+      "37546984",
+      "38092915",
+      "38602535",
+      "37824647",
+      "38372175",
+      "39317796",
+      "39131371",
+      "37577516",
+      "38014002",
+      "39013876",
+      "38976727",
+      "39380764",
+      "38712231",
+      "39091821",
+      "39184075",
+      "37813989",
+      "38945911",
+      "38645177",
+      "36945580",
+      "38264721",
+      "38812092",
+      "36859476",
+      "39211069",
+      "35325060",
+      "37425846",
+      "36865235",
+      "38562822",
+      "38826431",
+      "38915583",
+      "36747701",
+      "37745597",
+      "39149282",
+      "38927111",
+      "29206104",
+      "37275529",
+      "34368164",
+      "37808657"
+    ],
+    "review": [
+      "34616061",
+      "33412093",
+      "37294468",
+      "31769130",
+      "31348493",
+      "35718270",
+      "33009362",
+      "32839016",
+      "35750513",
+      "36360237",
+      "29096072",
+      "38602535",
+      "36859476",
+      "35325060",
+      "38927111"
+    ],
+    "pmc": [
+      "8494641"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-020-03182-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34616061/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34616061",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt38t7b8mw",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://facultyopinions.com/pubmed/34616061",
+        "provider": "H1 Connect - Access expert opinions and insights on biomedical research.",
+        "category": "Other Literature Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "See the articles recommended by the Faculty of more than 8,000 leading experts in Biology and Medicine."
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse130553",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

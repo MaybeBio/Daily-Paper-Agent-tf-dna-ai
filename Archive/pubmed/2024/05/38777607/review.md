@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, methods, and supplementary figure/table references
+- **Assessment boundary** Scientific validity, methodological rigor, support of claims by presented evidence, and clarity of the manuscript as provided
+- **Shared manuscript claim summary** The authors use ATAC-seq and RNA-seq data from gastric cancer cell lines and primary tumors, combined with a gkm-SVM machine learning approach, to identify transcription factors driving mesenchymal and epithelial regulatory programs. They report RUNX and AP-1 as drivers of a mesenchymal/fibrotic program, associate copy number alterations (e.g., GATA4 deletion, MAPK9 amplification) with these regulatory states, and validate similarities to fibroblast states using bulk and single-cell RNA-seq data.
+- **Visible evidence base** Results sections with figures referenced (Figs. 1–7), supplementary figures and tables referenced, methods descriptions, and data availability statements
+- **Missing materials affecting confidence** Actual figures, supplementary tables, and supplementary code were not provided; exact statistical values for several comparisons are not fully reported in the text; details of gkm-SVM parameter settings and validation metrics beyond AUROC are not fully described
+
+## Reviewer
+- **Overall assessment** The manuscript presents a well-structured and potentially valuable computational framework for inferring transcription factor activity from chromatin accessibility data in gastric cancer. The integration of multiple data types (ATAC-seq, RNA-seq, DNA copy number, single-cell RNA-seq) is commendable and the identification of RUNX/AP-1 as drivers of a mesenchymal/fibrotic program is biologically plausible and of interest. However, several claims regarding causality, the role of specific copy number alterations, and the generalizability of the findings to primary tumors are not fully supported by the evidence as presented. The lack of direct functional validation and the reliance on correlative analyses weaken the strength of the central conclusions. The manuscript would benefit from clearer presentation of statistical methods and results, and from tempering claims where evidence is indirect.
+- **Who would be interested in the results, and why** Researchers in cancer genomics, transcriptional regulation, and epithelial-to-mesenchymal transition would find this work relevant. Those studying gastric cancer heterogeneity, chromatin biology, and the application of machine learning to regulatory genomics would also be interested. The identification of specific transcription factors and associated copy number events may inform future therapeutic targeting strategies.
+- **Major strengths** 1) The use of a compendium of GC cell lines and primary tumors with matched ATAC-seq and RNA-seq is a robust design. 2) The gkm-SVM approach is well-suited for small datasets and provides interpretable sequence features. 3) The integration of multiple data modalities (chromatin accessibility, expression, copy number, single-cell) strengthens the analysis. 4) The identification of a fibroblast-like state in GC cell lines and its association with specific TFs is novel and potentially impactful. 5) The manuscript is generally clearly written and the logical flow from data to conclusions is easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "We identified DNA copy number alterations associated with dysregulation of these TFs, specifically deletion of GATA4 and amplification of MAPK9." and "The activation of this mesenchymal fibrotic program is associated with differentially accessible DNA cis-regulatory elements flanking upregulated mesenchymal genes."
+  - **Evidence pointer** Results sections "Reduced GATA and increased AP-1 regulatory activity in GC cell lines are accompanied by DNA CN alterations" and "Fibrotic gene expression in GC cell lines is driven by activation of flanking enhancers"; Figures 3 and 6
+  - **Concern** The manuscript claims that copy number alterations are drivers of the observed regulatory changes, and that flanking enhancers drive gene expression changes. However, the evidence presented is correlative: CN alterations are associated with expression changes, and enhancer accessibility correlates with gene expression. No functional validation (e.g., CRISPR perturbation, reporter assays, or inhibition of specific TFs) is provided to demonstrate causality.
+  - **Why it matters** The central thesis of the paper is that RUNX/AP-1 activation "drives" the mesenchymal/fibrotic program. Without functional evidence, the claim of causality is not established. The distinction between correlation and causation is critical for the scientific impact and for potential therapeutic implications.
+  - **Resolution test** Provide experimental evidence (e.g., knockdown/overexpression of RUNX2 or AP-1 components in GC cell lines followed by assessment of mesenchymal marker expression and chromatin accessibility changes) or clearly reframe claims as correlative associations rather than drivers.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability to primary tumors
+  - **Claim pointer** "Seventy percent of the high-quality TCGA-STAD ATAC-seq samples detect RUNX, and 70% detect AP-1" and "The inferred cell line regulatory programs explained much of the variation among TCGA-STAD samples."
+  - **Evidence pointer** Results section "Sequence-based machine learning model of ATAC-seq profiles identifies distinct regulatory programs driving GC heterogeneity"; Supplemental Figures S4, S5
+  - **Concern** The claim that the cell line-derived regulatory programs explain variation in primary tumors is based on a limited number of TCGA-STAD ATAC-seq samples (10 samples with sufficient quality). The text states that 70% of these samples detect RUNX and AP-1, but the statistical significance and robustness of this finding are not reported. The extrapolation from cell lines to primary tumors, which contain heterogeneous cell populations including stroma and immune cells, is not fully justified.
+  - **Why it matters** The relevance of the findings to actual patient tumors is a key aspect of the paper's significance. If the cell line models do not accurately reflect the regulatory landscape of primary tumors, the translational implications are weakened.
+  - **Resolution test** Provide a more detailed analysis of the TCGA-STAD ATAC-seq data, including statistical comparisons between tumor and normal samples, and discuss the potential confounding effects of tumor heterogeneity. Alternatively, validate key findings in an independent primary tumor cohort with matched RNA-seq and ATAC-seq data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** "We used a machine learning approach, gkm-SVM, to identify the sequence features (transcription factor binding sites [TFBSs]) driving these variations in chromatin accessibility."
+  - **Evidence pointer** Methods section "ATAC-seq data processing and gkm-SVM training"
+  - **Concern** The description of the gkm-SVM training and interpretation is insufficient for reproducibility. Key parameters (e.g., k-mer length, number of gapped k-mers, kernel parameters) are not fully specified. The method for converting gkm-SVM weights to TF activity via gkm-PWM is mentioned but not described in sufficient detail. The criteria for selecting the "top" differentially accessible peaks and the exact number used for training are not clearly stated.
+  - **Why it matters** Reproducibility is a cornerstone of scientific research. Without a complete description of the computational methods, other researchers cannot replicate or build upon this work.
+  - **Resolution test** Provide a detailed description of all parameters and steps in the gkm-SVM and gkm-PWM analysis, possibly in a supplementary methods section, and make the code and processed data publicly available in a format that allows easy replication.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 6C
+  - **Evidence pointer** Results section "Fibrotic gene expression in GC cell lines is driven by activation of flanking enhancers"
+  - **Issue** The text states that fibrotic pathway genes are differentially expressed with Mann–Whitney U test P < 0.05, but the number of genes tested, the multiple testing correction method, and the effect sizes are not reported.
+  - **Required correction** Report the number of genes tested, the multiple testing correction method used (e.g., Benjamini-Hochberg), and provide effect sizes or fold changes for the key genes mentioned.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of figure references
+  - **Affected element** Figures 1D, 1E, 7D, 7E
+  - **Evidence pointer** Results sections "Sequence-based machine learning model..." and "Mes-like GC cell lines have a distinct regulatory landscape compared to fibroblasts"
+  - **Issue** The text refers to "motif activity scores" and "aggregating motif activity scores" but does not clearly define how these scores are calculated or what the units represent. The figures are not available for review, making it difficult to assess the presented data.
+  - **Required correction** Provide a clear definition of motif activity scores in the methods, and ensure that figure axes and legends are self-explanatory.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion does not adequately address the limitations of the study, such as the use of cell lines as models, the potential for batch effects in the ATAC-seq data, and the lack of functional validation.
+  - **Required correction** Add a paragraph discussing the limitations of the study and how they might affect the interpretation of the results.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of functional validation for the causal role of RUNX/AP-1 and copy number alterations (R1-M1). 2) Insufficient evidence for the generalizability of cell line findings to primary tumors (R1-M2). 3) Incomplete methodological details for gkm-SVM and gkm-PWM analyses (R1-M3).
+- **Assessment against Nature-style criteria** **Originality:** The application of gkm-SVM to identify TF drivers in GC is novel and the identification of a fibroblast-like regulatory state in GC cell lines is a new contribution. **Scientific importance:** The findings have potential implications for understanding GC heterogeneity and progression, but the lack of functional validation limits the immediate impact. **Interdisciplinary readership:** The work will appeal to computational biologists, cancer researchers, and those interested in transcriptional regulation, but may be less accessible to a broader audience due to the technical nature of the methods. **Technical soundness:** The computational approach is sound, but the lack of detailed methodological reporting and functional validation weakens the overall technical rigor. **Readability for nonspecialists:** The manuscript is generally well-written, but the methods section is dense and may be challenging for non-experts. The abstract and results are accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a valuable computational framework and interesting biological findings, but the central claims of causality and generalizability require additional evidence. The authors should either provide functional validation or temper their conclusions to reflect the correlative nature of the analyses. Full methodological transparency is also required.
+
+## Risk / unsupported claims
+- The claim that RUNX/AP-1 activation "drives" the mesenchymal/fibrotic program is not supported by functional evidence; the data only show association.
+- The claim that copy number alterations (GATA4 deletion, MAPK9 amplification) are drivers of regulatory changes is correlative and not causally demonstrated.
+- The claim that the cell line regulatory programs "explained much of the variation among TCGA-STAD samples" is not quantitatively supported with statistical metrics.
+- The statement that "activation of this small set of TFs driving the Mes-like GC regulatory program plays an important role in cancer progression" is an extrapolation from cell line and correlative data without direct evidence of progression in vivo.
+- The claim that "survival analysis shows that activation of Mes-like TFs and their target genes is predictive of disease severity" is based on a single cohort (ACRG) and TCGA-STAD, but the specific statistical results and hazard ratios are not reported in the text.

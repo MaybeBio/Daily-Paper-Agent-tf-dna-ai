@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "39820437",
+    "doi": "10.1093/bib/bbaf018",
+    "title": "scGO: interpretable deep neural network for cell status annotation and disease diagnosis."
+  },
+  "content": {
+    "abstract": "Machine learning has emerged as a transformative tool for elucidating cellular heterogeneity in single-cell RNA sequencing. However, a significant challenge lies in the \"black box\" nature of deep learning models, which obscures the decision-making process and limits interpretability in cell status annotation. In this study, we introduced scGO, a Gene Ontology (GO)-inspired deep learning framework designed to provide interpretable cell status annotation for scRNA-seq data. scGO employs sparse neural networks to leverage the intrinsic biological relationships among genes, transcription factors, and GO terms, significantly augmenting interpretability and reducing computational cost. scGO outperforms state-of-the-art methods in the precise characterization of cell subtypes across diverse datasets. Our extensive experimentation across a spectrum of scRNA-seq datasets underscored the remarkable efficacy of scGO in disease diagnosis, prediction of developmental stages, and evaluation of disease severity and cellular senescence status. Furthermore, we incorporated in silico individual gene manipulations into the scGO model, introducing an additional layer for discovering therapeutic targets. Our results provide an interpretable model for accurately annotating cell status, capturing latent biological knowledge, and informing clinical practice.",
+    "keywords": [
+      "cell status annotation",
+      "disease diagnosis",
+      "interpretable model",
+      "scRNA-seq",
+      "sparse neural networks"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Neural Networks, Computer",
+      "*Gene Ontology",
+      "*Deep Learning",
+      "*Single-Cell Analysis/methods",
+      "*Computational Biology/methods",
+      "Molecular Sequence Annotation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, You",
+        "Xu, Pengfei",
+        "Wang, Liyuan",
+        "Liu, Shuai",
+        "Hou, Yingnan",
+        "Lu, Hui",
+        "Hu, Peng",
+        "Li, Xiaofei",
+        "Yu, Xiang"
+      ],
+      "short_names": [
+        "Wu Y",
+        "Xu P",
+        "Wang L",
+        "Liu S",
+        "Hou Y",
+        "Lu H",
+        "Hu P",
+        "Li X",
+        "Yu X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5730-8802"
+      ],
+      "affiliations": [
+        "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, No. 800 Dong Chuan Road, Shanghai 200240, China.",
+        "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, No. 800 Dong Chuan Road, Shanghai 200240, China.",
+        "School of Agriculture and Biology, Shanghai Jiao Tong University, No. 800 Dong Chuan Road, Shanghai 200240, China.",
+        "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, No. 800 Dong Chuan Road, Shanghai 200240, China.",
+        "School of Agriculture and Biology, Shanghai Jiao Tong University, No. 800 Dong Chuan Road, Shanghai 200240, China.",
+        "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, No. 800 Dong Chuan Road, Shanghai 200240, China.",
+        "Ministry of Education, Shanghai Ocean University, No. 999, Huchenghuan Road, Shanghai 201306, China.",
+        "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, No. 800 Dong Chuan Road, Shanghai 200240, China.",
+        "Shanghai Pudong New Area People's Hospital, No. 490, Chuanhuan South Road, Shanghai 201299, China.",
+        "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, No. 800 Dong Chuan Road, Shanghai 200240, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, You",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, No. 800 Dong Chuan Road, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Pengfei",
+        "short_name": "Xu P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, No. 800 Dong Chuan Road, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liyuan",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Agriculture and Biology, Shanghai Jiao Tong University, No. 800 Dong Chuan Road, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Shuai",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, No. 800 Dong Chuan Road, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Yingnan",
+        "short_name": "Hou Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Agriculture and Biology, Shanghai Jiao Tong University, No. 800 Dong Chuan Road, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Hui",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, No. 800 Dong Chuan Road, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Peng",
+        "short_name": "Hu P",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education, Shanghai Ocean University, No. 999, Huchenghuan Road, Shanghai 201306, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaofei",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, No. 800 Dong Chuan Road, Shanghai 200240, China.",
+          "Shanghai Pudong New Area People's Hospital, No. 490, Chuanhuan South Road, Shanghai 201299, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Xiang",
+        "short_name": "Yu X",
+        "identifiers": [
+          "0000-0002-5730-8802"
+        ],
+        "affiliations": [
+          "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, No. 800 Dong Chuan Road, Shanghai 200240, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Nov 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/17 18:23",
+    "fetched_at": "2026-09-30 09:44:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39060167",
+      "38177723",
+      "38177426",
+      "37974651",
+      "37884646",
+      "37756593",
+      "37523217",
+      "37258680",
+      "37200157",
+      "37187700",
+      "37019881",
+      "37002403",
+      "36866529",
+      "36732632",
+      "36641532",
+      "36608843",
+      "36462630",
+      "35922662",
+      "35732739",
+      "35549406",
+      "35483374",
+      "35390650",
+      "35352511",
+      "35273156",
+      "35197610",
+      "35134336",
+      "35119359",
+      "35026393",
+      "34980946",
+      "34891095",
+      "34751401",
+      "34695607",
+      "34552244",
+      "34550305",
+      "34500471",
+      "34489404",
+      "34135939",
+      "34062119",
+      "34057817",
+      "33927417",
+      "33855023",
+      "33657410",
+      "33618746",
+      "33077966",
+      "33015184",
+      "32868927",
+      "32747759",
+      "32746932",
+      "32477414",
+      "32062421",
+      "31993508",
+      "31974247",
+      "31822622",
+      "31619572",
+      "31501545",
+      "31282856",
+      "31217225",
+      "31073128",
+      "30951143",
+      "30787437",
+      "30643263",
+      "30348985",
+      "30283141",
+      "29921910",
+      "29608555",
+      "29505029",
+      "29409532",
+      "29220646",
+      "28862954",
+      "28726847",
+      "28724804",
+      "28091601",
+      "27864352",
+      "27693023",
+      "27667667",
+      "27667665",
+      "27667365",
+      "27365425",
+      "25633252",
+      "25564883",
+      "24083978",
+      "22027658",
+      "20513432",
+      "18793733",
+      "17984083"
+    ],
+    "similar": [
+      "39820437",
+      "39708840",
+      "37080771",
+      "39487083",
+      "35172334",
+      "34500471",
+      "39101690",
+      "38935069",
+      "33822877",
+      "38980373",
+      "39180857",
+      "34623390",
+      "40158457",
+      "38950180",
+      "38759908",
+      "40251476",
+      "39504481",
+      "33491336",
+      "38950178",
+      "37210444",
+      "37225419",
+      "38960404",
+      "34980200",
+      "39633094",
+      "38724920",
+      "38892162",
+      "39230705",
+      "39798891",
+      "31182005",
+      "40197174",
+      "39098889",
+      "35050715",
+      "33577560",
+      "39704704",
+      "39881248",
+      "39814561",
+      "38801694",
+      "39312689",
+      "40062616",
+      "33767197",
+      "33876191",
+      "32746932",
+      "38980781",
+      "39550222",
+      "40042052",
+      "40261690",
+      "39489606",
+      "40184563",
+      "32674393",
+      "39062480",
+      "40154828",
+      "40057378",
+      "37039664",
+      "35302164",
+      "39800872",
+      "34489404",
+      "39821189",
+      "39730886",
+      "38581422",
+      "38924517",
+      "38896510",
+      "36528240",
+      "39847542",
+      "38104057",
+      "35042860",
+      "40068952",
+      "39900656",
+      "38889275",
+      "33535230",
+      "39511415",
+      "39333739",
+      "33039573",
+      "39578307",
+      "36869836",
+      "34584103",
+      "37686146",
+      "34962260",
+      "40305601",
+      "39059210",
+      "36641532",
+      "37598467",
+      "38227407",
+      "40315689",
+      "33323113",
+      "39012729",
+      "37540223",
+      "39373051",
+      "38396213",
+      "38890415",
+      "39592153",
+      "38705502",
+      "39293804",
+      "32532794",
+      "37004161",
+      "39494609",
+      "37313714",
+      "27045823",
+      "36794913",
+      "31068142",
+      "35366467"
+    ],
+    "review": [
+      "39820437",
+      "36528240",
+      "38889275",
+      "33039573"
+    ],
+    "pmc": [
+      "11737892"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39820437.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39820437/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf018",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

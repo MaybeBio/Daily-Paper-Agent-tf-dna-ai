@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "36125118",
+    "doi": "10.7554/eLife.72498",
+    "title": "Empirical single-cell tracking and cell-fate simulation reveal dual roles of p53 in tumor suppression."
+  },
+  "content": {
+    "abstract": "The tumor suppressor p53 regulates various stress responses via increasing its cellular levels. The lowest p53 levels occur in unstressed cells; however, the functions of these low levels remain unclear. To investigate the functions, we used empirical single-cell tracking of p53-expressing (Control) cells and cells in which p53 expression was silenced by RNA interference (p53 RNAi). Here, we show that p53 RNAi cells underwent more frequent cell death and cell fusion, which further induced multipolar cell division to generate aneuploid progeny. Those results suggest that the low levels of p53 in unstressed cells indeed have a role in suppressing the induction of cell death and the formation of aneuploid cells. We further investigated the impact of p53 silencing by developing an algorithm to simulate the fates of individual cells. Simulation of the fate of aneuploid cells revealed that these cells could propagate to create an aneuploid cell population. In addition, the simulation also revealed that more frequent induction of cell death in p53 RNAi cells under unstressed conditions conferred a disadvantage in terms of population expansion compared with Control cells, resulting in faster expansion of Control cells compared with p53 RNAi cells, leading to Control cells predominating in mixed cell populations. In contrast, the expansion of Control cells, but not p53 RNAi cells, was suppressed when the damage response was induced, allowing p53 RNAi cells to expand their population compared with the Control cells. These results suggest that, although p53 could suppress the formation of aneuploid cells, which could have a role in tumorigenesis, it could also allow the expansion of cells lacking p53 expression when the damage response is induced. p53 may thus play a role in both the suppression and the promotion of malignant cell formation during tumorigenesis.",
+    "keywords": [
+      "alkylating agent",
+      "cell-fate simulation",
+      "computational biology",
+      "human",
+      "live-cell imaging",
+      "p53",
+      "single-cell tracking",
+      "systems biology"
+    ],
+    "mesh_terms": [
+      "Aneuploidy",
+      "Cell Death",
+      "*Cell Tracking",
+      "Cell Transformation, Neoplastic/genetics",
+      "Humans",
+      "RNA Interference",
+      "*Tumor Suppressor Protein p53/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rancourt, Ann",
+        "Sato, Sachiko",
+        "Satoh, Masahiko S"
+      ],
+      "short_names": [
+        "Rancourt A",
+        "Sato S",
+        "Satoh MS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5960-1703",
+        "ORCID: 0000-0002-0461-2296"
+      ],
+      "affiliations": [
+        "Glycobiology and Bioimaging Laboratory of Research Center for Infectious Diseases and Research Centre of CHU de Quebec, Quebec, Canada.",
+        "Laboratory of DNA Damage Responses and Bioimaging, Research Centre of CHU de Quebec, Quebec, Canada.",
+        "Glycobiology and Bioimaging Laboratory of Research Center for Infectious Diseases and Research Centre of CHU de Quebec, Quebec, Canada.",
+        "Faculty of Medicine, Laval University, Quebec, Canada.",
+        "Laboratory of DNA Damage Responses and Bioimaging, Research Centre of CHU de Quebec, Quebec, Canada.",
+        "Faculty of Medicine, Laval University, Quebec, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rancourt, Ann",
+        "short_name": "Rancourt A",
+        "identifiers": [],
+        "affiliations": [
+          "Glycobiology and Bioimaging Laboratory of Research Center for Infectious Diseases and Research Centre of CHU de Québec, Quebec, Canada.",
+          "Laboratory of DNA Damage Responses and Bioimaging, Research Centre of CHU de Québec, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Sato, Sachiko",
+        "short_name": "Sato S",
+        "identifiers": [
+          "0000-0002-5960-1703"
+        ],
+        "affiliations": [
+          "Glycobiology and Bioimaging Laboratory of Research Center for Infectious Diseases and Research Centre of CHU de Québec, Quebec, Canada.",
+          "Faculty of Medicine, Laval University, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Satoh, Masahiko S",
+        "short_name": "Satoh MS",
+        "identifiers": [
+          "0000-0002-0461-2296"
+        ],
+        "affiliations": [
+          "Laboratory of DNA Damage Responses and Bioimaging, Research Centre of CHU de Québec, Quebec, Canada.",
+          "Faculty of Medicine, Laval University, Quebec, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2022 Sep 20",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/21 06:00",
+    "fetched_at": "2026-09-28 13:49:02"
+  },
+  "links": {
+    "cites": [
+      "42696206",
+      "41382231",
+      "39000455"
+    ],
+    "refs": [
+      "34987171",
+      "34095116",
+      "33833095",
+      "33518400",
+      "33469025",
+      "32886745",
+      "32546686",
+      "32218993",
+      "31283823",
+      "30925588",
+      "30824861",
+      "29254991",
+      "28886379",
+      "28390900",
+      "27252396",
+      "27003384",
+      "26122615",
+      "24486105",
+      "24244121",
+      "24132290",
+      "23416979",
+      "22930834",
+      "22048164",
+      "21952947",
+      "21749901",
+      "21573365",
+      "20186124",
+      "20182618",
+      "19546858",
+      "19506557",
+      "19020304",
+      "18392149",
+      "18283116",
+      "18167340",
+      "18089652",
+      "17380161",
+      "17324569",
+      "17311302",
+      "16601750",
+      "16258285",
+      "16222300",
+      "16222248",
+      "15734683",
+      "15613285",
+      "15589979",
+      "15569613",
+      "15549096",
+      "13286432",
+      "11513566",
+      "11099028",
+      "10873062",
+      "9450543",
+      "9153396",
+      "9153395",
+      "8887548",
+      "8811177",
+      "8692948",
+      "8577673",
+      "8533153",
+      "8479523",
+      "8479522",
+      "8103211",
+      "6373793",
+      "3052269",
+      "1905840",
+      "1868448",
+      "1692969",
+      "1549180",
+      "1356076"
+    ],
+    "similar": [
+      "36125118",
+      "33305692",
+      "38985518",
+      "21470402",
+      "11029495",
+      "18818521",
+      "20123995",
+      "20000476",
+      "15192153",
+      "25752701",
+      "22170163",
+      "15371654",
+      "27515963",
+      "15326384",
+      "19767771",
+      "16413018",
+      "28627647",
+      "27250534",
+      "24156017",
+      "24886358",
+      "22114072",
+      "9154814",
+      "22614020",
+      "22374721",
+      "15175263",
+      "26595384",
+      "26840028",
+      "18408766",
+      "20186124",
+      "19443444",
+      "30684461",
+      "22824795",
+      "23315976",
+      "20145032",
+      "37790420",
+      "21331045",
+      "20687470",
+      "8134344",
+      "19545411",
+      "15044535",
+      "23370271",
+      "15048075",
+      "26481026",
+      "21964066",
+      "22777358",
+      "15583825",
+      "22262183",
+      "11313888",
+      "28698299",
+      "25144937",
+      "24374014",
+      "22661322",
+      "25146927",
+      "20017137",
+      "20143454",
+      "25193859",
+      "18056458",
+      "18060502",
+      "8001119",
+      "25119697",
+      "23800173",
+      "20040488",
+      "20075077",
+      "19586837",
+      "9232344",
+      "27856536",
+      "22076149",
+      "20404858",
+      "18559502",
+      "20876313",
+      "23845991",
+      "26498357",
+      "10380885",
+      "15190198",
+      "8895663",
+      "23069657",
+      "20225156",
+      "21392584",
+      "12926050",
+      "28483946",
+      "11861393",
+      "24177958",
+      "20424117",
+      "16849542",
+      "20890300",
+      "18363968",
+      "22771946",
+      "17488820",
+      "23169817",
+      "35065238",
+      "21098704"
+    ],
+    "review": [
+      "36125118",
+      "18818521",
+      "15326384",
+      "22374721",
+      "20687470",
+      "26481026",
+      "24374014",
+      "19586837",
+      "20404858",
+      "20876313",
+      "15190198",
+      "21392584"
+    ],
+    "pmc": [
+      "9560164"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36125118/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36125118",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.72498",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

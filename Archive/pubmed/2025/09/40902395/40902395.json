@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "40902395",
+    "doi": "10.1016/j.intimp.2025.115428",
+    "title": "Multi-level validation of high expression of PLAUR, FOSL2, and SLC11A1 in aortic dissection and their clinical implications."
+  },
+  "content": {
+    "abstract": "Macrophages, pivotal orchestrators of the immune system, are integral to the initiation of specific immune responses and exert profound influence on the pathogenesis, progression, and therapeutic landscape of aortic dissection (AD). Leveraging the precision of single-cell RNA sequencing (scRNA-seq), this study aimed to dissect the heterogeneity of macrophages within the AD microenvironment. We identified a unique macrophage subpopulation, termed AD-associated macrophages (AD-mac), which is predominantly implicated in the early stages of AD pathogenesis. To unravel the functional and regulatory underpinnings of AD-mac, we employed a multifaceted analytical approach, integrating advanced computational tools such as CellChat for intercellular communication analysis, Monocle for pseudotemporal trajectory inference, and CytoTRACE for cellular potency assessment. Furthermore, high-dimensional weighted gene co-expression network analysis (hdWGCNA) enabled the identification of a gene module closely associated with this macrophage subpopulation. To distill the most salient molecular signatures of AD, we applied a robust ensemble of machine learning algorithms, including Least Absolute Shrinkage and Selection Operator (LASSO), Support Vector Machine with Recursive Feature Elimination (SVM-RFE), Random Forest (RF), Boruta, and Decision Tree (DT), to bulk RNA-seq data. This integrative approach revealed a panel of characteristic AD genes. Validation studies were conducted using aortic tissue samples from human AD patients and a murine AD model. Notably, we observed significant upregulation of PLAUR, FOSL2, and SLC11A1 at both mRNA and protein levels within the dissected tissues, a finding further substantiated by immunohistochemical staining in the murine model. Immunofluorescence analysis confirmed the colocalization of PLAUR, FOSL2, and SLC11A1 with the macrophage marker CD68, underscoring their expression within the AD-mac subpopulation. In summary, this study delineates the critical pathogenic macrophage subpopulations and their regulatory gene networks in AD, providing a foundational framework for the development of novel diagnostic biomarkers and therapeutic targets. These insights hold significant promise for advancing the clinical management of aortic dissection.",
+    "keywords": [
+      "CD68",
+      "FOSL2",
+      "Machine learning",
+      "Macrophages",
+      "PLAUR",
+      "SLC11A1",
+      "hdWGCNA",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Macrophages/immunology/metabolism",
+      "*Aortic Dissection/genetics/immunology",
+      "Animals",
+      "*Cation Transport Proteins/genetics/metabolism",
+      "Mice",
+      "*Fos-Related Antigen-2/genetics/metabolism",
+      "Male",
+      "Female",
+      "Mice, Inbred C57BL",
+      "Single-Cell Analysis",
+      "Middle Aged"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Zhenpeng",
+        "Chen, Ruihan",
+        "Fan, Rong",
+        "He, Yuan",
+        "Sun, Shilong",
+        "Ji, Lei",
+        "Qiu, Chenyang",
+        "Wu, Ziheng",
+        "Li, Donglin",
+        "Zeng, Qinglong",
+        "He, Yunjun",
+        "He, Yangyan",
+        "Zhang, Hongkun"
+      ],
+      "short_names": [
+        "Yuan Z",
+        "Chen R",
+        "Fan R",
+        "He Y",
+        "Sun S",
+        "Ji L",
+        "Qiu C",
+        "Wu Z",
+        "Li D",
+        "Zeng Q",
+        "He Y",
+        "He Y",
+        "Zhang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China.",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China.",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China.",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China.",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China.",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China.",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China.",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China.",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China.",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China.",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China.",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China. Electronic address: 1514033@zju.edu.cn.",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China. Electronic address: 1198050@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Zhenpeng",
+        "short_name": "Yuan Z",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ruihan",
+        "short_name": "Chen R",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Rong",
+        "short_name": "Fan R",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "He, Yuan",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Shilong",
+        "short_name": "Sun S",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Lei",
+        "short_name": "Ji L",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Chenyang",
+        "short_name": "Qiu C",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Ziheng",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Donglin",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Qinglong",
+        "short_name": "Zeng Q",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "He, Yunjun",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "He, Yangyan",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China. Electronic address: 1514033@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hongkun",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, 1367 West Wenyi Rd., Yuhang District, Hangzhou, Zhejiang Province, China. Electronic address: 1198050@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International immunopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int Immunopharmacol"
+    ],
+    "pub_date": "2025 Nov 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/04 00:36",
+    "fetched_at": "2026-10-01 01:03:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40902395",
+      "41242266",
+      "41246346",
+      "39923303",
+      "39507054",
+      "40287984",
+      "40596702",
+      "41126838",
+      "40365676",
+      "41219826",
+      "40612944",
+      "37684281",
+      "39026250",
+      "39509434",
+      "39364414",
+      "40296690",
+      "41334574",
+      "41409278",
+      "41009952",
+      "41333466",
+      "41291841",
+      "40868258",
+      "39991758",
+      "41498037",
+      "39508103",
+      "40914702",
+      "41107929",
+      "38808722",
+      "41299753",
+      "41388523",
+      "40244418",
+      "39394418",
+      "40607411",
+      "36969832",
+      "41065575",
+      "39113895",
+      "38872139",
+      "41096984",
+      "40315768",
+      "40362275",
+      "40247403",
+      "41378206",
+      "40979590",
+      "39075441",
+      "40328901",
+      "41153430",
+      "40943452",
+      "39479394",
+      "39841296",
+      "40525338",
+      "36755239",
+      "39730379",
+      "40830558",
+      "39616855",
+      "38441793",
+      "38979407",
+      "39270557",
+      "36830768",
+      "41200172",
+      "39762897",
+      "39344316",
+      "38776730",
+      "40859550",
+      "39278970",
+      "39959647",
+      "40645977",
+      "39384856",
+      "38147020",
+      "40494203",
+      "38802881",
+      "40618698",
+      "41234823",
+      "40764361",
+      "41131607",
+      "41083787",
+      "38702954",
+      "41299485",
+      "39723205",
+      "37515398",
+      "40086342",
+      "36589450",
+      "38947396",
+      "39396400",
+      "41029776",
+      "38515748",
+      "41139554",
+      "38828294",
+      "41006377",
+      "41310117",
+      "41151411",
+      "40597370",
+      "39830504",
+      "37449151",
+      "40520536",
+      "35966794",
+      "39558055",
+      "40158428",
+      "39351221",
+      "37434738",
+      "40064955"
+    ],
+    "review": [
+      "40902395"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-5769(25)01419-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/40902395.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

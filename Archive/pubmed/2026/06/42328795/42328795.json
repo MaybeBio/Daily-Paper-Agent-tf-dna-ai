@@ -1,0 +1,427 @@
+{
+  "identity": {
+    "pmid": "42328795",
+    "doi": "10.1093/nar/gkag573",
+    "title": "Exploring the genetic landscape of ciprofloxacin-induced DNA supercompaction in Escherichia coli."
+  },
+  "content": {
+    "abstract": "DNA-damaging antibiotics like ciprofloxacin (CIP) induce extensive double-strand breaks in Escherichia coli, triggering both the SOS response and rapid DNA supercompaction. To uncover genes involved in the latter process beyond the previously identified key orchestrators encoded by recN and recA, we developed a novel machine learning-assisted high-throughput screening workflow and applied it to nearly 4000 E. coli strains, including the Keio collection's single-gene deletion strains and additional in-house strains. Conservative validation identified 15 hit strains with impaired DNA supercompaction. While defects in recombinational repair genes were associated with the most severe impairments, our investigation also revealed genes not previously associated with DNA compaction or repair that had milder and more heterogeneous effects on supercompaction, including yaiW, which encodes a membrane-associated protein. Notably, several non-DNA-repair gene deletions affected RecN colocalization with the nucleoid, recN expression, SOS response activity, or survival after CIP exposure, supporting indirect or modulatory roles. Altogether, this work confirms RecN and RecA as primary drivers of DNA supercompaction and demonstrates that high-content imaging combined with machine learning-assisted analysis provides a scalable approach to explore bacterial DNA organization phenotypes and DNA damage responses.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Ciprofloxacin/pharmacology",
+      "*Escherichia coli/genetics/drug effects",
+      "SOS Response, Genetics/drug effects/genetics",
+      "Escherichia coli Proteins/genetics/metabolism",
+      "*DNA, Bacterial/genetics/drug effects/metabolism/chemistry",
+      "Rec A Recombinases/genetics/metabolism",
+      "*Anti-Bacterial Agents/pharmacology",
+      "DNA Breaks, Double-Stranded/drug effects",
+      "Machine Learning",
+      "Exodeoxyribonuclease V/genetics",
+      "DNA Repair/genetics",
+      "Gene Deletion",
+      "DNA-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vikedal, Krister",
+        "Berges, Natalia",
+        "Riisnaes, Ida Mathilde Marstein",
+        "Raeder, Synnove Brandt",
+        "Bjornholt, Jorgen Vildershoj",
+        "Bjoras, Magnar",
+        "Skarstad, Kirsten",
+        "Helgesen, Emily",
+        "Booth, James Alexander"
+      ],
+      "short_names": [
+        "Vikedal K",
+        "Berges N",
+        "Riisnaes IMM",
+        "Raeder SB",
+        "Bjornholt JV",
+        "Bjoras M",
+        "Skarstad K",
+        "Helgesen E",
+        "Booth JA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7475-4636",
+        "ORCID: 0009-0007-1357-2154",
+        "ORCID: 0000-0002-1562-6343",
+        "ORCID: 0000-0002-0079-8062",
+        "ORCID: 0000-0001-8759-1170",
+        "ORCID: 0000-0002-8563-2730",
+        "ORCID: 0000-0002-3992-7394",
+        "ORCID: 0000-0001-9452-3424"
+      ],
+      "affiliations": [
+        "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway.",
+        "Department of Microbiology, University of Oslo, 0316 Oslo, Norway.",
+        "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway.",
+        "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway.",
+        "Department of Microbiology, University of Oslo, 0316 Oslo, Norway.",
+        "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway.",
+        "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway.",
+        "Department of Microbiology, University of Oslo, 0316 Oslo, Norway.",
+        "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway.",
+        "Department of Microbiology, University of Oslo, 0316 Oslo, Norway.",
+        "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology, 7030 Trondheim, Norway.",
+        "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway.",
+        "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway.",
+        "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology, 7030 Trondheim, Norway.",
+        "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway.",
+        "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology, 7030 Trondheim, Norway."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vikedal, Krister",
+        "short_name": "Vikedal K",
+        "identifiers": [
+          "0000-0002-7475-4636"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway.",
+          "Department of Microbiology, University of Oslo, 0316 Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Berges, Natalia",
+        "short_name": "Berges N",
+        "identifiers": [
+          "0009-0007-1357-2154"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Riisnæs, Ida Mathilde Marstein",
+        "short_name": "Riisnæs IMM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway.",
+          "Department of Microbiology, University of Oslo, 0316 Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Ræder, Synnøve Brandt",
+        "short_name": "Ræder SB",
+        "identifiers": [
+          "0000-0002-1562-6343"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Bjørnholt, Jørgen Vildershøj",
+        "short_name": "Bjørnholt JV",
+        "identifiers": [
+          "0000-0002-0079-8062"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway.",
+          "Department of Microbiology, University of Oslo, 0316 Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Bjørås, Magnar",
+        "short_name": "Bjørås M",
+        "identifiers": [
+          "0000-0001-8759-1170"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway.",
+          "Department of Microbiology, University of Oslo, 0316 Oslo, Norway.",
+          "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology, 7030 Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Skarstad, Kirsten",
+        "short_name": "Skarstad K",
+        "identifiers": [
+          "0000-0002-8563-2730"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Helgesen, Emily",
+        "short_name": "Helgesen E",
+        "identifiers": [
+          "0000-0002-3992-7394"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway.",
+          "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology, 7030 Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Booth, James Alexander",
+        "short_name": "Booth JA",
+        "identifiers": [
+          "0000-0001-9452-3424"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Oslo University Hospital, Rikshospitalet, 0373 Oslo, Norway.",
+          "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology, 7030 Trondheim, Norway."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jun 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/22 13:43",
+    "fetched_at": "2026-10-02 00:15:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40794102",
+      "40433982",
+      "40272429",
+      "40162750",
+      "40005731",
+      "39920540",
+      "39299261",
+      "38596376",
+      "38536908",
+      "38047637",
+      "37212693",
+      "37168111",
+      "36069452",
+      "35189131",
+      "34878138",
+      "34507520",
+      "34478488",
+      "34471288",
+      "34316068",
+      "33242074",
+      "33147333",
+      "31885205",
+      "31548714",
+      "31285239",
+      "30788789",
+      "30447030",
+      "29941428",
+      "29294097",
+      "28607160",
+      "28270582",
+      "28262707",
+      "28222723",
+      "27990000",
+      "27572972",
+      "27156117",
+      "26443738",
+      "25792055",
+      "25291776",
+      "24964927",
+      "24615185",
+      "24362571",
+      "24214946",
+      "23871664",
+      "23564175",
+      "23408903",
+      "22743772",
+      "22730293",
+      "22708584",
+      "22348034",
+      "22247510",
+      "21857649",
+      "21212055",
+      "20029369",
+      "20011543",
+      "19765592",
+      "19747119",
+      "19188593",
+      "19100346",
+      "18621901",
+      "18265391",
+      "18234215",
+      "18180259",
+      "17724149",
+      "17122336",
+      "17076895",
+      "16914543",
+      "16738554",
+      "16630889",
+      "15954802",
+      "15948952",
+      "15721258",
+      "15308764",
+      "12900013",
+      "12864855",
+      "12769856",
+      "12661961",
+      "12145321",
+      "11983710",
+      "11333217",
+      "11124026",
+      "10829079",
+      "9822349",
+      "9701802",
+      "9278503",
+      "9230304",
+      "7789817",
+      "6092851",
+      "4568763",
+      "1406288",
+      "395024"
+    ],
+    "similar": [
+      "42328795",
+      "40433982",
+      "23974212",
+      "26032998",
+      "32687193",
+      "38697010",
+      "41830064",
+      "15948952",
+      "38678745",
+      "42207797",
+      "10812330",
+      "41111113",
+      "31416617",
+      "23906844",
+      "18445487",
+      "8349557",
+      "32816866",
+      "40631979",
+      "21697094",
+      "40464683",
+      "25368150",
+      "39742892",
+      "14982624",
+      "16310415",
+      "20465561",
+      "42489289",
+      "29555373",
+      "18310346",
+      "12559570",
+      "16199573",
+      "37979912",
+      "39838279",
+      "21187148",
+      "26003632",
+      "10629194",
+      "30857727",
+      "20304994",
+      "34339298",
+      "19675313",
+      "2993876",
+      "42133577",
+      "17028321",
+      "28689072",
+      "17357430",
+      "28710290",
+      "9862197",
+      "18034795",
+      "18782580",
+      "31754643",
+      "24084169",
+      "30792518",
+      "39413207",
+      "26100038",
+      "15186413",
+      "41980523",
+      "24362571",
+      "6343804",
+      "26500258",
+      "19555451",
+      "9875851",
+      "40892829",
+      "11073901",
+      "41911364",
+      "33522568",
+      "19846353",
+      "15489426",
+      "18539731",
+      "25425430",
+      "27698085",
+      "40434128",
+      "25484163",
+      "24373815",
+      "17376074",
+      "28513583",
+      "20703307",
+      "16872640",
+      "12741852",
+      "28262707",
+      "23316046",
+      "21764927",
+      "36314749",
+      "25028428",
+      "27043933",
+      "30717823",
+      "16816175",
+      "22820381",
+      "10510229",
+      "3899189",
+      "1711151",
+      "22621921",
+      "25353327",
+      "27401752",
+      "9515699",
+      "28369478",
+      "7934872",
+      "11069680",
+      "22617484",
+      "30716079",
+      "30519543",
+      "10809694"
+    ],
+    "review": [
+      "42328795",
+      "26003632",
+      "27043933"
+    ],
+    "pmc": [
+      "13284718"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/antibiotics.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotics"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42328795/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag573",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

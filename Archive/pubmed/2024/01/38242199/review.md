@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The study investigates the structural and functional impact of the BRCA1 Arg866Cys variant in the central region (residues 759-1064), using circular dichroism spectroscopy, nano-DSF, molecular dynamics simulations, and transmission electron microscopy. The authors report that the mutant exhibits increased flexibility, reduced DNA binding affinity, altered secondary structure propensities, and amyloid-like fibril formation, whereas the wild-type protein forms amorphous aggregates. The work aims to understand the intrinsically disordered nature of this BRCA1 region and the pathogenic mechanisms of missense variants.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or methodological parameters are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, simulation parameters, statistical analysis details, raw data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting multidisciplinary characterization of a BRCA1 VUS, but the current evidence base is insufficient to evaluate the validity, rigor, or significance of the claims. Several statements appear internally inconsistent or lack necessary context. The work may be of interest to the cancer genetics and protein biophysics communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in cancer genetics, particularly those focused on BRCA1 variant classification and clinical interpretation; structural biologists studying intrinsically disordered proteins; and biophysicists interested in protein aggregation and amyloid formation. The findings could inform functional assays for VUS classification, though the clinical relevance is not yet demonstrated.
+- **Major strengths** The use of a multidisciplinary approach combining experimental and computational methods is commendable. The focus on a clinically relevant VUS in a challenging disordered region addresses a real need. The observation of differential aggregation behavior between wild-type and mutant is potentially novel.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** The abstract states that "An increased ThT fluorescence indicated beta-rich composition and aggregation-prone behaviour for BRCA1 wild-type protein, while the fluorescence intensity was significantly quenched in the Arg866Cys mutant." This is followed by the claim that "Under Transmission Electron Microscopes (TEM), amyloid-like fibrils structure was detected for Arg866Cys mutant whereas the wild-type protein showed amorphous aggregates."
+  - **Evidence pointer** Abstract, results section
+  - **Concern** These two statements appear contradictory. ThT fluorescence is a standard probe for amyloid-like beta-rich aggregates. If the wild-type shows increased ThT fluorescence, this suggests beta-rich amyloid-like aggregation, yet TEM shows amorphous aggregates for the wild-type. Conversely, the mutant shows quenched ThT fluorescence, yet TEM reveals amyloid-like fibrils. The abstract does not explain this discrepancy.
+  - **Why it matters** The central claim of differential aggregation behavior is undermined by this apparent inconsistency. Without clarification, the reader cannot determine which method is more reliable or whether the interpretation is correct. This directly affects the validity of the main conclusions.
+  - **Resolution test** The authors must provide a coherent explanation for the ThT and TEM results, including possible reasons for ThT quenching in the mutant (e.g., different binding modes, sample conditions, or fluorophore interference). Quantitative data and representative images are required to resolve this discrepancy.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "BRCA1 Arg866Cys mutant demonstrated more flexibility and lesser affinity to DNA than the wild-type protein" and that "increased conformational flexibility in the Arg866Cys variant was observed by principal component analysis."
+  - **Evidence pointer** Abstract, results section
+  - **Concern** No quantitative data are provided for DNA binding affinity, flexibility measurements, or principal component analysis. The abstract does not report binding constants, statistical significance, simulation timescales, or convergence criteria. Without these details, the claims cannot be evaluated.
+  - **Why it matters** The functional consequence of reduced DNA binding is a key aspect of the study's significance. If the affinity difference is small or not statistically robust, the clinical relevance is weakened. Similarly, flexibility claims from simulations require validation of sampling adequacy.
+  - **Resolution test** Provide quantitative values (e.g., Kd values with errors, RMSF differences, PCA eigenvalues) and statistical tests. For simulations, report simulation length, replicates, and convergence metrics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The abstract states that "The BRCA1(759-1064) wild-type protein was shown to be a betaII-rich protein with an induced D-O transition in the presence of DNA and 2,2,2-Trifluoroethanol (TFE)."
+  - **Evidence pointer** Abstract, results section
+  - **Concern** The term "D-O transition" is not defined in the abstract. It is unclear whether this refers to a disorder-to-order transition, a specific secondary structure change, or something else. Additionally, the claim that the protein is "betaII-rich" is not supported by any quantitative secondary structure estimates.
+  - **Why it matters** The secondary structure characterization is foundational to the study. If the terminology is ambiguous or the structural assignment is not rigorously supported, the subsequent interpretations of TFE and DNA effects are compromised.
+  - **Resolution test** Define all specialized terms. Provide secondary structure percentages from CD analysis (e.g., from deconvolution software) and clarify the nature of the D-O transition with supporting data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Clinical relevance
+  - **Claim pointer** The abstract frames the work as addressing "the need to categorize variants of unknown significance" and "unraveling the disease-causing mechanism of VUS."
+  - **Evidence pointer** Abstract, introduction and conclusion sections
+  - **Concern** The abstract does not connect the structural findings to any clinical outcome, functional assay, or variant classification framework. No statement is made about whether the Arg866Cys variant is likely pathogenic, benign, or remains uncertain based on the results.
+  - **Why it matters** The stated motivation is clinical variant classification, but the study stops at structural characterization. Without a link to functional impact or clinical interpretation, the significance for VUS categorization is not established.
+  - **Resolution test** Add a statement relating the observed structural and biophysical changes to predicted functional consequences and potential clinical classification, or explicitly state the limitations of structural data for clinical interpretation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, methods description
+  - **Evidence pointer** Abstract, methods section
+  - **Issue** The abstract mentions "nano-DSF" but does not report any results from this technique. It is unclear what information was obtained or how it contributed to the conclusions.
+  - **Required correction** Either report the nano-DSF results (e.g., melting temperatures, aggregation onset) or remove the mention if not essential to the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, results description
+  - **Evidence pointer** Abstract, results section
+  - **Issue** The statement "The protein's alpha-helical composition did not significantly change in the presence of TFE, besides an increase in beta-turns and loops" is vague. No quantitative comparison is provided.
+  - **Required correction** Provide numerical values for secondary structure components under each condition to support the claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, results description
+  - **Evidence pointer** Abstract, results section
+  - **Issue** The phrase "betaII-rich" is unusual and may be confused with beta-sheet or beta-turn classifications. Standard CD deconvolution typically reports helix, sheet, turn, and unordered fractions.
+  - **Required correction** Use standard secondary structure terminology or define "betaII" explicitly with reference to the method used.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (internal inconsistency between ThT and TEM results), R1-M2 (lack of quantitative data for key claims), R1-M3 (undefined terminology and unsupported secondary structure assignment)
+- **Assessment against Nature-style criteria** Originality: The combination of biophysical methods on a BRCA1 VUS in a disordered region is somewhat novel, but the abstract does not demonstrate a new conceptual framework. Scientific importance: Potentially relevant to VUS classification, but the clinical link is missing. Interdisciplinary readership: The work bridges structural biology and cancer genetics, which could appeal to a broad audience, but the abstract is too technical and incomplete for nonspecialists. Technical soundness: Cannot be assessed from the abstract; apparent inconsistencies raise concerns. Readability for nonspecialists: The abstract uses specialized terms without definition and lacks context, making it difficult for a general scientific audience to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract contains promising elements but is undermined by an apparent internal contradiction, missing quantitative data, and undefined terminology. A revised manuscript with full data and clarification of the ThT/TEM discrepancy would be needed to assess the case.
+
+## Risk / unsupported claims
+- The claim of differential aggregation behavior (amyloid-like fibrils for mutant vs. amorphous aggregates for wild-type) is unsupported due to the apparent contradiction between ThT fluorescence and TEM results.
+- The claim of reduced DNA binding affinity for the mutant is unsupported without quantitative binding data.
+- The claim of increased conformational flexibility from PCA is unsupported without simulation details and quantitative metrics.
+- The secondary structure assignment ("betaII-rich") and the "D-O transition" are unsupported and undefined.
+- The clinical relevance of the findings for VUS categorization is not established from the abstract.

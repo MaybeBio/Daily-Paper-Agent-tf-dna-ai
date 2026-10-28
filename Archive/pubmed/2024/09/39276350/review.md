@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no evaluation of full-text data, figures, or methods
+- **Shared manuscript claim summary** The authors propose that Aurora B kinase phosphorylates FOXA1 at Serine 221 during mitosis, which liberates specific (but not non-specific) DNA binding, attenuates FOXA1 biomolecular condensation that requires specific DNA binding, and that perturbation of this dynamic phosphorylation impairs gene reactivation and cell proliferation, establishing reversible mitotic phosphorylation as a mechanism for spatiotemporal control of mitotic bookmarking.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, statistical analyses, all figures and tables, supplementary data, and any prior version or reviewer responses
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically coherent and potentially significant model linking Aurora B-mediated phosphorylation of FOXA1 at S221 to mitotic bookmarking dynamics. The central claim that phosphorylation liberates specific but not non-specific DNA binding, and that this modulates condensation and downstream gene reactivation, is intellectually appealing and aligns with emerging themes in mitotic bookmarking. However, the abstract alone provides insufficient evidence to evaluate the robustness of the experimental support, the specificity of the proposed mechanism, or the generalizability of the conclusions. The work is likely to interest researchers in transcription regulation, mitosis, and chromatin biology, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying pioneer transcription factors, mitotic bookmarking, cell cycle control, and chromatin dynamics would find these results relevant. The proposed link between a mitotic kinase and transcription factor condensation may also appeal to investigators interested in biomolecular phase separation and its regulatory roles. Clinically oriented researchers focused on proliferation and cancer may note the cell proliferation phenotype, though this is not developed in the abstract.
+- **Major strengths** The abstract identifies a specific phosphorylation site (S221) and a specific kinase (Aurora B) with a clear mechanistic distinction between specific and non-specific DNA binding modes. The connection between phosphorylation, condensation, and functional outcomes (gene reactivation and proliferation) provides a logical arc from molecular event to cellular phenotype. The framing of reversible phosphorylation as a general principle for mitotic bookmarking is conceptually valuable.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that Aurora B phosphorylation of FOXA1 at S221 liberates specific but not non-specific DNA binding, and that this guides condensation and post-mitotic gene reactivation.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract asserts a causal chain from Aurora B phosphorylation to DNA binding mode selection, condensation, and gene reactivation, but no experimental data are presented to support these relationships. It is unclear whether the evidence includes direct kinase assays, phospho-specific antibodies, mutagenesis of S221, live-cell imaging of condensation, or functional rescue experiments.  
+  - **Why it matters** The core novelty rests on the specificity of the phosphorylation effect and its functional consequences. Without visible evidence, the mechanistic claims cannot be distinguished from correlative observations or alternative explanations.  
+  - **Resolution test** Provide data showing that S221 phosphorylation is necessary and sufficient for the differential DNA binding effects, that condensation changes are directly linked to specific DNA binding, and that phospho-mimetic or phospho-dead mutants phenocopy or abrogate the observed effects on gene reactivation and proliferation.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Quantitative support  
+  - **Claim pointer** The claim that perturbation of dynamic phosphorylation impairs accurate gene reactivation and cell proliferation.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract reports functional impairments but provides no quantitative details, such as effect sizes, statistical significance, or the magnitude of proliferation defects. It is also unclear which perturbation strategies were used (e.g., kinase inhibition, phospho-site mutation, or depletion) and whether the effects are specific to FOXA1-dependent genes.  
+  - **Why it matters** Functional claims are central to the biological relevance of the study. Without quantitative and statistical support, the strength and specificity of the phenotype cannot be assessed.  
+  - **Resolution test** Include quantitative data with appropriate statistical tests, show specificity of the phenotype to FOXA1 target genes, and demonstrate that the perturbation effects are rescued by restoring dynamic phosphorylation.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The claim that reversible mitotic protein phosphorylation emerges as a fundamental mechanism for spatiotemporal control of mitotic bookmarking.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract generalizes from a single transcription factor and a single kinase to a broad principle. While plausible, this claim requires evidence that the mechanism operates across multiple bookmarking factors or at least that the FOXA1 example is representative rather than idiosyncratic.  
+  - **Why it matters** The significance of the work is elevated by this generalization, but overreach without comparative evidence weakens the conceptual contribution.  
+  - **Resolution test** Provide evidence from additional bookmarking factors or discuss how the FOXA1 paradigm may extend, or temper the claim to reflect the single-system evidence.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "liberate the specific, but not the non-specific, DNA binding" is ambiguous. It is unclear whether liberation means release from binding, enhancement of binding, or a change in binding mode.  
+  - **Required correction** Clarify the directionality of the effect on specific versus non-specific binding.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Mechanistic detail  
+  - **Affected element** Condensation description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that phosphorylation attenuates FOXA1 condensation that requires specific DNA binding, but the relationship between condensation and DNA binding mode is not fully explained.  
+  - **Required correction** Specify whether condensation is a cause or consequence of specific DNA binding, and how phosphorylation disrupts this relationship.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Prior work  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not situate the findings relative to prior studies on FOXA1 mitotic dynamics or Aurora B substrates, making it difficult to assess novelty.  
+  - **Required correction** Add brief context on how this work extends or challenges existing models.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide sufficient evidence to support the central mechanistic and functional claims. The lack of quantitative data and experimental detail prevents evaluation of the robustness and specificity of the findings.
+- **Assessment against Nature-style criteria**  
+  - Originality: The proposed mechanism linking Aurora B phosphorylation to differential DNA binding and condensation of a pioneer transcription factor is conceptually original, though the abstract does not allow verification of whether this is the first such report.  
+  - Scientific importance: The work addresses a fundamental question in mitotic bookmarking and gene reactivation, which is of high importance to cell cycle and transcription fields.  
+  - Interdisciplinary readership: The topic bridges transcription, cell cycle, and chromatin biology, and may attract readers from multiple disciplines, though the abstract is somewhat specialized.  
+  - Technical soundness: Cannot be assessed from the abstract alone; no methods or data are visible.  
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms (e.g., biomolecular condensation, mitotic bookmarking) without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the work may be of interest, but the abstract alone does not provide sufficient support for the mechanistic and functional claims. A full manuscript with detailed experimental evidence would be required to assess whether the case is convincing.
+
+## Risk / unsupported claims
+- The claim that Aurora B phosphorylation at S221 liberates specific but not non-specific DNA binding is unsupported in the abstract.
+- The claim that phosphorylation attenuates FOXA1 condensation is unsupported.
+- The claim that perturbation of dynamic phosphorylation impairs gene reactivation and cell proliferation is unsupported without quantitative data.
+- The generalization that reversible mitotic phosphorylation is a fundamental mechanism for mitotic bookmarking is not supported by the single-system evidence presented.

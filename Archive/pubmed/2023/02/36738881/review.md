@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report that two bivalve estrogen receptors (ERs) bind estradiol in a computational docking model, with activity compared to zebrafish ERα. They constructed a novel yeast assay using a GAL4 transcriptional activator system with ER-expressing and ERE-containing plasmids. Assays showed bivalve ERs activate transcription in response to tested steroids and EDCs, but more weakly than zebrafish ERα. The authors conclude that active ERs exist in bivalve molluscs and that the tool is promising for screening marine pollutants and understanding cross-taxa mechanisms.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or numerical data provided
+- **Missing materials affecting confidence** Full methods for docking and yeast assay, quantitative results (e.g., EC50 values, fold induction), statistical analyses, compound list and concentrations, strain construction details, and any validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful approach for assessing ER-mediated endocrine disruption in bivalves. However, the evidence base is too limited to evaluate the technical soundness or robustness of the claims. The docking model is described as qualitative, and the yeast assay results are reported without quantitative detail. The conclusion that bivalve ERs are functionally active is supported only by a brief statement of transcriptional activation, with no data on specificity, dose-response, or reproducibility. The manuscript may be of interest to environmental toxicology and comparative endocrinology audiences, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in environmental toxicology, endocrine disruption, and marine pollution monitoring would be interested because the work addresses a gap in understanding ER sensitivity in invertebrates and proposes a screening tool for EDCs in coastal habitats. Comparative endocrinologists may also find value in the cross-taxa comparison of ER function.
+- **Major strengths** The study addresses an important and understudied question about ER functionality in bivalves. The use of a complementary computational and experimental approach is logical. The proposed yeast assay could offer a practical screening method for marine EDCs if validated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that bivalve ERs "specifically activate transcription in response to tested steroids and EDCs" and that the assay is a "promising tool" for screening.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative data, such as dose-response curves, EC50 values, or fold induction, to support the claim of specific transcriptional activation. Without these data, it is impossible to assess whether the observed activation is robust, dose-dependent, or distinct from background activity.
+  - **Why it matters** Specificity and sensitivity are central to the utility of any screening assay. If the activation is weak or non-specific, the tool may not be reliable for environmental monitoring. The claim of "promising tool" requires evidence of assay performance, including limits of detection and reproducibility.
+  - **Resolution test** Provide dose-response data for at least one positive control (e.g., estradiol) and several EDCs, with statistical comparisons to vehicle controls, and report EC50 values and maximal induction for each ER tested.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that a "computational simulation docking model was applied to qualitatively predict the binding behavior" of bivalve ERs to estradiol.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The docking model is described as qualitative, but no details are given on the methodology, such as the software used, scoring functions, or validation against known ligands. The comparison with zebrafish ERα is mentioned but not quantified.
+  - **Why it matters** Without methodological detail and validation, the docking results cannot be evaluated for reliability. A qualitative prediction without scoring or error analysis does not provide strong support for the functional claims made later.
+  - **Resolution test** Describe the docking protocol, include docking scores or binding energies for all ERs and ligands tested, and validate the model against experimental binding data or known ER ligands.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The abstract claims that a "novel reconstituted yeast system" was constructed using GAL4 and ERE-containing plasmids.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No details are provided on the construction, controls, or validation of the yeast assay. It is unclear whether the system was tested with negative controls (e.g., ER-negative strains), whether the ERE response is specific, or whether the assay is reproducible across experiments.
+  - **Why it matters** A novel assay must be thoroughly validated to be credible. Without evidence of specificity, sensitivity, and reproducibility, the tool cannot be considered reliable for screening purposes.
+  - **Resolution test** Include data on negative controls, assay background, inter-assay variability, and a comparison with an established ER assay (e.g., a vertebrate ER yeast assay) to demonstrate the system works as intended.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "complementary model" in the title is vague and could refer to either the docking model or the yeast assay, or both. This may confuse readers about the study design.
+  - **Required correction** Clarify in the title or abstract what "complementary model" refers to, such as "a computational docking model and a yeast-based reporter assay."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Compound list
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "tested steroids and EDCs" but does not list which compounds were used. This limits the reader's ability to assess the scope of the screening.
+  - **Required correction** Provide a list of the specific steroids and EDCs tested, either in the abstract or in a table in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Comparison with zebrafish ERα
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The claim that bivalve ER activation is "weaker" than zebrafish ERα is not supported by any statistical or quantitative comparison in the abstract.
+  - **Required correction** Report the quantitative comparison, such as relative EC50 values or maximal induction, with appropriate statistical tests.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The work addresses a relatively underexplored area, namely ER functionality in bivalves, which is a novel contribution to comparative endocrinology. Scientific importance: The potential to screen marine EDCs is relevant to environmental health, but the importance is not fully demonstrated without quantitative evidence. Interdisciplinary readership: The topic bridges environmental toxicology, molecular biology, and ecology, which could attract a broad audience. Technical soundness: Not assessable from the abstract; the lack of methodological detail and quantitative data is a major limitation. Readability for nonspecialists: The abstract is generally clear but uses technical terms (e.g., GAL4, ERE) without explanation, which may hinder nonspecialist understanding.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially valuable approach, but the lack of quantitative data and methodological detail prevents a supportive recommendation. The manuscript may be reconsidered if the full text provides robust evidence addressing the major concerns.
+
+## Risk / unsupported claims
+- The claim that bivalve ERs "specifically activate transcription" is unsupported without dose-response and control data.
+- The claim that the yeast assay is a "promising tool" is unsupported without validation data.
+- The docking model results are not assessable due to lack of methodological detail and quantitative output.
+- The comparison with zebrafish ERα is not supported by any numerical or statistical evidence in the abstract.

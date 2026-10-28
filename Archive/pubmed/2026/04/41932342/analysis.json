@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41932342",
+  "title": "GFETM: Genome foundation-based embedded topic model for scATAC-seq modeling.",
+  "authors": "Fan, Yimin; Osakwe, Adrien; Han, Shi; Li, Yu; Ding, Jun; Li, Yue",
+  "journal": "Cell systems",
+  "published_date": "2026-04-04",
+  "window": {
+    "start": "2026-03-30",
+    "end": "2026-04-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用基因组基础模型嵌入主题模型分析scATAC-seq开放染色质，虽涉及TF活性推断但非TF-DNA结合建模核心，方法可迁移至本课题。",
+  "abstract": "Single-cell assay for transposase-accessible chromatin with sequencing (scATAC-seq) enables investigation of open chromatin landscapes at single-cell resolution. However, analyzing scATAC-seq data remains challenging due to inherent sparsity and noise. Genome foundation models (GFMs), pre-trained on extensive DNA sequence datasets, have demonstrated effectiveness in genome analysis. Because open chromatin regions (OCRs) harbor salient sequence features, we hypothesized that leveraging GFMs' sequence embeddings could enhance scATAC-seq modeling accuracy and generalizability. We introduce the genome foundation embedded topic model (GFETM), an interpretable deep learning framework combining GFMs with the embedded topic model (ETM) for scATAC-seq analysis. By integrating DNA sequence embeddings extracted by a GFM from OCRs, GFETM demonstrates superior accuracy and generalizability and captures cell-state-specific transcription factor (TF) activity with both zero-shot inference and attention-mechanism analysis. Finally, the topic mixtures inferred by GFETM reveal biologically meaningful epigenomic signatures of kidney diabetes. A record of this paper's transparent peer review process is included in the supplemental information.",
+  "abstract_zh": "单细胞转座酶可及染色质测序（scATAC-seq）技术能够在单细胞分辨率下研究开放染色质景观。然而，由于固有的稀疏性和噪声，分析scATAC-seq数据仍具挑战性。基因组基础模型（GFMs）在广泛DNA序列数据集上预训练，已展示出在基因组分析中的有效性。鉴于开放染色质区域（OCRs）含有显著序列特征，我们假设利用GFMs的序列嵌入可增强scATAC-seq建模的准确性和泛化能力。我们引入了基因组基础嵌入主题模型（GFETM），这是一种结合GFMs与嵌入主题模型（ETM）的可解释深度学习框架，用于scATAC-seq分析。通过整合由GFM从OCRs提取的DNA序列嵌入，GFETM展现出卓越的准确性和泛化性，并通过零样本推理和注意力机制分析捕获细胞状态特异性转录因子（TF）活性。最后，GFETM推断的主题混合揭示了肾脏糖尿病具有生物学意义的表观基因组特征。本文的透明同行评审过程记录包含在补充信息中。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41932342/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41932342/",
+  "paper_page_path": "papers/pubmed/41932342/index.html"
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors propose a super learner ensemble machine learning model that uses Rosetta-based quantities to predict absolute protein-protein binding free energies with unprecedented accuracy, rivaling computationally demanding methods.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or data provided
+- **Missing materials affecting confidence** Full manuscript, model architecture details, training and test datasets, performance metrics, benchmark comparisons, uncertainty estimates, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of ensemble machine learning to protein-protein binding free energy prediction. However, the claims of "unprecedented accuracy" and "rivaling the most computationally demanding methods" are not substantiated by any quantitative evidence in the supplied material. The abstract lacks essential details on model validation, benchmark datasets, and comparison baselines, making the central claims currently unverifiable.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists interested in fast and accurate binding affinity prediction; drug discovery researchers seeking high-throughput screening tools; machine learning practitioners working on biophysical property prediction. The promise of speed with accuracy comparable to expensive methods would appeal to these communities.
+- **Major strengths** The conceptual approach of combining multiple Rosetta-based features through a super learner ensemble is sensible and potentially novel. The stated goal of achieving accuracy comparable to computationally demanding methods while presumably being faster is practically valuable. The focus on absolute binding free energies, which are more challenging than relative values, indicates ambition.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "predict binding free energies with unprecedented accuracy, rivaling the most computationally demanding methods available"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** No quantitative performance metrics are reported. The terms "unprecedented accuracy" and "rivaling" are undefined without specific numbers such as Pearson correlation, RMSE, or mean absolute error against experimental data or established benchmarks.  
+  - **Why it matters** The central claim of the work rests on demonstrating superior or comparable accuracy. Without numerical evidence, the claim cannot be evaluated or reproduced.  
+  - **Resolution test** Provide performance metrics on a standard benchmark dataset (e.g., a well-known protein-protein binding affinity benchmark) with comparison to at least one established method, including error bars or confidence intervals.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** "A machine learning ensemble algorithm uses Rosetta-based quantities"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not specify which Rosetta-based quantities are used, how the super learner is constructed, what base learners are included, or how hyperparameters are tuned. Without this information, the method cannot be assessed for validity or reproducibility.  
+  - **Why it matters** Reproducibility is a core requirement for computational methods. The lack of methodological detail prevents independent verification and limits the scientific utility of the work.  
+  - **Resolution test** Describe the feature set, ensemble architecture, training procedure, and validation strategy in the full manuscript, and make code and data publicly available.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability and overfitting risk  
+  - **Claim pointer** "predict binding free energies with unprecedented accuracy"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** No information is given about the size and diversity of the training and test sets, whether cross-validation was used, or whether the model was tested on unseen protein complexes with different structural classes. The risk of overfitting to a narrow training set is not addressed.  
+  - **Why it matters** A model that performs well on a limited dataset may fail on broader applications. The claim of general predictive ability requires demonstration on independent test sets.  
+  - **Resolution test** Report dataset statistics, cross-validation results, and performance on held-out test complexes from diverse structural and functional categories.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** "unprecedented accuracy"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The phrase "unprecedented" is a strong claim that requires explicit comparison to prior state-of-the-art methods with quantitative support.  
+  - **Required correction** Replace with specific accuracy metrics and comparative benchmarks.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope definition  
+  - **Affected element** "absolute protein-protein binding free energies"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not clarify whether the model predicts binding free energies for wild-type complexes only or also handles mutations, which is a common use case.  
+  - **Required correction** State the scope of applicability, including whether mutation effects are covered.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Computational cost  
+  - **Affected element** "rivaling the most computationally demanding methods"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract implies a speed advantage but does not provide runtime comparisons or complexity analysis.  
+  - **Required correction** Include computational cost comparison with reference methods, such as wall-clock time per prediction.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative validation, methodological detail, and generalization evidence means the core claims are currently unsupported.
+- **Assessment against Nature-style criteria**  
+  - Originality: The super learner approach applied to Rosetta-based features for absolute binding free energy prediction appears novel, but novelty alone is insufficient without demonstrated performance.  
+  - Scientific importance: Accurate and fast binding free energy prediction is of high importance to structural biology and drug discovery. The potential impact is significant if the claims hold.  
+  - Interdisciplinary readership: The topic bridges machine learning, biophysics, and structural biology, which could attract a broad audience. However, the abstract is too vague to engage specialists from each field.  
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological and validation details precludes evaluation.  
+  - Readability for nonspecialists: The abstract is concise and accessible, but the absence of concrete results weakens its persuasive power for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract makes strong claims without supporting data. A revised manuscript with full methodological details, quantitative benchmarks, and generalization tests would be required to assess whether the claims are justified.
+
+## Risk / unsupported claims
+- "Unprecedented accuracy" is unsupported without quantitative comparison to existing methods.
+- "Rivaling the most computationally demanding methods" is unsupported without specific performance and runtime data.
+- The general predictive ability of the model is unverifiable without dataset and validation details.
+- The novelty of the super learner approach cannot be confirmed without a literature comparison in the full manuscript.

@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, declarations)
+- **Assessment boundary** Scientific and technical soundness of the proposed method, experimental validation, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors propose CrossPPI, a deep learning framework integrating sequence and structural features via a transformer-based cross-fusion module with GAT and CNN components, to predict protein–protein binding affinity (pKD). They report a PCC of 0.7616, SCC of 0.7644, MAE of 1.2869, and RMSE of 1.6824 on a 300-pair test set, and claim superiority over baseline models.
+- **Visible evidence base** Abstract, Sections 1–4, Tables 1–3 (referenced but not shown), Figures 1–4 (referenced but not shown), declarations, supplementary file references
+- **Missing materials affecting confidence** Tables 1–3 and Figures 1–4 are referenced but not provided in the manuscript text. Dataset details, hyperparameter choices, training curves, and baseline implementation specifics are not fully described. No comparison with state-of-the-art PPI affinity prediction methods is presented.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology, namely protein–protein binding affinity prediction, and proposes a plausible architecture combining sequence and structural features with cross-attention. However, the current manuscript is incomplete in its presentation of results and lacks critical experimental details. The reported performance metrics cannot be fully evaluated without the referenced tables and figures. The comparison with baselines is limited and does not include established PPI-specific methods. The methodological description contains gaps in the equations and training details. The claims of novelty and superiority are not fully supported by the evidence provided.
+- **Who would be interested in the results, and why** Computational biologists, bioinformaticians, and researchers in drug discovery and protein engineering would be interested in improved methods for binding affinity prediction. The integration of sequence and structural features with cross-attention is a timely approach that could inform future model development in protein interaction modelling.
+- **Major strengths** The problem is well motivated and biologically relevant. The proposed architecture is modular and combines complementary feature types (sequence and structure) in a principled way. The use of ESM2 embeddings and contact maps is current and appropriate. The authors provide code and data availability statements, which supports reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims specific performance metrics (PCC 0.7616, SCC 0.7644, MAE 1.2869, RMSE 1.6824) and superiority over baselines.
+  - **Evidence pointer** Section 3.2, Table 2, Figure 4 (location not provided)
+  - **Concern** The referenced tables and figures containing the actual results are not included in the manuscript text. Without these, the reported metrics cannot be verified, and the comparison with baselines cannot be assessed. The claim of achieving the best PCC, SCC, and RMSE among tested models is unverifiable from the provided material.
+  - **Why it matters** The central claim of the manuscript rests on the experimental results. Without the actual data, the performance claims are unsupported and the scientific contribution cannot be evaluated.
+  - **Resolution test** Provide the full tables and figures with all numerical results, including baseline performances, standard deviations, and statistical significance tests where applicable.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The method section describes a cross-fusion module and feature extraction using GATs and CNNs, with equations referenced but not shown.
+  - **Evidence pointer** Section 2.2, Section 2.3, Section 2.4 (location not provided)
+  - **Concern** The equations for attention coefficients, embedding combination, and affinity prediction are referenced but not displayed. The description of the cross-fusion mechanism lacks sufficient detail to understand the exact architecture, including the number of layers, attention heads, and how the graph and sequence views are combined. The training procedure is only partially described.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without complete methodological details and equations, other researchers cannot implement or build upon the proposed approach.
+  - **Resolution test** Include all equations, provide a complete architectural description with layer dimensions, attention heads, and training details, and make the code publicly available and documented.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Baseline adequacy
+  - **Claim pointer** The manuscript claims that CrossPPI outperforms KNN, SVM, transformer, and GCN baselines.
+  - **Evidence pointer** Section 3.2, Table 2 (location not provided)
+  - **Concern** The baseline models are generic machine learning and deep learning methods. No comparison is made with established PPI affinity prediction methods such as PRODIGY, DeepAffinity, or other recent deep learning approaches specifically designed for PPI binding affinity. The choice of baselines does not adequately demonstrate the advantage of CrossPPI over the current state of the art.
+  - **Why it matters** The claim of improved performance is only meaningful in the context of existing specialized methods. Without comparison to state-of-the-art PPI affinity predictors, the contribution of CrossPPI is not established.
+  - **Resolution test** Include comparisons with established PPI affinity prediction methods using the same evaluation protocol and datasets.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Dataset and evaluation rigor
+  - **Claim pointer** The manuscript states that 300 samples were selected from the training set to create a test set, and that the test set was evaluated using the CrossPPI fold-1 checkpoint.
+  - **Evidence pointer** Section 2.5, Section 3.2 (location not provided)
+  - **Concern** The test set is derived from the training set, which raises concerns about data leakage and the validity of the reported test performance. The use of a single fold checkpoint for testing is not standard practice and may not reflect the model's true generalization ability. The rationale for this evaluation strategy is not explained.
+  - **Why it matters** The evaluation protocol directly affects the credibility of the reported results. An inappropriate test set construction or evaluation procedure can lead to overoptimistic performance estimates.
+  - **Resolution test** Clarify the relationship between the training and test sets, justify the use of a single fold checkpoint, or use a properly held-out test set with multiple model checkpoints and report variance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, threshold description
+  - **Evidence pointer** Section 2.2 (location not provided)
+  - **Issue** The threshold for contact map binarization is described as a distance of 0.5, but the units are not specified. It is unclear whether this is in angstroms or normalized units.
+  - **Required correction** Specify the units of the distance threshold used for contact map binarization.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.5, dataset split
+  - **Evidence pointer** Section 2.5 (location not provided)
+  - **Issue** The manuscript states that 6436 dimer pairs were extracted and 300 samples were selected for testing, but the selection criteria for the test set are not described.
+  - **Required correction** Describe how the 300 test samples were selected, including any random seed or stratification strategy.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 3.1, Table 1
+  - **Evidence pointer** Section 3.1 (location not provided)
+  - **Issue** The manuscript states that the best values for each metric are indicated in bold in Table 1, but the table is not provided.
+  - **Required correction** Ensure all referenced tables are included in the manuscript or supplementary material.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.3, ablation study
+  - **Evidence pointer** Section 3.3 (location not provided)
+  - **Issue** The ablation study results are described qualitatively but the actual numbers are not provided in the text.
+  - **Required correction** Include the numerical results of the ablation study in the text or in a table.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing results), R1-M2 (incomplete methodology), R1-M3 (inadequate baselines), R1-M4 (evaluation protocol concerns)
+- **Assessment against Nature-style criteria** Originality: The combination of cross-fusion with GAT and CNN features for PPI affinity prediction is somewhat novel, but the individual components are established techniques. The novelty claim is weakened by the lack of comparison with existing PPI-specific methods. Scientific importance: Binding affinity prediction is an important problem, but the manuscript does not demonstrate a significant advance over the current state of the art. Interdisciplinary readership: The topic is relevant to computational biology and drug discovery, but the presentation is technical and may not be accessible to a broad interdisciplinary audience. Technical soundness: The architecture is plausible, but the incomplete methodological details and evaluation concerns prevent a full assessment of technical soundness. Readability for nonspecialists: The manuscript is written in a technical style with limited context for readers outside the immediate field. The abstract is clear, but the methods section assumes significant prior knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and proposes a reasonable architecture, but the missing results, incomplete methodology, inadequate baselines, and evaluation concerns prevent a positive recommendation. The authors should provide the full experimental results, complete the methodological description, include comparisons with state-of-the-art PPI affinity prediction methods, and clarify the evaluation protocol.
+
+## Risk / unsupported claims
+- The reported performance metrics (PCC 0.7616, SCC 0.7644, MAE 1.2869, RMSE 1.6824) are unsupported because the corresponding tables and figures are not provided.
+- The claim of superiority over baseline models is unsupported without the actual comparison data.
+- The claim that CrossPPI integrates structural and sequential features effectively is plausible but not fully verifiable without the ablation study results.
+- The statement that the test set has a similar distribution to the training set is based on a figure that is not provided.
+- The claim that improvements to ESM2 will likely enhance CrossPPI's predictive capability is speculative and not tested.
+- The generalizability claim based on dataset diversity is not supported by any cross-dataset or external validation experiments.

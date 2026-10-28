@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.08.12.456141",
+  "title": "mebipred: identifying metal-binding potential in protein sequences.",
+  "authors": "Ariel A Aptekmann; Joy Buongiorno; Donato Giovannelli; Mihaela Glamoclija; Diego U Ferreiro; Yana Bromberg",
+  "journal": "bioRxiv",
+  "published_date": "2021-08-13",
+  "window": {
+    "start": "2021-08-09",
+    "end": "2021-08-15"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用机器学习预测蛋白质金属结合能力，虽涉及金属离子对DNA/RNA结合的辅助作用，但核心对象非蛋白质-DNA互作，且无结合位点或互作机制建模，仅序列特征分类，与课题关联较弱。",
+  "abstract": "Metal-binding proteins have a central role in maintaining life processes. Nearly one-third of known protein structures contain metal ions that are used for a variety of needs, such as catalysis, DNA/RNA binding, protein structure stability, etc. Identifying metal-binding proteins is thus crucial for understanding the mechanisms of cellular activity. However, experimental annotation of protein metal-binding potential is severely lacking, while computational techniques are often imprecise and of limited applicability. We developed a novel machine learning-based method, mebipred, for identifying metal-binding proteins from sequence-derived features. This method is nearly 90% accurate in recognizing proteins that bind metal ions and ion containing ligands. Moreover, the identity of ten ubiquitously present metal ions and ion-containing ligands can be annotated. mebipred is reference-free, i.e. no sequence alignments are involved, and outperforms other prediction methods, both in speed and accuracy. mebipred can also identify protein metal-binding capabilities from short sequence stretches and, thus, may be useful for the annotation of metagenomic samples metal requirements inferred from translated sequencing reads. We performed an analysis of microbiome data and found that ocean, hot spring sediments and soil microbiomes use a more diverse set of metals than human host-related ones. For human-hosted microbiomes, physiological conditions explain the observed metal preferences. Similarly, subtle changes in ocean sample ion concentration affect the abundance of relevant metal-binding proteins. These results are highlight mebipreds utility in analyzing microbiome metal requirements. mebipred is available as a web server at services.bromberglab.org/mebipred and as a standalone package at https://pypi.org/project/mymetal/",
+  "abstract_zh": "金属结合蛋白在维持生命过程中发挥着核心作用。已知蛋白质结构中近三分之一含有金属离子，这些离子用于多种需求，如催化、DNA/RNA结合、蛋白质结构稳定性等。因此，识别金属结合蛋白对于理解细胞活动机制至关重要。然而，蛋白质金属结合潜力的实验注释严重缺乏，而计算技术往往不精确且适用性有限。我们开发了一种基于机器学习的新方法mebipred，用于从序列衍生特征中识别金属结合蛋白。该方法在识别结合金属离子和含离子配体的蛋白质方面准确率接近90%。此外，还能注释十种普遍存在的金属离子和含离子配体的身份。mebipred无需参考序列，即不涉及序列比对，并且在速度和准确性上均优于其他预测方法。mebipred还能从短序列片段中识别蛋白质金属结合能力，因此可能有助于注释从翻译测序读段推断的宏基因组样本金属需求。我们对微生物组数据进行了分析，发现海洋、温泉沉积物和土壤微生物组使用的金属种类比人类宿主相关微生物组更多样化。对于人类宿主微生物组，生理条件解释了观察到的金属偏好。同样，海洋样本离子浓度的细微变化会影响相关金属结合蛋白的丰度。这些结果突显了mebipred在分析微生物组金属需求方面的实用性。mebipred可作为网络服务器在services.bromberglab.org/mebipred使用，也可作为独立包在https://pypi.org/project/mymetal/获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.08.12.456141",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.08.12.456141",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.08.12.456141/index.html"
+}

@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "38412693",
+    "doi": "10.1016/j.ejmech.2024.116264",
+    "title": "Discovery of potent small molecule inhibitors of histone lysine methyltransferase NSDs."
+  },
+  "content": {
+    "abstract": "Nuclear receptor binding SET domain (NSD) proteins are a class of histone lysine methyltransferases and implicated in multiple cancer types with aberrant expression and involvement of cancer related signaling pathways. In this study, a series of small-molecule compounds including compound 2 and 3 are identified against the SET domain of NSDs through structure-based virtual screening. Our lead compound 3 exhibits potent inhibitory activities in vitro towards the NSD2-SET and NSD3-SET with an IC(50) of 0.81 muM and 0.84 muM, respectively, and efficiently inhibits histone H3 lysine 36 dimethylation and decreases the expression of NSDs-targeted genes in non-small cell lung cancer cells at 100 nM. Compound 3 suppresses cell proliferation and reduces the clonogenicity in H460 and H1299 non-small cell lung cancer cells, and induces s-phase cell cycle arrest and apoptosis. These data establish our compounds as a valuable tool-kit for the study of the biological roles of NSDs in cancer.",
+    "keywords": [
+      "Histone methyltransferase",
+      "Histone methyltransferase inhibitor",
+      "Molecular docking",
+      "NSD2",
+      "NSD3",
+      "Virtual screening"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Histone-Lysine N-Methyltransferase/metabolism",
+      "*Carcinoma, Non-Small-Cell Lung",
+      "Lysine",
+      "Repressor Proteins/metabolism",
+      "*Lung Neoplasms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Piao, Lianhua",
+        "Gao, Ying",
+        "Xu, Xiaoshuang",
+        "Su, Yangyang",
+        "Wang, Yanong Daniel",
+        "Zhou, Jie",
+        "Gao, Yang",
+        "Fang, Jin",
+        "Li, Qihui",
+        "Chang, Shan",
+        "Kong, Ren"
+      ],
+      "short_names": [
+        "Piao L",
+        "Gao Y",
+        "Xu X",
+        "Su Y",
+        "Wang YD",
+        "Zhou J",
+        "Gao Y",
+        "Fang J",
+        "Li Q",
+        "Chang S",
+        "Kong R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China.",
+        "Primary Biotechnology Co., Ltd., Changzhou, 213125, China.",
+        "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China.",
+        "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China.",
+        "Suzhou Medinoah Co., Ltd., Suzhou, 215125, China.",
+        "Suzhou Medinoah Co., Ltd., Suzhou, 215125, China.",
+        "Suzhou Medinoah Co., Ltd., Suzhou, 215125, China.",
+        "Suzhou Medinoah Co., Ltd., Suzhou, 215125, China.",
+        "Primary Biotechnology Co., Ltd., Changzhou, 213125, China.",
+        "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China. Electronic address: schang@jsut.edu.cn.",
+        "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China. Electronic address: rkong@jsut.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Piao, Lianhua",
+        "short_name": "Piao L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Ying",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Primary Biotechnology Co., Ltd., Changzhou, 213125, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiaoshuang",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China."
+        ]
+      },
+      {
+        "full_name": "Su, Yangyang",
+        "short_name": "Su Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanong Daniel",
+        "short_name": "Wang YD",
+        "identifiers": [],
+        "affiliations": [
+          "Suzhou Medinoah Co., Ltd., Suzhou, 215125, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jie",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Suzhou Medinoah Co., Ltd., Suzhou, 215125, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yang",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Suzhou Medinoah Co., Ltd., Suzhou, 215125, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Jin",
+        "short_name": "Fang J",
+        "identifiers": [],
+        "affiliations": [
+          "Suzhou Medinoah Co., Ltd., Suzhou, 215125, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qihui",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Primary Biotechnology Co., Ltd., Changzhou, 213125, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Shan",
+        "short_name": "Chang S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China. Electronic address: schang@jsut.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Kong, Ren",
+        "short_name": "Kong R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, Jiangsu, 213001, China. Electronic address: rkong@jsut.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Chem"
+    ],
+    "pub_date": "2024 Mar 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/28 00:43",
+    "fetched_at": "2026-09-29 16:10:39"
+  },
+  "links": {
+    "cites": [
+      "41495645",
+      "41301842",
+      "39403928"
+    ],
+    "refs": [],
+    "similar": [
+      "38412693",
+      "33361816",
+      "35532818",
+      "25494638",
+      "24595546",
+      "30471851",
+      "34147909",
+      "29945974",
+      "28193767",
+      "35717870",
+      "23269674",
+      "34488340",
+      "21664949",
+      "31563542",
+      "21806967",
+      "25942451",
+      "26151044",
+      "26787850",
+      "39230932",
+      "31526565",
+      "38748070",
+      "32088124",
+      "22028615",
+      "37062069",
+      "30670815",
+      "34671018",
+      "27393948",
+      "37072259",
+      "32001260",
+      "30348169",
+      "32173197",
+      "30171259",
+      "34271259",
+      "36863225",
+      "31248990",
+      "22099308",
+      "34440470",
+      "36232375",
+      "37578463",
+      "32868895",
+      "37182335",
+      "19808676",
+      "35704853",
+      "34615858",
+      "22645312",
+      "38687638",
+      "31306746",
+      "33522809",
+      "16461774",
+      "28901481",
+      "31692936",
+      "33536620",
+      "16805913",
+      "32573059",
+      "33976366",
+      "23980095",
+      "36360250",
+      "38059332",
+      "16322686",
+      "34782742",
+      "31254363",
+      "29634317",
+      "25136132",
+      "16519522",
+      "34083510",
+      "27604143",
+      "35895319",
+      "38256018",
+      "22781932",
+      "27368234",
+      "29742153",
+      "18299133",
+      "30171150",
+      "16702210",
+      "33621919",
+      "23011794",
+      "27356987",
+      "16497704",
+      "20434463",
+      "12130538",
+      "35176466",
+      "28879500",
+      "25578037",
+      "28808922",
+      "14690610",
+      "27164560",
+      "33589584",
+      "23466651",
+      "17612494",
+      "34782608",
+      "12514135",
+      "36043747",
+      "23955539",
+      "18451879",
+      "20837538",
+      "34023776",
+      "24767850",
+      "29024026",
+      "37756162",
+      "37807669",
+      "31756401",
+      "33661013",
+      "37575680",
+      "38516186",
+      "39032837"
+    ],
+    "review": [
+      "38412693",
+      "35532818",
+      "28193767",
+      "34488340",
+      "21664949",
+      "25942451",
+      "36863225",
+      "34440470",
+      "36232375",
+      "37578463",
+      "37182335",
+      "36360250",
+      "38256018",
+      "25578037"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0223-5234(24)00144-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

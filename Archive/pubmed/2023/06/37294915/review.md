@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present RiceTFtarget, a web-based prediction server for rice transcription factor (TF) target genes, which integrates coexpression data and machine learning approaches. The server is claimed to provide a user-friendly platform for predicting TF-target relationships in rice, with potential utility for functional genomics research.
+- **Visible evidence base** Abstract text only; no quantitative performance metrics, validation datasets, comparison benchmarks, or server architecture details are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, server URL and accessibility information, training and validation dataset descriptions, algorithm details, performance evaluation results, and comparison with existing tools
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful bioinformatics resource for the rice research community. The combination of coexpression and machine learning for TF-target prediction is a reasonable approach, and the topic is of interest to plant molecular biologists and bioinformaticians. However, based on the abstract alone, the technical soundness of the machine learning methodology, the accuracy of predictions, and the novelty relative to existing TF-target prediction tools cannot be evaluated. The abstract lacks quantitative performance metrics and comparative analyses, which are essential for establishing the utility and reliability of the server. The case for the server's value is therefore not yet established from the provided material.
+- **Who would be interested in the results, and why** Rice geneticists and molecular biologists studying transcriptional regulation, particularly those investigating TF functions and gene regulatory networks. Bioinformaticians working on plant regulatory genomics and developers of similar prediction tools would also be interested, as the server may offer a new resource for hypothesis generation and target prioritization in rice functional genomics studies.
+- **Major strengths** The topic addresses a genuine need in the rice research community, as TF-target prediction remains a challenging task and user-friendly web servers are valuable resources. The integration of coexpression data with machine learning is a sensible strategy that leverages complementary information. The focus on rice, a major crop species, enhances the potential impact and practical relevance of the resource.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The server is claimed to predict TF-target relationships using coexpression and machine learning, implying reliable and useful predictions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative information about the machine learning model's performance, such as accuracy, precision, recall, F1 score, or area under the ROC curve. There is also no description of the training data, feature sets, model selection process, or validation strategy. Without these details, the technical soundness of the prediction approach cannot be assessed.
+  - **Why it matters** A prediction server's value depends entirely on the reliability of its predictions. If the underlying model is poorly trained, overfitted, or inadequately validated, the server could generate misleading results for users. The absence of performance metrics prevents reviewers and potential users from judging whether the tool is fit for purpose.
+  - **Resolution test** Provide quantitative performance metrics from independent validation datasets, describe the training and test data composition, feature engineering, model architecture, hyperparameter tuning, and cross-validation procedures. Include a comparison with baseline methods or existing TF-target prediction tools.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and novelty
+  - **Claim pointer** The server is presented as a new resource for rice TF-target prediction, implying novelty relative to existing tools.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not state how RiceTFtarget differs from or improves upon existing TF-target prediction servers or databases for rice or other plants. No comparison with current tools is mentioned, and the specific machine learning approach is not described in sufficient detail to determine whether it represents a methodological advance.
+  - **Why it matters** For a resource paper, demonstrating novelty and added value over existing tools is essential. If similar servers already exist with comparable or better performance, the contribution of this work would be incremental. Without a clear statement of what is new, the scientific importance of the resource is unclear.
+  - **Resolution test** Clearly articulate the novel aspects of the server, such as new features, improved accuracy, broader coverage, or unique functionality. Provide a direct comparison with existing TF-target prediction tools, including performance benchmarks and feature comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and accessibility
+  - **Claim pointer** The manuscript describes a prediction server, implying that the tool is accessible and usable by the community.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide the server URL, and there is no information about the availability of the underlying code, training data, or documentation. For a web server resource, accessibility and reproducibility are critical. Without this information, the practical utility of the tool cannot be verified.
+  - **Why it matters** A prediction server that is not accessible or whose underlying methodology cannot be reproduced has limited scientific value. Users need to be able to access the server, understand its inputs and outputs, and trust that the predictions are based on transparent and reproducible methods.
+  - **Resolution test** Provide the server URL, confirm that the server is functional and publicly accessible, and describe the availability of source code, training datasets, and user documentation. Include details on input formats, output interpretation, and any usage restrictions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract clarity
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not explain what types of TF-target relationships are predicted, such as direct binding versus indirect regulatory effects, and does not clarify the biological interpretation of the predictions for experimental users.
+  - **Required correction** Add a brief statement clarifying the nature of the predictions and how users should interpret the results in an experimental context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope and coverage
+  - **Affected element** Species and data coverage
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the number of TFs covered, the source of the coexpression data, or the rice genome version used. This information is important for users to assess whether the server covers their genes of interest.
+  - **Required correction** Include brief statistics on the number of TFs, the coexpression dataset source, and the genome annotation version in the abstract or main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Machine learning methodology description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions machine learning but does not specify which algorithm or algorithms were used, nor how the training labels were defined. This lack of detail limits the reader's ability to gauge the methodological rigor.
+  - **Required correction** Specify the machine learning algorithm(s) used and briefly describe how positive and negative training examples were constructed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of performance metrics, novelty demonstration, and accessibility information means that the core claims of a useful and reliable prediction server are not currently supported by the provided material.
+- **Assessment against Nature-style criteria** Originality: The abstract does not provide sufficient information to assess whether the approach is genuinely novel relative to existing TF-target prediction tools. Scientific importance: The topic is relevant to rice functional genomics, but the potential impact depends on demonstrated performance and unique features, which are not shown. Interdisciplinary readership: The work may appeal to plant biologists and bioinformaticians, but the abstract does not clearly communicate the technical innovations in a way that would attract a broad interdisciplinary audience. Technical soundness: Not assessable from the abstract due to missing methodological details and performance metrics. Readability for nonspecialists: The abstract is concise but lacks contextual information that would help nonspecialists understand the significance and practical use of the server.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially useful resource, but the absence of quantitative performance data, novelty demonstration, and accessibility information prevents a supportive recommendation. A revised manuscript with full methodological details, validation results, and comparisons to existing tools would be required to establish the case.
+
+## Risk / unsupported claims
+- The claim that the server provides reliable TF-target predictions is unsupported, as no performance metrics are provided.
+- The claim of novelty or improvement over existing tools is unsupported, as no comparisons are described.
+- The claim that the server is user-friendly and accessible is unverifiable, as no URL or usage information is provided.
+- Any implied biological utility of the predictions is not assessable from the abstract alone.

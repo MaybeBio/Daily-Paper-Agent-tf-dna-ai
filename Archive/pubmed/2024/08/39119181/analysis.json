@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39119181",
+  "title": "A hybrid approach for predicting transcription factors.",
+  "authors": "Patiyal, Sumeet; Tiwari, Palak; Ghai, Mohit; Dhapola, Aman; Dhall, Anjali; Raghava, Gajendra P S",
+  "journal": "Frontiers in bioinformatics",
+  "published_date": "2024-08-09",
+  "window": {
+    "start": "2024-08-05",
+    "end": "2024-08-11"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用混合方法预测转录因子蛋白，但仅基于序列特征分类，未涉及TF-DNA结合位点、互作界面或三维结构建模，与课题核心关联较弱。",
+  "abstract": "Transcription factors are essential DNA-binding proteins that regulate the transcription rate of several genes and control the expression of genes inside a cell. The prediction of transcription factors with high precision is important for understanding biological processes such as cell differentiation, intracellular signaling, and cell-cycle control. In this study, we developed a hybrid method that combines alignment-based and alignment-free methods for predicting transcription factors with higher accuracy. All models have been trained, tested, and evaluated on a large dataset that contains 19,406 transcription factors and 523,560 non-transcription factor protein sequences. To avoid biases in evaluation, the datasets were divided into training and validation/independent datasets, where 80% of the data was used for training, and the remaining 20% was used for external validation. In the case of alignment-free methods, models were developed using machine learning techniques and the composition-based features of a protein. Our best alignment-free model obtained an AUC of 0.97 on an independent dataset. In the case of the alignment-based method, we used BLAST at different cut-offs to predict the transcription factors. Although the alignment-based method demonstrated excellent performance, it was unable to cover all transcription factors due to instances of no hits. To combine the strengths of both methods, we developed a hybrid method that combines alignment-free and alignment-based methods. In the hybrid method, we added the scores of the alignment-free and alignment-based methods and achieved a maximum AUC of 0.99 on the independent dataset. The method proposed in this study performs better than existing methods. We incorporated the best models in the webserver/Python Package Index/standalone package of \"TransFacPred\" (https://webs.iiitd.edu.in/raghava/transfacpred).",
+  "abstract_zh": "转录因子是必需的DNA结合蛋白，调控多个基因的转录速率并控制细胞内基因的表达。高精度预测转录因子对于理解细胞分化、细胞内信号传导和细胞周期控制等生物过程至关重要。在本研究中，我们开发了一种结合基于比对和免比对方法的混合方法，以更高精度预测转录因子。所有模型均在包含19,406个转录因子和523,560个非转录因子蛋白序列的大型数据集上进行了训练、测试和评估。为避免评估偏差，数据集被分为训练集和验证/独立数据集，其中80%的数据用于训练，剩余20%用于外部验证。在免比对方法中，模型采用机器学习技术和基于蛋白质组成特征开发。我们最佳的免比对模型在独立数据集上获得了0.97的AUC。在基于比对的方法中，我们使用不同截断值的BLAST来预测转录因子。尽管基于比对的方法表现出色，但由于存在无命中情况，无法覆盖所有转录因子。为结合两种方法的优势，我们开发了一种结合免比对和基于比对方法的混合方法。在混合方法中，我们添加了免比对和基于比对方法的分数，并在独立数据集上实现了最大AUC为0.99。本研究提出的方法优于现有方法。我们将最佳模型整合到“TransFacPred”的网页服务器/Python包索引/独立软件包中（https://webs.iiitd.edu.in/raghava/transfacpred）。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39119181/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39119181/",
+  "paper_page_path": "papers/pubmed/39119181/index.html"
+}

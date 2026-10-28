@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34189529",
+  "title": "Predicting gene regulatory networks from multi-omics to link genetic risk variants and neuroimmunology to Alzheimer's disease phenotypes.",
+  "authors": "Khullar, Saniya; Wang, Daifeng",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2021-07-01",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 5,
+  "one_liner_zh": "该文基于多组学数据构建基因调控网络，预测TF结合位点被SNP中断的机制，虽涉及TF-DNA互作但以网络推断为主，缺乏三维结构建模或AI/物理模拟方法，与课题部分相关。",
+  "abstract": "BACKGROUND: Genome-wide association studies have found many genetic risk variants associated with Alzheimer's disease (AD). However, how these risk variants affect deeper phenotypes such as disease progression and immune response remains elusive. Also, our understanding of cellular and molecular mechanisms from disease risk variants to various phenotypes is still limited. To address these problems, we performed an integrative multi-omics analysis of genotype, transcriptomics, and epigenomics for revealing gene regulatory mechanisms from disease variants to AD phenotypes. METHOD: First, given the population gene expression data of a cohort, we construct and cluster its gene co-expression network to identify gene co-expression modules for various AD phenotypes. Next, we predict transcription factors (TFs) regulating co-expressed genes and AD risk SNPs that interrupt TF binding sites on regulatory elements. Finally, we construct a gene regulatory network (GRN) linking SNPs, interrupted TFs, and regulatory elements to target genes and gene modules for each phenotype in the cohort. This network thus provides systematic insights into gene regulatory mechanisms from risk variants to AD phenotypes. RESULTS: Our analysis predicted GRNs in three major AD-relevant regions: Hippocampus, Dorsolateral Prefrontal Cortex (DLPFC), Lateral Temporal Lobe (LTL). Comparative analyses revealed cross-region-conserved and region-specific GRNs, in which many immunological genes are present. For instance, SNPs rs13404184 and rs61068452 disrupt SPI1 binding and regulation of AD gene INPP5D in the Hippocampus and LTL. However, SNP rs117863556 interrupts bindings of REST to regulate GAB2 in DLPFC only. Driven by emerging neuroinflammation in AD, we used Covid-19 as a proxy to identify possible regulatory mechanisms for neuroimmunology in AD. To this end, we looked at the GRN subnetworks relating to genes from shared AD-Covid pathways. From those subnetworks, our machine learning analysis prioritized the AD-Covid genes for predicting Covid-19 severity. Decision Curve Analysis also validated our AD-Covid genes outperform known Covid-19 genes for classifying severe Covid-19 patients. This suggests AD-Covid genes along with linked SNPs can be potential novel biomarkers for neuroimmunology in AD. Finally, our results are open-source available as a comprehensive functional genomic map for AD, providing a deeper mechanistic understanding of the interplay among multi-omics, brain regions, gene functions like neuroimmunology, and phenotypes.",
+  "abstract_zh": "背景：全基因组关联研究已发现许多与阿尔茨海默病（AD）相关的遗传风险变异。然而，这些风险变异如何影响更深层的表型，如疾病进展和免疫反应，仍不清楚。此外，我们从疾病风险变异到各种表型的细胞和分子机制的理解仍然有限。为解决这些问题，我们对基因型、转录组学和表观基因组学进行了整合多组学分析，以揭示从疾病变异到AD表型的基因调控机制。方法：首先，针对一个队列的群体基因表达数据，我们构建并聚类其基因共表达网络，以识别与各种AD表型相关的基因共表达模块。接下来，我们预测调控共表达基因的转录因子（TFs）以及中断调控元件上TF结合位点的AD风险SNPs。最后，我们构建一个基因调控网络（GRN），将SNPs、中断的TFs和调控元件连接到靶基因和该队列中每个表型的基因模块。该网络因此提供了从风险变异到AD表型的基因调控机制的系统性见解。结果：我们的分析预测了三个主要AD相关区域的GRNs：海马体、背外侧前额叶皮层（DLPFC）和外侧颞叶（LTL）。比较分析揭示了跨区域保守和区域特异性的GRNs，其中包含许多免疫相关基因。例如，SNPs rs13404184和rs61068452在海马体和LTL中破坏SPI1结合及AD基因INPP5D的调控。然而，SNP rs117863556仅在DLPFC中中断REST的结合以调控GAB2。鉴于AD中新兴的神经炎症，我们使用Covid-19作为代理，以识别AD中神经免疫的可能调控机制。为此，我们检查了与共享AD-Covid通路基因相关的GRN子网络。从这些子网络中，我们的机器学习分析优先考虑了用于预测Covid-19严重程度的AD-Covid基因。决策曲线分析也验证了我们的AD-Covid基因在分类严重Covid-19患者方面优于已知的Covid-19基因。这表明AD-Covid基因及其关联SNPs可能成为AD神经免疫的潜在新型生物标志物。最后，我们的结果作为AD的综合功能基因组图谱开源提供，为多组学、脑区域、基因功能（如神经免疫）和表型之间的相互作用提供了更深入的机制理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34189529/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34189529/",
+  "paper_page_path": "papers/pubmed/34189529/index.html"
+}

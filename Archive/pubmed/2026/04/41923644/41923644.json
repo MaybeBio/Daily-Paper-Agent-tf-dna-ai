@@ -1,0 +1,598 @@
+{
+  "identity": {
+    "pmid": "41923644",
+    "doi": "10.1016/j.cell.2026.03.009",
+    "title": "A 3D morphogenetic blueprint for metastatic outgrowth in breast cancer."
+  },
+  "content": {
+    "abstract": "The tissue-level processes underpinning metastatic outgrowth remain unclear. We combined single-cell RNA sequencing, spatial transcriptomics, and AI-supported 3D imaging in human breast cancer with functional investigations in mice to uncover a 3D morphogenetic process essential for macrometastatic expansion. Macrometastases pervasively activate a metastatic trabecular morphogenesis (MTM) gene-expression program that redeploys developmental branching morphogenesis to build macrometastases as a 3D trabecular lattice of epithelial cords. MTM(HIGH) cells pre-exist in primary tumors destined to metastasize, whereas MTM(LOW) primaries are non-metastatic and display a compact, expansile growth architecture. Chromatin immunoprecipitation sequencing (ChIP-seq) on metastatic organoids identifies ETV1/4/5 as master regulators of MTM and branching cancer morphogenesis, required for metastatic outgrowth but dispensable for primary tumor take, bulk growth, and initial metastatic dissemination. Spatial and functional analyses reveal stromal fibroblast growth factor (FGF)-->fibroblast growth factor receptor (FGFR) signaling as an actionable MTM dependency. Thus, we link metastatic outgrowth to a 3D developmental morphogenetic process, exposing therapeutic vulnerabilities specific to the lethal macrometastatic stage.",
+    "keywords": [
+      "3D branching morphogenesis",
+      "AI",
+      "ETV1/4/5",
+      "FGF signaling",
+      "breast cancer",
+      "cancer architecture",
+      "cancer epigenetics",
+      "cancer morphogenesis",
+      "digital pathology",
+      "machine learning",
+      "master gene of mestastasis",
+      "metastasis",
+      "metastatic cell state",
+      "metastatic vulnerabilities",
+      "prognostic predictors",
+      "single-cell transcriptomics",
+      "spatial transcriptomics",
+      "topological descriptors",
+      "trabecular shape",
+      "tubular morphogenesis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Female",
+      "Humans",
+      "*Breast Neoplasms/pathology/genetics/metabolism",
+      "*Morphogenesis",
+      "Mice",
+      "Transcription Factors/metabolism/genetics",
+      "Neoplasm Metastasis",
+      "DNA-Binding Proteins/metabolism/genetics",
+      "Signal Transduction",
+      "Fibroblast Growth Factors/metabolism",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Line, Tumor",
+      "Receptors, Fibroblast Growth Factor/metabolism",
+      "Imaging, Three-Dimensional",
+      "Proto-Oncogene Proteins c-ets"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Caire, Robin",
+        "Bordo, Roberta",
+        "Zanconato, Francesca",
+        "Panciera, Tito",
+        "Audoux, Estelle",
+        "Contessotto, Paolo",
+        "Fakiola, Michaela",
+        "Bason, Ramona",
+        "Romano, Oriana",
+        "Suli, Ambela",
+        "Battilana, Giusy",
+        "Marchionni, Matteo",
+        "Forcato, Mattia",
+        "Donzelli, Sara",
+        "Dieci, Maria Vittoria",
+        "Griguolo, Gaia",
+        "Carosi, Mariantonia",
+        "Fassan, Matteo",
+        "Guzzardo, Vincenza",
+        "Dei Tos, Angelo Paolo",
+        "Marsoni, Silvia",
+        "Wu, Pei-Hsun",
+        "Wirtz, Denis",
+        "He, Shanshan",
+        "Casali, Cecilia",
+        "Volpin, Francesco",
+        "Blandino, Giovanni",
+        "Tripodo, Claudio",
+        "Bicciato, Silvio",
+        "Guarneri, Valentina",
+        "Pagani, Massimiliano",
+        "Cordenonsi, Michelangelo",
+        "Piccolo, Stefano"
+      ],
+      "short_names": [
+        "Caire R",
+        "Bordo R",
+        "Zanconato F",
+        "Panciera T",
+        "Audoux E",
+        "Contessotto P",
+        "Fakiola M",
+        "Bason R",
+        "Romano O",
+        "Suli A",
+        "Battilana G",
+        "Marchionni M",
+        "Forcato M",
+        "Donzelli S",
+        "Dieci MV",
+        "Griguolo G",
+        "Carosi M",
+        "Fassan M",
+        "Guzzardo V",
+        "Dei Tos AP",
+        "Marsoni S",
+        "Wu PH",
+        "Wirtz D",
+        "He S",
+        "Casali C",
+        "Volpin F",
+        "Blandino G",
+        "Tripodo C",
+        "Bicciato S",
+        "Guarneri V",
+        "Pagani M",
+        "Cordenonsi M",
+        "Piccolo S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Molecular Medicine DMM, University of Padua, Padua, Italy.",
+        "University of Milan, Milan, Italy; IFOM ETS - the AIRC Institute of Molecular Oncology, Milan, Italy.",
+        "Department of Molecular Medicine DMM, University of Padua, Padua, Italy.",
+        "Department of Molecular Medicine DMM, University of Padua, Padua, Italy.",
+        "Department of Molecular Medicine DMM, University of Padua, Padua, Italy.",
+        "Department of Molecular Medicine DMM, University of Padua, Padua, Italy.",
+        "University of Milan, Milan, Italy; IFOM ETS - the AIRC Institute of Molecular Oncology, Milan, Italy.",
+        "University of Milan, Milan, Italy; IFOM ETS - the AIRC Institute of Molecular Oncology, Milan, Italy.",
+        "Department of Molecular Medicine DMM, University of Padua, Padua, Italy.",
+        "Department of Molecular Medicine DMM, University of Padua, Padua, Italy.",
+        "Department of Molecular Medicine DMM, University of Padua, Padua, Italy.",
+        "Department of Molecular Medicine DMM, University of Padua, Padua, Italy.",
+        "Department of Molecular Medicine DMM, University of Padua, Padua, Italy.",
+        "IRCCS Regina Elena National Cancer Institute, Rome, Italy.",
+        "Istituto Oncologico Veneto IOV IRCCS Padua - Department of Surgery, Oncology and Gastroenterology DISCOG, University of Padua, Padua, Italy.",
+        "Istituto Oncologico Veneto IOV IRCCS Padua - Department of Surgery, Oncology and Gastroenterology DISCOG, University of Padua, Padua, Italy.",
+        "IRCCS Regina Elena National Cancer Institute, Rome, Italy.",
+        "Department of Medicine DIMED, University of Padua, Padua, Italy.",
+        "Department of Medicine DIMED, University of Padua, Padua, Italy.",
+        "Department of Medicine DIMED, University of Padua, Padua, Italy.",
+        "University of Milan, Milan, Italy.",
+        "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, USA.",
+        "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, USA.",
+        "Bruker Spatial Biology, Inc., Seattle, WA, USA.",
+        "Fondazione IRCCS Istituto Neurologico \"Carlo Besta,\" Neurosurgery Department, Milan, Italy.",
+        "Neurosurgery Unit, Azienda Ospedale, Universita di Padova, 35128 Padua, Italy.",
+        "IRCCS Regina Elena National Cancer Institute, Rome, Italy.",
+        "IFOM ETS - the AIRC Institute of Molecular Oncology, Milan, Italy.",
+        "Department of Molecular Medicine DMM, University of Padua, Padua, Italy.",
+        "Istituto Oncologico Veneto IOV IRCCS Padua - Department of Surgery, Oncology and Gastroenterology DISCOG, University of Padua, Padua, Italy.",
+        "University of Milan, Milan, Italy; IFOM ETS - the AIRC Institute of Molecular Oncology, Milan, Italy. Electronic address: massimiliano.pagani@ifom.eu.",
+        "Department of Molecular Medicine DMM, University of Padua, Padua, Italy. Electronic address: michelangelo.cordenonsi@unipd.it.",
+        "Department of Molecular Medicine DMM, University of Padua, Padua, Italy; IFOM ETS - the AIRC Institute of Molecular Oncology, Milan, Italy. Electronic address: stefano.piccolo@unipd.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Caire, Robin",
+        "short_name": "Caire R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine DMM, University of Padua, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Bordo, Roberta",
+        "short_name": "Bordo R",
+        "identifiers": [],
+        "affiliations": [
+          "University of Milan, Milan, Italy; IFOM ETS - the AIRC Institute of Molecular Oncology, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Zanconato, Francesca",
+        "short_name": "Zanconato F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine DMM, University of Padua, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Panciera, Tito",
+        "short_name": "Panciera T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine DMM, University of Padua, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Audoux, Estelle",
+        "short_name": "Audoux E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine DMM, University of Padua, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Contessotto, Paolo",
+        "short_name": "Contessotto P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine DMM, University of Padua, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Fakiola, Michaela",
+        "short_name": "Fakiola M",
+        "identifiers": [],
+        "affiliations": [
+          "University of Milan, Milan, Italy; IFOM ETS - the AIRC Institute of Molecular Oncology, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Bason, Ramona",
+        "short_name": "Bason R",
+        "identifiers": [],
+        "affiliations": [
+          "University of Milan, Milan, Italy; IFOM ETS - the AIRC Institute of Molecular Oncology, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Romano, Oriana",
+        "short_name": "Romano O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine DMM, University of Padua, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Suli, Ambela",
+        "short_name": "Suli A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine DMM, University of Padua, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Battilana, Giusy",
+        "short_name": "Battilana G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine DMM, University of Padua, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Marchionni, Matteo",
+        "short_name": "Marchionni M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine DMM, University of Padua, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Forcato, Mattia",
+        "short_name": "Forcato M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine DMM, University of Padua, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Donzelli, Sara",
+        "short_name": "Donzelli S",
+        "identifiers": [],
+        "affiliations": [
+          "IRCCS Regina Elena National Cancer Institute, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Dieci, Maria Vittoria",
+        "short_name": "Dieci MV",
+        "identifiers": [],
+        "affiliations": [
+          "Istituto Oncologico Veneto IOV IRCCS Padua - Department of Surgery, Oncology and Gastroenterology DISCOG, University of Padua, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Griguolo, Gaia",
+        "short_name": "Griguolo G",
+        "identifiers": [],
+        "affiliations": [
+          "Istituto Oncologico Veneto IOV IRCCS Padua - Department of Surgery, Oncology and Gastroenterology DISCOG, University of Padua, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Carosi, Mariantonia",
+        "short_name": "Carosi M",
+        "identifiers": [],
+        "affiliations": [
+          "IRCCS Regina Elena National Cancer Institute, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Fassan, Matteo",
+        "short_name": "Fassan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine DIMED, University of Padua, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Guzzardo, Vincenza",
+        "short_name": "Guzzardo V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine DIMED, University of Padua, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Dei Tos, Angelo Paolo",
+        "short_name": "Dei Tos AP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine DIMED, University of Padua, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Marsoni, Silvia",
+        "short_name": "Marsoni S",
+        "identifiers": [],
+        "affiliations": [
+          "University of Milan, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Wu, Pei-Hsun",
+        "short_name": "Wu PH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Wirtz, Denis",
+        "short_name": "Wirtz D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "He, Shanshan",
+        "short_name": "He S",
+        "identifiers": [],
+        "affiliations": [
+          "Bruker Spatial Biology, Inc., Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Casali, Cecilia",
+        "short_name": "Casali C",
+        "identifiers": [],
+        "affiliations": [
+          "Fondazione IRCCS Istituto Neurologico \"Carlo Besta,\" Neurosurgery Department, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Volpin, Francesco",
+        "short_name": "Volpin F",
+        "identifiers": [],
+        "affiliations": [
+          "Neurosurgery Unit, Azienda Ospedale, Università di Padova, 35128 Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Blandino, Giovanni",
+        "short_name": "Blandino G",
+        "identifiers": [],
+        "affiliations": [
+          "IRCCS Regina Elena National Cancer Institute, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Tripodo, Claudio",
+        "short_name": "Tripodo C",
+        "identifiers": [],
+        "affiliations": [
+          "IFOM ETS - the AIRC Institute of Molecular Oncology, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Bicciato, Silvio",
+        "short_name": "Bicciato S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine DMM, University of Padua, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Guarneri, Valentina",
+        "short_name": "Guarneri V",
+        "identifiers": [],
+        "affiliations": [
+          "Istituto Oncologico Veneto IOV IRCCS Padua - Department of Surgery, Oncology and Gastroenterology DISCOG, University of Padua, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Pagani, Massimiliano",
+        "short_name": "Pagani M",
+        "identifiers": [],
+        "affiliations": [
+          "University of Milan, Milan, Italy; IFOM ETS - the AIRC Institute of Molecular Oncology, Milan, Italy. Electronic address: massimiliano.pagani@ifom.eu."
+        ]
+      },
+      {
+        "full_name": "Cordenonsi, Michelangelo",
+        "short_name": "Cordenonsi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine DMM, University of Padua, Padua, Italy. Electronic address: michelangelo.cordenonsi@unipd.it."
+        ]
+      },
+      {
+        "full_name": "Piccolo, Stefano",
+        "short_name": "Piccolo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine DMM, University of Padua, Padua, Italy; IFOM ETS - the AIRC Institute of Molecular Oncology, Milan, Italy. Electronic address: stefano.piccolo@unipd.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell"
+    ],
+    "journal_abbrev": [
+      "Cell"
+    ],
+    "pub_date": "2026 Jun 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/02 06:30",
+    "fetched_at": "2026-10-01 17:33:08"
+  },
+  "links": {
+    "cites": [
+      "42373805"
+    ],
+    "refs": [],
+    "similar": [
+      "41923644",
+      "27371729",
+      "24618085",
+      "34809697",
+      "32143622",
+      "41223092",
+      "22170610",
+      "16326394",
+      "15210113",
+      "22710711",
+      "21057539",
+      "8738610",
+      "23343422",
+      "29237381",
+      "15788656",
+      "22151997",
+      "28751448",
+      "23241956",
+      "20460524",
+      "17394208",
+      "21679465",
+      "33983905",
+      "25622905",
+      "21613543",
+      "12421715",
+      "22761819",
+      "11891984",
+      "26208975",
+      "15716343",
+      "32043969",
+      "18726892",
+      "15042696",
+      "8481921",
+      "11358849",
+      "11731698",
+      "14570584",
+      "24398778",
+      "22261751",
+      "16963837",
+      "24423492",
+      "23185502",
+      "16533771",
+      "23658459",
+      "21664418",
+      "39374163",
+      "21465172",
+      "24495796",
+      "36923538",
+      "34344433",
+      "23212921",
+      "20927104",
+      "21541295",
+      "28411283",
+      "26920025",
+      "27318148",
+      "30357827",
+      "28445992",
+      "31856843",
+      "23468877",
+      "12841847",
+      "32422143",
+      "15848387",
+      "23734265",
+      "11056689",
+      "41609084",
+      "39267538",
+      "23483055",
+      "31464639",
+      "19582787",
+      "33500360",
+      "41369841",
+      "28408625",
+      "38689334",
+      "15389879",
+      "23814079",
+      "38357935",
+      "23028720",
+      "10862743",
+      "26070602",
+      "22465097",
+      "28870991",
+      "12175489",
+      "12713734",
+      "28968431",
+      "31461652",
+      "23284647",
+      "23441166",
+      "10910771",
+      "26215677",
+      "21392388",
+      "22086908",
+      "22851698",
+      "15561780",
+      "24703882",
+      "25379017",
+      "11393785",
+      "11259272",
+      "19386269",
+      "26041563",
+      "32028981"
+    ],
+    "review": [
+      "41923644",
+      "14570584"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://air.unimi.it/handle/2434/1238759",
+        "provider": "Archivio Istituzionale della Ricerca Unimi - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from AIR - Univ. Milan"
+      },
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(26)00276-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/41923644",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://hdl.handle.net/11577/3590378",
+        "provider": "Padua Research Archive - University of Padua - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

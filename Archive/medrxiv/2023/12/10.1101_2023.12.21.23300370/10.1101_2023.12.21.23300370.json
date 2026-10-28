@@ -1,0 +1,273 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2023.12.21.23300370",
+  "title": "Using computational approaches to enhance the interpretation of missense variants in the PAX6 gene",
+  "doi": "10.1101/2023.12.21.23300370",
+  "abstract": "<h4>ABSTRACT</h4> <h4>Purpose</h4> The PAX6 gene encodes a highly-conserved transcription factor involved in eye development. Heterozygous loss-of-function variants in PAX6 can cause a range of ophthalmic disorders including aniridia. A key molecular diagnostic challenge is that many PAX6 missense changes are presently classified as variants of uncertain significance. While computational tools can be used to assess the effect of genetic alterations, the accuracy of their predictions varies. Here, we evaluated and optimised the performance of computational prediction tools in relation to PAX6 missense variants. <h4>Methods</h4> Through inspection of publicly available resources (including HGMD, ClinVar, LOVD and gnomAD), we identified 241 PAX6 missense variants that were used for model training and evaluation. The performance of ten commonly-used computational tools was assessed and a threshold optimization approach was utilized to determine optimal cut-off values. Validation studies were subsequently undertaken using PAX6 variants from a local database. <h4>Results</h4> AlphaMissense, SIFT4G and REVEL emerged as the best-performing predictors; the optimized thresholds of these tools were 0.967, 0.025, and 0.772, respectively. Combining the prediction from these top-three tools resulted in lower performance compared to using AlphaMissense alone. <h4>Conclusion</h4> Tailoring the use of computational tools by employing optimized thresholds specific to PAX6 can enhance algorithmic performance. Our findings have implications for PAX6 variant interpretation in clinical settings.",
+  "authors": [
+    "Andhika NS",
+    "Biswas S",
+    "Hardcastle C",
+    "Green D",
+    "Ramsden SC",
+    "Birney E",
+    "Black GC",
+    "Sergouniotis PI"
+  ],
+  "published_date": "2023-12-26",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2023.12.21.23300370",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2023.12.21.23300370.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR778781",
+    "raw_record": {
+      "id": "PPR778781",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR778781"
+        ]
+      },
+      "doi": "10.1101/2023.12.21.23300370",
+      "title": "Using computational approaches to enhance the interpretation of missense variants in the<i>PAX6</i>gene",
+      "authorString": "Andhika NS, Biswas S, Hardcastle C, Green D, Ramsden SC, Birney E, Black GC, Sergouniotis PI.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Andhika NS",
+            "lastName": "Andhika",
+            "firstName": "Nadya",
+            "initials": "NS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Evolution, Infection and Genomics, School of Biological Sciences, Faculty of Biology, Medicine and Health, University of Manchester, Manchester, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Biswas S",
+            "lastName": "Biswas",
+            "firstName": "Susmito",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Evolution, Infection and Genomics, School of Biological Sciences, Faculty of Biology, Medicine and Health, University of Manchester, Manchester, UK"
+                },
+                {
+                  "affiliation": "Manchester Royal Eye Hospital, Manchester University NHS Foundation Trust, Manchester, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hardcastle C",
+            "lastName": "Hardcastle",
+            "firstName": "Claire",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Manchester Centre for Genomic Medicine, Saint Mary’s Hospital, Manchester University NHS Foundation Trust, Manchester, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Green D",
+            "lastName": "Green",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Evolution, Infection and Genomics, School of Biological Sciences, Faculty of Biology, Medicine and Health, University of Manchester, Manchester, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ramsden SC",
+            "lastName": "Ramsden",
+            "firstName": "Simon",
+            "initials": "SC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Manchester Centre for Genomic Medicine, Saint Mary’s Hospital, Manchester University NHS Foundation Trust, Manchester, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Birney E",
+            "lastName": "Birney",
+            "firstName": "Ewan",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8314-8497"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Cambridge, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Black GC",
+            "lastName": "Black",
+            "firstName": "Graeme",
+            "initials": "GC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Evolution, Infection and Genomics, School of Biological Sciences, Faculty of Biology, Medicine and Health, University of Manchester, Manchester, UK"
+                },
+                {
+                  "affiliation": "Manchester Centre for Genomic Medicine, Saint Mary’s Hospital, Manchester University NHS Foundation Trust, Manchester, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sergouniotis PI",
+            "lastName": "Sergouniotis",
+            "firstName": "Panagiotis",
+            "initials": "PI",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Evolution, Infection and Genomics, School of Biological Sciences, Faculty of Biology, Medicine and Health, University of Manchester, Manchester, UK"
+                },
+                {
+                  "affiliation": "Manchester Royal Eye Hospital, Manchester University NHS Foundation Trust, Manchester, UK"
+                },
+                {
+                  "affiliation": "Manchester Centre for Genomic Medicine, Saint Mary’s Hospital, Manchester University NHS Foundation Trust, Manchester, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8314-8497"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4> <h4>Purpose</h4> The PAX6 gene encodes a highly-conserved transcription factor involved in eye development. Heterozygous loss-of-function variants in PAX6 can cause a range of ophthalmic disorders including aniridia. A key molecular diagnostic challenge is that many PAX6 missense changes are presently classified as variants of uncertain significance. While computational tools can be used to assess the effect of genetic alterations, the accuracy of their predictions varies. Here, we evaluated and optimised the performance of computational prediction tools in relation to PAX6 missense variants. <h4>Methods</h4> Through inspection of publicly available resources (including HGMD, ClinVar, LOVD and gnomAD), we identified 241 PAX6 missense variants that were used for model training and evaluation. The performance of ten commonly-used computational tools was assessed and a threshold optimization approach was utilized to determine optimal cut-off values. Validation studies were subsequently undertaken using PAX6 variants from a local database. <h4>Results</h4> AlphaMissense, SIFT4G and REVEL emerged as the best-performing predictors; the optimized thresholds of these tools were 0.967, 0.025, and 0.772, respectively. Combining the prediction from these top-three tools resulted in lower performance compared to using AlphaMissense alone. <h4>Conclusion</h4> Tailoring the use of computational tools by employing optimized thresholds specific to PAX6 can enhance algorithmic performance. Our findings have implications for PAX6 variant interpretation in clinical settings.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "224643/Z/21/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "200990/Z/16/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institute for Health Research (NIHR)",
+            "grantId": "NIHR203308",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2023/12/26/2023.12.21.23300370.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.12.21.23300370"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR778781"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR778781&type=FILE&fileName=EMS193049-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS193049",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "ensembl",
+          "omim"
+        ]
+      },
+      "dateOfCreation": "2023-12-27",
+      "firstPublicationDate": "2023-12-26",
+      "firstIndexDate": "2023-12-27",
+      "fullTextReceivedDate": "2024-01-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

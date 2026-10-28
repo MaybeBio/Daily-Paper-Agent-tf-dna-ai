@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that the R882H DNMT3A mutation, frequently found in AML, exerts a dominant effect on flanking sequence preferences and catalytic properties in heterozygous contexts. This dominance is attributed to preferential assembly of mixed WT/R882H heterotetramers with an R882H/R882H RD interface, which is more stable than the WT interface. The authors support this with methylation assays, structural comparisons, and molecular dynamics simulations.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, detailed methods, statistical reporting, and any validation of the MD simulations or structural comparisons
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically interesting and potentially clinically relevant hypothesis regarding the dominant behavior of the R882H DNMT3A mutation in heterozygous AML contexts. The central claim, that preferential self-interaction of R882H subunits leads to dominant flanking sequence preferences, is plausible and well-motivated. However, the evidence base provided is insufficient to evaluate the rigor of the experimental and computational support. The abstract reports quantitative differences in methylation rates and interface stability but does not provide effect sizes, confidence intervals, or statistical tests. The claim of "preferential assembly" is central but is not supported by direct quantitative evidence in the abstract. The structural and MD simulation conclusions are stated without methodological detail or validation metrics. Overall, the hypothesis is compelling, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in epigenetics, DNA methylation, cancer biology, and specifically those studying DNMT3A mutations in acute myeloid leukemia. The work also has relevance for those interested in protein-protein interaction interfaces and their role in enzyme assembly and substrate specificity. The dominant effect mechanism could inform therapeutic strategies targeting mutant DNMT3A.
+- **Major strengths** The hypothesis is mechanistically coherent and addresses a clinically important question. The combination of biochemical methylation assays, structural analysis, and MD simulations is a strong multi-pronged approach. The focus on heterotetrameric assembly is a novel angle that could explain the heterozygous pathogenic effect.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "mixed complexes preferentially assemble with an R882H/R882H RD interface"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that mixed heterotetramers preferentially assemble with an R882H/R882H RD interface, but no quantitative data are provided to support this claim. No stoichiometry measurements, binding affinities, or assembly kinetics are described.
+  - **Why it matters** This is the central mechanistic claim that underpins the dominant effect. Without direct evidence of preferential assembly, the entire model is unsupported.
+  - **Resolution test** Provide quantitative data on the distribution of heterotetramer species (e.g., WT/WT, WT/R882H, R882H/R882H) under relevant conditions, with statistical comparison to a random assembly model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** "most disfavored sites are methylated 4-5 fold slower by R882H than WT, while it methylates most preferred sites 2-fold faster"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports fold differences in methylation rates but does not provide any measure of variability, sample size, or statistical significance. It is unclear whether these differences are robust across replicates or biological contexts.
+  - **Why it matters** The quantitative claims are central to the argument that R882H has a dominant and distinct effect. Without statistical support, these differences could be within noise.
+  - **Resolution test** Provide confidence intervals, p-values, or effect sizes for the reported fold differences, and specify the number of independent replicates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational validation
+  - **Claim pointer** "Structural comparisons and MD simulations confirmed the conclusion that the R882H RD interface is more stable than that of WT"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The MD simulation results are stated as confirmatory, but no details are given on simulation length, force field, convergence criteria, or free energy calculations. The structural comparison is not described.
+  - **Why it matters** The stability claim is a key mechanistic pillar. Without proper validation, the conclusion that H882 forms a stabilizing inter-subunit contact is not established.
+  - **Resolution test** Provide simulation parameters, convergence checks, and quantitative stability metrics (e.g., free energy differences, RMSD trajectories) with appropriate error analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "CGNNNN sites"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "CGNNNN sites" is used without defining the variable positions or the context of the flanking sequence analysis.
+  - **Required correction** Define the sequence context and the range of flanking positions considered.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting completeness
+  - **Affected element** Percentage claims
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement "R882H was more active than WT at 13% and less active at 52% of all CGNNNN sites" implies the remaining 35% are unchanged, but this is not stated explicitly.
+  - **Required correction** Clarify the status of the remaining sites or state that they showed no significant difference.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Dominant effect"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "dominant" is used in a genetic sense, but the abstract does not define what constitutes dominance in this biochemical context.
+  - **Required correction** Define the operational criteria for dominance, e.g., the proportion of R882H-like behavior in mixed complexes.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The concept of preferential self-interaction driving dominant effects in heterozygous DNMT3A is novel and not widely explored. Scientific importance: The work addresses a clinically relevant mutation in AML and could have therapeutic implications. Interdisciplinary readership: The topic bridges cancer biology, epigenetics, and biophysics, which would appeal to a broad audience. Technical soundness: Not assessable from the abstract; the lack of statistical and methodological detail prevents evaluation. Readability for nonspecialists: The abstract is reasonably clear but uses specialized terms without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is promising, but the abstract alone does not provide sufficient quantitative and methodological support to validate the central claims. A full manuscript with detailed methods, statistics, and validation would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim of preferential assembly of R882H/R882H RD interfaces is unsupported by direct quantitative evidence in the abstract.
+- The reported fold differences in methylation rates lack statistical context and are not verifiable.
+- The MD simulation and structural comparison conclusions are stated without methodological detail or validation metrics.
+- The functional significance of the dominant effect in heterozygous state is inferred but not directly demonstrated in the abstract.

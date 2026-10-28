@@ -1,0 +1,509 @@
+{
+  "identity": {
+    "pmid": "41746282",
+    "doi": "10.1093/bioinformatics/btag089",
+    "title": "Differential cell signaling testing for cell-cell communication inference from single-cell data by dominoSignal."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Algorithms for ligand-receptor network inference have emerged as commonly used tools to estimate cell-cell communication from reference single-cell data. Many studies employ these algorithms to compare signaling between conditions and lack methods to statistically identify signals that are significantly different. We previously developed the cell communication inference algorithm Domino, which considers ligand and receptor gene expression in association with downstream transcription factor activity scoring. We developed the dominoSignal software to innovate upon Domino and extend its functionality to test statistically differential cellular signaling. RESULTS: This new functionality includes the compilation of active signals as linkages from multiple subjects in a single-cell data set and testing condition-dependent signaling linkage. The software is applicable for analysis of single-cell data sets with multiple subjects as biological replicates as well as with bootstrapped replicates from data sets with few or pooled subjects. We use simulation studies to benchmark the number of subjects in compared groups and cells within an annotated cell type sufficient to accurately identify differential linkages. We demonstrate the application of the Differential Cell Signaling Test (DCST) in the dominoSignal software to investigate consequences of cancer cell phenotypes and immunotherapy on cell-cell communication in tumor microenvironments. These applications in cancer studies demonstrate the ability of differential cell signaling analysis to infer changes to cell communication networks from therapeutic or experimental perturbations, which is broadly applicable across biological systems. AVAILABILITY: dominoSignal is available through Bioconductor at https://www.bioconductor.org/packages/release/bioc/html/dominoSignal.html.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Cell Communication",
+      "*Signal Transduction",
+      "*Software",
+      "Algorithms",
+      "*Single-Cell Analysis/methods",
+      "Humans",
+      "*Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mitchell, Jacob T",
+        "Stapleton, Orian",
+        "Krishnan, Kavita",
+        "Nagaraj, Sushma",
+        "Lvovs, Dmitrijs",
+        "Cherry, Christopher",
+        "Poissonnier, Amanda",
+        "Horton, Wesley",
+        "Adey, Andrew",
+        "Rao, Varun",
+        "Huff, Amanda",
+        "Zimmerman, Jacquelyn W",
+        "Kagohara, Luciane T",
+        "Zaidi, Neeha",
+        "Coussens, Lisa M",
+        "Jaffee, Elizabeth M",
+        "Elisseeff, Jennifer H",
+        "Fertig, Elana J"
+      ],
+      "short_names": [
+        "Mitchell JT",
+        "Stapleton O",
+        "Krishnan K",
+        "Nagaraj S",
+        "Lvovs D",
+        "Cherry C",
+        "Poissonnier A",
+        "Horton W",
+        "Adey A",
+        "Rao V",
+        "Huff A",
+        "Zimmerman JW",
+        "Kagohara LT",
+        "Zaidi N",
+        "Coussens LM",
+        "Jaffee EM",
+        "Elisseeff JH",
+        "Fertig EJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5370-9692"
+      ],
+      "affiliations": [
+        "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Quantitative Sciences Division, Department of Oncology, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Department of Genetic Medicine, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Quantitative Sciences Division, Department of Oncology, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD 21218, United States.",
+        "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD 21218, United States.",
+        "Translational Tissue Engineering Center, Johns Hopkins University, Baltimore, MD 21231, United States.",
+        "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD 21201, United States.",
+        "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Quantitative Sciences Division, Department of Oncology, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD 21201, United States.",
+        "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD 21201, United States.",
+        "Department of Medicine, University of Maryland School of Medicine, Baltimore, MD 21201, United States.",
+        "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD 21218, United States.",
+        "Translational Tissue Engineering Center, Johns Hopkins University, Baltimore, MD 21231, United States.",
+        "Department of Cell, Developmental & Cancer Biology, Oregon Health & Science University, Portland, OR 97239, United States.",
+        "Department of Cell, Developmental & Cancer Biology, Oregon Health & Science University, Portland, OR 97239, United States.",
+        "Department of Molecular & Medical Genetics, Oregon Health & Science University, Portland, OR 97239, United States.",
+        "Knight Cancer Institute, Oregon Health & Science University, Portland, OR 97239, United States.",
+        "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD 21201, United States.",
+        "Department of Medicine, University of Maryland School of Medicine, Baltimore, MD 21201, United States.",
+        "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Department of Cell, Developmental & Cancer Biology, Oregon Health & Science University, Portland, OR 97239, United States.",
+        "Knight Cancer Institute, Oregon Health & Science University, Portland, OR 97239, United States.",
+        "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD 21218, United States.",
+        "Translational Tissue Engineering Center, Johns Hopkins University, Baltimore, MD 21231, United States.",
+        "Department of Chemical and Biomedical Engineering, Johns Hopkins University, Baltimore, MD 21218, United States.",
+        "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Quantitative Sciences Division, Department of Oncology, Johns Hopkins University, Baltimore, MD 21205, United States.",
+        "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD 21218, United States.",
+        "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD 21201, United States.",
+        "Department of Medicine, University of Maryland School of Medicine, Baltimore, MD 21201, United States.",
+        "Department of Applied Mathematics & Statistics, Whiting School of Engineering, Johns Hopkins University, Baltimore, MD 21218, United States.",
+        "Greenebaum Comprehensive Cancer Center, University of Maryland School of Medicine, Baltimore, MD 21201, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mitchell, Jacob T",
+        "short_name": "Mitchell JT",
+        "identifiers": [
+          "0000-0002-5370-9692"
+        ],
+        "affiliations": [
+          "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Quantitative Sciences Division, Department of Oncology, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Department of Genetic Medicine, Johns Hopkins University, Baltimore, MD 21205, United States."
+        ]
+      },
+      {
+        "full_name": "Stapleton, Orian",
+        "short_name": "Stapleton O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Quantitative Sciences Division, Department of Oncology, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD 21218, United States."
+        ]
+      },
+      {
+        "full_name": "Krishnan, Kavita",
+        "short_name": "Krishnan K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD 21218, United States.",
+          "Translational Tissue Engineering Center, Johns Hopkins University, Baltimore, MD 21231, United States.",
+          "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD 21201, United States."
+        ]
+      },
+      {
+        "full_name": "Nagaraj, Sushma",
+        "short_name": "Nagaraj S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Quantitative Sciences Division, Department of Oncology, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD 21201, United States."
+        ]
+      },
+      {
+        "full_name": "Lvovs, Dmitrijs",
+        "short_name": "Lvovs D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD 21201, United States.",
+          "Department of Medicine, University of Maryland School of Medicine, Baltimore, MD 21201, United States."
+        ]
+      },
+      {
+        "full_name": "Cherry, Christopher",
+        "short_name": "Cherry C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD 21218, United States.",
+          "Translational Tissue Engineering Center, Johns Hopkins University, Baltimore, MD 21231, United States."
+        ]
+      },
+      {
+        "full_name": "Poissonnier, Amanda",
+        "short_name": "Poissonnier A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell, Developmental & Cancer Biology, Oregon Health & Science University, Portland, OR 97239, United States."
+        ]
+      },
+      {
+        "full_name": "Horton, Wesley",
+        "short_name": "Horton W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell, Developmental & Cancer Biology, Oregon Health & Science University, Portland, OR 97239, United States."
+        ]
+      },
+      {
+        "full_name": "Adey, Andrew",
+        "short_name": "Adey A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular & Medical Genetics, Oregon Health & Science University, Portland, OR 97239, United States.",
+          "Knight Cancer Institute, Oregon Health & Science University, Portland, OR 97239, United States."
+        ]
+      },
+      {
+        "full_name": "Rao, Varun",
+        "short_name": "Rao V",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD 21201, United States.",
+          "Department of Medicine, University of Maryland School of Medicine, Baltimore, MD 21201, United States."
+        ]
+      },
+      {
+        "full_name": "Huff, Amanda",
+        "short_name": "Huff A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, MD 21205, United States."
+        ]
+      },
+      {
+        "full_name": "Zimmerman, Jacquelyn W",
+        "short_name": "Zimmerman JW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, MD 21205, United States."
+        ]
+      },
+      {
+        "full_name": "Kagohara, Luciane T",
+        "short_name": "Kagohara LT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, MD 21205, United States."
+        ]
+      },
+      {
+        "full_name": "Zaidi, Neeha",
+        "short_name": "Zaidi N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, MD 21205, United States."
+        ]
+      },
+      {
+        "full_name": "Coussens, Lisa M",
+        "short_name": "Coussens LM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell, Developmental & Cancer Biology, Oregon Health & Science University, Portland, OR 97239, United States.",
+          "Knight Cancer Institute, Oregon Health & Science University, Portland, OR 97239, United States."
+        ]
+      },
+      {
+        "full_name": "Jaffee, Elizabeth M",
+        "short_name": "Jaffee EM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, MD 21205, United States."
+        ]
+      },
+      {
+        "full_name": "Elisseeff, Jennifer H",
+        "short_name": "Elisseeff JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD 21218, United States.",
+          "Translational Tissue Engineering Center, Johns Hopkins University, Baltimore, MD 21231, United States.",
+          "Department of Chemical and Biomedical Engineering, Johns Hopkins University, Baltimore, MD 21218, United States."
+        ]
+      },
+      {
+        "full_name": "Fertig, Elana J",
+        "short_name": "Fertig EJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Quantitative Sciences Division, Department of Oncology, Johns Hopkins University, Baltimore, MD 21205, United States.",
+          "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD 21218, United States.",
+          "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD 21201, United States.",
+          "Department of Medicine, University of Maryland School of Medicine, Baltimore, MD 21201, United States.",
+          "Department of Applied Mathematics & Statistics, Whiting School of Engineering, Johns Hopkins University, Baltimore, MD 21218, United States.",
+          "Greenebaum Comprehensive Cancer Center, University of Maryland School of Medicine, Baltimore, MD 21201, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2026 Feb 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/26 13:41",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [
+      "41997939"
+    ],
+    "refs": [
+      "40569674",
+      "39811671",
+      "39116880",
+      "38702503",
+      "38587552",
+      "38063199",
+      "37919434",
+      "37827697",
+      "37612508",
+      "37443338",
+      "37169965",
+      "35138869",
+      "35043939",
+      "34341534",
+      "34296197",
+      "34049975",
+      "33853780",
+      "33597522",
+      "33341869",
+      "33168968",
+      "33157050",
+      "33147626",
+      "32561888",
+      "32103204",
+      "31871321",
+      "31819264",
+      "31792435",
+      "31273297",
+      "31000591",
+      "30923815",
+      "30333318",
+      "29494575",
+      "29118008",
+      "28803728",
+      "27192564",
+      "26653891",
+      "26343385",
+      "25867923",
+      "25704820",
+      "17629517",
+      "11412299",
+      "9930702"
+    ],
+    "similar": [
+      "41746282",
+      "40654902",
+      "31653243",
+      "33597522",
+      "40585304",
+      "41451540",
+      "37827697",
+      "38678387",
+      "42596574",
+      "32600408",
+      "40658464",
+      "40877935",
+      "38627250",
+      "19381531",
+      "41159728",
+      "35043939",
+      "40095604",
+      "40444783",
+      "40429912",
+      "42323351",
+      "40536815",
+      "34460810",
+      "38631346",
+      "35191953",
+      "41786602",
+      "41555479",
+      "41436831",
+      "39289562",
+      "40522999",
+      "22199386",
+      "40508102",
+      "37026478",
+      "22847932",
+      "40247122",
+      "29914350",
+      "41437636",
+      "39223377",
+      "38602871",
+      "41288963",
+      "39898810",
+      "33749993",
+      "38747737",
+      "28011782",
+      "41533563",
+      "33970215",
+      "39799512",
+      "19112081",
+      "38789920",
+      "39276328",
+      "40149878",
+      "38706319",
+      "42149830",
+      "33137091",
+      "40246224",
+      "35017628",
+      "39311699",
+      "21075742",
+      "40098239",
+      "41896196",
+      "40229677",
+      "42209442",
+      "40038548",
+      "41231930",
+      "23374109",
+      "40650986",
+      "25294919",
+      "38539041",
+      "34034647",
+      "39985442",
+      "39387266",
+      "21232126",
+      "34331449",
+      "29415263",
+      "30096152",
+      "38950178",
+      "26481321",
+      "40209077",
+      "38940134",
+      "39800874",
+      "27998275",
+      "29194470",
+      "16954144",
+      "34927666",
+      "40341143",
+      "39607981",
+      "28957658",
+      "41092369",
+      "22595207",
+      "38678389",
+      "40674581",
+      "27694195",
+      "30355288",
+      "42378449",
+      "42667051",
+      "31046666",
+      "26374744",
+      "35822343",
+      "42084898",
+      "22531049",
+      "38858414"
+    ],
+    "review": [
+      "41746282",
+      "19381531",
+      "40536815",
+      "35191953"
+    ],
+    "pmc": [
+      "12998610"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41746282/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btag089",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion) as provided
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to evidence presented, and clarity of the reported findings
+- **Shared manuscript claim summary** The authors present TraRe, a Bayesian machine learning method for inferring transcriptional network rewiring between phenotypes, and apply it to RNA-seq data from 46 metastatic castration-resistant prostate cancer (mCRPC) patients to identify transcriptional disruptions associated with abiraterone resistance. They report identification of ELK3, MXD1, and MYB as key transcription factors whose regulons are disrupted in nonresponders, with experimental validation in two prostate cancer cell lines.
+- **Visible evidence base** Full text including methods, results, figure descriptions, table references, and supplementary figure/table references
+- **Missing materials affecting confidence** Actual figures, tables, and supplementary files were not provided; only textual descriptions of these elements are available. This limits verification of statistical results, effect sizes, and experimental data.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially useful computational tool for differential network analysis and applies it to a clinically relevant question in prostate cancer. The methodological framework is well described and the authors make a reasonable effort to validate their findings experimentally. However, several concerns arise regarding the statistical rigor of the rewiring test, the interpretation of the experimental validation, and the strength of the claims made relative to the evidence presented. The manuscript would benefit from additional clarity on certain methodological choices and from a more cautious framing of some conclusions.
+- **Who would be interested in the results, and why** Researchers in computational biology and systems biology interested in gene regulatory network inference and differential network analysis would find the TraRe method relevant. Additionally, investigators studying drug resistance mechanisms in prostate cancer, particularly those focused on transcriptional regulation and transcription factor biology, would be interested in the identified TFs (ELK3, MYD1, MYB) and their potential roles in abiraterone resistance. The work may also appeal to those developing tools for precision oncology.
+- **Major strengths** The manuscript addresses an important clinical problem (drug resistance in mCRPC) with a novel computational approach that operates at multiple levels (networks, regulons, individual TFs). The method is made available as an R package, which is commendable for reproducibility. The authors benchmark their approach against alternative methods and provide experimental validation of their predictions, which strengthens the translational relevance. The identification of TFs that are not differentially expressed but show disrupted regulon activity is a conceptually interesting finding that highlights the value of network-based approaches over simple differential expression analysis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** The rewiring test identifies transcriptional modules with significant differences in TF-target associations between responders and nonresponders, with a module considered rewired if at least 40% of its submodules show significant rewiring.
+  - **Evidence pointer** Materials and Methods, "Phenotype-associated transcriptional rewiring"; Results, "Study and method overview"
+  - **Concern** The choice of a 40% threshold for considering a module as rewired appears arbitrary and is not justified. The manuscript does not report how sensitive the results are to this threshold, nor does it provide a statistical basis for this cutoff. Additionally, the permutation test for the rewiring score is described but the number of permutations, the handling of multiple testing across the many submodules and modules, and the false discovery rate control are not specified. Without this information, the statistical significance of the identified rewired modules cannot be properly evaluated.
+  - **Why it matters** The core claim of the paper, that specific transcriptional modules are disrupted between responders and nonresponders, rests on the statistical validity of the rewiring test. If the threshold is arbitrary or the multiple testing correction is inadequate, the identified modules may be false positives, undermining the subsequent TF identification and experimental validation.
+  - **Resolution test** The authors should provide a sensitivity analysis for the 40% threshold, report the number of permutations used, describe the multiple testing correction method applied across submodules and modules, and provide effect sizes or confidence intervals for the rewiring scores of the key modules.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** Knockdown of ELK3, MXD1, and MYB negatively affected proliferation in parental cell lines but had minimal or no impact on abiraterone-resistant cells, and ELK3 knockdown inhibited migration in parental but not resistant cells.
+  - **Evidence pointer** Results, "The role of ELK3, MYD1, and MYB in abiraterone response"; Figure 5
+  - **Concern** The experimental validation is described only in qualitative terms. No quantitative data are provided in the text regarding the magnitude of proliferation changes, statistical significance of the differences between parental and resistant cells, or the number of independent experiments. The figure is not available for inspection. Without these details, the claim that the effects are specific to parental cells cannot be adequately assessed. Additionally, the manuscript does not clarify whether the observed effects on proliferation are due to on-target effects of the knockdown or potential off-target effects.
+  - **Why it matters** The experimental validation is a key component of the paper's translational claims. If the effects are small, not statistically robust, or not reproducible, the conclusion that these TFs are functionally relevant in abiraterone resistance would be weakened.
+  - **Resolution test** The authors should provide quantitative data for the proliferation and migration assays, including mean values, standard deviations or errors, statistical tests used, and p-values. They should also report the number of biological replicates and confirm knockdown efficiency for each TF in each cell line.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological justification
+  - **Claim pointer** TraRe's underlying statistical model outperforms alternative models for transcriptional network inference, as shown by benchmarking scenarios with simulated data.
+  - **Evidence pointer** Materials and Methods, "TraRe: uncovering transcriptional rewiring across phenotypes from RNA sequencing data"; Results, "TraRe performance on simulated data benchmarks"
+  - **Concern** The benchmarking results are described only in summary form. The manuscript states that VBSR outperformed LASSO and LM, but does not provide the actual performance metrics, the specific simulation scenarios tested, or the criteria used for comparison. The supplementary figures are referenced but not available for review. Without these details, the claim of superior performance cannot be independently evaluated.
+  - **Why it matters** The choice of VBSR as the default regression model is central to the TraRe method. If the benchmarking is not rigorous or the comparison is not fair, the methodological foundation of the tool is called into question.
+  - **Resolution test** The authors should provide the performance metrics (e.g., AUROC, precision-recall, or correlation coefficients) for each method across the simulation scenarios, and describe the simulation parameters in sufficient detail for reproduction.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and generalizability
+  - **Claim pointer** Transcriptional modules identified in PROMOTE were independently validated in the SUIT-2C dataset, with six modules showing high overlap.
+  - **Evidence pointer** Results, "TraRe recapitulates transcriptional programs associated with mCRPC"; Figure 2
+  - **Concern** The manuscript states that six SUIT-2C modules were highly overlapping with PROMOTE modules, but the criteria for "high overlap" are not defined. The statistical significance of the overlap is mentioned (hypergeometric test) but the threshold and the specific p-values are not reported. Furthermore, the SUIT-2C dataset lacks response data, so the validation is limited to module reproducibility and does not confirm the rewiring findings.
+  - **Why it matters** The claim of cross-dataset validation strengthens the generalizability of the findings. If the overlap criteria are lenient or the significance is marginal, the validation may not be meaningful.
+  - **Resolution test** The authors should report the overlap statistics, including the number of overlapping genes, the p-values for each of the six modules, and the threshold used to define "high overlap."
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description
+  - **Evidence pointer** Materials and Methods, "TraRe: uncovering transcriptional rewiring across phenotypes from RNA sequencing data"
+  - **Issue** The description of the VBSR model and the variational inference procedure is dense and may be difficult for non-specialist readers to follow. The equations are referenced but not fully explained in the text.
+  - **Required correction** Consider adding a brief intuitive explanation of the VBSR model and the spike-and-slab prior, and clarify the role of the eigengene in the module inference process.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results
+  - **Evidence pointer** Results, "TraRe identifies TFs playing a key role in abiraterone response"; Table 1
+  - **Issue** The manuscript mentions 33 TFs ranked by their association with rewiring, but only a subset is discussed in detail. The criteria for selecting the five TFs for experimental validation (ELK3, MYD1, MYB, ZNF3, ZNF91) are not fully explained.
+  - **Required correction** Provide a clear description of the selection criteria for the TFs chosen for experimental validation, including any thresholds applied to the ranking metrics.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The discussion of the clinical implications is somewhat speculative, particularly regarding the potential for targeting the identified TFs therapeutically. The authors acknowledge the limitations of the in vitro models but could more explicitly state the gap between their findings and clinical translation.
+  - **Required correction** Consider adding a sentence that clearly states the need for further validation in more complex models before any clinical conclusions can be drawn.
+- **Technical failings that need to be addressed before the case is established** The statistical details of the rewiring test (permutation number, multiple testing correction, threshold justification) must be provided. The experimental validation data must be presented quantitatively. The benchmarking results must be reported with actual metrics.
+- **Assessment against Nature-style criteria** Originality: The work is original in its combination of module-based network inference with a rewiring test applied to a clinical cohort, and the focus on non-differentially expressed TFs is a useful conceptual contribution. Scientific importance: The clinical question is important, and the identification of potential mediators of abiraterone resistance has translational relevance, though the strength of the evidence is currently limited. Interdisciplinary readership: The work bridges computational biology and oncology, and would appeal to both communities, though the methods section may be challenging for non-specialists. Technical soundness: The methodological framework is reasonable, but the lack of statistical detail and quantitative validation data prevents full assessment of technical rigor. Readability for nonspecialists: The introduction and discussion are accessible, but the methods section is dense and would benefit from additional explanatory text.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a potentially valuable tool and clinically relevant findings, but the current lack of statistical detail and quantitative validation data prevents full endorsement. The authors should address the major concerns regarding the rewiring test, the experimental validation, and the benchmarking before the claims can be considered fully established.
+
+## Risk / unsupported claims
+- The claim that TraRe "outperforms" alternative models is not supported by the data presented in the text; actual performance metrics are not provided.
+- The claim that the identified TFs are functionally relevant in abiraterone resistance is only partially supported by the qualitative description of the experimental results.
+- The claim of cross-dataset validation in SUIT-2C is weakened by the lack of response data in that cohort and the undefined criteria for "high overlap."
+- The statement that ELK3, MYD1, and MYB are "associated with" abiraterone resistance is supported, but the causal language in the discussion goes beyond what the evidence can establish.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41256668",
+  "title": "RNA sequence design and protein-DNA specificity prediction with NA-MPNN.",
+  "authors": "Kubaney, Andrew; Favor, Andrew; McHugh, Lilian; Mitra, Raktim; Pecoraro, Robert; Dauparas, Justas; Glasscock, Cameron; Baker, David",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-11-19",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出统一核酸逆折叠模型NA-MPNN，以图神经网络同时实现RNA序列设计与蛋白-DNA结合特异性预测，核心聚焦TF-DNA互作建模且方法高度契合AI方向。",
+  "abstract": "RNA sequence design and protein-DNA binding specificity prediction can both be framed as nucleic acid inverse-folding problems: finding the most likely nucleic acid sequences given a fixed three-dimensional structure of a nucleic acid or nucleic acid-protein complex. While task-specific tools have been developed, no unified deep learning model for nucleic acid inverse folding has been described; a single model would have larger and more diverse datasets available for training and a considerably greater range of applicability. Here we introduce Nucleic Acid MPNN (NA-MPNN), a message-passing neural network that treats proteins, DNA, and RNA within a unified biopolymer graph representation. NA-MPNN outperforms previous methods on RNA sequence design and fixed-dock protein-DNA specificity prediction, and should be broadly useful for de novo RNA structure design and prediction of DNA-binding specificity.",
+  "abstract_zh": "RNA序列设计与蛋白质-DNA结合特异性预测均可被构建为核酸逆折叠问题：即在给定核酸或核酸-蛋白质复合物的固定三维结构时，寻找最可能的核酸序列。尽管已有针对特定任务的工具被开发出来，但尚未有统一的深度学习模型用于核酸逆折叠；单一模型将拥有更大且更多样化的数据集用于训练，并具有显著更广泛的应用范围。在此，我们引入核酸MPNN（NA-MPNN），这是一种消息传递神经网络，在统一的生物聚合物图表示中处理蛋白质、DNA和RNA。NA-MPNN在RNA序列设计和固定对接蛋白质-DNA特异性预测方面优于先前方法，并应广泛适用于从头RNA结构设计和DNA结合特异性预测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41256668/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41256668/",
+  "paper_page_path": "papers/pubmed/41256668/index.html"
+}

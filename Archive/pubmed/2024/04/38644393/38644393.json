@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "38644393",
+    "doi": "10.1038/s41598-024-59487-5",
+    "title": "DeepReg: a deep learning hybrid model for predicting transcription factors in eukaryotic and prokaryotic genomes."
+  },
+  "content": {
+    "abstract": "Deep learning models (DLMs) have gained importance in predicting, detecting, translating, and classifying a diversity of inputs. In bioinformatics, DLMs have been used to predict protein structures, transcription factor-binding sites, and promoters. In this work, we propose a hybrid model to identify transcription factors (TFs) among prokaryotic and eukaryotic protein sequences, named Deep Regulation (DeepReg) model. Two architectures were used in the DL model: a convolutional neural network (CNN), and a bidirectional long-short-term memory (BiLSTM). DeepReg reached a precision of 0.99, a recall of 0.97, and an F1-score of 0.98. The quality of our predictions, the bias-variance trade-off approach, and the characterization of new TF predictions were evaluated and compared against those produced by DeepTFactor, as well as against experimental data from three model organisms. Predictions based on our DLM tended to exhibit less variance and bias than those from DeepTFactor, thus increasing reliability and decreasing overfitting.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Transcription Factors/genetics/metabolism",
+      "Computational Biology/methods",
+      "Prokaryotic Cells/metabolism",
+      "Neural Networks, Computer",
+      "Eukaryota/genetics",
+      "Genome",
+      "Eukaryotic Cells/metabolism",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ledesma-Dominguez, Leonardo",
+        "Carbajal-Degante, Erik",
+        "Moreno-Hagelsieb, Gabriel",
+        "Perez-Rueda, Ernesto"
+      ],
+      "short_names": [
+        "Ledesma-Dominguez L",
+        "Carbajal-Degante E",
+        "Moreno-Hagelsieb G",
+        "Perez-Rueda E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Posgrado en Ciencia en Ingenieria de la Computacion, Universidad Nacional Autonoma de Mexico, 04510, Mexico City, Mexico. leonardoledd@ciencias.unam.mx.",
+        "Instituto de Investigaciones en Matematicas Aplicadas y en Sistemas, UNAM, 04510, Mexico City, Mexico. leonardoledd@ciencias.unam.mx.",
+        "Coordinacion de Universidad Abierta, Innovacion Educativa y Educacion a Distancia (CUAIEED), Universidad Nacional Autonoma de Mexico, 04510, Mexico City, Mexico.",
+        "Department of Biology, Wilfrid Laurier University, Waterloo, ON, Canada.",
+        "Instituto de Investigaciones en Matematicas Aplicadas y en Sistemas, Unidad Academica del Estado de Yucatan, Universidad Nacional Autonoma de Mexico, Merida, Yucatan, Mexico. ernesto.perez@iimas.unam.mx."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ledesma-Dominguez, Leonardo",
+        "short_name": "Ledesma-Dominguez L",
+        "identifiers": [],
+        "affiliations": [
+          "Posgrado en Ciencia en Ingeniería de la Computación, Universidad Nacional Autónoma de México, 04510, Mexico City, Mexico. leonardoledd@ciencias.unam.mx.",
+          "Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas, UNAM, 04510, Mexico City, México. leonardoledd@ciencias.unam.mx."
+        ]
+      },
+      {
+        "full_name": "Carbajal-Degante, Erik",
+        "short_name": "Carbajal-Degante E",
+        "identifiers": [],
+        "affiliations": [
+          "Coordinación de Universidad Abierta, Innovación Educativa y Educación a Distancia (CUAIEED), Universidad Nacional Autónoma de México, 04510, Mexico City, México."
+        ]
+      },
+      {
+        "full_name": "Moreno-Hagelsieb, Gabriel",
+        "short_name": "Moreno-Hagelsieb G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Wilfrid Laurier University, Waterloo, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Pérez-Rueda, Ernesto",
+        "short_name": "Pérez-Rueda E",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas, Unidad Académica del Estado de Yucatán, Universidad Nacional Autónoma de México, Mérida, Yucatán, México. ernesto.perez@iimas.unam.mx."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Apr 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/22 00:43",
+    "fetched_at": "2026-09-29 19:06:30"
+  },
+  "links": {
+    "cites": [
+      "42252092",
+      "41739555",
+      "41702709",
+      "40841176",
+      "40827275",
+      "39938795",
+      "39786868",
+      "39548716"
+    ],
+    "refs": [
+      "38203692",
+      "36768540",
+      "36350610",
+      "35981062",
+      "35922624",
+      "35769139",
+      "34265844",
+      "34214112",
+      "33443222",
+      "33372147",
+      "33371507",
+      "33096548",
+      "32822422",
+      "31843930",
+      "31221760",
+      "31024615",
+      "30591712",
+      "30523308",
+      "30455682",
+      "29378224",
+      "28186491",
+      "27768937",
+      "27473064",
+      "27372760",
+      "27084946",
+      "26213851",
+      "19284633",
+      "18789126",
+      "14681372",
+      "11040209",
+      "2737276"
+    ],
+    "similar": [
+      "38644393",
+      "33372147",
+      "28158264",
+      "38701417",
+      "34534646",
+      "34073774",
+      "38649300",
+      "32770026",
+      "32960766",
+      "19815308",
+      "35652477",
+      "30709337",
+      "29104165",
+      "39388605",
+      "31725778",
+      "31336830",
+      "39227799",
+      "39457474",
+      "38733561",
+      "30835229",
+      "38381315",
+      "29617928",
+      "39192227",
+      "34272562",
+      "38732207",
+      "30922998",
+      "39154936",
+      "38837544",
+      "39168294",
+      "36328750",
+      "36231935",
+      "34531015",
+      "39361557",
+      "33347303",
+      "39137619",
+      "38588617",
+      "33603233",
+      "39076052",
+      "34379786",
+      "33334313",
+      "35021193",
+      "31372637",
+      "37723425",
+      "33639834",
+      "30323198",
+      "33571101",
+      "31466037",
+      "37665389",
+      "34962264",
+      "34613923",
+      "36155619",
+      "34226549",
+      "33601013",
+      "36959539",
+      "32278897",
+      "20675356",
+      "31020556",
+      "29970003",
+      "16927028",
+      "37558594",
+      "18506593",
+      "39173070",
+      "26287458",
+      "38267081",
+      "30106688",
+      "33576744",
+      "27716039",
+      "27896980",
+      "34159204",
+      "31634140",
+      "30629513",
+      "36210577",
+      "36650799",
+      "39080344",
+      "35671653",
+      "34790233",
+      "33522898",
+      "39270885",
+      "27507169",
+      "29993783",
+      "32936825",
+      "20807838",
+      "38528797",
+      "16614446",
+      "30419785",
+      "39133595",
+      "36116322",
+      "35263332",
+      "39350338",
+      "31569654",
+      "29993581",
+      "33001599",
+      "33980138",
+      "33227813",
+      "31905774",
+      "36094959",
+      "30323214",
+      "39275870",
+      "32804370",
+      "31856220"
+    ],
+    "review": [
+      "38644393",
+      "35652477",
+      "29104165",
+      "31466037",
+      "20675356",
+      "16927028",
+      "39275870"
+    ],
+    "pmc": [
+      "11551149"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-59487-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38644393/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

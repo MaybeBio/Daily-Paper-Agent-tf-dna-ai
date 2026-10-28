@@ -1,0 +1,263 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2022-krs1t",
+  "title": "Active learning guided drug design lead optimization based on relative binding free energy modeling",
+  "doi": "10.26434/chemrxiv-2022-krs1t",
+  "abstract": "In silico identification of potent protein inhibitors commonly requires prediction of a ligand binding free energy (BFE). Thermodynamics integration (TI) based on molecular dynamics (MD) simulations is a BFE calculation method capable of predicting accurate BFE, but it is computationally expensive and time-consuming. In this work, we developed an efficient automated workflow for identifying compounds with the lowest BFE among thousands of congeneric ligands which requires only hundreds of TI calculations. Automated Machine Learning (AutoML) orchestrated by Active Learning (AL) in AL-AutoML workflow allows unbiased and efficient search for a small set of best performing molecules. We applied this workflow to select inhibitors of the SARS-CoV-2 papain-like protease. Our work resulted in predicting 133 compounds with improved binding affinity among which 16 compounds with better than 100-fold binding affinity improvement. The hit rate obtained here is better than that of traditional projects where molecule selection is guided by an expert medicinal chemist. We demonstrated that a combination of an AL protocol provides at least 20x the common brute force approaches.",
+  "authors": [
+    "Filipp Gusev",
+    "Evgeny Gutkin",
+    "Maria G. Kurnikova",
+    "Olexandr Isayev"
+  ],
+  "published_date": "2022-07-11",
+  "updated_date": "2022-07-11T03:10:21Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2022-krs1t",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2022-krs1t",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T18:21:43Z",
+        "timestamp": 1785435703993,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            11
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                7,
+                11
+              ]
+            ],
+            "date-time": "2022-07-11T00:00:00Z",
+            "timestamp": 1657497600000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>In silico identification of potent protein inhibitors commonly requires prediction of a ligand binding free energy (BFE). Thermodynamics integration (TI) based on molecular dynamics (MD) simulations is a BFE calculation method capable of predicting accurate BFE, but it is computationally expensive and time-consuming. In this work, we developed an efficient automated workflow for identifying compounds with the lowest BFE among thousands of congeneric ligands which requires only hundreds of TI calculations. Automated Machine Learning (AutoML) orchestrated by Active Learning (AL) in AL-AutoML workflow allows unbiased and efficient search for a small set of best performing molecules. We applied this workflow to select inhibitors of the SARS-CoV-2 papain-like protease. Our work resulted in predicting 133 compounds with improved binding affinity among which 16 compounds with better than 100-fold binding affinity improvement. The hit rate obtained here is better than that of traditional projects where molecule selection is guided by an expert medicinal chemist. We demonstrated that a combination of an AL protocol provides at least 20x the common brute force approaches.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2022-krs1t",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            11
+          ]
+        ],
+        "date-time": "2022-07-11T03:10:21Z",
+        "timestamp": 1657509021000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "title": [
+        "Active learning guided drug design lead optimization based on relative binding free energy modeling"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Filipp",
+          "family": "Gusev",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05x2bcf33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Carnegie Mellon University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Evgeny",
+          "family": "Gutkin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05x2bcf33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Carnegie Mellon University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8010-8374",
+          "authenticated-orcid": false,
+          "given": "Maria G.",
+          "family": "Kurnikova",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05x2bcf33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Carnegie Mellon University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7581-8497",
+          "authenticated-orcid": false,
+          "given": "Olexandr",
+          "family": "Isayev",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05x2bcf33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Carnegie Mellon University",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2022-krs1t",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:19:29Z",
+        "timestamp": 1778750369000
+      },
+      "score": 83.3361,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2022-krs1t"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            11
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2022-krs1t",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jcim.2c01052",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            11
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

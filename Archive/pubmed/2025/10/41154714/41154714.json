@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "41154714",
+    "doi": "10.3390/biology14101311",
+    "title": "Bioinformatics-Based Analysis of the Screening and Evaluation of Potential Targets of FTY720 for the Treatment of Non-Small Cell Lung Cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: A range of cancer cells are significantly inhibited by FTY720. It is unknown, nevertheless, how FTY720 influences the onset of non-small cell lung cancer (NSCLC). Using bioinformatics techniques, we analyzed and the possible molecular mechanisms and targets of FTY720 for the treatment of NSCLC. METHODS: DEGs (Differentially expressed genes) were acquired by differential analysis of the dataset GSE10072. Obtained FTY720 target genes and NSCLC disease genes from databases such as Swiss-TargetPrediction and GeneCard. Subsequently, target and disease genes, as well as DEGs, were merged for Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis, gene ontology (GO), and protein interaction analysis. The overlapping genes of DEGs and target genes, and disease genes were also obtained separately and subjected to survival as well as expression analyses. We constructed the regulatory network of miRNAs and transcription factors (TFs) on hub genes. Finally, the immune cell association of hub genes was evaluated using the ssGSEA method, molecular docking of FTY720 to hub genes was carried out utilizing Autodock, and molecular dynamics simulations were conducted. RESULTS: In this study, 444 DEGs, 232 target genes of FTY720, and 466 disease genes were obtained. Moreover, a total of 1062 genes were obtained by removing duplicate values after merging, among which PIK3R1, Akt1, and S1PR1 had the highest DEGREE values in the protein interactions network, and these genes were primarily enriched in MAPK, PI3K-Akt signaling pathways, with the PI3K-Akt signaling pathway being the most prominent. Among the overlapping genes, three potential targets of FTY720 for NSCLC treatment were found: S1PR1, ZEB2, and HBEGF. ZEB2 and S1PR1 were determined to be hub genes and to significantly affect NSCLC prognosis by survival analysis. Furthermore, hsa-miR-132-3p, hsa-miR-192-5p, and hsa-miR-6845-3p were strongly associated with FTY720 for the treatment of NSCLC; CTBP1 (carboxy-terminal binding protein 1), EZH2 (protein lysine N-methyltransferase), and ZNF610 (zinc-finger protein 610) may all influence the expression of ZEB2 and S1PR1. Hub genes had a substantial negative link with memory B cells and a significant positive correlation with memory CD8 T cells and Th17 helper T cells. The molecular docking and kinetic simulation results of FTY720 with the two hub genes indicate that the protein-ligand complex has good stability. CONCLUSION: Our research indicates that FTY720 may inhibit NSCLC via possible targets ZEB2 and S1PR1, further laying the theoretical foundation for the utilization of FTY720 in NSCLC treatment.",
+    "keywords": [
+      "FTY720",
+      "NSCLC",
+      "bioinformatics",
+      "potential target"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Han, Mengyuan",
+        "Hailati, Sendaer",
+        "Dilimulati, Dilihuma",
+        "Baishan, Alhar",
+        "Aikebaier, Alifeiye",
+        "Zhou, Wenting"
+      ],
+      "short_names": [
+        "Han M",
+        "Hailati S",
+        "Dilimulati D",
+        "Baishan A",
+        "Aikebaier A",
+        "Zhou W"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-9690-4350",
+        "ORCID: 0000-0003-2610-7634"
+      ],
+      "affiliations": [
+        "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi 830017, China.",
+        "Heze Municipal Hospital, Heze 274009, China.",
+        "Xinjiang Key Laboratory of Natural Medicines Active Components and Drug Release Technology, Urumqi 830017, China.",
+        "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi 830017, China.",
+        "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi 830017, China.",
+        "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi 830017, China.",
+        "Xinjiang Key Laboratory of Natural Medicines Active Components and Drug Release Technology, Urumqi 830017, China.",
+        "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi 830017, China.",
+        "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi 830017, China.",
+        "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi 830017, China.",
+        "Xinjiang Key Laboratory of Natural Medicines Active Components and Drug Release Technology, Urumqi 830017, China.",
+        "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi 830017, China.",
+        "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi 830017, China.",
+        "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi 830017, China.",
+        "Xinjiang Key Laboratory of Natural Medicines Active Components and Drug Release Technology, Urumqi 830017, China.",
+        "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi 830017, China.",
+        "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi 830017, China.",
+        "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi 830017, China.",
+        "Xinjiang Key Laboratory of Natural Medicines Active Components and Drug Release Technology, Urumqi 830017, China.",
+        "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi 830017, China.",
+        "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi 830017, China.",
+        "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi 830017, China.",
+        "Xinjiang Key Laboratory of Natural Medicines Active Components and Drug Release Technology, Urumqi 830017, China.",
+        "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi 830017, China.",
+        "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi 830017, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Han, Mengyuan",
+        "short_name": "Han M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi 830017, China.",
+          "Heze Municipal Hospital, Heze 274009, China.",
+          "Xinjiang Key Laboratory of Natural Medicines Active Components and Drug Release Technology, Urumqi 830017, China.",
+          "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi 830017, China.",
+          "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi 830017, China."
+        ]
+      },
+      {
+        "full_name": "Hailati, Sendaer",
+        "short_name": "Hailati S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi 830017, China.",
+          "Xinjiang Key Laboratory of Natural Medicines Active Components and Drug Release Technology, Urumqi 830017, China.",
+          "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi 830017, China.",
+          "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi 830017, China."
+        ]
+      },
+      {
+        "full_name": "Dilimulati, Dilihuma",
+        "short_name": "Dilimulati D",
+        "identifiers": [
+          "0009-0004-9690-4350"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi 830017, China.",
+          "Xinjiang Key Laboratory of Natural Medicines Active Components and Drug Release Technology, Urumqi 830017, China.",
+          "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi 830017, China.",
+          "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi 830017, China."
+        ]
+      },
+      {
+        "full_name": "Baishan, Alhar",
+        "short_name": "Baishan A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi 830017, China.",
+          "Xinjiang Key Laboratory of Natural Medicines Active Components and Drug Release Technology, Urumqi 830017, China.",
+          "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi 830017, China.",
+          "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi 830017, China."
+        ]
+      },
+      {
+        "full_name": "Aikebaier, Alifeiye",
+        "short_name": "Aikebaier A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi 830017, China.",
+          "Xinjiang Key Laboratory of Natural Medicines Active Components and Drug Release Technology, Urumqi 830017, China.",
+          "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi 830017, China.",
+          "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi 830017, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Wenting",
+        "short_name": "Zhou W",
+        "identifiers": [
+          "0000-0003-2610-7634"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Xinjiang Medical University, Urumqi 830017, China.",
+          "Xinjiang Key Laboratory of Natural Medicines Active Components and Drug Release Technology, Urumqi 830017, China.",
+          "Xinjiang Key Laboratory of Biopharmaceuticals and Medical Devices, Urumqi 830017, China.",
+          "Engineering Research Center of Xinjiang and Central Asian Medicine Resources, Ministry of Education, Urumqi 830017, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biology"
+    ],
+    "journal_abbrev": [
+      "Biology (Basel)"
+    ],
+    "pub_date": "2025 Sep 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/29 06:27",
+    "fetched_at": "2026-10-01 05:04:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39126272",
+      "38898665",
+      "38897152",
+      "38572751",
+      "38512301",
+      "38398107",
+      "38180474",
+      "37787384",
+      "37705317",
+      "36810079",
+      "36419391",
+      "35837053",
+      "35768424",
+      "35643253",
+      "35016421",
+      "34997132",
+      "34728143",
+      "34298877",
+      "32910558",
+      "32323421",
+      "31897216",
+      "31293639",
+      "31289569",
+      "31059070",
+      "30952377",
+      "29351902",
+      "29207165",
+      "28739604",
+      "28607130",
+      "28607129",
+      "27966000",
+      "27091121",
+      "26582369",
+      "26053034",
+      "25726524",
+      "25213670",
+      "24138714",
+      "24029635",
+      "23323831",
+      "23300840",
+      "23160472",
+      "22455463",
+      "20335228",
+      "18520051",
+      "18063842",
+      "17462818",
+      "17203219",
+      "16782877",
+      "16473668",
+      "16322309",
+      "15986440",
+      "12771800",
+      "12097266",
+      "11888913",
+      "10851074",
+      "8150717"
+    ],
+    "similar": [
+      "41154714",
+      "39108112",
+      "40282196",
+      "40826767",
+      "31692035",
+      "39712244",
+      "35313857",
+      "37933017",
+      "34254931",
+      "33490151",
+      "36118873",
+      "37770919",
+      "35401659",
+      "33532314",
+      "36647068",
+      "35116861",
+      "34190177",
+      "38444712",
+      "41442003",
+      "33080677",
+      "38670393",
+      "33104965",
+      "33578541",
+      "39238829",
+      "36291136",
+      "35632527",
+      "40353950",
+      "32855723",
+      "38590544",
+      "36352081",
+      "40068024",
+      "29063236",
+      "34934349",
+      "35577542",
+      "33407587",
+      "39403102",
+      "35634481",
+      "34806315",
+      "28952134",
+      "33563317",
+      "37179305",
+      "35757478",
+      "40676786",
+      "39945271",
+      "40748585",
+      "33538941",
+      "31934299",
+      "35706800",
+      "32547322",
+      "30008938",
+      "36401966",
+      "29921304",
+      "36596057",
+      "35484565",
+      "36189314",
+      "37711894",
+      "30832674",
+      "40238799",
+      "35237056",
+      "30258285",
+      "36523419",
+      "36093542",
+      "40105149",
+      "37787384",
+      "34313877",
+      "38546525",
+      "39440778",
+      "35386284",
+      "32299382",
+      "34234459",
+      "34434654",
+      "38013317",
+      "31788082",
+      "31698633",
+      "35702326",
+      "39430414",
+      "38964628",
+      "40821971",
+      "41044520",
+      "38509535",
+      "38794152",
+      "32093341",
+      "40790764",
+      "35909518",
+      "32756534",
+      "38549107",
+      "36104591",
+      "32527185",
+      "37980270",
+      "29305979",
+      "39251231",
+      "35510126",
+      "38393632",
+      "34553293",
+      "36506310",
+      "38941043",
+      "34536521",
+      "32176034",
+      "40259252",
+      "32506887"
+    ],
+    "review": [
+      "41154714",
+      "33080677"
+    ],
+    "pmc": [
+      "12561205"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biology14101311",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41154714/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

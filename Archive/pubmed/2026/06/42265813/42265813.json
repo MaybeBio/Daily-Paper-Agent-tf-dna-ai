@@ -1,0 +1,342 @@
+{
+  "identity": {
+    "pmid": "42265813",
+    "doi": "10.1186/s13062-026-00853-w",
+    "title": "Multi-omics reveals fibroblast subtypes with distinct roles in inflammatory bowel disease."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Inflammatory bowel disease (IBD) is a chronic inflammatory disorder of the gastrointestinal tract involving complex interactions among epithelial, immune, and stromal components. Fibroblasts are key regulators of intestinal inflammation and fibrosis, but their heterogeneity, distribution, and therapeutic potential remain unclear. METHODS: We systematically identified and characterized intestinal fibroblast subtypes in IBD while exploring the intercellular communication between fibroblasts and immune cells through the integration of single-cell RNA sequencing (scRNA-seq) and spatial transcriptomics (ST) analyses. Functional gene signatures derived from fibroblast subtypes were applied to bulk RNA-seq datasets to predict therapeutic responses using logistic regression and random forest models. Concurrently, pertinent findings were validated in the intestinal tissues and primary fibroblasts of patients with IBD using multiplex immunohistochemistry (mIHC), western blotting, and quantitative real-time PCR (qPCR). RESULTS: We identified 10 distinct stromal subpopulations comprising two fibroblast subtypes strongly associated with IBD pathology: ICAM1(+) inflammatory fibroblasts (iFibro_ICAM1) and FAP(+) matrix-producing fibroblasts (mFibro_FAP). These subsets demonstrate distinct transcription factor activity, metabolic reprogramming, and spatial proximity to immune infiltrates, and they undergo remodeling within the inflammatory microenvironment of IBD. Pseudotime trajectory analysis suggested that the iFibro_ICAM1 subset potentially represents a precursor state. CellChat analysis revealed enhanced intercellular communication between fibroblast subsets and immune cells in ileal and colorectal IBD tissues. Furthermore, a machine learning model based on gene expression signatures derived from these fibroblasts effectively predicted poor therapeutic responses to anti-TNF treatments in patients with IBD. CONCLUSIONS: This study provides a comprehensive characterization of fibroblast heterogeneity in IBD, highlighting the crucial roles of inflammatory and fibrotic fibroblast subsets as key mediators of immune-stromal interactions and potential predictors of therapeutic responsiveness.",
+    "keywords": [
+      "Fibroblasts",
+      "Inflammatory bowel disease",
+      "Single-cell RNA sequencing",
+      "Spatial transcriptomics",
+      "Therapeutic response"
+    ],
+    "mesh_terms": [
+      "*Inflammatory Bowel Diseases/genetics/metabolism/pathology",
+      "*Fibroblasts/metabolism",
+      "Humans",
+      "Multiomics",
+      "Spatial Transcriptomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Xushun",
+        "Zhang, Mudan",
+        "Han, Jing",
+        "Li, Li",
+        "Xie, Zhuo",
+        "Zhang, Guo",
+        "Zhang, Shenghong",
+        "Zhou, Gaoshi"
+      ],
+      "short_names": [
+        "Guo X",
+        "Zhang M",
+        "Han J",
+        "Li L",
+        "Xie Z",
+        "Zhang G",
+        "Zhang S",
+        "Zhou G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, Guangxi Hospital Division of The First Affiliated Hospital, Sun Yat-sen University, No. 3, Foziling Road, Nanning, 530022, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital, Sun Yat-sen University, 58 Zhongshan Road 2, Guangzhou, 510080, China.",
+        "The Sixth Affiliated Hospital, Sun Yat-sen University, Guangzhou, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital, Sun Yat-sen University, 58 Zhongshan Road 2, Guangzhou, 510080, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital, Sun Yat-sen University, 58 Zhongshan Road 2, Guangzhou, 510080, China.",
+        "Department of Gastroenterology, Guangxi Hospital Division of The First Affiliated Hospital, Sun Yat-sen University, No. 3, Foziling Road, Nanning, 530022, China. zhangguogx@hotmail.com.",
+        "Department of Gastroenterology, The First Affiliated Hospital, Sun Yat-sen University, 58 Zhongshan Road 2, Guangzhou, 510080, China. zhshh3@mail.sysu.edu.cn.",
+        "Department of Gastroenterology, Guangxi Hospital Division of The First Affiliated Hospital, Sun Yat-sen University, No. 3, Foziling Road, Nanning, 530022, China. zhshh3@mail.sysu.edu.cn.",
+        "Department of Gastroenterology, The First Affiliated Hospital, Sun Yat-sen University, 58 Zhongshan Road 2, Guangzhou, 510080, China. zhougshi@alumni.sysu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Xushun",
+        "short_name": "Guo X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Guangxi Hospital Division of The First Affiliated Hospital, Sun Yat-sen University, No. 3, Foziling Road, Nanning, 530022, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Mudan",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital, Sun Yat-sen University, 58 Zhongshan Road 2, Guangzhou, 510080, China."
+        ]
+      },
+      {
+        "full_name": "Han, Jing",
+        "short_name": "Han J",
+        "identifiers": [],
+        "affiliations": [
+          "The Sixth Affiliated Hospital, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Li",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital, Sun Yat-sen University, 58 Zhongshan Road 2, Guangzhou, 510080, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Zhuo",
+        "short_name": "Xie Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital, Sun Yat-sen University, 58 Zhongshan Road 2, Guangzhou, 510080, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Guo",
+        "short_name": "Zhang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Guangxi Hospital Division of The First Affiliated Hospital, Sun Yat-sen University, No. 3, Foziling Road, Nanning, 530022, China. zhangguogx@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shenghong",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital, Sun Yat-sen University, 58 Zhongshan Road 2, Guangzhou, 510080, China. zhshh3@mail.sysu.edu.cn.",
+          "Department of Gastroenterology, Guangxi Hospital Division of The First Affiliated Hospital, Sun Yat-sen University, No. 3, Foziling Road, Nanning, 530022, China. zhshh3@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhou, Gaoshi",
+        "short_name": "Zhou G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital, Sun Yat-sen University, 58 Zhongshan Road 2, Guangzhou, 510080, China. zhougshi@alumni.sysu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biology direct"
+    ],
+    "journal_abbrev": [
+      "Biol Direct"
+    ],
+    "pub_date": "2026 Jun 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/10 06:52",
+    "fetched_at": "2026-10-01 23:02:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41475664",
+      "40651883",
+      "40619121",
+      "40110813",
+      "39920914",
+      "39914456",
+      "39142439",
+      "39042469",
+      "39024569",
+      "38685679",
+      "38569542",
+      "38246590",
+      "38233198",
+      "37837660",
+      "37824216",
+      "37743226",
+      "37507073",
+      "37495570",
+      "37344477",
+      "36752797",
+      "36699385",
+      "36206201",
+      "36192482",
+      "36170836",
+      "36156078",
+      "35365629",
+      "34675383",
+      "34651581",
+      "34557778",
+      "34301623",
+      "34062119",
+      "33961886",
+      "33667488",
+      "33597522",
+      "32913180",
+      "32242028",
+      "31740819",
+      "31730855",
+      "31474370",
+      "31348891",
+      "30270042",
+      "29928571",
+      "28368383",
+      "24658644",
+      "23147523",
+      "21448149",
+      "21414208",
+      "21054163",
+      "19956723",
+      "19700435",
+      "16199517"
+    ],
+    "similar": [
+      "42265813",
+      "42001187",
+      "40616092",
+      "41939867",
+      "40102930",
+      "41159025",
+      "40821793",
+      "42206269",
+      "41761123",
+      "42140356",
+      "41341599",
+      "42143353",
+      "42227003",
+      "42421947",
+      "41583446",
+      "42295138",
+      "40705084",
+      "39611243",
+      "41483290",
+      "40963886",
+      "41246350",
+      "25557335",
+      "41242266",
+      "41344440",
+      "42024442",
+      "41987092",
+      "39762897",
+      "40110813",
+      "42144098",
+      "42019096",
+      "42517863",
+      "42007493",
+      "40808866",
+      "40012095",
+      "39684719",
+      "42248268",
+      "42131349",
+      "41438766",
+      "41436831",
+      "41997558",
+      "41624856",
+      "41588193",
+      "36355621",
+      "42370143",
+      "36405760",
+      "42222902",
+      "41787499",
+      "41318676",
+      "40977731",
+      "40775345",
+      "42098867",
+      "41035636",
+      "41953013",
+      "41716413",
+      "40799444",
+      "40520021",
+      "42561749",
+      "41669266",
+      "42045413",
+      "40443671",
+      "42106773",
+      "40721434",
+      "41923163",
+      "42249421",
+      "41917876",
+      "41951016",
+      "40068177",
+      "37748021",
+      "38317239",
+      "42245670",
+      "42359574",
+      "41665828",
+      "41601657",
+      "40979497",
+      "41526921",
+      "40308576",
+      "39977234",
+      "41050697",
+      "39905493",
+      "41685312",
+      "40165307",
+      "41521161",
+      "39014455",
+      "41694378",
+      "42422813",
+      "40428318",
+      "42261399",
+      "42413807",
+      "40688093",
+      "40438108",
+      "41019085",
+      "39589317",
+      "41942920",
+      "42488658",
+      "41993306",
+      "40340245",
+      "40564117",
+      "39934919",
+      "41862916",
+      "41074150"
+    ],
+    "review": [
+      "42265813",
+      "25557335",
+      "40110813",
+      "42019096",
+      "40012095",
+      "39684719",
+      "42422813"
+    ],
+    "pmc": [
+      "13474699"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biologydirect.biomedcentral.com/articles/10.1186/s13062-026-00853-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42265813/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-219",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

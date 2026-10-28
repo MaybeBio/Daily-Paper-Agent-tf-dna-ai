@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.12.29.573676",
+  "title": "ESM-PVP: Identification and classification of phage virion proteins with a large pretrained protein language model and an MLP neural network",
+  "authors": "Bowen Li; Guanxiang Liang",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-30",
+  "window": {
+    "start": "2023-12-25",
+    "end": "2023-12-31"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用预训练蛋白语言模型和MLP识别噬菌体病毒粒子蛋白，属于纯蛋白序列分类任务，不涉及蛋白质-DNA互作或结合建模，与本课题无关。",
+  "abstract": "Bacteriophages, also known as phages, are essential for the stability of the microbiome system due to their ability to infect prokaryotes, another significant component of the microbiome. Thus, understanding the functions of phage proteins could help us unravel the nature of phages and their roles in the microbiome. However, limited by the low throughput of experimental techniques, a vast number of phage proteins remain unannotated in terms of their functions. Computational methods are expected to solve this restriction due to their high throughput and cost-effectiveness. In this study, we focused on one aspect of functional annotation for phage proteins, the identification and classification of phage virion proteins, and the integration of a large pretrained protein language model and an MLP neural network dramatically improved the performance of these two tasks. Additionally, we compared our model with some previous deep learning models using a newly collected, independent benchmark dataset, demonstrating the strong generalization ability of our model for both tasks. The source codes of ESM-PVP and the software for the PVP identification task have been uploaded to: https://github.com/li-bw18/ESM-PVP .",
+  "abstract_zh": "噬菌体（bacteriophages），亦称噬菌体（phages），因其能够感染原核生物（prokaryotes）——微生物组中另一重要组成部分——而对微生物组系统的稳定性至关重要。因此，理解噬菌体蛋白的功能有助于我们揭示噬菌体的本质及其在微生物组中的作用。然而，受限于实验技术的低通量，大量噬菌体蛋白的功能尚未被注释。计算方法因其高通量和成本效益，有望解决这一限制。在本研究中，我们聚焦于噬菌体蛋白功能注释的一个方面，即噬菌体病毒粒子蛋白（phage virion proteins）的识别与分类，并整合大型预训练蛋白质语言模型与MLP神经网络，显著提升了这两项任务的性能。此外，我们使用新收集的独立基准数据集，将我们的模型与先前的一些深度学习模型进行了比较，证明了我们的模型在两项任务中均具有强大的泛化能力。ESM-PVP的源代码及PVP识别任务的软件已上传至：https://github.com/li-bw18/ESM-PVP 。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.12.29.573676",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.12.29.573676",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.12.29.573676/index.html"
+}

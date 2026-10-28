@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary inventory
+- **Assessment boundary** Scientific claims, methodological rigor, evidence consistency, and interpretation within the provided text
+- **Shared manuscript claim summary** The authors propose that TDP-43 binds and stabilizes DNA G-quadruplex structures at chromatin loop anchors, thereby facilitating long-range chromatin interactions and transcriptional activation, based on integrative multi-omics analyses and experimental validation in K562 and HepG2 cells
+- **Visible evidence base** Abstract, Results sections (six subsections), Discussion, Methods, and supplementary figure/table inventory
+- **Missing materials affecting confidence** Full figure panels, supplementary figures S1-S3, supplementary tables S1-S11, detailed statistical outputs, and raw data processing parameters
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially important and timely question regarding the role of TDP-43 in transcriptional regulation through DNA G-quadruplex stabilization and chromatin looping. The integrative multi-omics approach is ambitious and the experimental validation in HepG2 cells is a strength. However, several major concerns undermine the current strength of the conclusions. The causal relationship between TDP-43 binding, dG4 stabilization, and chromatin looping is inferred largely from correlative analyses, and the experimental validation does not fully establish the proposed mechanism. The specificity of TDP-43 for dG4 structures over other DNA or RNA structures, the directness of the binding, and the functional significance of the observed changes require further substantiation. The manuscript would benefit from clearer presentation of statistical methods and effect sizes, and from addressing potential confounding factors in the multi-omics integration.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, chromatin biology, DNA structure and G-quadruplex biology, and those studying TDP-43 in the context of neurodegeneration and cancer. The findings could be of interest to a broad readership in molecular biology and genomics, given the potential implications for understanding gene regulation mechanisms and disease pathology.
+- **Major strengths** 1. The study addresses a novel and significant question, linking TDP-43 to DNA G-quadruplex biology and chromatin architecture, which is an underexplored area. 2. The integration of multiple public datasets (Hi-C, ChIP-seq, RNA-seq, ATAC-seq) across two cell lines is comprehensive and provides a genome-wide perspective. 3. The inclusion of experimental validation via TDP-43 knockdown, dG4 CUT&Tag, and Micro-C in HepG2 cells strengthens the study beyond purely computational analysis. 4. The authors acknowledge the existence of dG4-independent mechanisms, showing some balance in interpretation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The manuscript claims that TDP-43 binding stabilizes dG4 structures at loop anchors, which in turn facilitates chromatin looping and gene transcription
+  - **Evidence pointer** Results sections "TDP-43 binding is associated with dG4 stabilization at chromatin loop anchors" and "TDP-43/dG4 co-occupancy facilitates chromatin looping and promotes gene transcription"; Figure 6
+  - **Concern** The causal direction of the proposed mechanism is not adequately established. The knockdown experiments show that TDP-43 loss reduces dG4 signals and loop strength, but this does not prove that TDP-43 directly stabilizes dG4 structures. The observed effects could be indirect, for example, through changes in gene expression of G4-stabilizing factors or through alterations in chromatin state that affect dG4 formation. The claim of direct stabilization requires evidence of a physical interaction between TDP-43 and dG4 structures in vivo, which is not provided. Furthermore, the manuscript does not rule out the possibility that dG4s stabilize TDP-43 binding, rather than the reverse.
+  - **Why it matters** The central novelty of the paper rests on the claim that TDP-43 stabilizes dG4s. Without direct evidence for this causal relationship, the proposed mechanism remains speculative and the study's contribution is significantly weakened.
+  - **Resolution test** Provide experimental evidence for direct TDP-43-dG4 interaction in cells, such as ChIP-seq with a G4-stabilizing ligand or a proximity ligation assay. Alternatively, perform rescue experiments where dG4 stabilization is restored in TDP-43 knockdown cells to see if loop and transcription phenotypes are rescued. Show that TDP-43 binding to dG4 sequences is necessary and sufficient for the observed effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of TDP-43 binding
+  - **Claim pointer** The manuscript implies that TDP-43 specifically binds to dG4 structures, distinguishing this from its known RNA-binding functions
+  - **Evidence pointer** Results section "Integrated multi-omics analyses reveal extensive co-occupancy of TDP-43 and dG4s at gene promoters in K562 and HepG2 cells"; Figure 1
+  - **Concern** TDP-43 is a well-characterized RNA-binding protein. The manuscript does not adequately address the specificity of TDP-43 for DNA G4 structures over RNA G4 structures or other DNA motifs. The ChIP-seq data may be confounded by TDP-43's interaction with RNA, particularly nascent RNA at active promoters, which could indirectly tether TDP-43 to chromatin. The authors do not discuss or control for this possibility. The claim that TDP-43 binds dG4s in a DNA-specific manner requires direct evidence, such as DNA versus RNA G4 binding assays or experiments with RNase treatment.
+  - **Why it matters** If TDP-43's association with dG4-containing loci is mediated by RNA, the proposed DNA-centric mechanism would be incorrect, and the interpretation of the entire dataset would be fundamentally flawed.
+  - **Resolution test** Perform TDP-43 ChIP-seq with and without RNase treatment to assess the contribution of RNA to chromatin binding. Conduct in vitro binding assays comparing TDP-43 affinity for DNA G4, RNA G4, and non-G4 DNA sequences. Use a TDP-43 mutant that is defective in RNA binding but retains DNA binding to see if the observed chromatin localization and effects on looping are maintained.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor and effect sizes
+  - **Claim pointer** The manuscript claims that TDP-43+/dG4+ loops exhibit the highest interaction frequency and that TDP-43 knockdown significantly reduces loop strength
+  - **Evidence pointer** Results sections "TDP-43/dG4 co-occupancy facilitates chromatin looping and promotes gene transcription" and "TDP-43 stabilizes dG4 formation at loop anchors in HepG2 cells"; Figures 3, 4, 6
+  - **Concern** The manuscript reports statistical significance but provides limited information on the magnitude of the observed effects. For example, the difference in interaction frequency between TDP-43+/dG4+ and other loop types is not quantified in the text. Similarly, the reduction in dG4 signal and loop strength upon TDP-43 knockdown is described qualitatively. Without effect sizes or confidence intervals, it is difficult to assess the biological significance of the findings. The use of a distance-normalization procedure for interaction frequency is described, but the details of the model fit and its validation are not provided.
+  - **Why it matters** For a genome-wide analysis, it is crucial to demonstrate that the observed differences are not only statistically significant but also biologically meaningful. The lack of quantitative detail prevents the reader from evaluating the strength of the evidence.
+  - **Resolution test** Provide effect sizes (e.g., median differences, fold changes) and confidence intervals for all key comparisons. Show the distribution of the data, not just summary statistics. For the distance-normalization, provide the R-squared of the model and a plot of residuals to demonstrate its adequacy.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and cell-type specificity
+  - **Claim pointer** The manuscript claims a general role for TDP-43 in regulating chromatin looping and transcription through dG4 stabilization, based on studies in two cell lines
+  - **Evidence pointer** Results sections throughout; Discussion
+  - **Concern** The study is limited to K562 and HepG2 cells, both of which are cancer cell lines with potentially abnormal chromatin organization and gene expression. The authors discuss cell-type-specific targets but do not demonstrate that the proposed mechanism is generalizable to non-cancerous or primary cells. The relevance of the findings to neurodegenerative diseases, where TDP-43 pathology is most prominent, is speculative and not experimentally addressed.
+  - **Why it matters** The authors make broad claims about the role of TDP-43 in disease, but the evidence is derived from a narrow cellular context. The mechanism may be specific to these cell lines or to cancer cells in general, limiting the broader significance of the findings.
+  - **Resolution test** Validate key findings in at least one additional, non-cancerous cell type, such as primary fibroblasts or induced pluripotent stem cell-derived neurons. If possible, test the effect of TDP-43 loss on dG4 and looping in a disease-relevant model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "Morover" typo
+  - **Issue** There is a typographical error in the abstract ("Morover" instead of "Moreover").
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Methods, Micro-C
+  - **Evidence pointer** Methods section "Micro-C"
+  - **Issue** The Micro-C methods state that data was mapped to the "mouse reference genome (hg38)". This is contradictory, as hg38 is the human genome. This appears to be a copy-paste error.
+  - **Required correction** Correct the reference genome to "human reference genome (hg38)".
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, Figure 6
+  - **Evidence pointer** Results section "TDP-43 stabilizes dG4 formation at loop anchors in HepG2 cells"
+  - **Issue** The text states that "62.05% of the dG4 peaks remained unaltered" upon TDP-43 knockdown. It is unclear what constitutes "unaltered" and what the threshold for a significant change was. This should be defined.
+  - **Required correction** Define the criteria for "unaltered" peaks, including the statistical threshold and fold-change cutoff used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The discussion of disease relevance, particularly for neurodegeneration, is speculative and not directly supported by the data presented. The link between the findings in cancer cell lines and ALS/FTLD is tenuous.
+  - **Required correction** Soften the language regarding disease implications and clearly state that these are hypotheses requiring future investigation in appropriate models.
+- **Technical failings that need to be addressed before the case is established** 1. The causal relationship between TDP-43 binding and dG4 stabilization is not established (R1-M1). 2. The specificity of TDP-43 for DNA G4 over RNA G4 is not addressed (R1-M2). 3. The manuscript lacks quantitative effect sizes for key findings (R1-M3). 4. The generalizability of the findings beyond cancer cell lines is not demonstrated (R1-M4).
+- **Assessment against Nature-style criteria** **Originality:** The concept of TDP-43 as a DNA G4-stabilizing protein involved in chromatin looping is novel and extends the known functions of TDP-43. This is a fresh angle in the field. **Scientific importance:** If the mechanism is fully substantiated, it would have significant implications for understanding transcriptional regulation and the role of TDP-43 in disease. The potential to link DNA structure, chromatin architecture, and a disease-relevant protein is important. **Interdisciplinary readership:** The topic bridges genomics, chromatin biology, structural biology, and neurobiology, which could attract a broad audience. However, the current presentation is heavily focused on genomics and may not be accessible to all. **Technical soundness:** The multi-omics integration is a strength, but the lack of direct biochemical or biophysical evidence for TDP-43-dG4 interaction in vivo is a significant technical gap. The statistical rigor needs improvement. **Readability for nonspecialists:** The manuscript is dense and assumes significant background knowledge in genomics and chromatin biology. The abstract is somewhat accessible, but the results would be challenging for a general scientific audience. The flow is logical, but the writing could be clearer in places.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and potentially significant, but the current evidence does not fully establish the proposed mechanism. The authors need to provide direct evidence for TDP-43-dG4 interaction, address the RNA-binding confound, and strengthen the quantitative and causal aspects of their analysis.
+
+## Risk / unsupported claims
+- The claim that TDP-43 directly stabilizes dG4 structures in vivo is unsupported by the provided evidence.
+- The claim that TDP-43 binding to dG4 is a DNA-specific mechanism is unsupported, given the known RNA-binding activity of TDP-43.
+- The claim that the mechanism is relevant to neurodegenerative disease is speculative and not supported by the data.
+- The claim that TDP-43+/dG4+ loops are causally linked to transcriptional activation is not fully supported, as the analysis is largely correlative.
+- The generalizability of the findings from two cancer cell lines to other cell types is not established.

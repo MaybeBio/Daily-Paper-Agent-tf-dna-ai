@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text including main text, appendices, and figure captions
+- **Assessment boundary** Technical soundness, methodological novelty, experimental validation, and claims as stated in the manuscript
+- **Shared manuscript claim summary** The authors propose NN+MILP, a model-based black-box optimization framework for discrete constrained domains that uses piecewise-linear neural network surrogates and mixed-integer linear programming to solve the acquisition problem exactly. They claim this approach matches or surpasses problem-specific evolutionary baselines across synthetic and real-world benchmarks, with practical computational overhead.
+- **Visible evidence base** Main text Sections 1-6, Appendices A-G, Tables 1-2, Figures 1-12
+- **Missing materials affecting confidence** Code availability, detailed hyperparameter settings for all baselines, statistical significance tests, complete results for all 61 MINLPLib instances, and ablation details for the NAS-Bench-101 symmetry-breaking constraints
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem in discrete black-box optimization, proposing a principled framework that leverages MILP for exact acquisition function optimization. The core idea is sound and the experimental evaluation is reasonably broad. However, several technical concerns regarding the generality of the claims, the strength of the baselines, and the interpretation of results need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in Bayesian optimization, automated machine learning (particularly neural architecture search), and combinatorial optimization would find this work relevant. Practitioners dealing with constrained discrete search spaces in drug discovery, materials design, and hardware configuration could also benefit from the framework's ability to handle complex constraints declaratively.
+- **Major strengths** The use of MILP for exact acquisition optimization is a clean and well-motivated idea that directly addresses a known weakness of heuristic inner-loop solvers. The framework is general and can accommodate a wide range of constraints through MILP's declarative language. The experimental evaluation spans multiple problem classes, including a challenging real-world NAS benchmark, and includes controlled ablations that isolate the effect of exact optimization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim validity
+  - **Claim pointer** The authors claim that NN+MILP "surpasses or matches the performance of black-box algorithms tailored to the constraints at hand" (Section 1, Contributions).
+  - **Evidence pointer** Section 4.2, Figure 1
+  - **Concern** The comparison against "tailored" baselines is incomplete. For the constrained Ising problems, the only baselines are ConEvo and NN+ConEvo, both of which are evolutionary methods. No comparison is made against other model-based optimization approaches that can handle constraints, such as constrained Bayesian optimization with expected improvement or entropy search variants. The claim of superiority over "tailored" algorithms is therefore not fully supported.
+  - **Why it matters** The central contribution is the combination of NN surrogates with exact MILP optimization. Without comparison to other model-based constrained optimizers, it is unclear whether the observed gains come from the exact optimization or simply from using a neural network surrogate.
+  - **Resolution test** Add comparisons against at least one constrained Bayesian optimization baseline (e.g., using a GP surrogate with a constrained acquisition function) on the Ising problems, and report results in the main text or appendix.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "MILF provides optimality guarantees" for the acquisition problem (Section 3.4).
+  - **Evidence pointer** Section 3.4, Appendix A
+  - **Concern** The optimality guarantee depends on the tightness of the big-M values used in the ReLU formulation. The authors mention using a "more advanced method" to compute M, but the details are only briefly described in Appendix A. The quality of these bounds directly affects the practical solvability of the MILP, and the manuscript does not report how often the solver times out or the optimality gaps for the returned solutions.
+  - **Why it matters** If the MILP frequently times out, the claimed optimality guarantees are not realized in practice, and the comparison against heuristic solvers becomes less meaningful.
+  - **Resolution test** Report the frequency of solver timeouts, the distribution of optimality gaps for timed-out instances, and the sensitivity of results to the choice of big-M values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental rigor
+  - **Claim pointer** The authors claim that "the runtime of MILP is practical for use with black-box problems of real-world scale" (Section 4.4).
+  - **Evidence pointer** Section 4.4, Figure 3
+  - **Concern** The runtime analysis is limited to a single problem class (TfBind) and does not include the constrained Ising or MINLPLib problems. The reported times are also averaged across all trials, which may hide significant variance. No comparison is made against the total runtime of the baselines, including their inner-loop optimization time.
+  - **Why it matters** Practicality is a key selling point, but the evidence is too narrow to support the general claim. Users need to know how the method scales with problem size and constraint complexity.
+  - **Resolution test** Provide runtime distributions for all problem classes, including the largest MINLPLib instances, and compare total wall-clock time against baselines.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "no hyper-parameter tuning is performed across problems" (Section 4.1).
+  - **Evidence pointer** Section 4.1, Appendix C
+  - **Concern** While the NN architecture is fixed, the training procedure (e.g., number of epochs, learning rate, batch size) is described in Appendix C.1, but the exact values for some hyperparameters (e.g., learning rate schedule, early stopping criteria) are not fully specified. The baselines' hyperparameters are also not fully detailed, making it difficult to assess whether the comparison is fair.
+  - **Why it matters** Reproducibility is essential for a methodological contribution. Without complete hyperparameter specifications, other researchers cannot replicate the results or build upon the work.
+  - **Resolution test** Provide a complete table of all hyperparameters for the proposed method and all baselines, including any random seeds used.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.3, ReLU formulation
+  - **Evidence pointer** Equations (4) and (5)
+  - **Issue** The notation for the big-M constraints is not fully defined. The authors should clarify the domain of the variables and the exact form of the constraints.
+  - **Required correction** Add a brief explanation of the variables and constraints, and refer to a standard reference for the ReLU MILP formulation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 4.2, Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The figure shows normalized scores, but the normalization procedure is only described in the text. It would be helpful to also show the raw scores for at least one problem to give readers a sense of the actual performance differences.
+  - **Required correction** Add a supplementary figure with raw scores for a representative problem.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 5, MINLPLib results
+  - **Evidence pointer** Table 1
+  - **Issue** The table summarizes results across all 61 problems, but the breakdown by problem class is only in Appendix F. It would be useful to include the class-level breakdown in the main text.
+  - **Required correction** Add a small table or figure in the main text showing results by problem class.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 6, NAS-Bench-101
+  - **Evidence pointer** Figure 4
+  - **Issue** The authors note that symmetry-breaking constraints hurt performance, but the explanation is speculative. A more rigorous analysis, such as measuring the diversity of proposed points with and without symmetry breaking, would strengthen the discussion.
+  - **Required correction** Add a brief analysis of exploration behavior, or temper the hypothesis accordingly.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (incomplete baseline comparison), R1-M2 (optimality guarantees not fully verified in practice), R1-M3 (runtime evidence too narrow)
+- **Assessment against Nature-style criteria** Originality: The combination of NN surrogates with exact MILP optimization for discrete MBO is a novel contribution that fills a clear gap in the literature. Scientific importance: The problem of constrained discrete black-box optimization is relevant to many scientific and engineering applications, and the proposed framework offers a principled solution. Interdisciplinary readership: The work bridges optimization, machine learning, and combinatorial optimization, and should appeal to researchers in all three communities. Technical soundness: The methodology is sound in principle, but the experimental validation has gaps that need to be addressed. Readability for nonspecialists: The manuscript is generally well-written and accessible, though the MILP formulation details may be challenging for readers without an optimization background.
+- **Recommendation posture** Supportive if the major concerns are addressed, particularly the baseline comparisons and the verification of optimality guarantees in practice. The core idea is promising and the framework is general, but the current evidence does not fully support the strength of the claims made.

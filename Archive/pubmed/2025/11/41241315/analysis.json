@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41241315",
+  "title": "Stiffness-sensitive gene regulation in human mesenchymal stem cells: Modelling mechanotransduction to predict mineralization and bone protein expression.",
+  "authors": "Berteau, Jean-Philippe; Chekroun, Abdennasser; Pujo-Menjouet, Laurent; Yueh-Hsun Yang, Kevin",
+  "journal": "Journal of theoretical biology",
+  "published_date": "2025-11-16",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用微分方程模型模拟刚度敏感的骨基因调控网络，涉及RUNX2等转录因子与骨蛋白表达，但缺乏蛋白质-DNA三维互作建模或AI/物理模拟方法，仅属基因调控网络层面的工程建模，与TF-DNA互作课题关联较弱。",
+  "abstract": "The goal of our study was to establish how a specific part of the bone Gene Regulatory Network (GRN) controls mineralization in response to stiffness. We hypothesized that a system of differential equations model stiffness-sensitive gene regulation in human mesenchymal stem cells through the epistatic genetic interactions between stiffness (e.g. WNT-beta catenin pathway) and five of the main transcription factors and bone proteins (e.g. RUNX2, BSP, OSX, OC, and OPN). To test this hypothesis, we (i) performed in-vitro experiments culturing bone cells on different stiffness, (i) adapted our previously published model from being continuously time-dependent to continuously stiffness-sensitive, and (iii) simulated protein production in function of stiffness and other protein production from the best estimate of parameters coming from the experimental work. Our experimental findings reveal a non-parametric relationship between stiffness and RUNX2 production, with no discernible linear trends for other proteins. Modeling results demonstrate that continuous variations in stiffness enable simulation of bone GRN gene expression, fitting our novel experimental dataset. Specifically, our computational results indicate that OPN production peaks at low stiffness (8 kPa), while RUNX2, OSX, and OC achieve maximum production at higher stiffness levels (64 kPa). This alignment underscores the model's capacity to replicate experimental data accurately. Additionally, our approach predicts that WNT-beta-catenin activation serves as an enhancer for OPN and BSP production. The model also highlights a negative feedback-like interaction between OC and BSP production. Stiffness variations were shown to have a significant impact on OC and BSP production and a moderate effect on OPN production. By employing a stiffness-sensitive gene regulation model, we provide insights into one of the mineralization patterns through the prediction of bone protein expression dynamics.",
+  "abstract_zh": "本研究旨在探究骨基因调控网络（Gene Regulatory Network, GRN）中特定部分如何响应刚度来控制矿化过程。我们假设，通过刚度（如WNT-β连环蛋白通路）与五种主要转录因子及骨蛋白（如RUNX2、BSP、OSX、OC和OPN）之间的上位性遗传相互作用，一个微分方程系统能够模拟人骨髓间充质干细胞中刚度敏感的基因调控。为验证此假设，我们（i）进行了体外实验，在不同刚度条件下培养骨细胞；（ii）将我们先前发表的模型从连续时间依赖性调整为连续刚度敏感性；以及（iii）基于实验工作中获得的最佳参数估计，模拟了蛋白质产生随刚度及其他蛋白质产生的变化。实验结果显示，刚度与RUNX2产生之间存在非参数关系，而其他蛋白质未呈现明显的线性趋势。建模结果表明，刚度的连续变化能够模拟骨GRN基因表达，并拟合我们新的实验数据集。具体而言，计算结果显示，OPN产生在低刚度（8 kPa）时达到峰值，而RUNX2、OSX和OC在较高刚度（64 kPa）下达到最大产生量。这一一致性强调了模型准确复制实验数据的能力。此外，我们的方法预测WNT-β连环蛋白激活可作为OPN和BSP产生的增强因子。模型还揭示了OC与BSP产生之间类似负反馈的相互作用。刚度变化对OC和BSP产生具有显著影响，对OPN产生具有中等影响。通过采用刚度敏感的基因调控模型，我们为预测骨蛋白表达动态提供了对矿化模式之一的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41241315/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41241315/",
+  "paper_page_path": "papers/pubmed/41241315/index.html"
+}

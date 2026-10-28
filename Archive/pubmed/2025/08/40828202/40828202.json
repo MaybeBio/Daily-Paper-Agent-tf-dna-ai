@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "40828202",
+    "doi": "10.1007/s10528-025-11211-2",
+    "title": "Bioinformatics and Experimental Validation of Diagnostic Marker Genes for Myocardial Infarction and Analysis of Their Immune Cell Infiltration."
+  },
+  "content": {
+    "abstract": "This study aimed to identify diagnostic marker genes for myocardial infarction (MI) and analyzed the key genes pertaining to immune cell infiltration. The MI expression microarrays GSE48060 and GSE66360 were retrieved and downloaded from the GEO database. The merged expression data were subjected to Weighted Gene Co-expression Network Analysis (WGCNA). Subsequently, differentially expressed genes (DEGs) were analyzed in MI. Primary rat cardiomyocytes (NRVMs) were isolated for an oxygen-glucose deprivation/reoxygenation (OGD/R) model, in which the effect of ICAM1, NFIL3, TULP2, and ZFP36 on cell phenotype experiments was detected. Gene differential expression analysis identified 96 significant DEGs, and the intersection of these genes with the module genes obtained from WGCNA analysis yielded 81 candidate genes. LASSO regression and Support Vector Machine-Recursive Feature Elimination (SVM-RFE) algorithms identified 7 candidate diagnostic genes. ICAM1, NFIL3, TULP2, and ZFP36 exhibited good diagnostic potential in both experimental and validation datasets, showing significant correlations with immune cells, including Neutrophils. ICAM1, NFIL3, TULP2, and ZFP36 were markedly up-regulated in OGD/R-treated NRVMs, while ICAM1 knockdown suppressed NRVM damage triggered by OGD/R. ICAM1, NFIL3, TULP2, and ZFP36 can serve as candidate diagnostic genes for MI, and ICAM1 silencing can ameliorate OGD/R-elicited myocardial cell damage.",
+    "keywords": [
+      "Immune cell infiltration",
+      "Machine learning",
+      "Myocardial infarction",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "*Myocardial Infarction/genetics/immunology/diagnosis/pathology",
+      "Animals",
+      "Rats",
+      "*Computational Biology/methods",
+      "Myocytes, Cardiac/metabolism/immunology/pathology",
+      "Intercellular Adhesion Molecule-1/genetics",
+      "Gene Expression Profiling",
+      "Biomarkers/metabolism",
+      "Tristetraprolin/genetics",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Shuxing",
+        "Wang, Ru",
+        "Cui, Jian",
+        "Huo, Hongjie",
+        "Yao, Zhuhua"
+      ],
+      "short_names": [
+        "Wu S",
+        "Wang R",
+        "Cui J",
+        "Huo H",
+        "Yao Z"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-0106-6158"
+      ],
+      "affiliations": [
+        "Department of Cardiology 1, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China.",
+        "Department of Cardiology 1, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China.",
+        "Department of Cardiology 1, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China.",
+        "Department of Respiratory Medicine, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China.",
+        "Department of Cardiology 1, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China. yaozh900289@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Shuxing",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology 1, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ru",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology 1, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Jian",
+        "short_name": "Cui J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology 1, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China."
+        ]
+      },
+      {
+        "full_name": "Huo, Hongjie",
+        "short_name": "Huo H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Medicine, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Zhuhua",
+        "short_name": "Yao Z",
+        "identifiers": [
+          "0009-0007-0106-6158"
+        ],
+        "affiliations": [
+          "Department of Cardiology 1, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China. yaozh900289@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical genetics"
+    ],
+    "journal_abbrev": [
+      "Biochem Genet"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/19 12:32",
+    "fetched_at": "2026-10-01 00:16:46"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37741601",
+      "37442359",
+      "36978012",
+      "36407421",
+      "36269839",
+      "35899614",
+      "35864510",
+      "35790774",
+      "35741040",
+      "35668739",
+      "35281886",
+      "35050240",
+      "34777632",
+      "34490057",
+      "34212030",
+      "33868315",
+      "33568517",
+      "33187986",
+      "33165137",
+      "31778438",
+      "31157238",
+      "30696265",
+      "30453885",
+      "30210493",
+      "29132537",
+      "29031853",
+      "28158426",
+      "28018242",
+      "27068635",
+      "26673558",
+      "26371161",
+      "26330989",
+      "25792449",
+      "24038009",
+      "23202375",
+      "23185530",
+      "22257669",
+      "21614001",
+      "19114008",
+      "12921812",
+      "9096357"
+    ],
+    "similar": [
+      "40828202",
+      "40933471",
+      "40630623",
+      "39086489",
+      "41567222",
+      "40269003",
+      "38518057",
+      "42049254",
+      "35764238",
+      "38839020",
+      "39354722",
+      "38323113",
+      "39142001",
+      "40685440",
+      "40496861",
+      "39341981",
+      "39069636",
+      "40340571",
+      "41013556",
+      "39375405",
+      "40704466",
+      "41052072",
+      "40768057",
+      "40901831",
+      "40319218",
+      "40598145",
+      "41479901",
+      "40738705",
+      "39650552",
+      "41508240",
+      "40619072",
+      "38711508",
+      "36618351",
+      "42136960",
+      "42107160",
+      "41988156",
+      "35958412",
+      "41146237",
+      "35475279",
+      "40374840",
+      "42123756",
+      "40328901",
+      "35675985",
+      "42059276",
+      "41388523",
+      "41300841",
+      "42051519",
+      "39586719",
+      "38371524",
+      "41029776",
+      "39206894",
+      "41324863",
+      "40129981",
+      "40313958",
+      "39010664",
+      "41459671",
+      "39243324",
+      "41132349",
+      "32705275",
+      "40105149",
+      "39509434",
+      "39026250",
+      "38608447",
+      "40860289",
+      "42064079",
+      "40997906",
+      "39616855",
+      "41327289",
+      "40312440",
+      "41214111",
+      "39950480",
+      "41200172",
+      "40174368",
+      "39552895",
+      "41432483",
+      "36823662",
+      "34130601",
+      "40367892",
+      "38767974",
+      "42123445",
+      "40165133",
+      "38755717",
+      "39695788",
+      "41291978",
+      "41787525",
+      "39789578",
+      "40207230",
+      "37582718",
+      "38774864",
+      "37732314",
+      "41764607",
+      "38912048",
+      "41229424",
+      "41816328",
+      "39265357",
+      "40409241",
+      "40467768",
+      "39507054",
+      "37359526",
+      "40443672"
+    ],
+    "review": [
+      "40828202",
+      "34130601"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/heartattack.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Attack"
+      },
+      {
+        "url": "https://doi.org/10.1007/s10528-025-11211-2",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-219",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42352345",
+  "title": "TF-GateNet: An Interpretable and Biologically Guided Framework for Primary-Metastatic State Prediction from Somatic Genomic Alterations.",
+  "authors": "Zhou, Hao; Guo, Wenjia; He, Liang",
+  "journal": "Biomolecules",
+  "published_date": "2026-06-26",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用TF调控先验构建神经网络预测原发-转移状态，虽涉及TF但核心是表型分类而非TF-DNA结合互作建模，方法为生物约束网络而非AI/物理模拟结合机制研究。",
+  "abstract": "Metastasis remains a major cause of cancer mortality, making reliable primary-metastatic state prediction from somatic genomic alterations clinically important yet technically difficult. We present TF-GateNet, a biologically constrained neural network that combines TF-aware feature integration based on TRRUST and DoRothEA TF-gene regulatory priors with sample-specific dynamic gating on a Reactome-defined hierarchical sparse backbone. The model was evaluated on multi-center prostate and breast-cancer cohorts using mutation and copy-number features across 10 repeated runs on a fixed 80/10/10 split, together with independent prostate external validation, and was compared with biologically informed neural-network baselines (P-NET, BKGNet-Pathway, and BKGNet-Protein), a dense feed-forward neural network (FNN), and conventional machine-learning baselines (LR, SVM, RF, DT, and XGBoost). On prostate, TF-GateNet achieved the best internal performance (AUROC 0.954 +/- 0.005; AUPRC 0.925 +/- 0.007) and the best combined external performance (AUROC 0.952 +/- 0.009; AUPRC 0.898 +/- 0.018). On breast, TF-GateNet achieved the strongest internal ranking performance, reaching AUROC 0.893 +/- 0.004 and AUPRC 0.835 +/- 0.006. Ablation analysis indicated that TF-aware integration accounted for the larger prostate gain, whereas within the TF-GateNet family on breast, both TF-aware integration and dynamic gating contributed positively. Interpretability analysis further supported a cross-level route from TF-related genomic perturbation cues to genes, pathways, and phenotype-associated predictions. These results position TF-GateNet as a biologically grounded and interpretable framework for primary-metastatic state prediction, with the strongest overall evidence in prostate cancer and favorable internal evidence in breast cancer.",
+  "abstract_zh": "转移仍是癌症死亡的主要原因，因此从体细胞基因组改变中可靠预测原发-转移状态在临床上具有重要意义，但在技术上具有挑战性。我们提出了TF-GateNet，一种受生物学约束的神经网络，它结合了基于TRRUST和DoRothEA TF-基因调控先验的TF感知特征整合，以及在Reactome定义的层次稀疏骨干上的样本特异性动态门控。该模型在前列腺癌和乳腺癌多中心队列上进行了评估，使用突变和拷贝数特征，在固定的80/10/10划分上进行了10次重复运行，并进行了独立的前列腺外部验证，同时与生物学信息神经网络基线（P-NET、BKGNet-Pathway和BKGNet-Protein）、密集前馈神经网络（FNN）以及传统机器学习基线（LR、SVM、RF、DT和XGBoost）进行了比较。在前列腺癌中，TF-GateNet实现了最佳的内部性能（AUROC 0.954 ± 0.005；AUPRC 0.925 ± 0.007）和最佳的综合外部性能（AUROC 0.952 ± 0.009；AUPRC 0.898 ± 0.018）。在乳腺癌中，TF-GateNet实现了最强的内部排名性能，达到AUROC 0.893 ± 0.004和AUPRC 0.835 ± 0.006。消融分析表明，TF感知整合贡献了前列腺癌中较大的性能提升，而在乳腺癌的TF-GateNet家族内部，TF感知整合和动态门控均产生了积极贡献。可解释性分析进一步支持了从TF相关基因组扰动线索到基因、通路和表型关联预测的跨层次路径。这些结果将TF-GateNet定位为一个具有生物学基础且可解释的原发-转移状态预测框架，在前列腺癌中具有最强的总体证据，在乳腺癌中具有有利的内部证据。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42352345/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42352345/",
+  "paper_page_path": "papers/pubmed/42352345/index.html"
+}

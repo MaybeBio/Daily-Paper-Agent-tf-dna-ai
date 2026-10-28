@@ -1,0 +1,330 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv.15002493/v2",
+  "title": "Generative Active Learning for Molecular Design with REINVENT: Balancing Binding Affinity and Synthetic Accessibility",
+  "doi": "10.26434/chemrxiv.15002493/v2",
+  "abstract": "We present a generative active learning (GAL) framework for molecular design that integrates the generative AI platform REINVENT with physics-based free-energy estimation via ESMACS, specifically addressing synthetic tractability. In a previous study we have shown that iterative generation and optimization of molecules for protein binding affinity can be effectively achieved. For drug discovery, however, molecules need to be synthesized for experimental validation. Molecules with unclear synthetic routes will be de-prioritized regardless of their predicted binding affinity. Here, we address this by incorporating additional synthesizability constraints into the computational design process, framing the problem as a multi-objective optimization task. We show that it is possible to simultaneously optimize candidate molecules for both binding affinity and synthetic accessibility. Our results show that integrating synthesizability prediction into physics-based GAL workflows enables the efficient design of compounds that are chemically diverse and predicted to be strong binders and synthetically tractable at the same time, demonstrating efficient and practical computational drug design.",
+  "authors": [
+    "Marco Klähn",
+    "Hannes H Loeffler",
+    "Shunzhou Wan",
+    "Alexey Voronov",
+    "Xibei Zhang",
+    "Agastya P. Bhati",
+    "Peter V. Coveney"
+  ],
+  "published_date": "2026-05-21",
+  "updated_date": "2026-05-21T09:46:08Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv.15002493/v2",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15002493/v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "2",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            23
+          ]
+        ],
+        "date-time": "2026-09-23T01:04:23Z",
+        "timestamp": 1790125463386,
+        "version": "4.0.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>We present a generative active learning (GAL) framework for molecular design that integrates the generative AI platform REINVENT with physics-based free-energy estimation via ESMACS, specifically addressing synthetic tractability. In a previous study we have shown that iterative generation and optimization of molecules for protein binding affinity can be effectively achieved. For drug discovery, however, molecules need to be synthesized for experimental validation. Molecules with unclear synthetic routes will be de-prioritized regardless of their predicted binding affinity. Here, we address this by incorporating additional synthesizability constraints into the computational design process, framing the problem as a multi-objective optimization task. We show that it is possible to simultaneously optimize candidate molecules for both binding affinity and synthetic accessibility. Our results show that integrating synthesizability prediction into physics-based GAL workflows enables the efficient design of compounds that are chemically diverse and predicted to be strong binders and synthetically tractable at the same time, demonstrating efficient and practical computational drug design.</jats:p>",
+      "DOI": "10.26434/chemrxiv.15002493/v2",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ],
+        "date-time": "2026-05-21T09:46:08Z",
+        "timestamp": 1779356768000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Generative Active Learning for Molecular Design with REINVENT: Balancing Binding Affinity and Synthetic Accessibility"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Marco",
+          "family": "Klähn",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Molecular AI, Discovery Sciences",
+              "place": [
+                "Mölndal, Sweden"
+              ]
+            },
+            {
+              "name": "R&D, AstraZeneca",
+              "place": [
+                "Mölndal, Sweden"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hannes H",
+          "family": "Loeffler",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Molecular AI, Discovery Sciences",
+              "place": [
+                "Mölndal, Sweden"
+              ]
+            },
+            {
+              "name": "R&D, AstraZeneca",
+              "place": [
+                "Mölndal, Sweden"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shunzhou",
+          "family": "Wan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Centre for Computational Science, Department of Chemistry",
+              "place": [
+                "London, U.K"
+              ]
+            },
+            {
+              "name": "University College London",
+              "place": [
+                "London, U.K"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexey",
+          "family": "Voronov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Molecular AI, Discovery Sciences",
+              "place": [
+                "Mölndal, Sweden"
+              ]
+            },
+            {
+              "name": "R&D, AstraZeneca",
+              "place": [
+                "Mölndal, Sweden"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xibei",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Centre for Computational Science, Department of Chemistry",
+              "place": [
+                "London, U.K"
+              ]
+            },
+            {
+              "name": "University College London",
+              "place": [
+                "London, U.K"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Agastya P.",
+          "family": "Bhati",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Centre for Computational Science, Department of Chemistry",
+              "place": [
+                "London, U.K"
+              ]
+            },
+            {
+              "name": "University College London",
+              "place": [
+                "London, U.K"
+              ]
+            },
+            {
+              "name": "Wadhwani School of Data Science and Artificial Intelligence",
+              "place": [
+                "Chennai, India"
+              ]
+            },
+            {
+              "name": "Indian Institute of Technology Madras",
+              "place": [
+                "Chennai, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Peter V.",
+          "family": "Coveney",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Centre for Computational Science, Department of Chemistry",
+              "place": [
+                "London, U.K"
+              ]
+            },
+            {
+              "name": "University College London",
+              "place": [
+                "London, U.K"
+              ]
+            },
+            {
+              "name": "Advanced Research Computing Centre",
+              "place": [
+                "London, U.K."
+              ]
+            },
+            {
+              "name": "University College London",
+              "place": [
+                "London, U.K."
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15002493/v2",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ],
+        "date-time": "2026-05-21T09:46:08Z",
+        "timestamp": 1779356768000
+      },
+      "score": 87.09805,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15002493/v2"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv.15002493/v2",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

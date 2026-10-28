@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, results, discussion, methods) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, methodological soundness, and evidentiary support based solely on the provided text
+- **Shared manuscript claim summary** The authors investigate the effects of cutoff distance and feature selection on graph neural network performance for protein binding site residue prediction across four eukaryotic model organisms, reporting that an 8 Å cutoff is optimal, hybrid cutoffs that enrich binding site connectivity enhance performance, sequence-based ESM-2 features are highly informative, and structure-based backbone dihedral features alone lead to overprediction
+- **Visible evidence base** Text descriptions of results, methodological details, and references to figures and tables that were not provided
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, and quantitative performance values; the manuscript references Fig. 1, Fig. 2, Fig. 3, Fig. 4, Fig. S1, Fig. S2, Fig. S3, Fig. S4, Table 1, Table S1, and Table S2, none of which are available for inspection
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in computational structural biology, namely the systematic evaluation of graph construction parameters and feature types for binding site residue prediction. The study design is logical and the cross-organism generalization analysis is a valuable contribution. However, the provided text alone does not permit verification of the central quantitative claims. The reported performance differences between cutoff distances and feature sets are described qualitatively, and the key figures and tables that would substantiate these claims are not available. The methodological description is generally clear, but several important details regarding model selection, statistical significance testing, and comparison with existing methods are absent. The claim of evolutionary conservation of binding site residues, while plausible, is supported only by indirect evidence of cross-organism generalization and requires more direct analysis to be established.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, particularly those developing graph-based deep learning methods for structural biology. Researchers interested in the practical choices of graph construction parameters for protein representation learning would also find the systematic comparison of cutoff distances useful. The cross-species generalization analysis may interest evolutionary biologists studying functional conservation of protein residues.
+- **Major strengths** The study addresses a practical and under-explored question about graph construction parameters in protein representation learning. The systematic evaluation across five cutoff distances and multiple feature combinations is a reasonable experimental design. The inclusion of four model organisms for cross-species generalization testing strengthens the potential impact of the findings. The hybrid cutoff approach is an interesting methodological innovation. The use of a pre-trained protein language model for feature extraction aligns with current best practices in the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that an 8 Å cutoff is most effective for binding site residue prediction and that increasing cutoff distance impairs model performance
+  - **Evidence pointer** Fig. 2, Fig. S2, Table 1 (location not provided)
+  - **Concern** The central quantitative claim regarding optimal cutoff distance cannot be verified from the provided text. The authors state that "we observe consistently higher MCC loss for graphs of larger cutoff distances" and report area under precision-recall curve values decreasing from 0.70 to 0.36 for human proteins as cutoff increases from 8 Å to 24 Å, but the actual performance curves, error bars, and statistical comparisons are not available. The claim that 8 Å is "most effective" requires demonstration that the difference from 12 Å is meaningful and not within noise.
+  - **Why it matters** The optimal cutoff distance is the primary finding of the manuscript. Without access to the actual performance data, statistical significance testing, and variance estimates, the central conclusion cannot be evaluated. The authors report that the area under the ROC curve is "greatest when using 8 Å or 12 Å" for three organisms but "greatest when using the 20 Å cutoff" for yeast, which complicates the claim of a universal optimal cutoff.
+  - **Resolution test** Provide the actual performance curves with confidence intervals, statistical tests comparing cutoff conditions, and per-organism breakdowns. Demonstrate that the 8 Å advantage is statistically significant and consistent across organisms.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that hybrid cutoffs that enrich connectivity between binding site residues enhance performance, and that predicted hybrid cutoffs still outperform standard cutoffs
+  - **Evidence pointer** Fig. 3, Fig. S3 (location not provided)
+  - **Concern** The hybrid cutoff results are presented as a key methodological contribution, but the supporting data are not available. The authors report that the hybrid 24 Å | 8 Å GNN "substantially reduced the MCC loss" and increased areas under ROC and precision-recall curves to "at least 0.95 and 0.86, respectively, for the rat protein graphs," but the actual values for all organisms, the comparison with the inverted control, and the performance of the predicted hybrid approach are not provided in the text.
+  - **Why it matters** The hybrid cutoff approach and its predicted variant are presented as having "potential for enhancing GNN's performance." This is a significant claim that would guide future method development. The practical utility of the predicted hybrid approach depends on the magnitude of improvement over standard cutoffs, which cannot be assessed from the text alone.
+  - **Resolution test** Provide the full performance comparison across all organisms for standard, hybrid, inverted hybrid, and predicted hybrid conditions, including variance estimates and statistical significance testing.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that sequence-based features from ESM-2 carry substantial information for binding site prediction, while structure-based backbone dihedral features are inadequate due to overprediction
+  - **Evidence pointer** Fig. 4, Fig. S4, Table S2 (location not provided)
+  - **Concern** The feature importance analysis is a central component of the study, but the quantitative results are not available. The authors report that the structure-based only GNN achieves an area under the ROC curve of 0.65 and an area under the precision-recall curve of 0.03, but the corresponding values for the sequence-based only GNN and the combined GNN are not stated in the text. The claim that structure-based features provide "unique contributions" is based on a qualitative comparison of true positives and false positives that cannot be evaluated without the actual predictions.
+  - **Why it matters** The relative contribution of sequence-based versus structure-based features has direct implications for practical method design. The claim that backbone geometry alone is inadequate due to overprediction is important, but the threshold for "inadequate" and the comparison with the combined model need to be quantified.
+  - **Resolution test** Provide the full performance metrics for sequence-only, structure-only, and combined models across all organisms, including precision-recall curves, confusion matrices, and statistical comparisons.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The claim that models trained on human proteins generalize to mouse, rat, and yeast proteins, providing evidence for evolutionary conservation of binding site residues
+  - **Evidence pointer** Results section, Discussion section (location not provided)
+  - **Concern** The cross-species generalization claim is presented as evidence for evolutionary conservation, but the analysis appears to be limited to evaluating a model trained on human data against test sets from other organisms. This is a reasonable approach, but the text does not describe any direct analysis of sequence or structural conservation of the predicted binding site residues. The claim of "evolutionary conservation" requires more direct evidence, such as sequence alignment analysis or comparison of predicted binding sites across orthologous proteins.
+  - **Why it matters** The evolutionary conservation claim is a broader scientific conclusion that extends beyond the methodological contributions. If the authors intend to make this claim, they need to provide direct evidence of conservation rather than relying solely on cross-species model generalization, which could be explained by shared general properties of binding sites rather than specific conservation.
+  - **Resolution test** Add direct analysis of binding site residue conservation across orthologous proteins, or temper the claim to state that cross-species generalization suggests shared binding site characteristics rather than evolutionary conservation.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological completeness
+  - **Claim pointer** The claim that the study systematically investigates cutoff distance and feature importance for binding site residue prediction
+  - **Evidence pointer** Methods section, Results section (location not provided)
+  - **Concern** The manuscript does not describe any comparison with existing binding site prediction methods. The authors mention several existing GNN-based methods in the introduction, but no baseline comparisons are reported. Without benchmarking against established methods, the practical significance of the findings is unclear.
+  - **Why it matters** For a methodological study, demonstrating improvement over or at least parity with existing approaches is essential for establishing the value of the proposed framework. The absence of baseline comparisons limits the impact of the findings.
+  - **Resolution test** Add benchmark comparisons with existing binding site prediction methods on the same datasets, or clearly state the scope of the study as an ablation analysis rather than a competitive benchmarking study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Discussion section
+  - **Issue** The abstract states that "sparse graphs generated by an 8 Å cutoff are most effective" but the Discussion notes that the optimal cutoff may depend on the organism, as yeast showed the best ROC area at 20 Å. This apparent inconsistency should be addressed.
+  - **Required correction** Clarify whether the 8 Å recommendation is based on precision-recall performance specifically, and discuss the organism-dependent variation in the Discussion.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Loss function
+  - **Evidence pointer** Methods section, Loss function subsection
+  - **Issue** The loss function is described with reference to equations numbered (9) and (11), but the equations themselves are not fully defined in the text. The relationship between the MCC loss and the standard MCC metric is not entirely clear.
+  - **Required correction** Provide the explicit mathematical formulation of the MCC loss function and clarify how it differs from the standard MCC.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Dataset preparation
+  - **Evidence pointer** Results section, Dataset preparation subsection
+  - **Issue** The text states that proteins with sequence length greater than 2,700 residues are excluded, but the rationale for this cutoff is not provided.
+  - **Required correction** Briefly explain the reason for the length cutoff, such as computational constraints or graph size limitations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Dataset preparation
+  - **Evidence pointer** Results section, Dataset preparation subsection
+  - **Issue** The text mentions that binding site annotations are based on "expert curation of experimental data in the literature and cross references of protein family and domain annotations from curated databases," but does not describe how annotation quality or consistency was assessed.
+  - **Required correction** Add a brief description of any quality control measures applied to the annotation data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The Discussion states that "having a similar geometry of a binding site without direct sidechain information is insufficient for accurate predictions," but this conclusion is based on the structure-based only model using only backbone dihedral angles. The statement could be interpreted as a general claim about structure-based features.
+  - **Required correction** Clarify that this conclusion applies specifically to the backbone dihedral angle features used in this study, not to all possible structure-based features.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Hardware resources
+  - **Evidence pointer** Methods section, Hardware resources subsection
+  - **Issue** The hardware description is brief and does not include training time or computational cost comparisons across the different cutoff conditions.
+  - **Required correction** Add approximate training times or computational cost information to help readers assess the practical feasibility of the approach.
+- **Technical failings that need to be addressed before the case is established** The absence of all figures, tables, and supplementary materials prevents verification of the central quantitative claims. The manuscript text alone does not provide sufficient numerical detail to evaluate the reported performance differences. The lack of statistical significance testing and confidence intervals for the reported performance metrics is a substantive gap. The absence of baseline comparisons with existing methods limits the assessment of practical impact. The cross-species generalization analysis does not directly support the evolutionary conservation claim without additional conservation analysis.
+- **Assessment against Nature-style criteria** Originality: The systematic evaluation of cutoff distance for binding site prediction is a useful contribution, though the individual components (GNNs for binding site prediction, ESM-2 features, cutoff analysis) are not novel in isolation. The hybrid cutoff approach has some originality. Scientific importance: The findings could inform practical choices in graph-based protein representation learning, but the impact is incremental rather than transformative. The cross-species analysis adds value but does not fundamentally change understanding of binding site biology. Interdisciplinary readership: The work is primarily of interest to computational biologists and machine learning researchers working on protein structure. The broader structural biology community may find the cutoff analysis useful, but the appeal is limited. Technical soundness: The methodological approach is reasonable, but the inability to verify the quantitative results from the provided text is a significant concern. The loss function and evaluation metrics are appropriate for the imbalanced classification problem. Readability for nonspecialists: The manuscript is generally well-written and accessible, with clear motivation and logical flow. The methods section is appropriately detailed for a specialist audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question with a reasonable experimental design, but the central quantitative claims cannot be verified without the figures, tables, and supplementary materials. The authors should be invited to resubmit with the full set of results, including statistical significance testing, baseline comparisons, and a more direct analysis supporting the evolutionary conservation claim.

@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "41849361",
+    "doi": "10.1371/journal.pcbi.1014100",
+    "title": "Zero-shot prediction of drug responses using biologically informed neural networks trained on phosphoproteomic timeseries."
+  },
+  "content": {
+    "abstract": "Cellular signaling is driven by complex, dynamic phosphorylation networks that control growth and survival, and their dysregulation underlies diseases such as cancer. Although modern mass spectrometry enables large-scale quantification of phosphoproteomic responses over time, these measurements remain descriptive and cannot by themselves predict how signaling will evolve under perturbations. Here, we extend a biologically informed recurrent neural network framework (LEMBAS), to learn time-resolved phosphoproteomic trajectories. We introduce two interpretable modules; a phosphosite mapping that links signaling nodes to measured phosphorylation sites and a monotonic time mapping that aligns continuous experimental times to discrete signaling steps. Using synthetic benchmarks and an EGF-stimulation dataset with inhibitor treatments, the model accurately interpolates unseen time points and predicts drug-induced phosphoproteomic responses in a zero-shot setting, outperforming naive and fully connected baselines. Importantly, the model identifies both canonical and non-canonical signaling effects, including modulation of the transcription factor FOXO3:S7 (from the PI3K/AKT pathway) by drugs affecting PTPN11 (from the RAS/ERK pathway). By combining mechanistic priors with deep learning, our framework provides a scalable approach to interpret and predict dynamic drug responses from phosphoproteomic data.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Phosphoproteins/metabolism",
+      "*Proteomics/methods",
+      "Humans",
+      "Signal Transduction/drug effects",
+      "Phosphorylation/drug effects",
+      "Computational Biology/methods",
+      "*Neural Networks, Computer",
+      "Recurrent Neural Networks",
+      "Predictive Learning Models"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Antonopoulos, Konstantinos",
+        "Nordenstorm, Olof",
+        "Nilsson, Avlant"
+      ],
+      "short_names": [
+        "Antonopoulos K",
+        "Nordenstorm O",
+        "Nilsson A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2781-3872",
+        "ORCID: 0009-0003-5711-376X",
+        "ORCID: 0000-0002-9476-4516"
+      ],
+      "affiliations": [
+        "Department of Protein Science, SciLifeLab, KTH Royal Institute of Technology, Stockholm, Sweden.",
+        "Department of Cell and Molecular Biology, SciLifeLab, Karolinska Institutet, Stockholm, Sweden.",
+        "Department of Cell and Molecular Biology, SciLifeLab, Karolinska Institutet, Stockholm, Sweden.",
+        "Department of Cell and Molecular Biology, SciLifeLab, Karolinska Institutet, Stockholm, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Antonopoulos, Konstantinos",
+        "short_name": "Antonopoulos K",
+        "identifiers": [
+          "0000-0003-2781-3872"
+        ],
+        "affiliations": [
+          "Department of Protein Science, SciLifeLab, KTH Royal Institute of Technology, Stockholm, Sweden.",
+          "Department of Cell and Molecular Biology, SciLifeLab, Karolinska Institutet, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Nordenstorm, Olof",
+        "short_name": "Nordenstorm O",
+        "identifiers": [
+          "0009-0003-5711-376X"
+        ],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, SciLifeLab, Karolinska Institutet, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Nilsson, Avlant",
+        "short_name": "Nilsson A",
+        "identifiers": [
+          "0000-0002-9476-4516"
+        ],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, SciLifeLab, Karolinska Institutet, Stockholm, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/18 18:36",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40038452",
+      "40011722",
+      "39948231",
+      "39886532",
+      "39672099",
+      "39511177",
+      "37080984",
+      "36618990",
+      "36184188",
+      "35654811",
+      "35582276",
+      "34468274",
+      "34175443",
+      "34038718",
+      "32712320",
+      "30624608",
+      "29618526",
+      "28768879",
+      "28741507",
+      "28286965",
+      "27898060",
+      "27087446",
+      "25703329",
+      "24919880",
+      "24137107",
+      "23803171",
+      "22139133",
+      "22128155",
+      "21376230",
+      "20225868",
+      "19644473"
+    ],
+    "similar": [
+      "41849361",
+      "42475469",
+      "39508840",
+      "42336198",
+      "30417516",
+      "16806894",
+      "27422710",
+      "30372442",
+      "42502984",
+      "42579872",
+      "41570893",
+      "26060331",
+      "38724920",
+      "22446821",
+      "34271980",
+      "30779046",
+      "42273731",
+      "23911959",
+      "22517431",
+      "17559646",
+      "21177495",
+      "21738781",
+      "39424730",
+      "31722220",
+      "22851037",
+      "42561153",
+      "40914970",
+      "18836207",
+      "27336693",
+      "28255713",
+      "38683133",
+      "24712722",
+      "21085658",
+      "37577496",
+      "41160492",
+      "37600972",
+      "33619172",
+      "26395771",
+      "24263233",
+      "38724493",
+      "42482086",
+      "24919880",
+      "27774993",
+      "42425400",
+      "42065042",
+      "30577793",
+      "19997482",
+      "42304175",
+      "40183298",
+      "18619541",
+      "41735215",
+      "20071362",
+      "22154696",
+      "40946487",
+      "22009073",
+      "20459641",
+      "26020784",
+      "28874695",
+      "32618424",
+      "41845230",
+      "26057728",
+      "37450158",
+      "30072490",
+      "19357636",
+      "18270216",
+      "28336062",
+      "42412846",
+      "19690332",
+      "28009266",
+      "42688381",
+      "19212952",
+      "41762162",
+      "42385413",
+      "42536676",
+      "40796376",
+      "21900204",
+      "40507977",
+      "19707567",
+      "20643779",
+      "40862336",
+      "23505293",
+      "30563849",
+      "41997234",
+      "39026321",
+      "41422564",
+      "41257586",
+      "33371891",
+      "21413766",
+      "41771580",
+      "33187537",
+      "42601573",
+      "24068923",
+      "28961369",
+      "41707849",
+      "24218548",
+      "21096084",
+      "23751130",
+      "34569154",
+      "32680529",
+      "41139924"
+    ],
+    "review": [
+      "41849361",
+      "16806894",
+      "42273731",
+      "18619541",
+      "22154696",
+      "22009073",
+      "30072490",
+      "18270216",
+      "19212952"
+    ],
+    "pmc": [
+      "13035234"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1014100",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41849361/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO3-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1556",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

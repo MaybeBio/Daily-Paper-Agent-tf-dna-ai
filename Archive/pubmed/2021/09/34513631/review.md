@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided.
+- **Assessment boundary** Scientific validity, technical soundness, and clarity of claims based solely on the supplied text. No external data, figures, or supplementary materials were available for verification.
+- **Shared manuscript claim summary** The authors report the identification of three novel mutations in the DOF 4.2 zinc finger coding sequence from a greenhouse-grown Arabidopsis thaliana variant, including a missense (S18G), a silent, and a nonsense mutation leading to a truncated protein. They express the truncated domain in E. coli and use molecular dynamics simulations to predict that the truncated form has severely reduced DNA binding affinity compared to the wild type.
+- **Visible evidence base** Text descriptions of cloning, expression, sequencing, and MD simulation results. Figures are referenced but not provided.
+- **Missing materials affecting confidence** All figures (Figures 1–8), raw sequencing data, MD simulation parameters, trajectory analyses, and validation metrics are not available. This limits independent verification of key results.
+
+## Reviewer
+- **Overall assessment** The manuscript reports a potentially interesting natural variant of a plant transcription factor, but the evidence provided is insufficient to robustly support the central claims. The experimental design is incomplete, the MD simulation methodology lacks critical details, and the conclusions extend beyond what the data can justify. Major revisions and additional data are required.
+- **Who would be interested in the results, and why** Researchers studying plant transcription factors, particularly DOF family proteins, and those interested in natural genetic variation affecting DNA binding. The work may also be of interest to computational biologists using MD simulations to predict protein-DNA interactions, though the methodological limitations would need to be addressed.
+- **Major strengths** The identification of a naturally occurring truncated DOF 4.2 variant is novel and could have biological relevance. The use of both experimental cloning/expression and computational simulation is a reasonable approach. The manuscript is clearly written and the logical flow is easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence
+  - **Claim pointer** The authors claim that the mutant Arabidopsis thaliana variant expresses a truncated DOF 4.2 protein and that this truncation adversely affects DNA binding.
+  - **Evidence pointer** Results section, Figures 1–5; location not provided
+  - **Concern** The manuscript does not provide direct evidence that the truncated DOF 4.2 protein is actually expressed in the plant. The mutations were identified at the DNA/cDNA level, but no transcript quantification, protein detection (e.g., western blot), or phenotypic analysis is presented. The claim that the plant "may express" the truncated form is speculative.
+  - **Why it matters** Without evidence of endogenous expression, the biological relevance of the mutations is unclear. The entire premise of the study depends on the assumption that the truncated protein is produced in the plant.
+  - **Resolution test** Provide transcript-level evidence (e.g., RT-qPCR or RNA-seq) and/or protein-level evidence (e.g., western blot with a DOF 4.2-specific antibody) from the mutant plant. Alternatively, clearly state that expression is only inferred from cDNA sequencing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational methodology
+  - **Claim pointer** The authors claim that MD simulations show the truncated DOF 4.2-ZF has a very low chance of binding to its cognate DNA, based on positive binding free energies (~500 kcal/mol).
+  - **Evidence pointer** Methods section, Model building and molecular dynamics simulation studies; Results section, In silico investigation; Figures 6–8; location not provided
+  - **Concern** The MD simulation methodology is critically underdescribed. No details are given on how the protein-DNA complex was modeled, what DNA sequence was used, how the truncated model was built, what force field was applied, how the system was equilibrated, or how binding free energies were calculated. The reported ∆Gbinding value of ~500 kcal/mol is implausibly large and suggests a methodological error or a non-physical model. No error bars or replicate simulations are reported.
+  - **Why it matters** The central conclusion about loss of DNA binding relies entirely on the MD results. Without a rigorous and reproducible computational protocol, the claim is not credible.
+  - **Resolution test** Provide a full description of the simulation setup, including force field parameters, DNA sequence, model construction, equilibration protocol, and binding free energy calculation method. Report replicate simulations with standard deviations. Validate the model against known DOF-DNA interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability
+  - **Claim pointer** The authors claim that sequencing revealed three mutations compared to the wild type, and that these are novel.
+  - **Evidence pointer** Results section, Cloning of DOF4.2ZF domain sequence; Figure 1; location not provided
+  - **Concern** The sequencing data are not shown. The chromatograms, alignment to the reference sequence, and the specific nucleotide changes are not provided. The claim of novelty cannot be assessed without comparison to known polymorphisms in Arabidopsis populations.
+  - **Why it matters** The identification of novel mutations is a primary claim of the manuscript. Without the underlying data, the claim is unverifiable.
+  - **Resolution test** Provide the sequencing chromatograms, the reference sequence alignment, and a statement of how novelty was determined (e.g., comparison to the Arabidopsis 1001 Genomes database).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional validation
+  - **Claim pointer** The authors conclude that the mutations adversely affect DNA binding ability of the truncated DOF 4.2.
+  - **Evidence pointer** Discussion section; location not provided
+  - **Concern** No experimental validation of DNA binding is provided. The MD simulation predictions are not corroborated by any in vitro binding assay (e.g., EMSA, SPR, or ITC). The conclusion is therefore based solely on computational predictions.
+  - **Why it matters** Computational predictions, especially with the methodological issues noted above, are not sufficient to establish a functional deficit. Experimental validation is essential for the claim to be convincing.
+  - **Resolution test** Perform an in vitro DNA binding assay with the purified truncated and wild-type DOF 4.2-ZF proteins to directly compare binding affinities.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, Methods
+  - **Evidence pointer** Abstract, Methods section; location not provided
+  - **Issue** The abstract states that the purpose is to report mutations, but the methods section focuses on cloning and expression. The connection between the experimental work and the reported mutations is not clearly articulated.
+  - **Required correction** Clarify in the abstract and methods how the mutations were discovered and how the cloning/expression work relates to the identification of the mutations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, Model building and molecular dynamics simulation studies
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The description of the MD simulation is missing key parameters, such as the force field, water model details, temperature and pressure coupling methods, and the length of the production run.
+  - **Required correction** Add a complete description of the simulation parameters to allow reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section; location not provided
+  - **Issue** The statement that the mutations "did not have detrimental effects on germination and growth" is not supported by any data presented in the manuscript.
+  - **Required correction** Either provide phenotypic data to support this claim or remove it.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results, Figure 5
+  - **Evidence pointer** Results section, Figure 5; location not provided
+  - **Issue** The SDS-PAGE result is described as showing a band at ~31 kDa, but the expected size of the GST-tagged truncated DOF 4.2-ZF is not calculated or discussed. This makes it difficult to assess whether the band corresponds to the expected product.
+  - **Required correction** Provide the calculated molecular weight of the fusion protein and discuss the observed band in that context.
+
+## Risk / unsupported claims
+- The claim that the mutant Arabidopsis thaliana variant expresses a truncated DOF 4.2 protein is unsupported by direct experimental evidence.
+- The claim that the mutations are novel is unverifiable without sequencing data and comparison to known polymorphisms.
+- The claim that the truncated DOF 4.2-ZF has very low DNA binding affinity is based on MD simulations that are methodologically underdescribed and potentially flawed.
+- The statement that the mutations did not affect plant growth is unsupported by any phenotypic data.
+- The conclusion that the mutations adversely affect DNA binding is not experimentally validated.

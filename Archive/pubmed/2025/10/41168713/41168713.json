@@ -1,0 +1,285 @@
+{
+  "identity": {
+    "pmid": "41168713",
+    "doi": "10.1186/s12864-025-12196-3",
+    "title": "A novel prediction method for protein-DNA binding sites based on protein language model fusion features with SE-connection pyramidal network and ensemble learning."
+  },
+  "content": {
+    "abstract": "Protein-DNA interactions are crucial in life processes such as gene expression and regulation. Therefore, the accurate prediction of DNA-binding sites on proteins is highly important for the advancement of scientific understanding in the field of biological activities. In this work, we propose a protein-DNA binding site prediction framework, termed Evolutionary Scale Modeling-SE-Connection Pyramidal (ESM-SECP), which integrates a sequence-feature-based prediction method with a sequence-homology-based predictor via ensemble learning. The sequence-feature-based prediction method is built on two types of input features: ESM-2 protein language model embeddings and evolutionary conservation information computed by PSI-BLAST. These features are fused by a multi-head attention mechanism and processed through the newly proposed SE-Connection Pyramidal(SECP) network for prediction. The sequence-template method, based on sequence homology, serves as a complementary approach to predict DNA-binding residues. The two predictors are combined via ensemble learning to improve overall model performance. Through the experimental validation of the TE46 and TE129 datasets, ESM-SECP outperforms the traditional methods in several evaluation indices, demonstrating its outstanding performance in Protein-DNA binding site prediction.",
+    "keywords": [
+      "Ensemble learning",
+      "Protein language model fusion features",
+      "Protein-DNA binding site",
+      "SE-connection pyramidal network",
+      "Sequence homology"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*DNA/metabolism/chemistry",
+      "*DNA-Binding Proteins/metabolism/chemistry",
+      "Protein Binding",
+      "*Computational Biology/methods",
+      "*Machine Learning",
+      "Algorithms",
+      "Ensemble Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Chenrui",
+        "Jiang, Jingqing",
+        "Zhao, Haiyan",
+        "Song, Jiazhi"
+      ],
+      "short_names": [
+        "Zhang C",
+        "Jiang J",
+        "Zhao H",
+        "Song J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9272-7191"
+      ],
+      "affiliations": [
+        "College of Computer Science and Technology, Inner Mongolia Minzu University, Inner Mongolia, China.",
+        "College of Computer Science and Technology, Inner Mongolia Minzu University, Inner Mongolia, China.",
+        "College of Computer Science and Technology, Inner Mongolia Minzu University, Inner Mongolia, China.",
+        "College of Computer Science and Technology, Inner Mongolia Minzu University, Inner Mongolia, China. songjz671@nenu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Chenrui",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Technology, Inner Mongolia Minzu University, Inner Mongolia, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Jingqing",
+        "short_name": "Jiang J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Technology, Inner Mongolia Minzu University, Inner Mongolia, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Haiyan",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer Science and Technology, Inner Mongolia Minzu University, Inner Mongolia, China."
+        ]
+      },
+      {
+        "full_name": "Song, Jiazhi",
+        "short_name": "Song J",
+        "identifiers": [
+          "0000-0001-9272-7191"
+        ],
+        "affiliations": [
+          "College of Computer Science and Technology, Inner Mongolia Minzu University, Inner Mongolia, China. songjz671@nenu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2025 Oct 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/31 06:27",
+    "fetched_at": "2026-10-01 05:03:58"
+  },
+  "links": {
+    "cites": [
+      "41977286"
+    ],
+    "refs": [
+      "40359455",
+      "39237735",
+      "38171929",
+      "38096385",
+      "36927031",
+      "35943134",
+      "35854211",
+      "35039821",
+      "34265844",
+      "33454744",
+      "31034408",
+      "30943723",
+      "30169574",
+      "29425488",
+      "28132027",
+      "26213851",
+      "25428375",
+      "24792350",
+      "24244144",
+      "23747746",
+      "23090257",
+      "22868682",
+      "22198341",
+      "21689482",
+      "20340527",
+      "19594868",
+      "17379688",
+      "16845003",
+      "15720719",
+      "15531603",
+      "10982878",
+      "7063747",
+      "1598233",
+      "1180967"
+    ],
+    "similar": [
+      "41168713",
+      "30040656",
+      "40282384",
+      "25756377",
+      "39214282",
+      "38975896",
+      "40359455",
+      "38830995",
+      "40209920",
+      "38491248",
+      "30598073",
+      "22868682",
+      "24448651",
+      "39456153",
+      "29536446",
+      "33837387",
+      "35652477",
+      "39357703",
+      "30957840",
+      "39244557",
+      "28155662",
+      "32920048",
+      "40399812",
+      "28851273",
+      "39000158",
+      "34932484",
+      "38927611",
+      "34073705",
+      "31123959",
+      "40601256",
+      "25935161",
+      "39573831",
+      "37866116",
+      "30943723",
+      "27730230",
+      "24854765",
+      "34415020",
+      "16568445",
+      "30602422",
+      "39471921",
+      "21689482",
+      "37015594",
+      "39270885",
+      "27282833",
+      "41257586",
+      "40053625",
+      "38587997",
+      "26527718",
+      "40888747",
+      "29182548",
+      "41045511",
+      "39426757",
+      "33477866",
+      "34889887",
+      "39043738",
+      "34073774",
+      "40000026",
+      "40628826",
+      "30668479",
+      "17316627",
+      "33661737",
+      "38003686",
+      "30442086",
+      "28056090",
+      "39566793",
+      "37060772",
+      "39121059",
+      "40543267",
+      "30577759",
+      "23737141",
+      "34843033",
+      "35933804",
+      "38812466",
+      "40086131",
+      "40702705",
+      "40919912",
+      "40641045",
+      "36044786",
+      "41172803",
+      "33334320",
+      "38615462",
+      "40119803",
+      "31513916",
+      "15720719",
+      "41290782",
+      "32142788",
+      "35922751",
+      "19594868",
+      "39121938",
+      "31393553",
+      "41319778",
+      "31483777",
+      "40811188",
+      "20509853",
+      "31752668",
+      "33522829",
+      "32917152",
+      "20377884",
+      "27654939",
+      "40235638"
+    ],
+    "review": [
+      "41168713",
+      "25756377",
+      "40209920",
+      "35652477"
+    ],
+    "pmc": [
+      "12577266"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-025-12196-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41168713/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD48-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

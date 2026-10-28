@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "36461607",
+    "doi": "10.1016/j.intimp.2022.109420",
+    "title": "Fibronectin 1 derived from tumor-associated macrophages and fibroblasts promotes metastasis through the JUN pathway in hepatocellular carcinoma."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Intercellular communication in the tumor microenvironment is a potential regulator of metastasis. To explore the specific mechanism, we performed a multi-omics analysis of hepatocellular carcinoma. MATERIALS AND METHODS: Multiple omics data including scRNA-seq, ATAC-seq, RNA-seq, and methylation data were obtained from GEO and TCGA databases. SCENIC was used to identify key transcription factors and their Regulatory networks. ScMLnet was used to explore the mechanism of intercellular communication in the microenvironment. Multiple omics studies based on RNA-seq, ATAC-seq, and methylation data were used to explore downstream mechanisms of key transcription factors. Based on the analysis of cell differentiation trajectory and transcription subtypes, the regulation of cell communication on tumor subtypes was studied, and possible therapeutic compounds were explored. The universality of this mechanism was investigated by post-Pan-cancer analysis. RESULTS: JUN and its regulatory network play a key role in HCC, which was mainly positively correlated with tumor-associated macrophages and fibroblasts. Intercellular communication analysis showed that macrophage and fibroblast-derived FN1 could increase JUN by TNFRSF11B/SMAD3. Multiomics analysis showed that KIF13A was a key downstream gene of JUN, which was involved in the activation of the hippo pathway. Analysis of cell differentiation trajectory, transcriptome subtypes, and neural network modeling showed that intercellular communication in the microenvironment can regulate the transcriptome characterization of HCC. Pan-cancer analysis indicates that this mechanism may be universal. CONCLUSION: FN1 derived from tumor-associated macrophages and fibroblasts promotes metastasis and alters transcriptome subtypes through the JUN-Hippo signaling pathway in HCC, which may be universal in cancers.",
+    "keywords": [
+      "FN1",
+      "Fibroblasts",
+      "HCC",
+      "Intercellular communication",
+      "Metastasis",
+      "Tumor-associated macrophages"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/genetics/metabolism/physiopathology",
+      "*Fibroblasts/metabolism/physiology",
+      "Fibronectins/genetics/metabolism",
+      "Kinesins/genetics/metabolism",
+      "*Liver Neoplasms/genetics/metabolism/physiopathology",
+      "Tumor Microenvironment/genetics/physiology",
+      "*Tumor-Associated Macrophages/metabolism/physiology",
+      "Proto-Oncogene Proteins c-jun"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Liwei",
+        "Zhang, Cong",
+        "Xing, Zhengwei",
+        "Lou, Chunyang",
+        "Fang, Jianbang",
+        "Wang, Zhiwei",
+        "Li, Mingxing",
+        "He, Hao",
+        "Bai, Hualong"
+      ],
+      "short_names": [
+        "Zhang L",
+        "Zhang C",
+        "Xing Z",
+        "Lou C",
+        "Fang J",
+        "Wang Z",
+        "Li M",
+        "He H",
+        "Bai H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Vascular and Endovascular Surgery, First Affiliated Hospital of Zhengzhou University, Henan, China; Key Vascular Physiology and Applied Research Laboratory of Zhengzhou City, Henan, China.",
+        "Department of Vascular and Endovascular Surgery, First Affiliated Hospital of Zhengzhou University, Henan, China; Key Vascular Physiology and Applied Research Laboratory of Zhengzhou City, Henan, China.",
+        "Department of Orthopedics, First Affiliated Hospital of Zhengzhou University, Henan, China.",
+        "Department of Vascular and Endovascular Surgery, First Affiliated Hospital of Zhengzhou University, Henan, China; Key Vascular Physiology and Applied Research Laboratory of Zhengzhou City, Henan, China.",
+        "Department of Vascular and Endovascular Surgery, First Affiliated Hospital of Zhengzhou University, Henan, China; Key Vascular Physiology and Applied Research Laboratory of Zhengzhou City, Henan, China.",
+        "Department of Vascular and Endovascular Surgery, First Affiliated Hospital of Zhengzhou University, Henan, China.",
+        "Department of Vascular and Endovascular Surgery, First Affiliated Hospital of Zhengzhou University, Henan, China.",
+        "Department of Vascular Surgery, The Second Xiangya Hospital of Central South University, Changsha, China. Electronic address: jimmyhehao1979@126.com.",
+        "Department of Vascular and Endovascular Surgery, First Affiliated Hospital of Zhengzhou University, Henan, China; Key Vascular Physiology and Applied Research Laboratory of Zhengzhou City, Henan, China. Electronic address: fccbaihl@zzu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Liwei",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular and Endovascular Surgery, First Affiliated Hospital of Zhengzhou University, Henan, China; Key Vascular Physiology and Applied Research Laboratory of Zhengzhou City, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Cong",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular and Endovascular Surgery, First Affiliated Hospital of Zhengzhou University, Henan, China; Key Vascular Physiology and Applied Research Laboratory of Zhengzhou City, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Xing, Zhengwei",
+        "short_name": "Xing Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Zhengzhou University, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Lou, Chunyang",
+        "short_name": "Lou C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular and Endovascular Surgery, First Affiliated Hospital of Zhengzhou University, Henan, China; Key Vascular Physiology and Applied Research Laboratory of Zhengzhou City, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Jianbang",
+        "short_name": "Fang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular and Endovascular Surgery, First Affiliated Hospital of Zhengzhou University, Henan, China; Key Vascular Physiology and Applied Research Laboratory of Zhengzhou City, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhiwei",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular and Endovascular Surgery, First Affiliated Hospital of Zhengzhou University, Henan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Mingxing",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular and Endovascular Surgery, First Affiliated Hospital of Zhengzhou University, Henan, China."
+        ]
+      },
+      {
+        "full_name": "He, Hao",
+        "short_name": "He H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, The Second Xiangya Hospital of Central South University, Changsha, China. Electronic address: jimmyhehao1979@126.com."
+        ]
+      },
+      {
+        "full_name": "Bai, Hualong",
+        "short_name": "Bai H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular and Endovascular Surgery, First Affiliated Hospital of Zhengzhou University, Henan, China; Key Vascular Physiology and Applied Research Laboratory of Zhengzhou City, Henan, China. Electronic address: fccbaihl@zzu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International immunopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int Immunopharmacol"
+    ],
+    "pub_date": "2022 Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/04 06:00",
+    "fetched_at": "2026-09-28 16:58:39"
+  },
+  "links": {
+    "cites": [
+      "42558776",
+      "41674966",
+      "41649669",
+      "41627661",
+      "41467967",
+      "41436683",
+      "41420058",
+      "41097013",
+      "41063976",
+      "41008923",
+      "41002582",
+      "40860666",
+      "40792146",
+      "40520886",
+      "40246872",
+      "40223922",
+      "40055311",
+      "39998673",
+      "39940643",
+      "39868329",
+      "39859271",
+      "39678502",
+      "39375795",
+      "39148129",
+      "39090094",
+      "38997297",
+      "38882048",
+      "38759695",
+      "38549156",
+      "38455411",
+      "38347596",
+      "38310356",
+      "37108657"
+    ],
+    "refs": [],
+    "similar": [
+      "36461607",
+      "32594528",
+      "36221095",
+      "38361757",
+      "29728125",
+      "25609232",
+      "32591411",
+      "37914817",
+      "34195849",
+      "35982891",
+      "34279157",
+      "36108528",
+      "34746301",
+      "38633247",
+      "29315755",
+      "36177006",
+      "24833879",
+      "34053234",
+      "34405225",
+      "28449718",
+      "34551961",
+      "33137360",
+      "31037150",
+      "34497155",
+      "33679749",
+      "31146919",
+      "27216982",
+      "29440144",
+      "29248714",
+      "28580773",
+      "32976798",
+      "33391471",
+      "24005989",
+      "35359989",
+      "34625923",
+      "34468893",
+      "37438675",
+      "32559715",
+      "34288020",
+      "33633112",
+      "32763490",
+      "33862123",
+      "32470318",
+      "31278131",
+      "36938729",
+      "30022048",
+      "33225985",
+      "28728298",
+      "30477236",
+      "34407065",
+      "23418512",
+      "29408647",
+      "28415775",
+      "31898336",
+      "29335551",
+      "30598371",
+      "34527669",
+      "27297362",
+      "36300115",
+      "33140851",
+      "33327879",
+      "31695788",
+      "33080309",
+      "31785055",
+      "25422452",
+      "35449866",
+      "23533994",
+      "33223512",
+      "32023707",
+      "30015355",
+      "32815653",
+      "32564007",
+      "32719439",
+      "36007784",
+      "33522955",
+      "32104698",
+      "31705929",
+      "31438961",
+      "34389000",
+      "31266773",
+      "35986343",
+      "36275697",
+      "32246992",
+      "36476645",
+      "31534521",
+      "34491228",
+      "30711627",
+      "32977361",
+      "33660763",
+      "34695754",
+      "24388360",
+      "35069553",
+      "31805888",
+      "39354613",
+      "36941472",
+      "36927352",
+      "39397186",
+      "38239853",
+      "37089432",
+      "36748064",
+      "39170307",
+      "37837960",
+      "28821810"
+    ],
+    "review": [
+      "36461607",
+      "34625923",
+      "30477236",
+      "36300115",
+      "23533994",
+      "32023707",
+      "36007784"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-5769(22)00905-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/36461607/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/36461607.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "34832908",
+    "doi": "10.3390/ph14111126",
+    "title": "Repurposing of the ALK Inhibitor Crizotinib for Acute Leukemia and Multiple Myeloma Cells."
+  },
+  "content": {
+    "abstract": "Crizotinib was a first generation of ALK tyrosine kinase inhibitor approved for the treatment of ALK-positive non-small-cell lung carcinoma (NSCLC) patients. COMPARE and cluster analyses of transcriptomic data of the NCI cell line panel indicated that genes with different cellular functions regulated the sensitivity or resistance of cancer cells to crizotinib. Transcription factor binding motif analyses in gene promoters divulged two transcription factors possibly regulating the expression of these genes, i.e., RXRA and GATA1, which are important for leukemia and erythroid development, respectively. COMPARE analyses also implied that cell lines of various cancer types displayed varying degrees of sensitivity to crizotinib. Unexpectedly, leukemia but not lung cancer cells were the most sensitive cells among the different types of NCI cancer cell lines. Re-examining this result in another panel of cell lines indeed revealed that crizotinib exhibited potent cytotoxicity towards acute myeloid leukemia and multiple myeloma cells. P-glycoprotein-overexpressing CEM/ADR5000 leukemia cells were cross-resistant to crizotinib. NCI-H929 multiple myeloma cells were the most sensitive cells. Hence, we evaluated the mode of action of crizotinib on these cells. Although crizotinib is a TKI, it showed highest correlation rates with DNA topoisomerase II inhibitors and tubulin inhibitors. The altered gene expression profiles after crizotinib treatment predicted several networks, where TOP2A and genes related to cell cycle were downregulated. Cell cycle analyses showed that cells incubated with crizotinib for 24 h accumulated in the G(2)M phase. Crizotinib also increased the number of p-H3(Ser10)-positive NCI-H929 cells illustrating crizotinib's ability to prevent mitotic exit. However, cells accumulated in the sub-G(0)G(1) fraction with longer incubation periods, indicating apoptosis induction. Additionally, crizotinib disassembled the tubulin network of U2OS cells expressing an alpha-tubulin-GFP fusion protein, preventing migration of cancer cells. This result was verified by in vitro tubulin polymerization assays. In silico molecular docking also revealed a strong binding affinity of crizotinib to the colchicine and Vinca alkaloid binding sites. Taken together, these results demonstrate that crizotinib destabilized microtubules. Additionally, the decatenation assay showed that crizotinib partwise inhibited the catalytic activity of DNA topoisomerase II. In conclusion, crizotinib exerted kinase-independent cytotoxic effects through the dual inhibition of tubulin polymerization and topoisomerase II and might be used to treat not only NSCLC but also multiple myeloma.",
+    "keywords": [
+      "acute myeloid leukemia",
+      "drug repurposing",
+      "multiple myeloma",
+      "network pharmacology",
+      "transcriptomics",
+      "tyrosine kinase inhibitors"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Boulos, Joelle C",
+        "Saeed, Mohamed E M",
+        "Chatterjee, Manik",
+        "Bulbul, Yagmur",
+        "Crudo, Francesco",
+        "Marko, Doris",
+        "Munder, Markus",
+        "Klauck, Sabine M",
+        "Efferth, Thomas"
+      ],
+      "short_names": [
+        "Boulos JC",
+        "Saeed MEM",
+        "Chatterjee M",
+        "Bulbul Y",
+        "Crudo F",
+        "Marko D",
+        "Munder M",
+        "Klauck SM",
+        "Efferth T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4876-8057",
+        "ORCID: 0000-0001-6568-2944",
+        "ORCID: 0000-0002-2637-1681"
+      ],
+      "affiliations": [
+        "Department of Pharmaceutical Biology, Institute of Pharmaceutical and Biomedical Sciences, Johannes Gutenberg University, Staudinger Weg 5, 55128 Mainz, Germany.",
+        "Department of Pharmaceutical Biology, Institute of Pharmaceutical and Biomedical Sciences, Johannes Gutenberg University, Staudinger Weg 5, 55128 Mainz, Germany.",
+        "Translational Oncology, Comprehensive Cancer Center Mainfranken, University Hospital Wurzburg, 97078 Wurzburg, Germany.",
+        "Third Department of Medicine (Hematology, Oncology, and Pneumology), University Medical Center of the Johannes Gutenberg University, 55131 Mainz, Germany.",
+        "Department of Food Chemistry and Toxicology, University of Vienna, Wahringer Str. 38, 1090 Wien, Austria.",
+        "Department of Food Chemistry and Toxicology, University of Vienna, Wahringer Str. 38, 1090 Wien, Austria.",
+        "Third Department of Medicine (Hematology, Oncology, and Pneumology), University Medical Center of the Johannes Gutenberg University, 55131 Mainz, Germany.",
+        "Division of Cancer Genome Research, German Cancer Research Center (DKFZ), German Cancer Consortium (DKTK), National Center for Tumor Diseases (NCT), 69120 Heidelberg, Germany.",
+        "Department of Pharmaceutical Biology, Institute of Pharmaceutical and Biomedical Sciences, Johannes Gutenberg University, Staudinger Weg 5, 55128 Mainz, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Boulos, Joelle C",
+        "short_name": "Boulos JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Biology, Institute of Pharmaceutical and Biomedical Sciences, Johannes Gutenberg University, Staudinger Weg 5, 55128 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Saeed, Mohamed E M",
+        "short_name": "Saeed MEM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Biology, Institute of Pharmaceutical and Biomedical Sciences, Johannes Gutenberg University, Staudinger Weg 5, 55128 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Chatterjee, Manik",
+        "short_name": "Chatterjee M",
+        "identifiers": [],
+        "affiliations": [
+          "Translational Oncology, Comprehensive Cancer Center Mainfranken, University Hospital Würzburg, 97078 Würzburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Bülbül, Yagmur",
+        "short_name": "Bülbül Y",
+        "identifiers": [],
+        "affiliations": [
+          "Third Department of Medicine (Hematology, Oncology, and Pneumology), University Medical Center of the Johannes Gutenberg University, 55131 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Crudo, Francesco",
+        "short_name": "Crudo F",
+        "identifiers": [
+          "0000-0002-4876-8057"
+        ],
+        "affiliations": [
+          "Department of Food Chemistry and Toxicology, University of Vienna, Währinger Str. 38, 1090 Wien, Austria."
+        ]
+      },
+      {
+        "full_name": "Marko, Doris",
+        "short_name": "Marko D",
+        "identifiers": [
+          "0000-0001-6568-2944"
+        ],
+        "affiliations": [
+          "Department of Food Chemistry and Toxicology, University of Vienna, Währinger Str. 38, 1090 Wien, Austria."
+        ]
+      },
+      {
+        "full_name": "Munder, Markus",
+        "short_name": "Munder M",
+        "identifiers": [],
+        "affiliations": [
+          "Third Department of Medicine (Hematology, Oncology, and Pneumology), University Medical Center of the Johannes Gutenberg University, 55131 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Klauck, Sabine M",
+        "short_name": "Klauck SM",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cancer Genome Research, German Cancer Research Center (DKFZ), German Cancer Consortium (DKTK), National Center for Tumor Diseases (NCT), 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Efferth, Thomas",
+        "short_name": "Efferth T",
+        "identifiers": [
+          "0000-0002-2637-1681"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Biology, Institute of Pharmaceutical and Biomedical Sciences, Johannes Gutenberg University, Staudinger Weg 5, 55128 Mainz, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmaceuticals (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Pharmaceuticals (Basel)"
+    ],
+    "pub_date": "2021 Nov 5",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/28 06:00",
+    "fetched_at": "2026-09-28 02:10:34"
+  },
+  "links": {
+    "cites": [
+      "42198488",
+      "41208153",
+      "41205015",
+      "40827484",
+      "40654055",
+      "40390495",
+      "40363705",
+      "38919258",
+      "38754409",
+      "38600056",
+      "37627164",
+      "37344563",
+      "36838857",
+      "36145272",
+      "36144591",
+      "35892021",
+      "35676421"
+    ],
+    "refs": [
+      "33211854",
+      "33184494",
+      "33151290",
+      "33011863",
+      "32957040",
+      "32920486",
+      "32823874",
+      "32712320",
+      "32679716",
+      "32559584",
+      "31894001",
+      "31592646",
+      "31572666",
+      "31571987",
+      "31132750",
+      "31093285",
+      "31055230",
+      "30836216",
+      "30804692",
+      "30668446",
+      "30466410",
+      "30294274",
+      "30245231",
+      "29862230",
+      "29800065",
+      "29194581",
+      "29042798",
+      "28923935",
+      "28665419",
+      "28119852",
+      "27476706",
+      "27272774",
+      "26734568",
+      "26491220",
+      "25716159",
+      "25332907",
+      "24455567",
+      "23874683",
+      "23006951",
+      "22130024",
+      "22001384",
+      "21779441",
+      "21345110",
+      "20979472",
+      "19399780",
+      "19377505",
+      "18220533",
+      "17284862",
+      "16728703",
+      "15897247",
+      "15318936",
+      "15225902",
+      "15057285",
+      "12917355",
+      "10951200",
+      "3413070",
+      "3335022",
+      "2738938",
+      "2359137",
+      "1372208"
+    ],
+    "similar": [
+      "34832908",
+      "30791979",
+      "26870817",
+      "22034911",
+      "32679716",
+      "32472430",
+      "37627164",
+      "30642546",
+      "29187012",
+      "21502504",
+      "26372962",
+      "23239810",
+      "31654622",
+      "37344563",
+      "24675041",
+      "25592111",
+      "30895431",
+      "24744988",
+      "27753543",
+      "26719536",
+      "24984564",
+      "31827192",
+      "26294238",
+      "24509625",
+      "27138017",
+      "12181429",
+      "31527380",
+      "23931927",
+      "34110462",
+      "22617245",
+      "28926892",
+      "23344087",
+      "25727400",
+      "29199691",
+      "25757678",
+      "23533265",
+      "21791641",
+      "27836716",
+      "27780853",
+      "28463570",
+      "27401242",
+      "25170012",
+      "30010043",
+      "32164629",
+      "22235099",
+      "32527124",
+      "25228534",
+      "23443800",
+      "31362880",
+      "22553343",
+      "26973324",
+      "30413378",
+      "26992917",
+      "31260890",
+      "23386065",
+      "21154129",
+      "26654422",
+      "23254764",
+      "30888598",
+      "23325296",
+      "28285695",
+      "22072639",
+      "33387041",
+      "29403310",
+      "28979145",
+      "34392186",
+      "29978950",
+      "22084642",
+      "25766836",
+      "25153538",
+      "30089600",
+      "25659177",
+      "31177400",
+      "27393500",
+      "26585927",
+      "23788933",
+      "30381078",
+      "23993685",
+      "25351743",
+      "32114282",
+      "24419060",
+      "33070080",
+      "28501140",
+      "30993895",
+      "24478318",
+      "33634671",
+      "37509482",
+      "37111592",
+      "39134539"
+    ],
+    "review": [
+      "34832908",
+      "29187012",
+      "24744988",
+      "24984564",
+      "26294238",
+      "27138017",
+      "31527380",
+      "23931927",
+      "25757678",
+      "28463570",
+      "32527124",
+      "23386065",
+      "21154129",
+      "26654422",
+      "23325296",
+      "28285695",
+      "29403310",
+      "28979145"
+    ],
+    "pmc": [
+      "8617756"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ph14111126",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34832908/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34832908",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1187",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

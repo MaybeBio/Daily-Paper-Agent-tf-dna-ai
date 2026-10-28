@@ -1,0 +1,436 @@
+{
+  "identity": {
+    "pmid": "42433268",
+    "doi": "10.3389/fmolb.2026.1740289",
+    "title": "Integrative analysis of cuproptosis in kidney ischemia-reperfusion injury: biomarker discovery and diagnostic model construction."
+  },
+  "content": {
+    "abstract": "PURPOSE: Acute kidney injury (AKI) is often associated with kidney ischemia-reperfusion injury (KIRI), which is a key driver of AKI progression. Although cuproptosis has been implicated in multiple pathological processes, its relevance to KIRI remains unclear. This study aimed to identify candidate cuproptosis-related genes associated with KIRI and characterize their potential diagnostic and biological relevance. METHODS: Bioinformatic analyses of transcriptome datasets were performed to identify cuproptosis-related differentially expressed genes (CRDEGs) in KIRI. GSE43974 served as the discovery cohort, GSE126805 served as the external validation cohort, and GSE161201 was used for exploratory single-cell analysis. Focusing on these CRDEGs, we constructed a diagnostic model for KIRI using machine learning and validated it with a nomogram. Gene set enrichment analysis (GSEA), immune infiltration analysis, and correlation analyses were used to investigate signaling pathways and immune processes associated with CRDEGs. Unsupervised clustering was conducted to classify KIRI samples and characterize CRDEG-related molecular subtypes. CRDEG expression was further verified in a mouse KIRI model treated with cuproptosis modulators. Transcription factor-mRNA, miRNA-mRNA, and drug-gene interaction networks were constructed to explore potential regulatory and therapeutic associations. RESULTS: Four CRDEGs (PPP1R15A, LIPT1, SERPINE1, and HSPD1) were identified. and associated with immune cell infiltration. Machine-learning analyses suggested the potential of these genes as candidate biomarkers for KIRI, and a nomogram based on these genes showed high diagnostic performance in the discovery cohort. These four CRDEGs showed higher expression in KIRI samples than in control samples. GSEA linked these genes to the immune response, oxidative stress, apoptosis-related signaling, and other injury-associated pathways. Cluster analysis revealed two KIRI subtypes (groups A and B) with differing molecular signatures and pathway activity, especially those related to apoptosis signaling, oxidative stress, and immune responses. Their potential diagnostic relevance was further assessed using external datasets and a KIRI animal model. In addition, 103 transcription factors, 152 microRNAs, and 36 drugs potentially interacting with these CRDEGs were predicted. CONCLUSION: PPP1R15A, LIPT1, SERPINE1, and HSPD1 may serve as candidate indicators of the involvement of cuproptosis in KIRI, although further mechanistic validation is needed.",
+    "keywords": [
+      "bioinformatic analysis",
+      "cuproptosis",
+      "diagnostic models",
+      "immune cell infiltration",
+      "kidney ischemia-reperfusion injury"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liang, Chunyan",
+        "Fu, Lixin",
+        "Xie, Manling",
+        "Zhang, Changquan",
+        "Ma, Rong",
+        "Hu, Chao",
+        "Li, Haibin",
+        "Wen, Ning",
+        "Wen, Jiqiu",
+        "Dong, Jianhui",
+        "Sun, Xuyong"
+      ],
+      "short_names": [
+        "Liang C",
+        "Fu L",
+        "Xie M",
+        "Zhang C",
+        "Ma R",
+        "Hu C",
+        "Li H",
+        "Wen N",
+        "Wen J",
+        "Dong J",
+        "Sun X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+        "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China.",
+        "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+        "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China.",
+        "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+        "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China.",
+        "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+        "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China.",
+        "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+        "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China.",
+        "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+        "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China.",
+        "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+        "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China.",
+        "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+        "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China.",
+        "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+        "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China.",
+        "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+        "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China.",
+        "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+        "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liang, Chunyan",
+        "short_name": "Liang C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+          "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+          "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Lixin",
+        "short_name": "Fu L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+          "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+          "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Manling",
+        "short_name": "Xie M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+          "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+          "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Changquan",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+          "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+          "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Rong",
+        "short_name": "Ma R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+          "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+          "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Chao",
+        "short_name": "Hu C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+          "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+          "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Haibin",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+          "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+          "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Ning",
+        "short_name": "Wen N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+          "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+          "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Jiqiu",
+        "short_name": "Wen J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+          "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+          "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Jianhui",
+        "short_name": "Dong J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+          "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+          "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xuyong",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Transplant Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+          "Guangxi Clinical Research Center for Organ Transplantation, Nanning, China.",
+          "Guangxi Key Laboratory of Organ Donation and Transplantation, Nanning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/11 13:10",
+    "fetched_at": "2026-10-05 05:43:36"
+  },
+  "links": {
+    "cites": [
+      "42653078"
+    ],
+    "refs": [
+      "41330443",
+      "41252478",
+      "40007559",
+      "39744578",
+      "39729927",
+      "39716051",
+      "39583859",
+      "39566877",
+      "38935114",
+      "38909530",
+      "38824478",
+      "38495888",
+      "38484857",
+      "38428147",
+      "38329418",
+      "38297436",
+      "38095762",
+      "37801897",
+      "37600774",
+      "37491360",
+      "37162502",
+      "37027332",
+      "36959481",
+      "36882769",
+      "36435678",
+      "36300620",
+      "36276096",
+      "36262286",
+      "36105090",
+      "36094079",
+      "36078175",
+      "36056148",
+      "36010978",
+      "35902956",
+      "35875087",
+      "35572574",
+      "35503080",
+      "35453454",
+      "35425712",
+      "35298263",
+      "35117976",
+      "35087573",
+      "34914499",
+      "34764459",
+      "34638569",
+      "34557778",
+      "34557655",
+      "34279220",
+      "34160104",
+      "33994801",
+      "33875568",
+      "33597522",
+      "33237311",
+      "33237278",
+      "33091507",
+      "32935392",
+      "32663096",
+      "31740819",
+      "31005270",
+      "30429361",
+      "29608179",
+      "28196897",
+      "28100675",
+      "26060833",
+      "25822800",
+      "25605792",
+      "25427168",
+      "24971030",
+      "23193258",
+      "22455463",
+      "21784888",
+      "21414208",
+      "20427518"
+    ],
+    "similar": [
+      "42433268",
+      "39583859",
+      "42164373",
+      "37033969",
+      "40165133",
+      "38935114",
+      "38690269",
+      "42565562",
+      "35658960",
+      "41299729",
+      "40337173",
+      "38815767",
+      "42233387",
+      "36479114",
+      "37776237",
+      "41858783",
+      "37318594",
+      "38994365",
+      "42435052",
+      "38074089",
+      "42338983",
+      "42431430",
+      "41764607",
+      "40151199",
+      "39600181",
+      "39341981",
+      "42292468",
+      "37090740",
+      "37822923",
+      "42558367",
+      "41550926",
+      "42292668",
+      "40532306",
+      "40093012",
+      "42577419",
+      "37561332",
+      "40034693",
+      "38951833",
+      "40253457",
+      "42536548",
+      "39096939",
+      "41878449",
+      "41583446",
+      "42326009",
+      "37576602",
+      "41200172",
+      "40460381",
+      "41460373",
+      "38410514",
+      "37393262",
+      "36466876",
+      "39391037",
+      "38681070",
+      "41347019",
+      "39315155",
+      "41833346",
+      "37275904",
+      "40374840",
+      "41872824",
+      "42315974",
+      "36246123",
+      "41652638",
+      "41619156",
+      "41895505",
+      "41044520",
+      "39968099",
+      "39080525",
+      "41756296",
+      "41388523",
+      "42348093",
+      "42291298",
+      "41789070",
+      "37809099",
+      "39375405",
+      "40374866",
+      "37266442",
+      "41405396",
+      "35966780",
+      "38867322",
+      "42292393",
+      "37205181",
+      "39853851",
+      "41504784",
+      "39188323",
+      "42056344",
+      "42306043",
+      "37293297",
+      "39497055",
+      "42123445",
+      "37313407",
+      "39991151",
+      "42024670",
+      "36818726",
+      "41324863",
+      "42327749",
+      "41255601",
+      "38538321",
+      "40147738",
+      "41479901",
+      "37497230"
+    ],
+    "review": [
+      "42433268"
+    ],
+    "pmc": [
+      "13349827"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42433268/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HSPD1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1150",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2026.1740289",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

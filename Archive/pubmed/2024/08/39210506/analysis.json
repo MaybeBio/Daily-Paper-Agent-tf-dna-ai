@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39210506",
+  "title": "Multiview representation learning for identification of novel cancer genes and their causative biological mechanisms.",
+  "authors": "Yang, Jianye; Fu, Haitao; Xue, Feiyang; Li, Menglu; Wu, Yuyang; Yu, Zhanhui; Luo, Haohui; Gong, Jing; Niu, Xiaohui; Zhang, Wen",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-08-31",
+  "window": {
+    "start": "2024-08-26",
+    "end": "2024-09-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用多视图表示学习识别癌症基因，虽涉及基因功能与结构表征，但核心对象非蛋白质-DNA互作，且无TF-DNA结合建模或AI/物理模拟的互作机制研究，仅边缘相关。",
+  "abstract": "Tumorigenesis arises from the dysfunction of cancer genes, leading to uncontrolled cell proliferation through various mechanisms. Establishing a complete cancer gene catalogue will make precision oncology possible. Although existing methods based on graph neural networks (GNN) are effective in identifying cancer genes, they fall short in effectively integrating data from multiple views and interpreting predictive outcomes. To address these shortcomings, an interpretable representation learning framework IMVRL-GCN is proposed to capture both shared and specific representations from multiview data, offering significant insights into the identification of cancer genes. Experimental results demonstrate that IMVRL-GCN outperforms state-of-the-art cancer gene identification methods and several baselines. Furthermore, IMVRL-GCN is employed to identify a total of 74 high-confidence novel cancer genes, and multiview data analysis highlights the pivotal roles of shared, mutation-specific, and structure-specific representations in discriminating distinctive cancer genes. Exploration of the mechanisms behind their discriminative capabilities suggests that shared representations are strongly associated with gene functions, while mutation-specific and structure-specific representations are linked to mutagenic propensity and functional synergy, respectively. Finally, our in-depth analyses of these candidates suggest potential insights for individualized treatments: afatinib could counteract many mutation-driven risks, and targeting interactions with cancer gene SRC is a reasonable strategy to mitigate interaction-induced risks for NR3C1, RXRA, HNF4A, and SP1.",
+  "abstract_zh": "肿瘤发生源于癌症基因的功能失调，通过多种机制导致细胞增殖失控。建立完整的癌症基因目录将使精准肿瘤学成为可能。尽管现有基于图神经网络（GNN）的方法在识别癌症基因方面有效，但它们在有效整合多视图数据和解释预测结果方面存在不足。为解决这些缺陷，提出了一种可解释的表征学习框架IMVRL-GCN，以从多视图数据中捕获共享和特定表征，为癌症基因识别提供重要见解。实验结果表明，IMVRL-GCN优于最先进的癌症基因识别方法及若干基线方法。此外，IMVRL-GCN被用于识别共74个高置信度的新型癌症基因，多视图数据分析强调了共享、突变特异性和结构特异性表征在区分独特癌症基因中的关键作用。对其判别能力背后机制的探索表明，共享表征与基因功能密切相关，而突变特异性和结构特异性表征分别与致突变倾向和功能协同性相关。最后，我们对这些候选基因的深入分析为个体化治疗提供了潜在见解：阿法替尼（afatinib）可抵消许多突变驱动的风险，而靶向与癌症基因SRC的相互作用是减轻NR3C1、RXRA、HNF4A和SP1相互作用诱导风险的合理策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39210506/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39210506/",
+  "paper_page_path": "papers/pubmed/39210506/index.html"
+}

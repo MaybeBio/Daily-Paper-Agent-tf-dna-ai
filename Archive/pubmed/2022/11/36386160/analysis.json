@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36386160",
+  "title": "DPB-NBFnet: Using neural Bellman-Ford networks to predict DNA-protein binding.",
+  "authors": "Li, Jing; Zhuo, Linlin; Lian, Xinze; Pan, Shiyao; Xu, Lei",
+  "journal": "Frontiers in pharmacology",
+  "published_date": "2022-11-18",
+  "window": {
+    "start": "2022-11-14",
+    "end": "2022-11-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用神经Bellman-Ford图网络构建DNA-蛋白质对表示以预测结合存在性，属广义蛋白-DNA互作预测，方法可迁移至TF-DNA体系，但未聚焦TF特异性结合机制。",
+  "abstract": "DNA is a hereditary material that plays an essential role in micro-organisms and almost all other organisms. Meanwhile, proteins are a vital composition and principal undertaker of microbe movement. Therefore, studying the bindings between DNA and proteins is of high significance from the micro-biological point of view. In addition, the binding affinity prediction is beneficial for the study of drug design. However, existing experimental methods to identifying DNA-protein bindings are extremely expensive and time consuming. To solve this problem, many deep learning methods (including graph neural networks) have been developed to predict DNA-protein interactions. Our work possesses the same motivation and we put the latest Neural Bellman-Ford neural networks (NBFnets) into use to build pair representations of DNA and protein to predict the existence of DNA-protein binding (DPB). NBFnet is a graph neural network model that uses the Bellman-Ford algorithms to get pair representations and has been proven to have a state-of-the-art performance when used to solve the link prediction problem. After building the pair representations, we designed a feed-forward neural network structure and got a 2-D vector output as a predicted value of positive or negative samples. We conducted our experiments on 100 datasets from ENCODE datasets. Our experiments indicate that the performance of DPB-NBFnet is competitive when compared with the baseline models. We have also executed parameter tuning with different architectures to explore the structure of our framework.",
+  "abstract_zh": "DNA是一种遗传物质，在微生物及几乎所有其他生物体中扮演着至关重要的角色。同时，蛋白质是微生物活动的重要组成部分和主要执行者。因此，从微生物学角度来看，研究DNA与蛋白质之间的结合具有高度重要性。此外，结合亲和力的预测对药物设计研究也大有裨益。然而，现有的用于识别DNA-蛋白质结合的实验方法极为昂贵且耗时。为解决这一问题，已开发出许多深度学习方法（包括图神经网络）来预测DNA-蛋白质相互作用。我们的工作具有相同的动机，并采用了最新的神经贝尔曼-福特神经网络（NBFnets）来构建DNA和蛋白质的配对表示，以预测DNA-蛋白质结合（DPB）的存在性。NBFnet是一种图神经网络模型，利用贝尔曼-福特算法获取配对表示，并已被证明在解决链接预测问题时具有最先进的性能。在构建配对表示后，我们设计了一个前馈神经网络结构，并获得了二维向量输出，作为正样本或负样本的预测值。我们在ENCODE数据集的100个数据集上进行了实验。我们的实验表明，与基线模型相比，DPB-NBFnet的性能具有竞争力。我们还通过不同架构进行了参数调优，以探索我们框架的结构。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36386160/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36386160/",
+  "paper_page_path": "papers/pubmed/36386160/index.html"
+}

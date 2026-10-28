@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "38412576",
+    "doi": "10.1016/j.neo.2024.100976",
+    "title": "A deep learning based holistic diagnosis system for immunohistochemistry interpretation and molecular subtyping."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Breast cancer in different molecular subtypes, which is determined by the overexpression rates of human epidermal growth factor receptor 2 (HER2), estrogen receptor (ER), progesterone receptor (PR), and Ki67, exhibit distinct symptom characteristics and sensitivity to different treatment. The immunohistochemical method, one of the most common detecting tools for tumour markers, is heavily relied on artificial judgment and in clinical practice, with an inherent limitation in interpreting stability and operating efficiency. Here, a holistic intelligent breast tumour diagnosis system has been developed for tumour-markeromic analysis, combining the automatic interpretation and clinical suggestion. METHODS: The holistic intelligent breast tumour diagnosis system included two main modules. The interpreting modules were constructed based on convolutional neural network, for comprehensively extracting and analyzing the multi-features of immunostaining. Referring to the clinical classification criteria, the interpreting results were encoded in a low-dimensional feature representation in the subtyping module, to efficiently output a holistic detecting result of the critical tumour-markeromic with diagnosis suggestions on molecular subtypes. RESULTS: The overexpression rates of HER2, ER, PR, and Ki67, as well as an effective determination of molecular subtypes were successfully obtained by this diagnosis system, with an average sensitivity of 97.6 % and an average specificity of 96.1 %, among those, the sensitivity and specificity for interpreting HER2 were up to 99.8 % and 96.9 %. CONCLUSION: The holistic intelligent breast tumour diagnosis system shows improved performance in the interpretation of immunohistochemical images over pathologist-level, which can be expected to overcome the limitations of conventional manual interpretation in efficiency, precision, and repeatability.",
+    "keywords": [
+      "Breast cancer",
+      "Convolutional neural network",
+      "Immunohistochemical microimaging",
+      "Intelligent diagnosis",
+      "Molecular subtype"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "Ki-67 Antigen/metabolism",
+      "Immunohistochemistry",
+      "*Deep Learning",
+      "Erb-b2 Receptor Tyrosine Kinases/genetics/metabolism",
+      "Biomarkers, Tumor/metabolism",
+      "*Breast Neoplasms/diagnosis/genetics/metabolism",
+      "Receptors, Estrogen/metabolism",
+      "Receptors, Progesterone/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Lin",
+        "Liu, Jiahe",
+        "Ju, Baoyang",
+        "Lou, Doudou",
+        "Tian, Yushen"
+      ],
+      "short_names": [
+        "Fan L",
+        "Liu J",
+        "Ju B",
+        "Lou D",
+        "Tian Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Integrated Circuit Science and Engineering (Industry-Education Integration School), Nanjing University of Posts and Telecommunications, Nanjing 210023, PR China; State Key Laboratory of Bioelectronics, Jiangsu Key Laboratory for Biomaterials and Devices, School of Biological Science and Medical Engineering & Collaborative Innovation Center of Suzhou Nano Science and Technology, Southeast University, Nanjing 210096, PR China; Medical School of Nanjing University, Nanjing 210093, PR China. Electronic address: fanlin@njupt.edu.cn.",
+        "School of Integrated Circuit Science and Engineering (Industry-Education Integration School), Nanjing University of Posts and Telecommunications, Nanjing 210023, PR China.",
+        "School of Integrated Circuit Science and Engineering (Industry-Education Integration School), Nanjing University of Posts and Telecommunications, Nanjing 210023, PR China.",
+        "Nanjing Institute for Food and Drug Control, Nanjing, Jiangsu 211198, PR China.",
+        "School of Electrical Engineering, Shenyang University of Technology, Shenyang, Liaoning 110870, PR China. Electronic address: tianyshen@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Lin",
+        "short_name": "Fan L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Circuit Science and Engineering (Industry-Education Integration School), Nanjing University of Posts and Telecommunications, Nanjing 210023, PR China; State Key Laboratory of Bioelectronics, Jiangsu Key Laboratory for Biomaterials and Devices, School of Biological Science and Medical Engineering & Collaborative Innovation Center of Suzhou Nano Science and Technology, Southeast University, Nanjing 210096, PR China; Medical School of Nanjing University, Nanjing 210093, PR China. Electronic address: fanlin@njupt.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiahe",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Circuit Science and Engineering (Industry-Education Integration School), Nanjing University of Posts and Telecommunications, Nanjing 210023, PR China."
+        ]
+      },
+      {
+        "full_name": "Ju, Baoyang",
+        "short_name": "Ju B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Circuit Science and Engineering (Industry-Education Integration School), Nanjing University of Posts and Telecommunications, Nanjing 210023, PR China."
+        ]
+      },
+      {
+        "full_name": "Lou, Doudou",
+        "short_name": "Lou D",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing Institute for Food and Drug Control, Nanjing, Jiangsu 211198, PR China."
+        ]
+      },
+      {
+        "full_name": "Tian, Yushen",
+        "short_name": "Tian Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical Engineering, Shenyang University of Technology, Shenyang, Liaoning 110870, PR China. Electronic address: tianyshen@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Neoplasia (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "Neoplasia"
+    ],
+    "pub_date": "2024 Apr",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/27 18:42",
+    "fetched_at": "2026-09-29 16:10:39"
+  },
+  "links": {
+    "cites": [
+      "41222615",
+      "41210651",
+      "40050686",
+      "39063947",
+      "39040241"
+    ],
+    "refs": [],
+    "similar": [
+      "38412576",
+      "35789315",
+      "29444670",
+      "31628534",
+      "24591826",
+      "33585986",
+      "36816095",
+      "25174527",
+      "27315045",
+      "27472239",
+      "38395930",
+      "31983107",
+      "24675287",
+      "24652232",
+      "25241230",
+      "22359195",
+      "30916428",
+      "25600243",
+      "22056953",
+      "27743431",
+      "35985932",
+      "30659433",
+      "25736840",
+      "26514283",
+      "31267199",
+      "30694768",
+      "27889196",
+      "25556461",
+      "21865043",
+      "27477822",
+      "32350370",
+      "35728576",
+      "30066480",
+      "36883948",
+      "23012297",
+      "31640622",
+      "27619909",
+      "33889251",
+      "24558165",
+      "23240985",
+      "27666130",
+      "25266526",
+      "24171825",
+      "21139586",
+      "26138872",
+      "26745092",
+      "32334465",
+      "22949935",
+      "38820391",
+      "33667252",
+      "22004841",
+      "25778295",
+      "16033090",
+      "29409530",
+      "27349894",
+      "30678383",
+      "28193205",
+      "27220750",
+      "21837481",
+      "33167903",
+      "31190183",
+      "23957561",
+      "32467058",
+      "37530189",
+      "19893007",
+      "25082658",
+      "22450930",
+      "29523126",
+      "24951027",
+      "34555047",
+      "36510982",
+      "31492872",
+      "30722113",
+      "24337596",
+      "34464510",
+      "28549033",
+      "22961208",
+      "22290394",
+      "23030684",
+      "22965266",
+      "30138940",
+      "25684532",
+      "31098866",
+      "30778520",
+      "20863372",
+      "36224558",
+      "29168407",
+      "28404972",
+      "29251737",
+      "28099174",
+      "32445323",
+      "31290783",
+      "25081661",
+      "22569612",
+      "20192585",
+      "26768030",
+      "27221883",
+      "28409323",
+      "39160593",
+      "39095659",
+      "38096984"
+    ],
+    "review": [
+      "38412576",
+      "27889196",
+      "35728576",
+      "23012297",
+      "38820391",
+      "31190183"
+    ],
+    "pmc": [
+      "10904904"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-5586(24)00013-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38412576/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38412576",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1476-5586(24)00013-7",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,512 @@
+{
+  "identity": {
+    "pmid": "36029932",
+    "doi": "10.1016/j.phrs.2022.106415",
+    "title": "Voacamine is a novel inhibitor of EGFR exerting oncogenic activity against colorectal cancer through the mitochondrial pathway."
+  },
+  "content": {
+    "abstract": "Colorectal cancer (CRC), among the most aggressive and prevailing neoplasms, is primarily treated with chemotherapy. Voacamine (VOA), a novel bisindole natural product, possesses a variety of conspicuous pharmacological activities. Within the current research, we evaluated in vitro and in vivo the anticancer efficacy of VOA against CRC and its potential mechanisms. Our results illustrated that VOA concentrationdependently suppressed the proliferation and migration of CT26 and HCT116 cells as correspondingly indicated by IC(50) values of 1.38 +/- 0.09 muM and 4.10 +/- 0.14 muM. Furthermore, treatment of VOA also suppressed tumor cell colony formation, escalated the late-stage apoptosis rate of tumor cells, and evoked cell cycle of CT26 and HCT116 cells arrest inhibition in G2-M and G0-G1 phases, respectively. Meanwhile, VOA markedly disrupted the mitochondrial membrane potential eliciting mitochondrial dysfunction, decreased ATP production, and intermediated an enhanced accumulation of intracellular reactive oxygen species with a concentration-dependent pattern, accompanied by elevated expression levels of pro-apoptotic related protein Bax, Cyt-C, cleaved caspases 3/8/9 and by diminished Bcl-2, Bid, PRAP and caspases 3/8/9 expression. Further mechanistic studies revealed VOA treatment suppressed the EGFR/PI3K/Akt pathway with the evidence of the decreased phosphorylation proteins of EGFR, PI3K, Akt, and downstream proteins of p-mTOR, p-NF-kB, and p-P70S6. Additionally, molecular dynamics simulations further displayed VOA could enter the EGFR pocket followed by multiple mutual interaction effects. Interestingly, the EGFR activator (NSC228155) could slack the inhibitory capability of VOA on the EGFR/PI3K/Akt pathway as well as VOA-induced impairment of mitochondrial function. Finally, administration of VOA (15, 30 mg/kg every 2 days, i.p., for 16 days) in CT26 syngeneic mice dose-dependently suppressed the neoplastic development without appreciable organ toxicities. Taken together, our study demonstrated that VOA may be a prospective therapeutic agent for the treatment of CRC.",
+    "keywords": [
+      "5-fluorouracil (PubChem CID: 3385)",
+      "Colorectal cancer",
+      "EGFR/PI3K/Akt",
+      "Mitochondrial dysfunction",
+      "NSC228155 (PubChem CID: 313619), gefitinib (PubChem CID: 123631)",
+      "Reactive oxygen species",
+      "Voacamine",
+      "Voacamine (PubChem CID: 11953931)",
+      "mitoquinone mesylate (PubChem CID: 11388331)"
+    ],
+    "mesh_terms": [
+      "Adenosine Triphosphate/pharmacology",
+      "Animals",
+      "Apoptosis",
+      "*Biological Products/therapeutic use",
+      "Cell Line, Tumor",
+      "Cell Proliferation",
+      "*Colorectal Neoplasms/drug therapy/metabolism",
+      "ErbB Receptors/metabolism",
+      "Ibogaine/analogs & derivatives",
+      "Mice",
+      "Mitochondria/metabolism",
+      "NF-kappa B/metabolism",
+      "Phosphatidylinositol 3-Kinases/metabolism",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "Proto-Oncogene Proteins c-bcl-2/metabolism",
+      "Reactive Oxygen Species/metabolism",
+      "Signal Transduction",
+      "TOR Serine-Threonine Kinases/metabolism",
+      "bcl-2-Associated X Protein"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yao",
+        "Yang, Jirui",
+        "Zuo, Yi",
+        "Zhang, Chaozheng",
+        "Pu, Yiru",
+        "Ren, Qing",
+        "Li, Xiao",
+        "Huang, Yunqian",
+        "Huang, Hui",
+        "Yang, Huan",
+        "You, Ouyang",
+        "Xia, Xila",
+        "Lu, Aiping",
+        "Shi, Sanjun",
+        "Deng, Yun",
+        "Lu, Jun"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Yang J",
+        "Zuo Y",
+        "Zhang C",
+        "Pu Y",
+        "Ren Q",
+        "Li X",
+        "Huang Y",
+        "Huang H",
+        "Yang H",
+        "You O",
+        "Xia X",
+        "Lu A",
+        "Shi S",
+        "Deng Y",
+        "Lu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, 999077, Hong Kong Special Administrative Region of China; Department of Orthopaedics and Traumatology, Li Ka Shing Faculty of Medicine, The University of Hong Kong, 999077, Hong Kong Special Administrative Region of China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "Department of Nursing, Xindu District People's Hospital of Chengdu, Chengdu 610500, China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, 999077, Hong Kong Special Administrative Region of China.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China. Electronic address: shisanjuns@163.com.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China. Electronic address: dengyun2000@hotmail.com.",
+        "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China; Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, 999077, Hong Kong Special Administrative Region of China. Electronic address: ljaaa111@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yao",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jirui",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Yi",
+        "short_name": "Zuo Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chaozheng",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Pu, Yiru",
+        "short_name": "Pu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Qing",
+        "short_name": "Ren Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, 999077, Hong Kong Special Administrative Region of China; Department of Orthopaedics and Traumatology, Li Ka Shing Faculty of Medicine, The University of Hong Kong, 999077, Hong Kong Special Administrative Region of China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiao",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yunqian",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nursing, Xindu District People's Hospital of Chengdu, Chengdu 610500, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hui",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Huan",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "You, Ouyang",
+        "short_name": "You O",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Xila",
+        "short_name": "Xia X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Aiping",
+        "short_name": "Lu A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, 999077, Hong Kong Special Administrative Region of China."
+        ]
+      },
+      {
+        "full_name": "Shi, Sanjun",
+        "short_name": "Shi S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China. Electronic address: shisanjuns@163.com."
+        ]
+      },
+      {
+        "full_name": "Deng, Yun",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China. Electronic address: dengyun2000@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Lu, Jun",
+        "short_name": "Lu J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Southwestern Chinese Medicine Resources, School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China; Institute for Advancing Translational Medicine in Bone & Joint Diseases, School of Chinese Medicine, Hong Kong Baptist University, 999077, Hong Kong Special Administrative Region of China. Electronic address: ljaaa111@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmacological research"
+    ],
+    "journal_abbrev": [
+      "Pharmacol Res"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/28 06:00",
+    "fetched_at": "2026-09-28 12:41:25"
+  },
+  "links": {
+    "cites": [
+      "42261447",
+      "40775761",
+      "40323152",
+      "39844156",
+      "39723045",
+      "39464892",
+      "38471647",
+      "38212810",
+      "38158734",
+      "37108769",
+      "37056992"
+    ],
+    "refs": [],
+    "similar": [
+      "36029932",
+      "35278901",
+      "27221553",
+      "31669234",
+      "35281608",
+      "31230505",
+      "30195873",
+      "29289836",
+      "28884839",
+      "32877639",
+      "34512817",
+      "30229997",
+      "36524671",
+      "30551398",
+      "31359579",
+      "35266250",
+      "35346647",
+      "34417976",
+      "25792811",
+      "30003721",
+      "36709684",
+      "35426453",
+      "28423649",
+      "28923349",
+      "32088816",
+      "32135457",
+      "28490807",
+      "38666486",
+      "23243017",
+      "31771279",
+      "32862603",
+      "36493622",
+      "32762018",
+      "34817343",
+      "26673746",
+      "25834400",
+      "26033966",
+      "33277848",
+      "28088493",
+      "26935715",
+      "26915975",
+      "32036895",
+      "30468657",
+      "34313786",
+      "31404628",
+      "28507280",
+      "33227289",
+      "38225661",
+      "32962206",
+      "29552787",
+      "25861953",
+      "35245520",
+      "38160477",
+      "33367926",
+      "37891359",
+      "29845289",
+      "35692202",
+      "36496042",
+      "29129468",
+      "36280019",
+      "34580235",
+      "34856211",
+      "34479917",
+      "25588160",
+      "23393227",
+      "31785047",
+      "34443626",
+      "27626684",
+      "36641037",
+      "30941982",
+      "31340526",
+      "22799292",
+      "32275808",
+      "31870264",
+      "24970817",
+      "37183661",
+      "37750986",
+      "30003754",
+      "30518405",
+      "32733943",
+      "32197467",
+      "24729100",
+      "33787115",
+      "29436638",
+      "26023239",
+      "36810933",
+      "31001861",
+      "32630532",
+      "32502841",
+      "20392997",
+      "38212810",
+      "28531803",
+      "30989669",
+      "35679685",
+      "30468732",
+      "27461218",
+      "26615871",
+      "25498792",
+      "29024631",
+      "21889928",
+      "30355923",
+      "27849558",
+      "24647156",
+      "22438101",
+      "23392169",
+      "15688415",
+      "36500365",
+      "33378012",
+      "35692139",
+      "37482256",
+      "36233191",
+      "36971681",
+      "33929996",
+      "38286826",
+      "37894822",
+      "34560078",
+      "37151875",
+      "37005539",
+      "37734195",
+      "36296549",
+      "36293209",
+      "36780842",
+      "37132439",
+      "38061138",
+      "37902223",
+      "37925889",
+      "37495125",
+      "36603499",
+      "33314691",
+      "38186686",
+      "39282961",
+      "35128807",
+      "36593375",
+      "36651426",
+      "30118845",
+      "35907586",
+      "36638594",
+      "36482085",
+      "37204253",
+      "36291722",
+      "38148556",
+      "36608502",
+      "36769327",
+      "38494866",
+      "36614133",
+      "36234977",
+      "37056992",
+      "33338921",
+      "36175702",
+      "38062812",
+      "35692150",
+      "37132043",
+      "36364474",
+      "38354870",
+      "37088763",
+      "35719111",
+      "38459456",
+      "38945380",
+      "36219746",
+      "36640858",
+      "34931923",
+      "37567726",
+      "35421410",
+      "36030831",
+      "38256877",
+      "36008552",
+      "39035959",
+      "36364815",
+      "29456722",
+      "39124760",
+      "36812715",
+      "36220941",
+      "37108599",
+      "37597440",
+      "37155147",
+      "37288115",
+      "39409593",
+      "36985661",
+      "37713992",
+      "37899744",
+      "38633616",
+      "38269510",
+      "35481216",
+      "36493954",
+      "38300352",
+      "36923920",
+      "38259721",
+      "36818223",
+      "32536869"
+    ],
+    "review": [
+      "36029932",
+      "36638594",
+      "36291722",
+      "36234977",
+      "36812715",
+      "39409593",
+      "37713992",
+      "38633616",
+      "38269510",
+      "32536869"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1043-6618(22)00360-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/36029932.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-12",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

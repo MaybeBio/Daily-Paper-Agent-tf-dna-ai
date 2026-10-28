@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.21.600041",
+  "title": "ProBASS – a language model with sequence and structural features for predicting the effect of mutations on binding affinity",
+  "authors": "Sagara N.S. Gurusinghe; Yibing Wu; William DeGrado; Julia M. Shifman",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-26",
+  "window": {
+    "start": "2024-06-24",
+    "end": "2024-06-30"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用ESM2和ESM-IF1蛋白语言模型预测突变对蛋白-蛋白结合亲和力（ΔΔG）的影响，虽非TF-DNA体系，但蛋白-蛋白互作结合亲和力建模方法可迁移至蛋白-DNA互作研究。",
+  "abstract": "Protein-protein interactions (PPIs) govern virtually all cellular processes. Even a single mutation within PPI can significantly influence overall protein functionality and potentially lead to various types of diseases. To date, numerous approaches have emerged for predicting the change in free energy of binding (ΔΔG bind ) resulting from mutations, yet the majority of these methods lack precision. In recent years, protein language models (PLMs) have been developed and shown powerful predictive capabilities by leveraging both sequence and structural data from protein-protein complexes. Yet, PLMs have not been optimized specifically for predicting ΔΔG bind . We developed an approach to predict effects of mutations on PPI binding affinity based on two most advanced protein language models ESM2 and ESM-IF1 that incorporate PPI sequence and structural features, respectively. We used the two models to generate embeddings for each PPI mutant and subsequently fine-tuned our model by training on a large dataset of experimental ΔΔG bind values. Our model, ProBASS (Protein Binding Affinity from Structure and Sequence) achieved a correlation with experimental ΔΔG bind values of 0.83 ± 0.05 for single mutations and 0.69 ± 0.04 for double mutations when model training and testing was done on the same PDB. Moreover, ProBASS exhibited very high correlation (0.81 ± 0.02) between prediction and experiment when training and testing was performed on a dataset containing 2325 single mutations in 132 PPIs. ProBASS surpasses the state-of-the-art methods in correlation with experimental data and could be further trained as more experimental data becomes available. Our results demonstrate that the integration of extensive datasets containing ΔΔG bind values across multiple PPIs to refine the pre-trained PLMs represents a successful approach for achieving a precise and broadly applicable model for ΔΔG bind prediction, greatly facilitating future protein engineering and design studies.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）几乎调控所有细胞过程。PPI中的单一突变即可显著影响整体蛋白质功能，并可能引发多种疾病。迄今为止，已有众多方法用于预测突变引起的结合自由能变化（ΔΔG bind ），但大多数方法缺乏精确性。近年来，蛋白质语言模型（PLMs）已得到发展，并通过利用蛋白质-蛋白质复合物的序列和结构数据展现出强大的预测能力。然而，PLMs尚未针对预测ΔΔG bind 进行专门优化。我们开发了一种基于两种最先进的蛋白质语言模型ESM2和ESM-IF1的方法，分别整合PPI序列和结构特征，以预测突变对PPI结合亲和力的影响。我们使用这两个模型为每个PPI突变体生成嵌入表示，随后在大量实验ΔΔG bind 值的数据集上训练并微调我们的模型。我们的模型ProBASS（基于结构和序列的蛋白质结合亲和力）在相同PDB上进行模型训练和测试时，对单突变和双突变的实验ΔΔG bind 值相关性分别达到0.83 ± 0.05和0.69 ± 0.04。此外，在包含132个PPI中2325个单突变的数据集上进行训练和测试时，ProBASS在预测与实验之间表现出非常高的相关性（0.81 ± 0.02）。ProBASS在与实验数据的相关性上超越了现有最先进方法，并可在获得更多实验数据时进一步训练。我们的结果表明，整合包含多个PPI的ΔΔG bind 值的大规模数据集以精炼预训练PLMs，是实现精确且广泛适用的ΔΔG bind 预测模型的有效途径，极大地促进了未来的蛋白质工程和设计研究。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.21.600041",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.21.600041",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.21.600041/index.html"
+}

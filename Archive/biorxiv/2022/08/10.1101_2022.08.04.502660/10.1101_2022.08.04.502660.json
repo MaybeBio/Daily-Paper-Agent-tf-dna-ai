@@ -1,0 +1,353 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.04.502660",
+  "title": "From peptides to proteins: coiled-coil tetramers to single-chain 4-helix bundles",
+  "doi": "10.1101/2022.08.04.502660",
+  "abstract": "<h4>ABSTRACT</h4> The design of completely synthetic proteins from first principles— de novo protein design—is challenging. This is because, despite recent advances in computational protein-structure prediction and design, we do not understand fully the sequence-to-structure relationships for protein folding, assembly, and stabilization. Antiparallel 4-helix bundles are amongst the most studied scaffolds for de novo protein design. We set out to re-examine this target, and to determine clear sequence-to-structure relationships, or design rules , for the structure. Our aim was to determine a common and robust sequence background for designing multiple de novo 4-helix bundles, which, in turn, could be used in chemical and synthetic biology to direct protein-protein interactions and as scaffolds for functional protein design. Our approach starts by analyzing known antiparallel 4-helix coiled-coil structures to deduce design rules. In terms of the heptad repeat, abcdefg —i.e., the sequence signature of many helical bundles—the key features that we identify are: a = Leu, d = Ile, e = Ala, g = Gln, and the use of complementary charged residues at b and c . Next, we implement these rules in the rational design of synthetic peptides to form antiparallel homo- and heterotetramers. Finally, we use the sequence of the homotetramer to derive a single-chain 4-helix-bundle protein for recombinant production in E. coli . All of the assembled designs are confirmed in aqueous solution using biophysical methods, and ultimately by determining high-resolution X-ray crystal structures. Our route from peptides to proteins provides an understanding of the role of each residue in each design.",
+  "authors": [
+    "Naudin EA",
+    "Albanese KI",
+    "Smith AJ",
+    "Mylemans B",
+    "Baker EG",
+    "Weiner OD",
+    "Andrews DM",
+    "Tigue N",
+    "Savery NJ",
+    "Woolfson DN"
+  ],
+  "published_date": "2022-08-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.04.502660",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.04.502660.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR528751",
+    "raw_record": {
+      "id": "PPR528751",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR528751"
+        ]
+      },
+      "doi": "10.1101/2022.08.04.502660",
+      "title": "From peptides to proteins: coiled-coil tetramers to single-chain 4-helix bundles",
+      "authorString": "Naudin EA, Albanese KI, Smith AJ, Mylemans B, Baker EG, Weiner OD, Andrews DM, Tigue N, Savery NJ, Woolfson DN.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Naudin EA",
+            "lastName": "Naudin",
+            "firstName": "Elise",
+            "initials": "EA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1318-3366"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, University of Bristol, Cantock’s Close, Bristol BS8 1TS, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Albanese KI",
+            "lastName": "Albanese",
+            "firstName": "Katherine",
+            "initials": "KI",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2336-1621"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, University of Bristol, Cantock’s Close, Bristol BS8 1TS, UK"
+                },
+                {
+                  "affiliation": "Max Planck-Bristol Centre for Minimal Biology, University of Bristol, Cantock’s Close, Bristol BS8 1TS, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Smith AJ",
+            "lastName": "Smith",
+            "firstName": "Abigail",
+            "initials": "AJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biochemistry, University of Bristol, Medical Sciences Building, University Walk, Bristol BS8 1TD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mylemans B",
+            "lastName": "Mylemans",
+            "firstName": "Bram",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3842-2308"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, University of Bristol, Cantock’s Close, Bristol BS8 1TS, UK"
+                },
+                {
+                  "affiliation": "Max Planck-Bristol Centre for Minimal Biology, University of Bristol, Cantock’s Close, Bristol BS8 1TS, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baker EG",
+            "lastName": "Baker",
+            "firstName": "Emily",
+            "initials": "EG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1593-5525"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, University of Bristol, Cantock’s Close, Bristol BS8 1TS, UK"
+                },
+                {
+                  "affiliation": "School of Biochemistry, University of Bristol, Medical Sciences Building, University Walk, Bristol BS8 1TD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weiner OD",
+            "lastName": "Weiner",
+            "firstName": "Orion",
+            "initials": "OD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cardiovascular Research Institute and Department of Biochemistry and Biophysics, University of California, San Francisco, 555 Mission Bay Blvd. South, San Francisco, CA 94158, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Andrews DM",
+            "lastName": "Andrews",
+            "firstName": "David",
+            "initials": "DM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6716-6270"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Oncology R&D, AstraZeneca, Cambridge Science Park, Darwin Building, Cambridge CB4 0WG, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tigue N",
+            "lastName": "Tigue",
+            "firstName": "Natalie",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "BioPharmaceuticals R&D, AstraZeneca, Granta Park, Cambridge CB21 6GH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Savery NJ",
+            "lastName": "Savery",
+            "firstName": "Nigel",
+            "initials": "NJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biochemistry, University of Bristol, Medical Sciences Building, University Walk, Bristol BS8 1TD, UK"
+                },
+                {
+                  "affiliation": "BrisEngBio, School of Chemistry, University of Bristol, Cantock’s Close, Bristol BS8 1TS, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Woolfson DN",
+            "lastName": "Woolfson",
+            "firstName": "Derek",
+            "initials": "DN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, University of Bristol, Cantock’s Close, Bristol BS8 1TS, UK"
+                },
+                {
+                  "affiliation": "Max Planck-Bristol Centre for Minimal Biology, University of Bristol, Cantock’s Close, Bristol BS8 1TS, UK"
+                },
+                {
+                  "affiliation": "School of Biochemistry, University of Bristol, Medical Sciences Building, University Walk, Bristol BS8 1TD, UK"
+                },
+                {
+                  "affiliation": "BrisEngBio, School of Chemistry, University of Bristol, Cantock’s Close, Bristol BS8 1TS, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1318-3366"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1593-5525"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2336-1621"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6716-6270"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3842-2308"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>ABSTRACT</h4>  The design of completely synthetic proteins from first principles—  de novo protein design—is challenging. This is because, despite recent advances in computational protein-structure prediction and design, we do not understand fully the sequence-to-structure relationships for protein folding, assembly, and stabilization. Antiparallel 4-helix bundles are amongst the most studied scaffolds for  de novo protein design. We set out to re-examine this target, and to determine clear sequence-to-structure relationships, or  design rules , for the structure. Our aim was to determine a common and robust sequence background for designing multiple  de novo 4-helix bundles, which, in turn, could be used in chemical and synthetic biology to direct protein-protein interactions and as scaffolds for functional protein design. Our approach starts by analyzing known antiparallel 4-helix coiled-coil structures to deduce design rules. In terms of the heptad repeat,  abcdefg —i.e., the sequence signature of many helical bundles—the key features that we identify are:  a = Leu,  d = Ile,  e = Ala,  g = Gln, and the use of complementary charged residues at  b and  c . Next, we implement these rules in the rational design of synthetic peptides to form antiparallel homo- and heterotetramers. Finally, we use the sequence of the homotetramer to derive a single-chain 4-helix-bundle protein for recombinant production in  E. coli . All of the assembled designs are confirmed in aqueous solution using biophysical methods, and ultimately by determining high-resolution X-ray crystal structures. Our route from peptides to proteins provides an understanding of the role of each residue in each design.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/S002820/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/V004220/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/V006231/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/08/05/2022.08.04.502660.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.08.04.502660"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR528751"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR528751&type=FILE&fileName=EMS152345-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36320580",
+            "reference": "Chemical science. 2022 Oct;13(38):11330-11340",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS152345",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-08-07",
+      "firstPublicationDate": "2022-08-05",
+      "firstIndexDate": "2022-08-07",
+      "fullTextReceivedDate": "2022-10-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41146237",
+  "title": "Identification of coagulation-related biomarkers in osteoarthritis and immune infiltration analysis based on bioinformatics.",
+  "authors": "He, Linyuwei; Ou, Zhihong; Qiu, Boyuan; Tong, Siwen; Liu, Chu; Zhou, Pengwei; Ou, Zhixue",
+  "journal": "Hereditas",
+  "published_date": "2025-10-28",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究基于GEO数据挖掘和机器学习识别骨关节炎凝血相关生物标志物并分析免疫浸润，属于纯转录组生物信息学与湿实验验证，无蛋白质-DNA互作体系、无结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: Osteoarthritis (OA) is a common degenerative disorder characterized primarily by articular cartilage degradation and chronic inflammation. Although direct evidence elucidating the specific mechanisms underlying the coagulation-immune axis in OA remains limited, emerging studies have suggested a potential link. METHODS: Four microarray datasets were retrieved from the Gene Expression Omnibus (GEO) database. Then, differentially expressed genes (DEGs) (|log(2)FC| >/= 1, P < 0.05) were identified. Gene Set Enrichment Analysis (GSEA), Gene Ontology (GO), and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were performed on these DEGs. Molecular Signatures Database (MsigDB) coagulation genes were intersected with DEGs to identify coagulation-related DEGs. Then, hub genes were determined using multiple Machine learning (ML) algorithms, Least Absolute Shrinkage and Selection Operator (LASSO), Support Vector Machine-Recursive Feature Elimination (SVM-RFE), and Random Forest (RF). Diagnostic performance of these genes was evaluated via a nomogram and ROC analysis (AUC). Immune cell infiltration was assessed with CIBERSORT. The expression of hub genes was validated in vitro via real-time qPCR and Western blot (WB). RESULTS: Based on 103 samples across four datasets, 294 DEGs were identified. Gene set enrichment analyses (GSEA, GO, KEGG) revealed significant enrichment of these genes in immune- and coagulation-related pathways in OA. Intersecting MsigDB coagulation genes with DEGs yielded nine coagulation-associated DEGs. Based on four distinct ML algorithms, six hub genes were selected: Fibroblast activation protein (FAP), Cathepsin H (CTSH), matrix metalloproteinase 1 (MMP1), matrix metalloproteinase 9 (MMP9), Complement component 6 (C6), MAF Basic Leucine Zipper Transcription Factor F (MAFF). These hub genes demonstrated high diagnostic accuracy according to ROC analysis. Immune infiltration analysis showed significant differences between OA and normal samples. M0 macrophages, plasma cells, and gammadelta T cells were elevated in OA, while activated mast cells and resting memory CD4(+) T cells were decreased. The qPCR and WB results corroborated the ML findings: in the interleukin-1beta (IL-1beta)-treated group, FAP, MMP1, MMP9, and CTSH were significantly upregulated, while MAFF and C6 were markedly downregulated. CONCLUSIONS: This study, based on publicly available GEO datasets, identified six potential diagnostic biomarkers for OA: FAP, CTSH, MMP1, MMP9, C6, and MAFF. These findings highlight the potential involvement of coagulation-immune interactions in OA pathogenesis and offer novel insights into the molecular mechanisms and diagnostic strategies for the disease.",
+  "abstract_zh": "背景：骨关节炎（OA）是一种常见的退行性疾病，主要特征为关节软骨退化和慢性炎症。尽管直接阐明OA中凝血-免疫轴具体机制的证据仍有限，但新兴研究已提示其潜在关联。方法：从基因表达综合（GEO）数据库中检索了四个微阵列数据集。随后，鉴定了差异表达基因（DEGs）（|log(2)FC| ≥ 1，P < 0.05）。对这些DEGs进行了基因集富集分析（GSEA）、基因本体论（GO）和京都基因与基因组百科全书（KEGG）富集分析。将分子特征数据库（MsigDB）中的凝血基因与DEGs取交集，以识别凝血相关DEGs。然后，使用多种机器学习（ML）算法，包括最小绝对收缩和选择算子（LASSO）、支持向量机-递归特征消除（SVM-RFE）和随机森林（RF），确定了核心基因。通过列线图和ROC分析（AUC）评估了这些基因的诊断性能。使用CIBERSORT评估了免疫细胞浸润。通过实时qPCR和Western blot（WB）在体外验证了核心基因的表达。结果：基于四个数据集中的103个样本，鉴定出294个DEGs。基因集富集分析（GSEA、GO、KEGG）显示，这些基因在OA中显著富集于免疫和凝血相关通路。将MsigDB凝血基因与DEGs取交集，得到九个凝血相关DEGs。基于四种不同的ML算法，选出了六个核心基因：成纤维细胞活化蛋白（FAP）、组织蛋白酶H（CTSH）、基质金属蛋白酶1（MMP1）、基质金属蛋白酶9（MMP9）、补体成分6（C6）和MAF碱性亮氨酸拉链转录因子F（MAFF）。根据ROC分析，这些核心基因显示出高诊断准确性。免疫浸润分析显示，OA与正常样本之间存在显著差异。OA中M0巨噬细胞、浆细胞和γδ T细胞升高，而活化肥大细胞和静息记忆CD4(+) T细胞降低。qPCR和WB结果证实了ML发现：在白细胞介素-1β（IL-1β）处理组中，FAP、MMP1、MMP9和CTSH显著上调，而MAFF和C6显著下调。结论：本研究基于公开可用的GEO数据集，鉴定了OA的六个潜在诊断生物标志物：FAP、CTSH、MMP1、MMP9、C6和MAFF。这些发现强调了凝血-免疫相互作用在OA发病机制中的潜在参与，并为该疾病的分子机制和诊断策略提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41146237/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41146237/",
+  "paper_page_path": "papers/pubmed/41146237/index.html"
+}

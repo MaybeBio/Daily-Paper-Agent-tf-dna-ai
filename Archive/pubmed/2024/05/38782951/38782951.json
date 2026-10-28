@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "38782951",
+    "doi": "10.1038/s41598-024-62212-x",
+    "title": "Characterization of clinical data for patient stratification in moderate osteoarthritis with support vector machines, regulatory network models, and verification against osteoarthritis Initiative data."
+  },
+  "content": {
+    "abstract": "Knee osteoarthritis (OA) diagnosis is based on symptoms, assessed through questionnaires such as the WOMAC. However, the inconsistency of pain recording and the discrepancy between joint phenotype and symptoms highlight the need for objective biomarkers in knee OA diagnosis. To this end, we study relationships among clinical and molecular data in a cohort of women (n = 51) with Kellgren-Lawrence grade 2-3 knee OA through a Support Vector Machine (SVM) and a regulation network model. Clinical descriptors (i.e., pain catastrophism, depression, functionality, joint pain, rigidity, sensitization and synovitis) are used to classify patients. A Youden's test is performed for each classifier to determine optimal binarization thresholds for the descriptors. Thresholds are tested against patient stratification according to baseline WOMAC data from the Osteoarthritis Initiative, and the mean accuracy is 0.97. For our cohort, the data used as SVM inputs are knee OA descriptors, synovial fluid proteomic measurements (n = 25), and transcription factor activation obtained from regulatory network model stimulated with the synovial fluid measurements. The relative weights after classification reflect input importance. The performance of each classifier is evaluated through ROC-AUC analysis. The best classifier with clinical data is pain catastrophism (AUC = 0.9), highly influenced by funcionality and pain sensetization, suggesting that kinesophobia is involved in pain perception. With synovial fluid proteins used as input, leptin strongly influences every classifier, suggesting the importance of low-grade inflammation. When transcription factors are used, the mean AUC is limited to 0.608, which can be related to the pleomorphic behaviour of osteoarthritic chondrocytes. Nevertheless, funcionality has an AUC of 0.7 with a decisive importance of FOXO downregulation. Though larger and longitudinal cohorts are needed, this unique combination of SVM and regulatory network model shall help to stratify knee OA patients more objectively.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Osteoarthritis, Knee/diagnosis/metabolism",
+      "*Support Vector Machine",
+      "Middle Aged",
+      "Aged",
+      "Gene Regulatory Networks",
+      "Biomarkers",
+      "Synovial Fluid/metabolism",
+      "Proteomics/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Segarra-Queralt, Maria",
+        "Galofre, Mar",
+        "Tio, Laura",
+        "Monfort, Jordi",
+        "Monllau, Joan Carlos",
+        "Piella, Gemma",
+        "Noailly, Jerome"
+      ],
+      "short_names": [
+        "Segarra-Queralt M",
+        "Galofre M",
+        "Tio L",
+        "Monfort J",
+        "Monllau JC",
+        "Piella G",
+        "Noailly J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "BCN MedTech, Department of Engineering, Universitat Pompeu Fabra, 08018, Barcelona, Spain.",
+        "BCN MedTech, Department of Engineering, Universitat Pompeu Fabra, 08018, Barcelona, Spain.",
+        "IMIM (Hospital del Mar Medical Research Institute), Hospital del Mar, 08003, Barcelona, Spain.",
+        "IMIM (Hospital del Mar Medical Research Institute), Hospital del Mar, 08003, Barcelona, Spain.",
+        "Rheumatology Department, Hospital del Mar, 08003, Barcelona, Spain.",
+        "Rheumatology Department, Hospital del Mar, 08003, Barcelona, Spain.",
+        "Orthopedic Surgery and Traumatology Department, Hospital del Mar, 08003, Barcelona, Spain.",
+        "BCN MedTech, Department of Engineering, Universitat Pompeu Fabra, 08018, Barcelona, Spain.",
+        "BCN MedTech, Department of Engineering, Universitat Pompeu Fabra, 08018, Barcelona, Spain. jerome.noailly@upf.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Segarra-Queralt, Maria",
+        "short_name": "Segarra-Queralt M",
+        "identifiers": [],
+        "affiliations": [
+          "BCN MedTech, Department of Engineering, Universitat Pompeu Fabra, 08018, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Galofré, Mar",
+        "short_name": "Galofré M",
+        "identifiers": [],
+        "affiliations": [
+          "BCN MedTech, Department of Engineering, Universitat Pompeu Fabra, 08018, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Tio, Laura",
+        "short_name": "Tio L",
+        "identifiers": [],
+        "affiliations": [
+          "IMIM (Hospital del Mar Medical Research Institute), Hospital del Mar, 08003, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Monfort, Jordi",
+        "short_name": "Monfort J",
+        "identifiers": [],
+        "affiliations": [
+          "IMIM (Hospital del Mar Medical Research Institute), Hospital del Mar, 08003, Barcelona, Spain.",
+          "Rheumatology Department, Hospital del Mar, 08003, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Monllau, Joan Carlos",
+        "short_name": "Monllau JC",
+        "identifiers": [],
+        "affiliations": [
+          "Rheumatology Department, Hospital del Mar, 08003, Barcelona, Spain.",
+          "Orthopedic Surgery and Traumatology Department, Hospital del Mar, 08003, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Piella, Gemma",
+        "short_name": "Piella G",
+        "identifiers": [],
+        "affiliations": [
+          "BCN MedTech, Department of Engineering, Universitat Pompeu Fabra, 08018, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Noailly, Jérôme",
+        "short_name": "Noailly J",
+        "identifiers": [],
+        "affiliations": [
+          "BCN MedTech, Department of Engineering, Universitat Pompeu Fabra, 08018, Barcelona, Spain. jerome.noailly@upf.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 May 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/24 00:42",
+    "fetched_at": "2026-09-29 20:36:19"
+  },
+  "links": {
+    "cites": [
+      "42682814",
+      "41542102",
+      "41157215",
+      "41029467",
+      "40328789"
+    ],
+    "refs": [
+      "36815875",
+      "35675298",
+      "35360402",
+      "35270000",
+      "34712886",
+      "32453429",
+      "31805099",
+      "31196179",
+      "31002938",
+      "30569009",
+      "30229533",
+      "29480410",
+      "29444976",
+      "28889010",
+      "28683024",
+      "28618311",
+      "27965260",
+      "27654964",
+      "27546496",
+      "27496698",
+      "27163679",
+      "26928182",
+      "25544994",
+      "25005549",
+      "24788315",
+      "24678248",
+      "23973124",
+      "23897772",
+      "23218934",
+      "22798062",
+      "22387238",
+      "22072016",
+      "21345293",
+      "21119608",
+      "20890979",
+      "19688109",
+      "19402782",
+      "17599731",
+      "17599073",
+      "17276094",
+      "16542429",
+      "15899045",
+      "12571850",
+      "10963912",
+      "10378714",
+      "9808350"
+    ],
+    "similar": [
+      "38782951",
+      "26299081",
+      "29402254",
+      "31196179",
+      "21714933",
+      "28433814",
+      "21509578",
+      "31424176",
+      "32059658",
+      "28065216",
+      "27840101",
+      "29143404",
+      "29195846",
+      "19301001",
+      "33747150",
+      "33166667",
+      "26617706",
+      "29196131",
+      "30721648",
+      "11172466",
+      "25287745",
+      "33664374",
+      "14629959",
+      "33870758",
+      "28427806",
+      "31737663",
+      "31146362",
+      "29438603",
+      "25005460",
+      "29562767",
+      "20349258",
+      "28333699",
+      "23281373",
+      "30658702",
+      "32917098",
+      "24748490",
+      "29335849",
+      "23400684",
+      "28433472",
+      "19662330",
+      "28451870",
+      "23557130",
+      "22225630",
+      "30159102",
+      "24109657",
+      "25529922",
+      "35859377",
+      "23532587",
+      "21062498",
+      "27558412",
+      "22117761",
+      "33749148",
+      "24680913",
+      "31926672",
+      "38750696",
+      "19747583",
+      "28399156",
+      "37379363",
+      "19217889",
+      "24399456",
+      "29486670",
+      "22173563",
+      "32079412",
+      "21320321",
+      "25927354",
+      "20082874",
+      "21292419",
+      "27654964",
+      "23607611",
+      "26524935",
+      "34800631",
+      "25262001",
+      "32677997",
+      "22751460",
+      "23942063",
+      "33550830",
+      "26722546",
+      "26076201",
+      "30085131",
+      "27461192",
+      "24583346",
+      "36250414",
+      "27296323",
+      "31430535",
+      "22449335",
+      "31989759",
+      "16251398",
+      "22238225",
+      "34628351",
+      "29855190",
+      "25881760",
+      "26232909",
+      "25813459",
+      "36580492",
+      "24319050",
+      "27342658"
+    ],
+    "review": [
+      "38782951"
+    ],
+    "pmc": [
+      "11116450"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-62212-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38782951/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38782951",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "identity": {
+    "pmid": "40200025",
+    "doi": "10.1038/s41598-025-94793-6",
+    "title": "Mechanism of astragaloside A against lung adenocarcinoma based on network pharmacology combined with molecular dynamics simulation technique."
+  },
+  "content": {
+    "abstract": "This study explores the mechanisms of Astragaloside A (AS-A), a significant active ingredient in Astragalus, This traditional Chinese medicine is both a medication and a food, combating lung adenocarcinoma using network pharmacology, molecular docking, molecular dynamics, and experimental validation. A protein-protein interaction (PPI) network was developed, identifying 10 key targets, including STAT3 and AKT1. GO and KEGG enrichment analyses indicated that these targets primarily participated in biological processes and pathways, including oxidative stress and the PI3K-Akt signalling pathway. Molecular docking and dynamic simulation evaluated AS-A's binding mode and stability with key targets. In molecular docking, 14 key targets of the HIF-1 signalling pathway had different binding energies with AS-A, such as the binding energy of PIK3R1 being -9.3. Kinetic simulations indicated the stability of the protein-ligand complex, as evidenced by RMSD values ranging from 0.2 to 0.4 nm. RMSF analysis showed that the protein residue flexibility characteristics were stable, the Rg values were stable, the number of hydrogen bonds was 10-20, and the solvent-accessible surface area was stable. Cell experiments showed that AS-A could regulate the expression of key signalling molecules such as STAT3 and AKT in lung adenocarcinoma models. This study provides insights into the mechanism of AS-A in treating lung adenocarcinoma. It proposes a new direction for anticancer research in traditional Chinese medicines, especially medications and foods.",
+    "keywords": [
+      "Astragaloside A",
+      "Lung adenocarcinoma",
+      "Medicinal and edible plants",
+      "Network pharmacology",
+      "Regulatory mechanism"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "*Triterpenes/pharmacology/chemistry",
+      "*Saponins/pharmacology/chemistry",
+      "Molecular Docking Simulation",
+      "*Adenocarcinoma of Lung/drug therapy/metabolism",
+      "*Lung Neoplasms/drug therapy/metabolism/pathology",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "*Network Pharmacology/methods",
+      "STAT3 Transcription Factor/metabolism/chemistry",
+      "Protein Interaction Maps/drug effects",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ding, Jian",
+        "Xue, Qian",
+        "Guo, Weizhen",
+        "Cheng, Gang",
+        "Zhang, Lu",
+        "Huang, Tantan",
+        "Wu, Di",
+        "Tong, Jiabing",
+        "Yang, Cheng",
+        "Gao, Yating",
+        "Li, Zegeng"
+      ],
+      "short_names": [
+        "Ding J",
+        "Xue Q",
+        "Guo W",
+        "Cheng G",
+        "Zhang L",
+        "Huang T",
+        "Wu D",
+        "Tong J",
+        "Yang C",
+        "Gao Y",
+        "Li Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+        "Anhui University of Chinese Medicine, Hefei, 230038, China.",
+        "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+        "Anhui University of Chinese Medicine, Hefei, 230038, China.",
+        "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+        "Anhui University of Chinese Medicine, Hefei, 230038, China.",
+        "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+        "Anhui University of Chinese Medicine, Hefei, 230038, China.",
+        "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+        "Anhui University of Chinese Medicine, Hefei, 230038, China.",
+        "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+        "Anhui University of Chinese Medicine, Hefei, 230038, China.",
+        "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+        "Institute of Respiratory Disease Prevention and Treatment, Anhui Academy of Chinese Medicine, Hefei, 230031, China.",
+        "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+        "Anhui University of Chinese Medicine, Hefei, 230038, China.",
+        "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+        "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China. gyt0309@stu.ahtcm.edu.cn.",
+        "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China. ahzyfb@sina.com.",
+        "Institute of Respiratory Disease Prevention and Treatment, Anhui Academy of Chinese Medicine, Hefei, 230031, China. ahzyfb@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ding, Jian",
+        "short_name": "Ding J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+          "Anhui University of Chinese Medicine, Hefei, 230038, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Qian",
+        "short_name": "Xue Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+          "Anhui University of Chinese Medicine, Hefei, 230038, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Weizhen",
+        "short_name": "Guo W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+          "Anhui University of Chinese Medicine, Hefei, 230038, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Gang",
+        "short_name": "Cheng G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+          "Anhui University of Chinese Medicine, Hefei, 230038, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lu",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+          "Anhui University of Chinese Medicine, Hefei, 230038, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Tantan",
+        "short_name": "Huang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+          "Anhui University of Chinese Medicine, Hefei, 230038, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Di",
+        "short_name": "Wu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+          "Institute of Respiratory Disease Prevention and Treatment, Anhui Academy of Chinese Medicine, Hefei, 230031, China."
+        ]
+      },
+      {
+        "full_name": "Tong, Jiabing",
+        "short_name": "Tong J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China.",
+          "Anhui University of Chinese Medicine, Hefei, 230038, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Cheng",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yating",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China. gyt0309@stu.ahtcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Zegeng",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, 230031, China. ahzyfb@sina.com.",
+          "Institute of Respiratory Disease Prevention and Treatment, Anhui Academy of Chinese Medicine, Hefei, 230031, China. ahzyfb@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Apr 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/09 10:12",
+    "fetched_at": "2026-09-30 15:25:49"
+  },
+  "links": {
+    "cites": [
+      "42511521"
+    ],
+    "refs": [
+      "39727177",
+      "39725717",
+      "39526436",
+      "39440587",
+      "39417505",
+      "39270570",
+      "39252243",
+      "39214272",
+      "39194678",
+      "39192652",
+      "39052060",
+      "39036729",
+      "38941043",
+      "38909826",
+      "38795259",
+      "38618726",
+      "37771421",
+      "37770919",
+      "37446707",
+      "37138582",
+      "37138547",
+      "37138492",
+      "37030053",
+      "36874003",
+      "36827412",
+      "36577490",
+      "36382664",
+      "36265206",
+      "36044117",
+      "35850313",
+      "35776995",
+      "35370663",
+      "34551361",
+      "34499759",
+      "34409025",
+      "34157326",
+      "34122057",
+      "33959499",
+      "33864464",
+      "33628171",
+      "33552086",
+      "33325451",
+      "33178418",
+      "32992083",
+      "32771537",
+      "32474568",
+      "32175734",
+      "31935454",
+      "31906256",
+      "31863670",
+      "31441146",
+      "30696024",
+      "30478434",
+      "30243827",
+      "30131090",
+      "30128005",
+      "29655852",
+      "28412214",
+      "28231742",
+      "25706566",
+      "25227098",
+      "24850022",
+      "24780704",
+      "24138393",
+      "21864667",
+      "21475799",
+      "18351591",
+      "11123888",
+      "10592173"
+    ],
+    "similar": [
+      "40200025",
+      "38670393",
+      "36044117",
+      "37948293",
+      "38822913",
+      "34994139",
+      "40255473",
+      "37771185",
+      "40076902",
+      "38964628",
+      "39278295",
+      "39066538",
+      "38381309",
+      "40239538",
+      "39955364",
+      "38941043",
+      "37287284",
+      "38840248",
+      "37691456",
+      "37799727",
+      "40331978",
+      "36939253",
+      "39808649",
+      "39307799",
+      "38432577",
+      "38759074",
+      "37990309",
+      "37000102",
+      "34951253",
+      "39307810",
+      "39742571",
+      "39923458",
+      "36924737",
+      "34262258",
+      "37201662",
+      "39004032",
+      "39617073",
+      "39855310",
+      "38783288",
+      "39701786",
+      "39041101",
+      "34746316",
+      "39251712",
+      "37879505",
+      "37080367",
+      "39565454",
+      "36403742",
+      "39969345",
+      "39038503",
+      "34522084",
+      "37282941",
+      "39311772",
+      "37833363",
+      "39940967",
+      "39120856",
+      "38554191",
+      "36281111",
+      "38822120",
+      "39287276",
+      "39009828",
+      "37690812",
+      "38704482",
+      "40259252",
+      "36389420",
+      "39374878",
+      "40004956",
+      "39465880",
+      "38931288",
+      "39342122",
+      "39556154",
+      "38648891",
+      "39140079",
+      "39642711",
+      "39331210",
+      "39392030",
+      "35926779",
+      "32546976",
+      "39928767",
+      "38916485",
+      "39093467",
+      "39259410",
+      "38582151",
+      "38731403",
+      "39177391",
+      "39810481",
+      "39041138",
+      "38742934",
+      "40110504",
+      "36193315",
+      "39499411",
+      "37615817",
+      "34560213",
+      "36581572",
+      "39180676",
+      "37957903",
+      "39854209",
+      "39657540",
+      "38460276",
+      "39833432",
+      "39778717"
+    ],
+    "review": [
+      "40200025"
+    ],
+    "pmc": [
+      "11978951"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-94793-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40200025/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1539",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38935114",
+  "title": "Comprehensive analysis of cuproptosis-related genes involved in immune infiltration and their use in the diagnosis of hepatic ischemia-reperfusion injury: an experimental study.",
+  "authors": "Cai, Xiaopeng; Deng, Jingwen; Zhou, Xiaohu; Wang, Kaiyue; Cai, Huiqiang; Yan, Yingcai; Jiang, Jun; Yang, Jia; Gu, Jin; Zhang, Yuan; Ding, Yuan; Sun, Qiang; Wang, Weilin",
+  "journal": "International journal of surgery (London, England)",
+  "published_date": "2024-06-27",
+  "window": {
+    "start": "2024-06-24",
+    "end": "2024-06-30"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究基于转录组数据构建肝缺血再灌注损伤的铜死亡相关诊断模型，仅涉及转录因子-基因调控网络预测，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: Hepatic ischemia-reperfusion injury (HIRI) is a common injury not only during liver transplantation but also during major hepatic surgery. HIRI causes severe complications and affects the prognosis and survival of patients. Cuproptosis, a newly identified form of cell death, plays an important role in a variety of illnesses. However, its role in HIRI remains unknown. MATERIALS AND METHODS: The GSE151648 dataset was mined from the Gene Expression Omnibus (GEO) database, and differences were analyzed for intersections. Based on the differentially expressed genes (DEGs), functional annotation, differentially expressed cuproptosis-related genes (DE-CRGs) identification and lasso logistic regression were conducted. Correlation analysis of DE-CRGs and immune infiltration was further conducted, and DE-CRGs were applied to construct an HIRI diagnostic model. The hierarchical clustering method was used to classify the specimens of HIRI, and functional annotation was conducted to verify the accuracy of these DE-CRGs in predicting HIRI progression. The GSE14951 microarray dataset and GSE171539 single-cell sequencing dataset were chosen as validation datasets. At the same time, the significance of DE-CRGs was verified using a mouse model of HIRI with cuproptosis inhibitors and inducers. Finally, a network of transcription-factor-DE-CRGs and miRNA-DE-CRGs was constructed to reveal the regulation mechanisms. And potential drugs for DE-CRGs were predicted using Drug-Gene Interaction Database (DGIdb). RESULTS: Overall, 2390 DEGs and 19 DE-CRGs were identified. Through machine learning algorithms, 8 featured DE-CRGs (GNL3, ALAS1, TSC22D2, KLF5, GTF2B, DNTTIP2, SLFN11 and HNRNPU) were screened, and 2 cuproptosis-related subclusters were defined. Based on the 8 DE-CRGs obtained from the HIRI model [area under the curve (AUC)=0.97], the nomogram model demonstrated accuracy in predicting HIRI. Eight DE-CRGs were highly expressed in HIRI samples and were negatively related to immune cell infiltration. A higher level of immune infiltration and expression of CRG group B was found in the HIRI population. Differences in cell death and immune regulation were found between the 2 groups. The diagnostic value of the 8 DE-CRGs was confirmed in the validation of two datasets. The identification of 7 DE-CRGs (SLFN11 excluded) by HIRI animal model experiments was also confirmed. Using hTFtarget, miRWalk and DGIDB database, we predicted that 17 transcription factors, 192 miRNAs and 10 drugs might interact with the DE-CRGs. CONCLUSION: This study shows that cuproptosis may occur in HIRI and is correlated with immune infiltration. Additionally, a cuproptosis-related predictive model was constructed for studying the causes of HIRI and developing targeted treatment options for HIRI.",
+  "abstract_zh": "背景：肝缺血再灌注损伤（HIRI）不仅是肝移植过程中的常见损伤，也是大手术中的常见损伤。HIRI会导致严重并发症，并影响患者的预后和生存。铜死亡（cuproptosis）是一种新发现的细胞死亡形式，在多种疾病中发挥重要作用。然而，其在HIRI中的作用仍不清楚。材料与方法：从基因表达综合（GEO）数据库中挖掘GSE151648数据集，并分析差异以寻找交集。基于差异表达基因（DEGs），进行了功能注释、差异表达铜死亡相关基因（DE-CRGs）的鉴定和lasso逻辑回归。进一步进行了DE-CRGs与免疫浸润的相关性分析，并应用DE-CRGs构建HIRI诊断模型。采用层次聚类方法对HIRI标本进行分类，并进行功能注释以验证这些DE-CRGs在预测HIRI进展中的准确性。选择GSE14951微阵列数据集和GSE171539单细胞测序数据集作为验证数据集。同时，使用带有铜死亡抑制剂和诱导剂的HIRI小鼠模型验证了DE-CRGs的重要性。最后，构建了转录因子-DE-CRGs和miRNA-DE-CRGs网络以揭示调控机制。并使用药物-基因相互作用数据库（DGIdb）预测了DE-CRGs的潜在药物。结果：总体而言，鉴定出2390个DEGs和19个DE-CRGs。通过机器学习算法，筛选出8个特征性DE-CRGs（GNL3、ALAS1、TSC22D2、KLF5、GTF2B、DNTTIP2、SLFN11和HNRNPU），并定义了2个铜死亡相关亚群。基于从HIRI模型获得的8个DE-CRGs [曲线下面积（AUC）=0.97]，列线图模型在预测HIRI方面表现出准确性。8个DE-CRGs在HIRI样本中高表达，并与免疫细胞浸润呈负相关。在HIRI人群中发现了更高水平的免疫浸润和CRG B组表达。两组之间在细胞死亡和免疫调节方面存在差异。在两个数据集的验证中确认了8个DE-CRGs的诊断价值。通过HIRI动物模型实验也确认了7个DE-CRGs（排除SLFN11）的鉴定。使用hTFtarget、miRWalk和DGIDB数据库，我们预测17个转录因子、192个miRNAs和10种药物可能与DE-CRGs相互作用。结论：本研究表明，铜死亡可能发生在HIRI中，并与免疫浸润相关。此外，构建了一个铜死亡相关预测模型，用于研究HIRI的病因并制定针对性的治疗选择。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38935114/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38935114/",
+  "paper_page_path": "papers/pubmed/38935114/index.html"
+}

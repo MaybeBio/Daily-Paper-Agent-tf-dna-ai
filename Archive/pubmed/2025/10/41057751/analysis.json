@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41057751",
+  "title": "Cell-free DNA-based inference of the activities of 370 + transcription factors mirrors their activities in tumors.",
+  "authors": "Tamaki, Ryuji; Sagane, Koji; Li, Shuyu Dan; Hoshi, Taisuke",
+  "journal": "BMC genomics",
+  "published_date": "2025-10-08",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用cfDNA覆盖模式推断肿瘤中370+转录因子活性，虽涉及TF-DNA结合位点统计，但无三维互作建模或AI/物理模拟方法，属于纯序列统计与实验验证，与本课题方法轴不匹配。",
+  "abstract": "BACKGROUND: Cell-free DNA (cfDNA) coverage patterns are emerging as potential low-invasive approaches to determine transcription factor (TF) activation status in tumors; however, the accuracy of this approach has been confirmed for only a few TFs. Here, using paired tumor/blood samples collected from two xenograft tumor models of human liver cancer (HepG2, gain-of-function mutation in CTNNB1; HuH7, wild type), we compared the accuracy of inferences of TF activity made using tumor-derived ATAC-seq data and plasma-derived cfDNA whole-genome sequencing (WGS) data. RESULTS: ATAC-seq and cfDNA-WGS data from the HepG2 model both showed higher activation of two downstream target TFs of CTNNB1 in the Wnt signaling pathway compared with the HuH7 model. Expanding the study to 377 TFs, each with 10,000 TF-binding sites, revealed significant concordance between the data sets for both models (Spearman's rho: HepG2, - 0.90; HuH7, - 0.85). To elucidate potential factors that may influence the accuracy of cfDNA-based inferences of TF activity in the clinic, we prepared simulation samples by mixing tumor-derived cfDNA with healthy-donor cfDNA; we found that a minimum of 5 x sequencing coverage and a tumor fraction of at least 3% were required to obtain accurate inferences of tumor type-specific TF activity. CONCLUSIONS: cfDNA-based TF activity inference is applicable to more than 370 TFs and can be used to accurately estimate tumor-specific TF activities. We believe that this study supports a fundamental principle that will be useful for future investigations of the potential of cfDNA analysis.",
+  "abstract_zh": "背景：游离DNA（cfDNA）覆盖模式正逐渐成为确定肿瘤中转录因子（TF）激活状态的潜在低侵入性方法；然而，该方法的准确性仅对少数TF得到确认。本研究利用从两个人肝癌异种移植肿瘤模型（HepG2，CTNNB1功能获得性突变；HuH7，野生型）中收集的配对肿瘤/血液样本，比较了基于肿瘤来源的ATAC-seq数据和血浆来源的cfDNA全基因组测序（WGS）数据推断TF活性的准确性。结果：来自HepG2模型的ATAC-seq和cfDNA-WGS数据均显示，与HuH7模型相比，Wnt信号通路中CTNNB1的两个下游靶标TF的激活程度更高。将研究扩展到377个TF，每个TF包含10,000个TF结合位点，结果显示两个模型的数据集之间存在显著一致性（Spearman's rho：HepG2，-0.90；HuH7，-0.85）。为阐明可能影响临床中基于cfDNA推断TF活性准确性的潜在因素，我们通过将肿瘤来源的cfDNA与健康供体cfDNA混合制备模拟样本；结果发现，需要至少5倍测序覆盖度和至少3%的肿瘤分数，才能获得肿瘤类型特异性TF活性的准确推断。结论：基于cfDNA的TF活性推断适用于超过370个TF，并可用于准确估计肿瘤特异性TF活性。我们相信，本研究支持一项基本原理，该原理将有助于未来探索cfDNA分析潜力的研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41057751/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41057751/",
+  "paper_page_path": "papers/pubmed/41057751/index.html"
+}

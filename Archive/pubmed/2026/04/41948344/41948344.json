@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "41948344",
+    "doi": "10.3389/fimmu.2026.1776431",
+    "title": "Identification of CCND1 and IL7R as core JAK-STAT pathway genes promoting hepatitis B-related liver fibrosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Liver fibrosis is one of the most common complications in patients with HBV infection. Characterized by excessive extracellular matrix deposition and hepatic stellate cell activation, it is tightly linked to the JAK-STAT pathway that regulates inflammatory and fibrogenic processes. METHODS: The GSE84044 dataset was retrieved from the GEO database. After grouping and preprocessing, DEGs were screened with the limma package and then subjected to functional enrichment analysis. WGCNA was performed to identify fibrosis-related module genes. Candidate key genes were obtained by intersecting these WGCNA module genes with the DEGs and JAK-STAT genes. A diagnostic model was constructed via machine learning algorithms to further filter core genes. Subsequently, GSEA, GSVA and immune infiltration analysis were conducted to explore the biological functions of these core genes. Mendelian randomization (MR) was employed to verify the causal relationships among the target genes. Furthermore, the miRNA-mRNA-TF network of the core genes were constructed. ScRNA analysis was performed to validated our finding. Finally, the expression levels of core genes were experimentally validated by Western blot and qPCR. RESULTS: CCND1 and IL7R were identified as hub genes of the JAK-STAT pathway through integrated analyses. Both genes are significantly upregulated and exert synergistic effects in HBV-related liver fibrosis, with the constructed diagnostic model achieving an AUC of 0.890. Functional enrichment indicated their involvement in immune regulatory and fibrotic pathways, while immune infiltration analysis revealed a close association with M1 macrophages and other immune cell subsets. MR analysis confirmed a significant positive causal effect of IL7R on liver fibrosis. The miRNA-mRNA-TF regulatory network highlighted their post-transcriptional and transcriptional regulatory mechanisms. scRNA-seq validated cell-type-specific expression patterns of CCND1 (epithelial cells, endothelial cells, hepatocytes, macrophages) and IL7R (T/NK cells). Western blot and qPCR further confirmed the upregulation of these genes in HBV-related fibrotic liver tissues at both protein and mRNA levels. CONCLUSIONS: In summary, CCND1 and IL7R are core JAK-STAT pathway genes associated with HBV-related liver fibrosis, with IL7R showing a significant causal role. They regulate immune microenvironment and may serve as diagnostic biomarkers.",
+    "keywords": [
+      "HBV",
+      "JAK-STAT",
+      "WGCNA",
+      "liver fibrosis",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "*Liver Cirrhosis/genetics/etiology/metabolism/virology",
+      "Humans",
+      "*Cyclin D1/genetics/metabolism",
+      "*Janus Kinases/metabolism/genetics",
+      "Signal Transduction/genetics",
+      "*STAT Transcription Factors/metabolism/genetics",
+      "*Receptors, Interleukin-7/genetics/metabolism",
+      "*Hepatitis B/complications/genetics",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Hepatitis B virus",
+      "Gene Expression Regulation",
+      "Interleukin-7 Receptor alpha Subunit"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Jiahao",
+        "Hu, Chen",
+        "Yang, Guang"
+      ],
+      "short_names": [
+        "Wu J",
+        "Hu C",
+        "Yang G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guangzhou Twelfth People's Hospital, Guangzhou, China.",
+        "Guangzhou Occupational Disease Prevention and Treatment Hospital, Guangzhou, China.",
+        "The Affiliated Guangzhou Twelfth People's Hospital, Guangzhou Medical University, Guangzhou, China.",
+        "Guangzhou Twelfth People's Hospital, Guangzhou, China.",
+        "Guangzhou Occupational Disease Prevention and Treatment Hospital, Guangzhou, China.",
+        "The Affiliated Guangzhou Twelfth People's Hospital, Guangzhou Medical University, Guangzhou, China.",
+        "Guangzhou Twelfth People's Hospital, Guangzhou, China.",
+        "Guangzhou Occupational Disease Prevention and Treatment Hospital, Guangzhou, China.",
+        "The Affiliated Guangzhou Twelfth People's Hospital, Guangzhou Medical University, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Jiahao",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Twelfth People's Hospital, Guangzhou, China.",
+          "Guangzhou Occupational Disease Prevention and Treatment Hospital, Guangzhou, China.",
+          "The Affiliated Guangzhou Twelfth People's Hospital, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Chen",
+        "short_name": "Hu C",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Twelfth People's Hospital, Guangzhou, China.",
+          "Guangzhou Occupational Disease Prevention and Treatment Hospital, Guangzhou, China.",
+          "The Affiliated Guangzhou Twelfth People's Hospital, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Guang",
+        "short_name": "Yang G",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Twelfth People's Hospital, Guangzhou, China.",
+          "Guangzhou Occupational Disease Prevention and Treatment Hospital, Guangzhou, China.",
+          "The Affiliated Guangzhou Twelfth People's Hospital, Guangzhou Medical University, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/08 12:16",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [
+      "42323450"
+    ],
+    "refs": [
+      "41360767",
+      "41322110",
+      "41260098",
+      "40678531",
+      "40677987",
+      "40579434",
+      "40408005",
+      "40313966",
+      "40312752",
+      "40148411",
+      "40116803",
+      "39969586",
+      "39670853",
+      "39142001",
+      "38795729",
+      "38374072",
+      "37397560",
+      "37208335",
+      "37041599",
+      "36685534",
+      "36671504",
+      "36007657",
+      "35773269",
+      "35721153",
+      "35559382",
+      "34624676",
+      "34543610",
+      "34440218",
+      "32702499",
+      "31972425",
+      "31476281",
+      "30901579",
+      "30622238",
+      "29672235",
+      "29275010",
+      "28255960",
+      "28154170",
+      "27781065",
+      "27742006",
+      "26576083",
+      "26357628",
+      "24954675",
+      "22493582",
+      "19114008"
+    ],
+    "similar": [
+      "41948344",
+      "42158856",
+      "37122694",
+      "42292398",
+      "39177628",
+      "41145553",
+      "28919164",
+      "41754379",
+      "42415271",
+      "30602391",
+      "41057887",
+      "42024670",
+      "39375405",
+      "40148411",
+      "39419187",
+      "42123445",
+      "37359526",
+      "41268541",
+      "38319987",
+      "40532306",
+      "40665394",
+      "40596265",
+      "22676255",
+      "41895505",
+      "41052072",
+      "41388523",
+      "40421012",
+      "42236612",
+      "42377012",
+      "39341981",
+      "41840566",
+      "41822387",
+      "33685467",
+      "42051521",
+      "39713769",
+      "41237469",
+      "39069636",
+      "41826854",
+      "40350654",
+      "36699262",
+      "41731716",
+      "40216809",
+      "37063851",
+      "41436831",
+      "42154423",
+      "39257588",
+      "41288681",
+      "41080564",
+      "41146237",
+      "39586133",
+      "42486346",
+      "41013556",
+      "42113191",
+      "42299124",
+      "40916281",
+      "38917875",
+      "42597971",
+      "40093012",
+      "39351221",
+      "30923657",
+      "41358199",
+      "42305270",
+      "39920741",
+      "41162503",
+      "41044520",
+      "33248399",
+      "41773227",
+      "42477639",
+      "42382761",
+      "41756296",
+      "22454431",
+      "39586719",
+      "42552328",
+      "34321013",
+      "42292364",
+      "41120603",
+      "38863714",
+      "40966021",
+      "41703488",
+      "41733593",
+      "41053877",
+      "40080840",
+      "40160813",
+      "40408005",
+      "39541897",
+      "41233500",
+      "42247642",
+      "35709926",
+      "41324863",
+      "42495634",
+      "40628511",
+      "29340620",
+      "40406118",
+      "41432483",
+      "42351206",
+      "31680308",
+      "41479901",
+      "41601671",
+      "40977739",
+      "39026663"
+    ],
+    "review": [
+      "41948344"
+    ],
+    "pmc": [
+      "13050702"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/hepatitisb.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Hepatitis B"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41948344/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CCND1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1776431",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

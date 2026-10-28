@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "39814753",
+    "doi": "10.1038/s41598-024-84911-1",
+    "title": "Biological characteristics, immune infiltration and drug prediction of PANoptosis related genes and possible regulatory mechanisms in inflammatory bowel disease."
+  },
+  "content": {
+    "abstract": "PANoptosis is one of several modes of programmed cell death (PCD) and plays an important role in many inflammatory and immune diseases. The role of PANoptosis in inflammatory bowel disease (IBD) is currently unknown. Differentially expressed PANoptosis-related genes (DE-PRGs) were identified, and pathway enrichment analyses were performed. LASSO regression model construction, a nomogram model, calibration curves, ROC and DCA curves were used to evaluate the predictive value of the model. Predicts transcription factors (TFs) and small-molecule drugs of DE-PRGs were analysed. Model genes and immuno-infiltration were analysed. The PANoptosis features of IBD include 12 genes: OGT, TLR2, GZMB, TLR4, PPIF, YBX3, CASP5, BCL2L1, CASP6, MEFV, GSDMB and BAX. The enrichment analysis suggested that these genes were related to TNF signalling, NF-kappaB, pyroptosis and necroptosis. Machine learning identified three model genes: OGT, GZMB and CASP5. The nomogram model, calibration curves, ROC and DCA curves have strong predictive value. Immuno-infiltration analysis revealed that immune cell infiltration was increased in patients with IBD, and the model genes were closely related to the infiltration of various immune cells. The TFs associated with DE-PRGs were RELA, NFKB1, HIF1A, TP53 and SP1. In addition, the Connectivity Map (CMap) database identified the top 10 small-molecule compounds, including buspirone, chloroquine, spectinomycin and chlortetracycline. This study indicate that DE-PRGs model genes have good predictive ability for IBD. Moreover, PANoptosis may mediate the process of IBD through TNF signalling, NF-kappaB, pyroptosis, necroptosis and immune mechanisms. These results present a new horizon for the research and treatment of IBD.",
+    "keywords": [
+      "Bioinformatics analysis",
+      "Diagnostic biomarkers",
+      "Inflammatory bowel disease",
+      "Molecular mechanism",
+      "PANoptosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Inflammatory Bowel Diseases/genetics/drug therapy/immunology/pathology",
+      "*Necroptosis/genetics",
+      "Nomograms",
+      "Gene Expression Profiling",
+      "Pyroptosis/genetics",
+      "Gene Regulatory Networks",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Minglin",
+        "Liu, Tong",
+        "Luo, Lijun",
+        "Xie, Yuxin",
+        "Wang, Fen"
+      ],
+      "short_names": [
+        "Zhang M",
+        "Liu T",
+        "Luo L",
+        "Xie Y",
+        "Wang F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, 138 Tongzipo Road, Changsha, 410013, Hunan, China.",
+        "Department of General Surgery, Zhongshan Hospital of Traditional Chinese Medicine Affiliated to Guangzhou University of Traditional Chinese Medicine, Zhongshan, Guangdong, China.",
+        "School of Medical Laboratory Science, Hebei North University, Zhangjiakou, Hebei, China.",
+        "Department of Infectious Diseases, Affiliated Hospital of Zunyi Medical University, 201 Dalian Street, Zunyi, 563003, Guizhou, China. yuxinxie2024@163.com.",
+        "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, 138 Tongzipo Road, Changsha, 410013, Hunan, China. wfen-judy@csu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Minglin",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, 138 Tongzipo Road, Changsha, 410013, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Tong",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Zhongshan Hospital of Traditional Chinese Medicine Affiliated to Guangzhou University of Traditional Chinese Medicine, Zhongshan, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Lijun",
+        "short_name": "Luo L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Laboratory Science, Hebei North University, Zhangjiakou, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Yuxin",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Affiliated Hospital of Zunyi Medical University, 201 Dalian Street, Zunyi, 563003, Guizhou, China. yuxinxie2024@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Fen",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, 138 Tongzipo Road, Changsha, 410013, Hunan, China. wfen-judy@csu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jan 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/16 00:20",
+    "fetched_at": "2026-09-30 09:44:24"
+  },
+  "links": {
+    "cites": [
+      "42174223",
+      "41769350",
+      "41595682",
+      "41341211",
+      "41028409",
+      "40855175"
+    ],
+    "refs": [
+      "39712025",
+      "39479454",
+      "39465383",
+      "39440782",
+      "39311631",
+      "39181290",
+      "38841892",
+      "38800594",
+      "38754959",
+      "38486124",
+      "38347337",
+      "38211590",
+      "38163085",
+      "38106412",
+      "38008850",
+      "37643009",
+      "37603195",
+      "37442315",
+      "37378675",
+      "37268957",
+      "37267949",
+      "36747082",
+      "36658110",
+      "36656595",
+      "36470869",
+      "36341760",
+      "36126419",
+      "35900430",
+      "35656115",
+      "35354936",
+      "35298263",
+      "35221331",
+      "35102343",
+      "35021065",
+      "34873177",
+      "34861219",
+      "34747049",
+      "34556638",
+      "34471287",
+      "34399822",
+      "34179006",
+      "33766052",
+      "33278357",
+      "33089841",
+      "32554929",
+      "32473571",
+      "32298652",
+      "32034323",
+      "31850239",
+      "31664129",
+      "31184523",
+      "31063937",
+      "30948788",
+      "30944313",
+      "30811631",
+      "30478280",
+      "30395331",
+      "30098863",
+      "29941542",
+      "29255269",
+      "29248440",
+      "28280036",
+      "28196878",
+      "27924014",
+      "26508369",
+      "26400175",
+      "26220168",
+      "26066708",
+      "25943872",
+      "25822800",
+      "25681668",
+      "25484075",
+      "24898815",
+      "24859061",
+      "24835396",
+      "22632970",
+      "22544321",
+      "22002674",
+      "21660047",
+      "21191419",
+      "20576703",
+      "20308316",
+      "19076445",
+      "18089834",
+      "18084021",
+      "18034190",
+      "17499605",
+      "17008526",
+      "16408008",
+      "16199517",
+      "15068787",
+      "15001782",
+      "14675536",
+      "12191486",
+      "12150998",
+      "11752295",
+      "11589424",
+      "11303500",
+      "11173244",
+      "10903761",
+      "10592173",
+      "10383166",
+      "9089409",
+      "8137431",
+      "4561027"
+    ],
+    "similar": [
+      "39814753",
+      "39697326",
+      "37386410",
+      "38587531",
+      "39650656",
+      "39104814",
+      "39888480",
+      "38660311",
+      "38652339",
+      "39394418",
+      "39393431",
+      "39128418",
+      "40044828",
+      "38778086",
+      "39512836",
+      "40211224",
+      "39986196",
+      "37667921",
+      "38800594",
+      "39840043",
+      "38774864",
+      "39712025",
+      "40350654",
+      "37664853",
+      "38701259",
+      "38034011",
+      "40274384",
+      "39251701",
+      "40317125",
+      "39074415",
+      "39744560",
+      "39155627",
+      "39853491",
+      "37740761",
+      "39237645",
+      "38281281",
+      "39287311",
+      "39466748",
+      "39568189",
+      "39838688",
+      "39737099",
+      "40421012",
+      "38562657",
+      "40093802",
+      "39868611",
+      "37666920",
+      "38736878",
+      "38845990",
+      "39248067",
+      "38282154",
+      "36845112",
+      "37231081",
+      "39985853",
+      "35844512",
+      "40091022",
+      "39315170",
+      "35547808",
+      "39375405",
+      "38957709",
+      "40230837",
+      "36186438",
+      "39331898",
+      "38136586",
+      "39897091",
+      "39480805",
+      "40233527",
+      "39051056",
+      "36248876",
+      "37295541",
+      "38890348",
+      "40093012",
+      "38467314",
+      "39440782",
+      "39072329",
+      "36882663",
+      "37861483",
+      "37837884",
+      "39556889",
+      "39841296",
+      "36127654",
+      "38047310",
+      "39972122",
+      "35912258",
+      "35123387",
+      "39258145",
+      "38742112",
+      "40311345",
+      "39068564",
+      "39273699",
+      "37365028",
+      "39501335",
+      "39346794",
+      "38877579",
+      "39548036",
+      "37715443",
+      "39378104",
+      "39854144",
+      "34970269",
+      "40204520",
+      "35658846"
+    ],
+    "review": [
+      "39814753",
+      "39840043",
+      "36845112",
+      "39985853",
+      "38136586",
+      "37837884",
+      "38877579",
+      "34970269"
+    ],
+    "pmc": [
+      "11736032"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-84911-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39814753/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1261",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

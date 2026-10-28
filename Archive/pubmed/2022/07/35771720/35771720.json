@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "35771720",
+    "doi": "10.1002/jmri.28323",
+    "title": "TP53 Mutation Estimation Based on MRI Radiomics Analysis for Breast Cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Noninvasive detection of TP53 mutations is useful for the molecular stratification of breast cancer. PURPOSE: To explore MRI radiomics features reflecting TP53 mutations in breast cancer and propose a classifier for detecting such mutations. STUDY TYPE: Retrospective. POPULATION/SUBJECTS: A total of 139 breast cancer patients with TP53 expression profiling (98 with TP53 mutations and 41 without TP53 mutations). FIELD STRENGTH/SEQUENCE: 1.5 T, T1-weighted (T1W) DCE-MRI. ASSESSMENT: Lesions were manually segmented using subtracted T1WI. A total of 944 radiomics features (including 744 wavelet-related features) and 7 clinicopathological features were extracted from each lesion. Principal component analysis and Pearson's correlation analysis were used to preprocess the features. Linear discriminant analysis, logistic regression (LR), support vector machine (SVM), and random forest (RF) were used as the classifiers. STATISTICAL TESTS: Analysis of variance, Kruskal-Wallis and recursive features elimination were used to select features. Receiver operating characteristic (ROC) analysis was performed to compare the diagnostic accuracy. RESULTS: For the radiomics model, the validation cohorts AUCs of the four classifiers ranged from 0.69 (RF) to 0.74 (LR), and LR (0.74) attained the highest AUCs. For the clinicopathological-radiomics combined model, the validation AUCs of the four classifiers ranged from 0.68 (RF) to 0.86 (SVM), and SVM (0.86) attained highest AUCs. In the subgroup analysis of triple-negative (TN) and luminal type breast cancer, RF achieved the highest AUCs (0.83 and 0.94). DATA CONCLUSION: Clinicopathological-radiomics combined model with SVM could be used as noninvasive biomarkers for predicting TP53 mutations. RF was recommended for the detection of TP53 mutations in TN and luminal type breast cancer. LEVEL OF EVIDENCE: 3 TECHNICAL EFFICACY: Stage 2.",
+    "keywords": [
+      "breast cancer",
+      "machine learning",
+      "radiomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "Retrospective Studies",
+      "*Breast Neoplasms",
+      "Magnetic Resonance Imaging",
+      "ROC Curve",
+      "Mutation",
+      "Tumor Suppressor Protein p53"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Kun",
+        "Zhu, Hong",
+        "Chai, Weimin",
+        "Yan, Fuhua"
+      ],
+      "short_names": [
+        "Sun K",
+        "Zhu H",
+        "Chai W",
+        "Yan F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8969-703X"
+      ],
+      "affiliations": [
+        "Department of Radiology, Ruijin Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, China.",
+        "Department of Radiology, Ruijin Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, China.",
+        "Department of Radiology, Ruijin Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, China.",
+        "Department of Radiology, Ruijin Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Kun",
+        "short_name": "Sun K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Ruijin Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Hong",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Ruijin Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chai, Weimin",
+        "short_name": "Chai W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Ruijin Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Fuhua",
+        "short_name": "Yan F",
+        "identifiers": [
+          "0000-0002-8969-703X"
+        ],
+        "affiliations": [
+          "Department of Radiology, Ruijin Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of magnetic resonance imaging : JMRI"
+    ],
+    "journal_abbrev": [
+      "J Magn Reson Imaging"
+    ],
+    "pub_date": "2023 Apr",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/01 06:00",
+    "fetched_at": "2026-09-28 10:17:34"
+  },
+  "links": {
+    "cites": [
+      "41667716",
+      "41583907",
+      "40533825",
+      "40377810",
+      "40002579",
+      "39789538",
+      "38627678",
+      "38169922",
+      "37660398",
+      "37064157",
+      "36439951"
+    ],
+    "refs": [],
+    "similar": [
+      "35771720",
+      "38153859",
+      "37064157",
+      "29394005",
+      "34689804",
+      "35657093",
+      "37933890",
+      "32061014",
+      "39026540",
+      "36661350",
+      "32222795",
+      "38875420",
+      "33979466",
+      "36656410",
+      "32112598",
+      "35044510",
+      "36355199",
+      "35945526",
+      "37951821",
+      "33970516",
+      "34430998",
+      "30773770",
+      "31747902",
+      "34890936",
+      "39417854",
+      "34233259",
+      "34977096",
+      "29573085",
+      "33936969",
+      "34075559",
+      "29428211",
+      "34623517",
+      "34255206",
+      "31470420",
+      "31425802",
+      "33447862",
+      "34270479",
+      "33955619",
+      "30430686",
+      "29626238",
+      "30171822",
+      "31834910",
+      "33220449",
+      "35484339",
+      "32367419",
+      "30358693",
+      "34677748",
+      "36282309",
+      "35092642",
+      "37656968",
+      "34453461",
+      "30980695",
+      "36172153",
+      "33893534",
+      "35024015",
+      "33194589",
+      "36212455",
+      "28199039",
+      "36670236",
+      "35366379",
+      "38342715",
+      "33693994",
+      "32947090",
+      "34567999",
+      "34549842",
+      "31675151",
+      "30194745",
+      "32181985",
+      "32466777",
+      "33137621",
+      "30711405",
+      "35577699",
+      "34868905",
+      "31209778",
+      "38376544",
+      "30660472",
+      "33826360",
+      "35417660",
+      "38733601",
+      "34109133",
+      "30252978",
+      "31016445",
+      "39221589",
+      "35951085",
+      "33638577",
+      "34773446",
+      "35734587",
+      "31632912",
+      "33217114",
+      "34604968",
+      "35773561",
+      "34355834",
+      "31696388",
+      "28521821",
+      "35273911",
+      "33604955",
+      "35819326",
+      "23548472",
+      "38549936",
+      "35692398",
+      "33593304",
+      "34236572",
+      "37586967",
+      "39330438",
+      "31032222",
+      "39280600",
+      "37487839",
+      "37648970",
+      "39263276",
+      "29745558",
+      "34733721",
+      "37179927",
+      "38054695",
+      "38249966",
+      "35762927",
+      "39404661",
+      "36765174",
+      "23573122",
+      "37637044",
+      "39252521",
+      "38940892",
+      "39115724"
+    ],
+    "review": [
+      "35771720"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/35771720.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/jmri.28323",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

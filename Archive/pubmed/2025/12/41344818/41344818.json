@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "41344818",
+    "doi": "10.1093/gerona/glaf262",
+    "title": "Transcriptomic and experimental validation identifies SOX6 and LDLRAD3 as key factors in vascular dementia."
+  },
+  "content": {
+    "abstract": "Vascular dementia (VaD) is a leading cause of cognitive decline, yet its underlying molecular mechanisms remain incompletely understood. This study aims to investigate the alterations associated with VaD in neuronal and endothelial cells by integrating single-nucleus RNA sequencing (snRNA-seq) with microarray data from postmortem VaD brain tissues. Using high-dimensional weighted gene co-expression network analysis (hdWGCNA) and machine learning approaches, we identified SOX6 in neurons and LDLRAD3 in endothelial cells as key factors associated with VaD pathology. Functional enrichment analyses revealed that glutamatergic synapses and MAPK signaling are critical pathways in neurons, while the MAPK signaling pathway, lipid metabolism, and atherosclerosis in endothelial cells contribute to VaD progression. In a mouse model of post-stroke cognitive impairment induced by transient middle cerebral artery occlusion, SOX6 and LDLRAD3 were significantly upregulated at both the mRNA and protein levels, supporting their roles in VaD. These findings provide novel insights into potential therapeutic targets for VaD and highlight the importance of endothelial and neuronal interactions in disease progression.",
+    "keywords": [
+      "LDLRAD3",
+      "Microarray",
+      "SOX6",
+      "Single-nucleus RNA sequencing",
+      "Vascular dementia"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*SOXD Transcription Factors/genetics/metabolism",
+      "Mice",
+      "Humans",
+      "*Dementia, Vascular/genetics/metabolism",
+      "Male",
+      "Neurons/metabolism",
+      "*Transcriptome",
+      "Disease Models, Animal",
+      "Endothelial Cells/metabolism",
+      "Female",
+      "Aged"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Jinrong",
+        "Yang, Xia",
+        "Lei, Wen",
+        "Xie, Xiaomei",
+        "Liang, JinLian",
+        "Wang, PingJie",
+        "Wang, Zijian",
+        "Zeng, Chong",
+        "Chen, Guobing",
+        "Huang, Lian"
+      ],
+      "short_names": [
+        "Hu J",
+        "Yang X",
+        "Lei W",
+        "Xie X",
+        "Liang J",
+        "Wang P",
+        "Wang Z",
+        "Zeng C",
+        "Chen G",
+        "Huang L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2401-6168"
+      ],
+      "affiliations": [
+        "Department of Neurology, The First Affiliated Hospital of Jinan University, Guangzhou, China.",
+        "Department of Microbiology and Immunology, School of Medicine, Jinan University, Guangzhou, China.",
+        "Department of Neurology, The First Affiliated Hospital of Jinan University, Guangzhou, China.",
+        "Department of Microbiology and Immunology, School of Medicine, Jinan University, Guangzhou, China.",
+        "Key Laboratory of Viral Pathogenesis & Infection Prevention and Control (Jinan University), Ministry of Education, Guangzhou, China.",
+        "Department of Neurology, The First Affiliated Hospital of Jinan University, Guangzhou, China.",
+        "Department of Microbiology and Immunology, School of Medicine, Jinan University, Guangzhou, China.",
+        "Key Laboratory of Viral Pathogenesis & Infection Prevention and Control (Jinan University), Ministry of Education, Guangzhou, China.",
+        "Department of Microbiology and Immunology, School of Medicine, Jinan University, Guangzhou, China.",
+        "Key Laboratory of Viral Pathogenesis & Infection Prevention and Control (Jinan University), Ministry of Education, Guangzhou, China.",
+        "Department of Microbiology and Immunology, School of Medicine, Jinan University, Guangzhou, China.",
+        "Guangdong-Hong Kong-Macau Great Bay Area Geroscience Joint Laboratory, School of Medicine, Jinan University, Guangzhou, China.",
+        "Department of Microbiology and Immunology, School of Medicine, Jinan University, Guangzhou, China.",
+        "Guangdong-Hong Kong-Macau Great Bay Area Geroscience Joint Laboratory, School of Medicine, Jinan University, Guangzhou, China.",
+        "Department of Microbiology and Immunology, School of Medicine, Jinan University, Guangzhou, China.",
+        "Zhuhai Institute of Jinan University, Jinan University, Zhuhai, China.",
+        "Department of Neurology, The First Affiliated Hospital of Jinan University, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Jinrong",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Jinan University, Guangzhou, China.",
+          "Department of Microbiology and Immunology, School of Medicine, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xia",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Wen",
+        "short_name": "Lei W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Immunology, School of Medicine, Jinan University, Guangzhou, China.",
+          "Key Laboratory of Viral Pathogenesis & Infection Prevention and Control (Jinan University), Ministry of Education, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Xiaomei",
+        "short_name": "Xie X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liang, JinLian",
+        "short_name": "Liang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Immunology, School of Medicine, Jinan University, Guangzhou, China.",
+          "Key Laboratory of Viral Pathogenesis & Infection Prevention and Control (Jinan University), Ministry of Education, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, PingJie",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Immunology, School of Medicine, Jinan University, Guangzhou, China.",
+          "Key Laboratory of Viral Pathogenesis & Infection Prevention and Control (Jinan University), Ministry of Education, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zijian",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Immunology, School of Medicine, Jinan University, Guangzhou, China.",
+          "Guangdong-Hong Kong-Macau Great Bay Area Geroscience Joint Laboratory, School of Medicine, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Chong",
+        "short_name": "Zeng C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Immunology, School of Medicine, Jinan University, Guangzhou, China.",
+          "Guangdong-Hong Kong-Macau Great Bay Area Geroscience Joint Laboratory, School of Medicine, Jinan University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Guobing",
+        "short_name": "Chen G",
+        "identifiers": [
+          "0000-0002-2401-6168"
+        ],
+        "affiliations": [
+          "Department of Microbiology and Immunology, School of Medicine, Jinan University, Guangzhou, China.",
+          "Zhuhai Institute of Jinan University, Jinan University, Zhuhai, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Lian",
+        "short_name": "Huang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Jinan University, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journals of gerontology. Series A, Biological sciences and medical sciences"
+    ],
+    "journal_abbrev": [
+      "J Gerontol A Biol Sci Med Sci"
+    ],
+    "pub_date": "2026 Jan 12",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/05 01:02",
+    "fetched_at": "2026-10-01 07:55:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41344818",
+      "40581656",
+      "40592323",
+      "40196107",
+      "38797288",
+      "40334339",
+      "35543222",
+      "41242565",
+      "40622612",
+      "40043785",
+      "31706953",
+      "41690814",
+      "34527176",
+      "40915374",
+      "37175797",
+      "39889490",
+      "40808948",
+      "31060778",
+      "30215264",
+      "27832192",
+      "39978449",
+      "40860138",
+      "40462117",
+      "38723920",
+      "24662752",
+      "40624693",
+      "41722735",
+      "41380753",
+      "29103459",
+      "39014255",
+      "28581123",
+      "29031500",
+      "39150395",
+      "37153565",
+      "38315116",
+      "24294978",
+      "40164280",
+      "39265351",
+      "35373064",
+      "36227424",
+      "32194838",
+      "39093065",
+      "30990880",
+      "34930918",
+      "38824904",
+      "32442410",
+      "41548489",
+      "34503995",
+      "41200991",
+      "32844660",
+      "40347885",
+      "39012534",
+      "21084391",
+      "29749552",
+      "40501408",
+      "31564203",
+      "41251844",
+      "38585718",
+      "27062261",
+      "38990251",
+      "30606481",
+      "34709490",
+      "38622006",
+      "36738479",
+      "31721903",
+      "39858401",
+      "26525805",
+      "36482691",
+      "21985497",
+      "39976844",
+      "40810221",
+      "40543993",
+      "35964821",
+      "41006377",
+      "40946820",
+      "36010690",
+      "37768122",
+      "32794610",
+      "40609204",
+      "41297835",
+      "32719988",
+      "24448401",
+      "33640362",
+      "39978738",
+      "20041969",
+      "25559750",
+      "40302336",
+      "36028734",
+      "37596325",
+      "40725403",
+      "33407907",
+      "40826098",
+      "39993085",
+      "21518600",
+      "32798559",
+      "28475012",
+      "26890777",
+      "21127967",
+      "41712036",
+      "40191596"
+    ],
+    "review": [
+      "41344818",
+      "41200991",
+      "27062261",
+      "39858401"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41344818.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/biomedgerontology/article-lookup/doi/10.1093/gerona/glaf262",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

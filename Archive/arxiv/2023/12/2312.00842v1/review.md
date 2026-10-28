@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose ESM-NBR, a sequence-based method using ESM2 protein language model features and a multi-task BiLSTM/MLP architecture to predict DNA- and RNA-binding residues. They claim superior performance over HMM-based features, state-of-the-art MCC values on two independent test sets, and a large speed advantage by omitting multiple sequence alignment.
+- **Visible evidence base** Abstract text only; benchmark dataset names, exact metrics, and statistical comparisons are not provided
+- **Missing materials affecting confidence** Full methods, dataset descriptions, baseline definitions, hyperparameter settings, cross-validation details, and code or data verification
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful contribution to nucleic acid-binding residue prediction, leveraging protein language model features in a multi-task framework. However, the evidence provided is insufficient to verify the claimed performance gains, speed improvements, or generalizability. The lack of methodological detail and statistical rigor in the abstract limits the ability to assess technical soundness and reproducibility.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-nucleic acid interaction prediction, particularly those developing or applying deep learning methods for functional residue annotation. The speed advantage may appeal to researchers requiring high-throughput analysis of large proteomes.
+- **Major strengths** The use of ESM2 features is timely and aligns with current trends in protein representation learning. The multi-task learning approach to jointly model DNA- and RNA-binding residues is conceptually sound. The reported speed improvement is practically significant and addresses a known limitation of alignment-based methods.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "the ESM-NBR obtains the MCC values for DNA-binding residues prediction of 0.427 and 0.391 on two independent test sets, which are 18.61 and 10.45% higher than those of the second-best methods, respectively"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify which benchmark datasets were used, how the "second-best methods" were selected, or whether the MCC differences are statistically significant. Without these details, the claimed improvements cannot be independently verified.
+  - **Why it matters** Performance claims are central to the paper's contribution. If the baselines are not clearly defined or the differences are within noise, the stated advantage may be misleading.
+  - **Resolution test** Provide dataset names, baseline method descriptions, and confidence intervals or significance tests for MCC comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "a multi-task deep learning model composed of stacked bidirectional long short-term memory (BiLSTM) and multi-layer perceptron (MLP) networks is employed to explore common and private information of DNA- and RNA-binding residues"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe how the multi-task architecture handles "common and private information" (e.g., shared vs. task-specific layers, loss weighting, or training strategy). This is a key methodological innovation that is not explained.
+  - **Why it matters** Without architectural and training details, the method cannot be reproduced or compared fairly with existing multi-task predictors.
+  - **Resolution test** Include a clear description of the model architecture, loss functions, and training procedure in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "the prediction speed of ESM-NBR far exceeds that of existing methods (5.52s for a protein sequence of length 500, which is about 16 times faster than the second-fastest method)"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The speed comparison is based on a single example (length 500) and does not specify hardware, software environment, or whether the comparison includes feature extraction time for ESM2. The claim of "far exceeds" may not hold across different sequence lengths or on different hardware.
+  - **Why it matters** Speed is a major selling point, but the evidence is anecdotal and may not generalize.
+  - **Resolution test** Provide benchmarking on multiple sequence lengths, specify hardware and software versions, and include end-to-end runtime including feature extraction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "comprehensively outperforms" is vague and not supported by specific metrics for RNA-binding prediction or other evaluation measures (e.g., sensitivity, specificity).
+  - **Required correction** Replace with quantitative comparisons for all reported metrics and both DNA- and RNA-binding tasks.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that data are freely available, but does not specify the format or whether the benchmark datasets are publicly accessible.
+  - **Required correction** Clarify the data repository and provide a data description or accession numbers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Baseline comparison
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The comparison with HMM features is mentioned, but it is unclear whether the same model architecture is used for both feature types, which is necessary for a fair feature comparison.
+  - **Required correction** State explicitly that all other components were held constant when comparing ESM2 and HMM features.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core performance and methodological claims cannot be evaluated from the abstract alone. R1-M3 is non-blocking but requires additional benchmarking.
+- **Assessment against Nature-style criteria** Originality is moderate, as protein language model features are increasingly used, but the multi-task application to nucleic acid-binding residues may offer a novel angle. Scientific importance is relevant to the field but not transformative. Interdisciplinary readership is limited to computational biology specialists. Technical soundness cannot be fully assessed due to missing details. Readability for nonspecialists is acceptable, but the abstract assumes familiarity with deep learning and binding prediction terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a useful method, but the lack of methodological detail and statistical validation prevents a supportive recommendation. A revised manuscript with full experimental details and rigorous comparisons could change this assessment.
+
+## Risk / unsupported claims
+- The claimed MCC improvements over "second-best methods" are unsupported without dataset and baseline definitions.
+- The speed advantage is unsupported without hardware and end-to-end runtime details.
+- The multi-task learning benefits for "common and private information" are not verifiable from the abstract.
+- The general superiority of ESM2 features over HMM features is only stated, not quantified for all tasks.

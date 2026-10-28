@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "40758203",
+    "doi": "10.1007/s10278-025-01631-2",
+    "title": "Development and Validation of an Explainable MRI-Based Habitat Radiomics Model for Predicting p53-Abnormal Endometrial Cancer: A Multicentre Feasibility Study."
+  },
+  "content": {
+    "abstract": "We developed an MRI-based habitat radiomics model (HRM) to predict p53-abnormal (p53abn) molecular subtypes of endometrial cancer (EC). Patients with pathologically confirmed EC were retrospectively enrolled from three hospitals and categorized into a training cohort (n = 270), test cohort 1 (n = 70), and test cohort 2 (n = 154). The tumour was divided into habitat sub-regions using diffusion-weighted imaging (DWI) and contrast-enhanced (CE) images with the K-means algorithm. Radiomics features were extracted from T1-weighted imaging (T1WI), T2-weighted imaging (T2WI), DWI, and CE images. Three machine learning classifiers-logistic regression, support vector machines, and random forests-were applied to develop predictive models for p53abn EC. Model performance was validated using receiver operating characteristic (ROC) curves, and the model with the best predictive performance was selected as the HRM. A whole-region radiomics model (WRM) was also constructed, and a clinical model (CM) with five clinical features was developed. The SHApley Additive ExPlanations (SHAP) method was used to explain the outputs of the models. DeLong's test evaluated and compared the performance across the cohorts. A total of 1920 habitat radiomics features were considered. Eight features were selected for the HRM, ten for the WRM, and three clinical features for the CM. The HRM achieved the highest AUC: 0.855 (training), 0.769 (test1), and 0.766 (test2). The AUCs of the WRM were 0.707 (training), 0.703 (test1), and 0.738 (test2). The AUCs of the CM were 0.709 (training), 0.641 (test1), and 0.665 (test2). The MRI-based HRM successfully predicted p53abn EC. The results indicate that habitat combined with machine learning, radiomics, and SHAP can effectively predict p53abn EC, providing clinicians with intuitive insights and interpretability regarding the impact of risk factors in the model.",
+    "keywords": [
+      "Endometrial cancer",
+      "Habitat",
+      "Magnetic resonance imaging",
+      "Prognosis",
+      "Radiomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Endometrial Neoplasms/diagnostic imaging/genetics/pathology",
+      "Middle Aged",
+      "*Tumor Suppressor Protein p53/genetics",
+      "Retrospective Studies",
+      "Feasibility Studies",
+      "*Magnetic Resonance Imaging/methods",
+      "Aged",
+      "Machine Learning",
+      "Adult",
+      "Radiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jin, Wentao",
+        "Zhang, Hao",
+        "Ning, Yan",
+        "Chen, Xiaojun",
+        "Zhang, Guofu",
+        "Li, Haiming",
+        "Zhang, He"
+      ],
+      "short_names": [
+        "Jin W",
+        "Zhang H",
+        "Ning Y",
+        "Chen X",
+        "Zhang G",
+        "Li H",
+        "Zhang H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3782-1411"
+      ],
+      "affiliations": [
+        "Department of Radiology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, People's Republic of China.",
+        "Department of Interventional Radiology, Fudan University Shanghai Cancer Center, Shanghai, People's Republic of China.",
+        "Department of Pathology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, People's Republic of China.",
+        "Department of Gynecology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, People's Republic of China.",
+        "Department of Radiology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, People's Republic of China.",
+        "Department of Radiology, Fudan University Shanghai Cancer Center, Shanghai, People's Republic of China. lihaiming0109@163.com.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, People's Republic of China. lihaiming0109@163.com.",
+        "Department of Radiology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, People's Republic of China. zhanghe1790@fckyy.org.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jin, Wentao",
+        "short_name": "Jin W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hao",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Radiology, Fudan University Shanghai Cancer Center, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ning, Yan",
+        "short_name": "Ning Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaojun",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Guofu",
+        "short_name": "Zhang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Haiming",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Fudan University Shanghai Cancer Center, Shanghai, People's Republic of China. lihaiming0109@163.com.",
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, People's Republic of China. lihaiming0109@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, He",
+        "short_name": "Zhang H",
+        "identifiers": [
+          "0000-0003-3782-1411"
+        ],
+        "affiliations": [
+          "Department of Radiology, Obstetrics and Gynecology Hospital, Fudan University, Shanghai, People's Republic of China. zhanghe1790@fckyy.org.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of imaging informatics in medicine"
+    ],
+    "journal_abbrev": [
+      "J Imaging Inform Med"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/04 12:27",
+    "fetched_at": "2026-09-30 23:21:30"
+  },
+  "links": {
+    "cites": [
+      "42440471"
+    ],
+    "refs": [
+      "37568660",
+      "37094971",
+      "36920774",
+      "36328942",
+      "36091379",
+      "36018785",
+      "35504673",
+      "35454768",
+      "35397864",
+      "34824097",
+      "34357451",
+      "34088515",
+      "33962254",
+      "33763651",
+      "33589443",
+      "33569615",
+      "33368243",
+      "33330847",
+      "32798280",
+      "32698525",
+      "32681608",
+      "32599906",
+      "32337640",
+      "31433862",
+      "31129097",
+      "30550484",
+      "29995239",
+      "29348883",
+      "24872110"
+    ],
+    "similar": [
+      "40758203",
+      "41740271",
+      "38845295",
+      "39210161",
+      "41063067",
+      "41099988",
+      "40866275",
+      "40676103",
+      "42618514",
+      "39732615",
+      "38538868",
+      "41826882",
+      "41327078",
+      "40175203",
+      "40862800",
+      "41083477",
+      "41233272",
+      "41714223",
+      "36282309",
+      "41545974",
+      "42116691",
+      "38887926",
+      "42121116",
+      "41992656",
+      "40368928",
+      "39171859",
+      "41272572",
+      "40866274",
+      "39904666",
+      "36259352",
+      "41291294",
+      "38529651",
+      "39668711",
+      "38508934",
+      "42159881",
+      "41814215",
+      "37578553",
+      "41361391",
+      "40883826",
+      "42729016",
+      "41325721",
+      "40976116",
+      "41327771",
+      "39413232",
+      "39417854",
+      "41188258",
+      "40924128",
+      "41264387",
+      "41695327",
+      "36656410",
+      "41499699",
+      "37933890",
+      "39789538",
+      "41087962",
+      "40436711",
+      "41826951",
+      "39085930",
+      "33829708",
+      "40908231",
+      "39276192",
+      "38272767",
+      "40262460",
+      "42277750",
+      "41219899",
+      "38997568",
+      "42442332",
+      "42180954",
+      "42214904",
+      "40632147",
+      "40256826",
+      "41558394",
+      "39167019",
+      "40747552",
+      "42414134",
+      "41586866",
+      "38783014",
+      "37848774",
+      "41668011",
+      "40016002",
+      "41731586",
+      "41673110",
+      "39613583",
+      "41353533",
+      "40730778",
+      "42179787",
+      "41857541",
+      "40214699",
+      "38690027",
+      "42138820",
+      "40893558",
+      "42406147",
+      "40223991",
+      "38129227",
+      "41398999",
+      "38472624",
+      "35366379",
+      "41996781",
+      "39631431",
+      "34861530",
+      "40813162"
+    ],
+    "review": [
+      "40758203"
+    ],
+    "pmc": [
+      "13103114"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/mriscans.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "MRI Scans"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40758203/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

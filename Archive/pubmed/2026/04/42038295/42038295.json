@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "42038295",
+    "doi": "10.3389/fphar.2026.1759555",
+    "title": "HYAL3 as a therapeutic target for pulmonary arterial Hypertension-Cardiomyopathy comorbidity: an integrative analysis combined with machine learning and SHAP value interpretation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: This study aimed to elucidate the molecular mechanisms driving the comorbidity of pulmonary arterial hypertension and cardiomyopathy (PAH-CMP), identify key pathogenic genes, and explore potential therapeutic agents targeting these genes. METHODS: Common targets for PAH and CMP were retrieved from public databases. Weighted gene co-expression network analysis (WGCNA) and multiple machine learning algorithms were employed to screen diagnostic hub genes. Upstream regulatory networks were constructed to explore molecular interactions. Key findings were validated in vitro using hypoxia-induced human pulmonary artery endothelial cells (HPAECs) and angiotensin II-induced H9C2 cardiomyocytes. Finally, molecular docking and dynamics simulations were performed to identify drug candidates. RESULTS: In total, 14,403 genes common to PAH and CMP were identified. WGCNA identified a key module that was strongly correlated with PAH-CMP. Integrative machine learning highlighted four hub genes, HYAL3, ADIPOQ, ZNF852, and SCD, all of which showed excellent diagnostic value for PAH-CMP comorbidity, with an area under curve exceeding 0.9. Regulatory network analysis revealed potential upstream transcription factors, including FOXL1, FOXC1, and PPARG. The SHAP analysis demonstrated the strong contribution of these genes to the model, with HYAL3 exhibiting the highest feature importance. Experimental validation confirmed that HYAL3 was significantly upregulated in both the PAH endothelial cell model and the CMP cardiomyocyte model, corroborating the bioinformatic predictions. Virtual screening identified flurbiprofen as a high-affinity binder for HYAL3, and molecular dynamics simulations demonstrated stable binding between them. CONCLUSION: This study systematically identified and experimentally validated HYAL3, ADIPOQ, ZNF852, and SCD as core genes in PAH-CMP comorbidity and proposed flurbiprofen as a candidate therapeutic agent targeting HYAL3. Our findings provide mechanistic insights and a potential pharmacological strategy for the treatment of PAH-CMP.",
+    "keywords": [
+      "HYAL3",
+      "SHAP analysis",
+      "machine learning",
+      "pulmonary arterial hypertension-cardiomyopathy comorbidity",
+      "virtual screening"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Jianchuan",
+        "Zhang, Wanqun",
+        "Zeng, Qiurong",
+        "Yang, Min",
+        "Zhang, Lili",
+        "Xu, Yunhu"
+      ],
+      "short_names": [
+        "Hu J",
+        "Zhang W",
+        "Zeng Q",
+        "Yang M",
+        "Zhang L",
+        "Xu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "General Practice Department, Chongqing University Fuling Hospital, Chongqing University, Chongqing, China.",
+        "Hepatology Department, Chongqing University Fuling Hospital, Chongqing University, Chongqing, China.",
+        "General Practice Department, Chongqing University Fuling Hospital, Chongqing University, Chongqing, China.",
+        "General Practice Department, Chongqing University Fuling Hospital, Chongqing University, Chongqing, China.",
+        "General Practice Department, Chongqing University Fuling Hospital, Chongqing University, Chongqing, China.",
+        "General Practice Department, Chongqing University Fuling Hospital, Chongqing University, Chongqing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Jianchuan",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "General Practice Department, Chongqing University Fuling Hospital, Chongqing University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wanqun",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Hepatology Department, Chongqing University Fuling Hospital, Chongqing University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Qiurong",
+        "short_name": "Zeng Q",
+        "identifiers": [],
+        "affiliations": [
+          "General Practice Department, Chongqing University Fuling Hospital, Chongqing University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Min",
+        "short_name": "Yang M",
+        "identifiers": [],
+        "affiliations": [
+          "General Practice Department, Chongqing University Fuling Hospital, Chongqing University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lili",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "General Practice Department, Chongqing University Fuling Hospital, Chongqing University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yunhu",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "General Practice Department, Chongqing University Fuling Hospital, Chongqing University, Chongqing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in pharmacology"
+    ],
+    "journal_abbrev": [
+      "Front Pharmacol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/27 12:34",
+    "fetched_at": "2026-10-01 19:27:23"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41585867",
+      "41056063",
+      "40766765",
+      "40705618",
+      "39209478",
+      "38845688",
+      "38234613",
+      "37438344",
+      "36603064",
+      "36243062",
+      "36198418",
+      "36068261",
+      "35790774",
+      "35740436",
+      "35705375",
+      "35412560",
+      "34278794",
+      "33843179",
+      "33483721",
+      "33346089",
+      "33314936",
+      "32417272",
+      "31023188",
+      "30989768",
+      "30616360",
+      "30428305",
+      "29607510",
+      "28467929",
+      "28396501",
+      "27989641",
+      "27322403",
+      "21274970",
+      "19399780",
+      "19114008",
+      "18762256",
+      "15667143",
+      "15608251"
+    ],
+    "similar": [
+      "42038295",
+      "42015036",
+      "41052072",
+      "42172296",
+      "40916281",
+      "36514015",
+      "42292668",
+      "42267557",
+      "41895505",
+      "42377012",
+      "41065575",
+      "37582718",
+      "41808861",
+      "42698445",
+      "40406126",
+      "42326004",
+      "39849508",
+      "41706425",
+      "42697341",
+      "34335565",
+      "42306654",
+      "42074514",
+      "39097701",
+      "41365992",
+      "39616855",
+      "38994368",
+      "40346622",
+      "39391037",
+      "38789967",
+      "41371106",
+      "42520680",
+      "41110296",
+      "42565416",
+      "42580240",
+      "41461777",
+      "41191606",
+      "41703488",
+      "42236612",
+      "42509710",
+      "41136974",
+      "41508240",
+      "42107160",
+      "41909133",
+      "41342434",
+      "42486346",
+      "42184543",
+      "42074286",
+      "40718794",
+      "41280439",
+      "40642087",
+      "41316541",
+      "40665394",
+      "36277750",
+      "41938339",
+      "41186507",
+      "36147486",
+      "42176135",
+      "41306613",
+      "41358199",
+      "41261566",
+      "41327360",
+      "41492010",
+      "40374840",
+      "42327749",
+      "40093012",
+      "42338983",
+      "40332792",
+      "41393259",
+      "40676786",
+      "42074323",
+      "40505755",
+      "40328901",
+      "41388523",
+      "34573320",
+      "41479901",
+      "42292825",
+      "41822387",
+      "42631563",
+      "41442003",
+      "40791849",
+      "42249649",
+      "41895094",
+      "34516357",
+      "41432483",
+      "36253715",
+      "40453984",
+      "39976098",
+      "42358366",
+      "42487698",
+      "42158856",
+      "41667778",
+      "42220119",
+      "41357200",
+      "41288681",
+      "42537010",
+      "42233387",
+      "41070114",
+      "42265520",
+      "38291374",
+      "39840076"
+    ],
+    "review": [
+      "42038295"
+    ],
+    "pmc": [
+      "13106557"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42038295/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1057",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphar.2026.1759555",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

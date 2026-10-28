@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37057099",
+  "title": "Combining bioinformatics and machine learning to identify common mechanisms and biomarkers of chronic obstructive pulmonary disease and atrial fibrillation.",
+  "authors": "Sun, Ziyi; Lin, Jianguo; Zhang, Tianya; Sun, Xiaoning; Wang, Tianlin; Duan, Jinlong; Yao, Kuiwu",
+  "journal": "Frontiers in cardiovascular medicine",
+  "published_date": "2023-04-15",
+  "window": {
+    "start": "2023-04-10",
+    "end": "2023-04-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习分析COPD与房颤共享基因及免疫机制，虽涉及转录因子调控网络但非蛋白质-DNA互作建模核心，方法为常规生物信息学，与本课题关联弱。",
+  "abstract": "BACKGROUND: Patients with chronic obstructive pulmonary disease (COPD) often present with atrial fibrillation (AF), but the common pathophysiological mechanisms between the two are unclear. This study aimed to investigate the common biological mechanisms of COPD and AF and to search for important biomarkers through bioinformatic analysis of public RNA sequencing databases. METHODS: Four datasets of COPD and AF were downloaded from the Gene Expression Omnibus (GEO) database. The overlapping genes common to both diseases were screened by WGCNA analysis, followed by protein-protein interaction network construction and functional enrichment analysis to elucidate the common mechanisms of COPD and AF. Machine learning algorithms were also used to identify key biomarkers. Co-expression analysis, \"transcription factor (TF)-mRNA-microRNA (miRNA)\" regulatory networks and drug prediction were performed for key biomarkers. Finally, immune cell infiltration analysis was performed to evaluate further the immune cell changes in the COPD dataset and the correlation between key biomarkers and immune cells. RESULTS: A total of 133 overlapping genes for COPD and AF were obtained, and the enrichment was mainly focused on pathways associated with the inflammatory immune response. A key biomarker, cyclin dependent kinase 8 (CDK8), was identified through screening by machine learning algorithms and validated in the validation dataset. Twenty potential drugs capable of targeting CDK8 were obtained. Immune cell infiltration analysis revealed the presence of multiple immune cell dysregulation in COPD. Correlation analysis showed that CDK8 expression was significantly associated with CD8+ T cells, resting dendritic cell, macrophage M2, and monocytes. CONCLUSIONS: This study highlights the role of the inflammatory immune response in COPD combined with AF. The prominent link between CDK8 and the inflammatory immune response and its characteristic of not affecting the basal expression level of nuclear factor kappa B (NF-kB) make it a possible promising therapeutic target for COPD combined with AF.",
+  "abstract_zh": "背景：慢性阻塞性肺疾病（COPD）患者常伴有心房颤动（AF），但两者之间的共同病理生理机制尚不清楚。本研究旨在通过公共RNA测序数据库的生物信息学分析，探讨COPD与AF的共同生物学机制，并寻找重要生物标志物。方法：从基因表达综合（GEO）数据库下载四个COPD和AF的数据集。通过WGCNA分析筛选两种疾病共有的重叠基因，随后进行蛋白质-蛋白质相互作用网络构建和功能富集分析，以阐明COPD和AF的共同机制。同时使用机器学习算法识别关键生物标志物。对关键生物标志物进行共表达分析、“转录因子（TF）-mRNA-微小RNA（miRNA）”调控网络和药物预测。最后，进行免疫细胞浸润分析，以进一步评估COPD数据集中的免疫细胞变化以及关键生物标志物与免疫细胞之间的相关性。结果：共获得133个COPD和AF的重叠基因，富集主要集中在与炎症免疫反应相关的通路。通过机器学习算法筛选识别出一个关键生物标志物——细胞周期蛋白依赖性激酶8（CDK8），并在验证数据集中得到验证。获得了20种可能靶向CDK8的潜在药物。免疫细胞浸润分析显示COPD中存在多种免疫细胞失调。相关性分析表明，CDK8表达与CD8+ T细胞、静息树突状细胞、巨噬细胞M2和单核细胞显著相关。结论：本研究强调了炎症免疫反应在COPD合并AF中的作用。CDK8与炎症免疫反应之间的显著关联及其不影响核因子κB（NF-kB）基础表达水平的特性，使其可能成为COPD合并AF的有前景的治疗靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37057099/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37057099/",
+  "paper_page_path": "papers/pubmed/37057099/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.02.673615",
+  "title": "Improved multimodal protein language model-driven universal biomolecules-binding protein design with EiRA",
+  "authors": "Wenwu Zeng; Haitao Zou; Xiaoyu Li; Yutao Dou; Xiaoqi Wang; Shaoliang Peng",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-05",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于多模态蛋白语言模型的生成模型EiRA，用于通用生物分子结合蛋白设计，并支持DNA条件化设计，通过MD模拟验证DNA结合能力，虽非聚焦TF-DNA特异性互作机制，但方法可迁移至TF-DNA结合蛋白设计。",
+  "abstract": "The interactions between proteins and biomolecules form a complex system that supports life activities. Designing proteins capable of targeted biomolecular binding is therefore critical for protein engineering and gene therapy. Here, we propose a new generative model, EiRA, specifically designed for universal biomolecular-binding protein design, which undergoes two-stage post-training, i.e., domain-adaptive masking training and binding site-informed preference optimization, based on a general multimodal protein language model. A systemic evaluation reveals the SOTA performance of EiRA, including structural confidence, diversity, novelty, and designability on 8 test sets across 6 biomolecule types. Meanwhile, EiRA provides a better characterization for biomolecular-binding proteins than generic model, thereby improving the predictive performance of various downstream tasks. We also mitigate severe repetition generation in the original language model by optimizing training strategies and loss. Additionally, we introduced DNA information into EiRA to support DNA-conditioned binder design, further expanding the boundaries of the design paradigm. Purification experiments and molecular dynamics simulations verified the manufacturability and DNA-binding ability of the designed highly differentiated protein. Remarkably, EiRA achieved the “one-shot” design of a Glucagon peptide binder with SPR-confirmed micromolar affinity.",
+  "abstract_zh": "蛋白质与生物分子之间的相互作用构成了一个支持生命活动的复杂系统。因此，设计能够靶向结合生物分子的蛋白质对于蛋白质工程和基因治疗至关重要。在此，我们提出了一种新的生成模型EiRA，专门用于通用生物分子结合蛋白质设计，该模型基于通用多模态蛋白质语言模型，经过两阶段后训练，即域自适应掩码训练和结合位点信息偏好优化。系统性评估显示，EiRA在6种生物分子类型的8个测试集上，在结构置信度、多样性、新颖性和可设计性方面均达到了最先进的性能。同时，EiRA比通用模型能更好地表征生物分子结合蛋白质，从而提升各种下游任务的预测性能。我们还通过优化训练策略和损失函数，缓解了原始语言模型中严重的重复生成问题。此外，我们将DNA信息引入EiRA，以支持DNA条件性结合物设计，进一步拓展了设计范式的边界。纯化实验和分子动力学模拟验证了所设计的高分化蛋白质的可制造性和DNA结合能力。值得注意的是，EiRA实现了对胰高血糖素肽结合物的“一次性”设计，并通过SPR确认其具有微摩尔级亲和力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.02.673615",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.02.673615",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.02.673615/index.html"
+}

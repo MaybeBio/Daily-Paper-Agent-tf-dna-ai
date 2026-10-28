@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "35273637",
+    "doi": "10.3389/fgene.2022.799783",
+    "title": "Integrative Analyses of Genes Associated With Otologic Disorders in Turner Syndrome."
+  },
+  "content": {
+    "abstract": "Background: Loss or partial loss of one X chromosome induces Turner syndrome (TS) in females, causing major medical concerns, including otologic disorders. However, the underlying genetic pathophysiology of otologic disorders in TS is mostly unclear. Methods: Ear-related genes of TS (TSEs) were identified by analyzing differentially expressed genes (DEGs) in two Gene Expression Omnibus (GEO)-derived expression profiles and ear-genes in the Comparative Toxicogenomic Database (CTD). Subsequently, Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG), and Disease Ontology (DO) analyses; Gene Set Enrichment Analysis (GSEA); and Gene Set Variation Analysis (GSVA) were adopted to study biological functions. Moreover, hub genes within the TSEs were identified by assessing protein-protein interaction (PPI), gene-microRNA, and gene-transcription factor (TF) networks. Drug-Gene Interaction Database (DGIdb) analysis was performed to predict molecular drugs for TS. Furthermore, three machine-learning analysis outcomes were comprehensively compared to explore optimal biomarkers of otologic disorders in TS. Finally, immune cell infiltration was analyzed. Results: The TSEs included 30 significantly upregulated genes and 14 significantly downregulated genes. Enrichment analyses suggested that TSEs play crucial roles in inflammatory responses, phospholipid and glycerolipid metabolism, transcriptional processes, and epigenetic processes, such as histone acetylation, and their importance for inner ear development. Subsequently, we described three hub genes in the PPI network and confirmed their involvement in Wnt/beta-catenin signaling pathway and immune cell regulation and roles in maintaining normal auditory function. We also constructed gene-microRNA and gene-TF networks. A novel biomarker (SLC25A6) of the pathogenesis of otologic disorders in TS was identified by comprehensive comparisons of three machine-learning analyses with the best predictive performance. Potential therapeutic agents in TS were predicted using the DGIdb. Immune cell infiltration analysis showed that TSEs are related to immune-infiltrating cells. Conclusion: Overall, our findings have deepened the understanding of the pathophysiology of otologic disorders in TS and made contributions to present a promising biomarker and treatment targets for in-depth research.",
+    "keywords": [
+      "bioinformatics",
+      "biomarker",
+      "enrichment analyses",
+      "hub genes",
+      "immune infiltration",
+      "otologic disorders",
+      "regulatory network",
+      "turner syndrome"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xue, Ruoyan",
+        "Tang, Qi",
+        "Zhang, Yongli",
+        "Xie, Mengyao",
+        "Li, Chen",
+        "Wang, Shu",
+        "Yang, Hua"
+      ],
+      "short_names": [
+        "Xue R",
+        "Tang Q",
+        "Zhang Y",
+        "Xie M",
+        "Li C",
+        "Wang S",
+        "Yang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Otolaryngology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.",
+        "Department of Otolaryngology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.",
+        "Department of Otolaryngology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.",
+        "Department of Otolaryngology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.",
+        "Department of Otolaryngology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.",
+        "Department of Otolaryngology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.",
+        "Department of Otolaryngology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xue, Ruoyan",
+        "short_name": "Xue R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Qi",
+        "short_name": "Tang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yongli",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Mengyao",
+        "short_name": "Xie M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chen",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shu",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Hua",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/12 06:00",
+    "fetched_at": "2026-09-28 06:03:24"
+  },
+  "links": {
+    "cites": [
+      "38748847"
+    ],
+    "refs": [
+      "34890713",
+      "32343945",
+      "32303701",
+      "32210915",
+      "32199461",
+      "31847800",
+      "31781160",
+      "31754223",
+      "31443682",
+      "31443490",
+      "31213699",
+      "31061481",
+      "31003036",
+      "30931480",
+      "30770781",
+      "30476243",
+      "30385537",
+      "29920251",
+      "29915563",
+      "29590633",
+      "29309748",
+      "29156001",
+      "29126174",
+      "29045534",
+      "29020939",
+      "28827693",
+      "28705803",
+      "28684091",
+      "28459451",
+      "28420278",
+      "27687697",
+      "26771021",
+      "26431949",
+      "26150489",
+      "25946884",
+      "25750614",
+      "25677125",
+      "25605792",
+      "25587646",
+      "25521941",
+      "25385222",
+      "25295306",
+      "25266658",
+      "24907368",
+      "24850140",
+      "24703051",
+      "24297251",
+      "23553856",
+      "23506884",
+      "23431407",
+      "23325622",
+      "23323831",
+      "22513373",
+      "22455463",
+      "22359503",
+      "21962971",
+      "21949351",
+      "21845174",
+      "21414208",
+      "20808728",
+      "20179076",
+      "19789718",
+      "19237447",
+      "19141081",
+      "19081146",
+      "18058845",
+      "17496320",
+      "17381484",
+      "17344859",
+      "17099226",
+      "16930576",
+      "16902965",
+      "16467722",
+      "15949538",
+      "15793396",
+      "15371580",
+      "15097963",
+      "14597658",
+      "11739418",
+      "11498234",
+      "11470188",
+      "11012240",
+      "10902193",
+      "10831862",
+      "10802651",
+      "10631096",
+      "10592173",
+      "9150433",
+      "8490661",
+      "7628386"
+    ],
+    "similar": [
+      "35273637",
+      "36506310",
+      "37033969",
+      "35711934",
+      "31987036",
+      "36246123",
+      "34553293",
+      "31233342",
+      "36704339",
+      "34233597",
+      "30132538",
+      "31258663",
+      "31934299",
+      "34880901",
+      "34271942",
+      "33468161",
+      "32210915",
+      "33780364",
+      "34663380",
+      "30825595",
+      "33664765",
+      "38273392",
+      "31424263",
+      "36124139",
+      "29845250",
+      "34174849",
+      "31416885",
+      "31822116",
+      "36733527",
+      "36353576",
+      "34814332",
+      "36325528",
+      "31989994",
+      "33501609",
+      "35154510",
+      "32669126",
+      "36818726",
+      "32598242",
+      "28952134",
+      "32684073",
+      "31322209",
+      "35625787",
+      "33437215",
+      "33046027",
+      "34193119",
+      "33407587",
+      "31673979",
+      "29517105",
+      "30633343",
+      "34218797",
+      "33640831",
+      "36468038",
+      "33397492",
+      "33061942",
+      "33032291",
+      "32626989",
+      "31703725",
+      "28983581",
+      "38572323",
+      "32682418",
+      "33389314",
+      "35173467",
+      "31115544",
+      "36466876",
+      "31523525",
+      "36003792",
+      "33363475",
+      "33630978",
+      "31794546",
+      "30138363",
+      "36684561",
+      "30982163",
+      "32648291",
+      "34257537",
+      "34067297",
+      "34421979",
+      "30627556",
+      "37743820",
+      "35432485",
+      "36605987",
+      "38628660",
+      "39275894",
+      "35729678",
+      "35463035",
+      "38059138",
+      "39281527",
+      "36072667",
+      "35341274",
+      "36524127",
+      "38236354",
+      "38694919",
+      "36311291",
+      "38919950",
+      "37626824",
+      "37872956",
+      "35911532",
+      "36330393",
+      "35070815",
+      "38660673",
+      "36614113",
+      "34021221",
+      "36968845",
+      "35282650",
+      "36590292",
+      "35127947",
+      "34168979",
+      "38596069",
+      "38971921",
+      "35891788"
+    ],
+    "review": [
+      "35273637"
+    ],
+    "pmc": [
+      "8902304"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35273637/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35273637",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2022.799783",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "arxiv",
+  "source_id": "2112.07571v1",
+  "title": "Epigenomic language models powered by Cerebras",
+  "doi": "",
+  "abstract": "Large scale self-supervised pre-training of Transformer language models has advanced the field of Natural Language Processing and shown promise in cross-application to the biological `languages' of proteins and DNA. Learning effective representations of DNA sequences using large genomic sequence corpuses may accelerate the development of models of gene regulation and function through transfer learning. However, to accurately model cell type-specific gene regulation and function, it is necessary to consider not only the information contained in DNA nucleotide sequences, which is mostly invariant between cell types, but also how the local chemical and structural `epigenetic state' of chromosomes varies between cell types. Here, we introduce a Bidirectional Encoder Representations from Transformers (BERT) model that learns representations based on both DNA sequence and paired epigenetic state inputs, which we call Epigenomic BERT (or EBERT). We pre-train EBERT with a masked language model objective across the entire human genome and across 127 cell types. Training this complex model with a previously prohibitively large dataset was made possible for the first time by a partnership with Cerebras Systems, whose CS-1 system powered all pre-training experiments. We show EBERT's transfer learning potential by demonstrating strong performance on a cell type-specific transcription factor binding prediction task. Our fine-tuned model exceeds state of the art performance on 4 of 13 evaluation datasets from ENCODE-DREAM benchmarks and earns an overall rank of 3rd on the challenge leaderboard. We explore how the inclusion of epigenetic data and task specific feature augmentation impact transfer learning performance.",
+  "authors": [
+    "Meredith V. Trotter",
+    "Cuong Q. Nguyen",
+    "Stephen Young",
+    "Rob T. Woodruff",
+    "Kim M. Branson"
+  ],
+  "published_date": "2021-12-14T17:23:42Z",
+  "updated_date": "2021-12-14T17:23:42Z",
+  "journal": "",
+  "category": "cs.LG, q-bio.GN",
+  "landing_url": "https://arxiv.org/abs/2112.07571v1",
+  "pdf_url": "https://arxiv.org/pdf/2112.07571v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "cs.LG",
+    "q-bio.GN"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2112.07571v1",
+    "raw_categories": [
+      "cs.LG",
+      "q-bio.GN"
+    ],
+    "journal_ref": ""
+  }
+}

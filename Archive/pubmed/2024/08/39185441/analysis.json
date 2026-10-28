@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39185441",
+  "title": "A novel heuristic of rigid docking scores positively correlates with full-length nuclear receptor LRH-1 regulation.",
+  "authors": "Haratipour, Zeinab; Foutch, David; Blind, Raymond D",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2024-08-26",
+  "window": {
+    "start": "2024-08-26",
+    "end": "2024-09-01"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用刚性对接评分衍生DeltaDeltaG指标，关联核受体LRH-1全长调控，虽涉及TF-DNA体系但聚焦配体-蛋白互作而非DNA结合，方法可迁移但非核心。",
+  "abstract": "The nuclear receptor Liver Receptor Homolog-1 (LRH-1, NR5A2) is a ligand-regulated transcription factor and validated drug target for several human diseases. LRH-1 activation is regulated by small molecule ligands, which bind to the ligand binding domain (LBD) within the full-length LRH-1. We recently identified 57 compounds that bind LRH-1, and unexpectedly found these compounds regulated either the isolated LBD, or the full-length LRH-1 in cells, with little overlap. Here, we correlated compound binding energy from a single rigid-body scoring function with full-length LRH-1 activity in cells. Although docking scores of the 57 hit compounds did not correlate with LRH-1 regulation in wet lab assays, a subset of the compounds had large differences in binding energy docked to the isolated LBD vs. full-length LRH-1, which we used to empirically derive a new metric of the docking scores we call \"DeltaDeltaG\". Initial regressions, correlations and contingency analyses all suggest compounds with high DeltaDeltaG values more frequently regulated LRH-1 in wet lab assays. We then docked all 57 compounds to 18 separate crystal structures of LRH-1 to obtain averaged DeltaDeltaG values for each compound, which robustly and reproducibly associated with full-length LRH-1 activity in cells. Network analyses on the 18 crystal structures of LRH-1 suggest unique communication paths exist between the subsets of LRH-1 crystal structures that produced high vs. low DeltaDeltaG values, identifying a structural relationship between DeltaDeltaG and the position of Helix 6, a previously established regulatory helix important for LRH-1 regulation. Together, these data suggest rigid-body computational docking can be used to quickly calculate DeltaDeltaG, which positively correlated with the ability of these 57 hit compounds to regulate full-length LRH-1 in cell-based assays. We propose DeltaDeltaG as a novel computational tool that can be applied to LRH-1 drug screens to prioritize compounds for resource-intense secondary screening.",
+  "abstract_zh": "核受体肝受体同源物-1（LRH-1, NR5A2）是一种配体调控的转录因子，也是多种人类疾病的已验证药物靶点。LRH-1的激活受小分子配体调控，这些配体结合于全长LRH-1内的配体结合域（LBD）。我们近期鉴定了57种结合LRH-1的化合物，并意外发现这些化合物分别调控分离的LBD或细胞中的全长LRH-1，且两者之间重叠很少。在此，我们将单一刚性体评分函数的化合物结合能与细胞中全长LRH-1活性进行关联。尽管57种命中化合物的对接分数与湿实验中的LRH-1调控无相关性，但其中一部分化合物在对接至分离LBD与全长LRH-1时表现出较大的结合能差异，我们据此经验性地推导出一种新的对接分数指标，称为“DeltaDeltaG”。初步回归、相关性和列联分析均表明，具有高DeltaDeltaG值的化合物在湿实验中更频繁地调控LRH-1。随后，我们将所有57种化合物对接至18个独立的LRH-1晶体结构，以获得每种化合物的平均DeltaDeltaG值，该值稳健且可重复地与细胞中全长LRH-1活性相关联。对18个LRH-1晶体结构的网络分析表明，产生高与低DeltaDeltaG值的LRH-1晶体结构子集之间存在独特的通信路径，从而识别出DeltaDeltaG与螺旋6位置之间的结构关系，螺旋6是先前已确立的、对LRH-1调控重要的调节性螺旋。综合来看，这些数据表明刚性体计算对接可用于快速计算DeltaDeltaG，其与这57种命中化合物在基于细胞的测定中调控全长LRH-1的能力呈正相关。我们提出DeltaDeltaG作为一种新型计算工具，可应用于LRH-1药物筛选，以优先选择化合物用于资源密集型的二次筛选。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39185441/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39185441/",
+  "paper_page_path": "papers/pubmed/39185441/index.html"
+}

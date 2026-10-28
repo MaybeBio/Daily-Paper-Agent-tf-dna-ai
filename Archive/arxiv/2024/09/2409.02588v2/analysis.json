@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2409.02588v2",
+  "title": "Multiview Random Vector Functional Link Network for Predicting DNA-Binding Proteins",
+  "authors": "A. Quadir; M. Sajid; M. Tanveer",
+  "journal": "",
+  "published_date": "2024-09-04",
+  "window": {
+    "start": "2024-09-02",
+    "end": "2024-09-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用多视图随机向量函数链接网络预测DNA结合蛋白，属于广义蛋白-DNA互作识别，但仅基于序列特征分类，未涉及TF-DNA特异性结合或三维互作建模，方法可迁移但深度有限。",
+  "abstract": "The identification of DNA-binding proteins (DBPs) is essential due to their significant impact on various biological activities. Understanding the mechanisms underlying protein-DNA interactions is essential for elucidating various life activities. In recent years, machine learning-based models have been prominently utilized for DBP prediction. In this paper, to predict DBPs, we propose a novel framework termed a multiview random vector functional link (MvRVFL) network, which fuses neural network architecture with multiview learning. The MvRVFL model integrates both late and early fusion advantages, enabling separate regularization parameters for each view, while utilizing a closed-form solution for efficiently determining unknown parameters. The primal objective function incorporates a coupling term aimed at minimizing a composite of errors stemming from all views. From each of the three protein views of the DBP datasets, we extract five features. These features are then fused together by incorporating a hidden feature during the model training process. The performance of the proposed MvRVFL model on the DBP dataset surpasses that of baseline models, demonstrating its superior effectiveness. We further validate the practicality of the proposed model across diverse benchmark datasets, and both theoretical analysis and empirical results consistently demonstrate its superior generalization performance over baseline models.",
+  "abstract_zh": "DNA结合蛋白（DNA-binding proteins, DBPs）的识别至关重要，因为它们在多种生物活动中具有显著影响。理解蛋白质-DNA相互作用的机制对于阐明各种生命活动至关重要。近年来，基于机器学习的模型已被广泛应用于DBP预测。本文中，为预测DBPs，我们提出了一种新颖的框架，称为多视图随机向量功能链接（multiview random vector functional link, MvRVFL）网络，该网络融合了神经网络架构与多视图学习。MvRVFL模型整合了晚期和早期融合的优势，能够为每个视图设置单独的正则化参数，同时利用闭式解高效确定未知参数。原始目标函数包含一个耦合项，旨在最小化所有视图误差的组合。从DBP数据集的三个蛋白质视图中，我们提取了五个特征。这些特征在模型训练过程中通过引入隐藏特征进行融合。所提出的MvRVFL模型在DBP数据集上的性能超越了基线模型，展示了其卓越的有效性。我们进一步在多个基准数据集上验证了该模型的实用性，理论分析和实证结果均一致表明，其在泛化性能上优于基线模型。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2409.02588v2",
+  "source_url": "https://arxiv.org/abs/2409.02588v2",
+  "paper_page_path": "papers/arxiv/2409.02588v2/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35042722",
+  "title": "Domain-adaptive neural networks improve cross-species prediction of transcription factor binding.",
+  "authors": "Cochran, Kelly; Srivastava, Divyanshi; Shrikumar, Avanti; Balsubramani, Akshay; Hardison, Ross C; Kundaje, Anshul; Mahony, Shaun",
+  "journal": "Genome research",
+  "published_date": "2022-01-20",
+  "window": {
+    "start": "2022-01-17",
+    "end": "2022-01-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用域自适应神经网络改进跨物种转录因子结合位点预测，核心聚焦TF-DNA结合预测，方法为AI深度学习，高度匹配本课题。",
+  "abstract": "The intrinsic DNA sequence preferences and cell type-specific cooperative partners of transcription factors (TFs) are typically highly conserved. Hence, despite the rapid evolutionary turnover of individual TF binding sites, predictive sequence models of cell type-specific genomic occupancy of a TF in one species should generalize to closely matched cell types in a related species. To assess the viability of cross-species TF binding prediction, we train neural networks to discriminate ChIP-seq peak locations from genomic background and evaluate their performance within and across species. Cross-species predictive performance is consistently worse than within-species performance, which we show is caused in part by species-specific repeats. To account for this domain shift, we use an augmented network architecture to automatically discourage learning of training species-specific sequence features. This domain adaptation approach corrects for prediction errors on species-specific repeats and improves overall cross-species model performance. Our results show that cross-species TF binding prediction is feasible when models account for domain shifts driven by species-specific repeats.",
+  "abstract_zh": "转录因子（TFs）的内在DNA序列偏好及细胞类型特异性协同伙伴通常高度保守。因此，尽管单个TF结合位点快速进化更替，一个物种中针对TF的细胞类型特异性基因组占据的预测性序列模型，应能推广至相关物种中紧密匹配的细胞类型。为评估跨物种TF结合预测的可行性，我们训练神经网络以区分ChIP-seq峰位与基因组背景，并在物种内及跨物种间评估其性能。跨物种预测性能始终逊于物种内性能，我们证明这部分由物种特异性重复序列所致。为应对这一域偏移，我们采用增强网络架构，自动抑制对训练物种特异性序列特征的学习。该域适应方法纠正了物种特异性重复序列上的预测错误，并提升了整体跨物种模型性能。我们的结果表明，当模型考虑由物种特异性重复序列驱动的域偏移时，跨物种TF结合预测是可行的。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35042722/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35042722/",
+  "paper_page_path": "papers/pubmed/35042722/index.html"
+}

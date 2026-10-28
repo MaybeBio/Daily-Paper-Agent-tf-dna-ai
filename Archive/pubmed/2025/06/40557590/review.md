@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use computational tools and molecular dynamics simulations to propose that human HOX transcription factors have a strong propensity for liquid-liquid phase separation, driven by large disordered regions via a fly-casting mechanism, with transient secondary structures matching short linear motifs that may recruit partner molecules such as TALE proteins into biomolecular cocondensates. They report mapping 352 SliMs in droplet-promoting disordered regions and provide an interactive webpage for motif maps.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, validation metrics, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, sequence datasets, statistical analyses, and the referenced webpage content
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting hypothesis linking HOX transcription factor disorder, phase separation, and short linear motif-mediated interactions. However, the evidence base is entirely computational and descriptive, with no quantitative validation, no comparison to experimental data, and no mechanistic testing. The claims of "strong propensity" and "fly-casting like mechanism" are asserted without supporting metrics. The work may be of interest to the phase separation and developmental biology communities, but the current abstract does not establish the core conclusions.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation in transcriptional regulation, developmental biologists focused on HOX gene function, and computational biologists interested in disorder-based interaction prediction. The potential link between HOX phase separation and cancer could attract translational researchers.
+- **Major strengths** The abstract addresses a timely and important topic, namely the role of phase separation in transcription factor function. The integration of MD simulations with SliM mapping is a creative approach. The provision of an interactive webpage is a useful community resource.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "We found that the human HOX transcription factors have a strong propensity to undergo phase separation"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim of "strong propensity" is presented without any quantitative metric, such as simulation-derived phase diagrams, saturation concentrations, or comparison to known phase-separating proteins. No statistical confidence or error estimates are reported.
+  - **Why it matters** Without quantitative evidence, the central claim is not falsifiable and cannot be compared to existing literature on phase separation propensity.
+  - **Resolution test** Provide quantitative measures of phase separation propensity from simulations, including order parameters, critical concentrations, or free energy estimates, with appropriate uncertainty quantification.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** "The large disordered regions of the HOX factors drive phase separation via a fly-casting like mechanism"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The fly-casting mechanism is asserted but no simulation data are shown to demonstrate that terminal segments extend and interact with neighboring molecules. No evidence distinguishes this mechanism from other possible drivers of phase separation.
+  - **Why it matters** The proposed mechanism is a key novelty of the work. Without direct evidence, the mechanism remains speculative.
+  - **Resolution test** Show representative simulation trajectories or distance distributions demonstrating terminal segment extension and intermolecular contact formation, with appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** "The HOX transcription factors may act as scaffold proteins and recruit partner molecules, such as TALE proteins, in the biomolecular cocondensates"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim of scaffold function and TALE recruitment is purely speculative. No simulation or experimental evidence is presented for cocondensate formation or TALE protein interaction.
+  - **Why it matters** This is the most biologically significant claim, linking phase separation to HOX function. Without evidence, the relevance of the computational findings to biology is unclear.
+  - **Resolution test** Provide simulation or experimental evidence for HOX-TALE cocondensation, such as two-component phase diagrams or binding assays.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of SliMs
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses "SliMs" and "short linear motifs" interchangeably but does not define the criteria used to identify them or the confidence of the mapping.
+  - **Required correction** Define SliM identification criteria and report the prediction confidence or validation status.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Webpage accessibility
+  - **Evidence pointer** Abstract, URL provided
+  - **Issue** The webpage is referenced but its content, data format, and update status are not described.
+  - **Required correction** Describe the webpage contents, data availability, and how users can access the underlying datasets.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison to existing work
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention how these findings compare to prior computational or experimental studies of transcription factor phase separation.
+  - **Required correction** Add a brief comparison to existing phase separation prediction methods or experimental data on HOX proteins.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative evidence for phase separation propensity, direct support for the fly-casting mechanism, and any evidence for functional relevance through TALE recruitment.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of fly-casting and SliM mapping to HOX factors is novel, but the general concept of disorder-driven phase separation in transcription factors is well established.
+  - Scientific importance: Potentially high if the functional claims are validated, but currently the importance is not demonstrated.
+  - Interdisciplinary readership: The topic bridges biophysics, developmental biology, and computational biology, which could attract a broad audience.
+  - Technical soundness: Not assessable from the abstract. No methodological details or validation metrics are provided.
+  - Readability for nonspecialists: The abstract is generally clear but uses jargon such as "fly-casting" and "SliMs" without sufficient explanation for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the quantitative and mechanistic evidence required to support the central claims. Supportive if the full manuscript provides the missing evidence and addresses the major concerns.
+
+## Risk / unsupported claims
+- The claim of "strong propensity" for phase separation is unsupported without quantitative metrics.
+- The fly-casting mechanism is unsupported without direct simulation evidence.
+- The scaffold function and TALE recruitment are speculative and not supported by any data.
+- The biological relevance to HOX-related processes and cancer is asserted without evidence.
+- The mapping of 352 SliMs is reported without details on prediction methods, false positive rates, or experimental validation.

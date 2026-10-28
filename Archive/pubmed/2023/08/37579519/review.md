@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to investigate the interaction between the glucocorticoid receptor (GR) and the transcription factor SOX9 in the presence and absence of dexamethasone (DEX). They report identification of key interface residues involved in complex formation and propose a mechanism by which DEX modulates GR-SOX9 binding and biological activity.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation parameters, validation metrics, or structural data are provided
+- **Missing materials affecting confidence** Full methods, simulation setup, force field parameters, convergence criteria, trajectory analyses, structural figures, binding free energy calculations, and any statistical validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study addressing a relevant biological question regarding glucocorticoid receptor and SOX9 interaction. However, the abstract provides insufficient technical detail to evaluate the rigor of the molecular dynamics approach, the validity of the simulation results, or the strength of the mechanistic conclusions. The claims regarding key residues and the modulatory mechanism of DEX are stated without supporting quantitative evidence. The work may be of interest to researchers in computational biophysics and skeletal biology, but the current abstract does not establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers studying glucocorticoid signaling, chondrogenesis and osteogenesis, transcription factor interactions, and computational drug design. The potential link between GR-SOX9 binding and cell fate determination could interest those working on mesenchymal stromal cell differentiation and inflammatory disease therapies.
+- **Major strengths** The biological question is relevant and timely, connecting glucocorticoid action to transcription factor interplay in skeletal cell fate. The use of molecular dynamics to explore protein-protein interactions at atomic resolution is an appropriate approach for the stated objective. The focus on DEX, a widely used therapeutic and differentiation agent, gives translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that molecular dynamics simulations reveal key residues at the GR-SOX9 interface and a mechanism for DEX modulation of binding.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no information on simulation methodology, including force field, water model, simulation length, temperature and pressure coupling, equilibration protocol, or system size. Without these details, the reliability of the simulation results cannot be assessed. Additionally, no convergence metrics or validation against experimental data are mentioned.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation parameters and sampling quality. Unsupported methodological choices can lead to artifacts in interface identification and binding mechanism interpretation. The absence of any validation undermines confidence in the reported findings.
+  - **Resolution test** Provide full simulation details in the methods section, including convergence analysis (e.g., root-mean-square deviation stability, contact map convergence) and, if possible, comparison with experimental mutagenesis or binding data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The abstract states that DEX modulates GR-SOX9 binding and exerts biological activity through a specific mechanism.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative data are presented to support the claimed modulatory effect. There is no mention of binding free energy calculations, contact frequency analysis, or comparative metrics between DEX-bound and DEX-free conditions. The mechanistic statement appears to be a qualitative interpretation without demonstrated statistical or energetic basis.
+  - **Why it matters** A mechanistic claim requires quantitative support showing that DEX significantly alters the interaction profile, not merely that simulations were run in two conditions. Without such evidence, the conclusion is speculative.
+  - **Resolution test** Report binding free energy differences (e.g., MM-PBSA or similar), per-residue energy decomposition, and statistical significance of contact changes between conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The study identifies specific key residues at the GR-SOX9 interface.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not name any specific residues, nor does it indicate how they were identified (e.g., by hydrogen bond occupancy, salt bridge persistence, or hydrophobic contact analysis). The claim of key residues is therefore unverifiable from the provided material.
+  - **Why it matters** Identification of specific residues is a central deliverable of the study and would be of practical use to experimentalists. Without residue identities and the criteria for their selection, the claim cannot be tested or applied.
+  - **Resolution test** List the specific residues in the abstract or results, and describe the analysis criteria used to classify them as key.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "coenzymes" in the first sentence is imprecise; the intended term is likely "coregulators" or "cofactors."
+  - **Required correction** Replace "coenzymes" with "coregulators" or "cofactors" to accurately describe GR transcriptional modulation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the simulation system composition, such as whether full-length GR or only the ligand-binding domain was used, and whether SOX9 was modeled as a full protein or a domain.
+  - **Required correction** Specify the structural constructs used in the simulations to clarify the scope of the model.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Biological relevance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract implies a direct link between simulated GR-SOX9 binding and cell fate determination, but no experimental correlation is provided.
+  - **Required correction** Soften the claim or add a sentence noting that experimental validation is needed to confirm the functional relevance of the simulated interactions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of simulation methodology and quantitative binding analysis means the core claims are not currently supported by the provided evidence.
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The application of molecular dynamics to GR-SOX9 interaction is a specific and relatively novel target, but the general approach is established.  
+  - Scientific importance: Moderate. The topic is relevant to skeletal biology and glucocorticoid therapy, but the abstract does not demonstrate broad significance beyond a narrow computational finding.  
+  - Interdisciplinary readership: Limited. The abstract is written for a specialized computational biology audience and does not frame the work for a broader readership.  
+  - Technical soundness: Not assessable from the abstract. Critical methodological details are absent.  
+  - Readability for nonspecialists: Acceptable but could be improved by defining SOX9 and GR more clearly and avoiding jargon such as "dominant-negative."
+- **Recommendation posture** Currently not established from the provided evidence. The study may be supportable if the full manuscript provides rigorous simulation methodology, quantitative binding analyses, and clear residue identification. The abstract alone does not meet the standard for a high-impact claim.
+
+## Risk / unsupported claims
+- The claim that DEX modulates GR-SOX9 binding through a specific mechanism is unsupported without quantitative energetic or contact data.
+- The identification of key interface residues is unverifiable because no residue names or selection criteria are provided.
+- The implication that the simulated interactions relate to cell fate determination is speculative without experimental validation.
+- The overall reliability of the molecular dynamics results is not assessable due to missing methodological information.

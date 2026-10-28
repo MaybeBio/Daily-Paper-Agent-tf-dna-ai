@@ -1,0 +1,571 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.10.698810",
+  "title": "Molecular and spatial profiling identifies immune endotypes for the stratification of OA patients",
+  "doi": "10.64898/2026.01.10.698810",
+  "abstract": "<h4>ABSTRACT</h4> Osteoarthritis (OA) is a prevalent and heterogeneous joint disease in which synovial inflammation drives structural progression and pain. Despite the recognized heterogeneity of OA, the cellular and molecular organization of synovial tissue remains poorly characterized and defining distinct histological and immune endotypes could guide precision medicine and therapeutic targeting. We show that histologically defined synovial pathotypes are conserved across independent cohorts and correspond to distinct molecular immune endotypes. Integration of bulk and spatial transcriptomics with proteomics revealed niche-specific gene and protein signatures, reflecting the anatomical and functional diversity of OA synovium. The lympho-myeloid pathotype was characterized by mature ectopic lymphoid structures containing CD21 + CD23 + follicular dendritic cells, spatially organized T and B cell zones, and clonally expanded T and B cells with shared immune cell receptor motifs, consistent with local adaptive immune activity correlating with radiological joint damage. These findings highlight how immune organization and cellular composition shape OA pathogenesis and provide a framework for endotype-guided stratification and therapeutic targeting.",
+  "authors": [
+    "Gaigeard N",
+    "Cardon A",
+    "Guiho R",
+    "Cubuk C",
+    "Ouattara A",
+    "Lamothe C",
+    "Brouard J",
+    "De Lima J",
+    "Ahmed M",
+    "Le Mercier M",
+    "Defois A",
+    "Danet L",
+    "Perrot J",
+    "Benzerdjeb N",
+    "Vinatier C",
+    "Danger R",
+    "Delbos L",
+    "Brouard S",
+    "Degauque N",
+    "Pagliuca S",
+    "Lewis M",
+    "Fossati-Jimack L",
+    "Nerviani A",
+    "Waast D",
+    "Le Goff B",
+    "Blanchard F",
+    "Moulin D",
+    "Pitzalis C",
+    "Guicheux J",
+    "Boutet M"
+  ],
+  "published_date": "2026-01-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.10.698810",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.10.698810.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1228146",
+    "raw_record": {
+      "id": "PPR1228146",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1228146"
+        ]
+      },
+      "doi": "10.64898/2026.01.10.698810",
+      "title": "Molecular and spatial profiling identifies immune endotypes for the stratification of OA patients",
+      "authorString": "Gaigeard N, Cardon A, Guiho R, Cubuk C, Ouattara A, Lamothe C, Brouard J, De Lima J, Ahmed M, Le Mercier M, Defois A, Danet L, Perrot J, Benzerdjeb N, Vinatier C, Danger R, Delbos L, Brouard S, Degauque N, Pagliuca S, Lewis M, Fossati-Jimack L, Nerviani A, Waast D, Le Goff B, Blanchard F, Moulin D, Pitzalis C, Guicheux J, Boutet M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Gaigeard N",
+            "lastName": "Gaigeard",
+            "firstName": "Nicolas",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , Regenerative Medicine and Skeleton, RMeS, UMR 1229, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cardon A",
+            "lastName": "Cardon",
+            "firstName": "Anaïs",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4650-6632"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , Regenerative Medicine and Skeleton, RMeS, UMR 1229, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guiho R",
+            "lastName": "Guiho",
+            "firstName": "Romain",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9231-6445"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , Regenerative Medicine and Skeleton, RMeS, UMR 1229, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cubuk C",
+            "lastName": "Cubuk",
+            "firstName": "Cankut",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4646-0849"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Experimental Medicine and Rheumatology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ouattara A",
+            "lastName": "Ouattara",
+            "firstName": "Astrid",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , Regenerative Medicine and Skeleton, RMeS, UMR 1229, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lamothe C",
+            "lastName": "Lamothe",
+            "firstName": "Célia",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , Regenerative Medicine and Skeleton, RMeS, UMR 1229, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brouard J",
+            "lastName": "Brouard",
+            "firstName": "Jordan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Biopôle de l' , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "De Lima J",
+            "lastName": "De Lima",
+            "firstName": "Julien",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , Regenerative Medicine and Skeleton, RMeS, UMR 1229, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ahmed M",
+            "lastName": "Ahmed",
+            "firstName": "Manzoor",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Experimental Medicine and Rheumatology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Le Mercier M",
+            "lastName": "Le Mercier",
+            "firstName": "Mathilde",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , Regenerative Medicine and Skeleton, RMeS, UMR 1229, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Defois A",
+            "lastName": "Defois",
+            "firstName": "Anaïs",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , Regenerative Medicine and Skeleton, RMeS, UMR 1229, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Danet L",
+            "lastName": "Danet",
+            "firstName": "Lucie",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , Regenerative Medicine and Skeleton, RMeS, UMR 1229, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Perrot J",
+            "lastName": "Perrot",
+            "firstName": "Jimmy",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, Centre Hospitalier Universitaire Lyon Sud, Pierre-Bénite, France; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Benzerdjeb N",
+            "lastName": "Benzerdjeb",
+            "firstName": "Nazim",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, Centre Hospitalier Universitaire Lyon Sud, Pierre-Bénite, France; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vinatier C",
+            "lastName": "Vinatier",
+            "firstName": "Claire",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , Regenerative Medicine and Skeleton, RMeS, UMR 1229, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Danger R",
+            "lastName": "Danger",
+            "firstName": "Richard",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , UMR 1064, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Delbos L",
+            "lastName": "Delbos",
+            "firstName": "Laurence",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , UMR 1064, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brouard S",
+            "lastName": "Brouard",
+            "firstName": "Sophie",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , UMR 1064, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Degauque N",
+            "lastName": "Degauque",
+            "firstName": "Nicolas",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , UMR 1064, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pagliuca S",
+            "lastName": "Pagliuca",
+            "firstName": "Simona",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Biopôle de l' , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lewis M",
+            "lastName": "Lewis",
+            "firstName": "Myles",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Experimental Medicine and Rheumatology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fossati-Jimack L",
+            "lastName": "Fossati-Jimack",
+            "firstName": "Liliane",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Experimental Medicine and Rheumatology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nerviani A",
+            "lastName": "Nerviani",
+            "firstName": "Alessandra",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Experimental Medicine and Rheumatology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Waast D",
+            "lastName": "Waast",
+            "firstName": "Denis",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , Regenerative Medicine and Skeleton, RMeS, UMR 1229, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Le Goff B",
+            "lastName": "Le Goff",
+            "firstName": "Benoit",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , Regenerative Medicine and Skeleton, RMeS, UMR 1229, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Blanchard F",
+            "lastName": "Blanchard",
+            "firstName": "Frédéric",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , Regenerative Medicine and Skeleton, RMeS, UMR 1229, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Moulin D",
+            "lastName": "Moulin",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Biopôle de l' , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pitzalis C",
+            "lastName": "Pitzalis",
+            "firstName": "Costantino",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Experimental Medicine and Rheumatology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guicheux J",
+            "lastName": "Guicheux",
+            "firstName": "Jérôme",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , Regenerative Medicine and Skeleton, RMeS, UMR 1229, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Boutet M",
+            "lastName": "Boutet",
+            "firstName": "Marie-Astrid",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , Regenerative Medicine and Skeleton, RMeS, UMR 1229, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6847-5278"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9231-6445"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4646-0849"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4650-6632"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "<h4>ABSTRACT</h4>  Osteoarthritis (OA) is a prevalent and heterogeneous joint disease in which synovial inflammation drives structural progression and pain. Despite the recognized heterogeneity of OA, the cellular and molecular organization of synovial tissue remains poorly characterized and defining distinct histological and immune endotypes could guide precision medicine and therapeutic targeting. We show that histologically defined synovial pathotypes are conserved across independent cohorts and correspond to distinct molecular immune endotypes. Integration of bulk and spatial transcriptomics with proteomics revealed niche-specific gene and protein signatures, reflecting the anatomical and functional diversity of OA synovium. The lympho-myeloid pathotype was characterized by mature ectopic lymphoid structures containing CD21  + CD23  + follicular dendritic cells, spatially organized T and B cell zones, and clonally expanded T and B cells with shared immune cell receptor motifs, consistent with local adaptive immune activity correlating with radiological joint damage. These findings highlight how immune organization and cellular composition shape OA pathogenesis and provide a framework for endotype-guided stratification and therapeutic targeting.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "National Institute for Health Research (NIHR)",
+            "grantId": "NIHR203330",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.01.10.698810"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1228146"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1228146&type=FILE&fileName=EMS214514-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214514",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-01-12",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-06-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

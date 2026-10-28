@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.09.17.558145",
+  "title": "PSICHIC: physicochemical graph neural network for learning protein-ligand interaction fingerprints from sequence data",
+  "authors": "Huan Yee Koh; Anh T.N. Nguyen; Shirui Pan; Lauren T. May; Geoffrey I. Webb",
+  "journal": "bioRxiv",
+  "published_date": "2023-09-19",
+  "window": {
+    "start": "2023-09-18",
+    "end": "2023-09-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用物理化学约束图神经网络从序列预测蛋白-配体相互作用指纹，虽非TF-DNA体系，但方法可迁移至蛋白-DNA互作建模。",
+  "abstract": "In drug discovery, determining the binding affinity and functional effects of small-molecule ligands on proteins is critical. Current computational methods can predict these protein-ligand interaction properties but often lose accuracy without high-resolution protein structures and falter in predicting functional effects. We introduce PSICHIC (PhySIcoCHemICal graph neural network), a framework uniquely incorporating physicochemical constraints to decode interaction fingerprints directly from sequence data alone. This enables PSICHIC to attain first-of-its-kind emergent capabilities in deciphering mechanisms underlying protein-ligand interactions, achieving state-of-the-art accuracy and interpretability. Trained on identical protein-ligand pairs without structural data, PSICHIC matched and even surpassed leading structure-based methods in binding affinity prediction. In a library screening for adenosine A1 receptor agonists, PSICHIC discerned functional effects effectively, ranking the sole novel agonist within the top three. PSICHIC’s interpretable fingerprints identified protein residues and ligand atoms involved in interactions. We foresee PSICHIC reshaping virtual screening and deepening our understanding of protein-ligand interactions.",
+  "abstract_zh": "在药物发现中，确定小分子配体与蛋白质的结合亲和力及功能效应至关重要。当前的计算方法能够预测这些蛋白质-配体相互作用特性，但在缺乏高分辨率蛋白质结构时往往失去准确性，并且在预测功能效应方面表现不佳。我们引入了PSICHIC（物理化学图神经网络，PhySIcoCHemICal graph neural network），这是一个独特地结合物理化学约束的框架，能够仅从序列数据直接解码相互作用指纹。这使得PSICHIC在解析蛋白质-配体相互作用机制方面获得了首创的新兴能力，达到了最先进的准确性和可解释性。在无结构数据的相同蛋白质-配体对训练下，PSICHIC在结合亲和力预测上匹配甚至超越了领先的基于结构的方法。在针对腺苷A1受体激动剂的文库筛选中，PSICHIC有效辨别了功能效应，将唯一的新型激动剂排在前三位。PSICHIC的可解释指纹识别了参与相互作用的蛋白质残基和配体原子。我们预见PSICHIC将重塑虚拟筛选，并加深我们对蛋白质-配体相互作用的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.09.17.558145",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.09.17.558145",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.09.17.558145/index.html"
+}

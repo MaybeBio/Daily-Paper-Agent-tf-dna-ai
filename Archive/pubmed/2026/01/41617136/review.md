@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, experimental procedures, results, discussion, and figure legends
+- **Assessment boundary** Scientific claims, methodological soundness, data interpretation, and internal consistency of the presented evidence
+- **Shared manuscript claim summary** The authors report that replacing canonical histone H2A with the variant H2A.Z enhances the conformational dynamics of the H2A-H2B heterodimer, both in isolation and within higher-order chromatin complexes, and that this enhanced dynamics persists in nucleosomes, leading to reduced histone-DNA interactions and increased DNA accessibility.
+- **Visible evidence base** Native-PAGE nucleosome assembly assays (Fig. 1); HDX-MS experiments comparing human and frog H2A-H2B orthologs and H2A-H2B versus H2A.Z-H2B dimers, tetramers, and octamers (Figs. 2-5, Table 1, Supplemental Figs. S1-S5); MD simulations of core and H2A.Z-containing nucleosomes (Figs. 6-7, Supplemental Figs. S6-S7, Tables S2-S3)
+- **Missing materials affecting confidence** Raw HDX-MS data (deposited but not reviewed); full peptide-level deuterium uptake values; MD simulation input files and trajectories (deposited but not reviewed); supplemental figures and tables referenced but not provided in the submitted material; statistical analysis details for HDX-MS comparisons beyond the stated cutoff
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and technically rigorous investigation of the biophysical consequences of H2A.Z incorporation into histone complexes. The combination of HDX-MS and MD simulations is well suited to the question, and the authors have carefully controlled for isotopic labeling and sequence differences between orthologs. The central claim, that H2A.Z enhances H2B dynamics across multiple complex states, is supported by the presented data. However, several concerns regarding the interpretation of the HDX-MS data, the generalizability of the MD findings, and the strength of the causal link between dynamics and function require clarification before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, histone variant function, and biophysical chemistry will find these results of interest. The work provides a mechanistic framework for understanding how a highly conserved histone variant can exert distinct functional outcomes through altered protein dynamics rather than through large structural changes. The methodological approach, particularly the use of stable isotope labeling to enable direct comparison of variant complexes, will be of interest to practitioners of HDX-MS.
+- **Major strengths** The study addresses a significant and unresolved question in chromatin biology: how do subtle sequence differences between H2A and H2A.Z translate into functional differences? The experimental design is thoughtful, using isotopic labeling to overcome the technical challenge of comparing variant complexes. The combination of solution-phase HDX-MS with atomistic MD simulations provides complementary views of dynamics. The authors are appropriately cautious in their interpretation, particularly in acknowledging the limitations imposed by sequence differences that precluded direct peptide-level comparison of H2A and H2A.Z.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and causal inference
+  - **Claim pointer** The authors claim that "replacing H2A with H2A.Z enhances the dynamics of the refolded histone heterodimer, whether it is in nucleosomes, in complex with H3-H4, or alone in solution" and that this "suggests altered interaction with H2A.Z and DNA."
+  - **Evidence pointer** Results section "Replacing H2A with H2A.Z Drastically Enhances H2B Dynamics"; Figs. 3-5
+  - **Concern** The central claim of enhanced H2B dynamics in the H2A.Z-H2B heterodimer is based on HDX-MS comparisons where the H2A and H2A.Z peptides could not be directly compared due to sequence differences. The authors instead compare H2B peptides, which are identical between the two complexes. While this is a reasonable approach, the interpretation that the observed differences in H2B dynamics are caused by the H2A/H2A.Z sequence differences is an inference. The authors do not rule out the possibility that the refolding or sample preparation of the H2A.Z-H2B dimer results in a different population of conformers that is not directly comparable to the H2A-H2B dimer. The claim that the enhanced dynamics "originate in the histone heterodimer" and "persist" in higher-order complexes is a strong causal statement that requires additional evidence, such as a demonstration that the dimer population is homogeneous and that the observed EX1 kinetics reflect intrinsic dynamics rather than sample heterogeneity.
+  - **Why it matters** The central thesis of the manuscript rests on the interpretation that H2A.Z intrinsically alters H2B dynamics. If the observed differences are instead due to experimental artifacts or population heterogeneity, the conclusions would be substantially weakened.
+  - **Resolution test** The authors should provide evidence that the H2A-H2B and H2A.Z-H2B dimer preparations are comparable in terms of folding and oligomeric state, for example by size-exclusion chromatography coupled with multi-angle light scattering or analytical ultracentrifugation. Additionally, a demonstration that the EX1 kinetics are concentration-independent and reversible would strengthen the interpretation that they reflect intrinsic conformational dynamics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of computational findings
+  - **Claim pointer** The authors state that "MD suggests that H2A.Z-H2B is more dynamic than H2A-H2B in the nucleosome" and use this to support the model that enhanced dynamics lead to compromised DNA interactions.
+  - **Evidence pointer** Results section "Replacing H2A with H2A.Z Enhances Nucleosome Dynamics"; Figs. 6-7
+  - **Concern** The MD simulations are based on crystal structures of the human core nucleosome (PDB 2CV5) and a double-copy H2A.Z variant nucleosome (PDB 3WA9). The authors do not report the equilibration stability of the simulations in detail, and the RMSD data are only referenced in a supplemental figure. The comparison of hydrogen bonding between the two systems is presented as a key finding, but the statistical significance of the observed differences (an average reduction of five and two hydrogen bonds for H2A.Z and H2B, respectively) is not assessed. Given that the simulations are only 450 ns, it is unclear whether the observed differences are converged or represent transient fluctuations.
+  - **Why it matters** The MD simulations are used to extend the HDX-MS findings to the nucleosome context, and the hydrogen bonding analysis is a key piece of evidence for the proposed mechanism. If the differences are not statistically robust or converged, the claim that H2A.Z enhances nucleosome dynamics is weakened.
+  - **Resolution test** The authors should report the convergence of the simulations, for example by block averaging or by showing that the hydrogen bond differences are stable over the final 100 ns of simulation. A statistical analysis of the hydrogen bond differences, such as a bootstrap or permutation test, would also strengthen the claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance of observed dynamics
+  - **Claim pointer** The authors conclude that "reduced contacts between H2A.Z and H2B, and reduced DNA binding by H2A.Z-H2B may explain how H2A.Z promotes chromatin accessibility for remodeling and transcription."
+  - **Evidence pointer** Discussion section
+  - **Concern** The link between the observed biophysical differences and the functional outcomes of H2A.Z incorporation (transcriptional regulation, DNA repair, centromere maintenance) is speculative. The authors do not provide any direct evidence that the enhanced dynamics observed in vitro translate to altered chromatin accessibility or function in a cellular context. While the authors are appropriately cautious in using "may explain," the discussion would benefit from a more explicit acknowledgment of the gap between the in vitro biophysical measurements and the in vivo functional consequences.
+  - **Why it matters** The broader significance of the work, and its appeal to a wide readership, depends on the relevance of the observed dynamics to chromatin function. Without a clear connection, the work is primarily of interest to biophysicists rather than to the broader chromatin biology community.
+  - **Resolution test** The authors should either provide additional evidence linking the observed dynamics to function, such as a discussion of how their findings relate to known functional data on H2A.Z, or temper their conclusions to more clearly separate the biophysical observations from the functional implications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Fig. 1
+  - **Evidence pointer** Fig. 1B-D
+  - **Issue** The native gels in Fig. 1B-D are described as showing "minimal by-products" for octamer deposition, but the figure legend does not clearly indicate which bands correspond to nucleosomes, free DNA, or other species. The reader cannot independently assess the claim of minimal by-products.
+  - **Required correction** The figure legend should be expanded to identify the expected bands and any by-product species. Alternatively, a schematic of the expected gel migration pattern could be included.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** HDX-MS results
+  - **Evidence pointer** Table 1, Figs. 2-5
+  - **Issue** The significance cutoff for HDX-MS differences is stated as ≥5% D-uptake difference with a p-value <0.01. However, the number of replicates (n = 3 or 4) is not consistently reported for each comparison, and the error bars in the representative uptake plots are not always defined.
+  - **Required correction** The authors should consistently report the number of replicates for each experiment and define the error bars in all figure legends.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** MD simulation methods
+  - **Evidence pointer** Experimental Procedures, "MD Simulation"
+  - **Issue** The description of the MD simulations does not specify the force field parameters for the histone post-translational modifications, if any were present, or the protonation states of titratable residues. The ionic strength of the simulation is stated as 200 mM, but the specific ion concentrations are not given.
+  - **Required correction** The authors should provide additional details on the simulation setup, including any modifications to the standard force field and the exact ion concentrations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data Availability section
+  - **Evidence pointer** Data Availability
+  - **Issue** The authors state that "all data will be shared upon request," which is less transparent than depositing the processed HDX-MS data (e.g., deuterium uptake values per peptide) in a public repository. While raw files are deposited, the processed data are not.
+  - **Required correction** The authors should deposit the processed HDX-MS data (peptide-level deuterium uptake values and calculated differences) in a public repository or as supplemental tables.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of prior MD studies is brief and does not fully contextualize the present findings. For example, the authors do not discuss whether the enhanced dynamics observed in their simulations are consistent with the timescales of DNA unwrapping observed experimentally.
+  - **Required correction** The discussion should be expanded to more thoroughly compare and contrast the present findings with prior computational and experimental studies.
+- **Technical failings that need to be addressed before the case is established** The primary technical concern is the lack of direct evidence that the H2A-H2B and H2A.Z-H2B dimer preparations are comparable in terms of conformational homogeneity. The interpretation of the HDX-MS data relies on the assumption that the observed differences in H2B dynamics are due to the H2A/H2A.Z sequence differences rather than to differences in sample preparation or population heterogeneity. Additionally, the statistical robustness of the MD hydrogen bonding analysis is not established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its systematic comparison of H2A-H2B and H2A.Z-H2B dynamics across multiple complex states using complementary biophysical approaches. The use of stable isotope labeling to enable direct comparison of variant complexes is a novel methodological contribution.
+  - **Scientific importance** The question of how histone variants exert distinct functions is of fundamental importance to chromatin biology. The findings have the potential to shift the field's understanding of H2A.Z function from a structural to a dynamic perspective.
+  - **Interdisciplinary readership** The work will appeal to biophysicists, biochemists, and chromatin biologists. The methodological rigor and the use of complementary approaches make it accessible to a broad readership, though the specialized nature of HDX-MS may limit accessibility for some.
+  - **Technical soundness** The experimental design is generally sound, with appropriate controls for isotopic labeling and sequence differences. However, the concerns raised above regarding sample homogeneity and statistical robustness of the MD analysis need to be addressed.
+  - **Readability for nonspecialists** The manuscript is clearly written and the figures are well-organized. The abstract and introduction provide sufficient context for nonspecialists, though the results section assumes familiarity with HDX-MS and MD simulation techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central claim is plausible and the data are largely consistent with it, but the concerns regarding sample homogeneity and statistical robustness of the MD analysis must be addressed before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that enhanced H2B dynamics in the H2A.Z-H2B heterodimer "originate in the histone heterodimer" and "persist" in higher-order complexes is an interpretation that is not directly tested. The authors do not provide evidence that the dynamics observed in the isolated dimer are causally related to those observed in the octamer or nucleosome.
+- The claim that "reduced contacts between H2A.Z and H2B, and reduced DNA binding by H2A.Z-H2B may explain how H2A.Z promotes chromatin accessibility" is speculative and not directly supported by the data presented.
+- The statement that "the known folding-upon-binding mechanism reported for the H2A-H2B may explain how changing a single amino acid can have far-reaching effects within the heterodimer" is presented without direct evidence linking the specific substitution to the observed dynamics.
+- The comparison of H2A-H2B and H2A.Z-H2B in the octamer is based on the assumption that the octamer is stable and intact under the experimental conditions. The authors provide evidence for this (Supplemental Fig. S1), but the stability of the H2A.Z-containing octamer is not directly compared to the core octamer.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34325649",
+  "title": "A new hybrid record linkage process to make epidemiological databases interoperable: application to the GEMO and GENEPSO studies involving BRCA1 and BRCA2 mutation carriers.",
+  "authors": "Jiao, Yue; Lesueur, Fabienne; Azencott, Chloe-Agathe; Laurent, Maite; Mebirouk, Noura; Laborde, Lilian; Beauvallet, Juana; Dondon, Marie-Gabrielle; Eon-Marchais, Severine; Lauge, Anthony; Nogues, Catherine; Andrieu, Nadine; Stoppa-Lyonnet, Dominique; Caputo, Sandrine M",
+  "journal": "BMC medical research methodology",
+  "published_date": "2021-07-31",
+  "window": {
+    "start": "2021-07-26",
+    "end": "2021-08-01"
+  },
+  "score": 0,
+  "one_liner_zh": "该文描述了一种用于流行病学数据库互操作的混合记录链接方法，应用于BRCA1/BRCA2突变携带者研究，完全不涉及蛋白质-DNA互作、转录因子结合或AI/物理模拟建模，与本课题无关。",
+  "abstract": "BACKGROUND: Linking independent sources of data describing the same individuals enable innovative epidemiological and health studies but require a robust record linkage approach. We describe a hybrid record linkage process to link databases from two independent ongoing French national studies, GEMO (Genetic Modifiers of BRCA1 and BRCA2), which focuses on the identification of genetic factors modifying cancer risk of BRCA1 and BRCA2 mutation carriers, and GENEPSO (prospective cohort of BRCAx mutation carriers), which focuses on environmental and lifestyle risk factors. METHODS: To identify as many as possible of the individuals participating in the two studies but not registered by a shared identifier, we combined probabilistic record linkage (PRL) and supervised machine learning (ML). This approach (named \"PRL + ML\") combined together the candidate matches identified by both approaches. We built the ML model using the gold standard on a first version of the two databases as a training dataset. This gold standard was obtained from PRL-derived matches verified by an exhaustive manual review. Results The Random Forest (RF) algorithm showed a highest recall (0.985) among six widely used ML algorithms: RF, Bagged trees, AdaBoost, Support Vector Machine, Neural Network. Therefore, RF was selected to build the ML model since our goal was to identify the maximum number of true matches. Our combined linkage PRL + ML showed a higher recall (range 0.988-0.992) than either PRL (range 0.916-0.991) or ML (0.981) alone. It identified 1995 individuals participating in both GEMO (6375 participants) and GENEPSO (4925 participants). CONCLUSIONS: Our hybrid linkage process represents an efficient tool for linking GEMO and GENEPSO. It may be generalizable to other epidemiological studies involving other databases and registries.",
+  "abstract_zh": "背景：将描述同一群体的独立数据源关联起来，能够推动创新的流行病学和健康研究，但需要稳健的记录链接方法。我们描述了一种混合记录链接过程，用于关联两项独立的法国全国性研究数据库：GEMO（BRCA1和BRCA2的遗传修饰因子），该研究聚焦于识别影响BRCA1和BRCA2突变携带者癌症风险的遗传因素；以及GENEPSO（BRCAx突变携带者的前瞻性队列），该研究聚焦于环境和生活方式风险因素。方法：为了尽可能多地识别参与这两项研究但未通过共享标识符注册的个体，我们结合了概率记录链接（PRL）和监督机器学习（ML）。这种方法（称为“PRL + ML”）将两种方法识别出的候选匹配合并在一起。我们使用两个数据库第一版本的金标准作为训练数据集构建ML模型。该金标准是通过PRL派生的匹配结果，并经详尽的人工审查验证获得。结果：在六种广泛使用的ML算法中，随机森林（RF）算法显示出最高的召回率（0.985），这些算法包括RF、袋装树、AdaBoost、支持向量机、神经网络。因此，由于我们的目标是识别最大数量的真实匹配，我们选择RF来构建ML模型。我们的组合链接PRL + ML显示出比单独使用PRL（范围0.916-0.991）或ML（0.981）更高的召回率（范围0.988-0.992）。它识别出1995名同时参与GEMO（6375名参与者）和GENEPSO（4925名参与者）的个体。结论：我们的混合链接过程是关联GEMO和GENEPSO的有效工具，可能推广到涉及其他数据库和注册系统的流行病学研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34325649/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34325649/",
+  "paper_page_path": "papers/pubmed/34325649/index.html"
+}

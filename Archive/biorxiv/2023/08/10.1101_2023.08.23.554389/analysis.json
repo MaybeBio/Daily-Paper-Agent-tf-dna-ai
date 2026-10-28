@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.23.554389",
+  "title": "Advancing Protein-DNA Binding Site Prediction: Integrating Sequence Models and Machine Learning Classifiers",
+  "authors": "Taslim Murad; Prakash Chourasia; Sarwan Ali; Murray Patterson",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-23",
+  "window": {
+    "start": "2023-08-21",
+    "end": "2023-08-27"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合蛋白语言模型与机器学习分类器预测蛋白-DNA结合位点，属于广义蛋白-DNA互作位点预测，方法可迁移至TF-DNA体系，但未聚焦转录因子特异性结合机制。",
+  "abstract": "Predicting protein-DNA binding sites is a challenging computational problem in the field of bioinformatics. Identifying the specific residues where proteins bind to DNA is of paramount importance, as it enables the modeling of their interactions and facilitates downstream studies. Nevertheless, the development of accurate and efficient computational methods for this task remains a persistent challenge. Accurate prediction of protein-DNA binding sites has far-reaching implications for understanding molecular mechanisms, disease processes, drug discovery, and synthetic biology applications. It helps bridge the gap between genomics and functional biology, enabling researchers to uncover the intricacies of cellular processes and advance our knowledge of the biological world. The method used to predict DNA binding residues in this study is a potent combination of conventional bioinformatics tools, protein language models, and cutting-edge machine learning and deep learning classifiers. On a dataset of protein-DNA binding sites, our model is meticulously trained, and it is then rigorously examined using several experiments. As indicated by higher predictive behavior with AUC values on two benchmark datasets, the results show superior performance when compared to existing models. The suggested model has a strong capacity for generalization and shows specificity for DNA-binding sites. We further demonstrated the adaptability of our model as a universal framework for binding site prediction by training it on a variety of protein-ligand binding site datasets. In conclusion, our innovative approach for predicting protein-DNA binding residues holds great promise in advancing our understanding of molecular interactions, thus paving the way for several groundbreaking applications in the field of molecular biology and genetics. Our approach demonstrated efficacy and versatility underscore its potential for driving transformative discoveries in biomolecular research.",
+  "abstract_zh": "预测蛋白质-DNA结合位点是生物信息学领域中一个具有挑战性的计算问题。识别蛋白质与DNA结合的特异性残基至关重要，因为这有助于模拟它们的相互作用并促进下游研究。然而，开发准确且高效的计算方法来解决这一任务仍然是一个持续的挑战。准确预测蛋白质-DNA结合位点对于理解分子机制、疾病过程、药物发现和合成生物学应用具有深远意义。它有助于弥合基因组学与功能生物学之间的鸿沟，使研究人员能够揭示细胞过程的复杂性，并增进我们对生物世界的认识。本研究用于预测DNA结合残基的方法是将传统生物信息学工具、蛋白质语言模型以及前沿机器学习和深度学习分类器有效结合。在蛋白质-DNA结合位点数据集上，我们的模型经过精心训练，并通过多项实验进行严格检验。在两个基准数据集上，以更高的AUC值所体现的预测性能表明，与现有模型相比，我们的模型表现出优越性。所提出的模型具有较强的泛化能力，并对DNA结合位点显示出特异性。我们进一步通过在不同蛋白质-配体结合位点数据集上训练模型，证明了其作为结合位点预测通用框架的适应性。总之，我们预测蛋白质-DNA结合残基的创新方法在增进对分子相互作用的理解方面具有巨大潜力，从而为分子生物学和遗传学领域的多项突破性应用铺平了道路。我们的方法所展示的有效性和多功能性，凸显了其在生物分子研究中推动变革性发现的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.23.554389",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.23.554389",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.23.554389/index.html"
+}

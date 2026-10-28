@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41426347",
+  "title": "MULTIMODAL CELL CONTEXT INSTRUCTION TUNING FOR CONDITIONAL DNA REGULATORY SEQUENCE GENERATION WITH LARGE LANGUAGE MODELS.",
+  "authors": "Liu, Junhao; Zhang, Pengpeng; Xu, Siwei; Srinivasan, Shushrruth Sai; Wu, Yongxian; Zhang, Jing",
+  "journal": "Proceedings. International Conference on Image Processing",
+  "published_date": "2025-12-22",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用大语言模型结合多模态细胞上下文生成条件性DNA调控序列（增强子），虽聚焦序列生成而非TF-DNA结合机制建模，但涉及TF招募与调控序列设计，方法可迁移至TF-DNA互作研究。",
+  "abstract": "Designing biologically plausible regulatory sequences, such as enhancers, is a key challenge in synthetic biology. Current approaches either classify active enhancers or generate synthetic sequences independently but often fail to address the need for cell-type-specific recruitment of multiple transcription factors (TFs) for effective transcription activation. This oversight leads to suboptimal designs. To overcome these limitations, we propose Leonine, a novel framework redefining enhancer sequence design as a multimodal question-answering task within a cellular context. Leonine utilizes large language models (LLMs) trained on DNA sequences and integrates multimodal cellular data-including promoter sequences, gene expression profiles, and cell type information-to optimize enhancer sequences for specific regulatory environments. A large-scale dataset of over 1.5 million cell-type-specific promoter-enhancer pairs and a robust evaluation benchmark were developed to support this effort. Extensive evaluations across seven cell types demonstrate that Leonine outperforms state-of-the-art LLMs, generating biologically and functionally coherent sequences. This work introduces a new paradigm for context-aware DNA sequence design, advancing research in synthetic biology and gene regulation.",
+  "abstract_zh": "设计生物学上合理的调控序列，如增强子，是合成生物学中的一个关键挑战。现有方法要么对活性增强子进行分类，要么独立生成合成序列，但往往未能满足在特定细胞类型中招募多种转录因子（TFs）以实现有效转录激活的需求。这一疏忽导致设计次优。为克服这些限制，我们提出Leonine，一种新颖框架，将增强子序列设计重新定义为细胞环境内的多模态问答任务。Leonine利用基于DNA序列训练的大型语言模型（LLMs），并整合多模态细胞数据——包括启动子序列、基因表达谱和细胞类型信息——以优化针对特定调控环境的增强子序列。为此，我们开发了一个包含超过150万对细胞类型特异性启动子-增强子对的大规模数据集，以及一个稳健的评估基准。在七种细胞类型上的广泛评估表明，Leonine优于最先进的LLMs，生成生物学和功能上连贯的序列。这项工作为上下文感知的DNA序列设计引入了新范式，推进了合成生物学和基因调控的研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41426347/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41426347/",
+  "paper_page_path": "papers/pubmed/41426347/index.html"
+}

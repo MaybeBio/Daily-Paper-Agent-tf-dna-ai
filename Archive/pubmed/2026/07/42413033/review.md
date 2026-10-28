@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, methods, and supplementary figure/table references
+- **Assessment boundary** Scientific claims, methodological soundness, validation approach, and interpretation of results as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors present a branched convolutional neural network (nemo) trained on promoter and terminator sequences to predict median gene expression in allopolyploid Brassica napus and Arabidopsis thaliana. They claim state-of-the-art performance, capture of position-specific TF binding effects, and identification of genes under complex regulation via prediction error analysis.
+- **Visible evidence base** Main text figures (Fig 1-7), supplementary figures (S1-S30), supplementary tables (S1-S7), methods section, and data availability statement
+- **Missing materials affecting confidence** Actual figure images, supplementary data files, model code repository contents, hyperparameter search details, and raw performance metrics tables were not provided. Statistical test details and exact p-values for enrichment analyses are partially reported but not fully accessible.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a well-motivated and technically competent application of deep learning to plant gene expression prediction, with a thoughtful focus on polyploid-specific challenges. The work demonstrates meaningful advances in handling redundant genomes and extracting biological insights from model interpretation. However, several technical concerns regarding validation rigor, interpretation of importance scores, and the strength of biological conclusions need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Plant molecular biologists studying gene regulation, computational biologists working on regulatory genomics, researchers in polyploid genomics, and those interested in interpretable deep learning for biology. The methods for handling polyploid redundancy and the position-specific TF analysis will be of particular interest to the plant genomics community.
+- **Major strengths** 1) Systematic approach to polyploid-specific data challenges including EAGLE-RC mapping and gene family partitioning. 2) Rigorous comparison against multiple published architectures on identical data. 3) Novel use of in silico mutagenesis to validate position-specific TF effects. 4) Integration of multiple validation strategies (DAP-Seq, TF-MoDISco, cross-species transfer). 5) Clear demonstration that prediction errors correlate with biologically meaningful regulatory complexity.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of importance score interpretation
+  - **Claim pointer** The authors claim that importance scores reflect position-specific TF binding preferences and that these reflect functional effects on gene expression.
+  - **Evidence pointer** Figure 5, Figure 6, Supplementary Figures S9-S17
+  - **Concern** The interpretation of importance scores as reflecting TF binding preferences relies on several assumptions that are not fully validated. First, the normalization procedure (subtracting global importance and dividing by global standard deviation) may introduce artifacts, particularly in regions with low variability. Second, the correlation between DAP-Seq binding profiles and importance scores is reported as "strong" but the actual correlation coefficients and their significance levels are not provided in the main text. Third, the in silico mutagenesis results show effects for some TF families but the magnitude of effects relative to controls is not systematically quantified across all families and positions.
+  - **Why it matters** The central biological claim of the paper, that the model captures position-specific TF effects, depends critically on the validity of the importance score interpretation. If the normalization or attribution methods introduce systematic biases, the biological conclusions could be misleading.
+  - **Resolution test** Provide quantitative correlation coefficients with confidence intervals for the DAP-Seq versus importance score comparisons. Show that the normalization procedure does not introduce position-dependent artifacts by validating on negative control datasets. Report effect sizes and statistical significance for in silico mutagenesis across all TF families, not just selected examples.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation of cross-species transferability
+  - **Claim pointer** The authors claim that models trained on B. napus data transfer to A. thaliana and vice versa, and that this demonstrates generalizable regulatory grammar.
+  - **Evidence pointer** Figure 2b-d, Methods section "Model training and evaluation"
+  - **Concern** The cross-species validation uses jointly partitioned data where homologous gene families are matched between species. While this controls for evolutionary relationships, it does not address whether the model has learned species-specific features that happen to correlate with expression. The claim of "generalizable regulatory grammar" requires demonstration that the model captures shared regulatory mechanisms rather than species-specific sequence features. Additionally, the performance drop from B. napus to A. thaliana (r2 = 0.55 to 0.38) is substantial and not fully explained.
+  - **Why it matters** The generalizability claim is important for the broader applicability of the model and for the conclusion that regulatory grammar is conserved. If the model is learning species-specific features, the biological insights may not transfer.
+  - **Resolution test** Perform ablation studies where species-specific features are removed or randomized. Test whether the model trained on one species can predict expression in the other species when homologous genes are excluded. Provide analysis of which sequence features contribute most to cross-species prediction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor of enrichment analyses
+  - **Claim pointer** The authors claim significant enrichment of underpredicted genes among SE-associated genes and overpredicted genes among H3K27me3-associated genes.
+  - **Evidence pointer** Figure 7, Supplementary Figure S27
+  - **Concern** The chi-square test results are reported with p-values but the effect sizes and confidence intervals are not provided. More importantly, the analysis does not account for potential confounding factors such as gene length, expression level, or sequence composition, which could influence both prediction error and regulatory classification. The classification of genes into error-based categories using the median absolute error is arbitrary and may not be robust.
+  - **Why it matters** The identification of genes under complex regulation is a key biological output of the paper. If the enrichment analysis is confounded or the classification is not robust, the list of candidate genes may not be reliable.
+  - **Resolution test** Provide effect sizes and confidence intervals for enrichment analyses. Perform sensitivity analysis with different error thresholds. Control for potential confounders using regression or matching approaches.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model comparison fairness
+  - **Claim pointer** The authors claim state-of-the-art performance compared to four published architectures.
+  - **Evidence pointer** Figure 2a, Methods section "Model training and evaluation"
+  - **Concern** The comparison against published architectures may not be entirely fair. The authors note that modifications were needed for some models to converge, but the extent and nature of these modifications are not fully described. Additionally, hyperparameter optimization was performed for nemo but it is unclear whether comparable optimization was performed for the comparison models. The comparison is also limited to a single dataset, which may not be representative.
+  - **Why it matters** The state-of-the-art claim is a key selling point of the paper. If the comparison is not fair, the claim may be overstated.
+  - **Resolution test** Provide detailed descriptions of modifications made to comparison models. Perform hyperparameter optimization for comparison models using the same search space and budget. Validate performance on additional datasets or cross-validation schemes.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Model architecture description
+  - **Evidence pointer** Methods section, Figure S1
+  - **Issue** The description of the branched CNN architecture is somewhat brief. The number of layers, filter sizes, and other architectural details are not fully specified in the main text.
+  - **Required correction** Provide a more detailed architectural description in the main text or refer readers to a comprehensive supplementary figure with all layer specifications.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data preprocessing pipeline
+  - **Evidence pointer** Methods section "Data preprocessing"
+  - **Issue** The exact parameters for read trimming, alignment, and expression quantification are not fully specified. The EAGLE-RC pipeline is referenced but the specific settings used are not described.
+  - **Required correction** Provide a complete list of software versions and parameters used in the preprocessing pipeline, either in the methods or as a supplementary table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Discussion of model limitations
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of model limitations is relatively brief. The authors acknowledge that the model cannot capture tissue-specific or condition-specific regulation but do not discuss other potential limitations such as the inability to model chromatin state or 3D genome structure.
+  - **Required correction** Expand the discussion of limitations to include other factors that may affect prediction accuracy and biological interpretation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 5
+  - **Evidence pointer** Figure 5
+  - **Issue** The figure appears to be quite dense with multiple panels. The color scheme and labeling may make it difficult to discern the key patterns, particularly for readers unfamiliar with the analysis.
+  - **Required correction** Consider splitting Figure 5 into multiple panels or providing a simplified summary figure that highlights the key findings.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Position-specific effects"
+  - **Evidence pointer** Throughout
+  - **Issue** The term "position-specific effects" is used to describe both TF binding preferences and the effects of sequence position on expression. This dual usage may be confusing.
+  - **Required correction** Clarify the distinction between TF binding position preferences and position-dependent effects on expression, or use more specific terminology for each concept.
+
+## Risk / unsupported claims
+- The claim that the model "captures position-specific effects" of TF families is partially supported but requires stronger quantitative validation of the importance score interpretation.
+- The claim of "state-of-the-art performance" is supported for the specific dataset and comparison models used, but the generalizability of this claim is uncertain given potential differences in hyperparameter optimization.
+- The identification of genes under complex regulation via prediction error analysis is an interesting hypothesis-generating approach, but the biological validation is indirect and the candidate gene list should be treated as preliminary.
+- The claim that training on polyploid data provides "inherent data augmentation" is plausible but not directly tested; a controlled comparison with diploid-only training would strengthen this claim.
+- The cross-species transferability claim is supported by the data but the interpretation of shared regulatory grammar requires additional validation as noted in R1-M2.

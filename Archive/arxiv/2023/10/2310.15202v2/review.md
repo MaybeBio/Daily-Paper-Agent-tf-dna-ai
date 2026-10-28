@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) for arXiv preprint 2310.15202v2.
+- **Assessment boundary** Scientific and technical evaluation of the proposed method, experimental design, reported results, and claims. No assessment of code functionality or reproducibility beyond what is described in the text.
+- **Shared manuscript claim summary** The authors propose DNABERT-Cap, a transformer-based capsule network combining a pre-trained DNABERT encoder with convolutional, BiLSTM, and capsule layers, to predict transcription factor binding sites (TFBSs) from ChIP-seq data across five ENCODE cell lines. They report average AUC exceeding 0.91 for all cell lines and claim superior performance over state-of-the-art predictors (DeepARC, DeepTF, CNN-Zeng, DeepBind).
+- **Visible evidence base** Tables 1 and 2 (performance metrics for baselines and state-of-the-art comparisons), Supplementary Figure S1 (ROC curves for one run), and textual descriptions of experimental setup and hyperparameters.
+- **Missing materials affecting confidence** No dataset accession numbers or exact data processing scripts; no confidence intervals or variance measures for reported metrics; no details on train/validation/test splits beyond percentages; no statistical significance testing; no details on the number of runs averaged; no hyperparameter search procedure; no ablation results table; no runtime or computational cost comparison.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in regulatory genomics and proposes a plausible architectural combination. However, the experimental validation is insufficiently rigorous to support the claimed improvements. Key weaknesses include lack of statistical significance testing, incomplete reporting of variance, absence of detailed ablation results, and limited comparison with recent transformer-based methods. The technical novelty is incremental, and the evidence base as presented does not fully establish the superiority of DNABERT-Cap.
+- **Who would be interested in the results, and why** Researchers in computational genomics and deep learning applied to regulatory genomics would be interested. The combination of transformer embeddings with capsule networks for sequence classification is a niche but active area. Practitioners seeking improved TFBS prediction tools may also find the approach relevant, provided the claims are substantiated with stronger evidence.
+- **Major strengths** The problem is well-motivated and the architectural rationale is clearly explained. The use of a pre-trained DNABERT model is sensible given its demonstrated utility in genomic sequence representation. The inclusion of multiple baselines and state-of-the-art comparisons is commendable. The manuscript is generally readable and the pipeline is described in a structured manner.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The claim that DNABERT-Cap outperforms all compared state-of-the-art predictors across multiple metrics.
+  - **Evidence pointer** Tables 1 and 2, Section 3.2 and 3.3
+  - **Concern** The reported performance metrics are presented as single average values without any measure of variance (e.g., standard deviation, confidence intervals) or statistical significance testing (e.g., paired tests across runs). The manuscript states "All the experiments are performed considering a confidence level of 95%" but no confidence intervals or p-values are reported. Without this information, it is impossible to determine whether the observed differences are statistically meaningful or within run-to-run variability.
+  - **Why it matters** The central claim of the paper is that DNABERT-Cap is superior to existing methods. Without statistical validation, this claim is not established. Differences of 1-2% in AUC could easily arise from random variation, especially given the stochastic nature of deep learning training.
+  - **Resolution test** Provide confidence intervals or standard deviations for all reported metrics across multiple independent runs, and perform appropriate statistical significance tests (e.g., Wilcoxon signed-rank test) comparing DNABERT-Cap against each baseline and state-of-the-art method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The manuscript states that 500,000 sequences per cell line are selected from ChIP-seq datasets and that data preprocessing follows Zeng et al. (2016b).
+  - **Evidence pointer** Section 2.1
+  - **Concern** No accession numbers, download URLs, or exact filtering criteria are provided for the ChIP-seq datasets. The preprocessing steps are referenced to a prior paper but not fully described. The negative set generation is described as "positive shuffled sequences conserving dinucleotide frequency," but the exact shuffling algorithm is not specified. This level of detail is insufficient for independent replication.
+  - **Why it matters** Reproducibility is a core requirement for computational biology papers. Without precise data provenance and preprocessing details, other researchers cannot replicate the experiments or fairly compare their methods against DNABERT-Cap.
+  - **Resolution test** Provide exact dataset identifiers (e.g., ENCODE accession numbers), a detailed description of the filtering and shuffling procedures, and make the preprocessing scripts publicly available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of ablation study
+  - **Claim pointer** The discussion states that "ablation studies" were performed to report the utility of DNABERT and capsule network, but no ablation results are presented in the main text or supplementary materials.
+  - **Evidence pointer** Section 4
+  - **Concern** The manuscript claims ablation studies were conducted but does not report their results. The baselines (Baseline-1, 2, 3) partially serve this purpose, but they do not isolate the contribution of each component systematically. For example, there is no baseline with capsule network but without BiLSTM, or with a different pre-trained encoder.
+  - **Why it matters** Ablation studies are essential to justify the architectural choices. Without them, the reader cannot assess whether the capsule layer, BiLSTM, or DNABERT embeddings are the key contributors to performance, or whether a simpler model would suffice.
+  - **Resolution test** Add a dedicated ablation table showing performance with each component removed or replaced, and discuss the contribution of each architectural element.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison with recent methods
+  - **Claim pointer** The comparison includes DeepARC, DeepTF, CNN-Zeng, and DeepBind, but no transformer-based methods other than the proposed model.
+  - **Evidence pointer** Section 3.3, Table 2
+  - **Concern** The state-of-the-art comparison is limited to methods published before 2022. Given the rapid progress in transformer-based genomic models (e.g., Enformer, Nucleotide Transformer, DNABERT-2), the comparison may be outdated. The authors do not discuss why these more recent methods were excluded.
+  - **Why it matters** To establish that DNABERT-Cap is competitive with the current state of the art, it must be compared against recent methods. An outdated comparison weakens the claim of superiority.
+  - **Resolution test** Include comparisons with at least one or two recent transformer-based TFBS prediction methods, or justify their exclusion with clear reasoning.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of notation
+  - **Affected element** Equations 1-13
+  - **Evidence pointer** Section 2.2 and 2.3
+  - **Issue** Several equations are referenced but not fully displayed in the provided text (e.g., Equations 1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13 are mentioned but their content is not visible in the manuscript text provided). This makes it impossible to evaluate the technical correctness of the model formulation.
+  - **Required correction** Ensure all equations are fully typeset and visible in the manuscript. If this is a formatting issue in the provided version, confirm that the published version contains complete equations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Hyperparameter justification
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The manuscript states that hyperparameters were chosen "after conducting thorough experiments" but does not provide details on the search space, the evaluation criterion, or the results of this search.
+  - **Required correction** Provide a brief description of the hyperparameter tuning procedure, including the range of values explored and the criterion used for selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 1
+  - **Evidence pointer** Section 2.3
+  - **Issue** Figure 1 is described as depicting the pipeline, but the figure itself is not included in the provided text. The reader cannot visually verify the architecture.
+  - **Required correction** Ensure Figure 1 is included in the final version and is of sufficient resolution to clearly show the model architecture.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion does not address potential limitations of the approach, such as computational cost, generalizability to other cell types or species, or failure cases.
+  - **Required correction** Add a paragraph discussing limitations and potential avenues for future improvement.
+
+## Risk / unsupported claims
+- The claim that DNABERT-Cap outperforms all compared methods is unsupported without statistical significance testing or variance reporting.
+- The claim that "ablation studies" were performed is unverifiable as no ablation results are presented.
+- The claim that the model benefits from "joint optimisation" of components is plausible but not directly evidenced by the presented experiments.
+- The statement that capsule networks improve performance "by encoding spatial patterns" is a general assertion not specifically validated for this task.
+- The comparison with state-of-the-art methods is incomplete, making the claim of superiority over the current state of the art unsubstantiated.

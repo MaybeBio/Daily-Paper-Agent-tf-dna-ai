@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text, figures (referenced but not provided), and methods.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity, and significance of the claims as presented in the provided text. No assessment of figures, tables, or supplementary materials beyond what is described in the text.
+- **Shared manuscript claim summary** The authors present FUN-PROSE, a deep learning model that predicts condition-specific gene expression in fungi using promoter sequences and transcription factor expression levels. They report high predictive accuracy across three fungal species, extraction of known and novel sequence motifs, and inference of transcription factor-gene regulatory networks.
+- **Visible evidence base** Text descriptions of model architecture, hyperparameter optimization, data sources, preprocessing steps, and interpretation methods. Performance metrics (Pearson correlations) are reported in text for various experimental setups.
+- **Missing materials affecting confidence** Figures (Fig 1-4), supplementary figures (S1-S14), supplementary tables (Tables A-C in S1 File), and supplementary files are referenced but not provided. Detailed numerical results for all experiments are not fully specified in text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful deep learning framework for predicting condition-specific gene expression in fungi, with a reasonable architecture and thoughtful interpretation strategies. The work addresses an important gap in the field, as most prior models predict average expression levels rather than condition-specific responses. However, several technical aspects require clarification and additional validation before the claims are fully established. The reported performance metrics are promising, but the lack of detailed comparisons to existing methods and the limited analysis of model limitations temper enthusiasm.
+- **Who would be interested in the results, and why** Researchers in fungal genomics, systems biology, and metabolic engineering would find this work relevant. The ability to predict condition-specific expression could aid in designing industrial fermentation strains and understanding regulatory networks in less-studied fungi. The interpretability methods may also interest computational biologists working on deep learning for genomics.
+- **Major strengths** The model addresses a relevant and understudied problem. The architecture is clearly described and the hyperparameter optimization is systematic. The interpretation efforts, including motif extraction and regulatory network inference, add value beyond simple prediction. The inclusion of three fungal species with varying levels of prior characterization strengthens the generalizability claims.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves Pearson correlations of 0.85, 0.72, and 0.81 for S. cerevisiae, N. crassa, and I. orientalis, respectively, on withheld elements.
+  - **Evidence pointer** Results section, "Predicting condition-specific gene expression in fungi"; Fig 1C (not provided)
+  - **Concern** The evaluation uses a random split of gene-condition pairs, which may lead to data leakage between training and test sets. Genes and conditions are not independent, as the same gene appears in multiple conditions and the same condition applies to multiple genes. This could inflate performance estimates. The authors do not describe how they ensured that the random split does not allow the model to memorize gene or condition identities.
+  - **Why it matters** If the split is not properly designed, the reported correlations may not reflect the model's ability to generalize to new genes or new conditions, which is the stated practical goal. This undermines the central claim of predictive accuracy.
+  - **Resolution test** The authors should clarify the exact splitting procedure and, ideally, provide results from splits that fully withhold genes or conditions, as they do for the "novel genes" and "novel conditions" experiments. They should also report whether the random split results are consistent across multiple random seeds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model can predict expression of novel genes and novel conditions, with correlations of 0.36, 0.33, and 0.58 for novel genes and 0.70 and 0.56 for novel conditions (S. cerevisiae and N. crassa).
+  - **Evidence pointer** Results section, "Predicting condition-specific gene expression in fungi"; Fig 2 and S5 Fig (not provided)
+  - **Concern** The performance for novel genes is substantially lower than for withheld elements, which is expected but raises questions about the practical utility of the model for predicting expression of uncharacterized genes. The authors do not discuss this drop in detail or provide context on whether these correlations are still useful for downstream applications. Additionally, the novel conditions experiment for I. orientalis is not reported, and the reason for this omission is unclear.
+  - **Why it matters** The stated applications include predicting effects of promoter mutations and TF perturbations, which require generalization to new genes and conditions. The lower performance in these scenarios needs to be contextualized and discussed to assess whether the model is practically useful.
+  - **Resolution test** The authors should provide a more detailed analysis of the novel gene and novel condition results, including error analysis and comparison to simpler baselines. They should also report results for I. orientalis in the novel conditions setup or explain why it was not performed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The model's performance is close to the limit of what is possible, as indicated by a replicate correlation of 0.79 in N. crassa data.
+  - **Evidence pointer** Results section, "Predicting condition-specific gene expression in fungi"; S11 Fig (not provided)
+  - **Concern** The comparison to replicate correlation is used to argue that the model is near the ceiling of predictability. However, this comparison is only made for N. crassa, and the replicate correlation is based on biological replicates, which may not directly correspond to the prediction task. The authors do not provide a formal statistical comparison or discuss how technical noise in the other species might affect this interpretation.
+  - **Why it matters** The claim that the model is near the theoretical limit is strong and should be supported by more rigorous analysis. Without this, the performance may be seen as less impressive.
+  - **Resolution test** The authors should provide replicate correlations for all species, if available, and discuss the limitations of this comparison. They could also estimate the noise ceiling using other methods, such as split-half reliability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The model can be used to extract biologically meaningful information, including known and novel sequence motifs and transcription factor-gene interactions.
+  - **Evidence pointer** Results section, "Sequence motifs and their interactions can be extracted from the convolutional filters" and "Regulatory interactions between transcription factors and target genes can be inferred from the neural network"; Fig 3 and Fig 4 (not provided)
+  - **Concern** The interpretation analyses are described qualitatively, with limited quantitative assessment. For example, the fraction of motifs matching known TF binding motifs is stated as "sizeable" but not precisely quantified. The regulatory network is compared to known interactions, but the overlap is not systematically evaluated. The novelty of the predicted motifs and interactions is not clearly established.
+  - **Why it matters** The interpretability of the model is a key selling point, but without rigorous evaluation, it is unclear whether the extracted information is reliable and novel. This weakens the claim that the model can generate new biological hypotheses.
+  - **Resolution test** The authors should provide quantitative metrics for motif matching (e.g., fraction of motifs with significant matches, enrichment statistics) and for network validation (e.g., precision/recall against known regulatory interactions). They should also discuss how novel predictions could be experimentally tested.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "Here we present FUN-PROSE—a deep learning model trained to predict differential expression of individual genes across various conditions using their promoter sequences and expression levels of all transcription factors."
+  - **Issue** The abstract states the model predicts "differential expression," but the main text defines the target as a Z-score of log-transformed expression, which is a standardized value, not strictly a differential expression measure. This terminology could confuse readers.
+  - **Required correction** Clarify the target variable in the abstract, e.g., "condition-specific expression relative to the gene's average" or use consistent terminology throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Hyperparameter optimization and model training"
+  - **Evidence pointer** Methods section, "Hyperparameter optimization and model training"
+  - **Issue** The hyperparameter search space is described in Table 1 (not provided), but the text does not specify the ranges for all hyperparameters. The number of trials (250) and the use of ASHA are mentioned, but the specific search space is not fully described in text.
+  - **Required correction** Provide the full hyperparameter search space in the text or ensure Table 1 is comprehensive and self-explanatory.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Regulatory interactions between transcription factors and target genes can be inferred from the neural network"
+  - **Evidence pointer** Results section, "Regulatory interactions between transcription factors and target genes can be inferred from the neural network"
+  - **Issue** The threshold for binarizing the network is described as "3 standard deviations from the mean absolute TF-gene score," but the rationale for this specific threshold is not explained.
+  - **Required correction** Justify the choice of threshold or discuss its sensitivity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Predicting condition-specific gene expression in fungi"
+  - **Evidence pointer** Results section, "Predicting condition-specific gene expression in fungi"
+  - **Issue** The text mentions "confusion matrices" but does not describe how the three categories (Low, Mean, High) are defined in terms of the Z-score distribution. This is partially described, but the exact boundaries are not fully specified.
+  - **Required correction** Provide the exact Z-score thresholds used for the trinarization.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (data leakage in random split) and R1-M2 (incomplete evaluation of generalization) are the most critical. The lack of detailed quantitative evaluation of the interpretation analyses (R1-M4) also needs to be addressed.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The approach of predicting condition-specific expression using promoter sequences and TF expression levels is a novel combination, though it builds on prior work in deep learning for gene expression prediction. The interpretability focus adds originality.
+  - **Scientific importance** The problem is important for fungal biology and biotechnology. However, the impact is somewhat limited by the focus on fungi and the lack of demonstrated utility in a real-world application.
+  - **Interdisciplinary readership** The work will appeal to computational biologists, fungal geneticists, and metabolic engineers. The methods are described clearly enough for a broad audience, though some familiarity with deep learning is assumed.
+  - **Technical soundness** The architecture and training procedures are reasonable, but the evaluation methodology has potential flaws (R1-M1) and the interpretation analyses lack quantitative rigor (R1-M4). These issues need to be resolved.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The abstract and introduction are clear, and the methods are described in sufficient detail. However, some technical terms (e.g., ASHA, Integrated Gradients) may be unfamiliar to nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the results are encouraging, but the evaluation methodology and interpretation analyses need to be strengthened to fully support the claims.
+
+## Risk / unsupported claims
+- The claim that the model's performance is "close to the limit of what is possible" is based on a single comparison to replicate correlation in N. crassa and is not fully supported.
+- The claim that "a sizeable fraction" of extracted motifs and TF-gene interactions agree with known biology is not quantified, making it difficult to assess.
+- The generalizability of the model to other fungal species or kingdoms is speculative and not directly tested.
+- The practical utility of the model for predicting effects of promoter mutations or TF perturbations is not demonstrated experimentally.

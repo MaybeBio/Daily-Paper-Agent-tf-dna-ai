@@ -1,0 +1,429 @@
+{
+  "identity": {
+    "pmid": "40920851",
+    "doi": "10.1371/journal.ppat.1012930",
+    "title": "A dual interaction between RSV NS1 and MED25 ACID domain reshapes antiviral responses."
+  },
+  "content": {
+    "abstract": "Respiratory syncytial virus (RSV), the most common cause of bronchiolitis and pneumonia in infants, elicits a remarkably weak innate immune response. This is partly due to type I interferon (IFN) antagonism by the non-structural RSV NS1 protein. It was recently suggested that NS1 could modulate host transcription via an interaction with the MED25 subunit of the Mediator complex. Previous work emphasized the role of the NS1 C-terminal helix alpha3 for recruitment of the MED25 ACID domain, a target of transcription factors (TFs). Here we show that the NS1 alpha/beta core domain binds to MED25 ACID and acts cooperatively with NS1 alpha3 to achieve nanomolar affinity. The strong interaction is rationalized by the dual NS1 binding site on MED25 ACID predicted by AlphaFold and confirmed by NMR, which overlaps with the two canonical binding interfaces of TF transactivation domains. Single amino acid substitutions in the NS1 alpha/beta domain, notably NS1 E110A, significantly reduced the affinity of NS1 for MED25 ACID, both in vitro and in cellula. These mutations resulted in attenuated replication of recombinant RSV (rRSV-mCherry). They did not significantly upregulate type I or III IFN levels in IFN-competent BEAS-2B cells, contrary to the NS1 alpha3 deletion. However, in line with attenuated replication, the NS1 E110A mutation enhanced expression of the antiviral interferon-stimulated gene ISG15, and NS1 I54A upregulated ISG15, OAS1A and IFIT1 in IFN-competent cells. In MED25-knockdown cells, rRSV-mCherry replication was further attenuated at a late post-infection timepoint. The difference between WT and NS1 mutant rRSV-mCherry was partially lost, suggesting that the NS1-MED25 ACID complex contributes to controlling antiviral responses at this timepoint. The strong interaction and the extended binding interface between NS1 and MED25 ACID provide evidence for a mechanism, where NS1 blocks access of transcription factors to MED25, and thereby MED25-mediated transcription activation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Viral Nonstructural Proteins/metabolism/genetics/immunology",
+      "Humans",
+      "*Respiratory Syncytial Virus, Human/immunology/metabolism",
+      "*Respiratory Syncytial Virus Infections/immunology/metabolism/virology",
+      "*Mediator Complex/metabolism/immunology/genetics",
+      "Virus Replication",
+      "Immunity, Innate",
+      "Antiviral Agents",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ait-Mouhoub, Celia",
+        "Dong, Jiawei",
+        "Noiray, Magali",
+        "Fix, Jenna",
+        "Nedvedova, Stepanka",
+        "Fourati, Slim",
+        "Verger, Alexis",
+        "Eleouet, Jean-Francois",
+        "Descamps, Delphyne",
+        "Bajorek, Monika",
+        "Sizun, Christina"
+      ],
+      "short_names": [
+        "Ait-Mouhoub C",
+        "Dong J",
+        "Noiray M",
+        "Fix J",
+        "Nedvedova S",
+        "Fourati S",
+        "Verger A",
+        "Eleouet JF",
+        "Descamps D",
+        "Bajorek M",
+        "Sizun C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0160-4709",
+        "ORCID: 0000-0002-5760-2614"
+      ],
+      "affiliations": [
+        "Virologie et Immunologie Moleculaire, INRAE, UVSQ, Universite Paris-Saclay, Jouy-en-Josas, France.",
+        "Institut de Chimie des Substances Naturelles, CNRS, Universite Paris-Saclay, Gif-sur-Yvette, France.",
+        "Institute for Integrative Biology of the Cell, CNRS, CEA, Universite Paris-Saclay, Gif-sur-Yvette, France.",
+        "Virologie et Immunologie Moleculaire, INRAE, UVSQ, Universite Paris-Saclay, Jouy-en-Josas, France.",
+        "Institut de Chimie des Substances Naturelles, CNRS, Universite Paris-Saclay, Gif-sur-Yvette, France.",
+        "Department of Virology, Hopitaux Universitaires Henri Mondor, AP-HP, Universite Paris-Est-Creteil, INSERM, Creteil, France.",
+        "EMR 9002 Integrative Structural Biology, CNRS, INSERM, Universite de Lille, Institut Pasteur de Lille, Lille, France.",
+        "Virologie et Immunologie Moleculaire, INRAE, UVSQ, Universite Paris-Saclay, Jouy-en-Josas, France.",
+        "Virologie et Immunologie Moleculaire, INRAE, UVSQ, Universite Paris-Saclay, Jouy-en-Josas, France.",
+        "Virologie et Immunologie Moleculaire, INRAE, UVSQ, Universite Paris-Saclay, Jouy-en-Josas, France.",
+        "Institut de Chimie des Substances Naturelles, CNRS, Universite Paris-Saclay, Gif-sur-Yvette, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ait-Mouhoub, Celia",
+        "short_name": "Ait-Mouhoub C",
+        "identifiers": [],
+        "affiliations": [
+          "Virologie et Immunologie Moléculaire, INRAE, UVSQ, Université Paris-Saclay, Jouy-en-Josas, France."
+        ]
+      },
+      {
+        "full_name": "Dong, Jiawei",
+        "short_name": "Dong J",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Chimie des Substances Naturelles, CNRS, Université Paris-Saclay, Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Noiray, Magali",
+        "short_name": "Noiray M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Integrative Biology of the Cell, CNRS, CEA, Université Paris-Saclay, Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Fix, Jenna",
+        "short_name": "Fix J",
+        "identifiers": [],
+        "affiliations": [
+          "Virologie et Immunologie Moléculaire, INRAE, UVSQ, Université Paris-Saclay, Jouy-en-Josas, France."
+        ]
+      },
+      {
+        "full_name": "Nedvedova, Stepanka",
+        "short_name": "Nedvedova S",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Chimie des Substances Naturelles, CNRS, Université Paris-Saclay, Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Fourati, Slim",
+        "short_name": "Fourati S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Virology, Hôpitaux Universitaires Henri Mondor, AP-HP, Université Paris-Est-Créteil, INSERM, Créteil, France."
+        ]
+      },
+      {
+        "full_name": "Verger, Alexis",
+        "short_name": "Verger A",
+        "identifiers": [],
+        "affiliations": [
+          "EMR 9002 Integrative Structural Biology, CNRS, INSERM, Université de Lille, Institut Pasteur de Lille, Lille, France."
+        ]
+      },
+      {
+        "full_name": "Eleouet, Jean-Francois",
+        "short_name": "Eleouet JF",
+        "identifiers": [],
+        "affiliations": [
+          "Virologie et Immunologie Moléculaire, INRAE, UVSQ, Université Paris-Saclay, Jouy-en-Josas, France."
+        ]
+      },
+      {
+        "full_name": "Descamps, Delphyne",
+        "short_name": "Descamps D",
+        "identifiers": [],
+        "affiliations": [
+          "Virologie et Immunologie Moléculaire, INRAE, UVSQ, Université Paris-Saclay, Jouy-en-Josas, France."
+        ]
+      },
+      {
+        "full_name": "Bajorek, Monika",
+        "short_name": "Bajorek M",
+        "identifiers": [
+          "0000-0002-0160-4709"
+        ],
+        "affiliations": [
+          "Virologie et Immunologie Moléculaire, INRAE, UVSQ, Université Paris-Saclay, Jouy-en-Josas, France."
+        ]
+      },
+      {
+        "full_name": "Sizun, Christina",
+        "short_name": "Sizun C",
+        "identifiers": [
+          "0000-0002-5760-2614"
+        ],
+        "affiliations": [
+          "Institut de Chimie des Substances Naturelles, CNRS, Université Paris-Saclay, Gif-sur-Yvette, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS pathogens"
+    ],
+    "journal_abbrev": [
+      "PLoS Pathog"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/08 18:34",
+    "fetched_at": "2026-10-05 04:19:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40128225",
+      "39575302",
+      "39561185",
+      "39419046",
+      "38718835",
+      "38527936",
+      "38436147",
+      "37964591",
+      "37438492",
+      "37140053",
+      "36102648",
+      "35907573",
+      "35725906",
+      "35637307",
+      "35598608",
+      "35446926",
+      "35385747",
+      "35216012",
+      "34644581",
+      "34265844",
+      "33649232",
+      "33077600",
+      "32881101",
+      "32649876",
+      "32509597",
+      "31622448",
+      "31402173",
+      "31257127",
+      "30972063",
+      "30936491",
+      "30558248",
+      "30360415",
+      "30127017",
+      "29769653",
+      "29769339",
+      "29209056",
+      "29110727",
+      "29087278",
+      "28728983",
+      "28665409",
+      "27663422",
+      "26914506",
+      "26569370",
+      "26130716",
+      "25599080",
+      "25428874",
+      "25277263",
+      "24909568",
+      "24497642",
+      "24362690",
+      "24362682",
+      "24088064",
+      "24058549",
+      "23864652",
+      "23531547",
+      "23062737",
+      "23054021",
+      "22593156",
+      "22577136",
+      "22305622",
+      "21795342",
+      "21785987",
+      "21632562",
+      "21378965",
+      "21378963",
+      "21135126",
+      "20974256",
+      "20089804",
+      "19625398",
+      "19357160",
+      "18360008",
+      "17251292",
+      "17151097",
+      "15827150",
+      "14657022",
+      "11932394",
+      "11856373",
+      "8648680",
+      "8381535"
+    ],
+    "similar": [
+      "40920851",
+      "36102648",
+      "35907573",
+      "31622448",
+      "40128225",
+      "34644581",
+      "38938568",
+      "27569280",
+      "27147743",
+      "38932114",
+      "21600055",
+      "24899174",
+      "34379499",
+      "27535054",
+      "22383950",
+      "37909764",
+      "32878896",
+      "29563291",
+      "35216012",
+      "30558248",
+      "42065594",
+      "41758737",
+      "14694100",
+      "42039180",
+      "34431698",
+      "26298859",
+      "10954520",
+      "11932394",
+      "21533073",
+      "15994826",
+      "30822217",
+      "26763998",
+      "26336095",
+      "28003482",
+      "26253191",
+      "42235715",
+      "16987984",
+      "24418538",
+      "26423940",
+      "21795342",
+      "12857912",
+      "28637754",
+      "35746676",
+      "25972545",
+      "21963675",
+      "19403682",
+      "28018859",
+      "29587792",
+      "32796072",
+      "24362690",
+      "31843969",
+      "24458510",
+      "26608311",
+      "12719586",
+      "15827150",
+      "40231822",
+      "39561185",
+      "19193793",
+      "42064218",
+      "17632199",
+      "42117770",
+      "29593031",
+      "23886034",
+      "30360415",
+      "15619625",
+      "34756071",
+      "21632562",
+      "28659477",
+      "25903337",
+      "41736317",
+      "38591899",
+      "17442719",
+      "38739647",
+      "28665409",
+      "23531547",
+      "30545063",
+      "24089561",
+      "28250123",
+      "37373204",
+      "32611756",
+      "37964591",
+      "29237841",
+      "27009949",
+      "31805964",
+      "10051648",
+      "32999025",
+      "39835813",
+      "16731934",
+      "40864860",
+      "35812414",
+      "27654951",
+      "33956914",
+      "29587786",
+      "17251292",
+      "41600873",
+      "25249281",
+      "28757142",
+      "40447278",
+      "28498306",
+      "27914808"
+    ],
+    "review": [
+      "40920851",
+      "36102648",
+      "31622448",
+      "35216012",
+      "21963675",
+      "24362690",
+      "30545063"
+    ],
+    "pmc": [
+      "12431651"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/respiratorysyncytialvirusinfections.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Respiratory Syncytial Virus Infections"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.ppat.1012930",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40920851/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40920851",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-IFIT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

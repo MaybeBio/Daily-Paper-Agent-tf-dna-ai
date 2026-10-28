@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract and key points; no full text, figures, or supplementary materials provided
+- **Shared manuscript claim summary** The authors propose that the SARS-CoV-2 envelope (E) protein mimics histone H4 at the BRD4 surface through an "interaction network mimicry" mechanism, mediated by acetylated lysine residues (Kac) and water-bridged interactions, and that this mimicry enables host BRD4 hijacking. They further claim that tyrosine Y59 of E acts as an anchor, and that the binding event follows an induced-fit mechanism with a larger binding site volume similar to H4-BRD4.
+- **Visible evidence base** Abstract text and key points only; no figures, tables, methods, or simulation details provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, structural coordinates, validation statistics, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting hypothesis regarding molecular mimicry between the SARS-CoV-2 E protein and histone H4 at the BRD4 interface, with a proposed mechanistic framework involving acetylated lysine positioning and water-mediated interaction networks. However, the evidence base is limited to summary statements without access to the underlying simulation data, structural analyses, or comparative validations. The claims are plausible but not fully verifiable from the supplied material. The work could be of interest to structural biologists and virologists, but the current abstract alone does not establish the case with sufficient rigor.
+- **Who would be interested in the results, and why** Structural biologists studying protein-protein interaction mimicry, virologists investigating SARS-CoV-2 host hijacking mechanisms, and researchers in epigenetic or BRD4-targeted therapeutic development would find these results relevant. The proposed mechanism of interaction network mimicry could inform drug design efforts targeting BRD4 in viral infections.
+- **Major strengths** The hypothesis is clearly articulated and mechanistically specific, proposing a two-step mimicry process with identifiable anchor residues and water-mediated networks. The comparative approach between H3, H4, and E peptides at BRD4 is a reasonable strategy to distinguish mimicry specificity. The identification of Y59 as an anchor residue provides a testable prediction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the E peptide attains an "interaction network mimicry" with residual fingerprint similar to histones, including water-mediated interactions for both Kac positions, is presented as established.
+  - **Evidence pointer** Abstract text, key points; location not provided
+  - **Concern** The abstract states that extensive docking and MD simulations were performed, but no quantitative results are provided. The interaction network described (e.g., N140:Kac5, W1:Y97, W4:P82) is presented without supporting data such as occupancy percentages, distance distributions, or free energy calculations. The claim of "microsecond MD simulations" is mentioned but no convergence or reproducibility metrics are given.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess whether the proposed interaction network is statistically robust or merely a static snapshot. The claim of mimicry depends on demonstrating that the interaction patterns are stable and reproducible across simulation replicates, which is not verifiable from the abstract.
+  - **Resolution test** Provide occupancy and persistence data for each proposed interaction, including water-mediated bridges, across multiple independent MD trajectories, with error estimates and comparison to control simulations (e.g., non-acetylated E peptide or unrelated peptide).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparative validity
+  - **Claim pointer** The claim that the E peptide achieves better stability at BRD4/BD1 than H3-BRD4, and that the binding site volume is similar to H4-BRD4, is presented as a key finding.
+  - **Evidence pointer** Key points, abstract text; location not provided
+  - **Concern** The comparative stability claim is not supported by any quantitative measure (e.g., RMSD, RMSF, binding free energy). The binding site volume analysis is mentioned but no numerical values or statistical comparisons are provided. It is unclear how "better stability" was defined or measured.
+  - **Why it matters** The induced-fit mechanism and the preference for H4-like binding are central to the mimicry hypothesis. Without quantitative comparative data, the claim that E peptide mimics H4 more closely than H3 is not established.
+  - **Resolution test** Provide binding free energy calculations (e.g., MM-PBSA or similar) with standard errors for E-, H3-, and H4-BRD4 complexes, and report binding site volume measurements with statistical significance tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic specificity
+  - **Claim pointer** The claim that Y59 of E plays an "anchor role" to escort lysine positioning inside the binding site is presented as a mechanistic insight.
+  - **Evidence pointer** Abstract text, key points; location not provided
+  - **Concern** The anchor role of Y59 is described qualitatively. No mutational analysis, alanine scanning, or free energy decomposition is provided to demonstrate that Y59 is functionally required for the proposed positioning. The abstract does not clarify whether Y59 is conserved across SARS-CoV-2 variants or other coronaviruses.
+  - **Why it matters** The anchor residue is a potentially actionable target for therapeutic intervention. Without evidence that Y59 is essential for the mimicry, the claim remains speculative.
+  - **Resolution test** Perform in silico mutagenesis of Y59 (e.g., to alanine or phenylalanine) and show loss of interaction network stability or binding affinity, or provide sequence conservation analysis across related viruses.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "histone mimic" is used without a clear operational definition. It is unclear whether this refers to structural mimicry, sequence mimicry, or functional mimicry at the interaction network level.
+  - **Required correction** Define "histone mimic" explicitly in the context of this study, distinguishing it from other forms of molecular mimicry.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "extensive docking" and "microsecond MD simulations" but provides no details on force fields, water models, simulation length per replicate, or number of replicates.
+  - **Required correction** Include key methodological parameters in the abstract or refer to a methods section with full details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretive caution
+  - **Affected element** Conclusion
+  - **Evidence pointer** Key points; location not provided
+  - **Issue** The statement that the E peptide "could hijack host BRD4 surface" is presented as a strong conclusion, but the abstract does not provide functional or cellular evidence for hijacking.
+  - **Required correction** Soften the language to indicate that the simulation data suggest a potential for hijacking, pending experimental validation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative simulation data and comparative statistics prevents verification of the core claims regarding interaction network mimicry and binding stability. The mechanistic role of Y59 (R1-M3) requires additional evidence but is not blocking if the other concerns are resolved.
+- **Assessment against Nature-style criteria** Originality: The concept of interaction network mimicry at the BRD4 interface is a novel angle, though molecular mimicry itself is not new. Scientific importance: The potential for SARS-CoV-2 E protein to hijack BRD4 could have implications for understanding viral pathogenesis and therapeutic targeting, which is of moderate to high importance. Interdisciplinary readership: The topic bridges virology, structural biology, and epigenetics, which could attract a broad audience if the evidence is compelling. Technical soundness: Not assessable from the abstract alone; the lack of quantitative data is a significant limitation. Readability for nonspecialists: The abstract is reasonably clear but uses specialized terminology without sufficient context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and potentially significant, but the abstract alone does not provide sufficient quantitative support. A revised version with full methodological details and quantitative results would be needed to assess the claims properly.
+
+## Risk / unsupported claims
+- The claim of "interaction network mimicry" is unsupported without quantitative interaction data.
+- The claim of "better stability" for E-BRD4 compared to H3-BRD4 is unsupported without binding free energy or stability metrics.
+- The claim that Y59 plays an "anchor role" is unsupported without mutational or energetic analysis.
+- The claim that the E peptide "could hijack host BRD4 surface" is speculative without functional or cellular evidence.
+- The claim of "induced-fit mechanism" is unsupported without conformational analysis data.

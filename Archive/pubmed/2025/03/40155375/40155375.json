@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "40155375",
+    "doi": "10.1038/s41467-025-58073-1",
+    "title": "Substrates bind to residues lining the ring of asymmetrically engaged bacterial proteasome activator Bpa."
+  },
+  "content": {
+    "abstract": "Mycobacteria harbor a proteasome that was acquired by Actinobacteria through horizontal gene transfer and that supports the persistence of the human pathogen Mycobacterium tuberculosis within host macrophages. The core particle of the proteasome (20S CP) associates with ring-shaped activator complexes to degrade protein substrates. One of these is the bacterial proteasome activator Bpa that stimulates the ATP-independent proteasomal degradation of the heat shock repressor HspR. In this study, we determine the cryogenic electron microscopy 3D reconstruction of the complex between Bpa and its natural substrate HspR at 4.1 A global resolution. The resulting maps allow us to identify regions of Bpa that interact with HspR. Using structure-guided site-directed mutagenesis and in vitro biochemical assays, we confirm the importance of the identified residues for Bpa-mediated substrate recruitment and subsequent proteasomal degradation. Additionally, we show that the dodecameric Bpa ring associates asymmetrically with the heptameric alpha-rings of the 20S CP, adopting a conformation resembling a hinged lid, while still engaging all seven docking sites on the proteasome.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Proteasome Endopeptidase Complex/metabolism/chemistry/genetics/ultrastructure",
+      "*Bacterial Proteins/metabolism/genetics/chemistry",
+      "Cryoelectron Microscopy",
+      "*Mycobacterium tuberculosis/metabolism/genetics",
+      "Protein Binding",
+      "Mutagenesis, Site-Directed",
+      "*Repressor Proteins/metabolism/genetics/chemistry",
+      "Binding Sites",
+      "Proteolysis",
+      "Humans",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "von Rosen, Tatjana",
+        "Zdanowicz, Rafal",
+        "El Hadeg, Yasser",
+        "Afanasyev, Pavel",
+        "Boehringer, Daniel",
+        "Leitner, Alexander",
+        "Glockshuber, Rudi",
+        "Weber-Ban, Eilika"
+      ],
+      "short_names": [
+        "von Rosen T",
+        "Zdanowicz R",
+        "El Hadeg Y",
+        "Afanasyev P",
+        "Boehringer D",
+        "Leitner A",
+        "Glockshuber R",
+        "Weber-Ban E"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-5694-2704",
+        "ORCID: 0009-0003-8360-5944",
+        "ORCID: 0000-0002-6353-6895",
+        "ORCID: 0000-0002-6666-8447",
+        "ORCID: 0000-0003-4126-0725",
+        "ORCID: 0000-0003-3320-3843",
+        "ORCID: 0000-0002-5773-9274"
+      ],
+      "affiliations": [
+        "Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich, Switzerland.",
+        "Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich, Switzerland.",
+        "International Institute of Molecular Mechanisms and Machines, Polish Academy of Sciences, Warsaw, Poland.",
+        "Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich, Switzerland.",
+        "Cryo-EM Knowledge Hub (CEMK), ETH Zurich, Zurich, Switzerland.",
+        "Cryo-EM Knowledge Hub (CEMK), ETH Zurich, Zurich, Switzerland.",
+        "Institute for Molecular Systems Biology, ETH Zurich, Zurich, Switzerland.",
+        "Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich, Switzerland.",
+        "Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich, Switzerland. eilika@mol.biol.ethz.ch."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "von Rosen, Tatjana",
+        "short_name": "von Rosen T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Zdanowicz, Rafal",
+        "short_name": "Zdanowicz R",
+        "identifiers": [
+          "0009-0005-5694-2704"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich, Switzerland.",
+          "International Institute of Molecular Mechanisms and Machines, Polish Academy of Sciences, Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "El Hadeg, Yasser",
+        "short_name": "El Hadeg Y",
+        "identifiers": [
+          "0009-0003-8360-5944"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Afanasyev, Pavel",
+        "short_name": "Afanasyev P",
+        "identifiers": [
+          "0000-0002-6353-6895"
+        ],
+        "affiliations": [
+          "Cryo-EM Knowledge Hub (CEMK), ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Boehringer, Daniel",
+        "short_name": "Boehringer D",
+        "identifiers": [
+          "0000-0002-6666-8447"
+        ],
+        "affiliations": [
+          "Cryo-EM Knowledge Hub (CEMK), ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Leitner, Alexander",
+        "short_name": "Leitner A",
+        "identifiers": [
+          "0000-0003-4126-0725"
+        ],
+        "affiliations": [
+          "Institute for Molecular Systems Biology, ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Glockshuber, Rudi",
+        "short_name": "Glockshuber R",
+        "identifiers": [
+          "0000-0003-3320-3843"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Weber-Ban, Eilika",
+        "short_name": "Weber-Ban E",
+        "identifiers": [
+          "0000-0002-5773-9274"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biology and Biophysics, ETH Zurich, Zurich, Switzerland. eilika@mol.biol.ethz.ch."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Mar 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/29 16:15",
+    "fetched_at": "2026-09-30 14:27:10"
+  },
+  "links": {
+    "cites": [
+      "41850402",
+      "41771857",
+      "41324547"
+    ],
+    "refs": [
+      "37726277",
+      "37644028",
+      "37562848",
+      "35273461",
+      "35022401",
+      "34913092",
+      "34791371",
+      "34265844",
+      "34179091",
+      "33233776",
+      "33060581",
+      "31591578",
+      "29872004",
+      "29513216",
+      "29414791",
+      "28580911",
+      "28250466",
+      "28165473",
+      "27839949",
+      "27003159",
+      "27001842",
+      "25831519",
+      "25469515",
+      "24631123",
+      "24356771",
+      "23270813",
+      "22772729",
+      "22286754",
+      "22025621",
+      "21389348",
+      "21081505",
+      "20953180",
+      "20887855",
+      "20383002",
+      "20233925",
+      "20203624",
+      "20124702",
+      "20057044",
+      "19761766",
+      "19448618",
+      "18832610",
+      "18157137",
+      "18059281",
+      "16468986",
+      "16468985",
+      "15915565",
+      "15778719",
+      "15659170",
+      "15264254",
+      "15103397",
+      "14671303",
+      "12368446",
+      "12093752",
+      "11385512",
+      "11081519",
+      "10027969",
+      "9514743",
+      "9324243",
+      "9254018",
+      "8801421",
+      "8619639",
+      "1587832",
+      "1429590"
+    ],
+    "similar": [
+      "40155375",
+      "27839949",
+      "37562848",
+      "25469515",
+      "26352358",
+      "29414791",
+      "35022401",
+      "40169579",
+      "28096448",
+      "25831519",
+      "32134919",
+      "35993699",
+      "24040288",
+      "23150576",
+      "27001842",
+      "33926037",
+      "16468985",
+      "30723150",
+      "32783951",
+      "28193903",
+      "23770819",
+      "25933022",
+      "26104367",
+      "26929360",
+      "27976853",
+      "23644457",
+      "28419599",
+      "18227252",
+      "31024929",
+      "35714770",
+      "29636472",
+      "23589842",
+      "18471981",
+      "18996341",
+      "22753065",
+      "26488274",
+      "20467039",
+      "26449534",
+      "24396728",
+      "38139315",
+      "23376067",
+      "29213119",
+      "33930464",
+      "23495936",
+      "26744777",
+      "28143508",
+      "30792173",
+      "29809155",
+      "22210775",
+      "33729481",
+      "33498876",
+      "20233925",
+      "30039638",
+      "15713476",
+      "31783300",
+      "23498601",
+      "23290100",
+      "20203624",
+      "28870295",
+      "31384003",
+      "31009487",
+      "30479383",
+      "24228735",
+      "28137839",
+      "29197082",
+      "22307589",
+      "27428775",
+      "20461058",
+      "18832610",
+      "31473102",
+      "26442450",
+      "27405762",
+      "40339123",
+      "24711419",
+      "23507199",
+      "33562807",
+      "20676709",
+      "21461838",
+      "32917864",
+      "23557784",
+      "19481528",
+      "27286897",
+      "28115689",
+      "40315273",
+      "20711362",
+      "20019667",
+      "28106073",
+      "34320347",
+      "27791164",
+      "30067984",
+      "25078702",
+      "34506908",
+      "39545866",
+      "34913092",
+      "25224505",
+      "23995839",
+      "25728768",
+      "26133119",
+      "26182356",
+      "20705495"
+    ],
+    "review": [
+      "40155375",
+      "26352358",
+      "26104367",
+      "31024929",
+      "26488274",
+      "24396728",
+      "23495936",
+      "33729481",
+      "33498876",
+      "31783300",
+      "23498601",
+      "23290100",
+      "28870295",
+      "23507199",
+      "33562807",
+      "21461838",
+      "23557784"
+    ],
+    "pmc": [
+      "11953334"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-58073-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40155375/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

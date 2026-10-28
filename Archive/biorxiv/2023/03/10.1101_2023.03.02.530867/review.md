@@ -1,0 +1,107 @@
+## Review setup
+
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure legends as provided.
+- **Assessment boundary** Evaluation is limited to the content supplied in the manuscript text. No raw data, supplementary tables, or figures were available for independent verification.
+- **Shared manuscript claim summary** The authors propose that CHD4, a core subunit of the NuRD chromatin remodeling complex, acts as a chromatin proof-reading enzyme that edits transcription factor binding site selection by promoting nucleosome positioning over TF motifs, thereby preventing inappropriate enhancer licensing and gene activation in both steady-state breast cancer cells and during GATA3-mediated cellular reprogramming.
+- **Visible evidence base** Descriptions of ATAC-seq, ChIP-seq (JUNB, FRA1, ATF3, CHD4, GATA3), RNA-seq, MNase-seq, capture MNase-seq, and cell migration assays. Statistical methods are mentioned but not detailed. Supplementary figures are referenced but not provided.
+- **Missing materials affecting confidence** Raw sequencing data, processed data files, supplementary tables (including target regions for capture MNase-seq and DEG lists), supplementary figures, detailed statistical parameters, and quality control metrics for all genomic assays. These are essential for assessing data quality, reproducibility, and the robustness of the conclusions.
+
+## Reviewer
+
+- **Overall assessment** This manuscript addresses a fundamental question in gene regulation: how transcription factors achieve binding specificity in the context of chromatin. The authors present a compelling hypothesis that CHD4 functions as a proof-reading enzyme that edits TF binding site selection. The study combines multiple genomic approaches in both a steady-state system and a defined reprogramming paradigm, which is a strength. However, the evidence as presented is largely descriptive and correlative. The mechanistic claim that CHD4 directly competes with TF-DNA interaction via nucleosome positioning is plausible but not directly tested. The manuscript would benefit from more rigorous causal experiments and clearer presentation of quantitative data. The writing is generally clear but some sections lack the precision expected for a high-impact journal.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, transcription regulation, enhancer biology, and cellular reprogramming would find this work of interest. The concept of a chromatin remodeling factor acting as a proof-reader for TF binding site selection has broad implications for understanding developmental decisions, disease mechanisms, and the design of reprogramming strategies. The study also has potential relevance for cancer biology given the frequent mutation of CHD4 in tumors.
+- **Major strengths** 1. The study addresses a significant and unresolved question in gene regulation. 2. The use of both a steady-state cancer cell line and a temporally controlled reprogramming system provides complementary contexts. 3. The multi-omics approach (ATAC-seq, ChIP-seq, RNA-seq, MNase-seq) is comprehensive. 4. The observation that CHD4 depletion leads to increased accessibility at previously inaccessible GATA3-bound loci is intriguing and potentially novel. 5. The proposal of a proof-reading mechanism is conceptually interesting and testable.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Causal evidence  
+    - **Claim pointer** The manuscript claims that "CHD4 acts to oppose the chromatin-opening ability of GATA3" and that CHD4 "promotes nucleosome formation over transcription factor motifs."  
+    - **Evidence pointer** Results sections "CHD4 antagonizes enhancer formation by GATA3" and "CHD4 promotes nucleosome formation over transcription factor motifs"; Figures 5 and 7 (described in text).  
+    - **Concern** The central mechanistic claim is that CHD4 directly edits TF binding site selection by promoting nucleosome formation over motifs. However, the data presented are correlative: CHD4 depletion leads to increased accessibility and nucleosome repositioning, but no direct evidence shows that CHD4 is physically present at these loci or that its remodeling activity is required for the observed effects. The authors do not perform CHD4 rescue experiments, catalytically dead CHD4 mutants, or targeted disruption of CHD4 at specific loci.  
+    - **Why it matters** Without causal evidence, the proof-reading model remains speculative. Alternative explanations, such as indirect effects through changes in gene expression of other chromatin regulators, are not excluded.  
+    - **Resolution test** Provide evidence that CHD4 is bound at the affected loci (e.g., CHD4 ChIP-seq at these sites), and demonstrate that a catalytically inactive CHD4 mutant fails to rescue the phenotype. Alternatively, use an in vitro nucleosome remodeling assay with purified CHD4 and GATA3 to show direct competition.  
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Quantitative rigor  
+    - **Claim pointer** The manuscript states that "approximately 1/3 of detected peaks were either lost or gained following CHD4 depletion" and that "82% (4548 of 5558) demonstrated an increase in accessibility."  
+    - **Evidence pointer** Results section "CHD4 depletion mediates altered chromatin accessibility and gene expression"; Figures 1 and 5 (described in text).  
+    - **Concern** The quantitative thresholds for defining "gained" and "lost" peaks are not clearly stated. The manuscript mentions fold change and read count criteria for peak classification in the reprogramming system, but the criteria for the steady-state analysis are vague. The statistical significance of the observed changes is not reported with confidence intervals or effect sizes.  
+    - **Why it matters** Without clear thresholds and statistical rigor, the reader cannot assess the robustness of the observed changes. This is particularly important given the claim that CHD4 depletion leads to widespread but specific changes.  
+    - **Resolution test** Provide explicit criteria for peak calling and differential analysis, including adjusted p-values, false discovery rates, and effect sizes. Show that the results are consistent across biological replicates and are not driven by a small number of outliers.  
+  - **R1-M3**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Functional relevance  
+    - **Claim pointer** The manuscript claims that CHD4 depletion leads to "increased expression of genes unrelated to MET" and that this is associated with "abnormal chromatin opening."  
+    - **Evidence pointer** Results section "CHD4 antagonizes enhancer formation by GATA3"; Figures 5 and 6 (described in text).  
+    - **Concern** The functional significance of the ectopic gene expression is not fully explored. The authors show that some genes are upregulated, but they do not demonstrate that this leads to a phenotypic consequence beyond a modest effect on cell migration. The link between chromatin opening at specific loci and the observed gene expression changes is not systematically established.  
+    - **Why it matters** The claim that CHD4 prevents inappropriate gene activation is central to the proof-reading model. Without a clear functional readout, the biological importance of the observed chromatin changes remains unclear.  
+    - **Resolution test** Perform a more comprehensive analysis of the transcriptome changes, linking specific chromatin opening events to gene expression changes. Use functional assays beyond migration, such as differentiation markers or cell fate commitment assays, to demonstrate the biological impact of CHD4 loss.  
+  - **R1-M4**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Generalizability  
+    - **Claim pointer** The manuscript proposes that "CHD4 acts as a chromatin proof-reading enzyme that prevents inappropriate gene expression by editing binding site selection by transcription factors" as a general mechanism.  
+    - **Evidence pointer** Discussion section.  
+    - **Concern** The study is performed in a single cell line (MDA-MB-231) and with a single TF (GATA3) in the reprogramming context. The generalizability of the proposed mechanism to other cell types, TFs, and developmental contexts is not demonstrated.  
+    - **Why it matters** The proof-reading model is presented as a general principle, but the evidence is limited to one system. Without additional contexts, the broader relevance remains uncertain.  
+    - **Resolution test** Provide evidence from at least one additional cell type or TF system to support the generalizability of the mechanism. Alternatively, temper the claims to be specific to the systems studied.  
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Abstract  
+    - **Evidence pointer** Abstract, first sentence.  
+    - **Issue** The phrase "Biologically precise enhancer licensing" is vague and could be more specific.  
+    - **Required correction** Define what is meant by "biologically precise" and "licensing" in the context of the study.  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Reproducibility  
+    - **Affected element** Methods, ATAC-seq section  
+    - **Evidence pointer** Methods, ATAC-seq section.  
+    - **Issue** The number of biological replicates for each condition is not stated.  
+    - **Required correction** Specify the number of replicates for all experiments.  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Data presentation  
+    - **Affected element** Figure legends  
+    - **Evidence pointer** Figure legends are not provided in the manuscript text.  
+    - **Issue** Without figure legends, it is difficult to interpret the figures.  
+    - **Required correction** Include full figure legends with detailed descriptions of the data shown and statistical tests used.  
+  - **R1-m4**  
+    - **Severity** Minor  
+    - **Axis** Statistical reporting  
+    - **Affected element** Results sections  
+    - **Evidence pointer** Results sections "CHD4 depletion mediates altered chromatin accessibility and gene expression" and "CHD4 antagonizes enhancer formation by GATA3".  
+    - **Issue** P-values are mentioned for one test (Chi Square) but not for other comparisons.  
+    - **Required correction** Report p-values or confidence intervals for all key comparisons.  
+  - **R1-m5**  
+    - **Severity** Minor  
+    - **Axis** Terminology  
+    - **Affected element** Discussion  
+    - **Evidence pointer** Discussion, paragraph 2.  
+    - **Issue** The term "proof-reading" is used metaphorically and may be misleading.  
+    - **Required correction** Clarify that this is a proposed model and not an established enzymatic activity.  
+- **Technical failings that need to be addressed before the case is established**  
+  - Lack of direct causal evidence for CHD4's role in nucleosome positioning at specific loci (R1-M1).  
+  - Insufficient quantitative detail for peak calling and differential analysis (R1-M2).  
+  - No demonstration of CHD4 binding at the affected loci.  
+  - No rescue experiments or use of catalytically inactive CHD4 mutants.  
+  - No validation of the proposed mechanism in additional cell types or TF systems.  
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of a chromatin remodeling factor acting as a proof-reader for TF binding site selection is novel and conceptually interesting. However, the idea that chromatin restricts TF binding is not new, and the specific contribution of CHD4 to this process, while plausible, is not uniquely demonstrated.  
+  - **Scientific importance** The question of how TFs achieve specificity in large genomes is of fundamental importance. If the proof-reading model is validated, it would have broad implications for understanding gene regulation, development, and disease. The potential relevance to cancer is also significant.  
+  - **Interdisciplinary readership** The topic is of interest to molecular biologists, chromatin biologists, and those studying gene regulation. The methods are standard in the field, and the findings would be accessible to a specialized audience. However, the broader interdisciplinary appeal may be limited unless the mechanism is shown to be generalizable.  
+  - **Technical soundness** The genomic methods are appropriate and well-established. However, the lack of quantitative detail and causal experiments weakens the technical rigor. The manuscript would benefit from more robust statistical reporting and direct mechanistic tests.  
+  - **Readability for nonspecialists** The writing is generally clear but assumes familiarity with chromatin biology and genomic techniques. The abstract is accessible, but the results section is dense and would be challenging for nonspecialists.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The hypothesis is interesting and the data are suggestive, but the current evidence does not fully establish the proof-reading model. The authors need to provide direct causal evidence, more rigorous quantitative analysis, and ideally demonstrate generalizability to other systems.
+
+## Risk / unsupported claims
+
+- The claim that CHD4 "edits" TF binding site selection is not directly supported by the data; the evidence is correlative.
+- The statement that CHD4 "promotes nucleosome formation over transcription factor motifs" is inferred from MNase-seq data but not directly demonstrated.
+- The claim that CHD4 loss leads to "inappropriate gene activation" is based on gene expression changes but the functional consequences are not fully explored.
+- The generalizability of the proposed mechanism to other cell types and TFs is not supported by the data presented.
+- The quantitative thresholds for defining differential peaks and the statistical significance of the results are not fully reported, making some claims unverifiable from the provided material.

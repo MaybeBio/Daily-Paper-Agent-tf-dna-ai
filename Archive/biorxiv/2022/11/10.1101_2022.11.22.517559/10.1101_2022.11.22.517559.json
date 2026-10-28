@@ -1,0 +1,323 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.11.22.517559",
+  "title": "Quantitative assessment of association between noncoding variants and transcription factor binding",
+  "doi": "10.1101/2022.11.22.517559",
+  "abstract": "Association fine-mapping of molecular traits is an essential method for understanding the impact of genetic variation. Sequencing-based assays, including RNA-seq, DNase-seq and ChIP-seq, have been widely used to measure different cellular traits and enabled genome-wide mapping of quantitative trait loci (QTLs). The disruption of cis-regulatory sequence, often occurring through variation within transcription factor binding motifs, has been strongly associated with gene dysregulation and human disease. We recently developed a computational method, TRACE, for transcription factor binding footprint prediction. TRACE integrates chromatin accessibility and transcription factor binding motifs to produce quantitative scores that describe the binding affinity of a TF for a specific TFBS locus. Here we have extended this method to incorporate variant data for 57 Yoruban individuals. Using genome-wide chromatin-accessibility data and human TF binding motifs, we have generated precise, genome-wide predictions of individual-specific transcription factor binding footprints. Subsequent association mapping between these footprints and nearby regulatory variants yielded numerous footprint-variant pairs with significant evidence for correlation, which we call footprint-QTLs (fpQTLs). fpQTLs appear to affect TF binding in a distance-dependent manner and share significant overlap with known dsQTLs and eQTLs. fpQTLs provide a rich resource for the study of regulatory variants, both within and outside known TFBSs, leading to improved functional interpretation of noncoding variation.",
+  "authors": [
+    "Ningxin Ouyang",
+    "Alan P. Boyle"
+  ],
+  "published_date": "2022-11-23",
+  "updated_date": "2022-11-23T07:55:22Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.11.22.517559",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.11.22.517559.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:24:51Z",
+        "timestamp": 1768505091562,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            23
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 27,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            23
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Association fine-mapping of molecular traits is an essential method for understanding the impact of genetic variation. Sequencing-based assays, including RNA-seq, DNase-seq and ChIP-seq, have been widely used to measure different cellular traits and enabled genome-wide mapping of quantitative trait loci (QTLs). The disruption of cis-regulatory sequence, often occurring through variation within transcription factor binding motifs, has been strongly associated with gene dysregulation and human disease. We recently developed a computational method, TRACE, for transcription factor binding footprint prediction. TRACE integrates chromatin accessibility and transcription factor binding motifs to produce quantitative scores that describe the binding affinity of a TF for a specific TFBS locus. Here we have extended this method to incorporate variant data for 57 Yoruban individuals. Using genome-wide chromatin-accessibility data and human TF binding motifs, we have generated precise, genome-wide predictions of individual-specific transcription factor binding footprints. Subsequent association mapping between these footprints and nearby regulatory variants yielded numerous footprint-variant pairs with significant evidence for correlation, which we call footprint-QTLs (fpQTLs). fpQTLs appear to affect TF binding in a distance-dependent manner and share significant overlap with known dsQTLs and eQTLs. fpQTLs provide a rich resource for the study of regulatory variants, both within and outside known TFBSs, leading to improved functional interpretation of noncoding variation.</jats:p>",
+      "DOI": "10.1101/2022.11.22.517559",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            23
+          ]
+        ],
+        "date-time": "2022-11-23T07:55:22Z",
+        "timestamp": 1669190122000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Quantitative assessment of association between noncoding variants and transcription factor binding"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1182-8861",
+          "authenticated-orcid": false,
+          "given": "Ningxin",
+          "family": "Ouyang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2081-1105",
+          "authenticated-orcid": false,
+          "given": "Alan P.",
+          "family": "Boyle",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature09534"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1136/gut.2006.117812"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng1993"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1004663"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.155192.113"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.137323.112"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature04244"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-019-0556-y"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature10808"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "e6",
+          "DOI": "10.1093/nar/gkab924",
+          "article-title": "Prioritization of regulatory variants with tissue-specific function in the non-coding regions of human genome",
+          "volume": "50",
+          "year": "2022",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.4227"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.530"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature06258"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1188"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature12531"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1242429"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08903"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.258228.119"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1001236"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "150",
+          "DOI": "10.1038/s42003-019-0389-3",
+          "article-title": "Eomes transcription factor is required for the development and differentiation of invariant NKT cells",
+          "volume": "2",
+          "year": "2019",
+          "journal-title": "Commun Biol"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "387",
+          "DOI": "10.1038/s42255-020-0200-2",
+          "article-title": "NFYB-1 regulates mitochondrial function and longevity via lysosomal prosaposin",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Nat Metab"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1000214"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1920880117"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1229"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fpls.2016.02045"
+        },
+        {
+          "key": "2022112501550688000_2022.11.22.517559v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10. 1038/s41588-018-0160-6"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.11.22.517559",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:54:00Z",
+        "timestamp": 1768449240000
+      },
+      "score": 117.95756,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.11.22.517559"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            23
+          ]
+        ]
+      },
+      "references-count": 27,
+      "URL": "https://doi.org/10.1101/2022.11.22.517559",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            23
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

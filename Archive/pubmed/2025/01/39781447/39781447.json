@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "39781447",
+    "doi": "10.7150/ijbs.102381",
+    "title": "Smad2 Cooperating with TGIF2 Contributes to EMT and Cancer Stem Cells Properties in Pancreatic Cancer via Co-Targeting SOX2."
+  },
+  "content": {
+    "abstract": "The underlying mechanisms between cancer stem cells (CSC) and epithelial-mesenchymal transition (EMT) in pancreatic cancer (PC) remain unclear. In this study, we identified TGIF2 as a target gene of CSC using sncRNA and machine learning. TGIF2 is closely related to the expression of SOX2, EGFR, and E-cadherin, indicating poor prognosis. Mechanistically, TGIF2 promoted the EMT phenotype and CSC properties following the activation of SOX2, Slug, CD44, and ERGF/MAPK signaling, which were rescued by SOX2 silencing. TGIF2 silencing contributes to the opposite phenotype via SOX2. Notably, Smad2 cooperates with TGIF2 to co-regulate the SOX2 promoter, which in turn promotes EMT and CSC signaling by transactivating Slug and EGFR, respectively. The transactivation of EGFR/MAPK signaling by SOX2 promotes TGIF2 nuclear translocation, forming a positive feedback loop in vitro. Moreover, the interaction of TGIF2 and SOX2 with EGFR inhibitors promoted subcutaneous tumors and liver metastasis in vivo. Thus, the TGIF2/SOX2 axis contributes to CSC, EMT, and chemoresistance, providing a promising target for PC therapy.",
+    "keywords": [
+      "EMT",
+      "SOX2",
+      "TGIF2",
+      "cancer stem cells",
+      "pancreatic cancer"
+    ],
+    "mesh_terms": [
+      "*Pancreatic Neoplasms/metabolism/pathology/genetics",
+      "*Epithelial-Mesenchymal Transition/genetics",
+      "Humans",
+      "*Neoplastic Stem Cells/metabolism/pathology",
+      "*SOXB1 Transcription Factors/metabolism/genetics",
+      "*Smad2 Protein/metabolism",
+      "Animals",
+      "Cell Line, Tumor",
+      "Mice",
+      "Homeodomain Proteins/metabolism/genetics",
+      "Mice, Nude",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zu, Fuqiang",
+        "Chen, ChuanPing",
+        "Geng, Qilong",
+        "Li, Haoyu",
+        "Chan, Boyuan",
+        "Luo, Guopei",
+        "Wu, Mengcheng",
+        "Ilmer, Matthias",
+        "Renz, Bernhard W",
+        "Bentum-Ennin, Lutterodt",
+        "Gu, Hao",
+        "Sheng, Weiwei"
+      ],
+      "short_names": [
+        "Zu F",
+        "Chen C",
+        "Geng Q",
+        "Li H",
+        "Chan B",
+        "Luo G",
+        "Wu M",
+        "Ilmer M",
+        "Renz BW",
+        "Bentum-Ennin L",
+        "Gu H",
+        "Sheng W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of General Surgery, the Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, China.",
+        "Department of Pharmacy, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui 230022, China.",
+        "Department of Clinical Medicine, Anhui Medical University, Hefei, 230022, China.",
+        "Department of Clinical Medicine, Anhui Medical University, Hefei, 230022, China.",
+        "Department of Clinical Medicine, Anhui Medical University, Hefei, 230022, China.",
+        "Department of Pancreatic Surgery, Fudan University Shanghai Cancer Center, Shanghai, 200032, China.",
+        "Department of General Surgery, the First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China.",
+        "German Cancer Consortium (DKTK), Partner Site Munich and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "German Cancer Consortium (DKTK), Partner Site Munich and German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Department of Immunology, School of Basic Medical Sciences, Anhui Medical University, Hefei 230032, China.",
+        "Department of Immunology, School of Basic Medical Sciences, Anhui Medical University, Hefei 230032, China.",
+        "Department of General Surgery, the First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zu, Fuqiang",
+        "short_name": "Zu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, the Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, China."
+        ]
+      },
+      {
+        "full_name": "Chen, ChuanPing",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The First Affiliated Hospital of Anhui Medical University, Hefei, Anhui 230022, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Qilong",
+        "short_name": "Geng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, Anhui Medical University, Hefei, 230022, China."
+        ]
+      },
+      {
+        "full_name": "Li, Haoyu",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, Anhui Medical University, Hefei, 230022, China."
+        ]
+      },
+      {
+        "full_name": "Chan, Boyuan",
+        "short_name": "Chan B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, Anhui Medical University, Hefei, 230022, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Guopei",
+        "short_name": "Luo G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pancreatic Surgery, Fudan University Shanghai Cancer Center, Shanghai, 200032, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Mengcheng",
+        "short_name": "Wu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, the First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China."
+        ]
+      },
+      {
+        "full_name": "Ilmer, Matthias",
+        "short_name": "Ilmer M",
+        "identifiers": [],
+        "affiliations": [
+          "German Cancer Consortium (DKTK), Partner Site Munich and German Cancer Research Center (DKFZ), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Renz, Bernhard W",
+        "short_name": "Renz BW",
+        "identifiers": [],
+        "affiliations": [
+          "German Cancer Consortium (DKTK), Partner Site Munich and German Cancer Research Center (DKFZ), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Bentum-Ennin, Lutterodt",
+        "short_name": "Bentum-Ennin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Basic Medical Sciences, Anhui Medical University, Hefei 230032, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Hao",
+        "short_name": "Gu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Basic Medical Sciences, Anhui Medical University, Hefei 230032, China."
+        ]
+      },
+      {
+        "full_name": "Sheng, Weiwei",
+        "short_name": "Sheng W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, the First Affiliated Hospital of Anhui Medical University, Hefei, 230022, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Sci"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/09 06:22",
+    "fetched_at": "2026-09-30 09:13:04"
+  },
+  "links": {
+    "cites": [
+      "42243075",
+      "42074600",
+      "41675331",
+      "41268614"
+    ],
+    "refs": [
+      "38849410",
+      "38777607",
+      "38572751",
+      "38515383",
+      "38355776",
+      "37955987",
+      "37816712",
+      "37488417",
+      "37373094",
+      "36959420",
+      "36417870",
+      "36347438",
+      "36282174",
+      "36076232",
+      "35817555",
+      "35736631",
+      "35641480",
+      "35406622",
+      "35292107",
+      "35197444",
+      "35145098",
+      "34771695",
+      "34719977",
+      "34668665",
+      "34635154",
+      "34629365",
+      "33953166",
+      "33827783",
+      "33762829",
+      "33506604",
+      "33028359",
+      "32747685",
+      "32625096",
+      "32572908",
+      "32444850",
+      "32331358",
+      "32296030",
+      "31952541",
+      "31932730",
+      "31871777",
+      "31695499",
+      "31273297",
+      "31213009",
+      "31178118",
+      "31008529",
+      "30333907",
+      "30204897",
+      "29608179",
+      "29069414",
+      "28716029",
+      "28669750",
+      "28609658",
+      "28397828",
+      "28270694",
+      "28245823",
+      "27909729",
+      "27655685",
+      "27403158",
+      "26077342",
+      "26007653",
+      "25313085",
+      "23917223",
+      "22455463",
+      "21630377",
+      "19435822",
+      "19114008",
+      "18682241",
+      "18371365",
+      "11427533",
+      "10775259",
+      "9741623"
+    ],
+    "similar": [
+      "39781447",
+      "34809669",
+      "41129070",
+      "33028359",
+      "33953166",
+      "29072694",
+      "36647029",
+      "31793741",
+      "37147666",
+      "35854234",
+      "25953743",
+      "30453543",
+      "26370982",
+      "33153498",
+      "41532321",
+      "28947139",
+      "28703793",
+      "40874680",
+      "26395574",
+      "22892238",
+      "38515383",
+      "23334326",
+      "29556337",
+      "26447186",
+      "32879054",
+      "23050024",
+      "24489910",
+      "26498682",
+      "32816856",
+      "30453285",
+      "41597204",
+      "25811929",
+      "28504716",
+      "41952208",
+      "28244691",
+      "29858603",
+      "28053127",
+      "29222037",
+      "22847005",
+      "25868860",
+      "31548378",
+      "39030572",
+      "39988656",
+      "25301732",
+      "23009336",
+      "27634934",
+      "24107627",
+      "38880736",
+      "27659015",
+      "23687336",
+      "26799321",
+      "32542845",
+      "34628696",
+      "29164579",
+      "25296715",
+      "25444909",
+      "30367545",
+      "25879771",
+      "21503965",
+      "41963612",
+      "25897987",
+      "30712329",
+      "28388884",
+      "39219279",
+      "22931165",
+      "22761812",
+      "32476798",
+      "34418441",
+      "26185996",
+      "30365057",
+      "32771963",
+      "23940081",
+      "29426374",
+      "37787967",
+      "21463919",
+      "36751987",
+      "28703907",
+      "20805998",
+      "42229817",
+      "25151964",
+      "29643475",
+      "24489842",
+      "26323460",
+      "33288885",
+      "27579892",
+      "31115051",
+      "25961934",
+      "31002970",
+      "24889938",
+      "27240974",
+      "24040120",
+      "29587800",
+      "28033430",
+      "21123622",
+      "26081037",
+      "25728352",
+      "25909162",
+      "39322688",
+      "23917223",
+      "22740085"
+    ],
+    "review": [
+      "39781447"
+    ],
+    "pmc": [
+      "11705628"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39781447/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-668",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ijbs.com/v21p0524.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,890 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.04.07.647578",
+  "title": "Enhancer binding kinetics explain transcription factor hub formation",
+  "doi": "10.1101/2025.04.07.647578",
+  "abstract": "Transcription factors (TFs) form dynamic, high-concentration clusters, condensates, or hubs, proposed to increase TF binding frequency at target enhancers. However, how enhancer sequence shapes hub properties remains unclear. We developed a live-imaging based framework to quantify the spatiotemporal relationship between TF hubs and actively transcribed genes in live Drosophila embryos. Examining hubs formed by the TF Dorsal across enhancers with defined binding-site composition, we find that hub enrichment and persistence scale with the number of Dorsal binding motifs. However, these hub properties do not predict transcriptional bursts for a given enhancer. Combining quantitative imaging with computational modeling, we show that Dorsal hub formation can be explained by TF–DNA binding kinetics alone. These findings support a model in which TF hubs emerge from enhancer-encoded TF–DNA interactions rather than higher-order regulatory assemblies.",
+  "authors": [
+    "Samantha Fallacaro",
+    "Manya Kapoor",
+    "Lillian Encarnation",
+    "Apratim Mukherjee",
+    "Meghan A. Turner",
+    "Hernan G. Garcia",
+    "Mustafa Mir"
+  ],
+  "published_date": "2025-04-08",
+  "updated_date": "2025-04-09T03:15:17Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.04.07.647578",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.04.07.647578.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            18
+          ]
+        ],
+        "date-time": "2026-09-18T00:04:12Z",
+        "timestamp": 1789689852730,
+        "version": "4.0.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            8
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 80,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                8
+              ]
+            ],
+            "date-time": "2025-04-08T00:00:00Z",
+            "timestamp": 1744070400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "National Institutes of Health",
+          "award": [
+            "DP2HD108775"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DP2HD108775"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "National Institutes of Health",
+          "award": [
+            "R01GM139913"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01GM139913"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "National Institutes of Health",
+          "award": [
+            "R01GM152815"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01GM152815"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Margaret Q Landenberger Foundation"
+        },
+        {
+          "name": "Howard Hughes Medical Institute, Freeman Hrabowski Scholars Program",
+          "id": [
+            {
+              "id": "https://ror.org/006w34k90",
+              "id-type": "ROR",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "National Science Foundation Graduate Research Fellowship",
+          "award": [
+            "DGE-2236662"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DGE-2236662"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "National Science Foundation Graduate Research Fellowship",
+          "award": [
+            "DGE-1752814"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "DGE-1752814"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Koret-UC Berkeley-Tel Aviv University Initiative in Computational Biology and Bioinformatics",
+          "id": [
+            {
+              "id": "https://ror.org/04mhzgx49",
+              "id-type": "ROR",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "Winkler Scholar Faculty Award"
+        },
+        {
+          "name": "Chan Zuckerberg Initiative",
+          "award": [
+            "CZIF2024-010479"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "CZIF2024-010479"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/02qenvm24",
+              "id-type": "ROR",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            21
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Transcription factors (TFs) form dynamic, high-concentration clusters, condensates, or hubs, proposed to increase TF binding frequency at target enhancers. However, how enhancer sequence shapes hub properties remains unclear. We developed a live-imaging based framework to quantify the spatiotemporal relationship between TF hubs and actively transcribed genes in live Drosophila embryos. Examining hubs formed by the TF Dorsal across enhancers with defined binding-site composition, we find that hub enrichment and persistence scale with the number of Dorsal binding motifs. However, these hub properties do not predict transcriptional bursts for a given enhancer. Combining quantitative imaging with computational modeling, we show that Dorsal hub formation can be explained by TF–DNA binding kinetics alone. These findings support a model in which TF hubs emerge from enhancer-encoded TF–DNA interactions rather than higher-order regulatory assemblies.</jats:p>",
+      "DOI": "10.1101/2025.04.07.647578",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            9
+          ]
+        ],
+        "date-time": "2025-04-09T03:15:17Z",
+        "timestamp": 1744168517000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 8,
+      "title": [
+        "Enhancer binding kinetics explain transcription factor hub formation"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7749-0034",
+          "authenticated-orcid": false,
+          "given": "Samantha",
+          "family": "Fallacaro",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Cell and Developmental Biology, Perelman School of Medicine, University of Pennsylvania; Philadelphia, PA, USA"
+            },
+            {
+              "name": "Developmental, Stem Cell, and Regenerative Biology Graduate Group, Perelman School of Medicine; Philadelphia, PA, USA"
+            },
+            {
+              "name": "Center for Computational and Genomic Medicine, Children’s Hospital of Philadelphia, Philadelphia, PA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0352-5131",
+          "authenticated-orcid": false,
+          "given": "Manya",
+          "family": "Kapoor",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Cell and Developmental Biology, Perelman School of Medicine, University of Pennsylvania; Philadelphia, PA, USA"
+            },
+            {
+              "name": "Center for Computational and Genomic Medicine, Children’s Hospital of Philadelphia, Philadelphia, PA, USA"
+            },
+            {
+              "name": "Department of Bioengineering, University of Pennsylvania; Philadelphia, PA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0008-6790-0712",
+          "authenticated-orcid": false,
+          "given": "Lillian",
+          "family": "Encarnation",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Cell and Developmental Biology, Perelman School of Medicine, University of Pennsylvania; Philadelphia, PA, USA"
+            },
+            {
+              "name": "Center for Computational and Genomic Medicine, Children’s Hospital of Philadelphia, Philadelphia, PA, USA"
+            },
+            {
+              "name": "Department of Biology, University of Pennsylvania; Philadelphia, PA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1762-3277",
+          "authenticated-orcid": false,
+          "given": "Apratim",
+          "family": "Mukherjee",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Developmental, Stem Cell, and Regenerative Biology Graduate Group, Perelman School of Medicine; Philadelphia, PA, USA"
+            },
+            {
+              "name": "Center for Computational and Genomic Medicine, Children’s Hospital of Philadelphia, Philadelphia, PA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2451-5036",
+          "authenticated-orcid": false,
+          "given": "Meghan A.",
+          "family": "Turner",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biophysics Graduate Group, University of California at Berkeley, Berkeley, CA, USA"
+            },
+            {
+              "name": "Allen Institute for Brain Science, Seattle, WA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5212-3649",
+          "authenticated-orcid": false,
+          "given": "Hernan G.",
+          "family": "Garcia",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biophysics Graduate Group, University of California at Berkeley, Berkeley, CA, USA"
+            },
+            {
+              "name": "Department of Molecular and Cell Biology, University of California, Berkeley, CA, USA"
+            },
+            {
+              "name": "Department of Physics, University of California, Berkeley, CA, USA"
+            },
+            {
+              "name": "Institute for Quantitative Biosciences-QB3, University of California, Berkeley, CA, USA"
+            },
+            {
+              "name": "Chan Zuckerberg Biohub – San Francisco, San Francisco, CA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8280-2821",
+          "authenticated-orcid": false,
+          "given": "Mustafa",
+          "family": "Mir",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Cell and Developmental Biology, Perelman School of Medicine, University of Pennsylvania; Philadelphia, PA, USA"
+            },
+            {
+              "name": "Center for Computational and Genomic Medicine, Children’s Hospital of Philadelphia, Philadelphia, PA, USA"
+            },
+            {
+              "name": "Howard Hughes Medical Institute, Children’s Hospital of Philadelphia, Philadelphia, PA, USA"
+            },
+            {
+              "name": "Epigenetics Institute, University of Pennsylvania Perelman School of Medicine; Philadelphia, PA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. P. Boka , A. Mukherjee , M. Mir , Single-molecule tracking technologies for quantifying the dynamics of gene regulation in cells, tissue and embryos. Development 148 (2021).",
+          "DOI": "10.1242/dev.199744"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a040949"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gde.2024.102177"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-cellbio-022823-013847"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Tsai , A. K. Muthusamy , M. R. P. Alves , L. D. Lavis , R. H. Singer , D. L. Stern , J. Crocker , Nuclear microenvironments modulate transcription from low-affinity enhancers. Elife 6 (2017).",
+          "DOI": "10.7554/eLife.28975"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41589-019-0422-3"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mol-cel.2026.01.009"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.305078.117"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Mir , M. R. Stadler , S. A. Ortiz , C. E. Hannon , M. M. Harrison , X. Darzacq , M. B. Eisen , Dynamic multifactor hubs interact transiently with sites of active transcription in Drosophila embryos. Elife 7 (2018).",
+          "DOI": "10.7554/eLife.40497"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aar3958"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2023.04.018"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aar4199"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.10.042"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1239053"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41556-020-00578-6"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2024.04.001"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Tsai , M. R. Alves , J. Crocker , Multi-enhancer transcriptional hubs confer phenotypic robustness. Elife 8 (2019).",
+          "DOI": "10.7554/eLife.45325"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Chong , C. Dugast-Darzacq , Z. Liu , P. Dong , G. M. Dailey , C. Cattoglio , A. Heckert , S. Banala , L. Lavis , X. Darzacq , R. Tjian , Imaging dynamic and selective low-complexity domain interactions that control gene transcription. Science 361 (2018).",
+          "DOI": "10.1126/science.aar2555"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-42133-5"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.02.10.637507"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.04.16.589811"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.07.04.663121"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.7"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/embj.2021109952"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-024-00789-x"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2023.06.010"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2023.08.032"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.07.25.605169"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41556-024-01389-9"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Dongre , N. L. Vastenhouw , Specificity in clustering of gene-specific transcription factors is encoded in the genome. Nucleic Acids Res. 53 (2025).",
+          "DOI": "10.1093/nar/gkaf625"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2022.05.018"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cub.2019.03.019"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "F. J. DeHaro-Arbona , C. Roussos , S. Baloul , J. Townson , M. J. Gómez Lamarca , S. Bray , Dynamic modes of Notch transcription hubs conferring memory and stochastic activation revealed by live imaging the co-activator Mastermind. Elife 12 (2024).",
+          "DOI": "10.7554/eLife.92083"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2024.01.020"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/embj.2018100809"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(89)90772-1"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/bs.ctdb.2019.11.007"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.adp3251"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-07613-z"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. S. Dima , M. A. Turner , H. G. Garcia , G. T. Reeves , Global maps of transcription factor properties reveal threshold-based formation of DNA-bound and mobile clusters. Sci. Adv. 12 (2026).",
+          "DOI": "10.1126/sciadv.ady3909"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.05.12.653543"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. P. Bothma , H. G. Garcia , S. Ng , M. W. Perry , T. Gregor , M. Levine , Enhancer additivity and non-additivity are determined by enhancer strength in the Drosophila embryo. Elife 4 (2015).",
+          "DOI": "10.7554/eLife.07956"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.281188.116"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "912838",
+          "DOI": "10.3389/fcell.2022.912838",
+          "article-title": "Shared transcriptional machinery at homologous alleles leads to reduced transcription in early Drosophila embryos",
+          "volume": "10",
+          "year": "2022",
+          "journal-title": "Front. Cell Dev. Biol"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.08.25.672162"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1002769"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2020.01.003"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.Dg.2023.11.003"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Syed , Y. Duan , B. Lim , Modulation of protein-DNA binding reveals mechanisms of spatiotemporal gene control in early Drosophila embryos. Elife 12 (2023).",
+          "DOI": "10.7554/eLife.85997"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.192542.115"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.64898/2026.06.04.730171"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-8591-3_32"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.53",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. S. Hansen , M. Woringer , J. B. Grimm , L. D. Lavis , R. Tjian , X. Darzacq , Robust model-based analysis of single-particle tracking experiments with Spot-On. Elife 7 (2018).",
+          "DOI": "10.7554/eLife.33125"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "220",
+          "DOI": "10.1016/j.cels.2022.12.008",
+          "article-title": "Minimal synthetic enhancers reveal control of the probability of transcriptional engagement and its timing by a morphogen gradient",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Cell Syst"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.55",
+          "doi-asserted-by": "crossref",
+          "unstructured": "L. Dunipace , J. M. McGehee , J. Irizarry , A. Stathopoulos , The proximal enhancer of the snail gene mediates negative autoregulatory feedback in Drosophila melanogaster. Genetics 230 (2025).",
+          "DOI": "10.1093/genetics/iyaf058"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1004159"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1010235",
+          "DOI": "10.1371/journal.pgen.1010235",
+          "article-title": "Enhanced transcriptional heterogeneity mediated by NF-κB super-enhancers",
+          "volume": "18",
+          "year": "2022",
+          "journal-title": "PLoS Genet"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(93)90402-C"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.59",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Sayal , J. M. Dresch , I. Pushel , B. R. Taylor , D. N. Arnosti , Quantitative perturbation-based analysis of gene expression predicts enhancer activity in early Drosophila embryo. Elife 5 (2016).",
+          "DOI": "10.7554/eLife.08445"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.6.9.1728"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0806476105"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.08.14.670187"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-40485-6"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "102274",
+          "DOI": "10.1016/j.gde.2024.102274",
+          "article-title": "Better together: how cooperativity influences transcriptional bursting",
+          "volume": "89",
+          "year": "2024",
+          "journal-title": "Curr. Opin. Genet. Dev"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv416"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1917040117"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAB1113"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cub.2015.11.058"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1002266"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.06.02.657494"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.71",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T.-L. Liu , S. Upadhyayula , D. E. Milkie , V. Singh , K. Wang , I. A. Swin-burne , K. R. Mosaliganti , Z. M. Collins , T. W. Hiscock , J. Shea , A. Q. Kohrman , T. N. Medwig , D. Dambournet , R. Forster , B. Cunniff , Y. Ruan , H. Yashiro , S. Scholpp , E. M. Meyerowitz , D. Hockemeyer , D. G. Drubin , B. L. Martin , D. Q. Matus , M. Koyama , S. G. Megason , T. Kirchhausen , E. Betzig , Observing the cell in its native state: Imaging subcellular dynamics in multicellular organisms. Science 360 (2018).",
+          "DOI": "10.1126/science.aaq1392"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.72",
+          "unstructured": "Cudadecon: GPU Accelerated 3D Image Deconvolution Using CUDA (Github; https://github.com/scopetools/cudadecon)."
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-024-02475-4"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-022-01663-4"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-024-02580-4"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.76",
+          "doi-asserted-by": "crossref",
+          "first-page": "119",
+          "DOI": "10.1007/978-1-0716-4522-2_8",
+          "article-title": "Quantifying transcription factor enrichment at target loci in live embryos",
+          "volume": "2923",
+          "year": "2025",
+          "journal-title": "Methods Mol. Biol"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.04.28.651001"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.78",
+          "unstructured": "A. Heckert , Quot: A Simple Single Molecule Tracking Pipeline with a Graphic User Interface for Quality Control (Github; https://github.com/alecheckert/quot)."
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.79",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. S. Hansen , I. Pustova , C. Cattoglio , R. Tjian , X. Darzacq , CTCF and cohesin regulate chromatin loop stability with distinct dynamics. Elife 6 (2017).",
+          "DOI": "10.7554/eLife.25776"
+        },
+        {
+          "key": "2026091716100872000_2025.04.07.647578v3.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2023.07.007"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.04.07.647578",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            17
+          ]
+        ],
+        "date-time": "2026-09-17T23:10:25Z",
+        "timestamp": 1789686625000
+      },
+      "score": 105.62547,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.04.07.647578"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            8
+          ]
+        ]
+      },
+      "references-count": 80,
+      "URL": "https://doi.org/10.1101/2025.04.07.647578",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            8
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

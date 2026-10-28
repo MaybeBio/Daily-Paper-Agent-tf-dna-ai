@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.09.627482",
+  "title": "GEMS – Enhancing Generalizable Binding Affinity Prediction by Removing Data Leakage and Integrating Language Model Embeddings into Graph Neural Networks",
+  "authors": "David Graber; Peter Stockinger; Fabian Meyer; Siddhartha Mishra; Claus Horn; Rebecca Buller",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-11",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 4,
+  "one_liner_zh": "该文聚焦蛋白-配体结合亲和力预测，虽用GNN和语言模型嵌入，但对象为蛋白-小分子而非蛋白-DNA互作，方法可迁移性有限，仅间接相关。",
+  "abstract": "The field of computational drug design requires accurate scoring functions to predict binding affinities for protein-ligand interactions. However, train-test data leakage between the PDBbind database and the CASF benchmark datasets has significantly inflated the performance metrics of currently available deep-learning-based binding affinity prediction models, leading to overestimation of their generalization capabilities. We address this issue by proposing PDBbind CleanSplit, a training dataset curated by a novel structure-based filtering algorithm that eliminates train-test data leakage as well as redundancies within the training set. Retraining current top-performing models on CleanSplit caused their benchmark performance to drop significantly, indicating that the performance of existing models is largely driven by data leakage. In contrast, our graph neural network model for efficient molecular scoring (GEMS) maintains high benchmark performance when trained on CleanSplit. Leveraging a sparse graph modeling of protein-ligand interactions and transfer learning from language models, GEMS is able to generalize to strictly independent test datasets.",
+  "abstract_zh": "计算药物设计领域需要精确的打分函数来预测蛋白质-配体相互作用的结合亲和力。然而，PDBbind数据库与CASF基准数据集之间的训练-测试数据泄漏显著夸大了当前基于深度学习的结合亲和力预测模型的性能指标，导致对其泛化能力的高估。我们通过提出PDBbind CleanSplit来解决这一问题，这是一个由新颖的基于结构的过滤算法整理的训练数据集，该算法消除了训练-测试数据泄漏以及训练集内的冗余。在CleanSplit上重新训练当前表现最佳的模型导致其基准性能显著下降，表明现有模型的性能在很大程度上由数据泄漏驱动。相比之下，我们的图神经网络模型用于高效分子打分（GEMS）在CleanSplit上训练时保持了高基准性能。利用蛋白质-配体相互作用的稀疏图建模和语言模型的迁移学习，GEMS能够泛化到严格独立的测试数据集。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.09.627482",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.09.627482",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.09.627482/index.html"
+}

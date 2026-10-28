@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40442788",
+  "title": "Integrated bioinformatics and network pharmacology to identify and validate macrophage polarization related hub genes in the treatment of osteoarthritis with Astragalus membranaceus.",
+  "authors": "Zang, Hui; Wang, Liuyan; Wu, Yang; Chang, Junfei; Liu, Wanjun",
+  "journal": "Journal of orthopaedic surgery and research",
+  "published_date": "2025-05-30",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过生物信息学与网络药理学识别骨关节炎中巨噬细胞极化相关枢纽基因，虽涉及转录因子调控网络和分子对接，但核心是基因表达与疾病关联，非蛋白质-DNA互作机制建模，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Macrophage polarization exacerbates the pathological processes of osteoarthritis (OA). Astragalus membranaceus (AM) can repair chondrocytes and serve as a protective agent for OA. Therefore, the study intended to identify macrophage polarization-related genes (MPRGs) in the treatment of OA with AM. METHODS: We utilized data from GSE57218 as training set, while GSE117999 serves as a validation set, all obtained from Gene Expression Omnibus(GEO). The MPRGs were exported from the Molecular Signatures Database. Target genes of AM were obtained by network pharmacology. Differentially expressed genes (DEGs) were identified in OA vs. control groups. Then key module genes were acquired through weighted gene co-expression network analysis (WGCNA) and intersected with DEGs and target genes of AM to obtain candidate genes. Subsequently, the candidate genes were further screened for hub genes by machine learning, receiver operating characteristic (ROC) curve analysis, and expression validation. Further, reverse transcription-quantitative real-time polymerase chain reaction (RT-qPCR) was applied to verify the mRNA expression levels of hub genes. In addition, the mechanism of these hub genes was investigated through enrichment analysis, immune microenvironment analysis, regulatory network construction, and molecular docking. RESULTS: Ultimately, 1,430 DEGs, 4,577 key module genes, and 486 target genes of AM were intersected to derive 28 candidate genes. After machine learning, ROC curve analysis and expression validation, CREBBP and PIM3 were identified. The mRNA expression of tissue CREBBP and PIM3 was significantly decreased in OA compared with the control group. Furthermore, the enrichment analysis indicated that eight pathways, including oxidative phosphorylation, were simultaneously enriched by two hub genes. Microenvironment analysis revealed negative correlations between both hub genes and 11 differential immune cells. We identified that CREBBP and PIM3 were regulated by 6 miRNAs (e.g., hsa-mir-942-5p) and 79 transcription factors (TFs) (e.g., IRF1). Molecular docking experiments indicated that isoflavone strongly bound to CREBBP, while (3R)-3-(2-hydroxy-3,4-dimethoxyphenyl) chroman-7-ol exhibited significant binding affinity for PIM3, suggesting that these two active ingredients were core components of AM in treating OA via hub genes. CONCLUSION: This study identified CREBBP and PIM3 as potential focal points for the treatment of OA with AM, providing valuable clues to help treat and predict OA. CLINICAL TRIAL NUMBER: Not applicable.",
+  "abstract_zh": "背景：巨噬细胞极化加剧了骨关节炎（osteoarthritis, OA）的病理过程。黄芪（Astragalus membranaceus, AM）能够修复软骨细胞，并作为OA的保护剂。因此，本研究旨在识别AM治疗OA中与巨噬细胞极化相关的基因（macrophage polarization-related genes, MPRGs）。方法：我们利用GSE57218数据作为训练集，GSE117999作为验证集，均来自基因表达综合数据库（Gene Expression Omnibus, GEO）。MPRGs从分子特征数据库（Molecular Signatures Database）中导出。AM的靶基因通过网络药理学获得。在OA与对照组中识别差异表达基因（differentially expressed genes, DEGs）。随后，通过加权基因共表达网络分析（weighted gene co-expression network analysis, WGCNA）获得关键模块基因，并与DEGs和AM靶基因取交集，得到候选基因。之后，通过机器学习、受试者工作特征（receiver operating characteristic, ROC）曲线分析和表达验证进一步筛选候选基因中的核心基因。此外，应用逆转录定量实时聚合酶链反应（reverse transcription-quantitative real-time polymerase chain reaction, RT-qPCR）验证核心基因的mRNA表达水平。同时，通过富集分析、免疫微环境分析、调控网络构建和分子对接研究这些核心基因的机制。结果：最终，1,430个DEGs、4,577个关键模块基因和486个AM靶基因取交集，得到28个候选基因。经过机器学习、ROC曲线分析和表达验证，识别出CREBBP和PIM3。与对照组相比，OA组织中CREBBP和PIM3的mRNA表达显著降低。此外，富集分析表明，包括氧化磷酸化在内的八条通路同时被两个核心基因富集。微环境分析显示，两个核心基因与11种差异免疫细胞均呈负相关。我们识别出CREBBP和PIM3受6个miRNA（如hsa-mir-942-5p）和79个转录因子（transcription factors, TFs）（如IRF1）调控。分子对接实验表明，异黄酮与CREBBP强结合，而(3R)-3-(2-羟基-3,4-二甲氧基苯基)色满-7-醇对PIM3表现出显著结合亲和力，提示这两种活性成分是AM通过核心基因治疗OA的核心组分。结论：本研究将CREBBP和PIM3确定为AM治疗OA的潜在焦点，为帮助治疗和预测OA提供了有价值的线索。临床试验编号：不适用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40442788/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40442788/",
+  "paper_page_path": "papers/pubmed/40442788/index.html"
+}

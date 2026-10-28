@@ -1,0 +1,433 @@
+{
+  "identity": {
+    "pmid": "42420440",
+    "doi": "10.1038/s41598-026-61161-x",
+    "title": "Integrative immunoinformatics and structural modeling for the rational design of a multi-epitope vaccine candidate against human cytomegalovirus."
+  },
+  "content": {
+    "abstract": "Human cytomegalovirus (CMV) is a globally widespread pathogen associated with significant morbidity in immunocompromised individuals. Despite its clinical importance, no licensed vaccine is currently available. This study aimed to design a rational multi-epitope vaccine candidate targeting CMV using an integrative approach combining immunoinformatics and structural biology. Viral proteins were screened to identify epitopes with high affinity for B cells, cytotoxic T cells (CTLs), and helper T cells (HTLs) using the Immune Epitope Database (IEDB). Selected epitopes were filtered according to their antigenicity and toxicity and then assembled into a chimeric construct incorporating an immunostimulatory adjuvant. The designed vaccine was evaluated for its physicochemical properties, validated by Ramchandran and ERRAT analyses. Molecular modeling demonstrated strong and stable interactions with key innate immunity receptors, including TLR7 and TLR9, interactions confirmed by molecular dynamics simulations. In silico immune simulation predicted a robust and durable immune response, characterized by high levels of IgM and IgG, as well as significant activation of CD4 + and CD8 + lymphocytes and innate immunity components. These results highlight the potential of the proposed multi-epitope construct as a promising vaccine candidate against HCMV. However, experimental validation is essential to confirm its immunogenicity, safety, and translational applicability.",
+    "keywords": [
+      "Dynamic simulation",
+      "Glycoprotein B",
+      "Human cytomegalovirus",
+      "Immune simulation",
+      "Immunoinformatics",
+      "Multiepitope vaccine"
+    ],
+    "mesh_terms": [
+      "Immunoinformatics",
+      "Humans",
+      "*Cytomegalovirus/immunology",
+      "Molecular Dynamics Simulation",
+      "Epitopes, T-Lymphocyte/immunology/chemistry",
+      "*Cytomegalovirus Vaccines/immunology/chemistry",
+      "Epitopes, B-Lymphocyte/immunology",
+      "*Cytomegalovirus Infections/immunology/prevention & control/virology",
+      "*Epitopes/immunology/chemistry",
+      "Protein Subunit Vaccines",
+      "Toll-Like Receptor 9/immunology/chemistry",
+      "Toll-Like Receptor 7/immunology/chemistry",
+      "T-Lymphocytes, Helper-Inducer/immunology",
+      "Models, Molecular",
+      "T-Lymphocytes, Cytotoxic/immunology",
+      "Viral Proteins/immunology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Emmanuel, Owona Pascal",
+        "Sandrine, Mengue Ngadena Yolande",
+        "Claude, Bilanda Danielle",
+        "Ogunlakin, Akingbolabo Daniel",
+        "Ronald, Bidingha A Goudani",
+        "Desire, Dzeufiet Djomeni Paul",
+        "Aziz, Tariq",
+        "Aljumaa, Maha A",
+        "Alkhatib, Shaza N",
+        "Sagini, Hanan Abdulrahman"
+      ],
+      "short_names": [
+        "Emmanuel OP",
+        "Sandrine MNY",
+        "Claude BD",
+        "Ogunlakin AD",
+        "Ronald BAG",
+        "Desire DDP",
+        "Aziz T",
+        "Aljumaa MA",
+        "Alkhatib SN",
+        "Sagini HA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Animal Biology and Physiology Labortaoty of Animal Physiology, Faculty of Science, University of Yaounde 1, P.O. Box 812, Yaounde, Cameroon.",
+        "Department of Animal Biology and Physiology Labortaoty of Animal Physiology, Faculty of Science, University of Yaounde 1, P.O. Box 812, Yaounde, Cameroon. yolande.mengue@univ-yaounde1.cm.",
+        "Neurosciences and Pschogerontology Axis, Labortoary of Development and Maldevelopment, Department of Psychology, Faculty of Arts, Letters, and Social Sciences, University of Yaounde 1, P.O. Box 755, Yaounde, Cameroon. yolande.mengue@univ-yaounde1.cm.",
+        "Department of Animal Biology and Physiology Labortaoty of Animal Physiology, Faculty of Science, University of Yaounde 1, P.O. Box 812, Yaounde, Cameroon.",
+        "Phytomedicine and Drug Discovery Research Labortoary (PDD-RL), Biochemistry Programme, Bowen Univeristy, Iwo, 232101, Nigeria.",
+        "Department of Animal Biology and Physiology Labortaoty of Animal Physiology, Faculty of Science, University of Yaounde 1, P.O. Box 812, Yaounde, Cameroon.",
+        "Department of Animal Biology and Physiology Labortaoty of Animal Physiology, Faculty of Science, University of Yaounde 1, P.O. Box 812, Yaounde, Cameroon.",
+        "Biodiversity Genomics Unit, University of Tabuk, 71491, Tabuk, Saudi Arabia. tariqckd@ut.edu.sa.",
+        "Department of Biology, College of Science, Princess Nourah bint Abdulrahman University, P.O. Box 84428, Riyadh 11671, Saudi Arabia.",
+        "Department of Biological Sciences, College of Sciences and Arts Khulais, University of Jeddah, 21959, Jeddah, Saudi Arabia.",
+        "Department of Biological Sciences, College of Sciences and Arts Khulais, University of Jeddah, 21959, Jeddah, Saudi Arabia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Emmanuel, Owona Pascal",
+        "short_name": "Emmanuel OP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Animal Biology and Physiology Labortaoty of Animal Physiology, Faculty of Science, University of Yaoundé 1, P.O. Box 812, Yaoundé, Cameroon."
+        ]
+      },
+      {
+        "full_name": "Sandrine, Mengue Ngadena Yolande",
+        "short_name": "Sandrine MNY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Animal Biology and Physiology Labortaoty of Animal Physiology, Faculty of Science, University of Yaoundé 1, P.O. Box 812, Yaoundé, Cameroon. yolande.mengue@univ-yaounde1.cm.",
+          "Neurosciences and Pschogerontology Axis, Labortoary of Development and Maldevelopment, Department of Psychology, Faculty of Arts, Letters, and Social Sciences, University of Yaoundé 1, P.O. Box 755, Yaoundé, Cameroon. yolande.mengue@univ-yaounde1.cm."
+        ]
+      },
+      {
+        "full_name": "Claude, Bilanda Danielle",
+        "short_name": "Claude BD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Animal Biology and Physiology Labortaoty of Animal Physiology, Faculty of Science, University of Yaoundé 1, P.O. Box 812, Yaoundé, Cameroon."
+        ]
+      },
+      {
+        "full_name": "Ogunlakin, Akingbolabo Daniel",
+        "short_name": "Ogunlakin AD",
+        "identifiers": [],
+        "affiliations": [
+          "Phytomedicine and Drug Discovery Research Labortoary (PDD-RL), Biochemistry Programme, Bowen Univeristy, Iwo, 232101, Nigeria."
+        ]
+      },
+      {
+        "full_name": "Ronald, Bidingha A Goudani",
+        "short_name": "Ronald BAG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Animal Biology and Physiology Labortaoty of Animal Physiology, Faculty of Science, University of Yaoundé 1, P.O. Box 812, Yaoundé, Cameroon."
+        ]
+      },
+      {
+        "full_name": "Desire, Dzeufiet Djomeni Paul",
+        "short_name": "Desire DDP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Animal Biology and Physiology Labortaoty of Animal Physiology, Faculty of Science, University of Yaoundé 1, P.O. Box 812, Yaoundé, Cameroon."
+        ]
+      },
+      {
+        "full_name": "Aziz, Tariq",
+        "short_name": "Aziz T",
+        "identifiers": [],
+        "affiliations": [
+          "Biodiversity Genomics Unit, University of Tabuk, 71491, Tabuk, Saudi Arabia. tariqckd@ut.edu.sa."
+        ]
+      },
+      {
+        "full_name": "Aljumaa, Maha A",
+        "short_name": "Aljumaa MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, College of Science, Princess Nourah bint Abdulrahman University, P.O. Box 84428, Riyadh 11671, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alkhatib, Shaza N",
+        "short_name": "Alkhatib SN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, College of Sciences and Arts Khulais, University of Jeddah, 21959, Jeddah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Sagini, Hanan Abdulrahman",
+        "short_name": "Sagini HA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, College of Sciences and Arts Khulais, University of Jeddah, 21959, Jeddah, Saudi Arabia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Jul 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/09 00:40",
+    "fetched_at": "2026-10-05 05:43:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42154343",
+      "41888215",
+      "41706189",
+      "41624836",
+      "41526444",
+      "41309872",
+      "41104257",
+      "41054971",
+      "41023073",
+      "41012637",
+      "40906155",
+      "40818522",
+      "40730765",
+      "40634976",
+      "40617889",
+      "40594603",
+      "40545055",
+      "40463364",
+      "40432047",
+      "40431317",
+      "40426792",
+      "40348967",
+      "40338082",
+      "40266107",
+      "40264020",
+      "40263512",
+      "40114673",
+      "39367276",
+      "39211182",
+      "39090739",
+      "39003966",
+      "38827513",
+      "38813410",
+      "38812301",
+      "38790347",
+      "38780076",
+      "38704475",
+      "38512798",
+      "38247977",
+      "37972669",
+      "37940672",
+      "37937610",
+      "37894030",
+      "37539837",
+      "37519944",
+      "37376657",
+      "37033915",
+      "36851082",
+      "36823200",
+      "36733703",
+      "36476317",
+      "36050659",
+      "36040967",
+      "35754052",
+      "35595541",
+      "35576833",
+      "35418729",
+      "35215078",
+      "34945725",
+      "34931120",
+      "33828922",
+      "33252008",
+      "33201237",
+      "32397070",
+      "32203790",
+      "32102449",
+      "32082326",
+      "31735553",
+      "31683687",
+      "31427511",
+      "30656066",
+      "30137245",
+      "30014462",
+      "29528415",
+      "29528265",
+      "28978689",
+      "28096606",
+      "27482452",
+      "26999763",
+      "26539197",
+      "26363059",
+      "26345608",
+      "25393493",
+      "25132454",
+      "23736286",
+      "23486614",
+      "23133379",
+      "23089254",
+      "22988104",
+      "21919503",
+      "21827431",
+      "19193805",
+      "17897458",
+      "17207271",
+      "15980527",
+      "11152613",
+      "9266998",
+      "1702393"
+    ],
+    "similar": [
+      "42420440",
+      "41381008",
+      "41915177",
+      "42148102",
+      "42250659",
+      "41897006",
+      "41444309",
+      "42436212",
+      "41949632",
+      "42445188",
+      "42676359",
+      "39325755",
+      "40830404",
+      "41534429",
+      "42192530",
+      "42035012",
+      "40730055",
+      "41028278",
+      "39936152",
+      "41593466",
+      "40739488",
+      "41593501",
+      "42013568",
+      "42113364",
+      "42237149",
+      "37774751",
+      "41706189",
+      "40698087",
+      "42417153",
+      "32165246",
+      "34326355",
+      "42151414",
+      "37874075",
+      "41629588",
+      "41083417",
+      "40056072",
+      "41252394",
+      "41343928",
+      "41888215",
+      "41905024",
+      "42025584",
+      "39623035",
+      "32119992",
+      "41791311",
+      "41792674",
+      "42168870",
+      "40957351",
+      "41303441",
+      "42047888",
+      "41888661",
+      "40959094",
+      "41510929",
+      "39792829",
+      "38938443",
+      "40134009",
+      "31394292",
+      "42589673",
+      "41023772",
+      "41822585",
+      "38780076",
+      "38486475",
+      "39339884",
+      "41112949",
+      "41196893",
+      "40401430",
+      "41274916",
+      "42102528",
+      "34611250",
+      "41360964",
+      "34542663",
+      "32379348",
+      "33547334",
+      "41357246",
+      "37288800",
+      "41746998",
+      "39258802",
+      "40829349",
+      "42439548",
+      "42035672",
+      "41484553",
+      "37146081",
+      "32849643",
+      "40782386",
+      "39840071",
+      "41981401",
+      "41931545",
+      "40665184",
+      "37309762",
+      "42213354",
+      "36845087",
+      "39003966",
+      "37723861",
+      "40226615",
+      "40463368",
+      "41674438",
+      "39621646",
+      "41757946",
+      "39521154",
+      "42370403",
+      "39611932"
+    ],
+    "review": [
+      "42420440"
+    ],
+    "pmc": [
+      "13376409"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cytomegalovirusinfections.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cytomegalovirus Infections"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-026-61161-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42420440/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cytomegalovirusinfections.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cytomegalovirus Infections"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "identity": {
+    "pmid": "41594554",
+    "doi": "10.3390/biom16010012",
+    "title": "Machine Learning-Based Virtual Screening for the Identification of Novel CDK-9 Inhibitors."
+  },
+  "content": {
+    "abstract": "Cyclin-dependent kinase 9 (CDK9) is a key regulator of transcriptional elongation and DNA repair, supporting cancer cell survival by sustaining the expression of oncogenes and anti-apoptotic proteins. Its overexpression in multiple malignancies makes it an attractive target for anticancer therapy. Here, we report a machine learning (ML) based approach to identify novel CDK9 inhibitors. Through systematic data collection and preprocessing, seventy predictive models were developed using five algorithms, two classification settings, and seven molecular representations. The best-performing model was employed to guide a virtual screening (VS) campaign, resulting in the identification of 14 compounds promising for their potential inhibitory effect. Upon enzymatic assays, two molecules with inhibitory activity in the low micromolar range were selected as promising candidates and further tested in three cancer cell lines with distinct genetic backgrounds. These experiments led to the identification of a novel compound exhibiting interesting therapeutic potential, both as a single agent and in combination with Camptothecin (CPT), revealing varying response profiles across the tested cell lines. These results illustrate the power of integrating ML within anticancer drug discovery pipelines and represent a valuable starting point for the development of novel CDK9 inhibitors.",
+    "keywords": [
+      "cancer therapy",
+      "cyclin-dependent kinase 9",
+      "drug discovery",
+      "machine learning",
+      "virtual screening"
+    ],
+    "mesh_terms": [
+      "*Cyclin-Dependent Kinase 9/antagonists & inhibitors/metabolism/chemistry",
+      "Humans",
+      "*Machine Learning",
+      "*Protein Kinase Inhibitors/pharmacology/chemistry",
+      "Cell Line, Tumor",
+      "*Antineoplastic Agents/pharmacology/chemistry",
+      "Drug Discovery",
+      "Camptothecin/pharmacology",
+      "Drug Screening Assays, Antitumor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Piazza, Lisa",
+        "Poles, Clarissa",
+        "Bononi, Giulia",
+        "Granchi, Carlotta",
+        "Di Stefano, Miriana",
+        "Poli, Giulio",
+        "Giordano, Antonio",
+        "Medugno, Annamaria",
+        "Napolitano, Giuseppe Maria",
+        "Tuccinardi, Tiziano",
+        "Alfano, Luigi"
+      ],
+      "short_names": [
+        "Piazza L",
+        "Poles C",
+        "Bononi G",
+        "Granchi C",
+        "Di Stefano M",
+        "Poli G",
+        "Giordano A",
+        "Medugno A",
+        "Napolitano GM",
+        "Tuccinardi T",
+        "Alfano L"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-5062-4590",
+        "ORCID: 0009-0008-6947-7903",
+        "ORCID: 0000-0002-4336-4344",
+        "ORCID: 0000-0002-5849-0722",
+        "ORCID: 0000-0001-6727-5816",
+        "ORCID: 0000-0002-5959-016X",
+        "ORCID: 0009-0009-5241-7784",
+        "ORCID: 0000-0002-6205-4069",
+        "ORCID: 0000-0002-4516-9956"
+      ],
+      "affiliations": [
+        "Department of Pharmacy, University of Pisa, 56126 Pisa, Italy.",
+        "Genomics and Experimental Medicine Program, Scuola Superiore Meridionale (SSM, School of Advanced Studies), Via Mezzocannone 4, 80078 Napoli, Italy.",
+        "Telethon Institute of Genetics and Medicine, Via Campi Flegrei 34, 80078 Napoli, Italy.",
+        "Department of Pharmacy, University of Pisa, 56126 Pisa, Italy.",
+        "Department of Pharmacy, University of Pisa, 56126 Pisa, Italy.",
+        "Department of Pharmacy, University of Pisa, 56126 Pisa, Italy.",
+        "Department of Pharmacy, University of Pisa, 56126 Pisa, Italy.",
+        "Sbarro Institute for Cancer Research and Molecular Medicine, Center for Biotechnology, College of Science and Technology, Temple University, Philadelphia, PA 19122, USA.",
+        "Department of Medical Biotechnologies, University of Siena, 53100 Siena, Italy.",
+        "Clinical and Translational Oncology Program, Scuola Superiore Meridionale (SSM, School of Advanced Studies), University of Naples Federico II, 80131 Napoli, Italy.",
+        "Department of Pharmacy, University of Pisa, 56126 Pisa, Italy.",
+        "Consorzio Interuniversitario Nazionale per la Scienza e Tecnologia dei Materiali (INSTM), 50121 Firenze, Italy.",
+        "Department of Breast and Thoracic Oncology, Istituto Nazionale Tumori-IRCCS-Fondazione G. Pascale, 80131 Napoli, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Piazza, Lisa",
+        "short_name": "Piazza L",
+        "identifiers": [
+          "0009-0007-5062-4590"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, University of Pisa, 56126 Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Poles, Clarissa",
+        "short_name": "Poles C",
+        "identifiers": [
+          "0009-0008-6947-7903"
+        ],
+        "affiliations": [
+          "Genomics and Experimental Medicine Program, Scuola Superiore Meridionale (SSM, School of Advanced Studies), Via Mezzocannone 4, 80078 Napoli, Italy.",
+          "Telethon Institute of Genetics and Medicine, Via Campi Flegrei 34, 80078 Napoli, Italy."
+        ]
+      },
+      {
+        "full_name": "Bononi, Giulia",
+        "short_name": "Bononi G",
+        "identifiers": [
+          "0000-0002-4336-4344"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, University of Pisa, 56126 Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Granchi, Carlotta",
+        "short_name": "Granchi C",
+        "identifiers": [
+          "0000-0002-5849-0722"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, University of Pisa, 56126 Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Di Stefano, Miriana",
+        "short_name": "Di Stefano M",
+        "identifiers": [
+          "0000-0001-6727-5816"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, University of Pisa, 56126 Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Poli, Giulio",
+        "short_name": "Poli G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, University of Pisa, 56126 Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Giordano, Antonio",
+        "short_name": "Giordano A",
+        "identifiers": [
+          "0000-0002-5959-016X"
+        ],
+        "affiliations": [
+          "Sbarro Institute for Cancer Research and Molecular Medicine, Center for Biotechnology, College of Science and Technology, Temple University, Philadelphia, PA 19122, USA."
+        ]
+      },
+      {
+        "full_name": "Medugno, Annamaria",
+        "short_name": "Medugno A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biotechnologies, University of Siena, 53100 Siena, Italy."
+        ]
+      },
+      {
+        "full_name": "Napolitano, Giuseppe Maria",
+        "short_name": "Napolitano GM",
+        "identifiers": [
+          "0009-0009-5241-7784"
+        ],
+        "affiliations": [
+          "Clinical and Translational Oncology Program, Scuola Superiore Meridionale (SSM, School of Advanced Studies), University of Naples Federico II, 80131 Napoli, Italy."
+        ]
+      },
+      {
+        "full_name": "Tuccinardi, Tiziano",
+        "short_name": "Tuccinardi T",
+        "identifiers": [
+          "0000-0002-6205-4069"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, University of Pisa, 56126 Pisa, Italy.",
+          "Consorzio Interuniversitario Nazionale per la Scienza e Tecnologia dei Materiali (INSTM), 50121 Firenze, Italy."
+        ]
+      },
+      {
+        "full_name": "Alfano, Luigi",
+        "short_name": "Alfano L",
+        "identifiers": [
+          "0000-0002-4516-9956"
+        ],
+        "affiliations": [
+          "Department of Breast and Thoracic Oncology, Istituto Nazionale Tumori-IRCCS-Fondazione G. Pascale, 80131 Napoli, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2025 Dec 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/28 07:48",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [
+      "42072712",
+      "42049837"
+    ],
+    "refs": [
+      "40732296",
+      "40230495",
+      "40076779",
+      "39382779",
+      "39127153",
+      "39012568",
+      "38433256",
+      "38139062",
+      "37595065",
+      "37358197",
+      "36854448",
+      "36142566",
+      "36087428",
+      "34146121",
+      "34062779",
+      "34041038",
+      "33118813",
+      "32781071",
+      "31972093",
+      "30398643",
+      "30227759",
+      "30146162",
+      "28588725",
+      "27511630",
+      "26052348",
+      "23688234",
+      "22941631",
+      "19757441",
+      "17965729",
+      "16200636",
+      "16157471",
+      "1180967"
+    ],
+    "similar": [
+      "41594554",
+      "42049837",
+      "32781071",
+      "36087428",
+      "40994189",
+      "38174383",
+      "39808974",
+      "33484942",
+      "41381639",
+      "40403644",
+      "40383016",
+      "39947055",
+      "31376566",
+      "38878756",
+      "40544651",
+      "42133861",
+      "39222890",
+      "38685605",
+      "39012568",
+      "39178382",
+      "34500757",
+      "31262335",
+      "30293817",
+      "35127160",
+      "41086724",
+      "41066447",
+      "41161068",
+      "40215944",
+      "41111131",
+      "33581551",
+      "32770459",
+      "39406109",
+      "36562191",
+      "41558197",
+      "32400188",
+      "27171036",
+      "32447197",
+      "32781872",
+      "33895280",
+      "41886307",
+      "41240473",
+      "32645016",
+      "34477384",
+      "33158998",
+      "34264057",
+      "39225211",
+      "28651979",
+      "40360829",
+      "38885173",
+      "30025343",
+      "33353031",
+      "39368143",
+      "41920244",
+      "23185312",
+      "39753983",
+      "28800675",
+      "41720062",
+      "24445865",
+      "21333571",
+      "39639305",
+      "31827241",
+      "41589601",
+      "22964485",
+      "41940903",
+      "40946432",
+      "39787913",
+      "41945974",
+      "25648320",
+      "34555628",
+      "19616371",
+      "38344942",
+      "40163988",
+      "41408267",
+      "37837671",
+      "39868843",
+      "34861473",
+      "41499056",
+      "31254921",
+      "24911186",
+      "39267257",
+      "42176658",
+      "30253346",
+      "40198818",
+      "36332552",
+      "32320841",
+      "29144137",
+      "33632038",
+      "40578250",
+      "41410431",
+      "33896272",
+      "41033076",
+      "31991336",
+      "33103497",
+      "40997620",
+      "40670559",
+      "39368145",
+      "27165605",
+      "41633197",
+      "32866383",
+      "39888255"
+    ],
+    "review": [
+      "41594554",
+      "39267257",
+      "33632038"
+    ],
+    "pmc": [
+      "12839014"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom16010012",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41594554/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1602",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

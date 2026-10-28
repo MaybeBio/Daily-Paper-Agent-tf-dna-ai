@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.13.653852",
+  "title": "Biophysical Modeling Uncovers Transcription Factor and Nucleosome Binding on Single DNA Molecules",
+  "authors": "Lasha Dalakishvili; Husain Managori; Anaïs Bardet; Věra Slaninová; Edouard Bertrand; Nacho Molina",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-16",
+  "window": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用统计力学概率模型从单分子甲基化数据推断TF、核小体和Pol II占据，虽非AI/物理模拟方法，但聚焦TF-DNA结合与互作机制建模，对课题有参考价值。",
+  "abstract": "Gene regulation in eukaryotes emerges from a dynamic interplay between transcription factors (TFs), nucleosomes, and RNA Polymerase II (Pol II), whose competitive and cooperative binding shapes DNA accessibility and transcriptional output. Single-molecule footprinting (SMF) and long-read chromatin accessibility assays such as Fiber-seq now capture these interactions at nucleotide resolution on individual DNA molecules. However, existing computational tools remain insufficient to decode complex binding events from sparse methylation data. Here, we introduce HiddenFoot, a probabilistic modeling framework based on statistical mechanics that quantitatively infers TF, nucleosome, and Pol II occupancy profiles on single DNA molecules by systematically evaluating all thermodynamically plausible binding configurations. Applying HiddenFoot to SMF and Fiber-seq data from mouse, Drosophila , and human cells, we recovered known TF footprints, precisely resolved Pol II pausing, and identified extensive heterogeneity in nucleosome positioning driven by TF binding. HiddenFoot further distinguishes direct TF–TF cooperativity from nucleosome-mediated co-dependency by estimating pairwise interaction energies and comparing to null models under equilibrium. By integrating biophysical modeling with high-resolution single-molecule data, HiddenFoot offers a general, interpretable framework for dissecting regulatory logic in native chromatin with base-pair precision. Abstract Figure",
+  "abstract_zh": "真核生物中的基因调控源于转录因子（TFs）、核小体和RNA聚合酶II（Pol II）之间的动态相互作用，其竞争性与协同性结合塑造了DNA的可及性和转录输出。单分子足迹分析（SMF）和长读长染色质可及性检测技术（如Fiber-seq）现已在单个DNA分子上以核苷酸分辨率捕获这些相互作用。然而，现有计算工具仍不足以从稀疏甲基化数据中解码复杂的结合事件。在此，我们引入HiddenFoot，一种基于统计力学的概率建模框架，通过系统评估所有热力学上合理的结合构型，定量推断单个DNA分子上的TF、核小体和Pol II占据谱。将HiddenFoot应用于来自小鼠、果蝇和人类细胞的SMF和Fiber-seq数据，我们恢复了已知的TF足迹，精确解析了Pol II暂停，并识别了由TF结合驱动的核小体定位中的广泛异质性。HiddenFoot通过估计成对相互作用能并与平衡态下的零模型比较，进一步区分直接的TF–TF协同性与核小体介导的共依赖性。通过将生物物理建模与高分辨率单分子数据相结合，HiddenFoot提供了一个通用、可解释的框架，用于以碱基对精度解析天然染色质中的调控逻辑。摘要图",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653852",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653852",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.13.653852/index.html"
+}

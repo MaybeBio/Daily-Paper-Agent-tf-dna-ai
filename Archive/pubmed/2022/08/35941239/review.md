@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce scBasset, a sequence-based convolutional neural network for modeling single-cell ATAC-seq data, and claim state-of-the-art performance across cell clustering, profile denoising, data integration across assays, and transcription factor activity inference on scATAC and single-cell multiome datasets.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, dataset descriptions, or methodological specifications are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, benchmark definitions, dataset accession details, and code availability information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to the single-cell epigenomics field, addressing a real need for sequence-aware modeling of sparse scATAC data. The claimed breadth of applications is ambitious and, if substantiated, would be of considerable interest. However, the abstract alone provides no quantitative evidence, no comparison details, and no methodological specifics. The core claims of state-of-the-art performance cannot be evaluated from the supplied material. The work may be technically sound, but the case is not established at this level of evidence.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing and applying deep learning methods to single-cell genomics; experimental researchers using scATAC-seq or single-cell multiome assays who need improved tools for clustering, denoising, integration, and regulatory inference. The sequence-based approach may also interest researchers studying cis-regulatory grammar and transcription factor biology.
+- **Major strengths** The problem addressed is timely and important, given the known challenges of sparsity and dimensionality in scATAC data. Leveraging DNA sequence information is a conceptually appealing strategy that could provide biological interpretability beyond purely statistical approaches. The claimed scope of applications, if all validated, would represent a versatile tool with broad utility.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims "state-of-the-art performance across a variety of tasks on scATAC and single-cell multiome datasets, including cell clustering, scATAC profile denoising, data integration across assays and transcription factor activity inference."
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative results provided
+  - **Concern** The central claim of state-of-the-art performance is made without any supporting quantitative data in the abstract. No metrics, no baseline comparisons, no dataset names, and no statistical significance measures are presented. The phrase "state-of-the-art" is a strong comparative claim that requires explicit benchmarking against existing methods.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess whether the improvement over existing tools is meaningful, marginal, or possibly nonexistent. The claim of state-of-the-art performance is the primary basis for the paper's significance, and it is currently unsupported.
+  - **Resolution test** Provide benchmark results with clear metrics (e.g., adjusted Rand index for clustering, accuracy or correlation for denoising, integration metrics, and motif enrichment or activity correlation for TF inference) comparing scBasset against at least two established methods on multiple public datasets, with error bars or significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract describes scBasset as "a sequence-based convolutional neural network method" but provides no architectural details, training procedure, or input representation.
+  - **Evidence pointer** Abstract only; methods section not provided
+  - **Concern** The abstract does not specify the model architecture, the sequence context length, the training strategy, how peaks are defined or selected, how the model handles the sparsity of scATAC data, or how the model outputs are used for each of the four claimed tasks. Without these details, the method cannot be reproduced or even fully understood.
+  - **Why it matters** Reproducibility is a core requirement for methods papers. The lack of any methodological detail in the abstract, while not unusual for an abstract, becomes a blocking issue when the full manuscript is not available for assessment. The reviewer cannot determine whether the approach is novel or an incremental modification of existing sequence models.
+  - **Resolution test** Provide a complete methods section describing the architecture, hyperparameters, training data construction, and task-specific output layers. Ideally include a schematic figure and code availability statement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability and validation scope
+  - **Claim pointer** The abstract claims performance "across a variety of tasks on scATAC and single-cell multiome datasets" without specifying the number, type, or diversity of datasets used.
+  - **Evidence pointer** Abstract only; dataset descriptions not provided
+  - **Concern** The abstract does not state how many datasets were used, what tissues or cell types were represented, what platforms generated the data, or whether the evaluation included both scATAC-seq and multiome (simultaneous RNA and ATAC) data. The claim of generalizability across "a variety of tasks" and "datasets" is therefore unverifiable.
+  - **Why it matters** Single-cell ATAC data quality and characteristics vary substantially across protocols, tissues, and sequencing depths. A method that works well on one or two datasets may not generalize. The breadth of validation directly affects the credibility of the generalizability claim.
+  - **Resolution test** Specify the number and diversity of datasets used for each task, including tissue types, cell counts, sequencing platforms, and whether multiome data were used for integration tasks. Provide results stratified by dataset to demonstrate consistent performance.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** "sequence-based convolutional neural network method"
+  - **Evidence pointer** Abstract, first sentence of methods description
+  - **Issue** The term "sequence-based" is used without specifying whether the input is the DNA sequence of peak regions, flanking regions, or genome-wide windows. The distinction matters for understanding what information the model uses.
+  - **Required correction** Clarify in the abstract or methods what genomic regions are used as input and how they are defined relative to accessibility peaks.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of application list
+  - **Affected element** "transcription factor activity inference"
+  - **Evidence pointer** Abstract, list of applications
+  - **Issue** The abstract does not explain how transcription factor activity is inferred from the model, whether through motif scanning, attribution analysis, or another approach. This is a key interpretability claim that needs at least a brief explanation.
+  - **Required correction** Add a sentence in the abstract or methods describing the mechanism for TF activity inference, such as using model gradients or attention weights over known motifs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison fairness
+  - **Affected element** "state-of-the-art performance"
+  - **Evidence pointer** Abstract, performance claim
+  - **Issue** The abstract does not name the methods against which scBasset was compared. Without this information, the reader cannot judge whether the comparisons were against strong, current baselines or weak, outdated ones.
+  - **Required correction** Name at least the primary baseline methods in the abstract or clearly state that full comparisons are provided in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence for state-of-the-art claim), R1-M2 (no methodological detail for reproducibility), R1-M3 (no dataset diversity information for generalizability claim). These are not technical failings in the method itself but failings in the evidence provided to the reviewer.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of applying sequence-based deep learning to single-cell ATAC data is not entirely new, but the specific combination of tasks and the claimed breadth may offer a novel contribution. This cannot be fully assessed without the methods and related work discussion.
+  - Scientific importance: If the claims hold, the work would be important for the single-cell epigenomics community, providing a unified tool for multiple downstream analyses. The importance is plausible but not demonstrated at the abstract level.
+  - Interdisciplinary readership: The work sits at the intersection of deep learning, genomics, and epigenetics, and would appeal to readers across these fields. The abstract is written accessibly for this audience.
+  - Technical soundness: Cannot be assessed from the abstract alone. No architectural details, training procedures, or evaluation protocols are provided.
+  - Readability for nonspecialists: The abstract is clear and concise, using standard terminology. A nonspecialist would understand the problem and the proposed approach, though the technical details are absent.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially valuable method, but the absence of quantitative results, methodological details, and dataset information prevents any assessment of whether the claims are justified. A decision would require the full manuscript, and even then, the state-of-the-art claim would need careful scrutiny of the benchmarking methodology.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art performance" is unsupported by any quantitative data in the provided material.
+- The claim of effectiveness "across a variety of tasks" is unsupported without dataset descriptions and per-task results.
+- The generalizability of the method to diverse scATAC and multiome datasets is unverifiable from the abstract alone.
+- The methodological novelty of the approach cannot be assessed without the methods section and comparison to prior sequence-based models.

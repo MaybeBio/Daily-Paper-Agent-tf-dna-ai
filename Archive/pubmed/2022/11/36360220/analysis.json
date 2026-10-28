@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36360220",
+  "title": "DeepNup: Prediction of Nucleosome Positioning from DNA Sequences Using Deep Neural Network.",
+  "authors": "Zhou, Yiting; Wu, Tingfang; Jiang, Yelu; Li, Yan; Li, Kailong; Quan, Lijun; Lyu, Qiang",
+  "journal": "Genes",
+  "published_date": "2022-11-12",
+  "window": {
+    "start": "2022-11-07",
+    "end": "2022-11-13"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度神经网络从DNA序列预测核小体定位，虽涉及DNA与蛋白结合的可及性，但核心是核小体序列预测而非TF-DNA互作建模，方法可迁移但对象和互作轴匹配度一般。",
+  "abstract": "Nucleosome positioning is involved in diverse cellular biological processes by regulating the accessibility of DNA sequences to DNA-binding proteins and plays a vital role. Previous studies have manifested that the intrinsic preference of nucleosomes for DNA sequences may play a dominant role in nucleosome positioning. As a consequence, it is nontrivial to develop computational methods only based on DNA sequence information to accurately identify nucleosome positioning, and thus intend to verify the contribution of DNA sequences responsible for nucleosome positioning. In this work, we propose a new deep learning-based method, named DeepNup, which enables us to improve the prediction of nucleosome positioning only from DNA sequences. Specifically, we first use a hybrid feature encoding scheme that combines One-hot encoding and Trinucleotide composition encoding to encode raw DNA sequences; afterwards, we employ multiscale convolutional neural network modules that consist of two parallel convolution kernels with different sizes and gated recurrent units to effectively learn the local and global correlation feature representations; lastly, we use a fully connected layer and a sigmoid unit serving as a classifier to integrate these learned high-order feature representations and generate the final prediction outcomes. By comparing the experimental evaluation metrics on two benchmark nucleosome positioning datasets, DeepNup achieves a better performance for nucleosome positioning prediction than that of several state-of-the-art methods. These results demonstrate that DeepNup is a powerful deep learning-based tool that enables one to accurately identify potential nucleosome sequences.",
+  "abstract_zh": "核小体定位通过调控DNA序列对DNA结合蛋白的可及性，参与多种细胞生物学过程，并发挥重要作用。已有研究表明，核小体对DNA序列的内在偏好可能在核小体定位中起主导作用。因此，仅基于DNA序列信息开发计算方法以准确识别核小体定位并非易事，旨在验证DNA序列对核小体定位的贡献。在本研究中，我们提出了一种新的基于深度学习的方法，命名为DeepNup，该方法能够仅从DNA序列改进核小体定位的预测。具体而言，我们首先采用一种混合特征编码方案，结合One-hot编码和Trinucleotide composition编码来编码原始DNA序列；随后，我们使用由两个不同大小的并行卷积核和门控循环单元组成的多尺度卷积神经网络模块，以有效学习局部和全局相关性特征表示；最后，我们使用全连接层和sigmoid单元作为分类器，整合这些学习到的高阶特征表示并生成最终预测结果。通过在两个基准核小体定位数据集上比较实验评估指标，DeepNup在核小体定位预测方面取得了优于多种最先进方法的性能。这些结果表明，DeepNup是一种强大的基于深度学习的工具，能够准确识别潜在的核小体序列。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36360220/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36360220/",
+  "paper_page_path": "papers/pubmed/36360220/index.html"
+}

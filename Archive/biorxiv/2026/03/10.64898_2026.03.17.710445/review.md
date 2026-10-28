@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Discussion, Methods, Data/Code availability, Acknowledgments)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the provided text; no external verification of data or code
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered region (IDR) of the transcription factor ComK controls allosteric communication between two distant DNA binding sites by amplifying microsecond-scale structural fluctuations in the DNA. They combine single-molecule FRET, cryo-EM, coarse-grained simulations, and elastic network models to support a model of "dynamic allostery" mediated by weak, transient IDR-DNA contacts.
+- **Visible evidence base** Abstract; Discussion; Methods sections for DNA labelling, smFRET, cryo-EM, SRCD, coarse-grained simulations, and elastic network models; Data availability (one EMDB deposition); Code availability
+- **Missing materials affecting confidence** Main text figures and extended data figures/tables are referenced but not provided; no results section with detailed quantitative outcomes; no supplementary information; no statistical analysis details; no raw data or fitting residuals; no validation metrics for cryo-EM maps beyond a single resolution value
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a fundamental and timely question in biophysics: how allostery propagates through DNA and what role protein disorder plays in this process. The combination of experimental and computational approaches is ambitious and potentially powerful. However, the provided text is largely a methods-heavy description with the key results summarized in the abstract and discussion. The central claims, particularly the causal link between IDR-induced DNA flexibility and inter-box cooperativity, are plausible but not fully established from the evidence presented. The manuscript would benefit from clearer presentation of quantitative results, control experiments, and a more critical discussion of alternative explanations.
+- **Who would be interested in the results, and why** Researchers in biophysics, structural biology, and gene regulation would find this work of interest. Specifically, those studying allostery, transcription factor dynamics, intrinsically disordered proteins, and DNA mechanics would value the proposed mechanism. The work also speaks to the broader community interested in how protein disorder contributes to function, a topic of growing importance.
+- **Major strengths** 1) The question is important and the system is well-chosen, with a natural allosteric DNA-binding protein. 2) The multi-technique approach (smFRET, cryo-EM, simulations) is powerful and appropriate for studying dynamics across length and time scales. 3) The authors address a key limitation of cryo-EM (temperature) by complementing it with room-temperature solution measurements. 4) The use of a Pauling allostery model to quantify coupling free energy is a rigorous framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for causal claim
+  - **Claim pointer** "We found that binding of the transcription factor ComK amplifies intrinsic microsecond structural fluctuations in DNA many nanometers distant from the binding site. Yet, it is not protein binding per se, but the intrinsically disordered region (IDR) of the protein that amplifies these fluctuations."
+  - **Evidence pointer** Abstract; Figure 4 (referenced); Figure 5 (referenced); Methods (smFRET, FECS)
+  - **Concern** The central claim that the IDR specifically, rather than the folded domain of ComK, is responsible for the increased DNA flexibility is not directly supported by a comparative experiment. The authors compare wild-type ComK to ComKΔ (IDR removed), but this comparison conflates the loss of the IDR with potential structural changes in the folded domain upon truncation. A more direct test would involve adding back the IDR in trans or using a point mutant that disrupts IDR-DNA contacts without removing the entire region.
+  - **Why it matters** The entire mechanistic model rests on the IDR being the causative agent. If the effect is due to a conformational change in the folded domain or a general destabilization of the complex upon truncation, the proposed role of IDRs would be incorrect.
+  - **Resolution test** Provide a control where the IDR is added back in trans (e.g., as a separate peptide) or where specific IDR residues predicted to contact DNA are mutated. Show that these manipulations restore or abolish the flexibility enhancement, respectively.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support for dynamic allostery model
+  - **Claim pointer** "A dynamic allostery model can now be pictured in which ComK-binding to the first box increases the flexibility of the DNA, which loosens steric constraints at the distant box and permits a preferential binding of the second pair of ComKs."
+  - **Evidence pointer** Abstract; Figure 4 (referenced); Figure 5 (referenced); Methods (FECS, distance distribution analysis)
+  - **Concern** The quantitative link between the measured flexibility changes and the thermodynamic coupling free energy (ΔG_J = −5.6 ± 1 k_BT) is not established. The authors report increased fluctuations in the spacer region with wild-type ComK, but do not show how this translates into a change in binding free energy at the second box. A quantitative model connecting the two would strengthen the claim.
+  - **Why it matters** The Pauling model provides a thermodynamic description of cooperativity, but the dynamic allostery model is a mechanistic proposal. Without a quantitative bridge, the connection between the observed dynamics and the measured cooperativity remains correlative.
+  - **Resolution test** Develop a quantitative model that relates the measured flexibility (e.g., from FECS amplitudes) to the binding free energy at the second box, and show that this model can reproduce the experimentally determined ΔG_J.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the mechanism
+  - **Claim pointer** "Given the prevalence of IDRs in transcription factors, dynamic allostery caused by weak and transient contacts of IDRs with DNA might be a general mechanism to generate binding cooperativity in gene expression processes."
+  - **Evidence pointer** Discussion
+  - **Concern** The generalization to other transcription factors is speculative and not supported by data presented in this manuscript. The authors do not provide evidence that other IDR-containing TFs exhibit similar effects on DNA flexibility or that the mechanism is conserved.
+  - **Why it matters** The broader significance of the work depends on its generalizability. Without evidence from other systems, the claim remains a hypothesis.
+  - **Resolution test** Provide a brief analysis of other IDR-containing TFs (e.g., sequence analysis, existing structural or dynamics data) that supports the plausibility of the mechanism, or temper the claim to be more clearly speculative.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** FECS analysis
+  - **Evidence pointer** Methods (FECS)
+  - **Issue** The description of the FECS method is brief and the equation is not fully explained. The reader is referred to a previous paper, but the key assumptions and limitations of the method should be stated.
+  - **Required correction** Provide a more detailed description of the FECS method, including the physical origin of the two timescales and how the amplitudes are interpreted.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Binding isotherms and Hill coefficients
+  - **Evidence pointer** Methods (smFRET, Pauling model)
+  - **Issue** The errors reported for the Hill coefficients and coupling free energies are described as "errors from the fit," but it is unclear if these are standard errors, confidence intervals, or something else. The number of independent measurements is not stated.
+  - **Required correction** Clarify the statistical treatment, including the number of replicates and the method for error estimation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Cryo-EM validation
+  - **Affected element** Cryo-EM structure
+  - **Evidence pointer** Methods (Cryo-EM); Data availability (EMD-56533)
+  - **Issue** The cryo-EM map is reported at 6 Å resolution, but no details on map quality, local resolution, or validation (e.g., FSC curves, model fitting) are provided.
+  - **Required correction** Include standard cryo-EM validation metrics and a brief description of the map quality.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of simulation results
+  - **Affected element** Coarse-grained simulations
+  - **Evidence pointer** Methods (Coarse-grained simulations)
+  - **Issue** The simulations are used to support the idea of transient IDR-DNA contacts, but the details of the contact analysis and the statistical significance of the contact probabilities are not provided.
+  - **Required correction** Provide a more detailed description of the simulation analysis, including how contact probabilities were calculated and whether they are statistically different from a control (e.g., a scrambled IDR sequence).
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal role of IDR not directly tested); R1-M2 (quantitative link between dynamics and thermodynamics missing)
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The idea that IDRs control allostery via DNA flexibility is novel and extends the concept of dynamic allostery to a one-dimensional system.
+  - **Scientific importance** High. If established, the mechanism would have broad implications for gene regulation and the function of disordered regions in transcription factors.
+  - **Interdisciplinary readership** Moderate to high. The work bridges biophysics, structural biology, and molecular biology, and would appeal to a broad audience.
+  - **Technical soundness** The multi-technique approach is sound in principle, but the current presentation lacks sufficient detail and controls to fully assess the robustness of the key claims.
+  - **Readability for nonspecialists** The abstract is clear, but the methods section is dense and assumes significant expertise. The main text (not provided) would need to be carefully written to be accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is exciting and the approach is powerful, but the causal role of the IDR and the quantitative link between dynamics and cooperativity must be strengthened before the claims are fully established.
+
+## Risk / unsupported claims
+- The claim that the IDR, rather than the folded domain, is responsible for the flexibility enhancement is not directly supported by the experiments described.
+- The generalization of the mechanism to other transcription factors is speculative and not supported by data in this manuscript.
+- The quantitative relationship between the measured DNA flexibility and the thermodynamic coupling free energy is not established.
+- The claim that "the result is a structurally distorted protein-DNA complex that lost its function" is not supported by any functional data presented in the provided text.
+- The statement that "the price of this simplicity is that structural changes are limited to moderate bending or twisting of the double helix" is an oversimplification and may not hold for all DNA sequences or protein-DNA complexes.

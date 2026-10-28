@@ -1,0 +1,413 @@
+{
+  "identity": {
+    "pmid": "35735983",
+    "doi": "10.1128/spectrum.01401-22",
+    "title": "Deep Sequencing of HPV16 E6 Region Reveals Unique Mutation Pattern of HPV16 and Predicts Cervical Cancer."
+  },
+  "content": {
+    "abstract": "The genetic diversity of human papillomavirus (HPV) 16 within cervical cells and tissue is usually associated with persistent virus infection and precancerous lesions. To explore the HPV16 mutation patterns contributing to the cervical cancer (CC) progression, a total of 199 DNA samples from HPV16-positive cervical specimens were collected and divided into high-grade squamous intraepithelial lesion (HSIL) and the non-HSIL(NHSIL) groups. The HPV16 E6 region (nt 7125-7566) was sequenced using next-generation sequencing. Based on HPV16 E6 amino acid mutation features selected by Lasso algorithm, four machine learning approaches were used to establish HSIL prediction models. The receiver operating characteristic was used to evaluate the model performance in both training and validation cohorts. Western blot was used to detect the degradation of p53 by the E6 variants. Based on the 13 significant mutation features, the logistic regression (LR) model demonstrated the best predictive performance in the training cohort (AUC = 0.944, 95% CI: 0.913-0.976), and also achieved a high discriminative ability in the independent validation cohort (AUC = 0.802, 95% CI: 0.601-1.000). Among these features, the E6 D32E and H85Y variants have higher ability to degrade p53 compared to the E6 wildtype (P < 0.05). In conclusion, our study provides evidence for the first time that HPV16 E6 sequences contain vital mutation features in predicting HSIL. Moreover, the D32E and H85Y variants of E6 exhibited a significantly higher ability to degrade p53, which may play a vital role in the development of CC. IMPORTANCE The study provides evidence for the first time that HPV16 E6 sequences contain vital mutation features in predicting the high-grade squamous intraepithelial lesion and can reduce even more unneeded colposcopies without a loss of sensitivity to detect cervical cancer. Moreover, the D32E and H85Y variants of E6 exhibited a significantly higher ability to degrade p53, which may play a vital role in the development of cervical cancer.",
+    "keywords": [
+      "E6 oncoprotein",
+      "cervical cancer",
+      "human papillomavirus type 16",
+      "machine learning",
+      "next-generation sequencing"
+    ],
+    "mesh_terms": [
+      "Female",
+      "High-Throughput Nucleotide Sequencing",
+      "Human papillomavirus 16/genetics",
+      "Humans",
+      "Mutation",
+      "*Papillomavirus Infections/diagnosis",
+      "*Squamous Intraepithelial Lesions",
+      "Tumor Suppressor Protein p53/genetics",
+      "*Uterine Cervical Neoplasms/diagnosis/pathology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ai, Wenchao",
+        "Wu, Chuanyong",
+        "Jia, Liqing",
+        "Xiao, Xiao",
+        "Xu, Xuewen",
+        "Ren, Min",
+        "Xue, Tian",
+        "Zhou, Xiaoyan",
+        "Wang, Ying",
+        "Gao, Chunfang"
+      ],
+      "short_names": [
+        "Ai W",
+        "Wu C",
+        "Jia L",
+        "Xiao X",
+        "Xu X",
+        "Ren M",
+        "Xue T",
+        "Zhou X",
+        "Wang Y",
+        "Gao C"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8857-8998",
+        "ORCID: 0000-0002-4891-2944"
+      ],
+      "affiliations": [
+        "Department of Laboratory Medicine, Shanghai Eastern Hepatobiliary Surgery Hospitalgrid.414375.0, Shanghai, China.",
+        "Clinical Laboratory Medicine Center, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Pathology, Fudan University Shanghai Cancer Centergrid.452404.3, Fudan University, Shanghai, China.",
+        "Clinical Laboratory Medicine Center, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Clinical Laboratory Medicine Center, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Pathology, Fudan University Shanghai Cancer Centergrid.452404.3, Fudan University, Shanghai, China.",
+        "Department of Pathology, Fudan University Shanghai Cancer Centergrid.452404.3, Fudan University, Shanghai, China.",
+        "Department of Pathology, Fudan University Shanghai Cancer Centergrid.452404.3, Fudan University, Shanghai, China.",
+        "Department of Laboratory Medicine, Shanghai Eastern Hepatobiliary Surgery Hospitalgrid.414375.0, Shanghai, China.",
+        "Department of Laboratory Medicine, Shanghai Eastern Hepatobiliary Surgery Hospitalgrid.414375.0, Shanghai, China.",
+        "Clinical Laboratory Medicine Center, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ai, Wenchao",
+        "short_name": "Ai W",
+        "identifiers": [
+          "0000-0001-8857-8998"
+        ],
+        "affiliations": [
+          "Department of Laboratory Medicine, Shanghai Eastern Hepatobiliary Surgery Hospitalgrid.414375.0, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Chuanyong",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Laboratory Medicine Center, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Liqing",
+        "short_name": "Jia L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Fudan University Shanghai Cancer Centergrid.452404.3, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Xiao",
+        "short_name": "Xiao X",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Laboratory Medicine Center, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xuewen",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Laboratory Medicine Center, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Min",
+        "short_name": "Ren M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Fudan University Shanghai Cancer Centergrid.452404.3, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Tian",
+        "short_name": "Xue T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Fudan University Shanghai Cancer Centergrid.452404.3, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiaoyan",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Fudan University Shanghai Cancer Centergrid.452404.3, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ying",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine, Shanghai Eastern Hepatobiliary Surgery Hospitalgrid.414375.0, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Chunfang",
+        "short_name": "Gao C",
+        "identifiers": [
+          "0000-0002-4891-2944"
+        ],
+        "affiliations": [
+          "Department of Laboratory Medicine, Shanghai Eastern Hepatobiliary Surgery Hospitalgrid.414375.0, Shanghai, China.",
+          "Clinical Laboratory Medicine Center, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Microbiology spectrum"
+    ],
+    "journal_abbrev": [
+      "Microbiol Spectr"
+    ],
+    "pub_date": "2022 Aug 31",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/24 06:00",
+    "fetched_at": "2026-09-28 09:58:03"
+  },
+  "links": {
+    "cites": [
+      "42347638",
+      "41374395",
+      "41188930",
+      "40211026",
+      "38932197",
+      "38790335",
+      "38778248",
+      "37759219",
+      "37529327"
+    ],
+    "refs": [
+      "34899733",
+      "34500462",
+      "34217247",
+      "33984442",
+      "33252834",
+      "33049037",
+      "32291178",
+      "31832087",
+      "31670402",
+      "30930693",
+      "29019985",
+      "28886384",
+      "28857035",
+      "28823569",
+      "28279257",
+      "27130930",
+      "26819473",
+      "26789255",
+      "26650690",
+      "25917549",
+      "25889023",
+      "25355878",
+      "25348399",
+      "24983739",
+      "23199955",
+      "23169278",
+      "22951839",
+      "22623137",
+      "22323075",
+      "21702904",
+      "20383192",
+      "20157096",
+      "18986660",
+      "18403710",
+      "18364507",
+      "17854024",
+      "17220325",
+      "16614130",
+      "15479788",
+      "12808466"
+    ],
+    "similar": [
+      "35735983",
+      "31670402",
+      "27038009",
+      "35724936",
+      "33984442",
+      "30056761",
+      "27764154",
+      "35225653",
+      "24236186",
+      "34569642",
+      "19015633",
+      "16970982",
+      "38048896",
+      "12144822",
+      "17568661",
+      "38801336",
+      "31552532",
+      "23343096",
+      "33188806",
+      "36037124",
+      "31832087",
+      "29400024",
+      "33468698",
+      "27801430",
+      "34695901",
+      "41358616",
+      "30684396",
+      "39696066",
+      "25563334",
+      "10917543",
+      "22912557",
+      "31914575",
+      "39205288",
+      "39415343",
+      "21865084",
+      "24099556",
+      "20403240",
+      "18799702",
+      "31154710",
+      "35246180",
+      "24248915",
+      "18515988",
+      "21600119",
+      "19819061",
+      "17429529",
+      "34874226",
+      "25717103",
+      "32402830",
+      "31204304",
+      "39384698",
+      "20028865",
+      "38241590",
+      "39655333",
+      "26148764",
+      "29943809",
+      "29787003",
+      "26129775",
+      "32314725",
+      "39154329",
+      "23588733",
+      "33913528",
+      "27197295",
+      "34217247",
+      "24979052",
+      "23953248",
+      "15617346",
+      "30196013",
+      "39411320",
+      "28574670",
+      "31006210",
+      "24436016",
+      "28691644",
+      "38849836",
+      "18060502",
+      "40643560",
+      "24925218",
+      "32320451",
+      "30981880",
+      "16761419",
+      "27022787",
+      "26192265",
+      "30728257",
+      "40629635",
+      "33175656",
+      "28260046",
+      "28423662",
+      "20104743",
+      "25889023",
+      "40810285",
+      "30578936",
+      "36680149",
+      "40420028",
+      "31396215",
+      "38542409",
+      "24150786",
+      "25696792",
+      "26400278",
+      "28988982",
+      "15854531",
+      "12870053"
+    ],
+    "review": [
+      "35735983",
+      "31204304"
+    ],
+    "pmc": [
+      "9430801"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/spectrum.01401-22?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://screening.iarc.fr/atlashisto.php",
+        "provider": "International Agency for Research on Cancer - Screening Group",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Histopathology and cytopathology of the uterine cervix - digital atlas"
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35735983/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35735983",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35735983",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

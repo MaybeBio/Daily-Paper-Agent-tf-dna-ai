@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report that NarL from Salmonella Typhimurium interacts with NarG, SsrB, and FNR proteins, with NarL-NarG showing the strongest binding, followed by NarL-SsrB and then NarL-FNR, based on multiple biochemical assays, isothermal titration calorimetry, and molecular docking. They propose these interactions as potential therapeutic targets.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or numerical data beyond those stated in the abstract
+- **Missing materials affecting confidence** Full methods, raw binding data, statistical details, ITC thermograms, docking parameters, protein purity and quality controls, replicate information, and any negative controls
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting comparative analysis of protein-protein interactions involving a global regulator in a clinically relevant pathogen. However, the current evidence base is insufficient to evaluate the rigor of the experimental approach, the validity of the quantitative claims, or the biological significance of the reported differences. Several claims are internally inconsistent or lack necessary context. The work may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying bacterial gene regulation, nitrate metabolism, two-component systems, and virulence mechanisms in Salmonella and related enteric pathogens. Those interested in protein-protein interaction methodologies and therapeutic development against Gram-negative pathogens may also find the topic relevant.
+- **Major strengths** The study addresses a relevant biological question about the interaction network of a global anaerobic regulator. The use of multiple orthogonal assays to assess binding is commendable. The inclusion of both experimental binding measurements and computational docking provides a comparative framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency of thermodynamic data
+  - **Claim pointer** The abstract states that NarL-NarG interaction was exothermic with a DeltaG of -16.4 kcal/mol, while NarL-SsrB was endothermic with a DeltaG of 7.6 kcal/mol. FNR showed no gain or release of free energy.
+  - **Evidence pointer** Abstract, Results section (location not provided)
+  - **Concern** The reported DeltaG values are thermodynamically problematic. A negative DeltaG for an exothermic interaction is plausible, but a positive DeltaG of 7.6 kcal/mol for NarL-SsrB would indicate a non-spontaneous process under standard conditions, which contradicts the claim that binding occurs. Additionally, the statement that FNR showed no gain or release of free energy is ambiguous and does not clarify whether binding occurred with zero enthalpy change or whether no binding was detected.
+  - **Why it matters** Thermodynamic parameters are central to the claim of differential binding affinity. If the DeltaG values are incorrect or misinterpreted, the ranking of interaction strengths is not supported. The positive DeltaG for a claimed binding interaction raises fundamental questions about the validity of the ITC analysis.
+  - **Resolution test** Provide full ITC data including raw thermograms, fitted parameters (DeltaH, DeltaS, DeltaG, Ka), and stoichiometry for each interaction. Clarify whether the reported values are DeltaG of binding or another quantity. If a positive DeltaG is reported, explain how binding is observed despite non-spontaneity, or correct the values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical and quantitative support for interaction ranking
+  - **Claim pointer** The abstract states that NarL-NarG binding was significantly stronger (P < 0.05) than NarL-SsrB, followed by NarL-FNR.
+  - **Evidence pointer** Abstract, Results section (location not provided)
+  - **Concern** The abstract reports a P value but provides no information on the statistical test used, the number of replicates, the variance within groups, or the quantitative metric on which the comparison is based. Without this information, the claim of significant differences cannot be evaluated. Furthermore, the ordering of interaction strengths from the microtitre plate, dot blot, blot overlay, and gold nanoparticle assays is not described with any quantitative data.
+  - **Why it matters** The central conclusion of the study is the differential binding affinity among the three partners. Without transparent statistical reporting and quantitative data, the ranking is not verifiable.
+  - **Resolution test** Provide the specific assay readouts, units, replicate numbers, statistical tests, and effect sizes for each pairwise comparison. Show that the observed differences are reproducible and not artifacts of assay conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Consistency between experimental and computational results
+  - **Claim pointer** The abstract states that molecular docking showed a higher binding energy score for NarL-NarG than for NarL-SsrB and NarL-FNR.
+  - **Evidence pointer** Abstract, Results section (location not provided)
+  - **Concern** The docking result is presented as supporting the experimental ranking, but no docking scores are provided. More critically, the ITC data for NarL-SsrB (positive DeltaG) and NarL-FNR (no free energy change) are inconsistent with the claim that these proteins bind NarL at all. If docking predicts binding for all three, the experimental data should show binding for all three. The abstract does not reconcile these discrepancies.
+  - **Why it matters** The convergence of experimental and computational methods is a stated strength, but the current data appear contradictory. The reader cannot assess whether the docking scores are meaningful without numerical values and without resolution of the thermodynamic inconsistencies.
+  - **Resolution test** Provide docking scores for all three complexes, including the units and scoring function used. Explain how docking predictions align with the ITC results, particularly for NarL-SsrB and NarL-FNR. If docking predicts binding but ITC does not, discuss the limitations of each method.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance and functional validation
+  - **Claim pointer** The abstract concludes that these interactions could facilitate development of novel therapeutics against STM by targeting these specific interactions.
+  - **Evidence pointer** Abstract, Conclusion (location not provided)
+  - **Concern** The abstract provides no evidence that these in vitro interactions occur in vivo or that they have functional consequences for bacterial physiology, colonization, or virulence. The claim that targeting these interactions could yield therapeutics is speculative without any demonstration of biological relevance.
+  - **Why it matters** The translational significance of the work depends on the biological importance of the interactions. In vitro binding alone does not establish physiological relevance.
+  - **Resolution test** Provide evidence of in vivo interaction (e.g., co-immunoprecipitation, bacterial two-hybrid, or genetic interaction studies) or functional data linking these interactions to phenotypes relevant to infection.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Protein names and abbreviations
+  - **Evidence pointer** Abstract, Introduction (location not provided)
+  - **Issue** The abstract uses "FNR" and "Fnr" interchangeably. The full name "Fumarate and nitrate regulator" is given, but the standard abbreviation is FNR. Consistency is needed.
+  - **Required correction** Use a single abbreviation throughout, preferably FNR, and define it at first use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methodological description
+  - **Affected element** Assay descriptions
+  - **Evidence pointer** Abstract, Methods (location not provided)
+  - **Issue** The abstract lists five assays but provides no detail on how binding was quantified or how the assays were calibrated. The phrase "gold nanoparticle based protein binding assay" is particularly vague.
+  - **Required correction** Provide brief descriptions of the assay principles and the quantitative readout for each method, or refer to a methods section with full details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of docking results
+  - **Affected element** Docking statement
+  - **Evidence pointer** Abstract, Results (location not provided)
+  - **Issue** The abstract states that docking showed a "higher binding energy score" but does not specify whether higher scores indicate stronger or weaker binding, as scoring conventions vary.
+  - **Required correction** Clarify the scoring convention and report the actual scores for each complex.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Units and magnitude of thermodynamic parameters
+  - **Affected element** ITC results
+  - **Evidence pointer** Abstract, Results (location not provided)
+  - **Issue** The DeltaG values are reported without units in the text, although kcal/mol is implied. The magnitude of -16.4 kcal/mol is unusually large for a protein-protein interaction and warrants explanation.
+  - **Required correction** State units explicitly and discuss whether the magnitude is consistent with known protein-protein interaction affinities.
+
+## Risk / unsupported claims
+- The claim that NarL-NarG binding is significantly stronger than NarL-SsrB and NarL-FNR is unsupported without statistical details and quantitative assay data.
+- The thermodynamic interpretation of the ITC data is unsupported and appears internally inconsistent, particularly the positive DeltaG for NarL-SsrB and the "no gain or release of free energy" for NarL-FNR.
+- The claim that these interactions could serve as therapeutic targets is unsupported without evidence of in vivo relevance or functional consequences.
+- The consistency between experimental binding data and molecular docking results is not established from the supplied material.
+- The overall ranking of interaction strengths (NarG > SsrB > FNR) is not verifiable from the abstract alone.

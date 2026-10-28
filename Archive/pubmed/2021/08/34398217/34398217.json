@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "34398217",
+    "doi": "10.1093/bioinformatics/btab588",
+    "title": "ezGeno: an automatic model selection package for genomic data analysis."
+  },
+  "content": {
+    "abstract": "MOTIVATION: To facilitate the process of tailor-making a deep neural network for exploring the dynamics of genomic DNA, we have developed a hands-on package called ezGeno. ezGeno automates the search process of various parameters and network structures and can be applied to any kind of 1D genomic data. Combinations of multiple abovementioned 1D features are also applicable. RESULTS: For the task of predicting TF binding using genomic sequences as the input, ezGeno can consistently return the best performing set of parameters and network structure, as well as highlight the important segments within the original sequences. For the task of predicting tissue-specific enhancer activity using both sequence and DNase feature data as the input, ezGeno also regularly outperforms the hand-designed models. Furthermore, we demonstrate that ezGeno is superior in efficiency and accuracy compared to the one-layer DeepBind model and AutoKeras, an open-source AutoML package. AVAILABILITY AND IMPLEMENTATION: The ezGeno package can be freely accessed at https://github.com/ailabstw/ezGeno. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Software",
+      "*Genomics",
+      "Genome",
+      "Protein Binding",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Jun-Liang",
+        "Hsieh, Tsung-Ting",
+        "Tung, Yi-An",
+        "Chen, Xuan-Jun",
+        "Hsiao, Yu-Chun",
+        "Yang, Chia-Lin",
+        "Liu, Tyng-Luh",
+        "Chen, Chien-Yu"
+      ],
+      "short_names": [
+        "Lin JL",
+        "Hsieh TT",
+        "Tung YA",
+        "Chen XJ",
+        "Hsiao YC",
+        "Yang CL",
+        "Liu TL",
+        "Chen CY"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5105-7574",
+        "ORCID: 0000-0002-6940-6389"
+      ],
+      "affiliations": [
+        "Institute of Information Science, Academia Sinica, Taipei 11529, Taiwan.",
+        "Taiwan AI Labs, Taipei 10355, Taiwan.",
+        "Taiwan AI Labs, Taipei 10355, Taiwan.",
+        "Department of Computer Science and Information Engineering, National Taiwan University, Taipei 10617, Taiwan.",
+        "Taiwan AI Labs, Taipei 10355, Taiwan.",
+        "Taiwan AI Labs, Taipei 10355, Taiwan.",
+        "Department of Computer Science and Information Engineering, National Taiwan University, Taipei 10617, Taiwan.",
+        "Institute of Information Science, Academia Sinica, Taipei 11529, Taiwan.",
+        "Taiwan AI Labs, Taipei 10355, Taiwan.",
+        "Taiwan AI Labs, Taipei 10355, Taiwan.",
+        "Department of Biomechatronics Engineering, National Taiwan University, Taipei 10617, Taiwan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Jun-Liang",
+        "short_name": "Lin JL",
+        "identifiers": [
+          "0000-0001-5105-7574"
+        ],
+        "affiliations": [
+          "Institute of Information Science, Academia Sinica, Taipei 11529, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Hsieh, Tsung-Ting",
+        "short_name": "Hsieh TT",
+        "identifiers": [],
+        "affiliations": [
+          "Taiwan AI Labs, Taipei 10355, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Tung, Yi-An",
+        "short_name": "Tung YA",
+        "identifiers": [],
+        "affiliations": [
+          "Taiwan AI Labs, Taipei 10355, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chen, Xuan-Jun",
+        "short_name": "Chen XJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Information Engineering, National Taiwan University, Taipei 10617, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Hsiao, Yu-Chun",
+        "short_name": "Hsiao YC",
+        "identifiers": [],
+        "affiliations": [
+          "Taiwan AI Labs, Taipei 10355, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Yang, Chia-Lin",
+        "short_name": "Yang CL",
+        "identifiers": [],
+        "affiliations": [
+          "Taiwan AI Labs, Taipei 10355, Taiwan.",
+          "Department of Computer Science and Information Engineering, National Taiwan University, Taipei 10617, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Liu, Tyng-Luh",
+        "short_name": "Liu TL",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Information Science, Academia Sinica, Taipei 11529, Taiwan.",
+          "Taiwan AI Labs, Taipei 10355, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chen, Chien-Yu",
+        "short_name": "Chen CY",
+        "identifiers": [
+          "0000-0002-6940-6389"
+        ],
+        "affiliations": [
+          "Taiwan AI Labs, Taipei 10355, Taiwan.",
+          "Department of Biomechatronics Engineering, National Taiwan University, Taipei 10617, Taiwan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2021 Dec 22",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/17 06:00",
+    "fetched_at": "2026-09-27 22:24:28"
+  },
+  "links": {
+    "cites": [
+      "40375359"
+    ],
+    "refs": [],
+    "similar": [
+      "34398217",
+      "29155928",
+      "35191481",
+      "38366935",
+      "30423062",
+      "26668005",
+      "30351403",
+      "34864895",
+      "29069282",
+      "28881969",
+      "31318408",
+      "36610989",
+      "32797179",
+      "34358294",
+      "31368484",
+      "36579850",
+      "33135730",
+      "35799358",
+      "35561205",
+      "32429868",
+      "28605539",
+      "33715007",
+      "29659719",
+      "31510706",
+      "28637232",
+      "31834354",
+      "25957350",
+      "29668840",
+      "29194472",
+      "31134271",
+      "30590489",
+      "32701977",
+      "33107913",
+      "35881697",
+      "33031552",
+      "31070716",
+      "31883004",
+      "28334114",
+      "33693500",
+      "30256897",
+      "28453670",
+      "38293144",
+      "27153673",
+      "35583303",
+      "27153599",
+      "35389435",
+      "35134816",
+      "27153645",
+      "27288499",
+      "31173058",
+      "33581335",
+      "35179562",
+      "32101279",
+      "32745185",
+      "32053156",
+      "30418485",
+      "32657407",
+      "30601936",
+      "30304439",
+      "26708336",
+      "27497439",
+      "32926120",
+      "29949982",
+      "32573679",
+      "36700086",
+      "35799353",
+      "31584615",
+      "35642896",
+      "30977780",
+      "35218338",
+      "29931276",
+      "30307536",
+      "32766814",
+      "29121165",
+      "28174895",
+      "33305310",
+      "29228171",
+      "31504175",
+      "26545822",
+      "29036277",
+      "31584605",
+      "31218353",
+      "29087446",
+      "30052774",
+      "35394015",
+      "36440957",
+      "36370083",
+      "37084270",
+      "35561183",
+      "33543748",
+      "37817115",
+      "33704387",
+      "34718413",
+      "33792640",
+      "35758792",
+      "33367499",
+      "35758796",
+      "33471075",
+      "37387128",
+      "33774671",
+      "33515235",
+      "34260694",
+      "37688565",
+      "33399818",
+      "33677485",
+      "34156475",
+      "33515232",
+      "36999645",
+      "37878807",
+      "30307532",
+      "38979338"
+    ],
+    "review": [
+      "34398217"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/34398217.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btab588",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

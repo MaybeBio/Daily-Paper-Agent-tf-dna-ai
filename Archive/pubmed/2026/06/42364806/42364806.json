@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "42364806",
+    "doi": "10.1016/j.clnesp.2026.103443",
+    "title": "Plasma metabolomics combined with machine learning for postoperative prognostic stratification in hormone receptor-positive/human epidermal growth factor receptor 2-negative early breast cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND AIMS: Hormone receptor-positive/human epidermal growth factor receptor 2-negative (HR(+)/HER2(-)) breast cancer (BC) accounts for the majority of BC cases. Although early-stage patients generally have favorable outcomes, recurrence and metastasis substantially worsen prognosis. We aimed to evaluate whether plasma metabolomics combined with machine learning could predict postoperative outcomes in HR(+)/HER2(-) early BC. METHODS: A total of 178 patients with HR(+)/HER2(-) BC were prospectively enrolled. Preoperative plasma samples were analyzed using untargeted metabolomics based on liquid chromatography-mass spectrometry. Differential metabolites between patients with short (<5 years) and long (>/=5 years) disease-free survival (DFS) were identified. Using least absolute shrinkage and selection operator feature selection followed by random forest classification, a prognostic model was constructed in a discovery cohort (n = 125) and validated in an independent test cohort (n = 53). RESULTS: A total of 209 metabolites were annotated, of which 100 were significantly altered between groups. Key dysregulated metabolic pathways included linoleic acid and galactose metabolism. A 10-metabolite prognostic model (10-PM) achieved an area under the receiver operating characteristic (AUROC) curve of 0.907 (95% CI: 0.883-0.925) in the test cohort, outperforming conventional clinicopathological models. The 10-PM model effectively stratified patients into high- and low-risk groups with significantly different DFS and overall survival, and remained an independent predictor in multivariable Cox regression analysis. CONCLUSION: We developed and validated a 10-PM model based on plasma metabolomics that accurately predicts short DFS in HR(+)/HER2(-) BC. This model outperforms conventional clinicopathological indicators, offering a specific, blood-based tool to stratify high-risk patients and guide individualized postoperative management.",
+    "keywords": [
+      "Biomarkers",
+      "Breast cancer",
+      "Machine learning",
+      "Metabolomics",
+      "Prognosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/surgery/blood/metabolism/diagnosis",
+      "*Metabolomics/methods",
+      "*Machine Learning",
+      "Prognosis",
+      "*Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "Middle Aged",
+      "Biomarkers, Tumor/blood",
+      "Disease-Free Survival",
+      "Prospective Studies",
+      "Aged",
+      "Adult",
+      "Receptors, Estrogen/metabolism",
+      "Receptors, Progesterone/metabolism",
+      "Predictive Learning Models",
+      "ROC Curve",
+      "Postoperative Period"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chang, Xinwei",
+        "Wang, Jiayi",
+        "Sun, Yan",
+        "Shiri-Sverdlov, Ronit",
+        "Deng, Min",
+        "Lu, Chang",
+        "Li, Na",
+        "Ren, Zefang",
+        "Chen, Kai",
+        "Liang, Zhuozhi"
+      ],
+      "short_names": [
+        "Chang X",
+        "Wang J",
+        "Sun Y",
+        "Shiri-Sverdlov R",
+        "Deng M",
+        "Lu C",
+        "Li N",
+        "Ren Z",
+        "Chen K",
+        "Liang Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China; Guangdong Provincial Clinical Research Center for Breast Diseases, Breast Tumor Center, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China.",
+        "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China; Guangdong Provincial Clinical Research Center for Breast Diseases, Breast Tumor Center, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China.",
+        "Department of Genetics & Cell Biology, Institute of Nutrition and Translational Research in Metabolism (NUTRIM), Maastricht University, Maastricht, the Netherlands; Department of Precision Medicine, Institute for Oncology and Reproduction (GROW), Maastricht University, Maastricht, the Netherlands.",
+        "Department of Genetics & Cell Biology, Institute of Nutrition and Translational Research in Metabolism (NUTRIM), Maastricht University, Maastricht, the Netherlands.",
+        "Department of Molecular Cell Biology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway.",
+        "Institute for Computational Biomedicine, Faculty of Medicine, Heidelberg University and Heidelberg University Hospital, Heidelberg, Germany.",
+        "School of Public Health, Sun Yat-sen University, Guangzhou, China; Birth Defects Prevention and Control Institute, Maternal and Child Health Hospital of Guangxi Zhuang Autonomous Region, Nanning, China.",
+        "School of Public Health, Sun Yat-sen University, Guangzhou, China.",
+        "Guangdong Provincial Key Laboratory of Cancer Pathogenesis and Precision Diagnosis and Treatment, Shenshan Medical Center, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Shanwei, China; Guangdong Provincial Clinical Research Center for Breast Diseases, Breast Tumor Center, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China.",
+        "Guangdong Provincial Clinical Research Center for Breast Diseases, Breast Tumor Center, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China; Zenith Institute of Medical Sciences, Guangzhou, China. Electronic address: liangzhzh6@mail2.sysu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chang, Xinwei",
+        "short_name": "Chang X",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China; Guangdong Provincial Clinical Research Center for Breast Diseases, Breast Tumor Center, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiayi",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Malignant Tumor Epigenetics and Gene Regulation, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China; Guangdong Provincial Clinical Research Center for Breast Diseases, Breast Tumor Center, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yan",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics & Cell Biology, Institute of Nutrition and Translational Research in Metabolism (NUTRIM), Maastricht University, Maastricht, the Netherlands; Department of Precision Medicine, Institute for Oncology and Reproduction (GROW), Maastricht University, Maastricht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Shiri-Sverdlov, Ronit",
+        "short_name": "Shiri-Sverdlov R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics & Cell Biology, Institute of Nutrition and Translational Research in Metabolism (NUTRIM), Maastricht University, Maastricht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Deng, Min",
+        "short_name": "Deng M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Cell Biology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Lu, Chang",
+        "short_name": "Lu C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Computational Biomedicine, Faculty of Medicine, Heidelberg University and Heidelberg University Hospital, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Li, Na",
+        "short_name": "Li N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Sun Yat-sen University, Guangzhou, China; Birth Defects Prevention and Control Institute, Maternal and Child Health Hospital of Guangxi Zhuang Autonomous Region, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Zefang",
+        "short_name": "Ren Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Kai",
+        "short_name": "Chen K",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory of Cancer Pathogenesis and Precision Diagnosis and Treatment, Shenshan Medical Center, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Shanwei, China; Guangdong Provincial Clinical Research Center for Breast Diseases, Breast Tumor Center, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Zhuozhi",
+        "short_name": "Liang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Clinical Research Center for Breast Diseases, Breast Tumor Center, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, China; Zenith Institute of Medical Sciences, Guangzhou, China. Electronic address: liangzhzh6@mail2.sysu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical nutrition ESPEN"
+    ],
+    "journal_abbrev": [
+      "Clin Nutr ESPEN"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/28 04:09",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42364806",
+      "42750049",
+      "41405264",
+      "36175898",
+      "42251269",
+      "41528926",
+      "41637793",
+      "41061345",
+      "39614188",
+      "41895875",
+      "39424816",
+      "40121273",
+      "42173037",
+      "39545625",
+      "40624807",
+      "40184873",
+      "37822006",
+      "41212217",
+      "41737223",
+      "41653522",
+      "39576843",
+      "39448293",
+      "39837702",
+      "39746051",
+      "42214047",
+      "42587318",
+      "41270247",
+      "34244052",
+      "41999978",
+      "26848530",
+      "40348609",
+      "36241228",
+      "42497534",
+      "42536225",
+      "38652345",
+      "40952290",
+      "38692082",
+      "41222828",
+      "42176177",
+      "40148997",
+      "40878695",
+      "29330212",
+      "19758440",
+      "33152285",
+      "41886167",
+      "41963835",
+      "33373867",
+      "41809834",
+      "41526910",
+      "40623476",
+      "40936892",
+      "30462685",
+      "41466313",
+      "41587113",
+      "38843919",
+      "39350043",
+      "39612621",
+      "40958270",
+      "39080346",
+      "41129497",
+      "38722442",
+      "42214155",
+      "32201163",
+      "41709333",
+      "41846206",
+      "32278642",
+      "40721911",
+      "41213110",
+      "35568835",
+      "41918082",
+      "42060542",
+      "41707479",
+      "39687980",
+      "41018039",
+      "41289056",
+      "39235099",
+      "39477071",
+      "30679318",
+      "40597935",
+      "31134488",
+      "37772432",
+      "42585849",
+      "39569974",
+      "41987244",
+      "41590373",
+      "38336481",
+      "23025714",
+      "31620934",
+      "18657139",
+      "41942928",
+      "39954110",
+      "34449047",
+      "41944956",
+      "40845255",
+      "41670928",
+      "40572800",
+      "32229175",
+      "40826347",
+      "42002743",
+      "31899528"
+    ],
+    "review": [
+      "42364806"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-4577(26)00540-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2405-4577(26)00540-1",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

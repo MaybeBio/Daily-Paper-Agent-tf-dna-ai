@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Feasibility and methodological soundness of the described expression, purification, and preparation protocol for the untagged WT c-Myc b-HLH-LZ domain, as presented in the abstract
+- **Shared manuscript claim summary** The authors claim that a robust, tag-free protocol for expressing and purifying the wild-type b-HLH-LZ domain of c-Myc in *E. coli* yields sufficient quantities for solution-state biophysical characterization, particularly NMR, and that avoiding tags is critical to preserve the native conformational equilibrium of this intrinsically disordered domain.
+- **Visible evidence base** Abstract text only; no figures, tables, detailed methods, or results are provided
+- **Missing materials affecting confidence** Full methods section, purification yields, purity assessments (e.g., SDS-PAGE, mass spectrometry), biophysical validation data (e.g., NMR spectra, circular dichroism), and any comparative data with tagged constructs
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually important goal, namely the production of an untagged, wild-type c-Myc b-HLH-LZ domain for biophysical studies, justified by the concern that affinity tags may perturb the delicate conformational equilibrium of this intrinsically disordered protein. However, the abstract provides no experimental evidence to support the claimed robustness of the protocol, no quantitative outcomes, and no validation that the purified protein retains the expected structural and dynamic properties. As such, the case for the protocol's utility is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in structural biology, biophysics, and cancer drug discovery, particularly those studying intrinsically disordered proteins, protein-protein interactions involving c-Myc and Max, or developing inhibitors targeting the b-HLH-LZ domain. The protocol would be of practical value to groups needing untagged protein for NMR or other solution-state methods.
+- **Major strengths** The rationale for using an untagged wild-type construct is scientifically sound and well articulated, given the known sensitivity of intrinsically disordered proteins to sequence modifications. The focus on solution-state methods such as NMR is appropriate for the target. The abstract is clearly written and accessible to a broad audience.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that the described protocol is "robust" and yields "the required quantities" for biophysical characterization.  
+  - **Evidence pointer** Abstract only; no section, figure, or table provided  
+  - **Concern** No quantitative or qualitative data are presented to support the robustness of the protocol or the achievement of sufficient yields. There is no mention of expression levels, purification recovery, final protein concentration, or purity.  
+  - **Why it matters** Without such data, the central claim of the protocol's utility cannot be evaluated. The term "robust" implies reproducibility and consistency, which cannot be assessed from the abstract alone.  
+  - **Resolution test** Provide representative yields (mg per liter of culture), purity assessments (e.g., SDS-PAGE with Coomassie staining, mass spectrometry), and evidence of batch-to-batch consistency.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Validation of protein quality  
+  - **Claim pointer** The abstract implies that the purified protein is suitable for NMR-based biophysical characterization.  
+  - **Evidence pointer** Abstract only; no section, figure, or table provided  
+  - **Concern** No data are shown to demonstrate that the purified untagged protein is correctly folded, monomeric, or conformationally representative of the native state. For an intrinsically disordered protein, the absence of a folded structure is expected, but the conformational ensemble should be characterized to confirm that the purification process did not induce aggregation, degradation, or irreversible modifications.  
+  - **Why it matters** The entire premise of the protocol is to preserve the native conformational balance. Without validation (e.g., NMR 1H-15N HSQC spectra, size-exclusion chromatography, circular dichroism), the suitability of the final product for biophysical studies remains unproven.  
+  - **Resolution test** Include a representative NMR spectrum (e.g., 1H-15N HSQC) showing dispersed and expected cross-peak patterns, or other biophysical data confirming the protein's conformational state and monodispersity.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility and protocol detail  
+  - **Claim pointer** The abstract states that the protocol is "robust" and describes a "step-by-step" approach.  
+  - **Evidence pointer** Abstract only; no section, figure, or table provided  
+  - **Concern** The abstract does not mention critical parameters such as expression strain, induction conditions, lysis method, chromatography steps, or buffer compositions. These details are essential for reproducibility.  
+  - **Why it matters** A methods paper's value depends on the completeness and clarity of the protocol. The abstract alone cannot establish that the protocol is reproducible by others.  
+  - **Resolution test** Ensure the full methods section includes all critical parameters, and ideally provide a troubleshooting table or notes on common pitfalls.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "blunting its binding to DNA with cell penetrant b-HLH-LZs" is slightly ambiguous; it could be read as the b-HLH-LZ domain itself being cell penetrant, which is not the case for the native domain.  
+  - **Required correction** Rephrase to clarify that the cell-penetrant b-HLH-LZ refers to engineered variants such as Omomyc, not the native domain.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract scope  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The abstract mentions NMR as the primary application but does not specify which NMR experiments are intended (e.g., backbone assignment, relaxation dispersion, PRE).  
+  - **Required correction** Briefly specify the intended NMR applications to better frame the required quantity and purity.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract, "intrinsically disordered nature"  
+  - **Evidence pointer** Abstract, third sentence  
+  - **Issue** The term "intrinsically disordered" is used without a citation or definition, which may be unclear to non-specialist readers.  
+  - **Required correction** Add a brief definition or a citation to a review on intrinsically disordered proteins.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The protocol's robustness and the quality of the final protein product must be demonstrated with quantitative data and biophysical validation before the case is established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The approach of using an untagged wild-type construct for an intrinsically disordered protein is not entirely novel but is a sensible and important methodological choice. The abstract does not present a new concept but rather a practical solution to a known problem.  
+  - **Scientific importance** The c-Myc b-HLH-LZ is a high-value cancer target, and reliable production of untagged protein for biophysical studies is of clear importance. However, the abstract does not demonstrate that the protocol solves a previously unmet need beyond what is already available.  
+  - **Interdisciplinary readership** The topic bridges structural biology, biophysics, and cancer biology, and the abstract is written in a way that is accessible to these communities.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The lack of data on yields, purity, and protein quality is a major gap.  
+  - **Readability for nonspecialists** The abstract is generally clear, but some terms (e.g., "b-HLH-LZ", "conformational ensemble") may require prior knowledge. The writing is concise and logical.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable rationale and a plausible protocol, but the absence of any experimental data prevents validation of the central claims. If the full manuscript provides the missing quantitative and biophysical data, the work could be considered supportive.
+
+## Risk / unsupported claims
+- The claim that the protocol is "robust" is unsupported by any data in the abstract.
+- The claim that the purified protein is suitable for NMR characterization is unsupported without biophysical validation data.
+- The assertion that tags "could disrupt the balance of forces" is plausible but presented as a general statement without direct evidence in the abstract; it is a hypothesis rather than a demonstrated finding.
+- The abstract does not provide any comparative data showing that the untagged protein behaves differently from a tagged version, so the necessity of the tag-free approach is not empirically established.

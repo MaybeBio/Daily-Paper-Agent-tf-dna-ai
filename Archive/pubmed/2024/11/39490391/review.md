@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a first-principles-based directional reactive binding factor (DRBF) model to predict cytotoxicity potencies of 16 polycyclic aromatic hydrocarbons (PAHs) acting as aryl hydrocarbon receptor (AhR) agonists. They report that the DRBF model outperforms QSAR and molecular docking models, achieving R(2) = 0.90 and p < 0.01 against in vitro bioassay data, and suggest it as a novel framework for next-generation hazard assessment.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, or quantitative results beyond the reported R(2) and p value
+- **Missing materials affecting confidence** Full manuscript, methods section, model equations, simulation parameters, training and validation data, bioassay protocols, statistical analysis details, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of a physics-based model to toxicity prediction, with a strong reported correlation to experimental data. However, the evidence provided in the abstract is insufficient to evaluate the validity, generalizability, or novelty of the DRBF model. Key methodological details and validation procedures are absent, and the claim of superiority over other in silico models cannot be assessed without comparative data and statistical rigor.
+- **Who would be interested in the results, and why** Researchers in computational toxicology, environmental health sciences, and regulatory hazard assessment would be interested, as the work addresses high-throughput screening alternatives to animal testing. Those working on AhR-mediated toxicity and PAH risk assessment may also find the approach relevant.
+- **Major strengths** The use of first-principles-based molecular dynamics to incorporate directional binding factors is conceptually appealing and may offer mechanistic insight beyond empirical QSAR approaches. The reported high correlation with in vitro data suggests potential practical utility if the model is robust and reproducible.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The DRBF model predicts cytotoxicity potencies of 16 PAHs with R(2) = 0.90 and p < 0.01, outperforming QSAR and molecular docking models.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports a single R(2) value and p value without specifying the number of compounds used for validation, whether the model was trained and tested on the same dataset, or whether cross-validation or external validation was performed. With only 16 PAHs, the risk of overfitting is substantial, and the reported performance may not reflect predictive ability on unseen chemicals.
+  - **Why it matters** Without evidence of model validation on independent data, the claim of predictive capability for hazard assessment is not established. Overfitted models can produce high R(2) values on training data but fail in real-world applications, which undermines the stated goal of high-throughput screening.
+  - **Resolution test** Provide details on dataset splitting, cross-validation procedures, and external validation results. Report performance metrics on held-out compounds or an independent test set, and include confidence intervals or error estimates for R(2).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological transparency
+  - **Claim pointer** The DRBF model is based on first principles and accounts for directional configuration factor and binding to the Per-Arnt-Sim (PAS) domain.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe the model equations, force fields, simulation parameters, or how the directional configuration factor and PAS domain binding factor are computed. Without this information, the model cannot be reproduced or independently evaluated.
+  - **Why it matters** Reproducibility is a core requirement for computational models in scientific publication. The lack of methodological detail prevents reviewers and readers from assessing the physical validity of the model and its assumptions.
+  - **Resolution test** Include a full methods section with model derivation, simulation protocols, parameter values, and software used. Provide access to code or a detailed pseudocode to enable replication.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparative claim validity
+  - **Claim pointer** The DRBF model exhibited the highest model performance compared to QSAR and molecular docking models.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that DRBF outperformed QSAR and docking models but does not provide the performance metrics for these comparators, the specific QSAR method used, or the docking scoring function. Without these details, the comparative claim is unverifiable.
+  - **Why it matters** The central selling point of the work is the superiority of DRBF over existing approaches. If the comparators were not optimized or were applied under different conditions, the comparison may be unfair or misleading.
+  - **Resolution test** Report performance metrics for all models under identical conditions, describe the QSAR and docking protocols, and discuss any limitations in the comparison.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and scope
+  - **Claim pointer** The DRBF model could serve as a novel framework for next-generation hazard assessment for high-throughput screening.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The model was tested on only 16 PAHs, all of which are AhR agonists. The abstract does not address whether the model can be extended to other chemical classes, non-agonist mechanisms, or different receptor proteins.
+  - **Why it matters** The claim of a generalizable framework for hazard assessment requires demonstration of applicability beyond a narrow chemical class. Without evidence of broader utility, the claim is speculative.
+  - **Resolution test** Discuss the model's applicability domain, potential extensions to other receptors or chemical classes, and any limitations in the current study.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Statistical reporting
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The p value is reported as p < 0.01, but the statistical test used is not specified. It is unclear whether this refers to a correlation test, regression significance, or another test.
+  - **Required correction** Specify the statistical test used and report exact p values or confidence intervals where possible.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "first principles" is used, but the abstract does not clarify whether this refers to ab initio quantum mechanics, classical molecular dynamics, or a hybrid approach. This ambiguity affects the reader's understanding of the model's foundation.
+  - **Required correction** Define "first principles" in the context of the methods used, specifying the level of theory or simulation approach.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Comparison to existing literature
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention how the DRBF model compares to other recent computational approaches for AhR-mediated toxicity prediction beyond QSAR and docking.
+  - **Required correction** Briefly situate the model within the broader literature on computational toxicology to clarify its novelty.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (validation and overfitting risk), R1-M2 (lack of methodological detail), R1-M3 (unverifiable comparative claim). These are blocking because the core claims of predictive performance and model superiority cannot be assessed from the provided material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of a directional reactive binding factor based on molecular dynamics is potentially original, but the abstract does not provide enough detail to distinguish it from existing binding free energy or docking approaches.
+  - Scientific importance: The topic is relevant to environmental health and regulatory toxicology, but the narrow scope (16 PAHs) limits the immediate significance.
+  - Interdisciplinary readership: The work bridges computational chemistry and toxicology, which could appeal to a broad audience, but the abstract is too technical for nonspecialists without clearer context.
+  - Technical soundness: Not assessable from the abstract alone; the reported R(2) is promising but unverifiable without validation details.
+  - Readability for nonspecialists: The abstract is concise but assumes familiarity with terms such as DRBF, PAS domain, and QSAR, which may hinder accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting idea and a strong reported correlation, but the lack of methodological detail, validation evidence, and comparative metrics prevents a supportive recommendation. The case could be established if the full manuscript addresses the blocking concerns.
+
+## Risk / unsupported claims
+- The claim that DRBF outperforms QSAR and docking models is unsupported because no comparative metrics are provided.
+- The claim that the model can serve as a framework for next-generation hazard assessment is unsupported due to the limited chemical scope and lack of generalizability evidence.
+- The reported R(2) = 0.90 and p < 0.01 are not assessable for validity without details on the dataset, statistical test, and validation procedure.
+- The mechanistic basis of the DRBF model, including the directional configuration factor and PAS domain binding, is not assessable without methodological details.

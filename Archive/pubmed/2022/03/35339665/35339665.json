@@ -1,0 +1,222 @@
+{
+  "identity": {
+    "pmid": "35339665",
+    "doi": "10.1016/j.jbi.2022.104057",
+    "title": "Identifying the oncogenic potential of gene fusions exploiting miRNAs."
+  },
+  "content": {
+    "abstract": "It is estimated that oncogenic gene fusions cause about 20% of human cancer morbidity. Identifying potentially oncogenic gene fusions may improve affected patients' diagnosis and treatment. Previous approaches to this issue included exploiting specific gene-related information, such as gene function and regulation. Here we propose a model that profits from the previous findings and includes the microRNAs in the oncogenic assessment. We present ChimerDriver, a tool to classify gene fusions as oncogenic or not oncogenic. ChimerDriver is based on a specifically designed neural network and trained on genetic and post-transcriptional information to obtain a reliable classification. The designed neural network integrates information related to transcription factors, gene ontologies, microRNAs and other detailed information related to the functions of the genes involved in the fusion and the gene fusion structure. As a result, the performances on the test set reached 0.83 f1-score and 96% recall. The comparison with state-of-the-art tools returned comparable or higher results. Moreover, ChimerDriver performed well in a real-world case where 21 out of 24 validated gene fusion samples were detected by the gene fusion detection tool Starfusion. ChimerDriver integrates transcriptional and post-transcriptional information in an ad-hoc designed neural network to effectively discriminate oncogenic gene fusions from passenger ones. ChimerDriver source code is freely available at https://github.com/martalovino/ChimerDriver.",
+    "keywords": [
+      "Deep learning",
+      "Gene fusions",
+      "Gene ontologies",
+      "Oncogenic potential",
+      "Transcription factor",
+      "miRNA"
+    ],
+    "mesh_terms": [
+      "Gene Fusion",
+      "Humans",
+      "*MicroRNAs/genetics",
+      "Neural Networks, Computer",
+      "Oncogene Fusion",
+      "Software"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lovino, Marta",
+        "Montemurro, Marilisa",
+        "Barrese, Venere S",
+        "Ficarra, Elisa"
+      ],
+      "short_names": [
+        "Lovino M",
+        "Montemurro M",
+        "Barrese VS",
+        "Ficarra E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "University of Modena and Reggio Emilia, Via Vivarelli 10/1, 41125 Modena, Italy. Electronic address: marta.lovino@unimore.it.",
+        "Politecnico di Torino, Corso Duca degli Abruzzi 24, Torino, Italy.",
+        "Politecnico di Torino, Corso Duca degli Abruzzi 24, Torino, Italy.",
+        "University of Modena and Reggio Emilia, Via Vivarelli 10/1, 41125 Modena, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lovino, Marta",
+        "short_name": "Lovino M",
+        "identifiers": [],
+        "affiliations": [
+          "University of Modena and Reggio Emilia, Via Vivarelli 10/1, 41125 Modena, Italy. Electronic address: marta.lovino@unimore.it."
+        ]
+      },
+      {
+        "full_name": "Montemurro, Marilisa",
+        "short_name": "Montemurro M",
+        "identifiers": [],
+        "affiliations": [
+          "Politecnico di Torino, Corso Duca degli Abruzzi 24, Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Barrese, Venere S",
+        "short_name": "Barrese VS",
+        "identifiers": [],
+        "affiliations": [
+          "Politecnico di Torino, Corso Duca degli Abruzzi 24, Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Ficarra, Elisa",
+        "short_name": "Ficarra E",
+        "identifiers": [],
+        "affiliations": [
+          "University of Modena and Reggio Emilia, Via Vivarelli 10/1, 41125 Modena, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomedical informatics"
+    ],
+    "journal_abbrev": [
+      "J Biomed Inform"
+    ],
+    "pub_date": "2022 May",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/28 06:00",
+    "fetched_at": "2026-09-28 06:47:29"
+  },
+  "links": {
+    "cites": [
+      "40939238",
+      "39227987",
+      "38791993",
+      "38512819",
+      "37887311",
+      "36002559"
+    ],
+    "refs": [],
+    "similar": [
+      "35339665",
+      "32016382",
+      "30987060",
+      "31881831",
+      "23505294",
+      "23956304",
+      "34293850",
+      "28983113",
+      "28512242",
+      "30977780",
+      "28114882",
+      "29989075",
+      "29860514",
+      "27105842",
+      "34657620",
+      "31373612",
+      "25183062",
+      "31329176",
+      "25266161",
+      "33639834",
+      "35164688",
+      "23768108",
+      "31911540",
+      "31931701",
+      "31349729",
+      "33852600",
+      "32843691",
+      "30701493",
+      "27907167",
+      "30601940",
+      "22952423",
+      "32251507",
+      "29490018",
+      "27797777",
+      "34671814",
+      "17581865",
+      "28541529",
+      "31141141",
+      "25505085",
+      "35347013",
+      "23625457",
+      "28854978",
+      "33381847",
+      "30818082",
+      "22815777",
+      "28761119",
+      "33228790",
+      "26747586",
+      "33316943",
+      "25189575",
+      "34099491",
+      "27082112",
+      "31308241",
+      "31875988",
+      "31256325",
+      "30864319",
+      "33754707",
+      "30518629",
+      "21377967",
+      "21619662",
+      "22194702",
+      "29281951",
+      "26845116",
+      "23972288",
+      "23298836",
+      "19426523",
+      "34535459",
+      "29868832",
+      "35326655",
+      "29993787",
+      "32726399",
+      "26791235",
+      "22356618",
+      "34053092",
+      "31426421",
+      "27506935",
+      "37066382"
+    ],
+    "review": [
+      "35339665",
+      "27105842",
+      "23625457",
+      "31256325",
+      "21377967",
+      "29281951"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1532-0464(22)00073-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://iris.unimore.it/retrieve/handle/11380/1281680/433627/1-s2.0-S1532046422000739-main.pdf",
+        "provider": "Institutional Repository of University of Modena and Reggio Emilia (IRIS UNIMORE)",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

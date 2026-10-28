@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "38237865",
+    "doi": "10.1016/j.jhep.2023.12.029",
+    "title": "TRIB3-TRIM8 complex drives NAFLD progression by regulating HNF4alpha stability."
+  },
+  "content": {
+    "abstract": "BACKGROUND & AIMS: Endoplasmic reticulum (ER) stress of hepatocytes plays a causative role in non-alcoholic fatty liver disease (NAFLD). Reduced expression of hepatic nuclear factor 4alpha (HNF4alpha) is a critical event in the pathogenesis of NAFLD and other liver diseases. Whether ER stress regulates HNF4alpha expression remains unknown. The aim of this study was to delineate the machinery of HNF4alpha protein degradation and explore a therapeutic strategy based on protecting HNF4alpha stability during NAFLD progression. METHODS: Correlation of HNF4alpha and tribbles homologue 3 (TRIB3), an ER stress sensor, was evaluated in human and mouse NAFLD tissues. RNA-sequencing, mass spectrometry analysis, co-immunoprecipitation, in vivo and in vitro ubiquitination assays were used to elucidate the mechanisms of TRIB3-mediated HNF4alpha degradation. Molecular docking and co-immunoprecipitation analyses were performed to identify a cell-penetrating peptide that ablates the TRIB3-HNF4alpha interaction. RESULTS: TRIB3 directly interacts with HNF4alpha and mediates ER stress-induced HNF4alpha degradation. TRIB3 recruits tripartite motif containing 8 (TRIM8) to form an E3 ligase complex that catalyzes K48-linked polyubiquitination of HNF4alpha on lysine 470. Abrogating the degradation of HNF4alpha attenuated the effect of TRIB3 on a diet-induced NAFLD model. Moreover, the TRIB3 gain-of-function variant p.Q84R is associated with NAFLD progression in patients, and induces lower HNF4alpha levels and more severe hepatic steatosis in mice. Importantly, disrupting the TRIB3-HNF4alpha interaction using a cell-penetrating peptide restores HNF4alpha levels and ameliorates NAFLD progression in mice. CONCLUSIONS: Our findings unravel the machinery of HNF4alpha protein degradation and indicate that targeting TRIB3-TRIM8 E3 complex-mediated HNF4alpha polyubiquitination may be an ideal strategy for NAFLD therapy. IMPACT AND IMPLICATIONS: Reduced expression of hepatic nuclear factor 4alpha (HNF4alpha) is a critical event in the pathogenesis of NAFLD and other liver diseases. However, the mechanism of HNF4alpha protein degradation remains unknown. Herein, we reveal that TRIB3-TRIM8 E3 ligase complex is responsible for HNF4alpha degradation during NAFLD. Inhibiting the TRIB3-HNF4alpha interaction effectively stabilized HNF4alpha protein levels and transcription factor activity in the liver and ameliorated TRIB3-mediated NAFLD progression. Our findings demonstrate that disturbing the TRIM8-TRIB3-HNF4alpha interaction may provide a novel approach to treat NAFLD and even other liver diseases by stabilizing the HNF4alpha protein.",
+    "keywords": [
+      "Hepatic nuclear factor 4alpha",
+      "Non-alcoholic fatty liver disease",
+      "Tribbles homologue 3",
+      "Tripartite motif containing 8",
+      "Ubiquitin"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "Carrier Proteins/metabolism",
+      "Cell Cycle Proteins/metabolism",
+      "*Cell-Penetrating Peptides/metabolism",
+      "Liver/pathology",
+      "Molecular Docking Simulation",
+      "Nerve Tissue Proteins",
+      "*Non-alcoholic Fatty Liver Disease/metabolism",
+      "*Protein Serine-Threonine Kinases/genetics/metabolism/antagonists & inhibitors",
+      "Repressor Proteins",
+      "Ubiquitin-Protein Ligases/metabolism",
+      "Hepatocyte Nuclear Factor 4"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiao, Meng-Chao",
+        "Jiang, Nan",
+        "Chen, Li-Lin",
+        "Liu, Fang",
+        "Liu, Shu-Qing",
+        "Ding, Chen-Hong",
+        "Wu, Si-Han",
+        "Wang, Ke-Qi",
+        "Luo, Yuan-Yuan",
+        "Peng, Yu",
+        "Yan, Fang-Zhi",
+        "Zhang, Xin",
+        "Qian, Hui",
+        "Xie, Wei-Fen"
+      ],
+      "short_names": [
+        "Xiao MC",
+        "Jiang N",
+        "Chen LL",
+        "Liu F",
+        "Liu SQ",
+        "Ding CH",
+        "Wu SH",
+        "Wang KQ",
+        "Luo YY",
+        "Peng Y",
+        "Yan FZ",
+        "Zhang X",
+        "Qian H",
+        "Xie WF"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai 200092, China; Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China.",
+        "Department of Gastroenterology, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai 200092, China; Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China.",
+        "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China.",
+        "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China.",
+        "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China.",
+        "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China.",
+        "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China.",
+        "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China.",
+        "Department of Gastroenterology, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai 200092, China.",
+        "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China.",
+        "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China.",
+        "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China. Electronic address: zhang68@hotmail.com.",
+        "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China. Electronic address: qianhui1981@126.com.",
+        "Department of Gastroenterology, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai 200092, China; Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China; Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai 200120, China. Electronic address: weifenxie@medmail.com.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiao, Meng-Chao",
+        "short_name": "Xiao MC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai 200092, China; Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Nan",
+        "short_name": "Jiang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai 200092, China; Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Li-Lin",
+        "short_name": "Chen LL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Fang",
+        "short_name": "Liu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Shu-Qing",
+        "short_name": "Liu SQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Chen-Hong",
+        "short_name": "Ding CH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Si-Han",
+        "short_name": "Wu SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ke-Qi",
+        "short_name": "Wang KQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Yuan-Yuan",
+        "short_name": "Luo YY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Yu",
+        "short_name": "Peng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Fang-Zhi",
+        "short_name": "Yan FZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xin",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China. Electronic address: zhang68@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Qian, Hui",
+        "short_name": "Qian H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China. Electronic address: qianhui1981@126.com."
+        ]
+      },
+      {
+        "full_name": "Xie, Wei-Fen",
+        "short_name": "Xie WF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai 200092, China; Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China; Shanghai Institute of Stem Cell Research and Clinical Translation, Shanghai 200120, China. Electronic address: weifenxie@medmail.com.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of hepatology"
+    ],
+    "journal_abbrev": [
+      "J Hepatol"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/19 00:42",
+    "fetched_at": "2026-09-29 13:42:17"
+  },
+  "links": {
+    "cites": [
+      "42192118",
+      "41950767",
+      "41939244",
+      "41685142",
+      "41559059",
+      "41413582",
+      "40858572",
+      "40754778",
+      "40564141",
+      "40474196",
+      "40449734",
+      "40379238",
+      "40292292",
+      "40231613",
+      "40211872",
+      "40195661",
+      "40181155",
+      "40133964",
+      "39881875",
+      "39665272",
+      "39638897",
+      "39588331",
+      "39374536",
+      "39309892",
+      "39247617"
+    ],
+    "refs": [],
+    "similar": [
+      "38237865",
+      "39638897",
+      "33298911",
+      "31286822",
+      "23820633",
+      "41290618",
+      "39932798",
+      "35191422",
+      "27252525",
+      "29150932",
+      "34272738",
+      "33548387",
+      "41186004",
+      "40997650",
+      "38879600",
+      "32621919",
+      "38158076",
+      "34139323",
+      "33098092",
+      "40211872",
+      "31235507",
+      "29520103",
+      "39855351",
+      "39934162",
+      "37499886",
+      "32051143",
+      "26855171",
+      "33636024",
+      "35217669",
+      "40691523",
+      "28184934",
+      "32888949",
+      "39653795",
+      "39680632",
+      "26224857",
+      "37116711",
+      "28486108",
+      "37040844",
+      "27981609",
+      "37873692",
+      "39910904",
+      "22577090",
+      "37576703",
+      "26094770",
+      "39265443",
+      "40623462",
+      "32694521",
+      "19566842",
+      "39516480",
+      "31360105",
+      "37562090",
+      "37660122",
+      "39299533",
+      "40520022",
+      "28481357",
+      "30745845",
+      "41457280",
+      "38429254",
+      "33203798",
+      "39948368",
+      "30142454",
+      "30576769",
+      "40903666",
+      "39791220",
+      "18704925",
+      "21864376",
+      "32716348",
+      "40399917",
+      "34503515",
+      "33891332",
+      "37580962",
+      "20461355",
+      "36362837",
+      "32301540",
+      "32157210",
+      "34718616",
+      "32929351",
+      "26100857",
+      "37564204",
+      "39033101",
+      "28859855",
+      "30657961",
+      "31844113",
+      "30176898",
+      "34231239",
+      "28393700",
+      "40615099",
+      "35452693",
+      "38471267",
+      "29457838",
+      "39747658",
+      "32220030",
+      "35672379",
+      "38346961",
+      "28365312",
+      "37253404",
+      "40189099",
+      "38780244",
+      "37047258",
+      "33894019"
+    ],
+    "review": [
+      "38237865",
+      "35191422",
+      "26855171",
+      "22577090",
+      "40623462",
+      "40903666"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0168-8278(24)00036-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/38237865/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0168-8278(24)00036-9",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

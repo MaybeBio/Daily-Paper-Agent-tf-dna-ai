@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusion sections.
+- **Assessment boundary** Scientific validity, methodological rigor, reproducibility, and alignment of conclusions with the presented evidence. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors report a systems biology analysis of gene expression data (GSE63514) combined with DisGeNET-derived cervical cancer genes to identify prognostic markers and upstream transcription factors. They further report molecular docking of five herbal compounds (epicatechin, curcumin, myricetin, jatrorrhizine, and arborinine) against the DNA binding site of CEBPD, concluding that myricetin and curcumin show strong binding affinity and may act as potential therapeutic agents in cervical cancer.
+- **Visible evidence base** GEO dataset GSE63514, DisGeNET database, STRING, Cytoscape, MCODE, g:Profiler, GEPIA2, iRegulon, JASPAR, AutoDock 4.0, SWISS-MODEL, CASTp, and associated supplementary files referenced in the text.
+- **Missing materials affecting confidence** Supplementary files (Additional files 1–7) were not provided for review. Raw docking output files, PDB structures, validation metrics for homology modeling, and complete lists of DEGs and pathway enrichment results were not accessible. The exact parameters for iRegulon analysis and the full output of GEPIA2 survival analyses were not available.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a bioinformatics-driven workflow that integrates transcriptomic data, network analysis, survival assessment, and molecular docking to propose CEBPD as a master regulator of poor-prognosis genes in cervical cancer and myricetin as a potential inhibitor. The workflow is logical and the individual tools are appropriate for the stated aims. However, several critical issues undermine the strength of the conclusions. The connection between the identified prognostic markers and the proposed therapeutic mechanism is largely inferential. The docking analysis is presented without sufficient methodological detail, including the absence of a validated three-dimensional structure for CEBPD, lack of docking validation (e.g., redocking with known ligands), and no consideration of conformational flexibility. The survival analysis relies on a single database without independent validation. The manuscript also contains inconsistencies, such as the abstract stating five genes are regulated by CEBPD while the results indicate CEBPD targets all five negative markers, yet the discussion focuses on only a subset. The claim that myricetin and curcumin are potential therapeutic agents is not supported by functional experiments or even cellular assays. Overall, the study is exploratory and hypothesis-generating, but the conclusions are overstated relative to the evidence.
+- **Who would be interested in the results, and why** Researchers in cervical cancer genomics and bioinformatics may find the identification of CEBPD as a potential upstream regulator of poor-prognosis genes of interest. Investigators studying natural product-based therapeutics may be interested in the docking predictions for myricetin and curcumin. The work may also be relevant to those applying network-based approaches to identify transcription factor hubs in cancer. However, the lack of experimental validation limits the audience to those interested in preliminary computational screening rather than translational applications.
+- **Major strengths** The study addresses a clinically relevant problem with a clear rationale. The integration of multiple public databases and bioinformatics tools is appropriate and generally well described. The use of a stringent threshold for transcription factor identification (NES greater than 5) is a reasonable approach to reduce false positives. The inclusion of survival analysis to prioritize prognostic markers adds clinical relevance. The docking analysis, while limited, is clearly presented in terms of the software used and the criteria for binding affinity interpretation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that CEBPD is a master regulator of the five negative prognostic markers (MYC, IL6, JUN, RRM2, VEGFA) based on iRegulon analysis with NES greater than 5.
+  - **Evidence pointer** Results section "GRN and consensus sequence logo", Table 3, Figure 6a
+  - **Concern** The iRegulon analysis is described only briefly. The authors do not report the underlying motif databases used, the number of motifs considered, the false discovery rate control, or the specific regulatory network context. iRegulon infers transcription factor targets based on motif enrichment, but the confidence in these predictions depends heavily on the parameters and the quality of the input gene set. The authors do not provide the full list of transcription factors identified or the enrichment scores for all candidates, only the top ten. Furthermore, the claim that CEBPD regulates all five markers is based solely on computational inference without any experimental validation, such as chromatin immunoprecipitation, reporter assays, or knockdown studies. The authors also do not discuss whether CEBPD is known to regulate these genes in other cancer types, which would strengthen the plausibility of the claim.
+  - **Why it matters** The central conclusion of the manuscript, that CEBPD is a therapeutic target and that myricetin acts through CEBPD inhibition, depends entirely on the reliability of the iRegulon prediction. If the prediction is not robust, the entire downstream analysis, including the docking study, loses its foundation. Without validation, the claim of a master regulatory role is speculative.
+  - **Resolution test** The authors should provide the full iRegulon output, including all transcription factors with NES scores, the motif databases used, and the statistical thresholds. They should also validate the regulatory relationship between CEBPD and the five target genes using independent datasets (e.g., ChIP-seq data from ENCODE or Cistrome) or experimental approaches. If such validation is not possible, the claims should be softened to reflect the computational nature of the prediction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that myricetin and curcumin show strong binding affinity to the CEBPD DNA binding site, with ΔGbinding values of −8.44 and −7.11 kcal/mol, respectively, and that this supports their potential as therapeutic agents in cervical cancer.
+  - **Evidence pointer** Results section "Molecular docking and post-docking analyses", Table 4, Table 5, Figure 7
+  - **Concern** The docking analysis has several critical methodological limitations. First, the three-dimensional structure of CEBPD was obtained by homology modeling using a template with 62.67% sequence identity. The authors do not report the quality of the model, such as QMEAN, GMQE, or Ramachandran plot statistics. Second, the docking protocol is not described in sufficient detail. The authors state that AutoDock 4.0 was used with 50 independent runs, but they do not report the grid box dimensions, the exhaustiveness, the scoring function parameters, or how the binding site was defined. Third, the authors do not validate the docking protocol by redocking a known ligand or comparing with experimental binding data. Fourth, the authors do not consider the flexibility of the protein or the ligand, which can significantly affect binding affinity predictions. Fifth, the interpretation of ΔGbinding values is based on a single threshold of −7.00 kcal/mol, which is an arbitrary cutoff and does not account for the uncertainty in the calculations. Finally, the authors do not discuss the selectivity of myricetin and curcumin for CEBPD over other transcription factors or proteins, which is essential for claiming therapeutic potential.
+  - **Why it matters** The docking results are the primary evidence for the therapeutic potential of myricetin and curcumin. If the docking methodology is not robust, the binding affinities may be inaccurate, and the conclusion that these compounds are potential CEBPD inhibitors is not justified. The lack of validation and the absence of selectivity analysis mean that the findings are not reliable enough to support the stated conclusions.
+  - **Resolution test** The authors should provide a detailed description of the docking protocol, including grid box coordinates, exhaustiveness, and scoring function. They should report model quality metrics for the homology model. They should validate the docking protocol by redocking a known ligand or using a benchmark set. They should also perform docking against other transcription factors or proteins to assess selectivity. If these validations are not possible, the claims should be limited to a preliminary computational prediction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript claims that 801 DEGs were identified in cervical cancer tissues compared to normal cervical epithelia, and that 33 genes were common between the DEG set and DisGeNET-derived cervical cancer genes.
+  - **Evidence pointer** Results section "Critical genes mediating cervical cancer", Figures 1 and 2, Additional files 2 and 3
+  - **Concern** The authors do not provide the full list of DEGs or the common genes in the main text. The supplementary files are referenced but were not available for review. The authors also do not report the normalization method, the statistical test used, or the multiple testing correction approach for the differential expression analysis. The volcano plot in Figure 1 is mentioned but not shown in the provided text. Without access to the full data and the analysis parameters, the reproducibility of the DEG identification is not assessable.
+  - **Why it matters** The identification of DEGs is the foundation of the entire study. If the DEG list is not reproducible or the analysis parameters are not transparent, the subsequent network analysis, survival analysis, and docking study are built on an unreliable foundation. The lack of transparency prevents other researchers from replicating the results.
+  - **Resolution test** The authors should provide the full list of DEGs with log2 fold changes and adjusted p-values, either in the main text or as a supplementary table. They should report the normalization method, the statistical test, and the multiple testing correction method. They should also provide the list of 33 common genes and the criteria used for the intersection.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that the identified prognostic markers and the proposed CEBPD-mediated mechanism may lead to curative benefits for patients with cervical cancer.
+  - **Evidence pointer** Conclusion section
+  - **Concern** The conclusion that targeting CEBPD with myricetin may lead to curative benefits is a significant overstatement. The study is purely computational and provides no experimental evidence that myricetin inhibits CEBPD in cells or in vivo, nor does it demonstrate any therapeutic effect in cervical cancer models. The claim of curative potential is not supported by the data presented.
+  - **Why it matters** Overstated conclusions can mislead readers and potentially influence future research directions. The scientific community relies on accurate and measured claims to guide further investigation. The current conclusion goes beyond the evidence and may create unrealistic expectations.
+  - **Resolution test** The authors should revise the conclusion to reflect the exploratory and hypothesis-generating nature of the study. They should clearly state that the findings are computational predictions that require experimental validation before any therapeutic claims can be made.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction contain several grammatical errors and awkward phrasings, such as "An imperative necessity arises to delve into innovative therapeutic avenues" and "the outlook for recurrent CxCa patients remains disheartening." These reduce the clarity and professionalism of the manuscript.
+  - **Required correction** The authors should revise the abstract and introduction for grammatical accuracy and clarity. Professional editing or a thorough proofreading pass is recommended.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section
+  - **Evidence pointer** Materials and methods, "Molecular docking and post-docking analyses"
+  - **Issue** The authors state that ligand structures were converted from SDF to PDF format before energy minimization. This is likely a typographical error, as PDF is not a standard format for molecular structures. The intended format is likely PDB or MOL2.
+  - **Required correction** The authors should correct the format description to the appropriate molecular file format, such as PDB or MOL2.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section
+  - **Evidence pointer** Results section "Survival and expression analyses", Table 2
+  - **Issue** The survival analysis is based solely on the GEPIA2 database, which uses TCGA data. The authors do not discuss the limitations of this approach, such as the relatively small number of normal samples (n = 13) and the potential for batch effects or confounding variables.
+  - **Required correction** The authors should acknowledge the limitations of the survival analysis and ideally validate the prognostic significance of the identified genes in an independent cohort.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion is overly long and includes extensive background information on myricetin and CEBPD that is not directly relevant to the findings. This dilutes the focus on the study results.
+  - **Required correction** The authors should condense the discussion to focus on the interpretation of their results and their implications, while reducing the background material.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section
+  - **Evidence pointer** Materials and methods, "Molecular docking and post-docking analyses"
+  - **Issue** The authors do not report the version of the AutoDock software used beyond "AutoDock 4.0" and do not specify the force field parameters or the number of genetic algorithm runs. This level of detail is insufficient for reproducibility.
+  - **Required correction** The authors should provide the full AutoDock parameters, including the force field, grid box dimensions, and the number of genetic algorithm runs, to allow other researchers to replicate the docking analysis.
+
+## Risk / unsupported claims
+- The claim that CEBPD is a master regulator of the five negative prognostic markers is unsupported without experimental validation or independent confirmation from ChIP-seq or other regulatory evidence.
+- The claim that myricetin and curcumin are potential therapeutic agents for cervical cancer based on docking alone is unsupported, as no functional assays, cellular experiments, or in vivo studies are presented.
+- The claim that the findings may lead to "curative benefits" for cervical cancer patients is unsupported and overstated.
+- The identification of 801 DEGs and the 33 common genes cannot be independently assessed because the full data and analysis parameters are not provided in the manuscript.
+- The prognostic significance of the identified genes is based on a single database (GEPIA2) without independent validation, limiting the robustness of this claim.
+- The homology model of CEBPD is not validated with quality metrics, and the docking results are therefore not fully assessable.

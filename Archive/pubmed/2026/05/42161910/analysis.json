@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42161910",
+  "title": "Interpretable deep learning framework for mapping E3-substrate binding interfaces.",
+  "authors": "Li, Dianke; Zhang, Yuting; Liu, Yuan; Zhang, Zihao; Qu, Yingjie; Li, Jiajun; Jiang, Linyang; Diao, Lihong; Zhang, Ziding; Zhang, Lingqiang; Cui, Chun-Ping; Li, Dong",
+  "journal": "Nature communications",
+  "published_date": "2026-05-21",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用可解释深度学习预测E3泛素连接酶-底物结合界面，虽属蛋白质-蛋白质互作而非蛋白质-DNA互作，且无TF-DNA体系，但可解释界面预测方法对蛋白-核酸界面建模有潜在借鉴，故给4分。",
+  "abstract": "E3 ubiquitin ligases recognize substrates through specific interfaces. Accurate delineation of these interfaces is essential, as mutations disrupting them impair protein ubiquitination and drive cancer progression. However, available E3-substrate interface data are sparse and systematic prediction methods remain lacking. Here, we propose MetaESI, a deep learning framework that simultaneously predicts E3-substrate interactions and leverages its interpretable architecture to infer binding interfaces de novo. With a two-stage meta-learning strategy, MetaESI generalizes across diverse E3s and achieves state-of-the-art performance in both interaction and interface prediction. We applied MetaESI at the proteome scale to generate MetaESI-Atlas, which comprises 68,056 annotated interactions across eight species. Integrating multi-omics data, we identified mutations at MetaESI-predicted interfaces that disrupt E3-substrate binding, and experimentally validated representative examples including JunB Q244E and SPOP F102C as oncogenic drivers. By combining interpretable AI with mechanistic insight, MetaESI establishes a methodological paradigm for interpretable model design and a foundational resource for precision oncology and targeted protein degradation.",
+  "abstract_zh": "E3泛素连接酶通过特异性界面识别底物。准确描绘这些界面至关重要，因为破坏它们的突变会损害蛋白质泛素化并驱动癌症进展。然而，现有的E3-底物界面数据稀疏，且系统性的预测方法仍然缺乏。在此，我们提出MetaESI，一种深度学习框架，能够同时预测E3-底物相互作用，并利用其可解释架构从头推断结合界面。通过两阶段元学习策略，MetaESI在多种E3中实现泛化，并在相互作用和界面预测方面均达到最先进性能。我们将MetaESI应用于蛋白质组规模，生成MetaESI-Atlas，包含跨八个物种的68,056个注释相互作用。整合多组学数据，我们识别了MetaESI预测界面上的突变，这些突变破坏E3-底物结合，并通过实验验证了代表性案例，包括JunB Q244E和SPOP F102C作为致癌驱动因子。通过将可解释人工智能与机制性洞察相结合，MetaESI为可解释模型设计建立了方法论范式，并为精准肿瘤学和靶向蛋白质降解提供了基础资源。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42161910/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42161910/",
+  "paper_page_path": "papers/pubmed/42161910/index.html"
+}

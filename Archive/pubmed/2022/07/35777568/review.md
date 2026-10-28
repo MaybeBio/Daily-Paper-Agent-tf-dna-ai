@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that diethyl phosphate (DEP), a non-specific metabolite of diethyl organophosphorus pesticides, disrupts hypothalamic-pituitary-adrenal (HPA) axis endocrine hormones by binding to nuclear receptors GR and Nur77, thereby impairing glucocorticoid production and physiological function, based on integrated in vivo, in vitro, and in silico evidence.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical outputs, molecular docking and dynamics simulation parameters, spectroscopy binding data, cell line and animal strain details, dose and exposure duration information, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important toxicological hypothesis with a multi-tiered experimental strategy. However, the current evidence base is insufficient to evaluate the rigor of the claims. The causal chain from DEP exposure to HPA axis disruption via GR and Nur77 antagonism is plausible but not quantitatively supported in the provided material. The abstract lacks critical experimental details, including doses, exposure durations, statistical significance, binding affinities, and simulation validation, which precludes a robust assessment of the manuscript's conclusions.
+- **Who would be interested in the results, and why** Environmental toxicologists, endocrine disruptor researchers, regulatory toxicologists, and scientists studying pesticide metabolite toxicity. The work addresses a gap in understanding whether DAP metabolites, rather than parent organophosphorus compounds, directly cause endocrine disruption, which is relevant for risk assessment of pesticide residues in food and the environment.
+- **Major strengths** The study integrates multiple complementary approaches (in vivo, in vitro, in silico) to address a mechanistically important question. The focus on DEP as a specific metabolite rather than the broader DAP class is a targeted and scientifically meaningful angle. The identification of GR and Nur77 as potential molecular targets offers a novel mechanistic hypothesis that could inform future toxicity screening.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Chronic DEP exposure significantly disturbed the serum contents of HPA axis hormones in adult male rats"
+  - **Evidence pointer** Animal experiments, location not provided
+  - **Concern** The abstract states that DEP significantly disturbed HPA axis hormones but provides no quantitative data, such as hormone levels, effect sizes, or statistical significance values. Without these, the claim of "significant" disturbance cannot be verified.
+  - **Why it matters** The central in vivo finding underpins the entire mechanistic narrative. If the hormonal changes are marginal or inconsistent, the downstream conclusions about GR and Nur77 involvement are weakened.
+  - **Resolution test** Provide specific hormone measurements (e.g., corticosterone, ACTH) with means, standard deviations, sample sizes, and p-values or confidence intervals for each treatment group.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic causality
+  - **Claim pointer** "DEP can bind to nuclear receptors GR and Nur77, affecting their transcription factor functions, and the transcriptional expression levels of their downstream target genes were reduced"
+  - **Evidence pointer** Spectroscopy experiments, cell experiments, molecular docking, molecular dynamics simulations, location not provided
+  - **Concern** The abstract implies a direct causal link between DEP binding to GR and Nur77 and reduced transcriptional activity, but no binding affinities, functional assay results, or simulation quality metrics are reported. It is unclear whether the binding is specific, physiologically relevant, or merely computational.
+  - **Why it matters** Establishing that DEP acts as an antagonist of these nuclear receptors is essential to the claim that DEP "inhibits" HPA axis hormone production. Without quantitative binding and functional data, the mechanism remains speculative.
+  - **Resolution test** Report binding constants (e.g., Kd or Ki) from spectroscopy, demonstrate dose-dependent inhibition of GR and Nur77 transcriptional activity in cell-based reporter assays, and provide validation of docking and simulation results (e.g., RMSD, binding free energies).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dose-response and exposure relevance
+  - **Claim pointer** "Chronic DEP exposure significantly disturbed the serum contents of HPA axis hormones"
+  - **Evidence pointer** Animal experiments, location not provided
+  - **Concern** The abstract does not specify the DEP doses used, the route of administration, or the duration of exposure. Without this information, it is impossible to assess whether the exposure levels are environmentally or occupationally relevant, or whether they are supra-physiological.
+  - **Why it matters** The public health relevance of the findings depends on whether the observed effects occur at concentrations that humans might realistically encounter. If doses are unrealistically high, the conclusions may not translate to real-world risk.
+  - **Resolution test** Provide a dose-response study with at least three dose levels, justify dose selection relative to human exposure estimates, and report the exposure duration and route.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Tissue specificity and pathway coherence
+  - **Claim pointer** "The target genes of glucocorticoid receptor (GR) in rat liver, including 11beta-hsd1 and Pepck1 and PEPCK protein expressions, were down-regulated. Moreover, the gluconeogenic abilities of rats were impaired. However, it did not affect the expression of GR in the rat hypothalamus."
+  - **Evidence pointer** Animal experiments, location not provided
+  - **Concern** The abstract reports GR target gene downregulation in the liver and impaired gluconeogenesis, but it is unclear how these peripheral effects relate to the central HPA axis regulation. The lack of GR expression change in the hypothalamus is noted but not integrated into the mechanistic model.
+  - **Why it matters** The HPA axis involves coordinated central and peripheral signaling. A coherent model requires explaining how DEP acts peripherally (liver) versus centrally (hypothalamus, pituitary) to disrupt hormone levels. The current description is fragmented.
+  - **Resolution test** Clarify the proposed mechanism by which peripheral GR antagonism leads to altered HPA axis hormone secretion, and provide data on pituitary and adrenal gland responses, including ACTH and corticosterone dynamics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "antagonizing nuclear receptors" is used without specifying whether DEP acts as a competitive antagonist, inverse agonist, or allosteric modulator.
+  - **Required correction** Define the antagonism mechanism based on the experimental data, or state that the precise mode of antagonism remains to be determined.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting completeness
+  - **Affected element** Statistical reporting
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** No statistical methods or significance thresholds are mentioned for any of the in vivo or in vitro experiments.
+  - **Required correction** Include a brief statement of statistical tests used and significance criteria in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Species and sex specificity
+  - **Evidence pointer** Animal experiments, location not provided
+  - **Issue** The study uses only adult male rats, but the abstract does not acknowledge potential sex differences in HPA axis responses to endocrine disruptors.
+  - **Required correction** Add a sentence noting the limitation of using a single sex and the need for future studies in females.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative in vivo data, binding and functional validation, and dose-response information means the core claims are not currently verifiable from the provided material.
+- **Assessment against Nature-style criteria** Originality: The focus on DEP as a specific metabolite and the identification of Nur77 as a novel target are original contributions. Scientific importance: The work addresses a significant gap in understanding metabolite-driven endocrine disruption, which has regulatory implications. Interdisciplinary readership: The topic bridges toxicology, endocrinology, and computational biology, appealing to a broad audience. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological detail and quantitative results prevents verification. Readability for nonspecialists: The abstract is generally clear but uses specialized terms (e.g., 11beta-hsd1, Pepck1) without explanation, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the multi-method approach is commendable, but the abstract lacks the quantitative and methodological detail necessary to support the claims. A revised manuscript with full experimental data, statistical analyses, and dose-response information could change this assessment.
+
+## Risk / unsupported claims
+- The claim that DEP "significantly disturbed" HPA axis hormones is unsupported without numerical data or statistical values.
+- The claim that DEP "can bind to" GR and Nur77 and "affecting their transcription factor functions" is unsupported without binding affinities or functional assay results.
+- The claim that DEP "antagonizes" nuclear receptors is unsupported without mechanistic data.
+- The claim that DEP "inhibits the production and physiological functions of HPA axis endocrine hormones" is a broad conclusion that extends beyond the presented evidence.
+- The claim that the results "provide a theoretical basis for strictly controlling the residue limits" is an extrapolation not directly supported by the abstract's data.

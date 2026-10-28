@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2024-87xr8",
+  "title": "Computing Ligand Binding Free Energy in a Large Flexible Pocket of a Large Protein",
+  "authors": "Evgeny Gutkin; Chamali Narangoda; Maria Kurnikova",
+  "journal": "ChemRxiv",
+  "published_date": "2024-11-10",
+  "window": {
+    "start": "2024-11-04",
+    "end": "2024-11-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用MD分层方法计算大柔性口袋蛋白-配体结合自由能，虽非TF-DNA体系，但蛋白-配体结合自由能计算方法可迁移至TF-DNA互作建模，具方法学借鉴价值。",
+  "abstract": "Protein-ligand standard binding free energy (SBFE) calculations based on molecular dynamics simulations have recently emerged as an efficient tool for computer-aided drug design. However, the majority of studies have focused on well-defined ligand binding pockets in small proteins, while computing SBFE of a small molecule ligand to a large, flexible binding site remains problematic. Numerous proteins with large flexible binding pockets play an important role in biological processes and are of pharmaceutical importance. Therefore, the calculation of the ligand SBFE with such proteins is an important challenge. In this work, we developed a hierarchical approach to compute SBFE of a flexible multi-conformational system as an ensemble average of individual local SBFEs to specific conformational states of the protein-ligand complex. This approach allows us to simulate a truncated portion of a large protein, which brings an intractable system within the reach of modern computational tools. Our approach also accounts for the differences in conformational preferences between a ligand-bound and an apo states of the protein. The approach is validated using the T4 lysozyme mutant in complex with a small molecule inhibitor. Binding energies of a non-competitive antagonist (GYKI) with the GluA2 glutamate receptor of AMPA type (AMPAR) are computed for several poses of GYKI in the binding pocket to help facilitate structure validation at relatively low resolution.",
+  "abstract_zh": "基于分子动力学 (molecular dynamics) 模拟的蛋白质-配体标准结合自由能 (standard binding free energy, SBFE) 计算，近期已成为计算机辅助药物设计的有效工具。然而，大多数研究集中于小蛋白中定义明确的配体结合口袋，而计算小分子配体与大型、柔性结合位点的SBFE仍具挑战性。许多具有大柔性结合口袋的蛋白质在生物过程中发挥重要作用，并具有药物学重要性。因此，计算此类蛋白质的配体SBFE是一项重要挑战。在本工作中，我们开发了一种分层方法，将柔性多构象系统的SBFE计算为蛋白质-配体复合物特定构象状态的各局部SBFE的系综平均。该方法使我们能够模拟大型蛋白质的截断部分，从而使难以处理的系统进入现代计算工具的可及范围。我们的方法还考虑了配体结合态与脱辅基 (apo) 态蛋白质之间构象偏好的差异。该方法通过T4溶菌酶突变体与小分子抑制剂的复合物进行验证。我们计算了非竞争性拮抗剂GYKI与AMPA型GluA2谷氨酸受体 (AMPAR) 在结合口袋中多种姿态下的结合能，以助于在相对较低分辨率下进行结构验证。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2024-87xr8",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2024-87xr8",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2024-87xr8/index.html"
+}

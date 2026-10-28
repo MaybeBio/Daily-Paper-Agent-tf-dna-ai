@@ -1,0 +1,270 @@
+{
+  "identity": {
+    "pmid": "38452983",
+    "doi": "10.1016/j.trim.2024.102018",
+    "title": "Identification of Cbx6 as a potential biomarker in renal ischemia/reperfusion injury."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Renal ischemia/reperfusion injury (RIRI) is an inevitable consequence of kidney transplantation and has a negative impact on both short-term and long-term graft survival. The identification of key markers in RIRI to improve the prognosis of patients would be highly advantageous. METHODS: Gene expression profile data of GSE27274 were obtained from the Gene Expression Omnibus database. Differentially expressed genes (DEGs) were analyzed using the Limma package. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes enrichment of DEGs were performed. Support vector machine-recursive feature elimination and least absolute shrinkage and selection operator regression modeling were both performed to identify potential biomarkers. The GSE148420 dataset, quantitative reverse transcriptase-PCR, and western blotting results of kidney tissue samples were used to validate the bioinformatic analysis. Lastly, exploring differences between different groups through gene set enrichment analysis and using DsigDB database to identify potential therapeutic drugs targeting hub genes. RESULTS: A total of 160 upregulated and 180 downregulated DEGs were identified. Functional enrichment analysis identified significant enrichment in processes involving peroxisomes. As a subunit of Polycomb Repressive Complex 1(PRC1), chromobox 6(Cbx6) was identified as a potential biomarker with an area under the receiver operating characteristic curve of 0.875 (95% confidence interval 0.624-1.000) in the validation cohort, and it was highly expressed in the RIRI group (p < 0.05). In the high expression group Cbx6 was more enriched in the toll-like receptor signaling pathway. We predicted 15 potential drugs targeting hub genes of RIRI. CONCLUSIONS: We identified Cbx6 as a potential biomarker for RIRI and 15 potential drugs for the treatment of RIRI, which might shed a light on the treatment of RIRI.",
+    "keywords": [
+      "Bioinformatics analysis",
+      "Biomarker",
+      "GSEA",
+      "Machine learning",
+      "Renal ischemia/reperfusion injury"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Biomarkers/metabolism",
+      "Computational Biology/methods",
+      "Databases, Genetic",
+      "Gene Expression Profiling",
+      "Kidney/metabolism/pathology",
+      "Kidney Transplantation/adverse effects",
+      "Polycomb Repressive Complex 1/genetics/metabolism",
+      "Prognosis",
+      "*Reperfusion Injury/metabolism/genetics/diagnosis",
+      "*Polycomb-Group Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pan, Ziwen",
+        "Chang, Sheng",
+        "Chen, Song",
+        "Zou, Zhiyu",
+        "Hou, Yibo",
+        "Chen, Zhishui",
+        "Zhang, Weijie"
+      ],
+      "short_names": [
+        "Pan Z",
+        "Chang S",
+        "Chen S",
+        "Zou Z",
+        "Hou Y",
+        "Chen Z",
+        "Zhang W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Organ Transplantation, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Ministry of Education, NHC Key Laboratory of Organ Transplantation, Key Laboratory of Organ Transplantation, Chinese Academy of Medical Sciences, Wuhan 430030, China.",
+        "Institute of Organ Transplantation, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Ministry of Education, NHC Key Laboratory of Organ Transplantation, Key Laboratory of Organ Transplantation, Chinese Academy of Medical Sciences, Wuhan 430030, China.",
+        "Institute of Organ Transplantation, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Ministry of Education, NHC Key Laboratory of Organ Transplantation, Key Laboratory of Organ Transplantation, Chinese Academy of Medical Sciences, Wuhan 430030, China.",
+        "Institute of Organ Transplantation, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Ministry of Education, NHC Key Laboratory of Organ Transplantation, Key Laboratory of Organ Transplantation, Chinese Academy of Medical Sciences, Wuhan 430030, China.",
+        "Institute of Organ Transplantation, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Ministry of Education, NHC Key Laboratory of Organ Transplantation, Key Laboratory of Organ Transplantation, Chinese Academy of Medical Sciences, Wuhan 430030, China.",
+        "Institute of Organ Transplantation, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Ministry of Education, NHC Key Laboratory of Organ Transplantation, Key Laboratory of Organ Transplantation, Chinese Academy of Medical Sciences, Wuhan 430030, China.",
+        "Institute of Organ Transplantation, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Ministry of Education, NHC Key Laboratory of Organ Transplantation, Key Laboratory of Organ Transplantation, Chinese Academy of Medical Sciences, Wuhan 430030, China. Electronic address: wjzhangtj@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pan, Ziwen",
+        "short_name": "Pan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organ Transplantation, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Ministry of Education, NHC Key Laboratory of Organ Transplantation, Key Laboratory of Organ Transplantation, Chinese Academy of Medical Sciences, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Sheng",
+        "short_name": "Chang S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organ Transplantation, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Ministry of Education, NHC Key Laboratory of Organ Transplantation, Key Laboratory of Organ Transplantation, Chinese Academy of Medical Sciences, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Song",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organ Transplantation, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Ministry of Education, NHC Key Laboratory of Organ Transplantation, Key Laboratory of Organ Transplantation, Chinese Academy of Medical Sciences, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Zhiyu",
+        "short_name": "Zou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organ Transplantation, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Ministry of Education, NHC Key Laboratory of Organ Transplantation, Key Laboratory of Organ Transplantation, Chinese Academy of Medical Sciences, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Yibo",
+        "short_name": "Hou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organ Transplantation, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Ministry of Education, NHC Key Laboratory of Organ Transplantation, Key Laboratory of Organ Transplantation, Chinese Academy of Medical Sciences, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhishui",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organ Transplantation, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Ministry of Education, NHC Key Laboratory of Organ Transplantation, Key Laboratory of Organ Transplantation, Chinese Academy of Medical Sciences, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Weijie",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organ Transplantation, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Ministry of Education, NHC Key Laboratory of Organ Transplantation, Key Laboratory of Organ Transplantation, Chinese Academy of Medical Sciences, Wuhan 430030, China. Electronic address: wjzhangtj@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Transplant immunology"
+    ],
+    "journal_abbrev": [
+      "Transpl Immunol"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/08 00:43",
+    "fetched_at": "2026-09-29 16:31:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38452983",
+      "34557203",
+      "36778059",
+      "39583859",
+      "39341981",
+      "30566931",
+      "38867322",
+      "35713363",
+      "39560530",
+      "38495888",
+      "35658960",
+      "37033969",
+      "37704087",
+      "36246123",
+      "41146237",
+      "38951833",
+      "41200172",
+      "32044658",
+      "40035402",
+      "31699960",
+      "36195955",
+      "40312440",
+      "41305834",
+      "38690269",
+      "37928383",
+      "38532724",
+      "39600181",
+      "41006883",
+      "26840539",
+      "39501535",
+      "37359526",
+      "39230867",
+      "40263537",
+      "29089522",
+      "41047376",
+      "41544137",
+      "40245021",
+      "40109453",
+      "39473404",
+      "40790764",
+      "35313524",
+      "41479901",
+      "29901134",
+      "39837430",
+      "40628511",
+      "39609718",
+      "41044520",
+      "39351239",
+      "38957433",
+      "40091022",
+      "41253465",
+      "41367897",
+      "41378005",
+      "40147738",
+      "41145553",
+      "39586719",
+      "40441253",
+      "40860289",
+      "40997906",
+      "40374840",
+      "41268597",
+      "40523222",
+      "40173189",
+      "40443672",
+      "39142001",
+      "40949741",
+      "39715172",
+      "39875572",
+      "39754246",
+      "35562622",
+      "39466354",
+      "40821971",
+      "31009621",
+      "39549926",
+      "34814332",
+      "37325631",
+      "35958412",
+      "32493063",
+      "40220406",
+      "31416885",
+      "39172048",
+      "40500570",
+      "38008232",
+      "38650009",
+      "39170142",
+      "38538213",
+      "38701300",
+      "35709926",
+      "31987036",
+      "29845250",
+      "36776400",
+      "36225941",
+      "33705733",
+      "35031454",
+      "30132538",
+      "38509535",
+      "37756159",
+      "35634481",
+      "34975295",
+      "39097701"
+    ],
+    "review": [
+      "38452983"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0966-3274(24)00034-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0966-3274(24)00034-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

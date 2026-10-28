@@ -1,0 +1,432 @@
+{
+  "identity": {
+    "pmid": "34755876",
+    "doi": "10.1093/nar/gkab1040",
+    "title": "Functional asymmetry and chemical reactivity of CsoR family persulfide sensors."
+  },
+  "content": {
+    "abstract": "CstR is a persulfide-sensing member of the functionally diverse copper-sensitive operon repressor (CsoR) superfamily. While CstR regulates the bacterial response to hydrogen sulfide (H2S) and more oxidized reactive sulfur species (RSS) in Gram-positive pathogens, other dithiol-containing CsoR proteins respond to host derived Cu(I) toxicity, sometimes in the same bacterial cytoplasm, but without regulatory crosstalk in cells. It is not clear what prevents this crosstalk, nor the extent to which RSS sensors exhibit specificity over other oxidants. Here, we report a sequence similarity network (SSN) analysis of the entire CsoR superfamily, which together with the first crystallographic structure of a CstR and comprehensive mass spectrometry-based kinetic profiling experiments, reveal new insights into the molecular basis of RSS specificity in CstRs. We find that the more N-terminal cysteine is the attacking Cys in CstR and is far more nucleophilic than in a CsoR. Moreover, our CstR crystal structure is markedly asymmetric and chemical reactivity experiments reveal the functional impact of this asymmetry. Substitution of the Asn wedge between the resolving and the attacking thiol with Ala significantly decreases asymmetry in the crystal structure and markedly impacts the distribution of species, despite adopting the same global structure as the parent repressor. Companion NMR, SAXS and molecular dynamics simulations reveal that the structural and functional asymmetry can be traced to fast internal dynamics of the tetramer. Furthermore, this asymmetry is preserved in all CstRs and with all oxidants tested, giving rise to markedly distinct distributions of crosslinked products. Our exploration of the sequence, structural, and kinetic features that determine oxidant-specificity suggest that the product distribution upon RSS exposure is determined by internal flexibility.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Bacterial Proteins/*chemistry/genetics/metabolism",
+      "Copper/*chemistry/metabolism",
+      "Crystallography, X-Ray",
+      "Cysteine/chemistry/genetics/metabolism",
+      "Fluorescence Polarization",
+      "Free Radicals/chemistry/metabolism",
+      "Gram-Positive Bacteria/classification/genetics/metabolism",
+      "Magnetic Resonance Spectroscopy",
+      "*Molecular Dynamics Simulation",
+      "*Operon",
+      "Protein Conformation",
+      "Repressor Proteins/*chemistry/genetics/metabolism",
+      "Sulfides/*chemistry/metabolism",
+      "Sulfur/chemistry/metabolism",
+      "Toluene/analogs & derivatives/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fakhoury, Joseph N",
+        "Zhang, Yifan",
+        "Edmonds, Katherine A",
+        "Bringas, Mauro",
+        "Luebke, Justin L",
+        "Gonzalez-Gutierrez, Giovanni",
+        "Capdevila, Daiana A",
+        "Giedroc, David P"
+      ],
+      "short_names": [
+        "Fakhoury JN",
+        "Zhang Y",
+        "Edmonds KA",
+        "Bringas M",
+        "Luebke JL",
+        "Gonzalez-Gutierrez G",
+        "Capdevila DA",
+        "Giedroc DP"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2071-9410",
+        "ORCID: 0000-0001-7048-1098",
+        "ORCID: 0000-0002-1282-9858",
+        "ORCID: 0000-0002-2040-3689",
+        "ORCID: 0000-0002-1044-943X",
+        "ORCID: 0000-0002-0500-1016",
+        "ORCID: 0000-0002-2342-1620"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Indiana University, 800 E. Kirkwood Ave, Bloomington, IN 47405-7102, USA.",
+        "Department of Chemistry, Indiana University, 800 E. Kirkwood Ave, Bloomington, IN 47405-7102, USA.",
+        "Department of Molecular and Cellular Biochemistry, Indiana University, 212 S. Hawthorne Drive, Bloomington, IN 47405 USA.",
+        "Department of Chemistry, Indiana University, 800 E. Kirkwood Ave, Bloomington, IN 47405-7102, USA.",
+        "Fundacion Instituto Leloir, Av. Patricias Argentinas 435, Buenos Aires C1405BWE, Argentina.",
+        "Department of Chemistry, Indiana University, 800 E. Kirkwood Ave, Bloomington, IN 47405-7102, USA.",
+        "Department of Molecular and Cellular Biochemistry, Indiana University, 212 S. Hawthorne Drive, Bloomington, IN 47405 USA.",
+        "Department of Chemistry, Indiana University, 800 E. Kirkwood Ave, Bloomington, IN 47405-7102, USA.",
+        "Fundacion Instituto Leloir, Av. Patricias Argentinas 435, Buenos Aires C1405BWE, Argentina.",
+        "Department of Chemistry, Indiana University, 800 E. Kirkwood Ave, Bloomington, IN 47405-7102, USA.",
+        "Department of Molecular and Cellular Biochemistry, Indiana University, 212 S. Hawthorne Drive, Bloomington, IN 47405 USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fakhoury, Joseph N",
+        "short_name": "Fakhoury JN",
+        "identifiers": [
+          "0000-0003-2071-9410"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Indiana University, 800 E. Kirkwood Ave, Bloomington, IN 47405-7102, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yifan",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0001-7048-1098"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Indiana University, 800 E. Kirkwood Ave, Bloomington, IN 47405-7102, USA.",
+          "Department of Molecular and Cellular Biochemistry, Indiana University, 212 S. Hawthorne Drive, Bloomington, IN 47405 USA."
+        ]
+      },
+      {
+        "full_name": "Edmonds, Katherine A",
+        "short_name": "Edmonds KA",
+        "identifiers": [
+          "0000-0002-1282-9858"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Indiana University, 800 E. Kirkwood Ave, Bloomington, IN 47405-7102, USA."
+        ]
+      },
+      {
+        "full_name": "Bringas, Mauro",
+        "short_name": "Bringas M",
+        "identifiers": [
+          "0000-0002-2040-3689"
+        ],
+        "affiliations": [
+          "Fundación Instituto Leloir, Av. Patricias Argentinas 435, Buenos Aires C1405BWE, Argentina."
+        ]
+      },
+      {
+        "full_name": "Luebke, Justin L",
+        "short_name": "Luebke JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Indiana University, 800 E. Kirkwood Ave, Bloomington, IN 47405-7102, USA."
+        ]
+      },
+      {
+        "full_name": "Gonzalez-Gutierrez, Giovanni",
+        "short_name": "Gonzalez-Gutierrez G",
+        "identifiers": [
+          "0000-0002-1044-943X"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Biochemistry, Indiana University, 212 S. Hawthorne Drive, Bloomington, IN 47405 USA."
+        ]
+      },
+      {
+        "full_name": "Capdevila, Daiana A",
+        "short_name": "Capdevila DA",
+        "identifiers": [
+          "0000-0002-0500-1016"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Indiana University, 800 E. Kirkwood Ave, Bloomington, IN 47405-7102, USA.",
+          "Fundación Instituto Leloir, Av. Patricias Argentinas 435, Buenos Aires C1405BWE, Argentina."
+        ]
+      },
+      {
+        "full_name": "Giedroc, David P",
+        "short_name": "Giedroc DP",
+        "identifiers": [
+          "0000-0002-2342-1620"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Indiana University, 800 E. Kirkwood Ave, Bloomington, IN 47405-7102, USA.",
+          "Department of Molecular and Cellular Biochemistry, Indiana University, 212 S. Hawthorne Drive, Bloomington, IN 47405 USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2021 Dec 2",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/11 06:00",
+    "fetched_at": "2026-09-28 01:39:01"
+  },
+  "links": {
+    "cites": [
+      "42218159",
+      "42213201",
+      "41757066",
+      "41166368",
+      "40944455",
+      "40228336",
+      "39658019",
+      "38948149",
+      "37399745",
+      "37116710",
+      "36993174",
+      "36909821",
+      "36765168",
+      "36139741",
+      "36009332",
+      "35634358",
+      "35347217",
+      "35216300"
+    ],
+    "refs": [
+      "34112687",
+      "33495458",
+      "33106663",
+      "32875640",
+      "32873707",
+      "32776457",
+      "32699012",
+      "32697076",
+      "32576676",
+      "31795512",
+      "31723039",
+      "31553576",
+      "31310152",
+      "30873134",
+      "30692683",
+      "30268904",
+      "30213949",
+      "29712426",
+      "28656172",
+      "28612361",
+      "28445744",
+      "28196888",
+      "28166209",
+      "28070562",
+      "27934966",
+      "27474740",
+      "27281571",
+      "27056234",
+      "26801579",
+      "26327377",
+      "25867078",
+      "25798654",
+      "25505092",
+      "25318663",
+      "25310275",
+      "25288103",
+      "24831014",
+      "24733942",
+      "24695963",
+      "24682329",
+      "24410852",
+      "24214167",
+      "24121681",
+      "24103186",
+      "23728592",
+      "23001947",
+      "22451651",
+      "22369063",
+      "22356910",
+      "22331404",
+      "22007758",
+      "21632538",
+      "21387010",
+      "21339296",
+      "21166899",
+      "20810781",
+      "20804771",
+      "20395270",
+      "20124702",
+      "20121194",
+      "19928961",
+      "19841778",
+      "19249860",
+      "18804173",
+      "18757728",
+      "18505253",
+      "17143269",
+      "17041037",
+      "16981200",
+      "16956381",
+      "16926397",
+      "15466022",
+      "14617646",
+      "12958362",
+      "12146942",
+      "11735399",
+      "9811843",
+      "8744570",
+      "8660575",
+      "8520220"
+    ],
+    "similar": [
+      "34755876",
+      "25318663",
+      "29712426",
+      "25798654",
+      "24831014",
+      "21339296",
+      "23385876",
+      "19249860",
+      "20395270",
+      "33106663",
+      "34085855",
+      "22451651",
+      "25793461",
+      "21564342",
+      "17143269",
+      "24121681",
+      "26332992",
+      "35634358",
+      "27725778",
+      "37116710",
+      "18048925",
+      "37567478",
+      "39384553",
+      "27806570",
+      "23090582",
+      "26327377",
+      "23001947",
+      "37399745",
+      "32699012",
+      "28656172",
+      "19883076",
+      "29220697",
+      "26109070",
+      "16502332",
+      "25592736",
+      "36009332",
+      "22904286",
+      "20232870",
+      "23215580",
+      "25409712",
+      "29794028",
+      "14518983",
+      "33169162",
+      "18505253",
+      "31311857",
+      "25204500",
+      "19762467",
+      "18757728",
+      "11827487",
+      "28784764",
+      "18837698",
+      "15379560",
+      "19703465",
+      "32875640",
+      "16925555",
+      "26744254",
+      "18586944",
+      "23353829",
+      "35025212",
+      "35218121",
+      "8638105",
+      "15522304",
+      "30243097",
+      "8132509",
+      "8723315",
+      "16452421",
+      "15134447",
+      "22004669",
+      "10647179",
+      "26999439",
+      "30157639",
+      "21812885",
+      "10555317",
+      "21632538",
+      "27382962",
+      "9083014",
+      "32461276",
+      "18208493",
+      "25030084",
+      "15359276",
+      "28765541",
+      "27427478",
+      "11532136",
+      "21276936",
+      "22167197",
+      "31974167",
+      "18656485",
+      "11428900",
+      "27474740",
+      "27411966",
+      "36993174",
+      "23645680",
+      "31558743",
+      "28009842",
+      "14597624",
+      "26177047",
+      "24548275",
+      "32397647",
+      "17543986",
+      "27337024",
+      "29292456",
+      "9341111",
+      "10387106",
+      "36829981",
+      "37901548",
+      "37294127",
+      "34299255",
+      "36281069",
+      "36009302",
+      "38712962"
+    ],
+    "review": [
+      "34755876",
+      "37399745",
+      "32699012",
+      "30243097"
+    ],
+    "pmc": [
+      "8643695"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34755876/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34755876",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkab1040",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

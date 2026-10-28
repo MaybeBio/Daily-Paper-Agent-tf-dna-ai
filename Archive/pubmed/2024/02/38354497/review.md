@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a machine learning pipeline that predicts transcription factor co-binding from large-scale ChIP-Seq data, generates co-regulatory modules, maps these to gene regulatory networks, and applies the approach to cardiac regulatory motifs, identifying known and novel cardiac regulators.
+- **Visible evidence base** Abstract text only; no quantitative details beyond AUC, F1, and overlap percentages; no dataset splits, validation procedures, or statistical tests described
+- **Missing materials affecting confidence** Full methods, model architecture details, hyperparameters, training/validation/test splits, clustering algorithm specifications, validation protocols for CRM predictions, gene regulatory network construction details, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational framework for predicting transcription factor co-binding and constructing co-regulatory modules from large-scale epigenomic data. The reported performance metrics are promising, and the cardiac application is biologically relevant. However, the abstract alone does not provide sufficient methodological detail to assess the validity of the claims, the rigor of the validation, or the generalizability of the approach. Several claims appear overstated relative to the evidence described.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, transcription factor cooperativity prediction, and epigenomic data integration would be the primary audience. Researchers studying cardiac gene regulation and congenital heart disease may also find the specific cardiac CRM predictions useful as a source of candidate regulators for experimental follow-up.
+- **Major strengths** The study addresses a scalability gap in existing motif co-occurrence prediction methods. The use of a large curated dataset (1983 samples, 232 TFs) is a notable resource. The comparison of two machine learning architectures provides a useful benchmark. The cardiac-focused downstream analysis offers a concrete biological application.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CNN outperformed RFC with AUC 0.94 versus 0.88 and F1 scores of 0.938 versus 0.872.
+  - **Evidence pointer** Abstract, performance comparison section; location not provided
+  - **Concern** The abstract reports only aggregate performance metrics without any indication of the evaluation setup. It is unclear whether these metrics were obtained on a held-out test set, through cross-validation, or on the training data. No confidence intervals, standard deviations, or statistical significance tests are reported. The class balance of the co-binding prediction task is not described, which is critical for interpreting precision-recall and F1 scores.
+  - **Why it matters** Without knowing the evaluation protocol and the underlying class distribution, the reported AUC and F1 values cannot be interpreted as evidence of genuine predictive performance. Overfitting or leakage between training and test sets could produce inflated metrics.
+  - **Resolution test** Provide a clear description of the train/validation/test split, report metrics with variance estimates across multiple runs or cross-validation folds, and state the baseline prevalence of co-binding events in the dataset.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that predicted CRMs were validated against ChipAtlas and MCOT, and that 200k CRMs for 50k+ human genes were validated against recent CRM prediction methods with 100% overlap.
+  - **Evidence pointer** Abstract, validation section; location not provided
+  - **Concern** The claim of 100% overlap with recent CRM prediction methods is extraordinary and requires careful scrutiny. The abstract does not specify which methods were used for comparison, how overlap was defined (exact genomic coordinates, partial overlap, motif composition), or whether the comparison was performed on the same genomic regions. A 100% overlap rate is suspicious and may indicate that the comparison was circular or that the definition of overlap was overly permissive.
+  - **Why it matters** If the validation is not independent and rigorous, the claim that the pipeline produces accurate CRMs is not established. The 100% overlap figure, if taken at face value, would be remarkable and would require strong evidence to be credible.
+  - **Resolution test** Specify the comparator methods, the exact definition of overlap, the genomic regions compared, and provide a detailed breakdown of overlap rates across different CRM categories. If 100% overlap is claimed, show the actual comparison data and explain why perfect agreement is biologically and methodologically plausible.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that identified cardiac CRMs revealed potential novel regulators like ARID3A and RXRB for SCAD, including known TFs like PPARG for F11R, and that the NKX family is important in cardiac development.
+  - **Evidence pointer** Abstract, cardiac CRM section; location not provided
+  - **Concern** The biological claims are presented without any supporting evidence. No information is provided on how the association between specific TFs and target genes (SCAD, F11R) was established, whether these are literature-derived or computationally predicted, or what statistical or experimental evidence links ARID3A and RXRB to SCAD. The claim about the NKX family is similarly unsupported.
+  - **Why it matters** The cardiac application is presented as a key outcome of the study. If the biological associations are purely computational predictions without validation or literature support, the claims should be framed as hypotheses, not findings. Overstating biological significance without evidence undermines the credibility of the study.
+  - **Resolution test** Provide evidence for each biological claim, such as literature citations, experimental validation, or clearly labeled computational predictions with appropriate uncertainty. Distinguish between known associations and novel predictions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract background section
+  - **Evidence pointer** Abstract, first paragraph; location not provided
+  - **Issue** The abstract uses several acronyms (CRM, GRN, TF, CNN, RFC, ROC, SCAD) without defining all of them at first use. SCAD is particularly unclear as it could refer to several conditions.
+  - **Required correction** Define all acronyms at first use, including SCAD, and consider spelling out co-regulatory modules and gene regulatory networks in full before introducing abbreviations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model comparison description
+  - **Evidence pointer** Abstract, model comparison section; location not provided
+  - **Issue** The abstract states that models were compared using precision-recall Receiver Operating Characteristic (ROC) curves. Precision-recall curves and ROC curves are distinct evaluation tools; combining them in this way is technically imprecise.
+  - **Required correction** Clarify whether precision-recall curves, ROC curves, or both were used, and report the appropriate metrics for each.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Cardiac CRM filtering criteria
+  - **Evidence pointer** Abstract, cardiac CRM section; location not provided
+  - **Issue** The abstract states that 1784 Cardiac CRMs were reported containing at least four cardiac TFs, but does not explain how cardiac TFs were defined or why the threshold of four was chosen.
+  - **Required correction** Provide the definition of cardiac TFs and justify the threshold of four, or acknowledge that the threshold is arbitrary.
+
+## Risk / unsupported claims
+- The claim of 100% overlap with recent CRM prediction methods is unsupported and implausible without detailed validation data.
+- The biological claims regarding ARID3A, RXRB, PPARG, F11R, and the NKX family are unsupported by any evidence in the abstract.
+- The performance comparison between CNN and RFC is not interpretable without details on the evaluation protocol and class balance.
+- The claim that the pipeline enables cross-species predictions is mentioned in the background but not addressed in the results or conclusions.
+- The statement that no comprehensive pipeline exists for large-scale CRM and GRN identification is a strong claim that would require a thorough literature review to support.

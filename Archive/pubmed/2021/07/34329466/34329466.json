@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "34329466",
+    "doi": "10.1093/nar/gkab635",
+    "title": "Structure and dynamics of the quaternary hunchback mRNA translation repression complex."
+  },
+  "content": {
+    "abstract": "A key regulatory process during Drosophila development is the localized suppression of the hunchback mRNA translation at the posterior, which gives rise to a hunchback gradient governing the formation of the anterior-posterior body axis. This suppression is achieved by a concerted action of Brain Tumour (Brat), Pumilio (Pum) and Nanos. Each protein is necessary for proper Drosophila development. The RNA contacts have been elucidated for the proteins individually in several atomic-resolution structures. However, the interplay of all three proteins during RNA suppression remains a long-standing open question. Here, we characterize the quaternary complex of the RNA-binding domains of Brat, Pum and Nanos with hunchback mRNA by combining NMR spectroscopy, SANS/SAXS, XL/MS with MD simulations and ITC assays. The quaternary hunchback mRNA suppression complex comprising the RNA binding domains is flexible with unoccupied nucleotides functioning as a flexible linker between the Brat and Pum-Nanos moieties of the complex. Moreover, the presence of the Pum-HD/Nanos-ZnF complex has no effect on the equilibrium RNA binding affinity of the Brat RNA binding domain. This is in accordance with previous studies, which showed that Brat can suppress mRNA independently and is distributed uniformly throughout the embryo.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Body Patterning/genetics",
+      "DNA-Binding Proteins/*genetics/ultrastructure",
+      "Drosophila Proteins/*genetics/ultrastructure",
+      "Drosophila melanogaster/genetics/growth & development",
+      "Embryonic Development/*genetics",
+      "Gene Expression Regulation, Developmental",
+      "Multiprotein Complexes/genetics/ultrastructure",
+      "Nuclear Magnetic Resonance, Biomolecular",
+      "Protein Structure, Quaternary",
+      "RNA Recognition Motif Proteins/genetics/ultrastructure",
+      "RNA-Binding Proteins/*genetics/ultrastructure",
+      "Scattering, Small Angle",
+      "Transcription Factors/*genetics/ultrastructure",
+      "X-Ray Diffraction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Macosek, Jakub",
+        "Simon, Bernd",
+        "Linse, Johanna-Barbara",
+        "Jagtap, Pravin Kumar Ankush",
+        "Winter, Sophie L",
+        "Foot, Jaelle",
+        "Lapouge, Karine",
+        "Perez, Kathryn",
+        "Rettel, Mandy",
+        "Ivanovic, Milos T",
+        "Masiewicz, Pawel",
+        "Murciano, Brice",
+        "Savitski, Mikhail M",
+        "Loedige, Inga",
+        "Hub, Jochen S",
+        "Gabel, Frank",
+        "Hennig, Janosch"
+      ],
+      "short_names": [
+        "Macosek J",
+        "Simon B",
+        "Linse JB",
+        "Jagtap PKA",
+        "Winter SL",
+        "Foot J",
+        "Lapouge K",
+        "Perez K",
+        "Rettel M",
+        "Ivanovic MT",
+        "Masiewicz P",
+        "Murciano B",
+        "Savitski MM",
+        "Loedige I",
+        "Hub JS",
+        "Gabel F",
+        "Hennig J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8159-8387",
+        "ORCID: 0000-0002-9457-4130",
+        "ORCID: 0000-0001-6099-7314",
+        "ORCID: 0000-0001-5214-7002"
+      ],
+      "affiliations": [
+        "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany.",
+        "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany.",
+        "Theoretical Physics and Center for Biophysics, Saarland University, Saarbrucken 66123, Germany.",
+        "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany.",
+        "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany.",
+        "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany.",
+        "Protein Expression and Purification Core Facility, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany.",
+        "Protein Expression and Purification Core Facility, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany.",
+        "Proteomics Core Facility, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany.",
+        "Theoretical Physics and Center for Biophysics, Saarland University, Saarbrucken 66123, Germany.",
+        "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany.",
+        "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany.",
+        "Proteomics Core Facility, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany.",
+        "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany.",
+        "Theoretical Physics and Center for Biophysics, Saarland University, Saarbrucken 66123, Germany.",
+        "Institut Biologie Structurale, University Grenoble Alpes, CEA, CNRS, Grenoble 38044, France.",
+        "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany.",
+        "Chair of Biochemistry IV, Biophysical Chemistry, University of Bayreuth, Universitatsstrasse 30, 95447 Bayreuth, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Macošek, Jakub",
+        "short_name": "Macošek J",
+        "identifiers": [
+          "0000-0002-8159-8387"
+        ],
+        "affiliations": [
+          "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany."
+        ]
+      },
+      {
+        "full_name": "Simon, Bernd",
+        "short_name": "Simon B",
+        "identifiers": [],
+        "affiliations": [
+          "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany."
+        ]
+      },
+      {
+        "full_name": "Linse, Johanna-Barbara",
+        "short_name": "Linse JB",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Physics and Center for Biophysics, Saarland University, Saarbrücken 66123, Germany."
+        ]
+      },
+      {
+        "full_name": "Jagtap, Pravin Kumar Ankush",
+        "short_name": "Jagtap PKA",
+        "identifiers": [
+          "0000-0002-9457-4130"
+        ],
+        "affiliations": [
+          "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany."
+        ]
+      },
+      {
+        "full_name": "Winter, Sophie L",
+        "short_name": "Winter SL",
+        "identifiers": [
+          "0000-0001-6099-7314"
+        ],
+        "affiliations": [
+          "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany."
+        ]
+      },
+      {
+        "full_name": "Foot, Jaelle",
+        "short_name": "Foot J",
+        "identifiers": [],
+        "affiliations": [
+          "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany."
+        ]
+      },
+      {
+        "full_name": "Lapouge, Karine",
+        "short_name": "Lapouge K",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Expression and Purification Core Facility, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany."
+        ]
+      },
+      {
+        "full_name": "Perez, Kathryn",
+        "short_name": "Perez K",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Expression and Purification Core Facility, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany."
+        ]
+      },
+      {
+        "full_name": "Rettel, Mandy",
+        "short_name": "Rettel M",
+        "identifiers": [],
+        "affiliations": [
+          "Proteomics Core Facility, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany."
+        ]
+      },
+      {
+        "full_name": "Ivanović, Miloš T",
+        "short_name": "Ivanović MT",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Physics and Center for Biophysics, Saarland University, Saarbrücken 66123, Germany."
+        ]
+      },
+      {
+        "full_name": "Masiewicz, Pawel",
+        "short_name": "Masiewicz P",
+        "identifiers": [],
+        "affiliations": [
+          "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany."
+        ]
+      },
+      {
+        "full_name": "Murciano, Brice",
+        "short_name": "Murciano B",
+        "identifiers": [],
+        "affiliations": [
+          "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany."
+        ]
+      },
+      {
+        "full_name": "Savitski, Mikhail M",
+        "short_name": "Savitski MM",
+        "identifiers": [],
+        "affiliations": [
+          "Proteomics Core Facility, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany."
+        ]
+      },
+      {
+        "full_name": "Loedige, Inga",
+        "short_name": "Loedige I",
+        "identifiers": [],
+        "affiliations": [
+          "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany."
+        ]
+      },
+      {
+        "full_name": "Hub, Jochen S",
+        "short_name": "Hub JS",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Physics and Center for Biophysics, Saarland University, Saarbrücken 66123, Germany."
+        ]
+      },
+      {
+        "full_name": "Gabel, Frank",
+        "short_name": "Gabel F",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Biologie Structurale, University Grenoble Alpes, CEA, CNRS, Grenoble 38044, France."
+        ]
+      },
+      {
+        "full_name": "Hennig, Janosch",
+        "short_name": "Hennig J",
+        "identifiers": [
+          "0000-0001-5214-7002"
+        ],
+        "affiliations": [
+          "Structural and Computational Biology Unit, European Molecular Biology Laboratory Heidelberg, Heidelberg 69117, Germany.",
+          "Chair of Biochemistry IV, Biophysical Chemistry, University of Bayreuth, Universitätsstrasse 30, 95447 Bayreuth, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2021 Sep 7",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/31 06:00",
+    "fetched_at": "2026-09-27 21:18:17"
+  },
+  "links": {
+    "cites": [
+      "42206510",
+      "37265738",
+      "36387283",
+      "35512835"
+    ],
+    "refs": [],
+    "similar": [
+      "34329466",
+      "24696456",
+      "9247343",
+      "28318367",
+      "10541556",
+      "22326441",
+      "31097674",
+      "9404893",
+      "29601592",
+      "23456097",
+      "25962635",
+      "18305244",
+      "22064486",
+      "17055983",
+      "11274060",
+      "12573218",
+      "9888799",
+      "11562474",
+      "9049312",
+      "9660969",
+      "33722899",
+      "31239042",
+      "17360772",
+      "27482653",
+      "18652816",
+      "7889568",
+      "14972682",
+      "28701521",
+      "18234721",
+      "16077090",
+      "19372537",
+      "26293305",
+      "16516833",
+      "16215276",
+      "25757102",
+      "18818726",
+      "28315749",
+      "15721032",
+      "37961211",
+      "38627019",
+      "14561773",
+      "30269240",
+      "11336677",
+      "32654316",
+      "25209665",
+      "12867026",
+      "17050620",
+      "22391052",
+      "18682204",
+      "14998925",
+      "11336708",
+      "18621403",
+      "20335359",
+      "21262214",
+      "23884941",
+      "15525666",
+      "11060247",
+      "11845210",
+      "21460235",
+      "11303521",
+      "27942043",
+      "23646132",
+      "21767480",
+      "15062123",
+      "22514614",
+      "18638318",
+      "30694180",
+      "19540345",
+      "31251056",
+      "27402862",
+      "21146133",
+      "8895661",
+      "21346796",
+      "26527002",
+      "33947246",
+      "21771808",
+      "25723530",
+      "1459455",
+      "19403823",
+      "27122317",
+      "9376318",
+      "22345517",
+      "10559987",
+      "28067623",
+      "1576962",
+      "29397397",
+      "32738036",
+      "38326406",
+      "38746105"
+    ],
+    "review": [
+      "34329466",
+      "16215276",
+      "28315749",
+      "15062123",
+      "29397397"
+    ],
+    "pmc": [
+      "8421216"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=34329466",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34329466/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34329466",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MUC1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-146",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkab635",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

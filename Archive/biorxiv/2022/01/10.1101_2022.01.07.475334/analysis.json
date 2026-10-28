@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.01.07.475334",
+  "title": "Resolving Protein Conformational Plasticity and Substrate Binding Through the Lens of Machine-Learning",
+  "authors": "Navjeet Ahalawat; Jagannath Mondal",
+  "journal": "bioRxiv",
+  "published_date": "2022-01-07",
+  "window": {
+    "start": "2022-01-03",
+    "end": "2022-01-09"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习结合MD模拟研究蛋白构象可塑性与配体结合，虽非TF-DNA体系，但方法可迁移至蛋白-DNA互作建模。",
+  "abstract": "A long-standing target in elucidating the biomolecular recognition process is the identification of binding-competent conformations of the receptor protein. However, protein conformational plasticity and the stochastic nature of the recognition processes often preclude the assignment of a specific protein conformation to an individual ligand-bound pose. In particular, we consider multi-microsecond long Molecular dynamics simulation trajectories of ligand recognition process in solvent-inaccessible cavity of two archtypal systems: L99A mutant of T4 Lysozyme and Cytochrome P450. We first show that if the substrate-recognition occurs via long-lived intermediate, the protein conformations can be automatically classified into substrate-bound and unbound state through an unsupervised dimensionality reduction technique. On the contrary, if the recognition process is mediated by selection of transient protein conformation by the ligand, a clear correspondence between protein conformation and binding-competent macrostates can only be established via a combination of supervised machine learning (ML) and unsupervised dimension reduction approach. In such scenario, we demonstrate that an a priori random forest based supervised classification of the simulated trajectories recognition process would help characterize key amino-acid residue-pairs of the protein that are deemed sensitive for ligand binding. A subsequent unsupervised dimensional reduction via time-lagged independent component analysis of the selected residue-pairs would delineate a conformational landscape of protein which is able to demarcate ligand-bound pose from the unbound ones. As a key breakthrough, the ML-based protocol would identify distal protein locations which would be allosterically important for ligand binding and characterise their roles in recognition pathways.",
+  "abstract_zh": "在阐明生物分子识别过程中的一个长期目标是识别受体蛋白的具有结合能力的构象。然而，蛋白质构象的可塑性和识别过程的随机性常常阻碍将特定蛋白质构象分配给单个配体结合姿态。特别是，我们考虑了在溶剂不可及腔体中配体识别过程的多微秒级分子动力学模拟轨迹，涉及两个典型系统：T4溶菌酶的L99A突变体和细胞色素P450。我们首先表明，如果底物识别通过长寿命中间体发生，则蛋白质构象可以通过无监督降维技术自动分类为底物结合态和非结合态。相反，如果识别过程由配体对瞬时蛋白质构象的选择介导，则蛋白质构象与结合能力大状态之间的明确对应关系只能通过监督机器学习（ML）和无监督降维方法的组合来建立。在这种情景下，我们证明，基于先验随机森林的模拟轨迹识别过程监督分类有助于表征蛋白质中对配体结合敏感的关键氨基酸残基对。随后，通过时间滞后独立成分分析对所选残基对进行无监督降维，将描绘出能够区分配体结合姿态与非结合姿态的蛋白质构象景观。作为关键突破，基于ML的方案将识别对配体结合具有变构重要性的远端蛋白质位置，并表征它们在识别途径中的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.01.07.475334",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.01.07.475334",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.01.07.475334/index.html"
+}

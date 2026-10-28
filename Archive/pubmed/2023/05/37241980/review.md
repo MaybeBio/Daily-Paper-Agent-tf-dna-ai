@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, conclusions)
+- **Assessment boundary** Scientific validity of claims, experimental design, data interpretation, and consistency between evidence and conclusions
+- **Shared manuscript claim summary** The authors report that leocarpinolide B (LB), a sesquiterpene lactone from Sigesbeckia Herba, attenuates collagen type II-induced arthritis (CIA) in mice and reduces IL-1β-induced inflammatory responses in human synovial SW982 cells. They propose that LB acts by directly binding to NF-κB p65 and inhibiting its DNA binding activity.
+- **Visible evidence base** Figures 1–9 (referenced in text), methods descriptions, statistical analyses
+- **Missing materials affecting confidence** Raw data files, full figure panels with statistical annotations, uncropped western blots, gating strategy for flow cytometry, docking validation details, compound purity and characterization data
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting natural product with anti-arthritic activity in a standard CIA mouse model and in vitro synovial cell assays. The proposed mechanism involving direct binding to NF-κB p65 and inhibition of its DNA binding activity is plausible but incompletely supported by the evidence presented. Several experimental gaps and inconsistencies in data reporting reduce confidence in the strength of the mechanistic claims. The work is within the scope of a specialized natural product pharmacology journal but would require substantial additional evidence to support the mechanistic conclusions at the level implied by the title and abstract.
+- **Who would be interested in the results, and why** Researchers in natural product pharmacology, rheumatoid arthritis drug discovery, and NF-κB signaling biology would find these results of interest. The identification of a specific active compound from a traditional herbal medicine with a proposed molecular target could inform future lead optimization efforts.
+- **Major strengths** The study combines in vivo disease model evaluation with in vitro mechanistic studies. The CIA model is well-established for RA research. The use of multiple complementary assays (ELISA, qPCR, flow cytometry, histopathology, CETSA, molecular docking) provides a broad phenotypic and mechanistic characterization. The dose-response design in vitro and multiple doses in vivo strengthen the pharmacological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic claim
+  - **Claim pointer** "LB significantly stopped the NF-κB DNA binding activity" and "LB could inhibit NF-κB DNA binding activity through direct targeting of NF-κB p65"
+  - **Evidence pointer** Section 2.9, Figure 9
+  - **Concern** The NF-κB DNA binding activity assay is described only briefly in Section 4.14. The assay uses nuclear extracts from SW982 cells treated with LB and IL-1β, but the figure is not shown in the text provided. The CETSA experiment (Figure 9A) shows increased thermal stability of NF-κB p65 in the presence of LB, which is suggestive of binding, but this is an indirect measure. The direct interaction claim would be strengthened by additional biophysical methods such as surface plasmon resonance, isothermal titration calorimetry, or a pull-down assay. Furthermore, the functional consequence of LB binding on DNA binding activity is shown in only one assay format.
+  - **Why it matters** The central mechanistic claim of the paper, as stated in the title, is that LB inhibits DNA binding activity of NF-κB. If this is not rigorously established, the title and abstract overstate the findings.
+  - **Resolution test** Provide additional orthogonal evidence for direct LB-NF-κB p65 interaction (e.g., SPR, ITC, or cellular thermal shift with a negative control protein). Show full dose-response and time-course data for the NF-κB DNA binding assay. Include a competition experiment with a known NF-κB DNA binding inhibitor.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo efficacy and dose-response
+  - **Claim pointer** "LB significantly alleviated the symptoms of CIA in mice" and "Administration of LB at a dose of 2.5–10 mg/kg significantly reduced RA symptoms"
+  - **Evidence pointer** Section 2.3, Figure 3
+  - **Concern** The text states that LB at 2.5–10 mg/kg significantly reduced symptoms, but the figure panels are not visible in the provided text. The arthritic score and foot swelling data are described qualitatively. No data on the time course of disease onset, incidence, or severity scores are shown numerically. The positive control (indomethacin) is mentioned but its efficacy relative to LB is not described. The statistical analysis section mentions one-way or two-way ANOVA, but the specific comparisons and effect sizes are not reported in the text.
+  - **Why it matters** The in vivo efficacy is a core claim of the paper. Without clear presentation of the dose-response relationship, the magnitude of effect, and statistical details, the therapeutic potential cannot be adequately evaluated.
+  - **Resolution test** Provide full numerical data for arthritic scores, paw swelling measurements, and statistical comparisons for all groups and time points. Include effect sizes and confidence intervals. Clarify whether the 2.5 mg/kg dose was also significantly effective or only the higher doses.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Target identification methodology
+  - **Claim pointer** "NF-κB p65 (RELA) was predicated to be the potential target of LB on RA treatment" and "LB exhibited a good interaction with NF-κB p65 through two hydrogen bonds"
+  - **Evidence pointer** Sections 2.7 and 2.8, Figures 7 and 8
+  - **Concern** The network pharmacology approach is descriptive and the criteria for selecting the 10 shared targets are not fully described. The molecular docking result is presented as a single binding score comparison with helenalin, but no information is provided on the docking parameters, the validation of the docking protocol, or the significance of the difference between −6.7 and −5.8 kcal/mol. The claim of "two hydrogen bonds" is not supported by a figure showing the binding pose.
+  - **Why it matters** The target identification is a key step in the mechanistic narrative. If the computational predictions are not rigorously validated, the subsequent experimental confirmation is weakened.
+  - **Resolution test** Provide details of the docking protocol, including grid box dimensions, exhaustiveness, and validation against known ligands. Show the predicted binding pose with hydrogen bonds labeled. Consider testing a structurally similar inactive analog as a negative control in the CETSA and DNA binding assays.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Immune cell population analysis
+  - **Claim pointer** "LB was found to restore the proportion of Tregs in the spleen of CIA mice"
+  - **Evidence pointer** Section 2.5, Figure 5
+  - **Concern** The flow cytometry analysis is described in Section 4.13, but the gating strategy is not shown. The text states that CD4+Foxp3+ cells were analyzed, but the percentage change, absolute numbers, and statistical significance are not reported numerically in the text. The relationship between Treg restoration and the anti-arthritic effect is correlative.
+  - **Why it matters** The Treg data are presented as part of the mechanism of action, but without clear quantitative data and gating details, the robustness of this finding cannot be assessed.
+  - **Resolution test** Provide the gating strategy, representative flow cytometry plots, and quantitative data with statistical analysis. Clarify whether the Treg changes are a cause or consequence of reduced inflammation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Section 2.1, Figure 1
+  - **Issue** The text states that LB reduced IL-6 and IL-8 in a dose-dependent manner, but the actual concentrations, fold changes, and statistical significance are not reported in the text.
+  - **Required correction** Report the numerical values for cytokine levels, including the baseline and LB-treated groups, with statistical annotations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Cell viability
+  - **Evidence pointer** Section 2.1, Section 4.2
+  - **Issue** The text states that LB at ≤20 μM had no cytotoxicity based on a previous study, but the current study does not report cell viability data for the concentrations used in the functional assays.
+  - **Required correction** Include cell viability data for SW982 cells treated with LB at the concentrations and time points used in the proliferation, migration, and invasion assays.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Compound characterization
+  - **Affected element** LB compound
+  - **Evidence pointer** Section 4.1
+  - **Issue** The source and purity of LB are not described. The isolation method is referenced to a previous publication, but the purity of the compound used in this study is not stated.
+  - **Required correction** Provide the purity of LB (e.g., HPLC analysis) and confirm the identity of the compound used in all experiments.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All figures
+  - **Evidence pointer** Section 4.15
+  - **Issue** The statistical methods are described, but the specific tests used for each comparison and the number of independent replicates are not consistently reported.
+  - **Required correction** Clearly state the number of independent experiments, the statistical test used for each comparison, and the exact p-values in the figure legends.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Docking validation
+  - **Affected element** Molecular docking
+  - **Evidence pointer** Section 2.8, Figure 8
+  - **Issue** The docking study uses helenalin as a positive control, but the structural similarity between LB and helenalin is not discussed. The significance of the binding score difference is not evaluated.
+  - **Required correction** Discuss the structural relationship between LB and helenalin and provide a statistical comparison of docking scores if multiple conformations were generated.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Title and abstract
+  - **Evidence pointer** Title, Abstract
+  - **Issue** The title states "Inhibiting DNA Binding Activity of NF-kappaB" but the abstract and conclusions use more cautious language ("at least involved in the inhibition"). The title overstates the certainty of the mechanism.
+  - **Required correction** Consider revising the title to reflect the level of evidence, e.g., "Inhibits NF-κB DNA Binding Activity" or "Suppresses NF-κB Activity."
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Raw data
+  - **Evidence pointer** Not applicable
+  - **Issue** No data availability statement is provided.
+  - **Required correction** Add a data availability statement indicating where raw data can be accessed.
+
+## Risk / unsupported claims
+- The claim that LB "directly interacted with NF-κB p65" is supported only by CETSA, which is suggestive but not definitive. Additional biophysical evidence is needed.
+- The claim that LB "significantly stopped the NF-κB DNA binding activity" is based on a single assay format; the magnitude of inhibition and dose-response are not reported in the text.
+- The in vivo efficacy data are described qualitatively without numerical values for arthritic scores, paw swelling, or statistical comparisons.
+- The network pharmacology analysis is descriptive and the selection criteria for the 10 shared targets are not fully transparent.
+- The molecular docking result is presented as a single score without validation of the docking protocol or statistical significance.
+- The relationship between Treg restoration and the anti-arthritic effect is correlative and not mechanistically established.
+- The claim that LB is "the important substance of efficacy in SH for treating RA" is not directly tested, as no comparison with other compounds from SH or with the crude extract is provided.
+- The statement that LB has "great potential for RA treatment" is based on a single mouse model and limited in vitro data; no pharmacokinetic or toxicity data are presented.

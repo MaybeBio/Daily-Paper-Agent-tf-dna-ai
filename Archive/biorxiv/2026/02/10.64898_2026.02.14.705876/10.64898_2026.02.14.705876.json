@@ -1,0 +1,429 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.14.705876",
+  "title": "A Robust Framework for Predicting Mutation Effects on Transcription Factor Binding: Insights from Mutational Signatures in 560 Breast Cancer Genomes",
+  "doi": "10.64898/2026.02.14.705876",
+  "abstract": "Background A vast majority of somatic mutations in cancer reside in non-coding regions, yet systematically predicting their functional impact on gene regulation remains a significant challenge. These variants often enforce their effects by altering the binding affinity of transcription factors (TFs) to cis-regulatory elements. However, a critical gap exists in linking specific mutational processes to the disruption of gene regulatory networks at a systems level. Results In this study, we present a comprehensive in silico pipeline centered on k -mer-based linear regression models to quantify TF binding affinity. Our framework produced 403 high-confidence TF models trained on high-throughput ChIP-seq and PBM datasets. We applied this pipeline to 3.5 million somatic mutations from 560 breast cancer whole genomes to predict gain- or loss-of-function (GOF/LOF) binding perturbations. These predictions were integrated with mutational signature analysis and curated gene sets, utilizing Activity-by-Contact model-based enhancer-gene maps to link variants to their target genes. Our analysis revealed that distinct mutational processes exert non-random, directional effects on specific TF families. The APOBEC-associated signatures (SBS2 and SBS13) were strongly enriched for GOF events in the Myb/SANT and FOX families, while the aging-associated signature SBS1 was enriched for LOF events in the Ets family members. Furthermore, predicted perturbations at putative enhancers were significantly linked to key oncogenes and tumor suppressor genes, with GOF and LOF events (e.g., FOXA1 and BRCA1 / 2 , respectively). In breast cancer samples, the basal-like TNBC subtype exhibited that SBS3-driven GOF enrichments for the CXXC family converged on MYC target gene programs, while SBS39-driven LOF events for the same family converged on DNA Repair pathways. Conclusions Our framework provides a robust and scalable approach for prioritizing and interpreting the functional consequences of somatic mutations in terms of TF perturbations. We demonstrate that specific mutational processes systematically rewire the gene regulatory landscape in a subtype-specific manner, offering novel mechanisms for transcriptional deregulation in breast cancer.",
+  "authors": [
+    "Hüseyin Hilmi Kılınç",
+    "Burçak Otlu"
+  ],
+  "published_date": "2026-02-17",
+  "updated_date": "2026-02-17T18:25:22Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.14.705876",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.14.705876.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            19
+          ]
+        ],
+        "date-time": "2026-02-19T16:05:29Z",
+        "timestamp": 1771517129834,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            17
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 46,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                17
+              ]
+            ],
+            "date-time": "2026-02-17T00:00:00Z",
+            "timestamp": 1771286400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            17
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>A vast majority of somatic mutations in cancer reside in non-coding regions, yet systematically predicting their functional impact on gene regulation remains a significant challenge. These variants often enforce their effects by altering the binding affinity of transcription factors (TFs) to cis-regulatory elements. However, a critical gap exists in linking specific mutational processes to the disruption of gene regulatory networks at a systems level.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>\n                    In this study, we present a comprehensive\n                    <jats:italic>in silico</jats:italic>\n                    pipeline centered on\n                    <jats:italic>k</jats:italic>\n                    -mer-based linear regression models to quantify TF binding affinity. Our framework produced 403 high-confidence TF models trained on high-throughput ChIP-seq and PBM datasets. We applied this pipeline to 3.5 million somatic mutations from 560 breast cancer whole genomes to predict gain- or loss-of-function (GOF/LOF) binding perturbations. These predictions were integrated with mutational signature analysis and curated gene sets, utilizing Activity-by-Contact model-based enhancer-gene maps to link variants to their target genes. Our analysis revealed that distinct mutational processes exert non-random, directional effects on specific TF families. The APOBEC-associated signatures (SBS2 and SBS13) were strongly enriched for GOF events in the Myb/SANT and FOX families, while the aging-associated signature SBS1 was enriched for LOF events in the Ets family members. Furthermore, predicted perturbations at putative enhancers were significantly linked to key oncogenes and tumor suppressor genes, with GOF and LOF events (e.g.,\n                    <jats:italic>FOXA1</jats:italic>\n                    and\n                    <jats:italic>BRCA1</jats:italic>\n                    /\n                    <jats:italic>2</jats:italic>\n                    , respectively). In breast cancer samples, the basal-like TNBC subtype exhibited that SBS3-driven GOF enrichments for the CXXC family converged on MYC target gene programs, while SBS39-driven LOF events for the same family converged on DNA Repair pathways.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusions</jats:title>\n                  <jats:p>Our framework provides a robust and scalable approach for prioritizing and interpreting the functional consequences of somatic mutations in terms of TF perturbations. We demonstrate that specific mutational processes systematically rewire the gene regulatory landscape in a subtype-specific manner, offering novel mechanisms for transcriptional deregulation in breast cancer.</jats:p>\n                </jats:sec>",
+      "DOI": "10.64898/2026.02.14.705876",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            17
+          ]
+        ],
+        "date-time": "2026-02-17T18:25:22Z",
+        "timestamp": 1771352722000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A Robust Framework for Predicting Mutation Effects on Transcription Factor Binding: Insights from Mutational Signatures in 560 Breast Cancer Genomes"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Hüseyin Hilmi",
+          "family": "Kılınç",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Health Informatics, Graduate School Of Informatics, Middle East Technical University, Ankara, 06800, Türkiye"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4931-7979",
+          "authenticated-orcid": false,
+          "given": "Burçak",
+          "family": "Otlu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Health Informatics, Graduate School Of Informatics, Middle East Technical University, Ankara, 06800, Türkiye"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg.2015.17"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/SCIENCE.1222794"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1141319"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.12.009"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-61779-292-2_6"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1246"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-020-3475-0"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-13-1"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0024210"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/30.5.1255"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.112623.110"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.12688/f1000research.16200.2"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz363"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ymeth.2019.03.020"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae195"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-024-03449-7"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature12477"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac393"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhao J , Li D , Seo J , Allen AS , Gordân R. Quantifying the Impact of Non-coding Variants on Transcription Factor-DNA Binding. In: Sahinalp SC , editor. Research in Computational Molecular Biology. Cham: Springer International Publishing; 2017. p. 336–352.",
+          "DOI": "10.1007/978-3-319-56970-3_21"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1259/bjr.20211033"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature17676"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03446-x"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1045"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.08.009"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.xgen.2022.100179"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad986"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bergstrom EN , Barnes M , Martincorena I , Alexandrov LB .: Generating realistic null hypothesis of cancer mutational landscapes using SigProfilerSimulator. bioRxiv. Pages: 2020.02.13.948422 Section: New Results. Available from: https://www.biorxiv.org/content/10.1101/2020.02.13.948422v1.",
+          "DOI": "10.1101/2020.02.13.948422"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1200/PO.17.00011"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1039"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41523-024-00671-1"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-025-02322-y"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/cimb47080638"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/cancers16020374"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-021-82910-0"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12920-019-0525-4"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/leu.2017.75"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.09.07.556720"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41568-020-0290-x"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/cancers13205205"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12935-025-03839-2"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms21218127"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-34000-6"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.metabol.2023.155719"
+        },
+        {
+          "key": "2026021907050644000_2026.02.14.705876v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-025-09472-3"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.02.14.705876",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            19
+          ]
+        ],
+        "date-time": "2026-02-19T15:05:16Z",
+        "timestamp": 1771513516000
+      },
+      "score": 103.663734,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.02.14.705876"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            17
+          ]
+        ]
+      },
+      "references-count": 46,
+      "URL": "https://doi.org/10.64898/2026.02.14.705876",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

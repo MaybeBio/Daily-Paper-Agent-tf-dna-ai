@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "40661076",
+    "doi": "10.3389/fphar.2025.1587258",
+    "title": "Exploration of M2 macrophage-related biomarkers and a candidate drug for glioblastoma using high-dimensional weighted gene co-expression network analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Macrophages exhibit diverse activation states. Notably, M2 macrophages, alternatively activated cells, are notably increased within glioblastoma (GBM). Herein, our current study aimed to identify gene biomarkers relevant to M2 macrophages using high-dimensional weighted gene co-expression network analysis (hdWGCNA) and predict a candidate drug for GBM. METHODS: Single-cell RNA sequencing (scRNA-seq) data (GSE162631) and expression data (GSE4290) for GBM were obtained from the Gene Expression Omnibus (GEO) database. The Seurat package was used for quality control, processing of scRNA-seq data, and identification of different GBM cell types. Subsequently, the clusterProfiler package was employed to functionally annotate the genes specifically highly expressed in the cells. Notably, genes related to the M2 macrophages were screened by differential expression analysis, and the gene modules were classified by hdWGCNA. Thereafter, a diagnostic model was constructed, and its robustness was tested. Moreover, drug candidates that could bind to the specific genes identified in this study were predicted and further confirmed via molecular docking. RESULTS: Ten cell clusters were classified, with macrophages showing a higher proportion in GBM samples. Moreover, highly expressed genes specific to the M2 macrophages were mainly enriched in neutrophil migration, myeloid leukocyte migration, and chemokine production. A total of 11 gene modules (module 1-11) specific to M2 macrophages were also determined; notably, module 7 showed a relatively high expression of genes. Three key genes, namely, nuclear factor-kappa-B-inhibitor alpha (NFKBIA), nuclear receptor 4A2 (NR4A2), and FosB Proto-Oncogene, AP-1 Transcription Factor Subunit (FOSB), were obtained by intersecting 3,257 differentially expressed genes (DEGs) with the hub genes screened by hdWGCNA. These three genes were applied to establish a robust and reliable diagnostic model, and they were found to bind to the candidate drug thalidomide. CONCLUSION: The current study revealed the potential gene biomarkers and drug candidate for GBM based on genes related to M2 macrophages, contributing to the understanding of the underlying mechanism of GBM.",
+    "keywords": [
+      "M2 macrophages",
+      "glioblastoma",
+      "high-dimensional weighted gene co-expression network analysis",
+      "thalidomide",
+      "tumor-associated macrophages"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feng, Suyin",
+        "Zhu, Long",
+        "Gu, Jinyuan",
+        "Kou, Kun",
+        "Liu, Yongtai",
+        "Zhang, Guangmin",
+        "Lu, Hua",
+        "Zhang, Honglai",
+        "Sun, Runfeng"
+      ],
+      "short_names": [
+        "Feng S",
+        "Zhu L",
+        "Gu J",
+        "Kou K",
+        "Liu Y",
+        "Zhang G",
+        "Lu H",
+        "Zhang H",
+        "Sun R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, Affiliated Hospital of Jiangnan University, Wuxi, China.",
+        "Department of Neurosurgery, Donghai County People's Hospital, Donghai, China.",
+        "Jiangnan University Smart Healthcare Joint Laboratory, Donghai County People's Hospital, Donghai, China.",
+        "Department of Neurosurgery, Donghai County People's Hospital, Donghai, China.",
+        "Jiangnan University Smart Healthcare Joint Laboratory, Donghai County People's Hospital, Donghai, China.",
+        "Cardio-Cerebral Vascular Disease Prevention and Treatment Innovation Center, Donghai County People's Hospital, Donghai, China.",
+        "Donghai Intelligent Medical Innovation Center, Kangda College of Nanjing Medical University, Lianyungang, China.",
+        "Department of Neurosurgery, Donghai County People's Hospital, Donghai, China.",
+        "Department of Neurosurgery, Donghai County People's Hospital, Donghai, China.",
+        "Department of Neurosurgery, Donghai County People's Hospital, Donghai, China.",
+        "Department of Neurosurgery, Affiliated Hospital of Jiangnan University, Wuxi, China.",
+        "Donghai Intelligent Medical Innovation Center, Kangda College of Nanjing Medical University, Lianyungang, China.",
+        "Jiangnan University Smart Healthcare Joint Laboratory, Donghai County People's Hospital, Donghai, China.",
+        "Donghai Intelligent Medical Innovation Center, Kangda College of Nanjing Medical University, Lianyungang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feng, Suyin",
+        "short_name": "Feng S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Jiangnan University, Wuxi, China.",
+          "Department of Neurosurgery, Donghai County People's Hospital, Donghai, China.",
+          "Jiangnan University Smart Healthcare Joint Laboratory, Donghai County People's Hospital, Donghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Long",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Donghai County People's Hospital, Donghai, China.",
+          "Jiangnan University Smart Healthcare Joint Laboratory, Donghai County People's Hospital, Donghai, China.",
+          "Cardio-Cerebral Vascular Disease Prevention and Treatment Innovation Center, Donghai County People's Hospital, Donghai, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Jinyuan",
+        "short_name": "Gu J",
+        "identifiers": [],
+        "affiliations": [
+          "Donghai Intelligent Medical Innovation Center, Kangda College of Nanjing Medical University, Lianyungang, China."
+        ]
+      },
+      {
+        "full_name": "Kou, Kun",
+        "short_name": "Kou K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Donghai County People's Hospital, Donghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yongtai",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Donghai County People's Hospital, Donghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Guangmin",
+        "short_name": "Zhang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Donghai County People's Hospital, Donghai, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Hua",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Affiliated Hospital of Jiangnan University, Wuxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Honglai",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Donghai Intelligent Medical Innovation Center, Kangda College of Nanjing Medical University, Lianyungang, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Runfeng",
+        "short_name": "Sun R",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangnan University Smart Healthcare Joint Laboratory, Donghai County People's Hospital, Donghai, China.",
+          "Donghai Intelligent Medical Innovation Center, Kangda College of Nanjing Medical University, Lianyungang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in pharmacology"
+    ],
+    "journal_abbrev": [
+      "Front Pharmacol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/15 06:28",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [
+      "41919253"
+    ],
+    "refs": [
+      "39976098",
+      "39143719",
+      "38876751",
+      "38724609",
+      "38147020",
+      "37817172",
+      "37426759",
+      "37110201",
+      "36973787",
+      "36856115",
+      "36466903",
+      "36311014",
+      "36303162",
+      "36091049",
+      "36060293",
+      "35883641",
+      "35841593",
+      "35692390",
+      "35688610",
+      "35673564",
+      "35436915",
+      "35331128",
+      "34623196",
+      "33782623",
+      "33449451",
+      "33293629",
+      "32478924",
+      "31813459",
+      "31754919",
+      "29943294",
+      "29451682",
+      "29260225",
+      "28292436",
+      "27231052",
+      "27157931",
+      "27141961",
+      "27088132",
+      "25605792",
+      "25427949",
+      "24056773",
+      "22455463",
+      "21778941",
+      "16735693",
+      "15172781"
+    ],
+    "similar": [
+      "40661076",
+      "39221762",
+      "36440001",
+      "41242266",
+      "41031145",
+      "41180476",
+      "35413821",
+      "36222281",
+      "41388523",
+      "39923303",
+      "36474171",
+      "39623254",
+      "32765489",
+      "35111402",
+      "37515398",
+      "40225293",
+      "39067546",
+      "36095948",
+      "41126414",
+      "39411205",
+      "39841296",
+      "40216809",
+      "40386054",
+      "36466903",
+      "40438577",
+      "36186997",
+      "37063851",
+      "30132538",
+      "40092698",
+      "40375702",
+      "34471502",
+      "35432371",
+      "39341952",
+      "36973787",
+      "40244418",
+      "38371524",
+      "34238116",
+      "36438903",
+      "37744272",
+      "41038302",
+      "41009952",
+      "38110868",
+      "40302809",
+      "39479394",
+      "37662825",
+      "35558067",
+      "36238494",
+      "35328072",
+      "41123796",
+      "31137733",
+      "37565732",
+      "40878339",
+      "41225578",
+      "37942473",
+      "37727789",
+      "39226824",
+      "37359526",
+      "36177003",
+      "40525338",
+      "38873611",
+      "38472293",
+      "39069636",
+      "37650991",
+      "38510315",
+      "39384856",
+      "41107929",
+      "41052072",
+      "39073688",
+      "39834541",
+      "38802881",
+      "35115817",
+      "38851695",
+      "32296458",
+      "37773794",
+      "36542317",
+      "41478499",
+      "32874133",
+      "39143438",
+      "39184354",
+      "36742334",
+      "39079197",
+      "36506310",
+      "39119581",
+      "41310846",
+      "35706800",
+      "38724609",
+      "40406620",
+      "41318472",
+      "40442788",
+      "32412599",
+      "40148380",
+      "40810678",
+      "32467990",
+      "35436915",
+      "39697704",
+      "36177006",
+      "36072582",
+      "36699262",
+      "27572852",
+      "39403102"
+    ],
+    "review": [
+      "40661076",
+      "40375702"
+    ],
+    "pmc": [
+      "12256504"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40661076/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1760",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphar.2025.1587258",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

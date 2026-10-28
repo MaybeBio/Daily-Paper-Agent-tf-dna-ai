@@ -1,0 +1,404 @@
+{
+  "identity": {
+    "pmid": "40068875",
+    "doi": "10.1523/ENEURO.0382-24.2025",
+    "title": "Whole-Brain Mapping in Adult Zebrafish and Identification of the Functional Brain Network Underlying the Novel Tank Test."
+  },
+  "content": {
+    "abstract": "Zebrafish have gained prominence as a model organism in neuroscience over the past several decades, generating key insight into the development and functioning of the vertebrate brain. However, techniques for whole-brain mapping in adult stage zebrafish are lacking. Here, we describe a pipeline built using open-source tools for whole-brain activity mapping in adult zebrafish. Our pipeline combines advances in histology, microscopy, and machine learning to capture c-fos activity across the entirety of the brain. Following tissue clearing, whole-brain images are captured using light-sheet microscopy and registered to the recently created adult zebrafish brain atlas (AZBA) for automated segmentation. By way of example, we used our pipeline to measure brain activity after zebrafish were subject to the novel tank test, one of the most widely used behaviors in adult zebrafish. c-fos levels peaked 15 min following behavior and several regions, including those containing serotoninergic and dopaminergic neurons, were active during exploration. Finally, we generated a novel tank test functional brain network. This revealed that several regions of the subpallium form a cohesive subnetwork during exploration. Functional interconnections between the subpallium and other regions appear to be mediated primarily by ventral nucleus of the ventral telencephalon (Vv), the olfactory bulb, and the anterior part of the parvocellular preoptic nucleus (PPa). Taken together, our pipeline enables whole-brain activity mapping in adult zebrafish while providing insight into neural basis for the novel tank test.",
+    "keywords": [
+      "brain mapping",
+      "exploratory behavior",
+      "functional brain network",
+      "functional connectome",
+      "image registration",
+      "light-sheet microscopy"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Zebrafish",
+      "*Brain/physiology/metabolism/diagnostic imaging",
+      "*Brain Mapping/methods",
+      "Proto-Oncogene Proteins c-fos/metabolism",
+      "*Exploratory Behavior/physiology",
+      "Neural Pathways/physiology",
+      "*Nerve Net/physiology",
+      "Machine Learning",
+      "Image Processing, Computer-Assisted"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rajput, Neha",
+        "Parikh, Kush",
+        "Squires, Ada",
+        "Fields, Kailyn K",
+        "Wong, Matheu",
+        "Kanani, Dea",
+        "Kenney, Justin W"
+      ],
+      "short_names": [
+        "Rajput N",
+        "Parikh K",
+        "Squires A",
+        "Fields KK",
+        "Wong M",
+        "Kanani D",
+        "Kenney JW"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0565-0945",
+        "ORCID: 0009-0001-2595-8827",
+        "ORCID: 0000-0001-5080-390X",
+        "ORCID: 0000-0001-8790-5184"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, Wayne State University, Detroit, Michigan 48202.",
+        "Department of Biological Sciences, Wayne State University, Detroit, Michigan 48202.",
+        "Department of Biological Sciences, Wayne State University, Detroit, Michigan 48202.",
+        "Department of Biological Sciences, Wayne State University, Detroit, Michigan 48202.",
+        "Department of Biological Sciences, Wayne State University, Detroit, Michigan 48202.",
+        "Department of Biological Sciences, Wayne State University, Detroit, Michigan 48202.",
+        "Department of Biological Sciences, Wayne State University, Detroit, Michigan 48202 jkenney9@wayne.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rajput, Neha",
+        "short_name": "Rajput N",
+        "identifiers": [
+          "0000-0003-0565-0945"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Wayne State University, Detroit, Michigan 48202."
+        ]
+      },
+      {
+        "full_name": "Parikh, Kush",
+        "short_name": "Parikh K",
+        "identifiers": [
+          "0009-0001-2595-8827"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Wayne State University, Detroit, Michigan 48202."
+        ]
+      },
+      {
+        "full_name": "Squires, Ada",
+        "short_name": "Squires A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Wayne State University, Detroit, Michigan 48202."
+        ]
+      },
+      {
+        "full_name": "Fields, Kailyn K",
+        "short_name": "Fields KK",
+        "identifiers": [
+          "0000-0001-5080-390X"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Wayne State University, Detroit, Michigan 48202."
+        ]
+      },
+      {
+        "full_name": "Wong, Matheu",
+        "short_name": "Wong M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Wayne State University, Detroit, Michigan 48202."
+        ]
+      },
+      {
+        "full_name": "Kanani, Dea",
+        "short_name": "Kanani D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Wayne State University, Detroit, Michigan 48202."
+        ]
+      },
+      {
+        "full_name": "Kenney, Justin W",
+        "short_name": "Kenney JW",
+        "identifiers": [
+          "0000-0001-8790-5184"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Wayne State University, Detroit, Michigan 48202 jkenney9@wayne.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eNeuro"
+    ],
+    "journal_abbrev": [
+      "eNeuro"
+    ],
+    "pub_date": "2025 Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/12 11:33",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [
+      "42515137",
+      "42348004",
+      "41783973",
+      "40463149",
+      "40419676"
+    ],
+    "refs": [
+      "38918052",
+      "38842023",
+      "38211586",
+      "37649777",
+      "37308619",
+      "37277453",
+      "37165563",
+      "36952426",
+      "36934998",
+      "36812331",
+      "36596887",
+      "36442644",
+      "36039864",
+      "35760049",
+      "35250500",
+      "35219430",
+      "35128463",
+      "34806976",
+      "34253289",
+      "34048426",
+      "33940499",
+      "33542258",
+      "33386994",
+      "33221591",
+      "32765204",
+      "32707292",
+      "32681940",
+      "32310946",
+      "31283896",
+      "29946897",
+      "29945988",
+      "29944213",
+      "29717159",
+      "29522976",
+      "28873968",
+      "28426969",
+      "28408289",
+      "28076353",
+      "27965084",
+      "27780050",
+      "27393116",
+      "27238021",
+      "27004262",
+      "27003593",
+      "26778924",
+      "26730396",
+      "25698741",
+      "25549268",
+      "25548979",
+      "25417164",
+      "25284132",
+      "24954772",
+      "24921670",
+      "24793400",
+      "24714622",
+      "24656252",
+      "24127437",
+      "23590400",
+      "23541719",
+      "23300432",
+      "23181553",
+      "22622571",
+      "22593052",
+      "22387213",
+      "22157125",
+      "21920389",
+      "21632295",
+      "21372320",
+      "21262817",
+      "21030954",
+      "20851191",
+      "20035794",
+      "19896505",
+      "19369545",
+      "19195496",
+      "19190637",
+      "18446219",
+      "18159217",
+      "17722029",
+      "17427731",
+      "15925697",
+      "15730879",
+      "15156580",
+      "12531532",
+      "11438584",
+      "9840219",
+      "8170349",
+      "7560285",
+      "7479837",
+      "7024168",
+      "3342929",
+      "2513130"
+    ],
+    "similar": [
+      "40068875",
+      "39229236",
+      "33459255",
+      "34806976",
+      "35396258",
+      "35410342",
+      "26778924",
+      "32358193",
+      "36169400",
+      "25433239",
+      "37897734",
+      "15157807",
+      "27003593",
+      "34896333",
+      "33063286",
+      "24656252",
+      "39870865",
+      "29948906",
+      "27166700",
+      "18616985",
+      "37491314",
+      "7938344",
+      "23900858",
+      "25913701",
+      "41880330",
+      "36425283",
+      "38532024",
+      "21559304",
+      "34390875",
+      "34645817",
+      "41720989",
+      "32360929",
+      "27363927",
+      "39169303",
+      "40189125",
+      "32366356",
+      "30504888",
+      "32038180",
+      "25418847",
+      "41087271",
+      "40553651",
+      "25068736",
+      "20236391",
+      "23630470",
+      "22782131",
+      "31410315",
+      "23727462",
+      "15653000",
+      "29549369",
+      "9674566",
+      "40263414",
+      "29090337",
+      "31341309",
+      "30410437",
+      "34473059",
+      "21262817",
+      "40421849",
+      "40442546",
+      "27814522",
+      "11844569",
+      "35181604",
+      "41429198",
+      "39241900",
+      "26844322",
+      "24321555",
+      "40541696",
+      "30738207",
+      "27039972",
+      "42084742",
+      "40644546",
+      "22049421",
+      "30473430",
+      "24465943",
+      "22459042",
+      "28488186",
+      "25837600",
+      "22122866",
+      "9753584",
+      "27328843",
+      "29125897",
+      "40121342",
+      "32771528",
+      "19409426",
+      "28256774",
+      "37770711",
+      "29536173",
+      "21858129",
+      "30366076",
+      "29102809",
+      "41231927",
+      "28747660",
+      "31905211",
+      "36250457",
+      "25558063",
+      "39382787",
+      "35663407",
+      "31783117",
+      "31848397",
+      "28951163",
+      "16246590"
+    ],
+    "review": [
+      "40068875",
+      "25433239",
+      "27166700",
+      "25418847",
+      "23630470",
+      "23727462",
+      "26844322",
+      "40541696",
+      "29102809"
+    ],
+    "pmc": [
+      "11936448"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://eneuro.org/cgi/pmidlookup?view=long&pmid=40068875",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40068875/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://datadryad.org/discover?query=10.1523/ENEURO.0382-24.2025",
+        "provider": "Dryad Digital Repository",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

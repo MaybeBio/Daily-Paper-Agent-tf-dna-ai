@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to figures, tables, methods, or supplementary materials
+- **Shared manuscript claim summary** The authors report an integrated machine learning and structural modeling pipeline that identified two small-molecule TLR9 antagonists, TRin7 and TRin8. These compounds are claimed to selectively suppress CpG ODN2395-induced cytokine production in murine and human cell lines, directly disrupt TLR9-CpG DNA binding, inhibit downstream NF-kappaB and MAPK signaling, and show no significant toxicity. TRin7 is reported as slightly more potent, consistent with MM/PBSA binding free-energy calculations.
+- **Visible evidence base** Abstract text only; no experimental details, compound structures, assay protocols, statistical analyses, or computational parameters are provided
+- **Missing materials affecting confidence** Full methods, compound structures and synthesis details, dose-response curves, selectivity panel data, toxicity assay specifics, MD simulation parameters, MM/PBSA calculation details, statistical analysis, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially valuable integrated computational-experimental workflow for TLR9 antagonist discovery. The claims are internally consistent and the logic from computational prioritization to in vitro validation is coherent. However, the abstract alone provides insufficient detail to assess the rigor of the computational methods, the robustness of the selectivity and toxicity data, or the statistical validity of the mechanistic conclusions. The core claim of selective TLR9 antagonism is supported only at a summary level, and several important controls and quantitative details are absent.
+- **Who would be interested in the results, and why** Researchers in innate immunity, particularly those studying TLR signaling and therapeutic modulation of nucleic acid sensors. The work may also interest computational chemists and drug discovery groups focused on machine learning-guided hit identification. The potential therapeutic relevance to autoimmune and inflammatory diseases broadens the audience to translational immunologists.
+- **Major strengths** The integrated approach combining multiple computational techniques with cellular validation is methodologically appealing. The claim of selectivity across TLR pathways is an important differentiator from existing candidates. The inclusion of mechanistic studies (binding disruption and downstream signaling) adds depth beyond simple activity screening. The comparison between computational binding free energies and experimental potency provides a useful validation link.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of computational claims
+  - **Claim pointer** The abstract claims that machine learning-based QSAR classifiers, molecular docking, pharmacophore modeling, and MD simulations were combined to predict active scaffolds and refine ligand candidates, and that TRin7 and TRin8 were prioritized based on favorable binding free energies, stable receptor engagement, and key pharmacophoric features.
+  - **Evidence pointer** Abstract only; no computational methods or results are visible
+  - **Concern** The abstract provides no quantitative metrics for model performance, no details on training and validation sets, no docking scores, no MD simulation lengths or convergence criteria, and no MM/PBSA values. Without these, the computational prioritization cannot be evaluated for rigor or reproducibility.
+  - **Why it matters** The computational pipeline is the foundation of the discovery strategy. If the models are poorly validated or the simulation protocols are inadequate, the prioritization of TRin7 and TRin8 may be arbitrary, undermining the central claim of rational discovery.
+  - **Resolution test** Provide model performance metrics (e.g., AUC, sensitivity, specificity), dataset composition, docking score distributions, MD simulation details (force field, length, replicates), and MM/PBSA values with error estimates. Show that the prioritized compounds are statistically distinguishable from inactive or decoy compounds in the computational metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence for selectivity and toxicity
+  - **Claim pointer** The abstract claims that both compounds selectively suppressed CpG ODN2395-induced cytokine production without affecting other TLR pathways and did not cause significant toxicity even under extended treatment conditions.
+  - **Evidence pointer** Abstract only; no selectivity panel or toxicity data are visible
+  - **Concern** The selectivity claim is stated without specifying which TLR pathways were tested, what concentrations were used, or how selectivity was quantified. The toxicity claim lacks any definition of "significant" or "extended treatment," and no cell viability data or statistical comparisons are provided.
+  - **Why it matters** Selectivity and safety are the primary claimed advantages over existing TLR9 antagonists. If the selectivity panel is incomplete or the toxicity assessment is underpowered, the therapeutic promise of these compounds is not established.
+  - **Resolution test** Provide a full TLR selectivity panel (e.g., TLR2, TLR3, TLR4, TLR7, TLR8 agonists) with dose-response curves and IC50 or percent inhibition values. Include cell viability data (e.g., MTT or ATP-based assays) with time points, concentrations, and statistical analysis showing no significant reduction relative to controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic claim support
+  - **Claim pointer** The abstract claims that TRin7 and TRin8 directly disrupted TLR9-CpG DNA binding and inhibited downstream NF-kappaB and MAPK signaling, resulting in reduced COX2 and NOS2 expression.
+  - **Evidence pointer** Abstract only; no binding assay or signaling data are visible
+  - **Concern** The mechanistic claims are presented as definitive but no experimental details are given. The nature of the binding assay (e.g., SPR, ITC, fluorescence polarization, pull-down) is unspecified, and the signaling data (e.g., Western blot, ELISA, reporter assays) are not described. The link between NF-kappaB/MAPK inhibition and reduced COX2/NOS2 expression is asserted without showing the data.
+  - **Why it matters** Direct binding disruption is a strong mechanistic claim that requires rigorous biophysical evidence. The signaling pathway data are essential to confirm that the observed cytokine reduction is due to the proposed mechanism rather than off-target effects.
+  - **Resolution test** Provide binding assay details with quantitative affinity or competition data. Show Western blot or equivalent data for phosphorylated and total NF-kappaB and MAPK components, with densitometry and statistics. Show COX2 and NOS2 expression data with appropriate loading controls and quantification.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Compound identification and characterization
+  - **Evidence pointer** Abstract only
+  - **Issue** The compounds TRin7 and TRin8 are named but no chemical structures, purity data, or source information are provided.
+  - **Required correction** Include chemical structures, synthesis or sourcing details, and purity confirmation in the full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Potency comparison
+  - **Evidence pointer** Abstract only
+  - **Issue** The claim that TRin7 exhibited slightly greater potency is not supported by any numerical values (e.g., IC50 or EC50).
+  - **Required correction** Report quantitative potency values with confidence intervals and statistical comparison between the two compounds.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Cell line relevance
+  - **Affected element** Experimental model description
+  - **Evidence pointer** Abstract only
+  - **Issue** The use of RAW264.7 and Daudi cells is mentioned but the rationale for these models and their relevance to human disease is not discussed.
+  - **Required correction** Briefly justify the choice of cell lines and discuss their limitations as models for TLR9-mediated disease.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** All experimental claims
+  - **Evidence pointer** Abstract only
+  - **Issue** No statistical methods, sample sizes, or replicate numbers are mentioned for any experimental result.
+  - **Required correction** Describe statistical tests, number of independent replicates, and criteria for significance in the methods section.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The computational pipeline, selectivity and toxicity claims, and mechanistic assertions are all currently unsupported by visible evidence. Without these, the central claim of discovering selective TLR9 antagonists is not established.
+- **Assessment against Nature-style criteria** Originality: The integrated use of multiple computational methods with experimental validation is not entirely novel but the specific application to TLR9 antagonists may offer a new contribution. Scientific importance: TLR9 antagonists have therapeutic relevance, and improved selectivity would be valuable, but the importance is not yet demonstrated from the abstract alone. Interdisciplinary readership: The work bridges computational chemistry and immunology, which could appeal to a broad audience if the methods are presented accessibly. Technical soundness: Cannot be assessed from the abstract; the absence of quantitative details and experimental protocols prevents evaluation. Readability for nonspecialists: The abstract is clearly written and accessible, with logical flow from problem to approach to results.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a coherent and potentially valuable study, but the absence of all supporting data means the claims cannot be verified. A supportive recommendation would require the full manuscript to address the major concerns, particularly the computational validation, selectivity panel, toxicity data, and mechanistic evidence.
+
+## Risk / unsupported claims
+- The claim that TRin7 and TRin8 are "selective" TLR9 antagonists is unsupported without a complete TLR panel and quantitative selectivity metrics.
+- The claim of "no significant toxicity" is unsupported without defined toxicity criteria, time points, concentrations, and statistical analysis.
+- The claim of "direct disruption" of TLR9-CpG DNA binding is unsupported without biophysical binding data.
+- The claim that computational binding free energies are "consistent with" experimental potency is unsupported without numerical values for both.
+- The general claim that the findings "establish" TRin7 and TRin8 as promising antagonists is overstated given the abstract-level evidence.
+- The utility of the integrated approach for "rational drug discovery" is asserted but not demonstrated with comparative or benchmark data.

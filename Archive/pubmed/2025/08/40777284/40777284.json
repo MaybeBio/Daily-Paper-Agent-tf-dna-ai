@@ -1,0 +1,563 @@
+{
+  "identity": {
+    "pmid": "40777284",
+    "doi": "10.1101/2025.07.25.665779",
+    "title": "Targeting RUNX1 in Macrophages Facilitates Cardiac Recovery."
+  },
+  "content": {
+    "abstract": "Despite advances in disease treatment, our understanding of how damaged organs recover and the mechanisms governing this process remain poorly defined. Here, we mapped the transcriptional and regulatory landscape of human cardiac recovery using single cell multiomics. Macrophages emerged as the most reprogrammed cell type. Deep learning identified the transcription factor RUNX1 as a key regulator of this process. Macrophage-specific Runx1 deletion recapitulated the human cardiac recovery phenotype in a chronic heart failure model. Runx1 deletion reprogrammed macrophages to a reparative phenotype, reduced fibrosis, and promoted cardiomyocyte adaptation. RUNX1 chromatin profiling revealed a conserved regulon that diminished during recovery. Mechanistically, the epigenetic reader BRD4 controlled Runx1 expression in macrophages. Chromatin activity mapping, combined with CRISPR perturbations, identified the precise regulatory element governing Runx1 expression. Therapeutically, small molecule Runx1 inhibition was sufficient to promote cardiac recovery. Our findings uncover a druggable RUNX1 epigenetic mechanism that orchestrates recovery of heart function.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Amrute, Junedh M",
+        "Zhu, Ada",
+        "Pai, Yun-Ling",
+        "Hector-Greene, Melissa",
+        "An, Yuqian",
+        "Kim, Kenji Rowell",
+        "Sheth, Maya U",
+        "Padmanabhan, Arun",
+        "Lee, Clara Youngna",
+        "Yamawaki, Tracy",
+        "Sicklinger, Florian",
+        "Hartman, Niklas",
+        "Bredemeyer, Andrea",
+        "Lee, Chang Jie Mick",
+        "Xu, Vee",
+        "Bell, Lauren",
+        "Harmon, Tyler",
+        "Shin, Haewon",
+        "Parvathaneni, Alekhya",
+        "Liu, Lei",
+        "Dutta, Amal K",
+        "Pruitt, Danielle",
+        "Barreda, Jose",
+        "Chen, Jing",
+        "Shroff, Urvi Nikhil",
+        "Nadadur, Rangarajan",
+        "Nigro, Jess",
+        "Weinheimer, Carla",
+        "Kovacs, Atilla",
+        "Cui, Jixin",
+        "Wang, Chen",
+        "Li, Chi-Ming",
+        "Kreisel, Daniel",
+        "Liu, Yongjian",
+        "Foo, Roger S-Y",
+        "Schneider, Rebekka K",
+        "Engreitz, Jesse M",
+        "Mann, Douglas L",
+        "Rulifson, Ingrid",
+        "Jackson, Simon",
+        "Ason, Brandon",
+        "Kramann, Rafael",
+        "Drakos, Stavros G",
+        "Leuschner, Florian",
+        "Alexanian, Michael",
+        "Lavine, Kory J"
+      ],
+      "short_names": [
+        "Amrute JM",
+        "Zhu A",
+        "Pai YL",
+        "Hector-Greene M",
+        "An Y",
+        "Kim KR",
+        "Sheth MU",
+        "Padmanabhan A",
+        "Lee CY",
+        "Yamawaki T",
+        "Sicklinger F",
+        "Hartman N",
+        "Bredemeyer A",
+        "Lee CJM",
+        "Xu V",
+        "Bell L",
+        "Harmon T",
+        "Shin H",
+        "Parvathaneni A",
+        "Liu L",
+        "Dutta AK",
+        "Pruitt D",
+        "Barreda J",
+        "Chen J",
+        "Shroff UN",
+        "Nadadur R",
+        "Nigro J",
+        "Weinheimer C",
+        "Kovacs A",
+        "Cui J",
+        "Wang C",
+        "Li CM",
+        "Kreisel D",
+        "Liu Y",
+        "Foo RS",
+        "Schneider RK",
+        "Engreitz JM",
+        "Mann DL",
+        "Rulifson I",
+        "Jackson S",
+        "Ason B",
+        "Kramann R",
+        "Drakos SG",
+        "Leuschner F",
+        "Alexanian M",
+        "Lavine KJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6851-0168",
+        "ORCID: 0000-0002-1118-1535",
+        "ORCID: 0000-0002-5754-1719",
+        "ORCID: 0000-0001-6224-6354"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Amrute, Junedh M",
+        "short_name": "Amrute JM",
+        "identifiers": [
+          "0000-0002-6851-0168"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhu, Ada",
+        "short_name": "Zhu A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Pai, Yun-Ling",
+        "short_name": "Pai YL",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hector-Greene, Melissa",
+        "short_name": "Hector-Greene M",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "An, Yuqian",
+        "short_name": "An Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kim, Kenji Rowell",
+        "short_name": "Kim KR",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Sheth, Maya U",
+        "short_name": "Sheth MU",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Padmanabhan, Arun",
+        "short_name": "Padmanabhan A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lee, Clara Youngna",
+        "short_name": "Lee CY",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Yamawaki, Tracy",
+        "short_name": "Yamawaki T",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Sicklinger, Florian",
+        "short_name": "Sicklinger F",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hartman, Niklas",
+        "short_name": "Hartman N",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Bredemeyer, Andrea",
+        "short_name": "Bredemeyer A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lee, Chang Jie Mick",
+        "short_name": "Lee CJM",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Xu, Vee",
+        "short_name": "Xu V",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Bell, Lauren",
+        "short_name": "Bell L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Harmon, Tyler",
+        "short_name": "Harmon T",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Shin, Haewon",
+        "short_name": "Shin H",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Parvathaneni, Alekhya",
+        "short_name": "Parvathaneni A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Liu, Lei",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Dutta, Amal K",
+        "short_name": "Dutta AK",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Pruitt, Danielle",
+        "short_name": "Pruitt D",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Barreda, Jose",
+        "short_name": "Barreda J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chen, Jing",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Shroff, Urvi Nikhil",
+        "short_name": "Shroff UN",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Nadadur, Rangarajan",
+        "short_name": "Nadadur R",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Nigro, Jess",
+        "short_name": "Nigro J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Weinheimer, Carla",
+        "short_name": "Weinheimer C",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kovacs, Atilla",
+        "short_name": "Kovacs A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Cui, Jixin",
+        "short_name": "Cui J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Chen",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Li, Chi-Ming",
+        "short_name": "Li CM",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kreisel, Daniel",
+        "short_name": "Kreisel D",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Liu, Yongjian",
+        "short_name": "Liu Y",
+        "identifiers": [
+          "0000-0002-1118-1535"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Foo, Roger S-Y",
+        "short_name": "Foo RS",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Schneider, Rebekka K",
+        "short_name": "Schneider RK",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Engreitz, Jesse M",
+        "short_name": "Engreitz JM",
+        "identifiers": [
+          "0000-0002-5754-1719"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Mann, Douglas L",
+        "short_name": "Mann DL",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Rulifson, Ingrid",
+        "short_name": "Rulifson I",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Jackson, Simon",
+        "short_name": "Jackson S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ason, Brandon",
+        "short_name": "Ason B",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kramann, Rafael",
+        "short_name": "Kramann R",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Drakos, Stavros G",
+        "short_name": "Drakos SG",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Leuschner, Florian",
+        "short_name": "Leuschner F",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Alexanian, Michael",
+        "short_name": "Alexanian M",
+        "identifiers": [
+          "0000-0001-6224-6354"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lavine, Kory J",
+        "short_name": "Lavine KJ",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jul 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/08 06:29",
+    "fetched_at": "2026-09-30 23:20:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40777284",
+      "38390737",
+      "37583573",
+      "41120885",
+      "39716819",
+      "31409188",
+      "39443808",
+      "37967345",
+      "37433039",
+      "28538183",
+      "38764120",
+      "37927796",
+      "31766975",
+      "24695740",
+      "41196341",
+      "37530929",
+      "32805486",
+      "38419056",
+      "22343733",
+      "38862712",
+      "33094644",
+      "34440349",
+      "29101237",
+      "22411870",
+      "38847758",
+      "39271940",
+      "19494111",
+      "31533028",
+      "34111109",
+      "33971010",
+      "38286983",
+      "34725565",
+      "26483790",
+      "36747878",
+      "23879542",
+      "36711864",
+      "40917776",
+      "21129147",
+      "25349429",
+      "24606315",
+      "29991720",
+      "39443792",
+      "34190420",
+      "35018410",
+      "28299651",
+      "40164015",
+      "33152396",
+      "38785336",
+      "29030345",
+      "33113340",
+      "31285764",
+      "40955564",
+      "16007221",
+      "37936072",
+      "39726787",
+      "39113793",
+      "32197643",
+      "30500954",
+      "32460028",
+      "34363749",
+      "26901859",
+      "20439113",
+      "34958111",
+      "37213235",
+      "30018168",
+      "39234697",
+      "23992526",
+      "32154891",
+      "27869314",
+      "33264286",
+      "39498293",
+      "24189977",
+      "32782381",
+      "35048404",
+      "34021267",
+      "32600176",
+      "35341804",
+      "20959602",
+      "33752236",
+      "32156779",
+      "39643619",
+      "23817177",
+      "40462184",
+      "29759484",
+      "41463011",
+      "22451420",
+      "33743795",
+      "22493295",
+      "26749280",
+      "29042628",
+      "31497347",
+      "36766786",
+      "40280321",
+      "34434964",
+      "38478174",
+      "40701255",
+      "35179253",
+      "16149049",
+      "35694272",
+      "40177616"
+    ],
+    "review": [
+      "40777284",
+      "26483790",
+      "23879542",
+      "28299651",
+      "32154891",
+      "35341804",
+      "23817177"
+    ],
+    "pmc": [
+      "12330724"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40777284/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.07.25.665779",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

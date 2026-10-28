@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a computational method that integrates pretrained large language models with contrastive learning to predict protein-DNA binding sites, and report improved predictive performance relative to existing approaches.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, or methodological specifics are provided in the supplied material
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, benchmark datasets, evaluation metrics, baseline comparisons, statistical significance tests, and implementation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible methodological direction, namely the combination of protein language model embeddings with contrastive learning for DNA-binding residue prediction. However, the supplied material contains no quantitative results, no benchmark specification, no baseline comparison, and no methodological detail sufficient to evaluate technical soundness or novelty. The core claims of improved performance cannot be assessed from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function annotation, DNA-protein interaction prediction, and machine learning applications in genomics. Researchers developing protein language model-based predictors for related tasks such as RNA-binding or ligand-binding site prediction may also find the approach relevant.
+- **Major strengths** The methodological combination of pretrained protein language models with contrastive learning is timely and potentially effective for sequence-based binding site prediction. The problem addressed, protein-DNA binding site prediction, is of ongoing importance in functional genomics and drug discovery.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract implies improved predictive performance of the proposed method over existing approaches.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative results are reported. There are no performance metrics, no benchmark dataset names, no baseline method names, and no comparison numbers. The claim of improvement is therefore unsupported by the visible evidence.
+  - **Why it matters** A central claim of any methods paper is that the proposed approach outperforms or at least matches existing state-of-the-art. Without any reported numbers, the reader cannot judge whether the method is competitive, marginal, or inferior.
+  - **Resolution test** Provide performance metrics on at least one standard benchmark dataset, with explicit baseline comparisons and, ideally, statistical significance testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The method integrates pretrained large language models and contrastive learning for binding site prediction.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which protein language model is used, how embeddings are extracted or aggregated, how contrastive learning is formulated, what the positive and negative pairs are, or how the final binding site prediction is generated from the learned representations.
+  - **Why it matters** Reproducibility is a core requirement for computational biology methods. Without these details, the method cannot be reimplemented, compared, or critically evaluated.
+  - **Resolution test** Provide a full methods section describing the model architecture, training procedure, loss functions, data splits, and hyperparameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty assessment
+  - **Claim pointer** The proposed integration is presented as a contribution to the field.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe prior work or state explicitly what is new relative to existing protein language model-based binding site predictors or existing contrastive learning applications in this domain.
+  - **Why it matters** Without a clear statement of novelty, the contribution cannot be positioned within the literature, and the reader cannot determine whether the work advances the field or applies known techniques in a straightforward manner.
+  - **Resolution test** Include a related work section and an explicit statement of novelty in the introduction or discussion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the evaluation strategy, such as cross-validation type, dataset size, or whether the test set is independent of training.
+  - **Required correction** Add a sentence describing the evaluation protocol and dataset characteristics.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Availability statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of code or data availability.
+  - **Required correction** State whether code, trained models, and benchmark datasets will be made publicly available.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** Biological relevance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not discuss whether predicted binding sites are validated biologically or whether the model provides interpretable features.
+  - **Required correction** Add a brief statement on biological validation or interpretability analysis, if performed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and explicit novelty positioning means the central claims are currently unsupported.
+- **Assessment against Nature-style criteria** Originality cannot be assessed from the abstract alone, as no comparison to prior work is provided. Scientific importance is plausible given the relevance of protein-DNA binding site prediction, but the potential impact depends on demonstrated performance gains, which are not shown. Interdisciplinary readership is likely, as the topic bridges machine learning and molecular biology, but the abstract does not frame the work for a broad audience. Technical soundness cannot be evaluated without methodological detail and results. Readability for nonspecialists is acceptable at the abstract level, though technical terms such as contrastive learning and pretrained language models are used without brief explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to support the claims of improved performance or methodological novelty. A full manuscript with quantitative results, detailed methods, and explicit comparison to prior work would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim of improved predictive performance is unsupported, as no quantitative results are provided.
+- The claim of methodological novelty is unassessable, as no prior work or explicit contribution statement is given.
+- The generalizability of the method to diverse protein families or DNA-binding contexts is unassessable from the abstract.
+- Any implied advantage of contrastive learning over alternative training objectives is unsupported.

@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "40307780",
+    "doi": "10.1186/s12885-025-14204-x",
+    "title": "Exploring the potential of machine learning in gastric cancer: prognostic biomarkers, subtyping, and stratification."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Advancements in the management of gastric cancer (GC) and innovative therapeutic approaches highlight the significance of the role of biomarkers in GC prognosis. Machine-learning (ML)-based methods can be applied to identify the most important predictors and unravel their interactions to classify patients, which might guide prioritized treatment decisions. METHODS: A total of 140 patients with histopathological confirmed GC who underwent surgery between 2011 and 2016 were enrolled in the study. The inspired modification of the partial least squares (SIMPLS)-based model was used to identify the most significant predictors and interactions between variables. Predictive partition analysis was employed to establish the decision tree model to prioritize markers for clinical use. ML models have also been developed to predict TNM stage and different subtypes of GC. Latent class analysis (LCA) and principal component analysis (PCA) were carried out to cluster the GC patients and to find a subgroup of survivors who tended to die. RESULTS: The findings revealed that the SIMPLS method was able to predict the mortality of GC patients with high predictabilities (Q(2) = 0.45-0.70). The analysis identified MMP-7, P53, Ki67, and vimentin as the top predictors. Correlation analysis revealed different patterns of prognostic markers in the non-survivor and survivor cohorts and different GC subtypes. The main prediction models were verified via other ML-based analyses, with a high area under the curve (AUC) (0.84-0.99), specificity (0.82-0.99) and sensitivity (0.87-0.99). Patients were classified into three clusters of mortality risk, which highlighted the most significant mortality predictors. Partition analysis prioritizes the most significant predictors P53 >/= 6, COX-2 > 2, vimentin > 2, Ki67 >/= 13 in mortality of patients (AUC = 0.85-0.90). CONCLUSION: The present study highlights the importance of considering multiple variables and their interactions to predict the prognosis of mortality and stage in GC patients through ML-based techniques. These findings suggest that the incorporation of molecular biomarkers may enhance patient prognosis compared to relying solely on clinical factors. Furthermore, they demonstrate the potential for personalized medicine in GC treatment by identifying high-risk patients for early intervention and optimizing therapeutic strategies. The partition analysis technique offers a practical tool for identifying cutoffs and prioritizing markers for clinical application. Additionally, providing Clinical Decision Support systems with predictive tools can assist clinicians and pathologists in identifying aggressive cases, thereby improving patient outcomes while minimizing unnecessary treatments. Overall, this study contributes to the ongoing efforts to improve patient outcomes by advancing our comprehension of the intricate nature of GC.",
+    "keywords": [
+      "Gastric cancer",
+      "Immunohistochemistry",
+      "Machine learning",
+      "Mortality",
+      "Prediction model"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Stomach Neoplasms/mortality/pathology/diagnosis/metabolism",
+      "*Biomarkers, Tumor/metabolism",
+      "Prognosis",
+      "Male",
+      "*Machine Learning",
+      "Female",
+      "Middle Aged",
+      "Aged",
+      "Neoplasm Staging",
+      "Adult",
+      "Vimentin",
+      "Tumor Suppressor Protein p53",
+      "Ki-67 Antigen",
+      "Matrix Metalloproteinase 7",
+      "Principal Component Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rafiepoor, Haniyeh",
+        "Banoei, Mohammad M",
+        "Ghorbankhanloo, Alireza",
+        "Muhammadnejad, Ahad",
+        "Razavirad, Amirhossein",
+        "Soleymanjahi, Saeed",
+        "Amanpour, Saeid"
+      ],
+      "short_names": [
+        "Rafiepoor H",
+        "Banoei MM",
+        "Ghorbankhanloo A",
+        "Muhammadnejad A",
+        "Razavirad A",
+        "Soleymanjahi S",
+        "Amanpour S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Cancer Biology Research Center, Cancer Institute, Tehran University of Medical Sciences, Keshavarz Blvd, Building, Tehran, Iran.",
+        "Department of Critical Care Medicine, University of Calgary, Calgary, AB, Canada.",
+        "Department of Biological Science, University of Calgary, Calgary, AB, Canada.",
+        "Cancer Biology Research Center, Cancer Institute, Tehran University of Medical Sciences, Keshavarz Blvd, Building, Tehran, Iran.",
+        "Cancer Biology Research Center, Cancer Institute, Tehran University of Medical Sciences, Keshavarz Blvd, Building, Tehran, Iran.",
+        "Cancer Biology Research Center, Cancer Institute, Tehran University of Medical Sciences, Keshavarz Blvd, Building, Tehran, Iran.",
+        "Cancer Research Center, Cancer Institute, Tehran University of Medical Sciences, Tehran, Iran.",
+        "Department of Internal Medicine, Department of Digital Health, Yale School of Medicine, New Haven, CT, USA.",
+        "Cancer Biology Research Center, Cancer Institute, Tehran University of Medical Sciences, Keshavarz Blvd, Building, Tehran, Iran. amanpour_s@tums.ac.ir."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rafiepoor, Haniyeh",
+        "short_name": "Rafiepoor H",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biology Research Center, Cancer Institute, Tehran University of Medical Sciences, Keshavarz Blvd, Building, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Banoei, Mohammad M",
+        "short_name": "Banoei MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, University of Calgary, Calgary, AB, Canada.",
+          "Department of Biological Science, University of Calgary, Calgary, AB, Canada."
+        ]
+      },
+      {
+        "full_name": "Ghorbankhanloo, Alireza",
+        "short_name": "Ghorbankhanloo A",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biology Research Center, Cancer Institute, Tehran University of Medical Sciences, Keshavarz Blvd, Building, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Muhammadnejad, Ahad",
+        "short_name": "Muhammadnejad A",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biology Research Center, Cancer Institute, Tehran University of Medical Sciences, Keshavarz Blvd, Building, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Razavirad, Amirhossein",
+        "short_name": "Razavirad A",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biology Research Center, Cancer Institute, Tehran University of Medical Sciences, Keshavarz Blvd, Building, Tehran, Iran.",
+          "Cancer Research Center, Cancer Institute, Tehran University of Medical Sciences, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Soleymanjahi, Saeed",
+        "short_name": "Soleymanjahi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Department of Digital Health, Yale School of Medicine, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Amanpour, Saeid",
+        "short_name": "Amanpour S",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biology Research Center, Cancer Institute, Tehran University of Medical Sciences, Keshavarz Blvd, Building, Tehran, Iran. amanpour_s@tums.ac.ir."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2025 Apr 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/01 00:27",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [
+      "42638646",
+      "42567199",
+      "41746540",
+      "40463400"
+    ],
+    "refs": [
+      "37767325",
+      "37215714",
+      "37004065",
+      "36905333",
+      "36788550",
+      "36647283",
+      "36114747",
+      "36093530",
+      "36042469",
+      "35982052",
+      "35740563",
+      "35461691",
+      "34765619",
+      "33733101",
+      "33671606",
+      "32613386",
+      "32284744",
+      "31798281",
+      "31632479",
+      "31485669",
+      "30652558",
+      "30207593",
+      "30200173",
+      "30087720",
+      "30042208",
+      "29864959",
+      "29497908",
+      "29480983",
+      "29095284",
+      "28881183",
+      "28640099",
+      "28469384",
+      "27609016",
+      "27352800",
+      "26668528",
+      "25919283",
+      "25894828",
+      "25640374",
+      "25316440",
+      "25079317",
+      "24696259",
+      "24649024",
+      "24488015",
+      "24425843",
+      "23920788",
+      "23751022",
+      "23486933",
+      "23113076",
+      "22943016",
+      "22481979",
+      "21327330",
+      "21263025",
+      "21187520",
+      "21103622",
+      "20843146",
+      "20495739",
+      "20300917",
+      "18822690",
+      "17043422",
+      "16772269",
+      "16380641",
+      "14572158",
+      "14320675",
+      "11458276",
+      "10690533",
+      "10461065",
+      "9824606",
+      "9102213",
+      "3829805"
+    ],
+    "similar": [
+      "40307780",
+      "34496940",
+      "32754268",
+      "37215714",
+      "39356938",
+      "39893402",
+      "38858653",
+      "30042208",
+      "39894411",
+      "31577560",
+      "27309531",
+      "38685125",
+      "40202155",
+      "27207480",
+      "28373470",
+      "40205350",
+      "39080806",
+      "39905263",
+      "29665316",
+      "39137671",
+      "26445944",
+      "19994803",
+      "39229969",
+      "24343337",
+      "34678693",
+      "34678610",
+      "39904894",
+      "40208029",
+      "32650804",
+      "27076771",
+      "33115518",
+      "40248057",
+      "28293092",
+      "39494097",
+      "39407221",
+      "39810215",
+      "40016677",
+      "39558294",
+      "36405735",
+      "10809364",
+      "34889247",
+      "27557490",
+      "39905414",
+      "39520622",
+      "33005257",
+      "38723370",
+      "38689252",
+      "38943093",
+      "31636474",
+      "40264789",
+      "24998118",
+      "39732954",
+      "36479114",
+      "39099656",
+      "24488015",
+      "40228435",
+      "39718517",
+      "38977780",
+      "31399040",
+      "38458887",
+      "34007851",
+      "40084401",
+      "33219617",
+      "26638166",
+      "38698279",
+      "38907827",
+      "31798281",
+      "36276398",
+      "39527470",
+      "34003367",
+      "12717827",
+      "40281132",
+      "32832571",
+      "39730893",
+      "39714621",
+      "24469954",
+      "22105368",
+      "40329193",
+      "31281803",
+      "39342109",
+      "23787075",
+      "25441488",
+      "31743579",
+      "40165301",
+      "28489783",
+      "40281016",
+      "22695933",
+      "34413861",
+      "38845323",
+      "39364413",
+      "22529697",
+      "38517402",
+      "9808424",
+      "39998563",
+      "32172630",
+      "30772302",
+      "32592447",
+      "40221735",
+      "38112885",
+      "31524144"
+    ],
+    "review": [
+      "40307780",
+      "36405735"
+    ],
+    "pmc": [
+      "12042310"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-025-14204-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40307780/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

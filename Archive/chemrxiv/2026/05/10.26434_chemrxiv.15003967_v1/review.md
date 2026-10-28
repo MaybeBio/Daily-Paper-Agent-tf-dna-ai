@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a hybrid docking and machine learning workflow for protein-ligand binding mode prediction, using counterfactual perturbation of pocket-ligand interaction features to estimate prediction uncertainty. They report that their uncertainty metric detects failed top-1 predictions with AUROC 0.895 and average precision 0.878, and that retaining the lowest-uncertainty 50% of predictions increases top-1 success to 88.79%.
+- **Visible evidence base** Abstract text only; no quantitative details on dataset composition, model architecture, training/validation splits, or baseline comparisons
+- **Missing materials affecting confidence** Full manuscript, methods section, figures, tables, supplementary information, code availability, and any statistical details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful idea, namely the use of counterfactual feature perturbation to estimate uncertainty in docking-based pose prediction. The reported performance metrics are encouraging. However, the abstract alone does not provide sufficient methodological detail or comparative evidence to assess the validity, generalizability, or novelty of the approach. Several key claims are not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working on structure-based drug discovery, particularly those developing or using docking and scoring methods. The work may also interest researchers in machine learning applied to molecular interactions, especially those focused on uncertainty quantification and interpretable failure detection.
+- **Major strengths** The concept of using counterfactual perturbation of interaction feature groups for uncertainty estimation is a reasonable and potentially interpretable approach. The reported selective prediction improvement is a practically relevant outcome. The use of PLINDER-derived complexes suggests a modern and large-scale training resource.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The workflow "ranked using a geometry-aware gradient-boosted tree model trained on PLINDER-derived protein-ligand complexes" and the uncertainty metric "detected the failed top-1 predictions with AUROC 0.895 and average precision 0.878."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe the dataset size, the nature of the training and test splits, the criteria for defining a "successful" pose, or the baseline against which the AUROC and average precision values are computed. Without this information, the reported performance cannot be interpreted or compared to existing methods.
+  - **Why it matters** The utility of an uncertainty metric depends critically on the difficulty of the test set and the definition of failure. If the test set is easy or the success criterion is lenient, the reported AUROC may not reflect real-world performance. The lack of baseline comparisons also leaves open the question of whether the counterfactual approach outperforms simpler uncertainty estimates.
+  - **Resolution test** Provide dataset statistics, train/test split details, the pose success criterion (e.g., RMSD threshold), and a comparison to at least one standard uncertainty baseline (e.g., Vina score, docking pose clustering, or a simple ensemble variance).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "counterfactual pocket perturbation offers a practical route toward interpretable failure detection."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of "interpretable" failure detection is not supported by any evidence in the abstract. No examples are given of which feature groups drive the uncertainty signal, nor is there any analysis showing that the counterfactual perturbations correspond to chemically meaningful interaction changes.
+  - **Why it matters** Interpretability is a stated advantage of the approach, but without a demonstration of which perturbations matter and why, the claim remains speculative. If the uncertainty signal is driven by trivial or artefactual features, the practical value of the method is diminished.
+  - **Resolution test** Include an analysis of feature group importance, for example, showing which perturbation groups most strongly affect predictions, and provide at least one case study illustrating a chemically interpretable failure mode.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "retaining the lowest-uncertainty 50% of predictions increased top-1 success to 88.79%."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not state the baseline top-1 success rate before selective prediction. Without this value, the improvement cannot be quantified. Additionally, the selection of 50% is arbitrary, and no coverage versus accuracy trade-off curve is shown.
+  - **Why it matters** Selective prediction is only meaningful if the baseline accuracy is known and if the trade-off between coverage and accuracy is characterized. The reported single point at 50% retention is insufficient to assess the practical utility of the method.
+  - **Resolution test** Report the baseline top-1 success rate and provide a coverage versus accuracy curve across multiple retention thresholds.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "chemical counterfactual uncertainty" is introduced without a brief definition. Nonspecialist readers may not immediately understand what is meant by "counterfactual" in this context.
+  - **Required correction** Add a brief parenthetical explanation, for example, "counterfactual perturbation, that is, masking specific interaction features and measuring the resulting change in prediction."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "geometry-aware gradient-boosted tree model" is vague. It is unclear what geometric features are used and how they are incorporated.
+  - **Required correction** Specify the feature set or refer to a methods section where the features are defined.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and code availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention is made of code or data availability, which is important for reproducibility.
+  - **Required correction** State in the abstract or manuscript whether code and trained models will be made available.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient methodological detail, baseline comparisons, or interpretability evidence to establish the validity and utility of the proposed approach.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of counterfactual perturbation for uncertainty estimation in pose prediction appears to be a novel contribution, though the abstract does not allow a full assessment of novelty relative to prior work.
+  - Scientific importance: The problem of uncertainty-aware pose prediction is relevant and timely, but the abstract does not demonstrate a significant advance over existing methods.
+  - Interdisciplinary readership: The work is likely to appeal to computational chemists and machine learning researchers, but the abstract is too technical and lacks context for a broader structural biology audience.
+  - Technical soundness: Not assessable from the abstract alone. Key methodological details and validation strategies are missing.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising idea and encouraging metrics, but the lack of methodological detail, baseline comparisons, and interpretability analysis prevents a definitive assessment. The authors should be encouraged to provide the full manuscript and address the concerns above.
+
+## Risk / unsupported claims
+- The claim that the uncertainty metric "detected the failed top-1 predictions with AUROC 0.895 and average precision 0.878" is unsupported without details on the test set, success criteria, and baseline.
+- The claim that "counterfactual pocket perturbation offers a practical route toward interpretable failure detection" is unsupported without evidence of interpretability.
+- The claim that "retaining the lowest-uncertainty 50% of predictions increased top-1 success to 88.79%" is uninterpretable without the baseline success rate.
+- The general claim that the workflow provides "actionable confidence estimates" is not verifiable from the abstract alone.

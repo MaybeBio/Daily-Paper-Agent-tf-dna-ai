@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41157250",
+  "title": "Computational-Experimental Identification of Palindromic Motifs Bound by Bacterial XRE Family Transcriptional Regulators.",
+  "authors": "Wang, Linjia; Zhong, Shitong; Wang, Liangyan; Lu, Huizhi; Hua, Yuejin",
+  "journal": "Life (Basel, Switzerland)",
+  "published_date": "2025-10-29",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合结构比对、序列扫描与AlphaFold建模，大规模预测并实验验证细菌XRE家族转录因子回文DNA结合基序，聚焦TF-DNA互作识别，方法可迁移至本课题。",
+  "abstract": "Bacteria employ transcriptional regulators, such as those belonging to the Xenobiotic Response Element (XRE) family, to regulate metabolic processes. These regulators often exhibit autoregulatory properties and function as dimers to recognize palindromic DNA motifs. However, the binding motifs of the XRE family transcriptional regulators in bacteria have not yet been well characterized on a large scale. To identify potential XRE transcriptional regulator recognition motifs efficiently, we developed a computational approach combining structural alignment, sequence scanning, and motif clustering. We first identified the potential motifs of XRE regulators using computational methods. Using the helix-turn-helix (HTH) domain of XRE family regulators as a template, we collected 27,732 proteins containing the domain from bacterial databases. By extracting upstream sequences of these proteins and employing bioinformatics tools like MEME and motifStack to search potential motifs, 5622 motifs were identified and subsequently clustered into 223 clusters. These clusters can be classified into 7 main types based on the base conservation patterns observed in motifs. Interaction models between representative proteins and their corresponding motifs were predicted using AlphaFold. Subsequently, we conducted experimental validation via electrophoretic mobility shift assays (EMSAs) and confirmed the feasibility of our approach, as nine out of ten tested interactions showed clear protein-DNA binding. However, due to limitations in experimental conditions, the remaining predicted motifs have not yet undergone experimental validation. Since conserved sequences and well-predicted structures cannot replace real-world scenarios, there are limitations to relying solely on computational predictions, and experimental validation remains necessary. In summary, our study establishes a reliable framework for identifying XRE family transcriptional regulator recognition motifs and provides valuable insights into bacterial regulation.",
+  "abstract_zh": "细菌利用转录调控因子（如异源物质响应元件（Xenobiotic Response Element, XRE）家族的成员）来调节代谢过程。这些调控因子通常表现出自调控特性，并以二聚体形式识别回文DNA基序。然而，细菌中XRE家族转录调控因子的结合基序尚未在大规模范围内得到充分表征。为了高效识别潜在的XRE转录调控因子识别基序，我们开发了一种结合结构比对、序列扫描和基序聚类的计算方法。我们首先利用计算方法确定了XRE调控因子的潜在基序。以XRE家族调控因子的螺旋-转角-螺旋（helix-turn-helix, HTH）结构域为模板，我们从细菌数据库中收集了27,732个含有该结构域的蛋白质。通过提取这些蛋白质的上游序列，并利用MEME和motifStack等生物信息学工具搜索潜在基序，共鉴定出5,622个基序，随后将其聚类为223个簇。根据基序中观察到的碱基保守模式，这些簇可被分为7种主要类型。使用AlphaFold预测了代表性蛋白质与其相应基序之间的相互作用模型。随后，我们通过电泳迁移率变动分析（electrophoretic mobility shift assays, EMSAs）进行了实验验证，并确认了我们方法的可行性，因为测试的十个相互作用中有九个显示出清晰的蛋白质-DNA结合。然而，由于实验条件的限制，其余预测的基序尚未经过实验验证。由于保守序列和良好预测的结构无法替代真实场景，仅依赖计算预测存在局限性，实验验证仍然是必要的。总之，我们的研究为识别XRE家族转录调控因子识别基序建立了一个可靠的框架，并为细菌调控提供了有价值的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41157250/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41157250/",
+  "paper_page_path": "papers/pubmed/41157250/index.html"
+}

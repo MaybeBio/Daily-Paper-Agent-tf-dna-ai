@@ -1,0 +1,702 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.13.612952",
+  "title": "Diversification and conservation of DNA binding specificities of SPL family of transcription factors",
+  "doi": "10.1101/2024.09.13.612952",
+  "abstract": "SQUAMOSA Promoter-Binding Protein-Like (SPL) transcription factors are key regulators of plant development and stress responses. Here, we present a comprehensive DNA affinity purification sequencing (DAP-seq) analysis of 14 of the 16 SPL members in Arabidopsis thaliana, revealing two major classes based on distinct DNA-binding motifs. Gene Ontology enrichment of target genes indicated both shared and specialized functions among AtSPLs, including roles in hormone signaling, metal ion homeostasis, and developmental transitions. Comparative analysis of closely related paralogs, AtSPL9 and AtSPL15, uncovered divergence in DNA-binding specificity and target gene regulation, particularly in auxin and abscisic acid pathways. We validated these differences using protoplast reporter assays and motif discovery. Extending our study across species, we analyzed DAP-seq data from maize (Zea mays) and wheat (Triticum aestivum) SPL homologs, identifying conserved target genes but species-specific DNA motifs. Notably, wheat SPLs preferentially bind to longer, palindromic motifs distinct from the GTAC core motif in Arabidopsis. Using AlphaFold3 structure modeling, we show that these motif differences may arise from enhanced protein-protein interactions that stabilize dimeric binding. Our results highlight how SPL family members diversify through DNA-binding evolution and suggest that transcription factor dimerization contributes to motif complexity and regulatory specialization across plant genomes.",
+  "authors": [
+    "Miaomiao Li",
+    "Tao Yao",
+    "Mary Galli",
+    "Luigi Franklin Di Costanzo",
+    "Wanru Lin",
+    "Yilin Zhou",
+    "Jin-Gui Chen",
+    "Andrea Gallavotti",
+    "Shao-shan Carol Huang"
+  ],
+  "published_date": "2024-09-16",
+  "updated_date": "2024-09-16T11:55:13Z",
+  "journal": "bioRxiv",
+  "category": "Plant Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.13.612952",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.13.612952.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Plant Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Plant Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            17
+          ]
+        ],
+        "date-time": "2026-08-17T23:50:06Z",
+        "timestamp": 1787010606669,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            16
+          ]
+        ]
+      },
+      "group-title": "Plant Biology",
+      "reference-count": 49,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                16
+              ]
+            ],
+            "date-time": "2024-09-16T00:00:00Z",
+            "timestamp": 1726444800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "R35GM138143"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35GM138143"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01cwqze88",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "IOS-1916804"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "IOS-1916804"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/021nxhr62",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "ERKP886"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "ERKP886"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01bj3aw27",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "ERKPA88"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "ERKPA88"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01bj3aw27",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "Director's R&D (DRD) Program 12093"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "Director's R&D (DRD) Program 12093"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01qz5mb56",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:p>SQUAMOSA Promoter-Binding Protein-Like (SPL) transcription factors are key regulators of plant development and stress responses. Here, we present a comprehensive DNA affinity purification sequencing (DAP-seq) analysis of 14 of the 16 SPL members in Arabidopsis thaliana, revealing two major classes based on distinct DNA-binding motifs. Gene Ontology enrichment of target genes indicated both shared and specialized functions among AtSPLs, including roles in hormone signaling, metal ion homeostasis, and developmental transitions. Comparative analysis of closely related paralogs, AtSPL9 and AtSPL15, uncovered divergence in DNA-binding specificity and target gene regulation, particularly in auxin and abscisic acid pathways. We validated these differences using protoplast reporter assays and motif discovery. Extending our study across species, we analyzed DAP-seq data from maize (Zea mays) and wheat (Triticum aestivum) SPL homologs, identifying conserved target genes but species-specific DNA motifs. Notably, wheat SPLs preferentially bind to longer, palindromic motifs distinct from the GTAC core motif in Arabidopsis. Using AlphaFold3 structure modeling, we show that these motif differences may arise from enhanced protein-protein interactions that stabilize dimeric binding. Our results highlight how SPL family members diversify through DNA-binding evolution and suggest that transcription factor dimerization contributes to motif complexity and regulatory specialization across plant genomes.</jats:p>",
+      "DOI": "10.1101/2024.09.13.612952",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            16
+          ]
+        ],
+        "date-time": "2024-09-16T11:55:13Z",
+        "timestamp": 1726487713000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Diversification and conservation of DNA binding specificities of SPL family of transcription factors"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2132-6168",
+          "authenticated-orcid": false,
+          "given": "Miaomiao",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9382-0731",
+          "authenticated-orcid": false,
+          "given": "Tao",
+          "family": "Yao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7413-9409",
+          "authenticated-orcid": false,
+          "given": "Mary",
+          "family": "Galli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Luigi Franklin",
+          "family": "Di Costanzo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4527-3822",
+          "authenticated-orcid": false,
+          "given": "Wanru",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0008-8810-7211",
+          "authenticated-orcid": false,
+          "given": "Yilin",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1752-4201",
+          "authenticated-orcid": false,
+          "given": "Jin-Gui",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1901-2971",
+          "authenticated-orcid": false,
+          "given": "Andrea",
+          "family": "Gallavotti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7811-0398",
+          "authenticated-orcid": false,
+          "given": "Shao-shan Carol",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.1",
+          "unstructured": "Abramson, J. , et al. (2024) Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature."
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.2",
+          "first-page": "137",
+          "article-title": "SPL7 locally regulates copper-homeostasis-related genes in Arabidopsis",
+          "volume": "224–225",
+          "year": "2018",
+          "journal-title": "Journal of Plant Physiology"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.3",
+          "first-page": "28",
+          "article-title": "Fitting a mixture model by expectation maximization to discover motifs in biopolymers",
+          "volume": "2",
+          "year": "1994",
+          "journal-title": "Proceedings of the International Conference on Intelligent Systems for Molecular Biology"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "1659",
+          "DOI": "10.1038/nprot.2017.055",
+          "article-title": "Mapping genome-wide transcription-factor binding sites using DAP-seq",
+          "volume": "12",
+          "year": "2017",
+          "journal-title": "Nature Protocols"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.111.090431"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2005.07.013"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu170"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1407401112"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msj083"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/gigascience/giab016"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-023-02914-z"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad350"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "4526",
+          "DOI": "10.1038/s41467-018-06977-6",
+          "article-title": "The DNA binding landscape of the maize AUXIN RESPONSE FACTOR family",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1002638",
+          "DOI": "10.1371/journal.pcbi.1002638",
+          "article-title": "High-resolution genome-wide binding event finding and motif discovery reveals transcription factor spatial binding constraints",
+          "volume": "8",
+          "year": "2012",
+          "journal-title": "PLoS Computational Biology"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1007337",
+          "DOI": "10.1371/journal.pgen.1007337",
+          "article-title": "Threshold-dependent repression of SPL gene expression by miR156/miR157 controls vegetative phase change in Arabidopsis thaliana",
+          "volume": "14",
+          "year": "2018",
+          "journal-title": "PLoS Genetics"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2016.04.001"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.111.192369"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02191820"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "357",
+          "DOI": "10.1038/nmeth.1923",
+          "article-title": "Fast gapped-read alignment with Bowtie 2",
+          "volume": "9",
+          "year": "2012",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, M. , and Huang, S.S.C. (2022) DNA Affinity Purification Sequencing (DAP-Seq) for mapping genome-wide transcription factor binding sites in plants. In: Bilichak, A. , Laurie, J.D. (eds) Accelerated Breeding of Cereal Crops. Springer Protocols Handbooks. Humana, New York, NY.",
+          "DOI": "10.1007/978-1-0716-1526-3_15"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "2600",
+          "DOI": "10.1038/s41467-023-38096-2",
+          "article-title": "Double DAP-seq uncovered synergistic DNA binding of interacting bZIP transcription factors",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-014-0550-8"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr189"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14806/ej.17.1.200"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.09.003"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-015-0767-x"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.16.00523"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "819",
+          "DOI": "10.1007/s11427-022-2202-3",
+          "article-title": "Low-affinity SPL binding sites contribute to subgenome expression divergence in allohexaploid wheat",
+          "volume": "66",
+          "year": "2023",
+          "journal-title": "Science China Life Sciences"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.29",
+          "first-page": "80",
+          "article-title": "Functional evolution in the plant SQUAMOSA-PROMOTER BINDING PROTEIN-LIKE (SPL) gene family",
+          "volume": "4",
+          "year": "2013",
+          "journal-title": "Frontiers in Plant Science"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "1824",
+          "DOI": "10.1039/C8MT00287H",
+          "article-title": "New aspects of iron-copper crosstalk uncovered by transcriptomic characterization of Col-0 and the copper uptake mutant spl7 in Arabidopsis thaliana",
+          "volume": "10",
+          "year": "2018",
+          "journal-title": "Metallomics"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw257"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "1237",
+          "DOI": "10.1038/s41477-019-0547-0",
+          "article-title": "Widespread long-range cis-regulatory elements in the maize genome",
+          "volume": "5",
+          "year": "2019",
+          "journal-title": "Nature Plants"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.33",
+          "first-page": "e1423",
+          "article-title": "Diversification of transcription factor-DNA interactions and the evolution of gene regulatory networks",
+          "volume": "10",
+          "year": "2018",
+          "journal-title": "Wiley Interdisciplinary Reviews: Systems Biology and Medicine"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature10730"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11103-008-9310-z"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/cr.2017.102"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.pbi.2021.102136"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.008417"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "7012",
+          "DOI": "10.21105/joss.07012",
+          "article-title": "universalmotif: An R package for biological motif analysis",
+          "volume": "9",
+          "year": "2024",
+          "journal-title": "Journal of Open Source Software"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.262675.120"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx469"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2009.06.014"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aat7675"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.44",
+          "first-page": "4675",
+          "article-title": "Exploiting SPL genes to improve maize plant architecture tailored for high-density planting",
+          "volume": "69",
+          "year": "2018",
+          "journal-title": "Journal of Experimental Botany"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.15.00854"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xu, S. , Zhang, Z. , Liu, X. , Zhao, Z. , Li, F. , Wang, J. , Liu, Y. , and Guo, Y. (2024) Using clusterProfiler to characterize multiomics data. Nature Protocols.",
+          "DOI": "10.1038/s41596-024-01020-z"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.108.060137"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gene.2007.02.034"
+        },
+        {
+          "key": "2024091905000778000_2024.09.13.612952v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1104/pp.105.066928"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.09.13.612952",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:03:25Z",
+        "timestamp": 1768460605000
+      },
+      "score": 120.90908,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.09.13.612952"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            16
+          ]
+        ]
+      },
+      "references-count": 49,
+      "URL": "https://doi.org/10.1101/2024.09.13.612952",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            16
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

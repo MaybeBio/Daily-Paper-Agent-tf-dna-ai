@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "41110296",
+    "doi": "10.1016/j.compbiomed.2025.111215",
+    "title": "Mechanistic study of ANXA3-mediated endoplasmic reticulum stress promoting M1 macrophage polarization in pulmonary arterial hypertension based on bioinformatics and nine machine learning algorithms."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Endoplasmic reticulum stress (ERS) plays a critical role in inflammation-related disorders, but its immunoregulatory mechanisms in pulmonary arterial hypertension (PAH) remain unclear. This study aimed to identify key ERS-associated genes and clarify their roles in immune modulation during PAH progression. METHODS: Transcriptomic data from three Gene Expression Omnibus (GEO) datasets comprising peripheral blood mononuclear cells (PBMCs) of PAH patients (n = 100) and healthy controls (n = 61) were integrated to screen differentially expressed ERS-related genes. Nine machine learning algorithms were applied, and four candidate genes were identified and validated by quantitative real-time PCR (qRT-PCR) in PBMCs from 20 idiopathic PAH (IPAH) patients and in two PAH rat models: monocrotaline (MCT)-induced and SU5416/hypoxia (SuHx)-induced. Immune infiltration analysis, consensus clustering, single-cell RNA sequencing (scRNA-seq), and immunofluorescence (IF) were used to determine immune-specific localization. Functional experiments were then performed to investigate the role of the key gene in ERS regulation, immune responses, macrophage function, and macrophage-pulmonary artery smooth muscle cell (PASMC) interactions. RESULTS: Fifty differentially expressed ERS-related genes were identified. Least absolute shrinkage and selection operator (LASSO) regression achieved the best diagnostic performance and identified four key candidates: BCL2 Like 1 (BCL2L1), Tumor Necrosis Factor Receptor Superfamily Member 17 (TNFRSF17), DnaJ Heat Shock Protein Family Member B1 (DNAJB1), and Annexin A3 (ANXA3). qRT-PCR confirmed altered expression of these genes in PBMCs and lung tissues from both PAH models. ANXA3 was specifically overexpressed in PAH-associated macrophages and co-localized with Cluster of Differentiation 68-positive (CD68(+)) macrophages in SuHx rat lungs. Functionally, ANXA3 silencing improved right ventricular function and reduced pulmonary vascular remodeling in vivo, while in vitro knockdown suppressed lipopolysaccharide (LPS)-induced M1 polarization, decreased secretion of proinflammatory cytokines including interleukin-1beta (IL-1beta), interleukin-6 (IL-6), and interleukin-18 (IL-18), and inhibited ERS markers such as glucose-regulated protein 78 (GRP78), C/EBP homologous protein (CHOP), and activating transcription factor 4 (ATF4). These inhibitory effects were reversed by the ERS agonist thapsigargin (TG) but enhanced by the ERS inhibitor 4-phenylbutyric acid (4-PBA). In addition, ANXA3 knockdown alleviated macrophage-induced PASMC proliferation and migration triggered by inflammatory stimuli. CONCLUSION: This study demonstrates that ANXA3 regulates ERS to drive M1 macrophage polarization and inflammation, which subsequently promotes PASMC function and promotes PAH progression. ANXA3 may serve as a novel immunoinflammatory target and potential therapeutic candidate.",
+    "keywords": [
+      "ANXA3",
+      "Endoplasmic reticulum stress",
+      "Inflammatory response",
+      "Machine learning",
+      "Macrophage polarization",
+      "Pulmonary arterial hypertension"
+    ],
+    "mesh_terms": [
+      "*Endoplasmic Reticulum Stress/genetics",
+      "Humans",
+      "Animals",
+      "Rats",
+      "*Pulmonary Arterial Hypertension/genetics/metabolism/immunology/pathology",
+      "*Machine Learning",
+      "*Macrophages/metabolism/immunology/pathology",
+      "*Computational Biology",
+      "Male",
+      "*Annexin A3/genetics/metabolism",
+      "Female",
+      "Leukocytes, Mononuclear/metabolism",
+      "Rats, Sprague-Dawley",
+      "Middle Aged"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xing, Chen",
+        "Limei, Liang",
+        "Liping, Xu",
+        "Lixiang, Li",
+        "Liulin, Yang",
+        "Guizi, Liang",
+        "Dongwei, Xie",
+        "Juan, Liao",
+        "Hui, Meng",
+        "Yan, Deng"
+      ],
+      "short_names": [
+        "Xing C",
+        "Limei L",
+        "Liping X",
+        "Lixiang L",
+        "Liulin Y",
+        "Guizi L",
+        "Dongwei X",
+        "Juan L",
+        "Hui M",
+        "Yan D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China; Clinical Experimental Center, Guangxi Medical University, Nanning, China.",
+        "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China; Clinical Experimental Center, Guangxi Medical University, Nanning, China.",
+        "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China; Clinical Experimental Center, Guangxi Medical University, Nanning, China.",
+        "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China; Clinical Experimental Center, Guangxi Medical University, Nanning, China.",
+        "Department of Hepatobiliary Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China; Clinical Experimental Center, Guangxi Medical University, Nanning, China.",
+        "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China; Clinical Experimental Center, Guangxi Medical University, Nanning, China.",
+        "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China; Clinical Experimental Center, Guangxi Medical University, Nanning, China.",
+        "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China. Electronic address: Dengyan@sr.gxmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xing, Chen",
+        "short_name": "Xing C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China; Clinical Experimental Center, Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Limei, Liang",
+        "short_name": "Limei L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China; Clinical Experimental Center, Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Liping, Xu",
+        "short_name": "Liping X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China; Clinical Experimental Center, Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Lixiang, Li",
+        "short_name": "Lixiang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China; Clinical Experimental Center, Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Liulin, Yang",
+        "short_name": "Liulin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, The First Affiliated Hospital of Guangxi Medical University, Nanning, China; Clinical Experimental Center, Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Guizi, Liang",
+        "short_name": "Guizi L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Dongwei, Xie",
+        "short_name": "Dongwei X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Juan, Liao",
+        "short_name": "Juan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China; Clinical Experimental Center, Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Hui, Meng",
+        "short_name": "Hui M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China; Clinical Experimental Center, Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Deng",
+        "short_name": "Yan D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, The First Affiliated Hospital of Guangxi Medical University, Nanning, China. Electronic address: Dengyan@sr.gxmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/20 00:26",
+    "fetched_at": "2026-10-01 04:38:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41110296",
+      "39616855",
+      "40346622",
+      "33676385",
+      "39556088",
+      "39765314",
+      "37582718",
+      "23400395",
+      "27844183",
+      "30788940",
+      "32559140",
+      "33378977",
+      "33147993",
+      "33831807",
+      "36071873",
+      "39907642",
+      "33832033",
+      "40128893",
+      "38614383",
+      "31320454",
+      "39966176",
+      "38816406",
+      "38996959",
+      "23796770",
+      "37268944",
+      "39732974",
+      "35699679",
+      "35387479",
+      "30134231",
+      "40849369",
+      "41277057",
+      "38789967",
+      "32617141",
+      "40618980",
+      "39010027",
+      "38495631",
+      "36073567",
+      "35941581",
+      "33836606",
+      "33541093",
+      "24825325",
+      "34233597",
+      "36484960",
+      "39340293",
+      "40401371",
+      "34502015",
+      "34516357",
+      "40079012",
+      "37742818",
+      "39923360",
+      "24610918",
+      "41267791",
+      "33764154",
+      "39899532",
+      "31017016",
+      "34339758",
+      "30138574",
+      "35997026",
+      "38395391",
+      "39097701",
+      "23525442",
+      "38102696",
+      "41337939",
+      "31771727",
+      "41360230",
+      "40918403",
+      "38440722",
+      "33227315",
+      "35993245",
+      "41413621",
+      "26203495",
+      "34906150",
+      "29845288",
+      "37973667",
+      "31496656",
+      "36253715",
+      "38747117",
+      "28935667",
+      "30856466",
+      "32860486",
+      "32373233",
+      "39360410",
+      "31042405",
+      "33188479",
+      "39125620",
+      "30367500",
+      "33221740",
+      "33160621",
+      "34676402",
+      "29239061",
+      "29146573",
+      "32886110",
+      "40354856",
+      "36921705",
+      "33378960",
+      "38057829",
+      "38365806",
+      "32712618",
+      "38682326",
+      "40633831"
+    ],
+    "review": [
+      "41110296"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(25)01568-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TNFRSF17-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-17",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(25)01568-9",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

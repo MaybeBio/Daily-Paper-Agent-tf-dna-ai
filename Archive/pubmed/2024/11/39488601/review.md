@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of conclusions, and alignment with Nature-style criteria based solely on the provided manuscript content
+- **Shared manuscript claim summary** The authors propose, through in silico methods, that human adenovirus 52 (Ad52) can serve as a potent oncolytic agent for targeted breast cancer virotherapy, specifically via interaction with the BRCA1 protein. They report docking scores, molecular dynamics simulations, and binding energy calculations as evidence of a stable and favorable protein-protein interaction.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results (including Figures 1-13 and Tables 1-4), Discussion, Conclusion, Limitations and future prospectives
+- **Missing materials affecting confidence** No experimental validation data, no raw simulation trajectories, no force field parameters, no convergence criteria, no error analysis for MD simulations, no details on HADDOCK parameter settings, no information on how active site residues were selected, no statistical analysis of replicates, no comparison with known oncolytic adenovirus structures or experimental binding data
+
+## Reviewer
+- **Overall assessment** The manuscript presents a purely computational study aimed at establishing Ad52 as a candidate for breast cancer virotherapy. While the topic is of potential interest, the work suffers from fundamental methodological weaknesses, overinterpretation of computational results, and a lack of biological context that undermines the central claims. The study does not establish a mechanistic link between Ad52 and BRCA1 that would justify the conclusion of targeted virotherapy. The computational pipeline is described superficially, and key parameters and validation steps are missing. The conclusions extend far beyond what the evidence can support.
+- **Who would be interested in the results, and why** Researchers in the field of oncolytic virotherapy and computational drug design might find the preliminary docking and simulation data of marginal interest, particularly those exploring adenovirus serotype diversity. However, the lack of experimental validation and the weak biological rationale would limit enthusiasm even within these communities.
+- **Major strengths** The manuscript addresses a clinically relevant problem, namely the need for targeted breast cancer therapies with reduced side effects. The choice of Ad52, which utilizes polysialic acid as a receptor, is an interesting angle given the overexpression of PSA on many cancer cells. The use of multiple computational tools (HADDOCK, Desmond, HawkDock) is commendable in principle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological rationale and target selection
+  - **Claim pointer** The study claims that Ad52 can target breast cancer cells via interaction with BRCA1, and that this interaction is the basis for targeted virotherapy.
+  - **Evidence pointer** Abstract, Introduction, Results (docking and MD sections)
+  - **Concern** The choice of BRCA1 as the target protein for Ad52 is not biologically justified. BRCA1 is a nuclear tumor suppressor protein, not a cell surface receptor. Oncolytic viruses infect cells via cell surface receptors. The manuscript does not explain how a viral protein would interact with an intracellular protein like BRCA1 in the context of viral entry or selective oncolysis. The authors mention CAR and PSA as receptors for Ad52 in the Introduction, but then pivot to BRCA1 as the docking target without any rationale. This is a fundamental conceptual flaw that invalidates the premise of the study.
+  - **Why it matters** If the target protein is not biologically accessible or relevant to viral infection, the entire computational exercise is meaningless. The conclusion that Ad52 is competent for targeted breast cancer virotherapy based on interaction with an intracellular protein is unsupported and misleading.
+  - **Resolution test** The authors must provide a clear biological mechanism by which Ad52 interacts with BRCA1 in the context of infection. This would require evidence that BRCA1 is expressed on the cell surface of breast cancer cells, or a revised target selection based on known cell surface receptors relevant to Ad52 entry.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor of docking and MD simulations
+  - **Claim pointer** The manuscript claims a significant docking score of 329.2 +/- 24.3 and stable MD simulations with specific RMSD, RMSF, Rg, and energy values, concluding a strong and favorable interaction.
+  - **Evidence pointer** Results (Molecular dynamics docking, Molecular dynamic simulations, MMGBSA energy calculations)
+  - **Concern** The docking and MD simulation methodology is described with insufficient detail to assess its validity. Key parameters are missing: force field used, water model, simulation temperature and pressure coupling, equilibration protocol, number of replicates, and convergence criteria. The HADDOCK score is presented without context; a score of 329 is not inherently meaningful without comparison to known protein-protein interaction scores from the same software and protocol. The MD simulation appears to be a single run of 100 ns, which is short for protein-protein complexes and may not sample sufficient conformational space. The RMSD plot is described as stabilizing after 20 ns, but the highest peak is reported at 90 ns, which is contradictory. The MMGBSA calculation is mentioned but the methodology is not described.
+  - **Why it matters** Without rigorous and reproducible methodology, the computational results cannot be trusted. The conclusions about binding affinity and stability are based on potentially flawed or incomplete simulations. The lack of replicates and error analysis means that the reported values may not be statistically meaningful.
+  - **Resolution test** The authors must provide a detailed description of all simulation parameters, including software versions, force fields, water models, and equilibration protocols. They must show evidence of convergence (e.g., block averaging, multiple replicates) and provide error bars or standard deviations for all reported metrics. The docking score should be benchmarked against a set of known protein-protein complexes using the same protocol.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of results and overclaiming
+  - **Claim pointer** The manuscript concludes that Ad52 is a "potential candidate for the target specific treatment of breast cancer through virotherapy" and that the findings "propose the effectiveness" of Ad52.
+  - **Evidence pointer** Abstract, Discussion, Conclusion
+  - **Concern** The conclusions drawn from the computational data are far beyond what the evidence supports. A docking score and a 100 ns MD simulation cannot establish the "competency" of a virus for cancer therapy. The manuscript does not demonstrate that Ad52 can selectively kill breast cancer cells, that it can replicate in them, or that it has any oncolytic activity. The leap from in silico binding predictions to therapeutic efficacy is unjustified. The Discussion section compares the work to experimental studies (Hemminki et al., Zhu et al.) but does not provide any experimental data of its own to support the claims.
+  - **Why it matters** Overinterpretation of computational results is a serious issue in the field. The conclusions could mislead readers into believing that Ad52 is a validated therapeutic agent, which is not the case. The manuscript should clearly state that these are preliminary in silico predictions that require extensive experimental validation.
+  - **Resolution test** The authors must temper their conclusions to match the level of evidence. The abstract and conclusion should be rewritten to state that the study provides preliminary computational predictions that require experimental validation, rather than claiming therapeutic effectiveness.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Lack of experimental validation and biological context
+  - **Claim pointer** The manuscript states that validating the in silico method entails comparing predictions with experimental findings, but no such comparison is provided.
+  - **Evidence pointer** Abstract, Discussion, Limitations
+  - **Concern** The authors acknowledge the absence of in vitro or in vivo validation as a limitation, but this is a critical flaw that prevents the study from being scientifically complete. The manuscript does not provide any experimental data to support the computational predictions. The Discussion mentions other studies but does not use them to validate the current findings. The lack of any wet-lab experiments means that the biological relevance of the predicted interaction is entirely unknown.
+  - **Why it matters** Computational predictions without experimental validation are hypotheses, not findings. The manuscript cannot claim to have "uncovered" the competency of Ad52 without any experimental evidence. The study is incomplete and does not meet the standards of a scientific publication.
+  - **Resolution test** The authors must either provide experimental validation (e.g., binding assays, cell culture studies) or clearly reframe the manuscript as a purely hypothesis-generating computational study with no claims of therapeutic efficacy.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and consistency
+  - **Affected element** PDB ID for Ad52
+  - **Evidence pointer** Materials and methods (Viral protein structure retrieval)
+  - **Issue** The PDB ID for the Ad52 protein is given as 6G47, but the text in the Results section refers to "6G47" while the Methods section mentions "6G47" and "6G4739" in the same sentence. This is inconsistent and confusing.
+  - **Required correction** Verify the correct PDB ID and use it consistently throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 1-13
+  - **Evidence pointer** Results section
+  - **Issue** The figures are referenced but not described in sufficient detail. For example, Figure 5 shows the docked complex, but the figure itself is not described in terms of what is visible. The quality of the figures cannot be assessed from the text alone.
+  - **Required correction** Provide detailed figure legends that describe what is shown in each figure, including any labels, color codes, and structural features.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** MD simulation results
+  - **Evidence pointer** Results (Molecular dynamic simulations)
+  - **Issue** The manuscript reports specific values for RMSD, RMSF, Rg, and energy but does not provide any statistical analysis. It is unclear if these are from a single simulation or multiple replicates.
+  - **Required correction** Provide information on the number of replicates and the standard deviation or standard error for each reported metric.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and grammar
+  - **Affected element** Entire manuscript
+  - **Evidence pointer** Throughout
+  - **Issue** The manuscript contains numerous grammatical errors and awkward phrasings that hinder readability. For example, "the highest peak was observed at around 2.8 Å at 90 nanoseconds" is unclear, and "the RSMD of protein and ligand after 20ns indicated that the Adenovirus 52 in fit in the pocket" contains a typo.
+  - **Required correction** The manuscript should be thoroughly edited for language and grammar by a native English speaker.
+- **Technical failings that need to be addressed before the case is established** The fundamental issue is the lack of biological rationale for targeting BRCA1 with Ad52. BRCA1 is not a cell surface receptor, and the manuscript does not explain how the virus would interact with this intracellular protein. Additionally, the computational methodology is not described in sufficient detail to be reproducible, and the results are overinterpreted. The absence of any experimental validation is a critical failing that prevents the study from being scientifically complete.
+- **Assessment against Nature-style criteria** 
+  - Originality: Low. The use of in silico docking and MD simulations to predict protein-protein interactions is routine. The novelty of using Ad52 is incremental at best, and the choice of BRCA1 as a target is not justified.
+  - Scientific importance: Low. The study does not provide new biological insights or a validated therapeutic approach. The conclusions are speculative and not supported by experimental evidence.
+  - Interdisciplinary readership: Limited. The manuscript would only be of interest to a narrow audience of computational biologists and oncolytic virus researchers. The lack of experimental data limits its appeal to a broader scientific audience.
+  - Technical soundness: Poor. The methodology is not described in sufficient detail, and the results are not statistically validated. The biological rationale is flawed.
+  - Readability for nonspecialists: Poor. The manuscript is difficult to follow due to grammatical errors and unclear descriptions of the computational methods and results.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has fundamental flaws in its biological rationale, methodology, and interpretation of results. Major revisions and experimental validation would be required before the claims could be considered credible.
+
+## Risk / unsupported claims
+- The claim that Ad52 is a "potential candidate for the target specific treatment of breast cancer through virotherapy" is unsupported by the evidence, which is purely computational and lacks experimental validation.
+- The claim that the docking score of 329.2 +/- 24.3 indicates a "strong and favorable interaction" is unsupported without benchmarking against known protein-protein interactions using the same protocol.
+- The claim that MD simulations show "stability" of the complex is unsupported due to the lack of replicates, convergence analysis, and statistical error.
+- The claim that Ad52 can selectively target breast cancer cells via BRCA1 is unsupported and biologically implausible given that BRCA1 is an intracellular protein.
+- The comparison of the in silico results to experimental studies in the Discussion is not a substitute for actual experimental validation and does not support the conclusions drawn.

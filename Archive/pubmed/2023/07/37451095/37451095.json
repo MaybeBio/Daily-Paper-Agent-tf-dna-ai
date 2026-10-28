@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "37451095",
+    "doi": "10.1016/j.ecoenv.2023.115251",
+    "title": "Modeling and insights into the structural characteristics of endocrine-disrupting chemicals."
+  },
+  "content": {
+    "abstract": "Endocrine-disrupting chemicals (EDCs) can cause serious harm to human health and the environment; therefore, it is important to rapidly and correctly identify EDCs. Different computational models have been proposed for the prediction of EDCs over the past few decades, but the reported models are not always easily available, and few studies have investigated the structural characteristics of EDCs. In the present study, we have developed a series of artificial intelligence models targeting EDC receptors: the androgen receptor (AR); estrogen receptor (ER); and pregnane X receptor (PXR). The consensus models achieved good predictive results for validation sets with balanced accuracy values of 87.37%, 90.13%, and 79.21% for AR, ER, and PXR binding assays, respectively. Analysis of the physical-chemical properties suggested that several chemical properties were significantly (p < 0.05) different between EDCs and non-EDCs. We also identified structural alerts that can indicate an EDC, which were integrated into the web server SApredictor. These models and structural characteristics can provide useful tools and information in the discrimination and mechanistic understanding of EDCs in drug discovery and environmental risk assessment.",
+    "keywords": [
+      "Artificial intelligence model",
+      "Endocrine-disrupting chemicals",
+      "Physical-chemical properties",
+      "SApredictor",
+      "Structural alerts"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Artificial Intelligence",
+      "*Endocrine Disruptors/analysis",
+      "Receptors, Estrogen/metabolism",
+      "Risk Assessment"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Ruiqiu",
+        "Wang, Bailun",
+        "Li, Ling",
+        "Li, Shengjie",
+        "Guo, Huizhu",
+        "Zhang, Pei",
+        "Hua, Yuqing",
+        "Cui, Xueyan",
+        "Li, Yan",
+        "Mu, Yan",
+        "Huang, Xin",
+        "Li, Xiao"
+      ],
+      "short_names": [
+        "Zhang R",
+        "Wang B",
+        "Li L",
+        "Li S",
+        "Guo H",
+        "Zhang P",
+        "Hua Y",
+        "Cui X",
+        "Li Y",
+        "Mu Y",
+        "Huang X",
+        "Li X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China.",
+        "Department of Anesthesiology and perioperative medicine, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Institute of Anesthesia and Respiratory Intensive Care Medicine, Jinan 250014, China.",
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Jinan 250014, China.",
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China.",
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China.",
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China.",
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China.",
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China.",
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China.",
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China.",
+        "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China. Electronic address: lixiao1688@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Ruiqiu",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Bailun",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology and perioperative medicine, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Institute of Anesthesia and Respiratory Intensive Care Medicine, Jinan 250014, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ling",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shengjie",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Jinan 250014, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Huizhu",
+        "short_name": "Guo H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Pei",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China."
+        ]
+      },
+      {
+        "full_name": "Hua, Yuqing",
+        "short_name": "Hua Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Xueyan",
+        "short_name": "Cui X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China."
+        ]
+      },
+      {
+        "full_name": "Mu, Yan",
+        "short_name": "Mu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xin",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiao",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, The First Affiliated Hospital of Shandong First Medical University & Shandong Provincial Qianfoshan Hospital, Shandong Engineering and Technology Research Center for Pediatric Drug Development, Shandong Medicine and Health Key Laboratory of Clinical Pharmacy, Jinan 250014, China. Electronic address: lixiao1688@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Ecotoxicology and environmental safety"
+    ],
+    "journal_abbrev": [
+      "Ecotoxicol Environ Saf"
+    ],
+    "pub_date": "2023 Sep 15",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/15 10:42",
+    "fetched_at": "2026-09-29 03:45:28"
+  },
+  "links": {
+    "cites": [
+      "42519664",
+      "41678082",
+      "41141797",
+      "40569519",
+      "40144324"
+    ],
+    "refs": [],
+    "similar": [
+      "37451095",
+      "25282305",
+      "37053516",
+      "30584954",
+      "32973678",
+      "35999760",
+      "11781162",
+      "33895441",
+      "32786601",
+      "21053929",
+      "21120754",
+      "29119010",
+      "34507038",
+      "30633647",
+      "30857347",
+      "34444624",
+      "37692239",
+      "23279634",
+      "25734791",
+      "24496634",
+      "20405856",
+      "23384675",
+      "28319747",
+      "24279462",
+      "31349169",
+      "33799614",
+      "31760044",
+      "31325560",
+      "35597293",
+      "23688835",
+      "18252206",
+      "34562481",
+      "31978658",
+      "30505052",
+      "28011018",
+      "29126514",
+      "21038429",
+      "23354572",
+      "30366293",
+      "29055205",
+      "20033144",
+      "32392092",
+      "22549810",
+      "19519328",
+      "35988584",
+      "31234003",
+      "32552445",
+      "26210185",
+      "32074470",
+      "32360643",
+      "32391796",
+      "32758789",
+      "35231541",
+      "36460069",
+      "31792807",
+      "25349334",
+      "32360905",
+      "34418449",
+      "34452691",
+      "32598900",
+      "29965449",
+      "30807141",
+      "27241264",
+      "36353637",
+      "33819127",
+      "29295509",
+      "32514609",
+      "25451822",
+      "27684650",
+      "19765868",
+      "26832862",
+      "35910729",
+      "35887328",
+      "34859678",
+      "35660566",
+      "26880303",
+      "17114110",
+      "37182827",
+      "26291836",
+      "34520754",
+      "36982431",
+      "24928891",
+      "36896182",
+      "34666016",
+      "25646754",
+      "34271427",
+      "32370863",
+      "36041600",
+      "31302400",
+      "26066997",
+      "17713618",
+      "35245589",
+      "29522903",
+      "24850832",
+      "32970617",
+      "32253726",
+      "37347330",
+      "37920972",
+      "37572129",
+      "33223326",
+      "37951393",
+      "35140614",
+      "33449914",
+      "36530567",
+      "39312158",
+      "39195643",
+      "38016311",
+      "39282254",
+      "32699854",
+      "39393417",
+      "36277366"
+    ],
+    "review": [
+      "37451095",
+      "32973678",
+      "21053929",
+      "30633647",
+      "23279634",
+      "31760044",
+      "31325560",
+      "23688835",
+      "34562481",
+      "35231541",
+      "36460069",
+      "31792807",
+      "34452691",
+      "33819127",
+      "29295509",
+      "35887328",
+      "35660566",
+      "26880303",
+      "17114110",
+      "37182827",
+      "26291836",
+      "36982431",
+      "36896182",
+      "34666016",
+      "25646754",
+      "29522903",
+      "24850832",
+      "32253726",
+      "37347330",
+      "33449914",
+      "39312158"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0147-6513(23)00755-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

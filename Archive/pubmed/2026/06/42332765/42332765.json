@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "42332765",
+    "doi": "10.1186/s12967-026-08345-1",
+    "title": "Transcription factor, E4BP4, inhibits autophagy and apoptosis in multiple myeloma and promotes the HDAC3-mediated suppression of the Beclin1 promoter to reduce dexamethasone sensitivity."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Multiple myeloma (MM) is a plasma cell malignancy prone to drug resistance, with unclear autophagy/apoptosis interactions in its etiology. This study explored transcription factor E4BP4's role in MM autophagy and apoptosis. METHODS: Transcriptomic data from GEO and TCGA assessed E4BP4 expression and clinicopathological correlations. E4BP4 expression in MM cell line U266 and normal PBMCs was analyzed via western blotting, RT-qPCR, and immunohistochemistry. Autophagy/apoptosis markers were measured using CCK-8, flow cytometry, electron microscopy, and immunofluorescence. Molecular docking identified E4BP4 DNA-binding sites. Co-immunoprecipitation, luciferase reporter assays, and ChIP-qPCR analyzed E4BP4 transcriptional activity. E4BP4 knockdown effects were tested in mouse xenografts. RESULTS: E4BP4 was overexpressed in MM tumor tissues versus non-cancerous tissues, and in U266 cells versus PBMCs. High E4BP4 suppressed apoptosis and autophagy in MM cells. E4BP4 overexpression upregulated HDAC3 transcription, activated mTOR signaling, and reduced H3K9Ac/H3K27Ac association with Beclin1 promoter, decreasing Beclin1 expression. E4BP4 overexpression reduced U266 sensitivity to dexamethasone, while knockdown enhanced drug sensitivity. E4BP4 knockdown inhibited U266 xenograft growth in mice, with combined knockdown and dexamethasone yielding additive effects. CONCLUSION: E4BP4 promotes MM progression by upregulating HDAC3, reducing histone acetylation and Beclin1 transcription to suppress autophagy/apoptosis. Its role in dexamethasone resistance highlights E4BP4 as a potential therapeutic target.",
+    "keywords": [
+      "Autophagy",
+      "Dexamethasone",
+      "E4BP4",
+      "HDAC3",
+      "Multiple myeloma"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Autophagy/drug effects/genetics",
+      "Histone Deacetylase 3",
+      "*Apoptosis/drug effects/genetics",
+      "*Multiple Myeloma/genetics/pathology/drug therapy/metabolism",
+      "*Beclin-1/genetics/metabolism",
+      "*Histone Deacetylases/metabolism",
+      "*Promoter Regions, Genetic/genetics",
+      "Cell Line, Tumor",
+      "Animals",
+      "*Dexamethasone/pharmacology/therapeutic use",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Xenograft Model Antitumor Assays",
+      "Mice",
+      "TOR Serine-Threonine Kinases/metabolism",
+      "Female",
+      "Signal Transduction/drug effects",
+      "Acetylation",
+      "Drug Resistance, Neoplasm/genetics/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Licheng",
+        "Li, Mengxing",
+        "Liu, Honglin",
+        "Chen, Ting",
+        "Yang, Wenxiu",
+        "Cheng, Weiwei",
+        "Kang, Zhongmin",
+        "Yang, Xueying",
+        "Luo, Ying",
+        "Li, Qinshan"
+      ],
+      "short_names": [
+        "Li L",
+        "Li M",
+        "Liu H",
+        "Chen T",
+        "Yang W",
+        "Cheng W",
+        "Kang Z",
+        "Yang X",
+        "Luo Y",
+        "Li Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guizhou Medical University, Guiyang, Guizhou, 550004, China.",
+        "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guizhou Province Institute of Hematology, Guizhou Province Laboratory of Hematopoietic Stem Cell Transplantation Centre, Guiyang, Guizhou, 550004, China.",
+        "Guizhou Medical University, Guiyang, Guizhou, 550004, China. lmx1234@gmc.edu.cn.",
+        "Department of Pathophysiology, Guizhou Provincial Key Laboratory of Pathogenesis and Drug Research on Common Chronic Diseases, Guizhou Medical University, Guiyang, Guizhou, 550004, China. lmx1234@gmc.edu.cn.",
+        "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guizhou Province Institute of Hematology, Guizhou Province Laboratory of Hematopoietic Stem Cell Transplantation Centre, Guiyang, Guizhou, 550004, China. lmx1234@gmc.edu.cn.",
+        "Institute of Clinical Medical Sciences, China-Japan Friendship Hospital, Beijing, 100000, China.",
+        "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guizhou Province Institute of Hematology, Guizhou Province Laboratory of Hematopoietic Stem Cell Transplantation Centre, Guiyang, Guizhou, 550004, China.",
+        "Department of Pathology, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, 550004, China.",
+        "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guizhou Province Institute of Hematology, Guizhou Province Laboratory of Hematopoietic Stem Cell Transplantation Centre, Guiyang, Guizhou, 550004, China.",
+        "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guizhou Province Institute of Hematology, Guizhou Province Laboratory of Hematopoietic Stem Cell Transplantation Centre, Guiyang, Guizhou, 550004, China.",
+        "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guizhou Province Institute of Hematology, Guizhou Province Laboratory of Hematopoietic Stem Cell Transplantation Centre, Guiyang, Guizhou, 550004, China.",
+        "Guizhou Medical University, Guiyang, Guizhou, 550004, China. luoying@gmc.edu.cn.",
+        "Department of Pathophysiology, Guizhou Provincial Key Laboratory of Pathogenesis and Drug Research on Common Chronic Diseases, Guizhou Medical University, Guiyang, Guizhou, 550004, China. luoying@gmc.edu.cn.",
+        "Guizhou Medical University, Guiyang, Guizhou, 550004, China. liqinshan@gmc.edu.cn.",
+        "Guizhou Institute of Precision Medicine, Affiliated Hospital of Guizhou Medical University, Guizhou Medical University, Guiyang, Guizhou, 550004, China. liqinshan@gmc.edu.cn.",
+        "Department of Clinical Biochemistry, School of Medical Laboratory Science, Guizhou Medical University, Guiyang, Guizhou, 550004, China. liqinshan@gmc.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Licheng",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Guizhou Medical University, Guiyang, Guizhou, 550004, China.",
+          "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guizhou Province Institute of Hematology, Guizhou Province Laboratory of Hematopoietic Stem Cell Transplantation Centre, Guiyang, Guizhou, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Li, Mengxing",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Guizhou Medical University, Guiyang, Guizhou, 550004, China. lmx1234@gmc.edu.cn.",
+          "Department of Pathophysiology, Guizhou Provincial Key Laboratory of Pathogenesis and Drug Research on Common Chronic Diseases, Guizhou Medical University, Guiyang, Guizhou, 550004, China. lmx1234@gmc.edu.cn.",
+          "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guizhou Province Institute of Hematology, Guizhou Province Laboratory of Hematopoietic Stem Cell Transplantation Centre, Guiyang, Guizhou, 550004, China. lmx1234@gmc.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Honglin",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Medical Sciences, China-Japan Friendship Hospital, Beijing, 100000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ting",
+        "short_name": "Chen T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guizhou Province Institute of Hematology, Guizhou Province Laboratory of Hematopoietic Stem Cell Transplantation Centre, Guiyang, Guizhou, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Wenxiu",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Affiliated Hospital of Guizhou Medical University, Guiyang, Guizhou, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Weiwei",
+        "short_name": "Cheng W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guizhou Province Institute of Hematology, Guizhou Province Laboratory of Hematopoietic Stem Cell Transplantation Centre, Guiyang, Guizhou, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Zhongmin",
+        "short_name": "Kang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guizhou Province Institute of Hematology, Guizhou Province Laboratory of Hematopoietic Stem Cell Transplantation Centre, Guiyang, Guizhou, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xueying",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guizhou Province Institute of Hematology, Guizhou Province Laboratory of Hematopoietic Stem Cell Transplantation Centre, Guiyang, Guizhou, 550004, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Ying",
+        "short_name": "Luo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guizhou Medical University, Guiyang, Guizhou, 550004, China. luoying@gmc.edu.cn.",
+          "Department of Pathophysiology, Guizhou Provincial Key Laboratory of Pathogenesis and Drug Research on Common Chronic Diseases, Guizhou Medical University, Guiyang, Guizhou, 550004, China. luoying@gmc.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Qinshan",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Guizhou Medical University, Guiyang, Guizhou, 550004, China. liqinshan@gmc.edu.cn.",
+          "Guizhou Institute of Precision Medicine, Affiliated Hospital of Guizhou Medical University, Guizhou Medical University, Guiyang, Guizhou, 550004, China. liqinshan@gmc.edu.cn.",
+          "Department of Clinical Biochemistry, School of Medical Laboratory Science, Guizhou Medical University, Guiyang, Guizhou, 550004, China. liqinshan@gmc.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2026 Jun 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/23 11:34",
+    "fetched_at": "2026-10-02 00:15:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38594926",
+      "37394085",
+      "35180863",
+      "35103762",
+      "34599153",
+      "33931087",
+      "33910332",
+      "32917124",
+      "32191636",
+      "31969156",
+      "31910827",
+      "31823802",
+      "31534497",
+      "31477838",
+      "31421315",
+      "31242129",
+      "31142847",
+      "30765325",
+      "30250199",
+      "30245231",
+      "29884741",
+      "29618831",
+      "29467226",
+      "29215740",
+      "28962927",
+      "28490812",
+      "26984755",
+      "26152691",
+      "25614966",
+      "25034786",
+      "24508508",
+      "24401948",
+      "23630076",
+      "23541952",
+      "23272171",
+      "22732483",
+      "22388286",
+      "22262760",
+      "22257669",
+      "22075207",
+      "20123989",
+      "18829486"
+    ],
+    "similar": [
+      "42332765",
+      "32024543",
+      "30157958",
+      "39129160",
+      "22339676",
+      "40250752",
+      "31340867",
+      "33891090",
+      "39478582",
+      "40682103",
+      "33627630",
+      "23503641",
+      "38470063",
+      "33549034",
+      "26249174",
+      "39964547",
+      "41962619",
+      "20484017",
+      "22955917",
+      "28490812",
+      "40665664",
+      "33625798",
+      "42260555",
+      "29554968",
+      "40424983",
+      "40220407",
+      "39586558",
+      "31534497",
+      "29970115",
+      "40824172",
+      "26487273",
+      "31412908",
+      "38517039",
+      "42493383",
+      "42163264",
+      "30894058",
+      "24996221",
+      "31868118",
+      "34943972",
+      "40440957",
+      "34983615",
+      "41204251",
+      "23613505",
+      "41326567",
+      "28492559",
+      "34416437",
+      "41895751",
+      "40812598",
+      "41504908",
+      "39380995",
+      "35285412",
+      "42723397",
+      "38805168",
+      "29991129",
+      "41429797",
+      "35701983",
+      "39636431",
+      "41890763",
+      "31485665",
+      "24971696",
+      "16397023",
+      "42630730",
+      "31053152",
+      "26499488",
+      "32733943",
+      "28751557",
+      "29843746",
+      "42674695",
+      "33234130",
+      "28569784",
+      "28408137",
+      "30939187",
+      "41039452",
+      "31025088",
+      "40133895",
+      "42349083",
+      "32961145",
+      "31391118",
+      "32004989",
+      "30280766",
+      "29017179",
+      "41912620",
+      "40659605",
+      "25208888",
+      "32468683",
+      "34427099",
+      "29945297",
+      "23954442",
+      "23555162",
+      "23363751",
+      "38232540",
+      "40084689",
+      "40814067",
+      "41775213",
+      "30157918",
+      "41240538",
+      "34428336",
+      "31712391",
+      "31242129",
+      "39862789"
+    ],
+    "review": [
+      "42332765"
+    ],
+    "pmc": [
+      "13292585"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-026-08345-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/multiplemyeloma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Multiple Myeloma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42332765/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

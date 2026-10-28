@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34168145",
+  "title": "Bioactivity descriptors for uncharacterized chemical compounds.",
+  "authors": "Bertoni, Martino; Duran-Frigola, Miquel; Badia-I-Mompel, Pau; Pauls, Eduardo; Orozco-Ruiz, Modesto; Guitart-Pla, Oriol; Alcalde, Victor; Diaz, Victor M; Berenguer-Llergo, Antoni; Brun-Heath, Isabelle; Villegas, Nuria; de Herreros, Antonio Garcia; Aloy, Patrick",
+  "journal": "Nature communications",
+  "published_date": "2021-06-26",
+  "window": {
+    "start": "2021-06-21",
+    "end": "2021-06-27"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度神经网络推断小分子生物活性描述符，聚焦化学信息学与药物靶点预测，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Chemical descriptors encode the physicochemical and structural properties of small molecules, and they are at the core of chemoinformatics. The broad release of bioactivity data has prompted enriched representations of compounds, reaching beyond chemical structures and capturing their known biological properties. Unfortunately, bioactivity descriptors are not available for most small molecules, which limits their applicability to a few thousand well characterized compounds. Here we present a collection of deep neural networks able to infer bioactivity signatures for any compound of interest, even when little or no experimental information is available for them. Our signaturizers relate to bioactivities of 25 different types (including target profiles, cellular response and clinical outcomes) and can be used as drop-in replacements for chemical descriptors in day-to-day chemoinformatics tasks. Indeed, we illustrate how inferred bioactivity signatures are useful to navigate the chemical space in a biologically relevant manner, unveiling higher-order organization in natural product collections, and to enrich mostly uncharacterized chemical libraries for activity against the drug-orphan target Snail1. Moreover, we implement a battery of signature-activity relationship (SigAR) models and show a substantial improvement in performance, with respect to chemistry-based classifiers, across a series of biophysics and physiology activity prediction benchmarks.",
+  "abstract_zh": "化学描述符编码了小分子的物理化学和结构性质，它们是化学信息学的核心。生物活性数据的大规模发布促进了化合物表征的丰富化，超越了化学结构，并捕捉了其已知的生物学特性。不幸的是，大多数小分子缺乏生物活性描述符，这限制了它们仅适用于数千种表征良好的化合物。在此，我们提出了一系列深度神经网络，能够为任何感兴趣的化合物推断生物活性签名，即使这些化合物几乎没有或没有实验信息可用。我们的签名器与25种不同类型的生物活性相关（包括靶标谱、细胞反应和临床结果），并可作为化学描述符的直接替代品，用于日常化学信息学任务。确实，我们展示了推断的生物活性签名如何以生物学相关的方式导航化学空间，揭示天然产物集合中的高阶组织，并丰富大多未表征的化学库，以针对药物孤儿靶标Snail1的活性。此外，我们实施了一系列签名-活性关系（SigAR）模型，并显示在系列生物物理学和生理学活性预测基准中，相对于基于化学的分类器，性能有显著提升。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34168145/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34168145/",
+  "paper_page_path": "papers/pubmed/34168145/index.html"
+}

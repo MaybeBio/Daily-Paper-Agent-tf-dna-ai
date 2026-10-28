@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40966654",
+  "title": "AttBiomarker: unveiling preeclampsia biomarkers and molecular pathways through two-stage gene selection techniques and attention-based CNN with gene regulatory network analysis.",
+  "authors": "Sarker, Sakib; Mahmud, S M Hasan; Hosen, Md Faruk; Michael Goh, Kah Ong; Shoombuatong, Watshara",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2025-09-18",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用注意力CNN和基因调控网络分析筛选子痫前期生物标志物，仅涉及转录因子-基因调控网络和分子对接，但核心是疾病标志物发现，非蛋白质-DNA互作建模，方法上无TF-DNA结合机制研究。",
+  "abstract": "Preeclampsia is a complex pregnancy disorder that poses significant health risks to both mother and fetus. Despite its clinical importance, the underlying molecular mechanisms remain poorly understood. In this study, we developed an integrative deep learning and bioinformatics approach to identify potential biomarkers for preeclampsia. Three microarray datasets related to preeclampsia were initially analyzed to select a preliminary gene subset based on $P$-values. Feature selection was then performed in two consecutive rounds: first, the Fisher score method was applied to extract significant genes, followed by the minimum Redundancy Maximum Relevance method to refine the subset further. These selected gene subsets were trained using our proposed Attention-based Convolutional Neural Network (AttCNN), which achieved the highest classification accuracy compared with other models. From the experiments, a set of 58 common genes was identified between differentially expressed genes and the final optimized subset. Here, Gene Ontology and KEGG pathway enrichment analyses highlighted key biological processes and pathways associated with preeclampsia. Subsequently, a protein-protein interaction network was constructed, identifying 10 hub genes: TSC22D1, IRF3, MME, SRSF10, SOD1, HK2, ERO1L, SH3BP5, UBC, and ZFAND5. Further analysis of gene regulatory networks, including transcription factor-gene, gene-microRNA, and drug-gene interactions, revealed that seven hub genes (HK2, SRSF10, SOD1, ERO1L, IRF3, MME, and SH3BP5) were strongly associated with preeclampsia. Molecular docking analysis showed that HK2, SH3BP5, and SOD1 exhibited significant binding affinities with two preeclampsia drugs. These findings suggest that the identified hub genes hold promise as biomarkers for early prognosis, diagnosis, and potential therapeutic targets for preeclampsia.",
+  "abstract_zh": "子痫前期是一种复杂的妊娠疾病，对母亲和胎儿均构成显著的健康风险。尽管其临床重要性不言而喻，但其潜在的分子机制仍知之甚少。在本研究中，我们开发了一种整合深度学习和生物信息学的方法，以识别子痫前期的潜在生物标志物。首先分析了三个与子痫前期相关的微阵列数据集，基于$P$-值筛选出初步的基因子集。随后进行了两轮连续的特征选择：首先应用Fisher评分方法提取显著基因，接着采用最小冗余最大相关性方法进一步优化子集。这些选定的基因子集使用我们提出的基于注意力的卷积神经网络（Attention-based Convolutional Neural Network, AttCNN）进行训练，与其他模型相比，该网络实现了最高的分类准确率。通过实验，在差异表达基因与最终优化子集之间鉴定出一组58个共同基因。在此，基因本体论（Gene Ontology）和KEGG通路富集分析突出了与子痫前期相关的关键生物学过程和通路。随后，构建了蛋白质-蛋白质相互作用网络，识别出10个枢纽基因：TSC22D1、IRF3、MME、SRSF10、SOD1、HK2、ERO1L、SH3BP5、UBC和ZFAND5。对基因调控网络（包括转录因子-基因、基因-微小RNA和药物-基因相互作用）的进一步分析揭示，其中七个枢纽基因（HK2、SRSF10、SOD1、ERO1L、IRF3、MME和SH3BP5）与子痫前期密切相关。分子对接分析显示，HK2、SH3BP5和SOD1与两种子痫前期药物表现出显著的结合亲和力。这些发现表明，所识别的枢纽基因有望作为子痫前期早期预后、诊断的生物标志物及潜在的治疗靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40966654/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40966654/",
+  "paper_page_path": "papers/pubmed/40966654/index.html"
+}

@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "38866015",
+    "doi": "10.1016/j.xcrm.2024.101608",
+    "title": "Cancer mutational signatures identification in clinical assays using neural embedding-based representations."
+  },
+  "content": {
+    "abstract": "While mutational signatures provide a plethora of prognostic and therapeutic insights, their application in clinical-setting, targeted gene panels is extremely limited. We develop a mutational representation model (which learns and embeds specific mutation signature connections) that enables prediction of dominant signatures with only a few mutations. We predict the dominant signatures across more than 60,000 tumors with gene panels, delineating their landscape across different cancers. Dominant signature predictions in gene panels are of clinical importance. These included UV, tobacco, and apolipoprotein B mRNA editing enzyme, catalytic polypeptide (APOBEC) signatures that are associated with better survival, independently from mutational burden. Further analyses reveal gene and mutation associations with signatures, such as SBS5 with TP53 and APOBEC with FGFR3(S249C). In a clinical use case, APOBEC signature is a robust and specific predictor for resistance to epidermal growth factor receptor-tyrosine kinase inhibitors (EGFR-TKIs). Our model provides an easy-to-use way to detect signatures in clinical setting assays with many possible clinical implications for an unprecedented number of cancer patients.",
+    "keywords": [
+      "cancer genomics",
+      "gene panels",
+      "machine learning",
+      "mutational signatures",
+      "precision oncology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Mutation/genetics",
+      "*Neoplasms/genetics",
+      "ErbB Receptors/genetics",
+      "Protein Kinase Inhibitors/pharmacology",
+      "Tumor Suppressor Protein p53/genetics",
+      "Neural Networks, Computer",
+      "Receptor, Fibroblast Growth Factor, Type 3/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yaacov, Adar",
+        "Ben Cohen, Gil",
+        "Landau, Jakob",
+        "Hope, Tom",
+        "Simon, Itamar",
+        "Rosenberg, Shai"
+      ],
+      "short_names": [
+        "Yaacov A",
+        "Ben Cohen G",
+        "Landau J",
+        "Hope T",
+        "Simon I",
+        "Rosenberg S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Gaffin Center for Neuro-Oncology, Sharett Institute for Oncology, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel; The Wohl Institute for Translational Medicine, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel; Department of Microbiology and Molecular Genetics, IMRIC, Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel. Electronic address: adar.yaacov@mail.huji.ac.il.",
+        "Gaffin Center for Neuro-Oncology, Sharett Institute for Oncology, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel; The Wohl Institute for Translational Medicine, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel.",
+        "Gaffin Center for Neuro-Oncology, Sharett Institute for Oncology, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel; The Wohl Institute for Translational Medicine, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel.",
+        "School of Computer Science and Engineering, Hebrew University of Jerusalem, Jerusalem, Israel.",
+        "Department of Microbiology and Molecular Genetics, IMRIC, Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel.",
+        "Gaffin Center for Neuro-Oncology, Sharett Institute for Oncology, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel; The Wohl Institute for Translational Medicine, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel. Electronic address: shair@hadassah.org.il."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yaacov, Adar",
+        "short_name": "Yaacov A",
+        "identifiers": [],
+        "affiliations": [
+          "Gaffin Center for Neuro-Oncology, Sharett Institute for Oncology, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel; The Wohl Institute for Translational Medicine, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel; Department of Microbiology and Molecular Genetics, IMRIC, Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel. Electronic address: adar.yaacov@mail.huji.ac.il."
+        ]
+      },
+      {
+        "full_name": "Ben Cohen, Gil",
+        "short_name": "Ben Cohen G",
+        "identifiers": [],
+        "affiliations": [
+          "Gaffin Center for Neuro-Oncology, Sharett Institute for Oncology, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel; The Wohl Institute for Translational Medicine, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel."
+        ]
+      },
+      {
+        "full_name": "Landau, Jakob",
+        "short_name": "Landau J",
+        "identifiers": [],
+        "affiliations": [
+          "Gaffin Center for Neuro-Oncology, Sharett Institute for Oncology, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel; The Wohl Institute for Translational Medicine, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel."
+        ]
+      },
+      {
+        "full_name": "Hope, Tom",
+        "short_name": "Hope T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Hebrew University of Jerusalem, Jerusalem, Israel."
+        ]
+      },
+      {
+        "full_name": "Simon, Itamar",
+        "short_name": "Simon I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, IMRIC, Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel."
+        ]
+      },
+      {
+        "full_name": "Rosenberg, Shai",
+        "short_name": "Rosenberg S",
+        "identifiers": [],
+        "affiliations": [
+          "Gaffin Center for Neuro-Oncology, Sharett Institute for Oncology, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel; The Wohl Institute for Translational Medicine, Hadassah Medical Center and Faculty of Medicine, Hebrew University of Jerusalem, Jerusalem, Israel. Electronic address: shair@hadassah.org.il."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports. Medicine"
+    ],
+    "journal_abbrev": [
+      "Cell Rep Med"
+    ],
+    "pub_date": "2024 Jun 18",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/13 00:42",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [
+      "42378718",
+      "42238456",
+      "42192895",
+      "42188872",
+      "41756300",
+      "41751900",
+      "41711788",
+      "41562760",
+      "41511341",
+      "40611295",
+      "40561160",
+      "39764440"
+    ],
+    "refs": [
+      "38049664",
+      "37407818",
+      "36702933",
+      "36089134",
+      "35949260",
+      "35603010",
+      "35522273",
+      "35476848",
+      "35444210",
+      "35326735",
+      "35319765",
+      "35192403",
+      "35168570",
+      "35120664",
+      "35013428",
+      "34724984",
+      "34702725",
+      "34483003",
+      "34316057",
+      "34232869",
+      "34141139",
+      "33538820",
+      "32657413",
+      "32530570",
+      "32497495",
+      "32118208",
+      "32025018",
+      "32025007",
+      "31937368",
+      "31470794",
+      "31422205",
+      "31333789",
+      "31278357",
+      "31116423",
+      "30988514",
+      "30643254",
+      "30412573",
+      "30178746",
+      "30120226",
+      "30030494",
+      "29748584",
+      "29342134",
+      "29310131",
+      "29056344",
+      "28572459",
+      "28481359",
+      "28288110",
+      "27811275",
+      "27738317",
+      "26443852",
+      "26163694",
+      "25765070",
+      "24681907",
+      "23945592",
+      "23303777",
+      "22115991"
+    ],
+    "similar": [
+      "38866015",
+      "36089134",
+      "30975452",
+      "28285689",
+      "36533638",
+      "28838400",
+      "34503126",
+      "32299384",
+      "37840519",
+      "35109853",
+      "33926553",
+      "38284983",
+      "31152682",
+      "28498782",
+      "21152424",
+      "31228622",
+      "26254388",
+      "37721193",
+      "34483003",
+      "37434091",
+      "34663923",
+      "16278391",
+      "33717580",
+      "31735287",
+      "30236628",
+      "36829178",
+      "34986026",
+      "37877748",
+      "37283742",
+      "35331964",
+      "22788954",
+      "35515712",
+      "21072204",
+      "33077920",
+      "30522449",
+      "36117108",
+      "35597990",
+      "38965255",
+      "25537218",
+      "34608255",
+      "35209919",
+      "35838647",
+      "36503478",
+      "34160364",
+      "31294536",
+      "38402722",
+      "37754531",
+      "34819052",
+      "29330617",
+      "23074402",
+      "36494075",
+      "30913927",
+      "31414580",
+      "28583311",
+      "37393385",
+      "32596830",
+      "30901844",
+      "30849372",
+      "31067233",
+      "32361787",
+      "22082647",
+      "33879103",
+      "30605951",
+      "37057114",
+      "37672936",
+      "31222843",
+      "19632948",
+      "32662546",
+      "17096850",
+      "32471470",
+      "33317922",
+      "35321431",
+      "33418062",
+      "30798634",
+      "37678146",
+      "24376508",
+      "37017806",
+      "35016432",
+      "35340160",
+      "24552141",
+      "25886164",
+      "31568888",
+      "32657388",
+      "25394791",
+      "20504346",
+      "32023774",
+      "32743759",
+      "30936378",
+      "23744832",
+      "25499173",
+      "35050709",
+      "25839328",
+      "37253775",
+      "33849962",
+      "30412573",
+      "34786492",
+      "36273937",
+      "22664249",
+      "32067680",
+      "37425683",
+      "39194330",
+      "35614096",
+      "35377867",
+      "39272814"
+    ],
+    "review": [
+      "38866015",
+      "32299384",
+      "37840519",
+      "34483003",
+      "31735287",
+      "30236628",
+      "35209919",
+      "30913927",
+      "32596830",
+      "30901844",
+      "19632948",
+      "30798634",
+      "35340160",
+      "25886164",
+      "31568888",
+      "22664249",
+      "39272814"
+    ],
+    "pmc": [
+      "11228799"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-3791(24)00312-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38866015/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2666-3791(24)00312-4",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

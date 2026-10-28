@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "41794796",
+    "doi": "10.1186/s41065-026-00661-2",
+    "title": "Integrated bioinformatics analysis and experimental validation reveal Pevonedistat as a promising therapeutic agent modulating the CRL4-DTL-p21/p53 axis in nasopharyngeal carcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Nasopharyngeal carcinoma (NPC) continues to represent a significant therapeutic challenge. Despite the substantial success of radiotherapy, chemotherapy, and immunotherapy, their effectiveness remains limited in recurrent or advanced NPC. Hence, the urgent identification of new molecular targets and effective therapeutic agents is critically required. METHODS: Bulk and single-cell transcriptomic data were analyzed using bioinformatics approaches, and machine learning algorithms were employed to screen for hub genes in NPC. Functional validation of hub genes was performed through loss-of-function assays. Potential therapeutic agents were identified through molecular docking and subsequently evaluated for anti-NPC efficacy using both in vitro NPC cell line models and in vivo patient-derived xenograft (PDX) models. RESULTS: Bioinformatics analyses revealed DTL as a central gene with critical diagnostic and prognostic significance. Knockdown of DTL led to cell cycle arrest and apoptosis through stabilization of p21 and p53. Pevonedistat markedly inhibited DTL activity, recapitulating the effects of DTL knockdown. In vitro studies showed that Pevonedistat suppressed NPC cell proliferation, while in PDX models it significantly reduced tumor burden. Collectively, the data establish DTL as a key oncogenic driver in NPC and highlight Pevonedistat as a promising therapeutic candidate. CONCLUSION: Our work presents an integrated framework for target identification and therapeutic development in NPC. These findings deepen our understanding of NPC biology and highlight that Pevonedistat suppresses cell proliferation and tumor growth of NPC via the CRL4-DTL-p21/p53 axis.",
+    "keywords": [
+      "DTL",
+      "Machine learning",
+      "Molecular docking",
+      "Nasopharyngeal carcinoma",
+      "PDX models",
+      "Pevonedistat"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pyrimidines/pharmacology/therapeutic use",
+      "*Nasopharyngeal Carcinoma/drug therapy/genetics",
+      "Computational Biology",
+      "Tumor Suppressor Protein p53/metabolism/genetics",
+      "Cell Line, Tumor",
+      "Animals",
+      "*Nasopharyngeal Neoplasms/drug therapy/genetics",
+      "*Cyclopentanes/pharmacology/therapeutic use",
+      "Cyclin-Dependent Kinase Inhibitor p21/metabolism/genetics",
+      "Molecular Docking Simulation",
+      "Cell Proliferation/drug effects",
+      "Apoptosis/drug effects",
+      "*Antineoplastic Agents/pharmacology",
+      "Mice",
+      "Gene Expression Regulation, Neoplastic/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jia, Cong-Chao",
+        "Li, Zhen-Yi",
+        "Jia, Wei-Hua",
+        "Jiang, Cheng-Tao"
+      ],
+      "short_names": [
+        "Jia CC",
+        "Li ZY",
+        "Jia WH",
+        "Jiang CT"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Oncology in South China, Guangdong Key Laboratory of Nasopharyngeal Carcinoma Diagnosis and Therapy, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, 510060, P.R. China.",
+        "Clinical Medical College, Southwest Medical University, Luzhou, 646000, P. R. China.",
+        "State Key Laboratory of Oncology in South China, Guangdong Key Laboratory of Nasopharyngeal Carcinoma Diagnosis and Therapy, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, 510060, P.R. China. jiawh@sysucc.org.cn.",
+        "School of Public Health, Sun Yat-sen University, Guangzhou, 510080, P.R. China. jiawh@sysucc.org.cn.",
+        "State Key Laboratory of Oncology in South China, Guangdong Key Laboratory of Nasopharyngeal Carcinoma Diagnosis and Therapy, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, 510060, P.R. China. jiangct@sysucc.org.cn.",
+        "Department of Anesthesiology, State Key Laboratory of Oncology in South China, Collaborative Innovation for Cancer Medicine, Sun Yat-sen University Cancer Center, Guangzhou, Guangdong, 510060, P. R. China. jiangct@sysucc.org.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jia, Cong-Chao",
+        "short_name": "Jia CC",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Oncology in South China, Guangdong Key Laboratory of Nasopharyngeal Carcinoma Diagnosis and Therapy, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, 510060, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhen-Yi",
+        "short_name": "Li ZY",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Medical College, Southwest Medical University, Luzhou, 646000, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Jia, Wei-Hua",
+        "short_name": "Jia WH",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Oncology in South China, Guangdong Key Laboratory of Nasopharyngeal Carcinoma Diagnosis and Therapy, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, 510060, P.R. China. jiawh@sysucc.org.cn.",
+          "School of Public Health, Sun Yat-sen University, Guangzhou, 510080, P.R. China. jiawh@sysucc.org.cn."
+        ]
+      },
+      {
+        "full_name": "Jiang, Cheng-Tao",
+        "short_name": "Jiang CT",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Oncology in South China, Guangdong Key Laboratory of Nasopharyngeal Carcinoma Diagnosis and Therapy, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, Guangzhou, 510060, P.R. China. jiangct@sysucc.org.cn.",
+          "Department of Anesthesiology, State Key Laboratory of Oncology in South China, Collaborative Innovation for Cancer Medicine, Sun Yat-sen University Cancer Center, Guangzhou, Guangdong, 510060, P. R. China. jiangct@sysucc.org.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Hereditas"
+    ],
+    "journal_abbrev": [
+      "Hereditas"
+    ],
+    "pub_date": "2026 Mar 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/08 01:38",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40691404",
+      "40526256",
+      "40523907",
+      "40443342",
+      "40209143",
+      "40136303",
+      "40038150",
+      "40004496",
+      "39567714",
+      "39426201",
+      "39384740",
+      "39367897",
+      "39231979",
+      "38796105",
+      "38755255",
+      "38395893",
+      "38254110",
+      "38166895",
+      "38131461",
+      "38015220",
+      "37977950",
+      "37953279",
+      "37932756",
+      "37422688",
+      "37417358",
+      "37358482",
+      "37318724",
+      "37056571",
+      "37052240",
+      "37038185",
+      "36526897",
+      "36117730",
+      "35840896",
+      "35642693",
+      "35609983",
+      "35545778",
+      "34841254",
+      "34718717",
+      "34341036",
+      "33980204",
+      "33849968",
+      "33558703",
+      "33093441",
+      "33089874",
+      "33078086",
+      "32917854",
+      "32714568",
+      "32686767",
+      "31409387",
+      "31355467",
+      "31178151",
+      "30398643",
+      "30321504",
+      "28838998",
+      "27333051",
+      "26828135",
+      "26714970",
+      "26321262",
+      "26025928",
+      "22311401",
+      "21828267",
+      "21368091",
+      "20932471",
+      "20525923",
+      "20129059",
+      "18794347",
+      "16949367"
+    ],
+    "similar": [
+      "41794796",
+      "27333051",
+      "41633015",
+      "32449282",
+      "30236142",
+      "40615101",
+      "35276693",
+      "28569775",
+      "40498422",
+      "28445086",
+      "40286596",
+      "34754077",
+      "40316196",
+      "33113432",
+      "42486346",
+      "34207315",
+      "35504052",
+      "40779443",
+      "29556337",
+      "42371755",
+      "25099028",
+      "42314829",
+      "35903031",
+      "40310511",
+      "30907073",
+      "41022935",
+      "39789198",
+      "38166895",
+      "34563951",
+      "27771609",
+      "25337187",
+      "31311404",
+      "40818540",
+      "27774777",
+      "38603854",
+      "16142332",
+      "40434251",
+      "25422887",
+      "40403681",
+      "28696828",
+      "40935211",
+      "39955364",
+      "32685028",
+      "27744436",
+      "30017199",
+      "29052525",
+      "32449143",
+      "40090046",
+      "33116488",
+      "38682208",
+      "41772319",
+      "39128424",
+      "41861924",
+      "41208534",
+      "39612069",
+      "41288681",
+      "22249270",
+      "30993588",
+      "36608594",
+      "16448826",
+      "38063110",
+      "40912370",
+      "35837768",
+      "30656832",
+      "38212344",
+      "35355274",
+      "34883074",
+      "29956730",
+      "35114328",
+      "29536130",
+      "40912394",
+      "38159821",
+      "19667180",
+      "24884612",
+      "30503558",
+      "26252575",
+      "26383521",
+      "24806432",
+      "36562948",
+      "35676661",
+      "26675347",
+      "41357200",
+      "42331772",
+      "24064966",
+      "16505098",
+      "30144445",
+      "32606016",
+      "35038119",
+      "27428374",
+      "29228426",
+      "30975469",
+      "32683392",
+      "27099475",
+      "40409114",
+      "23533654",
+      "24156782",
+      "37249005",
+      "37497684",
+      "41667913",
+      "23314035"
+    ],
+    "review": [
+      "41794796",
+      "41633015"
+    ],
+    "pmc": [
+      "13081564"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://hereditasjournal.biomedcentral.com/articles/10.1186/s41065-026-00661-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41794796/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

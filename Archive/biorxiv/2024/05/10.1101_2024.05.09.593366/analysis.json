@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.05.09.593366",
+  "title": "Supervised and unsupervised deep learning-based approaches for studying DNA replication spatiotemporal dynamics",
+  "authors": "Julian Ng-Kee-Kwong; Ben Philps; Fiona N. C. Smith; Aleksandra Sobieska; Naiming Chen; Constance Alabert; Hakan Bilen; Sara C. B. Buonomo",
+  "journal": "bioRxiv",
+  "published_date": "2024-05-14",
+  "window": {
+    "start": "2024-05-13",
+    "end": "2024-05-19"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用深度学习分析DNA复制时空动态，但对象为DNA复制而非蛋白质-DNA互作，无结合建模，仅边缘相关。",
+  "abstract": "In eukaryotic cells, DNA replication is organised both spatially and temporally, as evidenced by the stage-specific spatial distribution of replication foci in the nucleus. Despite the genetic association of aberrant DNA replication with numerous human diseases, the labour-intensive methods employed to study DNA replication have hindered large-scale analyses of its roles in pathological processes. In this study, we first demonstrate that a convolutional neural network trained to classify S-phase stages based on DAPI and EdU patterns could identify altered replication dynamics in Rif1 -deficient mouse embryonic stem cells (mESCs), revealing a skewed distribution across the various S-phase stages. Given the possible practical limitations associated with a supervised framework, we proceed to show that the abnormal replication profile of Rif1 -deficient mESCs could further be detected by an unsupervised approach (based on self-supervised representation learning), which could additionally reconstruct progression through S-phase. Finally, we extend our approach to a well-characterised cellular model of inducible deregulated origin firing, involving cyclin E overexpression. Through parallel EdU- and PCNA-based analyses, we demonstrate the potential applicability of our method to patient samples, offering a means to identify the contribution of deregulated DNA replication to a plethora of pathogenic processes.",
+  "abstract_zh": "在真核细胞中，DNA复制的组织既具有空间性也具有时间性，这通过细胞核中复制灶的阶段特异性空间分布得以体现。尽管异常DNA复制与多种人类疾病存在遗传关联，但研究DNA复制所采用的劳动密集型方法阻碍了对其在病理过程中作用的大规模分析。在本研究中，我们首先证明，基于DAPI和EdU模式训练以分类S期阶段的卷积神经网络能够识别Rif1缺陷小鼠胚胎干细胞（mESCs）中改变的复制动态，揭示出各S期阶段分布的偏斜。鉴于监督框架可能存在的实际局限性，我们进一步展示，Rif1缺陷mESCs的异常复制谱可通过无监督方法（基于自监督表示学习）检测到，该方法还能额外重建S期的进程。最后，我们将方法扩展到一个特征明确的诱导性失控复制起始细胞模型，涉及细胞周期蛋白E过表达。通过并行的EdU和PCNA分析，我们证明了该方法在患者样本中的潜在适用性，为识别失控DNA复制对众多致病过程的贡献提供了一种手段。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.05.09.593366",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.05.09.593366",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.05.09.593366/index.html"
+}

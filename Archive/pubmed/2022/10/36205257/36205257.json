@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "36205257",
+    "doi": "10.1002/jbt.23241",
+    "title": "Differential role of Pax6 and its interaction with Shh-Gli1-IDH2 axis in regulation of glioma growth and chemoresistance."
+  },
+  "content": {
+    "abstract": "Glioma is a major brain tumor, and the associated mortality rate is very high. Contemporary therapies provide a chance of survival for 9-12 months. Therefore, a novel approach is essential to improve the survival rate. Sonic hedgehog (Shh) cell signaling is critical for early development in various tumors. This investigation attempted to explore the potential interaction and regulation of Shh-Gli1 cell signaling in association with paired box 6 (Pax6) and isocitrate dehydrogenase 2 (IDH2). The expression pattern of Shh, Gli1, Pax6, and IDH2 was examined by transcriptome analysis, immunohistochemistry, and confocal images. The results suggest the interaction of Shh-Gli1 cell signaling pathway with Pax6 and IDH2 and potential regulation. Thereafter, we performed protein-protein docking and molecular dynamic simulations (MDS) of Gli1 with Pax6 and IDH2. The results suggest differential dynamic interactions of Gli1-IDH2 and Gli1-Pax6. Gli1 knockdown downregulated the expression of Pax6 and upregulated the expression of IDH2. Moreover, Gli1 knockdown decreased the expression of the drug resistance gene MRP1. The knockdown of Pax6 gene in glioma cells downregulated the expression of Gli1 and IDH2 and promoted cell proliferation. Moreover, the efficacy of the treatment of glioma cells with temozolomide (TMZ) and Gli1 inhibitor GANT61 was higher than that of TMZ alone. MDS results revealed that the interactions of Gli1 with IDH2 were stronger and more stable than those with Pax6. Intriguingly, inhibition of Pax6 promoted glioma growth even in the presence of TMZ. However, the tumor-suppressive nature of Pax6 was altered when Gli1 was inhibited by GANT61, and it showed potential oncogenic character, as observed in other cancers. Therefore, we conclude that Pax6 interacted with IDH2 and Gli1 in glioma. Moreover, the Shh-Gli1-IDH2/Pax6 cell signaling axis provides a new therapeutic approach for inhibiting the progression of the disease and mitigating drug resistance in glioma.",
+    "keywords": [
+      "Gli1",
+      "IDH2",
+      "Pax6",
+      "Shh",
+      "glioma",
+      "molecular dynamic simulation (MDS)",
+      "protein docking"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Zinc Finger Protein GLI1/genetics/metabolism/therapeutic use",
+      "Drug Resistance, Neoplasm",
+      "Hedgehog Proteins/metabolism",
+      "*Glioma/drug therapy/metabolism",
+      "*Brain Neoplasms/metabolism",
+      "Temozolomide/pharmacology",
+      "PAX6 Transcription Factor/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Farheen, Shirin",
+        "Ahmed, Swalih P",
+        "Mariyath P M, Mubeena",
+        "Kausar, Tasneem",
+        "Hoda, Md Fakhrul",
+        "Arif, Sayeedul H",
+        "Nayeem, Shahid M",
+        "Ali, Asif",
+        "Chosdol, Kunzang",
+        "Shahi, Mehdi H"
+      ],
+      "short_names": [
+        "Farheen S",
+        "Ahmed SP",
+        "Mariyath P M M",
+        "Kausar T",
+        "Hoda MF",
+        "Arif SH",
+        "Nayeem SM",
+        "Ali A",
+        "Chosdol K",
+        "Shahi MH"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9589-4382"
+      ],
+      "affiliations": [
+        "Interdisciplinary Brain Research Centre, J.N. Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh, Uttar Pradesh, India.",
+        "Interdisciplinary Brain Research Centre, J.N. Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh, Uttar Pradesh, India.",
+        "Interdisciplinary Brain Research Centre, J.N. Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh, Uttar Pradesh, India.",
+        "Department of Chemistry, Faculty of Sciences, Aligarh Muslim University, Aligarh, Uttar Pradesh, India.",
+        "Department of Neuro Surgery, J.N. Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh, Uttar Pradesh, India.",
+        "Department of Pathology, J.N. Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh, Uttar Pradesh, India.",
+        "Department of Chemistry, Faculty of Sciences, Aligarh Muslim University, Aligarh, Uttar Pradesh, India.",
+        "Interdisciplinary Brain Research Centre, J.N. Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh, Uttar Pradesh, India.",
+        "Department of Biochemistry, All India Institute of Medical Sciences, New Delhi, India.",
+        "Interdisciplinary Brain Research Centre, J.N. Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh, Uttar Pradesh, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Farheen, Shirin",
+        "short_name": "Farheen S",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Brain Research Centre, J.N. Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Ahmed, Swalih P",
+        "short_name": "Ahmed SP",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Brain Research Centre, J.N. Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Mariyath P M, Mubeena",
+        "short_name": "Mariyath P M M",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Brain Research Centre, J.N. Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Kausar, Tasneem",
+        "short_name": "Kausar T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Sciences, Aligarh Muslim University, Aligarh, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Hoda, Md Fakhrul",
+        "short_name": "Hoda MF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuro Surgery, J.N. Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Arif, Sayeedul H",
+        "short_name": "Arif SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, J.N. Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Nayeem, Shahid M",
+        "short_name": "Nayeem SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Sciences, Aligarh Muslim University, Aligarh, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Ali, Asif",
+        "short_name": "Ali A",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Brain Research Centre, J.N. Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Chosdol, Kunzang",
+        "short_name": "Chosdol K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, All India Institute of Medical Sciences, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Shahi, Mehdi H",
+        "short_name": "Shahi MH",
+        "identifiers": [
+          "0000-0001-9589-4382"
+        ],
+        "affiliations": [
+          "Interdisciplinary Brain Research Centre, J.N. Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh, Uttar Pradesh, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biochemical and molecular toxicology"
+    ],
+    "journal_abbrev": [
+      "J Biochem Mol Toxicol"
+    ],
+    "pub_date": "2023 Feb",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/08 06:00",
+    "fetched_at": "2026-09-28 14:30:53"
+  },
+  "links": {
+    "cites": [
+      "41776093",
+      "41723447",
+      "41507895",
+      "41154694",
+      "39821893"
+    ],
+    "refs": [],
+    "similar": [
+      "36205257",
+      "27662839",
+      "28446712",
+      "21059263",
+      "28332226",
+      "24165291",
+      "32209258",
+      "28886322",
+      "29222038",
+      "20957337",
+      "31455382",
+      "27894350",
+      "26815504",
+      "32894788",
+      "32298032",
+      "26859575",
+      "28994542",
+      "35331907",
+      "32527063",
+      "30790292",
+      "31292920",
+      "27748762",
+      "32404987",
+      "38307877",
+      "31036836",
+      "26276718",
+      "23544423",
+      "35594713",
+      "30610878",
+      "20444323",
+      "31613002",
+      "21380601",
+      "31816328",
+      "22992192",
+      "29329585",
+      "28123507",
+      "28477008",
+      "28035389",
+      "32526259",
+      "34984467",
+      "34623580",
+      "20830616",
+      "32286274",
+      "25141859",
+      "34371011",
+      "35403434",
+      "28623188",
+      "24418624",
+      "19244133",
+      "37964226",
+      "22543708",
+      "19818966",
+      "28379718",
+      "35266008",
+      "28551328",
+      "33125122",
+      "38223000",
+      "29722127",
+      "25072505",
+      "27819521",
+      "22900095",
+      "31534499",
+      "31634481",
+      "16701100",
+      "37691264",
+      "31969097",
+      "18991353",
+      "35245826",
+      "29564556",
+      "26465952",
+      "27694322",
+      "28148279",
+      "23667589",
+      "32449381",
+      "31929563",
+      "25078145",
+      "26339341",
+      "35805202",
+      "27601167",
+      "34445421",
+      "20857406",
+      "22275805",
+      "24063979",
+      "28458545",
+      "26215410",
+      "35184473",
+      "32493277",
+      "32194873",
+      "37190906",
+      "33316781",
+      "25432698",
+      "34421346",
+      "25552484",
+      "28886265",
+      "22133807",
+      "21649559",
+      "33106913",
+      "32846867",
+      "30502245",
+      "32328197",
+      "26768620",
+      "30761741",
+      "37149646",
+      "37389038"
+    ],
+    "review": [
+      "36205257",
+      "23544423",
+      "22992192",
+      "31969097"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://doi.org/10.1002/jbt.23241",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAE-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-103",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

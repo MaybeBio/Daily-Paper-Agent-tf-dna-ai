@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34590991",
+  "title": "Mining of structural motifs in proteins using artificial bee colony optimization framework for druggability.",
+  "authors": "Suma, L S; Vinod Chandra, S S",
+  "journal": "Journal of bioinformatics and computational biology",
+  "published_date": "2021-10-01",
+  "window": {
+    "start": "2021-09-27",
+    "end": "2021-10-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用人工蜂群优化算法挖掘DNA结合蛋白中的螺旋-转角-螺旋结构基序，并探讨其药物靶向性，虽涉及蛋白-DNA互作但未聚焦TF-DNA结合机制，方法为优化算法而非AI/物理模拟，故为中档匹配。",
+  "abstract": "In this work, we have developed an optimization framework for digging out common structural patterns inherent in DNA binding proteins. A novel variant of the artificial bee colony optimization algorithm is proposed to improve the exploitation process. Experiments on four benchmark objective functions for different dimensions proved the speedier convergence of the algorithm. Also, it has generated optimum features of Helix Turn Helix structural pattern based on the objective function defined with occurrence count on secondary structure. The proposed algorithm outperformed the compared methods in convergence speed and the quality of generated motif features. The motif locations obtained using the derived common pattern are compared with the results of two other motif detection tools. 92% of tested proteins have produced matching locations with the results of the compared methods. The performance of the approach was analyzed with various measures and observed higher sensitivity, specificity and area under the curve values. A novel strategy for druggability finding by docking studies, targeting the motif locations is also discussed.",
+  "abstract_zh": "在本工作中，我们开发了一个优化框架，用于挖掘DNA结合蛋白中固有的共同结构模式。提出了一种人工蜂群优化算法的新变体，以改进开发过程。在四个不同维度的基准目标函数上的实验证明了该算法更快的收敛速度。此外，基于二级结构上出现次数定义的目标函数，它生成了螺旋-转角-螺旋结构模式的最优特征。所提出的算法在收敛速度和生成的基序特征质量方面优于比较方法。使用推导出的共同模式获得的基序位置与两种其他基序检测工具的结果进行了比较。92%的测试蛋白质产生了与比较方法结果匹配的位置。通过多种指标分析了该方法的性能，观察到更高的敏感性、特异性和曲线下面积值。还讨论了一种通过对接研究靶向基序位置的新型可成药性发现策略。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34590991/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34590991/",
+  "paper_page_path": "papers/pubmed/34590991/index.html"
+}

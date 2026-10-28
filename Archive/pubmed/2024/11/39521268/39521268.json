@@ -1,0 +1,219 @@
+{
+  "identity": {
+    "pmid": "39521268",
+    "doi": "10.1016/j.biosystems.2024.105360",
+    "title": "Exploring the spatial effects influencing the EGFR/ERK pathway dynamics with machine learning surrogate models."
+  },
+  "content": {
+    "abstract": "The fate of cells is regulated by biochemical reactions taking place inside of them, known as intracellular pathways. Cells display a variety of characteristics related to their shape, structure and contained fluid, which influences the diffusion of proteins and their interactions. To gain insights into the spatial effects shaping intracellular regulation, we apply machine learning (ML) to explore a previously developed spatial model of the epidermal growth factor receptor (EGFR) signaling. The model describes the reactions between molecular species inside of cells following the transient activation of EGF receptors. To train our ML models, we conduct 10,000 numerical simulations in parallel where we calculate the cumulative activation of molecules and transcription factors under various conditions such as different diffusion speeds, inactivation rates, and cell structures. We take advantage of the low computational cost of ML algorithms to investigate the effects of cell and nucleus sizes, the diffusion speed of proteins, and the inactivation rate of the Ras molecules on the activation strength of transcription factors. Our results suggest that the predictions by both neural networks and random forests yielded minimal mean square error (MSEs), while linear generalized models displayed a significantly larger MSE. The exploration of the surrogate models has shown that smaller cell and nucleus radii as well, larger diffusion coefficients, and reduced inactivation rates increase the activation of transcription factors. These results are confirmed by numerical simulations. Our ML algorithms can be readily incorporated within multiscale models of tumor growth to embed the spatial effects regulating intracellular pathways, enabling the use of complex cell models within multiscale models while reducing the computational cost.",
+    "keywords": [
+      "Brownian dynamics",
+      "Discrete model",
+      "Generalized linear model",
+      "Intracellular signaling",
+      "Neural networks",
+      "Random forests"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*ErbB Receptors/metabolism",
+      "Humans",
+      "Algorithms",
+      "*Models, Biological",
+      "Computer Simulation",
+      "*MAP Kinase Signaling System/physiology",
+      "Signal Transduction/physiology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Garcia, Juan A",
+        "Bouchnita, Anass"
+      ],
+      "short_names": [
+        "Garcia JA",
+        "Bouchnita A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Mathematical Sciences, The University of Texas at El Paso, El Paso 79968, TX, USA.",
+        "Department of Mathematical Sciences, The University of Texas at El Paso, El Paso 79968, TX, USA. Electronic address: abouchnita@utep.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Garcia, Juan A",
+        "short_name": "Garcia JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematical Sciences, The University of Texas at El Paso, El Paso 79968, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Bouchnita, Anass",
+        "short_name": "Bouchnita A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematical Sciences, The University of Texas at El Paso, El Paso 79968, TX, USA. Electronic address: abouchnita@utep.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bio Systems"
+    ],
+    "journal_abbrev": [
+      "Biosystems"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/13 13:50",
+    "fetched_at": "2026-09-30 05:56:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39521268",
+      "31016574",
+      "23912807",
+      "19804630",
+      "17273938",
+      "19036127",
+      "28542548",
+      "20028552",
+      "19626123",
+      "12885624",
+      "27902699",
+      "23180942",
+      "18335053",
+      "15192046",
+      "18681747",
+      "38834572",
+      "12642595",
+      "22194952",
+      "12556561",
+      "17052126",
+      "19638615",
+      "11319218",
+      "10795716",
+      "14626447",
+      "39639305",
+      "23902938",
+      "14645669",
+      "22232557",
+      "16077899",
+      "23108309",
+      "21212278",
+      "23532334",
+      "14623113",
+      "24250280",
+      "18762250",
+      "12101233",
+      "32817373",
+      "21085658",
+      "39513999",
+      "15556944",
+      "18534028",
+      "26534963",
+      "19662154",
+      "8910327",
+      "16565089",
+      "26858456",
+      "11943669",
+      "24958104",
+      "15166244",
+      "19531499",
+      "22482950",
+      "20458382",
+      "17279942",
+      "28100485",
+      "15572377",
+      "11278817",
+      "19234599",
+      "15657067",
+      "33009641",
+      "22003224",
+      "36762704",
+      "16115866",
+      "39375968",
+      "21829671",
+      "11457825",
+      "23416883",
+      "17537752",
+      "11773440",
+      "11832340",
+      "31562860",
+      "27253373",
+      "24934872",
+      "18319245",
+      "12496267",
+      "22935054",
+      "14695245",
+      "16785991",
+      "16880536",
+      "31074391",
+      "11919185",
+      "29630631",
+      "22984397",
+      "20233406",
+      "22315226",
+      "16376130",
+      "37328058",
+      "18502802",
+      "29073728",
+      "14612544",
+      "12600231",
+      "19246520",
+      "12874275",
+      "9454735",
+      "18154660",
+      "18701461",
+      "19213840",
+      "15793571",
+      "21961726",
+      "35410600",
+      "11923843"
+    ],
+    "review": [
+      "39521268",
+      "12600231"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0303-2647(24)00245-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

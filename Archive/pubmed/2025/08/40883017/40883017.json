@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "40883017",
+    "doi": "10.1101/gad.352889.125",
+    "title": "MEF2C controls segment-specific gene regulatory networks that direct heart tube morphogenesis."
+  },
+  "content": {
+    "abstract": "The gene regulatory networks (GRNs) that control early heart formation are beginning to be understood, but lineage-specific GRNs remain largely undefined. We investigated networks controlled by the vital transcription factor MEF2C using a time course of single-nucleus RNA sequencing and ATAC sequencing in wild-type and Mef2c-null embryos. We identified a \"posteriorized\" cardiac gene signature and chromatin landscape in the absence of MEF2C. Integrating our multiomics data in a deep learning-based model, we constructed developmental trajectories for each of the outflow tract, ventricular, and inflow tract segments and alterations of these in Mef2c-null embryos. We computationally identified segment-specific MEF2C-dependent enhancers with activity in the developing zebrafish heart. Finally, using inferred GRNs, we discovered that the Mef2c-null heart malformations are partly driven by increased activity of the nuclear hormone receptor NR2F2. Our results delineate lineage-specific GRNs in the early heart tube and provide a generalizable framework for dissecting transcriptional networks governing developmental processes.",
+    "keywords": [
+      "cardiogenesis",
+      "developmental biology",
+      "embryogenesis",
+      "gene regulation",
+      "gene regulatory networks",
+      "heart development"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Gene Regulatory Networks/genetics",
+      "*MEF2 Transcription Factors/genetics/metabolism",
+      "*Zebrafish/genetics/embryology",
+      "*Gene Expression Regulation, Developmental",
+      "*Heart/embryology",
+      "*Morphogenesis/genetics",
+      "*Zebrafish Proteins/genetics/metabolism",
+      "Enhancer Elements, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Muncie-Vasic, Jonathon M",
+        "Sinha, Tanvi",
+        "Clark, Alexander P",
+        "Brower, Emily F",
+        "Saucerman, Jeffrey J",
+        "Black, Brian L",
+        "Bruneau, Benoit G"
+      ],
+      "short_names": [
+        "Muncie-Vasic JM",
+        "Sinha T",
+        "Clark AP",
+        "Brower EF",
+        "Saucerman JJ",
+        "Black BL",
+        "Bruneau BG"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7405-6213",
+        "ORCID: 0000-0001-9509-5687",
+        "ORCID: 0000-0002-5200-6573",
+        "ORCID: 0000-0001-9464-8374",
+        "ORCID: 0000-0002-6664-8913",
+        "ORCID: 0000-0002-0804-7597"
+      ],
+      "affiliations": [
+        "Gladstone Institutes, San Francisco, California 94158, USA.",
+        "Cardiovascular Research Institute, University of California, San Francisco, San Francisco, California 94158, USA.",
+        "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia 22904, USA.",
+        "Gladstone Institutes, San Francisco, California 94158, USA.",
+        "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia 22904, USA.",
+        "Robert M. Berne Cardiovascular Research Center, University of Virginia, Charlottesville, Virginia 22908, USA.",
+        "Cardiovascular Research Institute, University of California, San Francisco, San Francisco, California 94158, USA.",
+        "Department of Biochemistry and Biophysics, University of California, San Francisco, San Francisco, California 94158, USA.",
+        "Gladstone Institutes, San Francisco, California 94158, USA; benoit.bruneau@gladstone.ucsf.edu.",
+        "Roddenberry Center for Stem Cell Biology and Medicine, Gladstone Institutes, San Francisco, California 94158, USA.",
+        "Department of Pediatrics, University of California, San Francisco, San Francisco, California 94158, USA.",
+        "Institute for Human Genetics, University of California, San Francisco, San Francisco, California 94158, USA.",
+        "Eli and Edythe Broad Center for Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, California 94158, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Muncie-Vasic, Jonathon M",
+        "short_name": "Muncie-Vasic JM",
+        "identifiers": [
+          "0000-0002-7405-6213"
+        ],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, California 94158, USA."
+        ]
+      },
+      {
+        "full_name": "Sinha, Tanvi",
+        "short_name": "Sinha T",
+        "identifiers": [
+          "0000-0001-9509-5687"
+        ],
+        "affiliations": [
+          "Cardiovascular Research Institute, University of California, San Francisco, San Francisco, California 94158, USA."
+        ]
+      },
+      {
+        "full_name": "Clark, Alexander P",
+        "short_name": "Clark AP",
+        "identifiers": [
+          "0000-0002-5200-6573"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia 22904, USA."
+        ]
+      },
+      {
+        "full_name": "Brower, Emily F",
+        "short_name": "Brower EF",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, California 94158, USA."
+        ]
+      },
+      {
+        "full_name": "Saucerman, Jeffrey J",
+        "short_name": "Saucerman JJ",
+        "identifiers": [
+          "0000-0001-9464-8374"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia 22904, USA.",
+          "Robert M. Berne Cardiovascular Research Center, University of Virginia, Charlottesville, Virginia 22908, USA."
+        ]
+      },
+      {
+        "full_name": "Black, Brian L",
+        "short_name": "Black BL",
+        "identifiers": [
+          "0000-0002-6664-8913"
+        ],
+        "affiliations": [
+          "Cardiovascular Research Institute, University of California, San Francisco, San Francisco, California 94158, USA.",
+          "Department of Biochemistry and Biophysics, University of California, San Francisco, San Francisco, California 94158, USA."
+        ]
+      },
+      {
+        "full_name": "Bruneau, Benoit G",
+        "short_name": "Bruneau BG",
+        "identifiers": [
+          "0000-0002-0804-7597"
+        ],
+        "affiliations": [
+          "Gladstone Institutes, San Francisco, California 94158, USA; benoit.bruneau@gladstone.ucsf.edu.",
+          "Roddenberry Center for Stem Cell Biology and Medicine, Gladstone Institutes, San Francisco, California 94158, USA.",
+          "Department of Pediatrics, University of California, San Francisco, San Francisco, California 94158, USA.",
+          "Institute for Human Genetics, University of California, San Francisco, San Francisco, California 94158, USA.",
+          "Eli and Edythe Broad Center for Regeneration Medicine and Stem Cell Research, University of California, San Francisco, San Francisco, California 94158, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes & development"
+    ],
+    "journal_abbrev": [
+      "Genes Dev"
+    ],
+    "pub_date": "2025 Dec 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/30 00:44",
+    "fetched_at": "2026-10-01 00:36:39"
+  },
+  "links": {
+    "cites": [
+      "41799755",
+      "40998696"
+    ],
+    "refs": [
+      "39261736",
+      "38769056",
+      "38019918",
+      "37953330",
+      "37540844",
+      "36994838",
+      "36755098",
+      "36516837",
+      "36344977",
+      "36124642",
+      "36108627",
+      "36104547",
+      "36068320",
+      "35522174",
+      "35042561",
+      "34062119",
+      "33633365",
+      "33414188",
+      "33107387",
+      "32766548",
+      "32728250",
+      "31740819",
+      "31678629",
+      "31659164",
+      "31271750",
+      "30348673",
+      "30078726",
+      "29443958",
+      "27725084",
+      "27374120",
+      "27124452",
+      "27049946",
+      "26875865",
+      "26811383",
+      "26753747",
+      "25296024",
+      "25274757",
+      "25249388",
+      "25150979",
+      "24360275",
+      "24351709",
+      "23783515",
+      "23725765",
+      "23498934",
+      "23457256",
+      "22868264",
+      "22750409",
+      "22442009",
+      "21221095",
+      "21148449",
+      "18798982",
+      "17767158",
+      "17406414",
+      "17130149",
+      "16188249",
+      "15829524",
+      "15130493",
+      "10215630",
+      "9891782",
+      "9162005",
+      "8506376"
+    ],
+    "similar": [
+      "40883017",
+      "39554149",
+      "40998696",
+      "26811383",
+      "28807900",
+      "15843409",
+      "9162005",
+      "42074532",
+      "33245870",
+      "30760547",
+      "15253934",
+      "11397016",
+      "20212526",
+      "8026334",
+      "39819837",
+      "21435340",
+      "42296344",
+      "25266257",
+      "33044128",
+      "15501228",
+      "26321200",
+      "41457100",
+      "22011226",
+      "30166330",
+      "22750409",
+      "41110187",
+      "40531881",
+      "27918583",
+      "9834187",
+      "10021346",
+      "38663879",
+      "30478328",
+      "37238675",
+      "22113051",
+      "9043061",
+      "30445463",
+      "11076755",
+      "11714687",
+      "42055320",
+      "38880275",
+      "22498567",
+      "24143132",
+      "18992377",
+      "31167905",
+      "21756893",
+      "15363409",
+      "29162723",
+      "29054930",
+      "42475469",
+      "10625555",
+      "37772400",
+      "30521808",
+      "24750843",
+      "24607366",
+      "33616638",
+      "23468913",
+      "29945667",
+      "18079734",
+      "23850773",
+      "21160473",
+      "16680724",
+      "41176880",
+      "14550531",
+      "40063068",
+      "28558931",
+      "30286071",
+      "40832854",
+      "16720879",
+      "9895330",
+      "17706063",
+      "20463883",
+      "38977847",
+      "39858599",
+      "17067785",
+      "40682180",
+      "27899510",
+      "15890826",
+      "17276918",
+      "8626009",
+      "32772801",
+      "10477291",
+      "23444361",
+      "20167925",
+      "9732552",
+      "21653610",
+      "19345202",
+      "29596928",
+      "41509364",
+      "41937210",
+      "41537425",
+      "41198546",
+      "22077099",
+      "37073532",
+      "28586646",
+      "31322043",
+      "40311730",
+      "16140986",
+      "30080860",
+      "33920121",
+      "32231307"
+    ],
+    "review": [
+      "40883017",
+      "40998696",
+      "42074532",
+      "18992377"
+    ],
+    "pmc": [
+      "12412991"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.informatics.jax.org/reference/40883017",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40883017/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://zfin.org/action/publication/view?accession=40883017",
+        "provider": "ZFIN",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40883017",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

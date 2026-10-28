@@ -1,0 +1,111 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) without figures, tables, or supplementary materials
+- **Assessment boundary** Technical soundness, methodological novelty, experimental validation, and biological interpretability of the proposed CaHoT-GRN framework
+- **Shared manuscript claim summary** The authors propose CaHoT-GRN, a context-aware high-order topology learning framework for single-cell gene regulatory network inference. The method integrates multi-modal data: DNA sequences encoded by DNABERT, protein sequences encoded by ESM, gene expression from scRNA-seq, and a PPI-filtered high-order neighbor construction. A similarity co-attention mechanism fuses features from the GRN and a PPI-derived heterogeneous information network. The authors report average AUROC of 0.846 and AUPR of 0.420 across four ground-truth network types, outperforming seven baseline methods, and demonstrate biological relevance through case studies, pathway analysis, and motif matching.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (datasets, framework description, evaluation strategy), Results (performance comparison, ablation study, parameter sensitivity, case study, spatial transcriptomics application), Discussion
+- **Missing materials affecting confidence** Figures 1-5, Tables 1-6, Supplementary Tables S1-S4, Supplementary Figures S1-S2, detailed mathematical formulations (equations appear as LaTeX placeholders), baseline method descriptions, hyperparameter settings, computational resource details, statistical test details
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically ambitious framework that combines pretrained biological language models, PPI-derived topological priors, and a co-attention mechanism for GRN inference. The motivation is clear and the integration of sequence-level and network-level information is a reasonable direction. However, the current manuscript has several critical gaps: the experimental evaluation is incompletely reported (tables and figures not visible), the comparison to baselines lacks methodological detail, the ablation study is described qualitatively without numerical support, and the claimed biological validation is not fully substantiated. The core novelty relative to existing multi-modal GRN methods (e.g., those using graph transformers or hypergraphs) is not sharply delineated. The manuscript is not yet ready for publication in its current form, but the underlying idea has merit and could be established with substantial revision and complete reporting.
+- **Who would be interested in the results, and why** Computational biologists developing GRN inference methods, researchers applying deep learning to single-cell transcriptomics, and bioinformaticians interested in integrating sequence-level foundation models with network-based approaches. The work is also relevant to those studying regulatory mechanisms in development and disease, particularly the bladder cancer application.
+- **Major strengths** 1) The multi-modal integration of DNA, protein, and expression data is a timely and relevant direction. 2) The use of PPI networks to enrich sparse GRN topology is biologically motivated. 3) The similarity co-attention mechanism is a reasonable attempt to address long-range dependencies. 4) The evaluation across multiple ground-truth network types and datasets is comprehensive in design. 5) The public availability of code is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The authors claim CaHoT-GRN outperforms seven baseline methods across seven datasets and four ground-truth network types, with average AUROC of 0.846 and AUPR of 0.420.
+  - **Evidence pointer** Results section, Tables 1 and 2 (not visible in provided material)
+  - **Concern** The performance comparison is the central evidence for the method's effectiveness, but the actual numerical results in Tables 1 and 2 are not available in the provided material. The reported averages (AUROC 0.846, AUPR 0.420) are stated without per-dataset, per-network-type breakdowns, standard deviations, or statistical significance values. The claim of "matching or outperforming" baselines cannot be verified. Additionally, the baseline methods are listed but not described; it is unclear whether they were run with optimal hyperparameters, whether the same train/test splits were used, and whether the comparison is fair.
+  - **Why it matters** Without complete and transparent reporting of the primary experimental results, the central claim of the manuscript cannot be assessed. The reader cannot determine whether the improvements are consistent, statistically significant, or confined to specific settings.
+  - **Resolution test** Provide full tables with per-dataset, per-network-type AUROC and AUPR values for all methods, including standard deviations across the 10 runs. Report p-values from the paired t-tests. Describe baseline implementations, hyperparameter choices, and any preprocessing steps. If possible, include a per-dataset comparison figure.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the PPI-based high-order neighbor construction module "effectively captures indirect associations between TFs and target genes" and that the similarity co-attention module "addresses long-range node dependencies."
+  - **Evidence pointer** Materials and Methods, "Protein-protein interaction-based high-order neighbor construction module" and "GAT encoder and similarity co-attention module" sections
+  - **Concern** The mathematical formulations for the high-order neighbor construction, the GAT encoder, and the similarity co-attention mechanism are presented as LaTeX placeholders and are not readable. The description of the meta-path generation and the PPI filtering process is high-level and lacks algorithmic detail. It is unclear how the PPI network is made dataset-specific, how the intersection or union approaches differ, and how the second-order neighbor matrix is normalized or thresholded. The similarity co-attention mechanism is described conceptually but the exact computation of the three similarity matrices and their integration is not specified.
+  - **Why it matters** The methodological contribution is the core of the paper. Without precise mathematical definitions and algorithmic pseudocode, the method cannot be reproduced, and the claimed novelty cannot be evaluated. The distinction from existing attention-based GRN methods is not clear.
+  - **Resolution test** Provide complete mathematical formulations for all modules, including the exact equations for the meta-path generation, PPI filtering, GAT attention coefficients, similarity matrix computation, and feature fusion. Include a pseudocode algorithm or a detailed step-by-step description. Clarify the differences between the proposed similarity co-attention and standard attention mechanisms.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The authors claim that the ablation study demonstrates the necessity of each module, and that removing the similarity co-attention module leads to "substantial performance degradation."
+  - **Evidence pointer** Results, "Ablation study" section, Figure 2 (not visible)
+  - **Concern** The ablation results are described qualitatively without numerical values. Figure 2 is not available. The claim that the similarity co-attention module is particularly important on the STRING network is presented as a hypothesis without supporting data. The ablation study is limited to three variants; additional ablations (e.g., removing only the PPI filter, using different PPI sources, varying the number of hops) would strengthen the analysis.
+  - **Why it matters** Ablation studies are essential for attributing performance gains to specific components. Without quantitative results, the contribution of each module cannot be assessed, and the design choices appear arbitrary.
+  - **Resolution test** Provide the full ablation results in tabular form with numerical AUROC and AUPR values for each variant across all datasets and network types. Include the STRING-specific results. Consider additional ablations to isolate the contribution of the PPI filter and the co-attention mechanism.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological validation
+  - **Claim pointer** The authors claim that case studies, pathway analyses, and motif matching "confirmed its high biological relevance."
+  - **Evidence pointer** Results, "Case study" section, Figures 3 and 4, Supplementary Tables S4, Supplementary Figures S1 and S2
+  - **Concern** The case study on hHEP with three TFs (JUND, FOXA2, ELF1) is described but the results are not visible. The validation using hTFtarget is mentioned but the overlap statistics are not reported. The motif matching using JASPAR is stated but the enrichment significance is not quantified. The pathway analysis for FOXA2 targets is described qualitatively. The bladder cancer application is presented without quantitative evaluation of the inferred network's accuracy.
+  - **Why it matters** Biological validation is crucial for demonstrating that the method produces meaningful predictions beyond statistical benchmarks. Without quantitative metrics (e.g., overlap with hTFtarget, motif enrichment p-values, pathway enrichment significance), the biological relevance claim is not substantiated.
+  - **Resolution test** Provide quantitative results for the case study: number of predicted targets validated by hTFtarget, enrichment p-values for motif matching, and pathway enrichment statistics. For the bladder cancer application, include a comparison to known bladder cancer regulators or a functional validation.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty
+  - **Claim pointer** The authors state that existing methods "rely predominantly on expression data alone, overlooking the sequence semantic context of target genes, and the intrinsic physicochemical properties of TFs."
+  - **Evidence pointer** Introduction section
+  - **Concern** The claim that existing methods overlook sequence and protein information is not fully accurate. Several recent GRN inference methods incorporate sequence motifs, TF binding site information, or protein features. The authors do not provide a systematic comparison with these methods, nor do they clearly delineate the novelty of their approach relative to the most related works (e.g., those using graph transformers, hypergraphs, or multi-modal fusion). The contribution statement in the Introduction is cut off and does not list the specific contributions.
+  - **Why it matters** For a methods paper, the novelty must be clearly established. If similar multi-modal approaches exist, the authors need to explain what is fundamentally new about CaHoT-GRN.
+  - **Resolution test** Expand the related work discussion to include recent multi-modal GRN methods. Clearly state the specific contributions in the Introduction. Provide a comparison with the most relevant methods that also use sequence or protein information.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "matching or outperforming existing methods" but does not specify which methods or in which settings. The phrase "high-order topology learning" is used without defining what "high-order" means in this context.
+  - **Required correction** Specify the number of baselines and the key result. Define "high-order" (e.g., second-order neighbors) in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Datasets section
+  - **Evidence pointer** Materials and Methods, "Datasets" section
+  - **Issue** The dataset descriptions are brief. The number of cells, genes, and the preprocessing steps (e.g., normalization, filtering) are not specified. The accession numbers are provided but the specific files used are not listed.
+  - **Required correction** Provide detailed dataset statistics and preprocessing steps. List the exact files downloaded from GEO.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Performance comparison
+  - **Evidence pointer** Results, "Performance comparison with baseline methods" section
+  - **Issue** The authors mention "paired two-sample t-tests" but do not report the significance level, whether multiple testing correction was applied, or the degrees of freedom.
+  - **Required correction** Report the significance threshold, the number of comparisons, and whether correction for multiple testing was performed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Parameter sensitivity
+  - **Evidence pointer** Results, "Parameter sensitivity of the high-order neighbor module" section
+  - **Issue** The comparison of "single GRN (S-GRN), raw PPI data, as well as 1-hop, 2-hop, and 3-hop neighborhoods" is described but the results in Table 4 are not visible. The rationale for choosing 2-hop is not explained beyond a general statement.
+  - **Required correction** Provide the numerical results and explain why 2-hop is optimal (e.g., trade-off between coverage and noise).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion and conclusion section
+  - **Issue** The discussion of limitations is brief and focuses on future work. The authors do not discuss potential failure modes, computational cost, or scalability to larger gene sets.
+  - **Required correction** Add a paragraph discussing computational complexity, scalability, and potential limitations in low-data regimes.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Data availability section
+  - **Issue** The code repository is mentioned in the abstract but not in the Data availability section. The repository link is not provided in the manuscript text.
+  - **Required correction** Add the repository URL to the Data availability section and ensure it is accessible.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (incomplete performance reporting), R1-M2 (missing mathematical formulations), R1-M3 (incomplete ablation reporting)
+- **Assessment against Nature-style criteria** Originality: Moderate. The combination of DNABERT/ESM embeddings with PPI-derived topology is a reasonable integration, but the individual components are established. The similarity co-attention mechanism is a variation of existing attention approaches. Scientific importance: Moderate. GRN inference is an important problem, and multi-modal integration is a promising direction, but the demonstrated improvements need to be verified. Interdisciplinary readership: The work is primarily of interest to computational biologists and bioinformaticians. The biological validation is not yet strong enough to attract a broader biological audience. Technical soundness: Cannot be fully assessed due to missing formulations and incomplete results. Readability for nonspecialists: The manuscript is generally readable but the methods section relies heavily on jargon and the missing equations hinder understanding.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has a promising direction but requires major revisions to fully report the experimental results, provide complete mathematical formulations, and strengthen the biological validation. I would be supportive if these technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that CaHoT-GRN "matching or outperforming existing methods" is unsupported without the full results in Tables 1 and 2.
+- The claim that the PPI-based high-order neighbor construction "effectively captures indirect associations" is not quantitatively supported.
+- The claim that the similarity co-attention mechanism "addresses long-range node dependencies" is not demonstrated with specific analyses (e.g., comparison to methods without this module, or analysis of attention weights).
+- The biological relevance claims based on case studies, pathway analysis, and motif matching are not substantiated without quantitative results.
+- The statement that existing methods "overlook" sequence and protein information is an overgeneralization and is not supported by a systematic literature review.
+- The performance of CaHoT-GRN on the bladder cancer spatial transcriptomics dataset is described but not quantitatively evaluated.

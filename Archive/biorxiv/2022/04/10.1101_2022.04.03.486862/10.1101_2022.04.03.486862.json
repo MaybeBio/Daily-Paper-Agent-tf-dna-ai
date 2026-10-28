@@ -1,0 +1,330 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.04.03.486862",
+  "title": "Motifizer: a tool for parsing high-throughput sequencing datasets and quantitative comparative analyses of transcription factor-binding sites",
+  "doi": "10.1101/2022.04.03.486862",
+  "abstract": "Background Comparative analysis of Chromatin immunoprecipitation followed by massively parallel sequencing (ChIP-seq), combined with transcriptomics data (RNA-seq), can provide critical insights into gene regulatory networks controlled by transcription factors in a given biological context. While multiple programs exist, which need to be individually installed and executed to generate such information, a user-friendly tool with low system requirements which combines the various computational processes into one package, using a docker container, is lacking. Results In this study, we present a user-interactive, infrastructure-independent computational pipeline, called Motifizer, which uses open source tools for processing ChIP-Seq and RNA-seq datasets. Motifizer performs extensive analysis of raw input data, performing peak calling, de-novo motif analysis and differential gene expression analysis on ChIP and RNA-seq datasets. Additionally, Motifizer can be used for analysis and quantitative comparison of transcription factor binding sites in user defined genomic regions. Motifizer also allows easy addition and/or changes of parameters, thereby adding to the versatility of the tool. Conclusion The Motifizer tool is an easy to use tool which uses a docker container system to install and execute ChIP-seq and RNA-seq data parsing. The Analysis module of Motifizer can be employed to identify putative targets involved in gene regulatory networks. Motifizer can be accessed by a large user base and does not require programming skill by the user. Motifizer can be locally installed from the repository ( https://github.com/abhikbhattacharjee/Motifizer )",
+  "authors": [
+    "Soumen Khan",
+    "Abhik Bhattacharjee",
+    "Pranav Badhe",
+    "Chinmay Dongaonkar",
+    "Yash Gaglani"
+  ],
+  "published_date": "2022-04-05",
+  "updated_date": "2022-04-05T14:35:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.04.03.486862",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.04.03.486862.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:18:27Z",
+        "timestamp": 1768501107770,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            5
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 24,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Background</jats:title>\n                  <jats:p>Comparative analysis of Chromatin immunoprecipitation followed by massively parallel sequencing (ChIP-seq), combined with transcriptomics data (RNA-seq), can provide critical insights into gene regulatory networks controlled by transcription factors in a given biological context. While multiple programs exist, which need to be individually installed and executed to generate such information, a user-friendly tool with low system requirements which combines the various computational processes into one package, using a docker container, is lacking.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>In this study, we present a user-interactive, infrastructure-independent computational pipeline, called Motifizer, which uses open source tools for processing ChIP-Seq and RNA-seq datasets. Motifizer performs extensive analysis of raw input data, performing peak calling, de-novo motif analysis and differential gene expression analysis on ChIP and RNA-seq datasets. Additionally, Motifizer can be used for analysis and quantitative comparison of transcription factor binding sites in user defined genomic regions. Motifizer also allows easy addition and/or changes of parameters, thereby adding to the versatility of the tool.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Conclusion</jats:title>\n                  <jats:p>\n                    The Motifizer tool is an easy to use tool which uses a docker container system to install and execute ChIP-seq and RNA-seq data parsing. The Analysis module of Motifizer can be employed to identify putative targets involved in gene regulatory networks. Motifizer can be accessed by a large user base and does not require programming skill by the user. Motifizer can be locally installed from the repository (\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/abhikbhattacharjee/Motifizer\">https://github.com/abhikbhattacharjee/Motifizer</jats:ext-link>\n                    )\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2022.04.03.486862",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            5
+          ]
+        ],
+        "date-time": "2022-04-05T14:35:12Z",
+        "timestamp": 1649169312000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Motifizer: a tool for parsing high-throughput sequencing datasets and quantitative comparative analyses of transcription factor-binding sites"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6012-2232",
+          "authenticated-orcid": false,
+          "given": "Soumen",
+          "family": "Khan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Abhik",
+          "family": "Bhattacharjee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Pranav",
+          "family": "Badhe",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chinmay",
+          "family": "Dongaonkar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yash",
+          "family": "Gaglani",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky379"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep00205"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu638"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-0716-1307-8_20"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2008.05.024"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fgene.2019.00312"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/j.1460-2075.1991.tb08058.x"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr064"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2010.05.004"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.08.17.456507"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0201-4"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/276565a0"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp352"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr509"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp324"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2011-12-8-r83"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cub.2021.07.030"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2008.05.023"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2641"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp616"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/ZENODO.1146014"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2484"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.12.10.1474"
+        },
+        {
+          "key": "2022060211101085000_2022.04.03.486862v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2008-9-9-r137"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.04.03.486862",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:53:01Z",
+        "timestamp": 1768445581000
+      },
+      "score": 99.902565,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.04.03.486862"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            5
+          ]
+        ]
+      },
+      "references-count": 24,
+      "URL": "https://doi.org/10.1101/2022.04.03.486862",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            5
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

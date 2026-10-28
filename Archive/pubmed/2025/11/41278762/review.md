@@ -1,0 +1,123 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, conclusions, methods) as provided
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and internal consistency of the reported findings
+- **Shared manuscript claim summary** The authors present an integrated homolog detection framework combining BLASTp, MMseqs2, Foldseek, and the protein language model-based tool PROST, applied to the human proteome. They report discovery of 14 novel serine carboxypeptidases, 203 novel kinases, and 30 novel transcription factors, with structural validation and catalytic residue prediction for several protease families.
+- **Visible evidence base** Abstract, Introduction, Results (four subsections), Conclusions and Discussion, Methods (four subsections), references to supplemental figures and tables (not provided)
+- **Missing materials affecting confidence** Supplemental figures S1, S2, S8, S9, S10; Supplemental tables S1, S2, S3, S6, S7; Table 1A, 1B, 2, 3; Figure 1, 2, 3, 4, 5; detailed clustering parameters; exact thresholds for method integration; code availability statement
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in protein annotation and presents a plausible integrated approach. However, the evidence provided in the main text is insufficient to evaluate the validity of the central claims. Key quantitative results are presented without the referenced tables and figures, making it impossible to assess the statistical significance, false discovery rates, or biological relevance of the reported paralog discoveries. The methodological description lacks critical details on how results from different tools are combined, how thresholds are set, and how false positives are controlled. The claims of "surprisingly large numbers" of new paralogs require rigorous benchmarking against known annotations and independent validation, which is not demonstrated in the provided material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing homolog detection methods would be interested in the integrated framework. Protein evolution researchers and functional genomics scientists would be interested in the expanded paralog sets for kinases, proteases, and transcription factors. Drug discovery researchers might find the new paralog candidates relevant for target identification and off-target assessment. However, the current presentation does not yet provide sufficient validated results to be of immediate practical use.
+- **Major strengths** The integration of multiple orthogonal detection methods (sequence, structure, and language model embeddings) is a sensible and potentially powerful approach. The focus on catalytic residue validation for proteases adds a functional dimension beyond mere sequence similarity. The application to multiple protein families demonstrates generalizability of the framework concept. The acknowledgment of database inconsistencies and the use of larger reference sets is a reasonable methodological choice.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims discovery of 14 novel serine carboxypeptidases, 203 novel kinases, and 30 novel transcription factors.
+  - **Evidence pointer** Results sections; Figure 1, 4; Supplemental Tables S1, S2, S3, S6, S7 (not provided)
+  - **Concern** The central quantitative claims are presented without the referenced tables and figures. The reader cannot verify the identities of the claimed novel paralogs, the criteria used to classify them as novel, or the overlap with existing annotations. Without these data, the claims are unverifiable.
+  - **Why it matters** The primary contribution of the manuscript is the discovery of new paralogs. If the supporting data are not available for inspection, the scientific case is not established. This is a fundamental issue that prevents any meaningful assessment of the work.
+  - **Resolution test** Provide all referenced supplemental tables and figures. For each claimed novel paralog, show the evidence of absence from existing databases, the detection scores from each method, and the structural validation metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The integrated framework combines BLASTp, MMseqs2, Foldseek, and PROST, with downstream structural validation.
+  - **Evidence pointer** Methods section "Discovery of Novel Human Paralogs with Integrated Homolog Searches"
+  - **Concern** The method description does not specify how results from the four tools are combined. Are they union, intersection, or weighted integration? What are the thresholds for each tool? How are conflicts resolved? How is the false discovery rate controlled? The description of "combining the hits from each method and removing the duplicates" suggests a union approach, but the criteria for what constitutes a hit from each method are not given.
+  - **Why it matters** Without a precise definition of the integration logic and thresholds, the method cannot be reproduced or evaluated. The validity of the reported paralog numbers depends entirely on these choices. A union approach with permissive thresholds would inflate false positives, while an intersection approach might miss true positives.
+  - **Resolution test** Provide a detailed algorithmic description of the integration procedure, including all thresholds, scoring functions, and decision rules. Report the number of hits from each method individually and at each integration step. Perform a sensitivity analysis showing how results change with varying thresholds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation adequacy
+  - **Claim pointer** The manuscript claims validation of novel carboxypeptidases against experimentally determined PDB structures, with 10 out of 14 showing structural similarity.
+  - **Evidence pointer** Results section "Validation of New Carboxypeptidases"; Table 2 (not provided)
+  - **Concern** The validation is described as comparing AlphaFold predicted structures with PDB experimental structures. However, the specific PDB entries, the TM-score values, and the criteria for "good" structural similarity are not provided in the main text. For the four cases where matches were found to hydrolases, peroxidases, or lipases, the interpretation is ambiguous: the authors suggest these may represent shared folds with different functions, but this could also indicate false positives. The claim that "no catalytic triad matches are found" for three protein pairs, yet these are still classified as serine carboxypeptidases, is contradictory and requires clarification.
+  - **Why it matters** The validation is the key evidence that the identified paralogs are genuine and functionally relevant. If the structural similarity thresholds are too permissive, or if the interpretation of mismatched catalytic residues is inconsistent, the entire set of claims is undermined.
+  - **Resolution test** Provide the full Table 2 with PDB identifiers, TM-scores, RMSD values, and catalytic residue alignments. For the three cases with no catalytic triad match, explain the basis for classification as serine carboxypeptidases. Provide a clear decision tree for how structural similarity and catalytic residue conservation are used to confirm or reject a paralog call.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript reports 5,048 novel paralog proteins for kinases and 5,061 additional paralogs for transcription factors, with 203 and 30 retained after structural validation, respectively.
+  - **Evidence pointer** Results sections "Application to Human Kinases" and "Application to Transcription Factors"; Figure 5
+  - **Concern** The numbers reported are inconsistent between the Results and the Conclusions. The Results state 5,048 novel kinase paralogs and 5,061 transcription factor paralogs, while the Conclusions state 5,628 and 4,236, respectively. Additionally, the filtering from thousands of candidates to 203 or 30 is not explained. What criteria removed the vast majority of candidates? Is there a statistical framework for assessing the significance of the retained paralogs?
+  - **Why it matters** The discrepancy in numbers suggests either typographical errors or different analysis stages being reported. The lack of explanation for the dramatic filtering undermines confidence in the final counts. Without a statistical framework, the retained paralogs could be arbitrary.
+  - **Resolution test** Reconcile the numbers between Results and Conclusions. Provide a detailed account of the filtering steps, including the number of candidates at each stage and the criteria for retention. Report false discovery rates or equivalent statistical measures.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Benchmarking
+  - **Claim pointer** The framework is claimed to enable discovery of "surprisingly large numbers" of unknown paralogs.
+  - **Evidence pointer** Abstract; Conclusions and Discussion
+  - **Concern** No benchmarking against existing methods or databases is presented. The authors do not compare their results with those from established paralog databases such as Ensembl, TreeFam, or OrthoDB. The claim of "surprising" discovery requires a baseline for comparison. How many of the claimed novel paralogs would be found by simpler sequence-based methods alone? What is the added value of the integrated approach?
+  - **Why it matters** The novelty of the contribution depends on demonstrating that the integrated approach finds paralogs that existing methods miss. Without benchmarking, the reader cannot assess whether the complexity of the framework is justified.
+  - **Resolution test** Compare the paralog sets identified by the integrated framework with those from existing databases and from each individual method. Quantify the overlap and the unique contributions of each component. Provide precision and recall estimates against a gold standard set.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, sentence "Using all-versus-all exhaustive comparisons across the 20,647 human proteins, we systematically identify novel paralogs and assess their catalytic residues for two serine protease clans."
+  - **Issue** The abstract states "two serine protease clans" but the Results describe chymotrypsin-like serine proteases and serine carboxypeptidases, which are not typically described as "clans" in the MEROPS classification. The terminology is imprecise.
+  - **Required correction** Clarify the classification terminology, e.g., "two serine protease families" or specify the MEROPS clans explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Results and Conclusions
+  - **Evidence pointer** Results "Application to Human Kinases" states 5,048 novel paralogs; Conclusions states 5,628. Results "Application to Transcription Factors" states 5,061; Conclusions states 4,236.
+  - **Issue** The numbers for novel paralogs differ between the Results and Conclusions sections.
+  - **Required correction** Reconcile the numbers and ensure consistency throughout the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Discovery of Novel Human Paralogs with Integrated Homolog Searches"
+  - **Issue** The Methods state that PROST "performed particularly well in the CAFA 5 competition" but no citation or details are provided.
+  - **Required correction** Add a citation for the CAFA 5 competition results and specify the exact performance metric.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Validation of New Carboxypeptidases"
+  - **Evidence pointer** "The catalytical triads are not quite the same."
+  - **Issue** This sentence is vague and does not specify which triads differ and in what way.
+  - **Required correction** Specify the differences in catalytic triads for the relevant protein pairs.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Louvain Community Clustering based on TM-Scores"
+  - **Issue** The description of the Louvain algorithm implementation is incomplete. The resolution parameter, the number of iterations, and the software used are not specified.
+  - **Required correction** Provide the software package, version, and all relevant parameters for the Louvain clustering.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "TM-Align and RMSD"
+  - **Issue** The description of TM-align is minimal and does not specify the version or the exact scoring parameters used.
+  - **Required correction** Provide the TM-align version and any non-default parameters.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction
+  - **Evidence pointer** "into and below the usual twilight zone boundary of 25-30% sequence identity"
+  - **Issue** The sentence is grammatically awkward and the concept of "twilight zone" is not defined for readers unfamiliar with the term.
+  - **Required correction** Rewrite the sentence for clarity and define the twilight zone concept.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Conclusions and Discussion
+  - **Evidence pointer** "This will be further investigated with clustering based on a variety of other scorings in addition to the scoring here by structure comparisons."
+  - **Issue** The statement about future work is vague and does not specify what other scorings are planned.
+  - **Required correction** Specify the planned additional scoring methods or remove the statement.
+
+## Risk / unsupported claims
+- The specific numbers of novel paralogs (14 serine carboxypeptidases, 203 kinases, 30 transcription factors) cannot be verified from the provided material because the referenced tables and figures are not included.
+- The claim that 10 out of 14 novel carboxypeptidases have structural similarity to experimental PDB structures is unverifiable without Table 2.
+- The claim that catalytic residues were predicted for previously unannotated proteases is unverifiable without Table 1A and 1B.
+- The claim that the integrated framework outperforms individual methods is unsupported by any benchmarking data.
+- The statement that PROST performed in the top 1.4 percentile in CAFA 5 is unsupported by a citation.
+- The claim of "surprisingly large numbers" of new paralogs is subjective and lacks a quantitative baseline for comparison.
+- The discrepancy in paralog numbers between Results and Conclusions (5,048 vs 5,628 for kinases; 5,061 vs 4,236 for transcription factors) suggests potential errors that need clarification.

@@ -1,0 +1,724 @@
+{
+  "identity": {
+    "pmid": "39229027",
+    "doi": "10.1101/2024.08.21.609075",
+    "title": "Evaluating Methods for the Prediction of Cell Type-Specific Enhancers in the Mammalian Cortex."
+  },
+  "content": {
+    "abstract": "Identifying cell type-specific enhancers in the brain is critical to building genetic tools for investigating the mammalian brain. Computational methods for functional enhancer prediction have been proposed and validated in the fruit fly and not yet the mammalian brain. We organized the 'Brain Initiative Cell Census Network (BICCN) Challenge: Predicting Functional Cell Type-Specific Enhancers from Cross-Species Multi-Omics' to assess machine learning and feature-based methods designed to nominate enhancer DNA sequences to target cell types in the mouse cortex. Methods were evaluated based on in vivo validation data from hundreds of cortical cell type-specific enhancers that were previously packaged into individual AAV vectors and retro-orbitally injected into mice. We find that open chromatin was a key predictor of functional enhancers, and sequence models improved prediction of non-functional enhancers that can be deprioritized as opposed to pursued for in vivo testing. Sequence models also identified cell type-specific transcription factor codes that can guide designs of in silico enhancers. This community challenge establishes a benchmark for enhancer prioritization algorithms and reveals computational approaches and molecular information that are crucial for identifying functional enhancers in mammalian cortical cell types. The results of this challenge bring us closer to understanding the complex gene regulatory landscape of the mammalian cortex and to designing more efficient genetic tools to target cortical cell types.",
+    "keywords": [
+      "AAV",
+      "ATAC-seq",
+      "DNA methylation",
+      "HiC",
+      "RNA-Seq",
+      "benchmark",
+      "cell types",
+      "challenge",
+      "cortex",
+      "enhancer",
+      "machine learning",
+      "mouse",
+      "multiome",
+      "primates"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Johansen, Nelson J",
+        "Kempynck, Niklas",
+        "Zemke, Nathan R",
+        "Somasundaram, Saroja",
+        "De Winter, Seppe",
+        "Hooper, Marcus",
+        "Dwivedi, Deepanjali",
+        "Lohia, Ruchi",
+        "Wehbe, Fabien",
+        "Li, Bocheng",
+        "Abaffyova, Darina",
+        "Armand, Ethan J",
+        "De Man, Julie",
+        "Eksi, Eren Can",
+        "Hecker, Nikolai",
+        "Hulselmans, Gert",
+        "Konstantakos, Vasilis",
+        "Mauduit, David",
+        "Mich, John K",
+        "Partel, Gabriele",
+        "Daigle, Tanya L",
+        "Levi, Boaz P",
+        "Zhang, Kai",
+        "Tanaka, Yoshiaki",
+        "Gillis, Jesse",
+        "Ting, Jonathan T",
+        "Ben-Simon, Yoav",
+        "Miller, Jeremy",
+        "Ecker, Joseph R",
+        "Ren, Bing",
+        "Aerts, Stein",
+        "Lein, Ed S",
+        "Tasic, Bosiljka",
+        "Bakken, Trygve E"
+      ],
+      "short_names": [
+        "Johansen NJ",
+        "Kempynck N",
+        "Zemke NR",
+        "Somasundaram S",
+        "De Winter S",
+        "Hooper M",
+        "Dwivedi D",
+        "Lohia R",
+        "Wehbe F",
+        "Li B",
+        "Abaffyova D",
+        "Armand EJ",
+        "De Man J",
+        "Eksi EC",
+        "Hecker N",
+        "Hulselmans G",
+        "Konstantakos V",
+        "Mauduit D",
+        "Mich JK",
+        "Partel G",
+        "Daigle TL",
+        "Levi BP",
+        "Zhang K",
+        "Tanaka Y",
+        "Gillis J",
+        "Ting JT",
+        "Ben-Simon Y",
+        "Miller J",
+        "Ecker JR",
+        "Ren B",
+        "Aerts S",
+        "Lein ES",
+        "Tasic B",
+        "Bakken TE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4436-969X",
+        "ORCID: 0000-0002-0104-4844",
+        "ORCID: 0000-0002-6326-5925",
+        "ORCID: 0000-0002-3729-9849",
+        "ORCID: 0000-0001-7907-1247",
+        "ORCID: 0000-0003-1228-5958",
+        "ORCID: 0000-0001-9992-9167",
+        "ORCID: 0000-0002-3496-8197",
+        "ORCID: 0000-0001-9359-1855",
+        "ORCID: 0000-0002-0636-517X",
+        "ORCID: 0000-0002-4516-6317",
+        "ORCID: 0009-0003-7208-8961",
+        "ORCID: 0000-0002-3122-9858",
+        "ORCID: 0000-0003-1693-4257",
+        "ORCID: 0000-0003-2205-1899",
+        "ORCID: 0000-0002-0332-7506",
+        "ORCID: 0000-0002-2045-227X",
+        "ORCID: 0000-0002-1626-1139",
+        "ORCID: 0000-0002-4482-3119",
+        "ORCID: 0000-0001-9700-8452",
+        "ORCID: 0000-0002-8346-872X",
+        "ORCID: 0000-0003-3454-7357",
+        "ORCID: 0000-0002-2078-9374",
+        "ORCID: 0000-0002-0936-9774",
+        "ORCID: 0000-0001-8266-0392",
+        "ORCID: 0000-0002-7075-097X",
+        "ORCID: 0000-0003-4549-588X",
+        "ORCID: 0000-0001-5799-5895",
+        "ORCID: 0000-0002-5435-1127",
+        "ORCID: 0000-0002-8006-0315",
+        "ORCID: 0000-0001-9012-6552",
+        "ORCID: 0000-0002-6861-4506",
+        "ORCID: 0000-0003-3373-7386"
+      ],
+      "affiliations": [
+        "Allen Institute for Brain Science, Seattle, WA 98109.",
+        "These authors contributed equally.",
+        "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium.",
+        "These authors contributed equally.",
+        "Center for Epigenomics, Department of Cellular and Molecular Medicine, University of California, San Diego, La Jolla, CA 92093.",
+        "Allen Institute for Brain Science, Seattle, WA 98109.",
+        "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium.",
+        "Allen Institute for Brain Science, Seattle, WA 98109.",
+        "Allen Institute for Brain Science, Seattle, WA 98109.",
+        "Physiology Department and Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada.",
+        "Maisonneuve-Rosemont Hospital Research Centre, University of Montreal, Montreal, Quebec, Canada.",
+        "School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+        "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium.",
+        "Bioinformatics and Systems Biology Program, University of California, San Diego, La Jolla, CA 92093.",
+        "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium.",
+        "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium.",
+        "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium.",
+        "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium.",
+        "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium.",
+        "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium.",
+        "Allen Institute for Brain Science, Seattle, WA 98109.",
+        "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium.",
+        "Allen Institute for Brain Science, Seattle, WA 98109.",
+        "Allen Institute for Brain Science, Seattle, WA 98109.",
+        "School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China.",
+        "Maisonneuve-Rosemont Hospital Research Centre, University of Montreal, Montreal, Quebec, Canada.",
+        "Physiology Department and Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada.",
+        "Allen Institute for Brain Science, Seattle, WA 98109.",
+        "Department of Physiology and Biophysics, University of Washington, Seattle, WA 98195.",
+        "Allen Institute for Brain Science, Seattle, WA 98109.",
+        "Allen Institute for Brain Science, Seattle, WA 98109.",
+        "Salk Institute for Biological Studies, La Jolla, CA 92037.",
+        "Center for Epigenomics, Department of Cellular and Molecular Medicine, University of California, San Diego, La Jolla, CA 92093.",
+        "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium.",
+        "Allen Institute for Brain Science, Seattle, WA 98109.",
+        "Allen Institute for Brain Science, Seattle, WA 98109.",
+        "Allen Institute for Brain Science, Seattle, WA 98109.",
+        "Lead contact."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Johansen, Nelson J",
+        "short_name": "Johansen NJ",
+        "identifiers": [
+          "0000-0002-4436-969X"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science, Seattle, WA 98109.",
+          "These authors contributed equally."
+        ]
+      },
+      {
+        "full_name": "Kempynck, Niklas",
+        "short_name": "Kempynck N",
+        "identifiers": [
+          "0000-0002-0104-4844"
+        ],
+        "affiliations": [
+          "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium.",
+          "These authors contributed equally."
+        ]
+      },
+      {
+        "full_name": "Zemke, Nathan R",
+        "short_name": "Zemke NR",
+        "identifiers": [
+          "0000-0002-6326-5925"
+        ],
+        "affiliations": [
+          "Center for Epigenomics, Department of Cellular and Molecular Medicine, University of California, San Diego, La Jolla, CA 92093."
+        ]
+      },
+      {
+        "full_name": "Somasundaram, Saroja",
+        "short_name": "Somasundaram S",
+        "identifiers": [
+          "0000-0002-3729-9849"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science, Seattle, WA 98109."
+        ]
+      },
+      {
+        "full_name": "De Winter, Seppe",
+        "short_name": "De Winter S",
+        "identifiers": [
+          "0000-0001-7907-1247"
+        ],
+        "affiliations": [
+          "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Hooper, Marcus",
+        "short_name": "Hooper M",
+        "identifiers": [
+          "0000-0003-1228-5958"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science, Seattle, WA 98109."
+        ]
+      },
+      {
+        "full_name": "Dwivedi, Deepanjali",
+        "short_name": "Dwivedi D",
+        "identifiers": [
+          "0000-0001-9992-9167"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science, Seattle, WA 98109."
+        ]
+      },
+      {
+        "full_name": "Lohia, Ruchi",
+        "short_name": "Lohia R",
+        "identifiers": [
+          "0000-0002-3496-8197"
+        ],
+        "affiliations": [
+          "Physiology Department and Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Wehbe, Fabien",
+        "short_name": "Wehbe F",
+        "identifiers": [
+          "0000-0001-9359-1855"
+        ],
+        "affiliations": [
+          "Maisonneuve-Rosemont Hospital Research Centre, University of Montreal, Montreal, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Li, Bocheng",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Abaffyová, Darina",
+        "short_name": "Abaffyová D",
+        "identifiers": [
+          "0000-0002-0636-517X"
+        ],
+        "affiliations": [
+          "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Armand, Ethan J",
+        "short_name": "Armand EJ",
+        "identifiers": [
+          "0000-0002-4516-6317"
+        ],
+        "affiliations": [
+          "Bioinformatics and Systems Biology Program, University of California, San Diego, La Jolla, CA 92093."
+        ]
+      },
+      {
+        "full_name": "De Man, Julie",
+        "short_name": "De Man J",
+        "identifiers": [
+          "0009-0003-7208-8961"
+        ],
+        "affiliations": [
+          "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Eksi, Eren Can",
+        "short_name": "Eksi EC",
+        "identifiers": [
+          "0000-0002-3122-9858"
+        ],
+        "affiliations": [
+          "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Hecker, Nikolai",
+        "short_name": "Hecker N",
+        "identifiers": [
+          "0000-0003-1693-4257"
+        ],
+        "affiliations": [
+          "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Hulselmans, Gert",
+        "short_name": "Hulselmans G",
+        "identifiers": [
+          "0000-0003-2205-1899"
+        ],
+        "affiliations": [
+          "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Konstantakos, Vasilis",
+        "short_name": "Konstantakos V",
+        "identifiers": [
+          "0000-0002-0332-7506"
+        ],
+        "affiliations": [
+          "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Mauduit, David",
+        "short_name": "Mauduit D",
+        "identifiers": [
+          "0000-0002-2045-227X"
+        ],
+        "affiliations": [
+          "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Mich, John K",
+        "short_name": "Mich JK",
+        "identifiers": [
+          "0000-0002-1626-1139"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science, Seattle, WA 98109."
+        ]
+      },
+      {
+        "full_name": "Partel, Gabriele",
+        "short_name": "Partel G",
+        "identifiers": [
+          "0000-0002-4482-3119"
+        ],
+        "affiliations": [
+          "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Daigle, Tanya L",
+        "short_name": "Daigle TL",
+        "identifiers": [
+          "0000-0001-9700-8452"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science, Seattle, WA 98109."
+        ]
+      },
+      {
+        "full_name": "Levi, Boaz P",
+        "short_name": "Levi BP",
+        "identifiers": [
+          "0000-0002-8346-872X"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science, Seattle, WA 98109."
+        ]
+      },
+      {
+        "full_name": "Zhang, Kai",
+        "short_name": "Zhang K",
+        "identifiers": [
+          "0000-0003-3454-7357"
+        ],
+        "affiliations": [
+          "School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Tanaka, Yoshiaki",
+        "short_name": "Tanaka Y",
+        "identifiers": [
+          "0000-0002-2078-9374"
+        ],
+        "affiliations": [
+          "Maisonneuve-Rosemont Hospital Research Centre, University of Montreal, Montreal, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Gillis, Jesse",
+        "short_name": "Gillis J",
+        "identifiers": [
+          "0000-0002-0936-9774"
+        ],
+        "affiliations": [
+          "Physiology Department and Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Ting, Jonathan T",
+        "short_name": "Ting JT",
+        "identifiers": [
+          "0000-0001-8266-0392"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science, Seattle, WA 98109.",
+          "Department of Physiology and Biophysics, University of Washington, Seattle, WA 98195."
+        ]
+      },
+      {
+        "full_name": "Ben-Simon, Yoav",
+        "short_name": "Ben-Simon Y",
+        "identifiers": [
+          "0000-0002-7075-097X"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science, Seattle, WA 98109."
+        ]
+      },
+      {
+        "full_name": "Miller, Jeremy",
+        "short_name": "Miller J",
+        "identifiers": [
+          "0000-0003-4549-588X"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science, Seattle, WA 98109."
+        ]
+      },
+      {
+        "full_name": "Ecker, Joseph R",
+        "short_name": "Ecker JR",
+        "identifiers": [
+          "0000-0001-5799-5895"
+        ],
+        "affiliations": [
+          "Salk Institute for Biological Studies, La Jolla, CA 92037."
+        ]
+      },
+      {
+        "full_name": "Ren, Bing",
+        "short_name": "Ren B",
+        "identifiers": [
+          "0000-0002-5435-1127"
+        ],
+        "affiliations": [
+          "Center for Epigenomics, Department of Cellular and Molecular Medicine, University of California, San Diego, La Jolla, CA 92093."
+        ]
+      },
+      {
+        "full_name": "Aerts, Stein",
+        "short_name": "Aerts S",
+        "identifiers": [
+          "0000-0002-8006-0315"
+        ],
+        "affiliations": [
+          "VIB Center for AI & Computational Biology, VIB-KU Leuven Center for Brain and Disease Research & KU Leuven Department of Human Genetics, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Lein, Ed S",
+        "short_name": "Lein ES",
+        "identifiers": [
+          "0000-0001-9012-6552"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science, Seattle, WA 98109."
+        ]
+      },
+      {
+        "full_name": "Tasic, Bosiljka",
+        "short_name": "Tasic B",
+        "identifiers": [
+          "0000-0002-6861-4506"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science, Seattle, WA 98109."
+        ]
+      },
+      {
+        "full_name": "Bakken, Trygve E",
+        "short_name": "Bakken TE",
+        "identifiers": [
+          "0000-0003-3373-7386"
+        ],
+        "affiliations": [
+          "Allen Institute for Brain Science, Seattle, WA 98109.",
+          "Lead contact."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Mar 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/04 06:41",
+    "fetched_at": "2026-09-30 02:15:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40403729",
+      "39946451",
+      "38182825",
+      "38092918",
+      "38092917",
+      "38092916",
+      "38092913",
+      "38086419",
+      "37824663",
+      "37758947",
+      "37563440",
+      "37443338",
+      "36369525",
+      "36352464",
+      "35410163",
+      "34987221",
+      "34765918",
+      "34616068",
+      "34616066",
+      "34616062",
+      "34616061",
+      "34608324",
+      "34004146",
+      "33789096",
+      "33789083",
+      "33633365",
+      "32732264",
+      "32555340",
+      "31784727",
+      "31471613",
+      "28536097",
+      "27064255",
+      "25635462",
+      "24814937",
+      "23382184",
+      "21785142",
+      "21576262",
+      "21106759",
+      "20110278",
+      "17571346",
+      "16680138",
+      "11799060",
+      "9886064"
+    ],
+    "similar": [
+      "39229027",
+      "40403730",
+      "35410163",
+      "36043696",
+      "36030022",
+      "30375457",
+      "33581335",
+      "30286077",
+      "34226917",
+      "40645178",
+      "27490187",
+      "37021401",
+      "37600946",
+      "27662874",
+      "24967590",
+      "33789096",
+      "28589862",
+      "40660252",
+      "30917778",
+      "40403706",
+      "34761274",
+      "26634919",
+      "35082832",
+      "40581357",
+      "34913122",
+      "41497587",
+      "37760334",
+      "36184520",
+      "37539835",
+      "39716078",
+      "33741075",
+      "36071071",
+      "41256364",
+      "32689977",
+      "29072144",
+      "36715222",
+      "38086419",
+      "21875935",
+      "41478195",
+      "28334114",
+      "41229401",
+      "34486522",
+      "34616061",
+      "35195064",
+      "36063523",
+      "25461775",
+      "33808317",
+      "35190950",
+      "31283468",
+      "36520922",
+      "31740966",
+      "32912294",
+      "40203028",
+      "31969180",
+      "38187673",
+      "37365500",
+      "23424115",
+      "33789083",
+      "41039989",
+      "30905748",
+      "38978599",
+      "40667316",
+      "22087331",
+      "38915578",
+      "37852600",
+      "39140141",
+      "26091399",
+      "35264081",
+      "32573785",
+      "22412381",
+      "28239713",
+      "40403729",
+      "31545165",
+      "34244796",
+      "38385876",
+      "32029002",
+      "28688491",
+      "40335860",
+      "37021559",
+      "33184104",
+      "23019145",
+      "33770473",
+      "32443951",
+      "34616075",
+      "27833659",
+      "35576146",
+      "40472848",
+      "34666684",
+      "26912062",
+      "31845961",
+      "36671456",
+      "40551231",
+      "33044128",
+      "27662487",
+      "22537144",
+      "37034481",
+      "33481715",
+      "31565573",
+      "37012250",
+      "41562256"
+    ],
+    "review": [
+      "39229027",
+      "37021401",
+      "26634919",
+      "25461775",
+      "39140141"
+    ],
+    "pmc": [
+      "11370467"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39229027/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.08.21.609075",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

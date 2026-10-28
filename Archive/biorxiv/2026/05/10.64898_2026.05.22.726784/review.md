@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, discussion, methods, and supplementary figure references
+- **Assessment boundary** Scientific claims, methodological soundness, benchmarking validity, and generalizability of the D2D framework as presented
+- **Shared manuscript claim summary** The authors present D2D, a method that combines a self-supervised protein language model (pLM) with evolutionary information from multiple sequence alignments (MSAs) via Gaussian Mixture Models (GMMs) to predict mutational effects on protein stability, binding regions, and epistasis, with claims of state-of-the-art performance across multiple tasks without task-specific training in the unsupervised setting.
+- **Visible evidence base** Results sections on stability prediction, binding site prediction, and latent driver mutation analysis; figures referenced as Fig.2A-E, Fig.3A-D, Supplementary Figs. 1-5; methods descriptions for architecture, datasets, and computational requirements
+- **Missing materials affecting confidence** Actual figures and supplementary materials are not provided; detailed hyperparameter settings, GMM component counts, and convergence criteria are not specified; exact benchmarking protocols and statistical test implementations are not fully described; the CAID-3 Challenge comparison lacks quantitative details on other participants' performance
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to integrating evolutionary information with pLM embeddings for mutational effect prediction. The core idea of constraining pLM representations with MSA-derived GMMs is novel and potentially valuable. However, the evidence provided is insufficient to fully establish the claimed advantages. Several benchmarking comparisons lack critical statistical rigor, the unsupervised versus supervised distinction is not consistently maintained across all experiments, and the biological interpretation of the results, particularly regarding epistasis, requires stronger validation. The manuscript would benefit from clearer methodological details and more comprehensive comparisons with baseline methods.
+- **Who would be interested in the results, and why** Computational biologists working on protein function prediction, researchers in protein engineering and stability design, cancer genomics groups interested in driver mutation identification, and developers of protein language model applications would find this work relevant. The potential to reduce reliance on labeled data and structural information is attractive for high-throughput variant interpretation.
+- **Major strengths** The conceptual framework of combining pLM embeddings with evolutionary constraints is well motivated and addresses a recognized limitation of generic pLM representations. The application to multiple diverse tasks (stability, binding, epistasis) demonstrates potential generalizability. The robustness to solvent accessibility and MSA depth is a valuable practical consideration. The use of an unsupervised mode for stability prediction is a notable strength, as it avoids task-specific training biases.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "D2D outperforms state-of-the-art methods on latent driver cancer mutations and co-occurring proliferation-enhancing mutations across independent experimental studies"
+  - **Evidence pointer** Fig.3A-C, Methods section "Latent mutations analysis"
+  - **Concern** The comparison with GEMME and FATHMM-cancer for latent driver mutations is based on a single study (reference [38]) for the positive set and gnomAD for the negative set. The class imbalance is acknowledged, but the balanced accuracy metric alone may not capture the full performance picture. More critically, the claim of "outperforming" is based on average weighted accuracy, but the variance across the 18 genes is not reported. The Wilcoxon signed-rank test p-value of 0.006 is reported, but the effect size and confidence intervals are missing. Additionally, the negative set construction from gnomAD common variants assumes these are benign, which may not hold for all variants, particularly in cancer-related genes where even common variants can have subtle functional effects.
+  - **Why it matters** The central claim of superiority for latent driver mutation detection rests on this comparison. Without proper uncertainty quantification and a more robust negative set, the conclusion may be overstated. The clinical relevance implied by the PIK3CA analysis requires stronger statistical support.
+  - **Resolution test** Provide per-gene performance breakdowns with confidence intervals, use multiple independent validation datasets for latent driver mutations, and perform sensitivity analysis on the negative set construction (e.g., different allele frequency thresholds, exclusion of variants in functional domains).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "D2D captures long-range epistatic interactions, accurately predicts single and higher-order mutation effects on protein thermostability and binding, without being trained on the task"
+  - **Evidence pointer** Fig.2A-B, Methods section "D2D Architecture and extension"
+  - **Concern** The unsupervised mode for stability prediction is described as averaging D2D features, but the exact procedure for converting GMM log-probability differences into a stability score is not fully specified. The claim of capturing "long-range epistatic interactions" is supported only by the enrichment analysis of compensatory mutations at epistatic sites (Fig.2B), which is an indirect measure. Direct validation of epistatic predictions against experimental double-mutant stability data beyond the mega-scale dataset is not provided. The threshold for defining epistatic sites (10% of global maximum D2D signal) appears arbitrary and its sensitivity is not explored.
+  - **Why it matters** The mechanistic claim of capturing epistasis is central to the manuscript's novelty. If the enrichment is an artifact of the threshold choice or the specific dataset, the generalizability of the finding is questionable. Direct validation on independent epistasis datasets would substantially strengthen the claim.
+  - **Resolution test** Validate on independent double-mutant stability datasets (e.g., ProTherm, S669) with known epistatic interactions. Perform sensitivity analysis on the epistatic site threshold. Provide a clear mathematical description of how the averaged D2D features map to predicted stability changes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "D2D avoids biases linked to solvent accessibility or to multiple sequence alignment depth and quality, making it particularly effective for disordered or surface binding regions where structure-based predictors typically falter"
+  - **Evidence pointer** Fig.2D, Results section "D2D demonstrates strong performance in protein stability and compensatory mutations detection across solvent accessibility levels"
+  - **Concern** The robustness to solvent accessibility is demonstrated for stability prediction, but the claim of effectiveness in disordered or surface binding regions is only partially supported. The binding site prediction results (Fig.2C) show D2D outperforming P2Rank and ScanNet, but these are structure-based methods, and the comparison may not be fair for IDR regions where structural information is limited. The CAID-3 Challenge comparison is mentioned but not quantitatively detailed, and the authors acknowledge that D2D could not be run within the CAID framework due to GPU constraints. This limits the external validation of the binding prediction claim.
+  - **Why it matters** The claim of superiority in disordered regions is a key differentiator from structure-based methods. Without a fair and comprehensive comparison, including sequence-based baselines, the advantage may be overstated.
+  - **Resolution test** Compare against sequence-based binding site predictors (e.g., MoRFpred, ANCHOR) on the same datasets. Provide quantitative CAID-3 results if available, or clearly state the limitations of the comparison.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "When fine-tuned, D2D outperforms state-of-the-art methods on latent driver cancer mutations"
+  - **Evidence pointer** Fig.3A, Methods section "Latent mutations analysis"
+  - **Concern** The fine-tuned (supervised) D2D mode is used for the latent driver mutation analysis, but the training procedure, including the amount of labeled data used, the choice of labels, and the cross-validation scheme, is not described in sufficient detail. The distinction between the supervised D2Deep framework (from reference [24]) and the extended D2D presented here is unclear. The performance comparison with GEMME, which is unsupervised, may not be apples-to-apples.
+  - **Why it matters** The claim of outperformance in the fine-tuned setting depends critically on the training setup. If the supervised model has access to more information or is evaluated differently, the comparison may be biased.
+  - **Resolution test** Clearly describe the fine-tuning procedure, including data splits, hyperparameters, and the exact differences from the unsupervised mode. Compare against other supervised methods (e.g., PrimateAI, CADD) under identical conditions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract claims "captures long-range epistatic interactions" but the evidence for this is indirect and only presented later in the results. The abstract would benefit from a more cautious phrasing.
+  - **Required correction** Rephrase to "captures signals consistent with long-range epistatic interactions" or provide direct evidence in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, D2D Architecture
+  - **Evidence pointer** Methods section "D2D Architecture and extension"
+  - **Issue** The description of the pLM embedding selection via max-pooling with kernel size 50 and stride 50 is unclear. The statement "Given 20 x 50 = 1000, dimensions beyond this range (i.e., the final 24) were excluded" suggests a specific embedding dimension of 1024, but this is not explicitly stated. The rationale for excluding the final 24 dimensions is not fully justified.
+  - **Required correction** Clarify the exact embedding dimension of the pLM used (presumably ProtT5) and provide a more detailed justification for the max-pooling strategy and the exclusion of the final dimensions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Computational Requirements
+  - **Evidence pointer** Methods section "Computational Requirements"
+  - **Issue** The computational requirements section mentions GPU acceleration is "strongly recommended" but does not provide runtime benchmarks or memory usage estimates for the full pipeline. This limits reproducibility for other groups.
+  - **Required correction** Provide approximate runtime and memory requirements for a typical dataset, and consider providing precomputed embeddings to facilitate adoption.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, Stability prediction
+  - **Evidence pointer** Fig.2A
+  - **Issue** The confidence score threshold of 60% for restricting the analysis is not justified. The sensitivity of the results to this threshold is not explored.
+  - **Required correction** Provide a sensitivity analysis for the confidence score threshold, or justify the choice based on prior work.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Binding site prediction
+  - **Evidence pointer** Fig.2C, Fig.2E
+  - **Issue** The description of the binding site prediction evaluation is brief. It is unclear what metric is used (e.g., AUC, precision-recall) and how the comparison with P2Rank and ScanNet is performed (e.g., same threshold, same evaluation protocol).
+  - **Required correction** Specify the evaluation metric and protocol, and ensure that all methods are evaluated under identical conditions.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data Availability section
+  - **Evidence pointer** Data Availability section
+  - **Issue** The Zenodo repository link is provided, but it is not clear whether the raw data (e.g., MSA files, pLM embeddings) or only the processed features are shared. This affects reproducibility.
+  - **Required correction** Clarify what exactly is deposited and consider sharing the full pipeline configuration and intermediate data.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (latent driver comparison lacks statistical rigor), R1-M2 (epistasis claim lacks direct validation), R1-M3 (binding site comparison may be biased), R1-M4 (fine-tuning procedure underdescribed)
+- **Assessment against Nature-style criteria** Originality: The combination of pLM embeddings with MSA-derived GMMs is a novel contribution, though the individual components are established. Scientific importance: The potential to improve predictions in data-limited and disordered regions is significant for both basic and translational research. Interdisciplinary readership: The work bridges machine learning, structural biology, and cancer genomics, which would appeal to a broad audience. Technical soundness: The methodology is plausible but the validation is incomplete, with several comparisons lacking statistical rigor and direct evidence for the epistasis claim. Readability for nonspecialists: The manuscript is generally well-written and accessible, though the methods section assumes familiarity with pLM architectures and GMMs. Overall, the work has potential but requires substantial additional validation and methodological clarity to meet the standards of a high-impact journal.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept is promising and the multi-task evaluation is commendable, but the current evidence does not fully establish the claimed advantages, particularly regarding epistasis and the superiority in disordered regions. The authors should address the statistical rigor of the comparisons, provide direct validation of epistatic predictions, and clarify the methodological details.
+
+## Risk / unsupported claims
+- The claim of "capturing long-range epistatic interactions" is not directly supported by the presented evidence; the enrichment analysis is indirect and threshold-dependent.
+- The claim of outperforming state-of-the-art methods on latent driver mutations is based on a single study and lacks per-gene uncertainty quantification.
+- The claim of effectiveness in disordered regions is only partially supported, as the comparison with structure-based methods may not be fair, and the CAID-3 results are not quantitatively presented.
+- The statement that D2D "avoids biases linked to... multiple sequence alignment depth and quality" is not directly tested; the robustness to MSA depth is mentioned but not systematically evaluated.
+- The generalizability of the approach to intergenic epistasis and protein-protein interaction prediction is speculative and not supported by experimental evidence in this manuscript.

@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "40641746",
+    "doi": "10.1016/j.bbrep.2025.102099",
+    "title": "The duplexity of insulin: The integrated bioinformatics analysis and machine learning identified key genes for type 2 diabetes."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Insulin therapy is still the most important treatment for T2DM, but the discussion about whether insulin brings more benefits or harms to T2DM patients has not stopped. Therefore, we used high-throughput RNA sequencing to investigate the role of insulin in T2DM and its molecular changes. METHOD: We collected peripheral blood samples from 16 patients with T2DM, and performed RNA-seq on peripheral blood mononuclear cells. Bioinformatics analysis and machine learning were uesd to identify the key differential genes and transcription factor networks. In addition, we performed the flow cytometry and staining to observe ROS level and endothelial-monocyte adhesion in PBMCs of both groups. RESULTS: A total of 529 differential genes were identified by bioinformatics analysis. 8 genes were identified as key genes, among which IL-6 had high importance in the random forest model. In transcription factor analysis, IL-6, RETN, CTSG and ELANE have abundant transcriptional regulatory relationships. Flow cytometry showed that ROS production, phagocytosis, leukocyte adhesion in insulin treatment group were lower than that in non-insulin treatment group. CONCLUSION: Insulin therapy is bidirectional, it can cause islet B cell damage and vascular complications, but also can reduce the level of inflammation and oxidative stress.",
+    "keywords": [
+      "Inflammation",
+      "Insulin",
+      "Machine learning",
+      "Oxidative stress",
+      "RNA-Seq",
+      "Type 2 diabetes mellitus"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Nan",
+        "Chen, Xiteng",
+        "Yang, Jun",
+        "Jiang, Yuanfeng",
+        "Bu, Shaochong",
+        "Bai, Xiaomei",
+        "Kou, Zhenyu",
+        "Li, Chunjun",
+        "Tian, Fang"
+      ],
+      "short_names": [
+        "Gao N",
+        "Chen X",
+        "Yang J",
+        "Jiang Y",
+        "Bu S",
+        "Bai X",
+        "Kou Z",
+        "Li C",
+        "Tian F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Tianjin Key Laboratory of Retinal Functions and Diseases, Tianjin Branch of National Clinical Research Center for Ocular Disease, Eye Institute and School of Optometry, Tianjin Medical University Eye Hospital, Tianjin, China.",
+        "Tianjin Key Laboratory of Retinal Functions and Diseases, Tianjin Branch of National Clinical Research Center for Ocular Disease, Eye Institute and School of Optometry, Tianjin Medical University Eye Hospital, Tianjin, China.",
+        "Tianjin Key Laboratory of Retinal Functions and Diseases, Tianjin Branch of National Clinical Research Center for Ocular Disease, Eye Institute and School of Optometry, Tianjin Medical University Eye Hospital, Tianjin, China.",
+        "Tianjin Key Laboratory of Retinal Functions and Diseases, Tianjin Branch of National Clinical Research Center for Ocular Disease, Eye Institute and School of Optometry, Tianjin Medical University Eye Hospital, Tianjin, China.",
+        "Tianjin Key Laboratory of Retinal Functions and Diseases, Tianjin Branch of National Clinical Research Center for Ocular Disease, Eye Institute and School of Optometry, Tianjin Medical University Eye Hospital, Tianjin, China.",
+        "Tianjin Key Laboratory of Retinal Functions and Diseases, Tianjin Branch of National Clinical Research Center for Ocular Disease, Eye Institute and School of Optometry, Tianjin Medical University Eye Hospital, Tianjin, China.",
+        "Tianjin Key Laboratory of Retinal Functions and Diseases, Tianjin Branch of National Clinical Research Center for Ocular Disease, Eye Institute and School of Optometry, Tianjin Medical University Eye Hospital, Tianjin, China.",
+        "Department of Endocrinology, Tianjin Union Medical Center, Nankai University, Tianjin, China.",
+        "Tianjin Key Laboratory of Retinal Functions and Diseases, Tianjin Branch of National Clinical Research Center for Ocular Disease, Eye Institute and School of Optometry, Tianjin Medical University Eye Hospital, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Nan",
+        "short_name": "Gao N",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Retinal Functions and Diseases, Tianjin Branch of National Clinical Research Center for Ocular Disease, Eye Institute and School of Optometry, Tianjin Medical University Eye Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiteng",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Retinal Functions and Diseases, Tianjin Branch of National Clinical Research Center for Ocular Disease, Eye Institute and School of Optometry, Tianjin Medical University Eye Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jun",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Retinal Functions and Diseases, Tianjin Branch of National Clinical Research Center for Ocular Disease, Eye Institute and School of Optometry, Tianjin Medical University Eye Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yuanfeng",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Retinal Functions and Diseases, Tianjin Branch of National Clinical Research Center for Ocular Disease, Eye Institute and School of Optometry, Tianjin Medical University Eye Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Bu, Shaochong",
+        "short_name": "Bu S",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Retinal Functions and Diseases, Tianjin Branch of National Clinical Research Center for Ocular Disease, Eye Institute and School of Optometry, Tianjin Medical University Eye Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Xiaomei",
+        "short_name": "Bai X",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Retinal Functions and Diseases, Tianjin Branch of National Clinical Research Center for Ocular Disease, Eye Institute and School of Optometry, Tianjin Medical University Eye Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Kou, Zhenyu",
+        "short_name": "Kou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Retinal Functions and Diseases, Tianjin Branch of National Clinical Research Center for Ocular Disease, Eye Institute and School of Optometry, Tianjin Medical University Eye Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chunjun",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Tianjin Union Medical Center, Nankai University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Fang",
+        "short_name": "Tian F",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Retinal Functions and Diseases, Tianjin Branch of National Clinical Research Center for Ocular Disease, Eye Institute and School of Optometry, Tianjin Medical University Eye Hospital, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemistry and biophysics reports"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Rep"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/11 06:27",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [
+      "41516048"
+    ],
+    "refs": [
+      "36356648",
+      "35873915",
+      "34643662",
+      "34563556",
+      "34458333",
+      "33849389",
+      "33237311",
+      "32150819",
+      "31803062",
+      "31612267",
+      "31567175",
+      "31518657",
+      "31114921",
+      "30499124",
+      "30010394",
+      "29508109",
+      "29218110",
+      "28958751",
+      "28797985",
+      "28666620",
+      "28363724",
+      "27746020",
+      "27193682",
+      "26019275",
+      "25521941",
+      "25516281",
+      "24699077",
+      "23507269",
+      "23323831",
+      "23303908",
+      "22473333",
+      "22455463",
+      "21850236",
+      "21680985",
+      "20823453",
+      "18556343",
+      "17085477",
+      "16335791",
+      "14597658",
+      "12734009",
+      "10359588",
+      "9742977",
+      "9742976"
+    ],
+    "similar": [
+      "40641746",
+      "34647606",
+      "39877357",
+      "41162503",
+      "39916961",
+      "35899178",
+      "40967560",
+      "39936105",
+      "41132669",
+      "23036710",
+      "41424060",
+      "40918148",
+      "40296690",
+      "32536288",
+      "28691147",
+      "40050813",
+      "38532421",
+      "26520687",
+      "34725923",
+      "39273245",
+      "39501130",
+      "39654602",
+      "40895573",
+      "31452715",
+      "41068236",
+      "41110296",
+      "39691970",
+      "35733163",
+      "25472959",
+      "40539067",
+      "32049633",
+      "28661564",
+      "41071219",
+      "37935388",
+      "29396371",
+      "30139387",
+      "36119721",
+      "31417297",
+      "37904700",
+      "37538791",
+      "39145311",
+      "37223012",
+      "40787468",
+      "39313706",
+      "38914997",
+      "40202151",
+      "30341898",
+      "31923100",
+      "35399953",
+      "37700362",
+      "35936218",
+      "41050938",
+      "40599778",
+      "37681454",
+      "30674322",
+      "40686115",
+      "38464509",
+      "39610516",
+      "38763341",
+      "28661068",
+      "40862112",
+      "39206894",
+      "38809515",
+      "41164826",
+      "40804414",
+      "40311462",
+      "37872956",
+      "17551966",
+      "17130491",
+      "40898233",
+      "38602607",
+      "33272295",
+      "25441587",
+      "31366217",
+      "40449695",
+      "38877681",
+      "38382657",
+      "27749986",
+      "32533960",
+      "38865489",
+      "40685483",
+      "38148756",
+      "40662135",
+      "31933292",
+      "40719934",
+      "30961396",
+      "39991734",
+      "39826792",
+      "38951833",
+      "39940428",
+      "37293508",
+      "38402348",
+      "40413683",
+      "40129981",
+      "38479546",
+      "40642087",
+      "28954308",
+      "38232183",
+      "37966664",
+      "40625749"
+    ],
+    "review": [
+      "40641746",
+      "34725923",
+      "39610516",
+      "27749986",
+      "38148756"
+    ],
+    "pmc": [
+      "12242453"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-5808(25)00186-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40641746/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

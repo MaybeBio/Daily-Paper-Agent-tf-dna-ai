@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37942767",
+  "title": "Molecular Dynamics Activation of gamma-Secretase for Cleavage of the Notch1 Substrate.",
+  "authors": "Do, Hung N; Malvankar, Shweta R; Wolfe, Michael S; Miao, Yinglong",
+  "journal": "ACS chemical neuroscience",
+  "published_date": "2023-11-09",
+  "window": {
+    "start": "2023-11-06",
+    "end": "2023-11-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用GaMD模拟和质谱研究γ-分泌酶对Notch底物的切割动态机制，属于酶-蛋白底物互作而非TF-DNA体系，但分子动力学方法可迁移至蛋白-DNA互作建模，故给予中档分。",
+  "abstract": "gamma-Secretase is an intramembrane aspartyl protease complex that cleaves the transmembrane domain of over 150 peptide substrates, including amyloid precursor protein (APP) and the Notch family of receptors, via two conserved aspartates D257 and D385 in the presenilin-1 (PS1) catalytic subunit. However, while the activation of gamma-secretase for cleavage of APP has been widely studied, the cleavage of Notch by gamma-secretase remains poorly explored. Here, we combined Gaussian accelerated molecular dynamics (GaMD) simulations and mass spectrometry (MS) analysis of proteolytic products to present the first dynamic models for cleavage of Notch by gamma-secretase. MS showed that gamma-secretase cleaved the WT Notch at Notch residue G34, while cleavage of the L36F mutant Notch occurred at Notch residue C33. Initially, we prepared our simulation systems starting from the cryoEM structure of Notch-bound gamma-secretase (PDB: 6IDF) and failed to capture the proper cleavages of WT and L36F Notch by gamma-secretase. We then discovered an incorrect registry of the Notch substrate in the PS1 active site through alignment of the experimental structure of Notch-bound (PDB: 6IDF) and APP-bound gamma-secretase (PDB: 6IYC). Every residue of the APP substrate was systematically mutated to the corresponding Notch residue to prepare a resolved model of Notch-bound gamma-secretase complexes. GaMD simulations of the resolved model successfully captured gamma-secretase activation for proper cleavages of both WT and L36F mutant Notch. Our findings presented here provided mechanistic insights into the structural dynamics and enzyme-substrate interactions required for gamma-secretase activation for cleavage of Notch and other substrates.",
+  "abstract_zh": "γ-分泌酶（gamma-secretase）是一种膜内天冬氨酸蛋白酶复合物，通过早老素-1（presenilin-1, PS1）催化亚基中的两个保守天冬氨酸残基D257和D385，切割超过150种肽底物的跨膜结构域，包括淀粉样前体蛋白（amyloid precursor protein, APP）和Notch受体家族。然而，尽管γ-分泌酶切割APP的激活机制已被广泛研究，但其对Notch的切割仍鲜有探索。在此，我们结合高斯加速分子动力学（Gaussian accelerated molecular dynamics, GaMD）模拟和蛋白水解产物的质谱（mass spectrometry, MS）分析，首次提出了γ-分泌酶切割Notch的动态模型。MS显示，γ-分泌酶在Notch残基G34处切割野生型（WT）Notch，而对L36F突变体Notch的切割发生在Notch残基C33处。最初，我们基于Notch结合γ-分泌酶的冷冻电镜结构（PDB: 6IDF）构建模拟系统，但未能捕获WT和L36F Notch被γ-分泌酶正确切割的过程。随后，通过比对Notch结合（PDB: 6IDF）和APP结合γ-分泌酶（PDB: 6IYC）的实验结构，我们发现了PS1活性位点中Notch底物的错误配准。我们将APP底物的每个残基系统性地突变为对应的Notch残基，以构建Notch结合γ-分泌酶复合物的解析模型。对解析模型进行的GaMD模拟成功捕获了γ-分泌酶激活过程，实现了对WT和L36F突变体Notch的正确切割。我们在此呈现的发现，为γ-分泌酶切割Notch及其他底物所需的激活机制提供了结构动力学和酶-底物相互作用的机理见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37942767/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37942767/",
+  "paper_page_path": "papers/pubmed/37942767/index.html"
+}

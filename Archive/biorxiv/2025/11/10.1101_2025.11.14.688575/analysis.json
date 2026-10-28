@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.14.688575",
+  "title": "mIDEA: An Interpretable Structure–Sequence Model for Methylation-Dependent Protein–DNA Binding Sensitivity",
+  "authors": "Yafan Zhang; Rina Li; Junhao Zhong; Xingcheng Lin",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-16",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出mIDEA，一个结合3D结构残基相互作用与甲基化感知能量矩阵的可解释模型，用于预测和解析转录因子与甲基化DNA的结合敏感性，高度契合TF-DNA互作机制建模课题。",
+  "abstract": "DNA methylation dynamically reshapes protein–DNA interaction landscapes, yet the mechanistic principles governing methylation-dependent recognition remain incompletely understood. Currently, there is no predictive framework that integrates methylation-aware binding specificity with 3D structure-based residue interactions for quantitatively assessing the impact of DNA methylation on protein–DNA interactions. To bridge this gap, we introduce mIDEA (Methylation-informed Interpretable protein–DNA Energy Associative model), a structure-aware, residue-level biophysical framework that predicts and interprets protein–methylated-DNA interactions by optimizing an amino acid–nucleotide energy matrix explicitly accounting for the modulatory effect of 5-methylcytosine. We validate mIDEA across diverse human transcription factors with distinct CpG methylation preferences. Using only structural templates and prior biochemical knowledge, mIDEA accurately recapitulates both “methyl-plus” and “methyl-minus” effects of DNA methylation on protein–DNA binding. Incorporating quantitative methylation-sensitive binding data further enables mIDEA to capture position-specific methylation effects. When integrated with whole-genome methylation profiles, the model enhances in vivo binding-site prediction by reducing false positives while preserving sensitivity compared to models trained on unmethylated sequences. Overall, mIDEA provides a principled framework for elucidating the molecular mechanisms underlying methylation-modulated protein–DNA recognition. The mIDEA source code is available at: https://github.com/LinResearchGroup-NCSU/IDEA_DNA_Methylation .",
+  "abstract_zh": "DNA甲基化动态重塑蛋白质-DNA相互作用景观，然而调控甲基化依赖性识别的机制原理仍未完全阐明。目前，尚无一个预测框架能够将甲基化感知的结合特异性与基于三维结构的残基相互作用整合起来，以定量评估DNA甲基化对蛋白质-DNA相互作用的影响。为弥合这一空白，我们引入了mIDEA（甲基化信息可解释的蛋白质-DNA能量关联模型），这是一种结构感知、残基级别的生物物理框架，通过优化一个明确考虑5-甲基胞嘧啶调节效应的氨基酸-核苷酸能量矩阵，来预测并解释蛋白质与甲基化DNA的相互作用。我们在具有不同CpG甲基化偏好的人类转录因子上验证了mIDEA。仅使用结构模板和先验生化知识，mIDEA就能准确重现DNA甲基化对蛋白质-DNA结合的“甲基增强”和“甲基抑制”效应。整合定量甲基化敏感结合数据进一步使mIDEA能够捕捉位置特异性甲基化效应。当与全基因组甲基化谱整合时，与基于未甲基化序列训练的模型相比，该模型通过减少假阳性同时保持灵敏度，增强了体内结合位点预测。总体而言，mIDEA为阐明甲基化调控的蛋白质-DNA识别背后的分子机制提供了一个原理性框架。mIDEA源代码可在以下网址获取：https://github.com/LinResearchGroup-NCSU/IDEA_DNA_Methylation 。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.14.688575",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.14.688575",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.14.688575/index.html"
+}

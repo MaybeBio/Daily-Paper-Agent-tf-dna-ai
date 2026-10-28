@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.15002493/v1",
+  "title": "Generative Active Learning for Molecular Design with REINVENT: Balancing Binding Affinity and Synthetic Accessibility",
+  "authors": "Marco Klähn; Hannes H Loeffler; Shunzhou Wan; Alexey Voronov; Xibei Zhang; Agastya P. Bhati; Peter V. Coveney",
+  "journal": "ChemRxiv",
+  "published_date": "2026-04-28",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用生成式主动学习结合物理模拟设计小分子配体，优化结合亲和力与合成可及性，但对象为小分子-蛋白质，非蛋白质-DNA互作体系，方法可部分借鉴。",
+  "abstract": "We present a generative active learning (GAL) framework for molecular design that integrates the generative AI platform REINVENT with physics-based free-energy estimation via ESMACS, specifically addressing synthetic tractability. In a previous study we have shown that iterative generation and optimization of molecules for protein binding affinity can be effectively achieved. For drug discovery, however, molecules need to be synthesized for experimental validation. Molecules with unclear synthetic routes will be de-prioritized regardless of their predicted binding affinity. Here, we address this by incorporating additional synthesizability constraints into the computational design process, framing the problem as a multi-objective optimization task. We show that it is possible to simultaneously optimize candidate molecules for both binding affinity and synthetic accessibility. Our results show that integrating synthesizability prediction into physics-based GAL workflows enables the efficient design of compounds that are chemically diverse and predicted to be strong binders and synthetically tractable at the same time, demonstrating efficient and practical computational drug design.",
+  "abstract_zh": "我们提出了一种用于分子设计的生成式主动学习（GAL）框架，该框架将生成式AI平台REINVENT与基于物理的自由能估计（通过ESMACS）相结合，并特别针对合成可及性进行了处理。在先前的研究中，我们已表明，通过迭代生成和优化分子以提高蛋白质结合亲和力可以有效地实现。然而，对于药物发现而言，分子需要被合成以进行实验验证。无论预测的结合亲和力如何，合成路线不明确的分子将被降级处理。在此，我们通过将额外的可合成性约束纳入计算设计过程来解决这一问题，并将该问题构建为多目标优化任务。我们展示了同时优化候选分子的结合亲和力和合成可及性是可能的。我们的结果表明，将可合成性预测整合到基于物理的GAL工作流程中，能够高效设计出化学多样性丰富、预测为强结合剂且同时具有合成可及性的化合物，从而展示了高效且实用的计算药物设计。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv.15002493/v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.15002493/v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.15002493_v1/index.html"
+}

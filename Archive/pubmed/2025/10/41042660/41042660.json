@@ -1,0 +1,196 @@
+{
+  "identity": {
+    "pmid": "41042660",
+    "doi": "10.1109/TCBBIO.2025.3617864",
+    "title": "Enhancing Transcription Factor Prediction via Domain Knowledge Integration With Logic Tensor Networks."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) play a pivotal role in regulating gene expression, making accurate TF prediction critical for elucidating gene regulatory mechanisms. However, existing approaches face two key limitations: (1) traditional methods struggle with low accuracy, and (2) deep learning models require large datasets yet often lack interpretability, especially when domain-specific biological knowledge is underutilized. To address these challenges, we present LTN-TFpredict, a neurosymbolic framework that integrates Logic Tensor Networks (LTNs) with deep learning to simultaneously enhance accuracy and interpretability. Our model leverages pre-trained protein language models for high-dimensional sequence embeddings and incorporates logical constraints derived from five key TF-related motifs: zinc fingers, leucine zippers, basic helix-loop-helix, forkhead, and winged helix-turn-helix, to guide learning with biologically meaningful rules. This integration enforces consistency with known TF characteristics, improving both predictive performance and biological validity. Experimental results demonstrate that LTN-TFpredict consistently outperforms traditional classifiers (TFpredict, XGBoost), CNN-based models (DeepTFactor, ProtCNN), transformer-based architectures (ESM-TFpredict, ProtT5), and two alternative strategies: multi-loss optimization and motif-based data augmentation, achieving state-of-the-art accuracy while preserving strict logical compliance with domain knowledge. By bridging deep learning and symbolic reasoning, LTN-TFpredict offers a robust, interpretable, and biologically grounded solution for TF prediction, advancing the application of neurosymbolic AI in computational biology.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/chemistry/genetics/metabolism",
+      "*Computational Biology/methods",
+      "*Deep Learning",
+      "Humans",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Liyuan",
+        "Sun, Linpeng",
+        "Sheng, Victor S"
+      ],
+      "short_names": [
+        "Gao L",
+        "Sun L",
+        "Sheng VS"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Liyuan",
+        "short_name": "Gao L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Sun, Linpeng",
+        "short_name": "Sun L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Sheng, Victor S",
+        "short_name": "Sheng VS",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2025 Nov-Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/03 18:28",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41042660",
+      "24349230",
+      "32770026",
+      "39637822",
+      "33372147",
+      "41288963",
+      "41294241",
+      "39701486",
+      "40646507",
+      "40914877",
+      "41084046",
+      "34272562",
+      "41299450",
+      "39489606",
+      "40654959",
+      "40598008",
+      "31372637",
+      "33137083",
+      "41257586",
+      "40334196",
+      "40939460",
+      "41232885",
+      "39966596",
+      "40613943",
+      "40883359",
+      "39107889",
+      "38848239",
+      "40628826",
+      "38640904",
+      "40914970",
+      "40097568",
+      "34534646",
+      "38644393",
+      "38442489",
+      "40102719",
+      "41481570",
+      "41062638",
+      "38724920",
+      "40695996",
+      "41336184",
+      "40675306",
+      "41212592",
+      "39786868",
+      "39076052",
+      "40274878",
+      "40183298",
+      "41023079",
+      "40553343",
+      "41236479",
+      "26291518",
+      "40610551",
+      "35443054",
+      "41062795",
+      "40770344",
+      "40882940",
+      "39592153",
+      "39438715",
+      "41028129",
+      "39167059",
+      "40972407",
+      "41257600",
+      "32960766",
+      "38701417",
+      "39214282",
+      "40735517",
+      "38980373",
+      "41023039",
+      "40501927",
+      "40595316",
+      "40929038",
+      "41336923",
+      "40258183",
+      "40887506",
+      "41026707",
+      "31336830",
+      "40394112",
+      "41112241",
+      "38643080",
+      "41214180",
+      "39929298",
+      "40795814",
+      "41043336",
+      "29993581",
+      "38523272",
+      "41319043",
+      "39316498",
+      "40641972",
+      "41285940",
+      "41364671",
+      "41381695",
+      "39657158",
+      "39798127",
+      "38733561",
+      "41193680",
+      "41050338",
+      "40914361",
+      "29363433",
+      "39806960",
+      "40339967",
+      "34112161"
+    ],
+    "review": [
+      "41042660",
+      "40929038"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

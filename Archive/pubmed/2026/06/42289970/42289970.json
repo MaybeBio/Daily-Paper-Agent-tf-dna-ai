@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "42289970",
+    "doi": "10.1093/bioinformatics/btag389",
+    "title": "GRNContext: an interactive web platform for contextualized gene regulatory networks visualization across human cancers."
+  },
+  "content": {
+    "abstract": "SUMMARY: While current Gene Regulatory Network (GRN) databases provide comprehensive reference maps of potential interactions between transcription factors and target genes, they do not specify which regulatory interactions are active within specific biological contexts. This limitation is particularly critical in cancer, where transcriptional programs are inherently tissue-specific. To address this gap, we developed GRNContext, an interactive web platform designed for the visualization, exploration, and comparative analysis of gene regulatory networks contextualized across 33 cancer types from The Cancer Genome Atlas (TCGA). Our approach uses the TFLink human reference GRN as a starting point and integrates TCGA transcriptomic profiles to infer cancer-specific regulatory activity. Regulatory relevance was assessed using complementary machine learning and statistical methods, which were unified into a consensus score to prioritize and filter the most relevant candidate regulators for each target gene. By providing both curated context-specific GRNs and a user-friendly platform, GRNContext constitutes a comprehensive and accessible resource that supports mechanistic investigations, hypothesis generation, and translational research focused on transcriptional regulation in cancer. AVAILABILITY AND IMPLEMENTATION: GRNContext is supported by all major browsers and freely available on the web at https://apps.cienciavida.org/grncontext. It is implemented as a client-server web application featuring a FastAPI backend and a React frontend utilizing Cytoscape.js for interactive network visualization, all containerized via Docker for cross-platform compatibility.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Neoplasms/genetics",
+      "*Gene Regulatory Networks",
+      "Internet",
+      "*Software",
+      "Databases, Genetic",
+      "*Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pezoa-Soto, Ignacio",
+        "Hernandez-Galaz, Sergio",
+        "De Las Rivas, Javier",
+        "Lladser, Alvaro",
+        "Varas-Godoy, Manuel",
+        "Martin, Alberto J M"
+      ],
+      "short_names": [
+        "Pezoa-Soto I",
+        "Hernandez-Galaz S",
+        "De Las Rivas J",
+        "Lladser A",
+        "Varas-Godoy M",
+        "Martin AJM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6136-3161",
+        "ORCID: 0000-0002-0984-9946",
+        "ORCID: 0000-0002-6147-3325"
+      ],
+      "affiliations": [
+        "Centro Basal Ciencia & Vida, Avenida del Valle Norte 725, Santiago, 8580702, Chile.",
+        "Centro de Biologia Celular y Biomedicina (CEBICEM), Facultad de Ciencias, Universidad San Sebastian, Avenida del Valle Norte 725, Santiago, 8580702, Chile.",
+        "Escuela de Ingenieria, Facultad de Ingenieria, Universidad San Sebastian, Bellavista 7, Santiago, 8420524, Chile.",
+        "Centro Basal Ciencia & Vida, Avenida del Valle Norte 725, Santiago, 8580702, Chile.",
+        "Facultad de Medicina, Universidad San Sebastian, Lota 2465, Santiago, 7510157, Chile.",
+        "Cancer Research Center (CiC-IBMCC, CSIC/USAL), Consejo Superior de Investigaciones Cientificas (CSIC), University of Salamanca (USAL), Campus Miguel de Unamuno, Salamanca, 37007, Spain.",
+        "Instituto de Investigacion Biomedica de Salamanca (IBSAL), Paseo San Vicente 58-182, Salamanca, 37007, Spain.",
+        "Centro Basal Ciencia & Vida, Avenida del Valle Norte 725, Santiago, 8580702, Chile.",
+        "Facultad de Medicina, Universidad San Sebastian, Lota 2465, Santiago, 7510157, Chile.",
+        "Centro Basal Ciencia & Vida, Avenida del Valle Norte 725, Santiago, 8580702, Chile.",
+        "Centro de Biologia Celular y Biomedicina (CEBICEM), Facultad de Ciencias, Universidad San Sebastian, Avenida del Valle Norte 725, Santiago, 8580702, Chile.",
+        "Centro Basal Ciencia & Vida, Avenida del Valle Norte 725, Santiago, 8580702, Chile.",
+        "Escuela de Ingenieria, Facultad de Ingenieria, Universidad San Sebastian, Bellavista 7, Santiago, 8420524, Chile."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pezoa-Soto, Ignacio",
+        "short_name": "Pezoa-Soto I",
+        "identifiers": [],
+        "affiliations": [
+          "Centro Basal Ciencia & Vida, Avenida del Valle Norte 725, Santiago, 8580702, Chile.",
+          "Centro de Biología Celular y Biomedicina (CEBICEM), Facultad de Ciencias, Universidad San Sebastián, Avenida del Valle Norte 725, Santiago, 8580702, Chile.",
+          "Escuela de Ingeniería, Facultad de Ingeniería, Universidad San Sebastián, Bellavista 7, Santiago, 8420524, Chile."
+        ]
+      },
+      {
+        "full_name": "Hernández-Galaz, Sergio",
+        "short_name": "Hernández-Galaz S",
+        "identifiers": [
+          "0000-0001-6136-3161"
+        ],
+        "affiliations": [
+          "Centro Basal Ciencia & Vida, Avenida del Valle Norte 725, Santiago, 8580702, Chile.",
+          "Facultad de Medicina, Universidad San Sebastián, Lota 2465, Santiago, 7510157, Chile."
+        ]
+      },
+      {
+        "full_name": "De Las Rivas, Javier",
+        "short_name": "De Las Rivas J",
+        "identifiers": [
+          "0000-0002-0984-9946"
+        ],
+        "affiliations": [
+          "Cancer Research Center (CiC-IBMCC, CSIC/USAL), Consejo Superior de Investigaciones Científicas (CSIC), University of Salamanca (USAL), Campus Miguel de Unamuno, Salamanca, 37007, Spain.",
+          "Instituto de Investigación Biomédica de Salamanca (IBSAL), Paseo San Vicente 58-182, Salamanca, 37007, Spain."
+        ]
+      },
+      {
+        "full_name": "Lladser, Alvaro",
+        "short_name": "Lladser A",
+        "identifiers": [],
+        "affiliations": [
+          "Centro Basal Ciencia & Vida, Avenida del Valle Norte 725, Santiago, 8580702, Chile.",
+          "Facultad de Medicina, Universidad San Sebastián, Lota 2465, Santiago, 7510157, Chile."
+        ]
+      },
+      {
+        "full_name": "Varas-Godoy, Manuel",
+        "short_name": "Varas-Godoy M",
+        "identifiers": [],
+        "affiliations": [
+          "Centro Basal Ciencia & Vida, Avenida del Valle Norte 725, Santiago, 8580702, Chile.",
+          "Centro de Biología Celular y Biomedicina (CEBICEM), Facultad de Ciencias, Universidad San Sebastián, Avenida del Valle Norte 725, Santiago, 8580702, Chile."
+        ]
+      },
+      {
+        "full_name": "Martin, Alberto J M",
+        "short_name": "Martin AJM",
+        "identifiers": [
+          "0000-0002-6147-3325"
+        ],
+        "affiliations": [
+          "Centro Basal Ciencia & Vida, Avenida del Valle Norte 725, Santiago, 8580702, Chile.",
+          "Escuela de Ingeniería, Facultad de Ingeniería, Universidad San Sebastián, Bellavista 7, Santiago, 8420524, Chile."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2026 Aug 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/15 11:37",
+    "fetched_at": "2026-10-01 23:40:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41559111",
+      "41214061",
+      "40057205",
+      "39844453",
+      "38360902",
+      "38001498",
+      "37627195",
+      "37372457",
+      "36781842",
+      "36124642",
+      "36060253",
+      "35839075",
+      "34880275",
+      "34751401",
+      "34508353",
+      "34394179",
+      "33838137",
+      "33796120",
+      "33434495",
+      "33231677",
+      "32958903",
+      "32197056",
+      "31712603",
+      "31635067",
+      "31340985",
+      "31179553",
+      "31092938",
+      "29636450",
+      "29087512",
+      "28351896",
+      "26704973",
+      "26424082",
+      "26264222",
+      "25650801",
+      "24395789",
+      "24342920",
+      "24071849",
+      "23715323",
+      "22868264",
+      "19837943",
+      "18797474",
+      "14681366"
+    ],
+    "similar": [
+      "42289970",
+      "40308211",
+      "42475469",
+      "31319950",
+      "42129640",
+      "23844010",
+      "27531214",
+      "26852330",
+      "19498379",
+      "42734742",
+      "40408406",
+      "24175918",
+      "30616521",
+      "41057793",
+      "41452748",
+      "42092983",
+      "22292669",
+      "27612452",
+      "41114645",
+      "24564496",
+      "24565134",
+      "21375730",
+      "42271442",
+      "42650039",
+      "23285197",
+      "31277321",
+      "36064320",
+      "28732212",
+      "18426593",
+      "29800226",
+      "26356904",
+      "30497361",
+      "40832173",
+      "39128019",
+      "25541727",
+      "25877637",
+      "24875471",
+      "31028388",
+      "41296555",
+      "41160874",
+      "24852251",
+      "34986805",
+      "42059479",
+      "39932890",
+      "17229482",
+      "27766936",
+      "19906700",
+      "22144155",
+      "34039282",
+      "27336171",
+      "33631799",
+      "20861033",
+      "39700425",
+      "24389658",
+      "41401563",
+      "30547400",
+      "31684860",
+      "29879919",
+      "27153610",
+      "42320030",
+      "34261498",
+      "40596788",
+      "19500400",
+      "17986320",
+      "27295045",
+      "39062464",
+      "24156242",
+      "27503224",
+      "39679439",
+      "39175079",
+      "19828039",
+      "28466792",
+      "41166152",
+      "28968701",
+      "42507903",
+      "22962466",
+      "29641230",
+      "25635527",
+      "33705981",
+      "42482180",
+      "24228871",
+      "29715310",
+      "23331499",
+      "23418540",
+      "24788790",
+      "27242034",
+      "27987172",
+      "30261835",
+      "41921194",
+      "34508353",
+      "30561551",
+      "27993775",
+      "40033050",
+      "30355288",
+      "42636032",
+      "42754330",
+      "20028527",
+      "30547796",
+      "20371497",
+      "39740512"
+    ],
+    "review": [
+      "42289970"
+    ],
+    "pmc": [
+      "13474810"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42289970/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btag389",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

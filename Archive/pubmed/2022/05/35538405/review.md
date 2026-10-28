@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, background, methods, results, discussion, and supplementary information description.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with stated conclusions. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors propose a novel approach for archaeal promoter annotation using DNA duplex stability (DDS) features combined with statistical classification and artificial neural networks (ANNs). They report classification accuracies above 90% for three model archaea and apply the method to predict promoters in two unannotated archaeal genomes.
+- **Visible evidence base** Full text, four tables, five figures (referenced), equations 1-6, and links to external repositories.
+- **Missing materials affecting confidence** Supplementary file 1 (Table S1) not provided; raw datasets and code repositories not independently verified; no detailed hyperparameter search or architecture selection procedure described; no statistical significance testing between methods.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in archaeal genomics, namely promoter annotation, using a combination of structural DNA features and machine learning. The core idea of using DDS as a numerical representation for promoter classification is reasonable and builds on prior work. However, several methodological gaps and unsubstantiated claims reduce confidence in the conclusions. The statistical classification method is simplistic and its performance metrics are presented without confidence intervals or significance testing. The ANN section lacks critical details on architecture selection, training procedure, and reproducibility. The validation on unannotated genomes is presented as successful, but the evidence is indirect and the criteria for "promoter-like" status are not rigorously defined. The manuscript would benefit from clearer reporting of methods, additional benchmarking against existing tools, and a more cautious interpretation of the validation results.
+- **Who would be interested in the results, and why** Researchers in archaeal genomics, promoter prediction, and computational biology would find this work relevant. Those working on genome annotation pipelines, particularly for non-model organisms, may be interested in the DDS-based feature representation. The comparative analysis of statistical versus neural network approaches may also appeal to method developers in bioinformatics.
+- **Major strengths**
+  1. The use of DDS as a feature representation for promoter sequences is physically motivated and may capture relevant structural properties.
+  2. The inclusion of three distinct control datasets (shuffled, downstream, block-shuffled) is a thoughtful approach to stress-testing the classifiers.
+  3. The application to two unannotated archaeal genomes demonstrates a practical use case and provides publicly available predicted promoter lists.
+  4. The comparison between a simple statistical method and an ANN provides insight into the trade-offs between interpretability and performance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors claim that the statistical classification method "succeeded" in distinguishing promoters from controls, with accuracies above 90% in some cases.
+  - **Evidence pointer** Table 2, Section "Statistical classification succeeds in the distinction of promoter sequences"
+  - **Concern** The statistical method relies on a simple interval defined by the mean ± standard deviation of the TATA+BRE region. This approach assumes normality and symmetric dispersion, which is not justified. Moreover, no confidence intervals, cross-validation, or statistical tests (e.g., permutation tests) are provided to assess the robustness of the reported accuracies. The claim of "satisfactory results" is therefore not rigorously supported.
+  - **Why it matters** Without uncertainty quantification or significance testing, the reported performance metrics could be due to chance or dataset-specific artifacts. This undermines the generalizability of the proposed method.
+  - **Resolution test** Provide confidence intervals for all metrics, perform permutation testing or bootstrapping, and report results across multiple random splits of the data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The ANN classification is described as "sturdier" than the statistical approach, with results in Table 4 and Figure 3.
+  - **Evidence pointer** Section "Artificial Neural Network conveys a sturdier classification", Table 4, Figure 3
+  - **Concern** The ANN architecture is only partially described (7 input neurons, 2 hidden neurons, 1 output neuron). No information is given on activation functions, learning rate, regularization, initialization, or early stopping criteria. The number of epochs is not reported, and the selection of the "best epoch" is not defined objectively. The code repository link is provided, but the manuscript does not describe how to reproduce the exact results.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without full methodological details, other researchers cannot replicate or build upon this work.
+  - **Resolution test** Provide a complete description of the ANN architecture, training procedure, hyperparameter values, and a clear definition of the stopping criterion. Ensure the code repository contains all necessary scripts and data to reproduce the results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation logic
+  - **Claim pointer** The authors state that the method "successfully classified" promoters in A. boonei and T. pendens, and that the predicted promoters resemble experimentally verified ones.
+  - **Evidence pointer** Section "ANNs and statistics employed in finding potential archaeal promoters", Figures 4 and 5
+  - **Concern** The validation of predicted promoters in unannotated genomes is indirect. The authors compare DDS profiles of predicted promoters with those of experimentally verified promoters, but this is a circular argument since the classifiers were trained on the same type of features. No independent experimental validation or comparison with existing promoter prediction tools is provided. The Kruskal-Wallis test is mentioned, but the specific comparisons, effect sizes, and p-values are not reported in the text.
+  - **Why it matters** The claim of successful promoter discovery in new genomes is a key contribution of the paper. Without independent validation or benchmarking, this claim remains speculative.
+  - **Resolution test** Compare predicted promoters with those identified by established tools (e.g., PromoterHunter, BPROM) or with experimental data if available. Report the Kruskal-Wallis test statistics and effect sizes. Consider validating a subset of predictions experimentally or via literature evidence.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative analysis
+  - **Claim pointer** The authors imply that their approach outperforms or is at least comparable to existing methods, particularly in the discussion of bacterial promoter classification.
+  - **Evidence pointer** Section "Artificial Neural Network conveys a sturdier classification"
+  - **Concern** No direct comparison with existing archaeal or general promoter prediction tools is performed. The statement that the results "outperformed the bacterial classification" refers to a different study with different data and methods, making the comparison inappropriate.
+  - **Why it matters** Without benchmarking against state-of-the-art methods, the novelty and practical utility of the proposed approach cannot be assessed.
+  - **Resolution test** Run the proposed method and at least one or two existing promoter prediction tools on the same benchmark datasets and report comparative performance metrics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Equation 1
+  - **Evidence pointer** Section "Structural parametrization"
+  - **Issue** Equation 1 is presented as a definition of G, but the notation is unclear. The symbol Δ with subscripts is not defined, and the relationship to DDS is not explained.
+  - **Required correction** Define all symbols in Equation 1 and explain how G relates to the DDS values used in the analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting
+  - **Affected element** Table 3
+  - **Evidence pointer** Section "Statistical classification succeeds in the distinction of promoter sequences"
+  - **Issue** The inter-organism classification results in Table 3 are presented without any measure of variability or significance. The reader cannot assess whether the reported accuracies are stable.
+  - **Required correction** Report standard deviations or confidence intervals for the inter-organism classification results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section "Background"
+  - **Evidence pointer** First paragraph of Background
+  - **Issue** The phrase "righteous introduction" is informal and not standard scientific language.
+  - **Required correction** Replace with a more formal phrase, e.g., "the formal introduction".
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3
+  - **Issue** The ROC curves are described but the figure itself is not provided in the manuscript text. The reader cannot evaluate the curves.
+  - **Required correction** Ensure the figure is included in the final version and that axis labels and legends are clear.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Section "Promoter sequences"
+  - **Evidence pointer** Section "Promoter sequences"
+  - **Issue** The Zenodo link is provided, but it is not clear whether the data are publicly accessible without restrictions.
+  - **Required correction** State explicitly that the data are freely available and provide a direct link.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of uncertainty quantification for statistical classification results.
+  - R1-M2: Incomplete description of ANN architecture and training procedure.
+  - R1-M3: Circular validation logic for promoter discovery in new genomes.
+  - R1-M4: Absence of benchmarking against existing tools.
+- **Assessment against Nature-style criteria**
+  - **Originality** The use of DDS as a feature for archaeal promoter classification is not entirely new, but the combination with a simple statistical method and ANN, and the application to unannotated genomes, offers a modest degree of novelty. The approach is incremental rather than transformative.
+  - **Scientific importance** Archaeal promoter annotation is a relevant problem, and improved computational methods could aid genome annotation efforts. However, the impact is limited by the lack of rigorous validation and benchmarking.
+  - **Interdisciplinary readership** The work sits at the intersection of genomics, bioinformatics, and machine learning. It may appeal to a niche audience of computational biologists and archaeal geneticists, but the presentation is not sufficiently accessible for a broader readership.
+  - **Technical soundness** The technical foundation is weak in several areas, particularly in the statistical method (no significance testing) and the ANN (incomplete reporting). The validation logic is also circular, which undermines the technical credibility.
+  - **Readability for nonspecialists** The manuscript is generally readable, but some sections (e.g., the description of the statistical method) are unclear. The use of informal language in places detracts from the overall quality.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and has a reasonable conceptual foundation, but the methodological gaps and lack of rigorous validation prevent the claims from being fully supported. The authors should address the major concerns, particularly around uncertainty quantification, ANN reproducibility, and independent validation, before the case can be considered established.
+
+## Risk / unsupported claims
+- The claim that the statistical method "succeeded" in classification is unsupported without confidence intervals or significance testing.
+- The claim that the ANN is "sturdier" than the statistical method is not backed by statistical comparison.
+- The claim that predicted promoters in A. boonei and T. pendens are valid is unsupported due to circular validation logic.
+- The statement that the method "outperformed the bacterial classification" is not a valid comparison and should be removed or reframed.
+- The claim that DDS "succeeded in well representing promoter elements in archaea" is based on visual inspection of plots and lacks quantitative support.

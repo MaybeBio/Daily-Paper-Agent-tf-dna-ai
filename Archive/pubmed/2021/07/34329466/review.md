@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, methods, results, discussion, and supplementary figure/table references.
+- **Assessment boundary** Scientific content, technical soundness, and interpretation of results as presented. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors characterize the quaternary complex formed by the RNA-binding domains of Brat, Pumilio, and Nanos with the hunchback mRNA NRE2 element. They report that Brat-NHL binds RNA independently of Pum-HD/Nanos-ZnF, that the complex is flexible with unoccupied nucleotides acting as a linker, and that no cooperative binding occurs between the protein moieties.
+- **Visible evidence base** ITC binding data, NMR chemical shift perturbation and relaxation measurements, SAXS/SANS data, XL/MS cross-links, MD simulations, SEC-MALLS, and comparison with published structures.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S4) are referenced but not provided. Raw ITC thermograms, NMR spectra, and cross-link tables are not available. The structure ensemble coordinates are not included. This limits full verification of quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a thorough integrative study addressing a long-standing question in Drosophila developmental biology: whether Brat, Pumilio, and Nanos act cooperatively or independently in repressing hunchback mRNA translation. The authors combine multiple biophysical techniques to show that the RNA-binding domains assemble on a single NRE2 RNA without cooperative binding, and that the resulting complex is highly flexible. The work is technically rigorous and the conclusions are largely supported by the data presented. However, several concerns regarding the interpretation of ITC data, the validation of MD simulations, and the generalizability of the findings to full-length proteins warrant attention.
+- **Who would be interested in the results, and why** Researchers studying translational regulation during development, particularly those focused on Drosophila patterning. Also of interest to structural biologists and biophysicists working on dynamic protein-RNA complexes, as the study demonstrates an integrative approach combining NMR, SAXS/SANS, XL/MS, and MD simulations.
+- **Major strengths** The study addresses a clearly defined biological question with a well-designed multi-technique approach. The ITC experiments systematically test cooperativity between all relevant protein pairs. The use of multiple complementary methods (NMR, SAXS/SANS, XL/MS, MD) to characterize the flexible complex is exemplary. The authors also provide a thoughtful reinterpretation of previously published mutational data, which adds significant value.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "Brat-NHL binds RNA independently of Pum-HD and Nanos-ZnF" based on ITC experiments.
+  - **Evidence pointer** Results section "Brat-NHL and Pum-HD/Nanos-ZnF bind NRE2 independently", Figure 1F–I, Supplementary Figure S1
+  - **Concern** The ITC experiments show that the affinity of Brat-NHL for RNA is unchanged in the presence of Pum-HD and/or Nanos-ZnF. However, the authors note that the 23-mer NRE2 RNA forms a stem-loop structure that is unfolded upon Pum-HD binding. If Pum-HD unfolds the RNA, this could alter the accessibility of the Brat-NHL binding site, potentially masking a cooperative effect. The authors address this by showing that Brat-NHL binds to the stem-loop RNA with similar affinity, but the interpretation would be strengthened by a more detailed discussion of how the RNA secondary structure affects the ITC measurements.
+  - **Why it matters** The central conclusion of the manuscript is that the three proteins bind RNA independently. If the ITC experiments are confounded by RNA structural changes, this conclusion could be incorrect.
+  - **Resolution test** Provide ITC data using RNA constructs that cannot form secondary structures, or perform competition experiments where the order of protein addition is varied. Alternatively, use a longer RNA that includes both NREs to test for avidity effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the MD simulations "quantitatively agreed" with the SAXS, SANS, and XL-MS data.
+  - **Evidence pointer** Results section "Structural characterization of the hb complex", Figure 5, Supplementary Figure S3
+  - **Concern** The reduced chi-squared value of 2.18 for the SAXS fit is reported, but the criteria for "reasonable agreement" for the SANS data are not defined. The authors state that the ensemble was selected based on chi-squared quantiles, but the absolute quality of the fits is not discussed. It is unclear whether the MD ensemble truly represents the experimental data or whether the agreement is merely acceptable.
+  - **Why it matters** The structural model of the flexible complex is a key deliverable of the study. If the validation against experimental data is not rigorous, the model may not be reliable.
+  - **Resolution test** Provide a more detailed analysis of the fit quality, including residual plots and a comparison of the MD ensemble with the experimental data using alternative metrics (e.g., EOM analysis). Discuss the limitations of the chi-squared criterion and whether the ensemble is overfit.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that their findings "could indicate that the suppression of hunchback mRNA by Brat is functionally separate of the suppression by Pumilio with Nanos."
+  - **Evidence pointer** Discussion section
+  - **Concern** The authors correctly note that their study uses only the RNA-binding domains, not full-length proteins. However, the discussion of functional implications is somewhat speculative. The authors acknowledge that full-length proteins and longer RNA constructs may behave differently, but the manuscript would benefit from a more explicit statement of what the current data can and cannot support.
+  - **Why it matters** The biological significance of the study depends on whether the in vitro findings with isolated domains reflect the in vivo situation. Overinterpretation could mislead readers.
+  - **Resolution test** Add a paragraph explicitly stating the limitations of the domain-level study and what additional experiments would be needed to confirm functional independence in vivo.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the complex is "flexible with unoccupied nucleotides functioning as a flexible linker between the Brat and Pum-Nanos moieties." This is a key finding, but the term "beads on a string" is used later in the manuscript and could be introduced in the abstract for clarity.
+  - **Required correction** Consider adding a brief mention of the "beads on a string" model in the abstract to aid reader comprehension.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Isotopic labelling"
+  - **Evidence pointer** Methods section
+  - **Issue** The methods for isotopic labelling are described in detail, but the exact concentrations of the labelling precursors (2-keto-3-methyl-d3-3-d1-1,2,3,4-13C-butyrate) are not specified.
+  - **Required correction** Provide the concentrations used for the labelling precursors to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 6
+  - **Evidence pointer** Figure 6A, B
+  - **Issue** The relaxation data are presented as R1 and R2 values, but the error bars are not described in the figure legend. It is unclear whether these represent standard deviations or standard errors.
+  - **Required correction** Clarify the error bar definition in the figure legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors discuss the possibility that the four unoccupied nucleotides between the binding sites act as a flexible linker. However, they do not discuss whether this flexibility is functionally relevant or simply a consequence of the RNA sequence.
+  - **Required correction** Add a brief discussion of whether the length and sequence of the linker region might be conserved or functionally important.
+- **Technical failings that need to be addressed before the case is established** The ITC experiments should be repeated with RNA constructs that cannot form secondary structures to rule out confounding effects. The validation of the MD ensemble against SAXS/SANS data should be more rigorous, with a clear definition of "reasonable agreement."
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study addresses a well-known question but provides novel biophysical data that challenge previous assumptions about cooperative binding. The integrative approach is not entirely new but is applied here to a system of significant biological interest.
+  - **Scientific importance** The findings have implications for understanding translational regulation during development, but the use of isolated domains limits the direct biological relevance. The study is more likely to be of interest to specialists in RNA-protein interactions than to a broad audience.
+  - **Interdisciplinary readership** The combination of NMR, SAXS/SANS, XL/MS, and MD simulations may appeal to structural biologists and biophysicists, but the biological context is specific to Drosophila development.
+  - **Technical soundness** The experimental design is generally sound, but the concerns raised above about ITC interpretation and MD validation need to be addressed.
+  - **Readability for nonspecialists** The manuscript is well-written and the logic is clear, but the methods are highly technical. Nonspecialists may struggle with the details of the integrative approach.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study provides valuable data and a reasonable model, but the central claim of independent binding needs to be more rigorously supported, and the validation of the MD ensemble should be strengthened.
+
+## Risk / unsupported claims
+- The claim that the complex is "reminiscent of beads on a string" is supported by the data but is somewhat speculative, as the authors do not directly measure the dynamics of the linker region.
+- The reinterpretation of previously published mutational data is reasonable but relies on the assumption that the mutations affect RNA binding rather than protein-protein interactions, which is not directly tested here.
+- The statement that "the suppression of hunchback mRNA by Brat is functionally separate" is not directly supported by the data, as the study does not include functional assays.

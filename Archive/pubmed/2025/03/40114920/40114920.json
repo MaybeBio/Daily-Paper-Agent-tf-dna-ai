@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "40114920",
+    "doi": "10.3389/fimmu.2025.1486961",
+    "title": "Identification and validation of mitophagy-related genes in acute myocardial infarction and ischemic cardiomyopathy and study of immune mechanisms across different risk groups."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Acute myocardial infarction (AMI) is a critical condition that can lead to ischemic cardiomyopathy (ICM), a subsequent heart failure state characterized by compromised cardiac function. METHODS: This study investigates the role of mitophagy in the transition from AMI to ICM. We analyzed AMI and ICM datasets from GEO, identifying mitophagy-related differentially expressed genes (MRDEGs) through databases like GeneCards and Molecular Signatures Database, followed by functional enrichment and Protein-Protein Interaction analyses. Logistic regression, Support Vector Machine, and LASSO (Least Absolute Shrinkage and Selection Operator) were employed to pinpoint key MRDEGs and develop diagnostic models, with risk stratification performed using LASSO scores. Subgroup analyses included functional enrichment and immune infiltration analysis, along with protein domain predictions and the integration of regulatory networks involving Transcription Factors, miRNAs, and RNA-Binding Proteins, leading to drug target identification. RESULTS: The TGFbeta pathway showed significant differences between high- and low-risk groups in AMI and ICM. Notably, in the AMI low-risk group, MRDEGs correlated positively with activated CD4+ T cells and negatively with Type 17 T helper cells, while in the AMI high-risk group, RPS11 showed a positive correlation with natural killer cells. In ICM, MRPS5 demonstrated a negative correlation with activated CD4+ T cells in the low-risk group and with memory B cells, mast cells, and dendritic cells in the high-risk group. The diagnostic accuracy of RPS11 was validated with an area under the curve (AUC) of 0.794 across diverse experimental approaches including blood samples, animal models, and myocardial hypoxia/reoxygenation models. CONCLUSIONS: This study underscores the critical role of mitophagy in the transition from AMI to ICM, highlighting RPS11 as a highly significant biomarker with promising diagnostic potential and therapeutic implications.",
+    "keywords": [
+      "acute myocardial infarction",
+      "diagnostic model",
+      "ischemic cardiomyopathy",
+      "machine learning",
+      "mitophagy"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Myocardial Infarction/genetics/immunology",
+      "*Mitophagy/genetics/immunology",
+      "*Cardiomyopathies/genetics/immunology",
+      "*Myocardial Ischemia/genetics/immunology",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Animals",
+      "Risk Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hao, Ying",
+        "Li, RuiLin",
+        "Fan, ChengHui",
+        "Gao, Yang",
+        "Hou, Xia",
+        "Wen, Wei",
+        "Shen, YunLi"
+      ],
+      "short_names": [
+        "Hao Y",
+        "Li R",
+        "Fan C",
+        "Gao Y",
+        "Hou X",
+        "Wen W",
+        "Shen Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiovascular Medicine, State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Cardiovascular Medicine, Shanghai East Hospital Ji'an Hospital, Ji'an, Jiangxi, China.",
+        "Department of Cardiovascular Medicine, State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Cardiovascular Medicine, Shanghai East Hospital Ji'an Hospital, Ji'an, Jiangxi, China.",
+        "Department of Cardiovascular Medicine, State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Cardiovascular Medicine, Shanghai East Hospital Ji'an Hospital, Ji'an, Jiangxi, China.",
+        "Department of Cardiovascular Medicine, State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Cardiovascular Medicine, State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Cardiovascular Medicine, State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Cardiovascular Medicine, State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hao, Ying",
+        "short_name": "Hao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+          "Department of Cardiovascular Medicine, Shanghai East Hospital Ji'an Hospital, Ji'an, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, RuiLin",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+          "Department of Cardiovascular Medicine, Shanghai East Hospital Ji'an Hospital, Ji'an, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Fan, ChengHui",
+        "short_name": "Fan C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
+          "Department of Cardiovascular Medicine, Shanghai East Hospital Ji'an Hospital, Ji'an, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yang",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Xia",
+        "short_name": "Hou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Wei",
+        "short_name": "Wen W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Shen, YunLi",
+        "short_name": "Shen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, State Key Laboratory of Cardiovascular Diseases and Medical Innovation Center, Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/21 11:17",
+    "fetched_at": "2026-09-30 13:55:56"
+  },
+  "links": {
+    "cites": [
+      "42701775",
+      "42181652",
+      "41969666",
+      "41700295",
+      "40786510"
+    ],
+    "refs": [
+      "39455097",
+      "39021997",
+      "38958577",
+      "38946232",
+      "38455553",
+      "38139032",
+      "37304955",
+      "36974758",
+      "36949106",
+      "35590379",
+      "35303170",
+      "35244921",
+      "34901230",
+      "34458863",
+      "34272070",
+      "34265844",
+      "33828270",
+      "33384961",
+      "33378988",
+      "32711157",
+      "32558385",
+      "32510153",
+      "31885670",
+      "31443682",
+      "31011482",
+      "30995507",
+      "30476243",
+      "30453885",
+      "30419824",
+      "30407594",
+      "30307485",
+      "30241973",
+      "29909444",
+      "29229611",
+      "28330855",
+      "28253956",
+      "27924033",
+      "27864235",
+      "27322403",
+      "26939053",
+      "26598616",
+      "25677521",
+      "25605792",
+      "25521941",
+      "25349190",
+      "25332205",
+      "24801707",
+      "24786398",
+      "24573206",
+      "24429688",
+      "24297251",
+      "23908376",
+      "23740750",
+      "23580606",
+      "23535507",
+      "23323831",
+      "23193258",
+      "23152496",
+      "22992591",
+      "22885598",
+      "22455463",
+      "22257669",
+      "22014063",
+      "21801009",
+      "21546393",
+      "20668412",
+      "20218970",
+      "20216554",
+      "20179076",
+      "20159880",
+      "19491929",
+      "18096822",
+      "17576813",
+      "17496320",
+      "16199517",
+      "15867170",
+      "15537506",
+      "14597658",
+      "11744020",
+      "11707697",
+      "11179072",
+      "10714683",
+      "10592173",
+      "9867803",
+      "4312912",
+      "4050699"
+    ],
+    "similar": [
+      "40114920",
+      "39872885",
+      "38839020",
+      "35764238",
+      "40340571",
+      "38971104",
+      "39650552",
+      "38402377",
+      "38783198",
+      "40313958",
+      "37214088",
+      "40115463",
+      "40360670",
+      "39586719",
+      "35864510",
+      "38987688",
+      "39889200",
+      "32631246",
+      "37891664",
+      "39103773",
+      "37908757",
+      "39552895",
+      "40174368",
+      "37234159",
+      "39159737",
+      "39354722",
+      "25884818",
+      "40046960",
+      "37724419",
+      "32423033",
+      "39549621",
+      "38291374",
+      "33083450",
+      "40287718",
+      "33195475",
+      "36863716",
+      "37008314",
+      "35675985",
+      "39549926",
+      "37549822",
+      "39950319",
+      "37852321",
+      "27173194",
+      "36600215",
+      "36531699",
+      "32597946",
+      "32744882",
+      "39341981",
+      "37287971",
+      "39470826",
+      "38764052",
+      "36148059",
+      "38650649",
+      "40181401",
+      "40148430",
+      "27852050",
+      "36182975",
+      "37047484",
+      "37213148",
+      "40069854",
+      "37098514",
+      "28318762",
+      "38601640",
+      "36620624",
+      "40251588",
+      "34565282",
+      "31434864",
+      "36233294",
+      "39666769",
+      "39263286",
+      "37936458",
+      "33354250",
+      "35300115",
+      "25137373",
+      "35741813",
+      "39086489",
+      "38764497",
+      "40151199",
+      "36062187",
+      "34884921",
+      "39697326",
+      "38787365",
+      "36245596",
+      "38455553",
+      "37597790",
+      "38713173",
+      "33563285",
+      "39261934",
+      "33879068",
+      "36082132",
+      "39375405",
+      "39583859",
+      "39893248",
+      "38827298",
+      "38690269",
+      "33040816",
+      "35475279",
+      "24704022",
+      "30419824",
+      "29049183"
+    ],
+    "review": [
+      "40114920",
+      "32423033"
+    ],
+    "pmc": [
+      "11922711"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/heartattack.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Attack"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40114920/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1486961",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34478435",
+  "title": "The N-terminal domain of RfaH plays an active role in protein fold-switching.",
+  "authors": "Galaz-Davison, Pablo; Roman, Ernesto A; Ramirez-Sarmiento, Cesar A",
+  "journal": "PLoS computational biology",
+  "published_date": "2021-09-04",
+  "window": {
+    "start": "2021-08-30",
+    "end": "2021-09-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用AWSEM分子动力学模拟研究细菌延伸因子RfaH的NTD在CTD折叠转换中的作用，虽涉及蛋白-DNA互作背景但核心是蛋白折叠机制，非TF-DNA结合建模，方法可迁移但对象偏离。",
+  "abstract": "The bacterial elongation factor RfaH promotes the expression of virulence factors by specifically binding to RNA polymerases (RNAP) paused at a DNA signal. This behavior is unlike that of its paralog NusG, the major representative of the protein family to which RfaH belongs. Both proteins have an N-terminal domain (NTD) bearing an RNAP binding site, yet NusG C-terminal domain (CTD) is folded as a beta-barrel while RfaH CTD is forming an alpha-hairpin blocking such site. Upon recognition of the specific DNA exposed by RNAP, RfaH is activated via interdomain dissociation and complete CTD structural rearrangement into a beta-barrel structurally identical to NusG CTD. Although RfaH transformation has been extensively characterized computationally, little attention has been given to the role of the NTD in the fold-switching process, as its structure remains unchanged. Here, we used Associative Water-mediated Structure and Energy Model (AWSEM) molecular dynamics to characterize the transformation of RfaH, spotlighting the sequence-dependent effects of NTD on CTD fold stabilization. Umbrella sampling simulations guided by native contacts recapitulate the thermodynamic equilibrium experimentally observed for RfaH and its isolated CTD. Temperature refolding simulations of full-length RfaH show a high success towards alpha-folded CTD, whereas the NTD interferes with betaCTD folding, becoming trapped in a beta-barrel intermediate. Meanwhile, NusG CTD refolding is unaffected by the presence of RfaH NTD, showing that these NTD-CTD interactions are encoded in RfaH sequence. Altogether, these results suggest that the NTD of RfaH favors the alpha-folded RfaH by specifically orienting the alphaCTD upon interdomain binding and by favoring beta-barrel rupture into an intermediate from which fold-switching proceeds.",
+  "abstract_zh": "细菌延伸因子RfaH通过特异性结合在DNA信号处暂停的RNA聚合酶（RNAP）上，促进毒力因子的表达。这一行为不同于其旁系同源物NusG，后者是RfaH所属蛋白质家族的主要代表。两种蛋白质均具有一个带有RNAP结合位点的N端结构域（NTD），但NusG的C端结构域（CTD）折叠为β-桶状，而RfaH的CTD则形成α-发夹结构，阻断该位点。在识别RNAP暴露的特异性DNA后，RfaH通过结构域间解离和CTD完全结构重排（转变为与NusG CTD结构相同的β-桶状）而被激活。尽管RfaH的转变已在计算上得到广泛表征，但NTD在折叠转换过程中的作用却鲜少受到关注，因为其结构保持不变。在此，我们使用关联水介导结构和能量模型（AWSEM）分子动力学来表征RfaH的转变，重点揭示NTD对CTD折叠稳定的序列依赖性效应。由天然接触引导的伞形采样模拟重现了实验观察到的RfaH及其分离CTD的热力学平衡。全长RfaH的温度重折叠模拟显示，向α-折叠CTD的成功率较高，而NTD干扰βCTD折叠，使其陷入β-桶状中间态。同时，NusG CTD的重折叠不受RfaH NTD存在的影响，表明这些NTD-CTD相互作用编码在RfaH序列中。总体而言，这些结果表明RfaH的NTD通过特异性定向αCTD在结构域间结合时的取向，并促进β-桶状破裂为折叠转换可进行的中间态，从而有利于α-折叠的RfaH。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34478435/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34478435/",
+  "paper_page_path": "papers/pubmed/34478435/index.html"
+}

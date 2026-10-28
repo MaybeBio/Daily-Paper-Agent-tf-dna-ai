@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and methods as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a time-resolved, ensemble-based docking framework to assess stage-dependent relative interaction propensity in canonical Wnt/beta-catenin signaling, introducing a Stage-Weighted Interaction Score (SWIS) that combines structural compatibility, pose convergence, and stage-specific weighting. They report stage-dependent redistribution of interaction features across early, mid, and late signaling phases, with receptor-proximal interactions scoring higher early, intracellular adaptor/effector interactions more prominent mid-stage, and reduced composite scores late-stage. The authors explicitly state SWIS does not represent binding affinity, stability, or kinetics, and that observed patterns reflect context-weighted redistribution of docking-derived features rather than intrinsic biochemical changes.
+- **Visible evidence base** Abstract text only; no methodological details, numerical results, validation data, or comparative benchmarks are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, statistical analyses, and any validation against experimental or known structural data
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting framework for temporally contextualized analysis of protein-protein interaction propensity in a developmentally critical pathway. The explicit caveats regarding the interpretive limits of SWIS are commendable. However, the current evidence base is insufficient to evaluate the technical soundness, validity, or biological significance of the claims. The framework's novelty relative to existing docking and network analysis methods is unclear, and no validation or benchmarking is described. The abstract alone does not establish the case for the stated conclusions.
+- **Who would be interested in the results, and why** Developmental biologists studying Wnt signaling dynamics, computational biologists developing time-resolved interaction prediction methods, and researchers interested in systems-level models of embryonic signaling. The framework could appeal to those seeking hypothesis-generating tools for temporal signaling organization, provided the methodology is rigorously validated.
+- **Major strengths** The explicit recognition that static interaction analyses are limited for developmental contexts is timely and relevant. The design of SWIS as a relative, comparative metric with clearly stated non-equivalence to affinity or kinetics is a thoughtful boundary. The stage-dependent redistribution concept, if supported, could offer a useful heuristic for prioritizing experimental follow-up.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The framework "examine[s] stage-dependent patterns in relative interaction propensity" and reveals "stage-dependent redistribution of interaction features"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No methodological details are provided for the ensemble generation, docking protocol, pose convergence criteria, or the derivation of stage-specific relevance weighting. Without these, the technical validity of SWIS cannot be assessed. The abstract states ensembles were generated "without molecular dynamics simulations," but the alternative method is unspecified.
+  - **Why it matters** The core claim depends entirely on the reliability and appropriateness of the computational pipeline. If the ensemble generation or docking approach is flawed or non-standard, the resulting scores and stage-dependent patterns would be artifacts.
+  - **Resolution test** Provide a detailed methods section describing ensemble generation, docking software and parameters, convergence metrics, and weighting scheme. Include validation against known interaction structures or experimental binding data, and demonstrate robustness to parameter choices.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The framework "generates testable hypotheses regarding the temporal organization of developmental signaling networks"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No specific hypotheses are stated, and no biological validation or experimental correlation is presented. The abstract reports qualitative trends (e.g., "higher composite scores during early stages") without numerical data, statistical significance, or effect sizes. The biological relevance of the observed redistribution is therefore unsubstantiated.
+  - **Why it matters** For a developmental biology audience, the value of a computational framework lies in its ability to generate meaningful, testable predictions. Without concrete hypotheses or any link to known temporal dynamics of Wnt signaling, the claim of hypothesis generation is unsupported.
+  - **Resolution test** Present specific, falsifiable predictions from the framework, and compare the stage-dependent patterns to existing experimental data on Wnt pathway dynamics. Include quantitative results with appropriate statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** "Most computational analyses of protein-protein interactions treat signaling events as static and time-invariant" and the framework is "a scalable computational approach"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not situate the work within existing literature on time-resolved or context-dependent interaction prediction, nor does it demonstrate how SWIS differs from prior ensemble docking or network weighting approaches. The novelty claim is therefore unverifiable.
+  - **Why it matters** Originality is a core criterion for significance. If similar frameworks exist, the contribution may be incremental rather than novel.
+  - **Resolution test** Include a literature review in the full manuscript that explicitly contrasts SWIS with prior methods, and highlight specific methodological innovations with comparative benchmarks.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Terms such as "pose convergence" and "composite scores" are used without definition, which may hinder accessibility for developmental biologists unfamiliar with docking terminology.
+  - **Required correction** Briefly define these terms in the abstract or provide a glossary in the full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** SWIS metric description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states SWIS "combines ensemble docking-derived structural compatibility, pose convergence, and stage-specific relevance weighting into a normalized comparative metric," but the normalization procedure and the relative contributions of each component are unspecified.
+  - **Required correction** Clarify the normalization and weighting scheme in the methods, and state whether the metric is sensitive to component weighting choices.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Late-stage finding
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that "late-stage analysis indicated reduced composite scores across the network" is presented without context on whether this is biologically expected or surprising, or whether it might reflect a technical artifact of the weighting scheme.
+  - **Required correction** Discuss the biological plausibility of this finding and rule out methodological explanations, such as reduced ensemble diversity or docking convergence in late-stage components.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (methodological detail and validation), R1-M2 (quantitative results and biological validation), R1-M3 (novelty demonstration)
+- **Assessment against Nature-style criteria** Originality: Not assessable from the abstract alone; the concept of time-resolved interaction propensity is interesting, but prior art is not addressed. Scientific importance: Potentially relevant to developmental signaling, but the biological significance is not demonstrated without specific hypotheses or experimental links. Interdisciplinary readership: The framework could appeal to both computational and developmental biologists, but the abstract's technical jargon may limit accessibility. Technical soundness: Not assessable; no methodological details or validation are provided. Readability for nonspecialists: The abstract is generally clear but uses undefined technical terms.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract alone does not provide sufficient methodological detail, validation, or biological context to support the claims. A supportive stance would require the full manuscript to address the major concerns, particularly technical validation and demonstration of novelty.
+
+## Risk / unsupported claims
+- The claim that the framework "revealed stage-dependent differences in relative interaction propensity" is unsupported without numerical data or statistical analysis.
+- The claim that the framework "generates testable hypotheses" is unsupported as no specific hypotheses are stated.
+- The claim of scalability is unverifiable without performance metrics or application to larger networks.
+- The assertion that "most computational analyses... treat signaling events as static" is a broad generalization not supported by cited literature in the abstract.
+- The biological interpretation of late-stage reduced scores is not supported and could be a methodological artifact.

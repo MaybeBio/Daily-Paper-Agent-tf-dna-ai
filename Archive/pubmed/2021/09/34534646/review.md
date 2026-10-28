@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, results, figures, or tables were provided
+- **Shared manuscript claim summary** The authors state that four deep learning architectures were applied to SELEX-seq and HT-SELEX data across three species and 35 transcription factor families, and that a hybrid CNN + DNN model performed best based on 10-fold cross-validation.
+- **Visible evidence base** Abstract text only; no quantitative results, model details, dataset descriptions, or statistical comparisons are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, dataset accession details, hyperparameter settings, and performance metrics
+
+## Reviewer
+- **Overall assessment** The abstract presents a reasonable motivation for systematically comparing deep learning architectures for transcription factor binding specificity prediction. However, the evidence provided is insufficient to evaluate the validity, robustness, or generalizability of the reported findings. The claim that the hybrid CNN + DNN model shows the best performance is unsupported by any quantitative data in the supplied material. The study may be of interest to computational biologists, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulation, transcription factor binding site prediction, and deep learning applications in genomics. The comparative benchmarking of architectures could inform model selection for similar prediction tasks.
+- **Major strengths** The motivation is clear and addresses a relevant gap in the field, namely the lack of systematic comparison of deep learning architectures for TF binding specificity. The use of multiple species and 35 TF families suggests a broad scope, which could enhance generalizability if properly validated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the hybrid CNN + DNN model shows the best performances.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative performance metrics, such as AUC, accuracy, or correlation coefficients, are reported. The abstract does not specify which architectures were compared, how performance was measured, or the magnitude of differences between models.
+  - **Why it matters** Without numerical results and statistical significance testing, the claim of superiority for the hybrid model cannot be assessed. The reader cannot determine whether the observed differences are meaningful or within noise.
+  - **Resolution test** Provide performance metrics for all four architectures, including confidence intervals or statistical tests, and specify the evaluation metric used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that four different deep learning architectures were applied to SELEX-seq and HT-SELEX data.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe the architectures, data preprocessing, training procedures, or hyperparameter choices. No dataset identifiers or accession numbers are given.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without these details, other researchers cannot replicate the experiments or verify the conclusions.
+  - **Resolution test** Include a methods section with full architectural descriptions, training details, and data accession information.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors expect the study to be broadly applicable to modeling and predicting TF binding specificity.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not report performance across individual TF families or species, so it is unclear whether the hybrid model performs consistently well or only in specific subsets.
+  - **Why it matters** The claim of broad applicability requires evidence of consistent performance across diverse conditions. Variability across families or species could undermine the generalizability claim.
+  - **Resolution test** Report stratified results by species and TF family, and discuss any observed variability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "hybrid CNN + DNN model" is ambiguous. It is unclear whether this refers to a convolutional neural network combined with a deep neural network in a sequential or parallel manner, or whether the DNN component is a separate classifier.
+  - **Required correction** Clarify the architecture description, for example by specifying the layer types and how the CNN and DNN components are integrated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention which three species were included or how the 35 TF families were selected.
+  - **Required correction** Add a brief statement listing the species and the criteria for TF family selection to improve context.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Cross-validation description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that 10-fold cross-validation was used but does not indicate whether the same folds were used across all models or whether any hyperparameter tuning was performed within the cross-validation procedure.
+  - **Required correction** Specify whether a nested cross-validation or a fixed split was used, and describe how hyperparameters were selected to avoid data leakage.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and methodological details means the core claims cannot be verified from the supplied material.
+- **Assessment against Nature-style criteria** Originality: The idea of benchmarking deep learning architectures for TF binding specificity is not novel, but a systematic multi-species comparison could add value. Scientific importance: Moderate, as improved prediction of TF binding has broad implications for gene regulation research. Interdisciplinary readership: Limited, as the abstract is highly technical and lacks context for non-specialists. Technical soundness: Cannot be assessed due to missing methods and results. Readability for nonspecialists: The abstract is accessible but lacks sufficient detail to convey the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide enough information to support the claims. A full manuscript with detailed methods, quantitative results, and statistical analysis would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that the hybrid CNN + DNN model shows the best performances is unsupported due to the absence of any quantitative metrics.
+- The claim that the study will be broadly applicable is unsupported without stratified performance results.
+- The scope of the study, including the specific species and TF families, is unverifiable from the abstract.

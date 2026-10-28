@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41013727",
+  "title": "Integrated bioinformatics analysis unravels mitochondrial-immune crosstalk and infiltration dynamics in sepsis progression.",
+  "authors": "Meng, Fanjian; Zhong, Anyuan; Li, Ting; Yang, Yun; Chen, Chen; Huang, Yongkang; Zhou, Tong; Pei, Yongjian; Shi, Minhua",
+  "journal": "European journal of medical research",
+  "published_date": "2025-09-27",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用生物信息学和机器学习分析脓毒症中线粒体相关基因与免疫浸润，未涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Sepsis is a critical illness, and mitochondrial dysfunction is associated with its progression. However, the classification of mitochondrial-related differentially expressed genes (MitoDEGs) in sepsis and the immune infiltration characteristics have not been thoroughly investigated. This study aimed to explore the relevant content. METHODS: Gene expression data were obtained from the Gene Expression Omnibus (GEO), while mitochondrial-related genes were sourced from the MitoCarta3.0 database. We applied Weighted Gene Co-expression Network Analysis (WGCNA) to identify Sepsis-related MitoDEGs (Se-MitoDEGs), and utilized unsupervised clustering analysis to categorize sepsis samples into distinct clusters. Machine learning algorithms identified hub Se-MitoDEGs, and a validation set and a nomogram for sepsis diagnosis were established. The CIBERSORT algorithm was employed to investigate immune infiltration characteristics in sepsis and their association with hub Se-MitoDEGs. The expression levels of relevant genes were evaluated in peripheral blood samples from septic patients and normal controls through quantitative real-time reverse transcription polymerase chain reaction (qRT-PCR). Associated transcription factors, miRNAs, and drugs were constructed into a diagram via NetworkAnalyst and Comparative Toxicogenomics Database (CTD). RESULTS: 15 Se-MitoDEGs exhibited differential expression between septic and normal samples. Immune infiltration analysis demonstrated significant increases in neutrophils, activated mast cells, and M0 macrophages among septic patients compared to control subjects. We categorized sepsis samples into two clusters; most hub genes in cluster 2 (C2) were highly expressed, exhibiting low immune infiltration and immune score. Some differences were observed in the pathways between the two clusters. By utilizing machine learning techniques and the validation set, MSRB2, TSPO, and BLOC1S1 were identified, and a nomogram of the three genes exhibited a substantial area under the curve (AUC) of 0.886, and the AUC for the validation set was recorded at 0.866, highlighting the robustness of our predictive model. Survival analysis found that low expression of TSPO and high expression of MSRB2 in peripheral blood were negatively correlated with the 28-day survival rate of septic patients. qRT-PCR validation indicated that the expression levels of these three hub genes are consistent with our bioinformatics analysis results. Associated small molecules, including Estradiol, pirinixic acid, and Valproic acid, are potential therapeutic drugs for sepsis. CONCLUSION: By integrating bioinformatics with machine learning models, we identified three mitochondrial and immune-related biomarkers (MSRB2, TSPO, and BLOC1S1) with diagnostic value for sepsis. These biomarkers provide new insights into subtype stratification, immune infiltration characteristics, and targeted therapy in sepsis.",
+  "abstract_zh": "背景：脓毒症是一种危重疾病，线粒体功能障碍与其进展相关。然而，脓毒症中线粒体相关差异表达基因（MitoDEGs）的分类及免疫浸润特征尚未得到充分研究。本研究旨在探讨相关内容。方法：基因表达数据来源于基因表达综合数据库（GEO），线粒体相关基因来源于MitoCarta3.0数据库。我们应用加权基因共表达网络分析（WGCNA）鉴定脓毒症相关MitoDEGs（Se-MitoDEGs），并利用无监督聚类分析将脓毒症样本分为不同亚群。机器学习算法识别核心Se-MitoDEGs，并建立验证集和脓毒症诊断列线图。采用CIBERSORT算法研究脓毒症中的免疫浸润特征及其与核心Se-MitoDEGs的关联。通过定量实时逆转录聚合酶链反应（qRT-PCR）评估脓毒症患者和正常对照外周血样本中相关基因的表达水平。相关转录因子、miRNA和药物通过NetworkAnalyst和比较毒物基因组学数据库（CTD）构建成图表。结果：15个Se-MitoDEGs在脓毒症和正常样本间表现出差异表达。免疫浸润分析显示，与对照组相比，脓毒症患者的中性粒细胞、活化肥大细胞和M0巨噬细胞显著增加。我们将脓毒症样本分为两个亚群；亚群2（C2）中大多数核心基因高表达，表现出低免疫浸润和低免疫评分。两个亚群之间的通路存在一些差异。通过利用机器学习技术和验证集，鉴定出MSRB2、TSPO和BLOC1S1，这三个基因的列线图显示出显著的曲线下面积（AUC）为0.886，验证集的AUC记录为0.866，突显了我们预测模型的稳健性。生存分析发现，外周血中TSPO低表达和MSRB2高表达与脓毒症患者28天生存率呈负相关。qRT-PCR验证表明，这三个核心基因的表达水平与我们的生物信息学分析结果一致。相关小分子，包括雌二醇、吡利尼克酸和丙戊酸，是脓毒症的潜在治疗药物。结论：通过将生物信息学与机器学习模型相结合，我们鉴定了三个具有脓毒症诊断价值的线粒体和免疫相关生物标志物（MSRB2、TSPO和BLOC1S1）。这些生物标志物为脓毒症的亚型分层、免疫浸润特征和靶向治疗提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41013727/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41013727/",
+  "paper_page_path": "papers/pubmed/41013727/index.html"
+}

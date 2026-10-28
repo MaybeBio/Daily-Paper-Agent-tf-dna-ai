@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full-text methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors report that FTZ-F1, an NR5A orphan nuclear receptor, directly binds to the promoters of GnRHR and Dmrta2 in the scallop *Chlamys farreri*, as demonstrated by yeast one-hybrid assays. Molecular docking and sequence alignment identified 11 key amino acids in the DNA-binding domain (DBD) essential for this binding, 10 of which reside in the conserved DBD region. The authors conclude that these findings provide molecular insights into reproductive regulation in bivalves and a foundation for research on sex differentiation and steroidogenesis.
+- **Visible evidence base** Abstract text only; no experimental details, figures, tables, or statistical analyses were provided
+- **Missing materials affecting confidence** Full methods for yeast one-hybrid assays, docking parameters and scoring functions, sequence alignment details, definition of "essential" amino acids, validation of binding specificity (e.g., negative controls, mutant constructs), and any quantitative data supporting binding affinity or specificity
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding FTZ-F1 binding to two promoter targets in a bivalve species, with implications for reproductive biology. However, the evidence base is limited to a summary, and several critical technical details are absent. The claim of "binding specificity" is not adequately supported by the information provided, as no comparative or quantitative data are described. The identification of 11 key amino acids via docking and alignment is plausible but requires experimental validation to establish functional relevance. The manuscript may be of interest to researchers in invertebrate endocrinology and reproductive biology, but the current evidence does not fully establish the case.
+- **Who would be interested in the results, and why** Researchers studying nuclear receptor signaling, particularly NR5A family members, in invertebrates; those focused on bivalve reproductive physiology and aquaculture; and investigators interested in the molecular evolution of sex determination and steroidogenesis pathways. The findings could inform comparative studies of receptor-promoter interactions across protostomes and deuterostomes.
+- **Major strengths** The study addresses a relevant and under-explored question in bivalve reproductive regulation. The combination of yeast one-hybrid with molecular docking is a reasonable approach to identify candidate binding interactions and key residues. The focus on two distinct promoters (GnRHR and Dmrta2) linked to steroidogenesis and sex determination, respectively, adds biological relevance.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "FTZ-F1 directly binds to the promoters of GnRHR and Dmrta2"  
+  - **Evidence pointer** Abstract, yeast one-hybrid assays; location not provided  
+  - **Concern** The abstract states that yeast one-hybrid assays demonstrate direct binding, but no details are given on the promoter fragments used, the stringency of the assays, or the inclusion of negative controls (e.g., unrelated promoters, mutant binding sites). Without these, it is unclear whether the observed binding is specific or a general property of the DBD.  
+  - **Why it matters** Direct binding is the central claim of the study. If the assays lack appropriate controls or use non-physiological promoter fragments, the conclusion of specific binding to GnRHR and Dmrta2 is not established.  
+  - **Resolution test** Provide full yeast one-hybrid methods, including promoter coordinates, negative controls, and replicate data. Show that binding is lost or reduced with mutated or truncated promoter elements.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "Molecular docking and sequence alignment identified 11 key amino acids within the DBD essential for promoter binding"  
+  - **Evidence pointer** Abstract, molecular docking and sequence alignment; location not provided  
+  - **Concern** The term "essential" implies functional necessity, but the abstract only describes identification via docking and alignment. No experimental validation (e.g., site-directed mutagenesis followed by binding assays) is mentioned. Docking predictions can be informative but are not sufficient to establish essentiality.  
+  - **Why it matters** Overstating the role of predicted residues without functional testing could mislead subsequent studies. The claim of "essential" amino acids requires experimental support.  
+  - **Resolution test** Perform mutagenesis of the 11 residues and test binding in yeast one-hybrid or an alternative assay. Alternatively, revise the claim to "predicted to be important" and provide docking scores or conservation data as supporting evidence.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Originality and scientific importance  
+  - **Claim pointer** "These findings provide molecular insights into reproductive regulation in bivalves and establish a foundation for further research"  
+  - **Evidence pointer** Abstract, conclusion; location not provided  
+  - **Concern** The broader significance is stated but not contextualized. It is unclear how these findings advance beyond prior work on FTZ-F1 in scallops or other bivalves, and whether the binding events are linked to functional outcomes (e.g., changes in gene expression).  
+  - **Why it matters** For a broad-readership journal, the significance must be explicit and supported by data. Without functional links, the claim of "molecular insights" is premature.  
+  - **Resolution test** Add data or discussion showing that FTZ-F1 binding correlates with transcriptional activity of GnRHR or Dmrta2, or compare with known FTZ-F1 targets in other species to highlight novelty.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract, first sentence; location not provided  
+  - **Issue** The abstract opens with a general statement about scallop aquaculture, which is fine, but the transition to FTZ-F1 function is abrupt. Nonspecialists may not understand why an orphan nuclear receptor is relevant to reproduction.  
+  - **Required correction** Add one sentence briefly explaining the role of NR5A receptors in steroidogenesis or development to orient readers.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Claim of "binding specificity"  
+  - **Evidence pointer** Abstract, title and results; location not provided  
+  - **Issue** The title and abstract emphasize "binding specificity," but the abstract does not describe any comparative analysis (e.g., testing against other promoters or receptors) that would demonstrate specificity.  
+  - **Required correction** Either provide data on specificity (e.g., lack of binding to unrelated promoters) or soften the language to "binding to" rather than "binding specificity."  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Docking methodology  
+  - **Evidence pointer** Abstract, molecular docking; location not provided  
+  - **Issue** The abstract does not specify the docking software, scoring function, or how the protein-DNA complex was modeled. This limits reproducibility.  
+  - **Required correction** In the full text, provide detailed docking parameters and validation (e.g., re-docking with known structures). In the abstract, a brief mention of the method is acceptable, but the full text must be complete.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of controls for yeast one-hybrid), R1-M2 (no experimental validation of "essential" residues), R1-M3 (no functional or comparative context to support significance)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The study addresses a specific question in bivalve reproductive biology that is not well explored, but the abstract does not clearly differentiate it from prior FTZ-F1 studies in scallops. Originality is moderate but not fully demonstrated.  
+  - **Scientific importance** The findings could be relevant to aquaculture and comparative endocrinology, but the abstract does not establish a broad impact beyond a narrow taxonomic group. Importance is limited without functional data.  
+  - **Interdisciplinary readership** The topic may appeal to molecular biologists, endocrinologists, and aquaculture researchers, but the abstract is too specialized and lacks context for a wider audience.  
+  - **Technical soundness** The core claims are not fully supported by the abstract alone. Yeast one-hybrid and docking are appropriate methods, but the lack of controls and validation undermines confidence.  
+  - **Readability for nonspecialists** The abstract is concise but assumes familiarity with nuclear receptor biology and bivalve reproduction. It is readable for specialists but not for a general scientific audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not provide sufficient detail to assess the validity of the central claims. I would be supportive if the full text includes rigorous controls, experimental validation of the predicted residues, and a clearer articulation of the significance relative to existing literature.
+
+## Risk / unsupported claims
+- "FTZ-F1 directly binds to the promoters of GnRHR and Dmrta2" is unsupported without details on yeast one-hybrid controls and promoter constructs.
+- "11 key amino acids ... essential for promoter binding" is unsupported; "essential" implies functional validation not described in the abstract.
+- "Binding specificity" is not supported by any comparative data in the abstract.
+- "Molecular insights into reproductive regulation" is a broad claim that cannot be evaluated without functional or expression data linking binding to biological outcomes.

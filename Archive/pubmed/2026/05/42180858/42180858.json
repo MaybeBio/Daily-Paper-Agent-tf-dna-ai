@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "42180858",
+    "doi": "10.21037/tcr-2025-1-2865",
+    "title": "Construction of an actin cytoskeleton-related gene signature for predicting prognosis and therapeutic response in glioblastoma: based on machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Glioblastoma (GBM) is highly aggressive and prone to recurrence, resulting in extremely poor patient outcomes. Evidence suggests that dynamic regulation of the actin cytoskeleton plays a critical role in tumor cell proliferation, invasion, recurrence, and therapy resistance. However, the prognostic value and regulatory mechanisms of actin cytoskeleton-related genes in GBM remain unclear. This study aimed to identify key actin cytoskeleton related genes using machine learning, construct a robust gene signature for prognosis prediction, and explore its value in evaluating therapeutic response and underlying molecular mechanisms in GBM. METHODS: Gene expression data from The Cancer Genome Atlas (TCGA), Gene Expression Omnibus (GEO) and Chinese Glioma Genome Atlas (CGGA) were analyzed. Machine learning (ML) methods were used to identify key actin cytoskeleton-related genes and construct a gene signature. Immune profiling and multi-omics analyses were further applied to explore potential regulatory mechanisms. RESULTS: Seven key genes-APC2, PPP1R12A, FGFR1, EGF, PIP5K1A, AKT1, and LPAR2-were identified and used to develop a robust prognostic signature. This signature showed significant correlations with the infiltration of dendritic cells, resting mast cells, monocytes, and activated natural killer cells. The high-risk group exhibited enriched mutations in PDGFRA and PI3K family genes. Drug sensitivity analysis indicated that tozasertib, savolitinib, AZD4547, IWP-2, and GSK591 may have potential therapeutic value. Multi-omics analyses revealed that these key genes are regulated by DNA methylation and transcription factor networks. CONCLUSIONS: The actin cytoskeleton-based gene signature serves as an independent indicator of poor prognosis and may support precise prognostic assessment and personalized therapeutic strategies for GBM.",
+    "keywords": [
+      "Glioblastoma (GBM)",
+      "actin cytoskeleton",
+      "gene signature",
+      "machine learning (ML)",
+      "multi-omics analysis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Mengda",
+        "Li, Juntao",
+        "Li, Zhixiao",
+        "Liu, Guanzheng",
+        "Zhou, Yuanhang",
+        "Meng, Mayuan",
+        "Chai, Zikuan",
+        "Yuan, Ye",
+        "Wang, Chao",
+        "Fu, Xudong",
+        "Ma, Chunxiao"
+      ],
+      "short_names": [
+        "Li M",
+        "Li J",
+        "Li Z",
+        "Liu G",
+        "Zhou Y",
+        "Meng M",
+        "Chai Z",
+        "Yuan Y",
+        "Wang C",
+        "Fu X",
+        "Ma C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, Henan University People's Hospital, Zhengzhou, China.",
+        "Department of Neurosurgery, Henan Provincial People's Hospital, Zhengzhou, China.",
+        "Department of Neurosurgery, Henan Provincial People's Hospital, Zhengzhou, China.",
+        "Department of Neurosurgery, Henan Provincial People's Hospital, Zhengzhou, China.",
+        "Department of Neurosurgery, Henan Provincial People's Hospital, Zhengzhou, China.",
+        "Department of Neurosurgery, Henan University People's Hospital, Zhengzhou, China.",
+        "Department of Neurosurgery, Henan Provincial People's Hospital, Zhengzhou, China.",
+        "Department of Neurosurgery, Henan University People's Hospital, Zhengzhou, China.",
+        "Department of Neurosurgery, Henan Provincial People's Hospital, Zhengzhou, China.",
+        "Clinical Medicine College, Zhengzhou University, Zhengzhou, China.",
+        "Department of Neurosurgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Cardiothoracic Surgery, Xinhua Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Neurosurgery, Zhengzhou University People's Hospital, Zhengzhou, China.",
+        "Department of Neurosurgery, Henan University People's Hospital, Zhengzhou, China.",
+        "Department of Neurosurgery, Henan Provincial People's Hospital, Zhengzhou, China.",
+        "Department of Neurosurgery, Zhengzhou University People's Hospital, Zhengzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Mengda",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Henan University People's Hospital, Zhengzhou, China.",
+          "Department of Neurosurgery, Henan Provincial People's Hospital, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Juntao",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Henan Provincial People's Hospital, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhixiao",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Henan Provincial People's Hospital, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Guanzheng",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Henan Provincial People's Hospital, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yuanhang",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Henan University People's Hospital, Zhengzhou, China.",
+          "Department of Neurosurgery, Henan Provincial People's Hospital, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Mayuan",
+        "short_name": "Meng M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Henan University People's Hospital, Zhengzhou, China.",
+          "Department of Neurosurgery, Henan Provincial People's Hospital, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chai, Zikuan",
+        "short_name": "Chai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Medicine College, Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Ye",
+        "short_name": "Yuan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chao",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiothoracic Surgery, Xinhua Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Xudong",
+        "short_name": "Fu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Zhengzhou University People's Hospital, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Chunxiao",
+        "short_name": "Ma C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Henan University People's Hospital, Zhengzhou, China.",
+          "Department of Neurosurgery, Henan Provincial People's Hospital, Zhengzhou, China.",
+          "Department of Neurosurgery, Zhengzhou University People's Hospital, Zhengzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational cancer research"
+    ],
+    "journal_abbrev": [
+      "Transl Cancer Res"
+    ],
+    "pub_date": "2026 Apr 30",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/25 12:35",
+    "fetched_at": "2026-10-01 21:38:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40893155",
+      "40842996",
+      "40478501",
+      "40438725",
+      "40318797",
+      "40226936",
+      "40075208",
+      "39888031",
+      "39807099",
+      "39767683",
+      "39744115",
+      "39163733",
+      "39137632",
+      "38849845",
+      "38724526",
+      "38654040",
+      "38324230",
+      "38290667",
+      "38053701",
+      "37993258",
+      "37828275",
+      "37746658",
+      "37686101",
+      "37610648",
+      "37588207",
+      "37445835",
+      "36961307",
+      "36685974",
+      "35911637",
+      "35857125",
+      "35342955",
+      "35241179",
+      "34638471",
+      "34571905",
+      "34261630",
+      "34185076",
+      "34099027",
+      "34058053",
+      "33579912",
+      "33252666",
+      "32463741",
+      "32280303",
+      "31992303",
+      "31446998",
+      "31367244",
+      "30431099",
+      "30279244",
+      "30119215",
+      "29867979",
+      "29850889",
+      "29630366",
+      "29437767",
+      "29330617",
+      "28446910",
+      "27572852",
+      "24045955",
+      "23636005",
+      "19273547",
+      "12969375",
+      "11042212"
+    ],
+    "similar": [
+      "42180858",
+      "41208987",
+      "38339384",
+      "41656832",
+      "39697698",
+      "35982954",
+      "40473799",
+      "41613945",
+      "33614641",
+      "39697704",
+      "41234865",
+      "42120472",
+      "40810678",
+      "40438115",
+      "40842996",
+      "41944918",
+      "35155681",
+      "41436831",
+      "37969372",
+      "40530146",
+      "40460484",
+      "37650991",
+      "35873494",
+      "33879726",
+      "40376515",
+      "41049291",
+      "42192326",
+      "40225293",
+      "40496857",
+      "42305521",
+      "41815152",
+      "41158253",
+      "42591770",
+      "41674983",
+      "36330513",
+      "42180909",
+      "40330470",
+      "34350240",
+      "41013216",
+      "40016772",
+      "42292348",
+      "29393370",
+      "41929516",
+      "41019083",
+      "41504052",
+      "32572951",
+      "42046521",
+      "40330458",
+      "37432454",
+      "41613147",
+      "35370869",
+      "38687369",
+      "37540264",
+      "41310468",
+      "42217519",
+      "35241019",
+      "40148380",
+      "33553434",
+      "35550147",
+      "37434432",
+      "40859405",
+      "38066437",
+      "34244461",
+      "41498024",
+      "41969520",
+      "41292185",
+      "42193012",
+      "41229415",
+      "36825022",
+      "29299749",
+      "37539935",
+      "39507529",
+      "42236612",
+      "40607411",
+      "41267067",
+      "42292425",
+      "40200832",
+      "42039177",
+      "40777122",
+      "38686653",
+      "42317342",
+      "42305483",
+      "41342434",
+      "37653150",
+      "37748218",
+      "37064154",
+      "40200221",
+      "34284982",
+      "33392085",
+      "38167072",
+      "41121066",
+      "40838069",
+      "42223738",
+      "40903770",
+      "39816535",
+      "31921684",
+      "39714729",
+      "36938461",
+      "36856519",
+      "41798945"
+    ],
+    "review": [
+      "42180858"
+    ],
+    "pmc": [
+      "13190668"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42180858/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21037/tcr-2025-1-2865",
+        "provider": "AME Publishing Company",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

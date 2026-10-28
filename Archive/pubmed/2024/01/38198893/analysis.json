@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38198893",
+  "title": "Predicting gene-level sensitivity to JAK-STAT signaling perturbation using a mechanistic-to-machine learning framework.",
+  "authors": "Cheemalavagu, Neha; Shoger, Karsen E; Cao, Yuqi M; Michalides, Brandon A; Botta, Samuel A; Faeder, James R; Gottschalk, Rachel A",
+  "journal": "Cell systems",
+  "published_date": "2024-01-11",
+  "window": {
+    "start": "2024-01-08",
+    "end": "2024-01-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机制-机器学习框架从STAT磷酸化动态预测基因表达，虽涉及转录因子STAT信号，但未聚焦TF-DNA结合位点或互作机制建模，方法为信号动态预测而非蛋白-DNA互作建模。",
+  "abstract": "The Janus kinase (JAK)-signal transducer and activator of transcription (STAT) pathway integrates complex cytokine signals via a limited number of molecular components, inspiring numerous efforts to clarify the diversity and specificity of STAT transcription factor function. We developed a computational framework to make global cytokine-induced gene predictions from STAT phosphorylation dynamics, modeling macrophage responses to interleukin (IL)-6 and IL-10, which signal through common STATs, but with distinct temporal dynamics and contrasting functions. Our mechanistic-to-machine learning model identified cytokine-specific genes associated with late pSTAT3 time frames and a preferential pSTAT1 reduction upon JAK2 inhibition. We predicted and validated the impact of JAK2 inhibition on gene expression, identifying genes that were sensitive or insensitive to JAK2 variation. Thus, we successfully linked STAT signaling dynamics to gene expression to support future efforts targeting pathology-associated STAT-driven gene sets. This serves as a first step in developing multi-level prediction models to understand and perturb gene expression outputs from signaling systems. A record of this paper's transparent peer review process is included in the supplemental information.",
+  "abstract_zh": "Janus激酶（JAK）-信号转导及转录激活因子（STAT）通路通过有限的分子组分整合复杂的细胞因子信号，激发了众多研究以阐明STAT转录因子功能的多样性和特异性。我们开发了一个计算框架，从STAT磷酸化动力学进行全局性细胞因子诱导基因预测，模拟巨噬细胞对白细胞介素（IL）-6和IL-10的响应，这些细胞因子通过共同的STATs发出信号，但具有不同的时间动力学和相反的功能。我们的机制到机器学习模型识别出与晚期pSTAT3时间框架相关的细胞因子特异性基因，以及JAK2抑制时pSTAT1的优先减少。我们预测并验证了JAK2抑制对基因表达的影响，识别出对JAK2变异敏感或不敏感的基因。因此，我们成功地将STAT信号动力学与基因表达联系起来，以支持未来针对病理相关STAT驱动基因集的努力。这作为开发多层次预测模型以理解和扰动信号系统基因表达输出的第一步。本论文的透明同行评审过程记录包含在补充信息中。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38198893/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38198893/",
+  "paper_page_path": "papers/pubmed/38198893/index.html"
+}

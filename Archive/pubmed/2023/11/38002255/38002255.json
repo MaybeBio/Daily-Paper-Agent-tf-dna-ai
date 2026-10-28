@@ -1,0 +1,416 @@
+{
+  "identity": {
+    "pmid": "38002255",
+    "doi": "10.3390/biom13111573",
+    "title": "Norlobaridone Inhibits Quorum Sensing-Dependent Biofilm Formation and Some Virulence Factors in Pseudomonas aeruginosa by Disrupting Its Transcriptional Activator Protein LasR Dimerization."
+  },
+  "content": {
+    "abstract": "In the present study, norlobaridone (NBD) was isolated from Parmotrema and then evaluated as a new potent quorum sensing (QS) inhibitor against Pseudomonas aeruginosa biofilm development. This phenolic natural product was found to reduce P. aeruginosa biofilm formation (64.6% inhibition) and its related virulence factors, such as pyocyanin and rhamnolipids (% inhibition = 61.1% and 55%, respectively). In vitro assays inhibitory effects against a number of known LuxR-type receptors revealed that NBD was able to specifically block P. aeruginosa's LasR in a dose-dependent manner. Further molecular studies (e.g., sedimentation velocity and thermal shift assays) demonstrated that NBD destabilized LasR upon binding and damaged its functional quaternary structure (i.e., the functional dimeric form). The use of modelling and molecular dynamics (MD) simulations also allowed us to further understand its interaction with LasR, and how this can disrupt its dimeric form. Finally, our findings show that NBD is a powerful and specific LasR antagonist that should be widely employed as a chemical probe in QS of P. aeruginosa, providing new insights into LasR antagonism processes. The new discoveries shed light on the mysterious world of LuxR-type QS in this key opportunistic pathogen.",
+    "keywords": [
+      "LasR",
+      "LuxR-type receptors assay",
+      "MD simulation",
+      "Pseudomonas aeruginosa",
+      "quorum sensing",
+      "thermal shift assay"
+    ],
+    "mesh_terms": [
+      "*Quorum Sensing",
+      "*Virulence Factors/metabolism",
+      "Pseudomonas aeruginosa",
+      "Dimerization",
+      "Biofilms",
+      "Transcription Factors/metabolism",
+      "Trans-Activators/metabolism",
+      "Bacterial Proteins/metabolism",
+      "Anti-Bacterial Agents/chemistry",
+      "Dibenzoxepins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Soltane, Raya",
+        "Alasiri, Ahlam",
+        "Taha, Mostafa N",
+        "Abd El-Aleam, Rehab H",
+        "Alghamdi, Kawthar Saad",
+        "Ghareeb, Mosad A",
+        "Keshek, Doaa El-Ghareeb",
+        "Cardoso, Susana M",
+        "Sayed, Ahmed M"
+      ],
+      "short_names": [
+        "Soltane R",
+        "Alasiri A",
+        "Taha MN",
+        "Abd El-Aleam RH",
+        "Alghamdi KS",
+        "Ghareeb MA",
+        "Keshek DE",
+        "Cardoso SM",
+        "Sayed AM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3211-4630",
+        "ORCID: 0000-0002-0095-4563",
+        "ORCID: 0000-0001-7264-1681",
+        "ORCID: 0000-0003-2714-3215",
+        "ORCID: 0000-0002-8398-1937",
+        "ORCID: 0000-0002-7882-737X"
+      ],
+      "affiliations": [
+        "Department of Basic Sciences, Adham University College, Umm Al-Qura University, Makkah 21955, Saudi Arabia.",
+        "Department of Basic Sciences, Adham University College, Umm Al-Qura University, Makkah 21955, Saudi Arabia.",
+        "Microbiology and Immunology Department, Faculty of Pharmacy, Nahda University, Beni-Suef 62764, Egypt.",
+        "Pharmaceutical Chemistry Department, Faculty of Pharmacy, Modern University for Technology and Information (MTI), Cairo 11571, Egypt.",
+        "Department of Biology, College of Science, University of Hafr Al Batin, Hafar Al Batin 39511, Saudi Arabia.",
+        "Medicinal Chemistry Department, Theodor Bilharz Research Institute Kornaish El Nile, Warrak El-Hadar, Imbaba, P.O. Box 30, Giza 12411, Egypt.",
+        "Department of Biology, Jumum College University, Umm Al-Qura University, Makkah 21955, Saudi Arabia.",
+        "Agriculture Genetic Engineering Research Institute (AGERI), Agriculture Research Center, Giza 11571, Egypt.",
+        "LAQV-REQUIMTE, Department of Chemistry, University of Aveiro, 3810-193 Aveiro, Portugal.",
+        "Pharmacognosy Department, Faculty of Pharmacy, Nahda University, Beni-Suef 62513, Egypt."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Soltane, Raya",
+        "short_name": "Soltane R",
+        "identifiers": [
+          "0000-0002-3211-4630"
+        ],
+        "affiliations": [
+          "Department of Basic Sciences, Adham University College, Umm Al-Qura University, Makkah 21955, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alasiri, Ahlam",
+        "short_name": "Alasiri A",
+        "identifiers": [
+          "0000-0002-0095-4563"
+        ],
+        "affiliations": [
+          "Department of Basic Sciences, Adham University College, Umm Al-Qura University, Makkah 21955, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Taha, Mostafa N",
+        "short_name": "Taha MN",
+        "identifiers": [
+          "0000-0001-7264-1681"
+        ],
+        "affiliations": [
+          "Microbiology and Immunology Department, Faculty of Pharmacy, Nahda University, Beni-Suef 62764, Egypt."
+        ]
+      },
+      {
+        "full_name": "Abd El-Aleam, Rehab H",
+        "short_name": "Abd El-Aleam RH",
+        "identifiers": [
+          "0000-0003-2714-3215"
+        ],
+        "affiliations": [
+          "Pharmaceutical Chemistry Department, Faculty of Pharmacy, Modern University for Technology and Information (MTI), Cairo 11571, Egypt."
+        ]
+      },
+      {
+        "full_name": "Alghamdi, Kawthar Saad",
+        "short_name": "Alghamdi KS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, College of Science, University of Hafr Al Batin, Hafar Al Batin 39511, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Ghareeb, Mosad A",
+        "short_name": "Ghareeb MA",
+        "identifiers": [
+          "0000-0002-8398-1937"
+        ],
+        "affiliations": [
+          "Medicinal Chemistry Department, Theodor Bilharz Research Institute Kornaish El Nile, Warrak El-Hadar, Imbaba, P.O. Box 30, Giza 12411, Egypt."
+        ]
+      },
+      {
+        "full_name": "Keshek, Doaa El-Ghareeb",
+        "short_name": "Keshek DE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Jumum College University, Umm Al-Qura University, Makkah 21955, Saudi Arabia.",
+          "Agriculture Genetic Engineering Research Institute (AGERI), Agriculture Research Center, Giza 11571, Egypt."
+        ]
+      },
+      {
+        "full_name": "Cardoso, Susana M",
+        "short_name": "Cardoso SM",
+        "identifiers": [
+          "0000-0002-7882-737X"
+        ],
+        "affiliations": [
+          "LAQV-REQUIMTE, Department of Chemistry, University of Aveiro, 3810-193 Aveiro, Portugal."
+        ]
+      },
+      {
+        "full_name": "Sayed, Ahmed M",
+        "short_name": "Sayed AM",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmacognosy Department, Faculty of Pharmacy, Nahda University, Beni-Suef 62513, Egypt."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2023 Oct 24",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/25 12:42",
+    "fetched_at": "2026-09-29 10:44:25"
+  },
+  "links": {
+    "cites": [
+      "42511187",
+      "42101011",
+      "41455904",
+      "41369779",
+      "40884678",
+      "40790162",
+      "39602230",
+      "39506932",
+      "39061301",
+      "38803373"
+    ],
+    "refs": [
+      "35961070",
+      "35789537",
+      "35752612",
+      "35277695",
+      "34604104",
+      "34278794",
+      "33829781",
+      "32899195",
+      "32751652",
+      "32197064",
+      "32037806",
+      "31334147",
+      "31242773",
+      "30763066",
+      "30597735",
+      "30023261",
+      "29951860",
+      "29437248",
+      "28596760",
+      "28261568",
+      "28119451",
+      "28075113",
+      "27517959",
+      "27463706",
+      "26819549",
+      "26808465",
+      "26807436",
+      "26460240",
+      "25699144",
+      "25367342",
+      "24409175",
+      "24319092",
+      "23374132",
+      "23354447",
+      "23014532",
+      "22771187",
+      "21798749",
+      "21701655",
+      "21426116",
+      "21125993",
+      "20967360",
+      "19631578",
+      "19246742",
+      "18224645",
+      "17710100",
+      "17696944",
+      "17360280",
+      "17266725",
+      "16881035",
+      "16427231",
+      "16390453",
+      "15716452",
+      "15699188",
+      "15117922",
+      "14597754",
+      "12881415",
+      "12448721",
+      "11867744",
+      "11498392",
+      "11226312",
+      "10832095",
+      "10781550",
+      "10692345",
+      "9642237",
+      "9535661",
+      "2153661"
+    ],
+    "similar": [
+      "38002255",
+      "37979739",
+      "39046261",
+      "28818490",
+      "38036112",
+      "32235775",
+      "35961070",
+      "29526565",
+      "29571725",
+      "30707095",
+      "28453568",
+      "35067121",
+      "28351711",
+      "28939255",
+      "30849491",
+      "30959097",
+      "33713665",
+      "24319092",
+      "28065820",
+      "31605708",
+      "32037806",
+      "22404951",
+      "30913464",
+      "37096792",
+      "26078448",
+      "35767197",
+      "29951860",
+      "27703072",
+      "24002091",
+      "27825554",
+      "37233490",
+      "24736783",
+      "31054133",
+      "31986566",
+      "32020464",
+      "29085409",
+      "21258753",
+      "32265330",
+      "33403919",
+      "29482361",
+      "33932548",
+      "35458637",
+      "28075113",
+      "37865056",
+      "30190495",
+      "28712963",
+      "30852658",
+      "34660340",
+      "17363368",
+      "24143808",
+      "31284940",
+      "29680931",
+      "28591849",
+      "23861975",
+      "19246742",
+      "33340600",
+      "32501479",
+      "26048802",
+      "37175289",
+      "26840534",
+      "16966394",
+      "33460747",
+      "36806045",
+      "37407806",
+      "29437248",
+      "29463534",
+      "33719769",
+      "26358567",
+      "29793752",
+      "38858621",
+      "30033130",
+      "34641440",
+      "29694695",
+      "35471121",
+      "25389523",
+      "34789810",
+      "36301076",
+      "37728140",
+      "28798903",
+      "31123307",
+      "31656488",
+      "31260316",
+      "31773197",
+      "25704369",
+      "34884499",
+      "35384183",
+      "29135250",
+      "21325039",
+      "28466892",
+      "20132256",
+      "36787160",
+      "36202349",
+      "26517484",
+      "33288622",
+      "37913826",
+      "30476580",
+      "34151163",
+      "31787031",
+      "35262393",
+      "26808465",
+      "25088031",
+      "38313021",
+      "38338303",
+      "38316691",
+      "25699144",
+      "37485898",
+      "38559250",
+      "39303517",
+      "38379380",
+      "39246683",
+      "37122537",
+      "38979315",
+      "38385459",
+      "37868332",
+      "38680458"
+    ],
+    "review": [
+      "38002255",
+      "33932548"
+    ],
+    "pmc": [
+      "10669572"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom13111573",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38002255/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38002255",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

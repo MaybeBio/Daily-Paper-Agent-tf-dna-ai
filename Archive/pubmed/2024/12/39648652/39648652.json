@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "39648652",
+    "doi": "10.1080/07391102.2024.2431656",
+    "title": "Investigating the effects of the ARG258HIS mutation on RAD51C in inherited Fanconi Anemia and cancer disease."
+  },
+  "content": {
+    "abstract": "Fanconi anemia is a rare chromosomal instability disorder associated with developmental abnormalities, bone marrow failure, and a heightened susceptibility to leukemia and other cancers. It is an autosomal recessive genetic disorder, necessitating both parents to carry the faulty gene. Diagnostic methods include blood tests, chromosome breakage assessments, and genetic testing. While there is no cure, treatments encompass blood transfusions, bone marrow transplants, and gene therapy, with patients requiring regular check-ups, supportive care, and cancer screening to enhance their quality of life. In this study, we identify a specific substitution (R258H) targeting the crucial binding site of the alpha-helix region in RAD51C. This substitution induces structural disorder in distinct regions, as indicated by the near absence of electron density for multiple amino acids. Intriguingly, these disordered regions do not follow a continuous sequence from the mutation site and extend across domain boundaries. We utilized computational prediction algorithms and Molecular Dynamics (MD) simulations to model RAD51C and its mutation (R258H) structurally. These simulations highlighted alterations in conformational dynamics, the Free Energy Landscape (FEL), and intrinsic molecular motions induced by the mutation, suggesting structural destabilization that could disrupt its function. This observed destabilization in RAD51C due to mutations offers valuable insights that may serve as diagnostic markers for individuals carrying these mutations, particularly in Fanconi anemia.",
+    "keywords": [
+      "Human RAD51C",
+      "molecular dynamics simulation",
+      "mutation",
+      "structural instability"
+    ],
+    "mesh_terms": [
+      "*Fanconi Anemia/genetics",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "*Neoplasms/genetics",
+      "*DNA-Binding Proteins/genetics/chemistry",
+      "*Mutation",
+      "Binding Sites",
+      "Amino Acid Substitution",
+      "Protein Conformation",
+      "Protein Binding",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Seifeldin, Sara",
+        "Saeed, Mohd",
+        "Alshaghdali, Khalid",
+        "Yousif, Elgeli",
+        "Abu Sabaa, Amal",
+        "Rabie, Hatem",
+        "Siddiqui, Samra",
+        "Saeed, Amir"
+      ],
+      "short_names": [
+        "Seifeldin S",
+        "Saeed M",
+        "Alshaghdali K",
+        "Yousif E",
+        "Abu Sabaa A",
+        "Rabie H",
+        "Siddiqui S",
+        "Saeed A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4450-9728",
+        "ORCID: 0000-0002-4676-1847"
+      ],
+      "affiliations": [
+        "Department of Clinical Laboratory Science, College of Applied Medical Science, University of Hail, Hail, Saudi Arabia.",
+        "Department of Biology, College of Science, University of Hail, Hail, Saudi Arabia.",
+        "Department of Clinical Laboratory Science, College of Applied Medical Science, University of Hail, Hail, Saudi Arabia.",
+        "Department of Diagnostic Radiology, College of Applied Medical Sciences, University of Hail, Hail, Saudi Arabia.",
+        "Department of Immunology, Genetics & Pathology, Uppsala University, Sweden.",
+        "Ministry of Health -Hail Regional Laboratory, Hail, Saudi Arabia.",
+        "Department Health Services Management, College of Public Health and Health Informatics, University of Hail, Hail, Saudi Arabia.",
+        "Department of Clinical Laboratory Science, College of Applied Medical Science, University of Hail, Hail, Saudi Arabia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Seifeldin, Sara",
+        "short_name": "Seifeldin S",
+        "identifiers": [
+          "0000-0002-4450-9728"
+        ],
+        "affiliations": [
+          "Department of Clinical Laboratory Science, College of Applied Medical Science, University of Hail, Hail, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Saeed, Mohd",
+        "short_name": "Saeed M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, College of Science, University of Hail, Hail, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alshaghdali, Khalid",
+        "short_name": "Alshaghdali K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory Science, College of Applied Medical Science, University of Hail, Hail, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Yousif, Elgeli",
+        "short_name": "Yousif E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic Radiology, College of Applied Medical Sciences, University of Hail, Hail, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Abu Sabaa, Amal",
+        "short_name": "Abu Sabaa A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, Genetics & Pathology, Uppsala University, Sweden."
+        ]
+      },
+      {
+        "full_name": "Rabie, Hatem",
+        "short_name": "Rabie H",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Health -Hail Regional Laboratory, Hail, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Siddiqui, Samra",
+        "short_name": "Siddiqui S",
+        "identifiers": [],
+        "affiliations": [
+          "Department Health Services Management, College of Public Health and Health Informatics, University of Hail, Hail, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Saeed, Amir",
+        "short_name": "Saeed A",
+        "identifiers": [
+          "0000-0002-4676-1847"
+        ],
+        "affiliations": [
+          "Department of Clinical Laboratory Science, College of Applied Medical Science, University of Hail, Hail, Saudi Arabia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/09 06:17",
+    "fetched_at": "2026-09-30 07:42:20"
+  },
+  "links": {
+    "cites": [
+      "40265429"
+    ],
+    "refs": [],
+    "similar": [
+      "39648652",
+      "20301575",
+      "20400963",
+      "29663862",
+      "20952512",
+      "36369330",
+      "11110674",
+      "22167183",
+      "29325523",
+      "11520787",
+      "15643609",
+      "10567393",
+      "20428093",
+      "17063491",
+      "28024295",
+      "25154786",
+      "31035038",
+      "25104853",
+      "26691948",
+      "41520327",
+      "12915460",
+      "12697994",
+      "11530803",
+      "24141787",
+      "25086635",
+      "8896564",
+      "32644559",
+      "27208205",
+      "24584348",
+      "20697805",
+      "33028645",
+      "9371798",
+      "29278735",
+      "24800917",
+      "36906610",
+      "10807541",
+      "41719405",
+      "29133208",
+      "10572087",
+      "27041517",
+      "26406419",
+      "18724063",
+      "24356203",
+      "20400964",
+      "12351379",
+      "12955722",
+      "15059067",
+      "22194614",
+      "32002546",
+      "34793962",
+      "25070891",
+      "24395671",
+      "30809872",
+      "8844212",
+      "30031030",
+      "21750962",
+      "18322251",
+      "33394227",
+      "25472942",
+      "9929978",
+      "29154021",
+      "21561095",
+      "14695169",
+      "31085681",
+      "12827451",
+      "11063725",
+      "22725699",
+      "21356067",
+      "7581369",
+      "17308347",
+      "12649160",
+      "27083049",
+      "39562502",
+      "9806548",
+      "17096012",
+      "8621788",
+      "25486561",
+      "12393398",
+      "8896563",
+      "10666230",
+      "12383764",
+      "12552564",
+      "40568771",
+      "8639804",
+      "38502682",
+      "24573678",
+      "26046368",
+      "21240275",
+      "41277739",
+      "32359370",
+      "9242535",
+      "29891926",
+      "10961856",
+      "26085575",
+      "25455269",
+      "26681308",
+      "15451479",
+      "34422195",
+      "1809228",
+      "28796317"
+    ],
+    "review": [
+      "39648652",
+      "20952512",
+      "11530803",
+      "29133208",
+      "18724063",
+      "25486561",
+      "32359370",
+      "25455269",
+      "1809228"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2024.2431656?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAD51C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3250",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2024.2431656",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.15.599153",
+  "title": "Interpretation of murine models of cardiac disease is enhanced by consideration of divergently expressed human-mouse orthologous genes",
+  "doi": "10.1101/2024.06.15.599153",
+  "abstract": "Humans and mice share remarkably similar cardiac anatomy and physiology and have many orthologous genes with high sequence similarity. Together with their small size and short lifespan, these factors are major contributors to the popularity of mice as research models. Nonetheless, findings in mice often fail to translate into humans. We propose that this may be due in part to differences in gene expression. Advances in molecular genomics have enabled profiling of gene expression at the level of individual cells through single-cell RNA-sequencing. Large repositories of human and murine data across many organs and tissues, including the heart, are now available. However, there is currently a lack of comparative research which directly quantifies similarities and differences in expression of orthologous genes between human and mouse. This study is the first, to our knowledge, to directly compare celltype-specific expression conservation and divergence between orthologous genes in human and mouse heart. Cardiac data from 7 human and mouse scRNA-seq publications was retrieved, with mouse data converted to equivalent human gene orthologues. The datasets were integrated and subjected to comparative transcriptomic analysis in R using Seurat. Classical celltype markers did not perform equally across species. We have identified species-conserved celltype marker genes, providing a useful resource to identify cardiac cell populations in both species. Further, we have identified and ranked divergence between species for each cardiac celltype, highlighting genes which vary considerably in expression between human and mouse heart. Many of these have been genetically modified to create mouse models or encode proteins targeted by pharmaceutical drugs. Researchers should carefully consider these highly divergent genes when planning, or interpreting data from, mouse models of human biology.",
+  "authors": [
+    "Cappa O",
+    "Watson C",
+    "Simpson D"
+  ],
+  "published_date": "2024-06-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.15.599153",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.15.599153.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR869198",
+    "raw_record": {
+      "id": "PPR869198",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR869198"
+        ]
+      },
+      "doi": "10.1101/2024.06.15.599153",
+      "title": "Interpretation of murine models of cardiac disease is enhanced by consideration of divergently expressed human-mouse orthologous genes",
+      "authorString": "Cappa O, Watson C, Simpson D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Cappa O",
+            "lastName": "Cappa",
+            "firstName": "Oisín",
+            "initials": "O",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3015-3345"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Wellcome – Wolfson Institute for Experimental Medicine, School of Medicine, Dentistry and Biomedical Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Watson C",
+            "lastName": "Watson",
+            "firstName": "Chris",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Wellcome – Wolfson Institute for Experimental Medicine, School of Medicine, Dentistry and Biomedical Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Simpson D",
+            "lastName": "Simpson",
+            "firstName": "David",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0157-1211"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Wellcome – Wolfson Institute for Experimental Medicine, School of Medicine, Dentistry and Biomedical Sciences, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3015-3345"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0157-1211"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Humans and mice share remarkably similar cardiac anatomy and physiology and have many orthologous genes with high sequence similarity. Together with their small size and short lifespan, these factors are major contributors to the popularity of mice as research models. Nonetheless, findings in mice often fail to translate into humans. We propose that this may be due in part to differences in gene expression. Advances in molecular genomics have enabled profiling of gene expression at the level of individual cells through single-cell RNA-sequencing. Large repositories of human and murine data across many organs and tissues, including the heart, are now available. However, there is currently a lack of comparative research which directly quantifies similarities and differences in expression of orthologous genes between human and mouse. This study is the first, to our knowledge, to directly compare celltype-specific expression conservation and divergence between orthologous genes in human and mouse heart. Cardiac data from 7 human and mouse scRNA-seq publications was retrieved, with mouse data converted to equivalent human gene orthologues. The datasets were integrated and subjected to comparative transcriptomic analysis in R using Seurat. Classical celltype markers did not perform equally across species. We have identified species-conserved celltype marker genes, providing a useful resource to identify cardiac cell populations in both species. Further, we have identified and ranked divergence between species for each cardiac celltype, highlighting genes which vary considerably in expression between human and mouse heart. Many of these have been genetically modified to create mouse models or encode proteins targeted by pharmaceutical drugs. Researchers should carefully consider these highly divergent genes when planning, or interpreting data from, mouse models of human biology.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.06.15.599153"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.06.15.599153"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR869198"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR869198&type=FILE&fileName=EMS196970-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS196970",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-06-20",
+      "firstPublicationDate": "2024-06-17",
+      "firstIndexDate": "2024-06-20",
+      "fullTextReceivedDate": "2024-07-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

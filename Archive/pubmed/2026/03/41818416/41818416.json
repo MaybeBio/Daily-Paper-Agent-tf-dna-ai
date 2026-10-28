@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "41818416",
+    "doi": "10.1002/cre2.70312",
+    "title": "Epigenetic Alterations Beyond CpG Islands in Periodontitis: In Silico Study of DNA Methylation Data."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: To classify differentially methylated CpG sites in periodontitis based on methylation shift direction and location relative to CpG islands. MATERIAL AND METHODS: We integrated DNA methylation data from 65 gingival samples (31 periodontitis, 34 healthy) from three GEO datasets. Preprocessing included normalization using R pipelines. Differential DNA methylation analysis was performed with the limma package. CpG sites (adjusted p < 0.05) were further evaluated using an exploratory threshold-crossing framework based on group-mean beta-values (cutoff = 0.5) identifying Control low --> Periodontitis high and Control high --> Periodontitis low shifts, annotated with Illumina 450k references. Top 20 CpG-associated genes were selected by absolute logFC. Gene Ontology (GO) enrichment was conducted using clusterProfiler. RESULTS: We identified 164,400 differentially methylated CpG sites, including CpGs exhibiting Control low --> Periodontitis high and Control high --> Periodontitis low shifts, and mapped to gene features. Nearly half of methylation alterations (47.77%) were in OpenSea regions, with additional signals in CpG islands and promoter-proximal regions. GO enrichment analysis revealed that differentially methylated genes in periodontitis were associated with epithelial and organ morphogenesis, including epithelial tube morphogenesis, epithelial cell proliferation, and cell fate commitment. Enriched cellular components were membrane- and vesicle-associated structures, while molecular functions were transmembrane transporter activity, ion channel activity, and DNA-binding transcription factor-related functions. These findings suggest that DNA methylation alterations in periodontitis are linked to epigenetic regulation of epithelial structure and tissue remodeling, with implications for immune-related cellular processes. Among the top 20 genes exhibiting beta-threshold-based directionality changes, 13 were significantly enriched in GO terms: 8 in the Control low --> Periodontitis high group (DGKA, CHMP6, RUNX2, CDKL1, SLC6A3, CFTR, HLA-C, LRIG1), 5 in the Control high --> Periodontitis low group (AP2A2, PARD3, PADI2, FOXK1, RGS1). CONCLUSIONS: This study provides an exploratory, direction-aware summary framework of DNA methylation in periodontitis, highlighting functional changes beyond CpG islands and identifying candidate genes for further functional validation.",
+    "keywords": [
+      "CpG islands",
+      "DNA methylation",
+      "Gene Ontology analysis",
+      "epigenetics",
+      "methylation directionality",
+      "periodontitis"
+    ],
+    "mesh_terms": [
+      "*DNA Methylation/genetics",
+      "Humans",
+      "*CpG Islands/genetics",
+      "*Periodontitis/genetics",
+      "*Epigenesis, Genetic",
+      "Computer Simulation",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yoshida, Koki",
+        "Sivaramakrishnan, Gowri",
+        "Asa'ad, Farah"
+      ],
+      "short_names": [
+        "Yoshida K",
+        "Sivaramakrishnan G",
+        "Asa'ad F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5877-205X",
+        "ORCID: 0000-0001-5186-2645"
+      ],
+      "affiliations": [
+        "Division of Oral Medicine and Pathology, Department of Human Biology and Pathophysiology, School of Dentistry, Health Sciences University of Hokkaido, Hokkaido, Japan.",
+        "Bahrain Defence Force Royal Medical Services, Riffa, Bahrain.",
+        "Department of Oral Biochemistry, Institute of Odontology, Sahlgrenska Academy, University of Gothenburg, Gothenburg, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yoshida, Koki",
+        "short_name": "Yoshida K",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Oral Medicine and Pathology, Department of Human Biology and Pathophysiology, School of Dentistry, Health Sciences University of Hokkaido, Hokkaido, Japan."
+        ]
+      },
+      {
+        "full_name": "Sivaramakrishnan, Gowri",
+        "short_name": "Sivaramakrishnan G",
+        "identifiers": [
+          "0000-0002-5877-205X"
+        ],
+        "affiliations": [
+          "Bahrain Defence Force Royal Medical Services, Riffa, Bahrain."
+        ]
+      },
+      {
+        "full_name": "Asa'ad, Farah",
+        "short_name": "Asa'ad F",
+        "identifiers": [
+          "0000-0001-5186-2645"
+        ],
+        "affiliations": [
+          "Department of Oral Biochemistry, Institute of Odontology, Sahlgrenska Academy, University of Gothenburg, Gothenburg, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical and experimental dental research"
+    ],
+    "journal_abbrev": [
+      "Clin Exp Dent Res"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/12 18:53",
+    "fetched_at": "2026-10-01 15:57:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39935835",
+      "38758807",
+      "37464577",
+      "36273177",
+      "35754944",
+      "34421907",
+      "34168224",
+      "33948387",
+      "33902683",
+      "30198133",
+      "30064459",
+      "28805207",
+      "28485572",
+      "28367255",
+      "28299652",
+      "26908456",
+      "26133673",
+      "25621392",
+      "25605792",
+      "25147584",
+      "23574467",
+      "23208076",
+      "22641018",
+      "21747404",
+      "20050827",
+      "18523244",
+      "18337604",
+      "12042769"
+    ],
+    "similar": [
+      "41818416",
+      "30221710",
+      "32606567",
+      "28058013",
+      "37762215",
+      "31508907",
+      "34347624",
+      "42045368",
+      "41854524",
+      "40326138",
+      "23896626",
+      "40302267",
+      "32255732",
+      "30760334",
+      "28981624",
+      "29484035",
+      "31506065",
+      "26438392",
+      "39515527",
+      "29496485",
+      "32679516",
+      "35169870",
+      "29115576",
+      "26383847",
+      "21674046",
+      "39875007",
+      "39746347",
+      "23770704",
+      "27814717",
+      "41125735",
+      "37020053",
+      "27496870",
+      "24603685",
+      "30846004",
+      "31555266",
+      "29671397",
+      "39910411",
+      "35986394",
+      "25580569",
+      "41482678",
+      "28158250",
+      "42086655",
+      "41652412",
+      "37031307",
+      "41748061",
+      "32806782",
+      "26861258",
+      "41958602",
+      "42304519",
+      "36991458",
+      "29087470",
+      "37803336",
+      "30081852",
+      "29801521",
+      "31513634",
+      "23669186",
+      "31915063",
+      "27259700",
+      "23119026",
+      "41096905",
+      "39147981",
+      "39305372",
+      "33028190",
+      "24337411",
+      "31931860",
+      "28473875",
+      "41227320",
+      "28423671",
+      "29690695",
+      "27760737",
+      "32459505",
+      "29482655",
+      "34103055",
+      "34104645",
+      "35633417",
+      "33069246",
+      "34419168",
+      "41204329",
+      "31114612",
+      "30326963",
+      "28127622",
+      "38711158",
+      "33148325",
+      "39751206",
+      "24106769",
+      "32264938",
+      "29507647",
+      "31791327",
+      "27415308",
+      "39827095",
+      "27813113",
+      "24034465",
+      "41729831",
+      "20818161",
+      "38971778",
+      "39674522",
+      "25064398",
+      "32853717",
+      "22870707",
+      "40551051"
+    ],
+    "review": [
+      "41818416",
+      "29496485",
+      "35169870",
+      "36991458",
+      "23669186",
+      "31931860"
+    ],
+    "pmc": [
+      "13140714"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41818416/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/cre2.70312",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1495",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

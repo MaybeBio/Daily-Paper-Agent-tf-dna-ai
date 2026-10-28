@@ -1,0 +1,492 @@
+{
+  "identity": {
+    "pmid": "39799354",
+    "doi": "10.1186/s12967-025-06095-0",
+    "title": "Ferroptosis-related genes participate in the microglia-induced neuroinflammation of spinal cord injury via NF-kappaB signaling: evidence from integrated single-cell and spatial transcriptomic analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ferroptosis and immune responses are critical pathological events in spinal cord injury (SCI), whereas relative molecular and cellular mechanisms remain unclear. METHODS: Micro-array datasets (GSE45006, GSE69334), RNA sequencing (RNA-seq) dataset (GSE151371), spatial transcriptome datasets (GSE214349, GSE184369), and single cell RNA sequencing (scRNA-seq) datasets (GSE162610, GSE226286) were available from the Gene Expression Omnibus (GEO) database. Through weighted gene co-expression network analysis and differential expression analysis in GSE45006, we identified differentially expressed time- and immune-related genes (DETIRGs) associated with chronic SCI and differentially expressed ferroptosis- and immune-related genes (DEFIRGs), which were validated in GSE151371. Protein-protein interaction and microRNA-mRNA-transcription factor regulatory networks were constructed based on Search Tool for the Retrieval of Interacting Genes (STRING) and NetworkAnalyst, respectively, which were validated by chromatin immunoprecipitation followed by sequencing (ChIP-seq). Cell subclusters and unique features of microglia in SCI were identified by single-cell transcriptomic analysis, which were validated in GSE226286. Spatial expression patterns of DETIRGs and DEFIRGs were validated in brain injury (GSE214349) and SCI (GSE184369). Potential mechanisms underlying neuronal regeneration by neurotrophin-3 (NT3)-chitosan were revealed by transcriptomic analyses in GSE69334. Immune- and ferroptosis-related mechanisms of nanolayered double hydroxide loaded with NT3 (LDH-NT3) were investigated in vivo and in vitro. RESULTS: GBP2, TEC, UNC93B1, PLXNC1, NFATC1, IL10RB, and TLR8 were DETIRGs represented chronic SCI-specific genes and peripheral blood biomarkers. NFKB1 may regulate expression of CYBB and HMOX1 in a unique subcluster of M1 microglia within the middle SCI lesion, establishing links between microglial ferroptosis and neuroinflammation. Reduced inflammatory responses and microglial ferroptosis were potential effects of NT3-chitosan or LDH-NT3 on neuronal regeneration. CONCLUSIONS: A novel subcluster of microglia exhibiting M1 polarization and ferroptosis phenotype was involved in SCI. These microglia may trigger neuroinflammation and induce neuronal degeneration within the middle site of SCI, which might be inhibited by NT3-chitosan or LDH-NT3.",
+    "keywords": [
+      "Biomaterial",
+      "Ferroptosis",
+      "Immune responses",
+      "Microglia",
+      "Single-cell RNA sequencing",
+      "Spinal cord injury"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/genetics",
+      "*Spinal Cord Injuries/genetics/pathology/complications",
+      "*Microglia/pathology/metabolism",
+      "*Signal Transduction/genetics",
+      "*Gene Expression Profiling",
+      "*Single-Cell Analysis",
+      "Animals",
+      "Gene Regulatory Networks",
+      "*NF-kappa B/metabolism",
+      "*Neuroinflammatory Diseases/genetics/pathology",
+      "Protein Interaction Maps/genetics",
+      "*Transcriptome/genetics",
+      "Reproducibility of Results",
+      "Humans",
+      "Gene Expression Regulation",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Siqiao",
+        "Yang, Li",
+        "Wu, Zhourui",
+        "Li, Chen",
+        "Wang, Shaoke",
+        "Xiao, Zhihui",
+        "Ma, Bei",
+        "Zhu, Rongrong",
+        "Cheng, Liming"
+      ],
+      "short_names": [
+        "Wang S",
+        "Yang L",
+        "Wu Z",
+        "Li C",
+        "Wang S",
+        "Xiao Z",
+        "Ma B",
+        "Zhu R",
+        "Cheng L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9494-8211"
+      ],
+      "affiliations": [
+        "Division of Spine, Department of Orthopedics, Tongji Hospital affiliated to Tongji University, Tongji University School of Medicine, Shanghai, 200065, China.",
+        "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China.",
+        "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China.",
+        "Institute of Spinal and Spinal Cord Injury, Tongji University School of Medicine, Shanghai, 200065, China.",
+        "Stem Cell Translational Research Center, Tongji Hospital, Tongji University School of Medicine, Shanghai, 200065, China.",
+        "Division of Spine, Department of Orthopedics, Tongji Hospital affiliated to Tongji University, Tongji University School of Medicine, Shanghai, 200065, China.",
+        "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China.",
+        "Institute of Spinal and Spinal Cord Injury, Tongji University School of Medicine, Shanghai, 200065, China.",
+        "Stem Cell Translational Research Center, Tongji Hospital, Tongji University School of Medicine, Shanghai, 200065, China.",
+        "Division of Spine, Department of Orthopedics, Tongji Hospital affiliated to Tongji University, Tongji University School of Medicine, Shanghai, 200065, China.",
+        "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China.",
+        "Institute of Spinal and Spinal Cord Injury, Tongji University School of Medicine, Shanghai, 200065, China.",
+        "Stem Cell Translational Research Center, Tongji Hospital, Tongji University School of Medicine, Shanghai, 200065, China.",
+        "Division of Spine, Department of Orthopedics, Tongji Hospital affiliated to Tongji University, Tongji University School of Medicine, Shanghai, 200065, China.",
+        "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China.",
+        "Institute of Spinal and Spinal Cord Injury, Tongji University School of Medicine, Shanghai, 200065, China.",
+        "Stem Cell Translational Research Center, Tongji Hospital, Tongji University School of Medicine, Shanghai, 200065, China.",
+        "Division of Spine, Department of Orthopedics, Tongji Hospital affiliated to Tongji University, Tongji University School of Medicine, Shanghai, 200065, China.",
+        "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China.",
+        "Division of Spine, Department of Orthopedics, Tongji Hospital affiliated to Tongji University, Tongji University School of Medicine, Shanghai, 200065, China. mabei08@163.com.",
+        "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China. mabei08@163.com.",
+        "Institute of Spinal and Spinal Cord Injury, Tongji University School of Medicine, Shanghai, 200065, China. mabei08@163.com.",
+        "Stem Cell Translational Research Center, Tongji Hospital, Tongji University School of Medicine, Shanghai, 200065, China. mabei08@163.com.",
+        "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China. rrzhu@tongji.edu.cn.",
+        "Institute of Spinal and Spinal Cord Injury, Tongji University School of Medicine, Shanghai, 200065, China. rrzhu@tongji.edu.cn.",
+        "Stem Cell Translational Research Center, Tongji Hospital, Tongji University School of Medicine, Shanghai, 200065, China. rrzhu@tongji.edu.cn.",
+        "Division of Spine, Department of Orthopedics, Tongji Hospital affiliated to Tongji University, Tongji University School of Medicine, Shanghai, 200065, China. limingcheng@tongji.edu.cn.",
+        "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China. limingcheng@tongji.edu.cn.",
+        "Institute of Spinal and Spinal Cord Injury, Tongji University School of Medicine, Shanghai, 200065, China. limingcheng@tongji.edu.cn.",
+        "Stem Cell Translational Research Center, Tongji Hospital, Tongji University School of Medicine, Shanghai, 200065, China. limingcheng@tongji.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Siqiao",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Spine, Department of Orthopedics, Tongji Hospital affiliated to Tongji University, Tongji University School of Medicine, Shanghai, 200065, China.",
+          "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Li",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China.",
+          "Institute of Spinal and Spinal Cord Injury, Tongji University School of Medicine, Shanghai, 200065, China.",
+          "Stem Cell Translational Research Center, Tongji Hospital, Tongji University School of Medicine, Shanghai, 200065, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhourui",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Spine, Department of Orthopedics, Tongji Hospital affiliated to Tongji University, Tongji University School of Medicine, Shanghai, 200065, China.",
+          "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China.",
+          "Institute of Spinal and Spinal Cord Injury, Tongji University School of Medicine, Shanghai, 200065, China.",
+          "Stem Cell Translational Research Center, Tongji Hospital, Tongji University School of Medicine, Shanghai, 200065, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chen",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Spine, Department of Orthopedics, Tongji Hospital affiliated to Tongji University, Tongji University School of Medicine, Shanghai, 200065, China.",
+          "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China.",
+          "Institute of Spinal and Spinal Cord Injury, Tongji University School of Medicine, Shanghai, 200065, China.",
+          "Stem Cell Translational Research Center, Tongji Hospital, Tongji University School of Medicine, Shanghai, 200065, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shaoke",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Spine, Department of Orthopedics, Tongji Hospital affiliated to Tongji University, Tongji University School of Medicine, Shanghai, 200065, China.",
+          "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China.",
+          "Institute of Spinal and Spinal Cord Injury, Tongji University School of Medicine, Shanghai, 200065, China.",
+          "Stem Cell Translational Research Center, Tongji Hospital, Tongji University School of Medicine, Shanghai, 200065, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Zhihui",
+        "short_name": "Xiao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Spine, Department of Orthopedics, Tongji Hospital affiliated to Tongji University, Tongji University School of Medicine, Shanghai, 200065, China.",
+          "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Bei",
+        "short_name": "Ma B",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Spine, Department of Orthopedics, Tongji Hospital affiliated to Tongji University, Tongji University School of Medicine, Shanghai, 200065, China. mabei08@163.com.",
+          "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China. mabei08@163.com.",
+          "Institute of Spinal and Spinal Cord Injury, Tongji University School of Medicine, Shanghai, 200065, China. mabei08@163.com.",
+          "Stem Cell Translational Research Center, Tongji Hospital, Tongji University School of Medicine, Shanghai, 200065, China. mabei08@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhu, Rongrong",
+        "short_name": "Zhu R",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China. rrzhu@tongji.edu.cn.",
+          "Institute of Spinal and Spinal Cord Injury, Tongji University School of Medicine, Shanghai, 200065, China. rrzhu@tongji.edu.cn.",
+          "Stem Cell Translational Research Center, Tongji Hospital, Tongji University School of Medicine, Shanghai, 200065, China. rrzhu@tongji.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Cheng, Liming",
+        "short_name": "Cheng L",
+        "identifiers": [
+          "0000-0001-9494-8211"
+        ],
+        "affiliations": [
+          "Division of Spine, Department of Orthopedics, Tongji Hospital affiliated to Tongji University, Tongji University School of Medicine, Shanghai, 200065, China. limingcheng@tongji.edu.cn.",
+          "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration (Tongji University), Ministry of Education, Shanghai, 200072, China. limingcheng@tongji.edu.cn.",
+          "Institute of Spinal and Spinal Cord Injury, Tongji University School of Medicine, Shanghai, 200065, China. limingcheng@tongji.edu.cn.",
+          "Stem Cell Translational Research Center, Tongji Hospital, Tongji University School of Medicine, Shanghai, 200065, China. limingcheng@tongji.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2025 Jan 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/12 15:21",
+    "fetched_at": "2026-09-30 09:13:04"
+  },
+  "links": {
+    "cites": [
+      "42099634",
+      "41776105",
+      "41674554",
+      "41667428",
+      "41024164",
+      "40918101",
+      "40725213"
+    ],
+    "refs": [
+      "38379452",
+      "38129670",
+      "37953355",
+      "37953328",
+      "37862218",
+      "37843217",
+      "37840106",
+      "37697166",
+      "37605362",
+      "37572760",
+      "37316756",
+      "37189183",
+      "36825001",
+      "36686379",
+      "36685598",
+      "36414158",
+      "36352232",
+      "36018155",
+      "36012150",
+      "35979356",
+      "35884864",
+      "35352952",
+      "35232960",
+      "34708039",
+      "34685649",
+      "34496892",
+      "34388243",
+      "34107254",
+      "34083791",
+      "33933882",
+      "33597522",
+      "33544846",
+      "33527830",
+      "33512429",
+      "33444733",
+      "33414681",
+      "32710567",
+      "32080625",
+      "32043849",
+      "31878193",
+      "31805371",
+      "31799184",
+      "31735448",
+      "31551601",
+      "31547302",
+      "31491912",
+      "31481975",
+      "31296844",
+      "31260950",
+      "30627586",
+      "30352209",
+      "30289549",
+      "30082768",
+      "29768176",
+      "29608179",
+      "29543350",
+      "29409532",
+      "29344893",
+      "29195078",
+      "29171434",
+      "29126174",
+      "29056066",
+      "28821567",
+      "28415764",
+      "28326946",
+      "28239766",
+      "27815685",
+      "27572744",
+      "27280887",
+      "26772423",
+      "26771021",
+      "26634890",
+      "26607419",
+      "26460053",
+      "26300731",
+      "26150313",
+      "26060037",
+      "25950236",
+      "25808205",
+      "25725062",
+      "25416803",
+      "24940733",
+      "24914808",
+      "24890788",
+      "24791905",
+      "24563635",
+      "24312912",
+      "24227677",
+      "23254326",
+      "22980985",
+      "22742584",
+      "22632970",
+      "22455463",
+      "22435567",
+      "22257669",
+      "21859476",
+      "21673720",
+      "21672962",
+      "21601272",
+      "21324162",
+      "20727575",
+      "19672303",
+      "19636355",
+      "19617889",
+      "19576215",
+      "19505943",
+      "19114008",
+      "18614014",
+      "18305481",
+      "17631520",
+      "17060494",
+      "17008526",
+      "16473874",
+      "15895084",
+      "15890528",
+      "15233917",
+      "12951577",
+      "11940595",
+      "11857637",
+      "11752295",
+      "9862701",
+      "9634238",
+      "9143705"
+    ],
+    "similar": [
+      "39799354",
+      "42666489",
+      "39218784",
+      "41981193",
+      "42719524",
+      "42519304",
+      "42144484",
+      "39515654",
+      "41902571",
+      "40659785",
+      "37726826",
+      "33863336",
+      "38636801",
+      "40038710",
+      "41869327",
+      "41190071",
+      "42082621",
+      "41733593",
+      "36414158",
+      "42503354",
+      "41444617",
+      "40268016",
+      "29776446",
+      "41773227",
+      "42418294",
+      "38565385",
+      "41512795",
+      "40893312",
+      "33149108",
+      "36742334",
+      "39586719",
+      "33484404",
+      "39307293",
+      "40258965",
+      "38519735",
+      "42166074",
+      "38890348",
+      "41000385",
+      "42530267",
+      "36841940",
+      "40624302",
+      "40929847",
+      "41271189",
+      "39814871",
+      "29558941",
+      "41034905",
+      "39206917",
+      "40522023",
+      "42099634",
+      "37658943",
+      "39010173",
+      "28201982",
+      "35910787",
+      "40294852",
+      "31726970",
+      "39959647",
+      "37532969",
+      "38387733",
+      "42183235",
+      "32192500",
+      "40745616",
+      "41235394",
+      "25936407",
+      "42037113",
+      "41187887",
+      "42464547",
+      "36692707",
+      "42486345",
+      "25811458",
+      "42565562",
+      "41107929",
+      "35410505",
+      "42265520",
+      "42551197",
+      "39408930",
+      "39806436",
+      "39798643",
+      "40346894",
+      "41891961",
+      "39276055",
+      "41854297",
+      "42024670",
+      "39929099",
+      "38340239",
+      "42068080",
+      "40345018",
+      "42559269",
+      "42246043",
+      "39125762",
+      "42390651",
+      "40428335",
+      "41622228",
+      "30816457",
+      "39212067",
+      "41575677",
+      "42240792",
+      "42092129",
+      "26503224",
+      "37747614",
+      "39953505"
+    ],
+    "review": [
+      "39799354"
+    ],
+    "pmc": [
+      "11725224"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-06095-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/spinalcordinjuries.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Spinal Cord Injuries"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39799354/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2235",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

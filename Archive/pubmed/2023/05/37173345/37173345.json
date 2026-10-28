@@ -1,0 +1,350 @@
+{
+  "identity": {
+    "pmid": "37173345",
+    "doi": "10.1038/s41598-023-34115-w",
+    "title": "Prediction of mammalian tissue-specific CLOCK-BMAL1 binding to E-box DNA motifs."
+  },
+  "content": {
+    "abstract": "The Brain and Muscle ARNTL-Like 1 protein (BMAL1) forms a heterodimer with either Circadian Locomotor Output Cycles Kaput (CLOCK) or Neuronal PAS domain protein 2 (NPAS2) to act as a master regulator of the mammalian circadian clock gene network. The dimer binds to E-box gene regulatory elements on DNA, activating downstream transcription of clock genes. Identification of transcription factor binding sites and genomic features that correlate to DNA binding by BMAL1 is a challenging problem, given that CLOCK-BMAL1 or NPAS2-BMAL1 bind to several distinct binding motifs (CANNTG) on DNA. Using three different types of tissue-specific machine learning models with features based on (1) DNA sequence, (2) DNA sequence plus DNA shape, and (3) DNA sequence and shape plus histone modifications, we developed an interpretable predictive model of genome-wide BMAL1 binding to E-box motifs and dissected the mechanisms underlying BMAL1-DNA binding. Our results indicated that histone modifications, the local shape of the DNA, and the flanking sequence of the E-box motif are sufficient predictive features for BMAL1-DNA binding. Our models also provide mechanistic insights into tissue specificity of DNA binding by BMAL1.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*ARNTL Transcription Factors/genetics/metabolism",
+      "*E-Box Elements",
+      "Nucleotide Motifs",
+      "CLOCK Proteins/genetics/metabolism",
+      "DNA/metabolism",
+      "Protein Binding",
+      "Circadian Rhythm/genetics",
+      "Basic Helix-Loop-Helix Proteins/genetics/metabolism",
+      "Mammals/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Marri, Daniel",
+        "Filipovic, David",
+        "Kana, Omar",
+        "Tischkau, Shelley",
+        "Bhattacharya, Sudin"
+      ],
+      "short_names": [
+        "Marri D",
+        "Filipovic D",
+        "Kana O",
+        "Tischkau S",
+        "Bhattacharya S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7109-1566",
+        "ORCID: 0000-0003-4421-1654",
+        "ORCID: 0000-0002-7772-4694",
+        "ORCID: 0000-0002-8016-6398",
+        "ORCID: 0000-0002-2360-1672"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, Michigan State University, East Lansing, MI, USA.",
+        "Institute for Quantitative Health Science and Engineering, Michigan State University, East Lansing, MI, USA.",
+        "Department of Biomedical Engineering, Michigan State University, East Lansing, MI, USA.",
+        "Institute for Quantitative Health Science and Engineering, Michigan State University, East Lansing, MI, USA.",
+        "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, USA.",
+        "Institute for Quantitative Health Science and Engineering, Michigan State University, East Lansing, MI, USA.",
+        "Department of Pharmacology and Toxicology, Michigan State University, East Lansing, MI, USA.",
+        "Institute for Integrative Toxicology, Michigan State University, East Lansing, MI, USA.",
+        "Department of Pharmacology, Southern Illinois University School of Medicine, Springfield, IL, USA.",
+        "Department of Biomedical Engineering, Michigan State University, East Lansing, MI, USA. sbhattac@msu.edu.",
+        "Institute for Quantitative Health Science and Engineering, Michigan State University, East Lansing, MI, USA. sbhattac@msu.edu.",
+        "Department of Pharmacology and Toxicology, Michigan State University, East Lansing, MI, USA. sbhattac@msu.edu.",
+        "Institute for Integrative Toxicology, Michigan State University, East Lansing, MI, USA. sbhattac@msu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Marri, Daniel",
+        "short_name": "Marri D",
+        "identifiers": [
+          "0000-0002-7109-1566"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Michigan State University, East Lansing, MI, USA.",
+          "Institute for Quantitative Health Science and Engineering, Michigan State University, East Lansing, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Filipovic, David",
+        "short_name": "Filipovic D",
+        "identifiers": [
+          "0000-0003-4421-1654"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Michigan State University, East Lansing, MI, USA.",
+          "Institute for Quantitative Health Science and Engineering, Michigan State University, East Lansing, MI, USA.",
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Kana, Omar",
+        "short_name": "Kana O",
+        "identifiers": [
+          "0000-0002-7772-4694"
+        ],
+        "affiliations": [
+          "Institute for Quantitative Health Science and Engineering, Michigan State University, East Lansing, MI, USA.",
+          "Department of Pharmacology and Toxicology, Michigan State University, East Lansing, MI, USA.",
+          "Institute for Integrative Toxicology, Michigan State University, East Lansing, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Tischkau, Shelley",
+        "short_name": "Tischkau S",
+        "identifiers": [
+          "0000-0002-8016-6398"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, Southern Illinois University School of Medicine, Springfield, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Bhattacharya, Sudin",
+        "short_name": "Bhattacharya S",
+        "identifiers": [
+          "0000-0002-2360-1672"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Michigan State University, East Lansing, MI, USA. sbhattac@msu.edu.",
+          "Institute for Quantitative Health Science and Engineering, Michigan State University, East Lansing, MI, USA. sbhattac@msu.edu.",
+          "Department of Pharmacology and Toxicology, Michigan State University, East Lansing, MI, USA. sbhattac@msu.edu.",
+          "Institute for Integrative Toxicology, Michigan State University, East Lansing, MI, USA. sbhattac@msu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2023 May 12",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/13 15:12",
+    "fetched_at": "2026-09-29 00:14:05"
+  },
+  "links": {
+    "cites": [
+      "42135507",
+      "41630919",
+      "41440117",
+      "41401424",
+      "41120819",
+      "40766578",
+      "40528171",
+      "40307878",
+      "39959169",
+      "39864535",
+      "39401086",
+      "38962441",
+      "38299593",
+      "38229522"
+    ],
+    "refs": [
+      "37707797",
+      "33767912",
+      "31557726",
+      "31095599",
+      "30804225",
+      "29439024",
+      "29425488",
+      "29326300",
+      "29165643",
+      "28750606",
+      "28349863",
+      "27546793",
+      "27084946",
+      "27079975",
+      "26895328",
+      "26668005",
+      "26301843",
+      "26213851",
+      "26160164",
+      "25775564",
+      "25349387",
+      "25187560",
+      "25129887",
+      "24530516",
+      "24489365",
+      "24395244",
+      "23703209",
+      "23580255",
+      "23562153",
+      "23229515",
+      "22955990",
+      "22955984",
+      "22936566",
+      "22424232",
+      "22406644",
+      "21106904",
+      "20663846",
+      "20110278",
+      "20006952",
+      "19632181",
+      "19295514",
+      "18802415",
+      "18047721",
+      "17512414",
+      "16987893",
+      "16767079",
+      "15699353",
+      "15173120",
+      "12853946",
+      "9576906"
+    ],
+    "similar": [
+      "37173345",
+      "23229515",
+      "21364973",
+      "22039518",
+      "23580255",
+      "27688755",
+      "22960268",
+      "18282089",
+      "38805270",
+      "15560782",
+      "30012868",
+      "18177499",
+      "23831463",
+      "24395244",
+      "22653727",
+      "27035655",
+      "36675058",
+      "21613214",
+      "26850841",
+      "37093431",
+      "15315827",
+      "25526362",
+      "24196956",
+      "32019867",
+      "17115977",
+      "35871891",
+      "28143926",
+      "22210883",
+      "37551686",
+      "37407816",
+      "35285799",
+      "29300726",
+      "15193144",
+      "24043798",
+      "27814361",
+      "16628007",
+      "33542182",
+      "33443219",
+      "35999195",
+      "12897057",
+      "36376366",
+      "20930143",
+      "34301769",
+      "24270424",
+      "18316400",
+      "16980631",
+      "19414601",
+      "27153104",
+      "26841172",
+      "22913986",
+      "16474407",
+      "27022680",
+      "25228643",
+      "11554928",
+      "11441147",
+      "34807912",
+      "38397147",
+      "9616112",
+      "18252768",
+      "20215567",
+      "18587630",
+      "12397359",
+      "33028638",
+      "37052172",
+      "29534992",
+      "18430226",
+      "16507766",
+      "11326546",
+      "11441146",
+      "34930826",
+      "18454201",
+      "9735336",
+      "24895278",
+      "15147242",
+      "26394143",
+      "20106950",
+      "16687287",
+      "23631200",
+      "12354100",
+      "31527239",
+      "26037310",
+      "27373683",
+      "11687575",
+      "29943823",
+      "24529706",
+      "10931848",
+      "19605937",
+      "31515273",
+      "34341001",
+      "16777965",
+      "35112498",
+      "32101164",
+      "37909373",
+      "30852291",
+      "18075593",
+      "20817722",
+      "34732735",
+      "10652231",
+      "22215613",
+      "16650525"
+    ],
+    "review": [
+      "37173345",
+      "36675058",
+      "35871891",
+      "11326546",
+      "23631200"
+    ],
+    "pmc": [
+      "10182026"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-023-34115-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37173345/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37173345",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

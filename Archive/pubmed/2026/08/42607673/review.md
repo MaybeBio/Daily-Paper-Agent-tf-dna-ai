@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure/table legends
+- **Assessment boundary** Scientific content, methodological soundness, interpretability claims, statistical rigor, and generalizability claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors present interpretable shallow and biophysical neural networks that predict transcriptional activation domain strength and TF abundance from protein sequence. They claim these networks achieve accuracy comparable to deep networks with far fewer parameters, reveal position-dependent grammar signals (C-terminal hydrophobic residues decrease abundance and increase coactivator binding; N-terminal acidic residues promote coactivator binding while C-terminal acidic residues promote abundance), and generalize across datasets including plant transcription factors and a structured protein domain.
+- **Visible evidence base** Main text figures 1-6, supplementary figures S1-S19, supplementary tables S1, methods section, statistical analysis descriptions
+- **Missing materials affecting confidence** Raw data files, trained model weights, code repository access, full supplementary document contents, exact hyperparameter search details, and complete derivation of the biophysical model equations
+
+## Reviewer
+- **Overall assessment** This manuscript presents a thoughtful and well-executed approach to improving interpretability of neural networks for transcriptional activation domain prediction. The authors demonstrate that carefully designed shallow networks with biophysical constraints can achieve near-deep-network accuracy while enabling direct parameter visualization and biological interpretation. The key findings regarding position-dependent amino acid grammar, particularly the dual roles of acidic and hydrophobic residues, are biologically plausible and supported by multiple lines of evidence. However, several technical concerns regarding model identifiability, statistical rigor of the permutation tests, and the strength of the generalizability claims need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, intrinsically disordered protein function, and machine learning interpretability for biology would find this work valuable. The approach of embedding biophysical models into neural network architectures offers a template for interpretable AI in molecular biology. The specific findings about activation domain grammar and the relationship between sequence features, coactivator binding, and protein abundance have implications for understanding transcriptional control and for engineering synthetic transcription factors.
+- **Major strengths** The manuscript addresses a significant problem in computational biology, namely the trade-off between prediction accuracy and interpretability. The design of the biophysical neural networks is elegant and principled, building on established models of activation domain function. The authors are appropriately cautious in their interpretations, particularly regarding the equilibrium constants as biophysical measures. The validation across multiple datasets, including a structured protein domain, strengthens the generalizability of the framework. The statistical approach using permutation tests and bootstrapping to assess parameter variability is rigorous and appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the two-state biophysical neural network can separate the contributions of amino acids to coactivator binding versus protein abundance, revealing position-dependent grammar signals.
+  - **Evidence pointer** Figure 3E-F, Figure 4E-F, Supplementary Figures S13-S14
+  - **Concern** The identifiability of the two-state model parameters is not fully established. The authors train separate modules for abundance and binding within the same network, but the degree to which these modules are truly independent is unclear. If the abundance prediction module and the binding prediction module share convolutional features or are trained jointly, the separation of amino acid contributions may be an artifact of the training procedure rather than a true biophysical decomposition. The authors should demonstrate that the two modules do not interfere with each other, for example by comparing the parameters of the biophysical network to those of independently trained single-task networks.
+  - **Why it matters** The central claim of the paper is that the biophysical network architecture enables the deconvolution of amino acid functions. If the two tasks are not cleanly separated, the biological interpretations drawn from the network parameters may be misleading.
+  - **Resolution test** Train the abundance and binding modules independently and compare the resulting parameter estimates to those from the joint model. Additionally, perform a parameter recovery simulation where synthetic data with known amino acid effects are generated from the biophysical model, and verify that the network can recover the true parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors use permutation tests to assess the statistical significance of network parameters, reporting adjusted p-values for amino acid weights.
+  - **Evidence pointer** Supplementary Figures S3, S6, S13, Methods section "Statistical tests of NN parameters"
+  - **Concern** The permutation test procedure is described but the details are insufficient to assess its validity. Specifically, the authors state that they shuffle data labels together within each dataset split, but it is unclear how many permutations were performed, whether the null distribution was computed for each network or pooled across networks, and how the test statistic accounts for the correlation structure between amino acid positions. Given that the network parameters are not independent, the permutation test may produce anti-conservative p-values. The authors should provide more detail on the permutation procedure and consider alternative approaches such as a block bootstrap that respects the sequence structure.
+  - **Why it matters** The statistical significance claims underpin the biological conclusions about which amino acids matter for activation domain function. If the p-values are not valid, the conclusions may not be robust.
+  - **Resolution test** Provide the full permutation test details including number of permutations, null distribution construction, and handling of multiple testing. Perform a sensitivity analysis using different numbers of permutations and alternative null models to confirm the stability of the significance calls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors claim the biophysical neural network framework generalizes to other datasets, including plant transcription factors and a structured protein domain.
+  - **Evidence pointer** Figure 6A-C, Supplementary Table S1
+  - **Concern** The generalizability claims are based on a limited set of external datasets. The plant transcription factor dataset is described as nearly identical in design to the original screen, which limits the strength of the generalization claim. The structured protein application to PSD95 is a useful proof of concept, but the authors note that the model required a different convolutional filter size and the interpretation of the parameters differs from the disordered protein case. The claim that the framework is a "versatile platform" is somewhat overstated given these caveats. The authors should temper the generalizability claim or provide additional evidence from more diverse datasets.
+  - **Why it matters** The broader impact of the work depends on whether the framework can be applied to diverse biological problems. Overstating the generalizability could mislead readers about the scope of applicability.
+  - **Resolution test** Either add additional external validation datasets with more diverse sequence characteristics, or revise the generalizability claims to more accurately reflect the current evidence.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability
+  - **Claim pointer** The authors state that the biophysical neural networks help interpret the post-hoc interpretations of deeper networks, revealing position-dependent amino acid contributions in deep networks.
+  - **Evidence pointer** Figure 5A-B, Supplementary Figure S17
+  - **Concern** The comparison between the biophysical network parameters and the DeepLIFT scores of the deep network is qualitative. The authors show that both approaches identify position-dependent effects, but the quantitative agreement is not assessed. It is possible that the deep network is capturing different features than the biophysical network, and the apparent agreement is coincidental. The authors should provide a quantitative comparison, such as a correlation between the biophysical network weights and the DeepLIFT scores across positions and amino acids.
+  - **Why it matters** The claim that biophysical networks can "interpret the interpreters" is a key contribution of the paper. Without a quantitative assessment, this claim is not fully supported.
+  - **Resolution test** Compute a quantitative similarity metric between the biophysical network parameters and the deep network attribution scores, and report the results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1B
+  - **Evidence pointer** Figure 1B
+  - **Issue** The schematic of the network architecture is difficult to follow. The flow of information from the input sequence through the convolutional filter, activation function, and linear layer to the final prediction is not clearly indicated.
+  - **Required correction** Add arrows or labels to clarify the data flow and indicate which components are shared between the abundance and binding prediction modules.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Neural Network training"
+  - **Evidence pointer** Methods section
+  - **Issue** The hyperparameter search procedure is not described. The authors state that they varied the convolutional filter size and random seed, but do not report how other hyperparameters such as learning rate, batch size, and number of training epochs were selected.
+  - **Required correction** Provide a description of the hyperparameter search or state that default values were used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the three-state model is brief and somewhat dismissive. Given that the three-state model is a formalization of the authors' own acidic exposure model, the failure of this model to provide interpretable parameters deserves more discussion. The authors should address whether this failure reflects a problem with the model itself or with the network architecture used to implement it.
+  - **Required correction** Expand the discussion of the three-state model results and their implications for the acidic exposure model.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section
+  - **Issue** The authors state that code is available on GitHub, but no repository link or accession number is provided in the manuscript.
+  - **Required correction** Provide the GitHub repository URL or a statement about data and code availability.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns that need to be resolved. The identifiability of the two-task decomposition and the validity of the permutation tests are essential to the core claims of the paper. R1-M3 and R1-M4 are important but less critical.
+- **Assessment against Nature-style criteria** Originality: The work is original in its combination of biophysical modeling with neural network architecture design for intrinsically disordered proteins. The specific finding of position-dependent grammar for acidic and hydrophobic residues adds new knowledge. Scientific importance: The work addresses a fundamental question in transcriptional regulation, namely how sequence features of activation domains control function through coactivator binding and protein stability. The framework has potential broader applicability. Interdisciplinary readership: The work bridges machine learning, biophysics, and molecular biology, and should appeal to readers across these fields. Technical soundness: The technical approach is generally sound, but the identifiability and statistical concerns noted above need to be addressed. Readability for nonspecialists: The manuscript is well-written and accessible, with clear explanations of the network architecture and biophysical models. The methods section includes helpful explanations of how the network layers function.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a valuable contribution to interpretable machine learning for biology, with biologically meaningful findings. However, the identifiability of the two-task decomposition and the validity of the permutation tests must be established before the core claims can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that the biophysical neural network "separates" the roles of amino acids in coactivator binding versus protein abundance is not fully supported without demonstrating that the two modules are identifiable and do not interfere.
+- The claim that the framework is a "versatile platform" for interpretable machine learning is somewhat overstated given the limited external validation.
+- The claim that the biophysical network helps interpret deep network attributions is not quantitatively supported.
+- The biological interpretation of the three-state model parameters is not supported due to the inconsistency of the learned parameters.
+- The claim that the ShallowNN detects "known features" of activation domains is supported, but the novelty of this finding is limited.

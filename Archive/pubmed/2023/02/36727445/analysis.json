@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36727445",
+  "title": "Predictive model of transcriptional elongation control identifies trans regulatory factors from chromatin signatures.",
+  "authors": "Akcan, Toray S; Vilov, Sergey; Heinig, Matthias",
+  "journal": "Nucleic acids research",
+  "published_date": "2023-02-03",
+  "window": {
+    "start": "2023-01-30",
+    "end": "2023-02-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习模型从染色质特征预测Pol II暂停，虽涉及转录调控因子但非蛋白质-DNA互作建模，方法为特征贡献分析而非AI/物理模拟结合建模，与TF-DNA互作课题关联较弱。",
+  "abstract": "Promoter-proximal Polymerase II (Pol II) pausing is a key rate-limiting step for gene expression. DNA and RNA-binding trans-acting factors regulating the extent of pausing have been identified. However, we lack a quantitative model of how interactions of these factors determine pausing, therefore the relative importance of implicated factors is unknown. Moreover, previously unknown regulators might exist. Here we address this gap with a machine learning model that accurately predicts the extent of promoter-proximal Pol II pausing from large-scale genome and transcriptome binding maps and gene annotation and sequence composition features. We demonstrate high accuracy and generalizability of the model by validation on an independent cell line which reveals the model's cell line agnostic character. Model interpretation in light of prior knowledge about molecular functions of regulatory factors confirms the interconnection of pausing with other RNA processing steps. Harnessing underlying feature contributions, we assess the relative importance of each factor, quantify their predictive effects and systematically identify previously unknown regulators of pausing. We additionally identify 16 previously unknown 7SK ncRNA interacting RNA-binding proteins predictive of pausing. Our work provides a framework to further our understanding of the regulation of the critical early steps in transcriptional elongation.",
+  "abstract_zh": "启动子近端聚合酶II（Pol II）暂停是基因表达的关键限速步骤。已鉴定出调控暂停程度的DNA和RNA结合反式作用因子。然而，我们缺乏一个定量模型来描述这些因子的相互作用如何决定暂停，因此所涉及因子的相对重要性尚不清楚。此外，可能存在先前未知的调控因子。在此，我们通过一个机器学习模型解决了这一空白，该模型能从大规模基因组和转录组结合图谱、基因注释及序列组成特征中准确预测启动子近端Pol II暂停的程度。我们通过在独立细胞系上的验证证明了模型的高准确性和泛化能力，这揭示了该模型的细胞系无关特性。结合调控因子分子功能的先验知识对模型进行解释，确认了暂停与其他RNA加工步骤的相互关联。利用潜在的特征贡献，我们评估了每个因子的相对重要性，量化了它们的预测效应，并系统地识别了先前未知的暂停调控因子。我们还鉴定出16个先前未知的、预测暂停的7SK非编码RNA相互作用RNA结合蛋白。我们的工作为加深对转录延伸关键早期步骤调控的理解提供了一个框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36727445/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36727445/",
+  "paper_page_path": "papers/pubmed/36727445/index.html"
+}

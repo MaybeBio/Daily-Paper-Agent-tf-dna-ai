@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, author contributions, acknowledgements)
+- **Assessment boundary** Scientific content and technical soundness of the claims as presented; no assessment of formatting or editorial fit
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to show that the bacterial protein HU binds DNA through a multi-step process: initial weak electrostatic contacts via extended β-ribbon arms, followed by protein reorientation/rolling, and finally transition to a specific high-affinity complex facilitated by DNA bendability. They propose a "concerted" binding mechanism and suggest general applicability to other DNA-binding proteins.
+- **Visible evidence base** Simulation trajectories (replicas 0-10), hydrogen bond analyses, DNA bending angle measurements, comparison with two experimental crystal structures (PDB 4YEW, 1P78)
+- **Missing materials affecting confidence** Supplementary figures and movies referenced but not provided; no simulation convergence metrics; no error analysis beyond standard deviations for bending angles; no control simulations with mutated residues
+
+## Reviewer
+- **Overall assessment** The manuscript presents an interesting application of all-atom simulations to study protein-DNA binding mechanisms, with the HU protein as a case study. The authors capture multiple spontaneous binding events and propose a plausible multi-step mechanism. However, the evidence base is limited to a small number of simulation replicas, and several key claims regarding the "concerted" mechanism and generalizability to other proteins are not fully supported by the data presented. The work is potentially valuable but requires additional validation and more rigorous analysis to establish the case.
+- **Who would be interested in the results, and why** Researchers in molecular biophysics, computational biology, and protein-DNA interactions would find this work relevant. The demonstration that all-atom simulations can capture binding events is methodologically significant. The proposed multi-step binding mechanism and the "concerted" model could inform future experimental and computational studies of DNA-binding proteins, particularly architectural factors.
+- **Major strengths** 1) Use of state-of-the-art all-atom simulations to capture spontaneous protein-DNA binding events, which is technically challenging. 2) Integration of two experimental crystal structures to validate simulation outcomes. 3) The proposed multi-step mechanism provides a coherent framework linking weak electrostatic contacts, protein reorientation, and DNA flexibility. 4) Clear articulation of a testable hypothesis regarding the role of positively charged regions and DNA bendability in target recognition.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We find that weak contacts mediated by only a few positively charged residues enable initial binding, followed by facilitated diffusion and transient rolling on DNA."
+  - **Evidence pointer** Results section, replicas 0-7; Figure 3
+  - **Concern** The claim that weak electrostatic contacts enable initial binding is based on a limited number of simulation replicas (10 total, with 3 showing no binding). The authors identify Arg61 and Lys67 as key residues, but no mutational analysis or systematic variation of ionic strength is provided to confirm the electrostatic nature of these interactions. The "rolling" mechanism is inferred from visual inspection of trajectories, but no quantitative analysis of rotational dynamics or free energy barriers is presented.
+  - **Why it matters** The central mechanistic claims rest on a small number of stochastic events. Without additional replicas, free energy calculations, or mutational controls, the robustness and generalizability of the proposed mechanism cannot be established.
+  - **Resolution test** Provide additional replicas (at least 20-30) with statistical analysis of binding pathways; perform alchemical or umbrella sampling calculations to quantify binding free energies; include simulations with mutated Arg61/Lys67 to confirm their role.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The transition to specific binding only occurs at the DNA target site, helped by its bendability, indicating a 'concerted' binding mechanism between the protein and DNA."
+  - **Evidence pointer** Results section, "DNA bendability facilitates transition to specific binding"; Figure 5
+  - **Concern** The claim that the transition to specific binding only occurs with damaged DNA is based on a single 2 µs simulation. The authors state that HU "remained trapped interacting with the DNA backbone" and did not fully complete the transition to the specific binding mode. The comparison between damaged and undamaged DNA is limited to one trajectory each, and the bending angle measurements show large standard deviations. The "concerted" mechanism is proposed as a middle ground between induced fit and conformational selection, but no quantitative framework or statistical test is provided to distinguish these models.
+  - **Why it matters** The central conclusion regarding the role of DNA flexibility in target recognition is based on limited sampling and incomplete transition. Without multiple independent trajectories and a more rigorous analysis of the conformational landscape, the "concerted" mechanism remains speculative.
+  - **Resolution test** Run multiple independent simulations (at least 5) for both damaged and undamaged DNA systems; perform enhanced sampling (e.g., metadynamics) to map the free energy surface; quantify the transition kinetics and compare with theoretical models for induced fit vs. conformational selection.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "We anticipate that other DNA-binding proteins with multiple surface-charged regions and DNA-bend induction capability might follow a similar strategy."
+  - **Evidence pointer** Discussion section
+  - **Concern** The generalization to other DNA-binding proteins is speculative and not supported by any comparative analysis. The authors mention Nhp6A and p53 but do not provide simulations or structural comparisons to substantiate the claim that these proteins would follow a similar mechanism.
+  - **Why it matters** The broader significance of the work depends on the generalizability of the proposed mechanism. Without evidence from other protein systems, the claim remains an untested hypothesis.
+  - **Resolution test** Perform simulations with at least one additional DNA-binding protein (e.g., Nhp6A or a related architectural factor) to test whether the multi-step mechanism is conserved; or provide a structural bioinformatics analysis comparing surface charge distributions and DNA-bending capabilities across protein families.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, simulation setup
+  - **Evidence pointer** Materials and Methods, "The heterodimer HU was placed 3 nm away from a 60-bp DNA fragment"
+  - **Issue** The choice of 3 nm initial separation is justified by the Debye–Hückel screening length, but the rationale for the specific DNA sequence used in the binding simulations is not explained. The sequence appears to be derived from the damaged DNA construct, but this is not stated clearly.
+  - **Required correction** Clarify the origin and rationale for the DNA sequence used in the binding simulations, and state whether the same sequence was used for all replicas.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Results section, hydrogen bond analysis
+  - **Evidence pointer** Results, "HU's residues involved in the process of DNA binding"; Figure 3B
+  - **Issue** The hydrogen bond analysis is presented as time-averaged values, but the criteria for defining a hydrogen bond (distance and angle cutoffs) are only given in the Methods. The authors do not report the occupancy or persistence of specific hydrogen bonds, which would strengthen the analysis.
+  - **Required correction** Provide occupancy values for key hydrogen bonds (e.g., Lys3, Lys18, Lys83) and discuss their persistence across the simulation trajectories.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results section, replica descriptions
+  - **Evidence pointer** Results, "HU hops and jumps DNA via its β-ribbon arms that serve as antennae"
+  - **Issue** The descriptions of individual replicas are qualitative and somewhat anecdotal. A summary table of binding outcomes across all replicas (e.g., binding site, duration, outcome) would improve clarity and reproducibility.
+  - **Required correction** Add a summary table or figure listing all replicas, their outcomes, and key events (binding, hopping, jumping, dissociation).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results section, DNA bending measurements
+  - **Evidence pointer** Results, "DNA bendability facilitates transition to specific binding"
+  - **Issue** The bending angle measurements are reported as mean ± standard deviation, but the number of independent measurements and the time window over which they were averaged are not specified. This limits the interpretability of the comparison between damaged and undamaged DNA.
+  - **Required correction** Specify the number of frames and time windows used for bending angle calculations, and consider reporting confidence intervals or performing a statistical test for the comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (insufficient replicas and lack of mutational controls for the electrostatic binding claim); R1-M2 (single trajectory for the transition claim and incomplete transition to specific binding)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of all-atom simulations to capture spontaneous protein-DNA binding is not entirely new, but the specific focus on HU and the multi-step mechanism provides some novelty.
+  - Scientific importance: Moderate. The work addresses a fundamental question in protein-DNA recognition, but the limited evidence base reduces the impact.
+  - Interdisciplinary readership: Moderate. The topic is relevant to biophysics, computational biology, and molecular biology, but the technical nature of the simulations may limit broader appeal.
+  - Technical soundness: Weak. The small number of replicas and lack of rigorous statistical or free energy analysis undermine confidence in the central claims.
+  - Readability for nonspecialists: Good. The manuscript is clearly written and the figures are well described, though some technical details may be challenging for non-experts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis and preliminary simulation data, but the central claims regarding the multi-step binding mechanism and the "concerted" model require additional validation through more extensive sampling, mutational analysis, and quantitative free energy calculations.
+
+## Risk / unsupported claims
+- The claim that the "concerted" mechanism is distinct from induced fit and conformational selection is not quantitatively supported.
+- The generalization to other DNA-binding proteins (Nhp6A, p53) is speculative and not tested.
+- The assertion that the most positively charged region being hidden prevents trapping is inferred but not directly demonstrated.
+- The statement that "weak electrostatic interactions are essential" is not supported by control simulations with altered ionic strength or mutated residues.
+- The claim that the transition to specific binding "only occurs" with damaged DNA is based on a single trajectory and is therefore not statistically robust.

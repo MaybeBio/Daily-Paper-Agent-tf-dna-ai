@@ -1,0 +1,509 @@
+{
+  "identity": {
+    "pmid": "41465897",
+    "doi": "10.1097/MD.0000000000047116",
+    "title": "Identification and experimental validation of biomarkers associated with paraptosis in meningioma."
+  },
+  "content": {
+    "abstract": "Research suggests that programmed cell death may play a key role in meningioma, yet the mechanisms involving paraptosis-related genes (PRGs) remain unclear. This study aimed to identify biomarkers for meningioma that were associated with PRGs, providing new targets and strategies for therapeutic intervention. Meningioma-related datasets (GSE43290 and GSE77259) were retrieved from public databases. Initially, candidate genes were identified by overlapping PRGs with differentially expressed genes (tumor vs control). Biomarkers were then ascertained through protein-protein interaction (PPI) analysis and gene expression analysis. To further investigate the biological mechanisms of these biomarkers, functional enrichment, regulatory network, drug prediction, molecular docking, and reverse transcription quantitative polymerase chain reaction analyses were conducted. The design and implementation of this study strictly adhered to internationally recognized research standards and relevant regulations: Clinical procedures and sample collection complied with the Declaration of Helsinki, Chinese medical regulations, and the ethical review standards of the First Hospital of Lanzhou University. Data management followed GDPR requirements for anonymization and storage. The study identified ITPR3, MAPK1, and MAPK8 as biomarkers for meningioma. ITPR3 was found to be upregulated in tumor samples, while MAPK1 and MAPK8 exhibited significantly reduced expression in tumor samples. Meanwhile, reverse transcription quantitative polymerase chain reaction analysis confirmed these findings. Evidently, biomarkers were predominantly enriched in the \"olfactory transduction\" pathway. Regulatory network analysis predicted 130, 138, and 123 transcription factors targeting ITPR3, MAPK1, and MAPK8, respectively. Notably, SMAD3 was found to co-target all 3 biomarkers. Additionally, interactions involving MAPK1-\"hsa-miR-130a-3p\"-MIR17HG, MAPK8-\"hsa-miR-32-5p\"-NORAD, and ITPR3-\"hsa-miR-506-3p\"-MALAT1 were identified. Furthermore, drug prediction analysis suggested that tamoxifen could co-target these 3 biomarkers, with ITPR3 and tamoxifen exhibiting the strongest binding energy of -9.0 kcal/mol. ITPR3, MAPK1, and MAPK8 are biomarkers for meningioma, all targeted by SMAD3. Tamoxifen could treat meningioma by affecting paraptosis pathways, offering a promising basis for targeted therapy development.",
+    "keywords": [
+      "biomarkers",
+      "meningioma",
+      "paraptosis",
+      "paraptosis-related genes",
+      "tamoxifen"
+    ],
+    "mesh_terms": [
+      "*Meningioma/genetics/pathology",
+      "Humans",
+      "*Meningeal Neoplasms/genetics",
+      "*Biomarkers, Tumor/genetics",
+      "Molecular Docking Simulation",
+      "Protein Interaction Maps",
+      "Gene Expression Regulation, Neoplastic",
+      "Paraptosis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Haotian",
+        "Ding, Ruiwen",
+        "Zheng, Yu",
+        "Wang, Dawen",
+        "Deng, Tingzhen",
+        "Wu, Zhi",
+        "Li, Lichao",
+        "Ma, Xingyuan",
+        "Cheng, Chenhang",
+        "Zhang, Yuhang",
+        "Luo, Yicheng",
+        "Zhang, Hengwen",
+        "Chen, Yueyang",
+        "Yu, Yue",
+        "Hou, Wei",
+        "Ding, Tao",
+        "Xie, Min",
+        "Bai, Xiaomin",
+        "Yang, Haijun",
+        "Wang, Yatao",
+        "Zheng, Maohua"
+      ],
+      "short_names": [
+        "Li H",
+        "Ding R",
+        "Zheng Y",
+        "Wang D",
+        "Deng T",
+        "Wu Z",
+        "Li L",
+        "Ma X",
+        "Cheng C",
+        "Zhang Y",
+        "Luo Y",
+        "Zhang H",
+        "Chen Y",
+        "Yu Y",
+        "Hou W",
+        "Ding T",
+        "Xie M",
+        "Bai X",
+        "Yang H",
+        "Wang Y",
+        "Zheng M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, Beijing Tiantan Hospital, Capital Medical University, Beijing, China.",
+        "School of Health Management, Fujian Medical University, Fuzhou, China.",
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China.",
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+        "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Haotian",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Ruiwen",
+        "short_name": "Ding R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Beijing Tiantan Hospital, Capital Medical University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yu",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Health Management, Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dawen",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Tingzhen",
+        "short_name": "Deng T",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhi",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lichao",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xingyuan",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Chenhang",
+        "short_name": "Cheng C",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuhang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Yicheng",
+        "short_name": "Luo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hengwen",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yueyang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yue",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Wei",
+        "short_name": "Hou W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Tao",
+        "short_name": "Ding T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Min",
+        "short_name": "Xie M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Xiaomin",
+        "short_name": "Bai X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Haijun",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yatao",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Maohua",
+        "short_name": "Zheng M",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou, Gansu Province, China.",
+          "Department of Neurosurgery, The First Hospital of Lanzhou University, Lanzhou, Gansu Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2025 Dec 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/30 07:40",
+    "fetched_at": "2026-10-01 10:12:08"
+  },
+  "links": {
+    "cites": [
+      "41828458"
+    ],
+    "refs": [
+      "39270020",
+      "38943923",
+      "38943117",
+      "38868715",
+      "38753473",
+      "38695575",
+      "38358093",
+      "38177306",
+      "37916326",
+      "37866481",
+      "37793125",
+      "37660060",
+      "37397502",
+      "37131239",
+      "36852464",
+      "36624500",
+      "35914649",
+      "35914143",
+      "35751589",
+      "35580861",
+      "35487218",
+      "34772393",
+      "34518526",
+      "34418232",
+      "33573671",
+      "33213267",
+      "33086249",
+      "32716568",
+      "31249531",
+      "31133044",
+      "28614300",
+      "25642792",
+      "25605792",
+      "23937229",
+      "22455463",
+      "20853018",
+      "19816200",
+      "19747051",
+      "16319713",
+      "15832773",
+      "14597658"
+    ],
+    "similar": [
+      "41465897",
+      "32832554",
+      "34772393",
+      "41268559",
+      "38500077",
+      "41208649",
+      "29128636",
+      "38445368",
+      "41350331",
+      "36538194",
+      "39080630",
+      "32125436",
+      "41094022",
+      "39066954",
+      "40943185",
+      "39512836",
+      "32299382",
+      "41061391",
+      "40779572",
+      "31692066",
+      "28327132",
+      "41300749",
+      "31788082",
+      "35313857",
+      "40068024",
+      "39514545",
+      "32720739",
+      "41272205",
+      "32912111",
+      "40424981",
+      "38717954",
+      "30390708",
+      "28340489",
+      "41354822",
+      "41442003",
+      "39874008",
+      "41305716",
+      "38839916",
+      "33407587",
+      "41009755",
+      "27558167",
+      "32462972",
+      "40287845",
+      "24724603",
+      "22674195",
+      "39028999",
+      "30849635",
+      "40019713",
+      "30865617",
+      "32031354",
+      "35390032",
+      "22137483",
+      "40370590",
+      "38444712",
+      "28927412",
+      "39093629",
+      "39611935",
+      "25783051",
+      "36291136",
+      "40826767",
+      "41272189",
+      "38310566",
+      "41167410",
+      "41261618",
+      "33954190",
+      "19703993",
+      "30509082",
+      "38960944",
+      "39280960",
+      "39820173",
+      "41102315",
+      "23840654",
+      "40441009",
+      "38771413",
+      "30258285",
+      "41050085",
+      "40233623",
+      "40469433",
+      "39184354",
+      "40355485",
+      "25738263",
+      "39433267",
+      "39238829",
+      "40522564",
+      "40127075",
+      "41291892",
+      "37980270",
+      "27932553",
+      "32435051",
+      "32597160",
+      "41190071",
+      "35275451",
+      "34163322",
+      "37833759",
+      "40496867",
+      "41013856",
+      "40999058",
+      "35026514",
+      "40790764",
+      "21948653"
+    ],
+    "review": [
+      "41465897",
+      "28927412"
+    ],
+    "pmc": [
+      "12746925"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41465897.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41465897/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-870",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000047116",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

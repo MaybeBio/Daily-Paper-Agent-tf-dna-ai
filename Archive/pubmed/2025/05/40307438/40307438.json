@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "40307438",
+    "doi": "10.1038/s41598-025-99648-8",
+    "title": "Transcriptome associated with single-cell analysis reveal the role of S-palmitoylation in coronary artery disease."
+  },
+  "content": {
+    "abstract": "Coronary artery disease (CAD), a widespread cardiovascular ailment, exhibits a strong association with palmitoylation. This research aimed to elucidate the role of S-palmitoylation in CAD through bioinformatics, providing novel perspectives on the mechanism underlying CAD. By intersecting differentially expressed genes with weighted gene co-expression network analysis (WGCNA) from the GSE113079 dataset, 534 differentially expressed palmitoylation-related genes (DE-PRGs) were identified. Protein-protein interaction (PPI) network analysis, in conjunction with machine learning algorithms and immune infiltration analysis utilizing CIBERSORT, identified CXCL12, KRTAP4-7, and PPP2R2B as pivotal hub genes in CAD progression with significant immune links. Enrichment analyses revealed their predominant roles in immune regulation. Nomogram and ROC curve analyses revealed robust diagnostic predictive capabilities grounded in the three hub genes. A regulatory network involving the transcription factor HDAC2 and miRNA hsa-mir-23a-3p was predicted. Single-cell sequencing (GSE121893) further highlighted endothelial cells, fibroblasts, and macrophages as central cellular interactors, with significant crosstalk among these populations. These findings positioned CXCL12, KRTAP4-7 and PPP2R2B as key palmitoylated hub genes in CAD, thereby offering dual potential as diagnostic markers and therapeutic targets.",
+    "keywords": [
+      "CAD",
+      "Hub genes",
+      "Immune infiltration",
+      "S-palmitoylation",
+      "Single-cell analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Coronary Artery Disease/genetics/metabolism/pathology",
+      "*Single-Cell Analysis/methods",
+      "*Transcriptome",
+      "*Lipoylation",
+      "Gene Regulatory Networks",
+      "Protein Interaction Maps/genetics",
+      "MicroRNAs/genetics",
+      "Protein Phosphatase 2/genetics/metabolism",
+      "Chemokine CXCL12/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Computational Biology/methods",
+      "Histone Deacetylase 2/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xing, Yiming",
+        "Lin, Xianhe"
+      ],
+      "short_names": [
+        "Xing Y",
+        "Lin X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Cardiology Department, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, Anhui, China.",
+        "Cardiology Department, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, Anhui, China. xianhe_lin@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xing, Yiming",
+        "short_name": "Xing Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology Department, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Xianhe",
+        "short_name": "Lin X",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology Department, The First Affiliated Hospital of Anhui Medical University, Hefei, 230022, Anhui, China. xianhe_lin@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Apr 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/01 00:27",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [
+      "42047720",
+      "41403700"
+    ],
+    "refs": [
+      "39730853",
+      "39417505",
+      "38518152",
+      "38514598",
+      "38415253",
+      "38395240",
+      "38234846",
+      "38129535",
+      "37978524",
+      "37951219",
+      "37865665",
+      "37827697",
+      "37004843",
+      "36919162",
+      "36725964",
+      "36368511",
+      "35966557",
+      "35542976",
+      "35500650",
+      "34218797",
+      "33624421",
+      "33407498",
+      "33195466",
+      "32789573",
+      "31992061",
+      "31649195",
+      "30686944",
+      "30012324",
+      "29292991",
+      "29082918",
+      "28196865",
+      "26339475",
+      "25867923",
+      "25605792",
+      "23323831",
+      "22369142",
+      "22064431",
+      "21414208",
+      "20808728",
+      "19114008",
+      "17496320",
+      "14597658"
+    ],
+    "similar": [
+      "40307438",
+      "39875572",
+      "39080630",
+      "39512836",
+      "39501130",
+      "39080525",
+      "34530741",
+      "33758323",
+      "38987624",
+      "39341952",
+      "39991151",
+      "38863714",
+      "39375405",
+      "38268224",
+      "38839916",
+      "38880872",
+      "39833772",
+      "40196107",
+      "39367003",
+      "39586719",
+      "31881747",
+      "40328901",
+      "35016690",
+      "39592804",
+      "35558576",
+      "30269354",
+      "39205467",
+      "39139563",
+      "39671358",
+      "39749331",
+      "38573982",
+      "32888289",
+      "37691276",
+      "39234248",
+      "39090590",
+      "40210656",
+      "38987688",
+      "39844282",
+      "39123080",
+      "26936111",
+      "38319987",
+      "35799780",
+      "33506919",
+      "39188714",
+      "38899746",
+      "38690269",
+      "33511207",
+      "40016711",
+      "38660311",
+      "39496786",
+      "38902567",
+      "39438957",
+      "33407587",
+      "37075605",
+      "39953769",
+      "39853851",
+      "34218797",
+      "39798208",
+      "36222281",
+      "34215202",
+      "38691241",
+      "38749785",
+      "34552562",
+      "39396400",
+      "31605122",
+      "34861820",
+      "39673621",
+      "38873601",
+      "40216809",
+      "40147738",
+      "39346078",
+      "34789641",
+      "39478056",
+      "31075415",
+      "38912048",
+      "40188118",
+      "38941374",
+      "38711508",
+      "39050860",
+      "38453824",
+      "38073349",
+      "39142001",
+      "38946402",
+      "38815767",
+      "40091022",
+      "35392084",
+      "39284931",
+      "39028999",
+      "39086489",
+      "39406802",
+      "26944061",
+      "39553308",
+      "38629070",
+      "38919616",
+      "39845946",
+      "40313967",
+      "39473404",
+      "40108736",
+      "30015926",
+      "33639954"
+    ],
+    "review": [
+      "40307438",
+      "34530741"
+    ],
+    "pmc": [
+      "12043807"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/coronaryarterydisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Coronary Artery Disease"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-99648-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40307438/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-323",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

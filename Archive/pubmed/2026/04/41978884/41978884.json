@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "41978884",
+    "doi": "10.7717/peerj.21059",
+    "title": "Functional network analysis in hepatolithiasis: identifying novel therapeutic targets through whole-exome sequencing."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hepatolithiasis (HL) is a prevalent condition in hepatobiliary surgery, often complicated by hepatatrophia. This study aimed to identify gene mutations in HL specimens with hepatatrophia and construct a mutation landscape using whole-exome sequencing (WES). METHODS: Genetic variants and copy number variations (CNVs) were compared between HL (n = 10) and normal control (NC, n = 10) specimens, encompassing 20 participants in total, using WES data. Hub genes within HL specimens were identified via the GeneCards database. The mutation frequencies and interaction patterns of these hub genes were explored, and their potential molecular mechanisms were assessed. A competing endogenous RNA (ceRNA) network and a transcription factor (TF)-mRNA network were established to clarify the regulatory mechanisms of hub genes. Therapeutic drugs targeting these hub genes were predicted using the DrugBank database, and molecular docking assessed the binding energies. Finally, hub gene expression was validated through reverse-transcription quantitative PCR (RT-qPCR). RESULTS: Seven hub genes (TMEM150B, TNIP1, ATRN, FAAH, FBXW4, RAX, and WNT8B) were identified as uniquely mutated in HL specimens, with TMEM150B exhibiting the highest mutation frequency. The concurrent mutations of these genes are likely associated with the pathogenesis of HL combined with hepatatrophia. Functional enrichment analysis indicated that these hub genes are involved in the inflammatory response and Wnt signaling pathway. The ceRNA-TF network revealed that 296 lncRNAs (e.g., C1RL-AS1) regulate six miRNAs (e.g., hsa-miR-195-5p) targeting four hub genes, while 19 TFs (e.g., NFYA, HINFP) also regulate these genes. Furthermore, fostamatinib exhibited the strongest binding affinity with FAAH, with a binding energy of -9.2 kcal/mol, suggesting that it is a promising candidate for further investigation. RT-qPCR confirmed that TMEM150B and FAAH expression levels were reduced in HL samples, while TNIP1, ATRN, FBXW4, and WNT8B were upregulated. Expression of RAX was not reliably detectable. CONCLUSION: This study identified TMEM150B, TNIP1, ATRN, FAAH, FBXW4 and WNT8B as key genes in the development of HL through inflammatory response and Wnt signaling pathways, providing new theoretical insights into therapeutic mechanisms.",
+    "keywords": [
+      "Hepatatrophia",
+      "Hepatolithiasis",
+      "Mutation analysis",
+      "Whole-exome sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Exome Sequencing",
+      "Mutation",
+      "*Gene Regulatory Networks",
+      "DNA Copy Number Variations",
+      "*Liver Diseases/genetics",
+      "Female",
+      "Molecular Docking Simulation",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tang, Dan",
+        "Gu, Xuanyu",
+        "Liu, Dan",
+        "Yang, Jiali",
+        "Zhao, Lijin"
+      ],
+      "short_names": [
+        "Tang D",
+        "Gu X",
+        "Liu D",
+        "Yang J",
+        "Zhao L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Suzhou Medical College of Soochow University, Suzhou, People's Republic of China, Suzhou, China.",
+        "Department of General Surgery, Digestive Disease Hospital, Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, China.",
+        "Hepatobiliary and Pancreatic Surgery, the Second Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, China.",
+        "Department of General Surgery, Digestive Disease Hospital, Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, China.",
+        "Department of General Surgery, Digestive Disease Hospital, Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, China.",
+        "Department of General Surgery, Digestive Disease Hospital, Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, China.",
+        "Department of General Surgery, Digestive Disease Hospital, Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tang, Dan",
+        "short_name": "Tang D",
+        "identifiers": [],
+        "affiliations": [
+          "Suzhou Medical College of Soochow University, Suzhou, People's Republic of China, Suzhou, China.",
+          "Department of General Surgery, Digestive Disease Hospital, Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, China.",
+          "Hepatobiliary and Pancreatic Surgery, the Second Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Xuanyu",
+        "short_name": "Gu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Digestive Disease Hospital, Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Dan",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Digestive Disease Hospital, Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jiali",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Digestive Disease Hospital, Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Lijin",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Digestive Disease Hospital, Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PeerJ"
+    ],
+    "journal_abbrev": [
+      "PeerJ"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/14 06:31",
+    "fetched_at": "2026-10-01 18:32:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40395303",
+      "37759956",
+      "37038131",
+      "36898370",
+      "36795772",
+      "36621889",
+      "36448560",
+      "36369291",
+      "36268295",
+      "36152192",
+      "36106269",
+      "35909347",
+      "35781630",
+      "35475371",
+      "35068796",
+      "35042540",
+      "34945009",
+      "34504346",
+      "34217798",
+      "34000322",
+      "33970459",
+      "33552473",
+      "33497044",
+      "33494322",
+      "33197287",
+      "33068391",
+      "33032406",
+      "32867595",
+      "32383039",
+      "32168787",
+      "31969775",
+      "31691497",
+      "31452108",
+      "30704953",
+      "30451972",
+      "30341162",
+      "30073579",
+      "29559739",
+      "28493104",
+      "28462819",
+      "27600068",
+      "27342457",
+      "27046253",
+      "26947018",
+      "25449087",
+      "24695404",
+      "23658844",
+      "23456678",
+      "23307734",
+      "22805709",
+      "22736936",
+      "22301114",
+      "22214662",
+      "21527027",
+      "21478889",
+      "21340743",
+      "19915526",
+      "19542840",
+      "19505943",
+      "19451168",
+      "18634873",
+      "18217692",
+      "14993747",
+      "14597658",
+      "12700089",
+      "12175629",
+      "11956596",
+      "11788899",
+      "10580100",
+      "10558914",
+      "10405324",
+      "9512805",
+      "8223090",
+      "2793240"
+    ],
+    "similar": [
+      "41978884",
+      "42565562",
+      "41288681",
+      "41533020",
+      "40821971",
+      "33299863",
+      "40425498",
+      "42123445",
+      "41511918",
+      "42104495",
+      "42006143",
+      "40442788",
+      "41530916",
+      "36291136",
+      "41150817",
+      "42180604",
+      "35757392",
+      "35957838",
+      "34743709",
+      "42530267",
+      "41492010",
+      "42109727",
+      "42183235",
+      "41300749",
+      "35909518",
+      "31304055",
+      "34234459",
+      "40216809",
+      "37632659",
+      "30258285",
+      "38994368",
+      "37065602",
+      "36187128",
+      "42027641",
+      "37936118",
+      "36831107",
+      "35747602",
+      "29516510",
+      "41688931",
+      "34844599",
+      "42281618",
+      "42233997",
+      "35545337",
+      "33439992",
+      "34480478",
+      "38242381",
+      "37063926",
+      "39849508",
+      "35401659",
+      "41005317",
+      "34975885",
+      "35832124",
+      "34218797",
+      "36899621",
+      "36793900",
+      "35757478",
+      "36104591",
+      "38062833",
+      "37353041",
+      "38166541",
+      "42421348",
+      "40902508",
+      "40087784",
+      "33868359",
+      "42295138",
+      "34642262",
+      "39802512",
+      "34536521",
+      "33123295",
+      "26826164",
+      "34777635",
+      "41863100",
+      "41450821",
+      "41212370",
+      "42317361",
+      "35322101",
+      "40289127",
+      "35392084",
+      "38783288",
+      "41326554",
+      "33622336",
+      "41694764",
+      "39391879",
+      "42589503",
+      "38524085",
+      "41764152",
+      "33986769",
+      "38268224",
+      "34434654",
+      "38050261",
+      "39704112",
+      "35386284",
+      "41291892",
+      "39251231",
+      "38444712",
+      "41052072",
+      "37878219",
+      "35990977",
+      "36171401",
+      "27798045"
+    ],
+    "review": [
+      "41978884",
+      "38050261"
+    ],
+    "pmc": [
+      "13070319"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/liverdiseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Diseases"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41978884/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7717/peerj.21059",
+        "provider": "PeerJ, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

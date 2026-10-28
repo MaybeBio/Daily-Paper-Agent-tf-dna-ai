@@ -1,0 +1,336 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.11.17.567512",
+  "title": "A meta-analysis of rice phosphoproteomics data to understand variation in cell signalling across the rice pan-genome",
+  "doi": "10.1101/2023.11.17.567512",
+  "abstract": "Phosphorylation is the most studied post-translational modification, and has multiple biological functions. In this study, we have re-analysed publicly available mass spectrometry proteomics datasets enriched for phosphopeptides from Asian rice ( Oryza sativa ). In total we identified 15,522 phosphosites on serine, threonine and tyrosine residues on rice proteins. We identified sequence motifs for phosphosites, and link motifs to enrichment of different biological processes, indicating different downstream regulation likely caused by different kinase groups. We cross-referenced phosphosites against the rice 3,000 genomes, to identify single amino acid variations (SAAVs) within or proximal to phosphosites that could cause loss of a site in a given rice variety. The data was clustered to identify groups of sites with similar patterns across rice family groups, for example those highly conserved in Japonica, but mostly absent in Aus type rice varieties - known to have different responses to drought. These resources can assist rice researchers to discover alleles with significantly different functional effects across rice varieties. The data has been loaded into UniProt Knowledge-Base - enabling researchers to visualise sites alongside other data on rice proteins e.g. structural models from AlphaFold2, PeptideAtlas and the PRIDE database - enabling visualisation of source evidence, including scores and supporting mass spectra.",
+  "authors": [
+    "Ramsbottom KA",
+    "Prakash A",
+    "Riverol YP",
+    "Camacho OM",
+    "Sun Z",
+    "Kundu DJ",
+    "Bowler-Barnett E",
+    "Martin M",
+    "Fan J",
+    "Chebotarov D",
+    "McNally KL",
+    "Deutsch EW",
+    "Vizcaíno JA",
+    "Jones AR"
+  ],
+  "published_date": "2023-11-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.11.17.567512",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.11.17.567512.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR761657",
+    "raw_record": {
+      "id": "PPR761657",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR761657"
+        ]
+      },
+      "doi": "10.1101/2023.11.17.567512",
+      "title": "A meta-analysis of rice phosphoproteomics data to understand variation in cell signalling across the rice pan-genome",
+      "authorString": "Ramsbottom KA, Prakash A, Riverol YP, Camacho OM, Sun Z, Kundu DJ, Bowler-Barnett E, Martin M, Fan J, Chebotarov D, McNally KL, Deutsch EW, Vizcaíno JA, Jones AR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ramsbottom KA",
+            "lastName": "Ramsbottom",
+            "firstName": "Kerry",
+            "initials": "KA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, L69 7BE, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Prakash A",
+            "lastName": "Prakash",
+            "firstName": "Ananth",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, EMBL-European Bioinformatics Institute (EMBL-EBI), Hinxton, Cambridge, CB10 1SD, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Riverol YP",
+            "lastName": "Riverol",
+            "firstName": "Yasset Perez",
+            "initials": "YP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, EMBL-European Bioinformatics Institute (EMBL-EBI), Hinxton, Cambridge, CB10 1SD, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Camacho OM",
+            "lastName": "Camacho",
+            "firstName": "Oscar Martin",
+            "initials": "OM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, L69 7BE, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sun Z",
+            "lastName": "Sun",
+            "firstName": "Zhi",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Systems Biology, Seattle, Washington 98109, United States"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kundu DJ",
+            "lastName": "Kundu",
+            "firstName": "Deepti",
+            "initials": "DJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, EMBL-European Bioinformatics Institute (EMBL-EBI), Hinxton, Cambridge, CB10 1SD, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bowler-Barnett E",
+            "lastName": "Bowler-Barnett",
+            "firstName": "Emily",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, EMBL-European Bioinformatics Institute (EMBL-EBI), Hinxton, Cambridge, CB10 1SD, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martin M",
+            "lastName": "Martin",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, EMBL-European Bioinformatics Institute (EMBL-EBI), Hinxton, Cambridge, CB10 1SD, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fan J",
+            "lastName": "Fan",
+            "firstName": "Jun",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, EMBL-European Bioinformatics Institute (EMBL-EBI), Hinxton, Cambridge, CB10 1SD, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chebotarov D",
+            "lastName": "Chebotarov",
+            "firstName": "Dmytro",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "International Rice Research Institute, DAPO 7777, Manila 1301, Philippines"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McNally KL",
+            "lastName": "McNally",
+            "firstName": "Kenneth",
+            "initials": "KL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "International Rice Research Institute, DAPO 7777, Manila 1301, Philippines"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Deutsch EW",
+            "lastName": "Deutsch",
+            "firstName": "Eric",
+            "initials": "EW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Systems Biology, Seattle, Washington 98109, United States"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vizcaíno JA",
+            "lastName": "Vizcaíno",
+            "firstName": "Juan Antonio",
+            "initials": "JA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, EMBL-European Bioinformatics Institute (EMBL-EBI), Hinxton, Cambridge, CB10 1SD, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jones AR",
+            "lastName": "Jones",
+            "firstName": "Andrew",
+            "initials": "AR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, L69 7BE, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Phosphorylation is the most studied post-translational modification, and has multiple biological functions. In this study, we have re-analysed publicly available mass spectrometry proteomics datasets enriched for phosphopeptides from Asian rice (  Oryza sativa ). In total we identified 15,522 phosphosites on serine, threonine and tyrosine residues on rice proteins.  We identified sequence motifs for phosphosites, and link motifs to enrichment of different biological processes, indicating different downstream regulation likely caused by different kinase groups. We cross-referenced phosphosites against the rice 3,000 genomes, to identify single amino acid variations (SAAVs) within or proximal to phosphosites that could cause loss of a site in a given rice variety. The data was clustered to identify groups of sites with similar patterns across rice family groups, for example those highly conserved in Japonica, but mostly absent in Aus type rice varieties - known to have different responses to drought. These resources can assist rice researchers to discover alleles with significantly different functional effects across rice varieties. The data has been loaded into UniProt Knowledge-Base - enabling researchers to visualise sites alongside other data on rice proteins e.g. structural models from AlphaFold2, PeptideAtlas and the PRIDE database - enabling visualisation of source evidence, including scores and supporting mass spectra.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/S017054/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T019670/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T015691/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/11/17/2023.11.17.567512.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.11.17.567512"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR761657"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR761657&type=FILE&fileName=EMS191327-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS191327",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pfam",
+          "go",
+          "pxd",
+          "uniprot",
+          "interpro",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-11-19",
+      "firstPublicationDate": "2023-11-17",
+      "firstIndexDate": "2023-11-19",
+      "fullTextReceivedDate": "2024-01-04",
+      "hasEvaluations": "N"
+    }
+  }
+}

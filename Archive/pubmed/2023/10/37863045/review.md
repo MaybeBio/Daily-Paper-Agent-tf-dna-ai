@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Full manuscript text, including summary, introduction, results, discussion, experimental procedures, and supplemental figure/table legends as referenced.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors propose that the multi-lineage transcription factor ISL1 achieves cardiac-specific gene regulation through interaction with NKX2.5, supported by genomic occupancy analyses, deep learning motif prediction, and perturbation experiments in human iPSC-derived cardiac progenitors.
+- **Visible evidence base** scRNA-seq, ChIP-seq, BPNet deep learning modeling, co-immunoprecipitation, targeted mass spectrometry, luciferase reporter assays, and CRISPR knockout lines, as described in the text and referenced figures.
+- **Missing materials affecting confidence** Figures S1-S6, Tables S1-S5, and supplemental experimental procedures are referenced but not provided in the submitted material. This limits verification of key quantitative results, statistical details, and method parameters.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in cardiac developmental biology, namely how the multi-lineage transcription factor ISL1 achieves cell-type-specific functions. The combination of genomic occupancy, deep learning-based motif discovery, and experimental validation is methodologically ambitious and largely appropriate. The identification of NKX2.5 as a key partner for ISL1 in cardiac progenitors is a potentially significant advance. However, several concerns regarding the strength of the evidence for direct interaction, the interpretation of the redistribution experiments, and the functional significance of the proposed mechanism require clarification before the conclusions can be fully accepted.
+- **Who would be interested in the results, and why** Researchers in cardiac development, congenital heart disease genetics, transcription factor biology, and computational genomics would find these results of interest. The study provides a framework for understanding how a single transcription factor achieves lineage-specific outcomes through combinatorial interactions, which is relevant to broader questions of cell fate specification and reprogramming.
+- **Major strengths** The study combines multiple complementary approaches, including scRNA-seq, ChIP-seq, deep learning-based motif discovery, and biochemical validation. The use of two distinct cell lineages derived from the same iPSC platform allows for a controlled comparison of lineage-specific ISL1 behavior. The identification of NKX2.5 as a candidate partner is well motivated by both computational prediction and experimental validation. The demonstration that NKX2.5 can redirect ISL1 occupancy in a heterologous cell type is a compelling proof-of-concept.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for direct physical interaction
+  - **Claim pointer** The manuscript claims that ISL1 forms a DNA-binding complex with NKX2.5, implying a direct physical interaction.
+  - **Evidence pointer** Figure 4, Figure S4, "location not provided" for specific co-IP conditions
+  - **Concern** The co-immunoprecipitation data are described but the specific conditions, washes, and controls are not fully detailed in the provided text. The SRM data are from a single experiment (n=1), which limits confidence in the reproducibility of the interaction. The manuscript does not demonstrate that the ISL1-NKX2.5 interaction is direct, as opposed to being mediated by other factors in the complex.
+  - **Why it matters** The central claim of the manuscript is that ISL1 controls cardiomyocyte fate through interaction with NKX2.5. If the interaction is indirect or not reproducible, the mechanistic model would need substantial revision.
+  - **Resolution test** Provide additional replicates of the co-IP and SRM experiments, include appropriate negative controls (e.g., a non-interacting TF), and perform an in vitro binding assay (e.g., pull-down with recombinant proteins) to demonstrate direct interaction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal evidence for NKX2.5 in directing ISL1 occupancy
+  - **Claim pointer** The manuscript claims that NKX2.5 is necessary and sufficient to localize ISL1 to a subset of genomic regions.
+  - **Evidence pointer** Figure 6, "location not provided" for quantification details
+  - **Concern** The loss-of-function experiment (ISL1 ChIP-seq in NKX2.5-/- cells) shows a reduction in ISL1 binding at some loci, but the manuscript does not clearly demonstrate that the lost peaks are specifically those that depend on NKX2.5, as opposed to indirect effects of NKX2.5 loss on cell state. The gain-of-function experiment (NKX2.5 overexpression in MNPs) shows redistribution of ISL1 to some cardiac loci, but the functional consequences of this redistribution are not assessed. The manuscript states that NKX2.5 overexpression does not alter MNP fate, which weakens the claim that NKX2.5 is sufficient to direct cardiac-specific function.
+  - **Why it matters** The sufficiency claim is central to the model that NKX2.5 is a key determinant of ISL1's cardiac-specific role. Without functional readouts, the significance of the observed redistribution is unclear.
+  - **Resolution test** Perform a more detailed analysis of the lost peaks to show they are enriched for NKX2.5 motifs and direct NKX2.5 targets. Assess whether NKX2.5 overexpression in MNPs leads to activation of cardiac genes or chromatin changes at the redistributed loci, even if full cell fate conversion is not achieved.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance of ISL1-NKX2.5 co-binding
+  - **Claim pointer** The manuscript claims that genes co-bound by ISL1 and NKX2.5 are involved in cardiac chamber morphogenesis and that this co-binding drives cardiac gene regulatory networks.
+  - **Evidence pointer** Figure 5, Figure S4, "location not provided" for GO analysis details
+  - **Concern** The manuscript identifies co-bound loci and shows that they are enriched for cardiac developmental terms, but does not demonstrate that these loci are functionally regulated by the ISL1-NKX2.5 complex. The luciferase assay for the NPPA/NPPB enhancer shows additive activation, but this is a single locus and does not establish a general principle. The manuscript does not show that disruption of the ISL1-NKX2.5 interaction specifically affects expression of co-bound target genes.
+  - **Why it matters** The claim that ISL1 and NKX2.5 cooperate to regulate cardiac gene networks requires evidence that co-binding leads to transcriptional regulation, not just co-occupancy.
+  - **Resolution test** Perform RNA-seq or targeted expression analysis in ISL1-/- and NKX2.5-/- cells to show that co-bound genes are co-regulated. Use a mutant NKX2.5 that cannot interact with ISL1 to show that the interaction is required for regulation of co-bound targets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 4B SRM data
+  - **Evidence pointer** Figure 4B, "location not provided"
+  - **Issue** The SRM data are described as n=1 independent experiment. This is insufficient to assess variability or statistical significance.
+  - **Required correction** Provide additional replicates and appropriate statistical tests, or clearly state the limitations of the single experiment.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** ChIP-seq analysis
+  - **Evidence pointer** "location not provided"
+  - **Issue** The manuscript does not provide details on peak calling thresholds, reproducibility between replicates, or how the "lost," "maintained," and "gained" peaks were defined.
+  - **Required correction** Include these details in the methods or supplemental information.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of scRNA-seq
+  - **Affected element** Figure 1C-1H
+  - **Evidence pointer** Figure 1, "location not provided"
+  - **Issue** The manuscript states that ISL1-/- cells are more atrial-like, but the analysis appears to be based on cluster proportions. It is unclear whether this reflects a change in cell fate or a change in proliferation/survival of specific subpopulations.
+  - **Required correction** Clarify the interpretation and consider additional analyses, such as trajectory analysis or marker gene expression comparisons.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data and code availability section
+  - **Evidence pointer** "location not provided"
+  - **Issue** The scRNA-seq and ChIP-seq data are deposited under the same GEO accession (GSE195476), which may cause confusion. The code repositories are listed but it is unclear if they are publicly accessible at the time of submission.
+  - **Required correction** Clarify the data deposition and ensure code repositories are accessible.
+
+## Risk / unsupported claims
+- The claim that ISL1 forms a "DNA-binding complex" with NKX2.5 implies a direct physical interaction, but the evidence provided (co-IP and SRM) does not rule out indirect interactions through other proteins.
+- The claim that NKX2.5 is "sufficient" to localize ISL1 to cardiac loci is based on overexpression in MNPs, but the functional consequences are not demonstrated, and the manuscript states that MNP fate is not altered.
+- The claim that co-bound genes are "co-regulated" by ISL1 and NKX2.5 is inferred from co-occupancy and GO enrichment, but direct evidence of transcriptional co-regulation is not provided.
+- The functional significance of the ISL1-NKX2.5 interaction for cardiomyocyte differentiation is not directly tested; the manuscript relies on correlative data from knockout lines and reporter assays at a single locus.

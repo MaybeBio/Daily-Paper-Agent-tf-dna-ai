@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "40670357",
+    "doi": "10.1038/s41467-025-61907-7",
+    "title": "Deep learning-based high-resolution time inference for deciphering dynamic gene regulation from fixed embryos."
+  },
+  "content": {
+    "abstract": "Embryo development is driven by the spatiotemporal dynamics of complex gene regulatory networks. Uncovering these dynamics requires simultaneous tracking of multiple fluctuating molecular species over time, which exceeds the capabilities of traditional live-imaging approaches. Fixed-embryo imaging offers the necessary sensitivity and capacity but lacks temporal resolution. Here, we present a multi-scale ensemble deep learning approach to precisely infer absolute developmental time with 1-minute resolution from nuclear morphology in fixed Drosophila embryo images. Applying this approach to quantitative imaging of fixed wild-type embryos, we resolve the spatiotemporal regulation of the endogenous segmentation gene Kruppel (Kr) by multiple transcription factors (TFs) during early development without genetic modification. Integrating a time-resolved theoretical model of single-molecule mRNA statistics, we further uncover the unsteady-state bursty kinetics of the endogenous segmentation gene, hunchback (hb), driven by dynamic TF binding. Our method provides a versatile framework for deciphering complex gene network dynamics in genetically unmodified organisms.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Deep Learning",
+      "Drosophila Proteins/genetics/metabolism",
+      "*Gene Expression Regulation, Developmental",
+      "Transcription Factors/metabolism/genetics",
+      "*Embryo, Nonmammalian/metabolism",
+      "Gene Regulatory Networks",
+      "*Drosophila melanogaster/genetics/embryology",
+      "Kruppel-Like Transcription Factors/genetics/metabolism",
+      "DNA-Binding Proteins/metabolism/genetics",
+      "Embryonic Development/genetics",
+      "RNA, Messenger/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bao, Huihan",
+        "Zhang, Shihe",
+        "Yu, Zhiyang",
+        "Xu, Heng"
+      ],
+      "short_names": [
+        "Bao H",
+        "Zhang S",
+        "Yu Z",
+        "Xu H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3151-0882",
+        "ORCID: 0000-0002-3717-0412"
+      ],
+      "affiliations": [
+        "School of Physics and Astronomy, Shanghai Jiao Tong University, Shanghai, China.",
+        "Institute of Natural Sciences, Shanghai Jiao Tong University, Shanghai, China.",
+        "School of Physics and Astronomy, Shanghai Jiao Tong University, Shanghai, China.",
+        "Institute of Natural Sciences, Shanghai Jiao Tong University, Shanghai, China.",
+        "School of Physics and Astronomy, Shanghai Jiao Tong University, Shanghai, China.",
+        "Institute of Natural Sciences, Shanghai Jiao Tong University, Shanghai, China.",
+        "School of Physics and Astronomy, Shanghai Jiao Tong University, Shanghai, China. Heng_Xu@sjtu.edu.cn.",
+        "Institute of Natural Sciences, Shanghai Jiao Tong University, Shanghai, China. Heng_Xu@sjtu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bao, Huihan",
+        "short_name": "Bao H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics and Astronomy, Shanghai Jiao Tong University, Shanghai, China.",
+          "Institute of Natural Sciences, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shihe",
+        "short_name": "Zhang S",
+        "identifiers": [
+          "0000-0003-3151-0882"
+        ],
+        "affiliations": [
+          "School of Physics and Astronomy, Shanghai Jiao Tong University, Shanghai, China.",
+          "Institute of Natural Sciences, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Zhiyang",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics and Astronomy, Shanghai Jiao Tong University, Shanghai, China.",
+          "Institute of Natural Sciences, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Heng",
+        "short_name": "Xu H",
+        "identifiers": [
+          "0000-0002-3717-0412"
+        ],
+        "affiliations": [
+          "School of Physics and Astronomy, Shanghai Jiao Tong University, Shanghai, China. Heng_Xu@sjtu.edu.cn.",
+          "Institute of Natural Sciences, Shanghai Jiao Tong University, Shanghai, China. Heng_Xu@sjtu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Jul 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/17 04:42",
+    "fetched_at": "2026-09-30 21:59:27"
+  },
+  "links": {
+    "cites": [
+      "41798261"
+    ],
+    "refs": [
+      "38495440",
+      "38195868",
+      "38125199",
+      "38029746",
+      "37996754",
+      "37890488",
+      "37837623",
+      "37207625",
+      "37156842",
+      "36546192",
+      "36272405",
+      "35926038",
+      "35581264",
+      "35119944",
+      "34614388",
+      "34490888",
+      "33505024",
+      "33318659",
+      "31882445",
+      "31527794",
+      "31133758",
+      "30982601",
+      "30811990",
+      "30340044",
+      "30078711",
+      "30075145",
+      "29754814",
+      "29449348",
+      "29320486",
+      "28878212",
+      "28457866",
+      "28041762",
+      "27879204",
+      "27667861",
+      "26644070",
+      "26344774",
+      "26267217",
+      "26098021",
+      "24336107",
+      "24311680",
+      "24271386",
+      "24139738",
+      "24139736",
+      "23580621",
+      "23352665",
+      "23340845",
+      "21414487",
+      "20927566",
+      "18806792",
+      "18172436",
+      "18067886",
+      "17196796",
+      "17048983",
+      "15788537",
+      "15254541",
+      "8589427",
+      "7555732",
+      "2065664"
+    ],
+    "similar": [
+      "40670357",
+      "25793381",
+      "24139736",
+      "26644070",
+      "39989130",
+      "23646132",
+      "30629954",
+      "21304932",
+      "21767480",
+      "39008179",
+      "39401257",
+      "32619531",
+      "18818726",
+      "27942043",
+      "33074101",
+      "33722899",
+      "18682204",
+      "25005921",
+      "26395487",
+      "17503969",
+      "23333947",
+      "26286011",
+      "30192762",
+      "28318367",
+      "23953111",
+      "24994903",
+      "30365533",
+      "24516161",
+      "19772636",
+      "21429984",
+      "20647453",
+      "23333944",
+      "27172244",
+      "11845210",
+      "35926038",
+      "32511091",
+      "39661467",
+      "40418452",
+      "40521685",
+      "37557175",
+      "10534621",
+      "21346796",
+      "19876378",
+      "29187214",
+      "18287046",
+      "23352665",
+      "27379389",
+      "15858575",
+      "26016019",
+      "27264535",
+      "41226380",
+      "39742495",
+      "28167048",
+      "9806932",
+      "38345298",
+      "30061421",
+      "30712870",
+      "33720012",
+      "18638318",
+      "19393317",
+      "39607769",
+      "24911671",
+      "20384991",
+      "20433825",
+      "19651877",
+      "23236164",
+      "22028675",
+      "28953896",
+      "18621403",
+      "23922708",
+      "30589412",
+      "20858238",
+      "34329466",
+      "24139738",
+      "20366291",
+      "22342544",
+      "40779393",
+      "35142344",
+      "40664961",
+      "25172431",
+      "23122844",
+      "16396905",
+      "22893002",
+      "25560971",
+      "39584418",
+      "15901661",
+      "24300439",
+      "21325629",
+      "20647469",
+      "14685241",
+      "24764079",
+      "23624421",
+      "25569966",
+      "35177098",
+      "24406318",
+      "40418447",
+      "12137943",
+      "32579915",
+      "24696456",
+      "17923694"
+    ],
+    "review": [
+      "40670357",
+      "25005921"
+    ],
+    "pmc": [
+      "12267651"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=40670357",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-025-61907-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40670357/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, related work, methods, results, discussion, conclusion) and references cited within the text.
+- **Assessment boundary** Scientific validity, methodological rigor, reproducibility, and clarity of claims based solely on the provided manuscript text. No external data, code, or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors present HandShake, a sequence-only, partner-specific protein-protein binding site predictor combining ProstT5 with LoRA fine-tuning, cross-chain attention, and contact supervision. They claim state-of-the-art performance on large non-redundant datasets, quantify redundancy-induced metric inflation, and demonstrate that structural pre-training (ProstT5) outperforms sequence-only pre-training (ESM-2) at matched parameter counts.
+- **Visible evidence base** Abstract, introduction, related work, methods (dataset, model architecture, evaluation metrics), results (baseline/control, ablation, comparison with published methods, cross-dataset generalization), discussion, and conclusion. Tables and figures are referenced but not provided in the submitted text.
+- **Missing materials affecting confidence** All tables (Table 1, S1–S8), figures (Figure 1–3), supplementary data, code repository contents, and detailed hyperparameter settings. The absence of these materials prevents independent verification of quantitative claims and statistical significance.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem in protein-protein interaction prediction. The methodological contributions, particularly the systematic redundancy inflation analysis and the matched-parameter comparison between ProstT5 and ESM-2, are valuable and potentially field-shaping. However, the current text lacks sufficient quantitative detail and statistical rigor to fully support several central claims. The absence of tables and figures in the provided material is a major limitation for assessment. The writing is generally clear but contains some inconsistencies and overstatements that need revision.
+- **Who would be interested in the results, and why** Computational biologists developing protein interaction predictors, machine learning researchers working on protein language models, structural biologists studying protein interfaces, and drug discovery scientists interested in target identification. The redundancy inflation findings are particularly relevant to the broader benchmarking community in bioinformatics.
+- **Major strengths** 1) The systematic quantification of sequence redundancy inflation across four thresholds is a significant methodological contribution. 2) The matched-parameter comparison between ProstT5 and ESM-2 isolates the effect of structural pre-training, addressing a key question in the field. 3) The three-tier negative control hierarchy provides a clean decomposition of predictive signal sources. 4) The use of a very large training dataset (up to 32,503 pairs) is a substantial advance over prior work. 5) The cross-dataset generalization experiments strengthen the claim of genuine learning rather than memorization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "our results (AUROC=0.811, MCC=0.367, F1=0.45) exceed the best published sequence-only result on this convention" at 30% redundancy.
+  - **Evidence pointer** Results section, "Comparison with Published Methods"; Table 1 (not provided)
+  - **Concern** The comparison with published methods is presented without a systematic and reproducible benchmarking protocol. The authors acknowledge differences in datasets, filtering strategies, and evaluation metrics, but do not provide a clear apples-to-apples comparison table with confidence intervals or statistical tests. The claim of "exceeding" prior work is therefore not rigorously established.
+  - **Why it matters** A central claim of the manuscript is superiority over existing methods. Without a controlled comparison, this claim cannot be verified, and the field cannot assess whether the architectural innovations or the larger dataset drive the improvement.
+  - **Resolution test** Provide a table comparing HandShake against BIPSPI+, Pair-EGRET, and PInet on identical evaluation sets, with matched redundancy filtering, distance thresholds, and metrics. Include confidence intervals and, where possible, statistical significance tests (e.g., bootstrapped differences in AUROC).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The model architecture and training procedure are described in detail, but the manuscript states "The initial architecture was based on the public ProtTrans github and was heavily modified" without specifying the exact modifications.
+  - **Evidence pointer** Materials and Methods, "Model Architecture"; location not provided
+  - **Concern** The description of the architecture modifications is insufficient for reproduction. Key details such as the exact placement of LoRA adapters, the cross-attention implementation specifics, the contact head architecture, and the training loss weighting are described but not fully specified. The code repository is mentioned but not assessed.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without complete architectural and training details, other researchers cannot build upon or independently verify the method.
+  - **Resolution test** Provide a complete architectural specification, including layer dimensions, attention head counts, LoRA rank and alpha values, dropout rates, and the exact training loss formulation. Ensure the code repository is publicly accessible and documented.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "explicit structural pre-training, not just model scale, is what enables sequence-only binding site prediction to work."
+  - **Evidence pointer** Results section, "Baseline and Control"; Table S8 (not provided)
+  - **Concern** The claim that structural pre-training is the causal factor is based on a comparison between ProstT5 and ESM-2 at matched parameter counts. However, the two models differ not only in pre-training data but also in architecture (ProstT5 is an encoder-decoder, ESM-2 is encoder-only) and tokenization. The attribution of the performance gap to structural pre-training is therefore confounded.
+  - **Why it matters** This is a strong mechanistic claim that goes beyond the data. If the performance difference is due to architectural or tokenization differences, the conclusion would be misleading and could misdirect future research.
+  - **Resolution test** Perform additional control experiments, such as training ESM-2 with LoRA on a structurally-augmented objective, or fine-tuning ProstT5 without the 3Di tokens, to isolate the effect of structural pre-training. Alternatively, soften the claim to state that structural pre-training is associated with improved performance, without asserting causality.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report that "LoRA fine-tuning consistently destabilized training across all distance conventions tested" for ESM-2, producing "complete or near-complete collapse to the majority class."
+  - **Evidence pointer** Results section, "Baseline and Control"; Table S8 (not provided)
+  - **Concern** The claim that LoRA destabilizes ESM-2 training is presented as a robust finding, but the hyperparameter search space is not described. It is possible that the failure is due to suboptimal LoRA settings (e.g., rank, alpha, learning rate) rather than an inherent incompatibility.
+  - **Why it matters** This asymmetry is used to support the hypothesis about structural pre-training creating a favorable loss landscape. If the ESM-2 failure is a hyperparameter artifact, the conclusion is weakened.
+  - **Resolution test** Provide the full hyperparameter grid for ESM-2 LoRA experiments, including learning rates, LoRA ranks, and warmup steps. If possible, demonstrate that a broader search still fails, or acknowledge the limitation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The opening sentence is long and dense, combining the problem definition, significance, and limitations of existing methods in a single clause.
+  - **Required correction** Split into two sentences for clarity, e.g., "Partner-specific protein-protein binding site prediction identifies which residues of a protein form the interface when bound to a specific partner. This task remains challenging and has significant implications for drug discovery and understanding protein structure and function."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "Dataset"
+  - **Evidence pointer** "The pair count grows non-linearly with redundancy threshold: the 30%–50% step adds only 4,141 pairs (30%), while the 50%–90% step adds 14,357 pairs (79%)"
+  - **Issue** The percentage increase for the 50%–90% step is calculated relative to the 50% dataset size, but the base is not stated. This makes the percentage difficult to interpret.
+  - **Required correction** State the dataset sizes at each threshold explicitly, e.g., "the 50% dataset contains X pairs, and the 90% dataset contains Y pairs, an increase of 79%."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "Comparison with Published Methods"
+  - **Evidence pointer** "Direct numerical comparison with published methods is complicated by differences in datasets, redundancy filtering strategies, distance thresholds, and evaluation metrics."
+  - **Issue** This caveat is appropriate but is followed by a direct comparison claim without a clear framework for how the reader should interpret the numbers.
+  - **Required correction** Provide a table that clearly lists the dataset, filtering threshold, distance convention, and metrics for each method being compared, so the reader can assess the validity of the comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "Model Architecture"
+  - **Evidence pointer** "The symbol ⊙ denotes elementwise multiplication after broadcasting the rank-1 multiplicative term to the shape of W0 + BA."
+  - **Issue** The notation is mathematically correct but may be unclear to readers unfamiliar with LoRA variants.
+  - **Required correction** Add a brief intuitive explanation of the multiplicative scaling term, e.g., "This term allows the adapter to scale the original weights, providing a richer adaptation than additive updates alone."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** "Future work includes adding structure-based features such as solvent-accessible surface area or secondary structure elements"
+  - **Issue** This is a reasonable future direction, but the manuscript does not discuss whether such features would be available at inference time for sequences without predicted structures.
+  - **Required correction** Clarify whether these features would be predicted from sequence or require experimental structures, and discuss the implications for the sequence-only claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of controlled comparison), R1-M2 (insufficient architectural detail), R1-M3 (confounded causal claim), R1-M4 (incomplete hyperparameter reporting).
+- **Assessment against Nature-style criteria** Originality: High. The systematic redundancy inflation analysis and the matched-parameter ProstT5 vs. ESM-2 comparison are novel contributions. Scientific importance: High. The findings have implications for benchmarking practices across the field and for the design of protein language models. Interdisciplinary readership: Moderate. The manuscript is primarily accessible to computational biologists and machine learning researchers; the biological implications are stated but not deeply explored. Technical soundness: Moderate. The methodology is sound in principle, but the lack of quantitative detail and controlled comparisons prevents full verification. Readability for nonspecialists: Moderate. The writing is generally clear but contains dense technical passages and assumes familiarity with protein language models and attention mechanisms.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core ideas are valuable and the experimental design is thoughtful, but the manuscript requires substantial revision to provide complete methodological detail, controlled comparisons, and appropriately hedged causal claims.
+
+## Risk / unsupported claims
+- The claim of exceeding "the best published sequence-only result" is not supported by a controlled comparison in the provided text.
+- The causal attribution of performance to structural pre-training is confounded by architectural and tokenization differences between ProstT5 and ESM-2.
+- The claim that LoRA destabilizes ESM-2 training is not supported by a described hyperparameter search.
+- The statement that the 50%–90% performance jump is "attributable to homolog memorization" is an interpretation, not a demonstrated mechanism.
+- The cross-dataset generalization results are presented without confidence intervals or statistical tests, making the stability claim unverifiable.
+- The claim that the model "achieves comparable performance to many structure-based methods" is based on indirect comparisons with different datasets and evaluation protocols, and is therefore not fully supported.

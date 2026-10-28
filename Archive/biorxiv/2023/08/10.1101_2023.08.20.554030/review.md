@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods)
+- **Assessment boundary** Statistical and methodological validity of the ascertainment bias argument; adequacy of simulation design; validity of re-analysis of published data; interpretation of results
+- **Shared manuscript claim summary** The authors argue that a recently developed genomic test for positive selection on transcription factor binding sites (TFBSs), based on machine learning-predicted binding affinities, suffers from ascertainment bias because TFBSs are typically identified from ChIP-seq data in the focal species. They claim this bias inflates false positive rates, and that after applying three correction methods, previously reported signals of positive selection largely disappear.
+- **Visible evidence base** Simulation results (Table 1, Tables S1-S2); re-analysis of human CEBPA, HNF4A, and CTCF binding sites (Tables 2-3); regression parameters for method 2 (Table S3); methodological descriptions in Materials and Methods
+- **Missing materials affecting confidence** Supplementary figures (Fig. S1) referenced but not provided; original data files from Liu and Robinson-Rechavi (2020) not directly inspected; code for simulations not provided; details on ancestral sequence reconstruction not fully described
+
+## Reviewer
+- **Overall assessment** The manuscript identifies a potentially important ascertainment bias in a recently published method for detecting positive selection on TFBSs. The conceptual argument is clear and the simulation results support the existence of the bias. However, the three proposed correction methods vary substantially in their assumptions and rigor, and the authors' conclusion that "few if any" positive selection signals remain is primarily driven by the most aggressive correction (method 3), whose assumptions are questionable. The manuscript would benefit from a more careful treatment of the limitations of each correction method and a clearer articulation of which conclusions are robust across methods.
+- **Who would be interested in the results, and why** Researchers studying regulatory evolution, positive selection detection methods, and the application of machine learning to evolutionary genomics. The work is also relevant to method developers in computational genomics and to those interpreting ChIP-seq data in evolutionary contexts.
+- **Major strengths** The manuscript addresses a timely and important methodological issue; the conceptual argument is clearly presented with an intuitive analogy; the simulation design is straightforward and directly tests the claimed bias; the re-analysis of published data provides a concrete demonstration of the practical impact.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** The authors claim that the ascertainment bias inflates the false positive rate of the selection test, demonstrated by simulation.
+  - **Evidence pointer** Table 1, Tables S1-S2, Materials and Methods
+  - **Concern** The simulation design introduces ascertainment bias by removing TFBSs with the lowest derived SVM scores. This is a specific and extreme form of ascertainment bias. In real ChIP-seq data, the probability of detecting a TFBS depends on binding affinity in a graded, noisy manner, not on a hard threshold. The authors acknowledge this limitation for method 2 but do not test whether their simulation results are robust to more realistic ascertainment models. The false positive rates reported may be specific to the threshold-based removal model.
+  - **Why it matters** If the inflation of false positive rates is quantitatively different under more realistic ascertainment models, the magnitude of the problem in real data may be over- or under-estimated. The simulation is the primary evidence for the existence and severity of the bias, so its realism is critical.
+  - **Resolution test** Repeat simulations using a probabilistic detection model where the probability of inclusion increases monotonically with derived binding affinity, with noise. Show that false positive rates are still inflated and quantify the magnitude under various noise levels.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validity
+  - **Claim pointer** The authors propose method 3 as a correction and state that after applying it, the proportion of positive selection signals falls below the neutral expectation of 1% for all three TFs.
+  - **Evidence pointer** Table 2, Materials and Methods
+  - **Concern** Method 3 assumes that all genomic regions can potentially become TFBSs, and uses the total number of potential binding sites in the genome as the denominator. This assumption is acknowledged as "reasonable at least qualitatively," but the authors also note it could overcorrect if different regions have different potentials. The estimate of the total number of tests (approximately 1 million for CEBPA) is several orders of magnitude larger than the number of tested TFBSs, which drives the conclusion that no positive selection remains. This correction is so aggressive that it essentially guarantees the null result, regardless of the true biology.
+  - **Why it matters** The conclusion that "few if any" positive selection signals remain is primarily based on method 3. If method 3 is not well-justified, the central conclusion of the manuscript is not established. The authors need to provide stronger justification for the assumptions of method 3 or temper their conclusions accordingly.
+  - **Resolution test** Provide empirical or theoretical justification for the assumption that all genomic regions have equal potential to become TFBSs. Alternatively, present results with a range of plausible values for the total number of potential TFBSs and show how conclusions change. If conclusions are sensitive to this parameter, the manuscript should acknowledge this uncertainty more prominently.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive validity
+  - **Claim pointer** The authors state that "almost all previously reported positive selection signals disappear when these methods are applied."
+  - **Evidence pointer** Tables 2-3
+  - **Concern** The three correction methods give very different results. Method 1 leaves 6.03% of CEBPA TFBSs as significant (still well above the 1% null expectation), while method 3 reduces this to 0.04%. The authors emphasize the method 3 result in their conclusion but do not clearly discuss the discrepancy between methods. A reader is left uncertain about which correction is most appropriate and what the true state of evidence is.
+  - **Why it matters** The manuscript's headline conclusion depends on which correction method is trusted. Without a clear recommendation or a sensitivity analysis across methods, the conclusion is not robust.
+  - **Resolution test** Provide a clear discussion of which method is most appropriate and why, or present conclusions that are robust across all three methods. If conclusions differ across methods, state this explicitly and discuss the implications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that "almost all previously reported positive selection signals disappear" but does not mention that this depends on the correction method used. This overstates the robustness of the finding.
+  - **Required correction** Qualify the statement to indicate that the disappearance of signals depends on the correction method, with the strongest effect seen under method 3.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods, location not provided
+  - **Issue** The description of the simulation for method 2 is incomplete. The regression F_removed = kF+ + b is mentioned, but the values of k and b are only given in Table S3, which is not provided in the manuscript.
+  - **Required correction** Include the regression parameters in the main text or ensure Table S3 is available to reviewers and readers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretive validity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion of method 3's limitations is brief and appears after the main conclusions have been drawn. The potential for overcorrection is acknowledged but not integrated into the interpretation of results.
+  - **Required correction** Move the discussion of method 3's limitations earlier, and explicitly state how conclusions should be interpreted given these limitations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods, location not provided
+  - **Issue** The calculation of the total number of potential TFBSs in method 3 uses L = 6 × 10^9 as the human genome size, but this is described as a "rough estimate." The sensitivity of results to this parameter is not explored.
+  - **Required correction** Provide a sensitivity analysis for the genome size parameter, or justify the chosen value more rigorously.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (simulation realism), R1-M2 (method 3 justification), R1-M3 (inconsistent conclusions across methods)
+
+## Risk / unsupported claims
+- The claim that "almost all previously reported positive selection signals disappear" is not robustly supported because it depends heavily on method 3, whose assumptions are not well-justified.
+- The claim that the ascertainment bias inflates false positive rates is supported by simulation, but the quantitative magnitude in real data is uncertain because the simulation uses a specific, potentially unrealistic ascertainment model.
+- The statement that "no to weak signals of positive selection" remain for CEBPA is not clearly supported, as method 1 still shows 6.03% significant TFBSs, well above the 1% null expectation.
+- The assumption that all genomic regions have equal potential to become TFBSs (method 3) is not empirically justified and could lead to overcorrection.

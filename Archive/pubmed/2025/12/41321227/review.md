@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors report that docking-generated poses of the azurin-derived peptide p28 with the HDM2 N-terminal domain, refined by three independent 300 ns all-atom molecular dynamics simulations per pose (cumulative 9 µs), yield three stable conformations (D3, D4, D5) that occupy the HDM2 hydrophobic pocket, show favorable MMPBSA binding energies, and engage HDM2 hotspots important for p53 recognition, suggesting a competitive binding mode and providing a structural basis for p28's potential anticancer activity.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or numerical results provided
+- **Missing materials affecting confidence** Full methods (HADDOCK parameters, force fields, solvation model, temperature/pressure coupling, equilibration protocol), simulation convergence metrics, MMPBSA values and error estimates, residue-level interaction data, comparison with p53-HDM2 binding mode, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational workflow and a cautiously worded conclusion. However, the evidence base available for review is limited to the abstract, which precludes verification of methodological rigor, convergence, or statistical robustness. The central claim that p28 may competitively inhibit HDM2-p53 binding is supported only by docking-refinement simulations, which the authors themselves acknowledge cannot capture spontaneous binding or pose interconversion. The study is potentially of interest to the computational biophysics and peptide therapeutics communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying protein-protein interaction inhibition; researchers in peptide-based anticancer drug discovery, particularly those focused on the p53-HDM2 axis; and method developers interested in docking-MD refinement workflows.
+- **Major strengths** The workflow is clearly described at a high level, including the use of multiple independent simulations and cumulative sampling time. The authors appropriately acknowledge the limitations of docking-based refinement, including the lack of spontaneous binding and pose interconversion. The conclusion is cautiously framed, explicitly noting the need for experimental and enhanced sampling validation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "three stable conformations (D3, D4, and D5) have emerged, consistently occupying the HDM2 hydrophobic pocket and exhibiting favorable binding energies (MMPBSA)"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative data to support the claims of stability or favorable binding energies. No RMSD, RMSF, or other stability metrics are reported, and no MMPBSA values or error estimates are given. Without these, the reader cannot assess whether the three conformations are genuinely stable or whether the binding energies are statistically distinguishable from unfavorable or neutral values.
+  - **Why it matters** The central conclusion rests on the identification of stable, favorably binding conformations. If the stability criteria are arbitrary or the binding energies are within error of zero, the claim of competitive binding is unsupported. The abstract's wording implies these are robust findings, but the evidence is not presented.
+  - **Resolution test** Provide quantitative stability metrics (e.g., backbone RMSD over time, per-residue fluctuations) and MMPBSA values with standard errors for D3, D4, D5, and ideally for a control (e.g., a known non-binder or the p53 peptide itself). Show that the three conformations are stable over the full simulation length and that binding energies are significantly favorable relative to controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Residue-level interaction analysis revealed that p28 engages HDM2 hotspots important for p53 recognition, suggesting a competitive mode of binding"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which HDM2 hotspots are engaged, how the interaction analysis was performed, or whether the engagement is sustained over the simulation or transient. The suggestion of competitive binding requires that p28 occupies the same binding site with similar or overlapping contacts as p53, but no comparative data are shown.
+  - **Why it matters** Competitive inhibition is a specific mechanistic claim. Without demonstrating overlap with known p53-binding hotspots (e.g., Phe19, Trp23, Leu26 in p53) and showing that p28's contacts are stable and specific, the claim remains speculative. The abstract's phrasing "suggesting" is appropriately cautious, but the underlying evidence is not visible.
+  - **Resolution test** Provide a residue-level contact map or interaction energy decomposition showing p28 contacts with specific HDM2 residues, and compare these with the known p53 binding interface. Show that the key hotspot contacts are maintained across the majority of the simulation frames for D3, D4, and D5.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "our results provide a refined structural basis for understanding how p28 may interfere with HDM2-p53 interactions and support its promise as a peptide-based anticancer candidate"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not state how the three stable conformations differ from each other or from the initial docking poses, nor whether the refinement meaningfully changes the binding mode. The phrase "refined structural basis" implies added value over the docking poses alone, but no comparison is described.
+  - **Why it matters** The novelty of the study depends on what the MD refinement adds beyond the docking predictions. If the conformations are essentially unchanged from the docking poses, the 9 µs of simulation adds little. If they differ substantially, the differences should be highlighted to justify the computational cost.
+  - **Resolution test** Describe the structural differences between the initial docking poses and the refined conformations (e.g., changes in contact patterns, secondary structure, or pocket occupancy). Quantify the degree of conformational change and explain how the refinement improves confidence in the binding mode.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms such as "HADDOCK," "MMPBSA," and "information-driven docking" without brief explanation. While appropriate for a PCCP audience, a one-phrase clarification of these methods would improve accessibility for readers from adjacent fields.
+  - **Required correction** Add brief parenthetical explanations, e.g., "HADDOCK (a data-driven docking platform)" and "MMPBSA (a method for estimating binding free energies)."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation sampling description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "three independent 300 ns all-atom molecular dynamics simulations" per pose, yielding "a cumulative 9 micros trajectory." This implies 10 poses × 3 replicates × 300 ns = 9 µs, which is arithmetically consistent. However, it is unclear whether the three replicates are independent starting velocities or different initial conditions, and whether the 300 ns per replicate is sufficient for convergence.
+  - **Required correction** Clarify the nature of the replicates (e.g., different random seeds or different initial velocities) and state whether convergence was assessed (e.g., via block averaging or RMSD plateau analysis).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextual framing
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention any prior experimental or computational studies of p28-HDM2 interactions. Without this context, the novelty of the present findings is unclear.
+  - **Required correction** Add one or two sentences summarizing prior knowledge of p28's mechanism of action and how this study advances beyond it.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of stable, favorably binding conformations and competitive binding are not quantitatively supported in the supplied material. R1-M3 is non-blocking but should be addressed to clarify the study's contribution.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of a docking-MD refinement workflow to p28-HDM2 is plausible but not clearly novel from the abstract alone; similar approaches are common in the field.
+  - Scientific importance: The p53-HDM2 axis is a well-studied and important target, and p28 is a known peptide of interest. However, the abstract does not demonstrate that the findings materially advance understanding beyond existing knowledge.
+  - Interdisciplinary readership: The topic bridges computational chemistry, structural biology, and cancer biology, but the abstract is written primarily for a computational audience.
+  - Technical soundness: The workflow is reasonable in principle, but the absence of quantitative metrics and convergence analysis prevents assessment of technical rigor.
+  - Readability for nonspecialists: The abstract is generally clear but uses field-specific jargon without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible study, but the absence of quantitative results and methodological details means the central claims cannot be evaluated. I would be supportive if the full manuscript provides the missing stability metrics, binding energy values with errors, and a clear comparison with the p53 binding mode.
+
+## Risk / unsupported claims
+- The claim that D3, D4, and D5 are "stable conformations" is unsupported without quantitative stability metrics.
+- The claim of "favorable binding energies" is unsupported without MMPBSA values and error estimates.
+- The claim of "competitive mode of binding" is unsupported without demonstration of overlap with the p53 binding interface.
+- The claim that the results provide a "refined structural basis" is unverifiable without comparison to the initial docking poses.
+- The overall relevance to anticancer activity is speculative, as no experimental data are presented.

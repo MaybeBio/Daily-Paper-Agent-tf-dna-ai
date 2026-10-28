@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.04.14.718573",
+  "title": "A Modular Machine Learning Framework for Small-Molecule Drug Repurposing Based on Organ Permeability, Target Binding, and Biomarker Modulation",
+  "authors": "Harkirat Singh Arora; Saroj Dhakal; Yorgos Psarellis; Sriram Chandrasekaran; Panteleimon D. Mavroudis; Nikhil Pillai",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-17",
+  "window": {
+    "start": "2026-04-13",
+    "end": "2026-04-19"
+  },
+  "score": 3,
+  "one_liner_zh": "该文提出模块化机器学习框架SCOUT用于小分子药物重定位，虽涉及药物-靶标结合预测，但对象为小分子-蛋白而非蛋白质-DNA互作，且无TF-DNA结合建模，仅边缘相关。",
+  "abstract": "With nearly 90% of drug candidates failing in clinical trials due to poor efficacy or toxicity, drug repurposing has emerged as a vital strategy to accelerate the delivery of life-saving treatments. However, most current drug repurposing approaches fail to account for the physiological barriers and downstream biological impacts that dictate therapeutic success. To bridge this gap, we present SCOUT (Screening Candidates via Organ Uptake and Target-binding), a modular machine learning-driven framework for drug repurposing by simultaneously modeling organ permeability, drug-target binding, and biomarker modulation. Unlike conventional repurposing efforts that rely on single-point predictions or disconnected steps, SCOUT integrates these factors into a unified predictive funnel, significantly reducing trial-and-error and prioritizing candidates with the highest probability of therapeutic relevance. As a proof of concept, we applied SCOUT to Alzheimer’s disease, where blood-brain barrier (BBB) penetration is an important hurdle. The framework first predicts the unbound brain-to-plasma partition coefficient, Kpuu, using SMILES-based embeddings and achieved robust performance (Accuracy: 0.90, Recall: 0.94), then integrates machine learning to predict binding affinity with BACE1, a key Alzheimer’s target that was used in this work as a proof of concept. By combining these modules, SCOUT reduced the candidate search space by 99.9% and identified hits with diverse mechanisms of action. Critically, SCOUT extends beyond hit identification by employing mechanistic modeling to simulate how these candidates might modulate specific disease biomarkers (e.g. Amyloid-beta (Aβ) peptides). This hybrid approach ensures repurposed candidates are not only chemically viable but also physiologically active, providing a rational and resource-efficient pipeline for drug development.",
+  "abstract_zh": "由于近90%的候选药物因疗效不佳或毒性问题在临床试验中失败，药物重定位已成为加速救命疗法交付的关键策略。然而，当前大多数药物重定位方法未能考虑决定治疗成功的生理屏障和下游生物学影响。为弥合这一差距，我们提出了SCOUT（通过器官摄取和靶点结合筛选候选药物），这是一种模块化机器学习驱动的框架，通过同时建模器官通透性、药物-靶点结合和生物标志物调节来实现药物重定位。与依赖单点预测或脱节步骤的传统重定位工作不同，SCOUT将这些因素整合到一个统一的预测漏斗中，显著减少试错，并优先考虑具有最高治疗相关概率的候选药物。作为概念验证，我们将SCOUT应用于阿尔茨海默病，其中血脑屏障（BBB）穿透是一个重要障碍。该框架首先使用基于SMILES的嵌入预测未结合脑-血浆分配系数Kpuu，并取得了稳健性能（准确率：0.90，召回率：0.94），然后整合机器学习预测与BACE1（本工作中用作概念验证的关键阿尔茨海默病靶点）的结合亲和力。通过结合这些模块，SCOUT将候选搜索空间减少了99.9%，并识别出具有多样作用机制的命中化合物。关键的是，SCOUT超越命中识别，采用机制建模来模拟这些候选药物如何调节特定疾病生物标志物（例如淀粉样蛋白-β（Aβ）肽）。这种混合方法确保重定位候选药物不仅在化学上可行，而且在生理上具有活性，为药物开发提供了合理且资源高效的流程。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.04.14.718573",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.14.718573",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.04.14.718573/index.html"
+}

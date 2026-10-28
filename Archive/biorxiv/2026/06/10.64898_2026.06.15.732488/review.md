@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends not provided)
+- **Assessment boundary** Scientific content, methodological soundness, claims vs. evidence, and presentation quality based solely on the provided text
+- **Shared manuscript claim summary** The authors present Domino, a deep learning framework that predicts quantitative chromatin insulation scores directly from DNA sequence in Drosophila melanogaster. The model is trained on aggregated single-nucleosome resolution Micro-C data from embryos and validated on held-out data and in vivo sequence perturbations. Model interpretation identifies 24 primary insulation motifs, including three novel zinc-finger factors (Trem, CG4854, CG17385) experimentally validated. The framework is extended to larval and adult brain tissues, revealing tissue-specific insulation codes.
+- **Visible evidence base** Abstract, Introduction, Results sections (7 subsections), Discussion, Methods (partial), figure callouts (Fig. 1-7, Fig. S1-S10), table callouts (Table S1), supplementary file descriptions
+- **Missing materials affecting confidence** Figures and figure legends not provided; detailed results of statistical analyses not shown; exact model performance metrics not stated in text; experimental validation details (Micro-C quality metrics, HCR-FISH quantification) not fully described; supplementary tables and files not accessible
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and technically sophisticated framework for decoding the sequence determinants of chromatin insulation in Drosophila. The core advance is the combination of ultra-deep Micro-C data with a targeted deep learning approach that predicts continuous insulation scores rather than binary boundary classifications. The validation strategy, including in vivo perturbation experiments and independent replication assessment, is rigorous. The discovery of three novel zinc-finger insulation factors with experimental confirmation is a significant contribution. However, several technical details and validations are not fully visible from the provided text, and the claim of a "comprehensive" insulation grammar requires closer scrutiny given the filtering criteria applied. The extension to brain tissues is promising but appears less deeply validated than the embryonic analysis.
+- **Who would be interested in the results, and why** Chromatin biologists studying 3D genome organization, particularly those focused on insulator function and boundary elements in Drosophila. Computational biologists developing sequence-to-function models for regulatory genomics. Researchers interested in tissue-specific gene regulation and developmental chromatin dynamics. The framework's generalizability may also interest those studying genome architecture in other organisms.
+- **Major strengths** 1) The use of continuous insulation scores rather than binary boundary classification represents a methodological advance. 2) The validation against independent biological replicates and in vivo perturbations is exemplary. 3) The discovery and experimental validation of three novel insulation factors is a significant biological advance. 4) The systematic in silico dissection of motif synergy using synthetic sequences is innovative. 5) The cross-tissue application demonstrates generalizability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / validation completeness
+  - **Claim pointer** "Domino accurately predicts insulation levels on held-out data and across in vivo sequence perturbations" and "predictions achieved a Spearman correlation of 0.79"
+  - **Evidence pointer** Results section "Domino accurately predicts chromatin insulation directly from DNA sequence"; Fig. 1C,D
+  - **Concern** The manuscript reports a Spearman correlation of 0.79 on held-out test data but does not provide the full performance metrics, confidence intervals, or comparison to appropriate baseline models. The claim that model performance approaches "the theoretical limit defined by experimental variability" is based on comparison to replicate correlation, but the exact values and statistical significance of this comparison are not stated. Additionally, the evaluation on mutagenized sequences (Fig. 1F) is described qualitatively as "consistent" without quantitative metrics.
+  - **Why it matters** The central claim of the paper is that Domino accurately captures the sequence-to-insulation relationship. Without precise performance metrics, baseline comparisons, and statistical evaluation of the perturbation experiments, the reader cannot assess whether the model truly approaches the theoretical limit or whether the validation is robust.
+  - **Resolution test** Provide exact correlation values with confidence intervals for held-out test performance, replicate correlation, and perturbation predictions. Include comparison to simpler baseline models (e.g., motif density models, k-mer based predictors). Report quantitative metrics for the perturbation experiments (e.g., correlation between predicted and observed insulation changes per mutant).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support / evidence completeness
+  - **Claim pointer** "Across 7,311 embryonic boundaries, Domino reveals a comprehensive insulation grammar defined by just 24 primary motifs that account for 59% of the boundaries"
+  - **Evidence pointer** Results section "Interpretation of Domino reveals the motif grammar of chromatin insulation"; Fig. 2, Fig. 5
+  - **Concern** The claim of a "comprehensive" grammar based on 24 motifs requires more detailed justification. The filtering criteria for motif discovery (e.g., seqlet count thresholds, attribution magnitude cutoffs) are described in Methods but the resulting coverage statistics are not fully presented. The statement that 24 motifs account for 59% of boundaries implies 41% of boundaries have no identified active motif, yet the manuscript does not discuss what drives insulation at these boundaries. The clustering analysis (K=30) and the relationship between clusters and known biological features (e.g., promoter vs. non-promoter boundaries) are not described in sufficient detail.
+  - **Why it matters** The claim of comprehensiveness is central to the paper's significance. If 41% of boundaries lack identified motifs, the grammar is incomplete, and the manuscript should address this limitation explicitly. The clustering analysis is presented as a key result but its biological interpretation is not fully developed.
+  - **Resolution test** Provide the distribution of motif counts per boundary, the fraction of boundaries with no active motif, and a discussion of potential mechanisms at these boundaries. Describe the cluster characteristics more fully, including enrichment analyses for genomic features, chromatin states, and known insulator proteins. Quantify the overlap between Domino-discovered motifs and known factor motifs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental validation / causal evidence
+  - **Claim pointer** "we confirmed via experimental validation" (referring to Trem, CG4854, CG17385 as novel insulation factors)
+  - **Evidence pointer** Results section "Domino guides the discovery of the zinc-finger proteins Trem, CG4854, and CG17385 as novel chromatin insulation factors"; Fig. 4
+  - **Concern** The experimental validation of the three novel factors is described but the details are incomplete. For CG4854 and Trem, knockout Micro-C experiments are mentioned, but the magnitude of insulation loss, the number of loci affected, and the specificity of the effect are not quantified in the text. For CG17385, no experimental validation is described at all, only ChIP-seq data analysis. The manuscript claims these are "novel insulation factors" but does not demonstrate that they function as classical insulators (e.g., enhancer-blocking or barrier activity) beyond the correlative Micro-C data.
+  - **Why it matters** The identification of novel insulation factors is a major claim of the paper. Without clear experimental evidence demonstrating functional insulation activity, the claim is not fully supported. The distinction between factors that contribute to boundary formation and those that merely bind at boundaries is important.
+  - **Resolution test** Provide quantitative measures of insulation loss in knockout backgrounds (e.g., change in insulation score at bound vs. unbound loci). For CG17385, either include experimental validation or temper the claim to "candidate insulation factor." Discuss whether the observed effects are consistent with direct insulation activity or indirect effects on chromatin state.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability / tissue-specific claims
+  - **Claim pointer** "by applying Domino to public Drosophila Micro-C datasets from the larval and adult brain, we uncovered a comprehensive and highly dynamic neural motif grammar"
+  - **Evidence pointer** Results section "Domino resolves a dynamic and complex chromatin insulation landscape in the Drosophila brain"; Fig. 7
+  - **Concern** The brain analysis is presented as a demonstration of generalizability, but the depth of validation appears substantially less than for the embryonic analysis. The manuscript does not describe whether the brain-trained models were validated on held-out data, whether the discovered motifs were experimentally confirmed, or how the brain-specific motifs relate to known neural regulatory factors. The claim of a "comprehensive" neural grammar is not supported by the evidence described.
+  - **Why it matters** The cross-tissue application is a key selling point for the framework's generalizability. If the brain analysis is only descriptive without validation, the claim of a "comprehensive" neural grammar is overstated.
+  - **Resolution test** Provide model performance metrics for brain-trained models. Describe validation experiments for brain-specific motifs. Discuss the relationship between brain-specific motifs and known neural transcription factors. Temper the "comprehensive" claim if validation is limited.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / reproducibility
+  - **Affected element** Methods, "Domino architecture"
+  - **Evidence pointer** Methods section
+  - **Issue** The model architecture description is incomplete. The number of parameters, training time, hardware requirements, and exact data augmentation strategies are not specified. The hyperparameter sweep is mentioned but the search space and selection criteria are not described.
+  - **Required correction** Provide a complete description of the model architecture, training procedure, and hyperparameter selection process to ensure reproducibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, "Interpretation of Domino reveals the motif grammar of chromatin insulation"
+  - **Evidence pointer** Fig. 2D,E
+  - **Concern** The comparison of Domino attributions to ChIP-seq binding intensity for 12 factors is described as showing better correlation for 11 of 12 factors, but the statistical significance of this improvement and the correlation values themselves are not reported.
+  - **Required correction** Report the correlation values for both Domino attributions and motif scanning for each factor, along with statistical tests comparing the two approaches.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation / overstatement
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The statement that Domino "provides a generalizable framework for decoding the regulatory logic of 3D genome architecture" is broad. The manuscript demonstrates application to Drosophila tissues but does not test applicability to other species or to other aspects of 3D genome architecture beyond insulation.
+  - **Required correction** Qualify the generalizability claim to reflect the demonstrated scope, or add discussion of potential limitations and required adaptations for other systems.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Code Availability
+  - **Evidence pointer** Code Availability section
+  - **Issue** The code repository is mentioned but there is no description of the license, documentation, or whether trained model weights are provided. The availability of the training data (the 11 Micro-C datasets) is not explicitly stated.
+  - **Required correction** Specify the software license, provide documentation for the repository, and state whether model weights and processed training data are available.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality / presentation
+  - **Affected element** Fig. 5
+  - **Evidence pointer** Results section "A comprehensive motif grammar of chromatin insulation in the Drosophila embryo"
+  - **Issue** The clustering analysis with K=30 is described but the resulting heatmap and cluster annotations are not visible. The biological interpretation of clusters is mentioned but not systematically presented.
+  - **Required correction** Ensure figure legends clearly describe the clustering method, color scales, and annotations. Consider adding a supplementary table with cluster characteristics and enriched features.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (performance metrics and baseline comparisons), R1-M2 (comprehensiveness claim and coverage statistics), R1-M3 (experimental validation completeness for novel factors)
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The combination of ultra-deep Micro-C data with continuous insulation score prediction represents a novel approach. The discovery of three new insulation factors is original. The systematic in silico dissection of motif synergy is innovative.
+  - **Scientific importance** High. The work addresses a fundamental question in chromatin biology: how sequence context and factor combinations dictate boundary strength. The identification of a concise motif grammar has implications for understanding genome architecture and its regulation.
+  - **Interdisciplinary readership** Moderate to high. The work bridges computational biology, chromatin biology, and developmental biology. The framework's generalizability may attract interest from those studying gene regulation in other systems.
+  - **Technical soundness** Generally strong but with gaps. The model architecture and training appear sound, and the validation strategy is thoughtful. However, the lack of detailed performance metrics, baseline comparisons, and complete experimental validation details weakens the technical case.
+  - **Readability for nonspecialists** Good. The manuscript is clearly written and the logic is easy to follow. Technical terms are defined. The figures, if matching the text descriptions, should aid comprehension. Some sections (e.g., model architecture) may be challenging for non-computational readers but are appropriately placed in Methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core approach is promising and the biological discoveries are significant. However, the manuscript requires additional quantitative details, baseline comparisons, and more complete experimental validation before the claims are fully established. The comprehensiveness claims should be tempered or better supported.
+
+## Risk / unsupported claims
+- The claim that Domino performance "approaches the theoretical limit defined by experimental variability" is not fully supported without exact correlation values and statistical comparison.
+- The claim of a "comprehensive" insulation grammar based on 24 motifs is not fully supported given that 41% of boundaries lack identified motifs.
+- The designation of Trem, CG4854, and CG17385 as "novel insulation factors" is not fully supported for CG17385, which lacks experimental validation.
+- The claim of a "comprehensive and highly dynamic neural motif grammar" in the brain is not supported by the described evidence.
+- The statement that Domino "captures context-specific motif contributions to insulation genome-wide" is not quantitatively demonstrated in the provided text.

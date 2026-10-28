@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.05.20.492818",
+  "title": "ExplaiNN: interpretable and transparent neural networks for genomics",
+  "authors": "Novakovsky G; Fornes O; Saraswat M; Mostafavi S; Wasserman WW",
+  "journal": "bioRxiv",
+  "published_date": "2022-05-22",
+  "window": {
+    "start": "2022-05-16",
+    "end": "2022-05-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出可解释神经网络ExplaiNN，用于预测转录因子结合和染色质可及性，虽聚焦序列预测而非三维互作建模，但以TF-DNA结合为核心且采用AI方法，对本课题有方法借鉴价值。",
+  "abstract": "Sequence-based deep learning models, particularly convolutional neural networks (CNNs), have shown superior performance on a wide range of genomic tasks. A key limitation of these models is the lack of interpretability, slowing down their adoption by the genomics community. Current approaches to model interpretation do not readily reveal how a model makes predictions, can be computationally intensive, and depend on the implemented architecture. Here, we introduce ExplaiNN, an adaptation of neural additive models[1] for genomic tasks wherein predictions are computed as a linear combination of multiple independent CNNs, each consisting of a single convolutional filter and fully connected layers. This approach brings together the expressiveness of CNNs with the interpretability of linear models, providing global (cell state level) as well as local (individual sequence level) biological insights into the data. We use ExplaiNN to predict transcription factor (TF) binding and chromatin accessibility states, demonstrating performance levels comparable to state-of-the-art methods, while providing a transparent view of the model’s predictions in a straightforward manner. Applied to de novo motif discovery, ExplaiNN identifies equivalent motifs to those obtained from specialized algorithms across a range of datasets. Finally, we present ExplaiNN as a plug-and-play platform in which pretrained TF binding models and annotated position weight matrices from reference databases can be easily combined. We expect that ExplaiNN will accelerate the adoption of deep learning by biological domain experts in their daily genomic sequence analyses.",
+  "abstract_zh": "基于序列的深度学习模型，尤其是卷积神经网络（convolutional neural networks, CNNs），在广泛的基因组任务中展现出卓越性能。这些模型的一个关键局限是缺乏可解释性，这减缓了基因组学界对其的采纳。当前的模型解释方法难以直接揭示模型如何进行预测，可能计算密集，并且依赖于所实现的架构。在此，我们介绍ExplaiNN，这是神经加法模型[1]在基因组任务中的一种改编，其中预测通过多个独立CNN的线性组合计算得出，每个CNN包含单个卷积滤波器和全连接层。该方法结合了CNN的表达能力与线性模型的可解释性，提供了对数据的全局（细胞状态水平）及局部（单个序列水平）生物学洞察。我们使用ExplaiNN预测转录因子（transcription factor, TF）结合和染色质可及性状态，展示了与最先进方法相当的性能水平，同时以直接明了的方式提供了模型预测的透明视图。应用于从头基序发现时，ExplaiNN在多种数据集上识别出与专门算法获得的等效基序。最后，我们将ExplaiNN呈现为一个即插即用平台，其中预训练的TF结合模型和来自参考数据库的注释位置权重矩阵可以轻松组合。我们期望ExplaiNN将加速生物学领域专家在日常基因组序列分析中对深度学习的采纳。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.05.20.492818",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.05.20.492818",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.05.20.492818/index.html"
+}

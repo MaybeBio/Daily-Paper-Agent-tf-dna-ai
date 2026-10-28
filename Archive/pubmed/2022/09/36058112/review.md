@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, figure legends, and supplementary figure descriptions.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, computational methodology, and alignment with claims made in the abstract and discussion. No assessment of editorial quality or journal fit beyond scientific merit.
+- **Shared manuscript claim summary** The manuscript proposes that RAD51 Cys319 is a redox-sensitive cysteine with nucleophilic characteristics, that its oxidation to sulfenic acid impairs homologous recombination (HR) and RAD51 foci formation, and that peroxiredoxin 1 (PRDX1) protects Cys319 from oxidation, thereby maintaining HR competence and cellular resistance to ionizing radiation (IR) and PARP inhibitors.
+- **Visible evidence base** In vitro co-immunoprecipitation of purified RAD51 and PRDX1; cellular co-immunoprecipitation in 293T cells; DAz-2 sulfenylation probing in Prdx1+/+ and Prdx1−/− MEFs; RAD51 foci quantification by immunofluorescence in DT40 cells and MDA-MB-231 cells; clonogenic survival assays; DR-GFP HR reporter assays; PROPKA pKa calculations; molecular dynamics simulations of a tetrameric RAD51-DNA filament comparing native and Cys319-sulfenylated states.
+- **Missing materials affecting confidence** Raw numerical data for foci counts and intensities are not provided in the text; statistical details for the MD simulations (force field parameters, simulation replicates, convergence criteria) are incomplete; no mass spectrometry data showing site-specific oxidation of Cys319 are shown; no data on PRDX1 catalytic activity requirement for RAD51 protection are presented; no data on other PRDX family members are shown; the PRDX1-RAD51 interaction is not quantified (e.g., affinity, stoichiometry).
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially important question: whether redox regulation of RAD51 via a specific cysteine residue modulates homologous recombination, and whether PRDX1 serves as a protective partner. The combination of cell-based assays, biochemical probing, and computational simulation is commendable. However, several key claims are not fully supported by the data as presented. The evidence that Cys319 is the functionally relevant oxidation site is indirect, relying on mutant phenotyping and DAz-2 incorporation without site-specific mass spectrometry confirmation. The MD simulation, while suggestive, is based on a homology model and a single trajectory, and the mechanistic link between Cys319 sulfenylation and DNA binding destabilization is not rigorously established. The PRDX1-RAD51 interaction is demonstrated but not characterized in terms of mechanism (e.g., whether PRDX1 directly reduces RAD51 or acts indirectly via peroxide scavenging). The cell-based data are largely consistent but some quantifications are missing or underpowered. Overall, the study is interesting and likely of value to the DNA repair and redox biology communities, but the central mechanistic claim requires additional experimental support.
+- **Who would be interested in the results, and why** Researchers in DNA damage repair, particularly homologous recombination; investigators studying redox signaling and cysteine oxidation; cancer biologists interested in therapeutic resistance mechanisms, especially PARP inhibitor sensitivity; computational biologists studying protein-DNA interactions. The potential link between PRDX1 status and HR competence could have translational implications for tumor radiosensitivity and PARP inhibitor responsiveness.
+- **Major strengths** The study identifies a specific cysteine residue in RAD51 with predicted low pKa and demonstrates its functional importance in cells. The use of multiple cell systems (DT40, MEFs, MDA-MB-231) strengthens the conclusions. The DAz-2 probing provides direct evidence of Cys oxidation, and the PRDX1 dependence is shown genetically and biochemically. The MD simulation offers a plausible structural rationale for how oxidation could destabilize DNA binding. The work connects a well-known antioxidant enzyme (PRDX1) to a core DNA repair process, which is conceptually novel.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for site-specific oxidation
+  - **Claim pointer** The abstract states that "PRDX1 is critical for maintaining [Cys319] in a reduced state" and that Cys319 oxidation is the mechanism underlying impaired HR.
+  - **Evidence pointer** Figure 3E and 3F; Results section "PRDX1 binds RAD51 and inhibits sulfenylation"
+  - **Concern** The DAz-2 incorporation data show increased sulfenylation of RAD51 in Prdx1−/− cells and reduced incorporation in the C319S mutant, but this does not prove that Cys319 is the only or primary site of oxidation. The C319S mutation could alter the conformation or reactivity of other cysteines. No mass spectrometry data are presented to demonstrate site-specific oxidation of Cys319. The claim that PRDX1 specifically protects Cys319 is therefore not directly established.
+  - **Why it matters** The central thesis of the paper is that Cys319 is the functionally significant redox-sensitive residue. Without site-specific identification of the oxidation product, alternative explanations (e.g., oxidation of other cysteines, global conformational changes) cannot be excluded. This weakens the mechanistic conclusion.
+  - **Resolution test** Provide mass spectrometry data identifying the specific cysteine residue(s) modified by DAz-2 or by endogenous oxidation in Prdx1−/− cells. Alternatively, use a cysteine-null RAD51 background with only Cys319 present to demonstrate that the phenotype is recapitulated.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic link between PRDX1 and RAD51 protection
+  - **Claim pointer** The discussion states that "PRDX1 protects RAD51 from oxidation" and implies a direct or indirect protective mechanism.
+  - **Evidence pointer** Figure 3A-C; Results section "PRDX1 binds RAD51 and inhibits sulfenylation"
+  - **Concern** The co-immunoprecipitation data show that PRDX1 and RAD51 can interact, and the DAz-2 data show that PRDX1 loss increases RAD51 sulfenylation. However, the mechanism by which PRDX1 protects RAD51 is not addressed. PRDX1 could act by (a) directly reducing oxidized RAD51, (b) scavenging peroxides before they oxidize RAD51, or (c) acting as a chaperone that stabilizes RAD51 in a reduced conformation. The catalytically inactive PRDX1 mutant is used in the clonogenic assay (Figure 5D) but not in the sulfenylation assays, so it is unclear whether PRDX1 peroxidase activity is required for RAD51 protection.
+  - **Why it matters** The title and abstract imply a specific regulatory relationship. Without mechanistic dissection, the physiological relevance and the potential for therapeutic targeting remain unclear. The distinction between direct and indirect protection has implications for how PRDX1 loss would be expected to affect HR in different contexts.
+  - **Resolution test** Test whether catalytically inactive PRDX1 can still reduce RAD51 sulfenylation in Prdx1−/− cells. Perform in vitro reduction assays with purified PRDX1 and oxidized RAD51. Determine whether PRDX1 overexpression can rescue RAD51 foci formation in a manner dependent on its peroxidase activity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational simulation robustness
+  - **Claim pointer** The results state that "dT-DNA dissociated from an oxidized Cys319 RAD51 filament" and the discussion interprets this as evidence for impaired DNA binding.
+  - **Evidence pointer** Figure 4; Results section "All atom MD simulations of a tetrameric RAD51-DNA filament"
+  - **Concern** The MD simulation is based on a homology model of RAD51, not a crystal structure of the human RAD51 filament with DNA. The simulation was run for a single trajectory (149 ns for the oxidized system), which is short for drawing conclusions about dissociation events. No replicate simulations are reported, and no error estimates are provided. The observation that DNA dissociates in the oxidized system but not the native system is suggestive but could be influenced by initial conditions or sampling limitations.
+  - **Why it matters** The simulation is used to provide a structural rationale for the functional data. If the simulation is not robust, the mechanistic interpretation is weakened. The claim that a single atom change (S to OH) causes such a dramatic effect requires stronger computational evidence.
+  - **Resolution test** Perform multiple independent MD simulations (at least 3) for both native and oxidized systems, with longer timescales (500 ns or more). Provide quantitative analysis of DNA binding energy or contact persistence. Validate the model against known RAD51-DNA structures if available.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantification and statistical rigor of foci data
+  - **Claim pointer** The results state that "the average number of RAD51 foci/cell was significantly lower in cells harboring RAD51 Cys319Ser compared to RAD51 WT" and similar claims for PRDX1-deficient cells.
+  - **Evidence pointer** Figures 1F, 1G, 2A, 5A, 6B-E; Results sections "RAD51 Cys319 has reactive nucleophilic characteristics" and "PRDX1-deficiency increases DNA damage, but decreases RAD51 foci and HR"
+  - **Concern** The foci quantification methods are described in the figure legends but the actual numbers (e.g., mean foci per cell, standard deviation, number of cells analyzed) are not provided in the text. For Figure 6, the total number of values (2739) is given, but the distribution across conditions is not specified. The statistical tests are mentioned but the results (e.g., p-values) are not reported in the text. This makes it difficult to assess the robustness of the conclusions.
+  - **Why it matters** Foci formation is a key phenotypic readout. Without clear quantitative data, the reader cannot evaluate the magnitude of the effects or the reliability of the conclusions.
+  - **Resolution test** Provide a table or supplementary figure with the mean, standard deviation, number of cells, and p-values for each condition in each experiment. Ensure that the statistical analysis is described in sufficient detail to be reproduced.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1A-E
+  - **Issue** The pKa values are presented as a bar graph but the individual values are not listed. The text mentions "between 5.3 and 5.6" for the filament but the monomer values are not clearly stated.
+  - **Required correction** Add the numerical pKa values to the figure or legend for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** MD simulation methods
+  - **Evidence pointer** Materials and methods "Computational studies on a RAD51 filament model"
+  - **Issue** The methods state that the model was refined with "knowledge based forecefields" (typo for forcefields) but do not specify which forcefield was used for the production MD (AMBER14 is mentioned later but the refinement forcefield is not). The simulation box dimensions are given but the water model and ion concentration are not specified.
+  - **Required correction** Provide full details of the forcefield, water model, ion concentration, and any restraints used during the simulation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability statement
+  - **Affected element** Data availability section
+  - **Evidence pointer** "No data was used for the research described in the article."
+  - **Issue** This statement is incorrect or misleading, as the study clearly generated experimental data (foci counts, survival curves, etc.). The statement likely means that no external datasets were used, but as written it suggests the study produced no data.
+  - **Required correction** Rewrite to clarify that all data generated in this study are included in the article or available upon request.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency of terminology
+  - **Affected element** Abstract and discussion
+  - **Evidence pointer** Abstract uses "sulfenylation" while the discussion uses "oxidation" and "sulfenic acid"
+  - **Issue** The terms are used interchangeably but could be confusing. Sulfenylation specifically refers to the formation of sulfenic acid (S-OH), which is a specific oxidation state. Clarify the terminology for consistency.
+  - **Required correction** Use "sulfenylation" or "S-hydroxylation" consistently when referring to the specific modification, and "oxidation" as a broader term.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 6D-E
+  - **Evidence pointer** The text mentions "p = 0.6", "p = 0.084", and "p = 0.0006" but does not specify which test was used for each comparison.
+  - **Required correction** Specify the statistical test used for each comparison in the figure legend or methods.
+
+## Risk / unsupported claims
+- The claim that Cys319 is the specific site of oxidation that impairs HR is not directly proven; no site-specific mass spectrometry data are provided.
+- The claim that PRDX1 "protects" RAD51 from oxidation is supported by correlative data but the mechanism (direct reduction vs. peroxide scavenging vs. chaperone) is not established.
+- The MD simulation conclusion that sulfenylation of Cys319 causes DNA dissociation is based on a single trajectory and a homology model; this should be considered preliminary.
+- The statement in the discussion that "the Cys319 residue in RAD51 is evolutionarily conserved throughout mammalian species" is not supported by any data shown in the manuscript.
+- The claim that PRDX1 deficiency "results in increased DNA damage" is based on γH2AX foci, which is an indirect measure; no direct DNA damage assays (e.g., comet assay, pulsed-field gel electrophoresis) are shown.
+- The abstract states that Cys319 is "important for irradiation-induced RAD51 foci formation and resistance to inhibitors of poly (ADP-ribose) polymerase (PARP)" but the PARP inhibitor data are only shown for MDA-MB-231 cells and the mechanism linking Cys319 to PARP inhibitor sensitivity is not explored.

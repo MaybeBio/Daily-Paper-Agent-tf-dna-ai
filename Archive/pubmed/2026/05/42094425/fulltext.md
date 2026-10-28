@@ -1,0 +1,7 @@
+# Predictive control of human pancreatic cell fate using a digital model of
+in vitro
+differentiation
+
+
+## SUMMARY
+  The controlled generation of mature stem cell-derived islets (SC-islets) remains a barrier to scalable cell therapy for diabetes. Here, we develop a predictive digital model defining the cell-state-specific regulatory logic governing fate specification during human SC-islet differentiation. We integrate 400,603 cells from 9 original single-cell multiomic datasets and 52 public single-cell RNA-seq and ATAC-seq datasets across 4 cell lines and 7 differentiation protocols. This model resolves transcriptional and chromatin accessibility dynamics while enabling time-resolved inference and in silico perturbation of cell-state-specific gene regulatory networks. We identify regulators across trajectories from endoderm progenitors to pancreatic exocrine and endocrine lineages, nominating new candidate regulators. Among these candidates, we validate previously unreported roles for STAT1 as an exocrine driver and ZEB1 as a dynamic regulator of early endocrine specification and later off-target serotonergic islet cell fate. This work provides an experimentally supported predictive framework and an interactive resource comprising 1,116 simulations to prioritize transcription factors and intervention windows for refining SC-islet differentiation.

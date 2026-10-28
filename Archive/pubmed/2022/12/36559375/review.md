@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Conceptual proposal and simulation evidence as described in the abstract
+- **Shared manuscript claim summary** The authors propose that repetitive stretch-relaxation of a long double-stranded DNA molecule with a periodic flexibility gradient can create a Brownian ratchet, enabling directional transport of cationic nanoparticles along DNA. They claim support from Brownian dynamics simulations of coarse-grained models.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or simulation details provided
+- **Missing materials affecting confidence** Full manuscript, simulation parameters, model details, quantitative results, comparison to control conditions, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents an intriguing conceptual extension of Brownian ratchet principles to DNA-based nanoparticle transport, leveraging sequence-dependent DNA flexibility. The idea is novel and potentially impactful for nanoscale directed transport. However, the evidence base is limited to a brief description of simulation outcomes, with no quantitative data or methodological detail visible. The core claim of directional transport is plausible but not verifiable from the supplied material. The proposal's feasibility hinges on several unaddressed physical assumptions, including the magnitude of flexibility variation, the coupling between DNA stretching and potential modulation, and the robustness of ratchet operation under thermal noise.
+- **Who would be interested in the results, and why** Researchers in nanoscale transport, DNA nanotechnology, biophysics of polymer-nanoparticle interactions, and nonequilibrium statistical mechanics. The work could inform design of molecular-scale sorting or delivery devices, and it bridges soft matter physics with synthetic biology applications.
+- **Major strengths** The concept is original, combining established Brownian ratchet theory with sequence-dependent DNA mechanics in a way not previously proposed. The use of repetitive stretch-relaxation as a nonequilibrium driving mechanism is physically motivated and distinct from common approaches like oscillating potentials or flashing ratchets. The proposal has clear interdisciplinary appeal, connecting statistical physics, polymer science, and nanobiotechnology.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "Realization of the proposed Brownian ratchet was proven by Brownian dynamics simulations."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The term "proven" is too strong given the visible evidence. The abstract provides no quantitative metrics, such as drift velocity, directional persistence, or comparison to symmetric-potential controls. Without these, the claim of directional transport cannot be assessed.
+  - **Why it matters** A Brownian ratchet requires a demonstrable net flux that exceeds thermal fluctuations and is absent in symmetric or equilibrium conditions. The abstract does not show that the observed transport is statistically significant or ratchet-specific.
+  - **Resolution test** Provide simulation results showing mean displacement or velocity of nanoparticles as a function of stretch-relaxation cycle parameters, with error bars and comparison to a control with uniform DNA flexibility or no stretching.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Physical plausibility
+  - **Claim pointer** The abstract states that "repetitive stretching and relaxation of a long, double-stranded DNA molecule with periodic flexibility gradient can induce nonequilibrium fluctuations that tune the amplitude of asymmetric potentials."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The mechanism by which stretch-relaxation modulates the binding potential amplitude is not explained. It is unclear whether stretching changes the effective flexibility profile, the nanoparticle binding affinity, or the spatial periodicity. The abstract does not specify the timescales of stretching relative to nanoparticle diffusion or binding kinetics.
+  - **Why it matters** For a ratchet to operate, the potential modulation must occur on timescales that allow the particle to respond but not equilibrate. If the stretching is too fast or too slow relative to binding/unbinding rates, the ratchet effect will vanish. The abstract provides no justification for parameter choices.
+  - **Resolution test** Describe the physical model linking DNA extension to potential amplitude, and show simulation results across a range of stretching frequencies and amplitudes, demonstrating a regime where net transport is nonzero and robust.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model realism
+  - **Claim pointer** The abstract claims that "Brownian dynamics simulations of coarse-grained models of a single, long DNA molecule with flexibility variation and a cationic nanoparticle" support the proposal.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The coarse-grained model's fidelity is unknown. Key details such as the DNA bead size, persistence length variation, nanoparticle charge and size, electrostatic interaction model, and solvent conditions are absent. It is unclear whether the model captures realistic DNA flexibility gradients or nanoparticle binding energetics.
+  - **Why it matters** Overly simplified models can produce ratchet-like behavior that does not survive in physical systems. Without validation against known DNA mechanics or experimental binding data, the simulation results may be an artifact of model assumptions.
+  - **Resolution test** Provide model parameters and a sensitivity analysis, and compare simulated DNA flexibility profiles to experimental measurements (e.g., cyclization or force-extension data) to establish realism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "periodic and asymmetric potential" is used without specifying whether the asymmetry arises from the DNA sequence or from the stretching protocol. This ambiguity could confuse readers.
+  - **Required correction** Clarify that the asymmetry is intrinsic to the DNA flexibility gradient, while the stretching provides the nonequilibrium driving.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Claim of generality
+  - **Evidence pointer** Abstract, second sentence
+  - **Issue** The abstract states the proposal applies to "sizes below tens of nanometers," but no justification is given for this size limit. It is unclear whether the ratchet mechanism fails for larger particles or simply was not tested.
+  - **Required correction** Either provide a physical rationale for the size range or state that the simulations were limited to this range.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental outlook
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract ends with simulation support but does not mention any experimental feasibility considerations, such as how to generate a DNA molecule with a periodic flexibility gradient or how to apply controlled stretch-relaxation cycles.
+  - **Required correction** Add a brief note on experimental realizability or acknowledge this as a limitation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative simulation data and the lack of a mechanistic explanation for potential modulation prevent the core claim from being evaluated. R1-M3 is non-blocking but important for model credibility.
+- **Assessment against Nature-style criteria** Originality is high, as the combination of DNA flexibility gradients with stretch-relaxation-driven ratchets is not previously described. Scientific importance is moderate to high, with potential applications in nanoscale transport and molecular devices, but the impact depends on experimental realization, which is not demonstrated. Interdisciplinary readership is broad, spanning physics, chemistry, and biology, but the abstract's technical density may limit accessibility. Technical soundness cannot be fully assessed from the abstract; the simulation evidence is described but not shown. Readability for nonspecialists is adequate but could be improved by defining key terms like "ratchet" and "flexibility gradient" more explicitly.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and worthy of consideration, but the abstract alone does not provide sufficient quantitative or mechanistic support. A revised version with detailed simulation results, parameter justification, and a clearer physical model could change this assessment.
+
+## Risk / unsupported claims
+- The claim that the ratchet was "proven" by simulations is unsupported without quantitative data.
+- The assertion that stretch-relaxation "tunes the amplitude of asymmetric potentials" is not mechanistically explained.
+- The size range "below tens of nanometers" is stated without justification.
+- The general applicability of the proposal to any DNA sequence with flexibility variation is implied but not demonstrated.

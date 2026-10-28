@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract text
+- **Shared manuscript claim summary** The authors use computational chemistry methods (QM/MM and related approaches) to characterize the interaction of mangiferin with MMP-9 and NF-kappaB. They report that mangiferin inhibits MMP-9 via a penta-coordinate interaction with the catalytic Zn atom, supported by a strong charge transfer in QM/MM. For NF-kappaB, they report that 92.3% of interactions between the p50 subunit and DNA are maintained, with a binding energy of -8.04 kcal/mol, and conclude that mangiferin blocks the p50-p65/DNA interaction, suggesting inhibition of cancer progression.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or numerical data beyond those stated in the abstract
+- **Missing materials affecting confidence** Full manuscript, methods section, force field and QM/MM parameters, system setup details, validation of computational protocols, statistical analyses, and any experimental data referenced but not shown
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing a biologically relevant question, namely the molecular basis of mangiferin's interaction with MMP-9 and NF-kappaB. However, the level of detail provided is insufficient to evaluate the technical soundness of the methods, the robustness of the results, or the validity of the mechanistic conclusions. Several claims are stated without supporting quantitative or methodological context, and some statements appear internally inconsistent or imprecise. The work may be of interest to computational chemists and cancer biologists, but the case as presented is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists studying protein-ligand interactions, particularly those using QM/MM approaches for metalloenzymes, would be interested in the methodological application. Cancer biologists and pharmacologists investigating natural products with anti-inflammatory and anti-cancer properties, especially those targeting NF-kappaB and matrix metalloproteinases, would find the proposed mechanisms relevant. The study could also appeal to researchers working on xanthone derivatives as therapeutic leads.
+- **Major strengths** The study addresses a clinically relevant target pair (MMP-9 and NF-kappaB) with a natural compound of pharmacological interest. The use of QM/MM to characterize the Zn coordination environment is an appropriate and potentially powerful approach. The abstract reports a specific quantitative outcome (92.3% interaction retention, binding energy of -8.04 kcal/mol) that, if properly derived, could provide a concrete basis for mechanistic interpretation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "MMP-9 inhibition by mangiferina is characterized for the interact with the catalytic Zn atom through a penta-coordinate structure" and "a strong charge transfer established between mangiferin and Zn in the QM/MM study"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not provide any methodological detail on how the penta-coordinate structure was determined, what level of QM theory was used, how the QM/MM boundary was treated, or how the charge transfer was quantified. Without this information, the claim of a penta-coordinate Zn interaction and strong charge transfer cannot be assessed for validity or reproducibility.
+  - **Why it matters** The central mechanistic claim for MMP-9 inhibition rests on the Zn coordination geometry and the electronic interaction. If the QM/MM setup is not described or validated, the conclusion is unsupported. Charge transfer is a sensitive property that depends heavily on the choice of method and basis set.
+  - **Resolution test** Provide full methods for the QM/MM calculations, including software, level of theory, basis sets, partitioning scheme, and convergence criteria. Report the calculated Zn coordination number and geometry, and quantify charge transfer using a defined population analysis method with error estimates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** "the 92.3% of interactions between p50 sub-unity and DNA are maintained with a binding energy of - 8.04 kcal/mol" and "mangiferin blocks the p50-p65/DNA interaction resulting in the loss of the functions of this hetero-dimeric member"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that 92.3% of interactions are maintained, which suggests that most interactions are preserved, yet the conclusion is that mangiferin blocks the p50-p65/DNA interaction. These statements appear contradictory. If 92.3% of interactions are maintained, the binding may not be effectively blocked. The binding energy of -8.04 kcal/mol is reported without context, such as the binding energy of the native complex or the threshold for functional disruption.
+  - **Why it matters** The conclusion of NF-kappaB inhibition depends on demonstrating a functionally significant disruption of the p50-p65/DNA complex. The reported numbers do not clearly support a blocking effect, and the interpretation may be overstated or misaligned with the data.
+  - **Resolution test** Clarify what the 92.3% figure represents (e.g., fraction of native contacts retained in the complex, fraction of hydrogen bonds, or something else). Provide a comparison with the native complex binding energy and a rationale for why the reported binding energy and interaction retention correspond to functional blockade.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** "Mangiferin interferes with inflammation, lipid, and calcium signaling, which selectively inhibits multiple NFkB target genes" and "Experimental results concerning the anti-cancer properties of mangiferin show that this natural compound can inhibit selectively MMP-9 and NF-kbeta"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract refers to experimental results supporting selective inhibition of MMP-9 and NF-kappaB, but no experimental data, references, or quantitative outcomes are provided. The phrase "anti-proliferative and anti-apoptotic activity" is also used, which is internally inconsistent because anti-apoptotic activity would typically promote cell survival, not inhibit cancer progression. This may be a typographical error, but as written it confuses the biological interpretation.
+  - **Why it matters** The study is framed as corroborating experimental findings, but the abstract does not allow the reader to verify this claim. The apparent contradiction between anti-proliferative and anti-apoptotic activity undermines the clarity of the biological conclusion.
+  - **Resolution test** Provide the experimental data or citations that support selective inhibition. Correct the terminology to accurately describe the observed biological activities (e.g., pro-apoptotic or anti-proliferative, as appropriate).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Terminology and spelling
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The compound is referred to as "mangiferin" and "mangiferina" inconsistently. The target is written as "NF-kappabeta" and "NF-kbeta" in different places. The phrase "p50 sub-unity" should be "p50 subunit."
+  - **Required correction** Standardize the spelling of the compound and target names throughout the abstract. Correct "sub-unity" to "subunit."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods summary
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not specify which computational methods were used beyond "QM/MM" and "computational chemistry methods." No mention is made of docking, molecular dynamics, or other techniques that may have been employed.
+  - **Required correction** Briefly state the full set of methods used (e.g., docking, MD, QM/MM) in the abstract or ensure the full manuscript provides this information clearly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Binding energy context
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The binding energy of -8.04 kcal/mol is reported without an error estimate or comparison to a reference state.
+  - **Required correction** Report the binding energy with an uncertainty estimate and, if possible, compare it to the binding energy of the native p50-p65/DNA complex or a control ligand.
+
+## Risk / unsupported claims
+- The claim that mangiferin "blocks" the p50-p65/DNA interaction is not supported by the reported 92.3% interaction retention figure, which appears to indicate the opposite.
+- The claim that experimental results show selective inhibition of MMP-9 and NF-kappaB is unsupported because no experimental data or references are provided in the abstract.
+- The statement regarding "anti-proliferative and anti-apoptotic activity" is internally inconsistent and cannot be interpreted as written.
+- The mechanistic claim of penta-coordinate Zn coordination and strong charge transfer is unverifiable without methodological details.
+- The overall conclusion that mangiferin inhibits cancer progression through these mechanisms is not established from the abstract-level evidence.

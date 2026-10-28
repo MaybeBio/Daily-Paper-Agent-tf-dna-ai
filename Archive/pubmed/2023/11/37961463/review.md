@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report identification of small molecule ligand binding sites on and within the ARNT PAS-B domain using NMR, molecular dynamics simulations, and ensemble docking. They claim that two ARNT/TACC3 inhibitors, KG-548 and KG-655, bind to a β-sheet surface implicated in HIF-2 dimerization and coactivator recruitment, that KG-548 binds exclusively to this surface while KG-655 can also bind an internal water-accessible cavity, that KG-279 preferentially binds only the internal cavity, and that all three ligands promote ARNT PAS-B homodimerization to varying degrees.
+- **Visible evidence base** Abstract text only; no experimental details, spectra, simulation parameters, docking scores, or quantitative binding data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, NMR chemical shift perturbation data, MD simulation protocols and convergence analyses, docking methodology and scoring functions, binding affinity measurements, homodimerization assay details, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful approach to mapping ligand binding sites on a challenging transcription factor domain. The combination of NMR, MD, and ensemble docking is appropriate for the stated problem of weak-affinity ligands. However, the abstract alone provides insufficient detail to evaluate the technical rigor of the methods, the robustness of the binding site assignments, or the quantitative basis for the homodimerization claims. The central conclusions regarding specific binding site locations and the distinction between surface-only versus surface-plus-cavity binding for KG-548 and KG-655 rest on evidence that is not visible in the supplied material.
+- **Who would be interested in the results, and why** Researchers in chemical biology, structural biology, and drug discovery focused on transcription factor targeting, particularly those working on PAS domain proteins, hypoxia signaling, or ARNT-mediated pathways. The work may also interest computational chemists developing ensemble docking approaches for weak-affinity ligands and NMR spectroscopists applying fragment screening to challenging protein targets.
+- **Major strengths** The study addresses a biologically and therapeutically relevant problem, namely the difficulty of targeting transcription factors with small molecules. The methodological strategy of combining multiple orthogonal techniques to overcome the challenge of weak ligand affinities is sensible and potentially transferable to other systems. The identification of distinct binding sites on a single domain, including an internal cavity, provides a more complete picture than surface-only mapping. The connection to prior work on HIF-2α PAS-B gives the study a clear rationale and potential translational relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that KG-548 and KG-655 bind to a β-sheet surface implicated in both HIF-2 dimerization and coactivator recruitment, and that KG-548 binds exclusively to this surface while KG-655 can additionally bind within an internal cavity.
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative data provided
+  - **Concern** The abstract states these binding site assignments were made using NMR, MD simulations, and ensemble docking, but provides no information on the quality or extent of the NMR data, the convergence or sampling adequacy of the MD simulations, the docking validation approach, or the criteria used to distinguish exclusive surface binding from additional cavity binding. Without these details, it is impossible to assess whether the binding site assignments are robust or whether alternative interpretations are equally consistent with the data.
+  - **Why it matters** The central contribution of the work is the identification and differentiation of ligand binding sites. If the evidence for these assignments is weak or ambiguous, the conclusions do not support the stated findings, and the utility of the work for guiding future inhibitor development is undermined.
+  - **Resolution test** Provide the full NMR chemical shift perturbation data with residue-level mapping, show that MD simulations reached equilibrium and sampled sufficient conformational space, present docking scores and poses with appropriate validation (for example, cross-validation or comparison to known binders), and demonstrate that the distinction between exclusive surface binding and additional cavity binding is supported by differential experimental observations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that all three ligands promoted ARNT PAS-B homodimerization, albeit to varying degrees.
+  - **Evidence pointer** Abstract only; no assay details or quantitative results provided
+  - **Concern** The abstract reports that KG-548, KG-655, and KG-279 all promote ARNT PAS-B homodimerization, but provides no information on the assay used, the magnitude of the effect, the concentrations tested, or the statistical significance of the observations. It is unclear whether this is a direct biophysical measurement, a cellular assay, or an inference from the binding data.
+  - **Why it matters** Homodimerization is presented as a functional consequence of ligand binding. If this claim is not supported by robust quantitative data, it cannot be distinguished from a minor or non-specific effect, and the functional relevance of the identified binding sites remains unclear.
+  - **Resolution test** Provide the homodimerization assay details, including the method (for example, NMR, size exclusion chromatography, or cellular reporter), the dose-response data, the magnitude of the effect relative to controls, and appropriate statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Contextual grounding
+  - **Claim pointer** The statement that KG-279 exemplifies ligands that preferentially bind only to the internal cavity.
+  - **Evidence pointer** Abstract only; no comparative binding data provided
+  - **Concern** The abstract introduces KG-279 as an example of a ligand that binds preferentially to the internal cavity, but provides no comparative data showing that this preference is statistically or experimentally distinguishable from the behavior of KG-548 and KG-655. The term "preferentially" implies a quantitative comparison that is not described.
+  - **Why it matters** The distinction between ligands that bind only the surface, only the cavity, or both is a key conceptual framework of the paper. Without quantitative evidence for the selectivity of KG-279, this framework is not established.
+  - **Resolution test** Provide binding affinity or occupancy data for all three ligands at both sites, with appropriate error estimates, to demonstrate that KG-279 shows a statistically significant preference for the internal cavity.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The statement that transcription factors are "generally challenging to target" is presented without citation or qualification, and the phrase "notable exceptions" is vague.
+  - **Required correction** Provide a brief citation or clarify which transcription factors are considered exceptions and why.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract methods description
+  - **Evidence pointer** Abstract, methods sentence
+  - **Issue** The abstract mentions "ensemble docking" but does not specify the receptor ensemble generation method or the docking program used.
+  - **Required correction** Add a brief specification of the ensemble generation approach and docking software, or note that these details are in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The statement that the findings "may guide the development of more potent coactivator inhibitors" is speculative and not directly supported by the data presented.
+  - **Required correction** Soften the claim or provide a brief rationale for how the identified binding sites could inform inhibitor design.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The binding site assignments and the homodimerization claim are the core findings, and neither is supported by visible evidence in the abstract. R1-M3 is non-blocking but requires additional quantitative data to fully establish the proposed framework.
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach of combining NMR, MD, and ensemble docking to map weak ligand binding sites on a transcription factor domain is not entirely novel, but the specific application to ARNT PAS-B and the identification of multiple distinct sites may offer new insights. The originality cannot be fully assessed from the abstract alone.
+  - Scientific importance: The work addresses a challenging and relevant problem in transcription factor drug discovery. If the findings are robust, they could inform future inhibitor development for ARNT-mediated pathways. The importance is moderate to high, depending on the strength of the evidence.
+  - Interdisciplinary readership: The topic bridges structural biology, biophysics, and drug discovery, and would likely appeal to readers across these fields. The abstract is written in a way that is accessible to a broad scientific audience.
+  - Technical soundness: Cannot be assessed from the abstract. The combination of methods is appropriate in principle, but the lack of methodological detail and quantitative results prevents evaluation of the technical execution.
+  - Readability for nonspecialists: The abstract is clearly written and understandable to a general scientific audience, with appropriate context provided for the biological problem.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting and potentially valuable study, but the core claims regarding binding site locations and functional consequences are not supported by the visible evidence. A full assessment requires access to the complete manuscript, including all figures, tables, and methodological details. If the full data support the claims, the work could be of interest to the community, but the current evidence base is insufficient for a positive recommendation.
+
+## Risk / unsupported claims
+- The specific binding site assignments for KG-548, KG-655, and KG-279 are unsupported in the abstract; no experimental or computational evidence is visible.
+- The claim that all three ligands promote ARNT PAS-B homodimerization is unsupported; no assay details or quantitative data are provided.
+- The statement that KG-279 binds "preferentially" to the internal cavity is unsupported; no comparative quantitative data are provided.
+- The implication that the identified binding sites could guide development of more potent inhibitors is speculative and not directly supported by the presented findings.
+- The general claim about transcription factors being challenging to target is presented without citation or qualification.

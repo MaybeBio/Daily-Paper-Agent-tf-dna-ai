@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "41908043",
+    "doi": "10.3389/fcvm.2026.1715946",
+    "title": "Establishing an atherosclerosis diagnostic model based on WGCNA and machine learning algorithms with key genes in cholesterol metabolism and ferroptosis, and revealing the regulatory role of HMOX1 in cellular ferroptosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: As the primary pathological basis for cardiovascular diseases, atherosclerosis (AS) arises from pathogenesis closely linked to dysregulated cholesterol metabolism and ferroptosis. This study seeks to develop an AS diagnostic model and identify potential biomarkers. METHODS: AS-related transcriptomic datasets were obtained from the GEO database. Differentially expressed cholesterol metabolism- and ferroptosis-related genes (DE-CM-FRGs) were screened by integrating WGCNA module genes, AS-related differentially expressed genes, cholesterol metabolism-related genes, and ferroptosis-related genes. Consensus clustering was performed to subtype AS patients. Hub genes were refined using three machine learning algorithms: Least Absolute Shrinkage and Selection Operator (LASSO), Support Vector Machine-Recursive Feature Elimination (SVM-RFE) and Boruta. A logistic regression diagnostic model based on filtered genes was established and evaluated with ROC curves. A nomogram was constructed and evaluated through calibration, decision, and impact curves, followed by building a diagnostic gene-based regulatory network. Single-cell RNA sequencing analyzed HMOX1-expressing cells. In vitro, HMOX1 knockdown effects on proliferation, ROS, MDA, iron content, and mRNA expression of SLC7A11, GPX4, and ACSL4 were assessed in ox-LDL-induced THP-1 cells. RESULTS: The identified five core feature genes (CD36, DPP4, HMOX1, IL1B, NFIL3) exhibited robust diagnostic relevance and auxiliary discriminant value across both training and validation sets. The diagnostic model based on these five genes exhibited strong discriminatory ability in both sets. Regulatory network analysis revealed interactions between the diagnostic genes and transcription factors, miRNAs, and compounds. HMOX1 knockdown suppressed ox-LDL-induced THP-1 cell proliferation, lowered intracellular ROS, MDA, and iron levels, upregulated GPX4 and SLC7A11 expression, and downregulated ACSL4. CONCLUSION: By systematically identifying key genes in AS-associated cholesterol metabolism and ferroptosis, this study constructs a robust diagnostic model and identifies potential biomarkers and therapeutic targets for AS diagnosis.",
+    "keywords": [
+      "WGCNA",
+      "atherosclerosis",
+      "cholesterol metabolism",
+      "ferroptosis",
+      "machine learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Zengguang",
+        "Liu, Caihui",
+        "Liu, Yiwen",
+        "Hong, Zijian",
+        "Zhong, Jianming",
+        "Yang, Bei",
+        "Yuan, Ye"
+      ],
+      "short_names": [
+        "Fan Z",
+        "Liu C",
+        "Liu Y",
+        "Hong Z",
+        "Zhong J",
+        "Yang B",
+        "Yuan Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Cardiovascular Medicine Department, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, Jiangxi, China.",
+        "Jiangxi University of Chinese Medicine, Nanchang, Jiangxi, China.",
+        "Jiangxi University of Chinese Medicine, Nanchang, Jiangxi, China.",
+        "Jiangxi University of Chinese Medicine, Nanchang, Jiangxi, China.",
+        "Jiangxi University of Chinese Medicine, Nanchang, Jiangxi, China.",
+        "Jiangxi University of Chinese Medicine, Nanchang, Jiangxi, China.",
+        "Endocrine Department, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, Jiangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Zengguang",
+        "short_name": "Fan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Medicine Department, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Caihui",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi University of Chinese Medicine, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yiwen",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi University of Chinese Medicine, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Zijian",
+        "short_name": "Hong Z",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi University of Chinese Medicine, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Jianming",
+        "short_name": "Zhong J",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi University of Chinese Medicine, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Bei",
+        "short_name": "Yang B",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi University of Chinese Medicine, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Ye",
+        "short_name": "Yuan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Endocrine Department, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, Jiangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cardiovascular medicine"
+    ],
+    "journal_abbrev": [
+      "Front Cardiovasc Med"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/30 12:49",
+    "fetched_at": "2026-10-01 17:34:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40442370",
+      "40369512",
+      "40177204",
+      "39901821",
+      "39828340",
+      "39731912",
+      "39528464",
+      "39244533",
+      "38969749",
+      "38855330",
+      "38753689",
+      "38637425",
+      "38476236",
+      "38355636",
+      "38350505",
+      "38283628",
+      "38146045",
+      "38100883",
+      "38049061",
+      "38043719",
+      "37914585",
+      "37741601",
+      "37336075",
+      "37219513",
+      "37175617",
+      "37063851",
+      "36911691",
+      "36041476",
+      "35802988",
+      "35734177",
+      "35364459",
+      "35328769",
+      "35279183",
+      "35163256",
+      "35128489",
+      "35054008",
+      "34991791",
+      "34611635",
+      "34557778",
+      "34138676",
+      "33693480",
+      "33669374",
+      "33570554",
+      "32768568",
+      "31810634",
+      "30830865",
+      "30809018",
+      "30692261",
+      "28052254",
+      "24075775",
+      "17413033"
+    ],
+    "similar": [
+      "41908043",
+      "40895546",
+      "41508240",
+      "40948782",
+      "41432483",
+      "39507054",
+      "41388523",
+      "41787525",
+      "41324863",
+      "41257951",
+      "37645416",
+      "41021591",
+      "41583468",
+      "39707003",
+      "42582956",
+      "42267557",
+      "38650009",
+      "39394418",
+      "41415264",
+      "39396400",
+      "39072329",
+      "39375405",
+      "41106221",
+      "42530267",
+      "42326009",
+      "41858783",
+      "41200172",
+      "41312366",
+      "42292668",
+      "41988156",
+      "37131411",
+      "37530128",
+      "41013556",
+      "40687151",
+      "38887322",
+      "41102315",
+      "40830558",
+      "39586719",
+      "40592741",
+      "38291374",
+      "42164373",
+      "40708018",
+      "41030501",
+      "36034449",
+      "41583295",
+      "40901831",
+      "38371524",
+      "36470144",
+      "42340574",
+      "39697326",
+      "42257259",
+      "41186509",
+      "42015036",
+      "42092981",
+      "40789248",
+      "41378206",
+      "40612574",
+      "42327749",
+      "42367122",
+      "39169865",
+      "40997906",
+      "37821869",
+      "40618698",
+      "37520121",
+      "42597971",
+      "37752199",
+      "41611834",
+      "36968495",
+      "38725627",
+      "37081490",
+      "41169155",
+      "36915125",
+      "41257259",
+      "39142001",
+      "40060994",
+      "41909133",
+      "39735537",
+      "37608666",
+      "39509434",
+      "42004467",
+      "37957905",
+      "36506471",
+      "37854191",
+      "39061076",
+      "38362683",
+      "42305491",
+      "41188996",
+      "40620701",
+      "42338208",
+      "41117218",
+      "39730379",
+      "41262249",
+      "42431430",
+      "41291841",
+      "38649912",
+      "41955235",
+      "41895505",
+      "40916281",
+      "41299485",
+      "41760060"
+    ],
+    "review": [
+      "41908043"
+    ],
+    "pmc": [
+      "13017376"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41908043/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1292",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcvm.2026.1715946",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

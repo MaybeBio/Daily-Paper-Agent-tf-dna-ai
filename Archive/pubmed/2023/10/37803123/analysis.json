@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37803123",
+  "title": "Deep Learning for Predicting Gene Regulatory Networks: A Step-by-Step Protocol in R.",
+  "authors": "Muley, Vijaykumar Yogesh",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2023-10-07",
+  "window": {
+    "start": "2023-10-02",
+    "end": "2023-10-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提供基于R中TensorFlow/Keras的深度学习协议，用于预测转录因子与基因间的调控网络，虽涉及TF-DNA调控关系预测，但主要依赖基因表达数据而非三维互作建模，方法可迁移但深度有限。",
+  "abstract": "Deep learning has emerged as a powerful tool for solving complex problems, including reconstruction of gene regulatory networks within the realm of biology. These networks consist of transcription factors and their associations with genes they regulate. Despite the utility of deep learning methods in studying gene expression and regulation, their accessibility remains limited for biologists,  mainly due to the prerequisites of programming skills and a nuanced grasp of the underlying algorithms. This chapter presents a deep learning protocol that utilize TensorFlow and the Keras API in R/RStudio, with the aim of making deep learning accessible for individuals without specialized expertise. The protocol focuses on the genome-wide prediction of regulatory interactions between transcription factors and genes, leveraging publicly available gene expression data in conjunction with well-established benchmarks. The protocol encompasses pivotal phases including data preprocessing, conceptualization of neural network architectures, iterative processes of model training and validation, as well as forecasting of novel regulatory associations. Furthermore, it provides insights into parameter tuning for deep learning models. By adhering to this protocol, researchers are expected to gain a comprehensive understanding of applying deep learning techniques to predict regulatory interactions. This protocol can be readily modifiable to serve diverse research problems, thereby empowering scientists to effectively harness the capabilities of deep learning in their investigations.",
+  "abstract_zh": "深度学习已成为解决复杂问题的强大工具，包括在生物学领域内重建基因调控网络。这些网络由转录因子及其与所调控基因的关联组成。尽管深度学习方法在研究基因表达和调控方面具有实用性，但其可及性对生物学家而言仍有限，主要因为需要编程技能和对底层算法的细致理解。本章介绍一种利用TensorFlow和R/RStudio中Keras API的深度学习协议，旨在使无专业知识的个体也能使用深度学习。该协议聚焦于转录因子与基因之间调控相互作用的基因组范围预测，利用公开可用的基因表达数据及公认基准。协议涵盖关键阶段，包括数据预处理、神经网络架构概念化、模型训练与验证的迭代过程，以及新调控关联的预测。此外，它还提供了深度学习模型参数调优的见解。通过遵循此协议，研究人员有望全面理解应用深度学习技术预测调控相互作用。该协议可轻松修改以适应多样研究问题，从而赋能科学家在其调查中有效利用深度学习能力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37803123/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37803123/",
+  "paper_page_path": "papers/pubmed/37803123/index.html"
+}

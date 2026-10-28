@@ -1,253 +1,321 @@
 ## 01 基本信息
 
 - **标题**：Genomic foundation model-derived disruption profiling links somatic mutations to cancer biology and clinical outcomes
-- **作者**：Nayak A; Lee T; Agarwal V; Georgakopoulos-Soares I
-- **单位**：未提供（medRxiv 预印本未列出完整单位信息）
-- **期刊/平台**：medRxiv（预印本）
-- **年份**：2026
+- **作者与单位**：Nayak A; Lee T; Agarwal V; Georgakopoulos-Soares I（单位未提供，通讯作者 Georgakopoulos-Soares 实验室，GitHub 显示为 Georgakopoulos-Soares-lab）
+- **期刊/预印本平台**：medRxiv（预印本）
+- **年份**：2026（预印本日期 2026-09-16）
 - **论文类型**：预印本（方法学 + 应用研究）
-- **领域**：癌症基因组学 × 基因组基础模型（genomic foundation models）
-- **关键词**：somatic mutations, disruption profiling, AlphaGenome, AlphaMissense, cancer genomics, regulatory effects, survival
-- **DOI/ID**：10.64898/2026.09.15.26363174
-- **代码**：未提供
-- **数据**：TCGA（dbGaP phs000178.v11.p8）、TCGA-CDR、IntOGen、POG570、Cancer hotspots v2（均在 Data Availability 中列出）
-- **阅读日期**：2026-09-16（按预印本日期推断）
-- **在该课题方向中的位置**：本文属于「基因组基础模型（sequence-to-function models）应用于癌症体细胞突变功能解读」方向。与「蛋白质-DNA 互作（TF–DNA 结合机制）× AI」课题的直接关联在于：本文使用 AlphaGenome 预测的**转录因子结合（transcription factor binding）**和**染色质可及性（chromatin accessibility）**作为 disruption 模态之一，并发现染色质可及性 disruption 与生存关联最强——这为 TF–DNA 结合扰动如何影响癌症表型提供了大规模、跨癌种的证据。方法上，其「aggregate variant-level predictions to patient-gene profiles」的框架可迁移到 TF–DNA 结合扰动的患者级聚合分析。
+- **领域**：癌症基因组学 × 基因组基础模型（sequence-to-function model）
+- **关键词**：somatic mutations, cancer genomics, AlphaGenome, AlphaMissense, regulatory disruption, TCGA, survival analysis
+- **DOI/arXiv 号**：10.64898/2026.09.15.26363174
+- **代码**：https://github.com/Georgakopoulos-Soares-lab/cancer_non_coding
+- **数据**：TCGA（dbGaP phs000178.v11.p8）、POG570（https://www.bcgsc.ca/downloads/POG570）、IntOGen、Cancer hotspots v2、TCGA-CDR
+- **阅读日期**：2026-09-16
+- **该文在课题方向中的位置**：本文使用基因组基础模型 AlphaGenome 对体细胞突变进行调控层面的 disruption 定量，与「TF–DNA 结合机制 × AI」课题的关联在于：其 disruption profiling 框架中显式包含 **transcription factor (TF) ChIP-seq** 这一模态，即用深度学习模型预测突变对 TF 结合的影响；同时其「将突变效应分解为蛋白层面（AlphaMissense）与调控层面（AlphaGenome）两个正交轴」的思路，可直接迁移到 TF–DNA 结合机制研究中区分「编码区突变改变 TF 蛋白本身」与「非编码区突变改变 TF 结合位点」两类效应。
 
 ---
 
 ## 02 一句话总结
 
-本文使用 AlphaGenome 和 AlphaMissense 两个序列到功能模型，对 TCGA 33 种癌症类型 8,800 名患者的体细胞突变进行蛋白层面和调控层面的 disruption 预测，并将变异级预测聚合为患者-基因 disruption profiles，发现这些 profiles 反映组织来源、癌症类型和微卫星不稳定状态，且在缺乏热点突变的患者中，调控 disruption（尤其染色质可及性）与总生存期相关。
+本文使用基因组基础模型 AlphaGenome 对 TCGA 8,800 例患者、33 种癌症类型的体细胞突变进行七种调控模态（RNA-seq、CAGE、ATAC-seq、DNase-seq、组蛋白 ChIP-seq、TF ChIP-seq、剪接位点）的 disruption 定量，发现热点突变富集强蛋白效应而 passenger 突变携带更广泛的调控效应，且 passenger 来源的染色质可及性（ATAC）disruption 与总生存期相关，并在 POG570 治疗队列中显示治疗特异性预后关联。
 
 ---
 
 ## 03 研究问题
 
-- **具体问题**：体细胞突变是否可以通过累积产生**部分性、基因水平的 disruption**（而非传统的二元驱动/非驱动分类），并且这种 disruption 是否具有生物学和临床后果？
-- **为什么重要**：传统癌症基因组学聚焦于单个突变（尤其是热点突变和驱动突变），忽略了大量非热点突变可能通过调控元件（如 TF 结合位点、染色质可及性区域）产生累积效应。如果这种「连续、多维」的 disruption 观点成立，将改变癌症基因优先排序和患者分层的方式。
-- **现有方法为何不足**：传统方法依赖 recurrence 或功能实验注释来识别驱动基因，无法量化非热点突变的调控效应；且缺乏从 DNA 序列直接预测多种分子表型（蛋白功能、染色质、TF 结合、剪接）的整合框架。
-- **精确研究问题（Can...?）**：Can genomic foundation model-derived disruption profiles, aggregated from variant-level sequence-to-function predictions, capture biologically and clinically meaningful gene-level perturbation beyond discrete driver mutations in cancer?
+- **具体问题**：体细胞突变能否在单个基因水平上累积产生「部分、连续」的调控 disruption（而非传统的二元 driver/non-driver 分类），并且这种 disruption 是否具有生物学和临床意义？
+- **为什么重要**：传统癌症基因组学聚焦于编码区热点突变和总突变负荷（TMB），忽略了非编码调控效应（染色质、转录调控、剪接）以及突变在基因内的累积效应；这些被忽略的效应可能携带独立的预后和治疗反应信息。
+- **现有方法不足**：
+  - 编码热点分析（Vogelstein 2013; Bailey 2018）只捕捉强蛋白效应，遗漏调控效应；
+  - TMB 和突变特征分析（Alexandrov 2013）是聚合度量，无法定位到具体基因和调控模态；
+  - 传统非编码注释依赖预定义的调控元件，无法直接量化突变对调控输出的影响。
+- **精确的 Can 问题**：Can a genomic foundation model (AlphaGenome)-derived, gene-level regulatory disruption score, aggregated from somatic mutations, capture biological structure (tissue/cancer type/MSI status) and clinical outcomes (overall survival, treatment-specific survival) beyond tumor mutational burden and hotspot mutation status?
 
 ---
 
 ## 04 背景与发展脉络
 
-> 注：以下脉络基于本文框架及该领域已知发展，标注「经外部核验」的部分为领域共识。
+> 注：以下脉络基于本文引言与讨论的叙述，标注为「仅本文框架」；未逐一核对外部文献。
 
-1. **阶段一：单变异功能注释（约 2015–2020）**
-   - 代表方法：PolyPhen-2、SIFT、CADD、ClinVar 注释
-   - 优点：可扩展、计算快
-   - 局限：主要针对蛋白编码效应，缺乏调控层面预测；对非编码突变覆盖弱
-   - 经外部核验
+1. **阶段一：driver 基因/突变发现**（Vogelstein 2013; Bailey 2018）
+   - 代表方法：突变显著性分析、热点检测
+   - 优点：识别高置信 driver
+   - 局限：二元分类，忽略累积和调控效应
 
-2. **阶段二：序列到功能深度学习模型（约 2021–2024）**
-   - 代表方法：Enformer、Basenji、AlphaMissense
-   - 优点：直接从 DNA 序列预测表达、染色质状态、TF 结合、剪接等
-   - 局限：多为单模态预测，缺乏跨模态整合；变异级预测未系统聚合到患者/基因水平
-   - 经外部核验
+2. **阶段二：聚合突变负荷分析**（Rizvi 2015; Alexandrov 2013; Sha 2020）
+   - 代表方法：TMB、突变特征
+   - 优点：与免疫治疗反应等临床结局关联
+   - 局限：无法定位到基因和机制
 
-3. **阶段三：基因组基础模型（约 2024–2026）**
-   - 代表方法：AlphaGenome（本文使用）、Evo、Nucleotide Transformer
-   - 优点：多模态、可迁移、可同时预测蛋白和调控效应
-   - 局限：预印本阶段，验证尚不充分
-   - 经外部核验（AlphaGenome 本身为本文所用，其发布细节未提供）
+3. **阶段三：序列到功能（sequence-to-function）深度学习模型**（Avsec 2021 Enformer; Linder 2025 Borzoi; Avsec 2026 AlphaGenome）
+   - 代表方法：直接在 DNA 序列上预测染色质、表达、剪接等多模态调控输出
+   - 优点：无需预定义调控元件，可对任意变异打分
+   - 局限：此前未系统应用于癌症体细胞突变的基因水平聚合分析
 
-4. **本文主张的位置**：首次将 AlphaGenome + AlphaMissense 的变异级预测**系统聚合为患者-基因 disruption profiles**，并验证其与癌症类型、微卫星状态和生存的关联——即从「变异中心」转向「基因水平连续 disruption」视角。
-   - 仅本文框架
+4. **阶段四（本文位置）**：将 sequence-to-function 模型输出聚合为「基因-患者-模态」disruption profile，连接生物学结构（组织/癌症类型/MSI）与临床结局（生存、治疗反应），并系统对比蛋白层面（AlphaMissense）与调控层面（AlphaGenome）两个正交效应轴。
 
 ---
 
 ## 05 核心痛点
 
 | 痛点 | 表现 | 成因或作者解释 | 文中证据 |
-|------|------|----------------|----------|
-| 单变异视角忽略累积效应 | 癌症基因组学聚焦单个突变，忽略多个突变在基因水平的累积 disruption | 传统驱动基因概念是离散的（driver/non-driver），缺乏连续度量 | Abstract: "Cancer genomics has concentrated on individual mutations, overlooking whether somatic mutations can accumulate to produce partial, gene-level disruption" |
-| 非热点突变功能解读缺失 | 非热点突变在大多数癌种中表现出更大的调控效应，但传统方法无法量化 | 现有注释工具主要覆盖蛋白编码效应，调控预测能力有限 | Abstract: "non-hotspot mutations exhibited larger regulatory effects across most cancer types" |
-| 多模态 disruption 缺乏整合框架 | 转录、染色质、TF 结合、剪接等 disruption 分散在不同模型中，未统一 | 缺乏将变异级预测聚合为患者-基因水平 profiles 的方法 | Abstract: "aggregated the variant-level predictions to construct patient-gene disruption profiles capturing transcriptional activity, chromatin accessibility, transcription factor binding, and splicing" |
-| 驱动基因之外的临床信号被忽略 | 缺乏热点突变的患者中仍存在与生存相关的 disruption 信号 | 传统分析仅关注 recurrent hotspot mutations，忽略非热点突变的累积效应 | Abstract: "Among patients lacking recurrent hotspot mutations in a given cancer gene, higher predicted disruption was associated with overall survival" |
+|---|---|---|---|
+| 传统分析忽略非编码调控效应 | 非热点、非编码突变被当作 passenger 丢弃 | 编码热点分析只关注蛋白效应；非编码注释依赖预定义元件 | 引言：Rheinbay 2020 等显示非编码 driver 难以通过传统方法识别 |
+| TMB 等聚合度量丢失基因和机制信息 | TMB 无法告诉是哪个基因、哪个调控通路被扰动 | TMB 是基因组范围的计数，不区分基因和功能模态 | 引言：aggregate mutational burden analyses 的局限 |
+| 蛋白效应与调控效应混为一谈 | 单一打分无法区分「改变 TF 蛋白」与「改变 TF 结合位点」两类机制 | 缺乏同时覆盖编码与非编码的正交评分框架 | Results 图 2：AlphaMissense 与 AlphaGenome 在热点 vs passenger 上呈现相反模式 |
+| 突变累积效应未被量化 | 单个突变效应弱，但多个突变在同一基因内可能累积出功能后果 | 缺乏基因水平的聚合框架 | 引言：cumulative functional effects 未被单突变分析捕捉 |
+| 调控 disruption 的临床相关性未知 | 不清楚调控 disruption 是否携带预后或治疗反应信息 | sequence-to-function 模型此前未与临床结局系统关联 | Results 图 5-6：ATAC disruption 与生存相关；POG570 治疗亚组关联 |
 
 ---
 
 ## 06 核心思想
 
 ### 1) 表面方法
-使用两个预训练基因组基础模型（AlphaGenome、AlphaMissense）对 TCGA 体细胞突变进行变异级 disruption 预测，覆盖蛋白功能、转录活性、染色质可及性、TF 结合和剪接五个模态；然后将变异级预测按患者-基因聚合为 disruption profiles，并与临床表型（癌症类型、微卫星状态、生存）关联。
+- 用 AlphaGenome 对每个体细胞突变计算 7 种调控模态的「突变 vs 参考」差异（Mutated − Wild-type），在基因-患者层面聚合为 disruption profile；
+- 用 AlphaMissense 计算蛋白层面致病性；
+- 在 TCGA 8,800 例/33 癌型上构建 patient-gene-modality 矩阵，进行 t-SNE 聚类、MSI 分类、Cox 生存分析；
+- 在 POG570 独立队列中按治疗类别分层做生存关联。
 
 ### 2) 核心洞察
-体细胞突变对基因的扰动是**连续、多维**的：热点突变富集于强蛋白效应，而非热点突变通过调控模态（尤其染色质可及性和 TF 结合）产生广泛但较弱的 disruption。这些调控 disruption 在缺乏经典驱动突变的患者中仍携带临床预后信息——即「基因被部分扰动」本身就是一个有意义的生物学状态。
+- **热点突变与 passenger 突变在两个评分轴上呈「镜像」分布**：热点突变富集强 AlphaMissense（蛋白）效应，而 passenger 突变携带更大的 AlphaGenome（调控）效应——说明「passenger」并非功能中性，只是其效应落在传统方法盲区（调控层面）。
+- **调控 disruption 是模态特异的**：同一基因在不同组织中由不同调控模态主导（ATAC vs RNA-seq vs splice-site vs TF ChIP），提示 disruption 必须按模态分解而非合并为单一分数。
+- **passenger 来源的调控 disruption 独立于 TMB 携带预后信号**：ATAC disruption 在无热点突变的患者中仍与生存相关，说明「累积的部分 disruption」具有临床意义。
 
 ### 3) 可能的普适教训 [Analysis]
-- **聚合层级决定生物学可解释性**：变异级预测 → 基因级聚合 → 患者级关联，这种「从局部到整体」的聚合策略是连接序列模型输出与临床表型的通用范式，可迁移到 TF–DNA 结合扰动的患者级分析。
-- **多模态互补优于单模态**：蛋白效应和调控效应在不同突变类型中分布不同，单一模态会遗漏信号。对 TF–DNA 结合研究而言，同时考虑结合位点突变对 TF 结合的直接影响和下游染色质/表达变化是必要的。
-- **「无驱动突变」不等于「无功能后果」**：在缺乏经典驱动事件的患者中寻找弱但累积的信号，是精准医学中扩大可靶向人群的潜在路径。
+- **对 TF–DNA 结合研究**：本文的「双轴正交评分」（蛋白效应 vs 调控效应）可直接类比为「TF 蛋白本身的突变效应 vs TF 结合位点（motif/cis-element）的突变效应」——两者需要独立量化，不能合并。
+- **对 AI 方法设计**：sequence-to-function 模型的输出是多模态的，聚合时应保留模态维度（而非取平均），因为不同模态可能携带正交的生物学信号。
+- **对实验验证**：本文的 disruption profile 是纯计算预测，未做湿实验验证（作者在讨论中承认），提示此类框架需要 paired 功能基因组学数据（如同一患者的 ATAC/RNA 数据）来校准。
 
 ---
 
 ## 07 方法总览
 
-- **输入**：TCGA 体细胞突变数据（8,800 患者，33 癌种）；参考基因组序列
-- **输出**：患者-基因 disruption profiles（5 个模态：蛋白功能、转录活性、染色质可及性、TF 结合、剪接）；与癌症类型、MSI 状态、生存的关联
-- **模块**：
-  1. 变异级 disruption 预测（AlphaGenome + AlphaMissense）
-  2. 模态特异性聚合（variant → gene → patient）
-  3. 临床关联分析（癌症类型、MSI、生存）
-- **训练**：未提供（使用预训练模型，未见微调描述）
-- **工具**：AlphaGenome、AlphaMissense
-- **反馈回路**：未提供（未见迭代优化或验证回路描述）
-- **假设**：序列到功能模型的预测值可近似反映体内真实的分子 disruption 效应；不同模态的 disruption 可加性地聚合为基因水平度量
-
-**文字流程**：
-1. 从 TCGA 获取体细胞突变和临床数据
-2. 对每个变异，使用 AlphaGenome 预测调控模态 disruption（转录、染色质、TF 结合、剪接），使用 AlphaMissense 预测蛋白功能 disruption
-3. 将变异级预测按基因聚合，再按患者聚合，构建患者-基因 disruption profiles
-4. 分析 profiles 与癌症类型、组织来源、MSI 状态的关系
-5. 在缺乏热点突变的患者中检验 disruption 与总生存期的关联
-6. 在独立治疗注释队列（POG570）中验证基因水平 disruption 与治疗亚组生存的关联
+- **输入**：
+  - TCGA 体细胞突变（8,800 患者，33 癌型）
+  - POG570 全基因组测序 + 治疗注释（570 样本）
+  - 癌症基因集（IntOGen）、热点注释（Cancer hotspots v2）
+- **输出**：
+  - 患者-基因-模态 disruption profile（7 个 AlphaGenome 模态 + AlphaMissense）
+  - 聚类结构（t-SNE）、MSI 分类性能（AUPRC/AUROC）、Cox 生存模型 HR
+- **核心模块**：
+  1. **变异效应打分**：AlphaGenome（7 模态，100 kb 输入窗口，L2_DIFF 分数）+ AlphaMissense（蛋白致病性）
+  2. **基因-患者聚合**：按模态取中位数，TMB 调整（除以 log(1+total mutations)），基因长度回归残差化，z-score 标准化
+  3. **生物学结构验证**：t-SNE + 伪 F 统计量（组织/癌型/MSI 聚类）
+  4. **生存分析**：Cox PH 模型，按基因-模态对，TMB 残差化后中位数分组，年龄/癌型协变量
+  5. **治疗亚组分析**：POG570 内按治疗类别分层 Cox
+- **训练**：AlphaGenome 和 AlphaMissense 为预训练模型（本文未重新训练）；本文训练的是 logistic 回归分类器（MSI）和 Cox 模型（生存）
+- **反馈回路**：无显式迭代反馈；分析流程为单向 pipeline
+- **假设**：
+  - AlphaGenome 预测的调控输出可近似真实调控状态（未用同一患者 paired 数据验证）
+  - 突变效应可加性聚合（中位数汇总）
+  - TMB 和基因长度是主要混杂因素（通过残差化控制）
+- **文字流程**：体细胞突变 → AlphaGenome/AlphaMissense 打分 → 基因-患者-模态聚合 → TMB/基因长度调整 → 标准化 → t-SNE 聚类 / MSI 分类 / Cox 生存 / 治疗亚组
 
 ---
 
 ## 08 核心模块拆解
 
 | 模块 | 功能 | 为何需要 | 输入输出 | 支撑证据 | 移除后的已知或预期影响 |
-|------|------|----------|----------|----------|------------------------|
-| 变异级 disruption 预测（AlphaGenome） | 从 DNA 序列预测调控模态 disruption（转录、染色质、TF 结合、剪接） | 非热点突变的调控效应无法用传统注释工具量化 | 输入：突变序列上下文；输出：各调控模态的 disruption 分数 | Abstract: "non-hotspot mutations exhibited larger regulatory effects across most cancer types" | 预期影响：失去所有调控模态信息，仅剩蛋白效应，无法捕捉非热点突变的累积信号 [Analysis：预期效应，未提供消融实验] |
-| 变异级 disruption 预测（AlphaMissense） | 预测错义突变的蛋白功能影响 | 热点突变主要富集于蛋白效应，需要蛋白层面的量化 | 输入：错义突变；输出：蛋白功能 disruption 分数 | Abstract: "recurrent hotspot mutations showed substantially larger predicted protein-level effects" | 预期影响：失去热点突变的蛋白效应区分度 [Analysis：预期效应] |
-| 患者-基因聚合 | 将变异级预测聚合为基因水平、患者水平的 disruption profiles | 检验「累积 disruption」假说需要基因/患者级度量 | 输入：变异级 disruption 分数；输出：患者-基因 disruption profiles | Abstract: "aggregated the variant-level predictions to construct patient-gene disruption profiles" | 预期影响：无法从单变异视角检验累积效应假说 [Analysis：预期效应] |
-| 临床关联分析 | 关联 disruption profiles 与癌症类型、MSI、生存 | 验证 disruption 的生物学和临床相关性 | 输入：disruption profiles + 临床数据；输出：关联统计 | Abstract: "reflected tissue of origin, cancer type, and microsatellite-instability status"; "associated with overall survival" | 预期影响：失去临床验证，仅剩计算预测 [Analysis：预期效应] |
-| 独立队列验证（POG570） | 在治疗注释队列中验证 disruption-生存关联 | 检验泛化性，避免 TCGA 特异性 | 输入：POG570 突变 + 治疗数据；输出：治疗亚组生存关联 | Abstract: "In an independent treatment-annotated cohort, gene-level disruption was also associated with survival within treatment-defined subgroups" | 预期影响：泛化性存疑 [Analysis：预期效应] |
+|---|---|---|---|---|---|
+| AlphaGenome 变异打分 | 对每个突变计算 7 种调控模态的预测效应 | 捕获非编码/调控层面的 disruption | 输入：突变 + 100 kb 序列窗口；输出：各模态 L2_DIFF | Results 图 1A-B：NRAS/PTEN 案例显示突变序列与参考序列的预测差异 | 移除后无调控 disruption 度量，整个分析框架失效（核心模块） |
+| AlphaMissense 蛋白致病性打分 | 量化编码突变的蛋白效应 | 提供与调控效应正交的蛋白效应轴 | 输入：错义突变；输出：致病性分数 | Results 图 2A-B：热点 vs passenger 在 AlphaMissense 上呈显著差异 | 移除后无法对比蛋白 vs 调控效应，图 2 的核心对比消失 |
+| 基因-患者聚合（中位数 + TMB/长度调整） | 将变异级分数聚合为基因级 disruption | 单突变效应弱，需累积；控制 TMB 和基因长度混杂 | 输入：变异级分数；输出：patient-gene-modality 矩阵 | Methods 节：TMB 调整、基因长度回归残差化、z-score 标准化 | 移除后无法进行基因级生存分析；不调整 TMB 则 MSI/生存信号可能被混杂（预期效应 [Analysis]） |
+| t-SNE 聚类 + 伪 F 统计 | 验证 disruption profile 是否捕获生物学结构 | 证明 disruption 非噪声，携带组织/癌型/MSI 信息 | 输入：patient-level disruption 矩阵；输出：2D 嵌入 + 聚类统计 | Results 图 4A-C：组织/癌型/MSI 分离显著 | 移除后无法建立 disruption 的生物学有效性（预期效应 [Analysis]） |
+| MSI 分类（logistic 回归） | 比较 TMB-only vs AlphaGenome vs 残差化特征 | 证明 disruption 携带 TMB 之外的 MSI 信息 | 输入：TMB 和/或 AlphaGenome 特征；输出：AUPRC/AUROC | Results 图 4D：全特征 AUPRC 0.99/0.98/1.00 vs TMB 0.66-0.96 | 移除后无法量化 disruption 相对 TMB 的增量价值 |
+| Cox 生存模型（基因-模态对） | 评估 disruption 与总生存的关联 | 建立临床相关性 | 输入：disruption 分组 + 协变量；输出：HR/95%CI/p 值 | Results 图 5A-B：ATAC 24/25 基因高 disruption HR 更高（q=3.1e-6） | 移除后无法支持「passenger disruption 有预后意义」的核心主张 |
+| POG570 治疗亚组 Cox | 评估 disruption 在治疗亚组中的预后价值 | 测试治疗特异性关联 | 输入：治疗类别分层 + disruption 分数；输出：HR/p 值 | Results 图 6A-B：RB1/TCF7L2 等基因在特定治疗组中显著 | 移除后无法支持「治疗特异性」主张；样本量小，结果需谨慎（作者标注 exploratory） |
 
 ---
 
 ## 09 关键公式符号
 
-不适用。本文为应用型研究，摘要中未提供具体公式或数学定义。disruption 分数的具体计算方式、聚合方法（求和/平均/加权）在摘要中未描述，需查阅全文 Methods 部分。
+> 本文为应用型论文，未给出显式数学公式。以下为从 Methods 描述中可重建的隐式公式。
+
+1. **变异级 disruption 分数**（AlphaGenome）：
+   \[
+   \Delta_{v,m} = \text{L2\_DIFF}_m(\text{seq}_{\text{mut}}, \text{seq}_{\text{ref}})
+   \]
+   - \(\Delta_{v,m}\)：变异 \(v\) 在模态 \(m\) 的 disruption 分数
+   - \(\text{L2\_DIFF}_m\)：AlphaGenome 对模态 \(m\) 的 L2 差异度量
+   - \(\text{seq}_{\text{mut}}, \text{seq}_{\text{ref}}\)：突变序列与参考序列（100 kb 窗口）
+
+2. **基因-患者聚合**（中位数）：
+   \[
+   D_{p,g,m} = \text{median}_{v \in V_{p,g}} \left( \Delta_{v,m} \right)
+   \]
+   - \(D_{p,g,m}\)：患者 \(p\)、基因 \(g\)、模态 \(m\) 的聚合 disruption
+   - \(V_{p,g}\)：患者 \(p\) 在基因 \(g\) 内的体细胞突变集合
+
+3. **TMB 调整**：
+   \[
+   D^{\text{adj}}_{p,g,m} = \frac{D_{p,g,m}}{\log(1 + \text{total\_mutations}_p)}
+   \]
+
+4. **基因长度残差化**（线性回归）：
+   \[
+   D^{\text{adj}}_{p,g,m} = \alpha + \beta \cdot \log_{10}(\text{gene\_length}_g) + \epsilon
+   \]
+   - 残差 \(\hat{\epsilon}\) 作为最终调整分数
+
+5. **z-score 标准化**：
+   \[
+   Z_{p,g,m} = \frac{\hat{\epsilon}_{p,g,m} - \mu_{g,m}}{\sigma_{g,m}}
+   \]
+
+6. **Cox 比例风险模型**：
+   \[
+   h(t \mid X) = h_0(t) \exp(\beta_1 I_{\text{high disruption}} + \sum_j \gamma_j I_{\text{cancer type}_j})
+   \]
+   - \(I_{\text{high disruption}}\)：高 disruption 组指示变量（中位数分组）
+   - 治疗亚组分析中额外包含治疗类别协变量
 
 ---
 
 ## 10 实验设计与证据链
 
-- **数据集**：TCGA（8,800 患者，33 癌种）；TCGA-CDR（生存数据）；POG570（独立治疗注释队列）；IntOGen（驱动基因）；Cancer hotspots v2（热点突变）
-- **指标**：未在摘要中明确列出（推测包括关联显著性、风险比等，需查阅全文）
-- **基线**：未在摘要中明确列出（推测包括仅热点突变分析、TMB 等，需查阅全文）
-- **预算/算力**：未提供
-- **骨干/仪器**：AlphaGenome、AlphaMissense（均为预训练模型）
-- **oracle 输入**：不适用（无人工标注的 disruption 真值；模型预测本身作为度量）
-- **评测协议**：未在摘要中详细描述
+### 数据集与规模
+| 数据集 | 规模 | 用途 |
+|---|---|---|
+| TCGA | 8,800 患者，33 癌型 | 主分析：disruption profiling、聚类、MSI、生存 |
+| POG570 | 570 全基因组肿瘤样本（治疗注释） | 独立验证：治疗特异性生存 |
+| 基因集 | IntOGen 癌症基因集；泛癌 31 基因（≥1% 突变率）；癌型特异 top 30 | 基因选择 |
+| 热点注释 | Cancer hotspots v2 | 热点 vs passenger 分类 |
 
+### 指标
+- 变异水平：AlphaMissense 分数、AlphaGenome 7 模态 L2_DIFF
+- 聚类：伪 F 统计量（t-SNE 分组分离度）
+- 分类：AUPRC、AUROC（MSI 分类）
+- 生存：HR、95% CI、Wald p 值、Benjamini-Hochberg q 值
+
+### 基线/对比
+- MSI 分类：TMB-only（M1）vs TMB-残差化 AlphaGenome（M2）vs 全 AlphaGenome（M3）
+- 生存：零 disruption 组为参照；高 vs 低 disruption 对比；热点突变患者单独分组
+
+### 评测协议
+- 生存分析限定无热点突变患者（确保信号来自 passenger）
+- TMB 残差化 + 基因长度调整 + 年龄/癌型协变量
+- 治疗亚组：POG570 内按治疗类别分层，仅保留 ≥10 患者、≥3 事件的亚组
+
+### 证据链表格
 | 实验 | 检验的 claim | 对比与条件 | 结果 | 支持的结论 | 不支持更强的结论 | 来源 |
-|------|-------------|------------|------|-------------|-------------------|------|
-| 热点 vs 非热点突变的 disruption 比较 | 热点突变富集于蛋白效应，非热点突变富集于调控效应 | 热点突变 vs 非热点突变，跨癌种比较 | 热点突变蛋白效应更大；非热点突变调控效应更大 | 不同突变类型在不同模态中分布不同 | 未证明因果关系；未证明调控 disruption 的功能后果 | Abstract |
-| Disruption profiles 与癌症类型/组织来源/MSI 关联 | Disruption profiles 携带生物学信息 | 跨癌种比较；MSI 状态分层 | Profiles 反映组织来源、癌症类型和 MSI 状态 | Disruption profiles 具有生物学相关性 | 未证明独立于 TMB 的增量信息量（摘要仅称「retaining information beyond TMB」） | Abstract |
-| 缺乏热点突变患者中的 disruption-生存关联 | 非热点 disruption 具有临床预后价值 | 无热点突变的患者亚组；OS 关联 | 较高 disruption 与较差 OS 相关（染色质可及性最强） | 调控 disruption 在无经典驱动事件时仍有预后意义 | 未证明因果关系；未证明独立于其他临床变量 | Abstract |
-| POG570 独立队列验证 | Disruption-生存关联可泛化 | 治疗亚组分层 | 基因水平 disruption 与治疗亚组生存相关 | 泛化性初步支持 | 未提供效应量；未提供多变量校正信息 | Abstract |
+|---|---|---|---|---|---|---|
+| 热点 vs passenger 变异水平对比 | 热点富集蛋白效应，passenger 富集调控效应 | AlphaMissense vs AlphaGenome，按热点状态分组 | 热点 AlphaMissense 显著更高；passenger AlphaGenome 效应更大 | 两类突变在两个评分轴上呈镜像分布 | 未做功能验证，纯计算预测 | Results 图 2A-C |
+| t-SNE 聚类 | disruption profile 捕获组织/癌型结构 | 8,800 患者按 disruption 特征嵌入 | 组织/癌型分离显著（伪 F 高，p=0.001） | disruption 携带生物学结构信息 | 聚类可能部分由突变谱驱动，未做置换检验 [Analysis] | Results 图 4A-B |
+| MSI 分类 | disruption 携带 TMB 之外的信息 | M1（TMB）vs M2（残差化）vs M3（全特征） | M3 AUPRC 0.99/0.98/1.00（COAD/UCEC/STAD）；M2 在 COAD/UCEC 仍高（0.82/0.93） | disruption 超越 TMB 的判别力 | STAD 中残差化特征判别力下降，提示该癌型中信号与 TMB 耦合 | Results 图 4D |
+| 无热点患者生存分析 | passenger disruption 与总生存相关 | 高 vs 低 disruption，零 disruption 为参照 | ATAC 模态 24/25 基因高 disruption HR 更高（q=3.1e-6） | 染色质可及性 disruption 携带预后信号 | 未做多基因联合模型；HR 差异小（mean 0.0996） | Results 图 5A-B |
+| POG570 治疗亚组 | disruption 与治疗特异性结局相关 | 按治疗类别分层 Cox | RB1（DNA 损伤剂 HR=1.36；DNA 合成抑制剂 HR=1.46）；TCF7L2（DNA 损伤剂 HR=1.97）等 | 治疗特异性关联存在 | 样本量小，多重比较未充分控制，作者标注 exploratory | Results 图 6A-B |
 
 ---
 
 ## 11 结论正确解读
 
-- **任务范围**：本文仅针对体细胞突变（非胚系）；仅覆盖 TCGA 和 POG570 队列；仅使用两个特定模型（AlphaGenome、AlphaMissense）的预测，未与其他模型系统比较。
-- **oracle/真值输入**：无实验验证的 disruption 真值；所有 disruption 度量来自模型预测，模型准确度直接影响结论可靠性。
-- **端到端状态**：从突变 → 模型预测 → 聚合 → 临床关联的完整流程已实现，但未达到「模型预测可直接指导临床决策」的程度。
-- **算力成本**：未提供。
-- **历史数据依赖**：依赖 TCGA 的历史突变 calling 和临床注释；依赖模型训练时的参考基因组版本和训练数据分布。
-- **模型依赖**：结论完全依赖 AlphaGenome 和 AlphaMissense 的预测质量；若模型对调控变异的预测存在系统性偏差，则所有下游结论受影响。
-- **最难情形**：非编码突变、剪接区域突变、低频突变的 disruption 预测可靠性可能较低；罕见癌种样本量小，统计功效有限。
-- **群体/领域边界**：仅限癌症体细胞突变；不适用于胚系变异解读、非癌症疾病、非人类物种。
-- **有边界的复述**：在 TCGA 33 癌种和 POG570 队列中，基于 AlphaGenome 和 AlphaMissense 预测聚合得到的患者-基因 disruption profiles 与癌症类型、MSI 状态和生存期存在统计关联，且这种关联在缺乏热点突变的患者中仍然存在；但这些关联的因果性和独立预测价值（超越 TMB 及其他临床变量）尚需进一步验证。
+- **任务范围**：本文是「关联分析」（association study），不是「因果验证」或「预测模型」。disruption 分数是 AlphaGenome 的计算预测，未用同一患者的 paired 功能数据（如 RNA-seq/ATAC-seq）验证。
+- **oracle/真值输入**：AlphaGenome 和 AlphaMissense 均为预训练模型，其输出作为「真值」使用；无湿实验校准。
+- **端到端状态**：非端到端。pipeline 为「预训练模型打分 → 统计聚合 → 关联分析」，各环节独立。
+- **算力成本**：未报告。AlphaGenome 为 100 kb 窗口推理，8,800 患者 × 31 基因 × 多模态的计算成本未披露。
+- **历史数据依赖**：完全依赖 TCGA 和 POG570 的历史数据；无前瞻性验证。
+- **模型依赖**：结论强依赖 AlphaGenome 的预测质量。若 AlphaGenome 对非编码调控的预测存在系统性偏差，则所有下游结论受影响。
+- **最难情形**：STAD 中 TMB 残差化后 MSI 判别力下降；ChIP-TF 模态生存信号方向反转（低 disruption 组 HR 更高），提示不同模态的生物学含义不同。
+- **群体/领域边界**：泛癌分析以 TCGA 为主（欧美人群为主）；POG570 为加拿大队列。治疗亚组仅限乳腺癌和结直肠癌。
+- **不确定性**：所有生存关联的 HR 差异较小（mean paired HR difference 0.0996），效应量有限；治疗亚组样本量小，置信区间宽。
+- **有边界的复述**：在 TCGA 和 POG570 数据范围内，AlphaGenome 预测的调控 disruption（特别是染色质可及性）在无热点突变的患者中与总生存相关，且该信号在 TMB 残差化后仍存在；但该结论是计算预测层面的关联，未经功能验证，效应量有限，不能推广为临床预测工具。
 
 ---
 
 ## 12 作者自认局限
 
-在提供的材料（摘要 + 声明）中未发现作者明确承认的局限。作者仅提供了数据可用性声明和利益冲突声明。
-
-**作者提及的相关约束**（非正式局限）：
-- 数据可用性声明中提及 TCGA 数据为受控访问（dbGaP），需申请审批——这构成可重复性方面的实际约束。
-- 未提供代码可用性声明，可能暗示代码未公开。
+| 局限 | 具体表现 | 作者提出的未来方向 | 来源 |
+|---|---|---|---|
+| 缺乏功能验证 | disruption 分数为计算预测，未与同一肿瘤的功能数据（表达、染色质）对照 | 「validating predicted disruption against functional and expression data from the same tumours」 | Discussion 末段 |
+| 治疗亚组样本量小 | POG570 中按治疗类别分层后样本有限 | 「extending the treatment-response analysis to larger annotated cohorts」 | Discussion 末段 |
+| 关联而非预测 | 未建立正式的预测模型，仅报告关联 | 「testing whether disruption scores add predictive value in formal, prospectively defined survival and response models」 | Discussion 末段 |
+| 结果初步 | 作者将治疗相关发现标注为 exploratory | 需在更大队列中验证 | Results 图 6 上下文 |
 
 ---
 
 ## 13 批判性分析
 
 | [Analysis] 观察 | 潜在问题或替代解释 | 为何重要 | 如何检验 | 依据 |
-|-----------------|---------------------|----------|----------|------|
-| Disruption 度量完全依赖模型预测，无实验验证 | AlphaGenome/AlphaMissense 的预测可能偏离真实分子效应；调控 disruption 的预测尤其缺乏大规模实验基准 | 若模型预测有偏，所有下游临床关联可能反映模型偏差而非真实生物学 | 使用独立实验数据（如 MPRA、STARR-seq、ChIP-seq 验证的 TF 结合变异）对 disruption 分数进行校准；比较不同模型（Enformer、Basenji）的预测一致性 | Abstract 未提及任何实验验证；仅称「predicted disruption」 |
-| 「Retaining information beyond TMB」的表述模糊 | 摘要未说明增量信息量的大小、统计显著性、或是否经多变量校正 | 若增量信息量很小或经校正后消失，临床意义有限 | 查阅全文的多变量 Cox 模型、C-index 或 AUC 增量；要求报告校正 TMB、分期、年龄后的独立贡献 | Abstract: "retaining information beyond tumor mutational burden"——未提供效应量 |
-| 缺乏热点突变患者中的生存关联可能受混杂因素影响 | 高 disruption 可能与总突变负荷、基因组不稳定性或特定突变 signature 相关，而非 disruption 本身 | 若关联由混杂驱动，则「disruption」不是因果变量 | 匹配 TMB 后的亚组分析；突变 signature 校正；孟德尔随机化或共突变网络分析 | Abstract 仅称「Among patients lacking recurrent hotspot mutations」——未提及 TMB 匹配 |
-| 聚合方法未描述 | 变异级 disruption 如何聚合为基因/患者水平（求和？平均？最大？加权？）直接影响结果 | 不同聚合策略可能产生不同结论；缺乏敏感性分析则结果稳健性存疑 | 查阅 Methods 的聚合公式；要求多种聚合策略的敏感性分析 | 摘要未提供聚合细节 |
-| 独立队列验证（POG570）的细节不足 | 未说明 POG570 中验证的是哪些基因、哪些模态、效应量大小 | 若验证仅限特定亚组或特定基因，泛化性有限 | 查阅全文的 POG570 分析细节；要求报告与 TCGA 一致的模态和基因集合 | Abstract 仅一句提及 POG570 |
-| 与「TF–DNA 结合机制」的关联深度有限 | 摘要仅将 TF 结合作为 disruption 模态之一，未深入分析具体 TF 或结合 motif 的机制 | 对 TF–DNA 互作领域而言，需要知道哪些 TF 的结合扰动最相关、是否富集于特定 motif 或结合位点特征 | 查阅全文是否有 TF 特异性分析、motif 富集、结合位点位置效应分析 | 摘要未提及具体 TF 或 motif 层面的分析 |
+|---|---|---|---|---|
+| AlphaGenome 预测未经验证 | 若模型对非编码调控的预测有系统性偏差，所有 disruption 结论可能为模型伪影 | 核心方法依赖未校准的预测 | 用同一患者的 paired ATAC/RNA 数据比较预测 vs 实测 disruption；或与 CRISPR 扰动实验对照 | Methods 节未提及 paired 验证 |
+| 「passenger」定义依赖热点数据库 | 非热点突变可能包含未注释的 driver；热点数据库本身不完备 | 若 passenger 组混入 driver，生存信号可能部分由已知 driver 驱动 | 使用功能评分（如 CADD、PrimateAI）分层 passenger；或排除已知 driver 基因重复分析 | Results 图 2 的 passenger 定义 |
+| 中位数分组二分法 | 将连续 disruption 分数中位数二分可能丢失剂量-反应信息，且分组阈值依赖样本构成 | 可能高估或低估真实关联强度 | 使用连续分数做限制性立方样条或时变 Cox 模型 | Results 图 5 方法描述 |
+| 多重比较未充分控制 | 31 基因 × 4 模态 × 多治疗组的大量 Cox 检验，仅用 BH 校正 | 部分显著结果可能为假阳性 | 报告所有检验总数；使用置换检验或西太平洋 FDR 控制 | Methods 节仅提及 BH 校正 |
+| t-SNE 聚类伪 F 统计的稳健性 | t-SNE 对超参数敏感，伪 F 统计非标准聚类验证指标 | 聚类分离可能受嵌入参数影响 | 使用 UMAP 或 PCA 交叉验证；报告不同 perplexity 下的稳定性 | Results 图 4 方法描述 |
+| 治疗亚组中 ChIP-TF 方向反转 | 作者未充分解释为何 TF 结合 disruption 与生存方向与其他模态相反 | 可能反映 TF 结合丢失在某些情境下有利（如抑癌 TF 失活），但也可能是混杂 | 按 TF 功能类别（激活/抑制）分层分析；检查与已知通路的一致性 | Results 图 5B 的 ChIP-TF 结果 |
+| 效应量小 | mean paired HR difference 0.0996 的临床意义有限 | 统计显著 ≠ 临床相关 | 报告 NNT 或风险差；在独立队列中验证效应量 | Results 图 5A 数值 |
 
 ---
 
-## 14 Agent 提炼的知识候选
+## 14 学到什么
 
-> 以下为可迁移到「蛋白质-DNA 互作（TF–DNA 结合机制）× AI/物理模拟」课题方向的知识点：
+> 标题：Agent 提炼的知识候选
 
-1. **变异级 → 基因级 → 患者级的聚合框架**：本文的核心方法论贡献在于将单变异预测聚合为更高层级的 profiles。对 TF–DNA 结合研究，可将「单个 TF 结合位点突变的影响」聚合为「基因启动子/增强子区域的综合 TF 结合 disruption score」，再关联到表达变化或表型。迁移方式：定义 TF 结合 disruption = Σ(位点突变 × 该位点对基因表达的贡献权重)。
+1. **双轴正交评分框架**：将突变效应分解为「蛋白层面（AlphaMissense）」与「调控层面（AlphaGenome）」两个正交轴，可揭示传统单一评分遗漏的结构。**迁移到 TF–DNA 互作**：对 TF 相关突变，应同时量化「TF 蛋白本身的错义效应」与「TF 结合位点（cis-element/motif）的调控效应」，两者可能呈镜像分布。
 
-2. **多模态 disruption 的互补性**：本文发现蛋白效应和调控效应在不同突变类型中分布不同（热点 vs 非热点）。对 TF–DNA 研究，这意味着「TF 结合 disruption」和「下游表达 disruption」应同时考虑，单一模态会遗漏信号。迁移方式：同时计算 TF 结合 motif 突变的影响和预测的基因表达变化，构建联合 disruption 指标。
+2. **模态特异性 disruption**：同一基因在不同组织中由不同调控模态主导（ATAC vs RNA-seq vs splice-site vs TF ChIP），聚合时保留模态维度而非合并。**迁移**：研究 TF–DNA 结合时，应分别报告「结合强度（ChIP）」「可及性（ATAC）」「表达（RNA）」三个层次的 disruption，而非单一结合分数。
 
-3. **「无驱动突变 ≠ 无功能后果」的临床视角**：本文在缺乏热点突变的患者中发现 disruption-生存关联。对 TF–DNA 研究，这意味着在缺乏经典驱动 TF 突变（如 MYC 扩增、TP53 突变）的肿瘤中，TF 结合位点的散在突变可能通过累积效应影响基因调控网络。迁移方式：在「TF 野生型」肿瘤中专门分析 cis-regulatory 元件的突变负荷与预后关联。
+3. **TMB 残差化是必要的混杂控制**：任何突变衍生的特征都必须先去除与总突变负荷的线性关联，否则观察到的信号可能只是突变负荷的代理。**迁移**：在 TF–DNA 结合预测中，需控制突变负荷和基因长度，避免将「高突变基因」误判为「高 disruption 基因」。
 
-4. **染色质可及性作为最稳健的 disruption 模态**：本文发现染色质可及性 disruption 与生存关联最强。对 TF–DNA 研究，这提示染色质可及性变化可能是 TF 结合扰动的下游整合指标，比单个 TF 结合预测更稳健。迁移方式：将 TF 结合位点突变的影响映射到染色质可及性变化，而非仅停留在结合亲和力预测。
+4. **passenger 并非中性**：非热点突变的累积调控效应可携带独立的预后信号。**迁移**：在 TF–DNA 结合机制研究中，不应只关注已知 driver 突变；低频、分散的调控突变可能通过累积效应影响 TF 结合网络。
 
-5. **基础模型直接用于临床关联的范式**：本文展示了「预训练基因组模型 → 患者级聚合 → 临床关联」的完整流程。对 TF–DNA 研究，可借鉴此流程：使用 AlphaGenome 或类似模型预测 TF 结合 disruption → 聚合为患者级 TF 调控 disruption score → 关联到癌症亚型、治疗反应或生存。
+5. **治疗亚组分析的价值与风险**：按治疗类别分层可发现全人群中被掩盖的信号，但小样本 + 多重比较使结果只能作为假设生成。**迁移**：TF–DNA 结合预测模型在药物反应研究中的应用，应预设治疗分层假设，而非事后挖掘。
+
+6. **可解释性优先于预测性能**：本文未追求预测精度，而是用 disruption profile 做生物学结构验证（聚类、GSEA）和关联分析。**迁移**：TF–DNA 结合 AI 模型应优先输出可解释的模态分解（结合、可及性、表达），而非单一黑盒分数。
 
 ---
 
 ## 15 与已有知识连接
 
-- **AlphaMissense（经外部核验）**：Cheng et al., Science 2023。本文将其用于蛋白水平 disruption 预测。该模型基于 AlphaFold 的蛋白结构上下文，对错义突变进行致病性预测。在 TF–DNA 研究中，AlphaMissense 可用于预测 TF 蛋白自身突变对其 DNA 结合域功能的影响。
-- **Enformer / Basenji（经外部核验）**：Avsec et al., Nat. Methods 2021；Kelley et al., PLOS Comp. Biol. 2018。序列到表达/染色质预测的经典模型。本文使用的 AlphaGenome 属于此类模型的后续发展。对 TF–DNA 研究，这些模型可直接预测 TF 结合位点突变对染色质状态和表达的影响。
-- **TCGA PanCanAtlas（经外部核验）**：本文的主要数据来源。该资源已被广泛用于癌症基因组-表型关联研究，包括 TF 调控网络在癌症中的扰动分析。
-- **Cancer hotspots v2（经外部核验）**：Chang et al., Nat. Biotechnol. 2018。本文用于区分热点/非热点突变。在 TF–DNA 研究中，可用于区分 TF 基因自身的热点突变与 cis-regulatory 元件的散在突变。
-- **POG570（经外部核验）**：基因组学指导的精准肿瘤治疗队列。本文用作独立验证队列。对 TF–DNA 研究，该队列的治疗注释可用于分析 TF 调控 disruption 与治疗反应的关系。
-- **与「TF–DNA 结合机制 × AI」课题的关联**：本文的「TF 结合 disruption」模态直接涉及 TF–DNA 结合扰动，但其分析停留在「预测分数」层面，未深入结合 motif 序列特征、结合亲和力变化或结构机制。这为课题提供了「从预测到机制」的延伸空间：可将 AlphaGenome 的 TF 结合 disruption 预测与分子动力学模拟或结构预测结合，解释「为什么」某些突变破坏 TF 结合。
+- **AlphaGenome / AlphaMissense 家族**：本文使用的 AlphaGenome 与 AlphaMissense 同属 DeepMind 系列模型。AlphaMissense（Cheng et al. 2023）为蛋白错义突变致病性预测；AlphaGenome（Avsec et al. 2026）为基因组调控预测。两者联合使用构成「编码 + 非编码」双覆盖，与课题方向中「TF 蛋白 vs TF 结合位点」的二分法直接对应。
+- **Enformer / Borzoi 谱系**：AlphaGenome 属于 sequence-to-function 模型谱系（Enformer: Avsec 2021; Borzoi: Linder 2025）。这些模型直接以 DNA 序列预测调控输出，是 TF–DNA 结合机制研究中「motif → 结合 → 表达」链条的计算基础。
+- **癌症基因组学经典框架**：driver 发现（Vogelstein 2013; Bailey 2018）、TMB/突变特征（Alexandrov 2013; Rizvi 2015）是本文的对照基线。本文的「连续 disruption」观点与「二元 driver」框架形成张力，可类比 TF–DNA 研究中「强效应 master regulator vs 弱效应多位点协同」的争论。
+- **累积效应与部分功能丧失**：本文引用的 Nayak et al. 2026 提出基因内突变累积的连续功能丧失模型，与 TF–DNA 结合中「部分结合位点亲和力下降」的定量观点一致。
+- **MSI 与突变负荷**：MSI-H 与 TMB 的已知关联（本文图 4D 验证）是「突变衍生特征必须控制 TMB」的经典案例，可迁移到 TF–DNA 结合预测的混杂控制。
+- **生存分析中的 TMB 残差化**：与免疫治疗反应研究中「TMB 之外的突变质量特征」文献一致（如 neoantigen quality 研究），本文将其扩展到调控 disruption 维度。
 
 ---
 
-## 16 Agent 生成的研究候选
+## 16 研究想法
 
-> 以下为基于本文可延伸的研究方向，面向「蛋白质-DNA 互作（TF–DNA 结合机制）× AI/物理模拟」课题：
+> 标题：Agent 生成的研究候选
 
-### 候选 1：TF 结合 disruption 的机制解析——从预测分数到结构解释
-- **名称**：Mechanistic interpretation of TF-binding disruption via structure-aware modeling
-- **来源局限/观察**：本文仅报告 TF 结合 disruption 的预测分数，未解释「为什么」某些突变破坏 TF 结合；预测分数缺乏结构层面的验证
-- **核心假设**：AlphaGenome 预测的高 TF 结合 disruption 突变富集于 TF–DNA 结合界面的关键接触残基/碱基，且可通过 MD 模拟或结构预测验证
-- **增量方法**：将 AlphaGenome 的 TF 结合 disruption 预测与 AlphaFold3/分子对接/MD 模拟结合，对高 disruption 突变进行结构层面的机制验证；构建「序列预测 → 结构验证」的两步流水线
-- **验证方式**：使用 ChIP-seq 验证的 TF 结合变异数据集，比较结构特征（接触距离、氢键变化、结合自由能 ΔΔG）能否区分高/低 disruption 突变
+### 候选 1：TF–DNA 结合 disruption 的双轴正交评分框架
+- **名称**：TF-centric dual-axis disruption profiling（TF-DADP）
+- **来源局限/观察**：本文对「任意基因」做蛋白 vs 调控双轴评分，但未聚焦 TF 家族；TF 是唯一同时作为「蛋白效应靶点」和「DNA 结合 reader」的基因类别，双轴框架对其尤为关键。
+- **核心假设**：TF 基因的体细胞突变可被分解为「改变 TF 蛋白结构/功能」与「改变 TF 结合位点（其自身启动子/增强子）」两个正交轴，且两轴对癌症表型的贡献可分离。
+- **初步方法**：对全部 ~1,600 个人类 TF，用 AlphaMissense 计算错义突变蛋白效应；用 AlphaGenome 计算 TF 基因座 cis-regulatory 区域的 disruption；构建 TF 特异双轴 profile，比较两轴与表达改变、下游靶基因网络扰动的关联。
+- **验证方式**：TCGA 中 TF 双轴分数与 TF 表达、靶基因集活性的关联；在 POG570 中检验治疗特异性预后。
+- **创新状态**：unverified（框架迁移自本文，但聚焦 TF 类别为新增）
+
+### 候选 2：模态特异性 TF 结合 disruption 与 master regulator 识别
+- **名称**：Modality-resolved TF binding disruption for master regulator discovery
+- **来源局限/观察**：本文发现 ATAC disruption 预后信号最强，但未深入 TF 结合层面；TF–DNA 结合是染色质可及性的上游决定因素。
+- **核心假设**：在无热点突变的肿瘤中，分散的调控突变通过累积效应破坏特定 TF 的结合 motif，从而产生「弱化但广泛」的 master regulator 失活。
+- **初步方法**：用 AlphaGenome 的 TF ChIP-seq 模态输出，对每个 TF 的 motif 区域计算突变诱导的结合分数变化；聚合为「TF 结合 disruption 分数」；与下游靶基因表达、患者生存关联。
+- **验证方式**：与已知 master regulator 数据库（如 ARACNe 推断的 regulon）交叉验证；在细胞系中用 CRISPR 扰动候选 TF 结合位点验证预测。
 - **创新状态**：unverified
 
-### 候选 2：TF 结合 disruption 的 motif 序列特征分析
-- **名称**：Sequence motif determinants of TF-binding disruption in cancer genomes
-- **来源局限/观察**：本文未分析 TF 结合 disruption 是否富集于特定 TF 的 motif 或特定位置的碱基替换
-- **核心假设**：高 disruption 突变非随机分布，而是富集于 motif 的保守位置（如核心识别序列），且不同 TF 家族对突变位置的敏感性不同
-- **增量方法**：对本文识别的 TF 结合 disruption 突变进行 motif 位置偏好分析（position-specific disruption profiles），结合 PWM 和 position weight matrix 计算预期 vs 观察的 disruption 分布
-- **验证方式**：使用体外结合实验（如 HT-SELEX、PBMs）数据验证 motif 位置敏感性的预测
+### 候选 3：TMB 残差化的 TF 结合 disruption 作为免疫治疗反应预测因子
+- **名称**：TMB-residualized TF binding disruption for immunotherapy response
+- **来源局限/观察**：本文的 TMB 残差化框架成功分离了 disruption 与突变负荷的混杂；但未应用于免疫治疗反应（仅有生存）。
+- **核心假设**：TMB 残差化的 TF 结合 disruption 可预测免疫检查点抑制剂反应，且独立于 TMB 和 neoantigen 负荷。
+- **初步方法**：在免疫治疗队列（如 Liu 2019、Riaz 2017 等公开数据）中计算 TF 结合 disruption 分数，与 TMB、TIDE、MSI 等已知标志物比较。
+- **验证方式**：多队列 ROC/AUC 比较；与肿瘤免疫微环境（CIBERSORT 推断的免疫浸润）关联。
+- **创新状态**：unverified（框架迁移自本文，应用场景为新增）
+
+### 候选 4：TF–DNA 结合 disruption 的模态主导性图谱
+- **名称**：Pan-cancer TF binding disruption modality dominance atlas
+- **来源局限/观察**：本文的 dominant-modality map（图 3C）显示不同基因-组织对由不同模态主导，但未扩展到 TF 结合层面。
+- **核心假设**：不同癌症类型中，TF 结合 disruption 的主导模态（可及性 vs 直接结合 vs 剪接）不同，反映组织特异的调控架构。
+- **初步方法**：对 TCGA 33 癌型，计算每个 TF 的 4 模态 disruption 主导性；构建「TF × 癌型 × 主导模态」三维图谱；与组织特异的 enhancer 架构、TF 表达水平关联。
+- **验证方式**：与 ENCODE 组织特异 TF 结合数据交叉验证；与已知组织特异 master regulator 一致性检验。
 - **创新状态**：unverified
 
-### 候选 3：TF 结合 disruption 与染色质可及性 disruption 的因果链建模
-- **名称**：Causal chain modeling from TF-binding disruption to chromatin accessibility changes
-- **来源局限/观察**：本文发现染色质可及性 disruption 与生存关联最强，但未分析 TF 结合 disruption 是否通过染色质可及性变化介导生存影响
-- **核心假设**：TF 结合 disruption → 染色质可及性改变 → 基因表达变化 → 临床结局，构成因果链；TF 结合 disruption 对生存的影响部分由染色质可及性介导
-- **增量方法**：使用中介分析（mediation analysis）或结构方程模型，检验 TF 结合 disruption 对生存的效应是否由染色质可及性 disruption 介导；结合 ATAC-seq 数据验证
-- **验证方式**：在 TCGA 和独立队列中重复中介分析；使用孟德尔随机化（如 cis-MR）加强因果推断
-- **创新状态**：unverified
-
-### 候选 4：TF 结合 disruption 作为治疗反应生物标志物
-- **名称**：TF-binding disruption profiles as predictive biomarkers for targeted therapy
-- **来源局限/观察**：本文在 POG570 中验证了 disruption-生存关联，但未分析特定治疗亚组中哪些 TF 结合 disruption 最具预测价值
-- **核心假设**：特定 TF 通路（如 p53、MYC、ER 信号）的结合 disruption 可预测对应靶向治疗的反应
-- **增量方法**：在治疗注释队列中，按 TF 通路分层分析 disruption profiles 与治疗反应的关系；构建 TF 通路特异性 disruption signature
-- **验证方式**：在 POG570 及其他治疗注释队列（如 MSK-IMPACT）中验证；与已知生物标志物（如 TMB、MSI）比较增量预测价值
-- **创新状态**：unverified
-
-### 候选 5：TF 结合 disruption 的跨物种保守性分析
-- **名称**：Evolutionary conservation of TF-binding disruption effects
-- **来源局限/观察**：本文未分析 disruption 效应的进化保守性；若高 disruption 位点在进化上保守，则其功能重要性更强
-- **核心假设**：高 disruption 的 TF 结合位点在物种间保守性更高，且保守性可增强 disruption 预测的可信度
-- **增量方法**：使用 phyloP/phastCons 或跨物种比对，计算 TF 结合位点的保守性分数，与 disruption 分数联合建模
-- **验证方式**：比较保守 vs 非保守位点的 disruption 分数分布；在独立数据集中验证保守性加权的 disruption 分数是否改善临床关联
-- **创新状态**：unverified
+### 候选 5：从 disruption profile 到 TF–DNA 结合机制的物理模拟引导
+- **名称**：Disruption-guided MD simulation of TF–DNA binding
+- **来源局限/观察**：本文的 disruption 分数是纯统计关联，未提供分子机制解释；TF–DNA 结合机制需要物理层面的验证。
+- **核心假设**：AlphaGenome 预测的高 disruption 突变在 TF–DNA 复合物的 MD 模拟中显示结合自由能显著变化，且与 disruption 分数相关。
+- **初步方法**：选取高 disruption 的 TF 结合位点突变，用 AlphaFold3 或 RoseTTAFold 构建 TF–DNA 复合物结构，用 MD（如 GROMACS/AMBER）计算结合自由能变化（MM-PBSA）；与 AlphaGenome disruption 分数回归。
+- **验证方式**：与实验测定的结合亲和力数据（如 SELEX、HT-SELEX）比较；检验 disruption 分数与 ΔΔG 的相关性。
+- **创新状态**：unverified（跨 AI 预测与物理模拟的桥接为新增）

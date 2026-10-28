@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38980373",
+  "title": "DeepGRNCS: deep learning-based framework for jointly inferring gene regulatory networks across cell subpopulations.",
+  "authors": "Lei, Yahui; Huang, Xiao-Tai; Guo, Xingli; Hang Katie Chan, Kei; Gao, Lin",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-07-09",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习从单细胞转录组推断基因调控网络，虽涉及TF-基因关系预测，但缺乏三维结构互作建模，属于广义调控推断，方法可迁移但非TF-DNA结合机制研究。",
+  "abstract": "Inferring gene regulatory networks (GRNs) allows us to obtain a deeper understanding of cellular function and disease pathogenesis. Recent advances in single-cell RNA sequencing (scRNA-seq) technology have improved the accuracy of GRN inference. However, many methods for inferring individual GRNs from scRNA-seq data are limited because they overlook intercellular heterogeneity and similarities between different cell subpopulations, which are often present in the data. Here, we propose a deep learning-based framework, DeepGRNCS, for jointly inferring GRNs across cell subpopulations. We follow the commonly accepted hypothesis that the expression of a target gene can be predicted based on the expression of transcription factors (TFs) due to underlying regulatory relationships. We initially processed scRNA-seq data by discretizing data scattering using the equal-width method. Then, we trained deep learning models to predict target gene expression from TFs. By individually removing each TF from the expression matrix, we used pre-trained deep model predictions to infer regulatory relationships between TFs and genes, thereby constructing the GRN. Our method outperforms existing GRN inference methods for various simulated and real scRNA-seq datasets. Finally, we applied DeepGRNCS to non-small cell lung cancer scRNA-seq data to identify key genes in each cell subpopulation and analyzed their biological relevance. In conclusion, DeepGRNCS effectively predicts cell subpopulation-specific GRNs. The source code is available at https://github.com/Nastume777/DeepGRNCS.",
+  "abstract_zh": "推断基因调控网络（GRNs）使我们能够更深入地理解细胞功能和疾病发病机制。单细胞RNA测序（scRNA-seq）技术的最新进展提高了GRN推断的准确性。然而，许多从scRNA-seq数据推断个体GRN的方法受到限制，因为它们忽视了细胞间异质性以及不同细胞亚群之间的相似性，而这些在数据中常常存在。在此，我们提出了一种基于深度学习的框架DeepGRNCS，用于跨细胞亚群联合推断GRNs。我们遵循一个普遍接受的假设，即由于潜在的调控关系，靶基因的表达可以根据转录因子（TFs）的表达来预测。我们首先通过等宽方法离散化数据散射来处理scRNA-seq数据。然后，我们训练深度学习模型，从TFs预测靶基因表达。通过从表达矩阵中单独移除每个TF，我们利用预训练的深度模型预测来推断TF与基因之间的调控关系，从而构建GRN。我们的方法在各种模拟和真实的scRNA-seq数据集上优于现有的GRN推断方法。最后，我们将DeepGRNCS应用于非小细胞肺癌scRNA-seq数据，以识别每个细胞亚群中的关键基因，并分析其生物学相关性。总之，DeepGRNCS有效预测了细胞亚群特异性的GRNs。源代码可在https://github.com/Nastume777/DeepGRNCS获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38980373/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38980373/",
+  "paper_page_path": "papers/pubmed/38980373/index.html"
+}

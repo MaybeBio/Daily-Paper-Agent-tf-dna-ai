@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41527854",
+  "title": "EpiXFormer: a cross-attention neural network for predicting cell type-specific transcription factor binding sites.",
+  "authors": "Peng, Yonglin; Liu, Xinhua; Wu, Jun; Lin, Sang; Zhan, Shengxuan; Li, Hua; Wang, Ju; Zhao, Xiaodong",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2026-01-13",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于Transformer的EpiXFormer模型，利用跨注意力机制整合表观基因组信息预测细胞类型特异性TF结合位点，核心聚焦TF-DNA互作且方法为AI深度学习，高度匹配本课题。",
+  "abstract": "Transcription factors (TFs) bind to specific sequences in the genome to regulate gene expression and specify cell states. TF binding sites (TFBSs) are cell type-specific, which can be attributed to epigenomic contexts. Comprehensive profiling of TFBSs across various cell types through experimental approaches is neither practical nor cost-friendly. Accurately identifying cell type-specific TFBSs through computational approaches remains challenging. Here, we develop EpiXFormer, a novel transformer-based neural network for cell type-specific TFBS prediction. EpiXFormer achieves exceptional performance in predicting binding sites of DNA-binding proteins (DBPs) across a diverse collection of cell types. It models the effects of proximal and distal epigenomic information on DBP binding and learns the identified motifs of the examined TFs and their potential co-occurring proteins. Moreover, we demonstrate that EpiXFormer can infer pioneer factors during cell type transition and delineate the cell type-specific regulatory functions of TFs. Overall, EpiXFormer enables cell type-specific TFBS prediction in the examined cell lines and is readily applied to other cell types of interest. It provides a robust, scalable framework for characterizing and interpreting multimodal genomic data.",
+  "abstract_zh": "转录因子（TFs）结合基因组中的特定序列以调控基因表达并确定细胞状态。TF结合位点（TFBSs）具有细胞类型特异性，这可归因于表观基因组环境。通过实验方法全面分析多种细胞类型中的TFBSs既不实际也不经济。通过计算方法准确识别细胞类型特异性的TFBSs仍具挑战性。在此，我们开发了EpiXFormer，一种新颖的基于Transformer的神经网络，用于细胞类型特异性TFBS预测。EpiXFormer在预测多种细胞类型中DNA结合蛋白（DBPs）的结合位点方面表现出卓越性能。它模拟了近端和远端表观基因组信息对DBP结合的影响，并学习了所研究TFs的已识别基序及其潜在共现蛋白。此外，我们证明EpiXFormer能够推断细胞类型转变过程中的先锋因子，并描绘TFs的细胞类型特异性调控功能。总体而言，EpiXFormer能够在所检查的细胞系中实现细胞类型特异性TFBS预测，并可轻松应用于其他感兴趣的细胞类型。它为表征和解释多模态基因组数据提供了一个稳健、可扩展的框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41527854/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41527854/",
+  "paper_page_path": "papers/pubmed/41527854/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42272855",
+  "title": "TransPilot: mining key transcription factors by correlating binding sites with differentially expressed genes.",
+  "authors": "Tinghua, Huang; Min, Yao; Fanghong, Zhang; Siqi, Niu; Jingchun, Wen; Jianwu, Wang; Ye, Yang; Xuejun, Gao",
+  "journal": "Bioinformatics advances",
+  "published_date": "2026-06-11",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发TransPilot网络服务器，用ANN和LLR模型预测TF结合位点，并通过加权秩相关从转录组数据中挖掘关键TF，属于TF-DNA结合位点预测的工程应用，但缺乏三维互作建模与动态机制研究。",
+  "abstract": "MOTIVATION: Current software packages to mine key transcription factors (TFs) regulating the differentially expressed genes (DEGs) have not been satisfactorily utilized. RESULTS: Here, we present TransPilot, a web server that identifies key TFs from transcriptome data via weighted Kendall's tau rank correlation of ranked and directed TF-target sets against DEG lists. TransPilot employed an artificial neural network (ANN), which was trained using features derived from a log-likelihood ratio (LLR) array model, to identify transcription factor binding sites (TFBSs). The TF-target sets were ranked based on the ANN scores, which represent the binding potentials of the TFBSs. An imputation method was introduced to fill in the LLRs for genes that lack TFBS in their promoters. Most importantly, the direction for each ranked TF-target pair was annotated as positively or negatively regulated based on the correlation coefficient of their expression profiles in a reference transcriptome dataset. The key TFs were identified from transcriptome data by testing the correlation between the order of genes in the TF-target sets and the corresponding order in the DEG list. The analysis emphasizes end-ranked genes with large weights and de-emphasizes middle-ranked genes with small weights. The server was benchmarked on a transcriptome dataset derived from a macrophage polarization experiment. AVAILABILITY AND IMPLEMENTATION: The data, code, and results utilized in this study can be accessed at http://www.thua45.cn/transpilot.",
+  "abstract_zh": "动机：当前用于挖掘调控差异表达基因（DEGs）的关键转录因子（TFs）的软件包尚未得到充分利用。结果：在此，我们介绍TransPilot，一个通过网络服务器，利用加权Kendall's tau秩相关，对排序且有方向的TF-靶标集与DEG列表进行关联分析，从而从转录组数据中识别关键TFs。TransPilot采用人工神经网络（ANN），该网络基于对数似然比（LLR）数组模型提取的特征进行训练，以识别转录因子结合位点（TFBSs）。TF-靶标集根据ANN分数排序，这些分数代表TFBSs的结合潜力。引入了一种插补方法，为启动子中缺乏TFBS的基因填充LLR值。最重要的是，每个排序的TF-靶标对的方向根据参考转录组数据集中其表达谱的相关系数被注释为正调控或负调控。通过测试TF-靶标集中基因顺序与DEG列表中相应顺序之间的相关性，从转录组数据中识别关键TFs。该分析强调排名末端且权重大的基因，而弱化排名中间且权重小的基因。该服务器在巨噬细胞极化实验的转录组数据集上进行了基准测试。可用性与实现：本研究所用数据、代码和结果可在http://www.thua45.cn/transpilot访问。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42272855/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42272855/",
+  "paper_page_path": "papers/pubmed/42272855/index.html"
+}

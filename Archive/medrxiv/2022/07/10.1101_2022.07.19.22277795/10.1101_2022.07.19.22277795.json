@@ -1,0 +1,255 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2022.07.19.22277795",
+  "title": "Integrating Mendelian randomization and literature-mined evidence for breast cancer risk factors",
+  "doi": "10.1101/2022.07.19.22277795",
+  "abstract": "<h4>Abstract Figure</h4> Graphical Abstract <h4>Objective</h4> An increasing challenge in population health research is efficiently utilising the wealth of data available from multiple sources to investigate disease mechanisms and identify potential intervention targets. The use of biomedical data integration platforms can facilitate evidence triangulation from these different sources, improving confidence in causal relationships of interest. In this work, we aimed to integrate Mendelian randomization (MR) and literature-mined evidence from the EpiGraphDB biomedical knowledge graph to build a comprehensive overview of risk factors for developing breast cancer. <h4>Methods</h4> We utilised MR-EvE (“Everything-vs-Everything”) data to identify candidate risk factors for breast cancer and generate hypotheses for potential mediators of their effect. We also integrated this data with literature-mined relationships, which were extracted by overlapping literature spaces of risk factors and breast cancer. The literature-based discovery (LBD) results were followed up by validation with two-step MR to triangulate the findings from two data sources. <h4>Results</h4> We identified 129 novel and established lifestyle risk factors and molecular traits with evidence of an effect on breast cancer, and made the MR results available in an R/Shiny app ( https://mvab.shinyapps.io/MR_heatmaps/ ). We developed an LBD approach for identifying potential mechanistic intermediates of identified risk factors. We present the results of MR and literature evidence integration for two case studies (childhood body size and HDL-cholesterol), demonstrating their complementary functionalities. <h4>Conclusion</h4> We demonstrate that MR-EvE data offers an efficient hypothesis-generating approach for identifying disease risk factors. Moreover, we show that integrating MR evidence with literature-mined data may be used to identify causal intermediates and uncover the mechanisms behind the disease.",
+  "authors": [
+    "Vabistsevits M",
+    "Robinson T",
+    "Elsworth B",
+    "Liu Y",
+    "Gaunt TR"
+  ],
+  "published_date": "2022-07-22",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2022.07.19.22277795",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2022.07.19.22277795.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR521590",
+    "raw_record": {
+      "id": "PPR521590",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR521590"
+        ]
+      },
+      "doi": "10.1101/2022.07.19.22277795",
+      "title": "Integrating Mendelian randomization and literature-mined evidence for breast cancer risk factors",
+      "authorString": "Vabistsevits M, Robinson T, Elsworth B, Liu Y, Gaunt TR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Vabistsevits M",
+            "lastName": "Vabistsevits",
+            "firstName": "Marina",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1121-6790"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medical Research Council Integrative Epidemiology Unit at the University of Bristol, University of Bristol, Oakfield House, Oakfield Grove, Bristol BS8 2BN, United Kingdom"
+                },
+                {
+                  "affiliation": "Population Health Sciences, Bristol Medical School, University of Bristol, Oakfield House, Oakfield Grove, Bristol BS8 2BN, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Robinson T",
+            "lastName": "Robinson",
+            "firstName": "Tim",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0933-646X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medical Research Council Integrative Epidemiology Unit at the University of Bristol, University of Bristol, Oakfield House, Oakfield Grove, Bristol BS8 2BN, United Kingdom"
+                },
+                {
+                  "affiliation": "Population Health Sciences, Bristol Medical School, University of Bristol, Oakfield House, Oakfield Grove, Bristol BS8 2BN, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Elsworth B",
+            "lastName": "Elsworth",
+            "firstName": "Ben",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7328-4233"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medical Research Council Integrative Epidemiology Unit at the University of Bristol, University of Bristol, Oakfield House, Oakfield Grove, Bristol BS8 2BN, United Kingdom"
+                },
+                {
+                  "affiliation": "Population Health Sciences, Bristol Medical School, University of Bristol, Oakfield House, Oakfield Grove, Bristol BS8 2BN, United Kingdom"
+                },
+                {
+                  "affiliation": "Our Future Health, 2 New Bailey, 6 Stanley Street, Manchester M3 5GS"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu Y",
+            "lastName": "Liu",
+            "firstName": "Yi",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2051-440X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medical Research Council Integrative Epidemiology Unit at the University of Bristol, University of Bristol, Oakfield House, Oakfield Grove, Bristol BS8 2BN, United Kingdom"
+                },
+                {
+                  "affiliation": "Population Health Sciences, Bristol Medical School, University of Bristol, Oakfield House, Oakfield Grove, Bristol BS8 2BN, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gaunt TR",
+            "lastName": "Gaunt",
+            "firstName": "Tom",
+            "initials": "TR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0924-3247"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medical Research Council Integrative Epidemiology Unit at the University of Bristol, University of Bristol, Oakfield House, Oakfield Grove, Bristol BS8 2BN, United Kingdom"
+                },
+                {
+                  "affiliation": "Population Health Sciences, Bristol Medical School, University of Bristol, Oakfield House, Oakfield Grove, Bristol BS8 2BN, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7328-4233"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2051-440X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0924-3247"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0933-646X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1121-6790"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>Abstract Figure</h4> Graphical Abstract <h4>Objective</h4> An increasing challenge in population health research is efficiently utilising the wealth of data available from multiple sources to investigate disease mechanisms and identify potential intervention targets. The use of biomedical data integration platforms can facilitate evidence triangulation from these different sources, improving confidence in causal relationships of interest. In this work, we aimed to integrate Mendelian randomization (MR) and literature-mined evidence from the EpiGraphDB biomedical knowledge graph to build a comprehensive overview of risk factors for developing breast cancer. <h4>Methods</h4> We utilised MR-EvE (“Everything-vs-Everything”) data to identify candidate risk factors for breast cancer and generate hypotheses for potential mediators of their effect. We also integrated this data with literature-mined relationships, which were extracted by overlapping literature spaces of risk factors and breast cancer. The literature-based discovery (LBD) results were followed up by validation with two-step MR to triangulate the findings from two data sources. <h4>Results</h4> We identified 129 novel and established lifestyle risk factors and molecular traits with evidence of an effect on breast cancer, and made the MR results available in an R/Shiny app ( https://mvab.shinyapps.io/MR_heatmaps/ ). We developed an LBD approach for identifying potential mechanistic intermediates of identified risk factors. We present the results of MR and literature evidence integration for two case studies (childhood body size and HDL-cholesterol), demonstrating their complementary functionalities. <h4>Conclusion</h4> We demonstrate that MR-EvE data offers an efficient hypothesis-generating approach for identifying disease risk factors. Moreover, we show that integrating MR evidence with literature-mined data may be used to identify causal intermediates and uncover the mechanisms behind the disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2022/07/22/2022.07.19.22277795.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.07.19.22277795"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR521590"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR521590&type=FILE&fileName=EMS151556-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40127852",
+            "reference": "Journal of biomedical informatics. 2025 May;165:104810",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS151556",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-07-23",
+      "firstPublicationDate": "2022-07-22",
+      "firstIndexDate": "2022-07-23",
+      "fullTextReceivedDate": "2022-10-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

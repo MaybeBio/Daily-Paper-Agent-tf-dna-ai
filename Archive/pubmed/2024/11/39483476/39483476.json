@@ -1,0 +1,462 @@
+{
+  "identity": {
+    "pmid": "39483476",
+    "doi": "10.3389/fimmu.2024.1465126",
+    "title": "\"Dictionary of immune responses\" reveals the critical role of monocytes and the core target IRF7 in intervertebral disc degeneration."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Intervertebral disc degeneration (IDD) is widely regarded as the primary contributor to low back pain(LBP). As an immune-privileged organ, upon the onset of IDD, various components of the nucleus pulposus (NP) are exposed to the host's immune system, accumulating cytokines. Cytokines facilitate intercellular communication within the immune system, induce immune cells polarisation, and exacerbate oxidative stress in IDD. METHODS: Machine learning was used to identify crucial immune cells. Subsequently, Immune Response Enrichment Analysis (IREA) was conducted on the key immune cells to determine their cytokine responses and polarisation states in IDD. \"CellChat\" package facilitated the analysis of cell-cell communication. Differential gene expression analysis, PPI network, GO and KEGG pathway enrichment analysis, GSVA, co-expressed gene analysis and key gene-related networks were also performed to explore hub genes and their associated functions. Lastly, the differential expression and functions of key genes were validated through in vitro and in vivo experiments. RESULTS: Through multiple machine learning methods, monocytes were identified as the crucial immune cells in IDD, exhibiting significant differentiation capacity. IREA revealed that monocytes in IDD polarize into an IFN-a1 and IFN-b enriched Mono-a state, potentially intensifying inflammation. Cell-cell communication analysis uncovered alteration in ANNEXIN pathway and a reduction in CXCL signaling between macrophages and monocytes, suggesting immune response dysregulation. Furthermore, ten algorithms identified three hub genes. Both experiments conducted in vitro and in vivo have conclusively shown that IRF7 serves as a crucial target for the treatment of IDD, and its knockdown alleviates IDD. Eight small-molecule drugs were predicted to have therapeutic potential for IDD. CONCLUSION: These findings offer a multidimensional understanding of the pathogenesis of IDD, pinpointing monocytes and key genes as potential diagnostic and therapeutic targets. They provide novel insights into potential diagnostic and therapeutic targets for IDD.",
+    "keywords": [
+      "IRF7",
+      "cytokine",
+      "intervertebral disc degeneration",
+      "machine learning",
+      "monocytes",
+      "single-cell sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Intervertebral Disc Degeneration/immunology/genetics",
+      "*Monocytes/immunology/metabolism",
+      "*Interferon Regulatory Factor-7/genetics/metabolism",
+      "*Machine Learning",
+      "Animals",
+      "Cytokines/metabolism",
+      "Gene Regulatory Networks",
+      "Nucleus Pulposus/metabolism/immunology/pathology",
+      "Gene Expression Profiling",
+      "Mice",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Peichuan",
+        "Li, Kaihui",
+        "Yuan, Jinghong",
+        "Zhao, Jiangminghao",
+        "Pan, Huajun",
+        "Pan, Chongzhi",
+        "Xiong, Wei",
+        "Tan, Jianye",
+        "Li, Tao",
+        "Huang, Guanfeng",
+        "Chen, Xiaolong",
+        "Miao, Xinxin",
+        "He, Dingwen",
+        "Cheng, Xigao"
+      ],
+      "short_names": [
+        "Xu P",
+        "Li K",
+        "Yuan J",
+        "Zhao J",
+        "Pan H",
+        "Pan C",
+        "Xiong W",
+        "Tan J",
+        "Li T",
+        "Huang G",
+        "Chen X",
+        "Miao X",
+        "He D",
+        "Cheng X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China.",
+        "Department of Stomatology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China.",
+        "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China.",
+        "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China.",
+        "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China.",
+        "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China.",
+        "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China.",
+        "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China.",
+        "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China.",
+        "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China.",
+        "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+        "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Peichuan",
+        "short_name": "Xu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+          "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Kaihui",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stomatology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Jinghong",
+        "short_name": "Yuan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+          "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jiangminghao",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+          "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Huajun",
+        "short_name": "Pan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+          "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Chongzhi",
+        "short_name": "Pan C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+          "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Wei",
+        "short_name": "Xiong W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+          "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Jianye",
+        "short_name": "Tan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+          "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Tao",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+          "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Guanfeng",
+        "short_name": "Huang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+          "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaolong",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+          "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Miao, Xinxin",
+        "short_name": "Miao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "He, Dingwen",
+        "short_name": "He D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Xigao",
+        "short_name": "Cheng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China.",
+          "Jiangxi Provincial Key Laboratory of Spine and Spinal Cord Disease, Nanchang University, Nanchang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/04 07:23",
+    "fetched_at": "2026-09-30 05:32:55"
+  },
+  "links": {
+    "cites": [
+      "39944489"
+    ],
+    "refs": [
+      "38904008",
+      "38632688",
+      "38630557",
+      "38630169",
+      "38577652",
+      "38444852",
+      "38417775",
+      "38403470",
+      "38383560",
+      "38358087",
+      "38222802",
+      "38124132",
+      "38057668",
+      "37651799",
+      "37480032",
+      "37329158",
+      "37038676",
+      "36817437",
+      "36693558",
+      "36674887",
+      "36580757",
+      "36527065",
+      "36299288",
+      "36131080",
+      "36090900",
+      "35978054",
+      "35938159",
+      "35846355",
+      "35704952",
+      "35184422",
+      "35085541",
+      "34850920",
+      "34416893",
+      "34083781",
+      "33537810",
+      "33488627",
+      "33359244",
+      "33237311",
+      "33117408",
+      "32210719",
+      "31775040",
+      "30339788",
+      "29608179",
+      "27765768",
+      "26334234",
+      "25911105",
+      "25827971",
+      "25748081",
+      "25614319",
+      "25605792",
+      "25428369",
+      "25209447",
+      "24706108",
+      "24325988",
+      "24297251",
+      "24166242",
+      "22493082",
+      "22455463",
+      "22257669",
+      "20628149",
+      "20576703",
+      "19773191",
+      "18727839",
+      "18708924",
+      "18397957",
+      "17372018",
+      "15987475",
+      "15800576",
+      "14597658",
+      "10592173",
+      "10470716",
+      "9877175",
+      "9822609",
+      "8073311",
+      "1695833"
+    ],
+    "similar": [
+      "39483476",
+      "39349110",
+      "39328407",
+      "37325630",
+      "32686499",
+      "31056633",
+      "28514734",
+      "39050860",
+      "38544414",
+      "29039500",
+      "39425013",
+      "35711934",
+      "33455530",
+      "33904383",
+      "33545632",
+      "34122424",
+      "32453232",
+      "34413926",
+      "35578687",
+      "39130434",
+      "36972403",
+      "37902557",
+      "36814575",
+      "36059551",
+      "37009470",
+      "38569428",
+      "38104954",
+      "37716491",
+      "33349112",
+      "36858954",
+      "37625164",
+      "34238741",
+      "38104050",
+      "31368816",
+      "37340393",
+      "32160130",
+      "38877413",
+      "37632659",
+      "32114390",
+      "32659941",
+      "34879291",
+      "37287061",
+      "33676464",
+      "39192377",
+      "36267810",
+      "34285912",
+      "38014468",
+      "32705171",
+      "38764497",
+      "31432173",
+      "26620678",
+      "34168643",
+      "36423859",
+      "34028920",
+      "36193061",
+      "27769935",
+      "31997395",
+      "32965648",
+      "28458159",
+      "37267294",
+      "31149042",
+      "39267105",
+      "29700214",
+      "33159017",
+      "36746221",
+      "33486545",
+      "35069789",
+      "37876250",
+      "38773639",
+      "28586059",
+      "33536009",
+      "35613904",
+      "37026912",
+      "31621141",
+      "35147801",
+      "37325631",
+      "39516278",
+      "38823438",
+      "37686041",
+      "33764282",
+      "36400723",
+      "36693558",
+      "36897022",
+      "35085541",
+      "29649547",
+      "38403470",
+      "37638033",
+      "34402383",
+      "32712400",
+      "37915003",
+      "25547527",
+      "38007425",
+      "30378116",
+      "36111773",
+      "30387830",
+      "31290273",
+      "34676879",
+      "31781346",
+      "37101594",
+      "37122738"
+    ],
+    "review": [
+      "39483476",
+      "38569428",
+      "34028920",
+      "31621141",
+      "36400723",
+      "25547527",
+      "37101594"
+    ],
+    "pmc": [
+      "11524831"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39483476/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-570",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1465126",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

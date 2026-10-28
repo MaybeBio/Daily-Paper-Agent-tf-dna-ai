@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, supplementary figure legends referenced but not provided)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided manuscript text; supplementary materials and figures referenced but not available for direct evaluation
+- **Shared manuscript claim summary** The authors report the cryo-EM structure of full-length human SLFN14, characterize its domain architecture, demonstrate that it is a potent RNase with distinct substrate preferences, show that positively charged patches in the RNase domain are critical for RNA binding and antiviral function, and provide evidence that SLFN14 lacks helicase activity due to an inability to bind ATP and DNA. They also present live-cell FRET and AlphaFold2 analyses suggesting possible conformational flexibility in cells.
+- **Visible evidence base** Main text describing cryo-EM structure determination (3.36 Å resolution), biochemical assays (RNA cleavage, EMSA, ATP hydrolysis, DNA unwinding), biophysical assays (mass photometry, SEC-RALS, protein thermal shift), live-cell FRET, AlphaFold2 predictions, and molecular dynamics simulations; figures and supplementary tables referenced but not directly inspected
+- **Missing materials affecting confidence** All figures, supplementary figures, supplementary tables (including primer sequences and nucleic acid substrate sequences), and supplementary data are referenced but not provided; this limits independent verification of structural quality, assay details, and quantitative results
+
+## Reviewer
+- **Overall assessment** This manuscript presents a structurally and biochemically informative characterization of human SLFN14, a member of the SLFN family with established links to antiviral immunity and inherited thrombocytopenia. The cryo-EM structure at 3.36 Å resolution represents a valuable contribution, particularly given the limited structural information available for subgroup III SLFNs. The biochemical data supporting RNase activity and the identification of critical RNA-binding residues are generally convincing based on the text. The conclusion that SLFN14 lacks helicase activity is supported by multiple lines of evidence. However, several claims, particularly those regarding conformational dynamics in cells, are presented with appropriate caution but remain speculative. The manuscript would benefit from clearer presentation of quantitative data and more explicit discussion of limitations in the structural analysis.
+- **Who would be interested in the results, and why** Structural biologists studying nucleic acid processing enzymes, immunologists investigating antiviral restriction factors, hematologists interested in inherited bleeding disorders, and cancer biologists studying SLFN family members as tumor suppressors would all find this work relevant. The structural comparison across SLFN family members and the identification of disease-associated mutation sites on the structure provide a framework for understanding genotype-phenotype relationships in thrombocytopenia.
+- **Major strengths** The cryo-EM structure of full-length SLFN14 fills an important gap in SLFN family structural biology. The combination of structural, biochemical, and biophysical approaches provides a comprehensive characterization. The identification of positively charged patches as RNA-binding sites and their connection to disease-associated mutations is clinically relevant. The systematic demonstration that SLFN14 lacks helicase activity, with structural explanations provided, addresses an important question in the field. The authors appropriately acknowledge limitations in their conformational dynamics analysis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness of structural analysis
+  - **Claim pointer** The manuscript claims a cryo-EM structure of full-length human SLFN14 at an average resolution of 3.36 Å, with a dimeric architecture and three clearly resolved domains.
+  - **Evidence pointer** Results section "Overall structure of full-length SLFN14"; Table 1 (referenced but not provided); Supplementary Fig. S1 (referenced but not provided)
+  - **Concern** The resolution of 3.36 Å is reported, but without access to the actual maps, model statistics, or local resolution estimates, it is not possible to assess the reliability of the structural model, particularly for the loop regions and the domain interfaces. The manuscript states that residues 1-8, 161-178, 351-378, 518-524, and 908-912 are missing due to flexibility, but the quality of the remaining model, especially in the context of the functional claims made about specific residues, cannot be independently evaluated. The use of a mutant (E206A/E211A) for structure determination is noted, but the potential structural impact of these mutations is not discussed.
+  - **Why it matters** The structural model serves as the foundation for many of the manuscript's conclusions, including the identification of RNA-binding patches, the comparison with other SLFN structures, and the interpretation of disease-associated mutations. If the model has local inaccuracies or if the mutations alter the structure, these conclusions could be affected.
+  - **Resolution test** Provide the cryo-EM density maps, model-to-map fit statistics, local resolution maps, and a detailed comparison of the mutant structure with any available WT structural information. Discuss whether the E206A/E211A mutations could affect the overall fold or domain arrangement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for functional claims
+  - **Claim pointer** The manuscript claims that SLFN14 exhibits strong RNase activity over different substrates, that positively charged patches are crucial for binding oligonucleotides, and that RNase activity is essential for antiviral function.
+  - **Evidence pointer** Results section "The RNase activity of SLFN14"; Figures 3 and 4 (referenced but not provided); Supplementary Figs. S4 and S5 (referenced but not provided)
+  - **Concern** The text describes RNA cleavage assays, EMSA experiments, and antiviral assays, but the actual data are not visible. Key quantitative details are missing, including the specific substrates tested, the concentrations used, the extent of cleavage, the statistical significance of differences between WT and mutants, and the dose-response relationships in the antiviral assays. The claim that SLFN14 digests RNA "at random sites" is based on gel patterns that cannot be evaluated. The antiviral assay appears to be a single experimental system (HIV pseudotyped with VSV-G), and the relationship between in vitro RNase activity and antiviral function is not fully explored.
+  - **Why it matters** The functional characterization is central to the manuscript's contribution. Without clear presentation of the data, the strength of the conclusions cannot be assessed. The claim of "random" cleavage is particularly important because it distinguishes SLFN14 from other SLFN family members, and this distinction should be rigorously supported.
+  - **Resolution test** Present the actual gel images, quantification with error bars and statistical tests, substrate sequences, and experimental conditions. Clarify the criteria for "random" cleavage and provide a more detailed analysis of the antiviral mechanism.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of conformational dynamics data
+  - **Claim pointer** The manuscript claims that live-cell FRET and AlphaFold2 analyses "hinted that SLFN14 may adopt multiple conformations in cells" and discusses a possible conformational change from a SLFN14-like to a SLFN5-like state.
+  - **Evidence pointer** Results section "Possible conformational change of SLFN14 in living cells"; Supplementary Figs. S8 and S9 (referenced but not provided)
+  - **Concern** The FRET efficiency of 0.097 corresponds to a calculated distance of 71.2 Å, which does not match either the cryo-EM structure (51.2 Å) or the SLFN5 structure (78.4 Å). The authors interpret this as evidence for an intermediate or averaged conformation, but alternative explanations are not adequately explored. These include the possibility of FRET artifacts due to the size and flexibility of the fluorescent protein tags, partial protein misfolding or aggregation, or the presence of multiple conformational states in dynamic equilibrium. The AlphaFold2 analysis with reduced MSA depth is acknowledged to carry a risk of model inaccuracy, and the molecular dynamics simulation showed limited domain flexibility, which appears to contradict the conformational change hypothesis. The authors acknowledge these limitations but still present the conformational change as a plausible scenario.
+  - **Why it matters** The conformational dynamics claim is presented as a significant finding, but the evidence is indirect and potentially contradictory. Overinterpretation of such data could mislead the field about the functional relevance of conformational changes in SLFN14.
+  - **Resolution test** Provide additional controls for the FRET experiments, including proper positive and negative controls, and discuss alternative explanations more thoroughly. Consider whether the discrepancy between FRET and cryo-EM distances could be explained by the tag positions or by the oligomeric state. If conformational dynamics are to be claimed, more direct evidence is needed.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of structural comparisons
+  - **Claim pointer** The manuscript claims that SLFN14 is structurally similar to SLFN11 but differs from SLFN5 in the orientation of the helicase domain, and that these differences explain functional diversity.
+  - **Evidence pointer** Results sections "The dimeric interface of SLFN14" and "Diversity of the SWADL domain among the SLFN family"; Figures 2 and 5 (referenced but not provided); Supplementary Figs. S3 and S5 (referenced but not provided)
+  - **Concern** The structural comparisons are based on the SLFN14 structure presented here, the previously published SLFN11 structure, and the previously published SLFN5 structure. The manuscript states that SLFN14 and SLFN11 share similar overall architectures but that the dimeric interfaces are not strictly conserved. The structural basis for the different helicase domain orientations is attributed to differences in the SWADL domain, particularly the region around αS7-αH1. However, without seeing the actual structural alignments, the significance of these differences is difficult to evaluate. The claim that the SLFN14 structure represents a "SLFN14-like" conformation that can convert to a "SLFN5-like" conformation is speculative.
+  - **Why it matters** The structural comparisons are used to draw conclusions about the functional evolution and diversity of the SLFN family. If the comparisons are not rigorously presented, these conclusions may be overstated.
+  - **Resolution test** Provide clear structural alignments with RMSD values for individual domains, a detailed description of the conformational differences, and a more nuanced discussion of what these differences mean for function.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; Introduction
+  - **Issue** The abstract states that SLFN14 is "a member with antiviral activity and linked to an inherited bleeding disorder," which is somewhat awkward phrasing. The introduction could more clearly distinguish between what is known about SLFN14 specifically versus what is inferred from other SLFN family members.
+  - **Required correction** Revise the abstract for clarity and ensure the introduction clearly delineates established knowledge from speculation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Molecular dynamics simulation
+  - **Evidence pointer** Methods section "Molecular dynamics simulation"
+  - **Issue** The description of the molecular dynamics simulation is brief. Details such as the simulation time, temperature, pressure coupling, and analysis methods are not fully described. The statement that "SLFN14 displayed limited domain flexibility within 20 ns" is presented without quantitative metrics.
+  - **Required correction** Provide more complete methodological details for the MD simulation and present quantitative measures of domain flexibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of disease mutations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion mentions that the K219N mutation reduces RNase activity, but the relationship between reduced RNase activity and the thrombocytopenia phenotype is not fully explored. The authors note that the role of RNase activity in platelet maturation is unclear, but this point could be developed further.
+  - **Required correction** Expand the discussion of how the structural and biochemical findings relate to the pathophysiology of SLFN14-associated thrombocytopenia.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Results section "The RNase activity of SLFN14"
+  - **Issue** The manuscript uses the term "SLFN14-N" in one instance (Figure 3G-I description) where it likely means "SLFN14-R" (the RNase domain construct). This appears to be a typographical error.
+  - **Required correction** Correct the typographical error and ensure consistent terminology throughout.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** ATP hydrolysis and DNA unwinding assays
+  - **Evidence pointer** Methods section "ATP hydrolysis assay"; Results section "SLFN14 is an inactive helicase"
+  - **Issue** The ATP hydrolysis assay and DNA unwinding assay are described, but the results are presented only in text without visible data. The claim that "all SLFNs exhibited no ATPase activity" would be strengthened by showing the raw data and positive controls.
+  - **Required correction** Include the actual assay data, including positive controls, to support the negative results.
+
+## Risk / unsupported claims
+- The claim that SLFN14 "may adopt multiple conformations in cells" is based on indirect evidence (FRET and AlphaFold2) and is acknowledged by the authors as speculative; the molecular dynamics simulation did not support large-scale conformational changes, creating an internal inconsistency that is not fully resolved.
+- The claim that SLFN14 digests RNA "at random sites" is presented without visible gel data or a clear definition of "random" in this context.
+- The statement that the positively charged patch 2 is "particularly crucial" for RNA binding is based on EMSA data that are not visible.
+- The structural comparison between SLFN14, SLFN11, and SLFN5, and the conclusion that the helicase domain orientation differs, cannot be fully evaluated without the actual structural alignments.
+- The relationship between the in vitro biochemical properties of SLFN14 mutants and their effects on antiviral activity is presented without visible quantitative data from the antiviral assays.
+- The discussion of the potential role of SLFN14 RNase activity in platelet maturation and thrombocytopenia is speculative and not directly tested in this study.

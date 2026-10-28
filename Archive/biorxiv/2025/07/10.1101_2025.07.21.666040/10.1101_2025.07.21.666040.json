@@ -1,0 +1,137 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.21.666040",
+  "title": "A scalable computational framework for predicting gene expression from candidate cis-regulatory elements",
+  "doi": "10.1101/2025.07.21.666040",
+  "abstract": "Deciphering the relationships between cis-regulatory elements (CREs) and target gene expression has been a long-standing unsolved problem in molecular biology, and the dynamics of CREs in different cell types make this problem more challenging. To address this challenge, we propose a sc alable computational framework for p redicting g ene e xpression (ScPGE) from discrete candidate CREs (cCREs). ScPGE assembles DNA sequences, transcription factor (TF) binding scores, and epigenomic tracks from discrete cCREs into 3-dimensional tensors, and then models the relationships between cCREs and genes by combining convolutional neural network with transformer. Compared with current state-of-the-art models, ScPGE exhibits superior performance in predicting gene expression and yields higher accuracy in identifying active enhancer-gene interactions through attention mechanisms. By comprehensively analyzing ScPGE’s predictions, we find a pattern in true positives (TPs) that the regulatory effect of cCREs on genes decreases with distance. Inspired by the pattern, we design two methods to enhance the ability to capture distal cCRE-gene interactions by incorporating chromatin loops into the ScPGE model. Furthermore, ScPGE accurately discovers some crucial TF motifs within prioritized cCREs and reveals the different regulatory types of these cCREs.",
+  "authors": [
+    "Zhang Q",
+    "Wang S",
+    "Li Z",
+    "Bao W",
+    "Liu W",
+    "Huang D"
+  ],
+  "published_date": "2025-07-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.21.666040",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.21.666040.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1055425",
+    "raw_record": {
+      "id": "PPR1055425",
+      "source": "PPR",
+      "doi": "10.1101/2025.07.21.666040",
+      "title": "A scalable computational framework for predicting gene expression from candidate cis-regulatory elements",
+      "authorString": "Zhang Q, Wang S, Li Z, Bao W, Liu W, Huang D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zhang Q",
+            "lastName": "Zhang",
+            "firstName": "Qinhu",
+            "initials": "Q"
+          },
+          {
+            "fullName": "Wang S",
+            "lastName": "Wang",
+            "firstName": "Siguo",
+            "initials": "S"
+          },
+          {
+            "fullName": "Li Z",
+            "lastName": "Li",
+            "firstName": "Zhipeng",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Bao W",
+            "lastName": "Bao",
+            "firstName": "Wenzheng",
+            "initials": "W"
+          },
+          {
+            "fullName": "Liu W",
+            "lastName": "Liu",
+            "firstName": "Wenjian",
+            "initials": "W"
+          },
+          {
+            "fullName": "Huang D",
+            "lastName": "Huang",
+            "firstName": "De-Shuang",
+            "initials": "D"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Deciphering the relationships between cis-regulatory elements (CREs) and target gene expression has been a long-standing unsolved problem in molecular biology, and the dynamics of CREs in different cell types make this problem more challenging. To address this challenge, we propose a  sc alable computational framework for  p redicting  g ene  e xpression (ScPGE) from discrete candidate CREs (cCREs). ScPGE assembles DNA sequences, transcription factor (TF) binding scores, and epigenomic tracks from discrete cCREs into 3-dimensional tensors, and then models the relationships between cCREs and genes by combining convolutional neural network with transformer. Compared with current state-of-the-art models, ScPGE exhibits superior performance in predicting gene expression and yields higher accuracy in identifying active enhancer-gene interactions through attention mechanisms. By comprehensively analyzing ScPGE’s predictions, we find a pattern in true positives (TPs) that the regulatory effect of cCREs on genes decreases with distance. Inspired by the pattern, we design two methods to enhance the ability to capture distal cCRE-gene interactions by incorporating chromatin loops into the ScPGE model. Furthermore, ScPGE accurately discovers some crucial TF motifs within prioritized cCREs and reveals the different regulatory types of these cCREs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.21.666040"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41545085",
+            "reference": "Genome research. 2026 Feb;36(2):361-374",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-07-27",
+      "firstPublicationDate": "2025-07-25",
+      "firstIndexDate": "2025-07-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

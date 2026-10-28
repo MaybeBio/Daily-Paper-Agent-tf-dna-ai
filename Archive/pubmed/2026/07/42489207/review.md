@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to full text, figures, or supplementary materials
+- **Shared manuscript claim summary** The authors report that NANOG, a transcription factor critical for pluripotency, forms macroscopic aging gels at high concentrations in a manner dependent on its intrinsically disordered domain. They further report discovery of self-limiting micelles with exposed DNA-binding domains, based on molecular dynamics simulations, mass photometry, and cryo-EM. They propose that these micelles stabilize DNA entanglements and modulate DNA dynamics, and conjecture a role for NANOG in creating local gel-like environments that restrict genome dynamics and impart mechanical memory to gene regulatory networks.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or supplementary information were provided.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods descriptions, simulation parameters, experimental protocols, statistical analyses, and any supplementary data. Without these, quantitative claims and mechanistic interpretations cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and novel biophysical characterization of NANOG, with claims that span experimental and computational approaches. The central finding, that NANOG forms self-limiting micelles rather than unbounded condensates, is intriguing and could be of broad interest. However, the abstract alone provides insufficient detail to assess the rigor of the evidence. Key quantitative results, control experiments, and methodological validations are not visible. The conjecture regarding gene regulation and mechanical memory, while speculative, is appropriately framed as such. The work may merit consideration if the full manuscript substantiates the claims, but the current evidence base is too limited to establish the case.
+- **Who would be interested in the results, and why** Biophysicists and soft matter physicists studying protein phase behavior and viscoelasticity. Cell and developmental biologists interested in transcription factor organization and pluripotency regulation. Researchers working on intrinsically disordered proteins and their role in nuclear organization. The potential link between protein aging and gene regulatory dynamics could attract a broader readership in systems biology.
+- **Major strengths** The abstract identifies a novel phenomenon, namely self-limiting micelle formation by an intrinsically disordered protein, which contrasts with the more commonly reported unbounded condensates. The combination of multiple techniques, including simulations, mass photometry, and cryo-EM, suggests a multi-pronged approach. The connection between protein rheology and DNA dynamics is conceptually interesting and could open new avenues for understanding transcriptional regulation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that NANOG forms self-limiting micelles with exposed DNA-binding domains is presented as a discovery based on molecular dynamics simulations, mass photometry, and cryo-EM.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract does not provide any quantitative data, such as micelle size distributions, critical aggregation concentrations, or structural resolution from cryo-EM. It is unclear how the self-limiting nature was established and how the exposed DNA-binding domains were identified. The agreement between simulations and experiments is not described.
+  - **Why it matters** The central novelty of the work rests on this claim. Without visible quantitative evidence and a description of how the techniques were integrated, the claim cannot be evaluated. Self-limiting assembly is a nontrivial finding that requires careful demonstration, especially in contrast to the well-documented behavior of other intrinsically disordered proteins.
+  - **Resolution test** The full manuscript should provide size distributions from mass photometry, representative cryo-EM micrographs with structural analysis, and a clear description of how simulations predicted or confirmed the self-limiting behavior. A quantitative comparison between experimental and simulated sizes would strengthen the case.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that NANOG forms macroscopic aging gels at high concentrations, dependent on its intrinsically disordered domain.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract states that NANOG forms aging gels but provides no rheological data, such as storage and loss moduli, time-dependent viscosity, or strain sweeps. The dependence on the intrinsically disordered domain is asserted without showing comparative data for a construct lacking this domain.
+  - **Why it matters** The gel formation and aging behavior are foundational to the proposed biological implications. Without rheological characterization and domain-deletion controls, the claim is unsupported. Aging is a time-dependent phenomenon that requires time-resolved measurements to establish.
+  - **Resolution test** The full manuscript should include rheological time sweeps showing increasing moduli over time, frequency sweeps, and a comparison between full-length NANOG and a variant lacking the intrinsically disordered domain. The concentration dependence of gelation should also be documented.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that NANOG micelles stabilize DNA entanglements and modulate DNA dynamics.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract does not describe the experimental or computational approach used to assess DNA dynamics. No data on DNA mobility, diffusion coefficients, or entanglement density are provided. The mechanism by which micelles stabilize entanglements is not explained.
+  - **Why it matters** This claim links the biophysical findings to a potential functional role. Without evidence that DNA dynamics are indeed altered in the presence of NANOG micelles, the biological relevance of the observed assembly behavior remains speculative.
+  - **Resolution test** The full manuscript should provide measurements of DNA dynamics, such as single-molecule tracking or microrheology, in the presence and absence of NANOG micelles. Simulations should show how micelles affect DNA chain entanglements. A quantitative comparison between conditions is required.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "aging micelles" in the title is unusual and may confuse readers, as aging typically refers to time-dependent changes in material properties, while micelles are equilibrium structures. The abstract does not clarify how aging applies to micelles.
+  - **Required correction** Define what is meant by "aging micelles" in the abstract or consider rephrasing to avoid ambiguity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Biological context
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that NANOG is key for pluripotency but does not specify the concentration range over which gelation occurs relative to physiological concentrations. This limits the reader's ability to assess biological relevance.
+  - **Required correction** Provide a brief statement on whether the concentrations used are physiologically relevant or note the concentration range in the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Conjecture framing
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The conjecture that NANOG may regulate gene expression by creating gel-like environments is interesting but is presented without any mention of how this might be tested experimentally.
+  - **Required correction** Consider adding a sentence on potential experimental approaches to test this conjecture, or explicitly state that this is a speculative hypothesis.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking. The abstract does not provide sufficient quantitative evidence for the three central claims: self-limiting micelle formation, gelation dependent on the intrinsically disordered domain, and modulation of DNA dynamics. Without these, the case is not established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The claim of self-limiting micelles formed by an intrinsically disordered protein is potentially original and contrasts with the prevailing view of unbounded condensates. However, originality cannot be fully assessed without seeing how this compares to existing literature in the full manuscript.
+  - Scientific importance: If substantiated, the findings could be important for understanding how transcription factors organize in the nucleus and how protein material properties influence genome dynamics. The link to gene regulation is conceptually significant.
+  - Interdisciplinary readership: The work bridges soft matter physics, biophysics, and cell biology, which could attract a broad readership. The abstract is written in a way that is accessible to nonspecialists, though some terms like "sol-gel transition" and "micelles" may require background knowledge.
+  - Technical soundness: Cannot be assessed from the abstract alone. The combination of techniques is promising, but the lack of visible data prevents evaluation of experimental rigor, simulation quality, and statistical analysis.
+  - Readability for nonspecialists: The abstract is generally clear and well-structured. The key findings are stated succinctly, and the biological motivation is understandable. However, the term "aging micelles" and the mechanism of DNA modulation could be explained more clearly.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an intriguing hypothesis and a plausible multi-technique approach, but the absence of quantitative data and methodological detail means the central claims cannot be verified. I would be supportive if the full manuscript provides the necessary evidence to address the blocking concerns.
+
+## Risk / unsupported claims
+- The claim that NANOG forms self-limiting micelles with exposed DNA-binding domains is unsupported in the abstract, as no structural or size data are provided.
+- The claim that NANOG forms macroscopic aging gels dependent on its intrinsically disordered domain is unsupported, as no rheological data or domain-deletion controls are shown.
+- The claim that NANOG micelles stabilize DNA entanglements and modulate DNA dynamics is unsupported, as no DNA dynamics measurements are described.
+- The conjecture that NANOG creates local gel-like environments that restrict genome dynamics and impart mechanical memory is speculative and not testable from the abstract alone.

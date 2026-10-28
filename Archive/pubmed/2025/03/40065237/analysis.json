@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40065237",
+  "title": "SNPeBoT: a tool for predicting transcription factor allele specific binding.",
+  "authors": "Gohl, Patrick; Oliva, Baldo",
+  "journal": "BMC bioinformatics",
+  "published_date": "2025-03-11",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发深度学习CNN模型SNPeBoT，利用ChIP-seq ASB数据和PBM E-score谱预测SNP对转录因子等位基因特异性结合的影响，核心聚焦TF-DNA结合位点变异效应预测，方法为AI建模，高度匹配本课题。",
+  "abstract": "BACKGROUND: Mutations in non-coding regulatory regions of DNA may lead to disease through the disruption of transcription factor binding. However, our understanding of binding patterns of transcription factors and the effects that changes to their binding sites have on their action remains limited. To address this issue we trained a Deep learning model to predict the effects of Single Nucleotide Polymorphisms (SNP) on transcription factor binding. Allele specific binding (ASB) data from Chromatin Immunoprecipitation sequencing (ChIP-seq) experiments were paired with high sequence-identity DNA binding Domains assessed in Protein Binding Microarray (PBM) experiments. For each transcription factor a paired DNA binding Domain was selected from which we derived E-score profiles for reference and alternate DNA sequences of ASB events. A Convolutional Neural Network (CNN) was trained to predict whether these profiles were indicative of ASB gain/loss or no change in binding. 18211 E-score profiles from 113 transcription factors were split into train, validation and test data. We compared the performance of the trained model with other available platforms for predicting the effect of SNP on transcription factor binding. Our model demonstrated increased accuracy and ASB recall in comparison to the best scoring benchmark tools. CONCLUSION: In this paper we present our model SNPeBoT (Single Nucleotide Polymorphism effect on Binding of Transcription Factors) in its standalone and web server form. The increased recovery and prediction accuracy of allele specific binding events could prove useful in discovering non-coding mutations relevant to disease.",
+  "abstract_zh": "背景：DNA非编码调控区域的突变可能通过破坏转录因子结合而导致疾病。然而，我们对转录因子结合模式及其结合位点变化对其作用的影响的理解仍然有限。为解决此问题，我们训练了一个深度学习模型来预测单核苷酸多态性（SNP）对转录因子结合的影响。来自染色质免疫沉淀测序（ChIP-seq）实验的等位基因特异性结合（ASB）数据与在蛋白质结合微阵列（PBM）实验中评估的高序列同一性DNA结合域配对。对于每个转录因子，我们选择了一个配对的DNA结合域，并从中推导出ASB事件参考和替代DNA序列的E-score谱。我们训练了一个卷积神经网络（CNN）来预测这些谱是否指示ASB增益/丢失或结合无变化。来自113个转录因子的18211个E-score谱被分为训练、验证和测试数据。我们将训练模型的性能与其他可用平台进行了比较，以预测SNP对转录因子结合的影响。与评分最高的基准工具相比，我们的模型显示出更高的准确性和ASB召回率。结论：在本文中，我们以独立版和网络服务器形式展示了我们的模型SNPeBoT（单核苷酸多态性对转录因子结合的影响）。等位基因特异性结合事件的恢复率和预测准确性的提高可能有助于发现与疾病相关的非编码突变。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40065237/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40065237/",
+  "paper_page_path": "papers/pubmed/40065237/index.html"
+}

@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors use a deep learning model to simulate three mutational pathways (human-chimp substitutions, human population variation, random mutations) and identify enhancer turnover across the genome. They report that approximately 6% of the genome undergoes enhancer turnover, with over 80% of novel activity arising from enhancer repurposing between cell types. Turnover frequency per cell type is similar across pathways despite limited overlap in source regions. Turnover-prone enhancers show reduced evolutionary constraint, depletion in GWAS variants, and proximity to neurodevelopmental genes. These enhancers are described as vulnerable to random mutations and enriched for cell type-specific transcription factor binding sites. The authors conclude that enhancer repurposing within vulnerable loci drives regulatory innovation while preserving core regulatory networks.
+- **Visible evidence base** Abstract text only; no quantitative details, model architecture, validation metrics, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, methods section, model training and validation details, all figures and tables, supplementary data, and any statistical or computational reproducibility information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting framework for studying regulatory plasticity through deep learning-based mutation simulations. The central observation that enhancer turnover frequency is similar across three distinct mutational pathways, despite limited overlap in source regions, is intriguing and could have implications for understanding regulatory evolution. However, the abstract alone does not provide sufficient evidence to evaluate the validity of the model, the robustness of the turnover predictions, or the biological significance of the findings. Several claims are stated without quantitative support, and the relationship between the computational predictions and functional or evolutionary relevance remains unclear. The manuscript may merit consideration after full review, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Evolutionary biologists studying regulatory element turnover and non-coding evolution would find the framework relevant. Computational genomics researchers working on deep learning applications to regulatory genomics may be interested in the methodological approach. Researchers focused on neurodevelopmental gene regulation and the evolutionary plasticity of enhancers near genes such as CNTNAP2, NPAS3, and AUTS2 could find the specific findings relevant. Additionally, those studying the relationship between regulatory variation and disease-associated variants may be interested in the reported depletion of GWAS variants in turnover-prone enhancers.
+- **Major strengths** The conceptual framing of regulatory plasticity through three parallel mutational pathways is a clear and potentially powerful design. The observation of similar turnover frequency across pathways despite limited source region overlap suggests a possible convergent property of the regulatory genome. The focus on enhancer repurposing between cell types as a dominant mechanism is a useful perspective. The connection to neurodevelopmental genes and the proposal that vulnerable loci drive regulatory innovation while preserving core networks is a testable and interesting hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The deep learning model identifies substrates of regulatory turnover using genome-wide mutations mimicking three evolutionary pathways.
+  - **Evidence pointer** Methods section not provided; location not provided
+  - **Concern** The abstract provides no information about the deep learning model architecture, training data, input features, or validation strategy. Without details on how the model was trained to recognize enhancer activity and how turnover was defined and scored, the reliability of the central predictions cannot be assessed. It is unclear whether the model was validated against experimental enhancer assays, whether cross-cell-type predictions were benchmarked, or how false positive rates were controlled.
+  - **Why it matters** The entire manuscript rests on the accuracy and biological relevance of the model predictions. If the model is not adequately validated or if the turnover metric is not robust, all downstream claims about enhancer turnover frequency, cell-type repurposing, and evolutionary constraint are compromised.
+  - **Resolution test** Provide a detailed methods section including model architecture, training and test datasets, validation against independent enhancer activity data, and a clear definition of the turnover score with thresholds. Include performance metrics such as AUROC or AUPRC and demonstrate that predictions generalize across cell types and genomic contexts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** Approximately 6% of the whole genome undergoes enhancer turnover, with more than 80% of novel activity arising from repurposing of enhancers between cell types.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states these percentages without any confidence intervals, statistical tests, or comparison to null expectations. It is unclear how the 6% genome-wide turnover estimate was derived, whether it is a sum across cell types or a union, and how the 80% repurposing fraction was calculated. No information is given on the number of cell types analyzed, the genomic regions considered, or the thresholds used to call turnover.
+  - **Why it matters** These quantitative claims are central to the paper's message. Without statistical rigor and clear definitions, the numbers could be artifacts of the model or the specific thresholds chosen. The similarity in turnover frequency across pathways is only meaningful if the underlying estimates are robust and comparable.
+  - **Resolution test** Provide a clear definition of the turnover metric, the genomic window or element considered, and the cell-type panel. Report confidence intervals or bootstrapped estimates, and include a null model or permutation test to show that the observed turnover rates exceed expectation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for conclusions
+  - **Claim pointer** The enhancers predisposed to turnover display reduced evolutionary constraints and are depleted in GWAS variants.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract claims reduced evolutionary constraint and GWAS depletion without presenting any quantitative measures. It is unclear what constraint metric was used, how GWAS variant depletion was computed, and whether these effects are statistically significant after controlling for genomic context, chromatin state, or gene density. The direction of causality is also unclear, as reduced constraint could be a consequence of the model's prediction properties rather than a biological feature.
+  - **Why it matters** These claims link the computational predictions to evolutionary and disease relevance. If the constraint and GWAS analyses are not properly controlled, the biological interpretation of turnover-prone enhancers as functionally relevant but disease-depleted elements is not supported.
+  - **Resolution test** Report the specific constraint metric (for example phyloP or GERP) with appropriate statistical comparisons to matched control regions. Describe the GWAS variant source, the enrichment analysis method, and include covariates or matching procedures. Show that the depletion is not an artifact of variant calling or LD structure.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for conclusions
+  - **Claim pointer** Flanking enhancers of neurodevelopmental genes including CNTNAP2, NPAS3, and AUTS2 undergo high turnover irrespective of the mutational model pathway, suggesting high plasticity in neurocognitive evolution.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract identifies specific genes with high flanking enhancer turnover but provides no quantitative comparison to other gene sets, no statistical significance, and no correction for multiple testing. The selection of these genes appears post hoc, and it is unclear whether the observation is specific to neurodevelopmental genes or reflects a general property of large genes or gene-dense regions.
+  - **Why it matters** The claim of neurocognitive evolutionary plasticity is a major interpretive conclusion. Without a systematic analysis across gene categories and appropriate statistical controls, the emphasis on these specific genes may be misleading.
+  - **Resolution test** Provide a genome-wide analysis of enhancer turnover near gene categories, with appropriate multiple testing correction. Show that neurodevelopmental genes are significantly enriched for flanking enhancer turnover compared to matched gene sets, and report effect sizes and confidence intervals.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Based on susceptibility to random mutations, these enhancers were identified as vulnerable by nature and feature a higher abundance of cell type-specific transcription factor binding sites.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The concept of vulnerability is introduced without a formal definition. It is unclear how vulnerability was quantified from random mutation susceptibility, and how the abundance of cell type-specific TFBSs was measured. No information is provided on the TFBS annotation source, the motif scanning approach, or the statistical comparison to non-vulnerable enhancers.
+  - **Why it matters** The vulnerability concept is central to the proposed model of regulatory innovation. If vulnerability is not rigorously defined and distinguished from general mutational sensitivity, the mechanistic interpretation is weakened.
+  - **Resolution test** Define the vulnerability score explicitly, describe the random mutation simulation procedure, and show that vulnerable enhancers are enriched for cell type-specific TFBSs relative to appropriate controls. Include a sensitivity analysis to show that the result is robust to TFBS annotation choices.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "substrates of regulatory turnover" is vague and could be interpreted in multiple ways, such as genomic regions, sequence features, or regulatory elements.
+  - **Required correction** Define what is meant by substrates in the context of the model and the analysis, for example specific enhancer elements or sequence windows.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not state which deep learning model was used or whether it is publicly available, which limits reproducibility assessment.
+  - **Required correction** Name the model or provide a reference, and state availability of code and trained models.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Quantitative claims
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract reports percentages and qualitative statements without any measures of uncertainty or statistical significance.
+  - **Required correction** Include confidence intervals, p-values, or effect sizes for key quantitative claims, or state that these are preliminary observations pending full analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Conclusion statement
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The conclusion that enhancer repurposing drives regulatory innovation while keeping core networks intact is presented as a finding, but it appears to be an interpretation that requires additional functional validation.
+  - **Required correction** Frame this statement as a hypothesis or model rather than a demonstrated conclusion, unless functional data are provided in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5. The absence of model validation, quantitative rigor, and controlled statistical analyses means the central claims cannot be evaluated from the supplied material.
+- **Assessment against Nature-style criteria** Originality is potentially present in the combination of deep learning mutation simulations with three evolutionary pathways, but the conceptual novelty is not fully established without comparison to existing approaches. Scientific importance is plausible given the relevance to regulatory evolution and neurodevelopmental genes, but the significance depends on the robustness of the predictions. Interdisciplinary readership could be broad, spanning evolutionary genomics, computational biology, and neurogenetics, but the abstract currently lacks the detail needed for nonspecialists to assess the claims. Technical soundness cannot be evaluated from the abstract alone, and the lack of validation details is a major concern. Readability for nonspecialists is acceptable at the abstract level, though some terms such as regulatory turnover and vulnerability would benefit from clearer definition.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting framework, but the absence of methods, validation, and statistical detail prevents assessment of the core claims. A full manuscript review would be required to determine whether the technical concerns can be resolved.

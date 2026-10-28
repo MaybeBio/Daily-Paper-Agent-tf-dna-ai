@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and data availability statement.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence. No assessment of literature novelty beyond cited work or editorial fit.
+- **Shared manuscript claim summary** The authors propose that the pioneer transcription factor Oct4 binds to nucleosomes via either of its two DNA-binding subdomains, that binding is facilitated by intrinsic nucleosome flexibility, and that Oct4 in turn stabilizes and enhances open nucleosome conformations. The effect is modulated by histone tail mobility and binding site position. The study combines in vitro binding assays with atomistic molecular dynamics simulations.
+- **Visible evidence base** EMSA binding data (Figures 1, 2; Supplementary Figures S1–S3), structural models and MD simulation analyses (Figures 3–6; Supplementary Figures S4–S10; Supplementary Table S1; Table 1), and methodological descriptions in Materials and Methods.
+- **Missing materials affecting confidence** Supplementary Methods referenced but not provided in the submitted text. Specific simulation parameters, force field validation details, and convergence criteria are only partially described. Raw EMSA gel images and densitometry quantification details are not fully accessible. Coordinates of structural models are not included in the manuscript.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely question in chromatin biology: how pioneer transcription factors engage nucleosomal DNA. The combination of biochemical assays and atomistic simulations is appropriate and potentially powerful. The authors present a coherent model in which Oct4 uses one subdomain for specific recognition and the other for nonspecific stabilization of open nucleosome states, with histone tails playing a modulatory role. However, several technical concerns regarding simulation sampling, interpretation of crosslinking experiments, and the generalizability of the conclusions from two nucleosome sequences need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying pioneer transcription factors, chromatin structure and dynamics, nucleosome remodeling, and the molecular basis of cellular reprogramming. The work is also relevant to computational biologists interested in atomistic simulations of protein-DNA complexes and to experimentalists studying transcription factor-nucleosome interactions.
+- **Major strengths** The study combines complementary experimental and computational approaches. The use of native genomic nucleosome sequences rather than only synthetic positioning sequences is a notable strength. The identification of a primary binding site (HD-7) on LIN28B and the demonstration that Oct4 can use either subdomain for recognition are important findings. The simulation work is extensive, with multiple replicas and aggregate microsecond timescales, and the analysis of histone tail dynamics provides mechanistic insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  umber **Blocking** Yes
+  - **Axis** Technical soundness of simulation sampling
+  - **Claim pointer** The authors claim that Oct4 binding stabilizes open nucleosome conformations and that the effect depends on histone tail mobility, based on MD simulations.
+  - **Evidence pointer** Results section "Oct4 modulates nucleosome structural flexibility"; Figures 3–6; Table 1; Supplementary Figures S4–S10.
+  - **Concern** The simulations are 1–2 μs in length. The authors acknowledge that multiple opening events were not observed in single long simulations and cite literature indicating that even 15 μs may be insufficient for such transitions. The claim that Oct4 "stabilizes" open conformations is based on a small number of events, possibly a single event per condition. The biased simulations used to enhance sampling may introduce artifacts, and the authors state that the bias was "effectively active only at the beginning" but do not provide a quantitative analysis of when the bias became inactive or whether the system remained in the biased region. The distinction between enhancing a natural motion and inducing an artificial one is not rigorously established.
+  - **Why it matters** The central mechanistic conclusion, that Oct4 actively stabilizes open nucleosome states, rests on the interpretation of these simulations. If the observed openings are rare stochastic events or artifacts of the biasing protocol, the conclusion is not supported.
+  - **Resolution test** Provide a quantitative analysis of the free energy landscape along the opening coordinate, or demonstrate reproducibility of the opening event across multiple independent unbiased simulations. Show that the biased simulations do not significantly perturb the system by comparing distributions of relevant collective variables before and after bias removal. If possible, perform longer unbiased simulations or enhanced sampling methods with rigorous reweighting to estimate free energies.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of crosslinking experiments
+  - **Claim pointer** The authors state that crosslinking nucleosomes with formaldehyde reduces Oct4 binding to ESRRB, and that this supports a role for nucleosome flexibility in binding.
+  - **Evidence pointer** Results section "Oct4 uses nucleosome structural flexibility to bind"; Figure 2A–D; Supplementary Figure S3A.
+  - **Concern** Formaldehyde crosslinking is a harsh treatment that can modify DNA and protein residues, potentially affecting binding directly rather than only restricting conformational flexibility. The authors do not provide controls to show that crosslinking does not alter the accessibility or chemical nature of the Oct4 binding site itself. The moderate increase in Oct4 binding to crosslinked LIN28B at low concentrations is interpreted as binding to pre-existing open conformations, but alternative explanations, such as crosslinking-induced changes in binding site presentation, are not excluded.
+  - **Why it matters** The conclusion that Oct4 requires nucleosome flexibility for efficient binding is a key experimental claim. If the crosslinking effect is due to chemical modification rather than conformational restriction, the interpretation is invalid.
+  - **Resolution test** Perform control experiments with crosslinked free DNA to show that Oct4 binding to DNA is not affected by formaldehyde treatment. Use alternative methods to restrict nucleosome dynamics, such as histone tail clipping or DNA circularization, to corroborate the crosslinking results. Measure the extent of crosslinking and its effect on nucleosome stability independently.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of conclusions from two sequences
+  - **Claim pointer** The authors conclude that Oct4's impact on nucleosome dynamics depends on binding site position and histone tail mobility, based on studies of two nucleosome sequences.
+  - **Evidence pointer** Results sections "Oct4 binds to specific sites on nucleosomes using either DNA binding subdomain" and "Oct4 modulates nucleosome structural flexibility"; Figures 1–6.
+  - **Concern** The study is limited to two nucleosome sequences, LIN28B and ESRRB. While these are biologically relevant, the authors draw general conclusions about Oct4-nucleosome interactions. The observed differences between the two systems could be due to sequence-specific effects unrelated to the general principles proposed. The claim that binding site position determines the outcome is based on a comparison of only two positions.
+  - **Why it matters** The title and abstract imply a general mechanism for Oct4-nucleosome interactions. Without a broader sampling of nucleosome sequences and binding site positions, the generality of the proposed model is uncertain.
+  - **Resolution test** Extend the analysis to additional nucleosome sequences with binding sites at different positions, or provide a systematic computational analysis of binding site positions across a larger set of genomic nucleosomes to support the proposed relationship between position and effect.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Molecular dynamics simulation protocol
+  - **Evidence pointer** Materials and Methods, "Molecular dynamics simulations"
+  - **Issue** The description of the simulation protocol is incomplete. The force field parameters for the histone tails, the specific water model, and the ion concentration are mentioned but not fully detailed. The equilibration protocol is described as adapted from Jerabek et al., but the specific modifications are not stated.
+  - **Required correction** Provide a complete description of the simulation parameters, including all force field versions, water model, ion parameters, and the full equilibration protocol. This is essential for reproducibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** EMSA quantification
+  - **Evidence pointer** Results section "Oct4 binds to specific sites on nucleosomes using either DNA binding subdomain"; Figure 2; Supplementary Figure S2.
+  - **Issue** The statistical analysis of the EMSA data is not described. It is unclear how many independent replicates were performed and what statistical tests were used to assess significance.
+  - **Required correction** Clearly state the number of replicates, the error bars shown in the figures, and the statistical tests used. Provide this information in the figure legends or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure clarity
+  - **Affected element** Figure 6
+  - **Evidence pointer** Results section "Oct4's subdomains have distinct roles in stabilizing open nucleosomes"; Figure 6.
+  - **Issue** The distributions of subdomain positions in Figure 6 are difficult to interpret without a clear definition of the coordinate system and the reference frame. The figure legend is not fully self-explanatory.
+  - **Required correction** Expand the figure legend to define all axes, the reference structures, and the meaning of the color scale. Consider adding a schematic representation of the nucleosome with the coordinate system overlaid.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract; Discussion section
+  - **Issue** The term "interprets" in the title and abstract is vague and not defined in the manuscript. It is unclear what specific property of nucleosome flexibility is being "interpreted" by Oct4.
+  - **Required correction** Define the term "interprets" in the context of the findings, or rephrase the title and abstract to more precisely describe the mechanism, such as "Oct4 exploits nucleosome flexibility" or "Oct4 binding is modulated by nucleosome flexibility."
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The simulation sampling issue is critical because the central mechanistic claim depends on it. The crosslinking interpretation is also essential for the experimental support of the flexibility requirement. Both need to be resolved with additional analysis or experiments.
+- **Assessment against Nature-style criteria** Originality: The work is original in its combination of experimental and computational approaches to address a specific question about Oct4-nucleosome interactions. The finding that Oct4 can use either subdomain for recognition is novel. Scientific importance: The question of how pioneer factors engage nucleosomes is of high importance for understanding chromatin dynamics and cellular reprogramming. The proposed mechanism, if fully supported, would be a significant contribution. Interdisciplinary readership: The work bridges biochemistry, structural biology, and computational biophysics, and would appeal to a broad readership in these fields. Technical soundness: The experimental methods are standard and appropriate. The simulation methods are state-of-the-art but the sampling limitations are a concern. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some simulation details may be challenging for non-experts. The abstract is clear and the figures are mostly informative.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a plausible mechanism. However, the blocking concerns regarding simulation sampling and crosslinking interpretation must be addressed with additional analysis or experiments before the conclusions can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that Oct4 "stabilizes" open nucleosome conformations is not fully supported by the simulation data due to limited sampling and the potential artifacts of biased simulations.
+- The claim that nucleosome flexibility is required for Oct4 binding, based on crosslinking experiments, is not fully established due to potential chemical effects of formaldehyde.
+- The generalizability of the proposed mechanism beyond the two studied nucleosome sequences is not established.
+- The statement that Oct4 binding "increases" nucleosome flexibility is not clearly distinguished from the stabilization of pre-existing open states.

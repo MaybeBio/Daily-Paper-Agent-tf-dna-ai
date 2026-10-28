@@ -1,0 +1,457 @@
+{
+  "identity": {
+    "pmid": "40502176",
+    "doi": "10.1101/2024.11.15.623687",
+    "title": "Unbiased profiling of multipotency landscapes reveals spatial modulators of clonal fate biases."
+  },
+  "content": {
+    "abstract": "Embryogenesis is commonly viewed through a tree model of cell differentiation, which fails to capture the spatiotemporal modulation of cell multipotency underlying morphogenesis. In this study we profile the multipotency landscape of the embryo, using in vivo single-cell clonal lineage tracing of mouse embryos traced from neurulation until mid-gestation, combined with a machine learning tool that categorizes individual clones into lineages based on shared transcriptional context. This revealed a previously unrecognized continuous, embryo-wide gradient of clonal fate biases, in which anatomical position and clonal composition are mutually predictive. Comparing clonal lineages revealed gene regulatory networks underlying the dynamic biasing of cells towards specific fates by spatial transcription factor programs. However, mosaic combinatorial perturbations targeting the Hedgehog pathway generated clones in which positional identity was mismatched with clonal composition, demonstrating that extrinsic signals can override the axial patterning system underlying clonal fate biases. Altogether, our work demonstrates an effective practical approach for dissecting mechanisms of lineage specification and has implications for stem cell engineering.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Erickson, Alek G",
+        "Isaev, Sergey",
+        "Artemov, Artem",
+        "He, Jingyan",
+        "Semsch, Bettina",
+        "Murtazina, Aliia",
+        "Sun, Jia",
+        "Mangold, Katrin",
+        "Chalou, Anthi",
+        "Frisen, Jonas",
+        "Ratz, Michael",
+        "Andersson, Emma",
+        "Kharchenko, Peter V",
+        "Adameyko, Igor"
+      ],
+      "short_names": [
+        "Erickson AG",
+        "Isaev S",
+        "Artemov A",
+        "He J",
+        "Semsch B",
+        "Murtazina A",
+        "Sun J",
+        "Mangold K",
+        "Chalou A",
+        "Frisen J",
+        "Ratz M",
+        "Andersson E",
+        "Kharchenko PV",
+        "Adameyko I"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7110-9386",
+        "ORCID: 0000-0002-0404-9261",
+        "ORCID: 0000-0002-7405-5800",
+        "ORCID: 0000-0003-1630-1855",
+        "ORCID: 0000-0002-0656-462X",
+        "ORCID: 0000-0001-5819-458X",
+        "ORCID: 0000-0002-9795-8033",
+        "ORCID: 0000-0002-8608-625X",
+        "ORCID: 0000-0002-6036-5875",
+        "ORCID: 0000-0001-5471-0356"
+      ],
+      "affiliations": [
+        "Department of Physiology and Pharmacology, Karolinska Institutet; 17177 Stockholm, Sweden.",
+        "Department of Neuroimmunology, Center for Brain Research, Medical University of Vienna; 1090 Vienna, Austria.",
+        "Department of Neuroimmunology, Center for Brain Research, Medical University of Vienna; 1090 Vienna, Austria.",
+        "Department of Cell and Molecular Biology, Karolinska Institutet; 17177 Stockholm, Sweden.",
+        "Department of Cell and Molecular Biology, Karolinska Institutet; 17177 Stockholm, Sweden.",
+        "Department of Physiology and Pharmacology, Karolinska Institutet; 17177 Stockholm, Sweden.",
+        "Department of Comparative Medicine, Karolinska Institutet; 17177 Stockholm, Sweden.",
+        "Department of Cell and Molecular Biology, Karolinska Institutet; 17177 Stockholm, Sweden.",
+        "Department of Physiology and Pharmacology, Karolinska Institutet; 17177 Stockholm, Sweden.",
+        "Department of Cell and Molecular Biology, Karolinska Institutet; 17177 Stockholm, Sweden.",
+        "Department of Cell and Molecular Biology, Karolinska Institutet; 17177 Stockholm, Sweden.",
+        "Department of Cell and Molecular Biology, Karolinska Institutet; 17177 Stockholm, Sweden.",
+        "San Diego Institute of Science, Altos Labs; San Diego, CA, USA.",
+        "Department of Biomedical Informatics, Harvard Medical School; Boston, MA 02115, USA.",
+        "Department of Physiology and Pharmacology, Karolinska Institutet; 17177 Stockholm, Sweden.",
+        "Department of Neuroimmunology, Center for Brain Research, Medical University of Vienna; 1090 Vienna, Austria."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Erickson, Alek G",
+        "short_name": "Erickson AG",
+        "identifiers": [
+          "0000-0001-7110-9386"
+        ],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Karolinska Institutet; 17177 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Isaev, Sergey",
+        "short_name": "Isaev S",
+        "identifiers": [
+          "0000-0002-0404-9261"
+        ],
+        "affiliations": [
+          "Department of Neuroimmunology, Center for Brain Research, Medical University of Vienna; 1090 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Artemov, Artem",
+        "short_name": "Artemov A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroimmunology, Center for Brain Research, Medical University of Vienna; 1090 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "He, Jingyan",
+        "short_name": "He J",
+        "identifiers": [
+          "0000-0002-7405-5800"
+        ],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, Karolinska Institutet; 17177 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Semsch, Bettina",
+        "short_name": "Semsch B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, Karolinska Institutet; 17177 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Murtazina, Aliia",
+        "short_name": "Murtazina A",
+        "identifiers": [
+          "0000-0003-1630-1855"
+        ],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Karolinska Institutet; 17177 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Sun, Jia",
+        "short_name": "Sun J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Comparative Medicine, Karolinska Institutet; 17177 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Mangold, Katrin",
+        "short_name": "Mangold K",
+        "identifiers": [
+          "0000-0002-0656-462X"
+        ],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, Karolinska Institutet; 17177 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Chalou, Anthi",
+        "short_name": "Chalou A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Karolinska Institutet; 17177 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Frisen, Jonas",
+        "short_name": "Frisen J",
+        "identifiers": [
+          "0000-0001-5819-458X"
+        ],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, Karolinska Institutet; 17177 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Ratz, Michael",
+        "short_name": "Ratz M",
+        "identifiers": [
+          "0000-0002-9795-8033"
+        ],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, Karolinska Institutet; 17177 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Andersson, Emma",
+        "short_name": "Andersson E",
+        "identifiers": [
+          "0000-0002-8608-625X"
+        ],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, Karolinska Institutet; 17177 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Kharchenko, Peter V",
+        "short_name": "Kharchenko PV",
+        "identifiers": [
+          "0000-0002-6036-5875"
+        ],
+        "affiliations": [
+          "San Diego Institute of Science, Altos Labs; San Diego, CA, USA.",
+          "Department of Biomedical Informatics, Harvard Medical School; Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Adameyko, Igor",
+        "short_name": "Adameyko I",
+        "identifiers": [
+          "0000-0001-5471-0356"
+        ],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Karolinska Institutet; 17177 Stockholm, Sweden.",
+          "Department of Neuroimmunology, Center for Brain Research, Medical University of Vienna; 1090 Vienna, Austria."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jun 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/12 11:15",
+    "fetched_at": "2026-09-30 19:47:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40038298",
+      "38871986",
+      "37852258",
+      "37828049",
+      "37277355",
+      "37037999",
+      "36516250",
+      "36394263",
+      "35781558",
+      "35512705",
+      "35392413",
+      "35260294",
+      "35210624",
+      "35190690",
+      "34912811",
+      "34824236",
+      "34620862",
+      "34607829",
+      "34557863",
+      "34500235",
+      "33833454",
+      "33767165",
+      "33526425",
+      "32783885",
+      "32669276",
+      "32632001",
+      "32413320",
+      "32235876",
+      "31974159",
+      "31899211",
+      "31740819",
+      "31176620",
+      "31171666",
+      "30954476",
+      "30914743",
+      "30911091",
+      "30566077",
+      "30558321",
+      "30445495",
+      "30095409",
+      "29946416",
+      "29897331",
+      "29777011",
+      "29644996",
+      "29614271",
+      "29608178",
+      "29590089",
+      "29529018",
+      "29409532",
+      "28991892",
+      "28414273",
+      "28235203",
+      "27571553",
+      "27493992",
+      "27229144",
+      "26924989",
+      "26605047",
+      "26329597",
+      "25867923",
+      "25833741",
+      "25748934",
+      "25703667",
+      "25598524",
+      "25263330",
+      "24980654",
+      "22265400",
+      "21164524",
+      "20708594",
+      "20683859",
+      "20110324",
+      "19758561",
+      "17972876",
+      "17626057",
+      "17507395",
+      "16313393",
+      "16313391",
+      "10655033",
+      "9272949",
+      "8491198",
+      "7779679",
+      "2457813"
+    ],
+    "similar": [
+      "40502176",
+      "40378848",
+      "21501576",
+      "38585810",
+      "41481416",
+      "36693323",
+      "32783885",
+      "29539636",
+      "40399669",
+      "29784917",
+      "36639222",
+      "38284404",
+      "37749269",
+      "27650846",
+      "37460718",
+      "39745636",
+      "17588936",
+      "41081433",
+      "32685006",
+      "21228004",
+      "40894735",
+      "41279007",
+      "30625313",
+      "9550701",
+      "31391582",
+      "33900055",
+      "35700449",
+      "16480457",
+      "28671744",
+      "40436021",
+      "29937146",
+      "3574488",
+      "36264199",
+      "39122679",
+      "31575645",
+      "25050933",
+      "27052172",
+      "38376371",
+      "30520734",
+      "40824680",
+      "28057273",
+      "28928395",
+      "39615483",
+      "36084657",
+      "26740066",
+      "12490294",
+      "40887856",
+      "26883775",
+      "35660371",
+      "40011786",
+      "29298288",
+      "32449730",
+      "36589749",
+      "8625833",
+      "30622181",
+      "36315049",
+      "30885528",
+      "33439865",
+      "22349214",
+      "21619617",
+      "28813413",
+      "19497319",
+      "38617287",
+      "27003939",
+      "30217810",
+      "37426065",
+      "35618699",
+      "38683994",
+      "17465684",
+      "32098766",
+      "25997157",
+      "40355462",
+      "33767165",
+      "40791385",
+      "26534985",
+      "40192104",
+      "19123929",
+      "41300385",
+      "21898876",
+      "24835991",
+      "40934910",
+      "40747959",
+      "30057275",
+      "25123279",
+      "36933556",
+      "29700229",
+      "26288816",
+      "22204396",
+      "32315617",
+      "23261930",
+      "22305165",
+      "28502614",
+      "28511648",
+      "37577543",
+      "2869528",
+      "27580035",
+      "40950163",
+      "41041551",
+      "8223264",
+      "28821591"
+    ],
+    "review": [
+      "40502176",
+      "21501576",
+      "41481416",
+      "16480457",
+      "28057273",
+      "12490294",
+      "36589749",
+      "41300385",
+      "25123279",
+      "22305165"
+    ],
+    "pmc": [
+      "12157653"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40502176/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.11.15.623687",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

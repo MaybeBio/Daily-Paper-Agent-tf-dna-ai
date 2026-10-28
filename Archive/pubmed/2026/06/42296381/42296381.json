@@ -1,0 +1,247 @@
+{
+  "identity": {
+    "pmid": "42296381",
+    "doi": "10.1093/bioinformatics/btag379",
+    "title": "Causal circuit tracing reveals distinct computational architectures in single-cell foundation models: inhibitory dominance, biological coherence, and cross-model convergence."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Sparse autoencoders (SAEs) decompose foundation-model activations into interpretable features, but the model-internal causal interactions between those features (i.e. what ablating one feature does to the others, as distinct from the biological causal structure of the underlying cells)-and how those model-internal relationships relate to biological structure-are uncharacterized in single-cell foundation models. RESULTS: We introduce model-internal causal circuit tracing-zeroing one SAE feature at a source layer and measuring the resulting change in all downstream SAE features, for each of 120 source features-and apply it to Geneformer V2-316M and scGPT whole-human across four conditions (96 892 ablation-derived edges, 80 191 forward passes). On annotation-selected source features, edges share GO/KEGG/Reactome/STRING/TRRUST ontology terms at 50.9%-68.5%, a 2.9-6.2x enrichment over a configuration-preserving permutation null (P<.002); on 20 randomly sampled source features this attenuates to 21.5%-26.3%-still 2.5-3.1x above null-quantifying the annotation-selection contribution. Inhibitory dominance (fraction of ablation edges with d<0, i.e. source activation supports downstream target) is 65.5%-89.4%. scGPT produces larger raw per-edge effects (mean |d|=1.40 versus 1.05); after feature-share normalization, Geneformer is stronger (paired gene-pair ratio 0.64 on 33 301 shared pairs). Cross-model consensus yields 1142 architecture-invariant domain pairs (ordered pairs of GO biological-process categories \"A-->B\" each connected by at least one ablation edge in both models; 10.6x enrichment over permutation null; P<.001). Circuit edge magnitude explains <1% of the variance in marginal driver-gene coexpression on the same cells (R2=0.010, n=31 176): the graph encodes structure beyond bivariate correlation. Against a matched-cell-type ENCODE ChIP-seq prior, circuit-predicted transcription factor (TF)-->target pairs are enriched 2.06x (Fisher OR 5.84), markedly higher than 1.12x against TRRUST; direct ChIP-seq-supported target pairs show 10-30x larger CRISPRi sign-bias-corrected excess than indirect pairs. Gene-level CRISPRi validation on Replogle K562 and the noncancer RPE1 arm (and a true primary-T-cell control from Shifrut E, Carnevale J, Tobin V et al. Genome-wide CRISPR screens in primary human T cells reveal key regulators of immune function. Cell 2018; 175: 1958-71.e15) after sign-bias correction shows excess over baseline of +0.03 and +0.35 percentage points on K562 and RPE1, respectively (baseline already 52%-56% from sign marginals); effect-magnitude Spearman correlations rho approximately 0. Bootstrap and per-cell-type stability (Nin50,100,200; B cell, CD4 + T, macrophage) give Pearson r>/=0.97 on shared edges with 100% sign agreement; edge Jaccard grows monotonically with sample size. The circuit graph is therefore highly reproducible as an effect-size map, cell type specific in edge identity, consistent with coexpression encoding, and weakly but detectably enriched for ChIP-seq-supported direct regulatory edges. AVAILABILITY AND IMPLEMENTATION: https://github.com/Biodyn-AI/bio-sae-circuits (Python). Archival DOI: 10.5281/zenodo.19,633,166 (Zenodo).",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Single-Cell Analysis/methods",
+      "*Computational Biology/methods",
+      "Autoencoder",
+      "*Models, Biological",
+      "*Gene Regulatory Networks",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kendiukhov, Ihor"
+      ],
+      "short_names": [
+        "Kendiukhov I"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, University of Tubingen, Tubingen, 72076, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kendiukhov, Ihor",
+        "short_name": "Kendiukhov I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of Tübingen, Tübingen, 72076, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2026 Jul 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/15 18:34",
+    "fetched_at": "2026-10-01 23:40:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38844628",
+      "38409223",
+      "37258680",
+      "36370105",
+      "35688146",
+      "35549404",
+      "33649187",
+      "31691815",
+      "31340985",
+      "30449619",
+      "29409532",
+      "29087512",
+      "28575679",
+      "28099430",
+      "27984733",
+      "27984732",
+      "27571553",
+      "26771021",
+      "25784053",
+      "22955616",
+      "22251901",
+      "22116877",
+      "20965417",
+      "20965415",
+      "19847258",
+      "19238148",
+      "17496922",
+      "17426725",
+      "16199517",
+      "15272267",
+      "11099405",
+      "10802651",
+      "10592173",
+      "9425546"
+    ],
+    "similar": [
+      "42296381",
+      "42482180",
+      "42475469",
+      "42398561",
+      "42527907",
+      "42509463",
+      "42155660",
+      "36321557",
+      "41883144",
+      "23912807",
+      "42033879",
+      "41896196",
+      "41871930",
+      "42585234",
+      "41050338",
+      "42378449",
+      "42560939",
+      "41288963",
+      "42379339",
+      "41999209",
+      "42650039",
+      "42467671",
+      "37851522",
+      "41826830",
+      "41386265",
+      "42086551",
+      "42398025",
+      "35961023",
+      "42286785",
+      "41450855",
+      "40702704",
+      "42636032",
+      "39311699",
+      "36734596",
+      "42060707",
+      "41436831",
+      "40662821",
+      "40515392",
+      "42320030",
+      "39960893",
+      "38678389",
+      "42599963",
+      "26042329",
+      "40828027",
+      "41451540",
+      "42366683",
+      "41067887",
+      "39312689",
+      "41945943",
+      "38879931",
+      "41325188",
+      "39586719",
+      "32603340",
+      "38950180",
+      "40062616",
+      "41310253",
+      "42312499",
+      "38409223",
+      "42032017",
+      "40426257",
+      "41033661",
+      "40511990",
+      "42652231",
+      "39264790",
+      "37985457",
+      "32174324",
+      "27780826",
+      "40197174",
+      "38810116",
+      "34964106",
+      "42123445",
+      "41805524",
+      "40713495",
+      "42565562",
+      "38439545",
+      "40251476",
+      "41354912",
+      "41139927",
+      "29746690",
+      "41836445",
+      "41965079",
+      "39708840",
+      "39487083",
+      "38627250",
+      "41637423",
+      "29218911",
+      "42490198",
+      "42560030",
+      "41514902",
+      "40347726",
+      "41643202",
+      "41489955",
+      "41052214",
+      "40966644",
+      "41744270",
+      "42635227",
+      "41283813",
+      "33704425",
+      "41554051",
+      "36083008"
+    ],
+    "review": [
+      "42296381",
+      "36321557",
+      "26042329"
+    ],
+    "pmc": [
+      "13354606"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42296381/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btag379",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,428 @@
+{
+  "identity": {
+    "pmid": "39253425",
+    "doi": "10.1101/2024.04.20.590343",
+    "title": "Divergence in a Eukaryotic Transcription Factor's co-TF Dependence Involves Multiple Intrinsically Disordered Regions."
+  },
+  "content": {
+    "abstract": "Combinatorial control by transcription factors (TFs) is central to eukaryotic gene regulation, yet its mechanism, evolution, and regulatory impact are not well understood. Here we use natural variation in the yeast phosphate starvation (PHO) response to examine the genetic basis and species variation in TF interdependence. In Saccharomyces cerevisiae, main TF Pho4 relies on the co-TF Pho2 to regulate ~28 genes, whereas in the related pathogen Candida glabrata, Pho4 has reduced Pho2 dependence and regulates ~70 genes. We found C. glabrata Pho4 (CgPho4) binds the same motif with 3-4 fold higher affinity. Machine learning and yeast one-hybrid assay identify two intrinsically disordered regions (IDRs) in CgPho4 that boost its activation domain's activity. In ScPho4, an IDR next to the DNA binding domain both allows for enhanced activity with Pho2 and inhibits activity without Pho2. This study reveals how IDR divergence drives TF interdependence evolution by influencing activation potential and autoinhibition.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Snyder, Lindsey F",
+        "O'Brien, Emily M",
+        "Zhao, Jia",
+        "Liang, Jinye",
+        "Bruce, Baylee J",
+        "Zhang, Yuning",
+        "Zhu, Wei",
+        "Cassier, Thomas H",
+        "Schnicker, Nicholas J",
+        "Zhou, Xu",
+        "Gordan, Raluca",
+        "He, Bin Z"
+      ],
+      "short_names": [
+        "Snyder LF",
+        "O'Brien EM",
+        "Zhao J",
+        "Liang J",
+        "Bruce BJ",
+        "Zhang Y",
+        "Zhu W",
+        "Cassier TH",
+        "Schnicker NJ",
+        "Zhou X",
+        "Gordan R",
+        "He BZ"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5926-5239",
+        "ORCID: 0000-0002-4161-9307",
+        "ORCID: 0000-0002-9914-5597",
+        "ORCID: 0000-0002-2967-4207",
+        "ORCID: 0000-0002-5189-4943",
+        "ORCID: 0000-0002-6404-6556",
+        "ORCID: 0000-0002-3072-6238"
+      ],
+      "affiliations": [
+        "Interdisciplinary Graduate Program in Genetics, University of Iowa, Iowa City, IA, USA.",
+        "Department of Biology, University of Iowa, Iowa City, IA, USA.",
+        "Department of Biology, University of Iowa, Iowa City, IA, USA.",
+        "Department of Biology, University of Iowa, Iowa City, IA, USA.",
+        "Interdisciplinary Graduate Program in Genetics, University of Iowa, Iowa City, IA, USA.",
+        "Department of Biostatistics & Bioinformatics, Duke University, Durham, NC, USA.",
+        "Department of Molecular Genetics & Microbiology, Duke University, Durham, NC, USA.",
+        "Department of Biology, University of Iowa, Iowa City, IA, USA.",
+        "Protein and Crystallography Facility, University of Iowa, Iowa City, IA, USA.",
+        "Department of Molecular Physiology and Biophysics, University of Iowa, Iowa City, IA, USA.",
+        "Department of Pediatrics, Division of Gastroenterology, Hepatology and Nutrition, Boston Children's Hospital and Harvard Medical School, Boston, MA, USA.",
+        "Department of Biostatistics & Bioinformatics, Duke University, Durham, NC, USA.",
+        "Department of Molecular Genetics & Microbiology, Duke University, Durham, NC, USA.",
+        "Department of Computer Science, Duke University, Durham, NC, USA.",
+        "Department of Cell Biology, Duke University, Durham, NC, USA.",
+        "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA, USA.",
+        "Interdisciplinary Graduate Program in Genetics, University of Iowa, Iowa City, IA, USA.",
+        "Department of Biology, University of Iowa, Iowa City, IA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Snyder, Lindsey F",
+        "short_name": "Snyder LF",
+        "identifiers": [
+          "0000-0001-5926-5239"
+        ],
+        "affiliations": [
+          "Interdisciplinary Graduate Program in Genetics, University of Iowa, Iowa City, IA, USA."
+        ]
+      },
+      {
+        "full_name": "O'Brien, Emily M",
+        "short_name": "O'Brien EM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Iowa, Iowa City, IA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jia",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Iowa, Iowa City, IA, USA."
+        ]
+      },
+      {
+        "full_name": "Liang, Jinye",
+        "short_name": "Liang J",
+        "identifiers": [
+          "0000-0002-4161-9307"
+        ],
+        "affiliations": [
+          "Department of Biology, University of Iowa, Iowa City, IA, USA."
+        ]
+      },
+      {
+        "full_name": "Bruce, Baylee J",
+        "short_name": "Bruce BJ",
+        "identifiers": [
+          "0000-0002-9914-5597"
+        ],
+        "affiliations": [
+          "Interdisciplinary Graduate Program in Genetics, University of Iowa, Iowa City, IA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuning",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0002-2967-4207"
+        ],
+        "affiliations": [
+          "Department of Biostatistics & Bioinformatics, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Zhu, Wei",
+        "short_name": "Zhu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics & Microbiology, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Cassier, Thomas H",
+        "short_name": "Cassier TH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Iowa, Iowa City, IA, USA."
+        ]
+      },
+      {
+        "full_name": "Schnicker, Nicholas J",
+        "short_name": "Schnicker NJ",
+        "identifiers": [
+          "0000-0002-5189-4943"
+        ],
+        "affiliations": [
+          "Protein and Crystallography Facility, University of Iowa, Iowa City, IA, USA.",
+          "Department of Molecular Physiology and Biophysics, University of Iowa, Iowa City, IA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xu",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Division of Gastroenterology, Hepatology and Nutrition, Boston Children's Hospital and Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Gordân, Raluca",
+        "short_name": "Gordân R",
+        "identifiers": [
+          "0000-0002-6404-6556"
+        ],
+        "affiliations": [
+          "Department of Biostatistics & Bioinformatics, Duke University, Durham, NC, USA.",
+          "Department of Molecular Genetics & Microbiology, Duke University, Durham, NC, USA.",
+          "Department of Computer Science, Duke University, Durham, NC, USA.",
+          "Department of Cell Biology, Duke University, Durham, NC, USA.",
+          "Department of Genomics and Computational Biology, University of Massachusetts Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "He, Bin Z",
+        "short_name": "He BZ",
+        "identifiers": [
+          "0000-0002-3072-6238"
+        ],
+        "affiliations": [
+          "Interdisciplinary Graduate Program in Genetics, University of Iowa, Iowa City, IA, USA.",
+          "Department of Biology, University of Iowa, Iowa City, IA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 May 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/10 06:43",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38159566",
+      "38109289",
+      "38101414",
+      "36996811",
+      "36608289",
+      "36265487",
+      "34506483",
+      "33975875",
+      "33904398",
+      "33876751",
+      "33603233",
+      "32553192",
+      "31943488",
+      "31896718",
+      "31399572",
+      "31251384",
+      "30420502",
+      "29627365",
+      "29390042",
+      "29239721",
+      "28485712",
+      "27984724",
+      "27242683",
+      "26657905",
+      "24774859",
+      "23562153",
+      "23021217",
+      "22887818",
+      "22156162",
+      "22153072",
+      "22080951",
+      "21700227",
+      "20212107",
+      "19332882",
+      "19265799",
+      "19151095",
+      "18585359",
+      "18418379",
+      "18303948",
+      "17671641",
+      "17467953",
+      "17401334",
+      "17218526",
+      "17006507",
+      "16888363",
+      "16734424",
+      "16670683",
+      "15883364",
+      "15687296",
+      "15175650",
+      "12702751",
+      "12145299",
+      "11303087",
+      "10320381",
+      "9742099",
+      "9566882",
+      "9354395",
+      "9303313",
+      "8978031",
+      "8676879",
+      "8539622",
+      "8187772",
+      "8108735",
+      "7957107",
+      "2183025"
+    ],
+    "similar": [
+      "39253425",
+      "40533454",
+      "28485712",
+      "19332882",
+      "22938599",
+      "9566882",
+      "8948638",
+      "8676879",
+      "2505053",
+      "38109289",
+      "37175754",
+      "12219216",
+      "10884387",
+      "19108609",
+      "31745747",
+      "40738115",
+      "2664469",
+      "39984675",
+      "10320381",
+      "12145299",
+      "36648282",
+      "21700227",
+      "2671650",
+      "3049251",
+      "32553192",
+      "37781605",
+      "35290420",
+      "33975875",
+      "37871123",
+      "2196175",
+      "38908024",
+      "36938874",
+      "37285346",
+      "34303077",
+      "1398064",
+      "24206186",
+      "12136214",
+      "10801809",
+      "40650976",
+      "28877665",
+      "29759983",
+      "10590460",
+      "2656261",
+      "30878482",
+      "40997106",
+      "39933697",
+      "39631290",
+      "40463169",
+      "38870936",
+      "40914943",
+      "37292840",
+      "32054475",
+      "8108735",
+      "9354395",
+      "7957107",
+      "9365251",
+      "33609368",
+      "26291518",
+      "41025958",
+      "10722753",
+      "14624238",
+      "22189060",
+      "35829973",
+      "3029672",
+      "37546716",
+      "9774660",
+      "28167781",
+      "25559499",
+      "30709337",
+      "35575514",
+      "39888268",
+      "39548754",
+      "15287978",
+      "16362910",
+      "16464824",
+      "9732266",
+      "41469692",
+      "37953271",
+      "1639254",
+      "2183025",
+      "39347738",
+      "20840729",
+      "38264995",
+      "37116493",
+      "36322456",
+      "16215179",
+      "23558744",
+      "38662765",
+      "21695268",
+      "29386103",
+      "17910772",
+      "26149687",
+      "32761264",
+      "22218861",
+      "38159566",
+      "37527656",
+      "18769540",
+      "28792889",
+      "7957054",
+      "32824743"
+    ],
+    "review": [
+      "39253425",
+      "39984675",
+      "36648282",
+      "34303077",
+      "39631290",
+      "39888268"
+    ],
+    "pmc": [
+      "11383300"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39253425/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39253425",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.04.20.590343",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "41535570",
+    "doi": "10.1038/s41598-026-36076-2",
+    "title": "The role of cellular senescence-related genes in ischemia-reperfusion injury and the identification of their biomarkers."
+  },
+  "content": {
+    "abstract": "Cellular senescence-related genes significantly influence the pathophysiology of ischemia-reperfusion injury (IRI). And identifying their shared biomarkers may improve the diagnosis and treatment of IRI. We analyzed three datasets (GSE61592, GSE67308, GSE83472) from the Gene Expression Omnibus database, and intersected them with the cellular senescence-related dataset to obtain 26 significantly altered cellular senescence-related differentially expressed genes in IRI. We used machine learning methods, including logistic regression, LASSO regression for feature screening, and SVM analysis, to construct a model identifying 6 key genes (CDKN2B, TP53, ZNF277, ID1, STAT3, TERF2). Internal validation shows that the model has high diagnostic accuracy. Immune infiltration analysis revealed a significant increase in 20 immune cell subpopulations in IRI. Among these, CDKN2B showed a strong correlation with central memory CD4 + T cells. Furthermore, regulatory network analysis revealed that TP53 is a high-priority drug target; TERF2 is a hub gene regulated by transcription factors; and ID1 and STAT3 are hub genes regulated by miRNAs. Finally, we validated the differential expression of these 6 genes in a mouse IRI model by qRT-PCR and immunohistochemistry. Overall, this study established a novel diagnostic model containing 6 genes. This model provides new insights into the pathological mechanisms of IRI and offers new directions for improving the early diagnosis and targeted treatment of IRI.",
+    "keywords": [
+      "Bioinformatics",
+      "Cellular senescence",
+      "Diagnostic model",
+      "Immune infiltration",
+      "Ischemia-reperfusion injury"
+    ],
+    "mesh_terms": [
+      "*Reperfusion Injury/genetics/metabolism/pathology/diagnosis",
+      "*Cellular Senescence/genetics",
+      "Animals",
+      "*Biomarkers/metabolism",
+      "Mice",
+      "Gene Expression Profiling",
+      "Humans",
+      "Tumor Suppressor Protein p53/genetics",
+      "Gene Regulatory Networks",
+      "STAT3 Transcription Factor/genetics/metabolism",
+      "Inhibitor of Differentiation Protein 1/genetics",
+      "Gene Expression Regulation",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Lianxu",
+        "Liu, Huan",
+        "Jia, Ting",
+        "Xue, Songyan",
+        "Li, Xuhao",
+        "Zhang, Jing",
+        "Xing, Zhizheng",
+        "Wang, Jiayi",
+        "Ma, Jing"
+      ],
+      "short_names": [
+        "Sun L",
+        "Liu H",
+        "Jia T",
+        "Xue S",
+        "Li X",
+        "Zhang J",
+        "Xing Z",
+        "Wang J",
+        "Ma J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Traditional Chinese Medicine, Xijing Hospital, The Fourth Military Medical University, 127 Changlexi Road, Xi'an, 710032, China.",
+        "Department of Traditional Chinese Medicine, Xijing Hospital, The Fourth Military Medical University, 127 Changlexi Road, Xi'an, 710032, China.",
+        "Department of Traditional Chinese Medicine, Xijing Hospital, The Fourth Military Medical University, 127 Changlexi Road, Xi'an, 710032, China.",
+        "Department of Traditional Chinese Medicine, Xijing Hospital, The Fourth Military Medical University, 127 Changlexi Road, Xi'an, 710032, China.",
+        "Shaanxi University of Chinese Medicine, Xian Yang, 712046, China.",
+        "Department of Traditional Chinese Medicine, Xijing Hospital, The Fourth Military Medical University, 127 Changlexi Road, Xi'an, 710032, China.",
+        "Department of Traditional Chinese Medicine, Xijing Hospital, The Fourth Military Medical University, 127 Changlexi Road, Xi'an, 710032, China.",
+        "Department of Traditional Chinese Medicine, Xijing Hospital, The Fourth Military Medical University, 127 Changlexi Road, Xi'an, 710032, China. wangjiayi@fmmu.edu.cn.",
+        "Department of Traditional Chinese Medicine, Xijing Hospital, The Fourth Military Medical University, 127 Changlexi Road, Xi'an, 710032, China. jingma@fmmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Lianxu",
+        "short_name": "Sun L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Xijing Hospital, The Fourth Military Medical University, 127 Changlexi Road, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Huan",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Xijing Hospital, The Fourth Military Medical University, 127 Changlexi Road, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Ting",
+        "short_name": "Jia T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Xijing Hospital, The Fourth Military Medical University, 127 Changlexi Road, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Songyan",
+        "short_name": "Xue S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Xijing Hospital, The Fourth Military Medical University, 127 Changlexi Road, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xuhao",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Shaanxi University of Chinese Medicine, Xian Yang, 712046, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Xijing Hospital, The Fourth Military Medical University, 127 Changlexi Road, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Xing, Zhizheng",
+        "short_name": "Xing Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Xijing Hospital, The Fourth Military Medical University, 127 Changlexi Road, Xi'an, 710032, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiayi",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Xijing Hospital, The Fourth Military Medical University, 127 Changlexi Road, Xi'an, 710032, China. wangjiayi@fmmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ma, Jing",
+        "short_name": "Ma J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Xijing Hospital, The Fourth Military Medical University, 127 Changlexi Road, Xi'an, 710032, China. jingma@fmmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Jan 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/15 16:13",
+    "fetched_at": "2026-10-05 04:44:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40890424",
+      "40277886",
+      "40147738",
+      "40118329",
+      "39620142",
+      "39417505",
+      "39181167",
+      "39044180",
+      "38815767",
+      "38676888",
+      "38589925",
+      "38456500",
+      "38414350",
+      "38389416",
+      "38083898",
+      "37783815",
+      "37488754",
+      "36926022",
+      "36881980",
+      "36278491",
+      "36253355",
+      "36216888",
+      "35244921",
+      "35181472",
+      "35132957",
+      "34458863",
+      "34336962",
+      "34049248",
+      "33414422",
+      "33384961",
+      "32996233",
+      "32781064",
+      "32733450",
+      "32558385",
+      "32428618",
+      "32173461",
+      "32092501",
+      "31809190",
+      "31673976",
+      "31443682",
+      "30920115",
+      "30453885",
+      "30407594",
+      "30241973",
+      "29912392",
+      "29729264",
+      "29394499",
+      "29174037",
+      "29022263",
+      "28135002",
+      "28001439",
+      "27989142",
+      "27924033",
+      "27821539",
+      "27776972",
+      "27387862",
+      "27306684",
+      "26666444",
+      "25822800",
+      "25609072",
+      "25601471",
+      "25108401",
+      "24297251",
+      "24139633",
+      "23740750",
+      "23323831",
+      "23061728",
+      "22455463",
+      "22257669",
+      "22064429",
+      "21546393",
+      "20705054",
+      "18192284",
+      "17496320",
+      "16199517",
+      "15601580",
+      "10939591",
+      "10903150",
+      "10592173",
+      "9677316",
+      "9641335"
+    ],
+    "similar": [
+      "41535570",
+      "35658960",
+      "40416982",
+      "41217537",
+      "37033969",
+      "40147738",
+      "39341981",
+      "41534252",
+      "40785649",
+      "39147333",
+      "38690269",
+      "31699960",
+      "39324174",
+      "39074415",
+      "42283098",
+      "41468372",
+      "37704087",
+      "38935114",
+      "41299729",
+      "39328407",
+      "40561071",
+      "40914702",
+      "39375405",
+      "38815767",
+      "41205031",
+      "39473404",
+      "33705733",
+      "41487007",
+      "40491449",
+      "39230867",
+      "41511918",
+      "40091022",
+      "39442187",
+      "39697326",
+      "37511062",
+      "42292668",
+      "40612944",
+      "41678948",
+      "40238799",
+      "41794917",
+      "37553608",
+      "40661957",
+      "40196107",
+      "41401161",
+      "41840566",
+      "41769389",
+      "40086342",
+      "40374840",
+      "39715172",
+      "39586719",
+      "41052072",
+      "41667805",
+      "41299613",
+      "39308866",
+      "38266883",
+      "37105441",
+      "37969273",
+      "34754625",
+      "41044520",
+      "41544137",
+      "39600181",
+      "38601664",
+      "36246123",
+      "38329418",
+      "41234537",
+      "40510349",
+      "40828304",
+      "39515667",
+      "41136974",
+      "42161063",
+      "39823264",
+      "42250009",
+      "41262249",
+      "40948782",
+      "39583859",
+      "41902830",
+      "41146237",
+      "38286349",
+      "41079183",
+      "41674779",
+      "41224720",
+      "40406126",
+      "40901831",
+      "36091399",
+      "39079349",
+      "42107160",
+      "40103812",
+      "38077447",
+      "32044658",
+      "41479901",
+      "41583468",
+      "42123756",
+      "40589411",
+      "41432483",
+      "35202801",
+      "42348093",
+      "39993960",
+      "41733593",
+      "39507054",
+      "42315974"
+    ],
+    "review": [
+      "41535570"
+    ],
+    "pmc": [
+      "12881650"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-36076-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41535570/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

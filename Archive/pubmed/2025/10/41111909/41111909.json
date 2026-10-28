@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "41111909",
+    "doi": "10.1155/mi/1240226",
+    "title": "Integrative Bulk and Single-Cell Transcriptomic Profiling Reveals Oxidative Stress-Related Genes and Potential Therapeutic Targets in Osteoarthritis."
+  },
+  "content": {
+    "abstract": "Osteoarthritis (OA) is increasingly recognized as a degenerative joint disease that leads to a serious problem of public health, yet the underlying molecular mechanisms remain incompletely understood. In this study, we integrated bulk and single-cell RNA sequencing (scRNA-seq) datasets from the Gene Expression Omnibus (GEO) to systematically investigate oxidative stress-related genes and pathways in OA. Gene set enrichment analysis (GSEA) revealed significant activation of oxidative stress signaling in OA cartilage tissues, with 58 differentially expressed oxidative stress-related genes identified. Subsequent LASSO regression analysis highlighted seven diagnostic genes (STC2, LSP1, COL6A1, FOS, SELENON, TP53, and HSPA8), which demonstrated robust diagnostic performance in both training and validation cohorts. Single-cell analysis further revealed cell-type-specific differences in oxidative stress activity, with homeostatic chondrocytes (HomCs) exhibiting the highest pathway scores. Among the identified genes, FOS emerged as a hub regulator, showing elevated expression in HomCs from OA samples and strong associations with immune infiltration and proinflammatory pathways. Functional assays demonstrated that FOS knockdown significantly attenuated IL-1beta-induced oxidative stress, apoptosis, and inflammatory cytokine (interleukin-6 [IL-6] and tumor necrosis factor-alpha [TNF-alpha]) release in chondrocytes. Furthermore, molecular docking and dynamics simulations identified ursolic acid (UA) as a stable small-molecule FOS binder, and in vitro experiments confirmed its inhibitory effects on oxidative stress and inflammation, comparable to FOS silencing or pharmacological inhibition. Collectively, our findings suggest that oxidative stress-related genes, particularly FOS, play a central role in OA pathogenesis by linking redox imbalance to immune dysregulation and chondrocyte injury, and highlight UA as a potential therapeutic candidate for OA management.",
+    "keywords": [
+      "FOS",
+      "bioinformatics",
+      "molecular docking",
+      "osteoarthritis",
+      "oxidative stress",
+      "single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "*Oxidative Stress/genetics/physiology",
+      "*Osteoarthritis/genetics/metabolism",
+      "Humans",
+      "Chondrocytes/metabolism",
+      "*Gene Expression Profiling/methods",
+      "Single-Cell Analysis/methods",
+      "Apoptosis/genetics",
+      "Transcriptome/genetics",
+      "Proto-Oncogene Proteins c-fos/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Jinhui",
+        "Chen, Jinzhong",
+        "Gao, Duan",
+        "Liang, Bowei",
+        "Huang, Zongquan",
+        "Xiong, Bo",
+        "Zhou, Shuheng",
+        "Tan, Guanghai",
+        "Zhong, Zhihui",
+        "Zeng, Xianghong"
+      ],
+      "short_names": [
+        "Peng J",
+        "Chen J",
+        "Gao D",
+        "Liang B",
+        "Huang Z",
+        "Xiong B",
+        "Zhou S",
+        "Tan G",
+        "Zhong Z",
+        "Zeng X"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-9670-4853",
+        "ORCID: 0009-0005-8421-9759",
+        "ORCID: 0009-0009-3943-5400",
+        "ORCID: 0000-0001-9383-6576"
+      ],
+      "affiliations": [
+        "Department of Minimally Invasive Spine, Yulin Orthopedic Hospital of Integrated Traditional Chinese and Western Medicine, Yulin, Guangxi, China.",
+        "Department of Joint Surgery and Geriatric Orthopedics, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Anesthesiology, Zhongshan Hospital of Traditional Chinese Medicine Affiliated to Guangzhou University of Traditional Chinese Medicine, Zhongshan, Guangdong, China.",
+        "Hospital Administration Office, The First Hospital of Yulin, Yulin, Guangxi, China.",
+        "Hospital Administration Office, Yulin Orthopedic Hospital of Integrated Traditional Chinese and Western Medicine, Yulin, Guangxi, China.",
+        "Guangdong Pharmaceutical University, Guangzhou, Guangdong, China.",
+        "Department of Internal Medicine, Yulin Orthopedic Hospital of Integrated Traditional Chinese and Western Medicine, Yulin, Guangxi, China.",
+        "Clinical Medical College of Tianjin Medical University, Tianjin, China.",
+        "Stem Cell and Regenerative Medicine Center, Gaozhou People's Hospital, Maoming, Guangdong, China.",
+        "Department II of Hand Surgery, Yulin Orthopedic Hospital of Integrated Traditional Chinese and Western Medicine, Yulin, Guangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Jinhui",
+        "short_name": "Peng J",
+        "identifiers": [
+          "0009-0003-9670-4853"
+        ],
+        "affiliations": [
+          "Department of Minimally Invasive Spine, Yulin Orthopedic Hospital of Integrated Traditional Chinese and Western Medicine, Yulin, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jinzhong",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0009-0005-8421-9759"
+        ],
+        "affiliations": [
+          "Department of Joint Surgery and Geriatric Orthopedics, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Duan",
+        "short_name": "Gao D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Zhongshan Hospital of Traditional Chinese Medicine Affiliated to Guangzhou University of Traditional Chinese Medicine, Zhongshan, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Bowei",
+        "short_name": "Liang B",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital Administration Office, The First Hospital of Yulin, Yulin, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zongquan",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Hospital Administration Office, Yulin Orthopedic Hospital of Integrated Traditional Chinese and Western Medicine, Yulin, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Bo",
+        "short_name": "Xiong B",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Pharmaceutical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Shuheng",
+        "short_name": "Zhou S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Yulin Orthopedic Hospital of Integrated Traditional Chinese and Western Medicine, Yulin, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Guanghai",
+        "short_name": "Tan G",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Medical College of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Zhihui",
+        "short_name": "Zhong Z",
+        "identifiers": [
+          "0009-0009-3943-5400"
+        ],
+        "affiliations": [
+          "Stem Cell and Regenerative Medicine Center, Gaozhou People's Hospital, Maoming, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Xianghong",
+        "short_name": "Zeng X",
+        "identifiers": [
+          "0000-0001-9383-6576"
+        ],
+        "affiliations": [
+          "Department II of Hand Surgery, Yulin Orthopedic Hospital of Integrated Traditional Chinese and Western Medicine, Yulin, Guangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Mediators of inflammation"
+    ],
+    "journal_abbrev": [
+      "Mediators Inflamm"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/20 12:31",
+    "fetched_at": "2026-10-01 04:38:55"
+  },
+  "links": {
+    "cites": [
+      "42193171"
+    ],
+    "refs": [
+      "40143596",
+      "39898054",
+      "39759119",
+      "39364408",
+      "39278062",
+      "39007035",
+      "38801700",
+      "38473759",
+      "38325908",
+      "38090564",
+      "37904598",
+      "37344157",
+      "37154864",
+      "37061736",
+      "36959556",
+      "36703963",
+      "36695054",
+      "35959426",
+      "35307380",
+      "35159361",
+      "34896634",
+      "34265844",
+      "34045450",
+      "33275908",
+      "32955487",
+      "32768946",
+      "32738205",
+      "32269383",
+      "32081707",
+      "31926267",
+      "31034380",
+      "30970348",
+      "30236789",
+      "30176344",
+      "30026257",
+      "29599894",
+      "29476740",
+      "29098574",
+      "28100421",
+      "27734845",
+      "26904959",
+      "26769361",
+      "26711691",
+      "26424558",
+      "25784380",
+      "25672339",
+      "25311420",
+      "25266449",
+      "24179881",
+      "23218431",
+      "22832078",
+      "20693392",
+      "20179076",
+      "20026330",
+      "19616091",
+      "17003510",
+      "16679036",
+      "16313345",
+      "11988758",
+      "2931799"
+    ],
+    "similar": [
+      "41111909",
+      "40216809",
+      "41502501",
+      "39640258",
+      "41049439",
+      "39779817",
+      "40804350",
+      "39086489",
+      "39026663",
+      "41219826",
+      "41316378",
+      "41232761",
+      "39849508",
+      "40764361",
+      "38868774",
+      "40589764",
+      "22504941",
+      "40555911",
+      "41146237",
+      "41089260",
+      "27082319",
+      "35993243",
+      "40726988",
+      "29247798",
+      "39438957",
+      "41327360",
+      "40112602",
+      "41286526",
+      "33749514",
+      "29339024",
+      "39720254",
+      "38090564",
+      "41031145",
+      "41112282",
+      "39789715",
+      "40907267",
+      "36671508",
+      "39756165",
+      "37853066",
+      "27067395",
+      "37392568",
+      "39733138",
+      "34521030",
+      "40797087",
+      "30365099",
+      "38444758",
+      "41261566",
+      "36685513",
+      "36046946",
+      "24480285",
+      "39612274",
+      "32819559",
+      "40784333",
+      "36924682",
+      "35635081",
+      "39081871",
+      "32062610",
+      "37941009",
+      "28070626",
+      "40592131",
+      "32871523",
+      "40186271",
+      "39007035",
+      "41396491",
+      "37545537",
+      "41444971",
+      "33164235",
+      "34192661",
+      "37033917",
+      "32745911",
+      "39639339",
+      "41388523",
+      "39639239",
+      "38325908",
+      "33892795",
+      "40636124",
+      "39905808",
+      "33283483",
+      "31712854",
+      "41019096",
+      "37082621",
+      "40564983",
+      "26718307",
+      "38049841",
+      "40335993",
+      "31945456",
+      "39216434",
+      "37035017",
+      "39848169",
+      "40306348",
+      "37537733",
+      "40919662",
+      "39354427",
+      "37344157",
+      "27435272",
+      "40253766",
+      "40170451",
+      "28237856",
+      "41006377",
+      "36995411"
+    ],
+    "review": [
+      "41111909"
+    ],
+    "pmc": [
+      "12534163"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41111909/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/mi/1240226",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3713",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

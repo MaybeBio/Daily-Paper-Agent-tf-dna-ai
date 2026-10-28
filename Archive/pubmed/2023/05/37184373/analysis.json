@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37184373",
+  "title": "An in silico FSHD muscle fiber for modeling DUX4 dynamics and predicting the impact of therapy.",
+  "authors": "Cowley, Matthew V; Pruller, Johanna; Ganassi, Massimo; Zammit, Peter S; Banerji, Christopher R S",
+  "journal": "eLife",
+  "published_date": "2023-05-15",
+  "window": {
+    "start": "2023-05-15",
+    "end": "2023-05-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用随机基因表达与细胞状态区室模型模拟DUX4转录因子在FSHD肌纤维中的动态及治疗影响，虽涉及TF（DUX4）但无蛋白-DNA结合位点预测或三维互作建模，方法为随机模拟而非AI/物理模拟，与课题核心匹配度低。",
+  "abstract": "Facioscapulohumeral muscular dystrophy (FSHD) is an incurable myopathy linked to the over-expression of the myotoxic transcription factor DUX4. Targeting DUX4 is the leading therapeutic approach, however, it is only detectable in 0.1-3.8% of FSHD myonuclei. How rare DUX4 drives FSHD and the optimal anti-DUX4 strategy are unclear. We combine stochastic gene expression with compartment models of cell states, building a simulation of DUX4 expression and consequences in FSHD muscle fibers. Investigating iDUX4 myoblasts, scRNAseq, and snRNAseq of FSHD muscle we estimate parameters including DUX4 mRNA degradation, transcription and translation rates, and DUX4 target gene activation rates. Our model accurately recreates the distribution of DUX4 and targets gene-positive cells seen in scRNAseq of FSHD myocytes. Importantly, we show DUX4 drives significant cell death despite expression in only 0.8% of live cells. Comparing scRNAseq of unfused FSHD myocytes to snRNAseq of fused FSHD myonuclei, we find evidence of DUX4 protein syncytial diffusion and estimate its rate via genetic algorithms. We package our model into freely available tools, to rapidly investigate the consequences of anti-DUX4 therapy.",
+  "abstract_zh": "面肩肱型肌营养不良症（FSHD）是一种无法治愈的肌病，与肌毒性转录因子DUX4的过度表达相关。靶向DUX4是主要的治疗方法，然而，DUX4仅在0.1-3.8%的FSHD肌核中可检测到。罕见的DUX4如何驱动FSHD以及最佳的抗DUX4策略尚不清楚。我们将随机基因表达与细胞状态区室模型相结合，构建了FSHD肌纤维中DUX4表达及其后果的模拟。通过研究iDUX4成肌细胞、scRNAseq和FSHD肌肉的snRNAseq，我们估计了包括DUX4 mRNA降解、转录和翻译速率以及DUX4靶基因激活速率在内的参数。我们的模型准确重现了FSHD肌细胞scRNAseq中观察到的DUX4和靶基因阳性细胞的分布。重要的是，我们表明尽管DUX4仅在0.8%的活细胞中表达，它仍驱动显著的细胞死亡。通过比较未融合FSHD肌细胞的scRNAseq与融合FSHD肌核的snRNAseq，我们发现了DUX4蛋白合胞体扩散的证据，并通过遗传算法估计其速率。我们将模型封装为免费可用的工具，以快速研究抗DUX4治疗的后果。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37184373/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37184373/",
+  "paper_page_path": "papers/pubmed/37184373/index.html"
+}

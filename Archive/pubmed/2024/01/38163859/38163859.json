@@ -1,0 +1,492 @@
+{
+  "identity": {
+    "pmid": "38163859",
+    "doi": "10.1186/s13046-023-02873-0",
+    "title": "The feedback loop of EFTUD2/c-MYC impedes chemotherapeutic efficacy by enhancing EFTUD2 transcription and stabilizing c-MYC protein in colorectal cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Chemoresistance presents a significant obstacle in the treatment of colorectal cancer (CRC), yet the molecular basis underlying CRC chemoresistance remains poorly understood, impeding the development of new therapeutic interventions. Elongation factor Tu GTP binding domain containing 2 (EFTUD2) has emerged as a potential oncogenic factor implicated in various cancer types, where it fosters tumor growth and survival. However, its specific role in modulating the sensitivity of CRC cells to chemotherapy is still unclear. METHODS: Public dataset analysis and in-house sample validation were conducted to assess the expression of EFTUD2 in 5-fluorouracil (5-FU) chemotherapy-resistant CRC cells and the potential of EFTUD2 as a prognostic indicator for CRC. Experiments both in vitro, including MTT assay, EdU cell proliferation assay, TUNEL assay, and clone formation assay and in vivo, using cell-derived xenograft models, were performed to elucidate the function of EFTUD2 in sensitivity of CRC cells to 5-FU treatment. The molecular mechanism on the reciprocal regulation between EFTUD2 and the oncogenic transcription factor c-MYC was investigated through molecular docking, ubiquitination assay, chromatin immunoprecipitation (ChIP), dual luciferase reporter assay, and co-immunoprecipitation (Co-IP). RESULTS: We found that EFTUD2 expression was positively correlated with 5-FU resistance, higher pathological grade, and poor prognosis in CRC patients. We also demonstrated both in vitro and in vivo that knockdown of EFTUD2 sensitized CRC cells to 5-FU treatment, whereas overexpression of EFTUD2 impaired such sensitivity. Mechanistically, we uncovered that EFTUD2 physically interacted with and stabilized c-MYC protein by preventing its ubiquitin-mediated proteasomal degradation. Intriguingly, we found that c-MYC directly bound to the promoter region of EFTUD2 gene, activating its transcription. Leveraging rescue experiments, we further confirmed that the effect of EFTUD2 on 5-FU resistance was dependent on c-MYC stabilization. CONCLUSION: Our findings revealed a positive feedback loop involving an EFTUD2/c-MYC axis that hampers the efficacy of 5-FU chemotherapy in CRC cells by increasing EFTUD2 transcription and stabilizing c-MYC oncoprotein. This study highlights the potential of EFTUD2 as a promising therapeutic target to surmount chemotherapy resistance in CRC patients.",
+    "keywords": [
+      "Chemotherapy sensitivity",
+      "EFTUD2",
+      "Prognostic indicator",
+      "Ubiquitylation",
+      "c-MYC"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/drug therapy/genetics/pathology",
+      "Cell Line, Tumor",
+      "Feedback",
+      "Molecular Docking Simulation",
+      "Fluorouracil/pharmacology/therapeutic use",
+      "Gene Expression Regulation, Neoplastic",
+      "Drug Resistance, Neoplasm/genetics",
+      "Cell Proliferation",
+      "Peptide Elongation Factors/genetics",
+      "Ribonucleoprotein, U5 Small Nuclear/genetics/metabolism/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Xiaojian",
+        "Li, Changxue",
+        "Gao, Yunfei",
+        "Zhang, Qingyuan",
+        "Wang, Tao",
+        "Zhou, Huaixiang",
+        "Bu, Fanqin",
+        "Chen, Jia",
+        "Mao, Xinjun",
+        "He, Yulong",
+        "Wu, Kaiming",
+        "Li, Ningning",
+        "Luo, Hongliang"
+      ],
+      "short_names": [
+        "Zhu X",
+        "Li C",
+        "Gao Y",
+        "Zhang Q",
+        "Wang T",
+        "Zhou H",
+        "Bu F",
+        "Chen J",
+        "Mao X",
+        "He Y",
+        "Wu K",
+        "Li N",
+        "Luo H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China.",
+        "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China.",
+        "Digestive Diseases Center, Guangdong Provincial Key Laboratory of Digestive Cancer Research, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China.",
+        "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China.",
+        "Department of Otolaryngology, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China.",
+        "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China.",
+        "Digestive Diseases Center, Guangdong Provincial Key Laboratory of Digestive Cancer Research, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China.",
+        "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China.",
+        "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China.",
+        "Department of Gastroenterology, Beijing Friendship Hospital, National Clinical Research Center for Digestive Disease, Capital Medical University, Beijing, 100050, China.",
+        "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China.",
+        "Digestive Diseases Center, Guangdong Provincial Key Laboratory of Digestive Cancer Research, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China.",
+        "Department of Anesthesiology, The Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, 533000, China.",
+        "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China. heyulong@mail.sysu.edu.cn.",
+        "Digestive Diseases Center, Guangdong Provincial Key Laboratory of Digestive Cancer Research, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China. heyulong@mail.sysu.edu.cn.",
+        "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China. drkmwu@163.com.",
+        "Digestive Diseases Center, Guangdong Provincial Key Laboratory of Digestive Cancer Research, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China. drkmwu@163.com.",
+        "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China. linn29@mail.sysu.edu.cn.",
+        "China-UK Institute for Frontier Science, Shenzhen, 518107, China. linn29@mail.sysu.edu.cn.",
+        "Department of General Surgery, The Second Affiliated Hospital of Nanchang University, Nanchang, 330006, China. ndefy13028@ncu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Xiaojian",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China."
+        ]
+      },
+      {
+        "full_name": "Li, Changxue",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China.",
+          "Digestive Diseases Center, Guangdong Provincial Key Laboratory of Digestive Cancer Research, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yunfei",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China.",
+          "Department of Otolaryngology, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qingyuan",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China.",
+          "Digestive Diseases Center, Guangdong Provincial Key Laboratory of Digestive Cancer Research, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tao",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huaixiang",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China."
+        ]
+      },
+      {
+        "full_name": "Bu, Fanqin",
+        "short_name": "Bu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Beijing Friendship Hospital, National Clinical Research Center for Digestive Disease, Capital Medical University, Beijing, 100050, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jia",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China.",
+          "Digestive Diseases Center, Guangdong Provincial Key Laboratory of Digestive Cancer Research, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Xinjun",
+        "short_name": "Mao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, 533000, China."
+        ]
+      },
+      {
+        "full_name": "He, Yulong",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China. heyulong@mail.sysu.edu.cn.",
+          "Digestive Diseases Center, Guangdong Provincial Key Laboratory of Digestive Cancer Research, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China. heyulong@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Kaiming",
+        "short_name": "Wu K",
+        "identifiers": [],
+        "affiliations": [
+          "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China. drkmwu@163.com.",
+          "Digestive Diseases Center, Guangdong Provincial Key Laboratory of Digestive Cancer Research, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China. drkmwu@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Ningning",
+        "short_name": "Li N",
+        "identifiers": [],
+        "affiliations": [
+          "Tomas Lindahl Nobel Laureate Laboratory, The Seventh Affiliated Hospital of Sun Yat-sen University, Shenzhen, 518107, China. linn29@mail.sysu.edu.cn.",
+          "China-UK Institute for Frontier Science, Shenzhen, 518107, China. linn29@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Luo, Hongliang",
+        "short_name": "Luo H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The Second Affiliated Hospital of Nanchang University, Nanchang, 330006, China. ndefy13028@ncu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of experimental & clinical cancer research : CR"
+    ],
+    "journal_abbrev": [
+      "J Exp Clin Cancer Res"
+    ],
+    "pub_date": "2024 Jan 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/03 08:01",
+    "fetched_at": "2026-09-29 12:57:22"
+  },
+  "links": {
+    "cites": [
+      "42560559",
+      "42378815",
+      "41366407",
+      "40843355",
+      "40650074",
+      "40555777",
+      "40448601",
+      "40268788",
+      "39532036"
+    ],
+    "refs": [
+      "37212463",
+      "37012321",
+      "36604116",
+      "36602428",
+      "36471428",
+      "36355783",
+      "36245126",
+      "35988567",
+      "35484214",
+      "35472088",
+      "35412617",
+      "35073459",
+      "34942444",
+      "34881526",
+      "34850907",
+      "34718705",
+      "34282556",
+      "34131808",
+      "33967786",
+      "33589597",
+      "33584830",
+      "33579377",
+      "33546726",
+      "33484560",
+      "33397405",
+      "33311446",
+      "33220458",
+      "33151298",
+      "33024090",
+      "32822825",
+      "32333448",
+      "32142649",
+      "32132307",
+      "32105718",
+      "32071436",
+      "31799597",
+      "31785545",
+      "31598675",
+      "31455888",
+      "31278373",
+      "31083525",
+      "27789702",
+      "27008011",
+      "26656090",
+      "25873244",
+      "25689483",
+      "25190710",
+      "24591536",
+      "24470203",
+      "22192364",
+      "21447796",
+      "16199517"
+    ],
+    "similar": [
+      "38163859",
+      "35394639",
+      "33722958",
+      "36736043",
+      "29258530",
+      "29635904",
+      "38386232",
+      "38762737",
+      "34596215",
+      "28051999",
+      "29115526",
+      "33024090",
+      "38889513",
+      "35784334",
+      "39153969",
+      "31261026",
+      "32104496",
+      "31014355",
+      "29439714",
+      "33429333",
+      "27415661",
+      "25689483",
+      "30850009",
+      "31811910",
+      "31042625",
+      "31675755",
+      "30338942",
+      "31491980",
+      "36525936",
+      "31802650",
+      "31888761",
+      "34998404",
+      "35739524",
+      "38824480",
+      "27173050",
+      "31078520",
+      "31760170",
+      "29475390",
+      "37056569",
+      "25929864",
+      "30429233",
+      "30011263",
+      "32865180",
+      "28767179",
+      "33325631",
+      "26647806",
+      "34974791",
+      "32581212",
+      "30451820",
+      "24444035",
+      "35864508",
+      "39008915",
+      "38521199",
+      "38342156",
+      "30938104",
+      "35312836",
+      "36471428",
+      "31774615",
+      "37212463",
+      "34282556",
+      "37528233",
+      "28176874",
+      "32073706",
+      "30689555",
+      "38378472",
+      "32141542",
+      "35462225",
+      "36788743",
+      "34440739",
+      "26442524",
+      "30365932",
+      "34782005",
+      "33168814",
+      "30630498",
+      "34542064",
+      "32587773",
+      "33780262",
+      "36725241",
+      "35276696",
+      "28327152",
+      "37832805",
+      "28356150",
+      "31395078",
+      "35900059",
+      "32304779",
+      "34436958",
+      "37341919",
+      "28977800",
+      "24384683",
+      "31087138",
+      "37373155",
+      "29390193",
+      "33456583",
+      "34969360",
+      "31543507",
+      "26695693",
+      "29463225",
+      "35832094",
+      "37575080",
+      "28411308",
+      "38097550",
+      "23784051",
+      "36592991",
+      "35367196",
+      "24249161",
+      "37148838",
+      "30081850",
+      "29398868",
+      "38342015",
+      "39357549",
+      "38805974",
+      "38861804",
+      "39118083",
+      "37140813",
+      "39080613",
+      "38047497",
+      "39240276",
+      "39287889",
+      "38216914",
+      "38459370",
+      "39000577",
+      "38301392",
+      "38890190",
+      "34536148",
+      "38263157",
+      "38278978",
+      "34741022",
+      "34445183",
+      "38562046",
+      "38287178",
+      "35977477",
+      "36384132",
+      "38233377",
+      "39378883",
+      "29928378",
+      "38482247",
+      "39389335",
+      "39108750",
+      "39221698",
+      "38391955",
+      "38215036",
+      "37658050",
+      "37728615",
+      "38101610",
+      "39318798",
+      "39289754",
+      "37816999",
+      "33880032",
+      "36045417",
+      "38733826",
+      "39153477",
+      "36317361",
+      "32185127",
+      "38740771",
+      "39430826",
+      "37156751",
+      "39040328",
+      "38796806",
+      "39332376",
+      "39049965",
+      "38418543",
+      "33993634",
+      "39306615",
+      "39388352"
+    ],
+    "review": [
+      "38163859",
+      "39240276"
+    ],
+    "pmc": [
+      "10759692"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jeccr.biomedcentral.com/articles/10.1186/s13046-023-02873-0",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38163859/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38163859",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

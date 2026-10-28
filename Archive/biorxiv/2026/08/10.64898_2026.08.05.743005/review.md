@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusion, data/code availability, author contributions)
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and reporting completeness. Editorial and stylistic issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors present EvoMOBO, an active-learning framework for multi-objective protein engineering that integrates path-dependent sequence generation, global competition among generated variants, and explicit multi-objective optimization. They claim robust performance over state-of-the-art methods on two complete combinatorial landscapes (DBD and ParD3), and demonstrate practical utility in two enzyme engineering tasks (Gk OYE and Ao FOx) using simulation-derived descriptors as labels, with experimental validation reserved for final testing.
+- **Visible evidence base** Main text figures referenced (Figures 1, 2, 3, 4, 5, 6), supplementary figures referenced (S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14), supplementary tables referenced (Table S1), and supplementary methods. No actual figure panels, numerical data tables, or supplementary material were provided for inspection.
+- **Missing materials affecting confidence** All figures, supplementary figures, supplementary tables, and supplementary methods are referenced but not provided. Numerical values for key results (e.g., hit rates, hypervolumes, error bars, statistical tests) are given only as point estimates or ranges in text. No raw data, benchmark configuration files, or code were inspected. The absence of these materials prevents independent verification of the quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in protein engineering: multi-objective optimization under limited evaluation budgets. The proposed framework, EvoMOBO, builds on existing work (LaMBO) with two modifications: global competition across candidate pools and an exploitation-biased acquisition strategy. The authors also explore the use of simulation-derived descriptors as proxy labels, which is a potentially useful direction. However, the manuscript as presented has several significant gaps. The quantitative evidence for the central claims is not fully verifiable from the provided text, because all figures, tables, and supplementary materials are absent. The benchmarking comparisons, while described, lack the statistical detail needed to assess significance. The enzyme engineering demonstrations are promising but the relationship between computational descriptors and experimental outcomes is presented qualitatively. The claim that EvoMOBO is "evolution-inspired" is not substantiated by any explicit algorithmic connection to evolutionary processes beyond a loose analogy. Overall, the work is potentially interesting but the current evidence base is insufficient to establish the stated claims.
+- **Who would be interested in the results, and why** Computational protein engineers and machine learning researchers working on Bayesian optimization, active learning, and sequence design would be the primary audience. The use of simulation-derived descriptors as labels may also interest researchers in molecular simulation and enzyme engineering. The multi-objective focus is relevant to anyone dealing with trade-offs in biomolecular design.
+- **Major strengths** The problem is well-motivated and timely. The framework is modular, allowing different encoders, surrogates, and acquisition functions to be swapped. The use of complete combinatorial landscapes for benchmarking is a strong choice, as it allows exhaustive evaluation. The extension to simulation-derived descriptors is a thoughtful attempt to address the label bottleneck in protein engineering. The enzyme engineering demonstrations, if reproducible, would be practically valuable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Benchmarking against state-of-the-art methods on complete steroid receptor DNA-binding domain and ParD3 antitoxin landscapes demonstrated robust target-region enrichment, Pareto-front advancement, and sequence diversity across two- and three-objective tasks."
+  - **Evidence pointer** Figures 2, 3, S1, S2, S3; location not provided
+  - **Concern** The quantitative basis for this claim is not verifiable. All figures and supplementary materials are referenced but not provided. The text gives point estimates (e.g., hit rates of 72.45 ± 5.88% and 51.13 ± 5.38%) but no raw data, no statistical comparisons between methods, and no indication of variance across seeds beyond the stated standard deviations. The claim of "robust" performance requires a demonstration that the differences are statistically meaningful and consistent across initializations.
+  - **Why it matters** The central contribution of the manuscript is the claimed superiority of EvoMOBO over existing methods. Without access to the actual benchmark results, this claim cannot be assessed. The reader cannot determine whether the observed differences are within noise or represent genuine improvements.
+  - **Resolution test** Provide the actual figure panels with error bars, per-seed results, and statistical tests (e.g., paired tests across seeds) comparing EvoMOBO to each baseline for each metric. Show that the reported differences are statistically significant and consistent.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** "EvoMOBO instead allows candidates from all searches to compete for the same evaluation budget. Specifically, it performs 64 searches per round, pools up to 1,024 candidates, and globally selects 16 variants according to their marginal hypervolume gains computed from surrogate-predicted objective means."
+  - **Evidence pointer** Results section "Refining LaMBO through candidate competition and module ablation"; location not provided
+  - **Concern** The description of the global selection mechanism is incomplete. The text states that candidates are selected by marginal hypervolume gains, but does not specify how the surrogate model uncertainty is handled in this selection, how ties are broken, or how the selection interacts with the acquisition function used during generation. The exploitation bias is described as reducing the weight on posterior uncertainty from 1.0 to 0.75, but the exact form of the modified acquisition function is not given. The ablation study is described only in terms of final outcomes, not in terms of the intermediate behavior that would explain why the modifications help.
+  - **Why it matters** Reproducibility is a core requirement for a methods paper. The described modifications are the key novelty of EvoMOBO relative to LaMBO. Without a precise specification of the selection procedure and the modified acquisition function, other researchers cannot implement or build on this work.
+  - **Resolution test** Provide a complete algorithmic specification of EvoMOBO, including the exact form of the exploitation-biased acquisition function, the selection procedure, and the interaction between generation and selection. Include pseudocode or a detailed step-by-step description in the main text or supplementary methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "For an old yellow enzyme (Gk OYE), 16 of 26 tested variants outperformed the wild type, and the best increased non-native oxidative dehydrogenation conversion from 17.5% to 95%."
+  - **Evidence pointer** Figure 5D, S6, Table S1; location not provided
+  - **Concern** The experimental validation is presented as a single point per variant, with no indication of experimental replicates, measurement error, or controls. The conversion values are given as percentages, but the assay conditions, the number of independent measurements, and the variability across replicates are not stated. The claim that 16 of 26 variants "outperformed" the wild type requires a statistical definition of outperformance that is not provided.
+  - **Why it matters** Enzyme engineering results are only meaningful if the experimental measurements are reliable. Without replicates and error estimates, the reader cannot distinguish genuine improvements from measurement noise. This is particularly important because the computational descriptors are acknowledged to not quantitatively predict conversion.
+  - **Resolution test** Provide experimental replicates, standard deviations or confidence intervals for each conversion measurement, and a clear statistical criterion for "outperformed." State the number of independent experiments and the assay conditions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "For a formate oxidase (Ao FOx), EvoMOBO identified aggregation-resistant variants, two of which nearly doubled diethyl phthalate degradation in a photoenzymatic cascade."
+  - **Evidence pointer** Figure 6E, 6F, 6H, 6I, S14; location not provided
+  - **Concern** The Ao FOx results are presented with the same lack of experimental detail as the Gk OYE results. The aggregation measurements are described as "monitoring aggregation at 25 °C and an Ao FOx concentration of 0.5 mg mL⁻¹ using absorbance at 320 nm," but the time course, the number of replicates, and the criteria for "substantially delayed" are not specified. The degradation measurements are given as total amounts degraded, but the time course, the number of cycles, and the variability across replicates are not stated. The claim that "aggregation resistance alone was insufficient" is based on a comparison across only four tested variants, which is a small sample for such a conclusion.
+  - **Why it matters** The Ao FOx demonstration is intended to show practical utility. Without proper experimental characterization, the reader cannot assess whether the improvements are real, reproducible, or practically meaningful.
+  - **Resolution test** Provide full experimental details: number of replicates, error bars, time courses, and statistical comparisons. Show that the differences between variants are statistically significant and that the conclusions hold across the full set of tested variants.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conceptual framing
+  - **Claim pointer** "Taken together, these features allow EvoMOBO to be viewed as an in silico reconstruction of key processes in natural selection (Figure 1)."
+  - **Evidence pointer** Introduction, Figure 1; location not provided
+  - **Concern** The "evolution-inspired" framing is presented as a conceptual analogy but no explicit algorithmic connection to evolutionary processes is made. The three features described (overproduction, differential survival, iterative updating) are generic properties of any iterative optimization algorithm. The analogy to natural selection does not appear to inform any specific design choice in the algorithm.
+  - **Why it matters** The title and framing of the manuscript emphasize the evolutionary inspiration. If this is purely a rhetorical device, it may mislead readers about the novelty of the approach. If there is a genuine connection, it should be made explicit and shown to influence the algorithm design.
+  - **Resolution test** Either remove the evolutionary framing or make the connection explicit. Show how specific design choices in EvoMOBO are motivated by or correspond to specific evolutionary processes, and explain what this framing adds beyond a standard iterative optimization perspective.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting completeness
+  - **Affected element** Baseline comparisons
+  - **Evidence pointer** Results section "EvoMOBO enriches diverse high-performing DBD variants across initial datasets"; location not provided
+  - **Issue** The text states that ALDE and EVOLEVOpro were evaluated with scalarized objectives, but the specific scalarization functions are not described in the main text. The choice of scalarization can significantly affect baseline performance.
+  - **Required correction** Specify the exact scalarization functions used for each baseline in the main text or supplementary methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Seed variability
+  - **Evidence pointer** Results section "EvoMOBO enriches diverse high-performing DBD variants across initial datasets"; location not provided
+  - **Issue** The text reports means with standard deviations for some metrics, but it is not stated how many seeds were used or whether the same seeds were used across all methods.
+  - **Required correction** State the number of seeds, the seed initialization procedure, and whether paired comparisons were used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Results section "Refining LaMBO through candidate competition and module ablation"; location not provided
+  - **Issue** The term "exploitation-biased" is used to describe the modified acquisition function, but the direction of the bias is not defined. It is unclear whether this means the acquisition function weights predicted mean more heavily, or weights uncertainty less heavily, or both.
+  - **Required correction** Define the term precisely and state the exact modification made to the acquisition function.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Computational descriptors
+  - **Evidence pointer** Results section "Mechanism-informed EvoMOBO improves non-native oxidative dehydrogenation by Gk OYE"; location not provided
+  - **Issue** The simulation-derived descriptors are described qualitatively (e.g., "substrate-binding probability," "reaction-preorganization probability"), but the exact definitions, the simulation protocols, and the convergence criteria are not provided in the main text.
+  - **Required correction** Provide full definitions of all descriptors and the simulation protocols in the supplementary methods.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Code availability
+  - **Evidence pointer** Code availability section
+  - **Issue** The code repository is mentioned, but it is not stated whether the benchmark datasets, the exact model configurations, and the experimental data are included.
+  - **Required correction** State explicitly what is included in the repository and provide a version or commit identifier.
+- **Technical failings that need to be addressed before the case is established** The absence of all figures, tables, and supplementary materials is a critical failing. The quantitative claims cannot be verified. The experimental sections lack replicates and statistical analysis. The algorithmic description of EvoMOBO is incomplete, preventing reproduction. The baseline comparisons are not fully specified.
+- **Assessment against Nature-style criteria** Originality: The combination of existing components (LaMBO, protein language models, Bayesian optimization) is incremental. The use of simulation-derived descriptors as labels is a useful extension but not conceptually novel. Scientific importance: The problem is important, and the enzyme engineering results, if reproducible, would be of practical value. However, the importance is not yet established given the current evidence. Interdisciplinary readership: The work bridges machine learning, protein engineering, and molecular simulation, which could appeal to a broad audience. Technical soundness: The technical approach is reasonable, but the incomplete specification and lack of statistical rigor undermine confidence. Readability for nonspecialists: The manuscript is generally readable, but the results section relies heavily on figures that were not provided, making it difficult to follow the argument.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and the approach is plausible, but the evidence base is insufficient. The absence of all figures, tables, and supplementary materials, the lack of experimental replicates and statistical analysis, and the incomplete algorithmic specification prevent a positive recommendation. The authors should be invited to resubmit with the full evidence base and the identified issues addressed.

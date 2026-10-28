@@ -1,0 +1,430 @@
+{
+  "identity": {
+    "pmid": "38913763",
+    "doi": "10.1021/acs.jmedchem.4c00883",
+    "title": "Discovery of a Highly Potent and Selective BRD9 PROTAC Degrader Based on E3 Binder Investigation for the Treatment of Hematological Tumors."
+  },
+  "content": {
+    "abstract": "BRD9 is a pivotal epigenetic factor involved in cancers and inflammatory diseases. Still, the limited selectivity and poor phenotypic activity of targeted agents make it an atypically undruggable target. PROTAC offers an alternative strategy for overcoming the issue. In this study, we explored diverse E3 ligase ligands for the contribution of BRD9 PROTAC degradation. Through molecular docking, binding affinity analysis, and structure-activity relationship study, we identified a highly potent PROTAC E5, with excellent BRD9 degradation (DC(50) = 16 pM) and antiproliferation in MV4-11 cells (IC(50) = 0.27 nM) and OCI-LY10 cells (IC(50) = 1.04 nM). E5 can selectively degrade BRD9 and induce cell cycle arrest and apoptosis. Moreover, the therapeutic efficacy of E5 was confirmed in xenograft tumor models, accompanied by further RNA-seq analysis. Therefore, these results may pave the way and provide the reference for the discovery and investigation of highly effective PROTAC degraders.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "*Antineoplastic Agents/pharmacology/chemical synthesis/chemistry",
+      "Structure-Activity Relationship",
+      "*Molecular Docking Simulation",
+      "*Cell Proliferation/drug effects",
+      "*Ubiquitin-Protein Ligases/metabolism",
+      "Cell Line, Tumor",
+      "Mice",
+      "Drug Discovery",
+      "Hematologic Neoplasms/drug therapy/pathology/metabolism",
+      "Transcription Factors/metabolism/antagonists & inhibitors",
+      "Apoptosis/drug effects",
+      "Proteolysis/drug effects",
+      "Mice, Nude",
+      "Mice, Inbred BALB C",
+      "Xenograft Model Antitumor Assays",
+      "Drug Screening Assays, Antitumor",
+      "Bromodomain Containing Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Duan, Haiting",
+        "Zhang, Jingyu",
+        "Gui, Renzhao",
+        "Lu, Yang",
+        "Pang, Ao",
+        "Chen, Beijing",
+        "Shen, Liteng",
+        "Yu, Hengyuan",
+        "Li, Jia",
+        "Xu, Tengfei",
+        "Wang, Yuwei",
+        "Yao, Xiaojun",
+        "Zhang, Bo",
+        "Lin, Nengming",
+        "Dong, Xiaowu",
+        "Zhou, Yubo",
+        "Che, Jinxin"
+      ],
+      "short_names": [
+        "Duan H",
+        "Zhang J",
+        "Gui R",
+        "Lu Y",
+        "Pang A",
+        "Chen B",
+        "Shen L",
+        "Yu H",
+        "Li J",
+        "Xu T",
+        "Wang Y",
+        "Yao X",
+        "Zhang B",
+        "Lin N",
+        "Dong X",
+        "Zhou Y",
+        "Che J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5782-1107",
+        "ORCID: 0000-0002-8974-0173",
+        "ORCID: 0000-0002-2178-4372",
+        "ORCID: 0000-0001-7202-9214"
+      ],
+      "affiliations": [
+        "Hangzhou Institute of Innovative Medicine, Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China.",
+        "Hangzhou Institute of Innovative Medicine, Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China.",
+        "Key Laboratory of Clinical Cancer Pharmacology and Toxicology Research of Zhejiang Province, Hangzhou First People's Hospital, Cancer Center of Zhejiang University, Hangzhou 310006, P. R. China.",
+        "Department of Clinical Pharmacology, Hangzhou Geriatric Hospital, Hangzhou, Zhejiang 310022, P. R. China.",
+        "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Tsuihang New District, Zhongshan, Guangdong 528400, P. R. China.",
+        "School of Pharmacy, Zunyi Medical University, Zunyi 563000, P. R. China.",
+        "Hangzhou Institute of Innovative Medicine, Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China.",
+        "Hangzhou Institute of Innovative Medicine, Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China.",
+        "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Tsuihang New District, Zhongshan, Guangdong 528400, P. R. China.",
+        "Hangzhou Institute of Innovative Medicine, Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China.",
+        "State Key Laboratory of Advanced Drug Delivery Systems of Zhejiang Province, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China.",
+        "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Tsuihang New District, Zhongshan, Guangdong 528400, P. R. China.",
+        "School of Pharmacy, Zunyi Medical University, Zunyi 563000, P. R. China.",
+        "National Center for Drug Screening, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai 201203, P. R. China.",
+        "Shandong Laboratory of Yantai Drug Discovery, Bohai Rim Advanced Research Institute for Drug Discovery, Yantai 264117, P. R. China.",
+        "State Key Laboratory of Advanced Drug Delivery Systems of Zhejiang Province, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China.",
+        "College of Pharmacy, Shaanxi University of Chinese Medicine, Xianyang 712000, P. R. China.",
+        "Centre for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Sciences, Macao Polytechnic University, Macao 999078, P. R. China.",
+        "Key Laboratory of Clinical Cancer Pharmacology and Toxicology Research of Zhejiang Province, Hangzhou First People's Hospital, Cancer Center of Zhejiang University, Hangzhou 310006, P. R. China.",
+        "Department of Clinical Pharmacology, Hangzhou Geriatric Hospital, Hangzhou, Zhejiang 310022, P. R. China.",
+        "Key Laboratory of Clinical Cancer Pharmacology and Toxicology Research of Zhejiang Province, Hangzhou First People's Hospital, Cancer Center of Zhejiang University, Hangzhou 310006, P. R. China.",
+        "Department of Clinical Pharmacology, Hangzhou Geriatric Hospital, Hangzhou, Zhejiang 310022, P. R. China.",
+        "Hangzhou Institute of Innovative Medicine, Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China.",
+        "State Key Laboratory of Advanced Drug Delivery Systems of Zhejiang Province, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China.",
+        "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Tsuihang New District, Zhongshan, Guangdong 528400, P. R. China.",
+        "School of Pharmacy, Zunyi Medical University, Zunyi 563000, P. R. China.",
+        "National Center for Drug Screening, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai 201203, P. R. China.",
+        "Hangzhou Institute of Innovative Medicine, Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China.",
+        "State Key Laboratory of Advanced Drug Delivery Systems of Zhejiang Province, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Duan, Haiting",
+        "short_name": "Duan H",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jingyu",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China.",
+          "Key Laboratory of Clinical Cancer Pharmacology and Toxicology Research of Zhejiang Province, Hangzhou First People's Hospital, Cancer Center of Zhejiang University, Hangzhou 310006, P. R. China.",
+          "Department of Clinical Pharmacology, Hangzhou Geriatric Hospital, Hangzhou, Zhejiang 310022, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Gui, Renzhao",
+        "short_name": "Gui R",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Tsuihang New District, Zhongshan, Guangdong 528400, P. R. China.",
+          "School of Pharmacy, Zunyi Medical University, Zunyi 563000, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yang",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Pang, Ao",
+        "short_name": "Pang A",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Chen, Beijing",
+        "short_name": "Chen B",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Tsuihang New District, Zhongshan, Guangdong 528400, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Shen, Liteng",
+        "short_name": "Shen L",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Yu, Hengyuan",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Advanced Drug Delivery Systems of Zhejiang Province, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Jia",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Tsuihang New District, Zhongshan, Guangdong 528400, P. R. China.",
+          "School of Pharmacy, Zunyi Medical University, Zunyi 563000, P. R. China.",
+          "National Center for Drug Screening, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai 201203, P. R. China.",
+          "Shandong Laboratory of Yantai Drug Discovery, Bohai Rim Advanced Research Institute for Drug Discovery, Yantai 264117, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Xu, Tengfei",
+        "short_name": "Xu T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Advanced Drug Delivery Systems of Zhejiang Province, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuwei",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0001-5782-1107"
+        ],
+        "affiliations": [
+          "College of Pharmacy, Shaanxi University of Chinese Medicine, Xianyang 712000, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Yao, Xiaojun",
+        "short_name": "Yao X",
+        "identifiers": [
+          "0000-0002-8974-0173"
+        ],
+        "affiliations": [
+          "Centre for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Sciences, Macao Polytechnic University, Macao 999078, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bo",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Clinical Cancer Pharmacology and Toxicology Research of Zhejiang Province, Hangzhou First People's Hospital, Cancer Center of Zhejiang University, Hangzhou 310006, P. R. China.",
+          "Department of Clinical Pharmacology, Hangzhou Geriatric Hospital, Hangzhou, Zhejiang 310022, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Lin, Nengming",
+        "short_name": "Lin N",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Clinical Cancer Pharmacology and Toxicology Research of Zhejiang Province, Hangzhou First People's Hospital, Cancer Center of Zhejiang University, Hangzhou 310006, P. R. China.",
+          "Department of Clinical Pharmacology, Hangzhou Geriatric Hospital, Hangzhou, Zhejiang 310022, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Dong, Xiaowu",
+        "short_name": "Dong X",
+        "identifiers": [
+          "0000-0002-2178-4372"
+        ],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China.",
+          "State Key Laboratory of Advanced Drug Delivery Systems of Zhejiang Province, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yubo",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Zhongshan Institute for Drug Discovery, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Tsuihang New District, Zhongshan, Guangdong 528400, P. R. China.",
+          "School of Pharmacy, Zunyi Medical University, Zunyi 563000, P. R. China.",
+          "National Center for Drug Screening, State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, Shanghai 201203, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Che, Jinxin",
+        "short_name": "Che J",
+        "identifiers": [
+          "0000-0001-7202-9214"
+        ],
+        "affiliations": [
+          "Hangzhou Institute of Innovative Medicine, Institute of Drug Discovery and Design, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China.",
+          "State Key Laboratory of Advanced Drug Delivery Systems of Zhejiang Province, College of Pharmaceutical Sciences, Zhejiang University, Hangzhou 310058, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "J Med Chem"
+    ],
+    "pub_date": "2024 Jul 11",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/24 18:42",
+    "fetched_at": "2026-10-05 01:24:22"
+  },
+  "links": {
+    "cites": [
+      "42376709",
+      "42324256",
+      "41845415",
+      "41797932",
+      "41477340",
+      "41401975",
+      "41145412",
+      "40343767",
+      "40266852"
+    ],
+    "refs": [],
+    "similar": [
+      "38913763",
+      "39132814",
+      "34390970",
+      "38955003",
+      "39218923",
+      "40448714",
+      "40343767",
+      "39302251",
+      "41050081",
+      "41037982",
+      "39475482",
+      "40764262",
+      "41145412",
+      "39708768",
+      "40640988",
+      "39520729",
+      "40340418",
+      "40659131",
+      "38768083",
+      "39973224",
+      "39580911",
+      "40334145",
+      "38607318",
+      "41285423",
+      "39804031",
+      "39854008",
+      "40338735",
+      "39406109",
+      "40295770",
+      "31767403",
+      "40578256",
+      "30990042",
+      "38609561",
+      "32388279",
+      "39167894",
+      "38657608",
+      "39965406",
+      "26914985",
+      "31747516",
+      "40957137",
+      "33453602",
+      "40339473",
+      "41313965",
+      "40815992",
+      "33780898",
+      "39423771",
+      "39978110",
+      "32145645",
+      "40518729",
+      "41051788",
+      "33687890",
+      "40037026",
+      "39509603",
+      "28339196",
+      "39119716",
+      "40202531",
+      "39388374",
+      "39476572",
+      "39178382",
+      "34731760",
+      "39914223",
+      "39745073",
+      "39816690",
+      "38759458",
+      "39320981",
+      "40118821",
+      "39323022",
+      "31708096",
+      "41066447",
+      "40730065",
+      "40138993",
+      "38687638",
+      "39491427",
+      "40252382",
+      "32883633",
+      "39892097",
+      "40186895",
+      "39098906",
+      "38838918",
+      "39709037",
+      "40963416",
+      "31804827",
+      "39523308",
+      "39189384",
+      "38749341",
+      "39348183",
+      "40398152",
+      "39306629",
+      "41240398",
+      "34864330",
+      "41329866",
+      "40531929",
+      "39570797",
+      "39745064",
+      "39889450",
+      "40747902",
+      "40410168",
+      "39089850",
+      "38177131",
+      "40960846"
+    ],
+    "review": [
+      "38913763",
+      "33687890"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38913763",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://pubs.acs.org/jmcmar/article-lookup/doi/10.1021/acs.jmedchem.4c00883",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

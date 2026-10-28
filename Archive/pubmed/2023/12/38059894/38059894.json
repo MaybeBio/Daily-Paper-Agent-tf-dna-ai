@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "38059894",
+    "doi": "10.18632/aging.205294",
+    "title": "Comprehensive analysis reveals key genes and environmental toxin exposures underlying treatment response in ulcerative colitis based on in-silico analysis and Mendelian randomization."
+  },
+  "content": {
+    "abstract": "BACKGROUND: UC is increasingly prevalent worldwide and represents a significant global disease burden. Although medical therapeutics are employed, they often fall short of being optimal, leaving patients struggling with treatment non-responsiveness and many related complications. MATERIALS AND METHODS: The study utilized gene microarray data and clinical information from GEO. Gene enrichment and differential expression analyses were conducted using Metascape and Limma, respectively. Lasso Regression Algorithm was constructed using glmnet and heat maps were generated using pheatmap. ROC curves were used to assess diagnostic parameter capability, while XSum was employed to screen for small-molecule drugs exacerbating UC. Molecular docking was carried out using Autodock Vina. The study also performed Mendelian randomization analysis based on TwoSampleMR and used CTD to investigate the relationship between exposure to environmental chemical toxicants and UC therapy responsiveness. RESULTS: Six genes (ELL2, DAPP1, SAMD9L, CD38, IGSF6, and LYN) were found to be significantly overexpressed in UC patient samples that did not respond to multiple therapies. Lasso analysis identified ELL2 and DAPP1 as key genes influencing UC treatment response. Both genes accurately predicted intestinal inflammation in UC and impacted the immunological infiltration status. Clofibrate showed therapeutic potential for UC by binding to ELL2 and DAPP1 proteins. The study also reviews environmental toxins and drug exposures that could impact UC progression. CONCLUSIONS: We used microarray technology to identify DAPP1 and ELL2 as key genes that impact UC treatment response and inflammatory progression. Clofibrate was identified as a promising UC treatment. Our review also highlights the impact of environmental toxins on UC treatment response, providing valuable insights for personalized clinical management.",
+    "keywords": [
+      "bioinformatics",
+      "biomarker",
+      "genomics",
+      "microarray",
+      "ulcerative colitis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colitis, Ulcerative/drug therapy/genetics/diagnosis",
+      "Molecular Docking Simulation",
+      "Clofibrate/therapeutic use",
+      "Mendelian Randomization Analysis",
+      "Microarray Analysis",
+      "Transcriptional Elongation Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Yizhou",
+        "Liu, Jie",
+        "Liang, Dingbao"
+      ],
+      "short_names": [
+        "Huang Y",
+        "Liu J",
+        "Liang D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, The PLA Navy Anqing Hospital, Anqing 246000, Anhui Province, China.",
+        "Department of Gastroenterology, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230026, Anhui Province, China.",
+        "Department of Gastroenterology, The PLA Navy Anqing Hospital, Anqing 246000, Anhui Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Yizhou",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The PLA Navy Anqing Hospital, Anqing 246000, Anhui Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jie",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230026, Anhui Province, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Dingbao",
+        "short_name": "Liang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The PLA Navy Anqing Hospital, Anqing 246000, Anhui Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Aging"
+    ],
+    "journal_abbrev": [
+      "Aging (Albany NY)"
+    ],
+    "pub_date": "2023 Dec 4",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/07 12:42",
+    "fetched_at": "2026-10-04 22:31:05"
+  },
+  "links": {
+    "cites": [
+      "41300794",
+      "41258556",
+      "40991071",
+      "39170615"
+    ],
+    "refs": [
+      "37385655",
+      "36927391",
+      "36757135",
+      "36265525",
+      "36192482",
+      "36125159",
+      "35790774",
+      "35712071",
+      "35489324",
+      "35487235",
+      "35134967",
+      "34943601",
+      "34747340",
+      "34636837",
+      "34605806",
+      "34409654",
+      "34298111",
+      "34297797",
+      "34278794",
+      "34158745",
+      "33766510",
+      "33762374",
+      "33689803",
+      "33673180",
+      "33634990",
+      "33545427",
+      "33393624",
+      "33363156",
+      "33319055",
+      "33193047",
+      "33151290",
+      "33148393",
+      "33121686",
+      "33068428",
+      "32945383",
+      "32913180",
+      "32878103",
+      "32570388",
+      "32536926",
+      "32416212",
+      "32389666",
+      "32274301",
+      "32224703",
+      "31921619",
+      "31694526",
+      "31570507",
+      "31562896",
+      "31553834",
+      "31553833",
+      "31498003",
+      "31443682",
+      "30947569",
+      "30944313",
+      "30837080",
+      "30728858",
+      "30715224",
+      "30405234",
+      "30060939",
+      "29912392",
+      "29040430",
+      "28620098",
+      "28573592",
+      "27866974",
+      "27687496",
+      "27008011",
+      "26882474",
+      "25875604",
+      "25605792",
+      "24911630",
+      "24836575",
+      "23964932",
+      "23714547",
+      "23259851",
+      "22316170",
+      "22300077",
+      "22300070",
+      "22116831",
+      "20824819",
+      "20576703",
+      "20231854",
+      "17371232",
+      "16632515",
+      "16177252"
+    ],
+    "similar": [
+      "38059894",
+      "37539055",
+      "37782162",
+      "37287987",
+      "36576506",
+      "38274809",
+      "36419192",
+      "38144565",
+      "38902425",
+      "32950577",
+      "36388363",
+      "36860851",
+      "33299870",
+      "38302916",
+      "36742304",
+      "37090740",
+      "34592880",
+      "35860271",
+      "36389705",
+      "37889323",
+      "32938944",
+      "38024534",
+      "36479126",
+      "26199991",
+      "38269750",
+      "35959356",
+      "37322958",
+      "38656456",
+      "33185247",
+      "37960728",
+      "33132649",
+      "38162651",
+      "36445533",
+      "37957905",
+      "34731452",
+      "32628751",
+      "38664443",
+      "37216777",
+      "23885139",
+      "36757135",
+      "30327138",
+      "34680872",
+      "34997010",
+      "38615385",
+      "38433839",
+      "38070204",
+      "28132889",
+      "33845143",
+      "38065859",
+      "37530128",
+      "38707907",
+      "37904419",
+      "34221084",
+      "38814907",
+      "33132321",
+      "38537445",
+      "38043755",
+      "37055577",
+      "33987007",
+      "38448514",
+      "38849409",
+      "36483809",
+      "38103512",
+      "37900131",
+      "36647064",
+      "32190668",
+      "37161415",
+      "38457365",
+      "38250142",
+      "33409535",
+      "38319729",
+      "38510272",
+      "36845139",
+      "35392084",
+      "37961863",
+      "32570281",
+      "38488031",
+      "25182475",
+      "37843347",
+      "37638002",
+      "38905376",
+      "38805906",
+      "34349502",
+      "36382627",
+      "25886994",
+      "35777121",
+      "38319411",
+      "35388762",
+      "36631011",
+      "37080716",
+      "37055495",
+      "37443022",
+      "38550602",
+      "38831059"
+    ],
+    "review": [
+      "38059894",
+      "37539055",
+      "30327138",
+      "37900131"
+    ],
+    "pmc": [
+      "10756092"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.aging-us.com/full/205294",
+        "provider": "Impact Journals, LLC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ulcerativecolitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ulcerative Colitis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38059894/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38059894",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD38-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2785",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

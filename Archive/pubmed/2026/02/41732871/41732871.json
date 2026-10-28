@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "41732871",
+    "doi": "10.1111/cbdd.70262",
+    "title": "Epigallocatechin Gallate, Resveratrol, and Triptolide Are Candidate Natural Drugs Which Target Huh Proteins in Atherosclerosis Pathogenesis."
+  },
+  "content": {
+    "abstract": "The aim of this study was to screen and validate hub genes involved in atherosclerosis (AS) pathogenesis and explore potential natural drugs. The differentially expressed genes (DEGs) associated with AS were collected based on microarray data. Functional enrichment analysis was performed using the \"clusterProfiler\" R package. The protein-protein interaction (PPI) network was constructed using the STRING database, and the CytoHubba plug-in in the Cytoscape 3.9.0 software was used to identify hub target genes. The diagnostic efficacy of the hub gene was evaluated using receiver operating characteristic curve. Molecular docking was used to screen out naturally small molecules with potential therapeutic effects, and their binding relationship was further validated by molecular dynamics simulation and cellular thermal shift assay. Human umbilical vein endothelial cells (HUVECs) were induced by oxidizing low-density lipoprotein (ox-LDL) in vitro. After treatment, cell counting kit-8 assay and lactate dehydrogenase (LDH) release assay were used to evaluate cell viability. Apoptosis was analyzed by flow cytometry. The levels of reactive oxygen species (ROS), superoxide dismutase (SOD), and malondialdehyde (MDA) were detected to evaluate the oxidative stress. The levels of tumor necrosis factor (TNF-alpha), interleukin-6 (IL-6), and interleukin-1beta (IL-1beta) were detected by enzyme-linked immunosorbent assay (ELISA). Reverse transcription quantitative polymerase chain reaction (RT-qPCR) and Western blot were used to detect the expression change of hub target genes. In this study, TNF, toll-like receptor 4 (TLR4), and signal transducer and activator of transcription 1 (STAT1) were identified as the hub targets in AS pathogenesis. They had high specificity and sensitivity for the diagnosis of AS. Importantly, epigallocatechin gallate (EGCG), resveratrol (RSV), and triptolide (TP) showed good binding affinities with these hub targets. EGCG, RSV, or TP treatment could reduce ox-LDL-induced HUVECs injury by enhancing cell viability, reducing LDH release, inhibiting apoptosis, oxidative stress, and inflammatory response. In addition, EGCG, RSV, or TP therapy also reduced mRNA and protein expression levels of TNF, TLR4, and STAT1 in HUVECs. In summary, EGCG, RSV, and TP may be naturally active small molecules for AS treatment. The mechanism may be associated with the regulation of endothelial cell inflammation and injury. The novelty of the present work was that it systematically identified TNF, TLR4, and STAT1 as key hub targets in AS pathogenesis through integrated bioinformatics analysis and experimental validation, and further demonstrated that EGCG, RSV, and TP may exert therapeutic effects on AS.",
+    "keywords": [
+      "atherosclerosis",
+      "epigallocatechin gallate",
+      "resveratrol",
+      "triptolide"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Resveratrol/pharmacology/chemistry",
+      "Human Umbilical Vein Endothelial Cells",
+      "*Catechin/analogs & derivatives/pharmacology/chemistry/metabolism",
+      "*Atherosclerosis/metabolism/drug therapy/pathology",
+      "Apoptosis/drug effects",
+      "*Phenanthrenes/pharmacology/chemistry/metabolism",
+      "*Diterpenes/pharmacology/chemistry/metabolism",
+      "Molecular Docking Simulation",
+      "Lipoproteins, LDL",
+      "STAT1 Transcription Factor/metabolism/genetics",
+      "Reactive Oxygen Species/metabolism",
+      "Protein Interaction Maps/drug effects",
+      "Cell Survival/drug effects",
+      "*Stilbenes/pharmacology/chemistry",
+      "Molecular Dynamics Simulation",
+      "Tumor Necrosis Factor-alpha/metabolism/genetics",
+      "Oxidative Stress/drug effects",
+      "*Biological Products/pharmacology/chemistry",
+      "Superoxide Dismutase/metabolism",
+      "Epoxy Compounds"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Xiaoshan",
+        "Nie, Yuanyuan",
+        "Zhang, Hongshen",
+        "Zhang, Yue",
+        "Zhou, Hanyun"
+      ],
+      "short_names": [
+        "Zhu X",
+        "Nie Y",
+        "Zhang H",
+        "Zhang Y",
+        "Zhou H"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-2356-090X",
+        "ORCID: 0009-0004-1621-1950",
+        "ORCID: 0009-0004-8723-5757",
+        "ORCID: 0009-0003-6845-448X"
+      ],
+      "affiliations": [
+        "Department of Cardiology, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Sciences, Xiangyang, Hubei, China.",
+        "Department of Cardiology, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Sciences, Xiangyang, Hubei, China.",
+        "Department of Cardiology, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Sciences, Xiangyang, Hubei, China.",
+        "Department of Cardiology, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Sciences, Xiangyang, Hubei, China.",
+        "Department of Cardiology, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Sciences, Xiangyang, Hubei, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Xiaoshan",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Sciences, Xiangyang, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Nie, Yuanyuan",
+        "short_name": "Nie Y",
+        "identifiers": [
+          "0009-0006-2356-090X"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Sciences, Xiangyang, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hongshen",
+        "short_name": "Zhang H",
+        "identifiers": [
+          "0009-0004-1621-1950"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Sciences, Xiangyang, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yue",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0009-0004-8723-5757"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Sciences, Xiangyang, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Hanyun",
+        "short_name": "Zhou H",
+        "identifiers": [
+          "0009-0003-6845-448X"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Sciences, Xiangyang, Hubei, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical biology & drug design"
+    ],
+    "journal_abbrev": [
+      "Chem Biol Drug Des"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/24 06:33",
+    "fetched_at": "2026-10-01 14:55:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41732871",
+      "34369277",
+      "34983301",
+      "40679551",
+      "32990894",
+      "30064139",
+      "32401923",
+      "39488873",
+      "38951468",
+      "40916281",
+      "33174139",
+      "35580464",
+      "38679696",
+      "39023830",
+      "32329448",
+      "35736860",
+      "32947021",
+      "30901320",
+      "39742023",
+      "32345778",
+      "33298736",
+      "40380246",
+      "33300444",
+      "39419008",
+      "41536146",
+      "36683505",
+      "35024180",
+      "28407763",
+      "33573560",
+      "36733404",
+      "31356547",
+      "38296567",
+      "30890405",
+      "40197419",
+      "33526034",
+      "42365409",
+      "30380512",
+      "39346078",
+      "33761622",
+      "42011616",
+      "41593181",
+      "34368883",
+      "31865360",
+      "35486473",
+      "27776235",
+      "25382724",
+      "37572566",
+      "34882112",
+      "33621197",
+      "37088766",
+      "36683504",
+      "31054453",
+      "39037459",
+      "37093091",
+      "29512681",
+      "30721172",
+      "28942440",
+      "40836352",
+      "40664965",
+      "36336926",
+      "41288681",
+      "29207192",
+      "26679104",
+      "40903063",
+      "31146723",
+      "35817886",
+      "32016996",
+      "23358928",
+      "35417048",
+      "37904691",
+      "34662522",
+      "36617937",
+      "39856662",
+      "41508240",
+      "41963573",
+      "36585554",
+      "33892646",
+      "33818551",
+      "29611404",
+      "34369900",
+      "26648562",
+      "40289388",
+      "41009706",
+      "40437527",
+      "34649540",
+      "31449974",
+      "32770325",
+      "28975964",
+      "39177922",
+      "37399609",
+      "33869778",
+      "32072428",
+      "40634934",
+      "33932991",
+      "33750217",
+      "40461235",
+      "32626987",
+      "34147657",
+      "41533020",
+      "41057849"
+    ],
+    "review": [
+      "41732871",
+      "35024180"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/atherosclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atherosclerosis"
+      },
+      {
+        "url": "https://doi.org/10.1111/cbdd.70262",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

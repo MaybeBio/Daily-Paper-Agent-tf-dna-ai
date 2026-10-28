@@ -1,0 +1,559 @@
+{
+  "identity": {
+    "pmid": "39191772",
+    "doi": "10.1038/s41467-024-51529-w",
+    "title": "Cell-free DNA from germline TP53 mutation carriers reflect cancer-like fragmentation patterns."
+  },
+  "content": {
+    "abstract": "Germline pathogenic TP53 variants predispose individuals to a high lifetime risk of developing multiple cancers and are the hallmark feature of Li-Fraumeni syndrome (LFS). Our group has previously shown that LFS patients harbor shorter plasma cell-free DNA fragmentation; independent of cancer status. To understand the functional underpinning of cfDNA fragmentation in LFS, we conducted a fragmentomic analysis of 199 cfDNA samples from 82 TP53 mutation carriers and 30 healthy TP53-wildtype controls. We find that LFS individuals exhibit an increased prevalence of A/T nucleotides at fragment ends, dysregulated nucleosome positioning at p53 binding sites, and loci-specific changes in chromatin accessibility at development-associated transcription factor binding sites and at cancer-associated open chromatin regions. Machine learning classification resulted in robust differentiation between TP53 mutant versus wildtype cfDNA samples (AUC-ROC = 0.710-1.000) and intra-patient longitudinal analysis of ctDNA fragmentation signal enabled early cancer detection. These results suggest that cfDNA fragmentation may be a useful diagnostic tool in LFS patients and provides an important baseline for cancer early detection.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Tumor Suppressor Protein p53/genetics",
+      "*Germ-Line Mutation",
+      "Male",
+      "Female",
+      "*Li-Fraumeni Syndrome/genetics",
+      "*Cell-Free Nucleic Acids/genetics/blood",
+      "Adult",
+      "*DNA Fragmentation",
+      "Young Adult",
+      "Middle Aged",
+      "Circulating Tumor DNA/genetics/blood",
+      "Adolescent",
+      "Neoplasms/genetics/pathology",
+      "Chromatin/genetics/metabolism",
+      "Machine Learning",
+      "Heterozygote",
+      "Child",
+      "Nucleosomes/metabolism/genetics",
+      "Early Detection of Cancer"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wong, Derek",
+        "Tageldein, Maha",
+        "Luo, Ping",
+        "Ensminger, Erik",
+        "Bruce, Jeffrey",
+        "Oldfield, Leslie",
+        "Gong, Haifan",
+        "Fischer, Nicholas William",
+        "Laverty, Brianne",
+        "Subasri, Vallijah",
+        "Davidson, Scott",
+        "Khan, Reem",
+        "Villani, Anita",
+        "Shlien, Adam",
+        "Kim, Raymond H",
+        "Malkin, David",
+        "Pugh, Trevor J"
+      ],
+      "short_names": [
+        "Wong D",
+        "Tageldein M",
+        "Luo P",
+        "Ensminger E",
+        "Bruce J",
+        "Oldfield L",
+        "Gong H",
+        "Fischer NW",
+        "Laverty B",
+        "Subasri V",
+        "Davidson S",
+        "Khan R",
+        "Villani A",
+        "Shlien A",
+        "Kim RH",
+        "Malkin D",
+        "Pugh TJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0165-0828",
+        "ORCID: 0000-0002-0039-747X",
+        "ORCID: 0000-0001-5237-5179",
+        "ORCID: 0000-0003-4672-0532",
+        "ORCID: 0000-0002-6584-877X",
+        "ORCID: 0000-0002-0368-5370",
+        "ORCID: 0000-0002-2147-8674",
+        "ORCID: 0000-0001-5752-9763",
+        "ORCID: 0000-0002-8073-5888"
+      ],
+      "affiliations": [
+        "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada.",
+        "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada.",
+        "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada.",
+        "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada.",
+        "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada.",
+        "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada.",
+        "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada.",
+        "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada.",
+        "The Hospital for Sick Children, University of Toronto, Toronto, Ontario, Canada.",
+        "The Hospital for Sick Children, University of Toronto, Toronto, Ontario, Canada.",
+        "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada.",
+        "The Hospital for Sick Children, University of Toronto, Toronto, Ontario, Canada.",
+        "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada.",
+        "The Hospital for Sick Children, University of Toronto, Toronto, Ontario, Canada.",
+        "Vector Institute, Toronto, Ontario, Canada.",
+        "Genetics and Genome Biology, The Hospital for Sick Children Research Institute, Toronto, Ontario, Canada.",
+        "Department of Pediatrics, University of Toronto, Torotno, Ontario, Canada.",
+        "Genetics and Genome Biology, The Hospital for Sick Children Research Institute, Toronto, Ontario, Canada.",
+        "Department of Pediatrics, University of Toronto, Torotno, Ontario, Canada.",
+        "Genetics and Genome Biology, The Hospital for Sick Children Research Institute, Toronto, Ontario, Canada.",
+        "Division of Hematology/Oncology, The Hospital for Sick Children, Toroton, Ontario, Canada.",
+        "Genetics and Genome Biology, The Hospital for Sick Children Research Institute, Toronto, Ontario, Canada.",
+        "Department of Pediatrics, University of Toronto, Torotno, Ontario, Canada.",
+        "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada. Raymond.Kim@uhn.ca.",
+        "The Hospital for Sick Children, University of Toronto, Toronto, Ontario, Canada. Raymond.Kim@uhn.ca.",
+        "Toronto General Hospital Research Institute, Toronto, Ontario, Canada. Raymond.Kim@uhn.ca.",
+        "Ontario Institute of Cancer Research, Toronto, Ontario, Canada. Raymond.Kim@uhn.ca.",
+        "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada. david.malkin@sickkids.ca.",
+        "Department of Pediatrics, University of Toronto, Torotno, Ontario, Canada. david.malkin@sickkids.ca.",
+        "Toronto General Hospital Research Institute, Toronto, Ontario, Canada. david.malkin@sickkids.ca.",
+        "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada. trevor.pugh@utoronto.ca.",
+        "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada. trevor.pugh@utoronto.ca.",
+        "Ontario Institute of Cancer Research, Toronto, Ontario, Canada. trevor.pugh@utoronto.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wong, Derek",
+        "short_name": "Wong D",
+        "identifiers": [],
+        "affiliations": [
+          "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Tageldein, Maha",
+        "short_name": "Tageldein M",
+        "identifiers": [
+          "0000-0002-0165-0828"
+        ],
+        "affiliations": [
+          "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada.",
+          "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Luo, Ping",
+        "short_name": "Luo P",
+        "identifiers": [
+          "0000-0002-0039-747X"
+        ],
+        "affiliations": [
+          "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Ensminger, Erik",
+        "short_name": "Ensminger E",
+        "identifiers": [
+          "0000-0001-5237-5179"
+        ],
+        "affiliations": [
+          "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada.",
+          "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Bruce, Jeffrey",
+        "short_name": "Bruce J",
+        "identifiers": [],
+        "affiliations": [
+          "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Oldfield, Leslie",
+        "short_name": "Oldfield L",
+        "identifiers": [],
+        "affiliations": [
+          "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Gong, Haifan",
+        "short_name": "Gong H",
+        "identifiers": [],
+        "affiliations": [
+          "The Hospital for Sick Children, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Fischer, Nicholas William",
+        "short_name": "Fischer NW",
+        "identifiers": [
+          "0000-0003-4672-0532"
+        ],
+        "affiliations": [
+          "The Hospital for Sick Children, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Laverty, Brianne",
+        "short_name": "Laverty B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada.",
+          "The Hospital for Sick Children, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Subasri, Vallijah",
+        "short_name": "Subasri V",
+        "identifiers": [
+          "0000-0002-6584-877X"
+        ],
+        "affiliations": [
+          "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada.",
+          "The Hospital for Sick Children, University of Toronto, Toronto, Ontario, Canada.",
+          "Vector Institute, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Davidson, Scott",
+        "short_name": "Davidson S",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics and Genome Biology, The Hospital for Sick Children Research Institute, Toronto, Ontario, Canada.",
+          "Department of Pediatrics, University of Toronto, Torotno, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Khan, Reem",
+        "short_name": "Khan R",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics and Genome Biology, The Hospital for Sick Children Research Institute, Toronto, Ontario, Canada.",
+          "Department of Pediatrics, University of Toronto, Torotno, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Villani, Anita",
+        "short_name": "Villani A",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics and Genome Biology, The Hospital for Sick Children Research Institute, Toronto, Ontario, Canada.",
+          "Division of Hematology/Oncology, The Hospital for Sick Children, Toroton, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Shlien, Adam",
+        "short_name": "Shlien A",
+        "identifiers": [
+          "0000-0002-0368-5370"
+        ],
+        "affiliations": [
+          "Genetics and Genome Biology, The Hospital for Sick Children Research Institute, Toronto, Ontario, Canada.",
+          "Department of Pediatrics, University of Toronto, Torotno, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Kim, Raymond H",
+        "short_name": "Kim RH",
+        "identifiers": [
+          "0000-0002-2147-8674"
+        ],
+        "affiliations": [
+          "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada. Raymond.Kim@uhn.ca.",
+          "The Hospital for Sick Children, University of Toronto, Toronto, Ontario, Canada. Raymond.Kim@uhn.ca.",
+          "Toronto General Hospital Research Institute, Toronto, Ontario, Canada. Raymond.Kim@uhn.ca.",
+          "Ontario Institute of Cancer Research, Toronto, Ontario, Canada. Raymond.Kim@uhn.ca."
+        ]
+      },
+      {
+        "full_name": "Malkin, David",
+        "short_name": "Malkin D",
+        "identifiers": [
+          "0000-0001-5752-9763"
+        ],
+        "affiliations": [
+          "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada. david.malkin@sickkids.ca.",
+          "Department of Pediatrics, University of Toronto, Torotno, Ontario, Canada. david.malkin@sickkids.ca.",
+          "Toronto General Hospital Research Institute, Toronto, Ontario, Canada. david.malkin@sickkids.ca."
+        ]
+      },
+      {
+        "full_name": "Pugh, Trevor J",
+        "short_name": "Pugh TJ",
+        "identifiers": [
+          "0000-0002-8073-5888"
+        ],
+        "affiliations": [
+          "Princess Margaret Cancer Center, University Health Network, Toronto, Ontario, Canada. trevor.pugh@utoronto.ca.",
+          "Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada. trevor.pugh@utoronto.ca.",
+          "Ontario Institute of Cancer Research, Toronto, Ontario, Canada. trevor.pugh@utoronto.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Aug 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/28 02:56",
+    "fetched_at": "2026-09-30 01:48:35"
+  },
+  "links": {
+    "cites": [
+      "42509573",
+      "42103785",
+      "41957811",
+      "41572489",
+      "40904936",
+      "40841759",
+      "40796676",
+      "40507825",
+      "40102951"
+    ],
+    "refs": [
+      "38868715",
+      "37953260",
+      "37874259",
+      "36630480",
+      "36585449",
+      "36463275",
+      "35974385",
+      "35484288",
+      "34780712",
+      "34752217",
+      "34464388",
+      "34417454",
+      "34090364",
+      "34006390",
+      "33850132",
+      "33231677",
+      "33047872",
+      "33022220",
+      "32728217",
+      "32702132",
+      "32111602",
+      "32106815",
+      "31604930",
+      "31375813",
+      "31365877",
+      "31142840",
+      "31138115",
+      "31105275",
+      "30445619",
+      "30409772",
+      "30404863",
+      "30361341",
+      "30224644",
+      "30195581",
+      "29760053",
+      "28714958",
+      "28572266",
+      "28288132",
+      "28270529",
+      "28233803",
+      "27571261",
+      "27551116",
+      "27501770",
+      "27496084",
+      "26771485",
+      "26331536",
+      "26082798",
+      "26081108",
+      "26080815",
+      "25860607",
+      "24706533",
+      "24609383",
+      "24343302",
+      "24071852",
+      "23975435",
+      "23810203",
+      "23484829",
+      "23273920",
+      "23166509",
+      "21779515",
+      "21414208",
+      "19181738",
+      "17567834",
+      "17382889",
+      "17308077",
+      "15057824",
+      "12826609",
+      "11099028",
+      "7521539",
+      "1978757"
+    ],
+    "similar": [
+      "39191772",
+      "24122735",
+      "20522432",
+      "34780712",
+      "40542714",
+      "27496084",
+      "27501770",
+      "37377903",
+      "28988289",
+      "28369373",
+      "30240537",
+      "34633580",
+      "30974190",
+      "34529667",
+      "41232303",
+      "17567834",
+      "40543052",
+      "22507745",
+      "26956143",
+      "37874259",
+      "40858599",
+      "29581140",
+      "25313051",
+      "21305319",
+      "41498535",
+      "41370968",
+      "32557628",
+      "31719099",
+      "28114597",
+      "24775443",
+      "39810221",
+      "29529297",
+      "41457833",
+      "32958587",
+      "28573494",
+      "38743206",
+      "17318340",
+      "41166276",
+      "23570263",
+      "27374712",
+      "40840234",
+      "25981898",
+      "27714481",
+      "29076966",
+      "14583457",
+      "31081129",
+      "28279309",
+      "30086788",
+      "21484931",
+      "34240179",
+      "32675277",
+      "24706533",
+      "21601526",
+      "34198491",
+      "35033608",
+      "19602465",
+      "27297285",
+      "23667851",
+      "29392648",
+      "29070607",
+      "21688173",
+      "35246108",
+      "28973705",
+      "39235550",
+      "15298965",
+      "31719169",
+      "28861920",
+      "31778928",
+      "32998877",
+      "34863587",
+      "38316675",
+      "32966936",
+      "28270529",
+      "28137790",
+      "23056559",
+      "23612572",
+      "40663513",
+      "39060302",
+      "39993798",
+      "40920686",
+      "12619118",
+      "15951970",
+      "39406232",
+      "28509937",
+      "33245408",
+      "26823150",
+      "39673796",
+      "26086041",
+      "41442053",
+      "38692744",
+      "30886117",
+      "23580068",
+      "26663043",
+      "31490007",
+      "34478609",
+      "30607672",
+      "36553570",
+      "20586629",
+      "10660104",
+      "16736287"
+    ],
+    "review": [
+      "39191772",
+      "40542714",
+      "30240537",
+      "29581140",
+      "41166276",
+      "29076966",
+      "24706533",
+      "39235550",
+      "38316675",
+      "32966936",
+      "28270529",
+      "12619118",
+      "38692744"
+    ],
+    "pmc": [
+      "11349871"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-51529-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39191772/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:39191772",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

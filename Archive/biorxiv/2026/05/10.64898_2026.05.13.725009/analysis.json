@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.05.13.725009",
+  "title": "MIMOSA: A model-independent framework for comparing transcription factor binding site motifs",
+  "authors": "Anton V. Tsukanov; Victor G. Levitsky",
+  "journal": "bioRxiv",
+  "published_date": "2026-05-17",
+  "window": {
+    "start": "2026-05-11",
+    "end": "2026-05-17"
+  },
+  "score": 6,
+  "one_liner_zh": "提出模型无关的TF结合位点基序比较框架MIMOSA，通过识别谱比较实现跨模型基序相似性评估，虽聚焦TF-DNA基序比较但缺乏三维互作建模与AI/物理模拟方法，属于广义TF-DNA互作分析工具。",
+  "abstract": "Motivation Transcription factors (TFs) regulate gene expression by binding specific DNA sequences, which are commonly represented by motif models. Although position weight matrices (PWMs) remain the dominant motif representation, alternative models, such as Markov models, can capture interpositional dependencies and may provide higher predictive performance. Existing motif comparison tools, however, are designed mainly for PWMs or require reducing motifs to position weight matrices or position frequency matrices. This limits cross-model motif comparison, complicates interpretation of de novo motif discovery results, and hinders integration of diverse motif models into genomic analyses. Results We present MIMOSA (Model-Independent Motif Similarity Assessment), a model-independent framework for direct comparison of TF binding site (TFBS) motifs regardless of their mathematical representation. MIMOSA assesses motif similarity by comparing calibrated recognition profiles produced by different motif models on the same DNA sequence set, rather than by comparing motif parameters. In a cross-database benchmark on HOCOMOCO motifs, MIMOSA achieved retrieval performance comparable to established PWM-oriented tools, including Tomtom and MACRO-APE, with mean reciprocal rank (MRR) and Recall@ k close to the best-performing methods. Pairwise ranking comparisons showed that MIMOSA captures a similarity signal consistent with existing approaches while providing a model-independent comparison strategy. Applying MIMOSA to de novo ATF3 ChIP-seq motifs showed that recognition-profile comparison distinguished alternative spacer variants represented as separate PWMs from their integration within more flexible models such as BaMM and Slim. Thus, MIMOSA enables quantitative cross-model motif comparison and supports interpretation of motif heterogeneity in TFBS analyses. Availability and implementation MIMOSA is implemented in Python and is freely available at https://github.com/ubercomrade/mimosa .",
+  "abstract_zh": "动机 转录因子（TFs）通过结合特定DNA序列来调控基因表达，这些序列通常由基序模型表示。尽管位置权重矩阵（PWMs）仍是主要的基序表示方式，但替代模型（如马尔可夫模型）能够捕获位置间依赖性，并可能提供更高的预测性能。然而，现有的基序比较工具主要针对PWMs设计，或需要将基序简化为位置权重矩阵或位置频率矩阵。这限制了跨模型基序比较，使从头基序发现结果的解释复杂化，并阻碍了将多样基序模型整合到基因组分析中。结果 我们提出了MIMOSA（模型无关基序相似性评估），一个用于直接比较转录因子结合位点（TFBS）基序的模型无关框架，无论其数学表示形式如何。MIMOSA通过比较不同基序模型在同一DNA序列集上产生的校准识别谱来评估基序相似性，而非比较基序参数。在HOCOMOCO基序的跨数据库基准测试中，MIMOSA实现了与既定PWM导向工具（包括Tomtom和MACRO-APE）相当的检索性能，其平均倒数排名（MRR）和Recall@k接近最佳方法。成对排名比较显示，MIMOSA捕获了与现有方法一致的相似性信号，同时提供了模型无关的比较策略。将MIMOSA应用于从头ATF3 ChIP-seq基序表明，识别谱比较能够区分表示为独立PWMs的替代间隔变体与它们在更灵活模型（如BaMM和Slim）中的整合。因此，MIMOSA实现了定量跨模型基序比较，并支持TFBS分析中基序异质性的解释。可用性和实现 MIMOSA以Python实现，并可在https://github.com/ubercomrade/mimosa 免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.05.13.725009",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.13.725009",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.05.13.725009/index.html"
+}

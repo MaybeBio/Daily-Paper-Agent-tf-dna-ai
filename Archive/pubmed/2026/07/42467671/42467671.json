@@ -1,0 +1,218 @@
+{
+  "identity": {
+    "pmid": "42467671",
+    "doi": "10.1371/journal.pone.0344826",
+    "title": "What topological and geometric structure do biological foundation models learn? Evidence from 141 hypotheses."
+  },
+  "content": {
+    "abstract": "When biological foundation models like scGPT and Geneformer learn to process single-cell gene expression, what kind of geometric and topological structure forms in their internal representations? Is that structure biologically meaningful, or merely an artifact of training?. We address these questions through autonomous large-scale hypothesis screening: an AI-driven executor-brainstormer loop that proposed, tested, and refined 141 geometric and topological hypotheses across 52 iterations, covering persistent homology, manifold distances, cross-model alignment, community structure, directed topology, and more-all with explicit null controls and disjoint gene-pool splits. Three principal findings emerge. First, the models learn genuine geometric structure: gene embedding neighborhoods exhibit non-trivial topology (persistent homology significant in 11/12 transformer layers at p < 0.05 even in the weakest domain, and 12/12 in the other two), a multi-level distance hierarchy where manifold-aware metrics outperform Euclidean distance for identifying regulatory gene pairs, and graph-community partitions that track known transcription factor-target relationships. Second, this structure is shared across independently trained models: CCA alignment between scGPT and Geneformer yields canonical correlation of 0.80 and gene retrieval accuracy of 72%-yet no method among 19 tested could reliably recover gene-level correspondences, revealing that the models agree on the \"shape\" of gene space but not on precise gene placement. Third, the structure is more localized than it first appears: under the most stringent null controls (simultaneous auditing against all null families), robust signal concentrates in immune tissue, while lung and external-lung signals become fragile. These results-especially the carefully documented negatives among 141 hypotheses-calibrate what we can and cannot extract from biological model geometry, and demonstrate how autonomous screening can efficiently map the boundary between real structure and statistical artifact.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Models, Biological",
+      "Animals",
+      "Humans",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kendiukhov, Ihor"
+      ],
+      "short_names": [
+        "Kendiukhov I"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5342-1499"
+      ],
+      "affiliations": [
+        "Department of Computer Science, University of Tubingen, Tubingen, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kendiukhov, Ihor",
+        "short_name": "Kendiukhov I",
+        "identifiers": [
+          "0000-0001-5342-1499"
+        ],
+        "affiliations": [
+          "Department of Computer Science, University of Tübingen, Tübingen, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/17 19:17",
+    "fetched_at": "2026-10-02 01:51:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42420460",
+      "38844628",
+      "38409223",
+      "37258680",
+      "35549404",
+      "34949812",
+      "33208946",
+      "31907445",
+      "31340985",
+      "30476243",
+      "29409532",
+      "29087512",
+      "27898060",
+      "27571553",
+      "10802651"
+    ],
+    "similar": [
+      "42467671",
+      "42475469",
+      "42527907",
+      "42398561",
+      "42296381",
+      "42482180",
+      "42509463",
+      "36321557",
+      "42155660",
+      "18344248",
+      "42333095",
+      "23912807",
+      "42455615",
+      "42436356",
+      "19239685",
+      "42033879",
+      "40217132",
+      "42574980",
+      "41050338",
+      "28866497",
+      "42086551",
+      "33036834",
+      "24267485",
+      "39324410",
+      "41256511",
+      "39386549",
+      "22806945",
+      "42478094",
+      "29207477",
+      "22348444",
+      "42531328",
+      "41256895",
+      "22838153",
+      "42391079",
+      "37905130",
+      "24902720",
+      "39747327",
+      "42059479",
+      "19557139",
+      "42310357",
+      "38678389",
+      "42351883",
+      "32393369",
+      "22562756",
+      "26042329",
+      "41912385",
+      "16108707",
+      "38678944",
+      "16719927",
+      "41727141",
+      "41757283",
+      "17445265",
+      "38879931",
+      "39854240",
+      "42550759",
+      "42425052",
+      "40662821",
+      "27578239",
+      "26269925",
+      "37851522",
+      "25851063",
+      "34904892",
+      "40119464",
+      "36315544",
+      "16483359",
+      "42245005",
+      "41310253",
+      "41554051",
+      "39417321",
+      "17708768",
+      "11838236",
+      "33085409",
+      "42108634",
+      "32628677",
+      "42450091",
+      "41805524",
+      "41151526",
+      "39975293",
+      "26042330",
+      "30285765",
+      "26169480",
+      "42249309",
+      "38150480",
+      "40399818",
+      "41959137",
+      "18221564",
+      "42118199",
+      "40946667",
+      "41206950",
+      "30299652",
+      "27760135",
+      "36401576",
+      "33137083",
+      "41822751",
+      "41775092",
+      "39202107",
+      "40106407",
+      "40646507",
+      "40997018",
+      "41013188"
+    ],
+    "review": [
+      "42467671",
+      "36321557",
+      "42351883",
+      "26042329",
+      "41912385",
+      "26269925",
+      "11838236",
+      "26042330"
+    ],
+    "pmc": [
+      "13378983"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0344826",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42467671/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

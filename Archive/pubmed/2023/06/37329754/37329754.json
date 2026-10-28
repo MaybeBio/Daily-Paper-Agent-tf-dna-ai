@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "37329754",
+    "doi": "10.1016/j.phymed.2023.154929",
+    "title": "HnRNP A2/B1 as a potential anti-tumor target for triptolide based on a simplified thermal proteome profiling method using XGBoost."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Triptolide (TP) is a highly active natural medicinal ingredient with significant potential in anticancer. The strong cytotoxicity of this compound suggests that it may have a wide range of targets within cells. However, further target screening is required at this stage. Traditional drug target screening methods can be significantly optimized using artificial intelligence (AI). PURPOSE:  This study aimed to identify the direct protein targets and explain the multitarget action mechanism of the anti-tumor effect of TP with the help of AI. METHODS:  The CCK8, scratch test, and flow cytometry analysis were used to examine cell proliferation, migration, cell cycle, and apoptosis in tumor cells treated with TP in vitro. The anti-tumor effect of TP in vivo was evaluated by constructing a tumor model in nude mice. Furthermore, we established a simplified thermal proteome analysis (TPP) method based on XGBoost (X-TPP) to rapidly screen the direct targets of TP. RESULTS: We validated the effects of TP on protein targets through RNA immunoprecipitation and pathways by qPCR and Western blotting. TP significantly inhibited tumor cell proliferation and migration and promoted apoptosis in vitro. Continuous administration of TP to tumor mice can significantly suppress tumor tissue size. We verified that TP can affect the thermal stability of HnRNP A2/B1 and exert anti-tumor effects by inhibiting HnRNP A2/B1-PI3K-AKT pathway. Adding siRNA to silence HnRNP A2/B1 also significantly down-regulated expression of AKT and PI3K. CONCLUSION: The X-TPP method was used to show that TP regulates tumor cell activity through its potential interaction with HnRNP A2/B1.",
+    "keywords": [
+      "HnRNP A2/B1",
+      "Protein target",
+      "Triptolide",
+      "Xgboost"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Proteome",
+      "Proto-Oncogene Proteins c-akt/metabolism",
+      "Mice, Nude",
+      "Phosphatidylinositol 3-Kinases/metabolism",
+      "Artificial Intelligence",
+      "*Lung Neoplasms/pathology",
+      "Heterogeneous-Nuclear Ribonucleoprotein Group A-B",
+      "Diterpenes",
+      "Epoxy Compounds",
+      "Phenanthrenes"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Peng",
+        "Zhao, Pengcheng",
+        "Hu, Mingliang",
+        "Wang, Lili",
+        "Lei, Tong",
+        "Liu, Bin",
+        "Li, Li",
+        "Shi, Jianyu",
+        "Lu, Cheng"
+      ],
+      "short_names": [
+        "Chen P",
+        "Zhao P",
+        "Hu M",
+        "Wang L",
+        "Lei T",
+        "Liu B",
+        "Li L",
+        "Shi J",
+        "Lu C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Beijing Key Laboratory of Traditional Chinese Medicine Basic Research on Prevention and Treatment for Major Diseases, Experimental Research Center, China Academy of Chinese Medical Sciences, Beijing 100700, China.",
+        "School of Life Science, Northwestern Polytechnical University, Xi'an 710072, China.",
+        "Institute of Basic Research in Clinical Medicine, China Academy of Chinese Medical Sciences, Beijing 100700, China.",
+        "Institute of Basic Research in Clinical Medicine, China Academy of Chinese Medical Sciences, Beijing 100700, China.",
+        "Beijing Key Laboratory of Traditional Chinese Medicine Basic Research on Prevention and Treatment for Major Diseases, Experimental Research Center, China Academy of Chinese Medical Sciences, Beijing 100700, China.",
+        "Institute of Basic Research in Clinical Medicine, China Academy of Chinese Medical Sciences, Beijing 100700, China.",
+        "Institute of Basic Research in Clinical Medicine, China Academy of Chinese Medical Sciences, Beijing 100700, China.",
+        "School of Life Science, Northwestern Polytechnical University, Xi'an 710072, China. Electronic address: jianyushi@nwpu.edu.cn.",
+        "Institute of Basic Research in Clinical Medicine, China Academy of Chinese Medical Sciences, Beijing 100700, China. Electronic address: lv_cheng0816@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Peng",
+        "short_name": "Chen P",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Key Laboratory of Traditional Chinese Medicine Basic Research on Prevention and Treatment for Major Diseases, Experimental Research Center, China Academy of Chinese Medical Sciences, Beijing 100700, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Pengcheng",
+        "short_name": "Zhao P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Northwestern Polytechnical University, Xi'an 710072, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Mingliang",
+        "short_name": "Hu M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Basic Research in Clinical Medicine, China Academy of Chinese Medical Sciences, Beijing 100700, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lili",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Basic Research in Clinical Medicine, China Academy of Chinese Medical Sciences, Beijing 100700, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Tong",
+        "short_name": "Lei T",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Key Laboratory of Traditional Chinese Medicine Basic Research on Prevention and Treatment for Major Diseases, Experimental Research Center, China Academy of Chinese Medical Sciences, Beijing 100700, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Bin",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Basic Research in Clinical Medicine, China Academy of Chinese Medical Sciences, Beijing 100700, China."
+        ]
+      },
+      {
+        "full_name": "Li, Li",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Basic Research in Clinical Medicine, China Academy of Chinese Medical Sciences, Beijing 100700, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Jianyu",
+        "short_name": "Shi J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Northwestern Polytechnical University, Xi'an 710072, China. Electronic address: jianyushi@nwpu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lu, Cheng",
+        "short_name": "Lu C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Basic Research in Clinical Medicine, China Academy of Chinese Medical Sciences, Beijing 100700, China. Electronic address: lv_cheng0816@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2023 Aug",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/18 01:07",
+    "fetched_at": "2026-09-29 02:14:02"
+  },
+  "links": {
+    "cites": [
+      "41562626",
+      "41538148",
+      "40703632",
+      "40631551",
+      "40317435",
+      "39234662",
+      "39194493"
+    ],
+    "refs": [],
+    "similar": [
+      "37329754",
+      "29328485",
+      "29428961",
+      "31600493",
+      "23495120",
+      "24428777",
+      "23525071",
+      "18680105",
+      "17067748",
+      "21575478",
+      "20807810",
+      "17477362",
+      "29751524",
+      "24572810",
+      "34246740",
+      "26017221",
+      "36610163",
+      "19024322",
+      "21321999",
+      "31602905",
+      "11714531",
+      "26622731",
+      "28715819",
+      "25573072",
+      "36403742",
+      "35899176",
+      "32347017",
+      "22545132",
+      "19024320",
+      "28534966",
+      "29547514",
+      "25586062",
+      "27004407",
+      "30551496",
+      "31820522",
+      "28088493",
+      "35466883",
+      "29864943",
+      "19293927",
+      "24105357",
+      "32891122",
+      "23875954",
+      "30156009",
+      "31934113",
+      "10197602",
+      "26687646",
+      "36260180",
+      "29669316",
+      "11510693",
+      "31870840",
+      "27930981",
+      "34585588",
+      "33978839",
+      "27177149",
+      "30767161",
+      "32240636",
+      "25193113",
+      "30195873",
+      "33556477",
+      "30822475",
+      "26918909",
+      "36610131",
+      "31039533",
+      "30122757",
+      "28456796",
+      "28850024",
+      "21325072",
+      "37278172",
+      "20716340",
+      "30510404",
+      "29725263",
+      "11062142",
+      "15375589",
+      "24418537",
+      "19240172",
+      "34417976",
+      "20604928",
+      "36042181",
+      "24675500",
+      "30048971",
+      "36674871",
+      "21586613",
+      "8631886",
+      "34624736",
+      "32072334",
+      "9761751",
+      "35581606",
+      "30355923",
+      "15964549",
+      "36135759",
+      "33641529",
+      "36690307",
+      "33901239",
+      "37742922",
+      "36382280",
+      "37502508"
+    ],
+    "review": [
+      "37329754"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(23)00290-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

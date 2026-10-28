@@ -1,0 +1,442 @@
+{
+  "identity": {
+    "pmid": "39754188",
+    "doi": "10.1186/s13046-024-03254-x",
+    "title": "CYP3A5 promotes glioblastoma stemness and chemoresistance through fine-tuning NAD(+)/NADH ratio."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Glioblastoma multiforme (GBM) exhibits a cellular hierarchy with a subpopulation of stem-like cells known as glioblastoma stem cells (GSCs) that drive tumor growth and contribute to treatment resistance. NAD(H) emerges as a crucial factor influencing GSC maintenance through its involvement in diverse biological processes, including mitochondrial fitness and DNA damage repair. However, how GSCs leverage metabolic adaptation to obtain survival advantage remains elusive. METHODS: A multi-step process of machine learning algorithms was implemented to construct the glioma stemness-related score (GScore). Further in silico and patient tissue analyses validated the predictive ability of the GScore and identified a potential target, CYP3A5. Loss-of-function or gain-of-function genetic experiments were performed to assess the impact of CYP3A5 on the self-renewal and chemoresistance of GSCs both in vitro and in vivo. Mechanistic studies were conducted using nontargeted metabolomics, RNA-seq, seahorse, transmission electron microscopy, immunofluorescence, flow cytometry, ChIP‒qPCR, RT‒qPCR, western blotting, etc. The efficacy of pharmacological inhibitors of CYP3A5 was assessed in vivo. RESULTS: Based on the proposed GScore, we identify a GSC target CYP3A5, which is highly expressed in GSCs and temozolomide (TMZ)-resistant GBM patients. This elevated expression of CYP3A5 is attributed to transcription factor STAT3 activated by EGFR signaling or TMZ treatment. Depletion of CYP3A5 impairs self-renewal and TMZ resistance of GSCs. Mechanistically, CYP3A5 maintains mitochondrial fitness to promote GSC metabolic adaption through the NAD(+)/NADH-SIRT1-PGC1alpha axis. Additionally, CYP3A5 enhances the activity of NAD-dependent enzyme PARP to augment DNA damage repair. Treatment with CYP3A5 inhibitor alone or together with TMZ effectively suppresses tumor growth in vivo. CONCLUSION: Together, this study suggests that GSCs activate STAT3 to upregulate CYP3A5 to fine-tune NAD(+)/NADH for the enhancement of mitochondrial functions and DNA damage repair, thereby fueling tumor stemness and conferring TMZ resistance, respectively. Thus, CYP3A5 represents a promising target for GBM treatment.",
+    "keywords": [
+      "CYP3A5",
+      "Chemoresistance",
+      "Glioblastoma stem cell",
+      "Mitochondrion",
+      "NAD"
+    ],
+    "mesh_terms": [
+      "*Glioblastoma/pathology/metabolism/drug therapy/genetics",
+      "Humans",
+      "Mice",
+      "*Drug Resistance, Neoplasm",
+      "Animals",
+      "*Cytochrome P-450 CYP3A/metabolism/genetics",
+      "*Neoplastic Stem Cells/metabolism/pathology/drug effects",
+      "*NAD/metabolism",
+      "Temozolomide/pharmacology/therapeutic use",
+      "Brain Neoplasms/pathology/metabolism/genetics/drug therapy",
+      "Cell Line, Tumor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Wentao",
+        "Cui, Xiaoteng",
+        "Liu, Hongyu",
+        "Li, Ze",
+        "Chen, Xu",
+        "Wang, Qixue",
+        "Zhang, Guolu",
+        "Wen, Er",
+        "Lan, Jinxin",
+        "Chen, Junyi",
+        "Liu, Jialin",
+        "Kang, Chunsheng",
+        "Chen, Ling"
+      ],
+      "short_names": [
+        "Hu W",
+        "Cui X",
+        "Liu H",
+        "Li Z",
+        "Chen X",
+        "Wang Q",
+        "Zhang G",
+        "Wen E",
+        "Lan J",
+        "Chen J",
+        "Liu J",
+        "Kang C",
+        "Chen L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Medicine, Chinese PLA General Hospital, Nankai University, Beijing, China.",
+        "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China.",
+        "Laboratory of Neuro-oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Key Laboratory of Post-Neuro Injury Neuro-repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China.",
+        "School of Medicine, Chinese PLA General Hospital, Nankai University, Beijing, China.",
+        "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China.",
+        "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China.",
+        "China Medical University, Shenyang, Liaoning, China.",
+        "Laboratory of Neuro-oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Key Laboratory of Post-Neuro Injury Neuro-repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China.",
+        "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China.",
+        "School of Medicine, Chinese PLA General Hospital, Nankai University, Beijing, China.",
+        "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China.",
+        "School of Medicine, Chinese PLA General Hospital, Nankai University, Beijing, China.",
+        "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China.",
+        "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China.",
+        "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China. liu_00174@163.com.",
+        "Laboratory of Neuro-oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Tianjin, China. kang97061@tmu.edu.cn.",
+        "Key Laboratory of Post-Neuro Injury Neuro-repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China. kang97061@tmu.edu.cn.",
+        "School of Medicine, Chinese PLA General Hospital, Nankai University, Beijing, China. chen_ling301@163.com.",
+        "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China. chen_ling301@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Wentao",
+        "short_name": "Hu W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Chinese PLA General Hospital, Nankai University, Beijing, China.",
+          "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Xiaoteng",
+        "short_name": "Cui X",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuro-oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Tianjin, China.",
+          "Key Laboratory of Post-Neuro Injury Neuro-repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Hongyu",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Chinese PLA General Hospital, Nankai University, Beijing, China.",
+          "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ze",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xu",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "China Medical University, Shenyang, Liaoning, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qixue",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuro-oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Tianjin, China.",
+          "Key Laboratory of Post-Neuro Injury Neuro-repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Guolu",
+        "short_name": "Zhang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Er",
+        "short_name": "Wen E",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Chinese PLA General Hospital, Nankai University, Beijing, China.",
+          "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Lan, Jinxin",
+        "short_name": "Lan J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Chinese PLA General Hospital, Nankai University, Beijing, China.",
+          "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Junyi",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jialin",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China. liu_00174@163.com."
+        ]
+      },
+      {
+        "full_name": "Kang, Chunsheng",
+        "short_name": "Kang C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Neuro-oncology, Tianjin Neurological Institute, Tianjin Medical University General Hospital, Tianjin, China. kang97061@tmu.edu.cn.",
+          "Key Laboratory of Post-Neuro Injury Neuro-repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin, China. kang97061@tmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Ling",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Chinese PLA General Hospital, Nankai University, Beijing, China. chen_ling301@163.com.",
+          "Department of Neurosurgery, Institute of Neurosurgery of Chinese PLA, Medical School of Chinese PLA, Chinese PLA General Hospital, Beijing, China. chen_ling301@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of experimental & clinical cancer research : CR"
+    ],
+    "journal_abbrev": [
+      "J Exp Clin Cancer Res"
+    ],
+    "pub_date": "2025 Jan 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/04 00:20",
+    "fetched_at": "2026-09-30 08:52:28"
+  },
+  "links": {
+    "cites": [
+      "42256526",
+      "42193077",
+      "41930350",
+      "41930324",
+      "41537447",
+      "40919131",
+      "40775789",
+      "40754534",
+      "40659633",
+      "40468460",
+      "40025525"
+    ],
+    "refs": [
+      "39143213",
+      "39111285",
+      "38701757",
+      "38377189",
+      "38354740",
+      "38143263",
+      "37793125",
+      "37679568",
+      "37651725",
+      "36841242",
+      "36527092",
+      "36394838",
+      "36359206",
+      "35710946",
+      "35580060",
+      "35122077",
+      "34996827",
+      "34903884",
+      "33910005",
+      "33855339",
+      "33163265",
+      "32916131",
+      "31965799",
+      "31105987",
+      "31019297",
+      "30631035",
+      "30258889",
+      "30185676",
+      "30042431",
+      "29625051",
+      "29453450",
+      "29260225",
+      "29253028",
+      "28920959",
+      "28919040",
+      "28854171",
+      "27930300",
+      "27706102",
+      "26855150",
+      "26365176",
+      "26118927",
+      "25649767",
+      "25586052",
+      "24900196",
+      "24135280",
+      "23001348",
+      "22899010",
+      "21900605",
+      "21481791",
+      "21402692",
+      "19262508",
+      "17112576",
+      "17051156",
+      "16829982",
+      "12756208"
+    ],
+    "similar": [
+      "39754188",
+      "38710703",
+      "36517590",
+      "35895752",
+      "33408780",
+      "29991446",
+      "35008590",
+      "39273014",
+      "39251990",
+      "24593254",
+      "31296906",
+      "37511047",
+      "39326139",
+      "24810059",
+      "36652263",
+      "33986188",
+      "31614149",
+      "39921260",
+      "40050992",
+      "35836243",
+      "29016925",
+      "38721826",
+      "31747975",
+      "31215502",
+      "30102952",
+      "34440646",
+      "33057597",
+      "40023134",
+      "30260647",
+      "36499683",
+      "31865606",
+      "36915208",
+      "39733437",
+      "30586549",
+      "31717924",
+      "38456228",
+      "22173583",
+      "23826381",
+      "24841897",
+      "37377608",
+      "31462285",
+      "38857832",
+      "39337661",
+      "34625658",
+      "33671112",
+      "38368287",
+      "39447031",
+      "38619743",
+      "39818986",
+      "30917935",
+      "39342418",
+      "33378970",
+      "28412969",
+      "39707501",
+      "38448392",
+      "40102981",
+      "38454344",
+      "39090107",
+      "39068621",
+      "35163465",
+      "39227950",
+      "32317280",
+      "30390339",
+      "25605243",
+      "28100038",
+      "30082680",
+      "27705931",
+      "37620410",
+      "31540977",
+      "37894860",
+      "32296580",
+      "39776018",
+      "40253386",
+      "29202181",
+      "24608791",
+      "30208561",
+      "26150336",
+      "39134023",
+      "38723526",
+      "40059829",
+      "31534499",
+      "39413902",
+      "26510911",
+      "37891669",
+      "31028540",
+      "26683773",
+      "23404835",
+      "39968701",
+      "26826202",
+      "38332576",
+      "30664175",
+      "26566863",
+      "37551745",
+      "32075484",
+      "31443114",
+      "39919036",
+      "24710409",
+      "26431379",
+      "32843056",
+      "39085511"
+    ],
+    "review": [
+      "39754188",
+      "39818986"
+    ],
+    "pmc": [
+      "11697892"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jeccr.biomedcentral.com/articles/10.1186/s13046-024-03254-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39754188/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse277539",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

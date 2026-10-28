@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "37565794",
+    "doi": "10.5152/tjg.2023.22346",
+    "title": "Predicting Duodenal Cancer Risk in Patients with Familial Adenomatous Polyposis Using Machine Learning Model."
+  },
+  "content": {
+    "abstract": "BACKGROUND/AIMS: The aim of this study was to both classify data of familial adenomatous polyposis patients with and without duode- nal cancer and to identify important genes that may be related to duodenal cancer by XGboost model. MATERIALS AND METHODS: The current study was performed using expression profile data from a series of duodenal samples from familial adenomatous polyposis patients to explore variations in the familial adenomatous polyposis duodenal adenoma-carcinoma sequence. The expression profiles obtained from cancerous, adenomatous, and normal tissues of 12 familial adenomatous polyposis patients with duodenal cancer and the tissues of 12 familial adenomatous polyposis patients without duodenal cancer were compared. The ElasticNet approach was utilized for the feature selection. Using 5-fold cross-validation, one of the machine learning approaches, XGboost, was utilized to classify duodenal cancer. Accuracy, balanced accuracy, sensitivity, specificity, positive predictive value, negative predictive value, and F1 score performance metrics were assessed for model performance. RESULTS: According to the variable importance obtained from the modeling, ADH1C, DEFA5, CPS1, SPP1, DMBT1, VCAN-AS1, APOB genes (cancer vs. adenoma); LOC399753, APOA4, MIR548X, and ADH1C genes (adenoma vs. adenoma); SNORD123, CEACAM6, SNORD78, ANXA10, SPINK1, and CPS1 (normal vs. adenoma) genes can be used as predictive biomarkers. CONCLUSIONS: The proposed model used in this study shows that the aforementioned genes can forecast the risk of duodenal cancer in patients with familial adenomatous polyposis. More comprehensive analyses should be performed in the future to assess the reliability of the genes determined.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Duodenal Neoplasms/genetics/pathology",
+      "Reproducibility of Results",
+      "*Adenomatous Polyposis Coli/complications/genetics",
+      "*Adenoma/genetics/pathology",
+      "Duodenum/pathology",
+      "Calcium-Binding Proteins",
+      "DNA-Binding Proteins",
+      "Tumor Suppressor Proteins",
+      "Trypsin Inhibitor, Kazal Pancreatic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Akbulut, Sami",
+        "Kucukakcali, Zeynep",
+        "Colak, Cemil"
+      ],
+      "short_names": [
+        "Akbulut S",
+        "Kucukakcali Z",
+        "Colak C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Surgery, Inonu University Faculty of Medicine, Malatya, Turkey; Department of Public Health, Inonu University Faculty of Medicine, Malatya, Turkey; Department of Biostatistics and Medical Informatics, Inonu University Faculty of Medicine, Malatya, Turkey.",
+        "Department of Biostatistics and Medical Informatics, Inonu University Faculty of Medicine, Malatya, Turkey.",
+        "Department of Biostatistics and Medical Informatics, Inonu University Faculty of Medicine, Malatya, Turkey."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Akbulut, Sami",
+        "short_name": "Akbulut S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, İnönü University Faculty of Medicine, Malatya, Turkey; Department of Public Health, İnönü University Faculty of Medicine, Malatya, Turkey; Department of Biostatistics and Medical Informatics, İnönü University Faculty of Medicine, Malatya, Turkey."
+        ]
+      },
+      {
+        "full_name": "Küçükakçalı, Zeynep",
+        "short_name": "Küçükakçalı Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics and Medical Informatics, İnönü University Faculty of Medicine, Malatya, Turkey."
+        ]
+      },
+      {
+        "full_name": "Çolak, Cemil",
+        "short_name": "Çolak C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics and Medical Informatics, İnönü University Faculty of Medicine, Malatya, Turkey."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Turkish journal of gastroenterology : the official journal of Turkish Society of Gastroenterology"
+    ],
+    "journal_abbrev": [
+      "Turk J Gastroenterol"
+    ],
+    "pub_date": "2023 Oct",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/11 12:41",
+    "fetched_at": "2026-09-29 05:20:57"
+  },
+  "links": {
+    "cites": [
+      "40840111",
+      "40697222"
+    ],
+    "refs": [
+      "35238777",
+      "35189564",
+      "34026829",
+      "33709227",
+      "33124067",
+      "32702694",
+      "32626748",
+      "32507936",
+      "32245523",
+      "31744909",
+      "31211760",
+      "31070935",
+      "30597145",
+      "28978472",
+      "28786406",
+      "28533537",
+      "26221189",
+      "25469031",
+      "22265391",
+      "20979621",
+      "17720704",
+      "17604324",
+      "16569916",
+      "16454848",
+      "15951555",
+      "14960520",
+      "11684444"
+    ],
+    "similar": [
+      "37565794",
+      "31211760",
+      "26819281",
+      "7962621",
+      "28790112",
+      "29702101",
+      "15930344",
+      "9548099",
+      "15332030",
+      "9732948",
+      "23054214",
+      "34138799",
+      "14668598",
+      "32505560",
+      "10440612",
+      "15712184",
+      "19267112",
+      "25440680",
+      "29650924",
+      "15043293",
+      "10526267",
+      "11852337",
+      "10494676",
+      "2155842",
+      "30012100",
+      "19670132",
+      "32626748",
+      "22311120",
+      "21375864",
+      "7606737",
+      "10201489",
+      "9635818",
+      "7837198",
+      "37423767",
+      "1338090",
+      "9189100",
+      "8058711",
+      "10955728",
+      "11085495",
+      "10613470",
+      "1319835",
+      "31311010",
+      "8689172",
+      "1850640",
+      "8402056",
+      "7745323",
+      "28991077",
+      "2540589",
+      "17103055",
+      "11572176",
+      "34529357",
+      "10896627",
+      "29331402",
+      "2540590",
+      "27002448",
+      "12808618",
+      "24950262",
+      "17873900",
+      "23392141",
+      "2571019",
+      "8689171",
+      "8885351",
+      "27003997",
+      "8554128",
+      "30081000",
+      "18561922",
+      "10049420",
+      "11711728",
+      "11950808",
+      "33709227",
+      "16514568",
+      "15365086",
+      "15747076",
+      "2896968",
+      "15509689",
+      "2831708",
+      "19789369",
+      "30552312",
+      "1649584",
+      "21899713",
+      "11355321",
+      "16837629",
+      "10440601",
+      "18085615",
+      "15657662",
+      "36401146",
+      "9587561",
+      "2170464",
+      "11868006",
+      "18670349",
+      "17318339",
+      "15334634",
+      "6728225",
+      "15300576",
+      "15633546",
+      "8543313",
+      "29394742",
+      "1316858",
+      "14752072",
+      "17962858",
+      "35568653",
+      "29109117",
+      "38546397",
+      "38073344",
+      "32671795",
+      "32779085",
+      "38748972",
+      "30381803"
+    ],
+    "review": [
+      "37565794",
+      "10955728",
+      "34529357",
+      "11355321",
+      "9587561",
+      "17318339"
+    ],
+    "pmc": [
+      "10645292"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/intestinalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Intestinal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37565794/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37565794",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SPP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1077",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.5152/tjg.2023.22346",
+        "provider": "Aves Yayincilik",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

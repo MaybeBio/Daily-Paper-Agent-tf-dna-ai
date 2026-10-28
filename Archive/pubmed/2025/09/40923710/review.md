@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the claims as presented. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors propose that STN1 stabilizes CTC1 by competing with the E3 ubiquitin ligase TRIM32 for binding to the OB-G domain of CTC1, thereby preventing TRIM32-mediated ubiquitination and proteasomal degradation of CTC1. They further link this regulatory axis to cellular senescence, showing that TRIM32 overexpression promotes senescence in BJ fibroblasts, while STN1 counteracts this effect.
+- **Visible evidence base** Figures 1-6 and supplementary figures S1-S6 as described in the text; methods for cell culture, co-IP, pull-down, ubiquitination assays, CHX chase, SA-β-gal staining, RTCA, AlphaFold3 modeling, and GTEx data analysis.
+- **Missing materials affecting confidence** Actual figure images and raw data are not provided; only figure legends and text descriptions. Statistical details (exact p-values, n numbers, error bar definitions) are incomplete. Western blot quantification methods are described but raw blots are not shown. AlphaFold3 confidence scores and model validation metrics are not fully reported. GTEx analysis details (sample sizes per age group, covariates, statistical model) are not provided.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question in telomere biology and aging: how CST complex integrity is maintained post-translationally. The identification of TRIM32 as a novel E3 ligase for CTC1 and the proposed competitive mechanism with STN1 are potentially interesting findings. However, several technical concerns and gaps in evidence weaken the current support for the central claims. The mechanistic model relies heavily on AlphaFold3 predictions without experimental validation of the binding interface, and the functional link to senescence is correlative rather than causal in some key experiments. The manuscript would benefit from additional experiments to solidify the competitive binding model and to demonstrate specificity of TRIM32 action on CTC1 in the senescence phenotype.
+- **Who would be interested in the results, and why** Researchers in telomere biology, DNA replication and repair, ubiquitin signaling, and cellular aging. The findings could also be relevant to those studying CST-related genetic disorders such as Coats Plus syndrome and dyskeratosis congenita, as understanding CTC1 stability regulation may offer therapeutic angles.
+- **Major strengths** 1. Identification of TRIM32 as a previously unrecognized E3 ligase for CTC1 is novel and expands the known regulatory network of the CST complex. 2. The combination of in vivo and in vitro ubiquitination assays, along with mass spectrometry for site identification, provides a solid foundation for the ubiquitination claim. 3. The use of AlphaFold3 to predict the TRIM32-CTC1 interaction and the proposed competition with STN1 is a creative approach that generates testable hypotheses. 4. The connection to cellular senescence using primary BJ fibroblasts at different passage numbers adds physiological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic model
+  - **Claim pointer** "STN1 likely associates with the OB-G domain of CTC1, competing with TRIM32 for binding sites and thereby interfering with TRIM32-mediated ubiquitination of CTC1."
+  - **Evidence pointer** Figure 5 and AlphaFold3 predictions (Methods: AlphaFold3 Structural Analysis)
+  - **Concern** The competitive binding model is central to the paper's mechanism, but the evidence is indirect. The AlphaFold3 prediction is used to suggest that TRIM32-NHL and STN1-OB bind the same "cleft" motif on CTC1-OB-G, but no experimental validation (e.g., mutagenesis of the cleft residues, competitive binding assays, or structural studies) is provided. The co-IP data in Figure 5g show that STN1 reduces TRIM32-CTC1 interaction, but this could be due to steric effects or allosteric changes rather than direct competition for the same site. The claim that STN1 "competes" with TRIM32 is therefore not fully supported.
+  - **Why it matters** The proposed mechanism distinguishes this work from a simple description of TRIM32-mediated degradation. Without experimental evidence for direct competition, the model remains speculative, and the paper's novelty is diminished.
+  - **Resolution test** Provide mutagenesis of the predicted cleft residues on CTC1-OB-G and test whether this abolishes both STN1 and TRIM32 binding. Alternatively, perform competitive binding assays with purified proteins (e.g., ITC or SPR) to demonstrate direct competition. If the cleft is essential for both interactions, the model is strengthened.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional causality
+  - **Claim pointer** "TRIM32 promotes early senescence by stimulating CTC1 ubiquitin-mediated degradation in somatic cells."
+  - **Evidence pointer** Figure 6f-h
+  - **Concern** The rescue experiments in Figure 6f-h show that CTC1 K776R suppresses senescence markers more effectively than wild-type CTC1, but the effect is described as "comparatively weaker" for wild-type. This suggests that wild-type CTC1 also provides some rescue, which is not fully explained. If TRIM32's pro-senescence effect is mediated solely through CTC1 degradation, wild-type CTC1 should be degraded and provide minimal rescue. The partial rescue by wild-type CTC1 implies either incomplete degradation or additional TRIM32 targets contributing to senescence. The authors do not address this discrepancy or test whether TRIM32's effect on senescence is entirely dependent on CTC1 (e.g., by knocking down CTC1 in the rescue background).
+  - **Why it matters** The causal link between TRIM32-mediated CTC1 degradation and senescence is a key conclusion. If wild-type CTC1 partially rescues, the model is incomplete, and the specificity of TRIM32's action on CTC1 in this phenotype is not established.
+  - **Resolution test** Perform rescue experiments in a CTC1-knockdown background to eliminate endogenous CTC1, then compare the ability of wild-type vs. K776R CTC1 to rescue TRIM32-induced senescence. If K776R fully rescues and wild-type does not, the model is supported. Additionally, test whether TRIM32's pro-senescence effect is abolished in CTC1-knockout cells.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data interpretation
+  - **Claim pointer** "The expression of CTC1, STN1 and TEN1 gradually increased after the age of 60, coinciding with the onset of Lamin B1 decline, indicating that greater CST levels are required in older cells."
+  - **Evidence pointer** Figure 6a and S6a
+  - **Concern** The GTEx analysis is based on a small number of BJ fibroblast samples (as implied by the text, though exact n is not given). The interpretation that increased CST expression in older cells indicates a greater requirement is speculative. Alternative explanations include compensatory upregulation due to increased DNA damage or a stress response. The correlation with Lamin B1 decline is interesting but does not establish causality. The statistical analysis is not described, and it is unclear if the trends are significant.
+  - **Why it matters** This correlative data is used to support the physiological relevance of the TRIM32-STN1-CTC1 axis in aging. Overinterpretation of correlational data weakens the paper's conclusions.
+  - **Resolution test** Provide statistical analysis with exact p-values and sample sizes. Acknowledge the correlational nature and discuss alternative interpretations. If possible, validate the expression changes in an independent cohort or in a cellular model of aging.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical rigor
+  - **Claim pointer** "TRIM32 demonstrated the capacity to augment the ubiquitination levels of CTC1" (from mass spectrometry screening and Figure S3b)
+  - **Evidence pointer** Figure S3b and Methods: Mass Spectrometry
+  - **Concern** The mass spectrometry screening identified multiple E3 ligases, but the criteria for selecting TRIM32 for further study are not clearly stated. The text says TRIM32 "demonstrated the capacity to augment the ubiquitination levels of CTC1" in Figure S3b, but the details of this experiment (e.g., which E3 ligases were tested, how many replicates, quantification method) are not provided. The specificity of TRIM32 for CTC1 over other CST components is not addressed.
+  - **Why it matters** The identification of TRIM32 as the relevant E3 ligase is a foundational claim. Without clear evidence of the screening process and specificity, the reader cannot assess whether TRIM32 is the most relevant ligase or one of many.
+  - **Resolution test** Provide full details of the screening experiment, including the list of E3 ligases tested, the number of replicates, and the quantification method. Test whether TRIM32 ubiquitinates other CST components (STN1, TEN1) to establish specificity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 2b,c
+  - **Evidence pointer** Figure 2b,c
+  - **Issue** The text states "STN1OB substantially inhibited the degradation of Flag-CTC1, extending its half-life from 3.5 to 8 h, whereas STN1WT extended it to 10 h." The difference between STN1OB and STN1WT is not discussed. If STN1OB is nearly as effective as full-length STN1, this is an interesting finding that deserves comment.
+  - **Required correction** Add a sentence discussing the relative efficacy of STN1OB vs. STN1WT and its implications for the mechanism.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 6d,e
+  - **Evidence pointer** Figure 6d,e
+  - **Issue** The SA-β-gal staining is described as showing a "three-time increase" in senescent cells. The quantification method and statistical significance are not described in the text.
+  - **Required correction** Provide details on how senescent cells were counted, the number of fields analyzed, and the statistical test used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods: Statistical Methods
+  - **Evidence pointer** Methods: Statistical Methods
+  - **Issue** The statistical methods section is brief and does not specify which tests were used for which experiments. It also does not state the number of independent experiments for each figure.
+  - **Required correction** Expand the statistical methods to include specific tests for each experiment type and the number of replicates.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion states that TRIM32 is "the first ubiquitin E3 ligase associated with the human CST complex." This claim should be verified against the literature, as other E3 ligases may have been reported for CST components.
+  - **Required correction** Verify this claim and cite all relevant literature. If other ligases exist, adjust the statement accordingly.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of experimental validation for the AlphaFold3-predicted binding interface (R1-M1). 2. Incomplete rescue experiments that do not fully establish CTC1 specificity in TRIM32-induced senescence (R1-M2). 3. Insufficient statistical detail for the GTEx analysis and senescence quantification (R1-M3, R1-m2). 4. Unclear screening criteria for identifying TRIM32 as the E3 ligase (R1-M4).
+- **Assessment against Nature-style criteria** **Originality:** The identification of TRIM32 as a novel E3 ligase for CTC1 and the proposed competitive mechanism with STN1 are original contributions. However, the mechanism is not fully experimentally validated, which tempers the novelty. **Scientific importance:** The regulation of CST complex stability is important for understanding telomere maintenance and aging. The potential link to senescence is clinically relevant. **Interdisciplinary readership:** The topic bridges telomere biology, ubiquitin signaling, and aging research, which could attract a broad readership. **Technical soundness:** The core ubiquitination assays are generally well-executed, but the lack of validation for the binding model and incomplete rescue experiments are significant weaknesses. **Readability for nonspecialists:** The manuscript is generally well-written and accessible, though some sections (e.g., AlphaFold3 analysis) may be challenging for non-structural biologists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central claims are plausible and potentially important, but the current evidence does not fully establish the competitive binding mechanism or the causal link to senescence. Additional experiments are needed to solidify the model.
+
+## Risk / unsupported claims
+- The claim that STN1 and TRIM32 compete for the same binding site on CTC1 is unsupported by direct experimental evidence; it is based solely on AlphaFold3 predictions and indirect co-IP data.
+- The claim that increased CST expression in older cells "indicates that greater CST levels are required" is an overinterpretation of correlational GTEx data.
+- The claim that TRIM32's pro-senescence effect is mediated specifically through CTC1 degradation is not fully supported, as wild-type CTC1 provides partial rescue.
+- The claim that TRIM32 is "the first ubiquitin E3 ligase associated with the human CST complex" is not verified against the literature.

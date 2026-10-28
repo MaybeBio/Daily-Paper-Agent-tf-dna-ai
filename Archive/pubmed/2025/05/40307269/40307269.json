@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "40307269",
+    "doi": "10.1038/s41598-024-78411-5",
+    "title": "Molecular dynamics simulation and docking studies reveals inhibition of NF-kB signaling as a promising therapeutic drug target for reduction in cytokines storms."
+  },
+  "content": {
+    "abstract": "Nuclear factor-kappa B (NF-kB) plays a crucial role in numerous cellular processes, such as inflammation, immunological responses to infection, cell division, apoptosis, and the development of embryos and neurons. Cytokines, plays an important role in positive feedback loop and leads to inflammatory cell death through the release of pathogenic cytokine known to be cytokine storm which causes diseases like Acute Respiratory Disorder (ARD), multi-organ disorder, Hyperinflammation syndrome and may cause death. This cytochrome storm was identified in the people severely affected by covid-19. NF-kB presents a promising therapeutic opportunity to mitigate covid-19-induced cytokine storm and reduce the risk of severe morbidity and mortality resulting from the diseases. This paper therefore explores the modulation of the NF-kB pathway by inhibiting the binding of the transcription factor as a potential strategy to mitigate the morbidity and mortality caused by cytokine storms. To identify small molecule inhibitors of NF-kB signaling, we screened approximately 101 molecules in two identified pockets of NF-kB (p50/p65)-DNA complex. Each molecule was virtually screened in two pockets (A1 and A2). The focus library was developed starting from chemical structures obtained from the literature (Angelicin and Psolaren) which shows the inhibition of NF-kB signaling, as well as using artificial intelligence (WADDAICA) and rationally designed molecules. Among the 3 highest-scored ligands (NFAI64, NF30 and NF49) selected from the docking studies and further molecular dynamic investigations. The identified compound NF30 showed significantly higher binding affinity (DeltaG(binding)) in A2 pocket (60.92 +/- 1.83 kJ/mol) as compared to the rest of the molecules, making it a promising molecule for the inhibition of NF-kB. The discovered novel compounds by computational studies could be of relevance to identify more potent inhibitors of NF-kB dependent biological functions beneficial to control the cytokine storm occurring in the patients affected with Covid-19.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Molecular Docking Simulation",
+      "*Signal Transduction/drug effects",
+      "*NF-kappa B/metabolism/antagonists & inhibitors/chemistry",
+      "COVID-19",
+      "*COVID-19 Drug Treatment",
+      "*Cytokine Release Syndrome/drug therapy/metabolism",
+      "SARS-CoV-2",
+      "Protein Binding",
+      "Cytokines/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kumar, Abhishek",
+        "Bharadwaj, Tharun",
+        "Muthuraj, Likith",
+        "Kumar, Jitendra",
+        "Kumar, Pravin",
+        "Lalitha, Roopa",
+        "Sigamani, Gladstone",
+        "Ahmad, Shaban",
+        "Bhanu, Piyush",
+        "Pathak, Ravi Kant",
+        "Uttarkar, Akshay",
+        "Niranjan, Vidya",
+        "Mishra, Vachaspati"
+      ],
+      "short_names": [
+        "Kumar A",
+        "Bharadwaj T",
+        "Muthuraj L",
+        "Kumar J",
+        "Kumar P",
+        "Lalitha R",
+        "Sigamani G",
+        "Ahmad S",
+        "Bhanu P",
+        "Pathak RK",
+        "Uttarkar A",
+        "Niranjan V",
+        "Mishra V"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computational Biology and AI, Kcat Enzymatic Private Limited, #16, Ramakrishnappa Road, Cox Town, Bangalore, 560005, India.",
+        "Department of Computational Biology and AI, Kcat Enzymatic Private Limited, #16, Ramakrishnappa Road, Cox Town, Bangalore, 560005, India.",
+        "Department of Computational Biology and AI, Kcat Enzymatic Private Limited, #16, Ramakrishnappa Road, Cox Town, Bangalore, 560005, India.",
+        "Biotechnology Industry Research Assistance Council (BIRAC), NSIC Business Park, NSIC Bhawan, Okhla Industrial Estate, New Delhi, 110020, India. md.birac@nic.in.",
+        "Department of Computational Biology and AI, Kcat Enzymatic Private Limited, #16, Ramakrishnappa Road, Cox Town, Bangalore, 560005, India. pravin.k@kcat.co.in.",
+        "Department of Computational Biology and AI, Kcat Enzymatic Private Limited, #16, Ramakrishnappa Road, Cox Town, Bangalore, 560005, India.",
+        "Department of Computational Biology and AI, Kcat Enzymatic Private Limited, #16, Ramakrishnappa Road, Cox Town, Bangalore, 560005, India.",
+        "International Center for Genetic Engineering and Biotechnology, Aruna Asaf Ali Marg, New Delhi, 110067, India.",
+        "Xome Life Sciences, Bangalore Bioinnovation Center, Helix Biotech Park, Bangalore, 560100, India.",
+        "School of Bioengineering and Biosciences, Lovely Professional University, Jalandhar, Delhi GT Rd, Phagwara, Punjab, 144001, India.",
+        "Department of Biotechnology, RV College of Engineering, RV Vidyanikethan Post, Mysuru Road, Banglore, 560059, India.",
+        "Department of Biotechnology, RV College of Engineering, RV Vidyanikethan Post, Mysuru Road, Banglore, 560059, India.",
+        "Department of Botany, Dyal Singh College, University of Delhi, Delhi, 110003, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kumar, Abhishek",
+        "short_name": "Kumar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology and AI, Kcat Enzymatic Private Limited, #16, Ramakrishnappa Road, Cox Town, Bangalore, 560005, India."
+        ]
+      },
+      {
+        "full_name": "Bharadwaj, Tharun",
+        "short_name": "Bharadwaj T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology and AI, Kcat Enzymatic Private Limited, #16, Ramakrishnappa Road, Cox Town, Bangalore, 560005, India."
+        ]
+      },
+      {
+        "full_name": "Muthuraj, Likith",
+        "short_name": "Muthuraj L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology and AI, Kcat Enzymatic Private Limited, #16, Ramakrishnappa Road, Cox Town, Bangalore, 560005, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Jitendra",
+        "short_name": "Kumar J",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Industry Research Assistance Council (BIRAC), NSIC Business Park, NSIC Bhawan, Okhla Industrial Estate, New Delhi, 110020, India. md.birac@nic.in."
+        ]
+      },
+      {
+        "full_name": "Kumar, Pravin",
+        "short_name": "Kumar P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology and AI, Kcat Enzymatic Private Limited, #16, Ramakrishnappa Road, Cox Town, Bangalore, 560005, India. pravin.k@kcat.co.in."
+        ]
+      },
+      {
+        "full_name": "Lalitha, Roopa",
+        "short_name": "Lalitha R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology and AI, Kcat Enzymatic Private Limited, #16, Ramakrishnappa Road, Cox Town, Bangalore, 560005, India."
+        ]
+      },
+      {
+        "full_name": "Sigamani, Gladstone",
+        "short_name": "Sigamani G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Biology and AI, Kcat Enzymatic Private Limited, #16, Ramakrishnappa Road, Cox Town, Bangalore, 560005, India."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Shaban",
+        "short_name": "Ahmad S",
+        "identifiers": [],
+        "affiliations": [
+          "International Center for Genetic Engineering and Biotechnology, Aruna Asaf Ali Marg, New Delhi, 110067, India."
+        ]
+      },
+      {
+        "full_name": "Bhanu, Piyush",
+        "short_name": "Bhanu P",
+        "identifiers": [],
+        "affiliations": [
+          "Xome Life Sciences, Bangalore Bioinnovation Center, Helix Biotech Park, Bangalore, 560100, India."
+        ]
+      },
+      {
+        "full_name": "Pathak, Ravi Kant",
+        "short_name": "Pathak RK",
+        "identifiers": [],
+        "affiliations": [
+          "School of Bioengineering and Biosciences, Lovely Professional University, Jalandhar, Delhi GT Rd, Phagwara, Punjab, 144001, India."
+        ]
+      },
+      {
+        "full_name": "Uttarkar, Akshay",
+        "short_name": "Uttarkar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, RV College of Engineering, RV Vidyanikethan Post, Mysuru Road, Banglore, 560059, India."
+        ]
+      },
+      {
+        "full_name": "Niranjan, Vidya",
+        "short_name": "Niranjan V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, RV College of Engineering, RV Vidyanikethan Post, Mysuru Road, Banglore, 560059, India."
+        ]
+      },
+      {
+        "full_name": "Mishra, Vachaspati",
+        "short_name": "Mishra V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Botany, Dyal Singh College, University of Delhi, Delhi, 110003, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Apr 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/01 00:27",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [
+      "42270912",
+      "42086777",
+      "42022447",
+      "41588902",
+      "41533315",
+      "41373781",
+      "41326543",
+      "41036428"
+    ],
+    "refs": [
+      "35563673",
+      "34791371",
+      "34688149",
+      "34480126",
+      "34265844",
+      "34234112",
+      "34194678",
+      "33394134",
+      "33362782",
+      "33159646",
+      "32983172",
+      "32754163",
+      "32409139",
+      "32325025",
+      "30245627",
+      "29860391",
+      "26580540",
+      "26379052",
+      "24850022",
+      "24198408",
+      "21772278",
+      "21243012",
+      "20980154",
+      "20067776",
+      "20066092",
+      "19399780",
+      "16470223",
+      "16143815",
+      "15602737",
+      "15477589",
+      "14708018",
+      "14619437",
+      "12679262",
+      "12467966",
+      "11517324",
+      "11035367",
+      "9450761",
+      "9008363",
+      "8442093",
+      "1579569",
+      "1467511"
+    ],
+    "similar": [
+      "40307269",
+      "34248936",
+      "34867978",
+      "33094891",
+      "33394134",
+      "30415122",
+      "38786655",
+      "35112323",
+      "33860869",
+      "39319193",
+      "38366102",
+      "39518964",
+      "33159646",
+      "33362782",
+      "35438554",
+      "32645632",
+      "34173853",
+      "33970450",
+      "34205704",
+      "33254548",
+      "38574930",
+      "36532040",
+      "37551029",
+      "34785108",
+      "37247574",
+      "35076845",
+      "34688149",
+      "33662680",
+      "33672738",
+      "36571562",
+      "35056328",
+      "35792186",
+      "37921134",
+      "39459194",
+      "35342986",
+      "35889428",
+      "33673529",
+      "38006751",
+      "40199011",
+      "35112841",
+      "37061574",
+      "37671851",
+      "37013999",
+      "33362771",
+      "33691249",
+      "33059711",
+      "37847473",
+      "37054525",
+      "32708322",
+      "33675065",
+      "34517257",
+      "36379152",
+      "39639531",
+      "32890913",
+      "32482373",
+      "33391477",
+      "37694791",
+      "33016027",
+      "38392902",
+      "39048773",
+      "34480616",
+      "33445810",
+      "32385712",
+      "34950152",
+      "36705224",
+      "35807562",
+      "32857671",
+      "39345136",
+      "35662001",
+      "33916461",
+      "35563673",
+      "39718442",
+      "32949526",
+      "34311260",
+      "35622496",
+      "35578172",
+      "38127429",
+      "20980154",
+      "34359931",
+      "34743903",
+      "35338116",
+      "32721805",
+      "32707537",
+      "35060145",
+      "34390301",
+      "33616462",
+      "32360580",
+      "37182445",
+      "21143809",
+      "36864189",
+      "33191068",
+      "34858403",
+      "34564690",
+      "33308936",
+      "36119022",
+      "37102645",
+      "35319225",
+      "37925604",
+      "34426104",
+      "35796445"
+    ],
+    "review": [
+      "40307269",
+      "34867978",
+      "33394134",
+      "39319193",
+      "39518964",
+      "33159646",
+      "32645632",
+      "35076845",
+      "34688149",
+      "33662680",
+      "33672738",
+      "36571562",
+      "35056328",
+      "39459194",
+      "33673529",
+      "37061574",
+      "33059711",
+      "32708322",
+      "33675065",
+      "36379152",
+      "33391477",
+      "38392902",
+      "39048773",
+      "34480616",
+      "33445810",
+      "32857671",
+      "35662001",
+      "35563673",
+      "34359931",
+      "34743903",
+      "32707537",
+      "35060145",
+      "37102645",
+      "34426104"
+    ],
+    "pmc": [
+      "12043994"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-78411-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40307269/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD40-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

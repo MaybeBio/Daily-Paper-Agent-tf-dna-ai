@@ -1,0 +1,413 @@
+{
+  "identity": {
+    "pmid": "41474324",
+    "doi": "10.1128/mbio.03292-25",
+    "title": "Structural basis of quinone sensing by the MarR-type repressor MhqR in Staphylococcus aureus."
+  },
+  "content": {
+    "abstract": "The MarR-family regulator MhqR of Staphylococcus aureus (SaMhqR) was previously characterized as a quinone-sensing repressor of the mhqRED operon. Here, we solved the crystal structures of apo-SaMhqR and the 2-methylbenzoquinone (MBQ)-bound SaMhqR complex. AlphaFold3 modeling was used to predict the structure of SaMhqR in complex with its operator DNA. In the DNA-bound SaMhqR state, S65 and S66 of an allosteric alpha3-alpha4 loop adopted a helically wound conformation to elongate helix alpha4 for optimal DNA binding. Key residues for MBQ interaction were identified as F11, F39, E43, and H111, forming the MBQ-binding pocket. MBQ binding prevented the formation of the extended helix alpha4 in the allosteric loop, leading to steric clashes with the DNA. Molecular dynamics (MD) simulations revealed an increased intrinsic dynamics within the allosteric loop and the beta1/beta2-wing regions after MBQ binding to prevent DNA binding. Using mutational analyses, we validated that F11, F39, and H111 are required for quinone sensing in vivo, whereas S65 and S66 of the allosteric loop and D88, K89, V91, and Y92 of the beta1/beta2-wing are essential for DNA binding in vitro and in vivo. In conclusion, our structure-guided modeling and mutational analyses identified a quinone-binding pocket in SaMhqR and the mechanism of SaMhqR inactivation, which involves local structural rearrangements of an allosteric loop and high intrinsic dynamics to prevent DNA interactions. Our results provide novel insights into the redox mechanism of the conserved SaMhqR repressor, which functions as an important determinant of quinone and antimicrobial resistance in S. aureus.IMPORTANCEStaphylococcus aureus is a major human pathogen that can cause life-threatening infections in humans. However, treatment options are limited due to the prevalence of antimicrobial-resistant isolates in the hospital and the community. The MarR-type repressor SaMhqR was described to control resistance toward quinones and quinone-like antimicrobials. However, the redox-regulatory mechanism of SaMhqR by quinones was unknown. In this work, we explored the DNA-binding and quinone-sensing mechanism of SaMhqR and identified a quinone-binding pocket and an allosteric loop, which facilitates DNA binding activity via a helical wound conformation and adapts an unstructured coiled conformation upon quinone binding to inhibit DNA binding. A similar mechanism has been recently discovered for the regulation of uric acid resistance by UrtR family repressors (W. S. Song, D. U. Ki , H. Y. Cho, O. H. Kwon, H. Cho, S. I. Yoon, Nucleic Acids Res 52:13192-13205, 2024, https://doi.org/10.1093/nar/gkae922). Our results contribute to a better understanding of antimicrobial resistance regulation, which may be exploited for future drug design to combat multidrug-resistant S. aureus.",
+    "keywords": [
+      "AF3 modeling",
+      "MD simulations",
+      "MhqR",
+      "Staphylococcus aureus",
+      "crystal structure",
+      "quinones"
+    ],
+    "mesh_terms": [
+      "*Staphylococcus aureus/genetics/metabolism/chemistry",
+      "*Bacterial Proteins/metabolism/chemistry/genetics",
+      "Molecular Dynamics Simulation",
+      "*Repressor Proteins/metabolism/chemistry/genetics",
+      "Protein Binding",
+      "*Quinones/metabolism",
+      "Protein Conformation",
+      "Crystallography, X-Ray",
+      "Gene Expression Regulation, Bacterial",
+      "DNA, Bacterial/metabolism",
+      "Binding Sites",
+      "*Benzoquinones/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nguyen, Thao Thi-Phuong",
+        "Weiland, Paul",
+        "Loi, Vu Van",
+        "Kiontke, Stephan",
+        "Burchert, Fabiana",
+        "Zegarra, Victor",
+        "Kern, Antonia",
+        "Fritsch, Verena Nadin",
+        "Baranov, Daniil",
+        "Bronowska, Agnieszka K",
+        "Bange, Gert",
+        "Antelmann, Haike"
+      ],
+      "short_names": [
+        "Nguyen TT-P",
+        "Weiland P",
+        "Loi VV",
+        "Kiontke S",
+        "Burchert F",
+        "Zegarra V",
+        "Kern A",
+        "Fritsch VN",
+        "Baranov D",
+        "Bronowska AK",
+        "Bange G",
+        "Antelmann H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5822-913X",
+        "ORCID: 0000-0002-3485-2725",
+        "ORCID: 0000-0002-7826-0932",
+        "ORCID: 0000-0002-1766-4386"
+      ],
+      "affiliations": [
+        "Freie Universitat Berlin, Institute of Biology-Microbiology, Berlin, Germany.",
+        "Center for Synthetic Microbiology (SYNMIKRO) and Department of Chemistry, Marburg University, Marburg, Germany.",
+        "Center for Tumor Biology and Immunology, Department of Medicine, Marburg University, Marburg, Germany.",
+        "Freie Universitat Berlin, Institute of Biology-Microbiology, Berlin, Germany.",
+        "Center for Synthetic Microbiology (SYNMIKRO) and Department of Chemistry, Marburg University, Marburg, Germany.",
+        "Center for Synthetic Microbiology (SYNMIKRO) and Department of Chemistry, Marburg University, Marburg, Germany.",
+        "Center for Synthetic Microbiology (SYNMIKRO) and Department of Chemistry, Marburg University, Marburg, Germany.",
+        "Center for Synthetic Microbiology (SYNMIKRO) and Department of Chemistry, Marburg University, Marburg, Germany.",
+        "Freie Universitat Berlin, Institute of Biology-Microbiology, Berlin, Germany.",
+        "Chemistry - School of Natural and Environmental Sciences, Bedson Building, Newcastle University, Newcastle upon Tyne, United Kingdom.",
+        "Chemistry - School of Natural and Environmental Sciences, Bedson Building, Newcastle University, Newcastle upon Tyne, United Kingdom.",
+        "Center for Synthetic Microbiology (SYNMIKRO) and Department of Chemistry, Marburg University, Marburg, Germany.",
+        "Max-Planck Institute for Terrestrial Microbiology, Marburg, Germany.",
+        "Freie Universitat Berlin, Institute of Biology-Microbiology, Berlin, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nguyen, Thao Thi-Phuong",
+        "short_name": "Nguyen TT-P",
+        "identifiers": [],
+        "affiliations": [
+          "Freie Universität Berlin, Institute of Biology-Microbiology, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Weiland, Paul",
+        "short_name": "Weiland P",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Synthetic Microbiology (SYNMIKRO) and Department of Chemistry, Marburg University, Marburg, Germany.",
+          "Center for Tumor Biology and Immunology, Department of Medicine, Marburg University, Marburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Loi, Vu Van",
+        "short_name": "Loi VV",
+        "identifiers": [],
+        "affiliations": [
+          "Freie Universität Berlin, Institute of Biology-Microbiology, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Kiontke, Stephan",
+        "short_name": "Kiontke S",
+        "identifiers": [
+          "0000-0001-5822-913X"
+        ],
+        "affiliations": [
+          "Center for Synthetic Microbiology (SYNMIKRO) and Department of Chemistry, Marburg University, Marburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Burchert, Fabiana",
+        "short_name": "Burchert F",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Synthetic Microbiology (SYNMIKRO) and Department of Chemistry, Marburg University, Marburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Zegarra, Victor",
+        "short_name": "Zegarra V",
+        "identifiers": [
+          "0000-0002-3485-2725"
+        ],
+        "affiliations": [
+          "Center for Synthetic Microbiology (SYNMIKRO) and Department of Chemistry, Marburg University, Marburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Kern, Antonia",
+        "short_name": "Kern A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Synthetic Microbiology (SYNMIKRO) and Department of Chemistry, Marburg University, Marburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Fritsch, Verena Nadin",
+        "short_name": "Fritsch VN",
+        "identifiers": [],
+        "affiliations": [
+          "Freie Universität Berlin, Institute of Biology-Microbiology, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Baranov, Daniil",
+        "short_name": "Baranov D",
+        "identifiers": [],
+        "affiliations": [
+          "Chemistry - School of Natural and Environmental Sciences, Bedson Building, Newcastle University, Newcastle upon Tyne, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Bronowska, Agnieszka K",
+        "short_name": "Bronowska AK",
+        "identifiers": [],
+        "affiliations": [
+          "Chemistry - School of Natural and Environmental Sciences, Bedson Building, Newcastle University, Newcastle upon Tyne, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Bange, Gert",
+        "short_name": "Bange G",
+        "identifiers": [
+          "0000-0002-7826-0932"
+        ],
+        "affiliations": [
+          "Center for Synthetic Microbiology (SYNMIKRO) and Department of Chemistry, Marburg University, Marburg, Germany.",
+          "Max-Planck Institute for Terrestrial Microbiology, Marburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Antelmann, Haike",
+        "short_name": "Antelmann H",
+        "identifiers": [
+          "0000-0002-1766-4386"
+        ],
+        "affiliations": [
+          "Freie Universität Berlin, Institute of Biology-Microbiology, Berlin, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "mBio"
+    ],
+    "journal_abbrev": [
+      "mBio"
+    ],
+    "pub_date": "2026 Feb 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/31 12:55",
+    "fetched_at": "2026-10-01 10:11:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39752544",
+      "39494533",
+      "39484741",
+      "38718835",
+      "37774136",
+      "36349475",
+      "36242097",
+      "35605407",
+      "33544504",
+      "33400359",
+      "32712193",
+      "32661559",
+      "31682303",
+      "31588918",
+      "31310152",
+      "31121222",
+      "31012115",
+      "30619128",
+      "30148624",
+      "29237286",
+      "28743871",
+      "28694934",
+      "28670937",
+      "28607159",
+      "28177311",
+      "27578633",
+      "26303802",
+      "23703289",
+      "23479646",
+      "22943411",
+      "20716550",
+      "20408171",
+      "20383002",
+      "20218676",
+      "20124692",
+      "19603484",
+      "19461840",
+      "18673455",
+      "18462089",
+      "17933554",
+      "17725564",
+      "17681537",
+      "17329821",
+      "16750221",
+      "16601927",
+      "16450885",
+      "15750752",
+      "15573054",
+      "12618510",
+      "12491202",
+      "11952333",
+      "9709046",
+      "9597249",
+      "1913977",
+      "1733045"
+    ],
+    "similar": [
+      "41474324",
+      "31310152",
+      "23982071",
+      "24293644",
+      "23479646",
+      "27427478",
+      "18208493",
+      "25443958",
+      "36242097",
+      "23353829",
+      "12837797",
+      "25368190",
+      "15716455",
+      "22007899",
+      "10647179",
+      "26744254",
+      "27337024",
+      "25331435",
+      "12881514",
+      "11867549",
+      "7553867",
+      "16582476",
+      "23300457",
+      "35163512",
+      "17576674",
+      "25798654",
+      "23733184",
+      "28580925",
+      "26796657",
+      "11196648",
+      "16980961",
+      "27329753",
+      "42475469",
+      "19761200",
+      "16209951",
+      "26172206",
+      "29794028",
+      "20804771",
+      "14690433",
+      "23645680",
+      "8638105",
+      "14568530",
+      "28143981",
+      "31358609",
+      "17233828",
+      "23695258",
+      "30252448",
+      "24831014",
+      "39484741",
+      "26400178",
+      "19822742",
+      "10700279",
+      "1518055",
+      "11786010",
+      "26249357",
+      "10092458",
+      "9341111",
+      "30455279",
+      "12648720",
+      "27445042",
+      "25478845",
+      "19129225",
+      "18272181",
+      "8075070",
+      "29237286",
+      "10760140",
+      "31964696",
+      "28099001",
+      "15937183",
+      "20374494",
+      "14960592",
+      "27924027",
+      "32518158",
+      "7707374",
+      "28670937",
+      "20691702",
+      "31331979",
+      "41170987",
+      "22394357",
+      "11284699",
+      "16166084",
+      "9843372",
+      "18395746",
+      "33408223",
+      "31056420",
+      "23337505",
+      "25195759",
+      "12829264",
+      "23650349",
+      "29401640",
+      "23396446",
+      "35032550",
+      "8153629",
+      "7743135",
+      "32397647",
+      "12581359",
+      "39777470",
+      "12054863",
+      "25283718",
+      "10700280"
+    ],
+    "review": [
+      "41474324",
+      "25443958",
+      "12648720",
+      "28670937",
+      "12829264"
+    ],
+    "pmc": [
+      "12893000"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/mbio.03292-25?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41474324/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3420",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

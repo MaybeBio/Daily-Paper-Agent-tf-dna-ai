@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "36327857",
+    "doi": "10.1016/j.ejrad.2022.110560",
+    "title": "A multitask classification framework based on vision transformer for predicting molecular expressions of glioma."
+  },
+  "content": {
+    "abstract": "PURPOSE: The purpose of this study is to develop a Vision Transformer model with multitask classification framework that is appropriate for predicting four molecular expressions of glioma simultaneously based on MR imaging. MATERIALS AND METHODS: A total of 188 glioma (grades II-IV) patients with an immunohistochemical diagnosis of IDH, MGMT, Ki67 and P53 expression were enrolled in our study. A Vision Transformer (ViT) model, including three independent networks based on T2WI, T1CWI and T2 + T1CWI (T2-net, T1C-net and TU-net), was developed for the prediction of four glioma molecular expressions simultaneously. To evaluate the model performance, the accuracy rate, recall, precision, F1-score, and area under the receiver operating characteristic curve (AUC) were calculated. RESULTS: The proposed ViT model achieved high accuracy in predicting IDH, MGMT, Ki67 and P53 expression in gliomas. Among the three networks using the ViT model, TU-net achieved the best results with the highest values of accuracy (range, 0.937-0.969), precision (range, 0.949-0.972), recall (range, 0.873-0.991), F1-score (range, 0.910-0.981) and AUC (range, 0.976-0.984). Comparisons were also made between our ViT model and convolutional neural network (CNN)-based models, and the proposed ViT model outperformed the existing CNN-based models. CONCLUSION: Vision Transformer is a reliable approach for the prediction of glioma molecular biomarkers and can be a viable alternative to CNNs.",
+    "keywords": [
+      "Convolutional neural network",
+      "Deep learning",
+      "Glioma",
+      "Magnetic resonance imaging",
+      "Molecular expression",
+      "Vision Transformer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Isocitrate Dehydrogenase/genetics",
+      "Ki-67 Antigen",
+      "*Brain Neoplasms/diagnostic imaging",
+      "Tumor Suppressor Protein p53",
+      "Neoplasm Grading",
+      "Mutation",
+      "*Glioma/diagnostic imaging",
+      "Magnetic Resonance Imaging/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Qian",
+        "Xu, Qian Qian",
+        "Shi, Nian",
+        "Dong, Li Na",
+        "Zhu, Hong",
+        "Xu, Kai"
+      ],
+      "short_names": [
+        "Xu Q",
+        "Xu QQ",
+        "Shi N",
+        "Dong LN",
+        "Zhu H",
+        "Xu K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, The Affiliated Hospital of Xuzhou Medical University, Xuzhou City, Jiangsu Province 221002, China.",
+        "School of Medical Information and Engineering, Xuzhou Medical University, Xuzhou City, Jiangsu Province 221002, China.",
+        "School of Medical Imaging, Xuzhou Medical University, Xuzhou City, Jiangsu Province 221002, China.",
+        "Department of Radiology, The Affiliated Hospital of Xuzhou Medical University, Xuzhou City, Jiangsu Province 221002, China.",
+        "School of Medical Information and Engineering, Xuzhou Medical University, Xuzhou City, Jiangsu Province 221002, China. Electronic address: zhuhong@xzhmu.edu.cn.",
+        "Department of Radiology, The Affiliated Hospital of Xuzhou Medical University, Xuzhou City, Jiangsu Province 221002, China. Electronic address: xukaixz@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Qian",
+        "short_name": "Xu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Affiliated Hospital of Xuzhou Medical University, Xuzhou City, Jiangsu Province 221002, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Qian Qian",
+        "short_name": "Xu QQ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Information and Engineering, Xuzhou Medical University, Xuzhou City, Jiangsu Province 221002, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Nian",
+        "short_name": "Shi N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Imaging, Xuzhou Medical University, Xuzhou City, Jiangsu Province 221002, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Li Na",
+        "short_name": "Dong LN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Affiliated Hospital of Xuzhou Medical University, Xuzhou City, Jiangsu Province 221002, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Hong",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Information and Engineering, Xuzhou Medical University, Xuzhou City, Jiangsu Province 221002, China. Electronic address: zhuhong@xzhmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xu, Kai",
+        "short_name": "Xu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Affiliated Hospital of Xuzhou Medical University, Xuzhou City, Jiangsu Province 221002, China. Electronic address: xukaixz@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of radiology"
+    ],
+    "journal_abbrev": [
+      "Eur J Radiol"
+    ],
+    "pub_date": "2022 Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/04 06:00",
+    "fetched_at": "2026-09-28 15:43:17"
+  },
+  "links": {
+    "cites": [
+      "42361071",
+      "42129328",
+      "41531733",
+      "40867254",
+      "40817944",
+      "40606348",
+      "40218147",
+      "39881111",
+      "38791871",
+      "38702613",
+      "38472373"
+    ],
+    "refs": [],
+    "similar": [
+      "36327857",
+      "31637430",
+      "37566271",
+      "33757198",
+      "27982759",
+      "32706862",
+      "31127834",
+      "38325551",
+      "29167275",
+      "33211141",
+      "30661193",
+      "31957551",
+      "36086447",
+      "32315266",
+      "31983532",
+      "33475317",
+      "31446467",
+      "38472373",
+      "31870275",
+      "35076759",
+      "32193643",
+      "34874198",
+      "35956236",
+      "29733378",
+      "34653254",
+      "31820065",
+      "35020590",
+      "33179832",
+      "37891702",
+      "32727476",
+      "31889117",
+      "33778723",
+      "31786548",
+      "30277427",
+      "36290867",
+      "37248527",
+      "34146841",
+      "35454365",
+      "29770897",
+      "39341208",
+      "31413006",
+      "28714279",
+      "32740813",
+      "31650265",
+      "33914116",
+      "33393131",
+      "29666413",
+      "29394005",
+      "30414095",
+      "38020169",
+      "28298040",
+      "34098965",
+      "32321646",
+      "28710497",
+      "30190259",
+      "33691798",
+      "31410540",
+      "28004160",
+      "30414094",
+      "30705071",
+      "33685792",
+      "33482430",
+      "33163535",
+      "38767532",
+      "29140606",
+      "30719536",
+      "37022918",
+      "29860714",
+      "31014573",
+      "30426720",
+      "37223677",
+      "32940938",
+      "30393056",
+      "32162004",
+      "33523385",
+      "30516675",
+      "32040669",
+      "33121211",
+      "34272981",
+      "32359929",
+      "31905004",
+      "31868291",
+      "31402410",
+      "29777252",
+      "35794409",
+      "32932560",
+      "31087724",
+      "31486876",
+      "31745161",
+      "37760146",
+      "32417712",
+      "35866492",
+      "22890969",
+      "38601088",
+      "29122763",
+      "33299387",
+      "28547590",
+      "35780100",
+      "33243896",
+      "31529264",
+      "27120786",
+      "31639630",
+      "37562256",
+      "39061811",
+      "36501806",
+      "39354009",
+      "38981596",
+      "39253215",
+      "37598632",
+      "38548898",
+      "37514256",
+      "37461358",
+      "37835591",
+      "38611117",
+      "37504817",
+      "38360785",
+      "38756659",
+      "36616685",
+      "36647383",
+      "37760468",
+      "39395299",
+      "36359497",
+      "37713999",
+      "37018576",
+      "38292314",
+      "38740720",
+      "35810266",
+      "39237695",
+      "38021075",
+      "38043124",
+      "37896623",
+      "37422932",
+      "37765970",
+      "39324087",
+      "36874136",
+      "36399858",
+      "38239213",
+      "37510202",
+      "36946942",
+      "38048824",
+      "37939732",
+      "38257093",
+      "38260025",
+      "37346601",
+      "38066803",
+      "38667432",
+      "39200942",
+      "37765761",
+      "38790335",
+      "37627772",
+      "38502628",
+      "36553070",
+      "36672988",
+      "37409295",
+      "36803792",
+      "36380947",
+      "37930924",
+      "38527074",
+      "36018875",
+      "38273257",
+      "37925964",
+      "37112451",
+      "36581889",
+      "38864744"
+    ],
+    "review": [
+      "36327857",
+      "32193643",
+      "31786548"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0720-048X(22)00410-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0720-048X(22)00410-7",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36327857",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

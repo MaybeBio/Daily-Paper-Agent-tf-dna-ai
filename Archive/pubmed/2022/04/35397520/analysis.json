@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35397520",
+  "title": "ProbC: joint modeling of epigenome and transcriptome effects in 3D genome.",
+  "authors": "Sefer, Emre",
+  "journal": "BMC genomics",
+  "published_date": "2022-04-11",
+  "window": {
+    "start": "2022-04-11",
+    "end": "2022-04-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出概率模型ProbC，利用组蛋白修饰和转录因子结合位点预测3D基因组Hi-C/Micro-C互作，虽涉及TF-DNA结合位点但核心是染色质互作而非TF-DNA结合机制，方法为统计优化而非AI/物理模拟，属广义蛋白-DNA相关但深度不足。",
+  "abstract": "BACKGROUND: Hi-C and its high nucleosome resolution variant Micro-C provide a window into the spatial packing of a genome in 3D within the cell. Even though both techniques do not directly depend on the binding of specific antibodies, previous work has revealed enriched interactions and domain structures around multiple chromatin marks; epigenetic modifications and transcription factor binding sites. However, the joint impact of chromatin marks in Hi-C and Micro-C interactions have not been globally characterized, which limits our understanding of 3D genome characteristics. An emerging question is whether it is possible to deduce 3D genome characteristics and interactions by integrative analysis of multiple chromatin marks and associate interactions to functionality of the interacting loci. RESULT: We come up with a probabilistic method PROBC to decompose Hi-C and Micro-C interactions by known chromatin marks. PROBC is based on convex likelihood optimization, which can directly take into account both interaction existence and nonexistence. Through PROBC, we discover histone modifications (H3K27ac, H3K9me3, H3K4me3, H3K4me1) and CTCF as particularly predictive of Hi-C and Micro-C contacts across cell types and species. Moreover, histone modifications are more effective than transcription factor binding sites in explaining the genome's 3D shape through these interactions. PROBC can successfully predict Hi-C and Micro-C interactions in given species, while it is trained on different cell types or species. For instance, it can predict missing nucleosome resolution Micro-C interactions in human ES cells trained on mouse ES cells only from these 5 chromatin marks with above 0.75 AUC. Additionally, PROBC outperforms the existing methods in predicting interactions across almost all chromosomes. CONCLUSION: Via our proposed method, we optimally decompose Hi-C interactions in terms of these chromatin marks at genome and chromosome levels. We find a subset of histone modifications and transcription factor binding sites to be predictive of both Hi-C and Micro-C interactions and TADs across human, mouse, and different cell types. Through learned models, we can predict interactions on species just from chromatin marks for which Hi-C data may be limited.",
+  "abstract_zh": "背景：Hi-C及其高核小体分辨率变体Micro-C为观察基因组在细胞内的三维空间包装提供了窗口。尽管这两种技术不直接依赖于特定抗体的结合，但先前的研究已揭示多种染色质标记、表观遗传修饰和转录因子结合位点周围存在富集的相互作用和结构域。然而，染色质标记在Hi-C和Micro-C相互作用中的联合影响尚未被全局表征，这限制了我们对其三维基因组特征的理解。一个新兴问题是，是否可能通过整合分析多种染色质标记来推断三维基因组特征和相互作用，并将相互作用与相互作用位点的功能关联起来。结果：我们提出了一种概率方法PROBC，用于根据已知染色质标记分解Hi-C和Micro-C相互作用。PROBC基于凸似然优化，可直接考虑相互作用的存在和不存在。通过PROBC，我们发现组蛋白修饰（H3K27ac、H3K9me3、H3K4me3、H3K4me1）和CTCF在跨细胞类型和物种中特别能预测Hi-C和Micro-C接触。此外，组蛋白修饰在解释基因组通过这些相互作用形成的三维形状方面比转录因子结合位点更有效。PROBC能在给定物种中成功预测Hi-C和Micro-C相互作用，即使其在不同细胞类型或物种上训练。例如，仅使用这5种染色质标记，在仅用小鼠ES细胞训练的情况下，它能预测人类ES细胞中缺失的核小体分辨率Micro-C相互作用，AUC超过0.75。此外，PROBC在几乎所有染色体上的相互作用预测中优于现有方法。结论：通过我们提出的方法，我们在基因组和染色体水平上以这些染色质标记最优地分解了Hi-C相互作用。我们发现一组组蛋白修饰和转录因子结合位点能预测人类、小鼠及不同细胞类型中的Hi-C和Micro-C相互作用及TAD。通过学习模型，我们仅从染色质标记即可预测Hi-C数据可能有限的物种中的相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35397520/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35397520/",
+  "paper_page_path": "papers/pubmed/35397520/index.html"
+}

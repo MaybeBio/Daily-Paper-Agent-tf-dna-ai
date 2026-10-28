@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "39454454",
+    "doi": "10.1016/j.compbiolchem.2024.108245",
+    "title": "Gene-expression profile analysis to disclose diagnostics and therapeutics biomarkers for thyroid carcinoma."
+  },
+  "content": {
+    "abstract": "The most frequent endocrine cancer of the head and neck is thyroid carcinoma (THCA). Although there is increasing evidence linking THCA to genetic alterations, the exact molecular mechanism behind this relationship is not yet completely known to the researchers. There is still much to learn about THCA's molecular roots and genetic biomarkers. Though drug therapies are the best choice after metastasis, unfortunately, the majority of the patients progressively develop resistance against the therapeutic drugs after receiving them for a few years. Therefore, multi-targeted different variants of therapeutic drugs may be essential for effective treatment against THCA. To understand molecular mechanisms of THCA development and progression and explore multi-targeted different variants of therapeutic drugs, we detected 80 common differentially expressed genes (cDEGs) between THCA and non-THCA samples from six microarray gene expression datasets using the statistical LIMMA approach. Through protein-protein interaction (PPI) network analysis, we identified the top-ranked eight differentially expressed genes (TIMP1, FN1, THBS1, RUNX2, SHANK2, TOP2A, LRP2, and ACTN1) as the THCA-causing key genes (KGs), where 6 KGs (TIMP1, TOP2A, FN1, ACTN1, RUNX2, THBS1) are upregulated and 2 KGs (LRP2, SHANK2) are downregulated. The expression pattern analysis of KGs with the independent TCGA database by Box plots also confirmed their upregulated and downregulated patterns. The expression analysis of KGs in different stages of THCA development indicated that these KGs might be utilized as early diagnostic and prognostic biomarkers. The pan-cancer analysis of KGs indicated a substantial correlation of KGs with multiple cancers, including THCA. Some transcription factors (TFs) and microRNAs were detected as the key transcriptional and post-transcriptional regulators of KGs using gene regulatory network (GRN) analysis. The enrichment analysis of the cDEGs revealed several key molecular functions, biological processes, cellular components, and pathways significantly associated with THCA. These findings highlight critical mechanisms influenced by the identified key genes (KGs), providing deeper insight into their roles in THCA development. Then we detected 6 repurposable drug molecules (Entrectinib, Imatinib, Ponatinib, Sorafenib, Retevmo, and Pazopanib) by molecular docking with KGs-mediated receptor proteins, ADME/T analysis, and cross-validation with the independent receptors. Therefore, these findings might be useful resources for wet lab researchers and clinicians to consider an effective treatment strategy against THCA.",
+    "keywords": [
+      "Bioinformatics analysis",
+      "Drug molecules",
+      "Gene-expression profiles",
+      "Key genes",
+      "Thyroid carcinoma"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Thyroid Neoplasms/genetics/drug therapy/diagnosis",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "*Gene Expression Profiling",
+      "Protein Interaction Maps",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mahmud, Sabkat",
+        "Ajadee, Alvira",
+        "Hossen, Md Bayazid",
+        "Islam, Md Saiful",
+        "Ahmmed, Reaz",
+        "Ali, Md Ahad",
+        "Mollah, Md Manir Hossain",
+        "Reza, Md Selim",
+        "Mollah, Md Nurul Haque"
+      ],
+      "short_names": [
+        "Mahmud S",
+        "Ajadee A",
+        "Hossen MB",
+        "Islam MS",
+        "Ahmmed R",
+        "Ali MA",
+        "Mollah MMH",
+        "Reza MS",
+        "Mollah MNH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh; Department of Agricultural and Applied Statistics, Bangladesh Agricultural University (BAU), Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh; Department of Biochemistry and Molecular Biology, University of Rajshahi, Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh; Department of Chemistry, University of Rajshahi, Rajshahi 6205, Bangladesh.",
+        "Department of Physical Sciences, Independent University, Bangladesh (IUB), Bangladesh.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh; Department of Biomedical Informatics and Genomics, Tulane University, USA.",
+        "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh. Electronic address: mollah.stat.bio@ru.ac.bd."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mahmud, Sabkat",
+        "short_name": "Mahmud S",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Ajadee, Alvira",
+        "short_name": "Ajadee A",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Hossen, Md Bayazid",
+        "short_name": "Hossen MB",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh; Department of Agricultural and Applied Statistics, Bangladesh Agricultural University (BAU), Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Islam, Md Saiful",
+        "short_name": "Islam MS",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Ahmmed, Reaz",
+        "short_name": "Ahmmed R",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh; Department of Biochemistry and Molecular Biology, University of Rajshahi, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Ali, Md Ahad",
+        "short_name": "Ali MA",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh; Department of Chemistry, University of Rajshahi, Rajshahi 6205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Mollah, Md Manir Hossain",
+        "short_name": "Mollah MMH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Sciences, Independent University, Bangladesh (IUB), Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Reza, Md Selim",
+        "short_name": "Reza MS",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh; Department of Biomedical Informatics and Genomics, Tulane University, USA."
+        ]
+      },
+      {
+        "full_name": "Mollah, Md Nurul Haque",
+        "short_name": "Mollah MNH",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab (Dry), Department of Statistics, University of Rajshahi, Rajshahi 6205, Bangladesh. Electronic address: mollah.stat.bio@ru.ac.bd."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/26 19:24",
+    "fetched_at": "2026-09-30 04:48:24"
+  },
+  "links": {
+    "cites": [
+      "41839687",
+      "41303715",
+      "40834023",
+      "40370100",
+      "40127075"
+    ],
+    "refs": [],
+    "similar": [
+      "39454454",
+      "39348357",
+      "36991484",
+      "36502691",
+      "35409328",
+      "36567949",
+      "41465132",
+      "40834023",
+      "35617355",
+      "40127075",
+      "37893423",
+      "38144565",
+      "34167437",
+      "37534476",
+      "35447458",
+      "41465972",
+      "39535278",
+      "39914199",
+      "39738081",
+      "41664335",
+      "40025145",
+      "32337286",
+      "39528802",
+      "36120433",
+      "39160196",
+      "39118438",
+      "41729615",
+      "41548166",
+      "36440844",
+      "36786134",
+      "38676768",
+      "35390032",
+      "38836761",
+      "32767928",
+      "31987036",
+      "41261600",
+      "38984486",
+      "36278453",
+      "41381686",
+      "33155892",
+      "40350533",
+      "39888730",
+      "40898538",
+      "38402263",
+      "40856854",
+      "36445679",
+      "29625265",
+      "42152354",
+      "31169306",
+      "36852684",
+      "40418400",
+      "39568815",
+      "40603423",
+      "33554894",
+      "40347801",
+      "38839646",
+      "40019588",
+      "34686186",
+      "26536459",
+      "36059514",
+      "32271791",
+      "32093341",
+      "34384424",
+      "41171828",
+      "30213925",
+      "39559351",
+      "38289368",
+      "28432618",
+      "34825846",
+      "37605650",
+      "32849296",
+      "41191606",
+      "26985959",
+      "31322209",
+      "34800440",
+      "33899546",
+      "32626543",
+      "39248068",
+      "39376501",
+      "33437215",
+      "25887589",
+      "32812852",
+      "36407322",
+      "32597160",
+      "39833432",
+      "40826767",
+      "30542696",
+      "35766333",
+      "35141140",
+      "40362431",
+      "41751506",
+      "34734085",
+      "38869635",
+      "30602391",
+      "41342434",
+      "38863714",
+      "41300749",
+      "33428142",
+      "41151853",
+      "40328901"
+    ],
+    "review": [
+      "39454454",
+      "38984486"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(24)00233-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/thyroidcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Thyroid Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TIMP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

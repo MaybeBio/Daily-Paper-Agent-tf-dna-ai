@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "39940038",
+    "doi": "10.1186/s40246-024-00703-8",
+    "title": "Comprehensive bioinformatics analysis of selected germline variants of uncertain significance identified in a cohort of Sri Lankan hereditary breast cancer patients."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Next-generation sequencing (NGS)-based testing is a cost-effective method for identifying pathogenic germline genetic variations in cancer-predisposing genes in hereditary breast cancer. However, many of the variants detected through NGS are classified as variants of uncertain significance (VUS), where the impact of the variants on protein function remains unclear. Bioinformatics analysis using multiple computational tools is postulated to aid in generating new knowledge regarding the functional relevance of these VUS. This study aimed to gain new insights into the potential pathogenicity of a selected set of VUS identified in a cohort of Sri Lankan hereditary breast cancer patients using advanced bioinformatics tools. METHODS: The cancer database at the Centre for Genetics and Genomics contains genomic and clinical data from patients who had undergone germline genetic testing between 2015 and 2023. Five germline VUS detected in breast cancer affected patients were identified from the existing database and selected for further bioinformatics analysis using a combination of in-silico pathogenicity prediction tools, 3D protein modeling with structural analysis, and protein structural stability assessment with molecular dynamic simulation (MDS). The VUS included: BRCA1:(NM_007294.4):c.3392A > G;p.Asp1131Gly, (rs1555587813); BRIP1:(NM_032043.3):c.3103C > T;p.Arg1035Cys, (rs45437094); CHEK2:(NM_007194.4):c.60G > T;p.Gln20His, (rs375507194); MET:(NM_000245.4):c.840G > T;p.Arg280Ser, (rs1207381066); and STK11:(NM_000455.5):c.355A > G;p.Asn119Asp, (rs545015076). RESULTS: Two variants MET:(NM_000245.4):c.840G > T;p.Arg280Ser and BRCA1:(NM_007294.4):c.3392A > G; p.Asp1131Gly are predicted to have high-risk potential for causing significant impacts on the protein structure and function. Align GVGD results and the MDS data for the BRIP1:(NM_032043.3):c.3103C > T;p.Arg1035Cys variant suggested some alterations that require further confirmation. The CHEK2:(NM_007194.4):c.60G > T;p.Gln20His variant suggested an intermediate impact, whereas STK11:(NM_000455.5):c.355A > G;p.Asn119Asp suggested no significant structural or functional impact on the protein. CONCLUSIONS: This study contributes valuable insights into the potential structural and functional implications of five VUS in cancer predisposition genes. Our results suggest a high-risk potential for variants in MET, BRCA1 and BRIP1, warranting further investigation to delineate their exact biological effects and to better understand their role in breast cancer risk.",
+    "keywords": [
+      "Bioinformatics",
+      "Breast cancer",
+      "Genomics",
+      "Next-generation sequencing",
+      "Protein modeling",
+      "VUS"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Germ-Line Mutation/genetics",
+      "Sri Lanka/epidemiology",
+      "*Computational Biology/methods",
+      "*Genetic Predisposition to Disease",
+      "*Breast Neoplasms/genetics/pathology/epidemiology",
+      "BRCA1 Protein/genetics",
+      "High-Throughput Nucleotide Sequencing",
+      "Checkpoint Kinase 2/genetics",
+      "Adult",
+      "Middle Aged",
+      "Cohort Studies",
+      "BRCA2 Protein/genetics",
+      "RNA Helicases/genetics",
+      "Fanconi Anemia Complementation Group N Protein/genetics",
+      "Fanconi Anemia Complementation Group Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Arachchige, Nipuni D S",
+        "Sirisena, Nirmala D",
+        "De Silva, Sumadee",
+        "Senathilake, Kanishka S",
+        "Faizan, Mishal",
+        "Dissanayake, Vajira H W"
+      ],
+      "short_names": [
+        "Arachchige NDS",
+        "Sirisena ND",
+        "De Silva S",
+        "Senathilake KS",
+        "Faizan M",
+        "Dissanayake VHW"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo 03, Sri Lanka.",
+        "Department of Anatomy, Genetics and Biomedical Informatics, Faculty of Medicine, University of Colombo, Colombo 08, Sri Lanka. nirmala@anat.cmb.ac.lk.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo 03, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo 03, Sri Lanka.",
+        "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo 03, Sri Lanka.",
+        "Department of Anatomy, Genetics and Biomedical Informatics, Faculty of Medicine, University of Colombo, Colombo 08, Sri Lanka."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Arachchige, Nipuni D S",
+        "short_name": "Arachchige NDS",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo 03, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Sirisena, Nirmala D",
+        "short_name": "Sirisena ND",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, Genetics and Biomedical Informatics, Faculty of Medicine, University of Colombo, Colombo 08, Sri Lanka. nirmala@anat.cmb.ac.lk."
+        ]
+      },
+      {
+        "full_name": "De Silva, Sumadee",
+        "short_name": "De Silva S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo 03, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Senathilake, Kanishka S",
+        "short_name": "Senathilake KS",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo 03, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Faizan, Mishal",
+        "short_name": "Faizan M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Molecular Biology and Biotechnology (IBMBB), University of Colombo, Colombo 03, Sri Lanka."
+        ]
+      },
+      {
+        "full_name": "Dissanayake, Vajira H W",
+        "short_name": "Dissanayake VHW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, Genetics and Biomedical Informatics, Faculty of Medicine, University of Colombo, Colombo 08, Sri Lanka."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human genomics"
+    ],
+    "journal_abbrev": [
+      "Hum Genomics"
+    ],
+    "pub_date": "2025 Feb 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/13 00:21",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [
+      "41783385"
+    ],
+    "refs": [
+      "38905172",
+      "37277882",
+      "36896237",
+      "36385762",
+      "35888106",
+      "35662467",
+      "35309259",
+      "34905391",
+      "34768775",
+      "34591954",
+      "32881105",
+      "32467295",
+      "32393398",
+      "31911673",
+      "29238047",
+      "29100344",
+      "25741868",
+      "24796624",
+      "23875061",
+      "21687596",
+      "18511928",
+      "16301204",
+      "14579324",
+      "12001990",
+      "6590967"
+    ],
+    "similar": [
+      "39940038",
+      "37277882",
+      "21356067",
+      "29338689",
+      "32761968",
+      "39831988",
+      "32180084",
+      "40749126",
+      "22684231",
+      "41455088",
+      "32091409",
+      "34011307",
+      "28418444",
+      "27783279",
+      "40405108",
+      "41688965",
+      "38098088",
+      "28796317",
+      "31822495",
+      "26577449",
+      "29020732",
+      "32318955",
+      "32488392",
+      "28657667",
+      "28727877",
+      "38461085",
+      "41595443",
+      "35802266",
+      "31650731",
+      "40257527",
+      "33421217",
+      "31090900",
+      "31273614",
+      "31409080",
+      "41783385",
+      "26790966",
+      "39062721",
+      "27553368",
+      "39684258",
+      "35908255",
+      "38219492",
+      "31206626",
+      "29236234",
+      "32531196",
+      "40649708",
+      "28439188",
+      "42346254",
+      "30651582",
+      "40338220",
+      "40578183",
+      "28039656",
+      "38123987",
+      "41797047",
+      "29659569",
+      "29368626",
+      "28709830",
+      "39208550",
+      "31780696",
+      "31784482",
+      "39096911",
+      "31060593",
+      "41327405",
+      "37656691",
+      "30039884",
+      "32339256",
+      "39815370",
+      "18414782",
+      "31336956",
+      "33115781",
+      "31477031",
+      "33128190",
+      "33918338",
+      "18483852",
+      "40181060",
+      "29361001",
+      "31446535",
+      "41660915",
+      "29360614",
+      "29681614",
+      "32445176",
+      "30606148",
+      "40009290",
+      "21203900",
+      "26852015",
+      "28664449",
+      "38890714",
+      "33606809",
+      "35314380",
+      "41410715",
+      "41230741",
+      "30535581",
+      "36623243",
+      "30040829",
+      "32986223",
+      "31636395",
+      "40448789",
+      "28085182",
+      "41596682",
+      "40876992",
+      "23448497"
+    ],
+    "review": [
+      "39940038",
+      "32488392"
+    ],
+    "pmc": [
+      "11823233"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://humgenomics.biomedcentral.com/articles/10.1186/s40246-024-00703-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39940038/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BRIP1-5",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-103",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

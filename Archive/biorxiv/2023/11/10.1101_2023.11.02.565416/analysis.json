@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.11.02.565416",
+  "title": "TRAFICA: An Open Chromatin Language Model to Improve Transcription Factor Binding Affinity Prediction",
+  "authors": "Yu Xu; Chonghao Wang; Ke Xu; Yi Ding; Aiping Lyu; Lu Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2023-11-05",
+  "window": {
+    "start": "2023-10-30",
+    "end": "2023-11-05"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发了开放染色质语言模型TRAFICA，结合ATAC-seq与体外TF-DNA结合谱预测TF-DNA结合亲和力，核心聚焦TF-DNA互作且采用AI方法，高度匹配本课题。",
+  "abstract": "A bstract In silico transcription factor and DNA (TF-DNA) binding affinity prediction plays a vital role in examining TF binding preferences and understanding gene regulation. The existing tools employ TF-DNA binding profiles from in vitro high-throughput technologies to predict TF-DNA binding affinity. However, TFs tend to bind to sequences in open chromatin regions in vivo , such TF binding preference is seldomly considered by these existing tools. In this study, we developed TRAFICA, an open chromatin language model to predict TF-DNA binding affinity by integrating the characteristics of sequences from open chromatin regions in ATAC-seq experiments and in vitro TF-DNA binding profiles from high-throughput technologies. We applied self-supervised learning to pre-train TRAFICA on over 13 million nucleotide sequences from the peaks in ATAC-seq experiments to learn the TF binding preference in vivo . TRAFICA was further fine-tuned using the TF-DNA binding profiles from PBM and HT-SELEX technologies to learn the association between TFs and their target DNA sequences. We observed that TRAFICA significantly outperformed both machine learning-based and deep learning-based tools in predicting in vitro and in vivo TF-DNA binding affinity. These findings indicate that considering the characteristics of sequences from open chromatin regions could significantly improve TF-DNA binding affinity prediction, particularly when limited TF-DNA binding profiles from high-throughput technologies are available for specific TFs.",
+  "abstract_zh": "摘要 计算机模拟转录因子与DNA（TF-DNA）结合亲和力预测在检验TF结合偏好和理解基因调控中起着至关重要的作用。现有工具利用来自体外高通量技术的TF-DNA结合谱来预测TF-DNA结合亲和力。然而，TF在体内倾向于结合开放染色质区域中的序列，这种TF结合偏好很少被这些现有工具考虑。在本研究中，我们开发了TRAFICA，一种开放染色质语言模型，通过整合ATAC-seq实验中开放染色质区域序列的特征和来自高通量技术的体外TF-DNA结合谱来预测TF-DNA结合亲和力。我们应用自监督学习在ATAC-seq实验峰中的超过1300万个核苷酸序列上预训练TRAFICA，以学习体内TF结合偏好。TRAFICA进一步使用来自PBM和HT-SELEX技术的TF-DNA结合谱进行微调，以学习TF与其靶DNA序列之间的关联。我们观察到，TRAFICA在预测体外和体内TF-DNA结合亲和力方面显著优于基于机器学习和基于深度学习的工具。这些发现表明，考虑开放染色质区域序列的特征可以显著改善TF-DNA结合亲和力预测，特别是在特定TF可用的高通量技术TF-DNA结合谱有限的情况下。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.11.02.565416",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.11.02.565416",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.11.02.565416/index.html"
+}

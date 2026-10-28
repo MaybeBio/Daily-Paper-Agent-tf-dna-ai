@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Methods, Simulation Methods, Supplementary Material notice)
+- **Assessment boundary** Scientific content, methodological soundness, interpretation of results, and alignment with stated claims. No line numbers were provided; references to specific locations are by section or figure name.
+- **Shared manuscript claim summary** The authors report that S. cerevisiae RPA undergoes rapid long-distance diffusion on long ssDNA under tension, with a diffusion coefficient of ~20,000 nt²/s at 3 pN and 100 mM KCl. They attribute the force-dependent decrease in D to reduced intersegmental transfer, and the salt-dependent decrease to a switch to a higher binding mode. Coarse-grained simulations support intersegmental transfer via transient bridging of distant DNA sites by multiple RPA DNA-binding domains. A truncated RPA construct (FAB) lacking the trimeric core shows ~15-fold higher mobility. Crowding by excess unlabeled RPA reduces D.
+- **Visible evidence base** Abstract, full Results section, Discussion, Methods, Simulation Methods, figure legends referenced in text (Figures 1–5, S1–S5), simulation equations, and experimental protocols.
+- **Missing materials affecting confidence** Figures and figure legends were not provided. Supplementary figures (S1–S5) were referenced but not included. No raw data or analysis code were available for inspection. The manuscript states data availability upon reasonable request, but this was not verifiable.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and technically sophisticated study of RPA diffusion on long ssDNA under tension, combining single-molecule fluorescence with optical tweezers and coarse-grained simulations. The observation of force- and salt-dependent diffusion, with a proposed mechanism of intersegmental transfer, is of significant interest to the DNA metabolism field. However, the absence of figures and supplementary materials limits the ability to fully evaluate the data quality, analysis rigor, and the strength of the conclusions. Several claims, particularly regarding the mechanism of intersegmental transfer and the role of the trimeric core, require additional quantitative support and clearer presentation of the evidence.
+- **Who would be interested in the results, and why** Researchers studying single-stranded DNA binding proteins, DNA replication, repair, and recombination, as well as those interested in protein-DNA interactions, single-molecule biophysics, and coarse-grained simulations of protein-nucleic acid complexes. The findings on intersegmental transfer and the role of multivalent interactions have broad implications for understanding how high-affinity DNA binding proteins achieve rapid mobility and access to DNA.
+- **Major strengths** The combination of experimental single-molecule measurements with coarse-grained simulations is a powerful and appropriate approach. The study addresses a key question—how a high-affinity ssDNA binding protein can diffuse rapidly—and provides a plausible mechanistic explanation. The systematic variation of force and salt concentration is well designed. The comparison of full-length RPA with the FAB construct provides insight into the role of the trimeric core.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the force-dependent decrease in D is due to hindered intersegmental transfer, and that the salt-dependent decrease is due to an increase in binding mode size.
+  - **Evidence pointer** Figures 2D, 2E, 3B, 3C, 3D, S4; Results section "RPA diffusion is affected by DNA tension and salt concentration" and "Coarse grained simulations of RPA diffusion"
+  - **Concern** The central mechanistic claims are not fully supported by the presented evidence. The experimental data show a correlation between force/salt and D, but the attribution to intersegmental transfer is largely inferred from simulations. The simulations show a distribution of transfer sizes and waiting times, but the link between these simulated events and the measured macroscopic D is not quantitatively established. The claim that the salt effect is due to a binding mode switch is plausible but not directly tested; the authors do not measure binding modes under their experimental conditions. The statement that "the salt effect on diffusion of RPA could be governed by the binding mode of RPA, ssDNA flexibility and RPA-ssDNA interaction strength" is speculative and not resolved by the data.
+  - **Why it matters** The core novelty of the paper rests on the mechanism of intersegmental transfer. Without direct experimental evidence for such transfer events (e.g., observation of long-range jumps in the trajectory), the mechanism remains a hypothesis. The salt effect is also a key finding, but the proposed mechanism is not uniquely determined by the data.
+  - **Resolution test** Provide direct experimental evidence for intersegmental transfer, such as analysis of individual trajectories showing discontinuous jumps in position that are force- and salt-dependent. Alternatively, perform simulations that directly compute D from the simulated trajectories and quantitatively match the experimental D values and their force/salt dependence. For the salt effect, measure the binding mode of RPA on long ssDNA under the same conditions (e.g., via smFRET or biochemical assays) and correlate with D.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report a diffusion coefficient of ~20,000 nt²/s at 3 pN and 100 mM KCl, and a ~10-fold decrease at 28 pN.
+  - **Evidence pointer** Figures 2C, 2D, 2E; Results section "RPA diffusion is affected by DNA tension and salt concentration"
+  - **Concern** The conversion of displacement in μm to nucleotides relies on the base-per-rise (BPR) at a given force. The authors state that BPR changes from 3.4 Å at 5 pN to 4.1 Å at higher force, but the method for determining BPR at each force is not described in sufficient detail. The accuracy of the D values in nt²/s depends critically on this conversion. If the BPR is not accurately known, the reported D values and the force dependence could be artifacts. The manuscript does not provide a calibration or validation of the BPR values used.
+  - **Why it matters** The quantitative values of D are a central result. If the BPR conversion is incorrect, the magnitude of D and the reported force dependence would be wrong, undermining the comparison to simulations and the interpretation of the mechanism.
+  - **Resolution test** Provide a detailed description of how BPR was determined at each force, including any calibration experiments. Show the force-extension curve and the fitting procedure. If possible, validate the BPR values using an independent method (e.g., measuring the extension of a known-length ssDNA at different forces).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation and clarity
+  - **Claim pointer** The authors state that "deletion of RPA trimeric core still allowed significant ssDNA binding although the reduced contact area made RPA 15-fold more mobile."
+  - **Evidence pointer** Figure 4; Results section "The 'dynamic half' of RPA consisting of OB-F, DBD-A, and DBD-B has higher mobility"
+  - **Concern** The interpretation of the FAB results is not fully developed. The authors attribute the higher mobility to "reduced contact area," but the FAB construct also lacks the trimeric core, which may affect the overall conformation and dynamics of the protein. The comparison between FAB and full-length RPA is not straightforward, as the two constructs may have different DNA binding affinities and modes. The authors do not discuss whether the FAB results support or challenge the intersegmental transfer model.
+  - **Why it matters** The FAB experiments are presented as a key test of the role of the trimeric core, but the interpretation is incomplete. A more thorough analysis of the FAB diffusion mechanism would strengthen the paper.
+  - **Resolution test** Provide a more detailed analysis of FAB diffusion, including the distribution of step sizes and waiting times, and compare these to the full-length RPA. Discuss whether the FAB results are consistent with the intersegmental transfer model or suggest a different mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "The diffusion coefficient D is the highest (20,000 nucleotides2/s) at 3 pN tension and in 100 mM KCl" but does not specify the units clearly. "nucleotides2/s" is unusual; it should be "nt²/s" or "nucleotides²/s".
+  - **Required correction** Use consistent and clear units, e.g., "nt²/s".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Optical Trap combined with confocal microscopy"
+  - **Issue** The description of the optical trap experiments lacks detail on how the force was measured and controlled, and how the diffusion coefficient was extracted from the trajectories. The manuscript states "Movement of RPA along the ssDNA is recorded as a function of time and visualized as a kymograph" but does not describe the tracking algorithm or the analysis of MSD.
+  - **Required correction** Provide a more detailed description of the data acquisition and analysis, including the tracking method, the number of molecules analyzed, and the error analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figures
+  - **Evidence pointer** Figures 1–5 (not provided)
+  - **Issue** The figures were not provided for review. The text refers to them extensively, but without the figures, it is impossible to assess the quality of the data and the validity of the conclusions.
+  - **Required correction** Ensure that all figures and supplementary figures are included in the manuscript submission for review.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results and Discussion
+  - **Evidence pointer** Results section "RPA diffusion is affected by DNA tension and salt concentration" and Discussion
+  - **Issue** The authors report D values in both μm²/s and nt²/s. The relationship between these two units is not always clear, and the text sometimes switches between them without explanation.
+  - **Required correction** Clearly state the conversion factor used and consistently report D in both units or choose one for clarity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (mechanistic claims not directly supported), R1-M2 (BPR conversion not validated). These are blocking concerns.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study is original in its combination of long ssDNA substrates, tension control, and coarse-grained simulations to address RPA diffusion. The concept of intersegmental transfer for RPA is novel and extends previous work on SSB.
+  - **Scientific importance** The findings are important for understanding how RPA, a central player in DNA metabolism, achieves rapid mobility on ssDNA. The proposed mechanism of intersegmental transfer has implications for how RPA accesses and processes DNA in various contexts.
+  - **Interdisciplinary readership** The work will appeal to biophysicists, biochemists, and molecular biologists interested in DNA-protein interactions, single-molecule techniques, and simulations. The topic is of broad interest to the DNA repair and replication communities.
+  - **Technical soundness** The experimental and computational approaches are state-of-the-art and appropriate. However, the lack of validation for the BPR conversion and the indirect evidence for the intersegmental transfer mechanism are significant technical weaknesses.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but the Methods and Simulation Methods sections are dense and may be challenging for nonspecialists. The figures, if provided, would likely aid comprehension.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses a significant question with a powerful approach, but the central mechanistic claims require stronger experimental support and the quantitative analysis needs validation. The manuscript is not currently established from the provided evidence.
+
+## Risk / unsupported claims
+- The claim that intersegmental transfer is the primary mechanism for long-distance diffusion is not directly supported by experimental evidence; it is inferred from simulations.
+- The claim that the salt-dependent decrease in D is due to a binding mode switch is not directly tested.
+- The quantitative values of D in nt²/s depend on an unvalidated BPR conversion.
+- The statement that "the salt effect on diffusion of RPA could be governed by the binding mode of RPA, ssDNA flexibility and RPA-ssDNA interaction strength" is speculative.
+- The claim that FAB's higher mobility is due to "reduced contact area" is an interpretation that is not fully supported by the data.

@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "39549053",
+    "doi": "10.1007/s00240-024-01655-3",
+    "title": "Comprehensive analysis and validation of TP73 as a biomarker for calcium oxalate nephrolithiasis using machine learning and in vivo and in vitro experiments."
+  },
+  "content": {
+    "abstract": "Calcium oxalate (CaOx) nephrolithiasis constitutes approximately 75% of nephrolithiasis cases, resulting from the supersaturation and deposition of CaOx crystals in renal tissues. Despite their prevalence, precise biomarkers for CaOx nephrolithiasis are lacking. With advances in high-throughput sequencing, we aimed to identify biomarkers of CaOx nephrolithiasis by combining two CaOx nephrolithiasis datasets (GSE73680 and GSE117518). Utilizing weighted gene co-expression network analysis (WGCNA) and four machine learning, we identified six hub genes (DLK2, BHLHA15, C12orf5, ICMT, LOXHD1, and TP73) as potential biomarkers. Additionally, CIBERSORT immune infiltration analysis suggested that these core genes may influence immune cell recruitment and infiltration in CaOx nephrolithiasis. Then, TP73 emerged as a significant hub gene in CaOx nephrolithiasis via receiver operating characteristic (ROC) analysis (AUC = 0.885). Furthermore, the role of TP73 was validated in CaOx nephrolithiasis rat models induced by 1% ethylene glycol, as well as clinical samples and renal tubular epithelial cell models treated with 1 mM oxalate. Immunohistochemistry, RNA-Sequencing, and RT-qPCR experiments demonstrated an increased expression of TP73 in CaOx nephrolithiasis rat models and clinical samples. After transfection with TP73 lentivirus, CCK-8 assays suggested that TP73 could inhibit the proliferation of HK-2 and NRK-52E cells. In oxalate-induced cell models, dihydroethidium staining and flow cytometry apoptosis assays indicated that TP73 could enhance ROS levels and cell apoptosis. In summary, our study preliminarily identified TP73 as a diagnostic biomarker and elucidated the promoting role of TP73 in CaOx nephrolithiasis, providing a deeper understanding of the clinical diagnosis and pathogenesis.",
+    "keywords": [
+      "Biomarker",
+      "Calcium oxalate nephrolithiasis",
+      "Machine learning",
+      "Oxalate-induced cell model",
+      "RNA-Sequencing",
+      "TP73"
+    ],
+    "mesh_terms": [
+      "*Nephrolithiasis/genetics/metabolism",
+      "Animals",
+      "Rats",
+      "*Biomarkers/metabolism/analysis",
+      "*Machine Learning",
+      "Humans",
+      "*Tumor Protein p73/genetics/metabolism",
+      "Male",
+      "Rats, Sprague-Dawley",
+      "Calcium Oxalate/metabolism",
+      "Disease Models, Animal",
+      "Apoptosis/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Zijian",
+        "Wang, Lujia",
+        "Cai, Lingkai",
+        "Gao, Peng",
+        "Lu, Hongcheng",
+        "Wu, Zhong"
+      ],
+      "short_names": [
+        "Zhou Z",
+        "Wang L",
+        "Cai L",
+        "Gao P",
+        "Lu H",
+        "Wu Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Huashan Hospital, Fudan University, 12 Middle Wulumuqi Rd, Shanghai, 200040, People's Republic of China.",
+        "Clinical Research Center of Urolithiasis, Shanghai Medical College, Fudan University, Shanghai, 200040, People's Republic of China.",
+        "Department of Urology, Huashan Hospital, Fudan University, 12 Middle Wulumuqi Rd, Shanghai, 200040, People's Republic of China.",
+        "Clinical Research Center of Urolithiasis, Shanghai Medical College, Fudan University, Shanghai, 200040, People's Republic of China.",
+        "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210000, People's Republic of China.",
+        "Department of Urology, Huashan Hospital, Fudan University, 12 Middle Wulumuqi Rd, Shanghai, 200040, People's Republic of China.",
+        "Clinical Research Center of Urolithiasis, Shanghai Medical College, Fudan University, Shanghai, 200040, People's Republic of China.",
+        "Department of Urology, The Affiliated Wuxi People's Hospital of Nanjing Medical University, Wuxi People's Hospital, Wuxi Medical Center, Nanjing Medical University, Wuxi, 214023, People's Republic of China. lhc@njmu.edu.cn.",
+        "Department of Urology, Huashan Hospital, Fudan University, 12 Middle Wulumuqi Rd, Shanghai, 200040, People's Republic of China. drzhongwu2020@163.com.",
+        "Clinical Research Center of Urolithiasis, Shanghai Medical College, Fudan University, Shanghai, 200040, People's Republic of China. drzhongwu2020@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Zijian",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Huashan Hospital, Fudan University, 12 Middle Wulumuqi Rd, Shanghai, 200040, People's Republic of China.",
+          "Clinical Research Center of Urolithiasis, Shanghai Medical College, Fudan University, Shanghai, 200040, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lujia",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Huashan Hospital, Fudan University, 12 Middle Wulumuqi Rd, Shanghai, 200040, People's Republic of China.",
+          "Clinical Research Center of Urolithiasis, Shanghai Medical College, Fudan University, Shanghai, 200040, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Cai, Lingkai",
+        "short_name": "Cai L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Gao, Peng",
+        "short_name": "Gao P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Huashan Hospital, Fudan University, 12 Middle Wulumuqi Rd, Shanghai, 200040, People's Republic of China.",
+          "Clinical Research Center of Urolithiasis, Shanghai Medical College, Fudan University, Shanghai, 200040, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lu, Hongcheng",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Wuxi People's Hospital of Nanjing Medical University, Wuxi People's Hospital, Wuxi Medical Center, Nanjing Medical University, Wuxi, 214023, People's Republic of China. lhc@njmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhong",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Huashan Hospital, Fudan University, 12 Middle Wulumuqi Rd, Shanghai, 200040, People's Republic of China. drzhongwu2020@163.com.",
+          "Clinical Research Center of Urolithiasis, Shanghai Medical College, Fudan University, Shanghai, 200040, People's Republic of China. drzhongwu2020@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Urolithiasis"
+    ],
+    "journal_abbrev": [
+      "Urolithiasis"
+    ],
+    "pub_date": "2024 Nov 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/16 22:29",
+    "fetched_at": "2026-09-30 05:56:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38839353",
+      "38584465",
+      "38536018",
+      "38520518",
+      "38292203",
+      "38291374",
+      "38235001",
+      "37884883",
+      "37875647",
+      "37789227",
+      "37740796",
+      "37426597",
+      "37414240",
+      "37275548",
+      "37115484",
+      "37006258",
+      "36973787",
+      "36906146",
+      "36816033",
+      "36635710",
+      "36544469",
+      "36128191",
+      "35922749",
+      "35429009",
+      "35156216",
+      "35016690",
+      "34783868",
+      "34749806",
+      "34314237",
+      "34188238",
+      "34121368",
+      "33514941",
+      "32900691",
+      "32647761",
+      "32083808",
+      "32011262",
+      "31606109",
+      "31485878",
+      "31464185",
+      "29405730",
+      "27932479",
+      "27297950",
+      "26424092",
+      "23386643",
+      "22257669"
+    ],
+    "similar": [
+      "39549053",
+      "38536018",
+      "37244400",
+      "39325731",
+      "29843125",
+      "38272103",
+      "38584465",
+      "33852977",
+      "34171488",
+      "37414240",
+      "30378099",
+      "36914110",
+      "16850024",
+      "35255299",
+      "32417393",
+      "31781338",
+      "23123267",
+      "31733571",
+      "31680444",
+      "26538444",
+      "24619192",
+      "29653411",
+      "30186283",
+      "40334962",
+      "7861545",
+      "19005647",
+      "30894518",
+      "29490299",
+      "12793076",
+      "36942317",
+      "27965733",
+      "28567512",
+      "10232684",
+      "39666011",
+      "30623435",
+      "35328466",
+      "23475213",
+      "19183977",
+      "32083808",
+      "9987084",
+      "34849375",
+      "9813634",
+      "31735555",
+      "19241135",
+      "36336747",
+      "32931452",
+      "23754513",
+      "19244400",
+      "36099652",
+      "34745087",
+      "17786420",
+      "22993075",
+      "25407799",
+      "33772775",
+      "16479391",
+      "11156696",
+      "32907948",
+      "33867828",
+      "37236026",
+      "30396308",
+      "35251369",
+      "39153536",
+      "18981681",
+      "33857849",
+      "38520518",
+      "36947229",
+      "37633237",
+      "38665028",
+      "35703358",
+      "29091707",
+      "33416117",
+      "29435125",
+      "33191819",
+      "32433482",
+      "9467470",
+      "9604816",
+      "31408871",
+      "35332173",
+      "8426432",
+      "16925768",
+      "33718378",
+      "10982163",
+      "40069788",
+      "39899077",
+      "35852714",
+      "39457592",
+      "27040948",
+      "12028300",
+      "32641994",
+      "31029908",
+      "35081536",
+      "26281564",
+      "19078987",
+      "33786645",
+      "29849862",
+      "15213319",
+      "31202812",
+      "31178964",
+      "37313343",
+      "39357728"
+    ],
+    "review": [
+      "39549053",
+      "11156696"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/kidneystones.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Stones"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00240-024-01655-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

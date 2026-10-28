@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report that the betasatellite-encoded βC1 protein exhibits ATP hydrolysis activity dependent on MgCl2, that this activity is conserved across diverse betasatellites, that specific lysine/arginine residues at positions 49/50 and 91 are essential for ATPase function, that ATP binding interferes with DNA-binding activity, that arginine 91 is critical for both activities, that a dominant negative ATPase mutant retains wild-type symptom induction, and that ATPase function negatively correlates with viral DNA accumulation but positively influences Rep and βC1 transcript levels.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, all experimental figures and tables, sequence alignments, docking results, mutant construction details, statistical analyses, and raw data for DNA and transcript accumulation measurements
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially novel enzymatic function for a plant viral pathogenicity determinant, with implications for understanding geminivirus-betasatellite interactions. The claim of ATPase activity in βC1 is unexpected and, if rigorously validated, would represent a meaningful advance. However, the abstract alone provides insufficient detail to assess the robustness of the biochemical assays, the specificity of the ATPase activity, the quality of the mutant phenotyping, or the strength of the correlation between ATPase function and viral DNA accumulation. Several claims are stated without quantitative support, and the relationship between in vitro activities and in planta effects remains mechanistically unclear.
+- **Who would be interested in the results, and why** Plant virologists studying geminivirus-betasatellite complexes and viral pathogenesis; molecular biologists interested in viral protein multifunctionality; researchers working on ATP-dependent nucleic acid binding proteins; and those studying plant-virus interactions and disease management strategies for economically important crops.
+- **Major strengths** The identification of a novel biochemical activity for a well-studied pathogenicity determinant is conceptually interesting. The claim of ubiquity across diverse betasatellites suggests broad relevance. The combination of mutational analysis, biochemical assays, and in planta experiments indicates a multi-pronged approach. The potential regulatory link between ATPase activity and DNA-binding offers a plausible mechanistic framework.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The βC1 protein exhibits ATPase activity in the presence of MgCl2, and this activity is essential for its function.
+  - **Evidence pointer** Abstract, "ATPase activity" section; location not provided
+  - **Concern** The abstract states that ATPase activity was identified and confirmed, but provides no details on the assay conditions, controls for contaminating ATPases, kinetic parameters, or specificity for ATP versus other NTPs. The later statement that cold GTP, CTP, and UTP inhibit ATP hydrolysis suggests broad NTPase activity, which is not reconciled with the claim of specific ATPase function.
+  - **Why it matters** Without rigorous controls for contaminating enzymes and without kinetic characterization, the claim of intrinsic ATPase activity cannot be distinguished from non-specific hydrolysis or background activity. The apparent broad NTP specificity also raises questions about the physiological relevance of ATP-specific hydrolysis.
+  - **Resolution test** Provide detailed ATPase assay methods including protein purity assessment, negative controls with heat-denatured protein or unrelated proteins, kinetic parameters (Km, kcat), and comparative hydrolysis rates for ATP, GTP, CTP, and UTP.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Mutating arginine 91 to alanine reduced DNA-binding activity, and docking studies show overlap of ATP-binding and DNA-binding regions.
+  - **Evidence pointer** Abstract, "DNA-binding activity" and "docking studies" sections; location not provided
+  - **Concern** The abstract reports that ATP binding interferes with DNA binding and that R91A mutation reduces DNA binding, but does not provide quantitative data on binding affinities, specificity, or the magnitude of the effects. The docking studies are mentioned as evidence for overlap, but no details on the docking methodology, scoring, or validation are given.
+  - **Why it matters** The mechanistic claim that ATP and DNA compete for overlapping binding sites is central to the proposed regulatory model. Without quantitative binding data and robust structural predictions, the overlap claim remains speculative.
+  - **Resolution test** Provide electrophoretic mobility shift assay data with quantified binding constants for wild-type and mutant proteins in the presence and absence of ATP, and include docking validation (e.g., comparison with known structures, cross-validation with mutagenesis).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** A mutant betasatellite with a βC1-ATPase dominant negative mutation induced symptoms similar to wild-type, and ATPase function negatively correlates with viral DNA accumulation but positively influences Rep and βC1 transcript levels.
+  - **Evidence pointer** Abstract, "mutant betasatellite" and "ATPase function" sections; location not provided
+  - **Concern** The abstract reports that the ATPase mutant induces wild-type-like symptoms, yet also states that ATPase function negatively affects DNA accumulation. These observations are not mechanistically reconciled. If ATPase activity reduces viral DNA accumulation, one would expect the mutant to show altered symptoms or DNA levels. The positive influence on Rep and βC1 transcripts adds further complexity that is not explained.
+  - **Why it matters** The in planta data are critical for establishing biological relevance. The apparent disconnect between symptom phenotype, DNA accumulation, and transcript levels suggests either compensatory mechanisms or that the measured effects are not causally linked to ATPase activity.
+  - **Resolution test** Provide time-course data for symptom development, viral DNA and transcript accumulation for wild-type and mutant infections, and statistical analyses. Clarify the mechanistic model that reconciles reduced DNA accumulation with wild-type symptoms and increased transcript levels.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, "IMPORTANCE" section
+  - **Evidence pointer** Abstract, "IMPORTANCE" section; location not provided
+  - **Issue** The statement that "inhibition of ATPase activity in the presence of an excess concentration of cold ATP, GTP, CTP, or UTP" is confusingly worded. It is unclear whether this refers to competitive inhibition of labeled ATP hydrolysis or to direct hydrolysis of these NTPs.
+  - **Required correction** Rephrase to clearly state whether the NTPs are substrates or competitive inhibitors, and specify the experimental design.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, "ATPase activity" section
+  - **Evidence pointer** Abstract, "ATPase activity" section; location not provided
+  - **Issue** The abstract states that conserved lysine/arginine residues at positions 49/50 and 91 are essential, but does not specify which mutations were made or whether single or double mutants were tested.
+  - **Required correction** Specify the exact mutations (e.g., K49A, R50A, R91A) and whether they were tested individually or in combination.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract, "IMPORTANCE" section
+  - **Evidence pointer** Abstract, "IMPORTANCE" section; location not provided
+  - **Issue** The abstract claims that these results "established the importance" of ATPase and DNA-binding activities, but the data described do not establish causality, only correlation.
+  - **Required correction** Soften the language to "suggest a role" or "provide evidence for" rather than "established."
+
+## Risk / unsupported claims
+- The claim that ATPase activity is "ubiquitously displayed" by βC1 proteins from diverse betasatellites is unsupported without showing the number of betasatellites tested and the assay data.
+- The claim that ATP binding interferes with DNA-binding activity is not quantitatively supported.
+- The claim that docking studies provide evidence for overlap of ATP-binding and DNA-binding regions is unverifiable without methodological details.
+- The claim that the ATPase mutant induces symptoms similar to wild-type is stated without quantitative symptom scoring.
+- The mechanistic link between ATPase activity, DNA accumulation, and transcript levels is not established from the abstract data.
+- The statement that βC1 can hydrolyze other NTPs besides ATP is not supported by direct hydrolysis data, only by inhibition of ATP hydrolysis.

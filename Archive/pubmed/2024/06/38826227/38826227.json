@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "38826227",
+    "doi": "10.21203/rs.3.rs-4391296/v1",
+    "title": "Network Analyses of Brain Tumor Patients' Multiomic Data Reveals Pharmacological Opportunities to Alter Cell State Transitions."
+  },
+  "content": {
+    "abstract": "Glioblastoma Multiforme (GBM) remains a particularly difficult cancer to treat, and survival outcomes remain poor. In addition to the lack of dedicated drug discovery programs for GBM, extensive intratumor heterogeneity and epigenetic plasticity related to cell-state transitions are major roadblocks to successful drug therapy in GBM. To study these phenomenon, publicly available snRNAseq and bulk RNAseq data from patient samples were used to categorize cells from patients into four cell states (i.e. phenotypes), namely: (i) neural progenitor-like (NPC-like), (ii) oligodendrocyte progenitor-like (OPC-like), (iii) astrocyte- like (AC-like), and (iv) mesenchymal-like (MES-like). Patients were subsequently grouped into subpopulations based on which cell-state was the most dominant in their respective tumor. By incorporating phosphoproteomic measurements from the same patients, a protein-protein interaction network (PPIN) was constructed for each cell state. These four-cell state PPINs were pooled to form a single Boolean network that was used for in silico protein knockout simulations to investigate mechanisms that either promote or prevent cell state transitions. Simulation results were input into a boosted tree machine learning model which predicted the cell states or phenotypes of GBM patients from an independent public data source, the Glioma Longitudinal Analysis (GLASS) Consortium. Combining the simulation results and the machine learning predictions, we generated hypotheses for clinically relevant causal mechanisms of cell state transitions. For example, the transcription factor TFAP2A can be seen to promote a transition from the NPC-like to the MES-like state. Such protein nodes and the associated signaling pathways provide potential drug targets that can be further tested in vitro and support cell state-directed (CSD) therapy.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bumbaca, Brandon",
+        "Birtwistle, Marc R",
+        "Gallo, James M"
+      ],
+      "short_names": [
+        "Bumbaca B",
+        "Birtwistle MR",
+        "Gallo JM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7053-4954",
+        "ORCID: 0000-0002-0341-0705",
+        "ORCID: 0000-0003-1553-4817"
+      ],
+      "affiliations": [
+        "Department of Pharmaceutical Sciences, School of Pharmacy and Pharmaceutical Sciences, University at Buffalo, Buffalo NY, USA.",
+        "Department of Chemical and Biomolecular Engineering, Clemson University, Clemson SC, USA.",
+        "Department of Bioengineering, Clemson University, Clemson SC, USA.",
+        "Department of Pharmaceutical Sciences, School of Pharmacy and Pharmaceutical Sciences, University at Buffalo, Buffalo NY, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bumbaca, Brandon",
+        "short_name": "Bumbaca B",
+        "identifiers": [
+          "0000-0001-7053-4954"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmacy and Pharmaceutical Sciences, University at Buffalo, Buffalo NY, USA."
+        ]
+      },
+      {
+        "full_name": "Birtwistle, Marc R",
+        "short_name": "Birtwistle MR",
+        "identifiers": [
+          "0000-0002-0341-0705"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Clemson University, Clemson SC, USA.",
+          "Department of Bioengineering, Clemson University, Clemson SC, USA."
+        ]
+      },
+      {
+        "full_name": "Gallo, James M",
+        "short_name": "Gallo JM",
+        "identifiers": [
+          "0000-0003-1553-4817"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, School of Pharmacy and Pharmaceutical Sciences, University at Buffalo, Buffalo NY, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Research square"
+    ],
+    "journal_abbrev": [
+      "Res Sq"
+    ],
+    "pub_date": "2024 May 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/03 06:42",
+    "fetched_at": "2026-09-29 21:28:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37433817",
+      "37330579",
+      "36699385",
+      "36642831",
+      "36539501",
+      "36104561",
+      "34932099",
+      "34594038",
+      "34528760",
+      "34424912",
+      "34087162",
+      "34062119",
+      "33766119",
+      "33681822",
+      "33577785",
+      "33502086",
+      "33362239",
+      "33199490",
+      "32641768",
+      "32607472",
+      "32437507",
+      "32332754",
+      "32142659",
+      "32101725",
+      "31728204",
+      "31340985",
+      "31327527",
+      "31167470",
+      "30992437",
+      "30912184",
+      "30200436",
+      "30119081",
+      "29457794",
+      "29432615",
+      "29321659",
+      "29091775",
+      "28881959",
+      "28855349",
+      "28697342",
+      "28607484",
+      "28263967",
+      "27898060",
+      "27806376",
+      "26771021",
+      "25605792",
+      "25516281",
+      "24925914",
+      "24706837",
+      "24352766",
+      "24120142",
+      "23182702",
+      "22854781",
+      "21848914",
+      "20714216",
+      "20555079",
+      "20150378",
+      "20129251",
+      "20032975",
+      "19228619",
+      "18772890",
+      "18772396",
+      "16818626",
+      "16530701",
+      "15758010",
+      "10841526"
+    ],
+    "similar": [
+      "38826227",
+      "38766170",
+      "39893170",
+      "38650010",
+      "31298733",
+      "36054938",
+      "34976314",
+      "36642831",
+      "37397378",
+      "31973233",
+      "35600402",
+      "39804431",
+      "38538643",
+      "36877162",
+      "39115241",
+      "36689332",
+      "38633778",
+      "27419830",
+      "39326421",
+      "40222970",
+      "39936963",
+      "33671112",
+      "22589395",
+      "38698847",
+      "38554116",
+      "38370784",
+      "35441887",
+      "29927689",
+      "32243127",
+      "38595234",
+      "35599254",
+      "35414102",
+      "30376874",
+      "27530866",
+      "38681778",
+      "25397368",
+      "25361488",
+      "37553713",
+      "36250346",
+      "37609137",
+      "40188324",
+      "35669791",
+      "38848360",
+      "39592459",
+      "36532035",
+      "38566128",
+      "38684700",
+      "39629136",
+      "34301218",
+      "23907387",
+      "33195193",
+      "37759283",
+      "27617697",
+      "39707474",
+      "35558067",
+      "36129048",
+      "32094299",
+      "39487455",
+      "37121053",
+      "38230570",
+      "37420311",
+      "36321557",
+      "32616845",
+      "30952620",
+      "35410293",
+      "36945572",
+      "39051633",
+      "38339384",
+      "39532103",
+      "39731064",
+      "37727789",
+      "39424705",
+      "35982954",
+      "40234567",
+      "37964983",
+      "37351164",
+      "34805184",
+      "24146797",
+      "29700308",
+      "40084746",
+      "35248814",
+      "36798872",
+      "40225293",
+      "36915208",
+      "38773970",
+      "40148380",
+      "37650991",
+      "21595984",
+      "25085363",
+      "25242542",
+      "35327982",
+      "20206691",
+      "40301302",
+      "35260196",
+      "35328072",
+      "36853018",
+      "38548861",
+      "21900396",
+      "32079293",
+      "36949071"
+    ],
+    "review": [
+      "38826227",
+      "39936963",
+      "25397368",
+      "37553713",
+      "27617697",
+      "36129048",
+      "36321557",
+      "39731064",
+      "39424705"
+    ],
+    "pmc": [
+      "11142360"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38826227/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38826227",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3929",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21203/rs.3.rs-4391296/v1",
+        "provider": "Research Square",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

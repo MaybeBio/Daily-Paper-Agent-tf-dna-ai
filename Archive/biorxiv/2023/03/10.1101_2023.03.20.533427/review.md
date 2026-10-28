@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, background, method, results, discussion, conclusions, declarations) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and support of claims based solely on the supplied text
+- **Shared manuscript claim summary** The authors present DRPbind, an SVM-based predictor for DNA, RNA, and protein binding residues in intrinsically disordered protein sequences, using evolutionary, physicochemical, and structural features. They claim superior performance over the state-of-the-art method DeepDISOBind on a benchmark dataset, and mention an extension, DeepDRPbind, evaluated in the CAID-2 project.
+- **Visible evidence base** Abstract, Background, Method (feature extraction, experimentation), Results and Discussion, Conclusions, Declarations. No figures, tables, or supplementary materials are included in the provided text.
+- **Missing materials affecting confidence** Tables 1 and 2, Figure 1, detailed feature formulas, hyperparameter settings, dataset composition, performance metrics, statistical significance tests, and code documentation are not provided. These omissions prevent full evaluation of the claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology, namely the prediction of nucleic acid and protein binding residues in intrinsically disordered regions. The proposed method integrates multiple feature types and uses a standard SVM classifier. However, the provided text lacks critical details on dataset characteristics, feature computation, model optimization, and quantitative results. The central claim of superior performance is not verifiable from the supplied material, as no numerical data or comparative analysis are shown. The manuscript is at a preliminary stage and requires substantial additions to support its conclusions.
+- **Who would be interested in the results, and why** Researchers in computational biology, protein function prediction, and intrinsically disordered protein analysis would be interested. The method could be useful for annotating binding sites in disordered regions, which is relevant to understanding gene regulation and disease mechanisms. The availability of source code may attract practitioners seeking tools for binding residue prediction.
+- **Major strengths** The problem is well-motivated and practically important. The method combines multiple complementary feature sources, which is a reasonable strategy. The use of a benchmark dataset from prior work allows for direct comparison with existing methods. The mention of an extension evaluated in an independent community project adds some credibility, though this is not part of the current analysis.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that DRPbind "outperforms the state-of-the-art predictor (DeepDISOBind) and is the most accurate predictor in terms of simultaneously predicting the DNA, RNA and protein-binding residues."
+  - **Evidence pointer** Results and Discussion, Table 2 (not provided)
+  - **Concern** The claim of superior performance is made without presenting any numerical results, performance metrics, or statistical comparisons. Table 2 is referenced but not included in the supplied text. Without these data, the claim cannot be assessed or reproduced.
+  - **Why it matters** The central contribution of the manuscript is the claimed improvement over existing methods. If this claim is not supported by transparent and complete results, the scientific value of the work is not established.
+  - **Resolution test** Provide Table 2 with all relevant metrics (e.g., sensitivity, specificity, MCC, AUC) for DRPbind and DeepDISOBind on the same test set, including confidence intervals or statistical tests. The claim should be re-evaluated after these data are available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The method section describes feature extraction using PSSM, HMM, structural attributes, and physicochemical indexes, followed by AAC, bigram, and AC features, but the exact formulas and parameters are not fully specified.
+  - **Evidence pointer** Method, Section A (Feature extraction method)
+  - **Concern** The feature computation formulas are referenced but not shown in the provided text. The number of physicochemical indexes is stated inconsistently (544 indexes mentioned, then 27 indexes stated). The distance factor for AC is not defined. These omissions prevent replication of the method.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without precise feature definitions and parameter values, other researchers cannot implement or validate the approach.
+  - **Resolution test** Include complete formulas for AAC, bigram, and AC, specify the exact set of physicochemical indexes used, define all parameters, and provide the code or a detailed pseudocode. The method should be reproducible from the manuscript alone.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset transparency
+  - **Claim pointer** The manuscript states that "We employ the data sets previously introduced by Zhang et al." and refers to Table 1 for details of training, validation, and test sets.
+  - **Evidence pointer** Method, Table 1 (not provided)
+  - **Concern** The dataset composition, including the number of sequences, residue counts, positive and negative class balance, and the source of the data, is not described. The criteria for defining binding residues and the handling of disordered regions are not explained.
+  - **Why it matters** Dataset characteristics strongly influence model performance and generalizability. Without this information, the reported results cannot be interpreted or compared fairly with other methods.
+  - **Resolution test** Provide Table 1 with full dataset statistics, describe the annotation criteria, and clarify how disordered regions were defined. The dataset should be accessible or described in sufficient detail for independent use.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological novelty
+  - **Claim pointer** The manuscript states that DRPbind "utilizes independent sources of information encoded for each component predictor" and "relies on the information-rich profiles of protein evolutionary-based features, protein physicochemical-based features, and protein structural-based features."
+  - **Evidence pointer** Abstract, Background, Method
+  - **Concern** The novelty of the approach is not clearly articulated. The use of PSSM, HMM, structural features, and SVM is well-established in the field. The manuscript does not explain what is new compared to existing methods, such as DeepDISOBind, beyond combining these features in a specific way.
+  - **Why it matters** For a method paper, the contribution must be clearly defined. If the approach is largely a re-combination of existing techniques, the scientific advance is limited.
+  - **Resolution test** Clarify the specific innovations in feature engineering, model architecture, or training strategy. Provide a comparison with baseline methods using the same features to isolate the contribution of each component.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that DRPbind "predicts three components" but does not specify whether these are predicted jointly or independently. The phrase "simultaneously predicting" is ambiguous.
+  - **Required correction** Clarify whether the model outputs all three binding types at once or uses separate classifiers for each type.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Method, Section A
+  - **Evidence pointer** Method, Section A
+  - **Issue** The text mentions "544 amino acid indexes" but then states "The set contains 27 amino acid indexes." This inconsistency is confusing.
+  - **Required correction** Correct the number of indexes used and explain the selection process.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Method, Section B
+  - **Evidence pointer** Method, Section B
+  - **Issue** The description of SVM optimization is vague. The kernel parameters are selected via grid search, but the range of values and the criterion for selection are not given.
+  - **Required correction** Specify the grid search ranges and the evaluation metric used for parameter selection.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Relevance
+  - **Affected element** Background
+  - **Evidence pointer** Background
+  - **Issue** The mention of DeepDRPbind and its performance in CAID-2 is not part of the current analysis. This may distract from the main results.
+  - **Required correction** Either present DeepDRPbind results in this manuscript or remove the reference to avoid confusion.
+- **Technical failings that need to be addressed before the case is established** The absence of quantitative results (Table 2), incomplete feature definitions, inconsistent physicochemical index count, and lack of dataset details are critical technical failings. These must be resolved before the performance claim can be evaluated.
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach is a combination of existing feature types and a standard classifier. The novelty is not clearly established, so originality is limited based on the provided text.
+  - Scientific importance: The problem is important, but the contribution is incremental. The manuscript does not demonstrate a significant advance over existing methods.
+  - Interdisciplinary readership: The topic is relevant to computational biology and structural biology, but the presentation is technical and may not appeal to a broad interdisciplinary audience.
+  - Technical soundness: The method is plausible, but the lack of details on features, parameters, and evaluation prevents a full assessment of technical soundness.
+  - Readability for nonspecialists: The text is generally clear but assumes familiarity with bioinformatics tools and concepts. The abstract is accessible, but the method section is dense.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires major revisions, including full results, detailed methods, and dataset description, before the claims can be supported. If these are provided and the performance claim holds, the work could be of interest to the specialized community.
+
+## Risk / unsupported claims
+- The claim that DRPbind outperforms DeepDISOBind is unsupported because no numerical results are provided.
+- The claim that DRPbind is "the most accurate predictor" is unsupported without a comprehensive comparison.
+- The performance of DeepDRPbind in CAID-2 is mentioned but not analyzed, so it cannot be used to support the current claims.
+- The effectiveness of the feature combination is not demonstrated, as no ablation or feature importance analysis is provided.

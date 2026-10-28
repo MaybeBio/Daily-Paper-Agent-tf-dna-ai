@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36510032",
+  "title": "Formal verification confirms the role of p53 protein in cell fate decision mechanism.",
+  "authors": "Mahmoud, Eman Abdelaziz; Herajy, Mostafa; Ziedan, Ibrahim E; Shehata, Hazem I",
+  "journal": "Theory in biosciences = Theorie in den Biowissenschaften",
+  "published_date": "2022-12-13",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用混合Petri网建模p53蛋白在细胞命运决定中的动态行为，属于纯生物网络建模，无蛋白质-DNA互作、无AI/物理模拟方法，与本课题无关。",
+  "abstract": "The bio-cell cycle is controlled by a complex biochemical network of signaling pathways. Modeling such challenging networks accurately is imperative for the understanding of their detailed dynamical behavior. In this paper, we construct, analyze, and verify a hybrid Petri net (HPN) model of a complex biochemical network that captures the role of an important protein (namely p53) in deciding the fate of the cell. We model the behavior of the cell nucleus and cytoplasm as two stochastic and continuous Petri nets, respectively, combined together into a single HPN. We use simulative model checking to verify three different properties that capture the dynamical behavior of p53 protein with respect to the intensity of the ionizing radiation (IR) to which the cell is exposed. For each IR dose, 1000 simulation runs are carried out to verify each property. Our verification results showed that the fluctuations in p53, which relies on IR intensity, are compatible with the findings of the preceding simulation studies that have previously examined the role of p53 in cell fate decision.",
+  "abstract_zh": "生物细胞周期由信号通路的复杂生化网络所控制。精确建模此类具有挑战性的网络对于理解其详细动态行为至关重要。本文构建、分析并验证了一个混合Petri网（HPN）模型，该模型针对一个复杂生化网络，捕捉了重要蛋白质（即p53）在决定细胞命运中的作用。我们将细胞核和细胞质的行为分别建模为两个随机和连续Petri网，并组合成一个单一的HPN。我们使用模拟模型检验来验证三个不同属性，这些属性捕捉了p53蛋白相对于细胞所受电离辐射（IR）强度的动态行为。对于每种IR剂量，进行了1000次模拟运行以验证每个属性。我们的验证结果表明，依赖于IR强度的p53波动与先前研究p53在细胞命运决定中作用的模拟研究结果相符。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36510032/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36510032/",
+  "paper_page_path": "papers/pubmed/36510032/index.html"
+}

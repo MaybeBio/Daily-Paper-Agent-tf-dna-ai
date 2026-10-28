@@ -1,0 +1,1025 @@
+{
+  "identity": {
+    "pmid": "34417454",
+    "doi": "10.1038/s41467-021-24994-w",
+    "title": "Detection and characterization of lung cancer using cell-free DNA fragmentomes."
+  },
+  "content": {
+    "abstract": "Non-invasive approaches for cell-free DNA (cfDNA) assessment provide an opportunity for cancer detection and intervention. Here, we use a machine learning model for detecting tumor-derived cfDNA through genome-wide analyses of cfDNA fragmentation in a prospective study of 365 individuals at risk for lung cancer. We validate the cancer detection model using an independent cohort of 385 non-cancer individuals and 46 lung cancer patients. Combining fragmentation features, clinical risk factors, and CEA levels, followed by CT imaging, detected 94% of patients with cancer across stages and subtypes, including 91% of stage I/II and 96% of stage III/IV, at 80% specificity. Genome-wide fragmentation profiles across ~13,000 ASCL1 transcription factor binding sites distinguished individuals with small cell lung cancer from those with non-small cell lung cancer with high accuracy (AUC = 0.98). A higher fragmentation score represented an independent prognostic indicator of survival. This approach provides a facile avenue for non-invasive detection of lung cancer.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adolescent",
+      "Adult",
+      "Aged",
+      "Aged, 80 and over",
+      "Apoptosis",
+      "Carcinoma, Non-Small-Cell Lung/diagnosis/genetics/pathology",
+      "Cell Line, Tumor",
+      "Circulating Tumor DNA/*metabolism",
+      "*DNA Fragmentation",
+      "Diagnosis, Differential",
+      "Early Detection of Cancer",
+      "Female",
+      "Genome, Human",
+      "Humans",
+      "Lung Neoplasms/*diagnosis/*genetics/pathology",
+      "Male",
+      "Middle Aged",
+      "Models, Biological",
+      "Neoplasm Metastasis",
+      "Neoplasm Staging",
+      "Small Cell Lung Carcinoma/diagnosis/genetics/pathology",
+      "Young Adult"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Observational Study",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mathios, Dimitrios",
+        "Johansen, Jakob Sidenius",
+        "Cristiano, Stephen",
+        "Medina, Jamie E",
+        "Phallen, Jillian",
+        "Larsen, Klaus R",
+        "Bruhm, Daniel C",
+        "Niknafs, Noushin",
+        "Ferreira, Leonardo",
+        "Adleff, Vilmos",
+        "Chiao, Jia Yuee",
+        "Leal, Alessandro",
+        "Noe, Michael",
+        "White, James R",
+        "Arun, Adith S",
+        "Hruban, Carolyn",
+        "Annapragada, Akshaya V",
+        "Jensen, Sarah Ostrup",
+        "Orntoft, Mai-Britt Worm",
+        "Madsen, Anders Husted",
+        "Carvalho, Beatriz",
+        "de Wit, Meike",
+        "Carey, Jacob",
+        "Dracopoli, Nicholas C",
+        "Maddala, Tara",
+        "Fang, Kenneth C",
+        "Hartman, Anne-Renee",
+        "Forde, Patrick M",
+        "Anagnostou, Valsamo",
+        "Brahmer, Julie R",
+        "Fijneman, Remond J A",
+        "Nielsen, Hans Jorgen",
+        "Meijer, Gerrit A",
+        "Andersen, Claus Lindbjerg",
+        "Mellemgaard, Anders",
+        "Bojesen, Stig E",
+        "Scharpf, Robert B",
+        "Velculescu, Victor E"
+      ],
+      "short_names": [
+        "Mathios D",
+        "Johansen JS",
+        "Cristiano S",
+        "Medina JE",
+        "Phallen J",
+        "Larsen KR",
+        "Bruhm DC",
+        "Niknafs N",
+        "Ferreira L",
+        "Adleff V",
+        "Chiao JY",
+        "Leal A",
+        "Noe M",
+        "White JR",
+        "Arun AS",
+        "Hruban C",
+        "Annapragada AV",
+        "Jensen SO",
+        "Orntoft MW",
+        "Madsen AH",
+        "Carvalho B",
+        "de Wit M",
+        "Carey J",
+        "Dracopoli NC",
+        "Maddala T",
+        "Fang KC",
+        "Hartman AR",
+        "Forde PM",
+        "Anagnostou V",
+        "Brahmer JR",
+        "Fijneman RJA",
+        "Nielsen HJ",
+        "Meijer GA",
+        "Andersen CL",
+        "Mellemgaard A",
+        "Bojesen SE",
+        "Scharpf RB",
+        "Velculescu VE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1470-1516",
+        "ORCID: 0000-0002-5492-9013",
+        "ORCID: 0000-0001-7967-3213",
+        "ORCID: 0000-0002-9097-6511",
+        "ORCID: 0000-0001-6044-3362",
+        "ORCID: 0000-0003-4903-399X",
+        "ORCID: 0000-0001-9480-3047",
+        "ORCID: 0000-0003-2076-5521",
+        "ORCID: 0000-0002-7406-2103",
+        "ORCID: 0000-0002-4061-4133",
+        "ORCID: 0000-0003-4702-2656",
+        "ORCID: 0000-0003-1195-438X"
+      ],
+      "affiliations": [
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "Department of Neurosurgery, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "Department of Oncology, Herlev and Gentofte Hospital, Copenhagen, Denmark.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "Department of Respiratory Medicine, Infiltrate Unit, Bispebjerg Hospital, Copenhagen, Denmark.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "Department of Molecular Medicine, Aarhus University Hospital, Aarhus, Denmark.",
+        "Department of Molecular Medicine, Aarhus University Hospital, Aarhus, Denmark.",
+        "Department of Surgery, Herning Regional Hospital, Herning, Denmark.",
+        "Department of Pathology, The Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Department of Pathology, The Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Delfi Diagnostics, Baltimore, MD, USA.",
+        "Delfi Diagnostics, Baltimore, MD, USA.",
+        "Delfi Diagnostics, Baltimore, MD, USA.",
+        "Delfi Diagnostics, Baltimore, MD, USA.",
+        "Delfi Diagnostics, Baltimore, MD, USA.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+        "Department of Pathology, The Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Department of Surgical Gastroenterology 360, Hvidovre Hospital, Hvidovre, Denmark.",
+        "Department of Pathology, The Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Department of Surgery, Herning Regional Hospital, Herning, Denmark.",
+        "Department of Oncology, Herlev and Gentofte Hospital, Copenhagen, Denmark.",
+        "Department of Clinical Biochemistry, Herlev and Gentofte Hospital, Copenhagen, Denmark.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA. rscharpf@jhu.edu.",
+        "Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA. rscharpf@jhu.edu.",
+        "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA. velculescu@jhmi.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mathios, Dimitrios",
+        "short_name": "Mathios D",
+        "identifiers": [],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+          "Department of Neurosurgery, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Johansen, Jakob Sidenius",
+        "short_name": "Johansen JS",
+        "identifiers": [
+          "0000-0002-1470-1516"
+        ],
+        "affiliations": [
+          "Department of Oncology, Herlev and Gentofte Hospital, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Cristiano, Stephen",
+        "short_name": "Cristiano S",
+        "identifiers": [],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+          "Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Medina, Jamie E",
+        "short_name": "Medina JE",
+        "identifiers": [],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Phallen, Jillian",
+        "short_name": "Phallen J",
+        "identifiers": [
+          "0000-0002-5492-9013"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Larsen, Klaus R",
+        "short_name": "Larsen KR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Medicine, Infiltrate Unit, Bispebjerg Hospital, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Bruhm, Daniel C",
+        "short_name": "Bruhm DC",
+        "identifiers": [],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Niknafs, Noushin",
+        "short_name": "Niknafs N",
+        "identifiers": [],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Ferreira, Leonardo",
+        "short_name": "Ferreira L",
+        "identifiers": [],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Adleff, Vilmos",
+        "short_name": "Adleff V",
+        "identifiers": [],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Chiao, Jia Yuee",
+        "short_name": "Chiao JY",
+        "identifiers": [],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Leal, Alessandro",
+        "short_name": "Leal A",
+        "identifiers": [
+          "0000-0001-7967-3213"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Noe, Michael",
+        "short_name": "Noe M",
+        "identifiers": [],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "White, James R",
+        "short_name": "White JR",
+        "identifiers": [],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Arun, Adith S",
+        "short_name": "Arun AS",
+        "identifiers": [],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Hruban, Carolyn",
+        "short_name": "Hruban C",
+        "identifiers": [],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Annapragada, Akshaya V",
+        "short_name": "Annapragada AV",
+        "identifiers": [
+          "0000-0002-9097-6511"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Jensen, Sarah Østrup",
+        "short_name": "Jensen SØ",
+        "identifiers": [
+          "0000-0001-6044-3362"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, Aarhus University Hospital, Aarhus, Denmark."
+        ]
+      },
+      {
+        "full_name": "Ørntoft, Mai-Britt Worm",
+        "short_name": "Ørntoft MW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, Aarhus University Hospital, Aarhus, Denmark."
+        ]
+      },
+      {
+        "full_name": "Madsen, Anders Husted",
+        "short_name": "Madsen AH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Herning Regional Hospital, Herning, Denmark."
+        ]
+      },
+      {
+        "full_name": "Carvalho, Beatriz",
+        "short_name": "Carvalho B",
+        "identifiers": [
+          "0000-0003-4903-399X"
+        ],
+        "affiliations": [
+          "Department of Pathology, The Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "de Wit, Meike",
+        "short_name": "de Wit M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Carey, Jacob",
+        "short_name": "Carey J",
+        "identifiers": [],
+        "affiliations": [
+          "Delfi Diagnostics, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Dracopoli, Nicholas C",
+        "short_name": "Dracopoli NC",
+        "identifiers": [],
+        "affiliations": [
+          "Delfi Diagnostics, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Maddala, Tara",
+        "short_name": "Maddala T",
+        "identifiers": [],
+        "affiliations": [
+          "Delfi Diagnostics, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Fang, Kenneth C",
+        "short_name": "Fang KC",
+        "identifiers": [],
+        "affiliations": [
+          "Delfi Diagnostics, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Hartman, Anne-Renee",
+        "short_name": "Hartman AR",
+        "identifiers": [],
+        "affiliations": [
+          "Delfi Diagnostics, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Forde, Patrick M",
+        "short_name": "Forde PM",
+        "identifiers": [],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Anagnostou, Valsamo",
+        "short_name": "Anagnostou V",
+        "identifiers": [
+          "0000-0001-9480-3047"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Brahmer, Julie R",
+        "short_name": "Brahmer JR",
+        "identifiers": [],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Fijneman, Remond J A",
+        "short_name": "Fijneman RJA",
+        "identifiers": [
+          "0000-0003-2076-5521"
+        ],
+        "affiliations": [
+          "Department of Pathology, The Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Nielsen, Hans Jørgen",
+        "short_name": "Nielsen HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Gastroenterology 360, Hvidovre Hospital, Hvidovre, Denmark."
+        ]
+      },
+      {
+        "full_name": "Meijer, Gerrit A",
+        "short_name": "Meijer GA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Andersen, Claus Lindbjerg",
+        "short_name": "Andersen CL",
+        "identifiers": [
+          "0000-0002-7406-2103"
+        ],
+        "affiliations": [
+          "Department of Surgery, Herning Regional Hospital, Herning, Denmark."
+        ]
+      },
+      {
+        "full_name": "Mellemgaard, Anders",
+        "short_name": "Mellemgaard A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Herlev and Gentofte Hospital, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Bojesen, Stig E",
+        "short_name": "Bojesen SE",
+        "identifiers": [
+          "0000-0002-4061-4133"
+        ],
+        "affiliations": [
+          "Department of Clinical Biochemistry, Herlev and Gentofte Hospital, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Scharpf, Robert B",
+        "short_name": "Scharpf RB",
+        "identifiers": [
+          "0000-0003-4702-2656"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA. rscharpf@jhu.edu.",
+          "Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA. rscharpf@jhu.edu."
+        ]
+      },
+      {
+        "full_name": "Velculescu, Victor E",
+        "short_name": "Velculescu VE",
+        "identifiers": [
+          "0000-0003-1195-438X"
+        ],
+        "affiliations": [
+          "The Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA. velculescu@jhmi.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Aug 20",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Observational Study",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/22 06:00",
+    "fetched_at": "2026-09-27 22:24:28"
+  },
+  "links": {
+    "cites": [
+      "42682348",
+      "42639369",
+      "42596913",
+      "42568026",
+      "42548440",
+      "42547899",
+      "42507708",
+      "42504045",
+      "42430497",
+      "42428063",
+      "42382778",
+      "42353820",
+      "42352544",
+      "42351520",
+      "42343476",
+      "42306692",
+      "42285091",
+      "42237054",
+      "42218435",
+      "42215793",
+      "42174634",
+      "42165910",
+      "42147254",
+      "42113010",
+      "42069757",
+      "42067888",
+      "42063042",
+      "42037420",
+      "42018154",
+      "42014847",
+      "42001480",
+      "41986614",
+      "41971416",
+      "41928241",
+      "41820395",
+      "41779869",
+      "41772265",
+      "41742078",
+      "41737326",
+      "41726945",
+      "41719115",
+      "41677996",
+      "41652428",
+      "41648039",
+      "41645653",
+      "41640798",
+      "41634102",
+      "41626151",
+      "41595692",
+      "41591979",
+      "41519536",
+      "41457134",
+      "41424720",
+      "41406506",
+      "41398082",
+      "41380836",
+      "41372534",
+      "41323119",
+      "41303467",
+      "41271753",
+      "41249697",
+      "41249499",
+      "41234819",
+      "41234587",
+      "41211419",
+      "41206952",
+      "41154383",
+      "41147459",
+      "41132949",
+      "41097693",
+      "41088482",
+      "41057751",
+      "41027424",
+      "41002349",
+      "40992272",
+      "40977824",
+      "40977812",
+      "40950900",
+      "40920686",
+      "40796676",
+      "40790537",
+      "40723883",
+      "40687260",
+      "40684046",
+      "40684032",
+      "40680231",
+      "40575130",
+      "40568188",
+      "40533607",
+      "40517231",
+      "40474105",
+      "40425843",
+      "40397745",
+      "40340952",
+      "40299319",
+      "40256837",
+      "40255897",
+      "40165930",
+      "40149311",
+      "40133038",
+      "40095751",
+      "40060704",
+      "40059400",
+      "40055581",
+      "40038442",
+      "40034794",
+      "40026566",
+      "39994467",
+      "39944482",
+      "39909829",
+      "39888565",
+      "39867387",
+      "39853587",
+      "39843210",
+      "39807974",
+      "39779727",
+      "39776291",
+      "39769431",
+      "39753323",
+      "39727845",
+      "39704700",
+      "39704423",
+      "39685665",
+      "39660220",
+      "39630008",
+      "39572521",
+      "39525954",
+      "39478151",
+      "39466000",
+      "39458114",
+      "39444874",
+      "39433569",
+      "39406232",
+      "39368093",
+      "39345137",
+      "39319610",
+      "39319217",
+      "39319211",
+      "39293399",
+      "39272211",
+      "39240972",
+      "39222060",
+      "39201053",
+      "39191772",
+      "39178576",
+      "39172974",
+      "39171286",
+      "39118954",
+      "39115548",
+      "39107309",
+      "39093127",
+      "39089259",
+      "39075419",
+      "39068267",
+      "39045325",
+      "38989460",
+      "38927119",
+      "38926407",
+      "38881520",
+      "38849905",
+      "38846326",
+      "38835739",
+      "38835735",
+      "38829053",
+      "38802836",
+      "38700626",
+      "38680658",
+      "38673779",
+      "38598634",
+      "38552610",
+      "38522508",
+      "38496698",
+      "38478628",
+      "38443590",
+      "38416302",
+      "38414068",
+      "38305432",
+      "38293154",
+      "38279243",
+      "38266106",
+      "38260372",
+      "38242121",
+      "38225592",
+      "38175587",
+      "38148837",
+      "38090513",
+      "38089565",
+      "38071680",
+      "38012673",
+      "37954075",
+      "37907748",
+      "37857666",
+      "37806744",
+      "37777714",
+      "37760576",
+      "37758728",
+      "37717120",
+      "37696620",
+      "37696619",
+      "37692363",
+      "37653450",
+      "37598236",
+      "37551102",
+      "37500728",
+      "37421973",
+      "37383403",
+      "37377889",
+      "37367181",
+      "37349125",
+      "37330511",
+      "37330052",
+      "37291189",
+      "37244587",
+      "37212770",
+      "37169023",
+      "37161793",
+      "37087533",
+      "37056631",
+      "36979657",
+      "36915069",
+      "36832253",
+      "36794146",
+      "36777187",
+      "36681803",
+      "36675018",
+      "36657818",
+      "36551600",
+      "36514063",
+      "36509077",
+      "36482487",
+      "36462630",
+      "36430255",
+      "36399432",
+      "36399356",
+      "36386459",
+      "36386449",
+      "36380861",
+      "36357703",
+      "36350985",
+      "36346614",
+      "36281400",
+      "36243387",
+      "36176758",
+      "36096847",
+      "36064595",
+      "36059824",
+      "36056434",
+      "36012272",
+      "35978416",
+      "35841107",
+      "35805043",
+      "35803922",
+      "35803904",
+      "35747846",
+      "35690859",
+      "35674097",
+      "35647572",
+      "35600397",
+      "35565347",
+      "35535966",
+      "35440720",
+      "35307037",
+      "35073982",
+      "35062943",
+      "34943407",
+      "34815523",
+      "34691378",
+      "34638228"
+    ],
+    "refs": [
+      "35121950",
+      "33506766",
+      "33007267",
+      "32816849",
+      "32345712",
+      "32269342",
+      "32106215",
+      "31995683",
+      "31988276",
+      "31782890",
+      "31604930",
+      "31142840",
+      "30573519",
+      "30541742",
+      "30529598",
+      "30445189",
+      "30429608",
+      "30423086",
+      "30350310",
+      "30050770",
+      "30050761",
+      "30003238",
+      "29869537",
+      "29425488",
+      "29109393",
+      "28960111",
+      "28814544",
+      "28750095",
+      "28445469",
+      "28240562",
+      "28152136",
+      "28104840",
+      "27452466",
+      "27093186",
+      "26315516",
+      "26168399",
+      "26138043",
+      "25981554",
+      "25697820",
+      "25079552",
+      "24314615",
+      "23860613",
+      "23460161",
+      "23460160",
+      "23425165",
+      "23197571",
+      "22960745",
+      "22388286",
+      "22323520",
+      "22153832",
+      "22088831",
+      "21714641",
+      "21414208",
+      "20824704",
+      "20555060",
+      "20555059",
+      "20421535",
+      "20110278",
+      "891388"
+    ],
+    "similar": [
+      "34417454",
+      "39233043",
+      "38422026",
+      "31319968",
+      "31319975",
+      "40020968",
+      "39466000",
+      "40133038",
+      "37990399",
+      "40233104",
+      "38797230",
+      "30339193",
+      "39909829",
+      "35073982",
+      "27377626",
+      "33596996",
+      "27555497",
+      "32269342",
+      "28855354",
+      "37871897",
+      "31837429",
+      "40842207",
+      "22335951",
+      "31142840",
+      "31443703",
+      "40001151",
+      "39302034",
+      "31494653",
+      "30153823",
+      "38880832",
+      "26854716",
+      "30704181",
+      "27575703",
+      "28523597",
+      "34994593",
+      "11407827",
+      "28687838",
+      "33837901",
+      "32281142",
+      "32138766",
+      "32317009",
+      "30891595",
+      "40523077",
+      "40055810",
+      "26125447",
+      "38992468",
+      "31694073",
+      "33628109",
+      "40961284",
+      "29686738",
+      "15671543",
+      "30010036",
+      "33334576",
+      "25996920",
+      "39249157",
+      "23810363",
+      "26311076",
+      "38529551",
+      "36012272",
+      "27926526",
+      "42176127",
+      "28497422",
+      "28456790",
+      "32085733",
+      "41546895",
+      "42266691",
+      "22307026",
+      "31870098",
+      "40299319",
+      "21757291",
+      "29313979",
+      "39088983",
+      "32725794",
+      "29729529",
+      "41204224",
+      "32851926",
+      "21779982",
+      "33530206",
+      "41066727",
+      "26464712",
+      "27827952",
+      "27473086",
+      "27597282",
+      "30522169",
+      "28218046",
+      "20506801",
+      "20683209",
+      "30089584",
+      "27281561",
+      "25045014",
+      "38244856",
+      "36346614",
+      "27688262",
+      "41965790",
+      "32492161",
+      "40765058",
+      "31112372",
+      "31243104",
+      "39232927",
+      "30981987"
+    ],
+    "review": [
+      "34417454",
+      "36012272",
+      "41066727",
+      "27597282"
+    ],
+    "pmc": [
+      "8379179"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://clinicaltrials.gov/search?term=AREA%5BReferencePMID%5D34417454",
+        "provider": "ClinicalTrials.gov",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-021-24994-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34417454/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34417454",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34417454",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

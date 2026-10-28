@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "39133496",
+    "doi": "10.1167/tvst.13.8.21",
+    "title": "Identification of Optic Nerve-Related Biomarkers in Primary Open-Angle Glaucoma Based on Comprehensive Bioinformatics and Mendelian Randomization."
+  },
+  "content": {
+    "abstract": "PURPOSE: Glaucoma is the primary cause of permanent vision loss worldwide. However, the pathogenesis of primary open-angle glaucoma (POAG), the main type of glaucoma, has not yet been completely understood. METHODS: In our study, the POAG cohorts were obtained from the Gene Expression Omnibus (GEO) database (GSE45570). Biomarkers with diagnostic utility for POAG were identified through combining differentially expressed analysis, enrichment analysis, machine learning algorithms, and receiver operating characteristic (ROC) analysis. The regulatory networks (including a competing endogenous RNA (ceRNA) regulatory network and a small molecule compounds-mRNA network) were created. In addition, the Mendelian randomization (MR) analysis was used to identify exposures causally associated with POAG. Finally, the expression of the biomarkers was validated via real-time quantitative polymerase chain reaction (RT-qPCR). RESULTS: The Gene Ontology (GO) items that the differentially expressed genes (DEGs) between POAG and control groups enriched were relevant to light stimulation and DNA methylation. A total of three light stimulation-related biomarkers (RAB8A, PRG3, and SMAD3) were identified, which had diagnostic value for POAG patients. Besides, the ceRNA regulatory network contained 88 nodes and 93 edges, and a small molecule compounds-mRNA network included 66 nodes and 76 edges. The MR results indicated a causal association between DNA methylation GrimAge acceleration and POAG. Additionally, the results of RT-qPCR revealed that the expression trend of RAB8A was consistent with that of GSE45570. CONCLUSIONS: Taken together, this study provides three light stimulation-related biomarkers (RAB8A, PRG3, and SMAD3) for the diagnosis of POAG, providing scientifically valuable insights for further studies of POAG. TRANSLATIONAL RELEVANCE: Discovering biomarkers that possess diagnostic significance for POAG has the potential to offer new insights into the pathogenesis of POAG and present novel objectives for clinical intervention.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Glaucoma, Open-Angle/genetics/diagnosis",
+      "*Mendelian Randomization Analysis",
+      "*Computational Biology",
+      "*Gene Regulatory Networks",
+      "*Biomarkers/metabolism",
+      "Smad3 Protein/genetics/metabolism",
+      "Optic Nerve/metabolism",
+      "rab GTP-Binding Proteins/genetics",
+      "ROC Curve",
+      "Proteoglycans/genetics",
+      "Real-Time Polymerase Chain Reaction",
+      "DNA Methylation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Sijie",
+        "Dai, Qing",
+        "Rao, Zixuan",
+        "Li, Juan",
+        "Wang, Aiqin",
+        "Gao, Ziqing",
+        "Fan, Yuchen"
+      ],
+      "short_names": [
+        "Zhao S",
+        "Dai Q",
+        "Rao Z",
+        "Li J",
+        "Wang A",
+        "Gao Z",
+        "Fan Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Ophthalmology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, Anhui, China.",
+        "Department of Ophthalmology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, Anhui, China.",
+        "Department of Ophthalmology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, Anhui, China.",
+        "Bengbu Medical University, Bengbu, Anhui, China.",
+        "Department of Ophthalmology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, Anhui, China.",
+        "Department of Ophthalmology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, Anhui, China.",
+        "Department of Ophthalmology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, Anhui, China.",
+        "Department of Ophthalmology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, Anhui, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Sijie",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Qing",
+        "short_name": "Dai Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Rao, Zixuan",
+        "short_name": "Rao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, Anhui, China.",
+          "Bengbu Medical University, Bengbu, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Li, Juan",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Aiqin",
+        "short_name": "Wang A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Ziqing",
+        "short_name": "Gao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Yuchen",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The First Affiliated Hospital of Bengbu Medical University, Bengbu, Anhui, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational vision science & technology"
+    ],
+    "journal_abbrev": [
+      "Transl Vis Sci Technol"
+    ],
+    "pub_date": "2024 Aug 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/12 12:43",
+    "fetched_at": "2026-09-30 01:08:21"
+  },
+  "links": {
+    "cites": [
+      "41898707",
+      "40940727"
+    ],
+    "refs": [
+      "37799717",
+      "37774963",
+      "37203025",
+      "37138589",
+      "36995007",
+      "36361802",
+      "36131186",
+      "35858990",
+      "35651608",
+      "35389339",
+      "34789280",
+      "34557778",
+      "34348167",
+      "33388417",
+      "33095295",
+      "33075485",
+      "32178636",
+      "31233103",
+      "31091314",
+      "29643443",
+      "28577860",
+      "28484645",
+      "28367255",
+      "28242160",
+      "27300643",
+      "27242026",
+      "27124111",
+      "27065756",
+      "26113209",
+      "25605792",
+      "25064373",
+      "24752605",
+      "24184030",
+      "23506325",
+      "23493296",
+      "23020966",
+      "21607023",
+      "21414208",
+      "21293732",
+      "20973906",
+      "17570640",
+      "17559965",
+      "16485019",
+      "15623795",
+      "15085971",
+      "12973689",
+      "12117754"
+    ],
+    "similar": [
+      "39133496",
+      "39125762",
+      "32178636",
+      "40228223",
+      "37940950",
+      "37774963",
+      "37610681",
+      "36002796",
+      "35461232",
+      "38218362",
+      "40652070",
+      "34592243",
+      "39922523",
+      "40087334",
+      "34156425",
+      "40586668",
+      "33008364",
+      "39560561",
+      "40669929",
+      "40779924",
+      "36493903",
+      "37968618",
+      "41092061",
+      "35872944",
+      "31284309",
+      "40593846",
+      "41047921",
+      "37605653",
+      "35537532",
+      "40821971",
+      "41455522",
+      "36727359",
+      "34926471",
+      "36341343",
+      "33599104",
+      "34536521",
+      "39202443",
+      "39022342",
+      "40350654",
+      "41165397",
+      "40128813",
+      "39568137",
+      "40312440",
+      "41328997",
+      "41080564",
+      "41083787",
+      "35757392",
+      "28894971",
+      "39755370",
+      "35278478",
+      "35909518",
+      "39346628",
+      "41416255",
+      "41415264",
+      "30677397",
+      "39370621",
+      "39717623",
+      "38411971",
+      "35562622",
+      "38619629",
+      "7835397",
+      "38649912",
+      "40263428",
+      "30352225",
+      "41090995",
+      "38394273",
+      "40128732",
+      "40084401",
+      "33987224",
+      "28282485",
+      "40263537",
+      "35900730",
+      "37799717",
+      "41044520",
+      "34838945",
+      "21552501",
+      "40374840",
+      "39107816",
+      "38479028",
+      "40835946",
+      "26988898",
+      "39117358",
+      "37996923",
+      "38863714",
+      "39647286",
+      "38992852",
+      "37379106",
+      "40091789",
+      "18613964",
+      "39341952",
+      "32913388",
+      "22073273",
+      "31197946",
+      "38862806",
+      "40077931",
+      "26411836",
+      "40822862",
+      "27217714",
+      "32685450",
+      "41146237"
+    ],
+    "review": [
+      "39133496",
+      "33008364",
+      "31197946"
+    ],
+    "pmc": [
+      "11323985"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39133496/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://tvst.arvojournals.org/article.aspx?doi=10.1167/tvst.13.8.21",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

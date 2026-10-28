@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the supplied text. No external data, code, or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors present AstraBIND, a lightweight graph attention network (GATv2, 0.9 M parameters) that integrates protein sequence, structure (experimental or predicted), and homology information to predict ligand binding residues and ligand classes across 16 categories. They report a weighted macro-F1 of 0.47 on hold-out testing, highlight top performance for nucleotides (0.79), porphyrins (0.74), and cofactors (0.73), and claim state-of-the-art accuracy with inference times of minutes per protein, suitable for laboratory integration.
+- **Visible evidence base** Abstract, Introduction, Methods (dataset structure, model architecture, training workflow, inference), User Experience, Results (performance metrics, case studies), Discussion, Conclusions. One table (Table 1) and one figure (Figure 2) are referenced but not shown. No code, hyperparameters, training curves, or detailed benchmark comparisons are provided.
+- **Missing materials affecting confidence** Table 1 (full per-class metrics), Figure 2 (case study visualizations), Table 2 (comparison with prior models), training/validation splits, hyperparameter details, ablation studies, statistical significance tests, and any code or reproducibility artifacts. The absence of these materials substantially limits the ability to verify the core claims.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful tool for rapid ligand binding site prediction, with a sensible architectural design that combines sequence, structure, and homology features. However, the evidence provided is insufficient to establish the claimed state-of-the-art performance. The single reported aggregate metric (weighted macro-F1 of 0.47) is modest, and the manuscript acknowledges poor performance for several ligand classes. The case studies are qualitative and include a notable failure case (CRFR1). The lack of quantitative comparisons with existing methods, absence of detailed per-class results, and missing methodological details (e.g., data splits, hyperparameters) prevent a rigorous assessment. The manuscript reads more like a software announcement or preprint describing a tool in development than a fully validated scientific contribution.
+- **Who would be interested in the results, and why** Computational biologists and drug discovery researchers interested in fast, structure-aware binding site prediction tools. The AstraBIND model, if validated, could be useful for high-throughput screening, mutation assessment, and integration into laboratory workflows. The emphasis on speed and accessibility (web platform) may appeal to experimentalists seeking quick in-silico predictions.
+- **Major strengths** 1) The architectural design is thoughtful, particularly the multi-task learning (binding, pocket, ligand class) and the gating mechanism that links ligand prediction to residue-level binding evidence. 2) The integration of sequence, structure, and homology is a pragmatic approach that addresses the trade-off between accuracy and speed. 3) The focus on practical usability (web platform, minutes per protein) is commendable. 4) The authors acknowledge limitations and discuss the difficulty of comparing across models.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims "state-of-the-art accuracy" and "positive results on hold-out dataset testing" based on a weighted macro-F1 of 0.47.
+  - **Evidence pointer** Results, Performance Metrics; Table 1 (not shown)
+  - **Concern** The single reported metric (weighted macro-F1 = 0.47) is presented without context. No comparison to existing methods is provided in the Results section. The Discussion mentions Table 2 for comparisons, but this table is not included in the supplied material. Furthermore, the authors acknowledge that several ligand classes (lipid, nucleoside, organic acid, other, peptide, steroid, vitamin) have F1 scores of 0.1 or less. A claim of state-of-the-art performance cannot be evaluated without direct quantitative comparison to prior models on the same benchmarks.
+  - **Why it matters** The central claim of the manuscript is that AstraBIND achieves high accuracy at low computational cost. Without a benchmark comparison, the reader cannot assess whether this claim is justified. The modest aggregate F1 and poor performance on several classes raise questions about the practical utility of the model for those categories.
+  - **Resolution test** Provide a table comparing AstraBIND's performance (F1, precision, recall, AUC) against at least 3-5 existing methods (e.g., DeepPocket, PURes-Net, GrASP, IF-SitePred) on the same evaluation dataset and metrics. Include per-class results and statistical significance tests (e.g., bootstrap confidence intervals).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The Methods section describes the dataset as "> 250k protein-ligand interactions" from "publicly available curated databases" and a training process with "evaluation thresholds tuned to binding detection quality."
+  - **Evidence pointer** Methods, Dataset structure; Methods, Training workflow
+  - **Concern** Critical methodological details are missing. The specific databases used are not named. The train/validation/test split is not described. The criteria for curating the dataset (e.g., sequence identity cutoffs, ligand filtering) are absent. The process for "tuning evaluation thresholds" is not described, which raises concerns about potential overfitting to the test set. The hyperparameters for the GATv2 model (number of layers, hidden dimensions, learning rate, regularization) are not provided.
+  - **Why it matters** Reproducibility is a cornerstone of scientific contribution. Without these details, other researchers cannot replicate the training or evaluate the model's generalizability. The lack of clarity on data splitting and threshold tuning could lead to inflated performance estimates.
+  - **Resolution test** Specify the exact databases used, the data curation pipeline, the train/validation/test split (including any sequence identity-based filtering), and all hyperparameters. Describe the threshold tuning procedure and clarify whether the test set was used only once.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The case studies are presented as evidence of "robust pocket localization for diverse proteins," but the text notes that for CRFR1, "the binding site was predicted not as deep as in the experimental structure."
+  - **Evidence pointer** Results, Case Studies; Figure 2 (not shown)
+  - **Concern** The case studies are qualitative and include a clear failure case (CRFR1). The authors state that for "some of the more complicated proteins binding pocket location was not identified." This is presented as a limitation, but the overall claim of "robust pocket localization" is not supported by the described evidence. The figure is not available for inspection, so the quality of the successful predictions cannot be assessed.
+  - **Why it matters** The case studies are the only qualitative demonstration of the model's utility. A failure on a therapeutically relevant target like CRFR1, even if acknowledged, undermines the claim of robustness. The reader needs quantitative metrics (e.g., DCC, overlap with known binding sites) for these case studies to judge their significance.
+  - **Resolution test** Provide quantitative evaluation of the case studies (e.g., distance to known binding site, fraction of predicted residues overlapping with experimental binding site). Include a discussion of why the model fails on certain targets and what architectural or training changes might address this.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The Discussion states that "in some case studies, the model prioritised artificially strong ligands over natural ligands at high thresholds, which indicates some structure-based affinity evaluation, despite the fact that AstraROLE was not trained on affinity data."
+  - **Evidence pointer** Discussion
+  - **Concern** This claim is speculative and not supported by any data presented in the manuscript. The authors suggest that the model implicitly evaluates affinity, but no evidence (e.g., correlation with binding affinity values) is provided. The mention of "AstraROLE" is confusing, as this model is not otherwise described in the manuscript.
+  - **Why it matters** This is a strong claim about the model's emergent capabilities. Without evidence, it reads as speculation and detracts from the manuscript's scientific rigor. It also introduces an undefined model name, which is confusing.
+  - **Resolution test** Either remove this claim or provide quantitative evidence (e.g., correlation between model confidence and experimental binding affinities for a set of ligands). Clarify the relationship between AstraBIND and AstraROLE.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states the model was "trained on ¿250 000 curated protein-ligand complexes." The "¿" character appears to be a typographical error, likely intended to be "~" or ">".
+  - **Required correction** Replace "¿" with the intended symbol (e.g., "~" or ">").
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, Model architecture
+  - **Evidence pointer** Methods, Model architecture
+  - **Issue** The description of the "two stage hierarchy" for ligand classification is unclear. The text mentions a "coarse three way ligand classifier" and a "fine grained ligand classifier" but does not specify what the three coarse classes are or how the "learned projection" is implemented.
+  - **Required correction** Clarify the coarse class definitions and provide details on the projection layer.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results, Performance Metrics
+  - **Evidence pointer** Results, Performance Metrics
+  - **Issue** The text states "weighted macro-F1 of 0.47" but does not define what "weighted macro" means in this context. Typically, "macro" and "weighted" are distinct averaging schemes.
+  - **Required correction** Define the exact averaging scheme used for the F1 metric.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The Discussion references "Table 2" for comparison with prior models, but this table is not included in the supplied material. The text also references "( 14 ; 16 )" and "( 17 )" without a reference list.
+  - **Required correction** Include Table 2 and a complete reference list.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** User Experience
+  - **Evidence pointer** User Experience
+  - **Issue** The phrase "Thresholds can be viewed in calibrated and fixed modes" is unclear. It is not obvious what "calibrated" and "fixed" modes mean in this context.
+  - **Required correction** Explain the difference between the two threshold modes.
+- **Technical failings that need to be addressed before the case is established** 1) Absence of quantitative comparison with existing methods (R1-M1). 2) Insufficient methodological detail for reproducibility (R1-M2). 3) Qualitative case studies with a documented failure case that are not quantitatively evaluated (R1-M3). 4) Speculative claim about affinity evaluation without evidence (R1-M4).
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The combination of sequence, structure, and homology in a graph attention network is not entirely novel, but the specific architecture and multi-task design have some original elements. However, the manuscript does not clearly articulate what is new compared to existing methods.
+  - **Scientific importance** Potentially relevant to the drug discovery community, but the modest performance and lack of benchmark comparisons limit the perceived impact. The tool's speed is a practical advantage, but this alone is unlikely to be sufficient for a high-impact venue.
+  - **Interdisciplinary readership** The topic is of interest to computational biologists, structural biologists, and medicinal chemists. However, the manuscript is written in a way that assumes familiarity with graph neural networks and binding site prediction, which may limit accessibility to a broader readership.
+  - **Technical soundness** The architectural design is reasonable, but the lack of methodological details and the absence of rigorous evaluation (e.g., ablations, statistical tests) undermine confidence in the technical claims.
+  - **Readability for nonspecialists** The abstract and introduction are accessible, but the methods section is dense and assumes prior knowledge. The case studies are described qualitatively, which helps, but the overall narrative is not sufficiently clear for a nonspecialist to understand the key contributions and limitations.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially useful tool, but the core claims of state-of-the-art accuracy and robust performance are not supported by the data presented. Major revisions, including quantitative benchmarking, full methodological transparency, and a more rigorous evaluation of case studies, are required before the case can be made.
+
+## Risk / unsupported claims
+- Claim of "state-of-the-art accuracy" is unsupported without direct comparison to existing methods.
+- Claim of "robust pocket localization" is contradicted by the acknowledged failure on CRFR1 and is not quantitatively evaluated.
+- Claim that the model "indicates some structure-based affinity evaluation" is speculative and unsupported by any data.
+- The statement that the model "enables rapid in-silico screening and integration into laboratory workflows" is plausible but not demonstrated with concrete examples or user studies.
+- The claim that the model "maintains structural consistency" is not defined or evaluated.

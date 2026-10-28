@@ -1,0 +1,198 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.03.08.531744",
+  "title": "Sensitive cluster-free differential expression testing.",
+  "doi": "10.1101/2023.03.08.531744",
+  "abstract": "Comparing molecular features, including the identification of genes with differential expression (DE) between conditions, is a powerful approach for characterising disease-specific phenotypes. When testing for DE in single-cell RNA sequencing data, current pipelines first assign cells into discrete clusters (or cell types), followed by testing for differences within each cluster. Consequently, the sensitivity and specificity of DE testing are limited and ultimately dictated by the granularity of the cell type annotation, with discrete clustering being especially suboptimal for continuous trajectories. To overcome these limitations, we present miloDE - a cluster-free framework for differential expression testing. We build on the Milo approach, introduced for differential cell abundance testing, which leverages the graph representation of single-cell data to assign relatively homogenous, neighbouring cells into overlapping neighbourhoods. We address key differences between differential abundance and expression testing at the level of neighbourhood assignment, statistical testing, and multiple testing correction. To illustrate the performance of miloDE we use both simulations and real data, in the latter case identifying a transient haemogenic endothelia-like state in chimeric mouse embryos lacking Tal1 as well as uncovering distinct transcriptional programs that characterise changes in macrophages in patients with Idiopathic Pulmonary Fibrosis. miloDE is available as an open-source R package at https://github.com/MarioniLab/miloDE.",
+  "authors": [
+    "Missarova A",
+    "Rosen LU",
+    "Dann E",
+    "Satija R",
+    "Marioni J"
+  ],
+  "published_date": "2023-03-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.03.08.531744",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.03.08.531744.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR628425",
+    "raw_record": {
+      "id": "PPR628425",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR628425"
+        ]
+      },
+      "doi": "10.1101/2023.03.08.531744",
+      "title": "Sensitive cluster-free differential expression testing.",
+      "authorString": "Missarova A, Rosen LU, Dann E, Satija R, Marioni J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Missarova A",
+            "lastName": "Missarova",
+            "firstName": "Alsu",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus, Cambridge, UK"
+                },
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, University of Cambridge, Cambridge, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rosen LU",
+            "lastName": "Rosen",
+            "firstName": "Leah Ursula",
+            "initials": "LU",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dann E",
+            "lastName": "Dann",
+            "firstName": "Emma",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus, Cambridge, UK"
+                },
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, University of Cambridge, Cambridge, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Satija R",
+            "lastName": "Satija",
+            "firstName": "Rahul",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Genomics and Systems Biology, NYU"
+                },
+                {
+                  "affiliation": "New York Genome Center"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marioni J",
+            "lastName": "Marioni",
+            "firstName": "John",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus, Cambridge, UK"
+                },
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, University of Cambridge, Cambridge, UK"
+                },
+                {
+                  "affiliation": "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK"
+                },
+                {
+                  "affiliation": "Genentech, South San Francisco, CA, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Comparing molecular features, including the identification of genes with differential expression (DE) between conditions, is a powerful approach for characterising disease-specific phenotypes. When testing for DE in single-cell RNA sequencing data, current pipelines first assign cells into discrete clusters (or cell types), followed by testing for differences within each cluster. Consequently, the sensitivity and specificity of DE testing are limited and ultimately dictated by the granularity of the cell type annotation, with discrete clustering being especially suboptimal for continuous trajectories. To overcome these limitations, we present miloDE - a cluster-free framework for differential expression testing. We build on the Milo approach, introduced for differential cell abundance testing, which leverages the graph representation of single-cell data to assign relatively homogenous, neighbouring cells into overlapping neighbourhoods. We address key differences between differential abundance and expression testing at the level of neighbourhood assignment, statistical testing, and multiple testing correction. To illustrate the performance of miloDE we use both simulations and real data, in the latter case identifying a transient haemogenic endothelia-like state in chimeric mouse embryos lacking Tal1 as well as uncovering distinct transcriptional programs that characterise changes in macrophages in patients with Idiopathic Pulmonary Fibrosis. miloDE is available as an open-source R package at https://github.com/MarioniLab/miloDE.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.03.08.531744"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR628425"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR628425&type=FILE&fileName=EMS172093-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS172093",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-03-12",
+      "firstPublicationDate": "2023-03-10",
+      "firstIndexDate": "2023-03-12",
+      "fullTextReceivedDate": "2023-03-25",
+      "hasEvaluations": "N"
+    }
+  }
+}

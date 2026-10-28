@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "39877357",
+    "doi": "10.3389/fimmu.2024.1537909",
+    "title": "Immunometabolic alterations in type 2 diabetes mellitus revealed by single-cell RNA sequencing: insights into subtypes and therapeutic targets."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Type 2 Diabetes Mellitus (T2DM) represents a major global health challenge, marked by chronic hyperglycemia, insulin resistance, and immune system dysfunction. Immune cells, including T cells and monocytes, play a pivotal role in driving systemic inflammation in T2DM; however, the underlying single-cell mechanisms remain inadequately defined. METHODS: Single-cell RNA sequencing of peripheral blood mononuclear cells (PBMCs) from 37 patients with T2DM and 11 healthy controls (HC) was conducted. Immune cell types were identified through clustering analysis, followed by differential expression and pathway analysis. Metabolic heterogeneity within T cell subpopulations was evaluated using Gene Set Variation Analysis (GSVA). Machine learning models were constructed to classify T2DM subtypes based on metabolic signatures, and T-cell-monocyte interactions were explored to assess immune crosstalk. Transcription factor (TF) activity was analyzed, and drug enrichment analysis was performed to identify potential therapeutic targets. RESULTS: In patients with T2DM, a marked increase in monocytes and a decrease in CD4+ T cells were observed, indicating immune dysregulation. Significant metabolic diversity within T cell subpopulations led to the classification of patients with T2DM into three distinct subtypes (A-C), with HC grouped as D. Enhanced intercellular communication, particularly through the MHC-I pathway, was evident in T2DM subtypes. Machine learning models effectively classified T2DM subtypes based on metabolic signatures, achieving an AUC > 0.84. Analysis of TF activity identified pivotal regulators, including NF-kB, STAT3, and FOXO1, associated with immune and metabolic disturbances in T2DM. Drug enrichment analysis highlighted potential therapeutic agents targeting these TFs and related pathways, including Suloctidil, Chlorpropamide, and other compounds modulating inflammatory and metabolic pathways. CONCLUSION: This study underscores significant immunometabolic dysfunction in T2DM, characterized by alterations in immune cell composition, metabolic pathways, and intercellular communication. The identification of critical TFs and the development of drug enrichment profiles highlight the potential for personalized therapeutic strategies, emphasizing the need for integrated immunological and metabolic approaches in T2DM management.",
+    "keywords": [
+      "T cells",
+      "immunometabolism",
+      "machine learning models",
+      "single-cell RNA sequencing",
+      "type 2 diabetes mellitus (T2DM)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Diabetes Mellitus, Type 2/immunology/metabolism/genetics/drug therapy",
+      "Single-Cell Analysis/methods",
+      "Middle Aged",
+      "Male",
+      "Female",
+      "Monocytes/immunology/metabolism",
+      "Aged",
+      "Sequence Analysis, RNA",
+      "Leukocytes, Mononuclear/immunology/metabolism",
+      "Adult",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Huahua",
+        "Zou, Lingling",
+        "Long, Zhaowei",
+        "Zhan, Junkun"
+      ],
+      "short_names": [
+        "Li H",
+        "Zou L",
+        "Long Z",
+        "Zhan J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Geriatric, Hunan Provincial People's Hospital, The First Affiliated Hospital of Hunan Normal University, Changsha, China.",
+        "Department of Geriatric, Hunan Provincial People's Hospital, The First Affiliated Hospital of Hunan Normal University, Changsha, China.",
+        "Department of Geriatric, The Third Affiliated Hospital of Kunming Medical University, Kunming, China.",
+        "Department of Geriatrics, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Institute of Aging and Age-related Disease Research, Central South University, Changsha, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Huahua",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatric, Hunan Provincial People's Hospital, The First Affiliated Hospital of Hunan Normal University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Lingling",
+        "short_name": "Zou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatric, Hunan Provincial People's Hospital, The First Affiliated Hospital of Hunan Normal University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Long, Zhaowei",
+        "short_name": "Long Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatric, The Third Affiliated Hospital of Kunming Medical University, Kunming, China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Junkun",
+        "short_name": "Zhan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The Second Xiangya Hospital, Central South University, Changsha, China.",
+          "Institute of Aging and Age-related Disease Research, Central South University, Changsha, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/29 11:21",
+    "fetched_at": "2026-09-30 10:35:31"
+  },
+  "links": {
+    "cites": [
+      "42653207",
+      "42510915",
+      "42389267",
+      "42369056",
+      "42243586",
+      "42185528",
+      "41950010",
+      "41909674",
+      "41901353",
+      "41821731",
+      "41416940",
+      "41367911",
+      "41341586",
+      "41303487",
+      "41030441",
+      "40979707",
+      "40732915",
+      "40585639",
+      "40562870",
+      "40476695"
+    ],
+    "refs": [
+      "39072276",
+      "39060761",
+      "38903536",
+      "38855325",
+      "37941908",
+      "36993972",
+      "36247456",
+      "35188462",
+      "35021057",
+      "34879977",
+      "34557778",
+      "33613453",
+      "33597522",
+      "33182523",
+      "33168968",
+      "33038372",
+      "32698683",
+      "31646113",
+      "31340985",
+      "31178118",
+      "31131037",
+      "30894861",
+      "30696980",
+      "30533447",
+      "29907163",
+      "29219149",
+      "28475890",
+      "28251163",
+      "28045399",
+      "27396447",
+      "27182056",
+      "26220361",
+      "25881491",
+      "24655299",
+      "24357215",
+      "23601682",
+      "23298210",
+      "22990888",
+      "22403172",
+      "21964948",
+      "21659501",
+      "21633179",
+      "21499269",
+      "21469396",
+      "21233852",
+      "21169542",
+      "20016508",
+      "19890624",
+      "17167474",
+      "16467548",
+      "15864338",
+      "14679176",
+      "4704717"
+    ],
+    "similar": [
+      "39877357",
+      "41155287",
+      "39916961",
+      "39394558",
+      "39888372",
+      "41424060",
+      "40918148",
+      "38763341",
+      "39372399",
+      "41310117",
+      "41132669",
+      "40596821",
+      "39830504",
+      "40895573",
+      "40862112",
+      "41953397",
+      "41645291",
+      "39926598",
+      "40787468",
+      "41261231",
+      "41162503",
+      "41056488",
+      "39555960",
+      "40933372",
+      "41200182",
+      "41066365",
+      "40625749",
+      "41836445",
+      "41006377",
+      "40764361",
+      "39066603",
+      "39896800",
+      "41308942",
+      "41488617",
+      "39072276",
+      "41172679",
+      "41219777",
+      "40672948",
+      "40183401",
+      "41003327",
+      "41601671",
+      "41701724",
+      "40524207",
+      "40449695",
+      "40296690",
+      "42040898",
+      "42158856",
+      "40023733",
+      "40501365",
+      "25956355",
+      "41399063",
+      "40097329",
+      "40389209",
+      "42007493",
+      "41915667",
+      "39779473",
+      "41909133",
+      "37600067",
+      "40184908",
+      "41438750",
+      "39936105",
+      "41480144",
+      "42003657",
+      "41944768",
+      "40216809",
+      "39893187",
+      "39100662",
+      "38602607",
+      "40029433",
+      "40311462",
+      "41209011",
+      "35720370",
+      "39762897",
+      "34560403",
+      "40894480",
+      "39996309",
+      "41454184",
+      "39501130",
+      "35032412",
+      "39949090",
+      "42109727",
+      "28661068",
+      "33039247",
+      "41325163",
+      "41822518",
+      "40861493",
+      "33363531",
+      "39421742",
+      "33902571",
+      "41394559",
+      "38340154",
+      "41884211",
+      "35172892",
+      "41209384",
+      "40281593",
+      "41208987",
+      "39905493",
+      "40078987",
+      "40308576",
+      "40368964"
+    ],
+    "review": [
+      "39877357"
+    ],
+    "pmc": [
+      "11772204"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetestype2.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 2"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39877357/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1537909",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

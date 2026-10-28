@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "39062480",
+    "doi": "10.3390/biom14070766",
+    "title": "DeepIMAGER: Deeply Analyzing Gene Regulatory Networks from scRNA-seq Data."
+  },
+  "content": {
+    "abstract": "Understanding the dynamics of gene regulatory networks (GRNs) across diverse cell types poses a challenge yet holds immense value in unraveling the molecular mechanisms governing cellular processes. Current computational methods, which rely solely on expression changes from bulk RNA-seq and/or scRNA-seq data, often result in high rates of false positives and low precision. Here, we introduce an advanced computational tool, DeepIMAGER, for inferring cell-specific GRNs through deep learning and data integration. DeepIMAGER employs a supervised approach that transforms the co-expression patterns of gene pairs into image-like representations and leverages transcription factor (TF) binding information for model training. It is trained using comprehensive datasets that encompass scRNA-seq profiles and ChIP-seq data, capturing TF-gene pair information across various cell types. Comprehensive validations on six cell lines show DeepIMAGER exhibits superior performance in ten popular GRN inference tools and has remarkable robustness against dropout-zero events. DeepIMAGER was applied to scRNA-seq datasets of multiple myeloma (MM) and detected potential GRNs for TFs of RORC, MITF, and FOXD2 in MM dendritic cells. This technical innovation, combined with its capability to accurately decode GRNs from scRNA-seq, establishes DeepIMAGER as a valuable tool for unraveling complex regulatory networks in various cell types.",
+    "keywords": [
+      "cell types",
+      "deep learning",
+      "gene regulatory networks",
+      "scRNA-seq"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Computational Biology/methods",
+      "Deep Learning",
+      "*Gene Regulatory Networks",
+      "Multiple Myeloma/genetics",
+      "*RNA-Seq/methods",
+      "Single-Cell Gene Expression Analysis",
+      "Software",
+      "Transcription Factors/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Xiguo",
+        "Pan, Jingyi",
+        "Chen, Liang",
+        "Zhang, Shaoqiang",
+        "Chen, Yong"
+      ],
+      "short_names": [
+        "Zhou X",
+        "Pan J",
+        "Chen L",
+        "Zhang S",
+        "Chen Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4127-0539",
+        "ORCID: 0000-0001-6827-4321"
+      ],
+      "affiliations": [
+        "College of Computer and Information Engineering, Tianjin Normal University, Tianjin 300387, China.",
+        "College of Computer and Information Engineering, Tianjin Normal University, Tianjin 300387, China.",
+        "College of Computer and Information Engineering, Tianjin Normal University, Tianjin 300387, China.",
+        "College of Computer and Information Engineering, Tianjin Normal University, Tianjin 300387, China.",
+        "Department of Biological and Biomedical Sciences, Rowan University, Glassboro, NJ 08028, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Xiguo",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Information Engineering, Tianjin Normal University, Tianjin 300387, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Jingyi",
+        "short_name": "Pan J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Information Engineering, Tianjin Normal University, Tianjin 300387, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Liang",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Information Engineering, Tianjin Normal University, Tianjin 300387, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shaoqiang",
+        "short_name": "Zhang S",
+        "identifiers": [
+          "0000-0002-4127-0539"
+        ],
+        "affiliations": [
+          "College of Computer and Information Engineering, Tianjin Normal University, Tianjin 300387, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yong",
+        "short_name": "Chen Y",
+        "identifiers": [
+          "0000-0001-6827-4321"
+        ],
+        "affiliations": [
+          "Department of Biological and Biomedical Sciences, Rowan University, Glassboro, NJ 08028, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2024 Jun 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/27 10:47",
+    "fetched_at": "2026-09-30 00:11:50"
+  },
+  "links": {
+    "cites": [
+      "42502841",
+      "42353763",
+      "42265576",
+      "40983951",
+      "40966655",
+      "40819059",
+      "40062616"
+    ],
+    "refs": [
+      "38672732",
+      "38217125",
+      "37985457",
+      "37686146",
+      "37537502",
+      "37443338",
+      "37365273",
+      "37158258",
+      "37113055",
+      "37004161",
+      "36755098",
+      "36629274",
+      "36621781",
+      "36585783",
+      "36584685",
+      "36192551",
+      "36168811",
+      "35961023",
+      "35831627",
+      "35454868",
+      "35139376",
+      "35055096",
+      "34439223",
+      "34424948",
+      "34020546",
+      "33923983",
+      "33597729",
+      "33435206",
+      "33409501",
+      "32707421",
+      "32410883",
+      "32218309",
+      "31913361",
+      "31907445",
+      "31822622",
+      "31575676",
+      "31024627",
+      "30906525",
+      "30682861",
+      "30567569",
+      "30445619",
+      "30425249",
+      "30093448",
+      "29776381",
+      "29434199",
+      "29409532",
+      "29378948",
+      "28991892",
+      "28968704",
+      "28957658",
+      "28380427",
+      "28379368",
+      "28182018",
+      "27534536",
+      "27498692",
+      "27365425",
+      "26688802",
+      "26540590",
+      "26355593",
+      "26185130",
+      "25926947",
+      "25364745",
+      "23698722",
+      "21199792",
+      "20927193",
+      "17540862",
+      "14597658",
+      "7063747"
+    ],
+    "similar": [
+      "39062480",
+      "40062616",
+      "38980373",
+      "37985457",
+      "37686146",
+      "41288963",
+      "41052197",
+      "40251476",
+      "34424948",
+      "40662821",
+      "38950180",
+      "40983951",
+      "41043336",
+      "35961023",
+      "36168811",
+      "40116659",
+      "39960893",
+      "41257571",
+      "38342857",
+      "39694856",
+      "39535258",
+      "38976751",
+      "32051003",
+      "37085776",
+      "40471991",
+      "39975293",
+      "39487083",
+      "40197174",
+      "40409400",
+      "41067887",
+      "39504481",
+      "33619563",
+      "39060167",
+      "34251625",
+      "38653489",
+      "40654959",
+      "38744843",
+      "39605181",
+      "38631462",
+      "37004161",
+      "37244909",
+      "38892162",
+      "30547796",
+      "39082647",
+      "39311699",
+      "40220759",
+      "41300707",
+      "40188497",
+      "35050715",
+      "33876191",
+      "31068142",
+      "38261340",
+      "41354912",
+      "39180857",
+      "39417321",
+      "41139927",
+      "41871930",
+      "40426257",
+      "40671174",
+      "41896196",
+      "38810116",
+      "39327063",
+      "39376034",
+      "41498638",
+      "39527186",
+      "39800872",
+      "40591481",
+      "40977264",
+      "39679439",
+      "41883144",
+      "40708222",
+      "40699953",
+      "41518505",
+      "37897702",
+      "41325426",
+      "39508444",
+      "36585783",
+      "41330999",
+      "41329984",
+      "39402696",
+      "39893178",
+      "41452748",
+      "39373051",
+      "41255833",
+      "41317402",
+      "39715686",
+      "39093668",
+      "41723123",
+      "24228871",
+      "36733262",
+      "39561511",
+      "39944798",
+      "34962260",
+      "35692809",
+      "39578307",
+      "33300547",
+      "40205350",
+      "38787664",
+      "40627366",
+      "39708840"
+    ],
+    "review": [
+      "39062480"
+    ],
+    "pmc": [
+      "11274664"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom14070766",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39062480/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

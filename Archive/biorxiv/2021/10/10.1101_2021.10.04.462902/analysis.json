@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.10.04.462902",
+  "title": "SARS-CoV-2 PLpro whole human proteome cleavage prediction and enrichment/depletion analysis",
+  "authors": "Prescott L",
+  "journal": "bioRxiv",
+  "published_date": "2021-10-06",
+  "window": {
+    "start": "2021-10-04",
+    "end": "2021-10-10"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用神经网络预测SARS-CoV-2 PLpro蛋白酶对整个人类蛋白质组的切割位点，虽涉及蛋白底物预测，但对象是病毒蛋白酶-蛋白质底物，而非蛋白质-DNA互作或TF-DNA结合体系，且无三维互作建模或物理模拟方法，与本课题关联微弱。",
+  "abstract": "A novel coronavirus (SARS-CoV-2) has caused a pandemic that has killed millions of people, worldwide vaccination and herd immunity are still far away, and few therapeutics are approved by regulatory agencies for widespread use. The coronavirus 3-chymotrypsin-like protease (3CLpro) is a commonly investigated target in COVID-19, however less work has been directed toward the equally important papain-like protease (PLpro). PLpro is less characterized due to its fewer and more diverse cleavages in coronavirus proteomes and the assumption that it mainly modulates host pathways with its deubiquitinating activity. Here, I extend my previous work on 3CLpro human cleavage prediction and enrichment/depletion analysis to PLpro.[1] Using three sets of neural networks trained on different taxonomic ranks of dataset with a maximum of 463 different putative PLpro cleavages, Matthews correlation coefficients of 0.900, 0.948, and 0.966 were achieved for Coronaviridae , Betacoronavirus , and Sarbecovirus , respectively. I predict that more than 1,000 human proteins may be cleaved by PLpro depending on diversity of the training dataset and that many of these proteins are distinct from those previously predicted to be cleaved by 3CLpro. PLpro cleavages are similarly nonrandomly distributed and result in many annotations shared with 3CLpro cleavages including ubiquitination, poly(A) tail and 5’ cap RNA binding proteins, helicases, and endogenous viral proteins. Combining PLpro with 3CLpro cleavage predictions, additional novel enrichment analysis was performed on known substrates of cleaved E3 ubiquitin ligases with results indicating that many pathways including viral RNA sensing are affected indirectly by E3 ligase cleavage independent of traditional PLpro deubiquitinating activity. As with 3CLpro, PLpro whole proteome cleavage prediction revealed many novel potential therapeutic targets against coronaviruses, although experimental verification is similarly required.",
+  "abstract_zh": "一种新型冠状病毒（SARS-CoV-2）已引发一场大流行，导致数百万人死亡，全球范围内的疫苗接种和群体免疫仍遥遥无期，且很少有治疗药物获得监管机构批准广泛使用。冠状病毒3-胰凝乳蛋白酶样蛋白酶（3CLpro）是COVID-19中常见的研究靶点，然而，对于同样重要的木瓜蛋白酶样蛋白酶（PLpro）的研究工作较少。PLpro因其在冠状病毒蛋白质组中的切割位点较少且更为多样，以及其去泛素化活性主要调节宿主通路的假设，而特征化程度较低。在此，我将先前关于3CLpro人类切割预测及富集/耗竭分析的工作扩展至PLpro。[1] 利用三组在不同分类等级数据集上训练的神经网络，最多包含463个不同的推定PLpro切割位点，分别针对冠状病毒科（Coronaviridae）、β冠状病毒属（Betacoronavirus）和SARS相关冠状病毒属（Sarbecovirus）实现了0.900、0.948和0.966的马修斯相关系数。我预测，根据训练数据集的多样性，超过1000种人类蛋白质可能被PLpro切割，且其中许多蛋白质与先前预测被3CLpro切割的蛋白质不同。PLpro切割同样呈非随机分布，并导致许多与3CLpro切割共享的注释，包括泛素化、poly(A)尾和5'帽RNA结合蛋白、解旋酶及内源性病毒蛋白。结合PLpro与3CLpro切割预测，对切割的E3泛素连接酶的已知底物进行了额外的新型富集分析，结果表明包括病毒RNA感知在内的许多通路受到E3连接酶切割的间接影响，独立于传统的PLpro去泛素化活性。与3CLpro类似，PLpro全蛋白质组切割预测揭示了许多针对冠状病毒的新型潜在治疗靶点，尽管同样需要实验验证。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.10.04.462902",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.10.04.462902",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.10.04.462902/index.html"
+}

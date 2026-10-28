@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38216534",
+  "title": "Multiomics-integrated deep language model enables in silico genome-wide detection of transcription factor binding site in unexplored biosamples.",
+  "authors": "Yang, Zikun; Li, Xin; Sheng, Lele; Zhu, Ming; Lan, Xun; Gu, Fei",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2024-01-13",
+  "window": {
+    "start": "2024-01-08",
+    "end": "2024-01-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出多组学整合的深度语言模型TFTF，用于跨细胞类型和物种的TF结合位点基因组预测，虽聚焦TF-DNA结合位点预测且方法为AI，但未涉及三维互作建模或动态机制，故评7分。",
+  "abstract": "MOTIVATION: Transcription factor binding sites (TFBS) are regulatory elements that have significant impact on transcription regulation and cell fate determination. Canonical motifs, biological experiments, and computational methods have made it possible to discover TFBS. However, most existing in silico TFBS prediction models are solely DNA-based, and are trained and utilized within the same biosample, which fail to infer TFBS in experimentally unexplored biosamples. RESULTS: Here, we propose TFBS prediction by modified TransFormer (TFTF), a multimodal deep language architecture which integrates multiomics information in epigenetic studies. In comparison to existing computational techniques, TFTF has state-of-the-art accuracy, and is also the first approach to accurately perform genome-wide detection for cell-type and species-specific TFBS in experimentally unexplored biosamples. Compared to peak calling methods, TFTF consistently discovers true TFBS in threshold tuning-free way, with higher recalled rates. The underlying mechanism of TFTF reveals greater attention to the targeted TF's motif region in TFBS, and general attention to the entire peak region in non-TFBS. TFTF can benefit from the integration of broader and more diverse data for improvement and can be applied to multiple epigenetic scenarios. AVAILABILITY AND IMPLEMENTATION: We provide a web server (https://tftf.ibreed.cn/) for users to utilize TFTF model. Users can train TFTF model and discover TFBS with their own data.",
+  "abstract_zh": "动机：转录因子结合位点（TFBS）是调控元件，对转录调控和细胞命运决定具有显著影响。经典基序、生物学实验和计算方法已使发现TFBS成为可能。然而，大多数现有的计算机模拟TFBS预测模型仅基于DNA，并在同一生物样本内进行训练和使用，这无法在实验未探索的生物样本中推断TFBS。结果：在此，我们提出通过改进的Transformer（TFTF）进行TFBS预测，这是一种多模态深度语言架构，整合了表观遗传学研究中的多组学信息。与现有计算技术相比，TFTF具有最先进的准确性，并且是首个在实验未探索的生物样本中准确进行细胞类型和物种特异性TFBS全基因组检测的方法。与峰值调用方法相比，TFTF以无需阈值调整的方式持续发现真实TFBS，且召回率更高。TFTF的潜在机制显示，在TFBS中对目标TF的基序区域有更高的关注度，而在非TFBS中对整个峰值区域有普遍关注。TFTF可通过整合更广泛和多样化的数据而受益，并可应用于多种表观遗传学场景。可用性和实现：我们提供了一个网络服务器（https://tftf.ibreed.cn/）供用户使用TFTF模型。用户可以使用自己的数据训练TFTF模型并发现TFBS。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38216534/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38216534/",
+  "paper_page_path": "papers/pubmed/38216534/index.html"
+}

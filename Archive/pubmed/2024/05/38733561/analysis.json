@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38733561",
+  "title": "MulTFBS: A Spatial-Temporal Network with Multichannels for Predicting Transcription Factor Binding Sites.",
+  "authors": "Zhuang, Jujuan; Huang, Xinru; Liu, Shuhan; Gao, Wanquan; Su, Rui; Feng, Kexin",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2024-05-11",
+  "window": {
+    "start": "2024-05-06",
+    "end": "2024-05-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出多通道深度学习框架MulTFBS，融合one-hot、词嵌入和DNA双螺旋三维结构特征，结合CNN与BiLSTM及注意力机制预测转录因子结合位点，核心聚焦TF-DNA互作且方法为AI建模，高度匹配本课题。",
+  "abstract": "Revealing the mechanisms that influence transcription factor binding specificity is the key to understanding gene regulation. In previous studies, DNA double helix structure and one-hot embedding have been used successfully to design computational methods for predicting transcription factor binding sites (TFBSs). However, DNA sequence as a kind of biological language, the method of word embedding representation in natural language processing, has not been considered properly in TFBS prediction models. In our work, we integrate different types of features of DNA sequence to design a multichanneled deep learning framework, namely MulTFBS, in which independent one-hot encoding, word embedding encoding, which can incorporate contextual information and extract the global features of the sequences, and double helix three-dimensional structural features have been trained in different channels. To extract sequence high-level information effectively, in our deep learning framework, we select the spatial-temporal network by combining convolutional neural networks and bidirectional long short-term memory networks with attention mechanism. Compared with six state-of-the-art methods on 66 universal protein-binding microarray data sets of different transcription factors, MulTFBS performs best on all data sets in the regression tasks, with the average R(2) of 0.698 and the average PCC of 0.833, which are 5.4% and 3.2% higher, respectively, than the suboptimal method CRPTS. In addition, we evaluate the classification performance of MulTFBS for distinguishing bound or unbound regions on TF ChIP-seq data. The results show that our framework also performs well in the TFBS classification tasks.",
+  "abstract_zh": "揭示影响转录因子结合特异性的机制是理解基因调控的关键。在以往的研究中，DNA双螺旋结构和独热编码已成功用于设计预测转录因子结合位点（TFBSs）的计算方法。然而，DNA序列作为一种生物语言，自然语言处理中的词嵌入表示方法在TFBS预测模型中尚未得到适当考虑。在我们的工作中，我们整合DNA序列的不同类型特征，设计了一个多通道深度学习框架，即MulTFBS，其中独立的独热编码、词嵌入编码（能够整合上下文信息并提取序列的全局特征）以及双螺旋三维结构特征在不同通道中进行训练。为了有效提取序列高级信息，在我们的深度学习框架中，我们通过结合卷积神经网络和带有注意力机制的双向长短期记忆网络来选择时空网络。与66个不同转录因子的通用蛋白结合微阵列数据集上的六种最先进方法相比，MulTFBS在回归任务中的所有数据集上表现最佳，平均R(2)为0.698，平均PCC为0.833，分别比次优方法CRPTS高出5.4%和3.2%。此外，我们评估了MulTFBS在区分TF ChIP-seq数据上结合或未结合区域的分类性能。结果表明，我们的框架在TFBS分类任务中也表现良好。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38733561/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38733561/",
+  "paper_page_path": "papers/pubmed/38733561/index.html"
+}

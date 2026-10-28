@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "39726005",
+    "doi": "10.1186/s13104-024-07031-z",
+    "title": "Exploring the mechanism of fibrates regulating HIF-1A in the treatment of ischemic stroke based on network pharmacology and molecular docking."
+  },
+  "content": {
+    "abstract": "Fibrates can prevent and treat ischemic stroke (IS), the occurrence and development of IS is closely related to hypoxia-inducible factor-1A (HIF-1A). However, the exact mechanism by which fibrates regulate HIF-1A to treat IS remains unclear. So network pharmacology and molecular docking were used to explore the mechanism by which fibrates regulate HIF-1A to treat IS, firstly, the structure of five fibrates were obtained by reviewing the literature and pharmacopoeia, then the potential targets of fibrates, IS, HIF1A and HIF1A-related genes were obtained through various databases, their common targets were obtained through Venny 2.1.0. The PPI network diagram of fibrates, IS and HIF1A-related genes was plotted by String and Cytoscape3.8.1. The GO functional analysis results and KEGG pathways of fibrates, IS, HIF1A and HIF1A related genes were obtained by Metascape. Finally, the molecular docking of fibrates and HIF1A was performed by AutoDock. The common targets of five fibrates and IS showed that only 3 fibrates contained HIF1A, GO functional analysis, KEGG pathway analysis and molecular docking showed that fibrates can better regulate HIF1A to treat IS, its main action pathways are pathways in cancer, lipid and atherosclerosis and HIF-1 signaling pathway.",
+    "keywords": [
+      "Fibrates",
+      "HIF1A",
+      "IS",
+      "Molecular docking",
+      "Network pharmacology"
+    ],
+    "mesh_terms": [
+      "*Molecular Docking Simulation",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism/chemistry",
+      "Humans",
+      "*Ischemic Stroke/drug therapy/metabolism",
+      "*Network Pharmacology/methods",
+      "Fibric Acids/pharmacology/therapeutic use",
+      "Protein Interaction Maps/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Fengjiao",
+        "Yang, Zixuan",
+        "Yan, Ya",
+        "Gu, Yun",
+        "Wang, Pengyu",
+        "Wang, Min",
+        "Chen, Jianjie",
+        "Du, Xiaoshan",
+        "Wang, Guangming"
+      ],
+      "short_names": [
+        "Yang F",
+        "Yang Z",
+        "Yan Y",
+        "Gu Y",
+        "Wang P",
+        "Wang M",
+        "Chen J",
+        "Du X",
+        "Wang G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Clinical Medicine, Dali University, Dali, 671000, Yunnan, People's Republic of China.",
+        "Department of Pharmacy, The People's Hospital of Baoshan, Baoshan, 678000, Yunnan, People's Republic of China.",
+        "Department of Pharmacy, The People's Hospital of Baoshan, Baoshan, 678000, Yunnan, People's Republic of China.",
+        "College of Pharmacy, Dali University, Dali, 671000, Yunnan, People's Republic of China.",
+        "Department of Pharmacy, The First Affiliated Hospital of Dali University, Dali, 671000, Yunnan, People's Republic of China.",
+        "College of Clinical Medicine, Dali University, Dali, 671000, Yunnan, People's Republic of China.",
+        "College of Clinical Medicine, Dali University, Dali, 671000, Yunnan, People's Republic of China.",
+        "College of Clinical Medicine, Dali University, Dali, 671000, Yunnan, People's Republic of China.",
+        "Department of Geriatrics, South District of Hefei First People's Hospital, Hefei, 230000, Anhui, People's Republic of China.",
+        "College of Clinical Medicine, Dali University, Dali, 671000, Yunnan, People's Republic of China. wgm1991@dali.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Fengjiao",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medicine, Dali University, Dali, 671000, Yunnan, People's Republic of China.",
+          "Department of Pharmacy, The People's Hospital of Baoshan, Baoshan, 678000, Yunnan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zixuan",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The People's Hospital of Baoshan, Baoshan, 678000, Yunnan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yan, Ya",
+        "short_name": "Yan Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dali University, Dali, 671000, Yunnan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Gu, Yun",
+        "short_name": "Gu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The First Affiliated Hospital of Dali University, Dali, 671000, Yunnan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Pengyu",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medicine, Dali University, Dali, 671000, Yunnan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Min",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medicine, Dali University, Dali, 671000, Yunnan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jianjie",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medicine, Dali University, Dali, 671000, Yunnan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Du, Xiaoshan",
+        "short_name": "Du X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, South District of Hefei First People's Hospital, Hefei, 230000, Anhui, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Guangming",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "College of Clinical Medicine, Dali University, Dali, 671000, Yunnan, People's Republic of China. wgm1991@dali.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC research notes"
+    ],
+    "journal_abbrev": [
+      "BMC Res Notes"
+    ],
+    "pub_date": "2024 Dec 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/27 00:20",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [
+      "42453925",
+      "40105884"
+    ],
+    "refs": [
+      "37884768",
+      "37470048",
+      "37180115",
+      "36877331",
+      "36676947",
+      "36552584",
+      "36343798",
+      "36313717",
+      "36300620",
+      "36009062",
+      "35937806",
+      "35873557",
+      "35864966",
+      "35795301",
+      "35688114",
+      "35496280",
+      "35288861",
+      "35160220",
+      "35132912",
+      "35111052",
+      "34966392",
+      "34666224",
+      "34634471",
+      "34557547",
+      "34527467",
+      "34509606",
+      "34417940",
+      "34127848",
+      "34102752",
+      "34054546",
+      "33751787",
+      "33634308",
+      "33477609",
+      "33444733",
+      "33149752",
+      "32981134",
+      "32347023",
+      "31441146",
+      "30598338",
+      "9847135"
+    ],
+    "similar": [
+      "39726005",
+      "38674327",
+      "38623977",
+      "39076092",
+      "38822913",
+      "39701786",
+      "39805787",
+      "39066538",
+      "37287284",
+      "39033091",
+      "34889224",
+      "39565454",
+      "39177391",
+      "36372090",
+      "38759074",
+      "34873575",
+      "36281111",
+      "39923611",
+      "39287276",
+      "38840248",
+      "39928767",
+      "37083769",
+      "39346898",
+      "38822120",
+      "36604893",
+      "37382018",
+      "37799727",
+      "40015016",
+      "38383835",
+      "38619514",
+      "32315738",
+      "38571354",
+      "37340752",
+      "34746302",
+      "36188543",
+      "39052207",
+      "38776853",
+      "38783288",
+      "39740397",
+      "34898370",
+      "36872279",
+      "37933045",
+      "37818576",
+      "37802815",
+      "36401375",
+      "34746316",
+      "35850844",
+      "39041138",
+      "40132971",
+      "31638231",
+      "36587875",
+      "37190808",
+      "38958647",
+      "34582494",
+      "39522841",
+      "34660782",
+      "35430443",
+      "33778069",
+      "36637916",
+      "39279134",
+      "39172434",
+      "40057142",
+      "38321908",
+      "35616676",
+      "37904445",
+      "38597078",
+      "37246327",
+      "37802848",
+      "38032489",
+      "39923957",
+      "36735641",
+      "39552028",
+      "37807411",
+      "38050247",
+      "37391801",
+      "37464874",
+      "40184133",
+      "37986321",
+      "38109076",
+      "39205203",
+      "39960946",
+      "37653805",
+      "39307810",
+      "34302817",
+      "33634308",
+      "35069454",
+      "38432577",
+      "37713882",
+      "38696100",
+      "40258725",
+      "37410583",
+      "38403323",
+      "37056181",
+      "38619515",
+      "37666859",
+      "39568012",
+      "39955364",
+      "38905402",
+      "37929726",
+      "37839004"
+    ],
+    "review": [
+      "39726005",
+      "39052207",
+      "36735641"
+    ],
+    "pmc": [
+      "11670374"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-024-07031-z",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ischemicstroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ischemic Stroke"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39726005/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

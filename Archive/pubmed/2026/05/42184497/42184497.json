@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "42184497",
+    "doi": "10.1016/j.phymed.2026.158306",
+    "title": "Huoxue Jiedu formula attenuates myocardial ischemia-reperfusion injury by modulating LAPTM4B/mTORC1/TFEB pathway-mediated autophagic flux."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Myocardial ischemia-reperfusion injury (MIRI) severely limits the benefits of revascularization in acute myocardial infarction, with impaired autophagic flux being a central pathological mechanism. The Huoxue Jiedu Formula (HXJDF), a traditional Chinese medicine prescription, has demonstrated cardioprotective potential, yet its underlying mechanisms remain unclear. PURPOSE: This study aimed to determine whether HXJDF ameliorates MIRI by restoring impaired autophagic flux and to elucidate the underlying mechanisms. METHODS: MIRI-related genes were identified from GEO transcriptomic datasets through differential expression analysis and weighted gene co-expression network analysis (WGCNA), and intersected with HXJDF putative targets predicted by the SwissTargetPrediction, SuperPred, and SEA databases to obtain candidate genes. Core genes were then prioritized using machine learning algorithms, and key bioactive constituents and candidate targets were further screened through network pharmacology, graph neural network (GNN)-based virtual screening, molecular docking, and molecular dynamics simulations. The cardioprotective effects and mechanisms of HXJDF were systematically investigated using both in vivo rat MIRI models and in vitro hypoxia/reoxygenation (H/R)-injured H9c2 cardiomyoblasts. Evans blue/TTC staining was used to quantify infarct area, while hematoxylin-eosin (HE) staining and myocardial enzyme assays assessed myocardial injury. Transmission electron microscopy (TEM) was employed to examine the morphology and distribution of autophagy-related structures. Autophagic flux was monitored using a lentivirus-mediated RFP-GFP-LC3 reporter system combined with confocal microscopy. Western blotting and qPCR were used to quantify the expression of autophagy- and pathway-related molecules. Moreover, a LAPTM4B-knockdown cell model was generated via lentiviral interference. RESULTS: Integrative transcriptomic analysis and machine learning prioritized LAPTM4B as a core candidate target, while GNN-based virtual screening, molecular docking, and molecular dynamics simulations supported a stable interaction between albiflorin and LAPTM4B. In vivo, HXJDF significantly reduced myocardial infarct area, ameliorated histological damage, and lowered serum CK-MB and cTnI levels. It also effectively attenuated abnormal autophagosome accumulation, upregulated LAPTM4B and LAMP1 expression, suppressed mTOR phosphorylation, and downregulated LC3B and p62 expression. In vitro, HXJDF-containing serum improved cell viability, reduced LDH release, decreased the autophagosome-to-autolysosome ratio, and promoted TFEB nuclear translocation. Mechanistically, HXJDF upregulated LAPTM4B expression, inhibited excessive mTORC1 activation, significantly reduced phosphorylation of mTOR and S6K1, alleviated aberrant autophagosome accumulation, decreased LC3B and p62 levels, and increased ATG5 and LAMP1 expression, thereby improving lysosomal function and restoring autophagic flux. Crucially, LAPTM4B knockdown abolished these protective effects and the modulation of the mTORC1/TFEB pathway by HXJDF. CONCLUSION: HXJDF protects against MIRI by restoring autophagic flux via the LAPTM4B/mTORC1/TFEB pathway.",
+    "keywords": [
+      "Autophagic flux",
+      "Huoxue Jiedu formula",
+      "Hypoxia/reoxygenation",
+      "LAPTM4B",
+      "Myocardial ischemia-reperfusion injury",
+      "mTOR signaling"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Myocardial Reperfusion Injury/drug therapy/metabolism",
+      "*Drugs, Chinese Herbal/pharmacology",
+      "*Autophagy/drug effects",
+      "Rats",
+      "*Mechanistic Target of Rapamycin Complex 1/metabolism",
+      "Signal Transduction/drug effects",
+      "Molecular Docking Simulation",
+      "*Basic Helix-Loop-Helix Leucine Zipper Transcription Factors/metabolism",
+      "Rats, Sprague-Dawley",
+      "Male",
+      "Membrane Proteins/metabolism",
+      "Myocytes, Cardiac/drug effects",
+      "*Cardiotonic Agents/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liao, Feifei",
+        "Yang, Wenwen",
+        "Shi, Junhe",
+        "Peng, Yuxuan",
+        "Wang, Jie",
+        "Li, Hongzheng",
+        "Tan, Ling",
+        "Long, Linzi",
+        "Fu, Changgeng",
+        "Qu, Hua"
+      ],
+      "short_names": [
+        "Liao F",
+        "Yang W",
+        "Shi J",
+        "Peng Y",
+        "Wang J",
+        "Li H",
+        "Tan L",
+        "Long L",
+        "Fu C",
+        "Qu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Xiyuan Hospital, China Academy of Chinese Medical Science, Beijing 100091, China; Beijing University of Chinese Medicine, Beijing 100029, China.",
+        "Shanxi Provincial Hospital of Traditional Chinese Medicine, Shanxi, 710000, China.",
+        "Faculty of Health and Social Sciences, The Hong Kong Polytechnic University, Hong Kong 999077, China.",
+        "Xiyuan Hospital, China Academy of Chinese Medical Science, Beijing 100091, China.",
+        "Chongqing Traditional Chinese Medicine Hospital, Chongqing, 400013, China.",
+        "Guang'anmen Hospital, China Academy of Chinese Medical Science, Beijing 100053, China.",
+        "Department of Traditional Chinese Medicine, The Eighth Affiliated Hospital of Sun Yat-sen University, Guangdong, 518033, China.",
+        "Xiyuan Hospital, China Academy of Chinese Medical Science, Beijing 100091, China. Electronic address: qixiang830803@163.com.",
+        "Xiyuan Hospital, China Academy of Chinese Medical Science, Beijing 100091, China. Electronic address: fucgbs@163.com.",
+        "Xiyuan Hospital, China Academy of Chinese Medical Science, Beijing 100091, China. Electronic address: qu_hua@yeah.net."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liao, Feifei",
+        "short_name": "Liao F",
+        "identifiers": [],
+        "affiliations": [
+          "Xiyuan Hospital, China Academy of Chinese Medical Science, Beijing 100091, China; Beijing University of Chinese Medicine, Beijing 100029, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Wenwen",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "Shanxi Provincial Hospital of Traditional Chinese Medicine, Shanxi, 710000, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Junhe",
+        "short_name": "Shi J",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Health and Social Sciences, The Hong Kong Polytechnic University, Hong Kong 999077, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Yuxuan",
+        "short_name": "Peng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Xiyuan Hospital, China Academy of Chinese Medical Science, Beijing 100091, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jie",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Chongqing Traditional Chinese Medicine Hospital, Chongqing, 400013, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hongzheng",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Guang'anmen Hospital, China Academy of Chinese Medical Science, Beijing 100053, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Ling",
+        "short_name": "Tan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, The Eighth Affiliated Hospital of Sun Yat-sen University, Guangdong, 518033, China."
+        ]
+      },
+      {
+        "full_name": "Long, Linzi",
+        "short_name": "Long L",
+        "identifiers": [],
+        "affiliations": [
+          "Xiyuan Hospital, China Academy of Chinese Medical Science, Beijing 100091, China. Electronic address: qixiang830803@163.com."
+        ]
+      },
+      {
+        "full_name": "Fu, Changgeng",
+        "short_name": "Fu C",
+        "identifiers": [],
+        "affiliations": [
+          "Xiyuan Hospital, China Academy of Chinese Medical Science, Beijing 100091, China. Electronic address: fucgbs@163.com."
+        ]
+      },
+      {
+        "full_name": "Qu, Hua",
+        "short_name": "Qu H",
+        "identifiers": [],
+        "affiliations": [
+          "Xiyuan Hospital, China Academy of Chinese Medical Science, Beijing 100091, China. Electronic address: qu_hua@yeah.net."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2026 Jul 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/26 00:32",
+    "fetched_at": "2026-10-01 21:38:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42184497",
+      "32693673",
+      "41921237",
+      "41107601",
+      "41442992",
+      "38301300",
+      "39265794",
+      "41977382",
+      "42183217",
+      "42280423",
+      "33395603",
+      "33621976",
+      "29955901",
+      "39123142",
+      "42097053",
+      "31092327",
+      "41538060",
+      "28993153",
+      "42025248",
+      "39755744",
+      "34498711",
+      "30205319",
+      "38834003",
+      "26263161",
+      "31999976",
+      "31135707",
+      "41534383",
+      "28151484",
+      "39657540",
+      "41027151",
+      "40246789",
+      "41260547",
+      "41933871",
+      "27246989",
+      "42105702",
+      "28848091",
+      "42176383",
+      "33607150",
+      "39579610",
+      "39222757",
+      "42061088",
+      "41759420",
+      "30531436",
+      "40176744",
+      "40576913",
+      "40916238",
+      "34383354",
+      "41724278",
+      "32344255",
+      "36959603",
+      "29969626",
+      "32476662",
+      "38153596",
+      "40836312",
+      "38697555",
+      "40754120",
+      "28581448",
+      "28150462",
+      "40962010",
+      "42173417",
+      "42163619",
+      "38621884",
+      "37861458",
+      "35600046",
+      "36627100",
+      "37980549",
+      "41931994",
+      "40738704",
+      "31081172",
+      "28629357",
+      "40722225",
+      "42084542",
+      "34775933",
+      "39244943",
+      "25684185",
+      "33716739",
+      "38195019",
+      "42074166",
+      "38403042",
+      "31802847",
+      "29538428",
+      "42128143",
+      "39986233",
+      "39357647",
+      "37608040",
+      "38199335",
+      "39069170",
+      "39664523",
+      "33064567",
+      "33907819",
+      "40848413",
+      "32446199",
+      "35041407",
+      "30002490",
+      "39454707",
+      "34454165",
+      "40427511",
+      "40570983",
+      "41361709",
+      "30664197"
+    ],
+    "review": [
+      "42184497"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(26)00539-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TNNI3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3834",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

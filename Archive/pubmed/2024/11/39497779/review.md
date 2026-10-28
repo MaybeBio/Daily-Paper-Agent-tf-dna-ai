@@ -1,0 +1,127 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the manuscript
+- **Shared manuscript claim summary** The authors report the synthesis of three novel sulfonamide derivatives containing a thiazolo[3,4-d]isoxazole fused ring system, and characterize their DNA binding, enzyme inhibitory (urease and carbonic anhydrase), and cytotoxic activities using both experimental and computational methods. They claim YM-1 is the best overall candidate for DNA binding, enzyme inhibition, and anticancer activity.
+- **Visible evidence base** Abstract, Introduction, Results and Discussion (Chemistry, DFT, Molecular docking, DNA binding experiments, Enzyme inhibition, Cytotoxicity, SAR), Conclusions, Experimental section, selected figures and tables referenced in text
+- **Missing materials affecting confidence** Full figures and tables (Figs 1-9, Tables 1-2, Schemes, ESI figures) are not provided; raw spectroscopic data, crystallographic data, and detailed experimental parameters are not fully accessible; statistical analysis details are limited
+
+## Reviewer
+- **Overall assessment** This manuscript presents a straightforward synthesis and characterization study of three new sulfonamide derivatives, with a standard battery of biophysical and computational assays to assess DNA binding, enzyme inhibition, and cytotoxicity. The work is competent but incremental, following well-established protocols and offering limited mechanistic novelty. The claims of "better candidate" for YM-1 are only partially supported by the data, and several inconsistencies and methodological weaknesses need to be addressed. The study would be of interest to a specialized audience in medicinal chemistry, but its broader impact is limited.
+- **Who would be interested in the results, and why** Researchers in medicinal chemistry and drug discovery, particularly those focused on sulfonamide-based pharmacophores, DNA-targeting agents, and enzyme inhibitors. The comparative data on three derivatives may be of interest for structure-activity relationship studies, though the limited scope of the biological assays reduces the breadth of appeal.
+- **Major strengths**
+  - The synthesis of three new derivatives is clearly described, and the characterization data (FTIR, NMR, HRMS) are provided, supporting the identity of the compounds.
+  - The combination of experimental (UV-vis, fluorescence, CV, viscometry) and computational (DFT, docking) methods for DNA binding is a reasonable approach to cross-validate findings.
+  - The study includes both enzyme inhibition and cytotoxicity assays, providing a multi-faceted biological profile.
+  - The structure-activity relationship discussion, though brief, attempts to rationalize the observed activity differences.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that "YM-1 is a better candidate for DNA binding, enzyme inhibition as well as anticancer activity" based on the presented data.
+  - **Evidence pointer** Results and Discussion, DNA binding experimental studies; Enzyme inhibition activity studies; Cytotoxicity activity by cell line studies; Tables 1-2 (not fully visible)
+  - **Concern** The claim that YM-1 is the "better candidate" is not consistently supported by the data. For urease inhibition, YM-2 shows the lowest IC50 (1.90 ± 0.02 μM) and highest % inhibition (57.93%), which is acknowledged in the text but contradicts the overall conclusion favoring YM-1. The DNA binding data (Kb, ΔG) from different methods (UV-vis, fluorescence, CV) are not presented in a unified table, making it difficult to assess whether the differences between compounds are statistically significant. The cytotoxicity data show that YM-1 has lower toxicity to healthy cells at 120 μM, but the claim of "better anticancer activity" is based on a single concentration comparison and lacks a clear therapeutic index analysis.
+  - **Why it matters** The central conclusion of the manuscript is that YM-1 is the lead candidate. If the data do not consistently support this, the manuscript's main message is undermined. The lack of statistical analysis and inconsistent ranking across assays prevents a robust conclusion.
+  - **Resolution test** Provide a consolidated table of all DNA binding parameters (Kb, ΔG, n) from all methods with appropriate statistical analysis (e.g., standard deviations, significance tests). Clearly state the ranking of compounds for each assay and discuss the discrepancies. For cytotoxicity, provide a full dose-response analysis with IC50 values for both cell lines and calculate a selectivity index (IC50 healthy / IC50 cancer) to support the claim of selective anticancer activity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  umber** Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the compounds bind to DNA via "mixed intercalative and groove binding interactions" based on experimental and docking data.
+  - **Evidence pointer** Results and Discussion, DNA binding experimental studies; Molecular docking studies; Figure 5-7
+  - **Concern** The evidence for the binding mode is not conclusive. The UV-vis and fluorescence data show hypochromism and emission enhancement, which are consistent with intercalation, but the viscometry data (Figure 7d) are described only qualitatively ("increase in DNA viscosity... stopped rising after 30-40 μM"). The lack of a quantitative analysis of viscosity changes (e.g., comparing to a known intercalator like ethidium bromide) weakens the claim. The docking data suggest partial intercalation and groove binding, but the figures are not provided for verification. The claim of "mixed mode" is plausible but not rigorously established.
+  - **Why it matters** The binding mode is a key mechanistic claim. If the evidence is not robust, the interpretation of the DNA binding data and the subsequent structure-activity relationship discussion are compromised.
+  - **Resolution test** Provide quantitative viscometry data with a positive control (e.g., ethidium bromide) and a groove binder (e.g., Hoechst 33258) for comparison. Show the docking poses and interaction details in the main text or ESI. Discuss the limitations of each method in assigning the binding mode and provide a more nuanced conclusion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript reports DFT calculations (HOMO-LUMO, MESP) and uses them to predict reactivity and support the experimental findings.
+  - **Evidence pointer** Results and Discussion, Structural analysis through DFT; Figure 2
+  - **Concern** The DFT calculations are performed at the GGA:PBE/DZ level, which is a relatively low level of theory for accurate electronic structure predictions. The manuscript does not provide details on the convergence criteria, solvation effects, or whether the calculations were validated against experimental data. The HOMO-LUMO gap is used to predict reactivity, but this is a simplistic interpretation. The MESP maps are described qualitatively, and the connection between these computational results and the biological activity is not clearly established.
+  - **Why it matters** The computational results are presented as a significant part of the "mixed computational and experimental analyses." If the methodology is not robust or the interpretation is overreaching, the credibility of the computational component is diminished.
+  - **Resolution test** Justify the choice of functional and basis set, or perform benchmark calculations at a higher level of theory. Provide details on the computational setup (e.g., solvation model, convergence criteria). Clearly state the limitations of the DFT approach and avoid overinterpreting the HOMO-LUMO gap as a direct predictor of biological activity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript claims that the compounds were synthesized and characterized, and that the biological assays were performed as described.
+  - **Evidence pointer** Experimental section, Synthesis protocol, Characterization data
+  - **Concern** The synthesis protocol is described in general terms, but specific details such as reaction times, temperatures, and yields for each step are not provided. The characterization data are given, but the purity of the final compounds is not explicitly stated (e.g., elemental analysis or HPLC purity). The biological assay protocols are described, but some parameters are missing (e.g., exact cell culture conditions, number of replicates for some assays, statistical methods used).
+  - **Why it matters** Reproducibility is a cornerstone of scientific research. Without complete experimental details, other researchers cannot replicate the synthesis or the assays, which limits the utility of the work.
+  - **Resolution test** Provide a detailed experimental section with all reaction conditions, yields, and purity data. Include a statement on the purity of the final compounds (e.g., elemental analysis or HPLC). Specify all assay conditions, including cell culture details, number of replicates, and statistical analysis methods.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract contains a typo: "thaizaole(3,4-d)isoxazole" should be "thiazolo[3,4-d]isoxazole". The abstract also states "mixed computational and experimental analyses" but the computational component is limited to DFT and docking, which is acceptable but could be more specific.
+  - **Required correction** Correct the typo and consider specifying the computational methods (DFT, molecular docking) in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction is brief and does not provide a clear rationale for the design of the specific derivatives. The connection between the structural features of the compounds and the expected biological activity is not well articulated.
+  - **Required correction** Expand the introduction to explain the design strategy, including the choice of substituents and the expected impact on DNA binding and enzyme inhibition.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results and Discussion, DNA binding experimental studies
+  - **Evidence pointer** Figure 5-7
+  - **Issue** The figures are referenced but not provided in the manuscript text. The text describes the trends but does not provide specific values for the binding constants from each method in a comparative table.
+  - **Required correction** Include a summary table with all Kb, ΔG, and n values from UV-vis, fluorescence, and CV methods for all three compounds.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results and Discussion, Enzyme inhibition activity studies
+  - **Evidence pointer** Figure 8
+  - **Issue** The text mentions that YM-2 has the best urease inhibition, but the % inhibition values are only given for the highest concentration tested. A full dose-response curve and IC50 values for all compounds should be presented.
+  - **Required correction** Provide a figure with dose-response curves for all compounds and a table with IC50 values and % inhibition at all tested concentrations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results and Discussion, Cytotoxicity activity by cell line studies
+  - **Evidence pointer** Figure 9
+  - **Issue** The text states that YM-1 shows less toxicity to healthy cells at 120 μM, but the full dose-response data for both cell lines are not shown. The IC50 values for both cell lines are mentioned but not presented in a table.
+  - **Required correction** Provide a figure with dose-response curves for both cell lines and a table with IC50 values for all compounds.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Structure-activity relationship
+  - **Evidence pointer** Structure-activity relationship section
+  - **Issue** The SAR discussion is superficial and does not provide a clear structure-activity relationship. The differences in activity are attributed to "bulky" and "electron donating/withdrawing" groups, but this is not systematically analyzed.
+  - **Required correction** Provide a more detailed SAR analysis, possibly with a table comparing the structural features and activities of the three compounds.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental section, Computational analysis
+  - **Evidence pointer** Experimental section, Computational analysis
+  - **Issue** The computational methods are described, but the specific software versions and parameters for the docking studies are not fully detailed. The PDB IDs are given, but the preparation of the protein structures (e.g., protonation, energy minimization) is not described.
+  - **Required correction** Provide more details on the computational setup, including software versions, force fields, and any structure preparation steps.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions
+  - **Issue** The conclusion is somewhat repetitive and does not clearly state the limitations of the study or suggest future directions beyond "in vivo investigations."
+  - **Required correction** Revise the conclusion to be more concise, acknowledge the limitations, and suggest specific future work (e.g., mechanistic studies, in vivo efficacy, ADMET profiling).
+
+## Risk / unsupported claims
+- The claim that YM-1 is a "better candidate" for all three activities is not consistently supported by the data, as YM-2 shows superior urease inhibition.
+- The claim of "mixed intercalative and groove binding" is plausible but not rigorously established due to the lack of quantitative viscometry data and detailed docking analysis.
+- The DFT-based predictions of reactivity are based on a low-level theory and are not validated against experimental data.
+- The structure-activity relationship discussion is speculative and not systematically supported.
+- The manuscript claims "good DNA binders" but the binding constants are in the 10^4 M^-1 range, which is moderate; the significance of this for biological activity is not discussed.
+- The selectivity of the compounds for cancer cells over healthy cells is not clearly established, as only one concentration of YM-1 showed lower toxicity to healthy cells.
+
+## Assessment against Nature-style criteria
+- **Originality** Low to moderate. The synthesis of new sulfonamide derivatives is a common approach, and the combination of assays is standard. The specific compounds are new, but the overall design and methodology do not represent a significant conceptual advance.
+- **Scientific importance** Moderate. The study provides useful data on the biological activity of these specific compounds, but the findings are incremental and do not address fundamental questions or offer a new paradigm. The lack of a clear lead candidate and the inconsistencies in the data reduce the impact.
+- **Interdisciplinary readership** Limited. The work is primarily of interest to medicinal chemists and biophysicists. The methods and results are unlikely to attract a broad readership across different scientific disciplines.
+- **Technical soundness** The synthesis and characterization appear sound, but the biological and computational analyses have weaknesses. The lack of statistical analysis, incomplete data presentation, and low-level DFT calculations are concerns.
+- **Readability for nonspecialists** The manuscript is written in a technical style that is accessible to specialists in the field. However, the abstract and introduction could be clearer for a broader audience, and the numerous typographical errors and inconsistent terminology detract from readability.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript presents a competent but incremental study with several methodological weaknesses and inconsistencies in the data that prevent a robust conclusion. The central claim that YM-1 is the best candidate is not consistently supported. The authors should address the major concerns, particularly the data presentation and statistical analysis, before the case for the lead candidate is established. If the authors can provide a more rigorous and consistent analysis, the work could be considered for publication in a specialized journal, but it does not meet the threshold for a high-impact general journal.

@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report a computational study combining molecular docking and duplicate 1 μs molecular dynamics simulations to characterize binding of five elastin-derived peptides (EDPs) to the V32 pocket of human elastin-binding protein (EBP). They propose two partially overlapping functional subregions within the pocket, claim that binding affinity and pocket preference jointly determine biological activity, argue that β-turn formation is not required for activity, and identify surface residues P233 and I234 as potential mediators of EBP interactions with Neu-1 and PPCA.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, validation metrics, or experimental comparisons are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation convergence data, docking scoring details, MM/PBSA calculation parameters, statistical analyses, and any comparison with experimental binding data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational model for EDP selectivity in the EBP V32 pocket. The central claims, however, are supported only by qualitative statements with no visible quantitative evidence. The distinction between "active" and "inactive" peptides, the proposed subregion model, and the functional implications for the elastin receptor complex cannot be evaluated from the supplied material. The work may be of interest to the elastin biology and computational biophysics communities, but the evidence base provided is insufficient to establish the stated conclusions.
+- **Who would be interested in the results, and why** Researchers studying elastin-derived peptide signaling, elastin receptor complex assembly, and extracellular matrix biology would be interested in the proposed structural basis for EDP selectivity. Computational biophysicists and molecular modelers working on protein-peptide interactions and free energy calculations may also find the methodological approach relevant. The potential link to Neu-1 and PPCA interactions could interest groups working on elastin receptor signaling in disease contexts.
+- **Major strengths** The study addresses a biologically relevant question with a systematic computational approach. The use of duplicate 1 μs MD simulations suggests attention to sampling robustness. The proposal of overlapping rather than entirely separate binding subregions offers a nuanced model that could reconcile conflicting literature. The explicit challenge to the β-turn hypothesis is a testable and potentially important contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "MM/PBSA binding free energies were in full agreement with experimental activity trends, indicating that binding affinity and pocket preference jointly determine biological activity."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that MM/PBSA free energies agree with experimental activity trends, but no numerical values, error estimates, or statistical comparisons are provided. The phrase "full agreement" is a strong claim that cannot be assessed without quantitative data.
+  - **Why it matters** This claim is central to the conclusion that binding affinity and pocket preference jointly determine activity. Without visible free energy values, uncertainties, and a clear definition of "agreement," the claim is unverifiable and potentially overstated.
+  - **Resolution test** Provide a table of computed MM/PBSA free energies with standard errors for all five peptides, alongside the experimental activity classification, and a statistical test or clear threshold demonstrating agreement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "Our results reveal two partially overlapping functional regions within the V32 pocket: residues 98–114, preferentially engaged by biologically active peptides and galactosugars, and residues 83–104, primarily utilized by inactive peptides."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The proposed subregion model is presented as a definitive finding, but no occupancy maps, contact frequency data, or residue-level interaction statistics are shown. The overlap between the two regions (83–104 and 98–114) is substantial, and the basis for assigning "preferential" engagement is not described.
+  - **Why it matters** This two-region model is the central structural hypothesis of the work. Without quantitative residue-level interaction data, the distinction between the regions and the claim of partial overlap cannot be evaluated.
+  - **Resolution test** Provide per-residue contact occupancy plots or interaction energy decomposition for each peptide, with a defined threshold for "preferential" engagement, and show that the two regions are statistically distinguishable.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "Active peptides formed strong, persistent interactions, particularly through D98 and E99, whereas inactive peptides relied primarily on salt bridges with E137 and hydrogen bonds with S101."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The distinction between "strong, persistent" interactions for active peptides and "primarily relied" interactions for inactive peptides is qualitative. No interaction lifetimes, hydrogen bond occupancies, or salt bridge persistence data are provided.
+  - **Why it matters** This claim underpins the mechanistic explanation for differential activity. Without quantitative interaction metrics, the reader cannot determine whether the observed differences are robust or within noise.
+  - **Resolution test** Provide hydrogen bond and salt bridge occupancy percentages with standard deviations across duplicate simulations, and a statistical comparison between active and inactive peptide groups.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "The surface residues P233 and I234 appeared as potential mediators of EBP's interactions with Neu-1 and PPCA within the elastin receptor complex, supporting previous findings."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe any simulation or analysis involving Neu-1 or PPCA. The basis for implicating P233 and I234 in these interactions is unclear, and the phrase "appeared as potential mediators" is vague.
+  - **Why it matters** This claim extends the study beyond EDP binding to the broader elastin receptor complex. Without any evidence connecting P233 and I234 to Neu-1 or PPCA, this statement is unsupported by the visible material.
+  - **Resolution test** Describe the analysis that identified P233 and I234 as potential interaction sites, or remove this claim if it is speculative.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Peptide classification
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract classifies peptides as "biologically active" and "inactive" but does not define the biological assay or activity threshold used for this classification.
+  - **Required correction** Specify the experimental source of the activity classification and the criteria for active versus inactive designation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological transparency
+  - **Affected element** Docking and MD protocol
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "systematic molecular docking" and "duplicate 1 μs MD simulations" but provides no details on docking software, scoring function, force field, water model, or equilibration protocol.
+  - **Required correction** Include key methodological parameters in the main text or refer to a methods section with full details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** β-turn discussion
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that peptides "remained predominantly extended when bound to EBP" is presented as a contrast to the β-turn hypothesis, but the abstract does not state whether β-turn propensity was measured in solution or only in the bound state.
+  - **Required correction** Clarify whether the β-turn analysis refers to bound-state conformations only, and discuss implications for the solution-state hypothesis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Galactosugars"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "galactosugars" is used without specifying which galactosugars were studied or how they were included in the simulations.
+  - **Required correction** Define the galactosugar ligands and describe how they were modeled in the docking and MD protocols.
+
+## Risk / unsupported claims
+- The claim that MM/PBSA free energies are in "full agreement" with experimental activity trends is unsupported without quantitative data.
+- The two-subregion model for the V32 pocket is unverifiable without residue-level interaction data.
+- The distinction between "strong, persistent" interactions for active peptides and "primarily relied" interactions for inactive peptides is qualitative and unsupported.
+- The claim regarding P233 and I234 as mediators of Neu-1 and PPCA interactions is unsupported by any visible evidence in the abstract.
+- The overall conclusion that "binding affinity and pocket preference jointly determine biological activity" is a reasonable hypothesis but is not established from the supplied material.

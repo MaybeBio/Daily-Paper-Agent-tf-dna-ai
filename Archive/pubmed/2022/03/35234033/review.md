@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, as supplied
+- **Shared manuscript claim summary** The authors report a computational study combining dissociation parallel cascade selection molecular dynamics (dPaCS-MD) and Markov state modeling (MSM) to characterize the dissociation pathways of the p53 DNA binding domain (p53-DBD) from a consensus-sequence DNA duplex. They report dominant major-groove-first dissociation (93% of trials), key stabilizing roles for residue R248 in minor groove binding, a computed standard binding free energy of -10.9 +/- 0.4 kcal/mol consistent with an experimental value of -11.1 kcal/mol, and a correlation between identified key residues and cancer-associated mutations.
+- **Visible evidence base** Abstract text only. No figures, tables, methods details, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field details, convergence criteria, MSM construction and validation, error estimation procedures, experimental comparison details, and any statistical analysis of the mutation correlation. None of these are available from the supplied material.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational approach for studying protein-DNA dissociation and reports agreement with experimental binding free energy. However, the supplied material is insufficient to evaluate the technical soundness of the methods, the validity of the pathway statistics, or the robustness of the key residue analysis. The claims are plausible but not verifiable from the abstract alone.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists interested in enhanced sampling methods for large biomolecular complexes, researchers studying p53-DNA interactions and cancer-related mutations, and method developers seeking efficient approaches to simulate dissociation of large molecular assemblies.
+- **Major strengths** The combination of dPaCS-MD and MSM to address dissociation of two large molecules is potentially novel and practically relevant. The reported agreement between computed and experimental binding free energy is encouraging. The link between identified key residues and cancer-related mutations provides biological context and potential translational relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that dPaCS-MD/MSM enabled simulation of dissociation of two large molecules with short simulation time (11.2 +/- 2.2 ns per trial) and analysis of dissociation pathways, free energy landscape, and binding free energy.
+  - **Evidence pointer** Abstract, methods not provided
+  - **Concern** The abstract does not provide sufficient methodological detail to assess whether the dPaCS-MD approach adequately samples the dissociation process, whether the MSM is properly constructed and validated, or whether the reported error bars reflect statistical or systematic uncertainties. The short simulation time per trial raises questions about convergence of the free energy landscape and pathway statistics.
+  - **Why it matters** Without evidence of convergence and proper MSM validation, the reported pathway percentages and binding free energy may be artifacts of insufficient sampling or model misspecification. The agreement with experiment could be coincidental.
+  - **Resolution test** Provide details on MSM construction, implied timescales, Chapman-Kolmogorov tests, and error estimation. Show convergence of pathway probabilities and free energy with respect to number of trials and simulation length.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that minor groove binding is mainly stabilized by R248, identified as the most important residue that tightly binds deep inside the minor groove.
+  - **Evidence pointer** Abstract, no quantitative data provided
+  - **Concern** The abstract states R248 is the most important residue but provides no quantitative metric (e.g., per-residue contact frequencies, interaction energies, or mutational analysis) to support this ranking. The basis for identifying R248 as "most important" is unclear.
+  - **Why it matters** The biological conclusion linking key residues to cancer mutations depends on the reliability of the residue importance ranking. Without a clear definition of the metric and its statistical uncertainty, the claim is not established.
+  - **Resolution test** Provide a quantitative definition of residue importance, show the distribution of this metric across residues, and report statistical significance or confidence intervals for the ranking.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that the standard binding free energy calculated from the FEL was -10.9 +/- 0.4 kcal/mol, which agrees with an experimental value of -11.1 kcal/mol.
+  - **Evidence pointer** Abstract, no FEL or error analysis provided
+  - **Concern** The abstract does not describe how the binding free energy was extracted from the free energy landscape, what corrections or assumptions were applied, or how the error of 0.4 kcal/mol was estimated. The experimental value is cited without reference or context regarding measurement conditions.
+  - **Why it matters** Binding free energy agreement is a key validation of the method. Without details on the calculation and error propagation, the agreement may be fortuitous or the error underestimated.
+  - **Resolution test** Provide the full derivation of binding free energy from the FEL, including definitions of bound and unbound states, and describe the error estimation method. Cite the experimental source and note any differences in conditions.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Pathway statistics
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract reports 93% major-groove-first and 7% minor-groove-first dissociation but does not specify the number of trials used for these percentages or the uncertainty in these proportions.
+  - **Required correction** Report the exact number of trials and provide confidence intervals or a statistical test for the pathway distribution.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation setup
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not specify the force field, water model, salt concentration, or temperature used in the simulations, which are critical for reproducing the results.
+  - **Required correction** Include these details in the methods section of the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Biological interpretation
+  - **Affected element** Correlation with cancer mutations
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The claim of "high correlations with cancer-related mutations" is vague. No correlation coefficient, statistical test, or list of compared mutations is provided.
+  - **Required correction** Provide a quantitative correlation analysis with appropriate statistical testing and specify the mutation dataset used.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (MSM validation and convergence), R1-M2 (quantitative residue importance), R1-M3 (binding free energy derivation and error estimation).
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of dPaCS-MD and MSM for dissociation of large protein-DNA complexes appears potentially novel, but the abstract does not clearly differentiate it from prior enhanced sampling approaches. Assessment is limited by missing methods.
+  - Scientific importance: The p53-DNA system is of high biomedical relevance, and understanding dissociation mechanisms could inform mutation effects. However, the incremental advance over existing knowledge is not clearly articulated.
+  - Interdisciplinary readership: The topic bridges computational chemistry, structural biology, and cancer biology, which could attract broad interest. The abstract is written in a way that is accessible to nonspecialists in each field.
+  - Technical soundness: Cannot be assessed from the abstract alone. The reported short simulation times and lack of methodological detail raise concerns that need to be resolved.
+  - Readability for nonspecialists: The abstract is generally clear, but terms like dPaCS-MD and MSM are introduced without sufficient explanation for readers outside computational biophysics.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible results, but the technical foundation cannot be evaluated without full methods, validation data, and quantitative analyses. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that dPaCS-MD/MSM is a "powerful tool" for investigating dissociation of two large molecules is an overgeneralization based on a single system and cannot be supported from the abstract alone.
+- The claim of "high correlations" between key residues and cancer-related mutations is unsupported without quantitative data.
+- The agreement between computed and experimental binding free energy is presented as validation, but the error bars and calculation details are not provided, making the agreement unverifiable.
+- The pathway percentages (93% vs 7%) are presented without uncertainty estimates or demonstration that the trial set is representative.

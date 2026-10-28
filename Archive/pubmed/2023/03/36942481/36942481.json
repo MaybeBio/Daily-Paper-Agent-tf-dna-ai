@@ -1,0 +1,413 @@
+{
+  "identity": {
+    "pmid": "36942481",
+    "doi": "10.1093/nar/gkad175",
+    "title": "Biochemical characterisation of Mer3 helicase interactions and the protection of meiotic recombination intermediates."
+  },
+  "content": {
+    "abstract": "Crossing over between homologs is critical for the stable segregation of chromosomes during the first meiotic division. Saccharomyces cerevisiae Mer3 (HFM1 in mammals) is a SF2 helicase and member of the ZMM group of proteins, that facilitates the formation of the majority of crossovers during meiosis. Here, we describe the structural organisation of Mer3 and using AlphaFold modelling and XL-MS we further characterise the previously described interaction with Mlh1-Mlh2. We find that Mer3 also forms a previously undescribed complex with the recombination regulating factors Top3 and Rmi1 and that this interaction is competitive with Sgs1BLM helicase. Using in vitro reconstituted D-loop assays we show that Mer3 inhibits the anti-recombination activity of Sgs1 helicase, but only in the presence of Dmc1. Thus we provide a mechanism whereby Mer3 interacts with a network of proteins to protect Dmc1 derived D-loops from dissolution.",
+    "keywords": [],
+    "mesh_terms": [
+      "Cell Cycle Proteins/genetics",
+      "Crossing Over, Genetic",
+      "*DNA Helicases/chemistry/metabolism",
+      "DNA-Binding Proteins/metabolism",
+      "*Homologous Recombination",
+      "*Meiosis/genetics",
+      "Protein Binding",
+      "Protein Folding",
+      "RecQ Helicases/antagonists & inhibitors/chemistry/metabolism",
+      "*Saccharomyces cerevisiae/chemistry/enzymology/genetics/metabolism",
+      "*Saccharomyces cerevisiae Proteins/chemistry/metabolism",
+      "Binding, Competitive",
+      "MutL Protein Homolog 1",
+      "MutL Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Altmannova, Veronika",
+        "Firlej, Magdalena",
+        "Muller, Franziska",
+        "Janning, Petra",
+        "Rauleder, Rahel",
+        "Rousova, Dorota",
+        "Schaffler, Andreas",
+        "Bange, Tanja",
+        "Weir, John R"
+      ],
+      "short_names": [
+        "Altmannova V",
+        "Firlej M",
+        "Muller F",
+        "Janning P",
+        "Rauleder R",
+        "Rousova D",
+        "Schaffler A",
+        "Bange T",
+        "Weir JR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4880-9269",
+        "ORCID: 0000-0002-6904-0284"
+      ],
+      "affiliations": [
+        "Friedrich Miescher Laboratory of the Max Planck Society, Max-Planck-Ring 9, 72076 Tubingen, Germany.",
+        "Friedrich Miescher Laboratory of the Max Planck Society, Max-Planck-Ring 9, 72076 Tubingen, Germany.",
+        "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Otto-Hahn-Str. 11, 44227, Dortmund, Germany.",
+        "Department of Chemical Biology, Max Planck Institute of Molecular Physiology, Otto-Hahn-Str. 11, 44227, Dortmund, Germany.",
+        "Friedrich Miescher Laboratory of the Max Planck Society, Max-Planck-Ring 9, 72076 Tubingen, Germany.",
+        "Friedrich Miescher Laboratory of the Max Planck Society, Max-Planck-Ring 9, 72076 Tubingen, Germany.",
+        "Friedrich Miescher Laboratory of the Max Planck Society, Max-Planck-Ring 9, 72076 Tubingen, Germany.",
+        "Institute of Medical Psychology, Faculty of Medicine, LMU Munich, Germany.",
+        "Friedrich Miescher Laboratory of the Max Planck Society, Max-Planck-Ring 9, 72076 Tubingen, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Altmannova, Veronika",
+        "short_name": "Altmannova V",
+        "identifiers": [],
+        "affiliations": [
+          "Friedrich Miescher Laboratory of the Max Planck Society, Max-Planck-Ring 9, 72076 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Firlej, Magdalena",
+        "short_name": "Firlej M",
+        "identifiers": [],
+        "affiliations": [
+          "Friedrich Miescher Laboratory of the Max Planck Society, Max-Planck-Ring 9, 72076 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Müller, Franziska",
+        "short_name": "Müller F",
+        "identifiers": [
+          "0000-0002-4880-9269"
+        ],
+        "affiliations": [
+          "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Otto-Hahn-Str. 11, 44227, Dortmund, Germany."
+        ]
+      },
+      {
+        "full_name": "Janning, Petra",
+        "short_name": "Janning P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Biology, Max Planck Institute of Molecular Physiology, Otto-Hahn-Str. 11, 44227, Dortmund, Germany."
+        ]
+      },
+      {
+        "full_name": "Rauleder, Rahel",
+        "short_name": "Rauleder R",
+        "identifiers": [],
+        "affiliations": [
+          "Friedrich Miescher Laboratory of the Max Planck Society, Max-Planck-Ring 9, 72076 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Rousova, Dorota",
+        "short_name": "Rousova D",
+        "identifiers": [],
+        "affiliations": [
+          "Friedrich Miescher Laboratory of the Max Planck Society, Max-Planck-Ring 9, 72076 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Schäffler, Andreas",
+        "short_name": "Schäffler A",
+        "identifiers": [],
+        "affiliations": [
+          "Friedrich Miescher Laboratory of the Max Planck Society, Max-Planck-Ring 9, 72076 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Bange, Tanja",
+        "short_name": "Bange T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Psychology, Faculty of Medicine, LMU Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Weir, John R",
+        "short_name": "Weir JR",
+        "identifiers": [
+          "0000-0002-6904-0284"
+        ],
+        "affiliations": [
+          "Friedrich Miescher Laboratory of the Max Planck Society, Max-Planck-Ring 9, 72076 Tübingen, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2023 May 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/22 06:00",
+    "fetched_at": "2026-09-28 21:52:00"
+  },
+  "links": {
+    "cites": [
+      "42592724",
+      "42230595",
+      "41851108",
+      "41648604",
+      "41423819",
+      "41278739",
+      "41140129",
+      "40902007",
+      "38348856",
+      "38014100"
+    ],
+    "refs": [
+      "34723319",
+      "34265844",
+      "33823531",
+      "33748134",
+      "33157029",
+      "32955754",
+      "32557917",
+      "32504558",
+      "32006276",
+      "31351878",
+      "31268598",
+      "31236671",
+      "30190555",
+      "30074391",
+      "29440262",
+      "29361465",
+      "28051769",
+      "27348712",
+      "27214570",
+      "27114506",
+      "25956653",
+      "25699709",
+      "25699708",
+      "25699707",
+      "25324213",
+      "25261217",
+      "25158281",
+      "24984776",
+      "24597873",
+      "24509834",
+      "24443562",
+      "23769192",
+      "23555294",
+      "23435383",
+      "22885009",
+      "22500736",
+      "22154230",
+      "21730139",
+      "21085703",
+      "21047263",
+      "20935631",
+      "20704385",
+      "20371348",
+      "19716790",
+      "19470578",
+      "19029910",
+      "18297071",
+      "17674148",
+      "17662941",
+      "17002499",
+      "16793386",
+      "16670433",
+      "16045469",
+      "15899853",
+      "15889139",
+      "15854901",
+      "15334558",
+      "15066281",
+      "15066280",
+      "11971962",
+      "11461702",
+      "11376001",
+      "11087418",
+      "11023840",
+      "10862619",
+      "10728666",
+      "10407276",
+      "10199405",
+      "9590697"
+    ],
+    "similar": [
+      "36942481",
+      "11971962",
+      "33823531",
+      "31562181",
+      "15066281",
+      "36508468",
+      "12200140",
+      "28051769",
+      "36681470",
+      "25699709",
+      "10523314",
+      "38657110",
+      "21085703",
+      "17002499",
+      "25699707",
+      "15899853",
+      "22761450",
+      "32504558",
+      "26682552",
+      "18272435",
+      "16816432",
+      "31790385",
+      "11376001",
+      "23770697",
+      "22500736",
+      "27373152",
+      "24367271",
+      "31268598",
+      "35654140",
+      "16705162",
+      "30301803",
+      "30224356",
+      "30850524",
+      "24798326",
+      "18691965",
+      "20811461",
+      "29523238",
+      "32540865",
+      "12399378",
+      "29804678",
+      "15854901",
+      "18691964",
+      "14622595",
+      "14614820",
+      "32085395",
+      "27664093",
+      "25699708",
+      "16045469",
+      "16581767",
+      "28679532",
+      "24038467",
+      "22500800",
+      "27298337",
+      "17662941",
+      "30420424",
+      "21637791",
+      "20811460",
+      "23036200",
+      "23555294",
+      "24213600",
+      "15889139",
+      "27974736",
+      "30737186",
+      "20935631",
+      "29162625",
+      "34575966",
+      "24097410",
+      "25699706",
+      "24385936",
+      "20157511",
+      "30482074",
+      "21081662",
+      "17674148",
+      "22885009",
+      "29444896",
+      "24278365",
+      "17671161",
+      "29458764",
+      "17693398",
+      "15611162",
+      "24465215",
+      "33833229",
+      "9427283",
+      "11124263",
+      "17027027",
+      "11138010",
+      "10757756",
+      "23769192",
+      "31236671",
+      "30496175",
+      "18757364",
+      "11553789",
+      "21138837",
+      "25736290",
+      "27329041",
+      "27214570",
+      "31005681",
+      "24403070",
+      "30419022",
+      "20071248"
+    ],
+    "review": [
+      "36942481",
+      "32085395",
+      "27664093",
+      "30482074",
+      "21081662",
+      "17674148",
+      "31236671"
+    ],
+    "pmc": [
+      "10201424"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36942481/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/36942481",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36942481",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PMS1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=pxd039839",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkad175",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

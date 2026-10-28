@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or supplementary material provided
+- **Shared manuscript claim summary** The authors report all-atom steered molecular dynamics simulations of human RNA polymerase II (RNAP II) that produce a continuous pathway for DNA opening during transcription initiation, involving a 55 Å strand displacement and nearly 360° helix rotation. They introduce a combination of RMSD-based collective variables, a new rotational coordinate, and a path collective variable to drive these transitions. They identify extensive DNA interactions with three conserved loops (rudder, fork loop 1, fork loop 2) and propose a twofold mechanism whereby DNA–protein interactions catalyze opening by attacking Watson-Crick hydrogen bonds and stabilize the open bubble via salt bridges.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, simulation parameters, or validation data provided
+- **Missing materials affecting confidence** Full methods, simulation setup and force field parameters, convergence and sampling analysis, free energy calculations or error estimates, structural validation against experimental data, and any quantitative support for the proposed mechanism
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious computational study aimed at resolving the atomistic pathway of DNA opening in RNAP II. The technical novelty of the rotational coordinate and the combination of collective variables is potentially interesting. However, the evidence base is limited to the abstract, and the central mechanistic claims are presented without quantitative support. The proposed twofold mechanism, while plausible, is not substantiated by data visible in the supplied material. The study may be of interest to the transcription and molecular simulation communities, but the case for the specific mechanistic conclusions is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying transcription initiation mechanisms, particularly those focused on RNAP II structure and function, would be interested in an atomistic pathway of DNA opening. Computational biophysicists developing or applying enhanced sampling methods for large macromolecular complexes would also find the methodological innovations relevant. The proposed role of conserved loops in catalyzing DNA opening could inform experimental mutagenesis studies.
+- **Major strengths** The study addresses a fundamental and unresolved question in transcription initiation. The use of all-atom simulations to capture a large-scale conformational transition (55 Å displacement, near 360° rotation) is technically challenging and represents a significant computational undertaking. The design of a new rotational coordinate to handle the helix rotation is a creative methodological contribution. The identification of specific conserved loops and a concrete mechanistic proposal provides testable hypotheses.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The simulations derive a continuous pathway of DNA opening involving a 55 Å DNA strand displacement and a nearly 360° DNA helix rotation.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no information on how the pathway was validated as physically meaningful. Steered MD with RMSD-based collective variables can produce artificial trajectories that do not correspond to thermodynamically relevant transitions. No convergence criteria, free energy profiles, or comparison with unbiased simulations or experimental structures are mentioned.
+  - **Why it matters** Without validation that the steered pathway is representative of the actual opening mechanism, the derived structural details and mechanistic conclusions may be artifacts of the biasing protocol rather than intrinsic properties of the system.
+  - **Resolution test** Provide evidence that the pathway is reproducible with different initial conditions, that the system relaxes along the pathway when biases are removed, and that free energy changes along the pathway are computed with error estimates. Compare key intermediate states with available experimental structures of RNAP II open complexes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for mechanistic claims
+  - **Claim pointer** DNA–protein interactions support DNA opening by a twofold mechanism: they catalyze DNA opening by attacking Watson-Crick hydrogen bonds, and they stabilize the open DNA bubble by the formation of a wide set of DNA–protein salt bridges.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts a causal mechanism but provides no quantitative data. No interaction energies, hydrogen bond occupancy analyses, or salt bridge lifetimes are reported. The phrase "attacking Watson-Crick hydrogen bonds" implies a specific catalytic role that requires energetic or kinetic evidence to support.
+  - **Why it matters** The mechanistic claim is the central scientific contribution. Without quantitative support, the proposal remains speculative and cannot be distinguished from alternative explanations, such as passive stabilization of spontaneously opened states.
+  - **Resolution test** Provide interaction energy decomposition, hydrogen bond occupancy over time, and salt bridge formation frequencies along the pathway. Show that disruption of specific loop interactions (e.g., via in silico mutations) alters the opening barrier or pathway, demonstrating causality.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and methodological detail
+  - **Claim pointer** The authors used a combination of RMSD-based collective variables, a newly designed rotational coordinate, and a path collective variable.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe the functional form of the new rotational coordinate, how it was parameterized, or how it was combined with the other collective variables. No details on the path collective variable definition, the number of replicas or simulations, or the total simulation time are given.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The methodological novelty is a key selling point, but without sufficient detail, other groups cannot implement or assess the approach.
+  - **Resolution test** Provide a full methods section with equations for the collective variables, simulation parameters, system setup, equilibration protocol, and analysis details. Deposit input files and analysis scripts in a public repository.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "attacking Watson-Crick hydrogen bonds" is anthropomorphic and imprecise. It is unclear whether the authors mean steric competition, electrostatic destabilization, or direct protein-mediated disruption.
+  - **Required correction** Replace with a more precise mechanistic description, such as "protein residues form competing interactions that weaken Watson-Crick hydrogen bonds" or similar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the system size, simulation length, or whether multiple independent simulations were performed. This information is essential for assessing sampling adequacy.
+  - **Required correction** Add one sentence in the abstract or methods summarizing system composition, total simulation time, and number of independent runs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison with experiment
+  - **Affected element** Abstract claims
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No reference is made to existing experimental structures of RNAP II open complexes or biochemical data on the roles of the rudder and fork loops. The abstract would benefit from contextualizing the simulation results against known experimental constraints.
+  - **Required correction** Add a brief statement in the abstract or introduction noting how the simulated pathway compares with available experimental structures or mutagenesis data.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (pathway validation), R1-M2 (quantitative support for mechanism), R1-M3 (methodological detail for reproducibility)
+- **Assessment against Nature-style criteria** 
+  - Originality: The study addresses a well-known problem with a novel methodological approach, particularly the rotational coordinate. The mechanistic proposal is original but not yet substantiated.
+  - Scientific importance: The question of how RNAP II opens DNA is of fundamental importance to gene expression. A validated atomistic pathway would be a significant contribution.
+  - Interdisciplinary readership: The topic bridges structural biology, biochemistry, and computational biophysics. The abstract is accessible to a broad audience, though the mechanistic claims require more support to convince experimentalists.
+  - Technical soundness: Not assessable from the abstract alone. The lack of validation and quantitative data is a major gap.
+  - Readability for nonspecialists: The abstract is clearly written and understandable, but the mechanistic language is somewhat vague.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not provide sufficient support for the central claims. A full manuscript with methods, validation, and quantitative analysis would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The continuous pathway of DNA opening with specific displacement and rotation values is reported without evidence of convergence or validation.
+- The twofold mechanistic proposal (catalysis via hydrogen bond attack and stabilization via salt bridges) is asserted without quantitative interaction data.
+- The claim that the simulations "reveal extensive interactions" with specific loops is not supported by any structural or energetic data in the abstract.
+- The effectiveness and correctness of the newly designed rotational coordinate cannot be evaluated without its functional form and validation.

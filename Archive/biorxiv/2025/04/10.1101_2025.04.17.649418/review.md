@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, computational details, results, discussion, conclusion) as provided by the user. No supplementary information or figures were available for direct inspection.
+- **Assessment boundary** The review is limited to the content of the provided manuscript text. Claims regarding figures, tables, and supplementary sections are assessed based on their description in the text only.
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to show that a short arginine-rich peptide, used as a protamine mimic, binds preferentially to GC-rich DNA in the major groove and AT-rich DNA in the minor groove. This preference is supported by structural analyses (RMSD, radius of gyration, hydrogen bonding, contacts) and three free energy methods (MMGBSA, Jarzynski Equality, Umbrella Sampling).
+- **Visible evidence base** Text descriptions of results from MD simulations, MMGBSA calculations, SMD with Jarzynski Equality, and Umbrella Sampling. Reference is made to Figures 1-8 and Tables 1-2, but their actual content is not visible to the reviewer.
+- **Missing materials affecting confidence** The actual figures, tables, and all supplementary information (S.1-S.10) are not provided. This significantly limits the ability to verify the quantitative claims, the convergence of simulations, the setup of the free energy calculations, and the statistical significance of the results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question regarding the sequence-specificity of protamine-DNA binding, a process central to sperm chromatin packaging. The central hypothesis, that a short arginine-rich peptide shows differential groove binding preferences (GC-major, AT-minor), is interesting and potentially significant. However, the current manuscript, based on the text provided, does not fully establish this case. The primary weaknesses are the lack of visible quantitative data (figures/tables), a clear overstatement of the absolute accuracy of the free energy methods used, and an incomplete discussion of the limitations of using a short peptide as a model for full-length protamine. The technical soundness of the simulations appears plausible, but the evidence as presented is insufficient to support the strong conclusions drawn.
+- **Who would be interested in the results, and why** Researchers in the fields of biophysics, computational chemistry, and structural biology, particularly those studying protein-DNA interactions, chromatin structure, and the molecular mechanisms of DNA condensation. The work could also be of interest to those investigating the design of cationic peptides for gene delivery or antimicrobial applications, as the sequence-specificity of arginine-rich peptide binding to DNA is a central theme.
+- **Major strengths**
+    1.  The study addresses a significant and unresolved question in the field: the molecular basis for protamine's sequence-specific interaction with DNA.
+    2.  The use of multiple, complementary computational methods (unbiased MD, MMGBSA, SMD-JE, US) to cross-validate the binding preferences is a methodological strength.
+    3.  The proposed mechanistic explanations, such as the role of thymine methyl groups in hindering major groove binding and the importance of stacking interactions in the AT minor groove, are chemically intuitive and provide a clear framework for understanding the observed preferences.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence
+    - **Claim pointer** The manuscript claims a clear and consistent sequence-dependent binding preference: "the peptide binds preferentially to GC-rich sequences in the major groove and AT-rich sequences in the minor groove."
+    - **Evidence pointer** Figures 1-8, Tables 1-2, and Supplementary sections S.1-S.10. The actual data is not visible in the provided text.
+    - **Concern** The central claim of the paper rests entirely on quantitative data presented in figures and tables that were not available for review. The text describes trends (e.g., "lower RMSD", "more H-bonds", "more favorable energy"), but without the actual values, error bars, and statistical analyses, it is impossible to assess the magnitude and significance of the reported differences. For instance, the difference in MMGBSA binding free energy between the preferred and non-preferred grooves is not stated. The convergence of the 300 ns simulations and the 1 µs extended runs is mentioned but not demonstrated with data.
+    - **Why it matters** The core scientific conclusion is a quantitative comparison of binding affinities. Without access to the primary data, the validity of the conclusion cannot be evaluated. The claim of "preference" requires a demonstrable, statistically significant difference in the measured observables.
+    - **Resolution test** The authors must provide the actual figures and tables with clear error bars and statistical significance tests (e.g., block averaging, bootstrapping) for all key observables (RMSD, H-bonds, contacts, energies). The convergence of the free energy calculations (JE and US) must be shown with clear plots of the PMF as a function of simulation time or number of pullings.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Methodology
+    - **Claim pointer** The authors state that the Jarzynski Equality (JE) and Umbrella Sampling (US) provide quantitative binding free energies, with values such as ΔG_GC = 50.30 ± 0.94 kcal/mol for the major groove.
+    - **Evidence pointer** Sections II.C, II.D, III.C, III.D, Figures 6 and 7.
+    - **Concern** The absolute values of binding free energies reported from JE (e.g., 50 kcal/mol) are unphysically large for a single peptide-DNA interaction. The authors acknowledge that JE overestimates the absolute values but do not provide a clear explanation for this or a correction. More critically, the US PMF well depths (e.g., -21.99 kcal/mol) are more reasonable but are not reconciled with the JE values. The methodology for the US calculation is also concerning. The text states that the starting structures for US windows were generated by SMD, but it is unclear if the system was properly equilibrated in each window before production. The force constant of 2000 kJ/mol/nm² is very stiff and may lead to poor overlap between windows if the windows are not closely spaced.
+    - **Why it matters** The quantitative free energy values are a key part of the evidence. If the methods are not applied correctly or the results are not physically interpretable, the strength of the conclusion is severely weakened. The discrepancy between the JE and US results raises questions about the reliability of the calculations.
+    - **Resolution test** The authors must provide a detailed analysis of the convergence of the US PMFs, including a histogram of the sampling in each window to demonstrate sufficient overlap. They should also discuss the discrepancy between the JE and US results and provide a physical justification for the large JE values. A comparison of the US PMF with the MMGBSA results would also be helpful.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scope and Model
+    - **Claim pointer** The authors use a short peptide (ACE-RRRSRRRS-NME) as a "protamine-template" and state that it "mimics the minimal properties of protamines effectively."
+    - **Evidence pointer** Section II.A, Section S.1 (not visible).
+    - **Concern** The use of a short peptide is a significant simplification. Full-length protamines are larger, contain multiple arginine clusters, and are post-translationally modified. The authors do not adequately discuss how the behavior of this short peptide might differ from the full-length protein. For example, the avidity effects from multiple binding domains in the full protein are absent. The claim that it "mimics the minimal properties" is vague and not substantiated with a direct comparison to a full-length protamine simulation or experimental data.
+    - **Why it matters** The conclusions are about protamine-DNA interactions. If the model peptide does not accurately represent the key features of protamine, the relevance of the findings to the biological system is questionable. The study may be more accurately described as a study of a short arginine-rich peptide, rather than a definitive study of protamine.
+    - **Resolution test** The authors should either (a) perform a simulation with a full-length protamine to validate the peptide model, or (b) significantly temper their claims and explicitly state that the results are for a minimal model system and may not fully capture the behavior of the full-length protein. A more detailed justification for the choice of this specific peptide sequence is also required.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract and Introduction
+    - **Evidence pointer** Abstract, Section I.
+    - **Issue** The abstract and introduction are somewhat repetitive and could be more concise. The introduction provides a good background but could more clearly state the specific gap in knowledge that this study addresses, beyond "the protamine's precise arrangement inside DNA-protamine complexes is still an unanswered question."
+    - **Required correction** Streamline the abstract to focus on the key findings. In the introduction, explicitly state the hypothesis being tested and the specific questions the simulations are designed to answer.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Technical Detail
+    - **Affected element** Section II.B (Simulation Details)
+    - **Evidence pointer** Section II.B.
+    - **Issue** The text mentions "Similar simulation strategies have been effectively used for several of our prior studies" but does not provide specific details on the equilibration protocol after heating. The process of "gradually reducing" restraints is described, but the specific steps and timescales are not fully clear.
+    - **Required correction** Provide a more detailed step-by-step description of the equilibration protocol, including the number of steps and the specific restraints applied at each stage.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Presentation
+    - **Affected element** Section III.E (Explanation of sequence-specific recognition)
+    - **Evidence pointer** Section III.E.
+    - **Issue** The explanation of the sequence-specific recognition is somewhat qualitative. For example, the statement "arginine prefers guanine(G) bases most prominently for binding" is supported by a reference, but the specific interactions in the simulations that lead to this preference are not described in detail.
+    - **Required correction** Provide a more detailed analysis of the specific molecular interactions (e.g., hydrogen bonds, van der Waals contacts) between the arginine side chains and the different bases in the major and minor grooves.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Data Presentation
+    - **Affected element** Section III.B (MMGBSA)
+    - **Evidence pointer** Section III.B, Table I.
+    - **Issue** The text states that the binding is "enthalpy-driven" but does not provide the individual enthalpy and entropy values from the MMGBSA calculation. The statement "the solvation free energy difference (300 kcal/mol) between the major and minor grooves" is mentioned but not contextualized.
+    - **Required correction** Include the full breakdown of the MMGBSA energy components (ΔE_ele, ΔE_vdw, ΔG_GB, ΔG_SA, -TΔS) in Table I and discuss the relative contributions of each term to the total binding free energy.
+- **Technical failings that need to be addressed before the case is established**
+    - R1-M1: The central quantitative evidence is not visible for assessment.
+    - R1-M2: The free energy methods are not convincingly validated, and the reported absolute values are inconsistent and physically questionable.
+- **Assessment against Nature-style criteria**
+    - **Originality** The question of sequence-specificity in protamine-DNA binding is an important one, and the specific claim of a groove-dependent preference (GC-major, AT-minor) is a novel and interesting hypothesis. However, the use of a short peptide as a model is not original, and the overall approach is a standard application of established computational methods.
+    - **Scientific importance** If the findings are robust, they could have significant implications for understanding the molecular basis of sperm chromatin packaging and the role of protamine sequence variations. The work could also inform the design of synthetic DNA condensing agents. However, the importance is currently tempered by the limitations of the model system and the lack of visible evidence.
+    - **Interdisciplinary readership** The topic is at the interface of biophysics, computational chemistry, and reproductive biology. The findings would be of interest to researchers in all three fields, but the presentation is likely too technical for a general biology audience without a strong computational background.
+    - **Technical soundness** The simulation protocols described are generally sound and follow standard practices. However, the lack of convergence data for the free energy calculations and the unphysical absolute values from JE are significant technical concerns that need to be addressed.
+    - **Readability for nonspecialists** The manuscript is written in a technical style that is appropriate for a specialist journal. The abstract is clear, but the main text is dense and would be challenging for a nonspecialist to follow. The key findings and their significance could be communicated more effectively.
+- **Recommendation posture** Currently not established from the provided evidence. The central hypothesis is interesting and the methodological approach is reasonable, but the manuscript, as presented, does not provide sufficient verifiable evidence to support its strong claims. The authors must provide the actual data (figures, tables, SI) and address the major concerns regarding the free energy calculations and the model system before the case can be properly evaluated.
+
+## Risk / unsupported claims
+- The claim that the peptide "binds preferentially to GC-rich sequences in the major groove and AT-rich sequences in the minor groove" is unsupported without the actual data from Figures 1-8 and Tables 1-2.
+- The quantitative binding free energy values from Jarzynski Equality (e.g., ΔG_GC = 50.30 ± 0.94 kcal/mol) are unsupported and physically questionable.
+- The claim that the short peptide "mimics the minimal properties of protamines effectively" is unsupported without a direct comparison to a full-length protamine.
+- The statement that the 1 µs extended simulations show "structural stability and similar binding affinity as 300 ns" is unverifiable without the data in Section S.2.
+- The claim that "the solvation free energy difference (300 kcal/mol) between the major and minor grooves" is a key factor is not contextualized or supported with a clear analysis.

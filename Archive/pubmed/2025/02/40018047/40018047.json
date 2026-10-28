@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "40018047",
+    "doi": "10.3389/fimmu.2025.1551547",
+    "title": "Elevated levels of IRF1 and CASP1 as pyroptosis-related biomarkers for intestinal epithelial cells in Crohn's disease."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Crohn's disease (CD) is a complex inflammatory condition with the potential for severe complications. Pyroptosis is an inflammatory form of programmed cell death, and the role of pyroptosis in intestinal epithelial cells of CD remains unclear. METHODS: In this study, pyroptosis-related hub genes were identified using datasets from the Gene Expression Omnibus database through differential expression analysis, machine learning algorithms, and single-cell sequencing analysis. Hub gene expression was validated using clinical samples and a trinitrobenzene sulfonic acid (TNBS)-induced colitis rat model. RESULTS: Six pyroptosis-related hub genes (CASP1, IRF1, ZBP1, MLKL, MMP1, HTRA1) were identified. IRF1 and CASP1 exhibited significant upregulation in CD, including both colonic and ileal subtypes, with good diagnostic value across different CD subtypes. Additionally, these two genes were not elevated in any other intestinal disorders, except for ulcerative colitis. Single-cell sequencing analysis revealed a significant interaction between intestinal epithelial cells (IECs) and monocytes. The clinical samples further confirmed that the mRNA levels of IRF1 and CASP1 were significantly higher in CD patients compared to healthy controls. Additionally, the colitis rat model validated the upregulation of Irf1 and Casp1 at both mRNA and protein levels. CONCLUSION: Our findings identified IRF1 and CASP1 as critical pyroptosis-related biomarkers for IECs in CD, contributing to the understanding of pyroptosis in CD pathogenesis.",
+    "keywords": [
+      "Crohn's disease",
+      "biomarkers",
+      "bulk RNA sequencing",
+      "intestinal epithelial cells",
+      "pyroptosis",
+      "single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "*Interferon Regulatory Factor-1/genetics/metabolism",
+      "*Pyroptosis/genetics",
+      "*Crohn Disease/metabolism/genetics/pathology",
+      "Animals",
+      "Humans",
+      "*Caspase 1/genetics/metabolism",
+      "Biomarkers/metabolism",
+      "Rats",
+      "*Intestinal Mucosa/metabolism/pathology",
+      "*Epithelial Cells/metabolism/pathology",
+      "Disease Models, Animal",
+      "Male",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Xiaofang",
+        "Lv, Xiaodan",
+        "Zeng, Ruizhi",
+        "Huang, Zhixi",
+        "Huang, Ziqian",
+        "Han, Bing",
+        "Lin, Guangfu",
+        "Lin, Jianing",
+        "Li, Shiquan",
+        "Fan, Junhua",
+        "Lv, Xiaoping"
+      ],
+      "short_names": [
+        "Xu X",
+        "Lv X",
+        "Zeng R",
+        "Huang Z",
+        "Huang Z",
+        "Han B",
+        "Lin G",
+        "Lin J",
+        "Li S",
+        "Fan J",
+        "Lv X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Gastroenterology, The Affiliated Tumor Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Xiaofang",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Xiaodan",
+        "short_name": "Lv X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Ruizhi",
+        "short_name": "Zeng R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Affiliated Tumor Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zhixi",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Ziqian",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Han, Bing",
+        "short_name": "Han B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Guangfu",
+        "short_name": "Lin G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jianing",
+        "short_name": "Lin J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shiquan",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Junhua",
+        "short_name": "Fan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Xiaoping",
+        "short_name": "Lv X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/28 06:21",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [
+      "42703256",
+      "42598328",
+      "42253995",
+      "42072355",
+      "41422315"
+    ],
+    "refs": [
+      "39426229",
+      "38582044",
+      "36185602",
+      "36120344",
+      "36049483",
+      "35958114",
+      "35639823",
+      "35280696",
+      "35165294",
+      "35003120",
+      "34901531",
+      "34868039",
+      "34394827",
+      "34133932",
+      "34062119",
+      "33905603",
+      "33597522",
+      "33476326",
+      "33208407",
+      "33119074",
+      "32651553",
+      "32599618",
+      "32333776",
+      "31837596",
+      "31781266",
+      "31740819",
+      "31553433",
+      "31320730",
+      "30643263",
+      "30301267",
+      "30236840",
+      "30137275",
+      "29898893",
+      "28658674",
+      "28569761",
+      "28152446",
+      "27034377",
+      "26693068",
+      "26589955",
+      "25991924",
+      "25697265",
+      "25605792",
+      "25208103",
+      "24751956",
+      "24322838",
+      "24250214",
+      "23583432",
+      "22622521",
+      "22467146",
+      "21884178",
+      "19098911",
+      "17653185",
+      "17045821",
+      "12782713",
+      "11247892",
+      "2914642",
+      "1309357"
+    ],
+    "similar": [
+      "40018047",
+      "25208103",
+      "39426229",
+      "40230837",
+      "39706833",
+      "34133932",
+      "28476379",
+      "38653187",
+      "39074415",
+      "40031970",
+      "39237074",
+      "40112602",
+      "34309645",
+      "39507978",
+      "26802080",
+      "25533544",
+      "24148619",
+      "38857990",
+      "29129496",
+      "39838210",
+      "30221722",
+      "28934294",
+      "30779922",
+      "24412990",
+      "32561494",
+      "31114134",
+      "39859234",
+      "39159791",
+      "38156909",
+      "29910803",
+      "32089625",
+      "30282822",
+      "29031501",
+      "38493691",
+      "32967429",
+      "31553433",
+      "39512836",
+      "38656456",
+      "34529988",
+      "38733829",
+      "24817408",
+      "29912317",
+      "29274870",
+      "38844113",
+      "39340820",
+      "37316538",
+      "25956706",
+      "30452920",
+      "28286054",
+      "39725622",
+      "38839896",
+      "28188784",
+      "39831701",
+      "33351719",
+      "39688910",
+      "30405600",
+      "38850790",
+      "22287592",
+      "31352002",
+      "23492772",
+      "26241646",
+      "38554602",
+      "31173051",
+      "38554656",
+      "31151823",
+      "25997679",
+      "40174340",
+      "11040184",
+      "36182776",
+      "37679886",
+      "37542259",
+      "39627301",
+      "24000293",
+      "40059828",
+      "32607693",
+      "39150251",
+      "33232439",
+      "39953123",
+      "21942174",
+      "18761554",
+      "31302421",
+      "39744064",
+      "22028783",
+      "12740340",
+      "24828022",
+      "39216231",
+      "27298558",
+      "32760089",
+      "39888301",
+      "39507974",
+      "25557335",
+      "33677577",
+      "26997491",
+      "38669952",
+      "32964238",
+      "37481583",
+      "39199011",
+      "27236107",
+      "21122500",
+      "28613228"
+    ],
+    "review": [
+      "40018047",
+      "31173051"
+    ],
+    "pmc": [
+      "11865233"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/crohnsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Crohn's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40018047/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-895",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1551547",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

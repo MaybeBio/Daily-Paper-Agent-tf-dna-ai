@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38104260",
+  "title": "Detection of the Arabidopsis Proteome and Its Post-translational Modifications and the Nature of the Unobserved (Dark) Proteome in PeptideAtlas.",
+  "authors": "van Wijk, Klaas J; Leppert, Tami; Sun, Zhi; Kearly, Alyssa; Li, Margaret; Mendoza, Luis; Guzchenko, Isabell; Debley, Erica; Sauermann, Georgia; Routray, Pratyush; Malhotra, Sagunya; Nelson, Andrew; Sun, Qi; Deutsch, Eric W",
+  "journal": "Journal of proteome research",
+  "published_date": "2023-12-17",
+  "window": {
+    "start": "2023-12-11",
+    "end": "2023-12-17"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究构建拟南芥蛋白质组与PTM图谱，并用机器学习预测蛋白可检测性，虽涉及转录因子但无蛋白-DNA互作建模，仅边缘相关。",
+  "abstract": "This study describes a new release of the Arabidopsis thaliana PeptideAtlas proteomics resource (build 2023-10) providing protein sequence coverage, matched mass spectrometry (MS) spectra, selected post-translational modifications (PTMs), and metadata. 70 million MS/MS spectra were matched to the Araport11 annotation, identifying  approximately 0.6 million unique peptides and 18,267 proteins at the highest confidence level and 3396 lower confidence proteins, together representing 78.6% of the predicted proteome. Additional identified proteins not predicted in Araport11 should be considered for the next Arabidopsis genome annotation. This release identified 5198 phosphorylated proteins, 668 ubiquitinated proteins, 3050 N-terminally acetylated proteins, and 864 lysine-acetylated proteins and mapped their PTM sites. MS support was lacking for 21.4% (5896 proteins) of the predicted Araport11 proteome: the \"dark\" proteome. This dark proteome is highly enriched for E3 ligases, transcription factors, and for certain (e.g., CLE, IDA, PSY) but not other (e.g., THIONIN, CAP) signaling peptides families. A machine learning model trained on RNA expression data and protein properties predicts the probability that proteins will be detected. The model aids in discovery of proteins with short half-life (e.g., SIG1,3 and ERF-VII TFs) and for developing strategies to identify the missing proteins. PeptideAtlas is linked to TAIR, tracks in JBrowse, and several other community proteomics resources.",
+  "abstract_zh": "本研究描述了拟南芥（Arabidopsis thaliana）PeptideAtlas蛋白质组学资源的新版本（build 2023-10），该版本提供了蛋白质序列覆盖度、匹配的质谱（mass spectrometry, MS）谱图、选定的翻译后修饰（post-translational modifications, PTMs）及元数据。7000万张MS/MS谱图与Araport11注释相匹配，以最高置信度水平鉴定出约60万条独特肽段和18,267个蛋白质，另有3,396个较低置信度蛋白质，合计占预测蛋白质组的78.6%。在Araport11中未预测到的额外鉴定蛋白质应考虑纳入下一版拟南芥基因组注释。此版本鉴定出5,198个磷酸化蛋白质、668个泛素化蛋白质、3,050个N端乙酰化蛋白质和864个赖氨酸乙酰化蛋白质，并定位了其PTM位点。预测的Araport11蛋白质组中有21.4%（5,896个蛋白质）缺乏MS支持，即“暗”蛋白质组（dark proteome）。该暗蛋白质组高度富集E3连接酶、转录因子以及某些（如CLE、IDA、PSY）而非其他（如THIONIN、CAP）信号肽家族。基于RNA表达数据和蛋白质特性训练的机器学习模型可预测蛋白质被检测到的概率。该模型有助于发现短半衰期蛋白质（如SIG1、3和ERF-VII转录因子），并为识别缺失蛋白质制定策略。PeptideAtlas与TAIR、JBrowse中的轨道及其他多个社区蛋白质组学资源相连接。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38104260/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38104260/",
+  "paper_page_path": "papers/pubmed/38104260/index.html"
+}

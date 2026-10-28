@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "38927611",
+    "doi": "10.3390/genes15060676",
+    "title": "Prediction of Protein-DNA Interface Hot Spots Based on Empirical Mode Decomposition and Machine Learning."
+  },
+  "content": {
+    "abstract": "Protein-DNA complex interactivity plays a crucial role in biological activities such as gene expression, modification, replication and transcription. Understanding the physiological significance of protein-DNA binding interfacial hot spots, as well as the development of computational biology, depends on the precise identification of these regions. In this paper, a hot spot prediction method called EC-PDH is proposed. First, we extracted features of these hot spots' solid solvent-accessible surface area (ASA) and secondary structure, and then the mean, variance, energy and autocorrelation function values of the first three intrinsic modal components (IMFs) of these conventional features were extracted as new features via the empirical modal decomposition algorithm (EMD). A total of 218 dimensional features were obtained. For feature selection, we used the maximum correlation minimum redundancy sequence forward selection method (mRMR-SFS) to obtain an optimal 11-dimensional-feature subset. To address the issue of data imbalance, we used the SMOTE-Tomek algorithm to balance positive and negative samples and finally used cat gradient boosting (CatBoost) to construct our hot spot prediction model for protein-DNA binding interfaces. Our method performs well on the test set, with AUC, MCC and F1 score values of 0.847, 0.543 and 0.772, respectively. After a comparative evaluation, EC-PDH outperforms the existing state-of-the-art methods in identifying hot spots.",
+    "keywords": [
+      "CatBoost",
+      "EMD",
+      "hot spots",
+      "protein-DNA"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*DNA/genetics/chemistry/metabolism",
+      "*Algorithms",
+      "Protein Binding",
+      "DNA-Binding Proteins/chemistry/genetics/metabolism",
+      "Computational Biology/methods",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fang, Zirui",
+        "Li, Zixuan",
+        "Li, Ming",
+        "Yue, Zhenyu",
+        "Li, Ke"
+      ],
+      "short_names": [
+        "Fang Z",
+        "Li Z",
+        "Li M",
+        "Yue Z",
+        "Li K"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-4072-0256",
+        "ORCID: 0000-0001-7279-5015"
+      ],
+      "affiliations": [
+        "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei 230036, China.",
+        "Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei 230036, China.",
+        "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei 230036, China.",
+        "Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei 230036, China.",
+        "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei 230036, China.",
+        "Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei 230036, China.",
+        "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei 230036, China.",
+        "Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei 230036, China.",
+        "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei 230036, China.",
+        "Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei 230036, China.",
+        "Institute of Artificial Intelligence, Hefei Comprehensive National Science Center, Hefei 230088, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fang, Zirui",
+        "short_name": "Fang Z",
+        "identifiers": [
+          "0009-0003-4072-0256"
+        ],
+        "affiliations": [
+          "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei 230036, China.",
+          "Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei 230036, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zixuan",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei 230036, China.",
+          "Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei 230036, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ming",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei 230036, China.",
+          "Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei 230036, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Zhenyu",
+        "short_name": "Yue Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei 230036, China.",
+          "Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei 230036, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ke",
+        "short_name": "Li K",
+        "identifiers": [
+          "0000-0001-7279-5015"
+        ],
+        "affiliations": [
+          "School of Information and Artificial Intelligence, Anhui Agricultural University, Hefei 230036, China.",
+          "Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei 230036, China.",
+          "Institute of Artificial Intelligence, Hefei Comprehensive National Science Center, Hefei 230088, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2024 May 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/27 06:43",
+    "fetched_at": "2026-10-05 01:24:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37016308",
+      "34606614",
+      "34389843",
+      "34343273",
+      "34000983",
+      "33872313",
+      "33169094",
+      "33068261",
+      "32938395",
+      "32938375",
+      "30998478",
+      "30957840",
+      "30533007",
+      "30453885",
+      "29091991",
+      "28155660",
+      "23294527",
+      "23060610",
+      "22937126",
+      "20929870",
+      "20377884",
+      "18400099",
+      "17546660",
+      "17284455",
+      "17186525",
+      "16839417",
+      "12538266",
+      "11160927",
+      "10556324",
+      "9021272",
+      "8552589",
+      "7529940",
+      "3398920",
+      "2028256"
+    ],
+    "similar": [
+      "38927611",
+      "30957840",
+      "37016308",
+      "30250210",
+      "29334889",
+      "32938375",
+      "30901953",
+      "30598073",
+      "32938395",
+      "34000983",
+      "30287797",
+      "19357097",
+      "29281004",
+      "20377884",
+      "33068261",
+      "28766075",
+      "23282146",
+      "37866116",
+      "26934646",
+      "31380766",
+      "24448651",
+      "30598091",
+      "27472327",
+      "30040656",
+      "30668479",
+      "38587997",
+      "17959648",
+      "31123959",
+      "28000567",
+      "21798070",
+      "38454712",
+      "38295475",
+      "19878545",
+      "31888057",
+      "24105801",
+      "22728649",
+      "37676603",
+      "29753757",
+      "22258275",
+      "25845030",
+      "35447463",
+      "32631222",
+      "24134392",
+      "35098379",
+      "32300371",
+      "33458895",
+      "21689480",
+      "29536446",
+      "38812315",
+      "33019775",
+      "25756377",
+      "37721924",
+      "33267753",
+      "38491248",
+      "31782357",
+      "29219069",
+      "25075532",
+      "24334394",
+      "34954608",
+      "32917152",
+      "24475169",
+      "38237792",
+      "23537566",
+      "36044786",
+      "35652477",
+      "36246558",
+      "23504705",
+      "19816781",
+      "34696728",
+      "30602422",
+      "22937126",
+      "29848272",
+      "27654939",
+      "25708928",
+      "18939967",
+      "38747369",
+      "28937647",
+      "28292249",
+      "21529341",
+      "19179356",
+      "24568581",
+      "38316843",
+      "33238837",
+      "30943723",
+      "27907159",
+      "29097781",
+      "33837387",
+      "32144887",
+      "29305179",
+      "26675422",
+      "34415020",
+      "38613893",
+      "33410688",
+      "20444871",
+      "25935161",
+      "35748253",
+      "31412138",
+      "26563228",
+      "33709119",
+      "26527718",
+      "30598066",
+      "39244557",
+      "39256728"
+    ],
+    "review": [
+      "38927611",
+      "30287797",
+      "25756377",
+      "34954608",
+      "35652477"
+    ],
+    "pmc": [
+      "11202800"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes15060676",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38927611/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38927611",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-472",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

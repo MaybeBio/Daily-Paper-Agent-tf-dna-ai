@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40552285",
+  "title": "Explainable machine learning reveals ribosome biogenesis biomarkers in preeclampsia risk prediction.",
+  "authors": "Chen, Jingjing; Zhang, Dan; Zhu, Chengxiu; Lin, Lin; Ye, Kejun; Hua, Ying; Peng, Mengjia",
+  "journal": "Frontiers in immunology",
+  "published_date": "2025-06-24",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究利用可解释机器学习识别子痫前期中核糖体生物发生相关生物标志物，虽涉及转录因子调控网络，但核心是疾病诊断标志物而非蛋白质-DNA互作建模，方法上无AI/物理模拟的互作机制研究。",
+  "abstract": "BACKGROUND: Preeclampsia, a hypertensive disorder during pregnancy affecting 2-8% of pregnancies globally, remains a leading cause of maternal and fetal morbidity. Current diagnostic reliance on late-onset clinical features and suboptimal biomarkers underscores the need for early molecular predictors. Ribosome biogenesis, critical for cellular homeostasis, is hypothesized to drive placental dysfunction in PE, though its role remains underexplored. METHODS: We integrated placental transcriptomic data from two datasets (GSE75010, GSE10588) to systematically investigate ribosome biogenesis dysregulation in preeclampsia. Functional enrichment analyses delineated the dysregulation of pathways, while weighted gene co-expression network analysis identified hub genes within ribosome biogenesis-associated modules. A multi-algorithm machine learning framework was employed to optimize predictive performance, with model interpretability achieved through SHapley Additive exPlanations and diagnostic accuracy validated by receiver operating characteristic curves. Immune microenvironment profiling and regulatory network analyses elucidated mechanistic links. Finally, qRT-PCR confirmed the differential expression of key genes in clinical samples. RESULTS: We identified 25 ribosome biogenesis-related differentially expressed genes, which were significantly enriched in RNA degradation and rRNA processing. Weighted gene co-expression network analysis prioritized seven hub genes. A random forest model incorporating six key feature genes (GLUL, DDX28, NCL, RIOK1, SUV39H1, RRS1) demonstrated robust diagnostic performance, achieving an AUC of 0.972 in the training dataset and 0.917 in the validation dataset. SHapley Additive exPlanations interpretability analysis revealed SUV39H1 as the dominant risk contributor, while GLUL exhibited a protective effect. Regulatory network reconstruction identified 32 transcription factors, 24 RNA-binding proteins, and 62 miRNAs as putative upstream regulators of key genes. Immune Microenvironment Profiling linked key genes to altered placental immune cell populations. qRT-PCR confirmed that GLUL and NCL expression decreased and DDX28 and RIOK1 expression increased in clinical placental samples of preeclampsia group. CONCLUSION: This study identifies ribosome biogenesis as one of the pivotal molecular mechanisms to PE pathogenesis, leveraging SHAP-interpretable machine learning to pinpoint six biomarkers. Future research is requisite for the validation of CRISPR and the integration of multi-omics to translate the findings into clinical diagnosis and targeted therapy.",
+  "abstract_zh": "背景：子痫前期（Preeclampsia, PE）是一种妊娠期高血压疾病，影响全球2-8%的妊娠，仍是母胎发病的主要原因。当前诊断依赖于晚发型临床特征和次优生物标志物，凸显了对早期分子预测因子的需求。核糖体生物发生（ribosome biogenesis）对细胞稳态至关重要，推测其驱动PE中的胎盘功能障碍，但其作用尚未充分探索。方法：我们整合了两个数据集（GSE75010, GSE10588）的胎盘转录组数据，系统研究子痫前期中核糖体生物发生的失调。功能富集分析描绘了通路失调，而加权基因共表达网络分析（weighted gene co-expression network analysis）识别了核糖体生物发生相关模块中的核心基因。采用多算法机器学习框架优化预测性能，通过SHapley Additive exPlanations实现模型可解释性，并通过受试者工作特征曲线验证诊断准确性。免疫微环境谱和调控网络分析阐明了机制联系。最后，qRT-PCR确认了临床样本中关键基因的差异表达。结果：我们识别了25个核糖体生物发生相关差异表达基因，这些基因显著富集于RNA降解和rRNA加工。加权基因共表达网络分析优先排序了七个核心基因。一个包含六个关键特征基因（GLUL, DDX28, NCL, RIOK1, SUV39H1, RRS1）的随机森林模型展现出稳健的诊断性能，在训练数据集中达到AUC 0.972，在验证数据集中达到0.917。SHapley Additive exPlanations可解释性分析揭示SUV39H1为主要风险贡献因子，而GLUL表现出保护效应。调控网络重建识别了32个转录因子、24个RNA结合蛋白和62个miRNA作为关键基因的推定上游调控因子。免疫微环境谱将关键基因与胎盘免疫细胞群改变联系起来。qRT-PCR确认，在子痫前期组的临床胎盘样本中，GLUL和NCL表达下降，而DDX28和RIOK1表达上升。结论：本研究识别核糖体生物发生为PE发病机制的关键分子机制之一，利用SHAP可解释机器学习精确定位六个生物标志物。未来研究需进行CRISPR验证和多组学整合，以将发现转化为临床诊断和靶向治疗。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40552285/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40552285/",
+  "paper_page_path": "papers/pubmed/40552285/index.html"
+}

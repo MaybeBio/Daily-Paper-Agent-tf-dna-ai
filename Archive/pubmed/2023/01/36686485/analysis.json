@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36686485",
+  "title": "Novel biomarkers predict prognosis and drug-induced neuroendocrine differentiation in patients with prostate cancer.",
+  "authors": "Lin, Jingwei; Cai, Yingxin; Wang, Zuomin; Ma, Yuxiang; Pan, Jinyou; Liu, Yangzhou; Zhao, Zhigang",
+  "journal": "Frontiers in endocrinology",
+  "published_date": "2023-01-24",
+  "window": {
+    "start": "2023-01-23",
+    "end": "2023-01-29"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究利用单细胞和批量RNA-seq数据构建前列腺癌神经内分泌分化的诊断和预后模型，但核心是基因表达与临床预后，未涉及蛋白质-DNA互作或TF-DNA结合机制，且方法仅为传统机器学习，与课题无关。",
+  "abstract": "BACKGROUND: A huge focus is being placed on the development of novel signatures in the form of new combinatorial regimens to distinguish the neuroendocrine (NE) characteristics from castration resistant prostate cancer (CRPC) timely and accurately, as well as predict the disease-free survival (DFS) and progression-free survival (PFS) of prostate cancer (PCa) patients. METHODS: Single cell data of 4 normal samples, 3 CRPC samples and 3 CRPC-NE samples were obtained from GEO database, and CellChatDB was used for potential intercellular communication, Secondly, using the \"limma\" package (v3.52.0), we obtained the differential expressed genes between CRPC and CRPC-NE both in single-cell RNA seq and bulk RNA seq samples, and discovered 12 differential genes characterized by CRPC-NE. Then, on the one hand, the diagnosis model of CRPC-NE is developed by random forest algorithm and artificial neural network (ANN) through Cbioportal database; On the other hand, using the data in Cbioportal and GEO database, the DFS and PFS prognostic model of PCa was established and verified through univariate Cox analysis, least absolute shrinkage and selection operator (Lasso) regression and multivariate Cox regression in R software. Finally, somatic mutation and immune infiltration were also discussed. RESULTS: Our research shows that there exists specific intercellular communication in classified clusters. Secondly, a CRPC-NE diagnostic model of six genes (HMGN2, MLLT11, SOX4, PCSK1N, RGS16 and PTMA) has been established and verified, the area under the ROC curve (AUC) is as high as 0.952 (95% CI: 0.882-0.994). The mutation landscape shows that these six genes are rarely mutated in the CRPC and NEPC samples. In addition, NE-DFS signature (STMN1 and PCSK1N) and NE-PFS signature (STMN1, UBE2S and HMGN2) are good predictors of DFS and PFS in PCa patients and better than other clinical features. Lastly, the infiltration levels of plasma cells, T cells CD4 naive, Eosinophils and Monocytes were significantly different between the CRPC and NEPC groups. CONCLUSIONS: This study revealed the heterogeneity between CRPC and CRPC-NE from different perspectives, and developed a reliable diagnostic model of CRPC-NE and robust prognostic models for PCa.",
+  "abstract_zh": "背景：当前研究重点在于开发新型组合方案作为新特征，以及时、准确地区分去势抵抗性前列腺癌（CRPC）中的神经内分泌（NE）特性，并预测前列腺癌（PCa）患者的无病生存期（DFS）和无进展生存期（PFS）。方法：从GEO数据库获取4个正常样本、3个CRPC样本和3个CRPC-NE样本的单细胞数据，并使用CellChatDB进行潜在的细胞间通讯分析；其次，利用“limma”包（v3.52.0），在单细胞RNA测序和批量RNA测序样本中获取CRPC与CRPC-NE之间的差异表达基因，并发现12个以CRPC-NE为特征的差异基因。然后，一方面，通过Cbioportal数据库，使用随机森林算法和人工神经网络（ANN）开发CRPC-NE诊断模型；另一方面，利用Cbioportal和GEO数据库中的数据，通过R软件中的单变量Cox分析、最小绝对收缩和选择算子（Lasso）回归及多变量Cox回归，建立并验证PCa的DFS和PFS预后模型。最后，还探讨了体细胞突变和免疫浸润。结果：我们的研究表明，分类簇中存在特定的细胞间通讯。其次，建立并验证了一个由六个基因（HMGN2、MLLT11、SOX4、PCSK1N、RGS16和PTMA）组成的CRPC-NE诊断模型，ROC曲线下面积（AUC）高达0.952（95% CI：0.882-0.994）。突变图谱显示，这六个基因在CRPC和NEPC样本中很少发生突变。此外，NE-DFS特征（STMN1和PCSK1N）和NE-PFS特征（STMN1、UBE2S和HMGN2）是PCa患者DFS和PFS的良好预测因子，且优于其他临床特征。最后，浆细胞、CD4初始T细胞、嗜酸性粒细胞和单核细胞的浸润水平在CRPC和NEPC组之间存在显著差异。结论：本研究从不同角度揭示了CRPC与CRPC-NE之间的异质性，并开发了可靠的CRPC-NE诊断模型和稳健的PCa预后模型。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36686485/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36686485/",
+  "paper_page_path": "papers/pubmed/36686485/index.html"
+}

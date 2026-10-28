@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36387855",
+  "title": "Integrated analysis of potential gene crosstalk between non-alcoholic fatty liver disease and diabetic nephropathy.",
+  "authors": "Yan, Qianqian; Zhao, Zihao; Liu, Dongwei; Li, Jia; Pan, Shaokang; Duan, Jiayu; Dong, Jiancheng; Liu, Zhangsuo",
+  "journal": "Frontiers in endocrinology",
+  "published_date": "2022-11-18",
+  "window": {
+    "start": "2022-11-14",
+    "end": "2022-11-20"
+  },
+  "score": 3,
+  "one_liner_zh": "该文通过生物信息学分析NAFLD与糖尿病肾病的共同差异基因及通路，虽涉及转录因子网络但无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "BACKGROUND: Growing evidence indicates that non-alcoholic fatty liver disease (NAFLD) is related to the occurrence and development of diabetic nephropathy (DN). This bioinformatics study aimed to explore optimal crosstalk genes and related pathways between NAFLD and DN. METHODS: Gene expression profiles were downloaded from Gene Expression Omnibus. CIBERSORT algorithm was employed to analyze the similarity of infiltrating immunocytes between the two diseases. Protein-protein interaction (PPI) co-expression network and functional enrichment analysis were conducted based on the identification of common differentially expressed genes (DEGs). Least absolute shrinkage and selection operator (LASSO) regression and Boruta algorithm were implemented to initially screen crosstalk genes. Machine learning models, including support vector machine, random forest model, and generalized linear model, were utilized to further identify the optimal crosstalk genes between DN and NAFLD. An integrated network containing crosstalk genes, transcription factors, and associated pathways was developed. RESULTS: Four gene expression datasets, including GSE66676 and GSE48452 for NAFLD and GSE30122 and GSE1009 for DN, were involved in this study. There were 80 common DEGs between the two diseases in total. The PPI network built with the 80 common genes included 77 nodes and 83 edges. Ten optimal crosstalk genes were selected by LASSO regression and Boruta algorithm, including CD36, WIPI1, CBX7, FCN1, SLC35D2, CP, ZDHHC3, PTPN3, LPL, and SPP1. Among these genes, LPL and SPP1 were the most significant according to NAFLD-transcription factor network. Five hundred twenty-nine nodes and 1,113 edges comprised the PPI network of activated pathway-gene. In addition, 14 common pathways of these two diseases were recognized using Gene Ontology (GO) analysis; among them, regulation of the lipid metabolic process is closely related to both two diseases. CONCLUSIONS: This study offers hints that NAFLD and DN have a common pathogenesis, and LPL and SPP1 are the most relevant crosstalk genes. Based on the common pathways and optimal crosstalk genes, our proposal carried out further research to disclose the etiology and pathology between the two diseases.",
+  "abstract_zh": "背景：越来越多的证据表明，非酒精性脂肪性肝病（NAFLD）与糖尿病肾病（DN）的发生和发展相关。本生物信息学研究旨在探索NAFLD与DN之间的最佳交叉对话基因及相关通路。方法：从Gene Expression Omnibus下载基因表达谱。采用CIBERSORT算法分析两种疾病间浸润免疫细胞的相似性。基于共同差异表达基因（DEGs）的鉴定，进行了蛋白质-蛋白质相互作用（PPI）共表达网络和功能富集分析。采用最小绝对收缩和选择算子（LASSO）回归及Boruta算法初步筛选交叉对话基因。利用机器学习模型，包括支持向量机、随机森林模型和广义线性模型，进一步识别DN与NAFLD之间的最佳交叉对话基因。构建了一个包含交叉对话基因、转录因子及相关通路的整合网络。结果：本研究涉及四个基因表达数据集，包括用于NAFLD的GSE66676和GSE48452，以及用于DN的GSE30122和GSE1009。两种疾病间共有80个共同DEGs。基于这80个共同基因构建的PPI网络包含77个节点和83条边。通过LASSO回归和Boruta算法筛选出十个最佳交叉对话基因，包括CD36、WIPI1、CBX7、FCN1、SLC35D2、CP、ZDHHC3、PTPN3、LPL和SPP1。在这些基因中，根据NAFLD-转录因子网络，LPL和SPP1最为显著。激活通路-基因的PPI网络由529个节点和1,113条边组成。此外，通过基因本体论（GO）分析识别出这两种疾病的14个共同通路；其中，脂质代谢过程的调控与这两种疾病密切相关。结论：本研究提示NAFLD和DN具有共同的发病机制，且LPL和SPP1是最相关的交叉对话基因。基于共同通路和最佳交叉对话基因，我们的提议进行了进一步研究，以揭示这两种疾病之间的病因和病理。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36387855/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36387855/",
+  "paper_page_path": "papers/pubmed/36387855/index.html"
+}

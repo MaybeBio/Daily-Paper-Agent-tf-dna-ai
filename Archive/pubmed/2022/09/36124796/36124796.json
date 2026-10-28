@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "pmid": "36124796",
+    "doi": "10.1093/bioinformatics/btac469",
+    "title": "DeepZF: improved DNA-binding prediction of C2H2-zinc-finger proteins by deep transfer learning."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Cys2His2 zinc-finger (C2H2-ZF) proteins are the largest class of human transcription factors and hence play central roles in gene regulation and cell function. C2H2-ZF proteins are characterized by a DNA-binding domain containing multiple ZFs. A subset of the ZFs bind diverse DNA triplets. Despite their central roles, little is known about which of their ZFs are binding and how the DNA-binding preferences are encoded in the amino acid sequence of each ZF. RESULTS: We present DeepZF, a deep-learning-based pipeline for predicting binding ZFs and their DNA-binding preferences given only the amino acid sequence of a C2H2-ZF protein. To the best of our knowledge, we compiled the first in vivo dataset of binding and non-binding ZFs for training the first ZF-binding classifier. Our classifier, which is based on a novel protein transformer, achieved an average AUROC of 0.71. Moreover, we took advantage of both in vivo and in vitro datasets to learn the recognition code of ZF-DNA binding through transfer learning. Our newly developed model, which is the first to utilize deep learning for the task, achieved an average Pearson correlation greater than 0.94 over each of the three DNA binding positions. Together, DeepZF outperformed extant methods in the task of C2H2-ZF protein DNA-binding preferences prediction: it achieved an average Pearson correlation of 0.42 in motif similarity compared with an average correlation smaller than 0.1 achieved by extant methods. By applying established interpretability techniques, we show that DeepZF inferred biologically relevant binding principles, such as the effect of amino acid residue positions on ZF DNA-binding potential. AVAILABILITY AND IMPLEMENTATION: DeepZF code, model, and results are available via github.com/OrensteinLab/DeepZF. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amino Acids",
+      "*DNA/metabolism",
+      "Humans",
+      "Machine Learning",
+      "Transcription Factors",
+      "Zinc",
+      "*Zinc Fingers"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aizenshtein-Gazit, Sofia",
+        "Orenstein, Yaron"
+      ],
+      "short_names": [
+        "Aizenshtein-Gazit S",
+        "Orenstein Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3583-3112"
+      ],
+      "affiliations": [
+        "School of Electrical and Computer Engineering, Ben-Gurion University of the Negev, Beer-Sheva 8410501, Israel.",
+        "School of Electrical and Computer Engineering, Ben-Gurion University of the Negev, Beer-Sheva 8410501, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aizenshtein-Gazit, Sofia",
+        "short_name": "Aizenshtein-Gazit S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical and Computer Engineering, Ben-Gurion University of the Negev, Beer-Sheva 8410501, Israel."
+        ]
+      },
+      {
+        "full_name": "Orenstein, Yaron",
+        "short_name": "Orenstein Y",
+        "identifiers": [
+          "0000-0002-3583-3112"
+        ],
+        "affiliations": [
+          "School of Electrical and Computer Engineering, Ben-Gurion University of the Negev, Beer-Sheva 8410501, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2022 Sep 16",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/21 06:00",
+    "fetched_at": "2026-09-28 13:49:02"
+  },
+  "links": {
+    "cites": [
+      "42557242",
+      "42461945",
+      "41386884",
+      "40874594",
+      "40673435",
+      "40466641",
+      "40262634",
+      "39605503",
+      "39244557",
+      "39103447",
+      "39073893",
+      "38754172",
+      "38352411",
+      "37294804"
+    ],
+    "refs": [],
+    "similar": [
+      "36124796",
+      "25098749",
+      "24097433",
+      "38754172",
+      "18286240",
+      "29381770",
+      "25953800",
+      "19008249",
+      "25593323",
+      "25690854",
+      "21572177",
+      "35410161",
+      "27401554",
+      "28877740",
+      "32453726",
+      "30155812",
+      "20167128",
+      "28035002",
+      "26384429",
+      "33575598",
+      "27852650",
+      "26158299",
+      "36292728",
+      "23975355",
+      "24699649",
+      "30288657",
+      "30355731",
+      "24214968",
+      "10504263",
+      "21321018",
+      "36702896",
+      "10421761",
+      "20680832",
+      "34804129",
+      "16732192",
+      "18602114",
+      "34963061",
+      "21888896",
+      "25042805",
+      "36498928",
+      "18253864",
+      "8654390",
+      "9698361",
+      "24097990",
+      "16720702",
+      "11018257",
+      "23576569",
+      "30211076",
+      "29287967",
+      "31316872",
+      "32851833",
+      "22911852",
+      "20691397",
+      "11361095",
+      "23436653",
+      "18586699",
+      "12504096",
+      "29551271",
+      "36207690",
+      "26196228",
+      "27369384",
+      "36657642",
+      "9166782",
+      "19938825",
+      "31787818",
+      "28158673",
+      "28292252",
+      "22484790",
+      "15640031",
+      "11735399",
+      "9171100",
+      "19261184",
+      "28160313",
+      "24297167",
+      "22405571",
+      "29965776",
+      "25187181",
+      "14636595",
+      "26972249",
+      "37457025",
+      "17937891",
+      "37247027",
+      "15530409",
+      "31776846",
+      "9925775",
+      "17264128",
+      "22803940",
+      "23074246",
+      "20478078",
+      "30258345",
+      "31127623",
+      "28801461",
+      "33381817",
+      "35036086",
+      "35041243",
+      "33807484",
+      "24100029",
+      "31528351",
+      "36660822",
+      "38846077",
+      "38920624",
+      "34867080",
+      "34542606",
+      "31628952",
+      "38715734",
+      "39344089",
+      "33367499",
+      "35036922",
+      "35153670",
+      "35975000"
+    ],
+    "review": [
+      "36124796",
+      "38754172",
+      "30288657",
+      "18253864",
+      "11361095",
+      "15640031",
+      "22405571",
+      "37457025",
+      "17937891",
+      "22803940",
+      "20478078"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36124796",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btac469",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

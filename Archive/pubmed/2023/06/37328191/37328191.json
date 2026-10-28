@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "pmid": "37328191",
+    "doi": "10.26508/lsa.202302150",
+    "title": "Distant sequence regions of JBP1 contribute to J-DNA binding."
+  },
+  "content": {
+    "abstract": "Base-J (beta-D-glucopyranosyloxymethyluracil) is a modified DNA nucleotide that replaces 1% of thymine in kinetoplastid flagellates. The biosynthesis and maintenance of base-J depends on the base-J-binding protein 1 (JBP1) that has a thymidine hydroxylase domain and a J-DNA-binding domain (JDBD). How the thymidine hydroxylase domain synergizes with the JDBD to hydroxylate thymine in specific genomic sites, maintaining base-J during semi-conservative DNA replication, remains unclear. Here, we present a crystal structure of the JDBD including a previously disordered DNA-contacting loop and use it as starting point for molecular dynamics simulations and computational docking studies to propose recognition models for JDBD binding to J-DNA. These models guided mutagenesis experiments, providing additional data for docking, which reveals a binding mode for JDBD onto J-DNA. This model, together with the crystallographic structure of the TET2 JBP1-homologue in complex with DNA and the AlphaFold model of full-length JBP1, allowed us to hypothesize that the flexible JBP1 N-terminus contributes to DNA-binding, which we confirmed experimentally. Alpha high-resolution JBP1:J-DNA complex, which must involve conformational changes, would however need to be determined experimentally to further understand this unique underlying molecular mechanism that ensures replication of epigenetic information.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Carrier Proteins",
+      "*Thymine",
+      "Uracil/chemistry/metabolism",
+      "DNA",
+      "Thymidine/metabolism",
+      "Mixed Function Oxygenases/chemistry/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "de Vries, Ida",
+        "Ammerlaan, Danique",
+        "Heidebrecht, Tatjana",
+        "Celie, Patrick Hn",
+        "Geerke, Daan P",
+        "Joosten, Robbie P",
+        "Perrakis, Anastassis"
+      ],
+      "short_names": [
+        "de Vries I",
+        "Ammerlaan D",
+        "Heidebrecht T",
+        "Celie PH",
+        "Geerke DP",
+        "Joosten RP",
+        "Perrakis A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8313-7779",
+        "ORCID: 0000-0001-9616-3944",
+        "ORCID: 0000-0002-6557-078X",
+        "ORCID: 0000-0002-5262-6166",
+        "ORCID: 0000-0002-2323-2686",
+        "ORCID: 0000-0002-1151-6227"
+      ],
+      "affiliations": [
+        "Oncode Institute and Division of Biochemistry, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Oncode Institute and Division of Biochemistry, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Oncode Institute and Division of Biochemistry, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Oncode Institute and Division of Biochemistry, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Department of Chemistry and Pharmaceutical Sciences, Amsterdam Institute of Molecular and Life Sciences (AIMMS) and Amsterdam Center for Multiscale Modeling (ACMM), Vrije Universiteit Amsterdam, Amsterdam, The Netherlands.",
+        "Oncode Institute and Division of Biochemistry, Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+        "Oncode Institute and Division of Biochemistry, Netherlands Cancer Institute, Amsterdam, The Netherlands a.perrakis@nki.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "de Vries, Ida",
+        "short_name": "de Vries I",
+        "identifiers": [
+          "0000-0002-8313-7779"
+        ],
+        "affiliations": [
+          "Oncode Institute and Division of Biochemistry, Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Ammerlaan, Danique",
+        "short_name": "Ammerlaan D",
+        "identifiers": [],
+        "affiliations": [
+          "Oncode Institute and Division of Biochemistry, Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Heidebrecht, Tatjana",
+        "short_name": "Heidebrecht T",
+        "identifiers": [
+          "0000-0001-9616-3944"
+        ],
+        "affiliations": [
+          "Oncode Institute and Division of Biochemistry, Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Celie, Patrick Hn",
+        "short_name": "Celie PH",
+        "identifiers": [
+          "0000-0002-6557-078X"
+        ],
+        "affiliations": [
+          "Oncode Institute and Division of Biochemistry, Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Geerke, Daan P",
+        "short_name": "Geerke DP",
+        "identifiers": [
+          "0000-0002-5262-6166"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Pharmaceutical Sciences, Amsterdam Institute of Molecular and Life Sciences (AIMMS) and Amsterdam Center for Multiscale Modeling (ACMM), Vrije Universiteit Amsterdam, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Joosten, Robbie P",
+        "short_name": "Joosten RP",
+        "identifiers": [
+          "0000-0002-2323-2686"
+        ],
+        "affiliations": [
+          "Oncode Institute and Division of Biochemistry, Netherlands Cancer Institute, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Perrakis, Anastassis",
+        "short_name": "Perrakis A",
+        "identifiers": [
+          "0000-0002-1151-6227"
+        ],
+        "affiliations": [
+          "Oncode Institute and Division of Biochemistry, Netherlands Cancer Institute, Amsterdam, The Netherlands a.perrakis@nki.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Life science alliance"
+    ],
+    "journal_abbrev": [
+      "Life Sci Alliance"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/17 05:11",
+    "fetched_at": "2026-09-29 02:14:02"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34293799",
+      "34265844",
+      "33833657",
+      "33627513",
+      "32857966",
+      "32084124",
+      "31651166",
+      "31292194",
+      "29533233",
+      "26524525",
+      "26410586",
+      "25662217",
+      "25104019",
+      "25075342",
+      "25064607",
+      "24996895",
+      "24946952",
+      "24891501",
+      "23814188",
+      "23793146",
+      "22939620",
+      "22775585",
+      "21460457",
+      "21460454",
+      "21460441",
+      "21453775",
+      "21415010",
+      "21321080",
+      "20639862",
+      "20408171",
+      "20383002",
+      "20215442",
+      "20057044",
+      "19450263",
+      "19372393",
+      "19372391",
+      "17389644",
+      "17329373",
+      "17295375",
+      "15694344",
+      "15116359",
+      "12037327",
+      "11890722",
+      "11700315",
+      "10562569",
+      "9389654",
+      "8744570",
+      "8692684",
+      "8261512",
+      "1496927"
+    ],
+    "similar": [
+      "37328191",
+      "31292194",
+      "17389644",
+      "22775585",
+      "19136460",
+      "20215442",
+      "19114062",
+      "21415010",
+      "22514282",
+      "24891501",
+      "32866463",
+      "25078157",
+      "30387773",
+      "25662217",
+      "15694344",
+      "21926332",
+      "26429971",
+      "36986389",
+      "9742081",
+      "18837522",
+      "12366829",
+      "16471811",
+      "15781496",
+      "18729733",
+      "15794921",
+      "32084124",
+      "25218799",
+      "19341313",
+      "21321080",
+      "122971",
+      "12029082",
+      "22573813",
+      "14706348",
+      "14276097",
+      "11713266",
+      "8268181",
+      "30316208",
+      "8805593",
+      "9634698",
+      "130374",
+      "10358035",
+      "29653078",
+      "17295375",
+      "10581234",
+      "14276087",
+      "6847034",
+      "1378441",
+      "21190322",
+      "16482161",
+      "567220",
+      "11700315",
+      "29253232",
+      "33624202",
+      "7845459",
+      "7578084",
+      "16863931",
+      "10562569",
+      "26255348",
+      "6453866",
+      "1762628",
+      "10903903",
+      "26358812",
+      "18789404",
+      "17704764",
+      "4355484",
+      "20876689",
+      "10531356",
+      "19945457",
+      "12415291",
+      "24028440",
+      "16838837",
+      "11246853",
+      "10455196",
+      "327402",
+      "26815240",
+      "14556741",
+      "11878941",
+      "7487064",
+      "2911590",
+      "1542572",
+      "19087304",
+      "17045293",
+      "10986243",
+      "12235375",
+      "18512959",
+      "10956665",
+      "19706517",
+      "3888173",
+      "16285726",
+      "14717594",
+      "15033488",
+      "18614176",
+      "8130218",
+      "21474392",
+      "29099122",
+      "21770426",
+      "8346023",
+      "4633393"
+    ],
+    "review": [
+      "37328191",
+      "36986389"
+    ],
+    "pmc": [
+      "10276184"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.26508/lsa.202302150",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37328191/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37328191",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

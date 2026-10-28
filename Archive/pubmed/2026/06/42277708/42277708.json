@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "42277708",
+    "doi": "10.1186/s12870-026-09203-4",
+    "title": "Genome-wide identification of WRKY gene family reveals its regulatory role in ABA/CBF-mediated cold adaptation in king grass (Pennisetum purpureum x P. americanum)."
+  },
+  "content": {
+    "abstract": "BACKGROUND: King grass is a fast-growing C4 perennial with high biomass potential, yet its productivity is limited by cold stress. WRKY transcription factors (TFs) regulate abiotic stress responses, but their roles in king grass cold adaptation remain unclear. METHODS: WRKY TFs were identified genome-wide using BLASTP and HMMER, followed by phylogenetic classification, transcriptome profiling, promoter cis-element analysis, weighted gene co-expression network analysis (WGCNA), molecular docking, and yeast heterologous expression assays. RESULTS: Sixty-two PsiWRKY genes were identified and classified into three groups. Time-series transcriptome analysis across nine cold-stress time points revealed four expression patterns, with 29 genes significantly induced (> 2-fold), mainly during late acclimation (48-72 h). qRT-PCR confirmed RNA-seq trends (R(2) = 0.742). Functional enrichment and WGCNA analyses indicated that cold-responsive PsiWRKYs coordinate abscisic acid-gibberellin antagonism and sugar metabolism. Molecular docking predicted interactions between PsiWRKY proteins and Calvin cycle enzymes, with PsiWRKY16 and PsiWRKY55 showing the highest structural confidence (pTM > 0.75). Network analysis identified PsiWRKY16 and PsiWRKY50 as hub regulators linking GA signaling genes (GID1/DELLA) with sugar metabolism enzymes such as GAPDH and PRK. Yeast assays quantitatively confirmed enhanced cold tolerance, as heterologous expression of PsiWRKY16 reduced doubling time by 0.56 h and increased area under the curve and carrying capacity by 26.20 and 3.39, respectively, while PsiWRKY50 increased these values by 14.45 and 1.43. Promoter analysis showed enrichment of ABRE and DRE elements (p = 0.00061), and integrative target prediction identified 193 genes co-regulated by WRKY and CBF pathways, supporting ABA-CBF signaling convergence. CONCLUSIONS: PsiWRKYs exhibit subgroup-specific and time-resolved responses to cold stress. PsiWRKY16, PsiWRKY50, and PsiWRKY55 are implicated in coordinating hormonal signaling and metabolic reprogramming, providing candidate targets for cold-tolerant breeding in king grass.",
+    "keywords": [
+      "ABA/CBFsignling",
+      "Cold stress",
+      "King grass",
+      "Transcriptome analysis",
+      "WRKY transcription factors"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/genetics/metabolism",
+      "*Abscisic Acid/metabolism",
+      "*Plant Proteins/genetics/metabolism",
+      "*Pennisetum/genetics/physiology",
+      "Phylogeny",
+      "Cold Temperature",
+      "Gene Expression Regulation, Plant",
+      "Gene Expression Profiling",
+      "Multigene Family",
+      "Cold-Shock Response/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lai, Xianjun",
+        "Xiao, Qimeng",
+        "Chen, Zihan",
+        "Liu, Siqi",
+        "Yan, Junfeng",
+        "Zhang, Yizheng",
+        "Yan, Lang"
+      ],
+      "short_names": [
+        "Lai X",
+        "Xiao Q",
+        "Chen Z",
+        "Liu S",
+        "Yan J",
+        "Zhang Y",
+        "Yan L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Panxi Crops Improvement Key Laboratory of Sichuan Province, College of Agriculture Science, Xichang University, liangshan, China.",
+        "Panxi Crops Improvement Key Laboratory of Sichuan Province, College of Agriculture Science, Xichang University, liangshan, China.",
+        "Panxi Crops Improvement Key Laboratory of Sichuan Province, College of Agriculture Science, Xichang University, liangshan, China.",
+        "Panxi Crops Improvement Key Laboratory of Sichuan Province, College of Agriculture Science, Xichang University, liangshan, China.",
+        "Chengdu Ke'an Technology Co., Ltd, Chengdu, China.",
+        "Sichuan Key Laboratory of Molecular Biology and Biotechnology, College of Life Sciences, Sichuan University, Chengdu, China.",
+        "Mianyang Youxian Innovation Technology and Industrial Technology Research Institute, Mianyang, China.",
+        "Panxi Crops Improvement Key Laboratory of Sichuan Province, College of Agriculture Science, Xichang University, liangshan, China. langyan0807@hotmail.com.",
+        "Mianyang Youxian Innovation Technology and Industrial Technology Research Institute, Mianyang, China. langyan0807@hotmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lai, Xianjun",
+        "short_name": "Lai X",
+        "identifiers": [],
+        "affiliations": [
+          "Panxi Crops Improvement Key Laboratory of Sichuan Province, College of Agriculture Science, Xichang University, liangshan, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Qimeng",
+        "short_name": "Xiao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Panxi Crops Improvement Key Laboratory of Sichuan Province, College of Agriculture Science, Xichang University, liangshan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zihan",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Panxi Crops Improvement Key Laboratory of Sichuan Province, College of Agriculture Science, Xichang University, liangshan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Siqi",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Panxi Crops Improvement Key Laboratory of Sichuan Province, College of Agriculture Science, Xichang University, liangshan, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Junfeng",
+        "short_name": "Yan J",
+        "identifiers": [],
+        "affiliations": [
+          "Chengdu Ke'an Technology Co., Ltd, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yizheng",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Sichuan Key Laboratory of Molecular Biology and Biotechnology, College of Life Sciences, Sichuan University, Chengdu, China.",
+          "Mianyang Youxian Innovation Technology and Industrial Technology Research Institute, Mianyang, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Lang",
+        "short_name": "Yan L",
+        "identifiers": [],
+        "affiliations": [
+          "Panxi Crops Improvement Key Laboratory of Sichuan Province, College of Agriculture Science, Xichang University, liangshan, China. langyan0807@hotmail.com.",
+          "Mianyang Youxian Innovation Technology and Industrial Technology Research Institute, Mianyang, China. langyan0807@hotmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC plant biology"
+    ],
+    "journal_abbrev": [
+      "BMC Plant Biol"
+    ],
+    "pub_date": "2026 Jun 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/12 06:39",
+    "fetched_at": "2026-10-01 23:02:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40041019",
+      "39562785",
+      "39379802",
+      "38542523",
+      "38034567",
+      "37667032",
+      "36426143",
+      "35972376",
+      "35829836",
+      "35347881",
+      "35163471",
+      "33171689",
+      "32439826",
+      "32271855",
+      "31717396",
+      "31126029",
+      "30823991",
+      "30172762",
+      "28484671",
+      "28250372",
+      "27375634",
+      "26951048",
+      "26552372",
+      "26504535",
+      "26320389",
+      "26083713",
+      "24777989",
+      "24492469",
+      "24451626",
+      "24400014",
+      "24353205",
+      "22708052",
+      "22535423",
+      "21964328",
+      "21696534",
+      "21336597",
+      "20643804",
+      "20401516",
+      "19516981",
+      "19420325",
+      "18757556",
+      "17644023",
+      "17322336",
+      "15708346",
+      "15047897",
+      "12694590",
+      "11846609",
+      "10785665",
+      "10592234"
+    ],
+    "similar": [
+      "42277708",
+      "40597618",
+      "42151799",
+      "41742024",
+      "41315972",
+      "39379802",
+      "38937686",
+      "24755338",
+      "39838282",
+      "42074544",
+      "41199156",
+      "31126029",
+      "35012508",
+      "34544366",
+      "41193681",
+      "41654745",
+      "32171257",
+      "39702019",
+      "42261311",
+      "42098615",
+      "40149495",
+      "31717396",
+      "40021992",
+      "27592172",
+      "40610450",
+      "41718799",
+      "30044387",
+      "40311551",
+      "40329159",
+      "42372477",
+      "41992091",
+      "42353798",
+      "40669157",
+      "40596840",
+      "38827309",
+      "41155436",
+      "41832403",
+      "41219873",
+      "40102740",
+      "36142183",
+      "41862793",
+      "40629278",
+      "39789434",
+      "31412781",
+      "38714947",
+      "42050414",
+      "40429856",
+      "26704366",
+      "38365619",
+      "42213270",
+      "40075303",
+      "41520972",
+      "41654730",
+      "39417869",
+      "41317612",
+      "39075346",
+      "41776219",
+      "41776403",
+      "40014160",
+      "42074494",
+      "36853516",
+      "34681032",
+      "40725197",
+      "42090967",
+      "40753368",
+      "40004459",
+      "34946815",
+      "39457112",
+      "20967459",
+      "41459447",
+      "30238224",
+      "39210263",
+      "38816567",
+      "31948405",
+      "39232675",
+      "39019887",
+      "27322342",
+      "31615063",
+      "41673553",
+      "31159293",
+      "38594627",
+      "40725500",
+      "32867682",
+      "30637579",
+      "41213477",
+      "38221812",
+      "38070802",
+      "25495120",
+      "39859232",
+      "39501159",
+      "39701794",
+      "39063069",
+      "38069138",
+      "41452382",
+      "41016480",
+      "37834015",
+      "39343877",
+      "39769355",
+      "41465400",
+      "39701971"
+    ],
+    "review": [
+      "42277708"
+    ],
+    "pmc": [
+      "13483852"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-026-09203-4",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42277708/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GAPDH-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3339",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

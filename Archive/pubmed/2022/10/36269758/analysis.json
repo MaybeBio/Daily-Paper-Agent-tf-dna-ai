@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36269758",
+  "title": "Stochastic dynamics of Type-I interferon responses.",
+  "authors": "Maier, Benjamin D; Aguilera, Luis U; Sahle, Sven; Mutz, Pascal; Kalra, Priyata; Dachert, Christopher; Bartenschlager, Ralf; Binder, Marco; Kummer, Ursula",
+  "journal": "PLoS computational biology",
+  "published_date": "2022-10-22",
+  "window": {
+    "start": "2022-10-17",
+    "end": "2022-10-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用随机建模研究JAK-STAT通路中干扰素刺激基因诱导的细胞异质性，虽涉及转录因子ISGF3与DNA结合，但核心是信号通路随机动力学而非TF-DNA互作建模，方法为随机模拟而非AI或分子动力学。",
+  "abstract": "Interferon (IFN) activates the transcription of several hundred of IFN stimulated genes (ISGs) that constitute a highly effective antiviral defense program. Cell-to-cell variability in the induction of ISGs is well documented, but its source and effects are not completely understood. The molecular mechanisms behind this heterogeneity have been related to randomness in molecular events taking place during the JAK-STAT signaling pathway. Here, we study the sources of variability in the induction of the IFN-alpha response by using MxA and IFIT1 activation as read-out. To this end, we integrate time-resolved flow cytometry data and stochastic modeling of the JAK-STAT signaling pathway. The complexity of the IFN response was matched by fitting probability distributions to time-course flow cytometry snapshots. Both, experimental data and simulations confirmed that the MxA and IFIT1 induction circuits generate graded responses rather than all-or-none responses. Subsequently, we quantify the size of the intrinsic variability at different steps in the pathway. We found that stochastic effects are transiently strong during the ligand-receptor activation steps and the formation of the ISGF3 complex, but negligible for the final induction of the studied ISGs. We conclude that the JAK-STAT signaling pathway is a robust biological circuit that efficiently transmits information under stochastic environments.",
+  "abstract_zh": "干扰素（IFN）激活数百个干扰素刺激基因（ISGs）的转录，构成一个高效抗病毒防御程序。ISGs诱导的细胞间变异性已有充分记录，但其来源和影响尚未完全理解。这种异质性背后的分子机制与JAK-STAT信号通路中发生的分子事件的随机性有关。在此，我们通过使用MxA和IFIT1激活作为读数，研究IFN-α反应诱导中变异性的来源。为此，我们整合了时间分辨流式细胞术数据和JAK-STAT信号通路的随机建模。IFN反应的复杂性通过将概率分布拟合到时间过程流式细胞术快照来匹配。实验数据和模拟均确认，MxA和IFIT1诱导回路产生分级反应而非全或无反应。随后，我们量化了通路不同步骤中内在变异性的规模。我们发现，随机效应在配体-受体激活步骤和ISGF3复合物形成期间短暂强烈，但对所研究ISGs的最终诱导影响可忽略。我们得出结论，JAK-STAT信号通路是一个稳健的生物回路，在随机环境下有效传递信息。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36269758/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36269758/",
+  "paper_page_path": "papers/pubmed/36269758/index.html"
+}

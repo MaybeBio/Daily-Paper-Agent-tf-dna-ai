@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.01.25.428108",
+  "title": "LanceOtron: a deep learning peak caller for ATAC-seq, ChIP-seq, and DNase-seq",
+  "authors": "Hentges LD; Sergeant MJ; Downes DJ; Hughes JR; Taylor S",
+  "journal": "bioRxiv",
+  "published_date": "2021-01-27",
+  "window": {
+    "start": "2021-01-25",
+    "end": "2021-01-31"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习图像识别方法改进ATAC-seq/ChIP-seq/DNase-seq的峰识别，虽涉及转录因子结合位点检测，但核心是通用测序峰调用工具，未聚焦TF-DNA三维互作建模或结合机制，方法可迁移但深度有限。",
+  "abstract": "ATAC-seq, ChIP-seq, and DNase-seq have revolutionized molecular biology by allowing researchers to identify important DNA-encoded elements genome-wide. Regions where these elements are found appear as peaks in the analog signal of an assay’s coverage track, and despite the ease with which humans can visually categorize these regions, meaningful peak calls from whole genome datasets require complex analytical techniques. Current methods focus on statistical tests to classify peaks, reducing the information-dense peak shapes to simply maximum height, and discounting that background signals do not completely follow any known probability distribution for significance testing. Deep learning has been shown to be highly accurate for image recognition, on par or exceeding human ability, providing an opportunity to reimagine and improve peak calling. We present the peak calling framework LanceOtron, which combines multifaceted enrichment measurements with deep learning image recognition techniques for assessing peak shape. In benchmarking transcription factor binding, chromatin modification, and open chromatin datasets, LanceOtron outperforms the long-standing, gold-standard peak caller MACS2 through its improved selectivity and near perfect sensitivity. In addition to command line accessibility, a graphical web application was designed to give any researcher the ability to generate optimal peak calls and interactive visualizations in a single step.",
+  "abstract_zh": "ATAC-seq、ChIP-seq和DNase-seq通过使研究人员能够在全基因组范围内识别重要的DNA编码元件，彻底改变了分子生物学。这些元件所在的区域在检测覆盖轨迹的模拟信号中表现为峰，尽管人类可以轻松地视觉分类这些区域，但从全基因组数据集中进行有意义的峰调用需要复杂的分析技术。当前方法侧重于统计检验来分类峰，将信息密集的峰形状简化为仅最大高度，并忽略了背景信号并不完全遵循任何已知概率分布以进行显著性检验。深度学习已被证明在图像识别方面高度准确，达到或超过人类能力，为重新构想和改进峰调用提供了机会。我们提出了峰调用框架LanceOtron，它结合了多方面的富集测量与深度学习图像识别技术来评估峰形状。在基准测试转录因子结合、染色质修饰和开放染色质数据集时，LanceOtron通过其改进的选择性和近乎完美的敏感性，优于长期以来的金标准峰调用器MACS2。除了命令行可访问性外，还设计了一个图形化Web应用程序，使任何研究人员都能在单一步骤中生成最佳峰调用和交互式可视化。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.01.25.428108",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.01.25.428108",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.01.25.428108/index.html"
+}

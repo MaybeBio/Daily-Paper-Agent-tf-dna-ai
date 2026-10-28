@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that Shenqi Compound (SQ), a traditional Chinese medicine formula, ameliorates renal fibrosis in a rat model of diabetic kidney disease (DKD) by inhibiting the LRG1/TGF-beta/Smad signaling pathway. They further identify Tanshinone IIA (TAN IIA) as an active component of SQ that binds to LRG1, and show in HK-2 cells that TAN IIA suppresses TGF-beta1-induced extracellular matrix deposition and pathway activation.
+- **Visible evidence base** Abstract text only; no numerical data, statistical analyses, representative images, or methodological details are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical details, compound characterization data, docking and simulation parameters, raw Western blot data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and mechanistically plausible narrative linking a traditional Chinese medicine formula to inhibition of a specific signaling pathway in DKD-related fibrosis. The combination of in vivo, in silico, and in vitro approaches is ambitious and potentially informative. However, the abstract alone provides insufficient quantitative evidence to evaluate the strength of the claims. Key issues include the lack of effect sizes, statistical measures, and methodological details that would allow assessment of experimental rigor. The causal chain from SQ to TAN IIA to LRG1 binding to pathway inhibition to functional outcomes is asserted but not fully supported by the data described. The work may be of interest to researchers in nephrology, fibrosis biology, and natural product pharmacology, but the current evidence base is too limited to establish the central claims.
+- **Who would be interested in the results, and why** Researchers studying diabetic kidney disease and renal fibrosis mechanisms would be interested in the potential therapeutic role of a natural product formula. Investigators working on LRG1 as a disease target and on TGF-beta/Smad signaling would find the proposed interaction relevant. The traditional medicine community and those focused on drug discovery from natural products would also be interested in the identification of TAN IIA as a bioactive component. However, the narrow scope and preliminary nature of the evidence may limit broader interest.
+- **Major strengths** The study integrates multiple experimental approaches, including animal models, network pharmacology, molecular dynamics, and cell-based assays, which is a comprehensive strategy. The identification of a specific active ingredient and a putative protein target provides a mechanistic hypothesis that is testable. The use of a clinically relevant positive control (irbesartan) in the animal model is appropriate. The focus on ECM deposition and fibrosis addresses a clinically important pathological process in DKD.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "SQ ameliorated blood glucose, body weight, and renal pathological injury in DKD rats"
+  - **Evidence pointer** Methods section as described in abstract; location not provided
+  - **Concern** The abstract states that SQ improved blood glucose, body weight, and renal pathology, but provides no quantitative data, effect sizes, or statistical comparisons. It is unclear whether these improvements were dose-dependent, whether all SQ concentrations were effective, and how the magnitude of effect compared to irbesartan.
+  - **Why it matters** Without quantitative outcomes and statistical support, the efficacy claim for SQ cannot be evaluated. The reader cannot determine whether the effects are biologically meaningful or merely statistically significant.
+  - **Resolution test** Provide numerical data for blood glucose, body weight, and histopathological scores for all groups, with appropriate statistical tests and measures of variance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** "TAN IIA stably bind to LRG1 and inhibited LRG1 protein activity"
+  - **Evidence pointer** Methods section as described in abstract; location not provided
+  - **Concern** The abstract claims stable binding and inhibition of LRG1 activity based on molecular docking, molecular dynamics simulations, and "small molecule-protein binding experiments." However, no binding affinity values, simulation parameters, or functional assays of LRG1 activity are reported. The term "inhibited LRG1 protein activity" is vague, as LRG1 is a secreted glycoprotein and its "activity" in this context is not defined.
+  - **Why it matters** The central mechanistic claim rests on the TAN IIA-LRG1 interaction. Without quantitative binding data and a clear definition of what constitutes LRG1 activity inhibition, the claim is not verifiable.
+  - **Resolution test** Report binding constants (e.g., Kd) from experimental binding assays, provide simulation stability metrics (e.g., RMSD), and define and measure a specific LRG1 functional readout.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "SQ suppressed the activation of the LRG1/TGF-beta/Smad signaling pathway, thereby effectively attenuated renal ECM deposition and kidney fibrosis"
+  - **Evidence pointer** Results section as described in abstract; location not provided
+  - **Concern** The abstract asserts a causal sequence from SQ to pathway suppression to reduced fibrosis, but no loss-of-function or gain-of-function experiments are described. It is not shown that LRG1 knockdown or overexpression alters the effects of SQ or TAN IIA. The pathway is presented as a linear cascade, but the relationship between LRG1 and TGF-beta/Smad signaling is not experimentally dissected.
+  - **Why it matters** Correlation between treatment and pathway changes does not establish causation. Without genetic or pharmacological manipulation of pathway components, alternative mechanisms cannot be excluded.
+  - **Resolution test** Include experiments where LRG1 is knocked down or overexpressed in vitro or in vivo, and show that the effects of SQ or TAN IIA are dependent on LRG1 levels.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model relevance
+  - **Claim pointer** "a DKD rat model was established by high-fat diet feeding and intraperitoneal injection of streptozotocin"
+  - **Evidence pointer** Methods section as described in abstract; location not provided
+  - **Concern** The abstract does not specify the dose of streptozotocin, the duration of high-fat diet before or after STZ injection, the age and strain of rats, or the criteria used to confirm DKD development. The model is described in a single sentence.
+  - **Why it matters** The validity of the DKD model is critical to the translational relevance of the findings. Different STZ protocols produce varying degrees of hyperglycemia and renal injury, and the model may not fully recapitulate human DKD.
+  - **Resolution test** Provide full model induction details, including STZ dose, diet composition and duration, animal characteristics, and confirmation of DKD criteria (e.g., albuminuria, histology).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, Background section
+  - **Issue** The abstract states that "renal tubular epithelial cells undergo extracellular matrix (ECM) deposition," which is imprecise. ECM deposition is a process involving matrix production and accumulation, not something cells "undergo" in the same way they undergo apoptosis or proliferation.
+  - **Required correction** Rephrase to indicate that renal tubular epithelial cells contribute to ECM deposition or that ECM accumulates in the tubulointerstitium.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Compound characterization
+  - **Evidence pointer** Methods section as described in abstract; location not provided
+  - **Issue** The abstract states that active ingredients of SQ were identified using LC-MS/MS, but no information is given about the number of compounds identified, the criteria for selecting TAN IIA as the focus, or the concentration of TAN IIA in SQ.
+  - **Required correction** Provide a brief summary of the LC-MS/MS findings and justify the selection of TAN IIA for further study.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reporting
+  - **Affected element** Cell model
+  - **Evidence pointer** Methods section as described in abstract; location not provided
+  - **Issue** The abstract states that HK-2 cells were stimulated with TGF-beta1 to induce ECM deposition, but the concentration and duration of TGF-beta1 treatment are not specified.
+  - **Required correction** Include the TGF-beta1 concentration and stimulation time in the methods description.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, Results and Conclusion sections
+  - **Issue** The abstract uses "TAN IIA" and "Tanshinone IIA" interchangeably. Consistency in nomenclature is expected in scientific writing.
+  - **Required correction** Use a single abbreviation throughout, with the full name provided at first mention.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Conclusion statement
+  - **Evidence pointer** Abstract, Conclusion section
+  - **Issue** The phrase "provide a more sufficient theoretical foundation" is awkward and imprecise. "More sufficient" is not standard usage.
+  - **Required correction** Rephrase to "provide a stronger theoretical foundation" or "offer additional evidence supporting."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative efficacy data), R1-M2 (no binding data or defined LRG1 activity assay), R1-M3 (no causal experiments linking LRG1 to the observed effects)
+- **Assessment against Nature-style criteria** Originality: The combination of a traditional Chinese medicine formula with LRG1 as a target is somewhat novel, but the overall approach of testing natural products against TGF-beta/Smad signaling in fibrosis is well established. Scientific importance: DKD is a major clinical problem, and new therapeutic approaches are needed, but the abstract does not demonstrate a significant advance over existing knowledge. Interdisciplinary readership: The work spans nephrology, pharmacology, and computational biology, which could attract a broad audience, but the evidence is too preliminary. Technical soundness: Cannot be assessed from the abstract alone; the described methods are standard but the lack of data prevents evaluation of execution quality. Readability for nonspecialists: The abstract is generally readable, but the mechanistic claims are dense and would benefit from clearer articulation of the evidence chain.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible study, but the absence of quantitative data, statistical analyses, and causal experiments means the central claims cannot be evaluated. The authors should be invited to submit a full manuscript for review, at which point the technical quality and evidentiary support can be properly assessed.
+
+## Risk / unsupported claims
+- The claim that SQ "ameliorated" blood glucose, body weight, and renal pathology is unsupported without numerical data and statistical analysis.
+- The claim that TAN IIA "stably bind to LRG1 and inhibited LRG1 protein activity" is unsupported without binding constants, simulation data, and a defined functional assay.
+- The causal claim that pathway suppression "thereby" attenuated fibrosis is unsupported without loss-of-function or gain-of-function experiments.
+- The claim that TAN IIA is the active component responsible for SQ's effects is not established, as no experiments comparing SQ with and without TAN IIA are described.
+- The translational claim that the findings "provide a more sufficient theoretical foundation for the clinical application of SQ" is not supported by the evidence presented.

@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "40963600",
+    "doi": "10.3389/fimmu.2025.1653794",
+    "title": "A machine learning-derived immune-related prognostic model identifies PLXNA3 as a functional risk gene in colorectal cancer."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Colorectal Cancer (CRC) remains a leading cause of cancer-related mortality, characterized by substantial interpatient heterogeneity and limited effective prognostic biomarkers. METHODS: To address this gap, we constructed a robust prognostic model by integrating over 100 machine learning algorithms-such as LASSO, CoxBoost, and StepCox-based on transcriptomic and clinical data from The Cancer Genome Atlas (TCGA) and Gene Expression Omnibus (GEO) cohorts. RESULTS: Plexin-A3 (PLXNA3) emerged as a top risk gene within the ensemble model, which achieved strong predictive performance, surpassing conventional clinical indicators. Multi-omics validation confirmed PLXNA3's prognostic relevance. Spatial and single-cell transcriptomics demonstrated their enrichment in malignant epithelial regions and negative association with immune cell infiltration, particularly CD8(+) T cells and plasma cells. Transcription factor (TF) and microRNA (miRNA) correlation analyses revealed potential upstream regulators of PLXNA3 linked to tumor stemness and immune suppression. Functional enrichment indicated its association with cell cycle, DNA damage repair, and interferon signaling pathways. Immunohistochemistry (IHC) confirmed PLXNA3 overexpression in tumor tissues and its correlation with nodal metastasis. Moreover, drug sensitivity profiling and Connectivity Map (CMap) analysis identified potential compounds, including imatinib, MS-275 and fasudil, capable of reversing PLXNA3-driven transcriptional programs. DISCUSSION: This study identifies PLXNA3 as a novel immune-related biomarker in colorectal cancer and elucidates its multifaceted role in tumor progression, immune evasion, and therapeutic resistance. These findings provide a foundation for incorporating PLXNA3 into precision oncology frameworks for gastrointestinal malignancies.",
+    "keywords": [
+      "PLXNA3",
+      "colorectal cancer",
+      "drug sensitivity",
+      "immune microenvironment",
+      "machine learning",
+      "prognostic model",
+      "single-cell RNA sequencing",
+      "spatial transcriptomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/genetics/immunology/mortality/pathology",
+      "Prognosis",
+      "*Machine Learning",
+      "*Biomarkers, Tumor/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "*Nerve Tissue Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lyu, Hanzhang",
+        "Wang, Song",
+        "Guo, Guodong",
+        "Lin, Weiteng",
+        "Huang, Chenshen",
+        "Chen, Hong",
+        "Xu, Chao",
+        "Liu, Liming",
+        "Huang, Qi",
+        "Xue, Fangqin"
+      ],
+      "short_names": [
+        "Lyu H",
+        "Wang S",
+        "Guo G",
+        "Lin W",
+        "Huang C",
+        "Chen H",
+        "Xu C",
+        "Liu L",
+        "Huang Q",
+        "Xue F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou, China.",
+        "Fuzhou University Affiliated Provincial Hospital, Fuzhou University School of Medicine, Fuzhou, China.",
+        "Department of General Surgery, Tongji Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou, China.",
+        "Fuzhou University Affiliated Provincial Hospital, Fuzhou University School of Medicine, Fuzhou, China.",
+        "Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou, China.",
+        "Fuzhou University Affiliated Provincial Hospital, Fuzhou University School of Medicine, Fuzhou, China.",
+        "Fuzhou University Affiliated Provincial Hospital, Fuzhou University School of Medicine, Fuzhou, China.",
+        "Fuzhou University Affiliated Provincial Hospital, Fuzhou University School of Medicine, Fuzhou, China.",
+        "Fuzhou University Affiliated Provincial Hospital, Fuzhou University School of Medicine, Fuzhou, China.",
+        "Department of General Surgery, Shibei Hospital of Shanghai Jingan District, Shanghai, China.",
+        "Department of General Surgery, Tongji Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou, China.",
+        "Fuzhou University Affiliated Provincial Hospital, Fuzhou University School of Medicine, Fuzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lyu, Hanzhang",
+        "short_name": "Lyu H",
+        "identifiers": [],
+        "affiliations": [
+          "Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou, China.",
+          "Fuzhou University Affiliated Provincial Hospital, Fuzhou University School of Medicine, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Song",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Tongji Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Guodong",
+        "short_name": "Guo G",
+        "identifiers": [],
+        "affiliations": [
+          "Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou, China.",
+          "Fuzhou University Affiliated Provincial Hospital, Fuzhou University School of Medicine, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Weiteng",
+        "short_name": "Lin W",
+        "identifiers": [],
+        "affiliations": [
+          "Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou, China.",
+          "Fuzhou University Affiliated Provincial Hospital, Fuzhou University School of Medicine, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Chenshen",
+        "short_name": "Huang C",
+        "identifiers": [],
+        "affiliations": [
+          "Fuzhou University Affiliated Provincial Hospital, Fuzhou University School of Medicine, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hong",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Fuzhou University Affiliated Provincial Hospital, Fuzhou University School of Medicine, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Chao",
+        "short_name": "Xu C",
+        "identifiers": [],
+        "affiliations": [
+          "Fuzhou University Affiliated Provincial Hospital, Fuzhou University School of Medicine, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Liming",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Shibei Hospital of Shanghai Jingan District, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Qi",
+        "short_name": "Huang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Tongji Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Fangqin",
+        "short_name": "Xue F",
+        "identifiers": [],
+        "affiliations": [
+          "Shengli Clinical Medical College of Fujian Medical University, Fujian Provincial Hospital, Fuzhou, China.",
+          "Fuzhou University Affiliated Provincial Hospital, Fuzhou University School of Medicine, Fuzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/18 06:30",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [
+      "42260815",
+      "42223791"
+    ],
+    "refs": [
+      "39659787",
+      "39494327",
+      "39285476",
+      "38862008",
+      "38831106",
+      "38654380",
+      "38572751",
+      "38315776",
+      "38233586",
+      "38229100",
+      "38035446",
+      "37680482",
+      "37649037",
+      "37608096",
+      "37393364",
+      "37072770",
+      "36968638",
+      "36911801",
+      "36806082",
+      "36625446",
+      "36555180",
+      "36321662",
+      "36035159",
+      "35972798",
+      "34286443",
+      "34062119",
+      "33302293",
+      "33088219",
+      "33005420",
+      "32943991",
+      "32640719",
+      "32444850",
+      "32397343",
+      "31963147",
+      "31631858",
+      "31433971",
+      "30329142",
+      "29867097",
+      "29730267",
+      "29618526",
+      "29545794",
+      "29195078",
+      "29187262",
+      "29083409",
+      "28388612",
+      "28344354",
+      "28050011",
+      "27207943",
+      "26962861",
+      "26482930",
+      "25954001",
+      "25750696",
+      "25613900",
+      "25034524",
+      "24681953",
+      "23180760",
+      "23178117",
+      "22455463",
+      "21925246",
+      "21873989",
+      "21414208",
+      "19717441",
+      "17129403",
+      "11752295",
+      "11683995"
+    ],
+    "similar": [
+      "40963600",
+      "41208987",
+      "40496857",
+      "41099090",
+      "40740776",
+      "41235474",
+      "41179292",
+      "40770837",
+      "40068177",
+      "40898185",
+      "40266079",
+      "39199281",
+      "40330458",
+      "41342434",
+      "39875913",
+      "40008534",
+      "41286470",
+      "39076986",
+      "40438100",
+      "39859524",
+      "40804688",
+      "40821828",
+      "40642093",
+      "39966486",
+      "41472745",
+      "41425595",
+      "40607411",
+      "40959565",
+      "39396837",
+      "40933995",
+      "39507529",
+      "41246350",
+      "40438115",
+      "40211257",
+      "38299230",
+      "41290867",
+      "34335633",
+      "40656609",
+      "39870964",
+      "40475762",
+      "41234880",
+      "41164195",
+      "39085446",
+      "39155627",
+      "39712012",
+      "40055390",
+      "40330470",
+      "40959081",
+      "40463370",
+      "41504052",
+      "40047469",
+      "40672941",
+      "41200185",
+      "41257959",
+      "40423850",
+      "40200221",
+      "40534868",
+      "40759870",
+      "40936892",
+      "41207909",
+      "41293172",
+      "41502509",
+      "39441216",
+      "40145096",
+      "40586903",
+      "39043103",
+      "40551269",
+      "40103807",
+      "40552290",
+      "41208974",
+      "39424871",
+      "41190067",
+      "40595026",
+      "38773226",
+      "41344266",
+      "41114433",
+      "41071325",
+      "41235257",
+      "40681784",
+      "40374866",
+      "40004112",
+      "39372411",
+      "40761790",
+      "39075485",
+      "39215032",
+      "39374811",
+      "38654221",
+      "41465391",
+      "41219406",
+      "40914542",
+      "40362431",
+      "39703515",
+      "39554586",
+      "40496864",
+      "41249595",
+      "34364366",
+      "39794799",
+      "39176099",
+      "40977710",
+      "40473799"
+    ],
+    "review": [
+      "40963600",
+      "41219406"
+    ],
+    "pmc": [
+      "12436408"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40963600/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1653794",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

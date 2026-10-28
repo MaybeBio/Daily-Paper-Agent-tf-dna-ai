@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "38071255",
+    "doi": "10.1038/s41598-023-49165-3",
+    "title": "Exploration of the role of oxidative stress-related genes in LPS-induced acute lung injury via bioinformatics and experimental studies."
+  },
+  "content": {
+    "abstract": "During the progression of acute lung injury (ALI), oxidative stress and inflammatory responses always promote each other. The datasets analyzed in this research were acquired from the Gene Expression Omnibus (GEO) database. The Weighted Gene Co-expression Network Analysis (WGCNA) and limma package were used to obtain the ALI-related genes (ALIRGs) and differentially expressed genes (DEGs), respectively. In total, two biological markers (Gch1 and Tnfaip3) related to oxidative stress were identified by machine learning algorithms, Receiver Operator Characteristic (ROC), and differential expression analyses. The area under the curve (AUC) value of biological markers was greater than 0.9, indicating an excellent power to distinguish between ALI and control groups. Moreover, 15 differential immune cells were selected between the ALI and control samples, and they were correlated to biological markers. The transcription factor (TF)-microRNA (miRNA)-Target network was constructed to explore the potential regulatory mechanisms. Finally, based on the quantitative reverse transcription polymerase chain reaction (qRT-PCR), the expression of Gch1 and Tnfaip3 was significantly higher in ALI lung tissue than in healthy controls. In conclusion, the differences in expression profiles between ALI and normal controls were found, and two biological markers were identified, providing a research basis for further understanding the pathogenesis of ALI.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Lipopolysaccharides",
+      "Computational Biology",
+      "*Acute Lung Injury/chemically induced/genetics",
+      "Oxidative Stress/genetics",
+      "Biomarkers"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yuanshui",
+        "Li, Huamei",
+        "Ouyang, Yanhong",
+        "Zhang, Yan",
+        "Pan, Pinhua"
+      ],
+      "short_names": [
+        "Liu Y",
+        "Li H",
+        "Ouyang Y",
+        "Zhang Y",
+        "Pan P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Emergency Medicine, Hainan General Hospital, Hainan Affiliated Hospital of Hainan Medical University, Haikou, 570311, People's Republic of China. yuanshuiliu@hainmc.edu.cn.",
+        "Department of Respiratory Medicine, Key Cite of National Clinical Research Center for Respiratory Disease, Xiangya Hospital, Central South University, Changsha, 410008, People's Republic of China. yuanshuiliu@hainmc.edu.cn.",
+        "Department of Ultrasound, Hainan General Hospital, Hainan Affiliated Hospital of Hainan Medical University, Haikou, 570311, People's Republic of China. huameili@hainmc.edu.cn.",
+        "Department of Emergency Medicine, Hainan General Hospital, Hainan Affiliated Hospital of Hainan Medical University, Haikou, 570311, People's Republic of China.",
+        "Department of Respiratory Medicine, Key Cite of National Clinical Research Center for Respiratory Disease, Xiangya Hospital, Central South University, Changsha, 410008, People's Republic of China. zhangy4290@csu.edu.cn.",
+        "Department of Respiratory Medicine, Key Cite of National Clinical Research Center for Respiratory Disease, Xiangya Hospital, Central South University, Changsha, 410008, People's Republic of China. pinhuapan668@csu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yuanshui",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency Medicine, Hainan General Hospital, Hainan Affiliated Hospital of Hainan Medical University, Haikou, 570311, People's Republic of China. yuanshuiliu@hainmc.edu.cn.",
+          "Department of Respiratory Medicine, Key Cite of National Clinical Research Center for Respiratory Disease, Xiangya Hospital, Central South University, Changsha, 410008, People's Republic of China. yuanshuiliu@hainmc.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Huamei",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ultrasound, Hainan General Hospital, Hainan Affiliated Hospital of Hainan Medical University, Haikou, 570311, People's Republic of China. huameili@hainmc.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ouyang, Yanhong",
+        "short_name": "Ouyang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency Medicine, Hainan General Hospital, Hainan Affiliated Hospital of Hainan Medical University, Haikou, 570311, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Medicine, Key Cite of National Clinical Research Center for Respiratory Disease, Xiangya Hospital, Central South University, Changsha, 410008, People's Republic of China. zhangy4290@csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Pan, Pinhua",
+        "short_name": "Pan P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Medicine, Key Cite of National Clinical Research Center for Respiratory Disease, Xiangya Hospital, Central South University, Changsha, 410008, People's Republic of China. pinhuapan668@csu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2023 Dec 9",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/10 06:42",
+    "fetched_at": "2026-10-04 22:31:05"
+  },
+  "links": {
+    "cites": [
+      "42510629",
+      "41327335",
+      "41213982",
+      "41009021",
+      "40635757",
+      "39096175",
+      "38633980",
+      "38561377"
+    ],
+    "refs": [
+      "37735250",
+      "37115345",
+      "36010268",
+      "34717678",
+      "34281987",
+      "33320799",
+      "32663219",
+      "31939629",
+      "31885796",
+      "31443682",
+      "31381928",
+      "31186013",
+      "30769918",
+      "30674720",
+      "30531367",
+      "30118730",
+      "29950923",
+      "29466596",
+      "29409010",
+      "29047084",
+      "28819546",
+      "28812547",
+      "28399119",
+      "27806369",
+      "27601626",
+      "27564082",
+      "26903337",
+      "26476454",
+      "26190521",
+      "25976305",
+      "25964631",
+      "25605792",
+      "25223540",
+      "24532576",
+      "23861436",
+      "23323831",
+      "22455463",
+      "21414208",
+      "20921970",
+      "19114008",
+      "18676814",
+      "14597658",
+      "10727395",
+      "10592173",
+      "1422741"
+    ],
+    "similar": [
+      "38071255",
+      "36617821",
+      "34462829",
+      "37081490",
+      "32916233",
+      "33961683",
+      "33521809",
+      "33000237",
+      "37603512",
+      "37149072",
+      "36165281",
+      "37301835",
+      "34536521",
+      "33531796",
+      "37605572",
+      "25672411",
+      "34807957",
+      "31865141",
+      "36823662",
+      "36699262",
+      "34422215",
+      "34251977",
+      "35171050",
+      "34951223",
+      "34722769",
+      "37359526",
+      "36116200",
+      "37908757",
+      "36150346",
+      "32277959",
+      "32200026",
+      "30979832",
+      "36254052",
+      "35562622",
+      "33364751",
+      "35026506",
+      "23963411",
+      "37700323",
+      "32977837",
+      "37052973",
+      "36193326",
+      "33179083",
+      "32558399",
+      "30231673",
+      "33117815",
+      "30203548",
+      "35993279",
+      "35620387",
+      "22931982",
+      "37075605",
+      "32106380",
+      "36635346",
+      "34183011",
+      "37567453",
+      "29649906",
+      "35709926",
+      "34002668",
+      "37275875",
+      "35933468",
+      "32045770",
+      "35651940",
+      "30216506",
+      "34492536",
+      "35495164",
+      "30138892",
+      "37586441",
+      "35397283",
+      "31001923",
+      "38127891",
+      "37821907",
+      "33350272",
+      "37100862",
+      "37550659",
+      "34080641",
+      "35938015",
+      "35558576",
+      "35277830",
+      "36341363",
+      "34261477",
+      "33185125",
+      "29727715",
+      "34218797",
+      "24486549",
+      "33437215",
+      "35865542",
+      "36777638",
+      "36829193",
+      "29764546",
+      "33307898",
+      "28880561",
+      "36099655",
+      "36100410"
+    ],
+    "review": [
+      "38071255",
+      "34462829"
+    ],
+    "pmc": [
+      "10710410"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-023-49165-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38071255/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38071255",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

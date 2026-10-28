@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary material were available for evaluation
+- **Shared manuscript claim summary** The authors report that raloxifene binds stably to the SH2 domain of STAT3, that metformin destabilizes this complex, and that cisplatin stabilizes it, based on molecular docking and MD simulations with MM-PBSA calculations. They suggest implications for drug-drug interactions and co-therapy design.
+- **Visible evidence base** Abstract text only; no numerical data beyond RMSD, Rg, and SASA values; no methodological details; no statistical analyses; no structural figures
+- **Missing materials affecting confidence** Full methods, docking scores, MD simulation parameters, force fields, simulation lengths, convergence criteria, error estimates, replicate information, MM-PBSA energy components, and all figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study with a clear narrative, but the evidence provided is insufficient to evaluate the technical rigor or the robustness of the conclusions. The central claims regarding differential stabilization and destabilization by cisplatin and metformin rest on simulation metrics that are reported without error bars, replicate information, or methodological context. The biological implications are speculative and not supported by experimental validation. The work may be of interest to computational biologists and drug design researchers, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working on STAT3 inhibition, and researchers in drug repurposing or combination therapy design who use molecular simulation to predict drug-drug interactions. The specific focus on raloxifene, metformin, and cisplatin may also interest oncology researchers exploring co-therapies involving these agents.
+- **Major strengths** The abstract addresses a clinically relevant question, namely how co-administered drugs might modulate the binding of a known inhibitor to a cancer-relevant target. The use of multiple complementary metrics (RMSD, Rg, SASA, RMSF, hydrogen bond autocorrelation, MM-PBSA) is appropriate for assessing complex stability. The narrative is clear and the conclusions follow logically from the reported trends.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that metformin destabilizes and cisplatin stabilizes the raloxifene-STAT3 complex is based on MD simulation metrics.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract reports RMSD, Rg, and SASA values without any indication of simulation length, number of replicates, force field parameters, or convergence criteria. No error estimates or standard deviations are provided for any metric. Without these details, it is impossible to determine whether the observed differences between systems are statistically meaningful or within normal thermal fluctuation.
+  - **Why it matters** The central conclusion of differential complex stability depends entirely on the reliability of the MD simulations. If the simulations were short, under-converged, or run without replicates, the reported differences could be artifacts. The absence of any uncertainty quantification undermines the validity of the comparative claims.
+  - **Resolution test** Provide simulation lengths, number of independent replicates, force field and water model details, and report all metrics as mean with standard deviation or standard error. Show convergence plots for RMSD and Rg. If possible, perform bootstrapping or block averaging to demonstrate that the differences between systems exceed simulation noise.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that raloxifene binds strongly within the SH2 domain of STAT3, stabilized by hydrogen bonds and hydrophobic contacts with residues such as Glu638, Tyr640, and Trp623.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The docking analysis is described only qualitatively. No docking score, binding energy value, or comparison to known STAT3 inhibitors is provided. The specific residues mentioned are presented without any supporting data such as interaction occupancy, distance plots, or energy decomposition.
+  - **Why it matters** The identification of a binding site and key residues is foundational to the entire study. Without quantitative docking results or interaction analysis, the reader cannot assess whether the proposed binding mode is credible or whether the selected residues are indeed critical. This also affects the interpretation of the MD results, which depend on the initial docked pose.
+  - **Resolution test** Report docking scores (e.g., Glide score, AutoDock binding energy) for raloxifene and, ideally, for a known STAT3 inhibitor as a positive control. Provide interaction diagrams or tables listing hydrogen bonds and hydrophobic contacts with occupancies from the MD trajectory. Show that the docked pose remains stable during simulation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that these findings offer insights into potential drug-drug interactions and co-therapy design involving STAT3 inhibitors.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract presents no experimental validation, no cellular or in vivo data, and no comparison to known drug-drug interaction mechanisms. The leap from simulation metrics to clinical implications is unsupported.
+  - **Why it matters** The stated implications for co-therapy design are the primary justification for the study's significance. Without any experimental corroboration, such as binding assays, cellular STAT3 activity measurements, or animal studies, the translational relevance remains speculative. The abstract overreaches by suggesting clinical insights from purely computational data.
+  - **Resolution test** Either temper the conclusions to state that the findings are hypothesis-generating and require experimental validation, or provide experimental data that corroborates the simulation predictions. If experimental data exist in the full manuscript, they must be summarized in the abstract to support the claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses technical terms such as RMSD, Rg, SASA, RMSF, and MM-PBSA without defining them or explaining their significance to a broader readership.
+  - **Required correction** Briefly define each metric in plain language, for example, "root mean square deviation (RMSD), a measure of structural deviation from the starting conformation," or provide a one-sentence explanation of what each metric indicates about complex stability.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that metformin led to "increased RMSD, expanded Rg and higher solvent-accessible surface area" and that cisplatin "stabilized the complex with lower RMSD, reduced Rg and decreased SASA," but no numerical values are given for the metformin and cisplatin systems, only for the native complex.
+  - **Required correction** Provide the numerical values for all three systems for each metric, with appropriate uncertainty estimates, so that the reader can assess the magnitude of the reported differences.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not state the concentration or stoichiometry of metformin and cisplatin relative to raloxifene in the simulations, nor how these drugs were placed in the system.
+  - **Required correction** Clarify whether metformin and cisplatin were docked to the raloxifene-STAT3 complex, co-solvated, or added at a specific site, and specify the molar ratio or number of molecules used. This is essential for interpreting the relevance of the results to physiological conditions.
+
+## Risk / unsupported claims
+- The claim that metformin disrupts and cisplatin enhances raloxifene-STAT3 complex stability is unsupported without error estimates, replicate data, and methodological details.
+- The claim that the identified residues (Glu638, Tyr640, Trp623) are key binding residues is unsupported without quantitative docking or interaction analysis.
+- The claim that the findings have implications for drug-drug interactions and co-therapy design is unsupported without experimental validation.
+- The claim that raloxifene forms a "strong" binding interaction with STAT3 is not quantitatively supported.
+- The overall biological relevance of the findings cannot be assessed from the abstract alone.

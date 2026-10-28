@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "36134028",
+    "doi": "10.3389/fgene.2022.987238",
+    "title": "A p53 transcriptional signature in primary and metastatic cancers derived using machine learning."
+  },
+  "content": {
+    "abstract": "The tumor suppressor gene, TP53, has the highest rate of mutation among all genes in human cancer. This transcription factor plays an essential role in the regulation of many cellular processes. Mutations in TP53 result in loss of wild-type p53 function in a dominant negative manner. Although TP53 is a well-studied gene, the transcriptome modifications caused by the mutations in this gene have not yet been explored in a pan-cancer study using both primary and metastatic samples. In this work, we used a random forest model to stratify tumor samples based on TP53 mutational status and detected a p53 transcriptional signature. We hypothesize that the existence of this transcriptional signature is due to the loss of wild-type p53 function and is universal across primary and metastatic tumors as well as different tumor types. Additionally, we showed that the algorithm successfully detected this signature in samples with apparent silent mutations that affect correct mRNA splicing. Furthermore, we observed that most of the highly ranked genes contributing to the classification extracted from the random forest have known associations with p53 within the literature. We suggest that other genes found in this list including GPSM2, OR4N2, CTSL2, SPERT, and RPE65 protein coding genes have yet undiscovered linkages to p53 function. Our analysis of time on different therapies also revealed that this signature is more effective than the recorded TP53 status in detecting patients who can benefit from platinum therapies and taxanes. Our findings delineate a p53 transcriptional signature, expand the knowledge of p53 biology and further identify genes important in p53 related pathways.",
+    "keywords": [
+      "ensemble classifier",
+      "machine learining",
+      "p53 pathway activation",
+      "pan-cancer",
+      "random forest",
+      "transcriptome"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Keshavarz-Rahaghi, Faeze",
+        "Pleasance, Erin",
+        "Kolisnik, Tyler",
+        "Jones, Steven J M"
+      ],
+      "short_names": [
+        "Keshavarz-Rahaghi F",
+        "Pleasance E",
+        "Kolisnik T",
+        "Jones SJM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, BC, Canada.",
+        "Department of Bioinformatics, University of British Columbia, Vancouver, BC, Canada.",
+        "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, BC, Canada.",
+        "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, BC, Canada.",
+        "School of Natural and Computational Sciences, Massey University, Auckland, New Zealand.",
+        "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, BC, Canada.",
+        "Department of Medical Genetics, University of British Columbia, Vancouver, BC, Canada.",
+        "Department of Molecular Biology and Biochemistry, Simon Fraser University, Vancouver, BC, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Keshavarz-Rahaghi, Faeze",
+        "short_name": "Keshavarz-Rahaghi F",
+        "identifiers": [],
+        "affiliations": [
+          "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, BC, Canada.",
+          "Department of Bioinformatics, University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Pleasance, Erin",
+        "short_name": "Pleasance E",
+        "identifiers": [],
+        "affiliations": [
+          "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Kolisnik, Tyler",
+        "short_name": "Kolisnik T",
+        "identifiers": [],
+        "affiliations": [
+          "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, BC, Canada.",
+          "School of Natural and Computational Sciences, Massey University, Auckland, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Jones, Steven J M",
+        "short_name": "Jones SJM",
+        "identifiers": [],
+        "affiliations": [
+          "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, BC, Canada.",
+          "Department of Medical Genetics, University of British Columbia, Vancouver, BC, Canada.",
+          "Department of Molecular Biology and Biochemistry, Simon Fraser University, Vancouver, BC, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/23 06:00",
+    "fetched_at": "2026-09-28 13:49:02"
+  },
+  "links": {
+    "cites": [
+      "40775769",
+      "40597236",
+      "40400930",
+      "39373492",
+      "38391958",
+      "37559989",
+      "36362074"
+    ],
+    "refs": [
+      "35396345",
+      "35121966",
+      "35031699",
+      "34253750",
+      "33819271",
+      "33794304",
+      "33154423",
+      "32900967",
+      "32796711",
+      "32484602",
+      "32401507",
+      "32197580",
+      "31594947",
+      "31365877",
+      "31216622",
+      "31026023",
+      "30786925",
+      "30538286",
+      "30103448",
+      "29897292",
+      "29845259",
+      "29165669",
+      "29126136",
+      "28371665",
+      "28347229",
+      "28187282",
+      "27328919",
+      "26870250",
+      "25852826",
+      "25455730",
+      "24630730",
+      "24433184",
+      "24132290",
+      "24071849",
+      "23339114",
+      "22790872",
+      "22532570",
+      "22397650",
+      "21771992",
+      "21221095",
+      "21170087",
+      "20626352",
+      "20589935",
+      "20501644",
+      "19776744",
+      "19756158",
+      "19648965",
+      "19410540",
+      "19131956",
+      "19033363",
+      "18431400",
+      "17126603",
+      "17000024",
+      "16965791",
+      "16181461",
+      "15178558",
+      "12154352",
+      "11867759",
+      "10341712",
+      "9765199",
+      "9642240",
+      "9285554",
+      "8895579",
+      "8654922",
+      "2259385",
+      "1978757"
+    ],
+    "similar": [
+      "36134028",
+      "24374933",
+      "27391063",
+      "19336573",
+      "36942103",
+      "1616957",
+      "29490944",
+      "28527674",
+      "22275381",
+      "31365877",
+      "23246812",
+      "32896505",
+      "37059713",
+      "26818199",
+      "30180862",
+      "26232255",
+      "24074787",
+      "32864042",
+      "32424350",
+      "34786492",
+      "35787548",
+      "28369373",
+      "15930341",
+      "17311302",
+      "37696786",
+      "9416838",
+      "30255744",
+      "7597286",
+      "20504346",
+      "32782541",
+      "34302605",
+      "28790158",
+      "17054774",
+      "30224644",
+      "9301461",
+      "23644658",
+      "16161005",
+      "26491944",
+      "8927612",
+      "27880943",
+      "26171916",
+      "25051299",
+      "29330617",
+      "33879103",
+      "30089713",
+      "27129168",
+      "35489754",
+      "22373952",
+      "26024390",
+      "30859574",
+      "12438652",
+      "8064888",
+      "32158625",
+      "24687952",
+      "23110309",
+      "23124483",
+      "34941867",
+      "11733960",
+      "22839103",
+      "34956360",
+      "9723023",
+      "17496437",
+      "29786075",
+      "32007736",
+      "24395704",
+      "25307991",
+      "21343334",
+      "18725978",
+      "24590827",
+      "34505757",
+      "34065345",
+      "28469388",
+      "31216622",
+      "21990067",
+      "35557033",
+      "30048458",
+      "34325986",
+      "20504876",
+      "11799138",
+      "30787262",
+      "11802210",
+      "23079576",
+      "16322298",
+      "32971129",
+      "25339994",
+      "29651325",
+      "35883535"
+    ],
+    "review": [
+      "36134028",
+      "1616957",
+      "22275381",
+      "24074787",
+      "35787548",
+      "30255744",
+      "7597286",
+      "26024390",
+      "17496437",
+      "24395704"
+    ],
+    "pmc": [
+      "9483853"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36134028/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36134028",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2022.987238",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, conclusion, limitations, and supplementary figure/table references.
+- **Assessment boundary** Scientific validity, technical soundness, and interpretation of the presented data. No assessment of editorial fit or journal-specific scope.
+- **Shared manuscript claim summary** The authors propose that four STAT3 SH2 domain D661 variants (D661Y, D661V, D661H, D661N) exhibit a graded gain-of-function (GOF) hierarchy in T cells, with D661Y and D661V being the strongest activators of immune gene programs, D661H intermediate, and D661N functionally silent. This hierarchy is supported by computational predictions, structural modelling, in vitro transcriptomics, and in vivo mouse models.
+- **Visible evidence base** In silico pathogenicity predictions (AlphaMissense, PolyPhen-2, REVEL, CADD, ClinVar); AlphaFold3 structural modelling of full-length STAT3β and SH2-TAD constructs; in vitro retroviral reconstitution of Stat3-null T cells with RNA-seq; CRISPR/Cas9-generated mouse lines for D661H, D661V, and D661Y; flow cytometry and complete blood counts; ChIP-seq analysis of STAT3 and STAT5B binding from public datasets.
+- **Missing materials affecting confidence** Supplementary tables (Table S1–S5) and figures (Figure S1–S3) referenced but not provided. Raw RNA-seq and ChIP-seq data not available for independent assessment. No experimental validation of structural predictions (e.g., mutagenesis, biophysical binding assays). No protein-level analysis of STAT3 phosphorylation or dimerization in vitro or in vivo. No functional assays for T cell proliferation, cytokine secretion, or cytotoxicity. No statistical details for RNA-seq differential expression beyond stated thresholds.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and clinically relevant question: how different somatic mutations at a single residue in the STAT3 SH2 domain differentially affect function. The integration of computational, structural, in vitro, and in vivo approaches is commendable and the central claim of a graded GOF hierarchy is plausible. However, several technical and interpretive issues undermine the strength of the conclusions. The in vitro system uses a retroviral overexpression approach that may not faithfully recapitulate endogenous STAT3 regulation, and the in vivo data are limited to a single viable mutant (D661H) with no direct comparison to the stronger variants. The structural modelling, while suggestive, lacks experimental validation. The comparison with STAT5B is interesting but the ChIP-seq data are from different experimental conditions and cell types, limiting direct comparability. Overall, the case for a graded hierarchy is supported by the in vitro transcriptomic data, but the in vivo relevance and mechanistic basis require further substantiation.
+- **Who would be interested in the results, and why** Researchers studying STAT3 signalling, JAK-STAT pathway biology, and immune regulation would find this work relevant. Clinically, investigators focused on hematologic malignancies such as T-LGL leukemia, MDS, and ALL, where STAT3 mutations are recurrent, would be interested in the functional stratification of D661 variants. The study also has broader relevance for understanding how missense mutations in protein interaction domains can produce graded functional outcomes, which is of interest to the structural biology and protein engineering communities.
+- **Major strengths** 1) The study addresses a clinically important and under-characterized mutational hotspot with a multi-pronged approach. 2) The combination of in silico, in vitro, and in vivo data provides complementary evidence for the GOF hierarchy. 3) The inclusion of a functionally silent variant (D661N) as a comparator strengthens the interpretation. 4) The comparison with STAT5B GOF provides a useful framework for understanding shared and distinct transcriptional programs. 5) The authors acknowledge limitations and avoid overclaiming in several areas.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The in vitro transcriptomic data demonstrate a GOF hierarchy (D661Y ≈ V > H > N) in T cells.
+  - **Evidence pointer** Results section "STAT3D661 Variants Exhibit a Hierarchy of Transcriptional Effects in T Cells In Vitro"; Figure 2; Table S1
+  - **Concern** The in vitro system uses retroviral overexpression of STAT3 variants in Stat3-null T cells. This approach does not control for expression levels across variants, and overexpression can lead to artefactual dimerization and activation independent of the mutation's intrinsic effect. The authors do not report protein expression levels of the variants, nor do they assess phosphorylation status at Y705. Without these controls, the observed differences in transcriptional output could reflect differences in expression or stability rather than intrinsic GOF activity.
+  - **Why it matters** The central claim of a graded GOF hierarchy rests on the in vitro transcriptomic data. If the hierarchy is an artefact of differential expression, the entire premise of the study is weakened. The in vivo data only support D661H, so the in vitro data are the primary evidence for the relative strength of D661Y and D661V.
+  - **Resolution test** Provide Western blot or flow cytometry data showing equivalent protein expression of all STAT3 variants. Assess Y705 phosphorylation levels in transduced cells. If possible, use a knock-in approach or a system with physiological expression levels to confirm the hierarchy.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The in vivo data support the GOF hierarchy, with D661H showing immune alterations and D661Y/V being lethal.
+  - **Evidence pointer** Results section "Severe GOF Variants Impair Viability, Whereas STAT3D661H Alters Development and Immune Homeostasis"; Table 2; Figure S2
+  - **Concern** The in vivo data are limited to D661H. The D661V and D661Y mice died perinatally, and the authors acknowledge that the mutational status of the D661Y pup is unknown. The claim that D661Y and D661V are "incompatible with germline viability" is based on a very small number of animals (two for D661V, one for D661Y) and is confounded by potential mosaicism or off-target effects of CRISPR editing. The authors do not provide evidence that the lethality is specifically due to the STAT3 mutation rather than to the editing procedure itself.
+  - **Why it matters** The in vivo data are presented as a key validation of the in vitro hierarchy. Without viable D661Y/V mice, the authors cannot directly demonstrate that these variants cause the predicted immune phenotypes in vivo. The lethality observation, while suggestive, is not sufficient to establish the hierarchy.
+  - **Resolution test** Generate conditional or inducible knock-in models for D661Y and D661V to study their effects in adult animals. Alternatively, provide additional evidence that the lethality is specifically due to the STAT3 mutation, such as rescue experiments or analysis of additional founder lines.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** AlphaFold3 modelling predicts that D661Y and D661V promote SH2-TAD-mediated dimerization, while D661N and D661H have weaker effects.
+  - **Evidence pointer** Results section "STAT3D661 Variants Reshape SH2 Domain Structure and Promote Dimerization"; Figure 1
+  - **Concern** The structural predictions are based solely on AlphaFold3, which is a computational tool with known limitations in predicting the effects of point mutations on protein dynamics and interactions. The authors do not validate these predictions experimentally, for example, by co-immunoprecipitation, size-exclusion chromatography, or hydrogen-deuterium exchange mass spectrometry. The claim that D661Y and D661V "strongly promoted" dimerization is based on a qualitative assessment of model distributions, which is not a quantitative measure.
+  - **Why it matters** The structural modelling provides the mechanistic basis for the observed functional differences. Without experimental validation, the link between the predicted structural changes and the functional outcomes remains speculative.
+  - **Resolution test** Perform biochemical assays to directly measure dimerization affinity and kinetics for each variant. Alternatively, use a cellular assay such as a split-luciferase complementation or FRET to assess dimerization in living cells.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence strength
+  - **Claim pointer** The comparison with STAT5BY665F reveals shared and distinct transcriptional programs, with STAT5B exhibiting broader occupancy and stronger output.
+  - **Evidence pointer** Results section "STAT3D661H and STAT5BY665F Co-Regulate Core Immune Genes but Maintain Distinct Transcriptional Signatures"; Figure 5; Table S2, S3
+  - **Concern** The ChIP-seq data for STAT3 and STAT5B are derived from different experimental conditions and cell types (as stated in the methods, STAT5B data are from GSE276311 and GSE276308, and STAT3 data from GSE217376). Direct comparison of binding profiles across these datasets is confounded by differences in stimulation, cell type, and data processing. The authors do not perform a matched ChIP-seq experiment to allow a rigorous comparison.
+  - **Why it matters** The claim that STAT3 and STAT5B co-regulate a large set of immune genes is based on overlapping binding sites, but this overlap could be artefactual due to the different experimental contexts. The conclusion that STAT5B has "broader occupancy" may reflect differences in antibody quality, sequencing depth, or data processing rather than true biological differences.
+  - **Resolution test** Perform matched ChIP-seq experiments for STAT3 and STAT5B in the same cell type and stimulation conditions. Alternatively, use an orthogonal approach such as ATAC-seq or RNA-seq with perturbation of each factor to assess functional redundancy.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Total RNA Sequencing (RNA-Seq) and Data Analysis"
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The methods describe two different RNA-seq pipelines (one using tophat2/cufflinks/featureCounts and another using STAR/HTSeq/DESeq2). It is unclear which pipeline was used for which dataset, and whether the results are consistent across pipelines.
+  - **Required correction** Clarify which pipeline was used for the in vitro and in vivo datasets, and provide a rationale for using different pipelines. If both were used, show that the results are concordant.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "STAT3D661H Alters T Cell Homeostasis and Subtype Populations"
+  - **Evidence pointer** Figure 3
+  - **Issue** The authors report a decrease in naïve CD4+ T cells and an expansion of memory CD8+ T cells, but do not provide functional data to link these changes to the transcriptional programs described in Figure 4. The connection between the immune phenotype and the transcriptomic data is not explicitly demonstrated.
+  - **Required correction** Add a direct comparison of the genes differentially expressed in vivo with those identified in vitro, or perform a pathway analysis that integrates both datasets to show that the same immune programs are activated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 2 and Figure 4
+  - **Evidence pointer** Results section; location not provided
+  - **Issue** The number of biological replicates for RNA-seq is stated as 2–4, but it is not clear how many replicates were used for each comparison. With only 2 replicates, the differential expression analysis may be underpowered and prone to false positives.
+  - **Required correction** Report the exact number of replicates per group and consider using a more conservative statistical approach (e.g., adding a minimum fold-change threshold or using a variance-shrinkage method) to account for the small sample size.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The authors state that "D661Y and D661V mutants exhibited stronger transcriptional activity in T cells with impaired viability of mice carrying these variants." This phrasing implies a causal link between transcriptional activity and viability, but the viability data are limited and the mechanism is not established.
+  - **Required correction** Soften the language to reflect that the relationship between transcriptional activity and viability is correlative and requires further investigation.
+
+## Risk / unsupported claims
+- The claim that D661Y and D661V are "incompatible with germline viability" is based on a very small number of animals and is not fully supported by the data presented.
+- The claim that AlphaFold3 modelling "strongly promoted" SH2-TAD-mediated dimerization for D661Y and D661V is not quantitatively supported and lacks experimental validation.
+- The comparison of STAT3 and STAT5B ChIP-seq data from different experimental contexts is not a rigorous basis for claims of shared versus distinct transcriptional programs.
+- The statement that "biochemical distance from Asp directly predicts GOF strength" is an overinterpretation, as the correlation is based on a limited number of variants and does not establish a predictive model.
+- The in vitro GOF hierarchy is based on overexpression systems and may not reflect endogenous STAT3 behaviour; this is acknowledged but not fully addressed.

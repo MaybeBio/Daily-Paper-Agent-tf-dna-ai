@@ -1,0 +1,500 @@
+{
+  "identity": {
+    "pmid": "41741638",
+    "doi": "10.1038/s41586-026-10142-1",
+    "title": "Rewiring an E3 ligase enhances cold resilience and phosphate use in maize."
+  },
+  "content": {
+    "abstract": "Cold stress restricts plant growth and inorganic phosphate (Pi) uptake, reducing yield and increasing fertilizer demand(1-3). Enhancing both cold tolerance and phosphorus use efficiency (PUE) is crucial for sustainable crop productivity. Here we identify the SPX-domain-containing E3 ubiquitin ligase NITROGEN LIMITATION ADAPTATION (NLA) as a central regulator that links cold signalling to Pi homeostasis in maize (Zea mays L.). Under cold conditions, NLA promotes the degradation of the transcriptional repressor JAZ11, activating jasmonate signalling to enhance cold tolerance; however, NLA also simultaneously represses Pi uptake, through inositol polyphosphate (InsP)-dependent ubiquitination of the Pi transporter PT4. A ubiquitinome-informed genome-wide association study identified a natural PT4(K267A) (lysine-to-alanine substitution) variant that attenuates NLA-mediated degradation and increases Pi uptake in cold conditions. To overcome this nutrient-stress trade-off, we combined artificial-intelligence-guided structural modelling and ligand docking with genome editing to generate the nla(Delta12) allele, which encodes an NLA variant in which binding to InsP is impaired but JAZ11 targeting is retained. The Delta12 modification selectively redirects the activity of NLA towards jasmonate signalling, resulting in improved cold resilience, higher PUE and increased yield in multi-site field trials. These findings reveal a tunable SPX regulatory module that integrates environmental and nutrient signals, and provide a molecular framework for engineering climate-resilient, nutrient-efficient crops.",
+    "keywords": [],
+    "mesh_terms": [
+      "Cold Temperature",
+      "*Cold-Shock Response",
+      "Cyclopentanes/metabolism",
+      "Gene Editing",
+      "Genome-Wide Association Study",
+      "Homeostasis",
+      "Inositol Phosphates/metabolism",
+      "Models, Molecular",
+      "Nitrogen/metabolism/deficiency",
+      "Oxylipins/metabolism",
+      "*Phosphates/metabolism",
+      "Plant Proteins/metabolism/genetics/chemistry",
+      "Proteolysis",
+      "Repressor Proteins/metabolism",
+      "*Ubiquitin-Protein Ligases/metabolism/genetics/chemistry",
+      "Ubiquitination",
+      "*Zea mays/genetics/enzymology/metabolism/physiology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liao, Huan",
+        "Zhao, Xiaoyun",
+        "Ren, Keyu",
+        "Guo, Li",
+        "Li, Zhuoyang",
+        "Liu, Zhicheng",
+        "Zhang, Xiaoyan",
+        "Su, Tianhang",
+        "Fu, Diyi",
+        "Zhang, Zhaoyang",
+        "Zhuang, Junhong",
+        "Yang, Xiaohong",
+        "Tian, Feng",
+        "Gong, Zhizhong",
+        "Song, Wen",
+        "Li, Zhen",
+        "Shi, Yiting",
+        "Yang, Shuhua"
+      ],
+      "short_names": [
+        "Liao H",
+        "Zhao X",
+        "Ren K",
+        "Guo L",
+        "Li Z",
+        "Liu Z",
+        "Zhang X",
+        "Su T",
+        "Fu D",
+        "Zhang Z",
+        "Zhuang J",
+        "Yang X",
+        "Tian F",
+        "Gong Z",
+        "Song W",
+        "Li Z",
+        "Shi Y",
+        "Yang S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6438-948X",
+        "ORCID: 0000-0003-3552-4536",
+        "ORCID: 0000-0001-6551-6014",
+        "ORCID: 0000-0002-9498-2409",
+        "ORCID: 0000-0002-3348-2072",
+        "ORCID: 0000-0003-1229-7166"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, National Maize Improvement Center, Department of Plant Genetics and Breeding, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Plant Environmental Resilience, Center for Crop Functional Genomics and Molecular Breeding, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, National Maize Improvement Center, Department of Plant Genetics and Breeding, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, National Maize Improvement Center, Department of Plant Genetics and Breeding, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+        "School of Life Sciences, Institute of Life Science and Green Development, Hebei University, Baoding, China.",
+        "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+        "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China. shiyiting@cau.edu.cn.",
+        "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China. yangshuhua@cau.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liao, Huan",
+        "short_name": "Liao H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xiaoyun",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Keyu",
+        "short_name": "Ren K",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Li",
+        "short_name": "Guo L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, National Maize Improvement Center, Department of Plant Genetics and Breeding, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhuoyang",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhicheng",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaoyan",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Su, Tianhang",
+        "short_name": "Su T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Diyi",
+        "short_name": "Fu D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhaoyang",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhuang, Junhong",
+        "short_name": "Zhuang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Center for Crop Functional Genomics and Molecular Breeding, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiaohong",
+        "short_name": "Yang X",
+        "identifiers": [
+          "0000-0001-6438-948X"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, National Maize Improvement Center, Department of Plant Genetics and Breeding, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Feng",
+        "short_name": "Tian F",
+        "identifiers": [
+          "0000-0003-3552-4536"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, National Maize Improvement Center, Department of Plant Genetics and Breeding, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Zhizhong",
+        "short_name": "Gong Z",
+        "identifiers": [
+          "0000-0001-6551-6014"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China.",
+          "School of Life Sciences, Institute of Life Science and Green Development, Hebei University, Baoding, China."
+        ]
+      },
+      {
+        "full_name": "Song, Wen",
+        "short_name": "Song W",
+        "identifiers": [
+          "0000-0002-9498-2409"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhen",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Yiting",
+        "short_name": "Shi Y",
+        "identifiers": [
+          "0000-0002-3348-2072"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China. shiyiting@cau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Shuhua",
+        "short_name": "Yang S",
+        "identifiers": [
+          "0000-0003-1229-7166"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Plant Environmental Resilience, Frontiers Science Center for Molecular Design Breeding, College of Biological Sciences, China Agricultural University, Beijing, China. yangshuhua@cau.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/26 15:20",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [
+      "42598024",
+      "42477878",
+      "42292988",
+      "42098336",
+      "41987653",
+      "41917444"
+    ],
+    "refs": [
+      "39842436",
+      "38743909",
+      "38163641",
+      "38033071",
+      "37622245",
+      "37464740",
+      "37464739",
+      "37279565",
+      "36588035",
+      "36377104",
+      "36349965",
+      "36282494",
+      "36266506",
+      "36224391",
+      "36070250",
+      "35998629",
+      "35332155",
+      "34954444",
+      "34857773",
+      "34746762",
+      "34634032",
+      "34265844",
+      "33927398",
+      "33873400",
+      "33452263",
+      "33290694",
+      "33126247",
+      "33010156",
+      "32585190",
+      "32431055",
+      "32241923",
+      "31419530",
+      "31416957",
+      "31262954",
+      "31002982",
+      "30911122",
+      "30808744",
+      "30220503",
+      "29132403",
+      "28869593",
+      "28724952",
+      "27080106",
+      "27012465",
+      "26258305",
+      "25827227",
+      "25432517",
+      "25271318",
+      "24579991",
+      "24474629",
+      "24122828",
+      "23933884",
+      "22743772",
+      "22403821",
+      "21546353",
+      "21085593",
+      "19403729",
+      "19377485",
+      "19238253",
+      "17701901",
+      "17637677",
+      "17586829",
+      "17355433",
+      "16661760",
+      "15568971",
+      "15012223",
+      "14597658",
+      "7819765"
+    ],
+    "similar": [
+      "41741638",
+      "24122828",
+      "36377104",
+      "28229491",
+      "28899960",
+      "24474629",
+      "39842436",
+      "39095994",
+      "42001244",
+      "21455488",
+      "17355433",
+      "41026892",
+      "39936840",
+      "23780733",
+      "29223066",
+      "33079323",
+      "30472798",
+      "24080398",
+      "41919530",
+      "31002982",
+      "40208634",
+      "26086094",
+      "30509163",
+      "42106584",
+      "41802919",
+      "37194447",
+      "33119890",
+      "41417625",
+      "41252641",
+      "40244224",
+      "40003911",
+      "38888226",
+      "40405093",
+      "40780576",
+      "31741104",
+      "41644610",
+      "28889038",
+      "41388710",
+      "22245611",
+      "39284226",
+      "25052912",
+      "40004188",
+      "38569011",
+      "38302871",
+      "39946907",
+      "34090337",
+      "34436579",
+      "38849319",
+      "27825075",
+      "26901100",
+      "27277671",
+      "41039911",
+      "32245240",
+      "23135282",
+      "40673831",
+      "39858613",
+      "36943781",
+      "38970906",
+      "34502218",
+      "30730020",
+      "40954551",
+      "28032637",
+      "20927106",
+      "32958562",
+      "38421035",
+      "39024420",
+      "26258305",
+      "32696139",
+      "33801226",
+      "19508276",
+      "39888054",
+      "32699171",
+      "41429102",
+      "27061906",
+      "39037027",
+      "17885809",
+      "40365707",
+      "41284852",
+      "37725963",
+      "41051213",
+      "33317166",
+      "41643683",
+      "41955741",
+      "38887929",
+      "31768809",
+      "39701501",
+      "27423073",
+      "41031819",
+      "39579237",
+      "41205940",
+      "23425850",
+      "41031718",
+      "41566850",
+      "40847257",
+      "33508134",
+      "41078082",
+      "25001521",
+      "40545701",
+      "42098336",
+      "41589074"
+    ],
+    "review": [
+      "41741638",
+      "40208634",
+      "40780576",
+      "28889038",
+      "40673831",
+      "38421035",
+      "39579237",
+      "33508134",
+      "25001521"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-026-10142-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GSTP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

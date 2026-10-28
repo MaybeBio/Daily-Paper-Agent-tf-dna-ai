@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39677458",
+  "title": "Network-based drug repurposing for psychiatric disorders using single-cell genomics.",
+  "authors": "Gupta, Chirag; Kalafut, Noah Cohen; Clarke, Declan; Choi, Jerome J; Arachchilage, Kalpana Hanthanan; Khullar, Saniya; Xia, Yan; Zhou, Xiao; Gerstein, Mark; Wang, Daifeng",
+  "journal": "medRxiv : the preprint server for health sciences",
+  "published_date": "2024-12-16",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用单细胞基因调控网络和GNN预测精神疾病风险基因并进行药物重定位，虽涉及转录因子共调控模块，但核心是疾病药物发现而非TF-DNA结合机制建模，方法可迁移但对象与互作深度有限。",
+  "abstract": "Neuropsychiatric disorders lack effective treatments due to a limited understanding of underlying cellular and molecular mechanisms. To address this, we integrated population-scale single-cell genomics data and analyzed cell-type-level gene regulatory networks across schizophrenia, bipolar disorder, and autism (23 cell classes/subclasses). Our analysis revealed potential druggable transcription factors co-regulating known risk genes that converge into cell-type-specific co-regulated modules. We applied graph neural networks on those modules to prioritize novel risk genes and leveraged them in a network-based drug repurposing framework to identify 220 drug molecules with the potential for targeting specific cell types. We found evidence for 37 of these drugs in reversing disorder-associated transcriptional phenotypes. Additionally, we discovered 335 drug-associated cell-type eQTLs, revealing genetic variation's influence on drug target expression at the cell-type level. Our results provide a single-cell network medicine resource that provides mechanistic insights for advancing treatment options for neuropsychiatric disorders.",
+  "abstract_zh": "神经精神疾病因对其潜在细胞和分子机制的理解有限而缺乏有效治疗手段。为解决这一问题，我们整合了群体规模的单细胞基因组学数据，并分析了精神分裂症、双相情感障碍和自闭症（23个细胞类别/亚类）中细胞类型水平的基因调控网络。我们的分析揭示了潜在可药物化的转录因子，这些因子共同调控已知风险基因，并汇聚成细胞类型特异性的共调控模块。我们应用图神经网络于这些模块以优先排序新型风险基因，并利用它们在基于网络的药物重定位框架中识别出220种具有靶向特定细胞类型潜力的药物分子。我们发现了其中37种药物在逆转疾病相关转录表型方面的证据。此外，我们发现了335个药物相关的细胞类型eQTL，揭示了遗传变异在细胞类型水平上对药物靶点表达的影响。我们的结果提供了一个单细胞网络医学资源，为推进神经精神疾病的治疗选择提供了机制性见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39677458/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39677458/",
+  "paper_page_path": "papers/pubmed/39677458/index.html"
+}

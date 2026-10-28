@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose MutPNI, a unified regression model architecture for predicting binding affinity changes upon missense mutations in protein-DNA and protein-RNA complexes. The model integrates embeddings from ESM-2 and ProtT5 protein language models with energy terms from mutant protein structures, trained via a Transformer-based encoder. Reported performance includes PCC values of 0.661 (DNA) and 0.701 (RNA) on benchmark test sets. The authors emphasize a shared architecture (not shared parameters) for both interaction types, computational efficiency for large-scale application, and public availability of a web server and datasets.
+- **Visible evidence base** Abstract text only; no methodological details, benchmark descriptions, baseline comparisons, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, benchmark dataset definitions, baseline model comparisons, hyperparameter settings, training/validation splits, error bars or confidence intervals, ablation studies, runtime benchmarks, and web server functionality details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful contribution to the field of mutation effect prediction for protein-nucleic acid interactions. The idea of a unified architecture for both DNA- and RNA-binding proteins is timely and could address fragmentation in existing methods. However, the evidence provided in the abstract is insufficient to evaluate the technical soundness, novelty relative to existing tools, or generalizability of the approach. Key performance metrics are reported without context (e.g., baseline comparisons, dataset sizes, variance), and the claimed "unified" nature is only partially supported by the described strategy. The abstract alone does not establish the case for the method's superiority or broad utility.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on variant effect prediction, protein-nucleic acid interactions, and protein language model applications. Clinically oriented researchers studying missense mutations in DNA/RNA-binding proteins linked to disease may also find the tool relevant, provided the full validation supports its reliability.
+- **Major strengths** 
+  - Addresses a real gap by proposing a single model architecture for both protein-DNA and protein-RNA mutation effect prediction, potentially reducing fragmentation.
+  - Integration of two pretrained protein language models (ESM-2, ProtT5) with structural energy terms is a reasonable and modern feature engineering strategy.
+  - Emphasis on computational efficiency and public availability of a web server and datasets enhances potential usability and reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves PCC values of 0.661 and 0.701 on DNA and RNA benchmark test sets, respectively.
+  - **Evidence pointer** Abstract, performance metrics section (location not provided)
+  - **Concern** The reported PCC values are presented without any comparative baselines, dataset characteristics, or statistical uncertainty. It is unclear whether these values represent state-of-the-art performance, average performance, or improvements over existing methods. Without knowing the benchmark composition (e.g., number of mutations, protein families, difficulty distribution) and the performance of existing predictors on the same sets, the significance of these numbers cannot be assessed.
+  - **Why it matters** The core claim of the paper is that MutPNI accurately predicts mutation effects. Accuracy is only meaningful relative to existing tools and within a defined benchmark context. The abstract provides no such context, making the primary performance claim unverifiable.
+  - **Resolution test** Provide in the full manuscript: (1) a table comparing MutPNI against at least 3-5 existing methods on identical benchmark splits, (2) dataset sizes and composition, (3) standard deviations or confidence intervals for PCC values across multiple runs or cross-validation folds, and (4) statistical significance tests for performance differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and novelty
+  - **Claim pointer** "We introduce MutPNI, a novel general regression model" and "our final strategy relies on the same model architecture, rather than identical parameters, to predict mutations in both protein-DNA and protein-RNA complexes."
+  - **Evidence pointer** Abstract, introduction and method description (location not provided)
+  - **Concern** The novelty claim is not substantiated. The abstract does not describe how MutPNI differs from existing unified or multi-task predictors for protein-nucleic acid interactions, nor does it explain why using the same architecture with separate parameters is a meaningful advance over training separate models or using a multi-task learning framework. The phrase "highlighting shared features as well as key distinctions" is vague and not supported by any comparative analysis.
+  - **Why it matters** For a methods paper, establishing novelty relative to prior work is essential. If similar architectures or feature integration strategies have been published, the contribution may be incremental. The abstract does not allow the reader to judge this.
+  - **Resolution test** In the full manuscript, include a dedicated related work section that explicitly contrasts MutPNI with at least 3-5 prior methods (e.g., PremPNI, mCSM-NA, etc.), and provide an ablation study showing that the unified architecture yields measurable benefits over separate models or alternative fusion strategies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and robustness
+  - **Claim pointer** "The method's high computational efficiency allows for scaling to large biological data sets, offering a robust platform for future research."
+  - **Evidence pointer** Abstract, efficiency claim (location not provided)
+  - **Concern** Computational efficiency is claimed but no runtime data, hardware specifications, or scaling experiments are provided. The term "robust platform" implies reliability across diverse datasets, but no evidence of performance stability across different protein families, mutation types, or interaction classes is shown.
+  - **Why it matters** Scalability and robustness are important for practical adoption. Without quantitative evidence, these claims are promotional rather than scientific.
+  - **Resolution test** Provide runtime benchmarks (e.g., inference time per mutation, training time) on specified hardware, and include a generalization analysis showing performance across different protein families or functional categories within the benchmark sets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract, method description (location not provided)
+  - **Issue** The abstract states that energy terms are "derived from mutant protein structures" but does not specify the source of these structures (e.g., experimental, homology models, or AlphaFold predictions) or the type of energy terms used (e.g., Rosetta, FoldX, or custom).
+  - **Required correction** Clarify in the abstract or full text the structural source and the specific energy function employed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and code availability
+  - **Evidence pointer** Abstract, availability statement (location not provided)
+  - **Issue** The web server and datasets are stated to be publicly available, but the abstract does not mention whether the model weights, training scripts, or inference code are released. This limits reproducibility.
+  - **Required correction** Specify in the full manuscript the exact items released (e.g., code, trained models, datasets) and the license terms.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract, performance metrics (location not provided)
+  - **Issue** Only PCC is reported. For regression tasks, additional metrics such as RMSE, MAE, or R² are standard and would provide a more complete picture of prediction accuracy.
+  - **Required correction** Include RMSE and MAE (or R²) in the full manuscript, and consider reporting them in the abstract if space permits.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of baseline comparison and statistical context for PCC values) and R1-M2 (unsubstantiated novelty claim) are the primary technical failings. R1-M3 (efficiency claim without data) is secondary but should be addressed for completeness.
+- **Assessment against Nature-style criteria** 
+  - Originality: The unified architecture concept is potentially original, but the abstract does not provide enough detail to distinguish it from prior multi-task or transfer learning approaches. Not established from the supplied material.
+  - Scientific importance: The problem is important, and a reliable unified predictor would be valuable. However, the importance of the specific contribution depends on demonstrated performance gains, which are not shown.
+  - Interdisciplinary readership: The topic bridges computational biology, structural biology, and clinical genetics. The abstract is accessible to these audiences, but the lack of context limits broader appeal.
+  - Technical soundness: Not assessable from the abstract alone. The reported metrics lack baselines and uncertainty quantification, and the method description is too brief to evaluate.
+  - Readability for nonspecialists: The abstract is reasonably clear, but terms like "PCC" and "Transformer-based encoder" may require domain knowledge. The writing is concise and generally accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially useful method, but the core performance and novelty claims cannot be verified without the full manuscript. I would be supportive if the full text provides rigorous baseline comparisons, statistical validation, and a clear demonstration of the unified architecture's advantages.
+
+## Risk / unsupported claims
+- The reported PCC values (0.661 and 0.701) are unsupported without baseline comparisons, dataset descriptions, or uncertainty measures.
+- The claim of "novel" architecture is unsupported without a detailed comparison to prior methods.
+- The claim of "high computational efficiency" and "robust platform" is unsupported without runtime data or generalization analyses.
+- The statement that the unified architecture "highlight[s] shared features as well as key distinctions" is unsupported without comparative or interpretability analyses.
+- The general applicability to "large biological data sets" is not demonstrated.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.02.19.638643",
+  "title": "C.La.P.: Enhancing transformer-based genomic signal modeling by integrating DNA sequences and chromatin accessibility data",
+  "authors": "Nisantzis PF; Gonçalves C; de Polavieja G",
+  "journal": "bioRxiv",
+  "published_date": "2025-02-23",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出CLaP模型，整合DNA序列与ATAC-seq染色质可及性数据，用Transformer预测ChIP-seq信号并识别CTCF结合位点，属于蛋白质-DNA互作预测的AI方法，但非直接聚焦TF-DNA结合机制建模，故评6分。",
+  "abstract": "Transformers have shown promise in chromatin modeling but have primarily relied solely on reference DNA sequences, limiting their utility across multiple biological contexts. In this work we enhance transformer models by integrating reference sequences with ATAC-seq, a chromatin accessibility assay. Our Chromatin LAnguage Processing (CLaP) model combines a convolutional tokenizer, a transformer encoder, and task-specific components to predict multiple genomic signals from a single input. After pre-training with masked nucleotide prediction, CLaP achieved per-token F1 scores exceeding 0.8 for three target ChIP-seq assays in fine-tuning. Attention mechanism analysis revealed that CLaP detects CTCF binding sites with nucleotide-level precision by learning the sequence preference of the CTCF factor and the characteristic ATAC-seq patterns that are caused by protein binding events. Additionally, CLaP predicts protein-DNA binding events not captured by the ChIP-seq ground truth. These findings highlight CLaP’s potential to expand chromatin modeling by incorporating molecular assay data alongside sequence information.",
+  "abstract_zh": "Transformer在染色质建模中展现出潜力，但主要仅依赖参考DNA序列，限制了其在多种生物学情境中的适用性。在本工作中，我们通过将参考序列与ATAC-seq（一种染色质可及性检测）整合，增强了Transformer模型。我们的染色质语言处理（CLaP）模型结合了卷积分词器、Transformer编码器和任务特定组件，从单一输入预测多种基因组信号。在通过掩码核苷酸预测进行预训练后，CLaP在微调中对三种目标ChIP-seq检测的每标记F1分数超过0.8。注意力机制分析揭示，CLaP通过学习CTCF因子的序列偏好以及由蛋白质结合事件引起的特征性ATAC-seq模式，以核苷酸级精度检测CTCF结合位点。此外，CLaP预测了ChIP-seq基准未捕获的蛋白质-DNA结合事件。这些发现突显了CLaP通过将分子检测数据与序列信息结合来扩展染色质建模的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.02.19.638643",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.02.19.638643",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.02.19.638643/index.html"
+}

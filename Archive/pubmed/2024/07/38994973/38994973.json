@@ -1,0 +1,413 @@
+{
+  "identity": {
+    "pmid": "38994973",
+    "doi": "10.3390/cells13131121",
+    "title": "Conservation of cis-Regulatory Syntax Underlying Deuterostome Gastrulation."
+  },
+  "content": {
+    "abstract": "Throughout embryonic development, the shaping of the functional and morphological characteristics of embryos is orchestrated by an intricate interaction between transcription factors and cis-regulatory elements. In this study, we conducted a comprehensive analysis of deuterostome cis-regulatory landscapes during gastrulation, focusing on four paradigmatic species: the echinoderm Strongylocentrotus purpuratus, the cephalochordate Branchiostoma lanceolatum, the urochordate Ciona intestinalis, and the vertebrate Danio rerio. Our approach involved comparative computational analysis of ATAC-seq datasets to explore the genome-wide blueprint of conserved transcription factor binding motifs underlying gastrulation. We identified a core set of conserved DNA binding motifs associated with 62 known transcription factors, indicating the remarkable conservation of the gastrulation regulatory landscape across deuterostomes. Our findings offer valuable insights into the evolutionary molecular dynamics of embryonic development, shedding light on conserved regulatory subprograms and providing a comprehensive perspective on the conservation and divergence of gene regulation underlying the gastrulation process.",
+    "keywords": [
+      "ATAC-seq",
+      "Evo-Devo",
+      "binding motif",
+      "cis-regulatory element",
+      "gene regulation",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Gastrulation/genetics",
+      "*Gene Expression Regulation, Developmental",
+      "*Ciona intestinalis/genetics/embryology",
+      "Zebrafish/genetics/embryology",
+      "Transcription Factors/metabolism/genetics",
+      "Strongylocentrotus purpuratus/genetics/embryology",
+      "Conserved Sequence/genetics",
+      "Regulatory Sequences, Nucleic Acid/genetics",
+      "Lancelets/genetics/embryology",
+      "Evolution, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Buono, Lorena",
+        "Annona, Giovanni",
+        "Magri, Marta Silvia",
+        "Negueruela, Santiago",
+        "Sepe, Rosa Maria",
+        "Caccavale, Filomena",
+        "Maeso, Ignacio",
+        "Arnone, Maria Ina",
+        "D'Aniello, Salvatore"
+      ],
+      "short_names": [
+        "Buono L",
+        "Annona G",
+        "Magri MS",
+        "Negueruela S",
+        "Sepe RM",
+        "Caccavale F",
+        "Maeso I",
+        "Arnone MI",
+        "D'Aniello S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5457-4515",
+        "ORCID: 0000-0001-7806-6761",
+        "ORCID: 0009-0008-9468-359X",
+        "ORCID: 0000-0001-7294-1465"
+      ],
+      "affiliations": [
+        "Department of Biology and Evolution of Marine Organisms (BEOM), Stazione Zoologica Anton Dohrn, Villa Comunale, 80121 Naples, Italy.",
+        "Department of Biology and Evolution of Marine Organisms (BEOM), Stazione Zoologica Anton Dohrn, Villa Comunale, 80121 Naples, Italy.",
+        "Department of Research Infrastructure for Marine Biological Resources (RIMAR), Stazione Zoologica Anton Dohrn, Villa Comunale, 80121 Naples, Italy.",
+        "Centro Andaluz de Biologia del Desarollo (CABD), Universidad Pablo de Olavide, 41013 Sevilla, Spain.",
+        "Telethon Institute of Genetics and Medicine (TIGEM), 80078 Pozzuoli, Italy.",
+        "Department of Biology and Evolution of Marine Organisms (BEOM), Stazione Zoologica Anton Dohrn, Villa Comunale, 80121 Naples, Italy.",
+        "Department of Ecosustainable Marine Biotechnology, Stazione Zoologica Anton Dohrn, Via Ammiraglio Ferdinando Acton, 80133 Naples, Italy.",
+        "Department of Biology and Evolution of Marine Organisms (BEOM), Stazione Zoologica Anton Dohrn, Villa Comunale, 80121 Naples, Italy.",
+        "Department of Genetics, Microbiology and Statistics, Faculty of Biology, University of Barcelona (UB), 08028 Barcelona, Spain.",
+        "Institut de Recerca de la Biodiversitat (IRBio), University of Barcelona (UB), 08028 Barcelona, Spain.",
+        "Department of Biology and Evolution of Marine Organisms (BEOM), Stazione Zoologica Anton Dohrn, Villa Comunale, 80121 Naples, Italy.",
+        "Department of Biology and Evolution of Marine Organisms (BEOM), Stazione Zoologica Anton Dohrn, Villa Comunale, 80121 Naples, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Buono, Lorena",
+        "short_name": "Buono L",
+        "identifiers": [
+          "0000-0002-5457-4515"
+        ],
+        "affiliations": [
+          "Department of Biology and Evolution of Marine Organisms (BEOM), Stazione Zoologica Anton Dohrn, Villa Comunale, 80121 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Annona, Giovanni",
+        "short_name": "Annona G",
+        "identifiers": [
+          "0000-0001-7806-6761"
+        ],
+        "affiliations": [
+          "Department of Biology and Evolution of Marine Organisms (BEOM), Stazione Zoologica Anton Dohrn, Villa Comunale, 80121 Naples, Italy.",
+          "Department of Research Infrastructure for Marine Biological Resources (RIMAR), Stazione Zoologica Anton Dohrn, Villa Comunale, 80121 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Magri, Marta Silvia",
+        "short_name": "Magri MS",
+        "identifiers": [],
+        "affiliations": [
+          "Centro Andaluz de Biología del Desarollo (CABD), Universidad Pablo de Olavide, 41013 Sevilla, Spain."
+        ]
+      },
+      {
+        "full_name": "Negueruela, Santiago",
+        "short_name": "Negueruela S",
+        "identifiers": [],
+        "affiliations": [
+          "Telethon Institute of Genetics and Medicine (TIGEM), 80078 Pozzuoli, Italy."
+        ]
+      },
+      {
+        "full_name": "Sepe, Rosa Maria",
+        "short_name": "Sepe RM",
+        "identifiers": [
+          "0009-0008-9468-359X"
+        ],
+        "affiliations": [
+          "Department of Biology and Evolution of Marine Organisms (BEOM), Stazione Zoologica Anton Dohrn, Villa Comunale, 80121 Naples, Italy.",
+          "Department of Ecosustainable Marine Biotechnology, Stazione Zoologica Anton Dohrn, Via Ammiraglio Ferdinando Acton, 80133 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Caccavale, Filomena",
+        "short_name": "Caccavale F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology and Evolution of Marine Organisms (BEOM), Stazione Zoologica Anton Dohrn, Villa Comunale, 80121 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "Maeso, Ignacio",
+        "short_name": "Maeso I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Microbiology and Statistics, Faculty of Biology, University of Barcelona (UB), 08028 Barcelona, Spain.",
+          "Institut de Recerca de la Biodiversitat (IRBio), University of Barcelona (UB), 08028 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Arnone, Maria Ina",
+        "short_name": "Arnone MI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology and Evolution of Marine Organisms (BEOM), Stazione Zoologica Anton Dohrn, Villa Comunale, 80121 Naples, Italy."
+        ]
+      },
+      {
+        "full_name": "D'Aniello, Salvatore",
+        "short_name": "D'Aniello S",
+        "identifiers": [
+          "0000-0001-7294-1465"
+        ],
+        "affiliations": [
+          "Department of Biology and Evolution of Marine Organisms (BEOM), Stazione Zoologica Anton Dohrn, Villa Comunale, 80121 Naples, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cells"
+    ],
+    "journal_abbrev": [
+      "Cells"
+    ],
+    "pub_date": "2024 Jun 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/12 12:46",
+    "fetched_at": "2026-09-29 23:26:15"
+  },
+  "links": {
+    "cites": [
+      "41501227"
+    ],
+    "refs": [
+      "37941124",
+      "37227126",
+      "37144459",
+      "36980215",
+      "36670036",
+      "36459547",
+      "36401278",
+      "36322649",
+      "34162866",
+      "33268840",
+      "32345657",
+      "32039199",
+      "31621849",
+      "31388442",
+      "30679424",
+      "30661644",
+      "30554902",
+      "30464347",
+      "29653534",
+      "28790414",
+      "28428870",
+      "28185904",
+      "27965437",
+      "27477184",
+      "26862720",
+      "26605074",
+      "26420834",
+      "25382437",
+      "25157139",
+      "25121599",
+      "25008364",
+      "23874955",
+      "22836912",
+      "22700438",
+      "22669107",
+      "22388286",
+      "22116879",
+      "21915332",
+      "21844364",
+      "21576476",
+      "21414487",
+      "21203442",
+      "21118544",
+      "20826531",
+      "20513432",
+      "19578937",
+      "19505943",
+      "19497318",
+      "19284985",
+      "18798982",
+      "18616572",
+      "18469223",
+      "17719025",
+      "17713598",
+      "17625949",
+      "17506889",
+      "17330889",
+      "17324271",
+      "17230196",
+      "17081512",
+      "17075872",
+      "17055477",
+      "16909212",
+      "16835437",
+      "16364286",
+      "15744668",
+      "15743880",
+      "15567714",
+      "15269171",
+      "15215210",
+      "15084460",
+      "15084457",
+      "15057272",
+      "14711874",
+      "14668413",
+      "12812785",
+      "12791268",
+      "11748837",
+      "11744364",
+      "11731487",
+      "11585804",
+      "11256375",
+      "11231063",
+      "10679934",
+      "10625549",
+      "10525190",
+      "10446282",
+      "9636084",
+      "9486539",
+      "9043063",
+      "8104775",
+      "8069909",
+      "7588062",
+      "2663644"
+    ],
+    "similar": [
+      "38994973",
+      "32839880",
+      "30113767",
+      "27412606",
+      "24282393",
+      "22085760",
+      "35263228",
+      "19766623",
+      "30661644",
+      "21925489",
+      "24680932",
+      "22011226",
+      "20392745",
+      "17095691",
+      "20419150",
+      "33239788",
+      "14604806",
+      "35212624",
+      "15871032",
+      "21435340",
+      "15617693",
+      "19535506",
+      "10960780",
+      "24204288",
+      "29558892",
+      "15545496",
+      "18184356",
+      "21723274",
+      "27896813",
+      "24440152",
+      "23017024",
+      "21723273",
+      "19128492",
+      "15743880",
+      "15496438",
+      "12622732",
+      "21821017",
+      "22595514",
+      "20434338",
+      "17872446",
+      "24090975",
+      "22402505",
+      "23792116",
+      "25386650",
+      "17916789",
+      "21623371",
+      "23799133",
+      "26034287",
+      "24516585",
+      "23840829",
+      "33753082",
+      "20592183",
+      "38589372",
+      "9510540",
+      "15013810",
+      "17439641",
+      "20956563",
+      "15581886",
+      "19135437",
+      "24642059",
+      "26940763",
+      "25378051",
+      "17710433",
+      "22593555",
+      "25409825",
+      "28780048",
+      "18282089",
+      "33608545",
+      "25209999",
+      "25411453",
+      "39058236",
+      "25366274",
+      "19895802",
+      "15567710",
+      "38092918",
+      "17711474",
+      "20969843",
+      "26538567",
+      "26684323",
+      "15895415",
+      "12082130",
+      "17570356",
+      "21913309",
+      "21328559",
+      "24009528",
+      "15647365",
+      "19931456",
+      "16267822",
+      "33074546",
+      "20504318",
+      "20144609",
+      "22876195",
+      "32632492",
+      "14611659",
+      "19144720",
+      "19704032",
+      "39255977",
+      "37958992",
+      "39854450",
+      "21048080"
+    ],
+    "review": [
+      "38994973",
+      "19535506",
+      "22402505",
+      "25378051",
+      "21913309"
+    ],
+    "pmc": [
+      "11240583"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cells13131121",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38994973/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

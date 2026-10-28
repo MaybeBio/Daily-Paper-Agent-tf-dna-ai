@@ -1,0 +1,645 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.02.09.637298",
+  "title": "Predicting Mutation-Induced Relative Protein-Ligand Binding Affinity Changes via Conformational Sampling and Diversity Integration with Subsampled Alphafold2 in Few-Shot Learning",
+  "doi": "10.1101/2025.02.09.637298",
+  "abstract": "Predicting the impact of mutations on protein-ligand binding affinity is crucial in drug discovery, particularly in addressing drug resistance and repurposing existing drugs. Current structure-based methods are constrained by their dependence on known protein-ligand complex structures. The absence of structural data for mutated proteins, along with the potential of mutations to modify protein conformational states, brings challenges for reliable predictions. The downstream application of conformational sampling of Alphafold, such as the prediction of binding free energy changes induced by mutation, has not been fully explored. To tackle the challenge, we propose a few-shot learning approach that integrates AlphaFold2 subsampling, ensemble docking, and Siamese learning to predict the relative binding affinity changes induced by mutations. We validate our approach for predicting binding affinity changes in 31 variants of the mutated Abelson tyrosine kinase (ABL). The conformation ensembles for each ABL variant are generated using AlphaFold2 subsampling. The most likely conformational states are selected by Gaussian fitting to construct the pairwise structural inputs and compute relative binding energies. Then the relative binding affinities are derived by averaging the values predicted by the Siamese learning model across the constructed conformational pairs. By benchmarking on the Tyrosine kinase inhibitors (TKI) dataset and the direct binding affinity using the refined set of PDBbind database, our proposed approach achieves an increased Spearman correlation coefficient for five out of six TKI molecules across 31 mutants when estimating relative binding affinities. Although the proposed method is validated on the ABL, it can be transferred and applied to other drug-target interaction predictions when the conformational flexibility of proteins needs to be considered. We anticipate the approach will be valuable for predicting binding energy changes induced by mutations in proteins or ligands, facilitating drug discovery efforts.",
+  "authors": [
+    "Liangxu Xie",
+    "Xiaohua Lu",
+    "Dawei Zhang",
+    "Lei Xu",
+    "Mingjun Yang",
+    "Young-Seob Jeong",
+    "Shan Chang",
+    "Xiaojun Xu"
+  ],
+  "published_date": "2025-02-11",
+  "updated_date": "2025-02-11T05:35:19Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.02.09.637298",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.02.09.637298.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ],
+        "date-time": "2026-06-04T22:51:26Z",
+        "timestamp": 1780613486042,
+        "version": "3.54.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            11
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 68,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                11
+              ]
+            ],
+            "date-time": "2025-02-11T00:00:00Z",
+            "timestamp": 1739232000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            26
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Predicting the impact of mutations on protein-ligand binding affinity is crucial in drug discovery, particularly in addressing drug resistance and repurposing existing drugs. Current structure-based methods are constrained by their dependence on known protein-ligand complex structures. The absence of structural data for mutated proteins, along with the potential of mutations to modify protein conformational states, brings challenges for reliable predictions. The downstream application of conformational sampling of Alphafold, such as the prediction of binding free energy changes induced by mutation, has not been fully explored. To tackle the challenge, we propose a few-shot learning approach that integrates AlphaFold2 subsampling, ensemble docking, and Siamese learning to predict the relative binding affinity changes induced by mutations. We validate our approach for predicting binding affinity changes in 31 variants of the mutated Abelson tyrosine kinase (ABL). The conformation ensembles for each ABL variant are generated using AlphaFold2 subsampling. The most likely conformational states are selected by Gaussian fitting to construct the pairwise structural inputs and compute relative binding energies. Then the relative binding affinities are derived by averaging the values predicted by the Siamese learning model across the constructed conformational pairs. By benchmarking on the Tyrosine kinase inhibitors (TKI) dataset and the direct binding affinity using the refined set of PDBbind database, our proposed approach achieves an increased Spearman correlation coefficient for five out of six TKI molecules across 31 mutants when estimating relative binding affinities. Although the proposed method is validated on the ABL, it can be transferred and applied to other drug-target interaction predictions when the conformational flexibility of proteins needs to be considered. We anticipate the approach will be valuable for predicting binding energy changes induced by mutations in proteins or ligands, facilitating drug discovery efforts.</jats:p>",
+      "DOI": "10.1101/2025.02.09.637298",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            11
+          ]
+        ],
+        "date-time": "2025-02-11T05:35:19Z",
+        "timestamp": 1739252119000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Predicting Mutation-Induced Relative Protein-Ligand Binding Affinity Changes via Conformational Sampling and Diversity Integration with Subsampled Alphafold2 in Few-Shot Learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0609-5333",
+          "authenticated-orcid": false,
+          "given": "Liangxu",
+          "family": "Xie",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, 213001, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaohua",
+          "family": "Lu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, 213001, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dawei",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, 213001, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lei",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, 213001, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mingjun",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Shenzhen Jingtai Technology Co., Ltd. (XtalPi), Shenzhen 518045, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Young-Seob",
+          "family": "Jeong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Engineering, Chungbuk National University, Cheongju, 28644, South Korea"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shan",
+          "family": "Chang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, 213001, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaojun",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Bioinformatics and Medical Engineering, Jiangsu University of Technology, Changzhou, 213001, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03828-1"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06415-8"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07813-2"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Krishna, R. , Wang, J. , Ahern, W. , Sturmfels, P. , Venkatesh, P. , Kalvet, I. , Lee, G.R. , Morey-Burrows, F.S. , Anishchenko, I. , Humphreys, I.R. , et al. (2024). Generalized biomolecular modeling and design with RoseTTAFold All-Atom. Science, eadl2528.",
+          "DOI": "10.1101/2023.10.09.561603"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-1923-7"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/d41586-021-02265-4"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01359-1"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abm4805"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-024-02272-z"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-022-01432-w"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.14",
+          "unstructured": "Wu, R. , Ding, F. , Wang, R. , Shen, R. , Zhang, X. , Luo, S. , Su, C. , Wu, Z. , Xie, Q. , and Berger, B. (2022). High-resolution de novo structure prediction from primary sequence. BioRxiv."
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cheng, J. , Novati, G. , Pan, J. , Bycroft, C. , Žemgulytė, A. , Applebaum, T. , Pritzel, A. , Wong, L.H. , Zielinski, M. , Sargeant, T. , et al. Accurate proteome-wide missense variant effect prediction with AlphaMissense. Science 381, eadg7492.",
+          "DOI": "10.1126/science.adg7492"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-28865-w"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41392-023-01381-z"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2023.12.028"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.2c00885"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-05781-7"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2019.01.018"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1990"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Broerman, A.J. , Pollmann, C. , Lichtenstein, M.A. , Jackson, M.D. , Tessmer, M.H. , Ryu, W.H. , Abedi, M.H. , Sahtoe, D.D. , Allen, A. , Kang, A. , et al. (2024). Design of facilitated dissociation enables control over cytokine signaling duration. bioRxiv, 2024.2011.2015.623900.",
+          "DOI": "10.1101/2024.11.15.623900"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s44320-024-00016-x"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06832-9"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-46715-9"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2410662121"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1010483"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.4c00222"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.75751"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-43801-2"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/ENE.13085"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu791"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1005324"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1811364115"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1719115115"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.5b00538."
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42004-023-00859-9"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-024-00849-z"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biophys.36.040306.132550"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2018.02.038"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.01454-13"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1056/NEJMoa022457"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc2126"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2021.09.016"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-022-00639-y"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42004-023-00920-7"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "2402918",
+          "DOI": "10.1002/advs.202402918",
+          "article-title": "MuToN Quantifies Binding Affinity Changes upon Protein Mutations by Geometric Deep Learning",
+          "volume": "11",
+          "year": "2024",
+          "journal-title": "Adv. Sci"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/wcms.1563"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.phrs.2015.10.021"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.9b01158"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.131.218401"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.129.238101"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.1c01497"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-024-00876-w"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-023-00769-x"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s43588-023-00529-9"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct800011m"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42003-018-0075-x"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/C9SC04606B"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2024.04.030"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt0804-1035"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.63",
+          "unstructured": "Gilmer, J. , Schoenholz, S.S. , Riley, P.F. , Vinyals, O. , and Dahl, G.E. (2017). Neural message passing for quantum chemistry. (JMLR.org), pp. 1263–1272."
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpclett.2c03906"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2111451118"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11030-021-10261-z"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abc2754"
+        },
+        {
+          "key": "2026041201040388000_2025.02.09.637298v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.7b00564"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.02.09.637298",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T08:04:13Z",
+        "timestamp": 1775981053000
+      },
+      "score": 85.55224,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.02.09.637298"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            11
+          ]
+        ]
+      },
+      "references-count": 68,
+      "URL": "https://doi.org/10.1101/2025.02.09.637298",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            11
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

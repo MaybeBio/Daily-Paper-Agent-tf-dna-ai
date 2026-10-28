@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "41533567",
+    "doi": "10.1093/nar/gkaf1514",
+    "title": "Structural insights into the Bre1-Lge1 and RNF20/RNF40-WAC interactions critical for H2B ubiquitination."
+  },
+  "content": {
+    "abstract": "The mono-ubiquitination of the histone protein H2B (H2BUb1) has important functions in transcription, DNA repair, and other chromatin-related processes. The reaction is catalyzed by Bre1 and the homologous RNF20/RNF40 complex in the budding yeast and human cells, respectively, and is promoted by their respective interaction partners, Lge1 and WAC. The mechanism of the Bre1-Lge1 and RNF20/RNF40-WAC interactions is poorly understood. Here, we present the crystal structure of the Bre1-Lge1 complex and an AlphaFold predicted structure model of the RNF20/RNF40 complex bound with WAC, as well as in vitro and in vivo experiments to assess the interaction mechanism and function. Our study revealed extensive Bre1-Lge1 and RNF20/RNF40-WAC interfaces and a structural homology shared by these interfaces, but completely different sets of key electrostatic interactions at these interfaces that are crucial for the binding and encode the binding specificity. We further found that these interactions play critical roles in the Bre1-catalyzed H2BUb1 reaction and processes it regulates. Our data provide insights into the mechanism of the Bre1-Lge1 and RNF20/RNF40-WAC interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Ubiquitination",
+      "*Histones/metabolism/chemistry",
+      "*Saccharomyces cerevisiae Proteins/chemistry/metabolism/genetics",
+      "*Ubiquitin-Protein Ligases/chemistry/metabolism/genetics",
+      "Humans",
+      "Models, Molecular",
+      "Protein Binding",
+      "Crystallography, X-Ray",
+      "*Transcription Factors/chemistry/metabolism",
+      "Saccharomyces cerevisiae/genetics",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shi, Meng",
+        "Wang, Xuejie",
+        "Zhang, Hang",
+        "Wen, Yajiao",
+        "Liu, Qianqian",
+        "Chen, Pu",
+        "Chen, Xuefeng",
+        "Xiang, Song"
+      ],
+      "short_names": [
+        "Shi M",
+        "Wang X",
+        "Zhang H",
+        "Wen Y",
+        "Liu Q",
+        "Chen P",
+        "Chen X",
+        "Xiang S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9314-4684"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, Key Laboratory of Immune Microenvironment and Disease (Ministry of Education), The province and ministry co-sponsored collaborative innovation center for medical epigenetics, State Key Laboratory of Experimental Hematology, Tianjin Medical University, Tianjin 300070, P.R. China.",
+        "Department of Nephrology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatric Metabolism and Inflammatory Diseases, Genome Stability and Pediatric Cancer Center, Chongqing 400015, P.R. China.",
+        "State Key Laboratory of Microbial Technology, Shandong University, Qingdao 266237, P.R. China.",
+        "Department of Biochemistry and Molecular Biology, Key Laboratory of Immune Microenvironment and Disease (Ministry of Education), The province and ministry co-sponsored collaborative innovation center for medical epigenetics, State Key Laboratory of Experimental Hematology, Tianjin Medical University, Tianjin 300070, P.R. China.",
+        "Department of Biochemistry and Molecular Biology, Key Laboratory of Immune Microenvironment and Disease (Ministry of Education), The province and ministry co-sponsored collaborative innovation center for medical epigenetics, State Key Laboratory of Experimental Hematology, Tianjin Medical University, Tianjin 300070, P.R. China.",
+        "Department of Biochemistry and Molecular Biology, Key Laboratory of Immune Microenvironment and Disease (Ministry of Education), The province and ministry co-sponsored collaborative innovation center for medical epigenetics, State Key Laboratory of Experimental Hematology, Tianjin Medical University, Tianjin 300070, P.R. China.",
+        "Department of Nephrology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatric Metabolism and Inflammatory Diseases, Genome Stability and Pediatric Cancer Center, Chongqing 400015, P.R. China.",
+        "Department of Biochemistry and Molecular Biology, Key Laboratory of Immune Microenvironment and Disease (Ministry of Education), The province and ministry co-sponsored collaborative innovation center for medical epigenetics, State Key Laboratory of Experimental Hematology, Tianjin Medical University, Tianjin 300070, P.R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shi, Meng",
+        "short_name": "Shi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Key Laboratory of Immune Microenvironment and Disease (Ministry of Education), The province and ministry co-sponsored collaborative innovation center for medical epigenetics, State Key Laboratory of Experimental Hematology, Tianjin Medical University, Tianjin 300070, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xuejie",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatric Metabolism and Inflammatory Diseases, Genome Stability and Pediatric Cancer Center, Chongqing 400015, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hang",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Technology, Shandong University, Qingdao 266237, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wen, Yajiao",
+        "short_name": "Wen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Key Laboratory of Immune Microenvironment and Disease (Ministry of Education), The province and ministry co-sponsored collaborative innovation center for medical epigenetics, State Key Laboratory of Experimental Hematology, Tianjin Medical University, Tianjin 300070, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Qianqian",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Key Laboratory of Immune Microenvironment and Disease (Ministry of Education), The province and ministry co-sponsored collaborative innovation center for medical epigenetics, State Key Laboratory of Experimental Hematology, Tianjin Medical University, Tianjin 300070, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Chen, Pu",
+        "short_name": "Chen P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Key Laboratory of Immune Microenvironment and Disease (Ministry of Education), The province and ministry co-sponsored collaborative innovation center for medical epigenetics, State Key Laboratory of Experimental Hematology, Tianjin Medical University, Tianjin 300070, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xuefeng",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Children's Hospital of Chongqing Medical University, National Clinical Research Center for Children and Adolescents' Health and Diseases, Ministry of Education Key Laboratory of Child Development and Disorders, Chongqing Key Laboratory of Pediatric Metabolism and Inflammatory Diseases, Genome Stability and Pediatric Cancer Center, Chongqing 400015, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Song",
+        "short_name": "Xiang S",
+        "identifiers": [
+          "0000-0001-9314-4684"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Key Laboratory of Immune Microenvironment and Disease (Ministry of Education), The province and ministry co-sponsored collaborative innovation center for medical epigenetics, State Key Laboratory of Experimental Hematology, Tianjin Medical University, Tianjin 300070, P.R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jan 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/15 16:13",
+    "fetched_at": "2026-10-05 04:44:26"
+  },
+  "links": {
+    "cites": [
+      "41890080"
+    ],
+    "refs": [
+      "39824165",
+      "38519511",
+      "38331024",
+      "38036854",
+      "37872231",
+      "37633270",
+      "37230987",
+      "37155876",
+      "36912886",
+      "36765085",
+      "36715322",
+      "34265844",
+      "33602814",
+      "33436623",
+      "33233707",
+      "32214243",
+      "31837996",
+      "31733991",
+      "31485071",
+      "31333493",
+      "30981630",
+      "30923167",
+      "30770869",
+      "30765112",
+      "30759380",
+      "30669413",
+      "30304473",
+      "28968723",
+      "28628358",
+      "28375744",
+      "27601672",
+      "27458205",
+      "27431324",
+      "27002219",
+      "25864391",
+      "25548288",
+      "25480300",
+      "25049226",
+      "24412854",
+      "22960743",
+      "22056671",
+      "21362549",
+      "21362548",
+      "21329877",
+      "21196936",
+      "20124702",
+      "20124692",
+      "19923226",
+      "19461840",
+      "19410543",
+      "18832071",
+      "18662542",
+      "18614047",
+      "18344985",
+      "17984963",
+      "17320507",
+      "16713563",
+      "16337599",
+      "16307923",
+      "16039595",
+      "15632126",
+      "15572765",
+      "15280549",
+      "14622595",
+      "12556499",
+      "12535539",
+      "12535538",
+      "12167634",
+      "12152067",
+      "12077605",
+      "12070136",
+      "11432841",
+      "10804500",
+      "10753808",
+      "10642555",
+      "10638745",
+      "9708741",
+      "9305837",
+      "8617357",
+      "6255427",
+      "2031185",
+      "2025413"
+    ],
+    "similar": [
+      "41533567",
+      "29637554",
+      "37633270",
+      "27569044",
+      "33602814",
+      "27601672",
+      "19923226",
+      "21329877",
+      "38519511",
+      "36912886",
+      "33868474",
+      "25864391",
+      "32214243",
+      "28628358",
+      "25548288",
+      "12535538",
+      "31186351",
+      "31235600",
+      "37923031",
+      "32895784",
+      "22155569",
+      "28180293",
+      "30692271",
+      "36715322",
+      "22354749",
+      "19531475",
+      "40597205",
+      "24412854",
+      "22825248",
+      "27840029",
+      "28604753",
+      "27798111",
+      "25085417",
+      "16307923",
+      "22021426",
+      "34088983",
+      "32245891",
+      "12535539",
+      "22031019",
+      "24891457",
+      "41495224",
+      "28453857",
+      "37872231",
+      "28209164",
+      "30254011",
+      "21362548",
+      "25170678",
+      "37230987",
+      "42095445",
+      "24357716",
+      "28157208",
+      "29058668",
+      "27692985",
+      "19561118",
+      "28690313",
+      "30563893",
+      "30249596",
+      "33685627",
+      "40716115",
+      "21827756",
+      "24509845",
+      "31152661",
+      "38517892",
+      "37794081",
+      "30669413",
+      "34155716",
+      "28481029",
+      "20439497",
+      "16337599",
+      "18832071",
+      "29934362",
+      "16705165",
+      "25183520",
+      "18849979",
+      "30304473",
+      "41145912",
+      "23209445",
+      "33070155",
+      "31266541",
+      "22570702",
+      "24526689",
+      "21443952",
+      "33320380",
+      "34217622",
+      "26854224",
+      "31922488",
+      "33010070",
+      "23103252",
+      "21811414",
+      "22262834",
+      "20395473",
+      "22681891",
+      "30203048",
+      "40495033",
+      "26451043",
+      "35954248",
+      "27707786",
+      "26455391",
+      "15280549",
+      "33575967"
+    ],
+    "review": [
+      "41533567",
+      "28628358",
+      "32895784",
+      "24412854",
+      "24891457",
+      "33685627",
+      "21827756",
+      "30669413",
+      "29934362"
+    ],
+    "pmc": [
+      "12802937"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41533567/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf1514",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

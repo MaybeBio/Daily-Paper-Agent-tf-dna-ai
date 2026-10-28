@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "42458059",
+    "doi": "10.1038/s44318-026-00868-z",
+    "title": "A conserved basic motif mediates membrane anchoring and TRAF2 recruitment across costimulatory TNFRs."
+  },
+  "content": {
+    "abstract": "Costimulatory receptors of the TNFR superfamily are key components in synthetic immunoreceptors, yet how their intracellular domains coordinate membrane anchoring with adaptor recruitment remains unresolved. Here, using solution-state NMR and membrane-reconstituted FRET assays, we identify a conserved basic-residue-rich sequence (BRS) in the juxtamembrane region of OX40 that binds anionic phospholipids and adopts a membrane-inserted conformation. This membrane engagement enables a dual-site interaction with TRAF2, combining canonical PxQxx binding with a secondary membrane-proximal interface, to promote robust NF-kappaB activation. Disruption of the BRS impairs adaptor docking without reducing receptor surface expression or ligand-induced clustering. This regulatory architecture is further supported in 4-1BB and CD40, indicating broader relevance across TNFR costimulatory receptors. Our findings refine current models of TNFR signaling and offer a generalizable framework for receptor design. Incorporating membrane-anchoring motifs into synthetic constructs may enhance spatial control of adaptor recruitment, thereby improving signal fidelity, sensitivity, and performance in CAR-T applications.",
+    "keywords": [],
+    "mesh_terms": [
+      "*TNF Receptor-Associated Factor 2/metabolism/genetics/chemistry",
+      "Humans",
+      "*Cell Membrane/metabolism",
+      "Amino Acid Motifs",
+      "*Receptors, OX40/metabolism/chemistry/genetics",
+      "Animals",
+      "Signal Transduction",
+      "Protein Binding",
+      "NF-kappa B/metabolism",
+      "CD40 Antigens/metabolism/genetics/chemistry",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Jiali",
+        "Xu, Xi",
+        "Liu, Pei",
+        "Wu, Hui",
+        "Wang, Yuxuan",
+        "Xu, Boying",
+        "Wen, Maorong",
+        "Chen, Min",
+        "Chen, Zhifeng",
+        "Chou, James J",
+        "Zhao, Linlin"
+      ],
+      "short_names": [
+        "Zhu J",
+        "Xu X",
+        "Liu P",
+        "Wu H",
+        "Wang Y",
+        "Xu B",
+        "Wen M",
+        "Chen M",
+        "Chen Z",
+        "Chou JJ",
+        "Zhao L"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-4177-2559",
+        "ORCID: 0009-0007-3656-5803",
+        "ORCID: 0009-0008-3353-2106",
+        "ORCID: 0000-0002-4442-0344",
+        "ORCID: 0000-0002-2228-6877"
+      ],
+      "affiliations": [
+        "Department of Anesthesiology, Putuo People's Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Anesthesiology, Putuo People's Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Anesthesiology, Putuo People's Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Anesthesiology, Putuo People's Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Department of Anesthesiology, Putuo People's Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Tongji University Cancer Center, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China.",
+        "Hangzhou Weizhi Biotechnology Co., Ltd, Hangzhou, China.",
+        "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai, China.",
+        "Department of Anesthesiology, Putuo People's Hospital, School of Medicine, Tongji University, Shanghai, China. 2305635@tongji.edu.cn.",
+        "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai, China. james_chou@mail.sioc.ac.cn.",
+        "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai, China. james_chou@mail.sioc.ac.cn.",
+        "Department of Anesthesiology, Putuo People's Hospital, School of Medicine, Tongji University, Shanghai, China. lzhao@tongji.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Jiali",
+        "short_name": "Zhu J",
+        "identifiers": [
+          "0009-0007-4177-2559"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology, Putuo People's Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xi",
+        "short_name": "Xu X",
+        "identifiers": [
+          "0009-0007-3656-5803"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology, Putuo People's Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Pei",
+        "short_name": "Liu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Putuo People's Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hui",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Putuo People's Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuxuan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Putuo People's Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Boying",
+        "short_name": "Xu B",
+        "identifiers": [],
+        "affiliations": [
+          "Tongji University Cancer Center, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Maorong",
+        "short_name": "Wen M",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Weizhi Biotechnology Co., Ltd, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Min",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhifeng",
+        "short_name": "Chen Z",
+        "identifiers": [
+          "0009-0008-3353-2106"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology, Putuo People's Hospital, School of Medicine, Tongji University, Shanghai, China. 2305635@tongji.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chou, James J",
+        "short_name": "Chou JJ",
+        "identifiers": [
+          "0000-0002-4442-0344"
+        ],
+        "affiliations": [
+          "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai, China. james_chou@mail.sioc.ac.cn.",
+          "State Key Laboratory of Chemical Biology, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai, China. james_chou@mail.sioc.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Zhao, Linlin",
+        "short_name": "Zhao L",
+        "identifiers": [
+          "0000-0002-2228-6877"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology, Putuo People's Hospital, School of Medicine, Tongji University, Shanghai, China. lzhao@tongji.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The EMBO journal"
+    ],
+    "journal_abbrev": [
+      "EMBO J"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/16 00:36",
+    "fetched_at": "2026-10-02 01:51:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40531970",
+      "40101708",
+      "39630914",
+      "39313307",
+      "38526805",
+      "38354704",
+      "36109639",
+      "35365211",
+      "34878825",
+      "34429434",
+      "34198161",
+      "33504651",
+      "33483715",
+      "32939077",
+      "32649971",
+      "31270510",
+      "31227693",
+      "29995853",
+      "29410529",
+      "29058713",
+      "28499815",
+      "25001389",
+      "23470321",
+      "22911575",
+      "22842344",
+      "22261968",
+      "22152361",
+      "21850048",
+      "21289304",
+      "20307208",
+      "20038584",
+      "19319144",
+      "19013279",
+      "18635759",
+      "17955183",
+      "16905106",
+      "15894279",
+      "15815974",
+      "12974476",
+      "10908665",
+      "10605091",
+      "10518213",
+      "10411888",
+      "9488716",
+      "8520220"
+    ],
+    "similar": [
+      "42458059",
+      "15644327",
+      "21282629",
+      "16020544",
+      "15708970",
+      "10428814",
+      "20449947",
+      "15634933",
+      "19815541",
+      "15585864",
+      "9418902",
+      "11886848",
+      "15944293",
+      "15485859",
+      "16622006",
+      "21558270",
+      "10860842",
+      "32041822",
+      "25716317",
+      "22434933",
+      "22743059",
+      "10903733",
+      "9566902",
+      "15383523",
+      "14644094",
+      "30341187",
+      "8608943",
+      "10518213",
+      "19150425",
+      "10764746",
+      "20856938",
+      "11754002",
+      "26993379",
+      "12960157",
+      "17878362",
+      "9488716",
+      "14557256",
+      "15310755",
+      "42522260",
+      "9464265",
+      "9882303",
+      "19667091",
+      "30232281",
+      "22988031",
+      "12370254",
+      "21268004",
+      "10581243",
+      "16203735",
+      "24378531",
+      "10984535",
+      "11714804",
+      "9794406",
+      "9104814",
+      "12721308",
+      "40696502",
+      "12140561",
+      "15743811",
+      "34070875",
+      "16260598",
+      "10908665",
+      "9205097",
+      "16311516",
+      "10911999",
+      "10075662",
+      "10878352",
+      "20577214",
+      "9990007",
+      "42093657",
+      "7544915",
+      "9990039",
+      "22685329",
+      "9852070",
+      "9461607",
+      "11262403",
+      "12215450",
+      "20047764",
+      "9533448",
+      "19243468",
+      "16009714",
+      "17334391",
+      "20385093",
+      "8855313",
+      "9685412",
+      "7780126",
+      "10202013",
+      "15494504",
+      "16597320",
+      "19234489",
+      "10748139",
+      "11932422",
+      "9774460",
+      "37921511",
+      "9151858",
+      "27834853",
+      "16680194",
+      "26011589",
+      "16304992",
+      "15115707",
+      "10318845",
+      "20184394"
+    ],
+    "review": [
+      "42458059",
+      "26993379"
+    ],
+    "pmc": [
+      "13482392"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s44318-026-00868-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42458059/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD40-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

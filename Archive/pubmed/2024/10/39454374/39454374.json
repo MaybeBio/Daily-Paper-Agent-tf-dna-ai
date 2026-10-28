@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "39454374",
+    "doi": "10.1016/j.phymed.2024.156161",
+    "title": "Cepharanthine sensitizes gastric cancer cells to chemotherapy by targeting TRIB3-FOXO3-FOXM1 axis to inhibit autophagy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Gastric cancer is among the common solid tumors. Chemotherapy resistance is the most common issue in gastric cancer treatment. Inhibiting intracellular autophagy may be a feasible method for overcoming chemotherapy resistance. Cepharanthine (CEP), a natural small molecule extracted from the stephania cephalantha Hayata plant, has been demonstrated to significantly inhibit cancer growth and can regulate autophagy. Although CEP can significantly inhibit cancer growth, it remains unclear whether CEP can regulate autophagy in gastric cancer. This study aimed to investigate whether CEP can enhance the sensitivity of gastric cancer to chemotherapy and elucidate its molecular mechanism. METHODS: Three gastric cancer cell lines (AGS, SGC7901, and MFC) and one normal gastric mucosal epithelial cell line (GES-1) were used for in vitro experiments. The characterization of autophagy in gastric cancer cells included the detection of autophagy markers and autophagy flux through immunofluorescence staining and Western blotting, as well as the assessment of lysosomal function using fluorescence staining (LysoTracker Red DND-99, Acridine Orange staining) and Western blotting. The cytotoxicity of CEP, autophagy inhibitors (chloroquine [CQ] and 3-methyladenine [3MA]), and chemotherapy drugs (doxorubicin [DOX] and cisplatin [CIS]) was evaluated using the 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide assay, cell colony formation, and fluorescence staining techniques (H2DCFDA, Dihydroethidium, and JC-1 staining). The interaction between CEP and autophagy inhibitors was tested in a 615 mice model, and changes in the gut microbiota were determined through accurate 16S absolute quantification sequencing. The signaling pathway and autophagy regulatory target TRIB3-FOXO3-FOXM1 were confirmed through molecular docking, RNA sequencing, bioinformatic analysis, transfection techniques, and Western blotting. RESULTS: CEP blocked autophagic flux in gastric cancer cells without affecting lysosomal function. As a novel autophagy inhibitor, CEP could combine with conventional autophagy inhibitors (CQ and 3MA) to block intracellular autophagy, thereby inhibiting gastric cancer growth. During this process, changes in the gut microbiota were observed, including low-level changes in Odoribacterium, Erysipelatoclostridium, and ParaPrevotella and high-level changes in Ileibacterium, Enterorhabdus, and Bifidobacterium. Additionally, CEP synergistically inhibited the growth of gastric cancer when combined with chemotherapy drugs. Mechanistically, the TRIB3-FOXO3-FOXM1 signaling axis was found to be involved in the inhibition of gastric cancer by CEP combined with autophagy inhibitors and chemotherapy drugs, thereby mediating cell apoptosis. CONCLUSION: This study links the TRIB3-FOXO3-FOXM1 axis with chemotherapy efficacy. Our findings demonstrated that CEP inhibits autophagy by modulating the FOXO3-FOXM1 axis. When combined with chemotherapy drugs (DOX and CIS), CEP, as an autophagy inhibitor, can limit TRIB3 protein expression, thereby regulating the FOXO3-FOXM1 axis and enhancing its ability to prevent gastric cancer growth. These findings may contribute to improving the prognosis of patients with gastric cancer. Furthermore, these results enrich the fundamental understanding of how autophagy inhibition can enhance clinical cancer treatment efficacy and provide insights into the potential mechanisms by which CEP functions as an anti-tumor drug, thereby exploring its value for clinical application.",
+    "keywords": [
+      "Autophagy",
+      "Cepharanthine",
+      "FOXO3",
+      "Gastric cancer",
+      "TRIB3"
+    ],
+    "mesh_terms": [
+      "*Autophagy/drug effects",
+      "*Stomach Neoplasms/drug therapy",
+      "Humans",
+      "Animals",
+      "Cell Line, Tumor",
+      "*Benzylisoquinolines/pharmacology",
+      "*Forkhead Box Protein M1/metabolism",
+      "*Forkhead Box Protein O3/metabolism",
+      "Protein Serine-Threonine Kinases/metabolism/antagonists & inhibitors",
+      "Cell Cycle Proteins/metabolism",
+      "Stephania/chemistry",
+      "Mice",
+      "Mice, Nude",
+      "Mice, Inbred BALB C",
+      "Cisplatin/pharmacology",
+      "Doxorubicin/pharmacology",
+      "Drug Resistance, Neoplasm/drug effects",
+      "Xenograft Model Antitumor Assays",
+      "Repressor Proteins",
+      "Benzodioxoles"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Yang-Yang",
+        "Fang, Yuan-Yuan",
+        "Wang, Sha-Sha",
+        "Guo, Jing",
+        "Song, Jia-Lin",
+        "Zhu, Liang",
+        "Lin, Zhong-Kun",
+        "Wang, Rui",
+        "Zhang, Si-Yi",
+        "Qiu, Wen-Sheng",
+        "Qi, Wei-Wei"
+      ],
+      "short_names": [
+        "Lu YY",
+        "Fang YY",
+        "Wang SS",
+        "Guo J",
+        "Song JL",
+        "Zhu L",
+        "Lin ZK",
+        "Wang R",
+        "Zhang SY",
+        "Qiu WS",
+        "Qi WW"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China.",
+        "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China.",
+        "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China.",
+        "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China.",
+        "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China.",
+        "Qingdao Municipal Hospital, Department of Orthopedic Surgery, No.1 Jiaozhou Road, Shibei District, Qingdao City, Shandong Province, Qingdao 266000, China.",
+        "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China; Department of Oncology, Shandong Provincial Third Hospital, No.11 Wuyingshan Middle Road, Tianqiao District, Jinan City, Shandong Province, Jinan 250031, China.",
+        "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China.",
+        "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China.",
+        "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China. Electronic address: wsqiuqdfy@qdu.edu.cn.",
+        "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China. Electronic address: qwwqdfy@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Yang-Yang",
+        "short_name": "Lu YY",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Yuan-Yuan",
+        "short_name": "Fang YY",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Sha-Sha",
+        "short_name": "Wang SS",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Jing",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China."
+        ]
+      },
+      {
+        "full_name": "Song, Jia-Lin",
+        "short_name": "Song JL",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Liang",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "Qingdao Municipal Hospital, Department of Orthopedic Surgery, No.1 Jiaozhou Road, Shibei District, Qingdao City, Shandong Province, Qingdao 266000, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Zhong-Kun",
+        "short_name": "Lin ZK",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China; Department of Oncology, Shandong Provincial Third Hospital, No.11 Wuyingshan Middle Road, Tianqiao District, Jinan City, Shandong Province, Jinan 250031, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Rui",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Si-Yi",
+        "short_name": "Zhang SY",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Wen-Sheng",
+        "short_name": "Qiu WS",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China. Electronic address: wsqiuqdfy@qdu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Qi, Wei-Wei",
+        "short_name": "Qi WW",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Hospital of Qingdao University, Department of Oncology, No.16 Jiangsu Road, Shinan District, Qingdao 266000, China. Electronic address: qwwqdfy@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/26 19:21",
+    "fetched_at": "2026-09-30 04:48:24"
+  },
+  "links": {
+    "cites": [
+      "42539574",
+      "42400032",
+      "42334523",
+      "42179796",
+      "41751315",
+      "41731528",
+      "41491137",
+      "40859967",
+      "40859059",
+      "40821775",
+      "40530331",
+      "40529304",
+      "40474010",
+      "40399917"
+    ],
+    "refs": [],
+    "similar": [
+      "39454374",
+      "38159821",
+      "39566523",
+      "31485766",
+      "28126034",
+      "39487426",
+      "39096542",
+      "33655712",
+      "39500397",
+      "25987058",
+      "29024815",
+      "39427519",
+      "30138933",
+      "34477532",
+      "29953672",
+      "38489081",
+      "35910798",
+      "31796105",
+      "32051395",
+      "39393566",
+      "22969238",
+      "39126925",
+      "37811615",
+      "29663364",
+      "38086844",
+      "36451342",
+      "28359054",
+      "28442401",
+      "39033838",
+      "37976368",
+      "22212432",
+      "34321849",
+      "27455555",
+      "30488440",
+      "30142661",
+      "23054116",
+      "39855832",
+      "31918283",
+      "36472008",
+      "39805479",
+      "39020302",
+      "39615216",
+      "28408137",
+      "30853360",
+      "34803502",
+      "39627812",
+      "39319839",
+      "27677286",
+      "37927011",
+      "39870338",
+      "28545464",
+      "34911926",
+      "28184934",
+      "31286822",
+      "34294886",
+      "29273065",
+      "37272088",
+      "37423171",
+      "32454290",
+      "38547624",
+      "32058824",
+      "33159503",
+      "29441968",
+      "39522975",
+      "39636431",
+      "32368828",
+      "39478582",
+      "28459209",
+      "31727006",
+      "24465696",
+      "32529327",
+      "39729481",
+      "26136140",
+      "32615282",
+      "34697403",
+      "32007918",
+      "31943158",
+      "34890308",
+      "33961996",
+      "30782607",
+      "38568329",
+      "28374157",
+      "38911506",
+      "30463534",
+      "32723329",
+      "31405336",
+      "28087388",
+      "33153478",
+      "27022243",
+      "32621919",
+      "38042236",
+      "38723529",
+      "23864778",
+      "27100736",
+      "23555162",
+      "39402386",
+      "34073071",
+      "40054176",
+      "33234130",
+      "14767548"
+    ],
+    "review": [
+      "39454374",
+      "37423171"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(24)00818-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO3-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1242",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

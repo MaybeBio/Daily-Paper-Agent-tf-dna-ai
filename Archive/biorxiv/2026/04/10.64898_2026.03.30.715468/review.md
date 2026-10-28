@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report the use of two-dimensional replica-exchange molecular dynamics (gREST/REUS) to simulate the binding of the Abl kinase substrate peptide Abltide, and claim to have resolved a detailed binding landscape featuring five encounter regions, six intermediate states, and dominant binding pathways, with a specific hydrophobic patch and a negative patch on the kinase guiding the peptide toward the substrate-binding site.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical analyses were supplied
+- **Missing materials affecting confidence** Full methods, simulation parameters, convergence criteria, free-energy estimates, structural definitions of encounter regions and intermediate states, pathway analysis, and any validation against experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of an enhanced-sampling technique to a biologically relevant question, namely the binding pathway of a kinase substrate peptide. However, the claims are stated without quantitative support, and the absence of methodological detail and validation data prevents an assessment of technical soundness. The work may be of interest to computational biophysicists and kinase biologists, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists interested in enhanced-sampling methods and protein-peptide binding mechanisms would be the primary audience. Kinase biologists and drug designers targeting substrate-recognition sites may also find the mechanistic insights relevant, provided the claims are substantiated with robust simulation data and experimental correlation.
+- **Major strengths** The study addresses a genuine gap in the literature, namely the transient encounter steps preceding the bound pose, which are difficult to access experimentally and with standard simulation approaches. The choice of a two-dimensional enhanced-sampling scheme is conceptually appropriate for the problem. The identification of specific structural elements, such as the hydrophobic patch and the negative patch, offers a concrete and testable mechanistic hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The simulations yielded a detailed binding landscape, revealing five distinct encounter regions and six intermediate states that may connect the initial approach to the bound pose.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative definition of encounter regions or intermediate states, no free-energy estimates, no error bars, and no convergence assessment. Without these, the reader cannot evaluate whether the reported landscape is statistically robust or an artifact of insufficient sampling.
+  - **Why it matters** The central claim of the paper rests on the reliability of the simulated landscape. If the regions and states are not defined by clear structural or energetic criteria, or if the sampling is not converged, the entire mechanistic narrative is unsupported.
+  - **Resolution test** Provide a methods section with simulation parameters, convergence metrics, and a definition of encounter regions and intermediate states based on free-energy thresholds or structural clustering. Show that the identified features are reproducible across independent runs or replicas.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation against experiment
+  - **Claim pointer** The study focused on Abl kinase and Abltide, the experimentally identified optimal substrate peptide for Abl kinase, and examined the sequence of events linking initial encounter to the bound pose.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not state whether the simulated binding pathways or the identified intermediate states are consistent with any experimental data, such as mutagenesis, kinetic measurements, or known structural information. The claim that the findings provide mechanistic insight is therefore not anchored to external validation.
+  - **Why it matters** Without experimental correlation, the simulated pathways remain a computational prediction. The biological relevance of the encounter regions and intermediate states cannot be assessed, and the claim of mechanistic insight is premature.
+  - **Resolution test** Compare the predicted key residues and pathway order with available experimental mutagenesis or kinetic data. If such data are absent, state this limitation explicitly and frame the results as predictions requiring experimental testing.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological detail
+  - **Claim pointer** The authors used two-dimensional replica exchange (gREST/REUS), which selectively enhances flexibility in the peptide and its binding interface while also sampling progression along a distance coordinate.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify the force field, the water model, the system size, the simulation length, the number of replicas, the choice of the distance coordinate, or the criteria for selecting the gREST parameters. None of these details are available in the supplied material.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without these parameters, other groups cannot replicate the simulations, and the technical soundness of the approach cannot be evaluated.
+  - **Resolution test** Provide a complete methods section with all simulation parameters, software versions, and analysis protocols. Include a statement on data and code availability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** "Encounter regions" and "intermediate states"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The terms "encounter regions" and "intermediate states" are used without definition. It is unclear whether these are structurally distinct conformations, kinetic states, or free-energy basins.
+  - **Required correction** Define these terms explicitly in the abstract or introduction, and specify the criteria used to identify them in the analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantitative support
+  - **Affected element** "Dominant binding pathways"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The claim that some encounter regions and intermediate states participate in dominant binding pathways is not accompanied by any quantitative measure, such as flux values or pathway probabilities.
+  - **Required correction** Provide quantitative pathway analysis, such as transition fluxes or committor probabilities, to support the designation of dominant pathways.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Specificity of structural claims
+  - **Affected element** "α EF/ α G/ β 11 hydrophobic patch" and "α G helix negative patch"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract names specific structural elements but does not indicate how their role was established, for example through mutational analysis in silico or contact analysis.
+  - **Required correction** Briefly state the analysis used to assign the functional role of these patches, or refer to a figure that supports the claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria**  
+  - Originality: The application of two-dimensional enhanced sampling to peptide binding pathways is not entirely novel, but the specific focus on encounter regions and intermediate states for a kinase substrate is a reasonable extension. The originality cannot be fully assessed without the full manuscript.  
+  - Scientific importance: The question of how a peptide transitions from encounter to bound pose is relevant to kinase biology and inhibitor design. However, the importance is diminished by the lack of experimental validation or quantitative support.  
+  - Interdisciplinary readership: The topic bridges computational biophysics and kinase biology, which could attract a broad readership. The abstract is written in a way that is accessible to nonspecialists, but the lack of quantitative detail limits its appeal to method-oriented readers.  
+  - Technical soundness: Not assessable from the abstract. The absence of methodological detail and convergence analysis is a critical gap.  
+  - Readability for nonspecialists: The abstract is clearly written and avoids excessive jargon, which is a positive feature. The structural terms are introduced without explanation, but this is a minor issue.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting computational study, but the absence of methodological detail, quantitative results, and experimental validation means that the central claims cannot be evaluated. The authors should be encouraged to resubmit with a full manuscript that addresses the technical and validation concerns.
+
+## Risk / unsupported claims
+- The claim of a "detailed binding landscape" with five encounter regions and six intermediate states is unsupported without free-energy data, structural definitions, or convergence metrics.
+- The claim that specific structural patches "play a central role in guiding Abltide" is unsupported without contact analysis, mutational data, or pathway flux analysis.
+- The claim that the findings "offer a foundation for the rational design of peptide-based inhibitors" is speculative and not supported by any design or validation data in the abstract.
+- The overall mechanistic narrative is not assessable for consistency with experimental knowledge because no comparison to experimental data is provided.

@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "34074787",
+    "doi": "10.1073/pnas.2102621118",
+    "title": "Revealing atomic-scale molecular diffusion of a plant-transcription factor WRKY domain protein along DNA."
+  },
+  "content": {
+    "abstract": "Transcription factor (TF) target search on genome is highly essential for gene expression and regulation. High-resolution determination of TF diffusion along DNA remains technically challenging. Here, we constructed a TF model system using the plant WRKY domain protein in complex with DNA from crystallography and demonstrated microsecond diffusion dynamics of WRKY on DNA by employing all-atom molecular-dynamics (MD) simulations. Notably, we found that WRKY preferentially binds to one strand of DNA with significant energetic bias compared with the other, or nonpreferred strand. The preferential DNA-strand binding becomes most prominent in the static process, from nonspecific to specific DNA binding, but less distinct during diffusive movements of the domain protein on the DNA. Remarkably, without employing acceleration forces or bias, we captured a complete one-base-pair stepping cycle of the protein tracking along major groove of DNA with a homogeneous poly-adenosine sequence, as individual hydrogen bonds break and reform at the protein-DNA binding interface. Further DNA-groove tracking motions of the protein forward or backward, with occasional sliding as well as strand crossing to minor groove of DNA, were also captured. The processive diffusion of WRKY along DNA has been further sampled via coarse-grained MD simulations. The study thus provides structural dynamics details on diffusion of a small TF domain protein, suggests how the protein approaches a specific recognition site on DNA, and supports further high-precision experimental detection. The stochastic movements revealed in the TF diffusion also provide general clues about how other protein walkers step and slide along DNA.",
+    "keywords": [
+      "WRKY",
+      "facilitated diffusion",
+      "molecular dynamics",
+      "specific recognition",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Arabidopsis/*chemistry",
+      "Arabidopsis Proteins/*chemistry",
+      "DNA, Plant/*chemistry",
+      "*Molecular Dynamics Simulation",
+      "Protein Domains",
+      "Transcription Factors/*chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dai, Liqiang",
+        "Xu, Yongping",
+        "Du, Zhenwei",
+        "Su, Xiao-Dong",
+        "Yu, Jin"
+      ],
+      "short_names": [
+        "Dai L",
+        "Xu Y",
+        "Du Z",
+        "Su XD",
+        "Yu J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9842-2524",
+        "ORCID: 0000-0001-8224-1374"
+      ],
+      "affiliations": [
+        "Shenzhen JL Computational Science and Applied Research Institute, Shenzhen 518131, China.",
+        "Beijing Computational Science Research Center, Beijing 100193, China.",
+        "State Key Laboratory of Protein and Plant Gene Research, School of Life Sciences, Peking University, Beijing 100871, China.",
+        "Biomedical Pioneering Innovation Center, School of Life Sciences, Peking University, Beijing 100871, China.",
+        "State Key Laboratory of Protein and Plant Gene Research, School of Life Sciences, Peking University, Beijing 100871, China.",
+        "Biomedical Pioneering Innovation Center, School of Life Sciences, Peking University, Beijing 100871, China.",
+        "State Key Laboratory of Protein and Plant Gene Research, School of Life Sciences, Peking University, Beijing 100871, China; jin.yu@uci.edu xdsu@pku.edu.cn.",
+        "Biomedical Pioneering Innovation Center, School of Life Sciences, Peking University, Beijing 100871, China.",
+        "Department of Physics and Astronomy, University of California, Irvine, CA 92697; jin.yu@uci.edu xdsu@pku.edu.cn.",
+        "Department of Chemistry, University of California, Irvine, CA 92697.",
+        "NSF-Simons Center for Multiscale Cell Fate Research, University of California, Irvine, CA 92697."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dai, Liqiang",
+        "short_name": "Dai L",
+        "identifiers": [
+          "0000-0001-9842-2524"
+        ],
+        "affiliations": [
+          "Shenzhen JL Computational Science and Applied Research Institute, Shenzhen 518131, China.",
+          "Beijing Computational Science Research Center, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yongping",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Protein and Plant Gene Research, School of Life Sciences, Peking University, Beijing 100871, China.",
+          "Biomedical Pioneering Innovation Center, School of Life Sciences, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Du, Zhenwei",
+        "short_name": "Du Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Protein and Plant Gene Research, School of Life Sciences, Peking University, Beijing 100871, China.",
+          "Biomedical Pioneering Innovation Center, School of Life Sciences, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Su, Xiao-Dong",
+        "short_name": "Su XD",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Protein and Plant Gene Research, School of Life Sciences, Peking University, Beijing 100871, China; jin.yu@uci.edu xdsu@pku.edu.cn.",
+          "Biomedical Pioneering Innovation Center, School of Life Sciences, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Jin",
+        "short_name": "Yu J",
+        "identifiers": [
+          "0000-0001-8224-1374"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of California, Irvine, CA 92697; jin.yu@uci.edu xdsu@pku.edu.cn.",
+          "Department of Chemistry, University of California, Irvine, CA 92697.",
+          "NSF-Simons Center for Multiscale Cell Fate Research, University of California, Irvine, CA 92697."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2021 Jun 8",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/03 06:00",
+    "fetched_at": "2026-09-27 18:33:14"
+  },
+  "links": {
+    "cites": [
+      "41749079",
+      "41169590",
+      "41053219",
+      "40943057",
+      "40824860",
+      "40793960",
+      "40631181",
+      "40123340",
+      "40027831",
+      "39818622",
+      "39702019",
+      "38805268",
+      "37897044",
+      "37834371",
+      "37474674",
+      "36454011",
+      "35381009",
+      "35122321"
+    ],
+    "refs": [
+      "33469643",
+      "32933752",
+      "32820079",
+      "31734872",
+      "31665426",
+      "30767392",
+      "30131459",
+      "29806939",
+      "29433424",
+      "29059392",
+      "28633355",
+      "28575393",
+      "28471184",
+      "28414097",
+      "27660404",
+      "27658967",
+      "26596457",
+      "26569599",
+      "25845770",
+      "24859086",
+      "24753580",
+      "24222688",
+      "24187380",
+      "23430151",
+      "22723426",
+      "22677385",
+      "22219368",
+      "21543711",
+      "21178072",
+      "20408171",
+      "20304701",
+      "20237694",
+      "20095570",
+      "19898474",
+      "19361980",
+      "19129763",
+      "18679428",
+      "18456820",
+      "18281210",
+      "17656723",
+      "17499041",
+      "17264121",
+      "16585517",
+      "16397502",
+      "15465864",
+      "15178741",
+      "10785665",
+      "10026283",
+      "3612791",
+      "3290898",
+      "2642903"
+    ],
+    "similar": [
+      "34074787",
+      "35311814",
+      "22219184",
+      "30783673",
+      "28679078",
+      "29433424",
+      "30183137",
+      "32933752",
+      "18523729",
+      "23975197",
+      "22535423",
+      "35660042",
+      "22455904",
+      "24685517",
+      "37897044",
+      "23912807",
+      "25734970",
+      "16603654",
+      "31734872",
+      "24583075",
+      "25481634",
+      "15935985",
+      "12602888",
+      "28107006",
+      "11135117",
+      "24570356",
+      "33754737",
+      "31690005",
+      "26000484",
+      "36416228",
+      "32813232",
+      "30254172",
+      "27322342",
+      "27128442",
+      "27097556",
+      "38922594",
+      "15629062",
+      "29744943",
+      "11791715",
+      "15733871",
+      "31733060",
+      "30952192",
+      "25228343",
+      "25881056",
+      "25711379",
+      "19962994",
+      "16106749",
+      "29386103",
+      "16554053",
+      "29474620",
+      "12888343",
+      "19132074",
+      "27192961",
+      "33689093",
+      "22315425",
+      "22726208",
+      "30238224",
+      "21805321",
+      "17214894",
+      "19995345",
+      "26198402",
+      "21618209",
+      "29165643",
+      "31181825",
+      "19059266",
+      "27117388",
+      "27193354",
+      "14684901",
+      "21107718",
+      "26721385",
+      "15237103",
+      "33469643",
+      "26200216",
+      "19878300",
+      "11449049",
+      "24275492",
+      "33319999",
+      "16146526",
+      "23668488",
+      "27001479",
+      "26673724",
+      "30974511",
+      "27658967",
+      "33693873",
+      "23866074",
+      "21347358",
+      "24109486",
+      "34869598",
+      "22958362",
+      "36545509",
+      "22892851",
+      "36750250"
+    ],
+    "review": [
+      "34074787",
+      "27192961",
+      "21107718",
+      "22892851"
+    ],
+    "pmc": [
+      "8201915"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2102621118?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34074787/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34074787",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt0hr783hn",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

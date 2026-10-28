@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "34660783",
+    "doi": "10.1155/2021/1989917",
+    "title": "Bioinformatics Analysis of ZBTB16 as a Prognostic Marker for Ewing's Sarcoma."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: The purpose of this study is to identify novel biomarkers for the prognosis of Ewing's sarcoma based on bioinformatics analysis. METHODS: The GSE63157 and GSE17679 datasets contain patient and healthy control microarray data that were downloaded from the Gene Expression Omnibus (GEO) database and analyzed through R language software to obtain differentially expressed genes (DEGs). Firstly, Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) functional enrichment, protein-protein interaction (PPI) networks, and Cytoscape Molecular Complex Detection (MCODE) plug-in were then used to compute the highest scores of the module. After survival analysis, the hub genes were lastly obtained from the two module genes. RESULTS: A total of 1181 DEGs were identified from the two GSEs. Through MCODE and survival analysis, we obtain 53 DEGs from the module and 29 overall survival- (OS-) related genes. ZBTB16 was the only downregulated gene after Venn diagrams. Survival analysis indicates that there was a significant correlation between the high expression of ZBTB16 and the OS of Ewing's sarcoma (ES), and the low expression group had an unfavorable OS when compared to the high expression group. CONCLUSIONS: High expression of ZBTB16 may serve as a predictor biomarker of poor prognosis in ES patients.",
+    "keywords": [],
+    "mesh_terms": [
+      "Biomarkers, Tumor/*metabolism",
+      "*Computational Biology",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Ontology",
+      "Gene Regulatory Networks/drug effects",
+      "Humans",
+      "Kaplan-Meier Estimate",
+      "Prognosis",
+      "Promyelocytic Leukemia Zinc Finger Protein/*metabolism",
+      "Protein Interaction Maps/genetics",
+      "Sarcoma, Ewing/genetics/*metabolism/pathology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ding, Ke",
+        "Qiu, Wenli",
+        "Yu, Dianbo",
+        "Ma, Huade",
+        "Xie, Kangqi",
+        "Luo, Fuqiang",
+        "Li, Shanlang",
+        "Li, Zaiyong",
+        "Wei, Jihua"
+      ],
+      "short_names": [
+        "Ding K",
+        "Qiu W",
+        "Yu D",
+        "Ma H",
+        "Xie K",
+        "Luo F",
+        "Li S",
+        "Li Z",
+        "Wei J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7869-4143",
+        "ORCID: 0000-0002-3019-7321",
+        "ORCID: 0000-0003-4380-7595",
+        "ORCID: 0000-0002-7931-4293"
+      ],
+      "affiliations": [
+        "Department of Sports Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Lab Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Sports Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Sports Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Sports Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Sports Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Sports Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Sports Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China.",
+        "Department of Sports Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ding, Ke",
+        "short_name": "Ding K",
+        "identifiers": [
+          "0000-0001-7869-4143"
+        ],
+        "affiliations": [
+          "Department of Sports Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Wenli",
+        "short_name": "Qiu W",
+        "identifiers": [
+          "0000-0002-3019-7321"
+        ],
+        "affiliations": [
+          "Department of Lab Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Dianbo",
+        "short_name": "Yu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Huade",
+        "short_name": "Ma H",
+        "identifiers": [
+          "0000-0003-4380-7595"
+        ],
+        "affiliations": [
+          "Department of Sports Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Kangqi",
+        "short_name": "Xie K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Fuqiang",
+        "short_name": "Luo F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shanlang",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zaiyong",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sports Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Jihua",
+        "short_name": "Wei J",
+        "identifiers": [
+          "0000-0002-7931-4293"
+        ],
+        "affiliations": [
+          "Department of Sports Medicine, Affiliated Hospital of Youjiang Medical University for Nationalities, Baise, Guangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BioMed research international"
+    ],
+    "journal_abbrev": [
+      "Biomed Res Int"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/19 06:00",
+    "fetched_at": "2026-09-28 01:01:25"
+  },
+  "links": {
+    "cites": [
+      "36849756",
+      "35774273"
+    ],
+    "refs": [
+      "33335471",
+      "32517789",
+      "32386107",
+      "32077253",
+      "31802230",
+      "31326195",
+      "30798513",
+      "30410445",
+      "30246336",
+      "30099643",
+      "29437069",
+      "29267540",
+      "28550026",
+      "27108396",
+      "25821988",
+      "25808865",
+      "25369784",
+      "24784718",
+      "23681745",
+      "23446662",
+      "22739653",
+      "20308673",
+      "19548262",
+      "18448589",
+      "15065091",
+      "12827683",
+      "12594313",
+      "9286296",
+      "8384553",
+      "1522903"
+    ],
+    "similar": [
+      "34660783",
+      "36988561",
+      "30570875",
+      "35126643",
+      "31822116",
+      "30825595",
+      "31987036",
+      "32853947",
+      "34039311",
+      "30525236",
+      "35047627",
+      "32059076",
+      "33501609",
+      "33658475",
+      "34825846",
+      "31950035",
+      "33102593",
+      "34257537",
+      "29081411",
+      "30132538",
+      "31311829",
+      "30542696",
+      "33582701",
+      "33437215",
+      "31807166",
+      "30916045",
+      "31076281",
+      "32598242",
+      "32922167",
+      "30410352",
+      "34840971",
+      "31703725",
+      "30173393",
+      "29305979",
+      "32435051",
+      "35578666",
+      "34390411",
+      "34358255",
+      "31949544",
+      "32546690",
+      "32567431",
+      "33282948",
+      "29845250",
+      "32008037",
+      "31794546",
+      "31772617",
+      "33892537",
+      "30506958",
+      "32384023",
+      "32772341",
+      "31233342",
+      "32556504",
+      "32626989",
+      "31926587",
+      "30935420",
+      "33407587",
+      "32578582",
+      "29546564",
+      "30168505",
+      "30720105",
+      "39187104",
+      "32304567",
+      "34182903",
+      "32384511",
+      "28983581",
+      "31181055",
+      "32969465",
+      "31805030",
+      "30821656",
+      "30670912",
+      "33078282",
+      "31390578",
+      "34167437",
+      "35054979",
+      "31733575",
+      "33272232",
+      "31424263",
+      "30813939",
+      "34814332",
+      "33376723",
+      "32467990",
+      "29973580",
+      "36910645",
+      "34266404",
+      "28952134",
+      "31699960",
+      "34233293",
+      "33032291",
+      "32235821",
+      "33666785",
+      "35184458",
+      "35915456",
+      "35322620",
+      "34238413",
+      "37926573",
+      "35487915",
+      "38427643",
+      "36166051",
+      "37130628",
+      "36300516",
+      "34790763",
+      "35047058"
+    ],
+    "review": [
+      "34660783"
+    ],
+    "pmc": [
+      "8514890"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34660783/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34660783",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2021/1989917",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

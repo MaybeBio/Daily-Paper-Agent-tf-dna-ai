@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "40796740",
+    "doi": "10.1038/s41467-025-62433-2",
+    "title": "The long non-coding RNA RSDR protects against acute kidney injury in mice by interacting with hnRNPK to regulate DHODH-mediated ferroptosis."
+  },
+  "content": {
+    "abstract": "Acute kidney injury (AKI) is a serious clinical condition whose underlying mechanisms remain unclear. Here we identify a long non-coding RNA, RSDR, as a critical regulator of renal protection in AKI. RSDR interacts with the RNA-binding protein hnRNPK, forming a positive feedback loop that enhances the transcription of DHODH, a key ferroptosis-suppressing gene. Mechanistically, RSDR promotes the nuclear retention of hnRNPK and facilitates epigenetic activation of DHODH, thereby limiting ferroptosis in renal tubular epithelial cells. In vivo overexpression of RSDR attenuates ferroptosis and preserves renal function in male mice during AKI. Clinically, urinary RSDR levels are significantly reduced in patients with AKI, and machine learning analysis suggests potential utility in disease detection. These findings highlight RSDR as a central regulator of ferroptosis and provide mechanistic insights into lncRNA-mediated tubular protection in AKI.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Ferroptosis/genetics",
+      "*Acute Kidney Injury/genetics/metabolism/pathology/urine",
+      "*RNA, Long Noncoding/genetics/metabolism/urine",
+      "Mice",
+      "*Heterogeneous-Nuclear Ribonucleoprotein K/metabolism/genetics",
+      "Male",
+      "Humans",
+      "Mice, Inbred C57BL",
+      "Kidney Tubules/metabolism/pathology",
+      "Disease Models, Animal",
+      "Coenzyme A Ligases/metabolism/genetics",
+      "Epithelial Cells/metabolism",
+      "Epigenesis, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Bojun",
+        "Lin, Fangyou",
+        "Song, Baofeng",
+        "Han, ShangTing",
+        "Ye, Zehua",
+        "Sun, Yushi",
+        "Wang, Peihan",
+        "Xia, Yuqi",
+        "Yu, Weimin",
+        "Zhou, Xiangjun",
+        "Cheng, Fan"
+      ],
+      "short_names": [
+        "Li B",
+        "Lin F",
+        "Song B",
+        "Han S",
+        "Ye Z",
+        "Sun Y",
+        "Wang P",
+        "Xia Y",
+        "Yu W",
+        "Zhou X",
+        "Cheng F"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-7770-6560",
+        "ORCID: 0009-0006-8090-0501",
+        "ORCID: 0000-0002-3471-6221"
+      ],
+      "affiliations": [
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China. 24816439@qq.com.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China. urology1969@aliyun.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Bojun",
+        "short_name": "Li B",
+        "identifiers": [
+          "0009-0000-7770-6560"
+        ],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Fangyou",
+        "short_name": "Lin F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Song, Baofeng",
+        "short_name": "Song B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Han, ShangTing",
+        "short_name": "Han S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Zehua",
+        "short_name": "Ye Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yushi",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Peihan",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Yuqi",
+        "short_name": "Xia Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Weimin",
+        "short_name": "Yu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiangjun",
+        "short_name": "Zhou X",
+        "identifiers": [
+          "0009-0006-8090-0501"
+        ],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China. 24816439@qq.com."
+        ]
+      },
+      {
+        "full_name": "Cheng, Fan",
+        "short_name": "Cheng F",
+        "identifiers": [
+          "0000-0002-3471-6221"
+        ],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, China. urology1969@aliyun.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Aug 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/13 00:27",
+    "fetched_at": "2026-09-30 23:47:00"
+  },
+  "links": {
+    "cites": [
+      "42524562",
+      "42465995",
+      "42086806",
+      "41699653"
+    ],
+    "refs": [
+      "40090955",
+      "39928414",
+      "39460617",
+      "39303219",
+      "38690728",
+      "38287154",
+      "38164143",
+      "37871533",
+      "37653237",
+      "37608075",
+      "37580393",
+      "37349292",
+      "37288660",
+      "37147673",
+      "37046090",
+      "36841868",
+      "36596869",
+      "36265491",
+      "36068197",
+      "35869629",
+      "35714586",
+      "35678504",
+      "35355011",
+      "35210424",
+      "35180475",
+      "35079163",
+      "35058649",
+      "35019235",
+      "34376222",
+      "33981038",
+      "33931980",
+      "33464299",
+      "33353982",
+      "33335277",
+      "33204323",
+      "32972270",
+      "32406920",
+      "32317329",
+      "32278129",
+      "31754401",
+      "31744051",
+      "31538344",
+      "31437128",
+      "31279651",
+      "31076465",
+      "31065106",
+      "30988278",
+      "30948788",
+      "30836866",
+      "30510133",
+      "29980650",
+      "29373828",
+      "28701486",
+      "27352622",
+      "26412324",
+      "25918552",
+      "25658987",
+      "25018918",
+      "24925726",
+      "23193258",
+      "12697897",
+      "12213707"
+    ],
+    "similar": [
+      "40796740",
+      "40445517",
+      "40663488",
+      "40279386",
+      "40460552",
+      "35841017",
+      "39390627",
+      "39033829",
+      "41162865",
+      "39932439",
+      "39837470",
+      "39481837",
+      "40887103",
+      "40665400",
+      "40358793",
+      "38517565",
+      "39285846",
+      "41419644",
+      "41205882",
+      "39074555",
+      "41139230",
+      "41077100",
+      "39303219",
+      "32796819",
+      "40311989",
+      "40107353",
+      "40526985",
+      "38871033",
+      "40701388",
+      "39836248",
+      "41028852",
+      "39680752",
+      "40083709",
+      "40931477",
+      "32887795",
+      "38805781",
+      "39444036",
+      "39455033",
+      "41130579",
+      "35180475",
+      "40769945",
+      "38962954",
+      "24206243",
+      "38909885",
+      "40660473",
+      "41136411",
+      "38583680",
+      "33356954",
+      "39303541",
+      "32243922",
+      "41480995",
+      "36552750",
+      "40317558",
+      "31257491",
+      "41133730",
+      "39316049",
+      "33478972",
+      "40119472",
+      "34285231",
+      "38664873",
+      "39820927",
+      "40217118",
+      "40701506",
+      "34719669",
+      "39608596",
+      "38670420",
+      "40023248",
+      "35910788",
+      "40492946",
+      "39702678",
+      "40936924",
+      "40748757",
+      "40804518",
+      "39427763",
+      "31996668",
+      "40095256",
+      "39979265",
+      "31998294",
+      "41297179",
+      "39562779",
+      "39932791",
+      "32724027",
+      "39549609",
+      "32558891",
+      "39557743",
+      "40152606",
+      "38403348",
+      "41083610",
+      "39073055",
+      "39356748",
+      "40288699",
+      "39596095",
+      "36155281",
+      "41386389",
+      "40345457",
+      "39762558",
+      "37634745",
+      "40658176",
+      "38433477",
+      "40583332"
+    ],
+    "review": [
+      "40796740"
+    ],
+    "pmc": [
+      "12343786"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-62433-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40796740/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1028",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

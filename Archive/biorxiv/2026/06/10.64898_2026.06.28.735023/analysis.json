@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.06.28.735023",
+  "title": "Peptide:MHC Binding Stability Prediction Using Protein Language Models",
+  "authors": "Dhuvarakesh Karthikeyan; Benjamin Vincent; Alexander Rubinsteyn",
+  "journal": "bioRxiv",
+  "published_date": "2026-06-29",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用蛋白语言模型预测肽-MHC-I结合稳定性，虽涉及蛋白-肽互作但非蛋白质-DNA体系，且无TF-DNA结合建模，仅方法上对互作建模有间接启发。",
+  "abstract": "A bstract Peptide:MHC class I (pMHC-I) binding stability governs the persistence of antigenic complexes at the cell surface and plays a key role in facilitating downstream immunological signals such as antigen presentation, T-cell activation, and immunodominance. However, methods for in silico stability prediction remain underexplored relative to binding affinity prediction, in part because available half-life datasets are sparse and expensive to collect. Here, we perform a systematic reassessment of pMHC-I stability prediction using controlled, similarity-aware data splits and apply a recently introduced supervised transfer-learning strategy to MINT, an interaction-aware protein language model, pre-trained on binding affinity and fine-tuned for quantitative half-life prediction. We show that MINT improves stability prediction over standard ESM-2 representations and existing predictors, and that assay-conditioned recalibration corrects systematic shifts across experimental measurement modalities. Across eluted ligand, immunogenicity, and personalized neoantigen prioritization benchmarks, predicted stability provides signal beyond binding affinity, enriching for naturally presented and immunogenic peptides within affinity-filtered candidate sets. These results establish pMHC-I half-life as an orthogonal and transferable biophysical signal connecting peptide binding, surface presentation, and T-cell recognition, and provide a leakage-aware, assay-aware framework for future antigen-presentation modeling.",
+  "abstract_zh": "摘要 肽：MHC I类（pMHC-I）结合稳定性决定了抗原复合物在细胞表面的持久性，并在促进下游免疫信号（如抗原呈递、T细胞激活和免疫优势）中发挥关键作用。然而，与结合亲和力预测相比，计算机模拟稳定性预测的方法仍未得到充分探索，部分原因是可用的半衰期数据集稀疏且收集成本高昂。在此，我们使用受控的、相似性感知的数据划分对pMHC-I稳定性预测进行系统性重新评估，并将一种近期引入的监督迁移学习策略应用于MINT（一种交互感知蛋白质语言模型），该模型在结合亲和力上预训练，并针对定量半衰期预测进行微调。我们表明，MINT在稳定性预测上优于标准ESM-2表示和现有预测器，且基于实验条件的重新校准可纠正不同实验测量模式间的系统性偏移。在洗脱配体、免疫原性和个性化新抗原优先排序基准中，预测稳定性提供了超越结合亲和力的信号，在亲和力过滤的候选集内富集了天然呈递和免疫原性肽。这些结果确立了pMHC-I半衰期作为一种正交且可转移的生物物理信号，连接肽结合、表面呈递和T细胞识别，并为未来抗原呈递建模提供了泄漏感知、实验条件感知的框架。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.06.28.735023",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.28.735023",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.06.28.735023/index.html"
+}

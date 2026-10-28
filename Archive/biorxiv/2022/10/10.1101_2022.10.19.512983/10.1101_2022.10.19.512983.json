@@ -1,0 +1,162 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.10.19.512983",
+  "title": "Gene regulatory network inference in soybean upon infection by Phytophthora sojae",
+  "doi": "10.1101/2022.10.19.512983",
+  "abstract": "Phytophthora sojae is a soil-borne oomycete and the causal agent of Phytophthora root and stem rot (PRR) in soybean ( Glycine max [L.] Merrill). Yield losses attributed to P. sojae are devastating in disease-conducive environments, with global estimates surpassing 1.1 million tonnes annually. Historically, management of PRR has entailed host genetic resistance (both vertical and horizontal) complemented by disease-suppressive cultural practices (e.g., oomicide application). However, the vast expansion of complex and/or diverse P. sojae pathotypes necessitates developing novel technologies to attenuate PRR in field environments. Therefore, the objective of the present study was to couple high-throughput sequencing data and deep learning to elucidate molecular features in soybean following infection by P. sojae . In doing so, we generated transcriptomes to identify differentially expressed genes (DEGs) during compatible and incompatible interactions with P. sojae and a mock inoculation. The expression data were then used to select two defense-related transcription factors (TFs) belonging to WRKY and RAV families. DNA Affinity Purification and sequencing (DAP-seq) data were obtained for each TF, providing putative DNA binding sites in the soybean genome. These bound sites were used to train Deep Neural Networks with convolutional and recurrent layers to predict new target sites of WRKY and RAV family members in the DEG set. Moreover, we leveraged publicly available Arabidopsis ( Arabidopsis thaliana ) DAP-seq data for five TF families enriched in our transcriptome analysis to train similar models. These Arabidopsis data-based models were used for cross-species TF binding site prediction on soybean. Finally, we created a gene regulatory network depicting TF-target gene interactions that orchestrate an immune response against P. sojae . Information herein provides novel insight into molecular plant-pathogen interaction and may prove useful in developing soybean cultivars with more durable resistance to P. sojae . <h4>Author Summary</h4> Global food security is threatened continually by plant pathogens. One approach to circumvent these disease-causing agents entails understanding how hosts balance primary growth and defense upon pathogen perception. Molecular signatures of perception-rendered defense may be leveraged subsequently to develop resistant/tolerant crop plants. Additionally, evidence suggests that the plant immune system is characterized by tuning primary and secondary metabolic activity via transcription factor-mediated transcriptional reprogramming. Therefore, we investigated transcription factor-target gene interactions in soybean upon infection by compatible and incompatible races of Phytophthora sojae . Through transcriptome analysis, we found that the interactions elicited vast, overlapping transcriptional responses and identified overrepresented, defense-related transcription factor families. We then generated/acquired DNA-protein interactome data for the most represented transcription factor families in the transcriptome analysis and trained deep learning-based models to predict novel transcription factor targets. Transcription factor/target gene metrics were used to construct a gene regulatory network with prioritized components. We identified hub transcription factors belonging to WRKY and ERF families, the majority of which function in response to various biotic and abiotic stressors. These findings propose novel regulators in the soybean defense response to Phytophthora sojae and provide an avenue for the investigation of transcription factor-target gene interactions in plants.",
+  "authors": [
+    "Hale B",
+    "Ratnayake S",
+    "Flory A",
+    "Wijeratne R",
+    "Schmidt C",
+    "Robertson AE",
+    "Wijeratne AJ"
+  ],
+  "published_date": "2022-10-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.10.19.512983",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.10.19.512983.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR562202",
+    "raw_record": {
+      "id": "PPR562202",
+      "source": "PPR",
+      "doi": "10.1101/2022.10.19.512983",
+      "title": "Gene regulatory network inference in soybean upon infection by  <i>Phytophthora sojae</i>",
+      "authorString": "Hale B, Ratnayake S, Flory A, Wijeratne R, Schmidt C, Robertson AE, Wijeratne AJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hale B",
+            "lastName": "Hale",
+            "firstName": "Brett",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4984-017X"
+            }
+          },
+          {
+            "fullName": "Ratnayake S",
+            "lastName": "Ratnayake",
+            "firstName": "Sandaruwan",
+            "initials": "S"
+          },
+          {
+            "fullName": "Flory A",
+            "lastName": "Flory",
+            "firstName": "Ashley",
+            "initials": "A"
+          },
+          {
+            "fullName": "Wijeratne R",
+            "lastName": "Wijeratne",
+            "firstName": "Ravindu",
+            "initials": "R"
+          },
+          {
+            "fullName": "Schmidt C",
+            "lastName": "Schmidt",
+            "firstName": "Clarice",
+            "initials": "C"
+          },
+          {
+            "fullName": "Robertson AE",
+            "lastName": "Robertson",
+            "firstName": "Alison",
+            "initials": "AE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4281-6350"
+            }
+          },
+          {
+            "fullName": "Wijeratne AJ",
+            "lastName": "Wijeratne",
+            "firstName": "Asela",
+            "initials": "AJ"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4984-017X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7817-6351"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4281-6350"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Phytophthora sojae is a soil-borne oomycete and the causal agent of Phytophthora root and stem rot (PRR) in soybean (  Glycine max [L.] Merrill). Yield losses attributed to  P. sojae are devastating in disease-conducive environments, with global estimates surpassing 1.1 million tonnes annually. Historically, management of PRR has entailed host genetic resistance (both vertical and horizontal) complemented by disease-suppressive cultural practices (e.g., oomicide application). However, the vast expansion of complex and/or diverse  P. sojae pathotypes necessitates developing novel technologies to attenuate PRR in field environments. Therefore, the objective of the present study was to couple high-throughput sequencing data and deep learning to elucidate molecular features in soybean following infection by  P. sojae . In doing so, we generated transcriptomes to identify differentially expressed genes (DEGs) during compatible and incompatible interactions with  P. sojae and a mock inoculation. The expression data were then used to select two defense-related transcription factors (TFs) belonging to WRKY and RAV families. DNA Affinity Purification and sequencing (DAP-seq) data were obtained for each TF, providing putative DNA binding sites in the soybean genome. These bound sites were used to train Deep Neural Networks with convolutional and recurrent layers to predict new target sites of WRKY and RAV family members in the DEG set. Moreover, we leveraged publicly available Arabidopsis (  Arabidopsis thaliana ) DAP-seq data for five TF families enriched in our transcriptome analysis to train similar models. These Arabidopsis data-based models were used for cross-species TF binding site prediction on soybean. Finally, we created a gene regulatory network depicting TF-target gene interactions that orchestrate an immune response against  P. sojae . Information herein provides novel insight into molecular plant-pathogen interaction and may prove useful in developing soybean cultivars with more durable resistance to  P. sojae .  <h4>Author Summary</h4>  Global food security is threatened continually by plant pathogens. One approach to circumvent these disease-causing agents entails understanding how hosts balance primary growth and defense upon pathogen perception. Molecular signatures of perception-rendered defense may be leveraged subsequently to develop resistant/tolerant crop plants. Additionally, evidence suggests that the plant immune system is characterized by tuning primary and secondary metabolic activity via transcription factor-mediated transcriptional reprogramming. Therefore, we investigated transcription factor-target gene interactions in soybean upon infection by compatible and incompatible races of  Phytophthora sojae . Through transcriptome analysis, we found that the interactions elicited vast, overlapping transcriptional responses and identified overrepresented, defense-related transcription factor families. We then generated/acquired DNA-protein interactome data for the most represented transcription factor families in the transcriptome analysis and trained deep learning-based models to predict novel transcription factor targets. Transcription factor/target gene metrics were used to construct a gene regulatory network with prioritized components. We identified hub transcription factors belonging to WRKY and ERF families, the majority of which function in response to various biotic and abiotic stressors. These findings propose novel regulators in the soybean defense response to  Phytophthora sojae and provide an avenue for the investigation of transcription factor-target gene interactions in plants.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/10/22/2022.10.19.512983.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.10.19.512983"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-10-27",
+      "firstPublicationDate": "2022-10-21",
+      "firstIndexDate": "2022-10-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

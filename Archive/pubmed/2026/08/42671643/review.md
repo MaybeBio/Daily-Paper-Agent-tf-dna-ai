@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors integrate ten public RNA-seq BioProjects to identify cold-responsive transcription factors in alfalfa, using a contrast-level DEG pool, random forest ranking, and project-aware meta-analysis, and propose three candidate TFs with two prioritized as high-confidence computational candidates.
+- **Visible evidence base** Abstract text only; no figures, tables, methods section, or supplementary data provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, supplementary analyses, model hyperparameters, DEG thresholds, meta-analysis implementation details, AlphaFold3 confidence metrics, and promoter prediction details
+
+## Reviewer
+- **Overall assessment** The abstract presents a methodologically ambitious integrative framework that combines multi-project transcriptomic integration, machine learning ranking, and meta-analysis to prioritize candidate cold-responsive transcription factors in alfalfa. The work addresses a real need for cross-dataset consistency in a crop with heterogeneous public transcriptomic data. However, the abstract reveals a critical tension between the strong internal model performance and the substantially weaker external validation and meta-analytic results. The authors are transparent about these discrepancies, which is commendable, but the current evidence does not fully establish the two "high-confidence" candidates as robustly supported. The computational context provided is extensive but largely descriptive, and the abstract does not demonstrate that the prioritized candidates are functionally validated or mechanistically distinguished from the broader gene pool. The manuscript may be of interest to researchers working on alfalfa stress biology and computational transcriptomic integration, but the strength of the claims needs to be tempered or supported by additional evidence not visible in the abstract.
+- **Who would be interested in the results, and why** Researchers in forage crop stress physiology, particularly those studying alfalfa cold tolerance and CBF/DREB1 pathways, would find the candidate TF prioritization useful for targeted functional studies. Computational biologists working on multi-project transcriptomic integration and cross-dataset validation would be interested in the methodological framework, especially the contrast between internal and external validation performance. The Chr6 CBF/DREB1-like-enriched region localization may interest those studying genomic organization of stress-responsive gene clusters in legumes.
+- **Major strengths** The authors address a genuine problem of cross-dataset heterogeneity in public transcriptomic data and propose a structured integration workflow. The use of fully nested leave-one-BioProject-out validation is a rigorous approach that provides an honest estimate of generalizability. The transparency in reporting the discrepancy between internal and external performance is scientifically commendable. The project-aware multilevel meta-analysis with sensitivity analysis demonstrates methodological caution. The combination of multiple computational layers (co-expression, promoter prediction, chromosomal localization, AlphaFold3) provides a broad contextual framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The abstract states that MsG0680033896.01 and MsG0680033848.01 are "high-confidence computational candidates" and that the results "prioritize" them as such.
+  - **Evidence pointer** Abstract text, validation and meta-analysis results sections
+  - **Concern** The external validation accuracy (0.729), balanced accuracy (0.676), and ROC-AUC (0.727) are substantially lower than the internal OOB ROC-AUC (0.937). More critically, the project-aware multilevel meta-analysis did not identify any genome-wide significant transcripts after Benjamini-Hochberg correction in either the primary or sensitivity analysis. The two leading candidates showed positive pooled estimates with confidence intervals excluding zero, but this does not meet the genome-wide significance threshold that the authors themselves applied.
+  - **Why it matters** The term "high-confidence" implies a level of statistical robustness that is not supported by the meta-analytic results. The absence of genome-wide significant findings after multiple testing correction suggests that the evidence for these candidates is suggestive rather than definitive. The gap between internal and external performance also raises questions about the generalizability of the ranking model. Without functional validation or stronger statistical support, labeling these as "high-confidence" may overstate the evidence.
+  - **Resolution test** The authors should either provide additional evidence that the positive pooled estimates for the two candidates are robust to alternative meta-analytic approaches (e.g., different effect size measures, random-effects models with different estimators, or permutation-based significance testing), or temper the language to "promising candidates requiring functional validation." If genome-wide significance is not achievable with the current data, the claim of "high-confidence" should be revised.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract describes a "recurrent contrast-level DEG-derived pool of 4,354 genes" and ranking by random forest using "expression profiles from 240 samples."
+  - **Evidence pointer** Abstract text, methods description
+  - **Concern** The abstract does not specify the DEG calling thresholds, the definition of "recurrent" (e.g., how many contrasts required for inclusion), the random forest hyperparameters, the feature set used for ranking, or how the expression profiles were normalized across projects. The distinction between "contrast-level DEG-derived pool" and the expression profiles used for ranking is unclear. Without these details, the reproducibility of the framework cannot be assessed.
+  - **Why it matters** The methodological framework is a central contribution of the work. If the DEG thresholds or recurrence criteria are arbitrary or overly permissive, the gene pool may be biased. The random forest ranking is only as meaningful as the features and hyperparameters used. The lack of transparency prevents readers from evaluating the robustness of the ranking and limits the utility of the framework for other researchers.
+  - **Resolution test** The full methods should specify all thresholds, hyperparameters, and normalization procedures. The authors should also provide a sensitivity analysis showing how the ranking changes with different DEG thresholds or recurrence criteria.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The abstract states that "Co-expression, promoter prediction, chromosomal localization, and AlphaFold3 modeling provided additional computational context, including localization of the two leading candidates within a Chr6 CBF/DREB1-like-enriched region."
+  - **Evidence pointer** Abstract text, computational context section
+  - **Concern** The abstract does not report any quantitative metrics for the co-expression analysis, promoter prediction confidence, or AlphaFold3 model quality (e.g., pLDDT scores, predicted aligned error). The localization within a CBF/DREB1-like-enriched region is presented as supportive evidence, but the abstract does not indicate whether this enrichment is statistically significant or merely descriptive. The phrase "additional computational context" is vague and does not convey the strength of these lines of evidence.
+  - **Why it matters** These additional analyses are used to bolster the candidacy of the two leading TFs. If the co-expression evidence is weak, the promoter predictions are low-confidence, or the AlphaFold3 models are poorly resolved, the interpretive weight placed on these results would be inappropriate. The lack of quantitative detail prevents readers from assessing the contribution of these analyses to the overall case.
+  - **Resolution test** The full manuscript should report quantitative metrics for each computational analysis, including co-expression correlation coefficients and significance, promoter motif enrichment p-values, AlphaFold3 confidence scores, and a statistical test for the chromosomal enrichment of CBF/DREB1-like genes in the candidate region.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Candidate TF naming
+  - **Evidence pointer** Abstract text
+  - **Issue** The three candidate TFs are referred to by their PlantTFDB accession IDs (MsG0680033896.01, MsG0680033848.01, MsG0480021906.01) without any gene names, putative functional annotations, or family classifications. This makes it difficult for readers to contextualize the candidates.
+  - **Required correction** Provide gene names or family annotations (e.g., CBF/DREB1, ERF, WRKY) for each candidate in the abstract or at first mention in the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting completeness
+  - **Affected element** Validation performance metrics
+  - **Evidence pointer** Abstract text, validation results
+  - **Issue** The abstract reports accuracy, balanced accuracy, and ROC-AUC for the leave-one-BioProject-out validation but does not report precision, recall, or F1-score. For an imbalanced classification problem, these additional metrics would provide a more complete picture of model performance.
+  - **Required correction** Report precision, recall, and F1-score for the external validation, or justify why these metrics are not applicable.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Recurrent contrast-level DEG-derived pool"
+  - **Evidence pointer** Abstract text, methods description
+  - **Issue** The term "recurrent" is not defined in the abstract. It is unclear whether this refers to genes appearing as DEGs in a minimum number of contrasts, a minimum proportion of projects, or some other criterion.
+  - **Required correction** Define "recurrent" explicitly in the abstract or methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretive clarity
+  - **Affected element** "Project-sensitive candidate"
+  - **Evidence pointer** Abstract text, final sentence
+  - **Issue** The abstract describes MsG0480021906.01 as a "project-sensitive candidate" but does not explain what this means operationally. It is unclear whether this refers to instability across validation folds, sensitivity to the sensitivity analysis, or something else.
+  - **Required correction** Clarify the meaning of "project-sensitive" with reference to specific analytical results.
+
+## Risk / unsupported claims
+- The claim that MsG0680033896.01 and MsG0680033848.01 are "high-confidence computational candidates" is not fully supported by the reported meta-analytic results, which did not yield genome-wide significant findings after multiple testing correction.
+- The claim that the Chr6 region is "CBF/DREB1-like-enriched" is presented without statistical support in the abstract and cannot be evaluated from the provided material.
+- The functional relevance of the three candidate TFs is entirely unaddressed; no experimental validation is reported or claimed, which is appropriate for a computational study but should be stated explicitly as a limitation.
+- The generalizability of the random forest ranking model is questionable given the substantial drop from internal (OOB ROC-AUC = 0.937) to external (ROC-AUC = 0.727) performance, and the abstract does not discuss potential causes or implications of this gap.
+- The abstract does not report the number of contrasts per project, the distribution of DEGs across projects, or the overlap between the DEG pool and the expression profiles used for ranking, making the integration strategy difficult to evaluate.

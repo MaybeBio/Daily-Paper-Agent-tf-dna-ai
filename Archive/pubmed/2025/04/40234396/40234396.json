@@ -1,0 +1,474 @@
+{
+  "identity": {
+    "pmid": "40234396",
+    "doi": "10.1038/s41467-025-58361-w",
+    "title": "Structure of human MUTYH and functional profiling of cancer-associated variants reveal an allosteric network between its [4Fe-4S] cluster cofactor and active site required for DNA repair."
+  },
+  "content": {
+    "abstract": "MUTYH is a clinically important DNA glycosylase that thwarts mutations by initiating base-excision repair at 8-oxoguanine (OG):A lesions. The roles for its [4Fe-4S] cofactor in DNA repair remain enigmatic. Functional profiling of cancer-associated variants near the [4Fe-4S] cofactor reveals that most variations abrogate both retention of the cofactor and enzyme activity. Surprisingly, R241Q and N238S retained the metal cluster and bound substrate DNA tightly, but were completely inactive. We determine the crystal structure of human MUTYH bound to a transition state mimic and this shows that Arg241 and Asn238 build an H-bond network connecting the [4Fe-4S] cluster to the catalytic Asp236 that mediates base excision. The structure of the bacterial MutY variant R149Q, along with molecular dynamics simulations of the human enzyme, support a model in which the cofactor functions to position and activate the catalytic Asp. These results suggest that allosteric cross-talk between the DNA binding [4Fe-4S] cofactor and the base excision site of MUTYH regulate its DNA repair function.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA Glycosylases/genetics/metabolism/chemistry",
+      "Humans",
+      "*DNA Repair",
+      "*Iron-Sulfur Proteins/metabolism/chemistry/genetics",
+      "Catalytic Domain",
+      "Molecular Dynamics Simulation",
+      "Allosteric Regulation",
+      "*Neoplasms/genetics",
+      "Crystallography, X-Ray",
+      "Mutation",
+      "DNA/metabolism",
+      "Guanine/analogs & derivatives/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Trasvina-Arenas, Carlos H",
+        "Dissanayake, Upeksha C",
+        "Tamayo, Nikole",
+        "Hashemian, Mohammad",
+        "Lin, W Jonathan",
+        "Demir, Merve",
+        "Hoyos-Gonzalez, Nallely",
+        "Fisher, Andrew J",
+        "Cisneros, G Andres",
+        "Horvath, Martin P",
+        "David, Sheila S"
+      ],
+      "short_names": [
+        "Trasvina-Arenas CH",
+        "Dissanayake UC",
+        "Tamayo N",
+        "Hashemian M",
+        "Lin WJ",
+        "Demir M",
+        "Hoyos-Gonzalez N",
+        "Fisher AJ",
+        "Cisneros GA",
+        "Horvath MP",
+        "David SS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3488-6594",
+        "ORCID: 0000-0001-6629-3430",
+        "ORCID: 0000-0003-3057-9722",
+        "ORCID: 0000-0001-5873-7935"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of California, Davis, CA, USA.",
+        "Research Center on Aging, Center for Research and Advanced Studies (CINVESTAV), Mexico City, Mexico.",
+        "Department of Chemistry and Biochemistry, University of Texas at Dallas, Richardson, TX, USA.",
+        "Department of Chemistry, University of California, Davis, CA, USA.",
+        "Chemistry and Chemical Biology Graduate Program, University of California, Davis, CA, USA.",
+        "Department of Chemistry, University of California, Davis, CA, USA.",
+        "Chemistry and Chemical Biology Graduate Program, University of California, Davis, CA, USA.",
+        "Department of Chemistry, University of California, Davis, CA, USA.",
+        "Chemistry and Chemical Biology Graduate Program, University of California, Davis, CA, USA.",
+        "Department of Chemistry, University of California, Davis, CA, USA.",
+        "Chemistry and Chemical Biology Graduate Program, University of California, Davis, CA, USA.",
+        "Department of Chemistry, University of California, Davis, CA, USA.",
+        "Department of Chemistry, University of California, Davis, CA, USA.",
+        "Chemistry and Chemical Biology Graduate Program, University of California, Davis, CA, USA.",
+        "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA.",
+        "Department of Chemistry and Biochemistry, University of Texas at Dallas, Richardson, TX, USA. andres@utdallas.edu.",
+        "Department of Physics, University of Texas at Dallas, Richardson, TX, USA. andres@utdallas.edu.",
+        "School of Biological Sciences, University of Utah, Salt Lake City, UT, USA. martin.horvath@utah.edu.",
+        "Department of Chemistry, University of California, Davis, CA, USA. ssdavid@ucdavis.edu.",
+        "Chemistry and Chemical Biology Graduate Program, University of California, Davis, CA, USA. ssdavid@ucdavis.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Trasviña-Arenas, Carlos H",
+        "short_name": "Trasviña-Arenas CH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Davis, CA, USA.",
+          "Research Center on Aging, Center for Research and Advanced Studies (CINVESTAV), Mexico City, Mexico."
+        ]
+      },
+      {
+        "full_name": "Dissanayake, Upeksha C",
+        "short_name": "Dissanayake UC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Texas at Dallas, Richardson, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Tamayo, Nikole",
+        "short_name": "Tamayo N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Davis, CA, USA.",
+          "Chemistry and Chemical Biology Graduate Program, University of California, Davis, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Hashemian, Mohammad",
+        "short_name": "Hashemian M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Davis, CA, USA.",
+          "Chemistry and Chemical Biology Graduate Program, University of California, Davis, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, W Jonathan",
+        "short_name": "Lin WJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Davis, CA, USA.",
+          "Chemistry and Chemical Biology Graduate Program, University of California, Davis, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Demir, Merve",
+        "short_name": "Demir M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Davis, CA, USA.",
+          "Chemistry and Chemical Biology Graduate Program, University of California, Davis, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Hoyos-Gonzalez, Nallely",
+        "short_name": "Hoyos-Gonzalez N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Davis, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Fisher, Andrew J",
+        "short_name": "Fisher AJ",
+        "identifiers": [
+          "0000-0003-3488-6594"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Davis, CA, USA.",
+          "Chemistry and Chemical Biology Graduate Program, University of California, Davis, CA, USA.",
+          "Department of Molecular and Cellular Biology, University of California, Davis, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Cisneros, G Andrés",
+        "short_name": "Cisneros GA",
+        "identifiers": [
+          "0000-0001-6629-3430"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Texas at Dallas, Richardson, TX, USA. andres@utdallas.edu.",
+          "Department of Physics, University of Texas at Dallas, Richardson, TX, USA. andres@utdallas.edu."
+        ]
+      },
+      {
+        "full_name": "Horvath, Martin P",
+        "short_name": "Horvath MP",
+        "identifiers": [
+          "0000-0003-3057-9722"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, University of Utah, Salt Lake City, UT, USA. martin.horvath@utah.edu."
+        ]
+      },
+      {
+        "full_name": "David, Sheila S",
+        "short_name": "David SS",
+        "identifiers": [
+          "0000-0001-5873-7935"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Davis, CA, USA. ssdavid@ucdavis.edu.",
+          "Chemistry and Chemical Biology Graduate Program, University of California, Davis, CA, USA. ssdavid@ucdavis.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Apr 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/16 00:24",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42650880",
+      "42509793",
+      "42427202",
+      "42281263",
+      "41952995",
+      "41918628",
+      "41750327",
+      "41648512",
+      "41273174",
+      "40738107",
+      "40734277",
+      "40607994",
+      "40093110",
+      "39803464"
+    ],
+    "refs": [
+      "39837827",
+      "38435525",
+      "37552760",
+      "37285289",
+      "36631987",
+      "35773409",
+      "35422474",
+      "34649144",
+      "34559527",
+      "34521998",
+      "34453614",
+      "34142156",
+      "33568819",
+      "33371674",
+      "33032427",
+      "32461654",
+      "31829624",
+      "31714766",
+      "31220976",
+      "31203172",
+      "30208271",
+      "29915346",
+      "29788355",
+      "29746250",
+      "28817778",
+      "28723094",
+      "28715891",
+      "28219007",
+      "28087410",
+      "27899611",
+      "27899578",
+      "27322406",
+      "27300587",
+      "26673696",
+      "26596171",
+      "26593842",
+      "26583988",
+      "25820570",
+      "24841533",
+      "24168684",
+      "23716641",
+      "23282058",
+      "23121719",
+      "22505256",
+      "22397306",
+      "21689934",
+      "21471012",
+      "21266547",
+      "20856692",
+      "20816984",
+      "20124692",
+      "20057044",
+      "19841264",
+      "19836313",
+      "19548705",
+      "19351898",
+      "18599627",
+      "17964542",
+      "17446874",
+      "16458552",
+      "16201812",
+      "15938629",
+      "15740235",
+      "15572765",
+      "15264254",
+      "15116359",
+      "15034147",
+      "14961129",
+      "14559969",
+      "12840008",
+      "11900536",
+      "11818965",
+      "11786018",
+      "10900127",
+      "10353811",
+      "9846876",
+      "9778350",
+      "9572938",
+      "9572864"
+    ],
+    "similar": [
+      "40234396",
+      "29746241",
+      "15938629",
+      "26613369",
+      "11900536",
+      "18599627",
+      "41273174",
+      "29746250",
+      "17599416",
+      "9572864",
+      "30208271",
+      "10353811",
+      "26377631",
+      "19836313",
+      "27456281",
+      "28087410",
+      "29320630",
+      "26673696",
+      "39803464",
+      "38471078",
+      "31203172",
+      "25995449",
+      "25445713",
+      "41750327",
+      "15811798",
+      "33361155",
+      "42427202",
+      "12667065",
+      "38990758",
+      "21651304",
+      "20499678",
+      "34142156",
+      "14556741",
+      "1411536",
+      "22365610",
+      "33202125",
+      "32001618",
+      "28723094",
+      "23507534",
+      "15738421",
+      "32664726",
+      "19566093",
+      "14730969",
+      "36631987",
+      "29915346",
+      "22926731",
+      "39662289",
+      "28098999",
+      "20418187",
+      "15102448",
+      "40658017",
+      "22511791",
+      "42281263",
+      "18534194",
+      "41919677",
+      "24168684",
+      "28884175",
+      "19309314",
+      "22646210",
+      "7547971",
+      "20816984",
+      "32680866",
+      "27903453",
+      "8961928",
+      "24209961",
+      "9846876",
+      "28551381",
+      "40754315",
+      "27506792",
+      "31743022",
+      "28130451",
+      "20724227",
+      "42200805",
+      "40156857",
+      "12826281",
+      "17114185",
+      "11902903",
+      "38435525",
+      "15610848",
+      "25605932",
+      "16245934",
+      "17581577",
+      "23955443",
+      "15800616",
+      "15681617",
+      "15967800",
+      "21678934",
+      "11554297",
+      "33782054",
+      "38100250",
+      "41774038",
+      "37285289",
+      "24443563",
+      "32093595",
+      "41875043",
+      "19820168",
+      "23019358",
+      "31713418",
+      "23684897",
+      "26694661"
+    ],
+    "review": [
+      "40234396",
+      "17599416",
+      "28087410",
+      "38471078",
+      "31203172",
+      "41750327",
+      "15811798",
+      "20499678",
+      "23507534",
+      "15102448",
+      "27903453",
+      "17581577"
+    ],
+    "pmc": [
+      "12000561"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-025-58361-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40234396/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MUTYH-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4048",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/6w69t2ph",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "38890425",
+    "doi": "10.1038/s41598-024-64536-0",
+    "title": "Non-invasive detection of regulatory T cells with Raman spectroscopy."
+  },
+  "content": {
+    "abstract": "Regulatory T cells (Tregs) are a type of lymphocyte that is key to maintaining immunological self-tolerance, with great potential for therapeutic applications. A long-standing challenge in the study of Tregs is that the only way they can be unambiguously identified is by using invasive intracellular markers. Practically, the purification of live Tregs is often compromised by other cell types since only surrogate surface markers can be used. We present here a non-invasive method based on Raman spectroscopy that can detect live unaltered Tregs by coupling optical detection with machine learning implemented with regularized logistic regression. We demonstrate the validity of this approach first on murine cells expressing a surface Foxp3 reporter, and then on peripheral blood human T cells. By including methods to account for sample purity, we could generate reliable models that can identify Tregs with an accuracy higher than 80%, which is already comparable with typical sorting purities achievable with standard methods that use proxy surface markers. We could also demonstrate that it is possible to reliably detect Tregs in fully independent donors that are not part of the model training, a key milestone for practical applications.",
+    "keywords": [],
+    "mesh_terms": [
+      "*T-Lymphocytes, Regulatory/immunology",
+      "*Spectrum Analysis, Raman/methods",
+      "Humans",
+      "Animals",
+      "Mice",
+      "*Forkhead Transcription Factors/metabolism",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pavillon, N",
+        "Lim, E L",
+        "Tanaka, A",
+        "Hori, S",
+        "Sakaguchi, S",
+        "Smith, N I"
+      ],
+      "short_names": [
+        "Pavillon N",
+        "Lim EL",
+        "Tanaka A",
+        "Hori S",
+        "Sakaguchi S",
+        "Smith NI"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Biophotonics Laboratory, Immunology Frontier Research Center (IFReC), Osaka University, Yamadaoka 3-1, Suita, Osaka, 565-0871, Japan. n-pavillon@ifrec.osaka-u.ac.jp.",
+        "Experimental Immunology, Immunology Frontier Research Center (IFReC), Osaka University, Yamadaoka 3-1, Suita, Osaka, 565-0871, Japan.",
+        "Experimental Immunology, Immunology Frontier Research Center (IFReC), Osaka University, Yamadaoka 3-1, Suita, Osaka, 565-0871, Japan.",
+        "Department of Frontier Research in Tumor Immunology, Graduate School of Medicine, Osaka University, Yamadaoka 2-2, Suita, Osaka, 565-0871, Japan.",
+        "Laboratory of Immunology and Microbiology, Graduate School of Pharmaceutical Sciences, The University of Tokyo, Bunkyo-ku, Hongo 7-3-1, Tokyo, 113-0033, Japan.",
+        "Experimental Immunology, Immunology Frontier Research Center (IFReC), Osaka University, Yamadaoka 3-1, Suita, Osaka, 565-0871, Japan.",
+        "Laboratory of Experimental Immunology, Institute for Life and Medical Sciences, Kyoto University, Sakyo-ku, Shogoin Kawahara-cho 53, Kyoto, 606-8507, Japan.",
+        "Biophotonics Laboratory, Immunology Frontier Research Center (IFReC), Osaka University, Yamadaoka 3-1, Suita, Osaka, 565-0871, Japan. nsmith@ap.eng.osaka-u.ac.jp.",
+        "Center for Infectious Disease Education and Research (CiDER), Osaka University, Yamadaoka 2-8, Suita, Osaka, 565-0871, Japan. nsmith@ap.eng.osaka-u.ac.jp.",
+        "Open and Transdisciplinary Research Institute (OTRI), Osaka University, Yamadaoka 3-1, Suita, Osaka, 565-0871, Japan. nsmith@ap.eng.osaka-u.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pavillon, N",
+        "short_name": "Pavillon N",
+        "identifiers": [],
+        "affiliations": [
+          "Biophotonics Laboratory, Immunology Frontier Research Center (IFReC), Osaka University, Yamadaoka 3-1, Suita, Osaka, 565-0871, Japan. n-pavillon@ifrec.osaka-u.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Lim, E L",
+        "short_name": "Lim EL",
+        "identifiers": [],
+        "affiliations": [
+          "Experimental Immunology, Immunology Frontier Research Center (IFReC), Osaka University, Yamadaoka 3-1, Suita, Osaka, 565-0871, Japan."
+        ]
+      },
+      {
+        "full_name": "Tanaka, A",
+        "short_name": "Tanaka A",
+        "identifiers": [],
+        "affiliations": [
+          "Experimental Immunology, Immunology Frontier Research Center (IFReC), Osaka University, Yamadaoka 3-1, Suita, Osaka, 565-0871, Japan.",
+          "Department of Frontier Research in Tumor Immunology, Graduate School of Medicine, Osaka University, Yamadaoka 2-2, Suita, Osaka, 565-0871, Japan."
+        ]
+      },
+      {
+        "full_name": "Hori, S",
+        "short_name": "Hori S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Immunology and Microbiology, Graduate School of Pharmaceutical Sciences, The University of Tokyo, Bunkyo-ku, Hongo 7-3-1, Tokyo, 113-0033, Japan."
+        ]
+      },
+      {
+        "full_name": "Sakaguchi, S",
+        "short_name": "Sakaguchi S",
+        "identifiers": [],
+        "affiliations": [
+          "Experimental Immunology, Immunology Frontier Research Center (IFReC), Osaka University, Yamadaoka 3-1, Suita, Osaka, 565-0871, Japan.",
+          "Laboratory of Experimental Immunology, Institute for Life and Medical Sciences, Kyoto University, Sakyo-ku, Shogoin Kawahara-cho 53, Kyoto, 606-8507, Japan."
+        ]
+      },
+      {
+        "full_name": "Smith, N I",
+        "short_name": "Smith NI",
+        "identifiers": [],
+        "affiliations": [
+          "Biophotonics Laboratory, Immunology Frontier Research Center (IFReC), Osaka University, Yamadaoka 3-1, Suita, Osaka, 565-0871, Japan. nsmith@ap.eng.osaka-u.ac.jp.",
+          "Center for Infectious Disease Education and Research (CiDER), Osaka University, Yamadaoka 2-8, Suita, Osaka, 565-0871, Japan. nsmith@ap.eng.osaka-u.ac.jp.",
+          "Open and Transdisciplinary Research Institute (OTRI), Osaka University, Yamadaoka 3-1, Suita, Osaka, 565-0871, Japan. nsmith@ap.eng.osaka-u.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Jun 18",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/19 00:44",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [
+      "42376474",
+      "39850874"
+    ],
+    "refs": [
+      "36813799",
+      "34037676",
+      "33949431",
+      "33318659",
+      "32362325",
+      "31944553",
+      "31745140",
+      "31666527",
+      "31541224",
+      "30886359",
+      "29511099",
+      "29286634",
+      "27876845",
+      "26122357",
+      "25895619",
+      "25572258",
+      "25363779",
+      "24010655",
+      "24003124",
+      "23722248",
+      "23295372",
+      "22326580",
+      "22184220",
+      "21414208",
+      "20808728",
+      "20613859",
+      "19516582",
+      "19464196",
+      "19174509",
+      "18324243",
+      "16818678",
+      "16818676",
+      "16617117",
+      "12833477",
+      "12612578",
+      "12522256",
+      "12223286",
+      "12001996",
+      "11869690",
+      "11812990",
+      "11138001",
+      "11137993",
+      "7636184",
+      "6298963",
+      "3871469",
+      "2258700"
+    ],
+    "similar": [
+      "38890425",
+      "32522204",
+      "29757588",
+      "28049555",
+      "24102948",
+      "21635972",
+      "32987195",
+      "34518282",
+      "27320602",
+      "31149046",
+      "19016909",
+      "22884069",
+      "19956764",
+      "20967272",
+      "19713458",
+      "32330480",
+      "30915372",
+      "20384988",
+      "23432692",
+      "25701137",
+      "24796739",
+      "18836525",
+      "20332626",
+      "20631311",
+      "26056255",
+      "18410422",
+      "17575071",
+      "27003495",
+      "19390784",
+      "27560779",
+      "20554955",
+      "26580672",
+      "17997492",
+      "31266349",
+      "31608056",
+      "18613849",
+      "23969200",
+      "37246921",
+      "28224362",
+      "23417677",
+      "16557534",
+      "19539651",
+      "24958888",
+      "23735638",
+      "26818423",
+      "22484590",
+      "26414799",
+      "31171863",
+      "22079987",
+      "24784764",
+      "17897326",
+      "30224551",
+      "17557143",
+      "28802126",
+      "22645357",
+      "17376265",
+      "26307665",
+      "22419479",
+      "20015595",
+      "21237521",
+      "28696819",
+      "18281535",
+      "19812199",
+      "19455675",
+      "21936048",
+      "25468562",
+      "23285102",
+      "29282311",
+      "30687323",
+      "30723474",
+      "20041142",
+      "21982068",
+      "27725696",
+      "31156643",
+      "17182553",
+      "26517926",
+      "22475534",
+      "31235250",
+      "32057179",
+      "21208665",
+      "22490438",
+      "31571372",
+      "24970859",
+      "18453563",
+      "21301480",
+      "19019089",
+      "21746966",
+      "29857928",
+      "26343373",
+      "26293578",
+      "22510013",
+      "30319599",
+      "27622457",
+      "21106853",
+      "26561546",
+      "20448211"
+    ],
+    "review": [
+      "38890425",
+      "28049555",
+      "21635972",
+      "19390784",
+      "26580672",
+      "31608056",
+      "18613849",
+      "17557143",
+      "21237521",
+      "28696819",
+      "26517926",
+      "21301480"
+    ],
+    "pmc": [
+      "11189440"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-64536-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38890425/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38890425",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

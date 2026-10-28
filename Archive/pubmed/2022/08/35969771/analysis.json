@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35969771",
+  "title": "Inferring gene regulation from stochastic transcriptional variation across single cells at steady state.",
+  "authors": "Gupta, Anika; Martin-Rufino, Jorge D; Jones, Thouis R; Subramanian, Vidya; Qiu, Xiaojie; Grody, Emanuelle I; Bloemendal, Alex; Weng, Chen; Niu, Sheng-Yong; Min, Kyung Hoi; Mehta, Arnav; Zhang, Kaite; Siraj, Layla; Al' Khafaji, Aziz; Sankaran, Vijay G; Raychaudhuri, Soumya; Cleary, Brian; Grossman, Sharon; Lander, Eric S",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2022-08-16",
+  "window": {
+    "start": "2022-08-15",
+    "end": "2022-08-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用单细胞转录随机性推断TF-靶基因调控关系，虽涉及TF-DNA调控网络但缺乏三维互作建模，方法为统计推断而非AI或物理模拟，与课题部分相关。",
+  "abstract": "Regulatory relationships between transcription factors (TFs) and their target genes lie at the heart of cellular identity and function; however, uncovering these relationships is often labor-intensive and requires perturbations. Here, we propose a principled framework to systematically infer gene regulation for all TFs simultaneously in cells at steady state by leveraging the intrinsic variation in the transcriptional abundance across single cells. Through modeling and simulations, we characterize how transcriptional bursts of a TF gene are propagated to its target genes, including the expected ranges of time delay and magnitude of maximum covariation. We distinguish these temporal trends from the time-invariant covariation arising from cell states, and we delineate the experimental and technical requirements for leveraging these small but meaningful cofluctuations in the presence of measurement noise. While current technology does not yet allow adequate power for definitively detecting regulatory relationships for all TFs simultaneously in cells at steady state, we investigate a small-scale dataset to inform future experimental design. This study supports the potential value of mapping regulatory connections through stochastic variation, and it motivates further technological development to achieve its full potential.",
+  "abstract_zh": "转录因子（TFs）与其靶基因之间的调控关系是细胞身份和功能的核心；然而，揭示这些关系通常需要大量劳动且需进行扰动实验。在此，我们提出一个原则性框架，通过利用单细胞中转录丰度的内在变异，在稳态下系统性地推断所有转录因子的基因调控。通过建模和模拟，我们描述了转录因子基因的转录爆发如何传播至其靶基因，包括预期的时间延迟范围和最大共变幅度。我们将这些时间趋势与由细胞状态引起的时间不变共变区分开来，并阐述了在存在测量噪声的情况下利用这些微小但有意义的共波动的实验和技术要求。尽管当前技术尚不足以在稳态下同时对所有转录因子的调控关系进行充分有力的检测，我们研究了一个小规模数据集，以指导未来的实验设计。本研究支持通过随机变异绘制调控连接的潜在价值，并激励进一步的技术发展以实现其全部潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35969771/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35969771/",
+  "paper_page_path": "papers/pubmed/35969771/index.html"
+}

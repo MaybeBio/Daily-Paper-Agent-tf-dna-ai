@@ -1,0 +1,241 @@
+{
+  "identity": {
+    "pmid": "36386160",
+    "doi": "10.3389/fphar.2022.1018294",
+    "title": "DPB-NBFnet: Using neural Bellman-Ford networks to predict DNA-protein binding."
+  },
+  "content": {
+    "abstract": "DNA is a hereditary material that plays an essential role in micro-organisms and almost all other organisms. Meanwhile, proteins are a vital composition and principal undertaker of microbe movement. Therefore, studying the bindings between DNA and proteins is of high significance from the micro-biological point of view. In addition, the binding affinity prediction is beneficial for the study of drug design. However, existing experimental methods to identifying DNA-protein bindings are extremely expensive and time consuming. To solve this problem, many deep learning methods (including graph neural networks) have been developed to predict DNA-protein interactions. Our work possesses the same motivation and we put the latest Neural Bellman-Ford neural networks (NBFnets) into use to build pair representations of DNA and protein to predict the existence of DNA-protein binding (DPB). NBFnet is a graph neural network model that uses the Bellman-Ford algorithms to get pair representations and has been proven to have a state-of-the-art performance when used to solve the link prediction problem. After building the pair representations, we designed a feed-forward neural network structure and got a 2-D vector output as a predicted value of positive or negative samples. We conducted our experiments on 100 datasets from ENCODE datasets. Our experiments indicate that the performance of DPB-NBFnet is competitive when compared with the baseline models. We have also executed parameter tuning with different architectures to explore the structure of our framework.",
+    "keywords": [
+      "DNA-protein binding",
+      "DPB-NBFnet",
+      "bioinformatics",
+      "computational biology",
+      "graph neural networks",
+      "neural Bellman-Ford algorithms"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jing",
+        "Zhuo, Linlin",
+        "Lian, Xinze",
+        "Pan, Shiyao",
+        "Xu, Lei"
+      ],
+      "short_names": [
+        "Li J",
+        "Zhuo L",
+        "Lian X",
+        "Pan S",
+        "Xu L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Data Science and Artificial Intelligence, Wenzhou University of Techonology, Wenzhou, China.",
+        "School of Data Science and Artificial Intelligence, Wenzhou University of Techonology, Wenzhou, China.",
+        "School of Data Science and Artificial Intelligence, Wenzhou University of Techonology, Wenzhou, China.",
+        "School of Data Science and Artificial Intelligence, Wenzhou University of Techonology, Wenzhou, China.",
+        "School of Electronic and Communication Engineering, Shenzhen Polytechnic, Shenzhen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jing",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Data Science and Artificial Intelligence, Wenzhou University of Techonology, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhuo, Linlin",
+        "short_name": "Zhuo L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Data Science and Artificial Intelligence, Wenzhou University of Techonology, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lian, Xinze",
+        "short_name": "Lian X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Data Science and Artificial Intelligence, Wenzhou University of Techonology, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Shiyao",
+        "short_name": "Pan S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Data Science and Artificial Intelligence, Wenzhou University of Techonology, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Lei",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Communication Engineering, Shenzhen Polytechnic, Shenzhen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in pharmacology"
+    ],
+    "journal_abbrev": [
+      "Front Pharmacol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/18 06:00",
+    "fetched_at": "2026-09-28 16:21:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "35868049",
+      "35690477",
+      "35554485",
+      "35534179",
+      "35325038",
+      "35018418",
+      "34649044",
+      "34571535",
+      "33822882",
+      "33313672",
+      "33119044",
+      "32217482",
+      "32142788",
+      "32105326",
+      "31898477",
+      "31510640",
+      "27853626",
+      "26213851"
+    ],
+    "similar": [
+      "36386160",
+      "39372928",
+      "39149355",
+      "35313247",
+      "36049552",
+      "33522829",
+      "32798654",
+      "31521253",
+      "32367110",
+      "31208331",
+      "33822882",
+      "34889446",
+      "29982330",
+      "36063562",
+      "35838124",
+      "35428964",
+      "32693790",
+      "32321421",
+      "31288752",
+      "33431042",
+      "35108362",
+      "31359036",
+      "28923002",
+      "35652477",
+      "32970681",
+      "35768792",
+      "36144868",
+      "33754707",
+      "26206306",
+      "34099048",
+      "31369568",
+      "35524503",
+      "35711758",
+      "30939415",
+      "27378654",
+      "34232893",
+      "34718408",
+      "34944427",
+      "29783926",
+      "34661237",
+      "35066446",
+      "31904845",
+      "34625020",
+      "30296240",
+      "35715734",
+      "33989153",
+      "30307885",
+      "35479616",
+      "35453147",
+      "28245811",
+      "34892183",
+      "33381844",
+      "35380622",
+      "33243142",
+      "33799080",
+      "36154119",
+      "34828296",
+      "36037723",
+      "34260355",
+      "36360220",
+      "35511108",
+      "29281985",
+      "30419785",
+      "35514190",
+      "35511057",
+      "33334313",
+      "32597948",
+      "34450380",
+      "32920048",
+      "33588722",
+      "35275993",
+      "33371891",
+      "39345796",
+      "33286359",
+      "37604997",
+      "31576403"
+    ],
+    "review": [
+      "36386160",
+      "35652477",
+      "35275993"
+    ],
+    "pmc": [
+      "9651613"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36386160/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36386160",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphar.2022.1018294",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

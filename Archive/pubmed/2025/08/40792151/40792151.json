@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "40792151",
+    "doi": "10.21037/tcr-2025-277",
+    "title": "Identification and validation of hub genes for kidney renal clear cell carcinoma treated with metformin and everolimus combination therapy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Renal cell carcinoma (RCC) is a prevalent malignancy of the urinary system that presents significant health and economic burdens. Despite existing treatments such as surgery and targeted therapies, challenges remain due to suboptimal efficacy and high recurrence rates. Previous studies have indicated that metformin and everolimus individually exhibit inhibitory effects on RCC. However, their synergistic potential when combined has not been fully elucidated. Therefore, this paper identified the antiproliferative effect and the hub genes that undergo significant changes in 786-O cells when treated with the combination drugs and their underlying mechanisms to inform the search for kidney renal clear cell carcinoma (KIRC) therapeutic targets. METHODS: The effects of the combination of metformin and everolimus on 786-O cells viability, migration and invasion were investigated. Differentially expressed genes (DEGs) among different drug treatment groups were identified through ribonucleic acid (RNA) sequencing, raw data processing and differential expression analysis. The target genes were obtained by taking the intersection of different DEGs, and hub genes were identified by Maximal Clique Centrality (MCC) and Molecular Complex Detection (MCODE) algorithms, expression validation, and Kaplan-Meier (K-M) survival curve plotting. Subsequently, transcription factors (TFs) regulating the hub genes were identified and drug-hub gene interactions were explored through molecular docking. In addition, gene set enrichment analysis (GSEA) demonstrated hub gene-related biological functions and pathways, and gene set variation analysis (GSVA) explored differential pathways between different drug treatment groups. Finally, quantitative real-time polymerase chain reaction (qRT-PCR) was performed to verify the expression difference of hub genes among four groups. RESULTS: The combination of metformin and everolimus is more effective than monotherapy at inhibiting cell viability, migration, and invasion in 786-O cells. In total, 3,030 DEG1, 2,953 DEG2, 3,591 DEG3, 1,571 DEG4 and 4,064 DEG5 were identified, yielding five target genes. After MCC and MCODE algorithms, expression validation, and K-M survival curve plotting, target genes were all noted as hub genes (SPC25, NCAPH, MCM10, UHRF1, SMC4). Eleven TFs regulated more than two hub genes, and the binding energy of metformin with SPC25 and everolimus with SMC4 was the lowest. Hub genes were negatively correlated with lysosome and positively associated with cell cycle, and the P13K/Akt/mTOR signaling pathway was significantly positively correlated with hub genes. CONCLUSIONS: Metformin and everolimus are synergistic in anticancer effects on RCC. Based on transcriptomic data, this study obtained five hub genes associated with everolimus and metformin combination therapy in KIRC to inform KIRC-related research.",
+    "keywords": [
+      "Kidney renal clear cell carcinoma (KIRC)",
+      "bioinformatics",
+      "everolimus",
+      "metformin",
+      "molecular docking"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Shenbao",
+        "Zhang, Bin",
+        "Zhang, Lili",
+        "Shang, Panfeng",
+        "Yue, Zhongjin"
+      ],
+      "short_names": [
+        "He S",
+        "Zhang B",
+        "Zhang L",
+        "Shang P",
+        "Yue Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Institute of Urology, Gansu Province Clinical Research Center for Urinary System Disease, Lanzhou University Second Hospital, Lanzhou, China.",
+        "Department of Urology, Shanxi Provincial People's Hospital Affiliated to Shanxi Medical University, Taiyuan, China.",
+        "Department of Nephrology, Lanzhou University Second Hospital, Lanzhou, China.",
+        "Department of Urology, Institute of Urology, Gansu Province Clinical Research Center for Urinary System Disease, Lanzhou University Second Hospital, Lanzhou, China.",
+        "Department of Urology, Institute of Urology, Gansu Province Clinical Research Center for Urinary System Disease, Lanzhou University Second Hospital, Lanzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Shenbao",
+        "short_name": "He S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Institute of Urology, Gansu Province Clinical Research Center for Urinary System Disease, Lanzhou University Second Hospital, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bin",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Shanxi Provincial People's Hospital Affiliated to Shanxi Medical University, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lili",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Lanzhou University Second Hospital, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Panfeng",
+        "short_name": "Shang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Institute of Urology, Gansu Province Clinical Research Center for Urinary System Disease, Lanzhou University Second Hospital, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Zhongjin",
+        "short_name": "Yue Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Institute of Urology, Gansu Province Clinical Research Center for Urinary System Disease, Lanzhou University Second Hospital, Lanzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational cancer research"
+    ],
+    "journal_abbrev": [
+      "Transl Cancer Res"
+    ],
+    "pub_date": "2025 Jul 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/12 11:15",
+    "fetched_at": "2026-09-30 23:47:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39948743",
+      "39215019",
+      "39196544",
+      "39158349",
+      "38901722",
+      "38605119",
+      "38456178",
+      "38230766",
+      "38217547",
+      "37848534",
+      "37596643",
+      "37037091",
+      "37007153",
+      "36642844",
+      "36328378",
+      "36147467",
+      "36100483",
+      "36072902",
+      "35885994",
+      "34572837",
+      "34142285",
+      "34067321",
+      "33538338",
+      "33524789",
+      "33261058",
+      "32748870",
+      "31831021",
+      "31778746",
+      "31628143",
+      "31626727",
+      "31583436",
+      "31542292",
+      "31422942",
+      "31043707",
+      "31009043",
+      "30988807",
+      "30408771",
+      "28961310",
+      "27959383",
+      "26102039",
+      "25605792",
+      "25516281",
+      "24834071",
+      "24695404",
+      "24227677",
+      "22455463",
+      "21214517",
+      "18653228",
+      "17673620",
+      "15937217",
+      "11042144"
+    ],
+    "similar": [
+      "40792151",
+      "40265430",
+      "35885994",
+      "39980583",
+      "37744271",
+      "37818073",
+      "41419874",
+      "35942760",
+      "40489038",
+      "41288681",
+      "34354368",
+      "35945960",
+      "34818247",
+      "40216809",
+      "36978048",
+      "37854221",
+      "41196851",
+      "32973873",
+      "40359556",
+      "34295922",
+      "35860559",
+      "37315507",
+      "32944533",
+      "37624678",
+      "39624136",
+      "37818055",
+      "30793530",
+      "38464749",
+      "34660292",
+      "34934449",
+      "31233342",
+      "33636636",
+      "40628511",
+      "38783263",
+      "36321868",
+      "31390578",
+      "38560573",
+      "40390492",
+      "38361759",
+      "30160042",
+      "40256740",
+      "35762549",
+      "37796681",
+      "36193154",
+      "33133154",
+      "38131663",
+      "32218839",
+      "37560222",
+      "37455526",
+      "35313524",
+      "40055592",
+      "39874886",
+      "36053927",
+      "38319987",
+      "37740762",
+      "32748870",
+      "37033969",
+      "31772671",
+      "40442788",
+      "34572837",
+      "39507856",
+      "37484803",
+      "35812314",
+      "36642989",
+      "40854632",
+      "38259479",
+      "38777778",
+      "37193028",
+      "39403102",
+      "35958412",
+      "40155870",
+      "40419510",
+      "35562622",
+      "36313709",
+      "31987036",
+      "37153569",
+      "35012906",
+      "38794205",
+      "40078458",
+      "31697440",
+      "35140327",
+      "34261913",
+      "38077447",
+      "30417363",
+      "40396123",
+      "40377806",
+      "32780567",
+      "39096939",
+      "34234459",
+      "36860851",
+      "36532492",
+      "36854280",
+      "40821971",
+      "38329418",
+      "25559354",
+      "37240154",
+      "36496205",
+      "36969076",
+      "29508215",
+      "38062833"
+    ],
+    "review": [
+      "40792151"
+    ],
+    "pmc": [
+      "12335713"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40792151/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21037/tcr-2025-277",
+        "provider": "AME Publishing Company",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1210",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "41372957",
+    "doi": "10.1186/s40001-025-03640-x",
+    "title": "Screening and predictive analysis of common regulatory genes in diabetes and rectal cancer: transcriptional and drug modulation mechanisms."
+  },
+  "content": {
+    "abstract": "BACKGROUND: There is a strong association between type 2 diabetes mellitus (T2DM) and rectal cancer (RC), but a detailed understanding of the potential mechanistic links and gene regulatory interactions between these two diseases remains limited. METHODS: The differential expression analysis and RT-qPCR were performed on the expression data of T2DM and RC to identify shared differentially expressed genes (DEGs) between these diseases. Functional enrichment and protein-protein interaction (PPI) analyses were conducted. Subsequently, the Cytoscape software was used to calculate the protein centrality PPI network diagram and screen hub genes. Predictive analyses were performed for upstream transcription factors (TFs) of these hub genes to uncover potential regulatory mechanisms. Additionally, candidate TFs were analyzed for modulation of upstream drugs, including molecular docking studies. RESULTS: The expression data analysis of T2DM and RC identified 17 significantly upregulated and 111 significantly downregulated genes in both diseases. Further PPI analysis and centrality calculation highlighted 15 genes, including SYP, as central within the interaction network, suggesting their key regulatory roles in T2DM and RC. In addition, we used RT-PCR to detect the expression of several DEG genes in T2DM and RC, and the results showed that CDH3, CHGA, ESR1, SCG3, SP1 and SYP genes were the highest in patients with comorbidities, while compared with normal healthy people, the expression of CDH3, CHGA, ESR1, SCG3, SP1 and SYP genes was higher. The expressions of CDH3, CHGA, ESR1, SCG3, SP1 and SYP genes were also significantly increased in T2DM and RC, which was consistent with our prediction. Transcription factor prediction indicated that SP1 could regulate multiple hub genes, suggesting its pivotal regulatory role in T2DM and RC. Further molecular docking revealed that SP1 may target genes for stearic acid and (-)-epigallocatechin-3-gallate (EGCG). CONCLUSIONS: Genes such as SYP show significant differential expression in both T2DM and RC and may play significant roles in the progression of T2DM and RC. Transcription factor analysis suggested that SP1 could regulate multiple hub genes. Molecular docking indicated that SP1 is a potential target for active components like stearic acid and EGCG in Ginkgo biloba, highlighting its potential as a therapeutic agent for T2DM and RC.",
+    "keywords": [
+      "Bioinformatics",
+      "Disease association",
+      "Drug molecule",
+      "Hub gene",
+      "Rectal cancer",
+      "Type 2 diabetes mellitus"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Rectal Neoplasms/genetics/drug therapy",
+      "*Diabetes Mellitus, Type 2/genetics/drug therapy",
+      "Protein Interaction Maps",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "Transcription Factors/genetics/metabolism",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Shuxing",
+        "Huo, Hongjie",
+        "Liu, Yuansheng",
+        "Shi, Xinyang",
+        "Liu, Chunhui",
+        "Zha, Hanyi",
+        "Shi, Yang"
+      ],
+      "short_names": [
+        "Wu S",
+        "Huo H",
+        "Liu Y",
+        "Shi X",
+        "Liu C",
+        "Zha H",
+        "Shi Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology 1, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China.",
+        "Department of Respiratory Medicine, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China.",
+        "Department of Colorectal Surgery, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China.",
+        "Tianjin Institute of Coloproctology, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China.",
+        "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, China.",
+        "North China University of Science and Technology Affiliated Hospital, Tangshan, 063000, China.",
+        "Department of Colorectal Surgery, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China.",
+        "Tianjin Institute of Coloproctology, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China.",
+        "Department of Colorectal Surgery, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China. 13034326098@163.com.",
+        "Tianjin Institute of Coloproctology, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China. 13034326098@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Shuxing",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology 1, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China."
+        ]
+      },
+      {
+        "full_name": "Huo, Hongjie",
+        "short_name": "Huo H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory Medicine, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuansheng",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China.",
+          "Tianjin Institute of Coloproctology, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Xinyang",
+        "short_name": "Shi X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, 94 Weijin Road, Tianjin, 300071, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chunhui",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "North China University of Science and Technology Affiliated Hospital, Tangshan, 063000, China."
+        ]
+      },
+      {
+        "full_name": "Zha, Hanyi",
+        "short_name": "Zha H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China.",
+          "Tianjin Institute of Coloproctology, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Yang",
+        "short_name": "Shi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China. 13034326098@163.com.",
+          "Tianjin Institute of Coloproctology, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China. 13034326098@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2025 Dec 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/11 01:22",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41268772",
+      "41089039",
+      "39305040",
+      "39139417",
+      "39077416",
+      "39076313",
+      "38963020",
+      "38545214",
+      "38525833",
+      "38428907",
+      "38318835",
+      "38264278",
+      "37580771",
+      "37476408",
+      "37435233",
+      "37147632",
+      "36874406",
+      "36835075",
+      "36527470",
+      "36438502",
+      "36302455",
+      "35461253",
+      "35420971",
+      "35303882",
+      "35247177",
+      "35062888",
+      "34557778",
+      "33090588",
+      "32777444",
+      "32735108",
+      "32724414",
+      "32050495",
+      "32021469",
+      "31969592",
+      "31588572",
+      "31544697",
+      "30084431",
+      "29087512",
+      "28923559",
+      "27611656",
+      "27197110",
+      "26605682",
+      "26476454",
+      "26162991",
+      "25960131",
+      "25613817",
+      "25530442",
+      "25521941",
+      "24936258",
+      "24735618",
+      "24266296",
+      "24130081",
+      "23046351",
+      "22914790",
+      "22593429",
+      "22552844",
+      "22455463",
+      "22350783",
+      "22323989",
+      "22022994",
+      "21723505",
+      "21233153",
+      "20598198",
+      "20192923",
+      "19620249",
+      "19209175",
+      "18541994",
+      "17498513",
+      "16365013",
+      "16236494",
+      "15480982",
+      "12764580",
+      "12525261",
+      "10592173",
+      "8164530",
+      "7749056",
+      "6498783"
+    ],
+    "similar": [
+      "41372957",
+      "32714075",
+      "41120603",
+      "39176085",
+      "40834023",
+      "41081092",
+      "33902539",
+      "41162503",
+      "34588861",
+      "41132669",
+      "41079183",
+      "32705173",
+      "41424060",
+      "41533020",
+      "36899621",
+      "33915220",
+      "40628511",
+      "39080630",
+      "41511918",
+      "34218797",
+      "37556419",
+      "38703871",
+      "33792237",
+      "31987036",
+      "40826767",
+      "41005317",
+      "38062833",
+      "40804795",
+      "35762549",
+      "32041280",
+      "31669638",
+      "28901494",
+      "30935420",
+      "41327255",
+      "39145311",
+      "40787105",
+      "40045538",
+      "31211595",
+      "33728329",
+      "40898538",
+      "39442645",
+      "38319987",
+      "35271662",
+      "33134394",
+      "40824019",
+      "29286093",
+      "27572852",
+      "29620143",
+      "39292564",
+      "39936105",
+      "33102593",
+      "41009706",
+      "39798693",
+      "35187175",
+      "40216809",
+      "39634181",
+      "39350059",
+      "34675622",
+      "40282196",
+      "36291136",
+      "33622336",
+      "28952134",
+      "40406126",
+      "33890634",
+      "40739239",
+      "41298601",
+      "30132538",
+      "33827531",
+      "40963625",
+      "40574839",
+      "40024299",
+      "34975885",
+      "39819718",
+      "34600545",
+      "39375405",
+      "34215202",
+      "41326554",
+      "32781959",
+      "29921304",
+      "39118438",
+      "33941565",
+      "33149760",
+      "39888730",
+      "29620215",
+      "40015667",
+      "34234459",
+      "30825595",
+      "40859027",
+      "32982206",
+      "40696679",
+      "41196851",
+      "36046789",
+      "40977739",
+      "39086489",
+      "38259479",
+      "38366952",
+      "30641220",
+      "40895573",
+      "41006883",
+      "37740761"
+    ],
+    "review": [
+      "41372957"
+    ],
+    "pmc": [
+      "12801799"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-025-03640-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetestype2.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 2"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41372957/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CHGA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3875",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

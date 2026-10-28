@@ -1,0 +1,429 @@
+{
+  "identity": {
+    "pmid": "39905493",
+    "doi": "10.1186/s12967-025-06150-w",
+    "title": "Single-cell profiling reveals a reduced epithelial defense system, decreased immune responses and the immune regulatory roles of different fibroblast subpopulations in chronic atrophic gastritis."
+  },
+  "content": {
+    "abstract": "PURPOSE: To identify key cellular changes and molecular events in atrophic mucosa, we aimed to elucidate the molecular mechanisms driving the occurrence of chronic atrophic gastritis (CAG). METHODS: We used single-cell RNA sequencing (scRNA-seq) to characterize changes in the epithelial state and tissue microenvironment associated with CAG. The molecular changes were identified by comparing differentially expressed genes (DEGs) between the two mucosa states. Gene Ontology (GO) pathway enrichment analysis was used to explore the potential functional changes in each cell subtype in atrophic mucosa. Gene set score analysis was conducted to compare the functional roles of different fibroblast subtypes and functional changes in cell subtypes between the CAG and control groups. Metabolic analysis was performed to compare the metabolic activity of C1Q(+) macrophages under different conditions. NichNet analysis was used to analyze the regulatory relationships between CCL11(+)APOE(+) fibroblasts and C1Q(+) macrophages and between CCL11(+)APOE(+) fibroblasts and CD8(+) effector T cells. Transcription factor (TF) analysis was performed to determine the transcription status of different T-cell subtypes in atrophic and normal mucosa. RESULTS: We generated a single-cell transcriptomic atlas from 3 CAG biopsy samples and paired adjacent normal tissues. Our analysis revealed that chief cells and parietal cells exhibited a loss of detoxification ability and that surface mucous cells displayed a reduced antimicrobial defense ability in CAG lesions. The mucous neck cells in CAG lesions showed upregulation of genes related to cell cycle transition, which may lead to aberrant DNA replication. Additionally, cells with the T exhaustion phenotype infiltrated under CAG condition. C1Q(+) macrophages exhibited reduced phagocytosis, downregulated expression of pattern recognition receptors and decreased metabolic activity. NichNet analysis revealed that a subpopulation of CXCL11(+)APOE(+) fibroblasts regulated the inflammatory response in the pathogenesis of atrophic gastritis. APSN(+)CXCL11(+)APOE(+) fibroblasts were found to be associated with gastric cancer (GC) development. CONCLUSIONS: The main goal of this study was to comprehensively elucidate the cellular changes in CAG lesions. We observed an immune decline in the mucosal microenvironment during the development of CAG, including a reduced immune response of C1Q(+) macrophages, reduced cytotoxicity of T cells, and increased infiltration of exhausted T cells. Specifically, we demonstrated that different epithelial subtypes aberrantly express genes related to susceptibility to external bacterial infection and aberrant cell cycle progression. Our study provides new insights into the functions of epithelial changes and immune alterations during the development of CAG.",
+    "keywords": [
+      "CAG",
+      "Detoxification",
+      "Fibroblast",
+      "Immune dysfunction",
+      "Single-cell RNA sequencing (scRNA-seq)",
+      "T-cell exhaustion"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Gastritis, Atrophic/immunology/genetics/pathology",
+      "*Single-Cell Analysis",
+      "*Fibroblasts/pathology/immunology",
+      "Gastric Mucosa/pathology/immunology",
+      "Macrophages/metabolism",
+      "Gene Expression Profiling",
+      "Chronic Disease",
+      "*Immunity/genetics",
+      "*Epithelial Cells/pathology",
+      "Transcriptome/genetics",
+      "Gene Ontology",
+      "Epithelium/pathology",
+      "Gene Expression Regulation",
+      "Female"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Lin",
+        "Huang, Tingxuan",
+        "Li, Lizhi",
+        "Lin, Yang",
+        "Chen, Feng",
+        "Zheng, Ziyi",
+        "Zhou, Jie",
+        "Wang, Yizhe",
+        "You, Weihao",
+        "Duan, Yujie",
+        "An, Yawen",
+        "He, Shiwei",
+        "Ye, Weimin"
+      ],
+      "short_names": [
+        "Lin L",
+        "Huang T",
+        "Li L",
+        "Lin Y",
+        "Chen F",
+        "Zheng Z",
+        "Zhou J",
+        "Wang Y",
+        "You W",
+        "Duan Y",
+        "An Y",
+        "He S",
+        "Ye W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6859-4648"
+      ],
+      "affiliations": [
+        "Institute of Population Medicine, School of Public Health, Fujian Medical University, 1 Xuefu North Road, Fuzhou, 350122, China.",
+        "Department of Gastroenterology, Fujian Medical University Union Hospital, Fuzhou, 350001, China.",
+        "Fujian Clinical Research Center for Digestive System Tumors and Upper Gastrointestinal Diseases, Fuzhou, 350001, China.",
+        "Department of Pediatric Surgery, Shengli Clinical Medical College of Fujian Medical University, Fuzhou, 350001, China.",
+        "Department of Pediatric Surgery, Shengli Clinical Medical College of Fujian Medical University, Fuzhou, 350001, China.",
+        "Department of Pediatric Surgery, Fujian Medical University Union Hospital, Fuzhou, 350001, China.",
+        "Department of Pediatric Surgery, Fujian Medical University Union Hospital, Fuzhou, 350001, China.",
+        "Department of Pediatric Surgery, Fujian Medical University Union Hospital, Fuzhou, 350001, China.",
+        "Institute of Population Medicine, School of Public Health, Fujian Medical University, 1 Xuefu North Road, Fuzhou, 350122, China.",
+        "Institute of Population Medicine, School of Public Health, Fujian Medical University, 1 Xuefu North Road, Fuzhou, 350122, China.",
+        "Institute of Population Medicine, School of Public Health, Fujian Medical University, 1 Xuefu North Road, Fuzhou, 350122, China.",
+        "Institute of Population Medicine, School of Public Health, Fujian Medical University, 1 Xuefu North Road, Fuzhou, 350122, China.",
+        "Institute of Population Medicine, School of Public Health, Fujian Medical University, 1 Xuefu North Road, Fuzhou, 350122, China. shiweihe@fjmu.edu.cn.",
+        "Institute of Population Medicine, School of Public Health, Fujian Medical University, 1 Xuefu North Road, Fuzhou, 350122, China. ywm@fjmu.edu.cn.",
+        "Key Laboratory of Ministry of Education for Gastrointestinal Cancer, Fujian Medical University, Fuzhou, 350122, China. ywm@fjmu.edu.cn.",
+        "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, 17177, Sweden. ywm@fjmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Lin",
+        "short_name": "Lin L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Population Medicine, School of Public Health, Fujian Medical University, 1 Xuefu North Road, Fuzhou, 350122, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Tingxuan",
+        "short_name": "Huang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Fujian Medical University Union Hospital, Fuzhou, 350001, China.",
+          "Fujian Clinical Research Center for Digestive System Tumors and Upper Gastrointestinal Diseases, Fuzhou, 350001, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lizhi",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, Shengli Clinical Medical College of Fujian Medical University, Fuzhou, 350001, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Yang",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, Shengli Clinical Medical College of Fujian Medical University, Fuzhou, 350001, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Feng",
+        "short_name": "Chen F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, Fujian Medical University Union Hospital, Fuzhou, 350001, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Ziyi",
+        "short_name": "Zheng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, Fujian Medical University Union Hospital, Fuzhou, 350001, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jie",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, Fujian Medical University Union Hospital, Fuzhou, 350001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yizhe",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Population Medicine, School of Public Health, Fujian Medical University, 1 Xuefu North Road, Fuzhou, 350122, China."
+        ]
+      },
+      {
+        "full_name": "You, Weihao",
+        "short_name": "You W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Population Medicine, School of Public Health, Fujian Medical University, 1 Xuefu North Road, Fuzhou, 350122, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Yujie",
+        "short_name": "Duan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Population Medicine, School of Public Health, Fujian Medical University, 1 Xuefu North Road, Fuzhou, 350122, China."
+        ]
+      },
+      {
+        "full_name": "An, Yawen",
+        "short_name": "An Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Population Medicine, School of Public Health, Fujian Medical University, 1 Xuefu North Road, Fuzhou, 350122, China."
+        ]
+      },
+      {
+        "full_name": "He, Shiwei",
+        "short_name": "He S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Population Medicine, School of Public Health, Fujian Medical University, 1 Xuefu North Road, Fuzhou, 350122, China. shiweihe@fjmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ye, Weimin",
+        "short_name": "Ye W",
+        "identifiers": [
+          "0000-0002-6859-4648"
+        ],
+        "affiliations": [
+          "Institute of Population Medicine, School of Public Health, Fujian Medical University, 1 Xuefu North Road, Fuzhou, 350122, China. ywm@fjmu.edu.cn.",
+          "Key Laboratory of Ministry of Education for Gastrointestinal Cancer, Fujian Medical University, Fuzhou, 350122, China. ywm@fjmu.edu.cn.",
+          "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, 17177, Sweden. ywm@fjmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2025 Feb 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/05 06:21",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "42256715",
+      "42252404",
+      "42131322",
+      "41957592",
+      "41355914",
+      "41333217"
+    ],
+    "refs": [
+      "39414226",
+      "39349474",
+      "39097198",
+      "39022746",
+      "37977211",
+      "37890493",
+      "37653035",
+      "37248301",
+      "37231261",
+      "36929873",
+      "36681667",
+      "35664061",
+      "35317321",
+      "35087207",
+      "35048116",
+      "34642171",
+      "34587523",
+      "34557778",
+      "34417225",
+      "33911232",
+      "33691112",
+      "33669824",
+      "33426088",
+      "33290552",
+      "33036870",
+      "32165587",
+      "32051003",
+      "31819264",
+      "31781104",
+      "31067475",
+      "30949574",
+      "30449314",
+      "30324717",
+      "29921905",
+      "29848443",
+      "29286292",
+      "28985560",
+      "27374120",
+      "27322546",
+      "26567920",
+      "26073375",
+      "24587619",
+      "23860501",
+      "23208441",
+      "21798884",
+      "20682855",
+      "18395075",
+      "18280748",
+      "17725597",
+      "17698589",
+      "16470226",
+      "15492123",
+      "14707104"
+    ],
+    "similar": [
+      "39905493",
+      "37608794",
+      "42716194",
+      "39066531",
+      "38664790",
+      "41436831",
+      "42636583",
+      "39762897",
+      "40799444",
+      "40337972",
+      "39917297",
+      "40380233",
+      "40264416",
+      "40068177",
+      "42536619",
+      "40764361",
+      "16845717",
+      "41151658",
+      "40616092",
+      "40619562",
+      "32835664",
+      "41779702",
+      "41498033",
+      "42018572",
+      "41483202",
+      "42565562",
+      "22370706",
+      "41551535",
+      "41840566",
+      "39577677",
+      "41839318",
+      "39759507",
+      "38649401",
+      "42391245",
+      "39896800",
+      "39885578",
+      "42040898",
+      "41759624",
+      "42591570",
+      "39893187",
+      "41635010",
+      "41181111",
+      "40861493",
+      "40064955",
+      "28662697",
+      "42195052",
+      "41006377",
+      "25557335",
+      "40947786",
+      "40496864",
+      "42698600",
+      "40366262",
+      "36068607",
+      "40785647",
+      "41761191",
+      "42001075",
+      "39623989",
+      "39888372",
+      "39534060",
+      "40012220",
+      "41035636",
+      "39586800",
+      "41655547",
+      "42140356",
+      "42642681",
+      "37063851",
+      "40721434",
+      "41159025",
+      "26877610",
+      "41737224",
+      "40211281",
+      "42309401",
+      "40160813",
+      "41444619",
+      "41824220",
+      "40308576",
+      "42741006",
+      "41234865",
+      "42263482",
+      "42541991",
+      "42469985",
+      "42216392",
+      "40301773",
+      "40688093",
+      "38894657",
+      "41867463",
+      "41540405",
+      "34185421",
+      "40165307",
+      "39701680",
+      "42220482",
+      "39994401",
+      "38221616",
+      "42443752",
+      "42386026",
+      "42457054",
+      "41025297",
+      "40323328",
+      "41722860",
+      "42089585"
+    ],
+    "review": [
+      "39905493",
+      "25557335"
+    ],
+    "pmc": [
+      "11796052"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-06150-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39905493/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38517697",
+  "title": "Comparative analysis of models in predicting the effects of SNPs on TF-DNA binding using large-scale in vitro and in vivo data.",
+  "authors": "Han, Dongmei; Li, Yurun; Wang, Linxiao; Liang, Xuan; Miao, Yuanyuan; Li, Wenran; Wang, Sijia; Wang, Zhen",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-03-22",
+  "window": {
+    "start": "2024-03-18",
+    "end": "2024-03-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文系统比较了14种模型（含深度学习）在预测SNP对TF-DNA结合影响上的表现，聚焦TF-DNA互作与结合位点预测，但以模型评估为主，缺乏新方法或动态机制建模。",
+  "abstract": "Non-coding variants associated with complex traits can alter the motifs of transcription factor (TF)-deoxyribonucleic acid binding. Although many computational models have been developed to predict the effects of non-coding variants on TF binding, their predictive power lacks systematic evaluation. Here we have evaluated 14 different models built on position weight matrices (PWMs), support vector machines, ordinary least squares and deep neural networks (DNNs), using large-scale in vitro (i.e. SNP-SELEX) and in vivo (i.e. allele-specific binding, ASB) TF binding data. Our results show that the accuracy of each model in predicting SNP effects in vitro significantly exceeds that achieved in vivo. For in vitro variant impact prediction, kmer/gkm-based machine learning methods (deltaSVM_HT-SELEX, QBiC-Pred) trained on in vitro datasets exhibit the best performance. For in vivo ASB variant prediction, DNN-based multitask models (DeepSEA, Sei, Enformer) trained on the ChIP-seq dataset exhibit relatively superior performance. Among the PWM-based methods, tRap demonstrates better performance in both in vitro and in vivo evaluations. In addition, we find that TF classes such as basic leucine zipper factors could be predicted more accurately, whereas those such as C2H2 zinc finger factors are predicted less accurately, aligning with the evolutionary conservation of these TF classes. We also underscore the significance of non-sequence factors such as cis-regulatory element type, TF expression, interactions and post-translational modifications in influencing the in vivo predictive performance of TFs. Our research provides valuable insights into selecting prioritization methods for non-coding variants and further optimizing such models.",
+  "abstract_zh": "与复杂性状相关的非编码变异可改变转录因子（TF）与脱氧核糖核酸结合的基序。尽管已开发出许多计算模型来预测非编码变异对TF结合的影响，但其预测能力缺乏系统性评估。在此，我们利用大规模体外（即SNP-SELEX）和体内（即等位基因特异性结合，ASB）TF结合数据，评估了基于位置权重矩阵（PWMs）、支持向量机、普通最小二乘法和深度神经网络（DNNs）构建的14种不同模型。结果表明，每种模型在体外预测SNP效应的准确性显著高于体内。对于体外变异影响预测，基于kmer/gkm的机器学习方法（deltaSVM_HT-SELEX、QBiC-Pred）在体外数据集上训练时表现最佳。对于体内ASB变异预测，基于DNN的多任务模型（DeepSEA、Sei、Enformer）在ChIP-seq数据集上训练时表现出相对优越的性能。在基于PWM的方法中，tRap在体外和体内评估中均表现出更好的性能。此外，我们发现，诸如碱性亮氨酸拉链因子等TF类别可被更准确地预测，而诸如C2H2锌指因子等类别则预测准确性较低，这与这些TF类别的进化保守性一致。我们还强调了非序列因素（如顺式调控元件类型、TF表达、相互作用及翻译后修饰）在影响TF体内预测性能中的重要性。我们的研究为选择非编码变异的优先级排序方法及进一步优化此类模型提供了宝贵见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38517697/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38517697/",
+  "paper_page_path": "papers/pubmed/38517697/index.html"
+}

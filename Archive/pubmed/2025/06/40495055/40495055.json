@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "40495055",
+    "doi": "10.1007/s12539-025-00704-8",
+    "title": "OptimDase: An Algorithm for Predicting DNA Binding Sites with Combined Feature Encoding."
+  },
+  "content": {
+    "abstract": "Identifying DNA binding sites remains a critical task in bioinformatics, with applications ranging from gene regulation studies to drug design. Although progress has been made in computational techniques, we still face challenges such as data complexity and prediction accuracy. In this paper, we introduce OptimDase, a new algorithm. It integrates feature encoding with optimum decision-making frameworks to improve DNA binding site prediction. OptimDase integrates multi-scale scanning and feature selection strategies, making it highly effective for both classification and regression tasks. Our experiments demonstrate that OptimDase achieves superior performance with an accuracy of 0.8943 in classification tasks and an RMSE of 0.0054 in regression tasks, outperforming existing algorithms in key evaluation metrics. These results highlight OptimDase's portability and robustness, making it an effective solution for identifying DNA binding sites and advancing the applications of drug design.",
+    "keywords": [
+      "DNA binding site",
+      "Machine learning",
+      "Site-specific recombination",
+      "combined feature encoding",
+      "optimum decision-making"
+    ],
+    "mesh_terms": [
+      "*Algorithms",
+      "Binding Sites",
+      "*DNA/metabolism/chemistry",
+      "*Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Zhendong",
+        "Liu, Jun S",
+        "Wei, Dongqing",
+        "Man, Rongjun",
+        "Jiang, Jiamin",
+        "Zhang, Bofeng",
+        "Li, Liping",
+        "Zhao, Zhiyong"
+      ],
+      "short_names": [
+        "Liu Z",
+        "Liu JS",
+        "Wei D",
+        "Man R",
+        "Jiang J",
+        "Zhang B",
+        "Li L",
+        "Zhao Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computer and Information Engineering, Shanghai Polytechnic University, Shanghai, 201209, China. liuzd2000@126.com.",
+        "Department of Statistics, Harvard University, Cambridge, 02138, USA. jliu@stat.harvard.edu.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200030, P.R. China.",
+        "Department of Otolaryngology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, 250021, China. manrongjun@sdfmu.edu.cn.",
+        "School of Computer and Information Engineering, Shanghai Polytechnic University, Shanghai, 201209, China.",
+        "School of Computer and Information Engineering, Shanghai Polytechnic University, Shanghai, 201209, China.",
+        "School of Computer and Information Engineering, Shanghai Polytechnic University, Shanghai, 201209, China.",
+        "Department of Medical Imaging, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, 250021, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Zhendong",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer and Information Engineering, Shanghai Polytechnic University, Shanghai, 201209, China. liuzd2000@126.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Jun S",
+        "short_name": "Liu JS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, Harvard University, Cambridge, 02138, USA. jliu@stat.harvard.edu."
+        ]
+      },
+      {
+        "full_name": "Wei, Dongqing",
+        "short_name": "Wei D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200030, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Man, Rongjun",
+        "short_name": "Man R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, 250021, China. manrongjun@sdfmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Jiang, Jiamin",
+        "short_name": "Jiang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer and Information Engineering, Shanghai Polytechnic University, Shanghai, 201209, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bofeng",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer and Information Engineering, Shanghai Polytechnic University, Shanghai, 201209, China."
+        ]
+      },
+      {
+        "full_name": "Li, Liping",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer and Information Engineering, Shanghai Polytechnic University, Shanghai, 201209, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zhiyong",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Imaging, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, 250021, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Interdisciplinary sciences, computational life sciences"
+    ],
+    "journal_abbrev": [
+      "Interdiscip Sci"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/11 00:27",
+    "fetched_at": "2026-09-30 19:47:36"
+  },
+  "links": {
+    "cites": [
+      "41045511"
+    ],
+    "refs": [
+      "39242695",
+      "38517693",
+      "37328639",
+      "36050487",
+      "35817764",
+      "35764641",
+      "34039604",
+      "33910505",
+      "33796819",
+      "33767912",
+      "33522898",
+      "33498086",
+      "31451789",
+      "30566629",
+      "29617876",
+      "28763006",
+      "28495557",
+      "27496283",
+      "27471964",
+      "27153639",
+      "27084946",
+      "26550823",
+      "26476779",
+      "26213851",
+      "23718773",
+      "23354101",
+      "21909885",
+      "20378774",
+      "19458158",
+      "18369135",
+      "17540862"
+    ],
+    "similar": [
+      "40495055",
+      "40282384",
+      "38643894",
+      "35652477",
+      "24448651",
+      "40914361",
+      "40751377",
+      "30598073",
+      "41168713",
+      "38237792",
+      "22508909",
+      "21954606",
+      "39515694",
+      "40209920",
+      "39121059",
+      "40403206",
+      "39215231",
+      "40158097",
+      "31714956",
+      "19091029",
+      "40598008",
+      "16723008",
+      "19874585",
+      "39541188",
+      "39133595",
+      "25756377",
+      "33876181",
+      "31123959",
+      "38975896",
+      "39382649",
+      "37899352",
+      "34073774",
+      "26552868",
+      "38927611",
+      "40220943",
+      "41376296",
+      "31888057",
+      "31406384",
+      "19925685",
+      "40334196",
+      "40359678",
+      "39701486",
+      "33975333",
+      "39202449",
+      "20351933",
+      "35709747",
+      "39357703",
+      "24625071",
+      "31009682",
+      "40890450",
+      "40914877",
+      "25478969",
+      "32946398",
+      "28000567",
+      "40159513",
+      "33446014",
+      "21059262",
+      "25846271",
+      "31814842",
+      "19997483",
+      "30255801",
+      "19647098",
+      "33575021",
+      "39350338",
+      "30668479",
+      "40402702",
+      "16542417",
+      "14571388",
+      "33837387",
+      "29753757",
+      "37459792",
+      "38316843",
+      "40577377",
+      "32908920",
+      "34002774",
+      "41257600",
+      "38949938",
+      "25957350",
+      "41045511",
+      "40102719",
+      "38990514",
+      "41124992",
+      "40889118",
+      "38812315",
+      "40888747",
+      "38924058",
+      "41144541",
+      "38782224",
+      "29219069",
+      "27654939",
+      "28334224",
+      "19105805",
+      "38491248",
+      "39674264",
+      "40652425",
+      "25203504",
+      "40522559",
+      "41206113",
+      "19008251",
+      "21566255"
+    ],
+    "review": [
+      "40495055",
+      "38643894",
+      "35652477",
+      "40209920",
+      "31714956",
+      "25756377",
+      "40220943",
+      "39202449",
+      "33575021"
+    ],
+    "pmc": [
+      "12672825"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40495055/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12539-025-00704-8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

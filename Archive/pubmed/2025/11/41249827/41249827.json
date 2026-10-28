@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "41249827",
+    "doi": "10.1038/s41598-025-25116-y",
+    "title": "Integrating machine learning and molecular dynamics simulation to decipher the molecular network of dioxin-associated liposarcoma."
+  },
+  "content": {
+    "abstract": "Dioxin-like pollutants, especially 2,3,7,8-Tetrachlorodibenzo-p-dioxin, are recognized human carcinogens. Retrospective studies suggest a link between dioxins and soft tissue sarcomas, including liposarcoma, but mechanisms remain unclear. This study explores the toxicological effects of dioxins on liposarcoma, identifies key proteins, and proposes potential solutions. We identified dioxin- and liposarcoma-related targets via databases, analyzed overlaps through enrichment and network toxicology, and validated them with phenotypic and clinical data. We built a prediction model using 117 combinations of machine learning algorithms, confirmed the results with molecular docking and simulations, and proposed therapies through drug experiments. TCDD modulates adipocytic malignancy through activation of xenobiotic response pathways, disruption of cellular metabolism, and interactions with cancer-related receptors. AhR partially mediates this toxicological effect, and five key proteins, including CDH3, ADORA2B, MMP14, IP6K2, and HTR2A, are used to predict the development of dioxin-related liposarcoma. The selective HTR2A receptor antagonist ketanserin has the potential to alleviate this toxicological impact. Our study presents an efficient, cost-effective toxicological analysis using network toxicology, offering new insights into dioxin-associated liposarcoma.",
+    "keywords": [
+      "Dioxin",
+      "Ketanserin.",
+      "Liposarcoma",
+      "Machine learning",
+      "Network toxicology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "*Liposarcoma/chemically induced/metabolism/pathology",
+      "*Molecular Dynamics Simulation",
+      "*Dioxins/toxicity",
+      "Molecular Docking Simulation",
+      "Receptors, Aryl Hydrocarbon/metabolism",
+      "Polychlorinated Dibenzodioxins/toxicity"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chenhe, Zhang",
+        "Aobo, Zhuang",
+        "Xiao, Zhou",
+        "Han, Gao",
+        "Longshang, Wang",
+        "Zhe, Xi",
+        "Yingxue, Cheng",
+        "Huichen, Li",
+        "Jincheng, Wu",
+        "Wei, Zeng",
+        "Wengang, Li"
+      ],
+      "short_names": [
+        "Chenhe Z",
+        "Aobo Z",
+        "Xiao Z",
+        "Han G",
+        "Longshang W",
+        "Zhe X",
+        "Yingxue C",
+        "Huichen L",
+        "Jincheng W",
+        "Wei Z",
+        "Wengang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China.",
+        "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China.",
+        "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China.",
+        "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Cellular Stress Biology, Innovation Center for Cell Biology, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China.",
+        "State Key Laboratory of Cellular Stress Biology, Innovation Center for Cell Biology, School of Life Sciences, Xiamen University, Xiamen, China.",
+        "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China.",
+        "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China.",
+        "Department of Colorectal Surgery, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China. lihuichen888@sina.cn.",
+        "Department of General Surgery, School of Medicine, The First Affiliated Hospital of Xiamen University, Xiamen University, Xiamen, 361102, China. 919656082@qq.com.",
+        "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China. weizeng2166@163.com.",
+        "Department of Gastroenterology, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China. weizeng2166@163.com.",
+        "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China. lwgang@xmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chenhe, Zhang",
+        "short_name": "Chenhe Z",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Aobo, Zhuang",
+        "short_name": "Aobo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Zhou",
+        "short_name": "Xiao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Han, Gao",
+        "short_name": "Han G",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Cellular Stress Biology, Innovation Center for Cell Biology, School of Life Sciences, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Longshang, Wang",
+        "short_name": "Longshang W",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China.",
+          "State Key Laboratory of Cellular Stress Biology, Innovation Center for Cell Biology, School of Life Sciences, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Zhe, Xi",
+        "short_name": "Zhe X",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Yingxue, Cheng",
+        "short_name": "Yingxue C",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Huichen, Li",
+        "short_name": "Huichen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Colorectal Surgery, Tianjin Union Medical Center, The First Affiliated Hospital of Nankai University, Tianjin, 300121, China. lihuichen888@sina.cn."
+        ]
+      },
+      {
+        "full_name": "Jincheng, Wu",
+        "short_name": "Jincheng W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, School of Medicine, The First Affiliated Hospital of Xiamen University, Xiamen University, Xiamen, 361102, China. 919656082@qq.com."
+        ]
+      },
+      {
+        "full_name": "Wei, Zeng",
+        "short_name": "Wei Z",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China. weizeng2166@163.com.",
+          "Department of Gastroenterology, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China. weizeng2166@163.com."
+        ]
+      },
+      {
+        "full_name": "Wengang, Li",
+        "short_name": "Wengang L",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Research Center, School of Medicine, Xiang'an Hospital of Xiamen University, Xiamen University, Xiamen, China. lwgang@xmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Nov 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/18 00:27",
+    "fetched_at": "2026-10-01 06:35:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40869275",
+      "40202572",
+      "39810414",
+      "39429873",
+      "39055398",
+      "38608384",
+      "38361944",
+      "35609983",
+      "35289358",
+      "35100702",
+      "34952507",
+      "34358505",
+      "32296044",
+      "31466240",
+      "30835463",
+      "30155245",
+      "29220294",
+      "28915320",
+      "27897234",
+      "27672655",
+      "26768715",
+      "26620784",
+      "26242870",
+      "25987214",
+      "25568920",
+      "24239782",
+      "22364893",
+      "21253554",
+      "19684285",
+      "18230718",
+      "12946389",
+      "12726754",
+      "10592173",
+      "10328108",
+      "9599728",
+      "9583720",
+      "3928350",
+      "3046635",
+      "2313720"
+    ],
+    "similar": [
+      "41249827",
+      "37652105",
+      "25692546",
+      "34761675",
+      "40215689",
+      "23855798",
+      "40107146",
+      "29522993",
+      "37660771",
+      "33320884",
+      "40424807",
+      "33113971",
+      "11509025",
+      "35483143",
+      "24161567",
+      "21205634",
+      "11046109",
+      "36241106",
+      "17941736",
+      "29753751",
+      "22387160",
+      "16835633",
+      "38309623",
+      "28487374",
+      "15972329",
+      "35183049",
+      "37298290",
+      "19500377",
+      "30528028",
+      "37086653",
+      "12068950",
+      "21079739",
+      "25445724",
+      "16545780",
+      "12200463",
+      "24476589",
+      "37127157",
+      "40187479",
+      "29324662",
+      "17850846",
+      "34991250",
+      "24858342",
+      "3036167",
+      "23770670",
+      "35367886",
+      "34747641",
+      "30567322",
+      "22954249",
+      "22615911",
+      "23142599",
+      "14646185",
+      "15537747",
+      "20605043",
+      "24245878",
+      "22014662",
+      "37315452",
+      "2849149",
+      "27188387",
+      "23933504",
+      "35617319",
+      "17448584",
+      "33297084",
+      "23296914",
+      "18465118",
+      "31738530",
+      "33607186",
+      "2838935",
+      "37422229",
+      "9705885",
+      "32563159",
+      "20633992",
+      "15034205",
+      "19182260",
+      "7992318",
+      "17569696",
+      "21807577",
+      "40398651",
+      "27105554",
+      "16725033",
+      "27301797",
+      "24472611",
+      "23426015",
+      "10680305",
+      "17243464",
+      "28049042",
+      "16115717",
+      "25540854",
+      "28922086",
+      "40921337",
+      "10387930",
+      "33374508",
+      "27942866",
+      "30907958",
+      "26495820",
+      "24355420",
+      "15900503",
+      "10048155",
+      "8937476",
+      "25402742",
+      "21215274"
+    ],
+    "review": [
+      "41249827",
+      "37652105",
+      "22387160",
+      "16545780",
+      "24476589",
+      "30567322",
+      "24245878",
+      "10680305",
+      "17243464",
+      "33374508"
+    ],
+    "pmc": [
+      "12623788"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-25116-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41249827/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

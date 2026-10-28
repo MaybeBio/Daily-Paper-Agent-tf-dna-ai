@@ -1,0 +1,116 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, methods, figure legends, supplementary information description)
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of conclusions, and alignment with Nature-style criteria based solely on the provided manuscript content
+- **Shared manuscript claim summary** The authors propose that inhibition of NF-kB signaling, specifically by small molecules derived from psoralen and angelicin scaffolds, can reduce cytokine storms. They use molecular docking and molecular dynamics simulations to identify three lead compounds (NF49, NFAI64, NF30) that bind to two predicted pockets (A1, A2) on the NF-kB p50/p65 heterodimer, potentially blocking its interaction with kB DNA sites.
+- **Visible evidence base** Introduction, Results and discussion, Conclusions, Materials and methods, Figures 1-6, Table 1, Supplementary figure S1 and S2 referenced, Supplementary tables 3 and 4 referenced, Supplementary Movie 1 referenced
+- **Missing materials affecting confidence** Supplementary tables 3 and 4 (full compound library and docking scores), Supplementary figure S1 (Ramachandran plot), Supplementary figure S2 (RMSF data), Supplementary Movie 1, raw MD trajectory data, force field parameter files, docking pose coordinates, validation metrics for the AlphaFold model, and any experimental validation data
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computational screening study aimed at identifying NF-kB inhibitors as potential therapeutic agents for cytokine storm reduction. While the topic is clinically relevant and the workflow is conventional, the study has substantial methodological weaknesses and overstates its conclusions. The docking results are modest, the MD simulations are short and lack rigorous validation, the MM-PBSA calculations are inconsistent with docking rankings, and the link between the computational findings and the clinical claim of reducing cytokine storms is not established. The manuscript requires major revisions and additional validation before the claims can be considered supported.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, structural biology of transcription factors, and inflammation biology may find the methodological workflow of interest. Those working on NF-kB inhibitors or cytokine storm therapeutics might consider the identified compounds as preliminary leads. However, the lack of experimental validation and the modest computational results limit the broader appeal.
+- **Major strengths** The clinical relevance of cytokine storm is well-motivated. The use of both rational design and deep learning-based scaffold hopping is a modern approach. The identification of two distinct binding pockets on the NF-kB heterodimer is a useful structural insight. The inclusion of MM-PBSA and atomic contact analysis adds some depth to the binding characterization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validity of conclusions
+  - **Claim pointer** The authors claim that the identified compounds can inhibit NF-kB signaling and reduce cytokine storms.
+  - **Evidence pointer** Conclusions section, Results and discussion, Table 1, Figure 6
+  - **Concern** The central claim that these compounds can reduce cytokine storms is not supported by the evidence presented. The study is purely computational, with no experimental validation of NF-kB inhibition, DNA binding disruption, or cytokine production. Docking scores of approximately -6.6 to -6.8 kcal/mol are modest and do not establish high-affinity binding. The MM-PBSA results are inconsistent with the docking rankings (NF30 shows the highest MM-PBSA energy but the lowest docking affinity), which raises questions about the reliability of the binding predictions. The connection between binding to the NF-kB heterodimer and functional inhibition of cytokine storms is speculative and not demonstrated.
+  - **Why it matters** The title and conclusions make a strong therapeutic claim that goes far beyond what a computational docking and short MD simulation study can establish. Without experimental evidence, the claim that these compounds are promising therapeutic agents for cytokine storm reduction is not justified.
+  - **Resolution test** Provide experimental validation, such as cell-based NF-kB reporter assays, electrophoretic mobility shift assays, or cytokine secretion measurements, demonstrating that the lead compounds inhibit NF-kB activity and reduce cytokine production. Alternatively, substantially temper the conclusions to reflect the preliminary computational nature of the findings.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the AlphaFold model was used for docking and that the model was validated using a Ramachandran plot.
+  - **Evidence pointer** Materials and methods, Protein preparation, Figure S1
+  - **Concern** The validation of the AlphaFold model is insufficient. A Ramachandran plot alone is not adequate to validate a model for docking studies. The authors do not report the pLDDT scores, the confidence of the predicted structure, the RMSD to the experimental structure (PDB 1VKX) after superposition, or the quality of the alignment. The manuscript states the model was superimposed with the mouse structure but does not provide the RMSD of this superposition. Without this information, the reliability of the binding site geometry and the docking results cannot be assessed.
+  - **Why it matters** Docking results are highly sensitive to the quality of the receptor structure. If the AlphaFold model has inaccuracies in the binding site region, the predicted binding modes and affinities may be meaningless. The lack of proper model validation undermines the entire computational pipeline.
+  - **Resolution test** Report pLDDT scores, provide the superposition RMSD to the experimental structure, show the Ramachandran plot with percentage of residues in favored and allowed regions, and ideally perform docking cross-validation with the experimental mouse structure to confirm that the binding site is conserved.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that MD simulations were performed for 10 ns per system, with two independent runs, totaling 100 ns of simulation time.
+  - **Evidence pointer** Materials and methods, Molecular simulations, Figure 6D-G
+  - **Concern** The MD simulation length is inadequate for drawing reliable conclusions about binding stability. Ten nanoseconds is far too short to assess the stability of a protein-ligand complex, especially for a protein-DNA complex. The statement "totaling 100 ns" is also confusing: if each of the five systems (four ligand-bound plus one apo) was simulated twice for 10 ns, the total would be 100 ns, but this is still only 10 ns per trajectory. The RMSD plots show that some systems (e.g., NF30 and apo) exhibit sharp deviations after 2 ns and do not appear to reach equilibrium. The MM-PBSA calculations performed on such short trajectories are unlikely to be converged.
+  - **Why it matters** Short simulations that do not reach equilibrium cannot provide reliable binding free energies or demonstrate stable binding. The conclusions about binding stability and affinity are therefore not supported by the data.
+  - **Resolution test** Extend simulations to at least 100 ns per system with multiple replicates, show convergence of RMSD and energy components, and perform MM-PBSA on the equilibrated portion of the trajectories. Alternatively, use enhanced sampling methods to assess binding free energies more reliably.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe the use of the WADDAICA webserver for scaffold hopping and the construction of a 101-compound library.
+  - **Evidence pointer** Materials and methods, Construction of compound library, Results and discussion, Construction of the targeted chemical library, Supplementary tables 3 and 4
+  - **Concern** The full compound library and the docking results for all 101 compounds are not presented in the main text. Only three compounds are discussed in detail. The criteria for selecting these three compounds from the 101 are not clearly stated beyond a binding affinity threshold of -6.6 kcal/mol. The supplementary tables are referenced but not available for review. This limits the ability to assess the screening process and the rationale for compound selection.
+  - **Why it matters** For a screening study, transparency about the full results and the selection criteria is essential for reproducibility and for assessing whether the chosen compounds are truly representative of the best hits.
+  - **Resolution test** Include the full docking results for all 101 compounds as a supplementary table, clearly state the selection criteria, and provide the WADDAICA parameters used for scaffold hopping.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that targeting NF-kB is a promising therapeutic strategy for cytokine storm reduction.
+  - **Evidence pointer** Introduction, Conclusions
+  - **Concern** The novelty of the therapeutic hypothesis is limited. NF-kB as a therapeutic target for inflammation and cytokine storm is well-established in the literature. The manuscript does not provide a compelling new insight into why this target is particularly promising or how the identified compounds offer an advantage over existing NF-kB inhibitors. The discussion of existing therapies is superficial and does not critically compare the proposed approach with current treatments.
+  - **Why it matters** For a Nature-style journal, the work needs to offer a significant advance over existing knowledge. The manuscript does not demonstrate such an advance.
+  - **Resolution test** Provide a more critical and comprehensive comparison with existing NF-kB inhibitors and cytokine storm therapies, and clearly articulate what new biological or therapeutic insight this study provides.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title
+  - **Issue** The title contains a grammatical error ("reveals" should be "reveal" to agree with the plural subject "studies"). Additionally, the title overstates the findings by claiming "promising therapeutic drug target" without experimental evidence.
+  - **Required correction** Revise the title to be grammatically correct and more accurately reflect the computational nature of the study, for example, "Molecular dynamics simulation and docking studies reveal potential NF-kB inhibitors for modulating cytokine storm-associated signaling."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results and discussion, Construction of the targeted chemical library
+  - **Evidence pointer** Results and discussion, Construction of the targeted chemical library
+  - **Issue** The text states "The developed library of 101 compounds is shown in Supplementary Tables 3 and 4, which contained 50 rationally designed molecules and 51 from the WADDAICA webserver." The sum of 50 and 51 is 101, which is correct, but the sentence structure is awkward and could be clearer.
+  - **Required correction** Rephrase to "The developed library of 101 compounds, comprising 50 rationally designed molecules and 51 from the WADDAICA webserver, is shown in Supplementary Tables 3 and 4."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Materials and methods, Molecular simulations
+  - **Evidence pointer** Materials and methods, Molecular simulations
+  - **Issue** The sentence "Each structure was simulated twice for 10 ns, totaling 100 ns of simulation time" is confusing. If there are five systems (four ligand-bound and one apo), each simulated twice for 10 ns, the total is 100 ns, but this should be stated more clearly.
+  - **Required correction** Clarify as "Each of the five systems (four ligand-bound complexes and one apo protein) was simulated in duplicate for 10 ns, giving a total of 100 ns of simulation time."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and methods, MMPBSA binding free energy
+  - **Evidence pointer** Materials and methods, MMPBSA binding free energy
+  - **Issue** The text states "a total of 200 snapshots from 20 ns of molecular dynamics were utilized" but the simulations were described as 10 ns each. This inconsistency is not explained.
+  - **Required correction** Clarify the source of the 20 ns trajectory used for MM-PBSA analysis, or correct the inconsistency.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Materials and methods, Molecular simulations
+  - **Evidence pointer** Materials and methods, Molecular simulations
+  - **Issue** The methods state that the AMBER99SB force field was used but do not specify the water model parameters, the salt concentration, the equilibration protocol, or the thermostat/barostat settings beyond temperature. This level of detail is insufficient for reproducibility.
+  - **Required correction** Provide a complete description of the MD simulation protocol, including equilibration steps, pressure coupling, and any restraints applied.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results and discussion, MD validation of predicted binding mode
+  - **Evidence pointer** Results and discussion, MD validation of predicted binding mode, Figure 6
+  - **Issue** The text states that NFAI64 in pocket A1 exhibited the lowest average RMSD and was consistent throughout the simulation, but the MM-PBSA data show that NF30 has the highest binding energy. The authors do not reconcile this discrepancy or discuss what it means for the reliability of the predictions.
+  - **Required correction** Add a discussion of the discrepancy between docking rankings, RMSD stability, and MM-PBSA energies, and explain how the final selection of lead compounds was made.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of experimental validation), R1-M2 (insufficient model validation), R1-M3 (inadequate MD simulation length and convergence), R1-M4 (incomplete reporting of screening results), R1-M5 (limited novelty of the therapeutic hypothesis)
+- **Assessment against Nature-style criteria**
+  - **Originality** Limited. The use of NF-kB as a therapeutic target for cytokine storm is well-established. The specific compounds are new, but the approach of docking and MD simulation to identify NF-kB inhibitors is routine. The deep learning-based scaffold hopping adds some novelty but is not a major conceptual advance.
+  - **Scientific importance** Moderate. Cytokine storm is clinically relevant, and new therapeutic options are needed. However, the study does not provide experimental evidence that the identified compounds are effective, and the computational predictions are not sufficiently robust to establish therapeutic potential.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to computational biologists and medicinal chemists. The clinical claims are not supported by data that would attract a broader biomedical audience.
+  - **Technical soundness** Weak. The model validation is inadequate, the MD simulations are too short to be conclusive, the MM-PBSA results are inconsistent with docking, and the selection criteria for lead compounds are not fully transparent.
+  - **Readability for nonspecialists** The manuscript is generally readable but contains some awkward phrasing and grammatical errors. The methods section assumes familiarity with computational techniques, which is appropriate for the target audience, but the clinical implications are overstated relative to the evidence.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires major revisions, including experimental validation, more rigorous computational methods, and substantially tempered conclusions, before it could be considered for publication in a Nature-style journal.
+
+## Risk / unsupported claims
+- The claim that the identified compounds can inhibit NF-kB signaling and reduce cytokine storms is unsupported by experimental evidence.
+- The claim that NFAI64 is a "promising lead molecule" based on docking and short MD simulations is not adequately supported given the modest binding affinities and the lack of convergence in the simulations.
+- The statement that the compounds "can inhibit the canonical NF-kB pathway" is not demonstrated; the study only shows putative binding, not functional inhibition.
+- The claim that the identified binding pockets are "druggable" is not supported by any druggability assessment beyond surface property visualization.
+- The MM-PBSA binding energies are presented without error estimates or convergence analysis, making their reliability uncertain.
+- The relationship between the computational findings and the clinical condition of cytokine storm is speculative and not established by the data.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42544308",
+  "title": "CPT1A, CYGB, and MRPL3 in pre-eclampsia: biomarkers identified from oxidative stress-related gene analysis.",
+  "authors": "Chen, Ling; Wu, Meiting",
+  "journal": "PeerJ",
+  "published_date": "2026-08-03",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "score": 3,
+  "one_liner_zh": "该文通过机器学习识别子痫前期氧化应激相关基因并构建诊断模型，虽涉及转录因子SPI1调控网络，但核心是疾病生物标志物而非蛋白质-DNA互作机制，且无AI/物理模拟方法用于结合建模。",
+  "abstract": "BACKGROUND: The involvement of oxidative stress (OS) in pre-eclampsia (PE) has been reported, and the present study probed into the OS-related feature genes in PE. METHODS: The dataset GSE60438 was used to identify the OS-related features in PE, and corresponding feature genes were identified using machine learning algorithms including weighted gene co-expression network analysis (WGCNA), Least Absolute Shrinkage and Selection Operator (LASSO) regression analysis and support vector machine-recursive feature elimination (SVM-RFE). The diagnostic value of the feature genes and their correlation with immune infiltration were explored. Gene set enrichment analysis (GSEA) was performed to identify enriched pathways of these genes. Furthermore, regulatory networks involving the feature genes were constructed. The role of these genes in hypoxia/reoxygenation (H/R)-induced trophoblasts was investigated. RESULTS: Two WGCNA-identified modules (MEpurple and MEturquoise) were intersected with OS-related genes, yielding 359 common genes. Through machine learning algorithms and expression validation, three genes (CPT1A, CYGB and MRPL3) were identified and used to establish a diagnostic model, which reached an AUC of 0.930. The transcription factor (TF) SPI1 and multiple miRNAs formed a potential regulatory network for CPT1A, CYGB and MRPL3, and the expression of these three genes was closely associated with the infiltration of various immune cells (such as monocytes and macrophages M1) in PE. Cellular experiments confirmed that CPT1A silencing alleviated trophoblast dysfunction, reduced reactive oxygen species (ROS) levels, and decreased apoptosis under H/R conditions. CONCLUSION: The present study examined the OS features in PE, hoping to contribute to the management of PE.",
+  "abstract_zh": "背景：已有研究报道氧化应激（oxidative stress, OS）参与子痫前期（pre-eclampsia, PE），本研究探讨了PE中与OS相关的特征基因。方法：利用数据集GSE60438识别PE中的OS相关特征，并通过机器学习算法（包括加权基因共表达网络分析（WGCNA）、最小绝对收缩和选择算子（LASSO）回归分析及支持向量机-递归特征消除（SVM-RFE））鉴定相应特征基因。探讨了特征基因的诊断价值及其与免疫浸润的相关性。进行了基因集富集分析（GSEA）以识别这些基因的富集通路。此外，构建了涉及特征基因的调控网络，并研究了这些基因在缺氧/复氧（H/R）诱导的滋养层细胞中的作用。结果：将WGCNA鉴定的两个模块（MEpurple和MEturquoise）与OS相关基因取交集，获得359个共同基因。通过机器学习算法和表达验证，鉴定出三个基因（CPT1A、CYGB和MRPL3），并用于建立诊断模型，其AUC达到0.930。转录因子（TF）SPI1和多个miRNA形成了针对CPT1A、CYGB和MRPL3的潜在调控网络，且这三个基因的表达与PE中多种免疫细胞（如单核细胞和M1型巨噬细胞）的浸润密切相关。细胞实验证实，在H/R条件下，CPT1A沉默可减轻滋养层细胞功能障碍、降低活性氧（ROS）水平并减少凋亡。结论：本研究探讨了PE中的OS特征，希望有助于PE的管理。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42544308/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42544308/",
+  "paper_page_path": "papers/pubmed/42544308/index.html"
+}

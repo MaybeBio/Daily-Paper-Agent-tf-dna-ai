@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "41803291",
+    "doi": "10.1007/s10142-026-01849-5",
+    "title": "MYC-SEPT11 Axis Promotes osteoblast differentiation and bone formation via PI3K/AKT and RhoA/ROCK signaling pathways."
+  },
+  "content": {
+    "abstract": "Osteoporosis (OP), an aging-related skeletal disorder characterized by compromised bone density and deteriorated microarchitecture, presents significant challenges in understanding its molecular underpinnings. This study aims to identify novel transcriptional regulators of osteoblast differentiation and elucidate their mechanistic roles in OP pathogenesis. Through integrated analysis of single-cell and bulk RNA-seq datasets from OP patients, combined with machine-learning algorithms, SEPT11 was identified as a key downregulated gene. Functional validation was performed using human bone marrow-derived mesenchymal stem cells (BM-MSCs) induced for osteogenic differentiation. SEPT11 was overexpressed through lentiviral transduction, with osteogenic capacity assessed by ALP staining, Alizarin Red S staining, and quantification of osteogenic markers (RUNX2, OCN, ALP, PINP) and bone resorption marker TRACP-5b. Mechanistic investigations employed chromatin immunoprecipitation (ChIP)-qPCR, dual-luciferase reporter assays, and pathway inhibition studies. An ovariectomized (OVX) mouse model received intra-articular AAV9-SEPT11 for in vivo validation, with bone microarchitecture analyzed by micro-CT and bone formation markers measured. SEPT11 was significantly downregulated in OP and positively correlated with osteogenic differentiation. In BM-MSCs, SEPT11 overexpression enhanced expression of RUNX2, OCN, ALP, and PINP, decreased TRACP-5b, increased mineralization capacity, and concurrently activated both PI3K/AKT and RhoA/ROCK signaling pathways. MYC was established as a direct transcriptional activator binding to the SEPT11 promoter. MYC knockdown abolished SEPT11-mediated osteogenic promotion and pathway activation. In OVX mice, AAV9-SEPT11 administration improved bone mass, restored trabecular micro-architecture, and elevated bone formation markers. This study identifies a previously uncharacterized MYC/SEPT11 regulatory axis crucial for osteoblast differentiation. SEPT11, transcriptionally activated by MYC, promotes osteogenesis through simultaneous activation of PI3K/AKT and RhoA/ROCK pathways. These findings provide novel insights into OP pathogenesis and suggest potential therapeutic targets for postmenopausal OP.",
+    "keywords": [
+      "MYC",
+      "SEPT11",
+      "osteoblast differentiation",
+      "osteoporosis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Osteoblasts/metabolism/cytology",
+      "Humans",
+      "*Cell Differentiation",
+      "*Osteogenesis/genetics",
+      "Signal Transduction",
+      "Phosphatidylinositol 3-Kinases/metabolism/genetics",
+      "rho-Associated Kinases/metabolism/genetics",
+      "Mice",
+      "Proto-Oncogene Proteins c-akt/metabolism/genetics",
+      "Female",
+      "*Septins/genetics/metabolism",
+      "rhoA GTP-Binding Protein/metabolism/genetics",
+      "Mesenchymal Stem Cells/metabolism/cytology",
+      "*Proto-Oncogene Proteins c-myc/metabolism/genetics",
+      "*Osteoporosis/metabolism/genetics/pathology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Yiwen",
+        "Zhu, Zhenghuan",
+        "Chen, Haining",
+        "Song, Yu",
+        "Wang, Feng",
+        "Huang, Zhihui",
+        "Ma, Wenming",
+        "Ding, Wenge",
+        "Liu, Jinbo"
+      ],
+      "short_names": [
+        "Zhao Y",
+        "Zhu Z",
+        "Chen H",
+        "Song Y",
+        "Wang F",
+        "Huang Z",
+        "Ma W",
+        "Ding W",
+        "Liu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedics, Third Affiliated Hospital of Soochow University, The First People's Hospital of Changzhou, 185 Juqian Road, Changzhou, 213000, Jiangsu, China.",
+        "Department of Orthopedics, Third Affiliated Hospital of Soochow University, The First People's Hospital of Changzhou, 185 Juqian Road, Changzhou, 213000, Jiangsu, China.",
+        "Department of Orthopedics, Affiliated Hospital of Jiangsu University, Jiangsu University, 438 Jiefang Road, Zhenjiang, 212000, China.",
+        "Department of Orthopedics, Third Affiliated Hospital of Soochow University, The First People's Hospital of Changzhou, 185 Juqian Road, Changzhou, 213000, Jiangsu, China.",
+        "Department of Orthopedics, Third Affiliated Hospital of Soochow University, The First People's Hospital of Changzhou, 185 Juqian Road, Changzhou, 213000, Jiangsu, China.",
+        "Department of Orthopedics, Third Affiliated Hospital of Soochow University, The First People's Hospital of Changzhou, 185 Juqian Road, Changzhou, 213000, Jiangsu, China.",
+        "Department of Orthopedics, Third Affiliated Hospital of Soochow University, The First People's Hospital of Changzhou, 185 Juqian Road, Changzhou, 213000, Jiangsu, China.",
+        "Department of Orthopedics, Third Affiliated Hospital of Soochow University, The First People's Hospital of Changzhou, 185 Juqian Road, Changzhou, 213000, Jiangsu, China. dwg1475@suda.edu.cn.",
+        "Department of Orthopedics, Third Affiliated Hospital of Soochow University, The First People's Hospital of Changzhou, 185 Juqian Road, Changzhou, 213000, Jiangsu, China. czljbljb@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Yiwen",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Third Affiliated Hospital of Soochow University, The First People's Hospital of Changzhou, 185 Juqian Road, Changzhou, 213000, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Zhenghuan",
+        "short_name": "Zhu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Third Affiliated Hospital of Soochow University, The First People's Hospital of Changzhou, 185 Juqian Road, Changzhou, 213000, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Haining",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Affiliated Hospital of Jiangsu University, Jiangsu University, 438 Jiefang Road, Zhenjiang, 212000, China."
+        ]
+      },
+      {
+        "full_name": "Song, Yu",
+        "short_name": "Song Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Third Affiliated Hospital of Soochow University, The First People's Hospital of Changzhou, 185 Juqian Road, Changzhou, 213000, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Feng",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Third Affiliated Hospital of Soochow University, The First People's Hospital of Changzhou, 185 Juqian Road, Changzhou, 213000, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zhihui",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Third Affiliated Hospital of Soochow University, The First People's Hospital of Changzhou, 185 Juqian Road, Changzhou, 213000, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Wenming",
+        "short_name": "Ma W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Third Affiliated Hospital of Soochow University, The First People's Hospital of Changzhou, 185 Juqian Road, Changzhou, 213000, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Wenge",
+        "short_name": "Ding W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Third Affiliated Hospital of Soochow University, The First People's Hospital of Changzhou, 185 Juqian Road, Changzhou, 213000, Jiangsu, China. dwg1475@suda.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Jinbo",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Third Affiliated Hospital of Soochow University, The First People's Hospital of Changzhou, 185 Juqian Road, Changzhou, 213000, Jiangsu, China. czljbljb@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Functional & integrative genomics"
+    ],
+    "journal_abbrev": [
+      "Funct Integr Genomics"
+    ],
+    "pub_date": "2026 Mar 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/10 07:00",
+    "fetched_at": "2026-10-01 15:58:20"
+  },
+  "links": {
+    "cites": [
+      "42652152"
+    ],
+    "refs": [
+      "41514896",
+      "40760141",
+      "40244208",
+      "39358837",
+      "39004327",
+      "38547625",
+      "37532241",
+      "37080972",
+      "37024477",
+      "36563716",
+      "35513573",
+      "35283172",
+      "35120575",
+      "34977008",
+      "34940936",
+      "34930472",
+      "33493267",
+      "33139672",
+      "32992481",
+      "32626973",
+      "32017075",
+      "31778241",
+      "30158637",
+      "28751190",
+      "28536615",
+      "27866222",
+      "26795027",
+      "25814262",
+      "19857615",
+      "19380581"
+    ],
+    "similar": [
+      "41803291",
+      "41731527",
+      "40038790",
+      "41317432",
+      "38258549",
+      "41814363",
+      "41264994",
+      "39653105",
+      "41298859",
+      "38977961",
+      "40220409",
+      "41213356",
+      "38735373",
+      "41088103",
+      "41327200",
+      "42002781",
+      "41258401",
+      "40819549",
+      "41347823",
+      "41056770",
+      "40087184",
+      "39489361",
+      "39542634",
+      "40268538",
+      "41721921",
+      "41572358",
+      "35593324",
+      "40252437",
+      "32522250",
+      "35038807",
+      "38996954",
+      "31981979",
+      "41796841",
+      "41736543",
+      "40874972",
+      "41501229",
+      "33902663",
+      "36195958",
+      "26206089",
+      "42142793",
+      "41886086",
+      "37357411",
+      "42007397",
+      "41205030",
+      "35183219",
+      "41940604",
+      "40367890",
+      "38727863",
+      "40076648",
+      "39004327",
+      "41184110",
+      "41239461",
+      "38176267",
+      "41027155",
+      "39536932",
+      "41482017",
+      "38663496",
+      "41656108",
+      "31883507",
+      "40087681",
+      "42138552",
+      "40828205",
+      "32622944",
+      "42126726",
+      "31074104",
+      "36795607",
+      "39608850",
+      "35904181",
+      "41609095",
+      "40257841",
+      "38884152",
+      "38670404",
+      "40775331",
+      "38824271",
+      "42048035",
+      "39920313",
+      "31137461",
+      "41151626",
+      "28462510",
+      "41329034",
+      "41653045",
+      "40504801",
+      "41115354",
+      "29975930",
+      "38547625",
+      "31864409",
+      "31152447",
+      "41250128",
+      "41843192",
+      "32996692",
+      "27756897",
+      "37904187",
+      "31210570",
+      "26390889",
+      "40274995",
+      "26935542",
+      "39955853",
+      "32771037",
+      "41814823",
+      "31539110"
+    ],
+    "review": [
+      "41803291"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoporosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoporosis"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s10142-026-01849-5",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3592",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

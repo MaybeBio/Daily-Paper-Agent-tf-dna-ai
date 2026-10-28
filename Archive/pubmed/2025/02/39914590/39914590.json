@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "39914590",
+    "doi": "10.1016/j.lfs.2025.123443",
+    "title": "Identification of biomarkers associated with macrophage polarization in diabetic cardiomyopathy based on bioinformatics and machine learning approaches."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Numerous studies have investigated the role of macrophages in the pathogenesis of diabetic cardiomyopathy (DCM); however, the underlying mechanisms remain unclear. METHODS: The DCM dataset (GSE62203) was downloaded from the GEO database. DEGs and WGCNA key module genes were identified. Macrophage polarization-associated genes were obtained from the GeneCards database. GO and KEGG functional enrichment were constructed. Two machine learning techniques, LASSO logistic regression and random forest, were further used to identify hub genes. The diagnostic efficiency was evaluated using ROC curves. Single-gene GSEA investigated the biological functions. Then, the relationship between hub genes and macrophage pathways was explored. Predicted Transcription factor (TF), miRNA, and lncRNA. Single cell sequencing analysis was performed. Finally, experimental validation of the hub genes using the DCM rat model. RESULTS: Three hub genes (PGK1, LDHA, EDN1) were identified through machine learning approaches. All three hub genes were found to be associated with the HIF-1 signaling pathway. Functional enrichment analysis revealed that the HIF-1 signaling pathway and Glycolysis/Gluconeogenesis are potentially linked to DCM-induced macrophage polarization. The mRNA and protein expression levels of the hub genes were consistent with the bioinformatics analysis. Furthermore, mRNA expression of the hub genes showed a positive correlation with CD80 and CD86. CONCLUSION: PGK1, LDHA, and EDN1 represent potential biomarkers for M1 macrophage polarization in DCM. These genes may facilitate M1 macrophage polarization in DCM. Targeting macrophage polarization could represent a novel therapeutic strategy for DCM.",
+    "keywords": [
+      "Bioinformatics",
+      "Diabetic cardiomyopathy",
+      "Machine learning",
+      "Macrophage polarization"
+    ],
+    "mesh_terms": [
+      "*Diabetic Cardiomyopathies/genetics/metabolism/pathology",
+      "*Machine Learning",
+      "Animals",
+      "*Macrophages/metabolism",
+      "*Computational Biology/methods",
+      "Rats",
+      "Biomarkers/metabolism",
+      "Gene Regulatory Networks",
+      "Humans",
+      "Macrophage Activation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yi",
+        "Zhang, Juan",
+        "Han, Quancheng",
+        "Li, Yan",
+        "Xue, Yitao",
+        "Liu, Xiujuan"
+      ],
+      "short_names": [
+        "Liu Y",
+        "Zhang J",
+        "Han Q",
+        "Li Y",
+        "Xue Y",
+        "Liu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China.",
+        "Department of Cardiology, The Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China.",
+        "The First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China.",
+        "Department of Cardiology, The Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China.",
+        "Department of Cardiology, The Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China. Electronic address: 2022110637@sdutcm.edu.cn.",
+        "Department of Cardiology, The Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China. Electronic address: 20221000059@sdutcm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yi",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Juan",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Han, Quancheng",
+        "short_name": "Han Q",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Yitao",
+        "short_name": "Xue Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China. Electronic address: 2022110637@sdutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiujuan",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China. Electronic address: 20221000059@sdutcm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Life sciences"
+    ],
+    "journal_abbrev": [
+      "Life Sci"
+    ],
+    "pub_date": "2025 Mar 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/07 00:20",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "42589340",
+      "42429831",
+      "42232301",
+      "40496561",
+      "40417754",
+      "40365745",
+      "40313483"
+    ],
+    "refs": [],
+    "similar": [
+      "39914590",
+      "38381273",
+      "37622120",
+      "36726122",
+      "38774079",
+      "38440722",
+      "38961143",
+      "38863714",
+      "38571624",
+      "40182633",
+      "39697326",
+      "38815767",
+      "39923303",
+      "39870856",
+      "39512836",
+      "36056063",
+      "39671358",
+      "32626989",
+      "40171194",
+      "38957433",
+      "36046789",
+      "39396400",
+      "30662576",
+      "39375405",
+      "38754569",
+      "33417962",
+      "30246236",
+      "39139563",
+      "36341378",
+      "34926700",
+      "35433958",
+      "38469146",
+      "40174368",
+      "31382970",
+      "38291374",
+      "35313524",
+      "34250093",
+      "36148059",
+      "35646094",
+      "35282347",
+      "40024421",
+      "35438360",
+      "35850644",
+      "38168477",
+      "37250717",
+      "39142001",
+      "39559355",
+      "39496786",
+      "40263537",
+      "40332792",
+      "37033969",
+      "40093012",
+      "38371524",
+      "37740761",
+      "37355664",
+      "35958412",
+      "39069636",
+      "39392250",
+      "38260098",
+      "39762849",
+      "39351239",
+      "40312440",
+      "40074718",
+      "39871870",
+      "40245021",
+      "36341343",
+      "40091022",
+      "33099311",
+      "38987624",
+      "38851464",
+      "40313958",
+      "37265689",
+      "38711508",
+      "39243324",
+      "38608447",
+      "37359526",
+      "39403102",
+      "39026250",
+      "35473522",
+      "38062833",
+      "37691920",
+      "40328901",
+      "31987036",
+      "36211422",
+      "36576616",
+      "36225941",
+      "38755717",
+      "39086489",
+      "39509434",
+      "40165133",
+      "39050860",
+      "38899746",
+      "39763654",
+      "40313967",
+      "35378210",
+      "39263286",
+      "38650009",
+      "39425025",
+      "39071134",
+      "36317112"
+    ],
+    "review": [
+      "39914590"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0024-3205(25)00076-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabeticheartdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Heart Disease"
+      },
+      {
+        "url": "https://www.ovid.com/39914590.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-562",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "38963422",
+    "doi": "10.1007/s00018-024-05315-y",
+    "title": "Protein SUMOylation promotes cAMP-independent EPAC1 activation."
+  },
+  "content": {
+    "abstract": "Protein SUMOylation is a prevalent stress-response posttranslational modification crucial for maintaining cellular homeostasis. Herein, we report that protein SUMOylation modulates cellular signaling mediated by cAMP, an ancient and universal stress-response second messenger. We identify K561 as a primary SUMOylation site in exchange protein directly activated by cAMP (EPAC1) via site-specific mapping of SUMOylation using mass spectrometry. Sequence and site-directed mutagenesis analyses reveal that a functional SUMO-interacting motif in EPAC1 is required for the binding of SUMO-conjugating enzyme UBC9, formation of EPAC1 nuclear condensate, and EPAC1 cellular SUMOylation. Heat shock-induced SUMO modification of EPAC1 promotes Rap1/2 activation in a cAMP-independent manner. Structural modeling and molecular dynamics simulation studies demonstrate that SUMO substituent on K561 of EPAC1 promotes Rap1 interaction by increasing the buried surface area between the SUMOylated receptor and its effector. Our studies identify a functional SUMOylation site in EPAC1 and unveil a novel mechanism in which SUMOylation of EPAC1 leads to its autonomous activation. The findings of SUMOylation-mediated activation of EPAC1 not only provide new insights into our understanding of cellular regulation of EPAC1 but also will open up a new field of experimentation concerning the cross-talk between cAMP/EPAC1 signaling and protein SUMOylation, two major cellular stress response pathways, during cellular homeostasis.",
+    "keywords": [
+      "Biomolecular condensate",
+      "Heat shock",
+      "Molecular dynamics",
+      "SUMO",
+      "SUMO-interacting motif"
+    ],
+    "mesh_terms": [
+      "*Guanine Nucleotide Exchange Factors/metabolism/genetics/chemistry",
+      "*Sumoylation",
+      "Humans",
+      "*Cyclic AMP/metabolism",
+      "*Ubiquitin-Conjugating Enzymes/metabolism/genetics",
+      "*rap1 GTP-Binding Proteins/metabolism/genetics",
+      "HEK293 Cells",
+      "Molecular Dynamics Simulation",
+      "Shelterin Complex/metabolism",
+      "Signal Transduction",
+      "Telomere-Binding Proteins/metabolism",
+      "rap GTP-Binding Proteins/metabolism/genetics",
+      "Heat-Shock Response",
+      "Amino Acid Sequence",
+      "Protein Binding",
+      "Ubiquitin-Conjugating Enzyme UBC9"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Wenli",
+        "Mei, Fang C",
+        "Lin, Wei",
+        "White, Mark A",
+        "Li, Li",
+        "Li, Yue",
+        "Pan, Sheng",
+        "Cheng, Xiaodong"
+      ],
+      "short_names": [
+        "Yang W",
+        "Mei FC",
+        "Lin W",
+        "White MA",
+        "Li L",
+        "Li Y",
+        "Pan S",
+        "Cheng X"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1057-4203",
+        "ORCID: 0000-0002-3479-1694"
+      ],
+      "affiliations": [
+        "Department of Integrative Biology and Pharmacology, The University of Texas Health Science Center, Houston, TX, USA.",
+        "Texas Therapeutics Institute, The University of Texas Health Science Center, Houston, TX, USA.",
+        "Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center, Houston, TX, USA.",
+        "Department of Integrative Biology and Pharmacology, The University of Texas Health Science Center, Houston, TX, USA.",
+        "Texas Therapeutics Institute, The University of Texas Health Science Center, Houston, TX, USA.",
+        "Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center, Houston, TX, USA.",
+        "Department of Integrative Biology and Pharmacology, The University of Texas Health Science Center, Houston, TX, USA.",
+        "Texas Therapeutics Institute, The University of Texas Health Science Center, Houston, TX, USA.",
+        "Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center, Houston, TX, USA.",
+        "Department of Biochemistry and Molecular Biology, Sealy Center for Structural Biology and Molecular Biophysics, The University of Texas Medical Branch at Galveston, Galveston, TX, USA.",
+        "Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center, Houston, TX, USA.",
+        "Department of Integrative Biology and Pharmacology, The University of Texas Health Science Center, Houston, TX, USA.",
+        "Cell Therapy Manufacturing Center, 2130 W Holcombe Blvd, Houston, TX, 77030, USA.",
+        "Department of Integrative Biology and Pharmacology, The University of Texas Health Science Center, Houston, TX, USA.",
+        "Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center, Houston, TX, USA.",
+        "Department of Integrative Biology and Pharmacology, The University of Texas Health Science Center, Houston, TX, USA. xiaodong.cheng@uth.tmc.edu.",
+        "Texas Therapeutics Institute, The University of Texas Health Science Center, Houston, TX, USA. xiaodong.cheng@uth.tmc.edu.",
+        "Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center, Houston, TX, USA. xiaodong.cheng@uth.tmc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Wenli",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, The University of Texas Health Science Center, Houston, TX, USA.",
+          "Texas Therapeutics Institute, The University of Texas Health Science Center, Houston, TX, USA.",
+          "Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Mei, Fang C",
+        "short_name": "Mei FC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, The University of Texas Health Science Center, Houston, TX, USA.",
+          "Texas Therapeutics Institute, The University of Texas Health Science Center, Houston, TX, USA.",
+          "Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Wei",
+        "short_name": "Lin W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, The University of Texas Health Science Center, Houston, TX, USA.",
+          "Texas Therapeutics Institute, The University of Texas Health Science Center, Houston, TX, USA.",
+          "Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "White, Mark A",
+        "short_name": "White MA",
+        "identifiers": [
+          "0000-0003-1057-4203"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Sealy Center for Structural Biology and Molecular Biophysics, The University of Texas Medical Branch at Galveston, Galveston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Li",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Yue",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, The University of Texas Health Science Center, Houston, TX, USA.",
+          "Cell Therapy Manufacturing Center, 2130 W Holcombe Blvd, Houston, TX, 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Pan, Sheng",
+        "short_name": "Pan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, The University of Texas Health Science Center, Houston, TX, USA.",
+          "Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Cheng, Xiaodong",
+        "short_name": "Cheng X",
+        "identifiers": [
+          "0000-0002-3479-1694"
+        ],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, The University of Texas Health Science Center, Houston, TX, USA. xiaodong.cheng@uth.tmc.edu.",
+          "Texas Therapeutics Institute, The University of Texas Health Science Center, Houston, TX, USA. xiaodong.cheng@uth.tmc.edu.",
+          "Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center, Houston, TX, USA. xiaodong.cheng@uth.tmc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cellular and molecular life sciences : CMLS"
+    ],
+    "journal_abbrev": [
+      "Cell Mol Life Sci"
+    ],
+    "pub_date": "2024 Jul 4",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/04 12:42",
+    "fetched_at": "2026-09-29 23:08:01"
+  },
+  "links": {
+    "cites": [
+      "42180533",
+      "41178766",
+      "40707969",
+      "40706319",
+      "40654774",
+      "40412525",
+      "40287894"
+    ],
+    "refs": [
+      "37684224",
+      "37137717",
+      "36621339",
+      "35442725",
+      "34685730",
+      "33503430",
+      "33395293",
+      "33125654",
+      "32752662",
+      "32666886",
+      "31877746",
+      "31730249",
+      "29537337",
+      "28679628",
+      "27435506",
+      "27184847",
+      "26390815",
+      "26142185",
+      "26119090",
+      "26073453",
+      "25791905",
+      "23746258",
+      "23447132",
+      "23266473",
+      "22745599",
+      "22082260",
+      "21670213",
+      "21454623",
+      "20797634",
+      "20547757",
+      "19730420",
+      "19471022",
+      "19107418",
+      "18824540",
+      "18708356",
+      "18660803",
+      "18604457",
+      "18538659",
+      "18000527",
+      "17785454",
+      "16880999",
+      "16452984",
+      "16316996",
+      "16204249",
+      "15388847",
+      "15166219",
+      "14593429",
+      "12000763",
+      "11801596",
+      "11792325",
+      "11358147",
+      "10692421",
+      "9856955",
+      "9853756",
+      "9253406",
+      "8987396",
+      "8744570"
+    ],
+    "similar": [
+      "38963422",
+      "38260470",
+      "35442725",
+      "20547757",
+      "16507992",
+      "10777494",
+      "23720748",
+      "15591041",
+      "18577515",
+      "18411261",
+      "17973384",
+      "19273589",
+      "31877746",
+      "21670213",
+      "22343288",
+      "27808165",
+      "20855527",
+      "29882482",
+      "21791615",
+      "22227470",
+      "26854595",
+      "18495429",
+      "28784659",
+      "23139415",
+      "21750123",
+      "32249212",
+      "16244178",
+      "14615375",
+      "16751380",
+      "16172130",
+      "21596132",
+      "21840392",
+      "26721911",
+      "12402047",
+      "22511766",
+      "22378492",
+      "24586073",
+      "10608883",
+      "20861385",
+      "12578910",
+      "31726720",
+      "17532477",
+      "27501389",
+      "23867755",
+      "19464664",
+      "18635287",
+      "24174529",
+      "12819788",
+      "11237625",
+      "23809253",
+      "24982353",
+      "19423709",
+      "18391018",
+      "27206858",
+      "18167352",
+      "10934204",
+      "25800674",
+      "16940330",
+      "28210903",
+      "27038327",
+      "27531745",
+      "18937323",
+      "15931667",
+      "9853756",
+      "26119090",
+      "23644018",
+      "23091014",
+      "18211895",
+      "21745194",
+      "26929333",
+      "23395904",
+      "19635459",
+      "27630238",
+      "17077580",
+      "16115630",
+      "26889037",
+      "16728394",
+      "25372777",
+      "24099776",
+      "32992982",
+      "31255721",
+      "21795333",
+      "24925530",
+      "31795450",
+      "23352189",
+      "16316996",
+      "25007328",
+      "18434542",
+      "12469113",
+      "18580452",
+      "16428449",
+      "20089929",
+      "20233795",
+      "19244230",
+      "34471096",
+      "37247759",
+      "29417338",
+      "17277783",
+      "15123615",
+      "20732872",
+      "17698038",
+      "38748250",
+      "34187905"
+    ],
+    "review": [
+      "38963422",
+      "23809253",
+      "26119090",
+      "31795450"
+    ],
+    "pmc": [
+      "11335207"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/38963422/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38963422/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s00018-024-05315-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-711",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

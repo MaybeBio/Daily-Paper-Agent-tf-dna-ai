@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) provided as preprint on bioRxiv
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims, and alignment with Nature-style standards based solely on the supplied manuscript text
+- **Shared manuscript claim summary** The authors use computational methods (molecular dynamics, perturbation response scanning, virtual screening) to characterize the effect of RbpA binding on Mycobacterium tuberculosis RNA polymerase structure, dynamics, and subunit interactions, and propose potential small-molecule inhibitors targeting the α1-α2 interface
+- **Visible evidence base** Abstract, full introduction, methods section (partial), results and discussion sections, figure references (Figures 1-11), supplementary figure references
+- **Missing materials affecting confidence** Figures and supplementary information not provided; detailed methods for MD simulation parameters, force field validation, and virtual screening protocols incomplete; no raw data or trajectory analysis details; no statistical analysis details
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computational investigation of RbpA-mediated effects on RNA polymerase dynamics in Mycobacterium tuberculosis. The study combines multiple computational approaches to generate hypotheses about allosteric regulation and potential inhibitor binding sites. While the topic is of interest to the tuberculosis and transcription fields, the manuscript has substantial methodological gaps, overinterpretation of computational results, and insufficient validation of key claims. The central conclusions regarding allosteric mechanisms and inhibitor potential are not adequately supported by the evidence presented.
+- **Who would be interested in the results, and why** Researchers studying mycobacterial transcription regulation, particularly those focused on RNA polymerase assembly and function; structural biologists interested in protein-protein interactions in large macromolecular complexes; drug discovery groups targeting tuberculosis, especially those seeking allosteric inhibitors of transcription; computational biologists developing and applying methods for analyzing large protein complexes
+- **Major strengths** The study addresses an important biological question regarding RbpA function in Mtb transcription regulation; the use of multiple complementary computational approaches (MD, PRS, virtual screening) is commendable; the focus on allosteric mechanisms and the α1-α2 interface is novel and potentially significant; the availability of cryo-EM structures provides a solid starting point for computational analysis
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "significant structural rearrangements in RNA polymerase happen upon interaction with RbpA" based on RMSD calculations
+  - **Evidence pointer** Section 3.1, Figure 1
+  - **Concern** The global RMSD values reported range from 0.7Å to 2Å. These values are relatively small and may not represent "significant structural rearrangements" in a complex of this size. The authors do not provide statistical significance testing, confidence intervals, or comparison to control simulations. Additionally, the use of TM-align for RMSD calculation on a large multi-subunit complex may not be appropriate for detecting localized conformational changes.
+  - **Why it matters** The central claim of the paper rests on the assertion that RbpA induces meaningful structural changes. If the observed RMSD differences are within thermal noise or simulation artifacts, the entire premise of the study is undermined.
+  - **Resolution test** Provide statistical analysis of RMSD distributions from multiple independent simulations, include control simulations without RbpA, and demonstrate that observed changes exceed thermal fluctuations. Show per-residue RMSD with error bars and significance testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "hotspot residues, crucial amino acids in the RbpA-mediated transcriptional regulation, were identified through our examination"
+  - **Evidence pointer** Section 3.2, Figure 2
+  - **Concern** The methods for hotspot residue identification are not described in sufficient detail. The authors mention using PPcheck for interaction energy calculation but do not specify the criteria for defining "hotspot" residues, the energy threshold used, or how alanine scanning was performed. The claim that these residues are "crucial" for regulation is not experimentally validated.
+  - **Why it matters** Hotspot residue identification is a key methodological component that supports the allosteric mechanism claims. Without clear methodology and validation, these identifications cannot be evaluated or reproduced.
+  - **Resolution test** Provide detailed methodology for hotspot identification, including energy thresholds, validation against known functional residues, and ideally experimental validation or comparison to published mutagenesis data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "potential allosteric mechanisms, involving the interface of subunits α1 and α2 were uncovered"
+  - **Evidence pointer** Sections 3.3, 3.6, Figures 3-5
+  - **Concern** The evidence for allosteric mechanisms is indirect and based on correlation between RbpA binding at a distant site and changes in α1-α2 interface dynamics. The authors do not demonstrate a causal pathway or communication mechanism between the RbpA binding site and the α1-α2 interface. The MD simulations are only 100 ns, which may be insufficient to capture slow allosteric conformational changes in a large complex.
+  - **Why it matters** The allosteric mechanism claim is a major novel contribution of the paper. Without direct evidence of communication pathways or mutational validation, this remains speculative.
+  - **Resolution test** Perform longer simulations or enhanced sampling methods, identify specific residue-residue communication pathways, validate with mutational analysis or comparison to experimental allosteric data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "potential ligands meant for the α1-α2 binding site were identified through virtual screening"
+  - **Evidence pointer** Section 3.9, 3.10, Figures 10-11
+  - **Concern** The virtual screening methodology is inadequately described. The authors mention using Glide with HTVS, SP, and XP protocols but do not provide details on receptor preparation, grid construction, ligand preparation, or scoring function validation. The claim that saikosaponin-F and elbasvir are "top compounds" lacks supporting data on binding affinity, selectivity, or comparison to known binders. The 100 ns MD simulations for validation are short for drug binding studies.
+  - **Why it matters** The drug discovery aspect is a significant translational claim of the paper. Inadequate methodology and validation could lead to false positives and wasted experimental effort.
+  - **Resolution test** Provide complete virtual screening protocol, include positive and negative controls, validate docking scores with known binders, perform longer simulations with multiple replicates, and ideally provide experimental binding data.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "the outcomes of our computational study serve as a foundation for experimental investigations into inhibitors targeting the RbpA-regulated dynamics in RNA polymerase"
+  - **Evidence pointer** Abstract, Discussion
+  - **Concern** The biological significance of the proposed α1-α2 interface as a drug target is not well established. The authors do not discuss whether this interface is conserved, whether it is accessible in the cellular context, or whether inhibition of this interface would be specific to Mtb versus human RNA polymerases. The connection between the computational predictions and therapeutic potential is overstated.
+  - **Why it matters** The translational relevance of the work depends on the α1-α2 interface being a viable drug target. Without addressing specificity, accessibility, and biological relevance, the therapeutic claims are premature.
+  - **Resolution test** Provide analysis of interface conservation across species, discuss accessibility in cellular context, compare to human RNA polymerase interfaces, and temper claims about therapeutic potential.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction contains redundant statements. The sentence "Additionally, the investigation of allosteric effects revealed potential mechanisms through which RbpA modulates transcriptional activity. Additionally, the investigation of allosteric effects revealed potential mechanisms that include the interface of subunits of α1 and α2 through which RbpA modulates transcriptional activity" is repeated with slight modification.
+  - **Required correction** Remove the redundant sentence and consolidate the description of allosteric findings.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The authors state that "A few residues (1011-1021) of the β' chain was found missing in the PDB files" and that they used MODELLER for loop modeling. However, they do not specify which structures had missing residues, how many models were evaluated beyond the DOPE score, or whether the loop modeling was validated.
+  - **Required correction** Specify which structures had missing residues, describe model validation, and discuss potential impact of loop modeling on downstream analyses.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The MD simulation details are incomplete. The authors do not specify the force field used for the protein simulations (only OPLS3e is mentioned for ligand simulations), water model details are only partially given, temperature and pressure coupling methods are not described, and the equilibration protocol is not detailed.
+  - **Required correction** Provide complete MD simulation parameters including force field, ensemble, temperature/pressure control, and equilibration protocol.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.7
+  - **Evidence pointer** Figure 7
+  - **Concern** The MM-PBSA analysis is mentioned but the methodology is not described in the methods section. The authors do not specify how entropy contributions were handled, whether normal mode analysis was used for entropy estimation, or how the energy components were decomposed.
+  - **Required correction** Add MM-PBSA methodology to the methods section, including entropy treatment and energy decomposition approach.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.9
+  - **Evidence pointer** Section 3.9
+  - **Issue** The text states "The top compound for site4 is discussed in detail in the supplementary information" but only two sites (site1 and site2) were described earlier. This appears to be an error.
+  - **Required correction** Correct the site reference or clarify the number of sites investigated.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.10
+  - **Evidence pointer** Section 3.10
+  - **Issue** The authors state that elbasvir "was also predicted to bind to RNA-dependent RNA polymerase of SARS-CoV2" but do not provide a citation for this claim.
+  - **Required correction** Add appropriate citation or remove the claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (structural rearrangement significance), R1-M2 (hotspot identification methodology), R1-M3 (allosteric mechanism evidence), R1-M4 (virtual screening validation)
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The application of computational methods to study RbpA effects on RNAP dynamics is somewhat novel, but the approaches used are standard in the field. The allosteric hypothesis involving α1-α2 is interesting but not sufficiently developed.
+  - **Scientific importance** Moderate. Understanding RbpA function in Mtb transcription is important for tuberculosis research, but the findings are largely computational predictions without experimental validation. The therapeutic implications are speculative.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to computational biologists and tuberculosis researchers. The drug discovery aspect could broaden appeal but is not sufficiently developed.
+  - **Technical soundness** Insufficient. Major methodological details are missing, statistical analysis is absent, and several claims are not supported by the evidence presented. The 100 ns MD simulations are short for the conclusions drawn.
+  - **Readability for nonspecialists** Poor. The manuscript assumes significant background knowledge in both computational methods and RNA polymerase biology. The structure is somewhat disorganized with redundant statements.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential but requires substantial revisions including complete methodological details, statistical analysis, validation of key claims, and tempering of conclusions. The computational findings could serve as hypotheses for experimental testing, but the current presentation overstates the significance and reliability of the results.

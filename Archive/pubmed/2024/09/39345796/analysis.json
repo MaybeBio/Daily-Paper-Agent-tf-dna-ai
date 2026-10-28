@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39345796",
+  "title": "Structure-based prediction of protein-nucleic acid binding using graph neural networks.",
+  "authors": "Sagendorf, Jared M; Mitra, Raktim; Huang, Jiawei; Chen, Xiaojiang S; Rohs, Remo",
+  "journal": "Biophysical reviews",
+  "published_date": "2024-09-30",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用图神经网络基于未结合蛋白结构预测蛋白-核酸结合位点及DNA/RNA特异性，虽非聚焦TF-DNA，但方法可迁移至转录因子结合位点预测与互作机制研究。",
+  "abstract": "Protein-nucleic acid (PNA) binding plays critical roles in the transcription, translation, regulation, and three-dimensional organization of the genome. Structural models of proteins bound to nucleic acids (NA) provide insights into the chemical, electrostatic, and geometric properties of the protein structure that give rise to NA binding but are scarce relative to models of unbound proteins. We developed a deep learning approach for predicting PNA binding given the unbound structure of a protein that we call PNAbind. Our method utilizes graph neural networks to encode the spatial distribution of physicochemical and geometric properties of protein structures that are predictive of NA binding. Using global physicochemical encodings, our models predict the overall binding function of a protein, and using local encodings, they predict the location of individual NA binding residues. Our models can discriminate between specificity for DNA or RNA binding, and we show that predictions made on computationally derived protein structures can be used to gain mechanistic understanding of chemical and structural features that determine NA recognition. Binding site predictions were validated against benchmark datasets, achieving AUROC scores in the range of 0.92-0.95. We applied our models to the HIV-1 restriction factor APOBEC3G and showed that our model predictions are consistent with and help explain experimental RNA binding data. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s12551-024-01201-w.",
+  "abstract_zh": "蛋白质-核酸（PNA）结合在基因组的转录、翻译、调控及三维组织中发挥关键作用。与核酸（NA）结合的蛋白质结构模型为蛋白质结构中赋予NA结合能力的化学、静电及几何特性提供了见解，但相对于未结合蛋白质的模型，这些模型较为稀缺。我们开发了一种深度学习方法，用于根据蛋白质的未结合结构预测PNA结合，称为PNAbind。我们的方法利用图神经网络编码蛋白质结构中预测NA结合的理论化学和几何特性的空间分布。通过全局理论化学编码，我们的模型预测蛋白质的整体结合功能，而通过局部编码，它们预测单个NA结合残基的位置。我们的模型能够区分DNA或RNA结合的特异性，并表明对计算衍生的蛋白质结构所做的预测可用于深入理解决定NA识别的化学和结构特征的机制。结合位点预测在基准数据集上进行了验证，AUROC分数范围在0.92-0.95之间。我们将模型应用于HIV-1限制因子APOBEC3G，并表明我们的模型预测与实验RNA结合数据一致，并有助于解释这些数据。补充信息：在线版本包含补充材料，可在10.1007/s12551-024-01201-w获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39345796/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39345796/",
+  "paper_page_path": "papers/pubmed/39345796/index.html"
+}

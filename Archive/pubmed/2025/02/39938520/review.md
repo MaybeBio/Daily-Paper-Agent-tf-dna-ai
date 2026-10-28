@@ -1,0 +1,128 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) for a research article submitted to Cell Systems.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external data or supplementary files were available for review.
+- **Shared manuscript claim summary** The authors propose that macrophage memory of prior inflammatory stimuli arises from coordinated changes in NF-κB signaling dynamics and chromatin accessibility, and that these multi-level changes can predict transcriptional responses to subsequent stimuli.
+- **Visible evidence base** Descriptions of live-cell imaging experiments (80 pairwise ligand sequences), ATAC-seq, RNA-seq, in vivo endotoxemia model, and a deep learning model. Figures and tables are referenced but not provided.
+- **Missing materials affecting confidence** All figures, supplementary tables, videos, and detailed numerical results are absent. Statistical details, exact sample sizes, and model performance metrics are not fully described in the text.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in innate immunity: how macrophages integrate prior inflammatory exposure to modulate future responses. The authors combine multiple state-of-the-art techniques to propose a dual mechanism involving both signaling dynamics and chromatin remodeling. The conceptual framework is compelling and the scope is ambitious. However, the current text lacks sufficient quantitative detail and figure inspection to fully evaluate the robustness of the claims. The deep learning model, while innovative, requires more rigorous validation and description. The in vivo data are intriguing but limited to a single time point and cell type. Overall, the study has potential but needs substantial revision and additional evidence to fully support its conclusions.
+- **Who would be interested in the results, and why** Immunologists studying innate immune memory, tolerance, and sepsis; systems biologists interested in signal transduction dynamics; computational biologists working on gene expression prediction from chromatin and signaling data. The work bridges molecular mechanisms with predictive modeling, which will appeal to a broad interdisciplinary audience.
+- **Major strengths** 1) Systematic and high-throughput approach to a complex biological question. 2) Integration of multiple data modalities (imaging, ATAC-seq, RNA-seq) within a single study. 3) Novel finding that NF-κB dynamics are remodeled by prior stimulation in a ligand-specific manner. 4) Demonstration that chromatin accessibility changes persist after sequential stimulation, suggesting a lasting "memory" at the epigenetic level. 5) Use of a deep learning model to integrate diverse features for gene expression prediction, providing a proof-of-concept for predictive immunology.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The deep learning model predicts gene expression with 72.8% accuracy, and both chromatin and NF-κB dynamics are necessary for this prediction.
+  - **Evidence pointer** Results section "Coordinated transcription factor dynamics and chromatin accessibility enable signaling memory and gene expression control"; Figure 7
+  - **Concern** The description of the deep learning model is insufficient for evaluation. Key details are missing: architecture specifics (number of layers, nodes per layer beyond the first), hyperparameter tuning, training/validation split methodology, and how class imbalance was handled. The accuracy metric (72.8%) is presented without confidence intervals or comparison to baseline models. The claim that both data types are "necessary" is not supported by an ablation study showing significant performance drops when each modality is removed. The text mentions "we also calculated its accuracy when only subset of input data is used" but does not report these results in the main text.
+  - **Why it matters** The predictive model is a central pillar of the paper's conclusion that multi-level encoding is required for memory. Without rigorous validation and clear demonstration that both modalities contribute significantly, this claim is not established. The model's utility for the broader community depends on its reproducibility and robustness.
+  - **Resolution test** Provide full model architecture, hyperparameters, and training details. Include an ablation study showing model performance with (a) only chromatin features, (b) only NF-κB dynamics, and (c) both, with statistical comparison. Report accuracy with confidence intervals and compare against a simple baseline (e.g., logistic regression on the same features). Show confusion matrices for the four expression classes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We use transcriptomic profiling and deep learning to show that transcription factor and chromatin dynamics coordinate fine-tuned macrophage responses to new inflammatory signals."
+  - **Evidence pointer** Results section "Memory-induced transcription factor and chromatin accessibility dynamics are encoded into cellular decision-making"; Figure 6
+  - **Concern** The definition of synergistic and antagonistic gene regulation is based on a formula comparing observed sequential expression to an expected additive model. However, the text does not specify how the "expected" term is calculated for each gene. The formula uses ΔA∅ and ΔB, but it is unclear if these are mean fold-changes across replicates, and how variability is accounted for. The threshold of ±25% for synergy/antagonism appears arbitrary and is not justified. No statistical test is described to determine if the observed deviation from expectation is significant. The number of genes classified as synergistic/antagonistic is reported, but the total number of genes tested is not given.
+  - **Why it matters** The classification of genes into synergistic and antagonistic categories is the foundation for the downstream analysis of transcription factor enrichment and the deep learning model. If this classification is not statistically robust, all subsequent conclusions are weakened.
+  - **Resolution test** Clearly describe the calculation of expected expression, including how replicate variability is handled. Provide a statistical test (e.g., a t-test or permutation test) for each gene to determine if the observed expression differs significantly from the expected value. Justify the ±25% threshold or use a data-driven approach. Report the total number of genes analyzed and the number of genes in each category with statistical support.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "We use live-cell analysis, ATAC sequencing and an in vivo model of sepsis to show that sequential inflammatory signals induce memory in individual macrophages through reprogramming the NF-κB network and the chromatin accessibility landscape."
+  - **Evidence pointer** Results section "NF-κB dynamics encode memory of in vivo inflammatory challenge in peritoneal macrophages"; Figure 4
+  - **Concern** The in vivo experiment is described briefly. Only a single time point (4 hours post-injection) is mentioned for peritoneal macrophage isolation. The text states that "response to TNFα is significantly attenuated and response to LPS is completely abolished" but does not provide quantitative data (e.g., effect sizes, p-values, number of mice). The choice of LPS dose for the in vivo model is not justified. It is unclear if the observed effects are due to direct LPS action on macrophages or indirect effects from other cell types in the peritoneum.
+  - **Why it matters** The in vivo data are used to argue for physiological relevance. Without proper quantification and consideration of potential confounding factors, the claim that this model reflects macrophage-intrinsic memory is not fully supported.
+  - **Resolution test** Provide quantitative data for the in vivo experiments, including the number of mice, statistical tests, and effect sizes. Include a control experiment using adoptive transfer of macrophages from endotoxemic mice into naïve recipients to demonstrate cell-intrinsic memory. Justify the LPS dose and time point chosen. Discuss potential contributions from other cell types.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "We use live-cell analysis, ATAC sequencing and an in vivo model of sepsis to show that sequential inflammatory signals induce memory in individual macrophages through reprogramming the NF-κB network and the chromatin accessibility landscape."
+  - **Evidence pointer** Results section "Ligand-specific memory encodes dose- and duration- dependent tolerance and priming"; Figure 2
+  - **Concern** The dose-response and duration-response experiments are described qualitatively. The text states that "stimulation with increased concentrations of tolerance-inducing ligands resulted in greater attenuation of subsequent response" and that "PolyI:C priming weakened with longer stimulus duration," but no quantitative data or statistical analysis is presented. The range of doses and durations tested is not specified.
+  - **Why it matters** The claim that memory is dose- and duration-dependent is a key finding. Without quantitative support, the reader cannot assess the strength or generality of this effect.
+  - **Resolution test** Provide dose-response and duration-response curves with error bars and statistical comparisons. Specify the exact doses and durations tested. Show that the effects are monotonic where claimed and statistically significant.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Summary section
+  - **Issue** The abstract states "We use transcriptomic profiling and deep learning to show that transcription factor and chromatin dynamics coordinate fine-tuned macrophage responses to new inflammatory signals." This is vague. What does "coordinate" mean mechanistically? The abstract would benefit from a more specific statement of the finding.
+  - **Required correction** Rephrase to specify the nature of the coordination, e.g., "We show that NF-κB dynamics and chromatin accessibility changes at specific promoter regions jointly predict the magnitude and direction of transcriptional responses."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Ligand-specific memory encodes dose- and duration- dependent tolerance and priming"
+  - **Evidence pointer** Figure 2
+  - **Issue** The text says "We did not observe previously reported shifts from priming to tolerance or vice versa in our dose range." This is an important negative result, but it is not discussed further. It would be helpful to know if this is due to the specific ligands, doses, or cell types used.
+  - **Required correction** Add a sentence discussing possible reasons for the lack of observed shifts, referencing the prior studies and differences in experimental design.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Chromatin accessibility dynamics regulate transcription factor targets following macrophage activation"
+  - **Evidence pointer** Figure 5
+  - **Issue** The text mentions "hierarchical clustering identified regions with increased accessibility after both polyI:C treatment and CpG treatment, as well as only after each individually." It is unclear how many regions are in each cluster and what the magnitude of change is.
+  - **Required correction** Provide the number of regions in each cluster and the average fold-change in accessibility. This will give the reader a sense of the scale of the effect.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion states "We discover that these mechanisms synergize to create regulate transcriptional responses to future challenges based on memory of past exposure." The phrase "create regulate" is grammatically incorrect.
+  - **Required correction** Change to "create regulated transcriptional responses" or "regulate transcriptional responses."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Microfluidics enabled live-cell imaging"
+  - **Evidence pointer** Methods section
+  - **Issue** The text states "Cells were tracked with >99% accuracy over up to 8-hour intervals." It is unclear how this accuracy was measured and what constitutes a tracking error.
+  - **Required correction** Briefly describe the tracking accuracy assessment method, e.g., manual validation of a subset of tracks.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Coordinated transcription factor dynamics and chromatin accessibility enable signaling memory and gene expression control"
+  - **Evidence pointer** Figure 7
+  - **Issue** The text says "We identified 16 genes which displayed the same regulatory pattern following stimulation with LPS, TNFα, and LPS or TNFα after polyI:C." It is unclear what "same regulatory pattern" means. Does it mean the same direction of change (up/down) or the same magnitude?
+  - **Required correction** Define "same regulatory pattern" explicitly, e.g., "genes that were consistently upregulated or downregulated across all four conditions."
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Deep learning model construction and validation"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the input features is confusing. The text says "the three most proximal ATAC peaks were selected and the number of binding motifs for 18 different transcription factors were recorded for each peak." It is unclear if these are the same 18 TFs for all peaks or if they vary.
+  - **Required correction** Clarify that the same set of 18 TF motifs is scanned for each ATAC peak.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "NF-κB dynamics encode memory of in vivo inflammatory challenge in peritoneal macrophages"
+  - **Evidence pointer** Figure 4
+  - **Issue** The text says "Endotoxemia also significantly delayed and increased the heterogeneity in the time to activation." It is unclear how heterogeneity was quantified.
+  - **Required correction** Specify the metric used to quantify heterogeneity, e.g., standard deviation or interquartile range of activation times.
+
+## Technical failings that need to be addressed before the case is established
+- R1-M1: Inadequate description and validation of the deep learning model, including missing ablation study.
+- R1-M2: Lack of statistical framework for defining synergistic and antagonistic gene regulation.
+- R1-M3: Insufficient quantitative data for the in vivo experiments.
+- R1-M4: Lack of quantitative data for dose- and duration-response experiments.
+
+## Assessment against Nature-style criteria
+- **Originality** High. The concept of integrating signaling dynamics with chromatin state to explain memory is novel and goes beyond previous studies that focused on one mechanism. The systematic screen of 80 ligand pairs is a significant methodological advance.
+- **Scientific importance** High. Understanding innate immune memory is clinically relevant for sepsis, chronic inflammation, and vaccine design. The proposed dual-mechanism model could have broad implications for how immune responses are modulated.
+- **Interdisciplinary readership** Moderate to high. The work will appeal to immunologists, cell biologists, and systems biologists. The deep learning component may attract computational scientists, but the technical details need to be accessible.
+- **Technical soundness** Currently insufficient. The core claims regarding the deep learning model and the synergy/antagonism classification are not rigorously supported. The in vivo and dose-response data lack quantitative detail. These issues must be resolved.
+- **Readability for nonspecialists** The abstract and introduction are clear and accessible. The results section is dense and assumes familiarity with NF-κB signaling and chromatin analysis. The methods section is highly technical. The discussion is well-written and places the work in a broader context.
+
+## Recommendation posture
+Supportive if technical concerns are resolved. The conceptual framework is strong and the experimental approach is ambitious. However, the current manuscript does not provide sufficient evidence to fully support the central claims. The authors must provide a more rigorous description and validation of the deep learning model, a statistically sound method for classifying gene regulation, and quantitative data for the in vivo and dose-response experiments. If these issues are addressed, the manuscript could make a significant contribution to the field.
+
+## Risk / unsupported claims
+- The claim that the deep learning model demonstrates both NF-κB dynamics and chromatin accessibility are "necessary" for predicting gene expression is unsupported without an ablation study.
+- The claim that "priming... also acts through enhancing signaling dynamics" is not directly tested. The data show correlation, not causation.
+- The claim that "initial stimulus exposure plays a lasting role in determining the chromatin accessibility landscape" is based on correlation analysis, but the functional significance of this persistence is not demonstrated.
+- The generalizability of the findings to other macrophage subtypes or in vivo contexts beyond the endotoxemia model is not established.
+- The statement that "we did not observe previously reported shifts from priming to tolerance" is presented without sufficient context or discussion of potential reasons.

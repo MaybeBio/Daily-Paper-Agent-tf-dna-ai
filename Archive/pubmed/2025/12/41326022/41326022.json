@@ -1,0 +1,414 @@
+{
+  "identity": {
+    "pmid": "41326022",
+    "doi": "10.1111/cea.70172",
+    "title": "A Composite Epigenetic Biomarker of FOXP3/TIGIT Correlates With Regulatory T Cell Numbers in Cord Blood and Is Associated With Subsequent Food Allergy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Flow cytometry studies have reported an association between lower regulatory T cells (Treg) in cord blood and subsequent food allergy. Flow cytometry, however, is a resource-intensive technique. We therefore aimed to develop an epigenetic biomarker (nTreg(epi)) that correlates with the proportion of naive regulatory T cells (nTreg) in cord blood white cells (CBWCs) measured by flow cytometry. We then investigated the association between nTreg(epi) and subsequent food allergy. METHODS: The Barwon Infant Study (BIS) is a prebirth cohort study (n = 1074 infants). Illumina Infinium MethylationEPIC v1.0 BeadChips were used to assess DNA methylation in cord whole blood (n = 936). In a subgroup, flow cytometry was used to measure the proportion of nTregs (CD4 + CD45RA + FOXP3+) in CBWCs (n = 450). In a training set (n = 338), we assessed the correlation between methylation at 78 probes in the FOXP3 and TIGIT genes and the proportion of nTregs in CBWCs. LASSO regression was then used to develop a linear methylation predictor of nTregs as a proportion of CBWCs, denoted 'nTreg(epi)', which was then tested in a validation set (n = 112). The association between nTreg(epi) and subsequent IgE-mediated food allergy was evaluated using logistic regression. RESULTS: Methylation levels of 23/78 sites in FOXP3 and TIGIT were associated with the proportion of nTregs in CBWCs (q < 0.05 for each). LASSO regression of methylation levels for these 21 probes was used to derive a linear predictor (nTreg(epi)) which correlated with the log proportion of nTregs in the validation set (R(2) = 0.22, p < 0.001). In the complete cohort with relevant data available (n = 693), a higher nTreg(epi) was associated with decreased odds of food allergy (odds ratio 0.65 (95% CI 0.48-0.88, p = 0.005)). CONCLUSIONS: A composite epigenetic biomarker in cord whole blood correlates with the proportion of nTreg in CBWCs and is strongly associated with the absence of subsequent food allergy.",
+    "keywords": [
+      "FOXP3",
+      "TIGIT",
+      "epigenesis",
+      "infant food allergy",
+      "machine learning",
+      "nTreg"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Food Hypersensitivity/immunology/genetics/diagnosis",
+      "*Forkhead Transcription Factors/genetics/immunology",
+      "*T-Lymphocytes, Regulatory/immunology/metabolism",
+      "*Fetal Blood/immunology/cytology",
+      "*Epigenesis, Genetic",
+      "DNA Methylation",
+      "Female",
+      "Biomarkers",
+      "Male",
+      "Infant, Newborn",
+      "Infant"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nguyen, Viet Hong",
+        "O'Hely, Martin",
+        "Collier, Fiona",
+        "Sominsky, Luba",
+        "Dhar, Poshmaal",
+        "Molloy, John",
+        "Ponsonby, Anne-Louise",
+        "Tang, Mimi L K",
+        "Sly, Peter",
+        "Saffery, Richard",
+        "Novakovic, Boris",
+        "Vuillermin, Peter"
+      ],
+      "short_names": [
+        "Nguyen VH",
+        "O'Hely M",
+        "Collier F",
+        "Sominsky L",
+        "Dhar P",
+        "Molloy J",
+        "Ponsonby AL",
+        "Tang MLK",
+        "Sly P",
+        "Saffery R",
+        "Novakovic B",
+        "Vuillermin P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0772-6918",
+        "ORCID: 0000-0002-0212-1207",
+        "ORCID: 0000-0002-5438-480X",
+        "ORCID: 0000-0002-0674-8824",
+        "ORCID: 0000-0002-2842-007X",
+        "ORCID: 0000-0002-6935-0418",
+        "ORCID: 0000-0002-6581-3657",
+        "ORCID: 0000-0002-3839-5293",
+        "ORCID: 0000-0001-6305-2201",
+        "ORCID: 0000-0002-9510-4181",
+        "ORCID: 0000-0002-5623-9008",
+        "ORCID: 0000-0002-6580-0346"
+      ],
+      "affiliations": [
+        "School of Medicine, The Institute for Mental and Physical Health and Clinical Translation (IMPACT), Deakin University, Geelong, Victoria, Australia.",
+        "Child Health Research Unit, Barwon Health, Geelong, Victoria, Australia.",
+        "Faculty of Fundamental Sciences and Basic Medical Sciences, Pham Ngoc Thach University of Medicine, Ho Chi Minh City, Vietnam.",
+        "School of Medicine, The Institute for Mental and Physical Health and Clinical Translation (IMPACT), Deakin University, Geelong, Victoria, Australia.",
+        "Murdoch Children's Research Institute, Parkville, Victoria, Australia.",
+        "School of Medicine, The Institute for Mental and Physical Health and Clinical Translation (IMPACT), Deakin University, Geelong, Victoria, Australia.",
+        "School of Medicine, The Institute for Mental and Physical Health and Clinical Translation (IMPACT), Deakin University, Geelong, Victoria, Australia.",
+        "Child Health Research Unit, Barwon Health, Geelong, Victoria, Australia.",
+        "School of Medicine, The Institute for Mental and Physical Health and Clinical Translation (IMPACT), Deakin University, Geelong, Victoria, Australia.",
+        "School of Medicine, The Institute for Mental and Physical Health and Clinical Translation (IMPACT), Deakin University, Geelong, Victoria, Australia.",
+        "Child Health Research Unit, Barwon Health, Geelong, Victoria, Australia.",
+        "Division of Infection, Immunity and Respiratory Medicine, School of Biological Sciences, The University of Manchester, Manchester, UK.",
+        "Royal Manchester Children's Hospital, Manchester, UK.",
+        "Murdoch Children's Research Institute, Parkville, Victoria, Australia.",
+        "The Florey Institute of Neuroscience and Mental Health, The University of Melbourne, Parkville, Victoria, Australia.",
+        "Department of Paediatrics, The University of Melbourne, Parkville, Victoria, Australia.",
+        "Murdoch Children's Research Institute, Parkville, Victoria, Australia.",
+        "Department of Paediatrics, The University of Melbourne, Parkville, Victoria, Australia.",
+        "The Royal Children's Hospital, Parkville, Victoria, Australia.",
+        "Children's Health and Environment Program, Child Health Research Centre, The University of Queensland, South Brisbane, Queensland, Australia.",
+        "Murdoch Children's Research Institute, Parkville, Victoria, Australia.",
+        "Department of Paediatrics, The University of Melbourne, Parkville, Victoria, Australia.",
+        "Murdoch Children's Research Institute, Parkville, Victoria, Australia.",
+        "Department of Paediatrics, The University of Melbourne, Parkville, Victoria, Australia.",
+        "School of Medicine, The Institute for Mental and Physical Health and Clinical Translation (IMPACT), Deakin University, Geelong, Victoria, Australia.",
+        "Child Health Research Unit, Barwon Health, Geelong, Victoria, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nguyen, Viet Hong",
+        "short_name": "Nguyen VH",
+        "identifiers": [
+          "0000-0002-0772-6918"
+        ],
+        "affiliations": [
+          "School of Medicine, The Institute for Mental and Physical Health and Clinical Translation (IMPACT), Deakin University, Geelong, Victoria, Australia.",
+          "Child Health Research Unit, Barwon Health, Geelong, Victoria, Australia.",
+          "Faculty of Fundamental Sciences and Basic Medical Sciences, Pham Ngoc Thach University of Medicine, Ho Chi Minh City, Vietnam."
+        ]
+      },
+      {
+        "full_name": "O'Hely, Martin",
+        "short_name": "O'Hely M",
+        "identifiers": [
+          "0000-0002-0212-1207"
+        ],
+        "affiliations": [
+          "School of Medicine, The Institute for Mental and Physical Health and Clinical Translation (IMPACT), Deakin University, Geelong, Victoria, Australia.",
+          "Murdoch Children's Research Institute, Parkville, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Collier, Fiona",
+        "short_name": "Collier F",
+        "identifiers": [
+          "0000-0002-5438-480X"
+        ],
+        "affiliations": [
+          "School of Medicine, The Institute for Mental and Physical Health and Clinical Translation (IMPACT), Deakin University, Geelong, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Sominsky, Luba",
+        "short_name": "Sominsky L",
+        "identifiers": [
+          "0000-0002-0674-8824"
+        ],
+        "affiliations": [
+          "School of Medicine, The Institute for Mental and Physical Health and Clinical Translation (IMPACT), Deakin University, Geelong, Victoria, Australia.",
+          "Child Health Research Unit, Barwon Health, Geelong, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Dhar, Poshmaal",
+        "short_name": "Dhar P",
+        "identifiers": [
+          "0000-0002-2842-007X"
+        ],
+        "affiliations": [
+          "School of Medicine, The Institute for Mental and Physical Health and Clinical Translation (IMPACT), Deakin University, Geelong, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Molloy, John",
+        "short_name": "Molloy J",
+        "identifiers": [
+          "0000-0002-6935-0418"
+        ],
+        "affiliations": [
+          "School of Medicine, The Institute for Mental and Physical Health and Clinical Translation (IMPACT), Deakin University, Geelong, Victoria, Australia.",
+          "Child Health Research Unit, Barwon Health, Geelong, Victoria, Australia.",
+          "Division of Infection, Immunity and Respiratory Medicine, School of Biological Sciences, The University of Manchester, Manchester, UK.",
+          "Royal Manchester Children's Hospital, Manchester, UK."
+        ]
+      },
+      {
+        "full_name": "Ponsonby, Anne-Louise",
+        "short_name": "Ponsonby AL",
+        "identifiers": [
+          "0000-0002-6581-3657"
+        ],
+        "affiliations": [
+          "Murdoch Children's Research Institute, Parkville, Victoria, Australia.",
+          "The Florey Institute of Neuroscience and Mental Health, The University of Melbourne, Parkville, Victoria, Australia.",
+          "Department of Paediatrics, The University of Melbourne, Parkville, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Tang, Mimi L K",
+        "short_name": "Tang MLK",
+        "identifiers": [
+          "0000-0002-3839-5293"
+        ],
+        "affiliations": [
+          "Murdoch Children's Research Institute, Parkville, Victoria, Australia.",
+          "Department of Paediatrics, The University of Melbourne, Parkville, Victoria, Australia.",
+          "The Royal Children's Hospital, Parkville, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Sly, Peter",
+        "short_name": "Sly P",
+        "identifiers": [
+          "0000-0001-6305-2201"
+        ],
+        "affiliations": [
+          "Children's Health and Environment Program, Child Health Research Centre, The University of Queensland, South Brisbane, Queensland, Australia."
+        ]
+      },
+      {
+        "full_name": "Saffery, Richard",
+        "short_name": "Saffery R",
+        "identifiers": [
+          "0000-0002-9510-4181"
+        ],
+        "affiliations": [
+          "Murdoch Children's Research Institute, Parkville, Victoria, Australia.",
+          "Department of Paediatrics, The University of Melbourne, Parkville, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Novakovic, Boris",
+        "short_name": "Novakovic B",
+        "identifiers": [
+          "0000-0002-5623-9008"
+        ],
+        "affiliations": [
+          "Murdoch Children's Research Institute, Parkville, Victoria, Australia.",
+          "Department of Paediatrics, The University of Melbourne, Parkville, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "Vuillermin, Peter",
+        "short_name": "Vuillermin P",
+        "identifiers": [
+          "0000-0002-6580-0346"
+        ],
+        "affiliations": [
+          "School of Medicine, The Institute for Mental and Physical Health and Clinical Translation (IMPACT), Deakin University, Geelong, Victoria, Australia.",
+          "Child Health Research Unit, Barwon Health, Geelong, Victoria, Australia."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology"
+    ],
+    "journal_abbrev": [
+      "Clin Exp Allergy"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/02 01:00",
+    "fetched_at": "2026-10-01 07:56:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41326022",
+      "30972786",
+      "30407230",
+      "32508805",
+      "20522244",
+      "37520545",
+      "23359504",
+      "22506043",
+      "23974203",
+      "27646403",
+      "23993223",
+      "22187950",
+      "24712467",
+      "25917092",
+      "22943196",
+      "29774027",
+      "41659850",
+      "40744302",
+      "35754137",
+      "23978443",
+      "24636474",
+      "19109157",
+      "24762976",
+      "20944002",
+      "23058673",
+      "19777054",
+      "27525046",
+      "19738030",
+      "41645582",
+      "26177872",
+      "20967272",
+      "26268522",
+      "22079196",
+      "18053016",
+      "22272233",
+      "22190183",
+      "32839941",
+      "27988212",
+      "19839500",
+      "17296785",
+      "23299175",
+      "35754135",
+      "28804811",
+      "39085570",
+      "33087345",
+      "18394345",
+      "23756166",
+      "25088497",
+      "29792274",
+      "36564065",
+      "17296786",
+      "26456457",
+      "22066012",
+      "39250135",
+      "31681335",
+      "30846549",
+      "25548231",
+      "23209626",
+      "23506292",
+      "33095809",
+      "22732485",
+      "28677152",
+      "21518973",
+      "30120223",
+      "19641188",
+      "29797233",
+      "27999237",
+      "28802077",
+      "21107665",
+      "18559659",
+      "22362896",
+      "29229400",
+      "25678091",
+      "26764159",
+      "23776439",
+      "18455222",
+      "17484868",
+      "20926793",
+      "27895423",
+      "33431661",
+      "24190658",
+      "23253182",
+      "18539197",
+      "24938080",
+      "28921730",
+      "27581538",
+      "15305939",
+      "40918088",
+      "31778687",
+      "22926900",
+      "25305033",
+      "23882125",
+      "25113399",
+      "30306557",
+      "21934066",
+      "16011520",
+      "26409874",
+      "22497512",
+      "20357241",
+      "31883787"
+    ],
+    "review": [
+      "41326022",
+      "24712467",
+      "23756166",
+      "22732485",
+      "19641188"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/foodallergy.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Food Allergy"
+      },
+      {
+        "url": "https://doi.org/10.1111/cea.70172",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-317",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

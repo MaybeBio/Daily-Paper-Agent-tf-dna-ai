@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report cloning, overexpression, purification, and biophysical characterization of the HPV33 E2 DNA binding domain (DBD), including oligomeric state, secondary structure, thermal stability, pH dependence, chemical denaturation, DNA binding affinity, and computational studies (homology modeling, virtual screening, molecular dynamics) to identify potential inhibitors.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data beyond those stated, or methodological descriptions are available
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analyses, sequence alignments, model validation metrics, simulation parameters, and compound screening results
+
+## Reviewer
+- **Overall assessment** The abstract presents a broad characterization study of the HPV33 E2 DBD, combining experimental biophysics with computational approaches. The work addresses a relevant viral target with potential therapeutic implications. However, the abstract lacks sufficient quantitative detail and methodological transparency to evaluate the robustness of the claims. Several conclusions, particularly regarding the functional significance of the dimeric state and the inhibitor screening results, are presented without supporting evidence. The claim of being the "first report" requires verification against existing literature.
+- **Who would be interested in the results, and why** Researchers in virology, particularly those studying HPV biology and cervical cancer pathogenesis; structural biologists interested in viral DNA binding proteins; computational drug discovery groups targeting HPV proteins; and investigators developing antiviral strategies against high-risk HPV strains.
+- **Major strengths** The study combines multiple biophysical techniques (SEC, CD, DSC, chemical denaturation) with computational methods, providing a multi-faceted view of the protein. The pH-dependent oligomeric behavior is an interesting finding with potential biological relevance. The DNA binding affinity measurement provides a quantitative functional readout. The computational component offers a path toward therapeutic development.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The protein is monomeric or unfolded at a very low pH" and "The protein denatured and dissociated simultaneously"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that at very low pH the protein is "monomeric or unfolded" without specifying which state is observed or under what exact pH conditions. The chemical denaturation claim of simultaneous denaturation and dissociation is presented without kinetic or thermodynamic data. The distinction between these two possibilities (monomeric vs unfolded) is critical for interpreting the protein's stability landscape.
+  - **Why it matters** Without resolving whether low pH induces monomerization or unfolding, the mechanistic interpretation of pH-dependent behavior remains ambiguous. This affects the understanding of the protein's physiological relevance and its behavior in endosomal or intracellular environments during viral infection.
+  - **Resolution test** Provide explicit pH values for each condition, include SEC or analytical ultracentrifugation data at low pH to distinguish monomer from unfolded species, and present chemical denaturation curves with fitted parameters (e.g., Cm, m-values) that demonstrate whether denaturation and dissociation are coupled or sequential.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The virtual screening and molecular dynamic simulation studies were performed to find compounds that can act as potent inhibitors against E2 DBD"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract reports virtual screening and MD simulations but provides no information on the screening library size, scoring functions, validation of the homology model, simulation length, force field parameters, or any identified hit compounds. The phrase "potent inhibitors" implies functional validation that is not described.
+  - **Why it matters** Computational predictions without experimental validation or at least detailed methodological reporting cannot support claims of "potent inhibitors." The therapeutic relevance of the study depends on the credibility of these computational findings.
+  - **Resolution test** Specify the homology model quality (e.g., Ramachandran statistics, QMEAN score), describe the virtual screening protocol and library, report MD simulation parameters and convergence criteria, and either provide experimental validation of top hits or temper the language to "predicted inhibitors" with clear caveats.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "This study expands the understanding of the conserved structural and binding properties of HPV33 E2 DBD and provides the first report on the characterization of the viral protein"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of being the "first report" on characterization of HPV33 E2 DBD is a strong assertion that requires literature verification. Additionally, the abstract does not discuss how the findings compare to E2 DBD proteins from other HPV types, which is essential to support the "conserved properties" claim.
+  - **Why it matters** If prior characterization exists, the novelty claim is overstated. If no prior work exists, the authors should contextualize their findings against related HPV E2 proteins to establish what is genuinely conserved and what is unique to HPV33.
+  - **Resolution test** Provide a literature search summary confirming no prior characterization of HPV33 E2 DBD, and include a comparative discussion of structural and biophysical properties against E2 DBD from other HPV types (e.g., HPV16, HPV18, HPV31).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract clarity
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses technical terms (e.g., "homodimeric state," "melting temperature," "chemical denaturation") without brief contextual explanations, which may limit accessibility for readers outside the biophysics field.
+  - **Required correction** Add brief parenthetical explanations for key biophysical terms or provide a sentence framing the significance of each measurement in the context of viral protein function.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** DNA binding affinity claim
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The binding affinity is reported as "in the order of 10(6) M(-1)" without specifying the assay method (e.g., EMSA, SPR, fluorescence anisotropy) or the exact value and error.
+  - **Required correction** Report the exact binding constant with standard deviation and specify the assay used to measure it.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** pH stability claim
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The statement "the protein is stable at pH 8 and is in a dimeric form at basic pH" is vague regarding the pH range tested and the methods used to assess stability.
+  - **Required correction** Specify the pH range examined, the techniques used to assess stability (e.g., DSC, CD, SEC), and provide quantitative stability metrics at each pH condition.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (pH-dependent state ambiguity), R1-M2 (computational claims without methodological detail or validation)
+- **Assessment against Nature-style criteria** Originality: The study addresses a less-characterized HPV type, which is a positive aspect, but the claim of being the first report requires verification. Scientific importance: HPV33 is clinically relevant, particularly in Asian populations, and understanding its E2 DBD could inform therapeutic development. However, the abstract does not establish how these findings advance the field beyond existing HPV E2 studies. Interdisciplinary readership: The combination of biophysics and computational biology could appeal to multiple communities, but the abstract is too technical for broad accessibility. Technical soundness: The biophysical measurements are standard, but the lack of methodological detail and the unresolved pH-state ambiguity undermine confidence. Readability for nonspecialists: The abstract assumes familiarity with biophysical terminology and does not provide sufficient context for the significance of each finding.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable scope of work, but the lack of methodological detail, unresolved mechanistic ambiguity, and unvalidated computational claims prevent assessment of the study's validity. A revised abstract with quantitative details and tempered claims, or access to the full manuscript, would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim of being the "first report" on HPV33 E2 DBD characterization is unverifiable from the abstract alone and requires literature confirmation.
+- The assertion that virtual screening and MD simulations identified "potent inhibitors" is unsupported without details on the screening protocol, model quality, or experimental validation.
+- The statement that the protein is "monomeric or unfolded at very low pH" is ambiguous and does not distinguish between these two distinct states.
+- The claim that the protein "denatured and dissociated simultaneously" is presented without kinetic or thermodynamic data to support the coupling of these processes.
+- The DNA binding affinity value is reported without assay details or error estimates, limiting its interpretability.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.08.05.743005",
+  "title": "Evolution-inspired multi-objective Bayesian optimization for protein engineering",
+  "authors": "Wen K; Wang S; Sun Y; Li S; Wang M; Liu H; Li Q; Zhu J",
+  "journal": "bioRxiv",
+  "published_date": "2026-08-06",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出进化启发的多目标贝叶斯优化框架EvoMOBO，用于蛋白质工程，虽以蛋白工程为主，但涉及类固醇受体DNA结合域（DBD）的序列优化与模拟几何描述符，属于广义蛋白-DNA互作体系且方法可迁移至TF-DNA结合位点预测，故给予中上评分。",
+  "abstract": "Protein engineering requires efficient navigation of vast sequence spaces under limited evaluation budgets, especially when multiple properties must be optimized simultaneously. We developed Evolution-inspired Multi-Objective Bayesian Optimization (EvoMOBO), an active-learning framework that integrates path-dependent sequence generation, global competition among generated variants, and explicit multi-objective optimization. Benchmarking against state-of-the-art methods on complete steroid receptor DNA-binding domain and ParD3 antitoxin landscapes demonstrated robust target-region enrichment, Pareto-front advancement, and sequence diversity across two- and three-objective tasks. In the DBD landscape, simulation-derived geometric descriptors served as labels for both initialization and iterative updating, enriching variants with favorable measured activities without experimental labels. Building on this validation, we applied EvoMOBO to two enzyme-engineering tasks using simulation-derived mechanistic descriptors, with experiments reserved for final validation. For an old yellow enzyme ( Gk OYE), 16 of 26 tested variants outperformed the wild type, and the best increased non-native oxidative dehydrogenation conversion from 17.5% to 95%. For a formate oxidase ( Ao FOx), EvoMOBO identified aggregation-resistant variants, two of which nearly doubled diethyl phthalate degradation in a photoenzymatic cascade. Together, these results establish EvoMOBO as a modular framework for multi-objective protein engineering using experimental or mechanism-derived labels.",
+  "abstract_zh": "蛋白质工程需要在有限的评估预算下高效探索巨大的序列空间，尤其是在必须同时优化多个性质时。我们开发了进化启发的多目标贝叶斯优化（Evolution-inspired Multi-Objective Bayesian Optimization, EvoMOBO），这是一种主动学习框架，整合了路径依赖的序列生成、生成变体间的全局竞争以及显式多目标优化。在完整的类固醇受体DNA结合域和ParD3抗毒素景观上，与最先进方法的基准测试表明，该框架在双目标和三目标任务中实现了稳健的目标区域富集、帕累托前沿推进和序列多样性。在DBD景观中，模拟衍生的几何描述符作为初始化和迭代更新的标签，无需实验标签即可富集具有有利测量活性的变体。基于此验证，我们将EvoMOBO应用于两个酶工程任务，使用模拟衍生的机制描述符，实验仅用于最终验证。对于老黄酶（Gk OYE），26个测试变体中有16个优于野生型，最佳变体将非天然氧化脱氢转化率从17.5%提高至95%。对于甲酸氧化酶（Ao FOx），EvoMOBO识别出抗聚集变体，其中两个在光酶级联反应中使邻苯二甲酸二乙酯降解率几乎翻倍。综合这些结果，EvoMOBO确立为一种模块化框架，适用于使用实验或机制衍生标签的多目标蛋白质工程。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.08.05.743005",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.05.743005",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.08.05.743005/index.html"
+}

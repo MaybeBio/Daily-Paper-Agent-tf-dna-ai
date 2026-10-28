@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors report that anticorrelated domain fluctuations between the tetraloop and bulge regions of TAR RNA direct the sequential target search of a viral Tat peptide along RNA, that these fluctuations relay between domains in a hierarchical manner, that artificial attenuation of this hierarchy inhibits specific binding, and that long-lived water molecules stabilize the final complex.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field details, convergence criteria, free energy calculation protocols, steered MD setup, machine-learning clustering details, cross-correlation maps, control simulations, and quantitative error estimates
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically appealing model in which correlated domain fluctuations in RNA direct the target search of a binding peptide. The central claim, that anticorrelated fluctuations between the tetraloop and bulge set a hierarchy that sequentially guides binding footsteps, is conceptually interesting and potentially significant for understanding RNA-protein recognition dynamics. However, the abstract alone provides insufficient evidence to evaluate the robustness of the simulation results, the statistical significance of the observed correlations, or the specificity of the proposed mechanism. The claim regarding artificial attenuation of domain fluctuations is particularly difficult to assess without details of the perturbation strategy and its controls. The study is likely to interest researchers in RNA dynamics, molecular recognition, and computational biophysics, but the current evidence base does not establish the case.
+- **Who would be interested in the results, and why** Researchers in RNA biophysics, molecular dynamics simulation, and protein-RNA recognition would find the proposed fluctuation-relay mechanism relevant to understanding how conformational dynamics shape binding pathways. Those studying intrinsically dynamic RNA motifs such as bulges and tetraloops may also be interested in the functional interpretation offered. The machine-learning clustering approach may appeal to method-oriented readers, though its specific contribution is not detailed in the abstract.
+- **Major strengths** The abstract identifies a specific, testable mechanistic hypothesis linking interdomain correlated fluctuations to directional target search. The use of multiple complementary computational approaches suggests an attempt at methodological triangulation. The proposed role of long-lived water molecules in stabilizing the final complex adds a molecular-level detail that could be experimentally or computationally verifiable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that anticorrelated domain fluctuation between the tetraloop and bulge sets a hierarchy in domain-specific fluctuations that directs sequential binding footsteps.
+  - **Evidence pointer** Abstract text; cross-correlation maps mentioned but not shown
+  - **Concern** The central mechanistic claim rests on cross-correlation maps and fluctuation analyses, but no quantitative measures, statistical uncertainties, or convergence assessments are provided. It is unclear whether the observed anticorrelation is statistically robust across independent simulations or whether it reflects a single trajectory artifact.
+  - **Why it matters** The entire directional search mechanism depends on the reliability of the correlation analysis. Without evidence of statistical reproducibility and convergence, the claim that anticorrelated fluctuations "set a hierarchy" cannot be distinguished from noise or system-specific behavior.
+  - **Resolution test** Provide cross-correlation values with error bars from multiple independent simulations, show convergence of fluctuation amplitudes over simulation time, and demonstrate that the anticorrelation is robust to initial conditions and force field choice.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The abstract claims that artificial attenuation of hierarchical domain fluctuation inhibits specific RNA binding.
+  - **Evidence pointer** Location not provided
+  - **Concern** The perturbation experiment is described only in a single sentence. No details are given on how attenuation was achieved, whether it was specific to the proposed hierarchy, or whether off-target effects on RNA structure or dynamics were excluded. Without this information, the causal link between the fluctuation hierarchy and binding cannot be evaluated.
+  - **Why it matters** This is the only intervention that supports the causal interpretation. If the attenuation method also disrupts other aspects of RNA dynamics or structure, the conclusion that the hierarchy itself is functionally required would be weakened.
+  - **Resolution test** Describe the attenuation strategy in detail, show that it selectively reduces the anticorrelated fluctuation without altering overall RNA stability or other dynamic modes, and include appropriate control simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** The abstract claims that the binding is completed with the arrival of a few long-lived water molecules that mediate slightly distant RNA-protein sites and stabilize the complex.
+  - **Evidence pointer** Location not provided
+  - **Concern** No quantitative definition of "long-lived" is given, nor is the number of water molecules, their residence times, or their specific bridging interactions described. The claim that they "stabilize" the complex is not supported by free energy decomposition or comparative analysis with simulations lacking these waters.
+  - **Why it matters** The water-mediated stabilization is presented as a final step in the mechanism. Without quantitative residence time analysis and evidence that these waters contribute to binding free energy, the claim remains speculative.
+  - **Resolution test** Provide water residence time distributions, identify specific bridging contacts, and show that removal or displacement of these waters reduces complex stability in free energy calculations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "binding footstep" is used repeatedly but not defined. It is unclear whether this refers to a discrete intermediate state, a temporal segment of the trajectory, or a structural contact event.
+  - **Required correction** Define "binding footstep" operationally in the abstract or methods, for example as a specific contact formation event or a defined structural state along the binding pathway.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Location not provided
+  - **Issue** The abstract mentions machine-learning-based clustering but does not specify the algorithm, input features, or validation approach. This limits reproducibility and comparability with other clustering-based analyses of MD trajectories.
+  - **Required correction** Specify the clustering method, feature selection, and validation metrics in the methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Scope of conclusions
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract concludes that the study underscores the functional importance of "naturally designed fluctuating RNA motifs" but does not discuss whether the proposed mechanism is specific to the TAR-Tat system or generalizable to other RNA-protein recognition processes.
+  - **Required correction** Add a sentence in the discussion addressing the potential generality and limitations of the proposed mechanism.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The proposed fluctuation-relay mechanism for directional target search is conceptually novel and goes beyond static binding site descriptions. Scientific importance: If established, the mechanism would contribute to understanding how RNA dynamics encode functional information for protein recognition, which is relevant to gene regulation and viral replication. Interdisciplinary readership: The topic bridges biophysics, computational chemistry, and molecular biology, and could attract readers across these fields. Technical soundness: Cannot be assessed from the abstract alone; the absence of convergence, statistical, and perturbation details prevents evaluation. Readability for nonspecialists: The abstract is generally clear but relies on specialized terms such as "anticorrelated domain fluctuation" and "cross-correlation maps" without brief explanatory context, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The mechanistic claims are plausible and interesting, but the abstract does not provide sufficient quantitative or methodological detail to support the causal and statistical conclusions. A full manuscript with detailed methods, convergence analyses, and control simulations would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that anticorrelated domain fluctuations "set a hierarchy" in fluctuations is unsupported without quantitative correlation data and statistical uncertainty estimates.
+- The claim that artificial attenuation of the fluctuation hierarchy inhibits binding is unsupported without details of the perturbation method and controls.
+- The claim that long-lived water molecules "stabilize" the complex is unsupported without residence time analysis and free energy decomposition.
+- The directional and sequential nature of the target search mechanism is not quantitatively demonstrated in the abstract.
+- The generalizability of the mechanism beyond the TAR-Tat system is not addressed and cannot be evaluated.

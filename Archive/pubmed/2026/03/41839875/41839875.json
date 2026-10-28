@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "41839875",
+    "doi": "10.1038/s41467-026-70538-5",
+    "title": "Condensin accelerates long-range intra-chromosomal interactions."
+  },
+  "content": {
+    "abstract": "The 3D genome organization plays a key role in regulating interactions among chromosomal loci. While Chromosome Conformation Capture (3C)-based methods have provided static snapshots of chromatin architecture, the kinetics of chromosomal encounters in live cells remain poorly characterized. In this study, we employ Chemically Induced Chromosomal Interaction (CICI) to measure encounter times between multiple loci pairs in G1-arrested budding yeast. Our results show that chromosome motion closely follows the Rouse polymer model, with similar diffusion parameters at all tested loci. Surprisingly, we find that long-range intra-chromosomal encounters occur significantly faster than inter-chromosomal encounters at similar 3D distances. Using targeted depletion experiments, we identify condensin, but not cohesin, as the complex mostly responsible for these rapid intra-chromosomal interactions. This is further supported by Hi-C analysis, which reveals that condensin promotes long-distance intra-chromosomal interactions in G1 yeast. Through polymer simulations, we estimate that condensin extrudes chromatin at ~2 kb/s with a density of one complex per 1-2 Mb and a processivity of 120-220 kb. These findings uncover a novel role for condensin in shaping the interphase genome organization and provide new insights into chromosomal search dynamics in vivo.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Saccharomyces cerevisiae/cytology/genetics",
+      "*Genome, Fungal",
+      "*Chromosomes, Fungal",
+      "*DNA-Binding Proteins/metabolism",
+      "Adenosine Triphosphatases/metabolism",
+      "Multiprotein Complexes/metabolism",
+      "G1 Phase",
+      "Cohesins/metabolism",
+      "Microscopy, Fluorescence"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zou, Fan",
+        "Li, Yi",
+        "Foldes, Timothy",
+        "Pinholt, Henrik Dahl",
+        "Smith, Courtney",
+        "Mirny, Leonid",
+        "Bai, Lu"
+      ],
+      "short_names": [
+        "Zou F",
+        "Li Y",
+        "Foldes T",
+        "Pinholt HD",
+        "Smith C",
+        "Mirny L",
+        "Bai L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0951-4230",
+        "ORCID: 0000-0002-4345-5334",
+        "ORCID: 0009-0009-8946-1420",
+        "ORCID: 0000-0002-0785-5410",
+        "ORCID: 0000-0003-3667-2944"
+      ],
+      "affiliations": [
+        "Department of Physics, The Pennsylvania State University, University Park, PA, USA.",
+        "Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA, USA.",
+        "Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA, USA.",
+        "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA, USA.",
+        "Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+        "Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+        "Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA, USA.",
+        "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA, USA.",
+        "Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+        "Department of Physics, The Pennsylvania State University, University Park, PA, USA. lub15@psu.edu.",
+        "Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA, USA. lub15@psu.edu.",
+        "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA, USA. lub15@psu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zou, Fan",
+        "short_name": "Zou F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, The Pennsylvania State University, University Park, PA, USA.",
+          "Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Yi",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA, USA.",
+          "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Földes, Timothy",
+        "short_name": "Földes T",
+        "identifiers": [
+          "0000-0002-0951-4230"
+        ],
+        "affiliations": [
+          "Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Pinholt, Henrik Dahl",
+        "short_name": "Pinholt HD",
+        "identifiers": [
+          "0000-0002-4345-5334"
+        ],
+        "affiliations": [
+          "Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Smith, Courtney",
+        "short_name": "Smith C",
+        "identifiers": [
+          "0009-0009-8946-1420"
+        ],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA, USA.",
+          "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Mirny, Leonid",
+        "short_name": "Mirny L",
+        "identifiers": [
+          "0000-0002-0785-5410"
+        ],
+        "affiliations": [
+          "Institute for Medical Engineering and Science, Massachusetts Institute of Technology, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Bai, Lu",
+        "short_name": "Bai L",
+        "identifiers": [
+          "0000-0003-3667-2944"
+        ],
+        "affiliations": [
+          "Department of Physics, The Pennsylvania State University, University Park, PA, USA. lub15@psu.edu.",
+          "Center for Eukaryotic Gene Regulation, The Pennsylvania State University, University Park, PA, USA. lub15@psu.edu.",
+          "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA, USA. lub15@psu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Mar 16",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/17 06:48",
+    "fetched_at": "2026-10-01 16:35:00"
+  },
+  "links": {
+    "cites": [
+      "42598857",
+      "42555726",
+      "42082828",
+      "41872526"
+    ],
+    "refs": [
+      "41872526",
+      "40560727",
+      "40208986",
+      "39347738",
+      "38778058",
+      "38709825",
+      "37347873",
+      "37231112",
+      "37076626",
+      "37058545",
+      "36097291",
+      "35653469",
+      "35508662",
+      "35471149",
+      "35420890",
+      "35240372",
+      "35140210",
+      "34083394",
+      "33692541",
+      "33442057",
+      "33177522",
+      "31753851",
+      "31503416",
+      "31461456",
+      "31290943",
+      "31204167",
+      "31114898",
+      "30599195",
+      "30361340",
+      "29791843",
+      "29472443",
+      "29361541",
+      "29335486",
+      "29217591",
+      "29170434",
+      "29089359",
+      "28825727",
+      "28825700",
+      "28729434",
+      "28468672",
+      "28426659",
+      "28049776",
+      "27463097",
+      "27445307",
+      "27340173",
+      "27224481",
+      "27052166",
+      "26619908",
+      "26316348",
+      "24077391",
+      "22855829",
+      "22619363",
+      "22495304",
+      "22484485",
+      "19362534",
+      "18708580",
+      "16055730",
+      "15545610",
+      "11895428",
+      "11739961",
+      "10403247",
+      "9382846"
+    ],
+    "similar": [
+      "41839875",
+      "40654628",
+      "33153481",
+      "38778058",
+      "40744502",
+      "30733374",
+      "27548313",
+      "28825700",
+      "28729434",
+      "29791843",
+      "25922992",
+      "41981084",
+      "33080019",
+      "29970489",
+      "16055730",
+      "40011778",
+      "27061734",
+      "28853923",
+      "11864994",
+      "41511405",
+      "21765419",
+      "32989304",
+      "18844972",
+      "40208986",
+      "39690240",
+      "28936767",
+      "30207827",
+      "26686624",
+      "10811823",
+      "28991264",
+      "18508626",
+      "30865881",
+      "18959191",
+      "41025246",
+      "18023874",
+      "41872526",
+      "21633354",
+      "18635352",
+      "42689414",
+      "32132705",
+      "16269332",
+      "25975613",
+      "31461456",
+      "40987260",
+      "33877578",
+      "26704981",
+      "31685986",
+      "33155682",
+      "26967279",
+      "28882993",
+      "26093128",
+      "39039278",
+      "34951453",
+      "11914278",
+      "20442714",
+      "19141609",
+      "27402120",
+      "23710766",
+      "17079686",
+      "31548377",
+      "40560727",
+      "27826868",
+      "28825727",
+      "32354834",
+      "40121293",
+      "29452641",
+      "17392339",
+      "31072933",
+      "23401001",
+      "29361541",
+      "31226277",
+      "40591731",
+      "38802567",
+      "32396063",
+      "29118001",
+      "23312842",
+      "28137853",
+      "34083394",
+      "41654523",
+      "18708580",
+      "14662740",
+      "20703077",
+      "25758823",
+      "24945276",
+      "27008552",
+      "21395557",
+      "29768402",
+      "23885115",
+      "24152737",
+      "12773391",
+      "26030525",
+      "23878273",
+      "21715560",
+      "32198399",
+      "24286828",
+      "27888504",
+      "23084836",
+      "31685548",
+      "23821596",
+      "34270553"
+    ],
+    "review": [
+      "41839875",
+      "30733374",
+      "27061734",
+      "28853923",
+      "18844972",
+      "28936767",
+      "33877578",
+      "26967279",
+      "26093128",
+      "20442714",
+      "27402120",
+      "23312842",
+      "20703077"
+    ],
+    "pmc": [
+      "13136396"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-70538-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41839875/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1474",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

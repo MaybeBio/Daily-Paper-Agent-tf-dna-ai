@@ -1,0 +1,56 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and scope as presented in the abstract; full chapter content not available for verification
+- **Shared manuscript claim summary** The chapter reviews experimental and computational approaches for studying protein-nucleic acid interactions, with a focus on binding affinity of protein-DNA and protein-RNA complexes. It describes experimental methods (X-ray crystallography, ITC, pull-down assays, footprinting, SELEX), computational databases and tools for binding site and interaction analysis, and databases and prediction methods for binding affinity, including structure-based parameters governing affinity.
+- **Visible evidence base** Abstract text only; no figures, tables, or chapter sections provided
+- **Missing materials affecting confidence** Full chapter text, figures, tables, references, and any specific data or benchmarks supporting the described databases and prediction methods
+
+## Reviewer
+- **Overall assessment** The abstract presents a reasonable overview of a methods-oriented chapter on protein-nucleic acid binding affinity. The scope is broad and potentially useful for nonspecialist readers seeking an entry point into available databases and computational tools. However, the abstract is largely descriptive and provides no quantitative claims, comparative evaluation of methods, or specific examples of how the described tools perform. The scientific contribution cannot be assessed from the abstract alone, and the novelty relative to existing reviews in this area is unclear.
+- **Who would be interested in the results, and why** Researchers entering the field of protein-nucleic acid interactions, particularly those interested in binding affinity prediction, would find this chapter useful as a curated overview of databases and tools. Computational biologists and structural biologists seeking a consolidated reference for available resources may also benefit. The chapter appears aimed at practitioners rather than specialists developing new methods.
+- **Major strengths** The abstract covers a comprehensive range of experimental and computational approaches, which is appropriate for a methods chapter. The explicit focus on binding affinity, rather than only binding site prediction, addresses a practically important aspect of protein-nucleic acid interactions. The mention of structure-based parameters governing affinity suggests the chapter may provide mechanistic insight beyond simple tool listings.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract implies the chapter provides "details on databases and prediction methods reported for exploring the binding affinity of protein-nucleic acid complexes along with important structure-based parameters, which govern the binding affinity."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify which databases and prediction methods are covered, how they are compared, or what criteria were used for inclusion. No performance metrics, benchmark results, or validation examples are mentioned. The claim that structure-based parameters "govern" binding affinity is stated without supporting evidence or qualification.
+  - **Why it matters** For a methods chapter, readers need to know the scope of coverage and the reliability of the described tools. Without any indication of method performance, limitations, or comparative assessment, the chapter's utility as a practical guide is uncertain. The causal language around structure-based parameters could mislead readers into overinterpreting correlative relationships.
+  - **Resolution test** Provide the full chapter text or a detailed outline listing the specific databases and prediction methods covered, along with any comparative benchmarks or validation data. Clarify whether the relationship between structure-based parameters and binding affinity is presented as causal or correlative.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Scope clarity
+  - **Affected element** Abstract scope statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the intended audience or assumed background knowledge, nor does it indicate whether the chapter includes practical tutorials, case studies, or code examples.
+  - **Required correction** Add a sentence specifying the target audience and whether hands-on guidance is included.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of coverage
+  - **Affected element** Abstract description of databases and tools
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "numerous databases and computational tools" but does not indicate the number covered, the selection criteria, or whether the coverage is exhaustive or representative.
+  - **Required correction** State the approximate number of resources covered and the inclusion criteria.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Timeliness
+  - **Affected element** Abstract statement on available tools
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not indicate the currency of the information, which is important for a field where databases and tools are frequently updated or deprecated.
+  - **Required correction** Include a statement on the cutoff date for included resources or note that the chapter reflects the state of the field as of a specified time.
+- **Technical failings that need to be addressed before the case is established** The abstract alone does not provide sufficient evidence to evaluate the technical soundness of the described methods. No data, benchmarks, or validation results are presented. The case for the chapter's utility as a reliable reference cannot be established from the supplied material.
+- **Assessment against Nature-style criteria** 
+  - Originality: Not assessable from the abstract. The topic is well-trodden, and the abstract does not indicate any novel framework, new comparative analysis, or unique synthesis.
+  - Scientific importance: Moderate. Binding affinity of protein-nucleic acid complexes is a relevant topic, but the abstract does not demonstrate how the chapter advances understanding beyond existing reviews.
+  - Interdisciplinary readership: The abstract is accessible to a broad audience, but the lack of specific examples or quantitative content limits its appeal to specialists.
+  - Technical soundness: Not assessable. No methods, data, or validation are presented in the abstract.
+  - Readability for nonspecialists: The abstract is clearly written and uses standard terminology, suggesting the chapter may be accessible to nonspecialists, but this cannot be confirmed without the full text.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially useful methods chapter, but the scientific contribution, technical quality, and novelty cannot be evaluated without the full text. A revised abstract with more specific content, or access to the full chapter, would be required to assess whether the work meets the standards for publication.
+
+## Risk / unsupported claims
+- The claim that structure-based parameters "govern" binding affinity is unsupported in the abstract and may overstate the causal relationship.
+- The implied comprehensiveness of the described databases and tools cannot be verified from the abstract.
+- Any implied utility or reliability of the described prediction methods is not supported by data or benchmarks in the supplied material.

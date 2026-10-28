@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability)
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and evidence as presented; no assessment of code execution or reproduction
+- **Shared manuscript claim summary** The authors present MutPred-PPI, a graph attention network that predicts interaction-specific (edgetic) perturbations of protein–protein interactions caused by missense variants. The model uses AlphaFold 3-derived contact graphs with protein language model embeddings, employs a two-stage training strategy, and is evaluated via cross-validation and a new IGVF Consortium benchmark dataset. The authors report superior performance over baselines and apply the model to disease and population variant repositories, finding distinct PPI perturbation patterns across disease types.
+- **Visible evidence base** Abstract; Sections 1–3 (Introduction, Methods, Results); Section 4 (Discussion); Figure legends referenced (Figures 1–6); Supplementary figures and tables referenced (S1–S4, Table S1); Data availability statement
+- **Missing materials affecting confidence** Actual figures and supplementary materials not provided; detailed mathematical model description (Supplementary Section 1) not provided; exact dataset composition and filtering criteria partially described but not fully verifiable; benchmark dataset (VarChAMP) not accessible; code and trained models not inspected
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely problem in variant effect prediction: moving beyond generic pathogenicity scores toward interaction-specific predictions. The methodological approach is reasonable and leverages recent advances in structural prediction and protein language models. The evaluation strategy, particularly the use of group cross-validation and a new benchmark dataset, is thoughtful. However, several technical details are insufficiently described to fully assess reproducibility, and some claims about generalizability and biological interpretation require additional evidence or more cautious framing. The clinical relevance claims, while plausible, are somewhat speculative given the current validation level.
+- **Who would be interested in the results, and why** Researchers in human genetics, variant interpretation, and computational biology would be interested. Clinicians and molecular diagnosticians involved in variant classification may find the interaction-specific predictions useful for mechanistic interpretation. The work is also relevant to those developing machine learning methods for protein function prediction and to the IGVF Consortium community.
+- **Major strengths** The problem is well-motivated and clinically relevant. The use of AlphaFold 3 structures and pLM embeddings is current and appropriate. The two-stage training strategy is a sensible approach to address data scarcity. The evaluation design, including group cross-validation and a held-out benchmark, is rigorous. The application to multiple disease and population databases provides a broad view of potential utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model predicts interaction-specific (edgetic) effects of missense variants with high accuracy and generalizes to unseen proteins.
+  - **Evidence pointer** Section 3.1, Figures 3 and 4
+  - **Concern** The reported performance metrics are presented as AUC values, but the manuscript does not specify the full set of evaluation metrics used, the confidence intervals around the AUC estimates, or the statistical significance of differences between MutPred-PPI and baseline methods. The claim of "outperforming all baselines" requires a more detailed statistical comparison. Additionally, the evaluation on the VarChAMP benchmark is described as "blind," but the process by which the benchmark was generated, its size, and its relationship to the training data are not fully described, making it difficult to assess the strength of the generalization claim.
+  - **Why it matters** Without proper statistical comparison and a clear description of the benchmark, the central claim of superior performance and generalizability cannot be fully evaluated. This is the core evidence for the method's utility.
+  - **Resolution test** Provide confidence intervals for all reported AUC values, perform and report statistical significance tests for pairwise comparisons with baselines, and provide a detailed description of the VarChAMP dataset (size, variant selection, interaction partners, quality control) and its non-overlap with training data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model uses AlphaFold 3-based contact graphs with pLM embeddings and a two-stage training strategy to achieve its performance.
+  - **Evidence pointer** Section 2.2, Section 2.3, Figure 2, Supplementary Section 1
+  - **Concern** The description of the model architecture and training procedure is insufficient for reproduction. The mathematical formulation is relegated to a supplementary section that was not provided. Key hyperparameters (number of layers, hidden dimensions, learning rate, dropout, etc.) are not stated. The exact definition of the contact graph (threshold, atom types) is given, but the handling of missing residues or disordered regions in AlphaFold 3 models is not discussed. The two-stage training procedure is described conceptually, but the details of the fine-tuning stage (learning rate schedule, freezing of layers, etc.) are absent.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. The lack of architectural and training details prevents independent implementation and verification, which is essential for the method to be adopted and built upon.
+  - **Resolution test** Provide a complete description of the model architecture and training hyperparameters in the main text or a fully accessible supplementary section. Include details on data preprocessing for AlphaFold 3 structures, handling of missing residues, and the exact training schedule for both stages.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** Application to disease and population variant repositories reveals distinct PPI perturbation mechanisms across disease types, supporting PPI perturbation as a key pathogenic mechanism.
+  - **Evidence pointer** Section 3.2, Figure 5, Supplementary Figure S4
+  - **Concern** The enrichment analyses are based on predicted interaction perturbations, not experimentally validated ones. The manuscript does not provide any experimental validation of the model's predictions on the disease and population variants. The interpretation of enrichment patterns as reflecting "distinct PPI perturbation mechanisms" assumes the model's predictions are accurate across diverse variant types and gene families, which is not directly demonstrated. The partner-controlled analysis is a good step, but the potential for systematic biases in the underlying databases (e.g., ClinVar, COSMIC) is not discussed.
+  - **Why it matters** The biological and clinical conclusions drawn from the repository analyses are a major part of the manuscript's significance. If the predictions are not accurate for these variant types, the conclusions would be unsupported. The lack of experimental validation weakens the claim that the observed patterns are biologically meaningful.
+  - **Resolution test** Provide experimental validation of a subset of predictions (e.g., from ClinVar or COSMIC) using orthogonal assays. Alternatively, clearly frame the repository analyses as hypothesis-generating and temper the conclusions accordingly. Discuss potential database biases and their possible impact on the observed enrichment patterns.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The model outperforms SWING, SAAMBE-3D, and MutPred2 across all evaluation criteria.
+  - **Evidence pointer** Section 3.1, Figures 3 and 4
+  - **Concern** The comparison with baseline methods may not be entirely fair. SWING is evaluated under two scenarios, but the details of how SWING was trained and adapted to this task are not fully described. SAAMBE-3D is a ΔΔG predictor, and using its output to rank interaction perturbation may not be a direct comparison. MutPred2 is a pathogenicity predictor, and its use as a baseline for interaction-specific prediction is conceptually different. The manuscript does not discuss the limitations of these comparisons or whether the baselines were used in their optimal configuration.
+  - **Why it matters** A fair and well-described comparison is essential to support the claim of superior performance. If the baselines are not optimally configured or the comparison is not apples-to-apples, the conclusion may be overstated.
+  - **Resolution test** Provide a more detailed description of how each baseline was configured and trained for this task. Discuss the conceptual differences between the baselines and MutPred-PPI and how these might affect the comparison. Consider including additional baselines that are more directly comparable, if available.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses the term "edgetic" without defining it. While the term is introduced in the introduction, the abstract should be self-contained for a broad readership.
+  - **Required correction** Briefly define "edgetic" in the abstract, e.g., "selectively disrupting specific interactions while preserving others."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.4, Table 1
+  - **Evidence pointer** Section 2.4, Table 1
+  - **Issue** The description of the training data mentions "removed duplicate data points, those with conflicting labels, and those with failed structure generation," but the number of data points removed at each step is not reported. This makes it difficult to assess the potential for selection bias.
+  - **Required correction** Report the number of data points removed at each filtering step and the final dataset size.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section 3.2, Figure 5
+  - **Evidence pointer** Section 3.2, Figure 5
+  - **Issue** The enrichment analysis uses gnomAD as a baseline, but the gnomAD variant set is not described in detail. The allele frequency thresholds for the gnomAD baseline are not specified.
+  - **Required correction** Describe the gnomAD variant set used as the baseline, including allele frequency thresholds and any filtering applied.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 3.2, Figure 5
+  - **Evidence pointer** Section 3.2, Figure 5
+  - **Issue** The enrichment trend E is defined in the text, but the equation is not rendered in the provided text. The definition is clear from the text, but the equation should be properly displayed in the final version.
+  - **Required correction** Ensure the equation for E is properly typeset in the final manuscript.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.6
+  - **Evidence pointer** Section 2.6
+  - **Issue** The threshold of 0.5 for classifying an interaction as perturbed is stated, but the sensitivity of the results to this threshold is not explored.
+  - **Required correction** Perform a sensitivity analysis with different thresholds or justify the choice of 0.5 more thoroughly.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor of performance comparison), R1-M2 (reproducibility of model architecture and training)
+- **Assessment against Nature-style criteria** Originality: The work addresses a relatively underexplored problem (interaction-specific prediction) with a modern methodological approach. While not entirely novel in concept, the specific combination of AlphaFold 3 structures, pLMs, and a two-stage training strategy is a reasonable contribution. Scientific importance: The problem is important for understanding variant mechanisms and improving clinical interpretation. The potential to distinguish edgetic from quasi-null effects is valuable. Interdisciplinary readership: The work bridges computational biology, human genetics, and clinical genomics, and should appeal to a broad audience. Technical soundness: The evaluation design is thoughtful, but the lack of statistical detail and incomplete methodological description are significant weaknesses that must be addressed. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some terms (e.g., "edgetic") could be better defined for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea and evaluation framework are promising, but the manuscript currently lacks sufficient methodological detail and statistical rigor to fully support the claims of superior performance and generalizability. The biological interpretations are plausible but require more cautious framing or additional validation.
+
+## Risk / unsupported claims
+- The claim that MutPred-PPI "outperformed all baseline methods across all evaluation criteria" is not fully supported without statistical significance testing and confidence intervals.
+- The claim that the model "captures functionally relevant molecular effects of pathogenic variants" is based on predicted, not experimentally validated, effects.
+- The interpretation of distinct PPI perturbation mechanisms across disease types (e.g., cancer vs. neurodevelopmental disorders) is based on enrichment patterns that may be influenced by database biases and limited partner coverage.
+- The claim that MutPred-PPI "could aid in variant reclassification" is speculative and not directly tested in this manuscript.
+- The generalizability claim to "previously unseen proteins" is based on a single benchmark dataset whose details are not fully described.

@@ -1,0 +1,390 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.64898/2026.03.17.26348658",
+  "title": "Machine Learning–Enabled Smartphone CRISPR-Cas12a Lateral Flow Platform for Sensitive Detection of Circulating HPV DNA",
+  "doi": "10.64898/2026.03.17.26348658",
+  "abstract": "Persistent infection with high-risk human papillomavirus (HPV) is the primary cause of cervical cancer and other HPV-related malignancies. Effective screening and early detection of HPV, particularly in point-of-care (POC) settings, can reduce disease progression and associated mortality. Although PCR-based assays provide high sensitivity, their dependence on centralized laboratory infrastructure limits accessibility in POC settings. CRISPR-Cas diagnostics enable programmable, isothermal detection of HPV with lateral flow assay (LFA) readouts; however, visual interpretation of faint bands can be subjective and inconsistent. Our objective was to develop a machine learning (ML)-enhanced, smartphone-native CRISPR-LFA platform for highly sensitive and reliable detection of HPV DNA in plasma. A smartphone-based diagnostic system integrating CRISPR-LFA with a ML framework was developed using standardized image acquisition within a light-controlled enclosure. Radiomics-inspired strip features were extracted and analyzed using a multivariable logistic regression model. A total of 150 plasma samples were used for model development and 60 independent samples for validation. An optimized model was developed that had 96.7% sensitivity and 100% specificity for detection of HPV DNA. The smartphone-enabled CRISPR platform demonstrated higher sensitivity than visual interpretation, particularly for faint-band results, and reduced false positives. Validation in the independent cohort confirmed the robustness of the assay. Performance remained stable across smartphone models, lighting conditions, and operators, and on-device inference enabled reliable operation. In sum, the smartphone-integrated CRISPR-LFA platform can facilitate accurate and reliable detection of plasma HPV DNA in POC settings and has the potential to enhance early detection, prevention, and treatment of cervical cancer.",
+  "authors": [
+    "Jipei Liao",
+    "Jesse Rima",
+    "Aarush Sharma",
+    "Jen-Hui Tsou",
+    "Feng Jiang"
+  ],
+  "published_date": "2026-03-19",
+  "updated_date": "2026-03-20T00:00:14Z",
+  "journal": "medRxiv",
+  "category": "Infectious Diseases (except HIV/AIDS)",
+  "landing_url": "https://www.medrxiv.org/content/10.64898/2026.03.17.26348658",
+  "pdf_url": "https://www.medrxiv.org/content/10.64898/2026.03.17.26348658.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Infectious Diseases (except HIV/AIDS)"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Infectious Diseases (except HIV/AIDS)",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "medRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            21
+          ]
+        ],
+        "date-time": "2026-03-21T16:03:05Z",
+        "timestamp": 1774108985368,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            19
+          ]
+        ]
+      },
+      "group-title": "Infectious Diseases (except HIV/AIDS)",
+      "reference-count": 19,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                19
+              ]
+            ],
+            "date-time": "2026-03-19T00:00:00Z",
+            "timestamp": 1773878400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Persistent infection with high-risk human papillomavirus (HPV) is the primary cause of cervical cancer and other HPV-related malignancies. Effective screening and early detection of HPV, particularly in point-of-care (POC) settings, can reduce disease progression and associated mortality. Although PCR-based assays provide high sensitivity, their dependence on centralized laboratory infrastructure limits accessibility in POC settings. CRISPR-Cas diagnostics enable programmable, isothermal detection of HPV with lateral flow assay (LFA) readouts; however, visual interpretation of faint bands can be subjective and inconsistent. Our objective was to develop a machine learning (ML)-enhanced, smartphone-native CRISPR-LFA platform for highly sensitive and reliable detection of HPV DNA in plasma. A smartphone-based diagnostic system integrating CRISPR-LFA with a ML framework was developed using standardized image acquisition within a light-controlled enclosure. Radiomics-inspired strip features were extracted and analyzed using a multivariable logistic regression model. A total of 150 plasma samples were used for model development and 60 independent samples for validation. An optimized model was developed that had 96.7% sensitivity and 100% specificity for detection of HPV DNA. The smartphone-enabled CRISPR platform demonstrated higher sensitivity than visual interpretation, particularly for faint-band results, and reduced false positives. Validation in the independent cohort confirmed the robustness of the assay. Performance remained stable across smartphone models, lighting conditions, and operators, and on-device inference enabled reliable operation. In sum, the smartphone-integrated CRISPR-LFA platform can facilitate accurate and reliable detection of plasma HPV DNA in POC settings and has the potential to enhance early detection, prevention, and treatment of cervical cancer.</jats:p>",
+      "DOI": "10.64898/2026.03.17.26348658",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            20
+          ]
+        ],
+        "date-time": "2026-03-20T00:00:14Z",
+        "timestamp": 1773964814000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Machine Learning–Enabled Smartphone CRISPR-Cas12a Lateral Flow Platform for Sensitive Detection of Circulating HPV DNA"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Jipei",
+          "family": "Liao",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Pathology, University of Maryland School of Medicine, Baltimore, MD, 21021, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jesse",
+          "family": "Rima",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Pathology, University of Maryland School of Medicine, Baltimore, MD, 21021, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Aarush",
+          "family": "Sharma",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Medical Physics, University of Maryland School of Medicine, Baltimore, MD, 21021, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jen-Hui",
+          "family": "Tsou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Medical Physics, University of Maryland School of Medicine, Baltimore, MD, 21021, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Feng",
+          "family": "Jiang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Pathology, University of Maryland School of Medicine, Baltimore, MD, 21021, USA"
+            },
+            {
+              "name": "BIOTARGET DX LLC, 4 N Martin Luther King Jr Blvd, Baltimore, MD, 21021, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "976",
+          "DOI": "10.3389/fonc.2019.00976",
+          "article-title": "Evaluation of Cervical Intraepithelial Neoplasia Occurrence Following the Recorded Onset of Persistent High-Risk Human Papillomavirus Infection: A Retrospective Study on Infection Duration",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "Front Oncol"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "457",
+          "DOI": "10.1093/oncolo/oyae071",
+          "article-title": "Human malignancies associated with persistent HPV infection",
+          "volume": "29",
+          "author": "McBride AA",
+          "year": "2024",
+          "journal-title": "Oncologist"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aam9321"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "1326",
+          "DOI": "10.1016/j.tibtech.2022.04.006",
+          "article-title": "CRISPR-Cas-mediated diagnostics",
+          "volume": "40",
+          "year": "2022",
+          "journal-title": "Trends Biotechnol"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tranon.2019.08.011"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tsou JH , Leng Q , Jiang F : A CRISPR Test for Rapidly and Sensitively Detecting Circulating EGFR Mutations. Diagnostics (Basel) 2020, 10.",
+          "DOI": "10.3390/diagnostics10020114"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhou H , Tsou JH , Leng Q , Jiang F : Sensitive Detection of KRAS Mutations byClustered Regularly Interspaced Short Palindromic Repeats. Diagnostics (Basel) 2021, 11.",
+          "DOI": "10.3390/diagnostics11010125"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhou H , Tsou JH , Chinthalapally M , Liu H , Jiang F : Detection and Differentiation of SARS-CoV-2, Influenza, and Respiratory Syncytial Viruses by CRISPR. Diagnostics (Basel) 2021, 11.",
+          "DOI": "10.3390/diagnostics11050823"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tsou JH , Liu H , Stass SA , Jiang F : Rapid and Sensitive Detection of SARS-CoV-2 Using Clustered Regularly Interspaced Short Palindromic Repeats. Biomedicines 2021, 9.",
+          "DOI": "10.3390/biomedicines9030239"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li N , Chinthalapally M , Holden VK , Deepak J , Dhilipkannah P , Fan JM , Todd NW , Jiang F : Profiling Plasma Cytokines by A CRISPR-ELISA Assay for Early Detection of Lung Cancer. J Clin Med 2022, 11.",
+          "DOI": "10.3390/jcm11236923"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "171",
+          "DOI": "10.1039/D4SD00314D",
+          "article-title": "Rapid and automated interpretation of CRISPR-Cas13-based lateral flow assay test results using machine learning",
+          "volume": "4",
+          "year": "2025",
+          "journal-title": "Sens Diagn"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Davis AM , Tomitaka A : Machine Learning-Based Quantification of Lateral Flow Assay Using Smartphone-Captured Images. Biosensors (Basel) 2025, 15.",
+          "DOI": "10.3390/bios15010019"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "113745",
+          "DOI": "10.1016/j.jim.2024.113745",
+          "article-title": "Smartphone based lateral flow immunoassay quantifications",
+          "volume": "533",
+          "year": "2024",
+          "journal-title": "J Immunol Methods"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1148/radiol.2015151169"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "1751",
+          "DOI": "10.1007/s11547-024-01904-w",
+          "article-title": "Radiomics in radiology: What the radiologist needs to know about technical aspects and clinical impact",
+          "volume": "129",
+          "year": "2024",
+          "journal-title": "Radiol Med"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ejca.2011.11.036"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "1537",
+          "DOI": "10.1002/mp.12820",
+          "article-title": "Radiomics analysis of pulmonary nodules in low-dose CT for early detection of lung cancer",
+          "volume": "45",
+          "year": "2018",
+          "journal-title": "Med Phys"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bonlokke S , Stougaard M , Sorensen BS , Booth BB , Hogdall E , Nyvang GB , Lindegaard JC , Blaakaer J , Bertelsen J , Fuglsang K , Strube ML , Lenz S , Steiniche T : The Diagnostic Value of Circulating Cell-Free HPV DNA in Plasma from Cervical Cancer Patients. Cells 2022, 11.",
+          "DOI": "10.3390/cells11142170"
+        },
+        {
+          "key": "2026032108550422000_2026.03.17.26348658v1.19",
+          "first-page": "1235204",
+          "article-title": "COVID-19 lateral flow test image classification using deep CNN and StyleGAN2",
+          "volume": "6",
+          "year": "2023",
+          "journal-title": "Front Artif Intell"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.03.17.26348658",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            21
+          ]
+        ],
+        "date-time": "2026-03-21T15:55:16Z",
+        "timestamp": 1774108516000
+      },
+      "score": 69.19775,
+      "resource": {
+        "primary": {
+          "URL": "http://medrxiv.org/lookup/doi/10.64898/2026.03.17.26348658"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            19
+          ]
+        ]
+      },
+      "references-count": 19,
+      "URL": "https://doi.org/10.64898/2026.03.17.26348658",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            19
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

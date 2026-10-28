@@ -1,0 +1,241 @@
+{
+  "identity": {
+    "pmid": "41659440",
+    "doi": "10.64898/2026.01.20.700723",
+    "title": "TPCAV: Interpreting deep learning genomics models via concept attribution."
+  },
+  "content": {
+    "abstract": "Interpreting genomics deep learning models remains challenging. Existing feature attribution methods are largely restricted to one-hot DNA inputs and therefore cannot assess the influence of more general genomic features such as chromatin states or genomic repeats. Concept attribution methods offer an input-agnostic global interpretation framework, yet they have not been systematically applied to interpret neural network applications in genomics. We present the first application of concept attribution to interpret genomics deep learning models by adapting the Testing with Concept Activation Vectors (TCAV) method. We improve upon the original TCAV method by incorporating a PCA-based decorrelation transformation to address correlated and redundant embedding features commonly observed in genomics deep learning models, resulting in the Testing with PCA-projected Concept Activation Vectors (TPCAV) approach. We also introduce a strategy for extracting concept-specific input attribution maps. We evaluate our approach by interpreting influential biological concepts across a diverse set of genomics models spanning multiple input representations and prediction tasks. We demonstrate that TPCAV provides comparable motif feature interpretation to TF-MoDISco on one-hot encoded DNA-based transcription factor binding prediction models. TPCAV also enables robust interpretive analysis of how more general biological concepts such as repetitive elements and chromatin state annotations contribute towards predictions. TPCAV uniquely generalizes to interpret features learned by tokenized foundation models as well as models incorporating chromatin signals as inputs. We further show that TPCAV can identify representative regions associated with specific concepts, motivating downstream investigation of distinct regulatory mechanisms. TPCAV provides a flexible and robust complement to existing model interpretation techniques.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Jianyu",
+        "Mahony, Shaun"
+      ],
+      "short_names": [
+        "Yang J",
+        "Mahony S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0195-4100",
+        "ORCID: 0000-0002-2641-1807"
+      ],
+      "affiliations": [
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry & Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry & Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Jianyu",
+        "short_name": "Yang J",
+        "identifiers": [
+          "0000-0002-0195-4100"
+        ],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry & Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Mahony, Shaun",
+        "short_name": "Mahony S",
+        "identifiers": [
+          "0000-0002-2641-1807"
+        ],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry & Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Apr 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/09 12:54",
+    "fetched_at": "2026-10-01 13:44:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39779956",
+      "39660643",
+      "39609566",
+      "38030726",
+      "36719906",
+      "36624151",
+      "34608324",
+      "34579793",
+      "33603233",
+      "33397451",
+      "32728250",
+      "30922998",
+      "30661751",
+      "22955616",
+      "17478497",
+      "17397256",
+      "17324271",
+      "12787504"
+    ],
+    "similar": [
+      "41659440",
+      "42475469",
+      "31324140",
+      "41310253",
+      "37161475",
+      "39950082",
+      "30423062",
+      "42401553",
+      "32661261",
+      "37205975",
+      "39395304",
+      "36360189",
+      "39090688",
+      "26269925",
+      "42135287",
+      "29084280",
+      "34020542",
+      "42680998",
+      "35966405",
+      "40183298",
+      "38686880",
+      "42490893",
+      "23912807",
+      "42457879",
+      "39466770",
+      "42437763",
+      "39562310",
+      "41527074",
+      "40737166",
+      "26291518",
+      "42320030",
+      "33137083",
+      "36979061",
+      "26042329",
+      "37401370",
+      "38250147",
+      "37843883",
+      "39690595",
+      "36366781",
+      "35666736",
+      "37370113",
+      "42018992",
+      "40914877",
+      "29855387",
+      "41294241",
+      "41576119",
+      "33983921",
+      "41348741",
+      "42734503",
+      "27896980",
+      "31443005",
+      "40196528",
+      "40613943",
+      "38013993",
+      "37224527",
+      "40553343",
+      "40863483",
+      "42487110",
+      "36057196",
+      "42003104",
+      "37214836",
+      "42492189",
+      "41937807",
+      "42177353",
+      "39293804",
+      "39605624",
+      "41523993",
+      "41846293",
+      "40253568",
+      "40637236",
+      "40660356",
+      "35293310",
+      "42055973",
+      "33950192",
+      "19403457",
+      "42739369",
+      "38177592",
+      "41050338",
+      "36716497",
+      "35361122",
+      "32449176",
+      "40709306",
+      "42392034",
+      "41836589",
+      "33036834",
+      "40282370",
+      "39026761",
+      "42508236",
+      "33832990",
+      "41440566",
+      "39884279",
+      "32985996",
+      "32658785",
+      "35396274",
+      "37958843",
+      "34294047",
+      "28916782",
+      "41772142",
+      "40501927",
+      "39708837"
+    ],
+    "review": [
+      "41659440",
+      "26269925",
+      "34020542",
+      "42490893",
+      "26042329",
+      "36057196",
+      "42492189",
+      "39293804",
+      "42739369",
+      "37958843"
+    ],
+    "pmc": [
+      "12873890"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41659440/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.01.20.700723",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

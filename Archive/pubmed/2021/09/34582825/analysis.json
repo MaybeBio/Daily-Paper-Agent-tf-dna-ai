@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34582825",
+  "title": "Robust p53 recovery using chattering free sliding mode control and a gain-scheduled modified Utkin observer.",
+  "authors": "Bano, Sheher; Azam, Muhammad Rizwan; Uppal, Ali Arshad; Javed, Syed Bilal; Bhatti, Aamer Iqbal",
+  "journal": "Journal of theoretical biology",
+  "published_date": "2021-09-29",
+  "window": {
+    "start": "2021-09-27",
+    "end": "2021-10-03"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究p53蛋白浓度恢复的药物剂量控制策略，属于系统控制工程，不涉及蛋白质-DNA互作、结合位点预测或AI/物理模拟建模，与本课题无关。",
+  "abstract": "p53 protein plays an essential role in protecting the genomic integrity of mammalian cells. A drastic decrease in the amount of p53 protein has been observed in cancerous cells. By using Nutlin-based small molecule drugs, the concentration of p53 can be restored to the desired level. This paper presents the drug-dosage design for p53 pathway, based on a control-oriented nonlinear model. A chattering free sliding mode control (CFSMC) strategy is employed to track the desired trajectory of p53 concentration for both of its dynamic behaviors, i.e., sustained and oscillatory responses. A gain-scheduled modified Utkin observer (GSMUO) is designed for robust state reconstruction and disturbance estimation. The simulation results show that CFSMC and GSMUO exhibit desired robustness and performance properties in the presence of parametric variations, an input disturbance and measurement noise. Moreover, a comprehensive simulation study, along with a detailed quantitative analysis is performed to compare CFSMC-GSMUO with four different techniques: a sliding mode control (SMC) with an equivalent control based sliding mode observer (SMO) and GSMUO, respectively, and a dynamic sliding mode control (DSMC) with SMO and GSMUO, respectively. The analysis demonstrates that the tracking error and utilization of the control energy is the least in the case of CFSMC-GSMUO as compared to its counterparts.",
+  "abstract_zh": "p53蛋白在保护哺乳动物细胞基因组完整性方面发挥着至关重要的作用。在癌细胞中观察到p53蛋白含量急剧下降。通过使用基于Nutlin的小分子药物，可以将p53的浓度恢复到所需水平。本文基于一个面向控制的非线性模型，提出了p53通路的药物剂量设计。采用一种无抖振滑模控制（CFSMC）策略，以跟踪p53浓度的期望轨迹，涵盖其两种动态行为，即持续响应和振荡响应。设计了一种增益调度的改进Utkin观测器（GSMUO），用于鲁棒状态重构和扰动估计。仿真结果表明，在参数变化、输入扰动和测量噪声存在的情况下，CFSMC和GSMUO表现出期望的鲁棒性和性能特性。此外，进行了全面的仿真研究，并附有详细的定量分析，以将CFSMC-GSMUO与四种不同技术进行比较：一种基于等效控制的滑模观测器（SMO）的滑模控制（SMC）分别与SMO和GSMUO组合，以及一种动态滑模控制（DSMC）分别与SMO和GSMUO组合。分析表明，与对应方法相比，CFSMC-GSMUO在跟踪误差和控制能量利用方面最小。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34582825/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34582825/",
+  "paper_page_path": "papers/pubmed/34582825/index.html"
+}

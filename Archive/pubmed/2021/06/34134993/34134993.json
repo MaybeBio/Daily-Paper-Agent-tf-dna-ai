@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "pmid": "34134993",
+    "doi": "10.1126/sciadv.abf9808",
+    "title": "Mechanisms underlying divergent responses of genetically distinct macrophages to IL-4."
+  },
+  "content": {
+    "abstract": "Mechanisms by which noncoding genetic variation influences gene expression remain only partially understood but are considered to be major determinants of phenotypic diversity and disease risk. Here, we evaluated effects of >50 million single-nucleotide polymorphisms and short insertions/deletions provided by five inbred strains of mice on the responses of macrophages to interleukin-4 (IL-4), a cytokine that plays pleiotropic roles in immunity and tissue homeostasis. Of >600 genes induced >2-fold by IL-4 across the five strains, only 26 genes reached this threshold in all strains. By applying deep learning and motif mutation analyses to epigenetic data for macrophages from each strain, we identified the dominant combinations of lineage-determining and signal-dependent transcription factors driving IL-4 enhancer activation. These studies further revealed mechanisms by which noncoding genetic variation influences absolute levels of enhancer activity and their dynamic responses to IL-4, thereby contributing to strain-differential patterns of gene expression and phenotypic diversity.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Enhancer Elements, Genetic",
+      "*Interleukin-4/genetics/metabolism",
+      "*Macrophages/metabolism",
+      "Mice",
+      "Mice, Inbred C57BL",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hoeksema, Marten A",
+        "Shen, Zeyang",
+        "Holtman, Inge R",
+        "Zheng, An",
+        "Spann, Nathan J",
+        "Cobo, Isidoro",
+        "Gymrek, Melissa",
+        "Glass, Christopher K"
+      ],
+      "short_names": [
+        "Hoeksema MA",
+        "Shen Z",
+        "Holtman IR",
+        "Zheng A",
+        "Spann NJ",
+        "Cobo I",
+        "Gymrek M",
+        "Glass CK"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5981-121X",
+        "ORCID: 0000-0003-3870-1390",
+        "ORCID: 0000-0001-9752-4756",
+        "ORCID: 0000-0002-3689-2712",
+        "ORCID: 0000-0001-7828-6123",
+        "ORCID: 0000-0002-6086-3903",
+        "ORCID: 0000-0003-4344-3592"
+      ],
+      "affiliations": [
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Bioengineering, Jacobs School of Engineering, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Section Molecular Neurobiology, Department of Biomedical Sciences of Cells and Systems, University Medical Center Groningen, University of Groningen, Groningen, Netherlands.",
+        "Department of Computer Science and Engineering, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Computer Science and Engineering, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA. ckg@ucsd.edu.",
+        "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hoeksema, Marten A",
+        "short_name": "Hoeksema MA",
+        "identifiers": [
+          "0000-0001-5981-121X"
+        ],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Shen, Zeyang",
+        "short_name": "Shen Z",
+        "identifiers": [
+          "0000-0003-3870-1390"
+        ],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA.",
+          "Department of Bioengineering, Jacobs School of Engineering, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Holtman, Inge R",
+        "short_name": "Holtman IR",
+        "identifiers": [
+          "0000-0001-9752-4756"
+        ],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA.",
+          "Section Molecular Neurobiology, Department of Biomedical Sciences of Cells and Systems, University Medical Center Groningen, University of Groningen, Groningen, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Zheng, An",
+        "short_name": "Zheng A",
+        "identifiers": [
+          "0000-0002-3689-2712"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Spann, Nathan J",
+        "short_name": "Spann NJ",
+        "identifiers": [
+          "0000-0001-7828-6123"
+        ],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Cobo, Isidoro",
+        "short_name": "Cobo I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Gymrek, Melissa",
+        "short_name": "Gymrek M",
+        "identifiers": [
+          "0000-0002-6086-3903"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of California, San Diego, La Jolla, CA 92093, USA.",
+          "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Glass, Christopher K",
+        "short_name": "Glass CK",
+        "identifiers": [
+          "0000-0003-4344-3592"
+        ],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA. ckg@ucsd.edu.",
+          "Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2021 Jun",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/18 06:00",
+    "fetched_at": "2026-09-27 19:24:02"
+  },
+  "links": {
+    "cites": [
+      "42644391",
+      "42626427",
+      "42595913",
+      "42381859",
+      "41063992",
+      "40118070",
+      "39863579",
+      "39424780",
+      "39042472",
+      "38809232",
+      "38712032",
+      "38405750",
+      "38281134",
+      "37735593",
+      "37582369",
+      "37467325",
+      "37296643",
+      "37215144",
+      "37153552",
+      "37074820",
+      "36777184",
+      "36610795",
+      "36362748",
+      "36323312",
+      "35606795",
+      "35063001",
+      "35049498"
+    ],
+    "refs": [
+      "33796819",
+      "33060136",
+      "32728250",
+      "32728248",
+      "32657363",
+      "32362324",
+      "31727856",
+      "31701148",
+      "31283382",
+      "31027997",
+      "30986246",
+      "30944313",
+      "30332629",
+      "29988122",
+      "29893919",
+      "29784908",
+      "29779944",
+      "29472540",
+      "29343442",
+      "29149604",
+      "28853443",
+      "28137873",
+      "27643841",
+      "27471964",
+      "27462873",
+      "27211851",
+      "26472909",
+      "26301843",
+      "26300125",
+      "26300124",
+      "26140591",
+      "25605792",
+      "25557079",
+      "25516281",
+      "25368162",
+      "25363779",
+      "24604202",
+      "24485249",
+      "24136355",
+      "24121437",
+      "23582322",
+      "23332752",
+      "23104886",
+      "22388286",
+      "22231485",
+      "21921910",
+      "21670502",
+      "21442426",
+      "21106759",
+      "20729857",
+      "20580461",
+      "20513432",
+      "20510870",
+      "20110278",
+      "19114008",
+      "18798982",
+      "17324271",
+      "10432118"
+    ],
+    "similar": [
+      "34134993",
+      "25480297",
+      "14662870",
+      "24121437",
+      "29343442",
+      "32661179",
+      "10894164",
+      "28774779",
+      "8052653",
+      "28284523",
+      "20692533",
+      "15749884",
+      "17093501",
+      "10229086",
+      "29506156",
+      "25856589",
+      "16081117",
+      "29031719",
+      "20580461",
+      "21135125",
+      "26996125",
+      "9013959",
+      "34815787",
+      "11152651",
+      "12421951",
+      "29078395",
+      "37735593",
+      "12244163",
+      "8524300",
+      "27507812",
+      "27067007",
+      "15123681",
+      "25766112",
+      "8393045",
+      "21436399",
+      "30451856",
+      "20513432",
+      "8496684",
+      "33010223",
+      "24906148",
+      "11418675",
+      "25405361",
+      "28739167",
+      "10975840",
+      "26371125",
+      "1431102",
+      "34013552",
+      "12055628",
+      "29871928",
+      "27470986",
+      "25319330",
+      "25847241",
+      "12150890",
+      "30442929",
+      "12374808",
+      "20660350",
+      "25480296",
+      "23870825",
+      "27745702",
+      "14561490",
+      "24314139",
+      "17134490",
+      "25607885",
+      "26269636",
+      "12379724",
+      "16037570",
+      "24943510",
+      "29403488",
+      "28687632",
+      "33060136",
+      "12098359",
+      "25944087",
+      "33044128",
+      "24928992",
+      "12093869",
+      "7905499",
+      "23837824",
+      "30586758",
+      "10725793",
+      "29363180",
+      "30445548",
+      "11261792",
+      "15187114",
+      "21282512",
+      "26093164"
+    ],
+    "review": [
+      "34134993",
+      "25319330"
+    ],
+    "pmc": [
+      "8208725"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/sciadv.abf9808?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/34134993",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/34134993.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34134993/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34134993",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://bio-protocol.org/prep1272",
+        "provider": "Bio-protocol Exchange",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt2zx8x0d8",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse159626",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

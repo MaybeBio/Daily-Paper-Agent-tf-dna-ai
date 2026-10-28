@@ -1,0 +1,337 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.19.629354",
+  "title": "Prediction of Cell States and Key Transcription Factors of the Human Cornea through Integrated Single-Cell Omics Analyses",
+  "doi": "10.1101/2024.12.19.629354",
+  "abstract": "The cornea, a transparent tissue composed of multiple layers, allows light to enter the eye. Several single-cell RNA-seq analyses have been performed to explore the cell states and to understand the cellular composition of the human cornea. However, the inconsistences in cell state annotations between these studies complicate the application of these findings in corneal studies. To address this, we integrated single-cell RNA-seq data from four published studies and created a human corneal cell state meta-atlas. This meta-atlas was subsequently evaluated in two applications. First, we developed a machine learning pipeline cPredictor, using the human corneal cell state meta-atlas as input, to annotate corneal cell states. We demonstrated the accuracy of cPredictor and its ability to identify novel marker genes and rare cell states in the human cornea. Furthermore, cPredictor revealed the differences of the cell states between pluripotent stem cell-derived corneal organoids and the human cornea. Second, we integrated the single-cell RNA-seq based cell state meta-atlas with chromatin accessibility data, conducting motif-focused and gene regulatory network analyses. These approaches identified distinct transcription factors driving cell states of the human cornea. The novel marker genes and transcription factors were validated by immunohistochemistry. Overall, this study offers a reliable and accessible reference for profiling corneal cell states, which facilitates future research in cornea development, disease and regeneration. <h4>Significance statement</h4> This study creates a human corneal cell state meta-atlas that provides a common nomenclature of cells in the human cornea, through integrating multiple single-cell RNA-seq analyses. Using this meta-atlas, we developed a machine learning pipeline, cPredictor, to accurately annotate cell states in corneal studies using single-cell RNA-seq. Additionally, we identified distinct transcription factors driving cell states through integrating the atlas with chromatin accessibility data. This meta-atlas and the computational tool cPredictor enable future research in cornea development, disease, and regeneration.",
+  "authors": [
+    "Arts JA",
+    "Fallo S",
+    "Florencio MS",
+    "Smits JG",
+    "Cunha DL",
+    "Roubroeks JA",
+    "Dickman M",
+    "LaPointe VL",
+    "Yu R",
+    "Zhou H"
+  ],
+  "published_date": "2024-12-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.19.629354",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.19.629354.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR957835",
+    "raw_record": {
+      "id": "PPR957835",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR957835"
+        ]
+      },
+      "doi": "10.1101/2024.12.19.629354",
+      "title": "Prediction of Cell States and Key Transcription Factors of the Human Cornea through Integrated Single-Cell Omics Analyses",
+      "authorString": "Arts JA, Fallo S, Florencio MS, Smits JG, Cunha DL, Roubroeks JA, Dickman M, LaPointe VL, Yu R, Zhou H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Arts JA",
+            "lastName": "Arts",
+            "firstName": "Julian",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0803-9511"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Developmental Biology, , P.O. Box 9101 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fallo S",
+            "lastName": "Fallo",
+            "firstName": "Sofia",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell Biology-Inspired Tissue Engineering, MERLN Institute for Technology-Inspired Regenerative Medicine, P.O. Box 616, 6200 MD, Maastricht, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Florencio MS",
+            "lastName": "Florencio",
+            "firstName": "Melanie",
+            "initials": "MS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell Biology-Inspired Tissue Engineering, MERLN Institute for Technology-Inspired Regenerative Medicine, P.O. Box 616, 6200 MD, Maastricht, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Smits JG",
+            "lastName": "Smits",
+            "firstName": "Jos G.A.",
+            "initials": "JG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5858-3905"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Developmental Biology, , P.O. Box 9101 , ,"
+                },
+                {
+                  "affiliation": "Department of Human Genetics, , P.O. Box 9101 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cunha DL",
+            "lastName": "Cunha",
+            "firstName": "Dulce Lima",
+            "initials": "DL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Developmental Biology, , P.O. Box 9101 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Roubroeks JA",
+            "lastName": "Roubroeks",
+            "firstName": "Janou A.Y.",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5019-4091"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Developmental Biology, , P.O. Box 9101 , ,"
+                },
+                {
+                  "affiliation": "Department of Clinical Genetics, , P.O. Box 5800 , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dickman M",
+            "lastName": "Dickman",
+            "firstName": "Mor",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University Eye Clinic Maastricht, , P.O. Box 5800 , , ,"
+                },
+                {
+                  "affiliation": "Department of Ophthalmology, , P.O. Box L02417 , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "LaPointe VL",
+            "lastName": "LaPointe",
+            "firstName": "Vanessa L.S.",
+            "initials": "VL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell Biology-Inspired Tissue Engineering, MERLN Institute for Technology-Inspired Regenerative Medicine, P.O. Box 616, 6200 MD, Maastricht, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yu R",
+            "lastName": "Yu",
+            "firstName": "Rosemary",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9901-4055"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Developmental Biology, , P.O. Box 9101 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhou H",
+            "lastName": "Zhou",
+            "firstName": "Huiqing",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2434-3986"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Developmental Biology, , P.O. Box 9101 , ,"
+                },
+                {
+                  "affiliation": "Department of Human Genetics, , P.O. Box 9101 , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5019-4091"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5858-3905"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9901-4055"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0803-9511"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2434-3986"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6814-8365"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The cornea, a transparent tissue composed of multiple layers, allows light to enter the eye. Several single-cell RNA-seq analyses have been performed to explore the cell states and to understand the cellular composition of the human cornea. However, the inconsistences in cell state annotations between these studies complicate the application of these findings in corneal studies. To address this, we integrated single-cell RNA-seq data from four published studies and created a human corneal cell state meta-atlas. This meta-atlas was subsequently evaluated in two applications. First, we developed a machine learning pipeline cPredictor, using the human corneal cell state meta-atlas as input, to annotate corneal cell states. We demonstrated the accuracy of cPredictor and its ability to identify novel marker genes and rare cell states in the human cornea. Furthermore, cPredictor revealed the differences of the cell states between pluripotent stem cell-derived corneal organoids and the human cornea. Second, we integrated the single-cell RNA-seq based cell state meta-atlas with chromatin accessibility data, conducting motif-focused and gene regulatory network analyses. These approaches identified distinct transcription factors driving cell states of the human cornea. The novel marker genes and transcription factors were validated by immunohistochemistry. Overall, this study offers a reliable and accessible reference for profiling corneal cell states, which facilitates future research in cornea development, disease and regeneration. <h4>Significance statement</h4>  This study creates a human corneal cell state meta-atlas that provides a common nomenclature of cells in the human cornea, through integrating multiple single-cell RNA-seq analyses. Using this meta-atlas, we developed a machine learning pipeline, cPredictor, to accurately annotate cell states in corneal studies using single-cell RNA-seq. Additionally, we identified distinct transcription factors driving cell states through integrating the atlas with chromatin accessibility data. This meta-atlas and the computational tool cPredictor enable future research in cornea development, disease, and regeneration.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "ZonMw",
+            "grantId": "09120012010039",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.12.19.629354"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.19.629354"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR957835"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR957835&type=FILE&fileName=EMS202306-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40838019",
+            "reference": "PNAS nexus. 2025 Aug;4(8):pgaf235",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS202306",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-12-23",
+      "firstPublicationDate": "2024-12-20",
+      "firstIndexDate": "2024-12-23",
+      "fullTextReceivedDate": "2025-01-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

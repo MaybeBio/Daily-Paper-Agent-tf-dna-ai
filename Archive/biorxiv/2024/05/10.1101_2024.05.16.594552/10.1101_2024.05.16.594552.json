@@ -1,0 +1,1055 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.05.16.594552",
+  "title": "RNA/DNA Binding Protein TDP43 Regulates DNA Mismatch Repair Genes with Implications for Genome Stability",
+  "doi": "10.1101/2024.05.16.594552",
+  "abstract": "TDP43 is an RNA/DNA binding protein increasingly recognized for its role in neurodegenerative conditions, including amyotrophic lateral sclerosis and frontotemporal dementia (FTD). As characterized by its aberrant nuclear export and cytoplasmic aggregation, TDP43 proteinopathy is a hallmark feature in over 95% of ALS/FTD cases, leading to the formation of detrimental cytosolic aggregates and a reduction in nuclear functionality within neurons. Building on our prior work linking TDP43 proteinopathy to the accumulation of DNA double-strand breaks (DSBs) in neurons, the present investigation uncovers a novel regulatory relationship between TDP43 and DNA mismatch repair (MMR) gene expressions. Here, we show that TDP43 depletion or overexpression directly affects the expression of key MMR genes. Alterations include MLH1, MSH2, MSH3, MSH6, and PMS2 levels across various primary cell lines, independent of their proliferative status. Our results specifically establish that TDP43 selectively influences the expression of MLH1 and MSH6 by influencing their alternative transcript splicing patterns and stability. We furthermore find aberrant MMR gene expression is linked to TDP43 proteinopathy in two distinct ALS mouse models and post-mortem brain and spinal cord tissues of ALS patients. Notably, MMR depletion resulted in the partial rescue of TDP43 proteinopathy-induced DNA damage and signaling. Moreover, bioinformatics analysis of the TCGA cancer database reveals significant associations between TDP43 expression, MMR gene expression, and mutational burden across multiple cancers. Collectively, our findings implicate TDP43 as a critical regulator of the MMR pathway and unveil its broad impact on the etiology of both neurodegenerative and neoplastic pathologies.",
+  "authors": [
+    "Vincent E. Provasek",
+    "Albino Bacolla",
+    "Suganya Rangaswamy",
+    "Manohar Kodavati",
+    "Joy Mitra",
+    "Issa O. Yusuf",
+    "Vikas H. Malojirao",
+    "Velmarini Vasquez",
+    "Gavin W. Britz",
+    "Guo-Min Li",
+    "Zuoshang Xu",
+    "Sankar Mitra",
+    "Ralph M. Garruto",
+    "John A. Tainer",
+    "Muralidhar L. Hegde"
+  ],
+  "published_date": "2024-05-17",
+  "updated_date": "2024-05-18T00:50:17Z",
+  "journal": "bioRxiv",
+  "category": "Neuroscience",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.05.16.594552",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.05.16.594552.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Neuroscience"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Neuroscience",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T21:26:58Z",
+        "timestamp": 1768512418992,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            17
+          ]
+        ]
+      },
+      "group-title": "Neuroscience",
+      "reference-count": 111,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                17
+              ]
+            ],
+            "date-time": "2024-05-17T00:00:00Z",
+            "timestamp": 1715904000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "NIH",
+          "award": [
+            "RF1NS112719"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "RF1NS112719"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NIH",
+          "award": [
+            "R01NS088645"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01NS088645"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NIH",
+          "award": [
+            "R03AG064266"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R03AG064266"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NIH",
+          "award": [
+            "R01NS094535"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01NS094535"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NIH",
+          "award": [
+            "P01 CA092584"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "P01 CA092584"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NIH",
+          "award": [
+            "R35 CA220430"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35 CA220430"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            25
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>TDP43 is an RNA/DNA binding protein increasingly recognized for its role in neurodegenerative conditions, including amyotrophic lateral sclerosis and frontotemporal dementia (FTD). As characterized by its aberrant nuclear export and cytoplasmic aggregation, TDP43 proteinopathy is a hallmark feature in over 95% of ALS/FTD cases, leading to the formation of detrimental cytosolic aggregates and a reduction in nuclear functionality within neurons. Building on our prior work linking TDP43 proteinopathy to the accumulation of DNA double-strand breaks (DSBs) in neurons, the present investigation uncovers a novel regulatory relationship between TDP43 and DNA mismatch repair (MMR) gene expressions. Here, we show that TDP43 depletion or overexpression directly affects the expression of key MMR genes. Alterations include MLH1, MSH2, MSH3, MSH6, and PMS2 levels across various primary cell lines, independent of their proliferative status. Our results specifically establish that TDP43 selectively influences the expression of MLH1 and MSH6 by influencing their alternative transcript splicing patterns and stability. We furthermore find aberrant MMR gene expression is linked to TDP43 proteinopathy in two distinct ALS mouse models and post-mortem brain and spinal cord tissues of ALS patients. Notably, MMR depletion resulted in the partial rescue of TDP43 proteinopathy-induced DNA damage and signaling. Moreover, bioinformatics analysis of the TCGA cancer database reveals significant associations between TDP43 expression, MMR gene expression, and mutational burden across multiple cancers. Collectively, our findings implicate TDP43 as a critical regulator of the MMR pathway and unveil its broad impact on the etiology of both neurodegenerative and neoplastic pathologies.</jats:p>",
+      "DOI": "10.1101/2024.05.16.594552",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            18
+          ]
+        ],
+        "date-time": "2024-05-18T00:50:17Z",
+        "timestamp": 1715993417000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 7,
+      "title": [
+        "RNA/DNA Binding Protein TDP43 Regulates DNA Mismatch Repair Genes with Implications for Genome Stability"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5893-0230",
+          "authenticated-orcid": false,
+          "given": "Vincent E.",
+          "family": "Provasek",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Albino",
+          "family": "Bacolla",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Suganya",
+          "family": "Rangaswamy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Manohar",
+          "family": "Kodavati",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Joy",
+          "family": "Mitra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Issa O.",
+          "family": "Yusuf",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Vikas H.",
+          "family": "Malojirao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Velmarini",
+          "family": "Vasquez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Gavin W.",
+          "family": "Britz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Guo-Min",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zuoshang",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sankar",
+          "family": "Mitra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ralph M.",
+          "family": "Garruto",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "John A.",
+          "family": "Tainer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7333-8123",
+          "authenticated-orcid": false,
+          "given": "Muralidhar L.",
+          "family": "Hegde",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nn.2779"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2025.03.008"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/emboj.2010.310"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.pneurobio.2016.09.004"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hmg/ddz062"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.6",
+          "first-page": "83",
+          "article-title": "RNA-binding proteins and RNA metabolism: a new scenario in the pathogenesis of Amyotrophic lateral sclerosis",
+          "volume": "149",
+          "year": "2011",
+          "journal-title": "Arch Ital Biol"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1260419"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2021.07.018"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "755096",
+          "DOI": "10.3389/fonc.2021.755096",
+          "article-title": "The Regulatory Role of RNA Metabolism Regulator TDP-43 in Human Cancer",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Front Oncol"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv814"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3109/21678421.2014.881377"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/pr901076y"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.semcdb.2019.06.003"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp342"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hmg/ddu216"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/emmm.201202303"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-022-04436-3"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abq5622"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1818415116"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-genet-112414-054722"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.R115.660142"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "122",
+          "DOI": "10.3389/fmolb.2020.00122",
+          "article-title": "Mismatch Repair Pathway, Genome Stability and Cancer",
+          "volume": "7",
+          "year": "2020",
+          "journal-title": "Front Mol Biosci"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "102918",
+          "DOI": "10.1016/j.dnarep.2020.102918",
+          "article-title": "DNA mismatch repair in the chromatin context: Mechanisms and therapeutic potential",
+          "volume": "93",
+          "year": "2020",
+          "journal-title": "DNA Repair (Amst"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.93.13.6443"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr0404794"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41422-021-00468-y"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2005.06.027"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1914718117"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.17.2.760"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.R600022200"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2015.11.019"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2019.03.009"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mrfmmm.2012.12.008"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.34",
+          "first-page": "393",
+          "article-title": "The role of mismatch repair in DNA damage-induced apoptosis",
+          "volume": "11",
+          "year": "1999",
+          "journal-title": "Oncol Res"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/cr.2007.115"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.36",
+          "first-page": "673",
+          "article-title": "DNA damage signaling in response to 5-fluorouracil in three colorectal cancer cell lines with different mismatch repair and TP53 status",
+          "volume": "39",
+          "year": "2011",
+          "journal-title": "Int J Oncol"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3892/ijo.2013.1932"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12885-018-5218-4"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12094-017-1743-x"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2015.10.003"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.41",
+          "first-page": "4881",
+          "article-title": "The role of DNA mismatch repair in platinum drug resistance",
+          "volume": "56",
+          "year": "1996",
+          "journal-title": "Cancer Res"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.canlet.2005.12.009"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.19.4.3177"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.44",
+          "first-page": "3021",
+          "article-title": "Apoptosis induced by overexpression of hMSH2 or hMLH1",
+          "volume": "59",
+          "year": "1999",
+          "journal-title": "Cancer Res"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.biopha.2011.09.001"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0921-8777(01)00088-X"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2012.03.001"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1115361109"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2015.11.020"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1523/JNEUROSCI.16-03-00939.1996"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx650"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1003930"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/humu.22464"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3233/JHD-200438"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M112.356758"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2015.11.008"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "42",
+          "DOI": "10.1186/s13024-015-0036-5",
+          "article-title": "Cytoplasmic mislocalization of RNA splicing factors and aberrant neuronal gene splicing in TDP-43 transgenic pig brain",
+          "volume": "10",
+          "year": "2015",
+          "journal-title": "Mol Neurodegener"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M110.190884"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.59",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. C. Cao & Scotter E. L . Transcriptional targets of amyotrophic lateral sclerosis/frontotemporal dementia protein TDP-43 - meta-analysis and interactive graphical database. Dis Model Mech. 15, (2022).",
+          "DOI": "10.1242/dmm.049418"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41593-017-0047-3"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr1082"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-020-07291-6"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku406"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2144/000112208"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt189"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2011.11.003"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/BRAIN/AWAB217"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-017-06953-y"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/brain/awy062"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0255710"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.71",
+          "doi-asserted-by": "crossref",
+          "first-page": "54",
+          "DOI": "10.1186/s40478-025-01962-9",
+          "article-title": "Endogenous TDP-43 mislocalization in a novel knock-in mouse model reveals DNA repair impairment, inflammation, and neuronal senescence",
+          "volume": "13",
+          "year": "2025",
+          "journal-title": "Acta Neuropathol Commun"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.72",
+          "first-page": "2327",
+          "article-title": "DNA mismatch repair (MMR) mediates 6-thioguanine genotoxicity by introducing single-strand breaks to signal a G2-M arrest in MMR-proficient RKO cells",
+          "volume": "9",
+          "year": "2003",
+          "journal-title": "Clin Cancer Res"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/carcin/bgv154"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2018.08.010"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1003280"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1136/gutjnl-2018-317856"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abq5622"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41593-022-01205-3"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nn.2778"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.2698"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41583-023-00717-6"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2005.02.038"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.83",
+          "doi-asserted-by": "crossref",
+          "first-page": "20",
+          "DOI": "10.1016/j.rppneu.2013.07.003",
+          "article-title": "Promoter hypermethylation of DNA repair genes MLH1 and MSH2 in adenocarcinomas and squamous cell carcinomas of the lung",
+          "volume": "20",
+          "year": "2014",
+          "journal-title": "Rev Port Pneumol"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.84",
+          "first-page": "25",
+          "article-title": "Alterations of copy number of methylation pattern in mismatch repair genes by methylation specific-multiplex ligation-dependent probe amplification in cases of colon cancer",
+          "volume": "14",
+          "year": "2011",
+          "journal-title": "Balkan J Med Genet"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41419-022-04867-w"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11064-020-02956-w"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.stem.2021.04.004"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.88",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Mitra , et al. Endogenous TDP-43 mislocalization in a novel knock-in mouse model reveals DNA repair impairment, inflammation, and neuronal senescence. Res Sq. (2024).",
+          "DOI": "10.21203/rs.3.rs-3879966/v1"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2015.11.013"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11010-015-2636-3"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.91",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1611673113"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-021-03872-0"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fnmol.2021.784361"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.94",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.nbd.2012.01.002"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.95",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2016.03.016"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fncel.2022.826608"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00294-018-0806-z"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.98",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.RA120.014161"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.99",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku658"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.100",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1711283114"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.101",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Wood , et al. TDP-43 dysfunction results in R-loop accumulation and DNA replication defects. J Cell Sci. 133, (2020).",
+          "DOI": "10.1242/jcs.244129"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.RA118.002839"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.103",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fgene.2014.00287"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.104",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1714573115"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.105",
+          "first-page": "7209",
+          "article-title": "Long noncoding RNA MIAT promotes the growth and metastasis of non-small cell lung cancer by upregulating TDP43",
+          "volume": "24",
+          "year": "2020",
+          "journal-title": "Eur Rev Med Pharmacol Sci"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.106",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-06111-6"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.107",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/embj.2020106177"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.108",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/brain/awy062"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.109",
+          "first-page": "e3072",
+          "article-title": "mRNA Stability Assay Using transcription inhibition by Actinomycin D in Mouse Pluripotent Stem Cells",
+          "volume": "8",
+          "year": "2018",
+          "journal-title": "Bio Protoc"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.110",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx812"
+        },
+        {
+          "key": "2025072813400486000_2024.05.16.594552v3.111",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-0716-2063-2_1"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.05.16.594552",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:27:16Z",
+        "timestamp": 1768458436000
+      },
+      "score": 126.149124,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.05.16.594552"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            17
+          ]
+        ]
+      },
+      "references-count": 111,
+      "URL": "https://doi.org/10.1101/2024.05.16.594552",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

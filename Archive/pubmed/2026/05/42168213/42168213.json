@@ -1,0 +1,521 @@
+{
+  "identity": {
+    "pmid": "42168213",
+    "doi": "10.1038/s41467-026-73145-6",
+    "title": "Hierarchical multi-timescale structural dynamics of the disordered N-terminal of p53."
+  },
+  "content": {
+    "abstract": "Most natively folded proteins exhibit a unique spatial structure, which undergoes functional motions ranging from picoseconds to seconds, governed by a hierarchically ordered, funnel-shaped free energy landscape. Intrinsically disordered proteins (IDPs) lack such a stable native structure, but undergo fast interconversions between many different structures. Accordingly, the underlying free energy landscape is assumed to be rather shallow and unstructured. However, although IDPs represent nearly one-third of the human proteome, their structural dynamics on timescales slower than nanoseconds remain largely elusive. Here we reveal the structural dynamics of the prototypical IDP p53-TAD, also known as the \"guardian of the genome\", by combining high-power relaxation dispersion nuclear magnetic resonance spectroscopy with large-scale molecular dynamics simulations. We found a complex hierarchy of structural dynamics on timescales covering over seven orders of magnitude, ranging from fast nanoseconds backbone reorientations, via sub-microsecond helix-formation dynamics involving many structural sub-states and transition times, to transient tertiary structure formation slower than 25 microseconds. These rich structural dynamics are unexpectedly similar to the timescale hierarchy of natively folded proteins, which may be key to the ability of p53-TAD - and possibly of other IDPs - to bind many different partners by folding into different structures.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Tumor Suppressor Protein p53/chemistry/metabolism/genetics",
+      "Molecular Dynamics Simulation",
+      "Humans",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Folding",
+      "Protein Conformation",
+      "Magnetic Resonance Spectroscopy",
+      "Nuclear Magnetic Resonance, Biomolecular",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Szollosi, Daniel",
+        "Pratihar, Supriya",
+        "Mukhopadhyay, Dwaipayan",
+        "Rout, Ashok Kumar",
+        "Han, Mookyoung",
+        "Reddy, G Jithender",
+        "Ebersberger, Niklas",
+        "Becker, Stefan",
+        "Nagy, Gabor",
+        "Rauscher, Sarah",
+        "Lee, Donghan",
+        "Klement, Reinhard",
+        "Griesinger, Christian",
+        "Grubmuller, Helmut"
+      ],
+      "short_names": [
+        "Szollosi D",
+        "Pratihar S",
+        "Mukhopadhyay D",
+        "Rout AK",
+        "Han M",
+        "Reddy GJ",
+        "Ebersberger N",
+        "Becker S",
+        "Nagy G",
+        "Rauscher S",
+        "Lee D",
+        "Klement R",
+        "Griesinger C",
+        "Grubmuller H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4641-3065",
+        "ORCID: 0009-0004-8007-5711",
+        "ORCID: 0000-0003-3032-3831",
+        "ORCID: 0009-0002-2601-9976",
+        "ORCID: 0000-0003-2041-5740",
+        "ORCID: 0000-0002-8607-9682",
+        "ORCID: 0000-0001-9860-3237",
+        "ORCID: 0000-0002-1266-4344",
+        "ORCID: 0000-0002-3270-3144"
+      ],
+      "affiliations": [
+        "Max Planck Institute for Multidisciplinary Sciences, Department of Theoretical and Computational Biophysics, Gottingen, Germany.",
+        "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Gottingen, Germany.",
+        "Columbia University, Department of Biochemistry and Molecular Biophysics, New York, NY, USA.",
+        "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Gottingen, Germany.",
+        "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Gottingen, Germany.",
+        "Institute of Chemistry and Metabolomics, University of Lubeck, Lubeck, Germany.",
+        "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Gottingen, Germany.",
+        "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Gottingen, Germany.",
+        "NMR Division, Department of Analytical & Structural Chemistry, CSIR-Indian Institute of Chemical Technology, Hyderabad, India.",
+        "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Gottingen, Germany.",
+        "Institute of Biochemistry, University of Lubeck, Lubeck, Germany.",
+        "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Gottingen, Germany.",
+        "Max Planck Institute for Multidisciplinary Sciences, Department of Theoretical and Computational Biophysics, Gottingen, Germany.",
+        "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, ON, Canada.",
+        "Department of Physics, University of Toronto, Toronto, ON, Canada.",
+        "Department of Chemistry, University of Toronto, Toronto, ON, Canada.",
+        "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Gottingen, Germany.",
+        "Biopharmaceutical Research Center, Korea Basic Science Institute, Cheongju-Si, South Korea.",
+        "Max Planck Institute for Multidisciplinary Sciences, Department of Theoretical and Computational Biophysics, Gottingen, Germany.",
+        "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Gottingen, Germany. cigr@mpinat.mpg.de.",
+        "Max Planck Institute for Multidisciplinary Sciences, Department of Theoretical and Computational Biophysics, Gottingen, Germany. hgrubmu@mpinat.mpg.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Szöllősi, Dániel",
+        "short_name": "Szöllősi D",
+        "identifiers": [
+          "0000-0003-4641-3065"
+        ],
+        "affiliations": [
+          "Max Planck Institute for Multidisciplinary Sciences, Department of Theoretical and Computational Biophysics, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Pratihar, Supriya",
+        "short_name": "Pratihar S",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Göttingen, Germany.",
+          "Columbia University, Department of Biochemistry and Molecular Biophysics, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Mukhopadhyay, Dwaipayan",
+        "short_name": "Mukhopadhyay D",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Rout, Ashok Kumar",
+        "short_name": "Rout AK",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Göttingen, Germany.",
+          "Institute of Chemistry and Metabolomics, University of Lübeck, Lübeck, Germany."
+        ]
+      },
+      {
+        "full_name": "Han, Mookyoung",
+        "short_name": "Han M",
+        "identifiers": [
+          "0009-0004-8007-5711"
+        ],
+        "affiliations": [
+          "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Reddy, G Jithender",
+        "short_name": "Reddy GJ",
+        "identifiers": [
+          "0000-0003-3032-3831"
+        ],
+        "affiliations": [
+          "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Göttingen, Germany.",
+          "NMR Division, Department of Analytical & Structural Chemistry, CSIR-Indian Institute of Chemical Technology, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "Ebersberger, Niklas",
+        "short_name": "Ebersberger N",
+        "identifiers": [
+          "0009-0002-2601-9976"
+        ],
+        "affiliations": [
+          "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Göttingen, Germany.",
+          "Institute of Biochemistry, University of Lübeck, Lübeck, Germany."
+        ]
+      },
+      {
+        "full_name": "Becker, Stefan",
+        "short_name": "Becker S",
+        "identifiers": [
+          "0000-0003-2041-5740"
+        ],
+        "affiliations": [
+          "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Nagy, Gábor",
+        "short_name": "Nagy G",
+        "identifiers": [
+          "0000-0002-8607-9682"
+        ],
+        "affiliations": [
+          "Max Planck Institute for Multidisciplinary Sciences, Department of Theoretical and Computational Biophysics, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Rauscher, Sarah",
+        "short_name": "Rauscher S",
+        "identifiers": [
+          "0000-0001-9860-3237"
+        ],
+        "affiliations": [
+          "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, ON, Canada.",
+          "Department of Physics, University of Toronto, Toronto, ON, Canada.",
+          "Department of Chemistry, University of Toronto, Toronto, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Lee, Donghan",
+        "short_name": "Lee D",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Göttingen, Germany.",
+          "Biopharmaceutical Research Center, Korea Basic Science Institute, Cheongju-Si, South Korea."
+        ]
+      },
+      {
+        "full_name": "Klement, Reinhard",
+        "short_name": "Klement R",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute for Multidisciplinary Sciences, Department of Theoretical and Computational Biophysics, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Griesinger, Christian",
+        "short_name": "Griesinger C",
+        "identifiers": [
+          "0000-0002-1266-4344"
+        ],
+        "affiliations": [
+          "Max Planck Institute for Multidisciplinary Sciences, Department of NMR-Based Structural Biology, Göttingen, Germany. cigr@mpinat.mpg.de."
+        ]
+      },
+      {
+        "full_name": "Grubmüller, Helmut",
+        "short_name": "Grubmüller H",
+        "identifiers": [
+          "0000-0002-3270-3144"
+        ],
+        "affiliations": [
+          "Max Planck Institute for Multidisciplinary Sciences, Department of Theoretical and Computational Biophysics, Göttingen, Germany. hgrubmu@mpinat.mpg.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 May 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/22 00:33",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41053265",
+      "40586990",
+      "40068541",
+      "39735932",
+      "39586094",
+      "38810774",
+      "38505224",
+      "38217162",
+      "38111344",
+      "37705656",
+      "36750251",
+      "36579699",
+      "36416865",
+      "36354189",
+      "36131545",
+      "35725761",
+      "35446534",
+      "34480265",
+      "33443163",
+      "33230318",
+      "33128917",
+      "32709860",
+      "32404993",
+      "31646421",
+      "31548393",
+      "30960279",
+      "30940742",
+      "30715849",
+      "30047198",
+      "29735687",
+      "29188417",
+      "28880537",
+      "28576576",
+      "28425697",
+      "28337243",
+      "28259050",
+      "27819658",
+      "27532687",
+      "27345359",
+      "27300592",
+      "27114532",
+      "27112095",
+      "26961002",
+      "26574339",
+      "26498066",
+      "25531225",
+      "25505092",
+      "25377083",
+      "25362358",
+      "24773235",
+      "24077173",
+      "23949308",
+      "23728840",
+      "22984159",
+      "22689066",
+      "22492978",
+      "22206299",
+      "22176582",
+      "22113802",
+      "22034434",
+      "21448735",
+      "20947758",
+      "20628786",
+      "20039757",
+      "19933326",
+      "19841628",
+      "19514729",
+      "19251640",
+      "18983922",
+      "18799750",
+      "18556554",
+      "18410159",
+      "18391200",
+      "18075575",
+      "17212484",
+      "17088319",
+      "17002294",
+      "16392929",
+      "16366524",
+      "16211482",
+      "16188473",
+      "16159876",
+      "15824059",
+      "15738986",
+      "15665128",
+      "15303831",
+      "15150406",
+      "14749181",
+      "12384704",
+      "11563554",
+      "10884388",
+      "10592235",
+      "10056251",
+      "9571112",
+      "8875929",
+      "8589604",
+      "8520220",
+      "7724609",
+      "7627436",
+      "6351724",
+      "1749933"
+    ],
+    "similar": [
+      "42168213",
+      "26742101",
+      "19162020",
+      "28554553",
+      "31241933",
+      "32579908",
+      "29990433",
+      "33984364",
+      "30813315",
+      "41309611",
+      "30184304",
+      "32323533",
+      "38916177",
+      "28834051",
+      "32929427",
+      "27844185",
+      "33382616",
+      "27030593",
+      "29276882",
+      "28597880",
+      "32184088",
+      "25207671",
+      "30865832",
+      "23606624",
+      "33355572",
+      "36579699",
+      "34358545",
+      "26195786",
+      "29157493",
+      "26387110",
+      "24606137",
+      "36131545",
+      "30514761",
+      "34390736",
+      "34032235",
+      "25897952",
+      "40782957",
+      "27387657",
+      "29733855",
+      "30703278",
+      "30471686",
+      "26411860",
+      "25244701",
+      "29382046",
+      "32709860",
+      "39499823",
+      "19216110",
+      "40907012",
+      "28493424",
+      "30527137",
+      "39353179",
+      "32696383",
+      "31552948",
+      "39807013",
+      "24589355",
+      "33810353",
+      "31441158",
+      "39370942",
+      "39555784",
+      "32592801",
+      "30979035",
+      "19748338",
+      "32227937",
+      "25331250",
+      "35934194",
+      "34845619",
+      "21268115",
+      "30840442",
+      "24150971",
+      "38739602",
+      "24763499",
+      "28780862",
+      "35749260",
+      "23848319",
+      "26387102",
+      "40558039",
+      "28970487",
+      "23205890",
+      "37146977",
+      "32074499",
+      "32192337",
+      "39740355",
+      "36084124",
+      "24211251",
+      "31809054",
+      "38409704",
+      "24008243",
+      "26498066",
+      "33623120",
+      "30855964",
+      "39475380",
+      "41748577",
+      "21999759",
+      "23912807",
+      "37379390",
+      "26387101",
+      "33454008",
+      "23373423",
+      "31591893",
+      "25533957"
+    ],
+    "review": [
+      "42168213",
+      "28554553",
+      "33355572",
+      "34358545",
+      "29157493",
+      "26387110",
+      "24606137",
+      "34390736",
+      "29382046",
+      "30527137",
+      "31441158",
+      "30979035",
+      "19748338",
+      "30840442",
+      "26387102",
+      "39740355",
+      "38409704",
+      "24008243"
+    ],
+    "pmc": [
+      "13221463"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-73145-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42168213/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://yoda.yale.edu/clinical-trial/nct00367237-a-randomized-multicenter-international-open-label-study-of-infliximab-plus-methotrexate-versus-methotrexate-mtx-alone-for-the-treatment-of-mtx-naive-subjects-with-active-psoriatic/",
+        "provider": "The YODA Project",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "A Randomized, Multicenter, International, Open-label Study of Infliximab Plus Methotrexate Versus Methotrexate (MTX) Alone for the Treatment of MTX naïve Subjects With Active Psoriatic Arthritis"
+      }
+    ],
+    "text_mined": []
+  }
+}

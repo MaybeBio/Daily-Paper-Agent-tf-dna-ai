@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "35489688",
+    "doi": "10.1016/j.ymben.2022.04.004",
+    "title": "Machine-learning from Pseudomonas putida KT2440 transcriptomes reveals its transcriptional regulatory network."
+  },
+  "content": {
+    "abstract": "Bacterial gene expression is orchestrated by numerous transcription factors (TFs). Elucidating how gene expression is regulated is fundamental to understanding bacterial physiology and engineering it for practical use. In this study, a machine-learning approach was applied to uncover the genome-scale transcriptional regulatory network (TRN) in Pseudomonas putida KT2440, an important organism for bioproduction. We performed independent component analysis of a compendium of 321 high-quality gene expression profiles, which were previously published or newly generated in this study. We identified 84 groups of independently modulated genes (iModulons) that explain 75.7% of the total variance in the compendium. With these iModulons, we (i) expand our understanding of the regulatory functions of 39 iModulon associated TFs (e.g., HexR, Zur) by systematic comparison with 1993 previously reported TF-gene interactions; (ii) outline transcriptional changes after the transition from the exponential growth to stationary phases; (iii) capture group of genes required for utilizing diverse carbon sources and increased stationary response with slower growth rates; (iv) unveil multiple evolutionary strategies of transcriptome reallocation to achieve fast growth rates; and (v) define an osmotic stimulon, which includes the Type VI secretion system, as coordination of multiple iModulon activity changes. Taken together, this study provides the first quantitative genome-scale TRN for P. putida KT2440 and a basis for a comprehensive understanding of its complex transcriptome changes in a variety of physiological states.",
+    "keywords": [
+      "Independent component analysis",
+      "Machine learning",
+      "Pseudomonas putida",
+      "Systems biology",
+      "Transcriptome"
+    ],
+    "mesh_terms": [
+      "Gene Expression Regulation, Bacterial",
+      "Gene Regulatory Networks",
+      "Machine Learning",
+      "*Pseudomonas putida/genetics/metabolism",
+      "Transcription Factors/genetics/metabolism",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lim, Hyun Gyu",
+        "Rychel, Kevin",
+        "Sastry, Anand V",
+        "Bentley, Gayle J",
+        "Mueller, Joshua",
+        "Schindel, Heidi S",
+        "Larsen, Peter E",
+        "Laible, Philip D",
+        "Guss, Adam M",
+        "Niu, Wei",
+        "Johnson, Christopher W",
+        "Beckham, Gregg T",
+        "Feist, Adam M",
+        "Palsson, Bernhard O"
+      ],
+      "short_names": [
+        "Lim HG",
+        "Rychel K",
+        "Sastry AV",
+        "Bentley GJ",
+        "Mueller J",
+        "Schindel HS",
+        "Larsen PE",
+        "Laible PD",
+        "Guss AM",
+        "Niu W",
+        "Johnson CW",
+        "Beckham GT",
+        "Feist AM",
+        "Palsson BO"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bioengineering, University of California San Diego, 9500 Gilman Dr., La Jolla, CA, 92093, USA; Joint BioEnergy Institute, 5885 Hollis Street, 4th Floor, Emeryville, CA, 94608, USA.",
+        "Department of Bioengineering, University of California San Diego, 9500 Gilman Dr., La Jolla, CA, 92093, USA.",
+        "Department of Bioengineering, University of California San Diego, 9500 Gilman Dr., La Jolla, CA, 92093, USA.",
+        "Renewable Resources and Enabling Sciences Center, National Renewable Energy Laboratory, 15013 Denver West Parkway, Golden, CO, 80401, USA; Agile BioFoundry, Lawrence Berkeley National Laboratory, 1 Cyclotron Rd, Emeryville, CA, 94720, USA.",
+        "Department of Chemical & Biomolecular Engineering, University of Nebraska-Lincoln, 1400 R St, Lincoln, NE, 68588, USA.",
+        "Biosciences Division, Oak Ridge National Laboratory, 5200 Bethel Valley Rd, Oak Ridge, TN, 37830, USA.",
+        "Biosciences Division, Argonne National Laboratory, 9700 South Cass Avenue, Lemont, IL, 60539, USA.",
+        "Biosciences Division, Argonne National Laboratory, 9700 South Cass Avenue, Lemont, IL, 60539, USA.",
+        "Agile BioFoundry, Lawrence Berkeley National Laboratory, 1 Cyclotron Rd, Emeryville, CA, 94720, USA; Biosciences Division, Oak Ridge National Laboratory, 5200 Bethel Valley Rd, Oak Ridge, TN, 37830, USA.",
+        "Department of Chemical & Biomolecular Engineering, University of Nebraska-Lincoln, 1400 R St, Lincoln, NE, 68588, USA.",
+        "Renewable Resources and Enabling Sciences Center, National Renewable Energy Laboratory, 15013 Denver West Parkway, Golden, CO, 80401, USA; Agile BioFoundry, Lawrence Berkeley National Laboratory, 1 Cyclotron Rd, Emeryville, CA, 94720, USA.",
+        "Renewable Resources and Enabling Sciences Center, National Renewable Energy Laboratory, 15013 Denver West Parkway, Golden, CO, 80401, USA; Agile BioFoundry, Lawrence Berkeley National Laboratory, 1 Cyclotron Rd, Emeryville, CA, 94720, USA.",
+        "Department of Bioengineering, University of California San Diego, 9500 Gilman Dr., La Jolla, CA, 92093, USA; Joint BioEnergy Institute, 5885 Hollis Street, 4th Floor, Emeryville, CA, 94608, USA; Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, 2800, Kgs, Lyngby, Denmark.",
+        "Department of Bioengineering, University of California San Diego, 9500 Gilman Dr., La Jolla, CA, 92093, USA; Joint BioEnergy Institute, 5885 Hollis Street, 4th Floor, Emeryville, CA, 94608, USA; Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, 2800, Kgs, Lyngby, Denmark; Department of Pediatrics, University of California, San Diego, CA, 92093, USA. Electronic address: palsson@ucsd.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lim, Hyun Gyu",
+        "short_name": "Lim HG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, 9500 Gilman Dr., La Jolla, CA, 92093, USA; Joint BioEnergy Institute, 5885 Hollis Street, 4th Floor, Emeryville, CA, 94608, USA."
+        ]
+      },
+      {
+        "full_name": "Rychel, Kevin",
+        "short_name": "Rychel K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, 9500 Gilman Dr., La Jolla, CA, 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Sastry, Anand V",
+        "short_name": "Sastry AV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, 9500 Gilman Dr., La Jolla, CA, 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Bentley, Gayle J",
+        "short_name": "Bentley GJ",
+        "identifiers": [],
+        "affiliations": [
+          "Renewable Resources and Enabling Sciences Center, National Renewable Energy Laboratory, 15013 Denver West Parkway, Golden, CO, 80401, USA; Agile BioFoundry, Lawrence Berkeley National Laboratory, 1 Cyclotron Rd, Emeryville, CA, 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Mueller, Joshua",
+        "short_name": "Mueller J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical & Biomolecular Engineering, University of Nebraska-Lincoln, 1400 R St, Lincoln, NE, 68588, USA."
+        ]
+      },
+      {
+        "full_name": "Schindel, Heidi S",
+        "short_name": "Schindel HS",
+        "identifiers": [],
+        "affiliations": [
+          "Biosciences Division, Oak Ridge National Laboratory, 5200 Bethel Valley Rd, Oak Ridge, TN, 37830, USA."
+        ]
+      },
+      {
+        "full_name": "Larsen, Peter E",
+        "short_name": "Larsen PE",
+        "identifiers": [],
+        "affiliations": [
+          "Biosciences Division, Argonne National Laboratory, 9700 South Cass Avenue, Lemont, IL, 60539, USA."
+        ]
+      },
+      {
+        "full_name": "Laible, Philip D",
+        "short_name": "Laible PD",
+        "identifiers": [],
+        "affiliations": [
+          "Biosciences Division, Argonne National Laboratory, 9700 South Cass Avenue, Lemont, IL, 60539, USA."
+        ]
+      },
+      {
+        "full_name": "Guss, Adam M",
+        "short_name": "Guss AM",
+        "identifiers": [],
+        "affiliations": [
+          "Agile BioFoundry, Lawrence Berkeley National Laboratory, 1 Cyclotron Rd, Emeryville, CA, 94720, USA; Biosciences Division, Oak Ridge National Laboratory, 5200 Bethel Valley Rd, Oak Ridge, TN, 37830, USA."
+        ]
+      },
+      {
+        "full_name": "Niu, Wei",
+        "short_name": "Niu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical & Biomolecular Engineering, University of Nebraska-Lincoln, 1400 R St, Lincoln, NE, 68588, USA."
+        ]
+      },
+      {
+        "full_name": "Johnson, Christopher W",
+        "short_name": "Johnson CW",
+        "identifiers": [],
+        "affiliations": [
+          "Renewable Resources and Enabling Sciences Center, National Renewable Energy Laboratory, 15013 Denver West Parkway, Golden, CO, 80401, USA; Agile BioFoundry, Lawrence Berkeley National Laboratory, 1 Cyclotron Rd, Emeryville, CA, 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Beckham, Gregg T",
+        "short_name": "Beckham GT",
+        "identifiers": [],
+        "affiliations": [
+          "Renewable Resources and Enabling Sciences Center, National Renewable Energy Laboratory, 15013 Denver West Parkway, Golden, CO, 80401, USA; Agile BioFoundry, Lawrence Berkeley National Laboratory, 1 Cyclotron Rd, Emeryville, CA, 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Feist, Adam M",
+        "short_name": "Feist AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, 9500 Gilman Dr., La Jolla, CA, 92093, USA; Joint BioEnergy Institute, 5885 Hollis Street, 4th Floor, Emeryville, CA, 94608, USA; Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, 2800, Kgs, Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Palsson, Bernhard O",
+        "short_name": "Palsson BO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California San Diego, 9500 Gilman Dr., La Jolla, CA, 92093, USA; Joint BioEnergy Institute, 5885 Hollis Street, 4th Floor, Emeryville, CA, 94608, USA; Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, 2800, Kgs, Lyngby, Denmark; Department of Pediatrics, University of California, San Diego, CA, 92093, USA. Electronic address: palsson@ucsd.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Metabolic engineering"
+    ],
+    "journal_abbrev": [
+      "Metab Eng"
+    ],
+    "pub_date": "2022 Jul",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/01 06:00",
+    "fetched_at": "2026-09-28 07:50:13"
+  },
+  "links": {
+    "cites": [
+      "41919942",
+      "41858775",
+      "41626695",
+      "41333561",
+      "41332517",
+      "41206038",
+      "41156817",
+      "41036861",
+      "40930281",
+      "40445397",
+      "39871105",
+      "39809795",
+      "39714213",
+      "39548707",
+      "39494532",
+      "39441835",
+      "39289465",
+      "39193902",
+      "38934464",
+      "38919711",
+      "38898010",
+      "38490991",
+      "38323821",
+      "38189271",
+      "38175245",
+      "38063407",
+      "37713610",
+      "37713311",
+      "37638727",
+      "37628727",
+      "37435441",
+      "36926589",
+      "36865326",
+      "36617463",
+      "36287825"
+    ],
+    "refs": [],
+    "similar": [
+      "35489688",
+      "37683565",
+      "35357493",
+      "38323821",
+      "27142075",
+      "35306876",
+      "36511656",
+      "39269777",
+      "25026441",
+      "28851281",
+      "32345644",
+      "33375721",
+      "29534717",
+      "16360643",
+      "32967908",
+      "39193902",
+      "33045728",
+      "24751507",
+      "29736608",
+      "37278526",
+      "34582907",
+      "39264300",
+      "18793442",
+      "21906639",
+      "23537069",
+      "16343331",
+      "25827416",
+      "28874552",
+      "24249296",
+      "28655819",
+      "30097438",
+      "28085902",
+      "12393206",
+      "19788653",
+      "25646541",
+      "35395277",
+      "37628727",
+      "26590283",
+      "19648236",
+      "22646161",
+      "23036925",
+      "31673742",
+      "16958757",
+      "34508142",
+      "33311500",
+      "30158283",
+      "30762073",
+      "38393514",
+      "37285268",
+      "25829261",
+      "32705785",
+      "21999513",
+      "28130298",
+      "31657101",
+      "17706247",
+      "30177764",
+      "30793496",
+      "24907323",
+      "31797920",
+      "20540110",
+      "20553554",
+      "19958481",
+      "25890048",
+      "25384394",
+      "33407113",
+      "22458445",
+      "23291549",
+      "12534467",
+      "23071444",
+      "34777307",
+      "30298597",
+      "24488315",
+      "31924622",
+      "15560824",
+      "12534463",
+      "17965157",
+      "16495222",
+      "11495992",
+      "18974823",
+      "21281420",
+      "27768818",
+      "21261922",
+      "30864026",
+      "29299733",
+      "23995642",
+      "27111755",
+      "31166064",
+      "12764569",
+      "24236847",
+      "24912454",
+      "11320135",
+      "29615803",
+      "24148021",
+      "28497290",
+      "27092814",
+      "18341582",
+      "30557364",
+      "25373400",
+      "35217159",
+      "22895160",
+      "27776509",
+      "15352239",
+      "22138988",
+      "21338491",
+      "29178828",
+      "27208139",
+      "38941464",
+      "37732760",
+      "38968167",
+      "35726888",
+      "38490991",
+      "38825177"
+    ],
+    "review": [
+      "35489688"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1096-7176(22)00063-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35489688",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse193493",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

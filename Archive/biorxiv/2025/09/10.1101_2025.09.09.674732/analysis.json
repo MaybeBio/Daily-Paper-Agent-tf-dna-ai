@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.09.674732",
+  "title": "SMTrackR: a R/Bioconductor package for mapping protein binding at individual DNA molecules",
+  "authors": "Aashna Bansal; Himani Barmola; Shivam Yadav; Satyanarayan Rao",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-15",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文介绍SMTrackR包，用于可视化单分子测序数据中的蛋白-DNA结合状态（含TF结合），但主要侧重数据可视化工具，缺乏AI或物理模拟方法，属于广义蛋白-DNA互作的可借鉴工具。",
+  "abstract": "Single-molecule assays like NOMe-seq, dSMF and Nanopore are superior to DNase-seq and ATAC-seq as they do not nibble down DNA. Thus, they enable quantification of all three i.e., protein-free, Transcription Factor-bound and histone-complex-bound states. But a user-friendly tool to visualize and quantify such states is lacking. Here, we present, SMTrackR, a Bioconductor package to visualize protein-DNA binding states on individual sequenced DNA molecules. SMTrackR queries the single-molecule footprint database we built and hosted at Galaxy Server. It comprises of BigBed files generated from NOMe-seq, dSMF, and Nanopore (SMAC-seq) datasets. SMTrackR exploits UCSC REST API to query a BigBed file and plot footprint heatmap categorized in different binding states as well as report their occupancies. Additionally, this package generates a Gviz-enabled script to visualize these single-molecules on gene tracks. Availability and implementation The SMTrackR tool is implemented the statistical programming language R and is available at the GitHub developer site, https://github.com/satyanarayan-rao/SMTrackR . The tool is also available in a web version https://smtrackr.iitr.ac.in . A function is provided to use local BigBed file for users who wish to use unpublished data. A fully automated pipeline to generate such BigBed files is available at https://github.com/satyanarayan-rao/SMF_for_SMThub and https://github.com/satyanarayan-rao/dSMF_for_SMThub .",
+  "abstract_zh": "单分子检测方法如NOMe-seq、dSMF和Nanopore优于DNase-seq和ATAC-seq，因为它们不会切割DNA。因此，它们能够量化所有三种状态，即无蛋白、转录因子结合和组蛋白复合物结合状态。但缺乏一个用户友好的工具来可视化和量化这些状态。在此，我们介绍SMTrackR，一个Bioconductor包，用于在单个测序DNA分子上可视化蛋白-DNA结合状态。SMTrackR查询我们在Galaxy Server上构建和托管的单分子足迹数据库。该数据库包含从NOMe-seq、dSMF和Nanopore（SMAC-seq）数据集生成的BigBed文件。SMTrackR利用UCSC REST API查询BigBed文件，并绘制按不同结合状态分类的足迹热图，同时报告其占用率。此外，该包生成一个Gviz启用的脚本，用于在基因轨道上可视化这些单分子。可用性和实现 SMTrackR工具以统计编程语言R实现，可在GitHub开发者网站https://github.com/satyanarayan-rao/SMTrackR 获取。该工具也可在网络版本https://smtrackr.iitr.ac.in 使用。提供函数以使用本地BigBed文件，供希望使用未发表数据的用户使用。生成此类BigBed文件的完全自动化流程可在https://github.com/satyanarayan-rao/SMF_for_SMThub 和https://github.com/satyanarayan-rao/dSMF_for_SMThub 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.09.674732",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.09.674732",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.09.674732/index.html"
+}

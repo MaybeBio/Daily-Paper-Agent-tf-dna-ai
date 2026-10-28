@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusions, data availability, funding)
+- **Assessment boundary** Scientific and technical evaluation of the proposed method, its validation, and the claims made; no assessment of editorial fit or publication decision
+- **Shared manuscript claim summary** The authors present EnsembleRegNet, a deep learning framework integrating an ensemble encoder-decoder and multilayer perceptron (MLP) architecture with Hodges-Lehmann estimator (HLE)-based binarization, case-deletion analysis, motif enrichment via RcisTarget, and regulon activity scoring with AUCell, to infer transcription factor (TF)-target gene relationships from single-cell RNA-seq data. They claim superior performance over existing methods (SCENIC, SIGNET, GENIE3, PIDC) in clustering and regulatory accuracy across simulated and real datasets.
+- **Visible evidence base** Full manuscript text including methods, results narrative, and references to figures and tables; no actual figures, tables, or supplementary materials were provided for inspection
+- **Missing materials affecting confidence** Figures 1-6, Tables 1-4, all supplementary materials, code repository contents, and any simulation details were not provided. This substantially limits verification of quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful integration of existing computational tools (HLE binarization, ensemble deep learning, RcisTarget, AUCell) for GRN inference from scRNA-seq data. However, the current manuscript has significant gaps in methodological detail, validation rigor, and clarity of presentation. The core novelty is unclear, and several claims appear overstated relative to the evidence presented. The absence of figures and tables in the provided material makes it impossible to verify the quantitative results described in the text. The manuscript requires substantial revision before the claims can be considered established.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, single-cell transcriptomics analysis, and deep learning applications in genomics. The integration of multiple existing tools into a unified pipeline may be of practical interest to researchers seeking interpretable GRN inference methods.
+- **Major strengths** The integration of established tools (RcisTarget, AUCell) with a deep learning ensemble is a sensible design choice that leverages complementary strengths. The use of HLE-based binarization is a robust non-parametric approach that may handle skewed scRNA-seq data well. The inclusion of case-deletion analysis for interpretability is a thoughtful addition. The benchmarking against multiple methods (SCENIC, SIGNET, GENIE3, PIDC) across multiple datasets is commendable in scope.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty and scientific contribution
+  - **Claim pointer** The manuscript claims EnsembleRegNet is a novel framework that "outperforms existing GRN inference methods" and "establishes a new benchmark for GRN inference."
+  - **Evidence pointer** Abstract; Introduction; Results; location not provided
+  - **Concern** The novelty of the proposed approach is not clearly articulated. The framework appears to be a sequential pipeline of existing tools (HLE binarization, deep learning ensemble, RcisTarget, AUCell) rather than a fundamentally new method. The deep learning component (encoder-decoder + MLP) is described at a high level without sufficient architectural detail to distinguish it from prior work. The authors do not clearly state what specific limitations of existing methods their approach addresses beyond what SCENIC or SIGNET already offer.
+  - **Why it matters** For a methods paper, the novelty of the contribution is the central scientific claim. Without a clear articulation of what is new and why it matters, the contribution is difficult to evaluate and may not justify publication in a high-impact venue.
+  - **Resolution test** The authors should provide a clear statement of the specific limitations of existing methods that EnsembleRegNet addresses, a detailed comparison of the architectural choices against prior deep learning approaches for GRN inference, and an ablation study demonstrating the contribution of each component.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness and reproducibility
+  - **Claim pointer** The manuscript claims that EnsembleRegNet "outperforms existing GRN inference methods" based on clustering performance and regulatory accuracy.
+  - **Evidence pointer** Results section; Tables 1-4; Figures 2-5; location not provided
+  - **Concern** The quantitative results are described in text but the actual figures and tables were not provided for inspection. Critical details are missing: (1) the exact architecture of the encoder-decoder and MLP (number of layers, hidden dimensions, activation functions, dropout rates); (2) the training procedure (loss function, optimizer, learning rate, batch size, number of epochs, early stopping criteria); (3) the train/validation/test split strategy; (4) how the case-deletion analysis is computationally implemented for high-dimensional gene spaces; (5) the specific parameters used for RcisTarget and AUCell; (6) how the gold standard for the PBMC dataset was constructed and whether it was used for training or only evaluation. Without these details, the results cannot be reproduced or independently verified.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. The lack of architectural and training details prevents other researchers from implementing or evaluating the method, undermining the scientific value of the contribution.
+  - **Resolution test** The authors should provide complete architectural and training details, either in the main text or supplementary materials, and make the code and data publicly available in a form that allows independent verification of all reported results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation rigor and statistical significance
+  - **Claim pointer** The manuscript claims EnsembleRegNet "consistently surpasses" SCENIC and SIGNET across multiple datasets and metrics.
+  - **Evidence pointer** Results section; Tables 1-3; location not provided
+  - **Concern** The validation approach has several weaknesses. First, the comparison with SCENIC and SIGNET is based on clustering metrics (ARI, NMI, PSI, NVD, F-score, RMSSTD, Silhouette, R-squared) rather than direct evaluation of GRN inference accuracy against known regulatory interactions. Clustering performance is an indirect proxy for GRN quality. Second, no statistical significance testing is reported for the differences between methods. Third, the comparison with GEN3 and PIDC uses a different dataset (PBMC) and different metrics (Macro-AUROC, Macro-AUPRC) than the SCENIC/SIGNET comparison, making cross-method comparisons inconsistent. Fourth, the reported Macro-AUPRC values (e.g., 0.0116) are extremely low, which raises questions about the practical utility of the predictions. Fifth, the manuscript does not report precision-recall curves or other threshold-dependent metrics that would provide a more complete picture of performance.
+  - **Why it matters** The central claim of the paper is that EnsembleRegNet outperforms existing methods. Without rigorous statistical validation and direct evaluation of GRN inference accuracy, this claim is not supported by the evidence presented.
+  - **Resolution test** The authors should (1) evaluate GRN inference accuracy directly using known TF-target interactions (e.g., from ChIP-seq or curated databases) for all methods and datasets; (2) report statistical significance tests (e.g., paired tests across datasets or bootstrap confidence intervals); (3) use consistent evaluation metrics across all comparisons; (4) report precision-recall curves and discuss the practical implications of the low AUPRC values.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Clarity and completeness of methods description
+  - **Claim pointer** The manuscript describes a six-component framework but the description of several components is vague or incomplete.
+  - **Evidence pointer** Method section; location not provided
+  - **Concern** Several methodological aspects are unclear. (1) The HLE binarization is described but the rationale for choosing HLE over other binarization methods (e.g., simple thresholding, quantile-based) is not provided. (2) The case-deletion analysis is described as "systematically setting the expression level of each TF to zero" but the computational feasibility of this for large numbers of TFs is not discussed. (3) The ensemble strategy is described as "averaging" outputs but the details of how the ensemble is constructed (e.g., bagging, boosting, different architectures) are not specified. (4) The interaction between the deep learning component and the RcisTarget/AUCell components is not clearly explained. (5) The manuscript mentions "simulated" datasets in the abstract but no simulation details are provided in the methods.
+  - **Why it matters** A methods paper must provide sufficient detail for readers to understand and potentially implement the approach. The current level of detail is insufficient for this purpose.
+  - **Resolution test** The authors should provide a complete, step-by-step description of the entire pipeline, including pseudocode or algorithmic descriptions, and clarify the role and contribution of each component.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability claims
+  - **Claim pointer** The title and abstract claim the method is "interpretable" and provides "biologically interpretable outputs."
+  - **Evidence pointer** Title; Abstract; Method section; location not provided
+  - **Concern** The interpretability claims are not well-supported. The case-deletion analysis provides a measure of feature importance, but this is a standard technique and does not necessarily provide biological interpretability. The RcisTarget and AUCell components provide enrichment scores and activity scores, but these are existing tools and their integration does not automatically make the overall framework interpretable. The manuscript does not provide examples of how the interpretability features lead to biological insights that would not be obtainable from existing methods.
+  - **Why it matters** Interpretability is a key selling point of the method, but the manuscript does not demonstrate that the interpretability features provide meaningful biological insights beyond what is already available.
+  - **Resolution test** The authors should provide concrete examples of biological insights gained from the interpretability features, compare the interpretability of their method against existing approaches, and discuss the limitations of the interpretability analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Writing quality
+  - **Affected element** Introduction; Method section
+  - **Evidence pointer** location not provided
+  - **Issue** The manuscript contains several instances of imprecise or redundant language. For example, the Introduction states "These networks are dynamic and often cell-type-specific, making them crucial for understanding both normal biological processes and pathological states" which is somewhat redundant with the preceding sentence. The Method section contains phrases like "This step is crucial for eliminating genes with sparse expression across the dataset, which are typically considered as noise and can skew downstream analyses during ensemble model training" which could be more concise.
+  - **Required correction** The authors should revise the manuscript for clarity and conciseness, eliminating redundancy and improving the precision of the language.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reference accuracy
+  - **Affected element** Introduction; Method section
+  - **Evidence pointer** location not provided
+  - **Issue** Some references are cited in a general manner without specific context. For example, the statement "Deep learning has been widely applied to scRNA-seq data analysis, particularly for tasks like dropout imputation (Xu et al., 2020) and cell clustering (Liu et al., 2021)" cites specific papers but does not discuss their methods or limitations. The reference to "Stein Aerts" in the AUCell section is incomplete and should include the full citation.
+  - **Required correction** The authors should ensure all references are complete and appropriately contextualized within the text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure and table quality
+  - **Affected element** Figures 1-6; Tables 1-4
+  - **Evidence pointer** location not provided
+  - **Issue** The figures and tables are referenced in the text but were not provided for review. Based on the text descriptions, it is unclear whether the figures include appropriate labels, legends, and color schemes that would make them accessible to a broad audience.
+  - **Required correction** The authors should ensure all figures and tables are self-contained, clearly labeled, and accessible to non-specialist readers.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability statement
+  - **Issue** The data availability statement provides a GitHub link but does not specify the license, version, or whether the code is accompanied by documentation and example data. It is also unclear whether the code is actively maintained.
+  - **Required correction** The authors should provide a more detailed data availability statement, including license information, documentation, and instructions for use.
+- **Technical failings that need to be addressed before the case is established** (1) Lack of architectural and training details for the deep learning components; (2) inconsistent evaluation metrics across different benchmark comparisons; (3) no statistical significance testing; (4) indirect evaluation of GRN inference quality via clustering metrics; (5) unclear novelty relative to existing methods; (6) incomplete description of the case-deletion analysis implementation; (7) no details on simulated datasets mentioned in the abstract.
+- **Assessment against Nature-style criteria** Originality: The integration of existing tools is sensible but the novelty is not clearly established. The deep learning architecture appears to be a standard encoder-decoder plus MLP ensemble without clear innovation. Scientific importance: GRN inference from scRNA-seq is an important problem, and improved methods would be valuable. However, the manuscript does not demonstrate a clear advance over existing methods. Interdisciplinary readership: The method integrates deep learning with bioinformatics tools, which could appeal to both computational and biological audiences, but the presentation is not sufficiently accessible to non-specialists. Technical soundness: The technical details are insufficient to assess soundness. The evaluation methodology has weaknesses as noted above. Readability for non-specialists: The manuscript is written in a technical style that assumes familiarity with both deep learning and bioinformatics concepts. The Introduction provides some context but the Method section is dense and would be challenging for non-specialists.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem and the proposed framework has potential, but the novelty is unclear, the technical details are insufficient, and the validation is not rigorous enough to support the claims. Substantial revision and additional analysis are required.
+
+## Risk / unsupported claims
+- The claim that EnsembleRegNet "outperforms existing GRN inference methods" is not supported by the evidence provided, as the evaluation is based on indirect clustering metrics and lacks statistical testing.
+- The claim that the method "establishes a new benchmark for GRN inference" is overstated given the limitations of the validation.
+- The claim of "interpretability" is not demonstrated with concrete biological examples.
+- The claim of "scalability" based on runtime comparison is not supported by a thorough analysis of computational complexity or memory usage.
+- The claim that the method "uniquely" integrates the described components is not supported by a comparison with other integrated approaches.
+- The performance of the method on simulated datasets is mentioned in the abstract but no simulation details or results are provided in the text.
+- The specific improvements of EnsembleRegNet over SCENIC and SIGNET in terms of GRN inference accuracy (as opposed to clustering) are not quantified.

@@ -1,0 +1,799 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.04.17.589997",
+  "title": "Complex-based Ligand-Binding Proteins Redesign by Equivariant Diffusion-based Generative Models",
+  "doi": "10.1101/2024.04.17.589997",
+  "abstract": "Proteins, serving as the fundamental architects of biological processes, interact with ligands to perform a myriad of functions essential for life. The design and optimization of ligand-binding proteins are pivotal for advancing drug development and enhancing therapeutic efficacy. In this study, we introduce ProteinReDiff, a novel computational framework designed to revolutionize the redesign of ligand-binding proteins. Distinguished by its utilization of Equivariant Diffusion-based Generative Models and advanced computational modules, ProteinReDiff enables the creation of high-affinity ligand-binding proteins without the need for detailed structural information, leveraging instead the potential of initial protein sequences and ligand SMILES strings. Our thorough evaluation across sequence diversity, structural preservation, and ligand binding affinity underscores ProteinReDiff's potential to significantly advance computational drug discovery and protein engineering. Our source code is publicly available at https://github.com/HySonLab/Protein_Redesign",
+  "authors": [
+    "Viet Thanh Duy Nguyen",
+    "Nhan Nguyen",
+    "Truong Son Hy"
+  ],
+  "published_date": "2024-04-20",
+  "updated_date": "2024-04-20T23:24:51Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.04.17.589997",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.04.17.589997.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            28
+          ]
+        ],
+        "date-time": "2026-08-28T00:06:31Z",
+        "timestamp": 1787875591578,
+        "version": "build-2784847793"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            20
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 93,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Proteins, serving as the fundamental architects of biological processes, interact with ligands to perform a myriad of functions essential for life. The design and optimization of ligand-binding proteins are pivotal for advancing drug development and enhancing therapeutic efficacy. In this study, we introduce ProteinReDiff, a novel computational framework designed to revolutionize the redesign of ligand-binding proteins. Distinguished by its utilization of Equivariant Diffusion-based Generative Models and advanced computational modules, ProteinReDiff enables the creation of high-affinity ligand-binding proteins without the need for detailed structural information, leveraging instead the potential of initial protein sequences and ligand SMILES strings. Our thorough evaluation across sequence diversity, structural preservation, and ligand binding affinity underscores ProteinReDiff's potential to significantly advance computational drug discovery and protein engineering. Our source code is publicly available at https://github.com/HySonLab/Protein_Redesign</jats:p>",
+      "DOI": "10.1101/2024.04.17.589997",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            20
+          ]
+        ],
+        "date-time": "2024-04-20T23:24:51Z",
+        "timestamp": 1713655491000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Complex-based Ligand-Binding Proteins Redesign by Equivariant Diffusion-based Generative Models"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Viet Thanh Duy",
+          "family": "Nguyen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nhan",
+          "family": "Nguyen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5092-3757",
+          "authenticated-orcid": false,
+          "given": "Truong Son",
+          "family": "Hy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms17020144"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "3221",
+          "DOI": "10.1007/s11033-020-05361-2",
+          "article-title": "Biological barriers, and the influence of protein binding on the passage of drugs across them",
+          "volume": "47",
+          "year": "2020",
+          "journal-title": "Molecular Biology Reports"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "6853",
+          "DOI": "10.1021/acs.jpcb.2c04525",
+          "article-title": "Implications of the essential role of small molecule ligand binding pockets in protein–protein interactions",
+          "volume": "126",
+          "year": "2022",
+          "journal-title": "The Journal of Physical Chemistry B"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Listov, D. ; Goverde, C. A. ; Correia, B. E. ; Fleishman, S. J. Opportunities and challenges in design and optimization of protein function. Nature Reviews Molecular Cell Biology 2024,",
+          "DOI": "10.1038/s41580-024-00718-y"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lisanza, S. L. ; Gershon, J. M. ; Tipps, S. ; Arnoldt, L. ; Hendel, S. ; Sims, J. N. ; Li, X. ; Baker, D. Joint Generation of Protein Sequence and Structure with RoseTTAFold Sequence Space Diffusion. bioRxiv 2023,",
+          "DOI": "10.1101/2023.05.08.539766"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.add2187"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang, K. K. ; Fusi, N. ; Lu, A. X. Convolutions are competitive with transformers for protein sequence pretraining. bioRxiv 2023,",
+          "DOI": "10.1101/2022.05.19.492714"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.2c00799"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1016/j.sbi.2016.11.021",
+          "article-title": "Computational design of ligand-binding proteins",
+          "volume": "45",
+          "author": "Engineering and design: New trends in designer proteins",
+          "year": "2017",
+          "journal-title": "Current Opinion in Structural Biology"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ebrahimi, S. B. ; Samanta, D. Engineering protein-based therapeutics through structural and Chemical Design. Nature Communications 2023, 14 .",
+          "DOI": "10.1038/s41467-023-38039-x"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ruscito, A. ; DeRosa, M. C. Small-molecule binding aptamers: Selection strategies, characterization, and applications. Frontiers in Chemistry 2016, 4 .",
+          "DOI": "10.3389/fchem.2016.00014"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "13060",
+          "DOI": "10.1021/jacs.2c05603",
+          "article-title": "NMR Experiments Provide Insights into Ligand-Binding to the SARS-CoV-2 Spike Protein Receptor-Binding Domain",
+          "volume": "144",
+          "year": "2022",
+          "journal-title": "Journal of the American Chemical Society"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.coph.2016.07.003"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tavares, D. ; van der Meer, J. R. Ribose-binding protein mutants with improved interaction towards the non-natural ligand 1,3-cyclohexanediol. Frontiers in Bioengineering and Biotechnology 2021, 9 .",
+          "DOI": "10.3389/fbioe.2021.705534"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abb8330"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.16",
+          "unstructured": "Stärk, H. ; Jing, B. ; Barzilay, R. ; Jaakkola, T. Harmonic Self-Conditioned Flow Matching for Multi-Ligand Docking and Binding Site Design. 2023."
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dauparas, J. ; Lee, G. R. ; Pecoraro, R. ; An, L. ; Anishchenko, I. ; Glasscock, C. ; Baker, D. Atomic context-conditioned protein sequence design using LigandMPNN. bioRxiv 2023,",
+          "DOI": "10.1101/2023.12.22.573103"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lv, M. et al. Coronavirus disease (COVID-19): a scoping review. Euro Surveill. 2020, 25 .",
+          "DOI": "10.2807/1560-7917.ES.2020.25.15.2000125"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "5339",
+          "DOI": "10.1038/s41596-021-00623-0",
+          "article-title": "Expression and characterization of SARS-COV-2 spike proteins",
+          "volume": "16",
+          "year": "2021",
+          "journal-title": "Nature Protocols"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "1177",
+          "DOI": "10.1038/s41467-023-36699-3",
+          "article-title": "Predicting locations of cryptic pockets from single protein structures using the PocketMiner graph neural network",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "5703",
+          "DOI": "10.1021/acs.jctc.9b00483",
+          "article-title": "Improving the efficiency of ligand-binding protein design with molecular dynamics simulations",
+          "volume": "15",
+          "year": "2019",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "233",
+          "DOI": "10.1186/s12859-023-05354-5",
+          "article-title": "End-to-end protein–ligand complex structure generation with diffusion-based generative models",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "BMC Bioinformatics"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci00057a005"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Korendovych, I. V. Rational and semirational protein design. Protein engineering: methods and protocols 2018, 15–23.",
+          "DOI": "10.1007/978-1-4939-7366-8_2"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Song, Z. ; Zhang, Q. ; Wu, W. ; Pu, Z. ; Yu, H. Rational design of enzyme activity and enantioselectivity. Frontiers in Bioengineering and Biotechnology 2023, 11 .",
+          "DOI": "10.3389/fbioe.2023.1129149"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "1315",
+          "DOI": "10.1038/s41592-019-0598-1",
+          "article-title": "Unified Rational Protein Engineering with sequence-based deep representation learning",
+          "volume": "16",
+          "year": "2019",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1367-5931(99)80010-6"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, M. ; Zhao, H. Combined and iterative use of computational design and directed evolution for protein–ligand binding design. Methods in Molecular Biology 2016, 139–153.",
+          "DOI": "10.1007/978-1-4939-3569-7_8"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0502673102"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Waltenspühl, Y. ; Jeliazkov, J. R. ; Kummer, L. ; Plückthun, A. Directed evolution for high functional production and stability of a challenging G protein-coupled receptor. Scientific Reports 2021, 11 .",
+          "DOI": "10.1038/s41598-021-87793-9"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.32",
+          "unstructured": "Raut, G. ; Singh, A. Generative AI in Vision: A Survey on Models, Metrics and Applications. 2024."
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "2515",
+          "DOI": "10.1016/j.jksuci.2020.04.001",
+          "article-title": "The survey: Text generation models in deep learning",
+          "volume": "34",
+          "year": "2022",
+          "journal-title": "Journal of King Saud University - Computer and Information Sciences"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lyu, S. ; Sowlati-Hashjin, S. ; Garton, M. ProteinVAE: Variational AutoEncoder for Translational Protein Design. bioRxiv 2023,",
+          "DOI": "10.1101/2023.03.04.531110"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "16189",
+          "DOI": "10.1038/s41598-018-34533-1",
+          "article-title": "Design of metalloproteins and novel protein folds using variational autoencoders",
+          "volume": "8",
+          "year": "2018",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.36",
+          "unstructured": "Brookes, D. ; Park, H. ; Listgarten, J. Conditioning by adaptive sampling for robust design. Proceedings of the 36th International Conference on Machine Learning. 2019; pp 773–782."
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "5800",
+          "DOI": "10.1038/s41467-021-25756-4",
+          "article-title": "Efficient generative modeling of protein sequences using simple autoregressive models",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fannjiang, C. ; Bates, S. ; Angelopoulos, A. N. ; Listgarten, J. ; Jordan, M. I. Conformal prediction under feedback covariate shift for biomolecular design. Proceedings of the National Academy of Sciences 2022, 119 .",
+          "DOI": "10.1073/pnas.2204569119"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac353"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.40",
+          "unstructured": "Anand, N. ; Huang, P. Generative modeling for protein structures. Advances in Neural Information Processing Systems. 2018."
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.41",
+          "unstructured": "Gruver, N. ; Stanton, S. ; Frey, N. C. ; Rudner, T. G. J. ; Hotzel, I. ; Lafrance-Vanasse, J. ; Rajpal, A. ; Cho, K. ; Wilson, A. G. Protein Design with Guided Discrete Diffusion. 2023."
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "1089",
+          "DOI": "10.1038/s41586-023-06415-8",
+          "article-title": "De novo design of protein structure and function with RFdiffusion",
+          "volume": "620",
+          "year": "2023",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.43",
+          "unstructured": "Wu, K. E. ; Yang, K. K. ; van den Berg, R. ; Zou, J. Y. ; Lu, A. X. ; Amini, A. P. Protein structure generation via folding diffusion. 2022."
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.44",
+          "unstructured": "Fu, C. ; Yan, K. ; Wang, L. ; Au, W. Y. ; McThrow, M. ; Komikado, T. ; Maruhashi, K. ; Uchino, K. ; Qian, X. ; Ji, S. A Latent Diffusion Model for Protein Structure Generation. 2023."
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zheng, Z. ; Deng, Y. ; Xue, D. ; Zhou, Y. ; Ye, F. ; Gu, Q. Structure-informed language models are protein designers. Proceedings of the 40th International Conference on Machine Learning. 2023.",
+          "DOI": "10.1101/2023.02.03.526917"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.46",
+          "first-page": "gzad015",
+          "article-title": "Masked inverse folding with sequence transfer for protein representation learning",
+          "volume": "36",
+          "year": "2022",
+          "journal-title": "Protein Engineering, Design and Selection"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hsu, C. ; Verkuil, R. ; Liu, J. ; Lin, Z. ; Hie, B. ; Sercu, T. ; Lerer, A. ; Rives, A. Learning inverse folding from millions of predicted structures. ICML 2022,",
+          "DOI": "10.1101/2022.04.10.487779"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bennett, N. R. et al. Atomically accurate de novo design of single-domain antibodies. bioRxiv 2024,",
+          "DOI": "10.1101/2024.03.14.585103"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "100473",
+          "DOI": "10.1016/j.cobme.2023.100473",
+          "article-title": "AI models for protein design are driving antibody engineering",
+          "volume": "28",
+          "year": "2023",
+          "journal-title": "Current Opinion in Biomedical Engineering"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "2102",
+          "DOI": "10.1093/bioinformatics/btac020",
+          "article-title": "ProteinBERT: a universal deep-learning model of protein sequence and function",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "7112",
+          "DOI": "10.1109/TPAMI.2021.3095381",
+          "article-title": "ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning",
+          "volume": "44",
+          "year": "2022",
+          "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.54",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nguyen, V. T. D. ; Hy, T. S. Multimodal Pretraining for Unsupervised Protein Representation Learning. bioRxiv 2023,",
+          "DOI": "10.1101/2023.11.29.569288"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.55",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ngo, N. K. ; Hy, T. S. Multimodal Protein Representation Learning and Target-aware Variational Auto-encoders for Protein-binding Ligand Generation. Machine Learning: Science and Technology 2024,",
+          "DOI": "10.21203/rs.3.rs-3504792/v1"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "1099",
+          "DOI": "10.1038/s41587-022-01618-2",
+          "article-title": "Large language models generate functional protein sequences across diverse families",
+          "volume": "41",
+          "year": "2023",
+          "journal-title": "Nature Biotechnology"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "200",
+          "DOI": "10.1038/s41587-024-02123-4",
+          "article-title": "Designing proteins with language models",
+          "volume": "42",
+          "year": "2024",
+          "journal-title": "Nature Biotechnology"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "35",
+          "DOI": "10.1186/s12859-024-05637-5",
+          "article-title": "Tpgen: a language model for stable protein design with a specific topology structure",
+          "volume": "25",
+          "year": "2024",
+          "journal-title": "BMC Bioinformatics"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.59",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tran, T. T. ; Hy, T. S. Protein Design by Directed Evolution Guided by Large Language Models. bioRxiv 2023,",
+          "DOI": "10.1101/2023.11.28.568945"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.60",
+          "first-page": "926",
+          "article-title": "the UniProt Consortium UniRef clusters: a comprehensive and scalable alternative for improving sequence similarity searches",
+          "volume": "31",
+          "year": "2014",
+          "journal-title": "Bioinformaticsy"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.61",
+          "unstructured": "Kingma, D. P. ; Salimans, T. ; Poole, B. ; Ho, J. Variational Diffusion Models. 2023."
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.62",
+          "unstructured": "Hoogeboom, E. ; Satorras, V. G. ; Vignac, C. ; Welling, M. Equivariant Diffusion for Molecule Generation in 3D. 2022."
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.63",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rao, R. M. ; Liu, J. ; Verkuil, R. ; Meier, J. ; Canny, J. ; Abbeel, P. ; Sercu, T. ; Rives, A. MSA Transformer. Proceedings of the 38th International Conference on Machine Learning. 2021; pp 8844–8856.",
+          "DOI": "10.1101/2021.02.12.430858"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.64",
+          "first-page": "1263",
+          "volume-title": "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics",
+          "volume": "1",
+          "year": "2018"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0004-3702(90)90007-M"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "1344",
+          "DOI": "10.1609/aaai.v33i01.33011344",
+          "article-title": "Attentive Tensor Product Learning",
+          "volume": "33",
+          "year": "2019",
+          "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.67",
+          "unstructured": "Lin, Y. ; AlQuraishi, M. Generating novel, designable, and diverse protein structures by equivariantly diffusing oriented residue clouds. Proceedings of the 40th International Conference on Machine Learning. 2023."
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm030580l"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.69",
+          "first-page": "D280",
+          "article-title": "CATH: expanding the horizons of structure-based functional annotations for genome sequences",
+          "volume": "47",
+          "year": "2018",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.70",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Koh, H. Y. ; Nguyen, A. T. ; Pan, S. ; May, L. T. ; Webb, G. I. PSICHIC: physicochemical graph neural network for learning protein-ligand interaction fingerprints from sequence data. bioRxiv 2023, 2023–09.",
+          "DOI": "10.1101/2023.09.17.558145"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.71",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Joyce, J. M. In International Encyclopedia of Statistical Science; Lovric, M. , Ed.; Springer Berlin Heidelberg: Berlin, Heidelberg, 2011; pp 720–722.",
+          "DOI": "10.1007/978-3-642-04898-2_327"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.72",
+          "unstructured": "Miller, F. P. ; Vandome, A. F. ; McBrewster, J. Levenshtein Distance: Information theory, Computer science, String (computer science), String metric, Damerau?Levenshtein distance, Spell checker, Hamming distance; Alpha Press, 2009."
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.20264"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.74",
+          "unstructured": "Laskowski, R. ; de Beer, T. Dictionary of Bioinformatics and Computational Biology; John Wiley and Sons, Ltd, 2014."
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.75",
+          "doi-asserted-by": "crossref",
+          "first-page": "btad630",
+          "DOI": "10.1093/bioinformatics/btad630",
+          "article-title": "a tool for improved multiple alignments and evolutionary inference based on a hybrid protein sequence and structure similarity score",
+          "volume": "39",
+          "year": "2023",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.76",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wu, R. ; Ding, F. ; Wang, R. ; Shen, R. ; Zhang, X. ; Luo, S. ; Su, C. ; Wu, Z. ; Xie, Q. ; Berger, B. ; Ma, J. ; Peng, J. High-resolution de novo structure prediction from primary sequence. bioRxiv 2022,",
+          "DOI": "10.1101/2022.07.21.500999"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21334"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty374"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acsomega.9b01997"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.1c01830"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.82",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, S. ; Zhou, J. ; Xu, T. ; Huang, L. ; Wang, F. ; Xiong, H. ; Huang, W. ; Dou, D. ; Xiong, H. Structure-Aware Interactive Graph Neural Networks for the Prediction of Protein-Ligand Binding Affinity. Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining. New York, NY, USA, 2021; p 975–985.",
+          "DOI": "10.1145/3447548.3467311"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci300604z"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.84",
+          "doi-asserted-by": "crossref",
+          "first-page": "43",
+          "DOI": "10.1186/s13321-021-00522-2",
+          "article-title": "GNINA 1.0: molecular docking with deep learning",
+          "volume": "13",
+          "year": "2021",
+          "journal-title": "Journal of Cheminformatics"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.85",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sverrisson, F. ; Feydy, J. ; Correia, B. E. ; Bronstein, M. M. Fast end-to-end learning on protein surfaces. 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2021; pp 15267–15276.",
+          "DOI": "10.1109/CVPR46437.2021.01502"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.86",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lu, W. ; Wu, Q. ; Zhang, J. ; Rao, J. ; Li, C. ; Zheng, S. TANKBind: Trigonometry-Aware Neural NetworKs for Drug-Protein Binding Structure Prediction. bioRxiv 2022,",
+          "DOI": "10.1101/2022.06.06.495043"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.87",
+          "first-page": "1140",
+          "article-title": "GraphDTA: predicting drug–target binding affinity with graph neural networks",
+          "volume": "37",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa524"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa880"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.90",
+          "doi-asserted-by": "crossref",
+          "first-page": "126",
+          "DOI": "10.1038/s42256-022-00605-1",
+          "article-title": "Interpretable bilinear attention network with domain adaptation improves drug–target prediction",
+          "volume": "5",
+          "year": "2023",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.91",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D0RA02297G"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.92",
+          "doi-asserted-by": "crossref",
+          "first-page": "126",
+          "DOI": "10.1038/s42256-022-00605-1",
+          "article-title": "Interpretable bilinear attention network with domain adaptation improves drug–target prediction",
+          "volume": "5",
+          "year": "2023",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2024052703251144000_2024.04.17.589997v2.93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.2c00060"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.04.17.589997",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:18:55Z",
+        "timestamp": 1768457935000
+      },
+      "score": 90.52963,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.04.17.589997"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            20
+          ]
+        ]
+      },
+      "references-count": 93,
+      "URL": "https://doi.org/10.1101/2024.04.17.589997",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "pmid": "37797430",
+    "doi": "10.1016/j.jmgm.2023.108642",
+    "title": "Integrated virtual screening and MD simulation approaches toward discovering potential inhibitors for targeting BRPF1 bromodomain in hepatocellular carcinoma."
+  },
+  "content": {
+    "abstract": "Hepatocellular carcinoma (HCC) is one of the most aggressive and life-threatening cancers. Although multiple treatment options are available, the prognosis of HCC patients is poor due to metastasis and drug resistance. Hence, discovering novel targets is essential for better therapeutic development for HCC. In this study, we used the cancer genome atlas (TCGA) dataset to analyze the expression of bromodomain-containing proteins in HCC, as bromodomains are emerging attractive therapeutic targets. Our analysis identified BRPF1 as the most highly upregulated gene in HCC among the 43 bromodomain-containing genes. Upregulation of BRPF1 was significantly associated with poorer patient survival. Therefore, targeting BRPF1 may be an approach for HCC treatment. Previously, several potential inhibitors of BRPF1 bromodomain have been discovered. However, due to the limited clinical success of the current inhibitors, we aim to search for new inhibitors with high affinity and specificity for the BRPF1 bromodomain. In this study, we utilized high-throughput virtual screening methods to screen synthetic and natural compound databases against the BRPF1 bromodomain. In addition, we used machine learning-based QSAR modeling to predict the IC50 values of the selected BRPF1 bromodomain inhibitors. Extensive MD simulations were used to calculate the binding free energies of BRPF1 bromodomain and inhibitor complexes. Using this approach, we identified four lead scaffolds with a similar or better binding affinity towards the BRPF1 bromodomain than the previously reported inhibitors. Overall, this study discovered some promising compounds that have the potential to act as potent BRPF1 bromodomain inhibitors.",
+    "keywords": [
+      "BRPF1",
+      "Bromodomain",
+      "Hepatocellular carcinoma",
+      "In silico drug screening",
+      "Molecular dynamics simulation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/drug therapy",
+      "Nuclear Proteins/chemistry",
+      "DNA-Binding Proteins/metabolism",
+      "Adaptor Proteins, Signal Transducing/chemistry",
+      "*Liver Neoplasms/drug therapy",
+      "Bromodomain Containing Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Barman, Soumen",
+        "Bardhan, Ishita",
+        "Padhan, Jyotirmayee",
+        "Sudhamalla, Babu"
+      ],
+      "short_names": [
+        "Barman S",
+        "Bardhan I",
+        "Padhan J",
+        "Sudhamalla B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biological Sciences, Indian Institute of Science Education and Research Kolkata, Mohanpur, 741246, Nadia, West Bengal, India.",
+        "Department of Biological Sciences, Indian Institute of Science Education and Research Kolkata, Mohanpur, 741246, Nadia, West Bengal, India.",
+        "Department of Biological Sciences, Indian Institute of Science Education and Research Kolkata, Mohanpur, 741246, Nadia, West Bengal, India.",
+        "Department of Biological Sciences, Indian Institute of Science Education and Research Kolkata, Mohanpur, 741246, Nadia, West Bengal, India. Electronic address: s.babu@iiserkol.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Barman, Soumen",
+        "short_name": "Barman S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Indian Institute of Science Education and Research Kolkata, Mohanpur, 741246, Nadia, West Bengal, India."
+        ]
+      },
+      {
+        "full_name": "Bardhan, Ishita",
+        "short_name": "Bardhan I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Indian Institute of Science Education and Research Kolkata, Mohanpur, 741246, Nadia, West Bengal, India."
+        ]
+      },
+      {
+        "full_name": "Padhan, Jyotirmayee",
+        "short_name": "Padhan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Indian Institute of Science Education and Research Kolkata, Mohanpur, 741246, Nadia, West Bengal, India."
+        ]
+      },
+      {
+        "full_name": "Sudhamalla, Babu",
+        "short_name": "Sudhamalla B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Indian Institute of Science Education and Research Kolkata, Mohanpur, 741246, Nadia, West Bengal, India. Electronic address: s.babu@iiserkol.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular graphics & modelling"
+    ],
+    "journal_abbrev": [
+      "J Mol Graph Model"
+    ],
+    "pub_date": "2024 Jan",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/06 00:43",
+    "fetched_at": "2026-09-29 08:16:30"
+  },
+  "links": {
+    "cites": [
+      "41160097",
+      "40841409",
+      "39212854"
+    ],
+    "refs": [],
+    "similar": [
+      "37797430",
+      "34285329",
+      "24333487",
+      "35822928",
+      "29902720",
+      "38072045",
+      "25281266",
+      "25286946",
+      "35385803",
+      "26061247",
+      "30880225",
+      "27167503",
+      "32497960",
+      "27769360",
+      "37352721",
+      "36524430",
+      "28500727",
+      "33554132",
+      "27939640",
+      "24646517",
+      "31565729",
+      "18469222",
+      "36841551",
+      "31711755",
+      "24258712",
+      "26626149",
+      "30411639",
+      "25408830",
+      "18794358",
+      "37666060",
+      "36458010",
+      "39310674",
+      "37371463",
+      "38346967",
+      "32072894",
+      "37085881",
+      "35125080",
+      "35280441",
+      "37190896",
+      "23220021",
+      "38346666",
+      "28636361",
+      "22583422",
+      "25773539",
+      "26000702",
+      "25568313",
+      "32703154",
+      "36321230",
+      "37570684",
+      "36234758",
+      "24839937",
+      "34612781",
+      "34508829",
+      "33517164",
+      "34983546",
+      "35236335",
+      "25974391",
+      "35730302",
+      "37453621",
+      "27326325",
+      "30981107",
+      "31746405",
+      "36077605",
+      "35610614",
+      "27220398",
+      "30723918",
+      "31020800",
+      "35762549",
+      "30946555",
+      "37540264",
+      "32148377",
+      "34910274",
+      "35456457",
+      "33106353",
+      "31986961",
+      "36347033",
+      "32371296",
+      "33934539",
+      "35924241",
+      "36045537",
+      "32908135",
+      "35672528",
+      "31981943",
+      "31541681",
+      "29774579",
+      "30770740",
+      "26882566",
+      "34280005",
+      "35065633",
+      "35691273",
+      "26590327",
+      "33269607",
+      "35486664",
+      "33321903",
+      "33637650",
+      "29139214",
+      "37423512",
+      "34926268"
+    ],
+    "review": [
+      "37797430",
+      "27769360",
+      "28500727",
+      "32072894",
+      "37190896",
+      "36321230",
+      "36077605",
+      "34910274"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1093-3263(23)00240-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

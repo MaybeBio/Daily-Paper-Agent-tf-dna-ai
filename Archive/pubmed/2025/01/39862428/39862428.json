@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "39862428",
+    "doi": "10.1016/j.xpro.2024.103588",
+    "title": "A 2D cell segmentation protocol for monitoring multiple STAT signaling pathways by fluorescence microscopy."
+  },
+  "content": {
+    "abstract": "Microscopic cell segmentation typically requires complex imaging, staining, and computational steps to achieve acceptable consistency. Here, we describe a protocol for the high-fidelity segmentation of the nucleus and cytoplasm in cell culture and apply it to monitor interferon-induced signal transducer and activator of transcription (STAT) signaling. We provide guidelines for sample preparation, image acquisition, and segmentation. The approach performs indistinguishably from neural-network-based segmentation while requiring only conventional and cost-effective techniques. The protocol can be adapted to other signaling molecules undergoing nucleo-cytoplasmic shuttling and to high-throughput applications. This protocol enables simultaneous monitoring of two STAT isoforms using only conventional techniques and equipment and improves upon the assay published in Szanda et al.(1).",
+    "keywords": [
+      "Microscopy",
+      "molecular/chemical probes",
+      "signal transduction"
+    ],
+    "mesh_terms": [
+      "*Signal Transduction/physiology",
+      "Microscopy, Fluorescence/methods",
+      "Humans",
+      "*STAT Transcription Factors/metabolism",
+      "*Image Processing, Computer-Assisted/methods",
+      "Cell Nucleus/metabolism",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Szanda, Gergo",
+        "Wisniewski, Eva",
+        "Barna, Laszlo",
+        "Turu, Gabor",
+        "Mackie, Ken"
+      ],
+      "short_names": [
+        "Szanda G",
+        "Wisniewski E",
+        "Barna L",
+        "Turu G",
+        "Mackie K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Gill Institute for Neuroscience, Program in Neuroscience, Department of Psychological and Brain Sciences Indiana University, Bloomington, IN 47405, USA; Department of Physiology, Semmelweis University Medical School, Budapest 1094, Hungary. Electronic address: gszanda@iu.edu.",
+        "Gill Institute for Neuroscience, Program in Neuroscience, Department of Psychological and Brain Sciences Indiana University, Bloomington, IN 47405, USA; Department of Physiology, Semmelweis University Medical School, Budapest 1094, Hungary.",
+        "Addiction and Neuroplasticity Lab, Department of Psychological and Brain Sciences, Indiana University, Bloomington, IN 47405, USA.",
+        "Department of Physiology, Semmelweis University Medical School, Budapest 1094, Hungary; Institute of Molecular Life Sciences, Centre of Excellence of the Hungarian Academy of Sciences, HUN-REN Research Centre for Natural Sciences, Magyar Tudosok krt. 2., Budapest 1117, Hungary.",
+        "Gill Institute for Neuroscience, Program in Neuroscience, Department of Psychological and Brain Sciences Indiana University, Bloomington, IN 47405, USA. Electronic address: kmackie@iu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Szanda, Gergő",
+        "short_name": "Szanda G",
+        "identifiers": [],
+        "affiliations": [
+          "Gill Institute for Neuroscience, Program in Neuroscience, Department of Psychological and Brain Sciences Indiana University, Bloomington, IN 47405, USA; Department of Physiology, Semmelweis University Medical School, Budapest 1094, Hungary. Electronic address: gszanda@iu.edu."
+        ]
+      },
+      {
+        "full_name": "Wisniewski, Éva",
+        "short_name": "Wisniewski É",
+        "identifiers": [],
+        "affiliations": [
+          "Gill Institute for Neuroscience, Program in Neuroscience, Department of Psychological and Brain Sciences Indiana University, Bloomington, IN 47405, USA; Department of Physiology, Semmelweis University Medical School, Budapest 1094, Hungary."
+        ]
+      },
+      {
+        "full_name": "Barna, László",
+        "short_name": "Barna L",
+        "identifiers": [],
+        "affiliations": [
+          "Addiction and Neuroplasticity Lab, Department of Psychological and Brain Sciences, Indiana University, Bloomington, IN 47405, USA."
+        ]
+      },
+      {
+        "full_name": "Turu, Gábor",
+        "short_name": "Turu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Semmelweis University Medical School, Budapest 1094, Hungary; Institute of Molecular Life Sciences, Centre of Excellence of the Hungarian Academy of Sciences, HUN-REN Research Centre for Natural Sciences, Magyar Tudósok krt. 2., Budapest 1117, Hungary."
+        ]
+      },
+      {
+        "full_name": "Mackie, Ken",
+        "short_name": "Mackie K",
+        "identifiers": [],
+        "affiliations": [
+          "Gill Institute for Neuroscience, Program in Neuroscience, Department of Psychological and Brain Sciences Indiana University, Bloomington, IN 47405, USA. Electronic address: kmackie@iu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "STAR protocols"
+    ],
+    "journal_abbrev": [
+      "STAR Protoc"
+    ],
+    "pub_date": "2025 Mar 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/26 00:12",
+    "fetched_at": "2026-10-05 02:28:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37663663",
+      "37534180",
+      "37216121",
+      "34824210",
+      "34809691",
+      "34507520",
+      "33785608",
+      "33318659",
+      "31752278",
+      "30847297",
+      "29522776",
+      "29266096",
+      "24569879",
+      "21613612",
+      "21414483",
+      "17695343",
+      "16526949",
+      "14678512",
+      "11840297"
+    ],
+    "similar": [
+      "39862428",
+      "37002604",
+      "20525532",
+      "18691663",
+      "22976484",
+      "31992200",
+      "32720710",
+      "16868551",
+      "40604265",
+      "24111128",
+      "29082484",
+      "22003673",
+      "32141623",
+      "18799422",
+      "37453067",
+      "29772060",
+      "32898132",
+      "35588399",
+      "34570089",
+      "17110198",
+      "23296731",
+      "24525752",
+      "31313519",
+      "41385381",
+      "17907964",
+      "15606747",
+      "32846160",
+      "23549886",
+      "33859269",
+      "28367787",
+      "36152502",
+      "17110197",
+      "39923590",
+      "39952935",
+      "39074275",
+      "34130628",
+      "26510475",
+      "22255824",
+      "33459255",
+      "20194468",
+      "35772766",
+      "41066243",
+      "19319849",
+      "30211975",
+      "39164632",
+      "34691060",
+      "23888780",
+      "41682389",
+      "15722012",
+      "30419335",
+      "41111487",
+      "37886903",
+      "33845268",
+      "31432490",
+      "39088324",
+      "41038461",
+      "30580111",
+      "12730885",
+      "17306571",
+      "27046144",
+      "12035075",
+      "34199002",
+      "41887401",
+      "18445146",
+      "26042329",
+      "24686220",
+      "20217138",
+      "33596823",
+      "27216430",
+      "28924666",
+      "34195673",
+      "24587204",
+      "41758124",
+      "41477760",
+      "39869052",
+      "26096873",
+      "37212995",
+      "16260600",
+      "26046924",
+      "41479054",
+      "16896058",
+      "17110202",
+      "32589961",
+      "27659985",
+      "36260111",
+      "32325185",
+      "40220222",
+      "40418446",
+      "19964529",
+      "30735154",
+      "22383650",
+      "21674772",
+      "39154193",
+      "37373437",
+      "9974409",
+      "28324603",
+      "28499943",
+      "22104110",
+      "32847860",
+      "41838701"
+    ],
+    "review": [
+      "39862428",
+      "18691663",
+      "16868551",
+      "40604265",
+      "29082484",
+      "29772060",
+      "17907964",
+      "15606747",
+      "19319849",
+      "15722012",
+      "37886903",
+      "12035075",
+      "34199002",
+      "26042329",
+      "27216430",
+      "32325185",
+      "37373437",
+      "22104110"
+    ],
+    "pmc": [
+      "11969409"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-1667(24)00753-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39862428/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

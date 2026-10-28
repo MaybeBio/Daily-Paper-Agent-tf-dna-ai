@@ -1,0 +1,394 @@
+{
+  "identity": {
+    "pmid": "41226380",
+    "doi": "10.3390/ijms262110338",
+    "title": "Machine Learning-Driven Prediction of Spatiotemporal Dynamics of Active Nuclei During Drosophila Embryogenesis."
+  },
+  "content": {
+    "abstract": "In this study, we apply machine learning to model the spatiotemporal dynamics of gene expression during early Drosophila embryogenesis. By optimizing model architecture, feature selection, and spatial grid resolution, we developed a predictive pipeline capable of accurately classifying active nuclei and forecasting their future distribution in time. We evaluated the model on two reporter constructs for the short gastrulation (sog) gene, sogD and sogD_∆Su(H), allowing us to assess its performance across distinct genetic contexts. The model achieved high accuracy on the wild-type sogD dataset, particularly along the dorsal-ventral (DV) axis during nuclear cycle 14 (NC14), and accurately predicted expression in the central regions of both wild-type and Suppressor of Hairless (Su(H)) mutant enhancers, sogD_∆Su(H). Bootstrap analysis confirmed that the model performed better in the central region than at the edges, where prediction accuracy dropped. Our previous work showed that Su(H) can act both as a repressor at the borders and as a stabilizer of transcriptional bursts in the center of the sog expression domain. This dual function is not unique to Su(H); other broadly expressed transcription factors also exhibit context-dependent regulatory roles, functioning as activators in some regions and repressors in others. These results highlight the importance of spatial context in transcriptional regulation and demonstrate the ability of machine learning to capture such nuanced behavior. Looking ahead, incorporating mechanistic features such as transcriptional bursting parameters into predictive models could enable simulations that forecast not just where genes are expressed but also how their dynamics unfold over time. This form of in silico enhancer mutagenesis would make it possible to predict the effects of specific binding site changes on both spatial expression patterns and underlying transcriptional activity, offering a powerful framework for studying cis-regulatory logic and modeling early developmental processes across diverse genetic backgrounds.",
+    "keywords": [
+      "Drosophila embryo",
+      "MS2.MCP live imaging system",
+      "Ripley's K-function",
+      "Su(H)",
+      "XGBoost",
+      "regression",
+      "sog"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Machine Learning",
+      "Gene Expression Regulation, Developmental",
+      "*Embryonic Development/genetics",
+      "*Cell Nucleus/metabolism/genetics",
+      "Drosophila Proteins/genetics/metabolism",
+      "*Drosophila/embryology/genetics",
+      "Transcription Factors/genetics/metabolism",
+      "*Drosophila melanogaster/embryology/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Malidarreh, Parisa Boodaghi",
+        "Borad, Priyanshi",
+        "Rout, Biraaj",
+        "Makridou, Anna",
+        "Abbasi, Shiva",
+        "Nasr, Mohammad Sadegh",
+        "Saurav, Jillur Rahman",
+        "Fenelon, Kelli D",
+        "Veerla, Jai Prakash",
+        "Luber, Jacob M",
+        "Koromila, Theodora"
+      ],
+      "short_names": [
+        "Malidarreh PB",
+        "Borad P",
+        "Rout B",
+        "Makridou A",
+        "Abbasi S",
+        "Nasr MS",
+        "Saurav JR",
+        "Fenelon KD",
+        "Veerla JP",
+        "Luber JM",
+        "Koromila T"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8446-5312",
+        "ORCID: 0009-0003-0856-4871",
+        "ORCID: 0000-0001-9675-5640",
+        "ORCID: 0000-0001-7451-9962",
+        "ORCID: 0000-0002-1294-9200",
+        "ORCID: 0000-0001-5504-1369"
+      ],
+      "affiliations": [
+        "Department of Computer Science and Engineering, University of Texas at Arlington, Arlington, TX 76019, USA.",
+        "Multi-Interprofessional Center for Health Informatics, University of Texas at Arlington, Arlington, TX 76019, USA.",
+        "Department of Biology, University of Texas at Arlington, Arlington, TX 76019, USA.",
+        "Department of Computer Science and Engineering, University of Texas at Arlington, Arlington, TX 76019, USA.",
+        "Multi-Interprofessional Center for Health Informatics, University of Texas at Arlington, Arlington, TX 76019, USA.",
+        "School of Biology, Aristotle University of Thessaloniki, 54124 Thessaloniki, Greece.",
+        "Department of Biology, University of Texas at Arlington, Arlington, TX 76019, USA.",
+        "Department of Computer Science and Engineering, University of Texas at Arlington, Arlington, TX 76019, USA.",
+        "Multi-Interprofessional Center for Health Informatics, University of Texas at Arlington, Arlington, TX 76019, USA.",
+        "Department of Computer Science and Engineering, University of Texas at Arlington, Arlington, TX 76019, USA.",
+        "Multi-Interprofessional Center for Health Informatics, University of Texas at Arlington, Arlington, TX 76019, USA.",
+        "Department of Psychiatry, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+        "Department of Computer Science and Engineering, University of Texas at Arlington, Arlington, TX 76019, USA.",
+        "Multi-Interprofessional Center for Health Informatics, University of Texas at Arlington, Arlington, TX 76019, USA.",
+        "Department of Computer Science and Engineering, University of Texas at Arlington, Arlington, TX 76019, USA.",
+        "Multi-Interprofessional Center for Health Informatics, University of Texas at Arlington, Arlington, TX 76019, USA.",
+        "Department of Bioengineering, University of Texas at Arlington, Arlington, TX 76019, USA.",
+        "Department of Biology, University of Texas at Arlington, Arlington, TX 76019, USA.",
+        "School of Biology, Aristotle University of Thessaloniki, 54124 Thessaloniki, Greece."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Malidarreh, Parisa Boodaghi",
+        "short_name": "Malidarreh PB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of Texas at Arlington, Arlington, TX 76019, USA.",
+          "Multi-Interprofessional Center for Health Informatics, University of Texas at Arlington, Arlington, TX 76019, USA."
+        ]
+      },
+      {
+        "full_name": "Borad, Priyanshi",
+        "short_name": "Borad P",
+        "identifiers": [
+          "0000-0001-8446-5312"
+        ],
+        "affiliations": [
+          "Department of Biology, University of Texas at Arlington, Arlington, TX 76019, USA."
+        ]
+      },
+      {
+        "full_name": "Rout, Biraaj",
+        "short_name": "Rout B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of Texas at Arlington, Arlington, TX 76019, USA.",
+          "Multi-Interprofessional Center for Health Informatics, University of Texas at Arlington, Arlington, TX 76019, USA."
+        ]
+      },
+      {
+        "full_name": "Makridou, Anna",
+        "short_name": "Makridou A",
+        "identifiers": [
+          "0009-0003-0856-4871"
+        ],
+        "affiliations": [
+          "School of Biology, Aristotle University of Thessaloniki, 54124 Thessaloniki, Greece."
+        ]
+      },
+      {
+        "full_name": "Abbasi, Shiva",
+        "short_name": "Abbasi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Texas at Arlington, Arlington, TX 76019, USA."
+        ]
+      },
+      {
+        "full_name": "Nasr, Mohammad Sadegh",
+        "short_name": "Nasr MS",
+        "identifiers": [
+          "0000-0001-9675-5640"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of Texas at Arlington, Arlington, TX 76019, USA.",
+          "Multi-Interprofessional Center for Health Informatics, University of Texas at Arlington, Arlington, TX 76019, USA."
+        ]
+      },
+      {
+        "full_name": "Saurav, Jillur Rahman",
+        "short_name": "Saurav JR",
+        "identifiers": [
+          "0000-0001-7451-9962"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of Texas at Arlington, Arlington, TX 76019, USA.",
+          "Multi-Interprofessional Center for Health Informatics, University of Texas at Arlington, Arlington, TX 76019, USA."
+        ]
+      },
+      {
+        "full_name": "Fenelon, Kelli D",
+        "short_name": "Fenelon KD",
+        "identifiers": [
+          "0000-0002-1294-9200"
+        ],
+        "affiliations": [
+          "Department of Psychiatry, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA."
+        ]
+      },
+      {
+        "full_name": "Veerla, Jai Prakash",
+        "short_name": "Veerla JP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of Texas at Arlington, Arlington, TX 76019, USA.",
+          "Multi-Interprofessional Center for Health Informatics, University of Texas at Arlington, Arlington, TX 76019, USA."
+        ]
+      },
+      {
+        "full_name": "Luber, Jacob M",
+        "short_name": "Luber JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of Texas at Arlington, Arlington, TX 76019, USA.",
+          "Multi-Interprofessional Center for Health Informatics, University of Texas at Arlington, Arlington, TX 76019, USA.",
+          "Department of Bioengineering, University of Texas at Arlington, Arlington, TX 76019, USA."
+        ]
+      },
+      {
+        "full_name": "Koromila, Theodora",
+        "short_name": "Koromila T",
+        "identifiers": [
+          "0000-0001-5504-1369"
+        ],
+        "affiliations": [
+          "Department of Biology, University of Texas at Arlington, Arlington, TX 76019, USA.",
+          "School of Biology, Aristotle University of Thessaloniki, 54124 Thessaloniki, Greece."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Oct 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/13 06:29",
+    "fetched_at": "2026-10-01 06:02:59"
+  },
+  "links": {
+    "cites": [
+      "42278215"
+    ],
+    "refs": [
+      "39513866",
+      "38517915",
+      "37557175",
+      "37387167",
+      "37116484",
+      "37051467",
+      "37050882",
+      "34301936",
+      "33778778",
+      "32701060",
+      "31340149",
+      "30262496",
+      "30089906",
+      "29606591",
+      "29501816",
+      "28720706",
+      "27863239",
+      "27461529",
+      "25751057",
+      "25557079",
+      "24856586",
+      "24139738",
+      "24139736",
+      "24044892",
+      "23122844",
+      "22028662",
+      "18423206"
+    ],
+    "similar": [
+      "41226380",
+      "39513866",
+      "31340149",
+      "25313963",
+      "30982648",
+      "31326540",
+      "16096801",
+      "30612166",
+      "15795372",
+      "24909324",
+      "22125648",
+      "39607769",
+      "33761316",
+      "21821017",
+      "39008179",
+      "40018801",
+      "37004638",
+      "28475577",
+      "22028675",
+      "40147870",
+      "23800450",
+      "24321690",
+      "29509808",
+      "20018754",
+      "29187214",
+      "32541043",
+      "23953111",
+      "22028662",
+      "40418447",
+      "21737682",
+      "31378591",
+      "18039873",
+      "24994903",
+      "16307735",
+      "19135437",
+      "29539636",
+      "15975935",
+      "22342544",
+      "40664961",
+      "15345045",
+      "25793381",
+      "28720706",
+      "28089518",
+      "33074101",
+      "15128669",
+      "22792075",
+      "33108408",
+      "10452845",
+      "32511091",
+      "23624421",
+      "24764079",
+      "33171957",
+      "37080162",
+      "26448463",
+      "30598455",
+      "22102826",
+      "23646132",
+      "21304932",
+      "32998295",
+      "9851979",
+      "28861687",
+      "36264246",
+      "31615108",
+      "21756252",
+      "39397716",
+      "34930411",
+      "18818726",
+      "23104159",
+      "34559800",
+      "28437444",
+      "39221782",
+      "22945369",
+      "24402316",
+      "27404588",
+      "25704510",
+      "25404315",
+      "39202431",
+      "29070071",
+      "7590238",
+      "34236313",
+      "35926038",
+      "11585808",
+      "19772636",
+      "41293990",
+      "36503705",
+      "26896327",
+      "27616358",
+      "18586115",
+      "40670357",
+      "34918740",
+      "24139736",
+      "20366291",
+      "7546844",
+      "38869221",
+      "21920356",
+      "35142344",
+      "30365533",
+      "24637116",
+      "33184447",
+      "27626650"
+    ],
+    "review": [
+      "41226380",
+      "38869221"
+    ],
+    "pmc": [
+      "12610212"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=41226380",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms262110338",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41226380/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-327",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

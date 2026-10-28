@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-khbrl/v3",
+  "title": "Data-centric training enables meaningful interaction learning in protein–ligand binding affinity prediction",
+  "authors": "Matheus da Silva; Lincon Vidal; Isabella Guedes; Camila de Magalhães; Fábio Custódio; Laurent Dardenne",
+  "journal": "ChemRxiv",
+  "published_date": "2026-02-08",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于CNN的蛋白-配体结合亲和力预测方法DockTDeep，通过数据增强和正则化提升互作学习，虽非TF-DNA体系，但蛋白-配体互作建模与数据策略可迁移至蛋白-DNA互作研究。",
+  "abstract": "Predicting protein–ligand binding affinity remains a fundamental challenge in drug discovery, where deep learning models have become central. However, these models often struggle with protein and ligand biases and limited generalization. Here, we present a convolutional neural network (CNN)-based scoring function, DockTDeep , that accurately predicts protein–ligand binding affinities by carefully designing the training strategy instead of increasing architectural complexity. A systematic evaluation of data augmentation strategies shows that random rotation, unlike commonly used 90-degree rotations, effectively mitigates rotational variance. We also introduce a straightforward but efficient regularization technique that reduces reliance on isolated protein or ligand features and, coupled with random rotation, promotes learning of meaningful intermolecular interaction patterns. DockTDeep outperforms or matches state-of-the-art scoring methods on standard benchmarks across diverse external datasets, supporting its applicability in drug design. Moreover, a comparative evaluation of existing out-of-distribution splitting schemes identified Pfam-CV as the most stringent, enforcing a degree of separation by similarity that surpasses other strategies. Additionally, our results indicate that the performance degradation observed under more stringent splitting schemes is unlikely to reflect an intrinsic inability of the model to capture physically meaningful interactions. Instead, it points to limitations in the available training data, which inadequately sample the diversity and complexity of binding landscapes required for robust generalization to previously unseen interaction patterns.",
+  "abstract_zh": "预测蛋白质-配体结合亲和力仍是药物发现中的一项基本挑战，深度学习模型已成为该领域的核心工具。然而，这些模型常常面临蛋白质和配体偏差以及泛化能力有限的问题。在此，我们提出了一种基于卷积神经网络（CNN）的评分函数DockTDeep，通过精心设计训练策略而非增加架构复杂性，能够准确预测蛋白质-配体结合亲和力。对数据增强策略的系统评估表明，随机旋转（而非常用的90度旋转）能有效缓解旋转方差问题。我们还引入了一种简单但高效的正则化技术，该技术减少了对孤立蛋白质或配体特征的依赖，并与随机旋转相结合，促进了对有意义的分子间相互作用模式的学习。在多个外部数据集的标准基准测试中，DockTDeep优于或匹配现有最先进的评分方法，支持其在药物设计中的适用性。此外，对现有分布外划分方案的比较评估确定Pfam-CV为最严格的方案，其通过相似性强制实现的分离程度超越了其他策略。另外，我们的结果表明，在更严格的划分方案下观察到的性能下降不太可能反映模型在捕捉物理上有意义的相互作用方面的内在缺陷，而是指向可用训练数据的局限性，这些数据未能充分采样结合景观的多样性和复杂性，而这是对未见过的相互作用模式进行稳健泛化所必需的。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-khbrl/v3",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-khbrl/v3",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-khbrl_v3/index.html"
+}

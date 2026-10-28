@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "41758825",
+    "doi": "10.1371/journal.pone.0343633",
+    "title": "Annotation-free prediction of immunotherapy response in melanoma using single-cell transcriptomic data."
+  },
+  "content": {
+    "abstract": "Immune checkpoint inhibitors (ICIs) have transformed the advanced melanoma treatment landscape; however, a subset of patients achieve durable responses. Current biomarkers, such as PD-L1 expression and tumor mutational burden, offer limited predictive power due to the profound heterogeneity of melanoma. Accordingly, we developed an artificial intelligence (AI)-based model to predict ICI responsiveness using single-cell RNA sequencing (scRNA-seq) data without requiring cell type annotation. scRNA-seq data profiled using Smart-seq2 platform were downloaded from a public repository (GEO: GSE120575). From these data, we analyzed 16,290 tumor-infiltrating cells from melanoma scRNA-seq dataset. Various AI-based models, including Extreme Gradient Boosting, Random Forest, Logistic Regression, Support Vector Machine, Feedforward Neural Network, and Convolutional Neural Network were constructed, with the best-performing model achieving an area under the curve of 0.87. This AI-driven approach identified 29 key predictive biomarkers, including CCR7 and MTRNR2L2. Validation using three independent bulk RNA-seq datasets (cBioPortal: DFCI melanoma; ENA: PRJEB23709; GEO: GSE91061) suggested that CCR7 was associated with favorable ICI response and improved survival, whereas MTRNR2L2 showed a tendency toward enrichment in non-responders and poorer outcomes. Cell-type-specific expression analysis revealed that CCR7 was primarily expressed in B cells and memory T cells from responders, whereas MTRNR2L2 was elevated in exhausted and cytotoxic T cells in non-responders. CCR7-positive B cells exhibited activation of the NF-kappaB pathway and demonstrated prognostic significance independent of the melanoma primary site or histologic subtype. However, among the three molecular subtypes, including immune, keratin, and microphthalmia-associated transcription factor (MITF)-low, CCR7 expression was significantly associated with the immune subtype. Additionally, pathway-level deep learning models reinforced these findings, highlighting immune activation in responders and cell cycle-related signals in non-responders. Our study demonstrates that predictive modeling based on unannotated scRNA-seq data enables clinically relevant biomarker identification, offering a robust approach for patients with stratifying melanoma and guiding personalized immunotherapy.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Melanoma/genetics/therapy/immunology/drug therapy",
+      "Humans",
+      "*Single-Cell Analysis/methods",
+      "*Immunotherapy/methods",
+      "*Transcriptome",
+      "Artificial Intelligence",
+      "Single-Cell Gene Expression Analysis",
+      "Biomarkers, Tumor/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Immune Checkpoint Inhibitors/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Oh, Da Eun",
+        "Kee, Gaeun",
+        "Oh, Ji-Hye",
+        "Kim, Wonkyung",
+        "Kang, Young Gwang",
+        "Park, Chae Won",
+        "Jun, Tae Joon",
+        "Sung, Chang Ohk"
+      ],
+      "short_names": [
+        "Oh DE",
+        "Kee G",
+        "Oh JH",
+        "Kim W",
+        "Kang YG",
+        "Park CW",
+        "Jun TJ",
+        "Sung CO"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8567-456X"
+      ],
+      "affiliations": [
+        "Bioinformatics Core Laboratory, Convergence Medicine Research Center, Asan Institute for Life Sciences, Asan Medical Center, Seoul, Republic of Korea.",
+        "Department of Internal Medicine, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Medical Science, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Information Medicine, Asan Medical Center, Seoul, Republic of Korea.",
+        "Bioinformatics Core Laboratory, Convergence Medicine Research Center, Asan Institute for Life Sciences, Asan Medical Center, Seoul, Republic of Korea.",
+        "Department of Medical Science, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Pathology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Medical Science, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Pathology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Medical Science, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Pathology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Medical Informatics and Statistics, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Bioinformatics Core Laboratory, Convergence Medicine Research Center, Asan Institute for Life Sciences, Asan Medical Center, Seoul, Republic of Korea.",
+        "Department of Medical Science, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+        "Department of Pathology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Oh, Da Eun",
+        "short_name": "Oh DE",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Core Laboratory, Convergence Medicine Research Center, Asan Institute for Life Sciences, Asan Medical Center, Seoul, Republic of Korea.",
+          "Department of Internal Medicine, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kee, Gaeun",
+        "short_name": "Kee G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Science, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+          "Department of Information Medicine, Asan Medical Center, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Oh, Ji-Hye",
+        "short_name": "Oh JH",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Core Laboratory, Convergence Medicine Research Center, Asan Institute for Life Sciences, Asan Medical Center, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Wonkyung",
+        "short_name": "Kim W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Science, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+          "Department of Pathology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kang, Young Gwang",
+        "short_name": "Kang YG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Science, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+          "Department of Pathology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Chae Won",
+        "short_name": "Park CW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Science, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+          "Department of Pathology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jun, Tae Joon",
+        "short_name": "Jun TJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Informatics and Statistics, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Sung, Chang Ohk",
+        "short_name": "Sung CO",
+        "identifiers": [
+          "0000-0002-8567-456X"
+        ],
+        "affiliations": [
+          "Bioinformatics Core Laboratory, Convergence Medicine Research Center, Asan Institute for Life Sciences, Asan Medical Center, Seoul, Republic of Korea.",
+          "Department of Medical Science, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea.",
+          "Department of Pathology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/27 19:31",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40739089",
+      "40611157",
+      "40511562",
+      "40169777",
+      "39986370",
+      "39513365",
+      "39026661",
+      "38919017",
+      "38649887",
+      "38528036",
+      "38417293",
+      "38221658",
+      "38178902",
+      "37837402",
+      "36930774",
+      "36923311",
+      "36793726",
+      "36691612",
+      "36467068",
+      "36435199",
+      "36171010",
+      "36054452",
+      "35858733",
+      "35494249",
+      "35269844",
+      "34456915",
+      "34019806",
+      "33920288",
+      "33767197",
+      "33385485",
+      "33364194",
+      "33125859",
+      "32879487",
+      "32612833",
+      "32392112",
+      "31792460",
+      "31611907",
+      "31562797",
+      "31500660",
+      "31166985",
+      "30971806",
+      "30930222",
+      "30923036",
+      "30895946",
+      "30753825",
+      "30617341",
+      "30598548",
+      "30504886",
+      "30400809",
+      "30388456",
+      "30388455",
+      "29954840",
+      "29599411",
+      "29034210",
+      "29033130",
+      "28883738",
+      "28544512",
+      "28457750",
+      "27424807",
+      "26845449",
+      "26091043",
+      "24370119",
+      "22817475",
+      "22588877",
+      "10520991"
+    ],
+    "similar": [
+      "41758825",
+      "41656832",
+      "41913413",
+      "38795156",
+      "41425595",
+      "41436831",
+      "41759266",
+      "39799269",
+      "38896289",
+      "40883359",
+      "40771813",
+      "39026661",
+      "40305346",
+      "40200221",
+      "40226614",
+      "40971094",
+      "39394099",
+      "40607411",
+      "41613147",
+      "39530087",
+      "40574832",
+      "35781709",
+      "41840725",
+      "39708127",
+      "40133499",
+      "40308576",
+      "42050659",
+      "34804045",
+      "39507529",
+      "36248850",
+      "40141028",
+      "40406120",
+      "42140356",
+      "40269853",
+      "40460484",
+      "40375605",
+      "32111241",
+      "40825611",
+      "33927719",
+      "40909289",
+      "40226609",
+      "42266021",
+      "39896800",
+      "42267455",
+      "40436981",
+      "40438115",
+      "33342055",
+      "41208987",
+      "39904693",
+      "42359574",
+      "40777041",
+      "41601657",
+      "42024670",
+      "38744008",
+      "40089202",
+      "30120041",
+      "39798003",
+      "41318472",
+      "41413822",
+      "40781483",
+      "40211502",
+      "42475469",
+      "40695191",
+      "42035196",
+      "39355255",
+      "37716991",
+      "41388523",
+      "42180849",
+      "39110142",
+      "42003422",
+      "39453457",
+      "40475762",
+      "41488652",
+      "39835132",
+      "41502516",
+      "40081944",
+      "39723204",
+      "41601635",
+      "39726597",
+      "38430268",
+      "42158872",
+      "32969604",
+      "40873572",
+      "31290993",
+      "39849233",
+      "39916959",
+      "41235257",
+      "34376232",
+      "39589706",
+      "42231301",
+      "39953119",
+      "41526921",
+      "42510824",
+      "40438100",
+      "41233664",
+      "41861255",
+      "41887467",
+      "37653150",
+      "41344266",
+      "41281377"
+    ],
+    "review": [
+      "41758825",
+      "39026661",
+      "40305346",
+      "32969604"
+    ],
+    "pmc": [
+      "12948085"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/melanoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Melanoma"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0343633",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41758825/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

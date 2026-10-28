@@ -1,0 +1,253 @@
+{
+  "identity": {
+    "pmid": "41031058",
+    "doi": "10.1093/bioadv/vbaf221",
+    "title": "DeepEPI: CNN-transformer-based model for extracting TF interactions through predicting enhancer-promoter interactions."
+  },
+  "content": {
+    "abstract": "MOTIVATION: We introduce DeepEPI, a deep learning framework for studying enhancer-promoter interactions (EPIs) directly from genomic sequences. By integrating convolutional neural networks (CNNs) with Transformer blocks, DeepEPI captures the complex regulatory interplay between enhancers and promoters, a key factor in gene expression and disease mechanisms. The model emphasizes interpretability and efficiency by employing embedding layers for OneHot encoding and multihead attention for detecting and analyzing transcription factor (TF) interactions. A DNA2Vec-based version of DeepEPI is also evaluated. RESULTS: DeepEPI is assessed in two dimensions: comparison with existing models and analysis of encoding methods. Across six cell lines, DeepEPI consistently outperforms prior approaches. Compared to EPIVAN, it achieves a 2.4% gain in area under the precision-recall curve (AUPR) and maintains AUROC with DNA2Vec encoding, while with OneHot encoding it shows a 4% increase in AUPR and 1.9% in AUROC. Regarding encoding, DNA2Vec provides higher accuracy, but our OneHot-based embedding balances competitive performance with interpretability and reduced storage requirements. Beyond prediction, DeepEPI enhances biological insight by extracting meaningful TF-TF interactions from attention heads, effectively narrowing the search space for experimental validation. Validation analyses further support the biological relevance of these findings, underscoring DeepEPI's value for advancing EPI research. AVAILABILITY AND IMPLEMENTATION: The source code of DeepEPI is available at: https://github.com/nazanintbtb/DeepEPI.git.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tabatabaei, Seyedeh Fatemeh",
+        "Akbari Roknabadi, Saeedeh",
+        "Koohi, Somayyeh"
+      ],
+      "short_names": [
+        "Tabatabaei SF",
+        "Akbari Roknabadi S",
+        "Koohi S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3105-2511"
+      ],
+      "affiliations": [
+        "Department of Computer Engineering, Sharif University of Technology, Tehran, 11155-9517, Iran.",
+        "Division of Computational Science and Technology, KTH Royal Institute of Technology, Stockholm, 17121, Sweden.",
+        "Department of Computer Engineering, Sharif University of Technology, Tehran, 11155-9517, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tabatabaei, Seyedeh Fatemeh",
+        "short_name": "Tabatabaei SF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Engineering, Sharif University of Technology, Tehran, 11155-9517, Iran."
+        ]
+      },
+      {
+        "full_name": "Akbari Roknabadi, Saeedeh",
+        "short_name": "Akbari Roknabadi S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computational Science and Technology, KTH Royal Institute of Technology, Stockholm, 17121, Sweden."
+        ]
+      },
+      {
+        "full_name": "Koohi, Somayyeh",
+        "short_name": "Koohi S",
+        "identifiers": [
+          "0000-0002-3105-2511"
+        ],
+        "affiliations": [
+          "Department of Computer Engineering, Sharif University of Technology, Tehran, 11155-9517, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics advances"
+    ],
+    "journal_abbrev": [
+      "Bioinform Adv"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/01 12:01",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [
+      "42169659",
+      "41639408",
+      "41319043"
+    ],
+    "refs": [
+      "38890584",
+      "37845681",
+      "36717694",
+      "35180075",
+      "35140242",
+      "35130376",
+      "34113473",
+      "34111009",
+      "33070389",
+      "32359645",
+      "32283524",
+      "31588505",
+      "30649185",
+      "29224777",
+      "29143738",
+      "28938092",
+      "28881991",
+      "27064255",
+      "26586731",
+      "25497547",
+      "25228660",
+      "25160912",
+      "21763601",
+      "17324271",
+      "17218270",
+      "15820306",
+      "7063747",
+      "6313230"
+    ],
+    "similar": [
+      "41031058",
+      "40772277",
+      "35633468",
+      "35719916",
+      "38890584",
+      "31588505",
+      "40778316",
+      "40036975",
+      "39184348",
+      "34473626",
+      "31318408",
+      "39096613",
+      "30649185",
+      "35511108",
+      "33160328",
+      "33711543",
+      "37348298",
+      "39806960",
+      "40457173",
+      "41319043",
+      "39561516",
+      "35190950",
+      "39546160",
+      "40830309",
+      "41450215",
+      "40515390",
+      "35266510",
+      "33845759",
+      "35062021",
+      "41386531",
+      "40335860",
+      "39131276",
+      "40251827",
+      "40102719",
+      "38485768",
+      "33234095",
+      "39929298",
+      "35820811",
+      "39701486",
+      "28881969",
+      "39367830",
+      "34573367",
+      "33059369",
+      "41062795",
+      "36403092",
+      "34666191",
+      "39153682",
+      "31410461",
+      "36005929",
+      "40869356",
+      "30709337",
+      "38547658",
+      "39766779",
+      "31905774",
+      "39577030",
+      "41042660",
+      "37615504",
+      "39193566",
+      "39312678",
+      "40183298",
+      "40646507",
+      "41037779",
+      "40989473",
+      "33096548",
+      "36182762",
+      "40501927",
+      "40614523",
+      "40902506",
+      "41288989",
+      "38717737",
+      "38940155",
+      "39438715",
+      "39887755",
+      "41236479",
+      "38870532",
+      "40598008",
+      "39678209",
+      "40715759",
+      "38348746",
+      "40652995",
+      "35780100",
+      "37963055",
+      "40568119",
+      "41386265",
+      "40279826",
+      "39698603",
+      "40883359",
+      "39681596",
+      "35801934",
+      "36232325",
+      "38510021",
+      "36495179",
+      "33581335",
+      "31510640",
+      "34073774",
+      "37924750",
+      "38343388",
+      "38643066",
+      "28881991",
+      "34671814"
+    ],
+    "review": [
+      "41031058",
+      "33234095"
+    ],
+    "pmc": [
+      "12478696"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41031058/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformaticsadvances/article-lookup/doi/10.1093/bioadv/vbaf221",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

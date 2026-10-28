@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38986796",
+  "title": "PreDBP-PLMs: Prediction of DNA-binding proteins based on pre-trained protein language models and convolutional neural networks.",
+  "authors": "Qi, Dawei; Song, Chen; Liu, Taigang",
+  "journal": "Analytical biochemistry",
+  "published_date": "2024-07-11",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用预训练蛋白语言模型ProtT5与PSSM进化特征融合CNN预测DNA结合蛋白，属于广义蛋白-DNA互作识别，但仅做序列级二分类预测，未涉及TF-DNA特异性结合位点或三维互作机制建模，方法可迁移但深度有限。",
+  "abstract": "The recognition of DNA-binding proteins (DBPs) is the crucial step to understanding their roles in various biological processes such as genetic regulation, gene expression, cell cycle control, DNA repair, and replication within cells. However, conventional experimental methods for identifying DBPs are usually time-consuming and expensive. Therefore, there is an urgent need to develop rapid and efficient computational methods for the prediction of DBPs. In this study, we proposed a novel predictor named PreDBP-PLMs to further improve the identification accuracy of DBPs by fusing the pre-trained protein language model (PLM) ProtT5 embedding with evolutionary features as input to the classic convolutional neural network (CNN) model. Firstly, the ProtT5 embedding was combined with different evolutionary features derived from the position-specific scoring matrix (PSSM) to represent protein sequences. Then, the optimal feature combination was selected and input to the CNN classifier for the prediction of DBPs. Finally, the 5-fold cross-validation (CV), the leave-one-out CV (LOOCV), and the independent set test were adopted to examine the performance of PreDBP-PLMs on the benchmark datasets. Compared to the existing state-of-the-art predictors, PreDBP-PLMs exhibits an accuracy improvement of 0.5 % and 5.2 % on the PDB186 and PDB2272 datasets, respectively. It demonstrated that the proposed method could serve as a useful tool for the recognition of DBPs.",
+  "abstract_zh": "DNA结合蛋白（DBPs）的识别是理解其在细胞内多种生物过程中作用的关键步骤，这些过程包括遗传调控、基因表达、细胞周期控制、DNA修复及复制。然而，传统的实验方法用于识别DBPs通常耗时且成本高昂。因此，迫切需要开发快速高效的计算方法来预测DBPs。在本研究中，我们提出了一种名为PreDBP-PLMs的新型预测器，通过将预训练蛋白质语言模型（PLM）ProtT5嵌入与进化特征融合，作为经典卷积神经网络（CNN）模型的输入，以进一步提高DBPs的识别准确性。首先，将ProtT5嵌入与源自位置特异性评分矩阵（PSSM）的不同进化特征结合，以表示蛋白质序列。然后，选择最优特征组合并输入到CNN分类器中进行DBPs预测。最后，采用5折交叉验证（CV）、留一法交叉验证（LOOCV）和独立集测试来检验PreDBP-PLMs在基准数据集上的性能。与现有最先进的预测器相比，PreDBP-PLMs在PDB186和PDB2272数据集上的准确率分别提高了0.5%和5.2%。这表明所提出的方法可作为识别DBPs的有用工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38986796/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38986796/",
+  "paper_page_path": "papers/pubmed/38986796/index.html"
+}

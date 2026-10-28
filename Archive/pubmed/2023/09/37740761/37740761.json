@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "37740761",
+    "doi": "10.1007/s00432-023-05266-0",
+    "title": "Identifying possible hub genes and biological mechanisms shared between bladder cancer and inflammatory bowel disease using machine learning and integrated bioinformatics."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Recent studies have shown that inflammatory bowel disease (IBD) is associated with bladder cancer (BC) incidence. But there is still a lack of understanding regarding its pathogenesis. Thus, this study aimed to identify potential hub genes and their important pathways and pathological mechanisms of interactions between IBD and BC using bioinformatics methods. METHODS: The data from Gene Expression Omnibus (GEO) and the cancer genome atlas (TCGA) were analyzed to screen common differentially expressed genes (DEGs) between IBD and BC. The \"clusterProfiler\" package was used to analyze GO term and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment in DEGs. After that, we conducted a weighted gene co-expression network analysis (WGCNA) on these DEGs to determine the vital modules and genes significantly related to BC. Protein-protein interaction (PPI) networks was used to identify hub genes. Further, the hub genes were used to develop a prognostic signature by Cox analysis. The validity of the ten hub DEGs was tested using three classification algorithms. Finally, we analyzed the microRNAs (miRNA)-mRNA, transcription factors (TFs)-mRNA regulatory network. RESULTS: Positive regulation of organelle fission, chromosomal region, tubulin binding, and cell cycle signaling pathway were the major enriched pathways for the common DEGs. PPI networks identified three hub proteins (AURKB, CDK1, and CCNA2) with high connectivity. Three machine-learning classification algorithms based on ten hub genes performed well for IBD and BC (accuracy > 0.80). The robust predictive model based on the ten hub genes could accurately classify BC cases with various clinical outcomes. Based on the gene-TFs and gene-miRNAs network construction, 9 TFs and 6 miRNAs were identified as potential critical TFs and miRNAs. There are 13 drugs that interact with the hub gene based on gene-drug interaction analysis. CONCLUSIONS: This study explored common gene signatures and the potential pathogenesis of IBD and BC. We revealed that an unbalanced immune response, cell cycle pathway, and neutrophil infiltration might be the common pathogenesis of IBD and BC. Molecular mechanisms for the treatment of IBD and CC still require further investigation.",
+    "keywords": [
+      "AURKB",
+      "Bladder cancer",
+      "CCNA2",
+      "CDK1",
+      "Inflammatory bowel disease",
+      "Machine learning",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*MicroRNAs/genetics",
+      "Gene Expression Profiling/methods",
+      "Gene Regulatory Networks",
+      "*Urinary Bladder Neoplasms/genetics/metabolism",
+      "Computational Biology/methods",
+      "*Inflammatory Bowel Diseases/genetics",
+      "RNA, Messenger"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Jianyong",
+        "Wu, Pengjie",
+        "Lai, Shicong",
+        "Wang, Jianye",
+        "Wang, Jianlong",
+        "Zhang, Yaoguang"
+      ],
+      "short_names": [
+        "Liu J",
+        "Wu P",
+        "Lai S",
+        "Wang J",
+        "Wang J",
+        "Zhang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4667-9365"
+      ],
+      "affiliations": [
+        "Department of Urology, Institute of the Geriatric Medicine, Beijing Hospital, National Center of Gerontology, Chinese Academy of Medical Sciences, Beijing, People's Republic of China.",
+        "Graduate School of Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, People's Republic of China.",
+        "Beijing Hospital Continence Center, Beijing, People's Republic of China.",
+        "Department of Urology, Institute of the Geriatric Medicine, Beijing Hospital, National Center of Gerontology, Chinese Academy of Medical Sciences, Beijing, People's Republic of China.",
+        "Graduate School of Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, People's Republic of China.",
+        "Beijing Hospital Continence Center, Beijing, People's Republic of China.",
+        "Department of Urology, Peking University People's Hospital, Beijing, 100044, People's Republic of China.",
+        "Department of Urology, Institute of the Geriatric Medicine, Beijing Hospital, National Center of Gerontology, Chinese Academy of Medical Sciences, Beijing, People's Republic of China. wangjy@bjhmoh.cn.",
+        "Graduate School of Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, People's Republic of China. wangjy@bjhmoh.cn.",
+        "Beijing Hospital Continence Center, Beijing, People's Republic of China. wangjy@bjhmoh.cn.",
+        ", No. 1 DaHua Road, Dong Dan, Beijing, 100730, China. wangjy@bjhmoh.cn.",
+        "Department of Urology, Institute of the Geriatric Medicine, Beijing Hospital, National Center of Gerontology, Chinese Academy of Medical Sciences, Beijing, People's Republic of China. wjlspplaaa@sina.com.",
+        "Graduate School of Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, People's Republic of China. wjlspplaaa@sina.com.",
+        "Beijing Hospital Continence Center, Beijing, People's Republic of China. wjlspplaaa@sina.com.",
+        ", No. 1 DaHua Road, Dong Dan, Beijing, 100730, China. wjlspplaaa@sina.com.",
+        "Department of Urology, Institute of the Geriatric Medicine, Beijing Hospital, National Center of Gerontology, Chinese Academy of Medical Sciences, Beijing, People's Republic of China. zhangyaoguang3247@bjhmoh.cn.",
+        "Graduate School of Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, People's Republic of China. zhangyaoguang3247@bjhmoh.cn.",
+        "Beijing Hospital Continence Center, Beijing, People's Republic of China. zhangyaoguang3247@bjhmoh.cn.",
+        ", No. 1 DaHua Road, Dong Dan, Beijing, 100730, China. zhangyaoguang3247@bjhmoh.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Jianyong",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Institute of the Geriatric Medicine, Beijing Hospital, National Center of Gerontology, Chinese Academy of Medical Sciences, Beijing, People's Republic of China.",
+          "Graduate School of Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, People's Republic of China.",
+          "Beijing Hospital Continence Center, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wu, Pengjie",
+        "short_name": "Wu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Institute of the Geriatric Medicine, Beijing Hospital, National Center of Gerontology, Chinese Academy of Medical Sciences, Beijing, People's Republic of China.",
+          "Graduate School of Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, People's Republic of China.",
+          "Beijing Hospital Continence Center, Beijing, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lai, Shicong",
+        "short_name": "Lai S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Peking University People's Hospital, Beijing, 100044, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jianye",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0003-4667-9365"
+        ],
+        "affiliations": [
+          "Department of Urology, Institute of the Geriatric Medicine, Beijing Hospital, National Center of Gerontology, Chinese Academy of Medical Sciences, Beijing, People's Republic of China. wangjy@bjhmoh.cn.",
+          "Graduate School of Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, People's Republic of China. wangjy@bjhmoh.cn.",
+          "Beijing Hospital Continence Center, Beijing, People's Republic of China. wangjy@bjhmoh.cn.",
+          ", No. 1 DaHua Road, Dong Dan, Beijing, 100730, China. wangjy@bjhmoh.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Jianlong",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Institute of the Geriatric Medicine, Beijing Hospital, National Center of Gerontology, Chinese Academy of Medical Sciences, Beijing, People's Republic of China. wjlspplaaa@sina.com.",
+          "Graduate School of Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, People's Republic of China. wjlspplaaa@sina.com.",
+          "Beijing Hospital Continence Center, Beijing, People's Republic of China. wjlspplaaa@sina.com.",
+          ", No. 1 DaHua Road, Dong Dan, Beijing, 100730, China. wjlspplaaa@sina.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yaoguang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Institute of the Geriatric Medicine, Beijing Hospital, National Center of Gerontology, Chinese Academy of Medical Sciences, Beijing, People's Republic of China. zhangyaoguang3247@bjhmoh.cn.",
+          "Graduate School of Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, People's Republic of China. zhangyaoguang3247@bjhmoh.cn.",
+          "Beijing Hospital Continence Center, Beijing, People's Republic of China. zhangyaoguang3247@bjhmoh.cn.",
+          ", No. 1 DaHua Road, Dong Dan, Beijing, 100730, China. zhangyaoguang3247@bjhmoh.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cancer research and clinical oncology"
+    ],
+    "journal_abbrev": [
+      "J Cancer Res Clin Oncol"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/23 20:41",
+    "fetched_at": "2026-09-29 07:17:46"
+  },
+  "links": {
+    "cites": [
+      "41553597",
+      "39840043",
+      "39478031",
+      "38012665"
+    ],
+    "refs": [
+      "36250027",
+      "36049413",
+      "35729325",
+      "35582765",
+      "35481447",
+      "35463214",
+      "35452485",
+      "35435118",
+      "35406487",
+      "35393513",
+      "35213076",
+      "35004321",
+      "34782004",
+      "34728613",
+      "34720049",
+      "34650035",
+      "34508254",
+      "34456965",
+      "34372882",
+      "34358489",
+      "34124132",
+      "33924142",
+      "33789312",
+      "33382932",
+      "33336247",
+      "32567032",
+      "32391055",
+      "32351330",
+      "32219034",
+      "31811282",
+      "31709755",
+      "31498388",
+      "31356589",
+      "31323834",
+      "31315034",
+      "31038865",
+      "30701345",
+      "30317572",
+      "30210331",
+      "30138038",
+      "29608018",
+      "29367430",
+      "29050646",
+      "27318857",
+      "27239106",
+      "26549003",
+      "26507860",
+      "26323879",
+      "26240282",
+      "26032289",
+      "25895441",
+      "24879294",
+      "24409063",
+      "24108228",
+      "23619525",
+      "23602821",
+      "22864622",
+      "22611192",
+      "22284968",
+      "20332773",
+      "20303878",
+      "19114008",
+      "18650914",
+      "17499605",
+      "17384581",
+      "12490959",
+      "10924145"
+    ],
+    "similar": [
+      "37740761",
+      "36049413",
+      "39496786",
+      "39048164",
+      "38774864",
+      "35620387",
+      "35132271",
+      "38863714",
+      "38736878",
+      "40997906",
+      "31987036",
+      "40603423",
+      "40659785",
+      "39234248",
+      "40421012",
+      "31369587",
+      "39142001",
+      "30138363",
+      "41120603",
+      "35393513",
+      "37291580",
+      "36643579",
+      "35762549",
+      "36291136",
+      "25889321",
+      "38307969",
+      "38660311",
+      "39712025",
+      "40821971",
+      "31277149",
+      "41006883",
+      "36499614",
+      "41189173",
+      "32677673",
+      "35773742",
+      "40374866",
+      "38549107",
+      "40977739",
+      "35397550",
+      "38062833",
+      "40574839",
+      "41052072",
+      "36536067",
+      "37250717",
+      "31545079",
+      "35757392",
+      "34722763",
+      "34968391",
+      "37878219",
+      "39192657",
+      "34536521",
+      "32390597",
+      "28432618",
+      "35392084",
+      "38509535",
+      "39893753",
+      "39403102",
+      "36118873",
+      "39080525",
+      "32908877",
+      "39306912",
+      "41044520",
+      "32391563",
+      "38873601",
+      "36096037",
+      "41196851",
+      "39342024",
+      "33104965",
+      "41145553",
+      "30213925",
+      "38755717",
+      "41300841",
+      "31703725",
+      "41162922",
+      "40676798",
+      "39456780",
+      "31178227",
+      "37500704",
+      "32160841",
+      "35749386",
+      "32756534",
+      "39086489",
+      "34112125",
+      "34337056",
+      "37806279",
+      "31747387",
+      "35958412",
+      "39438957",
+      "31733575",
+      "32243390",
+      "35562622",
+      "40181401",
+      "32535071",
+      "34553293",
+      "38640322",
+      "41300749",
+      "36120772",
+      "37556419",
+      "41094572",
+      "40216809"
+    ],
+    "review": [
+      "37740761"
+    ],
+    "pmc": [
+      "11797741"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bladdercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bladder Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37740761/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00432-023-05266-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1219",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

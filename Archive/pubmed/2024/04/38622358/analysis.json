@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38622358",
+  "title": "Understanding YTHDF2-mediated mRNA degradation by m6A-BERT-Deg.",
+  "authors": "Zhang, Ting-He; Jo, Sumin; Zhang, Michelle; Wang, Kai; Gao, Shou-Jiang; Huang, Yufei",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-04-16",
+  "window": {
+    "start": "2024-04-15",
+    "end": "2024-04-21"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用BERT模型预测YTHDF2介导的m6A mRNA降解，虽涉及RNA结合蛋白与RNA互作，但对象为RNA而非DNA，且无TF-DNA结合建模，仅边缘相关。",
+  "abstract": "N6-methyladenosine (m6A) is the most abundant mRNA modification within mammalian cells, holding pivotal significance in the regulation of mRNA stability, translation and splicing. Furthermore, it plays a critical role in the regulation of RNA degradation by primarily recruiting the YTHDF2 reader protein. However, the selective regulation of mRNA decay of the m6A-methylated mRNA through YTHDF2 binding is poorly understood. To improve our understanding, we developed m6A-BERT-Deg, a BERT model adapted for predicting YTHDF2-mediated degradation of m6A-methylated mRNAs. We meticulously assembled a high-quality training dataset by integrating multiple data sources for the HeLa cell line. To overcome the limitation of small training samples, we employed a pre-training-fine-tuning strategy by first performing a self-supervised pre-training of the model on 427 760 unlabeled m6A site sequences. The test results demonstrated the importance of this pre-training strategy in enabling m6A-BERT-Deg to outperform other benchmark models. We further conducted a comprehensive model interpretation and revealed a surprising finding that the presence of co-factors in proximity to m6A sites may disrupt YTHDF2-mediated mRNA degradation, subsequently enhancing mRNA stability. We also extended our analyses to the HEK293 cell line, shedding light on the context-dependent YTHDF2-mediated mRNA degradation.",
+  "abstract_zh": "N6-甲基腺苷（m6A）是哺乳动物细胞中最丰富的mRNA修饰，在调控mRNA稳定性、翻译和剪接中具有关键意义。此外，它主要通过招募YTHDF2阅读蛋白在RNA降解调控中发挥重要作用。然而，通过YTHDF2结合对m6A甲基化mRNA进行选择性调控的mRNA衰减机制尚不明确。为增进理解，我们开发了m6A-BERT-Deg，一种适应于预测YTHDF2介导的m6A甲基化mRNA降解的BERT模型。我们通过整合HeLa细胞系的多个数据源，精心构建了一个高质量的训练数据集。为克服训练样本量小的限制，我们采用了预训练-微调策略，首先在427,760条未标记的m6A位点序列上对模型进行自监督预训练。测试结果表明，这一预训练策略对于使m6A-BERT-Deg超越其他基准模型至关重要。我们进一步进行了全面的模型解释，并揭示了一个令人惊讶的发现：m6A位点附近共因子的存在可能干扰YTHDF2介导的mRNA降解，从而增强mRNA稳定性。我们还将分析扩展到HEK293细胞系，揭示了依赖于上下文的YTHDF2介导的mRNA降解机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38622358/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38622358/",
+  "paper_page_path": "papers/pubmed/38622358/index.html"
+}

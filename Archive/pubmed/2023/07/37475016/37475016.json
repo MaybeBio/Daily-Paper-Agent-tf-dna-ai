@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "37475016",
+    "doi": "10.1186/s12967-023-04355-5",
+    "title": "Ensemble learning model for identifying the hallmark genes of NFkappaB/TNF signaling pathway in cancers."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The nuclear factor kappa B (NFkappaB) regulatory pathways downstream of tumor necrosis factor (TNF) play a critical role in carcinogenesis. However, the widespread influence of NFkappaB in cells can result in off-target effects, making it a challenging therapeutic target. Ensemble learning is a machine learning technique where multiple models are combined to improve the performance and robustness of the prediction. Accordingly, an ensemble learning model could uncover more precise targets within the NFkappaB/TNF signaling pathway for cancer therapy. METHODS: In this study, we trained an ensemble learning model on the transcriptome profiles from 16 cancer types in the TCGA database to identify a robust set of genes that are consistently associated with the NFkappaB/TNF pathway in cancer. Our model uses cancer patients as features to predict the genes involved in the NFkappaB/TNF signaling pathway and can be adapted to predict the genes for different cancer types by switching the cancer type of patients. We also performed functional analysis, survival analysis, and a case study of triple-negative breast cancer to demonstrate our model's potential in translational cancer medicine. RESULTS: Our model accurately identified genes regulated by NFkappaB in response to TNF in cancer patients. The downstream analysis showed that the identified genes are typically involved in the canonical NFkappaB-regulated pathways, particularly in adaptive immunity, anti-apoptosis, and cellular response to cytokine stimuli. These genes were found to have oncogenic properties and detrimental effects on patient survival. Our model also could distinguish patients with a specific cancer subtype, triple-negative breast cancer (TNBC), which is known to be influenced by NFkappaB-regulated pathways downstream of TNF. Furthermore, a functional module known as mononuclear cell differentiation was identified that accurately predicts TNBC patients and poor short-term survival in non-TNBC patients, providing a potential avenue for developing precision medicine for cancer subtypes. CONCLUSIONS: In conclusion, our approach enables the discovery of genes in NFkappaB-regulated pathways in response to TNF and their relevance to carcinogenesis. We successfully categorized these genes into functional groups, providing valuable insights for discovering more precise and targeted cancer therapeutics.",
+    "keywords": [
+      "Carcinogenesis",
+      "Ensemble learning model",
+      "Network medicine",
+      "Nuclear factor kappa B (NFkappaB)",
+      "Precision medicine",
+      "Triple-negative breast cancer (TNBC)",
+      "Tumor necrosis factor (TNF)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*NF-kappa B/genetics/metabolism",
+      "*Triple Negative Breast Neoplasms/drug therapy",
+      "Tumor Necrosis Factor-alpha/genetics/therapeutic use",
+      "Signal Transduction/genetics",
+      "Carcinogenesis",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Su, Yin-Yuan",
+        "Liu, Yu-Ling",
+        "Huang, Hsuan-Cheng",
+        "Lin, Chen-Ching"
+      ],
+      "short_names": [
+        "Su YY",
+        "Liu YL",
+        "Huang HC",
+        "Lin CC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7831-7855"
+      ],
+      "affiliations": [
+        "Institute of Biomedical Informatics, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+        "Institute of Biomedical Informatics, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+        "Division of General Surgery, Department of Surgery, Kaohsiung Chang Gung Memorial Hospital, Kaohsiung, Taiwan.",
+        "Institute of Biomedical Informatics, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+        "Institute of Biomedical Informatics, National Yang Ming Chiao Tung University, Taipei, Taiwan. chenching.lin@nycu.edu.tw."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Su, Yin-Yuan",
+        "short_name": "Su YY",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Informatics, National Yang Ming Chiao Tung University, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Liu, Yu-Ling",
+        "short_name": "Liu YL",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Informatics, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+          "Division of General Surgery, Department of Surgery, Kaohsiung Chang Gung Memorial Hospital, Kaohsiung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Huang, Hsuan-Cheng",
+        "short_name": "Huang HC",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Informatics, National Yang Ming Chiao Tung University, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lin, Chen-Ching",
+        "short_name": "Lin CC",
+        "identifiers": [
+          "0000-0002-7831-7855"
+        ],
+        "affiliations": [
+          "Institute of Biomedical Informatics, National Yang Ming Chiao Tung University, Taipei, Taiwan. chenching.lin@nycu.edu.tw."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2023 Jul 20",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/21 01:12",
+    "fetched_at": "2026-09-29 04:11:17"
+  },
+  "links": {
+    "cites": [
+      "42352887",
+      "42065041",
+      "40236779",
+      "39470545",
+      "37809372"
+    ],
+    "refs": [
+      "33922264",
+      "32750649",
+      "32292495",
+      "32139611",
+      "32054109",
+      "31963662",
+      "31899343",
+      "31547800",
+      "31511426",
+      "31308507",
+      "31281495",
+      "31143184",
+      "30778349",
+      "30361097",
+      "29967264",
+      "29673148",
+      "29487346",
+      "29186616",
+      "29158945",
+      "29143982",
+      "28580957",
+      "28569437",
+      "28411440",
+      "27806300",
+      "27773462",
+      "27026074",
+      "27025601",
+      "26792806",
+      "26771021",
+      "26719893",
+      "26597958",
+      "25948244",
+      "25652642",
+      "25220353",
+      "24970477",
+      "24958609",
+      "24717294",
+      "24485249",
+      "23915189",
+      "23349490",
+      "23175613",
+      "22301780",
+      "21832157",
+      "21289131",
+      "21196225",
+      "21133840",
+      "20980435",
+      "20890394",
+      "20457564",
+      "20189297",
+      "20066113",
+      "19959714",
+      "19883121",
+      "19491198",
+      "19398263",
+      "19343034",
+      "19302050",
+      "19301259",
+      "19146866",
+      "18805788",
+      "18161752",
+      "18081536",
+      "17965732",
+      "17589521",
+      "17304502",
+      "16870619",
+      "16771709",
+      "16420477",
+      "16175180",
+      "15880358",
+      "15611130",
+      "15329734",
+      "14708027",
+      "11911826",
+      "11239407",
+      "10367403",
+      "10209157",
+      "9238713",
+      "9212230",
+      "7514531"
+    ],
+    "similar": [
+      "37475016",
+      "27641334",
+      "26463651",
+      "23553791",
+      "33539010",
+      "35378311",
+      "15722350",
+      "31239273",
+      "29301506",
+      "29801480",
+      "34603338",
+      "24776844",
+      "33802957",
+      "25912078",
+      "30059519",
+      "36555293",
+      "26935527",
+      "30594216",
+      "15278366",
+      "23532848",
+      "21492457",
+      "34853340",
+      "30302816",
+      "30289981",
+      "31704731",
+      "15110174",
+      "29158255",
+      "28423652",
+      "26943587",
+      "17638919",
+      "29621649",
+      "35955463",
+      "26792858",
+      "26011589",
+      "18297686",
+      "36142230",
+      "25329315",
+      "17407600",
+      "18990758",
+      "27545642",
+      "24176808",
+      "25401416",
+      "32854746",
+      "26062845",
+      "37147986",
+      "22628123",
+      "28600813",
+      "31072371",
+      "30227836",
+      "33918859",
+      "36866759",
+      "18675993",
+      "35465161",
+      "31631978",
+      "17254567",
+      "36923216",
+      "35803533",
+      "35180863",
+      "17848167",
+      "15723831",
+      "21203561",
+      "33716082",
+      "25033833",
+      "36341760",
+      "34197030",
+      "35504321",
+      "24188694",
+      "30777098",
+      "33167919",
+      "22723832",
+      "34863149",
+      "31667686",
+      "25252859",
+      "32810619",
+      "33211379",
+      "33753567",
+      "19017994",
+      "30497491",
+      "12432072",
+      "27476169",
+      "29259013",
+      "26103053",
+      "25503960",
+      "11591888",
+      "15722553",
+      "26683377",
+      "31974598",
+      "29075784",
+      "24786829",
+      "36917262",
+      "33979588",
+      "25386819",
+      "30930932",
+      "37973854",
+      "37387111",
+      "38114659",
+      "29695914",
+      "38236062",
+      "33606503",
+      "34415837",
+      "37242535",
+      "38634218",
+      "38903861",
+      "33627672",
+      "32208336",
+      "38132287",
+      "35725628",
+      "34661974",
+      "38736017"
+    ],
+    "review": [
+      "37475016",
+      "15110174",
+      "32810619",
+      "33211379",
+      "25386819",
+      "29695914",
+      "38634218"
+    ],
+    "pmc": [
+      "10357720"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-023-04355-5",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37475016/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37475016",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

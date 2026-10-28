@@ -1,0 +1,521 @@
+{
+  "identity": {
+    "pmid": "39058337",
+    "doi": "10.1002/advs.202404853",
+    "title": "Polyamine Anabolism Promotes Chemotherapy-Induced Breast Cancer Stem Cell Enrichment."
+  },
+  "content": {
+    "abstract": "Breast cancer patients may initially benefit from cytotoxic chemotherapy but experience treatment resistance and relapse. Chemoresistant breast cancer stem cells (BCSCs) play a pivotal role in cancer recurrence and metastasis, however, identification and eradication of BCSC population in patients are challenging. Here, an mRNA-based BCSC signature is developed using machine learning strategy to evaluate cancer stemness in primary breast cancer patient samples. Using the BCSC signature, a critical role of polyamine anabolism in the regulation of chemotherapy-induced BCSC enrichment, is elucidated. Mechanistically, two key polyamine anabolic enzymes, ODC1 and SRM, are directly activated by transcription factor HIF-1 in response to chemotherapy. Genetic inhibition of HIF-1-controlled polyamine anabolism blocks chemotherapy-induced BCSC enrichment in vitro and in xenograft mice. A novel specific HIF-1 inhibitor britannin is identified through a natural compound library screening, and demonstrate that coadministration of britannin efficiently inhibits chemotherapy-induced HIF-1 transcriptional activity, ODC1 and SRM expression, polyamine levels, and BCSC enrichment in vitro and in xenograft and autochthonous mouse models. The findings demonstrate the key role of polyamine anabolism in BCSC regulation and provide a new strategy for breast cancer treatment.",
+    "keywords": [
+      "HIF-1 inhibitor",
+      "breast cancer stem cell",
+      "britannin",
+      "chemotherapy",
+      "hypoxia-inducible factor 1",
+      "polyamine anabolism"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/drug therapy/metabolism/genetics",
+      "Animals",
+      "Female",
+      "*Neoplastic Stem Cells/drug effects/metabolism",
+      "Mice",
+      "*Polyamines/metabolism",
+      "Cell Line, Tumor",
+      "Disease Models, Animal",
+      "Antineoplastic Agents/pharmacology",
+      "Hypoxia-Inducible Factor 1/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ji, Guangyu",
+        "Liu, Jia",
+        "Zhao, Zhiqun",
+        "Lan, Jie",
+        "Yang, You",
+        "Wang, Zheng",
+        "Feng, Huijing",
+        "Ji, Kai",
+        "Jiang, Xiaofeng",
+        "Xia, Huize",
+        "Wei, Guangyao",
+        "Zhang, Yajing",
+        "Zhang, Yuhong",
+        "Du, Xinlong",
+        "Wang, Yawen",
+        "Yang, Yuanyuan",
+        "Liu, Zhaojian",
+        "Zhang, Kai",
+        "Mei, Qi",
+        "Sun, Rong",
+        "Lu, Haiquan"
+      ],
+      "short_names": [
+        "Ji G",
+        "Liu J",
+        "Zhao Z",
+        "Lan J",
+        "Yang Y",
+        "Wang Z",
+        "Feng H",
+        "Ji K",
+        "Jiang X",
+        "Xia H",
+        "Wei G",
+        "Zhang Y",
+        "Zhang Y",
+        "Du X",
+        "Wang Y",
+        "Yang Y",
+        "Liu Z",
+        "Zhang K",
+        "Mei Q",
+        "Sun R",
+        "Lu H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6570-7208"
+      ],
+      "affiliations": [
+        "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China.",
+        "School of Basic Medical Sciences, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China.",
+        "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China.",
+        "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China.",
+        "Department of Radiation Oncology, Cancer Center and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, 610041, China.",
+        "Department of Pediatrics (Children Hematological Oncology), Birth Defects and Childhood Hematological Oncology Laboratory, The Affiliated Hospital of Southwest Medical University, Sichuan Clinical Research Center for Birth Defects, Luzhou, 646000, China.",
+        "Department of Urology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, 250021, China.",
+        "Cancer Center, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Taiyuan, 030032, China.",
+        "Shandong Helix Matrix Data Technology, Jinan, 250014, China.",
+        "Youth League Committee, Qilu Hospital, Shandong University, Jinan, 250012, China.",
+        "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China.",
+        "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China.",
+        "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China.",
+        "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China.",
+        "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China.",
+        "Department of Breast Surgery, General Surgery, Qilu Hospital, Shandong University, Jinan, 250012, China.",
+        "Shandong Artificial Intelligence Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250399, China.",
+        "School of Basic Medical Sciences, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China.",
+        "Department of Breast Surgery, General Surgery, Qilu Hospital, Shandong University, Jinan, 250012, China.",
+        "Cancer Center, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Taiyuan, 030032, China.",
+        "Department of Oncology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430000, China.",
+        "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China.",
+        "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China.",
+        "Key Laboratory for Experimental Teratology of the Ministry of Education, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China.",
+        "Center for Reproductive Medicine, Shandong University, Jinan, 250001, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ji, Guangyu",
+        "short_name": "Ji G",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China.",
+          "School of Basic Medical Sciences, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jia",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zhiqun",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Lan, Jie",
+        "short_name": "Lan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Cancer Center and State Key Laboratory of Biotherapy, West China Hospital, Sichuan University, Chengdu, 610041, China."
+        ]
+      },
+      {
+        "full_name": "Yang, You",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics (Children Hematological Oncology), Birth Defects and Childhood Hematological Oncology Laboratory, The Affiliated Hospital of Southwest Medical University, Sichuan Clinical Research Center for Birth Defects, Luzhou, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zheng",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, 250021, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Huijing",
+        "short_name": "Feng H",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Taiyuan, 030032, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Kai",
+        "short_name": "Ji K",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Helix Matrix Data Technology, Jinan, 250014, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Xiaofeng",
+        "short_name": "Jiang X",
+        "identifiers": [],
+        "affiliations": [
+          "Youth League Committee, Qilu Hospital, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Huize",
+        "short_name": "Xia H",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Guangyao",
+        "short_name": "Wei G",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yajing",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuhong",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Du, Xinlong",
+        "short_name": "Du X",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yawen",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, General Surgery, Qilu Hospital, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yuanyuan",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shandong Artificial Intelligence Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, 250399, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhaojian",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Kai",
+        "short_name": "Zhang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, General Surgery, Qilu Hospital, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Mei, Qi",
+        "short_name": "Mei Q",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center, Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Tongji Shanxi Hospital, Third Hospital of Shanxi Medical University, Taiyuan, 030032, China.",
+          "Department of Oncology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430000, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Rong",
+        "short_name": "Sun R",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Haiquan",
+        "short_name": "Lu H",
+        "identifiers": [
+          "0000-0001-6570-7208"
+        ],
+        "affiliations": [
+          "The Second Hospital and Advanced Medical Research Institute, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China.",
+          "Key Laboratory for Experimental Teratology of the Ministry of Education, Cheeloo College of Medicine, Shandong University, Jinan, 250012, China.",
+          "Center for Reproductive Medicine, Shandong University, Jinan, 250001, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2024 Oct",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/26 12:47",
+    "fetched_at": "2026-09-30 00:11:50"
+  },
+  "links": {
+    "cites": [
+      "41361241",
+      "41271556",
+      "41022601",
+      "40687245",
+      "40269930",
+      "40242505",
+      "39493764"
+    ],
+    "refs": [
+      "36253451",
+      "36119047",
+      "35477776",
+      "35013601",
+      "34862480",
+      "34216540",
+      "33589595",
+      "33239679",
+      "32742562",
+      "32427827",
+      "32427586",
+      "31792354",
+      "31649238",
+      "31503278",
+      "31016375",
+      "30846393",
+      "30691683",
+      "30181570",
+      "29606612",
+      "29510720",
+      "29419804",
+      "29376126",
+      "29371440",
+      "28658205",
+      "28633466",
+      "28007895",
+      "27995946",
+      "27841323",
+      "27141887",
+      "26460945",
+      "26278220",
+      "26229077",
+      "25748930",
+      "25292420",
+      "25091696",
+      "25007966",
+      "24778323",
+      "24577057",
+      "23453623",
+      "23041064",
+      "22304911",
+      "21680574",
+      "20498387",
+      "19190339",
+      "19010902",
+      "18445819",
+      "18371393",
+      "18176934",
+      "15987427",
+      "15894264",
+      "12629218",
+      "10999758",
+      "9235919",
+      "8955077"
+    ],
+    "similar": [
+      "39058337",
+      "29880481",
+      "28228260",
+      "30242135",
+      "35401817",
+      "32427586",
+      "26405042",
+      "30691683",
+      "36490339",
+      "41271556",
+      "24248265",
+      "34706936",
+      "39135143",
+      "32143670",
+      "25587023",
+      "21914219",
+      "28012234",
+      "27590511",
+      "41398295",
+      "34592152",
+      "30231942",
+      "29187905",
+      "24008319",
+      "38520019",
+      "29262329",
+      "39729781",
+      "23741069",
+      "30340507",
+      "29106390",
+      "26201092",
+      "37768037",
+      "27001847",
+      "29367423",
+      "30707960",
+      "33934099",
+      "25660951",
+      "33045304",
+      "23663564",
+      "31347176",
+      "26229077",
+      "34715882",
+      "27129776",
+      "25453096",
+      "33309858",
+      "40999529",
+      "25669721",
+      "20521089",
+      "33184339",
+      "27001172",
+      "27687248",
+      "29393454",
+      "25904215",
+      "30875891",
+      "22152097",
+      "19727732",
+      "24570583",
+      "25686711",
+      "30536571",
+      "24786790",
+      "19020250",
+      "21258409",
+      "29620216",
+      "22023707",
+      "27259689",
+      "33182375",
+      "41518394",
+      "37865128",
+      "36460773",
+      "29249690",
+      "27270657",
+      "26387946",
+      "27197172",
+      "41669987",
+      "36599922",
+      "36915147",
+      "39273037",
+      "23566416",
+      "24517586",
+      "30082484",
+      "28114286",
+      "33722905",
+      "35063459",
+      "33416137",
+      "27374091",
+      "22911725",
+      "28648642",
+      "40412576",
+      "40637021",
+      "39561883",
+      "27894093",
+      "29110616",
+      "27460092",
+      "39375243",
+      "26305906",
+      "16207710",
+      "31118200",
+      "33509807",
+      "32451329",
+      "30482914",
+      "34067619"
+    ],
+    "review": [
+      "39058337",
+      "26405042",
+      "30691683",
+      "25669721",
+      "20521089",
+      "40412576"
+    ],
+    "pmc": [
+      "11516096"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39058337/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39058337",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ODC1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

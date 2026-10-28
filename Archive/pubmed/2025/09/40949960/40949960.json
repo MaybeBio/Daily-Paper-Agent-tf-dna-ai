@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "40949960",
+    "doi": "10.1101/2025.09.03.673821",
+    "title": "Design Rules for Expanding PAM Compatibility in CRISPR-Cas9 from the VQR, VRER and EQR variants."
+  },
+  "content": {
+    "abstract": "Expanding the range of Protospacer Adjacent Motifs (PAMs) recognized by CRISPR-Cas9 is essential for broadening genome-editing applications. Here, we combine molecular dynamics simulations with graph-theory and centrality analyses to dissect the principles of PAM recognition in three Cas9 variants - VQR, VRER, and EQR - that target non-canonical PAMs. We show that efficient recognition is not dictated solely by direct contacts between PAM-interacting residues and DNA, but also by a distal network that stabilizes the PAM-binding domain and preserves long-range communication with REC3, a hub that relays signals to the HNH nuclease. A key role emerges for the D1135V/E substitution, which enables stable DNA binding by K1107 and preserves key DNA phosphate locking interactions via S1109, securing stable PAM engagement. In contrast, variants carrying only R-to-Q substitutions at PAM-contacting residues, though predicted to enhance adenine recognition, destabilize the PAM-binding cleft, perturb REC3 dynamics, and disrupt allosteric coupling to HNH. Together, these findings establish that PAM recognition requires local stabilization, distal coupling, and entropic tuning, rather than a simple consequence of base-specific contacts. This framework provides guiding principles for engineering Cas9 variants with expanded PAM compatibility and improved editing efficiency.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vieyra, Francisco",
+        "Pindi, Chinmai",
+        "Lisi, George P",
+        "Morzan, Uriel N",
+        "Palermo, Giulia"
+      ],
+      "short_names": [
+        "Vieyra F",
+        "Pindi C",
+        "Lisi GP",
+        "Morzan UN",
+        "Palermo G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7873-013X",
+        "ORCID: 0000-0001-8878-5655",
+        "ORCID: 0000-0003-1404-8737"
+      ],
+      "affiliations": [
+        "Department of Inorganic, Analytical & Chemical Physics, University of Buenos Aires, Argentina.",
+        "Department of Bioengineering, University of California Riverside, 900 University Avenue, Riverside, CA 52512, United States.",
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, United States; Department of Chemistry, University of California Riverside, 900 University Avenue, Riverside, CA 52512, United States.",
+        "Brown University RNA Center, Providence, RI, United States.",
+        "Buenos Aires Institute of Physics, University of Buenos Aires, Argentina.",
+        "Department of Inorganic, Analytical & Chemical Physics, University of Buenos Aires, Argentina.",
+        "Department of Bioengineering, University of California Riverside, 900 University Avenue, Riverside, CA 52512, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vieyra, Francisco",
+        "short_name": "Vieyra F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Inorganic, Analytical & Chemical Physics, University of Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Pindi, Chinmai",
+        "short_name": "Pindi C",
+        "identifiers": [
+          "0000-0002-7873-013X"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, University of California Riverside, 900 University Avenue, Riverside, CA 52512, United States."
+        ]
+      },
+      {
+        "full_name": "Lisi, George P",
+        "short_name": "Lisi GP",
+        "identifiers": [
+          "0000-0001-8878-5655"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, United States; Department of Chemistry, University of California Riverside, 900 University Avenue, Riverside, CA 52512, United States.",
+          "Brown University RNA Center, Providence, RI, United States."
+        ]
+      },
+      {
+        "full_name": "Morzan, Uriel N",
+        "short_name": "Morzan UN",
+        "identifiers": [],
+        "affiliations": [
+          "Buenos Aires Institute of Physics, University of Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Palermo, Giulia",
+        "short_name": "Palermo G",
+        "identifiers": [
+          "0000-0003-1404-8737"
+        ],
+        "affiliations": [
+          "Department of Inorganic, Analytical & Chemical Physics, University of Buenos Aires, Argentina.",
+          "Department of Bioengineering, University of California Riverside, 900 University Avenue, Riverside, CA 52512, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Sep 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/15 12:35",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40172964",
+      "40146191",
+      "39928547",
+      "39655478",
+      "39569582",
+      "38688943",
+      "38600752",
+      "38368461",
+      "38033317",
+      "36947696",
+      "36778082",
+      "36634135",
+      "35240127",
+      "34908530",
+      "33032427",
+      "32572269",
+      "32070859",
+      "31885264",
+      "31714766",
+      "31041385",
+      "30744993",
+      "30166441",
+      "28931002",
+      "28764328",
+      "27800559",
+      "27300587",
+      "27253437",
+      "27074285",
+      "26990992",
+      "26894745",
+      "26876046",
+      "26735016",
+      "26524520",
+      "26098369",
+      "25723899",
+      "25079318",
+      "24476820",
+      "22745249",
+      "21921995",
+      "19351898",
+      "18560010",
+      "17212484",
+      "16211538",
+      "12060727",
+      "11433033"
+    ],
+    "similar": [
+      "40949960",
+      "41217062",
+      "26990992",
+      "35411720",
+      "26990991",
+      "30559100",
+      "31198958",
+      "30928637",
+      "29512652",
+      "30894632",
+      "28605576",
+      "39803448",
+      "32241913",
+      "40146191",
+      "39928547",
+      "42106677",
+      "34322166",
+      "26680661",
+      "41511442",
+      "42090299",
+      "41288355",
+      "42610742",
+      "28764328",
+      "38974859",
+      "35666156",
+      "40273916",
+      "26098369",
+      "31041385",
+      "31603896",
+      "36312444",
+      "40376084",
+      "30928636",
+      "34713242",
+      "41497657",
+      "38667371",
+      "40808297",
+      "32258048",
+      "41324601",
+      "38600752",
+      "33397431",
+      "39171866",
+      "26524662",
+      "39111827",
+      "34984801",
+      "37735239",
+      "40323736",
+      "37643152",
+      "42395600",
+      "39471812",
+      "25079318",
+      "36076084",
+      "32832642",
+      "35637227",
+      "37078688",
+      "33383203",
+      "34631280",
+      "37662375",
+      "40959957",
+      "38446895",
+      "30581144",
+      "34133740",
+      "38052959",
+      "39829748",
+      "41532605",
+      "41281666",
+      "29320734",
+      "40262634",
+      "33398158",
+      "41991526",
+      "28595896",
+      "32424114",
+      "38713743",
+      "32494703",
+      "33346713",
+      "39566771",
+      "41656299",
+      "24956376",
+      "41629462",
+      "38733582",
+      "32130891",
+      "31702097",
+      "37794046",
+      "32217751",
+      "31885264",
+      "34011687",
+      "41516361",
+      "30573670",
+      "42475469",
+      "38688943",
+      "34337358",
+      "39499471",
+      "39554198",
+      "28484024",
+      "38819403",
+      "30928635",
+      "36272409",
+      "40004545",
+      "33898973",
+      "30664728",
+      "36945419"
+    ],
+    "review": [
+      "40949960"
+    ],
+    "pmc": [
+      "12424760"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40949960/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3445",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.09.03.673821",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

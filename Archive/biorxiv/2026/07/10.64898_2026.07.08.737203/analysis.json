@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.07.08.737203",
+  "title": "Interactome Specialization Predicts Genome-Wide Binding-Site Degeneracy in Drosophila melanogaster Transcription Factors",
+  "authors": "Arun Ram Ponnambalam; Krishnan Venkiteswaran pottore",
+  "journal": "bioRxiv",
+  "published_date": "2026-07-11",
+  "window": {
+    "start": "2026-07-06",
+    "end": "2026-07-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究果蝇转录因子在蛋白互作网络中的模块化程度与DNA结合基序简并性的关联，涉及TF-DNA结合位点密度预测，但主要基于统计关联而非AI或物理模拟建模，方法深度不足。",
+  "abstract": "Transcription factors (TFs) recognize short, degenerate DNA motifs that occur thousands of times throughout the genome, implying that binding specificity depends not only on DNA sequence but also on cellular context, including selective protein-protein interactions. Here, we tested whether a TF’s integration into the physical TF interaction network predicts the degeneracy of its DNA-binding motif. Using 279 Drosophila melanogaster TFs with matched JASPAR position weight matrices, FlyBase expression profiles, and a physical protein interaction network derived from STRING v12.0 using only experimental and curated-database evidence, we quantified each TF’s TF-module fraction. We compared it with genome-wide predicted binding-site density across an independently constructed 18 Mb genomic sample.TF module fraction showed a significant positive association with binding-site density (partial r = 0.379, P = 5.6e-11)after controlling for motif information content, network degree, and literature bias. The relationship remained significant after excluding the homeodomain family, adding motif architecture controls, and applying multiple robustness analyses, including family-cluster bootstrapping and outlier-resistant correlation tests. Consistent with these findings, TFs formed a highly interconnected physical interaction network far exceeding degree-matched random expectation. Together, these results support a model in which DNA-recognition specificity and protein-interaction specificity represent complementary components of TF targeting: TFs embedded within TF-rich interaction modules tend to possess more degenerate DNA-binding motifs, whereas broadly acting network-generalist TFs rely on more information-rich sequence recognition. We also identify and correct a motif-length-dependent thresholding artifact that can obscure this relationship in genome-wide motif analyses.",
+  "abstract_zh": "转录因子（TFs）识别基因组中数千次出现的短而简并的DNA基序，这意味着结合特异性不仅取决于DNA序列，还取决于细胞环境，包括选择性蛋白质-蛋白质相互作用。在此，我们测试了TF在物理TF相互作用网络中的整合是否能预测其DNA结合基序的简并性。利用279个果蝇（Drosophila melanogaster）TFs，配以匹配的JASPAR位置权重矩阵、FlyBase表达谱，以及基于STRING v12.0仅使用实验和精选数据库证据构建的物理蛋白质相互作用网络，我们量化了每个TF的TF模块分数。我们将其与独立构建的18 Mb基因组样本中全基因组预测的结合位点密度进行了比较。在控制基序信息含量、网络度和文献偏倚后，TF模块分数与结合位点密度呈显著正相关（偏相关系数 r = 0.379，P = 5.6e-11）。在排除同源异型域家族、添加基序架构控制以及应用多种稳健性分析（包括家族聚类自助法和抗离群值相关检验）后，该关系仍然显著。与这些发现一致，TFs形成了一个高度互联的物理相互作用网络，远超度匹配的随机预期。综合来看，这些结果支持一个模型，其中DNA识别特异性和蛋白质相互作用特异性代表TF靶向的互补组成部分：嵌入富含TF的相互作用模块中的TFs倾向于拥有更简并的DNA结合基序，而广泛作用的网络泛化型TFs则依赖信息更丰富的序列识别。我们还识别并纠正了一个基序长度依赖的阈值化伪影，该伪影可能在全基因组基序分析中掩盖这一关系。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737203",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737203",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.07.08.737203/index.html"
+}

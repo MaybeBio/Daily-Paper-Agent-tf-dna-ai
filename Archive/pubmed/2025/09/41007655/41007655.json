@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "41007655",
+    "doi": "10.3390/biomedicines13092092",
+    "title": "Comprehensive Analysis of N6-Methyladenosine Methylation in Transverse Aortic Constriction-Induced Cardiac Fibrosis Based on MeRIP-Seq Analysis."
+  },
+  "content": {
+    "abstract": "Background: The function and mechanism of N6-methyladenosine (m6A) methylation in pressure-overload cardiac fibrosis remains limited and unclear. This study aims to analyze and predict m6A modifications present in mouse hearts because of transverse aortic constriction (TAC). Materials and Methods: Twelve male C57BL/6 mice were randomly assigned to two groups, TAC group and sham group. The RNA Dot Blot assay was employed to evaluate the overall m6A methylation levels in both TAC and sham mice. The expression level of m6A-related enzymes were investigated through RT-PCR and Western blotting. MeRIP-seq and RNA-seq analyses were conducted to identify differentially modified m6A genes and mRNA expression genes. The protein-protein interaction (PPI) network was carried out to choose potential hub genes. Additionally, the transcription factor (TF)-microRNA (miRNA) coregulatory network and the drug-hub gene interaction network were built based on these hub genes. Furthermore, molecular docking simulations were also performed to analyze the interactions between drugs and hub genes. Results: Compared with the sham group, the TAC group demonstrated elevated levels of global m6A methylation. METTL3 and METTL14 were significantly upregulated, whereas FTO and ALKBH5 were significantly downregulated following TAC. MeRIP-seq analysis identified 17,806 m6A peaks associated with 9184 genes and 16,392 m6A peaks associated with 8550 genes in the TAC and sham groups, respectively. In conjunction with RNA-seq data, 66 genes were identified as exhibiting concurrent differences in both m6A methylation levels and mRNA expression. Six hub genes, Cd33, Irf4, Nr4a2, Hspa1b, Nr4a1, and Adcy1, were identified through the construction of a PPI network. The TF-miRNA coregulatory network contains six hub genes, 31 miRNAs, and 24 TFs. The drug-hub genes interaction network included five hub genes and 36 candidate drugs. Conclusions: The m6A modification is prevalent in TAC-induced cardiac fibrosis and significantly contributes to the fibrotic process by regulating critical genes. In the future, it may emerge as one of the potential cardiac fibrosis therapeutic targets.",
+    "keywords": [
+      "MeRIP-seq",
+      "N6-methyladenosine methylation",
+      "cardiac fibrosis",
+      "transverse aortic constriction"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Shidong",
+        "Zhao, Pengying",
+        "He, Yuyuan",
+        "Wang, Jieneng",
+        "Song, Bing",
+        "Yu, Cuntao"
+      ],
+      "short_names": [
+        "Liu S",
+        "Zhao P",
+        "He Y",
+        "Wang J",
+        "Song B",
+        "Yu C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Clinical Medical College, Lanzhou University, Lanzhou 730000, China.",
+        "Department of Cardiovascular Surgery, First Hospital of Lanzhou University, Lanzhou 730000, China.",
+        "The First Clinical Medical College, Lanzhou University, Lanzhou 730000, China.",
+        "Department of Cardiovascular Surgery, First Hospital of Lanzhou University, Lanzhou 730000, China.",
+        "The First Clinical Medical College, Lanzhou University, Lanzhou 730000, China.",
+        "Department of Anesthesiology and Surgery, First Hospital of Lanzhou University, Lanzhou 730000, China.",
+        "Department of Cardiovascular Surgery, First Hospital of Lanzhou University, Lanzhou 730000, China.",
+        "The First Clinical Medical College, Lanzhou University, Lanzhou 730000, China.",
+        "Department of Cardiovascular Surgery, First Hospital of Lanzhou University, Lanzhou 730000, China.",
+        "The First Clinical Medical College, Lanzhou University, Lanzhou 730000, China.",
+        "Department of Cardiovascular Surgery, First Hospital of Lanzhou University, Lanzhou 730000, China.",
+        "Department of Cardiovascular Surgery, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences, Peking Union Medical College, Beijing 100037, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Shidong",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou 730000, China.",
+          "Department of Cardiovascular Surgery, First Hospital of Lanzhou University, Lanzhou 730000, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Pengying",
+        "short_name": "Zhao P",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou 730000, China.",
+          "Department of Cardiovascular Surgery, First Hospital of Lanzhou University, Lanzhou 730000, China."
+        ]
+      },
+      {
+        "full_name": "He, Yuyuan",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou 730000, China.",
+          "Department of Anesthesiology and Surgery, First Hospital of Lanzhou University, Lanzhou 730000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jieneng",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery, First Hospital of Lanzhou University, Lanzhou 730000, China."
+        ]
+      },
+      {
+        "full_name": "Song, Bing",
+        "short_name": "Song B",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou 730000, China.",
+          "Department of Cardiovascular Surgery, First Hospital of Lanzhou University, Lanzhou 730000, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Cuntao",
+        "short_name": "Yu C",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou 730000, China.",
+          "Department of Cardiovascular Surgery, First Hospital of Lanzhou University, Lanzhou 730000, China.",
+          "Department of Cardiovascular Surgery, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences, Peking Union Medical College, Beijing 100037, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomedicines"
+    ],
+    "journal_abbrev": [
+      "Biomedicines"
+    ],
+    "pub_date": "2025 Aug 27",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/27 06:33",
+    "fetched_at": "2026-10-01 02:39:46"
+  },
+  "links": {
+    "cites": [
+      "42245481",
+      "42212370"
+    ],
+    "refs": [
+      "39617501",
+      "39538146",
+      "39529975",
+      "39157458",
+      "38710658",
+      "38509507",
+      "38443404",
+      "38345443",
+      "37918435",
+      "37312565",
+      "37127285",
+      "37056775",
+      "36657656",
+      "36410408",
+      "36370857",
+      "35953789",
+      "35752619",
+      "35643219",
+      "35438793",
+      "34400360",
+      "34368154",
+      "33995055",
+      "33791790",
+      "33150686",
+      "32633106",
+      "32099670",
+      "31849158",
+      "31632388",
+      "30931480",
+      "30887214",
+      "30056242",
+      "29997116",
+      "29531824",
+      "29156001",
+      "28809393",
+      "27373337",
+      "26748307",
+      "26593424",
+      "26321680",
+      "26169532",
+      "25521941",
+      "24662220",
+      "24407421",
+      "24316715",
+      "23653210",
+      "23649149",
+      "23177736",
+      "22608085",
+      "22575960",
+      "18303999",
+      "17332884",
+      "14597658",
+      "14500374"
+    ],
+    "similar": [
+      "41007655",
+      "40856860",
+      "35953789",
+      "35155564",
+      "38254010",
+      "37759187",
+      "40606020",
+      "37363723",
+      "38714753",
+      "41319931",
+      "35673912",
+      "40775729",
+      "36205185",
+      "37892219",
+      "37454940",
+      "34124185",
+      "41431055",
+      "37580808",
+      "35812725",
+      "40546402",
+      "36762777",
+      "36517742",
+      "39501302",
+      "39726587",
+      "40350823",
+      "36336884",
+      "36583755",
+      "35957725",
+      "34413770",
+      "33829047",
+      "38145548",
+      "34249924",
+      "31992337",
+      "39343042",
+      "37963752",
+      "38693740",
+      "38027859",
+      "40025137",
+      "37354568",
+      "36230334",
+      "36609903",
+      "39393275",
+      "39092763",
+      "40913254",
+      "35368708",
+      "38236359",
+      "35712670",
+      "36330380",
+      "36230944",
+      "34413927",
+      "40738703",
+      "34295922",
+      "37229206",
+      "39689341",
+      "36326508",
+      "41137957",
+      "35377493",
+      "33456666",
+      "37455557",
+      "40280045",
+      "41169876",
+      "41130312",
+      "33664770",
+      "37742030",
+      "37979906",
+      "39528936",
+      "38097926",
+      "40744224",
+      "40984650",
+      "36700958",
+      "39563253",
+      "36941720",
+      "36113831",
+      "36597408",
+      "35402566",
+      "40421929",
+      "38754841",
+      "32983644",
+      "35386591",
+      "37549144",
+      "38940781",
+      "37813646",
+      "34880865",
+      "38098098",
+      "35330931",
+      "39980685",
+      "38252224",
+      "32749190",
+      "39735982",
+      "35903698",
+      "40451326",
+      "36875640",
+      "36947363",
+      "33796004",
+      "36609396",
+      "40000966",
+      "33658830",
+      "36172147",
+      "40369924",
+      "37537731"
+    ],
+    "review": [
+      "41007655"
+    ],
+    "pmc": [
+      "12467121"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biomedicines13092092",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41007655/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

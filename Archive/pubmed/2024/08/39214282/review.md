@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract
+- **Shared manuscript claim summary** The authors propose a deep learning method that combines pre-trained protein language model embeddings (ProtTrans) with a multi-window convolutional neural network to predict DNA-interacting residues from protein sequences, reporting an AUC of 0.89 on curated benchmark datasets and claiming substantial improvement over prior sequence-based predictors.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or dataset descriptions provided
+- **Missing materials affecting confidence** Full manuscript, benchmark dataset definitions, training and evaluation protocols, baseline comparisons, statistical significance tests, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful approach for predicting DNA-binding residues, leveraging modern protein language models. However, the evidence provided is insufficient to evaluate the technical soundness, the validity of the performance claim, or the generalizability of the method. The reported AUC of 0.89 lacks context regarding dataset composition, baseline rigor, and variance. The abstract reads more as a promotional summary than a scientific report, and the core claims cannot be verified from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function annotation, DNA-binding site prediction, and applications of deep learning to biological sequences. The work may also interest researchers developing protein language model applications for downstream prediction tasks.
+- **Major strengths** The combination of pre-trained protein language model embeddings with multi-scale convolutional scanning is a reasonable and contemporary design choice. The stated availability of code and data is commendable for reproducibility. The problem addressed, DNA-interacting residue prediction, is of practical relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method achieves an AUC of 0.89, a substantial improvement over previous state-of-the-art sequence-based predictors.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no details on the benchmark datasets used, including their size, composition, redundancy reduction, or split strategy. Without this information, the reported AUC cannot be interpreted. Additionally, no baseline methods are named, and no statistical significance or variance measures are reported.
+  - **Why it matters** A performance claim without dataset context and baseline comparison is not scientifically evaluable. The AUC value alone does not establish superiority, as dataset difficulty and class imbalance heavily influence this metric.
+  - **Resolution test** Provide full dataset descriptions, evaluation protocols, and a comparison table against multiple named baselines with confidence intervals or standard deviations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The publicly available code and data facilitate broader adoption and continued development.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that code and data are available at a GitHub URL, but the repository contents, documentation, and licensing are not described. No version or access date is provided.
+  - **Why it matters** Reproducibility is a core requirement for computational biology claims. Without verification of the repository's completeness and usability, the reproducibility claim is unsubstantiated.
+  - **Resolution test** Describe the repository structure, dependencies, and usage instructions in the manuscript, and confirm the repository is publicly accessible and functional.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The method captures both local and global binding patterns and uncovers the complex syntax governing protein-DNA interactions.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims that multi-window convolution identifies both local and global patterns, but no analysis is presented to demonstrate that the model indeed learns distinct biological motifs or that the multi-scale design contributes beyond single-scale alternatives.
+  - **Why it matters** The claim of mechanistic insight goes beyond predictive performance and requires interpretability analysis or ablation studies to be credible.
+  - **Resolution test** Include ablation experiments removing the multi-window component and provide interpretability analyses such as motif enrichment or attention visualization.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "immense potential" and "transformative opportunities" are promotional and not supported by the evidence presented.
+  - **Required correction** Replace with neutral, descriptive language that focuses on the reported results and their limitations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "curated benchmark datasets" but does not specify how many datasets were used or whether they are publicly available.
+  - **Required correction** Name the datasets and provide citations or accession details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Model architecture
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not specify the number of convolutional windows, kernel sizes, or how the embeddings are integrated with the CNN.
+  - **Required correction** Provide a brief architectural summary in the abstract or refer to a methods section with full details.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The performance claim is not evaluable without dataset and baseline details, and the reproducibility claim is not verifiable without repository description.
+- **Assessment against Nature-style criteria** Originality is moderate, as combining protein language models with CNNs for residue-level prediction is an active area, though the specific combination may offer incremental novelty. Scientific importance is relevant but not demonstrated beyond a single metric. Interdisciplinary readership is plausible, but the abstract lacks sufficient technical detail for computational specialists and sufficient biological context for experimentalists. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is adequate, though promotional language detracts from scientific tone.
+- **Recommendation posture** Currently not established from the provided evidence. The approach is promising, but the abstract does not provide enough information to validate the core claims. A revised manuscript with full methodological details, rigorous baseline comparisons, and reproducibility documentation would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The AUC of 0.89 as a "substantial improvement" over prior state-of-the-art is unsupported without named baselines and dataset context.
+- The claim that the method captures "local and global binding patterns" is unsupported without ablation or interpretability analysis.
+- The claim that the work "uncovers the complex syntax governing protein-DNA interactions" is overstated relative to the evidence provided.
+- The reproducibility claim is unverifiable without repository inspection or description.

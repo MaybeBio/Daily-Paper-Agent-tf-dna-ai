@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.12.20.572497",
+  "title": "Machine Learning Unravels Inherent Structural Patterns in <i>Escherichia coli</i> Hi-C Matrices and Predicts DNA Dynamics",
+  "authors": "Palash Bera; Jagannath Mondal",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-20",
+  "window": {
+    "start": "2023-12-18",
+    "end": "2023-12-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习分析大肠杆菌Hi-C染色体构象与动态，虽涉及DNA结构预测，但非蛋白质-DNA互作体系，且无TF-DNA结合建模，仅间接相关。",
+  "abstract": "The large dimension of the Hi-C-derived chromosomal contact map, even for a bacterial cell, presents challenges in extracting meaningful information related to its complex organization. Here we first demonstrate that a machine-learnt (ML) low-dimensional embedding of a recently reported Hi-C interaction map of archetypal bacteria E. Coli can decode crucial underlying structural pattern. In particular, a three-dimensional latent space representation of (928 × 928) dimensional Hi-C map, derived from an unsupervised artificial neural network, automatically detects a set of spatially distinct domains that show close correspondences with six macro-domains (MDs) that were earlier proposed across E. Coli genome via recombination assay-based experiments. Subsequently, we develop a supervised random-forest regression model by machine-learning intricate relationship between large array of Hi-C-derived chromosomal contact probabilities and diffusive dynamics of each individual chromosomal gene. The resultant ML model dictates that a minimal subset of important chromosomal contact pairs (only 30 %) out of full Hi-C map is sufficient for optimal reconstruction of the heterogenous, coordinate-dependent sub-diffusive motions of chromosomal loci. Specifically the Ori MD was predicted to exhibit most substantial contribution in chromosomal dynamics among all MDs. Finally, the ML models, trained on wild-type E. Coli was tested for its predictive capabilities on mutant bacterial strains, shedding light on the structural and dynamic nuances of ΔMatP30MM and ΔMukBEF22MM chromosomes. Overall our results illuminate the power of ML techniques in unraveling the complex relationship between structure and dynamics of bacterial chromosomal loci, promising meaningful connections between our ML-derived insights and real-world biological phenomena.",
+  "abstract_zh": "Hi-C衍生的染色体接触图谱，即便对于细菌细胞而言，其大维度也为提取与其复杂组织相关的有意义信息带来了挑战。在此，我们首先证明，对近期报道的典型细菌大肠杆菌（E. Coli）Hi-C相互作用图谱进行机器学习（ML）低维嵌入，能够解码关键的基础结构模式。特别地，通过无监督人工神经网络获得的（928 × 928）维Hi-C图谱的三维潜在空间表示，自动检测出一组空间上不同的结构域，这些结构域与早期通过重组测定实验在大肠杆菌基因组中提出的六个宏结构域（MDs）高度对应。随后，我们通过机器学习Hi-C衍生的染色体接触概率与每个个体染色体基因扩散动力学之间的复杂关系，开发了一种有监督的随机森林回归模型。所得的ML模型表明，从完整Hi-C图谱中选取的最小重要染色体接触对子集（仅30%）足以最优重构染色体位点的异质性、坐标依赖性亚扩散运动。具体而言，在所有MDs中，Ori MD被预测在染色体动力学中贡献最大。最后，在野生型大肠杆菌上训练的ML模型，被测试其对突变菌株的预测能力，揭示了ΔMatP30MM和ΔMukBEF22MM染色体的结构与动力学细微差异。总体而言，我们的结果阐明了ML技术在揭示细菌染色体位点结构与动力学之间复杂关系方面的力量，有望在我们ML衍生的见解与现实世界生物现象之间建立有意义的联系。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.12.20.572497",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.12.20.572497",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.12.20.572497/index.html"
+}

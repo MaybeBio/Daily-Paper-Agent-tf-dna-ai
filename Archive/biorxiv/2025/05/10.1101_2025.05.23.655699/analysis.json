@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.23.655699",
+  "title": "Beyond binding motif: genomic context predicts transcription factor dependent regulation in Arabidopsis",
+  "authors": "Laura Turchi; Jérémy Lucas; Gabrielle Tichtinsky; Nicolas Thierry-Mieg; Romain Blanc-Mathieu; François Parcy; Antoine Frénoy",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-27",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文利用机器学习基于基因组上下文特征区分拟南芥LFY转录因子的调控性结合位点与非调控性结合位点，聚焦TF-DNA结合与调控预测，但未涉及三维结构或物理模拟，方法可迁移至TF-DNA互作建模。",
+  "abstract": "Transcription Factors (TFs) play a crucial role in the spatiotemporal control of gene expression. Despite the presence of many potential TF binding sites (TFBS) across the genome, TFs do not interact with all of them, and, among those, only a subset leads to actual regulation. In this work, we investigate how the genomic context of a putative TFBS, including the occurrence of binding motifs for other TFs, can be used to predict effective transcriptional regulation by a TF of interest. We focus on LEAFY (LFY), a plant-specific TF and master regulator of flower development. Using available transcriptomes and TF-DNA binding experiments, we identify 1164 LFY binding sites associated with a regulatory response in Arabidopsis thaliana . We then apply a machine learning approach based on properties of the surrounding genomic region, to discriminate these regulatory LFY binding sites from non-regulatory ones. Detailed analysis of the model’s components reveals that, for LFY, the density and quality of binding sites constitute the most important features but were not sufficient on their own to predict regulatory activity. The presence of binding sites for other transcription factors and the overall richness in TFBS were also essential. These results clarify the nature of the regulatory code by which LFY operates and could serve as a basis for the study of the regulatory elements of other transcription factors. Abstract Figure",
+  "abstract_zh": "转录因子（Transcription Factors, TFs）在基因表达的时空调控中扮演着关键角色。尽管基因组中存在许多潜在的转录因子结合位点（TF binding sites, TFBS），但转录因子并非与所有位点相互作用，且其中仅有一小部分导致实际的调控作用。在本研究中，我们探讨了假定的TFBS的基因组背景（包括其他转录因子结合基序的出现）如何用于预测目标转录因子的有效转录调控。我们聚焦于LEAFY（LFY），一种植物特异性转录因子，也是花发育的主调控因子。利用现有的转录组数据和TF-DNA结合实验，我们在拟南芥（Arabidopsis thaliana）中鉴定了1164个与调控响应相关的LFY结合位点。随后，我们采用基于周围基因组区域特性的机器学习方法，将这些调控性LFY结合位点与非调控性位点区分开来。对模型组分的详细分析揭示，对于LFY而言，结合位点的密度和质量是最重要的特征，但仅凭这些特征不足以预测调控活性。其他转录因子结合位点的存在以及TFBS的整体丰富度也至关重要。这些结果阐明了LFY运作所依据的调控代码的本质，并可为研究其他转录因子的调控元件奠定基础。摘要图",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.23.655699",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.23.655699",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.23.655699/index.html"
+}

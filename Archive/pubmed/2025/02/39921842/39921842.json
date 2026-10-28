@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "39921842",
+    "doi": "10.1007/s11030-024-11103-4",
+    "title": "Pharmacophore-based identification and in Silico characterization of microbial metabolites as potential modulators of Wnt signaling pathway in colorectal cancer therapy."
+  },
+  "content": {
+    "abstract": "Aberrant activation of the Wnt/beta-catenin signaling pathway, primarily driven by APC mutation and AXIN degradation via Tankyrase, contributes significantly to colorectal cancer (CRC) progression and metastasis. The accumulation of beta-catenin, resulting from the dysregulated ubiquitination, underscores the need for alternative therapeutic strategies targeting Tankyrase and beta-catenin. This present study explores microbial metabolites as a source of novel anti-cancer agents, leveraging their unique bioactivity and structural diversity, often exhibiting superior target specificity and lower toxicity than synthetic drugs. Through a computational drug discovery pipeline, a large library of 27641 microbial metabolites was initially screened based on multiple drug-likeliness criteria, resulting in the selection of 2527 compounds. Among the screened compounds, an integrated computational workflow comprising molecular docking, molecular dynamic simulations (MDS), MM/PBSA analysis, and Principal component analysis (PCA) identified Terreustoxin I (T1) as a potential Tankyrase inhibitor. In contrast, compound 10- phenyl-[12]-cytochalasin Z16 (B1) demonstrated a strong binding affinity within the beta-catenin active site. Under physiological conditions, these lead compounds were evaluated for conformational stability, binding efficacy, and dynamic behavior. Additionally, ADMET profiling, physiochemical properties, and bioactivity score predictions confirmed the identified compounds' pharmacokinetic suitability and reduced toxicity profile. In silico, cytotoxicity predictions showed significant activity against SW480 and HCT90 colorectal cell lines, with additional anti-neoplastic and anti-leukemic properties, strengthening their candidacy as effective anti-cancer agents. These findings provide a foundation for further experimental validation and development of novel CRC therapies with improved safety and efficacy potential.",
+    "keywords": [
+      "Colorectal Cancer",
+      "Drug discovery",
+      "Microbial metabolites",
+      "Targeted therapy",
+      "Wnt signaling pathway"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/drug therapy/metabolism/pathology",
+      "*Wnt Signaling Pathway/drug effects",
+      "*Antineoplastic Agents/pharmacology/chemistry",
+      "Molecular Docking Simulation",
+      "Tankyrases/antagonists & inhibitors/metabolism",
+      "Molecular Dynamics Simulation",
+      "Cell Line, Tumor",
+      "beta Catenin/metabolism",
+      "Computer Simulation",
+      "Drug Discovery",
+      "Pharmacophore"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sharma, Divya",
+        "Arumugam, Sivakumar"
+      ],
+      "short_names": [
+        "Sharma D",
+        "Arumugam S"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-3376-0847",
+        "ORCID: 0000-0001-8834-8834"
+      ],
+      "affiliations": [
+        "School of Biosciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
+        "School of Biosciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India. siva_kumar.a@vit.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sharma, Divya",
+        "short_name": "Sharma D",
+        "identifiers": [
+          "0009-0004-3376-0847"
+        ],
+        "affiliations": [
+          "School of Biosciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Arumugam, Sivakumar",
+        "short_name": "Arumugam S",
+        "identifiers": [
+          "0000-0001-8834-8834"
+        ],
+        "affiliations": [
+          "School of Biosciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India. siva_kumar.a@vit.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular diversity"
+    ],
+    "journal_abbrev": [
+      "Mol Divers"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/08 19:52",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "41003898",
+      "40787310",
+      "40098960"
+    ],
+    "refs": [
+      "39896135",
+      "38893120",
+      "38760355",
+      "38443712",
+      "38139069",
+      "37964873",
+      "37720594",
+      "37346298",
+      "37250384",
+      "37117213",
+      "36704430",
+      "36675216",
+      "36645225",
+      "36604116",
+      "36582536",
+      "36579676",
+      "36518386",
+      "36215042",
+      "36002695",
+      "35836256",
+      "35468453",
+      "35209009",
+      "35164181",
+      "34631361",
+      "34577194",
+      "34458164",
+      "34072154",
+      "33979675",
+      "33389713",
+      "33276800",
+      "33275320",
+      "33251975",
+      "33212836",
+      "32961708",
+      "32940134",
+      "32296018",
+      "31897238",
+      "30530050",
+      "30238564",
+      "30056837",
+      "29860391",
+      "28099803",
+      "27610414",
+      "27162970",
+      "26617301",
+      "26605738",
+      "26595804",
+      "25860834",
+      "25816325",
+      "25742281",
+      "25411327",
+      "23144924",
+      "22993669",
+      "22270643",
+      "22239221",
+      "21982300",
+      "21909875",
+      "21541964",
+      "19575467",
+      "19399780",
+      "19234730",
+      "19131517",
+      "18334222",
+      "17507442",
+      "16211538",
+      "15813176",
+      "15637400",
+      "15549884",
+      "15264254",
+      "11128093",
+      "3079525"
+    ],
+    "similar": [
+      "39921842",
+      "23539443",
+      "28615517",
+      "27196752",
+      "26930278",
+      "40971369",
+      "30238564",
+      "28179481",
+      "40945215",
+      "26224873",
+      "35849876",
+      "41183043",
+      "35750753",
+      "37968472",
+      "34298950",
+      "25600769",
+      "26246473",
+      "39587396",
+      "28910490",
+      "38913211",
+      "39018921",
+      "32268564",
+      "26124443",
+      "40058577",
+      "23144924",
+      "39067696",
+      "40884804",
+      "28371398",
+      "34273236",
+      "38216082",
+      "19759537",
+      "29107427",
+      "31907221",
+      "30530050",
+      "26544726",
+      "34453681",
+      "33567917",
+      "27338550",
+      "22440753",
+      "39197803",
+      "31704613",
+      "40188614",
+      "31337618",
+      "24294969",
+      "26820603",
+      "34431598",
+      "27835580",
+      "30274939",
+      "37811743",
+      "38497299",
+      "33321421",
+      "29972765",
+      "33266494",
+      "39437684",
+      "39819437",
+      "39487106",
+      "23621985",
+      "41242518",
+      "29784906",
+      "41172603",
+      "33822624",
+      "40975003",
+      "33811251",
+      "27070088",
+      "25007066",
+      "24966585",
+      "40668324",
+      "34713301",
+      "29126913",
+      "29789528",
+      "32665357",
+      "37581526",
+      "32485279",
+      "40240631",
+      "33087710",
+      "29594332",
+      "26820295",
+      "23836602",
+      "31760854",
+      "33858476",
+      "40964966",
+      "38724565",
+      "29884842",
+      "28939743",
+      "29483216",
+      "33581651",
+      "40956517",
+      "29222171",
+      "40418194",
+      "32387457",
+      "28107521",
+      "39022865",
+      "30987669",
+      "29045831",
+      "40649987",
+      "27995250",
+      "30365932",
+      "25799881",
+      "40038893",
+      "40782852"
+    ],
+    "review": [
+      "39921842",
+      "28910490",
+      "28371398",
+      "29107427",
+      "30530050",
+      "33567917",
+      "38497299",
+      "39819437",
+      "25007066",
+      "24966585"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1007/s11030-024-11103-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAE-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-103",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

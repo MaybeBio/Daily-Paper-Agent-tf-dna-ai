@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40155723",
+  "title": "Atomic context-conditioned protein sequence design using LigandMPNN.",
+  "authors": "Dauparas, Justas; Lee, Gyu Rie; Pecoraro, Robert; An, Linna; Anishchenko, Ivan; Glasscock, Cameron; Baker, David",
+  "journal": "Nature methods",
+  "published_date": "2025-03-29",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出LigandMPNN深度学习方法，在蛋白质序列设计中显式建模核苷酸等非蛋白组分，显著提升DNA结合蛋白设计精度，虽非直接研究TF-DNA互作机制，但其方法可迁移至TF-DNA结合位点预测与复合物建模，具有重要借鉴价值。",
+  "abstract": "Protein sequence design in the context of small molecules, nucleotides and metals is critical to enzyme and small-molecule binder and sensor design, but current state-of-the-art deep-learning-based sequence design methods are unable to model nonprotein atoms and molecules. Here we describe a deep-learning-based protein sequence design method called LigandMPNN that explicitly models all nonprotein components of biomolecular systems. LigandMPNN significantly outperforms Rosetta and ProteinMPNN on native backbone sequence recovery for residues interacting with small molecules (63.3% versus 50.4% and 50.5%), nucleotides (50.5% versus 35.2% and 34.0%) and metals (77.5% versus 36.0% and 40.6%). LigandMPNN generates not only sequences but also sidechain conformations to allow detailed evaluation of binding interactions. LigandMPNN has been used to design over 100 experimentally validated small-molecule and DNA-binding proteins with high affinity and high structural accuracy (as indicated by four X-ray crystal structures), and redesign of Rosetta small-molecule binder designs has increased binding affinity by as much as 100-fold. We anticipate that LigandMPNN will be widely useful for designing new binding proteins, sensors and enzymes.",
+  "abstract_zh": "在小分子、核苷酸和金属背景下的蛋白质序列设计对于酶、小分子结合剂及传感器的设计至关重要，但当前最先进的基于深度学习的序列设计方法无法模拟非蛋白质原子和分子。在此，我们描述了一种名为LigandMPNN的基于深度学习的蛋白质序列设计方法，该方法明确模拟生物分子系统中的所有非蛋白质组分。LigandMPNN在与小分子（63.3%对比50.4%和50.5%）、核苷酸（50.5%对比35.2%和34.0%）及金属（77.5%对比36.0%和40.6%）相互作用的残基的天然骨架序列恢复上，显著优于Rosetta和ProteinMPNN。LigandMPNN不仅生成序列，还生成侧链构象，以便对结合相互作用进行详细评估。LigandMPNN已用于设计超过100种经实验验证的高亲和力、高结构精度的小分子和DNA结合蛋白（如四个X射线晶体结构所示），并且对Rosetta小分子结合剂设计的重新设计已将结合亲和力提高多达100倍。我们预期LigandMPNN将在设计新型结合蛋白、传感器和酶方面广泛有用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40155723/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40155723/",
+  "paper_page_path": "papers/pubmed/40155723/index.html"
+}

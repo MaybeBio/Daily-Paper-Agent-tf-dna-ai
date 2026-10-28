@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided manuscript text. No external data or supplementary files were assessed.
+- **Shared manuscript claim summary** The authors use the supervised learning algorithm DELAY to infer gene regulatory networks from published scRNA-seq data of regenerating zebrafish lateral-line neuromasts. They identify ybx1 as a central hub predicted to regulate atoh1a, validate this computationally with motif analysis, and support it experimentally using a ybx1 mutant line showing delayed and reduced hair cell regeneration.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results, Discussion. Figures referenced but not provided. Supplementary tables referenced but not provided.
+- **Missing materials affecting confidence** Figures 1 and 2, Supplementary Tables, raw data, statistical outputs, and details of DELAY model training parameters. These are essential for evaluating the strength of the computational and experimental claims.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting application of a previously published computational tool (DELAY) to a new biological context, with a focused experimental follow-up. The central claim that ybx1 acts upstream of atoh1a to promote rapid hair cell regeneration is plausible but currently rests on a combination of computational inference and a single mutant phenotype that shows modest effects. The haploinsufficiency phenotype is consistent but small, and the mechanistic link between ybx1 and atoh1a is inferred rather than directly demonstrated. The manuscript would benefit from clearer presentation of the computational validation and additional experimental evidence to strengthen the causal chain.
+- **Who would be interested in the results, and why** Researchers studying hair cell regeneration, lateral line biology, gene regulatory networks, and computational methods for single-cell data analysis. The work may also interest those exploring Ybx1 functions beyond its canonical roles in translation and stress responses.
+- **Major strengths** The study applies a sophisticated computational approach to a well-defined biological problem. The identification of a specific cis-regulatory element (cRRPE) in atoh1a with predicted Ybx1 binding sites provides a concrete, testable hypothesis. The use of a mutant line to test the computational prediction is appropriate, and the time-course analysis of regeneration is a reasonable approach to assess kinetic effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for causal claim
+  - **Claim pointer** "ybx1 acts upstream of atoh1a to promote the rapid regeneration of hair cells"
+  - **Evidence pointer** Results section, Figure 2
+  - **Concern** The causal relationship between ybx1 and atoh1a is inferred from (1) DELAY predictions, (2) motif presence in the atoh1a promoter, and (3) delayed regeneration in ybx1 mutants. However, no direct evidence shows that ybx1 regulates atoh1a expression. The mutant phenotype shows a delay and reduction in hair cell number, but atoh1a expression is not directly measured in the mutants. The claim that ybx1 acts "upstream" of atoh1a requires demonstration that atoh1a expression is altered in ybx1 mutants, ideally with temporal resolution.
+  - **Why it matters** The title and abstract make a specific directional claim. Without direct measurement of atoh1a expression in the mutant context, alternative explanations remain, such as ybx1 affecting progenitor proliferation or survival independently of atoh1a.
+  - **Resolution test** Quantify atoh1a expression (e.g., by in situ hybridization, reporter fluorescence, or qPCR) in wild-type versus ybx1 mutant neuromasts at early time points post-ablation. Show that atoh1a induction is delayed or reduced in mutants, and ideally that this precedes or correlates with the observed hair cell deficits.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational validation and interpretability
+  - **Claim pointer** "DELAY can identify key temporal regulators of gene expression" and "ybx1 is the top hub in the network"
+  - **Evidence pointer** Results section, Figure 1
+  - **Concern** The manuscript does not provide sufficient detail on how DELAY was trained and validated for this specific dataset. The claim that ybx1 is the "top hub" depends on the network construction method, which is not fully described. The selection of the top 20 regulators per gene and the combination of HC and SC trajectories into a single network are not justified. No metrics of network accuracy or stability are provided.
+  - **Why it matters** The computational inference is the foundation for the entire study. If the network is not robust or the hub identification is an artifact of the method, the experimental work loses its rationale.
+  - **Resolution test** Provide details on DELAY training, hyperparameters, and validation metrics (e.g., held-out target prediction accuracy). Show that the network is stable across bootstrap resampling or alternative parameter choices. Justify the merging of HC and SC trajectories and the threshold for hub selection.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance of the cRRPE
+  - **Claim pointer** "The results support DELAY's ability to identify key temporal regulators" and the cRRPE is a "candidate regeneration-responsive promoter element"
+  - **Evidence pointer** Results section, Figure 1H
+  - **Concern** The cRRPE is identified by sequence conservation and motif presence, but its functional relevance is not tested. The authors note the element is present in cyprinids but not in other species, which limits the generalizability of the proposed mechanism. No reporter assays or mutagenesis experiments are shown to demonstrate that this element responds to regeneration signals or is required for atoh1a induction.
+  - **Why it matters** The cRRPE is presented as a key finding that links ybx1 to atoh1a regulation. Without functional validation, it remains a correlative observation.
+  - **Resolution test** Perform a reporter assay in zebrafish larvae where the cRRPE drives a fluorescent reporter, and show that it is activated in supporting cells after hair cell ablation. Mutate the predicted Ybx1 binding sites and show loss of reporter activity. Alternatively, use CRISPR to delete the cRRPE and assess atoh1a expression and regeneration.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Phenotype specificity and magnitude
+  - **Claim pointer** "NMs from both the heterozygous and homozygous ybx1 mutant larvae regenerated ~1.5 fewer HCs by two days post ablation"
+  - **Evidence pointer** Results section, Figure 2B
+  - **Concern** The reported deficit is approximately 1.5 hair cells per neuromast. The baseline number of hair cells per neuromast is not stated clearly, so the relative magnitude of this effect is unclear. The manuscript does not report whether this deficit persists or resolves at later time points. The specificity of the phenotype to regeneration is supported by the lack of difference in untreated larvae, but the small effect size raises questions about biological significance.
+  - **Why it matters** A small, transient delay may not support the strong claim of a critical role for ybx1 in "promoting rapid regeneration." The effect size needs to be contextualized.
+  - **Resolution test** Report the absolute hair cell numbers and the percentage reduction. Extend the time course beyond 24 h to determine if the deficit is permanent or transient. Consider testing additional neuromast positions to confirm consistency.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 2B, 2C, 2H, 2I
+  - **Evidence pointer** Results section
+  - **Issue** The manuscript reports p-values but does not state the statistical test used for each comparison in the text. The Supplementary Tables are referenced but not provided.
+  - **Required correction** Clearly state the statistical test used for each comparison in the figure legends or text. Provide effect sizes and confidence intervals where possible.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological clarity
+  - **Affected element** Materials and Methods, "Pre-processing of single-cell RNA-sequencing data"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of pseudotime inference is brief. It is unclear how many cells were used, how many genes were included, and whether the trajectories were validated.
+  - **Required correction** Provide more detail on the number of cells per time point, the number of genes used for trajectory inference, and any quality checks performed on the pseudotime ordering.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of immunolabeling
+  - **Affected element** Figure 2D-F
+  - **Evidence pointer** Results section
+  - **Issue** The immunolabeling is used to confirm reduced Ybx1 expression in heterozygotes, but the quantification is only described for atoh1a+ cells. It is unclear whether Ybx1 levels are reduced in all cell types or specifically in progenitors.
+  - **Required correction** Clarify whether Ybx1 reduction in heterozygotes is global or cell-type specific. If possible, quantify Ybx1 levels in supporting cells as well.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion does not address the limitation that the cRRPE is not conserved in mammals, which limits the translational relevance of the proposed mechanism.
+  - **Required correction** Add a sentence acknowledging this limitation and discussing whether similar mechanisms might exist in mammals through different cis-elements.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (direct measurement of atoh1a in mutants) and R1-M2 (computational validation details) are the most critical. Without these, the central claim of ybx1 acting upstream of atoh1a is not fully supported.
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of DELAY to a new system is novel, but the biological finding (ybx1 in regeneration) is incremental. Scientific importance: Moderate. The work provides a potential new regulator of hair cell regeneration, but the effect is small and the mechanism is not fully validated. Interdisciplinary readership: Limited. The work will primarily interest hearing and lateral line researchers and computational biologists. Technical soundness: The computational approach is sophisticated but under-described. The experimental work is straightforward but lacks direct mechanistic evidence. Readability for nonspecialists: The manuscript is generally well-written and accessible, though the computational sections may be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents an interesting hypothesis and a reasonable first experimental test, but the causal claim requires direct evidence of atoh1a regulation by ybx1 and a more detailed description of the computational methods.
+
+## Risk / unsupported claims
+- The claim that ybx1 acts "upstream" of atoh1a is not directly supported by experimental evidence; atoh1a expression is not measured in ybx1 mutants.
+- The claim that the cRRPE is a "regeneration-responsive" element is speculative; no functional test is provided.
+- The claim that DELAY can identify "key temporal regulators" is supported only by the ybx1 example, which is not fully validated.
+- The statement that the cRRPE "might also have evolved to regulate atoh1a's translation" is speculative and not tested.
+- The claim that ybx1 promotes "rapid" regeneration is based on a ~20% delay, but the absolute time difference and its biological significance are not fully contextualized.

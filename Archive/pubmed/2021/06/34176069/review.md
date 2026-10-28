@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a novel predictor, UMAP-DBP, for identifying DNA-binding proteins from primary sequences. The method combines three feature extraction approaches, a two-stage feature selection procedure using UMAP and feature importance scores, and an Adaboost classifier evaluated with jackknife testing. Reported accuracies are 82.97% on BP1075 and 82.14% on BP594, with Cohen's kappa values of 0.66 and 0.64, respectively. The authors claim this is the first successful application of UMAP to DNA-binding protein identification and state that datasets and code are publicly available.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, baseline comparisons, or performance metrics beyond overall accuracy and Cohen's kappa
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed feature extraction formulas, UMAP parameter settings, feature selection implementation details, baseline method comparisons, statistical significance tests, and code or dataset verification
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational pipeline for DNA-binding protein prediction, but the evidence provided is insufficient to evaluate the novelty, technical soundness, or robustness of the claimed improvements. The reported performance metrics are modest and lack context from baseline comparisons or error analysis. The claim of being the first UMAP application in this domain is not verifiable from the abstract alone. The work may be of interest to the protein function prediction community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in bioinformatics and computational biology focused on protein function annotation, particularly those developing machine learning methods for DNA-binding protein prediction. The combination of UMAP with feature selection and Adaboost may interest method developers seeking dimensionality reduction alternatives in sequence-based prediction tasks.
+- **Major strengths** The abstract clearly describes a three-stage pipeline with distinct feature extraction, feature selection, and classification components. The use of jackknife testing is appropriate for small benchmark datasets. The reported availability of datasets and code supports reproducibility, which is a positive practice.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that UMAP and feature importance score methods were used for feature selection with a progressive relationship between them, and that this contributed to the reported performance.
+  - **Evidence pointer** Abstract, Methods description; location not provided
+  - **Concern** The abstract does not specify how UMAP was used for feature selection, what the "progressive relationship" means operationally, or how feature importance scores were computed. UMAP is typically a dimensionality reduction technique for visualization or embedding, not a feature selection method. The mechanism by which UMAP selects features is unclear and may be conceptually problematic.
+  - **Why it matters** If the feature selection procedure is not clearly defined and justified, the reproducibility of the method is compromised, and the claimed contribution of UMAP to prediction performance cannot be assessed.
+  - **Resolution test** Provide a detailed algorithmic description of the feature selection steps, including how UMAP output was converted into feature rankings or subsets, and demonstrate with a small example or pseudocode.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparative performance
+  - **Claim pointer** The abstract reports overall accuracy of 82.97% on BP1075 and 82.14% on BP594, and implies these results illustrate a feasible method.
+  - **Evidence pointer** Abstract, Results; location not provided
+  - **Concern** No baseline comparisons are provided. Without comparing against existing DNA-binding protein prediction methods on the same datasets, the reported accuracy values have no context. It is unclear whether UMAP-DBP improves upon or merely matches existing approaches.
+  - **Why it matters** The scientific contribution of a new predictor depends on demonstrating improved or at least competitive performance relative to established methods. The absence of comparisons prevents any assessment of the method's value.
+  - **Resolution test** Include a table comparing UMAP-DBP against at least three existing predictors on BP1075 and BP594, with the same evaluation protocol, and report statistical significance tests where applicable.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty claim
+  - **Claim pointer** The abstract states "This is the first study in which UMAP has been successfully applied to identify DNA-binding proteins."
+  - **Evidence pointer** Abstract, Conclusion; location not provided
+  - **Concern** The novelty claim is not supported by any literature review or search evidence in the abstract. Without a systematic comparison to prior work using UMAP in protein function prediction or related sequence classification tasks, this claim cannot be verified.
+  - **Why it matters** An unsupported novelty claim overstates the contribution and may mislead readers about the state of the field.
+  - **Resolution test** Provide a literature search summary in the full manuscript showing that no prior study applied UMAP to DNA-binding protein prediction, and discuss any related applications of UMAP in protein bioinformatics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Feature extraction methods
+  - **Evidence pointer** Abstract, Methods; location not provided
+  - **Issue** The three feature extraction methods are named but not described. The abstract does not specify the dimensions of the feature vectors or how the three feature sets were combined.
+  - **Required correction** In the full manuscript, provide the mathematical definitions of each feature extraction method, the resulting feature vector dimensions, and the concatenation or fusion strategy.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Evaluation metrics
+  - **Affected element** Performance reporting
+  - **Evidence pointer** Abstract, Results; location not provided
+  - **Issue** Only overall accuracy and Cohen's kappa are reported. Sensitivity, specificity, precision, recall, F1-score, and Matthews correlation coefficient are standard metrics for binary classification in this domain and are missing.
+  - **Required correction** Report a full set of standard classification metrics for both datasets in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Parameter sensitivity
+  - **Affected element** UMAP and Adaboost parameters
+  - **Evidence pointer** Abstract, Methods; location not provided
+  - **Issue** No information is given about UMAP hyperparameters (e.g., number of neighbors, minimum distance) or Adaboost settings (e.g., number of estimators, base learner type).
+  - **Required correction** Provide parameter values and, ideally, a sensitivity analysis showing how performance varies with key hyperparameters.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (unclear feature selection mechanism), R1-M2 (no baseline comparisons), R1-M3 (unsupported novelty claim)
+- **Assessment against Nature-style criteria** Originality: The combination of UMAP with Adaboost for DNA-binding protein prediction may be novel, but the abstract does not provide sufficient evidence to distinguish it from prior work. Scientific importance: DNA-binding protein prediction is a relevant problem, but the modest reported performance and lack of comparisons limit the potential impact. Interdisciplinary readership: The work is primarily of interest to bioinformatics specialists; the abstract does not frame the findings for a broader biological audience. Technical soundness: The pipeline is described at a high level, but the feature selection logic and evaluation context are insufficiently detailed to assess correctness. Readability for nonspecialists: The abstract is accessible but uses jargon without explanation, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not support the claims of novelty or improved performance. A full manuscript with detailed methods, baseline comparisons, and complete evaluation metrics would be required to assess the contribution.
+
+## Risk / unsupported claims
+- The claim that UMAP was used for feature selection is unsupported and conceptually unclear.
+- The claim of being the first successful application of UMAP to DNA-binding protein identification is unverifiable from the abstract.
+- The reported accuracy and kappa values are presented without baseline context, making their significance unassessable.
+- The statement that the method is "feasible" is a subjective conclusion not supported by comparative evidence.
+- The availability of datasets and code is stated but cannot be verified from the abstract alone.

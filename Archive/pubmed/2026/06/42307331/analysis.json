@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42307331",
+  "title": "A Phase-Resolved Geometric Deep Learning Framework Maps Structural Determinants of Disease-Associated Protein Aggregation and Guides Suppressor Design.",
+  "authors": "Sio, Jia Shen; Loo, Wei Xuan Wilson; Loo, Yan Shan; Tan, Wen Xin; Lim, Hui Xuan; Liu, Huitao; Ng, Chen Seng",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2026-06-17",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用几何深度学习研究蛋白质聚集相变与抑制子设计，虽涉及结构建模与AI方法，但对象为蛋白-蛋白聚集而非蛋白质-DNA互作，与TF-DNA课题关联较弱。",
+  "abstract": "Protein aggregation drives major neurodegenerative diseases, yet most computational predictors collapse assembly into static risk scores and do not resolve the distinct structural determinants of nucleation and elongation. Here, we present SKALE 2.0, a phase-resolved geometric deep learning framework that represents proteins as multimodal structural graphs and learns mutation-induced aggregation phenotypes directly from three-dimensional topology. Across SOD1, TDP-43, MAPT, and PRNP, SKALE 2.0 recovered a conserved latent transition from nucleation to elongation while resolving distinct mutation-specific phase sensitivities. Representative protein language model, AlphaFold-derived feature, and non-phase-aware structural baselines failed to recover both phase-dependent mutation modulation and phase separability, indicating that explicit phase conditioning is essential. The learned geometry showed that nucleation is preferentially coupled to buried hydrophobic perturbations, whereas elongation is shaped by solvent-accessible interfaces that support fibril propagation. This framework explains how pathogenic variants can remain globally folded yet acquire aggregation competence through localized structural rewiring. Recombinant SOD1 experiments validated predicted suppressor, enhancer, and phase-switch mutations, demonstrating that initiation and propagation can be tuned independently. SKALE 2.0 links atomic topology to phase-specific assembly kinetics and enables a constraint-aware design of aggregation suppressors.",
+  "abstract_zh": "蛋白质聚集驱动主要神经退行性疾病，然而大多数计算预测器将组装过程简化为静态风险评分，未能解析成核与延伸的不同结构决定因素。在此，我们提出SKALE 2.0，一种相位分辨的几何深度学习框架，将蛋白质表示为多模态结构图，并直接从三维拓扑中学习突变诱导的聚集表型。在SOD1、TDP-43、MAPT和PRNP中，SKALE 2.0恢复了从成核到延伸的保守潜在转变，同时解析了不同的突变特异性相位敏感性。代表性蛋白质语言模型、AlphaFold衍生特征及非相位感知的结构基线均未能恢复相位依赖性突变调节和相位可分性，表明显式相位条件化至关重要。学习到的几何结构显示，成核优先耦合于埋藏疏水扰动，而延伸则由支持纤维原纤维传播的溶剂可及界面塑造。该框架解释了致病变体如何在保持整体折叠的同时，通过局部结构重排获得聚集能力。重组SOD1实验验证了预测的抑制子、增强子和相位转换突变，证明起始和传播可独立调节。SKALE 2.0将原子拓扑与相位特异性组装动力学联系起来，并实现了约束感知的聚集抑制子设计。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42307331/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42307331/",
+  "paper_page_path": "papers/pubmed/42307331/index.html"
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a computational study combining multiple tools to build dynamical models of the aryl hydrocarbon receptor (AhR) PAS-B domain bound to different ligands in mouse and human. They claim to identify specific PAS-B residues (e.g., S365, V381, Q383) that mediate ligand binding and regulate AhR promiscuity in accommodating diverse chemicals.
+- **Visible evidence base** Abstract text only; no methodological details, numerical results, or structural data provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, validation metrics, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational investigation of AhR ligand interactions, but the provided material is insufficient to evaluate the scientific claims. The abstract lacks methodological specificity, quantitative results, and validation details. The core claims about specific residues and promiscuity mechanisms are stated without supporting evidence. The work may have merit, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in computational toxicology, structural biology of nuclear receptors, and drug discovery targeting AhR. The potential to explain ligand promiscuity and identify key binding residues could inform rational design of AhR modulators for therapeutic applications, particularly in oncology.
+- **Major strengths** The topic addresses a relevant gap in understanding AhR ligand interactions at the molecular level. The comparative mouse and human approach is sensible given species differences in AhR biology. The focus on dynamical models rather than static structures is appropriate for studying ligand binding plasticity.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that "specific PAS-B residues (e.g., S365, V381& Q383) mediate the AhR ligand-binding process" and "regulate the promiscuity of AhR."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no quantitative data, statistical measures, or comparative analyses to support the identification of these specific residues as functionally important. No binding affinities, interaction energies, or mutation studies are mentioned.  
+  - **Why it matters** Without quantitative evidence, the claim that specific residues mediate binding and regulate promiscuity is unsupported. The scientific value of the work depends on demonstrating that these residues are not merely present in the binding pocket but play a causal role.  
+  - **Resolution test** Provide binding free energy calculations, residue-specific interaction profiles, or mutagenesis simulations showing that altering S365, V381, or Q383 significantly changes ligand binding or selectivity across multiple ligands.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state they "propose a combination of several computational tools to build dynamical models for the PAS-B domain bound to different ligands in mouse and human."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify which computational methods were used (e.g., molecular dynamics, docking, free energy perturbation, metadynamics), how the models were validated, or what simulation timescales and force fields were employed.  
+  - **Why it matters** Reproducibility and assessment of technical rigor are impossible without methodological details. The choice of methods directly affects the reliability of the conclusions.  
+  - **Resolution test** Describe the computational workflow, including software, force fields, simulation lengths, convergence criteria, and validation against experimental structures or binding data.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors imply that their findings "explain how these residues regulate the promiscuity of AhR in accommodating various chemicals."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not present a mechanistic explanation for promiscuity. It is unclear whether the proposed mechanism is based on conformational dynamics, electrostatic complementarity, or hydrophobic plasticity. No comparison across a diverse ligand set is shown.  
+  - **Why it matters** The claim of explaining promiscuity is a central contribution. Without a clear mechanistic model and supporting data, the work does not advance understanding beyond what is already known about AhR ligand binding.  
+  - **Resolution test** Show comparative analyses of multiple structurally diverse ligands, demonstrating how the identified residues accommodate different chemotypes and how this relates to agonist versus antagonist activity.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract uses "PAS-B domain" without defining the acronym or explaining its biological relevance for readers outside the structural biology field.  
+  - **Required correction** Define PAS-B and briefly state its role in AhR function.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Clarity of claims  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "dynamical models" is vague and could refer to molecular dynamics trajectories, ensemble models, or other approaches.  
+  - **Required correction** Specify the type of dynamical modeling performed.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions "agonists/antagonists" but does not indicate how many ligands were studied or whether both classes were represented.  
+  - **Required correction** State the number and types of ligands included in the study.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of methodological detail, quantitative results, and mechanistic explanation means the core claims cannot be evaluated.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The abstract suggests a comparative computational study of AhR ligand interactions, which is not entirely novel given existing literature on AhR structural studies. The specific focus on dynamical models and residue-level promiscuity may offer some originality, but this cannot be assessed without full details.  
+  - **Scientific importance** AhR is a relevant therapeutic target, and understanding ligand binding mechanisms has potential translational value. However, the abstract does not demonstrate that the findings significantly advance current knowledge.  
+  - **Interdisciplinary readership** The topic bridges computational chemistry, structural biology, and toxicology, which could attract a broad audience. The abstract is accessible but lacks depth to engage specialists.  
+  - **Technical soundness** Not assessable from the abstract. The lack of methodological information precludes evaluation of technical rigor.  
+  - **Readability for nonspecialists** The abstract is generally readable but uses domain-specific terms without explanation. The scientific narrative is clear at a high level.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to assess the validity or significance of the claims. A full manuscript review would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The identification of S365, V381, and Q383 as key mediators of ligand binding is unsupported without quantitative data.
+- The claim that the findings "explain" AhR promiscuity is unsupported without a mechanistic model and comparative ligand analyses.
+- The assertion that the computational approach produces "dynamical models" is unverifiable without methodological details.
+- Any implication of therapeutic relevance for antitumor agents is not substantiated by the abstract content.

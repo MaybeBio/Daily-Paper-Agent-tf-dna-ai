@@ -1,0 +1,441 @@
+{
+  "identity": {
+    "pmid": "36232625",
+    "doi": "10.3390/ijms231911323",
+    "title": "Modeling of DNA Damage Repair and Cell Response in Relation to p53 System Exposed to Ionizing Radiation."
+  },
+  "content": {
+    "abstract": "Repair of DNA damage induced by ionizing radiation plays an important role in the cell response to ionizing radiation. Radiation-induced DNA damage also activates the p53 system, which determines the fate of cells. The kinetics of repair, which is affected by the cell itself and the complexity of DNA damage, influences the cell response and fate via affecting the p53 system. To mechanistically study the influences of the cell response to different LET radiations, we introduce a new repair module and a p53 system model with NASIC, a Monte Carlo track structure code. The factors determining the kinetics of the double-strand break (DSB) repair are modeled, including the chromosome environment and complexity of DSB. The kinetics of DSB repair is modeled considering the resection-dependent and resection-independent compartments. The p53 system is modeled by simulating the interactions among genes and proteins. With this model, the cell responses to low- and high-LET irradiation are simulated, respectively. It is found that the kinetics of DSB repair greatly affects the cell fate and later biological effects. A large number of DSBs and a slow repair process lead to severe biological consequences. High-LET radiation induces more complex DSBs, which can be repaired by slow processes, subsequently resulting in a longer cycle arrest and, furthermore, apoptosis and more secreting of TGFbeta. The Monte Carlo track structure simulation with a more realistic repair module and the p53 system model developed in this study can expand the functions of the NASIC code in simulating mechanical radiobiological effects.",
+    "keywords": [
+      "DNA repair",
+      "Monte Carlo",
+      "ionizing radiation",
+      "p53",
+      "track structure"
+    ],
+    "mesh_terms": [
+      "*DNA Breaks, Double-Stranded",
+      "DNA Damage",
+      "DNA Repair",
+      "Linear Energy Transfer",
+      "Radiation, Ionizing",
+      "Transforming Growth Factor beta/genetics",
+      "*Tumor Suppressor Protein p53/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Ankang",
+        "Zhou, Wanyi",
+        "Wu, Zhen",
+        "Zhang, Hui",
+        "Li, Junli",
+        "Qiu, Rui"
+      ],
+      "short_names": [
+        "Hu A",
+        "Zhou W",
+        "Wu Z",
+        "Zhang H",
+        "Li J",
+        "Qiu R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0348-7454",
+        "ORCID: 0000-0002-3511-6164"
+      ],
+      "affiliations": [
+        "Department of Engineering Physics, Tsinghua University, Beijing 100084, China.",
+        "Key Laboratory of Particle & Radiation Imaging, Tsinghua University, Ministry of Education, Beijing 100084, China.",
+        "Department of Engineering Physics, Tsinghua University, Beijing 100084, China.",
+        "Key Laboratory of Particle & Radiation Imaging, Tsinghua University, Ministry of Education, Beijing 100084, China.",
+        "Department of Engineering Physics, Tsinghua University, Beijing 100084, China.",
+        "Nuctech Company Limited, Beijing 100084, China.",
+        "Department of Engineering Physics, Tsinghua University, Beijing 100084, China.",
+        "Key Laboratory of Particle & Radiation Imaging, Tsinghua University, Ministry of Education, Beijing 100084, China.",
+        "Department of Engineering Physics, Tsinghua University, Beijing 100084, China.",
+        "Key Laboratory of Particle & Radiation Imaging, Tsinghua University, Ministry of Education, Beijing 100084, China.",
+        "Department of Engineering Physics, Tsinghua University, Beijing 100084, China.",
+        "Key Laboratory of Particle & Radiation Imaging, Tsinghua University, Ministry of Education, Beijing 100084, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Ankang",
+        "short_name": "Hu A",
+        "identifiers": [
+          "0000-0002-0348-7454"
+        ],
+        "affiliations": [
+          "Department of Engineering Physics, Tsinghua University, Beijing 100084, China.",
+          "Key Laboratory of Particle & Radiation Imaging, Tsinghua University, Ministry of Education, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Wanyi",
+        "short_name": "Zhou W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Engineering Physics, Tsinghua University, Beijing 100084, China.",
+          "Key Laboratory of Particle & Radiation Imaging, Tsinghua University, Ministry of Education, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhen",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Engineering Physics, Tsinghua University, Beijing 100084, China.",
+          "Nuctech Company Limited, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hui",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Engineering Physics, Tsinghua University, Beijing 100084, China.",
+          "Key Laboratory of Particle & Radiation Imaging, Tsinghua University, Ministry of Education, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Li, Junli",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Engineering Physics, Tsinghua University, Beijing 100084, China.",
+          "Key Laboratory of Particle & Radiation Imaging, Tsinghua University, Ministry of Education, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Rui",
+        "short_name": "Qiu R",
+        "identifiers": [
+          "0000-0002-3511-6164"
+        ],
+        "affiliations": [
+          "Department of Engineering Physics, Tsinghua University, Beijing 100084, China.",
+          "Key Laboratory of Particle & Radiation Imaging, Tsinghua University, Ministry of Education, Beijing 100084, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Sep 26",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/15 06:00",
+    "fetched_at": "2026-10-04 20:53:25"
+  },
+  "links": {
+    "cites": [
+      "41285916",
+      "40622666",
+      "39337547",
+      "38969664",
+      "37335333",
+      "37108815"
+    ],
+    "refs": [
+      "34412044",
+      "34063683",
+      "33087281",
+      "32970844",
+      "32710082",
+      "31759308",
+      "29422642",
+      "29413288",
+      "29235574",
+      "28739276",
+      "28718816",
+      "28132842",
+      "26928575",
+      "26452569",
+      "26020242",
+      "25883312",
+      "25261728",
+      "25050845",
+      "23883471",
+      "23792210",
+      "23620567",
+      "23560635",
+      "23560631",
+      "23547740",
+      "22802287",
+      "22090360",
+      "21823972",
+      "21317870",
+      "21281649",
+      "21131661",
+      "20569192",
+      "20426668",
+      "20160708",
+      "19545411",
+      "18657500",
+      "16413492",
+      "16186499",
+      "15574327",
+      "14730303",
+      "12556884",
+      "11604075",
+      "10815636",
+      "9840181",
+      "8052688"
+    ],
+    "similar": [
+      "36232625",
+      "19583974",
+      "27593437",
+      "24041488",
+      "25909147",
+      "25659339",
+      "15966767",
+      "35268641",
+      "27939934",
+      "31933029",
+      "25813721",
+      "21823972",
+      "21036673",
+      "18363426",
+      "39337547",
+      "21935920",
+      "31551253",
+      "10384953",
+      "31744120",
+      "32502756",
+      "21659476",
+      "32779701",
+      "29956296",
+      "33087281",
+      "28477128",
+      "31827107",
+      "29271466",
+      "18363429",
+      "36745857",
+      "25698579",
+      "25497328",
+      "23948232",
+      "31153394",
+      "30668809",
+      "32942300",
+      "23643526",
+      "38981169",
+      "39278665",
+      "24565812",
+      "22264527",
+      "19617533",
+      "24238855",
+      "25567982",
+      "30608893",
+      "30049456",
+      "24252182",
+      "21823824",
+      "10422540",
+      "23525528",
+      "25471955",
+      "32401689",
+      "25076115",
+      "24363165",
+      "33069004",
+      "9712548",
+      "27136939",
+      "22860035",
+      "29351627",
+      "25877535",
+      "22200791",
+      "16038590",
+      "23849169",
+      "21930940",
+      "34066270",
+      "17852554",
+      "25813497",
+      "20100593",
+      "8202592",
+      "17272272",
+      "33247225",
+      "35079078",
+      "30566664",
+      "17126209",
+      "38731948",
+      "38954537",
+      "24180216",
+      "23012265",
+      "34287941",
+      "20861183",
+      "23792210",
+      "34266628",
+      "29953346",
+      "23373901",
+      "22666473",
+      "25844944",
+      "27637859",
+      "33445935",
+      "34071949",
+      "10524431",
+      "32917044",
+      "25098728",
+      "18703169",
+      "19763170",
+      "30470841",
+      "23999659",
+      "27311583",
+      "18927295",
+      "11539957",
+      "24520318",
+      "20426668",
+      "37229870",
+      "26136085",
+      "19218779",
+      "35324325",
+      "29157089",
+      "36336405",
+      "31511190",
+      "35944522",
+      "37848039",
+      "38453644",
+      "39423852",
+      "33374540",
+      "38710823",
+      "34187285",
+      "37455429",
+      "39380956",
+      "36041213",
+      "37754249",
+      "32196468",
+      "36902352",
+      "37325863",
+      "38779775",
+      "36682829",
+      "36648133",
+      "35840793",
+      "36220965",
+      "29219655",
+      "38802101",
+      "37433844",
+      "32001771",
+      "38118162",
+      "21857915",
+      "27047795",
+      "38014593",
+      "36533598",
+      "36357962",
+      "38921049",
+      "38256047",
+      "37397382",
+      "25249831",
+      "38674299",
+      "39425547",
+      "34825138",
+      "38916125",
+      "37961090",
+      "38963141",
+      "31739493",
+      "33326415",
+      "36510032",
+      "38772339",
+      "38285219",
+      "25705130",
+      "36458282",
+      "38392316",
+      "18648573",
+      "26401125",
+      "37712497"
+    ],
+    "review": [
+      "36232625",
+      "35268641",
+      "27939934",
+      "21036673",
+      "21935920",
+      "32779701",
+      "29956296",
+      "33087281",
+      "23948232",
+      "22264527",
+      "30608893",
+      "23849169",
+      "8202592",
+      "24180216",
+      "23373901",
+      "19218779",
+      "33374540",
+      "34187285",
+      "36902352",
+      "38779775",
+      "36220965",
+      "29219655",
+      "38802101",
+      "27047795",
+      "36357962",
+      "38674299",
+      "39425547",
+      "38916125",
+      "31739493",
+      "36458282",
+      "38392316"
+    ],
+    "pmc": [
+      "9569799"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms231911323",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36232625/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36232625",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://yoda.yale.edu/clinical-trial/nct00367237-a-randomized-multicenter-international-open-label-study-of-infliximab-plus-methotrexate-versus-methotrexate-mtx-alone-for-the-treatment-of-mtx-naive-subjects-with-active-psoriatic/",
+        "provider": "The YODA Project",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "A Randomized, Multicenter, International, Open-label Study of Infliximab Plus Methotrexate Versus Methotrexate (MTX) Alone for the Treatment of MTX naïve Subjects With Active Psoriatic Arthritis"
+      }
+    ],
+    "text_mined": []
+  }
+}

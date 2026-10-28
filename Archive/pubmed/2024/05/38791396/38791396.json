@@ -1,0 +1,409 @@
+{
+  "identity": {
+    "pmid": "38791396",
+    "doi": "10.3390/ijms25105358",
+    "title": "Leveraging the Fragment Molecular Orbital and MM-GBSA Methods in Virtual Screening for the Discovery of Novel Non-Covalent Inhibitors Targeting the TEAD Lipid Binding Pocket."
+  },
+  "content": {
+    "abstract": "The Hippo pathway controls organ size and homeostasis and is linked to numerous diseases, including cancer. The transcriptional enhanced associate domain (TEAD) family of transcription factors acts as a receptor for downstream effectors, namely yes-associated protein (YAP) and transcriptional co-activator with PDZ-binding motif (TAZ), which binds to various transcription factors and is essential for stimulated gene transcription. YAP/TAZ-TEAD facilitates the upregulation of multiple genes involved in evolutionary cell proliferation and survival. TEAD1-4 overexpression has been observed in different cancers in various tissues, making TEAD an attractive target for drug development. The central drug-accessible pocket of TEAD is crucial because it undergoes a post-translational modification called auto-palmitoylation. Crystal structures of the C-terminal TEAD complex with small molecules are available in the Protein Data Bank, aiding structure-based drug design. In this study, we utilized the fragment molecular orbital (FMO) method, molecular dynamics (MD) simulations, shape-based screening, and molecular mechanics-generalized Born surface area (MM-GBSA) calculations for virtual screening, and we identified a novel non-covalent inhibitor-BC-001-with IC(50) = 3.7 muM in a reporter assay. Subsequently, we optimized several analogs of BC-001 and found that the optimized compound BC-011 exhibited an IC(50) of 72.43 nM. These findings can be used to design effective TEAD modulators with anticancer therapeutic implications.",
+    "keywords": [
+      "Hippo pathway",
+      "TEAD palmitoylation",
+      "drug discovery",
+      "fragment molecular orbital method",
+      "luciferase reporter assay",
+      "molecular docking",
+      "shape-based screening",
+      "virtual screening"
+    ],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "*TEA Domain Transcription Factors",
+      "*Transcription Factors/metabolism/antagonists & inhibitors/chemistry",
+      "Binding Sites",
+      "Drug Discovery/methods",
+      "Protein Binding",
+      "Molecular Docking Simulation",
+      "Drug Design"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Jongwan",
+        "Jin, Haiyan",
+        "Kim, Jinhyuk",
+        "Cho, Seon Yeon",
+        "Moon, Sungho",
+        "Wang, Jianmin",
+        "Mao, Jiashun",
+        "No, Kyoung Tai"
+      ],
+      "short_names": [
+        "Kim J",
+        "Jin H",
+        "Kim J",
+        "Cho SY",
+        "Moon S",
+        "Wang J",
+        "Mao J",
+        "No KT"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1909-584X",
+        "ORCID: 0009-0001-8745-3648",
+        "ORCID: 0009-0007-0533-1414",
+        "ORCID: 0000-0002-5938-8930",
+        "ORCID: 0000-0001-8910-0929",
+        "ORCID: 0000-0003-3187-8193"
+      ],
+      "affiliations": [
+        "Bioinformatics and Molecular Design Research Center (BMDRC), Incheon 21983, Republic of Korea.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA.",
+        "Bioinformatics and Molecular Design Research Center (BMDRC), Incheon 21983, Republic of Korea.",
+        "The Interdisciplinary Graduate Program in Integrative Biotechnology & Translational Medicine, Yonsei University, Incheon 21983, Republic of Korea.",
+        "The Interdisciplinary Graduate Program in Integrative Biotechnology & Translational Medicine, Yonsei University, Incheon 21983, Republic of Korea.",
+        "Baobab AiBIO Co., Ltd., Incheon 21983, Republic of Korea.",
+        "Baobab AiBIO Co., Ltd., Incheon 21983, Republic of Korea.",
+        "Baobab AiBIO Co., Ltd., Incheon 21983, Republic of Korea.",
+        "The Interdisciplinary Graduate Program in Integrative Biotechnology & Translational Medicine, Yonsei University, Incheon 21983, Republic of Korea.",
+        "The Interdisciplinary Graduate Program in Integrative Biotechnology & Translational Medicine, Yonsei University, Incheon 21983, Republic of Korea.",
+        "Bioinformatics and Molecular Design Research Center (BMDRC), Incheon 21983, Republic of Korea.",
+        "The Interdisciplinary Graduate Program in Integrative Biotechnology & Translational Medicine, Yonsei University, Incheon 21983, Republic of Korea.",
+        "Baobab AiBIO Co., Ltd., Incheon 21983, Republic of Korea.",
+        "Department of Biotechnology, Yonsei University, Seoul 03722, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Jongwan",
+        "short_name": "Kim J",
+        "identifiers": [
+          "0000-0003-1909-584X"
+        ],
+        "affiliations": [
+          "Bioinformatics and Molecular Design Research Center (BMDRC), Incheon 21983, Republic of Korea.",
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Jin, Haiyan",
+        "short_name": "Jin H",
+        "identifiers": [
+          "0009-0001-8745-3648"
+        ],
+        "affiliations": [
+          "Bioinformatics and Molecular Design Research Center (BMDRC), Incheon 21983, Republic of Korea.",
+          "The Interdisciplinary Graduate Program in Integrative Biotechnology & Translational Medicine, Yonsei University, Incheon 21983, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Jinhyuk",
+        "short_name": "Kim J",
+        "identifiers": [
+          "0009-0007-0533-1414"
+        ],
+        "affiliations": [
+          "The Interdisciplinary Graduate Program in Integrative Biotechnology & Translational Medicine, Yonsei University, Incheon 21983, Republic of Korea.",
+          "Baobab AiBIO Co., Ltd., Incheon 21983, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Cho, Seon Yeon",
+        "short_name": "Cho SY",
+        "identifiers": [],
+        "affiliations": [
+          "Baobab AiBIO Co., Ltd., Incheon 21983, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Moon, Sungho",
+        "short_name": "Moon S",
+        "identifiers": [
+          "0000-0002-5938-8930"
+        ],
+        "affiliations": [
+          "Baobab AiBIO Co., Ltd., Incheon 21983, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Wang, Jianmin",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0001-8910-0929"
+        ],
+        "affiliations": [
+          "The Interdisciplinary Graduate Program in Integrative Biotechnology & Translational Medicine, Yonsei University, Incheon 21983, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Mao, Jiashun",
+        "short_name": "Mao J",
+        "identifiers": [],
+        "affiliations": [
+          "The Interdisciplinary Graduate Program in Integrative Biotechnology & Translational Medicine, Yonsei University, Incheon 21983, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "No, Kyoung Tai",
+        "short_name": "No KT",
+        "identifiers": [
+          "0000-0003-3187-8193"
+        ],
+        "affiliations": [
+          "Bioinformatics and Molecular Design Research Center (BMDRC), Incheon 21983, Republic of Korea.",
+          "The Interdisciplinary Graduate Program in Integrative Biotechnology & Translational Medicine, Yonsei University, Incheon 21983, Republic of Korea.",
+          "Baobab AiBIO Co., Ltd., Incheon 21983, Republic of Korea.",
+          "Department of Biotechnology, Yonsei University, Seoul 03722, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 May 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/25 10:48",
+    "fetched_at": "2026-09-29 20:36:19"
+  },
+  "links": {
+    "cites": [
+      "42305665",
+      "42115609",
+      "41836753",
+      "41764692",
+      "41465281",
+      "41463393",
+      "41051467",
+      "40430456"
+    ],
+    "refs": [
+      "36825662",
+      "36398861",
+      "36300789",
+      "35950546",
+      "35763499",
+      "35457257",
+      "35389210",
+      "35288361",
+      "34439400",
+      "33850002",
+      "33467099",
+      "33415007",
+      "32981461",
+      "32676008",
+      "31806419",
+      "31742995",
+      "31705587",
+      "31673305",
+      "31622854",
+      "31244000",
+      "31235263",
+      "31212916",
+      "31174842",
+      "30581134",
+      "30546055",
+      "29251924",
+      "28960584",
+      "28570566",
+      "27300434",
+      "26900866",
+      "26724994",
+      "26592798",
+      "25835573",
+      "25531467",
+      "25384421",
+      "25287865",
+      "24954535",
+      "24336504",
+      "23467301",
+      "23110536",
+      "22677547",
+      "22632831",
+      "22078877",
+      "21905107",
+      "21870862",
+      "20226166",
+      "20123908",
+      "20123905",
+      "19569205",
+      "16604514",
+      "15281845",
+      "11123888",
+      "7698644"
+    ],
+    "similar": [
+      "38791396",
+      "34509860",
+      "38606592",
+      "35288361",
+      "36398861",
+      "30978352",
+      "36709077",
+      "26592798",
+      "30482112",
+      "34439400",
+      "34729310",
+      "36946421",
+      "27009852",
+      "37748190",
+      "36300789",
+      "31479631",
+      "36523977",
+      "35768160",
+      "31742995",
+      "36434952",
+      "33611407",
+      "28570566",
+      "24380865",
+      "28960584",
+      "37240355",
+      "33415007",
+      "33511508",
+      "36265280",
+      "28752853",
+      "35763499",
+      "35247806",
+      "34032019",
+      "37830584",
+      "33850002",
+      "30640473",
+      "25719868",
+      "32907324",
+      "37010474",
+      "31622854",
+      "37731696",
+      "32259481",
+      "37277530",
+      "36825662",
+      "39270302",
+      "37111340",
+      "35214125",
+      "29760238",
+      "29558384",
+      "32579935",
+      "39369801",
+      "38863297",
+      "28515457",
+      "34587361",
+      "35560009",
+      "35993908",
+      "25384421",
+      "25995450",
+      "31697419",
+      "27048650",
+      "30903741",
+      "37917410",
+      "37150829",
+      "30051771",
+      "33352993",
+      "26724994",
+      "37060904",
+      "32912021",
+      "36347861",
+      "34293352",
+      "36809780",
+      "34463254",
+      "31635084",
+      "32206112",
+      "36522189",
+      "33651140",
+      "28964625",
+      "36309205",
+      "35950546",
+      "36063664",
+      "24560909",
+      "34128986",
+      "32193376",
+      "36562717",
+      "29738494",
+      "32553712",
+      "36008411",
+      "31212916",
+      "29457552",
+      "33283479",
+      "28430104",
+      "38606782",
+      "34164919",
+      "32385107",
+      "36484096",
+      "33116572",
+      "31043565",
+      "36640924",
+      "37920398",
+      "23780915",
+      "30401838",
+      "26258633",
+      "29334340",
+      "39328531",
+      "39182750",
+      "39105536",
+      "39172504"
+    ],
+    "review": [
+      "38791396",
+      "36709077",
+      "30482112",
+      "35768160",
+      "36265280",
+      "25719868",
+      "37111340",
+      "29558384",
+      "38863297",
+      "34587361",
+      "33352993",
+      "32206112",
+      "28964625",
+      "36063664",
+      "34128986",
+      "32553712",
+      "31212916",
+      "29457552",
+      "38606782",
+      "33116572",
+      "39105536"
+    ],
+    "pmc": [
+      "11121470"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms25105358",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38791396/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38791396",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

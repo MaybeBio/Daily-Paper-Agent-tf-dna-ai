@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40233743",
+  "title": "ACMG/AMP interpretation of BRCA1 missense variants: Structure-informed scores add evidence strength granularity to the PP3/BP4 computational evidence.",
+  "authors": "Ramadane-Morchadi, Lobna; Rotenberg, Nitsan; Esteban-Sanchez, Ada; Fortuno, Cristina; Gomez-Sanz, Alicia; Varga, Matthew J; Chamberlin, Adam; Richardson, Marcy E; Michailidou, Kyriaki; Perez-Segura, Pedro; Spurdle, Amanda B; de la Hoya, Miguel",
+  "journal": "American journal of human genetics",
+  "published_date": "2025-04-16",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用结构信息（RSA、ΔΔG、AlphaMissense）增强BRCA1错义变异的ACMG/AMP分类证据，虽涉及蛋白-DNA互作域（BRCT）但非TF-DNA结合机制建模，方法以结构预测和统计评估为主，对TF-DNA界面变异解读有方法学借鉴。",
+  "abstract": "Classification of missense variants is challenging. Lacking compelling clinical and/or functional data, ACMG/AMP lines of evidence are restricted to PM2 (rarity code applied at supporting level) and PP3/BP4 (computational evidence based mostly on multiple-sequence-alignment conservation tools). Currently, the ClinGen ENIGMA BRCA1/2 Variant Curation Expert Panel uses BayesDel to apply PP3/BP4 to missense variants located in the BRCA1 RING/BRCT domains. The ACMG/AMP framework does not refer explicitly to protein structure as a putative source of pathogenic/benign evidence. Here, we tested the value of incorporating structure-based evidence such as relative solvent accessibility (RSA), folding stability (DeltaDeltaG), and/or AlphaMissense pathogenicity to the classification of BRCA1 missense variants. We used MAVE functional scores as proxies for pathogenicity/benignity. We computed RSA and FoldX5.0 DeltaDeltaG predictions using as alternative input templates for either PDB files or AlphaFold2 models, and we retrieved pre-computed AlphaMissense and BayesDel scores. We calculated likelihood ratios toward pathogenicity/benignity provided by the tools (individually or combined). We performed a clinical validation of major findings using the large-scale BRIDGES case-control dataset. AlphaMissense outperforms DeltaDeltaG and BayesDel, providing similar PP3/BP4 evidence strengths with lower rate of variants in the uninformative score range. AlphaMissense combined with DeltaDeltaG increases evidence strength granularity. AlphaFold2 models perform well as input templates for DeltaDeltaG predictions. Regardless of the tool, BP4 (but not PP3) is highly dependent on RSA, with benignity evidence provided only to variants targeting buried or partially buried residues (RSA </= 60%). Stratification by functional domain did not reveal major differences. In brief, structure-based analysis improves PP3/BP4 assessment, uncovering a relevant role for RSA.",
+  "abstract_zh": "错义变异的分类具有挑战性。缺乏令人信服的临床和/或功能数据时，ACMG/AMP证据线仅限于PM2（以支持级别应用的稀有性代码）和PP3/BP4（主要基于多序列比对保守性工具的计算证据）。目前，ClinGen ENIGMA BRCA1/2变异策展专家小组使用BayesDel对位于BRCA1 RING/BRCT结构域中的错义变异应用PP3/BP4。ACMG/AMP框架未明确提及蛋白质结构作为致病性/良性证据的潜在来源。在此，我们测试了将基于结构的证据，如相对溶剂可及性（relative solvent accessibility, RSA）、折叠稳定性（DeltaDeltaG）和/或AlphaMissense致病性，纳入BRCA1错义变异分类中的价值。我们使用MAVE功能评分作为致病性/良性性的代理指标。我们计算了RSA和FoldX5.0 DeltaDeltaG预测，使用PDB文件或AlphaFold2模型作为替代输入模板，并检索了预计算的AlphaMissense和BayesDel评分。我们计算了这些工具（单独或组合）提供的致病性/良性性似然比。我们使用大规模BRIDGES病例对照数据集对主要发现进行了临床验证。AlphaMissense优于DeltaDeltaG和BayesDel，在非信息性评分范围内提供相似的PP3/BP4证据强度，且变异率较低。AlphaMissense与DeltaDeltaG结合增加了证据强度的粒度。AlphaFold2模型作为DeltaDeltaG预测的输入模板表现良好。无论使用何种工具，BP4（而非PP3）高度依赖于RSA，良性证据仅提供给靶向埋藏或部分埋藏残基（RSA </= 60%）的变异。按功能结构域分层未显示重大差异。简而言之，基于结构的分析改善了PP3/BP4评估，揭示了RSA的相关作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40233743/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40233743/",
+  "paper_page_path": "papers/pubmed/40233743/index.html"
+}

@@ -1,0 +1,113 @@
+## Review setup
+
+- **Input scope** Full manuscript text including abstract, background, methods, results, and declarations
+- **Assessment boundary** Scientific content, methodological soundness, data interpretation, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The manuscript presents X-TFBS, a compendium of DNA-binding motifs for human and mouse transcription factors derived from reanalysis of 10,935 ChIP-seq experiments from GEO. The author claims this is the largest such compendium, uses a new k-mean clustering algorithm for motif grouping, introduces a "sequence script" visualization method, and identifies many-to-many relationships between TFs and motifs that may indicate functional interactions.
+- **Visible evidence base** Abstract, Background, Methods sections 2.1-2.3, Results section 3.1-3.4, Declarations, supplementary file list, footnotes
+- **Missing materials affecting confidence** All supplementary files (S1-S11), figures (Fig 1-7), Table 1, Table 2, and the referenced code repository were not provided for review. These are essential for evaluating the validity of the clustering results, the quality of motif identification, and the accuracy of comparisons with existing databases.
+
+## Reviewer
+
+- **Overall assessment** This manuscript addresses an important gap in the field of transcriptional regulation by providing a large-scale compendium of TF binding motifs derived from ChIP-seq data. The all-against-all approach is conceptually sound and builds on prior work by Ambrosini et al. The scale of data reanalysis (10,935 experiments) is impressive and potentially valuable to the community. However, the manuscript as presented has several significant issues. The methods section lacks critical details on the k-mean clustering algorithm, making reproducibility questionable. The validation of new motifs is insufficient, with no clear benchmarks against known ground truth. The biological interpretation of shared motifs as evidence of TF interactions is speculative and not rigorously tested. The writing is sometimes unclear, and the manuscript would benefit from more careful organization. The absence of supplementary materials and figures in the review package severely limits the ability to assess the core claims.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation, gene regulatory networks, and chromatin biology would find this compendium useful as a reference resource. Computational biologists developing motif discovery and clustering algorithms would be interested in the methodological contributions. Additionally, experimental biologists studying specific TFs could use the compendium to identify potential co-factors and interacting partners. The resource aspect of this work has broad potential utility across the genomics community.
+- **Major strengths** 1) The scale of the analysis is substantial, covering thousands of ChIP-seq experiments from a public repository, which adds value as a community resource. 2) The all-against-all approach is a logical extension of previous work and addresses the known issue of indirect TF binding. 3) The inclusion of both human and mouse data enables cross-species comparisons, which is valuable for evolutionary studies. 4) The development of a new visualization method (sequence script) addresses a real need for handling large sets of motifs. 5) The author is transparent about limitations, such as weak motifs and potential artifacts.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that a new k-mean clustering algorithm was developed and used to cluster DNA-binding motifs, and that this approach is more efficient than hierarchical clustering for this type of data.
+  - **Evidence pointer** Methods section 2.2, location not provided
+  - **Concern** The description of the k-mean clustering algorithm is insufficient for evaluation or reproduction. The author states that a "modified k-mean method" was developed and that distance is based on Pearson correlation of transformed PWM data, but provides no details on initialization strategy, number of clusters, convergence criteria, handling of local optima, or computational complexity. The claim that k-mean is "less computationally intensive" than hierarchical clustering is not substantiated with any benchmarks or complexity analysis. Furthermore, the manuscript does not explain how the number of clusters (1184 for human, 563 for mouse) was determined, which is a critical parameter in k-mean clustering.
+  - **Why it matters** Without a detailed description of the algorithm, the core methodological contribution cannot be evaluated or reproduced by other researchers. The clustering results form the foundation of the entire compendium, and if the algorithm is flawed or poorly parameterized, all downstream claims about motif grouping and TF-motif associations are compromised.
+  - **Resolution test** The author should provide a complete algorithmic description including pseudocode, parameter selection methods, convergence criteria, and validation against known motif families. Benchmarks comparing the k-mean approach to hierarchical clustering on the same data should be provided, including runtime and clustering quality metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Concern** The manuscript claims that the X-TFBS compendium is "the largest among existing databases" with 1157 human and 536 mouse clusters. However, the comparison with existing databases appears incomplete and potentially misleading. The author compares cluster counts with HOCOMOCO, Factorbook, and other databases, but these databases may use different definitions of "motif" and different clustering criteria. The claim of being "largest" depends on how clusters are counted and what constitutes a distinct motif. Additionally, the manuscript does not provide a direct comparison of motif quality or coverage per TF against these databases.
+  - **Why it matters** The claim of being the largest compendium is a key selling point of the manuscript. If this claim is not rigorously supported with appropriate comparisons, the significance of the resource is overstated. Researchers may rely on this compendium as a definitive reference, and inaccurate claims about its scope could mislead the community.
+  - **Resolution test** The author should provide a systematic comparison with existing databases using consistent criteria for motif definition and clustering. This should include per-TF coverage statistics, motif quality metrics (e.g., information content, conservation), and a clear explanation of why the X-TFBS compendium is larger and whether this reflects genuinely new motifs or simply different clustering criteria.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Concern** The manuscript claims that shared motifs between different TFs indicate potential functional interactions, and provides several examples. However, the evidence for these interactions is largely based on literature citations rather than direct experimental validation or statistical analysis. The author does not provide any statistical framework to distinguish genuine co-binding from chance motif similarity or from indirect associations due to chromatin accessibility. The examples given, such as TBX5-NKX2-5 and TAL1-LMO2-LYL1, are well-known interactions, which raises the question of whether the method can identify novel interactions or merely recapitulates known biology.
+  - **Why it matters** The claim that shared motifs indicate functional interactions is a major interpretive leap. If this claim is not rigorously supported, the biological conclusions drawn from the compendium are speculative. The manuscript would benefit from a more careful discussion of alternative explanations for shared motifs, such as similar DNA-binding domains or convergent evolution.
+  - **Resolution test** The author should provide a statistical framework for assessing the significance of shared motifs between TFs, accounting for background motif similarity. Novel predictions of TF interactions should be validated experimentally or at least with independent datasets (e.g., co-immunoprecipitation, proximity ligation assays). The discussion should acknowledge alternative explanations for shared motifs.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Concern** The manuscript relies heavily on supplementary files (S1-S11) and figures that were not provided for review. The methods reference specific parameters and thresholds (e.g., "false positives rate of 1 per 100 Kb", "minimum overlap length of 6 nucleotides") but the actual implementation details, data processing pipelines, and quality control metrics are not fully described. The author mentions "manual post-processing" of clustering results, which introduces subjectivity that is not quantified or described in detail.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific publication. Without access to the supplementary materials and a complete description of the analysis pipeline, other researchers cannot verify the results or apply the methods to their own data. The manual post-processing step is particularly concerning, as it could introduce significant bias.
+  - **Resolution test** The author should provide all supplementary files and figures for review. The methods should include a complete description of the data processing pipeline, including software versions, parameters, and quality control steps. The manual post-processing should be described in detail, including criteria for merging/splitting clusters and removing outliers. Ideally, the code should be made available in a public repository with documentation.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Concern** The manuscript claims that "clustering helps to annotate TF-binding motifs and evaluate interactions between TFs that are associated with the same motif." However, the novelty of this claim is unclear. The all-against-all approach was already proposed by Ambrosini et al. (2020), and the author acknowledges this. The manuscript does not clearly articulate what new biological insights are gained beyond what was already known. The examples provided in section 3.4 are mostly confirmatory of known interactions.
+  - **Why it matters** For a resource paper, the scientific importance depends on whether the resource enables new discoveries or provides significant improvements over existing resources. If the compendium largely recapitulates known motifs and interactions, its value is diminished.
+  - **Resolution test** The author should clearly articulate the novel contributions of this work. This could include new motifs not previously characterized, improved coverage of TFs, or new insights into TF cooperativity that were not previously known. The discussion should highlight specific examples where the compendium provides information not available from existing databases.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "8027 human and 2820 mouse ChIP-seq experiments" but the Results section states "10,935 human and mouse ChIP-seq experiments." The sum of 8027 and 2820 is 10,847, not 10,935. This discrepancy is confusing.
+  - **Required correction** The author should ensure consistency in the number of experiments reported. If the total is 10,935, the individual numbers should sum to this value, or the discrepancy should be explained.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section 2.1
+  - **Evidence pointer** Methods section 2.1, location not provided
+  - **Issue** The description of the motif identification process is unclear. The author states that motifs were found using CisFinder with 8-bp words, but does not explain how these words are combined into longer motifs, what the maximum motif length is, or how the false positive rate is estimated.
+  - **Required correction** The author should provide a more detailed description of the motif identification process, including parameters used and the algorithm for combining elementary motifs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section 3.2
+  - **Evidence pointer** Results section 3.2, location not provided
+  - **Issue** The sentence "There are relatively few promoter and enhancer motif clusters were infrequent" is grammatically incorrect and unclear.
+  - **Required correction** The sentence should be rewritten for clarity, for example: "Promoter and enhancer motif clusters were relatively infrequent, comprising 1.1-1.7% and 4.1-4.5% of all clusters, respectively."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section 3.4
+  - **Evidence pointer** Results section 3.4, location not provided
+  - **Issue** The author states "Accorting to ( Massague et al. 2007 )" which contains a typo ("Accorting" should be "According") and an incorrect year (the reference is from 2005, not 2007).
+  - **Required correction** The typo should be corrected and the reference should be checked for accuracy.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section 2.2
+  - **Evidence pointer** Methods section 2.2, location not provided
+  - **Issue** The transformation p' = 0.75 + 3·(p - 0.75) for p > 0.75 is described but the rationale for this specific transformation is not explained. It is unclear why this particular nonlinear transformation is appropriate.
+  - **Required correction** The author should explain the rationale for this transformation and how it affects the distance measure.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section 3.1
+  - **Evidence pointer** Results section 3.1, location not provided
+  - **Issue** The author mentions "manual post-processing" of clusters but does not describe what this involves. This is a significant step that could affect the results.
+  - **Required correction** The author should describe the manual post-processing steps in detail, including criteria for merging, splitting, and removing clusters.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section 3.3
+  - **Evidence pointer** Results section 3.3, location not provided
+  - **Issue** The comparison with existing databases is described in terms of cluster counts, but it is unclear how the clusters in other databases were defined and whether the comparison is apples-to-apples.
+  - **Required correction** The author should clarify the criteria used for comparing cluster counts across databases and acknowledge potential differences in clustering methodology.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (insufficient description of the k-mean clustering algorithm), R1-M2 (incomplete comparison with existing databases), R1-M4 (missing supplementary materials and incomplete methods description)
+- **Assessment against Nature-style criteria** Originality: The all-against-all approach is not entirely novel, as it builds on Ambrosini et al. (2020). The k-mean clustering adaptation and sequence script visualization are potentially novel contributions, but their value cannot be fully assessed without more details. Scientific importance: The resource has potential value for the community, but the claims of being the largest compendium and providing new biological insights are not fully substantiated. Interdisciplinary readership: The work is primarily of interest to computational biologists and genomics researchers, with limited appeal beyond these fields. Technical soundness: The methods are not described in sufficient detail to assess technical soundness, and the lack of supplementary materials is a significant concern. Readability for nonspecialists: The manuscript is written in a technical style that assumes familiarity with ChIP-seq, motif analysis, and clustering algorithms. Some sections are unclear and would benefit from revision.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important topic and has the potential to be a valuable resource, but the lack of supplementary materials, insufficient methodological detail, and unsubstantiated claims prevent a positive recommendation. The author should address the major concerns, particularly the description of the clustering algorithm, the comparison with existing databases, and the provision of supplementary materials, before the manuscript can be considered for publication.
+
+## Risk / unsupported claims
+
+- The claim that X-TFBS is "the largest among existing databases" is not fully supported without a systematic comparison using consistent criteria.
+- The claim that shared motifs indicate functional interactions between TFs is speculative and not rigorously tested.
+- The claim that the k-mean clustering algorithm is "less computationally intensive" than hierarchical clustering is not substantiated with benchmarks.
+- The claim that filtering ChIP-seq peaks based on genomic location yields additional motifs is based on a comparison that is not fully described.
+- The claim that "most new motifs are for C2H2 zinc finger TFs" is based on data in supplementary files that were not provided for review.
+- The claim that the sequence script method "simplifies" comparison of large motif sets is not validated with user studies or quantitative comparisons.

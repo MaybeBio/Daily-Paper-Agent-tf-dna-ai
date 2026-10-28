@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "38826409",
+    "doi": "10.1101/2024.05.24.595751",
+    "title": "An acidic loop in the FHA domain of the yeast meiosis-specific kinase Mek1 interacts with a specific motif in a subset of Mek1 substrates."
+  },
+  "content": {
+    "abstract": "The meiosis-specific kinase Mek1 regulates key steps in meiotic recombination in the budding yeast, Saccharomyces cerevisiae. MEK1 limits resection at the double strand break (DSB) ends and is required for preferential strand invasion into homologs, a process known as interhomolog bias. After strand invasion, MEK1 promotes phosphorylation of the synaptonemal complex protein Zip1 that is necessary for DSB repair mediated by a crossover specific pathway that enables chromosome synapsis. In addition, Mek1 phosphorylation of the meiosis-specific transcription factor, Ndt80, regulates the meiotic recombination checkpoint that prevents exit from pachytene when DSBs are present. Mek1 interacts with Ndt80 through a five amino acid sequence, RPSKR, located between the DNA binding and activation domains of Ndt80. AlphaFold Multimer modeling of a fragment of Ndt80 containing the RPSKR motif and full length Mek1 indicated that RPSKR binds to an acidic loop located in the Mek1 FHA domain, a non-canonical interaction with this motif. A second protein, the 5'-3' helicase Rrm3, similarly interacts with Mek1 through an RPAKR motif and is an in vitro substrate of Mek1. Genetic analysis using various mutants in the MEK1 acidic loop validated the AlphaFold model, in that they specifically disrupt two-hybrid interactions with Ndt80 and Rrm3. Phenotypic analyses further showed that the acidic loop mutants are defective in the meiotic recombination checkpoint, and in certain circumstances exhibit more severe phenotypes compared to the NDT80 mutant with the RPSKR sequence deleted, suggesting that additional, as yet unknown, substrates of Mek1 also bind to Mek1 using an RPXKR motif.",
+    "keywords": [
+      "FHA domain",
+      "Mek1",
+      "Rrm3",
+      "meiosis",
+      "recombination"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Weng, Qixuan",
+        "Wan, Lihong",
+        "Straker, Geburah C",
+        "Deegan, Tom D",
+        "Duncker, Bernard P",
+        "Neiman, Aaron M",
+        "Luk, Ed",
+        "Hollingsworth, Nancy M"
+      ],
+      "short_names": [
+        "Weng Q",
+        "Wan L",
+        "Straker GC",
+        "Deegan TD",
+        "Duncker BP",
+        "Neiman AM",
+        "Luk E",
+        "Hollingsworth NM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA.",
+        "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA.",
+        "Department of Biology, University of Waterloo, Waterloo, Ontario, N2L 3G1, Canada.",
+        "MRC Protein Phosphorylation and Ubiquitylation Unit, Sir James Black Centre, School of Life Sciences, University of Dundee, Dundee, UK DD1 5EH, UK.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Western General Hospital, Edinburgh, EH4 2XU, UK.",
+        "Department of Biology, University of Waterloo, Waterloo, Ontario, N2L 3G1, Canada.",
+        "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA.",
+        "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA.",
+        "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Weng, Qixuan",
+        "short_name": "Weng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA."
+        ]
+      },
+      {
+        "full_name": "Wan, Lihong",
+        "short_name": "Wan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA."
+        ]
+      },
+      {
+        "full_name": "Straker, Geburah C",
+        "short_name": "Straker GC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Waterloo, Waterloo, Ontario, N2L 3G1, Canada."
+        ]
+      },
+      {
+        "full_name": "Deegan, Tom D",
+        "short_name": "Deegan TD",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Protein Phosphorylation and Ubiquitylation Unit, Sir James Black Centre, School of Life Sciences, University of Dundee, Dundee, UK DD1 5EH, UK.",
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Western General Hospital, Edinburgh, EH4 2XU, UK."
+        ]
+      },
+      {
+        "full_name": "Duncker, Bernard P",
+        "short_name": "Duncker BP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Waterloo, Waterloo, Ontario, N2L 3G1, Canada."
+        ]
+      },
+      {
+        "full_name": "Neiman, Aaron M",
+        "short_name": "Neiman AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA."
+        ]
+      },
+      {
+        "full_name": "Luk, Ed",
+        "short_name": "Luk E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA."
+        ]
+      },
+      {
+        "full_name": "Hollingsworth, Nancy M",
+        "short_name": "Hollingsworth NM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Cell Biology, Stony Brook University, Stony Brook, NY 11794-5215, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 May 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/03 06:42",
+    "fetched_at": "2026-09-29 21:28:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39005070",
+      "38117984",
+      "36508468",
+      "34265844",
+      "33823531",
+      "33199619",
+      "33184224",
+      "32099015",
+      "32093266",
+      "31236671",
+      "31069484",
+      "30850330",
+      "30671596",
+      "30496175",
+      "29544874",
+      "29523236",
+      "28986445",
+      "28900015",
+      "28694245",
+      "28249986",
+      "27939759",
+      "27483004",
+      "27214570",
+      "26870961",
+      "26682552",
+      "26411679",
+      "25475089",
+      "25421598",
+      "24465215",
+      "24367271",
+      "24285546",
+      "23101628",
+      "23047948",
+      "22500800",
+      "22500736",
+      "22390969",
+      "22072981",
+      "21840861",
+      "21660693",
+      "21376234",
+      "21145459",
+      "21036905",
+      "20888230",
+      "20421598",
+      "20348905",
+      "20159853",
+      "20148280",
+      "19917248",
+      "18832066",
+      "18691965",
+      "18691964",
+      "18691940",
+      "18615017",
+      "18347097",
+      "18329363",
+      "17988174",
+      "17911163",
+      "17526735",
+      "17486086",
+      "16935874",
+      "16818607",
+      "16221890",
+      "16107854",
+      "15826144",
+      "15579680",
+      "15189982",
+      "15173120",
+      "15066280",
+      "14690605",
+      "14595109",
+      "12663816",
+      "12441400",
+      "12239216",
+      "12050116",
+      "11911881",
+      "11779793",
+      "11461702",
+      "11461701",
+      "11283700",
+      "11106755",
+      "10958662",
+      "10518219",
+      "10514571",
+      "9880561",
+      "9784122",
+      "9717241",
+      "9660952",
+      "9215888",
+      "9215887",
+      "9060462",
+      "9039264",
+      "9000054",
+      "8893012",
+      "8524222",
+      "8521495",
+      "8384581",
+      "8242750",
+      "7791788",
+      "7622037",
+      "3413075",
+      "2659436",
+      "2550770",
+      "2185891",
+      "1752435",
+      "1741279",
+      "1427035"
+    ],
+    "similar": [
+      "38826409",
+      "38979911",
+      "30671596",
+      "30496175",
+      "28249986",
+      "36508468",
+      "28357344",
+      "26682552",
+      "21795394",
+      "38664461",
+      "11035815",
+      "27214570",
+      "14595109",
+      "8524222",
+      "20888230",
+      "23047948",
+      "21471004",
+      "24367271",
+      "10848609",
+      "27483004",
+      "17526735",
+      "30289413",
+      "27329041",
+      "21515575",
+      "20421598",
+      "12192042",
+      "23825959",
+      "23382701",
+      "23902647",
+      "23775120",
+      "12482912",
+      "9000054",
+      "29853474",
+      "11825877",
+      "22072981",
+      "10786836",
+      "23762445",
+      "26225562",
+      "26114667",
+      "20976044",
+      "35240051",
+      "28986445",
+      "20123974",
+      "28357333",
+      "21173162",
+      "30254180",
+      "19029820",
+      "18505828",
+      "9348039",
+      "1752435",
+      "36700544",
+      "31220082",
+      "24183725",
+      "22390969",
+      "36221195",
+      "18329363",
+      "32386601",
+      "38427688",
+      "14680970",
+      "12242283",
+      "21084840",
+      "35102525",
+      "16221890",
+      "9742092",
+      "24901499",
+      "19917248",
+      "9832507",
+      "24465215",
+      "24710277",
+      "38645032",
+      "18832066",
+      "7588640",
+      "16286472",
+      "9303542",
+      "17174924",
+      "27257060",
+      "34685541",
+      "20223769",
+      "27974736",
+      "34197600",
+      "26870961",
+      "28538144",
+      "27184389",
+      "12101126",
+      "16861895",
+      "34951404",
+      "27678521",
+      "31069484",
+      "24367111",
+      "33184224",
+      "22106412",
+      "16581767",
+      "19851446",
+      "39005070",
+      "7789757",
+      "20519745",
+      "9660952",
+      "22496671",
+      "29550859",
+      "30940321"
+    ],
+    "review": [
+      "38826409",
+      "30671596"
+    ],
+    "pmc": [
+      "11142242"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38826409/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38826409",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-808",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.05.24.595751",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

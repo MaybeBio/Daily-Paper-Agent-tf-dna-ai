@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "37645935",
+    "doi": "10.21203/rs.3.rs-3197490/v1",
+    "title": "Machine Learning-driven Fragment-based Discovery of CIB1-directed Anti-Tumor Agents by FRASE-bot."
+  },
+  "content": {
+    "abstract": "Chemical probes are an indispensable tool for translating biological discoveries into new therapies, though are increasingly difficult to identify. Novel therapeutic targets are often hard-to-drug proteins, such as messengers or transcription factors. Computational strategies arise as a promising solution to expedite drug discovery for unconventional therapeutic targets. FRASE-bot exploits big data and machine learning (ML) to distill 3D information relevant to the target protein from thousands of protein-ligand complexes to seed it with ligand fragments. The seeded fragments can then inform either (i) de novo design of 3D ligand structures or (ii) ultra-large-scale virtual screening of commercially available compounds. Here, FRASE-bot was applied to identify ligands for Calcium and Integrin Binding protein 1 (CIB1), a promising but ligand-orphan drug target implicated in triple negative breast cancer. The signaling function of CIB1 relies on protein-protein interactions and its structure does not feature any natural ligand-binding pocket. FRASE-based virtual screening identified the first small-molecule CIB1 ligand (with binding confirmed in a TR-FRET assay) showing specific cell-killing activity in CIB1-dependent cancer cells, but not in CIB1-depleted cells.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "An, Yi",
+        "Glavatskikh, Marta",
+        "Lim, Jiwoong",
+        "Wang, Xiaowen",
+        "Norris-Drouin, Jacqueline",
+        "Hardy, P Brian",
+        "Leisner, Tina M",
+        "Pearce, Kenneth H",
+        "Kireev, Dmitri"
+      ],
+      "short_names": [
+        "An Y",
+        "Glavatskikh M",
+        "Lim J",
+        "Wang X",
+        "Norris-Drouin J",
+        "Hardy PB",
+        "Leisner TM",
+        "Pearce KH",
+        "Kireev D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8138-5421",
+        "ORCID: 0000-0001-8479-8555"
+      ],
+      "affiliations": [
+        "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513.",
+        "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513.",
+        "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513.",
+        "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513.",
+        "Chemistry department, University of Missouri, Columbia, Columbia, MO, 65211.",
+        "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513.",
+        "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513.",
+        "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513.",
+        "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513.",
+        "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513.",
+        "Chemistry department, University of Missouri, Columbia, Columbia, MO, 65211."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "An, Yi",
+        "short_name": "An Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513."
+        ]
+      },
+      {
+        "full_name": "Glavatskikh, Marta",
+        "short_name": "Glavatskikh M",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513."
+        ]
+      },
+      {
+        "full_name": "Lim, Jiwoong",
+        "short_name": "Lim J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaowen",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513.",
+          "Chemistry department, University of Missouri, Columbia, Columbia, MO, 65211."
+        ]
+      },
+      {
+        "full_name": "Norris-Drouin, Jacqueline",
+        "short_name": "Norris-Drouin J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513."
+        ]
+      },
+      {
+        "full_name": "Hardy, P Brian",
+        "short_name": "Hardy PB",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513."
+        ]
+      },
+      {
+        "full_name": "Leisner, Tina M",
+        "short_name": "Leisner TM",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513."
+        ]
+      },
+      {
+        "full_name": "Pearce, Kenneth H",
+        "short_name": "Pearce KH",
+        "identifiers": [
+          "0000-0001-8138-5421"
+        ],
+        "affiliations": [
+          "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513."
+        ]
+      },
+      {
+        "full_name": "Kireev, Dmitri",
+        "short_name": "Kireev D",
+        "identifiers": [
+          "0000-0001-8479-8555"
+        ],
+        "affiliations": [
+          "Center for Integrative Chemical Biology and Drug Discovery, UNC Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27513.",
+          "Chemistry department, University of Missouri, Columbia, Columbia, MO, 65211."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Research square"
+    ],
+    "journal_abbrev": [
+      "Res Sq"
+    ],
+    "pub_date": "2023 Aug 16",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/30 06:48",
+    "fetched_at": "2026-09-29 06:19:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37645935",
+      "38956119",
+      "32383857",
+      "34795874",
+      "30196523",
+      "38260445",
+      "42670858",
+      "30829435",
+      "33724022",
+      "29125118",
+      "35909278",
+      "12613177",
+      "41503904",
+      "26105795",
+      "36430386",
+      "18925937",
+      "30740034",
+      "29542413",
+      "39877816",
+      "22283712",
+      "32328476",
+      "20473878",
+      "29594779",
+      "15574431",
+      "41880802",
+      "40929801",
+      "39022362",
+      "41578956",
+      "38100293",
+      "24762971",
+      "27309814",
+      "39819404",
+      "24245755",
+      "39405731",
+      "38254672",
+      "34907092",
+      "24011356",
+      "11728179",
+      "37439212",
+      "38696451",
+      "42475469",
+      "34843456",
+      "21388953",
+      "34731478",
+      "34333394",
+      "27118676",
+      "28111073",
+      "37907683",
+      "18627437",
+      "38848655",
+      "36821004",
+      "29883916",
+      "32596567",
+      "38662832",
+      "25848700",
+      "33795749",
+      "40175036",
+      "36652496",
+      "12678780",
+      "42118388",
+      "33925823",
+      "36998135",
+      "42653127",
+      "19442064",
+      "32307772",
+      "22540736",
+      "17516631",
+      "23537132",
+      "39480410",
+      "19780576",
+      "42321836",
+      "25724101",
+      "21936819",
+      "22978550",
+      "42246097",
+      "30278128",
+      "31387520",
+      "42344111",
+      "31743833",
+      "33225594",
+      "28130159",
+      "21452978",
+      "20951827",
+      "40702244",
+      "28832542",
+      "23282026",
+      "41226144",
+      "30415122",
+      "22860803",
+      "31593460",
+      "40846079",
+      "34921117",
+      "39660955",
+      "27937122",
+      "42599595",
+      "32605297",
+      "33844136",
+      "25952103",
+      "18197701",
+      "33920024"
+    ],
+    "review": [
+      "37645935",
+      "29125118",
+      "12613177",
+      "40929801",
+      "39819404",
+      "38254672",
+      "34907092",
+      "34731478",
+      "27118676",
+      "38848655",
+      "40175036",
+      "12678780",
+      "19442064",
+      "40702244",
+      "28832542",
+      "22860803",
+      "40846079",
+      "32605297"
+    ],
+    "pmc": [
+      "10462244"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37645935/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37645935",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21203/rs.3.rs-3197490/v1",
+        "provider": "Research Square",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

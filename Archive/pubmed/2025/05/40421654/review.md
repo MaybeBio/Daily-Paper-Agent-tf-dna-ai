@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the claims as presented in the provided text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors propose that TENT5C acts as a corepressor of both glucocorticoid receptor (GR) and estrogen receptor α (ERα) transcriptional activity, and that this repression is mediated through distinct mechanisms: a direct LXXLL motif-dependent interaction with ERα, and a mechanism independent of the LXXLL motif and poly(A) polymerase activity for GR.
+- **Visible evidence base** Reporter assays (Fig. 1A, 1B; Fig. 6A, 6C, 6D), sequence alignments (Fig. 1C–E), molecular dynamics simulations (Figs. 2–4; Fig. S1, S2), co-immunoprecipitation assays (Fig. 5A, 5B), qPCR of endogenous targets (Fig. 6B, 6E, 6F), and statistical methods as described.
+- **Missing materials affecting confidence** Figure panels and actual data values (e.g., bar graphs, error bars, representative blots) are not visible in the text-only submission. Statistical details (exact p-values, n numbers, dispersion measures) are not fully reported in the text. The specific MD simulation parameters for the TENT5C/GR complex and the L3m mutant are not fully described. The cell-type-specific differences in ERα repression (Fig. 6C vs 6D) are not mechanistically explained.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting finding that TENT5C, a noncanonical poly(A) polymerase, can function as a transcriptional corepressor for nuclear receptors, with evidence for a direct LXXLL-mediated interaction with ERα. The combination of computational and experimental approaches is commendable. However, the central claim of TENT5C as a corepressor of GR is not fully supported by the data presented, as the mechanistic basis for GR repression remains unclear and the evidence for a direct interaction is lacking. The ERα data are more compelling but are complicated by cell-type-specific effects that are not explained. The manuscript would benefit from a clearer articulation of the physiological relevance of these findings and a more rigorous statistical and experimental framework.
+- **Who would be interested in the results, and why** Researchers in the fields of nuclear receptor signaling, transcriptional regulation, and cancer biology, particularly those studying glucocorticoid and estrogen signaling in the context of multiple myeloma and hormone-responsive cancers. The potential link between TENT5C, a known tumor suppressor, and NR coregulation could be of interest to those exploring new therapeutic targets.
+- **Major strengths**
+  - The study addresses a relevant and under-explored question regarding the role of TENT5C in nuclear receptor signaling.
+  - The use of multiple complementary approaches (reporter assays, MD simulations, co-IP, qPCR) strengthens the investigation.
+  - The identification of a specific LXXLL motif in TENT5C that interacts with ERα is a concrete and testable finding.
+  - The distinction between the mechanisms of GR and ERα repression is an interesting conceptual point.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for a corepressor mechanism
+  - **Claim pointer** The manuscript claims that "TENT5C is a corepressor of both GR and ERα" and that it "functions as a corepressor in the ligand-bound glucocorticoid receptor and estrogen receptor alpha complexes."
+  - **Evidence pointer** Results section "TENT5C is a corepressor of GR and ERα"; Fig. 1A, 1B; Fig. 6A–F
+  - **Concern** The term "corepressor" implies a direct, stable association with the receptor complex. While the data show that TENT5C can repress transcriptional activity in reporter assays, the evidence for a direct interaction with GR is absent. The MD simulations suggest the LXXLL (3) motif does not stably bind GR, and the co-IP experiments are only shown for ERα. The repression of GR could be an indirect effect, a consequence of TENT5C's poly(A) polymerase activity on other transcripts, or a squelching artifact. The claim of a "corepressor" for GR is therefore not established from the provided evidence.
+  - **Why it matters** The central thesis of the paper is that TENT5C is a corepressor for both receptors. If the mechanism for GR is not a direct interaction, the title and abstract overstate the findings. This distinction is critical for understanding the biological role of TENT5C in glucocorticoid signaling.
+  - **Resolution test** To support the claim, the authors should provide evidence of a physical interaction between TENT5C and GR, e.g., co-IP of endogenous or overexpressed proteins in the presence of DEX. Alternatively, they should temper the claim to state that TENT5C "represses GR transcriptional activity" without specifying the mechanism as a corepressor.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic link between LXXLL (3) motif and ERα repression
+  - **Claim pointer** The manuscript claims that "mutations to the third TENT5C LXXLL motif disrupt TENT5C-mediated repression of ERα" and that this motif is "critical for specifically repressing the ERα-mediated transcriptional activation."
+  - **Evidence pointer** Results section "TENT5C LXXLL (3) motif is critical for specifically repressing the ERα-mediated transcriptional activation"; Fig. 6C, 6D
+  - **Concern** The reporter assay in Fig. 6C shows that the L3m mutation partially relieves repression in HEK293T cells, but this effect is not observed in HepG2 cells (Fig. 6D). The authors note this cell-type specificity but do not provide a mechanistic explanation. This inconsistency weakens the claim that the LXXLL (3) motif is "critical" for ERα repression. The partial rescue in HEK293T cells could be due to cell-line-specific factors, and the lack of effect in HepG2 cells suggests that the motif is not universally required.
+  - **Why it matters** The paper proposes a specific mechanism for ERα repression. A cell-type-dependent effect undermines the generality of the proposed mechanism and suggests that other factors may be involved. Without a clear explanation, the conclusion that the LXXLL (3) motif is critical is not robust.
+  - **Resolution test** The authors should investigate the basis for the cell-type difference. For example, they could examine the expression levels of coregulators or the stoichiometry of TENT5C and ERα in the two cell lines. Alternatively, they could perform the reporter assay in additional cell lines to determine if the effect is reproducible or specific to HEK293T cells.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Role of TENT5C catalytic activity in GR repression
+  - **Claim pointer** The manuscript states that "the disruption of TENT5C poly(A) polymerase activity does not appear to affect TENT5C repression of ERα" and implies that the catalytic activity is not required for GR repression either.
+  - **Evidence pointer** Results section "TENT5C LXXLL (3) motif is critical for specifically repressing the ERα-mediated transcriptional activation"; Fig. 6B
+  - **Concern** The data for the catalytic mutant (dCAT) are only shown for the GR target gene FKBP5 (Fig. 6B). The text states that the dCAT mutant still represses GR activity, but the data for the ERα reporter assays with the dCAT mutant are not shown or described. The claim that catalytic activity is not required for ERα repression is therefore not supported by the data presented. Furthermore, the mechanism by which TENT5C's catalytic activity could contribute to GR repression is not explored.
+  - **Why it matters** The paper suggests that TENT5C's function as a corepressor is independent of its catalytic activity, which is a significant claim. However, the evidence is incomplete. If the catalytic activity is not required for either receptor, it strengthens the case for a structural role. If it is required for GR but not ERα, it would further differentiate the mechanisms.
+  - **Resolution test** The authors should include the dCAT mutant in the ERα reporter assays (Fig. 6C, 6D) and in the qPCR experiments for ERα target genes (Fig. 6E, 6F). They should also clarify whether the dCAT mutant affects GR repression in the reporter assay (Fig. 6A).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All figures with quantitative data
+  - **Evidence pointer** Methods section "Statistical analysis"; Fig. 1, Fig. 6
+  - **Issue** The statistical methods are described, but the results are not fully reported in the text. For example, the number of independent experiments (n), the exact p-values, and the measures of dispersion (e.g., SEM or SD) are not stated for each figure.
+  - **Required correction** Please provide the exact n, p-values, and error bar definitions in the figure legends or in the results text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability statement
+  - **Issue** The statement says "The data that support the findings of this study are available on request from the corresponding author." This is not in line with current best practices for data sharing, especially for a study with computational components.
+  - **Required correction** Please consider depositing the MD simulation trajectories, analysis scripts, and any other relevant data in a public repository (e.g., Zenodo, Figshare) and provide a DOI or accession number.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of MD simulation methods
+  - **Affected element** Methods section "MD simulations"
+  - **Evidence pointer** Methods section "MD simulations"
+  - **Issue** The description of the MD simulations is detailed but lacks some specifics. For example, the force field for the ligand (DEX) in the GR simulations is not mentioned, and the method for generating the TENT5C/GR complex starting structure is not fully described.
+  - **Required correction** Please specify the ligand force field parameters and the docking or alignment procedure used to create the TENT5C/GR complex.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of physiological relevance
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion speculates on the role of TENT5C in cancer and the interplay between GR and ERα pathways but does not fully contextualize the findings within the known biology of TENT5C, such as its role in mRNA polyadenylation and its other protein interactions.
+  - **Required correction** Please expand the discussion to more thoroughly consider how the corepressor function relates to the known cellular functions of TENT5C and what the implications might be for its tumor suppressor role.
+
+## Risk / unsupported claims
+- The claim that TENT5C is a "corepressor" of GR is not supported by direct interaction data.
+- The claim that the LXXLL (3) motif is "critical" for ERα repression is weakened by the lack of effect in HepG2 cells.
+- The claim that TENT5C catalytic activity is not required for ERα repression is not supported by the data shown (dCAT data for ERα are not presented).
+- The physiological relevance of the observed repression in the context of endogenous gene expression is only partially explored (only FKBP5 for GR, and PGR/C3 for ERα in one cell line each).
+- The MD simulation results for the L3M mutant are mentioned but not shown in detail, making it difficult to assess the claim that the mutation does not affect binding strength in silico.

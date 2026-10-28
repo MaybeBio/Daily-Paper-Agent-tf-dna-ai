@@ -1,0 +1,334 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.06.02.446817",
+  "title": "Predicting localized affinity of RNA binding proteins to transcripts with convolutional neural networks",
+  "doi": "10.1101/2021.06.02.446817",
+  "abstract": "RNA binding proteins (RBPs) are important regulators of transcriptional and post-transcriptional processes. Computational prediction of localized RBP binding affinity with transcripts is important for interpretation of genetic variation, especially variants outside of protein coding region. Here we describe POLARIS ( P rediction O f L ocalized A ffinity for R BPs I n S equence), a new deep-learning method for achieving fast, site-specific binding affinity predictions of RNA-binding proteins (RBPs) to the transcribed genome. POLARIS has two modules: 1. a convolutional neural network (CNN) to predict overall RBP binding within a region based on transcript sequence content and expression level; 2. a Gradient-weighted Class Activation Mapping (GradCAM) implementation for efficient signal backpropagation to individual sequence positions. We trained the model using enhanced crosslinking and immunoprecipitation (eCLIP) data from ENCODE. POLARIS has good performance with a median AUC ~ 0.96 for 160 RBPs across three different cell lines, substantially higher than selected popular published methods trained and tested on the same data sets. When tested on data from a different cell line with the same RBPs, the overall performance is maintained, supporting the ability of cell-type specific affinity prediction. Finally, the GradCAM module allows the model to identify the informative sites in a region that drive prediction. The localized prediction facilitates interpretation of the results and provides basis for inference of functional impact of noncoding variants.",
+  "authors": [
+    "Alexander Kitaygorodsky",
+    "Emily Jin",
+    "Yufeng Shen"
+  ],
+  "published_date": "2021-06-03",
+  "updated_date": "2021-06-03T13:46:31Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.06.02.446817",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.06.02.446817.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T16:14:24Z",
+        "timestamp": 1768493664671,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            3
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 27,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            3
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  RNA binding proteins (RBPs) are important regulators of transcriptional and post-transcriptional processes. Computational prediction of localized RBP binding affinity with transcripts is important for interpretation of genetic variation, especially variants outside of protein coding region. Here we describe POLARIS (\n                  <jats:bold>P</jats:bold>\n                  rediction\n                  <jats:bold>O</jats:bold>\n                  f\n                  <jats:bold>L</jats:bold>\n                  ocalized\n                  <jats:bold>A</jats:bold>\n                  ffinity for\n                  <jats:bold>R</jats:bold>\n                  BPs\n                  <jats:bold>I</jats:bold>\n                  n\n                  <jats:bold>S</jats:bold>\n                  equence), a new deep-learning method for achieving fast, site-specific binding affinity predictions of RNA-binding proteins (RBPs) to the transcribed genome. POLARIS has two modules: 1. a convolutional neural network (CNN) to predict overall RBP binding within a region based on transcript sequence content and expression level; 2. a Gradient-weighted Class Activation Mapping (GradCAM) implementation for efficient signal backpropagation to individual sequence positions. We trained the model using enhanced crosslinking and immunoprecipitation (eCLIP) data from ENCODE. POLARIS has good performance with a median AUC ~ 0.96 for 160 RBPs across three different cell lines, substantially higher than selected popular published methods trained and tested on the same data sets. When tested on data from a different cell line with the same RBPs, the overall performance is maintained, supporting the ability of cell-type specific affinity prediction. Finally, the GradCAM module allows the model to identify the informative sites in a region that drive prediction. The localized prediction facilitates interpretation of the results and provides basis for inference of functional impact of noncoding variants.\n                </jats:p>",
+      "DOI": "10.1101/2021.06.02.446817",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            3
+          ]
+        ],
+        "date-time": "2021-06-03T13:46:31Z",
+        "timestamp": 1622727991000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Predicting localized affinity of RNA binding proteins to transcripts with convolutional neural networks"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Alexander",
+          "family": "Kitaygorodsky",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Emily",
+          "family": "Jin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yufeng",
+          "family": "Shen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aac9396"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature13772"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature25983"
+        },
+        {
+          "issue": "7842",
+          "key": "2021060422000770000_2021.06.02.446817v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "E5",
+          "DOI": "10.1038/s41586-020-03067-w",
+          "article-title": "Author Correction: A large-scale binding and functional map of human RNA-binding proteins",
+          "volume": "589",
+          "year": "2021",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3810"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-09292-w"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3547"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-019-0420-0"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw226"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw142"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw203"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2019.02.002"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF00344251"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "LeCun, Y. , et al., Backpropagation Applied to Handwritten Zip Code Recognition. Neural Computation, 1989. 1.",
+          "DOI": "10.1162/neco.1989.1.4.541"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "LeCun Y. , H.P., Bottou L. , and Bengio Y. , Object Recognition with Gradient-Based Learning, in Shape, Contour and Grouping in Computer Vision. J.L.M. David A. Forsyth , Vito di Gesu , Roberto Cipolla , Editor. 1999, Springer. p. 319–345.",
+          "DOI": "10.1007/3-540-46805-6_19"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yamaguchi, K. , Sakamoto, K. , Akabane, T. , and Fujimoto, Y. , A Neural Network for Speaker-Independent Isolated Word Recognition, in First International Conference on Spoken Language Processing (ICSLP 90). 1990: Kobe, Japan.",
+          "DOI": "10.21437/ICSLP.1990-282"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/323533a0"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0378-1119(97)00407-1"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw653"
+        },
+        {
+          "issue": "1",
+          "key": "2021060422000770000_2021.06.02.446817v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "3246",
+          "DOI": "10.1038/s41467-019-10923-5",
+          "article-title": "RNA structure drives interaction with proteins",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Koo, P.K. , et al., Inferring Sequence-Structure Preferences of RNA-Binding Proteins with Convolutional Residual Networks. bioRxiv, 2018: p. 418459.",
+          "DOI": "10.1101/418459"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1748-7188-6-26"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1000832"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw259"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Selvaraju, R.R. , et al., Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization. 2017 IEEE International Conference on Computer Vision (ICCV), 2016: p. 618–626.",
+          "DOI": "10.1109/ICCV.2017.74"
+        },
+        {
+          "key": "2021060422000770000_2021.06.02.446817v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-020-0652-z"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.06.02.446817",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:48:07Z",
+        "timestamp": 1768441687000
+      },
+      "score": 104.5453,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.06.02.446817"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            3
+          ]
+        ]
+      },
+      "references-count": 27,
+      "URL": "https://doi.org/10.1101/2021.06.02.446817",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            3
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

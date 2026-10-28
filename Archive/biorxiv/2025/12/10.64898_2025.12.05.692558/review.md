@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present OT-Curtains, a single-molecule method combining dual-trap optical tweezers with confocal fluorescence microscopy and a branched DNA substrate to study protein interactions with DNA ends. The method is claimed to overcome limitations of flow-stretch-based approaches by eliminating surface anchoring, enabling rapid buffer exchange, and allowing force-free experiments. The authors report real-time visualization and quantification of end recognition, protection, resection, and cleavage at multiple DNA ends in parallel, and demonstrate compatibility with four protein systems (Ku, AddAB, ParB, KpnI). They further claim that kinetic and mechanistic parameters can be extracted under defined forces and solution conditions.
+- **Visible evidence base** Abstract text only. No figures, tables, methods section, or supplementary data were provided for assessment.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods details, raw data, statistical analyses, and any control experiments. The absence of these materials severely limits the ability to evaluate the technical soundness and validity of the claims.
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable technical advance in single-molecule studies of DNA-end processing. The combination of optical tweezers with confocal fluorescence microscopy and a branched DNA substrate is conceptually appealing and addresses a real need in the field. However, the abstract alone provides insufficient evidence to evaluate the technical implementation, the quality of the demonstrations, or the robustness of the kinetic and mechanistic claims. The method's novelty relative to existing DNA Curtains and optical tweezers approaches is not fully articulated, and the claimed advantages require experimental validation that is not visible in the abstract. The work is of interest to the single-molecule biophysics and DNA repair communities, but the case is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in single-molecule biophysics, DNA repair and recombination, telomere biology, and protein-DNA interaction studies would be interested. The method offers a multiplexed, force-controlled platform for studying DNA-end transactions, which is directly relevant to understanding double-strand break repair pathways. The demonstrated compatibility with Ku, AddAB, ParB, and KpnI suggests broad applicability for benchmarking DNA-end binding and processing proteins.
+- **Major strengths** The conceptual design is elegant, combining the multiplexing capability of DNA Curtains with the force control of optical tweezers. The elimination of surface anchoring is a meaningful improvement that may reduce artifacts associated with flow-stretch methods. The demonstration across four distinct protein systems with different activities (recognition, resection, condensation, cleavage) suggests versatility. The ability to perform force-free experiments while retaining force control when needed is a useful feature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method allows real-time visualization and quantification of end recognition, protection, resection, and cleavage at several DNA ends in parallel.
+  - **Evidence pointer** Abstract only; no figures or data provided
+  - **Concern** The abstract claims parallel observation and quantification of multiple DNA-end transactions, but no data are shown to support the spatial resolution, temporal resolution, or throughput of the system. The number of DNA ends that can be simultaneously observed, the signal-to-noise ratio, and the accuracy of quantification are not described.
+  - **Why it matters** The central value proposition of the method is its multiplexed and quantitative nature. Without evidence of the actual parallel capacity and measurement quality, the core claim of the method's utility cannot be assessed.
+  - **Resolution test** Provide representative images and trajectories showing simultaneous observation of multiple DNA ends, with quantification of the number of ends observable per experiment, the resolution limits, and the precision of kinetic measurements.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Kinetic and mechanistic parameters can be extracted from the data under defined forces and solution conditions.
+  - **Evidence pointer** Abstract only; no kinetic analyses or force-response data provided
+  - **Concern** The abstract states that kinetic and mechanistic parameters can be extracted, but no examples of such extractions are shown. The force range accessible, the precision of force control, and the methods used to derive kinetic parameters from the fluorescence and trap data are not described.
+  - **Why it matters** The ability to extract quantitative parameters under controlled force is a key differentiator from existing methods. Without demonstration of the quality and type of kinetic data obtainable, this claim remains unsubstantiated.
+  - **Resolution test** Show representative kinetic traces with fitted rate constants, force-dependent measurements, and a description of the analysis pipeline used to extract parameters from the raw data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** OT-Curtains is inspired by DNA Curtains and overcomes common limitations of flow-stretch-based methods.
+  - **Evidence pointer** Abstract only; no comparison data provided
+  - **Concern** The abstract claims to overcome limitations of flow-stretch-based methods, but no direct comparison with existing DNA Curtains or other flow-stretch approaches is presented. The specific limitations addressed beyond surface anchoring are not enumerated, and the performance relative to existing methods is not quantified.
+  - **Why it matters** The novelty and advantage of the method depend on demonstrating clear improvements over the state of the art. Without comparative data, the incremental value of OT-Curtains over existing approaches is unclear.
+  - **Resolution test** Provide a direct comparison with a standard DNA Curtains or flow-stretch method, showing quantitative improvements in parameters such as throughput, signal-to-noise, buffer exchange speed, or force control.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method is compatible with Ku-mediated DNA break recognition, AddAB-mediated DNA break resection, ParB-mediated DNA condensation, and KpnI-mediated DNA cleavage.
+  - **Evidence pointer** Abstract only; no experimental data for any of the four systems provided
+  - **Concern** The abstract lists four demonstration systems but provides no data for any of them. The quality of the demonstrations, the conditions used, the controls performed, and the biological relevance of the observations are entirely unassessed.
+  - **Why it matters** The claim of broad compatibility is central to the method's utility. Without visible data for at least one system, the reader cannot judge whether the method works as described or whether the demonstrations are convincing.
+  - **Resolution test** Provide representative data for each of the four systems, including appropriate controls (e.g., protein-free DNA, mutant proteins, or competitive inhibitors) and quantification of the observed activities.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The opening sentence on double-strand break vulnerability is general and does not specify the context or the gap the method fills.
+  - **Required correction** Briefly state the specific limitations of current methods for studying DNA-end interactions that OT-Curtains addresses.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, description of the branched DNA substrate
+  - **Issue** The abstract states the substrate contains "multiple accessible ends" but does not specify the number of ends or the geometry of the branched structure.
+  - **Required correction** Provide the number of DNA ends per substrate and a brief description of the branched architecture.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, "force-free experiments"
+  - **Issue** The abstract mentions force-free experiments but does not clarify whether the optical tweezers are used only for positioning or also for force application in the demonstrated systems.
+  - **Required correction** Clarify the role of the optical tweezers in the demonstrated experiments and the range of forces accessible.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, "rapid protein and buffer exchange"
+  - **Issue** The speed of buffer exchange is not quantified, and the method for achieving it is not described.
+  - **Required correction** Provide a quantitative measure of the exchange time and a brief description of the fluidics setup.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of any experimental data in the provided material means that the core technical claims of the method cannot be evaluated. The case for the method's utility and novelty is not established from the abstract alone.
+- **Assessment against Nature-style criteria** Originality: The combination of optical tweezers with a DNA Curtains-inspired branched substrate is conceptually novel, but the degree of innovation relative to existing hybrid approaches is not fully clear from the abstract. Scientific importance: The method addresses a genuine need in DNA repair research, and if validated, would be of significant value. Interdisciplinary readership: The work bridges biophysics, molecular biology, and DNA repair, and would appeal to a broad readership if the technical details are made accessible. Technical soundness: Not assessable from the abstract alone; the absence of data and methods is a critical gap. Readability for nonspecialists: The abstract is generally clear but lacks sufficient context and quantitative detail for nonspecialists to appreciate the method's advantages.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual design is promising and the demonstration systems are well chosen, but the abstract alone does not provide sufficient evidence to support the technical and quantitative claims. A full assessment requires the complete manuscript with figures, methods, and data.
+
+## Risk / unsupported claims
+- The claim of real-time parallel visualization and quantification of multiple DNA-end transactions is unsupported by any visible data.
+- The claim that kinetic and mechanistic parameters can be extracted is unsupported without examples of such analyses.
+- The claim of overcoming limitations of flow-stretch-based methods is unsupported without comparative data.
+- The compatibility with the four named protein systems is asserted but not demonstrated in the provided material.
+- The specific advantages of eliminating surface anchoring and enabling rapid buffer exchange are stated but not quantified or compared with existing methods.

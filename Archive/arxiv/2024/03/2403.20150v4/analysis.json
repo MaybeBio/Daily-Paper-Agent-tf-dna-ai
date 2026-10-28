@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2403.20150v4",
+  "title": "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods",
+  "authors": "Xiangfei Qiu; Jilin Hu; Lekui Zhou; Xingjian Wu; Junyang Du; Buang Zhang; Chenjuan Guo; Aoying Zhou; Christian S. Jensen; Zhenli Sheng; Bin Yang",
+  "journal": "",
+  "published_date": "2024-03-29",
+  "window": {
+    "start": "2024-03-25",
+    "end": "2024-03-31"
+  },
+  "score": 0,
+  "one_liner_zh": "该文提出时间序列预测基准TFB，与蛋白质-DNA互作及TF-DNA结合机制完全无关，属于纯时间序列预测领域。",
+  "abstract": "Time series are generated in diverse domains such as economic, traffic, health, and energy, where forecasting of future values has numerous important applications. Not surprisingly, many forecasting methods are being proposed. To ensure progress, it is essential to be able to study and compare such methods empirically in a comprehensive and reliable manner. To achieve this, we propose TFB, an automated benchmark for Time Series Forecasting (TSF) methods. TFB advances the state-of-the-art by addressing shortcomings related to datasets, comparison methods, and evaluation pipelines: 1) insufficient coverage of data domains, 2) stereotype bias against traditional methods, and 3) inconsistent and inflexible pipelines. To achieve better domain coverage, we include datasets from 10 different domains: traffic, electricity, energy, the environment, nature, economic, stock markets, banking, health, and the web. We also provide a time series characterization to ensure that the selected datasets are comprehensive. To remove biases against some methods, we include a diverse range of methods, including statistical learning, machine learning, and deep learning methods, and we also support a variety of evaluation strategies and metrics to ensure a more comprehensive evaluations of different methods. To support the integration of different methods into the benchmark and enable fair comparisons, TFB features a flexible and scalable pipeline that eliminates biases. Next, we employ TFB to perform a thorough evaluation of 21 Univariate Time Series Forecasting (UTSF) methods on 8,068 univariate time series and 14 Multivariate Time Series Forecasting (MTSF) methods on 25 datasets. The benchmark code and data are available at https://github.com/decisionintelligence/TFB. We have also launched an online time series leaderboard: https://decisionintelligence.github.io/OpenTS/OpenTS-Bench/.",
+  "abstract_zh": "时间序列在诸如经济、交通、健康、能源等多个领域产生，其中对未来值的预测具有众多重要应用。自然，许多预测方法被提出。为确保进展，能够全面且可靠地实证研究和比较这些方法至关重要。为此，我们提出TFB，一个用于时间序列预测（TSF）方法的自动化基准。TFB通过解决与数据集、比较方法和评估流程相关的不足来推进现有技术水平：1）数据领域覆盖不足，2）对传统方法的刻板偏见，3）流程不一致且不灵活。为获得更好的领域覆盖，我们纳入了来自10个不同领域的数据集：交通、电力、能源、环境、自然、经济、股票市场、银行、健康及网络。我们还提供了时间序列特征描述，以确保所选数据集全面。为消除对某些方法的偏见，我们纳入了多样化的方法，包括统计学习、机器学习和深度学习方法，并支持多种评估策略和指标，以确保对不同方法进行更全面的评估。为支持将不同方法整合到基准中并实现公平比较，TFB具备灵活且可扩展的流程，消除了偏见。接下来，我们利用TFB对8,068个单变量时间序列上的21种单变量时间序列预测（UTSF）方法及25个数据集上的14种多变量时间序列预测（MTSF）方法进行了全面评估。基准代码和数据可在https://github.com/decisionintelligence/TFB获取。我们还推出了在线时间序列排行榜：https://decisionintelligence.github.io/OpenTS/OpenTS-Bench/。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2403.20150v4",
+  "source_url": "https://arxiv.org/abs/2403.20150v4",
+  "paper_page_path": "papers/arxiv/2403.20150v4/index.html"
+}

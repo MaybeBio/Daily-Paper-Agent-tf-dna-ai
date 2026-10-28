@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "38867262",
+    "doi": "10.1186/s40001-024-01900-w",
+    "title": "Comprehensive transcriptomic analysis unveils macrophage-associated genes for establishing an abdominal aortic aneurysm diagnostic model and molecular therapeutic framework."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Abdominal aortic aneurysm (AAA) is a highly lethal cardiovascular disease. The aim of this research is to identify new biomarkers and therapeutic targets for the treatment of such deadly diseases. METHODS: Single-sample gene set enrichment analysis (ssGSEA) and CIBERSORT algorithms were used to identify distinct immune cell infiltration types between AAA and normal abdominal aortas. Single-cell RNA sequencing data were used to analyse the hallmark genes of AAA-associated macrophage cell subsets. Six macrophage-related hub genes were identified through weighted gene co-expression network analysis (WGCNA) and validated for expression in clinical samples and AAA mouse models. We screened potential therapeutic drugs for AAA through online Connectivity Map databases (CMap). A network-based approach was used to explore the relationships between the candidate genes and transcription factors (TFs), lncRNAs, and miRNAs. Additionally, we also identified hub genes that can effectively identify AAA and atherosclerosis (AS) through a variety of machine learning algorithms. RESULTS: We obtained six macrophage hub genes (IL-1B, CXCL1, SOCS3, SLC2A3, G0S2, and CCL3) that can effectively diagnose abdominal aortic aneurysm. The ROC curves and decision curve analysis (DCA) were combined to further confirm the good diagnostic efficacy of the hub genes. Further analysis revealed that the expression of the six hub genes mentioned above was significantly increased in AAA patients and mice. We also constructed TF regulatory networks and competing endogenous RNA networks (ceRNA) to reveal potential mechanisms of disease occurrence. We also obtained two key genes (ZNF652 and UBR5) through a variety of machine learning algorithms, which can effectively distinguish abdominal aortic aneurysm and atherosclerosis. CONCLUSION: Our findings depict the molecular pharmaceutical network in AAA, providing new ideas for effective diagnosis and treatment of diseases.",
+    "keywords": [
+      "Abdominal aortic aneurysm",
+      "Atherosclerosis",
+      "Machine learning",
+      "Macrophage marker genes",
+      "Single-cell sequencing"
+    ],
+    "mesh_terms": [
+      "*Aortic Aneurysm, Abdominal/genetics/diagnosis",
+      "Humans",
+      "Animals",
+      "*Macrophages/metabolism",
+      "Mice",
+      "*Gene Expression Profiling/methods",
+      "Gene Regulatory Networks",
+      "Disease Models, Animal",
+      "Transcriptome",
+      "Biomarkers/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Zhen",
+        "Yu, Weiming",
+        "Luo, Jie",
+        "Shen, Guanghui",
+        "Cui, Zhongqi",
+        "Ni, Wenxuan",
+        "Wang, Haiyang"
+      ],
+      "short_names": [
+        "Wu Z",
+        "Yu W",
+        "Luo J",
+        "Shen G",
+        "Cui Z",
+        "Ni W",
+        "Wang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Vascular and Interventional Surgery, The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, Heilongjiang, China.",
+        "Department of Vascular and Interventional Surgery, The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, Heilongjiang, China.",
+        "General Surgery, Thyroid Surgery, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510000, Guangdong, China.",
+        "Department of Vascular and Interventional Surgery, The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, Heilongjiang, China.",
+        "Department of Clinical Laboratory, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, 200072, China.",
+        "Department of Vascular and Interventional Surgery, The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, Heilongjiang, China.",
+        "Department of Clinical Laboratory, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, 200072, China.",
+        "Department of Clinical Laboratory, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, 200072, China. nnwwxx7@126.com.",
+        "Department of Vascular and Interventional Surgery, The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, Heilongjiang, China. wanghaiyanghmu@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Zhen",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular and Interventional Surgery, The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Weiming",
+        "short_name": "Yu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular and Interventional Surgery, The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, Heilongjiang, China.",
+          "General Surgery, Thyroid Surgery, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, 510000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Jie",
+        "short_name": "Luo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular and Interventional Surgery, The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, Heilongjiang, China.",
+          "Department of Clinical Laboratory, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, 200072, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Guanghui",
+        "short_name": "Shen G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular and Interventional Surgery, The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Zhongqi",
+        "short_name": "Cui Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, 200072, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Wenxuan",
+        "short_name": "Ni W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai, 200072, China. nnwwxx7@126.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Haiyang",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular and Interventional Surgery, The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, Heilongjiang, China. wanghaiyanghmu@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2024 Jun 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/13 00:42",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [
+      "41815567",
+      "41416000",
+      "41203754",
+      "40679675",
+      "39838688"
+    ],
+    "refs": [
+      "38050424",
+      "37737183",
+      "37671131",
+      "37197924",
+      "36511944",
+      "36177847",
+      "35981826",
+      "35769488",
+      "35136032",
+      "34706173",
+      "34211835",
+      "33996954",
+      "33779682",
+      "33678767",
+      "33617982",
+      "33545927",
+      "33239616",
+      "32823940",
+      "32574955",
+      "32531436",
+      "31740819",
+      "31694925",
+      "31443682",
+      "30643263",
+      "30636430",
+      "30341772",
+      "30241973",
+      "29275361",
+      "29087512",
+      "29045534",
+      "29044481",
+      "28274752",
+      "28189002",
+      "27316409",
+      "26842623",
+      "26700480",
+      "26482507",
+      "26352243",
+      "26044582",
+      "25964631",
+      "25944698",
+      "25822800",
+      "25605792",
+      "25563839",
+      "25317082",
+      "24529146",
+      "23323831",
+      "22972146",
+      "21079638",
+      "20808728",
+      "20525257",
+      "19769804",
+      "19623057",
+      "17008526",
+      "15501110",
+      "15211606",
+      "14597658"
+    ],
+    "similar": [
+      "38867262",
+      "39173977",
+      "35769488",
+      "35381314",
+      "35503629",
+      "38785203",
+      "34777635",
+      "31553078",
+      "36186997",
+      "33407182",
+      "33415145",
+      "35990982",
+      "39103059",
+      "32783773",
+      "34637689",
+      "39026250",
+      "38728466",
+      "32678909",
+      "39051127",
+      "34852854",
+      "35625787",
+      "38070790",
+      "29439675",
+      "32278833",
+      "34814367",
+      "36341412",
+      "38112597",
+      "31730405",
+      "30614051",
+      "39239552",
+      "38431726",
+      "39234237",
+      "35104432",
+      "37519764",
+      "30991034",
+      "35568340",
+      "38863714",
+      "29191809",
+      "38815767",
+      "38251428",
+      "32805313",
+      "38690269",
+      "34495251",
+      "33801150",
+      "33472403",
+      "31608184",
+      "36158807",
+      "38994368",
+      "35299890",
+      "27157464",
+      "36623676",
+      "35224035",
+      "38711508",
+      "25349182",
+      "36405745",
+      "28347473",
+      "38981221",
+      "35874515",
+      "36688311",
+      "37198994",
+      "32605321",
+      "39013959",
+      "35447046",
+      "36222281",
+      "34139912",
+      "33553345",
+      "34185955",
+      "32354235",
+      "22704053",
+      "31539405",
+      "38716195",
+      "38660376",
+      "31885343",
+      "31351425",
+      "35286916",
+      "27318834",
+      "30428004",
+      "39364414",
+      "36017103",
+      "24812324",
+      "36341343",
+      "38181271",
+      "38036076",
+      "35620523",
+      "38979407",
+      "26941015",
+      "32212850",
+      "26498477",
+      "38699235",
+      "33655887",
+      "34930827",
+      "35392084",
+      "36777638",
+      "26496478",
+      "36698942",
+      "32039711",
+      "34514753",
+      "37684281",
+      "38965846",
+      "38476236",
+      "15886670",
+      "37257722",
+      "29087237",
+      "34068179",
+      "38590878",
+      "31445353",
+      "38335213",
+      "18078385",
+      "37503333",
+      "33535178",
+      "26989193",
+      "36614026",
+      "37597661",
+      "37608666",
+      "39155144",
+      "36030000",
+      "38913045",
+      "39299659",
+      "39130409",
+      "38895538",
+      "38564938",
+      "39268808",
+      "39364870",
+      "35743538",
+      "39345636"
+    ],
+    "review": [
+      "38867262",
+      "28347473",
+      "38895538"
+    ],
+    "pmc": [
+      "11167832"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-024-01900-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38867262/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38867262",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

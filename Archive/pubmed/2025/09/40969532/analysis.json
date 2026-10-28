@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40969532",
+  "title": "Gene regulatory network prediction using machine learning, deep learning, and hybrid approaches.",
+  "authors": "Mummadi, Sai Teja; Islam, Md Khairul; Busov, Victor; Wei, Hairong",
+  "journal": "Forestry research",
+  "published_date": "2025-09-19",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用机器学习、深度学习和混合方法预测基因调控网络，虽涉及转录因子调控关系，但主要基于转录组数据推断GRN，缺乏三维蛋白-DNA互作建模与结合机制研究，方法可迁移至TF-DNA结合位点预测，属广义蛋白-DNA互作相关。",
+  "abstract": "Construction of gene regulatory networks (GRNs) is essential for elucidating the regulatory mechanisms underlying metabolic pathways, biological processes, and complex traits. In this study, we developed and evaluated machine learning, deep learning, and hybrid approaches for constructing GRNs by integrating prior knowledge and large-scale transcriptomic data from Arabidopsis thaliana, poplar, and maize. Among these, hybrid models that combined convolutional neural networks and machine learning consistently outperformed traditional machine learning and statistical methods, achieving over 95% accuracy on the holdout test datasets. These models not only identified a greater number of known transcription factors regulating the lignin biosynthesis pathway but also demonstrated higher precision in ranking key master regulators such as MYB46 and MYB83, as well as many upstream regulators, including members of the VND, NST, and SND families, at the top of candidate lists. To address the challenge of limited training data in non-model species, we implemented transfer learning, enabling cross-species GRN inference by applying models trained on well-characterized and data-rich species to another species with limited data. This strategy enhanced model performance and demonstrated the feasibility of knowledge transfer across species. Overall, our findings underscore the effectiveness of hybrid and transfer learning approaches in GRN prediction, offering a scalable framework for elucidating regulatory mechanisms in both model and non-model plant systems.",
+  "abstract_zh": "构建基因调控网络（GRNs）对于阐明代谢途径、生物过程及复杂性状背后的调控机制至关重要。在本研究中，我们开发并评估了机器学习、深度学习及混合方法，通过整合拟南芥、杨树和玉米的先验知识及大规模转录组数据来构建GRNs。其中，结合卷积神经网络与机器学习的混合模型在性能上持续优于传统机器学习及统计方法，在保留测试数据集上实现了超过95%的准确率。这些模型不仅识别出更多调控木质素生物合成途径的已知转录因子，而且在将关键主调控因子（如MYB46和MYB83）及许多上游调控因子（包括VND、NST和SND家族成员）排在候选列表前列时，展现出更高的精确度。为应对非模式物种中训练数据有限的挑战，我们实施了迁移学习，通过将训练于特征明确且数据丰富物种的模型应用于数据有限的另一物种，实现了跨物种GRN推断。这一策略提升了模型性能，并证明了跨物种知识迁移的可行性。总体而言，我们的研究结果强调了混合及迁移学习方法在GRN预测中的有效性，为在模式及非模式植物系统中阐明调控机制提供了一个可扩展的框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40969532/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40969532/",
+  "paper_page_path": "papers/pubmed/40969532/index.html"
+}

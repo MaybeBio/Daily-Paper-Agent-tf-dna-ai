@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, computational and experimental sections, discussion, conclusion) without supplementary information or figures.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the presented evidence. No assessment of formatting, grammar, or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors report a combined computational and experimental investigation of the structural dynamics of DNA mimic foldamers (helically folded aromatic oligoamides with negatively charged side chains). They claim: (1) optimized force field parameters enable stable MD simulations of these foldamers; (2) global bending and twisting flexibility parameters are of similar magnitude to B-DNA; (3) distinct kinking events occur, including short-lived minor kinks and longer-lived major kinks; (4) foldamers remain helically folded over broad temperature, pH, and salt ranges; (5) increasing pH (doubly charged phosphonates) increases kinking and accelerates handedness inversion; (6) mQQ5 oligomers are more stable than mQQ4; (7) removing negatively charged side chains destabilizes the helix, suggesting a more complex role of side chains than simple electrostatic repulsion.
+- **Visible evidence base** Main text, Tables 1–4, Figures 3–12 (referenced but not directly viewable), computational methods, experimental protocols described in text. Supplementary figures referenced but not provided.
+- **Missing materials affecting confidence** All figures and tables (only referenced, not viewable), supplementary information (SI) including synthesis details, characterization data, additional MD analysis figures (Fig. S1–S15), and the actual force field parameter values. Without these, quantitative claims cannot be fully verified.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a timely and potentially valuable investigation of the structural dynamics of a class of synthetic DNA mimics. The combination of MD simulations with experimental NMR, UV-vis, and CD spectroscopy is appropriate and the development of a quantitative handedness-inversion assay is a useful methodological contribution. However, the manuscript as presented has several significant gaps. The most critical issue is that the central quantitative claims, particularly the comparison of flexibility parameters to B-DNA, are presented without sufficient methodological detail or visible data to assess their validity. The claim that removing side chains destabilizes the helix is intriguing but the interpretation is speculative and not fully supported by the presented evidence. The comparison to B-DNA dynamics is made at a level of generality that limits its impact. The work is likely of interest to the foldamer and nucleic acid mimicry communities, but the current evidence base does not fully establish the case.
+- **Who would be interested in the results, and why** Researchers in the fields of foldamer chemistry, DNA mimicry, protein–nucleic acid interactions, and biomimetic polymer design. The methodological developments (force field parameterization, handedness-inversion assay) will be of interest to computational chemists studying aromatic oligoamides and experimentalists working on helix stability measurements. The comparison to B-DNA dynamics may attract interest from the nucleic acid biophysics community, though the level of comparison is currently too coarse to be of direct use.
+- **Major Strengths** The combination of computational and experimental approaches is well conceived and appropriate for the questions asked. The development of a quantitative assay for helix handedness inversion kinetics is a genuine methodological advance. The systematic variation of pH, salt, and temperature provides a broad experimental matrix. The observation that mQQ5 is more stable than mQQ4 is consistent across multiple methods and strengthens confidence in that specific claim. The discussion of the complex role of side chains beyond simple electrostatic repulsion is thoughtful and opens new questions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "the global flexibility parameters for twisting and bending of the foldamer helices are of similar magnitude to those of B-DNA" is central to the paper's thesis.
+  - **Evidence pointer** Table 1, Computational methods section, location not provided for specific values
+  - **Concern** The comparison to B-DNA flexibility is presented as a key result, but the manuscript does not provide sufficient detail on how the B-DNA comparison values were obtained. Were B-DNA simulations performed with the same protocol? What force field was used for B-DNA? What exactly is being compared (persistence lengths, variance of angles, etc.)? The methods section describes the calculation of bending persistence length from the mean scalar product of axis vectors, but no error estimates, convergence criteria, or comparison to literature values for B-DNA are given. Without this information, the claim of "similar magnitude" cannot be evaluated.
+  - **Why it matters** This is the central quantitative claim that connects the foldamer dynamics to DNA. If the comparison is not rigorously established, the paper's main thesis is weakened.
+  - **Resolution test** Provide details of B-DNA reference simulations or literature values used, including force field, simulation length, and analysis protocol. Show convergence of the flexibility parameters and provide error bars. Ideally, show a direct comparison plot of bending and twist distributions for foldamers vs. B-DNA.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "removing a charged side chain was found to have a stabilizing effect on the helix" (sequence 7 vs 5).
+  - **Evidence pointer** Figure 11, Table 3, location not provided
+  - **Concern** The interpretation of the faster handedness inversion kinetics for sequence 7 (with two phosphonate side chains replaced by methoxy groups) as "stabilizing" is not straightforward. Faster inversion kinetics could indicate either destabilization of the folded state or stabilization of the transition state. The authors acknowledge this in the Discussion but do not provide a quantitative framework to distinguish these possibilities. The claim in the abstract and conclusion that removing side chains has a "stabilizing effect" is therefore not directly supported by the kinetic data alone.
+  - **Why it matters** This is presented as a surprising and important finding that challenges the simple electrostatic repulsion model. If the interpretation is not rigorously supported, the conclusion is overstated.
+  - **Resolution test** Provide a quantitative model that separates the effects on the folded state vs transition state. This could be done through temperature-dependent kinetics to extract activation parameters, or through additional MD simulations comparing the free energy profiles for handedness inversion in 5 vs 7.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The force field parameterization is claimed to be "optimized" and "implemented in AMBER" for the MD simulations.
+  - **Evidence pointer** Computational methods section, Figure 2, location not provided
+  - **Concern** The description of the force field parameterization is insufficient for reproduction. The torsional parameter fitting procedure is described in general terms, but the specific quantum mechanical method, basis set, level of theory, and the actual fitted parameter values are not given. The manuscript states that "torsional energy profiles were calculated by a high level quantum mechanical (QM) method" without specifying which method. The final fitted parameters are not reported in the text or tables. Without these details, the simulations cannot be reproduced or independently verified.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The parameterization is a key contribution of the work, and the parameters should be made available.
+  - **Resolution test** Provide the full details of the QM calculations (method, basis set, software), the fitting procedure, and the final parameter values. Ideally, provide the parameter files as supplementary material or in a public repository.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the foldamers' dynamics "resemble" those of B-DNA, implying functional relevance for protein binding.
+  - **Evidence pointer** Discussion section, location not provided
+  - **Concern** The manuscript does not directly connect the observed dynamic properties to the function of these foldamers as protein-binding agents. The statement that the resemblance in flexibility "extends the resemblance between double stranded B-DNA and DNA mimic foldamers" is made without discussing whether this dynamic resemblance is functionally important for protein binding. If the dynamics are not linked to binding affinity or specificity, the significance of the finding is limited.
+  - **Why it matters** The paper's significance claim rests on the idea that these foldamers can mimic DNA not just in structure but in dynamics, and that this matters for their function. Without a functional link, the importance of the dynamic similarity is unclear.
+  - **Resolution test** Discuss how the observed flexibility parameters might affect protein binding, or cite existing data on foldamer–protein complexes that could be interpreted in light of the new dynamic data. If no functional link can be made, temper the significance claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that "suppressing some negatively charged side chains had a destabilizing effect on the helix" but the data show faster handedness inversion kinetics, which is not the same as helix destabilization. The wording is imprecise.
+  - **Required correction** Rephrase to "suppressing some negatively charged side chains accelerated handedness inversion kinetics" or clarify what is meant by "destabilizing."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** MD simulation analysis
+  - **Evidence pointer** Computational methods section, location not provided
+  - **Issue** The manuscript states that "phases of the trajectories with significant structural transitions (RMSD > 6 Å) were excluded from the analysis" for the flexibility calculations. This exclusion could bias the results toward more rigid conformations. The criteria for exclusion and the fraction of trajectory excluded should be reported.
+  - **Required correction** Report the fraction of trajectory excluded for each simulation and justify the RMSD cutoff.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental section
+  - **Evidence pointer** pH and salt dependence of NMR spectra, location not provided
+  - **Issue** The manuscript states that "some resonances of 2 could be partly assigned using 2D COSY NMR spectra" but does not provide the assignment table or spectra in the main text. This makes it difficult to assess the interpretation of the NMR changes.
+  - **Required correction** Provide the assignment information in the SI and reference it clearly, or summarize the key assignments in the main text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section, location not provided
+  - **Issue** The discussion of the "higher energy state enabling handedness inversion" is speculative and not directly supported by the data presented. The reference to "modeling studies" is vague.
+  - **Required correction** Either provide the modeling data or clearly label this as a hypothesis requiring further testing.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental section
+  - **Evidence pointer** Foldamer synthesis, location not provided
+  - **Issue** The synthesis of new building blocks for sequences 6 and 7 is described as presented in the SI, but the SI is not provided. Without the SI, the reproducibility of the synthesis cannot be assessed.
+  - **Required correction** Ensure the SI is available and contains full experimental details for the new building blocks.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (B-DNA comparison not rigorously established), R1-M2 (interpretation of side-chain removal not quantitatively supported), R1-M3 (force field parameters not reported).
+- **Assessment against Nature-style criteria** Originality: The work is original in its specific focus on the dynamics of DNA mimic foldamers, which have been previously characterized mainly by static structures. The development of a handedness inversion assay is novel. However, the conceptual framework (comparing synthetic polymer dynamics to DNA) is not entirely new. Scientific importance: The work is of moderate importance to the foldamer community and may have implications for the design of protein-binding inhibitors. The importance would be enhanced if a clear functional link between dynamics and binding were established. Interdisciplinary readership: The work bridges chemistry, biophysics, and computational methods, and could appeal to a broad readership if the significance were more clearly articulated. Technical soundness: The computational methodology has gaps in reporting that prevent full assessment. The experimental methods appear sound but the key quantitative claims are not fully supported. Readability for nonspecialists: The manuscript is generally well written and accessible, though some sections assume familiarity with foldamer chemistry. The abstract and introduction are clear.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an interesting question with a reasonable combination of methods, but the central quantitative claims require additional detail and analysis to be convincing. The interpretation of the side-chain removal experiments needs to be refined. If the authors can provide the missing methodological details and strengthen the quantitative support for their claims, the work would be a valuable contribution.
+
+## Risk / unsupported claims
+- The claim that foldamer flexibility parameters are "of similar magnitude" to B-DNA is not verifiable from the provided text without details of the B-DNA reference and error analysis.
+- The claim that removing side chains has a "stabilizing effect" is an interpretation not directly supported by the kinetic data.
+- The statement that "modeling studies suggested that this higher energy state is a helix with a local misfold" is referenced vaguely and not supported by data in the manuscript.
+- The claim that the foldamers are "stable over a broad range of temperature, pH and salt conditions" is supported by the qualitative NMR and CD data described, but the quantitative limits of stability are not defined.
+- The force field parameterization is claimed to be "optimized" but the validation of these parameters (e.g., comparison to experimental data or ab initio calculations) is not described.

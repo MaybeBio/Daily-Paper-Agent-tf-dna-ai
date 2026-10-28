@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "41193709",
+    "doi": "10.1007/s11418-025-01947-x",
+    "title": "Digoxin targets BHLHE40 to inhibit epithelial-mesenchymal transition in cervical cancer cells via downregulation of ANGPTL3."
+  },
+  "content": {
+    "abstract": "This study aims to investigate the mechanism of action of BHLHE40 and its targeted drug, digoxin, in cervical cancer. The clinical significance of BHLHE40 was evaluated in cervical cancer samples using the UALCAN and Human Protein Atlas databases. The effects of BHLHE40 on proliferation, migration, invasion, and epithelial-mesenchymal transition (EMT) were then assessed through loss- and gain-of-function experiments coupled with CCK-8, wound healing, Transwell and Western blot analysis. A murine lung-metastasis model was further established to ;validate the pro-metastatic role of BHLHE40 in vivo. JASPAR-based motif prediction, chromatin immunoprecipitation-qPCR (ChIP-qPCR), and luciferase reporter assays were employed to elucidate the transcriptional regulation of ANGPTL3 by BHLHE40. Molecular docking and cellular thermal shift assay (CETSA) were used to clarify the molecular interaction between digoxin and BHLHE40. BHLHE40 was markedly up-regulated in cervical cancer tissues and positively correlated with advanced tumor stage, lymph node metastasis, and poor prognosis. Knockdown of BHLHE40 suppressed proliferation, colony formation, migration, invasion, and attenuated EMT. Consistently, silencing BHLHE40 reduced the number of pulmonary metastatic nodules in nude mice. Mechanistically, BHLHE40 bound directly to the ANGPTL3 promoter and enhanced its transcriptional activity. Knock-down ANGPTL3 reversed BHLHE40-induced increases in migratory and invasive capacities as well as EMT-related phenotypic changes. Digoxin bound to the conserved domain of BHLHE40, down-regulated both BHLHE40 and ANGPTL3, and suppressed EMT and cell motility. Overexpression of BHLHE40 rescued these inhibitory effects of digoxin. Collectively, our findings demonstrate that BHLHE40 promotes EMT and metastasis in cervical cancer by transcriptionally activating ANGPTL3, whereas digoxin exerts anti-EMT effects by targeting this axis. These data highlight the critical role of the BHLHE40-ANGPTL3 axis in cervical cancer progression and suggest that repurposing digoxin offers a novel therapeutic strategy for suppressing EMT in this disease.",
+    "keywords": [
+      "ANGPTL3",
+      "BHLHE40",
+      "Cervical cancer",
+      "Digoxin",
+      "Epithelial-mesenchymal transition (EMT)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Uterine Cervical Neoplasms/metabolism/drug therapy/genetics/pathology",
+      "*Epithelial-Mesenchymal Transition/drug effects",
+      "Female",
+      "Animals",
+      "*Angiopoietin-Like Protein 3/metabolism/genetics",
+      "*Digoxin/pharmacology",
+      "Mice",
+      "Down-Regulation/drug effects",
+      "Cell Line, Tumor",
+      "*Basic Helix-Loop-Helix Proteins/metabolism/genetics",
+      "*Angiopoietin-like Proteins/metabolism/genetics",
+      "Cell Movement/drug effects",
+      "Cell Proliferation/drug effects",
+      "Mice, Nude",
+      "Gene Expression Regulation, Neoplastic/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Canyi",
+        "Luo, Penghua",
+        "Tang, Lin",
+        "Yang, Yongqiang",
+        "Rao, Long",
+        "Zhong, Lijun"
+      ],
+      "short_names": [
+        "Li C",
+        "Luo P",
+        "Tang L",
+        "Yang Y",
+        "Rao L",
+        "Zhong L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gynecology, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, NO.182 Chunhui Road, Longmatan District, Luzhou, 646000, China.",
+        "Department of Gynecology, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, NO.182 Chunhui Road, Longmatan District, Luzhou, 646000, China.",
+        "Department of Gynecology, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, NO.182 Chunhui Road, Longmatan District, Luzhou, 646000, China.",
+        "Department of Gynecology, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, NO.182 Chunhui Road, Longmatan District, Luzhou, 646000, China.",
+        "Department of Gynecology, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, NO.182 Chunhui Road, Longmatan District, Luzhou, 646000, China.",
+        "Department of Gynecology, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, NO.182 Chunhui Road, Longmatan District, Luzhou, 646000, China. zlj00375@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Canyi",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, NO.182 Chunhui Road, Longmatan District, Luzhou, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Penghua",
+        "short_name": "Luo P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, NO.182 Chunhui Road, Longmatan District, Luzhou, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Lin",
+        "short_name": "Tang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, NO.182 Chunhui Road, Longmatan District, Luzhou, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yongqiang",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, NO.182 Chunhui Road, Longmatan District, Luzhou, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Rao, Long",
+        "short_name": "Rao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, NO.182 Chunhui Road, Longmatan District, Luzhou, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Lijun",
+        "short_name": "Zhong L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, NO.182 Chunhui Road, Longmatan District, Luzhou, 646000, China. zlj00375@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of natural medicines"
+    ],
+    "journal_abbrev": [
+      "J Nat Med"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/06 00:27",
+    "fetched_at": "2026-10-01 05:36:11"
+  },
+  "links": {
+    "cites": [
+      "42352298",
+      "42086673",
+      "41408064"
+    ],
+    "refs": [
+      "39817679",
+      "39396465",
+      "39098910",
+      "38657117",
+      "37773521",
+      "37638046",
+      "37375208",
+      "37344779",
+      "37032732",
+      "37026212",
+      "35038961",
+      "34549269",
+      "34312021",
+      "34045534",
+      "33656326",
+      "33534128",
+      "32577154",
+      "31533057",
+      "31223079",
+      "30735911",
+      "30529380",
+      "30285805",
+      "29743548",
+      "29389861",
+      "28649800",
+      "27840924",
+      "26639238",
+      "25644496",
+      "25013375",
+      "24685482",
+      "23421975",
+      "22844531",
+      "22140654",
+      "21940333",
+      "21422417",
+      "19055760"
+    ],
+    "similar": [
+      "41193709",
+      "41260514",
+      "40616572",
+      "38954708",
+      "39922114",
+      "35038961",
+      "40925123",
+      "37845756",
+      "38180377",
+      "40429774",
+      "40216870",
+      "29337896",
+      "38991944",
+      "33179755",
+      "31866511",
+      "30826396",
+      "31037155",
+      "40618443",
+      "40139083",
+      "30678687",
+      "35233882",
+      "31409905",
+      "30261900",
+      "41331621",
+      "39113057",
+      "38951152",
+      "25373388",
+      "40660234",
+      "31092700",
+      "34126197",
+      "31210295",
+      "38657117",
+      "27065319",
+      "35837768",
+      "28851173",
+      "37566200",
+      "30132866",
+      "27793172",
+      "32401379",
+      "38035707",
+      "39779500",
+      "40597639",
+      "31436299",
+      "31081073",
+      "29899322",
+      "40059806",
+      "37147666",
+      "37403143",
+      "31655604",
+      "30907986",
+      "41114845",
+      "35505294",
+      "35341461",
+      "34029939",
+      "31499118",
+      "41075009",
+      "34484467",
+      "29534378",
+      "26636541",
+      "37431919",
+      "29284478",
+      "33566221",
+      "33626219",
+      "30453285",
+      "34648915",
+      "32103900",
+      "33640782",
+      "27933466",
+      "35869758",
+      "38826095",
+      "30691517",
+      "40035259",
+      "38948025",
+      "34244973",
+      "26808085",
+      "40217291",
+      "41524948",
+      "40603978",
+      "39799423",
+      "34210327",
+      "30937952",
+      "24945379",
+      "34571508",
+      "27384482",
+      "32028981",
+      "32106739",
+      "28446743",
+      "34913078",
+      "36039935",
+      "38842201",
+      "34880599",
+      "39210373",
+      "39551781",
+      "40775646",
+      "40238841",
+      "41452395",
+      "34635635",
+      "41024019",
+      "37945014",
+      "35277194"
+    ],
+    "review": [
+      "41193709"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://screening.iarc.fr/atlashisto.php",
+        "provider": "International Agency for Research on Cancer - Screening Group",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Histopathology and cytopathology of the uterine cervix - digital atlas"
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s11418-025-01947-x",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4016",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

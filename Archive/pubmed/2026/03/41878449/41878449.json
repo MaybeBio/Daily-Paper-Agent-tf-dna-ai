@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "41878449",
+    "doi": "10.3389/fimmu.2026.1759781",
+    "title": "Identification of PANoptosis hub genes driving immune activation and tubulointerstitial injury in diabetic kidney disease by integrative bioinformatics and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Diabetic kidney disease (DKD) is characterized by chronic inflammation and immune dysregulation. Multiple programmed cell death pathways contribute to tubulointerstitial injury, but their perturbations, crosstalk, and integrative impact in DKD remain unclear. PANoptosis-a coordinated program integrating pyroptosis, apoptosis, and necroptosis-has emerged as a key mechanism in inflammatory disorders, yet its role in DKD is not defined. METHODS: We integrated multiple renal tubulointerstitial transcriptomic datasets from DKD and control cohorts to identify differentially expressed genes, followed by functional enrichment analysis. PANoptosis-related gene sets were curated from MSigDB, and pathway crosstalk was evaluated using independent single-cell RNA-seq datasets. Hub genes were prioritized by combining weighted gene co-expression network analysis (WGCNA) with five machine-learning algorithms, and a PANoptosis-related risk score (PRS) was constructed and correlated with clinical parameters and immune infiltration. miRNA-mRNA and transcription factor-hub gene regulatory networks were inferred using ENCORI and hTFtarget, respectively. Druggability of hub genes was assessed using DrugnomeAI, and candidate compounds were retrieved from DGIdb. Key findings were validated in diabetic mouse models. RESULTS: Apoptosis, pyroptosis, necroptosis and the integrated PANoptosis program were markedly activated in DKD. At the single-cell level, these pathways were frequently co-activated within tubular and interstitial cell types, with extensive molecular overlap. Six PANoptosis-related hub genes (YWHAH, PRKACB, PSMB9, FAS, GZMA, CASP1) were identified; their expression correlated negatively with glomerular filtration rate and positively with serum creatinine and immune-cell infiltration. The PRS robustly discriminated DKD from controls and identified a high-risk subgroup with heightened immune infiltration and impaired renal function. Regulatory network analysis revealed convergent miRNA and transcription factor control of key hub genes. Druggability profiling with DrugnomeAI highlighted CASP1, FAS, PSMB9 and PRKACB as experimentally tractable and pharmacologically actionable targets, and DGIdb suggested multiple repurposable agents against these nodes. CONCLUSION: This study delineates extensive perturbations and crosstalk among apoptosis, pyroptosis and necroptosis in DKD, positioning PANoptosis as a unifying driver of tubulointerstitial injury. The six PANoptosis hub genes and their derived PRS show strong diagnostic potential, while integrated regulatory and druggability analyses nominate CASP1, FAS, PSMB9 and PRKACB as promising biomarkers and therapeutic entry points for PANoptosis-centered interventions in DKD.",
+    "keywords": [
+      "DrugnomeAI",
+      "PANoptosis",
+      "diabetic kidney disease",
+      "immune infiltration",
+      "machine learning",
+      "tubules and tubulointerstitium"
+    ],
+    "mesh_terms": [
+      "*Diabetic Nephropathies/genetics/immunology/pathology",
+      "Animals",
+      "*Computational Biology/methods",
+      "*Machine Learning",
+      "Humans",
+      "Gene Regulatory Networks",
+      "Mice",
+      "Pyroptosis/genetics",
+      "*Necroptosis/genetics/immunology",
+      "Gene Expression Profiling",
+      "Apoptosis/genetics",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yintong",
+        "Yuan, Feifei",
+        "Li, Shengyuan",
+        "Liu, Lerong",
+        "Peng, Xuankun",
+        "Zeng, Xiangrong",
+        "Chen, Siyong",
+        "Liu, Nianping",
+        "Zhao, Tongfeng"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Yuan F",
+        "Li S",
+        "Liu L",
+        "Peng X",
+        "Zeng X",
+        "Chen S",
+        "Liu N",
+        "Zhao T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Geriatric Endocrinology, Guangdong Geriatrics Institute, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China.",
+        "Division of Nephrology, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Department of Geriatric Endocrinology, Guangdong Geriatrics Institute, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China.",
+        "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Department of Geriatric Endocrinology, Guangdong Geriatrics Institute, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China.",
+        "Department of Geriatric Endocrinology, Guangdong Geriatrics Institute, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China.",
+        "Department of Geriatric Endocrinology, Guangdong Geriatrics Institute, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China.",
+        "Department of Endocrinology, The Sixth Affiliated Hospital, Sun Yat-sen University, Guangzhou, China.",
+        "The First Affiliated Hospital of University of Science and Technology of China (USTC), School of Basic Medical Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, China.",
+        "Department of Geriatric Endocrinology, Guangdong Geriatrics Institute, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yintong",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatric Endocrinology, Guangdong Geriatrics Institute, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Feifei",
+        "short_name": "Yuan F",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nephrology, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shengyuan",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatric Endocrinology, Guangdong Geriatrics Institute, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Lerong",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Xuankun",
+        "short_name": "Peng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatric Endocrinology, Guangdong Geriatrics Institute, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Xiangrong",
+        "short_name": "Zeng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatric Endocrinology, Guangdong Geriatrics Institute, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Siyong",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatric Endocrinology, Guangdong Geriatrics Institute, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China.",
+          "Department of Endocrinology, The Sixth Affiliated Hospital, Sun Yat-sen University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Nianping",
+        "short_name": "Liu N",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of University of Science and Technology of China (USTC), School of Basic Medical Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Tongfeng",
+        "short_name": "Zhao T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatric Endocrinology, Guangdong Geriatrics Institute, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/25 07:09",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [
+      "42688959",
+      "42602361",
+      "42348531"
+    ],
+    "refs": [
+      "41052986",
+      "40999963",
+      "40721869",
+      "40540586",
+      "40534883",
+      "39833634",
+      "39571905",
+      "39539016",
+      "39048792",
+      "39002871",
+      "38877579",
+      "38821484",
+      "38570600",
+      "38409569",
+      "38242081",
+      "38181758",
+      "38110635",
+      "37977994",
+      "37927402",
+      "37626062",
+      "37547288",
+      "37468583",
+      "37029116",
+      "36991125",
+      "36875082",
+      "36871895",
+      "36787250",
+      "36470394",
+      "36434048",
+      "35274315",
+      "35058659",
+      "34619283",
+      "34590363",
+      "34115095",
+      "33506613",
+      "33195475",
+      "32428502",
+      "32410750",
+      "31942046",
+      "31844186",
+      "31748744",
+      "31600501",
+      "30507047",
+      "30002449",
+      "29477239",
+      "29398179",
+      "28522654",
+      "26713607",
+      "25831493",
+      "25365087",
+      "24843643",
+      "24717301",
+      "24286513",
+      "23362314",
+      "22257669",
+      "19114008",
+      "18418356",
+      "17039255"
+    ],
+    "similar": [
+      "41878449",
+      "41569454",
+      "41479901",
+      "41756296",
+      "40891136",
+      "41291841",
+      "39512836",
+      "42037113",
+      "42107160",
+      "38691241",
+      "42123756",
+      "39697326",
+      "40825025",
+      "41436831",
+      "38104515",
+      "39650656",
+      "40274384",
+      "34506229",
+      "41789070",
+      "41369928",
+      "40640102",
+      "38587531",
+      "42158856",
+      "37063851",
+      "42053838",
+      "42519304",
+      "42099899",
+      "40374840",
+      "40663577",
+      "41122706",
+      "38766319",
+      "42278229",
+      "42526578",
+      "40613560",
+      "41009972",
+      "42123445",
+      "40948769",
+      "37396184",
+      "41052072",
+      "40406126",
+      "41975603",
+      "41401161",
+      "41468372",
+      "41410587",
+      "40977739",
+      "40228227",
+      "41826854",
+      "42233387",
+      "41013556",
+      "40596265",
+      "39797951",
+      "41145553",
+      "39072329",
+      "39888480",
+      "42178799",
+      "41760846",
+      "40973872",
+      "38851464",
+      "41935997",
+      "40958910",
+      "41857149",
+      "42327749",
+      "41044520",
+      "41388523",
+      "42274933",
+      "41508276",
+      "41046974",
+      "40659785",
+      "42195052",
+      "41835118",
+      "40462493",
+      "41424060",
+      "38951833",
+      "41733593",
+      "38390317",
+      "39265357",
+      "41224720",
+      "38952087",
+      "40216809",
+      "42310773",
+      "42292668",
+      "42265520",
+      "39394418",
+      "36157062",
+      "40597456",
+      "40747306",
+      "39988817",
+      "38690269",
+      "35721731",
+      "34908186",
+      "40311345",
+      "42217414",
+      "40943452",
+      "41858783",
+      "41164826",
+      "39953123",
+      "38198194",
+      "38863714",
+      "41088263",
+      "42338983"
+    ],
+    "review": [
+      "41878449"
+    ],
+    "pmc": [
+      "13006297"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41878449/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FAS-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3684",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1759781",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

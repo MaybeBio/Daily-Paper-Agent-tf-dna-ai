@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "33893499",
+    "doi": "10.1093/intbio/zyab006",
+    "title": "Mechanistic dissection of spatial organization in NF-kappaB signaling pathways by hybrid simulations."
+  },
+  "content": {
+    "abstract": "The nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kappaB) is one of the most important transcription factors involved in the regulation of inflammatory signaling pathways. Inappropriate activation of these pathways has been linked to autoimmunity and cancers. Emerging experimental evidences have been showing the existence of elaborate spatial organizations for various molecular components in the pathways. One example is the scaffold protein tumor necrosis factor receptor associated factor (TRAF). While most TRAF proteins form trimeric quaternary structure through their coiled-coil regions, the N-terminal region of some members in the family can further be dimerized. This dimerization of TRAF trimers can drive them into higher-order clusters as a response to receptor stimulation, which functions as a spatial platform to mediate the downstream poly-ubiquitination. However, the molecular mechanism underlying the TRAF protein clustering and its functional impacts are not well-understood. In this article, we developed a hybrid simulation method to tackle this problem. The assembly of TRAF-based signaling platform at the membrane-proximal region is modeled with spatial resolution, while the dynamics of downstream signaling network, including the negative feedbacks through various signaling inhibitors, is simulated as stochastic chemical reactions. These two algorithms are further synchronized under a multiscale simulation framework. Using this computational model, we illustrated that the formation of TRAF signaling platform can trigger an oscillatory NF-kappaB response. We further demonstrated that the temporal patterns of downstream signal oscillations are closely regulated by the spatial factors of TRAF clustering, such as the geometry and energy of dimerization between TRAF trimers. In general, our study sheds light on the basic mechanism of NF-kappaB signaling pathway and highlights the functional importance of spatial regulation within the pathway. The simulation framework also showcases its potential of application to other signaling pathways in cells.",
+    "keywords": [
+      "NF-kappaB signaling pathways",
+      "hybrid simulations",
+      "ligand-receptor oligomerization"
+    ],
+    "mesh_terms": [
+      "*NF-kappa B/metabolism",
+      "*Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Yinghao",
+        "Dhusia, Kalyani",
+        "Su, Zhaoqian"
+      ],
+      "short_names": [
+        "Wu Y",
+        "Dhusia K",
+        "Su Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1181-5670"
+      ],
+      "affiliations": [
+        "Department of Systems and Computational Biology, Albert Einstein College of Medicine, Bronx, NY, USA.",
+        "Department of Systems and Computational Biology, Albert Einstein College of Medicine, Bronx, NY, USA.",
+        "Department of Systems and Computational Biology, Albert Einstein College of Medicine, Bronx, NY, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Yinghao",
+        "short_name": "Wu Y",
+        "identifiers": [
+          "0000-0003-1181-5670"
+        ],
+        "affiliations": [
+          "Department of Systems and Computational Biology, Albert Einstein College of Medicine, Bronx, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Dhusia, Kalyani",
+        "short_name": "Dhusia K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems and Computational Biology, Albert Einstein College of Medicine, Bronx, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Su, Zhaoqian",
+        "short_name": "Su Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems and Computational Biology, Albert Einstein College of Medicine, Bronx, NY, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Integrative biology : quantitative biosciences from nano to macro"
+    ],
+    "journal_abbrev": [
+      "Integr Biol (Camb)"
+    ],
+    "pub_date": "2021 May 18",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/25 06:00",
+    "fetched_at": "2026-09-27 16:21:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "32021664",
+      "30661665",
+      "30659056",
+      "30524423",
+      "30214450",
+      "29527458",
+      "29432170",
+      "29295955",
+      "29176576",
+      "29158945",
+      "29016600",
+      "28978431",
+      "28365760",
+      "28362798",
+      "27151821",
+      "27028148",
+      "26840718",
+      "26765569",
+      "24511927",
+      "24324544",
+      "23913102",
+      "23758787",
+      "23495970",
+      "23389845",
+      "22697237",
+      "22404682",
+      "21665455",
+      "21562044",
+      "20828640",
+      "20663918",
+      "20130139",
+      "19465916",
+      "18523553",
+      "18463616",
+      "18234819",
+      "17457343",
+      "17303919",
+      "17135271",
+      "17072331",
+      "17072321",
+      "17052123",
+      "17037977",
+      "16735576",
+      "16731694",
+      "16581178",
+      "16321974",
+      "16204833",
+      "15995584",
+      "15817692",
+      "15229469",
+      "14573350",
+      "12829515",
+      "12490959",
+      "12424381",
+      "11988477",
+      "3096580",
+      "2157987"
+    ],
+    "similar": [
+      "33893499",
+      "33539010",
+      "9733779",
+      "8985387",
+      "9774460",
+      "25861989",
+      "30405612",
+      "21185369",
+      "9685412",
+      "25716317",
+      "16304992",
+      "29581234",
+      "10781837",
+      "10581243",
+      "9104814",
+      "15644327",
+      "9852070",
+      "11167129",
+      "34719837",
+      "8702708",
+      "10433725",
+      "10025951",
+      "27028148",
+      "12709429",
+      "10428814",
+      "10759890",
+      "26276390",
+      "11262403",
+      "9032281",
+      "20501937",
+      "10201981",
+      "9847406",
+      "11559697",
+      "23495970",
+      "9418902",
+      "14724292",
+      "15215253",
+      "8663299",
+      "31123462",
+      "16336209",
+      "10318845",
+      "15708970",
+      "9488716",
+      "19752230",
+      "18752500",
+      "14557256",
+      "12915550",
+      "11028545",
+      "20449947",
+      "20530686",
+      "11742346",
+      "10075662",
+      "15383523",
+      "18491055",
+      "21810480",
+      "20484576",
+      "31841694",
+      "25736755",
+      "27287455",
+      "10509816",
+      "29196212",
+      "20529327",
+      "36310378",
+      "11698454",
+      "12354113",
+      "26415122",
+      "8943365",
+      "25736753",
+      "22017430",
+      "15932506",
+      "10860842",
+      "21439961",
+      "22105767",
+      "20184394",
+      "16009713",
+      "22773835",
+      "17158868",
+      "24324544",
+      "16953224",
+      "17608743",
+      "33842604",
+      "23792277",
+      "31311877",
+      "20512936",
+      "14645259",
+      "10514511",
+      "24080195",
+      "12840022",
+      "14585960"
+    ],
+    "review": [
+      "33893499",
+      "30405612",
+      "11167129",
+      "23495970",
+      "18491055",
+      "27287455",
+      "22017430",
+      "22105767",
+      "23792277"
+    ],
+    "pmc": [
+      "8129552"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33893499/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33893499",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33893499",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/ib/article-lookup/doi/10.1093/intbio/zyab006",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

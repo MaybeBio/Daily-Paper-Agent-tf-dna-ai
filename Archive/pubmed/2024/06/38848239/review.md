@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full manuscript, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose CnNet, a two-step computational approach combining MEME for motif discovery and CNN for scoring, to predict transcription factor binding sites in DNA sequences. They claim that CnNet predicts TF binding scores with much better accuracy compared to existing approaches.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, baseline comparisons, or methodological details are available
+- **Missing materials affecting confidence** Full text, all figures and tables, dataset specifications, hyperparameter settings, baseline method definitions, statistical significance tests, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible two-stage pipeline for transcription factor binding site prediction, but the scientific case is not established from the supplied material. The core claim of superior accuracy is unsupported by any quantitative evidence. The methodological novelty relative to existing deep learning approaches for TF binding prediction is unclear, and the description of the CNN component is too vague to assess technical soundness. The work may be of interest to computational biologists working on regulatory genomics, but the current abstract does not provide sufficient information to evaluate its contribution.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulation, transcription factor binding prediction, and motif discovery would be the primary audience. Researchers developing deep learning methods for genomic sequence analysis may also find the combination of MEME and CNN of interest, provided the approach demonstrates clear advantages over existing tools such as DeepBind, DeepSEA, or factorNet.
+- **Major strengths** The problem addressed is biologically important, as transcription factor binding prediction is central to understanding gene regulation. The proposed two-step design, separating motif discovery from binding score computation, is conceptually clear and potentially interpretable. The use of MEME for motif elicitation is a well-established technique that could provide biological interpretability to the CNN predictions.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that "The proposed CnNet approach predicts the TF binding score with much better accuracy compared to existing approaches."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** No quantitative results are presented. There are no accuracy metrics, no comparison to baseline methods, no dataset descriptions, and no statistical significance tests. The claim of "much better accuracy" is entirely unsupported.  
+  - **Why it matters** The central contribution of the paper is the claimed performance improvement. Without numerical evidence, the reader cannot assess whether the improvement is real, meaningful, or statistically significant. This is the core claim of the work and it is currently unverifiable.  
+  - **Resolution test** Provide performance metrics such as AUC, precision, recall, or F1 score on benchmark datasets, with comparisons to at least two established baseline methods, including confidence intervals or significance tests.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological clarity  
+  - **Claim pointer** The authors state that CnNet uses "MEME technique with Convolution Neural Network (CNN)" and involves "computing a score indicating the likelihood of a given sequence being a useful binding site by using CNN technique."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The description of the CNN component is insufficient. It is unclear what the input representation is, how motifs discovered by MEME are integrated into the CNN, what the network architecture is, how training and testing are performed, and how the final binding score is derived.  
+  - **Why it matters** Without this information, the method cannot be reproduced or evaluated for technical soundness. The novelty of combining MEME with CNN is also unclear, as many existing deep learning approaches for TF binding already incorporate motif-like features.  
+  - **Resolution test** Provide a detailed description of the architecture, input encoding, motif integration strategy, training procedure, and score computation, ideally with a diagram and pseudocode.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Novelty and positioning  
+  - **Claim pointer** The authors imply that the CnNet approach is novel and offers "a scalable, flexible and unified computational approach for predicting transcription factor binding."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not situate the work relative to the substantial existing literature on deep learning for TF binding prediction. Many methods already use CNNs on sequence data, and some incorporate motif discovery. The specific contribution of CnNet is not articulated.  
+  - **Why it matters** Without a clear statement of what is new relative to existing methods, the scientific contribution cannot be evaluated. The claim of novelty is not supported by any comparative discussion.  
+  - **Resolution test** Add a clear description of the specific limitations of existing methods that CnNet addresses, and explain what is genuinely new in the proposed approach.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity of writing  
+  - **Affected element** Abstract, first two sentences  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The opening sentences are vague and do not directly introduce the problem or the contribution. Phrases such as "Controlling the gene expression is the most important development in a living organism" are imprecise and could be misinterpreted.  
+  - **Required correction** Rewrite the introduction to state the biological problem clearly and concisely, leading directly to the proposed method.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract, "Multiple Expression motifs for Motif Elicitation (MEME)"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The expansion of the MEME acronym appears incorrect. MEME typically stands for "Multiple EM for Motif Elicitation," not "Multiple Expression motifs for Motif Elicitation."  
+  - **Required correction** Correct the acronym expansion to the standard form.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Dataset description  
+  - **Affected element** Abstract, "DNA gene sequences dataset"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The dataset is described only as "DNA gene sequences dataset." No information is given about the species, the number of sequences, the transcription factors studied, or the source of the data.  
+  - **Required correction** Specify the dataset used, including species, number of sequences, transcription factors, and data source.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Abstract, overall method  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** No mention is made of code availability, software tools, or implementation details that would allow others to reproduce the results.  
+  - **Required correction** State whether the code and trained models will be made publicly available, and provide a link if applicable.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and the lack of methodological detail prevent any assessment of whether the proposed method works as claimed. R1-M3, while not blocking, is important for establishing the scientific contribution.
+- **Assessment against Nature-style criteria**  
+  - Originality: Not assessable from the abstract. The combination of MEME and CNN is not inherently novel, and the abstract does not articulate a unique contribution.  
+  - Scientific importance: The problem is important, but the abstract does not demonstrate that the proposed method advances the field beyond existing approaches.  
+  - Interdisciplinary readership: The work sits at the intersection of machine learning and genomics, which has broad appeal, but the abstract is too technical and vague to engage a wide audience.  
+  - Technical soundness: Not assessable. The method description is insufficient, and no results are provided.  
+  - Readability for nonspecialists: The abstract is partially accessible but contains jargon and imprecise phrasing that would hinder a nonspecialist reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not support the central claim of improved accuracy, and the methodological description is too incomplete for technical evaluation. The authors should be invited to resubmit with full quantitative results, detailed method description, and clear positioning relative to existing work.
+
+## Risk / unsupported claims
+- The claim of "much better accuracy compared to existing approaches" is unsupported by any quantitative data.
+- The implied novelty of the CnNet approach is unsubstantiated without a comparative discussion of existing methods.
+- The methodological description is too vague to verify that the proposed two-step pipeline is implemented as described.
+- The biological significance of the results cannot be evaluated without dataset details and performance metrics.

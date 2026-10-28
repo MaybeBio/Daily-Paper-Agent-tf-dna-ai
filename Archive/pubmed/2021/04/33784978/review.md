@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, background, results, methods, discussion, and conclusions. No supplementary files were provided for review.
+- **Assessment boundary** Evaluation is limited to the claims, methods, and results as presented in the provided manuscript text. Supplementary tables and figures are referenced but were not available for independent verification.
+- **Shared manuscript claim summary** The authors present ProtGauss, a machine learning model that represents protein sequences as Gaussian distributions derived from ProtVec embeddings, and uses a custom kernel to train a support vector machine for predicting nucleosome binding modes of transcription factors. The model is reported to outperform four baseline methods in multi-label classification, with a binary classifier for end binding achieving 75% AUPR. The authors further claim that predicted end binding preferences correlate with nucleosome occupancy data and that the model generalizes to predict binding modes across five eukaryotic species.
+- **Visible evidence base** The evidence base consists of performance tables (Tables 3, 4, 5, 6), figures (Figs. 3, 4, 5, 6, 7), and descriptions of datasets and methods. Specific numerical results for baseline comparisons, statistical significance tests, and detailed hyperparameter search results are not fully reported in the visible text.
+- **Missing materials affecting confidence** Supplementary Tables S1–S13 and Supplementary Figures S1–S3 are referenced but not provided. The full hyperparameter grid, exact data splits, code implementation details, and the complete list of 167 TFs with their labels are not available. The definition and calculation of the EMI penetration values from the prior study are only cited, not described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in transcription factor biology by attempting to predict nucleosome binding modes from protein sequence alone. The methodological idea of representing sequences as Gaussian distributions and using a distribution-based kernel is interesting and could be a useful contribution to the field. However, the current manuscript has several significant weaknesses that prevent the claims from being fully established. The evaluation methodology is incompletely described, particularly regarding the handling of the multi-label problem, the construction of the alternative test set, and the potential for data leakage. The reported performance improvements over baselines are modest and lack statistical significance testing. The biological validation using nucleosome occupancy data is suggestive but based on a small number of TFs and a simplified categorization. The claim of being the "first ML-based approach" for this task is strong and requires a more thorough comparison with existing literature. Overall, the core idea has merit, but the evidence presented is insufficient to support the broad conclusions drawn.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on transcription factor binding prediction, protein sequence representation learning, and nucleosome biology. The method could be of interest to those developing machine learning approaches for protein function prediction where sequence-level features are the primary input. The biological findings regarding end binding preferences across species and within specific TF families may also be of interest to experimental biologists studying chromatin structure and gene regulation.
+- **Major strengths**
+  - The manuscript addresses a timely and important problem: predicting nucleosome binding modes of transcription factors from sequence, which is experimentally challenging.
+  - The proposed method, ProtGauss, introduces a novel approach to protein sequence representation by modeling subsequence embeddings as a Gaussian distribution, which is a conceptually interesting extension of existing embedding averaging methods.
+  - The use of nested cross-validation is appropriate for model selection and evaluation, and the authors compare against several standard baseline methods.
+  - The attempt to validate the model using independent nucleosome occupancy data is a valuable step toward biological relevance.
+  - The analysis of predicted binding modes across five species and within specific TF families provides useful biological insights and generates testable hypotheses.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that ProtGauss outperforms baseline methods in multi-label classification (Table 3) and in binary classification for end binding (Table 4).
+  - **Evidence pointer** Tables 3 and 4, Methods section "Training"
+  - **Concern** The evaluation methodology for the multi-label classification is not fully described. It is unclear how the multi-label problem is handled in the SVM framework (e.g., one-vs-rest is mentioned, but the exact implementation and how predictions are combined for the AUPR calculation are not detailed). The reported micro-AUPR values are close between methods (e.g., 0.61 vs 0.558 for RF), and no statistical significance testing (e.g., confidence intervals, paired tests across folds) is provided. The improvement could be within the noise of the evaluation. Furthermore, the binary classifier for EB mode is evaluated on only 24 TFs, a very small test set, making the reported AUPR of 0.75 potentially unstable.
+  - **Why it matters** Without a clear description of the multi-label evaluation and statistical significance testing, the central claim of model superiority is not robustly supported. The small test set for the EB classifier raises concerns about the reliability of the reported performance.
+  - **Resolution test** The authors should provide a detailed description of the multi-label evaluation protocol, including how the AUPR is computed across labels. They should report performance with confidence intervals or perform statistical tests (e.g., McNemar's test or bootstrapping) to demonstrate that the differences are significant. For the EB classifier, they should report performance metrics with confidence intervals and discuss the limitations of the small test set.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that nucleosome occupancy data can be used as an alternative test set to confirm the superiority of the EB classifier (Table 5).
+  - **Evidence pointer** Results section "Use of nucleosome occupancy data as an alternative test dataset", Tables 5 and 6
+  - **Concern** The construction of the alternative test set is problematic. The 101 TFs used for this test are described as not being in the training set, but the training set was defined as 146 TFs from the 167 with known binding modes. The 101 TFs are a subset of the 106 TFs with ChIP-seq data, and it is unclear how many of these 101 overlap with the 167 TFs with known binding modes. If some of the 101 TFs were used in training the multi-label model, then using them for testing the binary EB classifier could lead to data leakage. The categorization of nucleosome occupancy profiles into 'dip-at-centre' and 'peak-at-centre' is a simplified binary classification that may not accurately reflect the continuous nature of nucleosome occupancy. The biological link between the EB mode and low nucleosome occupancy is plausible but the analysis is correlational and does not establish a direct causal relationship.
+  - **Why it matters** The validity of the alternative test set is crucial for the claim that the model generalizes to unseen data. If there is data leakage, the reported performance is inflated. The simplified categorization of nucleosome profiles may not be a reliable proxy for the EB mode.
+  - **Resolution test** The authors should clearly state the overlap between the 101 TFs in the alternative test set and the 146 TFs used for training. They should ensure that no TFs in the alternative test set were used in any stage of model training or hyperparameter tuning. They should also provide a more nuanced analysis of nucleosome occupancy, perhaps using continuous occupancy values rather than a binary categorization.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The claim in the abstract and conclusions that this is the "first ML-based approach" for predicting nucleosome binding modes of TFs.
+  - **Evidence pointer** Abstract, Background, Discussion
+  - **Concern** The claim of being the "first" is strong and not adequately supported. The authors do not provide a comprehensive literature review to demonstrate that no prior machine learning approach has been applied to this specific problem. There may be existing computational methods that predict TF-nucleosome interactions or binding preferences that are not cited or discussed.
+  - **Why it matters** Overclaiming novelty can undermine the credibility of the work. A thorough comparison with existing methods is necessary to position the contribution accurately.
+  - **Resolution test** The authors should conduct a more thorough literature search and either provide evidence that no prior ML approach exists for this task or temper their claim to reflect the specific novelty of their method (e.g., the Gaussian representation).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the model provides "efficient and comprehensive analysis of nucleosome binding modes of TFs" and the biological implications discussed in the Discussion section.
+  - **Evidence pointer** Conclusions, Discussion
+  - **Concern** The biological significance of the findings is not fully established. The correlation between predicted EB mode and nucleosome occupancy is based on a small number of TFs (24) and a simplified analysis. The discussion about the role of non-EB TFs in development and the potential for a new class of pioneer factors is speculative and not directly supported by the data presented. The model's predictions for the five species are not validated against any experimental data beyond the limited 24 TF set.
+  - **Why it matters** For a computational biology paper, the biological relevance of the predictions is a key aspect of its importance. Without stronger validation, the broader implications remain speculative.
+  - **Resolution test** The authors should either provide additional experimental validation or clearly state the speculative nature of the biological implications. They could also strengthen the analysis by using more quantitative measures of nucleosome occupancy and by comparing predictions with a larger set of experimentally characterized TFs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Background section
+  - **Evidence pointer** Background, first paragraph
+  - **Issue** The background section introduces several binding modes (EB, oriented binding, periodic binding, dyad binding, groove binding, gyre spanning) but does not provide a brief explanation of what these modes mean in biological terms. This may be confusing for readers not deeply familiar with nucleosome biology.
+  - **Required correction** Add a brief description of each binding mode, perhaps in a table or a short paragraph, to make the manuscript more accessible to a broader audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Training"
+  - **Evidence pointer** Methods, "Training" paragraph
+  - **Issue** The description of the nested cross-validation procedure is brief. It is not clear how many folds are used in the inner and outer loops, and how the hyperparameters are selected in the inner loop.
+  - **Required correction** Provide more details on the nested cross-validation setup, including the number of folds, the hyperparameter search space, and the criterion for selecting the best hyperparameters in the inner loop.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Extensive exploration of subsequence length"
+  - **Evidence pointer** Results, "Extensive exploration of subsequence length" paragraph, Fig. 3
+  - **Issue** The results for the subsequence length exploration are presented only in figures. The exact numerical values for micro-AUPR and accuracy for each length are not reported in the text, making it difficult to assess the magnitude of the differences.
+  - **Required correction** Report the numerical values for the performance metrics for each subsequence length in the text or in a table.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Human TFs not having end preference are enriched in the SOX and HOX families"
+  - **Evidence pointer** Results, "Human TFs not having end preference are enriched in the SOX and HOX families" paragraph
+  - **Issue** The analysis of TF families is descriptive. It is not clear if the enrichment of non-EB TFs in SOX and HOX families is statistically significant compared to what would be expected by chance.
+  - **Required correction** Perform a statistical test (e.g., hypergeometric test) to assess whether the enrichment is significant.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The discussion of the "GATA switch" is interesting but may be too detailed for a computational biology paper. It could be shortened or moved to a more appropriate context.
+  - **Required correction** Consider condensing the GATA switch discussion to keep the focus on the computational findings.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of statistical significance testing for performance comparisons.
+  - R1-M2: Potential data leakage in the alternative test set and unclear overlap between datasets.
+  - R1-M3: Overclaiming novelty without a comprehensive literature review.
+  - R1-M4: Insufficient biological validation of the model's predictions.
+- **Assessment against Nature-style criteria**
+  - **Originality** The Gaussian representation of protein sequences is a novel idea, but the claim of being the "first" ML approach for this task is not fully substantiated. The originality is moderate.
+  - **Scientific importance** The problem is important, but the biological validation is limited. The findings are suggestive but not definitive. The importance is moderate.
+  - **Interdisciplinary readership** The topic is at the intersection of computational biology, machine learning, and chromatin biology. The manuscript is likely to appeal to a specialized audience. The interdisciplinary reach is limited.
+  - **Technical soundness** The methodology has some strengths (nested cross-validation) but is weakened by incomplete evaluation details, lack of statistical testing, and potential data leakage. The technical soundness is currently insufficient.
+  - **Readability for nonspecialists** The manuscript is generally well-written but assumes familiarity with both machine learning and nucleosome biology. The background could be expanded to improve accessibility. The readability is adequate for a specialized journal.
+- **Recommendation posture** Currently not established from the provided evidence. The core idea is interesting, but the technical and validation issues need to be addressed before the claims can be supported. I would be supportive if the authors can provide a more rigorous evaluation, address the data leakage concern, and temper or better support the novelty claim.
+
+## Risk / unsupported claims
+- The claim of being the "first ML-based approach" for predicting nucleosome binding modes is unsupported without a comprehensive literature review.
+- The claim that the model's predictions are "efficient and comprehensive" is not fully supported by the limited validation.
+- The biological implications discussed (e.g., role of non-EB TFs in development, new class of pioneer factors) are speculative and not directly supported by the data.
+- The performance improvement of ProtGauss over baselines is not shown to be statistically significant.
+- The use of the alternative test set is potentially compromised by data leakage, making the reported performance on this set unreliable.

@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "35997564",
+    "doi": "10.1093/bioinformatics/btac572",
+    "title": "MMGraph: a multiple motif predictor based on graph neural network and coexisting probability for ATAC-seq data."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Transcription factor binding sites (TFBSs) prediction is a crucial step in revealing functions of transcription factors from high-throughput sequencing data. Assay for Transposase-Accessible Chromatin using sequencing (ATAC-seq) provides insight on TFBSs and nucleosome positioning by probing open chromatic, which can simultaneously reveal multiple TFBSs compare to traditional technologies. The existing tools based on convolutional neural network (CNN) only find the fixed length of TFBSs from ATAC-seq data. Graph neural network (GNN) can be considered as the extension of CNN, which has great potential in finding multiple TFBSs with different lengths from ATAC-seq data. RESULTS: We develop a motif predictor called MMGraph based on three-layer GNN and coexisting probability of k-mers for finding multiple motifs from ATAC-seq data. The results of the experiment which has been conducted on 88 ATAC-seq datasets indicate that MMGraph has achieved the best performance on area of eight metrics radar score of 2.31 and could find 207 higher-quality multiple motifs than other existing tools. AVAILABILITY AND IMPLEMENTATION: MMGraph is wrapped in Python package, which is available at https://github.com/zhangsq06/MMGraph.git. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin Immunoprecipitation Sequencing",
+      "Sequence Analysis, DNA/methods",
+      "*High-Throughput Nucleotide Sequencing/methods",
+      "Chromatin",
+      "Neural Networks, Computer",
+      "Probability"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Shuangquan",
+        "Yang, Lili",
+        "Wu, Xiaotian",
+        "Sheng, Nan",
+        "Fu, Yuan",
+        "Ma, Anjun",
+        "Wang, Yan"
+      ],
+      "short_names": [
+        "Zhang S",
+        "Yang L",
+        "Wu X",
+        "Sheng N",
+        "Fu Y",
+        "Ma A",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9245-5982",
+        "ORCID: 0000-0002-0306-9009",
+        "ORCID: 0000-0001-6269-398X",
+        "ORCID: 0000-0002-4751-0708"
+      ],
+      "affiliations": [
+        "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun 130012, China.",
+        "Department of Obstetrics, The First Hospital of Jilin University, Changchun 130012, China.",
+        "School of Artificial Intelligence, Jilin University, Changchun 130012, China.",
+        "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun 130012, China.",
+        "Institute of Biological, Environmental and Rural Sciences, Aberystwyth University, Aberystwyth, Ceredigion, UK.",
+        "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH 43210, USA.",
+        "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun 130012, China.",
+        "School of Artificial Intelligence, Jilin University, Changchun 130012, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Shuangquan",
+        "short_name": "Zhang S",
+        "identifiers": [
+          "0000-0001-9245-5982"
+        ],
+        "affiliations": [
+          "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Lili",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, The First Hospital of Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xiaotian",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Sheng, Nan",
+        "short_name": "Sheng N",
+        "identifiers": [
+          "0000-0002-0306-9009"
+        ],
+        "affiliations": [
+          "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Yuan",
+        "short_name": "Fu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biological, Environmental and Rural Sciences, Aberystwyth University, Aberystwyth, Ceredigion, UK."
+        ]
+      },
+      {
+        "full_name": "Ma, Anjun",
+        "short_name": "Ma A",
+        "identifiers": [
+          "0000-0001-6269-398X"
+        ],
+        "affiliations": [
+          "Department of Biomedical Informatics, College of Medicine, The Ohio State University, Columbus, OH 43210, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0002-4751-0708"
+        ],
+        "affiliations": [
+          "Key Laboratory of Symbol Computation and Knowledge Engineering of Ministry of Education, College of Computer Science and Technology, Jilin University, Changchun 130012, China.",
+          "School of Artificial Intelligence, Jilin University, Changchun 130012, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2022 Sep 30",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/24 06:00",
+    "fetched_at": "2026-09-28 12:41:25"
+  },
+  "links": {
+    "cites": [
+      "41601205",
+      "38654130",
+      "38643066",
+      "38515040"
+    ],
+    "refs": [
+      "34607350",
+      "32848148",
+      "26213851",
+      "23771147"
+    ],
+    "similar": [
+      "35997564",
+      "38515040",
+      "38643066",
+      "34273560",
+      "36719906",
+      "32543102",
+      "32312702",
+      "36173566",
+      "36807076",
+      "34875002",
+      "34284136",
+      "32213349",
+      "36094959",
+      "35478247",
+      "29490630",
+      "37989133",
+      "37211599",
+      "37811941",
+      "36656543",
+      "34870838",
+      "35848835",
+      "35411004",
+      "32991679",
+      "31427911",
+      "33606259",
+      "35809062",
+      "32251359",
+      "33662624",
+      "31164146",
+      "38589969",
+      "33188264",
+      "39041910",
+      "36807065",
+      "36995609",
+      "33584814",
+      "29982337",
+      "36452861",
+      "36062065",
+      "35941239",
+      "29155775",
+      "35486242",
+      "35695574",
+      "35255493",
+      "38189539",
+      "32312703",
+      "37217250",
+      "27993786",
+      "29052193",
+      "35037783",
+      "37218013",
+      "31160376",
+      "29961827",
+      "37010301",
+      "32353042",
+      "37751945",
+      "38049698",
+      "36807072",
+      "38329877",
+      "33498086",
+      "37990143",
+      "35296236",
+      "35867231",
+      "32014034",
+      "27832532",
+      "34586377",
+      "32321568",
+      "35604124",
+      "32576878",
+      "34382186",
+      "34647036",
+      "36807060",
+      "32044918",
+      "35240993",
+      "34488759",
+      "34383882",
+      "35673985",
+      "38581422",
+      "32321567",
+      "35561169",
+      "31199868",
+      "30375457",
+      "36792778",
+      "32822050",
+      "38049697",
+      "34252968",
+      "33878366",
+      "37950200",
+      "35325188",
+      "30791920",
+      "33555221",
+      "30821321",
+      "30923821",
+      "31070745",
+      "36738683",
+      "34929739",
+      "28075484",
+      "30580963",
+      "30416387",
+      "30808370",
+      "35103973",
+      "29030848",
+      "32663104",
+      "24812341",
+      "37328639",
+      "35127984",
+      "30064353",
+      "30423062",
+      "29757349",
+      "30065749",
+      "25957350",
+      "29069282",
+      "35866989",
+      "38841126",
+      "31742318",
+      "36879236",
+      "38724693",
+      "38012291",
+      "34273562",
+      "37208173",
+      "37420172",
+      "34752400",
+      "39350338",
+      "36712015",
+      "36790067",
+      "34417209",
+      "33026062",
+      "37274120",
+      "34859208",
+      "37598467",
+      "36873935",
+      "34235431",
+      "38019944",
+      "38045276",
+      "33471102",
+      "38168841",
+      "38645715",
+      "37294804",
+      "38046273",
+      "37217468",
+      "38603603",
+      "29081688",
+      "37745003",
+      "36374878",
+      "33693476",
+      "32547592",
+      "35560079",
+      "35758796",
+      "37577623",
+      "37398471",
+      "38903111",
+      "37600846",
+      "38496482"
+    ],
+    "review": [
+      "35997564",
+      "32312702",
+      "35478247",
+      "31427911",
+      "33606259",
+      "35255493",
+      "32312703",
+      "32014034",
+      "36792778"
+    ],
+    "pmc": [
+      "9524997"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/35997564.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35997564/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35997564",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btac572",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

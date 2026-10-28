@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36155619",
+  "title": "PlantBind: an attention-based multi-label neural network for predicting plant transcription factor binding sites.",
+  "authors": "Yan, Wenkai; Li, Zutan; Pian, Cong; Wu, Yufeng",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2022-09-27",
+  "window": {
+    "start": "2022-09-26",
+    "end": "2022-10-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于注意力机制的多标签深度学习模型PlantBind，结合DNA序列与形状特征预测植物转录因子结合位点并识别基序，核心聚焦TF-DNA互作预测，方法为AI建模，高度匹配本课题。",
+  "abstract": "Identification of transcription factor binding sites (TFBSs) is essential to understanding of gene regulation. Designing computational models for accurate prediction of TFBSs is crucial because it is not feasible to experimentally assay all transcription factors (TFs) in all sequenced eukaryotic genomes. Although many methods have been proposed for the identification of TFBSs in humans, methods designed for plants are comparatively underdeveloped. Here, we present PlantBind, a method for integrated prediction and interpretation of TFBSs based on DNA sequences and DNA shape profiles. Built on an attention-based multi-label deep learning framework, PlantBind not only simultaneously predicts the potential binding sites of 315 TFs, but also identifies the motifs bound by transcription factors. During the training process, this model revealed a strong similarity among TF family members with respect to target binding sequences. Trans-species prediction performance using four Zea mays TFs demonstrated the suitability of this model for transfer learning. Overall, this study provides an effective solution for identifying plant TFBSs, which will promote greater understanding of transcriptional regulatory mechanisms in plants.",
+  "abstract_zh": "转录因子结合位点（TFBSs）的识别对于理解基因调控至关重要。设计用于准确预测TFBSs的计算模型非常关键，因为对所有已测序的真核生物基因组中的所有转录因子（TFs）进行实验测定是不可行的。尽管已有许多方法被提出用于人类TFBSs的识别，但针对植物的方法相对发展不足。在此，我们提出PlantBind，一种基于DNA序列和DNA形状特征进行TFBSs综合预测与解释的方法。基于注意力机制的多标签深度学习框架，PlantBind不仅能同时预测315个TFs的潜在结合位点，还能识别转录因子结合的基序。在训练过程中，该模型揭示了TF家族成员在目标结合序列上的高度相似性。利用四种玉米（Zea mays）TFs进行的跨物种预测性能测试表明，该模型适用于迁移学习。总体而言，本研究为识别植物TFBSs提供了有效解决方案，这将促进对植物转录调控机制的更深入理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36155619/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36155619/",
+  "paper_page_path": "papers/pubmed/36155619/index.html"
+}

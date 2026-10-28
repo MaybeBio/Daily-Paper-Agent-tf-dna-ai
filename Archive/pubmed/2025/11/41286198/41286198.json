@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "pmid": "41286198",
+    "doi": "10.1007/s00284-025-04632-0",
+    "title": "Identification of Potential Key Ferroptosis-Related Genes in EV71-Infected Cells Through Bioinformatics Analysis and Experimental Study."
+  },
+  "content": {
+    "abstract": "Ferroptosis is an iron-dependent programmed cell death linked to intensified lipid peroxidation reactions, ultimately causing damage to cellular structures such as membranes. It is associated with various viral infections, including Enterovirus 71 (EV71), a major cause of severe hand, foot, and mouth disease with potential neurological complications. However, the role of ferroptosis in EV71 infection is not fully understood. In this study, we downloaded a microarray dataset of EV71-infected samples (GSE71673) from the Gene Expression Omnibus (GEO) and retrieved ferroptosis-related genes (FRGs) from FerrDB. Compared to the control group, we identified 69 differentially expressed ferroptosis-related genes (FR-DEGs) that were differentially expressed in the EV71-infected cell samples compared with the control samples. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses, along with protein‒protein interaction (PPI) network analysis, revealed associations with pathways related to miRNA transcription, protein binding, and cancer. Eight hub genes were identified, with five validated in EV71-infected U87 cells. In the regulatory network, we identified six transcription factors (TFAP2A, STAT3, SP1, EGR1, MAX, and AR) and three microRNAs (hsa-miR-1, hsa-miR-20a, and hsa-miR-545) that play key regulatory roles in the expression of hub genes. In summary, the 5 validated FR-DEGs (IL-6, JUN, CXCL8, FGF2, and TGFB1), six transcription factors and the three microRNAs that regulate hub gene expression. In addition, EV71 infection reduces cellular GSH and GPX4 expression, promotes ROS production, and decreases cell viability. These findings reveal significant transcriptional reprogramming of ferroptosis-associated genes during EV71 infection, highlighting a potential role for this pathway that requires direct experimental validation.",
+    "keywords": [
+      "Bioinformatics",
+      "Differentially expressed genes",
+      "Enterovirus 71",
+      "Ferroptosis",
+      "Ferroptosis-related genes"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/genetics",
+      "Humans",
+      "*Enterovirus A, Human/physiology/genetics",
+      "Computational Biology",
+      "Gene Regulatory Networks",
+      "*Enterovirus Infections/genetics/virology/metabolism",
+      "MicroRNAs/genetics",
+      "Gene Expression Profiling",
+      "Protein Interaction Maps",
+      "Gene Ontology",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yuhan",
+        "Zhou, Meishan",
+        "Yang, Liu",
+        "Wang, Jianing",
+        "Wen, Xinli",
+        "Shi, Lu",
+        "Liu, Yongjuan",
+        "Shi, Yingying",
+        "Liu"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Zhou M",
+        "Yang L",
+        "Wang J",
+        "Wen X",
+        "Shi L",
+        "Liu Y",
+        "Shi Y",
+        "Liu"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2246-8582"
+      ],
+      "affiliations": [
+        "Department of Immunology, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China.",
+        "Department of Immunology, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China.",
+        "Department of Immunology, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China.",
+        "Department of Immunology, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China.",
+        "Department of Immunology, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China.",
+        "Department of Pharmacy, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China.",
+        "Department of Central Laboratory, the Affiliated Lianyungang Hospital of Xuzhou Medical University, Lianyungang, 222002, Jiangsu, China. lyjquanzhiyuan_09@163.com.",
+        "Department of Immunology, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China. shiyingying@jhun.edu.cn.",
+        "Hubei Key Laboratory of Cognitive and Affective Disorders, Jianghan University, Wuhan, 430056, China. shiyingying@jhun.edu.cn.",
+        "Hubei Provincial Demonstration Center for Experimental Medicine Education, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China. shiyingying@jhun.edu.cn.",
+        "Department of Immunology, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yuhan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Meishan",
+        "short_name": "Zhou M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Liu",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jianing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Xinli",
+        "short_name": "Wen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Lu",
+        "short_name": "Shi L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yongjuan",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Central Laboratory, the Affiliated Lianyungang Hospital of Xuzhou Medical University, Lianyungang, 222002, Jiangsu, China. lyjquanzhiyuan_09@163.com."
+        ]
+      },
+      {
+        "full_name": "Shi, Yingying",
+        "short_name": "Shi Y",
+        "identifiers": [
+          "0000-0002-2246-8582"
+        ],
+        "affiliations": [
+          "Department of Immunology, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China. shiyingying@jhun.edu.cn.",
+          "Hubei Key Laboratory of Cognitive and Affective Disorders, Jianghan University, Wuhan, 430056, China. shiyingying@jhun.edu.cn.",
+          "Hubei Provincial Demonstration Center for Experimental Medicine Education, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China. shiyingying@jhun.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu",
+        "short_name": "Liu",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, School of Medicine, Jianghan University, Wuhan, 430056, Hubei, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current microbiology"
+    ],
+    "journal_abbrev": [
+      "Curr Microbiol"
+    ],
+    "pub_date": "2025 Nov 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/25 06:26",
+    "fetched_at": "2026-10-01 07:14:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40209324",
+      "39901028",
+      "39889877",
+      "39765005",
+      "39360800",
+      "38640858",
+      "38588443",
+      "38509680",
+      "38366038",
+      "38202772",
+      "38107385",
+      "38008182",
+      "37895951",
+      "37705747",
+      "37355053",
+      "37273451",
+      "37207868",
+      "37127681",
+      "36738502",
+      "35795552",
+      "35534546",
+      "35339492",
+      "35224064",
+      "35191156",
+      "34722314",
+      "34689169",
+      "33581126",
+      "33495651",
+      "33268902",
+      "32732975",
+      "31898369",
+      "31395054",
+      "27826325",
+      "25058733",
+      "24621093",
+      "23515028",
+      "22248036"
+    ],
+    "similar": [
+      "41286198",
+      "41444522",
+      "36973608",
+      "38902567",
+      "41508240",
+      "29447975",
+      "36335193",
+      "39586719",
+      "39541922",
+      "38885209",
+      "27890633",
+      "28531227",
+      "25889836",
+      "35637927",
+      "39636111",
+      "31176031",
+      "35100981",
+      "30314355",
+      "40024299",
+      "36110200",
+      "38650009",
+      "41530916",
+      "39798208",
+      "40246772",
+      "39192637",
+      "38144322",
+      "37550393",
+      "40729322",
+      "38347799",
+      "36689408",
+      "36291136",
+      "36837498",
+      "28952134",
+      "40024937",
+      "34600545",
+      "36440700",
+      "31987036",
+      "33407587",
+      "33796959",
+      "34190177",
+      "38062833",
+      "31703725",
+      "37920499",
+      "30404089",
+      "28302149",
+      "38368317",
+      "35810010",
+      "38073349",
+      "35901060",
+      "36343018",
+      "39608795",
+      "40821971",
+      "40790764",
+      "37316756",
+      "40826767",
+      "41162488",
+      "38229237",
+      "36393970",
+      "37305039",
+      "38444712",
+      "39284931",
+      "36798084",
+      "32435051",
+      "35132271",
+      "38519735",
+      "32714978",
+      "37985432",
+      "27052555",
+      "37275855",
+      "31875420",
+      "20625495",
+      "32220619",
+      "40598458",
+      "38059012",
+      "39793232",
+      "38542784",
+      "27765603",
+      "32299382",
+      "36421842",
+      "40454210",
+      "32481304",
+      "38764052",
+      "39792889",
+      "34652258",
+      "39636560",
+      "30499052",
+      "38728466",
+      "31277149",
+      "37686108",
+      "39955676",
+      "39037979",
+      "37403234",
+      "39324174",
+      "40068024",
+      "32851429",
+      "34313877",
+      "40603423",
+      "32714975",
+      "34390411",
+      "33640831"
+    ],
+    "review": [
+      "41286198",
+      "32481304"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s00284-025-04632-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3952",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

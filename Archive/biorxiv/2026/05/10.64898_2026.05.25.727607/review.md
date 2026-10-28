@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, evidence quality, and internal consistency of the reported findings
+- **Shared manuscript claim summary** The authors report that dihydroartemisinin (DHA) inhibits Epstein-Barr virus (EBV) reactivation and replication by targeting the lytic transactivator BZLF1, based on computational screening, molecular docking, and in vitro experiments in P3HR-1 and B95.8 cells
+- **Visible evidence base** Results sections on alanine scanning, docking, in vitro screening, dose-response assays, cytotoxicity, and immunofluorescence; methods sections on docking, simulation, cell culture, qPCR, western blot, and statistical analysis
+- **Missing materials affecting confidence** No raw data files, no uncropped western blot images, no full statistical output tables, no replicate-level data, no figure legends for several key figures, no details on the in-house AI/ML model architecture or training data, no details on the miRNA-seq/RNA-seq analysis pipeline
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant problem, namely the absence of FDA-approved drugs targeting EBV, and proposes a drug repurposing strategy centered on BZLF1. The combination of computational prediction, docking, and in vitro validation is a reasonable workflow. However, the evidence as presented is insufficient to establish the central claim that DHA inhibits EBV reactivation and replication specifically through BZLF1 targeting. Several methodological details are missing, key controls are not described, and the quantitative data are not fully reported. The manuscript has potential but requires substantial revision and additional experiments before the conclusions can be considered supported.
+- **Who would be interested in the results, and why** Researchers in virology, particularly those studying herpesvirus reactivation and lytic cycle regulation, as well as investigators interested in drug repurposing for antiviral therapy. The potential clinical relevance for EBV-associated malignancies and non-malignant diseases would also attract translational researchers and clinicians.
+- **Major strengths** The study addresses an important unmet medical need. The integration of multiple computational approaches with experimental validation is a commendable strategy. The identification of a specific molecular interaction between DHA and BZLF1 residues, if confirmed, would provide a mechanistic basis for drug repurposing. The use of multiple orthogonal assays (qPCR, western blot, immunofluorescence) strengthens the phenotypic characterization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that DHA inhibits EBV reactivation and replication with an IC99 of 1 µM and a selectivity index of 113.5
+  - **Evidence pointer** Results section "DHA inhibits EBV lytic replication by reducing viral gene copy number"; Figure 4; Figure S3
+  - **Concern** The IC99 and SI values are stated in the abstract and results, but the dose-response curves, replicate numbers, and statistical analysis supporting these values are not shown. The calculation of IC99 from the described data is not transparent. The selectivity index is based on CC50 in P3HR-1 cells, but the relevance of this cell line for toxicity assessment is unclear.
+  - **Why it matters** The quantitative efficacy and safety claims are central to the paper's conclusion that DHA is a promising repurposing candidate. Without transparent dose-response data and appropriate statistical analysis, these claims cannot be evaluated.
+  - **Resolution test** Provide full dose-response curves with individual data points, replicate numbers, error bars, and the method used to calculate IC50 and IC99. Justify the choice of cell line for cytotoxicity assessment and provide CC50 data with appropriate statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** The authors claim that DHA inhibits BZLF1 by binding to key DNA-binding residues, specifically S186, R190, and K194, thereby preventing DNA binding and transactivation
+  - **Evidence pointer** Results section "DHA inhibits BZLF1 activity through stable interactions with key DNA-binding residues"; Figure 3
+  - **Concern** The evidence for the proposed mechanism is entirely computational. No experimental validation is provided to demonstrate that DHA actually binds to BZLF1 in cells, that it occupies the proposed residues, or that this binding is responsible for the observed inhibition. The alanine scanning and docking results are predictive only. The double mutant experiment (R190A/K194A) is described but the data are not shown in sufficient detail.
+  - **Why it matters** The paper's central mechanistic claim, that DHA targets BZLF1, is not experimentally supported. Without direct binding assays (e.g., surface plasmon resonance, isothermal titration calorimetry, cellular thermal shift assay) or mutagenesis studies showing loss of DHA activity against BZLF1 mutants, the mechanism remains speculative.
+  - **Resolution test** Provide experimental evidence of direct DHA-BZLF1 binding, such as a pull-down assay, cellular thermal shift assay, or NMR. Alternatively, show that DHA loses activity against BZLF1 mutants lacking the proposed binding residues. Include full data for the double mutant experiments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design
+  - **Claim pointer** The authors claim that DHA inhibits EBV reactivation and lytic protein expression based on experiments in P3HR-1 and B95.8 cells
+  - **Evidence pointer** Results sections "DHA inhibits EBV lytic replication by reducing viral gene copy number", "DHA impairs early EBV lytic proteins expression associated with viral reactivation", "DHA inhibits late lytic protein expression required for virion assembly"; Figures 4, 5, 6
+  - **Concern** The experimental design lacks critical controls. It is unclear whether DHA treatment was compared to a vehicle control, whether the reactivation agents (SB and TPA) were used at optimal concentrations, and whether the observed effects are specific to EBV or reflect general cytotoxicity. The time points for measuring lytic gene expression and protein levels are not justified. The immunofluorescence data for gp350 are described but the quantification method and statistical analysis are not fully detailed.
+  - **Why it matters** Without appropriate controls and justification of experimental conditions, the observed effects cannot be attributed specifically to DHA's antiviral activity. General cytotoxicity or off-target effects could confound the results.
+  - **Resolution test** Include vehicle-treated controls, demonstrate that DHA concentrations used do not cause significant cell death at the time points measured, justify the choice of time points based on the kinetics of lytic reactivation, and provide full details of the immunofluorescence quantification.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim that the in-house AI/ML model "Anti-EBV" and miRNA-seq/RNA-seq analyses were used to identify candidate drugs
+  - **Evidence pointer** Introduction; Results section "In Silico prediction of potential Anti-EBV drugs and molecular docking analysis against BZLF1"; Methods section "Molecular docking"
+  - **Concern** The in-house AI/ML model is not described in sufficient detail. No information is provided on the training data, model architecture, validation approach, or performance metrics. The miRNA-seq and RNA-seq analyses are mentioned but no details are given on the datasets, differential expression analysis, or how these were used to select drugs.
+  - **Why it matters** The computational screening is a key component of the drug repurposing strategy. Without adequate description, the results cannot be reproduced or evaluated, and the selection of candidate drugs cannot be assessed for potential bias.
+  - **Resolution test** Provide a full description of the AI/ML model, including training data, features, validation, and performance. Describe the miRNA-seq and RNA-seq datasets, analysis pipeline, and criteria for drug selection.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract; Results section "In Silico prediction of potential Anti-EBV drugs and molecular docking analysis against BZLF1"
+  - **Issue** The abstract states that DHA showed the strongest inhibitory activity among seven candidates, but the results section does not present comparative data for all seven drugs. Only DHA is discussed in detail.
+  - **Required correction** Provide a summary table or figure showing the activity of all seven tested compounds to support the claim that DHA was the most potent.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figures 1 through 6
+  - **Issue** Figure legends are not provided in the manuscript text. Without legends, the reader cannot interpret the data presented in the figures.
+  - **Required correction** Add complete figure legends describing all panels, experimental conditions, and statistical annotations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Statistical analysis section
+  - **Evidence pointer** Methods section "Statistical analysis"
+  - **Issue** The statistical analysis section states that one-way ANOVA was used, but does not specify the number of independent experiments, the number of technical replicates, or the post-hoc tests used. The figure panels do not show error bars or significance indicators.
+  - **Required correction** Provide full details of the statistical analysis, including the number of replicates, the post-hoc test used, and the criteria for significance. Add error bars and significance indicators to all figures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section "Cell line and treatment"
+  - **Evidence pointer** Methods section "Cell line and treatment"
+  - **Issue** The methods state that P3HR-1 and B95.8 cells were used, but the source of B95.8 cells is not specified, and the culture conditions for B95.8 cells are not described separately.
+  - **Required correction** Specify the source of B95.8 cells and provide the culture conditions used for both cell lines.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability statement
+  - **Issue** The data availability statement says that all relevant data are provided in the manuscript, but raw data files, uncropped blots, and full statistical outputs are not included.
+  - **Required correction** Provide a more detailed data availability statement, including deposition of raw data in a public repository or as supplementary files.
+
+## Risk / unsupported claims
+- The claim that DHA achieves IC99 of 1 µM and SI of 113.5 is not supported by the data shown, as dose-response curves and statistical analysis are not provided.
+- The claim that DHA binds specifically to BZLF1 residues S186, R190, and K194 is unsupported by experimental evidence; only computational predictions are presented.
+- The claim that DHA inhibits EBV reactivation and replication through BZLF1 targeting is not established, as no causal link between BZLF1 binding and the observed antiviral effects is demonstrated.
+- The claim that the in-house AI/ML model and transcriptomics analyses identified the candidate drugs is not evaluable, as the model and analyses are not described in sufficient detail.
+- The claim that DHA is a safe antiviral candidate is not supported by adequate cytotoxicity data, as only a single CC50 value in one cell line is mentioned without full experimental details.

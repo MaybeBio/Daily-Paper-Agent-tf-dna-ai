@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "42411323",
+    "doi": "10.1093/nar/gkag449",
+    "title": "FABIAN-variant 2026: improved prediction of the effects of DNA variants on transcription factor binding."
+  },
+  "content": {
+    "abstract": "Variants in promoters and enhancers can alter the binding of transcription factors (TFs), but their functional assessment remains difficult. FABIAN-variant is a web application that predicts the effects of DNA variants on TF binding by comparing position weight matrix (PWM) and transcription factor flexible model (TFFM) scores between reference and variant alleles. Here, we present FABIAN-variant 2026, a major update that expands the prediction model library from ~5000 to over 40 000 models for >1500 human TFs, sourced from nine PWM databases and including 1290 TFFMs. The application now supports the mouse genome (GRCm38 and GRCm39) with over 35 000 models for >1100 mouse TFs. An optional BPNet deep learning scorer provides neural network-based binding predictions for 240 human TFs. Known TF binding site information has been expanded from three to five sources. Predictions for over 1400 heterodimer TF complexes have been added. The web server has been rewritten in Rust and the scoring engine optimized, reducing runtime by ~70%. A RESTful JSON API and a standalone command-line version enable programmatic access and local high-throughput analysis. FABIAN-variant 2026 is available at https://fabianapp.org/variant26/. The web server is free and open to all users and there is no login requirement.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Transcription Factors/metabolism/genetics",
+      "Animals",
+      "Mice",
+      "Binding Sites",
+      "*Software",
+      "*DNA/genetics/metabolism",
+      "Protein Binding",
+      "Internet",
+      "Promoter Regions, Genetic",
+      "*Genetic Variation",
+      "Prediction Algorithms",
+      "Position-Specific Scoring Matrices"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Steinhaus, Robin",
+        "Robinson, Peter N",
+        "Seelow, Dominik"
+      ],
+      "short_names": [
+        "Steinhaus R",
+        "Robinson PN",
+        "Seelow D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6613-4675",
+        "ORCID: 0000-0002-0736-9199",
+        "ORCID: 0000-0002-9746-4412"
+      ],
+      "affiliations": [
+        "Berlin Institute of Health at Charite - Universitatsmedizin Berlin, 10117 Berlin, Germany.",
+        "Institute of Medical Genetics and Human Genetics, Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin and Humboldt-Universitat zu Berlin, 13353 Berlin, Germany.",
+        "Berlin Institute of Health at Charite - Universitatsmedizin Berlin, 10117 Berlin, Germany.",
+        "The Jackson Laboratory for Genomic Medicine, Farmington, CT 06032, United States.",
+        "Berlin Institute of Health at Charite - Universitatsmedizin Berlin, 10117 Berlin, Germany.",
+        "Institute of Medical Genetics and Human Genetics, Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin and Humboldt-Universitat zu Berlin, 13353 Berlin, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Steinhaus, Robin",
+        "short_name": "Steinhaus R",
+        "identifiers": [
+          "0000-0001-6613-4675"
+        ],
+        "affiliations": [
+          "Berlin Institute of Health at Charité - Universitätsmedizin Berlin, 10117 Berlin, Germany.",
+          "Institute of Medical Genetics and Human Genetics, Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin and Humboldt-Universität zu Berlin, 13353 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Robinson, Peter N",
+        "short_name": "Robinson PN",
+        "identifiers": [
+          "0000-0002-0736-9199"
+        ],
+        "affiliations": [
+          "Berlin Institute of Health at Charité - Universitätsmedizin Berlin, 10117 Berlin, Germany.",
+          "The Jackson Laboratory for Genomic Medicine, Farmington, CT 06032, United States."
+        ]
+      },
+      {
+        "full_name": "Seelow, Dominik",
+        "short_name": "Seelow D",
+        "identifiers": [
+          "0000-0002-9746-4412"
+        ],
+        "affiliations": [
+          "Berlin Institute of Health at Charité - Universitätsmedizin Berlin, 10117 Berlin, Germany.",
+          "Institute of Medical Genetics and Human Genetics, Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin and Humboldt-Universität zu Berlin, 13353 Berlin, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jul 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/07 10:10",
+    "fetched_at": "2026-10-05 05:44:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41781614",
+      "41606153",
+      "41325984",
+      "41296548",
+      "40229884",
+      "40205063",
+      "38855865",
+      "38749504",
+      "38517697",
+      "37971293",
+      "37962376",
+      "35639768",
+      "34755879",
+      "34751401",
+      "34174819",
+      "33893808",
+      "33603233",
+      "33505025",
+      "32728249",
+      "31871587",
+      "28473536",
+      "27899579",
+      "26550823",
+      "26301843",
+      "26272984",
+      "26092860",
+      "26075791",
+      "25779349",
+      "25378322",
+      "25215497",
+      "24039567",
+      "23332764",
+      "23180783",
+      "22051799",
+      "21921910",
+      "20513432",
+      "20127973",
+      "19900953",
+      "19546342",
+      "16767100",
+      "15895258",
+      "7881411",
+      "7663520",
+      "2329577"
+    ],
+    "similar": [
+      "42411323",
+      "35639768",
+      "26130577",
+      "29140473",
+      "41063341",
+      "24039567",
+      "42099803",
+      "33372147",
+      "23748563",
+      "31114870",
+      "41325984",
+      "20838582",
+      "30261835",
+      "22952610",
+      "35811788",
+      "36043696",
+      "19036135",
+      "30709337",
+      "29617876",
+      "26586801",
+      "25957350",
+      "38517697",
+      "35240993",
+      "22492513",
+      "28379348",
+      "20923783",
+      "32770026",
+      "27106869",
+      "25361979",
+      "23936309",
+      "27052996",
+      "34570769",
+      "20158869",
+      "22140105",
+      "28750606",
+      "15723697",
+      "17488754",
+      "15790569",
+      "34073774",
+      "23620286",
+      "35659235",
+      "23703214",
+      "23736530",
+      "23599922",
+      "29514181",
+      "40234030",
+      "23382538",
+      "19956545",
+      "28764727",
+      "18725950",
+      "18453628",
+      "40065237",
+      "40102719",
+      "39482734",
+      "29617928",
+      "25775564",
+      "27209209",
+      "12595247",
+      "16845066",
+      "39271116",
+      "22693215",
+      "34486522",
+      "27207881",
+      "28715997",
+      "27803259",
+      "16873468",
+      "27013732",
+      "40848288",
+      "25432957",
+      "37962376",
+      "23522376",
+      "23320072",
+      "22913572",
+      "29654070",
+      "19264796",
+      "39842990",
+      "14681366",
+      "21124986",
+      "31053165",
+      "41495882",
+      "39474623",
+      "18093302",
+      "23175603",
+      "26531826",
+      "34962264",
+      "18314581",
+      "37805453",
+      "15980508",
+      "23812975",
+      "18586710",
+      "24271386",
+      "10487870",
+      "34174819",
+      "28849563",
+      "34850907",
+      "24093548",
+      "23354101",
+      "27899623",
+      "39020164",
+      "23921661"
+    ],
+    "review": [
+      "42411323"
+    ],
+    "pmc": [
+      "13355085"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42411323/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag449",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, conclusions)
+- **Assessment boundary** Computational identification of potential allosteric IHF inhibitors using QSAR modeling, docking, and molecular dynamics simulations; no experimental validation data included
+- **Shared manuscript claim summary** The authors developed a 3D-QSAR model (R² = 0.90, Q² = 0.82) from 65 compounds with reported anti-plasmid activity, identified IHF as a potential target via PharmMapper, performed docking at DNA-binding and predicted allosteric sites, and used 200 ns MD simulations to propose that allosteric inhibition of IHF represents a novel anti-conjugation strategy
+- **Visible evidence base** QSAR statistics, docking scores, MD trajectory analyses (RMSD, RMSF, Rg, SASA, DCCM), interaction diagrams referenced as figures; supplementary materials mentioned but not provided
+- **Missing materials affecting confidence** Supplementary figures and tables (S1, S2), raw docking scores for all 31 compounds, MD trajectory data, force field parameters, validation set details, experimental data source details, PDB preparation protocols
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational pipeline combining QSAR modeling, pharmacophore-based clustering, docking, and MD simulations to propose allosteric inhibition of IHF as a strategy against plasmid-mediated antibiotic resistance. The work addresses an important and underexplored therapeutic target. However, several technical concerns limit the strength of the conclusions. The QSAR model is built on a small dataset (N = 65) with no external test set, the docking validation is incomplete, and the MD simulations lack replicate runs and detailed convergence analyses. The claim of a novel allosteric mechanism is plausible but not fully established from the evidence provided. The manuscript would benefit from clearer presentation of methods, additional validation steps, and more cautious interpretation of the correlation between computational predictions and biological activity.
+- **Who would be interested in the results, and why** Researchers in antimicrobial resistance, particularly those studying anti-conjugation strategies and horizontal gene transfer inhibition. Computational chemists working on QSAR model development and virtual screening for novel antibiotic adjuvants. Structural biologists interested in IHF as a drug target. The work may also appeal to medicinal chemists seeking lead compounds for allosteric inhibition of DNA-binding proteins.
+- **Major strengths** The manuscript addresses a clinically relevant and underexplored target (IHF) for combating antibiotic resistance. The integration of multiple computational methods (QSAR, pharmacophore clustering, docking, MD) provides a comprehensive pipeline. The authors appropriately acknowledge limitations of in silico approaches and call for experimental validation. The discussion of allosteric mechanisms and dynamic cross-correlation analysis adds mechanistic depth beyond simple docking scores.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data sufficiency and model validation
+  - **Claim pointer** The QSAR model demonstrates strong predictive performance (R² = 0.90, Q² = 0.82) and is validated through leave-one-out cross-validation, Tropsha's criteria, and Y-scrambling
+  - **Evidence pointer** Section 2.2, Equation (1), Table 3
+  - **Concern** The QSAR model is developed on only 65 compounds with no external test set. LOOCV is known to overestimate predictive performance for small datasets. The manuscript mentions "Hold-Out" and "10-Fold Cross Validation" in Methods but does not report these results in the Results section. Tropsha's criteria require an external validation set, which is not described. The Y-scrambling results are mentioned but not shown with sufficient detail (e.g., number of permutations, distribution of R² values).
+  - **Why it matters** Without proper external validation, the claimed predictive performance (R² = 0.90) may not generalize to new compounds. This undermines the reliability of the model as a screening tool and weakens the foundation for subsequent docking and MD analyses.
+  - **Resolution test** Provide results from hold-out or 10-fold cross-validation, include an external test set (even if small), report Y-scrambling with full statistical details, and clarify how Tropsha's criteria were applied given the absence of a true external set.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Docking validation and target confidence
+  - **Claim pointer** Docking simulations revealed more favorable binding energies at the allosteric site (up to −12.15 kcal/mol) compared to the DNA-binding site
+  - **Evidence pointer** Section 2.5, Table 4, Figures 3-5
+  - **Concern** The docking protocol lacks a proper validation step. The redocking validation (Figure 5) is mentioned but not described in detail: no RMSD values between docked and crystallographic poses are reported, and no enrichment studies or positive/negative controls are provided. The target identification via PharmMapper is based on a single compound (ICCB-3), and the confidence in IHF as the true biological target is not quantitatively assessed. The allosteric pocket was predicted computationally but not experimentally validated.
+  - **Why it matters** Docking scores are highly dependent on the quality of the receptor structure, grid placement, and scoring function. Without validation, the reported binding energies and the proposed allosteric mechanism may be artifacts of the computational setup rather than genuine biophysical interactions.
+  - **Resolution test** Report redocking RMSD values, include docking of known IHF binders or decoys as controls, provide details on how the allosteric pocket was validated (e.g., comparison with known allosteric sites in homologous proteins), and discuss the confidence limits of PharmMapper predictions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** MD simulation rigor and interpretation
+  - **Claim pointer** Molecular dynamics simulations confirmed the stability of these interactions, with allosteric complexes showing lower RMSD fluctuations and consistent binding energy profiles
+  - **Evidence pointer** Section 2.6, Figures 6-11
+  - **Concern** The MD simulations are described as 200 ns per complex, but no information is provided on the number of replicate runs, convergence criteria, or equilibration protocols. The binding energy values reported (e.g., −15.10 kJ/mol for ICCB-3) are inconsistent with the docking scores (e.g., −12.15 kcal/mol), and the sign convention appears to differ between methods. The DCCM analysis is qualitative, and no statistical significance testing is reported for the observed correlations.
+  - **Why it matters** MD simulations are stochastic and require replicates to ensure that observed differences between complexes are not due to sampling artifacts. The inconsistency between docking and MD energy values raises questions about the comparability of the two methods and the robustness of the conclusions.
+  - **Resolution test** Provide details on the number of replicates, convergence metrics (e.g., RMSD plateau, energy drift), and statistical analysis of DCCM differences. Clarify the energy units and sign conventions used in each method.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Correlation between computational predictions and biological activity
+  - **Claim pointer** ICCB-26 demonstrated the highest biological activity in experimental assays, and ICCB-53, despite its strong binding energy, displayed lower biological activity
+  - **Evidence pointer** Section 2.5, Section 3
+  - **Concern** The manuscript references "experimental assays" and "biological activity" but does not provide the source of these data. It is unclear whether these are from the original high-throughput screening study (referenced as [31]) or from new experiments. The correlation between docking scores, MD stability, and biological activity is discussed qualitatively but not quantified (e.g., no correlation coefficients).
+  - **Why it matters** The central claim that computational predictions can identify compounds with anti-plasmid activity requires a clear link between in silico results and experimental data. Without this link, the predictive value of the model cannot be assessed.
+  - **Resolution test** Clearly state the source of biological activity data, provide a quantitative correlation analysis between computational metrics and experimental activity, and discuss any outliers (e.g., ICCB-53) in the context of the proposed mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of descriptor interpretation
+  - **Affected element** Section 2.1, Table 2
+  - **Evidence pointer** Table 2
+  - **Issue** The seven descriptors (X1-X7) are described in chemical terms, but the manuscript does not explain how these descriptors relate to the proposed mechanism of action. The interpretation of negative coefficients for X1-X4 and positive for X5-X7 is not connected to specific structural features that could guide medicinal chemistry optimization.
+  - **Required correction** Provide a more explicit interpretation of the descriptors in terms of physicochemical properties that could inform compound design, or acknowledge that the descriptor interpretation is limited by the algebraic nature of the QuBiLS-MIDAS approach.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality and accessibility
+  - **Affected element** Figures 3, 4, 7, 8
+  - **Evidence pointer** Figures 3, 4, 7, 8
+  - **Issue** The interaction diagrams are described in the text but not visible in the provided manuscript. The authors should ensure that all figures are high-resolution and that key interactions (e.g., hydrogen bonds, π-π stacking) are clearly labeled with residue numbers and distances.
+  - **Required correction** Ensure all figures are included in the final submission with clear labels and legends. Consider providing a supplementary table of key interactions for each complex.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Throughout
+  - **Evidence pointer** Sections 2.5, 2.6, 3
+  - **Issue** The terms "direct inhibition" and "allosteric inhibition" are used throughout, but the manuscript also refers to "DNA-binding site" and "allosteric site" without clearly defining the boundaries of these sites. The relationship between the predicted allosteric pocket and known IHF functional regions (e.g., DNA-binding arms, core domain) is not clearly established.
+  - **Required correction** Define the allosteric pocket in relation to known IHF structural features and clarify whether "direct inhibition" refers to competitive binding at the DNA interface or to other mechanisms.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.2, Table 3
+  - **Evidence pointer** Table 3
+  - **Issue** The manuscript reports R² and Q² values but does not provide confidence intervals or standard errors for these metrics. The RMSEP and MAE values are reported without context (e.g., compared to the range of activity values).
+  - **Required correction** Report confidence intervals for R² and Q², and provide the range of APII values to contextualize the error metrics.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Section 1, Section 3
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The introduction cites several references on antibiotic resistance and conjugation but does not discuss previous computational studies targeting IHF or other conjugation proteins. The novelty claim ("first computational study proposing allosteric inhibition of IHF") would be strengthened by a more thorough literature review.
+  - **Required correction** Add a paragraph in the introduction or discussion reviewing prior computational efforts targeting IHF or conjugation machinery, and position the current work within that context.
+
+## Risk / unsupported claims
+- The claim that this is "the first computational study proposing allosteric inhibition of IHF" is not verifiable from the provided manuscript and requires a more comprehensive literature search.
+- The statement that "allosteric inhibition may represent the primary mode of action" is not fully supported, as the MD simulations show only that allosteric complexes are more stable than direct-binding complexes for the limited set of compounds tested.
+- The correlation between docking scores, MD stability, and biological activity is asserted but not quantitatively demonstrated.
+- The claim that "these alterations may compromise DNA recognition and disrupt the initiation of replication" is speculative and based on computational predictions without experimental validation.
+- The QSAR model's applicability domain is described but not rigorously tested with external compounds.
+- The manuscript states that "approximately 16,000 descriptors were computed" but does not explain how the final seven were selected beyond "correlation analyses," which is insufficient for reproducibility.
+- The source and nature of the "experimental assays" referenced in the discussion are not clearly identified, making the comparison between computational predictions and biological activity difficult to evaluate.

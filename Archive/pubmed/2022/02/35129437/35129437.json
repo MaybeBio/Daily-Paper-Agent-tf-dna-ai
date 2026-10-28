@@ -1,0 +1,439 @@
+{
+  "identity": {
+    "pmid": "35129437",
+    "doi": "10.7554/eLife.70344",
+    "title": "SWI/SNF senses carbon starvation with a pH-sensitive low-complexity sequence."
+  },
+  "content": {
+    "abstract": "It is increasingly appreciated that intracellular pH changes are important biological signals. This motivates the elucidation of molecular mechanisms of pH sensing. We determined that a nucleocytoplasmic pH oscillation was required for the transcriptional response to carbon starvation in Saccharomyces cerevisiae. The SWI/SNF chromatin remodeling complex is a key mediator of this transcriptional response. A glutamine-rich low-complexity domain (QLC) in the SNF5 subunit of this complex, and histidines within this sequence, was required for efficient transcriptional reprogramming. Furthermore, the SNF5 QLC mediated pH-dependent recruitment of SWI/SNF to an acidic transcription factor in a reconstituted nucleosome remodeling assay. Simulations showed that protonation of histidines within the SNF5 QLC leads to conformational expansion, providing a potential biophysical mechanism for regulation of these interactions. Together, our results indicate that pH changes are a second messenger for transcriptional reprogramming during carbon starvation and that the SNF5 QLC acts as a pH sensor.",
+    "keywords": [
+      "S. cerevisiae",
+      "biochemistry",
+      "chemical biology",
+      "chromatin",
+      "chromosomes",
+      "gene expression",
+      "low-complexity sequences",
+      "pH",
+      "polyglutamine",
+      "transcription"
+    ],
+    "mesh_terms": [
+      "Carbon",
+      "Chromatin Assembly and Disassembly",
+      "*Chromosomal Proteins, Non-Histone/metabolism",
+      "Hydrogen-Ion Concentration",
+      "Saccharomyces cerevisiae/genetics/metabolism",
+      "*Saccharomyces cerevisiae Proteins/metabolism",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gutierrez, J Ignacio",
+        "Brittingham, Gregory P",
+        "Karadeniz, Yonca",
+        "Tran, Kathleen D",
+        "Dutta, Arnob",
+        "Holehouse, Alex S",
+        "Peterson, Craig L",
+        "Holt, Liam J"
+      ],
+      "short_names": [
+        "Gutierrez JI",
+        "Brittingham GP",
+        "Karadeniz Y",
+        "Tran KD",
+        "Dutta A",
+        "Holehouse AS",
+        "Peterson CL",
+        "Holt LJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9017-8384",
+        "ORCID: 0000-0002-8299-551X",
+        "ORCID: 0000-0002-4155-5729",
+        "ORCID: 0000-0002-4002-0861"
+      ],
+      "affiliations": [
+        "Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, United States.",
+        "Institute for Systems Genetics, New York University Grossman School of Medicine, New York, United States.",
+        "Program in Molecular Medicine, University of Massachusetts Medical School, Worcester, United States.",
+        "Department of Cell and Molecular Biology, University of Rhode Island, Kingston, United States.",
+        "Department of Cell and Molecular Biology, University of Rhode Island, Kingston, United States.",
+        "Center for Science and Engineering of Living Systems (CSELS), Washington University in St. Louis, St Louis, United States.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, United States.",
+        "Program in Molecular Medicine, University of Massachusetts Medical School, Worcester, United States.",
+        "Institute for Systems Genetics, New York University Grossman School of Medicine, New York, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gutierrez, J Ignacio",
+        "short_name": "Gutierrez JI",
+        "identifiers": [
+          "0000-0002-9017-8384"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, United States."
+        ]
+      },
+      {
+        "full_name": "Brittingham, Gregory P",
+        "short_name": "Brittingham GP",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, New York University Grossman School of Medicine, New York, United States."
+        ]
+      },
+      {
+        "full_name": "Karadeniz, Yonca",
+        "short_name": "Karadeniz Y",
+        "identifiers": [
+          "0000-0002-8299-551X"
+        ],
+        "affiliations": [
+          "Program in Molecular Medicine, University of Massachusetts Medical School, Worcester, United States."
+        ]
+      },
+      {
+        "full_name": "Tran, Kathleen D",
+        "short_name": "Tran KD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, University of Rhode Island, Kingston, United States."
+        ]
+      },
+      {
+        "full_name": "Dutta, Arnob",
+        "short_name": "Dutta A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, University of Rhode Island, Kingston, United States."
+        ]
+      },
+      {
+        "full_name": "Holehouse, Alex S",
+        "short_name": "Holehouse AS",
+        "identifiers": [
+          "0000-0002-4155-5729"
+        ],
+        "affiliations": [
+          "Center for Science and Engineering of Living Systems (CSELS), Washington University in St. Louis, St Louis, United States.",
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, United States."
+        ]
+      },
+      {
+        "full_name": "Peterson, Craig L",
+        "short_name": "Peterson CL",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Molecular Medicine, University of Massachusetts Medical School, Worcester, United States."
+        ]
+      },
+      {
+        "full_name": "Holt, Liam J",
+        "short_name": "Holt LJ",
+        "identifiers": [
+          "0000-0002-4002-0861"
+        ],
+        "affiliations": [
+          "Institute for Systems Genetics, New York University Grossman School of Medicine, New York, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2022 Feb 7",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/08 06:00",
+    "fetched_at": "2026-09-28 05:06:57"
+  },
+  "links": {
+    "cites": [
+      "42573893",
+      "42182452",
+      "41343298",
+      "40680734",
+      "40501497",
+      "39811664",
+      "39059370",
+      "38883712",
+      "38798655",
+      "38748749",
+      "38666605",
+      "37979585",
+      "37957331",
+      "37714775",
+      "37657994",
+      "37540173",
+      "37508436",
+      "36908311",
+      "36711511",
+      "36675839",
+      "36420556",
+      "36135682",
+      "36098382",
+      "33831596"
+    ],
+    "refs": [
+      "34480923",
+      "33907182",
+      "33782395",
+      "33191750",
+      "32762843",
+      "32696354",
+      "32029630",
+      "31999450",
+      "31659043",
+      "31264965",
+      "29754822",
+      "29627459",
+      "29358329",
+      "28937758",
+      "28716919",
+      "28249160",
+      "28076807",
+      "27372751",
+      "27140628",
+      "27003292",
+      "27003290",
+      "26488642",
+      "26474065",
+      "25355315",
+      "25348405",
+      "25119046",
+      "25002144",
+      "24816443",
+      "24771766",
+      "24282292",
+      "24170807",
+      "23629151",
+      "23536836",
+      "23402214",
+      "22670222",
+      "22589700",
+      "22312432",
+      "22287626",
+      "21988835",
+      "20798321",
+      "20709081",
+      "20639465",
+      "20404210",
+      "19363495",
+      "19118367",
+      "18826948",
+      "18644858",
+      "18506808",
+      "18502746",
+      "18197247",
+      "17798891",
+      "17602168",
+      "17519246",
+      "17496903",
+      "17075061",
+      "16169922",
+      "15988005",
+      "15767576",
+      "15558047",
+      "15261480",
+      "15258568",
+      "14580348",
+      "14562095",
+      "11732184",
+      "11686297",
+      "11493547",
+      "11403571",
+      "11390659",
+      "10725359",
+      "10500094",
+      "10372352",
+      "9717241",
+      "9671304",
+      "9618493",
+      "9381177",
+      "9361406",
+      "8834810",
+      "8208605",
+      "8159677",
+      "8070636",
+      "8031761",
+      "7622524",
+      "6392017",
+      "6326601",
+      "3540598",
+      "3319186",
+      "3312161",
+      "3097504",
+      "3059495",
+      "2536397",
+      "2233708",
+      "1438297",
+      "1339306"
+    ],
+    "similar": [
+      "35129437",
+      "24727477",
+      "32284172",
+      "28249160",
+      "22621902",
+      "25792597",
+      "17013386",
+      "17255092",
+      "19476494",
+      "18362884",
+      "19789351",
+      "38666605",
+      "12208846",
+      "31846549",
+      "25009291",
+      "16518397",
+      "16982689",
+      "21698254",
+      "18593569",
+      "10357821",
+      "29785963",
+      "31979421",
+      "28082674",
+      "18644858",
+      "31142665",
+      "14612422",
+      "19233144",
+      "24972368",
+      "18303029",
+      "21835776",
+      "11390659",
+      "25392228",
+      "19349301",
+      "18070923",
+      "21379326",
+      "11290320",
+      "19470759",
+      "26047462",
+      "23149935",
+      "17235287",
+      "35793348",
+      "26217881",
+      "18826948",
+      "20679490",
+      "15340082",
+      "9362491",
+      "22542969",
+      "23028372",
+      "25319830",
+      "19805520",
+      "18212068",
+      "33941618",
+      "10029546",
+      "17713577",
+      "19108605",
+      "11304548",
+      "9632800",
+      "28716950",
+      "23437238",
+      "9878065",
+      "33318504",
+      "21749977",
+      "12665591",
+      "7739891",
+      "20015969",
+      "18086892",
+      "14701730",
+      "23536800",
+      "23078835",
+      "18093974",
+      "18622392",
+      "24585571",
+      "15767675",
+      "22467207",
+      "17387179",
+      "19097995",
+      "17704134",
+      "8668146",
+      "25453095",
+      "21979950",
+      "9343382",
+      "9726966",
+      "20608642",
+      "12140326",
+      "28035761",
+      "9234737",
+      "8159677",
+      "20513433"
+    ],
+    "review": [
+      "35129437",
+      "38666605"
+    ],
+    "pmc": [
+      "8890752"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35129437/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/35129437",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35129437",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.70344",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://facultyopinions.com/pubmed/35129437",
+        "provider": "H1 Connect - Access expert opinions and insights on biomedical research.",
+        "category": "Other Literature Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "See the articles recommended by the Faculty of more than 8,000 leading experts in Biology and Medicine."
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse174687",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

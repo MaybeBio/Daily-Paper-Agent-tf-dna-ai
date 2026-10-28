@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose BCDB, a dual-branch transformer-based framework integrating DNABERT, CNN, and multi-head attention to predict transcription factor binding sites (TFBS). They claim improved accuracy over existing deep learning methods on 165 ChIP-seq datasets, enhanced interpretability via attention mechanisms, and cross-cell-line prediction capability via transfer learning.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, baseline comparisons, or code verification are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methodology, hyperparameter settings, baseline model specifications, statistical significance tests, dataset splits, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible architecture combining established components (DNABERT, CNN, multi-head attention) for TFBS prediction. The claimed performance improvements and cross-cell-line generalization are potentially interesting, but the abstract provides no quantitative evidence to support these claims. The interpretability claim is vague and not substantiated. The work may be of interest to computational biologists working on regulatory genomics, but the current evidence base is insufficient to evaluate technical soundness or significance.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians focused on transcription factor binding prediction, regulatory genomics, and interpretable deep learning for genomics. The dual-branch architecture and transfer learning approach could appeal to researchers seeking more efficient and interpretable models for limited-data scenarios.
+- **Major strengths** The proposed architecture integrates multiple well-established components in a novel combination. The emphasis on interpretability via attention mechanisms addresses a recognized limitation in deep learning for genomics. The use of transfer learning for cross-cell-line prediction is a practical and potentially valuable contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Prediction results on 165 ChIP-seq datasets show that BCDB significantly outperforms other existing deep learning methods in terms of performance."
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative metrics provided
+  - **Concern** The central performance claim is made without any numerical results, baseline comparisons, or statistical measures. No metrics such as AUC, precision, recall, or F1 are reported. The term "significantly outperforms" is used without supporting statistical tests.
+  - **Why it matters** The primary contribution of the work is the claimed performance improvement. Without quantitative evidence, the core claim cannot be assessed or verified.
+  - **Resolution test** Provide performance metrics (e.g., AUC, AUPRC) for BCDB and all baselines across the 165 datasets, including standard deviations and statistical significance tests (e.g., Wilcoxon signed-rank test).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretability claim
+  - **Claim pointer** "utilizing attention mechanisms to provide an intuitive way to explain the model's predictions, thus strengthening the overall interpretability of the model"
+  - **Evidence pointer** Abstract only; no interpretability analysis described
+  - **Concern** The claim that attention mechanisms provide interpretability is asserted without any demonstration. No examples of attention visualization, motif discovery, or comparison with known TF binding motifs are provided. Attention weights are not inherently interpretable without additional analysis.
+  - **Why it matters** Interpretability is presented as a key advantage over existing methods. Without evidence, this claim is unsupported and potentially misleading.
+  - **Resolution test** Provide interpretability analyses such as attention weight visualizations, identified sequence motifs, and comparison with known TF motifs or ChIP-seq peak characteristics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Cross-cell-line generalization
+  - **Claim pointer** "since the BCDB model utilizes transfer learning methods, it can transfer knowledge learned from many unlabeled data to specific cell line prediction tasks, allowing our model to achieve cross-cell line TFBS prediction."
+  - **Evidence pointer** Abstract only; no cross-cell-line experiments described
+  - **Concern** The cross-cell-line prediction capability is claimed but no experimental validation is described. It is unclear whether this refers to transfer between cell lines, zero-shot prediction, or fine-tuning scenarios. No results are shown.
+  - **Why it matters** Cross-cell-line generalization is a significant practical advantage if demonstrated. Without experimental evidence, this claim remains speculative.
+  - **Resolution test** Describe and present results for cross-cell-line experiments, including the specific transfer scenario, evaluation metrics, and comparison with non-transfer baselines.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Architecture description
+  - **Evidence pointer** Abstract
+  - **Issue** The phrase "dual-branch output strategy" is not clearly defined. It is ambiguous whether the two branches produce separate predictions that are combined, or whether they serve different purposes.
+  - **Required correction** Clarify the architecture by specifying what each branch outputs and how they are integrated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Abstract
+  - **Issue** The code repository is mentioned but no version, license, or usage details are provided.
+  - **Required correction** Specify the repository version, license, and provide basic usage instructions in the abstract or full text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "limited data conditions"
+  - **Evidence pointer** Abstract
+  - **Issue** The phrase "limited data conditions" is vague. It is unclear what constitutes limited data in this context.
+  - **Required correction** Define the data conditions more precisely, such as number of samples per cell line or peak counts.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks all quantitative evidence needed to support the central claims of performance, interpretability, and cross-cell-line generalization.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of DNABERT, CNN, and multi-head attention in a dual-branch architecture appears novel, but the abstract does not clearly differentiate it from prior work.
+  - Scientific importance: TFBS prediction is an important problem, but the abstract does not demonstrate a substantial advance over existing methods.
+  - Interdisciplinary readership: The work is primarily of interest to computational biologists; broader appeal is not evident from the abstract.
+  - Technical soundness: Cannot be assessed from the abstract alone. No methodological details or validation results are provided.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract makes strong claims without supporting data. A full manuscript with quantitative results, statistical analyses, and interpretability demonstrations would be required to assess whether the claims are justified.
+
+## Risk / unsupported claims
+- "BCDB significantly outperforms other existing deep learning methods" is unsupported without quantitative comparisons.
+- "utilizing attention mechanisms to provide an intuitive way to explain the model's predictions" is unsupported without interpretability analyses.
+- "allowing our model to achieve cross-cell line TFBS prediction" is unsupported without cross-cell-line experimental results.
+- "integrates multi-scale DNA information" is asserted but not defined or demonstrated.
+- "enhances the feature extraction capabilities, significantly improving the accuracy of predictions" is a causal claim without supporting evidence.

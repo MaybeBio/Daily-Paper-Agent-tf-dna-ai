@@ -1,0 +1,232 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.02.09.637326",
+  "title": "Proteome-wide Prediction of the Functional Impact of Missense Variants with ProteoCast",
+  "doi": "10.1101/2025.02.09.637326",
+  "abstract": "Dissecting the functional impact of genetic mutations is essential to advancing our understanding of genotype-phenotype relationships and identifying therapeutic targets. Despite progress in sequencing and genome editing technologies, proteome-wide mutation effect prediction remains challenging. Here we show that evolutionary information alone enables accurate prediction of mutation effects across entire proteomes. ProteoCast is a scalable and interpretable computational method that leverages protein sequence conservation to classify genetic variants and identify functionally important protein sites. We apply ProteoCast to the complete Drosophila melanogaster proteome (22,000 isoforms, 300 million mutations) and validate it against nearly 400,000 natural and experimental variants. It correctly classifies 85% of known lethal mutations as functionally impactful versus 13-18% of population variants. ProteoCast-guided genome editing experiments confirm these predictions. Moreover, ProteoCast successfully identifies functionally important protein modification sites and binding motifs. ProteoCast provides a publicly available resource and deployable pipeline for studying gene function and mutations in any organism.",
+  "authors": [
+    "Abakarova M",
+    "Freiberger MI",
+    "Liehrmann A",
+    "Rera M",
+    "Laine E"
+  ],
+  "published_date": "2025-02-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.02.09.637326",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.02.09.637326.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR976838",
+    "raw_record": {
+      "id": "PPR976838",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR976838"
+        ]
+      },
+      "doi": "10.1101/2025.02.09.637326",
+      "title": "Proteome-wide Prediction of the Functional Impact of Missense Variants with ProteoCast",
+      "authorString": "Abakarova M, Freiberger MI, Liehrmann A, Rera M, Laine E.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Abakarova M",
+            "lastName": "Abakarova",
+            "firstName": "Marina",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4686-167X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                },
+                {
+                  "affiliation": ", UMR U1284, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Freiberger MI",
+            "lastName": "Freiberger",
+            "firstName": "Maria Inés",
+            "initials": "MI",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5634-1897"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liehrmann A",
+            "lastName": "Liehrmann",
+            "firstName": "Arnaud",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4936-1056"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rera M",
+            "lastName": "Rera",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Laine E",
+            "lastName": "Laine",
+            "firstName": "Elodie",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4870-6304"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4686-167X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4936-1056"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5634-1897"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4870-6304"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Dissecting the functional impact of genetic mutations is essential to advancing our understanding of genotype-phenotype relationships and identifying therapeutic targets. Despite progress in sequencing and genome editing technologies, proteome-wide mutation effect prediction remains challenging. Here we show that evolutionary information alone enables accurate prediction of mutation effects across entire proteomes. ProteoCast is a scalable and interpretable computational method that leverages protein sequence conservation to classify genetic variants and identify functionally important protein sites. We apply ProteoCast to the complete  Drosophila melanogaster proteome (22,000 isoforms, 300 million mutations) and validate it against nearly 400,000 natural and experimental variants. It correctly classifies 85% of known lethal mutations as functionally impactful versus 13-18% of population variants. ProteoCast-guided genome editing experiments confirm these predictions. Moreover, ProteoCast successfully identifies functionally important protein modification sites and binding motifs. ProteoCast provides a publicly available resource and deployable pipeline for studying gene function and mutations in any organism.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.02.09.637326"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR976838"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR976838&type=FILE&fileName=EMS203269-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42045226",
+            "reference": "Nature communications. 2026 Apr;17(1):3813",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 4,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS203269",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-02-12",
+      "firstPublicationDate": "2025-02-10",
+      "firstIndexDate": "2025-02-12",
+      "fullTextReceivedDate": "2026-02-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

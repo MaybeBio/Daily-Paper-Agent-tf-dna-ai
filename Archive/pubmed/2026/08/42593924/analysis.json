@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42593924",
+  "title": "Toxicological Knowledge-Guided Graph Learning for Interpretable and Generalizable Molecular Toxicity Prediction.",
+  "authors": "Duan, Yanjing; Chen, Woruo; Li, Kun; Shi, Shaohua; Duan, Jilong; Ma, Xinqian; Jiang, Dejun; Liu, Jin; Deng, Youchao; Gu, Xinyu; Kang, Fenghua; Lu, Aiping; Cao, Dongsheng",
+  "journal": "Journal of medicinal chemistry",
+  "published_date": "2026-08-13",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 0,
+  "one_liner_zh": "该文聚焦分子毒性预测，虽用图学习与知识引导，但对象为小分子毒性而非蛋白质-DNA互作，无TF-DNA结合建模，与本课题无关。",
+  "abstract": "Early identification of toxic liabilities is essential for improving drug safety and reducing attrition. However, structure-based deep learning models often generalize poorly to new chemical scaffolds and provide limited biological mechanistic insight. To address this, we introduce Toxicological Knowledge-guided Graph-based Learning (TKGL), a multiview framework that integrates molecular graphs with substructural alerts and biological mechanism information. TKGL leverages an attention mechanism for interpretable prioritization of toxicity-relevant substructures and biological events. Contrastive learning further aligns heterogeneous chemical and biological information spaces, while domain adaptation robustly enhances generalization under stringent scaffold-dissimilar splits. Across 37 toxicity data sets, TKGL performs favorably against 11 state-of-the-art models. Interpretability analyses confirm that TKGL identifies mechanistically meaningful features, exemplified by the discovery of two potential hepatotoxicity pathways involving p53 and PPARg. Overall, TKGL establishes a new paradigm for toxicity prediction, unifying chemical structure and biological behavior for more accurate, interpretable, and generalizable chemical safety assessment.",
+  "abstract_zh": "早期识别毒性风险对于提高药物安全性和减少研发失败至关重要。然而，基于结构的深度学习模型往往对新化学骨架泛化能力差，且提供的生物学机制洞察有限。为解决这一问题，我们引入了毒理学知识引导的图学习（Toxicological Knowledge-guided Graph-based Learning, TKGL），这是一个多视图框架，整合了分子图、亚结构警报和生物学机制信息。TKGL利用注意力机制对毒性相关亚结构和生物事件进行可解释的优先级排序。对比学习进一步对齐了异质的化学和生物学信息空间，而领域自适应在严格的骨架不相似分割下稳健地增强了泛化能力。在37个毒性数据集中，TKGL相较于11个最先进模型表现优异。可解释性分析确认TKGL识别出具有机制意义的特征，例如发现了涉及p53和PPARg的两条潜在肝毒性通路。总体而言，TKGL为毒性预测建立了新范式，统一了化学结构和生物学行为，以实现更准确、可解释且可泛化的化学安全性评估。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42593924/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42593924/",
+  "paper_page_path": "papers/pubmed/42593924/index.html"
+}

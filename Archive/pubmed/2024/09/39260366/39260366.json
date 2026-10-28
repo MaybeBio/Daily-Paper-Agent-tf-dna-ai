@@ -1,0 +1,427 @@
+{
+  "identity": {
+    "pmid": "39260366",
+    "doi": "10.1016/j.chembiol.2024.08.004",
+    "title": "Chemical induction of the interaction between AIMP2-DX2 and Siah1 to enhance ubiquitination."
+  },
+  "content": {
+    "abstract": "AIMP2-DX2 (hereafter DX2) is an oncogenic variant of aminoacyl-tRNA synthetase-interacting multifunctional protein 2 (AIMP2) that mediates tumorigenic interactions with various factors involved in cancer. Reducing the levels of DX2 can effectively inhibit tumorigenesis. We previously reported that DX2 can be degraded through Siah1-mediated ubiquitination. In this study, we identified a compound, SDL01, which enhanced the interaction between DX2 and Siah1, thereby facilitating the ubiquitin-dependent degradation of DX2. SDL01 was found to bind to the pocket surrounding the N-terminal flexible region and GST domain of DX2, causing a conformational change that stabilized its interaction with Siah1. Our findings demonstrate that protein-protein interactions (PPIs) can be modulated through chemically induced conformational changes.",
+    "keywords": [
+      "AIMP2-DX2",
+      "Siah1",
+      "allosteric modulation",
+      "and molecular docking",
+      "small molecule",
+      "ubiquitination"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Ubiquitination/drug effects",
+      "*Ubiquitin-Protein Ligases/metabolism",
+      "*Nuclear Proteins/metabolism/chemistry",
+      "DNA-Binding Proteins/metabolism/chemistry",
+      "Protein Binding",
+      "HEK293 Cells",
+      "Seven in Absentia Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Dae Gyu",
+        "Kim, Minkyoung",
+        "Goo, Ja-Il",
+        "Kong, Jiwon",
+        "Harmalkar, Dipesh S",
+        "Lu, Qili",
+        "Sivaraman, Aneesh",
+        "Nada, Hossam",
+        "Godesi, Sreenivasulu",
+        "Lee, Hwayoung",
+        "Song, Mo Eun",
+        "Song, Eunjoo",
+        "Han, Kang-Hyun",
+        "Kim, Woojin",
+        "Kim, Pilhan",
+        "Choi, Won Jun",
+        "Lee, Chang Hoon",
+        "Lee, Sunkyung",
+        "Choi, Yongseok",
+        "Kim, Sunghoon",
+        "Lee, Kyeong"
+      ],
+      "short_names": [
+        "Kim DG",
+        "Kim M",
+        "Goo JI",
+        "Kong J",
+        "Harmalkar DS",
+        "Lu Q",
+        "Sivaraman A",
+        "Nada H",
+        "Godesi S",
+        "Lee H",
+        "Song ME",
+        "Song E",
+        "Han KH",
+        "Kim W",
+        "Kim P",
+        "Choi WJ",
+        "Lee CH",
+        "Lee S",
+        "Choi Y",
+        "Kim S",
+        "Lee K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Medicinal Bioconvergence Research Center, Institute for Artificial Intelligence and Biomedical Research, College of Pharmacy & College of Medicine, Gangnam Severance Hospital, Yonsei University, Incheon 21983, Republic of Korea; Department of Yuhan Biotechnology, School of Health & Wellness Services, Yuhan University, Bucheon 14780, Republic of Korea.",
+        "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea.",
+        "Department of Biotechnology, Korea University, Seoul, Republic of Korea.",
+        "Medicinal Bioconvergence Research Center, Institute for Artificial Intelligence and Biomedical Research, College of Pharmacy & College of Medicine, Gangnam Severance Hospital, Yonsei University, Incheon 21983, Republic of Korea.",
+        "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea; Department of Biotechnology, Korea University, Seoul, Republic of Korea.",
+        "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea.",
+        "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea; Department of Biotechnology, Korea University, Seoul, Republic of Korea.",
+        "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea.",
+        "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea.",
+        "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea.",
+        "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea.",
+        "IVIM Technology, Daejeon 34013, Republic of Korea.",
+        "Department of Advanced Toxicology Research, Korea Institute of Toxicology, Daejeon 34114, Republic of Korea.",
+        "Department of Advanced Toxicology Research, Korea Institute of Toxicology, Daejeon 34114, Republic of Korea.",
+        "IVIM Technology, Daejeon 34013, Republic of Korea; Graduate School of Medical Science and Engineering, Korea Advanced Institute of Science and Technology (KAIST), Daejeon 34141, Republic of Korea.",
+        "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea.",
+        "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea.",
+        "Drug Information Research Center, Korea Research Institute of Chemical Technology, Daejeon 34114, Republic of Korea.",
+        "Department of Biotechnology, Korea University, Seoul, Republic of Korea.",
+        "Medicinal Bioconvergence Research Center, Institute for Artificial Intelligence and Biomedical Research, College of Pharmacy & College of Medicine, Gangnam Severance Hospital, Yonsei University, Incheon 21983, Republic of Korea. Electronic address: sunghoonkim@yonsei.ac.kr.",
+        "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea. Electronic address: kaylee@dongguk.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Dae Gyu",
+        "short_name": "Kim DG",
+        "identifiers": [],
+        "affiliations": [
+          "Medicinal Bioconvergence Research Center, Institute for Artificial Intelligence and Biomedical Research, College of Pharmacy & College of Medicine, Gangnam Severance Hospital, Yonsei University, Incheon 21983, Republic of Korea; Department of Yuhan Biotechnology, School of Health & Wellness Services, Yuhan University, Bucheon 14780, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Minkyoung",
+        "short_name": "Kim M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Goo, Ja-Il",
+        "short_name": "Goo JI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Korea University, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kong, Jiwon",
+        "short_name": "Kong J",
+        "identifiers": [],
+        "affiliations": [
+          "Medicinal Bioconvergence Research Center, Institute for Artificial Intelligence and Biomedical Research, College of Pharmacy & College of Medicine, Gangnam Severance Hospital, Yonsei University, Incheon 21983, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Harmalkar, Dipesh S",
+        "short_name": "Harmalkar DS",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea; Department of Biotechnology, Korea University, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lu, Qili",
+        "short_name": "Lu Q",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Sivaraman, Aneesh",
+        "short_name": "Sivaraman A",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea; Department of Biotechnology, Korea University, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Nada, Hossam",
+        "short_name": "Nada H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Godesi, Sreenivasulu",
+        "short_name": "Godesi S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Hwayoung",
+        "short_name": "Lee H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Song, Mo Eun",
+        "short_name": "Song ME",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Song, Eunjoo",
+        "short_name": "Song E",
+        "identifiers": [],
+        "affiliations": [
+          "IVIM Technology, Daejeon 34013, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Han, Kang-Hyun",
+        "short_name": "Han KH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Advanced Toxicology Research, Korea Institute of Toxicology, Daejeon 34114, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Woojin",
+        "short_name": "Kim W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Advanced Toxicology Research, Korea Institute of Toxicology, Daejeon 34114, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Pilhan",
+        "short_name": "Kim P",
+        "identifiers": [],
+        "affiliations": [
+          "IVIM Technology, Daejeon 34013, Republic of Korea; Graduate School of Medical Science and Engineering, Korea Advanced Institute of Science and Technology (KAIST), Daejeon 34141, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Choi, Won Jun",
+        "short_name": "Choi WJ",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Chang Hoon",
+        "short_name": "Lee CH",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Sunkyung",
+        "short_name": "Lee S",
+        "identifiers": [],
+        "affiliations": [
+          "Drug Information Research Center, Korea Research Institute of Chemical Technology, Daejeon 34114, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Choi, Yongseok",
+        "short_name": "Choi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Korea University, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Sunghoon",
+        "short_name": "Kim S",
+        "identifiers": [],
+        "affiliations": [
+          "Medicinal Bioconvergence Research Center, Institute for Artificial Intelligence and Biomedical Research, College of Pharmacy & College of Medicine, Gangnam Severance Hospital, Yonsei University, Incheon 21983, Republic of Korea. Electronic address: sunghoonkim@yonsei.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Lee, Kyeong",
+        "short_name": "Lee K",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Dongguk University, Goyang 10326, Republic of Korea. Electronic address: kaylee@dongguk.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell chemical biology"
+    ],
+    "journal_abbrev": [
+      "Cell Chem Biol"
+    ],
+    "pub_date": "2024 Nov 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/12 00:42",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [
+      "40394165"
+    ],
+    "refs": [],
+    "similar": [
+      "39260366",
+      "34503993",
+      "35546148",
+      "31792442",
+      "32448505",
+      "32315177",
+      "42449076",
+      "32549310",
+      "28185908",
+      "38835119",
+      "23815603",
+      "27197155",
+      "41872127",
+      "32471182",
+      "28638448",
+      "42168988",
+      "39910688",
+      "36242734",
+      "22562359",
+      "36305287",
+      "35842206",
+      "27302160",
+      "28367482",
+      "29854811",
+      "38172953",
+      "12421809",
+      "33128014",
+      "37696143",
+      "29024247",
+      "23537880",
+      "19250734",
+      "25320310",
+      "32208684",
+      "25202994",
+      "22285955",
+      "18276110",
+      "15163637",
+      "32479599",
+      "32709848",
+      "31473157",
+      "39075049",
+      "31801865",
+      "30733335",
+      "23208506",
+      "21483803",
+      "35951361",
+      "28383562",
+      "23500468",
+      "15163799",
+      "34249450",
+      "26654769",
+      "24316825",
+      "22337874",
+      "19956605",
+      "19584093",
+      "28546513",
+      "38419282",
+      "16888801",
+      "18213731",
+      "39711064",
+      "29679766",
+      "31471318",
+      "38842318",
+      "40934087",
+      "35133502",
+      "27776223",
+      "35961388",
+      "26435500",
+      "38709105",
+      "25391652",
+      "39542129",
+      "29676528",
+      "24503442",
+      "15456869",
+      "24949832",
+      "32430360",
+      "16170377",
+      "39046246",
+      "18006705",
+      "22742833",
+      "26381412",
+      "32671611",
+      "12072443",
+      "22362772",
+      "23344957",
+      "19818708",
+      "38842203",
+      "33658435",
+      "22037423",
+      "28784114",
+      "38945214",
+      "34502089",
+      "16085652",
+      "37250786",
+      "30898011",
+      "30269240",
+      "14701756",
+      "40049731",
+      "25631046",
+      "21185211"
+    ],
+    "review": [
+      "39260366",
+      "38835119",
+      "32709848",
+      "39711064"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2451-9456(24)00351-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GST+Mu1-6",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

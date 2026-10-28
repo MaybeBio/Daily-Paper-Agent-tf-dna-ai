@@ -1,0 +1,166 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.30.667722",
+  "title": "Computational investigation suggests that the cell adhesion sub-proteome is enriched for sites of pH-dependence and charge burial, whilst some key intracellular pathways may be shielded from pH fluctuations",
+  "doi": "10.1101/2025.07.30.667722",
+  "abstract": "Prediction of protein pH-dependence is generally made for individual proteins or pathways, and is also increasingly being used to aid protein functional design. Combining high-throughput pKa prediction methods with AlphaFold models allows pH-dependence to be studied across a proteome. Here, two methods and a variety of features for detecting pH-dependence and charge burial that is physiologically relevant, have been applied to human proteins. Predictions are effective for a small benchmark subset of well-characterised proteins and, more broadly, identify an overlap between features associated with pH-dependence and enzymes and transporters. The most informative filters are those describing relatively buried ionisable groups, with pKas close to neutral pH and/or involvement in highly-coupled charge networks. The question is addressed of which human proteins not annotated as enzymes or transporters, are predicted to have these features of predicted pH-dependence and/or charge networking. A striking feature from gene ontology analysis of those proteins is a predicted enrichment at the cell periphery, in particular an association with cell adhesion, including protein families not currently known to exhibit pH-dependence. Gene ontology classifications that are depleted for proteins with buried charge networks and/or predicted functional pH-dependence, include some associated with ribosomal and nuclear structure. This overall result suggests a possible general resilience of some key processes to pH fluctuations, whilst not precluding specific instances where signalling pathways have evolved responses to pH changes. A drawback of the study is restriction to protomer models, thus omitting groups that mediate pH-dependence through burial at an interface. However predictions are already notable, with their details provided for experimental design.",
+  "authors": [
+    "Sallah S",
+    "Warwicker J"
+  ],
+  "published_date": "2025-08-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.30.667722",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.30.667722.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1061891",
+    "raw_record": {
+      "id": "PPR1061891",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1061891"
+        ]
+      },
+      "doi": "10.1101/2025.07.30.667722",
+      "title": "Computational investigation suggests that the cell adhesion sub-proteome is enriched for sites of pH-dependence and charge burial, whilst some key intracellular pathways may be shielded from pH fluctuations",
+      "authorString": "Sallah S, Warwicker J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sallah S",
+            "lastName": "Sallah",
+            "firstName": "Shalaw",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Molecular and Cellular Function, Faculty of Biology, Medicine, and Health, Manchester Institute of Biotechnology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Warwicker J",
+            "lastName": "Warwicker",
+            "firstName": "Jim",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1302-0815"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Molecular and Cellular Function, Faculty of Biology, Medicine, and Health, Manchester Institute of Biotechnology, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1302-0815"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Prediction of protein pH-dependence is generally made for individual proteins or pathways, and is also increasingly being used to aid protein functional design. Combining high-throughput pKa prediction methods with AlphaFold models allows pH-dependence to be studied across a proteome. Here, two methods and a variety of features for detecting pH-dependence and charge burial that is physiologically relevant, have been applied to human proteins. Predictions are effective for a small benchmark subset of well-characterised proteins and, more broadly, identify an overlap between features associated with pH-dependence and enzymes and transporters. The most informative filters are those describing relatively buried ionisable groups, with pKas close to neutral pH and/or involvement in highly-coupled charge networks. The question is addressed of which human proteins not annotated as enzymes or transporters, are predicted to have these features of predicted pH-dependence and/or charge networking. A striking feature from gene ontology analysis of those proteins is a predicted enrichment at the cell periphery, in particular an association with cell adhesion, including protein families not currently known to exhibit pH-dependence. Gene ontology classifications that are depleted for proteins with buried charge networks and/or predicted functional pH-dependence, include some associated with ribosomal and nuclear structure. This overall result suggests a possible general resilience of some key processes to pH fluctuations, whilst not precluding specific instances where signalling pathways have evolved responses to pH changes. A drawback of the study is restriction to protomer models, thus omitting groups that mediate pH-dependence through burial at an interface. However predictions are already notable, with their details provided for experimental design.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/V0065921/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/08/02/2025.07.30.667722.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.30.667722"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1061891"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1061891&type=FILE&fileName=EMS207865-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS207865",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-08-04",
+      "firstPublicationDate": "2025-08-02",
+      "firstIndexDate": "2025-08-04",
+      "fullTextReceivedDate": "2025-08-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

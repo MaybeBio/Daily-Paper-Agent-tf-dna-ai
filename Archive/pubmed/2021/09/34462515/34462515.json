@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "34462515",
+    "doi": "10.1038/s41598-021-96855-x",
+    "title": "Deep learning from HE slides predicts the clinical benefit from adjuvant chemotherapy in hormone receptor-positive breast cancer patients."
+  },
+  "content": {
+    "abstract": "We hypothesized that a deep-learning algorithm using HE images might be capable of predicting the benefits of adjuvant chemotherapy in cancer patients. HE slides were retrospectively collected from 1343 de-identified breast cancer patients at the Samsung Medical Center and used to develop the Lunit SCOPE algorithm. Lunit SCOPE was trained to predict the recurrence using the 21-gene assay (Oncotype DX) and histological parameters. The risk prediction model predicted the Oncotype DX score > 25 and the recurrence survival of the prognosis validation cohort and TCGA cohorts. The most important predictive variable was the mitotic cells in the cancer epithelium. Of the 363 patients who did not receive adjuvant therapy, 104 predicted high risk had a significantly lower survival rate. The top-300 genes highly correlated with the predicted risk were enriched for cell cycle, nuclear division, and cell division. From the Oncotype DX genes, the predicted risk was positively correlated with proliferation-associated genes and negatively correlated with prognostic genes from the estrogen category. An integrative analysis using Lunit SCOPE predicted the risk of cancer recurrence and the early-stage hormone receptor-positive breast cancer patients who would benefit from adjuvant chemotherapy.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adult",
+      "Algorithms",
+      "Base Sequence",
+      "Biomarkers, Tumor/metabolism",
+      "Breast Neoplasms/*drug therapy/metabolism",
+      "Breast Neoplasms, Male/*drug therapy/metabolism",
+      "Cell Division",
+      "Chemotherapy, Adjuvant/*methods",
+      "Deep Learning",
+      "Female",
+      "*Gene Expression Profiling",
+      "Humans",
+      "Machine Learning",
+      "Male",
+      "Middle Aged",
+      "Mitosis",
+      "Neoplasm Recurrence, Local",
+      "Prognosis",
+      "ROC Curve",
+      "Receptors, Estrogen/*biosynthesis",
+      "Recurrence",
+      "Regression Analysis",
+      "Retrospective Studies",
+      "Risk",
+      "Translational Research, Biomedical"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cho, Soo Youn",
+        "Lee, Jeong Hoon",
+        "Ryu, Jai Min",
+        "Lee, Jeong Eon",
+        "Cho, Eun Yoon",
+        "Ahn, Chang Ho",
+        "Paeng, Kyunghyun",
+        "Yoo, Inwan",
+        "Ock, Chan-Young",
+        "Song, Sang Yong"
+      ],
+      "short_names": [
+        "Cho SY",
+        "Lee JH",
+        "Ryu JM",
+        "Lee JE",
+        "Cho EY",
+        "Ahn CH",
+        "Paeng K",
+        "Yoo I",
+        "Ock CY",
+        "Song SY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology and Translational Genomics, Samsung Medical Center, Sungkyunkwan University School of Medicine, 81 Irwon-ro, Gangnam-gu, Seoul, 06351, Republic of Korea.",
+        "Lunit Inc., Seoul, Republic of Korea.",
+        "Division of Breast Surgery, Department of Surgery, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea.",
+        "Division of Breast Surgery, Department of Surgery, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea.",
+        "Department of Pathology and Translational Genomics, Samsung Medical Center, Sungkyunkwan University School of Medicine, 81 Irwon-ro, Gangnam-gu, Seoul, 06351, Republic of Korea. eunyoon.cho@samsung.com.",
+        "Lunit Inc., Seoul, Republic of Korea.",
+        "Lunit Inc., Seoul, Republic of Korea.",
+        "Lunit Inc., Seoul, Republic of Korea.",
+        "Lunit Inc., Seoul, Republic of Korea.",
+        "Department of Pathology and Translational Genomics, Samsung Medical Center, Sungkyunkwan University School of Medicine, 81 Irwon-ro, Gangnam-gu, Seoul, 06351, Republic of Korea. yodasong@gmail.com.",
+        "Medical Ai Research Center, Research Institute of Future Medicine, Samsung Medical Center, Seoul, Republic of Korea. yodasong@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cho, Soo Youn",
+        "short_name": "Cho SY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Translational Genomics, Samsung Medical Center, Sungkyunkwan University School of Medicine, 81 Irwon-ro, Gangnam-gu, Seoul, 06351, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Jeong Hoon",
+        "short_name": "Lee JH",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit Inc., Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Ryu, Jai Min",
+        "short_name": "Ryu JM",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Breast Surgery, Department of Surgery, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Jeong Eon",
+        "short_name": "Lee JE",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Breast Surgery, Department of Surgery, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Cho, Eun Yoon",
+        "short_name": "Cho EY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Translational Genomics, Samsung Medical Center, Sungkyunkwan University School of Medicine, 81 Irwon-ro, Gangnam-gu, Seoul, 06351, Republic of Korea. eunyoon.cho@samsung.com."
+        ]
+      },
+      {
+        "full_name": "Ahn, Chang Ho",
+        "short_name": "Ahn CH",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit Inc., Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Paeng, Kyunghyun",
+        "short_name": "Paeng K",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit Inc., Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yoo, Inwan",
+        "short_name": "Yoo I",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit Inc., Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Ock, Chan-Young",
+        "short_name": "Ock CY",
+        "identifiers": [],
+        "affiliations": [
+          "Lunit Inc., Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Song, Sang Yong",
+        "short_name": "Song SY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Translational Genomics, Samsung Medical Center, Sungkyunkwan University School of Medicine, 81 Irwon-ro, Gangnam-gu, Seoul, 06351, Republic of Korea. yodasong@gmail.com.",
+          "Medical Ai Research Center, Research Institute of Future Medicine, Samsung Medical Center, Seoul, Republic of Korea. yodasong@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2021 Aug 30",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/01 06:00",
+    "fetched_at": "2026-09-27 23:03:16"
+  },
+  "links": {
+    "cites": [
+      "41976406",
+      "41831466",
+      "40972946",
+      "40661301",
+      "40179582",
+      "39921795",
+      "39426965",
+      "38879577",
+      "38584594",
+      "38405160",
+      "37968376",
+      "37926067",
+      "37835858",
+      "37059742",
+      "36553919",
+      "35885460"
+    ],
+    "refs": [],
+    "similar": [
+      "34462515",
+      "23074401",
+      "25129366",
+      "22016474",
+      "34425579",
+      "32372329",
+      "33360027",
+      "29236174",
+      "32385567",
+      "25651779",
+      "18809056",
+      "32170635",
+      "27209424",
+      "29128896",
+      "31264581",
+      "28192639",
+      "26987533",
+      "24948666",
+      "32811558",
+      "28960862",
+      "31522959",
+      "33605163",
+      "25243360",
+      "31152079",
+      "29728098",
+      "21363879",
+      "30634106",
+      "32565110",
+      "29304138",
+      "23701403",
+      "21043825",
+      "23801158",
+      "25240289",
+      "23614365",
+      "23909545",
+      "31619259",
+      "22127090",
+      "21970880",
+      "33601299",
+      "22425282",
+      "28087099",
+      "26001860",
+      "29788166",
+      "25091650",
+      "32613290",
+      "30796885",
+      "26385397",
+      "24486121",
+      "30852142",
+      "18668363",
+      "18159035",
+      "23884597",
+      "26859126",
+      "28111076",
+      "22138097",
+      "24304542",
+      "26112003",
+      "28739750",
+      "31146185",
+      "31206315",
+      "27526056",
+      "33245987",
+      "30348602",
+      "23406559",
+      "30977026",
+      "29128898",
+      "28064383",
+      "31511599",
+      "20412544",
+      "23643806",
+      "34045003",
+      "23695023",
+      "15867229",
+      "27662272",
+      "32951186",
+      "30542840",
+      "27105769",
+      "21221771",
+      "21197567",
+      "33028590",
+      "19914534",
+      "29230662",
+      "29959613",
+      "35263321",
+      "37494846",
+      "35251566",
+      "37014891",
+      "35140308",
+      "30941999",
+      "32053157",
+      "38756785",
+      "22112467",
+      "37940813",
+      "21878891",
+      "35690313",
+      "37612313",
+      "37059742",
+      "33581336",
+      "34364190",
+      "33169302",
+      "35175859"
+    ],
+    "review": [
+      "34462515",
+      "31264581",
+      "26987533",
+      "28087099",
+      "18159035",
+      "23406559"
+    ],
+    "pmc": [
+      "8405682"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/malebreastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Male Breast Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-021-96855-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34462515/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34462515",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

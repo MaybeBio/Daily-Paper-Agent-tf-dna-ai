@@ -1,0 +1,118 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Computational docking study of PFAS binding to nuclear receptors, including validation, virtual screening, and mixture modeling
+- **Shared manuscript claim summary** The authors report large-scale virtual screening of 9,507 PFAS compounds against orthosteric and allosteric sites of four nuclear receptors (VDR, PPARγ, PXR, ERα), with claims of strong binding affinities for numerous PFAS, competitive binding analysis, and mixture modeling suggesting potential endocrine disruption and carcinogenic mechanisms
+- **Visible evidence base** Full text including abstract, introduction, results and discussion sections, methods, and conclusions; tables and figures referenced but not fully visible
+- **Missing materials affecting confidence** Tables 1-5 and Figures 1-13 referenced but not provided in the supplied material; supplementary tables (S1-S13) and figures (S1-S4) not available; Python code mentioned but not included
+
+## Reviewer
+- **Overall assessment** This manuscript presents a large-scale computational screening effort that addresses an important gap in understanding PFAS interactions with nuclear receptors, particularly at allosteric sites. The scale of screening (9,507 compounds across four receptors and two binding sites each) is substantial and the inclusion of allosteric sites adds novelty. However, the manuscript has several significant weaknesses that undermine confidence in the conclusions. The validation approach is incomplete, with no clear demonstration that the docking protocol can distinguish true binders from decoys. The mixture modeling section is largely speculative and lacks quantitative support. The comparison of docking scores across different receptors and ligands of varying sizes is methodologically problematic. The clinical and toxicological interpretations extend well beyond what computational docking alone can support. The manuscript would benefit from more rigorous statistical analysis, inclusion of negative controls, and tempering of conclusions to match the evidence level.
+- **Who would be interested in the results, and why** Environmental toxicologists and regulatory scientists studying PFAS health effects would find the large-scale screening data useful for prioritizing compounds for experimental testing. Researchers in endocrine disruption and nuclear receptor biology may be interested in the allosteric site interactions. Computational chemists working on docking methodology might find the validation approach of interest, though the methodological limitations would reduce enthusiasm. The mixture modeling framework, while speculative, could inform future experimental designs for studying combined exposures.
+- **Major strengths** 1) Large-scale screening of over 9,000 PFAS compounds represents a significant computational effort that could help prioritize compounds for experimental validation. 2) The inclusion of allosteric binding sites addresses a gap in the literature, as most studies focus on orthosteric sites. 3) The validation approach using known ligands and cross-docking provides some confidence in the docking protocol. 4) The comparison with experimental binding affinity data for known ligands adds credibility to the approach. 5) The mixture modeling framework, while preliminary, addresses the realistic scenario of simultaneous ligand binding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "All receptors exhibited strong binding interactions at the orthosteric and allosteric site with a significant number of PFAS" and that numerous PFAS have binding affinities greater than endogenous ligands
+  - **Evidence pointer** Section 2.2, Tables 2-5, Figures 5-10
+  - **Concern** The manuscript does not provide adequate evidence that the docking scores are meaningful for comparing PFAS of widely varying sizes and chemical properties. Docking scores in Vina are influenced by molecular size, with larger molecules generally achieving more favorable scores due to increased contact surface area. The authors do not appear to have normalized for molecular weight, number of rotatable bonds, or other size-related parameters. Additionally, no decoy set or negative control compounds were used to establish a baseline for what constitutes a "strong" binder. The claim that 1,823 PFAS bind more strongly than the endogenous ligand at PPARγ orthosteric site requires validation that this is not simply an artifact of larger molecular size.
+  - **Why it matters** Without proper controls and size normalization, the ranking of PFAS by docking score may be systematically biased, leading to false positives among large fluoropolymers and false negatives among smaller PFAS. This undermines the core conclusions about which PFAS pose the greatest risk of competitive binding.
+  - **Resolution test** The authors should provide: (1) correlation analysis between docking score and molecular weight or number of heavy atoms; (2) docking of a set of decoy compounds with similar size distribution to establish background binding scores; (3) size-normalized ranking or use of enrichment metrics; (4) demonstration that the top-ranked PFAS are not simply the largest molecules.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state "We verified the accuracy of the docking protocol through multiple docking controls and validations" and describe RMSD values for redocked native ligands
+  - **Evidence pointer** Section 2.1, Figures 1-4, Tables 1, S1-S2
+  - **Concern** The validation approach is incomplete. While RMSD values for redocked native ligands are reported (e.g., calcitriol 1.31 Å, lithocholic acid 1.306 Å, ET1 1.017 Å, T35 0.758 Å), the manuscript does not report RMSD values for all validation ligands, particularly for ERα where only qualitative statements are made. More critically, the validation only demonstrates that the docking protocol can reproduce known binding poses, not that it can discriminate between binders and non-binders. No enrichment analysis, ROC curves, or discrimination tests against decoys are presented. The comparison with experimental binding affinity values (Section 2.1.8) is described but the actual comparison data are not shown in the provided text.
+  - **Why it matters** Pose prediction accuracy (RMSD) does not guarantee binding affinity prediction accuracy. A docking protocol can correctly place known ligands while still producing unreliable affinity rankings for unknown compounds. Without discrimination testing, the screening results cannot be considered validated.
+  - **Resolution test** The authors should: (1) report RMSD values for all validation ligands; (2) include docking of known non-binders or decoys to demonstrate discrimination; (3) provide the actual comparison between predicted and experimental binding affinities with correlation coefficients; (4) consider using a benchmark set such as DUD-E or similar for the four nuclear receptors.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim "This study is the first to explore the binding of PFAS at allosteric sites and to model PFAS mixtures at nuclear receptors"
+  - **Evidence pointer** Abstract, Section 2.5
+  - **Concern** The novelty claim is difficult to evaluate without a more comprehensive literature review. The authors mention previous docking studies with PFAS and nuclear receptors but do not systematically review whether allosteric site interactions have been previously examined. Given the extensive literature on PFAS and nuclear receptors, it is surprising that no prior study has examined allosteric sites. The claim of being "first" requires more careful literature verification and should be tempered if any prior work exists.
+  - **Why it matters** The novelty claim is central to the manuscript's contribution. If allosteric site interactions have been previously studied, the manuscript's novelty is substantially reduced. The mixture modeling, as presented, is largely conceptual and may not constitute a novel methodological contribution.
+  - **Resolution test** The authors should provide a more comprehensive literature review demonstrating that allosteric site interactions with PFAS have not been previously reported. They should also clarify what specific aspect of the mixture modeling is novel, as simultaneous binding of multiple ligands to different sites is a well-established concept in pharmacology.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors describe mixture modeling scenarios where "PFAS can bind in various combinations with themselves and endogenous ligands simultaneously, to disrupt the endocrine system and cause carcinogenic responses"
+  - **Evidence pointer** Section 2.4, Figure 13
+  - **Concern** The mixture modeling section is largely speculative. The authors describe seven scenarios of simultaneous binding but do not provide quantitative analysis of these scenarios. There is no calculation of combined binding energies, no assessment of whether simultaneous binding is thermodynamically favorable, and no consideration of steric clashes or conformational changes that might occur upon binding of the first ligand. The claim that simultaneous binding leads to "overactivation" and "carcinogenic responses" is not supported by the docking data presented.
+  - **Why it matters** The mixture modeling is presented as a key finding of the study, but as presented, it is a conceptual framework rather than a quantitative analysis. The leap from docking scores to carcinogenic outcomes is not justified by the evidence.
+  - **Resolution test** The authors should either: (1) provide quantitative analysis of the mixture scenarios, such as combined binding free energy calculations or molecular dynamics simulations of simultaneous binding; or (2) clearly label this section as a hypothesis-generating framework and temper the conclusions accordingly.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state "The docking of native ligands at both orthosteric and allosteric sites of the NRs resulted in accurate binding conformations within 2 Å of their reference pose"
+  - **Evidence pointer** Section 3.4
+  - **Concern** The manuscript does not provide sufficient detail on the docking methodology to assess its quality. Key parameters are missing: exhaustiveness settings, number of docking runs, scoring function selection, treatment of receptor flexibility, and how the grid box dimensions were determined for each site. The statement that all ligands were docked "within 2 Å" is not supported by the data shown, as RMSD values are only reported for a subset of ligands. Additionally, the use of glycerol as a reference ligand for the PXR allosteric site is unusual, as glycerol is a small molecule that may not be representative of drug-like ligands.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without complete methodological details, other researchers cannot replicate or build upon this work. The choice of reference ligands and validation criteria affects the reliability of the screening results.
+  - **Resolution test** The authors should provide complete docking parameters, including exhaustiveness, number of runs, and grid box coordinates for each receptor and site. They should also justify the choice of reference ligands and provide RMSD values for all validation ligands.
+  - **Concern ID** R1-M6
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state "Given the high concentration and persistence of PFAS in humans, this study further emphasizes the urgent need for further research into the carcinogenic mechanisms of PFAS and the development of therapeutic strategies that target nuclear receptors"
+  - **Evidence pointer** Abstract, Section 6
+  - **Concern** The translational implications are overstated. The study is purely computational and does not provide experimental validation of any kind. The claim that this work supports "the development of therapeutic strategies" is premature. Docking scores alone cannot establish that PFAS will act as agonists or antagonists, nor can they predict functional outcomes such as carcinogenesis. The authors acknowledge the need for in vitro validation but the conclusions still overreach.
+  - **Why it matters** Overstated conclusions can mislead readers and potentially influence regulatory decisions. The scientific community requires appropriate caution when interpreting computational predictions without experimental validation.
+  - **Resolution test** The authors should temper the conclusions to clearly state that these are computational predictions requiring experimental validation, and should avoid implying therapeutic implications without functional data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2.2.1-2.2.8
+  - **Evidence pointer** Tables 2-5, Figures 5-10
+  - **Issue** The sections describing PFAS screening results for each receptor are repetitive and lack clear structure. Each section follows the same pattern without providing comparative insights across receptors. The reader is left with a list of compound IDs and docking scores without a clear synthesis of what these results mean collectively.
+  - **Required correction** Consider consolidating the per-receptor results into a more integrated presentation, perhaps with a summary table comparing findings across receptors and a more analytical discussion of patterns and differences.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.1.8
+  - **Evidence pointer** Location not provided
+  - **Issue** The comparison with experimental binding affinity values is described but the actual data are not shown in the provided text. The authors state that EC50, IC50, Kd, and Ki values were collected but do not present the comparison between predicted and experimental values.
+  - **Required correction** Provide a table or figure showing the comparison between docking scores and experimental binding affinities, with correlation coefficients and statistical significance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Figure 13
+  - **Issue** The mixture modeling section introduces seven scenarios but the description is dense and difficult to follow. The relationship between the scenarios and the figure panels is not clearly explained in the text.
+  - **Required correction** Provide a clearer description of each scenario, perhaps with a summary table, and explicitly reference each figure panel in the text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Table S12
+  - **Issue** The PDB structures used for each receptor are listed in supplementary Table S12, but the text does not specify which structures were used for which receptor or the rationale for structure selection. Different PDB structures can have different conformations, which could affect docking results.
+  - **Required correction** Specify the PDB IDs for each receptor in the main text and justify the choice of structures.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2.2.1
+  - **Evidence pointer** Figure S1
+  - **Issue** The discussion of the positive binding energy compound DTXSID101034031 is interesting but the explanation is brief. The authors note it is very large but do not discuss whether this represents a general limitation of docking for large molecules.
+  - **Required correction** Expand the discussion of this outlier and consider whether it highlights a systematic issue with docking very large molecules.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Table S11
+  - **Issue** The section on commercially relevant PFAS focuses only on VDR. The rationale for this choice is not clearly stated, and it would be informative to know whether similar analysis was performed for the other receptors.
+  - **Required correction** Clarify why VDR was chosen for this analysis and whether similar data for other receptors are available.
+
+## Risk / unsupported claims
+- The claim that "All receptors exhibited strong binding interactions at the orthosteric and allosteric site with a significant number of PFAS" is not adequately supported without size normalization and decoy controls
+- The claim of being "the first to explore the binding of PFAS at allosteric sites" cannot be verified from the provided literature review
+- The mixture modeling scenarios suggesting "overactivation" and "carcinogenic responses" are speculative and not quantitatively supported
+- The statement that PFAS "can easily displace" lithocholic acid from the allosteric site is an interpretation of docking scores without thermodynamic calculations
+- The translational implications regarding "therapeutic strategies" are not supported by the computational data presented
+- The comparison with experimental binding affinity values is described but the actual data are not shown, making the validation claim unverifiable from the supplied material
+- The claim that docking results "highlight the risks that PFAS may pose to the functionality of VDR" extends beyond what computational docking can establish without functional assays

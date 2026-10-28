@@ -1,0 +1,304 @@
+{
+  "identity": {
+    "pmid": "41933080",
+    "doi": "10.1038/s41746-026-02557-x",
+    "title": "Label-free pathological subtyping of non-small cell lung cancer using deep classification and virtual immunohistochemical staining."
+  },
+  "content": {
+    "abstract": "The differentiation between pathological subtypes of non-small cell lung cancer (NSCLC) is an essential step in guiding treatment options and prognosis. However, current clinical practice relies on multi-step staining and labelling processes that are time-intensive and costly, requiring highly specialised expertise. In this study, we propose a label-free methodology that facilitates autofluorescence imaging of unstained NSCLC samples and deep learning (DL) techniques to distinguish between non-cancerous tissue, adenocarcinoma (AC), squamous cell carcinoma (SqCC), and other subtypes (OS). We conducted DL-based classification and generated virtual immunohistochemical (IHC) stains, including thyroid transcription factor-1 (TTF-1) for AC and p40 for SqCC. We evaluated these methods using two types of autofluorescence imaging: intensity imaging and lifetime imaging. The results demonstrate the exceptional ability of this approach for NSCLC subtype differentiation, achieving an area under the curve above 0.981 and 0.996 for binary- and multi-class classification. Furthermore, this approach produces clinical-grade virtual IHC staining, which was blind-evaluated by three experienced thoracic pathologists. Our label-free NSCLC subtyping approach enables rapid and accurate diagnosis without the need for conventional tissue processing and staining. Both strategies can significantly accelerate diagnostic workflows and support efficient lung cancer diagnosis, without compromising clinical decision-making.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zang, Zhenya",
+        "Dorward, David A",
+        "Quiohilag, Katherine E",
+        "Wood, Andrew Dj",
+        "Hopgood, James R",
+        "Akram, Ahsan R",
+        "Wang, Qiang"
+      ],
+      "short_names": [
+        "Zang Z",
+        "Dorward DA",
+        "Quiohilag KE",
+        "Wood AD",
+        "Hopgood JR",
+        "Akram AR",
+        "Wang Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Centre for Inflammation Research, Institute of Regeneration and Repair, The University of Edinburgh, Edinburgh, UK.",
+        "Department of Pathology, Royal Infirmary of Edinburgh, Edinburgh, UK.",
+        "Department of Pathology, Royal Infirmary of Edinburgh, Edinburgh, UK.",
+        "Department of Pathology, Royal Infirmary of Edinburgh, Edinburgh, UK.",
+        "Institue of Imaging, Data and Communications, School of Engineering, The University of Edinburgh, Edinburgh, UK.",
+        "Centre for Inflammation Research, Institute of Regeneration and Repair, The University of Edinburgh, Edinburgh, UK. Ahsan.Akram@ed.ac.uk.",
+        "Centre for Inflammation Research, Institute of Regeneration and Repair, The University of Edinburgh, Edinburgh, UK. Q.Wang@ed.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zang, Zhenya",
+        "short_name": "Zang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Inflammation Research, Institute of Regeneration and Repair, The University of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Dorward, David A",
+        "short_name": "Dorward DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Royal Infirmary of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Quiohilag, Katherine E",
+        "short_name": "Quiohilag KE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Royal Infirmary of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Wood, Andrew Dj",
+        "short_name": "Wood AD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Royal Infirmary of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Hopgood, James R",
+        "short_name": "Hopgood JR",
+        "identifiers": [],
+        "affiliations": [
+          "Institue of Imaging, Data and Communications, School of Engineering, The University of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Akram, Ahsan R",
+        "short_name": "Akram AR",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Inflammation Research, Institute of Regeneration and Repair, The University of Edinburgh, Edinburgh, UK. Ahsan.Akram@ed.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Wang, Qiang",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Inflammation Research, Institute of Regeneration and Repair, The University of Edinburgh, Edinburgh, UK. Q.Wang@ed.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NPJ digital medicine"
+    ],
+    "journal_abbrev": [
+      "NPJ Digit Med"
+    ],
+    "pub_date": "2026 Apr 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/04 00:36",
+    "fetched_at": "2026-10-01 17:33:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40447613",
+      "39472895",
+      "39309216",
+      "39232164",
+      "39039250",
+      "38948152",
+      "38572751",
+      "38496695",
+      "38404342",
+      "37850170",
+      "37455808",
+      "36864032",
+      "36123403",
+      "35851595",
+      "35810588",
+      "35701871",
+      "35632167",
+      "35436184",
+      "35429151",
+      "34703763",
+      "34622424",
+      "34584193",
+      "34457395",
+      "34400666",
+      "33854137",
+      "33649308",
+      "33608558",
+      "33311458",
+      "33018370",
+      "32725533",
+      "32719514",
+      "32411363",
+      "32364237",
+      "32086223",
+      "31142829",
+      "30891350",
+      "30572031",
+      "30235512",
+      "30224757",
+      "28661125",
+      "28548087",
+      "27086689",
+      "23489560",
+      "23296086",
+      "22621335",
+      "19346324",
+      "18316005",
+      "15376593",
+      "15188024"
+    ],
+    "similar": [
+      "41933080",
+      "42439806",
+      "31923744",
+      "27412420",
+      "29168459",
+      "23418554",
+      "34839410",
+      "20195168",
+      "30268486",
+      "21252716",
+      "38588884",
+      "40746930",
+      "27473201",
+      "21841504",
+      "25684486",
+      "41500778",
+      "27045515",
+      "20068475",
+      "33145811",
+      "31489298",
+      "27717372",
+      "40606521",
+      "41959987",
+      "41237448",
+      "41916912",
+      "34030542",
+      "21233671",
+      "41665643",
+      "38861072",
+      "41776632",
+      "21266922",
+      "23740564",
+      "38626509",
+      "35238465",
+      "39456114",
+      "40317503",
+      "40654610",
+      "32560475",
+      "34827719",
+      "31555581",
+      "25776027",
+      "37850170",
+      "41345459",
+      "38948152",
+      "39515045",
+      "41133008",
+      "39636222",
+      "31043270",
+      "41350354",
+      "39478525",
+      "22253626",
+      "24889857",
+      "42241162",
+      "31002395",
+      "38307593",
+      "42145688",
+      "26872818",
+      "25130792",
+      "37686123",
+      "42147259",
+      "30718697",
+      "20068099",
+      "33361584",
+      "23074402",
+      "25120805",
+      "38463509",
+      "31080486",
+      "23759980",
+      "29660595",
+      "33075198",
+      "25944390",
+      "30773559",
+      "22970842",
+      "25982011",
+      "41797166",
+      "34916369",
+      "27699149",
+      "29708428",
+      "21164283",
+      "38496695",
+      "26273374",
+      "23613404",
+      "42433241",
+      "24648663",
+      "21950918",
+      "31705294",
+      "35065344",
+      "28237243",
+      "35715882",
+      "41163288",
+      "39472895",
+      "21978426",
+      "41013460",
+      "21246522",
+      "41820369",
+      "41964375",
+      "22071786",
+      "32967325",
+      "38232600",
+      "31206846"
+    ],
+    "review": [
+      "41933080",
+      "21252716",
+      "21233671"
+    ],
+    "pmc": [
+      "13249941"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41746-026-02557-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41933080/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

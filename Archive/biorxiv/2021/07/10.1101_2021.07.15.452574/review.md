@@ -1,0 +1,116 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, background, results, discussion, methods, and declarations.
+- **Assessment boundary** The scientific claims, methodology, and evidence presented in the manuscript. This review does not assess the editorial fit for a specific journal.
+- **Shared manuscript claim summary** The authors propose a two-step approach for predicting active cis-regulatory modules (CRMs) in a cell/tissue type. The first step uses all available TF binding data to predict CRM loci, and the second step uses a small number of epigenetic marks to predict the functional state of these CRMs. The authors claim their approach substantially outperforms existing methods and that their results suggest common epigenetic rules for defining CRM functional states in humans and mice.
+- **Visible evidence base** The manuscript provides a detailed description of the methods, including data sources, model training, and evaluation. Results are presented in the text and referenced to figures and tables (e.g., Figures 2-10, Tables 1-2, Supplementary Figures S1-S14, Supplementary Tables S1-S10). The manuscript includes a link to a GitHub repository for code and predicted data.
+- **Missing materials affecting confidence** The manuscript text provided does not include the actual figures, tables, and supplementary materials. The review is based on the textual description of these results. The specific contents of the supplementary tables and figures are not visible. The GitHub repository was not accessed for verification.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a well-structured and potentially significant two-step approach for CRM functional state prediction. The core idea of separating CRM locus prediction from functional state prediction is logical and addresses known limitations of one-step methods. The authors provide a strong rationale for their approach and present a comprehensive evaluation against existing methods. The claim of common epigenetic rules across humans and mice is intriguing and, if robustly supported, would be of broad interest. However, the strength of the conclusions is contingent on the details of the results, which are not fully visible in the provided text. The evaluation of the "common rules" claim, in particular, requires careful scrutiny of the cross-species transfer experiments.
+- **Who would be interested in the results, and why** Researchers in gene regulation, computational biology, and epigenomics would be the primary audience. The work is directly relevant to those studying enhancer biology, cell-type-specific gene expression, and the evolution of gene regulatory networks. The practical implication of predicting functional CRMs with few epigenetic marks is also of interest to researchers using large-scale functional genomics data.
+- **Major strengths**
+    1.  The two-step approach is a clear conceptual advance over one-step methods, as it decouples the problem of CRM identification from that of functional state prediction.
+    2.  The use of TF binding data for CRM locus prediction is well-justified and leverages a large amount of public data.
+    3.  The demonstration that a small set of epigenetic marks is sufficient for accurate prediction is practically important and cost-effective.
+    4.  The cross-species analysis (human to mouse and vice versa) is a powerful test of the generality of the proposed rules.
+- **Major Concerns**
+    - **R1-M1**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Evidence sufficiency
+        - **Claim pointer** The authors claim that "epigenetic rules that define functional states of CRMs are common for different cell/tissue types of at least mammalian species."
+        - **Evidence pointer** Results section "Epigenetic rules defining functional states of CRMs are the same in different cell types in human or mouse and even across human and mouse", Figures 5-7.
+        - **Concern** The claim of common epigenetic rules across species is a central and strong conclusion. The provided text describes cross-species transfer experiments (training on mouse, testing on human, and vice versa) with high AUROC values. However, the text does not provide sufficient detail on the experimental setup to fully assess this claim. Specifically, it is unclear how the models trained on pooled data from multiple cell types of one species are evaluated on a target cell type of the other species. The potential for data leakage or the use of cell-type-specific features that are not truly conserved needs to be addressed. The high AUROC could be driven by a few highly conserved features, or the evaluation might be confounded by the similarity of certain cell types across species.
+        - **Why it matters** The claim of universality is the most significant and novel aspect of the paper. If the evidence is not robust, the paper's impact is substantially diminished. A rigorous demonstration that the model generalizes across species without relying on species-specific or cell-type-specific artifacts is essential.
+        - **Resolution test** The authors should provide a more detailed description of the cross-species validation strategy. This should include an analysis of the feature importance in the cross-species models, a demonstration that the performance is not driven by a single dominant feature, and a comparison of the epigenetic mark patterns at orthologous CRMs between species. An analysis showing that the model's performance is consistent across different cell-type pairs (e.g., not just the most similar ones) would also strengthen the claim.
+    - **R1-M2**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Technical soundness
+        - **Claim pointer** The authors claim that their two-step approach "substantially outperforms existing methods" for predicting active CRMs.
+        - **Evidence pointer** Results section "Our two-step approach is substantially more accurate and cost effective than state-of-the-art one-step approaches", Figures 9-10, Table 2.
+        - **Concern** The comparison with existing methods is a key part of the paper's contribution. The text states that the authors' models outperform five earlier methods on four mouse tissues and that their method predicts a larger number of active CRMs than Matched Filter in human cell lines. However, the basis for this comparison is not fully clear. The text mentions that the earlier methods were trained on data from mESCs, and the authors trained their model on mESC data as well. It is not clear if the comparison is entirely fair, as the earlier methods may have been trained with different positive/negative definitions or different feature sets. The text also mentions that the authors' method predicts more CRMs, but this could be due to a lower threshold or a different definition of a CRM, not necessarily higher accuracy.
+        - **Why it matters** The claim of superior performance is central to the paper's value proposition. If the comparison is not fair or the metrics are not directly comparable, the conclusion is weakened.
+        - **Resolution test** The authors should clarify the exact training and evaluation protocols for all methods being compared. They should ensure that the comparison is apples-to-apples, using the same positive and negative sets where possible, or clearly stating the differences and their potential impact. The claim of predicting "more" CRMs should be supported by a direct comparison of precision and recall, not just the total number of predictions.
+    - **R1-M3**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Technical soundness
+        - **Claim pointer** The authors state that "using only 1∼4 epigenetic marks, machine-learning models trained on a set of CRMs whose functional states in a cell/tissue type could be predicted by dePCRM2 was able to very accurately predict functional states of the CRMs whose functional states in the cell/tissue type could not be predicted by dePCRM2."
+        - **Evidence pointer** Results section "Few epigenetic marks are sufficient to accurately predict functional states of the CRMs", Figure 4.
+        - **Concern** The manuscript describes evaluating 15 combinations of four epigenetic marks and finding that a single mark (CA) performs well, with performance improving as more marks are added. However, the text does not provide a clear description of the evaluation metric used to select the "optimal minimal sets." It is unclear if the selection was based on the median AUROC across all cell types, and if the variance in performance across cell types was considered. The claim that "1∼4" marks are sufficient is broad, and the text does not specify which combinations of marks are optimal for which cell types.
+        - **Why it matters** The practical utility of the method depends on the reliability of the minimal mark sets. If the optimal set varies significantly between cell types, the claim of a universal minimal set is weakened.
+        - **Resolution test** The authors should provide a more detailed analysis of the performance of the 15 combinations, including the variance across cell types. They should also clarify the criteria for selecting the "optimal" set and discuss whether a single universal set of marks can be recommended or if the optimal set is cell-type-specific.
+- **Minor Comments**
+    - **R1-m1**
+        - **Severity** Minor
+        - **Axis** Clarity
+        - **Affected element** Abstract
+        - **Evidence pointer** Abstract
+        - **Issue** The abstract states "We have recently developed a pipeline dePCRM2 for the first step, and now presented machine-learning methods for the second step." The phrase "now presented" is informal and could be replaced with a more formal description, such as "we present."
+        - **Required correction** Revise the sentence to "We have recently developed a pipeline dePCRM2 for the first step, and we now present machine-learning methods for the second step."
+    - **R1-m2**
+        - **Severity** Minor
+        - **Axis** Clarity
+        - **Affected element** Results section
+        - **Evidence pointer** Results section "Genome-wide de novel prediction of CRMs in the human and mouse genomes"
+        - **Issue** The phrase "de novel" is a typographical error. The correct term is "de novo."
+        - **Required correction** Correct the typo to "de novo."
+    - **R1-m3**
+        - **Severity** Minor
+        - **Axis** Clarity
+        - **Affected element** Results section
+        - **Evidence pointer** Results section "Our two-step approach is substantially more accurate and cost effective than state-of-the-art one-step approaches"
+        - **Issue** The text states "we trained a RL model using the CRM+TF + /Non-CRM sets from the mESCs". The abbreviation "RL" is likely a typo for "LR" (logistic regression).
+        - **Required correction** Correct the typo to "LR".
+    - **R1-m4**
+        - **Severity** Minor
+        - **Axis** Clarity
+        - **Affected element** Results section
+        - **Evidence pointer** Results section "Our two-step approach is substantially more accurate and cost effective than state-of-the-art one-step approaches"
+        - **Issue** The text states "due probably to the larger training stets (n-1 vs 1)". The word "stets" is a typo for "sets".
+        - **Required correction** Correct the typo to "sets".
+    - **R1-m5**
+        - **Severity** Minor
+        - **Axis** Clarity
+        - **Affected element** Results section
+        - **Evidence pointer** Results section "Our two-step approach is substantially more accurate and cost effective than state-of-the-art one-step approaches"
+        - **Issue** The text states "the two putative active CRMs overlap at least half of the short one". This sentence is unclear. It should be clarified whether the overlap is between the predicted active CRMs from the two methods, or between a predicted CRM and a known CRM.
+        - **Required correction** Clarify the sentence to specify what is overlapping. For example, "the two predicted active CRMs overlap at least half of the shorter one."
+    - **R1-m6**
+        - **Severity** Minor
+        - **Axis** Clarity
+        - **Affected element** Methods section
+        - **Evidence pointer** Methods section "Computing the epigenetic feature vector of a sequence"
+        - **Issue** The formula for the raw feature vector is described in text but the actual equation is not rendered in the provided text. The description is incomplete without the equation.
+        - **Required correction** Ensure the equation is properly displayed in the final manuscript.
+    - **R1-m7**
+        - **Severity** Minor
+        - **Axis** Reproducibility
+        - **Affected element** Methods section
+        - **Evidence pointer** Methods section "Model training, testing and evaluation"
+        - **Issue** The text states "All of the classifier models were implemented using sci-kit learn v.0.24.2". It would be helpful to specify the default parameters or provide a link to the code for full reproducibility.
+        - **Required correction** Add a statement that all model parameters are available in the provided code repository.
+    - **R1-m8**
+        - **Severity** Minor
+        - **Axis** Clarity
+        - **Affected element** Results section
+        - **Evidence pointer** Results section "Most CRMs are extensively re-utilized in different cell/tissue types"
+        - **Issue** The text states "The number of uniquely active CRMs in a cell/tissue type ranged from 27 to 43,333 and from 32 to 6,914 with a mean of 2,801 and 1,626". It is unclear if these numbers refer to the number of CRMs or the number of genes. The text later mentions "genes closest to uniquely active CRMs", so it is likely the number of CRMs.
+        - **Required correction** Clarify that these numbers refer to the number of CRMs.
+- **Technical failings that need to be addressed before the case is established**
+    - The cross-species transfer experiment (R1-M1) needs a more detailed and rigorous analysis to support the claim of common epigenetic rules.
+    - The comparison with existing methods (R1-M2) needs to be clarified to ensure a fair and direct comparison.
+    - The selection of optimal minimal epigenetic mark sets (R1-M3) needs a more detailed analysis of variance and criteria.
+- **Assessment against Nature-style criteria**
+    - **Originality** The two-step approach is a novel conceptual contribution. While the individual components (TF binding for CRM prediction, epigenetic marks for activity prediction) are known, their separation into a two-step framework is a new and logical idea.
+    - **Scientific importance** The potential to predict functional CRMs in any cell type with a few epigenetic marks is of high importance. The claim of common rules across mammals, if substantiated, would be a significant advance in understanding gene regulation.
+    - **Interdisciplinary readership** The work is primarily of interest to computational biologists, epigenomicists, and molecular biologists. The methods and findings are likely to be of interest to a broader readership interested in gene regulation and evolution, but the technical nature of the manuscript may limit its accessibility.
+    - **Technical soundness** The methodology is generally sound, but the concerns raised above regarding the cross-species analysis and the comparison with other methods need to be addressed to fully establish the technical robustness of the claims.
+    - **Readability for nonspecialists** The manuscript is written in a technical style that is appropriate for a specialist audience. The abstract is clear, but the results and methods sections are dense and would be challenging for a nonspecialist to follow.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the results, as described, are impressive. However, the strength of the central claims regarding common epigenetic rules and superior performance depends on a more rigorous and detailed presentation of the evidence. The manuscript would be suitable for publication after the major concerns are addressed.
+
+## Risk / unsupported claims
+- The claim of "common epigenetic rules" across humans and mice is not fully supported by the evidence presented in the text. The cross-species transfer experiments are described, but the details necessary to rule out confounding factors are missing.
+- The claim that the two-step approach "substantially outperforms" existing methods is not fully supported without a more detailed and fair comparison.
+- The claim that the method can predict functional states of CRMs "whose functional states cannot be predicted by dePCRM2" is a key part of the paper, but the validation of this specific claim is not fully described. The text mentions that the predicted active CRMs have higher gene expression, but a more direct validation of the predicted functional states is needed.

@@ -1,0 +1,605 @@
+{
+  "identity": {
+    "pmid": "36563664",
+    "doi": "10.1016/j.cell.2022.11.028",
+    "title": "Integrative single-cell analysis of cardiogenesis identifies developmental trajectories and non-coding mutations in congenital heart disease."
+  },
+  "content": {
+    "abstract": "To define the multi-cellular epigenomic and transcriptional landscape of cardiac cellular development, we generated single-cell chromatin accessibility maps of human fetal heart tissues. We identified eight major differentiation trajectories involving primary cardiac cell types, each associated with dynamic transcription factor (TF) activity signatures. We contrasted regulatory landscapes of iPSC-derived cardiac cell types and their in vivo counterparts, which enabled optimization of in vitro differentiation of epicardial cells. Further, we interpreted sequence based deep learning models of cell-type-resolved chromatin accessibility profiles to decipher underlying TF motif lexicons. De novo mutations predicted to affect chromatin accessibility in arterial endothelium were enriched in congenital heart disease (CHD) cases vs. controls. In vitro studies in iPSCs validated the functional impact of identified variation on the predicted developmental cell types. This work thus defines the cell-type-resolved cis-regulatory sequence determinants of heart development and identifies disruption of cell type-specific regulatory elements in CHD.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Chromatin/genetics",
+      "*Heart Defects, Congenital/genetics",
+      "Heart",
+      "Mutation",
+      "Single-Cell Analysis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ameen, Mohamed",
+        "Sundaram, Laksshman",
+        "Shen, Mengcheng",
+        "Banerjee, Abhimanyu",
+        "Kundu, Soumya",
+        "Nair, Surag",
+        "Shcherbina, Anna",
+        "Gu, Mingxia",
+        "Wilson, Kitchener D",
+        "Varadarajan, Avyay",
+        "Vadgama, Nirmal",
+        "Balsubramani, Akshay",
+        "Wu, Joseph C",
+        "Engreitz, Jesse M",
+        "Farh, Kyle",
+        "Karakikes, Ioannis",
+        "Wang, Kevin C",
+        "Quertermous, Thomas",
+        "Greenleaf, William J",
+        "Kundaje, Anshul"
+      ],
+      "short_names": [
+        "Ameen M",
+        "Sundaram L",
+        "Shen M",
+        "Banerjee A",
+        "Kundu S",
+        "Nair S",
+        "Shcherbina A",
+        "Gu M",
+        "Wilson KD",
+        "Varadarajan A",
+        "Vadgama N",
+        "Balsubramani A",
+        "Wu JC",
+        "Engreitz JM",
+        "Farh K",
+        "Karakikes I",
+        "Wang KC",
+        "Quertermous T",
+        "Greenleaf WJ",
+        "Kundaje A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cancer Biology, Stanford University, Stanford, CA, USA; Illumina Artificial Intelligence Laboratory, Illumina Inc, Foster City, CA, USA.",
+        "Department of Computer Science, Stanford University, Stanford, CA, USA; Illumina Artificial Intelligence Laboratory, Illumina Inc, Foster City, CA, USA.",
+        "Cardiovascular Institute, Stanford University, Stanford, CA, USA.",
+        "Illumina Artificial Intelligence Laboratory, Illumina Inc, Foster City, CA, USA; Department of Physics, Stanford University, Stanford, CA, USA.",
+        "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+        "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+        "Department of Biomedical Informatics, Stanford University, Stanford, CA, USA.",
+        "Center for Stem Cell and Organoid Medicine, CuSTOM, Division of Developmental Biology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, USA.",
+        "Cardiovascular Institute, Stanford University, Stanford, CA, USA.",
+        "Department of Computer Science, California Institute of Technology, Pasadena, CA, USA.",
+        "Department of Cardiothoracic Surgery, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Cardiovascular Institute, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Illumina Artificial Intelligence Laboratory, Illumina Inc, Foster City, CA, USA.",
+        "Cardiovascular Institute, Stanford University, Stanford, CA, USA; Department of Cardiothoracic Surgery, Stanford University, Stanford, CA, USA. Electronic address: ioannis1@stanford.edu.",
+        "Department of Cancer Biology, Stanford University, Stanford, CA, USA; Department of Dermatology, Stanford University School of Medicine, Stanford, CA, USA; Veterans Affairs Palo Alto Healthcare System, Palo Alto, CA, USA. Electronic address: kevwang@stanford.edu.",
+        "Division of Cardiovascular Medicine, Stanford University School of Medicine, Stanford, CA, USA. Electronic address: tomq1@stanford.edu.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA; Department of Applied Physics, Stanford University, Stanford, CA, USA. Electronic address: wjg@stanford.edu.",
+        "Department of Computer Science, Stanford University, Stanford, CA, USA; Department of Genetics, Stanford University, Stanford, CA, USA. Electronic address: akundaje@stanford.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ameen, Mohamed",
+        "short_name": "Ameen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, Stanford University, Stanford, CA, USA; Illumina Artificial Intelligence Laboratory, Illumina Inc, Foster City, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sundaram, Laksshman",
+        "short_name": "Sundaram L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA, USA; Illumina Artificial Intelligence Laboratory, Illumina Inc, Foster City, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Shen, Mengcheng",
+        "short_name": "Shen M",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Institute, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Banerjee, Abhimanyu",
+        "short_name": "Banerjee A",
+        "identifiers": [],
+        "affiliations": [
+          "Illumina Artificial Intelligence Laboratory, Illumina Inc, Foster City, CA, USA; Department of Physics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kundu, Soumya",
+        "short_name": "Kundu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Nair, Surag",
+        "short_name": "Nair S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Shcherbina, Anna",
+        "short_name": "Shcherbina A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Gu, Mingxia",
+        "short_name": "Gu M",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Stem Cell and Organoid Medicine, CuSTOM, Division of Developmental Biology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Wilson, Kitchener D",
+        "short_name": "Wilson KD",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Institute, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Varadarajan, Avyay",
+        "short_name": "Varadarajan A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, California Institute of Technology, Pasadena, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Vadgama, Nirmal",
+        "short_name": "Vadgama N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Balsubramani, Akshay",
+        "short_name": "Balsubramani A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Joseph C",
+        "short_name": "Wu JC",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Institute, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Engreitz, Jesse M",
+        "short_name": "Engreitz JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Farh, Kyle",
+        "short_name": "Farh K",
+        "identifiers": [],
+        "affiliations": [
+          "Illumina Artificial Intelligence Laboratory, Illumina Inc, Foster City, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Karakikes, Ioannis",
+        "short_name": "Karakikes I",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Institute, Stanford University, Stanford, CA, USA; Department of Cardiothoracic Surgery, Stanford University, Stanford, CA, USA. Electronic address: ioannis1@stanford.edu."
+        ]
+      },
+      {
+        "full_name": "Wang, Kevin C",
+        "short_name": "Wang KC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, Stanford University, Stanford, CA, USA; Department of Dermatology, Stanford University School of Medicine, Stanford, CA, USA; Veterans Affairs Palo Alto Healthcare System, Palo Alto, CA, USA. Electronic address: kevwang@stanford.edu."
+        ]
+      },
+      {
+        "full_name": "Quertermous, Thomas",
+        "short_name": "Quertermous T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiovascular Medicine, Stanford University School of Medicine, Stanford, CA, USA. Electronic address: tomq1@stanford.edu."
+        ]
+      },
+      {
+        "full_name": "Greenleaf, William J",
+        "short_name": "Greenleaf WJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA; Department of Applied Physics, Stanford University, Stanford, CA, USA. Electronic address: wjg@stanford.edu."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, CA, USA; Department of Genetics, Stanford University, Stanford, CA, USA. Electronic address: akundaje@stanford.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell"
+    ],
+    "journal_abbrev": [
+      "Cell"
+    ],
+    "pub_date": "2022 Dec 22",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/24 06:00",
+    "fetched_at": "2026-09-28 18:04:50"
+  },
+  "links": {
+    "cites": [
+      "42603970",
+      "42446827",
+      "42443492",
+      "42308288",
+      "42302071",
+      "42298188",
+      "42074532",
+      "42056104",
+      "41992274",
+      "41951735",
+      "41937210",
+      "41933934",
+      "41675513",
+      "41609358",
+      "41526351",
+      "41509364",
+      "41503698",
+      "41481684",
+      "41478882",
+      "41299571",
+      "41233206",
+      "41223854",
+      "41162788",
+      "41057364",
+      "41049289",
+      "41010342",
+      "40999099",
+      "40721580",
+      "40533554",
+      "40495012",
+      "40494725",
+      "40472086",
+      "40438121",
+      "40419644",
+      "40291712",
+      "40127276",
+      "40049164",
+      "40030011",
+      "40027628",
+      "40020683",
+      "39935786",
+      "39911371",
+      "39872661",
+      "39829783",
+      "39817516",
+      "39798574",
+      "39627201",
+      "39606363",
+      "39585787",
+      "39548113",
+      "39515331",
+      "39437788",
+      "39391486",
+      "39282388",
+      "39282369",
+      "39253514",
+      "39236169",
+      "39209474",
+      "39090688",
+      "39049508",
+      "39026761",
+      "38884715",
+      "38810140",
+      "38792537",
+      "38683900",
+      "38480880",
+      "38205435",
+      "38164514",
+      "38110859",
+      "37961706",
+      "37873116",
+      "37534129",
+      "37421484",
+      "37173718",
+      "37119139",
+      "36950287",
+      "36745700",
+      "36466610"
+    ],
+    "refs": [
+      "34399580",
+      "34390642",
+      "33928785",
+      "33633365",
+      "33603233",
+      "33230144",
+      "33098772",
+      "32848148",
+      "32810435",
+      "32769974",
+      "32601476",
+      "32059779",
+      "31999538",
+      "31835037",
+      "31792411",
+      "31740819",
+      "31589297",
+      "31420575",
+      "31375813",
+      "31359001",
+      "31288631",
+      "31178118",
+      "30914743",
+      "30849376",
+      "30759401",
+      "30531897",
+      "30464173",
+      "30385745",
+      "30361341",
+      "30290179",
+      "30266935",
+      "30154011",
+      "30078704",
+      "29986945",
+      "29891551",
+      "28991257",
+      "28890073",
+      "28825706",
+      "27197224",
+      "26785492",
+      "26630461",
+      "26395486",
+      "26301843",
+      "26238262",
+      "26020946",
+      "25215497",
+      "24930130",
+      "24556840",
+      "23665959",
+      "23633400",
+      "23603510",
+      "23457256",
+      "23410879",
+      "22679138",
+      "22645348",
+      "22573622",
+      "22252507",
+      "22206000",
+      "22078432",
+      "21963426",
+      "21402699",
+      "21112566",
+      "20844252",
+      "20549724",
+      "19773334",
+      "19035347",
+      "18798982",
+      "18723448",
+      "18480752",
+      "18065521",
+      "17609388",
+      "17272818",
+      "16990131",
+      "16876154",
+      "16809768",
+      "16778336",
+      "16537907",
+      "15262835",
+      "12446836",
+      "11967535",
+      "10807864",
+      "10375497",
+      "8631495",
+      "7958863"
+    ],
+    "similar": [
+      "36563664",
+      "32772801",
+      "24803680",
+      "41279701",
+      "37811720",
+      "26344701",
+      "33321106",
+      "40419644",
+      "29030344",
+      "40028843",
+      "41735542",
+      "29706549",
+      "35984151",
+      "31341279",
+      "38378865",
+      "41027226",
+      "40080060",
+      "39326643",
+      "31102825",
+      "28193859",
+      "32029221",
+      "39838281",
+      "39453535",
+      "29539636",
+      "40655014",
+      "33837132",
+      "26083756",
+      "40764843",
+      "35668131",
+      "40992551",
+      "34209044",
+      "39606363",
+      "34059112",
+      "40663269",
+      "38720070",
+      "31625562",
+      "39742806",
+      "31114856",
+      "34650237",
+      "38339013",
+      "27984724",
+      "39829783",
+      "36930454",
+      "17592645",
+      "31659164",
+      "31171573",
+      "39135118",
+      "35261209",
+      "29396371",
+      "39585787",
+      "41509364",
+      "40931195",
+      "41049289",
+      "31624253",
+      "23626780",
+      "29104469",
+      "36902216",
+      "36482454",
+      "39005400",
+      "35113653",
+      "39183978",
+      "39236169",
+      "26785492",
+      "37848613",
+      "38741085",
+      "35400201",
+      "22498567",
+      "40055864",
+      "33803261",
+      "41193091",
+      "31053165",
+      "22543974",
+      "36635482",
+      "34547403",
+      "32859249",
+      "25205790",
+      "37214836",
+      "39273049",
+      "29208628",
+      "33086071",
+      "38664790",
+      "41285681",
+      "39987573",
+      "23790954",
+      "31235600",
+      "37803336",
+      "36202051",
+      "38940155",
+      "39888372",
+      "32646524",
+      "27693370",
+      "36806749",
+      "38038666",
+      "33098376",
+      "30760547",
+      "40163266",
+      "38358392",
+      "16711160",
+      "28753627",
+      "40781032"
+    ],
+    "review": [
+      "36563664",
+      "37811720",
+      "41027226",
+      "31102825",
+      "34209044",
+      "38339013",
+      "36930454",
+      "35261209",
+      "41049289",
+      "33803261",
+      "23790954",
+      "36202051",
+      "40163266"
+    ],
+    "pmc": [
+      "10122433"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(22)01503-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/congenitalheartdefects.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Congenital Heart Defects"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36563664/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36563664",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

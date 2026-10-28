@@ -1,0 +1,434 @@
+{
+  "identity": {
+    "pmid": "34948269",
+    "doi": "10.3390/ijms222413474",
+    "title": "Dynophore-Based Approach in Virtual Screening: A Case of Human DNA Topoisomerase IIalpha."
+  },
+  "content": {
+    "abstract": "In this study, we utilized human DNA topoisomerase IIalpha as a model target to outline a dynophore-based approach to catalytic inhibitor design. Based on MD simulations of a known catalytic inhibitor and the native ATP ligand analog, AMP-PNP, we derived a joint dynophore model that supplements the static structure-based-pharmacophore information with a dynamic component. Subsequently, derived pharmacophore models were employed in a virtual screening campaign of a library of natural compounds. Experimental evaluation identified flavonoid compounds with promising topoisomerase IIalpha catalytic inhibition and binding studies confirmed interaction with the ATPase domain. We constructed a binding model through docking and extensively investigated it with molecular dynamics MD simulations, essential dynamics, and MM-GBSA free energy calculations, thus reconnecting the new results to the initial dynophore-based screening model. We not only demonstrate a new design strategy that incorporates a dynamic component of molecular recognition, but also highlight new derivates in the established flavonoid class of topoisomerase II inhibitors.",
+    "keywords": [
+      "cancer research",
+      "catalytic inhibitors",
+      "drug design",
+      "dynophore models",
+      "human DNA topoisomerase IIalpha",
+      "molecular simulations"
+    ],
+    "mesh_terms": [
+      "Antigens, Neoplasm/metabolism",
+      "Antineoplastic Agents/pharmacology",
+      "Binding Sites",
+      "Catalytic Domain/physiology",
+      "DNA Topoisomerases, Type II/genetics/metabolism",
+      "DNA-Binding Proteins/metabolism",
+      "Drug Design/*methods",
+      "Humans",
+      "Molecular Docking Simulation",
+      "Structure-Activity Relationship",
+      "Topoisomerase II Inhibitors/chemical synthesis/metabolism/*pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Janezic, Matej",
+        "Valjavec, Katja",
+        "Loboda, Kaja Bergant",
+        "Herlah, Barbara",
+        "Ogris, Iza",
+        "Kozorog, Mirijam",
+        "Podobnik, Marjetka",
+        "Grdadolnik, Simona Golic",
+        "Wolber, Gerhard",
+        "Perdih, Andrej"
+      ],
+      "short_names": [
+        "Janezic M",
+        "Valjavec K",
+        "Loboda KB",
+        "Herlah B",
+        "Ogris I",
+        "Kozorog M",
+        "Podobnik M",
+        "Grdadolnik SG",
+        "Wolber G",
+        "Perdih A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5585-2396",
+        "ORCID: 0000-0002-5379-8517",
+        "ORCID: 0000-0001-6786-9737",
+        "ORCID: 0000-0002-0873-9593",
+        "ORCID: 0000-0002-5344-0048",
+        "ORCID: 0000-0002-6645-9231"
+      ],
+      "affiliations": [
+        "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia.",
+        "Laboratory for Structural Bioinformatics, RIKEN Center for Biosystems Dynamics Research, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan.",
+        "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia.",
+        "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia.",
+        "Faculty of Pharmacy, University of Ljubljana, Askerceva 7, SI-1000 Ljubljana, Slovenia.",
+        "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia.",
+        "Faculty of Pharmacy, University of Ljubljana, Askerceva 7, SI-1000 Ljubljana, Slovenia.",
+        "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia.",
+        "Faculty of Medicine, University of Ljubljana, Vrazov trg 2, SI-1000 Ljubljana, Slovenia.",
+        "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia.",
+        "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia.",
+        "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia.",
+        "Institute of Pharmacy, Freie Universitat Berlin, Konigin-Luise-Strasse 2-4, 14195 Berlin, Germany.",
+        "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia.",
+        "Faculty of Pharmacy, University of Ljubljana, Askerceva 7, SI-1000 Ljubljana, Slovenia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Janežič, Matej",
+        "short_name": "Janežič M",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia.",
+          "Laboratory for Structural Bioinformatics, RIKEN Center for Biosystems Dynamics Research, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Valjavec, Katja",
+        "short_name": "Valjavec K",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Loboda, Kaja Bergant",
+        "short_name": "Loboda KB",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia.",
+          "Faculty of Pharmacy, University of Ljubljana, Aškerčeva 7, SI-1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Herlah, Barbara",
+        "short_name": "Herlah B",
+        "identifiers": [
+          "0000-0002-5585-2396"
+        ],
+        "affiliations": [
+          "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia.",
+          "Faculty of Pharmacy, University of Ljubljana, Aškerčeva 7, SI-1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Ogris, Iza",
+        "short_name": "Ogris I",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia.",
+          "Faculty of Medicine, University of Ljubljana, Vrazov trg 2, SI-1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Kozorog, Mirijam",
+        "short_name": "Kozorog M",
+        "identifiers": [
+          "0000-0002-5379-8517"
+        ],
+        "affiliations": [
+          "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Podobnik, Marjetka",
+        "short_name": "Podobnik M",
+        "identifiers": [
+          "0000-0001-6786-9737"
+        ],
+        "affiliations": [
+          "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Grdadolnik, Simona Golič",
+        "short_name": "Grdadolnik SG",
+        "identifiers": [
+          "0000-0002-0873-9593"
+        ],
+        "affiliations": [
+          "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Wolber, Gerhard",
+        "short_name": "Wolber G",
+        "identifiers": [
+          "0000-0002-5344-0048"
+        ],
+        "affiliations": [
+          "Institute of Pharmacy, Freie Universität Berlin, Königin-Luise-Straße 2-4, 14195 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Perdih, Andrej",
+        "short_name": "Perdih A",
+        "identifiers": [
+          "0000-0002-6645-9231"
+        ],
+        "affiliations": [
+          "National Institute of Chemistry, Hajdrihova 19, SI-1000 Ljubljana, Slovenia.",
+          "Faculty of Pharmacy, University of Ljubljana, Aškerčeva 7, SI-1000 Ljubljana, Slovenia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Dec 15",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/25 06:00",
+    "fetched_at": "2026-09-28 03:12:40"
+  },
+  "links": {
+    "cites": [
+      "41573741",
+      "39950821",
+      "39757683",
+      "39135887",
+      "37641107",
+      "37602233",
+      "36986441",
+      "36838618",
+      "35991867",
+      "35936081"
+    ],
+    "refs": [
+      "33617246",
+      "32737291",
+      "32484690",
+      "32315896",
+      "32292558",
+      "32011879",
+      "31487867",
+      "31117512",
+      "31096154",
+      "31083946",
+      "30187647",
+      "30186166",
+      "29870668",
+      "29533241",
+      "29508675",
+      "29367919",
+      "29363591",
+      "27298318",
+      "26574453",
+      "26183545",
+      "25891095",
+      "25615716",
+      "25614221",
+      "25522133",
+      "25453816",
+      "25147617",
+      "24950326",
+      "24724969",
+      "23363399",
+      "23210851",
+      "22788766",
+      "22444877",
+      "22397403",
+      "21600681",
+      "20929257",
+      "20578986",
+      "20000587",
+      "19841628",
+      "18691670",
+      "17892319",
+      "17458941",
+      "16950806",
+      "16940322",
+      "16793526",
+      "16101488",
+      "16100112",
+      "15743191",
+      "15667141",
+      "15379646",
+      "15264254",
+      "15169927",
+      "15116359",
+      "12838268",
+      "12489117",
+      "12052201",
+      "11850431",
+      "11414845",
+      "11170002",
+      "9748598",
+      "9126849",
+      "8744570",
+      "8008235",
+      "7769390",
+      "6324188",
+      "1380833"
+    ],
+    "similar": [
+      "34948269",
+      "38772152",
+      "32315896",
+      "25522133",
+      "26183545",
+      "22633831",
+      "25489853",
+      "28919339",
+      "25453816",
+      "27484510",
+      "31096154",
+      "32484690",
+      "28462840",
+      "25968900",
+      "24013413",
+      "21419530",
+      "25437617",
+      "26988802",
+      "21644529",
+      "25494808",
+      "25280269",
+      "27744115",
+      "25409338",
+      "27643560",
+      "29508675",
+      "31377387",
+      "30391699",
+      "27521587",
+      "23210851",
+      "24793877",
+      "26982206",
+      "26906637",
+      "32688116",
+      "30296751",
+      "17876042",
+      "24809695",
+      "23229142",
+      "25240701",
+      "25800514",
+      "27998679",
+      "24826817",
+      "27656775",
+      "21391686",
+      "33261848",
+      "31763968",
+      "24841075",
+      "19166355",
+      "16880287",
+      "18162055",
+      "32898794",
+      "15131057",
+      "34597897",
+      "33689875",
+      "31869654",
+      "24492731",
+      "30420325",
+      "9537249",
+      "29510948",
+      "26740155",
+      "32193613",
+      "19763954",
+      "34536927",
+      "30006062",
+      "28604852",
+      "36689894",
+      "10416608",
+      "10569942",
+      "29077404",
+      "33113414",
+      "24220011",
+      "36345785",
+      "29715635",
+      "32814529",
+      "32036164",
+      "30731361",
+      "30253887",
+      "21601964",
+      "10860928",
+      "10764786",
+      "32344256",
+      "28511910",
+      "25242524",
+      "20336347",
+      "25244109",
+      "32196342",
+      "31374424",
+      "32927130",
+      "19697956",
+      "28068603",
+      "10953049",
+      "25922181",
+      "10519406",
+      "17351106",
+      "29289884",
+      "27533850",
+      "30394113",
+      "20353152",
+      "16114891",
+      "28472494",
+      "35948041",
+      "36898858",
+      "33089727",
+      "39135887",
+      "36354997",
+      "37975405",
+      "36986441",
+      "37602233"
+    ],
+    "review": [
+      "34948269",
+      "29508675",
+      "23210851",
+      "23229142"
+    ],
+    "pmc": [
+      "8703789"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms222413474",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34948269/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34948269",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-570",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

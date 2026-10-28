@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41160788",
+  "title": "Integrative Deep Learning of Genomic and Clinical Data for Predicting Treatment Response in Newly Diagnosed Epilepsy.",
+  "authors": "Feng, Wei; Nhu, Duong; Anderson, Alison; Thom, Daniel; Barnard, Sarah N; Zeibich, Robert; Foster, Emma; Howard, Mark; Bellows, Susannah T; Burgess, Rosemary; Berkovic, Samuel F; O'Brien, Terence J; Chen, Zhibin; French, Jacqueline; Kwan, Patrick; Ge, Zongyuan",
+  "journal": "Neurology",
+  "published_date": "2025-10-29",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用多模态深度学习整合临床与基因组特征预测癫痫药物反应，虽涉及转录因子结合位点变异，但核心是临床疗效预测而非蛋白质-DNA互作机制建模，方法上仅用变异注释，无AI/物理模拟的互作建模，故相关性有限。",
+  "abstract": "BACKGROUND AND OBJECTIVES: Epilepsy is a common neurologic disorder. Although antiseizure medications (ASMs) are the first-line treatment, identifying the most effective ASM for each individual remains a trial-and-error process. Genetic variation may influence treatment response. We aimed to develop and validate a multimodal deep learning model that integrates clinical and genomic features to predict response to the initial ASM in people with newly diagnosed epilepsy. METHODS: We used data from individuals with newly diagnosed epilepsy in Australia as the development cohort and participants from the Human Epilepsy Project 1 (recruited in the United States, Europe, and Australia) as the external validation cohort. All participants initiated ASM treatment and were followed prospectively for at least 1 year. We included 16 clinical factors and constructed 4 genomic feature types related to epilepsy and ASM pharmacogenomics, with and without functional impact annotations. We evaluated various machine learning architectures and multimodal fusion strategies to predict seizure freedom while taking the initial ASM at 1 year. RESULTS: In the development cohort (n = 286, median age 39 years, 47.2% seizure free), combining clinical and genomic features in our proposed multimodal deep learning model improved predictive performance. The highest area under the receiver operating characteristic curve (AUC) of 0.74 (95% CI 0.70-0.78) was achieved using clinical factors and genomic variants affecting transcription factor binding, significantly outperforming the clinical-only model (AUC 0.67, 95% CI 0.62-0.72; p < 0.05). In the external validation cohort (n = 219, median age 31 years, 20.5% seizure free), the same feature combination achieved an AUC of 0.69 (95% CI 0.67-0.71), higher than the clinical-only model (AUC 0.62, 95% CI 0.60-0.64; p < 0.05). Applying this model to the development cohort, if all participants took the highest ranked ASMs, the mean predicted seizure-free probability would be 68.05% (95% CI 65.79%-70.35%) compared with the observed seizure-free rate of 47.2% (95% CI 41.3%-53.2%). DISCUSSION: Integrating genomic data with clinical features enhances the ability of deep learning models in predicting ASM response in newly diagnosed epilepsy. This approach may support personalized treatment selection and improve clinical outcomes.",
+  "abstract_zh": "背景与目标：癫痫是一种常见的神经系统疾病。尽管抗癫痫发作药物（ASMs）是一线治疗手段，但为每位患者确定最有效的ASM仍是一个试错过程。遗传变异可能影响治疗反应。我们旨在开发并验证一种多模态深度学习模型，该模型整合临床和基因组特征，以预测新诊断癫痫患者对初始ASM的反应。方法：我们使用澳大利亚新诊断癫痫患者的数据作为开发队列，并将人类癫痫项目1（在美国、欧洲和澳大利亚招募）的参与者作为外部验证队列。所有参与者均开始ASM治疗，并前瞻性随访至少1年。我们纳入了16项临床因素，并构建了4种与癫痫和ASM药物基因组学相关的基因组特征类型，其中部分带有功能影响注释。我们评估了多种机器学习架构和多模态融合策略，以预测服用初始ASM一年后达到无发作状态的情况。结果：在开发队列（n = 286，中位年龄39岁，47.2%无发作）中，将临床和基因组特征结合到我们提出的多模态深度学习模型中，提高了预测性能。使用临床因素和影响转录因子结合的基因组变异时，受试者工作特征曲线下面积（AUC）最高达0.74（95% CI 0.70-0.78），显著优于仅使用临床因素的模型（AUC 0.67，95% CI 0.62-0.72；p < 0.05）。在外部验证队列（n = 219，中位年龄31岁，20.5%无发作）中，相同的特征组合实现了AUC 0.69（95% CI 0.67-0.71），高于仅使用临床因素的模型（AUC 0.62，95% CI 0.60-0.64；p < 0.05）。将该模型应用于开发队列，如果所有参与者服用排名最高的ASMs，平均预测无发作概率将为68.05%（95% CI 65.79%-70.35%），而观察到的无发作率为47.2%（95% CI 41.3%-53.2%）。讨论：将基因组数据与临床特征整合，增强了深度学习模型预测新诊断癫痫ASM反应的能力。这种方法可能支持个性化治疗选择，并改善临床结局。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41160788/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41160788/",
+  "paper_page_path": "papers/pubmed/41160788/index.html"
+}

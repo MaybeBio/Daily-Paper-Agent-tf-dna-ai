@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "40832322",
+    "doi": "10.1101/2025.08.17.670761",
+    "title": "Multimodal learning decodes the global binding landscape of chromatin-associated proteins."
+  },
+  "content": {
+    "abstract": "Chromatin-associated proteins (CAPs), including over 1,600 transcription factors, bind directly or indirectly to the genomic DNA to regulate gene expression and determine a myriad of cell types. Mapping their genome-wide binding and co-binding landscape is essential towards a mechanistic understanding of their functions in gene regulation and resulting cellular phenotypes. However, due to the lack of techniques that effectively scale across proteins and biological samples, their genome-wide binding profiles remain challenging to obtain, particularly in primary cells. Here we present Chromnitron, a multimodal foundation model that accurately predicts CAP binding landscapes across hundreds of proteins in unseen cell types. Via in silico perturbation experiments, we show that the model learned principles of CAP binding from multimodal features including DNA sequence motifs, chromatin accessibility levels, and protein functional domains. Applying Chromnitron to study cell fate transitions, we discovered novel CAPs regulating the T cell exhaustion process. Furthermore, Chromnitron can predict the dynamic CAP binding landscapes during development, revealing the global orchestration of protein and regulatory element activities in neurogenesis. We expect Chromnitron to accelerate discovery and engineering in regulatory genomics, particularly in human primary cells, and empower future therapeutic opportunities.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tan, Jimin",
+        "Fu, Xi",
+        "Ling, Xinyu",
+        "Mo, Shentong",
+        "Bai, Jiangshan",
+        "Rabadan, Raul",
+        "Fenyo, David",
+        "Boeke, Jef D",
+        "Tsirigos, Aristotelis",
+        "Xia, Bo"
+      ],
+      "short_names": [
+        "Tan J",
+        "Fu X",
+        "Ling X",
+        "Mo S",
+        "Bai J",
+        "Rabadan R",
+        "Fenyo D",
+        "Boeke JD",
+        "Tsirigos A",
+        "Xia B"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5912-3062",
+        "ORCID: 0000-0001-9835-5018",
+        "ORCID: 0000-0001-9776-6421",
+        "ORCID: 0000-0001-7946-9255",
+        "ORCID: 0000-0001-5322-4946",
+        "ORCID: 0000-0002-7512-8477",
+        "ORCID: 0000-0003-0929-7253"
+      ],
+      "affiliations": [
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Division of Precision Medicine, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Program of Mathematical Genomics, Department of System Biology, Columbia University, New York, NY, USA.",
+        "Department of Biomedical Informatics, Columbia University, New York, NY, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "School of Computer Science, Carnegie Mellon University, Pittsburgh, PA, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Program of Mathematical Genomics, Department of System Biology, Columbia University, New York, NY, USA.",
+        "Department of Biomedical Informatics, Columbia University, New York, NY, USA.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Department of Biomedical Engineering, NYU Tandon School of Engineering, Brooklyn, NY, USA.",
+        "Division of Precision Medicine, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Department of Pathology, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+        "Society of Fellows, Harvard University, Cambridge, MA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tan, Jimin",
+        "short_name": "Tan J",
+        "identifiers": [
+          "0000-0001-5912-3062"
+        ],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+          "Division of Precision Medicine, NYU Grossman School of Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Fu, Xi",
+        "short_name": "Fu X",
+        "identifiers": [
+          "0000-0001-9835-5018"
+        ],
+        "affiliations": [
+          "Program of Mathematical Genomics, Department of System Biology, Columbia University, New York, NY, USA.",
+          "Department of Biomedical Informatics, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Ling, Xinyu",
+        "short_name": "Ling X",
+        "identifiers": [
+          "0000-0001-9776-6421"
+        ],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Mo, Shentong",
+        "short_name": "Mo S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Carnegie Mellon University, Pittsburgh, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Bai, Jiangshan",
+        "short_name": "Bai J",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Rabadán, Raúl",
+        "short_name": "Rabadán R",
+        "identifiers": [
+          "0000-0001-7946-9255"
+        ],
+        "affiliations": [
+          "Program of Mathematical Genomics, Department of System Biology, Columbia University, New York, NY, USA.",
+          "Department of Biomedical Informatics, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Fenyö, David",
+        "short_name": "Fenyö D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+          "Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Boeke, Jef D",
+        "short_name": "Boeke JD",
+        "identifiers": [
+          "0000-0001-5322-4946"
+        ],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+          "Department of Biochemistry and Molecular Pharmacology, NYU Grossman School of Medicine, New York, NY, USA.",
+          "Department of Biomedical Engineering, NYU Tandon School of Engineering, Brooklyn, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Tsirigos, Aristotelis",
+        "short_name": "Tsirigos A",
+        "identifiers": [
+          "0000-0002-7512-8477"
+        ],
+        "affiliations": [
+          "Division of Precision Medicine, NYU Grossman School of Medicine, New York, NY, USA.",
+          "Department of Pathology, NYU Grossman School of Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Xia, Bo",
+        "short_name": "Xia B",
+        "identifiers": [
+          "0000-0003-0929-7253"
+        ],
+        "affiliations": [
+          "Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Institute for Systems Genetics, NYU Grossman School of Medicine, New York, NY, USA.",
+          "Society of Fellows, Harvard University, Cambridge, MA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Aug 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/20 06:32",
+    "fetched_at": "2026-10-01 00:16:46"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41663439",
+      "41606153",
+      "40780181",
+      "39843737",
+      "39818825",
+      "39779956",
+      "39779852",
+      "39567683",
+      "39565202",
+      "39541441",
+      "39486420",
+      "38718835",
+      "38693260",
+      "38262408",
+      "38166256",
+      "37852782",
+      "37824643",
+      "37595022",
+      "37554723",
+      "37443338",
+      "37258680",
+      "36927031",
+      "36719906",
+      "36693380",
+      "36370105",
+      "35817977",
+      "35750052",
+      "34751401",
+      "34608324",
+      "33603233",
+      "33353982",
+      "32728250",
+      "32728244",
+      "31427776",
+      "31375813",
+      "31249361",
+      "31249003",
+      "31209400",
+      "31207605",
+      "31207604",
+      "31207603",
+      "31152140",
+      "30602438",
+      "29425488",
+      "29414259",
+      "29409532",
+      "28079019",
+      "27818507",
+      "26970633",
+      "25693565",
+      "25476604",
+      "25215497",
+      "23467089",
+      "23332764",
+      "22955990",
+      "22955619",
+      "21221095",
+      "21145479",
+      "19736561",
+      "19274049",
+      "18555785",
+      "17627883",
+      "17540862",
+      "16153702",
+      "11237011",
+      "11125145"
+    ],
+    "similar": [
+      "40832322",
+      "41511382",
+      "30598689",
+      "37214836",
+      "32728244",
+      "31510655",
+      "36779711",
+      "33119236",
+      "22955617",
+      "28750606",
+      "33074101",
+      "35293310",
+      "31419979",
+      "37525156",
+      "25433490",
+      "38940155",
+      "33413545",
+      "39803441",
+      "36624151",
+      "41052277",
+      "23595227",
+      "31776829",
+      "27881878",
+      "34544361",
+      "25758823",
+      "31053165",
+      "31136738",
+      "35895229",
+      "27008018",
+      "36777038",
+      "34386808",
+      "39196755",
+      "33637709",
+      "33904398",
+      "39975126",
+      "28902852",
+      "29069282",
+      "21304941",
+      "26890492",
+      "37873361",
+      "31399133",
+      "40964403",
+      "29500235",
+      "28472398",
+      "30279501",
+      "33539668",
+      "41735542",
+      "39253514",
+      "32973041",
+      "37224527",
+      "40131776",
+      "25373146",
+      "41453673",
+      "40633538",
+      "35091346",
+      "35904801",
+      "37595278",
+      "36522450",
+      "33355120",
+      "30721543",
+      "41469554",
+      "39587360",
+      "40011786",
+      "37486787",
+      "22482953",
+      "26083756",
+      "35976093",
+      "40657916",
+      "35252200",
+      "30827930",
+      "37722500",
+      "31345953",
+      "23031785",
+      "35609992",
+      "39138204",
+      "28251877",
+      "25228660",
+      "33788674",
+      "39096085",
+      "31639474",
+      "28334916",
+      "38720070",
+      "33465072",
+      "34488759",
+      "21106904",
+      "25677182",
+      "38966997",
+      "40760451",
+      "27903902",
+      "26818008",
+      "23333102",
+      "34395436",
+      "27456004",
+      "20844575",
+      "25944915",
+      "34255854",
+      "20691053",
+      "26170447",
+      "31533978",
+      "25164749"
+    ],
+    "review": [
+      "40832322",
+      "33119236",
+      "41052277",
+      "39096085"
+    ],
+    "pmc": [
+      "12363962"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40832322/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-325",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.08.17.670761",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

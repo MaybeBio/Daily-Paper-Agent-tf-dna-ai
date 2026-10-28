@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "40750966",
+    "doi": "10.1038/s41598-025-10292-8",
+    "title": "Network pharmacology analyses and corresponding validation of the mechanistic effects of Yangyin Tongnao Granules in ischemic stroke."
+  },
+  "content": {
+    "abstract": "Yangyin Tongnao Granules (YYTN) is a traditional Chinese medicinal prescription that has been proposed to offer value as a treatment for ischemic stroke (IS). The mechanistic basis for its function, however, remains to be established. This study investigates the molecular mechanism of YYTN in treating IS through the HIF-1 signaling pathway. Two databases were accessed to determine the ingredients and targets of YYTN, while genes associated with IS were identified through GeneCards, DisGeNET, and Drugbank. Protein-protein interaction (PPI) analyses were conducted in Cytoscape. GO and KEGG analyses were performed in R4.2.3 and used to clarify the functions of particular genes and associated signaling pathways. Core targets associated with YYTN and IS were analyzed through molecular docking analyses. Corresponding analyses of associated genes and proteins of interest were then conducted in a rat model of cerebral ischemia using techniques including ELISAs, Western immunoblotting, immunohistochemistry and qPCR. YYTN was found to contain 150 active compounds, among which the core compounds were 3,9-di-O-methylnissolin, vallesiachotamine, and chrysotoxine. The most important targets of YYTN in the context of treating IS were identified as SRC, PIK3R1, and STAT3. The GO terms (biological process, cellular component, and molecular function) most closely associated with the action of YYTN were positive regulation of the MAPK cascade, membrane raft, and transmembrane receptor protein tyrosine kinase activity, respectively. The HIF-1 pathway was one of the top 15 most enriched KEGG pathways, with this pathway being associated with HIF-1alpha, VEGFA, and PAI-1. In molecular docking analyses, tested targets exhibited stable binding. Experimental analyses provided potential support for the ability of YYTN to exert beneficial therapeutic effects in IS through increases in HIF-1alpha levels in the brain tissue together upregulation of VEGFA and downregulation of PAI-1. These results provided support for the above network pharmacology analyses, confirming that YYTN is capable of impacting HIF-1alpha, VEGFA, and PAI-1 expression while also altering the activity of the HIF-1 signaling pathway. These results offer support for the network pharmacology results, demonstrating the ability of YYTN to exert therapeutic benefits in IS by modulating HIF-1alpha, VEGFA, and PAI-1 gene and protein expression.",
+    "keywords": [
+      "Experimental validation",
+      "HIF-1 signaling pathway",
+      "Ischemic stroke",
+      "Molecular docking",
+      "Network pharmacology",
+      "Yangyin Tongnao Granules"
+    ],
+    "mesh_terms": [
+      "*Drugs, Chinese Herbal/pharmacology/chemistry/therapeutic use",
+      "Animals",
+      "*Network Pharmacology/methods",
+      "Rats",
+      "*Ischemic Stroke/drug therapy/metabolism/genetics/pathology",
+      "Molecular Docking Simulation",
+      "Protein Interaction Maps/drug effects",
+      "Signal Transduction/drug effects",
+      "Male",
+      "Rats, Sprague-Dawley",
+      "Disease Models, Animal",
+      "Hypoxia-Inducible Factor 1, alpha Subunit/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Jiaying",
+        "Chen, Qianqian",
+        "Dou, Xiaotong",
+        "Zhu, Rongjin",
+        "Yang, Jiehong",
+        "Jin, Weifeng",
+        "Wan, Haitong",
+        "Yu, Li",
+        "Zhang, Yangyang"
+      ],
+      "short_names": [
+        "Yu J",
+        "Chen Q",
+        "Dou X",
+        "Zhu R",
+        "Yang J",
+        "Jin W",
+        "Wan H",
+        "Yu L",
+        "Zhang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Hangzhou TCM Hospital of Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, China.",
+        "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, China.",
+        "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, China.",
+        "Meridians Research Center, Institute of Acupuncture and Moxibustion, China Academy of Chinese Medical Sciences, Beijing, 100000, Beijing, China.",
+        "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, China.",
+        "Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, 310053, Zhejiang, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, China.",
+        "Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, 310053, Zhejiang, China.",
+        "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, China. wanhaitong@zcmu.edu.cn.",
+        "Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, 310053, Zhejiang, China. wanhaitong@zcmu.edu.cn.",
+        "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, China. yuli9119@126.com.",
+        "Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, 310053, Zhejiang, China. yuli9119@126.com.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, China. zyy950909@126.com.",
+        "Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, 310053, Zhejiang, China. zyy950909@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Jiaying",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou TCM Hospital of Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Qianqian",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Dou, Xiaotong",
+        "short_name": "Dou X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Rongjin",
+        "short_name": "Zhu R",
+        "identifiers": [],
+        "affiliations": [
+          "Meridians Research Center, Institute of Acupuncture and Moxibustion, China Academy of Chinese Medical Sciences, Beijing, 100000, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jiehong",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, China.",
+          "Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, 310053, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Weifeng",
+        "short_name": "Jin W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, China.",
+          "Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, 310053, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wan, Haitong",
+        "short_name": "Wan H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, China. wanhaitong@zcmu.edu.cn.",
+          "Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, 310053, Zhejiang, China. wanhaitong@zcmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yu, Li",
+        "short_name": "Yu L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, China. yuli9119@126.com.",
+          "Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, 310053, Zhejiang, China. yuli9119@126.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yangyang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou, 310053, Zhejiang, China. zyy950909@126.com.",
+          "Zhejiang Key Laboratory of Chinese Medicine for Cardiovascular and Cerebrovascular Disease, Hangzhou, 310053, Zhejiang, China. zyy950909@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Aug 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/02 10:44",
+    "fetched_at": "2026-09-30 22:50:42"
+  },
+  "links": {
+    "cites": [
+      "42112584"
+    ],
+    "refs": [
+      "39417505",
+      "36368566",
+      "35660649",
+      "35547748",
+      "35484204",
+      "35142404",
+      "35132912",
+      "35122213",
+      "34278794",
+      "34239758",
+      "33881715",
+      "32848794",
+      "32417803",
+      "31860206",
+      "31441146",
+      "31006100",
+      "30106145",
+      "28154097",
+      "27804870",
+      "25355838",
+      "24099156",
+      "23935865",
+      "22233886",
+      "21132271",
+      "15531085",
+      "14696674",
+      "10592173"
+    ],
+    "similar": [
+      "40750966",
+      "39066538",
+      "37080367",
+      "39714965",
+      "39805787",
+      "39303966",
+      "40350911",
+      "41346967",
+      "39923957",
+      "41473244",
+      "40935210",
+      "39004032",
+      "38759074",
+      "37287284",
+      "40172736",
+      "39343107",
+      "38551603",
+      "32315738",
+      "38623977",
+      "35097126",
+      "41316260",
+      "40682944",
+      "37190808",
+      "40350824",
+      "39522841",
+      "37807411",
+      "34746302",
+      "40858065",
+      "34873575",
+      "39726005",
+      "33082911",
+      "38243958",
+      "36280016",
+      "39177391",
+      "38696100",
+      "39928767",
+      "39311772",
+      "39075002",
+      "38812235",
+      "38619514",
+      "34522084",
+      "33771638",
+      "38910191",
+      "36272491",
+      "41261616",
+      "39809170",
+      "38697555",
+      "37201662",
+      "40032209",
+      "34889224",
+      "39701711",
+      "40593998",
+      "36604920",
+      "41015806",
+      "41418734",
+      "38723920",
+      "38822913",
+      "40574364",
+      "40388786",
+      "41431016",
+      "37802815",
+      "41137226",
+      "34302817",
+      "37340752",
+      "39387049",
+      "39076092",
+      "38775721",
+      "38571354",
+      "39074420",
+      "33023593",
+      "34660782",
+      "39244670",
+      "39259129",
+      "39066540",
+      "37499457",
+      "38916485",
+      "33313323",
+      "34753385",
+      "39565454",
+      "33645090",
+      "39617073",
+      "39095732",
+      "37929726",
+      "40570565",
+      "39041138",
+      "38845538",
+      "40580693",
+      "34848358",
+      "39735336",
+      "40225864",
+      "39041167",
+      "39470475",
+      "38757315",
+      "39099351",
+      "36604893",
+      "34582494",
+      "40420737",
+      "40819186",
+      "41489113",
+      "39410900"
+    ],
+    "review": [
+      "40750966"
+    ],
+    "pmc": [
+      "12316888"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ischemicstroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ischemic Stroke"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-10292-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40750966/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1539",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

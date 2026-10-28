@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42151513",
+  "title": "An explainable AI framework integrating machine and deep learning models for multi-species DNA functional group classification.",
+  "authors": "Chakraborty, Pratik; Shanthi, P B",
+  "journal": "Scientific reports",
+  "published_date": "2026-05-19",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用可解释AI框架对多物种DNA序列进行功能基因家族（含转录因子）分类，但仅基于序列k-mer统计，未涉及三维互作建模或结合机制，方法可迁移但深度不足。",
+  "abstract": "DNA functional group classification across species plays a crucial role in understanding genetic diversity, evolutionary relationships and biological function. The increasing availability of genomic data has led to the use of machine learning and deep learning methods for identifying functional patterns within DNA sequences. However, the interpretability of these models remains a challenge in validating biological relevance. This study presents an explainable AI framework that integrates machine learning and deep learning models for multi-species DNA functional group classification. The functional groups represent gene families, including transcription factors and kinases, and the classification task is carried out on Human, Chimpanzee, Dog, and a custom Combined dataset merging sequences from all three species. The DNA sequences were transformed into k-mers to capture local compositional patterns before training. Following a controlled hyperparameter tuning strategy, the Logistic Regression model consistently achieved the highest MCC and F1-scores across all evaluated datasets. While deep learning architectures captured longer motif dependencies, classical models showed stronger generalization across species. A multi-level XAI analysis was conducted using techniques such as Feature Importance, Saliency Maps, Integrated Gradients, GradientSHAP, and Attention Heatmaps. The analysis identified consensus motifs, cross-dataset and cross-model motif patterns, and evaluated model stability based on motif overlap and Jaccard similarity, as well as model fidelity based on performance drops after masking model-identified motifs.",
+  "abstract_zh": "跨物种的DNA功能组分类在理解遗传多样性、进化关系和生物学功能中起着至关重要的作用。基因组数据日益丰富，促使人们采用机器学习和深度学习方法识别DNA序列中的功能模式。然而，这些模型的可解释性在验证生物学相关性方面仍是一个挑战。本研究提出了一种可解释的人工智能框架，整合机器学习和深度学习模型，用于多物种DNA功能组分类。功能组代表基因家族，包括转录因子和激酶，分类任务在人类、黑猩猩、狗以及一个自定义的合并数据集（融合了所有三个物种的序列）上进行。DNA序列在训练前被转换为k-mer，以捕捉局部组成模式。在受控的超参数调优策略下，逻辑回归模型在所有评估数据集中始终获得最高的MCC和F1分数。虽然深度学习架构捕捉了更长的基序依赖性，但经典模型在跨物种泛化方面表现更强。采用特征重要性、显著性图、积分梯度、GradientSHAP和注意力热图等技术进行了多层次XAI分析。分析识别了共识基序、跨数据集和跨模型的基序模式，并基于基序重叠和Jaccard相似性评估了模型稳定性，以及基于掩蔽模型识别基序后性能下降评估了模型保真度。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42151513/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42151513/",
+  "paper_page_path": "papers/pubmed/42151513/index.html"
+}

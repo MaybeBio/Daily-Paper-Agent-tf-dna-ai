@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "41136530",
+    "doi": "10.1038/s41598-025-21275-0",
+    "title": "Machine learning identifies exosome related gene signatures for early prediction of non-small cell lung cancer."
+  },
+  "content": {
+    "abstract": "Non-small cell lung cancer (NSCLC) remains a major health challenge worldwide, mainly due to the lack of effective early diagnostic biomarkers. Exosome-related genes have recently emerged as potential diagnostic markers due to their roles in tumor progression and immune regulation. This study aimed to identify exosome-related gene signatures as early predictive biomarkers for NSCLC and evaluate their diagnostic and therapeutic significance. We integrated gene expression data from GEO and TCGA databases. Core ExoNSCLC-DEGs were identified using three machine learning methods to construct a NSCLC diagnostic model, and the model was validated using ROC curves, calibration curves, and DCA curves. In addition, immune infiltration analysis, drug enrichment, molecular docking analysis, and regulatory network analysis further explored the potential mechanism of action of ExoNSCLC-DEGs. qRT-PCR experiments verified the reliability of gene expression. We constructed a diagnostic model consisting of six core ExoNSCLC-DEGs (including GPM6A, HYAL1, S100A4, ROBO4, LRRK2, and HBA1). The diagnostic model showed excellent predictive performance in independent cohorts (AUC > 0.98). The calibration curve and DCA curve demonstrated the clinical applicability of the model. Immune infiltration analysis revealed the potential immune effects of some ExoNSCLC-DEGs genes, such as S100A4 and LRRK2, which may play a key role in tumor immune escape. Drug enrichment analysis predicted potential therapeutic compounds, especially sunitinib targeting LRRK2. The regulatory network further identified the key RNA-binding proteins and transcription factors that regulate these biomarkers. qRT-PCR experiments verified the reliability of the expression of ExoNSCLC-DEGs in bioinformatics analysis. The diagnostic model based on the six ExoNSCLC-DEGs has strong diagnostic performance and clinical applicability. In-depth research on ExoNSCLC-DEGs provides new insights into the pathogenesis of NSCLC and provides new directions for subsequent research.",
+    "keywords": [
+      "Diagnostic biomarkers",
+      "Exosomes",
+      "Immune infiltration",
+      "Machine learning",
+      "Molecular docking",
+      "Non-small cell lung cancer"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung/diagnosis/drug therapy/genetics",
+      "*Lung Neoplasms/diagnosis/drug therapy/genetics",
+      "Biomarkers, Tumor",
+      "*Exosomes/genetics",
+      "Gene Expression Profiling",
+      "Molecular Docking Simulation",
+      "Antineoplastic Agents/chemistry",
+      "Gene Regulatory Networks",
+      "RNA-Binding Proteins/analysis",
+      "Transcription Factors/analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zeng, Lin",
+        "Zhao, Guifang",
+        "Yao, Weirong",
+        "Mao, Zhifang",
+        "Wang, Qin",
+        "Hu, Xia"
+      ],
+      "short_names": [
+        "Zeng L",
+        "Zhao G",
+        "Yao W",
+        "Mao Z",
+        "Wang Q",
+        "Hu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oncology, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, No. 152 Aiguo Road, Donghu District, Nanchang, 330006, China.",
+        "Department of Oncology, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, No. 152 Aiguo Road, Donghu District, Nanchang, 330006, China.",
+        "Department of Oncology, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, No. 152 Aiguo Road, Donghu District, Nanchang, 330006, China.",
+        "Department of Oncology, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, No. 152 Aiguo Road, Donghu District, Nanchang, 330006, China.",
+        "Department of Oncology, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, No. 152 Aiguo Road, Donghu District, Nanchang, 330006, China.",
+        "Department of Oncology, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, No. 152 Aiguo Road, Donghu District, Nanchang, 330006, China. 13755796917@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zeng, Lin",
+        "short_name": "Zeng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, No. 152 Aiguo Road, Donghu District, Nanchang, 330006, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Guifang",
+        "short_name": "Zhao G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, No. 152 Aiguo Road, Donghu District, Nanchang, 330006, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Weirong",
+        "short_name": "Yao W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, No. 152 Aiguo Road, Donghu District, Nanchang, 330006, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Zhifang",
+        "short_name": "Mao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, No. 152 Aiguo Road, Donghu District, Nanchang, 330006, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qin",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, No. 152 Aiguo Road, Donghu District, Nanchang, 330006, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xia",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, No. 152 Aiguo Road, Donghu District, Nanchang, 330006, China. 13755796917@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Oct 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/25 00:30",
+    "fetched_at": "2026-10-01 04:38:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40475773",
+      "39991629",
+      "39931528",
+      "39891203",
+      "39817679",
+      "39580524",
+      "39558165",
+      "39478574",
+      "39329746",
+      "38862989",
+      "38694786",
+      "38636528",
+      "38562933",
+      "38480884",
+      "38420161",
+      "38382806",
+      "37994677",
+      "37844378",
+      "37733320",
+      "37122754",
+      "36973439",
+      "36741391",
+      "36653597",
+      "36423787",
+      "36370151",
+      "36200042",
+      "35935989",
+      "35609983",
+      "35571530",
+      "35351463",
+      "34557778",
+      "34313548",
+      "33901610",
+      "33122306",
+      "32581652",
+      "31605750",
+      "31160487",
+      "29880849",
+      "29155626",
+      "29087512",
+      "28851962",
+      "28129527",
+      "28002496",
+      "27856179",
+      "27322403",
+      "27297049",
+      "25990557",
+      "25985394",
+      "25846097",
+      "24706787",
+      "24297251",
+      "24048123",
+      "22635005",
+      "21159633",
+      "10592235"
+    ],
+    "similar": [
+      "41136530",
+      "37387637",
+      "40595797",
+      "41442003",
+      "39108112",
+      "39797413",
+      "40374866",
+      "40860289",
+      "41052072",
+      "39341981",
+      "41198554",
+      "31746439",
+      "39375405",
+      "41169155",
+      "32969465",
+      "40616392",
+      "41479901",
+      "41200172",
+      "39139563",
+      "39945271",
+      "40475773",
+      "40313958",
+      "40595823",
+      "36202977",
+      "39071134",
+      "41188996",
+      "41214111",
+      "41394854",
+      "41316541",
+      "41085960",
+      "41342434",
+      "38863714",
+      "38650009",
+      "31127628",
+      "41300841",
+      "36628881",
+      "41405767",
+      "34536521",
+      "41080564",
+      "41299753",
+      "31805030",
+      "34855841",
+      "41146237",
+      "41190071",
+      "40374840",
+      "38696317",
+      "37841237",
+      "31146974",
+      "39789578",
+      "41367897",
+      "39074893",
+      "41320661",
+      "40092988",
+      "33505535",
+      "40093012",
+      "36368285",
+      "40826767",
+      "40078458",
+      "40390034",
+      "40251360",
+      "40340571",
+      "35607647",
+      "34749208",
+      "40362543",
+      "41500779",
+      "41132349",
+      "41221287",
+      "33153411",
+      "39707377",
+      "39509434",
+      "40355485",
+      "39559355",
+      "39295860",
+      "41137290",
+      "34522968",
+      "35576491",
+      "36627660",
+      "40594252",
+      "40997906",
+      "35313857",
+      "40328901",
+      "39109577",
+      "40500570",
+      "41409278",
+      "32048869",
+      "34931870",
+      "32059076",
+      "40496857",
+      "41132669",
+      "40595076",
+      "40967560",
+      "39142001",
+      "37938194",
+      "40260244",
+      "40165133",
+      "40273141",
+      "41220724",
+      "38371524",
+      "39512836",
+      "31775549"
+    ],
+    "review": [
+      "41136530",
+      "40390034"
+    ],
+    "pmc": [
+      "12552535"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-21275-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41136530/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-S100A4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1129",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

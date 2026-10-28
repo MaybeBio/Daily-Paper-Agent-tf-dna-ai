@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "40402396",
+    "doi": "10.1186/s40529-025-00462-2",
+    "title": "Analysing protein complexes in plant science: insights and limitation with AlphaFold 3."
+  },
+  "content": {
+    "abstract": "AlphaFold 3 (AF3), an artificial intelligence (AI)-based software for protein complex structure prediction, represents a significant advancement in structural biology. Its flexibility and enhanced scalability have unlocked new applications in various fields, specifically in plant science, including improving crop resilience and predicting the structures of plant-specific proteins involved in stress responses, signalling pathways, and immune responses. Comparisons with existing tools, such as ClusPro and AlphaPulldown, highlight AF3's unique strengths in sequence-based interaction predictions and its greater adaptability to various biomolecular structures. However, limitations persist, including challenges in modelling large complexes, protein dynamics, and structures from underrepresented plant proteins with limited evolutionary data. Additionally, AF3 encounters difficulties in predicting mutation effects on protein interactions and DNA binding, which can be improved with molecular dynamics and experimental validation. This review presents an overview of AF3's advancements, using examples in plant and fungal research, and comparisons with existing tools. It also discusses current limitations and offers perspectives on integrating molecular dynamics and experimental validation to enhance its capabilities.",
+    "keywords": [
+      "AlphaFold 3",
+      "Crop resilience",
+      "Protein complex",
+      "Protein structure",
+      "Protein-protein interaction",
+      "Structure biology"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Pei-Yu",
+        "Huang, Shiang-Chin",
+        "Chen, Kuan-Lin",
+        "Huang, Yu-Chun",
+        "Liao, Chia-Yu",
+        "Lin, Guan-Jun",
+        "Lee, HueyTyng",
+        "Chen, Pao-Yang"
+      ],
+      "short_names": [
+        "Lin PY",
+        "Huang SC",
+        "Chen KL",
+        "Huang YC",
+        "Liao CY",
+        "Lin GJ",
+        "Lee H",
+        "Chen PY"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7402-3075"
+      ],
+      "affiliations": [
+        "Institute of Plant and Microbial Biology, Academia Sinica, Taipei, 115, Taiwan.",
+        "Institute of Plant and Microbial Biology, Academia Sinica, Taipei, 115, Taiwan.",
+        "Institute of Plant Biology, National Taiwan University, Taipei, 106, Taiwan.",
+        "Institute of Plant and Microbial Biology, Academia Sinica, Taipei, 115, Taiwan.",
+        "Institute of Plant and Microbial Biology, Academia Sinica, Taipei, 115, Taiwan.",
+        "Bioinformatics Program, Institute of Statistical Science, Taiwan International Graduate Program, Academia Sinica, Taipei, 115, Taiwan.",
+        "Bioinformatics Program, Taiwan International Graduate Program, National Taiwan University, Taipei, 115, Taiwan.",
+        "Institute of Plant and Microbial Biology, Academia Sinica, Taipei, 115, Taiwan.",
+        "Institute of Plant and Microbial Biology, Academia Sinica, Taipei, 115, Taiwan.",
+        "Genome and Systems Biology Degree Program, Academia Sinica and National Taiwan University, Taipei, 115, Taiwan.",
+        "Institute of Plant and Microbial Biology, Academia Sinica, Taipei, 115, Taiwan.",
+        "Institute of Plant and Microbial Biology, Academia Sinica, Taipei, 115, Taiwan. paoyang@gate.sinica.edu.tw.",
+        "Bioinformatics Program, Institute of Statistical Science, Taiwan International Graduate Program, Academia Sinica, Taipei, 115, Taiwan. paoyang@gate.sinica.edu.tw.",
+        "Genome and Systems Biology Degree Program, Academia Sinica and National Taiwan University, Taipei, 115, Taiwan. paoyang@gate.sinica.edu.tw."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Pei-Yu",
+        "short_name": "Lin PY",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Plant and Microbial Biology, Academia Sinica, Taipei, 115, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Huang, Shiang-Chin",
+        "short_name": "Huang SC",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Plant and Microbial Biology, Academia Sinica, Taipei, 115, Taiwan.",
+          "Institute of Plant Biology, National Taiwan University, Taipei, 106, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chen, Kuan-Lin",
+        "short_name": "Chen KL",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Plant and Microbial Biology, Academia Sinica, Taipei, 115, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Huang, Yu-Chun",
+        "short_name": "Huang YC",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Plant and Microbial Biology, Academia Sinica, Taipei, 115, Taiwan.",
+          "Bioinformatics Program, Institute of Statistical Science, Taiwan International Graduate Program, Academia Sinica, Taipei, 115, Taiwan.",
+          "Bioinformatics Program, Taiwan International Graduate Program, National Taiwan University, Taipei, 115, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Liao, Chia-Yu",
+        "short_name": "Liao CY",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Plant and Microbial Biology, Academia Sinica, Taipei, 115, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lin, Guan-Jun",
+        "short_name": "Lin GJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Plant and Microbial Biology, Academia Sinica, Taipei, 115, Taiwan.",
+          "Genome and Systems Biology Degree Program, Academia Sinica and National Taiwan University, Taipei, 115, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lee, HueyTyng",
+        "short_name": "Lee H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Plant and Microbial Biology, Academia Sinica, Taipei, 115, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chen, Pao-Yang",
+        "short_name": "Chen PY",
+        "identifiers": [
+          "0000-0002-7402-3075"
+        ],
+        "affiliations": [
+          "Institute of Plant and Microbial Biology, Academia Sinica, Taipei, 115, Taiwan. paoyang@gate.sinica.edu.tw.",
+          "Bioinformatics Program, Institute of Statistical Science, Taiwan International Graduate Program, Academia Sinica, Taipei, 115, Taiwan. paoyang@gate.sinica.edu.tw.",
+          "Genome and Systems Biology Degree Program, Academia Sinica and National Taiwan University, Taipei, 115, Taiwan. paoyang@gate.sinica.edu.tw."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Botanical studies"
+    ],
+    "journal_abbrev": [
+      "Bot Stud"
+    ],
+    "pub_date": "2025 May 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/22 12:31",
+    "fetched_at": "2026-10-05 03:51:35"
+  },
+  "links": {
+    "cites": [
+      "42439278",
+      "42309597",
+      "42304218",
+      "42206050",
+      "41886365",
+      "41870679",
+      "41851984",
+      "41752610",
+      "41575723",
+      "41439253",
+      "41263033",
+      "41097074",
+      "40941257"
+    ],
+    "refs": [
+      "39565202",
+      "39444187",
+      "39362060",
+      "39116039",
+      "39092344",
+      "38886381",
+      "38774441",
+      "38718835",
+      "38385879",
+      "38225382",
+      "37996753",
+      "37933859",
+      "37536953",
+      "36928239",
+      "36794205",
+      "36564947",
+      "36413069",
+      "36344848",
+      "36316397",
+      "36011253",
+      "35793637",
+      "35679397",
+      "35647916",
+      "35545668",
+      "35273146",
+      "35202686",
+      "34265844",
+      "33846299",
+      "32881105",
+      "32649857",
+      "31992813",
+      "29358381",
+      "28102674",
+      "28079879",
+      "27964945",
+      "27936493",
+      "26841758",
+      "24381236",
+      "23996272",
+      "23053206",
+      "22947645",
+      "22859501",
+      "21918110",
+      "21884974",
+      "21041664",
+      "20180275",
+      "20021687",
+      "19958515",
+      "19809588",
+      "19507241",
+      "19458158",
+      "18045787",
+      "16211538",
+      "15980494",
+      "12899620",
+      "12610572",
+      "12150929",
+      "12150928",
+      "11104519",
+      "10592235",
+      "10339579",
+      "8940048",
+      "8003690",
+      "6285364"
+    ],
+    "similar": [
+      "40402396",
+      "42475469",
+      "39116039",
+      "38883239",
+      "23912807",
+      "42763122",
+      "40610378",
+      "39970826",
+      "41088961",
+      "42027778",
+      "41142756",
+      "40398752",
+      "41209584",
+      "40423839",
+      "40387957",
+      "41055214",
+      "41313605",
+      "42509551",
+      "41113973",
+      "41326937",
+      "40973394",
+      "40332289",
+      "41886365",
+      "40195117",
+      "39444187",
+      "41863177",
+      "40121710",
+      "41174317",
+      "42425235",
+      "39379372",
+      "41495882",
+      "39824781",
+      "40687999",
+      "40950156",
+      "39936575",
+      "40553326",
+      "40661027",
+      "39740355",
+      "42511621",
+      "35769913",
+      "39643640",
+      "38124369",
+      "36413069",
+      "42055456",
+      "41878008",
+      "40857166",
+      "39125995",
+      "42681357",
+      "38955920",
+      "35976160",
+      "41866241",
+      "39591473",
+      "36382391",
+      "40424178",
+      "41910880",
+      "38545599",
+      "42391906",
+      "40919100",
+      "40320311",
+      "40658102",
+      "41781721",
+      "36539305",
+      "40166350",
+      "40233800",
+      "42709227",
+      "38718835",
+      "36275618",
+      "38177398",
+      "42693924",
+      "41627746",
+      "39941016",
+      "41671243",
+      "40305228",
+      "27499678",
+      "42310771",
+      "38352360",
+      "42093884",
+      "42018649",
+      "40133787",
+      "36304287",
+      "40541232",
+      "39995900",
+      "41283644",
+      "41831109",
+      "40987097",
+      "41863075",
+      "40961942",
+      "42592200",
+      "39313455",
+      "41851984",
+      "40240260",
+      "38869513",
+      "36576775",
+      "40727428",
+      "39369244",
+      "40441539",
+      "42196328",
+      "42206050",
+      "42225645",
+      "38761500"
+    ],
+    "review": [
+      "40402396",
+      "42763122",
+      "39970826",
+      "41088961",
+      "42027778",
+      "40398752",
+      "41209584",
+      "40423839",
+      "40387957",
+      "41326937",
+      "40973394",
+      "40332289",
+      "41886365",
+      "40195117",
+      "39444187",
+      "41863177",
+      "40121710",
+      "42425235",
+      "39824781",
+      "40687999",
+      "39936575",
+      "39740355",
+      "38124369",
+      "42055456",
+      "41878008",
+      "39125995",
+      "38955920",
+      "35976160",
+      "41866241",
+      "36382391",
+      "41910880",
+      "42391906",
+      "40320311",
+      "41781721",
+      "40233800",
+      "42709227",
+      "36275618",
+      "38177398",
+      "41671243",
+      "40305228",
+      "42310771",
+      "42018649",
+      "40541232",
+      "39995900",
+      "41283644",
+      "40987097",
+      "42592200",
+      "39313455",
+      "41851984",
+      "40240260",
+      "40727428",
+      "40441539",
+      "42196328",
+      "42206050",
+      "38761500"
+    ],
+    "pmc": [
+      "12098255"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40402396/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1186/s40529-025-00462-2",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

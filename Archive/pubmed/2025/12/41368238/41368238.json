@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "41368238",
+    "doi": "10.21037/tau-2025-519",
+    "title": "Investigating key genes and molecular mechanisms of prostate cancer and coronary heart disease through transcriptomics and experimental validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Prostate cancer (PC), a common male urogenital malignancy, and coronary heart disease (CHD), a cardiovascular disease from coronary lesions causing myocardial ischemia, interact in comorbidity. This study integrated their transcriptome data to reveal comorbid mechanisms and develop cross-disease targets. METHODS: In this research, candidate genes were derived from differential analysis and intersection analysis. Subsequently, machine learning algorithms were integrated with receiver operating characteristic (ROC) curve assessment and expression confirmation to identify key genes. Nomograms were further constructed, and analyses were carried out on the subcellular and chromosomal localization, enrichment pathways, molecular regulatory networks, and immune infiltration of these key genes. Potential drugs were predicted and molecular docking was performed. Ultimately, to confirm whether the expression patterns of key genes in clinical samples aligned with the bioinformatics analysis results, reverse transcription quantitative polymerase chain reaction (RT-qPCR) was conducted. RESULTS: A total of 84 candidate genes were identified using bioinformatics approaches in this study. Through machine learning and validation with multiple datasets, ADD3 and ATP2B4 were identified as key genes, with good predictive performance. ADD3 is located on chromosome 10, and ATP2B4 is on chromosome 1. Both are distributed in the cell nucleus and are mainly enriched in ribosomes, ubiquitin-mediated protein degradation, and cancer-related pathways. ADD3 is associated with 21 micro RNAs (miRNAs) and 4 transcription factors (TFs), while ATP2B4 is associated with 11 miRNAs and 6 TFs. They are also involved in immune cell regulation. The study predicted 22 drugs, and molecular docking confirmed that they stably bound with potential drugs (e.g., DL-175) (docking score </=-5 kcal/moL). RT-qPCR results were consistent with bioinformatics analyses (P<0.05). CONCLUSIONS: This study determined the key genes related to PC and CHD, providing new bases and targets for diagnosis, treatment, and drug development.",
+    "keywords": [
+      "Prostate cancer (PC)",
+      "coronary heart disease (CHD)",
+      "gene set enrichment analysis",
+      "immune infiltration analysis",
+      "molecular regulatory network"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Ning",
+        "Gu, Hongchang",
+        "Qi, Zuo",
+        "Zhao, Zhiqiang",
+        "Cheng, Lijun",
+        "Wang, Yong",
+        "Liu, Zihao",
+        "Liu, Tong"
+      ],
+      "short_names": [
+        "Wu N",
+        "Gu H",
+        "Qi Z",
+        "Zhao Z",
+        "Cheng L",
+        "Wang Y",
+        "Liu Z",
+        "Liu T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0776-9010"
+      ],
+      "affiliations": [
+        "Tianjin Key Laboratory of Ionic-Molecular Function of Cardiovascular Disease, Department of Cardiology, Tianjin Institute of Cardiology, The Second Hospital of Tianjin Medical University, Tianjin, China.",
+        "Department of Cardiology, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Science, Xiangyang, China.",
+        "Tianjin Key Laboratory of Ionic-Molecular Function of Cardiovascular Disease, Department of Cardiology, Tianjin Institute of Cardiology, The Second Hospital of Tianjin Medical University, Tianjin, China.",
+        "Tianjin Key Laboratory of Ionic-Molecular Function of Cardiovascular Disease, Department of Cardiology, Tianjin Institute of Cardiology, The Second Hospital of Tianjin Medical University, Tianjin, China.",
+        "Tianjin Key Laboratory of Ionic-Molecular Function of Cardiovascular Disease, Department of Cardiology, Tianjin Institute of Cardiology, The Second Hospital of Tianjin Medical University, Tianjin, China.",
+        "Department of Urology, The Second Hospital of Tianjin Medical University, Tianjin, China.",
+        "Tianjin Institute of Urology, The Second Hospital of Tianjin Medical University, Tianjin, China.",
+        "Department of Urology, The Second Hospital of Tianjin Medical University, Tianjin, China.",
+        "Tianjin Institute of Urology, The Second Hospital of Tianjin Medical University, Tianjin, China.",
+        "School of Pharmaceutical Science and Technology, Tianjin University, Tianjin, China.",
+        "Tianjin Key Laboratory of Ionic-Molecular Function of Cardiovascular Disease, Department of Cardiology, Tianjin Institute of Cardiology, The Second Hospital of Tianjin Medical University, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Ning",
+        "short_name": "Wu N",
+        "identifiers": [
+          "0000-0002-0776-9010"
+        ],
+        "affiliations": [
+          "Tianjin Key Laboratory of Ionic-Molecular Function of Cardiovascular Disease, Department of Cardiology, Tianjin Institute of Cardiology, The Second Hospital of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Hongchang",
+        "short_name": "Gu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Science, Xiangyang, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Zuo",
+        "short_name": "Qi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Ionic-Molecular Function of Cardiovascular Disease, Department of Cardiology, Tianjin Institute of Cardiology, The Second Hospital of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zhiqiang",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Ionic-Molecular Function of Cardiovascular Disease, Department of Cardiology, Tianjin Institute of Cardiology, The Second Hospital of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Lijun",
+        "short_name": "Cheng L",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Ionic-Molecular Function of Cardiovascular Disease, Department of Cardiology, Tianjin Institute of Cardiology, The Second Hospital of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yong",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Hospital of Tianjin Medical University, Tianjin, China.",
+          "Tianjin Institute of Urology, The Second Hospital of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zihao",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Second Hospital of Tianjin Medical University, Tianjin, China.",
+          "Tianjin Institute of Urology, The Second Hospital of Tianjin Medical University, Tianjin, China.",
+          "School of Pharmaceutical Science and Technology, Tianjin University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Tong",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Ionic-Molecular Function of Cardiovascular Disease, Department of Cardiology, Tianjin Institute of Cardiology, The Second Hospital of Tianjin Medical University, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational andrology and urology"
+    ],
+    "journal_abbrev": [
+      "Transl Androl Urol"
+    ],
+    "pub_date": "2025 Nov 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/10 06:28",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [
+      "42136725"
+    ],
+    "refs": [
+      "40979549",
+      "40956375",
+      "40790183",
+      "40488965",
+      "40356946",
+      "40283147",
+      "40027501",
+      "39596398",
+      "39506079",
+      "39344484",
+      "38842801",
+      "38650009",
+      "38638042",
+      "38600368",
+      "38597132",
+      "38436904",
+      "38059343",
+      "37202314",
+      "37190244",
+      "37108147",
+      "37096582",
+      "36919162",
+      "36849945",
+      "36791755",
+      "36788639",
+      "36458973",
+      "36091107",
+      "36071171",
+      "36032081",
+      "35875070",
+      "35751589",
+      "35472648",
+      "35470648",
+      "35134514",
+      "35029872",
+      "34880489",
+      "34859687",
+      "34799426",
+      "34632867",
+      "34572433",
+      "34557778",
+      "34439099",
+      "34069669",
+      "33150144",
+      "32814370",
+      "32661390",
+      "32042311",
+      "32002807",
+      "31107565",
+      "29862265",
+      "29773813",
+      "29508064",
+      "28559142",
+      "28316063",
+      "27927653",
+      "27520114",
+      "27016606",
+      "25605792",
+      "25063298",
+      "23444010",
+      "23323831",
+      "21531065",
+      "21414208",
+      "21269502",
+      "19541911"
+    ],
+    "similar": [
+      "41368238",
+      "40442788",
+      "40916281",
+      "40406620",
+      "41479901",
+      "40927188",
+      "41340627",
+      "40332792",
+      "41378129",
+      "39142001",
+      "41195206",
+      "40176795",
+      "41200172",
+      "41052072",
+      "41299770",
+      "40475761",
+      "40196107",
+      "38863714",
+      "38144565",
+      "41342434",
+      "41350331",
+      "41120603",
+      "41261566",
+      "39586719",
+      "38629070",
+      "40895068",
+      "40913866",
+      "34218797",
+      "41334450",
+      "40918403",
+      "41069939",
+      "39139563",
+      "40216809",
+      "41080564",
+      "39975557",
+      "41288681",
+      "41013856",
+      "40374840",
+      "40406126",
+      "41354822",
+      "39713769",
+      "40024299",
+      "40791849",
+      "40425742",
+      "41132349",
+      "41371106",
+      "40949127",
+      "41214111",
+      "41013727",
+      "40078458",
+      "41030501",
+      "39263286",
+      "38987688",
+      "40374866",
+      "41009970",
+      "41432807",
+      "41442003",
+      "40927289",
+      "40775242",
+      "39559355",
+      "40887626",
+      "39993869",
+      "38166541",
+      "41006883",
+      "39965388",
+      "41210882",
+      "40453984",
+      "36523490",
+      "38690269",
+      "39375405",
+      "40082645",
+      "41013556",
+      "40842856",
+      "41326462",
+      "40421012",
+      "40588645",
+      "41150817",
+      "39875572",
+      "39650552",
+      "40619276",
+      "41496079",
+      "41094572",
+      "40129981",
+      "41221285",
+      "41366037",
+      "40598243",
+      "41246299",
+      "41388523",
+      "40740765",
+      "38310567",
+      "40808946",
+      "31673979",
+      "40355841",
+      "39789578",
+      "41291978",
+      "40864208",
+      "40628511",
+      "39968099",
+      "38867322",
+      "39044840"
+    ],
+    "review": [
+      "41368238"
+    ],
+    "pmc": [
+      "12683460"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41368238.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41368238/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21037/tau-2025-519",
+        "provider": "AME Publishing Company",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

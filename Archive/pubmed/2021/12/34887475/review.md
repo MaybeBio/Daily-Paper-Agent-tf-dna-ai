@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary information list.
+- **Assessment boundary** Scientific content, methodological rigor, data interpretation, and internal consistency of the claims as presented. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors report that NF-Y subunits, particularly NF-YA, are overexpressed in stomach adenocarcinomas (STAD) using TCGA RNA-seq data. They partition tumors into molecular subtypes using the deep learning tool DeepCC, identify subtype-specific isoform expression patterns (NF-YAs vs NF-YAl), associate high NF-YAl/NF-YAs ratios with worse prognosis in specific subtypes, and describe a Claudinlow tumor subset with elevated NF-YAl expression. They also report a protective role for high NF-YB levels in MSS;TP53+ patients.
+- **Visible evidence base** Main text figures 1–8, supplementary figures S1–S11, supplementary tables S1–S3, and methods descriptions. No raw data, code, or full supplementary tables were provided for independent verification.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in gastric cancer biology by systematically characterizing NF-Y subunit and isoform expression across molecular subtypes. The use of DeepCC to extend subtype classifications to all TCGA samples is a reasonable approach, and the identification of a Claudinlow subset with distinct NF-YA isoform profiles is potentially interesting. However, several analytical steps lack sufficient detail for reproducibility, some statistical comparisons are incompletely reported, and the clinical outcome analyses are limited to progression-free interval without adjustment for potential confounders. The claim that NF-Y isoforms are "associated to clinically relevant features" is only partially supported by the presented evidence.
+- **Who would be interested in the results, and why** Researchers studying transcription factor dysregulation in gastrointestinal cancers, particularly those interested in NF-Y biology, CCAAT-box-driven gene expression, and molecular subtype classification of gastric cancer. The findings on isoform-specific expression patterns and their prognostic associations may also be of interest to clinicians working on biomarker development for gastric cancer, though the translational relevance remains preliminary.
+- **Major strengths** The study addresses a gap in the literature by examining NF-Y subunit and isoform expression in STAD, whereas previous work focused on other epithelial tumors. The use of two independent classification systems (TCGA and ACRG) and the extension of classifications to all samples via DeepCC is methodologically thoughtful. The identification of a Claudinlow subset with distinct NF-YA isoform profiles provides a potentially novel observation. The analysis of isoform ratios rather than total expression levels is a useful analytical choice.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological transparency
+  - **Claim pointer** The authors claim to have "completed the partitioning of all TCGA tumor samples (450) according to molecular subtypes proposed by TCGA and ACRG, using the deep learning tool DeepCC."
+  - **Evidence pointer** Results section "Expression of NF-Y isoforms in STAD subtypes"; Figure 2a; Materials and methods "RNA-seq datasets"
+  - **Concern** The manuscript states that RNA-seq data on 415 tumors were available, yet the abstract and results refer to 450 samples. This numerical discrepancy is not explained. Furthermore, the DeepCC classification procedure is described only briefly; no details are provided on the input features, model parameters, or validation of the extended classifications against the original TCGA and ACRG assignments. The accuracy of the DeepCC-based classification is critical because all subsequent subtype-specific analyses depend on it.
+  - **Why it matters** If the sample number is incorrect or the classification procedure is not reproducible, the subtype-specific expression and survival analyses cannot be properly evaluated or replicated by other groups.
+  - **Resolution test** Clarify the exact number of samples analyzed and reconcile the discrepancy between 415 and 450. Provide detailed parameters for DeepCC classification, including feature selection, training procedure, and a confusion matrix or accuracy metric comparing DeepCC predictions to the original TCGA and ACRG labels for the subset of samples with known classifications.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and confounding
+  - **Claim pointer** The authors claim that "high NF-YAl/NF-YAs ratios correlate with worse prognosis" and that "elevated NF-YB levels are protective in MSS;TP53+ patients."
+  - **Evidence pointer** Results section "Clinical outcome of NF-Y overexpression in STAD according to the TCGA subtypes" and "Clinical outcome of NF-Y expression according to the ACRG subtypes"; Figures 4 and 6
+  - **Concern** The survival analyses are based solely on progression-free interval and use log-rank tests without adjustment for age, stage, grade, treatment, or other clinical covariates. The manuscript does not report hazard ratios with confidence intervals, nor does it describe how the quartile-based stratification was performed for each analysis. Given that molecular subtypes are known to correlate with clinical features, unadjusted analyses may produce misleading associations.
+  - **Why it matters** Without multivariable adjustment or at least a clear description of the patient cohort characteristics, the prognostic claims cannot be distinguished from confounding by known clinical factors.
+  - **Resolution test** Provide multivariable Cox proportional hazards models including relevant clinical covariates, or clearly justify why unadjusted analyses are appropriate. Report hazard ratios with 95% confidence intervals for all survival comparisons. Describe the exact stratification procedure used for each analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of enrichment analyses
+  - **Claim pointer** The authors state that "CCAAT is the predominant element only in the core group of genes upregulated in all subtypes, with cell-cycle gene signatures."
+  - **Evidence pointer** Results section "STAD differentially expressed genes—DEG—have CCAAT in promoters"; Figure 3
+  - **Concern** The Pscan analysis is described as identifying enriched TFBS motifs, but the manuscript does not report the background model used, the significance thresholds applied beyond the initial DEG filtering, or the complete list of enriched motifs for each subtype. The claim that CCAAT is "the predominant element" is based on a comparison that is not fully shown. Additionally, the relationship between the "core group of genes upregulated in all subtypes" and the previously described subtype-specific DEG lists is not clearly defined.
+  - **Why it matters** The central conclusion that CCAAT is specifically enriched in commonly upregulated genes depends on the completeness and correctness of the motif enrichment analysis. Without full reporting, this claim cannot be independently assessed.
+  - **Resolution test** Provide the complete Pscan output for all comparisons, including the background model and all enriched motifs with their associated p-values. Clearly define how the "core group" was derived and how it relates to the subtype-specific DEG lists.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation of Claudinlow subset
+  - **Claim pointer** The authors claim to have identified a Claudinlow group of 79 samples using a 24-gene signature from Nishijima et al., and that this group shows high NF-YAl expression.
+  - **Evidence pointer** Results section "NF-YAl is predominant in Claudinlow STAD tumors"; Figure 7
+  - **Concern** The hierarchical clustering procedure is described in the methods, but the manuscript does not report how the number of clusters was determined, whether the clustering was stable, or how the 79-sample cutoff was selected. The statistical significance of the separation is mentioned but the test used is not specified. Furthermore, the overlap between the Claudinlow group and the previously defined TCGA and ACRG subtypes is shown descriptively but not tested for enrichment.
+  - **Why it matters** The identification of a new subgroup within existing classifications is a strong claim that requires robust clustering validation and statistical support.
+  - **Resolution test** Describe the cluster number determination procedure, report cluster stability metrics, specify the statistical test used for the separation significance, and provide enrichment tests for the overlap between Claudinlow and existing subtypes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Results section "NF-Y subunits are overexpressed in STAD"; Figure 1
+  - **Issue** The p-values are reported in scientific notation in the text (e.g., "10–14") but the figure itself does not show the p-values. The number of samples in each group (tumor vs. normal) is not stated in the figure legend.
+  - **Required correction** Add p-values and sample sizes to the figure panels or legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Supplementary tables
+  - **Evidence pointer** Results section "STAD differentially expressed genes—DEG—have CCAAT in promoters"; Supplementary Tables S1 and S2
+  - **Issue** The supplementary tables are referenced but their contents are not described in the text. It is unclear how many genes are in each list and whether the lists are available in a machine-readable format.
+  - **Required correction** Add a brief description of the supplementary tables in the text and ensure they are provided in a standard format.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Cell line analysis
+  - **Evidence pointer** Results section "NF-Y subunits are overexpressed in STAD"; Supplementary Figure S1
+  - **Issue** The analysis of gastric cancer cell lines is mentioned but the methods for processing these data are not described in the Materials and methods section. The criteria for selecting the 50 cell lines and the overlap between the two datasets are not stated.
+  - **Required correction** Add a description of the cell line data processing to the methods and clarify the selection criteria.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion states that "NF-Y is believed to play a pioneering role" but does not critically evaluate alternative interpretations of the data, such as the possibility that NF-Y overexpression is a consequence rather than a driver of the observed gene expression changes.
+  - **Required correction** Add a brief consideration of alternative explanations and limitations of the correlative analysis.
+- **Technical failings that need to be addressed before the case is established** The sample number discrepancy (415 vs. 450) must be resolved. The DeepCC classification procedure needs full methodological detail and validation. Survival analyses require multivariable adjustment or clear justification for unadjusted approaches. The motif enrichment analysis must be fully reported to support the CCAAT enrichment claim.
+- **Assessment against Nature-style criteria** Originality: Moderate. The study extends prior work on NF-Y in other cancers to gastric cancer and introduces isoform-specific analysis, but the overall approach is largely descriptive and follows established patterns from the authors' previous publications. Scientific importance: Moderate. The findings may inform biomarker development but do not provide mechanistic insight or therapeutic implications. Interdisciplinary readership: Limited. The manuscript is primarily relevant to cancer biologists and bioinformaticians working on gastric cancer. Technical soundness: Partially adequate. The core bioinformatic analyses are reasonable but lack sufficient detail for full evaluation, and the survival analyses are underpowered methodologically. Readability for nonspecialists: Adequate. The manuscript is generally clearly written, though some figure descriptions are terse.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question and contains potentially interesting observations, but the methodological gaps and incomplete reporting prevent full evaluation of the claims. The authors should address the sample number discrepancy, provide complete details on the DeepCC classification and motif enrichment analyses, and strengthen the survival analyses with multivariable adjustment.
+
+## Risk / unsupported claims
+- The claim that "NF-Y isoforms are associated to clinically relevant features of gastric cancer" is only partially supported, as the survival analyses are unadjusted and limited to progression-free interval.
+- The claim that the Claudinlow group of 79 samples is a distinct subgroup is not fully validated due to insufficient clustering details.
+- The statement that "CCAAT is the predominant element only in the core group of genes upregulated in all subtypes" is not fully supported by the presented enrichment data.
+- The protective role of NF-YB in MSS;TP53+ patients is based on a single subgroup analysis without multiple testing correction and should be interpreted cautiously.
+- The relationship between the Claudinlow group identified here and the original 46-sample group described by Nishijima et al. is not quantitatively assessed.

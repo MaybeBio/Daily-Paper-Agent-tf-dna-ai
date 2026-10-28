@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report that the peptidyl-prolyl cis/trans-isomerase Rrd1 binds preferentially to the unphosphorylated C-terminal domain (CTD) of RNA polymerase II over the phosphorylated CTD, based on fluorescence anisotropy, pull-down assays, and molecular dynamics simulations, and conclude that this preference supports a role for Rrd1 in mRNA transcription.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or simulation parameters are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, raw binding data, statistical tests, MD simulation setup and trajectory analyses, sequence or construct details, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused hypothesis and a multi-method approach to test Rrd1-CTD binding preference. However, the evidence as summarized is insufficient to establish the central claim of preferential binding to unphosphorylated CTD. Key quantitative data, statistical validation, and methodological details are absent, and the interpretation of the MD simulation results appears internally inconsistent with the reported RMSD values. The work may be of interest to researchers studying transcription regulation and CTD code, but the current abstract does not provide a robust case.
+- **Who would be interested in the results, and why** Researchers in transcription regulation, RNA polymerase II biology, and CTD posttranslational modification would be interested because the study addresses a potential new reader of the CTD code. Those studying peptidyl-prolyl isomerases and their roles in transcription elongation or mRNA processing may also find relevance. The findings could inform models of how phosphorylation state directs factor recruitment to the CTD.
+- **Major strengths** The study uses complementary experimental and computational approaches, which is a reasonable strategy for probing protein-protein interactions. The focus on a specific biological question, namely the phosphorylation-state dependence of Rrd1-CTD binding, is clear and potentially significant. The abstract explicitly states the direction of preference, which allows for direct testing.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Rrd1 interacts more strongly with unphosphorylated CTD than with phosphorylated CTD, based on MD simulation results including RMSD, H-bonds, water bridges, and hydrophobic interactions.
+  - **Evidence pointer** Abstract text, MD simulation results
+  - **Concern** The abstract states that the RMSD of the Rrd1-unphosphorylated CTD complex was greater than the RMSD of the Rrd1-pCTD complex, yet also states that the Rrd1-pCTD complex dissociated twice during the simulation while the Rrd1-unpCTD complex remained stable. Higher RMSD typically indicates greater structural deviation or instability, which contradicts the claim of stronger binding for the unphosphorylated complex. The authors do not explain this apparent inconsistency.
+  - **Why it matters** The MD simulation is presented as a key line of evidence for the binding preference. If the RMSD data are not reconciled with the stability and interaction occupancy data, the computational support for the central claim is undermined. Without clarification, the reader cannot assess whether the simulation results actually support the conclusion.
+  - **Resolution test** Provide a clear explanation of how higher RMSD in the unphosphorylated complex is consistent with stronger binding, for example by distinguishing global conformational changes from local interface stability. Present RMSD plots, RMSF data, and interaction occupancy analyses with statistical comparisons, and clarify the dissociation events with trajectory snapshots or distance metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that fluorescence anisotropy and pull-down assays demonstrate preferential binding of Rrd1 to unphosphorylated CTD over phosphorylated CTD.
+  - **Evidence pointer** Abstract text, fluorescence anisotropy and pull-down assay results
+  - **Concern** No quantitative data are provided for the fluorescence anisotropy or pull-down experiments. There are no binding constants, anisotropy values, error bars, replicates, or statistical tests. The pull-down assay is described only as showing preferential interaction, but the degree of preference and the conditions used are not specified.
+  - **Why it matters** Without quantitative and statistical support, the experimental claims cannot be evaluated for robustness or significance. The abstract does not allow the reader to determine whether the observed preference is meaningful or within experimental noise.
+  - **Resolution test** Report binding affinities or anisotropy changes with standard deviations and replicate numbers. For pull-downs, provide densitometry or quantitative band intensity data with statistical analysis. Specify protein concentrations, buffer conditions, and controls used.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that Rrd1 interacts more strongly with unphosphorylated CTD than with pCTD, and imply a role in mRNA transcription.
+  - **Evidence pointer** Abstract text, conclusion
+  - **Concern** The abstract does not establish a functional link between the observed binding preference and mRNA transcription. No transcription assays, cellular experiments, or in vivo validation are described. The connection to transcription is inferred but not tested.
+  - **Why it matters** The stated relevance to mRNA transcription is a key motivation for the study. Without functional evidence, the significance of the binding preference for transcription remains speculative, limiting the impact of the findings.
+  - **Resolution test** Add experiments that directly test the role of Rrd1-CTD binding in transcription, such as transcription assays with wild-type and mutant Rrd1, or cellular localization and recruitment studies. Alternatively, temper the conclusion to reflect that the study only characterizes binding preference in vitro and in silico.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text, first sentence
+  - **Issue** The first sentence is long and combines background on CTD structure and phosphorylation with the study's aim, which reduces readability.
+  - **Required correction** Split the sentence to clearly separate background from the study objective.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** MD simulation description
+  - **Evidence pointer** Abstract text, MD simulation results
+  - **Issue** The simulation time is stated as 50 ns, but no force field, water model, temperature, or pressure conditions are mentioned. The dissociation events are described without quantitative criteria.
+  - **Required correction** Provide simulation parameters and define the criteria used to identify dissociation events.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "strong affinity"
+  - **Evidence pointer** Abstract text, first paragraph
+  - **Issue** The term "strong affinity" is used without a quantitative definition, which is imprecise for a binding study.
+  - **Required correction** Replace with specific binding measurements or affinity values, or qualify the term with the observed data.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (inconsistent RMSD interpretation), R1-M2 (lack of quantitative experimental data), and R1-M3 (unsubstantiated link to transcription) must be resolved. The MD simulation inconsistency is particularly critical because it directly contradicts the stated conclusion.
+- **Assessment against Nature-style criteria**  
+  - Originality: The question of Rrd1-CTD phosphorylation-state preference is somewhat novel, but the abstract does not demonstrate a new conceptual framework or unexpected finding.  
+  - Scientific importance: The potential role of Rrd1 in CTD code reading is relevant, but the lack of functional evidence limits the importance to a preliminary characterization.  
+  - Interdisciplinary readership: The topic may appeal to biochemists, molecular biologists, and computational biologists, but the abstract does not frame the work for a broad audience.  
+  - Technical soundness: The experimental and computational approaches are appropriate in principle, but the reported data are insufficient and internally inconsistent, so technical soundness is not established.  
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with CTD biology and MD simulation terminology, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The central claim of preferential binding is plausible but not supported by the abstract alone due to missing quantitative data and an unresolved inconsistency in the MD results. The manuscript could become supportive if the authors provide full experimental details, statistical analyses, and a coherent interpretation of the simulation data.
+
+## Risk / unsupported claims
+- The claim that Rrd1 has "strong affinity" for unphosphorylated CTD is unsupported because no affinity values are provided.
+- The claim that Rrd1 preferentially interacts with unphosphorylated GST-CTD over hyperphosphorylated GST-CTD is unsupported without quantitative pull-down data.
+- The claim that the Rrd1-unphosphorylated CTD complex is more stable than the Rrd1-pCTD complex is contradicted by the reported RMSD values and is therefore not supported.
+- The conclusion that the binding preference is relevant to mRNA transcription is unsupported because no functional experiments are described.
+- The MD simulation results, including H-bond, water bridge, and hydrophobic interaction occupancies, are not evaluable without numerical data or statistical comparisons.

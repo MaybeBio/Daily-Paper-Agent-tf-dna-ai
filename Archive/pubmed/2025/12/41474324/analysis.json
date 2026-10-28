@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41474324",
+  "title": "Structural basis of quinone sensing by the MarR-type repressor MhqR in Staphylococcus aureus.",
+  "authors": "Nguyen, Thao Thi-Phuong; Weiland, Paul; Loi, Vu Van; Kiontke, Stephan; Burchert, Fabiana; Zegarra, Victor; Kern, Antonia; Fritsch, Verena Nadin; Baranov, Daniil; Bronowska, Agnieszka K; Bange, Gert; Antelmann, Haike",
+  "journal": "mBio",
+  "published_date": "2025-12-31",
+  "window": {
+    "start": "2025-12-29",
+    "end": "2026-01-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过晶体结构、AlphaFold3建模和MD模拟解析金黄色葡萄球菌MarR型阻遏蛋白MhqR的DNA结合与醌感应变构机制，属于广义蛋白-DNA互作的结构与动态机理研究，方法可迁移至TF-DNA体系，但对象非典型TF。",
+  "abstract": "The MarR-family regulator MhqR of Staphylococcus aureus (SaMhqR) was previously characterized as a quinone-sensing repressor of the mhqRED operon. Here, we solved the crystal structures of apo-SaMhqR and the 2-methylbenzoquinone (MBQ)-bound SaMhqR complex. AlphaFold3 modeling was used to predict the structure of SaMhqR in complex with its operator DNA. In the DNA-bound SaMhqR state, S65 and S66 of an allosteric alpha3-alpha4 loop adopted a helically wound conformation to elongate helix alpha4 for optimal DNA binding. Key residues for MBQ interaction were identified as F11, F39, E43, and H111, forming the MBQ-binding pocket. MBQ binding prevented the formation of the extended helix alpha4 in the allosteric loop, leading to steric clashes with the DNA. Molecular dynamics (MD) simulations revealed an increased intrinsic dynamics within the allosteric loop and the beta1/beta2-wing regions after MBQ binding to prevent DNA binding. Using mutational analyses, we validated that F11, F39, and H111 are required for quinone sensing in vivo, whereas S65 and S66 of the allosteric loop and D88, K89, V91, and Y92 of the beta1/beta2-wing are essential for DNA binding in vitro and in vivo. In conclusion, our structure-guided modeling and mutational analyses identified a quinone-binding pocket in SaMhqR and the mechanism of SaMhqR inactivation, which involves local structural rearrangements of an allosteric loop and high intrinsic dynamics to prevent DNA interactions. Our results provide novel insights into the redox mechanism of the conserved SaMhqR repressor, which functions as an important determinant of quinone and antimicrobial resistance in S. aureus.IMPORTANCEStaphylococcus aureus is a major human pathogen that can cause life-threatening infections in humans. However, treatment options are limited due to the prevalence of antimicrobial-resistant isolates in the hospital and the community. The MarR-type repressor SaMhqR was described to control resistance toward quinones and quinone-like antimicrobials. However, the redox-regulatory mechanism of SaMhqR by quinones was unknown. In this work, we explored the DNA-binding and quinone-sensing mechanism of SaMhqR and identified a quinone-binding pocket and an allosteric loop, which facilitates DNA binding activity via a helical wound conformation and adapts an unstructured coiled conformation upon quinone binding to inhibit DNA binding. A similar mechanism has been recently discovered for the regulation of uric acid resistance by UrtR family repressors (W. S. Song, D. U. Ki , H. Y. Cho, O. H. Kwon, H. Cho, S. I. Yoon, Nucleic Acids Res 52:13192-13205, 2024, https://doi.org/10.1093/nar/gkae922). Our results contribute to a better understanding of antimicrobial resistance regulation, which may be exploited for future drug design to combat multidrug-resistant S. aureus.",
+  "abstract_zh": "金黄色葡萄球菌的MarR家族调控因子MhqR（SaMhqR）此前被鉴定为mhqRED操纵子的醌感应阻遏蛋白。在此，我们解析了apo-SaMhqR和2-甲基苯醌（MBQ）结合的SaMhqR复合物的晶体结构。使用AlphaFold3建模预测了SaMhqR与其操纵子DNA复合物的结构。在DNA结合的SaMhqR状态下，变构alpha3-alpha4环的S65和S66采用螺旋缠绕构象以延长螺旋alpha4，从而实现最佳DNA结合。MBQ相互作用的关键残基被鉴定为F11、F39、E43和H111，它们形成MBQ结合口袋。MBQ结合阻止了变构环中延伸螺旋alpha4的形成，导致与DNA产生空间位阻。分子动力学（molecular dynamics, MD）模拟显示，MBQ结合后，变构环和beta1/beta2-wing区域内的内在动力学增加，从而阻止DNA结合。通过突变分析，我们验证了F11、F39和H111在体内醌感应中是必需的，而变构环的S65和S66以及beta1/beta2-wing的D88、K89、V91和Y92在体外和体内DNA结合中是必需的。总之，我们的结构引导建模和突变分析鉴定了SaMhqR中的醌结合口袋以及SaMhqR失活机制，该机制涉及变构环的局部结构重排和高内在动力学以阻止DNA相互作用。我们的结果为保守的SaMhqR阻遏蛋白的氧化还原机制提供了新见解，该蛋白是金黄色葡萄球菌中醌和抗菌药物耐药性的重要决定因素。\n\n**重要性** 金黄色葡萄球菌是一种主要的人类病原体，可引起危及生命的感染。然而，由于医院和社区中抗菌药物耐药菌株的普遍存在，治疗选择有限。MarR型阻遏蛋白SaMhqR被描述为控制对醌和醌类抗菌药物的耐药性。然而，SaMhqR受醌调控的氧化还原机制尚不清楚。在本工作中，我们探索了SaMhqR的DNA结合和醌感应机制，并鉴定了醌结合口袋和变构环，该环通过螺旋缠绕构象促进DNA结合活性，并在醌结合后采用无结构卷曲构象以抑制DNA结合。类似机制最近在UrtR家族阻遏蛋白调控尿酸耐药性中被发现（W. S. Song, D. U. Ki, H. Y. Cho, O. H. Kwon, H. Cho, S. I. Yoon, Nucleic Acids Res 52:13192-13205, 2024, https://doi.org/10.1093/nar/gkae922）。我们的结果有助于更好地理解抗菌药物耐药性调控，这可能为未来对抗多重耐药金黄色葡萄球菌的药物设计提供依据。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41474324/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41474324/",
+  "paper_page_path": "papers/pubmed/41474324/index.html"
+}

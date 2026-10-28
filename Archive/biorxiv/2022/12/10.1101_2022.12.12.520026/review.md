@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, acknowledgements, footnotes)
+- **Assessment boundary** Scientific content, technical soundness, and internal consistency of the reported findings; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors investigate a second TatA/TatB binding site on TatC TMH6 in the E. coli twin arginine translocase. Through random and targeted mutagenesis, they identify inactivating substitutions (P221R, M222R, L225P) that do not disrupt receptor assembly or substrate binding. Bulky substitutions (TIE) reduce TatA binding at the TMH6 site but do not abolish Tat function, suggesting this site may be dispensable or that transient interactions suffice.
+- **Visible evidence base** Abstract, introduction, full methods, results sections with figures referenced (Figs 1–7), discussion, acknowledgements
+- **Missing materials affecting confidence** Figures and tables referenced in the text (Figs 1–7, Tables 1–3, Table S1, S2) are not provided; raw data, statistical analyses, and MD simulation trajectories are not available; supplementary materials are not included
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in Tat biology, namely the functional significance of a secondary TatA/TatB binding site on TatC TMH6. The experimental approach is systematic, combining random and targeted mutagenesis with biochemical characterisation and MD simulations. However, the central conclusion that the TMH6 site is functionally dispensable is not fully established from the provided evidence, as the authors themselves acknowledge alternative explanations. The lack of figures and tables limits verification of key claims, and several technical details require clarification.
+- **Who would be interested in the results, and why** Researchers studying bacterial protein translocation systems, particularly the Tat pathway, and those interested in membrane protein complex assembly and dynamics. The findings may also be relevant to structural biologists studying homologous translocases in chloroplasts and other prokaryotes.
+- **Major strengths** The study uses a comprehensive mutagenesis strategy, combining unbiased random mutagenesis with targeted substitutions, which is appropriate for probing functional determinants. The inclusion of MD simulations provides a structural perspective that complements the experimental data. The authors are transparent about limitations, particularly the inability to explain the inactivity of stable variants.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that P221R, M222R and L225P substitutions do not affect assembly of the Tat receptor complex, based on BN-PAGE analysis.
+  - **Evidence pointer** Results section, Fig 4A; location not provided
+  - **Concern** The BN-PAGE data are referenced but not shown in the provided material. Without the actual gel images, it is not possible to verify the claim that the TatC-reactive complex migrates at approximately 470 kDa for the P221R, M222R and L225P variants. Additionally, the authors do not report whether the complex stoichiometry or composition was assessed beyond migration, which would be necessary to confirm that assembly is truly unaffected.
+  - **Why it matters** The claim that receptor assembly is intact is central to the argument that the inactivating substitutions act at a different level, such as conformational changes during transport. If assembly were subtly altered, the interpretation of the results would change.
+  - **Resolution test** Provide the BN-PAGE data with appropriate molecular weight markers and, ideally, quantitative analysis of complex abundance. Consider additional assays, such as co-immunoprecipitation or native mass spectrometry, to confirm complex composition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional evidence
+  - **Claim pointer** The manuscript states that the TIE triple substitution does not abolish Tat activity, despite MD simulations and crosslinking indicating substantially reduced TatA binding at the TMH6 site.
+  - **Evidence pointer** Results section, Figs 1C, 6D, 7A; location not provided
+  - **Concern** The functional assay used to assess Tat activity is growth on SDS-containing medium, which is a qualitative, binary readout. The authors do not report any quantitative measure of transport efficiency, such as a reporter enzyme assay or kinetic analysis. It is therefore unclear whether the TIE variant supports wild-type levels of transport or merely sufficient transport to permit growth. The claim that the TMH6 site is dispensable requires a more sensitive functional assessment.
+  - **Why it matters** A qualitative growth assay may not detect partial reductions in transport activity. If the TIE variant has reduced but non-zero activity, the conclusion that the TMH6 site is dispensable would be weakened, and the alternative explanation of transient interactions would become more plausible.
+  - **Resolution test** Perform quantitative transport assays, such as measuring the activity of a Tat-dependent reporter enzyme (e.g., TorA-mCherry or amidase activity) across a range of expression levels. Compare the TIE variant to wild-type and to a known transport-deficient control.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors suggest that the inactivating substitutions P221R, M222R and L225P may prevent conformational changes associated with substrate transport, but state they lack biochemical tools to test this.
+  - **Evidence pointer** Discussion section; location not provided
+  - **Concern** This is a speculative explanation that is not directly tested. While the authors are appropriately cautious, the manuscript would be strengthened by additional experiments or analyses that could distinguish between defects in substrate binding, receptor reorganisation, or downstream events. For example, the co-purification assay in Fig 5 shows substrate binding is retained, but it does not assess whether substrate-induced conformational changes occur.
+  - **Why it matters** Without a mechanistic explanation, the significance of the identified inactivating substitutions is limited. The field would benefit from a clearer understanding of how these residues contribute to Tat function.
+  - **Resolution test** Consider using site-specific crosslinking or FRET-based assays to monitor conformational changes in the receptor complex upon substrate binding. Alternatively, test whether the variants are defective in proton motive force-dependent reorganisation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, MD simulations
+  - **Evidence pointer** Methods section, "Molecular modelling and simulations"; location not provided
+  - **Issue** The description of the MD simulations is brief. The authors state that three repeats of 100 ns were performed, but do not report convergence criteria, error estimates, or how the initial configurations were generated beyond the docking procedure.
+  - **Required correction** Provide additional details on simulation setup, including the number of atoms, water box dimensions, and any restraints applied during equilibration. Report the root-mean-square deviation of the protein backbone over time to demonstrate equilibration.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, random mutagenesis
+  - **Evidence pointer** Results section, "Random mutagenesis of the TatC TMH6 coding region"; location not provided
+  - **Issue** The authors report 101 mutant clones that inactivate TatC, of which 38 contain missense mutations. However, the distribution of mutations across the targeted region is not shown, and it is unclear whether any residues were mutated more frequently than expected by chance.
+  - **Required correction** Include a table or figure showing the position and frequency of each missense mutation identified. This would help assess whether specific residues are particularly important for function.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section; location not provided
+  - **Issue** The authors note that the TMH6 site sits on the outside of the multimeric receptor complex, but do not discuss whether this site might have a role in interactions with other proteins or lipids.
+  - **Required correction** Briefly discuss potential alternative functions of the TMH6 site, such as involvement in complex assembly dynamics or interactions with the membrane environment.
+- **Technical failings that need to be addressed before the case is established** The absence of figures and tables prevents verification of the central claims regarding BN-PAGE, crosslinking, and MD simulations. The functional assay is qualitative and may not be sufficiently sensitive to support the conclusion that the TMH6 site is dispensable. The mechanistic explanation for the inactivating substitutions is speculative and not directly tested.
+- **Assessment against Nature-style criteria** Originality: The study addresses a specific gap in understanding the Tat pathway, namely the role of a secondary binding site on TatC. While the question is relevant, the findings are incremental and do not fundamentally challenge existing models. Scientific importance: The results are of interest to the Tat field but are unlikely to have broad impact beyond this community. Interdisciplinary readership: The topic is specialised, and the manuscript is unlikely to attract readers outside membrane protein transport and bacterial physiology. Technical soundness: The experimental design is generally sound, but the lack of quantitative functional data and the absence of key figures limit confidence. Readability for nonspecialists: The manuscript is clearly written but assumes familiarity with Tat biology; the abstract is accessible, but the methods and results sections are technical.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a valid question and the experimental approach is appropriate, but the current evidence does not fully establish the central claim that the TMH6 site is dispensable for Tat function. Quantitative functional assays and the inclusion of the referenced figures and tables are required.
+
+## Risk / unsupported claims
+- The claim that the TMH6 site is dispensable for Tat function is not fully supported, as the qualitative growth assay may not detect partial reductions in activity.
+- The claim that P221R, M222R and L225P do not affect receptor assembly is unverifiable without the referenced BN-PAGE data.
+- The suggestion that the inactivating substitutions prevent conformational changes is speculative and not directly tested.
+- The MD simulation results are described but not shown, and the authors do not report convergence or error metrics, making the claim of TatA dissociation from the TMH6 site unverifiable.

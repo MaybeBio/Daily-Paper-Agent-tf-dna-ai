@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "36356328",
+    "doi": "10.1016/j.phymed.2022.154530",
+    "title": "Exploring the pharmacological mechanism of Naoxueshu oral liquid in the treatment of intracerebral hemorrhage through weighted gene co-expression network analysis, network pharmacological and experimental validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Intracerebral hemorrhage (ICH) is a life-threatening stroke subtype with high rates of disability and mortality. Naoxueshu oral liquid is a proprietary Chinese medicine that absorbs hematoma and exhibits neuroprotective effects in patients with ICH. However, the underlying mechanisms remain obscure. PURPOSE: Exploring and elucidating the pharmacological mechanism of Naoxueshu oral liquid in the treatment of ICH. STUDY DESIGN AND METHODS: The Gene Expression Omnibus (GEO) database was used to download the gene expression data on ICH. ICH-related hub modules were obtained by weighted gene co-expression network analysis (WGCNA) of differentially co-expressed genes (DEGs). The Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were conducted using the obtained key modules to identify the ICH-related signaling pathways. Network pharmacology technology was applied to forecast the targets of Naoxueshu oral liquid and to establish a protein-protein interaction (PPI) network of overlapping targets between Naoxueshu oral liquid and ICH. Functional annotation and enrichment pathway analyses of the intersectional targets were performed using the omicsbean database. Finally, we verified the therapeutic role and mechanism of Naoxueshu oral liquid in ICH through molecular docking and experiments. RESULTS: Through the WGCNA analysis, combined with network pharmacology, it was found that immune inflammation was closely related to the early pathological mechanism of ICH. Naoxueshu oral liquid suppressed the inflammatory response; hence, it could be a potential drug for ICH treatment. Molecular docking further confirmed that the effective components of Naoxueshu oral liquid docked well with CD163. Finally, the experimental results showed that Naoxueshu oral liquid treatment in the ICH rat model attenuated neurological deficits and neuronal injury, decreased hematoma volume, and promoted hematoma absorption. In addition, Naoxueshu oral liquid treatment also significantly increased the levels of Arg-1, CD163, Nrf2, and HO-1 around hematoma after ICH. CONCLUSION: This study demonstrated that Naoxueshu oral liquid attenuated neurological deficits and accelerated hematoma absorption, possibly by suppressing inflammatory responses, which might be related to the regulation of Nrf2/CD163/HO-1 that interfered with the activation of M2 microglia, thus accelerating the clearance and decomposition of hemoglobin in the hematoma.",
+    "keywords": [
+      "CD163",
+      "Hematoma absorption",
+      "ICH",
+      "Inflammation",
+      "Microglia",
+      "Naoxueshu oral liquid"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Rats",
+      "*NF-E2-Related Factor 2/metabolism",
+      "Molecular Docking Simulation",
+      "*Cerebral Hemorrhage/drug therapy/genetics",
+      "Hematoma/metabolism/pathology",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yuanyuan",
+        "Tian, Chao",
+        "Wei, Yufei",
+        "Liu, Haoqi",
+        "An, Na",
+        "Song, Ke",
+        "Sun, Yikun",
+        "Gao, Yonghong",
+        "Gao, Ying"
+      ],
+      "short_names": [
+        "Li Y",
+        "Tian C",
+        "Wei Y",
+        "Liu H",
+        "An N",
+        "Song K",
+        "Sun Y",
+        "Gao Y",
+        "Gao Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, 100700, China; Institute for Brain Disorders, Beijing University of Chinese Medicine, Beijing, 100700, China; Beijing University of Chinese Medicine, Beijing, 100029, China.",
+        "Beijing University of Chinese Medicine, Beijing, 100029, China; China-Japan Friendship Hospital, Beijing, 100029, China.",
+        "Department of Internal Neurology, First Affiliated Hospital, Guangxi University of Chinese Medicine, Guangxi, 530000, China.",
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, 100700, China.",
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, 100700, China.",
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, 100700, China.",
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, 100700, China.",
+        "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, 100700, China; Institute for Brain Disorders, Beijing University of Chinese Medicine, Beijing, 100700, China. Electronic address: gaoyh7088@163.com.",
+        "Institute for Brain Disorders, Beijing University of Chinese Medicine, Beijing, 100700, China. Electronic address: gaoying973@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yuanyuan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, 100700, China; Institute for Brain Disorders, Beijing University of Chinese Medicine, Beijing, 100700, China; Beijing University of Chinese Medicine, Beijing, 100029, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Chao",
+        "short_name": "Tian C",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing University of Chinese Medicine, Beijing, 100029, China; China-Japan Friendship Hospital, Beijing, 100029, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Yufei",
+        "short_name": "Wei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Neurology, First Affiliated Hospital, Guangxi University of Chinese Medicine, Guangxi, 530000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Haoqi",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, 100700, China."
+        ]
+      },
+      {
+        "full_name": "An, Na",
+        "short_name": "An N",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, 100700, China."
+        ]
+      },
+      {
+        "full_name": "Song, Ke",
+        "short_name": "Song K",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, 100700, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yikun",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, 100700, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yonghong",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Chinese Internal Medicine of Ministry of Education and Beijing, Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, 100700, China; Institute for Brain Disorders, Beijing University of Chinese Medicine, Beijing, 100700, China. Electronic address: gaoyh7088@163.com."
+        ]
+      },
+      {
+        "full_name": "Gao, Ying",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Brain Disorders, Beijing University of Chinese Medicine, Beijing, 100700, China. Electronic address: gaoying973@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2023 Jan",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/11 06:00",
+    "fetched_at": "2026-09-28 16:00:09"
+  },
+  "links": {
+    "cites": [
+      "41989497",
+      "41184295",
+      "40226803",
+      "40102347",
+      "38570473"
+    ],
+    "refs": [],
+    "similar": [
+      "36356328",
+      "37659762",
+      "32783091",
+      "30079027",
+      "37633621",
+      "31667013",
+      "38363944",
+      "35389112",
+      "35722393",
+      "30836997",
+      "28655601",
+      "35728292",
+      "38537443",
+      "34349791",
+      "38412932",
+      "34368865",
+      "34467688",
+      "38243958",
+      "38816543",
+      "38658922",
+      "34532772",
+      "29730651",
+      "35624490",
+      "33274855",
+      "28610608",
+      "36939977",
+      "37354351",
+      "38570473",
+      "36765346",
+      "26403367",
+      "36441671",
+      "31325596",
+      "34467689",
+      "38465266",
+      "34107862",
+      "37077541",
+      "33532035",
+      "35318719",
+      "30123388",
+      "26176793",
+      "26604696",
+      "29054366",
+      "32918259",
+      "33854363",
+      "38705107",
+      "35097126",
+      "35876247",
+      "34142331",
+      "33206327",
+      "32501408",
+      "33293423",
+      "30796715",
+      "36189326",
+      "38883702",
+      "27799046",
+      "25523052",
+      "36852060",
+      "38642624",
+      "35616676",
+      "38260810",
+      "29448258",
+      "31926478",
+      "36387497",
+      "39281688",
+      "36280016",
+      "31210338",
+      "28365213",
+      "27783383",
+      "34990842",
+      "38915950",
+      "26617723",
+      "36237244",
+      "38205280",
+      "36090322",
+      "35571134",
+      "36193154",
+      "33358854",
+      "30502478",
+      "34107863",
+      "37907028",
+      "33496115",
+      "35430443",
+      "37130481",
+      "31694784",
+      "36786945",
+      "28630871",
+      "35308167",
+      "38251721",
+      "33310816",
+      "25328080",
+      "32214815",
+      "28386082",
+      "36792604",
+      "35609387",
+      "34553293",
+      "31826730",
+      "33648502",
+      "30075428",
+      "31659887",
+      "37739103",
+      "33705733",
+      "27993122",
+      "25977275",
+      "28432618",
+      "34785888",
+      "32243390",
+      "35514286",
+      "32160845",
+      "32315738",
+      "36225941",
+      "36199551",
+      "36272491",
+      "35937393",
+      "35099711",
+      "39427524",
+      "36291647",
+      "38284541",
+      "37963584",
+      "37731942",
+      "37973218",
+      "37724901",
+      "34981286",
+      "36648020",
+      "38271077",
+      "37664920",
+      "38433011",
+      "31120332",
+      "38056621",
+      "37957754",
+      "34763093",
+      "36913120",
+      "39230786",
+      "36384355",
+      "36970539",
+      "30190288",
+      "37069580",
+      "39007343",
+      "32760708",
+      "32120083",
+      "36465125",
+      "36582228",
+      "38748378",
+      "36704330",
+      "39026989",
+      "36693441",
+      "38808569"
+    ],
+    "review": [
+      "36356328",
+      "34467688",
+      "27799046",
+      "33358854",
+      "28630871",
+      "36291647",
+      "34981286",
+      "36648020",
+      "38056621",
+      "36970539",
+      "39007343"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(22)00618-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD163-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3893",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

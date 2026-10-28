@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors use all-atom accelerated sampling molecular dynamics simulations to probe structural ensembles and binding dynamics of the Tat/TAR/P-TEFb complex. They claim that a protein-binding inhibitor F07#13 targeting the Tat/P-TEFb interface initiates a feedback loop that shuts down active transcription, while an RNA binding inhibitor JB181 targeting the Tat/TAR interface prevents TAR from pulling Tat away from P-TEFb and reduces Tat degradation. The study is framed as elucidating how Tat and TAR coordinate HIV genome transcription versus latency.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force field parameters, convergence criteria, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, simulation methodology, structural models, trajectory analyses, binding free energy calculations, statistical validation, and any experimental corroboration
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing an important question in HIV transcriptional regulation. However, the claims regarding inhibitor mechanisms and the feedback loop are stated with a level of certainty that cannot be evaluated from the abstract alone. The absence of methodological detail and quantitative results prevents assessment of technical soundness. The conceptual framework is interesting, but the evidence base is insufficient to establish the mechanistic conclusions as presented.
+- **Who would be interested in the results, and why** Researchers in HIV molecular biology, transcriptional regulation, and RNA-protein interactions would be interested. Computational biophysicists studying biomolecular recognition and drug binding mechanisms may also find relevance. The potential link to HIV latency mechanisms could attract virologists focused on therapeutic strategies.
+- **Major strengths** The study addresses a biologically significant question with potential therapeutic implications. The dual-inhibitor comparison (protein-binding versus RNA-binding) provides a useful conceptual contrast. The connection between TAR binding dynamics and Tat degradation offers a mechanistic hypothesis that could inform future experimental work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "a protein-binding inhibitor F07#13 targeting the Tat/P-TEFb interface initiates the above feedback loop and shuts down the active transcription" and that "JB181... can prevent TAR from pulling down the Tat from P-TEFb protein and further reducing Tat degradation."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative data, no simulation parameters, no convergence metrics, and no statistical analysis to support these mechanistic claims. It is unclear how binding dynamics were measured, what observables were computed, and how the inhibitors' effects were distinguished from thermal fluctuations or sampling artifacts.
+  - **Why it matters** Without methodological transparency and quantitative evidence, the central claims about inhibitor mechanisms cannot be verified. The conclusions may depend critically on force field choices, simulation length, and analysis protocols, none of which are described.
+  - **Resolution test** Provide simulation details, convergence assessments, binding free energy estimates with error bars, and comparison to known experimental structures or affinities. Show that the observed inhibitor effects are reproducible across independent simulations and robust to parameter variation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The abstract states that "the TAR fragments as a scaffold for PRC2 complex in turn promote Tat ubiquitination and degradation" and that the simulations "show" the inhibitors' effects on this pathway.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract conflates established literature knowledge with new simulation results. It is unclear which parts of the feedback loop description are prior knowledge and which are new findings from this study. The simulations likely probe binding dynamics, not ubiquitination or degradation directly, yet the abstract implies a direct connection.
+  - **Why it matters** The distinction between what is known and what is newly demonstrated is essential for evaluating the manuscript's contribution. Overstating the scope of simulation evidence could mislead readers about the strength of the mechanistic conclusions.
+  - **Resolution test** Clearly separate background knowledge from new results. Specify which simulation observables support each claim about the feedback loop and degradation pathway. If degradation is not directly simulated, state this explicitly and frame the connection as inference.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract describes "structural ensembles and binding dynamics of various interfaces in the Tat/TAR/P-TEFb complex" probed by "all-atom accelerated sampling molecular dynamics simulations."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No information is given about the simulation system, including the initial structures, solvation conditions, ionic strength, temperature, or the specific accelerated sampling method used. Without these details, the work cannot be reproduced or independently assessed.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The lack of methodological detail in the abstract may be acceptable if the full text provides it, but the current submission does not allow verification.
+  - **Resolution test** In the full manuscript, provide complete simulation setup, software versions, force field parameters, and sampling protocols. Include validation against experimental data where available.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, sentence on "amplifying feedback loop"
+  - **Issue** The phrase "a reduction in Tat increases the elongation pause, resulting in more TAR RNA fragments instead of the entire viral genome transcript" is ambiguous regarding the direction of causality and the timescale of the proposed loop.
+  - **Required correction** Clarify whether this is an established model or a hypothesis, and specify the temporal ordering of events in the feedback loop.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, inhibitor descriptions
+  - **Evidence pointer** Abstract, sentences on F07#13 and JB181
+  - **Issue** The terms "protein-binding inhibitor" and "RNA binding inhibitor" are used without defining the molecular nature of these compounds or their binding sites beyond the interface names.
+  - **Required correction** Provide brief structural context for each inhibitor, such as the specific residues or RNA elements involved, to aid reader comprehension.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Abstract, concluding sentence
+  - **Evidence pointer** Abstract, final sentence on "HIV genome transcription versus possible HIV latency"
+  - **Issue** The link between the simulation results and the broader transcription-versus-latency framework is stated without explaining how the binding dynamics translate to phenotypic outcomes.
+  - **Required correction** Add one sentence describing the proposed mechanistic bridge from molecular dynamics to cellular outcomes, or explicitly state that this connection is speculative.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative simulation data and the conflation of prior knowledge with new findings prevent the mechanistic claims from being established. R1-M3, while not blocking, must be resolved for reproducibility.
+- **Assessment against Nature-style criteria** Originality: The conceptual framing of inhibitor effects on Tat degradation via TAR dynamics is somewhat novel, but the abstract does not demonstrate a new methodological or conceptual advance beyond existing models. Scientific importance: The topic is significant for HIV biology and therapy, but the abstract does not show how the findings change current understanding. Interdisciplinary readership: The work could appeal to both virologists and computational biophysicists, but the abstract lacks sufficient detail for either audience to evaluate its contribution. Technical soundness: Not assessable from the abstract; no methodological or quantitative evidence is provided. Readability for nonspecialists: The abstract is generally clear but uses specialized terms without sufficient context for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract alone does not provide the technical or quantitative support needed to validate the mechanistic claims. A full manuscript with detailed methods and results would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that F07#13 "shuts down the active transcription" is unsupported by any quantitative data in the abstract.
+- The claim that JB181 "can prevent TAR from pulling down the Tat from P-TEFb protein and further reducing Tat degradation" is unsupported without simulation observables or experimental validation.
+- The connection between simulated binding dynamics and the PRC2-mediated ubiquitination pathway is not established from the abstract.
+- The overall implication for HIV latency is stated without evidence linking molecular dynamics to cellular phenotypes.
+- All quantitative aspects of the study, including binding affinities, ensemble populations, and free energy differences, are unassessable from the supplied material.

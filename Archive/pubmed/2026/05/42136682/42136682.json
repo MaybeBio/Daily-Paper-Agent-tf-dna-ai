@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "42136682",
+    "doi": "10.3389/fimmu.2026.1794095",
+    "title": "From in silico to in vitro: discovery and validation of peptide modulators of IL-6/IL-6R signaling in rheumatoid arthritis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Rheumatoid arthritis (RA) is a chronic autoimmune disease in which dysregulated interleukin-6 (IL-6) signaling through the IL-6 receptor (IL-6R) plays a central pathogenic role. Although monoclonal antibodies targeting this pathway are clinically effective, their use is limited by parenteral administration, high cost, and systemic immunosuppression. Peptide-based inhibitors represent a complementary strategy for modulating cytokine-receptor interactions, offering advantages in design flexibility and manufacturability. Recent advances in immunoinformatics and artificial intelligence (AI) facilitate the rational identification of peptide candidates with favorable safety profiles. METHODS: We developed an integrated AI-assisted discovery pipeline incorporating immunoinformatics-based safety screening (toxicity, allergenicity, and antigenicity prediction), structural modeling, molecular docking with MM/GBSA rescoring, and 100-ns molecular dynamics (MD) simulations to identify IL-6R-targeting peptides. Seven candidate peptides (P01-P07) were prioritized based on predicted safety, binding energetics, and structural stability. Lead candidates were experimentally evaluated using competitive ELISA assays for IL-6/IL-6R binding and cell-based assays measuring IL-6-induced STAT3 phosphorylation. RESULTS: Computational analyses consistently identified peptide P01 as the top-ranked candidate, exhibiting stable binding conformations, persistent hydrogen bonding at the IL-6R interface, low RMSD and RMSF values during MD simulations, and the most favorable MM/GBSA binding free energy. In vitro experiments confirmed that P01 competitively inhibited IL-6/IL-6R binding (IC(50)  approximately  1.6 microM) and suppressed IL-6-induced STAT3 phosphorylation without detectable cytotoxicity. The strong concordance between computational predictions and experimental findings supports the robustness of the discovery workflow. CONCLUSION: This study establishes a safety-focused, AI-driven peptide discovery framework integrating in silico prioritization with experimental validation. Peptide P01 represents a tractable early-stage IL-6R antagonist that provides a foundation for future structure-guided optimization and development as a complementary therapeutic modality for IL-6-driven inflammatory diseases.",
+    "keywords": [
+      "STAT3 signaling",
+      "artificial intelligence",
+      "immunoinformatics",
+      "interleukin-6 receptor",
+      "molecular docking",
+      "molecular dynamics",
+      "peptide therapeutics",
+      "rheumatoid arthritis"
+    ],
+    "mesh_terms": [
+      "*Receptors, Interleukin-6/metabolism/chemistry/antagonists & inhibitors",
+      "*Arthritis, Rheumatoid/drug therapy/immunology/metabolism",
+      "Humans",
+      "*Interleukin-6/metabolism",
+      "*Signal Transduction/drug effects",
+      "*Peptides/pharmacology/chemistry",
+      "Molecular Docking Simulation",
+      "Immunoinformatics",
+      "Molecular Dynamics Simulation",
+      "STAT3 Transcription Factor/metabolism",
+      "Computer Simulation",
+      "Drug Discovery"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Junping",
+        "Wang, Yan",
+        "Huang, Jie",
+        "Zhang, Jing",
+        "Xie, Ying"
+      ],
+      "short_names": [
+        "Yang J",
+        "Wang Y",
+        "Huang J",
+        "Zhang J",
+        "Xie Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of General Practice, Wuhu Second People's Hospital, Wuhu, Anhui, China.",
+        "Department of General Practice, Wuhu Second People's Hospital, Wuhu, Anhui, China.",
+        "Department of Neurology, Affiliated Hospital and Clinical Medical College of Chengdu University, Chengdu, China.",
+        "University of Electronic Science and Technology of China, Sichuan Provincial People's Hospital, Department of Rheumatology and Immunology, School of Medicine, Chengdu, China.",
+        "Department of Orthopedics, Affiliated Chuzhou Hospital of Anhui Medical University (The First People's Hospital of Chuzhou), Chuzhou, Anhui, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Junping",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Practice, Wuhu Second People's Hospital, Wuhu, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Practice, Wuhu Second People's Hospital, Wuhu, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jie",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Affiliated Hospital and Clinical Medical College of Chengdu University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "University of Electronic Science and Technology of China, Sichuan Provincial People's Hospital, Department of Rheumatology and Immunology, School of Medicine, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Ying",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Affiliated Chuzhou Hospital of Anhui Medical University (The First People's Hospital of Chuzhou), Chuzhou, Anhui, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/15 06:29",
+    "fetched_at": "2026-10-01 20:30:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40524396",
+      "40121226",
+      "39444594",
+      "38718835",
+      "38523641",
+      "37989892",
+      "37795020",
+      "37732824",
+      "37069261",
+      "36930708",
+      "36880207",
+      "36835827",
+      "36357155",
+      "36297395",
+      "35640594",
+      "35595541",
+      "34539412",
+      "32174918",
+      "29147559",
+      "27550301",
+      "26555695",
+      "25733246",
+      "25237857",
+      "20215140"
+    ],
+    "similar": [
+      "42136682",
+      "40114577",
+      "38525928",
+      "41065942",
+      "26555695",
+      "41524971",
+      "25345743",
+      "42316398",
+      "41539507",
+      "39112658",
+      "42035672",
+      "41493642",
+      "42419186",
+      "42083525",
+      "42445188",
+      "18786965",
+      "41067334",
+      "25994180",
+      "30047845",
+      "42467983",
+      "40594603",
+      "41354361",
+      "16432158",
+      "41708701",
+      "42118388",
+      "41111131",
+      "41252394",
+      "23406906",
+      "38393945",
+      "36995131",
+      "40733185",
+      "25856562",
+      "42043606",
+      "26616855",
+      "41795109",
+      "40934970",
+      "17465721",
+      "40466244",
+      "41083417",
+      "39724808",
+      "41962465",
+      "40946487",
+      "35551394",
+      "29842849",
+      "38366102",
+      "22324945",
+      "41506199",
+      "41483313",
+      "29803913",
+      "41963573",
+      "42295684",
+      "41826537",
+      "41533047",
+      "31958792",
+      "40850683",
+      "33582917",
+      "21354845",
+      "41092822",
+      "42511819",
+      "17708739",
+      "40714557",
+      "41444309",
+      "41351698",
+      "41389576",
+      "41505486",
+      "32881084",
+      "41027154",
+      "41337159",
+      "41482061",
+      "31054955",
+      "41497266",
+      "36709441",
+      "42148102",
+      "40548546",
+      "38260445",
+      "40267837",
+      "38151179",
+      "40825424",
+      "41897006",
+      "32733444",
+      "42376479",
+      "25649145",
+      "18784373",
+      "42511731",
+      "41028278",
+      "42332812",
+      "42185552",
+      "40911176",
+      "41465468",
+      "41614803",
+      "41534429",
+      "41663637",
+      "42479253",
+      "39520962",
+      "39715975",
+      "39312210",
+      "42192530",
+      "40549294",
+      "41780347",
+      "16802343"
+    ],
+    "review": [
+      "42136682",
+      "42419186",
+      "42467983",
+      "17465721",
+      "31958792",
+      "17708739"
+    ],
+    "pmc": [
+      "13168006"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42136682/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-IL6R-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1794095",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

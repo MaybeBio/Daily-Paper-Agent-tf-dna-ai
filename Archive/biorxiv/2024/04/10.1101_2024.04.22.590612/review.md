@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, discussion) as provided
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text; no external data or supplementary materials were available for review
+- **Shared manuscript claim summary** The authors report that the acetyltransferase p300 acetylates RPA1 in vitro and in cells, that acetylation levels increase at the G1/S transition and after UV damage, that acetylated RPA is enriched at replication forks, and that acetylation enhances RPA's ssDNA binding affinity, reduces dissociation, and alters melting and annealing activities. They propose that this modification influences DNA metabolic pathway choice, particularly Okazaki fragment processing.
+- **Visible evidence base** Figures 1-8 as described in text; Supplementary Figures 1-6 referenced but not provided; methods sections for protein purification, acetylation, EMSA, BLI, cell culture, and iPOND
+- **Missing materials affecting confidence** Supplementary figures and tables (including mass spectrometry data, antibody validation, cell cycle markers, and raw gel images); exact quantification methods for Western blots; statistical details for EMSA and BLI experiments; raw data for binding constants; details on mutant construction and validation
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and potentially important question regarding the regulation of RPA by acetylation. The identification of p300 as an RPA acetyltransferase and the observation that acetylation enhances ssDNA binding are interesting. However, the manuscript has several significant weaknesses that prevent the conclusions from being fully established. The quantitative data are presented in a limited manner, key controls are missing or inadequately described, and the link between the biochemical observations and the proposed biological implications (pathway choice) is largely speculative. The discrepancy with prior reports is discussed but not experimentally reconciled. The work is likely of interest to specialists in DNA replication and repair, but the current evidence does not robustly support the broad claims made.
+- **Who would be interested in the results, and why** Researchers studying DNA replication, DNA repair, post-translational modifications, and the regulation of genome maintenance proteins. The finding that p300 acetylates RPA and enhances its DNA binding could be of interest to those investigating how acetylation modulates DNA metabolism and how RPA function is regulated in different cellular contexts. The potential link to Okazaki fragment processing and pathway choice may attract interest from the DNA replication community.
+- **Major strengths** The study addresses a relatively under-explored area (RPA acetylation) and identifies a specific acetyltransferase. The combination of in vitro biochemistry, cell-based assays, and site-specific mutagenesis is appropriate. The use of multiple techniques (EMSA, BLI, competition assays, iPOND) to assess binding properties is commendable. The discussion of discrepancies with prior work is thoughtful and acknowledges limitations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and reproducibility
+  - **Claim pointer** The authors claim that p300 acetylates RPA1 at specific lysine residues (K163, K167, K259, K489, K502, K577) based on mass spectrometry.
+  - **Evidence pointer** Results section "In vivo and in vitro acetylation of RPA by acetyltransferase, p300"; Supplementary Figure 1C
+  - **Concern** The mass spectrometry data are only referenced in supplementary material, which was not provided. The stoichiometry of acetylation, the relative abundance of each modified site, and the criteria for site assignment are not described in the main text. Without these details, it is difficult to assess whether the identified sites are functionally relevant or merely minor products of the in vitro reaction. The authors also do not provide quantitative data on the extent of acetylation under different conditions.
+  - **Why it matters** The specific sites of acetylation are central to the mechanistic model proposed. If the identified sites are not reproducibly or stoichiometrically modified, the subsequent mutant analyses and conclusions about binding enhancement are weakened.
+  - **Resolution test** Provide the full mass spectrometry results, including annotated spectra, site localization scores, and relative quantification of acetylation occupancy. Show that the identified sites are consistently modified across multiple experiments and that the extent of modification is sufficient to explain the observed biochemical effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design and controls
+  - **Claim pointer** The authors claim that acetylated RPA shows increased ssDNA binding affinity and slower dissociation compared to unmodified RPA.
+  - **Evidence pointer** Results sections "Acetylation of RPA increases its ssDNA binding affinity" and "Acetylated RPA binds more tightly to its substrate compared to the unmodified form"; Figures 4 and 6
+  - **Concern** The EMSA and BLI experiments lack critical controls. For EMSA, the authors do not show that the acetylation reaction itself (in the absence of acetyl-CoA) does not alter RPA's binding properties. The "RPA+AT" control (RPA incubated with p300 but without acetyl-CoA) is mentioned but not fully described or shown for all experiments. For BLI, the authors report KD values but do not provide the full binding curves or show that the data fit the chosen model. The competition assays in Figure 6 are described qualitatively; the percentage of bound RPA is stated but the raw data and statistical analysis are not shown.
+  - **Why it matters** The central claim of the paper is that acetylation enhances RPA's DNA binding. If the observed differences are due to experimental artifacts (e.g., buffer conditions, protein aggregation, or the presence of p300 in the "acetylated" sample), the conclusion would be invalid. The lack of full quantitative data prevents the reader from evaluating the robustness of the effect.
+  - **Resolution test** Provide representative raw gels and binding curves for all experiments. Include a control where RPA is incubated with p300 in the absence of acetyl-CoA for all binding assays. Show that the acetylation reaction does not lead to protein degradation or aggregation. Provide statistical analysis (e.g., mean ± SD from at least three independent experiments) for all binding measurements.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance and interpretation
+  - **Claim pointer** The authors propose that acetylation of RPA at the G1/S transition and after UV damage regulates DNA metabolic pathway choice, particularly Okazaki fragment processing.
+  - **Evidence pointer** Results sections "RPA is acetylated in response to DNA damage repair" and "Strand Melting and Annealing Properties of RPA are Altered by Lysine Acetylation"; Discussion
+  - **Concern** The cell-based experiments show that acetylation levels change with cell cycle and after UV, but the functional consequences of these changes are not directly tested. The iPOND experiments show that acetylated RPA is present at replication forks, but the resolution of this technique is limited and the authors do not demonstrate that the acetylated form is functionally distinct at the fork. The proposed model for pathway choice (Figure 9) is speculative and not supported by direct experimental evidence. The melting and annealing assays show modest effects that are not clearly linked to a biological outcome.
+  - **Why it matters** The title and introduction promise implications for DNA metabolic pathway choice, but the data do not directly address this. Without functional assays (e.g., replication assays, repair assays, or cell-based complementation with acetylation-deficient mutants), the biological significance of the observed biochemical changes remains unclear.
+  - **Resolution test** Perform experiments that directly test the functional impact of RPA acetylation on replication or repair. For example, use cell lines expressing acetylation-deficient RPA1 mutants and measure replication fork progression, Okazaki fragment processing, or repair efficiency. Alternatively, use in vitro reconstituted replication or repair assays with acetylated RPA to demonstrate a functional difference.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data presentation and rigor
+  - **Claim pointer** The authors claim that acetylation of RPA increases its melting activity and decreases its annealing activity.
+  - **Evidence pointer** Results section "Strand Melting and Annealing Properties of RPA are Altered by Lysine Acetylation"; Figure 8
+  - **Concern** The melting and annealing assays are described in a single paragraph with no quantitative data shown in the text. The figure is not provided, so the reader cannot assess the magnitude of the effects or the quality of the data. The authors state that "there isn't a significant difference" for annealing but then claim that acetylation "seems to favor" annealing at 75 nM. This is contradictory and not supported by statistical analysis. The melting data are described as showing "an increase" but no numbers are given.
+  - **Why it matters** The melting and annealing activities of RPA are important for its proposed role in Okazaki fragment processing. If these effects are small or not reproducible, the model is weakened.
+  - **Resolution test** Provide the full data for the melting and annealing assays, including representative gels, quantification, and statistical analysis. Clarify whether the effects are statistically significant and reproducible across multiple experiments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Methods section "Mammalian Cell Culture"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of cell synchronization is incomplete. The authors state that cells were "arrested in different cell cycle phases" but do not describe how synchronization was verified (e.g., flow cytometry). The G0/G1 arrest by serum starvation is described, but the G1/S arrest by thymidine block is not fully detailed.
+  - **Required correction** Provide details on the synchronization protocol, including the duration of treatments and the method used to confirm cell cycle arrest.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data interpretation
+  - **Affected element** Results section "In vivo and in vitro acetylation of RPA by acetyltransferase, p300"
+  - **Evidence pointer** Figure 1A
+  - **Issue** The authors report a "~2-fold reduction" in RPA1 acetylation in p300 knockout cells, but the statistical significance of this difference is not stated. The Western blot quantification method is not described.
+  - **Required correction** Provide statistical analysis for the acetylation levels and describe the quantification method (e.g., densitometry normalized to total RPA1).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section "BLItz Analysis"
+  - **Evidence pointer** Methods section
+  - **Issue** The BLI experiments are described, but the data analysis is not detailed. The authors do not state how the KD values were calculated or whether a global fit was used.
+  - **Required correction** Describe the data analysis method, including the model used for fitting and the number of independent experiments.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the discrepancy with prior studies (yeast RPA acetylation) is brief and does not fully explore alternative explanations, such as species-specific differences or differences in acetylation sites.
+  - **Required correction** Expand the discussion to consider these alternative explanations and suggest experiments that could resolve the discrepancy.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (mass spectrometry data not provided), R1-M2 (lack of controls and quantitative data for binding assays), R1-M3 (lack of functional validation of biological relevance), R1-M4 (incomplete presentation of melting/annealing data)
+- **Assessment against Nature-style criteria** Originality: The question of RPA acetylation by p300 is relatively novel, and the identification of a specific acetyltransferase adds to the field. However, the concept that acetylation regulates DNA binding proteins is not new, and the specific findings are incremental. Scientific importance: The potential role of RPA acetylation in DNA metabolism is important, but the current data do not establish a clear biological function. The link to pathway choice is speculative. Interdisciplinary readership: The topic is of interest to biochemists, cell biologists, and DNA repair researchers, but the presentation is too specialized for a broad audience. Technical soundness: The biochemical experiments are generally well-designed, but the lack of key controls and quantitative data undermines the conclusions. Readability for nonspecialists: The manuscript is written in a technical style that assumes familiarity with DNA metabolism; the abstract is accessible, but the results and discussion are dense.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the major concerns regarding data availability, controls, and biological relevance must be addressed before the claims can be supported.
+
+## Risk / unsupported claims
+- The claim that p300 is the primary acetyltransferase responsible for RPA acetylation in cells is not fully supported, as the authors acknowledge other acetyltransferases may also contribute.
+- The claim that acetylation at specific lysine residues (K163, K167, K259, K489, K502, K577) is responsible for the observed functional changes is not directly tested; the mutant studies are correlative.
+- The claim that acetylated RPA is enriched at replication forks is based on iPOND data, but the resolution of this technique and the lack of quantitative comparison limit the strength of this conclusion.
+- The proposed model for Okazaki fragment processing pathway choice (Figure 9) is speculative and not directly tested.
+- The statement that acetylation "promotes the long flap pathway" is not supported by any functional data.

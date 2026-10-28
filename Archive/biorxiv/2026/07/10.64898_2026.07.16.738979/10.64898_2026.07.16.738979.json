@@ -1,0 +1,458 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.07.16.738979",
+  "title": "CASCADE recovers promoter-associated regulatory motifs from cell-type-resolved DNA language-model attributions",
+  "doi": "10.64898/2026.07.16.738979",
+  "abstract": "Gene expression is governed by regulatory DNA and their associated trans factors acting in specific cell types, yet the sequences underlying this control remain poorly mapped in plants. Genome-pretrained DNA language models provide a route to interrogate regulatory sequence directly, but their attributions have largely been interpreted using bulk or whole-tissue data, and standard attribution pipelines can preferentially highlight sequences downstream of the transcription start (TSS) site rather than promoter-associated signals. Here, we train a celltype-resolved sequence-to-expression model from a single-cell soybean ( Glycine max ) atlas by coupling a soybean-adapted Genomic Pre-trained Network (GPN) to a shared sequence encoder with 66 cell-type-specific output heads. Across 38,339 protein-coding genes, the model achieves a mean per-cell-type, across-gene Pearson correlation of 0.683 and, recast as a highversus-low expression classification, reaches an area under the ROC curve of 0.92 to 0.97 across tissues, at or above dedicated plant sequence models. We then introduce ContextAware Significance of Cross-gene Attribution for Discovering Elements (CASCADE), a positionspecific statistical framework for identifying model-derived candidate regulatory elements from in silico saturation mutagenesis. Relative to the pooled null used by TF-MoDISco, CASCADE shifts motif recovery from downstream of the transcription start site toward promoter sequence, with 77% of CASCADE-exclusive motifs, compared with 12% of TF-MoDISco-exclusive motifs, falling within the promoter. Applied across the atlas, CASCADE identifies approximately 1.39 million candidate elements spanning broadly active, tissue-restricted and cell-type-restricted classes. Together, these analyses establish a position-aware approach for extracting promoterassociated regulatory hypotheses from sequence models and generate a cell-type-resolved map of candidate cis -regulatory elements.",
+  "authors": [
+    "Ali Farghadan",
+    "Robert J. Schmitz",
+    "Scott A. Jackson",
+    "Ethan Pickering"
+  ],
+  "published_date": "2026-07-17",
+  "updated_date": "2026-07-17T14:15:20Z",
+  "journal": "bioRxiv",
+  "category": "Plant Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.07.16.738979",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.16.738979.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Plant Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Plant Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            21
+          ]
+        ],
+        "date-time": "2026-07-21T00:06:27Z",
+        "timestamp": 1784592387639,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            17
+          ]
+        ]
+      },
+      "group-title": "Plant Biology",
+      "reference-count": 42,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                17
+              ]
+            ],
+            "date-time": "2026-07-17T00:00:00Z",
+            "timestamp": 1784246400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "National Science Foundation",
+          "award": [
+            "IOS-1856627"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "IOS-1856627"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            17
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Gene expression is governed by regulatory DNA and their associated trans factors acting in specific cell types, yet the sequences underlying this control remain poorly mapped in plants. Genome-pretrained DNA language models provide a route to interrogate regulatory sequence directly, but their attributions have largely been interpreted using bulk or whole-tissue data, and standard attribution pipelines can preferentially highlight sequences downstream of the transcription start (TSS) site rather than promoter-associated signals. Here, we train a celltype-resolved sequence-to-expression model from a single-cell soybean (\n                  <jats:italic>Glycine max</jats:italic>\n                  ) atlas by coupling a soybean-adapted Genomic Pre-trained Network (GPN) to a shared sequence encoder with 66 cell-type-specific output heads. Across 38,339 protein-coding genes, the model achieves a mean per-cell-type, across-gene Pearson correlation of 0.683 and, recast as a highversus-low expression classification, reaches an area under the ROC curve of 0.92 to 0.97 across tissues, at or above dedicated plant sequence models. We then introduce ContextAware Significance of Cross-gene Attribution for Discovering Elements (CASCADE), a positionspecific statistical framework for identifying model-derived candidate regulatory elements from\n                  <jats:italic>in silico</jats:italic>\n                  saturation mutagenesis. Relative to the pooled null used by TF-MoDISco, CASCADE shifts motif recovery from downstream of the transcription start site toward promoter sequence, with 77% of CASCADE-exclusive motifs, compared with 12% of TF-MoDISco-exclusive motifs, falling within the promoter. Applied across the atlas, CASCADE identifies approximately 1.39 million candidate elements spanning broadly active, tissue-restricted and cell-type-restricted classes. Together, these analyses establish a position-aware approach for extracting promoterassociated regulatory hypotheses from sequence models and generate a cell-type-resolved map of candidate\n                  <jats:italic>cis</jats:italic>\n                  -regulatory elements.\n                </jats:p>",
+      "DOI": "10.64898/2026.07.16.738979",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            17
+          ]
+        ],
+        "date-time": "2026-07-17T14:15:20Z",
+        "timestamp": 1784297720000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "CASCADE recovers promoter-associated regulatory motifs from cell-type-resolved DNA language-model attributions"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Ali",
+          "family": "Farghadan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Crop and Soil Sciences, University of Georgia, Athens, GA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Robert J.",
+          "family": "Schmitz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Genetics, University of Georgia, Athens, GA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Scott A.",
+          "family": "Jackson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Crop and Soil Sciences, University of Georgia, Athens, GA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ethan",
+          "family": "Pickering",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Crop and Soil Sciences, University of Georgia, Athens, GA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.1",
+          "unstructured": "Julius Adebayo , Justin Gilmer , Michael Muelly , Ian Goodfellow , Moritz Hardt , and Been Kim . Sanity checks for saliency maps. In Advances in Neural Information Processing Systems (NeurIPS), 2018."
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-022-02811-x"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2020.107663"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01252-x"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-021-00782-6"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-025-10014-0"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2311219120"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.05.28.596138"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2303836120"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-025-03782-5"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/embr.201948220"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-025-02854-5"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-023-01574-w"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-023-02899-9"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.15",
+          "article-title": "Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability",
+          "year": "2025",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-026-03102-0"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/plcell/koaf279"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-024-02053-6"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41477-021-00858-5"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41477-019-0548-z"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.21",
+          "first-page": "131",
+          "article-title": "Selecting deep neural networks that yield consistent attribution-based interpretations for genomics",
+          "volume": "200",
+          "year": "2022",
+          "journal-title": "In Proceedings of Machine Learning Research"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2021.04.014"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42003-024-06465-2"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3605"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fbinf.2024.1347276"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41576-022-00532-2"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-017-1273-4"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-47744-0"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-024-02414-w"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41477-019-0547-0"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1525244113"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2017.08.030"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.19.00279"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0164-5"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08670"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/18.20.6097"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.37",
+          "article-title": "Technical note on transcription factor motif discovery from importance scores (TF-MoDISco), version 0.5.6.5",
+          "year": "2018",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-022-00570-9"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-025-09251-0"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.01.08.574753"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2024.11.016"
+        },
+        {
+          "key": "2026072016351482000_2026.07.16.738979v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.xgen.2025.100875"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.07.16.738979",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            20
+          ]
+        ],
+        "date-time": "2026-07-20T23:35:22Z",
+        "timestamp": 1784590522000
+      },
+      "score": 72.908844,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.07.16.738979"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            17
+          ]
+        ]
+      },
+      "references-count": 42,
+      "URL": "https://doi.org/10.64898/2026.07.16.738979",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

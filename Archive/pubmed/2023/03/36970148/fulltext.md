@@ -1,0 +1,5 @@
+# Structural rationalization of GSPT1 and IKZF1 degradation by thalidomide molecular glue derivatives†
+
+
+## Abstract
+  Thalidomide and its derivatives are molecular glues that bind cereblon (CRBN), a component of an E3 ubiquitin ligase complex, and mediate protein interactions with neosubstrates resulting in their polyubiquitination and proteasomal degradation. The structural features of neosubstrate binding have been elucidated that highlight key interactions with a β-hairpin degron containing a glycine, which is present in a wide-range of proteins, including zinc-finger transcription factors such as IKZF1, and the translation termination factor GSPT1. Here, we profile 14 closely-related thalidomide derivatives in CRBN occupancy, and IKZF1 and GSPT1 degradation cell-based assays, and use crystal structures, computational docking and molecular dynamics to delineate subtle structure–activity relationships. Our findings will enable the rational design of CRBN modulators in the future, and help avoid the degradation of GSPT1 which is broadly cytotoxic.

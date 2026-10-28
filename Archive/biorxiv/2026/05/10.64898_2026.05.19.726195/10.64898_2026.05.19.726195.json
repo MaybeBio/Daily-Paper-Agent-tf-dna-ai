@@ -1,0 +1,654 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.05.19.726195",
+  "title": "Spatiotemporal graph neural networks reveal conformational binding signature in protein dynamics",
+  "doi": "10.64898/2026.05.19.726195",
+  "abstract": "Biomolecular function is often controlled by structural and dynamical adaptations to binding events. Although molecular dynamics (MD) simulations can capture these events at atomic resolution, separating functional signatures from stochastic noise remains challenging. Traditional methods often struggle to isolate mechanistically relevant differences across independent replicas. Here, we introduce an explainable deep learning approach that learns state-specific dynamic signatures directly from MD trajectories. By coupling a dynamic protein graph representation with group-aware contrastive learning across independent replicas, the model detects the signatures, filtering out trajectory-specific correlations. An explainable AI framework then maps the identified differences on individual residues. We demonstrate this approach by identifying “binding-ready” conformations in a T4-Lysozyme mutant, recovering the allosteric determinants of peptide recognition in the PDZ3 domain, and isolating a ligand-independent activation signature for the A2A receptor. Our GISTnet-MD method generalizes across unseen data during comparative MD analysis, translating raw trajectory differences into residue-level determinants of protein function.",
+  "authors": [
+    "Stefano Motta",
+    "Gianluca Santini",
+    "Samman Mansoor",
+    "Ferdoos Hossein Nezhad",
+    "Massimiliano Meli",
+    "Alessandro Pandini"
+  ],
+  "published_date": "2026-05-21",
+  "updated_date": "2026-05-21T23:25:14Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.05.19.726195",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.19.726195.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T15:17:08Z",
+        "timestamp": 1785424628770,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 52,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                21
+              ]
+            ],
+            "date-time": "2026-05-21T00:00:00Z",
+            "timestamp": 1779321600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "1298983"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "1298983"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/005gjjf63",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "IEC\\R2\\242053"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "IEC\\R2\\242053"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/03wnrjx87",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Biomolecular function is often controlled by structural and dynamical adaptations to binding events. Although molecular dynamics (MD) simulations can capture these events at atomic resolution, separating functional signatures from stochastic noise remains challenging. Traditional methods often struggle to isolate mechanistically relevant differences across independent replicas. Here, we introduce an explainable deep learning approach that learns state-specific dynamic signatures directly from MD trajectories. By coupling a dynamic protein graph representation with group-aware contrastive learning across independent replicas, the model detects the signatures, filtering out trajectory-specific correlations. An explainable AI framework then maps the identified differences on individual residues. We demonstrate this approach by identifying “binding-ready” conformations in a T4-Lysozyme mutant, recovering the allosteric determinants of peptide recognition in the PDZ3 domain, and isolating a ligand-independent activation signature for the A2A receptor. Our GISTnet-MD method generalizes across unseen data during comparative MD analysis, translating raw trajectory differences into residue-level determinants of protein function.</jats:p>",
+      "DOI": "10.64898/2026.05.19.726195",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ],
+        "date-time": "2026-05-21T23:25:14Z",
+        "timestamp": 1779405914000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Spatiotemporal graph neural networks reveal conformational binding signature in protein dynamics"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0812-6834",
+          "authenticated-orcid": false,
+          "given": "Stefano",
+          "family": "Motta",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Earth and Environmental Sciences, University of Milano-Bicocca, Milan, 20126, Italy"
+            },
+            {
+              "name": "Inter-University Center for the Promotion of the 3Rs Principles in Teaching & Research (Centro 3R), Pisa, 56122, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gianluca",
+          "family": "Santini",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Earth and Environmental Sciences, University of Milano-Bicocca, Milan, 20126, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3367-7566",
+          "authenticated-orcid": false,
+          "given": "Samman",
+          "family": "Mansoor",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Earth and Environmental Sciences, University of Milano-Bicocca, Milan, 20126, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-9892-7662",
+          "authenticated-orcid": false,
+          "given": "Ferdoos Hossein",
+          "family": "Nezhad",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Brunel University of London, Uxbridge UB8 3PH, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3304-6104",
+          "authenticated-orcid": false,
+          "given": "Massimiliano",
+          "family": "Meli",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Istituto di Scienze e Tecnologie Chimiche “Giulio Natta” - SCITEC, Consiglio Nazionale delle Ricerche, Milano 20131, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4158-233X",
+          "authenticated-orcid": false,
+          "given": "Alessandro",
+          "family": "Pandini",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Brunel University of London, Uxbridge UB8 3PH, United Kingdom"
+            },
+            {
+              "name": "The Thomas Young Centre for Theory and Simulation of Materials, London SW7 2AZ, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "2053",
+          "DOI": "10.1016/j.str.2016.08.019",
+          "article-title": "Distinct Roles for Conformational Dynamics in Protein-Ligand Interactions",
+          "volume": "24",
+          "year": "2016",
+          "journal-title": "Structure"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "e17",
+          "DOI": "10.1017/S0033583525100061",
+          "article-title": "Allostery: allosteric networks and allosteric signaling bias",
+          "volume": "58",
+          "year": "2025",
+          "journal-title": "Q. Rev. Biophys"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.5b00590"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2025.104466"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "1661",
+          "DOI": "10.1038/s41467-022-29331-3",
+          "article-title": "Neural relational inference to learn long-range allosteric interactions in proteins from molecular dynamics simulations",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sittel, F. & Stock, G. Perspective: Identification of collective variables and metastable states of protein dynamics. J. Chem. Phys. 149, (2018).",
+          "DOI": "10.1063/1.5049637"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.0c01195"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "1716",
+          "DOI": "10.1016/j.bpj.2016.03.026",
+          "article-title": "Markov State Models and tICA Reveal a Nonnative Folding Nucleus in Simulations of NuG2",
+          "volume": "110",
+          "year": "2016",
+          "journal-title": "Biophys. J"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.9",
+          "first-page": "273",
+          "article-title": "MDContactCom: a tool to identify differences of protein molecular dynamics from two MD simulation trajectories in terms of interresidue contacts",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct300377a"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sakuraba, S. & Kono, H. Spotting the difference in molecular dynamics simulations of biomolecules. Journal of Chemical Physics 145, (2016).",
+          "DOI": "10.1063/1.4961227"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mardt, A. , Pasquali, L. , Wu, H. & Noé, F. VAMPnets for deep learning of molecular kinetics. Nat. Commun. 9, (2018).",
+          "DOI": "10.1038/s41467-017-02388-1"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bonati, L. , Piccini, G. & Parrinello, M. Deep learning the slow modes for rare events sampling. 118, (2021).",
+          "DOI": "10.1073/pnas.2113533118"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.14",
+          "first-page": "211",
+          "article-title": "A graph neural network-state predictive information bottleneck (GNN-SPIB) approach for learning molecular thermodynamics and kinetics",
+          "volume": "4",
+          "year": "2024",
+          "journal-title": "Digital Discovery"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ray, D. , Trizio, E. & Parrinello, M. Deep learning collective variables from transition path ensemble. Journal of Chemical Physics 158, (2023).",
+          "DOI": "10.1063/5.0148872"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ward, M. D. et al. Deep learning the structural determinants of protein biochemical properties by comparing structural ensembles with DiffNets. Nat. Commun. 12, (2021).",
+          "DOI": "10.1038/s41467-021-23246-1"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "103238",
+          "DOI": "10.1016/j.sbi.2026.103238",
+          "article-title": "Graph neural networks for molecular dynamics simulations",
+          "volume": "97",
+          "year": "2026",
+          "journal-title": "Curr. Opin. Struct. Biol"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hossein Nezhad, F. , Oues, N. , Meli, M. & Pandini, A. MDGraphEmb: A toolkit for graph embedding and classification of protein conformational ensembles. Bioinformatics 41, (2025).",
+          "DOI": "10.1093/bioinformatics/btaf420"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "1855",
+          "DOI": "10.1038/s41467-026-69715-3",
+          "article-title": "Extending the range of graph neural networks with global encodings",
+          "volume": "17",
+          "year": "2026",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "2355",
+          "DOI": "10.1021/acs.jctc.0c01343",
+          "article-title": "TorchMD: A Deep Learning Framework for Molecular Simulations",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.11.01.621466"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Prašnikar, E. , Ljubič, M. , Perdih, A. & Borišek, J. Machine learning heralding a new development phase in molecular dynamics simulations. Artif. Intell. Rev. 57, (2024).",
+          "DOI": "10.1007/s10462-024-10731-4"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.15320286"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "234118",
+          "DOI": "10.1063/5.0030931",
+          "article-title": "Confronting pitfalls of AI-augmented molecular dynamics using statistical physics",
+          "volume": "153",
+          "year": "2020",
+          "journal-title": "J. Chem. Phys"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.8b00391"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, X. et al. Integrative residue-intuitive machine learning and MD Approach to Unveil Allosteric Site and Mechanism for β2AR. Nature Communications 15, (2024).",
+          "DOI": "10.1038/s41467-024-52399-y"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bacci, M. , Caflisch, A. & Vitalis, A. On the removal of initial state bias from simulation data. Journal of Chemical Physics 150, (2019).",
+          "DOI": "10.1063/1.5063556"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bonneau, K. et al. Breaking the Barriers of Molecular Dynamics With Deep-Learning: Opportunities, Pitfalls, and How to Navigate Them. WIREs Computational Molecular Science 16, (2026).",
+          "DOI": "10.1002/wcms.70064"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.29",
+          "unstructured": "Mulder, F. A. A. , Mittermaier, A. , Hon, B. , Dahlquist, F. W. & Kay, L. E. Studying Excited States of Proteins by NMR Spectroscopy. http://structbio.nature.com (2001)."
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1553543"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1997.1606"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms23031454"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gerek, Z. N. & Ozkan, S. B. Change in allosteric network affects binding affinities of PDZ domains: Analysis through perturbation response scanning. PLoS Comput. Biol. 7, (2011).",
+          "DOI": "10.1371/journal.pcbi.1002154"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi062088k"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.35",
+          "unstructured": "Petit, C. M. , Zhang, J. , Sapienza, P. J. , Fuentes, E. J. & Lee, A. L. Hidden Dynamic Allostery in a PDZ Domain. www.pnas.orgcgidoi10.1073pnas.0904492106."
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2017.12.013"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fphar.2017.00898"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/bph.v179.14/issuetoc"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bies.201700072"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schütt, K. T. , Sauceda, H. E. , Kindermans, P.-J. , Tkatchenko, A. & Müller, K.-R. SchNet – A deep learning architecture for molecules and materials. J. Chem. Phys. 148, (2018).",
+          "DOI": "10.1063/1.5019779"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-020-0884-y"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1006180"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature10349"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "3602",
+          "DOI": "10.1039/C5SC03886C",
+          "article-title": "Atomistic picture of conformational exchange in a t4 lysozyme cavity mutant: An experiment-guided molecular dynamics study",
+          "volume": "7",
+          "year": "2016",
+          "journal-title": "Chem. Sci"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Murciano-Calles, J. , Corbi-Verge, C. , Candel, A. M. , Luque, I. & Martinez, J. C. Post-translational modifications modulate ligand recognition by the third PDZ domain of the MAGUK protein PSD-95. PLoS One 9, (2014).",
+          "DOI": "10.1371/journal.pone.0090030"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct500326g"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.CHEMPR.2024.08.004"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "4059",
+          "DOI": "10.1021/acs.biochem.0c00626",
+          "article-title": "Activation microswitches in adenosine receptor A2a function as rheostats in the cell membrane",
+          "volume": "59",
+          "year": "2020",
+          "journal-title": "Biochemistry"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bruzzese, A. , Dalton, J. A. R. & Giraldo, J. Insights into adenosine A2A receptor activation through cooperative modulation of agonist and allosteric lipid interactions. PLoS Comput. Biol. 16, (2020).",
+          "DOI": "10.1371/journal.pcbi.1007818"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "1415",
+          "DOI": "10.1021/acsptsci.4c00051",
+          "article-title": "Structural Insights into Partial Activation of the Prototypic G Protein-Coupled Adenosine A2A Receptor",
+          "volume": "7",
+          "year": "2024",
+          "journal-title": "ACS Pharmacol. Transl. Sci"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.51",
+          "first-page": "15421",
+          "volume-title": "in Advances in Neural Information Processing Systems",
+          "volume": "34",
+          "year": "2021"
+        },
+        {
+          "key": "2026052501001182000_2026.05.19.726195v1.52",
+          "unstructured": "Axiomatic attribution for deep networks | Proceedings of the 34th International Conference on Machine Learning - Volume 70. https://dl.acm.org/doi/10.5555/3305890.3306024."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.05.19.726195",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            25
+          ]
+        ],
+        "date-time": "2026-05-25T08:00:22Z",
+        "timestamp": 1779696022000
+      },
+      "score": 123.54708,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.05.19.726195"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ]
+      },
+      "references-count": 52,
+      "URL": "https://doi.org/10.64898/2026.05.19.726195",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

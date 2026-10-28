@@ -1,0 +1,387 @@
+{
+  "identity": {
+    "pmid": "36985402",
+    "doi": "10.3390/molecules28062430",
+    "title": "Exploring the Potential of Phytocompounds for Targeting Epigenetic Mechanisms in Rheumatoid Arthritis: An In Silico Study Using Similarity Indexing."
+  },
+  "content": {
+    "abstract": "Finding structurally similar compounds in compound databases is highly efficient and is widely used in present-day drug discovery methodology. The most-trusted and -followed similarity indexing method is Tanimoto similarity indexing. Epigenetic proteins like histone deacetylases (HDACs) inhibitors are traditionally used to target cancer, but have only been investigated very recently for their possible effectiveness against rheumatoid arthritis (RA). The synthetic drugs that have been identified and used for the inhibition of HDACs include SAHA, which is being used to inhibit the activity of HDACs of different classes. SAHA was chosen as a compound of high importance as it is reported to inhibit the activity of many HDAC types. Similarity searching using the UNPD database as a reference identified aglaithioduline from the Aglaia leptantha compound as having a ~70% similarity of molecular fingerprints with SAHA, based on the Tanimoto indexing method using ChemmineR. Aglaithioduline is abundantly present in the shell and fruits of A. leptantha. In silico studies with aglaithioduline were carried out against the HDAC8 protein target and showed a binding affinity of -8.5 kcal mol. The complex was further subjected to molecular dynamics simulation using Gromacs. The RMSD, RMSF, compactness and SASA plots of the target with aglaithioduline, in comparison with the co-crystallized ligand (SAHA) system, showed a very stable configuration. The results of the study are supportive of the usage of A. leptantha and A. edulis in Indian traditional medicine for the treatment of pain-related ailments similar to RA. Our study therefore calls for further investigation of A. leptantha and A. edulis for their potential use against RA by targeting epigenetic changes, using in vivo and in vitro studies.",
+    "keywords": [
+      "Aglaia edulis",
+      "Aglaia leptantha",
+      "molecular docking",
+      "molecular dynamics",
+      "rheumatoid arthritis",
+      "similarity indexing",
+      "traditional medicine"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Histone Deacetylase Inhibitors/pharmacology/chemistry",
+      "Amides",
+      "Molecular Dynamics Simulation",
+      "Epigenesis, Genetic",
+      "*Arthritis, Rheumatoid/drug therapy/genetics",
+      "Molecular Docking Simulation",
+      "Histone Deacetylases/genetics",
+      "Repressor Proteins",
+      "Sulfides"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Deshpande, Sanjay H",
+        "Bagewadi, Zabin K",
+        "Khan, T M Yunus",
+        "Mahnashi, Mater H",
+        "Shaikh, Ibrahim Ahmed",
+        "Alshehery, Sultan",
+        "Khan, Aejaz A",
+        "Patil, Vishal S",
+        "Roy, Subarna"
+      ],
+      "short_names": [
+        "Deshpande SH",
+        "Bagewadi ZK",
+        "Khan TMY",
+        "Mahnashi MH",
+        "Shaikh IA",
+        "Alshehery S",
+        "Khan AA",
+        "Patil VS",
+        "Roy S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6951-6767",
+        "ORCID: 0000-0002-6650-7045",
+        "ORCID: 0000-0002-9242-7591",
+        "ORCID: 0000-0002-4837-3653",
+        "ORCID: 0000-0001-9812-2628",
+        "ORCID: 0000-0002-3655-7594",
+        "ORCID: 0000-0002-5731-7522",
+        "ORCID: 0000-0002-1219-1962",
+        "ORCID: 0000-0002-6594-8615"
+      ],
+      "affiliations": [
+        "Department of Biotechnology, KLE Technological University, Hubballi 580031, India.",
+        "Department of Biotechnology, KLE Technological University, Hubballi 580031, India.",
+        "Department of Mechanical Engineering, College of Engineering, King Khalid University, Abha 61421, Saudi Arabia.",
+        "Department of Pharmaceutical Chemistry, College of Pharmacy, Najran University, Najran 66462, Saudi Arabia.",
+        "Department of Pharmacology, College of Pharmacy, Najran University, Najran 66462, Saudi Arabia.",
+        "Department of Mechanical Engineering, College of Engineering, King Khalid University, Abha 61421, Saudi Arabia.",
+        "Department of General Science, Ibn Sina National College for Medical Studies, Jeddah 22421, Saudi Arabia.",
+        "ICMR-National Institute of Traditional Medicine, Belagavi 590010, India.",
+        "ICMR-National Institute of Traditional Medicine, Belagavi 590010, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Deshpande, Sanjay H",
+        "short_name": "Deshpande SH",
+        "identifiers": [
+          "0000-0001-6951-6767"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, KLE Technological University, Hubballi 580031, India."
+        ]
+      },
+      {
+        "full_name": "Bagewadi, Zabin K",
+        "short_name": "Bagewadi ZK",
+        "identifiers": [
+          "0000-0002-6650-7045"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, KLE Technological University, Hubballi 580031, India."
+        ]
+      },
+      {
+        "full_name": "Khan, T M Yunus",
+        "short_name": "Khan TMY",
+        "identifiers": [
+          "0000-0002-9242-7591"
+        ],
+        "affiliations": [
+          "Department of Mechanical Engineering, College of Engineering, King Khalid University, Abha 61421, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Mahnashi, Mater H",
+        "short_name": "Mahnashi MH",
+        "identifiers": [
+          "0000-0002-4837-3653"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, College of Pharmacy, Najran University, Najran 66462, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Shaikh, Ibrahim Ahmed",
+        "short_name": "Shaikh IA",
+        "identifiers": [
+          "0000-0001-9812-2628"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, College of Pharmacy, Najran University, Najran 66462, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alshehery, Sultan",
+        "short_name": "Alshehery S",
+        "identifiers": [
+          "0000-0002-3655-7594"
+        ],
+        "affiliations": [
+          "Department of Mechanical Engineering, College of Engineering, King Khalid University, Abha 61421, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Khan, Aejaz A",
+        "short_name": "Khan AA",
+        "identifiers": [
+          "0000-0002-5731-7522"
+        ],
+        "affiliations": [
+          "Department of General Science, Ibn Sina National College for Medical Studies, Jeddah 22421, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Patil, Vishal S",
+        "short_name": "Patil VS",
+        "identifiers": [
+          "0000-0002-1219-1962"
+        ],
+        "affiliations": [
+          "ICMR-National Institute of Traditional Medicine, Belagavi 590010, India."
+        ]
+      },
+      {
+        "full_name": "Roy, Subarna",
+        "short_name": "Roy S",
+        "identifiers": [
+          "0000-0002-6594-8615"
+        ],
+        "affiliations": [
+          "ICMR-National Institute of Traditional Medicine, Belagavi 590010, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2023 Mar 7",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/30 06:00",
+    "fetched_at": "2026-09-28 22:11:42"
+  },
+  "links": {
+    "cites": [
+      "42538127",
+      "41245790"
+    ],
+    "refs": [
+      "36716649",
+      "36686654",
+      "36681222",
+      "36582536",
+      "35847316",
+      "35667894",
+      "35604288",
+      "35401513",
+      "35164341",
+      "34278794",
+      "34058326",
+      "33130371",
+      "31777685",
+      "30173215",
+      "30109435",
+      "29533817",
+      "29100385",
+      "28681927",
+      "26592129",
+      "25860834",
+      "25122524",
+      "24850022",
+      "23891838",
+      "23808911",
+      "23638153",
+      "23383724",
+      "19499576",
+      "19053282",
+      "18551192",
+      "18455682",
+      "18157733",
+      "17721440",
+      "17522671",
+      "17212484",
+      "15534697",
+      "15242608",
+      "14701748",
+      "12653495",
+      "11123888",
+      "10926844",
+      "10922473",
+      "10748112",
+      "10661563",
+      "10638745"
+    ],
+    "similar": [
+      "36985402",
+      "36369945",
+      "31748509",
+      "30064501",
+      "29150330",
+      "24888409",
+      "35862239",
+      "31151320",
+      "31793143",
+      "37776441",
+      "28102705",
+      "27374062",
+      "22272142",
+      "30347148",
+      "32715940",
+      "21952924",
+      "22182579",
+      "22907916",
+      "32886033",
+      "29447615",
+      "30417746",
+      "32151834",
+      "28682229",
+      "27062198",
+      "29533873",
+      "28639720",
+      "27750186",
+      "33686739",
+      "30633630",
+      "35419753",
+      "25874326",
+      "30369061",
+      "31900046",
+      "33930743",
+      "29992822",
+      "35224862",
+      "30938574",
+      "29775968",
+      "30145395",
+      "32672458",
+      "25763653",
+      "23591111",
+      "28987602",
+      "32591593",
+      "31630054",
+      "28925878",
+      "27542119",
+      "29190092",
+      "32357815",
+      "34297326",
+      "28607401",
+      "23697938",
+      "24079912",
+      "35886887",
+      "33691240",
+      "32658783",
+      "34509167",
+      "30836926",
+      "26595183",
+      "31267876",
+      "25407689",
+      "28648461",
+      "27665180",
+      "21417297",
+      "34478925",
+      "32180123",
+      "33848944",
+      "29807520",
+      "33743782",
+      "20656379",
+      "33131428",
+      "25241128",
+      "28632421",
+      "37969010",
+      "28496307",
+      "20816742",
+      "21898820",
+      "36242988",
+      "34500130",
+      "31421254",
+      "23893931",
+      "32578494",
+      "23725164",
+      "26625202",
+      "34959179",
+      "21712146",
+      "30594678",
+      "25663090",
+      "30047845",
+      "27502208",
+      "26876786",
+      "26149591",
+      "31132976",
+      "27774878",
+      "27668885",
+      "23672185",
+      "39039678",
+      "38675404"
+    ],
+    "review": [
+      "36985402",
+      "31793143",
+      "28102705",
+      "28682229",
+      "23697938",
+      "33691240",
+      "30594678"
+    ],
+    "pmc": [
+      "10051859"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules28062430",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36985402/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36985402",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

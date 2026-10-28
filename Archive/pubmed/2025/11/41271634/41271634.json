@@ -1,0 +1,424 @@
+{
+  "identity": {
+    "pmid": "41271634",
+    "doi": "10.1038/s41419-025-08153-3",
+    "title": "UCHL3 depletion inhibits gastric cancer progression and enhances palbociclib sensitivity by regulating the AKT/CCND1 signaling axis via ENO1 ubiquitination."
+  },
+  "content": {
+    "abstract": "Ubiquitin carboxyl-terminal hydrolase L3 (UCHL3) is a deubiquitinating enzyme involved in various cancers, yet its role in gastric cancer (GC) requires further exploration. This study primarily investigates the expression, function, and mechanisms of UCHL3 in GC. Clinical samples and bioinformatics analysis indicated that UCHL3 is overexpressed in GC tissues compared to adjacent normal tissues, with higher expression levels correlating with worse prognosis. Functional assays demonstrated that UCHL3 promotes GC cell proliferation, invasion, and migration, accelerates cell cycle progression, and induces epithelial-mesenchymal transition (EMT). In vivo studies using a cell line-derived xenograft (CDX) model confirmed that UCHL3 enhances GC proliferation, and its therapeutic potential was validated in patient-derived xenografts (PDX). Mechanistically, transcriptomic analysis and validation experiments identified the AKT/CCND1 signaling pathway as a key mediator of UCHL3-driven GC progression. Co-immunoprecipitation (Co-IP) and liquid chromatography-mass spectrometry identified potential UCHL3-binding proteins, notably the AKT activator ENO1. Molecular docking simulations, Co-IP, and GST-pull down assays further confirmed the interaction, mapping the binding regions between UCHL3 (AA 179-230) and ENO1 (AA 140-434). Cycloheximide (CHX) and in vivo ubiquitination assays demonstrated that UCHL3 deubiquitinates and stabilizes ENO1, thus extending its half-life, while UCHL3 inhibition produced the opposite effect. A C95A point mutation significantly impaired UCHL3's deubiquitination function on ENO1. Further studies revealed UCHL3 removes K48-linked polyubiquitin chains from ENO1 at lysine 92, activating the AKT/CCND1 signaling pathway. In addition, the small-molecule inhibitor TCID, specific for UCHL3, inhibited this deubiquitination, counteracting pro-tumorigenic effects. In vitro and in vivo experiments demonstrated that TCID increased the sensitivity of GC cells to CDK4/6 inhibitors palbociclib. These findings suggest that UCHL3 contributes to GC progression and represents a promising therapeutic target for GC treatment.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Ubiquitin Thiolesterase/metabolism/genetics",
+      "*Stomach Neoplasms/pathology/genetics/drug therapy/metabolism",
+      "Animals",
+      "Ubiquitination/drug effects",
+      "*Proto-Oncogene Proteins c-akt/metabolism",
+      "Signal Transduction/drug effects",
+      "Mice",
+      "Disease Progression",
+      "*Cyclin D1/metabolism",
+      "*Piperazines/pharmacology/therapeutic use",
+      "Cell Line, Tumor",
+      "*Tumor Suppressor Proteins/metabolism/genetics",
+      "*Phosphopyruvate Hydratase/metabolism/genetics",
+      "*Pyridines/pharmacology/therapeutic use",
+      "*DNA-Binding Proteins/metabolism",
+      "Cell Proliferation/drug effects",
+      "Epithelial-Mesenchymal Transition/drug effects",
+      "Mice, Nude",
+      "Female",
+      "Male",
+      "Cell Movement/drug effects",
+      "Gene Expression Regulation, Neoplastic",
+      "Biomarkers, Tumor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Weiqi",
+        "Zhou, Ling",
+        "Le, Yi",
+        "He, Yan",
+        "Zhou, Juanjuan",
+        "Zhang, Hongjiao",
+        "Zhan, Jinbo",
+        "Hu, Tingting",
+        "Wang, Jingru",
+        "Lin, Yun",
+        "Yu, Haiming",
+        "Xiong, Jianping",
+        "Fang, Ziling",
+        "Xiang, Xiaojun"
+      ],
+      "short_names": [
+        "Liu W",
+        "Zhou L",
+        "Le Y",
+        "He Y",
+        "Zhou J",
+        "Zhang H",
+        "Zhan J",
+        "Hu T",
+        "Wang J",
+        "Lin Y",
+        "Yu H",
+        "Xiong J",
+        "Fang Z",
+        "Xiang X"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-2626-4870",
+        "ORCID: 0000-0002-3674-156X",
+        "ORCID: 0000-0002-8734-584X"
+      ],
+      "affiliations": [
+        "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China.",
+        "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China.",
+        "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China.",
+        "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China.",
+        "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China.",
+        "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China.",
+        "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China.",
+        "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China.",
+        "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China.",
+        "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China.",
+        "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China.",
+        "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China.",
+        "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China. ndyfy5399@ncu.edu.cn.",
+        "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China. xjxiang_nc@ncu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Weiqi",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Ling",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Le, Yi",
+        "short_name": "Le Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "He, Yan",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Juanjuan",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hongjiao",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Jinbo",
+        "short_name": "Zhan J",
+        "identifiers": [
+          "0009-0000-2626-4870"
+        ],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Hu, Tingting",
+        "short_name": "Hu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jingru",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Lin, Yun",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Yu, Haiming",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Jianping",
+        "short_name": "Xiong J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Fang, Ziling",
+        "short_name": "Fang Z",
+        "identifiers": [
+          "0000-0002-3674-156X"
+        ],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China. ndyfy5399@ncu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xiang, Xiaojun",
+        "short_name": "Xiang X",
+        "identifiers": [
+          "0000-0002-8734-584X"
+        ],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, Jiangxi Province, P.R. China. xjxiang_nc@ncu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell death & disease"
+    ],
+    "journal_abbrev": [
+      "Cell Death Dis"
+    ],
+    "pub_date": "2025 Nov 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/22 00:27",
+    "fetched_at": "2026-10-01 06:34:37"
+  },
+  "links": {
+    "cites": [
+      "42671335",
+      "42205202",
+      "42196455"
+    ],
+    "refs": [
+      "38092274",
+      "37555915",
+      "36969045",
+      "36813921",
+      "36803368",
+      "36755269",
+      "35982377",
+      "35513377",
+      "34459131",
+      "34335983",
+      "33616859",
+      "33592120",
+      "33538338",
+      "33369721",
+      "33194042",
+      "32546741",
+      "32357912",
+      "31998699",
+      "31957179",
+      "31449841",
+      "31351869",
+      "31113933",
+      "30559450",
+      "30478914",
+      "29729292",
+      "29679476",
+      "29483206",
+      "29080080",
+      "28741274",
+      "27217383",
+      "27020857",
+      "21376230",
+      "16734731",
+      "16603719"
+    ],
+    "similar": [
+      "41271634",
+      "34335983",
+      "30582908",
+      "41168198",
+      "38897160",
+      "39717922",
+      "38829550",
+      "41063235",
+      "39576845",
+      "25951350",
+      "40165038",
+      "25887760",
+      "41013721",
+      "30896071",
+      "40303285",
+      "30953349",
+      "40701248",
+      "31113933",
+      "38965582",
+      "41410498",
+      "33032635",
+      "41328768",
+      "39873948",
+      "40689350",
+      "40499689",
+      "38823761",
+      "31924214",
+      "33067426",
+      "39938178",
+      "38517039",
+      "32226539",
+      "39615883",
+      "27996156",
+      "31218757",
+      "38474064",
+      "38664501",
+      "39811500",
+      "30714150",
+      "29729692",
+      "31297980",
+      "30661291",
+      "28874138",
+      "40145254",
+      "32857323",
+      "38703300",
+      "32351584",
+      "38937694",
+      "24650096",
+      "41382193",
+      "24945379",
+      "31957179",
+      "28569779",
+      "40731404",
+      "40840751",
+      "29278851",
+      "38715330",
+      "29497031",
+      "30272351",
+      "38990269",
+      "26540629",
+      "39689434",
+      "41023076",
+      "34459131",
+      "40451468",
+      "41451236",
+      "39556022",
+      "33901239",
+      "37740194",
+      "39971831",
+      "40796564",
+      "25398131",
+      "34719326",
+      "41214559",
+      "35000605",
+      "35316145",
+      "29530788",
+      "28241766",
+      "39063214",
+      "40190805",
+      "27449034",
+      "39437638",
+      "30246429",
+      "30541900",
+      "34230131",
+      "31234902",
+      "35088238",
+      "40032765",
+      "30631050",
+      "33129195",
+      "28713929",
+      "38773612",
+      "30305727",
+      "37075135",
+      "28098891",
+      "27191497",
+      "26855187",
+      "35736813",
+      "32795333",
+      "31021450",
+      "40790482"
+    ],
+    "review": [
+      "41271634"
+    ],
+    "pmc": [
+      "12638999"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41419-025-08153-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41271634/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GST+Mu1-6",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-70",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

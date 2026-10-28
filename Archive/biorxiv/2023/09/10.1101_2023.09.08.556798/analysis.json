@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.09.08.556798",
+  "title": "Proteome-scale prediction of molecular mechanisms underlying dominant genetic diseases",
+  "authors": "Badonyi M; Marsh JA",
+  "journal": "bioRxiv",
+  "published_date": "2023-09-08",
+  "window": {
+    "start": "2023-09-04",
+    "end": "2023-09-10"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用SVM预测显性遗传病的分子机制（DN/GOF/LOF），不涉及蛋白质-DNA互作、结合位点或互作建模，与本课题无关。",
+  "abstract": "Many dominant genetic disorders result from protein-altering mutations, acting primarily through dominant-negative (DN), gain-of-function (GOF), and loss-of-function (LOF) mechanisms. Deciphering the mechanisms by which dominant diseases exert their effects is often experimentally challenging and resource intensive, but is essential for developing appropriate therapeutic approaches. Diseases that arise via a LOF mechanism are more amenable to be treated by conventional gene therapy, whereas DN and GOF mechanisms may require gene editing or targeting by small molecules. Moreover, pathogenic missense mutations that act via DN and GOF mechanisms are more difficult to identify than those that act via LOF using nearly all currently available variant effect predictors. Here, we introduce a tripartite statistical model made up of support vector machine binary classifiers trained to predict whether human protein-coding genes are likely to be associated with DN, GOF, or LOF molecular disease mechanisms. We test the utility of the predictions by examining biologically and clinically meaningful properties known to be associated with the mechanisms. Our results strongly support that the models are able to generalise on unseen data and offer insight into the functional attributes of proteins associated with different mechanisms. We hope that our predictions will serve as a springboard for researchers studying novel variants and those of uncertain clinical significance, guiding variant interpretation strategies and experimental characterisation. Predictions for the human UniProt reference proteome are available at https://osf.io/z4dcp/ .",
+  "abstract_zh": "许多显性遗传疾病源于蛋白质改变突变，主要通过显性负效应（dominant-negative, DN）、功能获得（gain-of-function, GOF）和功能丧失（loss-of-function, LOF）机制发挥作用。解析显性疾病发挥其效应的机制通常在实验上具有挑战性且资源密集，但对于开发适当的治疗方法至关重要。通过LOF机制产生的疾病更适合采用常规基因治疗，而DN和GOF机制可能需要基因编辑或小分子靶向治疗。此外，通过DN和GOF机制起作用的致病性错义突变，在使用几乎所有现有变异效应预测器时，比通过LOF机制起作用的突变更难识别。在此，我们引入一个由支持向量机二元分类器组成的三部分统计模型，训练用于预测人类蛋白质编码基因是否可能与DN、GOF或LOF分子疾病机制相关。我们通过检查已知与这些机制相关的生物学和临床意义属性来测试预测的实用性。我们的结果强烈支持这些模型能够泛化到未见数据，并提供对不同机制相关蛋白质功能属性的见解。我们希望我们的预测能作为研究人员研究新变异和临床意义不确定变异的跳板，指导变异解读策略和实验表征。人类UniProt参考蛋白质组的预测可在 https://osf.io/z4dcp/ 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.09.08.556798",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.09.08.556798",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.09.08.556798/index.html"
+}

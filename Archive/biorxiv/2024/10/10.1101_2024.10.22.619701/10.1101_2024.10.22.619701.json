@@ -1,0 +1,138 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.22.619701",
+  "title": "Functional Yeast Promoter Sequence Design Using Autoregressive Generative Models",
+  "doi": "10.1101/2024.10.22.619701",
+  "abstract": "Functional promoter sequence design plays a crucial role in accurately controlling gene expression processes that are one of the most fundamental mechanisms in biological systems. Thanks to the recent community effort, we are now able to elucidate the associations between yeast promoter sequences and their corresponding expression levels using advanced deep learning methods. This milestone boosts the further development of many downstream biological sequence research tasks including synthetic DNA sequence design. In this work, we propose a novel synthetic promoter sequence generation method, namely Gen-DNA-TCN, which exploits a pre-trained sequence-to-expression predictive model to facilitate its autoregressive generative model training. A large-scale evaluation confirms that Gen-DNA-TCN successfully generates a large number of unique, diverse and functional synthetic yeast promoter sequences that also encode similar transcription factor binding site distributions compared with real yeast promoter sequences.",
+  "authors": [
+    "Alsaggaf I",
+    "Freitas AA",
+    "de Magalhães JP",
+    "Wan C"
+  ],
+  "published_date": "2024-10-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.22.619701",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.22.619701.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR929904",
+    "raw_record": {
+      "id": "PPR929904",
+      "source": "PPR",
+      "doi": "10.1101/2024.10.22.619701",
+      "title": "Functional Yeast Promoter Sequence Design Using Autoregressive Generative Models",
+      "authorString": "Alsaggaf I, Freitas AA, de Magalhães JP, Wan C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Alsaggaf I",
+            "lastName": "Alsaggaf",
+            "firstName": "Ibrahim",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0007-7379-5915"
+            }
+          },
+          {
+            "fullName": "Freitas AA",
+            "lastName": "Freitas",
+            "firstName": "Alex",
+            "initials": "AA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9825-4700"
+            }
+          },
+          {
+            "fullName": "de Magalhães JP",
+            "lastName": "de Magalhães",
+            "firstName": "João Pedro",
+            "initials": "JP"
+          },
+          {
+            "fullName": "Wan C",
+            "lastName": "Wan",
+            "firstName": "Cen",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3872-0340"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9825-4700"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3872-0340"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6363-2465"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0007-7379-5915"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Functional promoter sequence design plays a crucial role in accurately controlling gene expression processes that are one of the most fundamental mechanisms in biological systems. Thanks to the recent community effort, we are now able to elucidate the associations between yeast promoter sequences and their corresponding expression levels using advanced deep learning methods. This milestone boosts the further development of many downstream biological sequence research tasks including synthetic DNA sequence design. In this work, we propose a novel synthetic promoter sequence generation method, namely Gen-DNA-TCN, which exploits a pre-trained sequence-to-expression predictive model to facilitate its autoregressive generative model training. A large-scale evaluation confirms that Gen-DNA-TCN successfully generates a large number of unique, diverse and functional synthetic yeast promoter sequences that also encode similar transcription factor binding site distributions compared with real yeast promoter sequences.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.10.22.619701"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-10-26",
+      "firstPublicationDate": "2024-10-25",
+      "firstIndexDate": "2024-10-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

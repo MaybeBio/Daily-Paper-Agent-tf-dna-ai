@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "36416116",
+    "doi": "10.1093/bib/bbac483",
+    "title": "PlDBPred: a novel computational model for discovery of DNA binding proteins in plants."
+  },
+  "content": {
+    "abstract": "DNA-binding proteins (DBPs) play crucial roles in numerous cellular processes including nucleotide recognition, transcriptional control and the regulation of gene expression. Majority of the existing computational techniques for identifying DBPs are mainly applicable to human and mouse datasets. Even though some models have been tested on Arabidopsis, they produce poor accuracy when applied to other plant species. Therefore, it is imperative to develop an effective computational model for predicting plant DBPs. In this study, we developed a comprehensive computational model for plant specific DBPs identification. Five shallow learning and six deep learning models were initially used for prediction, where shallow learning methods outperformed deep learning algorithms. In particular, support vector machine achieved highest repeated 5-fold cross-validation accuracy of 94.0% area under receiver operating characteristic curve (AUC-ROC) and 93.5% area under precision recall curve (AUC-PR). With an independent dataset, the developed approach secured 93.8% AUC-ROC and 94.6% AUC-PR. While compared with the state-of-art existing tools by using an independent dataset, the proposed model achieved much higher accuracy. Overall results suggest that the developed computational model is more efficient and reliable as compared to the existing models for the prediction of DBPs in plants. For the convenience of the majority of experimental scientists, the developed prediction server PlDBPred is publicly accessible at https://iasri-sg.icar.gov.in/pldbpred/.The source code is also provided at https://iasri-sg.icar.gov.in/pldbpred/source_code.php for prediction using a large-size dataset.",
+    "keywords": [
+      "DNA binding proteins",
+      "computational model",
+      "deep learning",
+      "nucleic acid binding",
+      "shallow learning"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "*Arabidopsis/genetics/metabolism",
+      "Computational Biology/methods",
+      "Computer Simulation",
+      "*DNA-Binding Proteins/genetics/metabolism",
+      "ROC Curve",
+      "Software"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pradhan, Upendra Kumar",
+        "Meher, Prabina Kumar",
+        "Naha, Sanchita",
+        "Pal, Soumen",
+        "Gupta, Ajit",
+        "Parsad, Rajender"
+      ],
+      "short_names": [
+        "Pradhan UK",
+        "Meher PK",
+        "Naha S",
+        "Pal S",
+        "Gupta A",
+        "Parsad R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7098-8785"
+      ],
+      "affiliations": [
+        "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India.",
+        "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India.",
+        "Division of Computer Applications, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi-110012, India.",
+        "Division of Computer Applications, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi-110012, India.",
+        "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India.",
+        "ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi-110012, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pradhan, Upendra Kumar",
+        "short_name": "Pradhan UK",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India."
+        ]
+      },
+      {
+        "full_name": "Meher, Prabina Kumar",
+        "short_name": "Meher PK",
+        "identifiers": [
+          "0000-0002-7098-8785"
+        ],
+        "affiliations": [
+          "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India."
+        ]
+      },
+      {
+        "full_name": "Naha, Sanchita",
+        "short_name": "Naha S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computer Applications, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi-110012, India."
+        ]
+      },
+      {
+        "full_name": "Pal, Soumen",
+        "short_name": "Pal S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computer Applications, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi-110012, India."
+        ]
+      },
+      {
+        "full_name": "Gupta, Ajit",
+        "short_name": "Gupta A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India."
+        ]
+      },
+      {
+        "full_name": "Parsad, Rajender",
+        "short_name": "Parsad R",
+        "identifiers": [],
+        "affiliations": [
+          "ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi-110012, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 Jan 19",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/24 06:00",
+    "fetched_at": "2026-09-28 16:39:52"
+  },
+  "links": {
+    "cites": [
+      "40439671",
+      "40391089",
+      "40042853",
+      "39990254",
+      "39316155",
+      "38856168",
+      "38747369",
+      "38739759",
+      "38660008",
+      "38200437"
+    ],
+    "refs": [],
+    "similar": [
+      "36416116",
+      "37651627",
+      "37158175",
+      "38747369",
+      "39316155",
+      "37000299",
+      "38490467",
+      "38316843",
+      "36939943",
+      "31714956",
+      "38660008",
+      "32920048",
+      "35378437",
+      "31009682",
+      "29419752",
+      "39265460",
+      "32300371",
+      "31151273",
+      "31123959",
+      "34932484",
+      "27565741",
+      "36098562",
+      "29753757",
+      "38856168",
+      "35163534",
+      "24743548",
+      "24977146",
+      "30316822",
+      "25184541",
+      "38986796",
+      "26482832",
+      "32696716",
+      "39038391",
+      "32578842",
+      "35150250",
+      "38078741",
+      "35943134",
+      "31752668",
+      "33238837",
+      "24475169",
+      "33780341",
+      "19008251",
+      "35189635",
+      "36573492",
+      "28841194",
+      "30668479",
+      "29340952",
+      "27252772",
+      "35221569",
+      "36044786",
+      "32019412",
+      "36919205",
+      "31412138",
+      "33407069",
+      "35652477",
+      "38486135",
+      "35765653",
+      "35389869",
+      "32352006",
+      "27213337",
+      "32910169",
+      "32188871",
+      "30032213",
+      "26940649",
+      "29763967",
+      "32949607",
+      "34291709",
+      "32216744",
+      "28872627",
+      "33484732",
+      "29028906",
+      "33527202",
+      "30891794",
+      "23289782",
+      "34131696",
+      "29228285",
+      "33902670",
+      "32114285",
+      "19128505",
+      "32946833",
+      "35521556",
+      "34002774",
+      "23166753",
+      "24209909",
+      "31960253",
+      "35334314",
+      "33410688",
+      "25843215",
+      "32806782",
+      "27302911",
+      "32144887",
+      "33227813",
+      "21284890",
+      "30423072",
+      "20637083",
+      "36719781",
+      "35179547",
+      "29987232",
+      "17303158",
+      "34282605",
+      "33267753",
+      "35242211",
+      "30692561",
+      "32975233",
+      "35190950",
+      "19594868",
+      "36063523",
+      "31046040",
+      "31511570",
+      "38901093",
+      "17576669",
+      "39024250",
+      "37437362",
+      "35731758",
+      "38242015",
+      "37501482",
+      "39013383",
+      "39175797",
+      "37484492",
+      "38020152",
+      "37780939",
+      "38701887",
+      "36401584",
+      "29287069",
+      "37366813",
+      "38658614",
+      "38008420",
+      "37405873",
+      "35148267",
+      "38656743",
+      "37273848",
+      "37919805",
+      "36474806",
+      "37790440",
+      "39119181",
+      "37025102",
+      "39200068",
+      "38849917",
+      "37035551"
+    ],
+    "review": [
+      "36416116",
+      "31714956",
+      "35652477",
+      "37780939",
+      "37025102"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36416116.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbac483",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

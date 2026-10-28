@@ -1,0 +1,162 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.02.03.527007",
+  "title": "Correspondence between functional scores from deep mutational scans and predicted effects on protein stability",
+  "doi": "10.1101/2023.02.03.527007",
+  "abstract": "Many methodologically diverse computational methods have been applied to the growing challenge of predicting and interpreting the effects of protein variants. As many pathogenic mutations have a perturbing effect on protein stability or intermolecular interactions, one highly interpretable approach is to use protein structural information to model the physical impacts of variants and predict their likely effects on protein stability and interactions. Previous efforts have assessed the accuracy of stability predictors in reproducing thermodynamically accurate values and evaluated their ability to distinguish between known pathogenic and benign mutations. Here, we take an alternate approach, and explore how well stability predictor scores correlate with functional impacts derived from deep mutational scanning (DMS) experiments. In this work, we compare the predictions of 9 protein stability-based tools against mutant protein fitness values from 45 independent DMS datasets, covering 161,441 unique single amino acid variants. We find that FoldX and Rosetta show the strongest correlations with DMS-based functional scores, similar to their previous top performance in distinguishing between pathogenic and benign variants. For both methods, performance is considerably improved when considering intermolecular interactions from protein complex structures, when available. Finally, we also highlight that predicted stability effects show consistently higher correlations with certain DMS experimental phenotypes, particularly those based upon protein abundance, and, in certain cases, can be competitive with other sequence-based variant effect prediction methodologies for predicting functional scores from DMS experiments.",
+  "authors": [
+    "Gerasimavicius L",
+    "Livesey BJ",
+    "Marsh JA"
+  ],
+  "published_date": "2023-02-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.02.03.527007",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.02.03.527007.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR612724",
+    "raw_record": {
+      "id": "PPR612724",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR612724"
+        ]
+      },
+      "doi": "10.1101/2023.02.03.527007",
+      "title": "Correspondence between functional scores from deep mutational scans and predicted effects on protein stability",
+      "authorString": "Gerasimavicius L, Livesey BJ, Marsh JA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Gerasimavicius L",
+            "lastName": "Gerasimavicius",
+            "firstName": "Lukas",
+            "initials": "L"
+          },
+          {
+            "fullName": "Livesey BJ",
+            "lastName": "Livesey",
+            "firstName": "Benjamin",
+            "initials": "BJ"
+          },
+          {
+            "fullName": "Marsh JA",
+            "lastName": "Marsh",
+            "firstName": "Joseph",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4132-0628"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4132-0628"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Many methodologically diverse computational methods have been applied to the growing challenge of predicting and interpreting the effects of protein variants. As many pathogenic mutations have a perturbing effect on protein stability or intermolecular interactions, one highly interpretable approach is to use protein structural information to model the physical impacts of variants and predict their likely effects on protein stability and interactions. Previous efforts have assessed the accuracy of stability predictors in reproducing thermodynamically accurate values and evaluated their ability to distinguish between known pathogenic and benign mutations. Here, we take an alternate approach, and explore how well stability predictor scores correlate with functional impacts derived from deep mutational scanning (DMS) experiments. In this work, we compare the predictions of 9 protein stability-based tools against mutant protein fitness values from 45 independent DMS datasets, covering 161,441 unique single amino acid variants. We find that FoldX and Rosetta show the strongest correlations with DMS-based functional scores, similar to their previous top performance in distinguishing between pathogenic and benign variants. For both methods, performance is considerably improved when considering intermolecular interactions from protein complex structures, when available. Finally, we also highlight that predicted stability effects show consistently higher correlations with certain DMS experimental phenotypes, particularly those based upon protein abundance, and, in certain cases, can be competitive with other sequence-based variant effect prediction methodologies for predicting functional scores from DMS experiments.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/02/04/2023.02.03.527007.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.02.03.527007"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR612724"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR612724&type=FILE&fileName=EMS168268-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37243972",
+            "reference": "Protein science : a publication of the Protein Society. 2023 Jul;32(7):e4688",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS168268",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-02-07",
+      "firstPublicationDate": "2023-02-04",
+      "firstIndexDate": "2023-02-07",
+      "fullTextReceivedDate": "2023-03-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

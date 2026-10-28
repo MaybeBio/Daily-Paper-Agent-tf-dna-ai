@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37707410",
+  "title": "Prediction of MYCN Gene Amplification in Pediatric Neuroblastomas: Development of a Deep Learning-Based Tool for Automatic Tumor Segmentation and Comparative Analysis of Computed Tomography-Based Radiomics Features Harmonization.",
+  "authors": "Yeow, Ling Yun; Teh, Yu Xuan; Lu, Xinyu; Srinivasa, Arvind Channarayapatna; Tan, Eelin; Tan, Timothy Shao Ern; Tang, Phua Hwee; Kn, Bhanu Prakash",
+  "journal": "Journal of computer assisted tomography",
+  "published_date": "2023-09-14",
+  "window": {
+    "start": "2023-09-11",
+    "end": "2023-09-17"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用深度学习分割肿瘤和影像组学预测MYCN基因扩增，属于临床影像诊断，无蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "OBJECTIVE: MYCN oncogene amplification is closely linked to high-grade neuroblastoma with poor prognosis. Accurate quantification is essential for risk assessment, which guides clinical decision making and disease management. This study proposes an end-to-end deep-learning framework for automatic tumor segmentation of pediatric neuroblastomas and radiomics features-based classification of MYCN gene amplification. METHODS: Data from pretreatment contrast-enhanced computed tomography scans and MYCN status from 47 cases of pediatric neuroblastomas treated at a tertiary children's hospital from 2009 to 2020 were reviewed. Automated tumor segmentation and grading pipeline includes (1) a modified U-Net for tumor segmentation; (2) extraction of radiomic textural features; (3) feature-based ComBat harmonization for removal of variabilities across scanners; (4) feature selection using 2 approaches, namely, ( a ) an ensemble approach and ( b ) stepwise forward-and-backward selection method using logistic regression classifier; and (5) radiomics features-based classification of MYCN gene amplification using machine learning classifiers. RESULTS: Median train/test Dice score for modified U-Net was 0.728/0.680. The top 3 features from the ensemble approach were neighborhood gray-tone difference matrix (NGTDM) busyness, NGTDM strength, and gray-level run-length matrix (GLRLM) low gray-level run emphasis, whereas those from the stepwise approach were GLRLM low gray-level run emphasis, GLRLM high gray-level run emphasis, and NGTDM coarseness. The top-performing tumor classification algorithm achieved a weighted F1 score of 97%, an area under the receiver operating characteristic curve of 96.9%, an accuracy of 96.97%, and a negative predictive value of 100%. Harmonization-based tumor classification improved the accuracy by 2% to 3% for all classifiers. CONCLUSION: The proposed end-to-end framework achieved high accuracy for MYCN gene amplification status classification.",
+  "abstract_zh": "目的：MYCN癌基因扩增与高危神经母细胞瘤及其不良预后密切相关。准确量化对于风险评估至关重要，这指导临床决策和疾病管理。本研究提出了一种端到端的深度学习框架，用于儿童神经母细胞瘤的自动肿瘤分割及基于影像组学特征的MYCN基因扩增分类。方法：回顾性分析了2009年至2020年间在一家三级儿童医院治疗的47例儿童神经母细胞瘤患者的治疗前增强计算机断层扫描数据及MYCN状态。自动肿瘤分割和分级流程包括：（1）改进的U-Net用于肿瘤分割；（2）提取影像组学纹理特征；（3）基于特征的ComBat协调以消除不同扫描仪间的变异性；（4）使用两种方法进行特征选择，即（a）集成方法和（b）使用逻辑回归分类器的逐步前向-后向选择方法；（5）使用机器学习分类器基于影像组学特征对MYCN基因扩增进行分类。结果：改进的U-Net的中位训练/测试Dice评分为0.728/0.680。集成方法中的前三个特征为邻域灰度差矩阵（NGTDM）繁忙度、NGTDM强度和灰度级游程矩阵（GLRLM）低灰度级游程强调，而逐步方法中的前三个特征为GLRLM低灰度级游程强调、GLRLM高灰度级游程强调和NGTDM粗糙度。表现最佳的肿瘤分类算法实现了加权F1分数97%、受试者工作特征曲线下面积96.9%、准确率96.97%和阴性预测值100%。基于协调的肿瘤分类将所有分类器的准确率提高了2%至3%。结论：所提出的端到端框架在MYCN基因扩增状态分类中实现了高准确率。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37707410/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37707410/",
+  "paper_page_path": "papers/pubmed/37707410/index.html"
+}

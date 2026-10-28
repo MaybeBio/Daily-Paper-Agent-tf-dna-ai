@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "41863904",
+    "doi": "10.1016/j.jchromb.2026.125005",
+    "title": "Breast cancer tumor immune microenvironment landscape identifies prognostic risk genes and potential drugs."
+  },
+  "content": {
+    "abstract": "Breast cancer (BRCA) is the most common type of cancer among women. The tumor immune microenvironment (TIM) influences the early progression of BRCA and is related to its clinical characteristics and outcomes. But the underlying mechanisms remain unclear. In this study, four synergistic TIM-prognosis-related genes (CD1C, CD40LG, CXCR3, CD69) were obtained which were significantly associated with tumor purity, and higher TIM-related immune activity was associated with improved prognosis in BRCA patients. A microRNA-mRNA-transcription factor regulatory network was established, revealing upstream regulators of these genes. Furthermore, fourteen candidate drugs targeting this network were predicted, and structural analogs of Lumacaftor and Ivosidenib showed promising docking affinities to CD1C and CXCR3, respectively. These findings provide preliminary insights into TIM-associated prognostic pathways and suggest candidate compounds for further investigation in BRCA.",
+    "keywords": [
+      "Breast cancer",
+      "Drug",
+      "Molecular docking",
+      "Prognostic regulatory network",
+      "Tumor immune microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Tumor Microenvironment/genetics/immunology/drug effects",
+      "Female",
+      "*Breast Neoplasms/genetics/immunology/drug therapy/diagnosis",
+      "Prognosis",
+      "*Antineoplastic Agents/pharmacology/chemistry",
+      "Molecular Docking Simulation",
+      "Gene Regulatory Networks",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "MicroRNAs/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Baoquan",
+        "Bao, Daode",
+        "Zhao, Lianyou",
+        "Liu, Yuyu",
+        "Gao, Ziyu",
+        "Zeng, Yue",
+        "Zhou, Guiqin",
+        "Zong, Yonghua",
+        "Mao, Chunmei",
+        "Lv, Fuchun",
+        "Sheng, Jiahui",
+        "Shi, Hongji",
+        "Su, Fei"
+      ],
+      "short_names": [
+        "Liu B",
+        "Bao D",
+        "Zhao L",
+        "Liu Y",
+        "Gao Z",
+        "Zeng Y",
+        "Zhou G",
+        "Zong Y",
+        "Mao C",
+        "Lv F",
+        "Sheng J",
+        "Shi H",
+        "Su F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anatomy, Harbin Medical University, 157 Baojian Road, Harbin 150081, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China.",
+        "Department of Anatomy, Harbin Medical University, 157 Baojian Road, Harbin 150081, China; College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China.",
+        "Department of Anatomy, Harbin Medical University, 157 Baojian Road, Harbin 150081, China; College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China.",
+        "Department of Immunology, Harbin Medical University, Harbin, China.",
+        "Department of Modern Medicine, University of Tibetan Medicine, Lhasa 850000, China.",
+        "Department of VIP ward, the Forth Affiliated Hospital of Harbin Medical University.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China.",
+        "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China. Electronic address: sufei0999@ems.hrbmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Baoquan",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, Harbin Medical University, 157 Baojian Road, Harbin 150081, China."
+        ]
+      },
+      {
+        "full_name": "Bao, Daode",
+        "short_name": "Bao D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Lianyou",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuyu",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, Harbin Medical University, 157 Baojian Road, Harbin 150081, China; College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Ziyu",
+        "short_name": "Gao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anatomy, Harbin Medical University, 157 Baojian Road, Harbin 150081, China; College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Yue",
+        "short_name": "Zeng Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Guiqin",
+        "short_name": "Zhou G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Zong, Yonghua",
+        "short_name": "Zong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Modern Medicine, University of Tibetan Medicine, Lhasa 850000, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Chunmei",
+        "short_name": "Mao C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of VIP ward, the Forth Affiliated Hospital of Harbin Medical University."
+        ]
+      },
+      {
+        "full_name": "Lv, Fuchun",
+        "short_name": "Lv F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Sheng, Jiahui",
+        "short_name": "Sheng J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Hongji",
+        "short_name": "Shi H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Su, Fei",
+        "short_name": "Su F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China. Electronic address: sufei0999@ems.hrbmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chromatography. B, Analytical technologies in the biomedical and life sciences"
+    ],
+    "journal_abbrev": [
+      "J Chromatogr B Analyt Technol Biomed Life Sci"
+    ],
+    "pub_date": "2026 May 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/22 06:07",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41863904",
+      "41792142",
+      "40898538",
+      "37653627",
+      "39730892",
+      "38213151",
+      "40846911",
+      "41038084",
+      "33146847",
+      "41972161",
+      "39507529",
+      "39944694",
+      "34457116",
+      "42039207",
+      "42074514",
+      "40985028",
+      "38725284",
+      "42212139",
+      "41624853",
+      "41461391",
+      "36210698",
+      "40880013",
+      "36757135",
+      "39524444",
+      "38879780",
+      "36755259",
+      "33727952",
+      "40355485",
+      "40145099",
+      "39185402",
+      "32791092",
+      "33612391",
+      "40221624",
+      "42087895",
+      "40034693",
+      "41381070",
+      "41634895",
+      "41417117",
+      "40240471",
+      "40725242",
+      "33274208",
+      "41436831",
+      "33936088",
+      "39020010",
+      "41720449",
+      "40197314",
+      "38890248",
+      "40551112",
+      "39567714",
+      "30285311",
+      "42359574",
+      "39340434",
+      "38686904",
+      "31715586",
+      "40726220",
+      "34743576",
+      "40808956",
+      "40683927",
+      "41877589",
+      "41102194",
+      "38867070",
+      "39287311",
+      "42000858",
+      "39253092",
+      "42030617",
+      "40746552",
+      "38912044",
+      "40496857",
+      "39797413",
+      "39056174",
+      "39988478",
+      "41350692",
+      "40411577",
+      "34536743",
+      "33204705",
+      "37098532",
+      "36090993",
+      "40442365",
+      "40317384",
+      "39618258",
+      "41610108",
+      "33245478",
+      "39747410",
+      "39395024",
+      "41233852",
+      "39896800",
+      "33966175",
+      "41386839",
+      "41357242",
+      "34858051",
+      "41660919",
+      "41182569",
+      "31886586",
+      "35443644",
+      "41357233",
+      "41006377",
+      "41822488",
+      "35120331",
+      "40594370",
+      "40230849"
+    ],
+    "review": [
+      "41863904"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1570-0232(26)00094-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

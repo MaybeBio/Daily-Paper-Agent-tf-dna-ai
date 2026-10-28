@@ -1,0 +1,363 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.04.02.587536",
+  "title": "Three-dimensional multi-target super-resolution microscopy of cells using Metal-Induced Energy Transfer and DNA-PAINT",
+  "doi": "10.1101/2024.04.02.587536",
+  "abstract": "<h4>Absrtact</h4> Achieving nanometer precision in 3D remains a major challenge in super-resolution microscopy. DNA-PAINT offers excellent lateral resolution and versatile multiplexing, but its axial localization precision is typically 3–5 times poorer, limiting quantitative 3D imaging. Here, we present MIET-PAINT, which combines DNA-PAINT with Metal-Induced Energy Transfer (MIET) to overcome this limitation. We implement MIET-PAINT on both wide-field fluorescence lifetime and confocal TCSPC platforms. Wide-field MIET-PAINT enables robust, multiplexed imaging of focal adhesion proteins and actin in fixed cells. To address the lateral resolution limits of lifetime cameras, we further developed confocal MIET-PAINT, which leverages optical background rejection and high-efficiency SPAD detection. This modality achieves ∼12 nm lateral precision and resolves the 3D architecture of microtubules, vimentin, and actin with high fidelity. MIET-PAINT thus unites nanometer-scale axial accuracy with the multiplexing versatility of DNA-PAINT, establishing a powerful tool for quantitative 3D cell biology.",
+  "authors": [
+    "Oleksiievets N",
+    "Mougios N",
+    "Basak S",
+    "Jans DC",
+    "Hauke L",
+    "Thiele JC",
+    "Jakobs S",
+    "Opazo F",
+    "Enderlein J",
+    "Tsukanov R"
+  ],
+  "published_date": "2024-04-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.04.02.587536",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.04.02.587536.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR833775",
+    "raw_record": {
+      "id": "PPR833775",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR833775"
+        ]
+      },
+      "doi": "10.1101/2024.04.02.587536",
+      "title": "Three-dimensional multi-target super-resolution microscopy of cells using Metal-Induced Energy Transfer and DNA-PAINT",
+      "authorString": "Oleksiievets N, Mougios N, Basak S, Jans DC, Hauke L, Thiele JC, Jakobs S, Opazo F, Enderlein J, Tsukanov R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Oleksiievets N",
+            "lastName": "Oleksiievets",
+            "firstName": "Nazar",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Max Planck Institute of Molecular Cell Biology and Genetics, 01307, Dresden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mougios N",
+            "lastName": "Mougios",
+            "firstName": "Nikolaos",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0007-5712-7175"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Neuro-and Sensory Physiology, University Medical Center Göttingen, 37073 Göttingen, Germany"
+                },
+                {
+                  "affiliation": "International Max Planck Research School for Molecular Biology, 37077 Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Basak S",
+            "lastName": "Basak",
+            "firstName": "Samrat",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6356-9742"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of NanoBiophotonics, Max Planck Institute for Multidisciplinary Sciences, 37077 Göttingen, Germany"
+                },
+                {
+                  "affiliation": "Department of Neurology, University Medical Center Göttingen, 37073 Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jans DC",
+            "lastName": "Jans",
+            "firstName": "Daniel",
+            "initials": "DC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0777-6859"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pharmacology and Toxicology, University Medical Center,University of Göttingen, 37079 Göttingen, Germany"
+                },
+                {
+                  "affiliation": "CIDAS (Campus Institute Data Science), University of Göttingen, 37077 Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hauke L",
+            "lastName": "Hauke",
+            "firstName": "Lara",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6638-6298"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Physical and Theoretical Chemistry Laboratory,Department of Chemistry, University of Oxford,South Parks Road, Oxford OX1 3QZ, U.K"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thiele JC",
+            "lastName": "Thiele",
+            "firstName": "Jan Christoph",
+            "initials": "JC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1609-8642"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "III. Institute of Physics – Biophysics, Georg August University, 37077 Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jakobs S",
+            "lastName": "Jakobs",
+            "firstName": "Stefan",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8028-3121"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of NanoBiophotonics, Max Planck Institute for Multidisciplinary Sciences, 37077 Göttingen, Germany"
+                },
+                {
+                  "affiliation": "Department of Neurology, University Medical Center Göttingen, 37073 Göttingen, Germany"
+                },
+                {
+                  "affiliation": "Translational Neuroinflammation and Automated Microscopy, Fraunhofer Institute for Translational Medicine and Pharmacology ITMP, 37073 Göttingen, Germany"
+                },
+                {
+                  "affiliation": "Cluster of Excellence “Multiscale Bioimaging: from Molecular Machines to Networks of Excitable Cells” (MBExC), Georg August University, 37077 Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Opazo F",
+            "lastName": "Opazo",
+            "firstName": "Felipe",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4968-9713"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Neuro-and Sensory Physiology, University Medical Center Göttingen, 37073 Göttingen, Germany"
+                },
+                {
+                  "affiliation": "Center for Biostructural Imaging of Neurodegeneration (BIN), University of Göttingen Medical Center, 37075 Göttingen, Germany"
+                },
+                {
+                  "affiliation": "NanoTag Biotechnologies GmbH, 37079 Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Enderlein J",
+            "lastName": "Enderlein",
+            "firstName": "Jörg",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5091-7157"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "III. Institute of Physics – Biophysics, Georg August University, 37077 Göttingen, Germany"
+                },
+                {
+                  "affiliation": "Cluster of Excellence “Multiscale Bioimaging: from Molecular Machines to Networks of Excitable Cells” (MBExC), Georg August University, 37077 Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tsukanov R",
+            "lastName": "Tsukanov",
+            "firstName": "Roman",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3967-1755"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "III. Institute of Physics – Biophysics, Georg August University, 37077 Göttingen, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5091-7157"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1609-8642"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3967-1755"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4968-9713"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6356-9742"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6638-6298"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8028-3121"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0777-6859"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0007-5712-7175"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>Absrtact</h4>  Achieving nanometer precision in 3D remains a major challenge in super-resolution microscopy. DNA-PAINT offers excellent lateral resolution and versatile multiplexing, but its axial localization precision is typically 3–5 times poorer, limiting quantitative 3D imaging. Here, we present MIET-PAINT, which combines DNA-PAINT with Metal-Induced Energy Transfer (MIET) to overcome this limitation. We implement MIET-PAINT on both wide-field fluorescence lifetime and confocal TCSPC platforms. Wide-field MIET-PAINT enables robust, multiplexed imaging of focal adhesion proteins and actin in fixed cells. To address the lateral resolution limits of lifetime cameras, we further developed confocal MIET-PAINT, which leverages optical background rejection and high-efficiency SPAD detection. This modality achieves ∼12 nm lateral precision and resolves the 3D architecture of microtubules, vimentin, and actin with high fidelity. MIET-PAINT thus unites nanometer-scale axial accuracy with the multiplexing versatility of DNA-PAINT, establishing a powerful tool for quantitative 3D cell biology.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "884488",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/03/2024.04.02.587536.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.04.02.587536"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR833775"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR833775&type=FILE&fileName=EMS195263-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 4,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS195263",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-04-08",
+      "firstPublicationDate": "2024-04-03",
+      "firstIndexDate": "2024-04-08",
+      "fullTextReceivedDate": "2024-04-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

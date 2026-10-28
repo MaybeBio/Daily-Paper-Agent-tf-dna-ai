@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "36510136",
+    "doi": "10.1186/s12859-022-04945-y",
+    "title": "DeepTSS: multi-branch convolutional neural network for transcription start site identification from CAGE data."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The widespread usage of Cap Analysis of Gene Expression (CAGE) has led to numerous breakthroughs in understanding the transcription mechanisms. Recent evidence in the literature, however, suggests that CAGE suffers from transcriptional and technical noise. Regardless of the sample quality, there is a significant number of CAGE peaks that are not associated with transcription initiation events. This type of signal is typically attributed to technical noise and more frequently to random five-prime capping or transcription bioproducts. Thus, the need for computational methods emerges, that can accurately increase the signal-to-noise ratio in CAGE data, resulting in error-free transcription start site (TSS) annotation and quantification of regulatory region usage. In this study, we present DeepTSS, a novel computational method for processing CAGE samples, that combines genomic signal processing (GSP), structural DNA features, evolutionary conservation evidence and raw DNA sequence with Deep Learning (DL) to provide single-nucleotide TSS predictions with unprecedented levels of performance. RESULTS: To evaluate DeepTSS, we utilized experimental data, protein-coding gene annotations and computationally-derived genome segmentations by chromatin states. DeepTSS was found to outperform existing algorithms on all benchmarks, achieving 98% precision and 96% sensitivity (accuracy 95.4%) on the protein-coding gene strategy, with 96.66% of its positive predictions overlapping active chromatin, 98.27% and 92.04% co-localized with at least one transcription factor and H3K4me3 peak. CONCLUSIONS: CAGE is a key protocol in deciphering the language of transcription, however, as every experimental protocol, it suffers from biological and technical noise that can severely affect downstream analyses. DeepTSS is a novel DL-based method for effectively removing noisy CAGE signal. In contrast to existing software, DeepTSS does not require feature selection since the embedded convolutional layers can readily identify patterns and only utilize the important ones for the classification task. This study highlights the key role that DL can play in Molecular Biology, by removing the inherent flaws of experimental protocols, that form the backbone of contemporary research. Here, we show how DeepTSS can unleash the full potential of an already popular and mature method such as CAGE, and push the boundaries of coding and non-coding gene expression regulator research even further.",
+    "keywords": [
+      "Bioinformatics",
+      "CAGE",
+      "Deep Learning",
+      "GSP",
+      "Machine Learning",
+      "Promoter",
+      "TSS",
+      "Transcription"
+    ],
+    "mesh_terms": [
+      "Transcription Initiation Site",
+      "Promoter Regions, Genetic",
+      "*Software",
+      "*Neural Networks, Computer",
+      "Chromatin"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Grigoriadis, Dimitris",
+        "Perdikopanis, Nikos",
+        "Georgakilas, Georgios K",
+        "Hatzigeorgiou, Artemis G"
+      ],
+      "short_names": [
+        "Grigoriadis D",
+        "Perdikopanis N",
+        "Georgakilas GK",
+        "Hatzigeorgiou AG"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2386-5272"
+      ],
+      "affiliations": [
+        "Hellenic Pasteur Institute, 11521, Athens, Greece. jim.grigor@gmail.com.",
+        "Department of Computer Science and Biomedical Informatics, University of Thessaly, 35131, Lamia, Greece. jim.grigor@gmail.com.",
+        "Hellenic Pasteur Institute, 11521, Athens, Greece.",
+        "Department of Informatics and Telecommunications, National and Kapodistrian University of Athens, 15784, Athens, Greece.",
+        "Department of Electrical and Computer Engineering, University of Thessaly, 38221, Volos, Greece.",
+        "Department of Electrical and Computer Engineering, University of Thessaly, 38221, Volos, Greece.",
+        "ommAI Technologies, Tallinn, Estonia.",
+        "Hellenic Pasteur Institute, 11521, Athens, Greece. arhatzig@uth.gr.",
+        "Department of Computer Science and Biomedical Informatics, University of Thessaly, 35131, Lamia, Greece. arhatzig@uth.gr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Grigoriadis, Dimitris",
+        "short_name": "Grigoriadis D",
+        "identifiers": [
+          "0000-0002-2386-5272"
+        ],
+        "affiliations": [
+          "Hellenic Pasteur Institute, 11521, Athens, Greece. jim.grigor@gmail.com.",
+          "Department of Computer Science and Biomedical Informatics, University of Thessaly, 35131, Lamia, Greece. jim.grigor@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Perdikopanis, Nikos",
+        "short_name": "Perdikopanis N",
+        "identifiers": [],
+        "affiliations": [
+          "Hellenic Pasteur Institute, 11521, Athens, Greece.",
+          "Department of Informatics and Telecommunications, National and Kapodistrian University of Athens, 15784, Athens, Greece.",
+          "Department of Electrical and Computer Engineering, University of Thessaly, 38221, Volos, Greece."
+        ]
+      },
+      {
+        "full_name": "Georgakilas, Georgios K",
+        "short_name": "Georgakilas GK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, University of Thessaly, 38221, Volos, Greece.",
+          "ommAI Technologies, Tallinn, Estonia."
+        ]
+      },
+      {
+        "full_name": "Hatzigeorgiou, Artemis G",
+        "short_name": "Hatzigeorgiou AG",
+        "identifiers": [],
+        "affiliations": [
+          "Hellenic Pasteur Institute, 11521, Athens, Greece. arhatzig@uth.gr.",
+          "Department of Computer Science and Biomedical Informatics, University of Thessaly, 35131, Lamia, Greece. arhatzig@uth.gr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2022 Dec 12",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/13 06:00",
+    "fetched_at": "2026-10-04 21:11:17"
+  },
+  "links": {
+    "cites": [
+      "41120858",
+      "41087861",
+      "39578697",
+      "37853364"
+    ],
+    "refs": [
+      "33720332",
+      "33245765",
+      "32528107",
+      "32245523",
+      "31965016",
+      "30943897",
+      "30549240",
+      "30478442",
+      "29202200",
+      "29155950",
+      "28323839",
+      "28272810",
+      "28241135",
+      "28077873",
+      "27200455",
+      "25959816",
+      "25747773",
+      "25653163",
+      "25342065",
+      "24779366",
+      "24670764",
+      "24670763",
+      "22955616",
+      "22373907",
+      "22226192",
+      "22157075",
+      "19858363",
+      "18032727",
+      "14976032",
+      "14663149",
+      "12869578",
+      "10869036",
+      "8648652",
+      "8579790",
+      "8204213",
+      "3713213"
+    ],
+    "similar": [
+      "36510136",
+      "31965016",
+      "25747261",
+      "18474037",
+      "21085627",
+      "34078885",
+      "32124327",
+      "33707582",
+      "27662877",
+      "24779366",
+      "34382184",
+      "19141595",
+      "33227813",
+      "24389500",
+      "37346545",
+      "35652477",
+      "31327999",
+      "20161818",
+      "34382191",
+      "36528241",
+      "24531765",
+      "36116322",
+      "21072189",
+      "24675730",
+      "25653163",
+      "28464823",
+      "31585526",
+      "32404971",
+      "17997859",
+      "28349423",
+      "33849996",
+      "21558156",
+      "21821656",
+      "30043374",
+      "26254489",
+      "27490187",
+      "37723425",
+      "28881969",
+      "26268438",
+      "27107716",
+      "28451981",
+      "33471337",
+      "31757205",
+      "33193703",
+      "24564843",
+      "35163661",
+      "28349422",
+      "27806702",
+      "31437540",
+      "26839600",
+      "25035402",
+      "18178374",
+      "26394619",
+      "37983292",
+      "30404778",
+      "22499686",
+      "29069282",
+      "24413663",
+      "22369687",
+      "35524109",
+      "27681123",
+      "37216666",
+      "31324140",
+      "17951823",
+      "28873399",
+      "25407019",
+      "29482522",
+      "33093512",
+      "31318408",
+      "15478601",
+      "33280509",
+      "30414114",
+      "35367367",
+      "20890304",
+      "27334471",
+      "33001599",
+      "21062477",
+      "20085634",
+      "27908222",
+      "28972578",
+      "30922998",
+      "33581335",
+      "31373061",
+      "24223190",
+      "22047616",
+      "17305432",
+      "23649539",
+      "36049552",
+      "36099675",
+      "27871221",
+      "35869513",
+      "34250478",
+      "30987607",
+      "16873509",
+      "20122241",
+      "26226151",
+      "31076411",
+      "33245765",
+      "24768041",
+      "24884663",
+      "38918692",
+      "36212148",
+      "28850106",
+      "38472100",
+      "36585618",
+      "31750297",
+      "34179082",
+      "31780783",
+      "24386895"
+    ],
+    "review": [
+      "36510136",
+      "18474037",
+      "35652477",
+      "33001599",
+      "24768041"
+    ],
+    "pmc": [
+      "9743497"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04945-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36510136/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36510136",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-325",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

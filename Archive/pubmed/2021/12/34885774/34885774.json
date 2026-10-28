@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "34885774",
+    "doi": "10.3390/molecules26237192",
+    "title": "Insights into the Ligand Binding to Bromodomain-Containing Protein 9 (BRD9): A Guide to the Selection of Potential Binders by Computational Methods."
+  },
+  "content": {
+    "abstract": "The estimation of the binding of a set of molecules against BRD9 protein was carried out through an in silico molecular dynamics-driven exhaustive analysis to guide the identification of potential novel ligands. Starting from eight crystal structures of this protein co-complexed with known binders and one apo form, we conducted an exhaustive molecular docking/molecular dynamics (MD) investigation. To balance accuracy and an affordable calculation time, the systems were simulated for 100 ns in explicit solvent. Moreover, one complex was simulated for 1 micros to assess the influence of simulation time on the results. A set of MD-derived parameters was computed and compared with molecular docking-derived and experimental data. MM-GBSA and the per-residue interaction energy emerged as the main indicators for the good interaction between the specific binder and the protein counterpart. To assess the performance of the proposed analysis workflow, we tested six molecules featuring different binding affinities for BRD9, obtaining promising outcomes. Further insights were reported to highlight the influence of the starting structure on the molecular dynamics simulations evolution. The data confirmed that a ranking of BRD9 binders using key parameters arising from molecular dynamics is advisable to discard poor ligands before moving on with the synthesis and the biological tests.",
+    "keywords": [
+      "BRD9",
+      "binding predictions",
+      "computational studies",
+      "molecular docking",
+      "molecular dynamics"
+    ],
+    "mesh_terms": [
+      "Amino Acids/chemistry",
+      "Crystallization",
+      "Data Analysis",
+      "Ligands",
+      "*Molecular Docking Simulation",
+      "*Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Thermodynamics",
+      "Transcription Factors/*chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "De Vita, Simona",
+        "Chini, Maria Giovanna",
+        "Bifulco, Giuseppe",
+        "Lauro, Gianluigi"
+      ],
+      "short_names": [
+        "De Vita S",
+        "Chini MG",
+        "Bifulco G",
+        "Lauro G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8203-3580",
+        "ORCID: 0000-0001-5065-9717"
+      ],
+      "affiliations": [
+        "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II 132, 84084 Fisciano, Italy.",
+        "Department of Biosciences and Territory, University of Molise, Contrada Fonte Lappone, Pesche, 86090 Isernia, Italy.",
+        "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II 132, 84084 Fisciano, Italy.",
+        "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II 132, 84084 Fisciano, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "De Vita, Simona",
+        "short_name": "De Vita S",
+        "identifiers": [
+          "0000-0002-8203-3580"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II 132, 84084 Fisciano, Italy."
+        ]
+      },
+      {
+        "full_name": "Chini, Maria Giovanna",
+        "short_name": "Chini MG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences and Territory, University of Molise, Contrada Fonte Lappone, Pesche, 86090 Isernia, Italy."
+        ]
+      },
+      {
+        "full_name": "Bifulco, Giuseppe",
+        "short_name": "Bifulco G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II 132, 84084 Fisciano, Italy."
+        ]
+      },
+      {
+        "full_name": "Lauro, Gianluigi",
+        "short_name": "Lauro G",
+        "identifiers": [
+          "0000-0001-5065-9717"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II 132, 84084 Fisciano, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2021 Nov 27",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/11 06:00",
+    "fetched_at": "2026-09-28 02:36:57"
+  },
+  "links": {
+    "cites": [
+      "41870720",
+      "41808731",
+      "41723175",
+      "41488519",
+      "40998875",
+      "40484731",
+      "40164668",
+      "39921728",
+      "39513468",
+      "39406745",
+      "39297056",
+      "39294254",
+      "39225961",
+      "38722455",
+      "38686829",
+      "38500508",
+      "38371416",
+      "37850118",
+      "37628792",
+      "37624423",
+      "37614611",
+      "37560206",
+      "37047766",
+      "35759231"
+    ],
+    "refs": [
+      "32091206",
+      "31851834",
+      "31244000",
+      "30225973",
+      "29620420",
+      "29606412",
+      "27757418",
+      "27296530",
+      "26914985",
+      "26365797",
+      "25864491",
+      "25856009",
+      "25703523",
+      "23644491",
+      "22899623",
+      "19355820",
+      "17350655",
+      "17316710",
+      "17034125",
+      "15627498",
+      "15048827",
+      "15027866",
+      "15027865",
+      "15020052",
+      "12096912",
+      "10716917",
+      "9658581",
+      "1346755"
+    ],
+    "similar": [
+      "34885774",
+      "38675678",
+      "30058436",
+      "34823196",
+      "31851834",
+      "36577218",
+      "39124901",
+      "36240514",
+      "36362300",
+      "30225973",
+      "28564537",
+      "36985555",
+      "30324898",
+      "28418626",
+      "31502527",
+      "23340525",
+      "30703686",
+      "37352721",
+      "28466681",
+      "39119716",
+      "27565797",
+      "36350600",
+      "25856009",
+      "30557817",
+      "27494802",
+      "30411639",
+      "33213150",
+      "27668885",
+      "30218199",
+      "29758466",
+      "27562018",
+      "28318252",
+      "30368623",
+      "23951139",
+      "25108504",
+      "30352386",
+      "25702612",
+      "30928871",
+      "29132261",
+      "24266910",
+      "29149726",
+      "33164832",
+      "29182053",
+      "23941500",
+      "27016043",
+      "29068268",
+      "24032517",
+      "25229694",
+      "25758752",
+      "27802576",
+      "30052133",
+      "23527569",
+      "31443129",
+      "31062799",
+      "28712038",
+      "30051771",
+      "35754900",
+      "30477412",
+      "25424654",
+      "32705953",
+      "33932736",
+      "27939933",
+      "24138393",
+      "25587872",
+      "25854803",
+      "30824168",
+      "31452096",
+      "27546048",
+      "21528911",
+      "30047829",
+      "29620420",
+      "29737445",
+      "24358778",
+      "31838071",
+      "30295165",
+      "32120300",
+      "21870864",
+      "30415122",
+      "31452098",
+      "28852971",
+      "31568493",
+      "22916168",
+      "33834183",
+      "29485875",
+      "24474162",
+      "23912807",
+      "30360721",
+      "29842849",
+      "24479827",
+      "33068184",
+      "30586225",
+      "28081678",
+      "27750186",
+      "28486912",
+      "25474265",
+      "27165479",
+      "30463177",
+      "27444142",
+      "32655067",
+      "32410449",
+      "30206740",
+      "36297001",
+      "29182323",
+      "34877865",
+      "35049312",
+      "37325481",
+      "36075865",
+      "38543178",
+      "37855953",
+      "35059116"
+    ],
+    "review": [
+      "34885774",
+      "25108504",
+      "29149726",
+      "24138393",
+      "27546048",
+      "29620420"
+    ],
+    "pmc": [
+      "8659208"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules26237192",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34885774/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34885774",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

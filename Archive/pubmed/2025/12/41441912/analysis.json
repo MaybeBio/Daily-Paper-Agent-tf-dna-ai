@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41441912",
+  "title": "AI-powered IC50 prediction for p53 inhibitors drug-target interaction via hybrid graph neural networks.",
+  "authors": "El-Masry, Walaa H; Monem, Samar; Darwish, Nagy Ramadan; Hassanein, Aboul Ella",
+  "journal": "Journal of computer-aided molecular design",
+  "published_date": "2025-12-24",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用混合图神经网络预测p53抑制剂与靶蛋白的IC50，属于药物-靶点亲和力预测，虽涉及p53蛋白但非蛋白质-DNA互作体系，且无结合位点或互作机制建模，与本课题关联较弱。",
+  "abstract": "In recent decades, the rapid pace of digital transformation marks a transformative era for the healthcare and pharmaceutical industries. The incorporation of innovative technology, specifically Artificial Intelligence (AI) and its derivatives, has driven significant innovation and greatly enhanced the efficiency of biomedical research and drug discovery processes. Among critical biological targets, the p53 protein is essential for controlling cell cycle regulation and tumor suppression. Although p53 has long been considered undruggable, recent research has revived interest in targeting it with novel therapeutics. In this paper, A novel Hybrid Drug-Target Interaction IC50 (HDTI-IC50) prediction model is proposes to predict IC50 values. The model integrates Graph Convolutional Networks (GCNs) as well as Graph Attention Networks (GATs) by sequentially stacking their hidden layers. This hybrid architecture leverages the strengths of both models. Specifically, GCNs are first applied to effectively capture local structural information and perform well under homophily assumptions. Then, GAT is learned to model long-range dependencies and handle heterophilic graphs. By integrating both, the model learns richer node representations and can adapt to diverse graph structures. Following these layers, a global pooling mechanism follows, which combines Global Max Pooling (GMP) and Global Average Pooling (GAP). Compared to related approaches, which mainly perform general IC50 prediction or binary activity classification, the proposed HDTI-IC50 model provides a unified framework specifically tailored for p53 inhibitors. Unlike previous approaches that rely on conventional molecular descriptors and overlook structural topology, our model utilizes graph-based representations to capture both local and global molecular relationships. By sequentially integrating GCN and GAT layers, the model effectively combines localized structural learning with attention-based feature refinement, resulting in improved representation capability and predictive performance. The dataset applied in this paper is obtained from the database of the Genomics of Drug Sensitivity in Cancer (GDSC). Model performance is evaluated using standard regression metrics, involving Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and coefficient of determination (R(2)). The performance rate of MAE is 0.1, RMSE is 0.19, and R(2) is 0.8 demonstrating superior performance compared to state-of-the-art methods. It also achieves an average inference time of 7.70 s. This paper proposes a HDTI-IC50 model to predict IC50 for p53inhibitors. Results from experiments indicate that the proposed HDTI-IC50 model outperforms individual GCN, GAT-based, and other related drug-target models as well as baseline regression models. demonstrating both its predictive accuracy and computational economy.",
+  "abstract_zh": "近几十年来，数字化转型的迅猛步伐标志着医疗保健和制药行业进入了一个变革时代。创新技术的融合，特别是人工智能（AI）及其衍生技术，推动了重大创新，并极大地提升了生物医学研究和药物发现过程的效率。在关键生物靶点中，p53蛋白对于控制细胞周期调控和肿瘤抑制至关重要。尽管p53长期以来被视为不可成药靶点，但近期研究重新激发了利用新型疗法靶向它的兴趣。本文提出了一种新型混合药物-靶点相互作用IC50（HDTI-IC50）预测模型，用于预测IC50值。该模型通过顺序堆叠图卷积网络（GCNs）和图注意力网络（GATs）的隐藏层来整合这两种网络。这种混合架构利用了两种模型的优势。具体而言，首先应用GCNs有效捕获局部结构信息，并在同质性假设下表现良好。然后，学习GAT以建模长距离依赖关系并处理异质性图。通过整合两者，模型学习了更丰富的节点表示，并能适应多样化的图结构。在这些层之后，采用全局池化机制，结合了全局最大池化（GMP）和全局平均池化（GAP）。与主要进行一般IC50预测或二元活性分类的相关方法相比，所提出的HDTI-IC50模型提供了一个专门针对p53抑制剂的统一框架。与依赖传统分子描述符并忽视结构拓扑的先前方法不同，我们的模型利用基于图的表示来捕获局部和全局分子关系。通过顺序整合GCN和GAT层，该模型有效结合了局部结构学习与基于注意力的特征细化，从而提升了表示能力和预测性能。本文使用的数据集来源于癌症药物敏感性基因组学（GDSC）数据库。模型性能使用标准回归指标进行评估，包括平均绝对误差（MAE）、均方根误差（RMSE）和决定系数（R(2)）。MAE的性能率为0.1，RMSE为0.19，R(2)为0.8，显示出优于最先进方法的性能。它还实现了平均推理时间7.70秒。本文提出了一个HDTI-IC50模型来预测p53抑制剂的IC50。实验结果表明，所提出的HDTI-IC50模型优于单独的GCN、基于GAT的模型以及其他相关药物-靶点模型和基线回归模型，展示了其预测准确性和计算经济性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41441912/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41441912/",
+  "paper_page_path": "papers/pubmed/41441912/index.html"
+}

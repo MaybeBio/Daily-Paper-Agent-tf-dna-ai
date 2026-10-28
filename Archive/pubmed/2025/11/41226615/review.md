@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results and discussion, methods, and conclusions. Figures, schemes, and tables are referenced but not provided in full detail.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No assessment of editorial quality or journal fit beyond scientific criteria.
+- **Shared manuscript claim summary** The authors report that hordatine derivatives containing guanidinium groups bind to the c-MYC G-quadruplex (Pu22T14T23) as evidenced by NMR titration and docking studies, with benzofuran-containing analogues 3 and 4 showing stronger interactions than dihydrobenzofuran analogues 1 and 2. Cytotoxicity assays on U2OS and MDA-MB-231 cell lines are presented to support the biological relevance of these interactions.
+- **Visible evidence base** NMR titration data (referenced as Figures 2, S1, S2, S3; Tables S1, S2, S3), NOESY/TOCSY experiments (Figure 3, S4, S5; Table 1), docking calculations (Figures 4-9, S6, S7), synthetic procedures with characterization data (Schemes 1, 2; Figures S8-S23), and cytotoxicity data (Table 2).
+- **Missing materials affecting confidence** Figures, schemes, and tables are referenced but not included in the provided text. This includes all NMR spectra, docking visualizations, and the cytotoxicity table. Without these, quantitative assessment of data quality and interpretation is limited.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in G-quadruplex-targeted drug design, specifically exploring the role of guanidinium groups in hordatine binding to the c-MYC promoter G4. The synthetic work appears sound, and the combination of NMR and docking approaches is appropriate. However, the central claim that guanidinium groups are critical for G4 binding is not fully established from the data described. The NMR data for compounds 1 and 2 show only weak effects, and the comparative analysis between compounds is presented qualitatively. The docking results are used to support experimental findings but are not independently validated. The cytotoxicity data, while interesting, do not directly demonstrate that G4 stabilization is the mechanism of action. The manuscript would benefit from more quantitative binding data and clearer structure-activity relationships.
+- **Who would be interested in the results, and why** Researchers in the fields of nucleic acid chemistry, G-quadruplex biology, and anticancer drug discovery would find this work relevant. The study contributes to the growing body of literature on natural product-derived G4 ligands and provides a systematic comparison of guanidinium versus amino groups and dihydrobenzofuran versus benzofuran cores. The findings may inform future design of G4-targeting compounds with improved potency and selectivity.
+- **Major strengths** The systematic synthesis of four analogues allows for a clear structure-activity comparison. The use of NMR spectroscopy to directly probe G4 interactions is methodologically appropriate. The combination of experimental and computational approaches provides complementary perspectives. The study addresses a clinically relevant target (c-MYC) with a well-characterized G4-forming sequence.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and claim support
+  - **Claim pointer** The abstract states that "Spectroscopic analyses were consistent with a significant interaction of benzofurans 3 and 4 at the 5'-end and 3'-end tetrads and with the formation of ligand/G-quadruplex complexes with a 2:1 stoichiometry."
+  - **Evidence pointer** Section 2.1.1, Figures 2, S1, S2; Tables S1, S2, S3
+  - **Concern** The NMR data are described qualitatively. The text states that compounds 1 and 2 showed "less marked or no significant effects" while compounds 3 and 4 showed "large changes in chemical shift." However, no quantitative chemical shift perturbation values, binding constants, or stoichiometry determination data are provided. The claim of 2:1 stoichiometry is not supported by any explicit experimental evidence such as Job plot analysis or titration curve fitting. Without quantitative data, the relative binding affinities and the proposed stoichiometry cannot be evaluated.
+  - **Why it matters** The central conclusion that guanidinium groups contribute to G4 binding and that benzofuran analogues show enhanced interaction depends on a rigorous comparison of binding affinities across compounds 1-4. Qualitative descriptions of NMR changes are insufficient to establish these claims.
+  - **Resolution test** Provide quantitative chemical shift perturbation data (e.g., magnitude of shifts in ppm for each guanine imino proton), binding constants derived from titration curves, and explicit evidence for 2:1 stoichiometry (e.g., Job plot, mass spectrometry, or ITC data).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design and controls
+  - **Claim pointer** The introduction states that "guanidinium-containing derivatives can bind to G-quadruplexes, either by intercalating into the structure or by interacting with the grooves or loops" and the study aims to evaluate "the ability of the natural compound 1 to stabilize the G-quadruplex structure."
+  - **Evidence pointer** Section 2.1.1, Section 2.1.2, Section 2.1.3
+  - **Concern** The NMR experiments are performed with the Pu22T14T23 sequence, which is a modified version of the native c-MYC Pu22 sequence. The rationale for using this modified sequence is stated (improved spectral resolution), but no control experiments with the native sequence are described. Additionally, no control experiments with a non-G4-forming DNA sequence are reported to demonstrate binding specificity. The text mentions that "various binding events occurred" for compounds 3 and 4, but the nature of these events is not explored.
+  - **Why it matters** Without specificity controls, it is unclear whether the observed interactions are specific to the G4 structure or result from nonspecific electrostatic interactions with the DNA backbone. This is particularly important given that the compounds are cationic and would be expected to interact with any negatively charged nucleic acid.
+  - **Resolution test** Include control NMR experiments with a non-G4-forming DNA sequence (e.g., a duplex or single-stranded DNA) and, if possible, with the native Pu22 sequence. Discuss the "various binding events" and provide evidence for specific binding modes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance and mechanism
+  - **Claim pointer** The abstract states that "Cytotoxic activity was evaluated on a model of U2OS osteosarcoma (ATCC HTB-96) and breast cancer (MDA-MB-231) cell lines, further highlighting the key role of the guanidinium fragment and the benzofuran core in the G-quadruplex stabilization."
+  - **Evidence pointer** Section 2.3, Table 2
+  - **Concern** The cytotoxicity data are presented as supporting the G4-related mechanism, but no direct evidence links the observed cytotoxicity to G4 stabilization. The cell lines chosen (U2OS and MDA-MB-231) have different c-MYC expression levels, which is used as a rationale, but no experiments are described that directly test whether G4 stabilization is the mechanism of action (e.g., c-MYC expression analysis, reporter assays, or comparison with a G4-disrupting control). The IC50 values are mentioned but not provided in the text.
+  - **Why it matters** The claim that cytotoxicity "further confirmed" the G4 interaction results requires a mechanistic link. Without evidence that the compounds act through G4 stabilization in cells, the biological significance of the binding studies remains speculative.
+  - **Resolution test** Provide the IC50 values and include experiments that directly test the G4-mediated mechanism, such as measuring c-MYC mRNA or protein levels after treatment, using a G4-stabilizing or destabilizing control compound, or performing cellular thermal shift assays.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational methodology and validation
+  - **Claim pointer** The text states that "docking results were fully consistent with binding modes inferred by NMR data, confirming that 3 interacts better with G-quadruplex compared to 4."
+  - **Evidence pointer** Section 2.2, Figures 4-9, S6, S7
+  - **Concern** The docking methodology is described only briefly. The scoring function, search parameters, and validation approach are not detailed. The statement that docking "confirmed" the NMR findings is an overstatement, as docking is a predictive tool and cannot independently confirm experimental results. The solvation energy values are reported but their significance is not explained. No RMSD values or comparison with known G4-ligand complexes are provided to validate the docking protocol.
+  - **Why it matters** The docking results are used to propose specific binding modes and to support the relative binding preferences of the compounds. Without a validated and clearly described computational protocol, the reliability of these structural models is uncertain.
+  - **Resolution test** Provide full details of the docking protocol, including the receptor and ligand preparation, search space definition, scoring function, and any validation steps. Report docking scores for all compounds and discuss the limitations of the approach.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Section 2.1.1, NMR experiments
+  - **Evidence pointer** Section 2.1.1
+  - **Issue** The text states that "the concentration of the DMSO in the sample solution was below 10% to avoid affecting the G4 conformation." A DMSO concentration of up to 10% is quite high and could potentially affect G4 structure or ligand binding. The authors do not provide evidence that the G4 conformation is unaffected at this DMSO concentration.
+  - **Required correction** Provide a control experiment showing that the G4 conformation is maintained at the DMSO concentrations used, or reduce the DMSO concentration and demonstrate that the results are unchanged.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 2.3, Table 2
+  - **Evidence pointer** Section 2.3, Table 2
+  - **Issue** The IC50 values are mentioned but not reported in the text. The reader cannot evaluate the potency of the compounds without this information.
+  - **Required correction** Report the IC50 values in the text or in Table 2 with appropriate statistical analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout
+  - **Issue** The terms "hordatine" and "hordatine C" are used interchangeably for compound 1. The text refers to "rac-Hordatine C, 1" in the methods section, but the introduction and abstract use "hordatine" without specifying which hordatine variant is being discussed. This could cause confusion.
+  - **Required correction** Use consistent terminology throughout, specifying which hordatine variant is being studied.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Section 3.3, NMR studies
+  - **Evidence pointer** Section 3.3
+  - **Issue** The NMR titration experiments are described, but the concentration range of the ligands used is not specified. The text states that titrations were performed "until R = [ligand]/[Pu22] = 2.0 was reached," but the starting concentration and the number of titration points are not given.
+  - **Required correction** Provide the concentration range and the number of titration points used in the experiments.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative NMR data), R1-M2 (specificity controls), R1-M3 (mechanistic link to cytotoxicity), R1-M4 (docking validation).
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The study applies known concepts (guanidinium-containing G4 ligands) to a new natural product scaffold (hordatine). The systematic comparison of guanidinium versus amino groups and benzofuran versus dihydrobenzofuran cores provides some novelty, but the overall approach is not conceptually new.
+  - **Scientific importance** Moderate. G4 ligands are of interest for anticancer therapy, and c-MYC is a relevant target. However, the study does not demonstrate significant advances in binding affinity, selectivity, or mechanistic understanding compared to existing G4 ligands.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to medicinal chemists and nucleic acid researchers. The biological validation is insufficient to attract a broader cancer biology audience.
+  - **Technical soundness** The synthetic chemistry appears sound, and the NMR methodology is appropriate. However, the lack of quantitative binding data and specificity controls weakens the technical foundation. The docking studies are not sufficiently validated.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but the results section relies heavily on specialized NMR terminology that may be challenging for nonspecialists. The significance of the findings could be better contextualized for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and contains interesting preliminary data, but the central claims regarding guanidinium group involvement and the superiority of benzofuran analogues require quantitative binding data, specificity controls, and a clearer mechanistic link to cytotoxicity. The authors should be encouraged to revise and resubmit with additional experiments.
+
+## Risk / unsupported claims
+- The claim of 2:1 stoichiometry for compounds 3 and 4 is not supported by explicit experimental evidence in the provided text.
+- The statement that docking results "confirmed" the NMR findings is an overstatement given the predictive nature of docking and the lack of protocol validation.
+- The claim that cytotoxicity "further highlighted the key role of the guanidinium fragment and the benzofuran core in the G-quadruplex stabilization" is not supported, as no mechanistic link between cytotoxicity and G4 stabilization is demonstrated.
+- The relative binding affinities of compounds 1-4 are described qualitatively without quantitative data.
+- The statement that compound 1 "retained a similar antiproliferative activity" in both cell lines is vague without IC50 values.

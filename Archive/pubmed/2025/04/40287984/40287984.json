@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "40287984",
+    "doi": "10.1177/03000605251333646",
+    "title": "Machine learning analysis of FOSL2 and RHoBTB1 as central immunological regulators in knee osteoarthritis synovium."
+  },
+  "content": {
+    "abstract": "BackgroundKnee osteoarthritis is a debilitating disease with a complex pathogenesis. Synovitis, which refers to inflammation of the synovial membrane surrounding the joint, is believed to play an important role in the development and progression of knee osteoarthritis. To better understand the molecular mechanisms underlying knee osteoarthritis, we conducted a comprehensive analysis of gene expression in knee osteoarthritis synovium using machine learning.MethodsDifferentially expressed genes between knee osteoarthritis and control synovial tissues were analyzed using the GSE55235 dataset. We employed several machine learning algorithms, including least absolute shrinkage and selection operator and support vector machine-recursive feature elimination, to screen for key genes. Then, we validated the key genes using an external dataset (GSE51588) and an in vitro knee osteoarthritis animal model. CIBERSORT was used to compare immune cell infiltration levels between knee osteoarthritis and control synovial tissues and determine their relationship with the key genes. Finally, we performed a Connectivity Map analysis to screen for potential small-molecule compounds. Moreover, we conducted single-cell RNA sequencing analysis using knee joint tissues to annotate different subtypes of cells.ResultsA total of 930 differentially expressed genes were identified. Least absolute shrinkage and selection operator regression and support vector machine-recursive feature elimination identified FOSL2 and RHoBTB1 as key genes. The expression levels of both genes were further validated in the GSE51588 dataset as well as verified through an in vitro experiment involving a knee osteoarthritis mouse model. Multiple significant correlation pairs were found between the immune cell infiltration levels. We unveiled the genetic basis of knee osteoarthritis using genome-wide association study and specific signaling pathways through gene set enrichment analysis. The GeneCards database was used to obtain 3032 pathogenic genes associated with knee osteoarthritis, and we found that RHoBTB1 expression was significantly negatively correlated and FOSL2 expression was significantly positively correlated with interleukin-1beta expression. We predicted several small-molecule compounds based on Connectivity Map analysis. Finally, single-cell RNA sequencing analysis revealed the expression levels of the two key genes in chondrocytes and tissue stem cells.ConclusionFOSL2 and RHoBTB1 may play key roles in the pathogenesis of knee osteoarthritis, exhibiting correlations with immune cell infiltration levels. These findings indicate that these genes have potential as therapeutic targets. However, further research and validation are necessary to confirm their exact roles and therapeutic potential in knee osteoarthritis.",
+    "keywords": [
+      "Knee osteoarthritis",
+      "immunological regulators",
+      "machine learning",
+      "regulatory pathways",
+      "synovium"
+    ],
+    "mesh_terms": [
+      "*Osteoarthritis, Knee/genetics/immunology/pathology",
+      "*Synovial Membrane/immunology/pathology/metabolism",
+      "Humans",
+      "Animals",
+      "*Fos-Related Antigen-2/genetics/metabolism",
+      "*Machine Learning",
+      "Mice",
+      "Disease Models, Animal",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Kun",
+        "Huang, Zhenyu",
+        "Liao, Zhouwei",
+        "Wang, Yanfei",
+        "Chen, Dayu"
+      ],
+      "short_names": [
+        "Gao K",
+        "Huang Z",
+        "Liao Z",
+        "Wang Y",
+        "Chen D"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1400-286X"
+      ],
+      "affiliations": [
+        "Department of Orthopedics, The Fourth Clinical Medical College of Guangzhou University of Chinese Medicine, Shenzhen, China.",
+        "The Fourth Clinical Medical College of Guangzhou University of Chinese Medicine, Shenzhen, China.",
+        "The Fourth Clinical Medical College of Guangzhou University of Chinese Medicine, Shenzhen, China.",
+        "The Fourth Clinical Medical College of Guangzhou University of Chinese Medicine, Shenzhen, China.",
+        "Department of Orthopedics, The Fourth Clinical Medical College of Guangzhou University of Chinese Medicine, Shenzhen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Kun",
+        "short_name": "Gao K",
+        "identifiers": [
+          "0000-0003-1400-286X"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, The Fourth Clinical Medical College of Guangzhou University of Chinese Medicine, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zhenyu",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Clinical Medical College of Guangzhou University of Chinese Medicine, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Zhouwei",
+        "short_name": "Liao Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Clinical Medical College of Guangzhou University of Chinese Medicine, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanfei",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Clinical Medical College of Guangzhou University of Chinese Medicine, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Dayu",
+        "short_name": "Chen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Fourth Clinical Medical College of Guangzhou University of Chinese Medicine, Shenzhen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of international medical research"
+    ],
+    "journal_abbrev": [
+      "J Int Med Res"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/27 18:29",
+    "fetched_at": "2026-09-30 16:28:56"
+  },
+  "links": {
+    "cites": [
+      "42381080",
+      "42093113"
+    ],
+    "refs": [
+      "35880174",
+      "35358093",
+      "35069594",
+      "34628351",
+      "34484236",
+      "34417811",
+      "34271875",
+      "34041036",
+      "32662519",
+      "32610127",
+      "31789920",
+      "31234009",
+      "30940689",
+      "30453885",
+      "30382394",
+      "29679657",
+      "29558967",
+      "29195078",
+      "28583421",
+      "28566276",
+      "28148295",
+      "27156530",
+      "26192919",
+      "25605792",
+      "25375657",
+      "24690414",
+      "24229462",
+      "24046454",
+      "23194896",
+      "23128233",
+      "23021777",
+      "20924410",
+      "20837772",
+      "20305774",
+      "18641127",
+      "18298893",
+      "16199517",
+      "11399094",
+      "1543306"
+    ],
+    "similar": [
+      "40287984",
+      "40083558",
+      "38767974",
+      "38711508",
+      "40312440",
+      "35785145",
+      "40196125",
+      "31737663",
+      "39507054",
+      "40247403",
+      "35341274",
+      "39341952",
+      "39509434",
+      "39779817",
+      "39142001",
+      "35967352",
+      "37986345",
+      "37454542",
+      "40089565",
+      "40216809",
+      "36685529",
+      "39586719",
+      "38758850",
+      "38650649",
+      "33782454",
+      "40181977",
+      "39650552",
+      "39081100",
+      "38771826",
+      "35958412",
+      "36681837",
+      "39849508",
+      "24757147",
+      "39953769",
+      "38476236",
+      "39730379",
+      "39375405",
+      "39139563",
+      "40313958",
+      "34113405",
+      "36589450",
+      "30597276",
+      "39396400",
+      "38863714",
+      "39388708",
+      "39839184",
+      "38827307",
+      "36817415",
+      "38755717",
+      "30365099",
+      "36238290",
+      "39370621",
+      "36685513",
+      "39086489",
+      "39026663",
+      "38649912",
+      "31190410",
+      "39061076",
+      "40129981",
+      "39923303",
+      "38951833",
+      "38867322",
+      "39695788",
+      "39512836",
+      "34054865",
+      "30393192",
+      "38849409",
+      "36948405",
+      "38291374",
+      "39845946",
+      "24563447",
+      "28678406",
+      "36929359",
+      "38994368",
+      "37783761",
+      "39805794",
+      "32258161",
+      "38640305",
+      "39609718",
+      "39351221",
+      "34107850",
+      "35713363",
+      "35381129",
+      "39341981",
+      "26521730",
+      "39995143",
+      "39707003",
+      "39469580",
+      "37545537",
+      "27118120",
+      "40186163",
+      "39331874",
+      "34719950",
+      "40296690",
+      "38283345",
+      "40253457",
+      "39697326",
+      "26299081",
+      "26455170",
+      "38148887"
+    ],
+    "review": [
+      "40287984"
+    ],
+    "pmc": [
+      "12035077"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1177/03000605251333646?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/40287984.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40287984/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

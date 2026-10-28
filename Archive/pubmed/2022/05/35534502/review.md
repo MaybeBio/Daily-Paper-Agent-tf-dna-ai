@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors identify oleoylethanolamide (OEA) as an endogenous ligand that selectively binds to the PAS-B domain of HIF-3α, and propose a molecular mechanism whereby OEA binding stabilizes the HIF-3α-ARNT heterodimer and enhances transcriptional activity, potentially linking HIF-3α to metabolic regulation.
+- **Visible evidence base** Crystal structures of apo and OEA-bound HIF-3α-ARNT, HDX-MS data, MD simulations, SPR binding, thermal shift assays, TR-FRET dimerization assays, cell-based transcriptional reporter assays, and mutagenesis experiments
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; raw data for SPR sensorgrams, HDX-MS peptide-level data, MD simulation convergence metrics, and full statistical details for cell-based assays
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting finding that OEA, a known metabolic signaling lipid, can bind to HIF-3α and modulate its activity. The combination of structural, biophysical, and cell-based approaches is commendable. However, several technical concerns and gaps in evidence weaken the central claims. The selectivity of OEA for HIF-3α over other HIF-α isoforms requires stronger quantitative support, and the physiological relevance of the observed binding affinity and concentrations used in cell assays needs clarification. The proposed allosteric mechanism, while plausible, relies heavily on computational and indirect experimental evidence. The manuscript would benefit from additional experiments to directly demonstrate the functional consequences of OEA-HIF-3α interaction in a more physiologically relevant context.
+- **Who would be interested in the results, and why** Researchers in the fields of hypoxia signaling, transcription factor regulation, lipid metabolism, and structural biology would find these results of interest. The identification of an endogenous ligand for a relatively understudied HIF isoform could open new avenues for understanding HIF-3α function and its potential role in metabolic diseases. The proposed allosteric mechanism may also inform drug discovery efforts targeting HIF family members.
+- **Major strengths** 1. The study addresses a significant gap in the field by identifying a potential endogenous ligand for HIF-3α, which has been poorly characterized compared to HIF-1α and HIF-2α. 2. The multi-technique approach, combining X-ray crystallography, HDX-MS, MD simulations, and biochemical assays, provides a comprehensive view of the ligand-binding event. 3. The structural comparison between apo and OEA-bound forms offers mechanistic insights into how ligand binding may stabilize the heterodimer. 4. The authors appropriately discuss the potential physiological relevance of their findings in the context of obesity and metabolic regulation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that OEA selectively binds to HIF-3α over HIF-1α and HIF-2α is central to the manuscript.
+  - **Evidence pointer** Figure 2a, Results section "Identification of OEA as a direct-binding ligand for HIF-3α"
+  - **Concern** The selectivity claim is based primarily on the AS-MS screening and thermal shift assays. However, the AS-MS screening data are not shown in the main figures, and the thermal shift assay (Fig. 2b) shows only a modest ΔTm of approximately 1.7°C for HIF-3α. The quantitative comparison of OEA binding to HIF-1α and HIF-2α is not clearly presented. The SPR data (Fig. 2c) are only shown for HIF-3α PAS-B domain, not for the other isoforms. Without a direct, quantitative comparison of binding affinities across all three isoforms under identical conditions, the selectivity claim is not fully supported.
+  - **Why it matters** The selectivity of OEA for HIF-3α is a key differentiator and underpins the physiological relevance of the finding. If OEA also binds to HIF-1α or HIF-2α with similar affinity, the specificity of the proposed mechanism would be undermined.
+  - **Resolution test** Provide SPR or ITC binding data for OEA binding to HIF-1α and HIF-2α PAS-B domains under identical conditions, and show the full AS-MS screening results including hit lists and confirmation data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The claim that OEA enhances HIF-3α transcriptional activity in cells (Figure 2e).
+  - **Evidence pointer** Figure 2e, Results section "Identification of OEA as a direct-binding ligand for HIF-3α"
+  - **Concern** The cell-based transcriptional assay shows a modest increase in HSPA6 expression with OEA treatment (approximately 1.5-fold, p=0.0437). The physiological relevance of this effect is unclear, especially given that the OEA concentration used (25 μM) is significantly higher than the reported physiological concentrations of OEA in tissues (200-400 nM in rat intestinal mucosa, as cited in the Discussion). The authors do not demonstrate that the effect is dose-dependent or that it occurs at physiologically relevant concentrations. Additionally, the specificity of the effect is not fully established, as the authors do not show whether OEA affects HIF-1α or HIF-2α transcriptional activity in parallel experiments.
+  - **Why it matters** The functional consequence of OEA binding is a critical component of the manuscript's central claim. If the effect is only observed at supraphysiological concentrations or is not specific to HIF-3α, the physiological significance of the finding is questionable.
+  - **Resolution test** Perform dose-response experiments with OEA at concentrations spanning the physiological range (e.g., 0.1-50 μM). Include parallel experiments with HIF-1α and HIF-2α overexpression to demonstrate specificity. Consider using a more sensitive reporter system or measuring endogenous target gene expression.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** The proposed allosteric mechanism whereby OEA binding stabilizes the HIF-3α-ARNT heterodimer through conformational changes in the PAS-B domain and the ARNT A/B loop.
+  - **Evidence pointer** Figures 3 and 4, Results sections "Agonistic mechanism of OEA through allosteric effects" and "Ligand entry route into the PAS-B pocket"
+  - **Concern** The allosteric mechanism is inferred from a combination of static crystal structures, MD simulations, and HDX-MS. While the structural comparison shows local conformational changes, the causal link between OEA binding and enhanced heterodimer stability is not directly demonstrated. The MD simulations are used to support the mechanism, but the simulation details (force field parameters, simulation length, convergence criteria) are only briefly described in Methods. The HDX-MS data show reduced deuteration in specific regions upon OEA binding, but the magnitude and statistical significance of these changes are not fully presented. The mutagenesis experiment (G237W) provides some support, but the effect is partial and the interpretation is somewhat indirect.
+  - **Why it matters** A robust mechanistic understanding is essential for the broader impact of this work. If the allosteric mechanism is not convincingly demonstrated, the manuscript's contribution is reduced to a descriptive finding of OEA binding.
+  - **Resolution test** Provide more detailed MD simulation analysis, including convergence checks and replicate simulations. Show full HDX-MS difference plots with statistical analysis. Consider performing additional mutagenesis experiments targeting the key residues identified in the MD simulations and HDX-MS, and directly measure heterodimer stability using biophysical methods (e.g., SEC-MALS, AUC) in the presence and absence of OEA.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance
+  - **Claim pointer** The claim that OEA may serve as a physiological ligand for HIF-3α, linking HIF-3α to metabolic regulation.
+  - **Evidence pointer** Discussion section
+  - **Concern** The physiological relevance of the OEA-HIF-3α interaction is discussed but not experimentally tested. The authors note that OEA concentrations in tissues are in the nanomolar range, while the KD for OEA binding to HIF-3α PAS-B is approximately 14 μM. This three-order-of-magnitude discrepancy raises questions about whether OEA would occupy the HIF-3α PAS-B pocket under physiological conditions. The authors do not address this issue directly or provide evidence that local OEA concentrations could reach micromolar levels in relevant cell types.
+  - **Why it matters** The physiological significance of the finding is a key aspect of the manuscript's broader impact. If OEA does not bind to HIF-3α at physiologically relevant concentrations, the clinical and biological implications are limited.
+  - **Resolution test** Measure intracellular OEA concentrations in relevant cell types (e.g., intestinal epithelial cells, adipocytes) and compare with the measured KD. Alternatively, perform experiments with OEA at lower concentrations to determine the minimal effective concentration for functional effects. Discuss the potential for local OEA accumulation or compartmentalization that could increase local concentrations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1b
+  - **Evidence pointer** Figure 1b
+  - **Issue** The overall structure of the HIF-3α-ARNT heterodimer is shown, but the quality of the electron density maps and the refinement statistics are only summarized in Supplementary Table 1, which is not provided. The resolution of 2.3 Å is reasonable, but the authors should comment on the quality of the density in the regions where conformational changes are observed upon OEA binding.
+  - **Required correction** Provide the refinement statistics in the main text or ensure Supplementary Table 1 is accessible. Add a brief statement about the quality of the electron density in the PAS-B domain and the A/B loop regions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 2e
+  - **Evidence pointer** Figure 2e
+  - **Issue** The statistical analysis for the HSPA6 expression data uses an unpaired two-tailed t-test with n=3 biological replicates. The p-values are reported as 0.0019 and 0.0437. However, the authors do not specify whether the data were normally distributed or whether a multiple testing correction was applied. Given the small sample size, a non-parametric test or a more robust statistical approach may be more appropriate.
+  - **Required correction** Provide details on the statistical tests used, including assumptions and any corrections for multiple comparisons. Consider presenting individual data points in the figure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section "Molecular dynamics (MD) simulations"
+  - **Issue** The MD simulation methods are described, but key parameters such as the total simulation time for each system, the number of replicates, and the criteria for convergence are not clearly stated. The authors mention 500-ns simulations, but it is unclear if these were single runs or replicates.
+  - **Required correction** Provide a clear description of the MD simulation setup, including the number of replicates, total simulation time, and convergence criteria. If only single simulations were performed, acknowledge this limitation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors discuss the potential link between HIF-3α and obesity based on genetic studies, but the connection to OEA is speculative. The discussion would benefit from a more balanced consideration of alternative explanations and the limitations of the current study.
+  - **Required correction** Add a paragraph acknowledging the limitations of the study, including the concentration discrepancy, the lack of direct in vivo evidence, and the need for future studies to establish physiological relevance.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of quantitative selectivity data for OEA binding across HIF-α isoforms (R1-M1). 2. Functional assays performed at supraphysiological OEA concentrations without dose-response analysis (R1-M2). 3. Incomplete presentation of MD simulation and HDX-MS data supporting the allosteric mechanism (R1-M3). 4. Unresolved discrepancy between measured KD and physiological OEA concentrations (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The identification of an endogenous ligand for HIF-3α is a novel contribution, as this isoform has been relatively understudied. The finding that a metabolic lipid can directly bind to a HIF family member adds a new dimension to our understanding of hypoxia signaling. Scientific importance: The potential link between OEA, HIF-3α, and metabolic regulation is intriguing and could have implications for obesity and related disorders. However, the physiological relevance is not yet established, limiting the immediate impact. Interdisciplinary readership: The work bridges structural biology, biochemistry, and cell biology, and would appeal to researchers in these fields. The metabolic angle may also attract interest from the metabolism community. Technical soundness: The structural work appears technically sound, but the functional and mechanistic evidence is incomplete. The selectivity claim and the physiological relevance require stronger experimental support. Readability for nonspecialists: The manuscript is generally well-written and accessible, with clear figures and logical flow. However, some sections, particularly the MD simulation and HDX-MS descriptions, may be challenging for non-specialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding of OEA as a selective HIF-3α ligand is potentially significant, but the current evidence does not fully establish the selectivity, functional relevance, or physiological importance. The authors should address the major concerns outlined above, particularly by providing quantitative selectivity data, dose-response functional experiments, and a more direct demonstration of the allosteric mechanism.
+
+## Risk / unsupported claims
+- The claim that OEA selectively binds to HIF-3α over HIF-1α and HIF-2α is not fully supported by the presented data, as quantitative comparison across isoforms is lacking.
+- The claim that OEA functions as an agonist to enhance HIF-3α transcriptional activity is based on a single reporter gene assay at a single, supraphysiological concentration.
+- The proposed allosteric mechanism is inferred from computational and indirect experimental evidence and is not directly demonstrated.
+- The physiological relevance of the OEA-HIF-3α interaction is speculative, given the discrepancy between the measured KD (14 μM) and reported tissue concentrations of OEA (200-400 nM).
+- The claim that HIF-3α may share a common ligand entry route with HIF-2α is based on limited MD simulation data and requires further experimental validation.

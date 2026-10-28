@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.06.680553",
+  "title": "ceQTL: A co-expression QTL model to detect a variant that affects transcription factor binding and its target regulation",
+  "authors": "Panwen Wang; Li Liu; Junwen Wang; Ping Yang; Zhifu Sun",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-06",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 5,
+  "one_liner_zh": "提出ceQTL统计模型，通过等位基因间TF-靶基因共表达差异检测影响TF结合的eQTL，但方法为统计回归而非AI或物理模拟，且未涉及三维互作建模，属于广义TF-DNA调控关联分析。",
+  "abstract": "Expression quantitative trait locus (eQTL) mapping is used to identify a functional link between a genomic variant, such as single nucleotide polymorphism (SNP), and gene expression (often close-by pair for cis-eQTL) by linear regression, commonly done when matching genotype and expression data from same individuals are available. Millions of significant eQTLs have been reported by both individual studies and coordinated large consortiums such as Genotype-Tissue Expression project (GTEx). A significant eQTL association does not establish a causal relationship or provide any underlying mechanism so further investigation is needed to understand how a SNP impacts gene expression. One of the plausible explanations for eQTL is that a genomic variant affects transcription factor (TF) binding and thus impacts its regulation on its target genes (TGs). However, data-driven or formal statistical methods to prove that hypothesis are still lacking. To address the gap, we propose a new method called differential co-expression QTL (ceQTL) among different alleles using Chow statistics to specifically detect eQTLs that are modulated by a particular TF. We start with building a trio of TF, its TG, and related SNP and then test the significant coefficient difference among different levels of SNP in terms of TF and TG correlation. We applied this ceQTL model to simulated data and the lung tissue datasets from the GTEx project. The simulated data results showed that the model was robust to detect true ceQTLs at variable sample sizes and different minor allele frequencies as measured by Area Under the Curve (AUC). In normal lung tissue, a small fraction of eQTLs were found to have strong ceQTLs, i.e., eQTLs where SNP affects gene expression though TF binding. Some ceQTLs may not be detected by traditional eQTL analysis. Our tool also performed a TF binding affinity analysis to add another layer of evidence for functional interpretation. Comparisons with other similar tools were also presented. In summary, ceQTL analysis provides a more interpretable and biological insight into the mechanism of eQTL, which would help us better understand how genomic variants affect phenotypes and diseases.",
+  "abstract_zh": "表达数量性状基因座（eQTL）定位用于通过线性回归识别基因组变异（如单核苷酸多态性（SNP））与基因表达之间的功能关联（通常为顺式eQTL的邻近配对），这通常在拥有来自相同个体的基因型和表达数据匹配时进行。个体研究和协调的大型联盟（如基因型-组织表达项目（GTEx））已报告了数百万个显著的eQTL。显著的eQTL关联并不确立因果关系或提供任何潜在机制，因此需要进一步研究以理解SNP如何影响基因表达。eQTL的一个合理解释是基因组变异影响转录因子（TF）结合，从而影响其对靶基因（TGs）的调控。然而，缺乏数据驱动或正式的统计方法来证明这一假设。为弥补这一空白，我们提出了一种新方法，称为差异共表达QTL（ceQTL），利用Chow统计量在不同等位基因间特异性地检测由特定TF调控的eQTL。我们首先构建TF、其TG及相关SNP的三元组，然后检验在不同SNP水平下TF和TG相关性系数的显著差异。我们将此ceQTL模型应用于模拟数据和GTEx项目的肺组织数据集。模拟数据结果表明，该模型在不同样本量和不同次要等位基因频率下，通过曲线下面积（AUC）衡量，对检测真实ceQTL具有稳健性。在正常肺组织中，发现一小部分eQTL具有强ceQTL，即SNP通过TF结合影响基因表达的eQTL。某些ceQTL可能无法通过传统eQTL分析检测到。我们的工具还进行了TF结合亲和力分析，为功能解释增加了另一层证据。还展示了与其他类似工具的比较。总之，ceQTL分析为eQTL机制提供了更具可解释性和生物学洞察力的视角，有助于我们更好地理解基因组变异如何影响表型和疾病。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.06.680553",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.06.680553",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.06.680553/index.html"
+}

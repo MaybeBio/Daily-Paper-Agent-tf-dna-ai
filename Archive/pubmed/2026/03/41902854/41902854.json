@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "41902854",
+    "doi": "10.1007/s00210-026-05244-6",
+    "title": "Bulk and single-cell transcriptome analyses combined with molecular simulations identify ferritinophagy as a key target for resveratrol in osteoarthritis."
+  },
+  "content": {
+    "abstract": "The pathophysiology of osteoarthritis (OA), a common degenerative joint disease, is complicated. The significance of autophagy irregularities and iron metabolism issues in OA has garnered a lot of interest in recent years, with \"Ferritinophagy\" mediated by NCOA4 acting as a crucial link between the two and potentially a novel therapeutic target. The purpose of this research is to determine whether resveratrol, a naturally occurring substance, protects cartilage via controlling the ferritinophagy network. Using differential analysis, weighted gene co-expression network analysis, and other machine learning methods, this study combined transcriptome data from several omics studies and screened OA core ferritinophagy-related genes. Use molecular docking and molecular dynamics simulations to assess resveratrol's binding mechanism and stability to core targets. The CCK-8 technique was employed in vitro to assess cell survival and identify the ideal resveratrol intervention concentration in an inflammatory model of human articular chondrocytes caused by IL-1beta. Using Western blot (WB) to determine the expression of 8 key proteins including NCOA4, GPX4, and LC3. Transmission electron microscopy is used to observe the mitochondrial ultrastructure. NCOA4 protein location and expression were verified using immunofluorescence. Bioinformatics analysis successfully screened key genes such as DDIT4, CTSB, BNIP3, CDKN1A, and NCOA4. Molecular docking and molecular dynamics simulations demonstrate that resveratrol can stably bind to core proteins such as BNIP3 and NCOA4. Resveratrol has been shown in vitro to dramatically increase cell survival and reverse the aberrant expression of important ferritinophagy proteins brought on by IL-1beta, upregulating GPX4 and CDKN1A and downregulating NCOA4, LC3-II/I, and BNIP3. The results of transmission electron microscopy demonstrated that resveratrol successfully reduced aberrant autophagosome aggregation and mitochondrial damage. Resveratrol can considerably reduce the unusually high expression of NCOA4, as further demonstrated by immunofluorescence. This study reveals the molecular mechanism by which resveratrol inhibits NCOA4-mediated ferroptophagy, thereby regulating downstream autophagy and ferroptosis processes, and alleviating chondrocyte damage in OA. This provides a new perspective for elucidating the cartilage protective effect of resveratrol and lays a solid theoretical and experimental foundation for developing OA treatment strategies targeting ferritinophagy.",
+    "keywords": [
+      "Ferritinophagy",
+      "Molecular dynamics simulation",
+      "NCOA4",
+      "Osteoarthritis",
+      "Resveratrol"
+    ],
+    "mesh_terms": [
+      "*Resveratrol/pharmacology",
+      "Humans",
+      "*Osteoarthritis/drug therapy/genetics/metabolism",
+      "Molecular Docking Simulation",
+      "*Chondrocytes/drug effects/metabolism",
+      "Nuclear Receptor Coactivators/metabolism/genetics",
+      "Molecular Dynamics Simulation",
+      "Gene Expression Profiling",
+      "*Autophagy/drug effects",
+      "Transcriptome",
+      "*Ferritins/metabolism",
+      "Cell Survival/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fu, Xingqian",
+        "Liu, Wei",
+        "Zhang, Yongxiang",
+        "Wu, Qihong",
+        "Long, Gang",
+        "Zhai, Yifa",
+        "Song, Chao",
+        "Yang, Po"
+      ],
+      "short_names": [
+        "Fu X",
+        "Liu W",
+        "Zhang Y",
+        "Wu Q",
+        "Long G",
+        "Zhai Y",
+        "Song C",
+        "Yang P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Traumatic Orthopedics, The Second Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou Province, China.",
+        "Department of Orthopedics, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, Sichuan Province, China.",
+        "Traumatic Orthopedics, The Second Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou Province, China.",
+        "Traumatic Orthopedics, The Second Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou Province, China.",
+        "Department of Orthopedics IV, People's Hospital of Qiandongnan Prefecture, Kaili, Guizhou Province, China.",
+        "Department of Orthopedics and Traumatology, Liupanshui Hospital of Traditional Chinese Medicine, Liupanshui, Guizhou Province, China.",
+        "Department of Orthopedics, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, Sichuan Province, China. 591065330@qq.com.",
+        "Traumatic Orthopedics, The Second Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou Province, China. 274331001@qq.com.",
+        ", No. 83 Feishan Street, Yunyan District, Guiyang City, Guizhou Province, China. 274331001@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fu, Xingqian",
+        "short_name": "Fu X",
+        "identifiers": [],
+        "affiliations": [
+          "Traumatic Orthopedics, The Second Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wei",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, Sichuan Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yongxiang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Traumatic Orthopedics, The Second Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Qihong",
+        "short_name": "Wu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Traumatic Orthopedics, The Second Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Long, Gang",
+        "short_name": "Long G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics IV, People's Hospital of Qiandongnan Prefecture, Kaili, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhai, Yifa",
+        "short_name": "Zhai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics and Traumatology, Liupanshui Hospital of Traditional Chinese Medicine, Liupanshui, Guizhou Province, China."
+        ]
+      },
+      {
+        "full_name": "Song, Chao",
+        "short_name": "Song C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, Sichuan Province, China. 591065330@qq.com."
+        ]
+      },
+      {
+        "full_name": "Yang, Po",
+        "short_name": "Yang P",
+        "identifiers": [],
+        "affiliations": [
+          "Traumatic Orthopedics, The Second Affiliated Hospital of Guizhou University of Traditional Chinese Medicine, Guiyang, Guizhou Province, China. 274331001@qq.com.",
+          ", No. 83 Feishan Street, Yunyan District, Guiyang City, Guizhou Province, China. 274331001@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Naunyn-Schmiedeberg's archives of pharmacology"
+    ],
+    "journal_abbrev": [
+      "Naunyn Schmiedebergs Arch Pharmacol"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/29 07:34",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41005058",
+      "40299032",
+      "40190344",
+      "40124471",
+      "39991669",
+      "39914495",
+      "39529997",
+      "39463176",
+      "39376171",
+      "39306824",
+      "39289562",
+      "39024748",
+      "39022306",
+      "38868713",
+      "37980493",
+      "37671131",
+      "36907253",
+      "36890785",
+      "36708839",
+      "36328754",
+      "36305834",
+      "36300620",
+      "35959426",
+      "35609983",
+      "35293126",
+      "34600121",
+      "34144159",
+      "31477170",
+      "29461680",
+      "27899662",
+      "25605792",
+      "21684382",
+      "20689021",
+      "19114008",
+      "16211538",
+      "14597658"
+    ],
+    "similar": [
+      "41902854",
+      "41873334",
+      "39746501",
+      "36907253",
+      "42377012",
+      "41653617",
+      "41528411",
+      "40299032",
+      "41005058",
+      "40948766",
+      "41327360",
+      "39306799",
+      "40216809",
+      "36940731",
+      "38688134",
+      "40797087",
+      "41539091",
+      "41416711",
+      "41148492",
+      "39353532",
+      "39887555",
+      "42091499",
+      "41981440",
+      "39849508",
+      "40339610",
+      "41182521",
+      "41691981",
+      "41740686",
+      "40749519",
+      "41720004",
+      "41317784",
+      "41821081",
+      "35771492",
+      "41077348",
+      "32948212",
+      "41690330",
+      "40344841",
+      "40738474",
+      "39827924",
+      "39946767",
+      "41986586",
+      "41232761",
+      "39181476",
+      "41161393",
+      "39331352",
+      "38768701",
+      "41038144",
+      "38763373",
+      "42233387",
+      "38621329",
+      "41326925",
+      "41533098",
+      "39306824",
+      "38713437",
+      "40335979",
+      "41374003",
+      "41112282",
+      "40754277",
+      "38040913",
+      "34346124",
+      "39089637",
+      "42102950",
+      "40891826",
+      "42305484",
+      "42219071",
+      "37855351",
+      "33245979",
+      "39928088",
+      "40954058",
+      "38663454",
+      "41067202",
+      "34370287",
+      "38704789",
+      "39115666",
+      "39789715",
+      "41997321",
+      "33402128",
+      "39522250",
+      "41721997",
+      "42392495",
+      "39126921",
+      "40804084",
+      "41722510",
+      "38049841",
+      "42265520",
+      "41697925",
+      "42447508",
+      "39964979",
+      "41724278",
+      "41644044",
+      "36137413",
+      "41851758",
+      "41241173",
+      "42363474",
+      "28987943",
+      "42025819",
+      "40937759",
+      "38218311",
+      "39700692",
+      "38189810"
+    ],
+    "review": [
+      "41902854",
+      "40344841",
+      "39306824",
+      "39928088"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00210-026-05244-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-186",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "identity": {
+    "pmid": "39190324",
+    "doi": "10.1039/d4cp02564d",
+    "title": "Statistical accuracy of molecular dynamics-based methods for sampling conformational ensembles of disordered proteins."
+  },
+  "content": {
+    "abstract": "The characterization of the statistical ensemble of conformations of intrinsically disordered regions (IDRs) is a great challenge both from experimental and computational points of view. In this respect, a number of protocols have been developed using molecular dynamics (MD) simulations to sample the huge conformational space of the molecule. In this work, we consider one of the best methods available, replica exchange solute tempering (REST), as a reference to compare the results obtained using this method with the results obtained using other methods, in terms of experimentally measurable quantities. Along with the methods assessed, we propose here a novel protocol called probabilistic MD chain growth (PMD-CG), which combines the flexible-meccano and hierarchical chain growth methods with the statistical data obtained from tripeptide MD trajectories as the starting point. The system chosen for testing is a 20-residue region from the C-terminal domain of the p53 tumor suppressor protein (p53-CTD). Our results show that PMD-CG provides an ensemble of conformations extremely quickly, after suitable computation of the conformational pool for all peptide triplets of the IDR sequence. The measurable quantities computed on the ensemble of conformations agree well with those based on the REST conformational ensemble.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Protein Conformation",
+      "Tumor Suppressor Protein p53/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bastida, Adolfo",
+        "Zuniga, Jose",
+        "Fogolari, Federico",
+        "Soler, Miguel A"
+      ],
+      "short_names": [
+        "Bastida A",
+        "Zuniga J",
+        "Fogolari F",
+        "Soler MA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8193-9233",
+        "ORCID: 0000-0001-9862-250X",
+        "ORCID: 0000-0002-5780-9949"
+      ],
+      "affiliations": [
+        "Departamento de Quimica Fisica, Universidad de Murcia, 30100 Murcia, Spain. bastida@um.es.",
+        "Departamento de Quimica Fisica, Universidad de Murcia, 30100 Murcia, Spain. bastida@um.es.",
+        "Dipartimento di Scienze Matematiche, Informatiche e Fisiche, Universita di Udine, 33100 Udine, Italy. miguelangel.solerbastida@uniud.it.",
+        "Dipartimento di Scienze Matematiche, Informatiche e Fisiche, Universita di Udine, 33100 Udine, Italy. miguelangel.solerbastida@uniud.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bastida, Adolfo",
+        "short_name": "Bastida A",
+        "identifiers": [
+          "0000-0002-8193-9233"
+        ],
+        "affiliations": [
+          "Departamento de Química Física, Universidad de Murcia, 30100 Murcia, Spain. bastida@um.es."
+        ]
+      },
+      {
+        "full_name": "Zúñiga, José",
+        "short_name": "Zúñiga J",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Química Física, Universidad de Murcia, 30100 Murcia, Spain. bastida@um.es."
+        ]
+      },
+      {
+        "full_name": "Fogolari, Federico",
+        "short_name": "Fogolari F",
+        "identifiers": [
+          "0000-0001-9862-250X"
+        ],
+        "affiliations": [
+          "Dipartimento di Scienze Matematiche, Informatiche e Fisiche, Università di Udine, 33100 Udine, Italy. miguelangel.solerbastida@uniud.it."
+        ]
+      },
+      {
+        "full_name": "Soler, Miguel A",
+        "short_name": "Soler MA",
+        "identifiers": [
+          "0000-0002-5780-9949"
+        ],
+        "affiliations": [
+          "Dipartimento di Scienze Matematiche, Informatiche e Fisiche, Università di Udine, 33100 Udine, Italy. miguelangel.solerbastida@uniud.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical chemistry chemical physics : PCCP"
+    ],
+    "journal_abbrev": [
+      "Phys Chem Chem Phys"
+    ],
+    "pub_date": "2024 Sep 11",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/27 12:47",
+    "fetched_at": "2026-09-30 01:48:35"
+  },
+  "links": {
+    "cites": [
+      "41896379",
+      "41865079",
+      "41165517"
+    ],
+    "refs": [],
+    "similar": [
+      "39190324",
+      "28092832",
+      "31241933",
+      "36791464",
+      "30855964",
+      "25099811",
+      "30708285",
+      "36987865",
+      "36084124",
+      "36934808",
+      "32184088",
+      "28597880",
+      "31253862",
+      "26052838",
+      "25897952",
+      "39093570",
+      "38230670",
+      "30840442",
+      "35129612",
+      "30134733",
+      "38018910",
+      "21943426",
+      "30204435",
+      "34680137",
+      "33401765",
+      "37155239",
+      "35725761",
+      "31999450",
+      "33030249",
+      "31809054",
+      "26548662",
+      "31548393",
+      "32696368",
+      "30979035",
+      "27735058",
+      "30878202",
+      "21056574",
+      "34799573",
+      "37990496",
+      "33076213",
+      "37108059",
+      "26735936",
+      "36463772",
+      "26030674",
+      "33623120",
+      "35543707",
+      "34252246",
+      "38996889",
+      "26742101",
+      "31797597",
+      "38275091",
+      "32929427",
+      "33030907",
+      "26138206",
+      "31402649",
+      "26807783",
+      "33984364",
+      "31362509",
+      "24589355",
+      "35174713",
+      "38781245",
+      "30731089",
+      "21541066",
+      "35962177",
+      "38053335",
+      "35298814",
+      "33581430",
+      "34845619",
+      "28841239",
+      "32192337",
+      "29573987",
+      "37905972",
+      "39158517",
+      "32696369",
+      "31375817",
+      "25380651",
+      "27807972",
+      "38297118",
+      "37133846",
+      "24671380",
+      "34627764",
+      "24995857",
+      "33383937",
+      "34576338",
+      "38739602",
+      "21528875",
+      "34825861",
+      "30291845",
+      "29490247",
+      "31248328",
+      "32654182",
+      "38942776",
+      "27532687",
+      "36827446",
+      "29763584",
+      "33725442",
+      "27588692",
+      "33574233",
+      "34680048",
+      "38892222",
+      "36774359",
+      "36711874",
+      "37418278"
+    ],
+    "review": [
+      "39190324",
+      "39093570",
+      "30840442",
+      "35129612",
+      "30979035",
+      "36463772",
+      "26807783"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d4cp02564d",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

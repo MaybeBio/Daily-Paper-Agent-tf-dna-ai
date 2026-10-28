@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and availability statements. Figures and supplementary materials referenced but not provided.
+- **Assessment boundary** Technical soundness of the proposed method, validity of experimental comparisons, clarity of methodological description, and support for stated conclusions based on the provided text alone.
+- **Shared manuscript claim summary** The authors propose DeepGRNCS, a deep learning framework that jointly infers gene regulatory networks across cell subpopulations from scRNA-seq data. The method uses raw TF expression as input to a neural network, discretizes target gene expression via equal-width binning, and infers regulatory weights by individually removing each TF and measuring prediction error. The authors claim superior performance over existing methods on simulated and real datasets, and demonstrate biological relevance in a non-small cell lung cancer application.
+- **Visible evidence base** Text descriptions of methods and results, performance metrics reported in text (AUROC, AUPRC, EPR, F1), references to Figures 1-5 and Supplementary Tables S1-S6. Actual figures, tables, and supplementary materials not provided.
+- **Missing materials affecting confidence** All figures and tables, supplementary materials, exact hyperparameter settings, model architecture details (layer sizes, activation specifics), training procedures, computational runtime benchmarks, and the full source code. These omissions prevent independent verification of several quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a plausible deep learning approach for joint GRN inference across cell subpopulations, addressing a genuine gap in existing methods. The core idea of using multi-subpopulation data to improve per-subpopulation network inference is reasonable, and the knockout-based attribution strategy is a sensible adaptation of perturbation approaches. However, the manuscript has several significant technical weaknesses. The description of the neural network architecture is incomplete, the preprocessing equation is missing, the statistical comparison methodology is under-specified, and the biological application lacks validation of the inferred networks beyond literature correlation. The performance improvements reported are modest in several comparisons, and the claim of superiority is not consistently supported. The manuscript would benefit from clearer exposition of the method, more rigorous statistical analysis, and additional validation of biological findings.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference from single-cell data would be the primary audience. Researchers developing deep learning methods for genomics would also find the approach relevant. The application to NSCLC may interest cancer biologists studying tumor heterogeneity, though the biological validation is currently too superficial to be of primary interest to that community.
+- **Major strengths** The problem addressed is important and timely, as joint inference across cell subpopulations is a recognized limitation of existing GRN methods. The use of raw expression data rather than binary inputs preserves information. The knockout strategy for attributing regulatory influence is conceptually clean and avoids reliance on prior network knowledge. The evaluation spans simulated and real datasets, and the authors include a real biological application.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim the framework predicts target gene expression from TF expression using a deep neural network, with a specific architecture described as "two parts: the Network Main and Network Pair."
+  - **Evidence pointer** Methods section, "The deep neural network for gene expression prediction"; location not provided
+  - **Concern** The neural network architecture is critically under-specified. The text states there are two hidden layers in Network Main and one hidden layer in Network Pair, each with "eight neuron nodes, followed by normalization and ReLu() activation functions," but does not specify input dimensions, output layer structure, loss function details beyond cross-entropy, optimization hyperparameters (learning rate, batch size, epochs), regularization, or how the two network outputs are combined. The phrase "combined and passed through a fully connected layer" is ambiguous. Without these details, the method cannot be reproduced or properly evaluated.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. The architecture description is too vague to allow independent implementation, and the lack of hyperparameter details prevents assessment of whether the reported performance is robust or tuned to specific datasets.
+  - **Resolution test** Provide a complete architectural specification including layer dimensions, activation functions for all layers, the exact combination mechanism for Network Main and Network Pair outputs, all training hyperparameters, and a clear statement of the optimization objective. Ideally, provide pseudocode or a formal algorithm description.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state target gene expression data are "normalized and discretized according to the following equation, similar to [31]."
+  - **Evidence pointer** Methods section, "Data preprocessing"; location not provided
+  - **Concern** The preprocessing equation is missing from the manuscript text. The description mentions adding 10^-4, applying logarithmic normalization, dividing by cell count, expanding by a factor of 10, and rounding, but the actual equation is not displayed. This is a critical omission because the discretization procedure directly determines the classification labels used for training.
+  - **Why it matters** The discretization method is central to the method's design. Without the exact equation, the reader cannot understand how expression values are converted to discrete labels, what the label distribution looks like, or how the choice of binning affects results. This also prevents reproduction.
+  - **Resolution test** Include the full equation with all terms defined, and clarify whether the normalization is applied per gene, per cell, or globally. State the number of discrete levels produced and how this was chosen.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim DeepGRNCS "significantly outperformed other methods in 88.4% of the cases across AUROC and AUPRC metrics on the simulated and real datasets" based on a Wilcoxon signed-rank test.
+  - **Evidence pointer** Results section, "Performance of DeepGRNCS on simulated and real datasets"; Supplementary Table S6
+  - **Concern** The statistical comparison is inadequately described. The text does not specify what constitutes a "case" in the 88.4% figure, how many comparisons were performed, whether multiple testing correction was applied, or what the null hypothesis was for each test. The Wilcoxon signed-rank test is a paired test, but the pairing structure is not explained. Additionally, the threshold for significance (P <= 0.05) is stated, but the actual P-values are not reported in the main text.
+  - **Why it matters** Without a clear description of the statistical framework, the claim of significant superiority cannot be evaluated. The 88.4% figure is ambiguous and could be misleading if the number of comparisons is small or if tests are not independent.
+  - **Resolution test** Clearly define the unit of comparison, report the number of tests performed, specify whether multiple testing correction was applied, and provide the full distribution of P-values. State the exact null hypothesis for each test.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors state that in the NSCLC application, "ELF3, HOPX and SOX4 regulate more genes in malignant cells than in non-malignant cells" and that these genes "may thus contribute to LUAD progression."
+  - **Evidence pointer** Results section, "Key genes in the inferred GRNs in NSCLC patients"; Figure 4
+  - **Concern** The biological validation is based solely on literature correlation. The authors identify hub genes in inferred networks and note that some have known associations with LUAD. However, there is no quantitative assessment of whether the inferred networks are biologically meaningful beyond this anecdotal evidence. The claim that these genes "regulate more genes in malignant cells" is presented without statistical testing or comparison to a null expectation.
+  - **Why it matters** For a method paper, biological application serves as a demonstration of utility. The current analysis does not establish that the inferred networks capture biology beyond what would be expected by chance. The lack of validation weakens the claim that DeepGRNCS produces biologically relevant networks.
+  - **Resolution test** Provide a quantitative enrichment analysis (e.g., enrichment of known LUAD-associated genes among hub genes compared to random expectation), or validate a subset of inferred regulatory edges using independent data (e.g., ChIP-seq, perturbation experiments, or orthogonal network inference methods).
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative evaluation
+  - **Claim pointer** The authors claim DeepGRNCS "outperformed these methods in terms of AUROC and AUPRC" when compared to PIDC, GENIE3, SINCERITIES, and SOCDE on simulated data, and showed "slightly better performance" compared to DeepSEM, MI, GRNBoost2, GENIE3, and DKGN on real data.
+  - **Evidence pointer** Results section, "Performance of DeepGRNCS on simulated and real datasets"; Figures 2C-F
+  - **Concern** The comparative evaluation is described only in aggregate terms. The text reports average improvements but does not provide per-dataset results, confidence intervals, or effect sizes. The claim of "slightly better performance" on real data is particularly vague and does not establish practical significance. Additionally, the choice of comparison methods and their hyperparameter settings is not justified.
+  - **Why it matters** For a new method to be credible, its performance must be characterized in sufficient detail for readers to assess the magnitude and consistency of improvements. Aggregate averages can mask important variability across datasets.
+  - **Resolution test** Report per-dataset results in a table or figure, include confidence intervals or standard errors, and discuss the practical significance of observed differences. Justify the choice of comparison methods and describe their parameter settings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the method "outperforms existing GRN inference methods" without specifying the comparison methods or the evaluation metrics. This overstates the results, which show mixed performance on real data.
+  - **Required correction** Qualify the claim in the abstract to reflect the specific comparisons and metrics used, or state the performance more precisely.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Code availability section; location not provided
+  - **Issue** The code repository is mentioned but no version, commit hash, or documentation of dependencies is provided. The manuscript does not state whether the code includes all preprocessing and evaluation scripts.
+  - **Required correction** Provide a versioned release of the code with a clear README, dependency list, and instructions for reproducing the reported results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "Data preprocessing"
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The text states "we considered designing classification models" but does not explain why classification was chosen over regression, or how the number of discrete levels was determined.
+  - **Required correction** Briefly justify the classification approach and state how the number of bins or discrete levels was selected.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Performance of DeepGRNCS on simulated and real datasets"
+  - **Evidence pointer** Results section; location not provided
+  - **Issue** The text reports that DeepGRNCS was "on average 2.8% and 1.3% higher" than the next best method for AUROC and AUPRC, respectively, but does not state the absolute values or the range across datasets.
+  - **Required correction** Report absolute performance values and ranges to give readers context for the percentage improvements.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Methods, "Prediction of the relationship between genes"
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The term "knocking out" is used to describe setting TF expression to zero. This is a simulation of perturbation, not a true knockout, and the terminology could be misleading.
+  - **Required correction** Use "in silico perturbation" or "expression ablation" instead of "knocking out" to avoid confusion with experimental knockouts.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, "Performance of DeepGRNCS on simulated and real datasets"
+  - **Evidence pointer** Results section; location not provided
+  - **Issue** The Wilcoxon signed-rank test is mentioned, but the number of paired observations and the direction of the test (one-sided or two-sided) are not stated.
+  - **Required correction** Specify the test details, including sample size and whether a one-sided or two-sided test was used.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing architecture details), R1-M2 (missing preprocessing equation), R1-M3 (incomplete statistical comparison). These are blocking because the method cannot be reproduced or the claimed performance cannot be verified without them.
+- **Assessment against Nature-style criteria** Originality: The approach of jointly inferring GRNs across subpopulations using a deep learning framework with a knockout-based attribution strategy has elements of novelty, though it builds on existing ideas from SIGNAL and related work. The originality is moderate rather than high. Scientific importance: GRN inference from scRNA-seq is an important problem, and addressing subpopulation heterogeneity is a relevant contribution. However, the incremental performance gains over existing methods do not clearly establish a major advance. Interdisciplinary readership: The work is primarily of interest to computational biologists and bioinformaticians. The biological application is too superficial to attract a broader cancer biology audience. Technical soundness: The core idea is reasonable, but the manuscript has significant gaps in methodological detail and statistical rigor that currently undermine confidence in the results. Readability for nonspecialists: The manuscript is generally readable, but the missing equation and incomplete architecture description create barriers for readers trying to understand the method.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and the core idea has merit, but the missing methodological details, incomplete statistical reporting, and weak biological validation prevent a positive recommendation. The authors should be invited to revise and resubmit with a complete description of the method, rigorous statistical analysis, and stronger validation of biological findings.

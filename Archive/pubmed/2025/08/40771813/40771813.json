@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "40771813",
+    "doi": "10.3389/fimmu.2025.1611890",
+    "title": "Autonomic nervous system development-related signature as a novel predictive biomarker for immunotherapy in pan-cancers."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Immunotherapy has revolutionized cancer treatment. However, its clinical application remains limited. There is an urgent need for new predictive and prognostic biomarkers that can identify more patients with objective and durable responses and thus, improve the accuracy of prognosis. METHODS: A predictive model for immunotherapy was developed using 34 single-cell RNA sequencing (scRNA-Seq) datasets from various cancer types and eight bulk RNA-Seq datasets from immune checkpoint inhibitor (ICI) cohorts. Seven machine learning (ML) methods were applied to identify vital genes associated with both cancer and immune characteristics. Differentially expressed genes (DEGs) were validated using RT-PCR and immunohistochemical (IHC) analyses of clinical samples. RESULTS: Analysis of scRNA-seq datasets and autonomic nervous system development (ANSD) scores revealed 20 genes comprising a novel ANSD-related differential signature (ANSDR.Sig). A pan-cancer predictive model for ICI prognosis based on ANSDR.Sig was constructed, with the random forest algorithm yielding the most robust performance. Further screening using five ML methods on the ICI RNA-seq datasets identified 18 key genes, forming the Hub-ANSDR.Sig. Regulatory network analysis revealed diversified molecular interactions between Hub-ANSDR.Sig genes, transcription factors, and miRNAs. Hub-ANSDR.Sig was strongly associated with immune cell infiltration, microsatellite instability (MSI), and overall survival (OS) across various cancer types. In gastric cancer (GC), its role in immune dysfunction, tumor mutational burden (TMB), MSI, mutation frequency, immune infiltration, cell-cell communication, and developmental trajectories was confirmed. Moreover, several Hub-ANSDR.Sig genes were differentially expressed in GC compared to normal tissue and were enriched in immunotherapy-sensitive GC samples relative to resistant ones. CONCLUSION: Our results offer novel insights into predicting immunotherapy efficacy using ANSD-related signature, with the goal of improving clinical strategies and expanding potential indications. This approach also aims to develop more accurate prediction models and therapeutic interventions, thereby helping more patients benefit from immunotherapy.",
+    "keywords": [
+      "ANSD related signature",
+      "immunotherapy",
+      "machine learning",
+      "pan-cancer",
+      "predicting tool",
+      "single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Biomarkers, Tumor/genetics",
+      "*Immunotherapy/methods",
+      "*Neoplasms/therapy/genetics/immunology",
+      "*Autonomic Nervous System/growth & development",
+      "Prognosis",
+      "Immune Checkpoint Inhibitors/therapeutic use",
+      "Machine Learning",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "Gene Regulatory Networks",
+      "Single-Cell Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Cunen",
+        "Xue, Weiwei",
+        "Zhuang, Yuwen",
+        "Duan, Dayue Darrel",
+        "Zhou, Zhou",
+        "Wang, Xiaoxiao",
+        "Wu, Zhenfeng",
+        "Zhou, Jin-Yong",
+        "Huan, Xiangkun",
+        "Wang, Ruiping",
+        "Cheng, Haibo"
+      ],
+      "short_names": [
+        "Wu C",
+        "Xue W",
+        "Zhuang Y",
+        "Duan DD",
+        "Zhou Z",
+        "Wang X",
+        "Wu Z",
+        "Zhou JY",
+        "Huan X",
+        "Wang R",
+        "Cheng H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oncology, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China.",
+        "Jiangsu Collaborative Innovation Center of Traditional Chinese Medicine Prevention and Treatment of Tumor, Nanjing, Jiangsu, China.",
+        "Department of Surgery/Division of General Surgery, Beth Israel Deaconess Medical Center, Boston, MA, United States.",
+        "Harvard Medical School, Boston, MA, United States.",
+        "Department of Oncology, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China.",
+        "Department of Oncology, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China.",
+        "The Academy of Phenomics of TCM, and School of Integrated Medicine, Nanjing University of Chinese Medicine, Nanjing, Jiangsu, China.",
+        "Department of Pharmacology, University of Nevada Reno School of Medicine, Reno, NV, United States.",
+        "Jiangsu Collaborative Innovation Center of Traditional Chinese Medicine Prevention and Treatment of Tumor, Nanjing, Jiangsu, China.",
+        "Oncology Department of Integrated Chinese and Western Medicine, First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China.",
+        "Department of GCP Research Center, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China.",
+        "Department of Surgical Oncology, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China.",
+        "Department of Key Laboratory, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China.",
+        "Department of Surgical Oncology, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China.",
+        "Department of Oncology, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China.",
+        "Department of Oncology, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China.",
+        "Jiangsu Collaborative Innovation Center of Traditional Chinese Medicine Prevention and Treatment of Tumor, Nanjing, Jiangsu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Cunen",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China.",
+          "Jiangsu Collaborative Innovation Center of Traditional Chinese Medicine Prevention and Treatment of Tumor, Nanjing, Jiangsu, China.",
+          "Department of Surgery/Division of General Surgery, Beth Israel Deaconess Medical Center, Boston, MA, United States.",
+          "Harvard Medical School, Boston, MA, United States."
+        ]
+      },
+      {
+        "full_name": "Xue, Weiwei",
+        "short_name": "Xue W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhuang, Yuwen",
+        "short_name": "Zhuang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Dayue Darrel",
+        "short_name": "Duan DD",
+        "identifiers": [],
+        "affiliations": [
+          "The Academy of Phenomics of TCM, and School of Integrated Medicine, Nanjing University of Chinese Medicine, Nanjing, Jiangsu, China.",
+          "Department of Pharmacology, University of Nevada Reno School of Medicine, Reno, NV, United States."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zhou",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Collaborative Innovation Center of Traditional Chinese Medicine Prevention and Treatment of Tumor, Nanjing, Jiangsu, China.",
+          "Oncology Department of Integrated Chinese and Western Medicine, First Affiliated Hospital of Anhui Medical University, Hefei, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaoxiao",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of GCP Research Center, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhenfeng",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jin-Yong",
+        "short_name": "Zhou JY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Key Laboratory, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Huan, Xiangkun",
+        "short_name": "Huan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ruiping",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Haibo",
+        "short_name": "Cheng H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, Jiangsu, China.",
+          "Jiangsu Collaborative Innovation Center of Traditional Chinese Medicine Prevention and Treatment of Tumor, Nanjing, Jiangsu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/07 11:42",
+    "fetched_at": "2026-09-30 23:20:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37731001",
+      "37460910",
+      "37156770",
+      "37146750",
+      "36729271",
+      "36596787",
+      "36198236",
+      "35966587",
+      "35764641",
+      "34933901",
+      "34861191",
+      "34826008",
+      "34729299",
+      "34593796",
+      "34536407",
+      "34103704",
+      "34079012",
+      "33791299",
+      "33538338",
+      "32968282",
+      "32612154",
+      "32468420",
+      "32229719",
+      "31647986",
+      "31509742",
+      "31409898",
+      "31303383",
+      "31227713",
+      "30376427",
+      "30230541",
+      "29776993",
+      "29628290",
+      "29594605",
+      "29301958",
+      "28883004",
+      "28783722",
+      "28723893",
+      "28351930",
+      "27571553",
+      "22576456",
+      "20271977"
+    ],
+    "similar": [
+      "40771813",
+      "40574864",
+      "41080584",
+      "35488273",
+      "40777041",
+      "40816003",
+      "40226609",
+      "40423850",
+      "41263399",
+      "41425595",
+      "40375605",
+      "38664705",
+      "40438115",
+      "39110142",
+      "39355255",
+      "41305714",
+      "38878852",
+      "39735553",
+      "41208987",
+      "41112295",
+      "41164195",
+      "39726597",
+      "39904693",
+      "40058104",
+      "36978029",
+      "39810215",
+      "39799269",
+      "34762107",
+      "38723370",
+      "38795156",
+      "40936758",
+      "38402299",
+      "40330458",
+      "37889617",
+      "41019083",
+      "39708127",
+      "40330470",
+      "41488652",
+      "40615664",
+      "39589706",
+      "40406120",
+      "36300104",
+      "40873572",
+      "38714579",
+      "40438100",
+      "41281377",
+      "40761790",
+      "39530087",
+      "39703515",
+      "38168907",
+      "41488744",
+      "39170145",
+      "39507529",
+      "40552290",
+      "39495620",
+      "39165353",
+      "40649716",
+      "40332226",
+      "41235257",
+      "36604653",
+      "40491921",
+      "38870270",
+      "40386054",
+      "40442298",
+      "39896807",
+      "40141028",
+      "37691229",
+      "40766320",
+      "38430268",
+      "34899080",
+      "41486951",
+      "40994257",
+      "36536232",
+      "38693422",
+      "41293150",
+      "40200221",
+      "39221762",
+      "41438751",
+      "39199281",
+      "40226936",
+      "38774870",
+      "34531868",
+      "37310469",
+      "38569519",
+      "39859524",
+      "40200832",
+      "39964966",
+      "40325361",
+      "40328901",
+      "39739618",
+      "38824904",
+      "38809517",
+      "39732954",
+      "40205350",
+      "36405728",
+      "39085893",
+      "40761787",
+      "39033778",
+      "40159652",
+      "39853414"
+    ],
+    "review": [
+      "40771813",
+      "40649716"
+    ],
+    "pmc": [
+      "12325192"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40771813/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1611890",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

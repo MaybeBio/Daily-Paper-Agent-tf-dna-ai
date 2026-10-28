@@ -1,0 +1,66 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The abstract reports a structural, dynamic, and functional characterization of SgSrnR, a transcriptional regulator from the ArsR/SmtB family, involved in nickel-dependent repression of the Fe-superoxide dismutase gene (sodF) in *Streptomyces griseus*. The authors propose a two-step DNA binding mechanism for homodimeric apo-SgSrnR, with rigid globular regions mediating operator recognition and disordered regions available for nickel-dependent interaction with the predicted disordered sensor SgSrnQ.
+- **Visible evidence base** The abstract lists methods (X-ray crystallography, NMR spectroscopy, molecular dynamics, isothermal titration calorimetry, molecular docking) and states qualitative results, but provides no numerical data, structural coordinates, binding constants, or experimental details.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, experimental protocols, statistical analyses, structural validation metrics, NMR assignment completeness, and docking scoring details are absent. The abstract alone does not permit independent verification of any quantitative claim.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially valuable integrative study of a bacterial transcription factor, addressing a biologically relevant nickel-sensing regulatory system. The combination of multiple biophysical techniques is appropriate for the stated goal. However, the abstract provides only qualitative outcomes and lacks the quantitative evidence necessary to assess the robustness of the proposed two-step binding mechanism or the functional relevance of the disordered regions. The claim regarding nickel-dependent interaction with SgSrnQ is presented as a hypothesis, not a demonstrated result, which is appropriately framed but limits the current impact.
+- **Who would be interested in the results, and why** Researchers in metallobiology, bacterial gene regulation, and structural biology of transcription factors would find the results relevant. The work also has potential appeal to those studying nickel homeostasis in actinobacteria, given the biotechnological and phytoremediation applications of *S. griseus*. The methodological integration may interest biophysicists using hybrid approaches to study intrinsically disordered proteins in regulatory complexes.
+- **Major strengths** The study addresses a clear biological question with a well-defined regulatory system. The use of multiple complementary techniques (crystallography, NMR, MD, ITC, docking) is methodologically sound and appropriate for characterizing both structured and disordered regions. The hypothesis-driven framing of the SgSrnQ interaction is scientifically honest and provides a clear direction for future work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract states that "the results reveal that the homodimeric apo-SgSrnR binds to its operator in a two-step process that involves the more rigid globular portion of the protein and leaves its largely disordered regions available to possibly interact with the disordered SgSrnQ in a Ni-dependent process."
+  - **Evidence pointer** Abstract, results section (location not provided)
+  - **Concern** The claim of a "two-step process" for DNA binding is presented as a definitive finding, but the abstract provides no kinetic, thermodynamic, or structural data to support this specific mechanism. No binding affinities, rate constants, or intermediate-state characterizations are reported. The phrase "leaves its largely disordered regions available" implies a functional role for disorder, but no experimental evidence linking these regions to SgSrnQ interaction or nickel dependence is presented.
+  - **Why it matters** The two-step binding mechanism is a central conclusion of the work. Without quantitative or structural evidence, the claim cannot be distinguished from a generic description of protein-DNA association. The proposed role of disordered regions in nickel-dependent regulation is speculative and, as stated, not experimentally tested.
+  - **Resolution test** Provide binding isotherms (e.g., ITC or fluorescence anisotropy) with fitted parameters, kinetic data (e.g., stopped-flow or surface plasmon resonance), or structural snapshots (e.g., NMR or crystallographic states) that demonstrate a resolvable intermediate. For the disordered region claim, show direct evidence of SgSrnQ binding to SgSrnR in a nickel-dependent manner, such as pull-down assays, NMR titration, or cross-linking data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation
+  - **Claim pointer** The abstract implies that the structural and dynamic features of SgSrnR explain its regulatory function, specifically the nickel-dependent downregulation of sodF via SgSrnQ interaction.
+  - **Evidence pointer** Abstract, functional implications (location not provided)
+  - **Concern** The abstract does not report any functional assays (e.g., in vitro transcription, reporter gene assays, or in vivo studies) that directly link the observed structural features to transcriptional regulation. The proposed mechanism of nickel-dependent complex dissociation is based on a "recently proposed hypothesis" and is not experimentally addressed in this work.
+  - **Why it matters** The title and framing imply a functional understanding, but the abstract only describes structural and biophysical characterization. Without functional validation, the relevance of the structural findings to gene regulation remains inferential.
+  - **Resolution test** Include a functional assay demonstrating that mutations in the disordered regions or the globular DNA-binding domain alter sodF repression in a nickel-dependent manner, or show direct evidence of SgSrnQ-mediated dissociation of the SgSrnR-DNA complex in vitro.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, methods description
+  - **Evidence pointer** Abstract, methods list (location not provided)
+  - **Issue** The abstract lists five techniques but does not specify which technique provided which type of information. For example, it is unclear whether the "two-step process" is derived from kinetics, thermodynamics, or structural data.
+  - **Required correction** Briefly indicate the primary contribution of each method (e.g., "X-ray crystallography revealed the dimeric architecture, while NMR relaxation dispersion identified the two-step binding").
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, description of SgSrnQ
+  - **Evidence pointer** Abstract, introduction (location not provided)
+  - **Issue** The term "Ni(II) sensor" is used for SgSrnQ, but the abstract does not provide evidence that SgSrnQ directly binds nickel. This is a functional label that may overstate the current evidence.
+  - **Required correction** Use a more neutral term such as "putative nickel sensor" or "nickel-responsive partner" unless direct nickel binding is demonstrated in the full text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, structural details
+  - **Evidence pointer** Abstract, results (location not provided)
+  - **Issue** No structural parameters (e.g., resolution, oligomeric state confirmation, or domain boundaries) are reported, making it difficult to gauge the quality of the crystallographic or NMR data.
+  - **Required correction** Include key structural statistics (e.g., resolution range, R-factors, or NMR restraint counts) in the abstract or state that these are provided in the full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The two-step binding mechanism and the functional role of disordered regions are not supported by the abstract-level evidence. The lack of functional validation prevents the structural findings from being linked to the proposed regulatory mechanism.
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The application of a multi-technique approach to an ArsR/SmtR family member is not conceptually novel, but the specific system (nickel-dependent sodF regulation in *S. griseus*) is understudied.  
+  - Scientific importance: Moderate. The work may advance understanding of nickel homeostasis in actinobacteria, but the abstract does not demonstrate broad mechanistic insights beyond a single system.  
+  - Interdisciplinary readership: Moderate. The topic bridges metallobiology and structural biology, but the abstract lacks the quantitative detail needed to engage a wide audience.  
+  - Technical soundness: Not assessable from the abstract. The methods are appropriate, but no data are presented to evaluate execution or interpretation.  
+  - Readability for nonspecialists: Good. The abstract is clearly written and logically structured, though some terms (e.g., "two-component system") assume background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially interesting study, but the central mechanistic claims are unsupported by the visible data. A revised version with quantitative results and functional validation could change this assessment.
+
+## Risk / unsupported claims
+- The "two-step process" for DNA binding is unsupported by the abstract-level evidence.
+- The availability of disordered regions for SgSrnQ interaction is speculative and not experimentally demonstrated.
+- The functional link between SgSrnR structure and nickel-dependent sodF regulation is not established.
+- The label "Ni(II) sensor" for SgSrnQ is not supported by evidence in the abstract.

@@ -1,0 +1,114 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, references cited within text)
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims relative to presented evidence, and clarity of presentation. No assessment of code functionality, reproducibility of training pipelines beyond described details, or verification of external data availability.
+- **Shared manuscript claim summary** The authors present Chimaera, a two-stage convolutional neural network combining a Hi-C autoencoder and a DNA sequence encoder, trained on Hi-C/Micro-C data from 22 species. They claim that Chimaera (i) predicts Hi-C maps from DNA sequence with competitive accuracy, (ii) learns interpretable latent representations that enable unsupervised detection and quantification of chromatin features (insulation, loops, fountains/jets), (iii) enables de novo motif discovery via integrated gradients, gradient descent, and evolutionary search, (iv) recapitulates known insulator roles (CTCF in vertebrates, BEAF-32 in Drosophila), (v) identifies a novel insulator motif in Drosophila, (vi) demonstrates that gene position and orientation influence chromatin structure in several species, and (vii) produces a chromatin-structure-based cluster tree that reflects phylogenetic relationships.
+- **Visible evidence base** Main text figures referenced (Figs 1–8), supplementary figures and tables referenced (Supplementary Figs S1–S13, Tables S1–S2), data availability statements, and methodological descriptions. Specific numerical results are reported for prediction accuracies (e.g., median Pearson correlations for high-quality datasets), transfer learning improvements (D. rerio 0.4 to 0.6), and motif significance tests.
+- **Missing materials affecting confidence** Supplementary figures and tables were not provided for inspection. Detailed hyperparameter settings, model architecture specifications (layer counts, filter sizes, kernel dimensions), training durations, computational costs, and exact train/test chromosome assignments are not fully specified. The MEME re-implementation details and the specific parameters for GD and ES searches are not fully described. The full cross-prediction matrix (Supplementary Fig. S12) and the cluster tree (Fig. 8) are referenced but not visible.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial and ambitious computational framework that addresses a timely question: whether DNA sequence alone can predict 3D genome organization across diverse species, and whether such models can reveal conserved and divergent regulatory mechanisms. The chimeric autoencoder design is conceptually appealing and the breadth of validation experiments is commendable. However, the manuscript as presented has several critical gaps. The most significant concern is that the central claim of a "chromatin structure-based cluster tree" spanning plants to mammals is presented with insufficient statistical support and without visible evidence of robustness. Additionally, the novelty of the de novo motif discoveries is weakened by the lack of experimental validation or comparison to existing motif databases beyond CTCF. The methodological descriptions, while detailed in parts, omit key architectural and training details that would be necessary for replication. The prediction accuracy claims, while reasonable, are not systematically benchmarked against existing tools (e.g., Akita, Orca) on identical test sets. The manuscript would be strengthened by clearer presentation of the latent space interpretability, which is central to the claimed advantages over existing models. Overall, this is a promising and potentially impactful contribution, but the current evidence base does not fully establish all claims made.
+- **Who would be interested in the results, and why** Researchers in 3D genome organization, computational genomics, and evolutionary biology would find this work of interest. The cross-species prediction framework offers a new tool for studying how chromatin folding rules evolve. The latent space approach for feature detection could be valuable for those working on Hi-C data analysis in non-model organisms. The de novo motif discovery methods may interest researchers studying sequence determinants of genome architecture. The cluster tree approach, if validated, could provide a new phylogenetic tool based on chromatin structure rather than sequence.
+- **Major strengths** (1) The two-stage training approach (unsupervised Hi-C autoencoder followed by supervised DNA encoder) is conceptually novel and well-motivated. (2) The breadth of species coverage (22 organisms) is impressive and enables meaningful cross-species comparisons. (3) The multiple validation strategies (known motif insertion, in silico mutagenesis, transfer learning, cross-prediction) provide complementary evidence for the model's biological relevance. (4) The identification of a potentially novel Drosophila insulator motif is an interesting finding that could open new research directions. (5) The demonstration that gene orientation affects chromatin structure in Dictyostelium is a notable biological observation. (6) The authors are appropriately cautious in some interpretations, particularly regarding data quality limitations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical support for cluster tree
+  - **Claim pointer** The claim that cross-prediction matrices can be used to build a "chromatin structure-based cluster tree" that reflects evolutionary relationships (Results section, Fig. 8).
+  - **Evidence pointer** Fig. 8, Supplementary Fig. S12, "Building the tree" subsection in Materials and methods
+  - **Concern** The cluster tree is presented as a central result, but no statistical support is provided. There is no bootstrap analysis, no assessment of tree robustness to input data quality, no comparison to alternative clustering methods, and no quantification of how well the chromatin-based tree agrees with the known phylogeny. The tree is built from a distance matrix derived from cross-prediction correlations, but the authors do not report confidence intervals or sensitivity analyses. Given that several species were excluded due to poor data quality, and that the authors themselves note the tree is "not well resolved at large evolutionary distances," the strength of the claim that this tree "reveals evolutionary relationships" is not adequately supported.
+  - **Why it matters** The cluster tree is presented as a major outcome of the work and is highlighted in the abstract. If the tree is not statistically robust, the claim of a "chromatin structure-based cluster tree spanning plants to mammals" is overstated. This could mislead readers into overinterpreting the evolutionary significance of the result.
+  - **Resolution test** Provide bootstrap support values for tree nodes, perform jackknife resampling of chromosomes or species, compare the chromatin-based tree to the known phylogeny using a formal statistical test (e.g., Robinson-Foulds distance), and report sensitivity of the tree topology to data quality thresholds and distance metric choices.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novel motif validation
+  - **Claim pointer** The claim of identifying a "previously unreported insulator motif in D. melanogaster" (Abstract, Results section, Fig. 6B).
+  - **Evidence pointer** Fig. 6B, "De novo DNA motif search" subsections in Materials and methods
+  - **Concern** The novel Drosophila motif is presented as a key finding, but no experimental validation is provided. The motif is identified through computational methods, and its functional relevance is inferred from the model's predictions. However, the authors do not demonstrate that this motif is bound by any known protein, that it functions as an insulator in vivo, or that it is enriched at actual insulator boundaries beyond the model's predictions. The comparison to known motifs is mentioned but not shown in detail. Without experimental evidence or at least strong orthogonal computational support (e.g., ChIP-seq enrichment at predicted sites), the claim of a "previously unreported insulator motif" is premature.
+  - **Why it matters** The discovery of a novel insulator motif would be a significant contribution. However, computational predictions alone, without validation, risk being artifacts of the model or statistical noise. Overclaiming this finding could mislead the field and lead to wasted effort pursuing a false positive.
+  - **Resolution test** Provide orthogonal evidence for the novel motif, such as enrichment at experimentally defined insulator boundaries (e.g., from ChIP-seq data for known insulator proteins), conservation analysis across Drosophila species, or electrophoretic mobility shift assays demonstrating protein binding. At minimum, show that the motif is not simply a variant of a known motif and provide a clear statistical framework for why this motif was not previously identified.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Benchmarking against existing methods
+  - **Claim pointer** The claim that Chimaera achieves "better or similar prediction quality" compared to Akita (Results section, Supplementary Table S2).
+  - **Evidence pointer** Supplementary Table S2, "Model setup" and "DNA encoder training" subsections in Materials and methods
+  - **Concern** The comparison to Akita is mentioned but the details are insufficient. It is unclear whether the comparison was performed on identical test chromosomes, with identical data preprocessing, and with equivalent training data. The authors state that Chimaera has "a similar number of parameters and computational resource requirements to existing alternatives" but do not provide a systematic runtime or memory comparison. The claim of "better or similar" performance is vague and not supported by a rigorous benchmarking protocol.
+  - **Why it matters** For the community to adopt Chimaera, it is essential to know how it compares to existing tools under fair, controlled conditions. Without a rigorous benchmark, the performance claims are difficult to evaluate, and the contribution of the method relative to the state of the art is unclear.
+  - **Resolution test** Provide a detailed benchmarking protocol: identical train/validation/test splits, identical preprocessing, multiple random seeds, and reporting of mean and variance of performance metrics. Include runtime and memory usage comparisons. Consider benchmarking on additional datasets beyond those used for training.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Latent space interpretability
+  - **Claim pointer** The claim that the latent space of Chimaera "preserves the information about typical patterns of the 3D genome organization" and enables "unsupervised atlas of key chromatin features" (Abstract, Results section).
+  - **Evidence pointer** Fig. 2, Fig. 3, "Pattern calling in Hi-C maps" subsection in Materials and methods
+  - **Concern** The interpretability of the latent space is a central claimed advantage of the chimeric design, but the evidence is largely qualitative. The authors show that latent dimensions correlate with known features (insulation, loops, fountains), but they do not systematically evaluate how well these dimensions separate different feature types, how robust the feature dimensions are across species, or whether the latent space captures features not already detectable by simpler methods. The thresholding procedure for calling features is described but the choice of thresholds appears arbitrary and is not validated against gold-standard feature callers.
+  - **Why it matters** If the latent space interpretability is not rigorously demonstrated, the claimed advantage over "black box" models is weakened. The feature calling and quantification approach could be seen as a less transparent alternative to existing, well-validated tools.
+  - **Resolution test** Provide quantitative evaluation of latent space feature separation (e.g., using labeled benchmark datasets), compare feature calls to gold-standard methods (e.g., insulation score, HiCCUPS for loops), and demonstrate that the latent space features are consistent across biological replicates and species.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Model architecture description
+  - **Evidence pointer** "Chimaera implementation" subsection in Materials and methods
+  - **Issue** The description of the model architecture is incomplete. The number of convolutional layers, filter sizes, kernel dimensions, pooling strategies, and the architecture of the fully connected layers are not specified. The latent dimension size is not stated.
+  - **Required correction** Provide a complete architectural specification, either in the main text or as a supplementary table, including layer types, dimensions, activation functions, and the latent vector size.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Training details
+  - **Evidence pointer** "DNA encoder training" subsection in Materials and methods
+  - **Issue** Training hyperparameters (learning rate, batch size, number of epochs, early stopping criteria, optimizer parameters) are not reported. The computational resources used (GPU type, training time) are not stated.
+  - **Required correction** Report all training hyperparameters and computational resource requirements to enable replication.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Performance metrics
+  - **Evidence pointer** "Model evaluation" subsection in Results, Supplementary Table S1
+  - **Issue** Performance metrics are reported as single values (e.g., median Pearson correlation) without confidence intervals or variance estimates. It is unclear how many replicates were performed or whether results are stable across random initializations.
+  - **Required correction** Report mean and standard deviation (or confidence intervals) across multiple training runs with different random seeds.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data quality control
+  - **Affected element** Species inclusion criteria
+  - **Evidence pointer** "Data collection" subsection in Materials and methods, Supplementary Table S1
+  - **Issue** The criteria for including or excluding species are not fully transparent. The authors mention excluding species with poor data quality but do not provide quantitative thresholds for these decisions.
+  - **Required correction** Provide explicit inclusion/exclusion criteria, including data quality metrics (e.g., number of reads, mapping rate, fraction of valid pairs) for each species.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Fig. 8
+  - **Evidence pointer** Fig. 8
+  - **Issue** The cluster tree figure is not visible in the provided manuscript. If it is a central result, it should be presented clearly with labeled species, support values, and a scale bar.
+  - **Required correction** Ensure Fig. 8 is legible, with clear labels, branch support values, and a scale bar indicating distance.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Chromatin structure-based cluster tree"
+  - **Evidence pointer** Abstract, Results, Discussion
+  - **Issue** The term "chromatin structure-based cluster tree" is potentially misleading, as the tree is based on model predictions, not directly on chromatin structure measurements. The tree reflects the ability of models trained on one species to predict another, which is an indirect proxy for structural similarity.
+  - **Required correction** Clarify the terminology, e.g., "model-based tree of chromatin folding rules" or "cross-prediction tree," to accurately reflect what was computed.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of limitations is somewhat brief. The authors acknowledge data quality issues but do not discuss potential biases in species selection, the limited phylogenetic breadth (e.g., only one plant species), or the potential for model artifacts to drive cross-prediction results.
+  - **Required correction** Expand the limitations paragraph to address these points and discuss how future work could mitigate them.
+- **Technical failings that need to be addressed before the case is established** (1) Lack of statistical support for the cluster tree (R1-M1). (2) Insufficient validation of the novel Drosophila motif (R1-M2). (3) Incomplete benchmarking against existing methods (R1-M3). (4) Incomplete model architecture and training details (R1-m1, R1-m2). (5) Lack of confidence intervals for performance metrics (R1-m3).
+- **Assessment against Nature-style criteria**  
+  *Originality*: The chimeric autoencoder design and the application of cross-species prediction to build a chromatin-based tree are original contributions. The combination of unsupervised feature learning with supervised sequence-to-structure prediction is a creative approach. However, the individual components (Hi-C prediction from sequence, autoencoders for Hi-C, motif discovery via integrated gradients) have been explored separately in prior work. The novelty lies in the integration and the cross-species scope.  
+  *Scientific importance*: The question of how 3D genome organization evolves and whether sequence can predict structure across species is of broad significance. If the claims are fully supported, this work could provide a valuable framework for studying genome evolution and for predicting structure in species without Hi-C data. The potential for de novo motif discovery linked to chromatin features is also important. However, the importance is somewhat tempered by the lack of experimental validation for the novel findings.  
+  *Interdisciplinary readership*: The work bridges computational biology, genomics, and evolutionary biology. The methods and findings would be of interest to researchers in all three fields. The cross-species perspective and the "tree of life" framing could attract attention from a broader evolutionary biology audience. However, the technical complexity of the methods may limit accessibility to non-specialists.  
+  *Technical soundness*: The overall approach is technically sound in concept, but the manuscript as presented has gaps in methodological detail and statistical rigor. The lack of complete architecture specifications, training details, and confidence intervals for performance metrics undermines the ability to fully assess technical soundness. The cluster tree analysis, in particular, lacks statistical support.  
+  *Readability for nonspecialists*: The manuscript is generally well-written and the logical flow is clear. The abstract effectively summarizes the key findings. However, the methods section is dense and assumes significant familiarity with deep learning and Hi-C analysis. The authors could improve accessibility by providing more intuitive explanations of the latent space concept and the cross-prediction approach. The figures, particularly Fig. 8, need to be self-explanatory with clear legends.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a promising and potentially impactful framework, but the current evidence base does not fully establish all claims. The cluster tree requires statistical support, the novel motif requires validation or at least strong orthogonal evidence, and the benchmarking needs to be more rigorous. If these concerns are addressed, the work could make a significant contribution to the field.
+
+## Risk / unsupported claims
+- The claim of a "chromatin structure-based cluster tree spanning plants to mammals" is not statistically supported and may be overstated given the acknowledged poor resolution at large evolutionary distances.
+- The identification of a "previously unreported insulator motif in D. melanogaster" is not validated experimentally or with strong orthogonal computational evidence.
+- The claim that Chimaera "outperforms other existing models on organisms with small genomes" is not supported by a systematic benchmark.
+- The claim that the latent space provides an "unsupervised atlas of key chromatin features" is not quantitatively validated against gold-standard feature callers.
+- The statement that Chimaera "effectively captures the critical role of CTCF" is based on in silico predictions and correlation with experimental data, but the causal interpretation is not fully established.
+- The generalizability of Chimaera to species with very different genome organizations (e.g., plants, dinoflagellates) is claimed but not thoroughly validated due to data quality limitations acknowledged by the authors.

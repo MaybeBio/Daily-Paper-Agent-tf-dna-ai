@@ -1,0 +1,2268 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.11.622097",
+  "title": "Codebook: sequence specificity and genomic binding of poorly-characterized human transcription factors",
+  "doi": "10.1101/2024.11.11.622097",
+  "abstract": "Gene expression is regulated by transcription factors (TFs), which recognize specific DNA sequence motifs. Several hundred putative human TFs, identified mainly by an apparent DNA-binding domain, lack known binding motifs 1 , and even for well-characterized TFs, it remains controversial to what degree motifs accurately reflect binding sites in living cells 2,3 . Here, we describe a systematic effort (“Codebook”) to determine the sequence specificity of 332 putative and poorly characterized human TFs. Over 4,000 independent experiments, encompassing multiple in vitro and in vivo assays, produced motifs for just over half (177, or 53%), of which most are unique to a single protein, thereby extending the vocabulary of sequence recognition encoded by human TFs by ∼100 distinct motifs. Moreover, binding motifs identified in vitro are strongly enriched within cellular binding sites. Collectively, the data reveal tens of thousands of previously unknown, conserved, and direct TF binding sites across the human genome. These sites are concentrated in promoter regions, and are predictive of gene expression, illustrating that this new data atlas provides an important step forward in decoding the human genome.",
+  "authors": [
+    "Arttu Jolma",
+    "Kaitlin U. Laverty",
+    "Ali Fathi",
+    "Ally W.H. Yang",
+    "Isaac Yellan",
+    "Ilya E. Vorontsov",
+    "Sachi Inukai",
+    "Judith F. Kribelbauer-Swietek",
+    "Antoni J. Gralak",
+    "Rozita Razavi",
+    "Mihai Albu",
+    "Alexander Brechalov",
+    "Zain M. Patel",
+    "Vladimir Nozdrin",
+    "Georgy Meshcheryakov",
+    "Andrey Buyan",
+    "Ivan Kozin",
+    "Sergey Abramov",
+    "Alexandr Boytsov",
+    "The Codebook Consortium",
+    "Matthew T. Weirauch",
+    "Oriol Fornes",
+    "Vsevolod J. Makeev",
+    "Jan Grau",
+    "Ivo Grosse",
+    "Philipp Bucher",
+    "Bart Deplancke",
+    "Ivan V. Kulakovskiy",
+    "Timothy R. Hughes",
+    "The Codebook consortium",
+    "Philipp Bucher",
+    "Bart Deplancke",
+    "Oriol Fornes",
+    "Jan Grau",
+    "Ivo Grosse",
+    "Timothy R. Hughes",
+    "Arttu Jolma",
+    "Fedor A. Kolpakov",
+    "Ivan V. Kulakovskiy",
+    "Vsevolod J. Makeev",
+    "Mihai Albu",
+    "Marjan Barazandeh",
+    "Alexander Brechalov",
+    "Zhenfeng Deng",
+    "Ali Fathi",
+    "Chun Hu",
+    "Samuel A. Lambert",
+    "Kaitlin U. Laverty",
+    "Zain M. Patel",
+    "Sara E. Pour",
+    "Rozita Razavi",
+    "Mikhail Salnikov",
+    "Ally W.H. Yang",
+    "Isaac Yellan",
+    "Hong Zheng",
+    "Georgy Meshcheryakov",
+    "Giovanna Ambrosini",
+    "Antoni J. Gralak",
+    "Sachi Inukai",
+    "Judith F. Kribelbauer-Swietek",
+    "Marie-Luise Plescher",
+    "Semyon Kolmykov",
+    "Ivan Yevshin",
+    "Nikita Gryzunov",
+    "Ivan Kozin",
+    "Mikhail Nikonov",
+    "Vladimir Nozdrin",
+    "Arsenii Zinkevich",
+    "Katerina Faltejskova",
+    "Pavel Kravchenko",
+    "Sergey Abramov",
+    "Alexandr Boytsov",
+    "Vasilii Kamenets",
+    "Dmitry Penzar",
+    "Anton Vlasov",
+    "Ilya E. Vorontsov",
+    "Aldo Hernandez-Corchado",
+    "Hamed S. Najafabadi",
+    "Quaid Morris",
+    "Xiaoting Chen",
+    "Matthew T. Weirauch"
+  ],
+  "published_date": "2024-11-12",
+  "updated_date": "2024-11-12T22:30:21Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.622097",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.622097.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            22
+          ]
+        ],
+        "date-time": "2026-06-22T08:15:10Z",
+        "timestamp": 1782116110718,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            12
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 107,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                12
+              ]
+            ],
+            "date-time": "2024-11-12T00:00:00Z",
+            "timestamp": 1731369600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:title>SUMMARY</jats:title>\n                <jats:p>\n                  Gene expression is regulated by transcription factors (TFs), which recognize specific DNA sequence motifs. Several hundred putative human TFs, identified mainly by an apparent DNA-binding domain, lack known binding motifs\n                  <jats:sup>1</jats:sup>\n                  , and even for well-characterized TFs, it remains controversial to what degree motifs accurately reflect binding sites in living cells\n                  <jats:sup>2,3</jats:sup>\n                  . Here, we describe a systematic effort (“Codebook”) to determine the sequence specificity of 332 putative and poorly characterized human TFs. Over 4,000 independent experiments, encompassing multiple\n                  <jats:italic>in vitro</jats:italic>\n                  and\n                  <jats:italic>in vivo</jats:italic>\n                  assays, produced motifs for just over half (177, or 53%), of which most are unique to a single protein, thereby extending the vocabulary of sequence recognition encoded by human TFs by ∼100 distinct motifs. Moreover, binding motifs identified\n                  <jats:italic>in vitro</jats:italic>\n                  are strongly enriched within cellular binding sites. Collectively, the data reveal tens of thousands of previously unknown, conserved, and direct TF binding sites across the human genome. These sites are concentrated in promoter regions, and are predictive of gene expression, illustrating that this new data atlas provides an important step forward in decoding the human genome.\n                </jats:p>",
+      "DOI": "10.1101/2024.11.11.622097",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            12
+          ]
+        ],
+        "date-time": "2024-11-12T22:30:21Z",
+        "timestamp": 1731450621000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 10,
+      "title": [
+        "Codebook: sequence specificity and genomic binding of poorly-characterized human transcription factors"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2543-7490",
+          "authenticated-orcid": false,
+          "given": "Arttu",
+          "family": "Jolma",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-4341-4665",
+          "authenticated-orcid": false,
+          "given": "Kaitlin U.",
+          "family": "Laverty",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            },
+            {
+              "name": "Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-1441-9653",
+          "authenticated-orcid": false,
+          "given": "Ali",
+          "family": "Fathi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            },
+            {
+              "name": "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8678-0946",
+          "authenticated-orcid": false,
+          "given": "Ally W.H.",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6622-1189",
+          "authenticated-orcid": false,
+          "given": "Isaac",
+          "family": "Yellan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            },
+            {
+              "name": "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ilya E.",
+          "family": "Vorontsov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991, Moscow, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6404-1384",
+          "authenticated-orcid": false,
+          "given": "Sachi",
+          "family": "Inukai",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, École Polytechnique Fédérale de Lausanne, 1015, Lausanne, Switzerland"
+            },
+            {
+              "name": "Swiss Institute of Bioinformatics, 1015, Lausanne, Switzerland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8072-7773",
+          "authenticated-orcid": false,
+          "given": "Judith F.",
+          "family": "Kribelbauer-Swietek",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, École Polytechnique Fédérale de Lausanne, 1015, Lausanne, Switzerland"
+            },
+            {
+              "name": "Swiss Institute of Bioinformatics, 1015, Lausanne, Switzerland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-1086-6165",
+          "authenticated-orcid": false,
+          "given": "Antoni J.",
+          "family": "Gralak",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, École Polytechnique Fédérale de Lausanne, 1015, Lausanne, Switzerland"
+            },
+            {
+              "name": "Swiss Institute of Bioinformatics, 1015, Lausanne, Switzerland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0000-5466-6519",
+          "authenticated-orcid": false,
+          "given": "Rozita",
+          "family": "Razavi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mihai",
+          "family": "Albu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexander",
+          "family": "Brechalov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zain M.",
+          "family": "Patel",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            },
+            {
+              "name": "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vladimir",
+          "family": "Nozdrin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Bioengineering and Bioinformatics, Lomonosov Moscow State University, 119991, Moscow, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0751-8286",
+          "authenticated-orcid": false,
+          "given": "Georgy",
+          "family": "Meshcheryakov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Protein Research, Russian Academy of Sciences, 142290, Pushchino, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9105-4028",
+          "authenticated-orcid": false,
+          "given": "Andrey",
+          "family": "Buyan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Protein Research, Russian Academy of Sciences, 142290, Pushchino, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-4603-8550",
+          "authenticated-orcid": false,
+          "given": "Ivan",
+          "family": "Kozin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991, Moscow, Russia"
+            },
+            {
+              "name": "Faculty of Bioengineering and Bioinformatics, Lomonosov Moscow State University, 119991, Moscow, Russia"
+            },
+            {
+              "name": "Institute of Protein Research, Russian Academy of Sciences, 142290, Pushchino, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3334-5334",
+          "authenticated-orcid": false,
+          "given": "Sergey",
+          "family": "Abramov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991, Moscow, Russia"
+            },
+            {
+              "name": "Altius Institute for Biomedical Sciences, Seattle, WA 98121, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2712-8368",
+          "authenticated-orcid": false,
+          "given": "Alexandr",
+          "family": "Boytsov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991, Moscow, Russia"
+            },
+            {
+              "name": "Altius Institute for Biomedical Sciences, Seattle, WA 98121, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "name": "The Codebook Consortium",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7977-9122",
+          "authenticated-orcid": false,
+          "given": "Matthew T.",
+          "family": "Weirauch",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Autoimmune Genomics and Etiology, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH, USA; Divisions of Allergy and Immunology, Biomedical Informatics, Human Genetics, and Developmental Biology, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH, USA; Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, OH, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5969-3054",
+          "authenticated-orcid": false,
+          "given": "Oriol",
+          "family": "Fornes",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Medical Genetics, Centre for Molecular Medicine and Therapeutics, BC Children’s Hospital Research Institute, University of British Columbia, Vancouver, BC V5Z 4H4, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9405-9748",
+          "authenticated-orcid": false,
+          "given": "Vsevolod J.",
+          "family": "Makeev",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991, Moscow, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2081-6405",
+          "authenticated-orcid": false,
+          "given": "Jan",
+          "family": "Grau",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Computer Science, Martin Luther University Halle-Wittenberg, 06099, Halle, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5318-4825",
+          "authenticated-orcid": false,
+          "given": "Ivo",
+          "family": "Grosse",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Computer Science, Martin Luther University Halle-Wittenberg, 06099, Halle, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Philipp",
+          "family": "Bucher",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Swiss Institute of Bioinformatics, 1015, Lausanne, Switzerland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9935-843X",
+          "authenticated-orcid": false,
+          "given": "Bart",
+          "family": "Deplancke",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, École Polytechnique Fédérale de Lausanne, 1015, Lausanne, Switzerland"
+            },
+            {
+              "name": "Swiss Institute of Bioinformatics, 1015, Lausanne, Switzerland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6554-8128",
+          "authenticated-orcid": false,
+          "given": "Ivan V.",
+          "family": "Kulakovskiy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991, Moscow, Russia"
+            },
+            {
+              "name": "Institute of Protein Research, Russian Academy of Sciences, 142290, Pushchino, Russia"
+            },
+            {
+              "name": "Institute of Biochemistry and Genetics, Ufa Federal Research Centre of Russian Academy of Sciences, 450054, Ufa, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8721-4719",
+          "authenticated-orcid": false,
+          "given": "Timothy R.",
+          "family": "Hughes",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            },
+            {
+              "name": "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "name": "The Codebook consortium",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Philipp",
+          "family": "Bucher",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Swiss Institute of Bioinformatics, 1015, Lausanne, Switzerland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bart",
+          "family": "Deplancke",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, École Polytechnique Fédérale de Lausanne, 1015, Lausanne, Switzerland"
+            },
+            {
+              "name": "Swiss Institute of Bioinformatics, 1015, Lausanne, Switzerland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Oriol",
+          "family": "Fornes",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Medical Genetics, Centre for Molecular Medicine and Therapeutics, BC Children’s Hospital Research Institute, University of British Columbia, Vancouver, BC V5Z 4H4, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jan",
+          "family": "Grau",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Computer Science, Martin Luther University Halle-Wittenberg, 06099, Halle, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ivo",
+          "family": "Grosse",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Computer Science, Martin Luther University Halle-Wittenberg, 06099, Halle, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Timothy R.",
+          "family": "Hughes",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            },
+            {
+              "name": "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Arttu",
+          "family": "Jolma",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fedor A.",
+          "family": "Kolpakov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computational Biology, Sirius University of Science and Technology, 354340, Sirius, Krasnodar region, Russia"
+            },
+            {
+              "name": "Bioinformatics Laboratory, Federal Research Center for Information and Computational Technologies, 630090, Novosibirsk, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ivan V.",
+          "family": "Kulakovskiy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991, Moscow, Russia"
+            },
+            {
+              "name": "Institute of Protein Research, Russian Academy of Sciences, 142290, Pushchino, Russia"
+            },
+            {
+              "name": "Institute of Computer Science, Martin Luther University Halle-Wittenberg, 06099, Halle, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vsevolod J.",
+          "family": "Makeev",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991, Moscow, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mihai",
+          "family": "Albu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marjan",
+          "family": "Barazandeh",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexander",
+          "family": "Brechalov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhenfeng",
+          "family": "Deng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ali",
+          "family": "Fathi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            },
+            {
+              "name": "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chun",
+          "family": "Hu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Samuel A.",
+          "family": "Lambert",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kaitlin U.",
+          "family": "Laverty",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            },
+            {
+              "name": "Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zain M.",
+          "family": "Patel",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sara E.",
+          "family": "Pour",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rozita",
+          "family": "Razavi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mikhail",
+          "family": "Salnikov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ally W.H.",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Isaac",
+          "family": "Yellan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hong",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Donnelly Centre, University of Toronto, Toronto, ON M5S 3E1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Georgy",
+          "family": "Meshcheryakov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Swiss Institute of Bioinformatics, 1015, Lausanne, Switzerland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Giovanna",
+          "family": "Ambrosini",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Bioinformatics Competence Center, Université de Lausanne, 1015 Lausanne, Switzerland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Antoni J.",
+          "family": "Gralak",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Altius Institute for Biomedical Sciences, Seattle, WA 98121, USA"
+            },
+            {
+              "name": "Center for Autoimmune Genomics and Etiology, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH, USA; Divisions of Allergy and Immunology, Biomedical Informatics, Human Genetics, and Developmental Biology, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH, USA; Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, OH, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sachi",
+          "family": "Inukai",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, École Polytechnique Fédérale de Lausanne, 1015, Lausanne, Switzerland"
+            },
+            {
+              "name": "Swiss Institute of Bioinformatics, 1015, Lausanne, Switzerland"
+            },
+            {
+              "name": "Chugai Pharmaceutical Co., Ltd, Tokyo, 103-8324, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Judith F.",
+          "family": "Kribelbauer-Swietek",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory of Systems Biology and Genetics, Institute of Bioengineering, School of Life Sciences, École Polytechnique Fédérale de Lausanne, 1015, Lausanne, Switzerland"
+            },
+            {
+              "name": "Swiss Institute of Bioinformatics, 1015, Lausanne, Switzerland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marie-Luise",
+          "family": "Plescher",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Computer Science, Martin Luther University Halle-Wittenberg, 06099, Halle, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Semyon",
+          "family": "Kolmykov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computational Biology, Sirius University of Science and Technology, 354340, Sirius, Krasnodar region, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ivan",
+          "family": "Yevshin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Biosoft.Ru LLC, 630058, Novosibirsk, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nikita",
+          "family": "Gryzunov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Protein Research, Russian Academy of Sciences, 142290, Pushchino, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ivan",
+          "family": "Kozin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991, Moscow, Russia"
+            },
+            {
+              "name": "Faculty of Bioengineering and Bioinformatics, Lomonosov Moscow State University, 119991, Moscow, Russia"
+            },
+            {
+              "name": "Institute of Protein Research, Russian Academy of Sciences, 142290, Pushchino, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mikhail",
+          "family": "Nikonov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Bioengineering and Bioinformatics, Lomonosov Moscow State University, 119991, Moscow, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vladimir",
+          "family": "Nozdrin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Bioengineering and Bioinformatics, Lomonosov Moscow State University, 119991, Moscow, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Arsenii",
+          "family": "Zinkevich",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Bioengineering and Bioinformatics, Lomonosov Moscow State University, 119991, Moscow, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Katerina",
+          "family": "Faltejskova",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, 160 00 Praha 6, Czech Republic; Computer Science Institute, Faculty of Mathematics and Physics, Charles University, 118 00 Praha 1, Czech Republic"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pavel",
+          "family": "Kravchenko",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Max Planck Institute of Biochemistry, 82152, Planegg, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sergey",
+          "family": "Abramov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991, Moscow, Russia"
+            },
+            {
+              "name": "Altius Institute for Biomedical Sciences, Seattle, WA 98121, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexandr",
+          "family": "Boytsov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991, Moscow, Russia"
+            },
+            {
+              "name": "Altius Institute for Biomedical Sciences, Seattle, WA 98121, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vasilii",
+          "family": "Kamenets",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991, Moscow, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dmitry",
+          "family": "Penzar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991, Moscow, Russia"
+            },
+            {
+              "name": "Faculty of Bioengineering and Bioinformatics, Lomonosov Moscow State University, 119991, Moscow, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anton",
+          "family": "Vlasov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "TUD Dresden University of Technology, Center for Molecular and Cellular Bioengineering (CMCB), Biotechnologisches Zentrum (BIOTEC), Tatzberg 47/49, 01307 Dresden, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8888-0804",
+          "authenticated-orcid": false,
+          "given": "Ilya E.",
+          "family": "Vorontsov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vavilov Institute of General Genetics, Russian Academy of Sciences, 119991, Moscow, Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Aldo",
+          "family": "Hernandez-Corchado",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Human Genetics, McGill University, Montréal, QC H3A 0C7, Canada; Victor P. Dahdaleh Institute of Genomic Medicine, Montréal, QC H3A 0G1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hamed S.",
+          "family": "Najafabadi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Human Genetics, McGill University, Montréal, QC H3A 0C7, Canada; Victor P. Dahdaleh Institute of Genomic Medicine, Montréal, QC H3A 0G1, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Quaid",
+          "family": "Morris",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaoting",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Autoimmune Genomics and Etiology, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH, USA; Divisions of Allergy and Immunology, Biomedical Informatics, Human Genetics, and Developmental Biology, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH, USA; Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, OH, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matthew T.",
+          "family": "Weirauch",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Center for Autoimmune Genomics and Etiology, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH, USA; Divisions of Allergy and Immunology, Biomedical Informatics, Human Genetics, and Developmental Biology, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH, USA; Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, OH, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.09.045"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg1315"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "194443",
+          "DOI": "10.1016/j.bbagrm.2019.194443",
+          "article-title": "Sequence and chromatin determinants of transcription factor binding and the establishment of cell type-specific binding patterns",
+          "volume": "1863",
+          "year": "2020",
+          "journal-title": "Biochim Biophys Acta Gene Regul Mech"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.3715005"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11247"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3005"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0076-6879(90)83015-2"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/18.20.6097"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4143"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.209643.116"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "194768",
+          "DOI": "10.1016/j.bbagrm.2021.194768",
+          "article-title": "The gene regulation knowledge commons: the action area of GREEKC",
+          "volume": "1865",
+          "year": "2022",
+          "journal-title": "Biochim Biophys Acta Gene Regul Mech"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jolma, A. et al. GHT-SELEX demonstrates unexpectedly high intrinsic sequence specificity and complex DNA binding of many human transcription factors. bioRxiv, 2024.11.11.618478 (2024).",
+          "DOI": "10.1101/2024.11.11.618478"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Razavi, R. et al. Extensive binding of uncharacterized human transcription factors to genomic dark matter. bioRxiv, 2024.11.11.622123 (2024).",
+          "DOI": "10.1101/2024.11.11.622123"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "1545",
+          "DOI": "10.1038/s42003-025-08909-9",
+          "article-title": "Cross-platform motif discovery and benchmarking to explore binding specificities of poorly studied human transcription factors",
+          "volume": "8",
+          "year": "2025",
+          "journal-title": "Commun Biol"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gralak, A.J. et al. Identification of methylation-sensitive human transcription factors using meSMiLE-seq. bioRxiv, 2024.11.11.619598 (2024).",
+          "DOI": "10.1101/2024.11.11.619598"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12013-008-9007-6"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.emboj.7601453"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-60761-753-2_29"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1002746107"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.22.19.6759-6766.2002"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0262360",
+          "DOI": "10.1371/journal.pone.0262360",
+          "article-title": "The Drosophila functional Smad suppressing element fuss, a homologue of the human Skor genes, retains pro-oncogenic properties of the Ski/Sno family",
+          "volume": "17",
+          "year": "2022",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biophys.29.1.183"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2449-8"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-020-2023-4"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.275472.121"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.07.012"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "1739",
+          "DOI": "10.1038/s41467-024-55513-2",
+          "article-title": "Statistical framework for calling allelic imbalance in high-throughput sequencing data",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-23007-0"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1120"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaz1776"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw489"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1000325"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1001134"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1893"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx191"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.2486"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gene.2004.12.013"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad1077"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2004-5-12-r98"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.2037511"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4161/epi.6.2.13640"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2011.04.024"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fishilevich, S. et al. GeneHancer: genome-wide integration of enhancers and target genes in GeneCards. Database (Oxford) 2017(2017).",
+          "DOI": "10.1093/database/bax028"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.01.006"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.375"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.169508.113"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature13182"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2024.05.029"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "1496",
+          "DOI": "10.1038/s41556-025-01745-3",
+          "article-title": "Synthetic ZFTA fusions pinpoint disordered protein domain acquisition as a mechanism of brain tumorigenesis",
+          "volume": "27",
+          "year": "2025",
+          "journal-title": "Nat Cell Biol"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.yexcr.2010.03.011"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Vuong-Brender, T.T. , Flynn, S. , Vallis, Y. , Sonmez, S.E. & de Bono, M . Neuronal calmodulin levels are controlled by CAMTA transcription factors. Elife 10(2021).",
+          "DOI": "10.7554/eLife.68238"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "115597",
+          "DOI": "10.1016/j.celrep.2025.115597",
+          "article-title": "Requirements for the neurodevelopmental disorder-associated gene ZNF292 in human cortical interneuron development and function",
+          "volume": "44",
+          "year": "2025",
+          "journal-title": "Cell Rep"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "13",
+          "DOI": "10.1186/s13064-015-0040-z",
+          "article-title": "The methyl binding domain 3/nucleosome remodelling and deacetylase complex regulates neural cell fate determination and terminal differentiation in the cerebral cortex",
+          "volume": "10",
+          "year": "2015",
+          "journal-title": "Neural Dev"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.54",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mondal, B. et al. The histone deacetylase complex MiDAC regulates a neurodevelopmental gene expression program to control neurite outgrowth. Elife 9(2020).",
+          "DOI": "10.7554/eLife.57519"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2009.04.031"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.6.1142"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41417-020-00278-1"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M109.025817"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.59",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Najafabadi, H.S. et al. C2H2 zinc finger proteins greatly expand the human regulatory lexicon. Nat Biotechnol (2015).",
+          "DOI": "10.1038/nbt.3128"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/g3.117.300296"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2337"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3109/03009734.2015.1086451"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0059940"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.93.4.1443"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.65",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Etchegaray, E. , Baas, D. , Naville, M. , Haftek-Terreau, Z. & Volff, J.N . The neurodevelopmental gene MSANTD2 belongs to a gene family formed by recurrent molecular domestication of Harbinger transposons at the base of vertebrates. Mol Biol Evol 39(2022).",
+          "DOI": "10.1093/molbev/msac173"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.110.116673"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad1049"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng0995-71"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.5826307"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0601161103"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.71",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Stielow, B. et al. The SAM domain-containing protein 1 (SAMD1) acts as a repressive chromatin regulator at unmethylated CpG islands. Sci Adv 7(2021).",
+          "DOI": "10.1126/sciadv.abf2229"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature23881"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.73",
+          "unstructured": "Abramson, J. et al. Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature (2024)."
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-020-01996-3"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.08.009"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.76",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jolma, A. et al. GHT-SELEX demonstrates unexpectedly high intrinsic sequence specificity and complex DNA binding of many human transcription factors. bioRxiv, 2024.11.11.618478 (2024).",
+          "DOI": "10.1101/2024.11.11.618478"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.77",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Razavi, R. et al. Extensive binding of uncharacterized human transcription factors to genomic dark matter. bioRxiv, 2024.11.11.622123 (2024).",
+          "DOI": "10.1101/2024.11.11.622123"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.78",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Narasimhan, K. et al. Mapping and analysis of Caenorhabditis elegans transcription factor sequence specificities. Elife 4(2015).",
+          "DOI": "10.7554/eLife.06967"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1748-7188-8-23"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq033"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.81",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Satopaa, V. , Albrecht, J. , Irwin, D. & Raghavan, B. Finding a” kneedle” in a haystack: Detecting knee points in system behavior. in 2011 31st international conference on distributed computing systems workshops 166–171 (IEEE, 2011).",
+          "DOI": "10.1109/ICDCSW.2011.20"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp554"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.08.009"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-6-35"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-08430-9"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1057"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz1062"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad1059"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1039"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku117"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.91",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2871-y"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-019-45839-z"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac1071"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.94",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac1072"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.95",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr509"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3582"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-021-04475-z"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.98",
+          "first-page": "102",
+          "article-title": "PERFECTOS-APE-predicting regulatory functional effect of SNPs by approximate P-value estimation",
+          "volume": "2",
+          "year": "2015",
+          "journal-title": "International Conference on Bioinformatics Models, Methods and Algorithms"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.99",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-019-0411-1"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.100",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-025-09567-x"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.101",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yin, Y. et al. Impact of cytosine methylation on DNA binding specificities of human transcription factors. Science 356(2017).",
+          "DOI": "10.1126/science.aaj2239"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbrc.2006.03.207"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.103",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki198"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.104",
+          "doi-asserted-by": "crossref",
+          "first-page": "21",
+          "DOI": "10.1186/s13100-020-00212-0",
+          "article-title": "Phylogenetic analysis of the Tc1/mariner superfamily reveals the unexplored diversity of pogo-like elements",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Mob DNA"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.105",
+          "doi-asserted-by": "crossref",
+          "first-page": "25",
+          "DOI": "10.1186/s13100-020-00220-0",
+          "article-title": "Evolution of pogo, a separate superfamily of IS630-Tc1-mariner transposons, revealing recurrent domestication events in vertebrates",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Mob DNA"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.106",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.12.009"
+        },
+        {
+          "key": "2026031411000624000_2024.11.11.622097v2.107",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-014-0412-4"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.11.11.622097",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            14
+          ]
+        ],
+        "date-time": "2026-03-14T18:00:17Z",
+        "timestamp": 1773511217000
+      },
+      "score": 26.061117,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.11.11.622097"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            12
+          ]
+        ]
+      },
+      "references-count": 107,
+      "URL": "https://doi.org/10.1101/2024.11.11.622097",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

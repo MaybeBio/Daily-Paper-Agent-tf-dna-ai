@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Technical soundness, methodological clarity, evidence quality, and validity of claims based solely on the provided text
+- **Shared manuscript claim summary** The authors propose ULDNA, a deep learning model integrating three unsupervised protein language models (ESM2, ProtTrans, ESM-MSA) with an LSTM-attention network to predict protein-DNA binding sites from sequence alone, and report superior performance over 17 existing methods across multiple benchmark datasets
+- **Visible evidence base** Benchmark dataset descriptions (PDNA-543, PDNA-41, PDNA-335, PDNA-52, PDNA-316, PDNA-960, PDNA-136), model architecture description, comparison tables (Tables 2, 4), contribution analysis (Figure 2), ablation study (Figure 3), case study (Table 5, Figure 4), supplementary tables referenced
+- **Missing materials affecting confidence** Actual numerical results in tables (only descriptions provided), supplementary figures and tables (S1-S6), detailed training procedures, hyperparameter optimization details, statistical significance testing details, code implementation specifics
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically plausible approach to protein-DNA binding site prediction by combining multiple pre-trained language model embeddings with a recurrent attention architecture. The core idea of leveraging complementary information from different language models is reasonable and the reported performance gains are potentially interesting. However, the provided text lacks sufficient quantitative detail to fully evaluate the strength of the claims. The comparison methodology, statistical rigor, and ablation analysis require closer scrutiny. The contribution over existing methods, while suggested by the reported improvements, cannot be fully verified from the supplied material alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function annotation, particularly those developing or applying deep learning methods for predicting protein-ligand or protein-DNA interactions. Researchers interested in transfer learning and the application of large pre-trained language models to biological sequence analysis would also find the approach relevant. The potential for high-throughput annotation of uncharacterized proteins makes the work of practical interest to the broader structural biology community.
+- **Major strengths** The use of multiple complementary language models is a sensible strategy that addresses the limitation of single-model representations. The architecture is clearly described with appropriate technical detail. The evaluation across multiple benchmark datasets and comparison with numerous existing methods demonstrates thoroughness. The ablation study and contribution analysis provide useful insights into which components drive performance. The availability of code and an online server enhances reproducibility and practical utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that ULDNA "significantly improves the accuracy of DNA-binding site prediction in comparison with 17 state-of-the-art methods" (abstract and results)
+  - **Evidence pointer** Tables 2, 4, S1-S3; location not provided for specific values
+  - **Concern** The actual numerical results are not presented in the provided text. Only qualitative descriptions of performance are given (e.g., "highest MCC values", "improvements of 6.3, 13.2, 13.4, 19.8 and 7.7%"). Without the actual values, standard deviations, or confidence intervals, the magnitude and statistical significance of the reported improvements cannot be assessed. The claim of "significant" improvement requires formal statistical testing, which is only mentioned for the contribution analysis (Student's t-test) but not for the main comparisons.
+  - **Why it matters** The central claim of the manuscript rests on the demonstrated superiority of ULDNA over existing methods. Without access to the actual performance metrics and their variability, readers cannot judge whether the improvements are meaningful or within the range of random variation. This is particularly important given the relatively small test sets (e.g., PDNA-41 with 41 chains).
+  - **Resolution test** Provide the full numerical results for all comparisons, including standard deviations or confidence intervals, and report formal statistical tests (e.g., paired tests across proteins) for the key comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The description of the LSTM-attention network and its contribution to performance improvement (Methods, Ablation study)
+  - **Evidence pointer** Figure 3, Section "Ablation study"; location not provided for specific values
+  - **Concern** The ablation study shows that adding the self-attention layer (M1 to M2) yields only a modest average improvement of 0.7% in MCC, and the AUROC values actually decrease on two of five datasets. The authors acknowledge this but do not provide a detailed analysis of why the attention mechanism helps or when it might hurt. The marginal benefit of the attention layer raises questions about whether the architectural complexity is justified, especially given that the major gains come from the language model embeddings (M0 to M1, 31.4% MCC improvement).
+  - **Why it matters** The manuscript title emphasizes the "LSTM-attention network" as a key component, yet the evidence suggests the attention mechanism contributes minimally to the overall performance. This discrepancy between the claimed importance and the demonstrated contribution needs to be addressed. A more thorough analysis of when and why attention helps would strengthen the case for this architectural choice.
+  - **Resolution test** Provide a more detailed analysis of the attention mechanism's behavior, including case studies where it helps or hurts, and discuss whether simpler alternatives (e.g., pooling) could achieve similar results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodology
+  - **Claim pointer** The evaluation methodology and dataset construction (Section "Benchmark datasets", Section "Implementation details")
+  - **Evidence pointer** Section "Benchmark datasets", Section "Implementation details"; location not provided
+  - **Concern** The manuscript states that different datasets use different definitions of protein-DNA binding sites, and that models are trained on PDNA-543 and PDNA-335 separately, then tested on PDNA-41 and PDNA-52. However, the relationship between training and test sets is not fully clarified. Specifically, the claim that "there is no overlap between the two test datasets" is made, but the potential overlap between training and test sets across different dataset families is not addressed. Additionally, the use of different binding site definitions across datasets raises questions about the consistency of the evaluation.
+  - **Why it matters** The validity of the comparison depends on the independence of training and test sets and the consistency of the prediction task. If there is any leakage between training and test data, or if the binding site definitions are not comparable, the reported performance could be inflated or misleading.
+  - **Resolution test** Clarify the exact relationships between all datasets, confirm no sequence-level overlap between training and test sets, and discuss how differences in binding site definitions might affect the comparison.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The implementation details and hyperparameter settings (Section "Implementation details", Section "Loss function")
+  - **Evidence pointer** Section "Implementation details", Section "Loss function"; location not provided
+  - **Concern** The manuscript mentions that hyperparameters were optimized using grid search but does not provide the specific ranges searched, the final selected values, or the criteria for selection. The training procedure (number of epochs, early stopping criteria, learning rate scheduling) is not described in sufficient detail. The use of 10 repeated training runs is mentioned, but the variance across runs is not reported.
+  - **Why it matters** Reproducibility is a cornerstone of scientific publication. Without detailed implementation information, other researchers cannot replicate the results or apply the method to their own data. The lack of variance reporting also prevents assessment of the stability of the reported performance.
+  - **Resolution test** Provide complete hyperparameter settings, training details, and report the mean and standard deviation of performance metrics across the 10 repeated runs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "17 state-of-the-art methods" but the main comparison in Table 2 lists 12 methods, and the text mentions "all the above-mentioned methods as well as the other 4 competing methods" for the cross-validation comparison, totaling 17. This discrepancy in counting is confusing.
+  - **Required correction** Clarify the exact number of comparison methods in each evaluation scenario and ensure consistency between the abstract and the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Methods, LSTM equations
+  - **Evidence pointer** Section "LSTM-attention network"; location not provided
+  - **Issue** The LSTM equations are referenced but not shown in the provided text (appear to be in a display equation that was not rendered). The description of the self-attention mechanism is brief and lacks the specific formulation used.
+  - **Required correction** Ensure all equations are properly displayed and provide a complete mathematical description of the attention mechanism.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Case study
+  - **Evidence pointer** Section "Case study", Table 5, Figure 4; location not provided
+  - **Issue** The case study on two proteins is described qualitatively but the actual prediction results in Table 5 are not visible in the provided text. The discussion of "interesting phenomena" would benefit from more quantitative detail.
+  - **Required correction** Provide the actual numerical results from the case study and ensure the visualization in Figure 4 is clearly described.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Conclusions
+  - **Evidence pointer** Section "Conclusions"; location not provided
+  - **Issue** The phrase "novelty deep learning model" should be "novel deep learning model". Also, "Resarches" should be "Research".
+  - **Required correction** Proofread the manuscript for grammatical errors.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing numerical results and statistical testing), R1-M2 (insufficient analysis of attention mechanism contribution), R1-M3 (dataset relationship clarification), R1-M4 (incomplete implementation details)
+- **Assessment against Nature-style criteria** Originality: The combination of multiple language model embeddings with an LSTM-attention architecture is a reasonable incremental contribution, though the individual components are well-established. The idea of leveraging complementary information from different pre-trained models is not entirely novel but is applied here in a new context. Scientific importance: Accurate prediction of protein-DNA binding sites is a relevant problem in functional genomics, and improvements in accuracy could have practical value. However, the demonstrated improvement over existing methods needs to be more rigorously established. Interdisciplinary readership: The work is primarily of interest to computational biologists and bioinformaticians. The methods section may be too technical for a general biology audience, but the problem is broadly relevant. Technical soundness: The architecture is described in sufficient detail, but the evaluation methodology and statistical rigor need strengthening. The marginal contribution of the attention mechanism raises questions about the design choices. Readability for nonspecialists: The introduction and conclusions are accessible, but the methods section assumes significant familiarity with deep learning and language models. The manuscript would benefit from clearer explanations of key concepts for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The approach is promising and the problem is relevant, but the current evidence does not fully establish the claimed superiority over existing methods. The authors must provide complete numerical results, formal statistical testing, and a more thorough analysis of the attention mechanism's contribution before the case is convincing.
+
+## Risk / unsupported claims
+- The claim of "significant" improvement over 17 methods is unsupported without actual numerical results and statistical tests
+- The assertion that the three language models capture "complementary feature embeddings with evolution diversity" is plausible but not directly demonstrated with evidence of complementarity beyond performance comparisons
+- The statement that the LSTM-attention network "effectively decodes evolution diversity-based embeddings" is a qualitative claim not backed by mechanistic analysis
+- The claim that ULDNA's performance stems from two specific advancements is inferred from ablation results but the causal attribution is not fully established
+- The generalizability of the method to proteins outside the test set distributions is not assessed
+- The practical significance of the reported improvements (e.g., in terms of biological discovery or drug development) is not discussed

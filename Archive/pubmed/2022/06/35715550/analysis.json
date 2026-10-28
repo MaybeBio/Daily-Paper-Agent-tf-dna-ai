@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35715550",
+  "title": "A 3-Gene Random Forest Model to Diagnose Non-obstructive Azoospermia Based on Transcription Factor-Related Henes.",
+  "authors": "Zhou, Ranran; Liang, Jingjing; Chen, Qi; Tian, Hu; Yang, Cheng; Liu, Cundong",
+  "journal": "Reproductive sciences (Thousand Oaks, Calif.)",
+  "published_date": "2022-06-18",
+  "window": {
+    "start": "2022-06-13",
+    "end": "2022-06-19"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用随机森林模型基于转录因子表达诊断非梗阻性无精子症，仅利用TF作为生物标志物，未涉及TF-DNA结合或互作机制，且无AI/物理模拟方法用于互作建模。",
+  "abstract": "Non-obstructive azoospermia (NOA) is one of the most severe forms of male infertility, but its diagnosis biomarkers with high sensitivity and specificity are largely unknown. Transcription factors (TFs) play essential roles in many pathological processes in different diseases. Herein, we aimed to identify the TFs showing high diagnosis ability for NOA through machine learning algorithms. The transcriptome data of the testicular tissue from 11 control and 47 NOA subjects were set as the training dataset; meanwhile, 1665 TFs were retrieved from the HumanTFDB. Through the feature extraction methods, including genomic difference analysis, Lasso, Boruta, SVM-RFE, and logistic regression, ETV2, TBX2, and ZNF689 were ultimately screened and then were included in the random forest (RF) diagnosis model. The RF model displayed high predictive power in the training (F-measure = 1) and two external validation (n = 31, F-measure = 0.902; n = 20, F-measure = 0.941) cohorts. The seminal plasma and testicular biopsy samples of 20 control and 20 NOA patients were collected from the local hospital, and the expression levels of ETV2, TBX2, and ZNF689 were measured via RT-qPCR and immunohistochemistry. The RF model could also distinguish the NOA samples in the local cohort (F-measure = 0.741). Single-cell RNA sequencing analysis, which was based on the 432 testicular cell samples from an NOA patient, showed that ETV2, TBX2, and ZNF689 were all significantly associated with spermatogenesis. In all, a 3-TF random forest diagnosis model was successfully established, providing novel insights into the latent mechanisms of NOA.",
+  "abstract_zh": "非梗阻性无精子症（NOA）是男性不育中最严重的形式之一，但其具有高敏感性和特异性的诊断生物标志物在很大程度上尚不明确。转录因子（TFs）在许多疾病的不同病理过程中发挥重要作用。在此，我们旨在通过机器学习算法识别对NOA具有高诊断能力的转录因子。将来自11名对照和47名NOA受试者的睾丸组织转录组数据作为训练数据集；同时，从HumanTFDB中检索到1665个转录因子。通过特征提取方法，包括基因组差异分析、Lasso、Boruta、SVM-RFE和逻辑回归，最终筛选出ETV2、TBX2和ZNF689，并将其纳入随机森林（RF）诊断模型。该RF模型在训练队列（F-measure = 1）和两个外部验证队列（n = 31，F-measure = 0.902；n = 20，F-measure = 0.941）中显示出高预测能力。从当地医院收集了20名对照和20名NOA患者的精浆和睾丸活检样本，并通过RT-qPCR和免疫组织化学测量了ETV2、TBX2和ZNF689的表达水平。RF模型也能在本地队列中区分NOA样本（F-measure = 0.741）。基于来自一名NOA患者的432个睾丸细胞样本进行的单细胞RNA测序分析显示，ETV2、TBX2和ZNF689均与精子发生显著相关。总之，成功建立了一个3-转录因子随机森林诊断模型，为NOA的潜在机制提供了新的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35715550/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35715550/",
+  "paper_page_path": "papers/pubmed/35715550/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41813969",
+  "title": "De novo design of functional nucleic acids of aptamers.",
+  "authors": "Zhang, Zhiming; Jiang, Meng; He, Axin; Zhu, Youyuan; Wang, Ercheng; Wan, Liqi; Qiu, Jiezhong; Guo, Pei; Chen, Guangyong; Han, Da",
+  "journal": "Nature computational science",
+  "published_date": "2026-03-12",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用核酸大语言模型InstructNA结合HT-SELEX从头设计功能性核酸，涵盖转录因子结合DNA和蛋白结合适配体，虽非聚焦TF-DNA互作机制建模，但方法可迁移至TF-DNA结合位点设计，属广义蛋白-DNA互作且AI方法创新。",
+  "abstract": "Functional nucleic acids (FNAs) are essential elements for designing advanced molecular tools, yet their de novo design faces challenges due to the vast sequence space and inefficiency of experimental screening methods. Nucleic acid large language models (NA-LLMs) offer new opportunities for FNA design, but their generative capability remains underexplored. Here we introduce InstructNA, a framework leveraging NA-LLMs and high-throughput systematic evolution of ligands by exponential enrichment (HT-SELEX) to guide de novo design of FNAs without relying on structural information. InstructNA encodes semantically rich FNA representations and robustly decodes FNA sequences, enabling the generation of various types of FNA such as transcription factor-binding DNA and protein-binding aptamers with enhanced functionality and high sequence diversity. Compared with the traditional HT-SELEX, InstructNA generates 100% and 200% more strong aptamer binders for two protein targets, with a sequence similarity to the original HT-SELEX aptamers as low as 38%. These results underscore the efficacy and robustness of InstructNA, demonstrating its potential for FNA design.",
+  "abstract_zh": "功能性核酸（FNAs）是设计先进分子工具的关键要素，然而其从头设计面临巨大挑战，原因在于序列空间广阔且实验筛选方法效率低下。核酸大语言模型（NA-LLMs）为FNA设计提供了新机遇，但其生成能力尚未得到充分探索。在此，我们介绍InstructNA，一个利用NA-LLMs和高通量指数富集配体系统进化（HT-SELEX）来指导FNA从头设计的框架，无需依赖结构信息。InstructNA编码语义丰富的FNA表示，并稳健地解码FNA序列，从而能够生成多种类型的FNA，如转录因子结合DNA和蛋白质结合适体，这些产物具有增强的功能性和高序列多样性。与传统HT-SELEX相比，InstructNA针对两个蛋白质靶标生成了100%和200%更多的强适体结合物，其与原始HT-SELEX适体的序列相似性低至38%。这些结果凸显了InstructNA的有效性和稳健性，展示了其在FNA设计中的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41813969/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41813969/",
+  "paper_page_path": "papers/pubmed/41813969/index.html"
+}

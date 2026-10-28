@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41561639",
+  "title": "Systematic Pathway Screening via Integrated Machine Learning Identifies FOXO-Mediated Transcription Signature for Robust Immunotherapy Response Prediction in Non-Small Cell Lung Cancer.",
+  "authors": "Wu, Shuqi; Deng, Chenxi; Fan, Chaofan; Liang, Qiheng; Zhu, Lingxuan; Mou, Weiming; Huang, Hongsen; Wu, Keren; Li, Yizhang; Deng, Gengwen; Xu, Liling; Xie, Jiarui; Hong, Chenglin; Deng, Yuhang; Li, Xingjian; Wu, Changda; Yang, Tao; Luo, Peng; Wong, Hank Z H; Jiang, Aimin; Lin, Anqi; Chen, Xin; Ren, Minghua",
+  "journal": "Human mutation",
+  "published_date": "2026-01-21",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究利用机器学习整合转录组数据构建FOXO通路相关预后签名以预测NSCLC免疫治疗反应，虽涉及FOXO转录因子但仅基于表达统计，无蛋白-DNA互作建模或AI/物理模拟方法，与本课题核心关联微弱。",
+  "abstract": "BACKGROUND: Non-small cell lung cancer (NSCLC), accounting for 80% of lung cancer cases, remains a leading cause of cancer-related mortality globally. While immune checkpoint inhibitors (ICIs) have improved outcomes, their efficacy is limited to a subset of patients, necessitating robust biomarkers for personalized immunotherapy response prediction. METHODS: We integrated transcriptomic data from 584 NSCLC patients across four cohorts treated with ICIs. Using 12,025 pathways from MSigDB, we applied 101 machine learning algorithm combinations (e.g., random survival forest [RSF], least absolute shrinkage and selection operator [Lasso], and Cox proportional hazards model with component-wise likelihood-based boosting [CoxBoost]) to identify prognostic signatures. OAK was used as the training set and Ravi, Jung, and Poplar as the validation set. The optimal pathway and algorithm combination was determined based on the average concordance index (C-index) ranking in the validation sets, and a predictive model was generated. Performance was assessed by C-index, receiver operating characteristic (ROC) analysis, and survival analysis. Biological relevance was evaluated through gene set enrichment analysis (GSEA), immune infiltration profiling, and immunohistochemistry (IHC). RESULTS: The FOXO-mediated transcription pathway combined with Lasso-RSF algorithms emerged as the top predictor. The derived FOXO-related signature (FRS) stratified patients into high-risk and low-risk groups, with high-risk patients showing significantly worse progression-free survival (PFS) and overall survival (OS) across all cohorts (p < 0.05). FRS outperformed clinical variables and 43 published models in predictive accuracy. IHC confirmed elevated expression of FRS-associated genes (PCK1, IGFBP1) in nonresponders. Immune profiling revealed enriched antitumor immunity in low-FRS patients. CONCLUSION: FRS, a machine learning-derived pathway signature, robustly predicts immunotherapy response and survival in NSCLC. Its integration of FOXO-mediated immune regulation offers a clinically translatable tool for precision oncology.",
+  "abstract_zh": "背景：非小细胞肺癌（NSCLC）占肺癌病例的80%，仍是全球癌症相关死亡的主要原因。尽管免疫检查点抑制剂（ICIs）改善了治疗结局，但其疗效仅限于部分患者，因此需要稳健的生物标志物来预测个体化免疫治疗反应。方法：我们整合了来自四个接受ICIs治疗的队列中584例NSCLC患者的转录组数据。利用MSigDB中的12,025条通路，我们应用了101种机器学习算法组合（例如，随机生存森林 [RSF]、最小绝对收缩和选择算子 [Lasso] 以及基于分量似然提升的Cox比例风险模型 [CoxBoost]）来识别预后特征。OAK作为训练集，Ravi、Jung和Poplar作为验证集。根据验证集中平均一致性指数（C-index）排名确定最优通路和算法组合，并生成预测模型。性能通过C-index、受试者工作特征（ROC）分析和生存分析进行评估。生物学相关性通过基因集富集分析（GSEA）、免疫浸润谱分析和免疫组织化学（IHC）进行评价。结果：FOXO介导的转录通路与Lasso-RSF算法组合成为最佳预测因子。衍生的FOXO相关特征（FRS）将患者分为高风险组和低风险组，高风险组在所有队列中均表现出显著较差的无进展生存期（PFS）和总生存期（OS）（p < 0.05）。FRS在预测准确性上优于临床变量和43个已发表模型。IHC证实非应答者中FRS相关基因（PCK1、IGFBP1）表达升高。免疫谱分析显示低FRS患者中抗肿瘤免疫富集。结论：FRS作为一种机器学习衍生的通路特征，稳健地预测NSCLC的免疫治疗反应和生存。其整合FOXO介导的免疫调节，为精准肿瘤学提供了一种临床可转化的工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41561639/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41561639/",
+  "paper_page_path": "papers/pubmed/41561639/index.html"
+}

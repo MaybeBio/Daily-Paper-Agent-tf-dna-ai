@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "42166424",
+    "doi": "10.1371/journal.pone.0349338",
+    "title": "Identifying and validating ITGB2 and HNRNPAB as diagnostic biomarkers in chronic obstructive pulmonary disease using bioinformatics and Integrated Machine Learning Methods."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND AIM: COPD is a common respiratory disease characterized by progressive airflow restriction that severely affects patients' quality of life and leads to significant mortality rates worldwide. This study aims to strengthen the early diagnosis of COPD and develop personalized treatment strategies. METHODS: The methodology involved a comprehensive approach, including differential gene expression analysis, weighted gene co-expression network analysis (WGCNA), functional enrichment analysis, and machine learning techniques. Data from the combined datasets GSE37768 and GSE38974 were utilized to identify differentially expressed genes (DEGs). The machine learning integrated model was employed to screen for diagnostic molecular biomarkers related to COPD. Additionally, pathway analysis, transcription factor gene regulatory network analysis, immune cell composition analysis using CIBERSORT, and mendelian randomization analysis were conducted to elucidate the molecular mechanisms and potential biomarkers for COPD. Finally, we validated the model using Polymerase Chain Reaction (PCR), immunohistochemistry (IHC) and Immunofluorescence (IF). RESULTS: This study employed bioinformatics and Integrated Machine Learning Methods to identify ITGB2 and HNRNPAB as potential related targets for COPD. Subsequent verification through PCR, IHC, and IF experiments confirmed that ITGB2 and HNRNPAB were key biomarkers for COPD. Pathway analysis revealed that ITGB2 and HNRNPAB were mainly involved in immune responses and metabolic pathways. CONCLUSION: This comprehensive study presents an in-depth investigation of the molecular mechanisms of COPD and identifies candidate exploratory biomarkers for further research toward early diagnosis and potential personalized treatment strategies. In future studies, the identified exploratory biomarkers should be validated in larger cohorts and their therapeutic significance explored.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Pulmonary Disease, Chronic Obstructive/diagnosis/genetics/metabolism",
+      "Humans",
+      "*Machine Learning",
+      "Biomarkers/metabolism",
+      "*Computational Biology/methods",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "*Heterogeneous-Nuclear Ribonucleoprotein Group A-B/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Fengjun",
+        "Li, Hui",
+        "Wu, Fan",
+        "Xian, Dexian",
+        "Chen, Feng",
+        "Xu, Wenchang",
+        "He, Yuchen",
+        "Liu, Xiaodan",
+        "Zhang, Wei"
+      ],
+      "short_names": [
+        "Zhang F",
+        "Li H",
+        "Wu F",
+        "Xian D",
+        "Chen F",
+        "Xu W",
+        "He Y",
+        "Liu X",
+        "Zhang W"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4816-8390"
+      ],
+      "affiliations": [
+        "Department of Pulmonary Diseases, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "School of Rehabilitation Science, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Pulmonary Diseases, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "The First Clinical Medical, Shandong University of Chinese Medicine, Jinan, China.",
+        "Department of Integrated Chinese and Western Medicine, Yantai Yuhuangding Hospital Affiliated to Qingdao University, Yantai, China.",
+        "The First Clinical Medical, Shandong University of Chinese Medicine, Jinan, China.",
+        "Department of rehabilitation, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "School of Rehabilitation Science, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Department of Pulmonary Diseases, Shuguang Hospital, Shanghai Institute of Infectious Diseases and Biosecurity, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Zhang Wei Baoshan famous traditional Chinese medicine inheritance studio, Shanghai Baoshan Hospital of Integrated Chinese and Western Medicine, Shanghai, China.",
+        "Institute of Infectious Diseases, Shanghai Institute of Traditional Chinese Medicine, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Fengjun",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary Diseases, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hui",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Rehabilitation Science, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Fan",
+        "short_name": "Wu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary Diseases, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xian, Dexian",
+        "short_name": "Xian D",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical, Shandong University of Chinese Medicine, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Feng",
+        "short_name": "Chen F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrated Chinese and Western Medicine, Yantai Yuhuangding Hospital Affiliated to Qingdao University, Yantai, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wenchang",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical, Shandong University of Chinese Medicine, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "He, Yuchen",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of rehabilitation, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaodan",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Rehabilitation Science, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wei",
+        "short_name": "Zhang W",
+        "identifiers": [
+          "0000-0003-4816-8390"
+        ],
+        "affiliations": [
+          "Department of Pulmonary Diseases, Shuguang Hospital, Shanghai Institute of Infectious Diseases and Biosecurity, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+          "Zhang Wei Baoshan famous traditional Chinese medicine inheritance studio, Shanghai Baoshan Hospital of Integrated Chinese and Western Medicine, Shanghai, China.",
+          "Institute of Infectious Diseases, Shanghai Institute of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/21 18:32",
+    "fetched_at": "2026-10-01 21:02:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39409176",
+      "39344484",
+      "39062199",
+      "38967522",
+      "38578019",
+      "37962376",
+      "37783761",
+      "37665672",
+      "37474226",
+      "37406359",
+      "37385655",
+      "36942279",
+      "36858443",
+      "36746116",
+      "36572750",
+      "35749386",
+      "35533707",
+      "35279265",
+      "34922323",
+      "33919784",
+      "33829619",
+      "33076907",
+      "33003193",
+      "32965163",
+      "32366484",
+      "31937597",
+      "31827070",
+      "31730394",
+      "30931480",
+      "30929031",
+      "30834543",
+      "30592984",
+      "30260245",
+      "29941860",
+      "29540496",
+      "29335020",
+      "27899567",
+      "27373322",
+      "27250825",
+      "27189863",
+      "25698678",
+      "25605792",
+      "25549588",
+      "25428369",
+      "25265030",
+      "24686454",
+      "24507838",
+      "23323831",
+      "21940491",
+      "21428765",
+      "20110992",
+      "19864007",
+      "19114008",
+      "18161483",
+      "15374838",
+      "10592173"
+    ],
+    "similar": [
+      "42166424",
+      "40453984",
+      "39845878",
+      "40332792",
+      "42306043",
+      "41340627",
+      "40617086",
+      "39691970",
+      "40787468",
+      "40274954",
+      "39346628",
+      "39559355",
+      "41328289",
+      "40093012",
+      "41052072",
+      "42536689",
+      "41703488",
+      "40045538",
+      "39344484",
+      "42327749",
+      "41739808",
+      "39142001",
+      "40340571",
+      "40406126",
+      "41320661",
+      "41137279",
+      "38873611",
+      "39507054",
+      "39349929",
+      "40967560",
+      "42435052",
+      "39962573",
+      "40161396",
+      "42313235",
+      "39832670",
+      "40374840",
+      "41479901",
+      "41316541",
+      "34250093",
+      "41824857",
+      "40394719",
+      "40524719",
+      "40747360",
+      "42123756",
+      "41964403",
+      "41080564",
+      "39375405",
+      "39341952",
+      "40328901",
+      "41132669",
+      "42015036",
+      "40374866",
+      "39780155",
+      "41992052",
+      "41620539",
+      "41214111",
+      "40421012",
+      "41181152",
+      "35350787",
+      "39139563",
+      "41516150",
+      "40313958",
+      "38863714",
+      "41789070",
+      "41816328",
+      "41013556",
+      "42577419",
+      "39920798",
+      "42123445",
+      "40269868",
+      "40196107",
+      "41665627",
+      "42074286",
+      "40589764",
+      "39496918",
+      "41961800",
+      "42099899",
+      "41044520",
+      "40129981",
+      "41132649",
+      "42397093",
+      "40927188",
+      "41716396",
+      "42292533",
+      "42266688",
+      "41436831",
+      "40964458",
+      "41333919",
+      "40362543",
+      "39950319",
+      "39512836",
+      "41291978",
+      "40484863",
+      "39789578",
+      "41731716",
+      "39893187",
+      "40918148",
+      "40574839",
+      "41605052",
+      "40244418"
+    ],
+    "review": [
+      "42166424",
+      "41665627"
+    ],
+    "pmc": [
+      "13193535"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/copd.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COPD"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0349338",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42166424/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4042",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

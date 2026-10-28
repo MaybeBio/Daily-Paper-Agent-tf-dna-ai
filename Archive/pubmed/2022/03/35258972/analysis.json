@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35258972",
+  "title": "Alchemical Free Energy Methods Applied to Complexes of the First Bromodomain of BRD4.",
+  "authors": "Guest, Ellen E; Cervantes, Luis F; Pickett, Stephen D; Brooks, Charles L 3rd; Hirst, Jonathan D",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2022-03-09",
+  "window": {
+    "start": "2022-03-07",
+    "end": "2022-03-13"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用自由能微扰和MSλD方法计算BRD4溴结构域小分子抑制剂的结合亲和力，属于蛋白-小分子体系，非蛋白质-DNA互作，与本课题无关。",
+  "abstract": "Accurate and rapid predictions of the binding affinity of a compound to a target are one of the ultimate goals of computer aided drug design. Alchemical approaches to free energy estimations follow the path from an initial state of the system to the final state through alchemical changes of the energy function during a molecular dynamics simulation. Herein, we explore the accuracy and efficiency of two such techniques: relative free energy perturbation (FEP) and multisite lambda dynamics (MSlambdaD). These are applied to a series of inhibitors for the bromodomain-containing protein 4 (BRD4). We demonstrate a procedure for obtaining accurate relative binding free energies using MSlambdaD when dealing with a change in the net charge of the ligand. This resulted in an impressive comparison with experiment, with an average difference of 0.4 +/- 0.4 kcal mol(-1). In a benchmarking study for the relative FEP calculations, we found that using 20 lambda windows with 0.5 ns of equilibration and 1 ns of data collection for each window gave the optimal compromise between accuracy and speed. Overall, relative FEP and MSlambdaD predicted binding free energies with comparable accuracy, an average of 0.6 kcal mol(-1) for each method. However, MSlambdaD makes predictions for a larger molecular space over a much shorter time scale than relative FEP, with MSlambdaD requiring a factor of 18 times less simulation time for the entire molecule space.",
+  "abstract_zh": "准确且快速地预测化合物与靶标的结合亲和力是计算机辅助药物设计的最终目标之一。用于自由能估算的炼金术方法通过分子动力学模拟中能量函数的炼金术变化，从系统的初始状态路径走向最终状态。在此，我们探讨了两种此类技术的准确性和效率：相对自由能微扰（FEP）和多位置λ动力学（MSlambdaD）。这些技术被应用于一系列针对含溴结构域蛋白4（BRD4）的抑制剂。我们展示了一种使用MSlambdaD在配体净电荷变化时获得准确相对结合自由能的程序。这导致与实验结果的比较令人印象深刻，平均差异为0.4 ± 0.4 kcal mol(-1)。在相对FEP计算的基准研究中，我们发现使用20个λ窗口，每个窗口进行0.5 ns的平衡和1 ns的数据收集，在准确性和速度之间达到了最佳折衷。总体而言，相对FEP和MSlambdaD预测的结合自由能具有相当的准确性，每种方法的平均值均为0.6 kcal mol(-1)。然而，MSlambdaD在比相对FEP短得多的时间尺度上预测了更大的分子空间，对于整个分子空间，MSlambdaD所需的模拟时间仅为相对FEP的18分之一。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35258972/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35258972/",
+  "paper_page_path": "papers/pubmed/35258972/index.html"
+}

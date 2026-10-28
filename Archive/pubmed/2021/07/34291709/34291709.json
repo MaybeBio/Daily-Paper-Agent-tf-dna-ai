@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "34291709",
+    "doi": "10.1142/S0219720021500189",
+    "title": "DBP-GAPred: An intelligent method for prediction of DNA-binding proteins types by enhanced evolutionary profile features with ensemble learning."
+  },
+  "content": {
+    "abstract": "DNA-binding proteins (DBPs) perform an influential role in diverse biological activities like DNA replication, slicing, repair, and transcription. Some DBPs are indispensable for understanding many types of human cancers (i.e. lung, breast, and liver cancer) and chronic diseases (i.e. AIDS/HIV, asthma), while other kinds are involved in antibiotics, steroids, and anti-inflammatory drugs designing. These crucial processes are closely related to DBPs types. DBPs are categorized into single-stranded DNA-binding proteins (ssDBPs) and double-stranded DNA-binding proteins (dsDBPs). Few computational predictors have been reported for discriminating ssDBPs and dsDBPs. However, due to the limitations of the existing methods, an intelligent computational system is still highly desirable. In this work, features from protein sequences are discovered by extending the notion of dipeptide composition (DPC), evolutionary difference formula (EDF), and K-separated bigram (KSB) into the position-specific scoring matrix (PSSM). The highly intrinsic information was encoded by a compression approach named discrete cosine transform (DCT) and the model was trained with support vector machine (SVM). The prediction performance was further boosted by the genetic algorithm (GA) ensemble strategy. The novel predictor (DBP-GAPred) acquired 1.89%, 0.28%, and 6.63% higher accuracies on jackknife, 10-fold, and independent dataset tests, respectively than the best predictor. These outcomes confirm the superiority of our method over the existing predictors.",
+    "keywords": [
+      "DNA-binding proteins",
+      "discrete cosine transform",
+      "genetic algorithm",
+      "position-specific scoring matrix",
+      "support vector machine"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Amino Acid Sequence",
+      "Computational Biology",
+      "*DNA-Binding Proteins/genetics",
+      "Databases, Protein",
+      "Humans",
+      "Position-Specific Scoring Matrices",
+      "*Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Barukab, Omar",
+        "Ali, Farman",
+        "Khan, Sher Afzal"
+      ],
+      "short_names": [
+        "Barukab O",
+        "Ali F",
+        "Khan SA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0914-1577"
+      ],
+      "affiliations": [
+        "Faculty of Computing and Information Technology, King Abdulaziz University, Rabigh 21911 Jeddah, Saudi Arabia.",
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, P. R. China.",
+        "Department of Computer Science, Abdul Wali Khan University Mardan, Pakistan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Barukab, Omar",
+        "short_name": "Barukab O",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Computing and Information Technology, King Abdulaziz University, Rabigh 21911 Jeddah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Ali, Farman",
+        "short_name": "Ali F",
+        "identifiers": [
+          "0000-0002-0914-1577"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Khan, Sher Afzal",
+        "short_name": "Khan SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Abdul Wali Khan University Mardan, Pakistan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of bioinformatics and computational biology"
+    ],
+    "journal_abbrev": [
+      "J Bioinform Comput Biol"
+    ],
+    "pub_date": "2021 Aug",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/23 06:00",
+    "fetched_at": "2026-09-27 20:56:33"
+  },
+  "links": {
+    "cites": [
+      "40191328",
+      "39747941",
+      "39514139",
+      "36450775",
+      "36211019",
+      "35465187"
+    ],
+    "refs": [],
+    "similar": [
+      "34291709",
+      "35447463",
+      "31123959",
+      "31693872",
+      "36211019",
+      "35378437",
+      "33780341",
+      "28961273",
+      "39098908",
+      "30668479",
+      "34749096",
+      "28851273",
+      "33410688",
+      "32352006",
+      "32300371",
+      "28088356",
+      "28606086",
+      "31621050",
+      "20677174",
+      "31856704",
+      "22408447",
+      "29100918",
+      "22316312",
+      "32448129",
+      "33238837",
+      "22574904",
+      "31027046",
+      "34043981",
+      "38986796",
+      "29652843",
+      "36649569",
+      "22591472",
+      "30032213",
+      "23747746",
+      "28423569",
+      "23282098",
+      "17275170",
+      "28841194",
+      "33476047",
+      "28764871",
+      "22985817",
+      "33505516",
+      "35799660",
+      "31617464",
+      "29532347",
+      "37301349",
+      "29753757",
+      "34455627",
+      "22316310",
+      "27452983",
+      "16568445",
+      "37029385",
+      "33987446",
+      "28483566",
+      "24151525",
+      "31430892",
+      "32420339",
+      "29270430",
+      "24607742",
+      "28764874",
+      "32908888",
+      "31771119",
+      "31208321",
+      "29337263",
+      "36450775",
+      "21445589",
+      "37437362",
+      "27732957",
+      "24064423",
+      "32775434",
+      "37651627",
+      "38498362",
+      "26819243",
+      "26788119",
+      "32313024",
+      "28927812",
+      "27759121",
+      "34500792",
+      "26482832",
+      "28802824",
+      "35943134",
+      "31393672",
+      "30395157",
+      "29097781",
+      "29678694",
+      "21342579",
+      "30943723",
+      "28492483",
+      "31319578",
+      "27565741",
+      "29125297",
+      "30393088",
+      "30291426",
+      "24968309",
+      "24184705",
+      "31888057",
+      "28820478",
+      "19091029",
+      "39060345",
+      "32946833",
+      "34340269",
+      "23282103",
+      "30316822",
+      "28797096",
+      "30845684",
+      "30739484",
+      "23116714",
+      "24475169",
+      "28627775",
+      "30179589",
+      "24131056",
+      "34743286",
+      "35625503",
+      "29055184",
+      "27740495",
+      "33481715",
+      "38295475",
+      "26054033",
+      "18288459",
+      "32144887",
+      "36719781",
+      "25184541",
+      "36416116",
+      "39173785",
+      "34932484",
+      "38747369",
+      "38237792",
+      "35731758",
+      "38903752",
+      "18317576",
+      "38674091",
+      "37459792",
+      "38486135",
+      "37501482",
+      "36087888",
+      "34058979",
+      "35439138",
+      "35154264",
+      "36370585",
+      "35389869",
+      "39244557",
+      "38405489",
+      "37790440",
+      "33584161",
+      "35465187",
+      "35521556",
+      "36299898"
+    ],
+    "review": [
+      "34291709",
+      "35154264"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.worldscientific.com/doi/10.1142/S0219720021500189?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

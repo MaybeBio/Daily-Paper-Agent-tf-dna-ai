@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "38683136",
+    "doi": "10.18632/aging.205778",
+    "title": "Immune cell senescence and exhaustion promote the occurrence of liver metastasis in colorectal cancer by regulating epithelial-mesenchymal transition."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Liver metastasis (LM) stands as a primary cause of mortality in metastatic colorectal cancer (mCRC), posing a significant impediment to long-term survival benefits from targeted therapy and immunotherapy. However, there is currently a lack of comprehensive investigation into how senescent and exhausted immune cells contribute to LM. METHODS: We gathered single-cell sequencing data from primary colorectal cancer (pCRC) and their corresponding matched LM tissues from 16 mCRC patients. In this study, we identified senescent and exhausted immune cells, performed enrichment analysis, cell communication, cell trajectory, and cell-based in vitro experiments to validate the results of single-cell multi-omics. This process allowed us to construct a regulatory network explaining the occurrence of LM. Finally, we utilized weighted gene co-expression network analysis (WGCNA) and 12 machine learning algorithms to create prognostic risk model. RESULTS: We identified senescent-like myeloid cells (SMCs) and exhausted T cells (TEXs) as the primary senescent and exhausted immune cells. Our findings indicate that SMCs and TEXs can potentially activate transcription factors downstream via ANGPTL4-SDC1/SDC4, this activation plays a role in regulating the epithelial-mesenchymal transition (EMT) program and facilitates the development of LM, the results of cell-based in vitro experiments have provided confirmation of this conclusion. We also developed and validated a prognostic risk model composed of 12 machine learning algorithms. CONCLUSION: This study elucidates the potential molecular mechanisms underlying the occurrence of LM from various angles through single-cell multi-omics analysis in CRC. It also constructs a network illustrating the role of senescent or exhausted immune cells in regulating EMT.",
+    "keywords": [
+      "colorectal cancer liver metastases",
+      "epithelium-mesenchymal transition",
+      "exhaustion",
+      "machine learning",
+      "senescence"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms/pathology/immunology/genetics",
+      "*Epithelial-Mesenchymal Transition/genetics",
+      "*Liver Neoplasms/secondary/immunology/genetics/pathology",
+      "*Cellular Senescence",
+      "Single-Cell Analysis",
+      "Myeloid Cells/immunology/metabolism/pathology",
+      "Male",
+      "Female",
+      "Prognosis",
+      "Gene Expression Regulation, Neoplastic",
+      "T-Lymphocytes/immunology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Sen",
+        "Ma, Lanyue",
+        "Mo, Jiaxin",
+        "Zhao, Ruiqi",
+        "Li, Jinghao",
+        "Yu, Mengjiao",
+        "Jiang, Mei",
+        "Peng, Lisheng"
+      ],
+      "short_names": [
+        "Lin S",
+        "Ma L",
+        "Mo J",
+        "Zhao R",
+        "Li J",
+        "Yu M",
+        "Jiang M",
+        "Peng L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Department of Traditional Chinese Medicine, The Sixth Affiliated Hospital, South China University of Technology, Foshan, China.",
+        "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Department of Oncology, The First Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Department of Hepatology, Shenzhen Traditional Chinese Medicine Hospital, Shenzhen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Sen",
+        "short_name": "Lin S",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Lanyue",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Mo, Jiaxin",
+        "short_name": "Mo J",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ruiqi",
+        "short_name": "Zhao R",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jinghao",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, The Sixth Affiliated Hospital, South China University of Technology, Foshan, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Mengjiao",
+        "short_name": "Yu M",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Mei",
+        "short_name": "Jiang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The First Affiliated Hospital, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Lisheng",
+        "short_name": "Peng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatology, Shenzhen Traditional Chinese Medicine Hospital, Shenzhen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Aging"
+    ],
+    "journal_abbrev": [
+      "Aging (Albany NY)"
+    ],
+    "pub_date": "2024 Apr 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/29 13:58",
+    "fetched_at": "2026-09-29 19:36:33"
+  },
+  "links": {
+    "cites": [
+      "41765876",
+      "40846970",
+      "40341546",
+      "40301768",
+      "40098140"
+    ],
+    "refs": [
+      "38433192",
+      "38166256",
+      "37497234",
+      "37267954",
+      "37240299",
+      "37172580",
+      "36868226",
+      "36633525",
+      "36269299",
+      "36252154",
+      "36202915",
+      "35195748",
+      "34489408",
+      "34417225",
+      "34354714",
+      "34209842",
+      "33597522",
+      "33438577",
+      "33351885",
+      "33299129",
+      "32669714",
+      "32482536",
+      "31853000",
+      "31838128",
+      "31740819",
+      "30927925",
+      "30787437",
+      "30643263",
+      "30610226",
+      "30531897",
+      "30526930",
+      "30352807",
+      "30010766",
+      "29634943",
+      "29258294",
+      "28991892",
+      "28825705",
+      "28249899",
+      "27979832",
+      "27599658",
+      "27272654",
+      "27129029",
+      "26086965",
+      "25867923",
+      "25862945",
+      "25358689",
+      "25320007",
+      "24658644",
+      "24453275",
+      "24168186",
+      "23700391",
+      "23298609",
+      "23288917",
+      "22821831",
+      "22462789",
+      "22362069",
+      "22020330",
+      "21706180",
+      "19914252",
+      "19706769",
+      "19114008",
+      "17881363",
+      "16646834"
+    ],
+    "similar": [
+      "38683136",
+      "38647235",
+      "38657117",
+      "31610266",
+      "30927925",
+      "25193986",
+      "22735571",
+      "38335276",
+      "28427243",
+      "32612211",
+      "37157887",
+      "37691929",
+      "32052380",
+      "31931030",
+      "29776371",
+      "28502078",
+      "26975631",
+      "37528306",
+      "22912670",
+      "31064356",
+      "24657657",
+      "38343537",
+      "35802997",
+      "33537093",
+      "33607955",
+      "38282145",
+      "37404304",
+      "21702981",
+      "29921496",
+      "25663689",
+      "37398890",
+      "25750173",
+      "23076549",
+      "30831320",
+      "34265287",
+      "23441134",
+      "31629952",
+      "28346728",
+      "22042972",
+      "26057751",
+      "26156959",
+      "38087364",
+      "24755295",
+      "32366371",
+      "34597678",
+      "26856330",
+      "37827326",
+      "35378223",
+      "37940972",
+      "29439310",
+      "30541610",
+      "35216396",
+      "32127004",
+      "32641980",
+      "34470666",
+      "29463215",
+      "26701878",
+      "31338937",
+      "30365128",
+      "28430582",
+      "32065214",
+      "33228590",
+      "30025541",
+      "28259923",
+      "34899751",
+      "28460469",
+      "30813948",
+      "33175846",
+      "29426364",
+      "36281556",
+      "32679610",
+      "38291092",
+      "29719292",
+      "29906744",
+      "27914787",
+      "38693428",
+      "34975867",
+      "38644955",
+      "27578191",
+      "33389821",
+      "28435028",
+      "38869635",
+      "27037526",
+      "33852841",
+      "27912767",
+      "37749638",
+      "28558381",
+      "33397428",
+      "27571956",
+      "32270478",
+      "34939866",
+      "27223064",
+      "32020663",
+      "31840304",
+      "32917956",
+      "36147462",
+      "29949050",
+      "38837682",
+      "27338835",
+      "37619932",
+      "39344205"
+    ],
+    "review": [
+      "38683136"
+    ],
+    "pmc": [
+      "11132022"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.aging-us.com/full/205778",
+        "provider": "Impact Journals, LLC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38683136/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38683136",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4060",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

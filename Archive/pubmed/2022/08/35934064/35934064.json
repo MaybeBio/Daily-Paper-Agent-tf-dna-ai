@@ -1,0 +1,613 @@
+{
+  "identity": {
+    "pmid": "35934064",
+    "doi": "10.1053/j.gastro.2022.07.051",
+    "title": "Histone Deacetylase Inhibition by Gut Microbe-Generated Short-Chain Fatty Acids Entrains Intestinal Epithelial Circadian Rhythms."
+  },
+  "content": {
+    "abstract": "BACKGROUND & AIMS: The circadian clock orchestrates  approximately 24-hour oscillations of gastrointestinal epithelial structure and function that drive diurnal rhythms in gut microbiota. Here, we use experimental and computational approaches in intestinal organoids to reveal reciprocal effects of gut microbial metabolites on epithelial timekeeping by an epigenetic mechanism. METHODS: We cultured enteroids in media supplemented with sterile supernatants from the altered Schaedler Flora (ASF), a defined murine microbiota. Circadian oscillations of bioluminescent PER2 and Bmal1 were measured in the presence or absence of individual ASF supernatants. Separately, we applied machine learning to ASF metabolomics to identify phase-shifting metabolites. RESULTS: Sterile filtrates from 3 of 7 ASF species (ASF360 Lactobacillus intestinalis, ASF361 Ligilactobacillus murinus, and ASF502 Clostridium species) induced minimal alterations in circadian rhythms, whereas filtrates from 4 ASF species (ASF356 Clostridium species, ASF492 Eubacterium plexicaudatum, ASF500 Pseudoflavonifactor species, and ASF519 Parabacteroides goldsteinii) induced profound, concentration-dependent phase shifts. Random forest classification identified short-chain fatty acid (SCFA) (butyrate, propionate, acetate, and isovalerate) production as a discriminating feature of ASF \"shifters.\" Experiments with SCFAs confirmed machine learning predictions, with a median phase shift of 6.2 hours in murine enteroids. Pharmacologic or botanical histone deacetylase (HDAC) inhibitors yielded similar findings. Further, mithramycin A, an inhibitor of HDAC inhibition, reduced SCFA-induced phase shifts by 20% (P < .05) and conditional knockout of HDAC3 in enteroids abrogated butyrate effects on Per2 expression. Key findings were reproducible in human Bmal1-luciferase enteroids, colonoids, and Per2-luciferase Caco-2 cells. CONCLUSIONS: Gut microbe-generated SCFAs entrain intestinal epithelial circadian rhythms by an HDACi-dependent mechanism, with critical implications for understanding microbial and circadian network regulation of intestinal epithelial homeostasis.",
+    "keywords": [
+      "Circadian Rhythm",
+      "Histone Deacetylation",
+      "Intestinal Organoids",
+      "Microbiome",
+      "Short-Chain Fatty Acids",
+      "Sulforaphane"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Mice",
+      "Animals",
+      "*Circadian Rhythm/physiology",
+      "*Gastrointestinal Microbiome/physiology",
+      "Histone Deacetylases",
+      "Caco-2 Cells",
+      "ARNTL Transcription Factors",
+      "Propionates",
+      "Fatty Acids, Volatile/metabolism",
+      "Butyrates",
+      "Histone Deacetylase Inhibitors/pharmacology",
+      "Luciferases"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fawad, Jibraan A",
+        "Luzader, Deborah H",
+        "Hanson, Gabriel F",
+        "Moutinho, Thomas J Jr",
+        "McKinney, Craig A",
+        "Mitchell, Paul G",
+        "Brown-Steinke, Kathleen",
+        "Kumar, Ajay",
+        "Park, Miri",
+        "Lee, Suengwon",
+        "Bolick, David T",
+        "Medlock, Greg L",
+        "Zhao, Jesse Y",
+        "Rosselot, Andrew E",
+        "Chou, C James",
+        "Eshleman, Emily M",
+        "Alenghat, Theresa",
+        "Hong, Christian I",
+        "Papin, Jason A",
+        "Moore, Sean R"
+      ],
+      "short_names": [
+        "Fawad JA",
+        "Luzader DH",
+        "Hanson GF",
+        "Moutinho TJ Jr",
+        "McKinney CA",
+        "Mitchell PG",
+        "Brown-Steinke K",
+        "Kumar A",
+        "Park M",
+        "Lee S",
+        "Bolick DT",
+        "Medlock GL",
+        "Zhao JY",
+        "Rosselot AE",
+        "Chou CJ",
+        "Eshleman EM",
+        "Alenghat T",
+        "Hong CI",
+        "Papin JA",
+        "Moore SR"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia.",
+        "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia.",
+        "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia.",
+        "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia.",
+        "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia.",
+        "University of Virginia School of Medicine, Charlottesville, Virginia.",
+        "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia.",
+        "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia.",
+        "Department of Pharmacology & Systems Physiology, University of Cincinnati, Cincinnati, Ohio.",
+        "Department of Pharmacology & Systems Physiology, University of Cincinnati, Cincinnati, Ohio.",
+        "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia.",
+        "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia.",
+        "University of Virginia School of Medicine, Charlottesville, Virginia.",
+        "Department of Pharmacology & Systems Physiology, University of Cincinnati, Cincinnati, Ohio.",
+        "College of Pharmacy, Medical University of South Carolina, Charleston, South Carolina.",
+        "Division of Immunobiology, Center for Inflammation and Tolerance, Cincinnati Children's Hospital Medical Center and the University of Cincinnati College of Medicine, Cincinnati, Ohio.",
+        "Division of Immunobiology, Center for Inflammation and Tolerance, Cincinnati Children's Hospital Medical Center and the University of Cincinnati College of Medicine, Cincinnati, Ohio.",
+        "Department of Pharmacology & Systems Physiology, University of Cincinnati, Cincinnati, Ohio.",
+        "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia.",
+        "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia. Electronic address: srm5u@virgina.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fawad, Jibraan A",
+        "short_name": "Fawad JA",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia."
+        ]
+      },
+      {
+        "full_name": "Luzader, Deborah H",
+        "short_name": "Luzader DH",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia."
+        ]
+      },
+      {
+        "full_name": "Hanson, Gabriel F",
+        "short_name": "Hanson GF",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia."
+        ]
+      },
+      {
+        "full_name": "Moutinho, Thomas J",
+        "short_name": "Moutinho TJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia."
+        ]
+      },
+      {
+        "full_name": "McKinney, Craig A",
+        "short_name": "McKinney CA",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia."
+        ]
+      },
+      {
+        "full_name": "Mitchell, Paul G",
+        "short_name": "Mitchell PG",
+        "identifiers": [],
+        "affiliations": [
+          "University of Virginia School of Medicine, Charlottesville, Virginia."
+        ]
+      },
+      {
+        "full_name": "Brown-Steinke, Kathleen",
+        "short_name": "Brown-Steinke K",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia."
+        ]
+      },
+      {
+        "full_name": "Kumar, Ajay",
+        "short_name": "Kumar A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia."
+        ]
+      },
+      {
+        "full_name": "Park, Miri",
+        "short_name": "Park M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology & Systems Physiology, University of Cincinnati, Cincinnati, Ohio."
+        ]
+      },
+      {
+        "full_name": "Lee, Suengwon",
+        "short_name": "Lee S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology & Systems Physiology, University of Cincinnati, Cincinnati, Ohio."
+        ]
+      },
+      {
+        "full_name": "Bolick, David T",
+        "short_name": "Bolick DT",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia."
+        ]
+      },
+      {
+        "full_name": "Medlock, Greg L",
+        "short_name": "Medlock GL",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jesse Y",
+        "short_name": "Zhao JY",
+        "identifiers": [],
+        "affiliations": [
+          "University of Virginia School of Medicine, Charlottesville, Virginia."
+        ]
+      },
+      {
+        "full_name": "Rosselot, Andrew E",
+        "short_name": "Rosselot AE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology & Systems Physiology, University of Cincinnati, Cincinnati, Ohio."
+        ]
+      },
+      {
+        "full_name": "Chou, C James",
+        "short_name": "Chou CJ",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Medical University of South Carolina, Charleston, South Carolina."
+        ]
+      },
+      {
+        "full_name": "Eshleman, Emily M",
+        "short_name": "Eshleman EM",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Immunobiology, Center for Inflammation and Tolerance, Cincinnati Children's Hospital Medical Center and the University of Cincinnati College of Medicine, Cincinnati, Ohio."
+        ]
+      },
+      {
+        "full_name": "Alenghat, Theresa",
+        "short_name": "Alenghat T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Immunobiology, Center for Inflammation and Tolerance, Cincinnati Children's Hospital Medical Center and the University of Cincinnati College of Medicine, Cincinnati, Ohio."
+        ]
+      },
+      {
+        "full_name": "Hong, Christian I",
+        "short_name": "Hong CI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology & Systems Physiology, University of Cincinnati, Cincinnati, Ohio."
+        ]
+      },
+      {
+        "full_name": "Papin, Jason A",
+        "short_name": "Papin JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia."
+        ]
+      },
+      {
+        "full_name": "Moore, Sean R",
+        "short_name": "Moore SR",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Gastroenterology, Hepatology and Nutrition, Department of Pediatrics, University of Virginia, Charlottesville, Virginia. Electronic address: srm5u@virgina.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Gastroenterology"
+    ],
+    "journal_abbrev": [
+      "Gastroenterology"
+    ],
+    "pub_date": "2022 Nov",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/08 06:00",
+    "fetched_at": "2026-09-28 12:07:03"
+  },
+  "links": {
+    "cites": [
+      "42681659",
+      "42676620",
+      "42655109",
+      "42630981",
+      "42614395",
+      "42577143",
+      "42481690",
+      "42429144",
+      "42418125",
+      "42394773",
+      "42346363",
+      "42332254",
+      "42278997",
+      "42254444",
+      "42201486",
+      "42168654",
+      "42135724",
+      "42114284",
+      "42105281",
+      "42073392",
+      "42037782",
+      "41945859",
+      "41929484",
+      "41914045",
+      "41901248",
+      "41811452",
+      "41794765",
+      "41685318",
+      "41641458",
+      "41586159",
+      "41511333",
+      "41378921",
+      "41368631",
+      "41311385",
+      "41169370",
+      "41146563",
+      "41116849",
+      "41111149",
+      "41064284",
+      "41019532",
+      "41011021",
+      "40963403",
+      "40915424",
+      "40903589",
+      "40873453",
+      "40806086",
+      "40727446",
+      "40715695",
+      "40708752",
+      "40650475",
+      "40616824",
+      "40613226",
+      "40580483",
+      "40564077",
+      "40473603",
+      "40357979",
+      "40212846",
+      "40139315",
+      "40128460",
+      "40066079",
+      "39669776",
+      "39667578",
+      "39502685",
+      "39478858",
+      "39473963",
+      "39399394",
+      "39353090",
+      "39337526",
+      "39267721",
+      "39201713",
+      "39199231",
+      "39003477",
+      "38948115",
+      "38892208",
+      "38841892",
+      "38776923",
+      "38631431",
+      "38426108",
+      "38338054",
+      "38298896",
+      "38195689",
+      "38161976",
+      "38095865",
+      "37592942",
+      "37400906",
+      "37362429",
+      "37309179",
+      "36970068",
+      "36941259",
+      "36769429"
+    ],
+    "refs": [
+      "32888430",
+      "32731255",
+      "31757939",
+      "31604271",
+      "31444382",
+      "31421905",
+      "30811997",
+      "30709031",
+      "30635659",
+      "30283092",
+      "30195437",
+      "30057174",
+      "30052654",
+      "29806736",
+      "29689264",
+      "29622848",
+      "29551127",
+      "29362450",
+      "29173529",
+      "28869285",
+      "27912059",
+      "27867006",
+      "27076076",
+      "26628099",
+      "26613342",
+      "26323627",
+      "25891358",
+      "25710209",
+      "24997189",
+      "24510468",
+      "24226773",
+      "24226770",
+      "24153306",
+      "23821742",
+      "23724235",
+      "23724083",
+      "23663780",
+      "23289537",
+      "22841001",
+      "21633182",
+      "21556016",
+      "21393543",
+      "20718447",
+      "20068171",
+      "19798581",
+      "19740663",
+      "19349191",
+      "19329995",
+      "19255424",
+      "18755157",
+      "18182289",
+      "17179232",
+      "16987893",
+      "16678094",
+      "16167846",
+      "15128534",
+      "14963227",
+      "14574346",
+      "12725454",
+      "11739022",
+      "11600731",
+      "11584399",
+      "11520929",
+      "10930389",
+      "9989497",
+      "9635423",
+      "9619629",
+      "9333243",
+      "8944557",
+      "8513037",
+      "3678950",
+      "2909876",
+      "1914718"
+    ],
+    "similar": [
+      "35934064",
+      "27151945",
+      "35371053",
+      "39287437",
+      "30269420",
+      "24997189",
+      "32045364",
+      "41201037",
+      "34365090",
+      "32555444",
+      "36482237",
+      "33238220",
+      "25118238",
+      "36241650",
+      "39462277",
+      "30252114",
+      "22215612",
+      "34107165",
+      "32679183",
+      "41071209",
+      "35409339",
+      "35952961",
+      "30283092",
+      "29362450",
+      "32398370",
+      "33424870",
+      "41521304",
+      "29434590",
+      "32901017",
+      "31265956",
+      "30066368",
+      "31604271",
+      "34463231",
+      "25320182",
+      "28860561",
+      "40544212",
+      "35977967",
+      "28828400",
+      "25875123",
+      "39064706",
+      "31896754",
+      "30831575",
+      "38197629",
+      "37375664",
+      "33791812",
+      "26998764",
+      "30052654",
+      "37542852",
+      "23300800",
+      "39667578",
+      "40499314",
+      "40275300",
+      "38565643",
+      "32376406",
+      "39284033",
+      "40252431",
+      "25271152",
+      "37100764",
+      "34928598",
+      "34612688",
+      "37398673",
+      "31677970",
+      "40578039",
+      "41596739",
+      "40520290",
+      "38778506",
+      "36410023",
+      "36840551",
+      "36857894",
+      "38217033",
+      "40642799",
+      "39059479",
+      "39612887",
+      "38661366",
+      "36857177",
+      "36334897",
+      "39434145",
+      "37962207",
+      "33010914",
+      "37892541",
+      "40284169",
+      "27824342",
+      "18723323",
+      "35940511",
+      "27113407",
+      "38878524",
+      "18061431",
+      "41305603",
+      "32612610",
+      "30139941",
+      "34848335",
+      "21960634",
+      "37596634",
+      "33807238",
+      "34534703",
+      "38311045",
+      "35178126",
+      "27840292",
+      "30370625",
+      "15975492"
+    ],
+    "review": [
+      "35934064",
+      "41201037",
+      "41071209",
+      "41521304",
+      "40544212",
+      "25875123",
+      "30831575",
+      "37542852",
+      "38565643",
+      "39284033",
+      "37100764",
+      "31677970",
+      "41596739",
+      "40520290",
+      "36857894",
+      "37892541",
+      "40284169",
+      "27113407",
+      "41305603",
+      "32612610",
+      "37596634",
+      "35178126"
+    ],
+    "pmc": [
+      "11551968"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0016-5085(22)00827-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35934064/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0016-5085(22)00827-7",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

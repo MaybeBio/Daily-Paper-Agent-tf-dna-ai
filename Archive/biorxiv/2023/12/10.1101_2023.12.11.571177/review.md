@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, availability, supplementary data statement)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and internal consistency as presented in the provided text. No external data, figures, or supplementary materials were available for inspection.
+- **Shared manuscript claim summary** The authors propose a new concept, "anchoring element" (AE), a short 3-4 bp sequence that dominates the binding energy of transcription factor (TF) DNA-binding domains (DBDs) to DNA. They introduce a computational method, AEEscape, to identify AEs and derive their binding energy landscapes from KaScape experimental data. They further claim that an AE density gradient around TF binding sites (TFBSs) forms an energetic funnel that facilitates TF target search, and that this mechanism is supported by analysis of ChIP-seq data.
+- **Visible evidence base** Text descriptions of results, including references to figures (Fig. 1-6), supplementary figures (Fig. S1-S25), tables (Table S1-S3), and equations (Eq. 1-9). No actual data, figures, or code were provided.
+- **Missing materials affecting confidence** All figures, supplementary data, tables, and the GitHub repository. The manuscript text alone is insufficient to verify the quantitative claims, the performance of AEEscape, or the statistical significance of the reported patterns.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting and novel concept (AE) with a new computational tool (AEEscape). However, the evidence as described in the text is largely qualitative and relies heavily on visual inspection of figures that were not provided. The central claims, particularly the dominance of AEs in binding energy and the existence of an AE density gradient forming an energetic funnel, are not quantitatively established from the provided material. The comparison with existing methods (e.g., PWM, BEESEM) is described but not demonstrated with metrics. The manuscript is not yet suitable for publication in a high-impact journal without substantial additional evidence and clarification.
+- **Who would be interested in the results, and why** Researchers in gene regulation, transcription factor biology, computational biology, and biophysics. The concept of short anchoring elements could be of interest to those studying TF-DNA binding specificity and the mechanisms of facilitated diffusion. The AEEscape method may be useful for analyzing high-throughput binding assays.
+- **Major strengths** 
+  - The concept of a short "anchoring element" is clearly defined and potentially provides a simpler framework for understanding TF-DNA binding.
+  - The development of a new algorithm (AEEscape) to extract energy landscapes from KaScape data is a valuable methodological contribution.
+  - The use of multiple independent datasets (KaScape, ChIP-seq, PBM) to support the claims is a good approach.
+  - The discussion of the implications for facilitated diffusion and the design of synthetic promoters is thoughtful.
+- **Major Concerns**
+  - **R1-M1** (Severity: Major, Blocking: Yes, Axis: Evidence quality)
+    - **Claim pointer** The authors claim that the AE "dominated the bound population of DNA-DBD binding" and that its binding energy is "the lowest among all other potential m-mer sequences."
+    - **Evidence pointer** Results section "The discovery of the AE", Figures 1-4, Supplementary Figures S2, S3, S6-S9.
+    - **Concern** The claim of dominance is based on visual inspection of energy landscape maps. No quantitative metrics (e.g., effect sizes, confidence intervals, statistical tests) are provided to support the assertion that the AE's binding energy is significantly lower than all other m-mers. The text states the difference is "moderately lower" (Discussion), which contradicts the strong claim of "dominated."
+    - **Why it matters** The central thesis of the paper rests on the quantitative dominance of the AE. Without statistical evidence, the claim is not established and could be an artifact of visualization or noise.
+    - **Resolution test** Provide a quantitative comparison of the binding energies of all possible m-mers, including the AE, with appropriate statistical measures (e.g., mean, standard deviation, p-values) showing that the AE is a significant outlier.
+  - **R1-M2** (Severity: Major, Blocking: Yes, Axis: Methodology validation)
+    - **Claim pointer** The authors claim that AEEscape "outperforms" BEESEM and can "detect AEs more sensitively and derive the binding energy landscape more accurately."
+    - **Evidence pointer** Discussion section, Figures S20-S23.
+    - **Concern** The comparison with BEESEM is described qualitatively. No quantitative performance metrics (e.g., correlation coefficients, ROC curves, precision-recall) are provided. The claim that AEEscape is more accurate is not supported by any numerical evidence in the text.
+    - **Why it matters** The validity of the AEEscape method is crucial for the reliability of all subsequent analyses. Without a rigorous validation, the derived energy landscapes and the conclusions drawn from them are questionable.
+    - **Resolution test** Provide a quantitative benchmark comparing AEEscape and BEESEM on the same datasets, including metrics such as correlation between predicted and measured binding energies, and recovery of known motifs.
+  - **R1-M3** (Severity: Major, Blocking: Yes, Axis: Claim support)
+    - **Claim pointer** The authors claim that an "AE density gradient" around TFBSs forms an "energetic funnel" that facilitates TF target search.
+    - **Evidence pointer** Results section "AE gradient forming the energetic funnel", Figures 5-6, Supplementary Figures S11-S16.
+    - **Concern** The existence of the funnel is inferred from the AE density gradient, but the link between this gradient and the actual search process is not demonstrated. The text does not provide a quantitative model or simulation showing that this gradient reduces search time. The claim that the funnel "facilitates facilitated diffusion" is speculative.
+    - **Why it matters** This is a major conceptual claim that extends the AE concept to a functional role in vivo. Without a quantitative demonstration of the mechanism, the claim remains a hypothesis.
+    - **Resolution test** Provide a quantitative model or simulation showing that the observed AE density gradient around TFBSs leads to a measurable reduction in target search time compared to a random background.
+  - **R1-M4** (Severity: Major, Blocking: No, Axis: Data interpretation)
+    - **Claim pointer** The authors claim that the AE is "situated within the major groove of B-form DNA and displays the greatest degree of thermodynamic stability among the constituent nucleobases."
+    - **Evidence pointer** Discussion section, Figure S19.
+    - **Concern** This structural claim is based on a single figure (S19) that was not provided. The text does not describe the structural analysis method or the basis for the thermodynamic stability claim. It is unclear if this is a novel finding or a restatement of known structural data.
+    - **Why it matters** This claim adds a structural dimension to the AE concept but is not substantiated in the text.
+    - **Resolution test** Provide a detailed description of the structural analysis, including the method used and the quantitative data supporting the thermodynamic stability claim.
+- **Minor Comments**
+  - **R1-m1** (Severity: Minor, Axis: Clarity)
+    - **Affected element** Abstract
+    - **Evidence pointer** Abstract, line "we identified short sequences (3-4 bases) or 'anchoring element' (AE) for the four TFs that dominated the bound population of DNA-DBD binding."
+    - **Issue** The abstract states "four TFs" but the methods section lists five DBDs (WRKY, PU.1, cGAS, GR, MYC2). This inconsistency is confusing.
+    - **Required correction** Clarify the number of TFs studied or specify which four are being referred to in the abstract.
+  - **R1-m2** (Severity: Minor, Axis: Reproducibility)
+    - **Affected element** Methods section
+    - **Evidence pointer** Methods section "Training and Evaluation of AEEscape"
+    - **Issue** The description of the AEEscape algorithm is brief and refers to supplementary text for details. The hyperparameters, initialization, and convergence criteria are not described.
+    - **Required correction** Provide a more detailed description of the algorithm in the main text or ensure the supplementary text is comprehensive and accessible.
+  - **R1-m3** (Severity: Minor, Axis: Statistical rigor)
+    - **Affected element** Results section "AE gradient forming the energetic funnel"
+    - **Evidence pointer** Figure 6, Equation 8-9
+    - **Issue** The AE density bias is presented as a function of distance from the TFBS, but no error bars or confidence intervals are mentioned. It is unclear if the observed peaks are statistically significant.
+    - **Required correction** Include error bars or confidence intervals in the figure and state the number of TFBSs used for the analysis.
+  - **R1-m4** (Severity: Minor, Axis: Literature context)
+    - **Affected element** Introduction
+    - **Evidence pointer** Introduction, paragraph on facilitated diffusion
+    - **Issue** The discussion of facilitated diffusion is brief and does not cite recent work on the topic beyond the classic Berg and von Hippel paper.
+    - **Required correction** Expand the discussion of facilitated diffusion with more recent references to provide a broader context for the proposed mechanism.
+- **Technical failings that need to be addressed before the case is established** 
+  - Lack of quantitative evidence for the dominance of AE binding energy (R1-M1).
+  - Lack of validation metrics for AEEscape compared to BEESEM (R1-M2).
+  - Lack of a quantitative model linking AE density gradient to facilitated diffusion (R1-M3).
+  - Inconsistency in the number of TFs studied (R1-m1).
+  - Insufficient detail on the AEEscape algorithm for reproducibility (R1-m2).
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of a short anchoring element is a novel and potentially simplifying idea. The AEEscape method is a new tool. However, the originality is somewhat tempered by the fact that the concept is not fully distinguished from existing motif models in the text.
+  - **Scientific importance** If the claims are substantiated, the work could have significant implications for understanding TF-DNA binding and gene regulation. The potential to predict regulatory regions based on AE density is important. However, the current evidence is insufficient to assess the true importance.
+  - **Interdisciplinary readership** The topic is of interest to molecular biologists, biophysicists, and computational biologists. The writing is generally accessible, but the lack of quantitative details may limit its appeal to a broader readership.
+  - **Technical soundness** The technical soundness cannot be fully assessed without the figures, data, and code. The described methodology is plausible, but the lack of validation metrics is a major concern.
+  - **Readability for nonspecialists** The abstract and introduction are clear. The methods and results sections are more technical and may be challenging for nonspecialists, but this is typical for the field.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claims are not quantitatively supported. Major revisions and additional evidence are required before the case is made. I would be supportive if the technical concerns are resolved with rigorous quantitative analysis and validation.

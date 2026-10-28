@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37707797",
+  "title": "Interpretable predictive models of genome-wide aryl hydrocarbon receptor-DNA binding reveal tissue-specific binding determinants.",
+  "authors": "Filipovic, David; Qi, Wenjie; Kana, Omar; Marri, Daniel; LeCluyse, Edward L; Andersen, Melvin E; Cuddapah, Suresh; Bhattacharya, Sudin",
+  "journal": "Toxicological sciences : an official journal of the Society of Toxicology",
+  "published_date": "2023-09-14",
+  "window": {
+    "start": "2023-09-11",
+    "end": "2023-09-17"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用可解释机器学习模型预测芳烃受体（AhR）这一转录因子在全基因组范围的DNA结合状态，并揭示组织特异性结合决定因素，核心聚焦TF-DNA结合位点预测与机制解析，方法为AI建模，高度匹配本课题。",
+  "abstract": "The aryl hydrocarbon receptor (AhR) is an inducible transcription factor whose ligands include the potent environmental contaminant 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD). Ligand-activated AhR binds to DNA at dioxin response elements (DREs) containing the core motif 5'-GCGTG-3'. However, AhR binding is highly tissue specific. Most DREs in accessible chromatin are not bound by TCDD-activated AhR, and DREs accessible in multiple tissues can be bound in some and unbound in others. As such, AhR functions similarly to many nuclear receptors. Given that AhR possesses a strong core motif, it is suited for a motif-centered analysis of its binding. We developed interpretable machine learning models predicting the AhR binding status of DREs in MCF-7, GM17212, and HepG2 cells, as well as primary human hepatocytes. Cross-tissue models predicting transcription factor (TF)-DNA binding generally perform poorly. However, reasons for the low performance remain unexplored. By interpreting the results of individual within-tissue models and by examining the features leading to low cross-tissue performance, we identified sequence and chromatin context patterns correlated with AhR binding. We conclude that AhR binding is driven by a complex interplay of tissue-agnostic DRE flanking DNA sequence and tissue-specific local chromatin context. Additionally, we demonstrate that interpretable machine learning models can provide novel and experimentally testable mechanistic insights into DNA binding by inducible TFs.",
+  "abstract_zh": "芳香烃受体（aryl hydrocarbon receptor, AhR）是一种诱导型转录因子，其配体包括强效环境污染物2,3,7,8-四氯二苯并-p-二噁英（TCDD）。配体激活的AhR与DNA上的二噁英响应元件（dioxin response elements, DREs）结合，该元件包含核心基序5'-GCGTG-3'。然而，AhR的结合具有高度组织特异性。可及染色质中的大多数DREs不被TCDD激活的AhR结合，且在多种组织中可及的DREs可能在某些组织中被结合，而在其他组织中则不被结合。因此，AhR的功能与许多核受体相似。鉴于AhR具有强核心基序，它适合进行以基序为中心的结合分析。我们开发了可解释的机器学习模型，用于预测MCF-7、GM17212和HepG2细胞以及原代人肝细胞中DREs的AhR结合状态。跨组织模型预测转录因子（transcription factor, TF）-DNA结合通常表现不佳。然而，导致低性能的原因尚未被探索。通过解释各个组织内模型的结果，并检查导致跨组织性能低下的特征，我们识别了与AhR结合相关的序列和染色质上下文模式。我们得出结论，AhR结合由组织无关的DRE侧翼DNA序列和组织特异性的局部染色质上下文之间的复杂相互作用驱动。此外，我们证明可解释的机器学习模型可以为诱导型TF的DNA结合提供新颖且实验可测试的机制性见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37707797/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37707797/",
+  "paper_page_path": "papers/pubmed/37707797/index.html"
+}

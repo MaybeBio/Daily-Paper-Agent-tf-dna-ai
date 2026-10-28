@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "42113266",
+    "doi": "10.1007/s00280-026-04897-7",
+    "title": "Synergistic anti-tumor activity of andrographolide and gemcitabine in intrahepatic cholangiocarcinoma through inhibition of RRM2 and the JAK/STAT3 pathway."
+  },
+  "content": {
+    "abstract": "PURPOSE: Intrahepatic cholangiocarcinoma (ICC) is a lethal malignancy frequently characterized by intrinsic resistance to standard gemcitabine (Gem) chemotherapy. This study aimed to investigate whether andrographolide (Andro) could sensitize intrinsically gemcitabine-resistant ICC cells to gemcitabine and to explore the underlying molecular mechanisms. METHODS: Naturally Gem-resistant ICC cell lines (HUCCT-1 and QBC-939) were treated with Andro, Gem, or their combination. Synergistic effects were quantified using the Chou-Talalay method. Anti-tumor efficacy was assessed via CCK-8, colony formation, EdU incorporation, wound healing, and Transwell invasion assays. ROS accumulation, apoptosis, mitochondrial membrane potential, and cell-cycle distribution were assessed by fluorescence microscopy and flow cytometry, as appropriate. Molecular targets were identified using molecular docking, RT-qPCR, and Western blotting. RESULTS: Andro and Gem exhibited strong synergistic anti-tumor activity (Combination Index < 1.0) in both cell lines. The combination significantly suppressed proliferation, motility, and epithelial-mesenchymal transition. Mechanistically, the synergy was driven by a surge in intracellular ROS, triggering mitochondrial apoptosis and G1/S phase arrest. Furthermore, Ribonucleotide-diphosphate reductase subunit M2 was identified as a candidate molecular target associated with the effects of andrographolide, leading to its downregulation and the subsequent inactivation of the JAK/STAT3 signaling pathway. CONCLUSION: Andrographolide overcomes intrinsic Gem resistance in ICC, potentially through modulation of the RRM2/JAK/STAT3 axis. This combination therapy represents a promising strategy for treating chemoresistant intrahepatic cholangiocarcinoma.",
+    "keywords": [
+      "Andrographolide",
+      "Gemcitabine",
+      "Intrahepatic cholangiocarcinoma",
+      "JAK/STAT3 pathway",
+      "RRM2",
+      "Synergistic effect"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Diterpenes/pharmacology/administration & dosage",
+      "*Cholangiocarcinoma/drug therapy/pathology",
+      "STAT3 Transcription Factor/metabolism",
+      "*Deoxycytidine/analogs & derivatives/pharmacology/administration & dosage",
+      "Gemcitabine",
+      "*Bile Duct Neoplasms/drug therapy/pathology",
+      "Drug Synergism",
+      "Cell Line, Tumor",
+      "Apoptosis/drug effects",
+      "Signal Transduction/drug effects",
+      "Cell Proliferation/drug effects",
+      "*Ribonucleoside Diphosphate Reductase/antagonists & inhibitors/metabolism",
+      "Drug Resistance, Neoplasm/drug effects",
+      "*Antineoplastic Combined Chemotherapy Protocols/pharmacology",
+      "Molecular Docking Simulation",
+      "Janus Kinases/metabolism",
+      "Cell Movement/drug effects",
+      "Membrane Potential, Mitochondrial/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Song, Qinghang",
+        "Yu, Chunjuan",
+        "Sun, Fulin",
+        "Wang, Wenbo",
+        "Wen, Ziyuan",
+        "Chen, Ruolan",
+        "Wang, Yiming",
+        "Wang, Haoran",
+        "Wang, Zhenxiang",
+        "Li, Bing",
+        "Yang, Lina"
+      ],
+      "short_names": [
+        "Song Q",
+        "Yu C",
+        "Sun F",
+        "Wang W",
+        "Wen Z",
+        "Chen R",
+        "Wang Y",
+        "Wang H",
+        "Wang Z",
+        "Li B",
+        "Yang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Basic Medicine, Qingdao University, Qingdao, 266071, China.",
+        "School of Basic Medicine, Qingdao University, Qingdao, 266071, China.",
+        "School of Basic Medicine, Qingdao University, Qingdao, 266071, China.",
+        "School of Basic Medicine, Qingdao University, Qingdao, 266071, China.",
+        "School of Basic Medicine, Qingdao University, Qingdao, 266071, China.",
+        "School of Basic Medicine, Qingdao University, Qingdao, 266071, China.",
+        "School of Basic Medicine, Qingdao University, Qingdao, 266071, China.",
+        "School of Basic Medicine, Qingdao University, Qingdao, 266071, China.",
+        "School of Basic Medicine, Qingdao University, Qingdao, 266071, China.",
+        "School of Basic Medicine, Qingdao University, Qingdao, 266071, China. libing_516@qdu.edu.cn.",
+        "School of Basic Medicine, Qingdao University, Qingdao, 266071, China. yanglina@qdu.edu.cn.",
+        "Department of Oncology, The Affiliated Yantai Yuhuangding Hospital, Qingdao University, Yantai, 264000, China. yanglina@qdu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Song, Qinghang",
+        "short_name": "Song Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Qingdao University, Qingdao, 266071, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Chunjuan",
+        "short_name": "Yu C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Qingdao University, Qingdao, 266071, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Fulin",
+        "short_name": "Sun F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Qingdao University, Qingdao, 266071, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenbo",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Qingdao University, Qingdao, 266071, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Ziyuan",
+        "short_name": "Wen Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Qingdao University, Qingdao, 266071, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ruolan",
+        "short_name": "Chen R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Qingdao University, Qingdao, 266071, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yiming",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Qingdao University, Qingdao, 266071, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Haoran",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Qingdao University, Qingdao, 266071, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhenxiang",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Qingdao University, Qingdao, 266071, China."
+        ]
+      },
+      {
+        "full_name": "Li, Bing",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Qingdao University, Qingdao, 266071, China. libing_516@qdu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Lina",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Qingdao University, Qingdao, 266071, China. yanglina@qdu.edu.cn.",
+          "Department of Oncology, The Affiliated Yantai Yuhuangding Hospital, Qingdao University, Yantai, 264000, China. yanglina@qdu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer chemotherapy and pharmacology"
+    ],
+    "journal_abbrev": [
+      "Cancer Chemother Pharmacol"
+    ],
+    "pub_date": "2026 May 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/11 12:59",
+    "fetched_at": "2026-10-01 20:31:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41273186",
+      "41162854",
+      "40426911",
+      "40230445",
+      "39980751",
+      "39702326",
+      "38992159",
+      "38930949",
+      "38351624",
+      "38319896",
+      "37870949",
+      "37822531",
+      "37588202",
+      "37140231",
+      "37115505",
+      "37075781",
+      "36762548",
+      "36672630",
+      "36566272",
+      "36518297",
+      "36260350",
+      "36100320",
+      "36059950",
+      "35972600",
+      "35740940",
+      "35278356",
+      "34895038",
+      "34818697",
+      "33681172",
+      "33605027",
+      "33372610",
+      "33280610",
+      "32039381",
+      "31952344",
+      "31862870",
+      "31649195",
+      "31404237",
+      "31154065",
+      "30545372",
+      "30040451",
+      "29784906",
+      "29498868",
+      "29182496",
+      "28797284",
+      "27601591",
+      "25224279",
+      "24909171",
+      "23845849",
+      "22847785",
+      "18992248",
+      "11081986",
+      "8893876"
+    ],
+    "similar": [
+      "42113266",
+      "35218764",
+      "38801887",
+      "39146879",
+      "41640866",
+      "39924560",
+      "39626918",
+      "39284270",
+      "23845849",
+      "28797284",
+      "38992159",
+      "29794468",
+      "41347830",
+      "27107220",
+      "31391034",
+      "41906386",
+      "30119201",
+      "34354046",
+      "40581264",
+      "37512080",
+      "25998688",
+      "39187317",
+      "40598214",
+      "25344679",
+      "24337160",
+      "34462984",
+      "23225424",
+      "41965440",
+      "30683944",
+      "24998588",
+      "41735617",
+      "31736340",
+      "28036386",
+      "39215312",
+      "39772434",
+      "19605406",
+      "38923999",
+      "34412054",
+      "42031925",
+      "40507785",
+      "29666220",
+      "29895493",
+      "33753538",
+      "20026083",
+      "40199813",
+      "38518635",
+      "42014368",
+      "24025152",
+      "28733220",
+      "41935433",
+      "28602977",
+      "34895038",
+      "28670110",
+      "15073106",
+      "26296968",
+      "38000456",
+      "21844567",
+      "29853661",
+      "26160843",
+      "36899823",
+      "41654591",
+      "29715094",
+      "32709873",
+      "33416163",
+      "39973561",
+      "18636187",
+      "41467942",
+      "18813828",
+      "40324630",
+      "39239747",
+      "33066548",
+      "27779693",
+      "39848416",
+      "41520926",
+      "37813201",
+      "28241849",
+      "34997858",
+      "30880771",
+      "22159556",
+      "23226540",
+      "35716217",
+      "25633045",
+      "40311593",
+      "28166242",
+      "22334000",
+      "38321212",
+      "38723526",
+      "42050803",
+      "40350446",
+      "26228206",
+      "34716294",
+      "41839437",
+      "27863471",
+      "34119916",
+      "32679024",
+      "27208550",
+      "29039524",
+      "20480521",
+      "35337815",
+      "30880773"
+    ],
+    "review": [
+      "42113266"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bileductcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bile Duct Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00280-026-04897-7",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GMNN-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends. No supplementary figures or tables were provided beyond references to them in the text.
+- **Assessment boundary** Scientific content, experimental logic, data interpretation, and technical soundness as presented in the manuscript. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors propose that host-derived acid stress acts as a signal that suppresses Salmonella flagella biogenesis via a CadC-YdiV-FlhDC regulatory axis. They report that acid induces YdiV expression through direct binding of the transcription factor CadC to the ydiV promoter, and that this pathway is required for flagellar downregulation and intracellular survival in macrophages.
+- **Visible evidence base** RNA-seq data (Figure 2, Fig. S1), qRT-PCR data (Figures 2, 3, 6, 8), Western blot data (Figures 2, 3), motility assays (Figures 1, 3), electron microscopy (Figures 1, 7), DNA pull-down and mass spectrometry (Figure 4, Fig. S4), EMSA (Figures 4, 5, Fig. S4, S5, S8), DNase I footprinting (Figure 4, Fig. S4), biolayer interferometry (Figure 4, Fig. S4), molecular docking and mutagenesis (Figure 5), and intracellular survival assays (Figure 8).
+- **Missing materials affecting confidence** Supplementary figures (Fig. S1–S8) and tables (Table S2, S3) are referenced but not provided. Raw RNA-seq data and analysis parameters are not fully described. Statistical details for several experiments (e.g., number of biological replicates for RNA-seq, exact n for each qRT-PCR time point) are incomplete. The molecular modeling methodology is only briefly described. The intracellular survival assay lacks a complemented strain control.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and unresolved question in Salmonella pathogenesis: how the bacterium senses the host intracellular environment to downregulate flagella expression. The identification of CadC as an acid-responsive activator of YdiV is novel and mechanistically plausible. The data are generally consistent and support the main conclusions, but several technical gaps and missing controls reduce confidence in the strength of the claims. The work is of interest to the microbial pathogenesis and host-pathogen interaction communities.
+- **Who would be interested in the results, and why** Researchers studying Salmonella pathogenesis, bacterial flagellar regulation, two-component systems, acid stress responses, and host-pathogen immune evasion. The findings may also interest those working on transcriptional regulatory networks and anti-FlhDC factors in Enterobacteriaceae.
+- **Major strengths** The study addresses a clear and important biological question. The combination of transcriptomics, genetics, biochemistry, and cell infection models provides a multi-layered approach. The identification of a specific DNA binding site for CadC in the ydiV promoter and the demonstration of competitive displacement of H-NS are mechanistically informative. The use of both organic and inorganic acids to mimic host-relevant conditions is thoughtful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CadC directly binds to a 33 nt region of the ydiV promoter with a KD of 0.2 µM and that this binding is required for acid-induced YdiV expression.
+  - **Evidence pointer** Figure 4, Figure 5, Fig. S4, S5
+  - **Concern** The DNase I footprinting and EMSA experiments use a truncated CadC construct (CadCc, amino acids 1–160) rather than the full-length membrane-associated protein. The authors do not clarify whether the full-length protein behaves similarly. Additionally, the biolayer interferometry assay reports a KD but the experimental details (e.g., protein concentrations, fitting model, number of replicates) are not provided. The mutagenesis data (H43A, W106A) are only shown as EMSA band shifts without quantitative binding affinity measurements, making it difficult to assess the magnitude of the effect.
+  - **Why it matters** The central mechanistic claim rests on the specificity and affinity of the CadC-DNA interaction. Without full-length protein validation and quantitative binding data for the mutants, the conclusion that H43 and W106 are essential for promoter binding is not fully supported.
+  - **Resolution test** Provide binding affinity measurements (e.g., KD) for wild-type and mutant CadCc using a quantitative method (e.g., ITC, SPR, or fluorescence anisotropy). Confirm key findings with full-length CadC in a membrane-mimetic system or in vivo chromatin immunoprecipitation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the ∆cadC strain shows reduced intracellular survival in RAW264.7 macrophages and that this is due to failure to downregulate flagellin.
+  - **Evidence pointer** Figure 8
+  - **Concern** The intracellular survival assay compares only the wild-type and ∆cadC strains. No complemented strain (∆cadC carrying a plasmid-borne copy of cadC) is included, so it is not possible to rule out polar effects or secondary mutations. Additionally, the flagellin expression data in the intracellular context are only shown at the mRNA level (qRT-PCR) and not at the protein level, which weakens the claim that flagellin "could not be effectively controlled."
+  - **Why it matters** The physiological relevance of the proposed pathway depends on the phenotype in host cells. Without genetic complementation, the observed survival defect cannot be unambiguously attributed to cadC deletion.
+  - **Resolution test** Include a complemented strain in the intracellular survival and flagellin expression assays. Add Western blot analysis of FliC protein levels in intracellular bacteria.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors state that "acid signal can suppress flagella synthesis and motility of Salmonella" and that this occurs after flhDC transcription.
+  - **Evidence pointer** Figures 1, 2, 3
+  - **Concern** The RNA-seq data show increased flhDC mRNA under acid stress, but the authors do not report whether FlhD and FlhC protein levels are also increased or whether the increased mRNA is translated. The claim that regulation occurs "after flhDC transcription" is inferred from mRNA levels alone. Additionally, the motility assays are performed on agar plates, which may not fully reflect the dynamic acid exposure experienced during infection.
+  - **Why it matters** The proposed model depends on the point of regulation being post-transcriptional. If FlhDC protein levels are not measured, the conclusion remains indirect.
+  - **Resolution test** Measure FlhD and FlhC protein levels under acid stress by Western blot. Consider a translational reporter (e.g., FlhD-GFP) to confirm post-transcriptional regulation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim that YdiV expression is induced by acid in a CadC-dependent manner.
+  - **Evidence pointer** Figures 3, 6
+  - **Concern** The qRT-PCR data for ydiV expression in the ∆cadC strain under acid stress show a decline to 0.47-fold relative to pre-acid levels, but the statistical significance and biological variability are not fully reported. The Western blot data for YdiV protein levels are only shown for the wild-type strain, not for the ∆cadC strain.
+  - **Why it matters** The claim that CadC is required for acid-induced YdiV expression is central to the model. Without protein-level data in the mutant strain, the evidence is incomplete.
+  - **Resolution test** Provide YdiV Western blot data for both wild-type and ∆cadC strains under acid and neutral conditions. Report full statistical details for the qRT-PCR data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 6 legend
+  - **Evidence pointer** Figure 6
+  - **Issue** The figure legend states "The transcription levels of YdiV in wild-type and ∆ydiV strains" but the text describes the ∆cadC strain. This appears to be a typographical error.
+  - **Required correction** Correct the figure legend to refer to the ∆cadC strain.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** RNA-seq analysis
+  - **Evidence pointer** Methods, Figure 2
+  - **Issue** The RNA-seq analysis does not specify the number of biological replicates, the sequencing depth, or the criteria for differential expression (e.g., fold-change cutoff, adjusted p-value).
+  - **Required correction** Provide these details in the methods section or supplementary materials.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The authors note that ∆ydiV still shows some motility defect under acid stress and speculate about a second mechanism. This is reasonable, but the discussion would benefit from a more explicit statement of what that mechanism might be and how it could be tested.
+  - **Required correction** Add a sentence suggesting candidate mechanisms (e.g., direct acid effects on flagellar motor function) and propose experiments to test them.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data Availability Statement
+  - **Evidence pointer** Data Availability Statement
+  - **Issue** The statement says data are available "upon reasonable request" from a specific author, which is less transparent than depositing in a public repository. The RNA-seq data are deposited in GEO, but other raw data (e.g., EMSA gels, microscopy images) are not.
+  - **Required correction** Deposit all raw data in a public repository or provide them as supplementary files.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (full-length CadC validation and quantitative binding data for mutants), R1-M2 (complementation strain for intracellular survival), R1-M3 (FlhDC protein level measurement).
+- **Assessment against Nature-style criteria** Originality: High. The identification of CadC as a direct acid-responsive regulator of YdiV is novel and not previously reported. Scientific importance: High. The work provides a mechanistic link between a host-derived signal and flagellar downregulation, which is central to Salmonella immune evasion. Interdisciplinary readership: Moderate. The topic is primarily of interest to microbiologists and infection biologists; the broader immunology community may find the immune evasion angle relevant. Technical soundness: Moderate. The in vitro biochemistry is generally well-executed, but the lack of full-length protein validation, complementation controls, and protein-level measurements in key experiments weakens the overall rigor. Readability for nonspecialists: Good. The manuscript is clearly written and the figures are generally understandable, though some mechanistic details may be dense for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the data are largely consistent, but the missing controls and quantitative details must be addressed before the claims can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that CadC directly regulates ydiV transcription in vivo is not fully supported, as no chromatin immunoprecipitation or in vivo binding data are provided.
+- The claim that acid-induced flagellar control is "dependent on" CadC and YdiV is supported by mutant phenotypes, but the possibility of redundant or parallel pathways is not excluded.
+- The claim that the intracellular survival defect of ∆cadC is specifically due to failure to downregulate flagellin is not directly demonstrated, as no complementation or flagellin overexpression experiment is shown.
+- The claim that H43 and W106 are essential for DNA binding is based on qualitative EMSA data; quantitative binding affinities are not provided.
+- The claim that the CadC-YdiV axis is "widespread in bacteria" is based on sequence conservation of H43 and W106, but no functional data from other species are presented.

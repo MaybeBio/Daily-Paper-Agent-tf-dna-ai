@@ -1,0 +1,304 @@
+{
+  "identity": {
+    "pmid": "39073874",
+    "doi": "10.1021/acschemneuro.4c00334",
+    "title": "TDP-43 Promotes Amyloid-Beta Toxicity by Delaying Fibril Maturation via Direct Molecular Interaction."
+  },
+  "content": {
+    "abstract": "Amyloid-beta (Abeta) is a peptide that undergoes self-assembly into amyloid fibrils, which compose the hallmark plaques observed in Alzheimer's disease (AD). TAR DNA-binding protein 43 (TDP-43) is a protein with mislocalization and aggregation implicated in amyotrophic lateral sclerosis and other neurodegenerative diseases. Recent work suggests that TDP-43 may interact with Abeta, inhibiting the formation of amyloid fibrils and worsening AD pathology, but the molecular details of their interaction remain unknown. Using all-atom discrete molecular dynamics simulations, we systematically investigated the direct molecular interaction between Abeta and TDP-43. We found that Abeta monomers were able to bind near the flexible nuclear localization sequence of the N-terminal domain (NTD) of TDP-43, adopting beta-sheet rich conformations that were promoted by the interaction. Furthermore, Abeta associated with the nucleic acid binding interface of the tandem RNA recognition motifs of TDP-43 via electrostatic interactions. Using the computational peptide array method, we found the strongest C-terminal domain interaction with Abeta to be within the amyloidogenic core region of TDP-43. With experimental evidence suggesting that the NTD is necessary for inhibiting Abeta fibril growth, we also simulated the NTD with an Abeta40 fibril seed. We found that the NTD was able to strongly bind the elongation surface of the fibril seed via extensive hydrogen bonding and could also diffuse along the lateral surface via electrostatic interactions. Our results suggest that TDP-43 binding to the elongation surface, thereby sterically blocking Abeta monomer addition, is responsible for the experimentally observed inhibition of fibril growth. We conclude that TDP-43 may promote Abeta toxicity by stabilizing the oligomeric state and kinetically delaying fibril maturation.",
+    "keywords": [
+      "Alzheimer's disease",
+      "TDP-43",
+      "amyloid aggregation",
+      "amyloid-beta",
+      "cross-interaction",
+      "cross-seeding"
+    ],
+    "mesh_terms": [
+      "*Amyloid beta-Peptides/metabolism",
+      "*DNA-Binding Proteins/metabolism",
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "*Amyloid/metabolism",
+      "Protein Binding",
+      "Alzheimer Disease/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gatch, Adam J",
+        "Ding, Feng"
+      ],
+      "short_names": [
+        "Gatch AJ",
+        "Ding F"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-4330-4448",
+        "ORCID: 0000-0003-1850-6336"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States.",
+        "Department of Genetics and Biochemistry, Clemson University, Clemson, South Carolina 29634, United States.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gatch, Adam J",
+        "short_name": "Gatch AJ",
+        "identifiers": [
+          "0009-0001-4330-4448"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States.",
+          "Department of Genetics and Biochemistry, Clemson University, Clemson, South Carolina 29634, United States."
+        ]
+      },
+      {
+        "full_name": "Ding, Feng",
+        "short_name": "Ding F",
+        "identifiers": [
+          "0000-0003-1850-6336"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS chemical neuroscience"
+    ],
+    "journal_abbrev": [
+      "ACS Chem Neurosci"
+    ],
+    "pub_date": "2024 Aug 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/29 12:42",
+    "fetched_at": "2026-09-30 00:29:50"
+  },
+  "links": {
+    "cites": [
+      "42614660",
+      "42130721",
+      "40912403",
+      "40167418"
+    ],
+    "refs": [
+      "37585091",
+      "37414583",
+      "37246935",
+      "37046025",
+      "36975100",
+      "36876912",
+      "36362217",
+      "36361714",
+      "35969734",
+      "35767952",
+      "35311274",
+      "35187086",
+      "35074328",
+      "35025654",
+      "34930382",
+      "34482645",
+      "34456336",
+      "34265844",
+      "34199915",
+      "34198582",
+      "33936250",
+      "33791300",
+      "33693619",
+      "33573350",
+      "33431654",
+      "33230138",
+      "33025333",
+      "32799899",
+      "32784399",
+      "32599696",
+      "32180703",
+      "32132204",
+      "32108838",
+      "31920533",
+      "31895037",
+      "31410002",
+      "31039256",
+      "31031584",
+      "30837838",
+      "30399416",
+      "30356856",
+      "29870699",
+      "29575453",
+      "29214606",
+      "28733604",
+      "28713158",
+      "28566288",
+      "28555357",
+      "28185264",
+      "28157327",
+      "27570072",
+      "27545621",
+      "26638022",
+      "26034513",
+      "25902516",
+      "25215604",
+      "24938782",
+      "24240737",
+      "24240615",
+      "23689371",
+      "22280505",
+      "20101720",
+      "20071528",
+      "20061647",
+      "18611374",
+      "17397862",
+      "17023659",
+      "16444756",
+      "10223287",
+      "6667333"
+    ],
+    "similar": [
+      "39073874",
+      "40167418",
+      "39208885",
+      "36975100",
+      "29281261",
+      "33337368",
+      "33230138",
+      "33621087",
+      "38921060",
+      "28406293",
+      "24368046",
+      "29964150",
+      "37217059",
+      "33431654",
+      "21761818",
+      "30605312",
+      "39158263",
+      "41185093",
+      "37733746",
+      "30787102",
+      "39445702",
+      "28564579",
+      "20691234",
+      "29279008",
+      "39382320",
+      "35643314",
+      "33809196",
+      "40598757",
+      "32241918",
+      "35580288",
+      "25029558",
+      "40173286",
+      "38271485",
+      "8626745",
+      "20807757",
+      "35258946",
+      "33095508",
+      "38211979",
+      "26237080",
+      "36841957",
+      "26871000",
+      "32666627",
+      "26479553",
+      "29239603",
+      "40035576",
+      "35458686",
+      "28842494",
+      "17653279",
+      "25776887",
+      "34253022",
+      "22981725",
+      "23811057",
+      "28095675",
+      "38010414",
+      "31899862",
+      "27852777",
+      "29239599",
+      "38408014",
+      "31369236",
+      "20709081",
+      "35333348",
+      "39147751",
+      "28571516",
+      "25300967",
+      "36250019",
+      "38973199",
+      "23214934",
+      "32907712",
+      "35670622",
+      "16053447",
+      "32991803",
+      "35152697",
+      "28924036",
+      "33024142",
+      "40562864",
+      "37306611",
+      "41428870",
+      "25404240",
+      "40229203",
+      "25581460",
+      "31809572",
+      "39941148",
+      "19376973",
+      "35041853",
+      "25938662",
+      "32751722",
+      "37126408",
+      "36577130",
+      "22468636",
+      "31566950",
+      "33771571",
+      "40495448",
+      "29940109",
+      "40962260",
+      "23612608",
+      "40432382",
+      "20018889",
+      "21633500",
+      "40419040",
+      "19901993"
+    ],
+    "review": [
+      "39073874",
+      "24368046",
+      "35458686",
+      "35333348"
+    ],
+    "pmc": [
+      "11323227"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39073874/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acncdm/article-lookup/doi/10.1021/acschemneuro.4c00334",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,531 @@
+{
+  "identity": {
+    "pmid": "33812851",
+    "doi": "10.1016/j.euo.2021.03.002",
+    "title": "Development of a Whole-urine, Multiplexed, Next-generation RNA-sequencing Assay for Early Detection of Aggressive Prostate Cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Despite biomarker development advances, early detection of aggressive prostate cancer (PCa) remains challenging. We previously developed a clinical-grade urine test (Michigan Prostate Score [MiPS]) for individualized aggressive PCa risk prediction. MiPS combines serum prostate-specific antigen (PSA), the TMPRSS2:ERG (T2:ERG) gene fusion, and PCA3 lncRNA in whole urine after digital rectal examination (DRE). OBJECTIVE: To improve on MiPS with a novel next-generation sequencing (NGS) multibiomarker urine assay for early detection of aggressive PCa. DESIGN, SETTING, AND PARTICIPANTS: Preclinical development and validation of a post-DRE urine RNA NGS assay (Urine Prostate Seq [UPSeq]) assessing 84 PCa transcriptomic biomarkers, including T2:ERG, PCA3, additional PCa fusions/isoforms, mRNAs, lncRNAs, and expressed mutations. Our UPSeq model was trained on 73 patients and validated on a held-out set of 36 patients representing the spectrum of disease (benign to grade group [GG] 5 PCa). OUTCOME MEASUREMENTS AND STATISTICAL ANALYSIS: The area under the receiver operating characteristic curve (AUC) of UPSeq was compared with PSA, MiPS, and other existing models/biomarkers for predicting GG >/=3 PCa. RESULTS AND LIMITATIONS: UPSeq demonstrated high analytical accuracy and concordance with MiPS, and was able to detect expressed germline HOXB13 and somatic SPOP mutations. In an extreme design cohort (n = 109; benign/GG 1 vs GG >/=3 PCa, stratified to exclude GG 2 cancer in order to capture signal difference between extreme ends of disease), UPSeq showed differential expression for T2:ERG.T1E4 (1.2 vs 78.8 median normalized reads, p < 0.00001) and PCA3 (1024 vs 2521, p = 0.02), additional T2:ERG splice isoforms, and other candidate biomarkers. Using machine learning, we developed a 15-transcript model on the training set (n = 73) that outperformed serum PSA and sequencing-derived MiPS in predicting GG >/=3 PCa in the held-out validation set (n = 36; AUC 0.82 vs 0.69 and 0.69, respectively). CONCLUSIONS: These results support the potential utility of our novel urine-based RNA NGS assay to supplement PSA for improved early detection of aggressive PCa. PATIENT SUMMARY: We have developed a new urine-based test for the detection of aggressive prostate cancer, which promises improvement upon current biomarker tests.",
+    "keywords": [
+      "Algorithm",
+      "Biomarkers",
+      "Early detection",
+      "Machine learning",
+      "Mutations",
+      "Next-generation sequencing",
+      "Prostate cancer",
+      "RNA",
+      "Transcriptome",
+      "Urine detection"
+    ],
+    "mesh_terms": [
+      "Antigens, Neoplasm/genetics/urine",
+      "Biomarkers, Tumor",
+      "Early Detection of Cancer",
+      "High-Throughput Nucleotide Sequencing",
+      "Humans",
+      "Male",
+      "Nuclear Proteins/genetics",
+      "*Prostate",
+      "Prostate-Specific Antigen",
+      "*Prostatic Neoplasms/diagnosis/genetics",
+      "RNA/urine",
+      "Repressor Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cani, Andi K",
+        "Hu, Kevin",
+        "Liu, Chia-Jen",
+        "Siddiqui, Javed",
+        "Zheng, Yingye",
+        "Han, Sumin",
+        "Nallandhighal, Srinivas",
+        "Hovelson, Daniel H",
+        "Xiao, Lanbo",
+        "Pham, Trinh",
+        "Eyrich, Nicholas W",
+        "Zheng, Heng",
+        "Vince, Randy Jr",
+        "Tosoian, Jeffrey J",
+        "Palapattu, Ganesh S",
+        "Morgan, Todd M",
+        "Wei, John T",
+        "Udager, Aaron M",
+        "Chinnaiyan, Arul M",
+        "Tomlins, Scott A",
+        "Salami, Simpa S"
+      ],
+      "short_names": [
+        "Cani AK",
+        "Hu K",
+        "Liu CJ",
+        "Siddiqui J",
+        "Zheng Y",
+        "Han S",
+        "Nallandhighal S",
+        "Hovelson DH",
+        "Xiao L",
+        "Pham T",
+        "Eyrich NW",
+        "Zheng H",
+        "Vince R Jr",
+        "Tosoian JJ",
+        "Palapattu GS",
+        "Morgan TM",
+        "Wei JT",
+        "Udager AM",
+        "Chinnaiyan AM",
+        "Tomlins SA",
+        "Salami SS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Molecular and Cellular Pathology Graduate Program, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Computational Medicine and Bioinformatics, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Public Health Sciences Division, Fred Hutchinson Cancer Center, Seattle, WA, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Computational Medicine and Bioinformatics, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA.",
+        "Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA.",
+        "Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA; Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA; Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA; Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Molecular and Cellular Pathology Graduate Program, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA; Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA.",
+        "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Molecular and Cellular Pathology Graduate Program, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA; Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA. Electronic address: tomlinss@med.umich.edu.",
+        "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA; Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA. Electronic address: simpa@med.umich.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cani, Andi K",
+        "short_name": "Cani AK",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Molecular and Cellular Pathology Graduate Program, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Hu, Kevin",
+        "short_name": "Hu K",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Computational Medicine and Bioinformatics, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Chia-Jen",
+        "short_name": "Liu CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Siddiqui, Javed",
+        "short_name": "Siddiqui J",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yingye",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Public Health Sciences Division, Fred Hutchinson Cancer Center, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Han, Sumin",
+        "short_name": "Han S",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Nallandhighal, Srinivas",
+        "short_name": "Nallandhighal S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Hovelson, Daniel H",
+        "short_name": "Hovelson DH",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Computational Medicine and Bioinformatics, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Xiao, Lanbo",
+        "short_name": "Xiao L",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Pham, Trinh",
+        "short_name": "Pham T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Eyrich, Nicholas W",
+        "short_name": "Eyrich NW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Zheng, Heng",
+        "short_name": "Zheng H",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Vince, Randy",
+        "short_name": "Vince R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Tosoian, Jeffrey J",
+        "short_name": "Tosoian JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA; Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Palapattu, Ganesh S",
+        "short_name": "Palapattu GS",
+        "identifiers": [],
+        "affiliations": [
+          "Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA; Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Morgan, Todd M",
+        "short_name": "Morgan TM",
+        "identifiers": [],
+        "affiliations": [
+          "Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA; Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Wei, John T",
+        "short_name": "Wei JT",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Udager, Aaron M",
+        "short_name": "Udager AM",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Chinnaiyan, Arul M",
+        "short_name": "Chinnaiyan AM",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Molecular and Cellular Pathology Graduate Program, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA; Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Tomlins, Scott A",
+        "short_name": "Tomlins SA",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Molecular and Cellular Pathology Graduate Program, University of Michigan Medical School, Ann Arbor, MI, USA; Department of Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA; Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA. Electronic address: tomlinss@med.umich.edu."
+        ]
+      },
+      {
+        "full_name": "Salami, Simpa S",
+        "short_name": "Salami SS",
+        "identifiers": [],
+        "affiliations": [
+          "Michigan Center for Translational Pathology, University of Michigan Medical School, Ann Arbor, MI, USA; Rogel Cancer Center, University of Michigan, Ann Arbor, MI, USA; Department of Urology, University of Michigan Medical School, Ann Arbor, MI, USA. Electronic address: simpa@med.umich.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European urology oncology"
+    ],
+    "journal_abbrev": [
+      "Eur Urol Oncol"
+    ],
+    "pub_date": "2022 Aug",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/05 06:00",
+    "fetched_at": "2026-09-27 15:42:39"
+  },
+  "links": {
+    "cites": [
+      "41892194",
+      "41589667",
+      "40508192",
+      "38772530",
+      "37958246",
+      "37945750",
+      "37471612",
+      "35563163",
+      "34576156"
+    ],
+    "refs": [
+      "32914029",
+      "30509763",
+      "30385730",
+      "30268942",
+      "30033047",
+      "29801018",
+      "29509864",
+      "29233927",
+      "28031426",
+      "28002793",
+      "27108162",
+      "27102345",
+      "27032035",
+      "26749141",
+      "26630694",
+      "26544944",
+      "26528881",
+      "26005866",
+      "25985884",
+      "25925381",
+      "25913390",
+      "25626035",
+      "25593300",
+      "24722062",
+      "24439788",
+      "24076601",
+      "23234624",
+      "22722839",
+      "22236224",
+      "21871709",
+      "20421547",
+      "18794114",
+      "17804708",
+      "16627561",
+      "16254181",
+      "12429309",
+      "7849089",
+      "2442609"
+    ],
+    "similar": [
+      "33812851",
+      "25985884",
+      "21600800",
+      "23201468",
+      "26345389",
+      "28520829",
+      "23213079",
+      "22821767",
+      "25168616",
+      "20970419",
+      "38635241",
+      "32077525",
+      "27108162",
+      "29422418",
+      "18245462",
+      "23267145",
+      "29547000",
+      "26774207",
+      "20672322",
+      "37121562",
+      "26630694",
+      "25597901",
+      "26857646",
+      "25720086",
+      "22854248",
+      "22687565",
+      "27140073",
+      "40903311",
+      "26280815",
+      "26530372",
+      "27792187",
+      "34372976",
+      "21520154",
+      "23861782",
+      "37818554",
+      "27081843",
+      "39151263",
+      "30237023",
+      "27922627",
+      "17785564",
+      "21813756",
+      "22104592",
+      "40760471",
+      "24727384",
+      "30260630",
+      "28419548",
+      "22674214",
+      "27032035",
+      "23331404",
+      "26358139",
+      "26856686",
+      "18948370",
+      "23020913",
+      "25897535",
+      "30664734",
+      "25597828",
+      "21871709",
+      "28807541",
+      "26535666",
+      "27041928",
+      "39164912",
+      "19517474",
+      "18602209",
+      "27630329",
+      "24072184",
+      "20957673",
+      "24169211",
+      "16627561",
+      "40684841",
+      "33256740",
+      "21332814",
+      "21093148",
+      "27689066",
+      "26384170",
+      "30300367",
+      "30334974",
+      "28342633",
+      "23466239",
+      "23515404",
+      "37351993",
+      "35513884",
+      "31090082",
+      "21939492",
+      "24806330",
+      "25808739",
+      "26471473",
+      "30843003",
+      "25443926",
+      "17382159",
+      "33381926",
+      "30470249",
+      "20160063",
+      "22234006",
+      "20607245",
+      "38864687",
+      "24177197",
+      "23393348",
+      "41340217",
+      "22695242",
+      "34311209"
+    ],
+    "review": [
+      "33812851",
+      "26774207",
+      "26530372",
+      "27792187",
+      "37818554",
+      "27922627",
+      "40760471",
+      "24727384",
+      "26358139",
+      "25897535",
+      "21871709",
+      "28807541",
+      "27041928",
+      "21093148",
+      "33381926",
+      "24177197"
+    ],
+    "pmc": [
+      "11345851"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2588-9311(21)00046-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33812851/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PSAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-415",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2588-9311(21)00046-8",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33812851",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

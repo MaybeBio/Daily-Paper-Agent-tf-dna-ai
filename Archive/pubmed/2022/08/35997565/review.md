@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose CLNN-loop, a deep learning model that fuses multiple sequence-based features to predict CTCF-mediated chromatin loops across different cell lines and CTCF-binding site (CBS) pair types. They report satisfactory performance and superiority over existing methods, and use SHAP to identify CTCF motif and sequence conservation as important predictive features.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, model architecture details, or evaluation metrics are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, source code repository contents, and webserver functionality cannot be assessed
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful contribution to computational prediction of chromatin loops, a topic of ongoing interest in 3D genomics. However, the abstract lacks quantitative performance metrics, clear baseline comparisons, and methodological specificity. The claims of superiority and satisfactory performance cannot be evaluated from the supplied material. The interpretability analysis using SHAP is a positive addition but its findings are stated without supporting evidence. The work may be of interest to computational biologists and genomics researchers, but the current abstract does not establish the case for the stated claims.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on 3D genome organization, chromatin loop prediction, and deep learning applications in genomics. Researchers studying CTCF-mediated genome architecture and gene regulation may also find the interpretability analysis relevant. The availability of a webserver and source code could attract users seeking practical tools for loop prediction.
+- **Major strengths** The problem addressed is relevant and timely, given the cost and time limitations of experimental loop detection methods. The use of multiple sequence-based features and the inclusion of model interpretability via SHAP are sensible and potentially valuable contributions. The provision of source code and a webserver supports reproducibility and usability.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that CLNN-loop has satisfactory performance and is superior to existing methods in predicting chromatin loops.
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** The abstract provides no quantitative performance metrics, such as precision, recall, F1 score, AUC, or comparison statistics against existing methods. The claim of superiority is stated without any numerical support or specification of which methods were compared and under what conditions.
+  - **Why it matters** Without quantitative evidence, the central claim of the paper cannot be verified. The reader cannot assess whether the performance difference is meaningful or statistically significant, nor whether the model generalizes across cell lines and CBS pair types as claimed.
+  - **Resolution test** Provide performance metrics for CLNN-loop and baseline methods on the same datasets, including confidence intervals or statistical tests, and specify the evaluation protocol.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors propose a novel deep learning model that fuses multiple sequence-based features to predict chromatin loops.
+  - **Evidence pointer** Methods section, abstract; location not provided
+  - **Concern** The abstract does not describe the model architecture, the types of sequence-based features used, the training and validation data, or the procedure for handling different cell lines and CBS pair types. The term "novel" cannot be assessed without details on how the model differs from existing approaches.
+  - **Why it matters** Reproducibility and assessment of novelty require methodological detail. Without this information, the reader cannot determine whether the approach is genuinely new or whether the reported performance could be attributed to known techniques.
+  - **Resolution test** Include a description of the model architecture, feature set, data sources, and training procedure in the full text, and summarize key elements in the abstract.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability claim support
+  - **Claim pointer** The authors apply the SHAP framework and find that CTCF motif and sequence conservation are important signs of chromatin loops in different cell lines and CBS pair types.
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** The finding that CTCF motif and sequence conservation are important is plausible but is presented without any supporting data, such as SHAP value distributions, feature importance rankings, or comparisons across cell lines and CBS pair types.
+  - **Why it matters** The interpretability analysis is a stated contribution, but without evidence the reader cannot evaluate its validity or whether the findings are robust across conditions.
+  - **Resolution test** Provide SHAP-based feature importance plots or summary statistics, and describe how the importance of CTCF motif and sequence conservation was determined and validated.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Issue** The phrase "satisfactory performance" is vague and does not convey the magnitude or context of the results.
+  - **Required correction** Replace with specific metrics or a qualitative benchmark against a defined threshold or baseline.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Availability statement
+  - **Evidence pointer** Availability section, abstract; location not provided
+  - **Issue** The abstract states that source code and a webserver are freely available, but does not indicate whether the webserver is functional, what input formats are supported, or whether the code is documented and tested.
+  - **Required correction** Add a brief note on webserver status and code documentation, or refer to the full text for these details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract text
+  - **Evidence pointer** Motivation section, abstract; location not provided
+  - **Issue** The term "CBS pair types" is used without definition or examples, which may confuse readers unfamiliar with the specific classification.
+  - **Required correction** Define CBS pair types or provide an example in the abstract or full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and methodological detail prevents verification of the central claims. R1-M3, while not blocking, requires supporting evidence to substantiate the interpretability finding.
+- **Assessment against Nature-style criteria** 
+  - Originality: The abstract suggests a novel combination of features and interpretability, but without methodological detail the degree of originality cannot be assessed.
+  - Scientific importance: The problem is important for 3D genomics, but the abstract does not demonstrate a significant advance over existing methods.
+  - Interdisciplinary readership: The topic bridges machine learning and genomics, which could attract a broad audience, but the abstract is too technical and underspecified for nonspecialists to grasp the contribution.
+  - Technical soundness: Cannot be evaluated from the abstract alone; no metrics, architecture, or validation details are provided.
+  - Readability for nonspecialists: The abstract is concise but uses jargon without explanation, and the lack of results limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract does not provide sufficient quantitative or methodological information to support the claims of satisfactory performance, superiority, or interpretability. A revised abstract with specific results and methodological context, or access to the full manuscript, would be required to assess the work.
+
+## Risk / unsupported claims
+- The claim that CLNN-loop has satisfactory performance is unsupported by any quantitative data in the abstract.
+- The claim that CLNN-loop is superior to existing methods is unsupported without comparison metrics or baseline specifications.
+- The claim that CTCF motif and sequence conservation are important signs of chromatin loops is unsupported without SHAP-based evidence.
+- The novelty of the model cannot be assessed from the abstract alone.
+- The generalizability across cell lines and CBS pair types is asserted but not demonstrated with data.

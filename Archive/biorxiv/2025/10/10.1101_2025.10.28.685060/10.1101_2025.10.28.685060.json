@@ -1,0 +1,429 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.28.685060",
+  "title": "Consensus Pituitary Atlas, a scalable resource for annotation, novel marker discovery and analyses in pituitary gland research",
+  "doi": "10.1101/2025.10.28.685060",
+  "abstract": "<h4>Summary</h4> Previous single-cell profiling studies of the pituitary gland have yielded minimally reproducible insights largely due to their low statistical power and methodological inconsistencies. To address this problem, we generated a uniformly pre-processed Consensus Pituitary Atlas (CPA) using all existing mouse pituitary single-cell datasets (267 biological replicates, >1.1 million high-quality cells). The CPA revealed novel cell typing and lineage markers, including low-expression transcripts that previous analyses could not detect. The scale of the CPA enabled the development of machine learning models to automate and standardize cell type annotation and doublet identification for future studies. Leveraging the curated metadata, we identified sex-biased and age-dependent gene expression patterns at cell type resolution. To identify drivers of cell fates, first we determined consensus cell communication patterns. Secondly, we used RNA-sequencing and chromatin accessibility data to identify transcription factors associated with cell fates across modalities. The epitome platform acts as an interface with the CPA, allowing streamlined user-friendly analyses. <h4>Highlights</h4> Uniform processing of 267 mouse pituitary single-cell datasets (>1.1M cells) The statistical power enabled cell type, sex- and age-specific marker discovery Machine learning models facilitate doublet detection and cell typing in new datasets epitome platform provides programming-free data access and visualizations",
+  "authors": [
+    "Kövér B",
+    "Willis TL",
+    "Sherwin O",
+    "Kaufman-Cook J",
+    "Kemkem Y",
+    "Vazquez Segoviano M",
+    "Lodge EJ",
+    "Zamojski M",
+    "Mendelev N",
+    "Zhang Z",
+    "Smith GR",
+    "Bernard DJ",
+    "Lu H",
+    "Sealfon SC",
+    "Ruf-Zamojski F",
+    "Andoniadou CL"
+  ],
+  "published_date": "2025-10-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.28.685060",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.28.685060.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1110715",
+    "raw_record": {
+      "id": "PPR1110715",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1110715"
+        ]
+      },
+      "doi": "10.1101/2025.10.28.685060",
+      "title": "Consensus Pituitary Atlas, a scalable resource for annotation, novel marker discovery and analyses in pituitary gland research",
+      "authorString": "Kövér B, Willis TL, Sherwin O, Kaufman-Cook J, Kemkem Y, Vazquez Segoviano M, Lodge EJ, Zamojski M, Mendelev N, Zhang Z, Smith GR, Bernard DJ, Lu H, Sealfon SC, Ruf-Zamojski F, Andoniadou CL.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kövér B",
+            "lastName": "Kövér",
+            "firstName": "Bence",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Craniofacial and Regenerative Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Willis TL",
+            "lastName": "Willis",
+            "firstName": "Thea",
+            "initials": "TL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1794-7490"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Craniofacial and Regenerative Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sherwin O",
+            "lastName": "Sherwin",
+            "firstName": "Olivia",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Craniofacial and Regenerative Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kaufman-Cook J",
+            "lastName": "Kaufman-Cook",
+            "firstName": "James",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Craniofacial and Regenerative Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kemkem Y",
+            "lastName": "Kemkem",
+            "firstName": "Yasmine",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Craniofacial and Regenerative Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vazquez Segoviano M",
+            "lastName": "Vazquez Segoviano",
+            "firstName": "Miriam",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2705-7280"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Craniofacial and Regenerative Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lodge EJ",
+            "lastName": "Lodge",
+            "firstName": "Emily",
+            "initials": "EJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0932-8515"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Craniofacial and Regenerative Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zamojski M",
+            "lastName": "Zamojski",
+            "firstName": "Michel",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3699-089X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Regenerative Medicine Institute, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mendelev N",
+            "lastName": "Mendelev",
+            "firstName": "Natalia",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8596-2986"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurology, Center for Advanced Research on Diagnostic Assays, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang Z",
+            "lastName": "Zhang",
+            "firstName": "Zidong",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6917-8195"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurology, Center for Advanced Research on Diagnostic Assays, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Smith GR",
+            "lastName": "Smith",
+            "firstName": "Gregory",
+            "initials": "GR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0112-6134"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurology, Center for Advanced Research on Diagnostic Assays, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bernard DJ",
+            "lastName": "Bernard",
+            "firstName": "Daniel",
+            "initials": "DJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology and Therapeutics, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lu H",
+            "lastName": "Lu",
+            "firstName": "Hui-Chun",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Craniofacial and Regenerative Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sealfon SC",
+            "lastName": "Sealfon",
+            "firstName": "Stuart",
+            "initials": "SC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurology, Center for Advanced Research on Diagnostic Assays, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ruf-Zamojski F",
+            "lastName": "Ruf-Zamojski",
+            "firstName": "Frederique",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurology, Center for Advanced Research on Diagnostic Assays, , , ,"
+                },
+                {
+                  "affiliation": "Department of Medicine, , , ,"
+                },
+                {
+                  "affiliation": "Department of Biomedical Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Andoniadou CL",
+            "lastName": "Andoniadou",
+            "firstName": "Cynthia",
+            "initials": "CL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4311-5855"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Craniofacial and Regenerative Biology, , , ,"
+                },
+                {
+                  "affiliation": "Department of Medicine III, Faculty of Medicine Carl Gustav Carus, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8596-2986"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1794-7490"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2705-7280"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3699-089X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6917-8195"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0112-6134"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0932-8515"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4311-5855"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-5406-375X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>Summary</h4>  Previous single-cell profiling studies of the pituitary gland have yielded minimally reproducible insights largely due to their low statistical power and methodological inconsistencies. To address this problem, we generated a uniformly pre-processed Consensus Pituitary Atlas (CPA) using all existing mouse pituitary single-cell datasets (267 biological replicates, >1.1 million high-quality cells). The CPA revealed novel cell typing and lineage markers, including low-expression transcripts that previous analyses could not detect. The scale of the CPA enabled the development of machine learning models to automate and standardize cell type annotation and doublet identification for future studies. Leveraging the curated metadata, we identified sex-biased and age-dependent gene expression patterns at cell type resolution. To identify drivers of cell fates, first we determined consensus cell communication patterns. Secondly, we used RNA-sequencing and chromatin accessibility data to identify transcription factors associated with cell fates across modalities. The  epitome platform acts as an interface with the CPA, allowing streamlined user-friendly analyses.  <h4>Highlights</h4>  Uniform processing of 267 mouse pituitary single-cell datasets (>1.1M cells) The statistical power enabled cell type, sex- and age-specific marker discovery Machine learning models facilitate doublet detection and cell typing in new datasets epitome platform provides programming-free data access and visualizations",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "108874/Z/15/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "218461/Z/19/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.10.28.685060"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1110715"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1110715&type=FILE&fileName=EMS210206-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS210206",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "bioproject"
+        ]
+      },
+      "dateOfCreation": "2025-10-31",
+      "firstPublicationDate": "2025-10-29",
+      "firstIndexDate": "2025-10-31",
+      "fullTextReceivedDate": "2025-11-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

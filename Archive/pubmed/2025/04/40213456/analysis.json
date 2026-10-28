@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40213456",
+  "title": "Deep Learning-Based Classification of Histone-DNA Interactions Using Drying Droplet Patterns.",
+  "authors": "Vaez, Safoura; Dadfar, Bahar; Koenig, Meike; Franzreb, Matthias; Lahann, Joerg",
+  "journal": "Small science",
+  "published_date": "2025-04-11",
+  "window": {
+    "start": "2025-04-07",
+    "end": "2025-04-13"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习分类干燥液滴图案来区分组蛋白-DNA结合亲和力，虽涉及蛋白-DNA互作和AI方法，但非TF-DNA体系且缺乏三维互作建模，仅作启发参考。",
+  "abstract": "Developing scalable and accurate predictive analytical methods for the classification of protein-DNA binding is critical for advancing our understanding of molecular biology, disease mechanisms, and a wide spectrum of biotechnological and medical applications. It is discovered that histone-DNA interactions can be stratified based on stain patterns created by the deposition of various nucleoprotein solutions onto a substrate. In this study, a deep-learning neural network is applied to categorize polarized light microscopy images of drying droplet deposits originating from different histone-DNA mixtures. These DNA stain patterns featured high reproducibility across different species and thus enabled comprehensive DNA categorization (100% accuracy) and accurate prediction of their respective binding affinities to histones. Eukaryotic DNA, which has a higher binding affinity to mammalian histones than prokaryotic DNA, is associated with a higher overall prediction accuracy. For a given species, the average prediction accuracy increased with DNA size. To demonstrate generalizability, a pre-trained CNN is challenged with unknown images that originated from DNA samples of species not included in the training set. The CNN classified these unknown histone-DNA samples as either strong or medium binders with 84.4% and 96.25% accuracy, respectively.",
+  "abstract_zh": "开发可扩展且准确的预测性分析方法，用于蛋白质-DNA结合的分类，对于推进我们对分子生物学、疾病机制以及广泛生物技术和医学应用的理解至关重要。研究发现，组蛋白-DNA相互作用可根据不同核蛋白溶液沉积在基底上产生的染色图案进行分层。在本研究中，应用深度学习神经网络对来自不同组蛋白-DNA混合物的干燥液滴沉积物的偏振光显微镜图像进行分类。这些DNA染色图案在不同物种间表现出高重现性，从而实现了全面的DNA分类（100%准确率）及其与组蛋白各自结合亲和力的准确预测。真核DNA与哺乳动物组蛋白的结合亲和力高于原核DNA，其总体预测准确率也更高。对于特定物种，平均预测准确率随DNA大小增加而提高。为展示泛化能力，一个预训练的卷积神经网络（CNN）被用于挑战来自训练集中未包含物种的DNA样本的未知图像。该CNN将这些未知的组蛋白-DNA样本分类为强结合或中等结合，准确率分别为84.4%和96.25%。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40213456/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40213456/",
+  "paper_page_path": "papers/pubmed/40213456/index.html"
+}

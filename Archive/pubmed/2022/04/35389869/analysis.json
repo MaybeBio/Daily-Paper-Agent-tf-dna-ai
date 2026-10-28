@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35389869",
+  "title": "Predicting the Sequence Specificities of DNA-Binding Proteins by DNA Fine-Tuned Language Model With Decaying Learning Rates.",
+  "authors": "He, Ying; Zhang, Qinhu; Wang, Siguo; Chen, Zhanheng; Cui, Zhen; Guo, Zhen-Hao; Huang, De-Shuang",
+  "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+  "published_date": "2022-04-08",
+  "window": {
+    "start": "2022-04-04",
+    "end": "2022-04-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用DNA微调语言模型DFLM预测DNA结合蛋白的序列特异性，核心是蛋白-DNA互作结合位点预测，方法为AI语言模型，高度契合TF-DNA结合预测课题。",
+  "abstract": "DNA-binding proteins (DBPs) play vital roles in the regulation of biological systems. Although there are already many deep learning methods for predicting the sequence specificities of DBPs, they face two challenges as follows. Classic deep learning methods for DBPs prediction usually fail to capture the dependencies between genomic sequences since their commonly used one-hot codes are mutually orthogonal. Besides, these methods usually perform poorly when samples are inadequate. To address these two challenges, we developed a novel language model for mining DBPs using human genomic data and ChIP-seq datasets with decaying learning rates, named DNA Fine-tuned Language Model (DFLM). It can capture the dependencies between genome sequences based on the context of human genomic data and then fine-tune the features of DBPs tasks using different ChIP-seq datasets. First, we compared DFLM with the existing widely used methods on 69 datasets and we achieved excellent performance. Moreover, we conducted comparative experiments on complex DBPs and small datasets. The results show that DFLM still achieved a significant improvement. Finally, through visualization analysis of one-hot encoding and DFLM, we found that one-hot encoding completely cut off the dependencies of DNA sequences themselves, while DFLM using language models can well represent the dependency of DNA sequences. Source code are available at: https://github.com/Deep-Bioinfo/DFLM.",
+  "abstract_zh": "DNA结合蛋白（DNA-binding proteins, DBPs）在生物系统的调控中发挥重要作用。尽管已有许多用于预测DBPs序列特异性的深度学习方法，但它们面临以下两个挑战。经典的DBPs预测深度学习方法通常无法捕捉基因组序列之间的依赖性，因为它们常用的独热编码（one-hot codes）是相互正交的。此外，这些方法在样本不足时通常表现不佳。为解决这两个挑战，我们开发了一种新颖的语言模型，利用人类基因组数据和带有衰减学习率的ChIP-seq数据集来挖掘DBPs，命名为DNA微调语言模型（DNA Fine-tuned Language Model, DFLM）。该模型能够基于人类基因组数据的上下文捕捉基因组序列之间的依赖性，然后使用不同的ChIP-seq数据集微调DBPs任务的特征。首先，我们在69个数据集上将DFLM与现有广泛使用的方法进行了比较，并取得了优异的性能。此外，我们在复杂DBPs和小型数据集上进行了对比实验。结果表明，DFLM仍然取得了显著改进。最后，通过对独热编码和DFLM的可视化分析，我们发现独热编码完全切断了DNA序列自身的依赖性，而使用语言模型的DFLM能够很好地表示DNA序列的依赖性。源代码可在以下网址获取：https://github.com/Deep-Bioinfo/DFLM。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35389869/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35389869/",
+  "paper_page_path": "papers/pubmed/35389869/index.html"
+}

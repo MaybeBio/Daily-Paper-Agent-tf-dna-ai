@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2510.22304v2",
+  "title": "ODesign: A World Model for Biomolecular Interaction Design",
+  "authors": "Odin Zhang; Xujun Zhang; Haitao Lin; Cheng Tan; Qinghan Wang; Yuanle Mo; Qiantai Feng; Gang Du; Yuntao Yu; Zichang Jin; Ziyi You; Peicong Lin; Yijie Zhang; Yuyang Tao; Shicheng Chen; Jack Xiaoyu Chen; Chenqing Hua; Weibo Zhao; Runze Ma; Yunpeng Xia; Kejun Ying; Jun Li; Yundian Zeng; Lijun Lang; Peichen Pan; Hanqun Cao; Zihao Song; Bo Qiang; Jiaqi Wang; Pengfei Ji; Lei Bai; Jian Zhang; Chang-yu Hsieh; Pheng Ann Heng; Siqi Sun; Tingjun Hou; Shuangjia Zheng",
+  "journal": "",
+  "published_date": "2025-10-25",
+  "window": {
+    "start": "2025-10-20",
+    "end": "2025-10-26"
+  },
+  "score": 7,
+  "one_liner_zh": "提出全原子生成世界模型ODesign，统一设计蛋白-核酸等跨模态生物分子互作，虽非专攻TF-DNA，但其蛋白-DNA结合设计与生成方法可迁移至转录因子结合体系研究。",
+  "abstract": "Biomolecular interactions underpin almost all biological processes, and their rational design is central to programming new biological functions. Generative AI models have emerged as powerful tools for molecular design, yet most remain specialized for individual molecular types and lack fine-grained control over interaction details. Here we present ODesign, an all-atom generative world model for all-to-all biomolecular interaction design. ODesign allows scientists to specify epitopes on arbitrary targets and generate diverse classes of binding partners with fine-grained control. Across entity-, token-, and atom-level benchmarks in the protein modality, ODesign demonstrates superior controllability and performance to modality-specific baselines. Extending beyond proteins, it generalizes to nucleic acid and small-molecule design, enabling interaction types such as protein-binding RNA/DNA and RNA/DNA-binding ligands that were previously inaccessible. By unifying multimodal biomolecular interactions within a single generative framework, ODesign moves toward a general-purpose molecular world model capable of programmable design. ODesign is available at https://odesign.lglab.ac.cn ,",
+  "abstract_zh": "生物分子相互作用支撑着几乎所有生物过程，其合理设计是编程新生物功能的核心。生成式AI模型已成为分子设计的强大工具，但大多数仍专精于单一分子类型，且缺乏对相互作用细节的精细控制。在此，我们提出ODesign，一个用于全对全生物分子相互作用设计的全原子生成世界模型。ODesign允许科学家在任意靶标上指定表位，并生成具有精细控制的多类结合伙伴。在蛋白质模态中的实体级、令牌级和原子级基准测试中，ODesign展示了优于模态特定基线的可控性和性能。超越蛋白质范畴，它泛化至核酸和小分子设计，实现了如蛋白质结合RNA/DNA及RNA/DNA结合配体等此前无法触及的相互作用类型。通过将多模态生物分子相互作用统一于单一生成框架中，ODesign迈向了一个能够进行可编程设计的通用分子世界模型。ODesign可在https://odesign.lglab.ac.cn获取。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2510.22304v2",
+  "source_url": "https://arxiv.org/abs/2510.22304v2",
+  "paper_page_path": "papers/arxiv/2510.22304v2/index.html"
+}

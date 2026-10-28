@@ -1,0 +1,639 @@
+{
+  "identity": {
+    "pmid": "34650237",
+    "doi": "10.1038/s41588-021-00947-3",
+    "title": "The dynamic, combinatorial cis-regulatory lexicon of epidermal differentiation."
+  },
+  "content": {
+    "abstract": "Transcription factors bind DNA sequence motif vocabularies in cis-regulatory elements (CREs) to modulate chromatin state and gene expression during cell state transitions. A quantitative understanding of how motif lexicons influence dynamic regulatory activity has been elusive due to the combinatorial nature of the cis-regulatory code. To address this, we undertook multiomic data profiling of chromatin and expression dynamics across epidermal differentiation to identify 40,103 dynamic CREs associated with 3,609 dynamically expressed genes, then applied an interpretable deep-learning framework to model the cis-regulatory logic of chromatin accessibility. This analysis framework identified cooperative DNA sequence rules in dynamic CREs regulating synchronous gene modules with diverse roles in skin differentiation. Massively parallel reporter assay analysis validated temporal dynamics and cooperative cis-regulatory logic. Variants linked to human polygenic skin disease were enriched in these time-dependent combinatorial motif rules. This integrative approach shows the combinatorial cis-regulatory lexicon of epidermal differentiation and represents a general framework for deciphering the organizational principles of the cis-regulatory code of dynamic gene regulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Cell Differentiation/genetics",
+      "Chromatin/genetics",
+      "Epidermis/*physiology",
+      "Epigenome",
+      "Gene Expression Regulation",
+      "Genes, Reporter",
+      "Genome-Wide Association Study",
+      "Humans",
+      "Keratinocytes/cytology/physiology",
+      "*Models, Genetic",
+      "Neural Networks, Computer",
+      "*Regulatory Elements, Transcriptional",
+      "Skin Diseases/genetics",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Daniel S",
+        "Risca, Viviana I",
+        "Reynolds, David L",
+        "Chappell, James",
+        "Rubin, Adam J",
+        "Jung, Namyoung",
+        "Donohue, Laura K H",
+        "Lopez-Pajares, Vanessa",
+        "Kathiria, Arwa",
+        "Shi, Minyi",
+        "Zhao, Zhixin",
+        "Deep, Harsh",
+        "Sharmin, Mahfuza",
+        "Rao, Deepti",
+        "Lin, Shin",
+        "Chang, Howard Y",
+        "Snyder, Michael P",
+        "Greenleaf, William J",
+        "Kundaje, Anshul",
+        "Khavari, Paul A"
+      ],
+      "short_names": [
+        "Kim DS",
+        "Risca VI",
+        "Reynolds DL",
+        "Chappell J",
+        "Rubin AJ",
+        "Jung N",
+        "Donohue LKH",
+        "Lopez-Pajares V",
+        "Kathiria A",
+        "Shi M",
+        "Zhao Z",
+        "Deep H",
+        "Sharmin M",
+        "Rao D",
+        "Lin S",
+        "Chang HY",
+        "Snyder MP",
+        "Greenleaf WJ",
+        "Kundaje A",
+        "Khavari PA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1346-2840",
+        "ORCID: 0000-0002-9459-4393",
+        "ORCID: 0000-0003-0784-7987",
+        "ORCID: 0000-0003-1409-3095",
+        "ORCID: 0000-0003-0098-4989"
+      ],
+      "affiliations": [
+        "Program in Epithelial Biology, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Program in Biomedical Informatics, Stanford University, Stanford, CA, USA.",
+        "Laboratory of Genome Architecture and Dynamics, The Rockefeller University, New York, NY, USA.",
+        "Program in Epithelial Biology, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Broad Institute of Harvard and MIT, Cambridge, MA, USA.",
+        "Program in Epithelial Biology, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Program in Epithelial Biology, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Program in Epithelial Biology, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA.",
+        "The Harker School, San Jose, CA, USA.",
+        "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Program in Epithelial Biology, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Department of Medicine, University of Washington, Seattle, WA, USA.",
+        "Program in Epithelial Biology, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Center for Personal Dynamic Regulomes, Stanford University, Stanford, CA, USA.",
+        "Program in Cancer Biology, Stanford University, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA.",
+        "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA. wjg@stanford.edu.",
+        "Center for Personal Dynamic Regulomes, Stanford University, Stanford, CA, USA. wjg@stanford.edu.",
+        "Department of Applied Physics, Stanford University, Stanford, CA, USA. wjg@stanford.edu.",
+        "Program in Biomedical Informatics, Stanford University, Stanford, CA, USA. akundaje@stanford.edu.",
+        "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA. akundaje@stanford.edu.",
+        "Department of Computer Science, Stanford University, Stanford, CA, USA. akundaje@stanford.edu.",
+        "Program in Epithelial Biology, Stanford University School of Medicine, Stanford, CA, USA. khavari@stanford.edu.",
+        "Program in Cancer Biology, Stanford University, Stanford, CA, USA. khavari@stanford.edu.",
+        "Veterans Affairs Palo Alto Healthcare System, Palo Alto, CA, USA. khavari@stanford.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Daniel S",
+        "short_name": "Kim DS",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Epithelial Biology, Stanford University School of Medicine, Stanford, CA, USA.",
+          "Program in Biomedical Informatics, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Risca, Viviana I",
+        "short_name": "Risca VI",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Genome Architecture and Dynamics, The Rockefeller University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Reynolds, David L",
+        "short_name": "Reynolds DL",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Epithelial Biology, Stanford University School of Medicine, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Chappell, James",
+        "short_name": "Chappell J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Rubin, Adam J",
+        "short_name": "Rubin AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of Harvard and MIT, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Jung, Namyoung",
+        "short_name": "Jung N",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Epithelial Biology, Stanford University School of Medicine, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Donohue, Laura K H",
+        "short_name": "Donohue LKH",
+        "identifiers": [
+          "0000-0002-1346-2840"
+        ],
+        "affiliations": [
+          "Program in Epithelial Biology, Stanford University School of Medicine, Stanford, CA, USA.",
+          "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Lopez-Pajares, Vanessa",
+        "short_name": "Lopez-Pajares V",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Epithelial Biology, Stanford University School of Medicine, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kathiria, Arwa",
+        "short_name": "Kathiria A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Shi, Minyi",
+        "short_name": "Shi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zhixin",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Deep, Harsh",
+        "short_name": "Deep H",
+        "identifiers": [],
+        "affiliations": [
+          "The Harker School, San Jose, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sharmin, Mahfuza",
+        "short_name": "Sharmin M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Rao, Deepti",
+        "short_name": "Rao D",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Epithelial Biology, Stanford University School of Medicine, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Shin",
+        "short_name": "Lin S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Chang, Howard Y",
+        "short_name": "Chang HY",
+        "identifiers": [
+          "0000-0002-9459-4393"
+        ],
+        "affiliations": [
+          "Program in Epithelial Biology, Stanford University School of Medicine, Stanford, CA, USA.",
+          "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA.",
+          "Center for Personal Dynamic Regulomes, Stanford University, Stanford, CA, USA.",
+          "Program in Cancer Biology, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Snyder, Michael P",
+        "short_name": "Snyder MP",
+        "identifiers": [
+          "0000-0003-0784-7987"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Greenleaf, William J",
+        "short_name": "Greenleaf WJ",
+        "identifiers": [
+          "0000-0003-1409-3095"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA. wjg@stanford.edu.",
+          "Center for Personal Dynamic Regulomes, Stanford University, Stanford, CA, USA. wjg@stanford.edu.",
+          "Department of Applied Physics, Stanford University, Stanford, CA, USA. wjg@stanford.edu."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Biomedical Informatics, Stanford University, Stanford, CA, USA. akundaje@stanford.edu.",
+          "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA. akundaje@stanford.edu.",
+          "Department of Computer Science, Stanford University, Stanford, CA, USA. akundaje@stanford.edu."
+        ]
+      },
+      {
+        "full_name": "Khavari, Paul A",
+        "short_name": "Khavari PA",
+        "identifiers": [
+          "0000-0003-0098-4989"
+        ],
+        "affiliations": [
+          "Program in Epithelial Biology, Stanford University School of Medicine, Stanford, CA, USA. khavari@stanford.edu.",
+          "Program in Cancer Biology, Stanford University, Stanford, CA, USA. khavari@stanford.edu.",
+          "Veterans Affairs Palo Alto Healthcare System, Palo Alto, CA, USA. khavari@stanford.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature genetics"
+    ],
+    "journal_abbrev": [
+      "Nat Genet"
+    ],
+    "pub_date": "2021 Nov",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/16 06:00",
+    "fetched_at": "2026-09-28 00:48:48"
+  },
+  "links": {
+    "cites": [
+      "42599993",
+      "42348677",
+      "41951735",
+      "41809347",
+      "41332771",
+      "41252157",
+      "41040139",
+      "40998781",
+      "40881170",
+      "40812470",
+      "40780181",
+      "40777328",
+      "40667078",
+      "40626041",
+      "40441291",
+      "40191531",
+      "40174587",
+      "40120584",
+      "40060693",
+      "39948336",
+      "39829783",
+      "39814889",
+      "39811494",
+      "39764852",
+      "39565212",
+      "39443793",
+      "39282369",
+      "38940172",
+      "38766054",
+      "38519806",
+      "38402585",
+      "38124496",
+      "38102126",
+      "38086418",
+      "37873116",
+      "37857935",
+      "37792708",
+      "37609287",
+      "37557175",
+      "37533313",
+      "37500727",
+      "37324054",
+      "37007588",
+      "36993734",
+      "36742369",
+      "36708949",
+      "36695505",
+      "36693380",
+      "36636081",
+      "36608661",
+      "36404679",
+      "36277849",
+      "35931322",
+      "35720938",
+      "35710610",
+      "35551305",
+      "35327980",
+      "34370721"
+    ],
+    "refs": [
+      "33603233",
+      "33284110",
+      "32978299",
+      "32848148",
+      "32728250",
+      "31701148",
+      "31291818",
+      "30971806",
+      "30808370",
+      "30580963",
+      "30423062",
+      "29855537",
+      "29632380",
+      "29618526",
+      "29588361",
+      "29337990",
+      "29220666",
+      "29140464",
+      "28805829",
+      "28111071",
+      "28110180",
+      "27794045",
+      "27197224",
+      "27155014",
+      "26974661",
+      "26482879",
+      "26472909",
+      "26414678",
+      "26301843",
+      "26213851",
+      "25805135",
+      "25693563",
+      "25658369",
+      "25516281",
+      "25480375",
+      "25228645",
+      "25215497",
+      "25033408",
+      "24950209",
+      "24913666",
+      "24823795",
+      "23892608",
+      "23141808",
+      "22868264",
+      "22829784",
+      "22609971",
+      "22364861",
+      "21860392",
+      "21859476",
+      "21317239",
+      "20833320",
+      "20513432",
+      "19749746",
+      "19303854",
+      "18628393",
+      "17114587",
+      "16880407",
+      "16751772",
+      "16636146",
+      "16199517",
+      "15803139",
+      "10588870",
+      "10431239",
+      "8565831",
+      "8548797",
+      "6277502"
+    ],
+    "similar": [
+      "34650237",
+      "36742369",
+      "25442502",
+      "31533978",
+      "25944915",
+      "36708949",
+      "28863138",
+      "36693380",
+      "30078726",
+      "33134611",
+      "28119334",
+      "26034101",
+      "28204611",
+      "33964211",
+      "27050947",
+      "24468747",
+      "23554462",
+      "25624274",
+      "30016497",
+      "26551942",
+      "31682597",
+      "32133495",
+      "39026229",
+      "33874910",
+      "17535887",
+      "38715516",
+      "28335009",
+      "9114819",
+      "21849619",
+      "37425940",
+      "28576882",
+      "25303887",
+      "28186503",
+      "30661741",
+      "29105538",
+      "38724692",
+      "19289091",
+      "21874443",
+      "14694093",
+      "33046126",
+      "26772747",
+      "27091612",
+      "38631728",
+      "36777038",
+      "31884638",
+      "32043966",
+      "34699533",
+      "30423062",
+      "26327607",
+      "28193859",
+      "16645595",
+      "29996889",
+      "25521507",
+      "21441907",
+      "22305161",
+      "21069662",
+      "19890324",
+      "26673387",
+      "22934649",
+      "16417217",
+      "16232312",
+      "39014503",
+      "38358392",
+      "31740772",
+      "29176792",
+      "26072432",
+      "16738557",
+      "14675197",
+      "24245687",
+      "19074951",
+      "32994224",
+      "23547873",
+      "25551786",
+      "21637747",
+      "28411854",
+      "29030344",
+      "27208706",
+      "36522450",
+      "14691458",
+      "35604124",
+      "17653270",
+      "30139769",
+      "27490187",
+      "25887857",
+      "21039975",
+      "37824614",
+      "24972496",
+      "35976093",
+      "12971721",
+      "29945882",
+      "31510655",
+      "36563664",
+      "25218861",
+      "37872110",
+      "39199333",
+      "23141808",
+      "37292820",
+      "35705328",
+      "36068320",
+      "36493778",
+      "38093018",
+      "35648859",
+      "37331209",
+      "37609287",
+      "36945371",
+      "38853896",
+      "38693260",
+      "36635387",
+      "36758547",
+      "30451991",
+      "37577603",
+      "39005400",
+      "34524848",
+      "37503240",
+      "39026761",
+      "18981421",
+      "38316783",
+      "34179082",
+      "39284975",
+      "12702751",
+      "37045617",
+      "38915583"
+    ],
+    "review": [
+      "34650237",
+      "36693380",
+      "25624274",
+      "26551942",
+      "38715516",
+      "9114819",
+      "29105538",
+      "31884638",
+      "22305161",
+      "21069662",
+      "26673387",
+      "22934649",
+      "26072432",
+      "24245687",
+      "28411854",
+      "27208706",
+      "12971721",
+      "25218861",
+      "37872110",
+      "39199333",
+      "23141808",
+      "38093018",
+      "37331209",
+      "34179082"
+    ],
+    "pmc": [
+      "8763320"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41588-021-00947-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34650237/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34650237",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse181392",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

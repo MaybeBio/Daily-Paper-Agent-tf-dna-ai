@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37821907",
+  "title": "Identification of characteristic genes and construction of regulatory network in gallbladder carcinoma.",
+  "authors": "Shao, Hanrui; Zhu, Jiahai; Zhu, Ya; Liu, Lixin; Zhao, Songling; Kang, Qiang; Liu, Yunxia; Zou, Hao",
+  "journal": "BMC medical genomics",
+  "published_date": "2023-10-12",
+  "window": {
+    "start": "2023-10-09",
+    "end": "2023-10-15"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于GEO数据构建胆囊癌ceRNA调控网络并预测转录因子网络，但核心是miRNA表达与调控，无蛋白质-DNA互作建模或AI/物理模拟方法，仅边缘相关。",
+  "abstract": "BACKGROUND: Gallbladder carcinoma (GBC) is a highly malignant tumor with a poor overall prognosis. This study aimed to identify the characteristic microRNAs (miRNAs) of GBC and the competing endogenous RNA (ceRNA) regulatory mechanisms. METHODS: The microarray data of GBC tissue samples and normal gallbladder (NGB) tissue samples from the Gene Expression Omnibus (GEO) database was downloaded. GBC-related differentially expressed miRNAs (DE-miRNAs) were identified by inter-group differential expression analysis and weighted gene co-expression network analysis (WGCNA). Machine learning algorithms were used to screen the characteristic miRNA based on the intersect between least absolute shrinkage and selection operator (LASSO) and Support vector machine-recursive feature elimination (SVM-RFE). Based on the differential expression analysis of GEO database, the ceRNA network of characteristic miRNA was predicted and constructed. The biological functions of the ceRNA network were revealed by carrying out the gene enrichment analysis was implemented. We further screened the key genes of ceRNA network and constructed a protein-protein interaction (PPI) network, and predicted and generated the transcription factors (TFs) network of signature miRNAs. The expression of characteristic miRNA in clinical samples was verified by quantitative real-time polymerase chain reaction (qRT-PCR). RESULTS: A total of 131 GBC-related DE-miRNAs were obtained. The hsa-miR-4770 was defined as characteristic miRNA for GBC. The ceRNA network containing 211 mRNAs, one miRNA, two lncRNAs, and 48 circRNAs was created. Gene enrichment analysis suggested that the downstream genes were mainly involved in actin filament organization, cell-substrate adhesion, cell-matrix adhesion, reactive oxygen species metabolic process, glutamine metabolic process and extracellular matrix (ECM)-receptor interaction pathway. 10 key genes in the network were found to be most correlated with disease, and involved in cell cycle-related processes, p53, and extrinsic apoptotic signaling pathways. The qRT-PCR result demonstrated that hsa-miR-4770 is down-regulated in GBC, and the expression trend is consistent with the public database. CONCLUSIONS: We identified hsa-miR-4770 as the characteristic miRNA for GBC. The ceRNA network of hsa-miR-4770 may play key roles in GBC. This study provided some basis for potential pathogenesis of GBC.",
+  "abstract_zh": "背景：胆囊癌（GBC）是一种高度恶性肿瘤，总体预后较差。本研究旨在识别GBC的特征性微小RNA（miRNAs）及竞争性内源RNA（ceRNA）调控机制。方法：从基因表达综合（GEO）数据库下载GBC组织样本和正常胆囊（NGB）组织样本的微阵列数据。通过组间差异表达分析和加权基因共表达网络分析（WGCNA）识别GBC相关的差异表达miRNAs（DE-miRNAs）。基于最小绝对收缩和选择算子（LASSO）与支持向量机递归特征消除（SVM-RFE）的交集，使用机器学习算法筛选特征性miRNA。基于GEO数据库的差异表达分析，预测并构建特征性miRNA的ceRNA网络。通过实施基因富集分析揭示ceRNA网络的生物学功能。我们进一步筛选ceRNA网络的关键基因并构建蛋白质-蛋白质相互作用（PPI）网络，预测并生成特征性miRNAs的转录因子（TFs）网络。通过定量实时聚合酶链反应（qRT-PCR）验证临床样本中特征性miRNA的表达。结果：共获得131个GBC相关的DE-miRNAs。hsa-miR-4770被定义为GBC的特征性miRNA。构建了包含211个mRNAs、1个miRNA、2个lncRNAs和48个circRNAs的ceRNA网络。基因富集分析表明，下游基因主要涉及肌动蛋白丝组织、细胞-底物粘附、细胞-基质粘附、活性氧代谢过程、谷氨酰胺代谢过程和细胞外基质（ECM）-受体相互作用通路。发现网络中的10个关键基因与疾病相关性最强，并涉及细胞周期相关过程、p53和外源性凋亡信号通路。qRT-PCR结果表明，hsa-miR-4770在GBC中下调，且表达趋势与公共数据库一致。结论：我们确定hsa-miR-4770为GBC的特征性miRNA。hsa-miR-4770的ceRNA网络可能在GBC中发挥关键作用。本研究为GBC的潜在发病机制提供了一定基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37821907/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37821907/",
+  "paper_page_path": "papers/pubmed/37821907/index.html"
+}

@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "38175691",
+    "doi": "10.18632/aging.205357",
+    "title": "Identification of aging-related genes in diagnosing osteoarthritis via integrating bioinformatics analysis and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteoarthritis (OA) is one of the main causes of pain and disability in the world, it may be caused by many factors. Aging plays a significant role in the onset and progression of OA. However, the mechanisms underlying it remain unknown. Our research aimed to uncover the role of aging-related genes in the progression of OA. METHODS: In Human OA datasets and aging-related genes were obtained from the GEO database and the HAGR website, respectively. Bioinformatics methods including Gene Ontology (GO), Kyoto Encyclopedia of Genes Genomes (KEGG) pathway enrichment, and Protein-protein interaction (PPI) network analysis were used to analyze differentially expressed aging-related genes (DEARGs) in the normal control group and the OA group. And then weighted gene coexpression network analysis (WGCNA), the least absolute shrinkage and selection operator (LASSO) regression, and the Random Forest (RF) machine learning algorithms were used to find the hub genes. RESULTS: Four overlapping hub genes: HMGB2, CDKN1A, JUN, and DDIT3 were identified. According to the nomogram model and receiver operating characteristic (ROC) curve analysis, four hub DEARGs had good diagnostic value in distinguishing normal from OA. Furthermore, the qRT-PCR test demonstrated that HMGB2, CDKN1A, JUN, and DDIT3 mRNA expression levels were lower in OA group than in normal group. CONCLUSION: Finally, these four-hub aging-related genes may help us understand the underlying mechanism of aging in osteoarthritis and could be used as possible diagnostic and therapeutic targets.",
+    "keywords": [
+      "aging-related genes",
+      "bioinformatics analysis",
+      "machine learning algorithms",
+      "osteoarthritis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*HMGB2 Protein",
+      "Computational Biology",
+      "Machine Learning",
+      "*Osteoarthritis/diagnosis/genetics",
+      "Aging/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Jian",
+        "Zhou, Jiangfei",
+        "Xue, Xiang",
+        "Dai, Tianming",
+        "Zhu, Weicong",
+        "Jiao, Songsong",
+        "Wu, Hang",
+        "Meng, Qingqi"
+      ],
+      "short_names": [
+        "Huang J",
+        "Zhou J",
+        "Xue X",
+        "Dai T",
+        "Zhu W",
+        "Jiao S",
+        "Wu H",
+        "Meng Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guangzhou Institute of Traumatic Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou 510220, China.",
+        "Department of Traumatic Orthopedics, The Central Hospital of Xiaogan, Hubei 432100, China.",
+        "Department of Orthopedics, Guangzhou Red Cross Hospital of Jinan University, Guangzhou 510220, China.",
+        "Department of Orthopedics, Guangzhou Red Cross Hospital of Jinan University, Guangzhou 510220, China.",
+        "Guangzhou Institute of Traumatic Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou 510220, China.",
+        "Guangzhou Institute of Traumatic Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou 510220, China.",
+        "Department of Orthopedics, Guangzhou Red Cross Hospital of Jinan University, Guangzhou 510220, China.",
+        "Department of Traumatic Orthopedics, The Central Hospital of Xiaogan, Hubei 432100, China.",
+        "Guangzhou Institute of Traumatic Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou 510220, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Jian",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Institute of Traumatic Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou 510220, China.",
+          "Department of Traumatic Orthopedics, The Central Hospital of Xiaogan, Hubei 432100, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jiangfei",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Guangzhou Red Cross Hospital of Jinan University, Guangzhou 510220, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Xiang",
+        "short_name": "Xue X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Guangzhou Red Cross Hospital of Jinan University, Guangzhou 510220, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Tianming",
+        "short_name": "Dai T",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Institute of Traumatic Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou 510220, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Weicong",
+        "short_name": "Zhu W",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Institute of Traumatic Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou 510220, China."
+        ]
+      },
+      {
+        "full_name": "Jiao, Songsong",
+        "short_name": "Jiao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Guangzhou Red Cross Hospital of Jinan University, Guangzhou 510220, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hang",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traumatic Orthopedics, The Central Hospital of Xiaogan, Hubei 432100, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Qingqi",
+        "short_name": "Meng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Institute of Traumatic Surgery, Guangzhou Red Cross Hospital of Jinan University, Guangzhou 510220, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Aging"
+    ],
+    "journal_abbrev": [
+      "Aging (Albany NY)"
+    ],
+    "pub_date": "2024 Jan 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/04 12:42",
+    "fetched_at": "2026-09-29 12:57:22"
+  },
+  "links": {
+    "cites": [
+      "41760060",
+      "41595435",
+      "41477642",
+      "40842856",
+      "40701777",
+      "40073065",
+      "39935693"
+    ],
+    "refs": [
+      "35922662",
+      "35847663",
+      "35615282",
+      "35361964",
+      "35353555",
+      "35211155",
+      "35159393",
+      "35096968",
+      "35069971",
+      "34934171",
+      "34706873",
+      "34680084",
+      "34576125",
+      "34308759",
+      "34298194",
+      "34131243",
+      "34116024",
+      "34093570",
+      "34087318",
+      "34031369",
+      "33855023",
+      "33237311",
+      "33208917",
+      "33199631",
+      "32772002",
+      "32578904",
+      "31646013",
+      "31034380",
+      "30944169",
+      "30933975",
+      "30662442",
+      "30496104",
+      "30395331",
+      "29988130",
+      "29121237",
+      "28436958",
+      "28128866",
+      "28124466",
+      "27845261",
+      "27799366",
+      "27539668",
+      "26546411",
+      "25846097",
+      "25748615",
+      "25605792",
+      "24315690",
+      "23746838",
+      "22455463",
+      "21482118",
+      "20300111",
+      "19139395",
+      "19114008",
+      "18954998",
+      "15260977",
+      "10592173",
+      "10072388",
+      "9069263",
+      "9044528",
+      "8242751"
+    ],
+    "similar": [
+      "38175691",
+      "37503333",
+      "37454542",
+      "38292759",
+      "38645862",
+      "38127891",
+      "37138862",
+      "38767974",
+      "36969166",
+      "38090564",
+      "37986345",
+      "38509535",
+      "35473522",
+      "36468029",
+      "39086489",
+      "39142001",
+      "39026663",
+      "37760894",
+      "39364223",
+      "37866944",
+      "35865542",
+      "38755717",
+      "35211155",
+      "33555399",
+      "38734758",
+      "35860189",
+      "39263286",
+      "39139563",
+      "35381129",
+      "36929359",
+      "36470144",
+      "30186872",
+      "34949204",
+      "38428406",
+      "37179305",
+      "31960487",
+      "34113405",
+      "34583778",
+      "39375405",
+      "37008941",
+      "36660690",
+      "38260098",
+      "37904220",
+      "34616175",
+      "38951833",
+      "38867322",
+      "38310567",
+      "36389665",
+      "39282111",
+      "36106017",
+      "38371524",
+      "38711508",
+      "36845391",
+      "34224029",
+      "36082523",
+      "39396400",
+      "33420869",
+      "29344651",
+      "36823662",
+      "35958412",
+      "34736376",
+      "33855867",
+      "38463824",
+      "39377750",
+      "38831425",
+      "38774079",
+      "37805587",
+      "34340232",
+      "36819525",
+      "39216434",
+      "30551734",
+      "39176085",
+      "39403102",
+      "39173977",
+      "38650009",
+      "37837870",
+      "38423139",
+      "36685864",
+      "36968495",
+      "31886203",
+      "35996406",
+      "38741149",
+      "38544384",
+      "35783271",
+      "32135469",
+      "37382793",
+      "36186471",
+      "39297544",
+      "35278479",
+      "32342805",
+      "35651940",
+      "34814332",
+      "36225941",
+      "37974210",
+      "38293780",
+      "35996248",
+      "32255771",
+      "33732303",
+      "35733917",
+      "37283761"
+    ],
+    "review": [
+      "38175691",
+      "34340232"
+    ],
+    "pmc": [
+      "10817387"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.aging-us.com/full/205357",
+        "provider": "Impact Journals, LLC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38175691/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38175691",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-DDIT3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

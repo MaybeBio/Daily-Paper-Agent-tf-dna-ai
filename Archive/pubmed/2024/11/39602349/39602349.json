@@ -1,0 +1,431 @@
+{
+  "identity": {
+    "pmid": "39602349",
+    "doi": "10.1049/syb2.12106",
+    "title": "Identification of CCR7 and CBX6 as key biomarkers in abdominal aortic aneurysm: Insights from multi-omics data and machine learning analysis."
+  },
+  "content": {
+    "abstract": "Abdominal aortic aneurysm (AAA) is a severe vascular condition, marked by the progressive dilation of the abdominal aorta, leading to rupture if untreated. The objective of this study was to identify key biomarkers and decipher the immune mechanisms underlying AAA utilising multi-omics data analysis and machine learning techniques. Single-cell RNA sequencing disclosed a heightened presence of macrophages and CD8-positive alpha-beta T cells in AAA, highlighting their critical role in disease pathogenesis. Analysis of cell-cell communication highlighted augmented interactions between macrophages and dendritic cells derived from monocytes. Enrichment analysis of differential expression gene indicated substantial involvement of immune and metabolic pathways in AAA pathogenesis. Machine learning techniques identified CCR7 and CBX6 as key candidate biomarkers. In AAA, CCR7 expression is upregulated, whereas CBX6 expression is downregulated, both showing significant correlations with immune cell infiltration. These findings provide valuable insights into the molecular mechanisms underlying AAA and suggest potential biomarkers for diagnosis and therapeutic intervention.",
+    "keywords": [
+      "bioinformatics",
+      "data analysis",
+      "data mining",
+      "diseases",
+      "support vector machines"
+    ],
+    "mesh_terms": [
+      "*Receptors, CCR7/metabolism/genetics",
+      "*Aortic Aneurysm, Abdominal/metabolism/genetics",
+      "*Biomarkers/metabolism",
+      "Humans",
+      "*Machine Learning",
+      "Male",
+      "Polycomb Repressive Complex 1/metabolism/genetics",
+      "Macrophages/metabolism",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yong, Xi",
+        "Hu, Xuerui",
+        "Kang, Tengyao",
+        "Deng, Yanpiao",
+        "Li, Sixuan",
+        "Yu, Shuihan",
+        "Hou, Yani",
+        "You, Jin",
+        "Dai, Xiaohe",
+        "Zhang, Jialin",
+        "Zhang, Junjia",
+        "Zhou, Junlin",
+        "Zhang, Siyu",
+        "Zheng, Jianghua",
+        "Yang, Qin",
+        "Li, Jingdong"
+      ],
+      "short_names": [
+        "Yong X",
+        "Hu X",
+        "Kang T",
+        "Deng Y",
+        "Li S",
+        "Yu S",
+        "Hou Y",
+        "You J",
+        "Dai X",
+        "Zhang J",
+        "Zhang J",
+        "Zhou J",
+        "Zhang S",
+        "Zheng J",
+        "Yang Q",
+        "Li J"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-7058-2787"
+      ],
+      "affiliations": [
+        "Department of Vascular Surgery, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "The First Affiliated Hospital, Jinan University, Guangzhou, China.",
+        "Hepatobiliary, Pancreatic and Intestinal Research Institute of North Sichuan Medical College, Nanchong, China.",
+        "Department of Endocrine, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "Department of Vascular Surgery, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China.",
+        "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China.",
+        "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China.",
+        "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China.",
+        "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China.",
+        "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China.",
+        "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China.",
+        "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China.",
+        "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China.",
+        "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China.",
+        "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China.",
+        "Department of Vascular Surgery, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China.",
+        "Department of Infectious Diseases, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+        "Hepatobiliary, Pancreatic and Intestinal Research Institute of North Sichuan Medical College, Nanchong, China.",
+        "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yong, Xi",
+        "short_name": "Yong X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+          "The First Affiliated Hospital, Jinan University, Guangzhou, China.",
+          "Hepatobiliary, Pancreatic and Intestinal Research Institute of North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Xuerui",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrine, Affiliated Hospital of North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Tengyao",
+        "short_name": "Kang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+          "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Yanpiao",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Sixuan",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Shuihan",
+        "short_name": "Yu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Yani",
+        "short_name": "Hou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "You, Jin",
+        "short_name": "You J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Xiaohe",
+        "short_name": "Dai X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jialin",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Junjia",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Junlin",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Siyu",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Jianghua",
+        "short_name": "Zheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vascular Surgery, Affiliated Hospital of North Sichuan Medical College, Nanchong, China.",
+          "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Qin",
+        "short_name": "Yang Q",
+        "identifiers": [
+          "0009-0004-7058-2787"
+        ],
+        "affiliations": [
+          "Department of Infectious Diseases, Affiliated Hospital of North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jingdong",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Hepatobiliary, Pancreatic and Intestinal Research Institute of North Sichuan Medical College, Nanchong, China.",
+          "Department of Clinical Medicine, North Sichuan Medical College, Nanchong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IET systems biology"
+    ],
+    "journal_abbrev": [
+      "IET Syst Biol"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/27 18:25",
+    "fetched_at": "2026-09-30 06:55:48"
+  },
+  "links": {
+    "cites": [
+      "40995065"
+    ],
+    "refs": [
+      "39156571",
+      "38978014",
+      "38621436",
+      "38602457",
+      "38459036",
+      "38298505",
+      "38022704",
+      "37924118",
+      "37871773",
+      "37869261",
+      "37850427",
+      "37223479",
+      "36849879",
+      "36189903",
+      "35745168",
+      "34777635",
+      "34698377",
+      "34331449",
+      "33779682",
+      "33472403",
+      "32678909",
+      "32499639",
+      "31973949",
+      "30944313",
+      "29528779",
+      "29439675",
+      "28412911",
+      "28406184",
+      "25822800",
+      "24529146",
+      "20630687",
+      "19623057",
+      "18281050",
+      "17548742",
+      "15866312",
+      "12722777",
+      "10493476"
+    ],
+    "similar": [
+      "39602349",
+      "40105795",
+      "39512836",
+      "35769488",
+      "39103059",
+      "39173977",
+      "34777635",
+      "38785203",
+      "38867262",
+      "32678909",
+      "38431726",
+      "36341412",
+      "40140755",
+      "39508893",
+      "39051127",
+      "39723205",
+      "39239552",
+      "39600608",
+      "38981221",
+      "35447046",
+      "29439675",
+      "39658102",
+      "36186997",
+      "37999728",
+      "32805313",
+      "20488324",
+      "27358138",
+      "35381314",
+      "32787523",
+      "38836630",
+      "36187757",
+      "38335213",
+      "39234237",
+      "39697792",
+      "38797690",
+      "32164451",
+      "40314374",
+      "37817423",
+      "38070790",
+      "32212850",
+      "32354235",
+      "39737187",
+      "31479773",
+      "38686580",
+      "29880489",
+      "38452983",
+      "25349182",
+      "33472403",
+      "32278833",
+      "39206541",
+      "39588646",
+      "35451888",
+      "24876351",
+      "39823264",
+      "31553078",
+      "35149342",
+      "24439319",
+      "40213658",
+      "26941015",
+      "30567485",
+      "39608739",
+      "39601144",
+      "23316282",
+      "38557060",
+      "29507647",
+      "36158807",
+      "38922800",
+      "34637689",
+      "25944698",
+      "28912007",
+      "39568082",
+      "34323424",
+      "26338301",
+      "31730405",
+      "27126477",
+      "39586133",
+      "31989839",
+      "39507054",
+      "32434199",
+      "34495251",
+      "36017103",
+      "33407182",
+      "33147994",
+      "33362847",
+      "27912196",
+      "40301103",
+      "36183323",
+      "38022704",
+      "28381776",
+      "34379797",
+      "40244438",
+      "30004237",
+      "37569462",
+      "27318834",
+      "26346005",
+      "36737385",
+      "40296690",
+      "15886670",
+      "25550400",
+      "38957433"
+    ],
+    "review": [
+      "39602349",
+      "37817423"
+    ],
+    "pmc": [
+      "11665846"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39602349/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1049/syb2.12106",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

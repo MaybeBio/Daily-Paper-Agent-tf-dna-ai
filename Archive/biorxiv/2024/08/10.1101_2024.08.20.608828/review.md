@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, dataset construction, dataset structure, statistics, benchmark, implementation, results, discussion, alternative metrics, conclusion, availability, competing interests, author contributions, acknowledgments, footnotes)
+- **Assessment boundary** Scientific and technical evaluation of the dataset construction methodology, benchmark design, baseline experiments, and claims made in the manuscript. No evaluation of code or data availability beyond what is stated.
+- **Shared manuscript claim summary** The authors introduce CryptoBench, a dataset of cryptic protein-ligand binding sites derived from apo-holo pairs in AHoJ-DB, filtered by pocket RMSD ≥ 2 Å, clustered by sequence identity, and provided with predefined train-test and cross-validation splits. They report baseline results showing that a sequence-based neural network using ESM2-3B embeddings outperforms PocketMiner and P2Rank on key metrics.
+- **Visible evidence base** Abstract, Introduction, Dataset Construction, Dataset Structure, Statistics, CryptoBench benchmark, Protein language model classifier implementation, Results, Discussion, Alternative Crypticity Metrics, Conclusion, Availability, Competing interests, Author contributions, Acknowledgments, Footnotes. Figures 1, 2, 4, 5, 6, 7, 8 are referenced but not visible. Tables 1, 2, 3, 4 are referenced but not visible. Supplementary material is referenced but not provided.
+- **Missing materials affecting confidence** Figures 1, 2, 4, 5, 6, 7, 8; Tables 1, 2, 3, 4; all supplementary material (including sections 6 and 7); the CryptoBench dataset itself; code for the pLM-NN model; details of the hyperparameter search results; the PocketMiner and P2Rank prediction outputs.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant gap in the field of binding site prediction by introducing a large-scale dataset of cryptic binding sites with a clear, reproducible filtering pipeline. The use of AHoJ-DB as a foundation is sensible, and the definition of crypticity based on pocket RMSD is pragmatic. However, the manuscript has several significant weaknesses. The baseline evaluation is incomplete and potentially unfair, particularly regarding the comparison with PocketMiner and P2Rank, which were not retrained on CryptoBench. The exclusion of a large fraction of the test set for PocketMiner evaluation raises concerns about the representativeness of the comparison. The lack of visible figures and tables prevents full assessment of the data quality and results. The discussion of alternative crypticity metrics is brief and lacks quantitative support. Overall, the dataset itself may be a valuable contribution, but the current manuscript does not fully establish its utility or the validity of the baseline comparisons.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-ligand binding site prediction, particularly those interested in cryptic sites and their role in drug discovery. Researchers developing machine learning methods for protein function prediction would also find the dataset and benchmark useful. The work may also be of interest to structural biologists studying conformational changes upon ligand binding.
+- **Major strengths** 1) The dataset addresses a clear need for larger and more diverse cryptic binding site benchmarks, as existing datasets (CryptoSite, PocketMiner) are limited in size. 2) The filtering pipeline is well-defined and reproducible, with clear criteria for crypticity, geometric quality, and ligand relevance. 3) The provision of predefined train-test and cross-validation splits is a practical contribution that should facilitate fair comparisons between methods. 4) The inclusion of a sequence-based baseline using protein language model embeddings is timely and relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design and fairness of baseline comparison
+  - **Claim pointer** The manuscript claims that the pLM-NN "outperformed PocketMiner and P2Rank across key metrics, including AUC, AUPRC, MCC, and F1 scores" (Abstract) and that this provides a baseline for future work.
+  - **Evidence pointer** Results section, Table 4 (not visible)
+  - **Concern** The comparison between pLM-NN and PocketMiner/P2Rank is not a like-for-like comparison. pLM-NN was trained on CryptoBench, while PocketMiner and P2Rank were used as pre-trained models without any fine-tuning or retraining. This introduces a significant advantage for pLM-NN, as it has seen the training distribution of the benchmark. The manuscript acknowledges this but does not adequately address the implications for the validity of the comparison. Furthermore, the exclusion of 60 structures (22 due to errors, 38 due to multi-chain) from the PocketMiner evaluation, representing over a quarter of the test set, could bias the results. It is unclear whether the excluded structures are systematically different from those included.
+  - **Why it matters** The primary purpose of a benchmark is to provide a fair and reliable basis for comparing methods. If the baseline comparison is biased, the benchmark's utility is undermined, and future users may draw incorrect conclusions about the relative performance of methods.
+  - **Resolution test** The authors should either (a) retrain PocketMiner and P2Rank on the CryptoBench training set, or (b) clearly report the performance of pLM-NN on the subset of the test set where PocketMiner and P2Rank can make predictions, and discuss the potential bias introduced by the exclusions. Additionally, an analysis of the characteristics of the excluded structures (e.g., sequence length, number of chains, ligand properties) would help assess the impact of the exclusions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset quality and validation
+  - **Claim pointer** The manuscript claims that CryptoBench is "the most extensive CBS dataset to date" and that the filtering pipeline ensures "substantial structural change in the binding site" (Abstract, Dataset Construction).
+  - **Evidence pointer** Dataset Construction section, Statistics section, Tables 1 and 2 (not visible)
+  - **Concern** The manuscript does not provide any external validation of the cryptic binding sites in the dataset. The definition of crypticity is based solely on RMSD, which is a geometric criterion. It is not clear whether all sites with RMSD ≥ 2 Å are truly cryptic in the functional sense (i.e., they can bind a ligand only after a conformational change). The authors acknowledge that their definition may miss some cryptic sites, but they do not address the possibility of false positives. A comparison with known cryptic sites from the literature or with experimental data on ligand binding would strengthen the validation. Additionally, the statistics on the dataset (Table 2) are not visible, so the reader cannot assess the diversity of the dataset in terms of protein families, ligand types, or the distribution of RMSD values.
+  - **Why it matters** A benchmark dataset must be of high quality and well-characterized to be useful. If the dataset contains many false positives (non-cryptic sites labeled as cryptic), it could mislead method development and evaluation.
+  - **Resolution test** The authors should provide a validation analysis, such as comparing a subset of the predicted cryptic sites with known cryptic sites from the literature or with experimental data. They should also provide a detailed characterization of the dataset, including the distribution of RMSD values, protein families, and ligand types.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and completeness of methods
+  - **Claim pointer** The manuscript describes the pLM-NN architecture and training procedure, and states that the dataset is available on OSF.
+  - **Evidence pointer** Protein language model classifier implementation section, Availability section
+  - **Concern** The description of the pLM-NN is incomplete. The manuscript states that a hyperparameter search was performed using SklearnTuner, but it does not report the range of hyperparameters considered, the final hyperparameter values, or the criteria for model selection. The training procedure is described only briefly (7 epochs, batch size 2048, learning rate 1e-04), but details such as the optimizer configuration, regularization strength, and early stopping criteria are missing. The code for the pLM-NN is not provided, and the dataset is only available on OSF without a clear description of its format or structure. This limits the reproducibility of the baseline results.
+  - **Why it matters** Reproducibility is a core requirement for scientific contributions, particularly for benchmarks. Without complete details of the model and training procedure, other researchers cannot replicate the baseline results or build upon them.
+  - **Resolution test** The authors should provide the full details of the hyperparameter search, the final model configuration, and the training procedure. They should also make the code publicly available and provide a clear description of the dataset format and structure.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor of performance evaluation
+  - **Claim pointer** The manuscript reports performance metrics (AUC, AUPRC, MCC, F1) for the baseline methods, and claims that pLM-NN "significantly outperforms" PocketMiner (Results section).
+  - **Evidence pointer** Results section, Table 4 (not visible)
+  - **Concern** The manuscript does not report any measures of variability or statistical significance for the performance metrics. It is unclear whether the differences between methods are statistically significant, given the relatively small test set (approximately 220 structures). The use of a single train-test split, rather than repeated cross-validation, further limits the reliability of the results.
+  - **Why it matters** Without measures of variability or statistical significance, the reader cannot assess the reliability of the reported performance differences. This is particularly important given the potential biases in the comparison discussed in R1-M1.
+  - **Resolution test** The authors should report confidence intervals or standard deviations for the performance metrics, and perform a statistical test (e.g., paired bootstrap or McNemar's test) to assess the significance of the differences between methods.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the pLM-NN "outperformed PocketMiner and P2Rank across key metrics" but does not specify the magnitude of the improvement or the context of the comparison (e.g., that PocketMiner and P2Rank were not retrained). This could be misleading to readers who do not read the full manuscript.
+  - **Required correction** The abstract should be revised to clarify the nature of the comparison, e.g., "a sequence-based model trained on CryptoBench outperformed pre-trained structure-based methods that were not retrained on the benchmark."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of references
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction cites several relevant works on cryptic binding sites and prediction methods, but the discussion of the limitations of existing datasets (CryptoSite, PocketMiner) is brief and could be expanded to better motivate the need for a new dataset.
+  - **Required correction** The authors should expand the discussion of existing datasets, including their specific limitations in terms of size, diversity, and the definition of crypticity, to more clearly position CryptoBench.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Availability section
+  - **Evidence pointer** Availability section
+  - **Issue** The dataset is stated to be available on OSF, but the manuscript does not provide a direct link or a description of the dataset contents (e.g., file formats, number of files, size). This makes it difficult for readers to access and use the dataset.
+  - **Required correction** The authors should provide a direct link to the dataset and a brief description of its contents and format.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity of figures
+  - **Affected element** Figures 1, 2, 4, 5, 6, 7, 8
+  - **Evidence pointer** Figures 1, 2, 4, 5, 6, 7, 8 (not visible)
+  - **Issue** The figures are referenced in the text but are not visible in the provided manuscript. It is not possible to assess their quality or the clarity of the information they convey.
+  - **Required correction** The authors should ensure that all figures are included in the manuscript and are of sufficient quality to be interpreted by readers.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (unfair baseline comparison), R1-M2 (lack of external validation of cryptic sites), R1-M3 (incomplete methods description), R1-M4 (lack of statistical rigor).
+- **Assessment against Nature-style criteria** **Originality:** The work is original in its combination of a large-scale dataset derived from AHoJ-DB with a specific focus on cryptic sites and a sequence-based baseline. However, the concept of using RMSD to define crypticity is not new, and the novelty lies primarily in the scale and the benchmark design. **Scientific importance:** The dataset has the potential to be a valuable resource for the community, addressing a clear gap in the availability of large-scale cryptic binding site benchmarks. The importance is moderate to high, depending on the quality and utility of the dataset. **Interdisciplinary readership:** The work is primarily of interest to computational biologists and bioinformaticians. The potential for broader interdisciplinary readership (e.g., structural biology, medicinal chemistry) is limited by the lack of experimental validation and the focus on computational methods. **Technical soundness:** The filtering pipeline is logically sound, but the baseline evaluation has significant flaws (R1-M1, R1-M4) that undermine the technical soundness of the benchmark as presented. The lack of external validation (R1-M2) also weakens the technical case. **Readability for nonspecialists:** The manuscript is generally well-written and accessible, but the lack of visible figures and tables makes it difficult for nonspecialists to follow the key results. The discussion of alternative metrics is brief and may be confusing without the supporting figures.
+- **Recommendation posture** Currently not established from the provided evidence. The dataset may be a valuable contribution, but the baseline evaluation is not fair or statistically rigorous, and the lack of external validation and incomplete methods description prevent a full assessment. The manuscript would require major revisions to address these concerns before the case for the dataset's utility is established.

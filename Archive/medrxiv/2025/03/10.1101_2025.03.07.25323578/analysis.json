@@ -1,0 +1,24 @@
+{
+  "source": "medrxiv",
+  "id": "10.1101/2025.03.07.25323578",
+  "title": "Integration of Deep Learning Annotations with Functional Genomics Improves Identification of Causal Alzheimer's Disease Variants",
+  "authors": "Lakhani CM; Lin JT; Das A; Naito T; Raj T; Knowles DA",
+  "journal": "medRxiv",
+  "published_date": "2025-03-10",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文整合深度学习变异效应预测与功能基因组注释，改进阿尔茨海默病因果变异精细定位，涉及转录因子结合位点预测，但核心是疾病变异识别而非TF-DNA互作机制建模。",
+  "abstract": "Genetic variants associated with Alzheimer's disease (AD) through genome-wide association studies (GWAS) are challenging to interpret because most lie in non-coding regions of the genome. Here, a method was developed that integrates deep learning variant effect prediction (DL-VEP) scores from Enformer, DeepSea, and ChromBPNet models with cell-type specific regulatory annotations to improve fine-mapping of causal AD variants. Using stratified linkage disequilibrium score regression, the largest proportion of heritability among brain cell types was found in microglia and the integration of Enformer microglia-based transcription factor DL-VEP scores and microglia ChromBPNet models further localizes the AD polygenic signal allowing for improved fine-mapping of causal AD variants. Functionally-informed fine-mapping using these annotations discovers 101 AD risk variants compared to 87 identified by statistical fine-mapping alone. Importantly, polygenic risk scores derived from these fine-mapped variants show improved cross-ancestry performance in both African American (AUC=0.532 vs. 0.521 for SUSIE) and Hispanic (AUC=0.552 vs. 0.535 for SUSIE) populations, while maintaining strong performance in European populations (AUC=0.620 vs. 0.615 for SUSIE). Through detailed analysis of the PICALM/EED locus, we demonstrate how our approach disentangles causal variants in regions of high linkage disequilibrium and predicts specific molecular mechanisms, such as disruption of PU.1 transcription factor binding, with the posterior inclusion probability of this variant increasing from 0.55 using SUSIE to 0.90 with our method. Our results provide a framework for leveraging deep learning annotations to improve identification of causal disease variants and enhance polygenic risk prediction across diverse populations.",
+  "abstract_zh": "通过全基因组关联研究（GWAS）识别的与阿尔茨海默病（AD）相关的遗传变异难以解释，因为大多数变异位于基因组的非编码区域。在此，开发了一种方法，将来自Enformer、DeepSea和ChromBPNet模型的深度学习变异效应预测（DL-VEP）评分与细胞类型特异性调控注释相结合，以改进AD因果变异的精细定位。使用分层连锁不平衡评分回归，发现脑细胞类型中最大的遗传力比例存在于小胶质细胞中，而整合Enformer基于小胶质细胞的转录因子DL-VEP评分和小胶质细胞ChromBPNet模型进一步定位了AD多基因信号，从而改进了AD因果变异的精细定位。利用这些注释进行功能信息精细定位，发现了101个AD风险变异，而仅通过统计精细定位识别出87个。重要的是，从这些精细定位变异衍生的多基因风险评分在非裔美国人（AUC=0.532，对比SUSIE的0.521）和西班牙裔（AUC=0.552，对比SUSIE的0.535）人群中显示出改善的跨祖先性能，同时在欧洲人群中保持强劲表现（AUC=0.620，对比SUSIE的0.615）。通过对PICALM/EED位点的详细分析，我们展示了我们的方法如何在高连锁不平衡区域中解开因果变异，并预测特定分子机制，如破坏PU.1转录因子结合，该变异的后验包含概率从使用SUSIE的0.55增加到我们方法的0.90。我们的结果为利用深度学习注释改进因果疾病变异的识别并增强跨不同人群的多基因风险预测提供了一个框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.medrxiv.org/content/10.1101/2025.03.07.25323578",
+  "source_url": "https://www.medrxiv.org/content/10.1101/2025.03.07.25323578",
+  "paper_page_path": "papers/medrxiv/10.1101_2025.03.07.25323578/index.html"
+}

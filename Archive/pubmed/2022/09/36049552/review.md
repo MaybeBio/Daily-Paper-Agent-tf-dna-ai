@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The authors propose MSDenseNet, a deep learning method combining fault-tolerant coding with multi-scale dense convolutional networks, to improve DNA-protein binding prediction. They report an average AUC of 0.933 across 690 ChIP-seq datasets and claim state-of-the-art performance.
+- **Visible evidence base** Abstract text only; no figures, tables, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, methodological details, benchmark dataset descriptions, baseline comparisons, statistical analyses, and code verification
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible methodological contribution with a clear motivation regarding sequence variation and sequencing errors. However, the evidence provided is insufficient to evaluate the technical soundness, the validity of the performance claims, or the generalizability of the approach. The reported AUC improvement over state-of-the-art is not substantiated with comparative details or statistical context.
+- **Who would be interested in the results, and why** Researchers in computational biology, particularly those working on transcription factor binding site prediction, deep learning applications in genomics, and sequence-based functional annotation. The fault-tolerant coding concept may also interest method developers in bioinformatics.
+- **Major strengths** The motivation is clearly articulated, addressing a real limitation in existing sequence-based methods. The proposed integration of fault-tolerant coding with dense networks is a reasonable and potentially novel idea. The availability of source code is commendable for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "MSDenseNet utilizes a powerful feature representation approach, which transforms the raw DNA sequence into fusion coding using the fault-tolerant feature sequence"
+  - **Evidence pointer** Abstract, no methodological section provided
+  - **Concern** The abstract does not describe how fault-tolerant coding is implemented, what types of sequence variations are tolerated, or how the fusion coding is constructed. Without this information, the novelty and correctness of the approach cannot be assessed.
+  - **Why it matters** The core methodological contribution is the FTC scheme. If the coding scheme is not clearly defined and justified, the entire method's validity is in question.
+  - **Resolution test** Provide a detailed description of the FTC algorithm, including how it handles motif variations and sequencing errors, and demonstrate its effect on performance through ablation studies.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "Benchmarking experiments on 690 ChIP-seq datasets show that MSDenseNet achieves an average AUC of 0.933 and outperforms the state-of-the-art method"
+  - **Evidence pointer** Abstract, no dataset or baseline details provided
+  - **Concern** The abstract reports a single average AUC value without specifying the comparison method, the statistical significance of the improvement, or the variability across datasets. No information is given on how the 690 datasets were selected, whether they are independent, or how the baseline was configured.
+  - **Why it matters** A performance claim without comparative context and statistical validation is not convincing. The reader cannot determine whether the improvement is meaningful or due to chance or dataset selection.
+  - **Resolution test** Provide a table comparing MSDenseNet against multiple state-of-the-art methods on the same datasets, including standard deviations, paired statistical tests, and a description of dataset preprocessing and splitting.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "The source code of MSDenseNet is available at https://github.com/csbio-njust-edu/msdensenet"
+  - **Evidence pointer** Abstract, URL provided
+  - **Concern** The abstract states that code is available, but no verification of the repository's contents, documentation, or usability is possible from the abstract alone. The code may not be functional or may lack necessary dependencies.
+  - **Why it matters** Reproducibility is a key requirement for computational methods. Without a functional and documented codebase, the method cannot be independently validated.
+  - **Resolution test** Ensure the repository includes a README with installation and usage instructions, example data, and a script to reproduce the reported results. The code should be tested on a standard environment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, "multi-scale convolution within the dense layer and the multi-scale convolution preceding the dense block"
+  - **Issue** The description of the network architecture is vague. It is unclear how the multi-scale convolutions are integrated and what specific benefits they provide.
+  - **Required correction** Clarify the architectural details, possibly with a diagram or a precise textual description of the layer configurations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Claim of broad applicability
+  - **Evidence pointer** Abstract, "We anticipate that MSDenseNet will be exploited as a powerful tool"
+  - **Issue** The abstract claims broad utility without evidence of performance on diverse cell types, species, or binding protein families beyond the 690 datasets.
+  - **Required correction** Either temper the claim or provide additional validation on independent datasets from different sources.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Missing comparison details
+  - **Evidence pointer** Abstract, "outperforms the state-of-the-art method"
+  - **Issue** The state-of-the-art method is not named, and the magnitude of improvement is not quantified.
+  - **Required correction** Specify the baseline method(s) and report the difference in AUC or other metrics.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The fault-tolerant coding concept is potentially original, but its novelty cannot be fully assessed without methodological detail. Scientific importance: The problem is important, but the abstract does not demonstrate a significant advance over existing methods. Interdisciplinary readership: The work is relevant to computational biology and machine learning, but the abstract is too technical for a broad audience. Technical soundness: Not established due to missing methodological and statistical details. Readability for nonspecialists: The abstract is understandable but assumes familiarity with deep learning and ChIP-seq.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful method, but the lack of methodological detail, comparative analysis, and statistical validation prevents a supportive recommendation. The authors should provide a full manuscript with comprehensive experiments and code verification.
+
+## Risk / unsupported claims
+- The claim of outperforming the state-of-the-art method is unsupported without naming the baseline and providing statistical comparison.
+- The claim that multi-scale convolution "significantly improve the network performance and accelerate the network convergence speed" is not supported by any quantitative evidence in the abstract.
+- The general applicability of MSDenseNet as a "powerful tool" is not supported by evidence beyond the 690 datasets.
+- The effectiveness of fault-tolerant coding in addressing sequence variations and sequencing errors is not demonstrated.

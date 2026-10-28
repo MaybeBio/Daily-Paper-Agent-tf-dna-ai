@@ -1,0 +1,64 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report the first direct biochemical evidence that the FOXP2 forkhead domain binds the TBR1 T-box domain, that autism-associated substitutions at Asn374 (N374H, N374Y) weaken TBR1 DNA binding and alter its response to FOXP2, and that these variants impair FOXP2-dependent regulation of TBR1 despite retaining a FOXP2-binding surface. Molecular modelling and molecular dynamics simulations suggest a more compact yet flexible T-box domain in FOXP2-associated complexes. The authors propose Asn374 as an allosteric control point coordinating TBR1 DNA-binding dynamics with FOXP2 engagement.
+- **Visible evidence base** Fluorescence anisotropy, EMSA, molecular modelling, molecular dynamics simulations (all referenced in abstract; no numerical data, figures, or methodological details provided)
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, experimental protocols, statistical analyses, simulation parameters, construct details, protein purification information, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic finding linking a neurodevelopmental transcription factor to a partner-mediated regulatory mechanism and disease-associated variants. The central claim of a direct FOXP2-TBR1 interaction and its modulation by Asn374 is plausible and would be of interest to the transcription factor and neurodevelopmental biology communities. However, the abstract alone provides insufficient detail to evaluate the rigor of the biochemical and computational evidence. The paradoxical observation that variants reduce FOXP2-TBR1 affinity yet resist FOXP2-driven DNA dissociation is intriguing but requires careful experimental validation to exclude alternative explanations. The allosteric model proposed is speculative at this stage and needs stronger support from the full data set.
+- **Who would be interested in the results, and why** Researchers studying transcription factor cooperativity, particularly T-box and forkhead family proteins; investigators focused on the molecular basis of autism spectrum disorder; and those interested in allosteric regulation of DNA-binding proteins. The work could also appeal to computational biologists studying protein dynamics in disease contexts.
+- **Major strengths** The study addresses a clear gap in understanding how TBR1 integrates DNA binding with partner-mediated regulation. The combination of biochemical binding assays with molecular dynamics simulations provides a multi-pronged approach. The focus on disease-associated variants with functional consequences gives the work translational relevance. The paradoxical finding regarding FOXP2-driven dissociation is potentially novel and thought-provoking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim "the first direct biochemical evidence that the FOXP2 forkhead domain binds the TBR1 T-box domain"
+  - **Evidence pointer** Abstract, methods referenced as fluorescence anisotropy and EMSA; location not provided
+  - **Concern** The abstract states this is the first direct biochemical evidence for the FOXP2 FHD-TBR1 T-box interaction, but no quantitative data, binding constants, or representative traces are shown. The claim of "first" requires a thorough literature search and clear demonstration that prior studies did not provide direct biochemical evidence. Without seeing the actual binding data, including appropriate controls for specificity (e.g., negative control proteins, competition experiments), the strength of this claim cannot be assessed.
+  - **Why it matters** The novelty claim is central to the paper's significance. If the interaction has been previously demonstrated or if the current evidence does not convincingly show direct binding, the foundational claim of the manuscript is weakened. The "first" designation also invites scrutiny from reviewers familiar with the TBR1 and FOXP2 literature.
+  - **Resolution test** Provide representative binding curves with fitted dissociation constants, include negative controls (e.g., unrelated forkhead or T-box domains), and demonstrate specificity through competition or mutagenesis. A clear statement of what prior evidence existed and how this work extends beyond it would also be needed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretive validity
+  - **Claim pointer** The authors claim that N374H and N374Y variants "paradoxically resist FOXP2-driven dissociation of TBR1 from DNA, indicating impaired FOXP2-dependent regulation of TBR1"
+  - **Evidence pointer** Abstract, fluorescence anisotropy and EMSA; location not provided
+  - **Concern** The paradoxical result that reduced FOXP2-TBR1 affinity correlates with resistance to FOXP2-driven DNA dissociation is counterintuitive and requires careful mechanistic explanation. The abstract does not provide a model for how reduced protein-protein affinity could lead to increased resistance to dissociation. Alternative explanations, such as altered DNA binding kinetics, changes in TBR1 conformational dynamics that affect FOXP2 action, or experimental artifacts (e.g., differences in complex stability under assay conditions), are not addressed.
+  - **Why it matters** This is the key functional claim linking the variants to impaired regulation. If the interpretation is incorrect or incomplete, the central conclusion that Asn374 is an allosteric control point is undermined. The paradox needs to be resolved with a coherent mechanistic model supported by data.
+  - **Resolution test** Provide a mechanistic model supported by additional experiments, such as stopped-flow kinetics, single-molecule assays, or mutagenesis of the FOXP2-TBR1 interface to test whether the resistance is due to altered allostery or simply reduced FOXP2 occupancy. Show that the effect is specific to FOXP2 and not a general property of the variants.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational support
+  - **Claim pointer** The authors claim that molecular dynamics simulations show "a more compact yet flexible T-box domain within FOXP2-associated complexes"
+  - **Evidence pointer** Abstract, molecular modelling and molecular dynamics simulations; location not provided
+  - **Concern** The abstract provides no details on simulation length, force field, system setup, number of replicates, or convergence criteria. The terms "compact" and "flexible" are qualitative and need quantitative metrics (e.g., radius of gyration, root-mean-square fluctuation) with appropriate statistical treatment. It is unclear whether the simulations were performed on the TBR1-FOXP2 complex or on TBR1 alone, and whether the variants were simulated in the bound or unbound state.
+  - **Why it matters** The computational results are used to support the allosteric model. Without rigorous simulation methodology and quantitative analysis, the conclusions drawn from the simulations are not verifiable and may not be reproducible.
+  - **Resolution test** Provide simulation details including software, force field, simulation time, number of replicates, and convergence analysis. Show quantitative metrics with error bars and statistical comparisons between wild-type and variant systems. Clarify the exact systems simulated.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, "allosteric control point"
+  - **Issue** The term "allosteric control point" is used to describe Asn374, but the abstract does not clearly define what is meant by allosteric in this context. It is unclear whether the authors mean that Asn374 mediates communication between the DNA-binding surface and the FOXP2-binding surface, or whether FOXP2 binding induces conformational changes that affect DNA binding.
+  - **Required correction** Define the term explicitly in the context of this system and clarify the proposed mechanism of allostery.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Variant selection
+  - **Evidence pointer** Abstract, "N374H and N374Y"
+  - **Issue** The abstract does not state whether these are the only autism-associated substitutions at Asn374 or whether other variants exist but were not studied. The rationale for choosing these two specific variants is not provided.
+  - **Required correction** Briefly state the prevalence or clinical significance of these variants and justify their selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Functional relevance
+  - **Affected element** Downstream consequences
+  - **Evidence pointer** Abstract, "how FOXP2-dependent modulation of transcription during neurodevelopment may be altered in autism"
+  - **Issue** The abstract does not include any functional readout of transcriptional activity. The claim that these changes affect transcription is inferred from DNA binding and protein-protein interaction data but is not directly tested.
+  - **Required correction** Either add a statement that transcriptional assays are beyond the scope of this work or include preliminary data on transcriptional output if available.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking concerns. The novelty claim requires verification of prior literature and robust binding data. The paradoxical functional result requires a mechanistic explanation supported by additional experiments. R1-M3, while not blocking, needs substantial methodological detail to support the computational claims.
+- **Assessment against Nature-style criteria** Originality: The proposed FOXP2-TBR1 interaction and the allosteric model for Asn374 are potentially original, but the "first" claim requires verification. Scientific importance: The work addresses a relevant question in neurodevelopmental biology and autism genetics, but the significance depends on the strength of the mechanistic model. Interdisciplinary readership: The topic bridges biochemistry, structural biology, and neurodevelopmental genetics, which could attract a broad audience. Technical soundness: Cannot be fully assessed from the abstract; the biochemical and computational approaches are appropriate in principle, but the lack of quantitative data and methodological detail prevents evaluation. Readability for nonspecialists: The abstract is reasonably clear but uses specialized terminology without sufficient context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary data, but the blocking concerns regarding the novelty claim and the paradoxical functional result must be resolved. A revised manuscript with full experimental detail, quantitative data, and a coherent mechanistic model could change this assessment.

@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text, methods, and supplementary information description.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with stated evidence. No assessment of code functionality or data availability beyond what is described.
+- **Shared manuscript claim summary** The authors present CASCADE, a position-specific statistical framework for identifying promoter-associated regulatory motifs from cell-type-resolved DNA language-model attributions. They train a sequence-to-expression model on a single-cell soybean atlas, apply in silico saturation mutagenesis, and show that CASCADE shifts motif discovery from downstream of the TSS to promoter regions compared to TF-MoDISco, while preserving established motif recovery on a human benchmark. They report approximately 1.39 million candidate elements across cell-type-resolved classes.
+- **Visible evidence base** Abstract, full main text (Introduction, Results, Discussion), Methods section, and a brief description of supplementary information. No figures, tables, or supplementary data files were provided.
+- **Missing materials affecting confidence** All figures (Figure 1-3), supplementary figures (Figure S1), and any supplementary tables or datasets are not provided. The single-cell atlas reference (Zhang et al., 2025) and the ProCapNet benchmark (Cochran et al., 2024) are cited but not accessible. Code repository is mentioned but not reviewed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in regulatory genomics: the positional bias of attribution-based motif discovery and the need for cell-type-resolved interpretation. The core idea of a position-specific null is conceptually sound and potentially useful. However, the evidence presented in the text alone is insufficient to fully evaluate the claims. Key quantitative results are described but not shown, and several methodological details are ambiguous. The manuscript would benefit from clearer presentation of the benchmark comparison and a more critical discussion of the limitations of the position-specific null.
+- **Who would be interested in the results, and why** Researchers working on sequence-to-expression models, regulatory motif discovery, and plant functional genomics. The cell-type-resolved map of candidate elements in soybean could be of interest to the soybean and legume research community. The methodological contribution on position-specific nulls may interest computational biologists working on attribution methods more broadly.
+- **Major strengths** The problem is well-motivated and the proposed solution is conceptually simple and targeted. The use of a cell-type-resolved model with 66 output heads is ambitious and relevant. The authors explicitly isolate the effect of the null by holding all other parameters fixed, which is a good experimental design. The inclusion of a human benchmark as a positive control is a strong feature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that CASCADE shifts motif recovery from downstream of the TSS toward promoter sequences, with 77% of CASCADE-exclusive motifs falling in the promoter versus 12% for TF-MoDISco-exclusive motifs.
+  - **Evidence pointer** Figure 2D, described in Section 2.2. Figure not provided.
+  - **Concern** The central quantitative claim of the paper is presented without the actual figure or underlying data. The text describes the result but does not provide the distribution of motif positions, the number of motifs in each category, or any statistical measure of the difference. Without the figure or a table, the reader cannot assess the magnitude or robustness of the shift.
+  - **Why it matters** This is the primary evidence that CASCADE achieves its stated goal. If the shift is small or driven by a few outliers, the claim would be weakened. The current presentation does not allow the reader to verify this.
+  - **Resolution test** Provide Figure 2D or a table with the number of motifs, median positions, and a statistical test comparing the positional distributions. Show the full distribution, not just the median.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The description of the CASCADE null model in Section 4.6, specifically the per-position estimation of a two-sided Laplace null and the global pass-fraction constraint.
+  - **Evidence pointer** Section 4.6. Location not provided.
+  - **Concern** The description of the null model is incomplete. The text states that a two-sided Laplace null is estimated per position using a mode-split, maximum-lambda percentile fit, but does not explain how the mode is estimated, how the lambda values are fit, or how the Monte Carlo sampling of 3,000 null scores is used. The global pass-fraction constraint rescales the threshold envelope by a single scalar k to keep the overall pass fraction in [0.03, 0.20], but the rationale for this range and the method for choosing k are not given. This constraint could artificially inflate or deflate the number of significant positions.
+  - **Why it matters** The method must be reproducible. Without a clear description of the null estimation and the rescaling procedure, other researchers cannot implement or evaluate CASCADE. The arbitrary pass-fraction range could be a source of bias.
+  - **Resolution test** Provide a complete algorithmic description of the null estimation, including the mode-split procedure, the lambda fit, and the Monte Carlo step. Justify the pass-fraction range and describe how k is determined. Ideally, provide pseudocode or a reference to a public implementation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation strength
+  - **Claim pointer** The claim that CASCADE preserves established motif recovery on the human K562 ProCapNet benchmark, recovering all 43 reference activator motifs with a median correlation of 0.997.
+  - **Evidence pointer** Figure 2E-G, described in Section 2.2. Figures not provided.
+  - **Concern** The benchmark result is described as a positive control, but the text notes that CASCADE "slightly over-identifies repressor motifs (14 against 3)" and "slightly fragments" the CTCF motif. The authors interpret this as acceptable, but the over-identification of repressors is a potential concern. The text does not explain why this over-identification occurs or whether it is a systematic issue with the position-specific null.
+  - **Why it matters** If CASCADE systematically over-identifies repressor motifs, this could indicate a bias in the method that would also affect the soybean results. The authors should address this more critically.
+  - **Resolution test** Provide the full benchmark results, including the number of true and false positives for both activators and repressors. Discuss the potential reasons for repressor over-identification and whether it is a limitation of the method.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of results
+  - **Claim pointer** The claim that CASCADE identifies approximately 1.39 million candidate elements across 66 cell types, classified into broadly active, tissue-restricted, and cell-type-restricted classes.
+  - **Evidence pointer** Section 2.3, Figure 3. Figure not provided.
+  - **Concern** The text describes the classification scheme but does not provide the number of elements in each class, the criteria for the classification thresholds, or any validation that these classes correspond to biologically meaningful regulatory activity. The authors acknowledge that these are "operational strata over the model's cross-cell attributions" and not validated regulatory elements, but the presentation in the abstract and results may overstate the biological significance.
+  - **Why it matters** The 1.39 million number is a headline result. Without a breakdown of the classes and some indication of whether the classes are stable or meaningful, the reader cannot judge the utility of the map.
+  - **Resolution test** Provide a table or figure with the counts of elements in each class. Discuss the sensitivity of the classification to the thresholds. Consider a small-scale validation, such as overlap with known regulatory elements or chromatin accessibility data, even if only for a subset.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, description of the model.
+  - **Evidence pointer** Section 2.1, Figure 1A-B. Figure not provided.
+  - **Issue** The description of the model architecture is brief. The text states that a soybean-adapted GPN is coupled to a shared convolutional encoder with 66 output heads, but does not specify the number of layers, filter sizes, or the dimensionality of the embedding. The mean Pearson correlation of 0.683 is reported, but the variance across cell types is not given.
+  - **Required correction** Provide a more detailed description of the model architecture, either in the main text or in a supplementary table. Report the range or standard deviation of the per-cell-type Pearson correlations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.2, "repressor" and "activator" motifs.
+  - **Evidence pointer** Section 2.2. Location not provided.
+  - **Issue** The terms "repressor" and "activator" are used to describe motifs based on the sign of the attribution score. This is a model-derived label and may not correspond to actual transcriptional repressors or activators. The authors should clarify this distinction.
+  - **Required correction** Use terms such as "predicted repressive" and "predicted activating" or add a sentence clarifying that these are model predictions, not experimentally validated functions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 4.6, hypergeometric test.
+  - **Evidence pointer** Section 4.6. Location not provided.
+  - **Issue** The hypergeometric test for tissue enrichment is described, but the text does not state how the Benjamini-Hochberg correction is applied across the large number of tests (potentially millions of elements).
+  - **Required correction** State the total number of tests and whether the correction is applied globally or per tissue.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 2.3, "ssquence" typo.
+  - **Evidence pointer** Section 2.3, first paragraph.
+  - **Issue** There is a typo in the text: "ssquence" should be "sequence".
+  - **Required correction** Correct the typo.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of visible evidence for the central claims. The figures and supplementary data are not provided, making it impossible to verify the quantitative results. The methodological description of CASCADE is incomplete, particularly the null estimation and the global rescaling. The benchmark result, while described, is not fully quantified, and the over-identification of repressors is not adequately addressed.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The idea of a position-specific null for attribution-based motif discovery is a reasonable incremental contribution. It is not a fundamentally new concept, as position-dependent background models are used in other areas of genomics, but its application to this specific problem is novel.
+  - **Scientific importance** The problem of interpreting sequence models in a cell-type-resolved manner is important. The potential to generate a cell-type-resolved map of candidate regulatory elements in a crop species is of interest. However, the importance is diminished by the lack of experimental validation and the model-derived nature of the claims.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and plant molecular biologists. The methods are specific to sequence models and may not be accessible to a broader readership. The plant-specific focus may limit interest outside the plant community.
+  - **Technical soundness** The technical soundness cannot be fully assessed without the figures and a more complete methods description. The design of the comparison (holding all parameters fixed) is sound, but the implementation details are unclear.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with sequence models, attribution methods, and motif discovery. The abstract is relatively clear, but the main text would be challenging for a nonspecialist.
+- **Recommendation posture** Currently not established from the provided evidence. The core idea is promising, and the design of the comparison is appropriate, but the lack of visible evidence and incomplete methodological details prevent a full assessment. The authors should be encouraged to resubmit with the figures and a more complete methods section.
+
+## Risk / unsupported claims
+- The claim that CASCADE shifts motif discovery from downstream of the TSS to the promoter is unsupported without Figure 2D.
+- The claim that CASCADE identifies approximately 1.39 million candidate elements is unsupported without Figure 3.
+- The claim that CASCADE preserves established motif recovery on the human benchmark is partially supported by the text but not fully quantified.
+- The claim that the model achieves a mean per-cell-type Pearson correlation of 0.683 is stated but not shown in a figure or table.
+- The claim that CASCADE-exclusive motifs match annotated transcription-factor families at least as frequently as TF-MoDISco-exclusive motifs is stated but not quantified.
+- The biological relevance of the cell-type-resolved classes is not established and is acknowledged as model-derived.

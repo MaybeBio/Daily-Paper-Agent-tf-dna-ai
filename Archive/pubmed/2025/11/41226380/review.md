@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, and materials and methods sections. No figures or supplementary materials were provided.
+- **Assessment boundary** Evaluation is limited to the scientific claims, methodology, and conclusions as presented in the text. Statistical analyses, figure contents, and data availability cannot be independently verified.
+- **Shared manuscript claim summary** The authors apply a machine learning pipeline (XGBoost) to predict the spatiotemporal distribution of active nuclei expressing the sog gene during Drosophila embryogenesis. They optimize grid size, feature selection, and model architecture, and compare performance on wild-type (sogD) and Su(H) mutant (sogD_ΔSu(H)) enhancer reporter datasets. They report higher prediction accuracy in the central region of the expression domain compared to edges, and interpret this as evidence that the model captures context-dependent regulatory effects of Su(H).
+- **Visible evidence base** Text descriptions of results, including references to Figures 1–5 and Table 1, but no actual figures, tables, or numerical data are included in the provided material. Methodological details for imaging, preprocessing, and training are described.
+- **Missing materials affecting confidence** Figures 1–5, Table 1, all numerical performance metrics (MAE, RMSE, KL divergence values), statistical outputs from mixed-effects models, bootstrap confidence intervals, and code or data availability statements. Without these, quantitative claims cannot be verified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful application of machine learning to a biologically relevant problem, namely predicting gene expression dynamics during embryogenesis. The conceptual framing around context-dependent transcription factor activity is interesting. However, the current text does not provide sufficient quantitative evidence to support the central claims. Key performance metrics, statistical analyses, and visualizations are referenced but not shown. The biological interpretation, particularly regarding Su(H) dual function, appears to extend beyond what the presented methodology can directly demonstrate. The work may be of interest to the developmental biology and computational biology communities, but the evidence base as provided is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying gene regulatory networks during development, particularly those interested in enhancer function and transcriptional dynamics. Computational biologists developing machine learning approaches for spatiotemporal biological data may also find the pipeline relevant. The potential for in silico enhancer mutagenesis could appeal to those studying cis-regulatory logic.
+- **Major strengths** The study addresses a real gap in analyzing live imaging data, which often outpaces analytical methods. The use of a supervised learning approach to predict future spatial distributions from prior temporal data is a reasonable and potentially powerful idea. The comparison between wild-type and mutant enhancer contexts is a thoughtful experimental design. The authors acknowledge limitations in edge prediction accuracy, which shows some scientific honesty.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The model achieved high accuracy on the wild-type sogD dataset, particularly along the DV axis during NC14, and accurately predicted expression in the central regions of both wild-type and Su(H) mutant enhancers.
+  - **Evidence pointer** Section 2.2, Section 2.3, Figures 2–4, Table 1 (location not provided)
+  - **Concern** The central quantitative claim of high accuracy is not supported by any visible numerical data. No MAE, RMSE, or KL divergence values are reported in the text. The figures and table that would contain this information are not provided. Without actual performance numbers, the reader cannot assess whether the model performs well in any meaningful sense, nor compare performance across conditions.
+  - **Why it matters** The entire premise of the paper rests on the model being accurate. If the accuracy is not demonstrated with concrete numbers and appropriate statistical comparisons, the conclusions about the model's ability to capture biological dynamics are unsupported.
+  - **Resolution test** Provide the actual performance metrics for all grid sizes, feature combinations, and both datasets. Include confidence intervals or error bars. Show the figures and table referenced.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** Bootstrap analysis confirmed that the model performed better in the central region than at the edges, where prediction accuracy dropped. Mixed-effects modeling showed significant differences in DV MAE and mean MAE between sogD and sogD_ΔSu(H).
+  - **Evidence pointer** Section 2.3, Figure 4 (location not provided)
+  - **Concern** The statistical analyses are described only in narrative form. The mixed-effects model results are partially reported (coefficient of 0.310, p-value of 0.476 for AP MAE; coefficient of 1.620, p-value of 0.001 for DV MAE; coefficient of 0.971, p-value of 0.019 for mean MAE), but the bootstrap confidence intervals are only given as ranges without the underlying distributions or methodology details. The claim about central versus edge performance is not backed by any visible statistical test.
+  - **Why it matters** The distinction between central and edge prediction accuracy is a key biological interpretation. Without proper statistical evidence, this could be a spurious observation. The mixed-effects model results are also incomplete, lacking information on model specification, random effects structure, and goodness-of-fit.
+  - **Resolution test** Present full statistical outputs, including model specifications, effect sizes with standard errors, and complete bootstrap distributions. Show the actual data points or summary statistics for central versus edge regions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological interpretation
+  - **Claim pointer** The model's performance differences between sogD and sogD_ΔSu(H) reflect the dual role of Su(H) as a repressor at borders and a stabilizer of transcriptional bursts in the center.
+  - **Evidence pointer** Section 2.3, Section 3 (location not provided)
+  - **Concern** The leap from prediction accuracy differences to mechanistic conclusions about Su(H) function is not justified. The model predicts spatial distributions of active nuclei; it does not directly measure transcriptional bursts or repressor activity. The connection to Su(H) dual function relies on prior work (reference 14) but is not demonstrated by the current data. The observed accuracy differences could be due to many factors, including differences in expression pattern complexity, image quality, or sample size.
+  - **Why it matters** The biological interpretation is the main selling point of the paper. If the link between model performance and Su(H) mechanism is not established, the significance of the work is substantially diminished.
+  - **Resolution test** Provide direct evidence linking prediction errors to specific regulatory mechanisms, or temper the conclusions to what the model can actually show, namely that it captures spatial differences in expression dynamics between genotypes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** The model was evaluated using test data from two distinct datasets, and the pipeline can predict future distribution of active nuclei.
+  - **Evidence pointer** Section 2.2, Section 4.5, Section 4.6 (location not provided)
+  - **Concern** The training and testing procedure is described at a high level but lacks critical details. The number of embryos, the train/test split ratio, the handling of temporal autocorrelation, and the potential for data leakage between stages are not addressed. The feature set includes Ripley's K-function, but the radius parameter and its selection are not specified. The choice of XGBoost over other models is not justified.
+  - **Why it matters** Reproducibility is a core requirement for computational work. Without full methodological details, other researchers cannot replicate or build upon this work. The potential for data leakage in time-series prediction is a serious concern that could inflate accuracy estimates.
+  - **Resolution test** Provide complete details on data splitting, hyperparameter tuning, feature parameter selection, and any cross-validation schemes. Address how temporal dependencies were handled to avoid leakage.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract (location not provided)
+  - **Issue** The abstract states the model can "forecast their future distribution in time" but does not specify the prediction horizon or the temporal resolution of predictions.
+  - **Required correction** Clarify the prediction window and temporal granularity in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2, Table 1 (location not provided)
+  - **Issue** The ablation study is mentioned, and Table 1 is referenced, but the table is not provided. The text says "Table 1 indicates the performance of different combinations of features" but no results are described in the text.
+  - **Required correction** Either include the table or describe the key findings of the ablation study in the text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3 (location not provided)
+  - **Issue** The term "AP mae" and "DV mae" are used without clear definition. It is implied they refer to mean absolute error along the anterior-posterior and dorsal-ventral axes, but this should be stated explicitly.
+  - **Required correction** Define AP MAE and DV MAE at first use.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section 4.3
+  - **Evidence pointer** Section 4.3 (location not provided)
+  - **Issue** The imaging section mentions a "40× water oil immersion objective" which is contradictory. It should be either water immersion or oil immersion.
+  - **Required correction** Correct the objective description.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.4
+  - **Evidence pointer** Section 4.4 (location not provided)
+  - **Issue** The preprocessing section mentions Cellpose for segmentation but does not specify the model type, parameters, or whether manual curation was performed.
+  - **Required correction** Provide details on the Cellpose configuration and any quality control steps.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence for accuracy claims), R1-M2 (incomplete statistical reporting), R1-M3 (overinterpretation of model performance as mechanistic insight), R1-M4 (insufficient methodological detail for reproducibility).
+- **Assessment against Nature-style criteria** Originality: The application of machine learning to predict spatiotemporal gene expression dynamics is not entirely novel, but the specific focus on capturing context-dependent regulatory effects is a fresh angle. Scientific importance: The potential to predict expression dynamics and perform in silico enhancer mutagenesis is significant for developmental biology, but the current evidence does not yet demonstrate this capability. Interdisciplinary readership: The work bridges machine learning and developmental biology, which could appeal to both communities, but the presentation currently lacks the quantitative depth needed to satisfy computational readers and the biological clarity needed for experimentalists. Technical soundness: The methodological approach is reasonable in principle, but the lack of visible results and incomplete statistical reporting prevent assessment of technical soundness. Readability for nonspecialists: The text is generally readable, but the results section relies heavily on references to missing figures and tables, making it difficult to follow the narrative.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claims are not verifiable without the actual figures, tables, and numerical results. Major revisions are required to provide the missing evidence and to temper the biological interpretations to match what the methodology can actually demonstrate.
+
+## Risk / unsupported claims
+- The claim of "high accuracy" in predicting active nuclei distribution is unsupported without numerical performance metrics.
+- The claim that the model captures Su(H) dual regulatory function is not directly supported by the presented methodology.
+- The statement that the model "accurately predicted expression in the central regions" of both datasets is unverifiable without the referenced figures.
+- The assertion that the imaging protocol provides "super-resolution spatial information" is not substantiated with resolution metrics or comparisons.
+- The claim that the model can be used for "in silico enhancer mutagenesis" is speculative and not demonstrated in this work.
+- The statement that the model is "sensitive to subtle, context-dependent regulatory changes" is an interpretation that goes beyond the presented evidence.

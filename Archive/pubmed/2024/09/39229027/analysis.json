@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39229027",
+  "title": "Evaluating Methods for the Prediction of Cell Type-Specific Enhancers in the Mammalian Cortex.",
+  "authors": "Johansen, Nelson J; Kempynck, Niklas; Zemke, Nathan R; Somasundaram, Saroja; De Winter, Seppe; Hooper, Marcus; Dwivedi, Deepanjali; Lohia, Ruchi; Wehbe, Fabien; Li, Bocheng; Abaffyova, Darina; Armand, Ethan J; De Man, Julie; Eksi, Eren Can; Hecker, Nikolai; Hulselmans, Gert; Konstantakos, Vasilis; Mauduit, David; Mich, John K; Partel, Gabriele; Daigle, Tanya L; Levi, Boaz P; Zhang, Kai; Tanaka, Yoshiaki; Gillis, Jesse; Ting, Jonathan T; Ben-Simon, Yoav; Miller, Jeremy; Ecker, Joseph R; Ren, Bing; Aerts, Stein; Lein, Ed S; Tasic, Bosiljka; Bakken, Trygve E",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-09-04",
+  "window": {
+    "start": "2024-09-02",
+    "end": "2024-09-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过社区挑战评估机器学习方法预测哺乳动物皮层细胞类型特异性增强子，涉及TF-DNA结合位点与序列模型，但核心是增强子功能预测而非TF-DNA互作机制建模，方法可迁移至本课题。",
+  "abstract": "Identifying cell type-specific enhancers in the brain is critical to building genetic tools for investigating the mammalian brain. Computational methods for functional enhancer prediction have been proposed and validated in the fruit fly and not yet the mammalian brain. We organized the 'Brain Initiative Cell Census Network (BICCN) Challenge: Predicting Functional Cell Type-Specific Enhancers from Cross-Species Multi-Omics' to assess machine learning and feature-based methods designed to nominate enhancer DNA sequences to target cell types in the mouse cortex. Methods were evaluated based on in vivo validation data from hundreds of cortical cell type-specific enhancers that were previously packaged into individual AAV vectors and retro-orbitally injected into mice. We find that open chromatin was a key predictor of functional enhancers, and sequence models improved prediction of non-functional enhancers that can be deprioritized as opposed to pursued for in vivo testing. Sequence models also identified cell type-specific transcription factor codes that can guide designs of in silico enhancers. This community challenge establishes a benchmark for enhancer prioritization algorithms and reveals computational approaches and molecular information that are crucial for identifying functional enhancers in mammalian cortical cell types. The results of this challenge bring us closer to understanding the complex gene regulatory landscape of the mammalian cortex and to designing more efficient genetic tools to target cortical cell types.",
+  "abstract_zh": "识别大脑中细胞类型特异性增强子对于构建研究哺乳动物大脑的遗传工具至关重要。用于功能性增强子预测的计算方法已在果蝇中提出并验证，但尚未在哺乳动物大脑中应用。我们组织了“脑计划细胞网络（BICCN）挑战：从跨物种多组学预测功能性细胞类型特异性增强子”，旨在评估机器学习及基于特征的方法，这些方法用于提名靶向小鼠皮层细胞类型的增强子DNA序列。评估基于数百个皮层细胞类型特异性增强子的体内验证数据，这些增强子先前被包装成单个AAV载体并经视网膜后注射入小鼠体内。我们发现开放染色质是功能性增强子的关键预测因子，序列模型改善了对非功能性增强子的预测，这些增强子可被降级处理而非用于体内测试。序列模型还识别了细胞类型特异性转录因子编码，可指导计算机模拟增强子的设计。此次社区挑战为增强子优先级排序算法建立了基准，并揭示了识别哺乳动物皮层细胞类型中功能性增强子所必需的计算方法和分子信息。挑战结果使我们更接近理解哺乳动物皮层的复杂基因调控景观，并设计更高效的遗传工具以靶向皮层细胞类型。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39229027/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39229027/",
+  "paper_page_path": "papers/pubmed/39229027/index.html"
+}

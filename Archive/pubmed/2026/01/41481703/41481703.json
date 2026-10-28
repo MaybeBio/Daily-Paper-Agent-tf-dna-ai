@@ -1,0 +1,430 @@
+{
+  "identity": {
+    "pmid": "41481703",
+    "doi": "10.1126/sciadv.adu8292",
+    "title": "Synergistic intragenic epigenetic deregulation by IDH2 and SRSF2 mutations causes mis-splicing of key transcriptional regulators."
+  },
+  "content": {
+    "abstract": "Genes affecting DNA methylation (DNAme) are frequently comutated with splicing factors in acute myeloid leukemia (AML) and associate with more aggressive phenotypes. To elucidate the underlying molecular mechanisms, we deeply profiled wild-type and IDH2(R140Q)/SRSF2(P95) single- or double-mutant AMLs. We find a unique set of mis-spliced genes and differentially methylated CpGs in double mutants. Mis-spliced exons are enriched in CCNG splicing enhancers and in the corresponding DNAme changes. Using a machine learning model, we can accurately predict exon inclusion levels from proximal CpGs. These CpGs are more likely to overlap footprints of RNA binding and chromatin-modifying complexes but not transcription factors. We also report unique gene expression profiles associated with each genotype; however, the differentially expressed genes do not overlap with mis-spliced transcripts. Instead, the mis-spliced genes encode for proteins that interact with the complexes regulating these differentially expressed genes. Thus, aberrant DNAme and splicing lead to the mis-splicing of key regulatory complexes, resulting in the aberrant gene expression profiles characteristic of these AMLs.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Serine-Arginine Splicing Factors/genetics",
+      "Humans",
+      "*Mutation",
+      "*Isocitrate Dehydrogenase/genetics",
+      "*Epigenesis, Genetic",
+      "*Leukemia, Myeloid, Acute/genetics/pathology",
+      "DNA Methylation/genetics",
+      "*RNA Splicing",
+      "Exons",
+      "CpG Islands",
+      "Gene Expression Regulation, Leukemic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Telonis, Aristeidis G",
+        "Stanley, Robert F",
+        "Adelman, Emmalee R",
+        "Yoshimi, Akihide",
+        "Adele, Adedamola A",
+        "Cruz, Angelique",
+        "Wiseman, Daniel H",
+        "Abdel-Wahab, Omar",
+        "Figueroa, Maria E"
+      ],
+      "short_names": [
+        "Telonis AG",
+        "Stanley RF",
+        "Adelman ER",
+        "Yoshimi A",
+        "Adele AA",
+        "Cruz A",
+        "Wiseman DH",
+        "Abdel-Wahab O",
+        "Figueroa ME"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1575-2769",
+        "ORCID: 0000-0002-2308-6914",
+        "ORCID: 0000-0003-3429-0803",
+        "ORCID: 0000-0002-0664-7281",
+        "ORCID: 0000-0003-0715-1402",
+        "ORCID: 0000-0002-3907-6171",
+        "ORCID: 0000-0003-4887-4981"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, University of Miami Miller School of Medicine, Miami, FL, USA.",
+        "Sylvester Comprehensive Cancer Center, University of Miami Miller School of Medicine, Miami, FL, USA.",
+        "Molecular Pharmacology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Department of Biochemistry and Molecular Biology, University of Miami Miller School of Medicine, Miami, FL, USA.",
+        "Sylvester Comprehensive Cancer Center, University of Miami Miller School of Medicine, Miami, FL, USA.",
+        "Molecular Pharmacology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Department of Biochemistry and Molecular Biology, University of Miami Miller School of Medicine, Miami, FL, USA.",
+        "Sylvester Comprehensive Cancer Center, University of Miami Miller School of Medicine, Miami, FL, USA.",
+        "Sylvester Comprehensive Cancer Center, University of Miami Miller School of Medicine, Miami, FL, USA.",
+        "Epigenetics of Haematopoiesis Group, The University of Manchester, Manchester M20 4BX, UK.",
+        "Molecular Pharmacology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Department of Biochemistry and Molecular Biology, University of Miami Miller School of Medicine, Miami, FL, USA.",
+        "Sylvester Comprehensive Cancer Center, University of Miami Miller School of Medicine, Miami, FL, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Telonis, Aristeidis G",
+        "short_name": "Telonis AG",
+        "identifiers": [
+          "0000-0003-1575-2769"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Miami Miller School of Medicine, Miami, FL, USA.",
+          "Sylvester Comprehensive Cancer Center, University of Miami Miller School of Medicine, Miami, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Stanley, Robert F",
+        "short_name": "Stanley RF",
+        "identifiers": [
+          "0000-0002-2308-6914"
+        ],
+        "affiliations": [
+          "Molecular Pharmacology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Adelman, Emmalee R",
+        "short_name": "Adelman ER",
+        "identifiers": [
+          "0000-0003-3429-0803"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Miami Miller School of Medicine, Miami, FL, USA.",
+          "Sylvester Comprehensive Cancer Center, University of Miami Miller School of Medicine, Miami, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Yoshimi, Akihide",
+        "short_name": "Yoshimi A",
+        "identifiers": [
+          "0000-0002-0664-7281"
+        ],
+        "affiliations": [
+          "Molecular Pharmacology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Adele, Adedamola A",
+        "short_name": "Adele AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Miami Miller School of Medicine, Miami, FL, USA.",
+          "Sylvester Comprehensive Cancer Center, University of Miami Miller School of Medicine, Miami, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Cruz, Angelique",
+        "short_name": "Cruz A",
+        "identifiers": [],
+        "affiliations": [
+          "Sylvester Comprehensive Cancer Center, University of Miami Miller School of Medicine, Miami, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Wiseman, Daniel H",
+        "short_name": "Wiseman DH",
+        "identifiers": [
+          "0000-0003-0715-1402"
+        ],
+        "affiliations": [
+          "Epigenetics of Haematopoiesis Group, The University of Manchester, Manchester M20 4BX, UK."
+        ]
+      },
+      {
+        "full_name": "Abdel-Wahab, Omar",
+        "short_name": "Abdel-Wahab O",
+        "identifiers": [
+          "0000-0002-3907-6171"
+        ],
+        "affiliations": [
+          "Molecular Pharmacology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Figueroa, Maria E",
+        "short_name": "Figueroa ME",
+        "identifiers": [
+          "0000-0003-4887-4981"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Miami Miller School of Medicine, Miami, FL, USA.",
+          "Sylvester Comprehensive Cancer Center, University of Miami Miller School of Medicine, Miami, FL, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2026 Jan 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/02 19:38",
+    "fetched_at": "2026-10-01 10:11:20"
+  },
+  "links": {
+    "cites": [
+      "42625101",
+      "42217088"
+    ],
+    "refs": [
+      "37100881",
+      "36864749",
+      "36658433",
+      "36318249",
+      "36316347",
+      "36300620",
+      "36271153",
+      "36243972",
+      "35544277",
+      "35325185",
+      "34850907",
+      "34289154",
+      "34157091",
+      "34133727",
+      "34108230",
+      "33765992",
+      "33367505",
+      "33349666",
+      "33024290",
+      "32001512",
+      "31961934",
+      "31932841",
+      "31839405",
+      "31578525",
+      "31334570",
+      "31085557",
+      "31025937",
+      "30333627",
+      "30272246",
+      "29903888",
+      "29858584",
+      "29146882",
+      "28480880",
+      "28473536",
+      "28408400",
+      "27276561",
+      "27016502",
+      "25965569",
+      "25953851",
+      "25873173",
+      "25835001",
+      "25550361",
+      "25516281",
+      "25482556",
+      "25480548",
+      "25417204",
+      "24878920",
+      "24836530",
+      "23950696",
+      "23938295",
+      "23634996",
+      "23104886",
+      "23034175",
+      "22961379",
+      "22955616",
+      "22952045",
+      "22824278",
+      "22002536",
+      "21909114",
+      "21816040",
+      "21493656",
+      "21251613",
+      "21130701",
+      "20171147",
+      "20110278",
+      "16199517",
+      "15094809",
+      "11309499"
+    ],
+    "similar": [
+      "41481703",
+      "31578525",
+      "28408400",
+      "30896832",
+      "22737091",
+      "26812887",
+      "27135740",
+      "40562788",
+      "32624537",
+      "25220401",
+      "32001512",
+      "34270876",
+      "26261309",
+      "27552991",
+      "24867525",
+      "25553291",
+      "28193779",
+      "29858584",
+      "32358566",
+      "20368543",
+      "29146882",
+      "31040863",
+      "21504050",
+      "24989313",
+      "37031307",
+      "25795706",
+      "28892045",
+      "21647154",
+      "40660382",
+      "20602769",
+      "37544725",
+      "38417135",
+      "36040792",
+      "34321240",
+      "25965569",
+      "41556261",
+      "31662450",
+      "34289154",
+      "30357359",
+      "37458189",
+      "29090344",
+      "33349666",
+      "22397365",
+      "28712387",
+      "22781800",
+      "40273911",
+      "27496870",
+      "27697661",
+      "40651916",
+      "25996682",
+      "31418360",
+      "29207054",
+      "26789100",
+      "38944027",
+      "25499150",
+      "24065765",
+      "34873300",
+      "36206200",
+      "23815907",
+      "33173219",
+      "26820131",
+      "23949315",
+      "27431380",
+      "22899282",
+      "37344641",
+      "26189213",
+      "31533980",
+      "26320575",
+      "22763442",
+      "31680297",
+      "38529738",
+      "25398938",
+      "35941213",
+      "28655759",
+      "24574459",
+      "29930011",
+      "36739363",
+      "30988238",
+      "22740315",
+      "39526588",
+      "41566085",
+      "20567020",
+      "21545276",
+      "27322744",
+      "28215704",
+      "40991983",
+      "38763139",
+      "26674321",
+      "28152414",
+      "30270726",
+      "33976256",
+      "30705090",
+      "27256388",
+      "22929312",
+      "34946913",
+      "24668493",
+      "25891904",
+      "23938295",
+      "39406588",
+      "37774069"
+    ],
+    "review": [
+      "41481703",
+      "40562788",
+      "24989313",
+      "29090344",
+      "40651916",
+      "26789100",
+      "25499150",
+      "27431380"
+    ],
+    "pmc": [
+      "12758512"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/sciadv.adu8292?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://www.ovid.com/41481703.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41481703/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41481703",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NBN-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-221",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

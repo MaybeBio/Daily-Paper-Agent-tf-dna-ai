@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "40442788",
+    "doi": "10.1186/s13018-025-05799-9",
+    "title": "Integrated bioinformatics and network pharmacology to identify and validate macrophage polarization related hub genes in the treatment of osteoarthritis with Astragalus membranaceus."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Macrophage polarization exacerbates the pathological processes of osteoarthritis (OA). Astragalus membranaceus (AM) can repair chondrocytes and serve as a protective agent for OA. Therefore, the study intended to identify macrophage polarization-related genes (MPRGs) in the treatment of OA with AM. METHODS: We utilized data from GSE57218 as training set, while GSE117999 serves as a validation set, all obtained from Gene Expression Omnibus(GEO). The MPRGs were exported from the Molecular Signatures Database. Target genes of AM were obtained by network pharmacology. Differentially expressed genes (DEGs) were identified in OA vs. control groups. Then key module genes were acquired through weighted gene co-expression network analysis (WGCNA) and intersected with DEGs and target genes of AM to obtain candidate genes. Subsequently, the candidate genes were further screened for hub genes by machine learning, receiver operating characteristic (ROC) curve analysis, and expression validation. Further, reverse transcription-quantitative real-time polymerase chain reaction (RT-qPCR) was applied to verify the mRNA expression levels of hub genes. In addition, the mechanism of these hub genes was investigated through enrichment analysis, immune microenvironment analysis, regulatory network construction, and molecular docking. RESULTS: Ultimately, 1,430 DEGs, 4,577 key module genes, and 486 target genes of AM were intersected to derive 28 candidate genes. After machine learning, ROC curve analysis and expression validation, CREBBP and PIM3 were identified. The mRNA expression of tissue CREBBP and PIM3 was significantly decreased in OA compared with the control group. Furthermore, the enrichment analysis indicated that eight pathways, including oxidative phosphorylation, were simultaneously enriched by two hub genes. Microenvironment analysis revealed negative correlations between both hub genes and 11 differential immune cells. We identified that CREBBP and PIM3 were regulated by 6 miRNAs (e.g., hsa-mir-942-5p) and 79 transcription factors (TFs) (e.g., IRF1). Molecular docking experiments indicated that isoflavone strongly bound to CREBBP, while (3R)-3-(2-hydroxy-3,4-dimethoxyphenyl) chroman-7-ol exhibited significant binding affinity for PIM3, suggesting that these two active ingredients were core components of AM in treating OA via hub genes. CONCLUSION: This study identified CREBBP and PIM3 as potential focal points for the treatment of OA with AM, providing valuable clues to help treat and predict OA. CLINICAL TRIAL NUMBER: Not applicable.",
+    "keywords": [
+      "Astragalus membranaceus",
+      "Bioinformatics",
+      "Macrophage polarization",
+      "Network pharmacology",
+      "Osteoarthritis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Astragalus propinquus/chemistry",
+      "*Computational Biology/methods",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks/drug effects",
+      "*Macrophage Activation/drug effects/genetics",
+      "*Macrophages/drug effects/metabolism",
+      "Molecular Docking Simulation",
+      "*Network Pharmacology/methods",
+      "*Osteoarthritis/genetics/drug therapy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zang, Hui",
+        "Wang, Liuyan",
+        "Wu, Yang",
+        "Chang, Junfei",
+        "Liu, Wanjun"
+      ],
+      "short_names": [
+        "Zang H",
+        "Wang L",
+        "Wu Y",
+        "Chang J",
+        "Liu W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shanghai Ocean University, Shanghai, 201306, China.",
+        "Shanghai Ocean University, Shanghai, 201306, China.",
+        "Shanghai Jiao Tong University School of Medicine, Shanghai, 201306, China.",
+        "Department of Joint Surgery, Shanghai Sixth People's Hospital, Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 201306, China.",
+        "Shanghai Ocean University, Shanghai, 201306, China.",
+        "Shanghai Ocean University, Shanghai, 201306, China. 72500L10067@shsmu.edu.cn.",
+        "Department of Joint Surgery, Shanghai Sixth People's Hospital, Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 201306, China. 72500L10067@shsmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zang, Hui",
+        "short_name": "Zang H",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Ocean University, Shanghai, 201306, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liuyan",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Ocean University, Shanghai, 201306, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yang",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Jiao Tong University School of Medicine, Shanghai, 201306, China.",
+          "Department of Joint Surgery, Shanghai Sixth People's Hospital, Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 201306, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Junfei",
+        "short_name": "Chang J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Ocean University, Shanghai, 201306, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wanjun",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Ocean University, Shanghai, 201306, China. 72500L10067@shsmu.edu.cn.",
+          "Department of Joint Surgery, Shanghai Sixth People's Hospital, Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 201306, China. 72500L10067@shsmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of orthopaedic surgery and research"
+    ],
+    "journal_abbrev": [
+      "J Orthop Surg Res"
+    ],
+    "pub_date": "2025 May 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/30 01:38",
+    "fetched_at": "2026-09-30 18:44:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39696421",
+      "39418100",
+      "39375623",
+      "39360672",
+      "39342341",
+      "39252244",
+      "39227108",
+      "39085912",
+      "39064807",
+      "39026271",
+      "38855330",
+      "38589918",
+      "38542097",
+      "38339286",
+      "38318502",
+      "37996917",
+      "37954210",
+      "37885715",
+      "37641050",
+      "37510279",
+      "37439907",
+      "37433427",
+      "37047082",
+      "36879254",
+      "36694243",
+      "36403512",
+      "36299582",
+      "36224344",
+      "36047225",
+      "36046996",
+      "35921596",
+      "35845045",
+      "35751589",
+      "35549515",
+      "35436874",
+      "35410677",
+      "35011166",
+      "34887753",
+      "34639203",
+      "34589089",
+      "34557778",
+      "34006826",
+      "33892795",
+      "33563553",
+      "33383189",
+      "33287854",
+      "32955487",
+      "32278072",
+      "32163543",
+      "32103372",
+      "31945457",
+      "31499338",
+      "30439402",
+      "30204915",
+      "30157903",
+      "29543781",
+      "29514675",
+      "28668542",
+      "28153787",
+      "28137554",
+      "27207943",
+      "26962470",
+      "26269675",
+      "25605792",
+      "25261579",
+      "23568763",
+      "23323831",
+      "21414208",
+      "21269502",
+      "19505587",
+      "19114008"
+    ],
+    "similar": [
+      "40442788",
+      "40216809",
+      "35119030",
+      "40628511",
+      "40804350",
+      "39086489",
+      "41052072",
+      "39695788",
+      "40589764",
+      "39026663",
+      "38318502",
+      "41146237",
+      "39484775",
+      "41261566",
+      "41327360",
+      "40420260",
+      "41316378",
+      "39350059",
+      "38968529",
+      "38734758",
+      "39849508",
+      "40821971",
+      "35860189",
+      "40335993",
+      "35757478",
+      "39176085",
+      "38771826",
+      "40332792",
+      "33468167",
+      "39612274",
+      "40842856",
+      "35473522",
+      "37503333",
+      "36890149",
+      "34949204",
+      "39551179",
+      "41442003",
+      "39148085",
+      "40859027",
+      "37666859",
+      "38156385",
+      "37291167",
+      "36700234",
+      "36976504",
+      "41444522",
+      "39585570",
+      "32135469",
+      "34583778",
+      "40898503",
+      "34340232",
+      "38292759",
+      "29514675",
+      "33325525",
+      "40997906",
+      "34218797",
+      "33292128",
+      "38905394",
+      "34353081",
+      "40574839",
+      "41009659",
+      "34224029",
+      "37740761",
+      "39914590",
+      "36699262",
+      "41030501",
+      "39391879",
+      "38299290",
+      "34536521",
+      "39341952",
+      "40790764",
+      "35783271",
+      "40406620",
+      "38509535",
+      "39139563",
+      "41479901",
+      "39639239",
+      "40424487",
+      "36291136",
+      "40564983",
+      "40977739",
+      "39297544",
+      "40055592",
+      "38701256",
+      "39839184",
+      "39559355",
+      "37454542",
+      "35651940",
+      "29658578",
+      "41196851",
+      "41094572",
+      "36966915",
+      "35381129",
+      "37138862",
+      "39438957",
+      "39675129",
+      "35392084",
+      "36157206",
+      "40186163",
+      "39713769",
+      "35368701"
+    ],
+    "review": [
+      "40442788",
+      "35119030",
+      "34340232"
+    ],
+    "pmc": [
+      "12124071"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://josr-online.biomedcentral.com/articles/10.1186/s13018-025-05799-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40442788/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

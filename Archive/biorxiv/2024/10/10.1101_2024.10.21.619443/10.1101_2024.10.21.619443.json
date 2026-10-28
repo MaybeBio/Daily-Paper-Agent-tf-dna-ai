@@ -1,0 +1,596 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.21.619443",
+  "title": "Polyphosphate Discriminates Protein Conformational Ensembles More Efficiently than DNA Promoting Diverse Assembly and Maturation Behaviors",
+  "doi": "10.1101/2024.10.21.619443",
+  "abstract": "Disordered proteins and domains often assemble into condensates with polyanionic nucleic acids, primarily via charge complementarity, regulating numerous cellular functions. However, the assembly mechanisms associated with the other abundant and ubiquitous, anionic, stress-response regulating polymer, polyphosphate (polyP), is less understood. Here, we employ the intrinsically disordered DNA binding domain (DBD) of cytidine repressor (CytR) from E.coli to study the nature of assembly processes with polyP and DNA. CytR forms metastable liquid-like condensates with polyP and DNA, while undergoing liquid-to-solid transition in the former and dissolving in the latter. On mutationally engineering the ensemble to exhibit more or less structure and dimensions than the WT, the assembly process with polyP is directed to either condensates with partial time-dependent dissolution or spontaneous aggregation, respectively. On the other hand, the CytR variants form only liquid-like but metastable droplets with DNA which dissolve within a few hours. Polyphosphate induces large secondary-structure changes, with two of the mutants adopting polyproline II-like structures within droplets, while DNA has only minimal structural effects. Our findings reveal how polyphosphate can more efficiently discern conformational heterogeneity in the starting protein ensemble, its structure, and compactness, with broad implications in assembly mechanisms involving polyP and stress response in bacterial systems.",
+  "authors": [
+    "Saloni Goyal",
+    "Divya Rajendran",
+    "Anup Kumar Mani",
+    "Athi N. Naganathan"
+  ],
+  "published_date": "2024-10-24",
+  "updated_date": "2024-10-24T18:20:12Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.21.619443",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.21.619443.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T16:34:05Z",
+        "timestamp": 1785429245880,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            24
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 63,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                24
+              ]
+            ],
+            "date-time": "2024-10-24T00:00:00Z",
+            "timestamp": 1729728000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "BT/PR41973/BRB/10/1967/2021"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "BT/PR41973/BRB/10/1967/2021"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/03tjsyq23",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "SR/FST/LS-II/2020/552(C)"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "SR/FST/LS-II/2020/552(C)"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/0101xrq71",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            14
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Disordered proteins and domains often assemble into condensates with polyanionic nucleic acids, primarily via charge complementarity, regulating numerous cellular functions. However, the assembly mechanisms associated with the other abundant and ubiquitous, anionic, stress-response regulating polymer, polyphosphate (polyP), is less understood. Here, we employ the intrinsically disordered DNA binding domain (DBD) of cytidine repressor (CytR) from\n                  <jats:italic>E.coli</jats:italic>\n                  to study the nature of assembly processes with polyP and DNA. CytR forms metastable liquid-like condensates with polyP and DNA, while undergoing liquid-to-solid transition in the former and dissolving in the latter. On mutationally engineering the ensemble to exhibit more or less structure and dimensions than the WT, the assembly process with polyP is directed to either condensates with partial time-dependent dissolution or spontaneous aggregation, respectively. On the other hand, the CytR variants form\n                  <jats:italic>only</jats:italic>\n                  liquid-like but metastable droplets with DNA which dissolve within a few hours. Polyphosphate induces large secondary-structure changes, with two of the mutants adopting polyproline II-like structures within droplets, while DNA has only minimal structural effects. Our findings reveal how polyphosphate can more efficiently discern conformational heterogeneity in the starting protein ensemble, its structure, and compactness, with broad implications in assembly mechanisms involving polyP and stress response in bacterial systems.\n                </jats:p>",
+      "DOI": "10.1101/2024.10.21.619443",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            24
+          ]
+        ],
+        "date-time": "2024-10-24T18:20:12Z",
+        "timestamp": 1729794012000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Polyphosphate Discriminates Protein Conformational Ensembles More Efficiently than DNA Promoting Diverse Assembly and Maturation Behaviors"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Saloni",
+          "family": "Goyal",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Divya",
+          "family": "Rajendran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anup Kumar",
+          "family": "Mani",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1655-7802",
+          "authenticated-orcid": false,
+          "given": "Athi N.",
+          "family": "Naganathan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1172046"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2011.06.013"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaf4382"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.7"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-020-00326-6"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.1c01146"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.2c00814"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.4c00138"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4093"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2021.167368"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42003-023-04963-3"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/d3cs01065a"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22822"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22989"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.7b03567"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.64004"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2021.01.033"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.90820"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cis.2024.103133"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biochem.68.1.89"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0406909101"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biochem.77.083007.093039"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0407787101"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fonc.2019.01410"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.9b00460"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/mBio.01017-20"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.abk0233"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/BCJ20200975"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2014.01.012"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2016.07.016"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2018.08.016"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.REV118.002808"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2024.168504"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab408"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3280"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi200205v"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2018.06.008"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.biochem.9b00182"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.biochem.9b00678"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.adh4591"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky176"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky732"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abd9944"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.2089"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-41864-9"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.07.047"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41557-020-0465-9"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2301366120"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-32350-9"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42003-023-05608-1"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0065-3233(02)62008-X"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/1389203003381315"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.4c03895"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-019-0250-x"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.1c03078"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/anie.202205726"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-43225-y"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/anie.201913833"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/jb.174.9.2881-2890.1992"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.93.19.10151"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbrc.2019.10.165"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1365-2958.1998.00999.x"
+        },
+        {
+          "key": "2025061704001025000_2024.10.21.619443v4.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-26098-x"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.10.21.619443",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:19:38Z",
+        "timestamp": 1768461578000
+      },
+      "score": 75.37607,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.10.21.619443"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            24
+          ]
+        ]
+      },
+      "references-count": 63,
+      "URL": "https://doi.org/10.1101/2024.10.21.619443",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.105461",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.105461.3",
+            "asserted-by": "object"
+          }
+        ],
+        "has-version": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.105461.2",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.105461.1",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            24
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

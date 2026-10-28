@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38349057",
+  "title": "ULDNA: integrating unsupervised multi-source language models with LSTM-attention network for high-accuracy protein-DNA binding site prediction.",
+  "authors": "Zhu, Yi-Heng; Liu, Zi; Liu, Yan; Ji, Zhiwei; Yu, Dong-Jun",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-02-13",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出ULDNA深度学习模型，利用多源无监督语言模型和LSTM-attention网络从蛋白质序列预测DNA结合位点，属于广义蛋白-DNA互作预测，方法可迁移至TF-DNA体系，但未聚焦三维互作机制。",
+  "abstract": "Efficient and accurate recognition of protein-DNA interactions is vital for understanding the molecular mechanisms of related biological processes and further guiding drug discovery. Although the current experimental protocols are the most precise way to determine protein-DNA binding sites, they tend to be labor-intensive and time-consuming. There is an immediate need to design efficient computational approaches for predicting DNA-binding sites. Here, we proposed ULDNA, a new deep-learning model, to deduce DNA-binding sites from protein sequences. This model leverages an LSTM-attention architecture, embedded with three unsupervised language models that are pre-trained on large-scale sequences from multiple database sources. To prove its effectiveness, ULDNA was tested on 229 protein chains with experimental annotation of DNA-binding sites. Results from computational experiments revealed that ULDNA significantly improves the accuracy of DNA-binding site prediction in comparison with 17 state-of-the-art methods. In-depth data analyses showed that the major strength of ULDNA stems from employing three transformer language models. Specifically, these language models capture complementary feature embeddings with evolution diversity, in which the complex DNA-binding patterns are buried. Meanwhile, the specially crafted LSTM-attention network effectively decodes evolution diversity-based embeddings as DNA-binding results at the residue level. Our findings demonstrated a new pipeline for predicting DNA-binding sites on a large scale with high accuracy from protein sequence alone.",
+  "abstract_zh": "高效且准确地识别蛋白质-DNA相互作用对于理解相关生物过程的分子机制以及进一步指导药物发现至关重要。尽管当前的实验方案是确定蛋白质-DNA结合位点最精确的方法，但它们往往劳动密集且耗时。因此，迫切需要设计高效的计算方法来预测DNA结合位点。在此，我们提出了ULDNA，一种新的深度学习模型，用于从蛋白质序列中推断DNA结合位点。该模型利用LSTM-注意力架构，并嵌入了三个无监督语言模型，这些模型在来自多个数据库来源的大规模序列上进行了预训练。为证明其有效性，ULDNA在229条具有实验注释DNA结合位点的蛋白质链上进行了测试。计算实验结果表明，与17种最先进的方法相比，ULDNA显著提高了DNA结合位点预测的准确性。深入数据分析显示，ULDNA的主要优势源于采用三个Transformer语言模型。具体而言，这些语言模型捕获了具有进化多样性的互补特征嵌入，其中复杂的DNA结合模式被隐藏。同时，特别设计的LSTM-注意力网络有效解码基于进化多样性的嵌入，在残基水平上生成DNA结合结果。我们的发现展示了一种新流程，仅从蛋白质序列即可大规模高精度预测DNA结合位点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38349057/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38349057/",
+  "paper_page_path": "papers/pubmed/38349057/index.html"
+}

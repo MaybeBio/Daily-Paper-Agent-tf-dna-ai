@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2203.12179v4",
+  "title": "Targeted Function Balancing: Flexible balancing weights that leverage strategic imbalance to estimate causal effects",
+  "authors": "Leonard Wainstein; He Bai",
+  "journal": "",
+  "published_date": "2022-03-23",
+  "window": {
+    "start": "2022-03-21",
+    "end": "2022-03-27"
+  },
+  "score": 0,
+  "one_liner_zh": "该文介绍因果推断中的协变量平衡加权方法，与蛋白质-DNA互作及TF-DNA结合机制完全无关。",
+  "abstract": "When estimating the average treatment effect of a binary intervention with weights, investigators are often burdened with how best to leave imbalance in the distributions of observed covariates. This requires that investigators proceed cautiously, as imbalance in key (nonlinear transformations of) covariates potentially introduces bias into the ultimate estimated effect. This paper introduces Targeted Function Balancing (TFB), a flexible covariate balancing weights approach that simplifies this problem for the researcher. TFB first regresses an outcome on covariates, and then selects weights that balance functions (of the covariates) that are probabilistically near the resulting regression function. This yields balance in the regression function's predicted values and the covariates, with the regression function's estimated variance determining how much balance in the covariates is sufficient. Notably, TFB demonstrates that intentionally leaving imbalance in some covariates can increase efficiency without introducing bias, challenging traditions that warn against imbalance in any variable. Though, TFB still does prioritize balance in the covariates that are most influential on the outcome. Additionally, TFB is entirely defined by a regression function and its estimated variance, turning the problem of how best to balance the covariates into how best to model the outcome. Kernel regularized least squares, the LASSO, and Bayesian Additive Regression Trees are considered as regression estimators. We apply TFB to estimate the effects of taking mathematics courses in twelfth grade in the Los Angeles Unified School District. The R Package tfb implements TFB.",
+  "abstract_zh": "在利用权重估计二元干预的平均处理效应时，研究者常常面临如何最优地处理观测协变量分布中不平衡性的负担。这要求研究者谨慎行事，因为关键（非线性变换的）协变量中的不平衡可能最终引入估计效应中的偏差。本文引入了目标函数平衡（Targeted Function Balancing, TFB），一种灵活的协变量平衡权重方法，为研究者简化了这一问题。TFB首先将结果变量对协变量进行回归，然后选择权重，以平衡（协变量的）函数，这些函数在概率上接近所得的回归函数。这实现了回归函数预测值和协变量的平衡，其中回归函数的估计方差决定了协变量中多少平衡是足够的。值得注意的是，TFB表明，故意在某些协变量中保留不平衡可以在不引入偏差的情况下提高效率，这挑战了警告任何变量不平衡的传统观念。尽管如此，TFB仍优先平衡对结果影响最大的协变量。此外，TFB完全由回归函数及其估计方差定义，将如何最优平衡协变量的问题转化为如何最优建模结果的问题。核正则化最小二乘、LASSO和贝叶斯加性回归树被考虑作为回归估计器。我们将TFB应用于估计洛杉矶联合学区十二年级修读数学课程的效果。R包tfb实现了TFB。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2203.12179v4",
+  "source_url": "https://arxiv.org/abs/2203.12179v4",
+  "paper_page_path": "papers/arxiv/2203.12179v4/index.html"
+}

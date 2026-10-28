@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "35902862",
+    "doi": "10.1186/s13018-022-03247-6",
+    "title": "KLF9 and EPYC acting as feature genes for osteoarthritis and their association with immune infiltration."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteoarthritis, a common degenerative disease of articular cartilage, is characterized by degeneration of articular cartilage, changes in subchondral bone structure, and formation of osteophytes, with main clinical manifestations including increasingly serious swelling, pain, stiffness, deformity, and mobility deficits of the knee joints. With the advent of the big data era, the processing of mass data has evolved into a hot topic and gained a solid foundation from the steadily developed and improved machine learning algorithms. Aiming to provide a reference for the diagnosis and treatment of osteoarthritis, this paper using machine learning identifies the key feature genes of osteoarthritis and explores its relationship with immune infiltration, thereby revealing its pathogenesis at the molecular level. METHODS: From the GEO database, GSE55235 and GSE55457 data were derived as training sets and GSE98918 data as a validation set. Differential gene expressions of the training sets were analyzed, and the LASSO regression model and support vector machine model were established by applying machine learning algorithms. Moreover, their intersection genes were regarded as feature genes, the receiver operator characteristic (ROC) curve was drawn, and the results were verified using the validation set. In addition, the expression spectrum of osteoarthritis was analyzed by immunocyte infiltration and the co-expression correlation between feature genes and immunocytes was construed. CONCLUSION: EPYC and KLF9 can be viewed as feature genes for osteoarthritis. The silencing of EPYC and the overexpression of KLF9 are associated with the occurrence of osteoarthritis and immunocyte infiltration.",
+    "keywords": [
+      "Bioinformatics",
+      "EPYC",
+      "Immune infiltration",
+      "KLF9",
+      "Machine learning",
+      "Osteoarthritis"
+    ],
+    "mesh_terms": [
+      "Bone and Bones/metabolism",
+      "*Cartilage, Articular/metabolism",
+      "Humans",
+      "Knee Joint/pathology",
+      "Kruppel-Like Transcription Factors/metabolism",
+      "*Osteoarthritis/pathology",
+      "Small Leucine-Rich Proteoglycans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jiayin",
+        "Zhang, Shengjie",
+        "Zhou, Yu",
+        "Qu, Yuan",
+        "Hou, Tingting",
+        "Ge, Wanbao",
+        "Zhang, Shanyong"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Zhang S",
+        "Zhou Y",
+        "Qu Y",
+        "Hou T",
+        "Ge W",
+        "Zhang S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Orthopedics, The Second Hospital of Jilin University, No. 218, Ziqiang Street, Nanguan District, Changchun, 130000, Jilin, China.",
+        "Orthopedics, The Second Hospital of Jilin University, No. 218, Ziqiang Street, Nanguan District, Changchun, 130000, Jilin, China.",
+        "Orthopedics, Changchun University of Chinese Medicine, No.1478, Gongnong Road, Chaoyang District, Changchun, 130117, Jilin, China.",
+        "Orthopedics, The Second Hospital of Jilin University, No. 218, Ziqiang Street, Nanguan District, Changchun, 130000, Jilin, China.",
+        "Orthopedics, The Second Hospital of Jilin University, No. 218, Ziqiang Street, Nanguan District, Changchun, 130000, Jilin, China.",
+        "Orthopedics, The Second Hospital of Jilin University, No. 218, Ziqiang Street, Nanguan District, Changchun, 130000, Jilin, China.",
+        "Orthopedics, The Second Hospital of Jilin University, No. 218, Ziqiang Street, Nanguan District, Changchun, 130000, Jilin, China. jzhangshanyong@yeah.net.",
+        "Orthopedics, Changchun University of Chinese Medicine, No.1478, Gongnong Road, Chaoyang District, Changchun, 130117, Jilin, China. jzhangshanyong@yeah.net."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jiayin",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedics, The Second Hospital of Jilin University, No. 218, Ziqiang Street, Nanguan District, Changchun, 130000, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shengjie",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedics, The Second Hospital of Jilin University, No. 218, Ziqiang Street, Nanguan District, Changchun, 130000, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yu",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedics, Changchun University of Chinese Medicine, No.1478, Gongnong Road, Chaoyang District, Changchun, 130117, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Qu, Yuan",
+        "short_name": "Qu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedics, The Second Hospital of Jilin University, No. 218, Ziqiang Street, Nanguan District, Changchun, 130000, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Tingting",
+        "short_name": "Hou T",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedics, The Second Hospital of Jilin University, No. 218, Ziqiang Street, Nanguan District, Changchun, 130000, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Wanbao",
+        "short_name": "Ge W",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedics, The Second Hospital of Jilin University, No. 218, Ziqiang Street, Nanguan District, Changchun, 130000, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shanyong",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Orthopedics, The Second Hospital of Jilin University, No. 218, Ziqiang Street, Nanguan District, Changchun, 130000, Jilin, China. jzhangshanyong@yeah.net.",
+          "Orthopedics, Changchun University of Chinese Medicine, No.1478, Gongnong Road, Chaoyang District, Changchun, 130117, Jilin, China. jzhangshanyong@yeah.net."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of orthopaedic surgery and research"
+    ],
+    "journal_abbrev": [
+      "J Orthop Surg Res"
+    ],
+    "pub_date": "2022 Jul 28",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/29 06:00",
+    "fetched_at": "2026-10-04 20:25:55"
+  },
+  "links": {
+    "cites": [
+      "42051728",
+      "41549314",
+      "41327293",
+      "41254544",
+      "40584820",
+      "40075313",
+      "39779910",
+      "39157341",
+      "38184732",
+      "37749650",
+      "37721939",
+      "36945455",
+      "36499521"
+    ],
+    "refs": [
+      "34557778",
+      "33161099",
+      "32133442",
+      "32035570",
+      "31084709",
+      "31034380",
+      "29323130",
+      "29258882",
+      "28424692",
+      "26769361",
+      "26656661",
+      "26185243",
+      "25822800",
+      "25605792",
+      "24795272",
+      "24690414",
+      "23360836",
+      "23133752",
+      "23041436",
+      "22455463",
+      "22230308",
+      "21414208",
+      "20808728",
+      "20483756",
+      "19957143",
+      "19884101",
+      "16761367",
+      "16220686",
+      "15803196",
+      "14698640",
+      "14698638",
+      "10451709",
+      "10419770",
+      "9182915"
+    ],
+    "similar": [
+      "35902862",
+      "40287984",
+      "16680465",
+      "40083558",
+      "37986345",
+      "38767974",
+      "39695788",
+      "37671131",
+      "37860011",
+      "41146237",
+      "39779910",
+      "35785145",
+      "37454542",
+      "40436638",
+      "35733917",
+      "40885352",
+      "39779817",
+      "40909283",
+      "24745631",
+      "16641340",
+      "39157341",
+      "39586719",
+      "39799234",
+      "38897125",
+      "41219826",
+      "33258547",
+      "33782454",
+      "12960492",
+      "27118120",
+      "31462003",
+      "29314205",
+      "40533763",
+      "29251375",
+      "38774079",
+      "21937758",
+      "27542282",
+      "30396477",
+      "39396400",
+      "40060994",
+      "34552985",
+      "2155638",
+      "40842856",
+      "39609718",
+      "40045368",
+      "38090564",
+      "15694570",
+      "40646535",
+      "30115046",
+      "29781506",
+      "40406620",
+      "31232647",
+      "38783531",
+      "40360670",
+      "41174627",
+      "37723556",
+      "19010693",
+      "19874594",
+      "9334355",
+      "7275407",
+      "25191747",
+      "32258161",
+      "31201921",
+      "36948405",
+      "38814177",
+      "36929359",
+      "38283345",
+      "33158879",
+      "38371524",
+      "37866944",
+      "27614393",
+      "37980550",
+      "31988808",
+      "40016915",
+      "39142001",
+      "14585729",
+      "38310924",
+      "12644516",
+      "39351238",
+      "32337258",
+      "19481620",
+      "37918800",
+      "23179566",
+      "28974461",
+      "11810482",
+      "39061076",
+      "40500570",
+      "37288291",
+      "16185945",
+      "37821869",
+      "22018973",
+      "37805587",
+      "26159056",
+      "39170142",
+      "1747141",
+      "11315934",
+      "38542192",
+      "21360519",
+      "37732314",
+      "39507054",
+      "40584820"
+    ],
+    "review": [
+      "35902862",
+      "24745631",
+      "12960492",
+      "31462003",
+      "15694570",
+      "33158879",
+      "32337258",
+      "23179566"
+    ],
+    "pmc": [
+      "9330685"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://josr-online.biomedcentral.com/articles/10.1186/s13018-022-03247-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/35902862/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35902862/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35902862",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

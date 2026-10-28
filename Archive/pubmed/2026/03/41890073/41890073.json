@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "41890073",
+    "doi": "10.64898/2026.03.19.712964",
+    "title": "BAF complexes maintain accessibility at stimulus-responsive chromatin and are required for transcriptional stimulus responses."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Gene expression changes in response to developmental and environmental cues rely on cis-regulatory sequence elements (cREs). BRG1/BRM-Associated Factors (BAF) chromatin remodeling complexes maintain chromatin accessibility at many cREs, enabling binding by transcription factors (TFs). However, cREs exhibit a broad range of sensitivity to loss of BAF function, and the basis of this variability remains unknown. RESULTS: To identify the characteristics of BAF-dependent cREs, we mapped chromatin accessibility changes following acute pharmacologic BAF inhibition in GM12878 lymphoblastoid cells. We integrated these results with over 100 TF and histone modification ChIP-seq datasets and used machine learning to identify features that predict chromatin accessibility changes. We found that Activator Protein 1 (AP-1) factors and lymphoid lineage-defining TFs including RUNX3 and PU.1 predicted BAF-dependence. Strikingly, we found that cREs bearing the chromatin signature of \"primed\" enhancers - enriched for H3K4me1 but lacking H3K27ac - were significantly more sensitive to BAF inhibition than typical active enhancers. As primed enhancers are known to facilitate transcriptional responses to stimuli, we tested the requirement of BAF activity in these responses. Acute BAF inhibition was sufficient to prevent both chromatin and transcriptional responses to interferon gamma and dexamethasone. cREs which normally gained accessibility in response to stimulation failed to do so with BAF inhibition, and these cREs were linked to genes with suppressed transcriptional induction. CONCLUSIONS: Collectively, our results demonstrate a requirement for continuous BAF activity to enable stimulus response and suggest that defective signal responsiveness may be a pathogenic mechanism in disease states caused by loss-of-function mutations in BAF subunits.",
+    "keywords": [
+      "Chromatin Remodeling",
+      "Enhancers",
+      "Epigenomics",
+      "Transcriptional Regulation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gulka, Alexander O D",
+        "Kang, Kihoon A",
+        "Zhou, Ziben",
+        "Gorkin, David U"
+      ],
+      "short_names": [
+        "Gulka AOD",
+        "Kang KA",
+        "Zhou Z",
+        "Gorkin DU"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2926-1047"
+      ],
+      "affiliations": [
+        "Graduate Program in Genetics and Molecular Biology, Emory University, Atlanta, GA.",
+        "Department of Biology, Emory University, Atlanta, GA.",
+        "Department of Biology, Emory University, Atlanta, GA.",
+        "Graduate Program in Biochemistry, Cell and Developmental Biology, Atlanta, GA.",
+        "Department of Biology, Emory University, Atlanta, GA.",
+        "Department of Biology, Emory University, Atlanta, GA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gulka, Alexander O D",
+        "short_name": "Gulka AOD",
+        "identifiers": [
+          "0000-0003-2926-1047"
+        ],
+        "affiliations": [
+          "Graduate Program in Genetics and Molecular Biology, Emory University, Atlanta, GA.",
+          "Department of Biology, Emory University, Atlanta, GA."
+        ]
+      },
+      {
+        "full_name": "Kang, Kihoon A",
+        "short_name": "Kang KA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Emory University, Atlanta, GA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Ziben",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Program in Biochemistry, Cell and Developmental Biology, Atlanta, GA.",
+          "Department of Biology, Emory University, Atlanta, GA."
+        ]
+      },
+      {
+        "full_name": "Gorkin, David U",
+        "short_name": "Gorkin DU",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Emory University, Atlanta, GA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Mar 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/27 07:15",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40846763",
+      "40682180",
+      "40494354",
+      "40454394",
+      "39460617",
+      "39414356",
+      "38843835",
+      "38427725",
+      "37993417",
+      "37922899",
+      "37524526",
+      "37500730",
+      "37028419",
+      "35650187",
+      "34288498",
+      "33891947",
+      "33558760",
+      "33558757",
+      "33444684",
+      "32930455",
+      "32913098",
+      "32728249",
+      "31427792",
+      "31213714",
+      "31178587",
+      "30996347",
+      "30339381",
+      "30254741",
+      "30097539",
+      "29503092",
+      "29323272",
+      "29272704",
+      "29224777",
+      "28973438",
+      "28512350",
+      "28299664",
+      "27941798",
+      "27079975",
+      "26996307",
+      "26993806",
+      "26925227",
+      "26891983",
+      "26601204",
+      "26438538",
+      "25938943",
+      "25842977",
+      "25516281",
+      "25477382",
+      "25195102",
+      "25103404",
+      "24909122",
+      "24141950",
+      "23950696",
+      "23832230",
+      "23644491",
+      "23355908",
+      "23332752",
+      "23104886",
+      "22955991",
+      "22955617",
+      "22955616",
+      "22801371",
+      "22797305",
+      "22388286",
+      "22387025",
+      "21816040",
+      "21726817",
+      "21683060",
+      "21632746",
+      "21441907",
+      "21258342",
+      "20513432",
+      "20299548",
+      "20110278",
+      "19910308",
+      "19801529",
+      "19342595",
+      "19097995",
+      "18798982",
+      "18775669",
+      "18569454",
+      "17277777",
+      "16452502",
+      "15388519",
+      "15060156",
+      "12775722",
+      "12244326",
+      "12192045",
+      "12192000",
+      "11967309",
+      "11953317",
+      "11003650",
+      "9430225",
+      "9202125",
+      "8321202"
+    ],
+    "similar": [
+      "41890073",
+      "33558760",
+      "28428261",
+      "31533978",
+      "31053165",
+      "29272704",
+      "25442502",
+      "38427563",
+      "30814119",
+      "38427725",
+      "41659470",
+      "41237357",
+      "37873481",
+      "23547170",
+      "42571864",
+      "28438527",
+      "42475469",
+      "26683334",
+      "33010223",
+      "38297077",
+      "36153585",
+      "41866306",
+      "35976093",
+      "40702585",
+      "26655900",
+      "38811575",
+      "32459350",
+      "41724964",
+      "35661830",
+      "31399133",
+      "15121865",
+      "41279641",
+      "29255264",
+      "35390276",
+      "29396371",
+      "35022313",
+      "30078722",
+      "42031562",
+      "42586070",
+      "40494354",
+      "37600946",
+      "42358989",
+      "36945732",
+      "39127768",
+      "33712604",
+      "35385731",
+      "40131776",
+      "37722500",
+      "39724337",
+      "19180471",
+      "32973863",
+      "37132521",
+      "15525990",
+      "41175859",
+      "22537144",
+      "28262751",
+      "26986003",
+      "27413115",
+      "28824374",
+      "41632506",
+      "20484412",
+      "37864247",
+      "25813539",
+      "23698369",
+      "38843835",
+      "36782260",
+      "38113003",
+      "41005292",
+      "35549704",
+      "25433490",
+      "37938195",
+      "32312822",
+      "33602870",
+      "41679301",
+      "42114111",
+      "30892142",
+      "37425940",
+      "33334824",
+      "28855262",
+      "24496512",
+      "27149204",
+      "32999023",
+      "25894978",
+      "28317936",
+      "28335009",
+      "21415370",
+      "34716243",
+      "36800318",
+      "29374058",
+      "29861296",
+      "31217031",
+      "27087856",
+      "42364105",
+      "41862973",
+      "40672303",
+      "32119833",
+      "37294468",
+      "41514467",
+      "30593493",
+      "31038680"
+    ],
+    "review": [
+      "41890073",
+      "42571864",
+      "27413115",
+      "28824374",
+      "20484412",
+      "24496512",
+      "27149204",
+      "41862973"
+    ],
+    "pmc": [
+      "13015267"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41890073/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.03.19.712964",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

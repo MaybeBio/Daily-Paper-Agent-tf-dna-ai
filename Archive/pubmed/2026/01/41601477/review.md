@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusion sections.
+- **Assessment boundary** The review is confined to the scientific content, methodological rigor, and interpretative validity of the computational analyses presented. No assessment of editorial fit or journal-specific policy is made.
+- **Shared manuscript claim summary** The authors propose that specific missense mutations in the REST transcriptional repressor, identified through in silico screening, disrupt its interaction with the Re1 DNA motif and co-repressor proteins, potentially contributing to uterine fibroid pathogenesis. The study integrates evolutionary conservation, structural modeling, protein-protein and protein-DNA docking, and molecular dynamics simulations to prioritize five deleterious variants, with Y283C emerging as the most disruptive.
+- **Visible evidence base** The manuscript includes descriptions of dataset collection (dbSNP, UniProt), structure prediction (AlphaFold3 via Chai-1), validation metrics (pLDDT, ERRAT, Ramachandran), SNP effect prediction (SIFT, PolyPhen-2, PhD-SNPg, mCSM, DynaMod2), docking (HADDOCK 2.4), and MD simulations (GROMACS). Results are presented in Tables 1–5 and Figures 1–8, with supplementary materials referenced.
+- **Missing materials affecting confidence** The manuscript text does not include the actual figures or tables, only their captions and in-text references. Supplementary figures and tables are mentioned but not provided. Specific numerical values for docking scores, MD trajectory data, and detailed validation outputs are not fully accessible in the provided text. Experimental validation data are absent, as acknowledged by the authors.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic and technically sound computational workflow to prioritize potentially deleterious REST mutations and assess their structural and dynamic consequences. The integration of multiple prediction tools and MD simulations is commendable. However, the study is entirely predictive, and the link to uterine fibroid pathogenesis remains speculative. The authors appropriately acknowledge this limitation, but the lack of experimental validation and the absence of key data (figures, tables, detailed outputs) in the provided material limit the strength of the conclusions. The manuscript would benefit from clearer presentation of results and a more cautious interpretation of the biological implications.
+- **Who would be interested in the results, and why** Researchers in computational biology, structural bioinformatics, and transcriptional regulation would find the methodological framework and the prioritization of REST variants of interest. Clinicians and translational scientists studying uterine fibroids or other REST-associated pathologies might be interested in the candidate mutations for future experimental studies. The work also has relevance for those investigating the structural basis of transcription factor-DNA and co-repressor interactions.
+- **Major strengths** The study employs a multi-layered computational approach, combining evolutionary conservation, multiple pathogenicity predictors, and advanced structural modeling. The use of MD simulations to assess dynamic consequences beyond static docking is a strength. The authors are transparent about the limitations of their computational approach and the lack of experimental validation. The identification of Y283C as a consistently disruptive variant across multiple analyses provides a clear focal point for future work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that the identified mutations, particularly Y283C, "disrupt Re1 motif binding and co-repressor interactions" and may contribute to uterine fibroid pathogenesis.
+  - **Evidence pointer** Results sections "Destabilizing mutations weaken protein-protein and DNA binding" and "Conformational dynamics reveal mutation-specific destabilization"; Tables 3–5; Figures 5–8.
+  - **Concern** The central claim of disrupted binding and interactions is based solely on computational predictions (docking scores, MD-derived metrics). No experimental data (e.g., electrophoretic mobility shift assays, co-immunoprecipitation, reporter assays) are provided to validate these predictions. The authors acknowledge this, but the claim as stated in the title and conclusion is too strong for the evidence presented. The study identifies candidates and generates hypotheses, but it does not establish a mechanistic link to uterine fibroid biology.
+  - **Why it matters** Without experimental validation, the biological relevance of the predicted disruptions remains uncertain. The manuscript's title and conclusion imply a causal relationship that is not supported by the data. This overstatement could mislead readers and overstate the significance of the findings.
+  - **Resolution test** The claim would be supported if the authors either (a) provide experimental validation of the predicted effects on DNA binding and co-repressor interactions, or (b) revise the title and conclusions to clearly state that the findings are predictive and hypothesis-generating, without asserting a direct role in uterine fibroid pathogenesis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The methods describe the use of HADDOCK 2.4 for docking and GROMACS for MD simulations, with results presented in Tables 3–5 and Figures 5–8.
+  - **Evidence pointer** Methods sections "Docking of REST with its interactors" and "Molecular dynamics simulation"; Results sections "Destabilizing mutations weaken protein-protein and DNA binding" and "Conformational dynamics reveal mutation-specific destabilization".
+  - **Concern** The manuscript text does not provide sufficient detail on the docking and MD simulation parameters. For example, the specific HADDOCK settings (e.g., number of models generated, clustering parameters, active and passive residues beyond the single highest-probability residue), the force field parameters for the DNA in the complex simulations, the number of ions and their placement, and the criteria for assessing simulation convergence are not fully described. The statement that "additional replicas are unlikely to expand sampling" is an assertion without supporting data (e.g., block averaging, convergence metrics).
+  - **Why it matters** Reproducibility is a cornerstone of scientific research. The lack of detailed methodological parameters prevents other researchers from replicating the simulations or assessing the robustness of the results. The assertion about replicas is not justified without quantitative convergence analysis.
+  - **Resolution test** The authors should provide a detailed description of all simulation parameters, including input files or a link to a repository, and include a quantitative convergence analysis (e.g., RMSD vs. time plots, block standard error) to support the claim that single trajectories are sufficient.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data presentation
+  - **Claim pointer** The results are presented in Tables 1–5 and Figures 1–8, with supplementary materials referenced.
+  - **Evidence pointer** All results sections; Tables 1–5; Figures 1–8.
+  - **Concern** The provided manuscript text does not include the actual figures and tables, only their captions and in-text references. This makes it impossible to evaluate the quality of the structural models, the docking poses, the MD trajectory plots, or the numerical data in the tables. The supplementary materials are also not provided.
+  - **Why it matters** The figures and tables are the primary evidence for the claims made. Without them, the reviewer cannot assess the validity of the interpretations or the quality of the data. This is a critical gap in the review process.
+  - **Resolution test** The authors must provide all figures and tables, as well as the supplementary materials, for a complete evaluation. The review cannot be finalized without these essential components.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section, paragraph 1
+  - **Issue** The introduction contains a duplicated sentence: "The idea to perform a computational analysis of the REST protein stemmed from the studies conducted by Rueda and Davis, (2013), and Cloud et al. (2022)." This sentence appears at the beginning of the "Dataset collection" subsection under Materials and methods, not in the Introduction. The Introduction section itself is brief and does not fully contextualize the rationale for the study.
+  - **Required correction** The authors should ensure the Introduction provides a clear and concise background on REST, its role in uterine fibroids, and the specific gap this study addresses. The duplicated sentence in the Methods should be removed or integrated appropriately.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section "Conformational dynamics reveal mutation-specific destabilization"
+  - **Evidence pointer** Results section, subsection "Unbound mutants display distinct stability profiles"
+  - **Issue** The term "atomic residue positions ∼8200" is unclear. Residue positions in a protein of 1097 amino acids would not reach 8200. This likely refers to atom indices or a specific region in the simulation, but the phrasing is confusing.
+  - **Required correction** Clarify what is meant by "atomic residue positions ∼8200." If this refers to atom indices, use the correct terminology. If it refers to a specific structural feature, describe it in terms of residue numbers or domain locations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results section "Conformational dynamics reveal mutation-specific destabilization"
+  - **Evidence pointer** Results section, subsection "Mutant REST with Re1 DNA binding stability"
+  - **Issue** The text states that the MD simulation for the complex was 100 ns, but the results section mentions "over the 200 ns simulation" for the wild-type complex. This is inconsistent. The methods section states 100 ns for the complex simulations.
+  - **Required correction** Correct the inconsistency in simulation length. If the complex simulations were 100 ns, the results should reflect this. If they were 200 ns, the methods should be updated.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "Conformational dynamics reveal mutation-specific destabilization"
+  - **Evidence pointer** Results section, subsection "Unbound mutants display distinct stability profiles"
+  - **Issue** The interpretation of RMSF and Rg changes is somewhat speculative. For example, the statement that "This rigidity could compromise REST's transcriptional repression function" is a plausible hypothesis but is not directly supported by the simulation data. The authors should be more cautious in linking dynamic metrics to functional outcomes.
+  - **Required correction** Soften the language to indicate that these are potential implications that require experimental validation, rather than definitive conclusions.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of experimental validation for the central claim of disrupted binding and interactions.
+  - R1-M2: Insufficient methodological detail for docking and MD simulations, hindering reproducibility.
+  - R1-M3: Missing figures, tables, and supplementary materials, preventing full evaluation of the data.
+- **Assessment against Nature-style criteria**
+  - **Originality** The application of a comprehensive in silico pipeline to REST mutations in the context of uterine fibroids is somewhat novel, but the individual methods are well-established. The study does not introduce a new methodology or conceptual framework.
+  - **Scientific importance** The findings are of moderate importance. They identify candidate mutations that could be explored in future studies, but the lack of experimental validation limits their immediate impact. The link to uterine fibroid pathogenesis is speculative.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and structural bioinformaticians. The clinical relevance to uterine fibroids is not sufficiently developed to attract a broader clinical audience.
+  - **Technical soundness** The computational workflow is generally sound, but the lack of methodological detail and the absence of key data (figures, tables) prevent a full assessment of technical rigor. The MD simulation setup and analysis could be more robust.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that may be challenging for nonspecialists. The introduction and conclusion could be improved to better explain the significance of the findings to a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a reasonable computational framework, but the central claims are not supported by experimental data, and the provided materials are incomplete. The authors should address the major concerns, particularly the lack of validation and the missing data, before the case for disrupted Re1 binding and co-repressor interactions in uterine fibroids can be considered.
+
+## Risk / unsupported claims
+- The claim that Y31C, Y31D, L76Q, Y283C, and L427Q "compromise key features of REST's regulatory architecture" is unsupported by experimental evidence.
+- The assertion that Y283C "may contribute to aberrant activation of fibroid-associated targets such as GPR10" is speculative and not directly tested.
+- The statement that "perturbation of REST-mediated transcriptional repression may be associated with altered regulatory control in this disease" is a hypothesis, not a demonstrated finding.
+- The claim that "the data supporting the conclusions of this article will be made available" is not verifiable from the provided material.
+- The interpretation of MD simulation metrics (RMSD, RMSF, Rg, PE) as indicators of functional disruption is not fully supported without experimental correlation.

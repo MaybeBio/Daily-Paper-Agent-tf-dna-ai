@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and conclusions as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors identify Ku70 residues I72, S73, and I76 as key for HIV-1 integrase binding, propose a structural model of the IN-Ku70 interaction based on molecular dynamics simulations, and report identification of small-molecule compounds that inhibit this interaction via docking and in vitro assays
+- **Visible evidence base** Peptide fishing assay with mass spectrometry, pull-down assays with truncated and point-mutated Ku70 variants, co-immunoprecipitation in 293T cells, molecular dynamics simulations, molecular docking, and fluorescence-based binding assays
+- **Missing materials affecting confidence** Supplementary files (S1, S2, S3), Table S1, Table S2, Figure S2, and raw mass spectrometry data were not provided; detailed statistical analysis of pull-down quantification is absent; no structural validation (e.g., NMR, crystallography, or mutagenesis-guided cross-linking) of the proposed binding model is presented
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in HIV-1 biology, namely the molecular determinants of the IN-Ku70 interaction and the feasibility of targeting this interface with small molecules. The experimental approach combining peptide fishing, mutagenesis, and cellular assays is logical and the identification of specific Ku70 residues is a useful contribution. However, the study has significant limitations. The molecular dynamics model is not experimentally validated beyond mutagenesis, the docking results are not corroborated by structural or biophysical data, and the reported inhibitor potency (IC50 ~80 μM) is weak, with no demonstration of cellular activity or specificity. The claim that the identified pocket is suitable for further inhibitor development is speculative given the current data. The manuscript would benefit from additional validation, including direct binding measurements, structural characterization, and demonstration of on-target activity in cells.
+- **Who would be interested in the results, and why** Researchers studying HIV-1 replication mechanisms, particularly post-integrational DNA repair and virus-host interactions, would find the identification of Ku70 residues important for IN binding of interest. The work may also appeal to those developing host-targeted antiviral strategies, as it explores a novel interface for potential therapeutic intervention. The computational approach to modeling the IN-Ku70 complex could be of interest to structural biologists and computational chemists working on protein-protein interaction interfaces.
+- **Major strengths** The study combines multiple experimental approaches to identify functionally relevant residues, including peptide fishing, targeted mutagenesis, and validation in a cellular context. The identification of specific Ku70 residues (I72, S73, I76) that are critical for IN binding is a concrete and useful finding. The work addresses a clinically relevant topic, as targeting host factors may offer a higher genetic barrier to resistance. The use of both in vitro and in vivo assays strengthens the confidence in the key mutagenesis results.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that molecular dynamics simulations revealed a binding model where Ku70 residues I72 and I76 form a "leucine zipper" with integrase residues, and that this model is consistent with experimental data
+  - **Evidence pointer** Section 2.6, Figure 3A
+  - **Concern** The MD-derived binding model is presented as a central result, but it is not validated by any independent experimental method. The simulations were initiated with manually placed protein orientations based on mutagenesis data, which introduces potential bias. The authors do not report convergence criteria, replicate simulations, or error estimates for the free energy calculations. The claim that the model is "consistent with experimental data" is circular, as the experimental data were used to guide the model construction.
+  - **Why it matters** The proposed binding interface is the basis for the subsequent docking studies and the conclusion that the identified pocket is druggable. Without independent validation, the structural model remains speculative, and the downstream conclusions are correspondingly weakened.
+  - **Resolution test** Provide experimental validation of the binding model, for example through cross-linking mass spectrometry, hydrogen-deuterium exchange, or co-crystallization of the IN-Ku70 complex. Alternatively, perform mutagenesis of the predicted IN residues (L213, I217, I220) and demonstrate loss of binding, and show that the MD simulations are reproducible with different starting conditions and force fields.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that compound Y021-2376 inhibits IN-Ku70 binding with an IC50 of approximately 80 μM, and that this validates the pocket as a target for inhibitor development
+  - **Evidence pointer** Section 2.7, Figure 4B-C
+  - **Concern** The reported IC50 of ~80 μM is very weak for a lead compound and is close to concentrations where nonspecific effects are common. The authors do not report the assay window, signal-to-noise ratio, or whether the compound affects the stability of the fluorescent proteins themselves. No counterscreen against an unrelated protein-protein interaction is presented. The docking scores and SASA calculations are not experimentally verified, and the compound's binding mode is not confirmed by any biophysical method.
+  - **Why it matters** The conclusion that the identified pocket can be used for further inhibitor development rests on this single weak hit. Without evidence of specific, saturable binding and a clear structure-activity relationship, the claim is not supported.
+  - **Resolution test** Demonstrate dose-dependent inhibition with a full dose-response curve, show that the compound does not disrupt an unrelated protein-protein interaction at similar concentrations, and confirm direct binding to Ku70 by surface plasmon resonance or isothermal titration calorimetry. Ideally, show that the compound inhibits HIV-1 replication in a cellular assay at concentrations near the IC50.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and rigor
+  - **Claim pointer** The authors state that pull-down assays showed reduced binding of Ku70 mutants, with some mutants showing no detectable binding
+  - **Evidence pointer** Sections 2.2-2.5, Figures 1E, 2A-E
+  - **Concern** The pull-down assays are presented as qualitative or semi-quantitative, but no quantification method, number of replicates, or statistical analysis is described. The statement that binding was reduced "by at least four to five times" for one mutant is not supported by any shown quantification. The western blot images are not accompanied by loading controls for all panels, and the dynamic range of the detection method is not established.
+  - **Why it matters** The identification of key residues relies entirely on these binding assays. Without proper quantification and statistical analysis, the relative importance of different residues cannot be reliably assessed, and the conclusions may not be robust.
+  - **Resolution test** Provide densitometric quantification of at least three independent experiments with error bars and statistical tests. Include loading controls for all blots and demonstrate that the assay is within its linear detection range.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Section 2.3, Figure 2B
+  - **Evidence pointer** Section 2.3, Figure 2B
+  - **Issue** The text describing the loop mutant Ku70_1-250_Δ51-57/insAG is duplicated in Section 2.3, with the same sentence appearing twice in consecutive paragraphs. This appears to be an editing error.
+  - **Required correction** Remove the duplicated sentence and ensure the description of the loop mutant appears only once.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4.9, MD simulation methods
+  - **Evidence pointer** Section 4.9
+  - **Issue** The methods state that the CHARMM36 force field was used for proteins and TIP3P for water, but no details are given for ion parameters, long-range electrostatics treatment, or the specific NAMD settings used. The sentence "The reaction coordinate was divided into 200 bins for statistical analysis, and, first, 10 ns" is incomplete and unclear.
+  - **Required correction** Provide complete simulation parameters, including the treatment of electrostatics (e.g., PME), cutoff distances, and the number of replicates. Clarify the sentence about binning and the 10 ns period.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility and rigor
+  - **Affected element** Section 2.1, peptide fishing assay
+  - **Evidence pointer** Section 2.1, Figure 1B-C
+  - **Issue** The peptide fishing assay identified three peptides, but the authors do not report the sequence coverage of the mass spectrometry analysis or the criteria used to define a "specific" peptide. The control experiments are described only briefly.
+  - **Required correction** Provide details on the mass spectrometry data analysis, including the Mascot score thresholds, sequence coverage, and how specificity was determined. Describe the control experiments more fully.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Section 2.7, Figure 4
+  - **Evidence pointer** Section 2.7, Figure 4
+  - **Issue** The text refers to "Figure 3C" when describing the dose-response of Y021-2376, but the figure legend and text in Section 2.7 suggest this should be Figure 4C. The figure numbering appears inconsistent.
+  - **Required correction** Verify all figure cross-references and correct the citation to the appropriate figure panel.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility and rigor
+  - **Affected element** Section 2.7, compound selection
+  - **Evidence pointer** Section 2.7, Table S1
+  - **Issue** The authors state that 31 compounds were selected for testing, but only 2 showed activity. The criteria for selecting these 31 from the 444 that passed the docking threshold are not fully described, and the chemical diversity or properties of the selected compounds are not discussed.
+  - **Required correction** Describe the selection criteria for the 31 compounds in more detail, including the SASA-based scoring and any additional filters applied. Consider discussing the chemical properties of the active versus inactive compounds.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (unvalidated MD model), R1-M2 (weak inhibitor data without specificity controls), R1-M3 (lack of quantitative binding data)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The identification of specific Ku70 residues for IN binding is novel, but the overall concept of targeting host-virus interactions is well established. The "leucine zipper" model is a new proposal but lacks experimental validation.
+  - Scientific importance: Moderate. Understanding the IN-Ku70 interface is relevant for HIV-1 biology, but the therapeutic implications are speculative given the weak inhibitor potency and lack of cellular validation.
+  - Interdisciplinary readership: Limited. The work is primarily of interest to virologists and structural biologists. The computational and docking components are standard and do not introduce methodological advances that would attract a broader audience.
+  - Technical soundness: The experimental design is generally sound, but the lack of quantitative analysis, the unvalidated MD model, and the weak inhibitor data are significant weaknesses.
+  - Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow. However, some sections (e.g., MD methods) assume specialized knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The identification of Ku70 residues is a useful contribution, but the central claims regarding the structural model and the potential for inhibitor development are not sufficiently supported. The manuscript requires substantial additional work, including validation of the binding model, quantitative binding assays, and demonstration of specific, dose-dependent inhibition, before the conclusions can be accepted.
+
+## Risk / unsupported claims
+- The claim that the MD-derived binding model is "consistent with experimental data" is circular and not independently validated.
+- The claim that the identified pocket is suitable for further inhibitor development is not supported by the weak IC50 (~80 μM) and lack of specificity controls.
+- The statement that the compound Y021-2376 "blocks Ku70 binding to IN" is not supported by the data, as only a single concentration was tested for most compounds and the dose-response is not fully characterized.
+- The claim that the identified residues form a "leucine zipper" is a structural interpretation that is not experimentally verified.
+- The assertion that the selected compounds "efficiently hid the selected residues" based on SASA calculations is a computational prediction that is not experimentally confirmed.

@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided on bioRxiv
+- **Assessment boundary** Scientific validity of claims, technical soundness of methods, interpretation of results, and overall significance as presented in the provided text
+- **Shared manuscript claim summary** The authors report the discovery of SH6, a small molecule that degrades the SALL4 transcription factor through an IMiD-independent mechanism targeting the ZFC4 zinc finger domain, leading to selective killing of SALL4-expressing cancer cells in vitro and tumor growth inhibition in vivo
+- **Visible evidence base** Results sections describing crystallography, AlphaFold modeling, docking, cell-based assays, CETSA, mass spectrometry, and xenograft studies; figures and tables referenced but not fully visible
+- **Missing materials affecting confidence** Full figures, supplementary tables (EV1-EV5), detailed statistical analyses, raw mass spectrometry data, and complete experimental replicates are not available in the provided text
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting approach to targeting the transcription factor SALL4 through a novel small molecule, SH6, that operates independently of the IMiD-binding site. The combination of structural biology, computational modeling, and phenotypic screening is logical and the preliminary data are encouraging. However, the evidence as presented is incomplete in several critical areas, particularly regarding the specificity of SH6, the mechanistic details of degradation, and the robustness of the in vivo data. The claims of a "new approach for IMiD independent drug discovery" are intriguing but require substantially more validation before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in targeted protein degradation, transcription factor drug discovery, and cancer biology, particularly those focused on SALL4-associated malignancies such as hepatocellular carcinoma and leukemia. The potential to expand the druggable space of C2H2 zinc finger transcription factors beyond IMiD substrates would be of broad interest to the drug discovery community.
+- **Major strengths** The study addresses a clinically relevant problem, namely the inability of IMiDs to target SALL4B, which is a significant limitation of current approaches. The use of AlphaFold2 in combination with crystallographic data to identify a novel binding pocket is a modern and potentially powerful strategy. The inclusion of multiple orthogonal assays, including CETSA and mass spectrometry, strengthens the mechanistic claims. The in vivo xenograft data, while preliminary, suggest therapeutic potential.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and off-target effects
+  - **Claim pointer** The manuscript claims that SH6 "selectively targets SALL4-expressing cancer cells" and is a "bona fide SALL4 targeting compound"
+  - **Evidence pointer** Results section "SH6 is a bona fide SALL4 targeting compound"; Figure 2
+  - **Concern** The selectivity of SH6 for SALL4 over other C2H2 zinc finger proteins is not adequately demonstrated. The manuscript shows that SH6 kills SALL4-high cells more potently than SALL4-low cells, but this does not establish target specificity. The mass spectrometry analysis identified only two downregulated proteins with ZFC4 similarity, but the full list of downregulated proteins and the criteria for selection are not presented. There is no direct evidence that SH6 binds to SALL4 ZFC4, such as a biophysical binding assay or a cellular target engagement assay that directly measures SALL4-SH6 interaction.
+  - **Why it matters** Without demonstrated specificity, the observed effects could be due to off-target activities. This is a fundamental issue for a compound proposed as a targeted degrader. The therapeutic window and safety profile of SH6 would be critically dependent on its selectivity.
+  - **Resolution test** Provide a comprehensive proteomics analysis showing that SALL4 is the primary target, with a clear demonstration that other ZFC4-containing proteins are not significantly affected. Include a direct binding assay, such as isothermal titration calorimetry or surface plasmon resonance, showing SH6 binds to SALL4 ZFC4 with reasonable affinity. Show that a SALL4 mutant lacking ZFC4 is resistant to SH6-induced degradation in a dose-dependent manner.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence for degradation pathway
+  - **Claim pointer** The manuscript claims that SH6 degrades SALL4 through the "CUL4A/CRBN pathway" and that this is an "IMiD independent" mechanism
+  - **Evidence pointer** Results section "SH6 degrades SALL4B resulting in on-target cancer cell killing through the CUL4A-CRBN pathway"; Figure 3
+  - **Concern** The evidence for the involvement of the CUL4A/CRBN pathway is indirect. The rescue of SALL4 degradation by MLN4924 and MG132 is consistent with proteasomal degradation but does not specifically implicate CRBN. The CETSA data show that SH6 binds to CUL4, CRBN, and SALL4, but this does not demonstrate that these interactions are functionally linked to degradation. The claim of "IMiD independent" is based on the observation that SH6 targets ZFC4 rather than ZFC2, but the manuscript does not show that SH6 binding to CRBN is different from IMiDs or that it does not require the same CRBN binding site.
+  - **Why it matters** The proposed mechanism is central to the novelty of the work. If SH6 is not genuinely acting through a CRBN-dependent but IMiD-independent mechanism, the claims of a "new approach" are weakened. Understanding the exact molecular mechanism is essential for further optimization and development.
+  - **Resolution test** Perform a CRBN knockout or knockdown experiment to show that SH6-mediated SALL4 degradation is abolished. Use a CRBN mutant that cannot bind IMiDs to demonstrate that SH6 does not require the IMiD binding site. Show that SH6 can promote the interaction between SALL4 ZFC4 and CRBN in a co-immunoprecipitation assay.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo efficacy and toxicity
+  - **Claim pointer** The manuscript claims that SH6 "led to significant 62% tumor growth inhibition of SALL4+ xenografts in vivo and demonstrated good bioavailability in pharmacokinetic studies"
+  - **Evidence pointer** Results section "SH6 inhibits tumor growth in mouse xenografts with a desirable pharmacokinetic profile"; Figure 5
+  - **Concern** The in vivo data are presented with minimal detail. The number of animals per group, the duration of the study, the route of administration, and the statistical methods are not described in the provided text. The claim of "good bioavailability" is based on a single pharmacokinetic study, but the full pharmacokinetic parameters are not presented. The lack of toxicity data beyond "no obvious toxicity or weight loss" is insufficient to support the claim of a desirable safety profile.
+  - **Why it matters** The in vivo efficacy and safety are critical for the translational potential of SH6. Without robust and detailed data, the claim of therapeutic potential is not adequately supported.
+  - **Resolution test** Provide complete details of the xenograft study, including animal numbers, dosing schedule, tumor volume measurements over time, and statistical analysis. Present full pharmacokinetic parameters, including Cmax, AUC, half-life, and bioavailability. Include histopathological analysis of major organs to assess toxicity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural basis of SH6 binding
+  - **Claim pointer** The manuscript claims that the ZFC4 binding site was identified through a combination of AlphaFold and crystallography, and that SH6 binds to this site
+  - **Evidence pointer** Results section "Combining AlphaFold, crystal structure, and molecular docking"; Figure 1
+  - **Concern** The manuscript does not provide a co-crystal structure of SH6 bound to SALL4 ZFC4. The binding site is predicted through computational methods, and the docking scores are used to infer binding. The claim that SH6 binds to the identified pocket is not directly validated. The manuscript also does not discuss the potential for SH6 to bind to other sites on SALL4 or to induce conformational changes.
+  - **Why it matters** A direct structural validation of the binding mode would significantly strengthen the claims of a specific interaction and would inform medicinal chemistry efforts. Without this, the proposed binding site remains speculative.
+  - **Resolution test** Obtain a co-crystal structure of SH6 in complex with SALL4 ZFC4. Alternatively, perform mutagenesis of key residues in the predicted binding pocket and show that SH6 activity is abolished or reduced. Use NMR or hydrogen-deuterium exchange to map the binding site.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 2A
+  - **Evidence pointer** Results section "SH6 is a bona fide SALL4 targeting compound"
+  - **Issue** The cell viability data are presented as a single time point (72 h) and the figure legend is not provided. It is unclear if the selectivity index is consistent across multiple time points.
+  - **Required correction** Provide dose-response curves at multiple time points and include the full figure legend with statistical details.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** "CUL4A/CRBN pathway"
+  - **Evidence pointer** Results section "SH6 degrades SALL4B resulting in on-target cancer cell killing through the CUL4A-CRBN pathway"
+  - **Issue** The nomenclature "CUL4A/CRBN pathway" is imprecise. The canonical CRL4CRBN complex contains CUL4A or CUL4B, and the manuscript does not specify which one is involved.
+  - **Required correction** Use the more precise term "CRL4CRBN" or specify the specific CUL4 family member involved.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** In vivo data
+  - **Evidence pointer** Results section "SH6 inhibits tumor growth in mouse xenografts with a desirable pharmacokinetic profile"
+  - **Issue** The statistical test used for the tumor growth inhibition is not stated.
+  - **Required correction** Clearly state the statistical test used and the p-values for all comparisons.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Chemical characterization
+  - **Affected element** SH6
+  - **Evidence pointer** Materials and Methods section "Synthesis of SH derivatives"
+  - **Issue** The purity of SH6 is not reported. The NMR data are provided, but no HPLC or elemental analysis is shown.
+  - **Required correction** Report the purity of SH6, ideally by HPLC, and provide a high-resolution mass spectrum.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction could benefit from a more detailed discussion of the structural features of C2H2 zinc fingers that make them amenable or resistant to small molecule targeting, and how the ZFC4 approach differs from other non-IMiD strategies.
+  - **Required correction** Expand the introduction to provide a more comprehensive context for the novelty of the approach.
+
+## Risk / unsupported claims
+- The claim that SH6 is a "bona fide SALL4 targeting compound" is not fully supported without direct binding data and a comprehensive specificity analysis.
+- The claim that SH6 degrades SALL4 through the "CUL4A/CRBN pathway" is not definitively established; the evidence is consistent with but not proof of this mechanism.
+- The claim of "good bioavailability" is based on limited data and requires full pharmacokinetic parameters.
+- The claim that the identified ZFC4 binding site is the functional target of SH6 is not validated by structural or mutagenesis data.
+- The claim that this represents a "new approach for IMiD independent drug discovery" is intriguing but requires more evidence to distinguish it from other known degradation mechanisms.

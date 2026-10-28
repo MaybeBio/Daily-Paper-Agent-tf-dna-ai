@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.01.31.477772",
+  "title": "Learning probabilistic protein-DNA recognition codes from DNA-binding specificities using structural mappings",
+  "authors": "Joshua L. Wetzel; Kaiqian Zhang; Mona Singh",
+  "journal": "bioRxiv",
+  "published_date": "2022-02-01",
+  "window": {
+    "start": "2022-01-31",
+    "end": "2022-02-06"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出rCLAMPS概率方法，利用结构映射从TF-DNA结合特异性中学习氨基酸-碱基识别代码，预测结合位点并解析突变效应，核心聚焦TF-DNA互作机制且方法具AI建模创新。",
+  "abstract": "Knowledge of how proteins interact with DNA is essential for understanding gene regulation. While DNA-binding specificities for thousands of transcription factors (TFs) have been determined, the specific amino acid-base interactions comprising their structural interfaces are largely unknown. This lack of resolution hampers attempts to leverage these data in order to predict specificities for uncharacterized TFs or TFs mutated in disease. Here we introduce rCLAMPS (Recognition Code Learning via Automated Mapping of Protein-DNA Structural interfaces), a probabilistic approach that uses DNA-binding specificities for TFs from the same structural family to simultaneously infer both which nucleotide positions are contacted by particular amino acids within the TF as well as a recognition code that relates each base-contacting amino acid to nucleotide preferences at the DNA positions it contacts. We apply rCLAMPS to homeodomains, the second largest family of TFs in metazoans, and demonstrate that it learns a highly effective recognition code that can predict de novo DNA-binding specificities for TFs. Furthermore, we show that the inferred amino acid-nucleotide contacts reveal whether and how nucleotide preferences at individual binding site positions are altered by mutations within TFs. Our approach is an important step towards automatically uncovering the determinants of protein-DNA specificity from large compendia of DNA-binding specificities, and inferring the altered functionalities of TFs mutated in disease.",
+  "abstract_zh": "蛋白质如何与DNA相互作用的知识对于理解基因调控至关重要。尽管已确定了数千种转录因子（TFs）的DNA结合特异性，但构成其结构界面的特定氨基酸-碱基相互作用在很大程度上仍属未知。这种分辨率的缺失阻碍了利用这些数据来预测未表征TFs或疾病中突变TFs的特异性的尝试。在此，我们介绍了rCLAMPS（通过蛋白质-DNA结构界面的自动映射进行识别码学习），这是一种概率方法，利用来自同一结构家族的TFs的DNA结合特异性，同时推断TF内特定氨基酸接触的核苷酸位置，以及一种识别码，该识别码将每个接触碱基的氨基酸与其所接触DNA位置上的核苷酸偏好相关联。我们将rCLAMPS应用于同源异型域，这是后生动物中第二大TFs家族，并证明它能学习到一种高效识别码，可从头预测TFs的DNA结合特异性。此外，我们表明，推断出的氨基酸-核苷酸接触揭示了TF内突变如何以及是否改变单个结合位点位置上的核苷酸偏好。我们的方法是从大型DNA结合特异性汇编中自动揭示蛋白质-DNA特异性决定因素，并推断疾病中突变TFs功能改变的重要一步。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.01.31.477772",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.01.31.477772",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.01.31.477772/index.html"
+}

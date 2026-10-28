@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "41934611",
+    "doi": "10.1093/hmg/ddag019",
+    "title": "Transcriptional mechanisms of sex-biased gene expression and their connections to disease-associated variation."
+  },
+  "content": {
+    "abstract": "Humans display sexual dimorphism across many traits, but little is known about underlying genetic mechanisms and impacts on disease. We utilized single-cell RNA-seq of 480 lymphoblastoid cell lines (LCLs) to identify 1200 genes with significantly sex-biased expression. While reproducibility was highest among LCL datasets, 71% were found to be sex-biased in at least one GTEx tissue, with a core dataset of 21 genes displaying sex-biased expression across all datasets and tissues examined. While 7.7% of sex-biased genes can be directly explained by differences in the number of sex chromosomes, most sex-biased genes (79%) are targets of transcription factors that display sex-biased expression. FOSL1, ZNF730, ZFX, and ZNF726 appear to make the largest contribution to this based on machine learning and linear modeling approaches, and all four of these transcription factors are regulated by the number of X chromosomes. Further, by testing the difference in genetic effect size (beta) of conditionally independent expression quantitative trait loci (eQTL) identified in each sex separately, we identified 2390 sex-biased eQTL (sb-eQTL) across the genome, but evidence of replication in an independent dataset was modest. However, permutation analysis demonstrated that sb-eQTL identified using real sex was more likely to have concordant direction of effect. Further exploratory analysis revealed that these sb-eQTL are enriched in over 100 GWAS phenotypes, including many loci associated with female-biased autoimmune diseases such as multiple sclerosis. Our results demonstrate widespread genetic impacts on sexual dimorphism and identify possible mechanisms and clinical targets for sex differences in diverse diseases.",
+    "keywords": [
+      "1000 Genomes",
+      "GxE interaction",
+      "H2AX",
+      "rs7117261",
+      "scHi-HOST"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Quantitative Trait Loci/genetics",
+      "Female",
+      "Male",
+      "Sex Characteristics",
+      "Transcription Factors/genetics",
+      "*Gene Expression Regulation/genetics",
+      "*Genetic Predisposition to Disease",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jones, Angela G",
+        "Dalapati, Trisha",
+        "Connelly, Guinevere G",
+        "Wang, Liuyang",
+        "Schott, Benjamin H",
+        "San Roman, Adrianna K",
+        "Ko, Dennis C"
+      ],
+      "short_names": [
+        "Jones AG",
+        "Dalapati T",
+        "Connelly GG",
+        "Wang L",
+        "Schott BH",
+        "San Roman AK",
+        "Ko DC"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1096-8317",
+        "ORCID: 0000-0001-6319-5253",
+        "ORCID: 0000-0003-4861-8574",
+        "ORCID: 0000-0001-9556-2361",
+        "ORCID: 0000-0003-4511-3052",
+        "ORCID: 0000-0002-0113-5981"
+      ],
+      "affiliations": [
+        "Department of Molecular Genetics and Microbiology, School of Medicine, Duke University, 213 Research Drive, Box 3054, Durham, NC 27710, United States.",
+        "Duke University Program in Genetics and Genomics, Duke University, 3 Genome Court, MSRB 3, Room 1264, Box 103855, Durham, NC 27705, United States.",
+        "Department of Molecular Genetics and Microbiology, School of Medicine, Duke University, 213 Research Drive, Box 3054, Durham, NC 27710, United States.",
+        "Department of Molecular Genetics and Microbiology, School of Medicine, Duke University, 213 Research Drive, Box 3054, Durham, NC 27710, United States.",
+        "Duke University Program in Genetics and Genomics, Duke University, 3 Genome Court, MSRB 3, Room 1264, Box 103855, Durham, NC 27705, United States.",
+        "Department of Molecular Genetics and Microbiology, School of Medicine, Duke University, 213 Research Drive, Box 3054, Durham, NC 27710, United States.",
+        "Department of Molecular Genetics and Microbiology, School of Medicine, Duke University, 213 Research Drive, Box 3054, Durham, NC 27710, United States.",
+        "Duke University Program in Genetics and Genomics, Duke University, 3 Genome Court, MSRB 3, Room 1264, Box 103855, Durham, NC 27705, United States.",
+        "Department of Molecular Genetics and Microbiology, School of Medicine, Duke University, 213 Research Drive, Box 3054, Durham, NC 27710, United States.",
+        "Duke University Program in Genetics and Genomics, Duke University, 3 Genome Court, MSRB 3, Room 1264, Box 103855, Durham, NC 27705, United States.",
+        "Department of Molecular Genetics and Microbiology, School of Medicine, Duke University, 213 Research Drive, Box 3054, Durham, NC 27710, United States.",
+        "Duke University Program in Genetics and Genomics, Duke University, 3 Genome Court, MSRB 3, Room 1264, Box 103855, Durham, NC 27705, United States.",
+        "Division of Infectious Diseases, Department of Medicine, School of Medicine, Duke University, 40 Medicine Circle, Durham, NC 27710, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jones, Angela G",
+        "short_name": "Jones AG",
+        "identifiers": [
+          "0000-0003-1096-8317"
+        ],
+        "affiliations": [
+          "Department of Molecular Genetics and Microbiology, School of Medicine, Duke University, 213 Research Drive, Box 3054, Durham, NC 27710, United States.",
+          "Duke University Program in Genetics and Genomics, Duke University, 3 Genome Court, MSRB 3, Room 1264, Box 103855, Durham, NC 27705, United States."
+        ]
+      },
+      {
+        "full_name": "Dalapati, Trisha",
+        "short_name": "Dalapati T",
+        "identifiers": [
+          "0000-0001-6319-5253"
+        ],
+        "affiliations": [
+          "Department of Molecular Genetics and Microbiology, School of Medicine, Duke University, 213 Research Drive, Box 3054, Durham, NC 27710, United States."
+        ]
+      },
+      {
+        "full_name": "Connelly, Guinevere G",
+        "short_name": "Connelly GG",
+        "identifiers": [
+          "0000-0003-4861-8574"
+        ],
+        "affiliations": [
+          "Department of Molecular Genetics and Microbiology, School of Medicine, Duke University, 213 Research Drive, Box 3054, Durham, NC 27710, United States.",
+          "Duke University Program in Genetics and Genomics, Duke University, 3 Genome Court, MSRB 3, Room 1264, Box 103855, Durham, NC 27705, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Liuyang",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0000-0001-9556-2361"
+        ],
+        "affiliations": [
+          "Department of Molecular Genetics and Microbiology, School of Medicine, Duke University, 213 Research Drive, Box 3054, Durham, NC 27710, United States."
+        ]
+      },
+      {
+        "full_name": "Schott, Benjamin H",
+        "short_name": "Schott BH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics and Microbiology, School of Medicine, Duke University, 213 Research Drive, Box 3054, Durham, NC 27710, United States.",
+          "Duke University Program in Genetics and Genomics, Duke University, 3 Genome Court, MSRB 3, Room 1264, Box 103855, Durham, NC 27705, United States."
+        ]
+      },
+      {
+        "full_name": "San Roman, Adrianna K",
+        "short_name": "San Roman AK",
+        "identifiers": [
+          "0000-0003-4511-3052"
+        ],
+        "affiliations": [
+          "Department of Molecular Genetics and Microbiology, School of Medicine, Duke University, 213 Research Drive, Box 3054, Durham, NC 27710, United States.",
+          "Duke University Program in Genetics and Genomics, Duke University, 3 Genome Court, MSRB 3, Room 1264, Box 103855, Durham, NC 27705, United States."
+        ]
+      },
+      {
+        "full_name": "Ko, Dennis C",
+        "short_name": "Ko DC",
+        "identifiers": [
+          "0000-0002-0113-5981"
+        ],
+        "affiliations": [
+          "Department of Molecular Genetics and Microbiology, School of Medicine, Duke University, 213 Research Drive, Box 3054, Durham, NC 27710, United States.",
+          "Duke University Program in Genetics and Genomics, Duke University, 3 Genome Court, MSRB 3, Room 1264, Box 103855, Durham, NC 27705, United States.",
+          "Division of Infectious Diseases, Department of Medicine, School of Medicine, Duke University, 40 Medicine Circle, Durham, NC 27710, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human molecular genetics"
+    ],
+    "journal_abbrev": [
+      "Hum Mol Genet"
+    ],
+    "pub_date": "2026 Mar 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/05 04:19",
+    "fetched_at": "2026-10-01 17:33:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41116018",
+      "40281071",
+      "39876559",
+      "39293802",
+      "39107837",
+      "39020179",
+      "38190107",
+      "37941154",
+      "37917687",
+      "37817393",
+      "37550580",
+      "37231261",
+      "37228747",
+      "37120627",
+      "37023829",
+      "36819663",
+      "36712323",
+      "36465279",
+      "36055201",
+      "35953856",
+      "35903980",
+      "35511767",
+      "35197482",
+      "35073561",
+      "35025605",
+      "34903727",
+      "34683148",
+      "34604665",
+      "34572815",
+      "34475573",
+      "34403484",
+      "34367158",
+      "34001247",
+      "33436567",
+      "33137877",
+      "33015620",
+      "32913098",
+      "32913072",
+      "32894183",
+      "32855900",
+      "32579922",
+      "31740819",
+      "31675989",
+      "31604244",
+      "31541153",
+      "31497858",
+      "31320509",
+      "31114921",
+      "31024623",
+      "31015462",
+      "30687780",
+      "30445434",
+      "30092202",
+      "29678143",
+      "29636450",
+      "29325848",
+      "29307297",
+      "29227470",
+      "29126249",
+      "28814792",
+      "28340352",
+      "28173793",
+      "27974502",
+      "27790248",
+      "27197214",
+      "26822151",
+      "26616563",
+      "26553366",
+      "26432245",
+      "26352407",
+      "25743184",
+      "25516281",
+      "24830394",
+      "24816252",
+      "24242183",
+      "23715323",
+      "23028690",
+      "22960374",
+      "22455463",
+      "22343431",
+      "22212865",
+      "22064851",
+      "20634204",
+      "20522537",
+      "19237575",
+      "19031491",
+      "18832152",
+      "12883005",
+      "11526384",
+      "8333423"
+    ],
+    "similar": [
+      "41934611",
+      "39281750",
+      "32103259",
+      "41068573",
+      "33264334",
+      "42475469",
+      "35953856",
+      "37221602",
+      "38824563",
+      "21047393",
+      "36597873",
+      "40653482",
+      "32870927",
+      "41578372",
+      "32913072",
+      "25315895",
+      "34752452",
+      "27005890",
+      "29650998",
+      "34566997",
+      "39293802",
+      "31296926",
+      "33931057",
+      "37851522",
+      "29096703",
+      "23474282",
+      "41896987",
+      "40262193",
+      "22144904",
+      "40684919",
+      "24886435",
+      "39472939",
+      "37072791",
+      "25766683",
+      "39558360",
+      "30606113",
+      "42003665",
+      "42600058",
+      "29041960",
+      "40577937",
+      "42563458",
+      "28177073",
+      "31850069",
+      "34572044",
+      "42365225",
+      "24956270",
+      "31044242",
+      "27155841",
+      "29335020",
+      "39747594",
+      "35100260",
+      "31868224",
+      "38750588",
+      "39482778",
+      "31130283",
+      "30150225",
+      "38991381",
+      "21947951",
+      "41396161",
+      "29059182",
+      "31123039",
+      "33153500",
+      "22183966",
+      "39814021",
+      "39716176",
+      "33455083",
+      "30390624",
+      "28505156",
+      "40179003",
+      "41699549",
+      "34475573",
+      "21789213",
+      "38992576",
+      "22307276",
+      "27287230",
+      "25230953",
+      "31718536",
+      "17944808",
+      "41810371",
+      "33516273",
+      "32579922",
+      "25290266",
+      "34732242",
+      "21858147",
+      "32220292",
+      "27197214",
+      "32270270",
+      "36037215",
+      "38545844",
+      "41656273",
+      "33461502",
+      "29473973",
+      "34995504",
+      "32600345",
+      "41714944",
+      "33804025",
+      "29950172",
+      "40514331",
+      "27435189",
+      "27574843"
+    ],
+    "review": [
+      "41934611",
+      "40684919",
+      "37072791",
+      "39747594",
+      "25290266",
+      "27574843"
+    ],
+    "pmc": [
+      "13050152"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41934611/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/hmg/article-lookup/doi/10.1093/hmg/ddag019",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

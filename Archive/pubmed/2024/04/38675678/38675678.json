@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "38675678",
+    "doi": "10.3390/molecules29081857",
+    "title": "Binding Mechanism of Inhibitors to BRD4 and BRD9 Decoded by Multiple Independent Molecular Dynamics Simulations and Deep Learning."
+  },
+  "content": {
+    "abstract": "Bromodomain 4 and 9 (BRD4 and BRD9) have been regarded as important targets of drug designs in regard to the treatment of multiple diseases. In our current study, molecular dynamics (MD) simulations, deep learning (DL) and binding free energy calculations are integrated to probe the binding modes of three inhibitors (H1B, JQ1 and TVU) to BRD4 and BRD9. The MD trajectory-based DL successfully identify significant functional function domains, such as BC-loop and ZA-loop. The information from the post-processing analysis of MD simulations indicates that inhibitor binding highly influences the structural flexibility and dynamic behavior of BRD4 and BRD9. The results of the MM-GBSA calculations not only suggest that the binding ability of H1B, JQ1 and TVU to BRD9 are stronger than to BRD4, but they also verify that van der Walls interactions are the primary forces responsible for inhibitor binding. The hot spots of BRD4 and BRD9 revealed by residue-based free energy estimation provide target sites of drug design in regard to BRD4 and BRD9. This work is anticipated to provide useful theoretical aids for the development of selective inhibitors over BRD family members.",
+    "keywords": [
+      "BRD4",
+      "BRD9",
+      "binding free energy",
+      "deep learning",
+      "molecular dynamics simulations"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/antagonists & inhibitors/metabolism/chemistry",
+      "*Molecular Dynamics Simulation",
+      "*Cell Cycle Proteins/antagonists & inhibitors/chemistry/metabolism",
+      "*Protein Binding",
+      "Humans",
+      "*Deep Learning",
+      "Binding Sites",
+      "Thermodynamics",
+      "Triazoles/chemistry/pharmacology",
+      "Azepines/chemistry/pharmacology",
+      "Nuclear Proteins/metabolism/antagonists & inhibitors/chemistry",
+      "Molecular Docking Simulation",
+      "*Bromodomain Containing Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jian",
+        "Yang, Wanchun",
+        "Zhao, Lu",
+        "Wei, Benzheng",
+        "Chen, Jianzhong"
+      ],
+      "short_names": [
+        "Wang J",
+        "Yang W",
+        "Zhao L",
+        "Wei B",
+        "Chen J"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-8635-3635",
+        "ORCID: 0000-0001-9640-4947",
+        "ORCID: 0000-0003-1558-4398"
+      ],
+      "affiliations": [
+        "School of Science, Shandong Jiaotong University, Jinan 250357, China.",
+        "School of Science, Shandong Jiaotong University, Jinan 250357, China.",
+        "School of Science, Shandong Jiaotong University, Jinan 250357, China.",
+        "Center for Medical Artificial Intelligence, Shandong University of Traditional Chinese Medicine, Qingdao 266112, China.",
+        "School of Science, Shandong Jiaotong University, Jinan 250357, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jian",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0009-0009-8635-3635"
+        ],
+        "affiliations": [
+          "School of Science, Shandong Jiaotong University, Jinan 250357, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Wanchun",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, Shandong Jiaotong University, Jinan 250357, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Lu",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, Shandong Jiaotong University, Jinan 250357, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Benzheng",
+        "short_name": "Wei B",
+        "identifiers": [
+          "0000-0001-9640-4947"
+        ],
+        "affiliations": [
+          "Center for Medical Artificial Intelligence, Shandong University of Traditional Chinese Medicine, Qingdao 266112, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jianzhong",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0000-0003-1558-4398"
+        ],
+        "affiliations": [
+          "School of Science, Shandong Jiaotong University, Jinan 250357, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2024 Apr 19",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/27 09:52",
+    "fetched_at": "2026-09-29 19:05:46"
+  },
+  "links": {
+    "cites": [
+      "41828825",
+      "40005117",
+      "39298085",
+      "39124901",
+      "39064955",
+      "38893554",
+      "38792177"
+    ],
+    "refs": [
+      "38265367",
+      "38034960",
+      "37846774",
+      "37680157",
+      "37375347",
+      "37375328",
+      "37057639",
+      "36993878",
+      "36985555",
+      "36674511",
+      "36440874",
+      "36367089",
+      "35994329",
+      "35867655",
+      "35853853",
+      "35357834",
+      "35200019",
+      "35007061",
+      "34917243",
+      "34899998",
+      "34818004",
+      "34710325",
+      "34247129",
+      "34065494",
+      "34056358",
+      "33739090",
+      "33654218",
+      "33092378",
+      "32962378",
+      "32410449",
+      "32286255",
+      "32091206",
+      "31789032",
+      "31714766",
+      "31283874",
+      "31212132",
+      "31173143",
+      "31159491",
+      "30466442",
+      "30225973",
+      "29451287",
+      "29300091",
+      "29139214",
+      "28606761",
+      "28466681",
+      "28213432",
+      "27791003",
+      "27651315",
+      "26914985",
+      "26605738",
+      "26592383",
+      "26300708",
+      "26022843",
+      "25864491",
+      "25856009",
+      "25703523",
+      "25205360",
+      "25016363",
+      "24999761",
+      "23686307",
+      "23644491",
+      "23530754",
+      "22924434",
+      "22710155",
+      "22582031",
+      "22570416",
+      "22520470",
+      "22464331",
+      "22442726",
+      "21272588",
+      "20871596",
+      "19812244",
+      "19757835",
+      "18593145",
+      "16458552",
+      "16200636",
+      "15116359",
+      "15048829",
+      "12850155",
+      "12395429",
+      "11752442",
+      "11054292",
+      "8108382",
+      "6733249",
+      "1749773"
+    ],
+    "similar": [
+      "38675678",
+      "30225973",
+      "39274873",
+      "33637650",
+      "30058436",
+      "37656159",
+      "36773087",
+      "31587361",
+      "39124901",
+      "28466681",
+      "32657160",
+      "32496901",
+      "30411639",
+      "26263125",
+      "39064955",
+      "27494802",
+      "34105560",
+      "38317535",
+      "31851834",
+      "37570684",
+      "35156677",
+      "35011350",
+      "24976024",
+      "36841551",
+      "24403256",
+      "36362300",
+      "27290915",
+      "30079805",
+      "37446009",
+      "34845959",
+      "36985555",
+      "32149490",
+      "39241280",
+      "30260047",
+      "29139214",
+      "29333921",
+      "38849043",
+      "32175692",
+      "31329163",
+      "34983841",
+      "31701109",
+      "30554943",
+      "24313754",
+      "26870791",
+      "32091206",
+      "28063381",
+      "30687956",
+      "39178586",
+      "35754900",
+      "30988278",
+      "28107481",
+      "25856009",
+      "34885774",
+      "25877301",
+      "36644887",
+      "26629616",
+      "34710811",
+      "33529672",
+      "31530390",
+      "25393219",
+      "26573731",
+      "36524430",
+      "28635318",
+      "23087374",
+      "36907648",
+      "24759736",
+      "34982556",
+      "28588024",
+      "33290278",
+      "32941882",
+      "27782467",
+      "23686307",
+      "32954665",
+      "24763052",
+      "26575167",
+      "31922235",
+      "29343578",
+      "33638254",
+      "28586718",
+      "34252226",
+      "23249862",
+      "30369550",
+      "31734632",
+      "33679744",
+      "27573714",
+      "31409188",
+      "35902869",
+      "32339606",
+      "30269363",
+      "24568369",
+      "28901664",
+      "27775715",
+      "26735014",
+      "28564537",
+      "28490802",
+      "28545522",
+      "32499570",
+      "32868081",
+      "31195152",
+      "30057199",
+      "24189064",
+      "34803511",
+      "27219867",
+      "36499487",
+      "32353113",
+      "23340525",
+      "38893554",
+      "38656803",
+      "39302888",
+      "39132814",
+      "36780189",
+      "35716662",
+      "39069741",
+      "34878263",
+      "38858328",
+      "37352721",
+      "39032457",
+      "38771194",
+      "39151376",
+      "39119716",
+      "37816014"
+    ],
+    "review": [
+      "38675678",
+      "27290915"
+    ],
+    "pmc": [
+      "11054187"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules29081857",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38675678/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38675678",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

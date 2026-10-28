@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusions, methods) as provided
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and internal consistency based solely on the supplied text
+- **Shared manuscript claim summary** The authors propose that transcription factors (TFs), particularly from the C2H2 zinc finger family, regulate intron retention (IR) through co-transcriptional mechanisms. They use deep learning models to distinguish open chromatin regions associated with IR from non-IR regions, identify TF motifs enriched in IR, and validate predictions using ChIP-seq data.
+- **Visible evidence base** Abstract, Sections 1-5 (Introduction, Results, Discussion, Conclusions, Methods), Figure references (1-5), Table 1, supplementary references
+- **Missing materials affecting confidence** Figures and tables not provided; supplementary materials (Figures F2, Tables S1-S4) not provided; exact numerical results (AUC values, p-values, enrichment scores) partially reported but not fully detailed; ChIP-seq data processing details incomplete
+
+## Reviewer
+- **Overall assessment** The manuscript presents a plausible and potentially interesting hypothesis linking TF binding to IR regulation via chromatin accessibility. The deep learning approach is appropriate and the use of ChIP-seq validation is commendable. However, the evidence as presented is incomplete and several key claims are not fully supported by the data shown. The predictive performance (AUC-PRC 0.54) is modest and the biological significance of the findings requires stronger experimental or statistical support. The manuscript would benefit from clearer presentation of results and more rigorous validation.
+- **Who would be interested in the results, and why** Researchers in alternative splicing regulation, chromatin biology, and computational genomics would find this work relevant. The potential link between TF families and IR could inform studies on disease-associated splicing defects and gene regulation mechanisms.
+- **Major strengths** The hypothesis is well-motivated by prior work on co-transcriptional splicing and chromatin state. The use of deep learning for motif discovery is methodologically sound. The validation with ChIP-seq data for multiple zinc finger TFs adds experimental weight. The authors acknowledge limitations and propose future directions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Our model predicts that the majority of transcription factors that affect intron retention come from the zinc finger family" and "All the TFs demonstrated highly significant enrichment in IR events"
+  - **Evidence pointer** Section 2.2, Section 2.3, Table 1, Figure 3
+  - **Concern** The predictive performance of the model is modest (AUC-PRC 0.54, barely above the baseline of 0.50 for gkm-SVM). The claim that the model identifies TFs "that affect intron retention" is not directly supported by the data, as the model only distinguishes sequence features, not causal regulatory effects. The ChIP-seq enrichment analysis is described but the actual enrichment values, effect sizes, and statistical details are not provided in the text. The statement that "all TFs demonstrated highly significant enrichment" lacks quantitative support.
+  - **Why it matters** The central claim of TF involvement in IR regulation rests on the strength of these results. Without clear effect sizes and robust statistics, the biological significance cannot be assessed. The modest model performance raises questions about whether the identified motifs are truly specific to IR or reflect general chromatin features.
+  - **Resolution test** Provide full enrichment statistics (odds ratios, confidence intervals, p-values) for each TF in Table 1. Report the distribution of AUC-PRC values across cross-validation folds. Demonstrate that the model's predictions are specific to IR-associated DHSs by comparing against appropriate negative controls (e.g., random genomic regions, non-IR intronic DHSs).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Using SATORI... we detected over 400 TF interactions in DHSs associated with IR at a significance level of 0.05" and "we found 23 overlapping interactions in TRRUSTv2... with a p-value equal to 0 in a hypergeometric test"
+  - **Evidence pointer** Section 2.4, Figure 5, Supplementary Tables S2-S4
+  - **Concern** The SATORI analysis is described briefly and the statistical framework for detecting interactions is not explained. The hypergeometric p-value of 0 for TRRUSTv2 overlap is suspicious and likely reflects a computational artifact or an error in the test (p-values cannot be exactly 0 in a hypergeometric test unless the overlap is impossible by chance, which is unlikely). The median distance analysis (120 bp) is presented without details on the background distribution used for comparison.
+  - **Why it matters** The interaction network is a novel contribution, but the statistical validity is unclear. An exact p-value of 0 undermines confidence in the analysis. The biological interpretation of these interactions requires a clear statistical framework.
+  - **Resolution test** Provide a detailed description of the SATORI interaction detection method, including the null model. Report the exact hypergeometric p-value (e.g., p < 1e-50) rather than 0. Describe the background model for the distance analysis and report the full distribution.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "We use DNase I-seq data from 125 human immortalized cell-lines and tissues from the ENCODE database and 39 cell types from the Roadmap Epigenetics consortium as processed by [23]"
+  - **Evidence pointer** Section 5.1
+  - **Concern** The data processing is referenced to a prior publication but the specific steps (e.g., peak calling thresholds, filtering criteria, genome build) are not described. The IR event extraction relies on "code from SpliceGrapher and iDiffIR" but the exact parameters and filtering criteria are not provided. The definition of "non-IR DHSs" is vague.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without detailed data processing steps, other researchers cannot replicate the analysis or assess potential biases.
+  - **Resolution test** Provide a complete description of data processing steps, including software versions, parameters, and filtering criteria. Make the code and processed data available in a public repository.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** "Using this model we obtained accuracy of 0.54 as measured using the area under the precision-recall curve (AUC-PRC)"
+  - **Issue** The term "accuracy" is used incorrectly; AUC-PRC is a measure of ranking quality, not classification accuracy.
+  - **Required correction** Replace "accuracy" with "performance" or "AUC-PRC value".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.3
+  - **Evidence pointer** "MAZ and EGR1 were chosen as the TFs that exhibited the most significant level of enrichment in IR events"
+  - **Issue** The criteria for choosing these two TFs are not specified beyond "most significant," and the enrichment values are not reported.
+  - **Required correction** Report the enrichment values for all six TFs and justify the selection of MAZ and EGR1.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 5.2
+  - **Evidence pointer** "Formally, we can express the convolution operation as: where X is the input matrix..."
+  - **Issue** The equation is missing from the text, leaving a gap in the methods description.
+  - **Required correction** Include the full equation for the convolution operation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2
+  - **Evidence pointer** "In case of IR DHSs, 23 motifs had significant hits against multiple known human TFs at a q-value < 0.01"
+  - **Issue** The number of motifs analyzed is not stated, making it difficult to assess the enrichment significance.
+  - **Required correction** Report the total number of motifs analyzed and the proportion with significant hits.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 5.6
+  - **Evidence pointer** "We download the ChIP peaks of all the TFs that are enriched in IR events from the ENCODE database"
+  - **Issue** The specific ENCODE dataset identifiers and processing pipeline for ChIP-seq data are not provided.
+  - **Required correction** List the ENCODE accession numbers and describe the peak calling and filtering steps.
+
+## Risk / unsupported claims
+- The claim that "the majority of transcription factors that affect intron retention come from the zinc finger family" is not directly supported by the data, as the model identifies sequence motifs, not causal TF effects.
+- The statement that "All the TFs demonstrated highly significant enrichment in IR events" lacks quantitative support in the provided text.
+- The hypergeometric p-value of 0 for TRRUSTv2 overlap is statistically implausible and likely erroneous.
+- The biological interpretation of TF occupancy profiles (Figure 4) is speculative without functional validation.
+- The claim of "convincing evidence for a novel role of TFs in the regulation of IR" is overstated given the modest model performance and lack of causal experiments.

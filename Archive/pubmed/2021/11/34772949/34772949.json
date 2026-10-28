@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "34772949",
+    "doi": "10.1038/s41467-021-26819-2",
+    "title": "Local DNA shape is a general principle of transcription factor binding specificity in Arabidopsis thaliana."
+  },
+  "content": {
+    "abstract": "Understanding gene expression will require understanding where regulatory factors bind genomic DNA. The frequently used sequence-based motifs of protein-DNA binding are not predictive, since a genome contains many more binding sites than are actually bound and transcription factors of the same family share similar DNA-binding motifs. Traditionally, these motifs only depict sequence but neglect DNA shape. Since shape may contribute non-linearly and combinational to binding, machine learning approaches ought to be able to better predict transcription factor binding. Here we show that a random forest machine learning approach, which incorporates the 3D-shape of DNA, enhances binding prediction for all 216 tested Arabidopsis thaliana transcription factors and improves the resolution of differential binding by transcription factor family members which share the same binding motif. We observed that DNA shape features were individually weighted for each transcription factor, even if they shared the same binding sequence.",
+    "keywords": [],
+    "mesh_terms": [
+      "Arabidopsis/genetics/*metabolism",
+      "Binding Sites",
+      "Computational Biology",
+      "DNA/genetics/*metabolism",
+      "Protein Binding",
+      "Transcription Factors/genetics/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sielemann, Janik",
+        "Wulf, Donat",
+        "Schmidt, Romy",
+        "Brautigam, Andrea"
+      ],
+      "short_names": [
+        "Sielemann J",
+        "Wulf D",
+        "Schmidt R",
+        "Brautigam A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3970-9271",
+        "ORCID: 0000-0002-3032-1628",
+        "ORCID: 0000-0002-3395-0673",
+        "ORCID: 0000-0002-5309-0527"
+      ],
+      "affiliations": [
+        "Computational Biology, Center for Biotechnology (CeBiTec), Bielefeld University, 33615, Bielefeld, Germany.",
+        "Computational Biology, Faculty of Biology, Bielefeld University, 33615, Bielefeld, Germany.",
+        "Graduate School DILS, Bielefeld Institute for Bioinformatics Infrastructure (BIBI), Bielefeld University, 33615, Bielefeld, Germany.",
+        "Computational Biology, Center for Biotechnology (CeBiTec), Bielefeld University, 33615, Bielefeld, Germany.",
+        "Computational Biology, Faculty of Biology, Bielefeld University, 33615, Bielefeld, Germany.",
+        "Graduate School DILS, Bielefeld Institute for Bioinformatics Infrastructure (BIBI), Bielefeld University, 33615, Bielefeld, Germany.",
+        "Plant Biotechnology, Bielefeld University, 33615, Bielefeld, Germany.",
+        "Computational Biology, Center for Biotechnology (CeBiTec), Bielefeld University, 33615, Bielefeld, Germany. andrea.braeutigam@uni-bielefeld.de.",
+        "Computational Biology, Faculty of Biology, Bielefeld University, 33615, Bielefeld, Germany. andrea.braeutigam@uni-bielefeld.de.",
+        "Graduate School DILS, Bielefeld Institute for Bioinformatics Infrastructure (BIBI), Bielefeld University, 33615, Bielefeld, Germany. andrea.braeutigam@uni-bielefeld.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sielemann, Janik",
+        "short_name": "Sielemann J",
+        "identifiers": [
+          "0000-0003-3970-9271"
+        ],
+        "affiliations": [
+          "Computational Biology, Center for Biotechnology (CeBiTec), Bielefeld University, 33615, Bielefeld, Germany.",
+          "Computational Biology, Faculty of Biology, Bielefeld University, 33615, Bielefeld, Germany.",
+          "Graduate School DILS, Bielefeld Institute for Bioinformatics Infrastructure (BIBI), Bielefeld University, 33615, Bielefeld, Germany."
+        ]
+      },
+      {
+        "full_name": "Wulf, Donat",
+        "short_name": "Wulf D",
+        "identifiers": [
+          "0000-0002-3032-1628"
+        ],
+        "affiliations": [
+          "Computational Biology, Center for Biotechnology (CeBiTec), Bielefeld University, 33615, Bielefeld, Germany.",
+          "Computational Biology, Faculty of Biology, Bielefeld University, 33615, Bielefeld, Germany.",
+          "Graduate School DILS, Bielefeld Institute for Bioinformatics Infrastructure (BIBI), Bielefeld University, 33615, Bielefeld, Germany."
+        ]
+      },
+      {
+        "full_name": "Schmidt, Romy",
+        "short_name": "Schmidt R",
+        "identifiers": [
+          "0000-0002-3395-0673"
+        ],
+        "affiliations": [
+          "Plant Biotechnology, Bielefeld University, 33615, Bielefeld, Germany."
+        ]
+      },
+      {
+        "full_name": "Bräutigam, Andrea",
+        "short_name": "Bräutigam A",
+        "identifiers": [
+          "0000-0002-5309-0527"
+        ],
+        "affiliations": [
+          "Computational Biology, Center for Biotechnology (CeBiTec), Bielefeld University, 33615, Bielefeld, Germany. andrea.braeutigam@uni-bielefeld.de.",
+          "Computational Biology, Faculty of Biology, Bielefeld University, 33615, Bielefeld, Germany. andrea.braeutigam@uni-bielefeld.de.",
+          "Graduate School DILS, Bielefeld Institute for Bioinformatics Infrastructure (BIBI), Bielefeld University, 33615, Bielefeld, Germany. andrea.braeutigam@uni-bielefeld.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Nov 12",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/14 06:00",
+    "fetched_at": "2026-09-28 01:39:01"
+  },
+  "links": {
+    "cites": [
+      "41357141",
+      "41278958",
+      "40631206",
+      "40538067",
+      "40408265",
+      "40236784",
+      "39640721",
+      "39543118",
+      "39420601",
+      "39412125",
+      "39068371",
+      "39013383",
+      "38801070",
+      "38741205",
+      "38572749",
+      "37954573",
+      "37496273",
+      "37173718",
+      "37147307",
+      "36760129",
+      "35679803",
+      "35258588"
+    ],
+    "refs": [
+      "32939066",
+      "32929017",
+      "32607472",
+      "32393327",
+      "32086365",
+      "32015543",
+      "31740772",
+      "31701148",
+      "31695205",
+      "31665425",
+      "31217592",
+      "30395277",
+      "29165643",
+      "28985561",
+      "28011690",
+      "27250748",
+      "27203113",
+      "26668005",
+      "26213851",
+      "26160164",
+      "25918418",
+      "25843630",
+      "23562153",
+      "21486936",
+      "21330290",
+      "20304701",
+      "19865164",
+      "19458158",
+      "19304878",
+      "18523729",
+      "15337090",
+      "12679534",
+      "11906833",
+      "11118137",
+      "8119490"
+    ],
+    "similar": [
+      "34772949",
+      "28835225",
+      "25775564",
+      "31372637",
+      "28716409",
+      "17688316",
+      "18641404",
+      "15319476",
+      "29744943",
+      "27567672",
+      "22852874",
+      "31634140",
+      "21347314",
+      "29940855",
+      "12139008",
+      "20097792",
+      "15486100",
+      "27117388",
+      "33104784",
+      "17587183",
+      "9225852",
+      "22843236",
+      "21177332",
+      "34894231",
+      "24146751",
+      "25361952",
+      "26130577",
+      "24555803",
+      "19878300",
+      "11786543",
+      "26542109",
+      "24531799",
+      "11118137",
+      "26160164",
+      "22773751",
+      "26291518",
+      "25035402",
+      "39068371",
+      "29525962",
+      "16922688",
+      "25722376",
+      "32929017",
+      "15295067",
+      "25108460",
+      "29186632",
+      "26939991",
+      "28064247",
+      "23427988",
+      "9839469",
+      "15001351",
+      "20579334",
+      "8597661",
+      "24104863",
+      "19995345",
+      "33689093",
+      "11669580",
+      "12385991",
+      "25220462",
+      "36155619",
+      "34281206",
+      "32043966",
+      "25290154",
+      "18533028",
+      "16108724",
+      "15865625",
+      "28472398",
+      "21241251",
+      "27303023",
+      "19962994",
+      "21183585",
+      "33600435",
+      "27097556",
+      "28373393",
+      "16223790",
+      "24148294",
+      "19442701",
+      "25751057",
+      "35089985",
+      "26817596",
+      "22058225",
+      "20674465",
+      "24583075",
+      "8628224",
+      "19105805",
+      "29272447",
+      "26484765",
+      "19426448",
+      "17576669",
+      "19956545",
+      "22535423",
+      "29472273",
+      "38291225",
+      "28982128",
+      "36018808",
+      "28927002",
+      "36073809",
+      "39134823"
+    ],
+    "review": [
+      "34772949",
+      "28716409",
+      "34281206"
+    ],
+    "pmc": [
+      "8590021"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-26819-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34772949/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34772949",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text as provided
+- **Assessment boundary** Scientific claims, technical soundness, software utility, and presentation based solely on the supplied text
+- **Shared manuscript claim summary** The authors present pyDNA-EPBD, a parallel software implementation of the Extended Peyrard-Bishop-Dauxois (EPBD) nonlinear DNA model, which uses Markov chain Monte Carlo (MCMC) to generate genomic-scale profiles of average base-pair openings, base flipping probability, DNA bubble probability, and dynamic length. The manuscript emphasizes the biological relevance of DNA breathing and the utility of the tool for studying sequence-dependent dynamics.
+- **Visible evidence base** Main text sections including Motivation, Results, Introduction, Material and Methods, Usage, Supplementary Material, Availability, and Funding. No figures, tables, or supplementary files were provided.
+- **Missing materials affecting confidence** Figures 1a through 1l are referenced but not available. Supplementary material is mentioned but not provided. No validation data, benchmark results, performance metrics, or comparison with existing tools are included. No code documentation or user guide beyond a brief description.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful software tool for simulating DNA breathing dynamics using the EPBD model. The biological motivation is well articulated and the prior work by the authors is relevant. However, the current text reads more like a software announcement or extended abstract than a full research article. The absence of figures, validation data, performance benchmarks, and detailed methodology prevents assessment of the tool's correctness, efficiency, or novelty relative to existing implementations. The claims of genomic-scale capability and biological applicability are not supported by evidence in the provided material.
+- **Who would be interested in the results, and why** Computational biophysicists and bioinformaticians studying DNA dynamics, transcription regulation, and sequence-dependent DNA structural features would be interested. Researchers working on mesoscopic models of DNA and those developing tools for predicting DNA breathing or bubble formation could use pyDNA-EPBD for their analyses. The tool may also appeal to experimentalists studying transcription factor binding or DNA repair who need predictions of local DNA instability.
+- **Major strengths** The biological motivation is clear and well grounded in prior literature. The EPBD model is established and the authors have a track record of applying it to relevant problems. The software is open source, cross-platform, and designed for parallel deployment, which are practical advantages. The output metrics (average openings, flipping probability, bubble probability, dynamic length) are well chosen and biologically meaningful.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that pyDNA-EPBD generates genomic-scale profiles of average base-pair openings, base flipping probability, DNA bubble probability, and dynamic length using MCMC.
+  - **Evidence pointer** Material and Methods section, Usage section
+  - **Concern** The methodology description is too brief to assess correctness or reproducibility. The MCMC algorithm is summarized in a few sentences, but key details are missing, including convergence criteria, number of runs, burn-in length, step size selection, temperature ranges, and how the dynamic length is computed. The claim of genomic-scale capability is not substantiated with any performance data, memory usage, or runtime benchmarks.
+  - **Why it matters** Without a detailed and reproducible methodology, readers cannot verify the accuracy of the outputs or compare them with other implementations. The scientific utility of the tool depends on the reliability of the underlying simulations, which cannot be evaluated from the current text.
+  - **Resolution test** Provide a complete description of the algorithm, including all hyperparameters, convergence diagnostics, and a benchmark demonstrating runtime and memory scaling on a realistic genomic sequence. Include validation against known analytical results or experimental data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript implies that pyDNA-EPBD provides unique information about DNA breathing dynamics that cannot be obtained from thermodynamic models, specifically relative lifetimes of bubbles.
+  - **Evidence pointer** Introduction section
+  - **Concern** The claim of unique information is not demonstrated. No examples are shown where the tool's outputs reveal biologically novel insights or where the dynamic length or bubble lifetimes are compared with experimental measurements. The manuscript lists prior applications of EPBD but does not show what pyDNA-EPBD adds beyond existing implementations.
+  - **Why it matters** For a new software tool to be scientifically important, it must either enable new types of analysis or provide significant improvements in accuracy, speed, or usability. The current text does not establish either.
+  - **Resolution test** Include a case study or application example where pyDNA-EPBD produces results that are not obtainable with existing tools, or demonstrate a significant performance advantage with quantitative benchmarks.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that the average displacement profile eliminates the need for window averaging and is sensitive to single base pair substitutions.
+  - **Evidence pointer** Material and Methods section
+  - **Concern** This claim is made without supporting data. No comparison is shown between the pyDNA-EPBD output and results from thermodynamic models or other simulation approaches. The sensitivity to single base pair substitutions is asserted but not demonstrated with an example.
+  - **Why it matters** The central advantage of the tool is its single-nucleotide resolution and sensitivity to sequence changes. Without evidence, this advantage remains unverified.
+  - **Resolution test** Provide a figure or table showing the average displacement profile for a sequence with a known single base pair substitution, and compare with a thermodynamic model prediction or experimental data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The manuscript is written for a broad audience, but the Methods section assumes familiarity with the EPBD model and MCMC.
+  - **Evidence pointer** Material and Methods section
+  - **Concern** The description of the model and algorithm is too terse for nonspecialists to understand or use the tool. Terms such as "transfers opening profile" and "dynamic length" are introduced without clear definitions. The relationship between the model variables and the biological quantities of interest is not explained sufficiently.
+  - **Why it matters** For a software tool to be adopted by the broader community, including experimental biologists, the documentation must be accessible. The current text does not meet this standard.
+  - **Resolution test** Rewrite the Methods section with clear definitions of all variables and outputs, and include a step-by-step example of how to run the tool and interpret the results.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The sentence "H-bonds are much weaker (~ few kBTs) than covalent bonds" uses "kBTs" without defining the Boltzmann constant or temperature context. Also, the phrase "the two strands of the DNA double helix locally and spontaneously separate and recombine" is slightly redundant.
+  - **Required correction** Define kBT and clarify the temperature range of interest. Simplify the opening sentence for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Material and Methods
+  - **Evidence pointer** Material and Methods section
+  - **Issue** The text states "we compute the transfers opening profile yn" but "transfers" appears to be a typo or unclear term. It is not defined elsewhere.
+  - **Required correction** Replace "transfers opening profile" with a clear term such as "average opening profile" or define what is meant by "transfers."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The reference list is incomplete in the provided text. Several citations are mentioned but not fully listed, and some sentences have formatting issues, such as "Kli-mašauskas and Roberts (1995)" with a hyphen.
+  - **Required correction** Ensure all references are complete and correctly formatted.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Usage section
+  - **Evidence pointer** Usage section
+  - **Issue** The Usage section mentions that details on hyperparameters and experimental configuration are in the supplementary material, but this is not provided. Without this, users cannot reproduce the results.
+  - **Required correction** Include the supplementary material or provide a summary of key hyperparameters in the main text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Material and Methods
+  - **Evidence pointer** Material and Methods section
+  - **Issue** The text states "the proposed value is accepted according to the Metropolis probability" but does not specify how the step size for the Gaussian proposal distribution is chosen or adapted.
+  - **Required correction** Provide details on the proposal distribution and any adaptive scheme used.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The manuscript lacks sufficient methodological detail, validation, and performance data to establish the tool's correctness and utility. The absence of figures and supplementary material further weakens the case.
+- **Assessment against Nature-style criteria** 
+  - Originality: The EPBD model is not new, and the manuscript does not clearly articulate what is novel about this implementation beyond being a parallel version. The originality claim is weak.
+  - Scientific importance: The biological relevance of DNA breathing is well established, but the manuscript does not demonstrate that pyDNA-EPBD provides new scientific insights or enables analyses that were previously impractical. The importance is not established.
+  - Interdisciplinary readership: The topic bridges biophysics, computational biology, and molecular biology, but the presentation is too technical and incomplete for nonspecialists. The manuscript does not currently serve a broad readership.
+  - Technical soundness: The methodology is described at a high level without sufficient detail for verification. No validation or benchmarking is provided. Technical soundness cannot be assessed.
+  - Readability for nonspecialists: The text is generally readable in the Introduction but becomes opaque in the Methods. Definitions and examples are missing.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially useful tool, but the lack of methodological detail, validation, and performance data prevents a positive recommendation. The authors should provide a complete description of the algorithm, include validation against known results, and demonstrate the tool's utility with a concrete biological application.
+
+## Risk / unsupported claims
+- The claim that pyDNA-EPBD generates genomic-scale profiles is unsupported without performance benchmarks.
+- The claim that the tool provides unique information about bubble lifetimes is unsupported without comparative examples.
+- The claim of sensitivity to single base pair substitutions is unsupported without demonstration.
+- The statement that the average displacement profile eliminates the need for window averaging is unsupported without comparison to other methods.
+- The biological applications listed in the Introduction are attributed to prior work, but the specific contributions of pyDNA-EPBD to these applications are not clarified.
+- The compatibility and scalability claims (HPC, cloud) are not backed by any testing or deployment evidence.

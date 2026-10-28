@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "39273622",
+    "doi": "10.3390/ijms25179675",
+    "title": "WormCNN-Assisted Establishment and Analysis of Glycation Stress Models in C. elegans: Insights into Disease and Healthy Aging."
+  },
+  "content": {
+    "abstract": "Glycation Stress (GS), induced by advanced glycation end-products (AGEs), significantly impacts aging processes. This study introduces a new model of GS of Caenorhabditis elegans by feeding them Escherichia coli OP50 cultured in a glucose-enriched medium, which better simulates human dietary glycation compared to previous single protein-glucose cross-linking methods. Utilizing WormCNN, a deep learning model, we assessed the health status and calculated the Healthy Aging Index (HAI) of worms with or without GS. Our results demonstrated accelerated aging in the GS group, evidenced by increased autofluorescence and altered gene expression of key aging regulators, daf-2 and daf-16. Additionally, we observed elevated pharyngeal pumping rates in AGEs-fed worms, suggesting an addictive response similar to human dietary patterns. This study highlights the profound effects of GS on worm aging and underscores the critical role of computer vision in accurately assessing health status and aiding in the establishment of disease models. The findings provide insights into glycation-induced aging and offer a comprehensive approach to studying the effects of dietary glycation on aging processes.",
+    "keywords": [
+      "C. elegans",
+      "Convolutional Neural Networks",
+      "Glycation Stress",
+      "aging",
+      "computer vision"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Caenorhabditis elegans/metabolism/genetics",
+      "*Glycation End Products, Advanced/metabolism",
+      "*Caenorhabditis elegans Proteins/metabolism/genetics",
+      "Healthy Aging/metabolism",
+      "Aging/metabolism",
+      "Stress, Physiological",
+      "Forkhead Transcription Factors/metabolism/genetics",
+      "Glycosylation",
+      "Glucose/metabolism",
+      "Disease Models, Animal",
+      "Receptor, Insulin"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pan, Yan",
+        "Huang, Zhihang",
+        "Cai, Hongxia",
+        "Li, Zhiru",
+        "Zhu, Jingyuan",
+        "Wu, Dan",
+        "Xu, Wentao",
+        "Qiu, Hexiang",
+        "Zhang, Nan",
+        "Li, Guojun",
+        "Gao, Shan",
+        "Xian, Bo"
+      ],
+      "short_names": [
+        "Pan Y",
+        "Huang Z",
+        "Cai H",
+        "Li Z",
+        "Zhu J",
+        "Wu D",
+        "Xu W",
+        "Qiu H",
+        "Zhang N",
+        "Li G",
+        "Gao S",
+        "Xian B"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-3713-8329",
+        "ORCID: 0009-0006-1873-8435"
+      ],
+      "affiliations": [
+        "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China.",
+        "Institute for Toxicology, Beijing Center for Disease Prevention and Control, Beijing 100013, China.",
+        "Institute for Toxicology, Beijing Center for Disease Prevention and Control, Beijing 100013, China.",
+        "Institute for Toxicology, Beijing Center for Disease Prevention and Control, Beijing 100013, China.",
+        "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pan, Yan",
+        "short_name": "Pan Y",
+        "identifiers": [
+          "0009-0003-3713-8329"
+        ],
+        "affiliations": [
+          "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zhihang",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Hongxia",
+        "short_name": "Cai H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhiru",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Jingyuan",
+        "short_name": "Zhu J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Dan",
+        "short_name": "Wu D",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wentao",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Hexiang",
+        "short_name": "Qiu H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Nan",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Toxicology, Beijing Center for Disease Prevention and Control, Beijing 100013, China."
+        ]
+      },
+      {
+        "full_name": "Li, Guojun",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Toxicology, Beijing Center for Disease Prevention and Control, Beijing 100013, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Shan",
+        "short_name": "Gao S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Toxicology, Beijing Center for Disease Prevention and Control, Beijing 100013, China."
+        ]
+      },
+      {
+        "full_name": "Xian, Bo",
+        "short_name": "Xian B",
+        "identifiers": [
+          "0009-0006-1873-8435"
+        ],
+        "affiliations": [
+          "Laboratory of Aging Research, School of Medicine, University of Electronic Science and Technology of China, Chengdu 611731, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 Sep 6",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/14 10:46",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [
+      "42485426",
+      "41228792",
+      "41226839",
+      "41009778",
+      "41009675",
+      "40419453",
+      "39856887",
+      "39851471"
+    ],
+    "refs": [
+      "39012663",
+      "39012489",
+      "39009810",
+      "39008290",
+      "39007648",
+      "39002149",
+      "39001866",
+      "39001578",
+      "39000424",
+      "39000037",
+      "38998651",
+      "38997172",
+      "38962408",
+      "38945891",
+      "38931185",
+      "38922671",
+      "38861412",
+      "38550607",
+      "38340820",
+      "38334680",
+      "37867965",
+      "37728328",
+      "37527261",
+      "37512650",
+      "37353532",
+      "37023934",
+      "36697239",
+      "36421090",
+      "36380728",
+      "35395006",
+      "34959950",
+      "34267196",
+      "30100339",
+      "29480229",
+      "28137208",
+      "24634591",
+      "15328611"
+    ],
+    "similar": [
+      "39273622",
+      "25720500",
+      "30773782",
+      "28128482",
+      "28696216",
+      "30178731",
+      "34397058",
+      "26796881",
+      "31514551",
+      "29990370",
+      "34505574",
+      "30266681",
+      "32443669",
+      "28445141",
+      "34240728",
+      "26601690",
+      "25330323",
+      "21074601",
+      "32580971",
+      "27905558",
+      "33940230",
+      "15924569",
+      "24254253",
+      "38922671",
+      "37952525",
+      "31906434",
+      "32841230",
+      "33315870",
+      "37761985",
+      "30731110",
+      "25304463",
+      "37951302",
+      "21909281",
+      "37047164",
+      "30238944",
+      "27704837",
+      "27854075",
+      "33290254",
+      "34959950",
+      "36076399",
+      "31915963",
+      "30710163",
+      "33881421",
+      "34616504",
+      "32578648",
+      "38471269",
+      "30999822",
+      "26253816",
+      "28831863",
+      "30944351",
+      "27027346",
+      "28366735",
+      "27554775",
+      "31326564",
+      "25469508",
+      "35575499",
+      "25808059",
+      "26219299",
+      "18241854",
+      "24516399",
+      "34523995",
+      "17916248",
+      "27776915",
+      "33471780",
+      "18043747",
+      "28954389",
+      "28910305",
+      "32901024",
+      "25497098",
+      "26195740",
+      "26972607",
+      "39150724",
+      "30031267",
+      "31401497",
+      "14516929",
+      "32285078",
+      "21593014",
+      "36581039",
+      "32636256",
+      "26027643",
+      "26539642",
+      "34830338",
+      "33851304",
+      "31152844",
+      "18423931",
+      "17673661",
+      "23300685",
+      "37728328",
+      "21471153",
+      "37338980",
+      "18056973",
+      "23271974",
+      "18832074",
+      "37232088",
+      "32506187"
+    ],
+    "review": [
+      "39273622",
+      "21074601",
+      "31906434",
+      "39150724"
+    ],
+    "pmc": [
+      "11395114"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms25179675",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39273622/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

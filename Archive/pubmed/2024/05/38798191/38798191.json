@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "38798191",
+    "doi": "10.1021/acs.jcim.4c00047",
+    "title": "Prediction of Transcription Factor Binding Sites on Cell-Free DNA Based on Deep Learning."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) are important regulatory elements for vital cellular activities, and the identification of transcription factor binding sites (TFBS) can help to explore gene regulatory mechanisms. Research studies have proved that cfDNA (cell-free DNA) shows relatively higher coverage at TFBS due to the protection by TF from degradation by nucleases and short fragments of cfDNA are enriched in TFBS. However, there are still great difficulties in the noninvasive identification of TFBSs from experimental techniques. In this study, we propose a deep learning-based approach that can noninvasively predict TFBSs of cfDNA by learning sequence information from known TFBSs through convolutional neural networks. Under the addition of long short-term memory, our model achieved an area under the curve of 84%. Based on this model to predict cfDNA, we found consistent motifs in cfDNA fragments and lower coverage occurred upstream and downstream of these cfDNA fragments, which is consistent with a previous study. We also found that the binding sites of the same TF differ in different cell lines. TF-specific target genes were detected from cfDNA and were enriched in cancer-related pathways. In summary, our method of locating TFBSs from plasma has the potential to reflect the intrinsic regulatory mechanism from a noninvasive perspective and provide technical guidance for dynamic monitoring of disease in clinical practice.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Transcription Factors/metabolism/chemistry",
+      "Binding Sites",
+      "Humans",
+      "*Cell-Free Nucleic Acids/metabolism/chemistry",
+      "DNA/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qi, Ting",
+        "Zhou, Ying",
+        "Sheng, Yuqi",
+        "Li, Zhihui",
+        "Yang, Yuwei",
+        "Liu, Quanjun",
+        "Ge, Qinyu"
+      ],
+      "short_names": [
+        "Qi T",
+        "Zhou Y",
+        "Sheng Y",
+        "Li Z",
+        "Yang Y",
+        "Liu Q",
+        "Ge Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1708-1949"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Digital Medical Engineering, School of Biological Science and Medical Engineering, Southeast University, Nanjing 210096, People's Republic of China.",
+        "State Key Laboratory of Digital Medical Engineering, School of Biological Science and Medical Engineering, Southeast University, Nanjing 210096, People's Republic of China.",
+        "State Key Laboratory of Digital Medical Engineering, School of Biological Science and Medical Engineering, Southeast University, Nanjing 210096, People's Republic of China.",
+        "State Key Laboratory of Digital Medical Engineering, School of Biological Science and Medical Engineering, Southeast University, Nanjing 210096, People's Republic of China.",
+        "State Key Laboratory of Digital Medical Engineering, School of Biological Science and Medical Engineering, Southeast University, Nanjing 210096, People's Republic of China.",
+        "State Key Laboratory of Digital Medical Engineering, School of Biological Science and Medical Engineering, Southeast University, Nanjing 210096, People's Republic of China.",
+        "State Key Laboratory of Digital Medical Engineering, School of Biological Science and Medical Engineering, Southeast University, Nanjing 210096, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qi, Ting",
+        "short_name": "Qi T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Digital Medical Engineering, School of Biological Science and Medical Engineering, Southeast University, Nanjing 210096, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Ying",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Digital Medical Engineering, School of Biological Science and Medical Engineering, Southeast University, Nanjing 210096, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Sheng, Yuqi",
+        "short_name": "Sheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Digital Medical Engineering, School of Biological Science and Medical Engineering, Southeast University, Nanjing 210096, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhihui",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Digital Medical Engineering, School of Biological Science and Medical Engineering, Southeast University, Nanjing 210096, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yuwei",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Digital Medical Engineering, School of Biological Science and Medical Engineering, Southeast University, Nanjing 210096, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Quanjun",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Digital Medical Engineering, School of Biological Science and Medical Engineering, Southeast University, Nanjing 210096, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ge, Qinyu",
+        "short_name": "Ge Q",
+        "identifiers": [
+          "0000-0002-1708-1949"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Digital Medical Engineering, School of Biological Science and Medical Engineering, Southeast University, Nanjing 210096, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2024 May 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/27 06:44",
+    "fetched_at": "2026-10-05 01:03:27"
+  },
+  "links": {
+    "cites": [
+      "41057751",
+      "40943642"
+    ],
+    "refs": [],
+    "similar": [
+      "38798191",
+      "27567672",
+      "38701417",
+      "27871221",
+      "37328639",
+      "34669947",
+      "39350338",
+      "21059262",
+      "28485207",
+      "31336830",
+      "38733561",
+      "34272562",
+      "27503086",
+      "33498086",
+      "32155318",
+      "24386279",
+      "36155619",
+      "34613923",
+      "20158869",
+      "34174819",
+      "36057196",
+      "40102719",
+      "21896508",
+      "23522376",
+      "26285121",
+      "30857943",
+      "28750606",
+      "20529874",
+      "32770026",
+      "16595861",
+      "31372637",
+      "39701486",
+      "30447332",
+      "18627598",
+      "36094959",
+      "19586888",
+      "23599922",
+      "27209209",
+      "22672438",
+      "25918418",
+      "29617876",
+      "17914226",
+      "39107889",
+      "31001412",
+      "39227799",
+      "36082286",
+      "38732207",
+      "18485226",
+      "34649537",
+      "24039567",
+      "22888987",
+      "33137083",
+      "22187154",
+      "22504445",
+      "21193520",
+      "34073774",
+      "24942981",
+      "21486752",
+      "23527292",
+      "34245239",
+      "27052996",
+      "34929739",
+      "18517657",
+      "28623591",
+      "39217462",
+      "32660981",
+      "29617378",
+      "24927817",
+      "39922842",
+      "29757349",
+      "27106869",
+      "22904079",
+      "35719916",
+      "31634140",
+      "18053230",
+      "20360861",
+      "35901946",
+      "34448158",
+      "39271293",
+      "34534646",
+      "35263332",
+      "28849563",
+      "23282203",
+      "29617928",
+      "20943488",
+      "33975951",
+      "27546793",
+      "23320072",
+      "37399400",
+      "35713985",
+      "37803120",
+      "30380113",
+      "24926895",
+      "30835229",
+      "19730699",
+      "34864886",
+      "25559499",
+      "28700586",
+      "23822978",
+      "15266008"
+    ],
+    "review": [
+      "38798191",
+      "36057196",
+      "30447332",
+      "19586888"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.4c00047",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

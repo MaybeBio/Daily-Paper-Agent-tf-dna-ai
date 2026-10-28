@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39919746",
+  "title": "Combinatorial mapping of E3 ubiquitin ligases to their target substrates.",
+  "authors": "Suiter, Chase C; Calderon, Diego; Lee, David S; Chiu, Melodie; Jain, Shruti; Chardon, Florence M; Lee, Choli; Daza, Riza M; Trapnell, Cole; Zheng, Ning; Shendure, Jay",
+  "journal": "Molecular cell",
+  "published_date": "2025-02-08",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 4,
+  "one_liner_zh": "该文开发COMET高通量实验框架鉴定E3泛素连接酶与底物（含转录因子）的降解关系，并辅以深度学习预测互作结构，但核心是蛋白降解而非TF-DNA结合，仅部分涉及TF底物和结构预测，与本课题关联有限。",
+  "abstract": "E3 ubiquitin ligases (E3s) confer specificity of protein degradation through ubiquitination of substrate proteins. Yet, the vast majority of the >600 human E3s have no known substrates. To identify proteolytic E3-substrate pairs at scale, we developed combinatorial mapping of E3 targets (COMET), a framework for testing the role of many E3s in degrading many candidate substrates within a single experiment. We applied COMET to SCF ubiquitin ligase subunits that mediate degradation of target substrates (6,716 F-box-ORF [open reading frame] combinations) and E3s that degrade short-lived transcription factors (TFs) (26,028 E3-TF combinations). Our data suggest that many E3-substrate relationships are complex rather than 1:1 associations. Finally, we leverage deep learning to predict the structural basis of E3-substrate interactions and probe the strengths and limits of such models. Looking forward, we consider the practicality of transposing this framework, i.e., computational structural prediction of all possible E3-substrate interactions, followed by multiplex experimental validation.",
+  "abstract_zh": "E3泛素连接酶（E3s）通过底物蛋白的泛素化赋予蛋白质降解的特异性。然而，在超过600种人类E3s中，绝大多数尚无已知底物。为了大规模识别蛋白水解性E3-底物对，我们开发了E3靶标的组合映射（COMET），这是一个在单一实验中测试多种E3s在降解多种候选底物中作用的框架。我们将COMET应用于介导靶标底物降解的SCF泛素连接酶亚基（6,716种F-box-ORF [开放阅读框]组合）以及降解短寿命转录因子（TFs）的E3s（26,028种E3-TF组合）。我们的数据表明，许多E3-底物关系是复杂的，而非1:1的关联。最后，我们利用深度学习来预测E3-底物相互作用的结构基础，并探讨此类模型的优势与局限。展望未来，我们考虑将该框架转用的实用性，即对所有可能的E3-底物相互作用进行计算结构预测，随后进行多重实验验证。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39919746/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39919746/",
+  "paper_page_path": "papers/pubmed/39919746/index.html"
+}

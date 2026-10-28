@@ -1,0 +1,402 @@
+{
+  "identity": {
+    "pmid": "41272036",
+    "doi": "10.1038/s41598-025-25283-y",
+    "title": "A SWI/SNF complex-related genes signature predicts prognosis and immune infiltration in ccRCC with KCNK5 as a novel biomarker."
+  },
+  "content": {
+    "abstract": "Clear cell renal cell carcinoma (ccRCC) is the most common subtype of renal cell carcinoma (RCC). Although we have made many achievements in the therapy of RCC with the progress of medicine, the clinical management of metastatic RCC remains a daunting challenge. SWI/SNF chromatin remodeling complex-related genes (SCRGs) are significantly associated with tumor progression and cancer cell evolution in ccRCC. This study aimed to investigate the prognostic significance of SCRGs in ccRCC to elucidate its molecular subtype characteristics. Using 29 known SCRGs, 532 ccRCC patients from the TCGA-KIRC cohort were classified into two subtypes (SCRGcluster A and SCRGcluster B). Patients in SCRGcluster B exhibited a significantly poorer prognosis compared to those in SCRGcluster A. Functional enrichment and immune microenvironment profiles significantly differed between the subtypes, with SCRGcluster B showing higher levels of immune infiltration. Five core genes (TMCC3, TOP2A, EPS8, PIK3R3, KCNK5) were identified through the integration of multiple machine learning approaches and multivariate Cox regression analysis. A novel prognostic model based on these core genes was validated in an external cohort. Additionally, single-cell data analysis revealed the expression patterns of these core genes in ccRCC. In vitro experiments demonstrated that KCNK5 is underexpressed in ccRCC cell lines and tissues, and that its overexpression suppresses malignant phenotypes. Specifically, KCNK5 overexpression significantly inhibited the proliferation, migration, and invasion capabilities of ccRCC cell lines. Although the precise functional mechanisms of these core genes in ccRCC are not yet fully elucidated, this study provides new insights for the treatment of ccRCC.",
+    "keywords": [
+      "CcRCC",
+      "Immunotherapy",
+      "Machine learning",
+      "SWI/SNF prognosis",
+      "Tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Renal Cell/genetics/pathology/immunology/mortality",
+      "Prognosis",
+      "*Kidney Neoplasms/genetics/immunology/pathology/mortality",
+      "*Biomarkers, Tumor/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Female",
+      "Male",
+      "*Chromosomal Proteins, Non-Histone/genetics",
+      "*Transcription Factors/genetics",
+      "Tumor Microenvironment/genetics",
+      "Middle Aged",
+      "Cell Line, Tumor",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Kai",
+        "Yan, Zhiwei",
+        "Liu, Yunxun",
+        "Qiu, Qiangmin",
+        "Ni, Xinmiao",
+        "Tang, Hao",
+        "Wang, Lei",
+        "Chen, Zhiyuan",
+        "Liu, Xiuheng"
+      ],
+      "short_names": [
+        "Xu K",
+        "Yan Z",
+        "Liu Y",
+        "Qiu Q",
+        "Ni X",
+        "Tang H",
+        "Wang L",
+        "Chen Z",
+        "Liu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+        "Institute of Urologic Disease, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+        "Institute of Urologic Disease, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+        "Institute of Urologic Disease, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+        "Department of Organ Transplantation, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+        "Institute of Urologic Disease, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+        "Institute of Urologic Disease, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China. drwanglei@whu.edu.cn.",
+        "Institute of Urologic Disease, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China. drwanglei@whu.edu.cn.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China. drchenzy@whu.edu.cn.",
+        "Institute of Urologic Disease, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China. drchenzy@whu.edu.cn.",
+        "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China. drliuxh@whu.edu.cn.",
+        "Institute of Urologic Disease, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China. drliuxh@whu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Kai",
+        "short_name": "Xu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+          "Institute of Urologic Disease, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Zhiwei",
+        "short_name": "Yan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+          "Institute of Urologic Disease, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yunxun",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+          "Institute of Urologic Disease, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Qiangmin",
+        "short_name": "Qiu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+          "Department of Organ Transplantation, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Xinmiao",
+        "short_name": "Ni X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+          "Institute of Urologic Disease, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Hao",
+        "short_name": "Tang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China.",
+          "Institute of Urologic Disease, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lei",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China. drwanglei@whu.edu.cn.",
+          "Institute of Urologic Disease, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China. drwanglei@whu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhiyuan",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China. drchenzy@whu.edu.cn.",
+          "Institute of Urologic Disease, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China. drchenzy@whu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiuheng",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China. drliuxh@whu.edu.cn.",
+          "Institute of Urologic Disease, Renmin Hospital of Wuhan University, Wuhan, 430060, Hubei, China. drliuxh@whu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Nov 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/22 00:27",
+    "fetched_at": "2026-10-01 06:34:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40696159",
+      "39693721",
+      "39553210",
+      "39196544",
+      "39192265",
+      "39075637",
+      "39033764",
+      "39014081",
+      "38730293",
+      "38618953",
+      "38287116",
+      "38236186",
+      "36818280",
+      "36801089",
+      "36707357",
+      "36100483",
+      "35945219",
+      "35672925",
+      "35504878",
+      "35436930",
+      "35379120",
+      "35346519",
+      "34991070",
+      "34936385",
+      "34561242",
+      "34391775",
+      "34260682",
+      "34032854",
+      "33742122",
+      "33657295",
+      "33616314",
+      "33432368",
+      "33195888",
+      "32742463",
+      "32485555",
+      "32306075",
+      "32303701",
+      "31861590",
+      "31827286",
+      "31675502",
+      "31488087",
+      "31441146",
+      "31178587",
+      "30842676",
+      "30788497",
+      "30779529",
+      "30385537",
+      "30341162",
+      "30127393",
+      "29650362",
+      "29628290",
+      "29562145",
+      "29370570",
+      "28716897",
+      "27993815",
+      "27697108",
+      "27653561",
+      "26845405",
+      "26552009",
+      "25867923",
+      "24837077",
+      "24113773",
+      "23797736",
+      "23526956",
+      "22788766",
+      "21680658",
+      "21248752",
+      "20942669",
+      "20826764",
+      "16199517",
+      "15671550",
+      "9812978",
+      "9671307",
+      "7542745"
+    ],
+    "similar": [
+      "41272036",
+      "39614426",
+      "39871215",
+      "40243888",
+      "41286149",
+      "40660314",
+      "40016772",
+      "41052233",
+      "39192265",
+      "40811082",
+      "40642093",
+      "41403935",
+      "41217528",
+      "41266441",
+      "34217993",
+      "34795663",
+      "34512816",
+      "40670255",
+      "38780866",
+      "40430095",
+      "41357186",
+      "40730958",
+      "41029063",
+      "38970690",
+      "40602220",
+      "40770761",
+      "38808948",
+      "40909272",
+      "39747468",
+      "40165474",
+      "41476960",
+      "33000227",
+      "38953023",
+      "39237939",
+      "35120484",
+      "39215019",
+      "39011666",
+      "39136845",
+      "33243605",
+      "32406866",
+      "41376629",
+      "39818256",
+      "40251359",
+      "32311223",
+      "41088273",
+      "41180155",
+      "40843931",
+      "32447490",
+      "40329678",
+      "39703069",
+      "41353246",
+      "41357761",
+      "32323803",
+      "39998699",
+      "40821775",
+      "34239350",
+      "41490727",
+      "38546385",
+      "40784961",
+      "34415102",
+      "39353993",
+      "39301023",
+      "39038636",
+      "40379825",
+      "32567187",
+      "33850477",
+      "39249558",
+      "37908350",
+      "40935873",
+      "40596969",
+      "39714590",
+      "35422048",
+      "40715295",
+      "34686501",
+      "39123194",
+      "34329838",
+      "36591240",
+      "39557632",
+      "40171812",
+      "41402653",
+      "39465715",
+      "38822402",
+      "40850391",
+      "39115042",
+      "39831843",
+      "27779101",
+      "37138262",
+      "38862242",
+      "33173412",
+      "39136511",
+      "32319572",
+      "40717581",
+      "39669571",
+      "38654021",
+      "39239554",
+      "34845968",
+      "31781309",
+      "40852386",
+      "28975890",
+      "40056237"
+    ],
+    "review": [
+      "41272036"
+    ],
+    "pmc": [
+      "12639153"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-25283-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41272036/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1187",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

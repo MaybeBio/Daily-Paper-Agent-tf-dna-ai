@@ -1,0 +1,261 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.11.23.517755",
+  "title": "An in vivo massively parallel platform for deciphering tissue-specific regulatory function",
+  "doi": "10.1101/2022.11.23.517755",
+  "abstract": "Genetic studies are rapidly identifying non-protein-coding human disease-associated loci. Understanding the regulatory mechanisms underlying these loci remains a challenge because the causal variants and the tissues in which they act are often unclear. Massively parallel reporter assays (MPRAs) have the potential to link differences in genome sequence, including genetic variants, to tissue-specific regulatory function. Although MPRA and similar technologies have been widely adopted in cell culture, there have been several barriers to widespread use in animals. We overcome these challenges with a new whole-animal MPRA (WhAMPRA), where systemic intravenous AAV effectively transduces the plasmid MPRA library to mouse tissues. Our WhAMPRA approach revealed models of tissue-specific regulation that generally match machine learning model predictions. In addition, we measured the regulatory effects of disrupting MEF2C transcription factor binding sites and impacts of late onset Alzheimer’s disease-associated genetic variations. Overall, our WhAMPRA technology simultaneously determines the transcriptional functions of hundreds of enhancers in vivo across multiple tissues.",
+  "authors": [
+    "Brown AR",
+    "Fox GA",
+    "Kaplow IM",
+    "Lawler AJ",
+    "Phan BN",
+    "Wirthlin ME",
+    "Ramamurthy E",
+    "May GE",
+    "Chen Z",
+    "Su Q",
+    "McManus CJ",
+    "Pfenning AR"
+  ],
+  "published_date": "2022-11-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.11.23.517755",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.11.23.517755.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR575744",
+    "raw_record": {
+      "id": "PPR575744",
+      "source": "PPR",
+      "doi": "10.1101/2022.11.23.517755",
+      "title": "An  <i>in vivo</i>  massively parallel platform for deciphering tissue-specific regulatory function",
+      "authorString": "Brown AR, Fox GA, Kaplow IM, Lawler AJ, Phan BN, Wirthlin ME, Ramamurthy E, May GE, Chen Z, Su Q, McManus CJ, Pfenning AR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Brown AR",
+            "lastName": "Brown",
+            "firstName": "Ashley",
+            "initials": "AR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3091-3930"
+            }
+          },
+          {
+            "fullName": "Fox GA",
+            "lastName": "Fox",
+            "firstName": "Grant",
+            "initials": "GA"
+          },
+          {
+            "fullName": "Kaplow IM",
+            "lastName": "Kaplow",
+            "firstName": "Irene",
+            "initials": "IM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8924-8269"
+            }
+          },
+          {
+            "fullName": "Lawler AJ",
+            "lastName": "Lawler",
+            "firstName": "Alyssa",
+            "initials": "AJ"
+          },
+          {
+            "fullName": "Phan BN",
+            "lastName": "Phan",
+            "firstName": "BaDoi",
+            "initials": "BN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6331-5980"
+            }
+          },
+          {
+            "fullName": "Wirthlin ME",
+            "lastName": "Wirthlin",
+            "firstName": "Morgan",
+            "initials": "ME",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7967-7070"
+            }
+          },
+          {
+            "fullName": "Ramamurthy E",
+            "lastName": "Ramamurthy",
+            "firstName": "Easwaran",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2439-0600"
+            }
+          },
+          {
+            "fullName": "May GE",
+            "lastName": "May",
+            "firstName": "Gemma",
+            "initials": "GE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1583-2400"
+            }
+          },
+          {
+            "fullName": "Chen Z",
+            "lastName": "Chen",
+            "firstName": "Ziheng",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5709-8529"
+            }
+          },
+          {
+            "fullName": "Su Q",
+            "lastName": "Su",
+            "firstName": "Qiao",
+            "initials": "Q",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7882-6182"
+            }
+          },
+          {
+            "fullName": "McManus CJ",
+            "lastName": "McManus",
+            "firstName": "Joel",
+            "initials": "CJ"
+          },
+          {
+            "fullName": "Pfenning AR",
+            "lastName": "Pfenning",
+            "firstName": "Andreas",
+            "initials": "AR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3447-9801"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5709-8529"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6331-5980"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7967-7070"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2439-0600"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3091-3930"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3447-9801"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7882-6182"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8924-8269"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1583-2400"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Genetic studies are rapidly identifying non-protein-coding human disease-associated loci. Understanding the regulatory mechanisms underlying these loci remains a challenge because the causal variants and the tissues in which they act are often unclear. Massively parallel reporter assays (MPRAs) have the potential to link differences in genome sequence, including genetic variants, to tissue-specific regulatory function. Although MPRA and similar technologies have been widely adopted in cell culture, there have been several barriers to widespread use in animals. We overcome these challenges with a new whole-animal MPRA (WhAMPRA), where systemic intravenous AAV effectively transduces the plasmid MPRA library to mouse tissues. Our WhAMPRA approach revealed models of tissue-specific regulation that generally match machine learning model predictions. In addition, we measured the regulatory effects of disrupting MEF2C transcription factor binding sites and impacts of late onset Alzheimer’s disease-associated genetic variations. Overall, our WhAMPRA technology simultaneously determines the transcriptional functions of hundreds of enhancers  in vivo across multiple tissues.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/11/25/2022.11.23.517755.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.11.23.517755"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40270544",
+            "reference": "Frontiers in genetics. 2025 ;16:1533900",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-11-26",
+      "firstPublicationDate": "2022-11-25",
+      "firstIndexDate": "2022-11-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38815767",
+  "title": "Transcriptomics-based exploration of shared M1-type macrophage-related biomarker in acute kidney injury after kidney transplantation and acute rejection after kidney transplantation.",
+  "authors": "Pei, Jun; Zhang, Jie; Yu, Chengjun; Luo, Jin; Wen, Sheng; Hua, Yi; Wei, Guanghui",
+  "journal": "Transplant immunology",
+  "published_date": "2024-05-31",
+  "window": {
+    "start": "2024-05-27",
+    "end": "2024-06-02"
+  },
+  "score": 3,
+  "one_liner_zh": "该文基于转录组和机器学习识别肾移植后AKI与AR共享的M1巨噬细胞相关Hub基因，虽构建了TF-Hub调控网络，但核心是表达诊断标志物而非蛋白质-DNA互作机制建模，方法上无AI/物理模拟的互作建模。",
+  "abstract": "BACKGROUND: Macrophage type 1 (M1) cells are associated with both acute kidney injury (AKI) during kidney transplantation and acute rejection (AR) after kidney transplantation. Our study explored M1-related biomarkers involved in both AKI and AR and their potential biological functions. METHODS: Based on the Gene Expression Omnibus (GEO) database, the immune cell infiltration levels and differentially expressed genes were examined in AKI and AR in the kidney transplantation; M1-related genes shared in AKI and AR were identified using weighted gene co-expression analysis (WGCNA) system. Subsequently, protein-protein interaction (PPI) networks and machine learning methods to identify Hub genes and construct diagnostic models. Both AKI model and AR rat models were built to validate the expressions of Hub genes and test the injury phenotype, oxidative stress markers, and inflammatory factors. Finally, the transcription factor (TF)-Hub gene and micro-RNA (miRNA)-Hub gene regulatory networks were constructed based on identified Hub genes. RESULTS: Out of 2167 differential expression genes (DEGs) in AKI and 2100 DEGs in AR, four M1-related Hub genes were obtained by PPI networks and machine learning methods, namely GBP2, TYROBP, CCR5, and TLR8. The calibration curves in the nomogram diagnostic model for these four Hub genes suggested the same predictive probability as an ideal model for AKI and AR after kidney transplantation (AUC values of the area under the ROC curve were all >0.7). The same observations were confirmed in ischemia reperfusion injury (IRI) and AR rat models by identifying common four Hub genes (GBP2, TYROBP, TLR8, and CCR5). Western blots showed that these four Hub genes were significantly different in rat models of IRI and AR (all p<0.05). Compared with the control group, IRI and AR groups showed aggravated histopathological damage and increased secretion of oxidative stress markers and inflammatory factors in rat kidneys (all p<0.05). Finally, TF-Hub and miRNA-Hub gene regulatory networks were constructed to provide a theoretical basis for the regulation of Hub genes. CONCLUSION: We identified four macrophage M1-related Hub genes shared among AKI and AR after kidney transplantation. These genes may be considered for diagnosis of AKI and AR after kidney transplantation.",
+  "abstract_zh": "背景：巨噬细胞1型（M1）细胞与肾移植期间的急性肾损伤（AKI）及肾移植后的急性排斥反应（AR）均相关。本研究探讨了参与AKI和AR的M1相关生物标志物及其潜在生物学功能。方法：基于基因表达综合（GEO）数据库，检测了肾移植中AKI和AR的免疫细胞浸润水平及差异表达基因；利用加权基因共表达分析（WGCNA）系统鉴定了AKI和AR中共有的M1相关基因。随后，通过蛋白质-蛋白质相互作用（PPI）网络和机器学习方法识别Hub基因并构建诊断模型。建立了AKI模型和AR大鼠模型，以验证Hub基因的表达，并检测损伤表型、氧化应激标志物和炎症因子。最后，基于已识别的Hub基因构建了转录因子（TF）-Hub基因和微小RNA（miRNA）-Hub基因调控网络。结果：在AKI的2167个差异表达基因（DEGs）和AR的2100个DEGs中，通过PPI网络和机器学习方法获得了四个M1相关Hub基因，即GBP2、TYROBP、CCR5和TLR8。这四个Hub基因的列线图诊断模型校准曲线显示，其预测概率与肾移植后AKI和AR的理想模型相同（ROC曲线下面积AUC值均>0.7）。在缺血再灌注损伤（IRI）和AR大鼠模型中，通过识别共同的四个Hub基因（GBP2、TYROBP、TLR8和CCR5）证实了相同的观察结果。Western blot显示，这四个Hub基因在IRI和AR大鼠模型中存在显著差异（均p<0.05）。与对照组相比，IRI和AR组大鼠肾脏的组织病理学损伤加重，氧化应激标志物和炎症因子分泌增加（均p<0.05）。最后，构建了TF-Hub和miRNA-Hub基因调控网络，为Hub基因的调控提供了理论基础。结论：我们鉴定了肾移植后AKI和AR中共有的四个巨噬细胞M1相关Hub基因。这些基因可考虑用于肾移植后AKI和AR的诊断。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38815767/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38815767/",
+  "paper_page_path": "papers/pubmed/38815767/index.html"
+}

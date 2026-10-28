@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report a structure-guided strategy combining fragment screening and covalent chemistry to target protein-DNA interfaces, using RAD52 as a model. They claim identification of DNA-mimetic fragments, a recurrent 2:1 binding mode enabling fragment linking, conversion to covalent inhibitors via C64, and optimization to FORX-864, a beyond-rule-of-5 covalent probe with low-nanomolar biochemical activity, efficient target engagement, favorable in vitro properties, and submicromolar cellular activity in single-strand annealing assays.
+- **Visible evidence base** Abstract text only; no experimental details, structural data, assay protocols, or compound characterization provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, crystallographic data and refinement statistics, biochemical assay details, cellular assay conditions, compound synthesis and characterization data, selectivity data, pharmacokinetic or metabolic stability data, and any comparative controls
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing strategy for targeting protein-DNA interfaces, a class of targets historically considered challenging. The progression from fragment screening to covalent probe is logical and the reported potency values are impressive. However, the abstract alone provides insufficient evidence to evaluate the robustness of the structural claims, the specificity of the covalent engagement, the validity of the cellular data, or the broader applicability of the approach. Several claims, particularly regarding the "recurrent" binding mode and the "favorable in vitro properties," cannot be assessed without underlying data. The work is potentially significant but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in chemical biology, drug discovery, and DNA repair biology would be interested. Those working on targeting protein-protein or protein-DNA interactions with small molecules would find the fragment-to-covalent strategy relevant. The RAD52 probe could be of interest to the homologous recombination and cancer biology community, given RAD52's role in DNA repair and its potential as a synthetic lethality target.
+- **Major strengths** The abstract describes a clear and logical strategy that addresses a recognized challenge in chemical biology. The use of fragment screening to identify DNA-mimetic binders is a rational approach. The progression from reversible to covalent inhibitors via a proximal cysteine is a well-conceived design. The reported low-nanomolar biochemical activity and submicromolar cellular activity suggest meaningful potency.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "an X-ray fragment screen identified carboxylate-containing fragments that recapitulate key phosphate-backbone interactions of ssDNA within the conserved DNA-binding groove"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract claims a specific structural mode of fragment binding but provides no crystallographic details, such as resolution, electron density quality, or the number of fragments tested and hits obtained. The term "recapitulate" implies a detailed structural comparison that cannot be verified.  
+  - **Why it matters** The entire strategy rests on the validity of the fragment-binding mode. If the structural interpretation is flawed or overinterpreted, the subsequent linking and covalent design would lack a rational basis.  
+  - **Resolution test** Provide crystallographic statistics, representative electron density maps, and a clear description of how the fragment interactions were determined to mimic ssDNA phosphate backbone contacts.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "Structural analysis revealed a recurrent 2:1 fragment-binding mode that enabled fragment linking and preorganization, yielding reversible inhibitors with nanomolar biochemical activity"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The claim of a "recurrent" 2:1 binding mode implies consistency across multiple fragments or structures, but no data are shown. The link between the 2:1 mode and successful fragment linking is asserted without mechanistic or structural evidence for the linked compounds.  
+  - **Why it matters** The 2:1 binding mode is presented as a key enabling feature. Without evidence of recurrence and a clear structural rationale for linking, the generality of the approach and the validity of the resulting inhibitors are uncertain.  
+  - **Resolution test** Show multiple fragment-bound structures demonstrating the 2:1 mode, and provide structural or biophysical data for the linked compounds confirming the predicted binding geometry.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "Subsequent exploitation of C64, located adjacent to the bound ligand, converted this reversible scaffold into potent covalent inhibitors"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states C64 is "located adjacent to the bound ligand" but provides no structural evidence for this proximity in the context of the linked fragments. Covalent engagement is claimed but no data on selectivity, stoichiometry, or the site of labeling are presented.  
+  - **Why it matters** Covalent inhibitors require rigorous demonstration of on-target modification and selectivity to rule out nonspecific reactivity. Without such evidence, the mechanism of action is not established.  
+  - **Resolution test** Provide mass spectrometry or crystallographic evidence of C64 labeling, selectivity data against other cysteines or proteins, and kinetic characterization of covalent bond formation.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "Optimization led to the identification of FORX-864, a beyond-rule-of-5 covalent RAD52 chemical probe with low-nanomolar ssDNA-displacement activity, efficient covalent target engagement, favorable in vitro properties, and submicromolar inhibition of RAD52-dependent single-strand annealing in cells"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract makes multiple strong claims about FORX-864, including "efficient covalent target engagement" and "favorable in vitro properties," but provides no quantitative data. The cellular activity is described as submicromolar, but the assay type, controls, and specificity of the single-strand annealing readout are not described.  
+  - **Why it matters** The designation of FORX-864 as a "chemical probe" implies a high standard of selectivity and utility. Without data on selectivity, cellular permeability, metabolic stability, and a clear demonstration that the cellular phenotype is on-target, the probe claim is premature.  
+  - **Resolution test** Provide dose-response curves for biochemical and cellular assays, selectivity profiling data, and a detailed description of the cellular assay including genetic or chemical controls demonstrating on-target activity.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "beyond-rule-of-5" is used without context or definition, which may be unclear to nonspecialist readers.  
+  - **Required correction** Define the term or provide a brief explanation of its relevance to the compound's properties.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Scope of claims  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract claims the strategy is general for "DNA-binding proteins" but only demonstrates it on RAD52.  
+  - **Required correction** Soften the claim to reflect that the strategy is demonstrated on a single model system, or provide additional examples.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Experimental details  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No information is provided on the number of fragments screened, hit rates, or the criteria for selecting fragments for follow-up.  
+  - **Required correction** Include these details in the full manuscript to allow assessment of the screening approach.
+
+## Risk / unsupported claims
+- The claim that fragments "recapitulate key phosphate-backbone interactions" is unsupported without structural data.
+- The "recurrent 2:1 fragment-binding mode" is unverifiable from the abstract.
+- The assertion that C64 is "located adjacent to the bound ligand" requires structural evidence.
+- "Efficient covalent target engagement" and "favorable in vitro properties" are stated without quantitative support.
+- The designation of FORX-864 as a "chemical probe" is not justified without selectivity and cellular specificity data.
+- The general applicability of the strategy to "DNA-binding proteins" is not established from a single case study.

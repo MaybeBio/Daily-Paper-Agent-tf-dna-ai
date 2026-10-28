@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "42009674",
+    "doi": "10.1038/s41467-026-72031-5",
+    "title": "Prediction and functional interpretation of inter-chromosomal genome architecture from DNA sequence with TwinC."
+  },
+  "content": {
+    "abstract": "Three-dimensional nuclear DNA architecture comprises well-studied intra-chromosomal (cis) folding and less characterized inter-chromosomal (trans) interfaces. Current predictive models of 3D genome folding overlook trans-genome organization. We present TwinC, an interpretable convolutional neural network model that reliably predicts trans contacts measurable through proximity ligation-dependent (in situ and intact Hi-C) and independent (DNA SPRITE) genome-wide chromatin conformation assays. TwinC achieves high predictive accuracy (AUROC=0.80) on a cross-chromosomal test set from in situ and intact Hi-C experiments in heart tissue. Furthermore, we train TwinC using in situ Hi-C data from the widely used GM12878 cell line and validate its performance with orthogonal DNA SPRITE assay in the same cell type. Mechanistically, the neural network learns the importance of compartments, chromatin accessibility, clustered transcription factor binding, and G-quadruplexes in forming trans contacts. In summary, TwinC models and interprets trans genome architecture, illuminating this poorly understood aspect of gene regulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Cell Line",
+      "Chromatin/genetics/metabolism/chemistry",
+      "*Chromosomes/genetics",
+      "Convolutional Neural Networks",
+      "*DNA/genetics/chemistry",
+      "G-Quadruplexes",
+      "*Genome",
+      "*Predictive Learning Models"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jha, Anupama",
+        "Hristov, Borislav",
+        "Wang, Xiao",
+        "Wang, Sheng",
+        "Greenleaf, William J",
+        "Kundaje, Anshul",
+        "Aiden, Erez Lieberman",
+        "Bertero, Alessandro",
+        "Noble, William Stafford"
+      ],
+      "short_names": [
+        "Jha A",
+        "Hristov B",
+        "Wang X",
+        "Wang S",
+        "Greenleaf WJ",
+        "Kundaje A",
+        "Aiden EL",
+        "Bertero A",
+        "Noble WS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3029-2086",
+        "ORCID: 0000-0003-4435-7098",
+        "ORCID: 0000-0002-0439-5199",
+        "ORCID: 0000-0003-1409-3095",
+        "ORCID: 0000-0003-0634-6486",
+        "ORCID: 0000-0002-4919-9087",
+        "ORCID: 0000-0001-7283-4715"
+      ],
+      "affiliations": [
+        "Department of Genetics, Yale University, New Haven, CT, USA.",
+        "Department of Computer Science and Software Engineering, California Polytechnic State University, San Luis Obispo, CA, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+        "Paul G. Allen Center for Computer Science & Engineering, University of Washington, Seattle, WA, USA.",
+        "Paul G. Allen Center for Computer Science & Engineering, University of Washington, Seattle, WA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Center for Personal Dynamic Regulomes, Stanford University, Stanford, CA, USA.",
+        "Department of Applied Physics, Stanford University, Stanford, CA, USA.",
+        "Chan Zuckerberg Biohub, San Francisco, CA, USA.",
+        "Department of Genetics, Stanford University, Stanford, CA, USA.",
+        "Department of Computer Science, Stanford University, Stanford, CA, USA.",
+        "The Center for Genome Architecture, Baylor College of Medicine, Houston, TX, USA.",
+        "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA.",
+        "Center for Theoretical Biological Physics, Rice University, Houston, TX, USA.",
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+        "Department of Computer Science, Rice University, Houston, TX, USA.",
+        "Department of Computational and Applied Mathematics, Rice University, Houston, TX, USA.",
+        "Molecular Biotechnology Center 'Guido Tarone,' Department of Molecular Biotechnology and Health Sciences, University of Turin, Torino, Italy. alessandro.bertero@unito.it.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA, USA. william-noble@uw.edu.",
+        "Paul G. Allen Center for Computer Science & Engineering, University of Washington, Seattle, WA, USA. william-noble@uw.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jha, Anupama",
+        "short_name": "Jha A",
+        "identifiers": [
+          "0000-0003-3029-2086"
+        ],
+        "affiliations": [
+          "Department of Genetics, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Hristov, Borislav",
+        "short_name": "Hristov B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Software Engineering, California Polytechnic State University, San Luis Obispo, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiao",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0000-0003-4435-7098"
+        ],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA.",
+          "Paul G. Allen Center for Computer Science & Engineering, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Sheng",
+        "short_name": "Wang S",
+        "identifiers": [
+          "0000-0002-0439-5199"
+        ],
+        "affiliations": [
+          "Paul G. Allen Center for Computer Science & Engineering, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Greenleaf, William J",
+        "short_name": "Greenleaf WJ",
+        "identifiers": [
+          "0000-0003-1409-3095"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA.",
+          "Center for Personal Dynamic Regulomes, Stanford University, Stanford, CA, USA.",
+          "Department of Applied Physics, Stanford University, Stanford, CA, USA.",
+          "Chan Zuckerberg Biohub, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Stanford, CA, USA.",
+          "Department of Computer Science, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Aiden, Erez Lieberman",
+        "short_name": "Aiden EL",
+        "identifiers": [
+          "0000-0003-0634-6486"
+        ],
+        "affiliations": [
+          "The Center for Genome Architecture, Baylor College of Medicine, Houston, TX, USA.",
+          "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA.",
+          "Center for Theoretical Biological Physics, Rice University, Houston, TX, USA.",
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Computer Science, Rice University, Houston, TX, USA.",
+          "Department of Computational and Applied Mathematics, Rice University, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Bertero, Alessandro",
+        "short_name": "Bertero A",
+        "identifiers": [
+          "0000-0002-4919-9087"
+        ],
+        "affiliations": [
+          "Molecular Biotechnology Center 'Guido Tarone,' Department of Molecular Biotechnology and Health Sciences, University of Turin, Torino, Italy. alessandro.bertero@unito.it."
+        ]
+      },
+      {
+        "full_name": "Noble, William Stafford",
+        "short_name": "Noble WS",
+        "identifiers": [
+          "0000-0001-7283-4715"
+        ],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA, USA. william-noble@uw.edu.",
+          "Paul G. Allen Center for Computer Science & Engineering, University of Washington, Seattle, WA, USA. william-noble@uw.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Apr 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/21 13:11",
+    "fetched_at": "2026-10-01 19:02:56"
+  },
+  "links": {
+    "cites": [
+      "39763871"
+    ],
+    "refs": [
+      "39322282",
+      "39195894",
+      "37699887",
+      "37280678",
+      "37280210",
+      "37094040",
+      "36836777",
+      "36624151",
+      "36104547",
+      "35551308",
+      "34341548",
+      "34162892",
+      "34048569",
+      "33854243",
+      "33732290",
+      "33603233",
+      "33046897",
+      "33046896",
+      "32241294",
+      "32154891",
+      "31601866",
+      "30948719",
+      "30892612",
+      "30626972",
+      "30201095",
+      "29887377",
+      "29685368",
+      "29109402",
+      "28273065",
+      "27618450",
+      "27210764",
+      "27192037",
+      "26192317",
+      "26119342",
+      "25497547",
+      "24396026",
+      "24058759",
+      "23715323",
+      "23103767",
+      "22056786",
+      "21880598",
+      "21498422",
+      "21447817",
+      "21330290",
+      "20181287",
+      "19815776",
+      "19563753",
+      "19412530",
+      "19344736",
+      "18662548",
+      "18501343",
+      "17952071",
+      "17700626",
+      "17622196",
+      "17218270",
+      "16614224",
+      "16424298",
+      "15914667",
+      "15361872",
+      "15249177",
+      "11283701"
+    ],
+    "similar": [
+      "42009674",
+      "39345598",
+      "37264486",
+      "36352464",
+      "39322282",
+      "27008015",
+      "37790381",
+      "31699985",
+      "31177910",
+      "40513402",
+      "29087948",
+      "20461051",
+      "29382556",
+      "32471347",
+      "26553003",
+      "33732290",
+      "29158486",
+      "42467984",
+      "33872156",
+      "19815776",
+      "41556344",
+      "28334818",
+      "33953379",
+      "30596637",
+      "35764630",
+      "36744801",
+      "37212988",
+      "29471801",
+      "41316293",
+      "41507775",
+      "30359306",
+      "36458445",
+      "40186170",
+      "36624151",
+      "32987449",
+      "25887659",
+      "32822575",
+      "39075082",
+      "39763871",
+      "21045820",
+      "29431585",
+      "41576073",
+      "26001583",
+      "30125668",
+      "40243368",
+      "31056636",
+      "41891880",
+      "33724986",
+      "28623585",
+      "29945198",
+      "33465072",
+      "37013988",
+      "31980751",
+      "37515382",
+      "28986784",
+      "35839701",
+      "28186153",
+      "32713597",
+      "42323313",
+      "37440599",
+      "29662163",
+      "33065269",
+      "28420341",
+      "34286910",
+      "35244156",
+      "40884646",
+      "26989773",
+      "35488276",
+      "34415530",
+      "34034791",
+      "29273625",
+      "32191860",
+      "29048467",
+      "31811132",
+      "30333624",
+      "32759226",
+      "33545029",
+      "24074120",
+      "40802526",
+      "32820401",
+      "28742097",
+      "41980945",
+      "35659533",
+      "32999023",
+      "27770354",
+      "26686651",
+      "34072879",
+      "29723572",
+      "30181316",
+      "41986002",
+      "31653198",
+      "35933090",
+      "31510655",
+      "29887377",
+      "40791469",
+      "34415531",
+      "32034421",
+      "10491386",
+      "40058875",
+      "37133976"
+    ],
+    "review": [
+      "42009674",
+      "40513402",
+      "33953379",
+      "32987449",
+      "30125668",
+      "35839701",
+      "32713597",
+      "33065269",
+      "35659533",
+      "30181316",
+      "41986002",
+      "40058875"
+    ],
+    "pmc": [
+      "13280383"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-72031-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42009674/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

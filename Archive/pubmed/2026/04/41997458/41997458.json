@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "41997458",
+    "doi": "10.1016/j.jnutbio.2026.110382",
+    "title": "Pterostilbene targets microglia-mediated neuroinflammation for Alzheimer's therapy."
+  },
+  "content": {
+    "abstract": "Microglia-mediated neuroinflammation is a key driver of Alzheimer's disease (AD) progression, exacerbating neuronal damage and pathological changes. Pterostilbene (PTE), a natural anti-inflammatory stilbenoid, shows neuroprotective potential in AD, but its specific mechanism in regulating AD-related neuroinflammation remains unclear. Here, we explored the anti-neuroinflammatory effect and mechanisms of PTE against AD. APPswe/PS1dE9 (APP/PS1) transgenic mice were treated intragastrically with PTE for 4 weeks, followed by evaluation of cognitive function and pathological changes. Amyloid-beta burden, Tau protein phosphorylation, microglial activation, and proinflammatory cytokines production were analyzed. To further investigate the potential mechanism of PTE, an integrated approach combining network pharmacology, RNA sequencing, molecular docking, molecular dynamics simulations, and cell transfection techniques were conducted. Our results showed that PTE treatment improved cognitive impairment, amyloid-beta deposits, Tau protein phosphorylation, microglia activation, and production of tumor necrosis factor-alpha, interleukin-1beta, and interleukin-6 in vivo and in vitro. Notably, molecular docking predicted that PTE has binding affinity for Janus kinase 2 (JAK2) at LYS-857, LYS-882, and LEU-932. Consistently, site-directed mutagenesis reduced the inhibitory effect of PTE on JAK2/signal transducer and activator of transcription 3 (STAT3) phosphorylation, supporting JAK2 as a functional target. Meanwhile, we revealed that PTE effectively inhibited activation of microglia in the APP/PS1 mice by regulating JAK2-STAT3 pathway. These findings indicate that PTE treatment could attenuate microglia-mediated neuroinflammation via regulating JAK2-STAT3 signaling pathway, which might provide a novel option to elucidate the effects of PTE on AD.",
+    "keywords": [
+      "Alzheimer's disease",
+      "JAK2-STAT3 signaling pathway",
+      "Microglia",
+      "Neuroinflammation",
+      "Neuroprotection",
+      "Pterostilbene"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Alzheimer Disease/drug therapy/metabolism",
+      "*Microglia/drug effects/metabolism",
+      "*Stilbenes/pharmacology",
+      "Janus Kinase 2/metabolism",
+      "Mice, Transgenic",
+      "Mice",
+      "Molecular Docking Simulation",
+      "Amyloid beta-Peptides/metabolism",
+      "STAT3 Transcription Factor/metabolism",
+      "Male",
+      "*Neuroinflammatory Diseases/drug therapy/metabolism",
+      "Neuroprotective Agents/pharmacology",
+      "Phosphorylation",
+      "tau Proteins/metabolism",
+      "Signal Transduction/drug effects",
+      "Cytokines/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Feichi",
+        "Lv, Xinhuang",
+        "Xiang, Kun",
+        "Lin, Xiaoou",
+        "Dai, Conghui",
+        "Wei, Chuhua",
+        "Zhang, Yang",
+        "Liu, Jiaming",
+        "Li, Jing"
+      ],
+      "short_names": [
+        "Chen F",
+        "Lv X",
+        "Xiang K",
+        "Lin X",
+        "Dai C",
+        "Wei C",
+        "Zhang Y",
+        "Liu J",
+        "Li J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Geriatrics, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325000, China.",
+        "Department of Neurology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325000, China.",
+        "Department of Neurology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325027, China.",
+        "School of Public Health, Wenzhou Medical University, Wenzhou, Zhejiang 325035, China.",
+        "School of Public Health, Wenzhou Medical University, Wenzhou, Zhejiang 325035, China.",
+        "Department of Neurology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325000, China.",
+        "Department of Neurology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325000, China. Electronic address: zhangyang2006@126.com.",
+        "School of Public Health, Wenzhou Medical University, Wenzhou, Zhejiang 325035, China. Electronic address: wzjiaming_liu@163.com.",
+        "Department of Neurology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325000, China. Electronic address: dami663@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Feichi",
+        "short_name": "Chen F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325000, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Xinhuang",
+        "short_name": "Lv X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325000, China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Kun",
+        "short_name": "Xiang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The Second Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325027, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Xiaoou",
+        "short_name": "Lin X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Wenzhou Medical University, Wenzhou, Zhejiang 325035, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Conghui",
+        "short_name": "Dai C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Wenzhou Medical University, Wenzhou, Zhejiang 325035, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Chuhua",
+        "short_name": "Wei C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325000, China. Electronic address: zhangyang2006@126.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiaming",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Wenzhou Medical University, Wenzhou, Zhejiang 325035, China. Electronic address: wzjiaming_liu@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Jing",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, Zhejiang 325000, China. Electronic address: dami663@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of nutritional biochemistry"
+    ],
+    "journal_abbrev": [
+      "J Nutr Biochem"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/18 13:10",
+    "fetched_at": "2026-10-01 18:31:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41997458",
+      "37619415",
+      "41106101",
+      "31835282",
+      "39733799",
+      "42166973",
+      "38518635",
+      "41771399",
+      "26939570",
+      "39458551",
+      "41763166",
+      "40374872",
+      "41106565",
+      "41747588",
+      "38705540",
+      "34808617",
+      "42163277",
+      "41477991",
+      "39587077",
+      "24055519",
+      "39791155",
+      "40429872",
+      "37465679",
+      "30981186",
+      "33059746",
+      "24486434",
+      "40279970",
+      "40169108",
+      "34391814",
+      "40739177",
+      "34433707",
+      "29462698",
+      "39094757",
+      "40114191",
+      "24223757",
+      "40312965",
+      "40564963",
+      "39893485",
+      "41482108",
+      "42109914",
+      "22118570",
+      "34367186",
+      "34563511",
+      "41173224",
+      "24141019",
+      "40865787",
+      "32795892",
+      "30676698",
+      "37182449",
+      "38043266",
+      "33185801",
+      "38938161",
+      "34959070",
+      "38703874",
+      "41954172",
+      "24219385",
+      "41502346",
+      "41439284",
+      "37086707",
+      "39971019",
+      "33065077",
+      "41156471",
+      "31128596",
+      "40884941",
+      "38752930",
+      "24690200",
+      "31837991",
+      "39453382",
+      "42392719",
+      "34585328",
+      "23313376",
+      "39721456",
+      "41708544",
+      "37951537",
+      "39914538",
+      "29869390",
+      "32066466",
+      "40542425",
+      "32660121",
+      "38552431",
+      "37336148",
+      "35093024",
+      "40093898",
+      "33197761",
+      "38968796",
+      "34124763",
+      "31476414",
+      "39135052",
+      "39487531",
+      "41261326",
+      "23261590",
+      "32353422",
+      "40472614",
+      "34543632",
+      "39851517",
+      "28004107",
+      "41306975",
+      "40175501",
+      "41136693",
+      "40204151"
+    ],
+    "review": [
+      "41997458",
+      "39851517"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0955-2863(26)00124-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

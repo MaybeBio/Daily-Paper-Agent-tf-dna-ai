@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "40118372",
+    "doi": "10.1016/j.wneu.2025.123908",
+    "title": "Integrating Single-Cell Sequencing and Transcriptome Analysis to Investigate the Role of Ferroptosis in Ischemic Stroke and the Molecular Mechanisms of Immune Checkpoints."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Early diagnosis of ischemic stroke (IS) remains challenging. Given the crucial role of ferroptosis in IS, this study aims to identify key genes associated with ferroptosis in IS, providing insights into its molecular mechanisms and potential biomarkers for early detection. METHODS: The single-cell transcriptome dataset GSE247474 from the Gene Expression Omnibus. Ferroptosis scores in astrocytes were calculated using the WP_FERROPTOSIS gene set, and differential analysis was conducted to compare ferroptosis activity between the disease and control groups. Key ferroptosis-related genes were identified using Lasso regression and support vector machine algorithms, and their diagnostic potential was assessed through receiver operating characteristic curve analysis. Additionally, we performed immune infiltration analysis and transcription factor network prediction. Pseudotime analysis was used to explore the differentiation trajectories of astrocytes and T-cell subsets. RESULTS: Astrocytes in the disease group showed significantly higher ferroptosis scores than those in the control group. Using machine learning algorithms, we identified 3 key ferroptosis-related genes-SLC3A2 (solute carrier family 3 member 2), FDFT1 (farnesyl-diphosphate farnesyltransferase 1), and BACH1 (BTB and CNC homology 1)-and validated their diagnostic value (area under the curve >0.9). Immune infiltration analysis revealed that SLC3A2 and BACH1 expression levels were positively correlated with CD4(+) follicular T cells and negatively correlated with CD4(+) memory T cells. FDFT1 showed positive correlations with both mast cells and CD4(+) memory T cells. Pseudotime analysis demonstrated dynamic changes in key gene expression along the differentiation trajectories of astrocytes and T cells. CONCLUSIONS: SLC3A2, FDFT1, and BACH1 are potential molecular markers for IS diagnosis.",
+    "keywords": [
+      "Biomarkers",
+      "Ferroptosis",
+      "Immune infiltration",
+      "Ischemic stroke"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/genetics/immunology",
+      "Humans",
+      "*Ischemic Stroke/genetics/immunology/diagnosis",
+      "*Single-Cell Analysis/methods",
+      "Gene Expression Profiling/methods",
+      "Transcriptome",
+      "Astrocytes/metabolism/immunology",
+      "Basic-Leucine Zipper Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Han, Weidong",
+        "Bian, Xiaonan",
+        "Fu, Haiyang",
+        "Liu, Min",
+        "Wang, Hongliang",
+        "Liu, Haimei"
+      ],
+      "short_names": [
+        "Han W",
+        "Bian X",
+        "Fu H",
+        "Liu M",
+        "Wang H",
+        "Liu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical Laboratory, Affiliated Nantong Hospital of Shanghai University (The Sixth People's Hospital of Nantong), Nantong, Jiangsu, China.",
+        "Department of Clinical Laboratory, Affiliated Nantong Hospital of Shanghai University (The Sixth People's Hospital of Nantong), Nantong, Jiangsu, China.",
+        "Department of Neurobiology, Harbin Medical University, Harbin, Heilongjiang, China.",
+        "Department of Clinical Laboratory, Liupanshui Maternal and Child Health Hospital, Liupanshui, Guizhou, China.",
+        "Department of Clinical Laboratory, Affiliated Nantong Hospital of Shanghai University (The Sixth People's Hospital of Nantong), Nantong, Jiangsu, China.",
+        "Department of Clinical Laboratory, Affiliated Nantong Hospital of Shanghai University (The Sixth People's Hospital of Nantong), Nantong, Jiangsu, China. Electronic address: 2829580165@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Han, Weidong",
+        "short_name": "Han W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Affiliated Nantong Hospital of Shanghai University (The Sixth People's Hospital of Nantong), Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Bian, Xiaonan",
+        "short_name": "Bian X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Affiliated Nantong Hospital of Shanghai University (The Sixth People's Hospital of Nantong), Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Haiyang",
+        "short_name": "Fu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, Harbin Medical University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Min",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Liupanshui Maternal and Child Health Hospital, Liupanshui, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hongliang",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Affiliated Nantong Hospital of Shanghai University (The Sixth People's Hospital of Nantong), Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Haimei",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Affiliated Nantong Hospital of Shanghai University (The Sixth People's Hospital of Nantong), Nantong, Jiangsu, China. Electronic address: 2829580165@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "World neurosurgery"
+    ],
+    "journal_abbrev": [
+      "World Neurosurg"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/22 00:41",
+    "fetched_at": "2026-09-30 13:55:56"
+  },
+  "links": {
+    "cites": [
+      "42509846",
+      "41898251"
+    ],
+    "refs": [],
+    "similar": [
+      "40118372",
+      "39586719",
+      "41201666",
+      "40124361",
+      "37094356",
+      "40119397",
+      "41425595",
+      "40636124",
+      "40948782",
+      "39478056",
+      "39732743",
+      "39848347",
+      "40821828",
+      "38802844",
+      "39331874",
+      "41151658",
+      "40207230",
+      "38650649",
+      "39636891",
+      "39346628",
+      "41136446",
+      "39735537",
+      "40362543",
+      "39934808",
+      "39293745",
+      "39169865",
+      "40703513",
+      "39375405",
+      "37259023",
+      "40966021",
+      "31740582",
+      "39793853",
+      "40024299",
+      "41106221",
+      "35033021",
+      "40830558",
+      "40107980",
+      "40973872",
+      "37821869",
+      "41126838",
+      "41326462",
+      "39759509",
+      "34464885",
+      "40340571",
+      "40525338",
+      "37752199",
+      "41224720",
+      "40830492",
+      "37081490",
+      "39072329",
+      "35962388",
+      "41021591",
+      "41479901",
+      "39278970",
+      "39690389",
+      "41314556",
+      "39707003",
+      "35107212",
+      "39520298",
+      "38758850",
+      "39789929",
+      "39949101",
+      "36181980",
+      "41299753",
+      "37484811",
+      "38914792",
+      "39509434",
+      "41324729",
+      "41214111",
+      "37120553",
+      "40592741",
+      "38402377",
+      "40708018",
+      "41106766",
+      "40442227",
+      "38198162",
+      "37891634",
+      "39395647",
+      "41405396",
+      "38711508",
+      "39938577",
+      "39835491",
+      "39238187",
+      "38575196",
+      "39799354",
+      "41312366",
+      "37721001",
+      "37435214",
+      "36506045",
+      "38653998",
+      "40421217",
+      "39295860",
+      "38650009",
+      "39117252",
+      "40612944",
+      "41305834",
+      "41291841",
+      "39663269",
+      "40097519",
+      "41474773"
+    ],
+    "review": [
+      "40118372",
+      "35107212"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1878-8750(25)00264-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ischemicstroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ischemic Stroke"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-918",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1878-8750(25)00264-5",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

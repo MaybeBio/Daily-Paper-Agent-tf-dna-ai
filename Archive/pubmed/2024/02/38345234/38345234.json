@@ -1,0 +1,223 @@
+{
+  "identity": {
+    "pmid": "38345234",
+    "doi": "10.3791/66314",
+    "title": "Computational Prediction of Amino Acid Preferences of Potentially Multispecific Peptide-Binding Domains Involved in Protein-Protein Interactions."
+  },
+  "content": {
+    "abstract": "Many protein-protein interactions involve the binding of short protein segments to peptide-binding domains. Usually, such interactions require the recognition of linear motifs with variable conservation. The combination of highly conserved and more variable regions in the same ligands often contributes to the multispecificity of binding, a common property of enzymes and cell signaling proteins. Characterization of amino acid preferences of peptide-binding domains is important for the design of mediators of protein-protein interactions (PPIs). Computational methods are an efficient alternative to the often costly and cumbersome experimental techniques, enabling the design of potential mediators that can be later validated in downstream experiments. Here, we described a methodology using the Pepspec application of the Rosetta molecular modeling package to predict the amino acid preferences of peptide-binding domains. This methodology is useful when the structure of the receptor protein and the nature of the peptide ligand are both known or can be inferred. The methodology starts with a well-characterized anchor from the ligand, which is extended by randomly adding amino acid residues. The binding affinity of peptides generated this way is then evaluated by flexible-backbone peptide docking in order to select the peptides with the best predicted binding scores. These peptides are then used to calculate amino acid preferences and to optionally compute a position-weight matrix (PWM) that can be used in further studies. To illustrate the application of this methodology, we used the interaction between subunits of human interferon regulatory factor 5 (IRF5), previously known to be multispecific but globally guided by a short conserved motif called pLxIS. The estimated amino acid preferences were consistent with previous knowledge about the IRF5 binding surface. Positions occupied by phosphorylatable serine residues exhibited a high frequency of aspartate and glutamate, likely because their negatively charged side chains are similar to phosphoserine.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Amino Acid Sequence",
+      "*Amino Acids/metabolism",
+      "Ligands",
+      "*Peptides/chemistry",
+      "Proteins/metabolism",
+      "Interferon Regulatory Factors/metabolism",
+      "Protein Binding",
+      "Binding Sites",
+      "Amino Acid Motifs"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Video-Audio Media"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cruz, Hector",
+        "Llanes, Alejandro",
+        "Fernandez, Patricia L"
+      ],
+      "short_names": [
+        "Cruz H",
+        "Llanes A",
+        "Fernandez PL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Facultad de Ciencias y Tecnologia, Universidad Tecnologica de Panama (UTP); Centro de Biologia Molecular y Celular de Enfermedades, Instituto de Investigaciones Cientificas y Servicios de Alta Tecnologia AIP (INDICASAT AIP).",
+        "Centro de Biologia Molecular y Celular de Enfermedades, Instituto de Investigaciones Cientificas y Servicios de Alta Tecnologia AIP (INDICASAT AIP); Sistema Nacional de Investigacion de Panama (SNI); allanes@indicasat.org.pa.",
+        "Centro de Biologia Molecular y Celular de Enfermedades, Instituto de Investigaciones Cientificas y Servicios de Alta Tecnologia AIP (INDICASAT AIP); Sistema Nacional de Investigacion de Panama (SNI); pllanes@indicasat.org.pa."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cruz, Héctor",
+        "short_name": "Cruz H",
+        "identifiers": [],
+        "affiliations": [
+          "Facultad de Ciencias y Tecnología, Universidad Tecnológica de Panamá (UTP); Centro de Biología Molecular y Celular de Enfermedades, Instituto de Investigaciones Científicas y Servicios de Alta Tecnología AIP (INDICASAT AIP)."
+        ]
+      },
+      {
+        "full_name": "Llanes, Alejandro",
+        "short_name": "Llanes A",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Biología Molecular y Celular de Enfermedades, Instituto de Investigaciones Científicas y Servicios de Alta Tecnología AIP (INDICASAT AIP); Sistema Nacional de Investigación de Panamá (SNI); allanes@indicasat.org.pa."
+        ]
+      },
+      {
+        "full_name": "Fernández, Patricia L",
+        "short_name": "Fernández PL",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Biología Molecular y Celular de Enfermedades, Instituto de Investigaciones Científicas y Servicios de Alta Tecnología AIP (INDICASAT AIP); Sistema Nacional de Investigación de Panamá (SNI); pllanes@indicasat.org.pa."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of visualized experiments : JoVE"
+    ],
+    "journal_abbrev": [
+      "J Vis Exp"
+    ],
+    "pub_date": "2024 Jan 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Video-Audio Media"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/12 15:44",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38345234",
+      "28002650",
+      "31891416",
+      "12422509",
+      "30689642",
+      "8643668",
+      "24021866",
+      "31578253",
+      "22069443",
+      "18067320",
+      "11877417",
+      "22196942",
+      "36512534",
+      "15465056",
+      "30127785",
+      "16446784",
+      "35810735",
+      "16483255",
+      "24138780",
+      "10903873",
+      "27287023",
+      "7479908",
+      "30731167",
+      "18276010",
+      "22706990",
+      "18656966",
+      "22691579",
+      "34964176",
+      "17608956",
+      "11846567",
+      "11352754",
+      "19325869",
+      "21752305",
+      "22079048",
+      "10809226",
+      "21300698",
+      "9383403",
+      "22710157",
+      "12592019",
+      "29137527",
+      "11743162",
+      "23665477",
+      "24466078",
+      "16351739",
+      "11359828",
+      "18351707",
+      "27443979",
+      "19590096",
+      "26984442",
+      "27218803",
+      "24305904",
+      "8268130",
+      "9749367",
+      "26387106",
+      "15113281",
+      "9566119",
+      "10935972",
+      "7751638",
+      "27263470",
+      "15849992",
+      "22465068",
+      "35011444",
+      "36258137",
+      "20461427",
+      "26828594",
+      "31397025",
+      "12874227",
+      "39864625",
+      "29028926",
+      "16396493",
+      "23951139",
+      "27569426",
+      "11846568",
+      "12974625",
+      "17191902",
+      "16476443",
+      "32794722",
+      "25451599",
+      "22253820",
+      "15533451",
+      "28650961",
+      "23390500",
+      "15064475",
+      "36305766",
+      "8294410",
+      "11809769",
+      "31746034",
+      "22125489",
+      "19075812",
+      "36898348",
+      "9002445",
+      "22576240",
+      "21835011",
+      "7921171",
+      "12067416",
+      "25266506",
+      "32997264",
+      "21923943",
+      "16690616",
+      "31886916"
+    ],
+    "review": [
+      "38345234",
+      "24138780",
+      "18656966",
+      "22691579",
+      "22710157",
+      "26387106",
+      "9566119",
+      "35011444",
+      "17191902",
+      "32794722"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org//10.3791/66314",
+        "provider": "MyJove Corporation",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

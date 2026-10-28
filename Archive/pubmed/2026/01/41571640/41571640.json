@@ -1,0 +1,517 @@
+{
+  "identity": {
+    "pmid": "41571640",
+    "doi": "10.1038/s41467-026-68636-5",
+    "title": "Camouflaged nanorobots target and regulate macrophage subcellular organelle crosstalk patterns to promote neural regeneration."
+  },
+  "content": {
+    "abstract": "Macrophage (Mphi) phenotypic transformation is crucial in determining spinal cord injury (SCI) outcomes. However, the suborganelle crosstalk mechanisms-particularly between the endoplasmic reticulum (ER) and mitochondria-that mediate Mphi subgroup conversion during SCI remain underexplored. We aim to integrate niche intervention strategies and omics sequencing to investigate the effects of the metabolic crosstalk between ER stress (ERS) and mitochondria. Subsequently, we develop a dual-targeted camouflaged nanorobot (BP@D/N) that can reach the SCI site via systemic circulation and selectively interact with Mphi. We observe that Ero1alpha-mediated Ca(2+) shuttling is an important mechanism for locking the inflammatory phenotype of Mphi. Blocking the Ero1alpha/MAMs/mtCa(2+) axis suppresses mtDNA release and downregulates the cGAS-STING-NFkappaB signaling cascade, thus promoting M2 polarization and neural repair. Our study clarifies the regulatory mechanism of Mphi transformation-associated suborganelle crosstalk and offers a paradigm for reconstructing the dynamic balance of immune-neural interactions in the SCI microenvironment for effective repair. It offers a scientifically grounded and translational approach to overcoming the clinical challenge of irreversible SCI.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Macrophages/metabolism",
+      "Animals",
+      "Mitochondria/metabolism",
+      "*Nerve Regeneration/physiology/drug effects",
+      "*Spinal Cord Injuries/metabolism/pathology/therapy",
+      "Endoplasmic Reticulum/metabolism",
+      "Mice",
+      "Signal Transduction",
+      "Calcium/metabolism",
+      "Humans",
+      "cGAS-STING Signaling Pathway",
+      "Autonomous Robots",
+      "DNA, Mitochondrial/metabolism",
+      "NF-kappa B/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Qiangqiang",
+        "Wang, Wei",
+        "Jiang, Xinzhao",
+        "Tang, Jincheng",
+        "Cai, Feng",
+        "Wang, Wenbo",
+        "Zhang, Lichen",
+        "Li, Ziang",
+        "Huang, Yiyang",
+        "Wu, Jie",
+        "Zhou, Liang",
+        "Jiang, Haochen",
+        "Zhu, Yiwei",
+        "Cai, Guhao",
+        "Lin, Ziyu",
+        "Gu, Yong",
+        "Zhu, Xuesong",
+        "Chen, Liang",
+        "Xi, Kun"
+      ],
+      "short_names": [
+        "Guo Q",
+        "Wang W",
+        "Jiang X",
+        "Tang J",
+        "Cai F",
+        "Wang W",
+        "Zhang L",
+        "Li Z",
+        "Huang Y",
+        "Wu J",
+        "Zhou L",
+        "Jiang H",
+        "Zhu Y",
+        "Cai G",
+        "Lin Z",
+        "Gu Y",
+        "Zhu X",
+        "Chen L",
+        "Xi K"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1652-3482",
+        "ORCID: 0000-0002-0482-1610",
+        "ORCID: 0000-0003-3579-2741",
+        "ORCID: 0000-0001-8016-7596",
+        "ORCID: 0000-0002-0458-9866"
+      ],
+      "affiliations": [
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China. guyongsuzhou@163.com.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China. zhuxs@suda.edu.cn.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China. chenliang1972@sina.com.",
+        "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China. sudaxk@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Qiangqiang",
+        "short_name": "Guo Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Xinzhao",
+        "short_name": "Jiang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Tang, Jincheng",
+        "short_name": "Tang J",
+        "identifiers": [
+          "0000-0003-1652-3482"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Cai, Feng",
+        "short_name": "Cai F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenbo",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lichen",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Ziang",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yiyang",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jie",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Liang",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Haochen",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yiwei",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Cai, Guhao",
+        "short_name": "Cai G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Lin, Ziyu",
+        "short_name": "Lin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Gu, Yong",
+        "short_name": "Gu Y",
+        "identifiers": [
+          "0000-0002-0482-1610"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China. guyongsuzhou@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xuesong",
+        "short_name": "Zhu X",
+        "identifiers": [
+          "0000-0003-3579-2741"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China. zhuxs@suda.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Liang",
+        "short_name": "Chen L",
+        "identifiers": [
+          "0000-0001-8016-7596"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China. chenliang1972@sina.com."
+        ]
+      },
+      {
+        "full_name": "Xi, Kun",
+        "short_name": "Xi K",
+        "identifiers": [
+          "0000-0002-0458-9866"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Soochow University, 188 Shizi Road, Suzhou, Jiangsu, P.R. China. sudaxk@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jan 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/23 00:26",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [
+      "42604446",
+      "42450140",
+      "42199387"
+    ],
+    "refs": [
+      "40892916",
+      "40328251",
+      "39708371",
+      "39343182",
+      "38969763",
+      "38898135",
+      "38618716",
+      "38549774",
+      "38355244",
+      "38110993",
+      "38069584",
+      "38037294",
+      "37709773",
+      "37658045",
+      "37653591",
+      "37452423",
+      "37174672",
+      "37004255",
+      "36906927",
+      "36632505",
+      "36443305",
+      "36408828",
+      "36145939",
+      "35835107",
+      "35472346",
+      "35452616",
+      "35222394",
+      "35032406",
+      "34793601",
+      "34512174",
+      "34152362",
+      "33857420",
+      "33833439",
+      "33799309",
+      "32846136",
+      "32286516",
+      "32138899",
+      "32099190",
+      "30955393",
+      "30865204",
+      "30470534",
+      "30353966",
+      "29871522",
+      "29319160",
+      "28526591",
+      "27571407",
+      "27536221",
+      "27529543",
+      "26454572",
+      "26433683",
+      "26432659",
+      "25731941",
+      "25476600",
+      "24987008",
+      "24790202",
+      "23996652",
+      "22733741",
+      "22723572",
+      "22443365",
+      "22384132",
+      "22116877",
+      "22028197",
+      "19941060",
+      "19926846",
+      "19752026",
+      "15355853"
+    ],
+    "similar": [
+      "41571640",
+      "42105710",
+      "42174715",
+      "41356195",
+      "39806436",
+      "41106721",
+      "40522023",
+      "32345320",
+      "41208875",
+      "39217915",
+      "41833653",
+      "40462149",
+      "39660541",
+      "42533158",
+      "35371065",
+      "39609871",
+      "41109440",
+      "41207106",
+      "38728880",
+      "41672114",
+      "40702743",
+      "39833803",
+      "34653754",
+      "33754056",
+      "34852285",
+      "41526970",
+      "40808284",
+      "42052826",
+      "42165939",
+      "30543130",
+      "42070757",
+      "41791682",
+      "33552072",
+      "41530757",
+      "41317807",
+      "41891911",
+      "38022538",
+      "37658943",
+      "42275873",
+      "39486175",
+      "28123029",
+      "41799191",
+      "30221582",
+      "40674843",
+      "41524918",
+      "41780679",
+      "34555642",
+      "38206470",
+      "42447516",
+      "42135765",
+      "40915106",
+      "41115614",
+      "42352932",
+      "33714739",
+      "35712934",
+      "35599014",
+      "42144484",
+      "41512500",
+      "42172981",
+      "32315358",
+      "41856077",
+      "31400857",
+      "31994698",
+      "38009491",
+      "36652529",
+      "42360991",
+      "42305352",
+      "42249427",
+      "37286724",
+      "34551329",
+      "24853068",
+      "38671352",
+      "41793789",
+      "38695170",
+      "42419652",
+      "32205688",
+      "34093546",
+      "40579710",
+      "41540625",
+      "42216503",
+      "39206917",
+      "41041063",
+      "41219730",
+      "42157202",
+      "42298582",
+      "41885803",
+      "39909387",
+      "41845409",
+      "27511021",
+      "41654155",
+      "41734071",
+      "39276055",
+      "42311669",
+      "39884185",
+      "41876825",
+      "40213674",
+      "41830797",
+      "42370177",
+      "41260392",
+      "42475469"
+    ],
+    "review": [
+      "41571640",
+      "42533158",
+      "39609871",
+      "41109440",
+      "42052826",
+      "42070757",
+      "33552072",
+      "41524918",
+      "42352932",
+      "37286724",
+      "42311669"
+    ],
+    "pmc": [
+      "12929772"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/spinalcordinjuries.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Spinal Cord Injuries"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-026-68636-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41571640/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STING1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

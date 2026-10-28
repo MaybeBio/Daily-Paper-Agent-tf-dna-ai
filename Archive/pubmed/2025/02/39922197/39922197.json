@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "39922197",
+    "doi": "10.1016/j.ajhg.2025.01.015",
+    "title": "reg-eQTL: Integrating transcription factor effects to unveil regulatory variants."
+  },
+  "content": {
+    "abstract": "Regulatory single-nucleotide variants (rSNVs) in noncoding regions of the genome play a crucial role in gene transcription by altering transcription factor (TF) binding, chromatin states, and other epigenetic modifications. Existing expression quantitative trait locus (eQTL) methods identify genomic loci associated with gene-expression changes, but they often fall short in pinpointing causal variants. We introduce reg-eQTL, a computational method that incorporates TF effects and interactions with genetic variants into eQTL analysis. This approach provides deeper insights into the regulatory mechanisms, bringing us one step closer to identifying potential causal variants by uncovering how TFs interact with SNVs to influence gene expression. This method defines a trio consisting of a genetic variant, a target gene, and a TF and tests its impact on gene transcription. In comprehensive simulations, reg-eQTL shows improved power of detecting rSNVs with low population frequency, weak effects, and synergetic interaction with TF as compared to traditional eQTL methods. Application of reg-eQTL to GTEx data from lung, brain, and whole-blood tissues uncovered regulatory trios that include eQTLs and increased the number of eQTLs shared across tissue types. Regulatory networks constructed on the basis of these trios reveal intricate gene regulation across tissue types.",
+    "keywords": [
+      "TF-SNV interaction",
+      "bioinformatics",
+      "eQTL analysis",
+      "rare SNVs",
+      "regulatory trios",
+      "tissue-specific eQTLs",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "*Quantitative Trait Loci/genetics",
+      "Humans",
+      "*Transcription Factors/genetics/metabolism",
+      "*Polymorphism, Single Nucleotide/genetics",
+      "Gene Regulatory Networks",
+      "Gene Expression Regulation",
+      "Genome-Wide Association Study",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mudappathi, Rekha",
+        "Patton, Tatiana",
+        "Chen, Hai",
+        "Yang, Ping",
+        "Sun, Zhifu",
+        "Wang, Panwen",
+        "Shi, Chang-Xin",
+        "Wang, Junwen",
+        "Liu, Li"
+      ],
+      "short_names": [
+        "Mudappathi R",
+        "Patton T",
+        "Chen H",
+        "Yang P",
+        "Sun Z",
+        "Wang P",
+        "Shi CX",
+        "Wang J",
+        "Liu L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Health Solutions, Arizona State University, Phoenix, AZ 85004, USA; Biodesign Institute, Arizona State University, Tempe, AZ 85281, USA; Division of Epidemiology, Department of Quantitative Health Sciences, Mayo Clinic, Scottsdale, AZ 85259, USA.",
+        "College of Health Solutions, Arizona State University, Phoenix, AZ 85004, USA; Biodesign Institute, Arizona State University, Tempe, AZ 85281, USA.",
+        "College of Health Solutions, Arizona State University, Phoenix, AZ 85004, USA; Biodesign Institute, Arizona State University, Tempe, AZ 85281, USA; Division of Epidemiology, Department of Quantitative Health Sciences, Mayo Clinic, Scottsdale, AZ 85259, USA.",
+        "Division of Epidemiology, Department of Quantitative Health Sciences, Mayo Clinic, Scottsdale, AZ 85259, USA.",
+        "Division of Computational Biology, Department of Quantitative Health Sciences, Mayo Clinic, Rochester, MN 55905, USA.",
+        "Department of Quantitative Health Sciences and Center for Individualized Medicine, Mayo Clinic, Scottsdale, AZ, USA.",
+        "Division of Hematology/Oncology, Department of Medicine, Mayo Clinic, Scottsdale, AZ 85259, USA.",
+        "Department of Quantitative Health Sciences and Center for Individualized Medicine, Mayo Clinic, Scottsdale, AZ, USA; Division of Applied Oral Sciences & Community Dental Care, Faculty of Dentistry, The University of Hong Kong, 34 Hospital Road, Hong Kong SAR, China.",
+        "College of Health Solutions, Arizona State University, Phoenix, AZ 85004, USA; Biodesign Institute, Arizona State University, Tempe, AZ 85281, USA. Electronic address: liliu@asu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mudappathi, Rekha",
+        "short_name": "Mudappathi R",
+        "identifiers": [],
+        "affiliations": [
+          "College of Health Solutions, Arizona State University, Phoenix, AZ 85004, USA; Biodesign Institute, Arizona State University, Tempe, AZ 85281, USA; Division of Epidemiology, Department of Quantitative Health Sciences, Mayo Clinic, Scottsdale, AZ 85259, USA."
+        ]
+      },
+      {
+        "full_name": "Patton, Tatiana",
+        "short_name": "Patton T",
+        "identifiers": [],
+        "affiliations": [
+          "College of Health Solutions, Arizona State University, Phoenix, AZ 85004, USA; Biodesign Institute, Arizona State University, Tempe, AZ 85281, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Hai",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Health Solutions, Arizona State University, Phoenix, AZ 85004, USA; Biodesign Institute, Arizona State University, Tempe, AZ 85281, USA; Division of Epidemiology, Department of Quantitative Health Sciences, Mayo Clinic, Scottsdale, AZ 85259, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Ping",
+        "short_name": "Yang P",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology, Department of Quantitative Health Sciences, Mayo Clinic, Scottsdale, AZ 85259, USA."
+        ]
+      },
+      {
+        "full_name": "Sun, Zhifu",
+        "short_name": "Sun Z",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computational Biology, Department of Quantitative Health Sciences, Mayo Clinic, Rochester, MN 55905, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Panwen",
+        "short_name": "Wang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative Health Sciences and Center for Individualized Medicine, Mayo Clinic, Scottsdale, AZ, USA."
+        ]
+      },
+      {
+        "full_name": "Shi, Chang-Xin",
+        "short_name": "Shi CX",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Hematology/Oncology, Department of Medicine, Mayo Clinic, Scottsdale, AZ 85259, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Junwen",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative Health Sciences and Center for Individualized Medicine, Mayo Clinic, Scottsdale, AZ, USA; Division of Applied Oral Sciences & Community Dental Care, Faculty of Dentistry, The University of Hong Kong, 34 Hospital Road, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Li",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Health Solutions, Arizona State University, Phoenix, AZ 85004, USA; Biodesign Institute, Arizona State University, Tempe, AZ 85281, USA. Electronic address: liliu@asu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "American journal of human genetics"
+    ],
+    "journal_abbrev": [
+      "Am J Hum Genet"
+    ],
+    "pub_date": "2025 Mar 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/09 06:20",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "42367653",
+      "42202282",
+      "42044188",
+      "41217722",
+      "40565605"
+    ],
+    "refs": [
+      "39447874",
+      "37863054",
+      "36738896",
+      "35165513",
+      "35100260",
+      "34998360",
+      "34635147",
+      "34208629",
+      "33919522",
+      "33135051",
+      "33046718",
+      "32913098",
+      "32790868",
+      "32231272",
+      "31675989",
+      "31571161",
+      "31375681",
+      "30189032",
+      "30033361",
+      "30022982",
+      "29844615",
+      "28605766",
+      "28516912",
+      "28278150",
+      "27899579",
+      "27655946",
+      "27153635",
+      "26708335",
+      "25357204",
+      "24916300",
+      "24667321",
+      "23715323",
+      "22955986",
+      "22952232",
+      "22529829",
+      "22492648",
+      "22304583",
+      "21115971",
+      "20966004",
+      "20369019",
+      "20069536",
+      "16718932",
+      "8013918"
+    ],
+    "similar": [
+      "39922197",
+      "35100260",
+      "38992576",
+      "40179003",
+      "42202282",
+      "29378629",
+      "40577937",
+      "32103259",
+      "39152038",
+      "40653482",
+      "27341818",
+      "32850739",
+      "37926287",
+      "23935528",
+      "26111110",
+      "28851834",
+      "34487140",
+      "33077858",
+      "39814021",
+      "31482761",
+      "35168626",
+      "40250421",
+      "38012720",
+      "33804025",
+      "31296926",
+      "29074555",
+      "36424644",
+      "25315895",
+      "28505156",
+      "41611629",
+      "29047346",
+      "37254169",
+      "37072791",
+      "32363570",
+      "31504167",
+      "31849006",
+      "29523079",
+      "29021290",
+      "39824189",
+      "36608685",
+      "41810371",
+      "41278773",
+      "38824563",
+      "27435189",
+      "27132591",
+      "28177073",
+      "33135051",
+      "31292129",
+      "23514438",
+      "35590387",
+      "27005890",
+      "31718536",
+      "38565144",
+      "34475573",
+      "39891345",
+      "35659240",
+      "27534592",
+      "28881962",
+      "29650998",
+      "30304335",
+      "27798116",
+      "25983244",
+      "28193859",
+      "33349701",
+      "32790868",
+      "24956270",
+      "25533967",
+      "28218759",
+      "31834882",
+      "28224684",
+      "39341862",
+      "35229021",
+      "37794117",
+      "25569741",
+      "30071827",
+      "39858631",
+      "39977251",
+      "25906321",
+      "38773772",
+      "33834181",
+      "16978413",
+      "29945546",
+      "28334860",
+      "39774334",
+      "40393811",
+      "25816334",
+      "38952424",
+      "41751570",
+      "33371893",
+      "38310352",
+      "28062664",
+      "35483347",
+      "38066556",
+      "41396161",
+      "29898900",
+      "22307276",
+      "32214206",
+      "37792690",
+      "32516306",
+      "30864331"
+    ],
+    "review": [
+      "39922197",
+      "37072791",
+      "28334860"
+    ],
+    "pmc": [
+      "11947170"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0002-9297(25)00015-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39922197/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

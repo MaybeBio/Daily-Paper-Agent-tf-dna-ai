@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "38846073",
+    "doi": "10.1039/d4cb00002a",
+    "title": "Ancient and modern mechanisms compete in progesterone receptor activation."
+  },
+  "content": {
+    "abstract": "The progesterone receptor (PR) belongs to the steroid receptor family of ligand-regulated transcription factors, controlling genes important for development, metabolism, and reproduction. Understanding how diverse ligands bind and modulate PR activity will illuminate the design of ligands that control PR-driven signaling pathways. Here, we use molecular dynamics simulations to investigate how PR dynamics are altered by functionally diverse ligands. Using a library of 33 steroidal ligands that range from inactive to EC(50) < 0.1 nM, we reveal an unexpected evolutionary basis for the wide gamut of activation. While other oxosteroid receptors employ an evolutionarily conserved mechanism dependent on a hydrogen bond between the receptor and ligand, extant PR has evolved a preference for activation that is not reliant on this polar interaction. We demonstrate that potent ligands utilize the modern PR mechanism while weaker ligands coopt the defunct ancestral mechanism by forming hydrogen bonds with Asn719. Based on their structures and dynamic signatures, ligands partition into four classes (inactive, weak, moderate and high potency) that interact distinctly with the PR binding pocket. Further, we use luciferase reporter assays and PR mutants to probe the roles of pocket residues in mediating distinct PR mechanisms. This combination of MD simulations and in vitro studies provide insight into how the evolutionary history of PR shapes its response to diverse ligands.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khan, Sabab Hasan",
+        "Dube, Namita",
+        "Sudhakar, Nishanti",
+        "Fraser, Olivia",
+        "Villalona, Priscilla",
+        "Braet, Sean M",
+        "Leedom, Stephanie",
+        "Reilly, Erin R",
+        "Sivak, Jacob",
+        "Crittenden, Kenidee",
+        "Okafor, C Denise"
+      ],
+      "short_names": [
+        "Khan SH",
+        "Dube N",
+        "Sudhakar N",
+        "Fraser O",
+        "Villalona P",
+        "Braet SM",
+        "Leedom S",
+        "Reilly ER",
+        "Sivak J",
+        "Crittenden K",
+        "Okafor CD"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5029-2337",
+        "ORCID: 0000-0001-7374-1561"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, Pennsylvania State University University Park PA 16802 USA cdo5093@psu.edu.",
+        "Department of Biochemistry and Molecular Biology, Pennsylvania State University University Park PA 16802 USA cdo5093@psu.edu.",
+        "Department of Biochemistry and Molecular Biology, Pennsylvania State University University Park PA 16802 USA cdo5093@psu.edu.",
+        "Department of Biochemistry and Molecular Biology, Pennsylvania State University University Park PA 16802 USA cdo5093@psu.edu.",
+        "Department of Biochemistry and Molecular Biology, Pennsylvania State University University Park PA 16802 USA cdo5093@psu.edu.",
+        "Department of Chemistry, Pennsylvania State University University Park PA 16802 USA.",
+        "Department of Biochemistry and Molecular Biology, Pennsylvania State University University Park PA 16802 USA cdo5093@psu.edu.",
+        "Department of Biochemistry and Molecular Biology, Pennsylvania State University University Park PA 16802 USA cdo5093@psu.edu.",
+        "Department of Chemistry, Pennsylvania State University University Park PA 16802 USA.",
+        "Department of Chemistry, Pennsylvania State University University Park PA 16802 USA.",
+        "Department of Biochemistry and Molecular Biology, Pennsylvania State University University Park PA 16802 USA cdo5093@psu.edu.",
+        "Department of Chemistry, Pennsylvania State University University Park PA 16802 USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Khan, Sabab Hasan",
+        "short_name": "Khan SH",
+        "identifiers": [
+          "0000-0001-5029-2337"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Pennsylvania State University University Park PA 16802 USA cdo5093@psu.edu."
+        ]
+      },
+      {
+        "full_name": "Dube, Namita",
+        "short_name": "Dube N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Pennsylvania State University University Park PA 16802 USA cdo5093@psu.edu."
+        ]
+      },
+      {
+        "full_name": "Sudhakar, Nishanti",
+        "short_name": "Sudhakar N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Pennsylvania State University University Park PA 16802 USA cdo5093@psu.edu."
+        ]
+      },
+      {
+        "full_name": "Fraser, Olivia",
+        "short_name": "Fraser O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Pennsylvania State University University Park PA 16802 USA cdo5093@psu.edu."
+        ]
+      },
+      {
+        "full_name": "Villalona, Priscilla",
+        "short_name": "Villalona P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Pennsylvania State University University Park PA 16802 USA cdo5093@psu.edu."
+        ]
+      },
+      {
+        "full_name": "Braet, Sean M",
+        "short_name": "Braet SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Pennsylvania State University University Park PA 16802 USA."
+        ]
+      },
+      {
+        "full_name": "Leedom, Stephanie",
+        "short_name": "Leedom S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Pennsylvania State University University Park PA 16802 USA cdo5093@psu.edu."
+        ]
+      },
+      {
+        "full_name": "Reilly, Erin R",
+        "short_name": "Reilly ER",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Pennsylvania State University University Park PA 16802 USA cdo5093@psu.edu."
+        ]
+      },
+      {
+        "full_name": "Sivak, Jacob",
+        "short_name": "Sivak J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Pennsylvania State University University Park PA 16802 USA."
+        ]
+      },
+      {
+        "full_name": "Crittenden, Kenidee",
+        "short_name": "Crittenden K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Pennsylvania State University University Park PA 16802 USA."
+        ]
+      },
+      {
+        "full_name": "Okafor, C Denise",
+        "short_name": "Okafor CD",
+        "identifiers": [
+          "0000-0001-7374-1561"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Pennsylvania State University University Park PA 16802 USA cdo5093@psu.edu.",
+          "Department of Chemistry, Pennsylvania State University University Park PA 16802 USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "RSC chemical biology"
+    ],
+    "journal_abbrev": [
+      "RSC Chem Biol"
+    ],
+    "pub_date": "2024 Jun 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/07 06:42",
+    "fetched_at": "2026-09-29 21:28:30"
+  },
+  "links": {
+    "cites": [
+      "42256350",
+      "40013933",
+      "39195699"
+    ],
+    "refs": [
+      "38203272",
+      "34873457",
+      "33510451",
+      "32917814",
+      "32183093",
+      "31809260",
+      "31714766",
+      "31387263",
+      "31134186",
+      "27824891",
+      "27657336",
+      "27107013",
+      "26605738",
+      "26592383",
+      "26583988",
+      "26574453",
+      "25752796",
+      "25406186",
+      "25204619",
+      "24678733",
+      "23303565",
+      "23166518",
+      "22982572",
+      "22582031",
+      "22535964",
+      "22438212",
+      "21857868",
+      "21375502",
+      "20104425",
+      "19846565",
+      "19351898",
+      "19289570",
+      "18753690",
+      "18374402",
+      "18197783",
+      "16917862",
+      "16723398",
+      "16458552",
+      "15967794",
+      "15710879",
+      "15189034",
+      "15116359",
+      "14667979",
+      "12842037",
+      "10787411",
+      "10208978",
+      "9989224",
+      "9628869",
+      "9620806",
+      "8744570",
+      "6090379",
+      "4369808",
+      "4067997"
+    ],
+    "similar": [
+      "38846073",
+      "8662980",
+      "12650714",
+      "16645042",
+      "12672823",
+      "14667979",
+      "22421057",
+      "15072922",
+      "35189329",
+      "9544987",
+      "7891678",
+      "11108870",
+      "31351319",
+      "19289570",
+      "8845038",
+      "11751593",
+      "28412963",
+      "15937332",
+      "21315613",
+      "18330543",
+      "14667966",
+      "27824891",
+      "27546504",
+      "9134501",
+      "7626494",
+      "35319278",
+      "11509655",
+      "23209719",
+      "38501469",
+      "14744870",
+      "10379890",
+      "27641443",
+      "16135805",
+      "15996107",
+      "9459183",
+      "15563544",
+      "17192405",
+      "10688660",
+      "1855211",
+      "31787654",
+      "9849965",
+      "16484336",
+      "15189034",
+      "21130152",
+      "12101239",
+      "23579486",
+      "18566116",
+      "10449719",
+      "31831214",
+      "23739217",
+      "30716532",
+      "23917122",
+      "19130882",
+      "26379041",
+      "21854761",
+      "29435103",
+      "10757795",
+      "17717078",
+      "29093292",
+      "23166518",
+      "20678994",
+      "1557371",
+      "34904892",
+      "9350053",
+      "8922878",
+      "17074804",
+      "20087430",
+      "16873445",
+      "24415758",
+      "17021053",
+      "18771283",
+      "11162936",
+      "7906860",
+      "22093824",
+      "11145736",
+      "9328341",
+      "10750018",
+      "18540573",
+      "28955722",
+      "38019315",
+      "22439847",
+      "16323958",
+      "14667967",
+      "31805393",
+      "10732327",
+      "22535964",
+      "17173941",
+      "12385821",
+      "22697792",
+      "16728408",
+      "18472121",
+      "15743833",
+      "15925510",
+      "24086308",
+      "15572662",
+      "27121188"
+    ],
+    "review": [
+      "38846073",
+      "14667979",
+      "14667966",
+      "27546504",
+      "20087430",
+      "11162936",
+      "14667967",
+      "10732327",
+      "18472121"
+    ],
+    "pmc": [
+      "11151858"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38846073/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d4cb00002a",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38846073",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

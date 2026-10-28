@@ -1,0 +1,469 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2022.09.28.22280453",
+  "title": "A novel map of human p53 response elements uncovers evidence of selection pressures and variants similar to Li-Fraumeni Syndrome mutations",
+  "doi": "10.1101/2022.09.28.22280453",
+  "abstract": "<h4>Background</h4> The advent of functional genomic techniques and next generation sequencing has improved the characterization of the non-protein coding regions of the genome. However, the integration of these data into clinical practice is still in its infancy. Fifty percent of cancers mutate TP53 , which promotes tumorigenesis, in part, by inhibiting its ability to bind to non-coding regions of the genome and function as a sequence-specific transcription factor. P53 is a tumour suppressor that inhibits cell survival through regulating transcription of anti-survival genes. However, p53 also regulates transcription of pro-survival genes and the target gene(s) responsible for p53 tumour suppression remains an open topic of research. <h4>Methods</h4> In this study, we integrate detailed genome-wide maps of p53 responsive elements (p53-RE), p53 occupancy, recently defined candidate cis-Regulatory Elements (cCREs) and whole genome sequencing for cancers to better define the regions of the genome that harbour functional p53 enhancers. <h4>Results</h4> We determine that p53-REs are more likely to be closer to the consensus binding site, to be evolutionarily conserved and to be occupied by p53 in cellulo , when they reside in regions of the genome that have been noted to have accessible DNA and a regulatory epigenomic mark in at least one human cell even without obvious p53 activation signals (cCRE p53-REs). We offer evidence that it is only in cCRE p53-REs, where multiple signs of differential natural selection between pro-survival and anti-survival target genes can be noted. Using whole genome sequences of 38,377 individuals, we go on to demonstrate that carriers of rare germline mutations in cCRE p53-REs can have similar traits to carriers of rare p53 coding mutations that cause the Li-Fraumeni cancer predisposition syndrome. <h4>Conclusions</h4> Together, these observations suggest that functional p53 enhancers are enriched in cCREs and that germline mutations in them have the potential to improve current cancer risk management and screening strategies.",
+  "authors": [
+    "Zhang P",
+    "Brown K",
+    "Barnes D",
+    "Kitchen-Smith I",
+    "Sims D",
+    "Flanagan A",
+    "De Noon S",
+    "Van Loo P",
+    "Hargreaves S",
+    "Cross W",
+    "Pillay N",
+    "Jafri M",
+    "Wallis Y",
+    "Ucanok D",
+    "Ntaoulas S",
+    "Manz MG",
+    "Tebaldi T",
+    "Inga A",
+    "Grochola LF",
+    "Bond G"
+  ],
+  "published_date": "2022-09-29",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2022.09.28.22280453",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2022.09.28.22280453.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR552220",
+    "raw_record": {
+      "id": "PPR552220",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR552220"
+        ]
+      },
+      "doi": "10.1101/2022.09.28.22280453",
+      "title": "A novel map of human p53 response elements uncovers evidence of selection pressures and variants similar to Li-Fraumeni Syndrome mutations",
+      "authorString": "Zhang P, Brown K, Barnes D, Kitchen-Smith I, Sims D, Flanagan A, De Noon S, Van Loo P, Hargreaves S, Cross W, Pillay N, Jafri M, Wallis Y, Ucanok D, Ntaoulas S, Manz MG, Tebaldi T, Inga A, Genomics England Research Consortium, Grochola LF, Bond G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zhang P",
+            "lastName": "Zhang",
+            "firstName": "Ping",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7063-7769"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Ludwig Institute for Cancer Research, Nuffield Department of Clinical Medicine, University of Oxford, Oxford, OX3 7DQ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brown K",
+            "lastName": "Brown",
+            "firstName": "Katherine",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8400-6922"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Ludwig Institute for Cancer Research, Nuffield Department of Clinical Medicine, University of Oxford, Oxford, OX3 7DQ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barnes D",
+            "lastName": "Barnes",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Cancer and Genomic Sciences, College of Medical and Dental Sciences, Edgbaston, Birmingham, B15 2TT, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kitchen-Smith I",
+            "lastName": "Kitchen-Smith",
+            "firstName": "Isaac",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Ludwig Institute for Cancer Research, Nuffield Department of Clinical Medicine, University of Oxford, Oxford, OX3 7DQ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sims D",
+            "lastName": "Sims",
+            "firstName": "David",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8960-8335"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Weatherall Institute of Molecular Medicine, John Radcliffe Hospital, University of Oxford, Oxford, OX3 9DS, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Flanagan A",
+            "lastName": "Flanagan",
+            "firstName": "Adrienne",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UCL Cancer Institute, Paul O’Gorman Building, 72 Huntley Street, London, WC1E 6DD, UK"
+                },
+                {
+                  "affiliation": "Histopathology Department, Royal National Orthopaedic Hospital, Stanmore, HA7 4LK, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "De Noon S",
+            "lastName": "De Noon",
+            "firstName": "Solange",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UCL Cancer Institute, Paul O’Gorman Building, 72 Huntley Street, London, WC1E 6DD, UK"
+                },
+                {
+                  "affiliation": "Histopathology Department, Royal National Orthopaedic Hospital, Stanmore, HA7 4LK, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Van Loo P",
+            "lastName": "Van Loo",
+            "firstName": "Peter",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA"
+                },
+                {
+                  "affiliation": "Department of Genomic Medicine, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA"
+                },
+                {
+                  "affiliation": "The Francis Crick Institute, London, NW1 1AT, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hargreaves S",
+            "lastName": "Hargreaves",
+            "firstName": "Steven",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8926-6256"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UCL Cancer Institute, Paul O’Gorman Building, 72 Huntley Street, London, WC1E 6DD, UK"
+                },
+                {
+                  "affiliation": "Histopathology Department, Royal National Orthopaedic Hospital, Stanmore, HA7 4LK, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cross W",
+            "lastName": "Cross",
+            "firstName": "Will",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UCL Cancer Institute, Paul O’Gorman Building, 72 Huntley Street, London, WC1E 6DD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pillay N",
+            "lastName": "Pillay",
+            "firstName": "Nischalan",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UCL Cancer Institute, Paul O’Gorman Building, 72 Huntley Street, London, WC1E 6DD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jafri M",
+            "lastName": "Jafri",
+            "firstName": "Mariam",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Oncology, University Hospitals Birmingham NHS Foundation Trust, Birmingham, B15 2TH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wallis Y",
+            "lastName": "Wallis",
+            "firstName": "Yvonne",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "West Midlands Regional Genetics Laboratory, Birmingham Women’s and Children’s NHS Foundation Trust, Birmingham, B15 2TG, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ucanok D",
+            "lastName": "Ucanok",
+            "firstName": "Deniz",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "West Midlands Regional Genetics Laboratory, Birmingham Women’s and Children’s NHS Foundation Trust, Birmingham, B15 2TG, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ntaoulas S",
+            "lastName": "Ntaoulas",
+            "firstName": "Sotirios",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Surgery, Cantonal Hospital Winterthur, Switzerland"
+                },
+                {
+                  "affiliation": "Department of Hematology and Oncology, University of Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Manz MG",
+            "lastName": "Manz",
+            "firstName": "Markus",
+            "initials": "MG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Hematology and Oncology, University of Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tebaldi T",
+            "lastName": "Tebaldi",
+            "firstName": "Toma",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0625-1631"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cellular, Computational, and Integrative Biology (CIBIO), University of Trento, via Sommarive 9, 38123 Trento, TN, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Inga A",
+            "lastName": "Inga",
+            "firstName": "Alberto",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cellular, Computational, and Integrative Biology (CIBIO), University of Trento, via Sommarive 9, 38123 Trento, TN, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "collectiveName": "Genomics England Research Consortium"
+          },
+          {
+            "fullName": "Grochola LF",
+            "lastName": "Grochola",
+            "firstName": "Lukasz",
+            "initials": "LF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Surgery, Cantonal Hospital Winterthur, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bond G",
+            "lastName": "Bond",
+            "firstName": "Gareth",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Ludwig Institute for Cancer Research, Nuffield Department of Clinical Medicine, University of Oxford, Oxford, OX3 7DQ, UK"
+                },
+                {
+                  "affiliation": "Institute of Cancer and Genomic Sciences, College of Medical and Dental Sciences, Edgbaston, Birmingham, B15 2TT, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7063-7769"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8960-8335"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0625-1631"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7258-2279"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8400-6922"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8926-6256"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>Background</h4> The advent of functional genomic techniques and next generation sequencing has improved the characterization of the non-protein coding regions of the genome. However, the integration of these data into clinical practice is still in its infancy. Fifty percent of cancers mutate TP53 , which promotes tumorigenesis, in part, by inhibiting its ability to bind to non-coding regions of the genome and function as a sequence-specific transcription factor. P53 is a tumour suppressor that inhibits cell survival through regulating transcription of anti-survival genes. However, p53 also regulates transcription of pro-survival genes and the target gene(s) responsible for p53 tumour suppression remains an open topic of research. <h4>Methods</h4> In this study, we integrate detailed genome-wide maps of p53 responsive elements (p53-RE), p53 occupancy, recently defined candidate cis-Regulatory Elements (cCREs) and whole genome sequencing for cancers to better define the regions of the genome that harbour functional p53 enhancers. <h4>Results</h4> We determine that p53-REs are more likely to be closer to the consensus binding site, to be evolutionarily conserved and to be occupied by p53 in cellulo , when they reside in regions of the genome that have been noted to have accessible DNA and a regulatory epigenomic mark in at least one human cell even without obvious p53 activation signals (cCRE p53-REs). We offer evidence that it is only in cCRE p53-REs, where multiple signs of differential natural selection between pro-survival and anti-survival target genes can be noted. Using whole genome sequences of 38,377 individuals, we go on to demonstrate that carriers of rare germline mutations in cCRE p53-REs can have similar traits to carriers of rare p53 coding mutations that cause the Li-Fraumeni cancer predisposition syndrome. <h4>Conclusions</h4> Together, these observations suggest that functional p53 enhancers are enriched in cCREs and that germline mutations in them have the potential to improve current cancer risk management and screening strategies.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2022/09/29/2022.09.28.22280453.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.09.28.22280453"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR552220"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR552220&type=FILE&fileName=EMS155196-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS155196",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refsnp"
+        ]
+      },
+      "dateOfCreation": "2022-10-01",
+      "firstPublicationDate": "2022-09-29",
+      "firstIndexDate": "2022-10-01",
+      "fullTextReceivedDate": "2022-11-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

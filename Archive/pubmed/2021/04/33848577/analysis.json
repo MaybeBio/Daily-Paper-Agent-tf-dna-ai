@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33848577",
+  "title": "A sequence-based prediction of Kruppel-like factors proteins using XGBoost and optimized features.",
+  "authors": "Le, Nguyen Quoc Khanh; Do, Duyen Thi; Nguyen, Trinh-Trung-Duong; Le, Quynh Anh",
+  "journal": "Gene",
+  "published_date": "2021-04-14",
+  "window": {
+    "start": "2021-04-12",
+    "end": "2021-04-18"
+  },
+  "score": 4,
+  "one_liner_zh": "用XGBoost基于序列特征预测Kruppel样转录因子蛋白，属于TF蛋白分类识别，但无DNA互作建模或结合位点预测，方法为传统机器学习，与TF-DNA互作机制研究关联较弱。",
+  "abstract": "Kruppel-like factors (KLF) refer to a group of conserved zinc finger-containing transcription factors that are involved in various physiological and biological processes, including cell proliferation, differentiation, development, and apoptosis. Some bioinformatics methods such as sequence similarity searches, multiple sequence alignment, phylogenetic reconstruction, and gene synteny analysis have also been proposed to broaden our knowledge of KLF proteins. In this study, we proposed a novel computational approach by using machine learning on features calculated from primary sequences. To detail, our XGBoost-based model is efficient in identifying KLF proteins, with accuracy of 96.4% and MCC of 0.704. It also holds a promising performance when testing our model on an independent dataset. Therefore, our model could serve as an useful tool to identify new KLF proteins and provide necessary information for biologists and researchers in KLF proteins. Our machine learning source codes as well as datasets are freely available at https://github.com/khanhlee/KLF-XGB.",
+  "abstract_zh": "Kruppel样因子（KLF）指一组含有保守锌指结构的转录因子，参与多种生理和生物学过程，包括细胞增殖、分化、发育和凋亡。一些生物信息学方法，如序列相似性搜索、多序列比对、系统发育重建和基因同线性分析，也被提出以拓宽我们对KLF蛋白的认识。在本研究中，我们提出了一种新颖的计算方法，利用从初级序列计算的特征进行机器学习。具体而言，我们基于XGBoost的模型在识别KLF蛋白方面高效，准确率为96.4%，MCC为0.704。在独立数据集上测试我们的模型时，它也表现出良好的性能。因此，我们的模型可作为识别新KLF蛋白的有用工具，并为生物学家和KLF蛋白研究人员提供必要信息。我们的机器学习源代码及数据集可在https://github.com/khanhlee/KLF-XGB免费获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33848577/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33848577/",
+  "paper_page_path": "papers/pubmed/33848577/index.html"
+}

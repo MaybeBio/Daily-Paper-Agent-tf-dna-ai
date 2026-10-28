@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35456374",
+  "title": "SemanticCAP: Chromatin Accessibility Prediction Enhanced by Features Learning from a Language Model.",
+  "authors": "Zhang, Yikang; Chu, Xiaomin; Jiang, Yelu; Wu, Hongjie; Quan, Lijun",
+  "journal": "Genes",
+  "published_date": "2022-04-24",
+  "window": {
+    "start": "2022-04-18",
+    "end": "2022-04-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用基因语言模型增强染色质可及性预测，虽涉及TF-DNA结合能力对药物-DNA互作的影响，但核心是染色质状态预测而非TF-DNA结合位点或互作机制建模，方法可迁移但对象与互作轴匹配度中等。",
+  "abstract": "A large number of inorganic and organic compounds are able to bind DNA and form complexes, among which drug-related molecules are important. Chromatin accessibility changes not only directly affect drug-DNA interactions, but they can promote or inhibit the expression of the critical genes associated with drug resistance by affecting the DNA binding capacity of TFs and transcriptional regulators. However, the biological experimental techniques for measuring it are expensive and time-consuming. In recent years, several kinds of computational methods have been proposed to identify accessible regions of the genome. Existing computational models mostly ignore the contextual information provided by the bases in gene sequences. To address these issues, we proposed a new solution called SemanticCAP. It introduces a gene language model that models the context of gene sequences and is thus able to provide an effective representation of a certain site in a gene sequence. Basically, we merged the features provided by the gene language model into our chromatin accessibility model. During the process, we designed methods called SFA and SFC to make feature fusion smoother. Compared to DeepSEA, gkm-SVM, and k-mer using public benchmarks, our model proved to have better performance, showing a 1.25% maximum improvement in auROC and a 2.41% maximum improvement in auPRC.",
+  "abstract_zh": "大量无机和有机化合物能够与DNA结合并形成复合物，其中与药物相关的分子尤为重要。染色质可及性的变化不仅直接影响药物与DNA的相互作用，还能通过影响转录因子（TFs）和转录调控因子的DNA结合能力，促进或抑制与药物耐药性相关的关键基因表达。然而，用于测量染色质可及性的生物实验技术成本高昂且耗时。近年来，已提出多种计算方法来识别基因组中的可及区域。现有计算模型大多忽略了基因序列中碱基提供的上下文信息。为解决这些问题，我们提出了一种名为SemanticCAP的新方案。该方案引入了一种基因语言模型，该模型能够模拟基因序列的上下文，从而为基因序列中的特定位置提供有效表示。基本上，我们将基因语言模型提供的特征整合到我们的染色质可及性模型中。在此过程中，我们设计了称为SFA和SFC的方法，以使特征融合更加平滑。与使用公共基准的DeepSEA、gkm-SVM和k-mer相比，我们的模型表现出更优的性能，在auROC上最大提升1.25%，在auPRC上最大提升2.41%。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35456374/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35456374/",
+  "paper_page_path": "papers/pubmed/35456374/index.html"
+}

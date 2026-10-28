@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "42401553",
+    "doi": "10.1038/s41467-026-74807-1",
+    "title": "Positional interpretation of cis-regulatory code and nucleosome organization with deep learning models."
+  },
+  "content": {
+    "abstract": "Sequence-to-function neural networks learn cis-regulatory sequence rules driving many types of genomic data. Interpreting these models to relate the sequence rules to underlying biological processes remains challenging, especially for complex genomic readouts such as MNase-seq, which maps nucleosome occupancy but is confounded by experimental bias. Here, we introduce pairwise influence by sequence attribution (PISA), which uses attribution to combinatorially decode which bases contributed to the readout at a specific genomic coordinate. PISA visualizes the effects of transcription factor motifs, detects undiscovered motifs with complex contribution patterns, and reveals experimental biases. By learning the bias for MNase-seq, PISA enables unprecedented nucleosome prediction models. These models allow the de novo discovery of nucleosome-positioning motifs and reveal the basis of Micro-C chromatin domain boundaries through systematic motif perturbations. Finally, these models allow the design of sequences with altered nucleosome configurations. These results show that PISA is a versatile tool that expands our ability to train and interpret sequence-to-function neural networks on genomics data and understand the underlying cis-regulatory code.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Nucleosomes/metabolism/genetics",
+      "*Deep Learning",
+      "Neural Networks, Computer",
+      "Transcription Factors/metabolism/genetics",
+      "*Regulatory Sequences, Nucleic Acid/genetics",
+      "Animals",
+      "Genomics/methods",
+      "Chromatin/genetics/metabolism",
+      "Humans",
+      "Nucleotide Motifs"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "McAnany, Charles E",
+        "Weilert, Melanie",
+        "Mehta, Grishma",
+        "Kamulegeya, Fahad",
+        "Gardner, Jennifer M",
+        "Schreiber, Jacob",
+        "Kundaje, Anshul",
+        "Zeitlinger, Julia"
+      ],
+      "short_names": [
+        "McAnany CE",
+        "Weilert M",
+        "Mehta G",
+        "Kamulegeya F",
+        "Gardner JM",
+        "Schreiber J",
+        "Kundaje A",
+        "Zeitlinger J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4230-6625",
+        "ORCID: 0000-0003-3084-2287",
+        "ORCID: 0000-0002-5172-3335"
+      ],
+      "affiliations": [
+        "Stowers Institute for Medical Research, Kansas City, MO, USA.",
+        "Stowers Institute for Medical Research, Kansas City, MO, USA.",
+        "Stowers Institute for Medical Research, Kansas City, MO, USA.",
+        "Indian Institute of Science Education & Research, Pune, India.",
+        "Stowers Institute for Medical Research, Kansas City, MO, USA.",
+        "Stowers Institute for Medical Research, Kansas City, MO, USA.",
+        "Research Institute of Molecular Pathology, Vienna BioCenter, Vienna, Austria.",
+        "Department of Genomics and Computational Biology, UMass Chan Medical School, Worcester, MA, USA.",
+        "Department of Genetics, Stanford University, Palo Alto, CA, USA.",
+        "Department of Computer Science, Stanford University, Palo Alto, CA, USA.",
+        "Stowers Institute for Medical Research, Kansas City, MO, USA. jbz@stowers.org.",
+        "Department of Pathology & Laboratory Medicine, The University of Kansas Medical Center, Kansas City, KS, USA. jbz@stowers.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "McAnany, Charles E",
+        "short_name": "McAnany CE",
+        "identifiers": [],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Weilert, Melanie",
+        "short_name": "Weilert M",
+        "identifiers": [],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Mehta, Grishma",
+        "short_name": "Mehta G",
+        "identifiers": [],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, MO, USA.",
+          "Indian Institute of Science Education & Research, Pune, India."
+        ]
+      },
+      {
+        "full_name": "Kamulegeya, Fahad",
+        "short_name": "Kamulegeya F",
+        "identifiers": [],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Gardner, Jennifer M",
+        "short_name": "Gardner JM",
+        "identifiers": [],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Schreiber, Jacob",
+        "short_name": "Schreiber J",
+        "identifiers": [
+          "0000-0003-4230-6625"
+        ],
+        "affiliations": [
+          "Research Institute of Molecular Pathology, Vienna BioCenter, Vienna, Austria.",
+          "Department of Genomics and Computational Biology, UMass Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Kundaje, Anshul",
+        "short_name": "Kundaje A",
+        "identifiers": [
+          "0000-0003-3084-2287"
+        ],
+        "affiliations": [
+          "Department of Genetics, Stanford University, Palo Alto, CA, USA.",
+          "Department of Computer Science, Stanford University, Palo Alto, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Zeitlinger, Julia",
+        "short_name": "Zeitlinger J",
+        "identifiers": [
+          "0000-0002-5172-3335"
+        ],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, MO, USA. jbz@stowers.org.",
+          "Department of Pathology & Laboratory Medicine, The University of Kansas Medical Center, Kansas City, KS, USA. jbz@stowers.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jul 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/05 00:37",
+    "fetched_at": "2026-10-02 00:48:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41606153",
+      "40626041",
+      "40441155",
+      "40174587",
+      "39779956",
+      "39293804",
+      "39162225",
+      "38828788",
+      "38662817",
+      "38291333",
+      "38086419",
+      "37962376",
+      "37733848",
+      "37691488",
+      "37557175",
+      "37490428",
+      "37161475",
+      "36287051",
+      "36192604",
+      "35817977",
+      "35551305",
+      "35189129",
+      "34608324",
+      "34360997",
+      "34050142",
+      "34041500",
+      "33983921",
+      "33666171",
+      "33603233",
+      "33413545",
+      "33355297",
+      "33328628",
+      "33138675",
+      "32939066",
+      "32732264",
+      "32015543",
+      "31416914",
+      "30020410",
+      "29588361",
+      "29212533",
+      "29126307",
+      "27678375",
+      "27197224",
+      "27053067",
+      "26550828",
+      "26335634",
+      "26335633",
+      "26301843",
+      "26119342",
+      "25953851",
+      "25403179",
+      "25313869",
+      "25244936",
+      "25190457",
+      "24714811",
+      "23955598",
+      "23940458",
+      "23463311",
+      "23159369",
+      "22634752",
+      "22313799",
+      "22019336",
+      "21949271",
+      "21330290",
+      "20683474",
+      "20683473",
+      "20434983",
+      "20110278",
+      "20028554",
+      "19620965",
+      "19596482",
+      "19505943",
+      "19111667",
+      "19092803",
+      "18931655",
+      "18418379",
+      "18405375",
+      "17620451",
+      "16862119",
+      "11340174",
+      "10329138",
+      "7279658",
+      "6269057",
+      "2881299",
+      "2664469"
+    ],
+    "similar": [
+      "42401553",
+      "23805837",
+      "29212533",
+      "22737086",
+      "40020686",
+      "39843737",
+      "41951735",
+      "26790608",
+      "33603233",
+      "34120589",
+      "41365655",
+      "30423062",
+      "39284975",
+      "37023129",
+      "21914852",
+      "26305225",
+      "39950082",
+      "26772197",
+      "30861354",
+      "26314830",
+      "31053165",
+      "42475469",
+      "23266217",
+      "29855387",
+      "38869785",
+      "27458208",
+      "29155928",
+      "31776829",
+      "16862119",
+      "28196481",
+      "31324140",
+      "23846748",
+      "36360220",
+      "37361042",
+      "38940172",
+      "23572549",
+      "34382185",
+      "28931432",
+      "30453896",
+      "32728244",
+      "38959309",
+      "41580672",
+      "27046080",
+      "20098497",
+      "31856220",
+      "42413033",
+      "32938377",
+      "39884279",
+      "29027167",
+      "40633538",
+      "22955985",
+      "39631398",
+      "22183607",
+      "35418074",
+      "39745612",
+      "20003404",
+      "38878855",
+      "24266748",
+      "16503136",
+      "19958491",
+      "39546199",
+      "40553343",
+      "37994698",
+      "27151365",
+      "25442502",
+      "36427143",
+      "39036965",
+      "24391522",
+      "35396274",
+      "20886052",
+      "32973041",
+      "37370113",
+      "34205881",
+      "16980406",
+      "17466507",
+      "29028826",
+      "31371436",
+      "38830772",
+      "20621280",
+      "33191916",
+      "42074600",
+      "39695228",
+      "28789639",
+      "20232932",
+      "40424338",
+      "23758892",
+      "25563930",
+      "36462664",
+      "20161746",
+      "41197626",
+      "25380134",
+      "20232936",
+      "26818008",
+      "26578577",
+      "22763441",
+      "20018700",
+      "42265104",
+      "26063739",
+      "42056506",
+      "33259518"
+    ],
+    "review": [
+      "42401553",
+      "23266217",
+      "16503136",
+      "34205881",
+      "17466507"
+    ],
+    "pmc": [
+      "13469612"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-74807-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42401553/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

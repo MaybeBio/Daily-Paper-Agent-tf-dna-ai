@@ -1,0 +1,606 @@
+{
+  "identity": {
+    "pmid": "35585235",
+    "doi": "10.1038/s41586-022-04730-0",
+    "title": "MCM complexes are barriers that restrict cohesin-mediated loop extrusion."
+  },
+  "content": {
+    "abstract": "Eukaryotic genomes are compacted into loops and topologically associating domains (TADs)(1-3), which contribute to transcription, recombination and genomic stability(4,5). Cohesin extrudes DNA into loops that are thought to lengthen until CTCF boundaries are encountered(6-12). Little is known about whether loop extrusion is impeded by DNA-bound machines. Here we show that the minichromosome maintenance (MCM) complex is a barrier that restricts loop extrusion in G1 phase. Single-nucleus Hi-C (high-resolution chromosome conformation capture) of mouse zygotes reveals that MCM loading reduces CTCF-anchored loops and decreases TAD boundary insulation, which suggests that loop extrusion is impeded before reaching CTCF. This effect extends to HCT116 cells, in which MCMs affect the number of CTCF-anchored loops and gene expression. Simulations suggest that MCMs are abundant, randomly positioned and partially permeable barriers. Single-molecule imaging shows that MCMs are physical barriers that frequently constrain cohesin translocation in vitro. Notably, chimeric yeast MCMs that contain a cohesin-interaction motif from human MCM3 induce cohesin pausing, indicating that MCMs are 'active' barriers with binding sites. These findings raise the possibility that cohesin can arrive by loop extrusion at MCMs, which determine the genomic sites at which sister chromatid cohesion is established. On the basis of in vivo, in silico and in vitro data, we conclude that distinct loop extrusion barriers shape the three-dimensional genome.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "CCCTC-Binding Factor/metabolism",
+      "*Cell Cycle Proteins/metabolism",
+      "Chromatids/chemistry/metabolism",
+      "*Chromosomal Proteins, Non-Histone/metabolism",
+      "*DNA/chemistry/metabolism",
+      "G1 Phase",
+      "HCT116 Cells",
+      "Humans",
+      "Mice",
+      "Minichromosome Maintenance Complex Component 3/chemistry/metabolism",
+      "*Minichromosome Maintenance Proteins/chemistry/metabolism",
+      "Multienzyme Complexes/chemistry/metabolism",
+      "Nucleic Acid Conformation",
+      "Saccharomyces cerevisiae",
+      "Saccharomyces cerevisiae Proteins/metabolism",
+      "Cohesins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dequeker, Bart J H",
+        "Scherr, Matthias J",
+        "Brandao, Hugo B",
+        "Gassler, Johanna",
+        "Powell, Sean",
+        "Gaspar, Imre",
+        "Flyamer, Ilya M",
+        "Lalic, Aleksandar",
+        "Tang, Wen",
+        "Stocsits, Roman",
+        "Davidson, Iain F",
+        "Peters, Jan-Michael",
+        "Duderstadt, Karl E",
+        "Mirny, Leonid A",
+        "Tachibana, Kikue"
+      ],
+      "short_names": [
+        "Dequeker BJH",
+        "Scherr MJ",
+        "Brandao HB",
+        "Gassler J",
+        "Powell S",
+        "Gaspar I",
+        "Flyamer IM",
+        "Lalic A",
+        "Tang W",
+        "Stocsits R",
+        "Davidson IF",
+        "Peters JM",
+        "Duderstadt KE",
+        "Mirny LA",
+        "Tachibana K"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7975-2245",
+        "ORCID: 0000-0003-0110-3709",
+        "ORCID: 0000-0001-5496-0638",
+        "ORCID: 0000-0002-4408-6577",
+        "ORCID: 0000-0001-5250-3556",
+        "ORCID: 0000-0002-9478-3928",
+        "ORCID: 0000-0003-4945-6415",
+        "ORCID: 0000-0003-2820-3195",
+        "ORCID: 0000-0002-1279-7841",
+        "ORCID: 0000-0002-0785-5410",
+        "ORCID: 0000-0002-6564-7484"
+      ],
+      "affiliations": [
+        "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter (VBC), Vienna, Austria.",
+        "Structure and Dynamics of Molecular Machines, Max Planck Institute of Biochemistry (MPIB), Martinsried, Germany.",
+        "Harvard Program in Biophysics, Harvard University, Cambridge, MA, USA.",
+        "Illumina Inc., San Diego, CA, USA.",
+        "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter (VBC), Vienna, Austria.",
+        "Department of Totipotency, Max Planck Institute of Biochemistry (MPIB), Martinsried, Germany.",
+        "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter (VBC), Vienna, Austria.",
+        "Department of Totipotency, Max Planck Institute of Biochemistry (MPIB), Martinsried, Germany.",
+        "MRC Human Genetics Unit, Institute of Genetics and Molecular Medicine (IGMM), University of Edinburgh, Edinburgh, UK.",
+        "Department of Totipotency, Max Planck Institute of Biochemistry (MPIB), Martinsried, Germany.",
+        "Research Institute of Molecular Pathology (IMP), Vienna BioCenter (VBC), Vienna, Austria.",
+        "Research Institute of Molecular Pathology (IMP), Vienna BioCenter (VBC), Vienna, Austria.",
+        "Research Institute of Molecular Pathology (IMP), Vienna BioCenter (VBC), Vienna, Austria.",
+        "Research Institute of Molecular Pathology (IMP), Vienna BioCenter (VBC), Vienna, Austria.",
+        "Structure and Dynamics of Molecular Machines, Max Planck Institute of Biochemistry (MPIB), Martinsried, Germany. duderstadt@biochem.mpg.de.",
+        "Department of Physics, Technical University of Munich, Garching, Germany. duderstadt@biochem.mpg.de.",
+        "Department of Physics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA. leonid@mit.edu.",
+        "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter (VBC), Vienna, Austria. tachibana@biochem.mpg.de.",
+        "Department of Totipotency, Max Planck Institute of Biochemistry (MPIB), Martinsried, Germany. tachibana@biochem.mpg.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dequeker, Bart J H",
+        "short_name": "Dequeker BJH",
+        "identifiers": [
+          "0000-0001-7975-2245"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter (VBC), Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Scherr, Matthias J",
+        "short_name": "Scherr MJ",
+        "identifiers": [
+          "0000-0003-0110-3709"
+        ],
+        "affiliations": [
+          "Structure and Dynamics of Molecular Machines, Max Planck Institute of Biochemistry (MPIB), Martinsried, Germany."
+        ]
+      },
+      {
+        "full_name": "Brandão, Hugo B",
+        "short_name": "Brandão HB",
+        "identifiers": [
+          "0000-0001-5496-0638"
+        ],
+        "affiliations": [
+          "Harvard Program in Biophysics, Harvard University, Cambridge, MA, USA.",
+          "Illumina Inc., San Diego, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Gassler, Johanna",
+        "short_name": "Gassler J",
+        "identifiers": [
+          "0000-0002-4408-6577"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter (VBC), Vienna, Austria.",
+          "Department of Totipotency, Max Planck Institute of Biochemistry (MPIB), Martinsried, Germany."
+        ]
+      },
+      {
+        "full_name": "Powell, Sean",
+        "short_name": "Powell S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter (VBC), Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Gaspar, Imre",
+        "short_name": "Gaspar I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Totipotency, Max Planck Institute of Biochemistry (MPIB), Martinsried, Germany."
+        ]
+      },
+      {
+        "full_name": "Flyamer, Ilya M",
+        "short_name": "Flyamer IM",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Molecular Medicine (IGMM), University of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Lalic, Aleksandar",
+        "short_name": "Lalic A",
+        "identifiers": [
+          "0000-0001-5250-3556"
+        ],
+        "affiliations": [
+          "Department of Totipotency, Max Planck Institute of Biochemistry (MPIB), Martinsried, Germany."
+        ]
+      },
+      {
+        "full_name": "Tang, Wen",
+        "short_name": "Tang W",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute of Molecular Pathology (IMP), Vienna BioCenter (VBC), Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Stocsits, Roman",
+        "short_name": "Stocsits R",
+        "identifiers": [
+          "0000-0002-9478-3928"
+        ],
+        "affiliations": [
+          "Research Institute of Molecular Pathology (IMP), Vienna BioCenter (VBC), Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Davidson, Iain F",
+        "short_name": "Davidson IF",
+        "identifiers": [
+          "0000-0003-4945-6415"
+        ],
+        "affiliations": [
+          "Research Institute of Molecular Pathology (IMP), Vienna BioCenter (VBC), Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Peters, Jan-Michael",
+        "short_name": "Peters JM",
+        "identifiers": [
+          "0000-0003-2820-3195"
+        ],
+        "affiliations": [
+          "Research Institute of Molecular Pathology (IMP), Vienna BioCenter (VBC), Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Duderstadt, Karl E",
+        "short_name": "Duderstadt KE",
+        "identifiers": [
+          "0000-0002-1279-7841"
+        ],
+        "affiliations": [
+          "Structure and Dynamics of Molecular Machines, Max Planck Institute of Biochemistry (MPIB), Martinsried, Germany. duderstadt@biochem.mpg.de.",
+          "Department of Physics, Technical University of Munich, Garching, Germany. duderstadt@biochem.mpg.de."
+        ]
+      },
+      {
+        "full_name": "Mirny, Leonid A",
+        "short_name": "Mirny LA",
+        "identifiers": [
+          "0000-0002-0785-5410"
+        ],
+        "affiliations": [
+          "Department of Physics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA. leonid@mit.edu."
+        ]
+      },
+      {
+        "full_name": "Tachibana, Kikuë",
+        "short_name": "Tachibana K",
+        "identifiers": [
+          "0000-0002-6564-7484"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter (VBC), Vienna, Austria. tachibana@biochem.mpg.de.",
+          "Department of Totipotency, Max Planck Institute of Biochemistry (MPIB), Martinsried, Germany. tachibana@biochem.mpg.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/19 06:00",
+    "fetched_at": "2026-09-28 08:41:46"
+  },
+  "links": {
+    "cites": [
+      "42645331",
+      "42608481",
+      "42598857",
+      "42463888",
+      "42443518",
+      "42386978",
+      "42372295",
+      "42328792",
+      "42273736",
+      "42219541",
+      "42192110",
+      "42160015",
+      "41978268",
+      "41872526",
+      "41840057",
+      "41764241",
+      "41690937",
+      "41616049",
+      "41566400",
+      "41540072",
+      "40855131",
+      "40806572",
+      "40789837",
+      "40759902",
+      "40588575",
+      "40508266",
+      "40210441",
+      "40189615",
+      "40181539",
+      "40097581",
+      "40083661",
+      "40063813",
+      "40032827",
+      "40011778",
+      "39979259",
+      "39976773",
+      "39972127",
+      "39898439",
+      "39863595",
+      "39847329",
+      "39844457",
+      "39828741",
+      "39748119",
+      "39592879",
+      "39574693",
+      "39547207",
+      "39520627",
+      "39251741",
+      "39160344",
+      "39160275",
+      "39149482",
+      "39060501",
+      "38816445",
+      "38753513",
+      "38666870",
+      "38647066",
+      "38382406",
+      "38336851",
+      "38328091",
+      "38055079",
+      "38048351",
+      "37786717",
+      "37760316",
+      "37732074",
+      "37702151",
+      "37591842",
+      "37503128",
+      "37500731",
+      "37231112",
+      "37178128",
+      "37081319",
+      "37059094",
+      "37024496",
+      "36977375",
+      "36902449",
+      "36897969",
+      "36776764",
+      "36531247",
+      "36522488",
+      "36275628",
+      "36213113",
+      "36125226",
+      "36098381",
+      "35868255",
+      "35682828",
+      "35617433",
+      "35514262",
+      "35320708",
+      "34943967",
+      "34518339",
+      "34073213",
+      "33772005",
+      "33558366"
+    ],
+    "refs": [
+      "36261017",
+      "36098381",
+      "35320708",
+      "34624221",
+      "34314679",
+      "34157308",
+      "33767413",
+      "33199682",
+      "33087936",
+      "32998764",
+      "32631111",
+      "32534241",
+      "32396063",
+      "32328639",
+      "32250245",
+      "32003791",
+      "31905366",
+      "31780627",
+      "31753851",
+      "31548377",
+      "31511698",
+      "31290943",
+      "30146161",
+      "30143029",
+      "30127433",
+      "29611806",
+      "29604840",
+      "29217591",
+      "29217590",
+      "28985562",
+      "28525758",
+      "28487407",
+      "28475897",
+      "28467304",
+      "28424523",
+      "28388407",
+      "28355183",
+      "27916276",
+      "27799150",
+      "27635237",
+      "27210764",
+      "27117417",
+      "27043002",
+      "26866665",
+      "26499245",
+      "26305040",
+      "26222030",
+      "25497547",
+      "25386362",
+      "25188633",
+      "24487582",
+      "23550136",
+      "23474987",
+      "23074191",
+      "22495304",
+      "22495300",
+      "22333897",
+      "21220507",
+      "20890901",
+      "19910535",
+      "19896182",
+      "19767190",
+      "18614575",
+      "18579778",
+      "17921203",
+      "17406245",
+      "15448702",
+      "15341749",
+      "11125146",
+      "10459007",
+      "9635433",
+      "9016703",
+      "9013938",
+      "1691208"
+    ],
+    "similar": [
+      "35585235",
+      "37076620",
+      "40011778",
+      "39543681",
+      "34309513",
+      "39093600",
+      "31204999",
+      "38452765",
+      "40118039",
+      "39160275",
+      "40181539",
+      "27210764",
+      "29757144",
+      "32065581",
+      "37591243",
+      "40374602",
+      "40063813",
+      "36182691",
+      "40210441",
+      "29217591",
+      "32631111",
+      "37536339",
+      "31905366",
+      "36202971",
+      "38129077",
+      "27799150",
+      "37178128",
+      "28424523",
+      "28467304",
+      "35440598",
+      "35420890",
+      "34197738",
+      "32032532",
+      "32968280",
+      "27582050",
+      "31968256",
+      "29358048",
+      "33767413",
+      "38484038",
+      "35180428",
+      "32680543",
+      "34321070",
+      "37774974",
+      "39988079",
+      "38295804",
+      "38831498",
+      "31807710",
+      "28210885",
+      "36897969",
+      "29593713",
+      "29706548",
+      "38831499",
+      "29930102",
+      "31177910",
+      "38742641",
+      "32396063",
+      "32312753",
+      "39169755",
+      "39824185",
+      "35676475",
+      "39827577",
+      "35708277",
+      "39748119",
+      "21880767",
+      "31753851",
+      "28985562",
+      "29754816",
+      "37357575",
+      "36325618",
+      "28737770",
+      "31205001",
+      "37699887",
+      "31582854",
+      "38452070",
+      "19956766",
+      "32294452",
+      "23219725",
+      "20219941",
+      "38206813",
+      "24291789",
+      "31522987",
+      "36449519",
+      "38808662",
+      "27526722",
+      "29217590",
+      "28475897",
+      "33597753",
+      "39110499",
+      "36097291",
+      "31216471",
+      "24963665",
+      "32515737",
+      "26038942",
+      "18235444",
+      "33594972",
+      "18550811",
+      "33558242",
+      "24086532",
+      "33545664",
+      "33154377"
+    ],
+    "review": [
+      "35585235",
+      "40118039",
+      "32631111",
+      "33767413",
+      "38831498",
+      "28210885",
+      "38831499",
+      "39169755",
+      "39827577",
+      "33545664"
+    ],
+    "pmc": [
+      "9159944"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.informatics.jax.org/reference/35585235",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41586-022-04730-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35585235/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/35585235",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35585235",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse155971",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

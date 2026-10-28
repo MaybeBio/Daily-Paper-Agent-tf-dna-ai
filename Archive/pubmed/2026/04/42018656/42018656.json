@@ -1,0 +1,490 @@
+{
+  "identity": {
+    "pmid": "42018656",
+    "doi": "10.1172/jci.insight.189107",
+    "title": "FOSL2 regulates endothelial cell state and chromatin accessibility in systemic sclerosis pulmonary vascular remodeling."
+  },
+  "content": {
+    "abstract": "Systemic sclerosis (SSc) is characterized by fibrosis and vasculopathy affecting the skin and internal organs, leading to multiorgan dysfunction. Injury of microvascular endothelial cells (ECs) in SSc impairs blood flow and causes tissue ischemia, leading to vascular complications such as Raynaud's, digital ulcers, and pulmonary hypertension (PH). PH in SSc presents as group 1 pulmonary arterial hypertension or as group 3 PH related to hypoxia and interstitial lung disease (ILD), both major causes of mortality. Analysis of multiome data from SSc ILD-PH lungs inferred transcription factors regulating EC phenotype, including FOSL2. Overexpression of FOSL2 in transgenic mice (Fosl2tg) leads to vascular changes mirroring human SSc-PH, such as intimal thickening and fibrosis. scRNA-Seq analysis of altered EC gene expression in Fosl2tg mice showed strong overlap with altered EC gene expression in SSc-ILD-PH. Overlapping as well as discrete EC gene expression in Sugen/hypoxia- and hypoxia-treated mice suggested that FOSL2 regulates both hypoxia-dependent and -independent pathways in Fosl2tg mice and SSc-ILD-PH. A deep learning model, ChromBPNet, inferred increased AP-1 binding at base pair resolution in SSc-ILD-PH ECs, and binding to the same motifs was found upon FOSL2 overexpression in primary vascular ECs, highlighting FOSL2's key role in driving the pathological changes seen in SSc-ILD-PH.",
+    "keywords": [
+      "Endothelial cells",
+      "Pulmonology",
+      "Vascular biology"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Fos-Related Antigen-2/genetics/metabolism",
+      "*Scleroderma, Systemic/genetics/pathology/complications/metabolism",
+      "Mice",
+      "*Endothelial Cells/metabolism/pathology",
+      "*Vascular Remodeling/genetics",
+      "Mice, Transgenic",
+      "Humans",
+      "Lung/pathology/blood supply",
+      "*Chromatin/metabolism",
+      "*Hypertension, Pulmonary/pathology/genetics",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Behera, Rithika",
+        "Zhou, Yuechen",
+        "Gerges, Peter H",
+        "Fan, Jingyu",
+        "Tabib, Tracy",
+        "Gaydosik, Alyxzandria M",
+        "Huang, Mengqi",
+        "Das, Jishnu",
+        "Pachera, Elena",
+        "Hukara, Amela",
+        "Tang, Ying",
+        "Renoux, Florian",
+        "Tai, Miranda",
+        "Distler, Oliver",
+        "Kania, Gabriela",
+        "Chan, Stephen Y",
+        "Singh, Harinder",
+        "Valenzi, Eleanor",
+        "Lafyatis, Robert"
+      ],
+      "short_names": [
+        "Behera R",
+        "Zhou Y",
+        "Gerges PH",
+        "Fan J",
+        "Tabib T",
+        "Gaydosik AM",
+        "Huang M",
+        "Das J",
+        "Pachera E",
+        "Hukara A",
+        "Tang Y",
+        "Renoux F",
+        "Tai M",
+        "Distler O",
+        "Kania G",
+        "Chan SY",
+        "Singh H",
+        "Valenzi E",
+        "Lafyatis R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Rheumatology and Clinical Immunology and.",
+        "Division of Rheumatology and Clinical Immunology and.",
+        "Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, Pennsylvania, USA.",
+        "Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, Pennsylvania, USA.",
+        "Division of Rheumatology and Clinical Immunology and.",
+        "Division of Rheumatology and Clinical Immunology and.",
+        "Division of Rheumatology and Clinical Immunology and.",
+        "Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, Pennsylvania, USA.",
+        "Center for Experimental Rheumatology, Department of Rheumatology, University Hospital Zurich, University of Zurich, Schlieren, Switzerland.",
+        "Center for Experimental Rheumatology, Department of Rheumatology, University Hospital Zurich, University of Zurich, Schlieren, Switzerland.",
+        "Division of Cardiology, Cardiovascular Institute, and.",
+        "Center for Experimental Rheumatology, Department of Rheumatology, University Hospital Zurich, University of Zurich, Schlieren, Switzerland.",
+        "Division of Cardiology, Cardiovascular Institute, and.",
+        "Center for Experimental Rheumatology, Department of Rheumatology, University Hospital Zurich, University of Zurich, Schlieren, Switzerland.",
+        "Center for Experimental Rheumatology, Department of Rheumatology, University Hospital Zurich, University of Zurich, Schlieren, Switzerland.",
+        "Division of Cardiology, Cardiovascular Institute, and.",
+        "Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, Pennsylvania, USA.",
+        "Division of Pulmonary, Allergy and Critical Care Medicine, University of Pittsburgh, Pittsburgh, Pennsylvania, USA.",
+        "Division of Rheumatology and Clinical Immunology and."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Behera, Rithika",
+        "short_name": "Behera R",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology and."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yuechen",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology and."
+        ]
+      },
+      {
+        "full_name": "Gerges, Peter H",
+        "short_name": "Gerges PH",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."
+        ]
+      },
+      {
+        "full_name": "Fan, Jingyu",
+        "short_name": "Fan J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."
+        ]
+      },
+      {
+        "full_name": "Tabib, Tracy",
+        "short_name": "Tabib T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology and."
+        ]
+      },
+      {
+        "full_name": "Gaydosik, Alyxzandria M",
+        "short_name": "Gaydosik AM",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology and."
+        ]
+      },
+      {
+        "full_name": "Huang, Mengqi",
+        "short_name": "Huang M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology and."
+        ]
+      },
+      {
+        "full_name": "Das, Jishnu",
+        "short_name": "Das J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."
+        ]
+      },
+      {
+        "full_name": "Pachera, Elena",
+        "short_name": "Pachera E",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Experimental Rheumatology, Department of Rheumatology, University Hospital Zurich, University of Zurich, Schlieren, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Hukara, Amela",
+        "short_name": "Hukara A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Experimental Rheumatology, Department of Rheumatology, University Hospital Zurich, University of Zurich, Schlieren, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Tang, Ying",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiology, Cardiovascular Institute, and."
+        ]
+      },
+      {
+        "full_name": "Renoux, Florian",
+        "short_name": "Renoux F",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Experimental Rheumatology, Department of Rheumatology, University Hospital Zurich, University of Zurich, Schlieren, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Tai, Miranda",
+        "short_name": "Tai M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiology, Cardiovascular Institute, and."
+        ]
+      },
+      {
+        "full_name": "Distler, Oliver",
+        "short_name": "Distler O",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Experimental Rheumatology, Department of Rheumatology, University Hospital Zurich, University of Zurich, Schlieren, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Kania, Gabriela",
+        "short_name": "Kania G",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Experimental Rheumatology, Department of Rheumatology, University Hospital Zurich, University of Zurich, Schlieren, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Chan, Stephen Y",
+        "short_name": "Chan SY",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiology, Cardiovascular Institute, and."
+        ]
+      },
+      {
+        "full_name": "Singh, Harinder",
+        "short_name": "Singh H",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology and Department of Immunology, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."
+        ]
+      },
+      {
+        "full_name": "Valenzi, Eleanor",
+        "short_name": "Valenzi E",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary, Allergy and Critical Care Medicine, University of Pittsburgh, Pittsburgh, Pennsylvania, USA."
+        ]
+      },
+      {
+        "full_name": "Lafyatis, Robert",
+        "short_name": "Lafyatis R",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology and."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JCI insight"
+    ],
+    "journal_abbrev": [
+      "JCI Insight"
+    ],
+    "pub_date": "2026 Apr 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/22 18:32",
+    "fetched_at": "2026-10-01 19:02:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39510184",
+      "38841857",
+      "38754983",
+      "38127441",
+      "37557175",
+      "37443338",
+      "36755098",
+      "36685041",
+      "35609830",
+      "35282351",
+      "35258521",
+      "35175782",
+      "34528097",
+      "34078089",
+      "34065226",
+      "34030460",
+      "33668422",
+      "33413671",
+      "33208946",
+      "33004791",
+      "32610127",
+      "32275906",
+      "31968178",
+      "31740819",
+      "31405848",
+      "31135379",
+      "30962623",
+      "30954475",
+      "30358436",
+      "30078726",
+      "29927354",
+      "28886379",
+      "28846090",
+      "28825706",
+      "27079975",
+      "26589479",
+      "26106387",
+      "24831826",
+      "22523431",
+      "22388286",
+      "22217937",
+      "21844142",
+      "21538327",
+      "21139050",
+      "21081511",
+      "20110278",
+      "19933934",
+      "19652095",
+      "19180517",
+      "18798982",
+      "18641127",
+      "17767740",
+      "17329309",
+      "15374969",
+      "14583573",
+      "12089071",
+      "11892835",
+      "9729288",
+      "8596151",
+      "8536713",
+      "8335693",
+      "7578260"
+    ],
+    "similar": [
+      "42018656",
+      "28805015",
+      "38841857",
+      "39903186",
+      "26807760",
+      "38754983",
+      "22523431",
+      "26360820",
+      "35849803",
+      "37534464",
+      "31597444",
+      "40401371",
+      "38873770",
+      "41706126",
+      "34380701",
+      "41478761",
+      "29664678",
+      "30327649",
+      "42267432",
+      "29947047",
+      "31782787",
+      "29074488",
+      "31509349",
+      "28062404",
+      "28814429",
+      "41812836",
+      "27864286",
+      "26749424",
+      "41437110",
+      "20039427",
+      "35332068",
+      "28507181",
+      "33886452",
+      "41580874",
+      "35729674",
+      "37582424",
+      "38652543",
+      "38509595",
+      "41826820",
+      "33253099",
+      "37936223",
+      "38937794",
+      "35099674",
+      "39316438",
+      "23232070",
+      "32892515",
+      "28572048",
+      "28159016",
+      "29342503",
+      "33859634",
+      "33647866",
+      "42389801",
+      "24793164",
+      "42233213",
+      "28954767",
+      "30943774",
+      "41494735",
+      "42176889",
+      "37762589",
+      "23839959",
+      "24729406",
+      "42107188",
+      "25606692",
+      "25539827",
+      "30270117",
+      "31405848",
+      "39098251",
+      "27377409",
+      "26782003",
+      "35175782",
+      "38214194",
+      "21360508",
+      "40686216",
+      "41781869",
+      "38652537",
+      "41241399",
+      "39758000",
+      "38127441",
+      "30457999",
+      "29382307",
+      "40916990",
+      "28755990",
+      "28800253",
+      "22258486",
+      "39260526",
+      "24574232",
+      "26637636",
+      "41342206",
+      "32182396",
+      "38636714",
+      "22384200",
+      "39107245",
+      "31126957",
+      "37700377",
+      "33013852",
+      "42292441",
+      "39495248",
+      "31810742",
+      "35733188",
+      "38731946"
+    ],
+    "review": [
+      "42018656",
+      "26807760",
+      "23232070",
+      "28572048",
+      "29342503",
+      "28954767",
+      "37762589",
+      "26782003",
+      "41241399",
+      "40916990",
+      "33013852"
+    ],
+    "pmc": [
+      "13135392"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1172/jci.insight.189107",
+        "provider": "American Society for Clinical Investigation",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/scleroderma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Scleroderma"
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/42018656",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42018656/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "41632825",
+    "doi": "10.1371/journal.pcbi.1013932",
+    "title": "BiCLUM: Bilateral contrastive learning for unpaired single-cell multi-omics integration."
+  },
+  "content": {
+    "abstract": "The integration of single-cell multi-omics data provides a powerful approach for understanding the complex interplay between different molecular modalities, such as RNA expression, chromatin accessibility and protein abundance, measured through assays like scRNA-seq, scATAC-seq and CITE-seq, at single-cell resolution. However, most existing single-cell technologies focus on individual modalities, limiting a comprehensive understanding of their interconnections. Integrating such diverse and often unpaired datasets remains a challenging task due to unknown cell correspondences across distinct feature spaces and limited insights into cell-type-specific activities in non-scRNA-seq modalities. In this work, we propose BiCLUM, a Bilateral Contrastive Learning approach for Unpaired single-cell Multi-omics integration, which simultaneously enforces cell-level and feature-level alignment across modalities. BiCLUM first transforms one modality, such as scATAC-seq, into the data space of another modality, such as scRNA-seq, using prior genomic knowledge. It then learns cell and gene embeddings simultaneously through a bilateral contrastive learning framework, incorporating both cell-level and feature-level contrastive losses. Across multiple RNA+ATAC and RNA+protein datasets, BiCLUM consistently outperforms or matches existing integration methods in both visualization and quantitative benchmarks. Importantly, BiCLUM embeddings preserve biologically meaningful regulatory relationships between chromatin accessibility and gene expression, as evidenced by significantly higher gene-peak correlations than random controls. Downstream analyses further demonstrate that BiCLUM-derived embeddings facilitate transcription factor activity inference, identification of cell-type-specific marker genes, functional enrichment, and cell-cell interaction mapping. Comprehensive hyperparameter sensitivity and ablation analyses further establish BiCLUM as a robust and interpretable framework that not only achieves effective cross-modal alignment but also retains the underlying regulatory and functional landscape across single-cell modalities.",
+    "keywords": [],
+    "mesh_terms": [
+      "Multiomics/methods",
+      "*Single-Cell Analysis/methods",
+      "Single-Cell Gene Expression Analysis",
+      "*Computational Biology/methods",
+      "*Machine Learning",
+      "Animals",
+      "Humans",
+      "Genomics/methods",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Yin",
+        "Mallona, Izaskun",
+        "Robinson, Mark D",
+        "Li, Limin"
+      ],
+      "short_names": [
+        "Guo Y",
+        "Mallona I",
+        "Robinson MD",
+        "Li L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2853-7526",
+        "ORCID: 0000-0003-3572-6832"
+      ],
+      "affiliations": [
+        "School of Mathematics and Statistics, Xi'an Jiaotong University, Xi'an, Shannxi, China.",
+        "Department of Molecular Life Sciences and SIB Swiss Institute of Bioinformatics, University of Zurich, Zurich, Switzerland.",
+        "Department of Molecular Life Sciences and SIB Swiss Institute of Bioinformatics, University of Zurich, Zurich, Switzerland.",
+        "School of Mathematics and Statistics, Xi'an Jiaotong University, Xi'an, Shannxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Yin",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, Xi'an Jiaotong University, Xi'an, Shannxi, China."
+        ]
+      },
+      {
+        "full_name": "Mallona, Izaskun",
+        "short_name": "Mallona I",
+        "identifiers": [
+          "0000-0002-2853-7526"
+        ],
+        "affiliations": [
+          "Department of Molecular Life Sciences and SIB Swiss Institute of Bioinformatics, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Robinson, Mark D",
+        "short_name": "Robinson MD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Life Sciences and SIB Swiss Institute of Bioinformatics, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Li, Limin",
+        "short_name": "Li L",
+        "identifiers": [
+          "0000-0003-3572-6832"
+        ],
+        "affiliations": [
+          "School of Mathematics and Statistics, Xi'an Jiaotong University, Xi'an, Shannxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/03 21:37",
+    "fetched_at": "2026-10-01 13:08:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39939719",
+      "39833568",
+      "39075536",
+      "38968762",
+      "38493343",
+      "38191932",
+      "38075479",
+      "38001063",
+      "37520551",
+      "37386189",
+      "37275529",
+      "37226267",
+      "36810607",
+      "36693837",
+      "36456571",
+      "35761403",
+      "35534898",
+      "35501393",
+      "35050714",
+      "34930412",
+      "34725479",
+      "34398192",
+      "34083792",
+      "33954299",
+      "33850129",
+      "33753874",
+      "33633365",
+      "33098772",
+      "33046898",
+      "32858527",
+      "32767996",
+      "32657382",
+      "31898781",
+      "31887851",
+      "31562329",
+      "31235917",
+      "31178118",
+      "30962623",
+      "30890159",
+      "30814501",
+      "30696980",
+      "30166440",
+      "30078726",
+      "29644997",
+      "29608177",
+      "29414259",
+      "29166589",
+      "28798132",
+      "28759029",
+      "28653622",
+      "28306565",
+      "28091601",
+      "26752769",
+      "26458175",
+      "26083756",
+      "26000488",
+      "25953818",
+      "25367570",
+      "24056875",
+      "23731328",
+      "19660143",
+      "18839206",
+      "14734463",
+      "11748273",
+      "10537110"
+    ],
+    "similar": [
+      "41632825",
+      "40856525",
+      "41588477",
+      "41325188",
+      "41987329",
+      "41744270",
+      "39800872",
+      "41655240",
+      "41067887",
+      "41805524",
+      "40632608",
+      "42108634",
+      "37584660",
+      "42372296",
+      "40591481",
+      "41481570",
+      "39500613",
+      "40442129",
+      "40795161",
+      "38887194",
+      "41206807",
+      "41558828",
+      "39376034",
+      "39487083",
+      "41588648",
+      "42100854",
+      "40917001",
+      "40211981",
+      "42308421",
+      "40689508",
+      "36600199",
+      "40471991",
+      "41741805",
+      "41896196",
+      "42001472",
+      "41557577",
+      "41780447",
+      "42074532",
+      "41975483",
+      "41033661",
+      "42050935",
+      "41105015",
+      "42056283",
+      "40884456",
+      "42182231",
+      "36047285",
+      "38653489",
+      "40622484",
+      "35761403",
+      "41279458",
+      "39992219",
+      "38892162",
+      "39708840",
+      "40739511",
+      "41537610",
+      "39062661",
+      "37875977",
+      "41785051",
+      "40366859",
+      "40596854",
+      "38631462",
+      "41257571",
+      "39494609",
+      "36383176",
+      "41191468",
+      "33827925",
+      "41939867",
+      "41786846",
+      "39934664",
+      "41124064",
+      "36495457",
+      "42060707",
+      "41895518",
+      "41716413",
+      "41731605",
+      "40898317",
+      "38493343",
+      "39550222",
+      "40834555",
+      "41151585",
+      "41183107",
+      "32392348",
+      "40671174",
+      "41834398",
+      "38600256",
+      "36975610",
+      "39821189",
+      "41385419",
+      "38242863",
+      "40723810",
+      "41516004",
+      "35058621",
+      "40838782",
+      "42148089",
+      "42337558",
+      "41446270",
+      "41931510",
+      "41981652",
+      "39893194",
+      "41723123"
+    ],
+    "review": [
+      "41632825",
+      "39500613"
+    ],
+    "pmc": [
+      "12904586"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1013932",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41632825/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

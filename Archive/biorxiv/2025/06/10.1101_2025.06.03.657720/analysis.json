@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.03.657720",
+  "title": "SLAB: Simultaneous Labeling And Binding affinity prediction for protein-ligand structures",
+  "authors": "Aditya Ranganath; Hyojin Kim; Heesung Shim; Jonathan E. Allen",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-06",
+  "window": {
+    "start": "2025-06-02",
+    "end": "2025-06-08"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出联合回归与分类的机器学习模型预测蛋白-配体结合亲和力，虽涉及蛋白-配体互作建模，但对象为小分子配体而非蛋白质-DNA，且未涉及TF-DNA结合机制，仅方法上对结合亲和力预测有间接参考价值。",
+  "abstract": "Machine learning models are often used as scoring functions to predict the binding affinity of a protein-ligand complex. These models are trained with limited amounts of data with experimentally measured binding affinity values. A large number of compounds are labeled inactive throughs single-concentration screens without measuring binding affinities. These inactive compounds, along with the active ones, can be used to train binary classification models, while regression models are trained using compounds with binding affinities only. However, the classification and regression tasks are often handled separately, without sharing the learned feature representations. In this paper, we propose a novel model architecture that jointly performs regression and classification objectives, aiming to maximize data utilization and improve predictive performance by leveraging two complementary tasks. In our setup, the regression yields the binding affinity, whereas the classification task yields the label as active or inactive. We demonstrate our method using PDBbind, the standard 3D structure database, as well as a dataset of flavivirus protease compounds with binding affinity data. Our experiments show that the new joint training strategy improves the accuracy of the model, increasing applicability in various practical drug screening scenarios.",
+  "abstract_zh": "机器学习模型常被用作评分函数，以预测蛋白质-配体复合物的结合亲和力。这些模型使用有限量的实验测量结合亲和力数据进行训练。大量化合物通过单浓度筛选被标记为非活性，而未测量其结合亲和力。这些非活性化合物与活性化合物一起，可用于训练二元分类模型，而回归模型则仅使用具有结合亲和力的化合物进行训练。然而，分类和回归任务通常被分开处理，不共享学习到的特征表示。在本文中，我们提出了一种新颖的模型架构，该架构联合执行回归和分类目标，旨在通过利用两个互补任务最大化数据利用率并提高预测性能。在我们的设置中，回归任务输出结合亲和力，而分类任务输出活性或非活性的标签。我们使用PDBbind（标准三维结构数据库）以及一个带有结合亲和力数据的黄病毒蛋白酶化合物数据集来演示我们的方法。我们的实验表明，新的联合训练策略提高了模型的准确性，增强了其在各种实际药物筛选场景中的适用性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657720",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657720",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.03.657720/index.html"
+}

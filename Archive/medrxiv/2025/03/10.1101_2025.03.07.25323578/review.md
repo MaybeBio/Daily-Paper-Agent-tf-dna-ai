@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, without access to full methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a method integrating deep learning variant effect prediction (DL-VEP) scores from Enformer, DeepSea, and ChromBPNet with cell-type specific regulatory annotations to improve fine-mapping of causal Alzheimer's disease (AD) variants. They report improved heritability localization, identification of 101 AD risk variants versus 87 by statistical fine-mapping alone, improved cross-ancestry polygenic risk score (PRS) performance in African American and Hispanic populations, and a detailed mechanistic dissection of the PICALM/EED locus.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or supplementary data were provided.
+- **Missing materials affecting confidence** Full methods, all figures and tables, supplementary analyses, validation details, software implementation, and data availability statements. The absence of these materials precludes independent verification of the reported quantitative results and methodological rigor.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable approach to integrating deep learning annotations with functional genomics for AD variant fine-mapping. The reported improvements in variant identification and cross-ancestry PRS performance are of interest. However, the abstract alone provides insufficient detail to assess methodological soundness, statistical rigor, or the robustness of the claims. Several key claims, particularly regarding heritability localization and mechanistic predictions, require substantial supporting evidence that is not visible here.
+- **Who would be interested in the results, and why** Researchers in statistical genetics, functional genomics, and AD genetics would be interested. The work addresses a central challenge in post-GWAS interpretation, namely prioritizing causal variants in non-coding regions. The cross-ancestry PRS improvement is relevant to those working on health disparities and polygenic prediction in diverse populations. The integration of deep learning models with cell-type specific annotations may also appeal to computational biologists developing variant effect prediction tools.
+- **Major strengths** The problem addressed is important and timely. The integration of multiple deep learning models with cell-type specific regulatory annotations is a reasonable and potentially powerful approach. The reported cross-ancestry PRS improvements, if robust, would be a meaningful contribution. The focus on microglia as the key cell type aligns with current understanding of AD neuroinflammation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method "improves fine-mapping of causal AD variants" and identifies "101 AD risk variants compared to 87 identified by statistical fine-mapping alone."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract reports a modest increase in the number of identified risk variants (101 vs. 87) but provides no information on the precision, recall, or false discovery rate of these calls. It is unclear whether the additional 14 variants are true positives or false positives introduced by the functional annotations. No validation against independent datasets, experimental assays, or known causal variant databases is described.
+  - **Why it matters** The core claim of the paper is that the method improves causal variant identification. Without evidence that the additional variants are genuinely causal, the improvement could be an artifact of the annotation strategy. The credibility of the entire framework rests on this point.
+  - **Resolution test** Provide validation of the 101 fine-mapped variants against independent functional data, such as eQTL/pQTL colocalization, CRISPR perturbation experiments, or curated causal variant sets. Report precision and recall metrics, and compare against statistical fine-mapping baselines using established benchmarks.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** "Polygenic risk scores derived from these fine-mapped variants show improved cross-ancestry performance in both African American (AUC=0.532 vs. 0.521 for SUSIE) and Hispanic (AUC=0.552 vs. 0.535 for SUSIE) populations."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The reported AUC differences are extremely small (0.011 and 0.017 for African American and Hispanic populations, respectively). No confidence intervals, standard errors, or p-values are provided. It is unclear whether these differences are statistically significant or reproducible across cohorts. The abstract does not describe the sample sizes, number of PRS variants, or the method for deriving PRS weights.
+  - **Why it matters** Claims of improved cross-ancestry performance are a key selling point of the paper. If the improvements are within noise, the claim is not established. Small AUC differences can be clinically and practically meaningful in some contexts, but only if statistically robust.
+  - **Resolution test** Provide confidence intervals and p-values for all AUC comparisons. Describe the cohorts, sample sizes, and PRS construction details. Perform sensitivity analyses, such as varying the number of variants or using alternative fine-mapping thresholds, to demonstrate that the improvement is consistent.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and transparency
+  - **Claim pointer** "The integration of Enformer microglia-based transcription factor DL-VEP scores and microglia ChromBPNet models further localizes the AD polygenic signal."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract does not describe how the DL-VEP scores were computed, which transcription factors were included, how the models were trained or fine-tuned, or how the integration was performed. The specific parameters, thresholds, and software versions are absent. The claim that the signal is "further localized" is not quantified.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without detailed methodological descriptions, other groups cannot apply or benchmark the approach. The lack of quantification for "localization" makes the claim difficult to evaluate.
+  - **Resolution test** Provide a full methods section with model architectures, training data, hyperparameters, and integration procedures. Quantify the localization improvement, for example, by reporting the proportion of heritability captured in specific annotation categories or the reduction in credible set sizes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability of mechanistic claims
+  - **Claim pointer** "We demonstrate how our approach disentangles causal variants in regions of high linkage disequilibrium and predicts specific molecular mechanisms, such as disruption of PU.1 transcription factor binding, with the posterior inclusion probability of this variant increasing from 0.55 using SUSIE to 0.90 with our method."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract presents a single locus example (PICALM/EED) as evidence of mechanistic prediction. No experimental validation of the PU.1 binding disruption is described. The increase in posterior inclusion probability (PIP) from 0.55 to 0.90 is presented without context on whether this is a consistent pattern across loci or a selected example.
+  - **Why it matters** Mechanistic predictions are only valuable if they can be experimentally verified or if they generalize. A single example, even if compelling, does not establish the method's ability to predict molecular mechanisms broadly.
+  - **Resolution test** Provide additional locus examples with consistent PIP improvements. Include experimental validation, such as electrophoretic mobility shift assays, reporter assays, or CRISPR-based perturbation of the predicted binding site, to confirm the PU.1 disruption.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract is dense and combines multiple claims without clear logical flow. The transition from heritability localization to fine-mapping to PRS performance to a single locus example is abrupt.
+  - **Required correction** Restructure the abstract to clearly separate the methodological development, the validation results, and the biological insights. Use explicit subheadings or topic sentences to guide the reader.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Baseline comparison
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The comparison is only against SUSIE. It is unclear whether other fine-mapping methods, such as FINEMAP or CAVIAR, were considered.
+  - **Required correction** State whether additional fine-mapping baselines were tested and, if not, justify the exclusive focus on SUSIE.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Causal" terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "causal" is used throughout, but the abstract does not define the criteria for causality. In the absence of experimental validation, "causal" may be too strong a term.
+  - **Required correction** Define the operational meaning of "causal" in this context, or use more cautious language such as "putatively causal" or "prioritized."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Cross-ancestry claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The cross-ancestry analysis is limited to African American and Hispanic populations. It is unclear whether the method would perform similarly in other ancestries, such as East Asian or South Asian populations.
+  - **Required correction** Acknowledge this limitation explicitly and, if possible, include additional ancestry groups in the analysis or discuss the expected generalizability.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of validation for the additional fine-mapped variants, the absence of statistical significance for the PRS improvements, and the incomplete methodological description are the primary technical issues that must be resolved.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The integration of multiple deep learning models with cell-type specific annotations for AD fine-mapping is a novel combination, though individual components are established. The originality is moderate and depends on the novelty of the integration strategy.
+  - **Scientific importance** The problem of causal variant identification in AD is of high importance. If the method is robust, it could have broad applicability to other complex diseases. The cross-ancestry PRS improvement, if confirmed, would be a significant contribution.
+  - **Interdisciplinary readership** The work bridges deep learning, statistical genetics, and AD biology. It would appeal to a broad readership, but the abstract is too technical for nonspecialists to fully appreciate the significance.
+  - **Technical soundness** Not assessable from the abstract alone. The reported results lack statistical context, validation, and methodological detail. The technical soundness cannot be confirmed without the full manuscript.
+  - **Readability for nonspecialists** The abstract is dense and assumes familiarity with fine-mapping, DL-VEP, and stratified LD score regression. It would be challenging for a general scientific audience to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting approach with potentially valuable results, but the lack of methodological detail, validation, and statistical rigor in the visible material prevents a supportive recommendation. The authors should be encouraged to resubmit with the full manuscript and additional analyses addressing the major concerns.
+
+## Risk / unsupported claims
+- The claim that the method "improves fine-mapping of causal AD variants" is unsupported without validation of the additional variants.
+- The claim of "improved cross-ancestry performance" is unsupported without confidence intervals or p-values.
+- The claim that the method "predicts specific molecular mechanisms" is unsupported without experimental validation.
+- The claim that the integration "further localizes the AD polygenic signal" is unquantified and not assessable from the abstract.
+- The generalizability of the method to other ancestries or diseases is not addressed and cannot be evaluated.

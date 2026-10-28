@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.02.14.705876",
+  "title": "A Robust Framework for Predicting Mutation Effects on Transcription Factor Binding: Insights from Mutational Signatures in 560 Breast Cancer Genomes",
+  "authors": "Hüseyin Hilmi Kılınç; Burçak Otlu",
+  "journal": "bioRxiv",
+  "published_date": "2026-02-17",
+  "window": {
+    "start": "2026-02-16",
+    "end": "2026-02-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用k-mer线性回归模型预测体细胞突变对TF结合亲和力的影响，并整合突变特征与增强子-基因图谱，属于TF-DNA结合位点预测的AI方法应用，但侧重癌症突变功能解读而非三维互作机制建模，深度有限。",
+  "abstract": "Background A vast majority of somatic mutations in cancer reside in non-coding regions, yet systematically predicting their functional impact on gene regulation remains a significant challenge. These variants often enforce their effects by altering the binding affinity of transcription factors (TFs) to cis-regulatory elements. However, a critical gap exists in linking specific mutational processes to the disruption of gene regulatory networks at a systems level. Results In this study, we present a comprehensive in silico pipeline centered on k -mer-based linear regression models to quantify TF binding affinity. Our framework produced 403 high-confidence TF models trained on high-throughput ChIP-seq and PBM datasets. We applied this pipeline to 3.5 million somatic mutations from 560 breast cancer whole genomes to predict gain- or loss-of-function (GOF/LOF) binding perturbations. These predictions were integrated with mutational signature analysis and curated gene sets, utilizing Activity-by-Contact model-based enhancer-gene maps to link variants to their target genes. Our analysis revealed that distinct mutational processes exert non-random, directional effects on specific TF families. The APOBEC-associated signatures (SBS2 and SBS13) were strongly enriched for GOF events in the Myb/SANT and FOX families, while the aging-associated signature SBS1 was enriched for LOF events in the Ets family members. Furthermore, predicted perturbations at putative enhancers were significantly linked to key oncogenes and tumor suppressor genes, with GOF and LOF events (e.g., FOXA1 and BRCA1 / 2 , respectively). In breast cancer samples, the basal-like TNBC subtype exhibited that SBS3-driven GOF enrichments for the CXXC family converged on MYC target gene programs, while SBS39-driven LOF events for the same family converged on DNA Repair pathways. Conclusions Our framework provides a robust and scalable approach for prioritizing and interpreting the functional consequences of somatic mutations in terms of TF perturbations. We demonstrate that specific mutational processes systematically rewire the gene regulatory landscape in a subtype-specific manner, offering novel mechanisms for transcriptional deregulation in breast cancer.",
+  "abstract_zh": "背景 癌症中绝大多数体细胞突变位于非编码区域，然而系统预测这些突变对基因调控的功能影响仍是一项重大挑战。这些变异通常通过改变转录因子（TFs）与顺式调控元件的结合亲和力来发挥其效应。然而，在系统层面将特定突变过程与基因调控网络的破坏联系起来，仍存在关键空白。结果 在本研究中，我们提出了一种以基于k-mer的线性回归模型为核心的综合计算流程，用于量化转录因子结合亲和力。我们的框架生成了403个高置信度转录因子模型，这些模型基于高通量ChIP-seq和PBM数据集训练而成。我们将此流程应用于来自560个乳腺癌全基因组的350万个体细胞突变，以预测功能获得或功能丧失（GOF/LOF）结合扰动。这些预测与突变特征分析和精选基因集相结合，利用基于Activity-by-Contact模型的增强子-基因图谱将变异与其靶基因关联起来。我们的分析揭示，不同的突变过程对特定转录因子家族施加非随机、方向性的效应。APOBEC相关特征（SBS2和SBS13）在Myb/SANT和FOX家族中显著富集于GOF事件，而衰老相关特征SBS1在Ets家族成员中富集于LOF事件。此外，在推定增强子处的预测扰动与关键癌基因和肿瘤抑制基因显著相关，分别涉及GOF和LOF事件（例如，FOXA1和BRCA1/2）。在乳腺癌样本中，基底样TNBC亚型表现出SBS3驱动的CXXC家族GOF富集汇聚于MYC靶基因程序，而SBS39驱动的同一家族LOF事件汇聚于DNA修复通路。结论 我们的框架提供了一种稳健且可扩展的方法，用于优先排序和解释体细胞突变在转录因子扰动方面的功能后果。我们证明，特定突变过程以亚型特异方式系统性地重塑基因调控景观，为乳腺癌中的转录失调提供了新机制。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.02.14.705876",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.02.14.705876",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.02.14.705876/index.html"
+}

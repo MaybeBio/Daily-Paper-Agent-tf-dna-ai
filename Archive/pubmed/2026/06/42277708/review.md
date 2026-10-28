@@ -1,0 +1,115 @@
+## Review setup
+- **Input scope** Full manuscript text (Background, Methods, Results, Discussion, Figure legends, Supplementary figure/table legends)
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of conclusions relative to evidence, and alignment with Nature-style criteria. Editorial and minor language issues are noted but not central.
+- **Shared manuscript claim summary** The authors report genome-wide identification of 62 WRKY transcription factors in king grass, classify them into three phylogenetic groups, and characterize their expression dynamics across nine cold-stress time points. They identify 29 cold-induced genes, link them via WGCNA to GA signaling and sugar metabolism, predict protein-protein interactions with Calvin cycle enzymes via molecular docking, and provide yeast heterologous expression data suggesting enhanced cold tolerance for PsiWRKY16 and PsiWRKY50. They propose a model in which WRKYs integrate ABA and CBF pathways to coordinate cold adaptation.
+- **Visible evidence base** Full text including Methods, Results, Discussion, Figure legends (Figs 1-8), and legends for Supplementary Figures S1-S8 and Tables S1-S3. No raw data files, no supplementary data files, no sequence alignments, no statistical output tables, no docking parameter files, no yeast strain validation data.
+- **Missing materials affecting confidence** Raw RNA-seq data and accession numbers; complete list of 62 WRKY sequences and their alignment; qPCR raw data and statistical output; WGCNA adjacency matrix and module membership details; docking input structures, scoring functions, and full pTM table; yeast growth curve raw data and replicate-level statistics; promoter sequence alignment and cis-element position details; target prediction methodology and full gene lists.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a descriptive bioinformatics and transcriptomic analysis of the WRKY gene family in king grass, with some functional inference from yeast heterologous expression. The work is competent in its computational scope and provides a useful catalog of candidate genes. However, the central claims regarding regulatory roles in ABA/CBF-mediated cold adaptation are largely inferred from correlative and in silico evidence. The yeast assay is the only functional data, and it is indirect, using a heterologous system with no direct measurement of WRKY transcriptional activity or target gene regulation. The molecular docking results are presented as structural predictions but are not experimentally validated, and the leap from docking scores to biological claims of "interaction" is not sufficiently qualified. The manuscript would be strengthened by direct evidence of WRKY binding to target promoters, genetic perturbation in planta, or at minimum a more rigorous statistical treatment of the transcriptomic and yeast data. As presented, the case for a specific regulatory role is not fully established.
+- **Who would be interested in the results, and why** Researchers working on WRKY transcription factors in grasses, particularly those interested in cold stress responses in C4 perennial forage crops. The gene inventory, phylogenetic classification, and expression atlas will be of use to the Pennisetum community and to those studying stress-responsive gene families in related species. The proposed ABA-CBF convergence model, while speculative, may interest plant signaling researchers. Breeders targeting cold tolerance in tropical forages may find the candidate gene list useful for marker development.
+- **Major strengths** 1) Comprehensive identification and classification of the WRKY family in an understudied hybrid crop. 2) Time-series transcriptome design with nine time points provides good temporal resolution. 3) Integration of multiple bioinformatics approaches (phylogeny, co-expression, promoter analysis, docking) is methodologically thorough. 4) The yeast heterologous assay, while indirect, provides some functional support. 5) The manuscript is clearly written and the figures are well organized.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for functional claims
+  - **Claim pointer** The title and conclusions state that WRKYs play a "regulatory role in ABA/CBF-mediated cold adaptation." The Discussion further claims that PsiWRKY16 and PsiWRKY50 are "hub regulators linking GA signaling genes with sugar metabolism enzymes."
+  - **Evidence pointer** Results sections "Network associations between cold-responsive PsiWRKYs, GA signaling, and sugar metabolism" and "Yeast-based heterologous assessment"; Figures 4 and 5
+  - **Concern** The central functional claim rests on three pillars: co-expression correlation, in silico docking, and yeast growth assays. Co-expression does not establish regulation. Docking scores are not validated by any biophysical or cellular binding assay. The yeast assay measures growth phenotype, not transcriptional regulatory activity; WRKYs are transcription factors, and the assay does not demonstrate that the observed growth effects are due to transcriptional regulation of specific targets. No direct evidence of WRKY binding to promoters of GA or Calvin cycle genes is provided. The claim of "hub regulators" is therefore not supported by the evidence presented.
+  - **Why it matters** The title and abstract promise a mechanistic insight. Without direct evidence of regulatory function, the manuscript is a descriptive catalog with speculative interpretation. This distinction is critical for the readership.
+  - **Resolution test** Provide direct evidence of WRKY binding to target promoters (e.g., ChIP-qPCR, EMSA, or Y1H) and demonstrate that perturbation of PsiWRKY16/50 expression alters expression of predicted targets in a relevant plant system. Alternatively, substantially soften the claims to reflect the correlative nature of the evidence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical rigor of transcriptomic validation
+  - **Claim pointer** "qRT-PCR confirmed RNA-seq trends (R² = 0.742)" and "high overall correlation (R² = 0.742; Supplementary Figure S4)".
+  - **Evidence pointer** Methods section "Real-time qRT-PCR verification"; Supplementary Figure S4
+  - **Concern** The validation is performed on pooled cDNA samples (three biological replicates pooled), not on individual biological replicates. This precludes assessment of biological variability and statistical significance of the qRT-PCR data. The R² value is a correlation between pooled qRT-PCR and RNA-seq, which is not a substitute for replicate-level validation. Additionally, only 15 of 29 induced genes were validated, and the selection criteria for these 15 are not stated.
+  - **Why it matters** Transcriptomic claims are only as strong as their validation. Pooled validation without replicate statistics does not meet the standard for confirming differential expression, particularly for genes with modest fold changes.
+  - **Resolution test** Provide qRT-PCR data from individual biological replicates with appropriate statistical tests (e.g., t-test or ANOVA with multiple testing correction) for all validated genes. Report the correlation at the replicate level, not the pooled level.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity and completeness
+  - **Claim pointer** The manuscript claims "genome-wide identification" of WRKY genes and uses a "multi-step approach integrating sequence homology search, conserved domain prediction, and cross-validation across multiple databases."
+  - **Evidence pointer** Methods section "Identification of WRKY genes in king grass"; Results section "Identification and physicochemical characterization"
+  - **Concern** The identification is based on a transcriptome assembly, not a genome. The authors acknowledge the lack of a complete king grass genome but do not discuss the limitations of transcriptome-based gene family identification, such as incomplete coverage of lowly expressed genes, isoform redundancy, and the inability to distinguish paralogs from alleles in a heterozygous hybrid. The threshold for "high-confidence" is not defined quantitatively. The number of WRKY genes in the parental species is not compared to validate completeness.
+  - **Why it matters** "Genome-wide" is a strong claim. If the underlying data are transcriptomic, the claim is misleading. Incomplete gene family inventories can bias downstream evolutionary and functional interpretations.
+  - **Resolution test** Revise the language to "transcriptome-wide" or provide evidence that the transcriptome captures the full WRKY repertoire (e.g., benchmarking against the parental genomes). Define the confidence thresholds and report the number of WRKYs in P. purpureum and P. americanum for comparison.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor of enrichment and overlap analyses
+  - **Claim pointer** "GO enrichment analysis of the 29 highly upregulated PsiWRKY genes revealed significant overrepresentation..." and "A total of 193 genes were predicted as shared putative targets... significantly higher than expected by chance (p < 0.001)".
+  - **Evidence pointer** Results sections "Functional enrichment and regulatory pathways" and "Integrated Cis-Element and target gene analysis"; Figures 3D and 8
+  - **Concern** The GO enrichment analysis is performed on only 29 genes, which is a very small set for reliable enrichment statistics. The background gene set is not defined. For the target overlap analysis, the method for predicting target genes is not described in sufficient detail to evaluate its accuracy. The hypergeometric test assumes independence, which is unlikely for co-regulated gene sets. The p-value threshold and multiple testing correction are not stated.
+  - **Why it matters** Enrichment analyses on small gene sets with undefined backgrounds can produce spurious results. The overlap analysis is central to the claim of WRKY-CBF convergence, and its statistical foundation must be transparent and robust.
+  - **Resolution test** Provide the full methodology for target prediction, define the background set, report effect sizes and confidence intervals, and apply appropriate multiple testing corrections. Consider whether the 29-gene set is sufficient for meaningful GO enrichment.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of molecular docking results
+  - **Claim pointer** "Molecular docking predicted interactions between PsiWRKY proteins and Calvin cycle enzymes, with PsiWRKY16 and PsiWRKY55 showing the highest structural confidence (pTM > 0.75)".
+  - **Evidence pointer** Results section "Molecular docking between PsiWRKYs and key enzymes of the calvin cycle"; Figure 6; Supplementary Table S3
+  - **Concern** The pTM score is a measure of model confidence, not binding affinity or biological relevance. The manuscript acknowledges this in one sentence but then proceeds to interpret the docking results as evidence of potential interaction. No threshold for "biologically relevant" pTM is justified. The docking was performed with AlphaFold3-predicted structures, which introduces additional uncertainty. No experimental validation (e.g., co-IP, pull-down, or surface plasmon resonance) is provided.
+  - **Why it matters** Readers may misinterpret docking confidence as evidence of physical interaction. The Discussion uses these results to support a regulatory model, which is a significant inferential leap.
+  - **Resolution test** Reframe the docking results as hypothesis-generating. Provide a clear statement that pTM reflects structural model confidence, not binding affinity. If the interaction claim is to be retained, provide experimental validation or remove the claim from the abstract and conclusions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of nomenclature
+  - **Affected element** Gene naming convention
+  - **Evidence pointer** Throughout
+  - **Issue** The naming convention "PsiWRKY" is used, but the species is a hybrid (Pennisetum purpureum × P. americanum). The "Psi" prefix is not standard and could be confused with other species abbreviations. The authors should clarify the basis for this prefix.
+  - **Required correction** Define the prefix explicitly in the Methods and consider using a more standard abbreviation or a clear statement of the hybrid origin.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility of bioinformatics analyses
+  - **Affected element** Software versions and parameters
+  - **Evidence pointer** Methods sections
+  - **Issue** Software versions are not consistently reported (e.g., MEGA v11 is given, but versions for BLASTP, HMMER, InterProScan, MEME, TBtools, and R packages are not). Parameters for BLASTP (e-value, word size, etc.) and HMMER are not fully specified.
+  - **Required correction** Provide a supplementary table listing all software, versions, and key parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Differential expression criteria
+  - **Evidence pointer** Results section "Expression profiling"
+  - **Issue** The criterion for "significantly induced (>2-fold)" is stated, but the statistical test used to call significance is not described. A fold-change threshold alone is not a statistical test.
+  - **Required correction** Report the statistical test, p-value threshold, and multiple testing correction used to define differentially expressed genes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality and data availability
+  - **Affected element** Figure 5C
+  - **Evidence pointer** Figure 5C
+  - **Issue** The growth kinetic parameters are presented as bar charts with error bars, but the statistical comparisons are not fully described in the figure legend. It is unclear which comparisons are significant and what test was used.
+  - **Required correction** Add significance indicators to the figure and describe the statistical test in the legend.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section "Limitations and future directions"
+  - **Evidence pointer** Discussion
+  - **Issue** The limitations section is brief and does not address the lack of in planta validation, the indirect nature of the yeast assay, or the speculative nature of the docking-based interaction claims.
+  - **Required correction** Expand the limitations to explicitly acknowledge these gaps and their impact on the strength of the conclusions.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data deposition
+  - **Evidence pointer** Methods and Data Availability (not present)
+  - **Issue** No data availability statement is provided. RNA-seq data should be deposited in a public repository (e.g., NCBI SRA) with accession numbers.
+  - **Required correction** Add a Data Availability section with accession numbers for all raw sequencing data and any custom scripts.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Reference species choice
+  - **Affected element** Use of Setaria viridis for target prediction
+  - **Evidence pointer** Results section "Integrated Cis-Element and target gene analysis"
+  - **Issue** The use of S. viridis as a reference for target gene prediction is not justified. The authors should explain why this species was chosen over closer relatives or the parental species.
+  - **Required correction** Provide a rationale for the choice of S. viridis and discuss potential limitations of cross-species target prediction.
+- **Technical failings that need to be addressed before the case is established** 1) Pooled qRT-PCR validation without replicate-level statistics (R1-M2). 2) Lack of direct evidence for WRKY regulatory function (R1-M1). 3) Overinterpretation of docking pTM scores as evidence of interaction (R1-M5). 4) "Genome-wide" claim based on transcriptome data (R1-M3). 5) Undefined statistical framework for differential expression and enrichment analyses (R1-M4, R1-m3).
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of WRKY family analysis to a specific hybrid forage crop is not conceptually novel, but the integration of time-series transcriptomics with co-expression and docking is a reasonable combination. The proposed ABA-CBF convergence model is not new in concept.
+  - **Scientific importance** Limited. The findings are primarily descriptive and correlative. The functional claims are not substantiated, reducing the potential impact on understanding cold stress regulation. The candidate gene list may be useful for breeding, but this is an applied outcome rather than a fundamental advance.
+  - **Interdisciplinary readership** Narrow. The manuscript will primarily interest plant stress biologists and grass geneticists. The methods are standard for the field and do not introduce approaches that would attract a broader audience.
+  - **Technical soundness** Adequate for the descriptive components, but the functional inference is not technically supported. The yeast assay is a weak proxy for plant cold tolerance, and the docking analysis is not experimentally validated.
+  - **Readability for nonspecialists** The manuscript is clearly written and the figures are legible. However, the leap from correlation to causation may confuse readers unfamiliar with the limitations of co-expression and docking analyses.
+- **Recommendation posture** Currently not established from the provided evidence. The descriptive catalog of WRKY genes and their expression patterns is a useful contribution, but the central claims of regulatory roles in ABA/CBF-mediated cold adaptation are not supported by the evidence. Substantial additional work, including direct functional validation in planta, is required before the case is made.

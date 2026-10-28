@@ -1,0 +1,405 @@
+{
+  "identity": {
+    "pmid": "41505096",
+    "doi": "10.1093/nar/gkaf1428",
+    "title": "Sequence-dependent co-condensation of Lsr2 with DNA elucidates the mechanism of genome compaction in Mycobacterium tuberculosis."
+  },
+  "content": {
+    "abstract": "The xenogeneic silencer protein Lsr2 from Mycobacterium tuberculosis plays a critical role in its survival and pathogenesis. Lsr2 is a nucleoid-associated protein (NAP) that interacts with DNA in vivo and regulates many genes. Purified Lsr2 forms nucleoprotein filaments with DNA molecules, leading to highly compacted DNA conformations. However, the physical mechanism underlying Lsr2-mediated DNA compaction, resulting in gene regulation, remains elusive. We employed a combination of biochemical assay, single-molecule imaging, and molecular dynamics simulations to investigate the governing principles of Lsr2-mediated DNA compaction. We show that, while Lsr2 alone undergoes phase separation, addition of DNA substantially lowers the required concentration for its phase separation. Strikingly, our single-molecule and simulation data establish that Lsr2 forms condensates with long stretches of AT-rich DNA, providing strong evidence for sequence-dependent co-condensation. We further validate our findings by carrying out in vivo imaging of endogenously expressing Lsr2 tagged with eGFP in Mtb cells. This observation is contrary to the classical view of sequence-dependent binding of individual protein molecules to DNA; our findings rather suggest that protein-DNA co-condensates \"sense\" the average binding energy landscape. We present a physical model for Lsr2-mediated DNA compaction and gmycene regulation, describing a novel mechanism for NAP-mediated genome organization in bacteria.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Mycobacterium tuberculosis/genetics",
+      "*Bacterial Proteins/metabolism/chemistry/genetics",
+      "*DNA-Binding Proteins/metabolism/chemistry/genetics",
+      "*Genome, Bacterial",
+      "Molecular Dynamics Simulation",
+      "*DNA, Bacterial/chemistry/metabolism",
+      "*DNA/chemistry/metabolism",
+      "AT Rich Sequence",
+      "Nucleic Acid Conformation",
+      "Phase Separation",
+      "Single Molecule Imaging"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gaur, Prakshi",
+        "Satheesh, Thejas",
+        "Singh, Rohit Kumar",
+        "Beig, Hussain",
+        "Shahu, Sneha",
+        "Ramakrishnan, Saminathan",
+        "Srivastava, Mansi",
+        "Neogi, Shreyasi",
+        "Dash, Ayesha",
+        "Singh, Amit",
+        "Choubey, Sandeep",
+        "Ganji, Mahipal"
+      ],
+      "short_names": [
+        "Gaur P",
+        "Satheesh T",
+        "Singh RK",
+        "Beig H",
+        "Shahu S",
+        "Ramakrishnan S",
+        "Srivastava M",
+        "Neogi S",
+        "Dash A",
+        "Singh A",
+        "Choubey S",
+        "Ganji M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2392-5968",
+        "ORCID: 0000-0002-7387-6148",
+        "ORCID: 0000-0001-8176-3322"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Indian Institute of Science, Bangalore 560012, Karnataka, India.",
+        "Department of Biochemistry, Indian Institute of Science, Bangalore 560012, Karnataka, India.",
+        "The Institute of Mathematical Sciences, Chennai 600113, Tamil Nadu, India.",
+        "Homi Bhabha National Institute, Training School Complex, Anushaktinagar, Mumbai 400094, India.",
+        "Centre for Infectious Disease Research and Department of Microbiology and Cell Biology, Indian Institute of Science, Bangalore 560012, Karnataka, India.",
+        "Department of Biochemistry, Indian Institute of Science, Bangalore 560012, Karnataka, India.",
+        "Department of Biochemistry, Indian Institute of Science, Bangalore 560012, Karnataka, India.",
+        "Department of Biochemistry, Indian Institute of Science, Bangalore 560012, Karnataka, India.",
+        "Department of Biochemistry, Indian Institute of Science, Bangalore 560012, Karnataka, India.",
+        "Department of Biochemistry, Indian Institute of Science, Bangalore 560012, Karnataka, India.",
+        "Centre for Infectious Disease Research and Department of Microbiology and Cell Biology, Indian Institute of Science, Bangalore 560012, Karnataka, India.",
+        "The Institute of Mathematical Sciences, Chennai 600113, Tamil Nadu, India.",
+        "Homi Bhabha National Institute, Training School Complex, Anushaktinagar, Mumbai 400094, India.",
+        "Department of Biochemistry, Indian Institute of Science, Bangalore 560012, Karnataka, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gaur, Prakshi",
+        "short_name": "Gaur P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Indian Institute of Science, Bangalore 560012, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Satheesh, Thejas",
+        "short_name": "Satheesh T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Indian Institute of Science, Bangalore 560012, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Rohit Kumar",
+        "short_name": "Singh RK",
+        "identifiers": [],
+        "affiliations": [
+          "The Institute of Mathematical Sciences, Chennai 600113, Tamil Nadu, India.",
+          "Homi Bhabha National Institute, Training School Complex, Anushaktinagar, Mumbai 400094, India."
+        ]
+      },
+      {
+        "full_name": "Beig, Hussain",
+        "short_name": "Beig H",
+        "identifiers": [
+          "0000-0002-2392-5968"
+        ],
+        "affiliations": [
+          "Centre for Infectious Disease Research and Department of Microbiology and Cell Biology, Indian Institute of Science, Bangalore 560012, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Shahu, Sneha",
+        "short_name": "Shahu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Indian Institute of Science, Bangalore 560012, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Ramakrishnan, Saminathan",
+        "short_name": "Ramakrishnan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Indian Institute of Science, Bangalore 560012, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Srivastava, Mansi",
+        "short_name": "Srivastava M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Indian Institute of Science, Bangalore 560012, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Neogi, Shreyasi",
+        "short_name": "Neogi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Indian Institute of Science, Bangalore 560012, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Dash, Ayesha",
+        "short_name": "Dash A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Indian Institute of Science, Bangalore 560012, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Amit",
+        "short_name": "Singh A",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Infectious Disease Research and Department of Microbiology and Cell Biology, Indian Institute of Science, Bangalore 560012, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Choubey, Sandeep",
+        "short_name": "Choubey S",
+        "identifiers": [
+          "0000-0002-7387-6148"
+        ],
+        "affiliations": [
+          "The Institute of Mathematical Sciences, Chennai 600113, Tamil Nadu, India.",
+          "Homi Bhabha National Institute, Training School Complex, Anushaktinagar, Mumbai 400094, India."
+        ]
+      },
+      {
+        "full_name": "Ganji, Mahipal",
+        "short_name": "Ganji M",
+        "identifiers": [
+          "0000-0001-8176-3322"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Indian Institute of Science, Bangalore 560012, Karnataka, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jan 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/08 17:52",
+    "fetched_at": "2026-10-01 10:42:17"
+  },
+  "links": {
+    "cites": [
+      "42482496",
+      "42274264"
+    ],
+    "refs": [
+      "41411368",
+      "39661689",
+      "39660932",
+      "39541973",
+      "38922783",
+      "38658703",
+      "38572752",
+      "38383529",
+      "38326345",
+      "37897365",
+      "37733848",
+      "37549295",
+      "36963493",
+      "36690068",
+      "35810158",
+      "35440550",
+      "35238639",
+      "35075232",
+      "34265844",
+      "33661100",
+      "33603233",
+      "33568486",
+      "33536448",
+      "30721976",
+      "30603876",
+      "30538179",
+      "30523779",
+      "29650702",
+      "28225081",
+      "27356180",
+      "24895305",
+      "23580555",
+      "23549066",
+      "23106279",
+      "22719899",
+      "21673140",
+      "20133735",
+      "18776007",
+      "18187505",
+      "17590082",
+      "16879983",
+      "15716456",
+      "10515926",
+      "8744570"
+    ],
+    "similar": [
+      "41505096",
+      "18187505",
+      "30633392",
+      "34387867",
+      "20133735",
+      "33980681",
+      "22719899",
+      "21673140",
+      "23580555",
+      "32019787",
+      "23439641",
+      "17590082",
+      "41411368",
+      "40513736",
+      "38591887",
+      "28559300",
+      "20824060",
+      "33536448",
+      "31562654",
+      "24895305",
+      "26817737",
+      "26268801",
+      "18776007",
+      "23561538",
+      "37865319",
+      "40434115",
+      "19477901",
+      "30872139",
+      "41106805",
+      "23106279",
+      "22265250",
+      "19528065",
+      "31795918",
+      "38908027",
+      "36913083",
+      "23922883",
+      "20176569",
+      "29523320",
+      "19237572",
+      "42052705",
+      "33418050",
+      "25563801",
+      "39349276",
+      "28696279",
+      "26067376",
+      "22952243",
+      "21883526",
+      "27359215",
+      "29625128",
+      "39660932",
+      "34003286",
+      "21620858",
+      "23427309",
+      "31134164",
+      "34350952",
+      "38353553",
+      "10982869",
+      "25682183",
+      "15853876",
+      "42081354",
+      "29114022",
+      "40446744",
+      "28935371",
+      "26068099",
+      "31215866",
+      "34792534",
+      "21165487",
+      "29457176",
+      "27091987",
+      "20814030",
+      "15276833",
+      "32907955",
+      "26976786",
+      "32764589",
+      "29695505",
+      "9833662",
+      "27482541",
+      "30149290",
+      "18052041",
+      "25200077",
+      "30239908",
+      "27010232",
+      "29531181",
+      "24916461",
+      "33423211",
+      "18656956",
+      "18227252",
+      "30576065",
+      "34224344",
+      "15137907",
+      "24816602",
+      "29109287",
+      "39028525",
+      "27884082",
+      "22798496",
+      "32011760",
+      "41586520",
+      "23396914",
+      "21787377",
+      "16385053"
+    ],
+    "review": [
+      "41505096",
+      "23106279",
+      "22265250",
+      "29523320",
+      "39349276",
+      "27359215",
+      "34003286",
+      "31134164",
+      "25682183",
+      "15853876",
+      "40446744"
+    ],
+    "pmc": [
+      "12781881"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41505096/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41505096",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CTNNBL1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf1428",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

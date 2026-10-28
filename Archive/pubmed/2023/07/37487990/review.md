@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that a water-soluble [6]helicene derivative (compound 1) binds to double-stranded DNA predominantly via the minor groove, with contributions from both the positively charged imidazole ring and the hydrophobic side chain. They state that neither intercalation nor stable single-stranded DNA binding occurs, based on topoisomerase relaxation experiments and theoretical calculations. They further propose minor groove binding and semi-intercalation as predominant modes, and report preferential interaction with adenine and guanine residues based on UV Resonance Raman spectroscopy.
+- **Visible evidence base** Abstract text only; methods and results are referenced but not provided in detail
+- **Missing materials affecting confidence** Full manuscript, experimental protocols, all figures and tables, MD and quantum mechanical calculation details, CD and ITC data, UVRR spectra, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting study on the chiral recognition and DNA binding mode of a helicene derivative, a topic with relevance to nucleic acid chemistry and drug design. However, the abstract alone provides insufficient detail to evaluate the robustness of the experimental and computational evidence. Several claims, particularly regarding binding mode exclusivity and base preference, require careful scrutiny of the underlying data. The work may be of interest to specialists in DNA-ligand interactions, but the current evidence base is too limited to establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers in nucleic acid chemistry, molecular recognition, and chiral drug design would be interested, as the study addresses how a helicene derivative interacts with DNA, including groove selectivity and enantioselectivity. The combination of experimental and computational methods may appeal to those studying ligand-DNA binding mechanisms.
+- **Major strengths** The study combines multiple experimental techniques (electrochemistry, electrophoresis, spectroscopy, calorimetry) with theoretical methods (MD, quantum mechanics), which is a comprehensive approach. The use of optically pure enantiomers to probe chiral recognition is a notable strength. The focus on a water-soluble helicene derivative is a practical advance over many poorly soluble helicene systems.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that neither intercalation nor stable single-stranded DNA binding were found, based on topoisomerase relaxation experiments and theoretical calculations.
+  - **Evidence pointer** Abstract only; specific experimental conditions and results not provided
+  - **Concern** The abstract states that intercalation and single-stranded DNA binding were ruled out, but no quantitative data, control conditions, or statistical measures are presented. Topoisomerase relaxation assays can be ambiguous without proper positive and negative controls, and the theoretical calculations are not described in sufficient detail to assess their reliability.
+  - **Why it matters** The exclusion of intercalation is central to the proposed minor groove binding model. If this claim is not rigorously supported, the entire binding mode assignment is weakened.
+  - **Resolution test** Provide full experimental details for the topoisomerase assay, including positive controls with a known intercalator, and show the relevant gel images or quantitative data. For theoretical calculations, specify the methods, force fields, and convergence criteria used to rule out intercalation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-data consistency
+  - **Claim pointer** The authors propose both minor groove binding and semi-intercalation as predominant binding modes for compound 1.
+  - **Evidence pointer** Abstract only; MD and quantum mechanical results referenced but not shown
+  - **Concern** The abstract first states that minor groove binding was revealed, then later proposes both minor groove and semi-intercalation as predominant modes. These two modes are not necessarily mutually exclusive, but the abstract does not clarify how they coexist or whether they represent distinct populations or dynamic states. The evidence for semi-intercalation is not described.
+  - **Why it matters** Ambiguity in the binding mode model undermines the mechanistic conclusion and makes it difficult for readers to interpret the biological or chemical significance.
+  - **Resolution test** Clarify the relationship between minor groove binding and semi-intercalation, and provide structural or dynamic evidence (e.g., MD trajectories, binding free energy decomposition) that supports both modes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors conclude that compound 1 preferentially interacts with adenine and guanine residues in dsDNA, based on UVRR findings.
+  - **Evidence pointer** Abstract only; UVRR spectra and assignment details not provided
+  - **Concern** The base preference claim is based solely on UVRR, but no spectral data, assignment criteria, or comparison with control experiments are shown. UVRR can be sensitive to local environment, but without detailed analysis, the claim of preferential interaction with A and G is not verifiable.
+  - **Why it matters** Base selectivity is a specific and potentially important finding, but if not rigorously supported, it may mislead future studies on helicene-DNA interactions.
+  - **Resolution test** Provide UVRR spectra with clear band assignments, show difference spectra for A, G, C, and T residues, and include control experiments with single-stranded or homopolymer DNA to confirm specificity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "semi-intercalation" is used without definition or reference to established criteria.
+  - **Required correction** Define semi-intercalation in the context of this study and cite relevant literature or provide a structural description.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions "structural components of 1, i.e. [6]helicene (2) and 1-butyl-3-methylimidazolium bromide (3)" but does not explain how these components were used to rule out intercalation.
+  - **Required correction** Briefly state the rationale for testing these components and how their behavior informs the binding mode conclusion.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental conditions
+  - **Evidence pointer** Abstract text
+  - **Issue** No buffer conditions, salt concentrations, or temperature are mentioned for the binding experiments.
+  - **Required correction** Include key experimental conditions in the abstract or refer to the methods section for full details.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence to support the exclusion of intercalation, the coexistence of minor groove and semi-intercalation modes, or the base preference claim. These are central to the study's conclusions.
+- **Assessment against Nature-style criteria** Originality: The use of a water-soluble helicene derivative for DNA binding is a novel angle, but the concept of groove binding and semi-intercalation is not new. Scientific importance: The findings could inform chiral recognition in DNA-ligand systems, but the significance is not fully established from the abstract. Interdisciplinary readership: The topic bridges chemistry, biophysics, and molecular biology, but the abstract is too technical for a broad audience. Technical soundness: The multi-method approach is commendable, but the lack of data presentation prevents assessment of technical rigor. Readability for nonspecialists: The abstract is dense and assumes familiarity with specialized techniques; it is not accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses, but the lack of detailed data and the ambiguity in the binding mode model prevent a supportive recommendation. The authors should provide full experimental and computational evidence to address the major concerns.
+
+## Risk / unsupported claims
+- The claim that neither intercalation nor stable single-stranded DNA binding occurs is unsupported without full experimental data.
+- The proposal of both minor groove binding and semi-intercalation as predominant modes is ambiguous and not substantiated.
+- The preferential interaction with adenine and guanine residues is not verifiable from the abstract alone.
+- The role of the imidazole ring and hydrophobic side chain in binding is stated but not supported by specific data.

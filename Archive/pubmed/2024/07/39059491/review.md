@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, experimental procedures, and data availability statement
+- **Assessment boundary** Scientific content, methodological rigor, and support of claims by presented evidence
+- **Shared manuscript claim summary** The authors identify and characterize small-molecule ligand-binding sites on and within the ARNT PAS-B domain using NMR, molecular dynamics simulations, and ensemble docking. They report that KG-548 binds exclusively to a β-sheet surface, KG-655 binds to both the surface and an internal cavity, and KG-279 binds primarily to the internal cavity. All three ligands promote ARNT PAS-B homodimerization to varying degrees.
+- **Visible evidence base** NMR spectroscopy data (HSQC, DOSY, NOESY), mutagenesis studies, WEMD simulations, ensemble docking results, and previously published crystal structures
+- **Missing materials affecting confidence** Supplementary figures and tables (Figures S1–S11, Tables S1–S5) referenced throughout but not provided; full NMR assignment details; raw titration data; complete docking statistics
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and technically sound investigation of small-molecule binding sites on the ARNT PAS-B domain. The combination of solution NMR, mutagenesis, and computational approaches is appropriate for characterizing weak protein-ligand interactions. The authors provide convincing evidence for the surface binding site of KG-548 and the dual binding modes of KG-655, and they present reasonable preliminary evidence for the internal binding of KG-279. The work addresses an important gap in understanding how small molecules can target ARNT PAS-B, which has implications for modulating multiple signaling pathways. However, several concerns regarding quantitative rigor, particularly in binding affinity measurements and the interpretation of computational results, need to be addressed before the conclusions are fully established.
+- **Who would be interested in the results, and why** Researchers in chemical biology, structural biology, and drug discovery, particularly those working on transcription factor targeting, PAS domain proteins, hypoxia signaling, and protein-protein interaction inhibitors. The demonstration of ligand-binding hotspots on ARNT PAS-B provides a foundation for developing modulators of ARNT-mediated signaling pathways relevant to cancer and other diseases.
+- **Major strengths** The study addresses a significant challenge in targeting transcription factors with small molecules. The combination of multiple orthogonal techniques (NMR, mutagenesis, MD simulations, docking) strengthens the conclusions. The identification of distinct binding modes for structurally related ligands provides insight into ligand selectivity. The use of solution-state NMR to characterize weak interactions is methodologically appropriate and rigorous.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor of binding affinity measurements
+  - **Claim pointer** The authors report KD values of approximately 350 μM for KG-548 and millimolar affinity for KG-655, and approximately 1.2 mM for KG-279
+  - **Evidence pointer** Results sections "KG-548 binds to the surface of ARNT PAS-B and promotes homodimerization" and "KG-279 binds primarily to the internal cavity of ARNT PAS-B"; Figures S2 and S10
+  - **Concern** The binding affinity measurements rely on different methods for different ligands (19F NMR for KG-548 and KG-655, methyl peak chemical shift changes for KG-279), making direct comparisons difficult. For KG-655, the authors state that "low affinity and dual binding modes complicate rigorous quantitation," yet they still report a KD value. The fitting procedures and error analysis for these measurements are not described in sufficient detail. Additionally, the KD for KG-279 is estimated from only six methyl peaks without clear description of the fitting model or validation of the Quadratic10 equation approach.
+  - **Why it matters** Accurate binding affinities are essential for comparing ligand potencies and for understanding the structure-activity relationships that would guide future compound optimization. Inconsistent or poorly characterized affinity measurements undermine the quantitative claims of the manuscript.
+  - **Resolution test** Provide complete titration data with error analysis for all KD determinations, describe the fitting procedures in detail, and ensure that comparable methods are used for all ligands or clearly justify why different methods are necessary.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for internal binding mode of KG-655
+  - **Claim pointer** The authors claim that KG-655 binds within the internal cavity of ARNT PAS-B based on NOE correlations with cavity-facing residues and ensemble docking
+  - **Evidence pointer** Results section "KG-655 exhibits dual binding modes"; Figure 5; Table S1
+  - **Concern** While the NOE data support proximity of KG-655 to cavity-facing residues, the evidence for a specific internal binding mode relies heavily on ensemble docking with NOE-based restraints. The authors acknowledge that the ligand may adopt multiple orientations within the cavity, but the docking results are presented without clear validation of the ensemble generation or the docking protocol. The claim that the internal binding mode is independent of the surface binding mode is supported by the double-mutant experiment, but the quantitative assessment of this independence is not provided.
+  - **Why it matters** The dual binding mode of KG-655 is a central finding of the manuscript. If the internal binding mode is not robustly established, the conclusions about ligand selectivity and the potential for developing internal cavity binders would be weakened.
+  - **Resolution test** Provide additional validation of the docking results, such as cross-validation with independent computational methods, analysis of docking score distributions, or experimental validation using mutants that specifically disrupt the internal binding site without affecting the surface site.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of homodimerization data
+  - **Claim pointer** The authors claim that all three ligands promote ARNT PAS-B homodimerization, with KG-548 having the greatest effect and KG-279 the least
+  - **Evidence pointer** Results sections on each ligand; Table S5
+  - **Concern** The DOSY experiments provide diffusion coefficients, but the conversion of these measurements to monomer/dimer ratios relies on assumptions about the hydrodynamic behavior of the protein that are not fully described. The authors note that KG-279 significantly impacted sample viscosity, requiring compensation, but the details of this correction are not provided. The claim that KG-279 promotes homodimerization "may reflect an allosterically driven impact on protein dimerization or more likely, a minor exterior binding mode" is speculative and not directly tested.
+  - **Why it matters** The differential effects of the ligands on homodimerization are presented as an important finding with potential functional implications. If the DOSY analysis is not quantitatively robust, this conclusion is not well supported.
+  - **Resolution test** Provide complete details of the DOSY analysis, including the assumptions made, the fitting procedures, and the error analysis. Consider additional experiments to directly test whether the observed effects on diffusion are due to dimerization rather than other factors such as changes in protein conformation or aggregation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of findings to full-length ARNT
+  - **Claim pointer** The authors suggest that their findings "may guide the development of more potent coactivator inhibitors for cellular and functional studies"
+  - **Evidence pointer** Discussion section
+  - **Concern** All experiments were performed on the isolated ARNT PAS-B domain (residues 356-470). The relevance of these findings to the full-length ARNT protein, which contains additional domains and undergoes complex conformational changes, is not addressed experimentally. The authors do not discuss potential differences in ligand binding between the isolated domain and the full-length protein.
+  - **Why it matters** The stated goal of developing coactivator inhibitors for cellular studies requires that the binding sites identified in the isolated domain are relevant in the context of the full-length protein. Without evidence for this relevance, the translational implications of the work are uncertain.
+  - **Resolution test** Discuss the potential limitations of using the isolated domain and consider preliminary experiments in the context of full-length ARNT or ARNT-containing complexes, even if only at a qualitative level.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figures 2, 4, and 5
+  - **Evidence pointer** Results sections referencing these figures
+  - **Issue** The figures are referenced extensively but the specific panels and annotations are difficult to follow from the text alone. Some figure legends appear incomplete in the provided text.
+  - **Required correction** Ensure all figure panels are clearly labeled and referenced in the text, and provide complete figure legends that allow readers to interpret the data without referring back to the text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Description of WEMD simulation parameters
+  - **Affected element** Experimental procedures section "WEMD simulation"
+  - **Evidence pointer** Experimental procedures
+  - **Issue** The description of the WEMD simulation lacks some details that would be important for reproducibility, such as the specific progress coordinate binning scheme, the number of walkers, and the convergence criteria beyond the total simulation time.
+  - **Required correction** Provide additional details on the WEMD simulation setup, including the specific parameters used for the weighted ensemble algorithm and the criteria used to assess convergence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of alternative interpretations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of the SLIP conformation and its potential relevance to ligand binding is brief. The authors mention that Y456T enables the protein to adopt two conformations, but do not discuss how this conformational heterogeneity might affect the interpretation of the ligand binding data.
+  - **Required correction** Expand the discussion of the SLIP conformation and its potential implications for ligand binding, particularly for the interpretation of the Y456T mutant data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Throughout results
+  - **Evidence pointer** Results sections
+  - **Issue** The manuscript does not report statistical measures of uncertainty for several key measurements, including the KD values and the diffusion coefficients.
+  - **Required correction** Report standard errors or confidence intervals for all quantitative measurements, and describe the number of independent replicates for each experiment.
+- **Technical failings that need to be addressed before the case is established** The quantitative rigor of binding affinity measurements (R1-M1) must be improved with complete titration data, error analysis, and consistent methodology. The validation of the internal binding mode for KG-655 (R1-M2) requires additional computational or experimental support. The DOSY analysis for homodimerization (R1-M3) needs more detailed methodological description and consideration of alternative explanations.
+- **Assessment against Nature-style criteria** 
+  - Originality: The work is original in its systematic characterization of ligand-binding sites on ARNT PAS-B, particularly the identification of a surface binding site and the demonstration of dual binding modes for KG-655. The application of combined NMR, MD, and docking approaches to this specific target is novel.
+  - Scientific importance: The findings have moderate to high importance for the field of transcription factor targeting and PAS domain biology. The identification of ligand-binding hotspots on ARNT PAS-B could inform future drug development efforts, though the therapeutic relevance remains to be established.
+  - Interdisciplinary readership: The work bridges structural biology, biophysics, and chemical biology, and would be of interest to researchers in these fields. The broader significance to cell biology and drug discovery is discussed but not experimentally demonstrated.
+  - Technical soundness: The experimental approaches are generally appropriate and well-executed, but the quantitative rigor of some measurements needs improvement. The computational methods are state-of-the-art but require additional validation.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with NMR techniques and PAS domain biology. The figures and text are reasonably clear, but the supplementary material is essential for full understanding.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are likely correct and important, but the quantitative rigor of the binding measurements and the validation of the internal binding mode need to be strengthened before the conclusions are fully established.
+
+## Risk / unsupported claims
+- The claim that KG-655 binding to the internal cavity is independent of surface binding is supported by the double-mutant experiment, but the quantitative assessment of this independence is not provided
+- The suggestion that the internal binding mode of KG-655 could "block ARNT/coactivator association through a similar mechanism" to HIF-2α inhibitors is speculative and not directly tested
+- The claim that KG-279 promotes homodimerization through an allosteric mechanism or minor exterior binding mode is presented without direct experimental support
+- The generalizability of the findings to full-length ARNT and to cellular contexts is asserted but not experimentally addressed
+- The statement that "both hotspots provide multiple directions to grow our lead compounds to improve their binding affinities" is speculative and not supported by structure-activity relationship data

@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "38791216",
+    "doi": "10.3390/ijms25105176",
+    "title": "ARIP: A Tool for Precise Interatomic Contact Area and Volume Calculation in Proteins."
+  },
+  "content": {
+    "abstract": "The interplay patterns of amino acid residues are pivotal in determining the tertiary structure and flexibility of proteins, which in turn are intricately linked to their functionality and interactions with other molecules. Here, we introduce ARIP, a novel tool designed to identify contact residues within proteins. ARIP employs a modified version of the dr_sasa algorithm and an atomic overlap weighted algorithm to directly calculate the contact area and volume between atoms based on their van der Waals radius. It also allows for the selection of solvent radii, recognizing that not every atom in proteins can interact with water molecules. The solvent parameters were derived from the analysis of approximately 5000 protein and nucleic acid structures with water molecules determined using X-ray crystallography. One advantage of the modified algorithm is its capability to analyze multiple models within a single PDB file, making it suitable for molecular dynamic capture. The contact volume is symmetrically distributed between the interacting atoms, providing more informative results than contact area for the analysis of intra- and intermolecular interactions and the development of scoring functions. Furthermore, ARIP has been applied to four distinct cases: capturing key residue-residue contacts in NMR structures of P4HB, protein-drug binding of CYP17A1, protein-DNA binding of SPI1, and molecular dynamic simulations of BRD4.",
+    "keywords": [
+      "atomic overlap weighted algorithm",
+      "interatomic contact volume",
+      "molecular dynamic capture",
+      "protein structure",
+      "quantitative analysis",
+      "residue interaction"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Algorithms",
+      "Crystallography, X-Ray/methods",
+      "*Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Protein Conformation",
+      "*Proteins/chemistry",
+      "*Software",
+      "Solvents/chemistry",
+      "Transcription Factors/chemistry/metabolism",
+      "Water/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Tao",
+        "Li, Wenhui",
+        "Tang, Zhiping",
+        "Sun, Xiangwei",
+        "Li, Lijuan",
+        "Liu, Zhonghua",
+        "Zhang, Gaihua"
+      ],
+      "short_names": [
+        "Ma T",
+        "Li W",
+        "Tang Z",
+        "Sun X",
+        "Li L",
+        "Liu Z",
+        "Zhang G"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1038-1049"
+      ],
+      "affiliations": [
+        "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+        "Peptide and Small Molecule Drug R&D Platform, Furong Laboratory, Hunan Normal University, Changsha 410081, China.",
+        "Institute of Interdisciplinary Studies, Hunan Normal University, Changsha 410081, China.",
+        "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+        "Peptide and Small Molecule Drug R&D Platform, Furong Laboratory, Hunan Normal University, Changsha 410081, China.",
+        "Institute of Interdisciplinary Studies, Hunan Normal University, Changsha 410081, China.",
+        "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+        "Peptide and Small Molecule Drug R&D Platform, Furong Laboratory, Hunan Normal University, Changsha 410081, China.",
+        "Institute of Interdisciplinary Studies, Hunan Normal University, Changsha 410081, China.",
+        "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+        "Peptide and Small Molecule Drug R&D Platform, Furong Laboratory, Hunan Normal University, Changsha 410081, China.",
+        "Institute of Interdisciplinary Studies, Hunan Normal University, Changsha 410081, China.",
+        "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+        "Peptide and Small Molecule Drug R&D Platform, Furong Laboratory, Hunan Normal University, Changsha 410081, China.",
+        "Institute of Interdisciplinary Studies, Hunan Normal University, Changsha 410081, China.",
+        "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+        "Peptide and Small Molecule Drug R&D Platform, Furong Laboratory, Hunan Normal University, Changsha 410081, China.",
+        "Institute of Interdisciplinary Studies, Hunan Normal University, Changsha 410081, China.",
+        "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+        "Peptide and Small Molecule Drug R&D Platform, Furong Laboratory, Hunan Normal University, Changsha 410081, China.",
+        "Institute of Interdisciplinary Studies, Hunan Normal University, Changsha 410081, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Tao",
+        "short_name": "Ma T",
+        "identifiers": [],
+        "affiliations": [
+          "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+          "Peptide and Small Molecule Drug R&D Platform, Furong Laboratory, Hunan Normal University, Changsha 410081, China.",
+          "Institute of Interdisciplinary Studies, Hunan Normal University, Changsha 410081, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wenhui",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+          "Peptide and Small Molecule Drug R&D Platform, Furong Laboratory, Hunan Normal University, Changsha 410081, China.",
+          "Institute of Interdisciplinary Studies, Hunan Normal University, Changsha 410081, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Zhiping",
+        "short_name": "Tang Z",
+        "identifiers": [],
+        "affiliations": [
+          "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+          "Peptide and Small Molecule Drug R&D Platform, Furong Laboratory, Hunan Normal University, Changsha 410081, China.",
+          "Institute of Interdisciplinary Studies, Hunan Normal University, Changsha 410081, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xiangwei",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+          "Peptide and Small Molecule Drug R&D Platform, Furong Laboratory, Hunan Normal University, Changsha 410081, China.",
+          "Institute of Interdisciplinary Studies, Hunan Normal University, Changsha 410081, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lijuan",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+          "Peptide and Small Molecule Drug R&D Platform, Furong Laboratory, Hunan Normal University, Changsha 410081, China.",
+          "Institute of Interdisciplinary Studies, Hunan Normal University, Changsha 410081, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhonghua",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+          "Peptide and Small Molecule Drug R&D Platform, Furong Laboratory, Hunan Normal University, Changsha 410081, China.",
+          "Institute of Interdisciplinary Studies, Hunan Normal University, Changsha 410081, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Gaihua",
+        "short_name": "Zhang G",
+        "identifiers": [
+          "0000-0003-1038-1049"
+        ],
+        "affiliations": [
+          "The National and Local Joint Engineering Laboratory of Animal Peptide Drug Development, College of Life Sciences, Hunan Normal University, Changsha 410081, China.",
+          "Peptide and Small Molecule Drug R&D Platform, Furong Laboratory, Hunan Normal University, Changsha 410081, China.",
+          "Institute of Interdisciplinary Studies, Hunan Normal University, Changsha 410081, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 May 9",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/25 10:50",
+    "fetched_at": "2026-09-29 20:36:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37352101",
+      "36469670",
+      "35521554",
+      "34596383",
+      "34265844",
+      "34197884",
+      "33468647",
+      "31908743",
+      "31336667",
+      "30698657",
+      "28387920",
+      "26973785",
+      "26518137",
+      "25697777",
+      "25099806",
+      "24591301",
+      "23345657",
+      "23046301",
+      "22720789",
+      "22266943",
+      "19476414",
+      "17117864",
+      "15849316",
+      "14978714",
+      "12772159",
+      "12645054",
+      "10592235",
+      "10320401",
+      "8810522",
+      "8672469",
+      "4760134"
+    ],
+    "similar": [
+      "38791216",
+      "30698657",
+      "9672047",
+      "9917407",
+      "31373570",
+      "9917408",
+      "2340343",
+      "14978714",
+      "22497310",
+      "24159811",
+      "11746709",
+      "18802470",
+      "22670528",
+      "22868759",
+      "16792811",
+      "15067676",
+      "10026283",
+      "25544680",
+      "24678666",
+      "19179356",
+      "21961043",
+      "31294888",
+      "15959866",
+      "27775315",
+      "12596268",
+      "11846571",
+      "1891460",
+      "28533982",
+      "17537824",
+      "23089616",
+      "23259794",
+      "12538895",
+      "30916962",
+      "12668463",
+      "23384183",
+      "27802576",
+      "10343386",
+      "34132767",
+      "12376381",
+      "21645520",
+      "24625758",
+      "15215462",
+      "15268287",
+      "14735568",
+      "23140471",
+      "19291738",
+      "28263393",
+      "21420887",
+      "9609690",
+      "12829469",
+      "20816074",
+      "23912807",
+      "28419507",
+      "28318252",
+      "11183777",
+      "22396746",
+      "10508431",
+      "35312721",
+      "31756092",
+      "18767831",
+      "15827080",
+      "15773557",
+      "35303138",
+      "20584304",
+      "9577228",
+      "22057834",
+      "36907648",
+      "23911977",
+      "12824328",
+      "16011796",
+      "11273705",
+      "11924735",
+      "9396800",
+      "35554554",
+      "11500966",
+      "1557350",
+      "17452350",
+      "37620609",
+      "34107038",
+      "26003989",
+      "27253756",
+      "16790041",
+      "28155647",
+      "7630880",
+      "17397537",
+      "14646067",
+      "8003379",
+      "15937899",
+      "32006279",
+      "36638318",
+      "15856480",
+      "12723474",
+      "17803211",
+      "21970362",
+      "10320401",
+      "19005575",
+      "26227050",
+      "8535238",
+      "26189564"
+    ],
+    "review": [
+      "38791216",
+      "24678666"
+    ],
+    "pmc": [
+      "11120937"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms25105176",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38791216/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38791216",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3844",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

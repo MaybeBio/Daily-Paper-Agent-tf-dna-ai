@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "40406134",
+    "doi": "10.3389/fimmu.2025.1541491",
+    "title": "Development and validation of an ARID1A-related immune genes risk model in evaluating prognosis and immune therapeutic efficacy for gastric cancer patients: a translational study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Mutations in the ARID1A gene, an integral component of the SWI/SNF complex, are prevalent, affecting prognosis and immune response in several malignancies, including gastric cancer (GC). The aim of this study was to identify ARID1A mutation-associated immune genes to construct an ARID1A-related immune gene risk model (ARM). METHODS: GSEA and ssGSEA were used to explore the involved biological pathways and the degree of immune cell infiltration, respectively. The prognosis model was constructed by lasso-COX. Protein expression level in tissue was verified by immunohistochemistry. Small molecule compounds were screened using molecular docking techniques and their anticancer value was validated in vitro and in vivo experiment. RESULTS: This study revealed immune-related pathways and infiltration level of multiple immune cell types were enriched in the ARID1A(MUT) group compared to the ARID1A(WT) group. ARID1A mutations were correlated with an improved prognosis in individuals treated with immune checkpoint inhibitor (ICI) analyzed via Cbioportal website. TCGA-STAD cohort was randomly divided into a training-group and a testing-group. Additionally, ARM was developed in the training group, which identified APOD and PROC from ARID1A mutation-associated differential immunity genes. A significantly poorer prognosis in the high-risk group compared to the low-risk group, which was consistent across TCGA-training/testing/all cohorts, five GEO cohorts and 55 GC patients from Hainan General Hospital. Furthermore, the immune microenvironment components and ICI therapeutic efficacy markers were different between the two groups. Meanwhile, APOD and PROC expression was higher in GC tissues compared to para-cancerous tissues. Baicalin and capsaicin inhibited the proliferation and metastatic ability of GC cells. CONCLUSION: ARM provides valuable insights into the prognosis and the effectiveness of ICI, thereby offering a novel strategy for clinical decision. Baicalin and capsaicin are promising potential drugs for GC treatment.",
+    "keywords": [
+      "ARID1A",
+      "gastric cancer",
+      "immune gene risk model",
+      "molecular docking",
+      "prognosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Stomach Neoplasms/genetics/immunology/drug therapy/mortality",
+      "*Transcription Factors/genetics/metabolism",
+      "*DNA-Binding Proteins/genetics/metabolism",
+      "Prognosis",
+      "Mutation",
+      "Animals",
+      "Immune Checkpoint Inhibitors/therapeutic use/pharmacology",
+      "Female",
+      "Mice",
+      "Male",
+      "Biomarkers, Tumor/genetics",
+      "Cell Line, Tumor",
+      "Tumor Microenvironment/immunology",
+      "Molecular Docking Simulation",
+      "Middle Aged"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jiangtao",
+        "Li, Jingting",
+        "Yang, Shangfeng",
+        "Tang, Xiaoyan",
+        "Wang, Chunze",
+        "Lin, Jiaxing",
+        "Chen, Qiancheng",
+        "Xu, Hui",
+        "Ma, Yuanyuan",
+        "Gao, Xiaoling"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Li J",
+        "Yang S",
+        "Tang X",
+        "Wang C",
+        "Lin J",
+        "Chen Q",
+        "Xu H",
+        "Ma Y",
+        "Gao X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Clinical Laboratory Center, Hainan General Hospital, Hainan Affiliated Hospital of Hainan, Medical University, Haikou, Hainan, China.",
+        "Hainan Medical University, Haikou, Hainan, China.",
+        "The Clinical Laboratory Center, Hainan General Hospital, Hainan Affiliated Hospital of Hainan, Medical University, Haikou, Hainan, China.",
+        "Hainan Medical University, Haikou, Hainan, China.",
+        "Hainan Medical University, Haikou, Hainan, China.",
+        "The Clinical Laboratory Center, Hainan General Hospital, Hainan Affiliated Hospital of Hainan, Medical University, Haikou, Hainan, China.",
+        "Hainan Medical University, Haikou, Hainan, China.",
+        "The Clinical Laboratory Center, Hainan General Hospital, Hainan Affiliated Hospital of Hainan, Medical University, Haikou, Hainan, China.",
+        "Hainan Medical University, Haikou, Hainan, China.",
+        "The Clinical Laboratory Center, Hainan General Hospital, Hainan Affiliated Hospital of Hainan, Medical University, Haikou, Hainan, China.",
+        "Hainan Medical University, Haikou, Hainan, China.",
+        "Hainan Medical University, Haikou, Hainan, China.",
+        "The Clinical Laboratory Center, Hainan General Hospital, Hainan Affiliated Hospital of Hainan, Medical University, Haikou, Hainan, China.",
+        "Second Department of Critical Care Medicine, Xi'an Daxing Hospital, Shanxi, China.",
+        "The Clinical Laboratory Center, Hainan General Hospital, Hainan Affiliated Hospital of Hainan, Medical University, Haikou, Hainan, China.",
+        "Hainan Medical University, Haikou, Hainan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jiangtao",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "The Clinical Laboratory Center, Hainan General Hospital, Hainan Affiliated Hospital of Hainan, Medical University, Haikou, Hainan, China.",
+          "Hainan Medical University, Haikou, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jingting",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "The Clinical Laboratory Center, Hainan General Hospital, Hainan Affiliated Hospital of Hainan, Medical University, Haikou, Hainan, China.",
+          "Hainan Medical University, Haikou, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Shangfeng",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "Hainan Medical University, Haikou, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Xiaoyan",
+        "short_name": "Tang X",
+        "identifiers": [],
+        "affiliations": [
+          "The Clinical Laboratory Center, Hainan General Hospital, Hainan Affiliated Hospital of Hainan, Medical University, Haikou, Hainan, China.",
+          "Hainan Medical University, Haikou, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chunze",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "The Clinical Laboratory Center, Hainan General Hospital, Hainan Affiliated Hospital of Hainan, Medical University, Haikou, Hainan, China.",
+          "Hainan Medical University, Haikou, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jiaxing",
+        "short_name": "Lin J",
+        "identifiers": [],
+        "affiliations": [
+          "The Clinical Laboratory Center, Hainan General Hospital, Hainan Affiliated Hospital of Hainan, Medical University, Haikou, Hainan, China.",
+          "Hainan Medical University, Haikou, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Qiancheng",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Hainan Medical University, Haikou, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Hui",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "The Clinical Laboratory Center, Hainan General Hospital, Hainan Affiliated Hospital of Hainan, Medical University, Haikou, Hainan, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yuanyuan",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "Second Department of Critical Care Medicine, Xi'an Daxing Hospital, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Xiaoling",
+        "short_name": "Gao X",
+        "identifiers": [],
+        "affiliations": [
+          "The Clinical Laboratory Center, Hainan General Hospital, Hainan Affiliated Hospital of Hainan, Medical University, Haikou, Hainan, China.",
+          "Hainan Medical University, Haikou, Hainan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/23 06:26",
+    "fetched_at": "2026-10-05 03:51:35"
+  },
+  "links": {
+    "cites": [
+      "41684417",
+      "40848152"
+    ],
+    "refs": [
+      "39652583",
+      "39549895",
+      "39435241",
+      "39265236",
+      "38926116",
+      "38754421",
+      "38699660",
+      "38684798",
+      "38587186",
+      "38547579",
+      "38455068",
+      "38432394",
+      "38229120",
+      "38221813",
+      "38148578",
+      "37789385",
+      "37648998",
+      "37434394",
+      "37274740",
+      "36986671",
+      "36963401",
+      "36800999",
+      "36758093",
+      "36483562",
+      "36389725",
+      "36354098",
+      "36229854",
+      "35600357",
+      "35264871",
+      "35165282",
+      "35116589",
+      "34283835",
+      "34215253",
+      "33785559",
+      "33451982",
+      "33264402",
+      "33016929",
+      "32789692",
+      "31994214",
+      "30819137",
+      "29736026",
+      "29642915",
+      "29485622",
+      "26082331",
+      "23550210",
+      "23355908",
+      "23323831",
+      "22588877",
+      "21982300",
+      "19499576",
+      "17492758",
+      "16199517"
+    ],
+    "similar": [
+      "40406134",
+      "39754248",
+      "39810215",
+      "39353384",
+      "39549895",
+      "33678158",
+      "40777041",
+      "41217429",
+      "39333689",
+      "38822443",
+      "39165353",
+      "40481392",
+      "39181686",
+      "38041544",
+      "38148578",
+      "39118022",
+      "39476606",
+      "40228435",
+      "34512623",
+      "34100918",
+      "36479114",
+      "22808142",
+      "39029079",
+      "39259065",
+      "34177954",
+      "40406143",
+      "38546403",
+      "39108265",
+      "40176817",
+      "34109546",
+      "32791957",
+      "41438758",
+      "39966377",
+      "40746552",
+      "40768000",
+      "41262238",
+      "39606245",
+      "33481850",
+      "41340120",
+      "31913196",
+      "32789692",
+      "39796161",
+      "40939949",
+      "38807601",
+      "33080474",
+      "36369379",
+      "34678693",
+      "41215803",
+      "35331183",
+      "34828321",
+      "37410142",
+      "40750787",
+      "39904894",
+      "36336725",
+      "40914924",
+      "41486495",
+      "36389725",
+      "39074262",
+      "38748299",
+      "31906887",
+      "40466463",
+      "40219804",
+      "34607103",
+      "39998563",
+      "40952796",
+      "32754268",
+      "39031012",
+      "33843442",
+      "34382341",
+      "32506298",
+      "41407509",
+      "36741965",
+      "32639175",
+      "39252063",
+      "34054812",
+      "41438490",
+      "39967665",
+      "40898459",
+      "33158812",
+      "40777025",
+      "34708125",
+      "39110142",
+      "40926327",
+      "24293408",
+      "34007851",
+      "33196828",
+      "37807645",
+      "34157484",
+      "33769705",
+      "35294647",
+      "35239432",
+      "38587603",
+      "36811690",
+      "40293675",
+      "40677704",
+      "37434394",
+      "39401475",
+      "39015755",
+      "40926266",
+      "39405927"
+    ],
+    "review": [
+      "40406134",
+      "38041544",
+      "34177954",
+      "36389725"
+    ],
+    "pmc": [
+      "12096169"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40406134/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1541491",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

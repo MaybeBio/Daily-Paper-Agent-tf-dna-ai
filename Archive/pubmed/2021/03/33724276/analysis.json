@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33724276",
+  "title": "Reinforcement learning to boost molecular docking upon protein conformational ensemble.",
+  "authors": "Chong, Bin; Yang, Yingguang; Wang, Zi-Le; Xing, Han; Liu, Zhirong",
+  "journal": "Physical chemistry chemical physics : PCCP",
+  "published_date": "2021-03-17",
+  "window": {
+    "start": "2021-03-15",
+    "end": "2021-03-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用强化学习优化针对无序蛋白构象集合的分子对接虚拟筛选，以转录因子c-Myc为例，虽聚焦蛋白-配体而非TF-DNA互作，但对接与构象集合方法可迁移至TF-DNA结合建模。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are widely involved in human diseases and thus are attractive therapeutic targets. In practice, however, it is computationally prohibitive to dock large ligand libraries to thousands and tens of thousands of conformations. Here, we propose a reversible upper confidence bound (UCB) algorithm for the virtual screening of IDPs to address the influence of the conformation ensemble. The docking process is dynamically arranged so that attempts are focused near the boundary to separate top ligands from the bulk accurately. It is demonstrated in the example of transcription factor c-Myc that the average docking number per ligand can be greatly reduced while the performance is merely slightly affected. This study suggests that reinforcement learning is highly efficient in solving the bottleneck of virtual screening due to the conformation ensemble in the rational drug design of IDPs.",
+  "abstract_zh": "固有无序蛋白（IDPs）广泛参与人类疾病，因此成为有吸引力的治疗靶点。然而，在实践中，将大型配体库对接至数千乃至数万个构象在计算上是不可行的。在此，我们提出一种可逆的上置信界（UCB）算法，用于IDPs的虚拟筛选，以应对构象集合的影响。对接过程被动态安排，使得尝试集中在边界附近，以准确区分顶部配体与其余配体。在转录因子c-Myc的实例中证明，每个配体的平均对接次数可大幅减少，而性能仅受到轻微影响。本研究提示，强化学习在解决因IDPs合理药物设计中构象集合导致的虚拟筛选瓶颈方面具有高效性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33724276/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33724276/",
+  "paper_page_path": "papers/pubmed/33724276/index.html"
+}

@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Materials and methods, Results, Discussion, Conclusion) as provided by the user, without access to figures, supplementary material, or raw data files.
+- **Assessment boundary** The review is limited to the content of the supplied text. Claims regarding experimental results, statistical analyses, and clinical findings are assessed based on the descriptions provided, not on verification of primary data.
+- **Shared manuscript claim summary** The authors report the identification of a novel FOXC1 missense variant (c.382C>T, p.His128Tyr) in a Chinese family with Axenfeld-Rieger syndrome type 3. They combine whole-exome sequencing, Sanger validation, in silico pathogenicity prediction, 3D structural modelling, and molecular dynamics simulations, alongside in vitro transfection experiments in HEK293T cells, to propose that the variant reduces FOXC1 protein expression and alters protein conformation, potentially contributing to ARS pathogenesis.
+- **Visible evidence base** The manuscript text includes descriptions of clinical findings (Fig. 1), Sanger sequencing validation and sequence alignment (Fig. 2), 3D modelling and MD simulation results (Fig. 3), immunofluorescence localization (Fig. 4), and western blot quantification (Fig. 5). Statistical details for the western blot comparison are reported (n=4, p<0.05, Mann-Whitney test).
+- **Missing materials affecting confidence** Figures and supplementary material were not accessible to the reviewer. Raw sequencing data, MD simulation trajectories, full western blot images, and detailed statistical outputs were not available for independent verification. The methods section lacks specific details on MD simulation parameters, analysis software versions, and statistical test assumptions.
+
+## Reviewer
+- **Overall assessment** This manuscript reports a novel FOXC1 missense variant in a small Chinese ARS family and provides preliminary functional evidence suggesting reduced protein expression and altered conformation. The clinical phenotyping is adequate, and the genetic finding is potentially useful for expanding the FOXC1 mutation spectrum. However, the functional evidence is limited in scope and depth. The study relies heavily on in silico predictions and a single cell-based expression assay, without direct assessment of DNA binding, transcriptional activity, or protein stability. The mechanistic link between the observed conformational changes and reduced expression is speculative. The manuscript is technically sound in its basic execution but does not yet establish a robust causal relationship between the variant and ARS pathogenesis. The writing is generally clear, though some sections lack methodological detail.
+- **Who would be interested in the results, and why** Clinicians and geneticists specializing in inherited eye disorders, particularly those managing Axenfeld-Rieger syndrome, would find the novel variant useful for diagnostic panels and genetic counselling. Researchers studying FOXC1 structure-function relationships and the molecular basis of anterior segment dysgenesis may also be interested in the conformational and expression data. The study may have limited appeal to a broader developmental biology audience given the preliminary nature of the functional work.
+- **Major strengths** The identification of a previously unreported FOXC1 variant in a clinically well-characterized family is a clear strength. The use of multiple in silico prediction tools and evolutionary conservation analysis strengthens the argument for pathogenicity. The combination of structural modelling with MD simulations and in vitro expression assays represents a reasonable initial approach. The clinical data are presented with appropriate detail, including ocular and systemic findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation
+  - **Claim pointer** The authors claim that the H128Y variant "may lead to the establishment of extra hydrogen bonds, resulting in a change in the protein's conformation" and that this "potentially contributing to the pathogenesis of ARS."
+  - **Evidence pointer** Results section, Fig. 3 and Fig. 5; Discussion section
+  - **Concern** The functional evidence is insufficient to support the claim that the variant contributes to ARS pathogenesis. The study demonstrates reduced protein expression in a heterologous overexpression system, but does not assess DNA binding affinity, transcriptional activation capacity, or protein stability (e.g., cycloheximide chase assays). The MD simulation data are descriptive and not linked to any functional readout. The connection between increased hydrogen bonding, altered conformation, and reduced expression is speculative and not experimentally tested. Without direct functional assays, the pathogenic mechanism remains unproven.
+  - **Why it matters** The central claim of the manuscript is that this variant is pathogenic and acts through reduced functional FOXC1 levels. If the functional evidence is not robust, the clinical utility of the variant for genetic counselling and diagnosis is weakened. The field requires clear genotype-phenotype correlations supported by mechanistic data.
+  - **Resolution test** The authors should perform additional experiments, such as electrophoretic mobility shift assays or luciferase reporter assays to assess DNA binding and transcriptional activity, and protein stability assays to determine whether reduced expression is due to degradation or reduced synthesis. If these experiments are not feasible, the claims should be tempered to reflect the preliminary nature of the evidence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Genetic evidence
+  - **Claim pointer** The authors state that the variant was "classified as having uncertain significance" according to ACMG criteria, yet the manuscript title and abstract imply a pathogenic role.
+  - **Evidence pointer** Results section, "Identification of FOXC1 mutations"; Discussion section
+  - **Concern** The ACMG classification of uncertain significance is acknowledged, but the manuscript does not provide segregation data beyond the two affected individuals in a single family. No information is provided on the frequency of the variant in larger control populations beyond the gnomAD threshold mentioned in the methods. The absence of functional data that could upgrade the ACMG classification is a significant gap. The manuscript does not discuss whether the variant meets any ACMG criteria beyond PM2 (absent from controls) or PP3 (in silico predictions).
+  - **Why it matters** For a novel variant to be clinically useful, its pathogenicity must be established with confidence. The current evidence is insufficient to move beyond uncertain significance, which limits the manuscript's contribution to genetic counselling.
+  - **Resolution test** The authors should provide a detailed ACMG scoring table, including population frequency data, segregation analysis if additional family members are available, and any additional functional evidence that could support a higher classification. If not possible, the manuscript should clearly state the limitations of the genetic evidence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The methods describe MD simulations and structural modelling, but the details are insufficient for reproducibility.
+  - **Evidence pointer** Materials and methods, "Multiple-sequence alignment, molecular modelling, and molecular dynamics simulations"
+  - **Concern** The description of the MD simulation is incomplete. Key parameters such as the force field version, water box dimensions, ion concentration, equilibration protocol, and the number of replicate simulations are not specified. The choice of the AMBER99SB force field and TIP3P water model is stated, but the rationale for these choices and the validation of the simulation (e.g., convergence checks) are absent. The structural model is based on AlphaFold predictions, but the confidence of the prediction in the region of the mutation is not discussed.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without full methodological details, other researchers cannot replicate or build upon the simulation results. The interpretation of the MD data depends critically on the quality and convergence of the simulations.
+  - **Resolution test** The authors should provide a complete description of the simulation setup, including all parameters, the number of replicates, and convergence criteria. They should also discuss the confidence of the AlphaFold model in the mutated region and consider whether the observed conformational changes are robust across multiple simulations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Western blot quantification
+  - **Evidence pointer** Results section, Fig. 5
+  - **Issue** The statistical test used for the western blot comparison is stated as the Mann-Whitney test, but the exact p-value is not reported, only "p<0.05". Additionally, the number of independent experiments is stated as n=4, but it is unclear whether this refers to biological or technical replicates.
+  - **Required correction** Report the exact p-value and clarify whether the replicates are biological or technical. Consider presenting individual data points in the bar chart.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clinical phenotyping
+  - **Affected element** Family description
+  - **Evidence pointer** Results section, "Clinical findings"
+  - **Issue** The clinical description of the affected individuals is brief. While ocular findings are described, no information is provided on visual acuity values, intraocular pressure measurements, or the results of gonioscopy in detail. The absence of systemic findings is noted, but the examination scope is not specified.
+  - **Required correction** Provide more detailed clinical data, including specific examination results, to strengthen the phenotype description.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of previously reported FOXC1 mutations is limited. The authors mention a few specific mutations (I87M, I126M, S131L, I126S, H128R) but do not systematically compare the functional consequences of these variants with the current H128Y findings.
+  - **Required correction** Expand the discussion to include a more comprehensive comparison of known FOXC1 missense mutations in the same region, highlighting similarities and differences in functional outcomes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction contain some redundant phrasing and could be more concise. For example, the statement "Further investigation is essential to assess how FOXC1 missense variants influence molecular structure and protein functionality" is somewhat generic.
+  - **Required correction** Revise for conciseness and clarity, focusing on the specific gap this study addresses.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of direct functional assays linking the variant to impaired FOXC1 function. The reduced expression observed in western blot is suggestive but not conclusive, as it could be an artifact of overexpression. The MD simulation results are not validated experimentally. The genetic evidence is limited to a single family with no segregation analysis beyond two affected individuals. These gaps collectively prevent the manuscript from establishing a definitive pathogenic mechanism.
+- **Assessment against Nature-style criteria** Originality: The identification of a novel variant is incremental but adds to the known mutation spectrum. The combination of structural modelling and expression analysis is not particularly novel. Scientific importance: The findings are of moderate importance to the ARS genetics community but do not fundamentally advance understanding of FOXC1 biology or ARS pathogenesis. Interdisciplinary readership: The manuscript is likely to appeal primarily to clinical geneticists and ophthalmology researchers, with limited broader appeal. Technical soundness: The basic experimental approaches are sound, but the depth of functional validation is insufficient for a high-impact journal. Readability for nonspecialists: The manuscript is generally readable, but some sections, particularly the MD simulation description, assume specialist knowledge. Overall, the manuscript does not meet the threshold for Nature-level impact but may be suitable for a specialty journal.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a novel variant with preliminary functional data, but the lack of direct functional assays and limited genetic evidence prevent a definitive conclusion regarding pathogenicity. The authors should be encouraged to strengthen the functional work and provide a more comprehensive ACMG assessment. If these concerns are addressed, the manuscript could be suitable for publication in a specialty genetics or ophthalmology journal.
+
+## Risk / unsupported claims
+- The claim that the H128Y variant "may impact the DNA recognition capability of ɑ-helix 3, subsequently hindering the protein's ability to bind DNA and initiate transcription" is unsupported, as no DNA binding or transcriptional activity assays were performed.
+- The statement that "this mutation might increase the local volume of the protein, resulting in loose protein structures and reduced protein stability" is speculative and not directly tested.
+- The conclusion that "the changes in protein conformation and decreased production caused by this mutation suggest that the pathogenic mechanisms of ARS are mediated through reduced levels of functional FOXC1 protein" is not fully supported by the evidence presented.
+- The ACMG classification of uncertain significance is acknowledged, but the manuscript's framing implies a pathogenic role without sufficient evidence to upgrade the classification.
+- The clinical significance of the variant for genetic counselling is stated as a contribution, but the limited family size and lack of functional validation make this claim premature.

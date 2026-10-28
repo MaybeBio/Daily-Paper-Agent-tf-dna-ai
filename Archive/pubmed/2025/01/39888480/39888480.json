@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "39888480",
+    "doi": "10.1007/s12035-025-04717-8",
+    "title": "Machine Learning and Experiments Revealed Key Genes Related to PANoptosis Linked to Drug Prediction and Immune Landscape in Spinal Cord Injury."
+  },
+  "content": {
+    "abstract": "Spinal cord injury (SCI) is a severe central nervous system injury without effective therapies. PANoptosis is involved in the development of many diseases, including brain and spinal cord injuries. However, the biological functions and molecular mechanisms of PANoptosis-related genes in spinal cord injury remain unclear. In the bioinformatics analysis of public data of SCI, the differentially expressed genes (DEGs) identified by GSE151371 were hybridized with PANoptosis-related genes (PRGs) to obtain differentially expressed PANoptosis-related genes (DE-PRGs). Through three machine learning algorithms, we obtained the hub genes. Then, we constructed functional analysis, drug prediction, regulatory network construction, and immune infiltrating cell analysis. Finally, the expression of the hub gene was verified in GSE93561, GSE45376, and qRT-PCR analysis. Through the above analysis, 14 DE-PRGs were obtained by intersecting 3582 DEGs with 46 PRGs. Five key hub genes, CASP4, GSDMB, NAIP, NLRC4, and NLRP3, were obtained by 3 machine learning algorithms. All five hub genes were enriched in phagocytosis mediated by FC GAMMA R. The 11 immune cells were significantly different between spinal cord injury (SCI) group and human control (HC) group, such as mast cell and gamma delta T cell. The transcription factor (TF)-hub gene network contained 10-nodes (4 hub genes and 6 TFs) and 8-edges. The miRNA-hub gene network consisting of 5-nodes (3 hub genes and 2 miRNAs) and 3-edges was constructed. Moreover, the CASP4 predicted 1 small molecule drug and NLRP3 predicted 9 small molecule drugs. Finally, the expression of 5 hub genes were significantly different in GSE45376 and GSE93561 (SCI vs. HC) and mice SCI model (Sham vs. SCI). Collectively, we identified 5 hub genes (CASP4, GSDMB, NAIP, NLRC4, and NLRP3) associated with PANoptosis, providing potential directions for treating spinal cord injury.",
+    "keywords": [
+      "Drug prediction",
+      "Hub genes",
+      "Immune cell",
+      "PANoptosis",
+      "Spinal cord injury"
+    ],
+    "mesh_terms": [
+      "*Spinal Cord Injuries/genetics/immunology/drug therapy",
+      "*Machine Learning",
+      "Gene Regulatory Networks",
+      "Humans",
+      "Animals",
+      "Computational Biology/methods",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Bo",
+        "Li, Tao",
+        "Cai, Yibo",
+        "Cheng, Junyao",
+        "Zhang, Chuyue",
+        "Liu, Jianheng",
+        "Song, Keran",
+        "Wang, Zheng",
+        "Ji, Xinran"
+      ],
+      "short_names": [
+        "Li B",
+        "Li T",
+        "Cai Y",
+        "Cheng J",
+        "Zhang C",
+        "Liu J",
+        "Song K",
+        "Wang Z",
+        "Ji X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedics, The Fourth Medical Center, Chinese PLA General Hospital, Beijing, 100048, China.",
+        "Department of Neurosurgery, Jinling Hospital, Nanjing University, School of Medicine, Nanjing, 210093, China.",
+        "Department of Orthopedics, The Fourth Medical Center, Chinese PLA General Hospital, Beijing, 100048, China.",
+        "Department of Orthopedics, The Fourth Medical Center, Chinese PLA General Hospital, Beijing, 100048, China.",
+        "Department of Orthopedics, The Fourth Medical Center, Chinese PLA General Hospital, Beijing, 100048, China.",
+        "Department of Orthopedics, The Fourth Medical Center, Chinese PLA General Hospital, Beijing, 100048, China.",
+        "Department of Orthopedics, The Fourth Medical Center, Chinese PLA General Hospital, Beijing, 100048, China. song.ortho@163.com.",
+        "Department of Orthopedics, The Fourth Medical Center, Chinese PLA General Hospital, Beijing, 100048, China. wangzheng301@163.com.",
+        "Department of Orthopedics, The Fourth Medical Center, Chinese PLA General Hospital, Beijing, 100048, China. 18510622211@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Bo",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Fourth Medical Center, Chinese PLA General Hospital, Beijing, 100048, China."
+        ]
+      },
+      {
+        "full_name": "Li, Tao",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Jinling Hospital, Nanjing University, School of Medicine, Nanjing, 210093, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Yibo",
+        "short_name": "Cai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Fourth Medical Center, Chinese PLA General Hospital, Beijing, 100048, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Junyao",
+        "short_name": "Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Fourth Medical Center, Chinese PLA General Hospital, Beijing, 100048, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chuyue",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Fourth Medical Center, Chinese PLA General Hospital, Beijing, 100048, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jianheng",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Fourth Medical Center, Chinese PLA General Hospital, Beijing, 100048, China."
+        ]
+      },
+      {
+        "full_name": "Song, Keran",
+        "short_name": "Song K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Fourth Medical Center, Chinese PLA General Hospital, Beijing, 100048, China. song.ortho@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Zheng",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Fourth Medical Center, Chinese PLA General Hospital, Beijing, 100048, China. wangzheng301@163.com."
+        ]
+      },
+      {
+        "full_name": "Ji, Xinran",
+        "short_name": "Ji X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Fourth Medical Center, Chinese PLA General Hospital, Beijing, 100048, China. 18510622211@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular neurobiology"
+    ],
+    "journal_abbrev": [
+      "Mol Neurobiol"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/31 12:24",
+    "fetched_at": "2026-09-30 10:35:31"
+  },
+  "links": {
+    "cites": [
+      "42289170",
+      "41993192",
+      "41958677",
+      "41798924",
+      "41760790"
+    ],
+    "refs": [
+      "38374299",
+      "37802626",
+      "37786299",
+      "37752580",
+      "37740102",
+      "37698762",
+      "37401061",
+      "37116198",
+      "37018234",
+      "36960399",
+      "36960398",
+      "36948192",
+      "36874021",
+      "36828874",
+      "36707416",
+      "36685599",
+      "36532016",
+      "36186438",
+      "36170987",
+      "35990672",
+      "35938015",
+      "35900427",
+      "35833143",
+      "35796899",
+      "35706450",
+      "35637927",
+      "35017436",
+      "34686350",
+      "34632363",
+      "34429144",
+      "34059091",
+      "34016786",
+      "33506613",
+      "32908889",
+      "32829024",
+      "32680511",
+      "32582562",
+      "32554929",
+      "32547960",
+      "31850239",
+      "31748744",
+      "31690840",
+      "30026524",
+      "29920043",
+      "29311650",
+      "29070054",
+      "28373871",
+      "27174943",
+      "14695155",
+      "11907276"
+    ],
+    "similar": [
+      "39888480",
+      "38890348",
+      "38778086",
+      "36686379",
+      "39697326",
+      "39367463",
+      "39150631",
+      "39512836",
+      "39929099",
+      "26497545",
+      "33149108",
+      "39814753",
+      "38587531",
+      "39986196",
+      "38800594",
+      "36047918",
+      "39466748",
+      "37273650",
+      "38650155",
+      "37515671",
+      "39814871",
+      "31669638",
+      "38509743",
+      "38519735",
+      "39393431",
+      "37170986",
+      "38701259",
+      "36030234",
+      "40319145",
+      "38062833",
+      "35802304",
+      "39623003",
+      "40216809",
+      "26503224",
+      "37727371",
+      "36841940",
+      "38375420",
+      "39496786",
+      "37775760",
+      "32621925",
+      "38032706",
+      "37947073",
+      "32406040",
+      "37740761",
+      "37990533",
+      "26641843",
+      "39074415",
+      "39838688",
+      "39974584",
+      "37861483",
+      "38504116",
+      "38314301",
+      "40196107",
+      "39568189",
+      "40091022",
+      "36414158",
+      "33484404",
+      "38562657",
+      "37316756",
+      "38549107",
+      "38862258",
+      "39650656",
+      "36842142",
+      "39799354",
+      "38707272",
+      "39051056",
+      "37632659",
+      "30747207",
+      "39217701",
+      "38742112",
+      "36049413",
+      "28260076",
+      "36742334",
+      "38206470",
+      "36714328",
+      "24595446",
+      "40274894",
+      "40350654",
+      "31726970",
+      "40258965",
+      "37507810",
+      "38319987",
+      "39556889",
+      "40337173",
+      "39139563",
+      "37386410",
+      "28851482",
+      "29693160",
+      "39951434",
+      "39744560",
+      "39291396",
+      "37726826",
+      "30816457",
+      "28731189",
+      "25936407",
+      "32468009",
+      "35757392",
+      "40270490",
+      "39281413",
+      "40370665"
+    ],
+    "review": [
+      "39888480"
+    ],
+    "pmc": [
+      "12078448"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/spinalcordinjuries.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Spinal Cord Injuries"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39888480/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12035-025-04717-8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

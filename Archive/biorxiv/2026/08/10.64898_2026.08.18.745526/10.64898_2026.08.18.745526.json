@@ -1,0 +1,511 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.08.18.745526",
+  "title": "Mechanistic Dissection of Entropic Penalty upon Ligand Binding and Molecular Flexibility via Molecular Dynamics Simulations and Machine Learning",
+  "doi": "10.64898/2026.08.18.745526",
+  "abstract": "Molecular flexibility governs how molecules behave, reorganize, and respond to their environment. Although experiments measure molar entropy for small molecules and molecular dynamics (MD) simulations capture molecular motions, quantifying configuration entropy and the concerted internal motions such as torsion rotations, angle bending, and their couplings are central to understanding thermodynamic behavior but remains challenging. To dissect these contributions, we used MD trajectories and developed an internal-coordinate PC-entropy (iPC-entropy) method to probe the origins of entropy and reveal how specific motions shape the thermodynamic landscape. The studies accurately captured molar entropy, identified key torsional motions as major contributors, and uncovered a critical angle–torsion coupling in which angle bending was strongly correlated with torsional rotation, a coupling that increases nonlinearly with molecular size. Evaluating entropic changes upon protein–ligand binding reveals that dominant entropic penalty arises from ligand dihedral rigidification rather than protein reorganization and highlights the specific dihedral rotations that become restricted. We also suggest systematic corrections for approaches considering solely rotamers to reliably reproduce the relative entropic penalty in computer-aided drug discovery. Together, our findings elucidate the molecular origins of entropy and entropy changes. In addition, we can quantify and illustrate the internal motions that strongly shape binding thermodynamics, thereby offering mechanistic insights to guide drug development.",
+  "authors": [
+    "Ta I Hung",
+    "Emily Vig",
+    "Chia-en Chang"
+  ],
+  "published_date": "2026-08-20",
+  "updated_date": "2026-08-20T18:50:23Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745526",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745526.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            22
+          ]
+        ],
+        "date-time": "2026-08-22T16:24:10Z",
+        "timestamp": 1787415850288,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            20
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 46,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                20
+              ]
+            ],
+            "date-time": "2026-08-20T00:00:00Z",
+            "timestamp": 1787184000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100015326",
+          "name": "NIH Common Fund",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "R01GM-109045"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01GM-109045"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100015326",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100015326",
+          "name": "NIH Common Fund",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "R35GM-164210"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35GM-164210"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100015326",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000001",
+          "name": "U.S. National Science Foundation",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "MCB-2437134"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "MCB-2437134"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000001",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Molecular flexibility governs how molecules behave, reorganize, and respond to their environment. Although experiments measure molar entropy for small molecules and molecular dynamics (MD) simulations capture molecular motions, quantifying configuration entropy and the concerted internal motions such as torsion rotations, angle bending, and their couplings are central to understanding thermodynamic behavior but remains challenging. To dissect these contributions, we used MD trajectories and developed an internal-coordinate PC-entropy (iPC-entropy) method to probe the origins of entropy and reveal how specific motions shape the thermodynamic landscape. The studies accurately captured molar entropy, identified key torsional motions as major contributors, and uncovered a critical angle–torsion coupling in which angle bending was strongly correlated with torsional rotation, a coupling that increases nonlinearly with molecular size. Evaluating entropic changes upon protein–ligand binding reveals that dominant entropic penalty arises from ligand dihedral rigidification rather than protein reorganization and highlights the specific dihedral rotations that become restricted. We also suggest systematic corrections for approaches considering solely rotamers to reliably reproduce the relative entropic penalty in computer-aided drug discovery. Together, our findings elucidate the molecular origins of entropy and entropy changes. In addition, we can quantify and illustrate the internal motions that strongly shape binding thermodynamics, thereby offering mechanistic insights to guide drug development.</jats:p>",
+      "DOI": "10.64898/2026.08.18.745526",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            20
+          ]
+        ],
+        "date-time": "2026-08-20T18:50:23Z",
+        "timestamp": 1787251823000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Mechanistic Dissection of Entropic Penalty upon Ligand Binding and Molecular Flexibility via Molecular Dynamics Simulations and Machine Learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0008-9702-3829",
+          "authenticated-orcid": false,
+          "given": "Ta I",
+          "family": "Hung",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry, University of California, Riverside, CA92521"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emily",
+          "family": "Vig",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry, University of California, Riverside, CA92521"
+            },
+            {
+              "name": "Department of Biochemistry, University of California, Riverside, CA92521"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chia-en",
+          "family": "Chang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry, University of California, Riverside, CA92521"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.1",
+          "unstructured": "Leach, A. R. . Molecular Modelling : Principles and Applications; Prentice Hall, 2001."
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4324/9780203809075"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0610494104"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0959-440X(97)80028-0"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1221529110"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.macromol.0c02740"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevB.72.014119"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/pharmaceutics2020224"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/je60034a014"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10858-020-00335-9"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr030403s"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cbic.200500010"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biophys-060414-034042"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp506609g"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ma50003a019"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ma00137a013"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct0500904"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.63.1195"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0800452105"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20589"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct050118b"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.0c01213"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct100245n"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.4c00407"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.2746330"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.6b01204"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1730670"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.28",
+          "unstructured": "P.J. Linstrom and W.G. Mallard , Eds. NIST Chemistry WebBook, NIST Standard Reference Database Number 69. National Institute of Standards and Technology."
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.29",
+          "unstructured": "Case Ross C Walker UC San Diego, D. A. ; Thomas Cheatham, A. E. Amber 2022 Reference Manual Principal Contributors to the Current Codes. https://ambermd.org/contributors.html."
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.10128"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/5.0019056"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.445869"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.470117"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bip.360320508"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.35",
+          "unstructured": "Chase, M. NIST-JANAF Thermochemical Tables, 4th Edition; American Institute of Physics, −1, 1998."
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae1059"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0006-3495(97)78756-3"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/je60034a014"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja01213a006"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/j100821a026"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja01631a005"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja01371a033"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja01859a028"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja01382a003"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi0350405"
+        },
+        {
+          "key": "2026082209000735000_2026.08.18.745526v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi001013s"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.08.18.745526",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            22
+          ]
+        ],
+        "date-time": "2026-08-22T16:00:14Z",
+        "timestamp": 1787414414000
+      },
+      "score": 95.8974,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.08.18.745526"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            20
+          ]
+        ]
+      },
+      "references-count": 46,
+      "URL": "https://doi.org/10.64898/2026.08.18.745526",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36948405",
+  "title": "Identification of key genes for IgA nephropathy based on machine learning algorithm and correlation analysis of immune cells.",
+  "authors": "Chen, Suzhi; Li, Yongzhang; Wang, Guangjian; Song, Lei; Tan, Jinchuan; Yang, Fengwen",
+  "journal": "Transplant immunology",
+  "published_date": "2023-03-23",
+  "window": {
+    "start": "2023-03-20",
+    "end": "2023-03-26"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习筛选IgA肾病关键基因并分析免疫浸润，虽涉及转录因子ATF3/FOSB，但核心是疾病诊断标志物而非蛋白质-DNA互作建模，方法无AI/物理模拟的互作机制研究。",
+  "abstract": "INTRODUCTION: The pathogenesis and progression mechanism of Immunoglobulin A nephropathy (IgAN) is not fully understood. There is a lack of panoramic analysis of IgAN immune cell infiltration and algorithms that are more efficient and accurate for screening key pathogenic genes. METHODS: RNA sequencing (RNA-seq) data sets on IgAN were downloaded from the Gene Expression Omnibus (GEO) database, including GSE93798, GSE35489, and GSE115857. The RNA-seq data set of kidney tissue as control samples were downloaded from the Genotype-Tissue Expression (GTEx) database. Three machine learning algorithms-weighted gene co-expression network analysis (WGCNA), least absolute shrinkage and selection operator (LASSO), and support vector machine-were used to identify the key pathogenic gene sets of the IgAN disease. The ssGSEA method was applied to calculate the immune cell infiltration (ICI) of IgAN samples, whereas the Spearman test was used for correlation analysis. The receiver operator characteristic curve (ROC) was used to evaluate the diagnostic efficacy of key genes. The correlation between the key genes and ICI was analyzed using the Spearman test. RESULTS: A total of 177 genes were screened out as differentially expressed genes (DEGs) for IgAN, including 135 up-regulated genes and 42 down-regulated genes. The DEGs were significantly enriched in the inflammatory- or immune-related pathways (gene sets). Activating transcription factor 3 (AFT3), C-X-C Motif Chemokine Ligand 6 (CXCL6), and v-fos FBJ murine osteosarcoma viral oncogene homolog B (FOSB) were identified using WGCNA, support vector machine, and LASSO algorithms. These three genes revealed good diagnostic efficacy in the training and test cohorts. The CXCL6 expression positively correlated with activated B cells and memory B cells. CONCLUSION: ATF3, FOSB, and CXCL6 genes were identified as potential biomarkers of IgAN. These three genes exhibited good diagnostic efficacy for IgAN. We described the landscape of immune cell infiltration for IgAN. Activated B cells and memory B cells were more highly expressed in the IgAN samples than in the control samples. CXCL6 seems crucial to the pathogenesis of IgAN and may induce IgAN by enriching immune cells. Our study may contribute to developing CXCL6 inhibitors that target B cells for IgAN therapy.",
+  "abstract_zh": "引言：免疫球蛋白A肾病（IgAN）的发病机制和进展机制尚未完全阐明。目前缺乏对IgAN免疫细胞浸润的全景分析，以及更高效、准确筛选关键致病基因的算法。方法：从基因表达综合（GEO）数据库下载IgAN的RNA测序（RNA-seq）数据集，包括GSE93798、GSE35489和GSE115857。从基因型-组织表达（GTEx）数据库下载作为对照样本的肾组织RNA-seq数据集。采用三种机器学习算法——加权基因共表达网络分析（WGCNA）、最小绝对收缩和选择算子（LASSO）以及支持向量机——来识别IgAN疾病的关键致病基因集。应用ssGSEA方法计算IgAN样本的免疫细胞浸润（ICI），并使用Spearman检验进行相关性分析。采用受试者工作特征曲线（ROC）评估关键基因的诊断效能。使用Spearman检验分析关键基因与ICI之间的相关性。结果：共筛选出177个IgAN差异表达基因（DEGs），包括135个上调基因和42个下调基因。DEGs显著富集于炎症或免疫相关通路（基因集）。通过WGCNA、支持向量机和LASSO算法识别出激活转录因子3（ATF3）、C-X-C基序趋化因子配体6（CXCL6）和v-fos FBJ鼠骨肉瘤病毒癌基因同源物B（FOSB）。这三个基因在训练队列和测试队列中均显示出良好的诊断效能。CXCL6表达与活化B细胞和记忆B细胞呈正相关。结论：ATF3、FOSB和CXCL6基因被确定为IgAN的潜在生物标志物。这三个基因对IgAN表现出良好的诊断效能。我们描述了IgAN的免疫细胞浸润景观。与对照样本相比，IgAN样本中活化B细胞和记忆B细胞的表达更高。CXCL6似乎对IgAN的发病机制至关重要，并可能通过富集免疫细胞诱导IgAN。我们的研究可能有助于开发靶向B细胞的CXCL6抑制剂用于IgAN治疗。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36948405/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36948405/",
+  "paper_page_path": "papers/pubmed/36948405/index.html"
+}

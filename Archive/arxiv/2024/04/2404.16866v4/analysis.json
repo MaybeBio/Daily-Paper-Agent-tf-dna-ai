@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2404.16866v4",
+  "title": "Annotation-guided Protein Design with Multi-Level Domain Alignment",
+  "authors": "Chaohao Yuan; Songyou Li; Geyan Ye; Yikun Zhang; Long-Kai Huang; Wenbing Huang; Wei Liu; Jianhua Yao; Yu Rong",
+  "journal": "",
+  "published_date": "2024-04-18",
+  "window": {
+    "start": "2024-04-15",
+    "end": "2024-04-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出基于文本注释与多级域对齐的蛋白质设计框架PAAG，虽涉及蛋白质生成与功能注释，但核心是蛋白质序列设计而非蛋白质-DNA互作，且未涉及TF-DNA结合或互作建模，仅方法上可部分借鉴。",
+  "abstract": "The core challenge of de novo protein design lies in creating proteins with specific functions or properties, guided by certain conditions. Current models explore to generate protein using structural and evolutionary guidance, which only provide indirect conditions concerning functions and properties. However, textual annotations of proteins, especially the annotations for protein domains, which directly describe the protein's high-level functionalities, properties, and their correlation with target amino acid sequences, remain unexplored in the context of protein design tasks. In this paper, we propose Protein-Annotation Alignment Generation, PAAG, a multi-modality protein design framework that integrates the textual annotations extracted from protein database for controllable generation in sequence space. Specifically, within a multi-level alignment module, PAAG can explicitly generate proteins containing specific domains conditioned on the corresponding domain annotations, and can even design novel proteins with flexible combinations of different kinds of annotations. Our experimental results underscore the superiority of the aligned protein representations from PAAG over 7 prediction tasks. Furthermore, PAAG demonstrates a significant increase in generation success rate (24.7% vs 4.7% in zinc finger, and 54.3% vs 22.0% in the immunoglobulin domain) in comparison to the existing model. We anticipate that PAAG will broaden the horizons of protein design by leveraging the knowledge from between textual annotation and proteins.",
+  "abstract_zh": "从头设计蛋白质的核心挑战在于在特定条件的引导下，创造出具有特定功能或性质的蛋白质。现有模型探索利用结构和进化引导来生成蛋白质，这些仅提供关于功能和性质的间接条件。然而，蛋白质的文本注释，尤其是蛋白质结构域的注释，直接描述了蛋白质的高级功能、性质及其与目标氨基酸序列的关联，在蛋白质设计任务中尚未被探索。在本文中，我们提出蛋白质-注释对齐生成（Protein-Annotation Alignment Generation, PAAG），一种多模态蛋白质设计框架，该框架整合从蛋白质数据库中提取的文本注释，以在序列空间中进行可控生成。具体而言，在多层级对齐模块内，PAAG能够基于相应的结构域注释显式生成包含特定结构域的蛋白质，甚至能够设计具有不同种类注释灵活组合的新型蛋白质。我们的实验结果强调了PAAG对齐蛋白质表示在7项预测任务中的优越性。此外，与现有模型相比，PAAG在生成成功率上显著提升（锌指结构域中为24.7%对比4.7%，免疫球蛋白结构域中为54.3%对比22.0%）。我们预期PAAG将通过利用文本注释与蛋白质之间的知识，拓宽蛋白质设计的视野。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2404.16866v4",
+  "source_url": "https://arxiv.org/abs/2404.16866v4",
+  "paper_page_path": "papers/arxiv/2404.16866v4/index.html"
+}

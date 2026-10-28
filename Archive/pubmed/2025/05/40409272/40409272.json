@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "40409272",
+    "doi": "10.1016/j.xgen.2025.100886",
+    "title": "CellWalker2: Multi-omic discovery using hierarchical cell type relationships."
+  },
+  "content": {
+    "abstract": "Tissues are composed of cells with a wide range of similarities to each other, yet existing methods for single-cell genomics treat cell types as discrete labels. To address this gap, we developed CellWalker2, a graph diffusion-based model for the annotation and mapping of multi-modal data. With our open-source software package, hierarchically related cell types can be probabilistically matched across contexts and used to annotate cells, genomic regions, or gene sets. Additional features include estimating statistical significance and enabling gene expression and chromatin accessibility to be jointly modeled. Through simulation studies, we show that CellWalker2 performs better than existing methods in cell-type annotation and mapping. We then use multi-omics data from the brain and immune system to demonstrate CellWalker2's ability to assign high-resolution cell-type labels to regulatory elements and TFs and to quantify both conserved and divergent cell-type relationships between species.",
+    "keywords": [
+      "cell type",
+      "comparative genomics",
+      "gene regulation",
+      "graph",
+      "hierarchical",
+      "multi-omics",
+      "single cell",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Software",
+      "*Genomics/methods",
+      "*Single-Cell Analysis/methods",
+      "Brain/metabolism/cytology",
+      "Animals",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Zhirui",
+        "Przytycki, Pawel F",
+        "Pollard, Katherine S"
+      ],
+      "short_names": [
+        "Hu Z",
+        "Przytycki PF",
+        "Pollard KS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Gladstone Institute of Data Science & Biotechnology, 1650 Owens Street, San Francisco, CA 94158, USA.",
+        "Gladstone Institute of Data Science & Biotechnology, 1650 Owens Street, San Francisco, CA 94158, USA; Faculty of Computing & Data Sciences, Boston University, 665 Commonwealth Avenue, Boston, MA 02215, USA.",
+        "Gladstone Institute of Data Science & Biotechnology, 1650 Owens Street, San Francisco, CA 94158, USA; Department of Epidemiology & Biostatistics, University of California, San Francisco, 1650 Owens Street, San Francisco, CA 94158, USA; Chan Zuckerberg Biohub SF, 499 Illinois Street, San Francisco, CA 94158, USA. Electronic address: katherine.pollard@gladstone.ucsf.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Zhirui",
+        "short_name": "Hu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institute of Data Science & Biotechnology, 1650 Owens Street, San Francisco, CA 94158, USA."
+        ]
+      },
+      {
+        "full_name": "Przytycki, Pawel F",
+        "short_name": "Przytycki PF",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institute of Data Science & Biotechnology, 1650 Owens Street, San Francisco, CA 94158, USA; Faculty of Computing & Data Sciences, Boston University, 665 Commonwealth Avenue, Boston, MA 02215, USA."
+        ]
+      },
+      {
+        "full_name": "Pollard, Katherine S",
+        "short_name": "Pollard KS",
+        "identifiers": [],
+        "affiliations": [
+          "Gladstone Institute of Data Science & Biotechnology, 1650 Owens Street, San Francisco, CA 94158, USA; Department of Epidemiology & Biostatistics, University of California, San Francisco, 1650 Owens Street, San Francisco, CA 94158, USA; Chan Zuckerberg Biohub SF, 499 Illinois Street, San Francisco, CA 94158, USA. Electronic address: katherine.pollard@gladstone.ucsf.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell genomics"
+    ],
+    "journal_abbrev": [
+      "Cell Genom"
+    ],
+    "pub_date": "2025 Jul 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/24 00:45",
+    "fetched_at": "2026-10-05 03:51:35"
+  },
+  "links": {
+    "cites": [
+      "41348545",
+      "41000685"
+    ],
+    "refs": [
+      "39821189",
+      "39587678",
+      "38781368",
+      "38134877",
+      "37502708",
+      "37443338",
+      "37248389",
+      "37231261",
+      "37002403",
+      "36204155",
+      "36198796",
+      "36068320",
+      "35863348",
+      "35549406",
+      "35501393",
+      "35274675",
+      "35027767",
+      "34937051",
+      "34751401",
+      "34725479",
+      "34616062",
+      "34462589",
+      "34390642",
+      "34272603",
+      "34062119",
+      "33657410",
+      "33637727",
+      "33633365",
+      "33583425",
+      "33491336",
+      "33077966",
+      "33046898",
+      "32610082",
+      "31822965",
+      "31701148",
+      "31303374",
+      "30962623",
+      "30089906",
+      "29695788",
+      "29217575",
+      "29163035",
+      "28899397",
+      "28825706",
+      "28082864",
+      "27779093",
+      "24599748",
+      "20615956",
+      "20506244",
+      "18292776",
+      "17678855",
+      "17330889",
+      "15345222",
+      "11239428"
+    ],
+    "similar": [
+      "40409272",
+      "38798605",
+      "39888834",
+      "39494524",
+      "38940155",
+      "39376034",
+      "39567490",
+      "41029754",
+      "39075536",
+      "38092913",
+      "40471991",
+      "41029411",
+      "34158507",
+      "40723810",
+      "41437217",
+      "40825083",
+      "41335468",
+      "41348545",
+      "39558175",
+      "33999180",
+      "35016614",
+      "41067887",
+      "40633682",
+      "39833103",
+      "39587678",
+      "40345198",
+      "39893194",
+      "39548591",
+      "40538029",
+      "41183107",
+      "41046136",
+      "41325188",
+      "40737125",
+      "36693837",
+      "38678389",
+      "40279264",
+      "40247122",
+      "39904740",
+      "32929225",
+      "24069388",
+      "33633365",
+      "39322753",
+      "40694853",
+      "40856525",
+      "40114052",
+      "39680741",
+      "41002190",
+      "41093852",
+      "40141092",
+      "38729996",
+      "39498488",
+      "38426141",
+      "38709615",
+      "25677182",
+      "38091963",
+      "40692180",
+      "40116657",
+      "38547401",
+      "40632608",
+      "38653489",
+      "39843746",
+      "39380204",
+      "28797229",
+      "41120274",
+      "38483032",
+      "40210438",
+      "29915357",
+      "40205045",
+      "39293805",
+      "39965391",
+      "39073828",
+      "40031269",
+      "39794699",
+      "39095258",
+      "40675159",
+      "39326643",
+      "41394596",
+      "39351894",
+      "39742806",
+      "32929221",
+      "39693287",
+      "40889281",
+      "38012720",
+      "40401439",
+      "40037709",
+      "41124064",
+      "33827925",
+      "39177104",
+      "36533448",
+      "40068854",
+      "39126877",
+      "38754408",
+      "38647069",
+      "40083055",
+      "38460192",
+      "40211981",
+      "40155814",
+      "35622236",
+      "40608008",
+      "41236480"
+    ],
+    "review": [
+      "40409272",
+      "32929225",
+      "40141092",
+      "38729996",
+      "39095258",
+      "32929221",
+      "39126877"
+    ],
+    "pmc": [
+      "12278637"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-979X(25)00142-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40409272/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2666-979X(25)00142-9",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

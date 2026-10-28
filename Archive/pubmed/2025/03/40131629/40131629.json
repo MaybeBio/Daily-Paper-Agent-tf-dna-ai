@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "40131629",
+    "doi": "10.1007/s12010-025-05216-1",
+    "title": "Role and Validation of Lactylation-Related Gene Markers in Postmenopausal Osteoporosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteoporosis (OP) is a systemic bone disease characterized by bone loss, disrupted bone structure, and increased susceptibility to fractures. Postmenopausal osteoporosis (PMOP) refers to OP that occurs in women during the late postmenopausal period, with the main cause being a decrease in estrogen levels. Lactylation, as a glycation modification, may affect bone cell function in PMOP. However, its specific role in the development of PMOP remains unclear. METHODS: In this study, we collected single-cell RNA sequencing (scRNA-seq) data and transcriptome data of PMOP. The scRNA-seq data were processed using the \"Seurat\" package, including cell filtering, normalization, dimensionality reduction, and clustering. The cell types were annotated using the \"singleR\" package. Based on lactylation-related genes (LRGs), all cells were divided into high- and low-expression cell groups. Differences in signaling pathways, developmental trajectories, and transcription factor activity between the two cell groups were explored using the \"fgsea,\" \"monocle,\" and \"DoRothEA\" packages, respectively. Mendelian randomization (MR) analysis was performed to identify genes with significant differential expression between the two cell groups that are causally related to PMOP. The differentially expressed genes (DEGs) between the high- and low-expression cell groups were selected using the \"limma\" package, and the intersection with DEGs was taken. A diagnostic model for PMOP was constructed using multiple machine learning algorithms and their combinations based on the intersection genes. Immune infiltration analysis was performed on the transcriptome data using the ssGSEA algorithm. Finally, a column line plot model of PMOP was constructed based on diagnostic genes. RESULTS: After annotating the cell types in the scRNA-seq data, a total of 11 cell types were obtained, including neutrophils, tissue stem cells, monocyte, macrophage, erythroblast, myelocyte, Pre-B cell CD34-, BM, T cells, B cell, and Pro-B cell CD34 + . The high- and low-expression cell groups divided based on the expression levels of LRGs showed significant differences in signaling pathways, developmental trajectories, and transcription factor activity. The MR analysis identified RPS10 and RPL12 as risk factors causally related to PMOP. A diagnostic model for PMOP was constructed based on the transcriptome data and the intersection DEGs between the high- and low-expression cell groups. The model achieved AUCs of 0.961, 0.730, and 0.9 in the training set and two testing sets, respectively, indicating high predictive accuracy. Additionally, eight diagnostic genes, including S100A9, ARHGEF10, RPL30, ANGPT1, RPL18, LAMB1, RBMS3, and RPL27A, were identified. The column line plot model constructed based on these diagnostic genes also showed high AUCs and clinical utility. CONCLUSION: This study revealed the important role of LRGs in the development of PMOP. Genes causally related to PMOP and genes related to the diagnosis of PMOP were identified using multi-omics data, MR analysis, and machine learning algorithms. The findings of this study provide potential diagnostic biomarkers for PMOP.",
+    "keywords": [
+      "Lactylation-related genes",
+      "Machine learning",
+      "Mendelian randomization",
+      "Postmenopausal osteoporosis",
+      "Single-cell RNA sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Osteoporosis, Postmenopausal/genetics/metabolism",
+      "Genetic Markers",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fuzhu Tan",
+        "Cui, Xinmei",
+        "Ren, Shujun",
+        "Zhang, Yu"
+      ],
+      "short_names": [
+        "Fuzhu Tan",
+        "Cui X",
+        "Ren S",
+        "Zhang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedics, First Affiliated Hospital of Heilongjiang University of Chinese Medicine, Haerbin, 150000, China.",
+        "Department of Rheumatology, Fourth Affiliated Hospital of Heilongjiang University of Chinese Medicine, Haerbin, 150000, China.",
+        "Department of Orthopedics, First Affiliated Hospital of Heilongjiang University of Chinese Medicine, Haerbin, 150000, China. 18745736282@163.com.",
+        "Inner Mongolia Minzu University Second Clinical Medical School/Inner Mongolia Forestry General Hospital, Yakeshi, 022150, Inner Mongolia, China. 15947764417@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fuzhu Tan",
+        "short_name": "Fuzhu Tan",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Heilongjiang University of Chinese Medicine, Haerbin, 150000, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Xinmei",
+        "short_name": "Cui X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology, Fourth Affiliated Hospital of Heilongjiang University of Chinese Medicine, Haerbin, 150000, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Shujun",
+        "short_name": "Ren S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, First Affiliated Hospital of Heilongjiang University of Chinese Medicine, Haerbin, 150000, China. 18745736282@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yu",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Inner Mongolia Minzu University Second Clinical Medical School/Inner Mongolia Forestry General Hospital, Yakeshi, 022150, Inner Mongolia, China. 15947764417@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Applied biochemistry and biotechnology"
+    ],
+    "journal_abbrev": [
+      "Appl Biochem Biotechnol"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/25 18:28",
+    "fetched_at": "2026-09-30 14:27:10"
+  },
+  "links": {
+    "cites": [
+      "42643980",
+      "42629711",
+      "42294469",
+      "41827905",
+      "41684443"
+    ],
+    "refs": [
+      "38419085",
+      "38318076",
+      "37752768",
+      "37683138",
+      "37476411",
+      "37057624",
+      "36268709",
+      "36182918",
+      "36105394",
+      "36034452",
+      "35645540",
+      "35620387",
+      "35247103",
+      "35145098",
+      "34421899",
+      "34276675",
+      "33597522",
+      "32196568",
+      "32017184",
+      "31990039",
+      "31645732",
+      "31356686",
+      "31340985",
+      "30696576",
+      "30680001",
+      "30643263",
+      "30473428",
+      "30146742",
+      "30041240",
+      "29416685",
+      "28500828",
+      "27617241",
+      "26872365",
+      "25867923",
+      "24658644",
+      "24113837",
+      "23045156",
+      "16036090",
+      "12626582"
+    ],
+    "similar": [
+      "40131629",
+      "38652170",
+      "39328516",
+      "37683138",
+      "36967763",
+      "40791155",
+      "38728482",
+      "41504052",
+      "35757392",
+      "40515615",
+      "37465165",
+      "37935322",
+      "30569177",
+      "36105394",
+      "40760141",
+      "36105211",
+      "40927289",
+      "41158309",
+      "39263088",
+      "39990773",
+      "39384856",
+      "39238187",
+      "40404675",
+      "36641599",
+      "41246341",
+      "40914702",
+      "40868258",
+      "40154899",
+      "36318345",
+      "41139200",
+      "40679719",
+      "40713676",
+      "39619600",
+      "38873611",
+      "38658320",
+      "37496029",
+      "39351238",
+      "38226266",
+      "38767632",
+      "29568943",
+      "33423677",
+      "29742503",
+      "34799880",
+      "39364870",
+      "30809532",
+      "37856991",
+      "32065479",
+      "34271965",
+      "29138843",
+      "29855663",
+      "40504273",
+      "37605572",
+      "35749916",
+      "37057624",
+      "28420501",
+      "36973787",
+      "40362233",
+      "29158773",
+      "32484721",
+      "31732751",
+      "39949270",
+      "33631172",
+      "41137708",
+      "41191207",
+      "36451445",
+      "41138576",
+      "38538259",
+      "40530681",
+      "38824271",
+      "40890691",
+      "38179058",
+      "41310117",
+      "38023180",
+      "40877393",
+      "38817665",
+      "40642528",
+      "41200172",
+      "41031145",
+      "38039016",
+      "38650009",
+      "40861493",
+      "39716293",
+      "37077242",
+      "41080564",
+      "31423643",
+      "40355896",
+      "40640983",
+      "36439178",
+      "40189548",
+      "41357842",
+      "40642071",
+      "38765164",
+      "37752532",
+      "39212665",
+      "40742465",
+      "40350654",
+      "38142661",
+      "39938577",
+      "38824904",
+      "41219826"
+    ],
+    "review": [
+      "40131629"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12010-025-05216-1",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-434",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

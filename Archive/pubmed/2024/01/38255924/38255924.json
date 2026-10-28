@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "38255924",
+    "doi": "10.3390/ijms25020850",
+    "title": "Classification of MLH1 Missense VUS Using Protein Structure-Based Deep Learning-Ramachandran Plot-Molecular Dynamics Simulations Method."
+  },
+  "content": {
+    "abstract": "Pathogenic variation in DNA mismatch repair (MMR) gene MLH1 is associated with Lynch syndrome (LS), an autosomal dominant hereditary cancer. Of the 3798 MLH1 germline variants collected in the ClinVar database, 38.7% (1469) were missense variants, of which 81.6% (1199) were classified as Variants of Uncertain Significance (VUS) due to the lack of functional evidence. Further determination of the impact of VUS on MLH1 function is important for the VUS carriers to take preventive action. We recently developed a protein structure-based method named \"Deep Learning-Ramachandran Plot-Molecular Dynamics Simulation (DL-RP-MDS)\" to evaluate the deleteriousness of MLH1 missense VUS. The method extracts protein structural information by using the Ramachandran plot-molecular dynamics simulation (RP-MDS) method, then combines the variation data with an unsupervised learning model composed of auto-encoder and neural network classifier to identify the variants causing significant change in protein structure. In this report, we applied the method to classify 447 MLH1 missense VUS. We predicted 126/447 (28.2%) MLH1 missense VUS were deleterious. Our study demonstrates that DL-RP-MDS is able to classify the missense VUS based solely on their impact on protein structure.",
+    "keywords": [
+      "MLH1",
+      "Ramachandran plot",
+      "VUS",
+      "autoencoder",
+      "deep learning",
+      "molecular dynamics simulation",
+      "neural network"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colorectal Neoplasms, Hereditary Nonpolyposis/genetics",
+      "Databases, Factual",
+      "*Deep Learning",
+      "DNA Mismatch Repair",
+      "Molecular Dynamics Simulation",
+      "*MutL Protein Homolog 1/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tam, Benjamin",
+        "Qin, Zixin",
+        "Zhao, Bojin",
+        "Sinha, Siddharth",
+        "Lei, Chon Lok",
+        "Wang, San Ming"
+      ],
+      "short_names": [
+        "Tam B",
+        "Qin Z",
+        "Zhao B",
+        "Sinha S",
+        "Lei CL",
+        "Wang SM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8119-3996",
+        "ORCID: 0000-0003-3868-1967",
+        "ORCID: 0000-0003-0904-554X",
+        "ORCID: 0000-0002-2172-1320"
+      ],
+      "affiliations": [
+        "Ministry of Education Frontiers Science Center for Precision Oncology, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+        "Cancer Centre, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+        "Institute of Translational Medicine, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+        "Ministry of Education Frontiers Science Center for Precision Oncology, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+        "Cancer Centre, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+        "Institute of Translational Medicine, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+        "Ministry of Education Frontiers Science Center for Precision Oncology, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+        "Cancer Centre, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+        "Institute of Translational Medicine, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+        "Ministry of Education Frontiers Science Center for Precision Oncology, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+        "Cancer Centre, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+        "Institute of Translational Medicine, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+        "Ministry of Education Frontiers Science Center for Precision Oncology, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+        "Cancer Centre, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+        "Institute of Translational Medicine, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+        "Ministry of Education Frontiers Science Center for Precision Oncology, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+        "Cancer Centre, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+        "Institute of Translational Medicine, Faculty of Health Sciences, University of Macau, Macau SAR, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tam, Benjamin",
+        "short_name": "Tam B",
+        "identifiers": [
+          "0000-0002-8119-3996"
+        ],
+        "affiliations": [
+          "Ministry of Education Frontiers Science Center for Precision Oncology, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+          "Cancer Centre, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+          "Institute of Translational Medicine, Faculty of Health Sciences, University of Macau, Macau SAR, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Zixin",
+        "short_name": "Qin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Frontiers Science Center for Precision Oncology, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+          "Cancer Centre, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+          "Institute of Translational Medicine, Faculty of Health Sciences, University of Macau, Macau SAR, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Bojin",
+        "short_name": "Zhao B",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Frontiers Science Center for Precision Oncology, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+          "Cancer Centre, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+          "Institute of Translational Medicine, Faculty of Health Sciences, University of Macau, Macau SAR, China."
+        ]
+      },
+      {
+        "full_name": "Sinha, Siddharth",
+        "short_name": "Sinha S",
+        "identifiers": [
+          "0000-0003-3868-1967"
+        ],
+        "affiliations": [
+          "Ministry of Education Frontiers Science Center for Precision Oncology, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+          "Cancer Centre, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+          "Institute of Translational Medicine, Faculty of Health Sciences, University of Macau, Macau SAR, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Chon Lok",
+        "short_name": "Lei CL",
+        "identifiers": [
+          "0000-0003-0904-554X"
+        ],
+        "affiliations": [
+          "Ministry of Education Frontiers Science Center for Precision Oncology, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+          "Cancer Centre, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+          "Institute of Translational Medicine, Faculty of Health Sciences, University of Macau, Macau SAR, China."
+        ]
+      },
+      {
+        "full_name": "Wang, San Ming",
+        "short_name": "Wang SM",
+        "identifiers": [
+          "0000-0002-2172-1320"
+        ],
+        "affiliations": [
+          "Ministry of Education Frontiers Science Center for Precision Oncology, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+          "Cancer Centre, Faculty of Health Sciences, University of Macau, Macau SAR, China.",
+          "Institute of Translational Medicine, Faculty of Health Sciences, University of Macau, Macau SAR, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 Jan 10",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/23 06:43",
+    "fetched_at": "2026-10-05 00:01:45"
+  },
+  "links": {
+    "cites": [
+      "41007283",
+      "39409122",
+      "39195204"
+    ],
+    "refs": [
+      "37304756",
+      "36979362",
+      "36927031",
+      "36879825",
+      "36707040",
+      "36461907",
+      "36386046",
+      "36385461",
+      "35603010",
+      "34768775",
+      "34265844",
+      "34230640",
+      "34218458",
+      "34088835",
+      "33363700",
+      "33357406",
+      "33333034",
+      "32627955",
+      "31679514",
+      "31086306",
+      "30725392",
+      "30374176",
+      "29960344",
+      "29610305",
+      "29580235",
+      "29544212",
+      "28781887",
+      "27666373",
+      "26633127",
+      "26574453",
+      "26249686",
+      "25835573",
+      "25741868",
+      "25549265",
+      "25005281",
+      "23315928",
+      "23301657",
+      "21990134",
+      "21645855",
+      "20971684",
+      "20028141",
+      "19563646",
+      "18951440",
+      "18601386",
+      "15264254",
+      "12621137",
+      "12483514",
+      "10940251",
+      "10631780",
+      "8254673"
+    ],
+    "similar": [
+      "38255924",
+      "30998989",
+      "31784484",
+      "29575718",
+      "32363481",
+      "35451539",
+      "34768775",
+      "32076465",
+      "22736432",
+      "31391288",
+      "25060679",
+      "36879825",
+      "38843250",
+      "36054288",
+      "31386297",
+      "23729658",
+      "18383312",
+      "36073783",
+      "28494185",
+      "33577226",
+      "27300758",
+      "33363700",
+      "30504929",
+      "23403630",
+      "31926173",
+      "15475387",
+      "23712482",
+      "26951660",
+      "34407589",
+      "35325018",
+      "32197529",
+      "30044143",
+      "34798986",
+      "26895986",
+      "26437257",
+      "21404117",
+      "37001204",
+      "21681552",
+      "34091457",
+      "23709753",
+      "31237724",
+      "39140857",
+      "38297350",
+      "33839100",
+      "26848797",
+      "28669579",
+      "31997046",
+      "33452216",
+      "33619096",
+      "29055842",
+      "21120944",
+      "22102614",
+      "30324682",
+      "36454741",
+      "34397043",
+      "21431882",
+      "28772289",
+      "32356167",
+      "37224528",
+      "33393477",
+      "38280988",
+      "20533529",
+      "19728162",
+      "27363726",
+      "22753075",
+      "22368298",
+      "17312306",
+      "38061582",
+      "37101184",
+      "31207149",
+      "27938333",
+      "37350751",
+      "26886015",
+      "22773173",
+      "20373145",
+      "33934415",
+      "17510385",
+      "22371642",
+      "30989425",
+      "11793442",
+      "16724012",
+      "30585020",
+      "24278394",
+      "26873718",
+      "23532885",
+      "33484353",
+      "27468915",
+      "19690142",
+      "37572151",
+      "27601186",
+      "38615286",
+      "24027009",
+      "37843401",
+      "29288294",
+      "19526325",
+      "33430305",
+      "34545850",
+      "37433431",
+      "33058565",
+      "35149321"
+    ],
+    "review": [
+      "38255924",
+      "34798986",
+      "22368298",
+      "26886015",
+      "22773173",
+      "33934415",
+      "26873718",
+      "33430305"
+    ],
+    "pmc": [
+      "10815254"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms25020850",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38255924/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38255924",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAE-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-103",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

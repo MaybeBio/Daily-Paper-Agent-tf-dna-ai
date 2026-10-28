@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41099699",
+  "title": "Mapping transcription factor binding sites by learning UV damage fingerprints.",
+  "authors": "Wilson, Hannah E; Stevison, Scott; Lamprey, Levi; Wyrick, John J",
+  "journal": "Nucleic acids research",
+  "published_date": "2025-10-16",
+  "window": {
+    "start": "2025-10-13",
+    "end": "2025-10-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用机器学习从UV损伤指纹预测转录因子结合位点，虽涉及TF-DNA互作位点预测，但缺乏三维结构建模或分子动力学模拟，方法可迁移但深度有限。",
+  "abstract": "Deciphering transcriptional networks requires methods to accurately map binding sites of sequence-specific transcription factors (ssTFs) across the genome. Here, we show that ssTF binding induces distinct patterns of UV-induced cyclobutane pyrimidine dimers (CPDs), and that these CPD 'fingerprints' can be exploited by machine learning methods to identify ssTF binding sites (TFBS). As a proof of principle, we analyzed CPD-seq data from yeast cells using the Random Forest algorithm to identify 75 TFBS bound by the Hap2/Hap3/Hap5 ssTF complex, including  approximately 25 new sites missed by previous chromatin immunoprecipitation (ChIP)-based experiments. Parallel analysis of the Gcr1 ssTF using a neural network trained on CPD-seq data including only 6 known binding sites identified 63 Gcr1 TFBS across the genome. Our analysis indicates that the newly identified TFBS are associated with many genes that function in expected categories (e.g. mitochondrial respiration or glycolysis), and whose mRNA levels are down-regulated in ssTF mutants. Similar analysis of CPD-capture-sequencing data from human cells identified new sites bound by the homologous Nuclear Factor-Y complex. These findings indicate that distinct cellular patterns of UV damage occurring at different classes of TFBS can be recognized by machine learning methods to map these regulatory elements with improved accuracy and single-nucleotide resolution.",
+  "abstract_zh": "解析转录网络需要能够精确绘制基因组中序列特异性转录因子（ssTFs）结合位点的方法。在此，我们展示了ssTF结合会诱导紫外线诱导的环丁烷嘧啶二聚体（CPDs）产生特定模式，并且这些CPD“指纹”可通过机器学习方法加以利用，以识别ssTF结合位点（TFBS）。作为原理验证，我们使用随机森林算法分析了酵母细胞中的CPD-seq数据，识别出由Hap2/Hap3/Hap5 ssTF复合物结合的75个TFBS，其中包括先前基于染色质免疫沉淀（ChIP）实验遗漏的约25个新位点。对Gcr1 ssTF的平行分析，使用仅包含6个已知结合位点的CPD-seq数据训练的神经网络，识别出基因组中63个Gcr1 TFBS。我们的分析表明，新识别的TFBS与许多在预期类别（如线粒体呼吸或糖酵解）中发挥功能的基因相关，并且这些基因的mRNA水平在ssTF突变体中下调。对人类细胞CPD-capture-sequencing数据的类似分析，识别出同源核因子-Y复合物结合的新位点。这些发现表明，不同类别TFBS处发生的紫外线损伤的独特细胞模式可通过机器学习方法识别，从而以更高的精度和单核苷酸分辨率绘制这些调控元件。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41099699/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41099699/",
+  "paper_page_path": "papers/pubmed/41099699/index.html"
+}

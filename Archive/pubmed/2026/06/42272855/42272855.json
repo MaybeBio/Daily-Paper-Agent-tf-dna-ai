@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "42272855",
+    "doi": "10.1093/bioadv/vbag145",
+    "title": "TransPilot: mining key transcription factors by correlating binding sites with differentially expressed genes."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Current software packages to mine key transcription factors (TFs) regulating the differentially expressed genes (DEGs) have not been satisfactorily utilized. RESULTS: Here, we present TransPilot, a web server that identifies key TFs from transcriptome data via weighted Kendall's tau rank correlation of ranked and directed TF-target sets against DEG lists. TransPilot employed an artificial neural network (ANN), which was trained using features derived from a log-likelihood ratio (LLR) array model, to identify transcription factor binding sites (TFBSs). The TF-target sets were ranked based on the ANN scores, which represent the binding potentials of the TFBSs. An imputation method was introduced to fill in the LLRs for genes that lack TFBS in their promoters. Most importantly, the direction for each ranked TF-target pair was annotated as positively or negatively regulated based on the correlation coefficient of their expression profiles in a reference transcriptome dataset. The key TFs were identified from transcriptome data by testing the correlation between the order of genes in the TF-target sets and the corresponding order in the DEG list. The analysis emphasizes end-ranked genes with large weights and de-emphasizes middle-ranked genes with small weights. The server was benchmarked on a transcriptome dataset derived from a macrophage polarization experiment. AVAILABILITY AND IMPLEMENTATION: The data, code, and results utilized in this study can be accessed at http://www.thua45.cn/transpilot.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tinghua, Huang",
+        "Min, Yao",
+        "Fanghong, Zhang",
+        "Siqi, Niu",
+        "Jingchun, Wen",
+        "Jianwu, Wang",
+        "Ye, Yang",
+        "Xuejun, Gao"
+      ],
+      "short_names": [
+        "Tinghua H",
+        "Min Y",
+        "Fanghong Z",
+        "Siqi N",
+        "Jingchun W",
+        "Jianwu W",
+        "Ye Y",
+        "Xuejun G"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0387-9834",
+        "ORCID: 0000-0002-9867-7372"
+      ],
+      "affiliations": [
+        "College of Animal Science and Technology, Yangtze University, Jingzhou 434025, China.",
+        "College of Animal Science and Technology, Yangtze University, Jingzhou 434025, China.",
+        "College of Animal Science and Technology, Yangtze University, Jingzhou 434025, China.",
+        "College of Animal Science and Technology, Yangtze University, Jingzhou 434025, China.",
+        "College of Animal Science and Technology, Yangtze University, Jingzhou 434025, China.",
+        "College of Agriculture, Yangtze University, Jingzhou 434025, China.",
+        "College of Animal Science and Technology, Yangtze University, Jingzhou 434025, China.",
+        "College of Animal Science and Technology, Yangtze University, Jingzhou 434025, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tinghua, Huang",
+        "short_name": "Tinghua H",
+        "identifiers": [
+          "0000-0003-0387-9834"
+        ],
+        "affiliations": [
+          "College of Animal Science and Technology, Yangtze University, Jingzhou 434025, China."
+        ]
+      },
+      {
+        "full_name": "Min, Yao",
+        "short_name": "Min Y",
+        "identifiers": [
+          "0000-0002-9867-7372"
+        ],
+        "affiliations": [
+          "College of Animal Science and Technology, Yangtze University, Jingzhou 434025, China."
+        ]
+      },
+      {
+        "full_name": "Fanghong, Zhang",
+        "short_name": "Fanghong Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Yangtze University, Jingzhou 434025, China."
+        ]
+      },
+      {
+        "full_name": "Siqi, Niu",
+        "short_name": "Siqi N",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Yangtze University, Jingzhou 434025, China."
+        ]
+      },
+      {
+        "full_name": "Jingchun, Wen",
+        "short_name": "Jingchun W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Yangtze University, Jingzhou 434025, China."
+        ]
+      },
+      {
+        "full_name": "Jianwu, Wang",
+        "short_name": "Jianwu W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Agriculture, Yangtze University, Jingzhou 434025, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Yang",
+        "short_name": "Ye Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Yangtze University, Jingzhou 434025, China."
+        ]
+      },
+      {
+        "full_name": "Xuejun, Gao",
+        "short_name": "Xuejun G",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Yangtze University, Jingzhou 434025, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics advances"
+    ],
+    "journal_abbrev": [
+      "Bioinform Adv"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/11 06:40",
+    "fetched_at": "2026-10-01 23:02:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40328612",
+      "39910313",
+      "39678374",
+      "39662671",
+      "39257962",
+      "39086999",
+      "38023606",
+      "37971293",
+      "37962376",
+      "37443338",
+      "35671296",
+      "34530727",
+      "32695141",
+      "32353250",
+      "32232558",
+      "31340985",
+      "31291759",
+      "31114921",
+      "30224653",
+      "29850891",
+      "29514181",
+      "28991892",
+      "28472511",
+      "27322546",
+      "26045265",
+      "25954002",
+      "25749660",
+      "25613900",
+      "25536396",
+      "24525185",
+      "22455463",
+      "21330290",
+      "20709693",
+      "20522509",
+      "20126523",
+      "18369420",
+      "17098774",
+      "16393466",
+      "16199517",
+      "11121437",
+      "9686751",
+      "8617206",
+      "8001125",
+      "2473006"
+    ],
+    "similar": [
+      "42272855",
+      "39678374",
+      "39086999",
+      "22165960",
+      "24386279",
+      "30621576",
+      "15166027",
+      "24650281",
+      "36114445",
+      "25559499",
+      "21690103",
+      "19036135",
+      "32155318",
+      "34426111",
+      "38787831",
+      "30258285",
+      "19073590",
+      "31007729",
+      "31001412",
+      "34840985",
+      "28623591",
+      "27519564",
+      "38062833",
+      "41536793",
+      "17537814",
+      "38032891",
+      "40646689",
+      "27503086",
+      "34234459",
+      "27047536",
+      "27871221",
+      "32508878",
+      "35713985",
+      "25918418",
+      "35757392",
+      "18631392",
+      "27613243",
+      "31875420",
+      "31258543",
+      "27776539",
+      "40504371",
+      "23758851",
+      "23578135",
+      "20158869",
+      "39586719",
+      "19061501",
+      "22039215",
+      "32246829",
+      "23822978",
+      "24965723",
+      "20838582",
+      "36104591",
+      "35966326",
+      "27123147",
+      "26678747",
+      "37229121",
+      "16524462",
+      "22084256",
+      "32642095",
+      "27779643",
+      "18221524",
+      "22645320",
+      "36883778",
+      "27866912",
+      "31598675",
+      "20193056",
+      "39280684",
+      "32858223",
+      "21586587",
+      "18544606",
+      "41247408",
+      "39695844",
+      "20172488",
+      "34394179",
+      "40216809",
+      "36720950",
+      "31161194",
+      "22931563",
+      "31169310",
+      "24039567",
+      "28485207",
+      "39326643",
+      "34732131",
+      "31169887",
+      "40024299",
+      "32168930",
+      "38319987",
+      "33569435",
+      "34174819",
+      "41533020",
+      "42520680",
+      "29658777",
+      "23266802",
+      "21045055",
+      "24790155",
+      "40238799",
+      "28203701",
+      "20535381",
+      "24042128",
+      "32411519"
+    ],
+    "review": [
+      "42272855"
+    ],
+    "pmc": [
+      "13249498"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42272855/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformaticsadvances/article-lookup/doi/10.1093/bioadv/vbag145",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

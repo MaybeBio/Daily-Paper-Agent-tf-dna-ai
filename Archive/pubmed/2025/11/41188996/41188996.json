@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "41188996",
+    "doi": "10.1186/s13048-025-01809-w",
+    "title": "Development of a diagnostic model for ovarian cancer based on machine learning algorithms and functional analysis of key biomarker SOX17."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ovarian cancer (OC) demonstrates the poorest prognosis among gynecological malignancies, with five-year survival rates below 45%, primarily due to late-stage diagnosis. To address this challenge, we systematically identified OC-specific differentially expressed genes (DEGs) to develop a robust diagnostic model based on eleven machine learning algorithms. Furthermore, we explored the potential mechanism of key DEG in OC. METHODS: We acquired RNA sequencing data of 426 tissues (352  degrees C tumor and 74 adjacent non-tumor) from the Gene Expression Omnibus (GEO) repository. Following rigorous batch effect correction and normalization procedures, DEGs were screened between tumor and non-tumor specimens. Furthermore, the resultant DEGs underwent comprehensive functional characterization, including Gene Ontology (GO) enrichment, Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway, protein-protein interaction (PPI) network, and immune microenvironment analyses. To optimize diagnostic feature selection, we implemented a tiered analytical approach combining F-test, LASSO regression and Pearson correlation. The curated gene subset served as input for developing machine learning classifiers, with the cohort partitioned into stratified training (70%) and validation (30%) subsets. Eleven distinct algorithms were evaluated through iterative 10-fold cross-validation, with model performance quantified via receiver operating characteristic (ROC) analysis, precision-recall (PR) metrics, calibration curve fitting, learning curve profiling, and decision curve analysis (DCA) assessment. Finally, we investigated the biological functions of one key gene, SRY-box containing gene (SOX17) in OC cell lines by in vitro experiments. RESULTS: We delineated 27 DEGs exhibiting distinct expression patterns in OC, with 16 upregulated and 11 downregulated genes. GO enrichment analysis suggested that DEGs were significantly enriched in response to folic acid, blood microparticle and alcohol dehydrogenase [NAD(P)+] activities. KEGG pathway analysis indicated that these DEGs were mainly involved in tyrosine metabolism, fatty acid degradation, ABC transporters and pyruvate metabolism. Immune microenvironment profiling revealed substantial M2 macrophage polarization and cytotoxic T-cell exhaustion in tumor tissues.The optimal diagnostic model was established based on five key genes (CD24, CLEC4M, SOX17, ADH1C and CHRDL1) and Logistic Regression algorithm was the optimal algorithm. The area under the receiver operating characteristic curve (AUC) and accuracy of the model were 0.93 and 0.875, respectively. SOX17 was upregulated in OC tumor tissues and knockdown of SOX17 obviously suppressed tumor cell proliferation and migratory. CONCLUSION: Our multivariable diagnostic model based on five genes through logistic regression optimization, demonstrated robust discriminative capacity for OC. SOX17 functions as a suppressor and potential therapeutic target for OC.",
+    "keywords": [
+      "Diagnostic model",
+      "Immune cell infiltration",
+      "Machine learning algorithm",
+      "Ovarian cancer",
+      "SOX17"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Ovarian Neoplasms/diagnosis/genetics",
+      "*Machine Learning",
+      "Female",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "*SOXF Transcription Factors/genetics/metabolism",
+      "Algorithms",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Expression Profiling",
+      "Prognosis",
+      "ROC Curve"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Geng, Xueyan",
+        "Yin, Maopeng",
+        "Zhao, Hongxi",
+        "Zhang, Zeyu",
+        "Liu, Shichao",
+        "Liu, Yingjie",
+        "Zhang, Shoucai",
+        "Liang, Yongyuan",
+        "Song, Li",
+        "Zheng, Guixi"
+      ],
+      "short_names": [
+        "Geng X",
+        "Yin M",
+        "Zhao H",
+        "Zhang Z",
+        "Liu S",
+        "Liu Y",
+        "Zhang S",
+        "Liang Y",
+        "Song L",
+        "Zheng G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China.",
+        "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China.",
+        "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China.",
+        "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China.",
+        "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China.",
+        "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China.",
+        "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China.",
+        "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China.",
+        "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China. sl0930china@sdu.edu.cn.",
+        "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China. zhengg@sdu.edu.cn.",
+        "Shandong Engineering Research Center of Biomarker and Artificial Intelligence Application, Jinan, 250012, Shandong, P.R. China. zhengg@sdu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Geng, Xueyan",
+        "short_name": "Geng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Yin, Maopeng",
+        "short_name": "Yin M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hongxi",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zeyu",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Shichao",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yingjie",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shoucai",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Liang, Yongyuan",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Song, Li",
+        "short_name": "Song L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China. sl0930china@sdu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zheng, Guixi",
+        "short_name": "Zheng G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Qilu Hospital of Shandong University, Jinan, 250012, Shandong, P.R. China. zhengg@sdu.edu.cn.",
+          "Shandong Engineering Research Center of Biomarker and Artificial Intelligence Application, Jinan, 250012, Shandong, P.R. China. zhengg@sdu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ovarian research"
+    ],
+    "journal_abbrev": [
+      "J Ovarian Res"
+    ],
+    "pub_date": "2025 Nov 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/05 00:28",
+    "fetched_at": "2026-10-01 05:36:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37688994",
+      "37686555",
+      "37359556",
+      "37195085",
+      "37089135",
+      "37059310",
+      "36788073",
+      "36127285",
+      "35954427",
+      "35915262",
+      "35684753",
+      "35547771",
+      "35494000",
+      "35380877",
+      "35354963",
+      "35201473",
+      "35020204",
+      "34818047",
+      "34814332",
+      "34207286",
+      "34048188",
+      "34020642",
+      "33980610",
+      "33538338",
+      "33287761",
+      "32705212",
+      "32354198",
+      "31367043",
+      "31074035",
+      "30914279",
+      "30468774",
+      "29809280",
+      "29765329",
+      "28214928",
+      "26886278",
+      "26412494",
+      "25738998",
+      "24156700",
+      "22895781",
+      "22733779",
+      "22675424",
+      "16557583",
+      "15863133",
+      "15334073",
+      "15322536",
+      "10746348"
+    ],
+    "similar": [
+      "41188996",
+      "41351424",
+      "31987036",
+      "34384424",
+      "41200172",
+      "25953442",
+      "35719392",
+      "41367897",
+      "41132349",
+      "40500570",
+      "41198554",
+      "38069266",
+      "39754246",
+      "40830558",
+      "39586719",
+      "39293329",
+      "40312440",
+      "31703725",
+      "41044520",
+      "41300841",
+      "38143770",
+      "39553728",
+      "40313958",
+      "40860289",
+      "40355485",
+      "41357842",
+      "36564071",
+      "38867322",
+      "35996248",
+      "41146237",
+      "39120060",
+      "41006883",
+      "39875572",
+      "40225866",
+      "40746552",
+      "40898185",
+      "41378005",
+      "41141246",
+      "40078458",
+      "39351239",
+      "40374840",
+      "40496857",
+      "31729978",
+      "40406620",
+      "41024209",
+      "37980550",
+      "34814332",
+      "38708353",
+      "41151411",
+      "39415336",
+      "39142001",
+      "36746103",
+      "41290867",
+      "40959565",
+      "40997906",
+      "39403102",
+      "38654239",
+      "39234248",
+      "40473799",
+      "35634481",
+      "41479901",
+      "40328901",
+      "38890248",
+      "30633343",
+      "40382612",
+      "41405958",
+      "40084401",
+      "39368786",
+      "39845977",
+      "39433800",
+      "36195955",
+      "41132671",
+      "40826138",
+      "33563317",
+      "39074893",
+      "36660690",
+      "36075788",
+      "40070821",
+      "38416665",
+      "41099090",
+      "38283345",
+      "34409913",
+      "41500779",
+      "36479114",
+      "41164826",
+      "39616855",
+      "40539060",
+      "41257259",
+      "31974598",
+      "35924232",
+      "40707588",
+      "41125735",
+      "41102315",
+      "40967560",
+      "39071134",
+      "39600695",
+      "40360670",
+      "39697749",
+      "32031163",
+      "40019588"
+    ],
+    "review": [
+      "41188996"
+    ],
+    "pmc": [
+      "12584492"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://ovarianresearch.biomedcentral.com/articles/10.1186/s13048-025-01809-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41188996/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

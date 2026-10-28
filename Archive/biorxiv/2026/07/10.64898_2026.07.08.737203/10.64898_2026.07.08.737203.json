@@ -1,0 +1,439 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.07.08.737203",
+  "title": "Interactome Specialization Predicts Genome-Wide Binding-Site Degeneracy in Drosophila melanogaster Transcription Factors",
+  "doi": "10.64898/2026.07.08.737203",
+  "abstract": "Transcription factors (TFs) recognize short, degenerate DNA motifs that occur thousands of times throughout the genome, implying that binding specificity depends not only on DNA sequence but also on cellular context, including selective protein-protein interactions. Here, we tested whether a TF’s integration into the physical TF interaction network predicts the degeneracy of its DNA-binding motif. Using 279 Drosophila melanogaster TFs with matched JASPAR position weight matrices, FlyBase expression profiles, and a physical protein interaction network derived from STRING v12.0 using only experimental and curated-database evidence, we quantified each TF’s TF-module fraction. We compared it with genome-wide predicted binding-site density across an independently constructed 18 Mb genomic sample.TF module fraction showed a significant positive association with binding-site density (partial r = 0.379, P = 5.6e-11)after controlling for motif information content, network degree, and literature bias. The relationship remained significant after excluding the homeodomain family, adding motif architecture controls, and applying multiple robustness analyses, including family-cluster bootstrapping and outlier-resistant correlation tests. Consistent with these findings, TFs formed a highly interconnected physical interaction network far exceeding degree-matched random expectation. Together, these results support a model in which DNA-recognition specificity and protein-interaction specificity represent complementary components of TF targeting: TFs embedded within TF-rich interaction modules tend to possess more degenerate DNA-binding motifs, whereas broadly acting network-generalist TFs rely on more information-rich sequence recognition. We also identify and correct a motif-length-dependent thresholding artifact that can obscure this relationship in genome-wide motif analyses.",
+  "authors": [
+    "Arun Ram Ponnambalam",
+    "Krishnan Venkiteswaran pottore"
+  ],
+  "published_date": "2026-07-11",
+  "updated_date": "2026-07-12T16:10:32Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737203",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737203.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            15
+          ]
+        ],
+        "date-time": "2026-07-15T16:09:48Z",
+        "timestamp": 1784131788106,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            11
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 46,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                11
+              ]
+            ],
+            "date-time": "2026-07-11T00:00:00Z",
+            "timestamp": 1783728000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Transcription factors (TFs) recognize short, degenerate DNA motifs that occur thousands of times throughout the genome, implying that binding specificity depends not only on DNA sequence but also on cellular context, including selective protein-protein interactions. Here, we tested whether a TF’s integration into the physical TF interaction network predicts the degeneracy of its DNA-binding motif. Using 279\n                  <jats:italic>Drosophila melanogaster</jats:italic>\n                  TFs with matched JASPAR position weight matrices, FlyBase expression profiles, and a physical protein interaction network derived from STRING v12.0 using only experimental and curated-database evidence, we quantified each TF’s TF-module fraction. We compared it with genome-wide predicted binding-site density across an independently constructed 18 Mb genomic sample.TF module fraction showed a significant positive association with binding-site density (partial r = 0.379, P = 5.6e-11)after controlling for motif information content, network degree, and literature bias. The relationship remained significant after excluding the homeodomain family, adding motif architecture controls, and applying multiple robustness analyses, including family-cluster bootstrapping and outlier-resistant correlation tests. Consistent with these findings, TFs formed a highly interconnected physical interaction network far exceeding degree-matched random expectation. Together, these results support a model in which DNA-recognition specificity and protein-interaction specificity represent complementary components of TF targeting: TFs embedded within TF-rich interaction modules tend to possess more degenerate DNA-binding motifs, whereas broadly acting network-generalist TFs rely on more information-rich sequence recognition. We also identify and correct a motif-length-dependent thresholding artifact that can obscure this relationship in genome-wide motif analyses.\n                </jats:p>",
+      "DOI": "10.64898/2026.07.08.737203",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            12
+          ]
+        ],
+        "date-time": "2026-07-12T16:10:32Z",
+        "timestamp": 1783872632000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Interactome Specialization Predicts Genome-Wide Binding-Site Degeneracy in Drosophila melanogaster Transcription Factors"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Arun Ram",
+          "family": "Ponnambalam",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "SRM Institute of Science And Technology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Krishnan",
+          "family": "Venkiteswaran pottore",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University College, Dublin"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(86)90165-8"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/18.20.6097"
+        },
+        {
+          "issue": "2",
+          "key": "2026071508400864000_2026.07.08.737203v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "115",
+          "DOI": "10.1007/s40484-013-0012-4",
+          "article-title": "Modeling the specificity of protein-DNA interactions",
+          "volume": "1",
+          "year": "2013",
+          "journal-title": "Quant Biol"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl248"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.5",
+          "year": "2015",
+          "journal-title": "Binding of transcription factors adapts to resolve information-energy trade-off"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2020.12.001"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2009.08.003"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv607"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2014.08.038"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2019.03.071"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41556-024-01411-0"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.12",
+          "first-page": "RP104956",
+          "article-title": "Design principles of transcription factors with intrinsically disordered regions",
+          "volume": "13",
+          "year": "2025",
+          "journal-title": "eLife"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.10.042"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aar3958"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.15",
+          "year": "2010",
+          "journal-title": "Sequence correlations shape protein promiscuity"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "44948",
+          "DOI": "10.1038/srep44948",
+          "article-title": "Protein interaction evolution from promiscuity to specificity with reduced flexibility in an increasingly complex network",
+          "volume": "7",
+          "year": "2017",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/35075138"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.89.208701"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1065103"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg034"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAC1000"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae1113"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad1059"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.3715005"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.097857.109"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbq072"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1099"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/genetics/iyad211"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1026"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3207"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08531"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.176826.111"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2011-12-4-r34"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1198374"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.2517-6161.1995.tb02031.x"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/oxfordjournals.molbev.a026239"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.1924004"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/brv.12527"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-023-01366-2"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab061"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/scisignal.2001699"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2010.01.044"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1748"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-cellbio-100617-062719"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.01.029"
+        },
+        {
+          "key": "2026071508400864000_2026.07.08.737203v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2011.10.053"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.07.08.737203",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            15
+          ]
+        ],
+        "date-time": "2026-07-15T15:40:14Z",
+        "timestamp": 1784130014000
+      },
+      "score": 121.73739,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.07.08.737203"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            11
+          ]
+        ]
+      },
+      "references-count": 46,
+      "URL": "https://doi.org/10.64898/2026.07.08.737203",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            11
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

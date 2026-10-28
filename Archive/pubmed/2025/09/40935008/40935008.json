@@ -1,0 +1,211 @@
+{
+  "identity": {
+    "pmid": "40935008",
+    "doi": "10.1016/j.biosystems.2025.105589",
+    "title": "GATA TF Class Classifier: AI-based functional prediction and taxonomic profiling in angiosperm GATA transcription factors."
+  },
+  "content": {
+    "abstract": "GATA transcription factors (TFs) are key regulators of diverse physiological and developmental processes in angiosperms. Although they are traditionally classified into four functional classes (A-D) based on phylogenetic relationships, large-scale classification across plant genomes remains limited by the labor-intensive nature of tree-based approaches. To overcome this limitation, this study presents the GATA TF Class Classifier, a scalable sequence-based tool for genome-wide functional classification of GATA TFs across angiosperm species. The model was trained on 700 curated full-length sequences from 23 species, encoded with ProtBERT, reduced via principal component analysis (PCA) with six additional features, and classified into functional classes using a support vector machine (SVM). The model achieved an average accuracy of 94.29 %, with balanced performance across all classes, as confirmed by repeated stratified 5-fold cross-validation. When applied to 4170 GATA TFs from 121 angiosperm genomes, the classifier showed that classes A and B were relatively abundant, whereas classes C and D were less represented, implying that each class may perform distinct biological functions. In addition, this study performed a taxonomic analysis of the predicted GATA TF classes to investigate their characteristics across major angiosperm lineages. Taken together, the classifier facilitates large-scale annotation and offers insights into the lineage-specific diversification and functional evolution of GATA TFs in angiosperms.",
+    "keywords": [
+      "Angiosperms",
+      "Functional classes",
+      "GATA TF Class Classifier",
+      "GATA transcription factors",
+      "ProtBERT",
+      "SVM",
+      "Taxonomic analysis"
+    ],
+    "mesh_terms": [
+      "*Magnoliopsida/genetics/classification",
+      "Phylogeny",
+      "*GATA Transcription Factors/genetics/classification",
+      "Support Vector Machine",
+      "Genome, Plant/genetics",
+      "Computational Biology/methods",
+      "Principal Component Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Mangi"
+      ],
+      "short_names": [
+        "Kim M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Independent Researcher, Seoul, Republic of Korea. Electronic address: aksrl08940@daum.net."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Mangi",
+        "short_name": "Kim M",
+        "identifiers": [],
+        "affiliations": [
+          "Independent Researcher, Seoul, Republic of Korea. Electronic address: aksrl08940@daum.net."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bio Systems"
+    ],
+    "journal_abbrev": [
+      "Biosystems"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/12 00:29",
+    "fetched_at": "2026-10-05 04:19:33"
+  },
+  "links": {
+    "cites": [
+      "42417884",
+      "42046921"
+    ],
+    "refs": [],
+    "similar": [
+      "40935008",
+      "34400697",
+      "34038437",
+      "34830372",
+      "39616200",
+      "38289011",
+      "30253181",
+      "19695090",
+      "25077795",
+      "24368683",
+      "18412965",
+      "25886477",
+      "33276730",
+      "11681732",
+      "38353733",
+      "35130446",
+      "40988340",
+      "33670757",
+      "17010212",
+      "24950957",
+      "10586879",
+      "27348446",
+      "17644003",
+      "38658746",
+      "23555856",
+      "22759610",
+      "30092656",
+      "28723902",
+      "10607592",
+      "27064530",
+      "18048330",
+      "20441528",
+      "40607808",
+      "40362469",
+      "32436321",
+      "25985773",
+      "30674676",
+      "36647606",
+      "38630371",
+      "32228449",
+      "25995065",
+      "16945140",
+      "27650175",
+      "10908877",
+      "32737196",
+      "26046541",
+      "12206237",
+      "31437416",
+      "40076733",
+      "20181251",
+      "32094642",
+      "31061536",
+      "33876331",
+      "21143995",
+      "11069280",
+      "16329238",
+      "15465682",
+      "17227365",
+      "29317285",
+      "38329633",
+      "20633275",
+      "33367231",
+      "34108452",
+      "25547126",
+      "39039654",
+      "41153454",
+      "40359430",
+      "15819904",
+      "18048334",
+      "26053261",
+      "40850395",
+      "21619600",
+      "16362910",
+      "39939686",
+      "37582671",
+      "15453916",
+      "35110570",
+      "15799777",
+      "12660784",
+      "32294100",
+      "31015536",
+      "24174544",
+      "31150097",
+      "18202451",
+      "18436778",
+      "15944438",
+      "40016651",
+      "30486510",
+      "26985732",
+      "25287121",
+      "18426580",
+      "31861396",
+      "20375204",
+      "11504854",
+      "23583418",
+      "22247429",
+      "21478875",
+      "21536892",
+      "22412381",
+      "32923181"
+    ],
+    "review": [
+      "40935008",
+      "38289011",
+      "35130446",
+      "27064530",
+      "20441528",
+      "10908877",
+      "15465682",
+      "15819904",
+      "37582671"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0303-2647(25)00199-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

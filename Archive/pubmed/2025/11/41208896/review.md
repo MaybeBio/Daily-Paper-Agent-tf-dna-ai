@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, and supplementary figure legends
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors propose that DDB2 mediates chemoresistance across multiple cancer types, that lapatinib disrupts DDB2-DNA interaction, and that this disruption enhances chemotherapy sensitivity
+- **Visible evidence base** In silico analyses (KEGG, GEPIA, TNMplot, Kaplan-Meier plotter, ROC Plotter, CCLE, GDBC, Klijn et al.), molecular docking and MD simulations, cell viability assays, Western blotting, CETSA, chromatin fractionation, flow cytometry, comet assays, clonogenic assays, and patient-derived organoid experiments
+- **Missing materials affecting confidence** No figures, supplementary figures, or supplementary tables are provided; no raw data or statistical details beyond p-values; no cell line authentication or mycoplasma testing results; no in vivo data; no details on organoid characterization or patient clinical information
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important clinical problem, chemoresistance, and proposes a novel mechanism for lapatinib action beyond its known EGFR/HER2 inhibition. The central hypothesis, that lapatinib disrupts DDB2-DNA interaction to enhance chemotherapy sensitivity, is interesting and potentially impactful. However, the evidence provided in the text is insufficient to fully establish this claim. Key concerns include the lack of direct biochemical evidence for DDB2-lapatinib binding, reliance on computational predictions without experimental validation of the binding mode, limited mechanistic depth regarding how lapatinib promotes DDB2 degradation, and absence of in vivo validation. The correlative analyses are extensive but do not establish causality. The manuscript would benefit from additional experiments to strengthen the mechanistic claims and from clearer presentation of the data supporting each conclusion.
+- **Who would be interested in the results, and why** Researchers in cancer biology, DNA repair, and drug repurposing would find this work relevant. The potential to repurpose an FDA-approved drug as a chemosensitizer across multiple cancer types has broad translational appeal. Clinicians treating breast, liver, lung, and biliary tract cancers may also be interested, particularly if the findings are validated in vivo.
+- **Major strengths** The study addresses a clinically significant problem with a potentially actionable therapeutic strategy. The use of multiple cancer types and multiple independent datasets for correlative analyses strengthens the generalizability of the DDB2-chemoresistance association. The identification of a specific residue (K244) critical for lapatinib's effect provides mechanistic specificity. The inclusion of patient-derived organoids adds translational relevance. The combination of computational screening, biochemical assays, and functional studies represents a comprehensive approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for direct DDB2-lapatinib binding
+  - **Claim pointer** The authors claim that lapatinib binds to the DNA-binding region of DDB2 and disrupts the DDB2-DNA complex
+  - **Evidence pointer** Results section "Identification of lapatinib as a potential disruptor of DDB2/DNA complex", Figure 4
+  - **Concern** The claim of direct binding between lapatinib and DDB2 is supported only by computational docking and MD simulations, plus indirect cellular assays (CETSA, chromatin fractionation). No direct binding assay such as surface plasmon resonance, isothermal titration calorimetry, or pull-down experiments is presented. The CETSA result is mentioned but not shown in the provided text, and the interpretation of CETSA for a small molecule targeting a protein-DNA interaction is not straightforward. The MD simulations are described but the methodological details are insufficient to assess their quality.
+  - **Why it matters** The central premise of the paper is that lapatinib directly targets DDB2. Without direct biochemical evidence of binding, the mechanism remains speculative. The observed effects could be indirect, mediated through EGFR/HER2 inhibition or other off-target effects.
+  - **Resolution test** Provide direct binding data using purified DDB2 protein and lapatinib, such as SPR or ITC, with appropriate controls. Alternatively, show that a structurally related but non-binding analog fails to reproduce the effects. Demonstrate that lapatinib competes with DNA for DDB2 binding in a purified system.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic link between DDB2 disruption and chemosensitization
+  - **Claim pointer** The authors claim that lapatinib enhances chemotherapy sensitivity by disrupting DDB2-dependent DNA repair
+  - **Evidence pointer** Results sections "Synergistic enhancement of doxorubicin efficacy by lapatinib" and "Lapatinib-doxorubicin co-treatment inhibits chromatin-binding and induces protein degradation of DDB2", Figures 5-7
+  - **Concern** The causal relationship between DDB2 disruption and chemosensitization is not fully established. While the authors show that lapatinib reduces DDB2 levels and chromatin binding, and that the combination enhances apoptosis, they do not demonstrate that this effect is specifically due to DDB2 loss. Rescue experiments, such as overexpression of a lapatinib-resistant DDB2 mutant, are not described. The K244M mutant experiments are mentioned but the functional readouts are not clearly described in the text. Additionally, the authors do not show that lapatinib's chemosensitizing effect is absent in DDB2-knockout cells.
+  - **Why it matters** Without demonstrating that the chemosensitizing effect is mediated specifically through DDB2, alternative explanations remain. Lapatinib is a known kinase inhibitor with multiple downstream effects; the observed synergy could be due to EGFR/HER2 inhibition or other off-target activities.
+  - **Resolution test** Perform rescue experiments with a DDB2 mutant that cannot bind lapatinib but retains DNA repair function. Show that lapatinib fails to chemosensitize DDB2-knockout cells. Alternatively, use a DDB2-specific degrader or siRNA to phenocopy the lapatinib effect.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In vivo validation
+  - **Claim pointer** The authors propose that lapatinib could be repurposed as a chemosensitizing agent, implying therapeutic potential
+  - **Evidence pointer** Discussion section, no in vivo data provided
+  - **Concern** No in vivo experiments are presented. The translational claim is based entirely on in vitro and ex vivo data. While patient-derived organoids are valuable, they do not recapitulate the complexity of tumor microenvironment, pharmacokinetics, or systemic toxicity.
+  - **Why it matters** For a drug repurposing claim, in vivo efficacy and safety data are essential. The absence of such data limits the strength of the translational conclusion.
+  - **Resolution test** Provide xenograft or patient-derived xenograft data showing that lapatinib plus doxorubicin suppresses tumor growth more effectively than either agent alone, with appropriate pharmacokinetic and toxicity assessments.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of lapatinib for DDB2 over other DNA repair proteins
+  - **Claim pointer** The authors claim that lapatinib specifically targets DDB2 among DNA repair proteins
+  - **Evidence pointer** Results section "Identification of lapatinib as a potential disruptor of DDB2/DNA complex", Figure 4
+  - **Concern** The screening approach identified lapatinib as a top hit for DDB2 binding, but no data are presented on whether lapatinib also binds to other DNA repair proteins, particularly other DDB family members or NER components. The specificity of the effect for DDB2 is not demonstrated.
+  - **Why it matters** If lapatinib affects multiple DNA repair proteins, the observed chemosensitization could be due to broader DNA repair inhibition rather than DDB2-specific effects. This would change the mechanistic interpretation and potential clinical implications.
+  - **Resolution test** Test lapatinib binding to related proteins such as DDB1, XPC, or other NER factors. Show that lapatinib does not affect the function of other DNA repair pathways at the concentrations used.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Statistical analysis section
+  - **Evidence pointer** Materials and Methods, "Statistical analysis"
+  - **Issue** The statistical methods are described only briefly. It is unclear whether multiple testing corrections were applied for the extensive correlative analyses, and the specific tests used for each comparison are not stated.
+  - **Required correction** Provide a more detailed statistical analysis section, including the specific tests used for each figure, whether corrections for multiple comparisons were applied, and how normality and variance assumptions were assessed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Cell line authentication
+  - **Affected element** Cell culture methods
+  - **Evidence pointer** Materials and Methods, "Cell culture"
+  - **Issue** The authors state that cell lines were tested for mycoplasma but do not mention cell line authentication by short tandem repeat profiling. Given the large number of cell lines used, authentication is important to ensure reproducibility.
+  - **Required correction** State whether cell lines were authenticated and provide the method and date of authentication.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** DDB2 antibody specificity
+  - **Affected element** Western blot analyses
+  - **Evidence pointer** Materials and Methods, "Antibodies"
+  - **Issue** The DDB2 antibody is from Cell Signaling Technology, but no validation data are shown. Given the importance of DDB2 detection throughout the study, antibody specificity should be demonstrated.
+  - **Required correction** Include validation data such as knockout or knockdown controls showing loss of the specific band, or reference published validation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Docking methodology details
+  - **Affected element** Molecular docking and dynamics simulations
+  - **Evidence pointer** Materials and Methods, "Molecular Docking and Dynamics Simulations"
+  - **Issue** The description of the docking and MD methods is brief. Key parameters such as the force field, water model, temperature coupling, and equilibration protocol are not specified. The criteria for selecting top compounds are also unclear.
+  - **Required correction** Provide a more detailed description of the computational methods, including software versions, force fields, simulation parameters, and selection criteria.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Organoid characterization
+  - **Affected element** Patient-derived organoid experiments
+  - **Evidence pointer** Materials and Methods, "Clinical specimen for organoid"
+  - **Issue** The organoid experiments are described briefly. It is unclear how organoids were characterized, whether they were validated as representing the original tumor, and how many independent organoid lines were used per subtype.
+  - **Required correction** Provide details on organoid characterization, including immunohistochemistry or sequencing validation, and specify the number of independent lines and replicates.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** All figures
+  - **Evidence pointer** Not applicable
+  - **Issue** The manuscript text refers to figures and supplementary figures extensively, but none are provided in the submitted material. This prevents assessment of data quality, statistical significance, and the appropriateness of the analyses.
+  - **Required correction** Ensure all figures and supplementary figures are included in the submission for review.
+
+## Risk / unsupported claims
+- The claim that lapatinib directly binds to DDB2 is unsupported by direct biochemical evidence; only computational predictions and indirect cellular assays are described
+- The claim that lapatinib's chemosensitizing effect is specifically mediated through DDB2 is not established, as no rescue or knockout experiments are described
+- The claim that DDB2 disruption promotes proteasomal degradation is supported only by MG132 experiments, but the ubiquitination status of DDB2 is not directly assessed
+- The translational claim of lapatinib repurposing is not supported by in vivo data
+- The claim that DDB2 expression correlates with chemoresistance across multiple cancer types is based on correlative analyses that do not establish causality
+- The specificity of lapatinib for DDB2 over other DNA repair proteins is not demonstrated
+- The clinical relevance of the organoid data is limited by the lack of detailed patient clinical information and organoid characterization

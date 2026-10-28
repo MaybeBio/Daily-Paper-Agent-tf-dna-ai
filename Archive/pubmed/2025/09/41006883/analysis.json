@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41006883",
+  "title": "Identification of regulated cell death related genes in polycystic ovary syndrome using machine learning.",
+  "authors": "Li, Ronghuang; Chen, Qianyu; Yan, Yuehua; Yang, Yang; Hu, Rongkui",
+  "journal": "Scientific reports",
+  "published_date": "2025-09-27",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用机器学习识别PCOS中调控性细胞死亡相关基因，虽涉及转录因子预测但非蛋白质-DNA互作建模核心，方法为常规生物信息学分析，与本课题关联较弱。",
+  "abstract": "Polycystic ovary syndrome (PCOS) is one of the most prevalent endocrine disorders affecting women during their reproductive years, with global prevalence estimates ranging from 5 to 15%, depending on the diagnostic criteria used. Emerging evidence suggests that various forms of regulated cell death (RCD) mechanisms play a significant role in the development and progression of PCOS. However, existing research has yet to systematically investigate how RCD processes interact with the molecular pathophysiology of PCOS. Mapping these complex interactions-including the associated regulatory networks and molecular cascades-could provide critical insights into disease mechanisms. This study aims to identify specific RCD-related genetic markers and signaling pathways, which could serve as potential therapeutic targets for PCOS management. Our team conducted computational bioinformatics analyses to find differentially expressed genes (DEGs) between healthy ovarian tissues and those affected by PCOS, revealing 389 genes linked to RCD. Through machine learning techniques-including Least Absolute Shrinkage and Selection Operator (LASSO), Random Forest (RF), and Support Vector Machine (SVM) algorithms-we identified five critical hub genes. To gauge their diagnostic potential, we performed receiver operating characteristic (ROC) curve evaluations and mapped out protein interaction networks (PPI) to uncover relationships among these key genes. We then delved deeper using Single-Sample Gene Set Enrichment Analysis (ssGSEA), Gene Ontology (GO) enrichment studies, and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway assessments to shed light on biological processes tied to the hub genes. These findings were corroborated through additional Gene Set Enrichment Analysis (GSEA) validation. Leveraging the NetworkAnalyst and RegNetwork platforms, we predicted upstream regulators like microRNAs (miRNAs), transcription factors, and gene-associated compounds. Finally, interaction networks were visualized via Cytoscape to illustrate these complex relationships. Through comparative analysis of PCOS and control groups, DEGs were pinpointed and cross-referenced with genes linked to RCD mechanisms. Machine learning techniques highlighted five hub genes with significant biological relevance. Comprehensive bioinformatics profiling demonstrated that these key genes were significantly enriched in biological processes related to immune-inflammatory responses, metabolic regulation via adipocytokine signaling, reproductive hormone activity, and epigenetic regulation. Furthermore, we identified 25 therapeutic compounds, 42 regulatory miRNAs, and 30 transcription factors (TFs) with strong functional relationships to these critical genetic markers. We identified five RCD-related hub genes within the DEGs of PCOS and control samples and further analyzed upstream and downstream pathways, to elucidate potential pathogenic mechanisms.",
+  "abstract_zh": "多囊卵巢综合征（PCOS）是育龄期女性中最常见的内分泌疾病之一，其全球患病率估计在5%至15%之间，具体取决于所使用的诊断标准。新出现的证据表明，多种形式的调节性细胞死亡（RCD）机制在PCOS的发生和发展中发挥重要作用。然而，现有研究尚未系统性地探讨RCD过程如何与PCOS的分子病理生理学相互作用。绘制这些复杂相互作用（包括相关调控网络和分子级联反应）的图谱，可能为疾病机制提供关键见解。本研究旨在识别特定的RCD相关遗传标记和信号通路，这些可能作为PCOS管理的潜在治疗靶点。我们团队进行了计算生物信息学分析，以寻找健康卵巢组织与受PCOS影响组织之间的差异表达基因（DEGs），揭示了389个与RCD相关的基因。通过机器学习技术——包括最小绝对收缩和选择算子（LASSO）、随机森林（RF）和支持向量机（SVM）算法——我们识别出五个关键枢纽基因。为评估其诊断潜力，我们进行了受试者工作特征（ROC）曲线评估，并绘制了蛋白质相互作用网络（PPI）以揭示这些关键基因之间的关系。随后，我们使用单样本基因集富集分析（ssGSEA）、基因本体论（GO）富集研究和京都基因与基因组百科全书（KEGG）通路评估进行了更深入分析，以阐明与枢纽基因相关的生物学过程。这些发现通过额外的基因集富集分析（GSEA）验证得到进一步证实。利用NetworkAnalyst和RegNetwork平台，我们预测了上游调控因子，如微小RNA（miRNAs）、转录因子和基因相关化合物。最后，通过Cytoscape可视化相互作用网络，以说明这些复杂关系。通过PCOS组和对照组的比较分析，我们确定了DEGs，并与RCD机制相关基因进行了交叉参考。机器学习技术突出了五个具有显著生物学相关性的枢纽基因。全面的生物信息学分析表明，这些关键基因在与免疫炎症反应、通过脂肪细胞因子信号传导的代谢调节、生殖激素活性和表观遗传调控相关的生物学过程中显著富集。此外，我们识别出25种治疗性化合物、42个调控性miRNAs和30个转录因子（TFs），这些与这些关键遗传标记具有强功能关系。我们在PCOS和对照样本的DEGs中识别出五个与RCD相关的枢纽基因，并进一步分析了上游和下游通路，以阐明潜在的致病机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41006883/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41006883/",
+  "paper_page_path": "papers/pubmed/41006883/index.html"
+}

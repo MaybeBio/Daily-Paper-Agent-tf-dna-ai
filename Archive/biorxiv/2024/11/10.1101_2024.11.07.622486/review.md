@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, supplementary figure legends)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided text
+- **Shared manuscript claim summary** The authors propose that TBP homologs (yeast TBP, mouse TRF2, TRF3) exhibit species- and tissue-specific functions in mouse embryonic stem cells (mESCs) despite high sequence and structural conservation in their DNA binding domains. They report that homologs cannot fully rescue TBP depletion lethality, show differential DNA binding and Pol III transcription support, and display distinct DNA binding dynamics. The N-terminal domain is proposed to modulate stress-induced transcriptional reprogramming.
+- **Visible evidence base** Results sections describing cell viability assays (CCK-8), CUT&Tag experiments for Pol II and Pol III, co-immunoprecipitation, single particle tracking (slow and fast modes), AlphaFold structural predictions, and sequence alignments. Supplementary figure descriptions referenced but not fully visible.
+- **Missing materials affecting confidence** Actual figures and supplementary data (Fig. 1-6, Fig. S1-S6) are not provided; numerical values for key quantifications (e.g., residence times, binding percentages, statistical tests) are only partially described in text; full CUT&Tag analysis details (e.g., peak calling parameters, thresholds) are not fully specified; raw data accession number is listed as placeholder.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in transcription biology: how highly conserved TBP homologs achieve functional divergence. The experimental approach combining replacement assays, genomics, and single-molecule imaging is ambitious and potentially informative. However, the current presentation has several gaps that prevent full evaluation of the claims. The central conclusion that DNA binding dynamics underlie functional divergence is plausible but not fully established from the provided evidence, particularly given the lack of quantitative rigor in some analyses and the incomplete presentation of key data.
+- **Who would be interested in the results, and why** Researchers studying transcription initiation mechanisms, TBP family biology, evolutionary functional divergence of paralogs, and single-molecule imaging of transcription factors. The work also has relevance for understanding tissue-specific gene regulation and stress responses.
+- **Major strengths** The study addresses a fundamental question about functional divergence despite sequence conservation. The combination of multiple approaches (replacement assays, genomics, imaging) is comprehensive. The use of an acute depletion system allows direct functional comparison of homologs. The observation that TRF3 fails to support Pol III transcription despite high core similarity is intriguing and potentially important.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We show that, despite the high conservation in the DNA binding domain among the homologs, they cannot fully rescue the lethality of TBP depletion in mESCs, largely due to their inability to support RNA Pol III transcription."
+  - **Evidence pointer** Results section "Homologous TBPs do not fully rescue TBP lethality in mouse ESCs", Fig. 1E-F
+  - **Concern** The rescue percentages are described qualitatively (e.g., "partial rescue at ~50%", "weakly supported ~25% rescue") but the statistical analysis and variability across replicates are not reported. The claim that failure to rescue is "largely due to" Pol III transcription defects requires direct causal evidence, such as overexpression of Pol III targets or complementation experiments, which are not described.
+  - **Why it matters** The central conclusion of the paper depends on establishing a causal link between Pol III transcription failure and cell death. Without statistical rigor and causal experiments, the claim is not fully supported.
+  - **Resolution test** Provide quantitative rescue data with statistical comparisons across at least three biological replicates. Include experiments where Pol III transcription is specifically restored (e.g., expressing Pol III-specific TBP complexes) to demonstrate causality.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "TBP homologs display distinct DNA binding dynamics" and "the homologs have vastly different DNA binding dynamics, suggesting a potential mechanism for the distinct functional behavior observed among the homologs."
+  - **Evidence pointer** Results section "TBP homologs display distinct DNA binding dynamics", Fig. 6A-E
+  - **Concern** The residence times are reported as single values (e.g., ~80s for TBP, ~50s for yTBP, ~30s for TRF2) but the fitting procedure, confidence intervals, and statistical comparisons between homologs are not described. For TRF3, the authors state it was "too dynamic to perform a similar analysis" but do not provide quantitative evidence for this claim. The correlation between binding dynamics and functional outcomes (cell viability, Pol III support) is asserted but not quantitatively tested.
+  - **Why it matters** The proposed mechanism of functional divergence through binding dynamics requires robust quantitative comparison. Without statistical validation and correlation analysis, the claim remains speculative.
+  - **Resolution test** Provide full fitting parameters, confidence intervals, and statistical tests for residence time comparisons. Include a quantitative correlation analysis between binding dynamics and functional readouts across all homologs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "The variable NTD modulates transcriptional responses to stress" based on heat shock experiments.
+  - **Evidence pointer** Results section "The variable NTD modulates transcriptional responses to stress", Fig. 5A-D
+  - **Concern** The heat shock experiments are described but the specific quantitative changes in Pol II occupancy and gene induction are not provided. The claim that the NTD "modulates" the response is based on comparisons between full-length and truncated/chimeric constructs, but the statistical significance of these differences is not reported. The number of biological replicates and the criteria for defining "HS-induced genes" are not specified.
+  - **Why it matters** The role of the NTD in stress responses is a key novel claim. Without quantitative data and statistical support, the conclusion is not established.
+  - **Resolution test** Provide fold-change values with statistical comparisons for Pol II occupancy and gene induction across all constructs. Specify the number of replicates and the criteria for defining responsive genes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Single particle tracking: slow tracking"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The description of the two-exponential fitting for residence time determination is brief. The rationale for choosing a two-component model over other possibilities is not explained.
+  - **Required correction** Provide additional detail on the fitting procedure, including the equation used, initial parameter estimates, and how the number of components was determined.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "CUT&Tag analysis"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The description of peak calling and differential binding analysis is incomplete. The specific tools and parameters for identifying peaks and quantifying differences between conditions are not fully described.
+  - **Required correction** Specify the peak calling algorithm, thresholds, and the approach for comparing binding between conditions (e.g., DiffBind, DESeq2 on peak counts).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Conservation in the core domain of TBP homologs does not predict DNA binding capability"
+  - **Evidence pointer** Fig. 2E
+  - **Issue** The linear regression analysis comparing binding levels between homologs is mentioned but the slope, R² values, and statistical significance are not reported in the text.
+  - **Required correction** Include the regression statistics in the text or figure legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Statistical analyses"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The statistical methods are described only as "one-way ANOVA with a 95% confidence interval" but it is unclear which comparisons were performed and whether multiple testing corrections were applied.
+  - **Required correction** Specify the exact tests used for each figure panel and whether corrections for multiple comparisons were applied.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal link between Pol III failure and lethality), R1-M2 (quantitative rigor of binding dynamics), R1-M3 (statistical support for NTD role in stress response)
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of functional divergence in TBP homologs is timely and the approach is creative, but the concept that binding dynamics contribute to functional specificity has been proposed for other transcription factors. The specific application to TBP homologs is novel.
+  - Scientific importance: Understanding how conserved factors achieve functional diversity is broadly important for evolutionary and gene regulation biology. The potential link to tissue-specific functions has implications for development and disease.
+  - Interdisciplinary readership: The work bridges transcription biochemistry, genomics, and biophysics, which could appeal to a broad readership. However, the current presentation is heavily focused on specialist techniques.
+  - Technical soundness: The experimental design is generally sound, but the lack of quantitative rigor in several key analyses (rescue assays, binding dynamics, stress response) undermines confidence in the conclusions.
+  - Readability for nonspecialists: The manuscript is clearly written but assumes significant background knowledge in transcription and single-molecule imaging. The abstract is accessible, but the results section would benefit from more context for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses an important question with a comprehensive approach, but the current evidence does not fully establish the central claims. The authors should address the quantitative gaps and provide causal evidence for the Pol III-lethality link before the case is convincing.
+
+## Risk / unsupported claims
+- The claim that "largely due to their inability to support RNA Pol III transcription" is not causally established; correlation between Pol III binding and cell viability is shown but not causation.
+- The claim that "DNA binding dynamics... suggest a potential mechanism" is speculative; no direct link between measured dynamics and functional outcomes is demonstrated.
+- The claim that the NTD "modulates transcriptional responses to stress" lacks quantitative support and statistical validation.
+- The statement that TRF3 "was too dynamic to perform a similar analysis" is not quantitatively justified.
+- The claim that "sequence and structural similarity between TBP homologs do not predict functional performance" is based on a limited set of homologs and may be overstated.

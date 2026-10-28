@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "38547624",
+    "doi": "10.1016/j.phymed.2024.155360",
+    "title": "Nobiletin targets SREBP1/ACLY to induce autophagy-dependent cell death of gastric cancer cells through PI3K/Akt/mTOR signaling pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Autophagy could sense metabolic conditions and safeguard cells against nutrient deprivation, ultimately supporting the survival of cancer cells. Nobiletin (NOB) is a kind of bioactive component of the traditional Chinese medicine Citri Reticulatae Pericarpium and has been proven to induce GC cell death by reducing de novo fatty acid synthesis in our previous study. Nevertheless, the precise mechanisms by which NOB induces cell death in GC cells still need further elucidation. OBJECTIVES: To examine the mechanism by which NOB inhibits gastric cancer progression through the regulation of autophagy under the condition of lipid metabolism inhibition. METHODS/ STUDY DESIGN: Proliferation was detected by the CCK-8 assay. RNA sequencing (RNA-seq) was used to examine signaling pathway changes. Electron microscopy and mRFP-GFP-LC3 lentiviral transfection were performed to observe autophagy in vitro. Western blot, plasmid transfection, immunofluorescence staining, and CUT & Tag-qPCR techniques were utilized to explore the mechanisms by which NOB affects GC cells. Molecular docking and molecular dynamics simulations were conducted to predict the binding mode of NOB and SREBP1. CETSA was adopted to verify the predicted of binding model. A patient-derived xenograft (PDX) model was employed to verify the therapeutic efficacy of NOB in vivo. RESULTS: We conducted functional studies and discovered that NOB inhibited the protective effect of autophagy via the PI3K/Akt/mTOR axis in GC cells. Based on previous research, we found that the overexpression of ACLY abrogated the NOB-induced autophagy-dependent cell death. In silico analysis predicted the formation of a stable complex between NOB and SREBP1. In vitro assays confirmed that NOB treatment increased the thermal stability of SREBP1 at the same temperature conditions. Moreover, CUT&TAG-qPCR analysis revealed that NOB could inhibit SREBP1 binding to the ACLY promoter. In the PDX model, NOB suppressed tumor growth, causing SREBP1 nuclear translocation inhibition, PI3K/Akt/mTOR inactivation, and autophagy-dependent cell death. CONCLUSION: NOB demonstrated the ability to directly bind to SREBP1, inhibiting its nuclear translocation and binding to the ACLY promoter, thereby inducing autophagy-dependent cell death via PI3K/Akt/mTOR pathway.",
+    "keywords": [
+      "ACLY",
+      "Autophagy",
+      "Gastric cancer",
+      "Nobiletin",
+      "SREBP1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Stomach Neoplasms/drug therapy",
+      "*TOR Serine-Threonine Kinases/metabolism",
+      "*Proto-Oncogene Proteins c-akt/metabolism",
+      "*Signal Transduction/drug effects",
+      "*Flavones/pharmacology",
+      "*Sterol Regulatory Element Binding Protein 1/metabolism",
+      "Animals",
+      "*Autophagy/drug effects",
+      "*Phosphatidylinositol 3-Kinases/metabolism",
+      "Cell Line, Tumor",
+      "Molecular Docking Simulation",
+      "Mice",
+      "Mice, Nude",
+      "Mice, Inbred BALB C"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Menglin",
+        "Li, Huaizhi",
+        "Zheng, Shanshan",
+        "Shen, Junyu",
+        "Chen, Yuxuan",
+        "Li, Yaqi",
+        "Yuan, Mengyun",
+        "Wu, Jian",
+        "Sun, Qingmin"
+      ],
+      "short_names": [
+        "Chen M",
+        "Li H",
+        "Zheng S",
+        "Shen J",
+        "Chen Y",
+        "Li Y",
+        "Yuan M",
+        "Wu J",
+        "Sun Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China; No.1 Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China.",
+        "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China; No.1 Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China.",
+        "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China; No.1 Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China.",
+        "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China; No.1 Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China.",
+        "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China; No.1 Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China.",
+        "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China; No.1 Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China.",
+        "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China; No.1 Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China.",
+        "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China. Electronic address: jianwu@njucm.edu.cn.",
+        "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China. Electronic address: qingminsun@njucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Menglin",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China; No.1 Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China."
+        ]
+      },
+      {
+        "full_name": "Li, Huaizhi",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China; No.1 Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Shanshan",
+        "short_name": "Zheng S",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China; No.1 Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Junyu",
+        "short_name": "Shen J",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China; No.1 Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yuxuan",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China; No.1 Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yaqi",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China; No.1 Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Mengyun",
+        "short_name": "Yuan M",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China; No.1 Clinical Medical College, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jian",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China. Electronic address: jianwu@njucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Sun, Qingmin",
+        "short_name": "Sun Q",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Province Key Laboratory of Tumor Systems Biology and Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, Jiangsu 210029, China. Electronic address: qingminsun@njucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/29 00:45",
+    "fetched_at": "2026-10-05 00:22:08"
+  },
+  "links": {
+    "cites": [
+      "42694409",
+      "42596850",
+      "42576500",
+      "42388649",
+      "42360010",
+      "42307886",
+      "42298679",
+      "42169652",
+      "42152943",
+      "42094009",
+      "42038349",
+      "41896699",
+      "41806079",
+      "41736076",
+      "41708586",
+      "41668149",
+      "41366242",
+      "41184196",
+      "41179715",
+      "41158277",
+      "41111887",
+      "40901479",
+      "40837774",
+      "40738018",
+      "40673317",
+      "40668814",
+      "40581895",
+      "40559911",
+      "40360552",
+      "40155922",
+      "40066330",
+      "39975956",
+      "39802901",
+      "39558331",
+      "39145305",
+      "38910476"
+    ],
+    "refs": [],
+    "similar": [
+      "38547624",
+      "31918283",
+      "37270969",
+      "40409102",
+      "31820522",
+      "39592900",
+      "31398899",
+      "31913198",
+      "32454290",
+      "32733943",
+      "34132136",
+      "31600493",
+      "27838742",
+      "39236456",
+      "38295877",
+      "41326907",
+      "31678170",
+      "36548730",
+      "34425525",
+      "36786694",
+      "39566525",
+      "38971334",
+      "29680738",
+      "26499488",
+      "33978839",
+      "40354836",
+      "30096805",
+      "30374682",
+      "25193113",
+      "39150386",
+      "41214713",
+      "34224698",
+      "31091245",
+      "39192653",
+      "39805790",
+      "37288949",
+      "32323781",
+      "27416805",
+      "34488535",
+      "36690307",
+      "40651685",
+      "39284270",
+      "39968587",
+      "36620343",
+      "30897708",
+      "37738907",
+      "31406106",
+      "40942159",
+      "40756270",
+      "33017635",
+      "37999920",
+      "39701786",
+      "33987439",
+      "30025823",
+      "39586558",
+      "41043699",
+      "37789274",
+      "38591199",
+      "31322140",
+      "40084689",
+      "40424983",
+      "36116150",
+      "38956060",
+      "32862591",
+      "29968360",
+      "39550921",
+      "40395438",
+      "39873948",
+      "39695014",
+      "30466611",
+      "39276043",
+      "30066879",
+      "39645568",
+      "34091441",
+      "37257791",
+      "30355943",
+      "36482460",
+      "23555162",
+      "23393227",
+      "26311737",
+      "29635125",
+      "38940038",
+      "36403742",
+      "39983890",
+      "36209164",
+      "39079195",
+      "37543168",
+      "39426254",
+      "29620275",
+      "31564833",
+      "40577270",
+      "37863866",
+      "38801644",
+      "40691672",
+      "38925830",
+      "30481766",
+      "31351435",
+      "33229547",
+      "32088246",
+      "31401494"
+    ],
+    "review": [
+      "38547624"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(24)00025-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

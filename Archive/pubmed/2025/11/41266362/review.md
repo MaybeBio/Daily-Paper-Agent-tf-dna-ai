@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, methods, and figure legends
+- **Assessment boundary** Scientific validity, methodological rigor, and support for claims based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors present a computational pipeline (ProSNP-DL) integrating a deep learning enhancer model with a sliding window strategy to identify non-coding SNPs with allele frequency differences between African and European ancestry populations that may affect prostate cancer risk. They report ~2000 such SNPs, propose complementary oncogenic mechanisms, identify disrupted transcription factor binding, and demonstrate improved polygenic risk score performance.
+- **Visible evidence base** Main text, Methods section, figure legends for Figures 1–6, supplementary figure legends, and supplementary data file descriptions
+- **Missing materials affecting confidence** Supplementary figures and data files (S1–S8, Data 1–9), detailed model training hyperparameters, cohort descriptions for PEGASUS and Ghana datasets, and complete statistical outputs
+
+## Reviewer
+- **Overall assessment** This manuscript presents a novel computational approach to identify ancestry-differentiated regulatory variants in prostate cancer. The integration of deep learning enhancer prediction with population genetics is timely and potentially impactful. However, several major concerns regarding validation rigor, statistical methodology, and the strength of causal claims need to be addressed before the conclusions are fully supported.
+- **Who would be interested in the results, and why** Researchers in prostate cancer genetics, health disparities research, regulatory genomics, and those developing polygenic risk scores. The work is also relevant to method developers applying deep learning to functional genomics.
+- **Major strengths** The study addresses an important health disparity with a mechanistically motivated approach. The use of a deep learning model with single-nucleotide resolution is innovative. The integration of multiple validation strategies (allelic imbalance, TF binding, survival analysis, PRS performance) is commendable. The experimental validation of FOXA1 binding provides direct evidence for the proposed mechanism.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim that eSNPs are "associated with PrCa risk" based on enrichment in GWAS signals and PRS performance.
+  - **Evidence pointer** Figure 3C, 3D, Figure 6A, 6B; Methods section "Polygenic risk score"
+  - **Concern** The PRS analysis methodology is incompletely described. The authors state they used 10-fold cross-validation in the EA cohort and then applied the model to the AA cohort, but critical details are missing: how were weights estimated, what covariates were included, how was the number of SNPs in the PRS determined, and was there any LD pruning or clumping? The comparison to PGS-545 is unclear regarding whether the same training and testing procedures were used.
+  - **Why it matters** Without complete methodological details, the PRS performance claims cannot be evaluated or reproduced. The comparison to existing PRS approaches is central to the translational claim of the paper.
+  - **Resolution test** Provide complete details of PRS construction, including SNP selection, weight estimation, covariate adjustment, and validation procedures. Show that the improved performance is not due to overfitting or methodological differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The authors state that gained eSNPs "may promote cancer via... immune suppression and telomere elongation" and that lost eSNPs cause "de-differentiation and apoptosis inhibition."
+  - **Evidence pointer** Figure 4A–E; Results section "The gained and lost activity eSNPs may facilitate carcinogenesis via complementary mechanisms"
+  - **Concern** The functional mechanism claims rely on gene ontology enrichment and correlation with expression data. The causal direction is assumed rather than tested. For example, the TIDE analysis shows association with T cell dysfunction scores, but this does not establish that the eSNPs cause immune suppression. Similarly, the regression analysis showing association with fetal/adult expression differences does not demonstrate causality.
+  - **Why it matters** The mechanistic claims are a major contribution of the paper. If the evidence is only correlational, the conclusions should be tempered accordingly.
+  - **Resolution test** Either provide experimental evidence for causality (e.g., CRISPR perturbation, reporter assays) or revise the language to clearly indicate that these are hypotheses generated from correlational data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation adequacy
+  - **Claim pointer** The authors claim that "eSNPs exhibited a significantly greater extent of allelic imbalance of H3K27ac read coverage" compared to non-eSNPs.
+  - **Evidence pointer** Figure 3A, 3B; Methods section "Identification of allelic imbalance in H3K27ac data"
+  - **Concern** The allelic imbalance analysis uses data from only 5 European-ancestry prostate cancer patients. The authors do not report whether any African-ancestry samples were included in this validation. Given that the eSNPs are defined by African-ancestry allele frequencies, validation in African-ancestry samples would be more appropriate. Additionally, the threshold of 6 reads for inclusion is very low and may lead to unreliable allele-specific calls.
+  - **Why it matters** The validation is performed in a population that does not match the primary focus of the study. This limits the generalizability of the findings.
+  - **Resolution test** Include allelic imbalance analysis in African-ancestry samples, or justify why European-ancestry samples are sufficient for validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The deep learning model is described as having "single-nucleotide resolution" and is used to predict enhancer activity changes.
+  - **Evidence pointer** Figure 2A, 2B; Methods section "A deep convolutional neural network model of prostate enhancers"
+  - **Concern** The model performance is only reported as AUROC (0.91). No precision-recall curve, calibration metrics, or comparison to alternative models are provided. The choice of threshold (FPR ≤ 0.01) for defining active enhancers is not justified. The model was trained on LNCaP H3K27ac data, but the generalizability to other prostate cell lines or tissues is not demonstrated beyond the supplementary figure S1.
+  - **Why it matters** The entire pipeline depends on the reliability of the deep learning model. Inadequate model evaluation undermines confidence in all downstream results.
+  - **Resolution test** Provide comprehensive model evaluation metrics, including precision-recall curves, calibration plots, and validation in independent enhancer datasets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1 legend
+  - **Issue** The figure legend is brief and does not fully explain the pipeline steps, particularly the EWN calculation and the criteria for eSNP classification.
+  - **Required correction** Expand the figure legend to clearly describe each step of the pipeline and the decision criteria used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 3E
+  - **Evidence pointer** Figure 3E legend
+  - **Issue** The figure legend mentions a bootstrap-based test with p-value 0.0189 but does not describe the number of bootstrap iterations or the exact procedure.
+  - **Required correction** Provide complete details of the bootstrap procedure in the Methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section "Data processing"
+  - **Issue** The authors state that data were downloaded from the European Nucleotide Archive but do not provide accession numbers for the specific datasets used.
+  - **Required correction** Provide accession numbers for all datasets used in the study.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of clinical implications is somewhat speculative and could benefit from a more measured tone regarding the translational potential of the findings.
+  - **Required correction** Temper the language regarding clinical utility and acknowledge the need for further validation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (PRS methodology), R1-M2 (causal claims), R1-M3 (validation population mismatch), R1-M4 (model evaluation)
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The integration of deep learning enhancer prediction with population-specific allele frequency analysis is novel.
+  - **Scientific importance** High. The work addresses a significant health disparity and proposes a mechanistically informed approach to risk prediction.
+  - **Interdisciplinary readership** Moderate. The work will appeal to geneticists, computational biologists, and cancer researchers, but may be less accessible to a broader audience.
+  - **Technical soundness** Moderate. The deep learning approach is sound in principle, but the evaluation and validation are incomplete.
+  - **Readability for nonspecialists** Moderate. The manuscript is generally well-written but contains technical details that may be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the work addresses an important problem, but the current evidence does not fully support all claims made.
+
+## Risk / unsupported claims
+- The claim that eSNPs "may promote cancer via... immune suppression and telomere elongation" is not supported by direct experimental evidence.
+- The claim that the PRS based on eSNPs "can distinguish PrCa patients from healthy controls with high accuracy, far better than controls" is unclear and potentially overstated given the incomplete methodological description.
+- The generalizability of the allelic imbalance validation to African-ancestry populations is not established.
+- The claim that the deep learning model has "single-nucleotide resolution" is not fully supported by the validation presented.

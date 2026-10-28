@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "39183201",
+    "doi": "10.1186/s40510-024-00532-4",
+    "title": "What could be the role of genetic tests and machine learning of AXIN2 variant dominance in non-syndromic hypodontia? A case-control study in orthodontically treated patients."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hypodontia is the most prevalent dental anomaly in humans, and is primarily attributed to genetic factors. Although genome-wide association studies (GWAS) have identified single-nucleotide polymorphisms (SNP) associated with hypodontia, genetic risk assessment remains challenging due to population-specific SNP variants. Therefore, we aimed to conducted a genetic analysis and developed a machine-learning-based predictive model to examine the association between previously reported SNPs and hypodontia in the Saudi Arabian population. Our case-control study included 106 participants (aged 8-50 years; 64 females and 42 males), comprising 54 hypodontia cases and 52 controls. We utilized TaqMan(TM) Real-Time Polymerase Chain Reaction and allelic genotyping to analyze three selected SNPs (AXIN2: rs2240308, PAX9: rs61754301, and MSX1: rs12532) in unstimulated whole saliva samples. The chi-square test, multinomial logistic regression, and machine-learning techniques were used to assess genetic risk by using odds ratios (ORs) for multiple target variables. RESULTS: Multivariate logistic regression indicated a significant association between homozygous AXIN2 rs2240308 and the hypodontia phenotype (ORs [95% confidence interval] 2.893 [1.28-6.53]). Machine-learning algorithms revealed that the AXIN2 homozygous (A/A) genotype is a genetic risk factor for hypodontia of teeth #12, #22, and #35, whereas the AXIN2 homozygous (G/G) genotype increases the risk for hypodontia of teeth #22, #35, and #45. The PAX9 homozygous (C/C) genotype is associated with an increased risk for hypodontia of teeth #22 and #35. CONCLUSIONS: Our study confirms a link between AXIN2 and hypodontia in Saudi orthodontic patients and suggests that combining machine-learning models with SNP analysis of saliva samples can effectively identify individuals with non-syndromic hypodontia.",
+    "keywords": [
+      "AXIN2",
+      "MSX1",
+      "PAX9",
+      "Genetics",
+      "Machine learning algorithms",
+      "Non-syndromic hypodontia",
+      "Orthodontics",
+      "Single nucleotide polymorphism"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Axin Protein/genetics",
+      "*Anodontia/genetics",
+      "Case-Control Studies",
+      "*Machine Learning",
+      "Female",
+      "Male",
+      "*Polymorphism, Single Nucleotide",
+      "Adolescent",
+      "Child",
+      "Adult",
+      "PAX9 Transcription Factor/genetics",
+      "Middle Aged",
+      "Saudi Arabia",
+      "Genetic Testing/methods",
+      "MSX1 Transcription Factor/genetics",
+      "Genotype",
+      "Young Adult",
+      "Phenotype"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alhazmi, Nora",
+        "Alaqla, Ali",
+        "Almuzzaini, Bader",
+        "Aldrees, Mohammed",
+        "Alnaqa, Ghaida",
+        "Almasoud, Farah",
+        "Aldibasi, Omar",
+        "Alshamlan, Hala"
+      ],
+      "short_names": [
+        "Alhazmi N",
+        "Alaqla A",
+        "Almuzzaini B",
+        "Aldrees M",
+        "Alnaqa G",
+        "Almasoud F",
+        "Aldibasi O",
+        "Alshamlan H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3873-4910"
+      ],
+      "affiliations": [
+        "Department of Preventive Dental Sciences, College of Dentistry, King Saud bin Abdulaziz University for Health Sciences, King Abdullah International Medical Research Center, Ministry of the National Guard Health Affairs, Riyadh, Saudi Arabia. nora.alhazmi2012@gmail.com.",
+        "Department of Restorative and Prosthetic Dental Sciences, College of Dentistry, King Saud bin Abdulaziz University for Health Sciences, King Abdullah International Medical Research Center, Ministry of the National Guard Health Affairs, Riyadh, Saudi Arabia.",
+        "Department of Medical Genomics Research, King Abdullah International Medical Research Center, King Saud bin Abdulaziz University for Health Sciences, Ministry of the National Guard Health Affairs, Riyadh, Saudi Arabia.",
+        "Department of Medical Genomics Research, King Abdullah International Medical Research Center, King Saud bin Abdulaziz University for Health Sciences, Ministry of the National Guard Health Affairs, Riyadh, Saudi Arabia.",
+        "College of Dentistry, King Saud bin Abdulaziz University for Health Sciences, King Abdullah International Medical Research Center, Ministry of the National Guard Health Affairs, Riyadh, Saudi Arabia.",
+        "College of Dentistry, King Saud bin Abdulaziz University for Health Sciences, King Abdullah International Medical Research Center, Ministry of the National Guard Health Affairs, Riyadh, Saudi Arabia.",
+        "Biostatistics Section, King Abdullah International Medical Research Center, King Saud bin Abdulaziz University for Health Sciences, Ministry o the National Guard Health Affairs, Riyadh, Saudi Arabia.",
+        "Department of Information Technology, College of Computer Science, King Saud University, Riyadh, Saudi Arabia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alhazmi, Nora",
+        "short_name": "Alhazmi N",
+        "identifiers": [
+          "0000-0002-3873-4910"
+        ],
+        "affiliations": [
+          "Department of Preventive Dental Sciences, College of Dentistry, King Saud bin Abdulaziz University for Health Sciences, King Abdullah International Medical Research Center, Ministry of the National Guard Health Affairs, Riyadh, Saudi Arabia. nora.alhazmi2012@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Alaqla, Ali",
+        "short_name": "Alaqla A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Restorative and Prosthetic Dental Sciences, College of Dentistry, King Saud bin Abdulaziz University for Health Sciences, King Abdullah International Medical Research Center, Ministry of the National Guard Health Affairs, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Almuzzaini, Bader",
+        "short_name": "Almuzzaini B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genomics Research, King Abdullah International Medical Research Center, King Saud bin Abdulaziz University for Health Sciences, Ministry of the National Guard Health Affairs, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Aldrees, Mohammed",
+        "short_name": "Aldrees M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genomics Research, King Abdullah International Medical Research Center, King Saud bin Abdulaziz University for Health Sciences, Ministry of the National Guard Health Affairs, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alnaqa, Ghaida",
+        "short_name": "Alnaqa G",
+        "identifiers": [],
+        "affiliations": [
+          "College of Dentistry, King Saud bin Abdulaziz University for Health Sciences, King Abdullah International Medical Research Center, Ministry of the National Guard Health Affairs, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Almasoud, Farah",
+        "short_name": "Almasoud F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Dentistry, King Saud bin Abdulaziz University for Health Sciences, King Abdullah International Medical Research Center, Ministry of the National Guard Health Affairs, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Aldibasi, Omar",
+        "short_name": "Aldibasi O",
+        "identifiers": [],
+        "affiliations": [
+          "Biostatistics Section, King Abdullah International Medical Research Center, King Saud bin Abdulaziz University for Health Sciences, Ministry o the National Guard Health Affairs, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alshamlan, Hala",
+        "short_name": "Alshamlan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Technology, College of Computer Science, King Saud University, Riyadh, Saudi Arabia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Progress in orthodontics"
+    ],
+    "journal_abbrev": [
+      "Prog Orthod"
+    ],
+    "pub_date": "2024 Aug 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/26 12:40",
+    "fetched_at": "2026-09-30 01:48:35"
+  },
+  "links": {
+    "cites": [
+      "41489795"
+    ],
+    "refs": [
+      "37828195",
+      "37626374",
+      "36691053",
+      "35135685",
+      "34025167",
+      "33455496",
+      "32738117",
+      "31781599",
+      "30972108",
+      "30034000",
+      "29507784",
+      "27957258",
+      "27321946",
+      "25910507",
+      "25815384",
+      "25404667",
+      "24581859",
+      "24309355",
+      "23317772",
+      "23272313",
+      "22778974",
+      "21069480",
+      "20383097",
+      "18587203",
+      "18245684",
+      "18064739",
+      "17651126",
+      "16443475",
+      "15151692",
+      "15042511",
+      "7914451"
+    ],
+    "similar": [
+      "39183201",
+      "31781599",
+      "23857653",
+      "27365112",
+      "24222224",
+      "29114927",
+      "22581971",
+      "28204848",
+      "23731659",
+      "23718693",
+      "21626677",
+      "21530942",
+      "24160254",
+      "24554542",
+      "16918677",
+      "28040065",
+      "35647187",
+      "32772440",
+      "30555066",
+      "23964635",
+      "27665865",
+      "18771513",
+      "29969831",
+      "25501211",
+      "28965043",
+      "20660504",
+      "36561383",
+      "26571067",
+      "24798981",
+      "21111400",
+      "20602873",
+      "12733956",
+      "18374898",
+      "21069480",
+      "24581859",
+      "26707046",
+      "21443745",
+      "17697174",
+      "22984994",
+      "22813217",
+      "26600092",
+      "23549991",
+      "30809714",
+      "18199077",
+      "24743819",
+      "22297032",
+      "25091576",
+      "37762190",
+      "25683653",
+      "17721480",
+      "21911943",
+      "34452579",
+      "22810112",
+      "23167694",
+      "24329876",
+      "28910570",
+      "16197775",
+      "31268379",
+      "24028587",
+      "25974148",
+      "25501212",
+      "23921572",
+      "22058014",
+      "29023497",
+      "31632692",
+      "25545742",
+      "31038806",
+      "24316698",
+      "19776500",
+      "20450679",
+      "27050986",
+      "33096676",
+      "24603642",
+      "24103583",
+      "27491081",
+      "26759063",
+      "25377791",
+      "19065536",
+      "28043155",
+      "16682758",
+      "27090353",
+      "31056064",
+      "15329380",
+      "35065635",
+      "18790474",
+      "23625373",
+      "24484320",
+      "28155232",
+      "37828195",
+      "21434731",
+      "24121910",
+      "21448236",
+      "22591773",
+      "31568994",
+      "30256498",
+      "32807118",
+      "33249565",
+      "27485761",
+      "25013500",
+      "37005710"
+    ],
+    "review": [
+      "39183201",
+      "18771513",
+      "29969831",
+      "25501211",
+      "26600092",
+      "17721480",
+      "25974148",
+      "25501212",
+      "24316698",
+      "28043155",
+      "28155232",
+      "24121910",
+      "33249565"
+    ],
+    "pmc": [
+      "11345341"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/39183201/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39183201/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1186/s40510-024-00532-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

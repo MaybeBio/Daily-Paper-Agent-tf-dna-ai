@@ -1,0 +1,471 @@
+{
+  "identity": {
+    "pmid": "37234166",
+    "doi": "10.3389/fimmu.2023.1138524",
+    "title": "Comprehensive analysis of FOXM1 immune infiltrates, m6a, glycolysis and ceRNA network in human hepatocellular carcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Forkhead box M1 (FOXM1) is a member of the Forkhead box (Fox) transcription factor family. It regulates cell mitosis, cell proliferation, and genome stability. However, the relationship between the expression of FOXM1 and the levels of m6a modification, immune infiltration, glycolysis, and ketone body metabolism in HCC has yet to be fully elucidated. METHODS: Transcriptome and somatic mutation profiles of HCC were downloaded from the TCGA database. Somatic mutations were analyzed by maftools R package and visualized in oncoplots. GO, KEGG and GSEA function enrichment was performed on FOXM1 co-expression using R. We used Cox regression and machine learning algorithms (CIBERSORT, LASSO, random forest, and SVM-RFE) to study the prognostic value of FOXM1 and immune infiltrating characteristic immune cells in HCC. The relationship between FOXM1 and m6A modification, glycolysis, and ketone body metabolism were analyzed by RNA-seq and CHIP-seq. The competing endogenous RNA (ceRNA) network construction relies on the multiMiR R package, ENCORI, and miRNET platforms. RESULTS: FOXM1 is highly expressed in HCC and is associated with a poorer prognosis. At the same time, the expression level of FOXM1 is significantly related to the T, N, and stage. Subsequently, based on the machine learning strategies, we found that the infiltration level of T follicular helper cells (Tfh) was a risk factor affecting the prognosis of HCC patients. The high infiltration of Tfh was significantly related to the poor overall survival rate of HCC. Besides, the CHIP-seq demonstrated that FOXM1 regulates m6a modification by binding to the promoter of IGF2BP3 and affects the glycolytic process by initiating the transcription of HK2 and PKM in HCC. A ceRNA network was successfully obtained, including FOXM1 - has-miR-125-5p - DANCR/MIR4435-2HG ceRNA network related to the prognosis of HCC. CONCLUSION: Our study implicates that the aberrant infiltration of Tfh associated with FOXM1 is a crucial prognostic factor for HCC patients. FOXM1 regulates genes related to m6a modification and glycolysis at the transcriptional level. Furthermore, the specific ceRNA network can be used as a potential therapeutic target for HCC.",
+    "keywords": [
+      "FoxM1",
+      "glycolysis",
+      "hepatocellular carcinoma",
+      "immune infiltration",
+      "m6A modification"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Algorithms",
+      "*Carcinoma, Hepatocellular/genetics",
+      "Forkhead Box Protein M1/genetics",
+      "Forkhead Transcription Factors/genetics",
+      "Glycolysis/genetics",
+      "Ketones",
+      "*Liver Neoplasms/genetics",
+      "Membrane Glycoproteins",
+      "Nerve Tissue Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Ziwu",
+        "Pei, Chaozhu",
+        "Cheng, Haojie",
+        "Song, Kaixin",
+        "Yang, Junting",
+        "Li, Yuhang",
+        "He, Yue",
+        "Liang, Wenxuan",
+        "Liu, Biyuan",
+        "Tan, Wen",
+        "Li, Xia",
+        "Pan, Xue",
+        "Meng, Lei"
+      ],
+      "short_names": [
+        "Xu Z",
+        "Pei C",
+        "Cheng H",
+        "Song K",
+        "Yang J",
+        "Li Y",
+        "He Y",
+        "Liang W",
+        "Liu B",
+        "Tan W",
+        "Li X",
+        "Pan X",
+        "Meng L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, China.",
+        "College of Biology, Hunan University, Changsha, China.",
+        "College of Biology, Hunan University, Changsha, China.",
+        "College of Biology, Hunan University, Changsha, China.",
+        "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, China.",
+        "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, China.",
+        "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, China.",
+        "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, China.",
+        "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, China.",
+        "School of Medical, Hunan University of Chinese Medicine, Changsha, China.",
+        "Department of Pathology, Changsha Hospital of Traditional Chinese Medicine, Changsha Eighth Hospital, Changsha, China.",
+        "Department of General Surgery, People's Hospital of Hunan Province, Changsha, China.",
+        "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, China.",
+        "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Ziwu",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, China.",
+          "College of Biology, Hunan University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Pei, Chaozhu",
+        "short_name": "Pei C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biology, Hunan University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Haojie",
+        "short_name": "Cheng H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biology, Hunan University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Song, Kaixin",
+        "short_name": "Song K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Junting",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuhang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "He, Yue",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Wenxuan",
+        "short_name": "Liang W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Biyuan",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical, Hunan University of Chinese Medicine, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Wen",
+        "short_name": "Tan W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Changsha Hospital of Traditional Chinese Medicine, Changsha Eighth Hospital, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xia",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, People's Hospital of Hunan Province, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Xue",
+        "short_name": "Pan X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Lei",
+        "short_name": "Meng L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/26 13:09",
+    "fetched_at": "2026-09-29 01:02:28"
+  },
+  "links": {
+    "cites": [
+      "42406290",
+      "42346134",
+      "42340494",
+      "41879922",
+      "41731449",
+      "41678042",
+      "41608687",
+      "40605165",
+      "40566633",
+      "40266300",
+      "39773040",
+      "39769264",
+      "39739005",
+      "39630361",
+      "39428936",
+      "39414367",
+      "39263145",
+      "39060874",
+      "39040140",
+      "38699169",
+      "38566554",
+      "38525735",
+      "38403332",
+      "38349439",
+      "38022515"
+    ],
+    "refs": [
+      "36642575",
+      "36435510",
+      "36367225",
+      "36321662",
+      "36313631",
+      "36007522",
+      "35975458",
+      "35874717",
+      "35794249",
+      "35668135",
+      "35412588",
+      "35197112",
+      "35081874",
+      "35022204",
+      "35000616",
+      "34859256",
+      "34742786",
+      "34692477",
+      "34633859",
+      "34321607",
+      "34311499",
+      "34192545",
+      "34109209",
+      "34087888",
+      "33940446",
+      "33538338",
+      "33335427",
+      "33272103",
+      "32810447",
+      "32484539",
+      "32391055",
+      "32282295",
+      "32183948",
+      "32111216",
+      "32067537",
+      "32017470",
+      "31822664",
+      "31629092",
+      "31384178",
+      "31322267",
+      "31117010",
+      "30988676",
+      "30935888",
+      "30852741",
+      "30628173",
+      "30524903",
+      "30242023",
+      "30057315",
+      "29941230",
+      "29736175",
+      "29462250",
+      "29344893",
+      "29303511",
+      "29151926",
+      "29136207",
+      "28978066",
+      "28855104",
+      "28830838",
+      "28584182",
+      "28344040",
+      "28260073",
+      "27557773",
+      "27255554",
+      "26922301",
+      "26358722",
+      "25516281",
+      "24298908",
+      "24297251",
+      "23443798",
+      "22455463",
+      "22139074",
+      "21431285",
+      "21376230",
+      "20531406",
+      "20156581",
+      "18020943",
+      "16199517",
+      "12360277",
+      "12297093",
+      "9032290"
+    ],
+    "similar": [
+      "37234166",
+      "35812416",
+      "28260073",
+      "32174012",
+      "35201491",
+      "38001498",
+      "32723329",
+      "28862757",
+      "32106369",
+      "38007640",
+      "35833147",
+      "29705704",
+      "31072351",
+      "25574092",
+      "31593490",
+      "38566554",
+      "29303511",
+      "34087888",
+      "19136513",
+      "36362375",
+      "33955330",
+      "36936971",
+      "22613004",
+      "39060874",
+      "35955438",
+      "34148185",
+      "37382415",
+      "32390596",
+      "21431285",
+      "32945493",
+      "28249813",
+      "23812424",
+      "29973656",
+      "35963644",
+      "35065633",
+      "37525171",
+      "26500057",
+      "35399515",
+      "34551796",
+      "34487338",
+      "38627714",
+      "34279157",
+      "27383303",
+      "32333311",
+      "36462500",
+      "34589117",
+      "38163150",
+      "25828473",
+      "34335635",
+      "37469973",
+      "25973036",
+      "38953837",
+      "34324544",
+      "34237706",
+      "33879119",
+      "31164201",
+      "34426790",
+      "34988119",
+      "37817774",
+      "32032602",
+      "22831955",
+      "32711110",
+      "34027555",
+      "35422168",
+      "36685103",
+      "37746945",
+      "33750326",
+      "38481809",
+      "33754036",
+      "32104698",
+      "26289845",
+      "24577129",
+      "35260168",
+      "35123420",
+      "36940637",
+      "20712011",
+      "36244757",
+      "36304284",
+      "30999932",
+      "36121511",
+      "37881434",
+      "34461607",
+      "38193002",
+      "37985379",
+      "38213141",
+      "35656815",
+      "37074800",
+      "31438961",
+      "38091112",
+      "37120506",
+      "27351131",
+      "28849004",
+      "35035681",
+      "36591653",
+      "38063438",
+      "32089501",
+      "33968985",
+      "36204642",
+      "37381005",
+      "35941582",
+      "20154714",
+      "39393566",
+      "34205406"
+    ],
+    "review": [
+      "37234166",
+      "38007640"
+    ],
+    "pmc": [
+      "10208224"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37234166/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37234166",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1242",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2023.1138524",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

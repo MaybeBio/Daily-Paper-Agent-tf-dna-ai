@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.05.25.727528",
+  "title": "Sequence-Based Prioritization of Promoter Regulatory Variants in Colorectal Cancer Using a DNA Foundation Model",
+  "authors": "Sripal Vajinepalli; Aashna Saraf; Sayane Shome",
+  "journal": "bioRxiv",
+  "published_date": "2026-05-28",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用DNA基础模型Evo2对结直肠癌启动子调控变异进行优先级排序，虽涉及TF结合位点重叠验证，但核心是变异效应预测而非TF-DNA互作机制建模，方法可迁移至TF-DNA研究。",
+  "abstract": "Noncoding regulatory variants contribute to colorectal cancer (CRC) susceptibility, yet their functional interpretation remains difficult.This is mainly attributed to regulatory effects being context-dependent and most noncoding regions lack reliable genomic annotations. We have developed a computational framework that aids in prioritizing promoter-associated variants using Evo2, a large-scale autoregressive DNA foundation model. In the framework, variants were mapped to promoter regions (±1,024 bp) across ∼1,250 CRC-associated genes and scored using Evo2-derived delta scores, the difference in sequence probability between reference and alternate alleles. Promoter variants showed greater predicted regulatory impact than non-promoter variants (median delta = 0.015 vs. 0.002; overall mean = 0.018, SD = 0.011). Applying a distributional threshold (delta > 0.020; top ∼25%) identified 287 high-impact variants across 198 CRC-associated genes. These genes were enriched in CRC-relevant pathways such as Wnt signaling, p53 signaling, and cell cycle regulation and 36.4% (72/198) overlapped known cancer genes (2.3-fold enrichment, p = 8.7×10 −6 ). Independent validation showed high-impact variants were enriched at CRC GWAS loci and overlapped transcription factor binding sites (∼32%) and motif-disrupting positions (∼21%), supporting their functional relevance. Together, these results show that sequence-based foundation models can scalably prioritize noncoding regulatory candidates in CRC without supervised training or predefined annotations.",
+  "abstract_zh": "非编码调控变异与结直肠癌（CRC）易感性相关，但其功能解读仍具挑战性。这主要归因于调控效应具有上下文依赖性，且大多数非编码区域缺乏可靠的基因组注释。我们开发了一个计算框架，利用Evo2（一种大规模自回归DNA基础模型）辅助优先排序启动子相关变异。在该框架中，变异被映射到约1,250个CRC相关基因的启动子区域（±1,024 bp），并使用Evo2衍生的delta分数（参考等位基因与替代等位基因之间序列概率的差异）进行评分。启动子变异显示出比非启动子变异更大的预测调控影响（中位delta = 0.015对0.002；总体均值 = 0.018，SD = 0.011）。应用分布阈值（delta > 0.020；前约25%）在198个CRC相关基因中识别出287个高影响变异。这些基因富集于CRC相关通路，如Wnt信号、p53信号和细胞周期调控，且36.4%（72/198）与已知癌症基因重叠（2.3倍富集，p = 8.7×10⁻⁶）。独立验证显示，高影响变异在CRC GWAS位点富集，并与转录因子结合位点（约32%）和基序破坏位置（约21%）重叠，支持其功能相关性。综合来看，这些结果表明，基于序列的基础模型可在无监督训练或预定义注释的情况下，可扩展地优先排序CRC中的非编码调控候选变异。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.05.25.727528",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.25.727528",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.05.25.727528/index.html"
+}

@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability, supplementary data description)
+- **Assessment boundary** Scientific claims, methodological soundness, evidence consistency, and alignment with stated conclusions. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors propose that the pioneer transcription factor Sox binds nucleosomal DNA in a position-dependent manner, with SHL2 uniquely permitting both base-specific and shape-based DNA recognition when the cognate motif faces the solvent. They combine molecular dynamics simulations, integrative modeling, and footprinting experiments to argue that histone-DNA interactions dictate the availability of specific recognition mechanisms at different superhelical locations.
+- **Visible evidence base** Molecular dynamics simulation analyses (P-RMSD, interaction profiles), hydroxyl radical footprinting gels, UV laser footprinting gels, apparent dissociation constant measurements, structural models, supplementary figures and tables referenced.
+- **Missing materials affecting confidence** Raw gel images, full simulation convergence metrics, force field validation details, complete statistical analysis of footprinting replicates, uncropped gel data, and detailed model validation statistics for the DIM protocol.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant question in chromatin biology: how pioneer transcription factors achieve sequence-specific recognition on nucleosomal DNA. The combination of computational and experimental approaches is commendable and the central observation regarding SHL2 specificity is potentially important. However, the evidence as presented does not fully establish the mechanistic claims. Several key conclusions rest on indirect measurements, and the quantitative support for the central claim of position-dependent recognition is incomplete. The manuscript would benefit from additional controls, more rigorous statistical treatment, and clearer presentation of raw data.
+- **Who would be interested in the results, and why** Researchers studying pioneer transcription factors, chromatin structure and dynamics, nucleosome positioning, and the molecular basis of transcription factor binding to chromatin. The work also has relevance for those interested in computational approaches to protein-DNA interactions on nucleosomal templates.
+- **Major strengths** The study addresses an important and timely question. The combination of long-timescale MD simulations with two complementary footprinting techniques is methodologically ambitious. The authors make their models and trajectories available, which is commendable. The observation that SHL2 uniquely supports full base and shape reading is potentially significant and could inform future structural studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that Sox binds to SHL2 without imposing significant conformational changes when the cognate sequence faces the solvent.
+  - **Evidence pointer** Figure 1E, Supplementary Figure 2A-B, Results section "Only at SHL2 Sox can exert its fingerprint base and shape DNA reading"
+  - **Concern** The central claim that SHL2 binding occurs without significant conformational changes is based on P-RMSD comparisons between simulated free Sox:DNA and Sox:SHL2 complexes. However, the P-RMSD values are computed over only seven nucleotides, which may not capture global nucleosomal DNA rearrangements. The manuscript does not report global nucleosome deformation metrics, histone-DNA contact changes, or DNA end fraying analyses. The statement that "Sox binds to the compact nucleosome without imposing any significant conformational changes" requires a more comprehensive structural comparison than a local P-RMSD over a short DNA segment.
+  - **Why it matters** This claim is foundational to the paper's central thesis. If Sox binding at SHL2 actually induces larger-scale nucleosomal rearrangements, the interpretation of position-dependent recognition would need revision.
+  - **Resolution test** Provide global nucleosome deformation analyses (e.g., overall DNA bending angles, histone-DNA contact maps, gyre-gyre distances) comparing free and Sox-bound nucleosomes. Report P-RMSD over the entire nucleosomal DNA, not just the seven-nucleotide recognition site.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** The claim that SHL4 permits only shape reading and the dyad allows no reading mechanism.
+  - **Evidence pointer** Figure 2B-D, Figure 3B, Table 1, Results section "UV laser footptinting validates that DNA shape reading is realized at SHL2 and SHL4, but not at the dyad"
+  - **Concern** The distinction between "shape reading only" at SHL4 and "no reading" at the dyad is based on interaction frequency analyses from MD simulations and UV laser footprinting. However, the manuscript does not provide quantitative thresholds or statistical tests to distinguish these categories. The interaction profiles in Figure 2C-D are presented as qualitative barcode plots without quantitative comparison. The UV laser footprinting data show differences in band intensities, but the manuscript does not report replicate numbers, error bars, or statistical significance for the apparent differences between SHL positions. The Kd app values in Table 1 are presented without confidence intervals or replicate information.
+  - **Why it matters** The graded distinction between SHL2, SHL4, and dyad is the paper's main conceptual contribution. Without quantitative support, the claim that these represent categorically different recognition modes is not established.
+  - **Resolution test** Provide quantitative interaction frequencies with standard deviations across replicate simulations. Report statistical comparisons of footprinting band intensities across conditions. Include replicate measurements and error estimates for Kd app values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The claim that footprinting experiments validate the computational predictions of position-dependent Sox binding.
+  - **Evidence pointer** Figure 3A-B, Results section "Solvent-facing Sox binding is confirmed by the •OH footprinting experiments"
+  - **Concern** The hydroxyl radical footprinting experiments are described as confirming solvent-facing binding at all three SHL positions, but the authors note that protection at SHL2 and SHL4 is "not so well visible." The UV laser footprinting is used to distinguish shape reading at SHL2 and SHL4 from the dyad, but the manuscript does not provide a clear quantitative comparison between the computational predictions and the experimental results. The connection between the simulation-derived interaction profiles and the footprinting patterns is asserted rather than demonstrated through quantitative correlation or predictive testing.
+  - **Why it matters** The paper claims that computational and experimental approaches validate each other. Without a rigorous quantitative link between the two, the validation claim is weakened.
+  - **Resolution test** Provide a quantitative comparison between predicted interaction strengths and observed footprinting intensities. Report correlation coefficients or other statistical measures linking simulation and experiment. Include negative controls (e.g., Sox binding to nucleosomes with mutated recognition sequences) to confirm specificity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validity
+  - **Claim pointer** The use of Sox6 as a proxy for Sox11 in experiments, justified by sequence conservation.
+  - **Evidence pointer** Methods section "Sox6 HMG domain cloning and purification", Results section "Solvent-facing Sox binding is confirmed by the •OH footprinting experiments"
+  - **Concern** The computational work uses Sox11, while the experimental validation uses Sox6. The authors justify this by sequence conservation, but the manuscript does not demonstrate that Sox6 and Sox11 have equivalent DNA binding properties, nucleosome binding modes, or interaction patterns. The homology model of Sox6 is used for one simulation set, but the manuscript does not compare Sox6 and Sox11 binding behavior directly.
+  - **Why it matters** If Sox6 and Sox11 differ in their nucleosome binding properties, the experimental validation may not directly test the computational predictions.
+  - **Resolution test** Provide a direct comparison of Sox6 and Sox11 binding to the same nucleosomal templates, either experimentally or computationally. Alternatively, justify the use of Sox6 with quantitative binding data showing equivalence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states that pioneer transcription factors "directly bind to chromatin for stimulating vital cellular processes" without specifying which processes or providing context for the reader.
+  - **Required correction** Briefly specify the types of cellular processes or provide a reference for the claim.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, MD simulation parameters
+  - **Evidence pointer** Methods section "Molecular dynamics simulations and analysis protocols"
+  - **Issue** The methods describe the force field, water model, and salt concentration, but do not report the specific GROMACS version for each simulation set, the thermostat/barostat algorithms, or the equilibration protocol in sufficient detail for reproduction.
+  - **Required correction** Provide complete simulation parameters including integrator settings, temperature/pressure coupling methods, and the full equilibration procedure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1, Results section "UV laser footptinting validates that DNA shape reading is realized at SHL2 and SHL4, but not at the dyad"
+  - **Issue** The Kd app values are presented without error estimates or replicate numbers.
+  - **Required correction** Report the number of independent measurements, standard deviations or confidence intervals, and the fitting procedure used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 3A
+  - **Evidence pointer** Figure 3A, Results section "Solvent-facing Sox binding is confirmed by the •OH footprinting experiments"
+  - **Issue** The authors note that protection at SHL2 and SHL4 is "not so well visible" in the footprinting data. This limits the interpretability of the figure.
+  - **Required correction** Provide enlarged views of the relevant gel regions or quantitative densitometry traces with clear peak assignments.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The phrase "ultimate utility player of the cell" is informal and not standard scientific terminology.
+  - **Required correction** Replace with a more formal description of Sox family functions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (insufficient structural evidence for the "no significant conformational change" claim), R1-M2 (lack of quantitative support for categorical distinction between SHL positions), R1-M3 (incomplete quantitative link between simulation and experiment).
+- **Assessment against Nature-style criteria** Originality: The question of position-dependent pioneer factor recognition is timely and the specific focus on solvent-facing motifs is a useful contribution. However, the conceptual framework of histone-DNA interactions modulating factor binding is not entirely new. Scientific importance: If fully established, the findings would be of interest to the chromatin field. The claim that SHL2 is uniquely permissive is potentially important. Interdisciplinary readership: The work bridges computational biophysics and experimental chromatin biology, which could appeal to a broad readership. Technical soundness: The computational approach is reasonable but lacks comprehensive validation metrics. The experimental data are presented without sufficient statistical rigor. Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with nucleosome structure and MD simulation terminology. The abstract is accessible, but the results section requires specialized knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The central claims require additional quantitative support and more rigorous experimental validation. The manuscript has potential but needs substantial revision to address the major concerns.
+
+## Risk / unsupported claims
+- The claim that Sox binds to SH2 without significant conformational changes is not fully supported by the presented P-RMSD analysis over a short DNA segment.
+- The categorical distinction between "shape reading only" at SHL4 and "no reading" at the dyad is not quantitatively established.
+- The use of Sox6 as a proxy for Sox11 in experiments is not validated with direct comparative data.
+- The statement that the DIM approach "reveals" the concurrent requirement of base and shape reading is an interpretation that extends beyond the direct evidence.
+- The claim that the findings "could be valid for other PTFs as well" is speculative and not supported by data presented in this manuscript.

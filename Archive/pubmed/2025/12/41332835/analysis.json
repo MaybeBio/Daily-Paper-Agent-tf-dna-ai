@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41332835",
+  "title": "Interactions with polygenic background impact quantitative traits in the UK Biobank.",
+  "authors": "Ferreira, Lino A F; Hu, Sile; Davies, Robert W; Myers, Simon R",
+  "journal": "medRxiv : the preprint server for health sciences",
+  "published_date": "2025-12-03",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用UK Biobank数据检测SNP与多基因评分的统计互作，并基于转录因子结合位点对PGS进行功能分区，虽涉及TF结合位点但核心是统计遗传学而非蛋白-DNA互作建模，方法上无AI或物理模拟，仅部分相关。",
+  "abstract": "Association studies have linked many genetic variants to a variety of phenotypes but understanding the biological mechanisms underlying these signals remains a major challenge. Since genes operate within complex networks, statistical interactions between genetic mutations that reflect biological pathways are expected to exist. However, their discovery has been hampered by the vast search space of variant combinations and the multiplicatively small expected effect sizes of interactions. To increase power, we created a test for interaction between single-nucleotide polymorphisms (SNPs) and groups of other variants with a direct effect on a phenotype aggregated in a polygenic score (PGS) which can be performed for any quantitative trait. In realistic simulations, this method avoids false positives and is well powered to find interaction networks. We apply it to 97 quantitative phenotypes in European samples in the UK Biobank and identify 144 independent interactions affecting 52 different traits, including important disease risk variants at genes such as APOE, FTO or TCF7L2. We develop approaches to refine identified signals and detect 38 pairwise interactions between SNPs. These include known interactions between ABO, FUT2 and TREH affecting alkaline phosphatase levels, which are shown to be part of a larger network including PIGC and FUT6, as well as an interaction for eosinophil levels between IL33 and ALOX15, two genes whose functional interaction has recently been implicated in asthma. Finally, we propose a method to partition PGSs according to the binding sites of more than 1100 transcription factors using the HOCOMOCO motif database and test for interactions involving functionally partitioned scores. We identify 12 interactions affecting eight traits, two of which directly reflect known regulatory relationships such as that between TCF7L2 (a key regulator of glucose metabolism) and the transcription factor KDM2A, which are known to interact functionally within the Wnt signalling pathway, affecting glycated haemoglobin levels. This work substantially extends the set of known epistatic effects for human phenotypes and shows how statistical interactions can reflect biological interdependencies between genes.",
+  "abstract_zh": "关联研究已将许多遗传变异与多种表型联系起来，但理解这些信号背后的生物学机制仍是一项重大挑战。由于基因在复杂网络中运作，预期存在反映生物学通路的遗传突变之间的统计相互作用。然而，这些相互作用的发现一直受到变异组合的庞大搜索空间以及相互作用预期效应量成倍减小的阻碍。为提高统计功效，我们创建了一种检验方法，用于检测单核苷酸多态性 (single-nucleotide polymorphisms, SNPs) 与在聚合多基因评分 (polygenic score, PGS) 中对表型具有直接效应的其他变异组之间的相互作用，该方法可适用于任何数量性状。在现实模拟中，此方法避免了假阳性，并具有充分功效来发现相互作用网络。我们将其应用于英国生物银行 (UK Biobank) 欧洲样本中的97个数量表型，识别出影响52种不同性状的144个独立相互作用，包括在APOE、FTO或TCF7L2等基因中的重要疾病风险变异。我们开发了细化已识别信号的方法，并检测出38对SNP之间的成对相互作用。这些包括已知的ABO、FUT2和TREH之间影响碱性磷酸酶水平的相互作用，这些相互作用被证明是包含PIGC和FUT6的更大网络的一部分，以及IL33和ALOX15之间影响嗜酸性粒细胞水平的相互作用，这两个基因的功能相互作用最近被涉及于哮喘中。最后，我们提出一种方法，利用HOCOMOCO基序数据库根据超过1100个转录因子的结合位点对PGS进行分区，并检验涉及功能分区评分的相互作用。我们识别出影响八种性状的12个相互作用，其中两个直接反映已知的调控关系，例如TCF7L2（葡萄糖代谢的关键调控因子）与转录因子KDM2A之间的关系，已知它们在Wnt信号通路中功能上相互作用，影响糖化血红蛋白水平。这项工作显著扩展了人类表型已知上位效应的集合，并展示了统计相互作用如何反映基因之间的生物学相互依赖性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41332835/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41332835/",
+  "paper_page_path": "papers/pubmed/41332835/index.html"
+}

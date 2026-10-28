@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41278762",
+  "title": "Large Numbers of New Human Paralogs Discovered.",
+  "authors": "Bk, Pradeep; Deng, Weixia; Hemmat, Mahsa Askary; Daniels, Issak; Jernigan, Robert L",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-11-24",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 5,
+  "one_liner_zh": "该文整合序列、结构与蛋白语言模型方法发现人类新旁系同源物，包括推定转录因子，但核心是旁系同源检测而非TF-DNA互作建模，方法可迁移但对象与互作轴不聚焦。",
+  "abstract": "The identification of paralogs is critical for understanding protein evolution, function, and for drug design, yet many human proteins remain unannotated and poorly classified. Sequence-based homology detection alone often fails to detect distant paralogs, especially in the \"twilight zone\" or beyond, regarding sequence identity. Here we present an integrated homolog detection framework that combines results from BLASTp, MMseqs2, Foldseek, and the large protein language model-based tool PROST, followed by validation based on comparison of structures and for enzymes comparison of the specific structures of the catalytic residues. Using all-versus-all exhaustive comparisons across the 20,647 human proteins, we systematically identify novel paralogs and assess their catalytic residues for two serine protease clans. We discovered 14 previously uncharacterized human serine carboxypeptidases, validated against experimentally determined PDB structures, with 11 of these displaying conserved catalytic triads. We further identify 203 new paralogs for human kinases, with 163 of these in the major clusters that represent previously uncharacterized kinase subtypes and 30 putative novel human transcription factors. Across both serine protease subtypes, structural alignments enable the prediction of the previously unknown catalytic residues for those lacking UniProt annotations of active site residues. By integrating sequence, structure, and LPLM embedding-based approaches, the framework enables the discovery of surprisingly large numbers of unknown paralogs, permitting defining catalytic residues, and expands the understanding of protein functional landscapes. These findings provide the foundation for a large number of future functional, evolutionary, and therapeutic investigations.",
+  "abstract_zh": "旁系同源基因的鉴定对于理解蛋白质进化、功能以及药物设计至关重要，然而许多人类蛋白质仍未得到注释且分类不明确。仅基于序列的同源性检测往往无法识别远缘旁系同源基因，尤其是在序列同一性处于“模糊区”或更低的区域。在此，我们提出一个整合的同源检测框架，该框架结合了BLASTp、MMseqs2、Foldseek以及基于大型蛋白质语言模型的工具PROST的结果，随后通过结构比较进行验证，并对酶类进一步比较催化残基的特异性结构。通过对20,647个人类蛋白质进行全对全的穷举比较，我们系统地识别了新的旁系同源基因，并评估了两个丝氨酸蛋白酶家族中它们的催化残基。我们发现了14个此前未表征的人类丝氨酸羧肽酶，并通过实验确定的PDB结构进行了验证，其中11个显示出保守的催化三联体。我们进一步为人类激酶识别出203个新的旁系同源基因，其中163个属于代表此前未表征激酶亚型的主要簇，以及30个推定的人类新型转录因子。在两种丝氨酸蛋白酶亚型中，结构比对使得我们能够预测那些缺乏UniProt活性位点残基注释的蛋白质中此前未知的催化残基。通过整合序列、结构和LPLM嵌入方法，该框架能够发现数量惊人的未知旁系同源基因，从而确定催化残基，并扩展了对蛋白质功能景观的理解。这些发现为未来大量的功能、进化和治疗研究奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41278762/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41278762/",
+  "paper_page_path": "papers/pubmed/41278762/index.html"
+}

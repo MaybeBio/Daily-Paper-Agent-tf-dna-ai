@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "35865542",
+    "doi": "10.3389/fimmu.2022.937886",
+    "title": "Identification of Immune-Associated Genes in Diagnosing Aortic Valve Calcification With Metabolic Syndrome by Integrated Bioinformatics Analysis and Machine Learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Immune system dysregulation plays a critical role in aortic valve calcification (AVC) and metabolic syndrome (MS) pathogenesis. The study aimed to identify pivotal diagnostic candidate genes for AVC patients with MS. METHODS: We obtained three AVC and one MS dataset from the gene expression omnibus (GEO) database. Identification of differentially expressed genes (DEGs) and module gene via Limma and weighted gene co-expression network analysis (WGCNA), functional enrichment analysis, protein-protein interaction (PPI) network construction, and machine learning algorithms (least absolute shrinkage and selection operator (LASSO) regression and random forest) were used to identify candidate immune-associated hub genes for diagnosing AVC with MS. To assess the diagnostic value, the nomogram and receiver operating characteristic (ROC) curve were developed. Finally, immune cell infiltration was created to investigate immune cell dysregulation in AVC. RESULTS: The merged AVC dataset included 587 DEGs, and 1,438 module genes were screened out in MS. MS DEGs were primarily enriched in immune regulation. The intersection of DEGs for AVC and module genes for MS was 50, which were mainly enriched in the immune system as well. Following the development of the PPI network, 26 node genes were filtered, and five candidate hub genes were chosen for nomogram building and diagnostic value evaluation after machine learning. The nomogram and all five candidate hub genes had high diagnostic values (area under the curve from 0.732 to 0.982). Various dysregulated immune cells were observed as well. CONCLUSION: Five immune-associated candidate hub genes (BEX2, SPRY2, CXCL16, ITGAL, and MORF4L2) were identified, and the nomogram was constructed for AVC with MS diagnosis. Our study could provide potential peripheral blood diagnostic candidate genes for AVC in MS patients.",
+    "keywords": [
+      "aortic valve calcification",
+      "diagnosis",
+      "differentially expressed genes",
+      "immune infiltration",
+      "machine learning",
+      "metabolic syndrome"
+    ],
+    "mesh_terms": [
+      "Aortic Valve/pathology",
+      "Aortic Valve Stenosis",
+      "Calcinosis",
+      "*Computational Biology",
+      "Databases, Genetic",
+      "Humans",
+      "Intracellular Signaling Peptides and Proteins",
+      "Machine Learning",
+      "Membrane Proteins",
+      "*Metabolic Syndrome/diagnosis/genetics",
+      "Nerve Tissue Proteins",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Yufei",
+        "Shi, Wenxiang",
+        "Zhao, Di",
+        "Xiao, Shengjue",
+        "Wang, Kai",
+        "Wang, Jing"
+      ],
+      "short_names": [
+        "Zhou Y",
+        "Shi W",
+        "Zhao D",
+        "Xiao S",
+        "Wang K",
+        "Wang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, Shanghai Institute of Cardiovascular Diseases, Zhongshan Hospital and Institutes of Biomedical Sciences, Fudan University, Shanghai, China.",
+        "Department of Pediatric Cardiology, Xinhua Hospital, The Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Cardiology, Shanghai Institute of Cardiovascular Diseases, Zhongshan Hospital and Institutes of Biomedical Sciences, Fudan University, Shanghai, China.",
+        "Department of Cardiology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China.",
+        "Department of Cardiology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.",
+        "Department of Geriatric Medicine, The Affiliated Jiangning Hospital With Nanjing Medical University, Nanjing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Yufei",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Institute of Cardiovascular Diseases, Zhongshan Hospital and Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Wenxiang",
+        "short_name": "Shi W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Cardiology, Xinhua Hospital, The Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Di",
+        "short_name": "Zhao D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shanghai Institute of Cardiovascular Diseases, Zhongshan Hospital and Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Shengjue",
+        "short_name": "Xiao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kai",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatric Medicine, The Affiliated Jiangning Hospital With Nanjing Medical University, Nanjing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/23 06:00",
+    "fetched_at": "2026-10-04 20:09:23"
+  },
+  "links": {
+    "cites": [
+      "42454579",
+      "42298439",
+      "42292423",
+      "42260432",
+      "42032605",
+      "41993646",
+      "41243474",
+      "41204493",
+      "41112415",
+      "41019764",
+      "40860946",
+      "40809841",
+      "40553329",
+      "40338488",
+      "40307356",
+      "40276553",
+      "40235661",
+      "39780291",
+      "39730379",
+      "39709373",
+      "39639239",
+      "39588536",
+      "39537712",
+      "39295699",
+      "39190265",
+      "38912458",
+      "38903804",
+      "38828052",
+      "38825608",
+      "38799203",
+      "38738952",
+      "38577257",
+      "38562657",
+      "38469312",
+      "38426148",
+      "38333413",
+      "38236462",
+      "38206470",
+      "38195550",
+      "38183110",
+      "37860165",
+      "37790188",
+      "37781080",
+      "37732314",
+      "37695739",
+      "37670381",
+      "37576602",
+      "37547246",
+      "37333624",
+      "37252468",
+      "37251077",
+      "37227814"
+    ],
+    "refs": [
+      "35399517",
+      "35213231",
+      "34608075",
+      "34396447",
+      "34149999",
+      "34035886",
+      "33988127",
+      "33552057",
+      "33532664",
+      "33237311",
+      "33091598",
+      "32977580",
+      "32493063",
+      "32223336",
+      "31921619",
+      "31393559",
+      "30623669",
+      "30458798",
+      "30395331",
+      "30385537",
+      "30160357",
+      "29584810",
+      "29549519",
+      "29480368",
+      "29100055",
+      "28969682",
+      "28624402",
+      "27495158",
+      "27153538",
+      "26981379",
+      "26773015",
+      "26631499",
+      "26068299",
+      "25822800",
+      "25525744",
+      "25340969",
+      "25189570",
+      "25101972",
+      "24390962",
+      "24251825",
+      "23775590",
+      "23225202",
+      "23193258",
+      "22814340",
+      "22455463",
+      "22405798",
+      "22359381",
+      "22257669",
+      "20031625",
+      "19711341",
+      "19114008",
+      "19023092",
+      "17390011",
+      "17258089",
+      "15836657",
+      "15356110",
+      "15120829",
+      "14699018",
+      "14597658",
+      "11812992",
+      "10592173"
+    ],
+    "similar": [
+      "35865542",
+      "37684281",
+      "39377750",
+      "38544384",
+      "38831425",
+      "36531717",
+      "39139563",
+      "37138862",
+      "36969166",
+      "40997906",
+      "36823662",
+      "38028617",
+      "36341343",
+      "35295271",
+      "37264340",
+      "36470144",
+      "38371524",
+      "39749331",
+      "40022676",
+      "37860165",
+      "39142001",
+      "39396400",
+      "39345724",
+      "40849369",
+      "41013556",
+      "40129981",
+      "38291374",
+      "40969769",
+      "39609718",
+      "37115484",
+      "35278479",
+      "35341274",
+      "38499050",
+      "38987624",
+      "39709373",
+      "38328342",
+      "36341378",
+      "37090698",
+      "41479901",
+      "39875572",
+      "37732314",
+      "36968495",
+      "41393259",
+      "38755717",
+      "40500570",
+      "41132669",
+      "41316541",
+      "39324181",
+      "37837870",
+      "38608447",
+      "40406620",
+      "41300841",
+      "41146237",
+      "39855613",
+      "41006883",
+      "41052072",
+      "37582718",
+      "41137290",
+      "39364223",
+      "38711508",
+      "36405745",
+      "37904220",
+      "39403102",
+      "41432483",
+      "39586719",
+      "41204493",
+      "41291841",
+      "37449753",
+      "41164826",
+      "40312440",
+      "40245021",
+      "36589450",
+      "40263537",
+      "40809841",
+      "36685864",
+      "37359526",
+      "38828052",
+      "35713363",
+      "40821971",
+      "37251077",
+      "39556279",
+      "39695788",
+      "37128203",
+      "36777638",
+      "41021591",
+      "40313958",
+      "38867322",
+      "37717318",
+      "37974210",
+      "37075605",
+      "39934690",
+      "41200172",
+      "40574839",
+      "39263286",
+      "36148059",
+      "39559355",
+      "36699262",
+      "39095691",
+      "36172101",
+      "36829193"
+    ],
+    "review": [
+      "35865542"
+    ],
+    "pmc": [
+      "9295723"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/metabolicsyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Metabolic Syndrome"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35865542/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35865542",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2022.937886",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

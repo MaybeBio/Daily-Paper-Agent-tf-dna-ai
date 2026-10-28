@@ -1,0 +1,617 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.02.19.580825",
+  "title": "RUDEUS, a machine learning classification system to study DNA-Binding proteins",
+  "doi": "10.1101/2024.02.19.580825",
+  "abstract": "DNA-binding proteins are essential in different biological processes, including DNA replication, transcription, packaging, and chromatin remodelling. Exploring their characteristics and functions has become relevant in diverse scientific domains. Computational biology and bioinformatics have assisted in studying DNA-binding proteins, complementing traditional molecular biology methods. While recent advances in machine learning have enabled the integration of predictive systems with bioinformatic approaches, there still needs to be generalizable pipelines for identifying unknown proteins as DNA-binding and assessing the specific type of DNA strand they recognize. In this work, we introduce RUDEUS, a Python library featuring hierarchical classification models designed to identify DNA-binding proteins and assess the specific interaction type, whether single-stranded or double-stranded. RUDEUS has a versatile pipeline capable of training predictive models, synergizing protein language models with supervised learning algorithms, and integrating Bayesian optimization strategies. The trained models have high performance, achieving a precision rate of 95% for DNA-binding identification and 89% for discerning between single-stranded and doublestranded interactions. RUDEUS includes an exploration tool for evaluating unknown protein sequences, annotating them as DNA-binding, and determining the type of DNA strand they recognize. Moreover, a structural bioinformatic pipeline has been integrated into RUDEUS for validating the identified DNA strand through DNA-protein molecular docking. These comprehensive strategies and straightforward implementation demonstrate comparable performance to high-end models and enhance usability for integration into protein engineering pipelines.",
+  "authors": [
+    "David Medina-Ortiz",
+    "Gabriel Cabas-Mora",
+    "Iván Moya-Barría",
+    "Nicole Soto-Garcia",
+    "Roberto Uribe-Paredes"
+  ],
+  "published_date": "2024-02-21",
+  "updated_date": "2024-02-27T13:09:33Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.02.19.580825",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.02.19.580825.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            17
+          ]
+        ],
+        "date-time": "2026-09-17T19:48:46Z",
+        "timestamp": 1789674526571,
+        "version": "4.0.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            21
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 48,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            21
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>DNA-binding proteins are essential in different biological processes, including DNA replication, transcription, packaging, and chromatin remodelling. Exploring their characteristics and functions has become relevant in diverse scientific domains. Computational biology and bioinformatics have assisted in studying DNA-binding proteins, complementing traditional molecular biology methods. While recent advances in machine learning have enabled the integration of predictive systems with bioinformatic approaches, there still needs to be generalizable pipelines for identifying unknown proteins as DNA-binding and assessing the specific type of DNA strand they recognize. In this work, we introduce RUDEUS, a Python library featuring hierarchical classification models designed to identify DNA-binding proteins and assess the specific interaction type, whether single-stranded or double-stranded. RUDEUS has a versatile pipeline capable of training predictive models, synergizing protein language models with supervised learning algorithms, and integrating Bayesian optimization strategies. The trained models have high performance, achieving a precision rate of 95% for DNA-binding identification and 89% for discerning between single-stranded and doublestranded interactions. RUDEUS includes an exploration tool for evaluating unknown protein sequences, annotating them as DNA-binding, and determining the type of DNA strand they recognize. Moreover, a structural bioinformatic pipeline has been integrated into RUDEUS for validating the identified DNA strand through DNA-protein molecular docking. These comprehensive strategies and straightforward implementation demonstrate comparable performance to high-end models and enhance usability for integration into protein engineering pipelines.</jats:p>",
+      "DOI": "10.1101/2024.02.19.580825",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            27
+          ]
+        ],
+        "date-time": "2024-02-27T13:09:33Z",
+        "timestamp": 1709039373000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 5,
+      "title": [
+        "RUDEUS, a machine learning classification system to study DNA-Binding proteins"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8369-5746",
+          "authenticated-orcid": false,
+          "given": "David",
+          "family": "Medina-Ortiz",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-2344-9860",
+          "authenticated-orcid": false,
+          "given": "Gabriel",
+          "family": "Cabas-Mora",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Iván",
+          "family": "Moya-Barría",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0001-1438-1938",
+          "authenticated-orcid": false,
+          "given": "Nicole",
+          "family": "Soto-Garcia",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9519-8862",
+          "authenticated-orcid": false,
+          "given": "Roberto",
+          "family": "Uribe-Paredes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Akiba, T. , Sano, S. , Yanase, T. , Ohta, T. , and Koyama, M. (2019). Optuna: A next-generation hyperparameter optimization framework. In Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining, pages 2623–2631.",
+          "DOI": "10.1145/3292500.3330701"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.348897.121"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.348897.121"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "645",
+          "DOI": "10.1007/s10822-019-00207-x",
+          "article-title": "Dp-binder: machine learning model for prediction of dna-binding proteins by fusing evolutionary and physicochemical information",
+          "volume": "33",
+          "year": "2019",
+          "journal-title": "Journal of Computer-Aided Molecular Design"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "113494",
+          "DOI": "10.1016/j.ab.2019.113494",
+          "article-title": "Sdbp-pred: Prediction of single-stranded and double-stranded dna-binding proteins by extending consensus sequence and k-segmentation strategies into pssm",
+          "volume": "589",
+          "year": "2020",
+          "journal-title": "Analytical biochemistry"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "21",
+          "DOI": "10.1016/j.chemolab.2018.08.013",
+          "article-title": "Dbppred-pdsd: Machine learning approach for prediction of dna-binding proteins using discrete wavelet transform and optimized integrated features space",
+          "volume": "182",
+          "year": "2018",
+          "journal-title": "Chemometrics and Intelligent Laboratory Systems"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "104639",
+          "DOI": "10.1016/j.chemolab.2022.104639",
+          "article-title": "Dbp-deepcnn: prediction of dna-binding proteins using wavelet-based denoising and deep learning",
+          "volume": "229",
+          "year": "2022",
+          "journal-title": "Chemometrics and Intelligent Laboratory Systems"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2012.04.021"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Arora, S. , Gupta, S. , Verma, S. , and Malik, I. (2023). Prediction of dna interacting residues. In 2023 International Conference on Computational Intelligence, Communication Technology and Networking (CICTN), pages 54–57. IEEE.",
+          "DOI": "10.1109/CICTN57981.2023.10141429"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-090120-125407"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "104697",
+          "DOI": "10.1016/j.chemolab.2022.104697",
+          "article-title": "idbp-pbmd: A machine learning model for detection of dna-binding proteins by extending compression techniques into evolutionary profile",
+          "volume": "231",
+          "year": "2022",
+          "journal-title": "Chemometrics and Intelligent Laboratory Systems"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "116729",
+          "DOI": "10.1016/j.eswa.2022.116729",
+          "article-title": "Dbp-cnn: Deep learning-based prediction of dna-binding proteins by coupling discrete cosine transform with two-dimensional convolutional neural network",
+          "volume": "197",
+          "year": "2022",
+          "journal-title": "Expert Systems with Applications"
+        },
+        {
+          "issue": "5",
+          "key": "2024022710072892000_2024.02.19.580825v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "e113",
+          "DOI": "10.1002/cpz1.113",
+          "article-title": "Learned embeddings from deep learning to visualize and predict protein sets",
+          "volume": "1",
+          "year": "2021",
+          "journal-title": "Current Protocols"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Elnaggar, A. , Heinzinger, M. , Dallago, C. , Rihawi, G. , Wang, Y. , Jones, L. , Gibbs, T. , Feher, T. , Angerer, C. , Steinegger, M. , Bhowmik, D. , and Rost, B. (2020). Prottrans: Towards cracking the language of life’s code through self-supervised deep learning and high performance computing.",
+          "DOI": "10.1101/2020.07.12.199554"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fernández, D. , Olivera-Nappa, Á. , Uribe-Paredes, R. , and Medina-Ortiz, D. (2023). Exploring machine learning algorithms and protein language models strategies to develop enzyme classification systems. In International Work-Conference on Bioinformatics and Biomedical Engineering, pages 307–319. Springer.",
+          "DOI": "10.1007/978-3-031-34953-9_24"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fu, Y. , Ling, Z. , Arabnia, H. , and Deng, Y. (2020). Current trend and development in bioinformatics research.",
+          "DOI": "10.1186/s12859-020-03874-y"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/1822"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1155/2002/313147"
+        },
+        {
+          "issue": "48",
+          "key": "2024022710072892000_2024.02.19.580825v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "20309",
+          "DOI": "10.1021/jacs.1c09549",
+          "article-title": "Role of order in the mechanism of charge transport across single-stranded and double-stranded dna monolayers in tunnel junctions",
+          "volume": "143",
+          "year": "2021",
+          "journal-title": "Journal of the American Chemical Society"
+        },
+        {
+          "issue": "11",
+          "key": "2024022710072892000_2024.02.19.580825v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0225317",
+          "DOI": "10.1371/journal.pone.0225317",
+          "article-title": "An improved deep learning method for predicting dna-binding proteins based on contextual features in amino acid sequences",
+          "volume": "14",
+          "year": "2019",
+          "journal-title": "PLoS one"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kabir, A. , Bhattarai, M. , Rasmussen, K. O. , Shehu, A. , Bishop, A. R. , Alexandrov, B. S. , and Usheva, A. (2024). Advancing transcription factor binding site prediction using dna breathing dynamics and sequence transformers via cross attention. bioRxiv, pages 2024–01.",
+          "DOI": "10.1101/2024.01.16.575935"
+        },
+        {
+          "issue": "6",
+          "key": "2024022710072892000_2024.02.19.580825v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "679",
+          "DOI": "10.1080/07391102.2009.10507281",
+          "article-title": "Dna-prot: identification of dna binding proteins from protein sequence information using random forest",
+          "volume": "26",
+          "year": "2009",
+          "journal-title": "Journal of Biomolecular Structure and Dynamics"
+        },
+        {
+          "issue": "8",
+          "key": "2024022710072892000_2024.02.19.580825v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "794",
+          "DOI": "10.1002/iub.2603",
+          "article-title": "Tar dna-binding protein 43 oligomers in physiology and pathology",
+          "volume": "74",
+          "year": "2022",
+          "journal-title": "IUBMB life"
+        },
+        {
+          "issue": "12",
+          "key": "2024022710072892000_2024.02.19.580825v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0167345",
+          "DOI": "10.1371/journal.pone.0167345",
+          "article-title": "Dnabp: Identification of dna-binding proteins based on feature selection using a random forest and predicting binding residues",
+          "volume": "11",
+          "year": "2016",
+          "journal-title": "PloS one"
+        },
+        {
+          "issue": "9",
+          "key": "2024022710072892000_2024.02.19.580825v1.25",
+          "first-page": "1",
+          "article-title": "pandas: a foundational python library for data analysis and statistics",
+          "volume": "14",
+          "year": "2011",
+          "journal-title": "Python for high performance and scientific computing"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "125",
+          "DOI": "10.1182/blood-2023-187238",
+          "article-title": "Artificial intelligence approach for the discovery of autoantigen recognition by b-cell lymphomas",
+          "volume": "142",
+          "year": "2023",
+          "journal-title": "Blood"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Medina-Ortiz, D. , Contreras, S. , Amado-Hinojosa, J. , Torres-Almonacid, J. , Asenjo, J. A. , Navarrete, M. , and Olivera-Nappa, Á. (2022). Generalized property-based encoders and digital signal processing facilitate predictive tasks in protein engineering. Frontiers in Molecular Biosciences, 9.",
+          "DOI": "10.3389/fmolb.2022.898627"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "13",
+          "DOI": "10.3389/fmolb.2020.00013",
+          "article-title": "Development of supervised learning predictive models for highly non-linear biological, biomedical, and general datasets",
+          "volume": "7",
+          "year": "2020",
+          "journal-title": "Frontiers in molecular biosciences"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.29",
+          "first-page": "29287",
+          "volume-title": "Advances in Neural Information Processing Systems",
+          "volume": "34",
+          "year": "2021"
+        },
+        {
+          "issue": "3",
+          "key": "2024022710072892000_2024.02.19.580825v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "433",
+          "DOI": "10.1093/bioinformatics/bty653",
+          "article-title": "Stackdppred: a stacking based prediction of dna-binding protein from sequence",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-020-3475-0"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.32",
+          "first-page": "2825",
+          "article-title": "Scikit-learn: Machine learning in python",
+          "volume": "12",
+          "year": "2011",
+          "journal-title": "the Journal of machine Learning research"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "22",
+          "DOI": "10.1016/j.jtbi.2018.05.006",
+          "article-title": "Dpp-pseaac: a dna-binding protein prediction model using chou’s general pseaac",
+          "volume": "452",
+          "year": "2018",
+          "journal-title": "Journal of theoretical biology"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rives, A. , Meier, J. , Sercu, T. , Goyal, S. , Lin, Z. , Liu, J. , Guo, D. , Ott, M. , Zitnick, C. L. , Ma, J. , and Fergus, R. (2021). Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences. Proceedings of the National Academy of Sciences, 118(15).",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "issue": "3",
+          "key": "2024022710072892000_2024.02.19.580825v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "950",
+          "DOI": "10.1093/bioinformatics/btz642",
+          "article-title": "Lightdock goes information-driven",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "100318",
+          "DOI": "10.1016/j.imu.2020.100318",
+          "article-title": "Deepdbp: deep neural networks for identification of dna-binding proteins",
+          "volume": "19",
+          "year": "2020",
+          "journal-title": "Informatics in Medicine Unlocked"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "113954",
+          "DOI": "10.1016/j.ab.2020.113954",
+          "article-title": "Single-stranded and double-stranded dna-binding protein prediction using hmm profiles",
+          "volume": "612",
+          "year": "2021",
+          "journal-title": "Analytical biochemistry"
+        },
+        {
+          "issue": "1",
+          "key": "2024022710072892000_2024.02.19.580825v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "98",
+          "DOI": "10.3390/molecules25010098",
+          "article-title": "Predpsd: a gradient tree boosting approach for single-stranded and double-stranded dna binding protein prediction",
+          "volume": "25",
+          "year": "2019",
+          "journal-title": "Molecules"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-016-1452-4"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "822392",
+          "DOI": "10.3389/fbioe.2022.822392",
+          "article-title": "Prediction of dna-binding protein–drug-binding sites using residue interaction networks and sequence feature",
+          "volume": "10",
+          "year": "2022",
+          "journal-title": "Frontiers in Bioengi-neering and Biotechnology"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, Y. , Zhang, L. , Huang, T. , Wu, G.-R. , Zhou, Q. , Wang, F.-X. , Chen, L.-M. , Sun, F. , Lv, Y. , Xiong, F. , et al. (2022b). The methyl-cpg-binding domain 2 facilitates pulmonary fibrosis by orchestrating fibroblast to myofibroblast differentiation. European Respiratory Journal, 60(3).",
+          "DOI": "10.1183/13993003.03697-2020"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "105993",
+          "DOI": "10.1016/j.compbiomed.2022.105993",
+          "article-title": "Towards a better understanding of tf-dna binding prediction from genomic features",
+          "volume": "149",
+          "year": "2022",
+          "journal-title": "Computers in Biology and Medicine"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(95)90532-4"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zaman, R. , Chowdhury, S. Y. , Rashid, M. A. , Sharma, A. , Dehzangi, A. , Shatabda, S. , et al. (2017). Hmm-binder: Dna-binding protein prediction using hmm profile based features. BioMed research international, 2017.",
+          "DOI": "10.1155/2017/4590609"
+        },
+        {
+          "issue": "22",
+          "key": "2024022710072892000_2024.02.19.580825v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "5860",
+          "DOI": "10.1016/j.jmb.2020.09.008",
+          "article-title": "idrbp mmc: identifying dna-binding proteins and rna-binding proteins based on multi-label learning model and motif-based convolutional neural network",
+          "volume": "432",
+          "year": "2020",
+          "journal-title": "Journal of molecular biology"
+        },
+        {
+          "key": "2024022710072892000_2024.02.19.580825v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "106921",
+          "DOI": "10.1016/j.asoc.2020.106921",
+          "article-title": "Stackpdb: predicting dna-binding proteins based on xgb-rfe feature optimization and stacked ensemble classifier",
+          "volume": "99",
+          "year": "2021",
+          "journal-title": "Applied Soft Computing"
+        },
+        {
+          "issue": "5",
+          "key": "2024022710072892000_2024.02.19.580825v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "357",
+          "DOI": "10.1093/bfgp/elac009",
+          "article-title": "A survey on protein–dna-binding sites in computational biology",
+          "volume": "21",
+          "year": "2022",
+          "journal-title": "Briefings in Functional Genomics"
+        },
+        {
+          "issue": "6",
+          "key": "2024022710072892000_2024.02.19.580825v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbab273",
+          "DOI": "10.1093/bib/bbab273",
+          "article-title": "High-resolution transcription factor binding sites prediction improved performance and interpretability by deep learning method",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Briefings in Bioinformatics"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.02.19.580825",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:58:54Z",
+        "timestamp": 1768456734000
+      },
+      "score": 138.3273,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.02.19.580825"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            21
+          ]
+        ]
+      },
+      "references-count": 48,
+      "URL": "https://doi.org/10.1101/2024.02.19.580825",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            21
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

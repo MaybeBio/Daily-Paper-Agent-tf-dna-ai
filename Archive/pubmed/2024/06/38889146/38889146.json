@@ -1,0 +1,419 @@
+{
+  "identity": {
+    "pmid": "38889146",
+    "doi": "10.1073/pnas.2319811121",
+    "title": "Modeling 0.6 million genes for the rational design of functional cis-regulatory variants and de novo design of cis-regulatory sequences."
+  },
+  "content": {
+    "abstract": "Rational design of plant cis-regulatory DNA sequences without expert intervention or prior domain knowledge is still a daunting task. Here, we developed PhytoExpr, a deep learning framework capable of predicting both mRNA abundance and plant species using the proximal regulatory sequence as the sole input. PhytoExpr was trained over 17 species representative of major clades of the plant kingdom to enhance its generalizability. Via input perturbation, quantitative functional annotation of the input sequence was achieved at single-nucleotide resolution, revealing an abundance of predicted high-impact nucleotides in conserved noncoding sequences and transcription factor binding sites. Evaluation of maize HapMap3 single-nucleotide polymorphisms (SNPs) by PhytoExpr demonstrates an enrichment of predicted high-impact SNPs in cis-eQTL. Additionally, we provided two algorithms that harnessed the power of PhytoExpr in designing functional cis-regulatory variants, and de novo creation of species-specific cis-regulatory sequences through in silico evolution of random DNA sequences. Our model represents a general and robust approach for functional variant discovery in population genetics and rational design of regulatory sequences for genome editing and synthetic biology.",
+    "keywords": [
+      "cis-engineering",
+      "deep learning",
+      "synthetic biology",
+      "transcriptional regulation"
+    ],
+    "mesh_terms": [
+      "*Regulatory Sequences, Nucleic Acid/genetics",
+      "*Polymorphism, Single Nucleotide",
+      "*Zea mays/genetics",
+      "Quantitative Trait Loci",
+      "Algorithms",
+      "Gene Expression Regulation, Plant",
+      "Deep Learning",
+      "Plants/genetics",
+      "Transcription Factors/genetics/metabolism",
+      "Models, Genetic",
+      "Genes, Plant",
+      "Binding Sites/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Tianyi",
+        "Xu, Hui",
+        "Teng, Shouzhen",
+        "Suo, Mingrui",
+        "Bahitwa, Revocatus",
+        "Xu, Mingchi",
+        "Qian, Yiheng",
+        "Ramstein, Guillaume P",
+        "Song, Baoxing",
+        "Buckler, Edward S",
+        "Wang, Hai"
+      ],
+      "short_names": [
+        "Li T",
+        "Xu H",
+        "Teng S",
+        "Suo M",
+        "Bahitwa R",
+        "Xu M",
+        "Qian Y",
+        "Ramstein GP",
+        "Song B",
+        "Buckler ES",
+        "Wang H"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-6936-8028",
+        "ORCID: 0009-0005-4911-5006",
+        "ORCID: 0000-0002-7536-1113",
+        "ORCID: 0000-0002-3100-371X",
+        "ORCID: 0000-0002-1722-1518"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Maize Bio-breeding, National Maize Improvement Center, Frontiers Science Center for Molecular Design Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, People's Republic of China.",
+        "State Key Laboratory of Maize Bio-breeding, National Maize Improvement Center, Frontiers Science Center for Molecular Design Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, People's Republic of China.",
+        "State Key Laboratory of Maize Bio-breeding, National Maize Improvement Center, Frontiers Science Center for Molecular Design Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, People's Republic of China.",
+        "State Key Laboratory of Maize Bio-breeding, National Maize Improvement Center, Frontiers Science Center for Molecular Design Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, People's Republic of China.",
+        "State Key Laboratory of Maize Bio-breeding, National Maize Improvement Center, Frontiers Science Center for Molecular Design Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, People's Republic of China.",
+        "Legumes Research Program, Research and Innovation Division, Tanzania Agricultural Research Institute, Ilonga, Kilosa, Morogoro 67410, Tanzania.",
+        "State Key Laboratory of Maize Bio-breeding, National Maize Improvement Center, Frontiers Science Center for Molecular Design Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, People's Republic of China.",
+        "State Key Laboratory of Maize Bio-breeding, National Maize Improvement Center, Frontiers Science Center for Molecular Design Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, People's Republic of China.",
+        "Center for Quantitative Genetics and Genomics, Aarhus University, Aarhus 8000, Denmark.",
+        "National Key Laboratory of Wheat Improvement, Peking University Institute of Advanced Agricultural Sciences, Shandong Laboratory of Advanced Agriculture Sciences in Weifang, Weifang, Shandong 261325, People's Republic of China.",
+        "Key Laboratory of Maize Biology and Genetic Breeding in Arid Area of Northwest Region of the Ministry of Agriculture, College of Agronomy, Northwest A&F University, Yangling, Shaanxi 712100, People's Republic of China.",
+        "Institute for Genomic Diversity, Cornell University, Ithaca, NY 14853.",
+        "Agricultural Research Service, United States Department of Agriculture, Ithaca, NY 14853.",
+        "State Key Laboratory of Maize Bio-breeding, National Maize Improvement Center, Frontiers Science Center for Molecular Design Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, People's Republic of China.",
+        "Center for Crop Functional Genomics and Molecular Breeding, China Agricultural University, Beijing 100193, People's Republic of China.",
+        "Sanya Institute of China Agricultural University, Sanya 572025, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Tianyi",
+        "short_name": "Li T",
+        "identifiers": [
+          "0009-0001-6936-8028"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-breeding, National Maize Improvement Center, Frontiers Science Center for Molecular Design Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xu, Hui",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-breeding, National Maize Improvement Center, Frontiers Science Center for Molecular Design Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Teng, Shouzhen",
+        "short_name": "Teng S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-breeding, National Maize Improvement Center, Frontiers Science Center for Molecular Design Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Suo, Mingrui",
+        "short_name": "Suo M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-breeding, National Maize Improvement Center, Frontiers Science Center for Molecular Design Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Bahitwa, Revocatus",
+        "short_name": "Bahitwa R",
+        "identifiers": [
+          "0009-0005-4911-5006"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-breeding, National Maize Improvement Center, Frontiers Science Center for Molecular Design Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, People's Republic of China.",
+          "Legumes Research Program, Research and Innovation Division, Tanzania Agricultural Research Institute, Ilonga, Kilosa, Morogoro 67410, Tanzania."
+        ]
+      },
+      {
+        "full_name": "Xu, Mingchi",
+        "short_name": "Xu M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-breeding, National Maize Improvement Center, Frontiers Science Center for Molecular Design Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Qian, Yiheng",
+        "short_name": "Qian Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-breeding, National Maize Improvement Center, Frontiers Science Center for Molecular Design Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ramstein, Guillaume P",
+        "short_name": "Ramstein GP",
+        "identifiers": [
+          "0000-0002-7536-1113"
+        ],
+        "affiliations": [
+          "Center for Quantitative Genetics and Genomics, Aarhus University, Aarhus 8000, Denmark."
+        ]
+      },
+      {
+        "full_name": "Song, Baoxing",
+        "short_name": "Song B",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Wheat Improvement, Peking University Institute of Advanced Agricultural Sciences, Shandong Laboratory of Advanced Agriculture Sciences in Weifang, Weifang, Shandong 261325, People's Republic of China.",
+          "Key Laboratory of Maize Biology and Genetic Breeding in Arid Area of Northwest Region of the Ministry of Agriculture, College of Agronomy, Northwest A&F University, Yangling, Shaanxi 712100, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Buckler, Edward S",
+        "short_name": "Buckler ES",
+        "identifiers": [
+          "0000-0002-3100-371X"
+        ],
+        "affiliations": [
+          "Institute for Genomic Diversity, Cornell University, Ithaca, NY 14853.",
+          "Agricultural Research Service, United States Department of Agriculture, Ithaca, NY 14853."
+        ]
+      },
+      {
+        "full_name": "Wang, Hai",
+        "short_name": "Wang H",
+        "identifiers": [
+          "0000-0002-1722-1518"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Maize Bio-breeding, National Maize Improvement Center, Frontiers Science Center for Molecular Design Breeding, Department of Plant Genetics and Breeding, China Agricultural University, Beijing 100193, People's Republic of China.",
+          "Center for Crop Functional Genomics and Molecular Breeding, China Agricultural University, Beijing 100193, People's Republic of China.",
+          "Sanya Institute of China Agricultural University, Sanya 572025, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2024 Jun 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/18 18:42",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [
+      "42636099",
+      "42413033",
+      "42333573",
+      "42162322",
+      "42030012",
+      "41981910",
+      "41958017",
+      "41851984",
+      "41486594",
+      "41373550",
+      "41365331",
+      "41346834",
+      "41280085",
+      "41114134",
+      "41024142",
+      "40994438",
+      "40950025",
+      "40719915",
+      "40284763",
+      "40075057",
+      "39380626"
+    ],
+    "refs": [
+      "37146612",
+      "36608347",
+      "36229611",
+      "36042233",
+      "36028476",
+      "35470092",
+      "35449414",
+      "35264797",
+      "34791415",
+      "34782773",
+      "34608324",
+      "34383745",
+      "34083762",
+      "34045362",
+      "33846596",
+      "33619356",
+      "33590861",
+      "33481630",
+      "33262328",
+      "33037196",
+      "32728249",
+      "32687525",
+      "32424410",
+      "32409318",
+      "31792407",
+      "31740773",
+      "31375807",
+      "31201999",
+      "31114922",
+      "30842277",
+      "30622246",
+      "30449618",
+      "30080209",
+      "30013180",
+      "29670097",
+      "29588361",
+      "29539638",
+      "29300887",
+      "28919077",
+      "25775595",
+      "25690850",
+      "25557079",
+      "25516281",
+      "24227677",
+      "23050260",
+      "22110026",
+      "21415320",
+      "20167110",
+      "19457242",
+      "19114008",
+      "15965027"
+    ],
+    "similar": [
+      "38889146",
+      "16978413",
+      "26301843",
+      "41708941",
+      "25442502",
+      "41920894",
+      "21729267",
+      "25983244",
+      "40369872",
+      "41514301",
+      "25375861",
+      "34037796",
+      "38664394",
+      "40245149",
+      "32728250",
+      "26476779",
+      "24920305",
+      "27557772",
+      "22369687",
+      "21068212",
+      "32043966",
+      "34918159",
+      "22532805",
+      "22058225",
+      "42236716",
+      "40633538",
+      "35435921",
+      "29617928",
+      "24727366",
+      "22744985",
+      "28634199",
+      "21515819",
+      "23497159",
+      "32363570",
+      "40421528",
+      "42413033",
+      "21283786",
+      "12082130",
+      "41096905",
+      "16209714",
+      "16113229",
+      "34353948",
+      "21718468",
+      "17377845",
+      "19293946",
+      "38187729",
+      "29879919",
+      "42475469",
+      "12820902",
+      "22496669",
+      "39814021",
+      "31177403",
+      "23144830",
+      "28957321",
+      "34486522",
+      "34087008",
+      "39199333",
+      "17530920",
+      "39964724",
+      "42216449",
+      "32850739",
+      "42478686",
+      "41915226",
+      "31206543",
+      "27468897",
+      "29855387",
+      "18950538",
+      "21821017",
+      "18442418",
+      "39420233",
+      "38859587",
+      "23256513",
+      "34048703",
+      "26562774",
+      "30375394",
+      "12527199",
+      "29463772",
+      "26901046",
+      "40613715",
+      "25026280",
+      "28968709",
+      "20661307",
+      "33980847",
+      "24204023",
+      "27155066",
+      "23935528",
+      "23300628",
+      "27083560",
+      "15474298",
+      "12724540",
+      "17827349",
+      "40789919",
+      "36311095",
+      "40065399",
+      "15297614",
+      "32631406",
+      "22293038",
+      "31362973",
+      "22763441",
+      "39341862"
+    ],
+    "review": [
+      "38889146",
+      "34918159",
+      "39199333",
+      "27155066"
+    ],
+    "pmc": [
+      "11214048"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2319811121?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38889146/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

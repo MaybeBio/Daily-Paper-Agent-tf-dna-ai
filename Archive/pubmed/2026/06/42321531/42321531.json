@@ -1,0 +1,475 @@
+{
+  "identity": {
+    "pmid": "42321531",
+    "doi": "10.1038/s41388-026-03854-1",
+    "title": "The splicing factor hnRNPA1 promotes osimertinib resistance in lung adenocarcinoma by regulating NEDD4L alternative splicing."
+  },
+  "content": {
+    "abstract": "Resistance to osimertinib in lung adenocarcinoma presents a significant hurdle in contemporary lung cancer therapy, with splicing dysregulation being instrumental in tumorigenesis and progression. The mechanism via which alternate splicing facilitates osimertinib resistance in lung cancer is still ambiguous. We aimed to examine the pivotal function of the splicing factor hnRNPA1 in osimertinib resistance in lung cancer. The impact of hnRNPA1 on osimertinib resistance in lung cancer was confirmed by small interfering RNA and CDX models. RNA-seq, RIP, CLIP-qPCR, and COIP methodologies were utilized to examine the mechanistic role of hnRNPA1 in osimertinib resistance in lung cancer. Furthermore, virtual docking was employed to evaluate natural small-molecule drugs that target hnRNPA1.Elevated levels of the splicing factor hnRNPA1 were detected in lung adenocarcinoma cells exhibiting resistance to osimertinib, and the silencing of hnRNPA1 enhanced the sensitivity of these resistant cells to osimertinib. Mechanistically, hnRNPA1 governs multiple splicing events linked to cancer, notably the splicing of NEDD4L. Decreased hnRNPA1 enhances the generation of short NEDD4L splice variants, resulting in the ubiquitination and degradation of EGFR, which sensitizes resistant cells to osimertinib. Moreover, hnRNPA1 undergoes methylation modification by PRMT7, which facilitates splicing activities. The research elucidated the mechanism responsible for aberrant splicing in osimertinib resistance in lung cancer and identified hnRNPA1 as a prospective therapeutic target for counteracting this resistance.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Heterogeneous Nuclear Ribonucleoprotein A1/genetics/metabolism",
+      "*Lung Neoplasms/genetics/drug therapy/pathology/metabolism",
+      "Pyrimidines",
+      "*Drug Resistance, Neoplasm/genetics",
+      "*Adenocarcinoma of Lung/genetics/drug therapy/pathology/metabolism",
+      "*Alternative Splicing",
+      "*Aniline Compounds/pharmacology/therapeutic use",
+      "*Nedd4 Ubiquitin Protein Ligases/genetics/metabolism",
+      "*Acrylamides/pharmacology/therapeutic use",
+      "Indoles",
+      "Cell Line, Tumor",
+      "Animals",
+      "Gene Expression Regulation, Neoplastic/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liang, Yanfeng",
+        "Guo, Yudong",
+        "Huang, Xiaobi",
+        "Wang, Qu",
+        "Wu, Yanxia",
+        "Ye, Haiyin",
+        "Long, Qihe",
+        "Pang, Ming",
+        "Lei, Xiao",
+        "Jiang, Yuetong",
+        "Yin, Miao",
+        "Chen, Yongyang",
+        "Zheng, Yuexin",
+        "Xu, Xiaoqing",
+        "Yang, Quan",
+        "Yang, Jinghua",
+        "Chen, Jialing",
+        "Chen, Jinhui",
+        "Li, Haiwen",
+        "Xie, Yuliu",
+        "Su, Wenmei"
+      ],
+      "short_names": [
+        "Liang Y",
+        "Guo Y",
+        "Huang X",
+        "Wang Q",
+        "Wu Y",
+        "Ye H",
+        "Long Q",
+        "Pang M",
+        "Lei X",
+        "Jiang Y",
+        "Yin M",
+        "Chen Y",
+        "Zheng Y",
+        "Xu X",
+        "Yang Q",
+        "Yang J",
+        "Chen J",
+        "Chen J",
+        "Li H",
+        "Xie Y",
+        "Su W"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0291-3551"
+      ],
+      "affiliations": [
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Guangdong Medical University, Zhanjiang, China.",
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Guangdong Medical University, Zhanjiang, China.",
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Guangdong Medical University, Zhanjiang, China.",
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China.",
+        "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China. suwenmei123@hotmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liang, Yanfeng",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Yudong",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xiaobi",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qu",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yanxia",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Haiyin",
+        "short_name": "Ye H",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Long, Qihe",
+        "short_name": "Long Q",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Ming",
+        "short_name": "Pang M",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Xiao",
+        "short_name": "Lei X",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yuetong",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Miao",
+        "short_name": "Yin M",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yongyang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yuexin",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiaoqing",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Quan",
+        "short_name": "Yang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jinghua",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jialing",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jinhui",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Haiwen",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Yuliu",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China."
+        ]
+      },
+      {
+        "full_name": "Su, Wenmei",
+        "short_name": "Su W",
+        "identifiers": [
+          "0000-0003-0291-3551"
+        ],
+        "affiliations": [
+          "Affiliated Hospital of Guangdong Medical University, Zhanjiang, China. suwenmei123@hotmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Oncogene"
+    ],
+    "journal_abbrev": [
+      "Oncogene"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/20 00:39",
+    "fetched_at": "2026-10-01 23:39:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40056904",
+      "39559922",
+      "39341825",
+      "39340154",
+      "38831335",
+      "38572751",
+      "38364963",
+      "37003754",
+      "36200440",
+      "35814393",
+      "35516635",
+      "34009984",
+      "33782401",
+      "33623018",
+      "32469185",
+      "32086392",
+      "32001512",
+      "30329095",
+      "29151359",
+      "28854369",
+      "28729398",
+      "27959700",
+      "26599344",
+      "26593421",
+      "25112293",
+      "21622622",
+      "20795951",
+      "20376054",
+      "20110989",
+      "19436320",
+      "19239890",
+      "18978789",
+      "15630416",
+      "12060656",
+      "9121425",
+      "8352591"
+    ],
+    "similar": [
+      "42321531",
+      "42026030",
+      "41121207",
+      "39528815",
+      "40618443",
+      "39231972",
+      "41145422",
+      "41074434",
+      "42172903",
+      "41777062",
+      "40682834",
+      "40634956",
+      "39424918",
+      "41213916",
+      "41478201",
+      "34145929",
+      "40824711",
+      "42220422",
+      "40224214",
+      "42469184",
+      "38551790",
+      "40851084",
+      "40187661",
+      "41269207",
+      "41450535",
+      "39704929",
+      "34706132",
+      "41148486",
+      "39227379",
+      "40316465",
+      "38941131",
+      "33829270",
+      "40744230",
+      "38626533",
+      "41723107",
+      "40303499",
+      "42031983",
+      "38233113",
+      "33537092",
+      "40200229",
+      "40366733",
+      "41690561",
+      "41043761",
+      "40842076",
+      "40931551",
+      "41226501",
+      "40719479",
+      "41152910",
+      "33924522",
+      "38438582",
+      "38715012",
+      "38689087",
+      "40685347",
+      "39661202",
+      "41719890",
+      "39059510",
+      "41261425",
+      "40493902",
+      "32641854",
+      "42361448",
+      "39543744",
+      "41076079",
+      "31254668",
+      "39032664",
+      "33200796",
+      "40414926",
+      "38953880",
+      "40090182",
+      "33943009",
+      "40485050",
+      "40403792",
+      "32391602",
+      "41381443",
+      "41265378",
+      "39652302",
+      "42381268",
+      "40886822",
+      "40518016",
+      "41150710",
+      "35986102",
+      "39159134",
+      "40234395",
+      "40562124",
+      "41372105",
+      "31821539",
+      "33573689",
+      "33461557",
+      "42035856",
+      "41591580",
+      "39721017",
+      "41941751",
+      "35883645",
+      "41402633",
+      "33744716",
+      "42021316",
+      "41241327",
+      "40036147",
+      "40482589",
+      "31839416",
+      "39128459"
+    ],
+    "review": [
+      "42321531",
+      "41226501"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41388-026-03854-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

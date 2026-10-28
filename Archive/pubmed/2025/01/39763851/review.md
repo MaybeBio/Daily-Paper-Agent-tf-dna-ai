@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Technical and conceptual evaluation of the presented method, results, and claims, based solely on the provided manuscript text. No external data, code, or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors present DARSI, a convolutional neural network framework that predicts discretized gene expression levels from raw MPRA regulatory sequences and uses saliency mapping to identify transcription factor binding sites at single-base resolution. Applied to 95 E. coli operons, the model achieves ~80% average prediction accuracy, recovers >88% of previously mapped binding sites, and predicts 73 novel sites.
+- **Visible evidence base** Main text, including Abstract, Introduction, Results, Discussion, and Materials and Methods. Figures referenced but not directly viewable. Supplementary figures and tables referenced but not provided.
+- **Missing materials affecting confidence** Figures (main and supplementary), supplementary tables, Algorithm pseudocode details, GitHub repository contents, and the full Supplementary Information document. These are essential for verifying architecture details, data processing, benchmarking methodology, and the statistical robustness of the reported results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in regulatory genomics: moving beyond independence assumptions in MPRA analysis to capture positional correlations via deep learning. The application of a CNN with saliency-based interpretation to a published E. coli MPRA dataset is a reasonable and potentially useful contribution. However, the current manuscript has several significant gaps in methodological detail, validation rigor, and clarity of claims. The central claims of predictive accuracy and binding site recovery are plausible but not fully established from the provided text alone, particularly given the absence of key figures, supplementary details, and a clear comparison against existing methods. The work is of interest to a specialized audience in gene regulation and computational biology, but the presentation and validation need strengthening to meet the standards of a high-impact journal.
+- **Who would be interested in the results, and why** Researchers in gene regulation, computational genomics, and machine learning applied to biology. Specifically, those working on MPRA data analysis, transcription factor binding site prediction, and interpretable deep learning for genomics. The potential to identify novel regulatory elements and the framework's adaptability to other sequence-to-phenotype problems would appeal to a broad computational biology audience.
+- **Major strengths**
+  - Addresses a clear limitation of existing MPRA analysis methods (independence assumption) with a principled deep learning approach.
+  - The application to a substantial, publicly available dataset (95 E. coli operons) provides a realistic testbed.
+  - The use of saliency maps for interpretation is a well-established and appropriate technique for CNN-based genomic models.
+  - The manuscript is generally well-written and logically structured, with a clear narrative from problem to method to application.
+  - The authors are transparent about the limitations of their approach, such as the discretization of expression and the "black box" nature of the model.
+- **Major Concerns**
+  - **R1-M1**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness / Validation
+    - **Claim pointer** "the trained networks achieve an average accuracy of ~80% in predicting the expression levels of the reporter gene directly from the raw sequences" (Abstract, Results)
+    - **Evidence pointer** Results section "DARSI Can Predict Gene Expression from Raw Sequence"; Figure 3
+    - **Concern** The reported ~80% accuracy is presented as a headline result, but the manuscript lacks a rigorous evaluation of this metric. The accuracy is a single average number across 95 independently trained models. There is no report of the distribution of accuracies across operons, no confidence intervals, and no comparison against a baseline model (e.g., a model using only single-nucleotide effects, or a simpler linear model). Furthermore, the accuracy is for a 3-class classification problem, and the class balance and the chance-level accuracy are not stated. The confusion matrix for one operon (yqhC) is shown, but aggregate statistics across all operons are missing.
+    - **Why it matters** Without a proper statistical characterization and baseline comparison, the reader cannot assess whether the CNN's predictive power is genuinely superior to simpler methods or whether the reported accuracy is robust and meaningful. This is central to the paper's first major claim.
+    - **Resolution test** Provide a distribution of test accuracies (e.g., boxplot) across all 95 operons. Report the mean and standard deviation, and include a comparison against a suitable baseline (e.g., a logistic regression or a position-weight-matrix-based model using the same data). State the class distribution and chance accuracy. Show aggregate confusion matrices or per-class precision/recall across all operons.
+  - **R1-M2**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness / Methodology
+    - **Claim pointer** "DARSI predicted novel unmapped binding sites" and "DARSI predicted 73 hypothetical novel binding sites" (Abstract, Results)
+    - **Evidence pointer** Results section "Uncovering Binding Sites Using Saliency Maps"; Figure 5
+    - **Concern** The method for identifying binding sites from saliency maps is described at a high level, but the critical details are missing. The thresholding (one standard deviation above mean) and minimum length (10 bp) are stated, but the process of converting a continuous saliency vector into discrete "binding site" calls is not fully specified. How are adjacent positions merged? How is the boundary of a site determined? More importantly, the validation of these novel predictions is purely computational. The claim that these are "hypothetical novel binding sites" is appropriately cautious, but the manuscript does not provide any computational evidence (e.g., motif enrichment, conservation analysis, or comparison with other prediction tools) to support their plausibility beyond the saliency peaks themselves.
+    - **Why it matters** The identification of novel binding sites is a key contribution and a major motivation for the work. If the method for calling these sites is not robust or the sites are not supported by any independent evidence, the claim is weak and potentially misleading. The paper's impact hinges on the reliability of these predictions.
+    - **Resolution test** Provide a detailed, step-by-step description of the binding site calling algorithm, including pseudocode. For the novel sites, add a computational validation layer, such as checking for sequence conservation across related species, testing for enrichment of known motif patterns, or comparing against predictions from established tools (e.g., MEME, FIMO). At minimum, provide a manual inspection of a few novel sites in the supplementary material.
+  - **R1-M3**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance / Context
+    - **Claim pointer** "DARSI predicted novel unmapped binding sites... paving the way for future experimental efforts" and "DARSI’s capacity to reveal regulatory features overlooked by traditional methods" (Abstract, Results)
+    - **Evidence base** Results section "Uncovering Binding Sites Using Saliency Maps"; Figure 4E-F; Figure S4
+    - **Concern** The comparison with "traditional methods" (specifically mutual information) is only briefly mentioned and shown for one operon (yqhC) in Figure S4. The claim that DARSI reveals features overlooked by mutual information is a strong one, but the evidence is anecdotal. A systematic, genome-wide comparison of the binding sites identified by DARSI versus those identified by a mutual information-based approach is not presented. It is unclear if DARSI's novel predictions are truly novel or if they would also be identified by a more careful application of existing methods.
+    - **Why it matters** The paper's novelty and significance are partly based on the claim that the CNN approach provides an advantage over existing methods. Without a systematic comparison, this advantage is not established, and the contribution may be seen as incremental.
+    - **Resolution test** Perform a systematic comparison across all 95 operons. Apply a mutual information-based analysis (as in Ireland et al., 2020) to the same dataset and compare the predicted binding sites with those from DARSI. Quantify the overlap, and specifically analyze the novel DARSI predictions to see if they are truly missed by the mutual information approach. Present this as a main figure or a comprehensive supplementary figure.
+  - **R1-M4**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness / Reproducibility
+    - **Claim pointer** "The architecture we converged on after optimization (see “DARSI Architecture and Training” section of the Supplementary Information) consists of 12 layers" (Results)
+    - **Evidence pointer** Results section "DARSI: A Convolutional Neural Network for Gene Expression Prediction from MPRA Data"; Supplementary Information (not provided)
+    - **Concern** The description of the neural network architecture is insufficient for reproduction. The number of layers is stated, but the types of layers (convolutional, pooling, fully connected, etc.), the number of filters, kernel sizes, activation functions, and the training hyperparameters (learning rate, batch size, number of epochs, regularization) are not provided in the main text. The authors refer to the Supplementary Information, but this is not available for review. The optimization process is described qualitatively ("systematically and iteratively modulated") without specific details on the search space or the criteria for convergence.
+    - **Why it matters** For a methods paper in computational biology, reproducibility is paramount. The lack of architectural and training details prevents other researchers from implementing or building upon this work. This is a significant technical failing.
+    - **Resolution test** Provide a complete and detailed description of the network architecture and training procedure in the main text or a comprehensive supplementary table. This should include a table with all layer types, dimensions, and parameters, as well as all training hyperparameters. The optimization process should be described with enough detail to be replicated.
+- **Minor Comments**
+  - **R1-m1**
+    - **Severity** Minor
+    - **Axis** Clarity / Readability
+    - **Affected element** Results section "Uncovering Binding Sites Using Saliency Maps"
+    - **Evidence pointer** Figure 4E-F
+    - **Issue** The description of the saliency map interpretation and the distinction between "activator" and "repressor" sites is somewhat confusing. The text states that "mutations in activator binding sites typically decrease gene expression, whereas mutations in repressor binding sites tend to increase expression" (Introduction), but the connection between the sign of the saliency values and this biological interpretation is not explicitly made in the Results section. The terms "activation" and "repression" are used in the context of the saliency plots, but the mapping is not clear.
+    - **Required correction** Clarify the relationship between the sign of the saliency values and the predicted effect on gene expression. Explicitly state that positive saliency values (in the context of the model's prediction) are interpreted as sites where mutations increase expression (repressor sites), and negative values as sites where mutations decrease expression (activator sites), or vice versa, and explain the reasoning.
+  - **R1-m2**
+    - **Severity** Minor
+    - **Axis** Technical soundness / Data processing
+    - **Affected element** Materials and Methods, "RNA-seq Raw Data Processing"
+    - **Evidence pointer** Materials and Methods section
+    - **Issue** The description of the data processing is brief. The statement "combinations with less than 3 reads were removed due to the possibility of sequencing errors" is a filtering step, but the rationale for this specific threshold is not given. More importantly, the normalization procedure is described as dividing RNA counts by DNA counts, but the details of how the DNA counts were obtained and processed are not fully clear.
+    - **Required correction** Provide more detail on the quality filtering steps and the rationale for the read count threshold. Clarify the exact normalization formula and how the DNA copy number was measured and processed.
+  - **R1-m3**
+    - **Severity** Minor
+    - **Axis** Clarity / Readability
+    - **Affected element** Results section "DARSI Can Predict Gene Expression from Raw Sequence"
+    - **Evidence pointer** Figure 3C
+    - **Issue** The F1 scores are reported as averages with standard deviations, but the text does not explain how these are calculated across the 95 independent models. It is also unclear if the F1 scores are macro-averaged or micro-averaged across the three classes.
+    - **Required correction** State explicitly how the F1 scores are averaged across models and across classes. For example, "The F1 score for each class was calculated for each of the 95 models, and the mean and standard deviation across models are reported."
+  - **R1-m4**
+    - **Severity** Minor
+    - **Axis** Scientific importance / Context
+    - **Affected element** Discussion
+    - **Evidence pointer** Discussion section
+    - **Issue** The discussion of the "black box" nature of the model is brief. The authors acknowledge the challenge but do not discuss potential avenues for interpretability beyond saliency maps, such as attribution methods or feature visualization.
+    - **Required correction** Expand the discussion on interpretability, mentioning other techniques and their potential to provide deeper biological insights.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of rigorous statistical evaluation of prediction accuracy, including distribution, confidence intervals, and baseline comparison.
+  - R1-M2: Insufficient detail on the binding site calling algorithm and lack of independent computational validation for novel predictions.
+  - R1-M4: Incomplete description of the neural network architecture and training hyperparameters, hindering reproducibility.
+- **Assessment against Nature-style criteria**
+  - **Originality** The application of CNNs to MPRA data with saliency-based interpretation is not entirely new, but the specific focus on capturing inter-base dependencies and the systematic application to a large E. coli dataset provides a degree of novelty. However, the originality is somewhat tempered by the lack of a clear demonstration of superiority over existing methods.
+  - **Scientific importance** The problem of accurately mapping regulatory elements is of high importance. If the method is robust and validated, it could be a valuable tool. However, the current evidence is insufficient to establish this importance definitively. The potential for broad applicability is mentioned but not demonstrated.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and researchers in gene regulation. The methods and results are presented in a way that is accessible to this audience, but the lack of biological validation (e.g., experimental confirmation of novel sites) limits its appeal to a broader biological audience.
+  - **Technical soundness** The core idea is sound, but the technical execution and validation are incomplete. The lack of architectural details, baseline comparisons, and robust statistical analysis are significant weaknesses that undermine the technical soundness of the claims.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the concepts are explained clearly. However, the technical details of the CNN and saliency maps may be challenging for a nonspecialist. The abstract and introduction are accessible, but the results and methods sections assume a background in machine learning and genomics.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a plausible and potentially useful approach, but the central claims are not rigorously supported due to missing methodological details, insufficient validation, and a lack of systematic comparison with existing methods. The authors should be encouraged to address the major concerns, particularly the statistical rigor of the accuracy assessment, the detailed description of the binding site calling and model architecture, and the systematic comparison with mutual information-based approaches. If these issues are resolved, the work could be a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim of "~80% average accuracy" is unsupported without a distribution, confidence intervals, or baseline comparison.
+- The claim of "88.4% of previously documented sites" being recovered is unsupported without a clear definition of "recovered" and a detailed comparison against the database.
+- The claim of "73 novel binding sites" is unsupported without a detailed description of the calling algorithm and independent computational or experimental validation.
+- The claim that DARSI "can account for possible correlations between distant bases" is a stated design goal, but the manuscript does not provide direct evidence that the model actually captures such correlations in a way that improves performance over models that assume independence.
+- The claim that the model's predictions are "reliable" enough to guide experiments is not supported by the current validation.
+- The general applicability of DARSI to "differential expression datasets across both bacterial and eukaryotic systems" is speculative and not supported by any data presented.

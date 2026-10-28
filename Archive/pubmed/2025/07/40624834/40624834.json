@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "40624834",
+    "doi": "10.1021/acs.analchem.5c01354",
+    "title": "Combining the NanaPPI Toolbox and AI-Driven Virtual Inhibitor Screening for the p53-MDM2 Interaction."
+  },
+  "content": {
+    "abstract": "High-throughput screening for inhibitors of protein-protein interactions (PPIs) provides vital information for therapeutic intervention in diseases driven by aberrant PPIs. Traditionally, the discovery of PPI inhibitors involves sequential steps: in vitro screening with purified proteins and then cellular assessment of cell permeability and PPI disruption, which prolong the screening timeline and escalate costs. Here, we have advanced our NanaPPI technique to create a versatile toolkit compatible with at least 95% of commercial murine antibodies, facilitating the in situ quantification of cellular PPIs. By integrating AI-driven virtual screening with the NanaPPI toolbox, we successfully constructed the NaviScreen platform and rapidly identified a potent p53-MDM2 inhibitor, AB-460, from a library of 3 million compounds. AB-460 effectively inhibits the p53-MDM2 interaction, suppresses the proliferation of tumor cells, and reduces tumor volume in zebrafish by increasing p53 and p21 protein levels. This NaviScreen platform combines the high throughput of virtual screening with the in situ PPI quantification capabilities of NanaPPI, offering an efficient strategy for the discovery of cell-permeable and stable PPI inhibitors.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Proto-Oncogene Proteins c-mdm2/metabolism/antagonists & inhibitors",
+      "*Tumor Suppressor Protein p53/metabolism/antagonists & inhibitors",
+      "Humans",
+      "Animals",
+      "Zebrafish",
+      "High-Throughput Screening Assays",
+      "Cell Proliferation/drug effects",
+      "Protein Binding/drug effects",
+      "*Artificial Intelligence",
+      "*Antineoplastic Agents/pharmacology/chemistry",
+      "Cell Line, Tumor",
+      "Mice"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Huijuan",
+        "Zhang, Hong",
+        "Ding, Saiyang",
+        "Xue, Yue",
+        "Du, Xiangjun",
+        "Han, Zhaoxue",
+        "Li, Qianqian",
+        "Gao, Yi Qin",
+        "Peng, Qin"
+      ],
+      "short_names": [
+        "Liu H",
+        "Zhang H",
+        "Ding S",
+        "Xue Y",
+        "Du X",
+        "Han Z",
+        "Li Q",
+        "Gao YQ",
+        "Peng Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0732-6532",
+        "ORCID: 0000-0002-4309-9376",
+        "ORCID: 0000-0001-8364-3885"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Crop Stress Biology for Arid Areas, College of Life Sciences,Northwest A&F University, Yangling 712100, Shanxi, China.",
+        "Beijing National Laboratory for Molecular Sciences, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China.",
+        "State Key Laboratory of Crop Stress Biology for Arid Areas, College of Life Sciences,Northwest A&F University, Yangling 712100, Shanxi, China.",
+        "Beijing National Laboratory for Molecular Sciences, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China.",
+        "Shenzhen Bay Laboratory, Shenzhen 518132, China.",
+        "State Key Laboratory of Crop Stress Biology for Arid Areas, College of Life Sciences,Northwest A&F University, Yangling 712100, Shanxi, China.",
+        "Shenzhen Bay Laboratory, Shenzhen 518132, China.",
+        "Shenzhen Bay Laboratory, Shenzhen 518132, China.",
+        "Beijing National Laboratory for Molecular Sciences, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China.",
+        "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing 100871, China.",
+        "Shenzhen Bay Laboratory, Shenzhen 518132, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Huijuan",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Crop Stress Biology for Arid Areas, College of Life Sciences,Northwest A&F University, Yangling 712100, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hong",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing National Laboratory for Molecular Sciences, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Saiyang",
+        "short_name": "Ding S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Crop Stress Biology for Arid Areas, College of Life Sciences,Northwest A&F University, Yangling 712100, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Yue",
+        "short_name": "Xue Y",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing National Laboratory for Molecular Sciences, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Du, Xiangjun",
+        "short_name": "Du X",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Bay Laboratory, Shenzhen 518132, China."
+        ]
+      },
+      {
+        "full_name": "Han, Zhaoxue",
+        "short_name": "Han Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Crop Stress Biology for Arid Areas, College of Life Sciences,Northwest A&F University, Yangling 712100, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qianqian",
+        "short_name": "Li Q",
+        "identifiers": [
+          "0000-0003-0732-6532"
+        ],
+        "affiliations": [
+          "Shenzhen Bay Laboratory, Shenzhen 518132, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yi Qin",
+        "short_name": "Gao YQ",
+        "identifiers": [
+          "0000-0002-4309-9376"
+        ],
+        "affiliations": [
+          "Shenzhen Bay Laboratory, Shenzhen 518132, China.",
+          "Beijing National Laboratory for Molecular Sciences, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China.",
+          "Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Qin",
+        "short_name": "Peng Q",
+        "identifiers": [
+          "0000-0001-8364-3885"
+        ],
+        "affiliations": [
+          "Shenzhen Bay Laboratory, Shenzhen 518132, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Analytical chemistry"
+    ],
+    "journal_abbrev": [
+      "Anal Chem"
+    ],
+    "pub_date": "2025 Jul 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/08 06:26",
+    "fetched_at": "2026-09-30 21:27:28"
+  },
+  "links": {
+    "cites": [
+      "42446537"
+    ],
+    "refs": [],
+    "similar": [
+      "40624834",
+      "32691963",
+      "23726030",
+      "29121928",
+      "30464405",
+      "28581721",
+      "23428467",
+      "23046248",
+      "27269808",
+      "21471462",
+      "41319394",
+      "39384887",
+      "20662736",
+      "34794098",
+      "27302609",
+      "34426149",
+      "21314128",
+      "34806333",
+      "31473433",
+      "16789731",
+      "40906370",
+      "28296148",
+      "18566224",
+      "20370686",
+      "33533253",
+      "30526032",
+      "24554192",
+      "26141769",
+      "25145672",
+      "24852275",
+      "30498096",
+      "25016295",
+      "23977270",
+      "27871087",
+      "20639499",
+      "24704029",
+      "23611770",
+      "25882531",
+      "41918157",
+      "20080970",
+      "24476585",
+      "30135191",
+      "30724592",
+      "23601819",
+      "30217928",
+      "28270530",
+      "24601644",
+      "29089230",
+      "19856920",
+      "28669344",
+      "39740390",
+      "40899411",
+      "40017256",
+      "24050442",
+      "25987034",
+      "25384157",
+      "25739118",
+      "21855354",
+      "18673221",
+      "22524527",
+      "30041135",
+      "19707204",
+      "40339040",
+      "20660730",
+      "26720344",
+      "19928922",
+      "27826076",
+      "42207851",
+      "23400593",
+      "23786219",
+      "30513790",
+      "22586610",
+      "18316739",
+      "25388787",
+      "38204258",
+      "40934768",
+      "34714078",
+      "16759082",
+      "27874234",
+      "33761253",
+      "25377899",
+      "38059334",
+      "42102694",
+      "36989812",
+      "30575392",
+      "31421630",
+      "27764791",
+      "25312347",
+      "26200271",
+      "24813735",
+      "31971801",
+      "39300610",
+      "33012506",
+      "30989812",
+      "32461254",
+      "17034127",
+      "21046355",
+      "16647257",
+      "27010502",
+      "18428185"
+    ],
+    "review": [
+      "40624834",
+      "27302609",
+      "28270530",
+      "28669344",
+      "40017256",
+      "18673221",
+      "42207851"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/ancham/article-lookup/doi/10.1021/acs.analchem.5c01354",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "identity": {
+    "pmid": "36980273",
+    "doi": "10.3390/cells12060932",
+    "title": "The LINC Complex Inhibits Excessive Chromatin Repression."
+  },
+  "content": {
+    "abstract": "The Linker of Nucleoskeleton and Cytoskeleton (LINC) complex transduces nuclear mechanical inputs suggested to control chromatin organization and gene expression; however, the underlying mechanism is currently unclear. We show here that the LINC complex is needed to minimize chromatin repression in muscle tissue, where the nuclei are exposed to significant mechanical inputs during muscle contraction. To this end, the genomic binding profiles of Polycomb, Heterochromatin Protein1 (HP1a) repressors, and of RNA-Pol II were studied in Drosophila larval muscles lacking functional LINC complex. A significant increase in the binding of Polycomb and parallel reduction of RNA-Pol-II binding to a set of muscle genes was observed. Consistently, enhanced tri-methylated H3K9 and H3K27 repressive modifications and reduced chromatin activation by H3K9 acetylation were found. Furthermore, larger tri-methylated H3K27me3 repressive clusters, and chromatin redistribution from the nuclear periphery towards nuclear center, were detected in live LINC mutant larval muscles. Computer simulation indicated that the observed dissociation of the chromatin from the nuclear envelope promotes growth of tri-methylated H3K27 repressive clusters. Thus, we suggest that by promoting chromatin-nuclear envelope binding, the LINC complex restricts the size of repressive H3K27 tri-methylated clusters, thereby limiting the binding of Polycomb transcription repressor, directing robust transcription in muscle fibers.",
+    "keywords": [
+      "LINC complex",
+      "chromatin repression",
+      "epigenetics",
+      "muscle",
+      "nuclear mechanobiology"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Chromatin/metabolism",
+      "Computer Simulation",
+      "Cytoskeleton/metabolism",
+      "Transcription Factors/metabolism",
+      "Nuclear Matrix/metabolism",
+      "Polycomb-Group Proteins/genetics/metabolism",
+      "Drosophila/metabolism",
+      "*Drosophila Proteins/genetics/metabolism",
+      "RNA/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Amiad Pavlov, Daria",
+        "Unnikannan, C P",
+        "Lorber, Dana",
+        "Bajpai, Gaurav",
+        "Olender, Tsviya",
+        "Stoops, Elizabeth",
+        "Reuveny, Adriana",
+        "Safran, Samuel",
+        "Volk, Talila"
+      ],
+      "short_names": [
+        "Amiad Pavlov D",
+        "Unnikannan CP",
+        "Lorber D",
+        "Bajpai G",
+        "Olender T",
+        "Stoops E",
+        "Reuveny A",
+        "Safran S",
+        "Volk T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8569-1597",
+        "ORCID: 0000-0002-6200-4272",
+        "ORCID: 0000-0002-0635-8703",
+        "ORCID: 0000-0003-3875-4599"
+      ],
+      "affiliations": [
+        "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Bayer AG, 51368 Leverkusen, Germany.",
+        "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Amiad Pavlov, Daria",
+        "short_name": "Amiad Pavlov D",
+        "identifiers": [
+          "0000-0002-8569-1597"
+        ],
+        "affiliations": [
+          "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Unnikannan, C P",
+        "short_name": "Unnikannan CP",
+        "identifiers": [
+          "0000-0002-6200-4272"
+        ],
+        "affiliations": [
+          "Bayer AG, 51368 Leverkusen, Germany."
+        ]
+      },
+      {
+        "full_name": "Lorber, Dana",
+        "short_name": "Lorber D",
+        "identifiers": [
+          "0000-0002-0635-8703"
+        ],
+        "affiliations": [
+          "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Bajpai, Gaurav",
+        "short_name": "Bajpai G",
+        "identifiers": [
+          "0000-0003-3875-4599"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Olender, Tsviya",
+        "short_name": "Olender T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Stoops, Elizabeth",
+        "short_name": "Stoops E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Reuveny, Adriana",
+        "short_name": "Reuveny A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Safran, Samuel",
+        "short_name": "Safran S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Volk, Talila",
+        "short_name": "Volk T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cells"
+    ],
+    "journal_abbrev": [
+      "Cells"
+    ],
+    "pub_date": "2023 Mar 18",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/30 06:00",
+    "fetched_at": "2026-09-28 22:11:42"
+  },
+  "links": {
+    "cites": [
+      "42443317",
+      "42316962",
+      "42205243",
+      "42088055",
+      "41890082",
+      "41360929",
+      "41334455",
+      "40335054",
+      "40178931",
+      "39710429",
+      "39220563",
+      "38826247",
+      "37310722"
+    ],
+    "refs": [
+      "37436818",
+      "35974030",
+      "35178558",
+      "34857921",
+      "34820910",
+      "34408666",
+      "34078602",
+      "33942717",
+      "33779546",
+      "33712293",
+      "33605056",
+      "33168584",
+      "32432302",
+      "32040548",
+      "31822208",
+      "30944313",
+      "30514760",
+      "29650775",
+      "29467443",
+      "29432187",
+      "29273756",
+      "29089899",
+      "28938122",
+      "28864767",
+      "28760140",
+      "28049722",
+      "27558729",
+      "27490632",
+      "27398909",
+      "27110666",
+      "26791211",
+      "26430217",
+      "26112292",
+      "26008743",
+      "25559183",
+      "24947240",
+      "24481215",
+      "24374011",
+      "23792147",
+      "23149102",
+      "22927463",
+      "22632968",
+      "22593213",
+      "22198684",
+      "21340745",
+      "21327104",
+      "21271610",
+      "21221095",
+      "19687252",
+      "19008300",
+      "18820482",
+      "18820457"
+    ],
+    "similar": [
+      "36980273",
+      "37499944",
+      "29650775",
+      "24004944",
+      "24316986",
+      "36357125",
+      "24801343",
+      "36293135",
+      "36460465",
+      "36206738",
+      "29691054",
+      "38134278",
+      "29126440",
+      "22096074",
+      "36348113",
+      "38798157",
+      "35904285",
+      "23580551",
+      "31784359",
+      "29432187",
+      "24671948",
+      "27557709",
+      "20062800",
+      "37140047",
+      "29465769",
+      "28778878",
+      "30833342",
+      "33168584",
+      "20351181",
+      "32393638",
+      "33468665",
+      "28716842",
+      "30008320",
+      "16618800",
+      "37846646",
+      "28724767",
+      "24668908",
+      "24186981",
+      "28049722",
+      "30262467",
+      "30662949",
+      "25082344",
+      "38691452",
+      "19700617",
+      "35059633",
+      "24986859",
+      "21549310",
+      "30122154",
+      "27705745",
+      "22778136",
+      "24947240",
+      "30659121",
+      "31822208",
+      "38797871",
+      "34274396",
+      "34620850",
+      "25954320",
+      "26642436",
+      "25720065",
+      "31928411",
+      "23688781",
+      "25284790",
+      "35032681",
+      "32634376",
+      "38361032",
+      "27307582",
+      "35925868",
+      "36455041",
+      "36303054",
+      "14752009",
+      "19478141",
+      "18846226",
+      "34903738",
+      "26802126",
+      "22722341",
+      "23324460",
+      "21700228",
+      "22275876",
+      "19767730",
+      "22910904",
+      "9735366",
+      "25147918",
+      "34779871",
+      "34747969",
+      "28138149",
+      "28403905",
+      "27777628",
+      "29689197",
+      "20696397",
+      "28302792",
+      "31576648",
+      "22009739",
+      "22349693",
+      "34186021",
+      "33823544",
+      "34429358",
+      "30245107",
+      "17428788",
+      "23260668"
+    ],
+    "review": [
+      "36980273",
+      "24801343",
+      "36293135",
+      "38798157",
+      "24671948",
+      "28778878",
+      "37846646",
+      "35059633",
+      "24947240",
+      "25720065",
+      "31928411",
+      "34779871",
+      "34747969"
+    ],
+    "pmc": [
+      "10047284"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=36980273",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cells12060932",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36980273/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36980273",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

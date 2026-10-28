@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "42065054",
+    "doi": "10.32604/or.2026.075284",
+    "title": "Integrative Machine Learning and Experimental Validation Identify MYBL2 as a Prognostic Biomarker and Therapeutic Target in Hepatocellular Carcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hepatocellular carcinoma (HCC) presents with poor treatment outcomes, creating an urgent need for novel biomarkers to improve diagnosis, prognosis, and precision medicine. While the MYB family of oncogenes is implicated in cancer, the role and regulatory mechanisms of its member, particularly MYB proto-oncogene like 2 (MYBL2), remain underexplored in HCC. Therefore, this study aimed to systematically validate the clinical significance of MYBL2, elucidate its functional role in tumor progression and drug sensitivity, and identify its upstream regulatory mechanisms using an integrative machine learning and experimental framework. METHODS: We applied an integrative pipeline combining LASSO-based feature selection on TCGA and GEO cohorts, single-cell transcriptomics, pharmacogenomic surveys, and CRISPR dependency screens. These computational approaches were complemented by in vitro HepG2 assays, luciferase reporter tests, iTRAQ proteomics, and an in vivo western diet/CCl(4) (WD/CCl(4)) HCC model using miR-29a transgenic mice to investigate a putative regulatory axis. RESULTS: MYBL2 robustly discriminated tumor from normal liver (AUC = 0.968), and high expression was associated with adverse features, including higher grade, microvascular invasion, HBV positivity, nonresponse to TACE, and worse survival. A nomogram combining MYBL2 with AJCC stage improved 1-, 3-, and 5-year AUCs versus stage alone. MYBL2 correlated with proliferative biomarkers (AFP, MKI67, PCNA, BIRC5) and CRISPR knockout inhibited growth in most HCC lines. High MYBL2 expression was associated with greater sensitivity to sorafenib in pharmacogenomic screens and was linked to an immunosuppressive microenvironment and higher MSI. Mechanistically, miR-29a was shown to suppress MYBL2 translation by directly binding to its 3(')-UTR; this was validated in vivo, where miR-29a transgenic mice were protected from WD/CCl(4)-induced HCC, demonstrating reduced tumor burden, MYBL2 expression, and fibrosis. iTRAQ proteomics further confirmed MYBL2 as a top miR-29a-regulated protein. CONCLUSIONS: MYBL2 is a potent diagnostic and prognostic biomarker in HCC that also predicts sorafenib sensitivity. Our findings establish a clear regulatory link where MYBL2 is a direct and functionally important target of the tumor-suppressive miR-29a. This positions MYBL2 as a tractable target for miR-29a-based therapeutic strategies, warranting clinical validation for patient stratification and treatment development in HCC.",
+    "keywords": [
+      "Hepatocellular carcinoma",
+      "MYBL2",
+      "biomarker",
+      "miR-29a",
+      "precision medicine",
+      "prognosis",
+      "tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/genetics/pathology/metabolism/drug therapy",
+      "*Liver Neoplasms/pathology/genetics/metabolism/drug therapy",
+      "Animals",
+      "*Biomarkers, Tumor/genetics/metabolism",
+      "Prognosis",
+      "Mice",
+      "*Cell Cycle Proteins/genetics/metabolism",
+      "Proto-Oncogene Mas",
+      "MicroRNAs/genetics",
+      "*Machine Learning",
+      "Gene Expression Regulation, Neoplastic",
+      "Sorafenib/pharmacology",
+      "Male",
+      "Mice, Transgenic",
+      "Hep G2 Cells",
+      "Trans-Activators"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Ya-Ling",
+        "Huang, Ying-Hsien",
+        "Lin, Hung-Yu"
+      ],
+      "short_names": [
+        "Yang YL",
+        "Huang YH",
+        "Lin HY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anesthesiology, Kaohsiung Chang Gung Memorial Hospital and Chang Gung University College of Medicine, Kaohsiung, Taiwan.",
+        "Department of Pediatrics, Kaohsiung Chang Gung Memorial Hospital and Chang Gung University College of Medicine, Kaohsiung, Taiwan.",
+        "Department of Post-Baccalaureate Medicine, College of Medicine, National Chung Hsing University, Taichung, Taiwan.",
+        "Research Assistant Center, Show Chwan Memorial Hospital, Changhua, Taiwan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Ya-Ling",
+        "short_name": "Yang YL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Kaohsiung Chang Gung Memorial Hospital and Chang Gung University College of Medicine, Kaohsiung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Huang, Ying-Hsien",
+        "short_name": "Huang YH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Kaohsiung Chang Gung Memorial Hospital and Chang Gung University College of Medicine, Kaohsiung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lin, Hung-Yu",
+        "short_name": "Lin HY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Post-Baccalaureate Medicine, College of Medicine, National Chung Hsing University, Taichung, Taiwan.",
+          "Research Assistant Center, Show Chwan Memorial Hospital, Changhua, Taiwan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Oncology research"
+    ],
+    "journal_abbrev": [
+      "Oncol Res"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/01 06:34",
+    "fetched_at": "2026-10-01 19:26:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41000594",
+      "40673276",
+      "40668553",
+      "40647542",
+      "40259326",
+      "40092688",
+      "40077069",
+      "40032410",
+      "39911278",
+      "39512697",
+      "39402035",
+      "39301900",
+      "39227359",
+      "38947375",
+      "38835346",
+      "38760445",
+      "38706955",
+      "38663838",
+      "38572751",
+      "38499648",
+      "38338746",
+      "38105215",
+      "38054927",
+      "38034403",
+      "38031071",
+      "37965429",
+      "37950087",
+      "37635767",
+      "37430087",
+      "37352901",
+      "36552262",
+      "36243976",
+      "35530750",
+      "35528976",
+      "34585645",
+      "34358419",
+      "34257652",
+      "33992698",
+      "33807717",
+      "33637673",
+      "33489883",
+      "33479224",
+      "32903636",
+      "32514252",
+      "32218829",
+      "32105326",
+      "31652636",
+      "31207320",
+      "30266410",
+      "30061739",
+      "29628281",
+      "29573266",
+      "29572095",
+      "29217524",
+      "29083409",
+      "28753430",
+      "28640249",
+      "26101717",
+      "23501116",
+      "9529609",
+      "3941898"
+    ],
+    "similar": [
+      "42065054",
+      "42486346",
+      "21419759",
+      "27704356",
+      "30876939",
+      "28284560",
+      "33839325",
+      "41345488",
+      "41200185",
+      "42021884",
+      "30981107",
+      "32754282",
+      "42500561",
+      "37776468",
+      "26323375",
+      "41553301",
+      "32795316",
+      "32220970",
+      "21573166",
+      "32115147",
+      "29510736",
+      "40610613",
+      "32324343",
+      "33083453",
+      "40235270",
+      "41935591",
+      "32786108",
+      "42593582",
+      "40227531",
+      "33378944",
+      "35163556",
+      "42465750",
+      "30782188",
+      "42506898",
+      "38753154",
+      "29274707",
+      "40597269",
+      "38653946",
+      "42025893",
+      "30402839",
+      "24211739",
+      "42317344",
+      "33121524",
+      "31553714",
+      "35013864",
+      "25424347",
+      "40771801",
+      "42155390",
+      "34551961",
+      "38372878",
+      "42062902",
+      "29630527",
+      "26498692",
+      "41118585",
+      "31053148",
+      "26164082",
+      "39133347",
+      "28096271",
+      "29378599",
+      "26474589",
+      "32311821",
+      "41685312",
+      "41357200",
+      "30257387",
+      "41131597",
+      "41041339",
+      "31022357",
+      "28526689",
+      "39197541",
+      "31857112",
+      "30198432",
+      "34279157",
+      "42459515",
+      "27029030",
+      "33541391",
+      "33499874",
+      "31503422",
+      "33484498",
+      "41545558",
+      "40615101",
+      "26589417",
+      "30089483",
+      "25494879",
+      "35013144",
+      "30486878",
+      "42216580",
+      "31088485",
+      "31387005",
+      "40956482",
+      "31695788",
+      "42338358",
+      "33847733",
+      "24884509",
+      "40103455",
+      "27074866",
+      "38493408",
+      "42480981",
+      "26547929",
+      "39831843",
+      "42026805"
+    ],
+    "review": [
+      "42065054"
+    ],
+    "pmc": [
+      "13126373"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42065054/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1561",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text (review article, ArXiv preprint, 2024)
+- **Assessment boundary** Scientific content, technical soundness, completeness, and clarity of the review as presented in the provided text. No external literature verification performed.
+- **Shared manuscript claim summary** The manuscript is a review of machine learning and deep learning methods for predicting 3D genome organization, specifically enhancer-promoter interactions (EPIs), chromatin loops/interactions, TAD boundaries, and A/B compartments. It describes a general ML framework, summarizes tools chronologically within each prediction category, and discusses challenges and future directions.
+- **Visible evidence base** Full text including Abstract, Introduction, Results (ML framework, EPI prediction, chromatin interaction prediction, TAD boundary prediction, A/B compartment prediction), Discussion, Summary, and Funding sections. Tables referenced but not provided.
+- **Missing materials affecting confidence** Tables 1-3 (summarizing tools) are referenced but not included. Figures (e.g., Figure 1) are not available. No supplementary information. No code or data repositories mentioned. No comparison of tool availability (web server, code, package) beyond mentions in text.
+
+## Reviewer
+- **Overall assessment** This is a useful and generally well-organized narrative review covering a rapidly evolving area. The scope is appropriate, and the chronological organization within each prediction category is helpful. The authors correctly identify key methodological challenges, particularly class imbalance and evaluation metrics. However, the review has several weaknesses that limit its current impact: (1) the depth of critical analysis is uneven, with some tools described only superficially; (2) the treatment of evaluation methodology and benchmark datasets is insufficiently critical; (3) the discussion of future directions, while reasonable, is somewhat generic; and (4) the absence of tables and figures in the provided material makes it impossible to assess the completeness and accuracy of the tool summaries. The manuscript would benefit from a more systematic comparison of tools, a clearer articulation of the practical guidance for users, and a more rigorous discussion of the limitations of current evaluation practices.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing or applying ML methods to 3D genomics. Experimental biologists studying gene regulation who seek to use predictive tools to prioritize enhancer-promoter interactions or interpret Hi-C data. The review provides a single entry point to a dispersed literature and could serve as a teaching resource for graduate courses in genomics and computational biology.
+- **Major strengths** 1. Comprehensive coverage of the major tool categories (EPI, loop, TAD boundary, compartment prediction). 2. Clear articulation of common methodological pitfalls (class imbalance, evaluation metrics, data leakage). 3. Useful historical organization showing the evolution of the field. 4. Discussion of complementary data types (sequence, epigenomic, expression) and their roles. 5. Identification of under-explored areas (differential boundaries, multi-way interactions, hierarchical TADs).
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / completeness of tool summaries
+  - **Claim pointer** The review claims to "discuss computational tools for predicting three types of 3D interactions (EPIs, chromatin interactions, TAD boundaries) and analyze their pros and cons" (Abstract) and to describe "the advantages and disadvantages of each tool" (Introduction).
+  - **Evidence pointer** Sections "Enhancer-promoter interactions prediction", "Chromatin interaction prediction", "TAD boundary prediction"; Tables 1-3 (not provided)
+  - **Concern** The critical analysis of individual tools is highly uneven. For several tools, the description is limited to a single sentence stating the architecture and data used (e.g., "EPI-DLMH contains a bidirectional, gated, recurrent unit...", "Be-1DCNN employs a bagging ensemble of ten one-dimensional CNNs"). The claimed "pros and cons" analysis is largely absent. There is no systematic comparison of tools in terms of input features, output resolution, training data, computational cost, or practical usability (e.g., is code available? is a web server provided?). The absence of Tables 1-3 in the provided material is a significant issue, as these tables are likely the primary vehicle for such comparison, but the text itself does not compensate.
+  - **Why it matters** A review's primary value lies in its critical synthesis. Without a consistent and substantive comparison of tools, the reader cannot make informed choices about which method to use for a given application. The current text reads more as an annotated list than a critical review. This undermines the stated goal of the manuscript.
+  - **Resolution test** The authors should provide a structured comparison (e.g., in the tables) covering at least: input data types, output resolution, training cell types, evaluation metrics used, availability (code/web server), and reported performance. The text should explicitly discuss relative strengths and weaknesses, not just describe architecture. For each tool, at least one sentence should address limitations or assumptions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / evaluation methodology
+  - **Claim pointer** The review states that "class imbalance" and "the need for careful validation" are key challenges (Summary) and describes various evaluation metrics used by tools (AUROC, AUPRC, F1, MCC).
+  - **Evidence pointer** Section "Machine learning framework for genomic predictions"; individual tool descriptions
+  - **Concern** The discussion of evaluation methodology is superficial. The review does not critically discuss the choice of negative examples, which is a fundamental issue in genomic prediction. For example, how are non-interacting pairs defined? What are the biases introduced by distance-matched negatives? The review mentions that TargetFinder's performance was later shown to be overly optimistic due to class imbalance [63], but does not generalize this lesson to other tools. The review does not discuss the issue of data leakage (e.g., overlapping genomic regions between training and test sets) or the importance of cross-cell-type validation as a more stringent test of generalizability. The statement that "AUPRC is better suited for performance evaluation" is made without nuance; AUPRC is also sensitive to the prevalence of positives in the test set.
+  - **Why it matters** The choice of evaluation protocol fundamentally affects the reported performance of a tool. A review that does not critically examine these protocols may inadvertently propagate inflated performance claims. The field lacks standardized benchmarks, and the review misses an opportunity to call for and outline such benchmarks.
+  - **Resolution test** The authors should add a dedicated subsection on evaluation methodology, discussing: (1) strategies for negative set construction and their biases; (2) the distinction between AUROC and AUPRC and when each is appropriate; (3) the problem of data leakage and how tools address (or fail to address) it; (4) the value of cross-cell-type and cross-species validation. This discussion should be tied back to specific tools where relevant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / future directions
+  - **Claim pointer** The Discussion states that "methods for predicting them [differential TAD/loop boundaries], and consequently the knowledge of associated genomic features, remain undeveloped and a highly promising direction for future investigation."
+  - **Evidence pointer** Section "Discussion"
+  - **Concern** The future directions section is largely a list of under-explored areas (differential boundaries, hierarchical TADs, multi-way interactions) without concrete suggestions for how to approach these problems. For example, what types of data would be needed? What methodological innovations are required? The mention of gene expression data as a promising avenue is not developed. The review does not discuss the potential of self-supervised learning or foundation models, which are transforming computational biology. The discussion of "ground truth" is important but is not resolved; the review does not offer a practical recommendation for how the field should proceed (e.g., use of imaging data as gold standard, development of community benchmarks).
+  - **Why it matters** A review should not only summarize the past but also provide a roadmap for the future. The current discussion is too vague to guide researchers. A more concrete articulation of challenges and potential solutions would increase the impact and longevity of the review.
+  - **Resolution test** The authors should expand the Discussion with specific, actionable research directions. For example: (1) propose a community benchmark for evaluating prediction tools, with standardized datasets and metrics; (2) discuss the potential of transfer learning and foundation models pre-trained on large-scale genomic data; (3) suggest specific strategies for integrating gene expression data into interaction prediction; (4) discuss the challenges and opportunities of predicting 3D structure at single-cell resolution.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Section "Introduction"
+  - **Issue** The introduction assumes familiarity with the key concepts (e.g., "loop extrusion", "convergent orientation of CTCF"). A brief explanation of these mechanisms would make the review more accessible to a broader audience.
+  - **Required correction** Add one or two sentences explaining loop extrusion and the role of CTCF in establishing TAD boundaries and loops.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness / clarity
+  - **Affected element** Section "Enhancer-promoter interactions prediction", description of PreSTIGE
+  - **Evidence pointer** Section "Enhancer-promoter interactions prediction"
+  - **Issue** The description of PreSTIGE is vague: "Considering cell type-specific H3K4me1 signal (a marker of enhancers), the method linked these regions with genes expressed specifically in that cell type." It is unclear how the linking is done and what the output is.
+  - **Required correction** Provide a more precise description of the method, including the algorithm used and the type of output (e.g., ranked list of enhancer-gene pairs).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness / completeness
+  - **Affected element** Section "Chromatin interaction prediction", description of EpiCOT
+  - **Evidence pointer** Section "Chromatin interaction prediction"
+  - **Issue** The description of EpiCOT is incomplete: "It utilizes a pre-training and fine-tuning approach, where a model is trained on cell-specific chromatin accessibility profiles... and then transferred to downstream tasks." The downstream tasks are not specified.
+  - **Required correction** Specify the downstream tasks (e.g., prediction of gene expression, enhancer activity) and the type of data used for fine-tuning.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "TAD boundary prediction", description of TADBoundaryDetector
+  - **Evidence pointer** Section "TAD boundary prediction"
+  - **Issue** The claim of "an impressive accuracy of 96%" is reported without context. Accuracy is a misleading metric for imbalanced data, and the review itself discusses class imbalance as a key issue.
+  - **Required correction** Report the metric in context (e.g., balanced accuracy, AUROC) or at least note that accuracy may be inflated due to class imbalance.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness / clarity
+  - **Affected element** Section "A/B compartment prediction"
+  - **Evidence pointer** Section "A/B compartment prediction"
+  - **Issue** The section on A/B compartment prediction is very brief and does not mention any specific tool by name (except MEGABASE and SNIPER). The description of the Fortin and Hansen method is vague.
+  - **Required correction** Expand this section to include a more detailed description of the methods and their relative strengths and weaknesses.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness / completeness
+  - **Affected element** Section "Machine learning framework for genomic predictions"
+  - **Evidence pointer** Section "Machine learning framework for genomic predictions"
+  - **Issue** The discussion of cross-validation strategies is brief and does not mention the specific issue of evaluating on the same chromosome as training, which can lead to inflated performance due to correlated genomic features.
+  - **Required correction** Add a sentence noting that chromosome-level holdout is a more stringent test and that some tools may not use it.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "Discussion"
+  - **Evidence pointer** Section "Discussion"
+  - **Issue** The term "ground truth" is used but not defined in the context of 3D genomics. The reader may not know what constitutes a gold standard for interactions.
+  - **Required correction** Briefly define what is meant by "ground truth" (e.g., experimentally validated interactions from ChIA-PET, HiChIP, or imaging) and discuss the limitations of each.
+- **Technical failings that need to be addressed before the case is established** 1. The absence of Tables 1-3 and Figure 1 in the provided material makes it impossible to verify the completeness and accuracy of the tool summaries. The text alone is insufficient for a critical review. 2. The review does not provide a systematic comparison of tools in terms of input data, output, and performance. 3. The evaluation methodology discussion is superficial and does not address key issues such as negative set construction and data leakage. 4. The future directions section is too vague to be actionable.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The review covers a rapidly evolving field, but the organization and content are largely descriptive. The identification of under-explored areas (differential boundaries, multi-way interactions) is a positive contribution, but the discussion is not sufficiently developed to be considered highly original.  
+  - **Scientific importance** High. The topic is of significant interest to a broad community of computational and experimental biologists. The review addresses a real need for a synthesis of this literature. However, the impact is diminished by the lack of critical depth.  
+  - **Interdisciplinary readership** Moderate. The review is primarily written for a computational audience. Experimental biologists may find the descriptions of ML architectures (e.g., "bidirectional LSTM", "attention mechanism") difficult to follow without more context. The review would benefit from a more accessible explanation of key ML concepts.  
+  - **Technical soundness** Moderate. The descriptions of individual tools appear accurate based on the text, but the lack of critical analysis and the absence of tables prevent a full assessment. The discussion of evaluation methodology is a weakness.  
+  - **Readability for nonspecialists** Moderate. The writing is generally clear, but the review assumes familiarity with both 3D genomics and ML concepts. A glossary or more introductory material would improve accessibility.  
+  - **Overall** The manuscript has the potential to be a valuable resource, but in its current form, it is more of a catalog than a critical review. The authors need to strengthen the comparative analysis, deepen the discussion of evaluation methodology, and provide more concrete future directions.
+- **Recommendation posture** Supportive if technical concerns are resolved. The topic is important and the review covers a broad range of tools. However, the lack of critical depth and the absence of tables/figures in the provided material prevent a full endorsement. The authors should address the major concerns outlined above, particularly the need for a systematic comparison of tools and a more rigorous discussion of evaluation methodology.
+
+## Risk / unsupported claims
+- The claim that the review "analyze[s] their pros and cons" (Abstract) is not supported by the text, as the descriptions of most tools are purely descriptive.
+- The claim that "the continued demonstration of the superiority of the RF technique over other methods [101] positions it as a robust machine learning approach" is an overgeneralization. The cited reference [101] is not described, and the claim is not supported by a systematic comparison in this review.
+- The claim that "DNA sequence properties complement epigenomic features for functional element predictions" (in the context of EP2vec and DeepTACT) is plausible but not critically examined. The review does not discuss the relative contribution of each data type.
+- The claim that "genome annotations 'encode sufficient information to determine the global architecture of chromosomes'" (quoting MEGABASE) is presented without critical evaluation. This is a strong claim that warrants discussion of its limitations.
+- The statement that "the model demonstrates the feasibility to resolve small chromatin loops, TADs, and long-range EPIs compatible with Hi-C and imaging data" (referring to the polymer physics model) is not supported by specific quantitative results in the text.
+- The claim that "SNIPER-derived predictions correlate well with histone mark signal, replication timing, RNA-seq, and TSA-seq" is presented without specific correlation values or a discussion of what "well" means.
+- The statement that "approximately 60–80% of TADs remain invariant across cell types" is presented without a citation in the provided text.

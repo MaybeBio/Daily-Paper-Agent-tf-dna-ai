@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "38375921",
+    "doi": "10.1093/nar/gkae099",
+    "title": "Employing bimodal representations to predict DNA bendability within a self-supervised pre-trained framework."
+  },
+  "content": {
+    "abstract": "The bendability of genomic DNA, which measures the DNA looping rate, is crucial for numerous biological processes of DNA. Recently, an advanced high-throughput technique known as 'loop-seq' has made it possible to measure the inherent cyclizability of DNA fragments. However, quantifying the bendability of large-scale DNA is costly, laborious, and time-consuming. To close the gap between rapidly evolving large language models and expanding genomic sequence information, and to elucidate the DNA bendability's impact on critical regulatory sequence motifs such as super-enhancers in the human genome, we introduce an innovative computational model, named MIXBend, to forecast the DNA bendability utilizing both nucleotide sequences and physicochemical properties. In MIXBend, a pre-trained language model DNABERT and convolutional neural network with attention mechanism are utilized to construct both sequence- and physicochemical-based extractors for the sophisticated refinement of DNA sequence representations. These bimodal DNA representations are then fed to a k-mer sequence-physicochemistry matching module to minimize the semantic gap between each modality. Lastly, a self-attention fusion layer is employed for the prediction of DNA bendability. In conclusion, the experimental results validate MIXBend's superior performance relative to other state-of-the-art methods. Additionally, MIXBend reveals both novel and known motifs from the yeast. Moreover, MIXBend discovers significant bendability fluctuations within super-enhancer regions and transcription factors binding sites in the human genome.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*DNA/genetics/chemistry",
+      "Genomics",
+      "Neural Networks, Computer",
+      "Protein Binding",
+      "Saccharomyces cerevisiae/genetics",
+      "*Computational Biology/methods",
+      "Genome, Human",
+      "Base Sequence",
+      "Chemical Phenomena"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Minghao",
+        "Zhang, Shichen",
+        "Zheng, Zhihang",
+        "Zhang, Pengfei",
+        "Liang, Yan",
+        "Tang, Shaojun"
+      ],
+      "short_names": [
+        "Yang M",
+        "Zhang S",
+        "Zheng Z",
+        "Zhang P",
+        "Liang Y",
+        "Tang S"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-0158-2494",
+        "ORCID: 0000-0002-5141-0515"
+      ],
+      "affiliations": [
+        "Bioscience and Biomedical Engineering Thrust, System Hub, Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511466, China.",
+        "Bioscience and Biomedical Engineering Thrust, System Hub, Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511466, China.",
+        "Bioscience and Biomedical Engineering Thrust, System Hub, Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511466, China.",
+        "Bioscience and Biomedical Engineering Thrust, System Hub, Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511466, China.",
+        "School of Artificial Intelligence, South China Normal University, Foshan 528225, China.",
+        "Bioscience and Biomedical Engineering Thrust, System Hub, Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511466, China.",
+        "Division of Life Science, Hong Kong University of Science and Technology, Hong Kong SAR 999077, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Minghao",
+        "short_name": "Yang M",
+        "identifiers": [
+          "0009-0007-0158-2494"
+        ],
+        "affiliations": [
+          "Bioscience and Biomedical Engineering Thrust, System Hub, Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511466, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shichen",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Bioscience and Biomedical Engineering Thrust, System Hub, Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511466, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Zhihang",
+        "short_name": "Zheng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Bioscience and Biomedical Engineering Thrust, System Hub, Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511466, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Pengfei",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Bioscience and Biomedical Engineering Thrust, System Hub, Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511466, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Yan",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Artificial Intelligence, South China Normal University, Foshan 528225, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Shaojun",
+        "short_name": "Tang S",
+        "identifiers": [
+          "0000-0002-5141-0515"
+        ],
+        "affiliations": [
+          "Bioscience and Biomedical Engineering Thrust, System Hub, Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511466, China.",
+          "Division of Life Science, Hong Kong University of Science and Technology, Hong Kong SAR 999077, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2024 Apr 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/20 12:50",
+    "fetched_at": "2026-09-29 15:44:53"
+  },
+  "links": {
+    "cites": [
+      "40874591",
+      "40071933"
+    ],
+    "refs": [
+      "37697433",
+      "37542919",
+      "36929862",
+      "36866046",
+      "36502371",
+      "36318264",
+      "36209437",
+      "36071192",
+      "35872822",
+      "35758788",
+      "35288750",
+      "34718725",
+      "33796819",
+      "33539885",
+      "33538820",
+      "33328628",
+      "33205128",
+      "32742689",
+      "31601866",
+      "31036850",
+      "29426353",
+      "29229184",
+      "28961687",
+      "28877970",
+      "28029797",
+      "25231908",
+      "21633668",
+      "20147307",
+      "19596482",
+      "17324271",
+      "17103419",
+      "16862119",
+      "12736678",
+      "9377276",
+      "9305837",
+      "9126833",
+      "7265238",
+      "5420325"
+    ],
+    "similar": [
+      "38375921",
+      "37697433",
+      "36866046",
+      "35288750",
+      "34073774",
+      "29219068",
+      "31856220",
+      "41634097",
+      "40919912",
+      "39214282",
+      "33538820",
+      "33328628",
+      "41257586",
+      "29970003",
+      "41920894",
+      "38701417",
+      "40889326",
+      "33539511",
+      "36671456",
+      "39357703",
+      "34486522",
+      "39900285",
+      "38975896",
+      "38347788",
+      "30374023",
+      "33837387",
+      "40335860",
+      "32770026",
+      "40914877",
+      "36136096",
+      "41576119",
+      "39766860",
+      "20838582",
+      "39489607",
+      "34272562",
+      "30323198",
+      "40102719",
+      "37348298",
+      "31847308",
+      "28881969",
+      "9697188",
+      "39135093",
+      "41172803",
+      "25775564",
+      "15865625",
+      "36520922",
+      "40174317",
+      "39270885",
+      "12101405",
+      "39519295",
+      "33522898",
+      "37769928",
+      "33581335",
+      "40349379",
+      "39096613",
+      "41285097",
+      "40166250",
+      "29945198",
+      "18086703",
+      "36897885",
+      "40855132",
+      "40646507",
+      "39848362",
+      "31206543",
+      "39546160",
+      "37723425",
+      "41558219",
+      "28245811",
+      "41290782",
+      "29993783",
+      "27896980",
+      "31186519",
+      "39471921",
+      "26291518",
+      "33802922",
+      "29069282",
+      "24124207",
+      "36471057",
+      "29855387",
+      "35536244",
+      "15720719",
+      "27490187",
+      "28865451",
+      "30106688",
+      "33571101",
+      "38986796",
+      "30423062",
+      "34929739",
+      "38643066",
+      "38799058",
+      "35417351",
+      "36748992",
+      "30711426",
+      "24503515",
+      "39701486",
+      "37824738",
+      "30286077",
+      "36653898",
+      "38733561",
+      "31588505"
+    ],
+    "review": [
+      "38375921",
+      "24503515"
+    ],
+    "pmc": [
+      "11014357"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38375921/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38375921",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae099",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

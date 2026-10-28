@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41163265",
+  "title": "Identification of Potential Biomarkers and Drugs for Papillary Thyroid Carcinoma Using Computational Analysis and Molecular Docking.",
+  "authors": "Wang, Tiantian; Tan, Jiejun; Bi, Zheng; Ma, Limei; Wang, Sihai; Zhang, Fuli; Fang, Zhaohui",
+  "journal": "Current medicinal chemistry",
+  "published_date": "2025-10-30",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过计算分析和分子对接鉴定甲状腺乳头状癌的生物标志物与药物，虽涉及分子对接但核心是疾病标志物而非蛋白质-DNA互作或TF-DNA结合机制，与本课题关联较弱。",
+  "abstract": "BACKGROUND: Papillary thyroid carcinoma (PTC), the most common thyroid malignancy, presents with multiple variants. This study aimed to identify potential biomarkers and therapeutic candidates for PTC through computational analyses and molecular docking. METHODS: Gene expression data related to PTC were obtained from the TCGA-THCA and GEO datasets (GSE35570 and GSE33630) to identify differentially expressed genes (DEGs). Functional enrichment analysis was performed on the DEGs, followed by construction of a protein-protein interaction (PPI) network. Hub genes were identified using recursive feature elimination (RFE) and LASSO regression analyses. A nomogram incorporating these hub genes was developed, and its diagnostic performance was evaluated using receiver operating characteristic (ROC) curves. Furthermore, the relationship between hub genes and immune cell infiltration was investigated. Potential drug candidates targeting the hub genes were predicted and validated through molecular docking. RESULTS: Common DEGs across the three datasets were enriched in pathways such as ECM-receptor interaction, proteoglycans in cancer, and cell adhesion molecules. Significantly enriched GO terms included 'binding,' 'receptor activity,' 'integral component of membrane,' 'cytoplasm,' 'cell adhesion,' and 'immune response.' A PPI network was constructed by intersecting the common DEGs with PTC-related targets. Machine learning algorithms identified three hub genes: SRY-box transcription factor 4 (SOX4), cyclin D1 (CCND1), and lymphatic vessel endothelial hyaluronan receptor 1 (LYVE1). These hub genes exhibited differential expression in PTC and were used to construct a reliable diagnostic model. Furthermore, molecular docking revealed stable binding between CCND1 and Tipifarnib, suggesting potential therapeutic relevance. DISCUSSION: While previous studies have applied bioinformatics and molecular docking in PTC research, this study uniquely integrates both approaches to identify the hub gene CCND1 and its potential targeting drug, Tipifarnib, as promising molecular markers and therapeutic candidates for PTC. CONCLUSION: The hub gene CCND1 and its targeting drug candidate Tipifarnib may contribute to PTC treatment.",
+  "abstract_zh": "背景：甲状腺乳头状癌（PTC）是最常见的甲状腺恶性肿瘤，具有多种变异类型。本研究旨在通过计算分析和分子对接，识别PTC的潜在生物标志物和治疗候选药物。方法：从TCGA-THCA和GEO数据集（GSE35570和GSE33630）获取与PTC相关的基因表达数据，以识别差异表达基因（DEGs）。对DEGs进行功能富集分析，随后构建蛋白质-蛋白质相互作用（PPI）网络。使用递归特征消除（RFE）和LASSO回归分析识别核心基因。构建包含这些核心基因的列线图，并使用受试者工作特征（ROC）曲线评估其诊断性能。此外，研究了核心基因与免疫细胞浸润之间的关系。预测了靶向核心基因的潜在候选药物，并通过分子对接进行验证。结果：三个数据集中的共同DEGs富集于ECM-受体相互作用、癌症中的蛋白聚糖和细胞黏附分子等通路。显著富集的GO术语包括“结合”、“受体活性”、“膜的整合组分”、“细胞质”、“细胞黏附”和“免疫应答”。通过将共同DEGs与PTC相关靶点相交，构建了PPI网络。机器学习算法识别出三个核心基因：SRY-box转录因子4（SOX4）、细胞周期蛋白D1（CCND1）和淋巴管内皮透明质酸受体1（LYVE1）。这些核心基因在PTC中表现出差异表达，并用于构建可靠的诊断模型。此外，分子对接揭示了CCND1与Tipifarnib之间的稳定结合，提示其潜在的治疗相关性。讨论：虽然以往研究已将生物信息学和分子对接应用于PTC研究，但本研究独特地整合了这两种方法，以识别核心基因CCND1及其潜在靶向药物Tipifarnib，作为PTC的有前景的分子标志物和治疗候选药物。结论：核心基因CCND1及其靶向候选药物Tipifarnib可能有助于PTC的治疗。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41163265/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41163265/",
+  "paper_page_path": "papers/pubmed/41163265/index.html"
+}

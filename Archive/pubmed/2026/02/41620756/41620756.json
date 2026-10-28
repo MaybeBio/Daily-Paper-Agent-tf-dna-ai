@@ -1,0 +1,453 @@
+{
+  "identity": {
+    "pmid": "41620756",
+    "doi": "10.1186/s12964-026-02695-5",
+    "title": "RB1-I680T mutation potentiates tumor growth and chemotherapy sensitivity in non-small cell lung cancer via derepressing E2F1 transcription."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Retinoblastoma Transcriptional Corepressor 1 (RB1) is a critical tumor suppressor restricting the malignant progression of cancer cells. Emerging evidence indicates that RB1 mutations typically promote tumorigenesis through loss of its tumor-suppressive functions. Yet, the biological significance of mutated RB1, specifically certain rare variants, in non-small cell lung cancer (NSCLC) remains elusive. Here, we first reported a rare and previously uncharacterized missense mutation in RB1, the 680th residue isoleucine replaced by threonine (RB1-I680T), in NSCLC. METHODS: To investigate the functional and mechanistic consequences of the RB1-I680T mutation in NSCLC, we first used CRISPR-Cas9 to knock out endogenous RB1 in NSCLC cells. Then, we generated cell models harboring the RB1-I680T mutation by infecting these knockout cells with lentivirus carrying either wild-type RB1 (RB1-WT) or RB1-I680T expression constructs. The biological phenotypes mediated by RB1-I680T were investigated using in vitro and in vivo experiments. The exploration of the molecular mechanism was performed primarily through co-immunoprecipitation, immunofluorescence, dual-luciferase reporter assays, western blot analysis, and protein docking and dynamics simulation. RESULTS: Our study demonstrated that the I680T mutation caused faster tumor growth and potentiated chemotherapy-induced tumor regression compared to RB1-WT control. Mechanistic studies illustrated that the I680T mutation in RB1 disrupted its inhibition of E2F1 transcriptional activity by weakening the physical interaction between RB1 and E2F1 in a manner dependent on conformational flexibility of RB1 pocket B domain, which is essential for sustaining the enhanced proliferation and chemosensitivity in NSCLC cells. CONCLUSION: Our findings elucidate that the I680T mutation-induced loss-of-function of RB1 simultaneously confers invasive proliferation and chemotherapeutic vulnerability to tumor cells, suggesting that RB1-I680T could serve as a predictive biomarker for chemotherapy response in NSCLC. Stratifying patients based on the RB1-I680T mutation status may enable personalized therapeutic strategies, particularly for tumors with E2F1 dysregulation.",
+    "keywords": [
+      "Chemotherapy sensitivity",
+      "E2F1",
+      "NSCLC",
+      "Proliferation",
+      "RB1-I680T"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung/genetics/pathology/drug therapy",
+      "*E2F1 Transcription Factor/genetics/metabolism",
+      "*Lung Neoplasms/genetics/pathology/drug therapy",
+      "Animals",
+      "Cell Proliferation/drug effects/genetics",
+      "*Transcription, Genetic",
+      "Cell Line, Tumor",
+      "*Ubiquitin-Protein Ligases/genetics/chemistry",
+      "*Retinoblastoma Binding Proteins/genetics/chemistry",
+      "*Mutation/genetics",
+      "Mice, Nude",
+      "Mice",
+      "*Drug Resistance, Neoplasm/genetics",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Yilin",
+        "Gao, Fengyuan",
+        "Liu, Yu",
+        "Wang, Jinfu",
+        "Liu, Fanrong",
+        "Wang, Biao",
+        "Wu, Boxuan",
+        "Wang, Yue",
+        "Zhang, Yifan",
+        "Tian, Zhongxian",
+        "Mu, Ning",
+        "Zhang, Xianglin",
+        "Zhao, Xiaogang",
+        "Zhao, Yunpeng",
+        "Li, Peichao"
+      ],
+      "short_names": [
+        "Zhu Y",
+        "Gao F",
+        "Liu Y",
+        "Wang J",
+        "Liu F",
+        "Wang B",
+        "Wu B",
+        "Wang Y",
+        "Zhang Y",
+        "Tian Z",
+        "Mu N",
+        "Zhang X",
+        "Zhao X",
+        "Zhao Y",
+        "Li P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+        "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+        "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+        "Department of Thoracic Surgery, Shandong Public Health Clinical Center, Shandong University, Jinan, Shandong, China.",
+        "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+        "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+        "Key Laboratory of Experimental Teratology of Ministry of Education, Department of Molecular Medicine and Genetics, School of Basic Medical Sciences, Cheeloo College of Medicine, Shandong University, Jinan, Shandong, China.",
+        "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+        "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+        "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+        "Department of Pathology, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+        "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+        "Key Laboratory of Precision Diagnosis and Treatment of Lung Tumors in Shandong Provincial Medicine and Health, Shandong University, Jinan, China.",
+        "Key Laboratory of Basic Research and Clinical Transformation of Thoracic Tumors in Shandong Provincial Colleges and Universities, Shandong University, Jinan, China.",
+        "Key Laboratory of Precision Diagnosis and Treatment of Lung Tumors in Shandong Provincial Medicine and Health, Shandong University, Jinan, China.",
+        "Key Laboratory of Basic Research and Clinical Transformation of Thoracic Tumors in Shandong Provincial Colleges and Universities, Shandong University, Jinan, China.",
+        "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+        "Key Laboratory of Precision Diagnosis and Treatment of Lung Tumors in Shandong Provincial Medicine and Health, Shandong University, Jinan, China.",
+        "Key Laboratory of Basic Research and Clinical Transformation of Thoracic Tumors in Shandong Provincial Colleges and Universities, Shandong University, Jinan, China.",
+        "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+        "Key Laboratory of Precision Diagnosis and Treatment of Lung Tumors in Shandong Provincial Medicine and Health, Shandong University, Jinan, China.",
+        "Key Laboratory of Basic Research and Clinical Transformation of Thoracic Tumors in Shandong Provincial Colleges and Universities, Shandong University, Jinan, China.",
+        "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China. zhaoyunpengsddx@sdu.edu.cn.",
+        "Key Laboratory of Precision Diagnosis and Treatment of Lung Tumors in Shandong Provincial Medicine and Health, Shandong University, Jinan, China. zhaoyunpengsddx@sdu.edu.cn.",
+        "Key Laboratory of Basic Research and Clinical Transformation of Thoracic Tumors in Shandong Provincial Colleges and Universities, Shandong University, Jinan, China. zhaoyunpengsddx@sdu.edu.cn.",
+        "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China. lipeichao@email.sdu.edu.cn.",
+        "Key Laboratory of Precision Diagnosis and Treatment of Lung Tumors in Shandong Provincial Medicine and Health, Shandong University, Jinan, China. lipeichao@email.sdu.edu.cn.",
+        "Key Laboratory of Basic Research and Clinical Transformation of Thoracic Tumors in Shandong Provincial Colleges and Universities, Shandong University, Jinan, China. lipeichao@email.sdu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Yilin",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Fengyuan",
+        "short_name": "Gao F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yu",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+          "Department of Thoracic Surgery, Shandong Public Health Clinical Center, Shandong University, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jinfu",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Fanrong",
+        "short_name": "Liu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+          "Key Laboratory of Experimental Teratology of Ministry of Education, Department of Molecular Medicine and Genetics, School of Basic Medical Sciences, Cheeloo College of Medicine, Shandong University, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Biao",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Boxuan",
+        "short_name": "Wu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yue",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yifan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Zhongxian",
+        "short_name": "Tian Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+          "Key Laboratory of Precision Diagnosis and Treatment of Lung Tumors in Shandong Provincial Medicine and Health, Shandong University, Jinan, China.",
+          "Key Laboratory of Basic Research and Clinical Transformation of Thoracic Tumors in Shandong Provincial Colleges and Universities, Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Mu, Ning",
+        "short_name": "Mu N",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Precision Diagnosis and Treatment of Lung Tumors in Shandong Provincial Medicine and Health, Shandong University, Jinan, China.",
+          "Key Laboratory of Basic Research and Clinical Transformation of Thoracic Tumors in Shandong Provincial Colleges and Universities, Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xianglin",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+          "Key Laboratory of Precision Diagnosis and Treatment of Lung Tumors in Shandong Provincial Medicine and Health, Shandong University, Jinan, China.",
+          "Key Laboratory of Basic Research and Clinical Transformation of Thoracic Tumors in Shandong Provincial Colleges and Universities, Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xiaogang",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+          "Key Laboratory of Precision Diagnosis and Treatment of Lung Tumors in Shandong Provincial Medicine and Health, Shandong University, Jinan, China.",
+          "Key Laboratory of Basic Research and Clinical Transformation of Thoracic Tumors in Shandong Provincial Colleges and Universities, Shandong University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yunpeng",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China. zhaoyunpengsddx@sdu.edu.cn.",
+          "Key Laboratory of Precision Diagnosis and Treatment of Lung Tumors in Shandong Provincial Medicine and Health, Shandong University, Jinan, China. zhaoyunpengsddx@sdu.edu.cn.",
+          "Key Laboratory of Basic Research and Clinical Transformation of Thoracic Tumors in Shandong Provincial Colleges and Universities, Shandong University, Jinan, China. zhaoyunpengsddx@sdu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Peichao",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The Second Hospital, Cheeloo College of Medicine, Shandong University, Jinan, China. lipeichao@email.sdu.edu.cn.",
+          "Key Laboratory of Precision Diagnosis and Treatment of Lung Tumors in Shandong Provincial Medicine and Health, Shandong University, Jinan, China. lipeichao@email.sdu.edu.cn.",
+          "Key Laboratory of Basic Research and Clinical Transformation of Thoracic Tumors in Shandong Provincial Colleges and Universities, Shandong University, Jinan, China. lipeichao@email.sdu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell communication and signaling : CCS"
+    ],
+    "journal_abbrev": [
+      "Cell Commun Signal"
+    ],
+    "pub_date": "2026 Jan 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/01 00:44",
+    "fetched_at": "2026-10-01 12:26:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39815612",
+      "39725149",
+      "38906857",
+      "38754467",
+      "38718835",
+      "38672640",
+      "38615905",
+      "38317006",
+      "38183204",
+      "37967200",
+      "37846760",
+      "37774136",
+      "37096747",
+      "36633525",
+      "35964818",
+      "35143424",
+      "34862364",
+      "34273294",
+      "33493472",
+      "33446664",
+      "33407425",
+      "32826891",
+      "32556071",
+      "32222358",
+      "32218800",
+      "31613797",
+      "30996590",
+      "30446465",
+      "30373918",
+      "30373917",
+      "29762716",
+      "28059767",
+      "27586204",
+      "27189421",
+      "26971368",
+      "26527317",
+      "26314709",
+      "26168399",
+      "23594950",
+      "23180760",
+      "22930834",
+      "22718354",
+      "17704056",
+      "16913845",
+      "15084261",
+      "12837811",
+      "12717439",
+      "12598654",
+      "10675335",
+      "10499802"
+    ],
+    "similar": [
+      "41620756",
+      "42069574",
+      "40155472",
+      "28716024",
+      "40437556",
+      "38844957",
+      "39258498",
+      "33537094",
+      "30773851",
+      "32826278",
+      "37932766",
+      "30373918",
+      "26467212",
+      "41194272",
+      "29518612",
+      "28498400",
+      "39694700",
+      "34521423",
+      "39800476",
+      "38233864",
+      "41671907",
+      "31602642",
+      "35577506",
+      "42401357",
+      "39629137",
+      "31072327",
+      "34856993",
+      "30453282",
+      "28667340",
+      "28074012",
+      "33395541",
+      "40656610",
+      "29773900",
+      "40216870",
+      "41865688",
+      "31439587",
+      "33931086",
+      "38682239",
+      "29960010",
+      "38798252",
+      "33276757",
+      "40668412",
+      "41265378",
+      "33771522",
+      "29772705",
+      "39020302",
+      "41495322",
+      "42290050",
+      "31322286",
+      "40801328",
+      "41204108",
+      "39521757",
+      "39266996",
+      "20530710",
+      "40096187",
+      "32602212",
+      "39931532",
+      "41214647",
+      "31823748",
+      "31906986",
+      "41484776",
+      "32364763",
+      "27871936",
+      "30911072",
+      "40813717",
+      "40210476",
+      "38783241",
+      "38744789",
+      "31012173",
+      "33078208",
+      "41217712",
+      "25384171",
+      "30537738",
+      "42123865",
+      "40011917",
+      "30466106",
+      "26497680",
+      "33753110",
+      "36810856",
+      "41457952",
+      "39153434",
+      "25373388",
+      "42207612",
+      "33166766",
+      "31821539",
+      "40762380",
+      "31296840",
+      "35244469",
+      "31138260",
+      "23543735",
+      "39164746",
+      "41071625",
+      "30322398",
+      "32202941",
+      "40128846",
+      "34143182",
+      "40113013",
+      "32265224",
+      "29393891",
+      "24357161"
+    ],
+    "review": [
+      "41620756"
+    ],
+    "pmc": [
+      "12947457"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biosignaling.biomedcentral.com/articles/10.1186/s12964-026-02695-5",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41620756/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-898",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

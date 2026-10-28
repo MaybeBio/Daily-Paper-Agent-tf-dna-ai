@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, figure legends, table) as provided by the user. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the presented evidence. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors report identification and characterization of a second TATA-box binding protein isoform (TsTBP2) in *Taenia solium*, including gene structure, promoter analysis, expression patterns, and computational analyses (homology modeling, molecular docking, molecular dynamics) aimed at explaining TATA-box selectivity and affinity differences between TsTBP1 and TsTBP2. They propose that specific phenylalanine residues intercalating into the DNA minor groove and the resulting Buckle parameter changes are the principal determinants of binding affinity and selectivity.
+- **Visible evidence base** Abstract; Introduction; Materials and methods (ethics, gene isolation, luciferase assays, cDNA amplification/qPCR, antibody production, homology modeling, docking/MD protocols); Results (genomic analysis, promoter function, expression, structural comparison, docking/MD outcomes, Buckle analysis); Discussion; Figure legends for Figures 1–6; Table 1.
+- **Missing materials affecting confidence** Supplementary Table 1 (TATA-box sequences used), Supplementary Table 2 (gene structure comparison), Supplementary Table 3 (interacting residues), Supplementary Figure S1 (RMSF and complex views), raw MD trajectories, docking pose coordinates, experimental validation data for TsTBP2 DNA binding (e.g., EMSA), statistical details for qPCR and luciferase assays beyond stated p-values, and details of the λZAPII library screening.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and under-explored question in parasite transcriptional biology: how two TBP isoforms in *T. solium* achieve differential TATA-box recognition. The identification of TsTBP2 and its stage-specific expression is a useful contribution. However, the central mechanistic claims regarding selectivity and affinity rest entirely on computational predictions that are not validated experimentally, and several methodological details are insufficiently described to assess robustness. The correlation between computational metrics and biological function is asserted rather than demonstrated. The manuscript is technically sound in its molecular biology components but does not currently establish the structural selectivity hypothesis it advances.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation in parasitic flatworms, particularly cestodes; those interested in TBP family evolution and functional diversification; computational biologists working on protein-DNA docking and MD-based affinity prediction. The identification of a second TBP isoform in *T. solium* with stage-specific expression may interest the broader parasitology community, especially in the context of drug targeting of transcriptional machinery.
+- **Major strengths** 1) First report of a second TBP isoform in a cestode, with genomic and cDNA characterization. 2) Combination of promoter analysis with functional luciferase assays provides experimental evidence for core promoter element contributions. 3) Stage-specific expression data (qPCR and Western blot) support distinct biological roles. 4) The computational workflow (homology modeling, docking, MD, MM-PBSA) is a reasonable first-pass approach for a system lacking experimental structures.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for mechanistic claim
+  - **Claim pointer** The manuscript claims that "the Buckle parameter is responsible for TATA-binding and selectivity" and that Phe residues are "the principal contributors to DNA distortion," implying a causal mechanism for differential affinity.
+  - **Evidence pointer** Results section "The buckle parameter is responsible for TATA-binding and selectivity"; Figure 6; Table 1
+  - **Concern** The central mechanistic conclusion is derived exclusively from computational predictions (docking scores and MM-PBSA energies) without any experimental validation. No binding assays (EMSA, ITC, SPR, fluorescence anisotropy) are presented for either isoform or the Phe-to-Ala mutants. The claim that Buckle parameter differences explain selectivity is correlative at best; no statistical analysis links Buckle values to binding energies, and the direction of causality is assumed. The authors previously reported EMSA data for TsTBP1 (referenced in Discussion), but no comparable data are shown here for TsTBP2 or the mutants.
+  - **Why it matters** The title and abstract promise "structural factors related to selectivity and affinity." Without experimental binding measurements, the computational metrics cannot be interpreted as affinity or selectivity determinants. The Phe-to-Ala mutant analysis is purely in silico and does not demonstrate that these residues function as proposed in the biological context.
+  - **Resolution test** Provide experimental binding data (e.g., EMSA or ITC) for TsTBP1 and TsTBP2 against the four TATA-box sequences, and for the Phe-to-Ala mutants against at least one high-affinity and one low-affinity sequence. Show that the predicted affinity rankings and Buckle differences are reproduced experimentally.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency and reproducibility
+  - **Claim pointer** The methods state that homology modeling, docking, and MD were performed, and that MM-PBSA was used for binding energy estimation, but key parameters are missing.
+  - **Evidence pointer** Materials and methods section "Homology modeling" and "Molecular docking and molecular dynamics on DNA-TsTBP complexes"
+  - **Concern** The following are not specified: (i) the template structures used for homology modeling and the sequence identity/coverage of the alignments; (ii) the docking protocol details, including the number of poses generated, scoring function selection, and criteria for choosing the "best" pose; (iii) MD simulation parameters, including the force field version, water model, salt concentration, equilibration protocol, and number of replicates; (iv) the MM-PBSA calculation details, including the number of frames used, entropy contributions (if any), and error estimates. Without these, the computational results cannot be reproduced or critically evaluated.
+  - **Why it matters** Computational predictions are only meaningful if the protocols are fully described. The absence of these details prevents assessment of whether the reported energies and structural parameters are robust or artifacts of specific parameter choices.
+  - **Resolution test** Provide a complete description of all computational protocols, including template PDB IDs, alignment statistics, docking parameters, MD simulation conditions, and MM-PBSA settings. If multiple replicates were run, report mean ± SD for all energy values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Internal consistency of affinity metrics
+  - **Claim pointer** Table 1 reports docking scores and MM-PBSA energies, with the footnote stating "A higher affinity is associated with a negative score in molecular docking and a positive score for LBE."
+  - **Evidence pointer** Table 1
+  - **Concern** The two metrics are not internally consistent. For TsTBP1, the docking score ranks pAT5 (−650.12) as highest affinity, followed by Ts2CysPrx (−647.85), AdML (−526.05), and AdML mut (−269.52). The MM-PBSA values rank pAT5 (6.82) highest, then Ts2CysPrx (2.81), AdML (−4.81), and AdML mut (−57.21), which is consistent. However, for TsTBP2, the docking score ranks Ts2CysPrx (−590.23) higher than pAT5 (−558.02), while MM-PBSA ranks pAT5 (−14.00) higher than Ts2CysPrx (−39.08). The two methods disagree on which T. solium sequence is preferred by TsTBP2. This discrepancy is not discussed.
+  - **Why it matters** The manuscript claims a consistent affinity trend, but the two computational methods give conflicting rankings for TsTBP2. This undermines confidence in the conclusion that TsTBP2 has a defined selectivity preference and suggests the results may be method-dependent.
+  - **Resolution test** Explain the discrepancy or provide additional analyses (e.g., alternative scoring functions, longer MD simulations, or experimental binding data) to resolve which ranking is correct.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor in expression data
+  - **Claim pointer** The qPCR data show "Tstbp1 is more expressed in adults, whereas Tstbp2 is more expressed in cysticerci" and the luciferase assays report differences between constructs.
+  - **Evidence pointer** Results section "TsTBP1 and TsTBP2 cDNA amplification, mRNA relative expression, and protein detection"; Figure 3
+  - **Concern** The qPCR data are presented as mean ± SEM with p-values, but the number of biological replicates, the reference gene used for normalization, and the statistical test are not stated. For the luciferase assays, n = 7 is stated, but the figure legend does not specify whether these are independent transfections or biological replicates, and the normalization strategy (e.g., to Renilla) is not described in the text.
+  - **Why it matters** Stage-specific expression is a key claim supporting distinct functional roles. Without adequate statistical detail, the reliability of this claim cannot be assessed.
+  - **Resolution test** State the number of biological replicates, the reference gene, the statistical test used, and the normalization method for both qPCR and luciferase assays.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 3(D)
+  - **Evidence pointer** Figure 3(D) legend
+  - **Issue** The Western blot panel is described but the legend does not specify the molecular weight markers, the amount of protein loaded, or whether the antibodies were validated for specificity (e.g., pre-immune serum control or peptide competition).
+  - **Required correction** Add molecular weight markers to the figure or legend, state protein loading amounts, and describe antibody validation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of sequence analysis
+  - **Affected element** Genomic analysis of Tstbp2
+  - **Evidence pointer** Results section "Genomic analysis of Tstbp2 and protein product"
+  - **Issue** The authors state the genomic and cDNA sequences are identical to the genome project entry, but do not report the accession number for the cDNA or the genomic sequence beyond the genome project ID. The 5' and 3' UTR boundaries are not defined.
+  - **Required correction** Provide GenBank accession numbers for both cDNA and genomic sequences, and describe how the UTRs and transcription start site were experimentally determined or predicted.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The Discussion does not acknowledge the limitations of computational predictions, such as the absence of experimental validation, the known inaccuracies of MM-PBSA for protein-DNA interactions, and the use of homology models rather than experimental structures.
+  - **Required correction** Add a paragraph explicitly stating the limitations of the computational approach and the need for experimental validation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reference accuracy
+  - **Affected element** Discussion, statement regarding EMSA observations
+  - **Evidence pointer** Discussion section, reference [30]
+  - **Issue** The authors state that docking results are "consistent with EMSA observations for TsTBP1 using T. solium nuclear extracts [30]." However, the cited reference is not provided in the visible text, and it is unclear whether this is the authors' prior work or another group's. The consistency claim is not quantified.
+  - **Required correction** Clarify the relationship to reference [30] and specify which experimental data are being compared.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no experimental validation of binding claims), R1-M2 (incomplete computational methods), R1-M3 (inconsistent affinity rankings between methods).
+- **Assessment against Nature-style criteria** Originality: Moderate. The identification of a second TBP isoform in a cestode is novel, but the computational approach to selectivity is not methodologically new. Scientific importance: Moderate. The findings are of interest to parasitologists and transcriptional regulation researchers, but the lack of experimental validation limits the significance of the mechanistic claims. Interdisciplinary readership: Limited. The work bridges parasitology and computational biology, but the audience is likely narrow. Technical soundness: Weak in the computational components due to incomplete methodological reporting and internal inconsistencies; the molecular biology components are adequately described. Readability for nonspecialists: Acceptable. The manuscript is generally clear, though some computational terms (e.g., Buckle parameter) could benefit from brief explanation for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The molecular biology findings (identification, expression, promoter analysis) are solid, but the central claims about structural determinants of selectivity and affinity require experimental validation and more rigorous computational reporting. Supportive if the major concerns are addressed.
+
+## Risk / unsupported claims
+- The claim that "the Buckle parameter is responsible for TATA-binding and selectivity" is unsupported; it is a correlative observation from computational models without experimental confirmation.
+- The claim that Phe residues are "the principal contributors to DNA distortion" is unsupported; the mutant analysis is purely in silico and no experimental binding data are provided.
+- The claim that TsTBP1 and TsTBP2 have distinct biological roles based on stage-specific expression is weakly supported; the qPCR data lack sufficient statistical detail, and protein-level quantification is limited to a single Western blot without loading controls described.
+- The statement that docking results are "consistent with EMSA observations" is not verifiable from the provided text, as the cited reference and the specific data being compared are not described.
+- The affinity rankings in Table 1 are internally inconsistent between docking scores and MM-PBSA for TsTBP2, making the reported selectivity pattern unreliable.

@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "42607673",
+    "doi": "10.1016/j.cels.2026.101701",
+    "title": "Interpretable biophysical neural networks of transcriptional activation domains separate roles of protein abundance and coactivator binding."
+  },
+  "content": {
+    "abstract": "Deep neural networks have improved many difficult prediction tasks in biology, but it remains challenging to interpret these networks and learn the molecular mechanisms. Here, we address interpretation challenges by building biophysical neural networks for predicting activation domains, the regions within transcription factors (TFs) that recruit coactivators to drive gene expression. Deep neural networks can now accurately predict acidic activation domains from protein sequences, but these predictors are difficult to interpret. We designed shallow neural networks that incorporated biophysical models and visualized the parameters directly. We found two ways that the arrangement of residues (i.e., sequence grammar) controls function: (1) C-terminal hydrophobic residues increase coactivator binding and decrease protein abundance, and (2) acidic residues at the N terminus promote coactivator binding, while acidic residues at the C terminus promote TF abundance. We demonstrate how combining biophysical and deep neural networks maximizes prediction accuracy and interpretability, revealing biological mechanisms across datasets. A record of this paper's transparent peer review process is included in the supplemental information.",
+    "keywords": [
+      "biophysical neural networks",
+      "convolutional neural networks",
+      "intrinsically disordered proteins",
+      "intrinsically disordered regions",
+      "machine-learning interpretability",
+      "neural networks",
+      "protein abundance",
+      "transcription",
+      "transcription factors",
+      "transcriptional activation domains"
+    ],
+    "mesh_terms": [
+      "*Neural Networks, Computer",
+      "Transcription Factors/metabolism/genetics",
+      "*Transcriptional Activation/genetics",
+      "Protein Binding",
+      "Humans",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "LeBlanc, Claire J",
+        "Agarwal, Pooja",
+        "Demaray, Jackson E",
+        "Hu, Gean",
+        "Zintel, Marissa A",
+        "Lam, Angelica W Y",
+        "Hernandez, Joel Enrique Castro",
+        "Staller, Max V"
+      ],
+      "short_names": [
+        "LeBlanc CJ",
+        "Agarwal P",
+        "Demaray JE",
+        "Hu G",
+        "Zintel MA",
+        "Lam AWY",
+        "Hernandez JEC",
+        "Staller MV"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, CA 94720, USA; Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA.",
+        "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, CA 94720, USA; Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA; Department of Electrical Engineering & Computer Science, University of California Berkeley, Berkeley, CA 94720, USA.",
+        "Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA.",
+        "Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA; Department of Electrical Engineering & Computer Science, University of California Berkeley, Berkeley, CA 94720, USA; Department of Bioengineering, University of California Berkeley, Berkeley, CA 94720, USA.",
+        "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, CA 94720, USA; Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA.",
+        "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, CA 94720, USA; Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA.",
+        "Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA; Department of Electrical Engineering & Computer Science, University of California Berkeley, Berkeley, CA 94720, USA.",
+        "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, CA 94720, USA; Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA; Biohub, San Francisco, CA 94158, USA. Electronic address: mstaller@berkeley.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "LeBlanc, Claire J",
+        "short_name": "LeBlanc CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, CA 94720, USA; Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Agarwal, Pooja",
+        "short_name": "Agarwal P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, CA 94720, USA; Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA; Department of Electrical Engineering & Computer Science, University of California Berkeley, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Demaray, Jackson E",
+        "short_name": "Demaray JE",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Hu, Gean",
+        "short_name": "Hu G",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA; Department of Electrical Engineering & Computer Science, University of California Berkeley, Berkeley, CA 94720, USA; Department of Bioengineering, University of California Berkeley, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Zintel, Marissa A",
+        "short_name": "Zintel MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, CA 94720, USA; Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Lam, Angelica W Y",
+        "short_name": "Lam AWY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, CA 94720, USA; Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Hernandez, Joel Enrique Castro",
+        "short_name": "Hernandez JEC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA; Department of Electrical Engineering & Computer Science, University of California Berkeley, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Staller, Max V",
+        "short_name": "Staller MV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, CA 94720, USA; Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA; Biohub, San Francisco, CA 94158, USA. Electronic address: mstaller@berkeley.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell systems"
+    ],
+    "journal_abbrev": [
+      "Cell Syst"
+    ],
+    "pub_date": "2026 Sep 16",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/17 23:39",
+    "fetched_at": "2026-10-02 04:04:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42607673",
+      "41000786",
+      "35120642",
+      "38056064",
+      "39020176",
+      "32416068",
+      "37462277",
+      "32770026",
+      "33904398",
+      "40102719",
+      "33077600",
+      "34272562",
+      "39433833",
+      "42475469",
+      "32825095",
+      "40371733",
+      "9425125",
+      "37328639",
+      "41511382",
+      "39888268",
+      "37674132",
+      "11368795",
+      "12943698",
+      "40334196",
+      "28245811",
+      "33522898",
+      "41838698",
+      "12893880",
+      "39933695",
+      "37370113",
+      "29617928",
+      "40335485",
+      "30808287",
+      "35652477",
+      "23132854",
+      "33137083",
+      "7862116",
+      "38159566",
+      "15075264",
+      "10082539",
+      "36155619",
+      "35197482",
+      "34534646",
+      "38766093",
+      "30866736",
+      "33706810",
+      "32535960",
+      "41920894",
+      "41131660",
+      "7926727",
+      "33372147",
+      "10454563",
+      "34905768",
+      "41042660",
+      "33477866",
+      "42332380",
+      "34613923",
+      "23521778",
+      "41910388",
+      "41799016",
+      "39223474",
+      "38049725",
+      "33498086",
+      "37214836",
+      "40183298",
+      "31642121",
+      "40286477",
+      "11912212",
+      "35263332",
+      "33347301",
+      "18831774",
+      "12215545",
+      "12133832",
+      "33334313",
+      "40065237",
+      "39096613",
+      "40914877",
+      "38701417",
+      "37598467",
+      "16322096",
+      "7642611",
+      "10817756",
+      "40174317",
+      "41290782",
+      "35012986",
+      "35410161",
+      "42099803",
+      "41257586",
+      "25348421",
+      "40919912",
+      "33304713",
+      "28196871",
+      "38866009",
+      "9558319",
+      "14973393",
+      "39549898",
+      "19402914",
+      "39548754",
+      "28701416",
+      "30307988"
+    ],
+    "review": [
+      "42607673",
+      "38056064",
+      "39888268",
+      "12943698",
+      "12893880",
+      "35652477",
+      "14973393"
+    ],
+    "pmc": [
+      "13596073"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-4712(26)00183-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42607673/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

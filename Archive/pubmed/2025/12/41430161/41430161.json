@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "41430161",
+    "doi": "10.1186/s12880-025-02045-w",
+    "title": "Deep learning-based MRI model for predicting P53-mutated hepatocellular carcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The P53-mutated Hepatocellular Carcinoma (HCC) is an aggressive variant associated with vascular endothelial growth factor (VEGF) overexpression and increased microvascular density. This study aimed to develop an MRI-based deep learning model for predicting P53-mutated HCC. METHODS: A total of 312 HCC patients who underwent gadolinium-enhanced MRI and were pathologically confirmed between January 2018 and December 2023 were retrospectively enrolled. Participants were randomly divided into training and test dataset at an 8:2 ratio. We developed an EfficientNetV2-based deep learning model, constructing arterial phase (AP) model, portal venous phase (VP), T2-weighted imaging (T2WI), hepatobiliary phase (HBP) single-sequence model, and combined models to predict P53 mutation status. Model performance was evaluated using the area under the curve (AUC), accuracy, sensitivity, specificity, precision, and F1 score as metrics. Differences in AUC values were compared using Delong's test. RESULTS: A total of 312 pathologically confirmed HCC patients (age: 56 +/- 9 years; male = 240) were included, with a training dataset (n = 249) and test dataset (n = 63).Among single-sequence models, the HBP model demonstrated superior diagnostic performance (AUC = 0.715) compared to T2WI, AP, and VP models. The multiphase combined model (T2WI + AP + VP) significantly outperformed single-sequence models, achieving AUCs of 0.982 (95% CI: 0.959-1.000) in the training dataset and 0.914 (95% CI: 0.819-1.000) in the test dataset. However, incorporating the HBP sequence into the combined model (T2WI + AP + VP + HBP) did not further improve diagnostic performance (P > 0.05). ADVANCES IN KNOWLEDGE: The combined model incorporating AP, VP, T2WI, and HBP sequences demonstrated numerically highest performance in predicting P53-mutated HCC.",
+    "keywords": [
+      "Deep learning",
+      "Hepatocellular carcinoma",
+      "Magnetic resonance imaging",
+      "P53"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/genetics/diagnostic imaging",
+      "*Liver Neoplasms/genetics/diagnostic imaging",
+      "Male",
+      "Female",
+      "Middle Aged",
+      "*Magnetic Resonance Imaging/methods",
+      "*Deep Learning",
+      "Retrospective Studies",
+      "Mutation",
+      "*Tumor Suppressor Protein p53/genetics",
+      "Aged",
+      "Adult",
+      "Sensitivity and Specificity"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jia, Lulu",
+        "Yang, Qing",
+        "Jiang, Hanchen",
+        "Huang, Gang",
+        "Wang, Zhijun",
+        "Guo, Xinxin",
+        "Li, Jinkui",
+        "Xu, Hao",
+        "Lei, Junqiang"
+      ],
+      "short_names": [
+        "Jia L",
+        "Yang Q",
+        "Jiang H",
+        "Huang G",
+        "Wang Z",
+        "Guo X",
+        "Li J",
+        "Xu H",
+        "Lei J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Clinical Medical College of Lanzhou University, Lanzhou City, Gansu Province, China.",
+        "Department of Medical Imaging, Anhui Medical University Anqing Medical Center (Anqing Municipal Hospital), Anqing, China.",
+        "The First Clinical Medical College of Lanzhou University, Lanzhou, China.",
+        "Department of Statistics, University of California Los Angeles, Los Angeles, CA, USA.",
+        "Department of Radiology, Gansu Provincial Hospital, Lanzhou City, Gansu Province, China.",
+        "Department of Radiology, General Hospital of Ningxia Medical University, Yinchuan City, Ningxia Province, China.",
+        "School of Clinical Medicine, Ningxia Medical University, Yinchuan City, Ningxia Province, China.",
+        "Department of Radiology, The First Hospital of Lanzhou University, No. 1, Donggang West Road, Chengguan District, Gansu Province, Lanzhou City, 730000, China.",
+        "Department of Medicine, Harvard Medical School, Boston, USA. haxu@bwh.harvard.edu.",
+        "Department of Medicine, Brigham and Women's Hospital, Boston, USA. haxu@bwh.harvard.edu.",
+        "Department of Radiology, The First Hospital of Lanzhou University, No. 1, Donggang West Road, Chengguan District, Gansu Province, Lanzhou City, 730000, China. leijq2011@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jia, Lulu",
+        "short_name": "Jia L",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College of Lanzhou University, Lanzhou City, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Qing",
+        "short_name": "Yang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Imaging, Anhui Medical University Anqing Medical Center (Anqing Municipal Hospital), Anqing, China.",
+          "The First Clinical Medical College of Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Hanchen",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics, University of California Los Angeles, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Gang",
+        "short_name": "Huang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Gansu Provincial Hospital, Lanzhou City, Gansu Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhijun",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, General Hospital of Ningxia Medical University, Yinchuan City, Ningxia Province, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Xinxin",
+        "short_name": "Guo X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Ningxia Medical University, Yinchuan City, Ningxia Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jinkui",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Hospital of Lanzhou University, No. 1, Donggang West Road, Chengguan District, Gansu Province, Lanzhou City, 730000, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Hao",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Harvard Medical School, Boston, USA. haxu@bwh.harvard.edu.",
+          "Department of Medicine, Brigham and Women's Hospital, Boston, USA. haxu@bwh.harvard.edu."
+        ]
+      },
+      {
+        "full_name": "Lei, Junqiang",
+        "short_name": "Lei J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The First Hospital of Lanzhou University, No. 1, Donggang West Road, Chengguan District, Gansu Province, Lanzhou City, 730000, China. leijq2011@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC medical imaging"
+    ],
+    "journal_abbrev": [
+      "BMC Med Imaging"
+    ],
+    "pub_date": "2025 Dec 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/23 00:27",
+    "fetched_at": "2026-10-01 09:45:35"
+  },
+  "links": {
+    "cites": [
+      "42169905"
+    ],
+    "refs": [
+      "40102774",
+      "39854806",
+      "39830743",
+      "39823753",
+      "39690384",
+      "39261716",
+      "39224117",
+      "38729160",
+      "38325190",
+      "38287107",
+      "37637721",
+      "37606573",
+      "37498380",
+      "37300935",
+      "37211446",
+      "37078470",
+      "36854872",
+      "36674932",
+      "36219111",
+      "35953734",
+      "35740620",
+      "35713662",
+      "35127515",
+      "34572862",
+      "34083505",
+      "33973839",
+      "33852837",
+      "33559293",
+      "33479224",
+      "32942546",
+      "32845387",
+      "32818570",
+      "32228294",
+      "32064560",
+      "31433515",
+      "31199501",
+      "31163452",
+      "30876945",
+      "29281854",
+      "28622513",
+      "28488786",
+      "27959731",
+      "26261689",
+      "24461059",
+      "23928407"
+    ],
+    "similar": [
+      "41430161",
+      "42169905",
+      "41126066",
+      "41325721",
+      "40601290",
+      "37888871",
+      "42159476",
+      "40627133",
+      "40624579",
+      "34130644",
+      "40445095",
+      "40165094",
+      "40084948",
+      "38433144",
+      "38896246",
+      "37071167",
+      "39528755",
+      "39505342",
+      "39777758",
+      "33839938",
+      "38749868",
+      "36131163",
+      "39698720",
+      "32002645",
+      "32588209",
+      "35930863",
+      "40532770",
+      "32090520",
+      "41237121",
+      "40167646",
+      "41290425",
+      "38375988",
+      "34629814",
+      "33993366",
+      "40360135",
+      "40933208",
+      "39193608",
+      "41161266",
+      "36219111",
+      "39932410",
+      "38997242",
+      "37840197",
+      "38175256",
+      "38853169",
+      "35284527",
+      "37078470",
+      "38713432",
+      "41860367",
+      "41023894",
+      "41619313",
+      "39134943",
+      "41053269",
+      "41273358",
+      "40337547",
+      "40862800",
+      "40937458",
+      "41217478",
+      "40075375",
+      "39992060",
+      "38997568",
+      "31062483",
+      "40105509",
+      "32375436",
+      "40274548",
+      "41718534",
+      "39362318",
+      "33417489",
+      "35298849",
+      "36786905",
+      "35587946",
+      "35579711",
+      "39962429",
+      "40707265",
+      "38344854",
+      "16134309",
+      "40110765",
+      "41723043",
+      "41628547",
+      "38918998",
+      "40165325",
+      "30666445",
+      "41604786",
+      "29254310",
+      "40391614",
+      "37173350",
+      "40866275",
+      "40165029",
+      "37222771",
+      "28483680",
+      "41160193",
+      "40441719",
+      "40758203",
+      "33559293",
+      "40587677",
+      "40059243",
+      "41790668",
+      "38552308",
+      "42130616",
+      "41176822",
+      "38273242"
+    ],
+    "review": [
+      "41430161",
+      "40532770"
+    ],
+    "pmc": [
+      "12723874"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmedimaging.biomedcentral.com/articles/10.1186/s12880-025-02045-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41430161/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

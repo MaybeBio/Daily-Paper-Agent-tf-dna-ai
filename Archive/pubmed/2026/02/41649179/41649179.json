@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "41649179",
+    "doi": "10.14309/ctg.0000000000000985",
+    "title": "Machine Learning-Based Pathomics Signature in Predicting MSH2 Expression and Prognosis in Gastric Cancer."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Gastric cancer (GC) is one of the most prevalent and lethal gastrointestinal malignancies. MutS homolog 2 (MSH2), a DNA mismatch repair protein, has emerged as a promising prognostic biomarker. However, traditional histopathological evaluation is limited by restricted fields compared with whole-slide imaging. This study aimed to investigate whether machine learning-derived digital pathomics features could predict MSH2 expression and clinical outcomes in GC. METHODS: Hematoxylin and eosin-stained whole-slide images from 234 patients were analyzed to extract quantitative pathological features. A pathomics score (PS) was developed to estimate MSH2 expression. The association between PS and overall survival (OS) was assessed using univariate and multivariate Cox regression. Survival differences between high-PS and low-PS groups were evaluated using Kaplan-Meier analysis. Functional enrichment and immune infiltration analyses were performed to explore potential biological mechanisms. RESULTS: Digital image analysis identified pathomics features associated with MSH2 expression. The PS served as a surrogate marker for MSH2 and effectively stratified patients into prognostic subgroups with significant different OS. High PS was associated with features suggestive of a stronger antitumor immune response, whereas low PS was linked to an immunosuppressive microenvironment. DISCUSSION: The machine learning-derived pathomics signature shows potential in predicting MSH2 expression. It can serve as a complementary research tool and provide clinically meaningful prognostic information for GC.",
+    "keywords": [
+      "MSH2",
+      "gastric cancer",
+      "machine learning algorithm",
+      "pathomics signature",
+      "prognosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Stomach Neoplasms/pathology/mortality/immunology/genetics/diagnosis",
+      "*MutS Homolog 2 Protein/metabolism/analysis",
+      "Prognosis",
+      "Female",
+      "*Biomarkers, Tumor/metabolism/analysis",
+      "*Machine Learning",
+      "Male",
+      "Middle Aged",
+      "Kaplan-Meier Estimate",
+      "Aged",
+      "Tumor Microenvironment/immunology",
+      "Stomach/pathology/surgery/immunology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Zheng-Rong",
+        "Wang, Yu",
+        "Yan, Wen-Wu",
+        "Li, Hao-Ran",
+        "Cheng, Zheng-Wu",
+        "Han, Ting",
+        "Zhang, Chao",
+        "Wang, Xiao-Ming"
+      ],
+      "short_names": [
+        "Zhang ZR",
+        "Wang Y",
+        "Yan WW",
+        "Li HR",
+        "Cheng ZW",
+        "Han T",
+        "Zhang C",
+        "Wang XM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hepatobiliary and Pancreatic Surgery, The First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+        "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Wannan Medical College (Yijishan Hospital of Wannan Medical College), Wuhu, China .",
+        "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Wannan Medical College (Yijishan Hospital of Wannan Medical College), Wuhu, China .",
+        "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Wannan Medical College (Yijishan Hospital of Wannan Medical College), Wuhu, China .",
+        "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Wannan Medical College (Yijishan Hospital of Wannan Medical College), Wuhu, China .",
+        "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Wannan Medical College (Yijishan Hospital of Wannan Medical College), Wuhu, China .",
+        "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Wannan Medical College (Yijishan Hospital of Wannan Medical College), Wuhu, China .",
+        "Department of Hepatobiliary and Pancreatic Surgery, The First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, The First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+        "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Wannan Medical College (Yijishan Hospital of Wannan Medical College), Wuhu, China ."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Zheng-Rong",
+        "short_name": "Zhang ZR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+          "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Wannan Medical College (Yijishan Hospital of Wannan Medical College), Wuhu, China ."
+        ]
+      },
+      {
+        "full_name": "Wang, Yu",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Wannan Medical College (Yijishan Hospital of Wannan Medical College), Wuhu, China ."
+        ]
+      },
+      {
+        "full_name": "Yan, Wen-Wu",
+        "short_name": "Yan WW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Wannan Medical College (Yijishan Hospital of Wannan Medical College), Wuhu, China ."
+        ]
+      },
+      {
+        "full_name": "Li, Hao-Ran",
+        "short_name": "Li HR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Wannan Medical College (Yijishan Hospital of Wannan Medical College), Wuhu, China ."
+        ]
+      },
+      {
+        "full_name": "Cheng, Zheng-Wu",
+        "short_name": "Cheng ZW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Wannan Medical College (Yijishan Hospital of Wannan Medical College), Wuhu, China ."
+        ]
+      },
+      {
+        "full_name": "Han, Ting",
+        "short_name": "Han T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Wannan Medical College (Yijishan Hospital of Wannan Medical College), Wuhu, China ."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chao",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The First Affiliated Hospital of Anhui Medical University, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiao-Ming",
+        "short_name": "Wang XM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The First Affiliated Hospital of Anhui Medical University, Hefei, China.",
+          "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Wannan Medical College (Yijishan Hospital of Wannan Medical College), Wuhu, China ."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical and translational gastroenterology"
+    ],
+    "journal_abbrev": [
+      "Clin Transl Gastroenterol"
+    ],
+    "pub_date": "2026 Apr 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/06 13:18",
+    "fetched_at": "2026-10-01 13:07:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "35158854",
+      "35122049",
+      "35109864",
+      "35008387",
+      "34338034",
+      "33538338",
+      "33289845",
+      "33042271",
+      "32881725",
+      "32552682",
+      "32540334",
+      "32248000",
+      "32162808",
+      "32060757",
+      "31913871",
+      "31615816",
+      "31399699",
+      "31048579",
+      "31044723",
+      "30927083",
+      "30486602",
+      "30481381",
+      "30013197",
+      "29874113",
+      "29628290",
+      "29092949",
+      "28975929",
+      "28927527",
+      "28538950",
+      "27527408",
+      "26371427",
+      "25894828",
+      "25451105",
+      "25079317",
+      "23391514",
+      "23323831",
+      "21706233",
+      "21674174",
+      "21497289",
+      "18403632",
+      "18082599",
+      "17764220",
+      "16061855",
+      "12639995",
+      "10954713"
+    ],
+    "similar": [
+      "41649179",
+      "42026805",
+      "40344565",
+      "41551463",
+      "41798945",
+      "40690457",
+      "39810215",
+      "41809732",
+      "39640777",
+      "39904894",
+      "39703069",
+      "34054812",
+      "32754268",
+      "41113125",
+      "37291405",
+      "38557926",
+      "39145002",
+      "41368643",
+      "38956384",
+      "39606245",
+      "39966377",
+      "42556474",
+      "39333689",
+      "38753243",
+      "41407509",
+      "38700505",
+      "41809565",
+      "40450287",
+      "41233664",
+      "41085794",
+      "39108265",
+      "42251135",
+      "39118022",
+      "39181686",
+      "39299554",
+      "41508286",
+      "39905263",
+      "34122409",
+      "38749538",
+      "41444960",
+      "40840227",
+      "31577560",
+      "42327341",
+      "36479114",
+      "34382341",
+      "38780888",
+      "40314741",
+      "39507979",
+      "40636126",
+      "40321814",
+      "40386054",
+      "41102516",
+      "40848322",
+      "40513510",
+      "31615816",
+      "40165301",
+      "39527470",
+      "38546403",
+      "41296174",
+      "40376989",
+      "31636474",
+      "36405735",
+      "30803214",
+      "40926266",
+      "41549259",
+      "39690336",
+      "38573378",
+      "41378008",
+      "41597477",
+      "35778697",
+      "39894411",
+      "39353384",
+      "39687617",
+      "39286147",
+      "39749345",
+      "29568201",
+      "39748125",
+      "38717048",
+      "40746552",
+      "39165353",
+      "41725109",
+      "40898459",
+      "38751024",
+      "41286321",
+      "33711953",
+      "40821814",
+      "28030840",
+      "38566377",
+      "39960919",
+      "41381057",
+      "41981105",
+      "41088294",
+      "20307245",
+      "40228435",
+      "41928259",
+      "39252063",
+      "41986425",
+      "21732224",
+      "33331338",
+      "28008145"
+    ],
+    "review": [
+      "41649179",
+      "36405735"
+    ],
+    "pmc": [
+      "13102418"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41649179/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.14309/ctg.0000000000000985",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

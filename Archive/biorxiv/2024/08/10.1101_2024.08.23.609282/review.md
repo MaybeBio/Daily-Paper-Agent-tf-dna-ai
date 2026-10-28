@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretational validity based solely on the supplied text; no external data or supplementary files were available for verification
+- **Shared manuscript claim summary** The authors report that full-length human BRCA1 protein preferentially binds an open X-like conformation of a four-way Holliday junction (HJ) over stacked conformations, with binding affinity decreasing with increasing MgCl2 concentration. Using molecular docking and all-atom MD simulations of the DNA-binding region (residues 340-554), they identify specific positively charged and polar residues that form the binding interface, several of which are reported sites of missense mutations.
+- **Visible evidence base** FCS autocorrelation curves and binding analyses (Figures 1-3, S1-S2); homology models and docking results (Figures 4-8, S3-S4, Tables S1-S3); MD simulation trajectories and interaction analyses (Figures 9-11, S5-S6)
+- **Missing materials affecting confidence** Supplementary figures and tables (S1-S6, Tables S1-S3) were referenced but not provided; raw FCS data, fitting residuals, and error estimates were not shown; MD simulation convergence metrics and force field validation details were not fully described; no information on protein purity, activity, or labeling efficiency was provided
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question regarding the molecular basis of BRCA1-HJ recognition, a key step in homologous recombination. The combination of single-molecule FCS with computational modeling is potentially powerful. However, the current presentation has several technical gaps that prevent full evaluation of the central claims. The FCS analysis lacks critical controls and error reporting, and the computational pipeline, while reasonable, requires more rigorous validation to support the specificity of the proposed interaction interface. The biological significance of the conformational preference is discussed but not experimentally tested. The manuscript is of interest to the DNA repair and biophysics communities, but the evidence as presented is not yet sufficient to firmly establish the main conclusions.
+- **Who would be interested in the results, and why** Researchers studying BRCA1 function, DNA repair mechanisms (particularly homologous recombination), DNA structure recognition by proteins, and those interested in the molecular consequences of BRCA1 missense mutations. The single-molecule approach and the identification of specific interacting residues may also interest biophysicists and computational biologists working on protein-DNA interactions.
+- **Major strengths** The study addresses a significant gap in understanding BRCA1-HJ interactions. The use of single-molecule FCS to quantify binding under different ionic conditions is a suitable approach. The combination of experimental binding measurements with computational modeling provides a multi-pronged strategy. The identification of specific residues that are known mutation sites directly links the structural findings to potential disease mechanisms.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness of FCS binding analysis
+    - **Claim pointer** The authors claim a specific binding affinity (Ka = 5.8 x 10^7 M^-1, Kd = 17 nM) for BRCA1 to HJ at 0.5 mM MgCl2, and that this affinity decreases with increasing MgCl2 concentration.
+    - **Evidence pointer** Section 3.1, Figures 1-3, Eq. 5
+    - **Concern** The FCS analysis relies on a two-population model (Eq. 3) with fixed diffusion times for free and bound species. The determination of Q_free and Q_bound is described, but the method for fixing tau_free and tau_bound is not clearly detailed. More critically, the manuscript does not report error bars or confidence intervals for the fitted Ka values at any MgCl2 concentration. The claim of a decrease in affinity from 5.8 x 10^7 to 3.0 x 10^6 M^-1 spans roughly an order of magnitude, but without error estimates, it is impossible to assess whether these differences are statistically significant. Additionally, the manuscript does not discuss potential artifacts such as protein aggregation, non-specific binding, or photobleaching that could affect the correlation curves, especially at high protein concentrations.
+    - **Why it matters** The quantitative binding affinity and its dependence on ionic conditions are central to the paper's main claim of conformational preference. If the affinity differences are not statistically robust, the conclusion that BRCA1 prefers the open X-like conformation is not supported by the experimental data.
+    - **Resolution test** Provide the fitted Ka values with standard errors or confidence intervals for each MgCl2 concentration. Show representative fits with residuals. Include control experiments demonstrating that the observed changes in correlation curves are due to specific BRCA1-HJ binding and not aggregation or non-specific interactions. Detail the procedure for determining tau_free and tau_bound and justify their fixed values in the global fit.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness of computational model
+    - **Claim pointer** The authors claim that molecular docking and MD simulations reveal specific residues (e.g., Lys 428, 450, 463, 467, 501, 503, 505, 519, 527; Arg 466, 496, 504; Asn 455, 480; Gln 526, 541) that form the binding interface with HJ.
+    - **Evidence pointer** Sections 3.2 and 3.3, Figures 4-11, Tables S1-S3
+    - **Concern** The computational pipeline has several potential issues. First, the homology models generated by I-TASSER for a largely disordered region (residues 340-554) may have significant uncertainty, and the manuscript does not provide validation metrics (e.g., Ramachandran plots, QMEAN scores) for the selected models. Second, the docking was performed against a stacked HJ (PDB:1DCW) because no open X-like structure is available, yet the authors claim preference for the open conformation. This mismatch is not adequately addressed. Third, the MD simulations are only 100 ns, which may be insufficient for a largely disordered protein to sample relevant conformations and reach a stable bound state. The manuscript does not report convergence of the simulations or replicate runs to assess variability. Finally, the criteria for defining "interacting residues" from the MD trajectories (e.g., distance cutoffs, occupancy thresholds) are not clearly defined.
+    - **Why it matters** The identification of specific interacting residues is a key output of the study and is used to link to disease-associated mutations. If the computational models are not reliable or the simulations are not converged, the specific residue list may be inaccurate or incomplete, undermining the structural conclusions.
+    - **Resolution test** Provide validation metrics for the homology models. Discuss the limitations of docking to a stacked HJ and how this might affect the interpretation of conformational preference. Show evidence of MD convergence (e.g., RMSD plateau, block averaging) and consider longer simulations or multiple replicates. Clearly define the criteria for identifying interacting residues from the trajectories.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance and interpretation
+    - **Claim pointer** The authors suggest that the preferential binding of BRCA1 to the open X-like conformation of HJ "may hold significance in DNA damage repair through HR" and that the identified residues' involvement in binding "likely explains why these places of missense mutations are essential for BRCA1's function."
+    - **Evidence pointer** Sections 3.1, 3.3, and 4
+    - **Concern** The functional significance of the conformational preference is purely speculative. The authors do not test whether mutations in the identified residues actually disrupt HJ binding or affect HR efficiency. While the correlation with known mutation sites is interesting, the manuscript does not provide direct evidence that these mutations impair the specific interaction described. The claim that the binding preference "may hold significance" is appropriately cautious, but the link to disease mechanism is presented as a likely explanation without experimental support.
+    - **Why it matters** The broader significance of the work for understanding BRCA1-related tumorigenesis depends on establishing a functional link between the identified binding interface and the consequences of mutations. Without this, the study remains a biophysical characterization with speculative disease relevance.
+    - **Resolution test** If feasible, perform binding assays with BRCA1 constructs carrying specific mutations in the identified residues to demonstrate loss of HJ binding. Alternatively, temper the claims about disease relevance and clearly state that the functional consequences remain to be tested.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity and completeness of methods
+    - **Affected element** Section 2.4, FCS data acquisition and analysis
+    - **Evidence pointer** Section 2.4
+    - **Issue** The manuscript states that "the values of Q_free and Q_bound are calculated from the ratio of photon counts and number of fluorescent molecules in the confocal volume at two extreme conditions (free HJ and completely bound HJ)" but does not specify how the "completely bound" condition was achieved or verified.
+    - **Required correction** Provide details on how the completely bound state was ensured (e.g., saturating protein concentration) and how Q values were calculated.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Clarity of presentation
+    - **Affected element** Section 3.1, FCS measurements
+    - **Evidence pointer** Figure 2a
+    - **Issue** The text states that chi_b "saturates at HJ:BRCA1 = 1:20 ratio," but Figure 2a is not provided in the text. It is unclear if this saturation is complete or if there is a plateau.
+    - **Required correction** Clarify the saturation behavior and consider showing the data or describing the plateau more precisely.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Technical detail
+    - **Affected element** Section 2.6, Molecular Dynamics Simulation
+    - **Evidence pointer** Section 2.6
+    - **Issue** The manuscript states that "the systems were charge-neutralized, and the final NaCl salt concentration was 10 mM" but does not specify the number of ions added or the method for neutralization.
+    - **Required correction** Provide details on the ion concentration and neutralization procedure.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Interpretation of results
+    - **Affected element** Section 3.3, Molecular Dynamics Simulation
+    - **Evidence pointer** Figure 10c
+    - **Issue** The manuscript lists residues with high H-bond occupancy but does not provide a quantitative threshold for "high occupancy" or a figure showing the occupancy values.
+    - **Required correction** Define the occupancy threshold and consider showing a plot of occupancy versus residue number.
+    - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Literature context
+    - **Affected element** Section 1, Introduction
+    - **Evidence pointer** Section 1
+    - **Issue** The introduction mentions that BRCA1 has a high affinity for flap DNA and branched DNA, but does not cite specific studies for these claims.
+    - **Required correction** Add appropriate references for these statements.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (error analysis in FCS) and R1-M2 (validation of computational models) are the primary technical issues. Without addressing these, the quantitative binding claim and the specific residue identification are not fully supported.
+- **Assessment against Nature-style criteria** 
+    - **Originality** The study is original in its specific focus on the conformational preference of BRCA1 for HJ and the combination of single-molecule experiments with computational modeling. However, the general concept of BRCA1 binding to branched DNA is known.
+    - **Scientific importance** The question of how BRCA1 recognizes its DNA substrates is of high importance for understanding DNA repair and cancer predisposition. The potential link to mutation sites adds significance.
+    - **Interdisciplinary readership** The work bridges biophysics, structural biology, and cancer biology, which could appeal to a broad readership.
+    - **Technical soundness** The technical soundness is currently compromised by the lack of error analysis in the FCS data and insufficient validation of the computational models. These are significant gaps that need to be addressed.
+    - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but some technical details in the FCS and MD sections may be challenging for non-specialists. The abstract is clear.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the approach is appropriate, but the current evidence is insufficient to firmly establish the quantitative binding preference and the specific interaction interface. The authors must provide robust error analysis, additional controls, and stronger validation of their computational models.
+
+## Risk / unsupported claims
+- The claim that BRCA1 "prefers" the open X-like conformation is based on indirect inference from MgCl2-dependent binding affinity changes, not on direct observation of the bound conformation. This is a reasonable hypothesis but is not directly proven.
+- The specific list of interacting residues from MD simulations is presented as definitive, but the simulations are short and the models are not fully validated. The list should be considered preliminary.
+- The statement that the identified residues' involvement in binding "likely explains why these places of missense mutations are essential" is a speculative leap without functional validation.
+- The claim of "first time" for showing the conformational preference at the single-molecule level is difficult to verify without a thorough literature search, but it is plausible.

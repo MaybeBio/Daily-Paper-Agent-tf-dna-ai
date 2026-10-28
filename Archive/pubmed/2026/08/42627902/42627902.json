@@ -1,0 +1,516 @@
+{
+  "identity": {
+    "pmid": "42627902",
+    "doi": "10.1126/sciadv.aeb1346",
+    "title": "Geneformer-guided multiomics integration identifies Pbx1 as a network hub of hematopoietic stem cell aging."
+  },
+  "content": {
+    "abstract": "Hematopoietic stem cells (HSCs) constitute an organized hematopoietic system that undergoes age-related alterations, including increased platelet production and decreased erythropoiesis. The fundamental mechanisms driving these shifts remain incompletely understood. We used single-cell RNA sequencing data to show that old HSCs contain two distinct transcriptional programs: one shared with megakaryocytes and the other reflecting the most primitive HSC state. Developmental time-series profiling further suggests that the acquisition of these programs begins early in life, with the primitive module rising prenatally and megakaryocytic priming emerging after birth. Using a fine-tuned Geneformer (transformer-based deep learning model) to capture higher-order differences between young and old HSCs, coupled with transcriptomic and epigenetic profiling, as well as transcription factor screens, we identified Pbx1 as a key regulator of these age-related transcriptional and differentiation changes. Specifically, Pbx1 suppresses erythroid differentiation by repressing Gata1 expression. These findings provide insight into HSC aging and may inform approaches to modulate age-associated HSC dysfunction.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Pre-B-Cell Leukemia Transcription Factor 1/genetics/metabolism",
+      "*Hematopoietic Stem Cells/metabolism/cytology",
+      "Animals",
+      "*Cellular Senescence/genetics",
+      "Mice",
+      "Cell Differentiation/genetics",
+      "Multiomics",
+      "GATA1 Transcription Factor/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Single-Cell Gene Expression Analysis",
+      "*Gene Regulatory Networks",
+      "Megakaryocytes/metabolism/cytology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kobayashi, Hiroshi",
+        "Watanuki, Shintaro",
+        "Shiozawa, Yusuke",
+        "Oshima, Motohiko",
+        "Koide, Shuhei",
+        "Takayama, Naoya",
+        "Morikawa, Takayuki",
+        "Haraguchi, Miho",
+        "Tamaki, Shinpei",
+        "Asakura, Takayoshi",
+        "Miyata, Toshio",
+        "Iwama, Atsushi",
+        "Ogawa, Seishi",
+        "Takubo, Keiyo"
+      ],
+      "short_names": [
+        "Kobayashi H",
+        "Watanuki S",
+        "Shiozawa Y",
+        "Oshima M",
+        "Koide S",
+        "Takayama N",
+        "Morikawa T",
+        "Haraguchi M",
+        "Tamaki S",
+        "Asakura T",
+        "Miyata T",
+        "Iwama A",
+        "Ogawa S",
+        "Takubo K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0924-1252",
+        "ORCID: 0000-0002-9229-6712",
+        "ORCID: 0000-0001-8673-677X",
+        "ORCID: 0000-0001-6991-815X",
+        "ORCID: 0000-0001-8599-6115",
+        "ORCID: 0009-0009-5664-188X",
+        "ORCID: 0000-0001-9410-8992",
+        "ORCID: 0000-0002-7778-5374",
+        "ORCID: 0000-0002-1736-7592"
+      ],
+      "affiliations": [
+        "Department of Cell Fate Biology and Stem Cell Medicine, Tohoku University Graduate School of Medicine, Sendai 980-8575, Japan.",
+        "Department of Stem Cell Biology, National Institute of Global Health and Medicine, Japan Institute for Health Security (JIHS), Tokyo 162-8655, Japan.",
+        "Department of Cell Fate Biology and Stem Cell Medicine, Tohoku University Graduate School of Medicine, Sendai 980-8575, Japan.",
+        "Department of Stem Cell Biology, National Institute of Global Health and Medicine, Japan Institute for Health Security (JIHS), Tokyo 162-8655, Japan.",
+        "Laboratory of Molecular Analysis, Nippon Medical School, Tokyo 113-8602, Japan.",
+        "Division of Stem Cell and Molecular Medicine, Center for Stem Cell Biology and Regenerative Medicine, The Institute of Medical Science, The University of Tokyo, Tokyo 108-8639, Japan.",
+        "Division of Stem Cell and Molecular Medicine, Center for Stem Cell Biology and Regenerative Medicine, The Institute of Medical Science, The University of Tokyo, Tokyo 108-8639, Japan.",
+        "Department of Regenerative Medicine, Graduate School of Medicine, Chiba University, Chiba 260-8670, Japan.",
+        "Department of Stem Cell Biology, National Institute of Global Health and Medicine, Japan Institute for Health Security (JIHS), Tokyo 162-8655, Japan.",
+        "Department of Stem Cell Biology, National Institute of Global Health and Medicine, Japan Institute for Health Security (JIHS), Tokyo 162-8655, Japan.",
+        "Kanagawa Institute of Industrial Science and Technology (KISTEC), Kawasaki 210-0821, Japan.",
+        "Department of Stem Cell Biology, National Institute of Global Health and Medicine, Japan Institute for Health Security (JIHS), Tokyo 162-8655, Japan.",
+        "Department of Molecular Medicine and Therapy, Tohoku University Graduate School of Medicine, Sendai 980-8575, Japan.",
+        "Department of Molecular Medicine and Therapy, Tohoku University Graduate School of Medicine, Sendai 980-8575, Japan.",
+        "Division of Stem Cell and Molecular Medicine, Center for Stem Cell Biology and Regenerative Medicine, The Institute of Medical Science, The University of Tokyo, Tokyo 108-8639, Japan.",
+        "Department of Pathology and Tumor Biology, Graduate School of Medicine, Kyoto University, Kyoto 606-8501, Japan.",
+        "Institute for the Advanced Study of Human Biology (WPI-ASHBi), Kyoto University, Kyoto 606-8501, Japan.",
+        "Department of Cell Fate Biology and Stem Cell Medicine, Tohoku University Graduate School of Medicine, Sendai 980-8575, Japan.",
+        "Department of Stem Cell Biology, National Institute of Global Health and Medicine, Japan Institute for Health Security (JIHS), Tokyo 162-8655, Japan.",
+        "Kanagawa Institute of Industrial Science and Technology (KISTEC), Kawasaki 210-0821, Japan.",
+        "Department of Stem Cell Healthspan, Healthspan Research Center (HeSReC), Tohoku University, Sendai 980-8575, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kobayashi, Hiroshi",
+        "short_name": "Kobayashi H",
+        "identifiers": [
+          "0000-0002-0924-1252"
+        ],
+        "affiliations": [
+          "Department of Cell Fate Biology and Stem Cell Medicine, Tohoku University Graduate School of Medicine, Sendai 980-8575, Japan.",
+          "Department of Stem Cell Biology, National Institute of Global Health and Medicine, Japan Institute for Health Security (JIHS), Tokyo 162-8655, Japan."
+        ]
+      },
+      {
+        "full_name": "Watanuki, Shintaro",
+        "short_name": "Watanuki S",
+        "identifiers": [
+          "0000-0002-9229-6712"
+        ],
+        "affiliations": [
+          "Department of Cell Fate Biology and Stem Cell Medicine, Tohoku University Graduate School of Medicine, Sendai 980-8575, Japan.",
+          "Department of Stem Cell Biology, National Institute of Global Health and Medicine, Japan Institute for Health Security (JIHS), Tokyo 162-8655, Japan."
+        ]
+      },
+      {
+        "full_name": "Shiozawa, Yusuke",
+        "short_name": "Shiozawa Y",
+        "identifiers": [
+          "0000-0001-8673-677X"
+        ],
+        "affiliations": [
+          "Laboratory of Molecular Analysis, Nippon Medical School, Tokyo 113-8602, Japan."
+        ]
+      },
+      {
+        "full_name": "Oshima, Motohiko",
+        "short_name": "Oshima M",
+        "identifiers": [
+          "0000-0001-6991-815X"
+        ],
+        "affiliations": [
+          "Division of Stem Cell and Molecular Medicine, Center for Stem Cell Biology and Regenerative Medicine, The Institute of Medical Science, The University of Tokyo, Tokyo 108-8639, Japan."
+        ]
+      },
+      {
+        "full_name": "Koide, Shuhei",
+        "short_name": "Koide S",
+        "identifiers": [
+          "0000-0001-8599-6115"
+        ],
+        "affiliations": [
+          "Division of Stem Cell and Molecular Medicine, Center for Stem Cell Biology and Regenerative Medicine, The Institute of Medical Science, The University of Tokyo, Tokyo 108-8639, Japan."
+        ]
+      },
+      {
+        "full_name": "Takayama, Naoya",
+        "short_name": "Takayama N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Regenerative Medicine, Graduate School of Medicine, Chiba University, Chiba 260-8670, Japan."
+        ]
+      },
+      {
+        "full_name": "Morikawa, Takayuki",
+        "short_name": "Morikawa T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell Biology, National Institute of Global Health and Medicine, Japan Institute for Health Security (JIHS), Tokyo 162-8655, Japan."
+        ]
+      },
+      {
+        "full_name": "Haraguchi, Miho",
+        "short_name": "Haraguchi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell Biology, National Institute of Global Health and Medicine, Japan Institute for Health Security (JIHS), Tokyo 162-8655, Japan.",
+          "Kanagawa Institute of Industrial Science and Technology (KISTEC), Kawasaki 210-0821, Japan."
+        ]
+      },
+      {
+        "full_name": "Tamaki, Shinpei",
+        "short_name": "Tamaki S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Stem Cell Biology, National Institute of Global Health and Medicine, Japan Institute for Health Security (JIHS), Tokyo 162-8655, Japan."
+        ]
+      },
+      {
+        "full_name": "Asakura, Takayoshi",
+        "short_name": "Asakura T",
+        "identifiers": [
+          "0009-0009-5664-188X"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine and Therapy, Tohoku University Graduate School of Medicine, Sendai 980-8575, Japan."
+        ]
+      },
+      {
+        "full_name": "Miyata, Toshio",
+        "short_name": "Miyata T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and Therapy, Tohoku University Graduate School of Medicine, Sendai 980-8575, Japan."
+        ]
+      },
+      {
+        "full_name": "Iwama, Atsushi",
+        "short_name": "Iwama A",
+        "identifiers": [
+          "0000-0001-9410-8992"
+        ],
+        "affiliations": [
+          "Division of Stem Cell and Molecular Medicine, Center for Stem Cell Biology and Regenerative Medicine, The Institute of Medical Science, The University of Tokyo, Tokyo 108-8639, Japan."
+        ]
+      },
+      {
+        "full_name": "Ogawa, Seishi",
+        "short_name": "Ogawa S",
+        "identifiers": [
+          "0000-0002-7778-5374"
+        ],
+        "affiliations": [
+          "Department of Pathology and Tumor Biology, Graduate School of Medicine, Kyoto University, Kyoto 606-8501, Japan.",
+          "Institute for the Advanced Study of Human Biology (WPI-ASHBi), Kyoto University, Kyoto 606-8501, Japan."
+        ]
+      },
+      {
+        "full_name": "Takubo, Keiyo",
+        "short_name": "Takubo K",
+        "identifiers": [
+          "0000-0002-1736-7592"
+        ],
+        "affiliations": [
+          "Department of Cell Fate Biology and Stem Cell Medicine, Tohoku University Graduate School of Medicine, Sendai 980-8575, Japan.",
+          "Department of Stem Cell Biology, National Institute of Global Health and Medicine, Japan Institute for Health Security (JIHS), Tokyo 162-8655, Japan.",
+          "Kanagawa Institute of Industrial Science and Technology (KISTEC), Kawasaki 210-0821, Japan.",
+          "Department of Stem Cell Healthspan, Healthspan Research Center (HeSReC), Tohoku University, Sendai 980-8575, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2026 Aug 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/21 17:37",
+    "fetched_at": "2026-10-02 04:04:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40410559",
+      "39502448",
+      "39178276",
+      "38959897",
+      "38844628",
+      "38816617",
+      "38749423",
+      "38404687",
+      "38184630",
+      "37865087",
+      "37258680",
+      "37231261",
+      "37187700",
+      "37059101",
+      "37004161",
+      "36948186",
+      "36661340",
+      "36652668",
+      "36650381",
+      "36303549",
+      "35859206",
+      "35858618",
+      "35755815",
+      "35577813",
+      "35022082",
+      "34929734",
+      "34822296",
+      "34816098",
+      "34678207",
+      "34525198",
+      "34499717",
+      "34129016",
+      "34032859",
+      "34019813",
+      "33876187",
+      "33848471",
+      "33490923",
+      "33231616",
+      "33106654",
+      "32848148",
+      "32822583",
+      "32796847",
+      "32669716",
+      "31806690",
+      "31806687",
+      "31776511",
+      "31740819",
+      "31269436",
+      "31249361",
+      "31085557",
+      "30573817",
+      "30428347",
+      "29942304",
+      "29625072",
+      "29617651",
+      "29323290",
+      "29298288",
+      "29262330",
+      "29249462",
+      "29141947",
+      "28991892",
+      "28825706",
+      "27895645",
+      "27411635",
+      "27079975",
+      "27009448",
+      "26578583",
+      "26299573",
+      "26004780",
+      "25953851",
+      "25792330",
+      "25516281",
+      "25261778",
+      "25100532",
+      "25079315",
+      "24792119",
+      "24227677",
+      "24097267",
+      "23934107",
+      "23791645",
+      "23746838",
+      "23670180",
+      "23564910",
+      "23415915",
+      "23323831",
+      "23104886",
+      "22455463",
+      "22388286",
+      "22289892",
+      "22123971",
+      "22068055",
+      "21221095",
+      "20974807",
+      "20887898",
+      "20618067",
+      "20513432",
+      "20436461",
+      "19910308",
+      "19273606",
+      "19114008",
+      "19062086",
+      "19060879",
+      "18798982",
+      "18462698",
+      "18371378",
+      "18295580",
+      "17676974",
+      "17032923",
+      "16565722",
+      "15989959",
+      "15967997",
+      "14681366",
+      "12609849",
+      "11955445",
+      "11067876",
+      "10469654",
+      "1967983",
+      "1967982"
+    ],
+    "similar": [
+      "42627902",
+      "24982425",
+      "29807547",
+      "26430063",
+      "24021675",
+      "24638828",
+      "33539429",
+      "39377397",
+      "28069743",
+      "40540059",
+      "31085557",
+      "18371451",
+      "34496088",
+      "38695236",
+      "32384151",
+      "40132120",
+      "8677748",
+      "25319996",
+      "38580775",
+      "25051963",
+      "28088986",
+      "22922207",
+      "24446491",
+      "25107888",
+      "36661340",
+      "35401928",
+      "38394540",
+      "34697387",
+      "26208102",
+      "25682601",
+      "23476050",
+      "27368054",
+      "41797400",
+      "22438249",
+      "37118089",
+      "28052084",
+      "21139080",
+      "41291922",
+      "38598841",
+      "31628330",
+      "34678207",
+      "16294212",
+      "23342037",
+      "32367048",
+      "25516969",
+      "42148659",
+      "42475469",
+      "18462698",
+      "38802843",
+      "39261515",
+      "34294125",
+      "21898686",
+      "40920871",
+      "19302918",
+      "9458106",
+      "23934107",
+      "21083428",
+      "42069610",
+      "23911012",
+      "20154211",
+      "25068121",
+      "42596736",
+      "30897261",
+      "32398457",
+      "27009448",
+      "40080840",
+      "22123971",
+      "41720793",
+      "38640057",
+      "19168790",
+      "21279818",
+      "39337559",
+      "21795386",
+      "33930817",
+      "31679686",
+      "25961454",
+      "25002492",
+      "24792119",
+      "11823037",
+      "30792210",
+      "12423679",
+      "27152938",
+      "19542301",
+      "25451253",
+      "39252150",
+      "26387834",
+      "36629404",
+      "24594363",
+      "18252802",
+      "42074497",
+      "29754961",
+      "28584094",
+      "40891909",
+      "25326802",
+      "23564910",
+      "32252797",
+      "40038750",
+      "26313154",
+      "26941402",
+      "38816579"
+    ],
+    "review": [
+      "42627902",
+      "24638828",
+      "28088986",
+      "35401928",
+      "32398457",
+      "38640057",
+      "39252150"
+    ],
+    "pmc": [
+      "13496190"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.science.org/doi/10.1126/sciadv.aeb1346?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stemcells.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stem Cells"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42627902/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

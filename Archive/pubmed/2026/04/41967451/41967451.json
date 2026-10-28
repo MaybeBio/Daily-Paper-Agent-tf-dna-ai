@@ -1,0 +1,226 @@
+{
+  "identity": {
+    "pmid": "41967451",
+    "doi": "10.1016/j.bbrc.2026.153681",
+    "title": "Integrative network pharmacology and molecular simulation analysis reveals the therapeutic potential of Coscinium fenestratum alkaloids against SARS-CoV-2."
+  },
+  "content": {
+    "abstract": "SARS-CoV-2 variants resist all direct antivirals across clades, necessitating immediate therapeutic interventions that use conserved inflammatory mechanisms not utilized in existing pharmacotherapy. Even though Coscinium fenestratum is known to contain alkaloids like berberine, palmatine, and tembetarine, and traditional medicine says it can change the immune system, no systematic computational analysis has looked at its multi-target potential against SARS-CoV-2 host dependency factors that are important for viral replication and immunopathology. This study integrates network pharmacology, identifying 335 shared targets between C. fenestratum alkaloids and SARS-CoV-2 host proteins; molecular docking across five hub targets; SiteMap analysis confirming a druggable STAT3 binding cavity (D-score = 1.01); 100 ns MD simulations demonstrating complex stability (RMSD < 3 A, RMSF <1.2 A); and MM/GBSA refinement positioning the tembetarine-STAT3 interaction as the lead candidate (binding free energy DeltaG_bind = -41.47 kcal/mol). STAT3/AKT1 are the most important hubs (centrality 140, 172) that cause the dysregulation of PI3K-Akt and JAK-STAT, which is a key part of the variant-independent COVID-19 cytokine storm pathophysiology. Tembetarine has enhanced binding affinity and pharmacokinetic viability, placing C. fenestratum alkaloids for prompt experimental validation via variant-circumventing, multi-target host modulation urgently required in the global SARS-CoV-2 treatment pipeline.",
+    "keywords": [
+      "ADMET",
+      "COVID-19",
+      "Coscinium fenestratum",
+      "Molecular docking",
+      "Molecular dynamics simulation",
+      "Network pharmacology",
+      "SARS-CoV-2",
+      "STAT3",
+      "Tembetarine"
+    ],
+    "mesh_terms": [
+      "*SARS-CoV-2/drug effects",
+      "*Alkaloids/pharmacology/chemistry",
+      "Molecular Docking Simulation",
+      "Humans",
+      "*COVID-19 Drug Treatment",
+      "Molecular Dynamics Simulation",
+      "Network Pharmacology",
+      "*Antiviral Agents/pharmacology/chemistry",
+      "STAT3 Transcription Factor/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sakthi, P",
+        "Arun, K",
+        "Priya, D"
+      ],
+      "short_names": [
+        "Sakthi P",
+        "Arun K",
+        "Priya D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmaceutical Chemistry, SRM College of Pharmacy, SRM Institute of Science and Technology, Kattankulathur, India.",
+        "Department of Pharmaceutical Chemistry, SRM College of Pharmacy, SRM Institute of Science and Technology, Kattankulathur, India.",
+        "Department of Pharmaceutical Chemistry, SRM College of Pharmacy, SRM Institute of Science and Technology, Kattankulathur, India. Electronic address: priyad@srmist.edu.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sakthi, P",
+        "short_name": "Sakthi P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, SRM College of Pharmacy, SRM Institute of Science and Technology, Kattankulathur, India."
+        ]
+      },
+      {
+        "full_name": "Arun, K",
+        "short_name": "Arun K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, SRM College of Pharmacy, SRM Institute of Science and Technology, Kattankulathur, India."
+        ]
+      },
+      {
+        "full_name": "Priya, D",
+        "short_name": "Priya D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, SRM College of Pharmacy, SRM Institute of Science and Technology, Kattankulathur, India. Electronic address: priyad@srmist.edu.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical and biophysical research communications"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Res Commun"
+    ],
+    "pub_date": "2026 Jun 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/13 00:31",
+    "fetched_at": "2026-10-01 18:32:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41967451",
+      "42193347",
+      "41305458",
+      "36103744",
+      "41419235",
+      "39639531",
+      "35384056",
+      "40685718",
+      "40733568",
+      "38802394",
+      "41388231",
+      "33808721",
+      "38175855",
+      "33513419",
+      "37482789",
+      "39843610",
+      "36107386",
+      "38444326",
+      "41945951",
+      "37021347",
+      "40728751",
+      "35366469",
+      "37232419",
+      "38450706",
+      "37957903",
+      "40632195",
+      "35152367",
+      "35617830",
+      "37458994",
+      "37766313",
+      "35132518",
+      "41871083",
+      "41031498",
+      "35335139",
+      "35975852",
+      "33421743",
+      "35510619",
+      "33639316",
+      "39718442",
+      "41516274",
+      "41145808",
+      "38932170",
+      "36442514",
+      "39487761",
+      "37948293",
+      "40573419",
+      "38684706",
+      "41879392",
+      "37349945",
+      "39264734",
+      "39769245",
+      "32551639",
+      "33362771",
+      "39364869",
+      "39637552",
+      "34392751",
+      "38147408",
+      "39819536",
+      "35546368",
+      "41667627",
+      "35728285",
+      "37861016",
+      "39849987",
+      "35639226",
+      "38815531",
+      "41876770",
+      "37599474",
+      "40319603",
+      "35128681",
+      "38115191",
+      "33737804",
+      "34480682",
+      "33485847",
+      "39513867",
+      "40592031",
+      "34459720",
+      "34225565",
+      "34169390",
+      "34213728",
+      "35777088",
+      "38907013",
+      "33191068",
+      "34502340",
+      "35390032",
+      "42008967",
+      "39859347",
+      "33357040",
+      "40616739",
+      "38834599",
+      "33176643",
+      "42421348",
+      "37732349",
+      "35430474",
+      "35859316",
+      "41946767",
+      "33300454",
+      "33582935",
+      "33512650",
+      "34959151",
+      "32786685"
+    ],
+    "review": [
+      "41967451"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-291X(26)00445-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

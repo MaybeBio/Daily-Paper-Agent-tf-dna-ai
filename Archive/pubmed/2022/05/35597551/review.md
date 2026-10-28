@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that PSSM-based evolutionary profiles are effective for predicting conserved DNA-binding residues but inadequate for transient binding sites, where single-sequence models outperform PSSM-based models by up to 8 percentage points in controlled experiments.
+- **Visible evidence base** Abstract text; no quantitative results, dataset details, or statistical analyses provided
+- **Missing materials affecting confidence** Full methods, dataset composition, model architectures, hyperparameters, performance metrics, statistical significance tests, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract addresses a relevant and potentially important question in the field of protein-DNA binding site prediction, namely the comparative utility of evolutionary profiles versus single-sequence features for transient binding sites. The claim that PSSM-based models underperform single-sequence models for transient sites is intriguing and could have practical implications. However, the abstract provides insufficient detail to evaluate the rigor of the controlled experiments, the statistical robustness of the reported difference, or the generalizability of the findings. The conclusion that PSSM-based models are "inadequate" for high-specificity residues appears overstated given the limited evidence presented.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing sequence-based predictors of protein function, particularly those focused on DNA-binding site prediction. Researchers studying protein-DNA interactions, homology modeling, and design of DNA-binding ligands would also find the results relevant, as the findings suggest limitations of current feature representations and could inform method development.
+- **Major strengths** The study addresses a specific and under-explored aspect of DNA-binding site prediction, namely transient binding sites, which is a nuanced problem beyond general binding site identification. The use of highly similar protein pairs to define conserved versus transient sites is a reasonable approach to isolate the effect of binding variability. The comparison of PSSM-based and single-sequence models under "controlled experiments" suggests an attempt at fair benchmarking.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "the transient binding site predictions from evolutionary profiles are outperformed by single-sequence based models under controlled experiments by as much as 8 percentage points"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a performance difference of up to 8 percentage points but provides no details on the evaluation metric (e.g., accuracy, F1-score, Matthews correlation coefficient), the number of protein pairs, the cross-validation scheme, or the statistical significance of the difference. Without these details, it is impossible to assess whether the observed difference is robust or within the range of random variation.
+  - **Why it matters** The central conclusion of the paper rests on this quantitative claim. If the difference is not statistically significant or is sensitive to the choice of metric or dataset, the conclusion that PSSM-based models are inadequate for transient sites would be unsupported.
+  - **Resolution test** Provide the specific evaluation metric, confidence intervals or p-values for the performance difference, and details of the cross-validation procedure. The authors should also report performance for both conserved and transient sites separately to demonstrate the specificity of the effect.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "we created a database of highly similar protein pairs with known protein-DNA complexes and investigated differential predictability of conserved and transient binding residues within each pair"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how "highly similar" protein pairs were defined (e.g., sequence identity threshold), how transient versus conserved binding residues were identified, or how the database was curated to avoid redundancy or bias. The criteria for classifying residues as transient or conserved are critical to the validity of the comparison.
+  - **Why it matters** If the classification of transient versus conserved sites is arbitrary or biased, the reported performance difference could be an artifact of the labeling scheme rather than a genuine property of the features.
+  - **Resolution test** Specify the sequence identity threshold for pair selection, the structural or functional criteria for defining transient and conserved binding residues, and the number of pairs and residues in each category. Provide a validation of the classification scheme, such as agreement with known biological annotations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** "PSSM-based models are inadequate to predict high-specificity DNA-binding residues"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract generalizes from a specific comparison on a curated database to a broad conclusion about the inadequacy of PSSM-based models. The scope of the database, the diversity of protein families, and the range of binding site types are not described, so it is unclear whether the findings apply beyond the tested set.
+  - **Why it matters** Overgeneralization could mislead other researchers into abandoning PSSM features for all DNA-binding site prediction tasks, even though the abstract itself acknowledges that PSSMs are powerful for conserved sites.
+  - **Resolution test** Describe the diversity of the protein pairs in terms of sequence identity, structural fold, and biological function. Discuss the potential limitations of the database and whether the conclusions are expected to hold for other protein classes or binding site types.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "high-specificity DNA-binding residues" is ambiguous. It is not clear whether "high-specificity" refers to residues that are conserved across species, residues that are critical for binding affinity, or residues that are uniquely bound in a specific complex.
+  - **Required correction** Define "high-specificity" explicitly in the abstract, or rephrase to "transient binding residues" to maintain consistency with the earlier terminology.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model training description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that models were "retrained uniformly" but does not specify the machine learning algorithms used, the feature encoding for single sequences, or the window size for PSSM features.
+  - **Required correction** Provide at least a brief description of the model types and feature representations in the abstract, or refer to a methods section where these details are fully specified.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Conclusion framing
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The conclusion that PSSM-based models are "inadequate" is strong, but the abstract also notes that PSSMs are powerful for conserved sites. This nuance is lost in the final sentence, which could be misinterpreted as a blanket rejection of PSSM features.
+  - **Required correction** Soften the conclusion to state that PSSM-based models are "less effective for transient binding sites" or "inadequate for high-specificity transient residues," while acknowledging their utility for conserved sites.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical evidence for the 8 percentage point difference), R1-M2 (undefined criteria for transient versus conserved site classification), R1-M3 (overgeneralization from a limited database)
+- **Assessment against Nature-style criteria** 
+  - Originality: The focus on transient versus conserved binding sites is a novel angle, as most studies treat DNA-binding residues as a homogeneous set. This could be a meaningful contribution if the methodology is sound.
+  - Scientific importance: The findings could influence feature selection in future predictor development, but the importance is contingent on the robustness of the reported performance difference.
+  - Interdisciplinary readership: The topic is of interest to computational biologists and structural biologists, but the abstract is written in a specialized manner that may limit broader appeal.
+  - Technical soundness: Currently not established from the abstract alone. The lack of methodological detail and statistical validation is a major gap.
+  - Readability for nonspecialists: The abstract is concise but uses field-specific terms (e.g., PSSM, sliding window) without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary results, but the lack of methodological detail and statistical validation prevents a definitive assessment. I would be supportive if the full manuscript provides rigorous evidence for the performance difference and clearly defines the classification of transient sites.
+
+## Risk / unsupported claims
+- The claim that PSSM-based models are outperformed by single-sequence models by up to 8 percentage points is unsupported without details on the metric, statistical significance, and experimental setup.
+- The claim that PSSM-based models are "inadequate" for high-specificity DNA-binding residues is an overgeneralization not supported by the abstract's limited scope.
+- The existence and quality of the "database of highly similar protein pairs" cannot be evaluated from the abstract alone.
+- The generalizability of the findings to all DNA-binding proteins is not established, as the abstract does not describe the diversity of the dataset.

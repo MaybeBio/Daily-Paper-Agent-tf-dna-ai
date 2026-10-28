@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.06.16.732781",
+  "title": "DNA-binding specificity recognition from predicted homologous protein-DNA structures",
+  "authors": "Wenwu Zeng; Haitao Zou; Xiaoyu Li; Yaoyu Liu; Liwen Xu; Xiaoqi Wang; Shaoliang Peng",
+  "journal": "bioRxiv",
+  "published_date": "2026-06-17",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出基于同源蛋白-DNA复合物结构模板检索的HomoDSP框架，利用AI预测结构库提升转录因子DNA结合特异性预测的准确性与泛化性，核心聚焦TF-DNA互作建模，方法为深度学习与结构预测，高度匹配本课题。",
+  "abstract": "Predicting protein DNA-binding specificity is essential for understanding gene regulation and disease mechanisms. Existing deep learning methods typically infer specificity from a single protein-DNA complex structure, which limits their ability to capture the diverse geometric patterns underlying protein-DNA recognition. Homologous protein-DNA interfaces provide complementary structural evidence and richer geometric features related to interatomic interactions. To address the limited diversity and coverage of experimentally determined complexes, we constructed a large-scale library of predicted homologous protein-DNA complex structures. Building on this resource, we propose HomoDSP, a template-retrieval-based framework for accurate DNA-binding specificity prediction. Benchmark evaluations and validation on newly released JASPAR 2026 samples indicate that HomoDSP outperforms existing methods in both accuracy and generalization, with particularly substantial gains on high-error samples. Moreover, this performance is largely retained when AlphaFold3-predicted complex structures are used as input. Template- and residue-level interpretability analyses suggest that HomoDSP improves prediction by focusing on DNA-affinity residues across multiple homologous templates. Finally, universal Protein Binding Microarrays evaluations on AI-designed DNA-binding proteins show that HomoDSP rescues a baseline failure mode in which the baseline method produces incorrect predictions because of training-set bias. Together, these results support the use of homologous template interfaces as informative structural priors for decoding protein DNA-binding specificity.",
+  "abstract_zh": "预测蛋白质-DNA结合特异性对于理解基因调控和疾病机制至关重要。现有的深度学习方法通常从单一蛋白质-DNA复合物结构中推断特异性，这限制了它们捕捉蛋白质-DNA识别背后多样化几何模式的能力。同源蛋白质-DNA界面提供了互补的结构证据和与原子间相互作用相关的更丰富的几何特征。为解决实验确定复合物在多样性和覆盖度上的局限性，我们构建了一个大规模预测同源蛋白质-DNA复合物结构库。基于这一资源，我们提出了HomoDSP，一种基于模板检索的框架，用于准确预测DNA结合特异性。基准评估及对新发布的JASPAR 2026样本的验证表明，HomoDSP在准确性和泛化能力上均优于现有方法，尤其在高误差样本上取得了显著提升。此外，当使用AlphaFold3预测的复合物结构作为输入时，这一性能在很大程度上得以保留。模板和残基层面的可解释性分析表明，HomoDSP通过聚焦多个同源模板中的DNA亲和残基来改善预测。最后，对AI设计的DNA结合蛋白进行的通用蛋白质结合微阵列评估显示，HomoDSP纠正了基线方法因训练集偏差而产生错误预测的失败模式。综合这些结果，支持将同源模板界面作为解码蛋白质-DNA结合特异性的信息丰富的结构先验。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.06.16.732781",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.16.732781",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.06.16.732781/index.html"
+}

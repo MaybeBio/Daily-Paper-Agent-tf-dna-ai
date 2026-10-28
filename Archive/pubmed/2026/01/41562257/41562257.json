@@ -1,0 +1,478 @@
+{
+  "identity": {
+    "pmid": "41562257",
+    "doi": "10.1093/nar/gkaf1483",
+    "title": "The transitional kinetics between open and closed Rep structures can be tuned by salt via two intermediate states."
+  },
+  "content": {
+    "abstract": "DNA helicases undergo conformational changes; however, their structural dynamics are poorly understood. Here, we study single molecules of the superfamily 1A DNA helicase Rep, which undergoes conformational transitions during bacterial DNA replication, repair, and recombination. We use time-correlated single-photon counting (TCSPC), fluorescence correlation spectroscopy (FCS), rapid single-molecule Forster resonance energy transfer (smFRET), Anti-Brownian ELectrokinetic (ABEL) trapping, and molecular dynamics simulations (MDS) to provide unparalleled temporal and spatial resolution of Rep's domain movements. We detect four states revealing two hitherto hidden intermediates (S2, S3), between the open (S1) and closed (S4) structures, whose stability is salt dependent. Rep's open-to-closed switch involves multiple changes to all four subdomains 1A, 1B, 2A, and 2B along the S1-->S2-->S3-->S4 transitional pathway comprising an initial truncated swing of 2B, which then rolls across the 1B surface, followed by combined rotations of 1B, 2A, and 2B. High forward and reverse rates for S1-->S2 suggest that 1B may act to frustrate 2B movement to prevent premature Rep closure in the absence of DNA. These observations support a more general binding model for accessory DNA helicases that utilises conformational plasticity to explore a multiplicity of structures whose landscape can be tuned by salt prior to locking in upon DNA binding.",
+    "keywords": [],
+    "mesh_terms": [
+      "Kinetics",
+      "Molecular Dynamics Simulation",
+      "*DNA Helicases/chemistry/metabolism/genetics",
+      "Fluorescence Resonance Energy Transfer",
+      "*Escherichia coli Proteins/chemistry/metabolism",
+      "Protein Conformation",
+      "DNA Replication"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Howard, Jamieson A L",
+        "Ambrose, Benjamin",
+        "Abdelhamid, Mahmoud A S",
+        "Frame, Lewis",
+        "Alevropoulos-Borrill, Antoinette",
+        "Ejaz, Ayesha",
+        "Dresser, Lara",
+        "Dienerowitz, Maria",
+        "Quinn, Steven D",
+        "Squires, Allison H",
+        "Noy, Agnes",
+        "Craggs, Timothy D",
+        "Leake, Mark C"
+      ],
+      "short_names": [
+        "Howard JAL",
+        "Ambrose B",
+        "Abdelhamid MAS",
+        "Frame L",
+        "Alevropoulos-Borrill A",
+        "Ejaz A",
+        "Dresser L",
+        "Dienerowitz M",
+        "Quinn SD",
+        "Squires AH",
+        "Noy A",
+        "Craggs TD",
+        "Leake MC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4694-5427",
+        "ORCID: 0009-0004-2949-3520",
+        "ORCID: 0000-0003-3442-4103",
+        "ORCID: 0000-0003-0673-8949",
+        "ORCID: 0000-0002-7121-0609",
+        "ORCID: 0000-0002-1715-1249"
+      ],
+      "affiliations": [
+        "School of Physics, Engineering and Technology, University of York, York YO10 5DD, UK.",
+        "Department of Chemistry, University of Sheffield, Sheffield S3 7HF, UK.",
+        "Department of Chemistry, University of Sheffield, Sheffield S3 7HF, UK.",
+        "School of Physics, Engineering and Technology, University of York, York YO10 5DD, UK.",
+        "School of Physics, Engineering and Technology, University of York, York YO10 5DD, UK.",
+        "Department of Chemistry, University of Chicago, Chicago, IL 60637, United States.",
+        "School of Physics, Engineering and Technology, University of York, York YO10 5DD, UK.",
+        "SciTec Department, Ernst-Abbe-Hochschule, University of Applied Sciences, 07745 Jena, Germany.",
+        "School of Physics, Engineering and Technology, University of York, York YO10 5DD, UK.",
+        "York Biomedical Research Institute, University of York, York YO10 5DD, UK.",
+        "Pritzker School of Molecular Engineering, University of Chicago, Chicago, IL 60637, United States.",
+        "Institute for Biophysical Dynamics, University of Chicago, Chicago, IL 60637, United States.",
+        "School of Physics, Engineering and Technology, University of York, York YO10 5DD, UK.",
+        "York Biomedical Research Institute, University of York, York YO10 5DD, UK.",
+        "Department of Chemistry, University of Sheffield, Sheffield S3 7HF, UK.",
+        "School of Physics, Engineering and Technology, University of York, York YO10 5DD, UK.",
+        "York Biomedical Research Institute, University of York, York YO10 5DD, UK.",
+        "Department of Biology, University of York, York YO10 5DD, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Howard, Jamieson A L",
+        "short_name": "Howard JAL",
+        "identifiers": [
+          "0000-0002-4694-5427"
+        ],
+        "affiliations": [
+          "School of Physics, Engineering and Technology, University of York, York YO10 5DD, UK."
+        ]
+      },
+      {
+        "full_name": "Ambrose, Benjamin",
+        "short_name": "Ambrose B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Sheffield, Sheffield S3 7HF, UK."
+        ]
+      },
+      {
+        "full_name": "Abdelhamid, Mahmoud A S",
+        "short_name": "Abdelhamid MAS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Sheffield, Sheffield S3 7HF, UK."
+        ]
+      },
+      {
+        "full_name": "Frame, Lewis",
+        "short_name": "Frame L",
+        "identifiers": [
+          "0009-0004-2949-3520"
+        ],
+        "affiliations": [
+          "School of Physics, Engineering and Technology, University of York, York YO10 5DD, UK."
+        ]
+      },
+      {
+        "full_name": "Alevropoulos-Borrill, Antoinette",
+        "short_name": "Alevropoulos-Borrill A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Engineering and Technology, University of York, York YO10 5DD, UK."
+        ]
+      },
+      {
+        "full_name": "Ejaz, Ayesha",
+        "short_name": "Ejaz A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Chicago, Chicago, IL 60637, United States."
+        ]
+      },
+      {
+        "full_name": "Dresser, Lara",
+        "short_name": "Dresser L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Engineering and Technology, University of York, York YO10 5DD, UK."
+        ]
+      },
+      {
+        "full_name": "Dienerowitz, Maria",
+        "short_name": "Dienerowitz M",
+        "identifiers": [],
+        "affiliations": [
+          "SciTec Department, Ernst-Abbe-Hochschule, University of Applied Sciences, 07745 Jena, Germany."
+        ]
+      },
+      {
+        "full_name": "Quinn, Steven D",
+        "short_name": "Quinn SD",
+        "identifiers": [
+          "0000-0003-3442-4103"
+        ],
+        "affiliations": [
+          "School of Physics, Engineering and Technology, University of York, York YO10 5DD, UK.",
+          "York Biomedical Research Institute, University of York, York YO10 5DD, UK."
+        ]
+      },
+      {
+        "full_name": "Squires, Allison H",
+        "short_name": "Squires AH",
+        "identifiers": [],
+        "affiliations": [
+          "Pritzker School of Molecular Engineering, University of Chicago, Chicago, IL 60637, United States.",
+          "Institute for Biophysical Dynamics, University of Chicago, Chicago, IL 60637, United States."
+        ]
+      },
+      {
+        "full_name": "Noy, Agnes",
+        "short_name": "Noy A",
+        "identifiers": [
+          "0000-0003-0673-8949"
+        ],
+        "affiliations": [
+          "School of Physics, Engineering and Technology, University of York, York YO10 5DD, UK.",
+          "York Biomedical Research Institute, University of York, York YO10 5DD, UK."
+        ]
+      },
+      {
+        "full_name": "Craggs, Timothy D",
+        "short_name": "Craggs TD",
+        "identifiers": [
+          "0000-0002-7121-0609"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Sheffield, Sheffield S3 7HF, UK."
+        ]
+      },
+      {
+        "full_name": "Leake, Mark C",
+        "short_name": "Leake MC",
+        "identifiers": [
+          "0000-0002-1715-1249"
+        ],
+        "affiliations": [
+          "School of Physics, Engineering and Technology, University of York, York YO10 5DD, UK.",
+          "York Biomedical Research Institute, University of York, York YO10 5DD, UK.",
+          "Department of Biology, University of York, York YO10 5DD, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jan 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/21 13:00",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40890105",
+      "40048277",
+      "37972687",
+      "37805934",
+      "37774136",
+      "36212531",
+      "35194038",
+      "34127856",
+      "33571667",
+      "33159061",
+      "33106483",
+      "32544592",
+      "32449930",
+      "31363055",
+      "31028385",
+      "30869136",
+      "30862823",
+      "30690484",
+      "30171840",
+      "30171252",
+      "30096986",
+      "30060236",
+      "29872430",
+      "29664402",
+      "29642023",
+      "29604842",
+      "29087333",
+      "28869217",
+      "28847963",
+      "28694303",
+      "28073967",
+      "27977207",
+      "27883140",
+      "27532626",
+      "27017910",
+      "26583988",
+      "26574453",
+      "26569599",
+      "26456734",
+      "26438850",
+      "26263254",
+      "26125588",
+      "25883359",
+      "25883358",
+      "25271426",
+      "24513194",
+      "24143224",
+      "24056732",
+      "23695672",
+      "23589869",
+      "23536547",
+      "23535146",
+      "23277046",
+      "23267186",
+      "23198678",
+      "22652765",
+      "22570416",
+      "21704638",
+      "21612271",
+      "21402040",
+      "21107319",
+      "20959294",
+      "20923786",
+      "20877334",
+      "20627168",
+      "20625479",
+      "20383275",
+      "20219681",
+      "20048388",
+      "19941825",
+      "19851282",
+      "18567657",
+      "18431548",
+      "17631491",
+      "17506634",
+      "17190599",
+      "16935880",
+      "16851054",
+      "16537418",
+      "16451001",
+      "16432516",
+      "16251956",
+      "16009938",
+      "15908583",
+      "15446792",
+      "14757053",
+      "14690605",
+      "12527299",
+      "12441398",
+      "12374984",
+      "11459979",
+      "11428893",
+      "11207360",
+      "10199404",
+      "9288744",
+      "1658335",
+      "1313807"
+    ],
+    "similar": [
+      "41562257",
+      "29087333",
+      "21704638",
+      "31363055",
+      "14757053",
+      "12441398",
+      "10329141",
+      "33571667",
+      "34081984",
+      "29664402",
+      "21843490",
+      "30060236",
+      "30690484",
+      "40048277",
+      "16009938",
+      "12590577",
+      "24798324",
+      "38648969",
+      "8918597",
+      "36938885",
+      "2153101",
+      "39588651",
+      "22949718",
+      "8626772",
+      "31028385",
+      "24379377",
+      "15323559",
+      "27410462",
+      "29767969",
+      "8639532",
+      "41839715",
+      "42032977",
+      "7787063",
+      "20080740",
+      "16251956",
+      "26244508",
+      "41312769",
+      "29341672",
+      "34853304",
+      "30776405",
+      "23525110",
+      "21320186",
+      "6112228",
+      "30593500",
+      "23442971",
+      "10946234",
+      "41211974",
+      "26809678",
+      "16401068",
+      "8652567",
+      "26540349",
+      "7947840",
+      "42227972",
+      "27090495",
+      "18487312",
+      "15065656",
+      "22650319",
+      "17630776",
+      "20923786",
+      "30237313",
+      "27856760",
+      "20497334",
+      "41342550",
+      "19859523",
+      "30888187",
+      "31189600",
+      "25481875",
+      "25883359",
+      "27793286",
+      "8392863",
+      "24147116",
+      "10965492",
+      "18461484",
+      "15565170",
+      "29971721",
+      "42118840",
+      "9454579",
+      "19941825",
+      "37977299",
+      "29177430",
+      "18641074",
+      "32820079",
+      "20225140",
+      "32693146",
+      "30471924",
+      "33619520",
+      "30869136",
+      "30716079",
+      "32669428",
+      "29529283",
+      "33201466",
+      "32216369",
+      "39569634",
+      "36614023",
+      "11428893",
+      "35969476",
+      "11061975",
+      "8755711",
+      "24522531",
+      "35965010"
+    ],
+    "review": [
+      "41562257",
+      "41839715",
+      "10946234",
+      "26540349",
+      "15065656"
+    ],
+    "pmc": [
+      "12820531"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41562257/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAE-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-103",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf1483",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/237150/",
+        "provider": "White Rose Research Online",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

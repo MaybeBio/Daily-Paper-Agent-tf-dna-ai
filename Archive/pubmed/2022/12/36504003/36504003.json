@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "36504003",
+    "doi": "10.1007/s00418-022-02168-z",
+    "title": "Microscopic image-based classification of adipocyte differentiation by machine learning."
+  },
+  "content": {
+    "abstract": "Adipocyte differentiation is a sequential process involving increased expression of peroxisome proliferator-activated receptor gamma (PPARgamma), adipocyte-specific gene expression, and accumulation of lipid droplets in the cytoplasm. Expression of the transcription factors involved is usually detected using canonical biochemical or biomolecular procedures such as Western blotting or qPCR of pooled cell lysates. While this provides a useful average index for adipogenesis for some populations, the precise stage of adipogenesis cannot be distinguished at the single-cell level, because the heterogenous nature of differentiation among cells limits the utility of averaged data. We have created a classifier to sort cells, and used it to determine the stage of adipocyte differentiation at the single-cell level. We used a machine learning method with microscopic images of cell stained for PPARgamma and lipid droplets as input data. Our results show that the classifier can successfully determine the precise stage of differentiation. Stage classification and subsequent model fitting using the sequential reaction model revealed the action of pioglitazone and rosiglitazone to be promotion of transition from the stage of increased PPARgamma expression to the next stage. This indicates that these drugs are PPARgamma agonists, and that our classifier and model can accurately estimate drug action points and would be suitable for evaluating the stage/state of individual cells during differentiation or disease progression. The incorporation of both biochemical and morphological information derived from immunofluorescence image of cells and so overcomes limitations of current models.",
+    "keywords": [
+      "Adipocyte differentiation",
+      "Image analysis",
+      "Machine learning",
+      "Obesity"
+    ],
+    "mesh_terms": [
+      "*PPAR gamma",
+      "Cell Differentiation",
+      "*Adipogenesis",
+      "Adipocytes",
+      "Lipid Droplets",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Noguchi, Yoshiyuki",
+        "Murakami, Masataka",
+        "Murata, Masayuki",
+        "Kano, Fumi"
+      ],
+      "short_names": [
+        "Noguchi Y",
+        "Murakami M",
+        "Murata M",
+        "Kano F"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0650-6101"
+      ],
+      "affiliations": [
+        "International Research Center for Neurointelligence, Institutes for Advanced Study, The University of Tokyo, 7-3-1, Hongo, Bunkyo-Ku, Tokyo, 113-8654, Japan.",
+        "Department of Life Sciences, Graduate School of Arts and Sciences, The University of Tokyo, 3-8-1 Komaba, Meguro-Ku, Tokyo, 153-8902, Japan.",
+        "Multimodal Cell Analysis Collaborative Research Cluster, Tokyo Institute of Technology, 4259 Nagatsuta, Midori-Ku, Yokohama, Kanagawa, 226-8503, Japan.",
+        "Cell Biology Center, Institute of Innovative Research, Tokyo Institute of Technology, 4259 Nagatsuta, Midori-Ku, Yokohama, Kanagawa, 226-8503, Japan. kano.f.aa@m.titech.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Noguchi, Yoshiyuki",
+        "short_name": "Noguchi Y",
+        "identifiers": [
+          "0000-0003-0650-6101"
+        ],
+        "affiliations": [
+          "International Research Center for Neurointelligence, Institutes for Advanced Study, The University of Tokyo, 7-3-1, Hongo, Bunkyo-Ku, Tokyo, 113-8654, Japan."
+        ]
+      },
+      {
+        "full_name": "Murakami, Masataka",
+        "short_name": "Murakami M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Graduate School of Arts and Sciences, The University of Tokyo, 3-8-1 Komaba, Meguro-Ku, Tokyo, 153-8902, Japan."
+        ]
+      },
+      {
+        "full_name": "Murata, Masayuki",
+        "short_name": "Murata M",
+        "identifiers": [],
+        "affiliations": [
+          "Multimodal Cell Analysis Collaborative Research Cluster, Tokyo Institute of Technology, 4259 Nagatsuta, Midori-Ku, Yokohama, Kanagawa, 226-8503, Japan."
+        ]
+      },
+      {
+        "full_name": "Kano, Fumi",
+        "short_name": "Kano F",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Biology Center, Institute of Innovative Research, Tokyo Institute of Technology, 4259 Nagatsuta, Midori-Ku, Yokohama, Kanagawa, 226-8503, Japan. kano.f.aa@m.titech.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Histochemistry and cell biology"
+    ],
+    "journal_abbrev": [
+      "Histochem Cell Biol"
+    ],
+    "pub_date": "2023 Apr",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/13 06:00",
+    "fetched_at": "2026-10-04 21:11:17"
+  },
+  "links": {
+    "cites": [
+      "41168445",
+      "40497934"
+    ],
+    "refs": [
+      "34593878",
+      "33893362",
+      "33446668",
+      "33294794",
+      "32776829",
+      "32699281",
+      "32015543",
+      "31918918",
+      "31705037",
+      "31644894",
+      "31530889",
+      "31312985",
+      "31081599",
+      "31023895",
+      "30921703",
+      "30695059",
+      "30615908",
+      "30339231",
+      "30306206",
+      "30191963",
+      "29937373",
+      "29925944",
+      "29630631",
+      "29235053",
+      "28812581",
+      "28323935",
+      "27557308",
+      "27157387",
+      "26451286",
+      "23840343",
+      "23663740",
+      "22079269",
+      "21952300",
+      "21677304",
+      "19136559",
+      "18386066",
+      "18348254",
+      "18203713",
+      "17139329",
+      "17011499",
+      "12021175",
+      "11110885",
+      "11021798",
+      "10965911",
+      "10549292",
+      "10078198",
+      "8504249",
+      "7557387",
+      "7531665",
+      "5090134",
+      "3520554",
+      "2415129",
+      "1840554"
+    ],
+    "similar": [
+      "36504003",
+      "23943621",
+      "21622945",
+      "22282047",
+      "31615896",
+      "25896661",
+      "23519881",
+      "21189228",
+      "28566629",
+      "16682454",
+      "21924248",
+      "33432549",
+      "26946260",
+      "15247146",
+      "19300518",
+      "24583640",
+      "25510894",
+      "31936603",
+      "25181477",
+      "32920140",
+      "22038624",
+      "29771917",
+      "26522354",
+      "34323617",
+      "15190061",
+      "23275342",
+      "28625492",
+      "33197517",
+      "20851881",
+      "27748745",
+      "27273607",
+      "17878286",
+      "25109777",
+      "24369814",
+      "17549051",
+      "24338020",
+      "26942597",
+      "28059128",
+      "33952822",
+      "29654827",
+      "28351837",
+      "36074244",
+      "21293475",
+      "27780754",
+      "36071319",
+      "16603155",
+      "28726642",
+      "16431920",
+      "33203037",
+      "19566485",
+      "32119914",
+      "26830367",
+      "21431790",
+      "30027469",
+      "24666293",
+      "31955908",
+      "17932108",
+      "31152927",
+      "29604586",
+      "27424923",
+      "15691842",
+      "30121655",
+      "19684608",
+      "22114064",
+      "15710620",
+      "26427354",
+      "24942744",
+      "19376135",
+      "24673832",
+      "25448844",
+      "19136559",
+      "23576576",
+      "36708982",
+      "34768840",
+      "31902039",
+      "25366162",
+      "16319419",
+      "26990658",
+      "28528971",
+      "28816006",
+      "19666473",
+      "19693701",
+      "25623997",
+      "27877072",
+      "24160551",
+      "25595190",
+      "9261165",
+      "19403287",
+      "30551441",
+      "30185113",
+      "30742088",
+      "31653699",
+      "19589179",
+      "19141684"
+    ],
+    "review": [
+      "36504003"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s00418-022-02168-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

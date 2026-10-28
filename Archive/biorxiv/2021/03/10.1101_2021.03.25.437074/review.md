@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, technical soundness, and support for claims based solely on the provided manuscript text. No external data, supplementary figures, or unpublished materials were assessed beyond what is described in the text.
+- **Shared manuscript claim summary** The authors identify and characterize the product of Bam35 ORF2 (B35SSB) as a single-stranded DNA binding protein (SSB) with high specificity for ssDNA, sequence-independent and highly cooperative binding, and stimulation of processive DNA replication. They further propose that B35SSB belongs to a novel group of SSBs from protein-primed replicating viruses, containing a highly divergent OB-fold-like domain.
+- **Visible evidence base** Results sections describing EMSA, replication assays, cross-linking, analytical ultracentrifugation, sequence searches, phylogeny, and structural predictions. Figures referenced include Figures 1-7 and Supplementary Figures S1-S7. Methods sections for protein purification, binding assays, and bioinformatic analyses.
+- **Missing materials affecting confidence** Full figures and supplementary data (e.g., actual gel images, structural model coordinates, alignment details) were not available for direct inspection. Statistical details for some quantifications and raw data for replication assays were not fully described. The structural models were not deposited or validated experimentally.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a thorough biochemical and bioinformatic characterization of a novel SSB from Bam35, with evidence for high cooperativity and a potential new family of SSBs in protein-primed viruses. The work is of interest to virologists and DNA replication researchers, but several technical concerns, particularly regarding the structural interpretation and the generality of the cooperativity claim, need to be addressed before the conclusions are fully established.
+- **Who would be interested in the results, and why** Researchers studying DNA replication mechanisms, particularly protein-primed replication in bacteriophages and linear plasmids. Also, those interested in the evolution and diversity of SSBs and OB-fold domains, and potentially the biotechnological applications of SSBs.
+- **Major strengths** The study combines biochemical assays with phylogenetic and structural predictions to characterize a previously unstudied protein. The identification of a potential novel SSB family in protein-primed viruses is a significant conceptual advance. The use of multiple complementary methods (EMSA, cross-linking, ultracentrifugation, sequence analysis) strengthens the conclusions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural claims
+  - **Claim pointer** The authors claim that B35SSB contains a conserved domain resembling a divergent OB-fold, and that this is the first occurrence of an OB-fold-like domain in a protein-primed genome.
+  - **Evidence pointer** Results section "A novel, highly divergent OB-fold-related domain in a new group of protein-primed viral SSBs", Figures 7, S4-S6.
+  - **Concern** The structural evidence for an OB-fold-like domain is based solely on computational predictions (RaptorX, trRossetta, RosettaCM) and a low-probability HHpred hit (32%). The authors acknowledge the low confidence but still conclude the presence of an OB-fold-like domain. The structural models are not experimentally validated, and the Dali search results are not shown in detail.
+  - **Why it matters** The central claim of a novel OB-fold-like domain in protein-primed viruses rests on weak computational evidence. Without experimental validation (e.g., mutagenesis, NMR, crystallography) or stronger bioinformatic support, this conclusion is not robustly supported.
+  - **Resolution test** Provide more detailed structural model assessment (e.g., confidence scores per residue, model superposition with known OB-folds), or obtain experimental evidence (e.g., site-directed mutagenesis of predicted binding residues, circular dichroism, or small-angle X-ray scattering) to support the structural model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for cooperativity claim
+  - **Claim pointer** The authors claim "unlimited cooperativity" of B35SSB binding to ssDNA.
+  - **Evidence pointer** Results section "B35SSB is a monomer that binds ssDNA in a highly cooperative manner", Figures 3, 4.
+  - **Concern** The term "unlimited cooperativity" is used in the title and abstract, but the data presented (EMSA, cross-linking) do not quantitatively measure cooperativity (e.g., Hill coefficient, binding isotherms). The cross-linking data show oligomer formation, but this does not directly demonstrate "unlimited" cooperativity, which implies a specific quantitative model of binding.
+  - **Why it matters** The title and a key conclusion depend on this term. Without quantitative analysis, the claim is overstated and not supported by the presented evidence.
+  - **Resolution test** Perform quantitative binding assays (e.g., fluorescence anisotropy, isothermal titration calorimetry) to determine binding affinity and cooperativity (Hill coefficient) and compare with known SSBs. Alternatively, revise the claim to "highly cooperative" based on qualitative evidence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the novel SSB group
+  - **Claim pointer** The authors claim that B35SSB belongs to a novel and independent group of SSBs, containing proteins from protein-primed viral genomes from unrelated viruses, spanning betatectiviruses and Φ29 and close podoviruses.
+  - **Evidence pointer** Results section "A novel, highly divergent OB-fold-related domain in a new group of protein-primed viral SSBs", Figure 6.
+  - **Concern** The phylogenetic analysis shows a compact clade for betatectivirus orthologs, but the inclusion of Φ29 and podovirus sequences in the same group is based on sequence similarity and structural predictions. The bootstrap support for the broader group is not clearly stated, and the diversity of the group may be overinterpreted.
+  - **Why it matters** The claim of a new family spanning diverse viruses is a key finding. If the phylogenetic support is weak, the conclusion may not be robust.
+  - **Resolution test** Provide bootstrap values for key nodes in the phylogeny, and perform additional analyses (e.g., alternative tree-building methods, sequence similarity networks) to confirm the grouping.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Methods section "Protein-primed initiation and elongation assays"
+  - **Evidence pointer** Methods section, location not provided.
+  - **Issue** The description of the initiation and elongation assays is brief and lacks details on how the products were quantified and analyzed.
+  - **Required correction** Provide more detail on the assay conditions, quantification methods, and how the results were interpreted.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality and presentation
+  - **Affected element** Figures 3 and 4
+  - **Evidence pointer** Results section, Figures 3 and 4.
+  - **Issue** The EMSA and cross-linking data are described qualitatively. Quantification of band intensities and statistical analysis are not shown.
+  - **Required correction** Include quantification of EMSA and cross-linking results with error bars and statistical tests where appropriate.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, location not provided.
+  - **Issue** The discussion does not address the limitations of the structural predictions or the lack of in vivo functional data for B35SSB.
+  - **Required correction** Add a paragraph discussing the limitations of the study and potential future directions, including in vivo validation.
+- **Technical failings that need to be addressed before the case is established** The structural claim of an OB-fold-like domain is based on low-confidence predictions and needs stronger support. The "unlimited cooperativity" claim requires quantitative binding data. The phylogenetic grouping needs clearer statistical support.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The identification of a novel SSB family in protein-primed viruses is original and of potential interest.
+  - **Scientific importance** The work contributes to understanding DNA replication in understudied bacteriophages and the diversity of SSBs. However, the importance is moderate, as the findings are primarily descriptive.
+  - **Interdisciplinary readership** The topic is relevant to virology, molecular biology, and evolution, but the appeal may be limited to specialists.
+  - **Technical soundness** The biochemical experiments are generally sound, but the structural and phylogenetic conclusions are not fully supported by the evidence.
+  - **Readability for nonspecialists** The manuscript is well-written and accessible, but some sections (e.g., structural predictions) may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core biochemical characterization is valuable, but the major claims regarding the novel OB-fold-like domain and "unlimited cooperativity" need stronger evidence.
+
+## Risk / unsupported claims
+- The claim of "unlimited cooperativity" is not quantitatively supported.
+- The presence of an OB-fold-like domain is based on weak computational evidence and is not experimentally validated.
+- The inclusion of diverse viral and bacterial proteins in a single novel SSB group is not fully supported by the phylogenetic analysis.
+- The statement that B35SSB "would play a role in the processive genome replication" is inferred from in vitro assays and lacks in vivo confirmation.

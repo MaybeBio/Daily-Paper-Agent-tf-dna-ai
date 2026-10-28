@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "41007866",
+    "doi": "10.3390/biomedicines13092307",
+    "title": "Key Common Genes with LTF and MMP9 Between Sepsis and Relapsed B-Cell Lineage Acute Lymphoblastic Leukemia in Children."
+  },
+  "content": {
+    "abstract": "Background: Pediatric sepsis is a life-threatening disease that is associated with the progression of acute lymphoblastic leukemia (ALL) and the recurrence of B-cell ALL (B-ALL). Although previous studies have reported a partial association between sepsis and ALL, there is limited research on the shared genes between pediatric sepsis and relapsed B-ALL. This study aims to further elucidate the more comprehensive and novel common genetic factors and molecular pathways between the two diseases. Methods: Gene expression datasets pertaining to pediatric sepsis (GSE13904, GSE80496) and relapsed B-ALL (GSE3910, GSE28460) were retrieved from the Gene Expression Omnibus database for this retrospective analysis. The initial analysis identified differentially expressed genes common to both pediatric sepsis and relapsed B-ALL. Subsequent investigations employed three complementary approaches: protein-protein interaction networks, molecular complex detection (MCODE) clustering functions, and support vector machine recursive feature elimination model to separately identify the diagnostic biomarkers for each condition. Importantly, key common genes were identified by overlapping the diagnostic genes for pediatric sepsis and relapsed B-ALL. Further characterization involved comprehensive functional analysis through the Metascape platform, construction of transcription factor (TF)-mRNA-microRNA (miRNA) networks, drug prediction, and molecular docking to explore their biological significance and potential therapeutic targets. Results: Comparative analysis of pediatric sepsis-related and relapsed B-ALL-related datasets revealed two shared genetic markers, lactotransferrin (LTF) and matrix metallopeptidase 9 (MMP9), exhibiting diagnostic significance and consistent upregulation in both disease groups. Transcriptional regulatory network analysis identified specificity protein 1 (SP1) as the principal transcription factor capable of coregulating LTF and MMP9 expression. In addition, molecular docking demonstrated high-affinity interactions between curcumin and MMP9 (-7.18 kcal/mol) as well as reserpine and LTF (-5.4 kcal/mol), suggesting their potential therapeutic utility for clinical evaluation. Conclusions: These findings elucidate the molecular pathogenesis involving LTF and MMP9 in pediatric sepsis and relapsed B-ALL, providing novel insights for clinical diagnosis and therapeutic development.",
+    "keywords": [
+      "LTF",
+      "MMP9",
+      "common genes",
+      "relapsed B-ALL",
+      "sepsis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiao, Ying-Ping",
+        "Cheng, Yu-Cai",
+        "Chen, Chun",
+        "Xue, Hong-Man",
+        "Yang, Mo",
+        "Lin, Chao"
+      ],
+      "short_names": [
+        "Xiao YP",
+        "Cheng YC",
+        "Chen C",
+        "Xue HM",
+        "Yang M",
+        "Lin C"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-0739-6209",
+        "ORCID: 0009-0005-3431-6024"
+      ],
+      "affiliations": [
+        "Pediatric Hematology Laboratory, Division of Hematology/Oncology, Department of Pediatrics, The Seventh Affiliated Hospital, Sun Yat-sen University, Shenzhen 518107, China.",
+        "Pediatric Hematology Laboratory, Division of Hematology/Oncology, Department of Pediatrics, The Seventh Affiliated Hospital, Sun Yat-sen University, Shenzhen 518107, China.",
+        "Pediatric Hematology Laboratory, Division of Hematology/Oncology, Department of Pediatrics, The Seventh Affiliated Hospital, Sun Yat-sen University, Shenzhen 518107, China.",
+        "Pediatric Hematology Laboratory, Division of Hematology/Oncology, Department of Pediatrics, The Seventh Affiliated Hospital, Sun Yat-sen University, Shenzhen 518107, China.",
+        "Pediatric Hematology Laboratory, Division of Hematology/Oncology, Department of Pediatrics, The Seventh Affiliated Hospital, Sun Yat-sen University, Shenzhen 518107, China.",
+        "Scientific Research Center, The Seventh Affiliated Hospital, Sun Yat-sen University, Shenzhen 518107, China.",
+        "Pediatric Hematology Laboratory, Division of Hematology/Oncology, Department of Pediatrics, The Seventh Affiliated Hospital, Sun Yat-sen University, Shenzhen 518107, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiao, Ying-Ping",
+        "short_name": "Xiao YP",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Hematology Laboratory, Division of Hematology/Oncology, Department of Pediatrics, The Seventh Affiliated Hospital, Sun Yat-sen University, Shenzhen 518107, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Yu-Cai",
+        "short_name": "Cheng YC",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Hematology Laboratory, Division of Hematology/Oncology, Department of Pediatrics, The Seventh Affiliated Hospital, Sun Yat-sen University, Shenzhen 518107, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Chun",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Hematology Laboratory, Division of Hematology/Oncology, Department of Pediatrics, The Seventh Affiliated Hospital, Sun Yat-sen University, Shenzhen 518107, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Hong-Man",
+        "short_name": "Xue HM",
+        "identifiers": [
+          "0009-0005-0739-6209"
+        ],
+        "affiliations": [
+          "Pediatric Hematology Laboratory, Division of Hematology/Oncology, Department of Pediatrics, The Seventh Affiliated Hospital, Sun Yat-sen University, Shenzhen 518107, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Mo",
+        "short_name": "Yang M",
+        "identifiers": [],
+        "affiliations": [
+          "Pediatric Hematology Laboratory, Division of Hematology/Oncology, Department of Pediatrics, The Seventh Affiliated Hospital, Sun Yat-sen University, Shenzhen 518107, China.",
+          "Scientific Research Center, The Seventh Affiliated Hospital, Sun Yat-sen University, Shenzhen 518107, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Chao",
+        "short_name": "Lin C",
+        "identifiers": [
+          "0009-0005-3431-6024"
+        ],
+        "affiliations": [
+          "Pediatric Hematology Laboratory, Division of Hematology/Oncology, Department of Pediatrics, The Seventh Affiliated Hospital, Sun Yat-sen University, Shenzhen 518107, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomedicines"
+    ],
+    "journal_abbrev": [
+      "Biomedicines"
+    ],
+    "pub_date": "2025 Sep 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/27 06:34",
+    "fetched_at": "2026-10-01 02:39:46"
+  },
+  "links": {
+    "cites": [
+      "42460014"
+    ],
+    "refs": [
+      "40445300",
+      "38986253",
+      "38497960",
+      "38481552",
+      "38454838",
+      "38123749",
+      "38039751",
+      "37919603",
+      "37533854",
+      "37510279",
+      "37223013",
+      "37060578",
+      "36336214",
+      "36274974",
+      "36157062",
+      "36142454",
+      "35992538",
+      "35847713",
+      "35692054",
+      "35107742",
+      "34605781",
+      "34557778",
+      "34458134",
+      "33826658",
+      "33517197",
+      "33396976",
+      "33224392",
+      "33095872",
+      "32800028",
+      "32408577",
+      "32032273",
+      "31919471",
+      "31185608",
+      "31028944",
+      "30995505",
+      "30834607",
+      "30655747",
+      "30248190",
+      "29512921",
+      "29508706",
+      "29163511",
+      "29065496",
+      "28775117",
+      "28652573",
+      "28426102",
+      "28254169",
+      "27895783",
+      "27695884",
+      "27552617",
+      "27384261",
+      "27176825",
+      "26511519",
+      "25855821",
+      "25435111",
+      "24662245",
+      "22810750",
+      "21921043",
+      "20010622",
+      "19748669",
+      "19325468",
+      "16822902",
+      "14597658"
+    ],
+    "similar": [
+      "41007866",
+      "28183295",
+      "38123749",
+      "40129981",
+      "29257295",
+      "37115484",
+      "40697417",
+      "40453984",
+      "39364223",
+      "38912048",
+      "40768057",
+      "36532015",
+      "33761636",
+      "32575108",
+      "38852219",
+      "41052072",
+      "39747316",
+      "39586719",
+      "39636505",
+      "39509434",
+      "41306613",
+      "41442003",
+      "38028617",
+      "39507054",
+      "40916281",
+      "37235492",
+      "41146237",
+      "36872359",
+      "39950836",
+      "39176085",
+      "41041634",
+      "40595352",
+      "38795170",
+      "40165133",
+      "36457745",
+      "36439178",
+      "40574839",
+      "35184762",
+      "39251712",
+      "39453390",
+      "40362669",
+      "37081490",
+      "34053485",
+      "38435117",
+      "39142001",
+      "40760708",
+      "40532306",
+      "32052443",
+      "39950480",
+      "38291374",
+      "35965814",
+      "40070882",
+      "38034045",
+      "40630623",
+      "39396400",
+      "41042728",
+      "40362233",
+      "39578562",
+      "36119022",
+      "41459671",
+      "39419187",
+      "41299770",
+      "39735547",
+      "38447501",
+      "40238799",
+      "38268224",
+      "40070835",
+      "41150817",
+      "38259479",
+      "40411685",
+      "38484574",
+      "41444533",
+      "40350654",
+      "40108736",
+      "40526256",
+      "41291978",
+      "41013727",
+      "38595339",
+      "41316541",
+      "41359645",
+      "39444551",
+      "35818227",
+      "35757392",
+      "38899746",
+      "35190763",
+      "40258759",
+      "41112767",
+      "39262873",
+      "40274894",
+      "35444449",
+      "40826767",
+      "38491124",
+      "37390872",
+      "40887626",
+      "35198634",
+      "40055592",
+      "38951833",
+      "40374744",
+      "35842645",
+      "40599778"
+    ],
+    "review": [
+      "41007866",
+      "28183295"
+    ],
+    "pmc": [
+      "12467856"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biomedicines13092307",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41007866/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

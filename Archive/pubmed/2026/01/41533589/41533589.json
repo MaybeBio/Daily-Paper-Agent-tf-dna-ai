@@ -1,0 +1,419 @@
+{
+  "identity": {
+    "pmid": "41533589",
+    "doi": "10.1093/nar/gkaf1511",
+    "title": "Disordered DNA-binding motif forms a modulation site for inhibiting the cancer immunotherapy target TREX1."
+  },
+  "content": {
+    "abstract": "In nucleic acid-binding proteins, short linear motifs (SLiMs)-an important subclass of intrinsically disordered regions (IDRs)-offer diverse opportunities for therapeutic intervention, yet their structural and functional roles remain largely elusive. Away from the active site of cancer immunotherapy target exonuclease TREX1, a novel modulation site formed by the intrinsically disordered alpha7-alpha8 loop is discovered by X-ray crystallography with newly identified inhibitors. Despite that the structure of alpha7-alpha8 loop upon binding-coupled disordered-to-ordered transition is inhibitor specific, a pattern of multivertex clamping is consistently observed. Mechanistically, the fuzzy TREX1-inhibitor interactions elucidated by structural analysis and molecular dynamics simulations reveal an ensemble of chemical-scale amphiphilic units for inhibitor moieties to anchor to. Functional assays confirm that our newly identified inhibitors disrupt the DNA binding and immunosuppressive activity of TREX1, establishing alpha7-alpha8 loop as a druggable SLiM. This work provides a first collection of atomic details for small-molecule inhibition involving a DNA-binding SLiM, and the mechanistic principles uncovered here may be generalized to targeting IDRs in cancer immunotherapy.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Exodeoxyribonucleases/chemistry/antagonists & inhibitors/metabolism/genetics",
+      "*Phosphoproteins/chemistry/antagonists & inhibitors/metabolism/genetics",
+      "Humans",
+      "Crystallography, X-Ray",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "*DNA/metabolism/chemistry",
+      "Binding Sites",
+      "Immunotherapy",
+      "*Neoplasms/therapy/immunology",
+      "Amino Acid Motifs",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Kuan-Wei",
+        "Yu Tsai, Chieh-",
+        "Wu, Chia-Yun",
+        "Lin, Wei-Cheng",
+        "Wu, Meng-Tzu",
+        "Hsu, Kai-Cheng",
+        "Yu Yang, Chen-",
+        "Chang, I-Ya",
+        "Liu, Helene Minyi",
+        "Chu, Jhih-Wei",
+        "Hsiao, Yu-Yuan"
+      ],
+      "short_names": [
+        "Huang KW",
+        "Yu Tsai C",
+        "Wu CY",
+        "Lin WC",
+        "Wu MT",
+        "Hsu KC",
+        "Yu Yang C",
+        "Chang IY",
+        "Liu HM",
+        "Chu JW",
+        "Hsiao YY"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4813-8546",
+        "ORCID: 0000-0003-1352-2898",
+        "ORCID: 0000-0003-4837-5373",
+        "ORCID: 0000-0003-3842-2893",
+        "ORCID: 0000-0002-9648-5879"
+      ],
+      "affiliations": [
+        "College of Engineering Bioscience, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "Institute of Molecular Medicine and Bioengineering, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "Institute of Bioinformatics and Systems Biology, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "College of Engineering Bioscience, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "College of Engineering Bioscience, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "Institute of Molecular Medicine and Bioengineering, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "Department of Biochemistry and Molecular Biology, College of Medicine, National Taiwan University, Taipei City, Taiwan.",
+        "College of Engineering Bioscience, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "Graduate Institute of Cancer Biology and Drug Discovery, College of Medical Science and Technology, Taipei Medical University, Taipei 11011, Taiwan.",
+        "Ph.D. Program for Cancer Molecular Biology and Drug Discovery, College of Medical Science and Technology, Taipei Medical University, Taipei 11011, Taiwan.",
+        "Institute of Biomedical Engineering, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "College of Engineering Bioscience, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "Institute of Molecular Medicine and Bioengineering, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "Institute of Bioinformatics and Systems Biology, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "Department of Biochemistry and Molecular Biology, College of Medicine, National Taiwan University, Taipei City, Taiwan.",
+        "College of Engineering Bioscience, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "Institute of Molecular Medicine and Bioengineering, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "Institute of Bioinformatics and Systems Biology, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "Institute of Biomedical Engineering, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "College of Engineering Bioscience, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "Institute of Molecular Medicine and Bioengineering, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "Institute of Bioinformatics and Systems Biology, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "Center for Intelligent Drug Systems and Smart Bio-devices (IDS2B), National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+        "Drug Development and Value Creation Research Center, Center for Cancer Research, Kaohsiung Medical University, Kaohsiung 807378, Taiwan.",
+        "Department of Biomedical Science and Environmental Biology, Kaohsiung Medical University, Kaohsiung 807378, Taiwan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Kuan-Wei",
+        "short_name": "Huang KW",
+        "identifiers": [
+          "0000-0003-4813-8546"
+        ],
+        "affiliations": [
+          "College of Engineering Bioscience, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+          "Institute of Molecular Medicine and Bioengineering, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+          "Institute of Bioinformatics and Systems Biology, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Yu Tsai, Chieh-",
+        "short_name": "Yu Tsai C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Engineering Bioscience, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Wu, Chia-Yun",
+        "short_name": "Wu CY",
+        "identifiers": [],
+        "affiliations": [
+          "College of Engineering Bioscience, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+          "Institute of Molecular Medicine and Bioengineering, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lin, Wei-Cheng",
+        "short_name": "Lin WC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, College of Medicine, National Taiwan University, Taipei City, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Wu, Meng-Tzu",
+        "short_name": "Wu MT",
+        "identifiers": [],
+        "affiliations": [
+          "College of Engineering Bioscience, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Hsu, Kai-Cheng",
+        "short_name": "Hsu KC",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Institute of Cancer Biology and Drug Discovery, College of Medical Science and Technology, Taipei Medical University, Taipei 11011, Taiwan.",
+          "Ph.D. Program for Cancer Molecular Biology and Drug Discovery, College of Medical Science and Technology, Taipei Medical University, Taipei 11011, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Yu Yang, Chen-",
+        "short_name": "Yu Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Engineering, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chang, I-Ya",
+        "short_name": "Chang IY",
+        "identifiers": [
+          "0000-0003-1352-2898"
+        ],
+        "affiliations": [
+          "College of Engineering Bioscience, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+          "Institute of Molecular Medicine and Bioengineering, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+          "Institute of Bioinformatics and Systems Biology, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Liu, Helene Minyi",
+        "short_name": "Liu HM",
+        "identifiers": [
+          "0000-0003-4837-5373"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, College of Medicine, National Taiwan University, Taipei City, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chu, Jhih-Wei",
+        "short_name": "Chu JW",
+        "identifiers": [
+          "0000-0003-3842-2893"
+        ],
+        "affiliations": [
+          "College of Engineering Bioscience, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+          "Institute of Molecular Medicine and Bioengineering, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+          "Institute of Bioinformatics and Systems Biology, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+          "Institute of Biomedical Engineering, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Hsiao, Yu-Yuan",
+        "short_name": "Hsiao YY",
+        "identifiers": [
+          "0000-0002-9648-5879"
+        ],
+        "affiliations": [
+          "College of Engineering Bioscience, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+          "Institute of Molecular Medicine and Bioengineering, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+          "Institute of Bioinformatics and Systems Biology, National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+          "Center for Intelligent Drug Systems and Smart Bio-devices (IDS2B), National Yang Ming Chiao Tung University, Hsinchu 30068, Taiwan.",
+          "Drug Development and Value Creation Research Center, Center for Cancer Research, Kaohsiung Medical University, Kaohsiung 807378, Taiwan.",
+          "Department of Biomedical Science and Environmental Biology, Kaohsiung Medical University, Kaohsiung 807378, Taiwan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jan 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/15 16:13",
+    "fetched_at": "2026-10-05 04:44:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40327609",
+      "39423710",
+      "39178223",
+      "39134754",
+      "38759297",
+      "38707546",
+      "38489753",
+      "38408184",
+      "38227896",
+      "38103559",
+      "37957331",
+      "37907220",
+      "37870446",
+      "36969402",
+      "36754681",
+      "36745566",
+      "36623987",
+      "35879334",
+      "35357486",
+      "34993233",
+      "34977900",
+      "33868310",
+      "32845610",
+      "31680160",
+      "31458221",
+      "31264965",
+      "30471705",
+      "29734329",
+      "29066345",
+      "28598415",
+      "27529560",
+      "25731743",
+      "24000174",
+      "23832629",
+      "23146088",
+      "23145473",
+      "22718982",
+      "22367235",
+      "21918774",
+      "21874205",
+      "21808053",
+      "20511593",
+      "19444816",
+      "17567614",
+      "11222749",
+      "8744570"
+    ],
+    "similar": [
+      "41533589",
+      "17355961",
+      "18780819",
+      "19321497",
+      "17293595",
+      "22071149",
+      "25855793",
+      "42034062",
+      "40327609",
+      "27881680",
+      "24616097",
+      "28002650",
+      "25848017",
+      "33868310",
+      "23578789",
+      "37870446",
+      "38838778",
+      "40627703",
+      "39032884",
+      "24668165",
+      "18805785",
+      "28089448",
+      "21808053",
+      "21937424",
+      "39998308",
+      "30357414",
+      "35404090",
+      "24726865",
+      "23056474",
+      "36851914",
+      "38018991",
+      "23979357",
+      "19442247",
+      "32323533",
+      "17660818",
+      "35098694",
+      "27998540",
+      "18076038",
+      "15661738",
+      "22125611",
+      "28334850",
+      "25278026",
+      "33030907",
+      "40631955",
+      "14698290",
+      "34416373",
+      "34105995",
+      "40693919",
+      "35468328",
+      "40581636",
+      "9115440",
+      "38661211",
+      "20018747",
+      "26320659",
+      "26103519",
+      "41275501",
+      "11292354",
+      "38796715",
+      "28325644",
+      "10391904",
+      "35879334",
+      "39614773",
+      "17339343",
+      "17069854",
+      "33779503",
+      "21077363",
+      "34181980",
+      "40354626",
+      "29660793",
+      "33053834",
+      "24599328",
+      "34303077",
+      "33606975",
+      "32615442",
+      "31455522",
+      "26836009",
+      "28447543",
+      "40746069",
+      "35310482",
+      "28780862",
+      "11972066",
+      "42000821",
+      "29990433",
+      "34320339",
+      "41309611",
+      "11114250",
+      "33892200",
+      "31441158",
+      "39703994",
+      "21561095",
+      "11101894",
+      "11286553",
+      "22222486",
+      "36774964",
+      "8841118",
+      "35605677",
+      "39999166",
+      "25748880",
+      "26680990",
+      "40522139"
+    ],
+    "review": [
+      "41533589",
+      "40627703",
+      "36851914",
+      "35098694",
+      "35468328",
+      "34303077"
+    ],
+    "pmc": [
+      "12802895"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41533589/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FHL1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf1511",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

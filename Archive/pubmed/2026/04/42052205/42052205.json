@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "42052205",
+    "doi": "10.3389/frai.2026.1788196",
+    "title": "Fine-tuned GPT-based foundation models effectively reconstruct bacterial transcriptional regulatory networks from literature."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Life has the property to produce from a single genome, the collection of DNA molecules, different cell types, as well as mechanisms for bacteria to adapt to environmental changes. Although regulation can happen at different levels, regulation of transcription initiation, the start of copying DNA into RNA, is the most studied level in bacteria. The collection of regulators and their regulated elements defines transcriptional regulatory networks (TRNs), whose study has driven relevant areas, such as antimicrobial resistance. Their analyses and understanding depend on some few highly manually curated databases. The traditional way to reconstruct these networks is by manual curation of the literature, which is accurate, but also demanding and time-consuming. These limitations have resulted in the shortage and incompleteness of bacterial TRNs. METHODS: Here, we present a novel ensemble model approach using two GPT-based foundation models (LLaMA-3 and GPT-4o mini) to effectively reconstruct TRNs from the literature. We applied a supervised fine-tuning strategy with sentences from Escherichia coli literature to train models to predict the type of regulatory effect between a transcription factor and a regulated element (gene/operon). To evaluate the performance of reconstructing a curated TRN, we used 264 full-text articles of Salmonella Typhimurium, a pathogen of clinical interest. RESULTS: With the test data, both models obtained significant performance (F1-Score > 0.87, Matthews correlation coefficient > 0.82). For the curated TRN reconstruction, the ensemble approach using the agreement of models correctly reconstructed 80% of the TRN (Recall: 0.80, F1-score: 0.64). We applied the approach to reconstruct a large Salmonella TRN using the literature available at the time on transcriptional regulation of this bacterium (2,278 articles). This network was described with network metrics, over-representation analyses, and compared to existing biological knowledge. DISCUSSION: Our approach overtook the performance of prior works predicting the effect of the interaction. The analysis of the TRN of the 2,278 articles showed the effectiveness of our approach to reconstruct TRNs of diverse bacteria, as the network aligns with biological knowledge. Thus, our work may support the study of bacteria of biological and clinical interest, especially those without a reconstructed TRN.",
+    "keywords": [
+      "GPT",
+      "LLaMA",
+      "NLP",
+      "Salmonella",
+      "foundation model",
+      "regulatory network",
+      "supervised fine-tuning",
+      "transcriptional regulation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Romero-Vilchis, Jose",
+        "Barajas-Sanchez, Maximiliano",
+        "Azpeitia-Garcia, Karyme-Ivette",
+        "Posada-Reyes, Ali-Berenice",
+        "Collado-Vides, Julio",
+        "Mendez-Cruz, Carlos-Francisco"
+      ],
+      "short_names": [
+        "Romero-Vilchis J",
+        "Barajas-Sanchez M",
+        "Azpeitia-Garcia KI",
+        "Posada-Reyes AB",
+        "Collado-Vides J",
+        "Mendez-Cruz CF"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Programa de Genomica Computacional, Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico (UNAM), Cuernavaca, Morelos, Mexico.",
+        "Facultad de Ciencias, Universidad Autonoma del Estado de Mexico, Toluca, Mexico.",
+        "Programa de Genomica Computacional, Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico (UNAM), Cuernavaca, Morelos, Mexico.",
+        "Department of Applied Mathematics and Systems, Universidad Autonoma Metropolitana, Cuajimalpa Campus, Mexico City, Mexico.",
+        "Programa de Genomica Computacional, Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico (UNAM), Cuernavaca, Morelos, Mexico.",
+        "Faculty of Sciences, National Autonomous University of Mexico, Mexico City, Mexico.",
+        "Universidad Nacional Autonoma de Mexico, Ciudad de Mexico, Mexico.",
+        "Programa de Genomica Computacional, Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico (UNAM), Cuernavaca, Morelos, Mexico.",
+        "Centre for Genomic Regulation (CRG), Universitat Pompeu Fabra (UPF), Barcelona, Spain.",
+        "Department of Biomedical Engineering, Boston University, Boston, MA, United States.",
+        "Programa de Genomica Computacional, Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico (UNAM), Cuernavaca, Morelos, Mexico."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Romero-Vilchis, José",
+        "short_name": "Romero-Vilchis J",
+        "identifiers": [],
+        "affiliations": [
+          "Programa de Genómica Computacional, Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México (UNAM), Cuernavaca, Morelos, Mexico.",
+          "Facultad de Ciencias, Universidad Autónoma del Estado de México, Toluca, Mexico."
+        ]
+      },
+      {
+        "full_name": "Barajas-Sánchez, Maximiliano",
+        "short_name": "Barajas-Sánchez M",
+        "identifiers": [],
+        "affiliations": [
+          "Programa de Genómica Computacional, Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México (UNAM), Cuernavaca, Morelos, Mexico.",
+          "Department of Applied Mathematics and Systems, Universidad Autónoma Metropolitana, Cuajimalpa Campus, Mexico City, Mexico."
+        ]
+      },
+      {
+        "full_name": "Azpeitia-García, Karyme-Ivette",
+        "short_name": "Azpeitia-García KI",
+        "identifiers": [],
+        "affiliations": [
+          "Programa de Genómica Computacional, Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México (UNAM), Cuernavaca, Morelos, Mexico.",
+          "Faculty of Sciences, National Autonomous University of Mexico, Mexico City, Mexico."
+        ]
+      },
+      {
+        "full_name": "Posada-Reyes, Ali-Berenice",
+        "short_name": "Posada-Reyes AB",
+        "identifiers": [],
+        "affiliations": [
+          "Universidad Nacional Autónoma de México, Ciudad de México, Mexico."
+        ]
+      },
+      {
+        "full_name": "Collado-Vides, Julio",
+        "short_name": "Collado-Vides J",
+        "identifiers": [],
+        "affiliations": [
+          "Programa de Genómica Computacional, Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México (UNAM), Cuernavaca, Morelos, Mexico.",
+          "Centre for Genomic Regulation (CRG), Universitat Pompeu Fabra (UPF), Barcelona, Spain.",
+          "Department of Biomedical Engineering, Boston University, Boston, MA, United States."
+        ]
+      },
+      {
+        "full_name": "Méndez-Cruz, Carlos-Francisco",
+        "short_name": "Méndez-Cruz CF",
+        "identifiers": [],
+        "affiliations": [
+          "Programa de Genómica Computacional, Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México (UNAM), Cuernavaca, Morelos, Mexico."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in artificial intelligence"
+    ],
+    "journal_abbrev": [
+      "Front Artif Intell"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/29 12:25",
+    "fetched_at": "2026-10-01 19:26:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40911283",
+      "40387594",
+      "39937660",
+      "39639802",
+      "39531644",
+      "39383312",
+      "39364206",
+      "39213391",
+      "38827097",
+      "38771886",
+      "37980414",
+      "37971353",
+      "36053172",
+      "35913142",
+      "34974190",
+      "34875418",
+      "34827589",
+      "34717010",
+      "34191587",
+      "33541410",
+      "33258965",
+      "32542109",
+      "32422651",
+      "31857203",
+      "31661351",
+      "31501885",
+      "29659566",
+      "29128373",
+      "29057095",
+      "28962020",
+      "28874552",
+      "26551454",
+      "25935162",
+      "25605366",
+      "25035972",
+      "24907365",
+      "24903516",
+      "24271167",
+      "23554419",
+      "23010927",
+      "21573008",
+      "21450714",
+      "20254758",
+      "19076632",
+      "18792679",
+      "18769432",
+      "17683642",
+      "16046493",
+      "15205413",
+      "14597658",
+      "12582243",
+      "10760179",
+      "9125566",
+      "8955307"
+    ],
+    "similar": [
+      "42052205",
+      "39213391",
+      "42475469",
+      "36321557",
+      "25723545",
+      "30961611",
+      "41801982",
+      "42341001",
+      "21668997",
+      "28874552",
+      "40678148",
+      "36317888",
+      "20548942",
+      "41310253",
+      "41592570",
+      "18565227",
+      "42560939",
+      "17706247",
+      "36557619",
+      "41426306",
+      "15603590",
+      "24175918",
+      "41161340",
+      "41886735",
+      "42155986",
+      "15604458",
+      "32471360",
+      "25433699",
+      "39527186",
+      "41978683",
+      "19366454",
+      "41801512",
+      "41061027",
+      "42048554",
+      "32093656",
+      "33306798",
+      "42478686",
+      "41875309",
+      "38875537",
+      "42089520",
+      "39807977",
+      "41539675",
+      "23504016",
+      "42013456",
+      "41831028",
+      "25564104",
+      "34904892",
+      "18369434",
+      "19594885",
+      "41561863",
+      "42491247",
+      "24649509",
+      "35306876",
+      "42268907",
+      "24348226",
+      "16840530",
+      "39451156",
+      "39208311",
+      "27600242",
+      "22849367",
+      "23422247",
+      "30547796",
+      "27586594",
+      "32487739",
+      "39923968",
+      "39451418",
+      "39577573",
+      "25599335",
+      "40354642",
+      "40203306",
+      "31985403",
+      "41332819",
+      "17408501",
+      "34522292",
+      "23912807",
+      "18426580",
+      "34740743",
+      "38764593",
+      "42482180",
+      "40632526",
+      "35181703",
+      "40750847",
+      "40107689",
+      "41961980",
+      "37851522",
+      "41984624",
+      "17986320",
+      "32542109",
+      "26950762",
+      "26269925",
+      "40208398",
+      "41212334",
+      "40060567",
+      "38875593",
+      "24897108",
+      "41905520",
+      "41542318",
+      "41626898",
+      "24739361",
+      "24888606"
+    ],
+    "review": [
+      "42052205",
+      "36321557",
+      "20548942",
+      "42491247",
+      "24649509",
+      "27600242",
+      "39577573",
+      "34522292",
+      "26950762"
+    ],
+    "pmc": [
+      "13111565"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42052205/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/frai.2026.1788196",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

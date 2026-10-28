@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35834447",
+  "title": "Protein-DNA Binding Residues Prediction Using a Deep Learning Model With Hierarchical Feature Extraction.",
+  "authors": "Guan, Shixuan; Zou, Quan; Wu, Hongjie; Ding, Yijie",
+  "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+  "published_date": "2022-07-15",
+  "window": {
+    "start": "2022-07-11",
+    "end": "2022-07-17"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用seq2seq深度学习模型（Transformer+局部特征提取）预测蛋白-DNA结合残基，聚焦结合位点识别，虽非TF-DNA特异体系，但方法可迁移至TF-DNA互作建模。",
+  "abstract": "Biologically important effects occur when proteins bind to other substances, of which binding to DNA is a crucial one. Therefore, accurate identification of protein-DNA binding residues is important for further understanding of the protein-DNA interaction mechanism. Although wet-lab methods can accurately obtain the location of bound residues, it requires significant human, financial and time costs. There is thus an urgent need to develop efficient computational-based methods. Most current state-of-the-art methods are two-step approaches: the first step uses a sliding window technique to extract residue features; the second step uses each residue as an input to the model for prediction. This has a negative impact on the efficiency of prediction and ease of use. In this study, we propose a sequence-to-sequence (seq2seq) model that can input the entire protein sequence of variable length and use two modules, Transformer Encoder Block and Feature Extracting Block, for hierarchical feature extraction, where Transformer Encoder Block is used to extract global features, and then Feature Extracting Block is used to extract local features to further improve the recognition capability of the model. The comparison results on two benchmark datasets, namely PDNA-543 and PDNA-41, prove the effectiveness of our method in identifying protein-DNA binding residues.",
+  "abstract_zh": "蛋白质与其他物质结合时会产生重要的生物学效应，其中与DNA结合尤为关键。因此，准确识别蛋白质-DNA结合残基对于深入理解蛋白质-DNA相互作用机制具有重要意义。尽管湿实验方法能够精确获取结合残基的位置，但需要大量的人力、财力和时间成本。因此，迫切需要开发基于计算的高效方法。目前大多数最先进的方法采用两步策略：第一步使用滑动窗口技术提取残基特征；第二步将每个残基作为模型输入进行预测。这对预测效率和易用性产生了负面影响。在本研究中，我们提出了一种序列到序列（seq2seq）模型，该模型能够输入可变长度的完整蛋白质序列，并使用两个模块——Transformer编码器块（Transformer Encoder Block）和特征提取块（Feature Extracting Block）——进行层次化特征提取，其中Transformer编码器块用于提取全局特征，随后特征提取块用于提取局部特征，以进一步提升模型的识别能力。在两个基准数据集PDNA-543和PDNA-41上的比较结果证明了我们方法在识别蛋白质-DNA结合残基方面的有效性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35834447/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35834447/",
+  "paper_page_path": "papers/pubmed/35834447/index.html"
+}

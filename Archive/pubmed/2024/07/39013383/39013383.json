@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "39013383",
+    "doi": "10.1093/bib/bbae324",
+    "title": "PTFSpot: deep co-learning on transcription factors and their binding regions attains impeccable universality in plants."
+  },
+  "content": {
+    "abstract": "Unlike animals, variability in transcription factors (TFs) and their binding regions (TFBRs) across the plants species is a major problem that most of the existing TFBR finding software fail to tackle, rendering them hardly of any use. This limitation has resulted into underdevelopment of plant regulatory research and rampant use of Arabidopsis-like model species, generating misleading results. Here, we report a revolutionary transformers-based deep-learning approach, PTFSpot, which learns from TF structures and their binding regions' co-variability to bring a universal TF-DNA interaction model to detect TFBR with complete freedom from TF and species-specific models' limitations. During a series of extensive benchmarking studies over multiple experimentally validated data, it not only outperformed the existing software by >30% lead but also delivered consistently >90% accuracy even for those species and TF families that were never encountered during the model-building process. PTFSpot makes it possible now to accurately annotate TFBRs across any plant genome even in the total lack of any TF information, completely free from the bottlenecks of species and TF-specific models.",
+    "keywords": [
+      "DenseNet",
+      "deep learning",
+      "protein modelling",
+      "transcription factor",
+      "transcriptional regulation",
+      "transformers"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism",
+      "*Deep Learning",
+      "Binding Sites",
+      "Software",
+      "Arabidopsis/metabolism/genetics",
+      "Genome, Plant",
+      "Computational Biology/methods",
+      "Plants/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gupta, Sagar",
+        "Kesarwani, Veerbhan",
+        "Bhati, Umesh",
+        "Jyoti",
+        "Shankar, Ravi"
+      ],
+      "short_names": [
+        "Gupta S",
+        "Kesarwani V",
+        "Bhati U",
+        "Jyoti",
+        "Shankar R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4004-8047"
+      ],
+      "affiliations": [
+        "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, Himachal Pradesh 176061, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India.",
+        "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, Himachal Pradesh 176061, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India.",
+        "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, Himachal Pradesh 176061, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India.",
+        "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, Himachal Pradesh 176061, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India.",
+        "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, Himachal Pradesh 176061, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gupta, Sagar",
+        "short_name": "Gupta S",
+        "identifiers": [],
+        "affiliations": [
+          "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, Himachal Pradesh 176061, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India."
+        ]
+      },
+      {
+        "full_name": "Kesarwani, Veerbhan",
+        "short_name": "Kesarwani V",
+        "identifiers": [],
+        "affiliations": [
+          "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, Himachal Pradesh 176061, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India."
+        ]
+      },
+      {
+        "full_name": "Bhati, Umesh",
+        "short_name": "Bhati U",
+        "identifiers": [],
+        "affiliations": [
+          "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, Himachal Pradesh 176061, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India."
+        ]
+      },
+      {
+        "full_name": "Jyoti",
+        "short_name": "Jyoti",
+        "identifiers": [],
+        "affiliations": [
+          "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, Himachal Pradesh 176061, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India."
+        ]
+      },
+      {
+        "full_name": "Shankar, Ravi",
+        "short_name": "Shankar R",
+        "identifiers": [
+          "0000-0002-4004-8047"
+        ],
+        "affiliations": [
+          "Studio of Computational Biology & Bioinformatics, The Himalayan Centre for High-throughput Computational Biology, (HiCHiCoB, A BIC supported by DBT, India), Biotechnology Division, CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT), Palampur, Himachal Pradesh 176061, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh 201002, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 May 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/17 00:41",
+    "fetched_at": "2026-09-29 23:53:08"
+  },
+  "links": {
+    "cites": [
+      "42055456",
+      "42052258",
+      "41609588",
+      "41206115",
+      "41073928",
+      "41035197",
+      "39640721"
+    ],
+    "refs": [
+      "37229121",
+      "36155619",
+      "35799371",
+      "35701419",
+      "34841226",
+      "34772949",
+      "34503979",
+      "34312058",
+      "34265844",
+      "33837387",
+      "33796819",
+      "33538820",
+      "33416862",
+      "32413318",
+      "32406923",
+      "31992709",
+      "31898477",
+      "31776348",
+      "31701148",
+      "31510640",
+      "31372637",
+      "31186519",
+      "31133749",
+      "30876396",
+      "30866803",
+      "30395339",
+      "30395277",
+      "30323198",
+      "29305491",
+      "28726847",
+      "28137873",
+      "27924042",
+      "27581526",
+      "27522016",
+      "27203113",
+      "26979602",
+      "26578169",
+      "26213851",
+      "25033408",
+      "24845501",
+      "23748563",
+      "23703209",
+      "22186966",
+      "22153082",
+      "20413915",
+      "18320590",
+      "17540862",
+      "16888363",
+      "16166257",
+      "15596462",
+      "11420449"
+    ],
+    "similar": [
+      "39013383",
+      "41035197",
+      "42475469",
+      "39640721",
+      "42099803",
+      "40411397",
+      "41518506",
+      "41450215",
+      "23272209",
+      "33372147",
+      "41325984",
+      "30395277",
+      "35713985",
+      "27503086",
+      "25957350",
+      "28623590",
+      "30447332",
+      "36907657",
+      "33104784",
+      "34953471",
+      "24228871",
+      "40914877",
+      "34608238",
+      "19956545",
+      "32770026",
+      "21496241",
+      "41288963",
+      "26291518",
+      "20827602",
+      "40102719",
+      "34272562",
+      "31701126",
+      "39076052",
+      "34073774",
+      "35799371",
+      "38940155",
+      "41518507",
+      "36494366",
+      "27567672",
+      "36155619",
+      "32615918",
+      "29363433",
+      "30709337",
+      "42236716",
+      "19858103",
+      "29229750",
+      "24914054",
+      "32054475",
+      "31855461",
+      "31372637",
+      "40646689",
+      "22898356",
+      "42140663",
+      "24565265",
+      "28750606",
+      "24477691",
+      "34534646",
+      "25775564",
+      "40848288",
+      "40702706",
+      "26476450",
+      "29617928",
+      "29769331",
+      "23209563",
+      "20704747",
+      "28849563",
+      "36082286",
+      "28373393",
+      "25722376",
+      "36416116",
+      "14681436",
+      "22534400",
+      "36057196",
+      "16477324",
+      "22852874",
+      "26719053",
+      "41978381",
+      "30909785",
+      "20808951",
+      "41206115",
+      "27780826",
+      "28623580",
+      "41920894",
+      "20840729",
+      "24927817",
+      "41799016",
+      "27924042",
+      "28623591",
+      "18371204",
+      "26160164",
+      "19959498",
+      "41514301",
+      "28334224",
+      "23046216",
+      "31723409",
+      "19884168",
+      "26130577",
+      "27117388",
+      "34486522",
+      "39107889"
+    ],
+    "review": [
+      "39013383",
+      "30447332",
+      "36057196",
+      "26719053"
+    ],
+    "pmc": [
+      "11250369"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39013383/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae324",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

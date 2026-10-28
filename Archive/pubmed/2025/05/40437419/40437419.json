@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "40437419",
+    "doi": "10.1186/s12891-025-08788-5",
+    "title": "The impact of aging on achilles tendon ossification in mice."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Heterotopic ossification is a frequent complication of soft tissue injuries, particularly in tendons. Although ossification in tendon tissue has been reported in a range of aging and disease models, the underlying biomarkers and mechanisms remain unknown. And the characterisation and sensitivity of previous diagnostic biomarkers for tendon ectopic ossification do not meet the demands of clinical use. The aim of this study was to characterise the effects of aging on ossification in the mouse Achilles tendon and to identify characteristic genes and therapeutic targets for tendon ossification in mice by using a machine learning approach. METHODS: We retrieved the transcriptome profile of GSE126118 from the Gene Expression Omnibus (GEO) database. Following background correction and normalization using the transcripts per million (TPM) method, differentially expressed genes (DEGs) were identified with the limma R package (p < 0.05, |log2FC| > 1). Subsequently, 468 senescence genes were downloaded from the Aging Atlas database, and senescence-associated DEGs (HO senescence genes) were identified. Gene ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment, and protein-protein interaction (PPI) network analyses were conducted on the identified DEGs. To further refine the HO aging signature, support vector machine (SVM) regression was employed. Additionally, we predicted transcription factors, miRNAs, and small molecule drugs potentially associated with the characterized genes. RESULTS: Three characterised genes were identified as biomarkers associated with ectopic ossification and aging in the mouse Achilles tendon, Atp5o, Mmp2 and Mmp13. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses revealed significant enrichment in processes related to cartilage endochondral ossification, metalloendopeptidase activity, and mitochondrial proton transport ATP synthase complex. Additionally, HIF-1 and GnRH signaling pathways were prominently represented among the differentially expressed genes. CONCLUSION: Atp5o, Mmp2 and Mmp13 were identified as relevant signature genes for the effects of aging on Achilles tendon ossification in mice. Atp5o, Mmp2, and Mmp13 may influence tendon ossification by affecting mitochondrial function as well as extracellular matrix degradation to regulate senescence. This finding suggests a potential link between these processes, opening new avenues for research into diagnostic markers and therapeutic targets. These genes hold promise for the development of novel treatments for tendon ossification, a debilitating condition currently lacking effective therapeutic options.",
+    "keywords": [
+      "Achilles tendon ossification",
+      "Aging",
+      "Biomarkers",
+      "GO",
+      "KEGG",
+      "PPI",
+      "SVM"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Achilles Tendon/pathology/metabolism",
+      "*Aging/genetics/pathology/metabolism",
+      "Mice",
+      "*Ossification, Heterotopic/genetics/pathology/metabolism",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "*Osteogenesis/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cai, Hanhua",
+        "Lan, Yujian",
+        "Liu, Huan",
+        "Hao, Qi"
+      ],
+      "short_names": [
+        "Cai H",
+        "Lan Y",
+        "Liu H",
+        "Hao Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedics, Affiliated Hospital of Putian University, Putian, 351100, Fujian, China.",
+        "Department of Orthopaedics, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China.",
+        "Collage of Integrated Traditional Chinese and Western Medicine, Southwest Medical University, Luzhou, 646000, Sichuan, China.",
+        "Department of Orthopaedics, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China.",
+        "Department of Orthopaedics, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China. haoqi@swmu.edu.cn.",
+        "The Third People's Hospital of Longmatan District, Luzhou, 646000, Sichuan, China. haoqi@swmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cai, Hanhua",
+        "short_name": "Cai H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Affiliated Hospital of Putian University, Putian, 351100, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Lan, Yujian",
+        "short_name": "Lan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China.",
+          "Collage of Integrated Traditional Chinese and Western Medicine, Southwest Medical University, Luzhou, 646000, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Huan",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Hao, Qi",
+        "short_name": "Hao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan, China. haoqi@swmu.edu.cn.",
+          "The Third People's Hospital of Longmatan District, Luzhou, 646000, Sichuan, China. haoqi@swmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC musculoskeletal disorders"
+    ],
+    "journal_abbrev": [
+      "BMC Musculoskelet Disord"
+    ],
+    "pub_date": "2025 May 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/29 00:26",
+    "fetched_at": "2026-09-30 18:44:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38887851",
+      "37367700",
+      "36185637",
+      "35866484",
+      "35456986",
+      "35414767",
+      "34896358",
+      "34884978",
+      "34741033",
+      "33847569",
+      "33237311",
+      "32382555",
+      "31998237",
+      "31941032",
+      "31616543",
+      "30931480",
+      "30798160",
+      "30395331",
+      "29462673",
+      "29416028",
+      "28987285",
+      "28259914",
+      "26476454",
+      "26274052",
+      "25641114",
+      "23969228",
+      "23826786",
+      "23503946",
+      "23106341",
+      "22455463",
+      "21627568",
+      "19735753",
+      "17948130",
+      "16040468"
+    ],
+    "similar": [
+      "40437419",
+      "32382555",
+      "30458056",
+      "34389038",
+      "39212714",
+      "36713424",
+      "19735753",
+      "38509535",
+      "38686493",
+      "34626248",
+      "25509780",
+      "24844023",
+      "29786363",
+      "35908648",
+      "39351239",
+      "33391181",
+      "1435511",
+      "34741033",
+      "32312943",
+      "38259479",
+      "39145072",
+      "38467838",
+      "37946221",
+      "36157062",
+      "39586719",
+      "31896816",
+      "33420869",
+      "35634481",
+      "38850283",
+      "33847569",
+      "32481304",
+      "26807862",
+      "31545495",
+      "34553293",
+      "30132538",
+      "38806292",
+      "38260098",
+      "31631887",
+      "27370800",
+      "7981796",
+      "25888722",
+      "37219456",
+      "38951833",
+      "29063236",
+      "34612770",
+      "34384424",
+      "36389792",
+      "34622712",
+      "18720126",
+      "6220140",
+      "40374840",
+      "32432656",
+      "32756534",
+      "40312440",
+      "40331545",
+      "39375405",
+      "27068890",
+      "39341981",
+      "36195955",
+      "38304574",
+      "33715398",
+      "31599446",
+      "40313958",
+      "12228804",
+      "40241169",
+      "37212262",
+      "37367700",
+      "29039500",
+      "23412444",
+      "37283588",
+      "38774864",
+      "34737845",
+      "39953769",
+      "37948912",
+      "39802512",
+      "24410299",
+      "38711057",
+      "29416028",
+      "33879213",
+      "39932915",
+      "40019588",
+      "12400718",
+      "33628812",
+      "39829117",
+      "31913154",
+      "36992583",
+      "21757788",
+      "35713363",
+      "39217412",
+      "38444712",
+      "39875572",
+      "38384969",
+      "38440848",
+      "25122460",
+      "39176085",
+      "38650009",
+      "37693684",
+      "35313524",
+      "33102476",
+      "33407587"
+    ],
+    "review": [
+      "40437419",
+      "32481304",
+      "37219456",
+      "18720126"
+    ],
+    "pmc": [
+      "12117786"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/s12891-025-08788-5",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40437419/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2615",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40176795",
+  "title": "Mechanism of action and experimental validation of key genes common to diabetic retinopathy and coronary heart disease based on multiple bioinformatics investigations.",
+  "authors": "Jiang, Fanli; Yin, Shi; Zhang, Xinjin",
+  "journal": "Frontiers in genetics",
+  "published_date": "2025-04-03",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 4,
+  "one_liner_zh": "该文基于多组学数据用机器学习筛选糖尿病视网膜病变与冠心病共有关键基因，虽涉及转录因子预测和结合自由能计算，但核心是疾病标志物与免疫关联，缺乏TF-DNA互作机制建模，方法以统计和湿实验验证为主。",
+  "abstract": "INTRODUCTION: The relationship between diabetic retinopathy (DR) and coronary artery disease (CHD) has been established as a reliable predictor. However, the underlying mechanisms linking these two conditions remain poorly understood. Identifying common key genes could provide new therapeutic targets for both diseases. METHODS: Public databases were used to compile training and validation datasets for DR and CHD. Machine learning algorithms and expression validation were employed to identify these key genes. To investigate immune cell differences, single-sample gene set enrichment analysis (ssGSEA) and the Wilcoxon test were applied. Spearman correlation analysis further explored the relationship between key genes and immune cell variations. Additionally, potential therapeutic drugs targeting these key genes were identified and a key gene-drug network was constructed. The role of the key genes in the pathogenesis of DR and CHD was further examined through reverse transcription-quantitative polymerase chain reaction (RT-qPCR). RESULTS: Consistent expression trends observed across datasets (GSE221521, GSE113079, GSE189005, GSE42148) led to the identification of HIRIP3 and ZNF416 as key genes. In GSE221521, HIRIP3 was positively correlated with CD56 bright natural killer cells (cor = 0.329, P < 0.001) and type 1T helper cells (cor = 0.327, P < 0.001), while ZNF416 showed significant correlations with CD4 T cell activation (cor = 0.340, P < 0.001) and type 1T helper cells (cor = 0.273, P < 0.05). Moreover, 82 transcription factors (TFs) were predicted, including SP3. Binding free energy calculations for key genes and potential drugs suggested stable binding conformations. RT-qPCR results revealed elevated expression of both HIRIP3 and ZNF416 in the control group compared to the DR with CHD (DRwCHD) group, with only ZNF416 showing significant differences between the groups (p < 0.05). DISCUSSION: These findings highlight HIRIP3 and ZNF416 as crucial genes in DR and CHD detection, providing a foundation for identifying novel therapeutic targets for both diseases.",
+  "abstract_zh": "引言：糖尿病视网膜病变（diabetic retinopathy, DR）与冠状动脉疾病（coronary artery disease, CHD）之间的关系已被确立为可靠的预测指标。然而，连接这两种疾病的潜在机制仍知之甚少。识别共同的關鍵基因可能为这两种疾病提供新的治疗靶点。方法：利用公共数据库编制DR和CHD的训练及验证数据集。采用机器学习算法和表达验证来识别这些关键基因。为探究免疫细胞差异，应用了单样本基因集富集分析（single-sample gene set enrichment analysis, ssGSEA）和Wilcoxon检验。Spearman相关分析进一步探讨了关键基因与免疫细胞变异之间的关系。此外，识别了靶向这些关键基因的潜在治疗药物，并构建了关键基因-药物网络。通过逆转录定量聚合酶链反应（reverse transcription-quantitative polymerase chain reaction, RT-qPCR）进一步检验了关键基因在DR和CHD发病机制中的作用。结果：在数据集（GSE221521、GSE113079、GSE189005、GSE42148）中观察到一致的表达趋势，从而将HIRIP3和ZNF416识别为关键基因。在GSE221521中，HIRIP3与CD56 bright自然杀伤细胞（cor = 0.329, P < 0.001）和1型T辅助细胞（cor = 0.327, P < 0.001）呈正相关，而ZNF416与CD4 T细胞活化（cor = 0.340, P < 0.001）和1型T辅助细胞（cor = 0.273, P < 0.05）显示出显著相关性。此外，预测了82个转录因子（transcription factors, TFs），包括SP3。关键基因与潜在药物的结合自由能计算表明其具有稳定的结合构象。RT-qPCR结果显示，与DR合并CHD（DRwCHD）组相比，对照组中HIRIP3和ZNF416的表达均升高，但仅ZNF416在组间显示出显著差异（p < 0.05）。讨论：这些发现强调了HIRIP3和ZNF416在DR和CHD检测中的关键作用，为识别这两种疾病的新治疗靶点奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40176795/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40176795/",
+  "paper_page_path": "papers/pubmed/40176795/index.html"
+}

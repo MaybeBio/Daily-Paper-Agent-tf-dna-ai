@@ -1,0 +1,400 @@
+{
+  "identity": {
+    "pmid": "41364313",
+    "doi": "10.1007/s12035-025-05574-1",
+    "title": "A Novel Palmitoylation-Related Molecular Signature for Predicting and Therapeutically Targeting Alzheimer's Disease."
+  },
+  "content": {
+    "abstract": "Alzheimer's disease (AD) is a prevalent neurodegenerative disorder characterized by amyloid-beta (Abeta) plaques and hyperphosphorylated tau pathology. Although palmitoylation has been implicated in AD, its specific mechanisms remain poorly defined. To investigate this, seven transcriptomic datasets were obtained from the GEO database. Differential expression and Gene Set Enrichment Analysis (GSEA) were performed across five training sets (GSE5281, GSE29378, GSE36980, GSE122063, and GSE132903). By intersecting differentially expressed genes (DEGs) with palmitoylation-related genes from GeneCards, 65 AD-associated palmitoylation-related genes (AD-PRGs) were identified. Functional enrichment analyses (KEGG and GO) were performed on these genes. Furthermore, seven key AD-PRGs (CALM1, VAMP2, SYT1, MET, BAG3, TJP1, NOTCH1) were prioritized using protein-protein interaction (PPI) networks and three machine learning algorithms (LASSO, SVM-RFE, and Random Forest). A diagnostic model constructed from these seven genes exhibited strong predictive performance, with AUC values of 0.834 in the training set and 0.907/0.865 in two external validation sets (GSE33000, GSE44770). Single-gene GSEA indicated associations with synaptic function and oxidative phosphorylation pathways. Protein docking analyses using GRAMM (Global RAnge Molecular Matching) and PISA (Proteins, Interfaces, Surfaces, and Assemblies) further suggested interactions between these key genes and Abeta/tau, supporting their involvement in AD pathogenesis. Additionally, regulatory network analysis identified 23 miRNAs, 33 transcription factors, and 14 potential therapeutic agents targeting these key genes. Our findings underscore the importance of palmitoylation in synaptic dysfunction-notably VAMP2 and SYT1 roles in vesicle recycling and neurotransmitter release-and offer promising targets for novel therapeutic strategies in AD.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Bioinformatics",
+      "Palmitoylation",
+      "Therapeutic target"
+    ],
+    "mesh_terms": [
+      "*Alzheimer Disease/genetics/metabolism/drug therapy/therapy",
+      "Humans",
+      "*Lipoylation/genetics",
+      "Protein Interaction Maps/genetics",
+      "Gene Expression Profiling",
+      "Transcriptome/genetics",
+      "*Molecular Targeted Therapy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Miao, Xiuling",
+        "Luo, Kaiyu",
+        "Li, Yinglei",
+        "Zhou, Yang",
+        "Wei, Meng",
+        "Zhang, Ting",
+        "Hu, Yazhuo",
+        "Wang, Heran",
+        "Jia, Jianjun"
+      ],
+      "short_names": [
+        "Miao X",
+        "Luo K",
+        "Li Y",
+        "Zhou Y",
+        "Wei M",
+        "Zhang T",
+        "Hu Y",
+        "Wang H",
+        "Jia J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Medical School of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China.",
+        "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China.",
+        "Medical School of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China.",
+        "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China.",
+        "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China.",
+        "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China.",
+        "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China.",
+        "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China.",
+        "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China. huyazhuo301@aliyun.com.",
+        "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China. Wangheran11111@163.com.",
+        "Medical School of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China. Jiajianjun301@126.com.",
+        "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China. Jiajianjun301@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Miao, Xiuling",
+        "short_name": "Miao X",
+        "identifiers": [],
+        "affiliations": [
+          "Medical School of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China.",
+          "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Kaiyu",
+        "short_name": "Luo K",
+        "identifiers": [],
+        "affiliations": [
+          "Medical School of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China.",
+          "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yinglei",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yang",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Meng",
+        "short_name": "Wei M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ting",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yazhuo",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China. huyazhuo301@aliyun.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Heran",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China. Wangheran11111@163.com."
+        ]
+      },
+      {
+        "full_name": "Jia, Jianjun",
+        "short_name": "Jia J",
+        "identifiers": [],
+        "affiliations": [
+          "Medical School of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China. Jiajianjun301@126.com.",
+          "Institute of Geriatrics, National Clinical Research Center for Geriatric Diseases, the Second Medical Center, General Hospital of Chinese People's Liberation Army, 28 Fuxing Road, Beijing, 100853, China. Jiajianjun301@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular neurobiology"
+    ],
+    "journal_abbrev": [
+      "Mol Neurobiol"
+    ],
+    "pub_date": "2025 Dec 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/09 13:09",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [
+      "42465724"
+    ],
+    "refs": [
+      "40817227",
+      "40787880",
+      "40436281",
+      "40408490",
+      "40207776",
+      "40050982",
+      "39858582",
+      "39701184",
+      "39612989",
+      "39589870",
+      "39497138",
+      "39358031",
+      "39202387",
+      "39160165",
+      "39127627",
+      "39040060",
+      "38815773",
+      "38733347",
+      "38615895",
+      "38355760",
+      "38320455",
+      "38177673",
+      "37899687",
+      "37365538",
+      "37166032",
+      "37100862",
+      "36766729",
+      "36639369",
+      "36618823",
+      "36569892",
+      "36530083",
+      "36525288",
+      "36513730",
+      "36430497",
+      "35819139",
+      "35751589",
+      "35615282",
+      "35444256",
+      "35326437",
+      "35075370",
+      "34803494",
+      "34179015",
+      "34077732",
+      "33933186",
+      "33792187",
+      "33789888",
+      "33475074",
+      "32944167",
+      "32248222",
+      "31900430",
+      "31256118",
+      "30990880",
+      "30766476",
+      "30232163",
+      "30060061",
+      "28639368",
+      "28558704",
+      "28474569",
+      "28366531",
+      "28202682",
+      "28193235",
+      "27364742",
+      "27293050",
+      "26876311",
+      "26856328",
+      "26275289",
+      "25834228",
+      "25812852",
+      "25605792",
+      "25565152",
+      "25295306",
+      "25080494",
+      "23705665",
+      "23622250",
+      "23595620",
+      "23396970",
+      "23323831",
+      "22125385",
+      "21269502",
+      "20808728",
+      "20168314",
+      "18753194",
+      "18332434",
+      "16199517",
+      "15355980",
+      "12805215",
+      "12376543",
+      "12097490",
+      "10845776"
+    ],
+    "similar": [
+      "41364313",
+      "39507054",
+      "39375405",
+      "39844282",
+      "40411685",
+      "41009659",
+      "41081092",
+      "39650656",
+      "39202387",
+      "40192032",
+      "41291841",
+      "40108056",
+      "40899950",
+      "39188714",
+      "40315768",
+      "39394418",
+      "37736681",
+      "31989994",
+      "38230733",
+      "39806062",
+      "41197132",
+      "34521086",
+      "41300737",
+      "36918839",
+      "41200172",
+      "41317176",
+      "40329774",
+      "40076442",
+      "39604273",
+      "41251907",
+      "33204697",
+      "40043785",
+      "40685632",
+      "40642087",
+      "41300833",
+      "40307438",
+      "35570485",
+      "36195955",
+      "39351239",
+      "39694170",
+      "39919076",
+      "39730451",
+      "37434738",
+      "40207815",
+      "41115648",
+      "40148430",
+      "31377428",
+      "41143248",
+      "39099451",
+      "30918899",
+      "41006883",
+      "41120378",
+      "40034343",
+      "39213070",
+      "40374866",
+      "31346329",
+      "34367470",
+      "34776447",
+      "36532015",
+      "37520121",
+      "38809924",
+      "34589742",
+      "38890348",
+      "34326892",
+      "40188118",
+      "39965013",
+      "41105597",
+      "39991734",
+      "41390089",
+      "41146237",
+      "39351221",
+      "40406126",
+      "40277064",
+      "40753530",
+      "39752101",
+      "39392030",
+      "40241169",
+      "31984950",
+      "39920860",
+      "39875978",
+      "38808722",
+      "33869630",
+      "35996379",
+      "40286923",
+      "40653482",
+      "39905093",
+      "39485681",
+      "39757625",
+      "37365538",
+      "41120603",
+      "40186271",
+      "40634788",
+      "34924393",
+      "39780215",
+      "38730027",
+      "35669784",
+      "41044520",
+      "37434203",
+      "39890844",
+      "40628511"
+    ],
+    "review": [
+      "41364313",
+      "41105597"
+    ],
+    "pmc": [
+      "12689730"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41364313/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12035-025-05574-1",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1496",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

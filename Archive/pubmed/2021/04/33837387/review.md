@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose SAResNet, a transfer learning-based method combining self-attention and residual network structures, for predicting DNA-protein binding from sequence data. They report an average AUC of 92.0% across 690 ChIP-seq datasets, a 4.4% improvement over the best existing method, with greater gains on smaller datasets. They further claim the methodology is generally applicable to other sequence classification problems.
+- **Visible evidence base** Abstract text only; no quantitative breakdowns, statistical tests, baseline descriptions, or dataset specifications are available
+- **Missing materials affecting confidence** Full methods, model architecture details, hyperparameters, training and evaluation protocols, baseline definitions, dataset composition and preprocessing, per-dataset performance distributions, statistical significance testing, and code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful contribution to the field of DNA-protein binding prediction. The combination of self-attention and residual networks within a transfer learning framework is reasonable and aligns with current trends in deep learning for genomics. However, the evidence provided in the abstract is insufficient to evaluate the robustness of the reported performance gains. Key details regarding experimental design, baseline comparisons, and statistical validation are absent. The claim of general applicability to other sequence classification problems is not supported by any evidence in the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, transcription factor binding site prediction, and deep learning applications to biological sequences. Researchers developing transfer learning methods for small genomic datasets may also find the approach relevant. The potential for improved performance on limited data is of practical interest to experimental labs generating modest amounts of ChIP-seq data.
+- **Major strengths** The proposed architecture is conceptually sound, combining self-attention for positional information and residual connections for deep feature extraction. The transfer learning strategy addresses a recognized limitation in the field, namely the scarcity of large labeled datasets for many DNA-protein binding contexts. The reported average AUC improvement of 4.4% over the best existing method is notable if reproducible. The focus on smaller datasets is practically relevant.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim an average AUC of 92.0% across 690 ChIP-seq datasets, which is 4.4% higher than the best state-of-the-art method currently available.  
+  - **Evidence pointer** Abstract, performance results section; location not provided  
+  - **Concern** The abstract provides no information on which baseline methods were compared, how they were configured, or whether the same train and test splits were used. Without this context, the reported improvement cannot be interpreted. Additionally, no measure of variance, such as standard deviation or confidence intervals, is given for the average AUC.  
+  - **Why it matters** A 4.4% improvement is meaningful only if the comparison is fair and the result is statistically robust. If baselines were not optimally tuned or if evaluation protocols differed, the reported gain could be artifactual. The absence of variance metrics prevents assessment of whether the improvement is consistent across datasets or driven by a few outliers.  
+  - **Resolution test** Provide a table listing all baseline methods, their configurations, and per-dataset AUC values. Include standard deviations or interquartile ranges for the average AUC. Report the number of datasets where SAResNet outperforms each baseline and the results of a paired statistical test, such as Wilcoxon signed-rank test, across the 690 datasets.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The authors state that a pre-training strategy improves learning ability and accelerates convergence during transfer learning.  
+  - **Evidence pointer** Abstract, method description; location not provided  
+  - **Concern** No details are given about the pre-training data, the pre-training task, or the transfer learning procedure. It is unclear whether pre-training was performed on genomic sequences, on other DNA-protein binding data, or on unrelated text or image data. The abstract does not specify how the pre-trained model was adapted to the target datasets.  
+  - **Why it matters** Transfer learning outcomes are highly sensitive to the choice of pre-training data and task. Without this information, the contribution of the pre-training strategy to the reported performance cannot be isolated from the contributions of the architecture itself. Reproducibility is a core expectation for computational methods papers.  
+  - **Resolution test** Describe the pre-training dataset, its size and source, the pre-training objective, and the fine-tuning procedure. Provide a comparison of SAResNet with and without pre-training to demonstrate the specific benefit of the transfer learning component.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability claim  
+  - **Claim pointer** The authors claim the proposed methodology is generally applicable and can be used to address any other sequence classification problems.  
+  - **Evidence pointer** Abstract, concluding statement; location not provided  
+  - **Concern** No experiments on any sequence classification task other than DNA-protein binding are reported. The claim of general applicability is therefore unsupported by the evidence presented.  
+  - **Why it matters** Generalizability claims require demonstration across diverse tasks or at least a reasoned argument based on task-agnostic design features. Without such evidence, the claim overreaches the scope of the study and may mislead readers into applying the method in contexts where it has not been validated.  
+  - **Resolution test** Either remove the general applicability claim or add experiments on at least one additional sequence classification task, such as splice site prediction or RNA-protein binding prediction, with comparable evaluation rigor.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Dataset representativeness  
+  - **Claim pointer** The authors state that current methods have drawbacks associated with the use of limited datasets with insufficient experimental data, and that SAResNet performs better on smaller datasets.  
+  - **Evidence pointer** Abstract, motivation and performance statements; location not provided  
+  - **Concern** The abstract does not define what constitutes a small dataset in this context. No threshold or categorization of the 690 datasets by size is provided, and no separate performance metrics for small versus large datasets are reported.  
+  - **Why it matters** The claim of improved performance on small datasets is a key selling point of the method. Without a clear definition and separate results, this claim cannot be evaluated. It also raises the question of whether the overall average AUC is driven by performance on larger datasets, which would weaken the stated motivation.  
+  - **Resolution test** Define small, medium, and large dataset categories based on the number of peaks or sequences. Report average AUC and standard deviation for each category separately, and include the number of datasets in each category.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract, method description  
+  - **Evidence pointer** Abstract, second sentence of method description; location not provided  
+  - **Issue** The phrase "the attention-driven module captures the position information of the sequence" is vague. It is unclear whether this refers to absolute positional encoding, relative positional information, or attention weights that implicitly encode position.  
+  - **Required correction** Specify the type of positional information captured and how it is integrated into the self-attention mechanism.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract, performance reporting  
+  - **Evidence pointer** Abstract, performance results; location not provided  
+  - **Issue** The abstract reports only AUC as the evaluation metric. No other metrics such as precision, recall, F1 score, or area under the precision-recall curve are mentioned.  
+  - **Required correction** Report at least one additional metric, or justify why AUC alone is sufficient for this problem.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Abstract, resource availability  
+  - **Evidence pointer** Abstract, no mention of code or data availability; location not provided  
+  - **Issue** No statement is made regarding the availability of the source code, trained models, or the 690 datasets used.  
+  - **Required correction** Add a data and code availability statement in the full manuscript, and mention it in the abstract if space permits.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract, method naming  
+  - **Evidence pointer** Abstract, title and method description; location not provided  
+  - **Issue** The name SAResNet is used without defining the acronym in the abstract.  
+  - **Required correction** Define the acronym at first use, for example, "SAResNet (Self-Attention Residual Network)".  
+
+## Risk / unsupported claims
+- The claim of a 4.4% improvement over the best state-of-the-art method is unsupported without baseline details and statistical testing.
+- The claim of improved performance on smaller datasets is unsupported without a definition of dataset size and separate results.
+- The claim of general applicability to any other sequence classification problem is unsupported by any experimental evidence.
+- The claim that the pre-training strategy accelerates convergence is not verifiable from the abstract alone, as no convergence curves or training time comparisons are provided.
+- The overall average AUC of 92.0% is not interpretable without information on dataset difficulty, class balance, or evaluation protocol.

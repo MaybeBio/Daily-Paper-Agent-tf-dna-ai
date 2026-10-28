@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38946113",
+  "title": "CapsEnhancer: An Effective Computational Framework for Identifying Enhancers Based on Chaos Game Representation and Capsule Network.",
+  "authors": "Yao, Lantian; Xie, Peilin; Guan, Jiahui; Chung, Chia-Ru; Huang, Yixian; Pang, Yuxuan; Wu, Huacong; Chiang, Ying-Chih; Lee, Tzong-Yi",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2024-07-01",
+  "window": {
+    "start": "2024-07-01",
+    "end": "2024-07-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用混沌游戏表示和胶囊网络预测增强子及其强度，增强子通过结合转录因子调控基因表达，属于广义蛋白-DNA互作相关的序列功能预测，但未涉及三维互作建模或结合机制，方法可迁移至TF-DNA位点预测。",
+  "abstract": "Enhancers are a class of noncoding DNA, serving as crucial regulatory elements in governing gene expression by binding to transcription factors. The identification of enhancers holds paramount importance in the field of biology. However, traditional experimental methods for enhancer identification demand substantial human and material resources. Consequently, there is a growing interest in employing computational methods for enhancer prediction. In this study, we propose a two-stage framework based on deep learning, termed CapsEnhancer, for the identification of enhancers and their strengths. CapsEnhancer utilizes chaos game representation to encode DNA sequences into unique images and employs a capsule network to extract local and global features from sequence \"images\". Experimental results demonstrate that CapsEnhancer achieves state-of-the-art performance in both stages. In the first and second stages, the accuracy surpasses the previous best methods by 8 and 3.5%, reaching accuracies of 94.5 and 95%, respectively. Notably, this study represents the pioneering application of computer vision methods to enhancer identification tasks. Our work not only contributes novel insights to enhancer identification but also provides a fresh perspective for other biological sequence analysis tasks.",
+  "abstract_zh": "增强子是一类非编码DNA，通过与转录因子结合，在调控基因表达中扮演关键调控元件的角色。增强子的识别在生物学领域具有极其重要的意义。然而，传统的实验方法用于增强子识别需要大量的人力物力资源。因此，采用计算方法进行增强子预测日益受到关注。在本研究中，我们提出了一种基于深度学习的双阶段框架，命名为CapsEnhancer，用于识别增强子及其强度。CapsEnhancer利用混沌游戏表示法将DNA序列编码为独特图像，并采用胶囊网络从序列“图像”中提取局部和全局特征。实验结果表明，CapsEnhancer在两个阶段均达到了最先进的性能。在第一阶段和第二阶段，准确率分别超越了先前最佳方法8%和3.5%，达到了94.5%和95%的准确率。值得注意的是，本研究是将计算机视觉方法应用于增强子识别任务的先驱性工作。我们的工作不仅为增强子识别贡献了新颖见解，也为其他生物序列分析任务提供了全新视角。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38946113/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38946113/",
+  "paper_page_path": "papers/pubmed/38946113/index.html"
+}

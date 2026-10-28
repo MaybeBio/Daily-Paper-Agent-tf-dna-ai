@@ -1,0 +1,448 @@
+{
+  "identity": {
+    "pmid": "36206320",
+    "doi": "10.1371/journal.pcbi.1010572",
+    "title": "DLoopCaller: A deep learning approach for predicting genome-wide chromatin loops by integrating accessible chromatin landscapes."
+  },
+  "content": {
+    "abstract": "In recent years, major advances have been made in various chromosome conformation capture technologies to further satisfy the needs of researchers for high-quality, high-resolution contact interactions. Discriminating the loops from genome-wide contact interactions is crucial for dissecting three-dimensional(3D) genome structure and function. Here, we present a deep learning method to predict genome-wide chromatin loops, called DLoopCaller, by combining accessible chromatin landscapes and raw Hi-C contact maps. Some available orthogonal data ChIA-PET/HiChIP and Capture Hi-C were used to generate positive samples with a wider contact matrix which provides the possibility to find more potential genome-wide chromatin loops. The experimental results demonstrate that DLoopCaller effectively improves the accuracy of predicting genome-wide chromatin loops compared to the state-of-the-art method Peakachu. Moreover, compared to two of most popular loop callers, such as HiCCUPS and Fit-Hi-C, DLoopCaller identifies some unique interactions. We conclude that a combination of chromatin landscapes on the one-dimensional genome contributes to understanding the 3D genome organization, and the identified chromatin loops reveal cell-type specificity and transcription factor motif co-enrichment across different cell lines and species.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin/genetics",
+      "*Deep Learning",
+      "Genome/genetics",
+      "Chromosomes",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Siguo",
+        "Zhang, Qinhu",
+        "He, Ying",
+        "Cui, Zhen",
+        "Guo, Zhenghao",
+        "Han, Kyungsook",
+        "Huang, De-Shuang"
+      ],
+      "short_names": [
+        "Wang S",
+        "Zhang Q",
+        "He Y",
+        "Cui Z",
+        "Guo Z",
+        "Han K",
+        "Huang DS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3244-3629",
+        "ORCID: 0000-0002-4232-7736",
+        "ORCID: 0000-0002-9592-7727",
+        "ORCID: 0000-0001-5522-6750",
+        "ORCID: 0000-0001-9900-6741",
+        "ORCID: 0000-0002-6759-2691"
+      ],
+      "affiliations": [
+        "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China.",
+        "Translational Medical Center for Stem Cell Therapy and Institute for Regenerative Medicine, Shanghai East Hospital, Bioinformatics Department, School of Life Sciences and Technology, Tongji University, Shanghai, China.",
+        "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China.",
+        "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China.",
+        "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China.",
+        "The School of Computer Science and Engineering, Inha University, Incheon, South Korea.",
+        "EIT Institute for Advanced Study, Zhenhai, Ningbo, Zhejiang, China.",
+        "Big Data and Intelligent Computing Research Center, Guangxi Academy of Science, Nanning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Siguo",
+        "short_name": "Wang S",
+        "identifiers": [
+          "0000-0002-3244-3629"
+        ],
+        "affiliations": [
+          "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qinhu",
+        "short_name": "Zhang Q",
+        "identifiers": [
+          "0000-0002-4232-7736"
+        ],
+        "affiliations": [
+          "Translational Medical Center for Stem Cell Therapy and Institute for Regenerative Medicine, Shanghai East Hospital, Bioinformatics Department, School of Life Sciences and Technology, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "He, Ying",
+        "short_name": "He Y",
+        "identifiers": [
+          "0000-0002-9592-7727"
+        ],
+        "affiliations": [
+          "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Zhen",
+        "short_name": "Cui Z",
+        "identifiers": [
+          "0000-0001-5522-6750"
+        ],
+        "affiliations": [
+          "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Zhenghao",
+        "short_name": "Guo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Machine Learning and Systems Biology, School of Electronics and Information Engineering, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Han, Kyungsook",
+        "short_name": "Han K",
+        "identifiers": [
+          "0000-0001-9900-6741"
+        ],
+        "affiliations": [
+          "The School of Computer Science and Engineering, Inha University, Incheon, South Korea."
+        ]
+      },
+      {
+        "full_name": "Huang, De-Shuang",
+        "short_name": "Huang DS",
+        "identifiers": [
+          "0000-0002-6759-2691"
+        ],
+        "affiliations": [
+          "EIT Institute for Advanced Study, Zhenhai, Ningbo, Zhejiang, China.",
+          "Big Data and Intelligent Computing Research Center, Guangxi Academy of Science, Nanning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/08 06:00",
+    "fetched_at": "2026-09-28 14:30:53"
+  },
+  "links": {
+    "cites": [
+      "42466302",
+      "42277293",
+      "42114117",
+      "41823837",
+      "41555433",
+      "40315432",
+      "40186170",
+      "40170155",
+      "40058875",
+      "38753877"
+    ],
+    "refs": [
+      "35263332",
+      "35100401",
+      "34613923",
+      "33634313",
+      "33498086",
+      "33184104",
+      "33137083",
+      "33005921",
+      "32998764",
+      "32854705",
+      "32647330",
+      "32216817",
+      "32084131",
+      "31634140",
+      "31056636",
+      "30310060",
+      "30137012",
+      "30078726",
+      "29887377",
+      "29581440",
+      "29467363",
+      "28945252",
+      "28881991",
+      "27643841",
+      "27467249",
+      "27306882",
+      "26873929",
+      "26686651",
+      "26686465",
+      "26499245",
+      "26213851",
+      "25732821",
+      "25695508",
+      "25693564",
+      "25497547",
+      "25228660",
+      "24931975",
+      "24905166",
+      "24747696",
+      "24501021",
+      "23657480",
+      "22955621",
+      "22495300",
+      "20833320",
+      "19890323",
+      "19815776",
+      "19339662",
+      "17277777",
+      "16896339",
+      "10810003"
+    ],
+    "similar": [
+      "36206320",
+      "32647330",
+      "38770419",
+      "39283453",
+      "32998764",
+      "37440599",
+      "37133976",
+      "31653198",
+      "38281134",
+      "39283464",
+      "26001583",
+      "35997565",
+      "34963105",
+      "36335136",
+      "30059749",
+      "38254945",
+      "31629084",
+      "26499245",
+      "35397520",
+      "29052195",
+      "34957106",
+      "35440119",
+      "35400543",
+      "36243984",
+      "33109075",
+      "31504161",
+      "38940142",
+      "31530818",
+      "36495179",
+      "32820399",
+      "38495565",
+      "33232622",
+      "34415531",
+      "35077535",
+      "35488276",
+      "36427146",
+      "34741515",
+      "37982508",
+      "37922325",
+      "37496267",
+      "35867248",
+      "32127418",
+      "33634313",
+      "32249389",
+      "30310060",
+      "35217621",
+      "34415530",
+      "36720443",
+      "33065269",
+      "29149895",
+      "34575948",
+      "35817982",
+      "34252966",
+      "37591842",
+      "38157845",
+      "26936376",
+      "33737718",
+      "29273625",
+      "37498561",
+      "26900130",
+      "38430521",
+      "37432974",
+      "27789526",
+      "30125668",
+      "36127324",
+      "34034791",
+      "34382193",
+      "30945203",
+      "27008015",
+      "36458445",
+      "36066718",
+      "29036650",
+      "35595799",
+      "32645447",
+      "26951677",
+      "35274679",
+      "34480151",
+      "32639553",
+      "37845234",
+      "34928367",
+      "35809047",
+      "35274099",
+      "37816141",
+      "31442560",
+      "38015443",
+      "34415538",
+      "38927609",
+      "35640981",
+      "33398973",
+      "28420341",
+      "31980751",
+      "34415528",
+      "35749574",
+      "31510653",
+      "33652823",
+      "32689928",
+      "38589516",
+      "27688758",
+      "30778195",
+      "33893353",
+      "34099725",
+      "34850813",
+      "29703667",
+      "31056636",
+      "29408992",
+      "35103975",
+      "29660196",
+      "32353112",
+      "28588240",
+      "39137961",
+      "29554289",
+      "33685371",
+      "35867245",
+      "27130552",
+      "30359306",
+      "35551308",
+      "37381618",
+      "31323892",
+      "29105235",
+      "30872258",
+      "35704579",
+      "28439858",
+      "30853548",
+      "37280678",
+      "32820401",
+      "37387127",
+      "32084131",
+      "39075082",
+      "34828363",
+      "38513390",
+      "37590265",
+      "38746164",
+      "36993500",
+      "36567710",
+      "38755928",
+      "38645064",
+      "35551182",
+      "34399797",
+      "32832596",
+      "36882016",
+      "28885554",
+      "35832620",
+      "36444296",
+      "36265466",
+      "34635838",
+      "35764630",
+      "37387176",
+      "32389215",
+      "37961712",
+      "34465168",
+      "36460680",
+      "32550271",
+      "37163136",
+      "34111830",
+      "32561118",
+      "39404010",
+      "35685374",
+      "38187606",
+      "37224527",
+      "37292994",
+      "36814847",
+      "39363891",
+      "37402191",
+      "33077914",
+      "34808408",
+      "36993250",
+      "38646172",
+      "37066196",
+      "37292728",
+      "38318534",
+      "37460330",
+      "38273172",
+      "38962256",
+      "37198497",
+      "36425085",
+      "36776526"
+    ],
+    "review": [
+      "36206320",
+      "39283464",
+      "30059749",
+      "31629084",
+      "29052195",
+      "34957106",
+      "32249389",
+      "33065269",
+      "29149895",
+      "38430521",
+      "30125668",
+      "33398973",
+      "29703667",
+      "27130552",
+      "31323892",
+      "29105235",
+      "30872258",
+      "36882016",
+      "28885554",
+      "35832620",
+      "34465168",
+      "34111830",
+      "34808408"
+    ],
+    "pmc": [
+      "9581407"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1010572",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36206320/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36206320",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

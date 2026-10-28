@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "40501894",
+    "doi": "10.1101/2025.05.28.656632",
+    "title": "Co-transcriptional folding orchestrates sequential multi-effector sensing by a glycine tandem riboswitch."
+  },
+  "content": {
+    "abstract": "Riboswitches are non-coding RNA motifs that regulate gene expression in response to ligand binding. The glycine tandem riboswitch (GTR) is notable because it comprises two distinct glycine aptamers that interact extensively. These inter-aptamer contacts drive conformational changes in the downstream expression platform to control gene expression. Despite extensive studies, the role of glycine and RNA folding pathways in co-transcriptional regulation remains unclear. Here, we integrate single-molecule kinetic analysis, co-transcriptional RNA structure probing, and computational modeling to reveal that the GTR processes multiple molecular inputs sequentially, guided by polymerase pausing. Our findings elucidate its stepwise 5'-to-3' folding pathway and demonstrate how sequential glycine binding to each aptamer, K(+) binding to a kink-turn, non-native RNA folding intermediates, inter-aptamer docking that drives binding site pre-organization, and modulation by the transcription factor NusA collectively orchestrate co-transcriptional gene regulation. These results support a model in which glycine binding cooperativity arises through non-equilibrium mechanisms rather than a classical concerted model.",
+    "keywords": [
+      "Co-transcriptional RNA folding",
+      "coarse-grained molecular dynamics simulations and modeling",
+      "high-throughput RNA structure probing",
+      "riboswitch",
+      "single-molecule fluorescence microscopy"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Romero, Rosa A",
+        "Chauvier, Adrien",
+        "Teh, Serena S",
+        "Reed, Vincent A",
+        "Zhang, Sicheng",
+        "Szyjka, Courtney E",
+        "Chen, Shi-Jie",
+        "Strobel, Eric J",
+        "Walter, Nils G"
+      ],
+      "short_names": [
+        "Romero RA",
+        "Chauvier A",
+        "Teh SS",
+        "Reed VA",
+        "Zhang S",
+        "Szyjka CE",
+        "Chen SJ",
+        "Strobel EJ",
+        "Walter NG"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7082-2881",
+        "ORCID: 0000-0002-7301-1275"
+      ],
+      "affiliations": [
+        "Single Molecule Analysis Group and Center for RNA Biomedicine, Department of Chemistry, University of Michigan, Ann Arbor, Michigan, 48109, USA.",
+        "Single Molecule Analysis Group and Center for RNA Biomedicine, Department of Chemistry, University of Michigan, Ann Arbor, Michigan, 48109, USA.",
+        "Department of Biological Sciences, University at Buffalo, Buffalo, NY, 14260, USA.",
+        "Single Molecule Analysis Group and Center for RNA Biomedicine, Department of Chemistry, University of Michigan, Ann Arbor, Michigan, 48109, USA.",
+        "Department of Physics and Astronomy, University of Missouri, Columbia, Missouri 65211, USA.",
+        "Department of Biological Sciences, University at Buffalo, Buffalo, NY, 14260, USA.",
+        "Department of Physics and Astronomy, University of Missouri, Columbia, Missouri 65211, USA.",
+        "Department of Biochemistry, University of Missouri, Columbia, Missouri 65211, USA.",
+        "Institute for Data Science and Informatics, University of Missouri, Columbia, Missouri 65211, USA.",
+        "Department of Biological Sciences, University at Buffalo, Buffalo, NY, 14260, USA.",
+        "Single Molecule Analysis Group and Center for RNA Biomedicine, Department of Chemistry, University of Michigan, Ann Arbor, Michigan, 48109, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Romero, Rosa A",
+        "short_name": "Romero RA",
+        "identifiers": [],
+        "affiliations": [
+          "Single Molecule Analysis Group and Center for RNA Biomedicine, Department of Chemistry, University of Michigan, Ann Arbor, Michigan, 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Chauvier, Adrien",
+        "short_name": "Chauvier A",
+        "identifiers": [],
+        "affiliations": [
+          "Single Molecule Analysis Group and Center for RNA Biomedicine, Department of Chemistry, University of Michigan, Ann Arbor, Michigan, 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Teh, Serena S",
+        "short_name": "Teh SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, University at Buffalo, Buffalo, NY, 14260, USA."
+        ]
+      },
+      {
+        "full_name": "Reed, Vincent A",
+        "short_name": "Reed VA",
+        "identifiers": [],
+        "affiliations": [
+          "Single Molecule Analysis Group and Center for RNA Biomedicine, Department of Chemistry, University of Michigan, Ann Arbor, Michigan, 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Sicheng",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Missouri, Columbia, Missouri 65211, USA."
+        ]
+      },
+      {
+        "full_name": "Szyjka, Courtney E",
+        "short_name": "Szyjka CE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, University at Buffalo, Buffalo, NY, 14260, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Shi-Jie",
+        "short_name": "Chen SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Missouri, Columbia, Missouri 65211, USA.",
+          "Department of Biochemistry, University of Missouri, Columbia, Missouri 65211, USA.",
+          "Institute for Data Science and Informatics, University of Missouri, Columbia, Missouri 65211, USA."
+        ]
+      },
+      {
+        "full_name": "Strobel, Eric J",
+        "short_name": "Strobel EJ",
+        "identifiers": [
+          "0000-0002-7082-2881"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, University at Buffalo, Buffalo, NY, 14260, USA."
+        ]
+      },
+      {
+        "full_name": "Walter, Nils G",
+        "short_name": "Walter NG",
+        "identifiers": [
+          "0000-0002-7301-1275"
+        ],
+        "affiliations": [
+          "Single Molecule Analysis Group and Center for RNA Biomedicine, Department of Chemistry, University of Michigan, Ann Arbor, Michigan, 48109, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 May 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/12 11:15",
+    "fetched_at": "2026-09-30 19:47:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39067113",
+      "38729929",
+      "38509203",
+      "38211587",
+      "38030633",
+      "38000388",
+      "36093908",
+      "35758624",
+      "35666452",
+      "35427633",
+      "35348734",
+      "35258320",
+      "35017489",
+      "34782462",
+      "34740970",
+      "34694128",
+      "34604447",
+      "34348029",
+      "34176739",
+      "34023383",
+      "33835023",
+      "33560836",
+      "33453165",
+      "33271312",
+      "32616928",
+      "31992591",
+      "31860665",
+      "31636437",
+      "31175275",
+      "30951833",
+      "30423086",
+      "30388413",
+      "30107842",
+      "29740129",
+      "29507289",
+      "29504937",
+      "29499114",
+      "29114018",
+      "29089431",
+      "28934475",
+      "28541183",
+      "28398514",
+      "28375729",
+      "28134517",
+      "28071751",
+      "27798597",
+      "27442863",
+      "27427937",
+      "26742846",
+      "26426499",
+      "26370077",
+      "25432756",
+      "25246650",
+      "24926020",
+      "24789973",
+      "23249744",
+      "22976082",
+      "22355167",
+      "22279151",
+      "22192063",
+      "21439473",
+      "21145485",
+      "20580964",
+      "20230624",
+      "19680289",
+      "17038623",
+      "15808508",
+      "15472076",
+      "15173824",
+      "14729327",
+      "14604015",
+      "9843952",
+      "8902817"
+    ],
+    "similar": [
+      "40501894",
+      "41690985",
+      "21678902",
+      "23249744",
+      "26361734",
+      "31860665",
+      "35348734",
+      "31992591",
+      "22331895",
+      "25246650",
+      "22279151",
+      "34782462",
+      "30388413",
+      "25092436",
+      "27659053",
+      "41867814",
+      "25726466",
+      "27427937",
+      "21098652",
+      "26343759",
+      "35427633",
+      "29149090",
+      "25726468",
+      "18828635",
+      "40498076",
+      "37522343",
+      "24275497",
+      "40343338",
+      "29223402",
+      "24366448",
+      "21957061",
+      "35934054",
+      "24003028",
+      "39763765",
+      "41057267",
+      "29279370",
+      "37640152",
+      "28541183",
+      "39408823",
+      "34013733",
+      "23440214",
+      "21375305",
+      "34958583",
+      "21653559",
+      "39486689",
+      "33259551",
+      "32790410",
+      "29089431",
+      "23028870",
+      "17440909",
+      "27394096",
+      "27220466",
+      "26106162",
+      "26403229",
+      "22543867",
+      "38585885",
+      "33963862",
+      "37968328",
+      "20194520",
+      "28703767",
+      "35298161",
+      "40961346",
+      "30237163",
+      "40021341",
+      "17693433",
+      "31262445",
+      "25432756",
+      "35736222",
+      "39843437",
+      "29985608",
+      "25726464",
+      "18042658",
+      "21831681",
+      "21592962",
+      "29019403",
+      "37419663",
+      "25550163",
+      "38336293",
+      "39777471",
+      "21097777",
+      "25432754",
+      "39091026",
+      "26404145",
+      "36916791",
+      "36044800",
+      "30328748",
+      "33170270",
+      "32913225",
+      "31550137",
+      "22336759",
+      "30818079",
+      "32544228",
+      "21439473",
+      "26233166",
+      "22425639",
+      "39620905",
+      "28134517",
+      "19381558",
+      "22219369",
+      "40586310"
+    ],
+    "review": [
+      "40501894",
+      "26361734",
+      "35427633",
+      "29149090",
+      "21957061",
+      "39408823",
+      "39486689",
+      "28703767"
+    ],
+    "pmc": [
+      "12154632"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40501894/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.05.28.656632",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

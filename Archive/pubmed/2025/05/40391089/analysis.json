@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40391089",
+  "title": "DRBP-EDP: classification of DNA-binding proteins and RNA-binding proteins using ESM-2 and dual-path neural network.",
+  "authors": "Mu, Qiang; Yu, Guoping; Zhou, Guomin; He, Yubing; Zhang, Jianhua",
+  "journal": "NAR genomics and bioinformatics",
+  "published_date": "2025-05-20",
+  "window": {
+    "start": "2025-05-19",
+    "end": "2025-05-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用ESM-2和双路径神经网络分类DNA/RNA结合蛋白，虽涉及蛋白-DNA互作对象，但仅做序列级分类预测，缺乏三维互作建模与结合机制研究，方法可迁移但深度有限。",
+  "abstract": "Regulation of DNA or RNA at the transcriptional, post-transcriptional, and translational levels are key steps in the central dogma of molecular biology. DNA-binding proteins (DBPs) and RNA-binding proteins (RBPs) play pivotal roles in the precise regulation of gene expression in these steps. Both of these two classes of proteins are nucleic acid-binding proteins (NABPs), so they exhibit significant similarity in both sequence and structure. However, traditional methods for identifying NABPs are typically time-consuming, costly, and challenging to scale up. Utilizing deep learning to classify proteins intelligently has emerged as a more efficient solution for these issues. In this study, we propose a phased classification method integrating ESM-2 with a dual-path neural network, called DRBP-EDP. Additionally, a refined approach to dataset construction is designed, resulting in the creation of high-quality protein classification datasets. The results demonstrated that the model achieved strong performance, with 90.03% accuracy in the first stage for classifying NABPs and non-nucleic acid-binding proteins, and 89.56% accuracy in the second stage for classifying DBPs and RBPs. To enhance accessibility and usability, DRBP-EDP has been developed in both executable and web-based versions, which are publicly available at https://doi.org/10.5281/zenodo.14092184 and https://github.com/MuQiang-MQ/DRBP-EDP.",
+  "abstract_zh": "在转录、转录后及翻译水平上对DNA或RNA的调控是分子生物学中心法则中的关键步骤。DNA结合蛋白（DBPs）和RNA结合蛋白（RBPs）在这些步骤中基因表达的精确调控中扮演着 pivotal 角色。这两类蛋白质均属于核酸结合蛋白（NABPs），因此在序列和结构上表现出显著相似性。然而，传统识别NABPs的方法通常耗时、成本高且难以规模化。利用深度学习对蛋白质进行智能分类已成为解决这些问题的更高效方案。在本研究中，我们提出了一种结合ESM-2与双路径神经网络的分阶段分类方法，称为DRBP-EDP。此外，设计了一种精细的数据集构建方法，从而创建了高质量的蛋白质分类数据集。结果表明，该模型表现出强劲性能，在第一阶段对NABPs与非核酸结合蛋白的分类准确率为90.03%，在第二阶段对DBPs和RBPs的分类准确率为89.56%。为提升可访问性和易用性，DRBP-EDP已开发为可执行版本和网页版本，公开可用，网址为 https://doi.org/10.5281/zenodo.14092184 和 https://github.com/MuQiang-MQ/DRBP-EDP。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40391089/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40391089/",
+  "paper_page_path": "papers/pubmed/40391089/index.html"
+}

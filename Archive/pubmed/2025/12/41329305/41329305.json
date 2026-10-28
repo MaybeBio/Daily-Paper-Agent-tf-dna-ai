@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "41329305",
+    "doi": "10.1186/s41747-025-00653-3",
+    "title": "Deep-learning prediction of breast cancer hormone receptor status from CEM: a preliminary study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hormone receptor (HR) status guides breast cancer therapy. Deep learning (DL) applied to contrast-enhanced mammography (CEM) might offer a noninvasive means for HR status prediction, but class imbalance challenges model development and assessment. This preliminary study investigates CEM-based DL for HR status prediction, focusing on class imbalance handling. MATERIALS AND METHODS: In this retrospective study, CEM tumor crops from 105 patients with invasive breast cancer were used. Patients were randomized into training (n = 68), validation (n = 16), and independent test (n = 21) sets. A \"Residual Network 18\" (ResNet-18), pretrained on ImageNet, was fine-tuned using weighted cross-entropy loss and an Adam optimizer. Model selection used validation area under the precision-recall curve (AUPRC); output probabilities were calibrated via temperature scaling. Performance was reported with accuracy, area under the receiver operating characteristic curve (AUROC), and imbalance-aware metrics (balanced accuracy, Matthews correlation coefficient (MCC)) with 95% confidence intervals (1,000-iteration bootstrap). Results are presented for standard (0.5) and optimized (validation F1-score for HR-negative class) thresholds. RESULTS: Validation AUPRC (model selection metric) was 0.640 (0.304-0.906). On the independent test set (optimized threshold 0.755), the model achieved 91.9% accuracy (86.5-97.3%), AUROC 0.808 (0.648-0.935), balanced accuracy 0.700 (0.550-0.853), and MCC 0.605 (0.296-0.818). CONCLUSION: A ResNet-18, utilizing patient-level data splitting and imbalance-aware fine-tuning, can capture CEM features for HR status, performing well despite significant class imbalance. Generalizability is limited by dataset characteristics and acquisition specifics, warranting further validation in larger, diverse cohorts to establish clinical applicability. RELEVANCE STATEMENT: This work explores whether routinely acquired CEM images contain enough information for DL prediction of HR status. A ResNet-18 was trained with weighted loss and patient-level data splits; performance was quantified with imbalance-aware metrics to provide a realistic assessment in a highly skewed dataset, highlighting both the promise and current constraints of CEM-based molecular imaging. KEY POINTS: A ResNet-18, optimized for class imbalance through weighted training and with calibrated probabilities, predicted HR positivity on CEM with 91.9% accuracy and AUROC 0.81 in an independent test cohort using an F1-tuned threshold. Balanced accuracy (0.70) and MCC (0.60) demonstrate maintained discrimination despite an approximate 85% class imbalance (HR-positive cases). Patient-level splitting was employed to ensure robust evaluation. Limitations related to the dataset's scope and specific imaging protocols may influence broader generalizability.",
+    "keywords": [
+      "Artificial intelligence",
+      "Breast neoplasms",
+      "Deep learning",
+      "Mammography",
+      "Precision medicine"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/diagnostic imaging/metabolism",
+      "*Deep Learning",
+      "Female",
+      "Retrospective Studies",
+      "*Mammography/methods",
+      "Middle Aged",
+      "Contrast Media",
+      "*Receptors, Progesterone/metabolism",
+      "*Receptors, Estrogen/metabolism",
+      "Aged",
+      "Adult"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Carriero, Alessandro",
+        "Albera, Marco",
+        "Meloni, Tomasina",
+        "Rampi, Anna",
+        "Boldorini, Renzo Luciano",
+        "Colarieti, Anna"
+      ],
+      "short_names": [
+        "Carriero A",
+        "Albera M",
+        "Meloni T",
+        "Rampi A",
+        "Boldorini RL",
+        "Colarieti A"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-1054-2552"
+      ],
+      "affiliations": [
+        "Department of Translation Medicine, University of Eastern Piedmont (UPO), Novara, Italy.",
+        "SCDU Radiodiagnostica, Ospedale Maggiore Della Carita, Novara, Italy.",
+        "Department of Translation Medicine, University of Eastern Piedmont (UPO), Novara, Italy. marco.albera@icloud.com.",
+        "SCDU Radiodiagnostica, Ospedale Maggiore Della Carita, Novara, Italy. marco.albera@icloud.com.",
+        "SCDU Radiodiagnostica, Ospedale Maggiore Della Carita, Novara, Italy.",
+        "SCDU Radiodiagnostica, Ospedale Maggiore Della Carita, Novara, Italy.",
+        "Department of Translation Medicine, University of Eastern Piedmont (UPO), Novara, Italy.",
+        "SCDU Anatomia Patologica, Ospedale Maggiore Della Carita, Novara, Italy.",
+        "Department of Translation Medicine, University of Eastern Piedmont (UPO), Novara, Italy.",
+        "SCDU Radiodiagnostica, Ospedale Maggiore Della Carita, Novara, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Carriero, Alessandro",
+        "short_name": "Carriero A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Translation Medicine, University of Eastern Piedmont (UPO), Novara, Italy.",
+          "SCDU Radiodiagnostica, Ospedale Maggiore Della Carità, Novara, Italy."
+        ]
+      },
+      {
+        "full_name": "Albera, Marco",
+        "short_name": "Albera M",
+        "identifiers": [
+          "0009-0009-1054-2552"
+        ],
+        "affiliations": [
+          "Department of Translation Medicine, University of Eastern Piedmont (UPO), Novara, Italy. marco.albera@icloud.com.",
+          "SCDU Radiodiagnostica, Ospedale Maggiore Della Carità, Novara, Italy. marco.albera@icloud.com."
+        ]
+      },
+      {
+        "full_name": "Meloni, Tomasina",
+        "short_name": "Meloni T",
+        "identifiers": [],
+        "affiliations": [
+          "SCDU Radiodiagnostica, Ospedale Maggiore Della Carità, Novara, Italy."
+        ]
+      },
+      {
+        "full_name": "Rampi, Anna",
+        "short_name": "Rampi A",
+        "identifiers": [],
+        "affiliations": [
+          "SCDU Radiodiagnostica, Ospedale Maggiore Della Carità, Novara, Italy."
+        ]
+      },
+      {
+        "full_name": "Boldorini, Renzo Luciano",
+        "short_name": "Boldorini RL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Translation Medicine, University of Eastern Piedmont (UPO), Novara, Italy.",
+          "SCDU Anatomia Patologica, Ospedale Maggiore Della Carità, Novara, Italy."
+        ]
+      },
+      {
+        "full_name": "Colarieti, Anna",
+        "short_name": "Colarieti A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Translation Medicine, University of Eastern Piedmont (UPO), Novara, Italy.",
+          "SCDU Radiodiagnostica, Ospedale Maggiore Della Carità, Novara, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European radiology experimental"
+    ],
+    "journal_abbrev": [
+      "Eur Radiol Exp"
+    ],
+    "pub_date": "2025 Dec 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/02 12:56",
+    "fetched_at": "2026-10-01 07:55:32"
+  },
+  "links": {
+    "cites": [
+      "42698556"
+    ],
+    "refs": [
+      "39924532",
+      "39643464",
+      "38556593",
+      "38374651",
+      "37667143",
+      "37610440",
+      "37181350",
+      "36949047",
+      "36781808",
+      "36201887",
+      "35094119",
+      "31463822",
+      "31234363",
+      "31063083",
+      "28778026",
+      "27865536",
+      "24048724",
+      "24048068",
+      "23790689",
+      "22987963"
+    ],
+    "similar": [
+      "41329305",
+      "38641451",
+      "36409497",
+      "39924532",
+      "37610440",
+      "38428255",
+      "38657641",
+      "38678959",
+      "35094119",
+      "41471551",
+      "40596940",
+      "40624807",
+      "38142176",
+      "39499915",
+      "39395886",
+      "41007196",
+      "37338353",
+      "31463822",
+      "38748500",
+      "39643464",
+      "33647600",
+      "40863884",
+      "39072273",
+      "38581445",
+      "31092346",
+      "39066894",
+      "34668601",
+      "31063083",
+      "38462979",
+      "40418571",
+      "31746687",
+      "39004645",
+      "39369684",
+      "37627859",
+      "40356719",
+      "40849708",
+      "41084879",
+      "37812297",
+      "40882615",
+      "41061345",
+      "40288929",
+      "40143808",
+      "38556593",
+      "39382865",
+      "41464836",
+      "40828572",
+      "40053733",
+      "30811717",
+      "41310253",
+      "41440336",
+      "39862474",
+      "40623423",
+      "41072899",
+      "40153207",
+      "38775671",
+      "33243676",
+      "38734581",
+      "40899931",
+      "40111495",
+      "40241520",
+      "36249697",
+      "39621875",
+      "38955625",
+      "29404850",
+      "39643475",
+      "40525975",
+      "33226454",
+      "41135295",
+      "36522478",
+      "39405734",
+      "37855421",
+      "38812642",
+      "33561545",
+      "39080346",
+      "37209125",
+      "40148997",
+      "38922986",
+      "39799013",
+      "40858830",
+      "34994603",
+      "41329436",
+      "40414575",
+      "41101004",
+      "37988168",
+      "39379571",
+      "40563037",
+      "37962503",
+      "39923739",
+      "39529003",
+      "31228956",
+      "41219899",
+      "40220884",
+      "40849716",
+      "30171822",
+      "37530887",
+      "39506051",
+      "41315645",
+      "40244408",
+      "37160426",
+      "39509749"
+    ],
+    "review": [
+      "41329305",
+      "39643464"
+    ],
+    "pmc": [
+      "12673009"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/mammography.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Mammography"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41329305/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,443 @@
+{
+  "identity": {
+    "pmid": "41637793",
+    "doi": "10.1016/j.breast.2026.104715",
+    "title": "Predicting progression-free survival in hormone-receptor positive (HR+/HER2-) metastatic breast cancer (MBC) treated with CDK4/6 inhibitors: A machine learning approach."
+  },
+  "content": {
+    "abstract": "BACKGROUND: In HR+/HER2- metastatic breast cancer (MBC), CDK4/6 inhibitors combined with endocrine therapy (ET) significantly improve progression-free survival (PFS). Machine learning (ML) approaches may improve individualized progression risk estimation. METHODS: We retrospectively analysed HR+/HER2- MBC patients treated with first-line CDK4/6i plus ET to develop CoxNet regression and Gradient Boosting Machine (GBM) models from baseline clinicopathological features. The primary endpoint was PFS prediction. The dataset was split into a 70/30 train/validation set. Performance was assessed by Harrell's C-index (1000 bootstrap replicates). Risk stratification was performed using Gaussian Mixture Modeling (GMM) to define high- and low-risk groups. Cox regression estimated the corresponding hazard ratios (HR). Early progression at 6 months (EP) prediction was evaluated using the area under the receiver operating characteristic curve (AUROC). RESULTS: 459 patients were included, with a median follow-up of 43.7 months (95% CI 39.6-48.3). Median PFS was 29.3 months (95% CI 24.0-33.7). Both ML models achieved strong predictive performance, with a Harrell's C-index of 0.74 (95% CI 0.67-0.80) in the validation set. The main predictors were liver metastases, Ki67 expression, and primary endocrine resistance. Stratification defined two risk groups with significantly different PFS in the validation set (HR 2.58, 95% CI 1.65-4.03, p = 3.3 x 10(-5)). Median PFS was 34.8 (95%CI 24.0-52.4) in the low-risk and 10.6 (95%CI 7.7-14.6) in the high-risk group. For EP prediction, the model achieved an AUROC of 0.77 (95% CI 0.61-0.89). CONCLUSIONS: This study supports the clinical applicability ML models using baseline clinicopathological variables for individualized risk stratification in HR+/HER2- MBC.",
+    "keywords": [
+      "CDK4/6 inhibitors",
+      "CoxNet regression",
+      "Gradient boosting machine",
+      "Hormone receptor-positive metastatic breast cancer",
+      "Machine learning",
+      "Predictive modelling"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/drug therapy/mortality/pathology/metabolism",
+      "Retrospective Studies",
+      "Progression-Free Survival",
+      "*Cyclin-Dependent Kinase 4/antagonists & inhibitors",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "Predictive Learning Models",
+      "*Cyclin-Dependent Kinase 6/antagonists & inhibitors",
+      "Receptors, Estrogen/metabolism",
+      "*Machine Learning",
+      "Middle Aged",
+      "Boosting Machine Learning Algorithms",
+      "Receptors, Progesterone/metabolism",
+      "Aged",
+      "*Protein Kinase Inhibitors/therapeutic use",
+      "Adult",
+      "Antineoplastic Agents, Hormonal/therapeutic use",
+      "Proportional Hazards Models",
+      "Risk Assessment/methods",
+      "Prediction Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pannunzio, Sergio",
+        "Mastrantoni, Luca",
+        "Maliziola, Noemi",
+        "Pontolillo, Letizia",
+        "Garufi, Giovanna",
+        "Di Monte, Elena",
+        "Emiliani, Alessandra",
+        "Sgambato, Margherita",
+        "Cardillo, Anna",
+        "Palazzo, Antonella",
+        "Orlandi, Armando",
+        "Tortora, Giampaolo",
+        "Bria, Emilio"
+      ],
+      "short_names": [
+        "Pannunzio S",
+        "Mastrantoni L",
+        "Maliziola N",
+        "Pontolillo L",
+        "Garufi G",
+        "Di Monte E",
+        "Emiliani A",
+        "Sgambato M",
+        "Cardillo A",
+        "Palazzo A",
+        "Orlandi A",
+        "Tortora G",
+        "Bria E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Ospedale Isola Tiberina - Gemelli Isola, Roma, Italy.",
+        "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Universita Cattolica del Sacro Cuore, Roma, Italy. Electronic address: luca.mastrantoni01@icatt.it.",
+        "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Universita Cattolica del Sacro Cuore, Roma, Italy.",
+        "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Universita Cattolica del Sacro Cuore, Roma, Italy.",
+        "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Universita Cattolica del Sacro Cuore, Roma, Italy.",
+        "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Universita Cattolica del Sacro Cuore, Roma, Italy.",
+        "Ospedale Isola Tiberina - Gemelli Isola, Roma, Italy.",
+        "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Universita Cattolica del Sacro Cuore, Roma, Italy.",
+        "Ospedale Isola Tiberina - Gemelli Isola, Roma, Italy.",
+        "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Universita Cattolica del Sacro Cuore, Roma, Italy.",
+        "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Universita Cattolica del Sacro Cuore, Roma, Italy.",
+        "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Universita Cattolica del Sacro Cuore, Roma, Italy.",
+        "Ospedale Isola Tiberina - Gemelli Isola, Roma, Italy; Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Universita Cattolica del Sacro Cuore, Roma, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pannunzio, Sergio",
+        "short_name": "Pannunzio S",
+        "identifiers": [],
+        "affiliations": [
+          "Ospedale Isola Tiberina - Gemelli Isola, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Mastrantoni, Luca",
+        "short_name": "Mastrantoni L",
+        "identifiers": [],
+        "affiliations": [
+          "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Università Cattolica del Sacro Cuore, Roma, Italy. Electronic address: luca.mastrantoni01@icatt.it."
+        ]
+      },
+      {
+        "full_name": "Maliziola, Noemi",
+        "short_name": "Maliziola N",
+        "identifiers": [],
+        "affiliations": [
+          "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Università Cattolica del Sacro Cuore, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Pontolillo, Letizia",
+        "short_name": "Pontolillo L",
+        "identifiers": [],
+        "affiliations": [
+          "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Università Cattolica del Sacro Cuore, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Garufi, Giovanna",
+        "short_name": "Garufi G",
+        "identifiers": [],
+        "affiliations": [
+          "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Università Cattolica del Sacro Cuore, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Di Monte, Elena",
+        "short_name": "Di Monte E",
+        "identifiers": [],
+        "affiliations": [
+          "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Università Cattolica del Sacro Cuore, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Emiliani, Alessandra",
+        "short_name": "Emiliani A",
+        "identifiers": [],
+        "affiliations": [
+          "Ospedale Isola Tiberina - Gemelli Isola, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Sgambato, Margherita",
+        "short_name": "Sgambato M",
+        "identifiers": [],
+        "affiliations": [
+          "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Università Cattolica del Sacro Cuore, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Cardillo, Anna",
+        "short_name": "Cardillo A",
+        "identifiers": [],
+        "affiliations": [
+          "Ospedale Isola Tiberina - Gemelli Isola, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Palazzo, Antonella",
+        "short_name": "Palazzo A",
+        "identifiers": [],
+        "affiliations": [
+          "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Università Cattolica del Sacro Cuore, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Orlandi, Armando",
+        "short_name": "Orlandi A",
+        "identifiers": [],
+        "affiliations": [
+          "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Università Cattolica del Sacro Cuore, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Tortora, Giampaolo",
+        "short_name": "Tortora G",
+        "identifiers": [],
+        "affiliations": [
+          "Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Università Cattolica del Sacro Cuore, Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Bria, Emilio",
+        "short_name": "Bria E",
+        "identifiers": [],
+        "affiliations": [
+          "Ospedale Isola Tiberina - Gemelli Isola, Roma, Italy; Comprehensive Cancer Center, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, Università Cattolica del Sacro Cuore, Roma, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Breast (Edinburgh, Scotland)"
+    ],
+    "journal_abbrev": [
+      "Breast"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/04 19:37",
+    "fetched_at": "2026-10-01 13:08:34"
+  },
+  "links": {
+    "cites": [
+      "42588597",
+      "42536225",
+      "42510705"
+    ],
+    "refs": [
+      "40908356",
+      "40737893",
+      "40521566",
+      "40454641",
+      "40454637",
+      "39910103",
+      "39880868",
+      "38626948",
+      "37935631",
+      "37704753",
+      "37673211",
+      "37567880",
+      "36900131",
+      "36713467",
+      "36646803",
+      "36539444",
+      "36306810",
+      "36183055",
+      "35804935",
+      "35665782",
+      "35108029",
+      "35005994",
+      "34875674",
+      "34637323",
+      "34308518",
+      "34297598",
+      "33769862",
+      "33676449",
+      "33538338",
+      "33373867",
+      "32979513",
+      "32694159",
+      "32289274",
+      "31859246",
+      "31786416",
+      "31527167",
+      "30914635",
+      "30807234",
+      "30771872",
+      "30537512",
+      "30032243",
+      "29920138",
+      "29236940",
+      "29232554",
+      "27269946",
+      "21960707"
+    ],
+    "similar": [
+      "41637793",
+      "38861871",
+      "39425174",
+      "31859246",
+      "39982725",
+      "40896879",
+      "41762297",
+      "41068674",
+      "38175669",
+      "40620732",
+      "38513188",
+      "42192452",
+      "38703285",
+      "41950642",
+      "41654790",
+      "41591534",
+      "38480513",
+      "41901569",
+      "41650543",
+      "41921366",
+      "42061371",
+      "40186268",
+      "41619649",
+      "38519708",
+      "41314030",
+      "41851603",
+      "41780642",
+      "42346265",
+      "39267478",
+      "38831191",
+      "33048129",
+      "41444692",
+      "39779447",
+      "41992832",
+      "31970560",
+      "38770648",
+      "39754979",
+      "38706058",
+      "39742382",
+      "34656225",
+      "41670750",
+      "41914486",
+      "42045838",
+      "38879437",
+      "42337391",
+      "33189562",
+      "40922517",
+      "40967066",
+      "40392524",
+      "42048902",
+      "42061370",
+      "41469135",
+      "40440494",
+      "33373867",
+      "41274798",
+      "39087959",
+      "39851968",
+      "39955556",
+      "40581548",
+      "41502524",
+      "41520162",
+      "32956934",
+      "32647939",
+      "40532361",
+      "42002743",
+      "40578027",
+      "40952419",
+      "40682675",
+      "32446638",
+      "41707479",
+      "42095602",
+      "40956180",
+      "41656804",
+      "41713165",
+      "41851017",
+      "41703509",
+      "39020297",
+      "38783218",
+      "40237878",
+      "41037898",
+      "39689274",
+      "41068436",
+      "32497134",
+      "40735999",
+      "40780076",
+      "39413680",
+      "40623476",
+      "41830752",
+      "41318158",
+      "41903892",
+      "39731909",
+      "40682137",
+      "19786658",
+      "38922546",
+      "39305463",
+      "37486454",
+      "41712229",
+      "40804745",
+      "39133334",
+      "33514405"
+    ],
+    "review": [
+      "41637793",
+      "41068674",
+      "42192452",
+      "41654790",
+      "42061371",
+      "33048129",
+      "31970560",
+      "40922517",
+      "41274798",
+      "32647939",
+      "32446638",
+      "41703509",
+      "38783218",
+      "41037898",
+      "39689274",
+      "32497134",
+      "39413680",
+      "39305463"
+    ],
+    "pmc": [
+      "12890713"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0960-9776(26)00025-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41637793/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0960-9776(26)00025-1",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

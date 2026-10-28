@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38884259",
+  "title": "Reinventing gene expression connectivity through regulatory and spatial structural empowerment via principal node aggregation graph neural network.",
+  "authors": "Yan, Fengyao; Jiang, Limin; Chen, Danqian; Ceccarelli, Michele; Guo, Yan",
+  "journal": "Nucleic acids research",
+  "published_date": "2024-06-17",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用图神经网络整合调控与空间结构特征预测基因表达，虽涉及转录因子调控但非TF-DNA结合互作建模，方法可迁移至蛋白-DNA互作研究。",
+  "abstract": "The intricacies of the human genome, manifested as a complex network of genes, transcend conventional representations in text or numerical matrices. The intricate gene-to-gene relationships inherent in this complexity find a more suitable depiction in graph structures. In the pursuit of predicting gene expression, an endeavor shared by predecessors like the L1000 and Enformer methods, we introduce a novel spatial graph-neural network (GNN) approach. This innovative strategy incorporates graph features, encompassing both regulatory and structural elements. The regulatory elements include pair-wise gene correlation, biological pathways, protein-protein interaction networks, and transcription factor regulation. The spatial structural elements include chromosomal distance, histone modification and Hi-C inferred 3D genomic features. Principal Node Aggregation models, validated independently, emerge as frontrunners, demonstrating superior performance compared to traditional regression and other deep learning models. By embracing the spatial GNN paradigm, our method significantly advances the description of the intricate network of gene interactions, surpassing the performance, predictable scope, and initial requirements set by previous methods.",
+  "abstract_zh": "人类基因组的复杂性，表现为一个错综复杂的基因网络，超越了文本或数值矩阵中的传统表示方式。这种复杂性中固有的精细基因间关系，在图结构中找到了更合适的描述方式。在预测基因表达的努力中，这一目标与L1000和Enformer等先前方法共享，我们引入了一种新颖的空间图神经网络（GNN）方法。这一创新策略整合了图特征，涵盖调控和结构元素。调控元素包括基因对相关性、生物通路、蛋白质-蛋白质相互作用网络和转录因子调控。空间结构元素包括染色体距离、组蛋白修饰和Hi-C推断的3D基因组特征。独立验证的主节点聚合模型脱颖而出，展现出优于传统回归和其他深度学习模型的性能。通过采用空间GNN范式，我们的方法显著推进了对基因相互作用复杂网络的描述，超越了先前方法设定的性能、可预测范围和初始要求。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38884259/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38884259/",
+  "paper_page_path": "papers/pubmed/38884259/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39006030",
+  "title": "Molecular insights into programmed cell death in esophageal squamous cell carcinoma.",
+  "authors": "Chen, Min; Qi, Yijun; Zhang, Shenghua; Du, Yubo; Cheng, Haodong; Gao, Shegan",
+  "journal": "PeerJ",
+  "published_date": "2024-07-15",
+  "window": {
+    "start": "2024-07-15",
+    "end": "2024-07-21"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究基于表达谱和机器学习筛选食管鳞癌程序性细胞死亡相关hub基因，并预测其上游转录因子和miRNA，但核心是基因表达与诊断标志物，缺乏蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Esophageal squamous cell carcinoma (ESCC) is a deadly type of esophageal cancer. Programmed cell death (PCD) is an important pathway of cellular self-extermination and is closely involved in cancer progression. A detailed study of its mechanism may contribute to ESCC treatment. METHODS: We obtained expression profiling data of ESCC patients from public databases and genes related to 12 types of PCD from previous studies. Hub genes in ESCC were screened from PCD-related genes applying differential expression analysis, machine learning analysis, linear support vector machine (SVM), random forest and Least Absolute Shrinkage and Selection Operator (LASSO) regression analysis. In addition, based on the HTFtarget and TargetScan databases, transcription factors (TFs) and miRNAs interacting with the hub genes were selected. The relationship between hub genes and immune cells were analyzed using the CIBERSORT algorithm. Finally, to verify the potential impact of the screened hub genes on ESCC occurrence and development, a series of in vitro cell experiments were conducted. RESULTS: We screened 149 PCD-related DEGs, of which five DEGs (INHBA, LRRK2, HSP90AA1, HSPB8, and EIF2AK2) were identified as the hub genes of ESCC. The area under the curve (AUC) of receiver operating characteristic (ROC) curve of the integrated model developed using the hub genes reached 0.997, showing a noticeably high diagnostic accuracy. The number of TFs and miRNAs regulating hub genes was 105 and 22, respectively. INHBA, HSP90AA1 and EIF2AK2 were overexpressed in cancer tissues and cells of ESCC. Notably, INHBA knockdown suppressed ECSS cell migration and invasion and altered the expression of important apoptotic and survival proteins. CONCLUSION: This study identified significant molecules with promising accuracy for the diagnosis of ESCC, which may provide a new perspective and experimental basis for ESCC research.",
+  "abstract_zh": "背景：食管鳞状细胞癌（ESCC）是一种致命的食管癌类型。程序性细胞死亡（PCD）是细胞自我消除的重要途径，与癌症进展密切相关。对其机制的详细研究可能有助于ESCC的治疗。方法：我们从公共数据库获取了ESCC患者的表达谱数据，并从先前研究中获取了与12种PCD类型相关的基因。通过差异表达分析、机器学习分析、线性支持向量机（SVM）、随机森林和最小绝对收缩与选择算子（LASSO）回归分析，从PCD相关基因中筛选出ESCC的核心基因。此外，基于HTFtarget和TargetScan数据库，筛选了与核心基因相互作用的转录因子（TFs）和miRNAs。使用CIBERSORT算法分析了核心基因与免疫细胞之间的关系。最后，为验证筛选出的核心基因对ESCC发生发展的潜在影响，进行了一系列体外细胞实验。结果：我们筛选出149个PCD相关的差异表达基因，其中五个差异表达基因（INHBA、LRRK2、HSP90AA1、HSPB8和EIF2AK2）被确定为ESCC的核心基因。使用核心基因构建的整合模型的受试者工作特征（ROC）曲线下面积（AUC）达到0.997，显示出显著的高诊断准确性。调控核心基因的TFs和miRNAs数量分别为105和22。INHBA、HSP90AA1和EIF2AK2在ESCC的癌组织和细胞中过表达。值得注意的是，INHBA敲低抑制了ESCC细胞迁移和侵袭，并改变了重要的凋亡和存活蛋白的表达。结论：本研究识别了具有良好诊断准确性的重要分子，可能为ESCC研究提供新的视角和实验基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39006030/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39006030/",
+  "paper_page_path": "papers/pubmed/39006030/index.html"
+}

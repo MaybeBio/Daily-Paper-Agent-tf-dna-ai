@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42411323",
+  "title": "FABIAN-variant 2026: improved prediction of the effects of DNA variants on transcription factor binding.",
+  "authors": "Steinhaus, Robin; Robinson, Peter N; Seelow, Dominik",
+  "journal": "Nucleic acids research",
+  "published_date": "2026-07-07",
+  "window": {
+    "start": "2026-07-06",
+    "end": "2026-07-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文介绍FABIAN-variant 2026工具，用PWM/TFFM及BPNet深度学习预测DNA变异对TF结合的影响，虽为工具应用但核心聚焦TF-DNA结合预测，方法含AI，匹配课题。",
+  "abstract": "Variants in promoters and enhancers can alter the binding of transcription factors (TFs), but their functional assessment remains difficult. FABIAN-variant is a web application that predicts the effects of DNA variants on TF binding by comparing position weight matrix (PWM) and transcription factor flexible model (TFFM) scores between reference and variant alleles. Here, we present FABIAN-variant 2026, a major update that expands the prediction model library from ~5000 to over 40 000 models for >1500 human TFs, sourced from nine PWM databases and including 1290 TFFMs. The application now supports the mouse genome (GRCm38 and GRCm39) with over 35 000 models for >1100 mouse TFs. An optional BPNet deep learning scorer provides neural network-based binding predictions for 240 human TFs. Known TF binding site information has been expanded from three to five sources. Predictions for over 1400 heterodimer TF complexes have been added. The web server has been rewritten in Rust and the scoring engine optimized, reducing runtime by ~70%. A RESTful JSON API and a standalone command-line version enable programmatic access and local high-throughput analysis. FABIAN-variant 2026 is available at https://fabianapp.org/variant26/. The web server is free and open to all users and there is no login requirement.",
+  "abstract_zh": "启动子和增强子中的变异可以改变转录因子（TFs）的结合，但其功能评估仍然困难。FABIAN-variant是一个网络应用程序，通过比较参考等位基因和变异等位基因之间的位置权重矩阵（PWM）和转录因子灵活模型（TFFM）分数，预测DNA变异对TF结合的影响。在此，我们介绍FABIAN-variant 2026，这是一次重大更新，将预测模型库从约5000个扩展到超过40000个模型，覆盖超过1500个人类TFs，数据来源于九个PWM数据库，并包括1290个TFFMs。该应用程序现在支持小鼠基因组（GRCm38和GRCm39），拥有超过35000个模型，覆盖超过1100个小鼠TFs。一个可选的BPNet深度学习评分器为240个人类TFs提供基于神经网络的结合预测。已知TF结合位点信息已从三个来源扩展到五个来源。已添加超过1400个异二聚体TF复合物的预测。网络服务器已用Rust重写，评分引擎经过优化，运行时间减少约70%。一个RESTful JSON API和一个独立的命令行版本支持程序化访问和本地高通量分析。FABIAN-variant 2026可在https://fabianapp.org/variant26/获取。该网络服务器对所有用户免费开放，无需登录。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42411323/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42411323/",
+  "paper_page_path": "papers/pubmed/42411323/index.html"
+}

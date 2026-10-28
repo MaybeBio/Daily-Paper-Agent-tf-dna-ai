@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "42100742",
+    "doi": "10.1016/j.isci.2026.115795",
+    "title": "Predicting protein-nucleic acid interactions via protein language models with biophysical and evolutionary priors."
+  },
+  "content": {
+    "abstract": "Protein interactions with nucleic acids are fundamental to numerous biological processes. Here, we present PNABPred, a multi-modal framework that integrates biophysical and evolutionary priors into a protein language model to predict protein-nucleic acid interactions. Specifically, semantic representations are combined with classical evolutionary representations and biophysical representations. Our results showed that PNABPred outperforms other state-of-the-art sequence-based methods. In RNA-binding protein classification tasks, PNABPred achieved an Matthews correlation coefficient (MCC) of 0.889 and area under the receiver operating characteristic curve (AUROC) of 0.990, 17.44% and 3.23% higher than the next best method (Seq-RBPPred), respectively. In DNA-binding site prediction, PNABPred also outperformed the transformer-based method CLAPE-DB by 20.31% and 4.65% (MCC 0.468; AUROC 0.922) on the Test_129 dataset. PNABPred employs only protein sequences as inputs, identifying nucleic acid binding sites even in intrinsically disordered regions. This framework supports scalable sequence screening and annotation of nucleic acid-binding proteins for basic research, biotechnology, and therapeutic development applications.",
+    "keywords": [
+      "biophysics",
+      "computational bioinformatics",
+      "machine learning"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Su, Zidong",
+        "Zhang, Xiaochun",
+        "Tian, Boxue"
+      ],
+      "short_names": [
+        "Su Z",
+        "Zhang X",
+        "Tian B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "MOE Key Laboratory of Bioinformatics, State Key Laboratory of Molecular Oncology, Beijing Frontier Research Center for Biological Structure, School of Pharmaceutical Sciences, Tsinghua University, Beijing 100084, China.",
+        "MOE Key Laboratory of Bioinformatics, State Key Laboratory of Molecular Oncology, Beijing Frontier Research Center for Biological Structure, School of Pharmaceutical Sciences, Tsinghua University, Beijing 100084, China.",
+        "MOE Key Laboratory of Bioinformatics, State Key Laboratory of Molecular Oncology, Beijing Frontier Research Center for Biological Structure, School of Pharmaceutical Sciences, Tsinghua University, Beijing 100084, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Su, Zidong",
+        "short_name": "Su Z",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics, State Key Laboratory of Molecular Oncology, Beijing Frontier Research Center for Biological Structure, School of Pharmaceutical Sciences, Tsinghua University, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaochun",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics, State Key Laboratory of Molecular Oncology, Beijing Frontier Research Center for Biological Structure, School of Pharmaceutical Sciences, Tsinghua University, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Boxue",
+        "short_name": "Tian B",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bioinformatics, State Key Laboratory of Molecular Oncology, Beijing Frontier Research Center for Biological Structure, School of Pharmaceutical Sciences, Tsinghua University, Beijing 100084, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "iScience"
+    ],
+    "journal_abbrev": [
+      "iScience"
+    ],
+    "pub_date": "2026 May 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/08 06:32",
+    "fetched_at": "2026-10-01 19:59:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41643061",
+      "39426953",
+      "39345796",
+      "39304764",
+      "39244557",
+      "39202449",
+      "39103447",
+      "38718835",
+      "38524500",
+      "38349057",
+      "38301174",
+      "38281252",
+      "38171929",
+      "36927031",
+      "36866529",
+      "36719781",
+      "35943134",
+      "35650286",
+      "35388192",
+      "35039821",
+      "34791371",
+      "34265844",
+      "34232869",
+      "34073705",
+      "33577689",
+      "33454744",
+      "33410688",
+      "32797179",
+      "31666519",
+      "31267738",
+      "30943723",
+      "30668479",
+      "30323214",
+      "30169574",
+      "30040656",
+      "29846643",
+      "29425488",
+      "29126224",
+      "28132027",
+      "27993780",
+      "26410586",
+      "24846307",
+      "23975762",
+      "23087378",
+      "22198341",
+      "20684613",
+      "20140026",
+      "19736561",
+      "15851683",
+      "15312763",
+      "12589754",
+      "10982878",
+      "10802651",
+      "9309224",
+      "1438297"
+    ],
+    "similar": [
+      "42100742",
+      "41959628",
+      "42475469",
+      "42012716",
+      "41045511",
+      "31847804",
+      "29028926",
+      "38830995",
+      "37883249",
+      "40919912",
+      "38171929",
+      "31714956",
+      "39576667",
+      "42227990",
+      "39506806",
+      "23912807",
+      "28361677",
+      "40601256",
+      "25708928",
+      "40914361",
+      "36458437",
+      "39961524",
+      "39276905",
+      "41020638",
+      "37824738",
+      "25113160",
+      "38524500",
+      "38281252",
+      "27993780",
+      "33685590",
+      "40601265",
+      "41168713",
+      "39202449",
+      "25907142",
+      "34905768",
+      "40492245",
+      "39833102",
+      "38166858",
+      "33454744",
+      "20677174",
+      "22574904",
+      "30323214",
+      "38812466",
+      "37745556",
+      "42239143",
+      "22373313",
+      "38871095",
+      "26776208",
+      "41990738",
+      "40961942",
+      "39848362",
+      "41256652",
+      "41628239",
+      "32631222",
+      "36421723",
+      "41608988",
+      "38701796",
+      "41977286",
+      "40027759",
+      "42163392",
+      "41399733",
+      "40236839",
+      "39695955",
+      "37651627",
+      "38015872",
+      "35150250",
+      "38349057",
+      "40944448",
+      "30442086",
+      "40143108",
+      "39566793",
+      "40086131",
+      "40975372",
+      "35652477",
+      "19091029",
+      "32949607",
+      "32082172",
+      "40728618",
+      "41596767",
+      "41921197",
+      "41212592",
+      "31026297",
+      "41902287",
+      "31412138",
+      "42441732",
+      "38630609",
+      "40772277",
+      "21268114",
+      "36232325",
+      "30808287",
+      "20483814",
+      "31393553",
+      "41257586",
+      "24211525",
+      "39270885",
+      "41653519",
+      "39576589",
+      "39990254",
+      "25708089",
+      "36416116"
+    ],
+    "review": [
+      "42100742",
+      "31714956",
+      "39202449",
+      "39833102"
+    ],
+    "pmc": [
+      "13146549"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(26)01170-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42100742/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4044",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

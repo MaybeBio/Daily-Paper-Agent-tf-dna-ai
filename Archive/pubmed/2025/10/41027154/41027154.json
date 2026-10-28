@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "41027154",
+    "doi": "10.1016/j.phymed.2025.157269",
+    "title": "Artesunate triggers ferroptosis in ovarian cancer via GP130-mediated IL-6/STAT3/OTUB1/SLC711 axis disruption."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ovarian cancer (OC) is highly malignant with suboptimal current therapeutic outcomes. Ferroptosis is a novel cell death mode. Artesunate (ART) has demonstrated relatively broad-spectrum anticancer effects recently, yet whether it can suppress OC by inducing ferroptosis, along with the underlying mechanisms, warrants further exploration. PURPOSE: To clarify the anti-OC effect and mechanism of ART, focusing on ferroptosis induction and identify its therapeutic target. METHODS: ART's anti-OC effects were assessed in vitro via cell counting kit-8, live-cell staining, scratch, and transwell assays. In vivo efficacy and safety of ART were evaluated in OC-bearing mice. Ferroptosis markers were analyzed by enzyme linked immunosorbent assay, western blot, and reverse transcription quantitative polymerase chain reaction, especially OTU domain-containing ubiquitin aldehyde-binding protein 1 (OTUB1)-mediated solute carrier family 7 member 11 (SLC7A11) deubiquitination was measured by co-immunoprecipitation. RNA-seq profiled transcriptional changes, and signal transducer and activator of transcription 3 (STAT3) regulation of OTUB1 was confirmed by dual-luciferase reporter and chromatin immunoprecipitation quantitative polymerase chain reaction assays. ART binding to the interleukin-6 (IL-6)/interleukin-6 receptor (IL-6R)/glycoprotein 130 (GP130) complex was determined by bioluminescence resonance energy transfer, cellular thermal shift assay, molecular docking, and dynamics simulations. GP130 point mutations validated the functional binding site. RESULTS: ART induced ferroptosis in OC cells by targeting GP130, inhibiting cell viability and hindering cell invasion/metastasis. In vivo, ART significantly suppressed the tumor growth of OC-bearing mice, and the tumor volume inhibitory rate and weight inhibitory rate of ART (5 mg/kg) was (82.34+/-4.97 %) and (78.27+/-4.74 %), respectively, and no side effects were observed. Mechanistically, ART bond to lysine 250 (Lys250) of GP130 (GP130(Lys250)), disrupting IL-6/IL-6R/GP130 complex formation. This suppressed the IL-6/STAT3 pathway, inhibiting STAT3-mediated OTUB1 transcription and subsequent OTUB1-mediated SLC7A11 deubiquitination. The resulting antioxidant dysfunction led to reactive oxygen species accumulation and ferroptosis. CONCLUSION: ART exerted potent anti-OC effects by targeting GP130(Lys250), disrupting IL-6/STAT3 signaling, downregulating OTUB1, promoting SLC7A11 degradation, and triggering ferroptosis. The identification of GP130(Lys250) as ART's precise binding site and the novel IL-6/STAT3/OTUB1/SLC7A11 axis represent significant mechanistic innovations. ART is a highly promising and safe candidate for OC therapy.",
+    "keywords": [
+      "Artesunate",
+      "Ferroptosis",
+      "GP130(Lys250)",
+      "GP130/IL-6/STAT3/OTUB1/SLC7A11 Pathway",
+      "Ovarian cancer"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/drug effects",
+      "*Artesunate/pharmacology",
+      "Female",
+      "Animals",
+      "STAT3 Transcription Factor/metabolism",
+      "*Ovarian Neoplasms/drug therapy/metabolism",
+      "Interleukin-6/metabolism",
+      "Humans",
+      "Mice",
+      "Cytokine Receptor gp130/metabolism",
+      "Cell Line, Tumor",
+      "Amino Acid Transport System y+/metabolism",
+      "Signal Transduction/drug effects",
+      "Mice, Inbred BALB C",
+      "Mice, Nude"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nie, Dengyun",
+        "Zhang, Han",
+        "Wang, Hua",
+        "Song, Weiwei",
+        "Yuan, Donglan",
+        "Zhu, Dandan",
+        "Mao, Guangyao",
+        "Guo, Ting",
+        "Lin, Mei"
+      ],
+      "short_names": [
+        "Nie D",
+        "Zhang H",
+        "Wang H",
+        "Song W",
+        "Yuan D",
+        "Zhu D",
+        "Mao G",
+        "Guo T",
+        "Lin M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, Jiangsu 225300, China; Nanjing Hospital of Traditional Chinese Medicine Affiliated to Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210022, China.",
+        "College of Traditional Chinese Medicine, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China.",
+        "College of Traditional Chinese Medicine, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China.",
+        "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, Jiangsu 225300, China.",
+        "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, Jiangsu 225300, China.",
+        "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, Jiangsu 225300, China.",
+        "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, Jiangsu 225300, China.",
+        "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, Jiangsu 225300, China. Electronic address: wangjunguoting2008@163.com.",
+        "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, Jiangsu 225300, China. Electronic address: linmei@njmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nie, Dengyun",
+        "short_name": "Nie D",
+        "identifiers": [],
+        "affiliations": [
+          "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, Jiangsu 225300, China; Nanjing Hospital of Traditional Chinese Medicine Affiliated to Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210022, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Han",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hua",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Nanjing University of Chinese Medicine, Nanjing, Jiangsu 210023, China."
+        ]
+      },
+      {
+        "full_name": "Song, Weiwei",
+        "short_name": "Song W",
+        "identifiers": [],
+        "affiliations": [
+          "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, Jiangsu 225300, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Donglan",
+        "short_name": "Yuan D",
+        "identifiers": [],
+        "affiliations": [
+          "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, Jiangsu 225300, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Dandan",
+        "short_name": "Zhu D",
+        "identifiers": [],
+        "affiliations": [
+          "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, Jiangsu 225300, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Guangyao",
+        "short_name": "Mao G",
+        "identifiers": [],
+        "affiliations": [
+          "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, Jiangsu 225300, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Ting",
+        "short_name": "Guo T",
+        "identifiers": [],
+        "affiliations": [
+          "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, Jiangsu 225300, China. Electronic address: wangjunguoting2008@163.com."
+        ]
+      },
+      {
+        "full_name": "Lin, Mei",
+        "short_name": "Lin M",
+        "identifiers": [],
+        "affiliations": [
+          "Taizhou People's Hospital Affiliated to Nanjing Medical University, Taizhou, Jiangsu 225300, China. Electronic address: linmei@njmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Phytomedicine : international journal of phytotherapy and phytopharmacology"
+    ],
+    "journal_abbrev": [
+      "Phytomedicine"
+    ],
+    "pub_date": "2025 Nov 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/01 00:28",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [
+      "42630610",
+      "42071169",
+      "41896913"
+    ],
+    "refs": [],
+    "similar": [
+      "41027154",
+      "40716132",
+      "40722241",
+      "41288840",
+      "39380001",
+      "40846041",
+      "41111379",
+      "40412057",
+      "40582584",
+      "39393329",
+      "41085851",
+      "32940862",
+      "28672024",
+      "29777330",
+      "30648776",
+      "28430601",
+      "41235254",
+      "39032284",
+      "38970266",
+      "40456202",
+      "38837315",
+      "38610018",
+      "21940958",
+      "36809917",
+      "40405780",
+      "40233842",
+      "34614446",
+      "27740621",
+      "38946134",
+      "39800242",
+      "41086957",
+      "35029286",
+      "41187650",
+      "38744789",
+      "39911124",
+      "39642461",
+      "40186304",
+      "40137309",
+      "24802752",
+      "41451920",
+      "40890129",
+      "41341590",
+      "37713785",
+      "37326033",
+      "23536726",
+      "40578675",
+      "30852762",
+      "39768178",
+      "40876907",
+      "40645965",
+      "41231318",
+      "39030862",
+      "39026029",
+      "38994627",
+      "30709928",
+      "37210575",
+      "39500657",
+      "31281526",
+      "41077887",
+      "33500736",
+      "17241879",
+      "39097833",
+      "22268122",
+      "15277221",
+      "39731835",
+      "40154588",
+      "41081614",
+      "34628002",
+      "41177013",
+      "38615741",
+      "34707773",
+      "41062811",
+      "40271825",
+      "40300261",
+      "39788329",
+      "40359890",
+      "39706065",
+      "34927544",
+      "26910614",
+      "39566402",
+      "39427521",
+      "39383632",
+      "41397158",
+      "38243946",
+      "26847351",
+      "35159191",
+      "37047012",
+      "41172918",
+      "32552789",
+      "41061872",
+      "40101533",
+      "38663336",
+      "41213937",
+      "40976126",
+      "39318043",
+      "40460255",
+      "36410184",
+      "38652227",
+      "39600281",
+      "11959895"
+    ],
+    "review": [
+      "41027154"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(25)00908-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

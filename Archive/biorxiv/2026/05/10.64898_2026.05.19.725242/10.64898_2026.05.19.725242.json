@@ -1,0 +1,391 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.05.19.725242",
+  "title": "PlasmidLM: A Promptable DNA Language Model via Verifiable-Reward Post-Training",
+  "doi": "10.64898/2026.05.19.725242",
+  "abstract": "Generative DNA models are typically next-token completers: they extend a sequence but offer no native interface for telling the model what to make. PlasmidLM is a promptable DNA language model for plasmids. A designer supplies a human-readable component specification, for example a high-copy E. coli vector with kanamycin resistance and an EGFP reporter, and the model generates the corresponding multi-kilobase construct in a single autoregressive pass. Prompts are unordered sets of named-part tokens at the granularity of biological shorthand, not learned latent codes or rigid grammars. We evaluate outputs along two axes: a sequence is viable if structurally plausible as a plasmid, and faithful if its detected components match the prompt. Their conjunction is the useful-plasmid rate , the primary metric we report. On a held-out 1,000-prompt benchmark, the post-trained model achieves a useful-plasmid rate of 48.5% at single-shot decoding and 89.7% under best-of-4 sampling. Verifiable-reward post-training with GRPO against a 660-entry sequence motif registry improves the useful-plasmid rate across all sampling budgets. We release the 19.3M-parameter model, evaluation suite, and a paired benchmark of prompt-sequence pairs.",
+  "authors": [
+    "McClain Thiel",
+    "Chris P. Barnes"
+  ],
+  "published_date": "2026-05-21",
+  "updated_date": "2026-05-21T22:45:26Z",
+  "journal": "bioRxiv",
+  "category": "Bioengineering",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.05.19.725242",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.19.725242.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioengineering"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioengineering",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            24
+          ]
+        ],
+        "date-time": "2026-05-24T03:04:10Z",
+        "timestamp": 1779591850914,
+        "version": "3.53.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ]
+      },
+      "group-title": "Bioengineering",
+      "reference-count": 38,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                21
+              ]
+            ],
+            "date-time": "2026-05-21T00:00:00Z",
+            "timestamp": 1779321600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Generative DNA models are typically next-token completers: they extend a sequence but offer no native interface for telling the model what to make. PlasmidLM is a promptable DNA language model for plasmids. A designer supplies a human-readable component specification, for example a high-copy\n                  <jats:italic>E. coli</jats:italic>\n                  vector with kanamycin resistance and an EGFP reporter, and the model generates the corresponding multi-kilobase construct in a single autoregressive pass. Prompts are unordered sets of named-part tokens at the granularity of biological shorthand, not learned latent codes or rigid grammars. We evaluate outputs along two axes: a sequence is\n                  <jats:italic>viable</jats:italic>\n                  if structurally plausible as a plasmid, and\n                  <jats:italic>faithful</jats:italic>\n                  if its detected components match the prompt. Their conjunction is the\n                  <jats:italic>useful-plasmid rate</jats:italic>\n                  , the primary metric we report. On a held-out 1,000-prompt benchmark, the post-trained model achieves a useful-plasmid rate of 48.5% at single-shot decoding and 89.7% under best-of-4 sampling. Verifiable-reward post-training with GRPO against a 660-entry sequence motif registry improves the useful-plasmid rate across all sampling budgets. We release the 19.3M-parameter model, evaluation suite, and a paired benchmark of prompt-sequence pairs.\n                </jats:p>",
+      "DOI": "10.64898/2026.05.19.725242",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ],
+        "date-time": "2026-05-21T22:45:26Z",
+        "timestamp": 1779403526000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "PlasmidLM: A Promptable DNA Language Model via Verifiable-Reward Post-Training"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5633-6115",
+          "authenticated-orcid": false,
+          "given": "McClain",
+          "family": "Thiel",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Cell and Developmental Biology, University College London, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chris P.",
+          "family": "Barnes",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Cell and Developmental Biology, University College London, London, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.1",
+          "unstructured": "Addgene. Addgene: The nonprofit plasmid repository. https://www.addgene.org, 2024. Accessed: 2026-03-01."
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.2",
+          "unstructured": "Sarah Alamdari , Nitya Thakkar , Rianne van den Berg , et al. EvoDiff: Generation of protein sequences and evolutionary alignments via discrete diffusion models. bioRxiv, 2023."
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-026-10176-5"
+        },
+        {
+          "issue": "5",
+          "key": "2026052319100522000_2026.05.19.725242v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "27",
+          "DOI": "10.21105/joss.00027",
+          "article-title": "sourmash: a library for MinHash sketching of DNA",
+          "volume": "1",
+          "year": "2016",
+          "journal-title": "Journal of Open Source Software"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.5",
+          "unstructured": "Zicheng Chen et al. Multimodal cell context instruction tuning for conditional DNA regulatory sequence generation with large language models. bioRxiv, 2024."
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.6",
+          "unstructured": "Paul F. Christiano , Jan Leike , Tom Brown , Miljan Martic , Shane Legg , and Dario Amodei . Deep reinforcement learning from human preferences. Advances in Neural Information Processing Systems, 30, 2017."
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.64898/2025.12.06.692736"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-024-02523-z"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-11-119"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.10",
+          "unstructured": "Moksh Jain , Emmanuel Bengio , Alex Hernandez-Garcia , et al. Biological sequence design with GFlowNets. International Conference on Machine Learning, 2022."
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.11",
+          "unstructured": "Victoria Krakovna , Jonathan Uesato , Vladimir Mikulik , Matthew Rahtz , Tom Everitt , Ramana Kumar , Zac Kenton , Jan Leike , and Shane Legg . Specification gaming: The flip side of AI ingenuity. DeepMind Blog, 2020. URL https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/."
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.12",
+          "article-title": "Tülu 3: Pushing frontiers in open language model post-training",
+          "year": "2024",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.13",
+          "unstructured": "Hunter Lightman , Vineet Kosaraju , Yura Burda , Harri Edwards , Bowen Baker , Teddy Lee , Jan Leike , John Schulman , Ilya Sutskever , and Karl Cobbe . Let’s verify step by step. International Conference on Learning Representations, 2024."
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "26",
+          "DOI": "10.1186/1748-7188-6-26",
+          "article-title": "ViennaRNA package 2.0",
+          "volume": "6",
+          "year": "2011",
+          "journal-title": "Algorithms for Molecular Biology"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-022-01618-2"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab374"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bti774"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.292"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.19",
+          "unstructured": "Eric Nguyen , Michael Poli , Matthew Faber , et al. HyenaDNA: Long-range genomic sequence modeling at single nucleotide resolution. Advances in Neural Information Processing Systems, 36, 2023."
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ado9336"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.21",
+          "unstructured": "Long Ouyang , Jeff Wu , Xu Jiang , Diogo Almeida , Carroll L. Wainwright , Pamela Mishkin , Chong Zhang , Sandhini Agarwal , Katarina Slama , Alex Ray , et al. Training language models to follow instructions with human feedback. Advances in Neural Information Processing Systems, 35, 2022."
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ofir Press and Lior Wolf . Using the output embedding to improve language models. In Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics (EACL), pages 157–163, 2017.",
+          "DOI": "10.18653/v1/E17-2025"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.23",
+          "unstructured": "Rafael Rafailov , Archit Sharma , Eric Mitchell , Stefano Ermon , Christopher D. Manning , and Chelsea Finn . Direct preference optimization: Your language model is secretly a reward model. Advances in Neural Information Processing Systems, 36, 2023."
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1568"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0164-5"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.26",
+          "article-title": "DeepSeekMath: Pushing the limits of mathematical reasoning in open language models",
+          "year": "2024",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/15.3.1281"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.28",
+          "unstructured": "Joar Skalse , Nikolaus H. R. Howe , Dmitrii Krasheninnikov , and David Krueger . Defining and characterizing reward hacking. Advances in Neural Information Processing Systems, 35, 2022."
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.29",
+          "unstructured": "Hannes Stark , Bowen Jing , Chenyu Wang , Gabriele Corso , Bonnie Berger , Regina Barzilay , and Tommi Jaakkola . Dirichlet flow matching with applications to DNA sequence design. International Conference on Machine Learning, 2024."
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.30",
+          "unstructured": "Nisan Stiennon , Long Ouyang , Jeffrey Wu , Daniel M. Ziegler , Ryan Lowe , Chelsea Voss , Alec Radford , Dario Amodei , and Paul F. Christiano . Learning to summarize with human feedback. Advances in Neural Information Processing Systems, 33, 2020."
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neucom.2023.127063"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06936-2"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.64898/2026.03.24.713963"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.34",
+          "unstructured": "Jason Wei , Maarten Bosma , Vincent Zhao , Kelvin Guu , Adams Wei Yu , Brian Lester , Nan Du , Andrew M. Dai , and Quoc V. Le . Finetuned language models are zero-shot learners. International Conference on Learning Representations, 2022."
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.35",
+          "article-title": "Bridging sequence-structure alignment in RNA foundation models",
+          "year": "2024",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.36",
+          "unstructured": "Biao Zhang and Rico Sennrich . Root mean square layer normalization. In Advances in Neural Information Processing Systems (NeurIPS), volume 32, 2019."
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "10752",
+          "DOI": "10.1038/s41598-019-47148-x",
+          "article-title": "Optimization of molecules via deep reinforcement learning",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2026052319100522000_2026.05.19.725242v1.38",
+          "unstructured": "Zhihan Zhou , Yanrong Ji , Weijian Li , Pratik Dutta , Ramana V. Davuluri , and Han Liu . DNABERT-2: Efficient foundation model and benchmark for multi-species genomes. International Conference on Learning Representations, 2024."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.05.19.725242",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            24
+          ]
+        ],
+        "date-time": "2026-05-24T02:10:16Z",
+        "timestamp": 1779588616000
+      },
+      "score": 82.980446,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.05.19.725242"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ]
+      },
+      "references-count": 38,
+      "URL": "https://doi.org/10.64898/2026.05.19.725242",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            21
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

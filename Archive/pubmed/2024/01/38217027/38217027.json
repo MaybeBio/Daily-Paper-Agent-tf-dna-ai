@@ -1,0 +1,350 @@
+{
+  "identity": {
+    "pmid": "38217027",
+    "doi": "10.1186/s13059-023-03158-7",
+    "title": "ChIPr: accurate prediction of cohesin-mediated 3D genome organization from 2D chromatin features."
+  },
+  "content": {
+    "abstract": "The three-dimensional genome organization influences diverse nuclear processes. Here we present Chromatin Interaction Predictor (ChIPr), a suite of regression models based on deep neural networks, random forest, and gradient boosting to predict cohesin-mediated chromatin interaction strength between any two loci in the genome. The predictions of ChIPr correlate well with ChIA-PET data in four cell lines. The standard ChIPr model requires three experimental inputs: ChIP-Seq signals for RAD21, H3K27ac, and H3K27me3 but works well with just RAD21 signal. Integrative analysis reveals novel insights into the role of CTCF motif, its orientation, and CTCF binding on cohesin-mediated chromatin interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin",
+      "*Cohesins",
+      "CCCTC-Binding Factor/metabolism",
+      "Chromosomal Proteins, Non-Histone/genetics/metabolism",
+      "Cell Cycle Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Abbas, Ahmed",
+        "Chandratre, Khyati",
+        "Gao, Yunpeng",
+        "Yuan, Jiapei",
+        "Zhang, Michael Q",
+        "Mani, Ram S"
+      ],
+      "short_names": [
+        "Abbas A",
+        "Chandratre K",
+        "Gao Y",
+        "Yuan J",
+        "Zhang MQ",
+        "Mani RS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4486-5669",
+        "ORCID: 0000-0003-3698-3670",
+        "ORCID: 0000-0003-4746-4614",
+        "ORCID: 0000-0002-9381-8623",
+        "ORCID: 0000-0002-7022-6115",
+        "ORCID: 0000-0003-3552-7905"
+      ],
+      "affiliations": [
+        "Department of Pathology, UT Southwestern Medical Center, Dallas, TX, 75390, USA.",
+        "Department of Biological Sciences, Center for Systems Biology, The University of Texas at Dallas, Richardson, TX, 75080, USA.",
+        "Department of Pathology, UT Southwestern Medical Center, Dallas, TX, 75390, USA.",
+        "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin, 300020, China.",
+        "Department of Biological Sciences, Center for Systems Biology, The University of Texas at Dallas, Richardson, TX, 75080, USA. michael.zhang@utdallas.edu.",
+        "Department of Pathology, UT Southwestern Medical Center, Dallas, TX, 75390, USA. ram.mani@utsouthwestern.edu.",
+        "Department of Urology, UT Southwestern Medical Center, Dallas, TX, 75390, USA. ram.mani@utsouthwestern.edu.",
+        "Harold C. Simmons Comprehensive Cancer Center, UT Southwestern Medical Center, Dallas, TX, 75390, USA. ram.mani@utsouthwestern.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Abbas, Ahmed",
+        "short_name": "Abbas A",
+        "identifiers": [
+          "0000-0002-4486-5669"
+        ],
+        "affiliations": [
+          "Department of Pathology, UT Southwestern Medical Center, Dallas, TX, 75390, USA."
+        ]
+      },
+      {
+        "full_name": "Chandratre, Khyati",
+        "short_name": "Chandratre K",
+        "identifiers": [
+          "0000-0003-3698-3670"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Center for Systems Biology, The University of Texas at Dallas, Richardson, TX, 75080, USA."
+        ]
+      },
+      {
+        "full_name": "Gao, Yunpeng",
+        "short_name": "Gao Y",
+        "identifiers": [
+          "0000-0003-4746-4614"
+        ],
+        "affiliations": [
+          "Department of Pathology, UT Southwestern Medical Center, Dallas, TX, 75390, USA."
+        ]
+      },
+      {
+        "full_name": "Yuan, Jiapei",
+        "short_name": "Yuan J",
+        "identifiers": [
+          "0000-0002-9381-8623"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Haihe Laboratory of Cell Ecosystem, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin, 300020, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Michael Q",
+        "short_name": "Zhang MQ",
+        "identifiers": [
+          "0000-0002-7022-6115"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Center for Systems Biology, The University of Texas at Dallas, Richardson, TX, 75080, USA. michael.zhang@utdallas.edu."
+        ]
+      },
+      {
+        "full_name": "Mani, Ram S",
+        "short_name": "Mani RS",
+        "identifiers": [
+          "0000-0003-3552-7905"
+        ],
+        "affiliations": [
+          "Department of Pathology, UT Southwestern Medical Center, Dallas, TX, 75390, USA. ram.mani@utsouthwestern.edu.",
+          "Department of Urology, UT Southwestern Medical Center, Dallas, TX, 75390, USA. ram.mani@utsouthwestern.edu.",
+          "Harold C. Simmons Comprehensive Cancer Center, UT Southwestern Medical Center, Dallas, TX, 75390, USA. ram.mani@utsouthwestern.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2024 Jan 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/13 00:42",
+    "fetched_at": "2026-10-04 23:40:25"
+  },
+  "links": {
+    "cites": [
+      "42289051",
+      "41891880",
+      "40829174",
+      "40588575",
+      "40446799",
+      "39708837"
+    ],
+    "refs": [
+      "37381036",
+      "36624151",
+      "35832620",
+      "35551308",
+      "34399797",
+      "34265844",
+      "33953379",
+      "33576390",
+      "33454752",
+      "32728247",
+      "32343676",
+      "32213324",
+      "31804952",
+      "31740966",
+      "30606742",
+      "29126249",
+      "29087948",
+      "28855260",
+      "28358394",
+      "27625391",
+      "27445307",
+      "27322403",
+      "26686651",
+      "26392354",
+      "26316348",
+      "26119342",
+      "25497547",
+      "24782518",
+      "24335803",
+      "24335146",
+      "23041285",
+      "22955616",
+      "22923296",
+      "22495304",
+      "22495300",
+      "22265598",
+      "21081511",
+      "20689021",
+      "20513432",
+      "20110278",
+      "19890323",
+      "19815776",
+      "12054902",
+      "11847345",
+      "2055469"
+    ],
+    "similar": [
+      "38217027",
+      "38670416",
+      "32680543",
+      "38206813",
+      "38808662",
+      "29593713",
+      "23010778",
+      "22740398",
+      "22952237",
+      "28467304",
+      "29757144",
+      "18550811",
+      "38129077",
+      "31937660",
+      "29110030",
+      "39093600",
+      "31666380",
+      "36182691",
+      "23804403",
+      "31205001",
+      "27582050",
+      "29158440",
+      "38742641",
+      "29217591",
+      "32631111",
+      "33091336",
+      "31905366",
+      "38810546",
+      "37076620",
+      "32065581",
+      "35471149",
+      "37010886",
+      "35180428",
+      "19369356",
+      "31204999",
+      "25228660",
+      "39173638",
+      "37264934",
+      "23704192",
+      "25081205",
+      "39202349",
+      "20133600",
+      "30031214",
+      "37536339",
+      "30940740",
+      "33545664",
+      "35420890",
+      "35103965",
+      "35440598",
+      "32216817",
+      "32333838",
+      "26686651",
+      "31968256",
+      "33247104",
+      "27526722",
+      "32249389",
+      "26439501",
+      "31649247",
+      "36050765",
+      "29507293",
+      "28424523",
+      "30414923",
+      "38582293",
+      "21628529",
+      "21282187",
+      "20219941",
+      "22780989",
+      "27974201",
+      "21606361",
+      "22278832",
+      "18219272",
+      "29867216",
+      "38295892",
+      "31653198",
+      "34197738",
+      "31264253",
+      "31216471",
+      "25703332",
+      "24335803",
+      "31177910",
+      "18237772",
+      "21454523",
+      "24136358",
+      "33154377",
+      "36202971",
+      "36325618",
+      "21832993",
+      "35710842",
+      "33725485",
+      "24676094",
+      "35149558",
+      "36449519",
+      "38636335",
+      "32717742",
+      "30733374",
+      "36097291",
+      "31491387",
+      "25735743",
+      "29547555",
+      "33046897"
+    ],
+    "review": [
+      "38217027",
+      "22952237",
+      "29110030",
+      "32631111",
+      "38810546",
+      "30031214",
+      "30940740",
+      "33545664",
+      "32249389",
+      "26439501",
+      "38582293",
+      "22278832",
+      "31264253",
+      "38636335",
+      "30733374"
+    ],
+    "pmc": [
+      "10785520"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03158-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38217027/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38217027",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

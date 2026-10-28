@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35709747",
+  "title": "iDRNA-ITF: identifying DNA- and RNA-binding residues in proteins based on induction and transfer framework.",
+  "authors": "Wang, Ning; Yan, Ke; Zhang, Jun; Liu, Bin",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2022-06-17",
+  "window": {
+    "start": "2022-06-13",
+    "end": "2022-06-19"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于归纳与迁移框架的序列方法iDRNA-ITF，预测蛋白质中DNA/RNA结合残基，属于广义蛋白-核酸互作位点预测，方法可迁移至TF-DNA结合位点研究，但未聚焦TF-DNA三维互作机制。",
+  "abstract": "Protein-DNA and protein-RNA interactions are involved in many biological activities. In the post-genome era, accurate identification of DNA- and RNA-binding residues in protein sequences is of great significance for studying protein functions and promoting new drug design and development. Therefore, some sequence-based computational methods have been proposed for identifying DNA- and RNA-binding residues. However, they failed to fully utilize the functional properties of residues, leading to limited prediction performance. In this paper, a sequence-based method iDRNA-ITF was proposed to incorporate the functional properties in residue representation by using an induction and transfer framework. The properties of nucleic acid-binding residues were induced by the nucleic acid-binding residue feature extraction network, and then transferred into the feature integration modules of the DNA-binding residue prediction network and the RNA-binding residue prediction network for the final prediction. Experimental results on four test sets demonstrate that iDRNA-ITF achieves the state-of-the-art performance, outperforming the other existing sequence-based methods. The webserver of iDRNA-ITF is freely available at http://bliulab.net/iDRNA-ITF.",
+  "abstract_zh": "蛋白质-DNA和蛋白质-RNA相互作用参与许多生物活动。在后基因组时代，准确识别蛋白质序列中的DNA和RNA结合残基对于研究蛋白质功能及促进新药设计与开发具有重要意义。因此，已提出一些基于序列的计算方法来识别DNA和RNA结合残基。然而，这些方法未能充分利用残基的功能特性，导致预测性能有限。本文提出了一种基于序列的方法iDRNA-ITF，通过使用归纳和迁移框架，在残基表示中融入功能特性。核酸结合残基的特性通过核酸结合残基特征提取网络进行归纳，然后迁移到DNA结合残基预测网络和RNA结合残基预测网络的特征整合模块中，以进行最终预测。在四个测试集上的实验结果表明，iDRNA-ITF达到了最先进的性能，优于其他现有的基于序列的方法。iDRNA-ITF的Web服务器可在http://bliulab.net/iDRNA-ITF免费获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35709747/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35709747/",
+  "paper_page_path": "papers/pubmed/35709747/index.html"
+}

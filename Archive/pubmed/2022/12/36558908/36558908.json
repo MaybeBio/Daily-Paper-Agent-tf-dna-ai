@@ -1,0 +1,401 @@
+{
+  "identity": {
+    "pmid": "36558908",
+    "doi": "10.3390/ph15121457",
+    "title": "Exploring the Effective Components and Mechanism of Action of Japanese Ardisia in the Treatment of Autoimmune Hepatitis Based on Network Pharmacology and Experimental Verification."
+  },
+  "content": {
+    "abstract": "Japanese Ardisia is widely used as a hepatoprotective and anti-inflammatory agent in China. However, the active ingredients in Japanese Ardisia and their potential mechanisms of action in the treatment of autoimmune hepatitis (AIH) are unknown. The pharmacodynamic substance and mechanism of action of Japanese Ardisia in the treatment of AIH were investigated using network pharmacology and molecular docking technology in this study. Following that, the effects of Japanese Ardisia were evaluated using the concanavalin A (Con A)-induced acute liver injury rat model. The active ingredients and targets of Japanese Ardisia were searched using the Traditional Chinese Medicine Systems Pharmacology database, and hepatitis-related therapeutic targets were identified through GeneCards and Online Mendelian Inheritance in Man databases. A compound-target network was then constructed using Cytoscape software, and enrichment analysis was performed using gene ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) databases. Molecular docking technology was used to simulate the docking of key targets, and the AIH rat model was used to validate the expression of key targets. Nineteen active chemical components and 143 key target genes were identified. GO enrichment analysis revealed that the treatment of AIH with Japanese Ardisia mainly involved DNA-binding transcription factor binding, RNA polymerase II-specific DNA transcription factor binding, cytokine receptor binding, receptor-ligand activity, ubiquitin-like protein ligase binding, and cytokine activity. In the KEGG enrichment analysis, 165 pathways were identified, including the lipid and atherosclerotic pathway, IL-17 signaling pathway, TNF signaling pathway, hepatitis B pathway, and the AGE-RAGE signaling pathway in diabetic complications. These pathways may be the key to effective AIH treatment with Japanese Ardisia. Molecular docking showed that quercetin and kaempferol have good binding to AKT1, IL6, VEGFA, and CASP3. Animal experiments demonstrated that Japanese Ardisia could increase the expression of AKT1 and decrease the expression of CASP3 protein, as well as IL-6, in rat liver tissues. This study identified multiple molecular targets and pathways for Japanese Ardisia in the treatment of AIH. At the same time, the effectiveness of Japanese Ardisia in treating AIH was verified by animal experiments.",
+    "keywords": [
+      "Japanese Ardisia",
+      "autoimmune hepatitis",
+      "molecular docking",
+      "network pharmacology",
+      "underlying mechanism"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fu, Tian",
+        "Chen, Yifei",
+        "Li, Junkui",
+        "Zhu, Peili",
+        "He, Huajuan",
+        "Zhang, Wei",
+        "Yung, Ken Kin Lam",
+        "Wu, Wei"
+      ],
+      "short_names": [
+        "Fu T",
+        "Chen Y",
+        "Li J",
+        "Zhu P",
+        "He H",
+        "Zhang W",
+        "Yung KKL",
+        "Wu W"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6644-4403",
+        "ORCID: 0000-0002-9544-9788"
+      ],
+      "affiliations": [
+        "School of Pharmacy, Guilin Medical University, Guilin 541199, China.",
+        "School of Pharmacy, Guilin Medical University, Guilin 541199, China.",
+        "School of Traditional Chinese Medicine, Southern Medical University, Guangzhou 510515, China.",
+        "Department of Biology, Hong Kong Baptist University, Hong Kong 999077, China.",
+        "Golden Meditech Centre for NeuroRegeneration Sciences (GCNS), Hong Kong Baptist University, Kowloon Tong, Kowloon, Hong Kong 999077, China.",
+        "Department of Biology, Hong Kong Baptist University, Hong Kong 999077, China.",
+        "Golden Meditech Centre for NeuroRegeneration Sciences (GCNS), Hong Kong Baptist University, Kowloon Tong, Kowloon, Hong Kong 999077, China.",
+        "School of Pharmacy, Guilin Medical University, Guilin 541199, China.",
+        "School of Pharmacy, Guilin Medical University, Guilin 541199, China.",
+        "Department of Biology, Hong Kong Baptist University, Hong Kong 999077, China.",
+        "Golden Meditech Centre for NeuroRegeneration Sciences (GCNS), Hong Kong Baptist University, Kowloon Tong, Kowloon, Hong Kong 999077, China.",
+        "School of Pharmacy, Guilin Medical University, Guilin 541199, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fu, Tian",
+        "short_name": "Fu T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Guilin Medical University, Guilin 541199, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yifei",
+        "short_name": "Chen Y",
+        "identifiers": [
+          "0000-0001-6644-4403"
+        ],
+        "affiliations": [
+          "School of Pharmacy, Guilin Medical University, Guilin 541199, China.",
+          "School of Traditional Chinese Medicine, Southern Medical University, Guangzhou 510515, China."
+        ]
+      },
+      {
+        "full_name": "Li, Junkui",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Hong Kong Baptist University, Hong Kong 999077, China.",
+          "Golden Meditech Centre for NeuroRegeneration Sciences (GCNS), Hong Kong Baptist University, Kowloon Tong, Kowloon, Hong Kong 999077, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Peili",
+        "short_name": "Zhu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Hong Kong Baptist University, Hong Kong 999077, China.",
+          "Golden Meditech Centre for NeuroRegeneration Sciences (GCNS), Hong Kong Baptist University, Kowloon Tong, Kowloon, Hong Kong 999077, China."
+        ]
+      },
+      {
+        "full_name": "He, Huajuan",
+        "short_name": "He H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Guilin Medical University, Guilin 541199, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wei",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Guilin Medical University, Guilin 541199, China."
+        ]
+      },
+      {
+        "full_name": "Yung, Ken Kin Lam",
+        "short_name": "Yung KKL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Hong Kong Baptist University, Hong Kong 999077, China.",
+          "Golden Meditech Centre for NeuroRegeneration Sciences (GCNS), Hong Kong Baptist University, Kowloon Tong, Kowloon, Hong Kong 999077, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Wei",
+        "short_name": "Wu W",
+        "identifiers": [
+          "0000-0002-9544-9788"
+        ],
+        "affiliations": [
+          "School of Pharmacy, Guilin Medical University, Guilin 541199, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmaceuticals (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Pharmaceuticals (Basel)"
+    ],
+    "pub_date": "2022 Nov 24",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/24 06:00",
+    "fetched_at": "2026-09-28 18:04:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "33353444",
+      "32148533",
+      "31806905",
+      "31726909",
+      "31668190",
+      "31401143",
+      "30846939",
+      "30324143",
+      "29946260",
+      "29552082",
+      "29487621",
+      "29436395",
+      "29299941",
+      "28926203",
+      "28638227",
+      "28594937",
+      "28494214",
+      "28256516",
+      "28135873",
+      "28109817",
+      "26341719",
+      "26178791",
+      "25160070",
+      "25123213",
+      "25025559",
+      "24833786",
+      "24764575",
+      "24010812",
+      "22940450",
+      "22590504",
+      "22117633",
+      "21692447",
+      "20880179",
+      "19766456",
+      "19473994",
+      "18528928",
+      "18249167",
+      "18161752",
+      "17921993",
+      "17355087",
+      "15233692",
+      "12037327"
+    ],
+    "similar": [
+      "36558908",
+      "35837376",
+      "34149863",
+      "36386135",
+      "35430443",
+      "33645014",
+      "36482557",
+      "36670362",
+      "34159207",
+      "33645090",
+      "35024051",
+      "36158000",
+      "34660782",
+      "38733905",
+      "35178959",
+      "34908920",
+      "36624500",
+      "35186104",
+      "35528155",
+      "35035498",
+      "35707470",
+      "34872267",
+      "36267750",
+      "35097126",
+      "35988839",
+      "33376732",
+      "33634308",
+      "36604919",
+      "35237152",
+      "38798219",
+      "36158488",
+      "34746316",
+      "36419618",
+      "36626454",
+      "35432570",
+      "36032542",
+      "34605344",
+      "36046450",
+      "34497749",
+      "34125845",
+      "34035828",
+      "35992596",
+      "35227068",
+      "35851128",
+      "33496115",
+      "34873575",
+      "35616676",
+      "36193152",
+      "35341142",
+      "33243703",
+      "34746302",
+      "33082858",
+      "35067174",
+      "33478536",
+      "36435778",
+      "35850844",
+      "35990826",
+      "36200258",
+      "36193154",
+      "32643448",
+      "35069454",
+      "37347002",
+      "35571420",
+      "34951253",
+      "33299870",
+      "36091226",
+      "34754315",
+      "34472273",
+      "33645094",
+      "35280377",
+      "33963719",
+      "37749554",
+      "32928080",
+      "35343164",
+      "35442463",
+      "33191068",
+      "35535154",
+      "33409535",
+      "36003525",
+      "35285205",
+      "34791846",
+      "34174759",
+      "36471963",
+      "35850814",
+      "35497916",
+      "36483797",
+      "35781817",
+      "36281111",
+      "38551603",
+      "37959722",
+      "39247617",
+      "36923879",
+      "37096878",
+      "37361210",
+      "33178322",
+      "37653836",
+      "36762105",
+      "35379295",
+      "39044965",
+      "37629739",
+      "38188548",
+      "36121703",
+      "35592869",
+      "39325153",
+      "37077636",
+      "39431090",
+      "37064204",
+      "39222242",
+      "37730607",
+      "38173546",
+      "37033783",
+      "38808131",
+      "38197809",
+      "38027735",
+      "39310899",
+      "37035802",
+      "37732621",
+      "37163367",
+      "37680723",
+      "37361229",
+      "36145261",
+      "38375488",
+      "36923354",
+      "36983855",
+      "38299285",
+      "34754318",
+      "38298712",
+      "37477163",
+      "39041630",
+      "38847173",
+      "38496310",
+      "38416262",
+      "29946260",
+      "39312276",
+      "37781829",
+      "37274117",
+      "39108896",
+      "37346467",
+      "37809453",
+      "37181515",
+      "39132159",
+      "36836768",
+      "37720803",
+      "38715819",
+      "38677491",
+      "36777624",
+      "38474690",
+      "36647454",
+      "38076040",
+      "37416149",
+      "38152725",
+      "36468231"
+    ],
+    "review": [
+      "36558908",
+      "33243703"
+    ],
+    "pmc": [
+      "9784645"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ph15121457",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36558908/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36558908",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CASP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

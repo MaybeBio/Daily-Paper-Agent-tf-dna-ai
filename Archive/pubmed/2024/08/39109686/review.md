@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The study examines the role of DNA supercoiling in ParB DNA binding and partition complex assembly in the ParABS system of plasmid F in vivo. The authors report that variations in DNA supercoiling do not significantly affect assembly steps, that ParB sliding is restricted to approximately 2 Kbp from parS based on physical modeling of ChIP-seq data from linear plasmids, and that explicit polymer simulations suggest ParB-ParB interactions dominate DNA compaction within ParB condensates.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, ChIP-seq data and analysis details, simulation parameters and code, statistical methods, and experimental protocols
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused investigation into the biophysical mechanisms underlying ParB partition complex assembly, with three main findings related to supercoiling insensitivity, ParB sliding distance, and the role of ParB-ParB interactions in DNA compaction. The topic is of interest to the bacterial cell biology and DNA segregation communities. However, the abstract alone provides insufficient detail to evaluate the robustness of the experimental and computational approaches, the statistical support for the claims, or the generalizability of the conclusions beyond the specific plasmid F system. The claim regarding supercoiling insensitivity is stated as a negative result and would require careful power analysis and appropriate controls to be convincing. The modeling and simulation components are described at a level that precludes assessment of their validity.
+- **Who would be interested in the results, and why** Researchers studying bacterial chromosome and plasmid segregation, ParABS system mechanisms, DNA supercoiling effects on protein-DNA interactions, and biophysical modeling of protein-DNA condensates. The findings may also interest those working on liquid-liquid phase separation in prokaryotic systems and on the general principles of DNA compaction by DNA-binding proteins.
+- **Major strengths** The study addresses a relevant and unresolved question in the field, namely the complete mechanism of partition complex assembly. The combination of in vivo ChIP-seq data with physical modeling and explicit polymer simulations represents a multi-pronged approach that could provide complementary insights. The negative result regarding supercoiling is potentially valuable if rigorously established, as it would constrain models of ParB loading and spreading.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that variations in DNA supercoiling do not significantly affect any steps in the assembly of the partition complex.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states a negative result without providing any indication of the range of supercoiling variations tested, the number of biological replicates, the statistical power, or the sensitivity of the assays used. A null result of this type is only meaningful if the experimental perturbations were sufficient to produce detectable changes in other contexts, and if the assays would have captured biologically relevant effects.  
+  - **Why it matters** Negative results in this context are often used to rule out mechanistic models. If the supercoiling perturbations were too mild, or the assays insufficiently sensitive, the conclusion would be an artifact of experimental limitations rather than a genuine biological property.  
+  - **Resolution test** The full manuscript must provide details on the range and magnitude of supercoiling perturbations, positive controls demonstrating assay sensitivity, statistical analysis including effect sizes and confidence intervals, and evidence that the perturbations were sufficient to alter DNA topology in vivo.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that physical modeling leveraging ChIP-seq data from linear plasmids F suggests that ParB sliding is restricted to approximately 2 Kbp from parS.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe the physical model, its assumptions, the fitting procedure, or the uncertainty in the estimated sliding distance. The use of linear plasmids to infer sliding behavior on DNA is a specific experimental choice that may introduce confounding factors, such as altered DNA topology or end effects, which are not addressed in the abstract.  
+  - **Why it matters** The 2 Kbp sliding distance is a quantitative claim that directly informs the conclusion that additional mechanisms beyond sliding are needed for ParB concentration. If the model is poorly constrained or the data are not well suited to this inference, the quantitative estimate and the subsequent conclusion would be undermined.  
+  - **Resolution test** The full manuscript must provide a complete description of the physical model, its parameters, the fitting methodology, uncertainty quantification, and validation of the model against independent data or known biophysical constraints.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that explicit simulations of a polymer coated with bound ParB suggest a dominant role for ParB-ParB interactions in DNA compaction within ParB condensates.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no information about the simulation model, the parameter values, the timescales simulated, the system size, or how the simulations were validated against experimental observations. The claim of a "dominant role" for ParB-ParB interactions requires a comparison with alternative mechanisms, such as DNA bending or ParB-DNA interaction strength, which is not described.  
+  - **Why it matters** Simulation results are only as credible as the model and parameters on which they are based. Without details on the model construction and validation, the claim cannot be evaluated, and the conclusion that ParB-ParB interactions dominate compaction may not be robust to parameter variation.  
+  - **Resolution test** The full manuscript must provide simulation details, parameter values, sensitivity analysis, and a clear comparison of the model predictions with experimental data on condensate size, shape, or dynamics.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract terminology  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract uses terms such as "partition condensates," "ParB CTPase," and "centromere sites parS" without brief contextual definitions, which may limit accessibility for readers outside the bacterial segregation field.  
+  - **Required correction** Provide brief parenthetical definitions or contextual phrasing for these terms in the abstract.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Generalizability statement  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract does not state whether the findings are expected to generalize beyond the plasmid F ParABS system to other plasmids or chromosomal ParABS systems.  
+  - **Required correction** Add a sentence addressing the potential generalizability or system-specific nature of the findings.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Statistical reporting  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract does not mention any statistical measures, such as confidence intervals or p-values, for the key quantitative claims.  
+  - **Required correction** Include brief statistical information in the abstract or indicate where it can be found in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient methodological detail to assess the validity of the three main claims. The negative result on supercoiling requires evidence of assay sensitivity and perturbation sufficiency. The sliding distance estimate requires model description and uncertainty quantification. The simulation claim requires model details and validation.
+- **Assessment against Nature-style criteria**  
+  - Originality: The combination of in vivo ChIP-seq with physical modeling and explicit simulations to address ParB condensate assembly is a potentially original approach, though the abstract does not clearly distinguish the novelty from prior modeling efforts in the field.  
+  - Scientific importance: The question of how ParB concentrates into condensates is central to understanding bacterial DNA segregation, and the findings could be important if rigorously established. However, the abstract does not articulate the broader implications for the field.  
+  - Interdisciplinary readership: The work bridges microbiology, biophysics, and computational modeling, which could appeal to a broad readership, but the abstract is written in a way that assumes substantial domain expertise.  
+  - Technical soundness: Not assessable from the abstract alone. The three main claims require methodological details that are not provided.  
+  - Readability for nonspecialists: The abstract is dense and uses field-specific terminology without sufficient context, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting questions and a plausible multi-pronged approach, but the lack of methodological detail prevents evaluation of the validity of the three main claims. A supportive recommendation would require the full manuscript to address the technical concerns identified above.
+
+## Risk / unsupported claims
+- The claim that DNA supercoiling variations do not significantly affect partition complex assembly is unsupported without evidence of perturbation range, assay sensitivity, and statistical power.
+- The quantitative claim that ParB sliding is restricted to approximately 2 Kbp from parS is unsupported without model description, fitting details, and uncertainty quantification.
+- The claim that ParB-ParB interactions play a dominant role in DNA compaction within ParB condensates is unsupported without simulation model details, parameter values, and validation against experimental data.
+- The generalizability of the findings beyond the plasmid F system is not addressed and cannot be assessed from the abstract.

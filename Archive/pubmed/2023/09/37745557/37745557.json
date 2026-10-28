@@ -1,0 +1,227 @@
+{
+  "identity": {
+    "pmid": "37745557",
+    "doi": "10.1101/2023.09.12.556916",
+    "title": "Allo: Accurate allocation of multi-mapped reads enables regulatory element analysis at repeats."
+  },
+  "content": {
+    "abstract": "Transposable elements (TEs) and other repetitive regions have been shown to contain gene regulatory elements, including transcription factor binding sites. Unfortunately, regulatory elements harbored by repeats have proven difficult to characterize using short-read sequencing assays such as ChIP-seq or ATAC-seq. Most regulatory genomics analysis pipelines discard \"multi-mapped\" reads that align equally well to multiple genomic locations. Since multi-mapped reads arise predominantly from repeats, current analysis pipelines fail to detect a substantial portion of regulatory events that occur in repetitive regions. To address this shortcoming, we developed Allo, a new approach to allocate multi-mapped reads in an efficient, accurate, and user-friendly manner. Allo combines probabilistic mapping of multi-mapped reads with a convolutional neural network that recognizes the read distribution features of potential peaks, offering enhanced accuracy in multi-mapping read assignment. Allo also provides read-level output in the form of a corrected alignment file, making it compatible with existing regulatory genomics analysis pipelines and downstream peak-finders. In a demonstration application on CTCF ChIP-seq data, we show that Allo results in the discovery of thousands of new CTCF peaks. Many of these peaks contain the expected cognate motif and/or serve as TAD boundaries. We additionally apply Allo to a diverse collection of ENCODE ChIP-seq datasets, resulting in multiple previously unidentified interactions between transcription factors and repetitive element families. Finally, we show that Allo may be particularly effective in identifying ChIP-seq peaks in younger TEs, which hold evolutionary significance due to their emergence during human evolution from primates.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Morrissey, Alexis",
+        "Shi, Jeffrey",
+        "James, Daniela Q",
+        "Mahony, Shaun"
+      ],
+      "short_names": [
+        "Morrissey A",
+        "Shi J",
+        "James DQ",
+        "Mahony S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA, USA.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA, USA.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA, USA.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Morrissey, Alexis",
+        "short_name": "Morrissey A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Shi, Jeffrey",
+        "short_name": "Shi J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA, USA."
+        ]
+      },
+      {
+        "full_name": "James, Daniela Q",
+        "short_name": "James DQ",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Mahony, Shaun",
+        "short_name": "Mahony S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Sep 15",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/25 06:42",
+    "fetched_at": "2026-09-29 07:44:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37745557",
+      "38986578",
+      "21779159",
+      "26484757",
+      "33872311",
+      "24966364",
+      "18684996",
+      "36451223",
+      "28934506",
+      "22035330",
+      "30064353",
+      "29802231",
+      "25727450",
+      "37762379",
+      "32266012",
+      "21736739",
+      "28789639",
+      "29126180",
+      "30702424",
+      "29444201",
+      "27526722",
+      "31138617",
+      "24992027",
+      "39394211",
+      "40140852",
+      "41518494",
+      "28764645",
+      "41222256",
+      "29868859",
+      "27519564",
+      "39959292",
+      "36449165",
+      "24936875",
+      "35796974",
+      "35030988",
+      "18485226",
+      "24552580",
+      "20625510",
+      "33191916",
+      "25128017",
+      "41279554",
+      "30474849",
+      "31765913",
+      "39677745",
+      "26423047",
+      "34782740",
+      "30154828",
+      "34387946",
+      "30561550",
+      "21486936",
+      "22897927",
+      "38735595",
+      "39386487",
+      "41561440",
+      "21169377",
+      "32962634",
+      "25260876",
+      "25188499",
+      "34292930",
+      "21226895",
+      "31752933",
+      "23542167",
+      "34563116",
+      "37751945",
+      "36895025",
+      "27851806",
+      "37525156",
+      "36223994",
+      "39990489",
+      "41996583",
+      "38643066",
+      "40662809",
+      "24428924",
+      "39558574",
+      "30943272",
+      "32085702",
+      "39326643",
+      "31506319",
+      "33591319",
+      "24927817",
+      "20375099",
+      "32404971",
+      "28693467",
+      "30626323",
+      "41527853",
+      "28357402",
+      "26099631",
+      "31942977",
+      "35741347",
+      "22912568",
+      "23984937",
+      "28381259",
+      "24736605",
+      "35639931",
+      "33878366",
+      "38352549",
+      "33750951",
+      "31855064",
+      "33396198",
+      "32256504"
+    ],
+    "review": [
+      "37745557",
+      "31765913"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37745557/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37745557",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.09.12.556916",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

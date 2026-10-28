@@ -1,0 +1,611 @@
+{
+  "identity": {
+    "pmid": "42467849",
+    "doi": "10.1158/2767-9764.CRC-26-0362",
+    "title": "Development and Validation of a Multimodal-Multitask Deep Learning Approach for Estimating Late Distant Recurrence Risk in HR-Positive Early Breast Cancer."
+  },
+  "content": {
+    "abstract": "Late distant recurrence (DR) remains a persistent risk in hormone receptor-positive (HR+) early breast cancer after completion of 5 years of endocrine therapy (ET). We developed and validated a multimodal artificial intelligence (AI) model to improve long-term risk stratification and to explore heterogeneity in benefit from extended letrozole therapy (ELT). The deep learning model integrating digitized hematoxylin and eosin whole-slide images with clinicopathologic variables was developed using 2,271 patients from the National Surgical Adjuvant Breast and Bowel Project (NSABP) B-42 trial with five-fold cross-validation and externally validated in 4,300 patients from the TAILORx trial who were disease-free at 5 years from the initial diagnosis. Prognostic performance was evaluated using hazard ratios (HR) and absolute risk differences. Exploratory analyses assessed ELT benefit across model-defined risk groups. In NSABP B-42, the model stratified patients into groups with markedly different outcomes, with a 10-year absolute DR risk difference of 7.95% between high- and low-risk groups [HR, 5.71; 95% confidence interval (CI), 3.5-9.317; P < 0.001]. High-risk patients derived greater absolute benefit from ELT (4.09%) than low-risk patients (0.49%). External validation in the independent TAILORx cohort confirmed prognostic performance, with MI Clarity multimodal-multitask identifying patients with significantly different late DR outcomes (HR, 1.893; 95% CI, 1.413-2.534; P < 0.001). This multimodal AI approach using routine pathology and clinical data enables robust and generalizable stratification of late DR risk in HR+ breast cancer. This scalable strategy may complement existing genomic assays and support more individualized decisions about extended ET. SIGNIFICANCE: Late DR is a major cause of death in HR+ breast cancer, and deciding who needs longer hormone therapy is challenging. Current genomic tests are useful but have limitations. This study shows that an AI model using pathology and clinical data identifies patients at high or low risk of late recurrence. High-risk patients may benefit more from extended hormone therapy, offering an accessible way to guide treatment decisions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/pathology/drug therapy/metabolism",
+      "*Deep Learning",
+      "*Neoplasm Recurrence, Local/pathology",
+      "Letrozole/therapeutic use",
+      "Prognosis",
+      "Middle Aged",
+      "Risk Assessment/methods",
+      "Receptors, Estrogen/metabolism",
+      "Receptors, Progesterone/metabolism",
+      "Antineoplastic Agents, Hormonal/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mamounas, Eleftherios P",
+        "Chen, Ming",
+        "Sparano, Joseph A",
+        "Rahman, Md Ashequr",
+        "Cheng, Yating",
+        "Wang, Victoria",
+        "Gray, Robert J",
+        "Rastogi, Priya",
+        "Amidi, Eghbal",
+        "Geyer, Charles E Jr",
+        "Boucher, Tommy",
+        "Freeman, Tanner J",
+        "Ramzanpour, Mohammadreza",
+        "Varma, Mukund",
+        "Ghani, Hassan",
+        "Cheng, Caleb",
+        "Bales, Casey",
+        "Ribeiro, Jennifer R",
+        "Bandos, Hanna",
+        "Stransky, Nicolas",
+        "Miglarese, Mark R",
+        "Oberley, Matthew",
+        "Spetzler, David",
+        "Radovich, Milan",
+        "Sledge, George W",
+        "Wolmark, Norman"
+      ],
+      "short_names": [
+        "Mamounas EP",
+        "Chen M",
+        "Sparano JA",
+        "Rahman MA",
+        "Cheng Y",
+        "Wang V",
+        "Gray RJ",
+        "Rastogi P",
+        "Amidi E",
+        "Geyer CE Jr",
+        "Boucher T",
+        "Freeman TJ",
+        "Ramzanpour M",
+        "Varma M",
+        "Ghani H",
+        "Cheng C",
+        "Bales C",
+        "Ribeiro JR",
+        "Bandos H",
+        "Stransky N",
+        "Miglarese MR",
+        "Oberley M",
+        "Spetzler D",
+        "Radovich M",
+        "Sledge GW",
+        "Wolmark N"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9476-2553",
+        "ORCID: 0009-0005-2322-5258",
+        "ORCID: 0000-0002-9031-2010",
+        "ORCID: 0000-0002-6062-1998",
+        "ORCID: 0000-0002-2352-8647",
+        "ORCID: 0000-0003-4079-5576",
+        "ORCID: 0000-0002-5724-4917",
+        "ORCID: 0000-0002-6179-6407",
+        "ORCID: 0009-0007-1302-9039",
+        "ORCID: 0000-0002-2379-5702",
+        "ORCID: 0009-0005-5025-090X",
+        "ORCID: 0009-0000-7221-4647",
+        "ORCID: 0000-0002-3418-339X",
+        "ORCID: 0000-0002-9254-1247",
+        "ORCID: 0009-0004-0993-8094",
+        "ORCID: 0000-0001-8806-3185",
+        "ORCID: 0000-0002-1016-6042",
+        "ORCID: 0000-0002-1685-8568",
+        "ORCID: 0000-0003-1798-8054",
+        "ORCID: 0000-0002-2778-4293",
+        "ORCID: 0009-0007-9170-5899",
+        "ORCID: 0000-0001-6419-2513",
+        "ORCID: 0000-0002-9531-0970",
+        "ORCID: 0000-0001-9667-156X",
+        "ORCID: 0000-0003-0297-0775",
+        "ORCID: 0000-0001-7156-1110"
+      ],
+      "affiliations": [
+        "NSABP Foundation , NRG Oncology, Pittsburgh, Pennsylvania. ROR: https://ror.org/05e2f9085",
+        "AdventHealth Cancer Institute, Orlando, Florida.",
+        "Caris Life Sciences, Phoenix, Arizona.",
+        "Icahn School of Medicine at Mount Sinai , Tisch Cancer Institute, New York, New York. ROR: https://ror.org/04a9tmd77",
+        "Caris Life Sciences, Phoenix, Arizona.",
+        "Caris Life Sciences, Phoenix, Arizona.",
+        "ECOG-ACRIN Biostatistical Center, Dana-Farber Cancer Institute, Boston, Massachusetts. ROR: https://ror.org/02jzgtq86",
+        "ECOG-ACRIN Biostatistical Center, Dana-Farber Cancer Institute, Boston, Massachusetts. ROR: https://ror.org/02jzgtq86",
+        "NSABP Foundation , NRG Oncology, Pittsburgh, Pennsylvania. ROR: https://ror.org/05e2f9085",
+        "University of Pittsburgh School of Medicine, UPMC Hillman Cancer Center, Pittsburgh, Pennsylvania.",
+        "Caris Life Sciences, Phoenix, Arizona.",
+        "NSABP Foundation , NRG Oncology, Pittsburgh, Pennsylvania. ROR: https://ror.org/05e2f9085",
+        "University of Pittsburgh School of Medicine, UPMC Hillman Cancer Center, Pittsburgh, Pennsylvania.",
+        "Caris Life Sciences, Phoenix, Arizona.",
+        "NSABP Foundation , NRG Oncology, Pittsburgh, Pennsylvania. ROR: https://ror.org/05e2f9085",
+        "University of Pittsburgh , Pittsburgh, Pennsylvania. ROR: https://ror.org/01an3r305",
+        "Caris Life Sciences, Phoenix, Arizona.",
+        "Caris Life Sciences, Phoenix, Arizona.",
+        "Caris Life Sciences, Phoenix, Arizona.",
+        "Caris Life Sciences, Phoenix, Arizona.",
+        "Caris Life Sciences, Phoenix, Arizona.",
+        "Caris Life Sciences, Phoenix, Arizona.",
+        "NRG Oncology Statistical and Data Management Center, Department of Biostatistics and Health Data Science, University of Pittsburgh, Pittsburgh, Pennsylvania. ROR: https://ror.org/01an3r305",
+        "Caris Life Sciences, Phoenix, Arizona.",
+        "Caris Life Sciences, Phoenix, Arizona.",
+        "Caris Life Sciences, Phoenix, Arizona.",
+        "Caris Life Sciences, Phoenix, Arizona.",
+        "Caris Life Sciences, Phoenix, Arizona.",
+        "Caris Life Sciences, Phoenix, Arizona.",
+        "NSABP Foundation , NRG Oncology, Pittsburgh, Pennsylvania. ROR: https://ror.org/05e2f9085",
+        "University of Pittsburgh School of Medicine, UPMC Hillman Cancer Center, Pittsburgh, Pennsylvania."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mamounas, Eleftherios P",
+        "short_name": "Mamounas EP",
+        "identifiers": [
+          "0000-0002-9476-2553"
+        ],
+        "affiliations": [
+          "NSABP Foundation , NRG Oncology, Pittsburgh, Pennsylvania.",
+          "AdventHealth Cancer Institute, Orlando, Florida."
+        ]
+      },
+      {
+        "full_name": "Chen, Ming",
+        "short_name": "Chen M",
+        "identifiers": [
+          "0009-0005-2322-5258"
+        ],
+        "affiliations": [
+          "Caris Life Sciences, Phoenix, Arizona."
+        ]
+      },
+      {
+        "full_name": "Sparano, Joseph A",
+        "short_name": "Sparano JA",
+        "identifiers": [
+          "0000-0002-9031-2010"
+        ],
+        "affiliations": [
+          "Icahn School of Medicine at Mount Sinai , Tisch Cancer Institute, New York, New York."
+        ]
+      },
+      {
+        "full_name": "Rahman, Md Ashequr",
+        "short_name": "Rahman MA",
+        "identifiers": [
+          "0000-0002-6062-1998"
+        ],
+        "affiliations": [
+          "Caris Life Sciences, Phoenix, Arizona."
+        ]
+      },
+      {
+        "full_name": "Cheng, Yating",
+        "short_name": "Cheng Y",
+        "identifiers": [
+          "0000-0002-2352-8647"
+        ],
+        "affiliations": [
+          "Caris Life Sciences, Phoenix, Arizona."
+        ]
+      },
+      {
+        "full_name": "Wang, Victoria",
+        "short_name": "Wang V",
+        "identifiers": [
+          "0000-0003-4079-5576"
+        ],
+        "affiliations": [
+          "ECOG-ACRIN Biostatistical Center, Dana-Farber Cancer Institute, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Gray, Robert J",
+        "short_name": "Gray RJ",
+        "identifiers": [
+          "0000-0002-5724-4917"
+        ],
+        "affiliations": [
+          "ECOG-ACRIN Biostatistical Center, Dana-Farber Cancer Institute, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Rastogi, Priya",
+        "short_name": "Rastogi P",
+        "identifiers": [
+          "0000-0002-6179-6407"
+        ],
+        "affiliations": [
+          "NSABP Foundation , NRG Oncology, Pittsburgh, Pennsylvania.",
+          "University of Pittsburgh School of Medicine, UPMC Hillman Cancer Center, Pittsburgh, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "Amidi, Eghbal",
+        "short_name": "Amidi E",
+        "identifiers": [
+          "0009-0007-1302-9039"
+        ],
+        "affiliations": [
+          "Caris Life Sciences, Phoenix, Arizona."
+        ]
+      },
+      {
+        "full_name": "Geyer, Charles E",
+        "short_name": "Geyer CE",
+        "identifiers": [
+          "0000-0002-2379-5702"
+        ],
+        "affiliations": [
+          "NSABP Foundation , NRG Oncology, Pittsburgh, Pennsylvania.",
+          "University of Pittsburgh School of Medicine, UPMC Hillman Cancer Center, Pittsburgh, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "Boucher, Tommy",
+        "short_name": "Boucher T",
+        "identifiers": [
+          "0009-0005-5025-090X"
+        ],
+        "affiliations": [
+          "Caris Life Sciences, Phoenix, Arizona."
+        ]
+      },
+      {
+        "full_name": "Freeman, Tanner J",
+        "short_name": "Freeman TJ",
+        "identifiers": [
+          "0009-0000-7221-4647"
+        ],
+        "affiliations": [
+          "NSABP Foundation , NRG Oncology, Pittsburgh, Pennsylvania.",
+          "University of Pittsburgh , Pittsburgh, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "Ramzanpour, Mohammadreza",
+        "short_name": "Ramzanpour M",
+        "identifiers": [
+          "0000-0002-3418-339X"
+        ],
+        "affiliations": [
+          "Caris Life Sciences, Phoenix, Arizona."
+        ]
+      },
+      {
+        "full_name": "Varma, Mukund",
+        "short_name": "Varma M",
+        "identifiers": [
+          "0000-0002-9254-1247"
+        ],
+        "affiliations": [
+          "Caris Life Sciences, Phoenix, Arizona."
+        ]
+      },
+      {
+        "full_name": "Ghani, Hassan",
+        "short_name": "Ghani H",
+        "identifiers": [
+          "0009-0004-0993-8094"
+        ],
+        "affiliations": [
+          "Caris Life Sciences, Phoenix, Arizona."
+        ]
+      },
+      {
+        "full_name": "Cheng, Caleb",
+        "short_name": "Cheng C",
+        "identifiers": [
+          "0000-0001-8806-3185"
+        ],
+        "affiliations": [
+          "Caris Life Sciences, Phoenix, Arizona."
+        ]
+      },
+      {
+        "full_name": "Bales, Casey",
+        "short_name": "Bales C",
+        "identifiers": [
+          "0000-0002-1016-6042"
+        ],
+        "affiliations": [
+          "Caris Life Sciences, Phoenix, Arizona."
+        ]
+      },
+      {
+        "full_name": "Ribeiro, Jennifer R",
+        "short_name": "Ribeiro JR",
+        "identifiers": [
+          "0000-0002-1685-8568"
+        ],
+        "affiliations": [
+          "Caris Life Sciences, Phoenix, Arizona."
+        ]
+      },
+      {
+        "full_name": "Bandos, Hanna",
+        "short_name": "Bandos H",
+        "identifiers": [
+          "0000-0003-1798-8054"
+        ],
+        "affiliations": [
+          "NRG Oncology Statistical and Data Management Center, Department of Biostatistics and Health Data Science, University of Pittsburgh, Pittsburgh, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "Stransky, Nicolas",
+        "short_name": "Stransky N",
+        "identifiers": [
+          "0000-0002-2778-4293"
+        ],
+        "affiliations": [
+          "Caris Life Sciences, Phoenix, Arizona."
+        ]
+      },
+      {
+        "full_name": "Miglarese, Mark R",
+        "short_name": "Miglarese MR",
+        "identifiers": [
+          "0009-0007-9170-5899"
+        ],
+        "affiliations": [
+          "Caris Life Sciences, Phoenix, Arizona."
+        ]
+      },
+      {
+        "full_name": "Oberley, Matthew",
+        "short_name": "Oberley M",
+        "identifiers": [
+          "0000-0001-6419-2513"
+        ],
+        "affiliations": [
+          "Caris Life Sciences, Phoenix, Arizona."
+        ]
+      },
+      {
+        "full_name": "Spetzler, David",
+        "short_name": "Spetzler D",
+        "identifiers": [
+          "0000-0002-9531-0970"
+        ],
+        "affiliations": [
+          "Caris Life Sciences, Phoenix, Arizona."
+        ]
+      },
+      {
+        "full_name": "Radovich, Milan",
+        "short_name": "Radovich M",
+        "identifiers": [
+          "0000-0001-9667-156X"
+        ],
+        "affiliations": [
+          "Caris Life Sciences, Phoenix, Arizona."
+        ]
+      },
+      {
+        "full_name": "Sledge, George W",
+        "short_name": "Sledge GW",
+        "identifiers": [
+          "0000-0003-0297-0775"
+        ],
+        "affiliations": [
+          "Caris Life Sciences, Phoenix, Arizona."
+        ]
+      },
+      {
+        "full_name": "Wolmark, Norman",
+        "short_name": "Wolmark N",
+        "identifiers": [
+          "0000-0001-7156-1110"
+        ],
+        "affiliations": [
+          "NSABP Foundation , NRG Oncology, Pittsburgh, Pennsylvania.",
+          "University of Pittsburgh School of Medicine, UPMC Hillman Cancer Center, Pittsburgh, Pennsylvania."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer research communications"
+    ],
+    "journal_abbrev": [
+      "Cancer Res Commun"
+    ],
+    "pub_date": "2026 Jul 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/17 19:17",
+    "fetched_at": "2026-10-02 01:51:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40593633",
+      "40025017",
+      "39602119",
+      "39232164",
+      "39047219",
+      "39039250",
+      "38507751",
+      "38504017",
+      "38376912",
+      "38230766",
+      "38123254",
+      "37184928",
+      "36493792",
+      "35952419",
+      "35676445",
+      "35658506",
+      "35439025",
+      "34320285",
+      "33721561",
+      "33109739",
+      "32613290",
+      "30990737",
+      "30509771",
+      "30054636",
+      "29860917",
+      "29676944",
+      "29117498",
+      "27557300",
+      "27264120",
+      "24035531",
+      "23219286",
+      "18332472"
+    ],
+    "similar": [
+      "42467849",
+      "40148997",
+      "41831466",
+      "41707479",
+      "24035531",
+      "38376912",
+      "29676944",
+      "33109739",
+      "31504126",
+      "39145953",
+      "40121273",
+      "41270247",
+      "26238437",
+      "40288025",
+      "40845255",
+      "39047219",
+      "17919537",
+      "17890210",
+      "29902286",
+      "39602119",
+      "32601800",
+      "41576515",
+      "33290610",
+      "37184928",
+      "25935792",
+      "41411882",
+      "42174618",
+      "33152285",
+      "39191270",
+      "32803324",
+      "38722442",
+      "28939745",
+      "38345755",
+      "26861603",
+      "26705158",
+      "38000091",
+      "23757354",
+      "38955698",
+      "23812955",
+      "41709333",
+      "41380230",
+      "42185928",
+      "41637791",
+      "23074401",
+      "40661301",
+      "38861871",
+      "41632146",
+      "30848103",
+      "41213110",
+      "39656627",
+      "31378534",
+      "41712503",
+      "27252417",
+      "34190995",
+      "32706636",
+      "41637793",
+      "41999978",
+      "40836358",
+      "41137194",
+      "42475469",
+      "31606823",
+      "39417907",
+      "22018631",
+      "37060036",
+      "29687661",
+      "41274166",
+      "33082214",
+      "40721911",
+      "40796181",
+      "38273214",
+      "29097108",
+      "28922787",
+      "19786658",
+      "42431147",
+      "24060333",
+      "32703705",
+      "39621968",
+      "40490673",
+      "41691575",
+      "41061345",
+      "33721561",
+      "24725534",
+      "31157962",
+      "38833643",
+      "31622131",
+      "40181354",
+      "40878695",
+      "31041683",
+      "41466313",
+      "41088266",
+      "17450590",
+      "38131531",
+      "30509771",
+      "40025017",
+      "31618131",
+      "41320342",
+      "33222093",
+      "40198522",
+      "32141074",
+      "30201586"
+    ],
+    "review": [
+      "42467849",
+      "17919537",
+      "17890210",
+      "42174618",
+      "32803324",
+      "31606823",
+      "40181354"
+    ],
+    "pmc": [
+      "13425195"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42467849/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://aacrjournals.org/cancerrescommun/article-lookup/doi/10.1158/2767-9764.CRC-26-0362",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

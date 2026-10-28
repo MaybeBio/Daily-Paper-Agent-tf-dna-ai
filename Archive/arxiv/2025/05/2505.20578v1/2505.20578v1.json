@@ -1,0 +1,38 @@
+{
+  "source": "arxiv",
+  "source_id": "2505.20578v1",
+  "title": "Ctrl-DNA: Controllable Cell-Type-Specific Regulatory DNA Design via Constrained RL",
+  "doi": "",
+  "abstract": "Designing regulatory DNA sequences that achieve precise cell-type-specific gene expression is crucial for advancements in synthetic biology, gene therapy and precision medicine. Although transformer-based language models (LMs) can effectively capture patterns in regulatory DNA, their generative approaches often struggle to produce novel sequences with reliable cell-specific activity. Here, we introduce Ctrl-DNA, a novel constrained reinforcement learning (RL) framework tailored for designing regulatory DNA sequences with controllable cell-type specificity. By formulating regulatory sequence design as a biologically informed constrained optimization problem, we apply RL to autoregressive genomic LMs, enabling the models to iteratively refine sequences that maximize regulatory activity in targeted cell types while constraining off-target effects. Our evaluation on human promoters and enhancers demonstrates that Ctrl-DNA consistently outperforms existing generative and RL-based approaches, generating high-fitness regulatory sequences and achieving state-of-the-art cell-type specificity. Moreover, Ctrl-DNA-generated sequences capture key cell-type-specific transcription factor binding sites (TFBS), short DNA motifs recognized by regulatory proteins that control gene expression, demonstrating the biological plausibility of the generated sequences.",
+  "authors": [
+    "Xingyu Chen",
+    "Shihao Ma",
+    "Runsheng Lin",
+    "Jiecong Lin",
+    "Bo Wang"
+  ],
+  "published_date": "2025-05-26T23:27:50Z",
+  "updated_date": "2025-05-26T23:27:50Z",
+  "journal": "",
+  "category": "cs.LG, cs.AI, q-bio.GN",
+  "landing_url": "https://arxiv.org/abs/2505.20578v1",
+  "pdf_url": "https://arxiv.org/pdf/2505.20578v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "cs.LG",
+    "cs.AI",
+    "q-bio.GN"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2505.20578v1",
+    "raw_categories": [
+      "cs.LG",
+      "cs.AI",
+      "q-bio.GN"
+    ],
+    "journal_ref": ""
+  }
+}

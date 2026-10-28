@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, supplementary descriptions) as provided
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and clarity of presentation based solely on the supplied material
+- **Shared manuscript claim summary** The authors propose an integrated molecular dynamics and machine learning (MD-ML) workflow to investigate the structural effects of three disease-associated mutations (I168A, D169G, I168A-D169G) in the RRM1 domain of TDP-43, and claim that the double mutant shows the highest core packing and stability, with machine learning identifying key residues and interactions that could serve as therapeutic targets
+- **Visible evidence base** Abstract, Introduction, Methods (Section 2), Results (Section 3), Conclusion (Section 4), supplementary method descriptions, and references as cited
+- **Missing materials affecting confidence** Figures 1-5 and supplementary figures S1-S6 are referenced but not provided; supplementary tables S1-S2 are referenced but not provided; no numerical data, error bars, or statistical analyses are shown; no model performance metrics beyond a single accuracy value are reported; no code or data availability link is verified
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely topic, namely the molecular basis of TDP-43 mutations in neurodegeneration, and the combination of MD simulation with machine learning is conceptually appealing. However, the current version is substantially underdeveloped in its presentation of results, validation, and methodological detail. The central claims, particularly regarding the double mutant's stability and the biological relevance of identified descriptors, are not adequately supported by the evidence provided. The manuscript reads more like a preliminary report than a complete study, and significant additional work is required before the conclusions can be considered established.
+- **Who would be interested in the results, and why** Researchers in the fields of neurodegeneration, protein misfolding and aggregation, computational biophysics, and machine learning applied to biomolecular systems would find the topic of interest. The identification of specific residues and interactions that could be experimentally tested may appeal to experimental groups working on TDP-43 proteinopathies. However, the current level of validation and mechanistic insight is insufficient to attract broad interdisciplinary readership.
+- **Major strengths** The topic is clinically relevant and timely. The integration of MD simulation with supervised machine learning for feature extraction is a reasonable and potentially powerful approach. The authors consider both protein-protein and protein-DNA interactions, which is appropriate given the nucleic acid binding function of TDP-43. The selection of mutations is justified by prior experimental evidence.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the I168A-D169G double mutant "delineates the highest packing of the protein inner core as compared to the other mutations, which may indicate more stability and higher chances of pathogenesis"
+  - **Evidence pointer** Section 3.1, Figures 1C, 1D, 2A-F; location not provided
+  - **Concern** The claim of highest core packing and stability for the double mutant is based on qualitative descriptions of RMSD, SASA, pairwise distance differences, and porcupine plots. No quantitative values, statistical comparisons, or error estimates are provided. The figures are not available for inspection, and the text does not report numerical data that would allow the reader to assess the magnitude or significance of the observed differences.
+  - **Why it matters** The central conclusion of the paper rests on this comparative claim. Without quantitative evidence and appropriate statistical treatment, the claim that the double mutant is more stable and more pathogenic than the single mutants is not supported. Moreover, the inference from stability to pathogenesis is speculative and requires discussion of the mechanistic link.
+  - **Resolution test** Provide quantitative values for RMSD, SASA, and pairwise distances for all systems with standard errors or confidence intervals. Perform statistical tests (e.g., block averaging, bootstrap) to establish significance of differences between mutants. Show the relevant figures with clear labels and legends. Discuss the relationship between stability and pathogenesis with appropriate caveats.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors state that machine learning models achieved "a high classification accuracy of 99.9% on a 5-fold cross-validation test" and that this "empowers the results obtained"
+  - **Evidence pointer** Section 3.3, Table S1, Figure S4; location not provided
+  - **Concern** A single accuracy value is reported without details on the train-test split, hyperparameter tuning, class balance, or potential data leakage. The feature set consists of inverse inter-atomic distances from MD trajectories, which are highly correlated across frames. The risk of overfitting due to temporal autocorrelation in MD data is not addressed. No comparison with baseline models or alternative feature selection methods is provided.
+  - **Why it matters** The machine learning component is a core pillar of the proposed MD-ML workflow. If the classification results are inflated by methodological artifacts, the identified "biological descriptors" may not be robust or generalizable. The claim that these descriptors are meaningful for therapeutic development requires rigorous validation.
+  - **Resolution test** Provide full details of the data preprocessing, feature selection, model training, and validation procedure. Address temporal autocorrelation (e.g., by subsampling frames, using block averaging, or employing time-independent cross-validation). Report multiple performance metrics (precision, recall, F1, AUC) and compare with appropriate baselines. Show learning curves or feature stability analyses.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "the R version 4.0.3 was used to prepare codes for conducting the experiments and is shared in the Github link"
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Concern** No GitHub link or repository identifier is provided in the manuscript. The exact versions of all software packages (GROMACS, R packages, force fields) are not fully specified. The simulation parameters (e.g., thermostat coupling constants, pressure coupling, constraints, water model details) are only partially described. The PDB structures used (4Y0F, 4Y00) are mentioned, but the preparation steps, protonation states, and any modifications are not described.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. Without complete methodological details and accessible code, other researchers cannot replicate or build upon this work. This is particularly important given the claims of a novel integrated workflow.
+  - **Resolution test** Provide a working GitHub repository link with documented code. Include a complete description of all simulation parameters, system preparation steps, and software versions. Consider depositing the MD trajectories and analysis scripts in a public repository.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation
+  - **Claim pointer** The authors claim that the identified residues and interactions "could be experimentally evaluated to develop potential therapeutic strategies"
+  - **Evidence pointer** Section 3.3, Figures 4A-D, 5A-B; location not provided
+  - **Concern** The biological interpretation of the machine learning results is superficial. The authors list a few residue pairs (e.g., M132-V135, L120-M132, L111-K136, D119-V133) and mention interactions involving D169, W172, D174, but do not provide structural context, evolutionary conservation analysis, or comparison with known functional data. The link between these computational descriptors and disease mechanisms is asserted rather than argued.
+  - **Why it matters** For the results to be useful to the biomedical community, the identified residues must be placed in a functional context. Without such context, the claim that these are "biological descriptors" relevant to therapeutic development is not convincing.
+  - **Resolution test** Map the identified residues onto the 3D structure and discuss their location relative to known functional sites, the nucleic acid binding interface, and the caspase cleavage sites. Compare with published mutagenesis data. Discuss how these residues could be targeted experimentally and what specific hypotheses could be tested.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, simulation setup
+  - **Evidence pointer** Section 2.1, location not provided
+  - **Issue** The description of the simulation systems is incomplete. The authors state that the RRM1 domain is composed of 78 amino acids and 10 nucleotides, but do not specify the exact residue ranges, the DNA sequence, or how the complex was constructed. The force field combination (AMBER03 for protein, AMBER94 for nucleic acids) is unusual and may not be well validated for mixed systems.
+  - **Required correction** Provide a complete description of the system construction, including residue ranges, DNA sequence, and any modifications. Justify the choice of force field combination and discuss potential limitations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Section 2.2, feature description
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Issue** The authors state that features were selected based on "interatomic distance greater than 10 Å but also have a distance less than 10 Å in at least one frame." This criterion is confusing and may lead to the inclusion of many non-informative features. The rationale for this threshold is not explained.
+  - **Required correction** Clarify the feature selection criterion and provide a rationale. Consider using more standard approaches such as variance-based filtering or domain knowledge to select informative features.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 3.1, porcupine plots
+  - **Evidence pointer** Section 3.1, Figures 2B, 2D, 2F; location not provided
+  - **Issue** The porcupine plots are described as showing motion along the first eigenvector, but the text does not explain what fraction of the total variance this represents or how the plots were generated. The interpretation of these plots is qualitative.
+  - **Required correction** Report the fraction of variance explained by the first eigenvector for each system. Describe the method used to generate the porcupine plots and consider showing additional eigenvectors if they contribute significantly.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.2, DNA interaction analysis
+  - **Evidence pointer** Section 3.2, Figure 3, Figure S3; location not provided
+  - **Issue** The analysis of protein-DNA interactions is limited to distance and contact calculations. The authors do not discuss whether the observed changes in DNA interactions are functionally relevant, such as effects on binding affinity or specificity.
+  - **Required correction** Discuss the functional implications of the observed changes in protein-DNA interactions. If possible, estimate binding free energies or compare with experimental binding data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language and style
+  - **Affected element** Throughout
+  - **Evidence pointer** location not provided
+  - **Issue** The manuscript contains numerous grammatical errors, awkward phrasings, and typographical inconsistencies (e.g., "formulized", "esoteric capabilities", inconsistent use of "TDP-43" vs "TDP43"). Some sentences are difficult to follow.
+  - **Required correction** The manuscript should be carefully edited for language and style by a native English speaker or professional editing service.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative evidence for the central stability claim), R1-M2 (inadequate validation of machine learning results), R1-M3 (insufficient methodological detail for reproducibility)
+- **Assessment against Nature-style criteria** Originality: The combination of MD and machine learning for TDP-43 mutations is moderately original, though similar approaches have been applied to other proteins. The specific application to TDP-43 RRM1 mutations is novel. Scientific importance: The topic is important given the prevalence of TDP-43 proteinopathies, but the current study does not provide sufficient mechanistic insight or validation to constitute a major advance. Interdisciplinary readership: The work could appeal to both computational and experimental researchers, but the current presentation is too preliminary and lacks the depth required for a broad audience. Technical soundness: The MD simulations appear to follow standard protocols, but the machine learning component lacks rigorous validation, and the overall analysis is superficial. Readability for nonspecialists: The manuscript is not well written and would be difficult for nonspecialists to follow. The methods are described in a fragmented manner, and the results are presented without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential but requires substantial revision, additional analyses, and much more rigorous validation before the claims can be considered supported. The authors should provide quantitative data, address the methodological concerns, and significantly improve the presentation before resubmission.
+
+## Risk / unsupported claims
+- The claim that the I168A-D169G double mutant shows the highest core packing and stability is unsupported due to lack of quantitative data and statistical analysis
+- The claim that machine learning identified "biological descriptors" that could be used for therapeutic development is not adequately validated
+- The inference from increased stability to higher pathogenic potential is speculative and not discussed with appropriate nuance
+- The claim of 99.9% classification accuracy is not supported by sufficient methodological detail and may be inflated due to data leakage or autocorrelation
+- The statement that the workflow is "integrated" is not fully justified, as the MD and machine learning components appear to be applied sequentially rather than in a truly integrated manner
+- The biological significance of the identified residue pairs (e.g., M132-V135, L120-M132) is asserted without experimental or evolutionary evidence

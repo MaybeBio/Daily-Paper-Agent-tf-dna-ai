@@ -1,0 +1,466 @@
+{
+  "identity": {
+    "pmid": "35727850",
+    "doi": "10.1371/journal.pcbi.1010199",
+    "title": "Combined computational modeling and experimental analysis integrating chemical and mechanical signals suggests possible mechanism of shoot meristem maintenance."
+  },
+  "content": {
+    "abstract": "Stem cell maintenance in multilayered shoot apical meristems (SAMs) of plants requires strict regulation of cell growth and division. Exactly how the complex milieu of chemical and mechanical signals interact in the central region of the SAM to regulate cell division plane orientation is not well understood. In this paper, simulations using a newly developed multiscale computational model are combined with experimental studies to suggest and test three hypothesized mechanisms for the regulation of cell division plane orientation and the direction of anisotropic cell expansion in the corpus. Simulations predict that in the Apical corpus, WUSCHEL and cytokinin regulate the direction of anisotropic cell expansion, and cells divide according to tensile stress on the cell wall. In the Basal corpus, model simulations suggest dual roles for WUSCHEL and cytokinin in regulating both the direction of anisotropic cell expansion and cell division plane orientation. Simulation results are followed by a detailed analysis of changes in cell characteristics upon manipulation of WUSCHEL and cytokinin in experiments that support model predictions. Moreover, simulations predict that this layer-specific mechanism maintains both the experimentally observed shape and structure of the SAM as well as the distribution of WUSCHEL in the tissue. This provides an additional link between the roles of WUSCHEL, cytokinin, and mechanical stress in regulating SAM growth and proper stem cell maintenance in the SAM.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Arabidopsis/metabolism",
+      "*Arabidopsis Proteins/metabolism",
+      "Cell Wall/metabolism",
+      "Computer Simulation",
+      "Cytokinins",
+      "Gene Expression Regulation, Plant",
+      "Homeodomain Proteins/metabolism",
+      "Meristem",
+      "Plant Shoots"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Banwarth-Kuhn, Mikahl",
+        "Rodriguez, Kevin",
+        "Michael, Christian",
+        "Ta, Calvin-Khang",
+        "Plong, Alexander",
+        "Bourgain-Chang, Eric",
+        "Nematbakhsh, Ali",
+        "Chen, Weitao",
+        "Roy-Chowdhury, Amit",
+        "Reddy, G Venugopala",
+        "Alber, Mark"
+      ],
+      "short_names": [
+        "Banwarth-Kuhn M",
+        "Rodriguez K",
+        "Michael C",
+        "Ta CK",
+        "Plong A",
+        "Bourgain-Chang E",
+        "Nematbakhsh A",
+        "Chen W",
+        "Roy-Chowdhury A",
+        "Reddy GV",
+        "Alber M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4696-9453",
+        "ORCID: 0000-0002-5229-4106",
+        "ORCID: 0000-0003-3583-6097",
+        "ORCID: 0000-0001-7191-7981",
+        "ORCID: 0000-0001-7411-6039",
+        "ORCID: 0000-0002-7153-1138"
+      ],
+      "affiliations": [
+        "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+        "Department of Applied Mathematics, University of California, Merced, California, United States of America.",
+        "Department of Mathematics, University of California, Riverside, California, United States of America.",
+        "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+        "Department of Botany and Plant Sciences, University of California, Riverside, California, United States of America.",
+        "Center for Plant Cell Biology, University of California, Riverside, California, United States of America.",
+        "Institute for Integrative Genome Biology, University of California, Riverside, California, United States of America.",
+        "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+        "Department of Mathematics, University of California, Riverside, California, United States of America.",
+        "Computer Science and Engineering Department, University of California, Riverside, California, United States of America.",
+        "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+        "Department of Botany and Plant Sciences, University of California, Riverside, California, United States of America.",
+        "Center for Plant Cell Biology, University of California, Riverside, California, United States of America.",
+        "Institute for Integrative Genome Biology, University of California, Riverside, California, United States of America.",
+        "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+        "Department of Mathematics, University of California, Riverside, California, United States of America.",
+        "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+        "Department of Mathematics, University of California, Riverside, California, United States of America.",
+        "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+        "Department of Mathematics, University of California, Riverside, California, United States of America.",
+        "Computer Science and Engineering Department, University of California, Riverside, California, United States of America.",
+        "Department of Electrical and Computer Engineering, University of California, Riverside, California, United States of America.",
+        "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+        "Department of Botany and Plant Sciences, University of California, Riverside, California, United States of America.",
+        "Center for Plant Cell Biology, University of California, Riverside, California, United States of America.",
+        "Institute for Integrative Genome Biology, University of California, Riverside, California, United States of America.",
+        "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+        "Department of Mathematics, University of California, Riverside, California, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Banwarth-Kuhn, Mikahl",
+        "short_name": "Banwarth-Kuhn M",
+        "identifiers": [
+          "0000-0002-4696-9453"
+        ],
+        "affiliations": [
+          "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+          "Department of Applied Mathematics, University of California, Merced, California, United States of America.",
+          "Department of Mathematics, University of California, Riverside, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Rodriguez, Kevin",
+        "short_name": "Rodriguez K",
+        "identifiers": [
+          "0000-0002-5229-4106"
+        ],
+        "affiliations": [
+          "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+          "Department of Botany and Plant Sciences, University of California, Riverside, California, United States of America.",
+          "Center for Plant Cell Biology, University of California, Riverside, California, United States of America.",
+          "Institute for Integrative Genome Biology, University of California, Riverside, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Michael, Christian",
+        "short_name": "Michael C",
+        "identifiers": [
+          "0000-0003-3583-6097"
+        ],
+        "affiliations": [
+          "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+          "Department of Mathematics, University of California, Riverside, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Ta, Calvin-Khang",
+        "short_name": "Ta CK",
+        "identifiers": [
+          "0000-0001-7191-7981"
+        ],
+        "affiliations": [
+          "Computer Science and Engineering Department, University of California, Riverside, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Plong, Alexander",
+        "short_name": "Plong A",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+          "Department of Botany and Plant Sciences, University of California, Riverside, California, United States of America.",
+          "Center for Plant Cell Biology, University of California, Riverside, California, United States of America.",
+          "Institute for Integrative Genome Biology, University of California, Riverside, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Bourgain-Chang, Eric",
+        "short_name": "Bourgain-Chang E",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+          "Department of Mathematics, University of California, Riverside, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Nematbakhsh, Ali",
+        "short_name": "Nematbakhsh A",
+        "identifiers": [
+          "0000-0001-7411-6039"
+        ],
+        "affiliations": [
+          "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+          "Department of Mathematics, University of California, Riverside, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Chen, Weitao",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+          "Department of Mathematics, University of California, Riverside, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Roy-Chowdhury, Amit",
+        "short_name": "Roy-Chowdhury A",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Science and Engineering Department, University of California, Riverside, California, United States of America.",
+          "Department of Electrical and Computer Engineering, University of California, Riverside, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Reddy, G Venugopala",
+        "short_name": "Reddy GV",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+          "Department of Botany and Plant Sciences, University of California, Riverside, California, United States of America.",
+          "Center for Plant Cell Biology, University of California, Riverside, California, United States of America.",
+          "Institute for Integrative Genome Biology, University of California, Riverside, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Alber, Mark",
+        "short_name": "Alber M",
+        "identifiers": [
+          "0000-0002-7153-1138"
+        ],
+        "affiliations": [
+          "Interdisciplinary Center for Quantitative Modeling in Biology, University of California, Riverside, California, United States of America.",
+          "Department of Mathematics, University of California, Riverside, California, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/22 06:00",
+    "fetched_at": "2026-09-28 09:58:03"
+  },
+  "links": {
+    "cites": [
+      "41890282",
+      "39873407",
+      "38714708",
+      "37834339",
+      "37282588",
+      "37144853"
+    ],
+    "refs": [
+      "34737298",
+      "34643181",
+      "33288703",
+      "32817654",
+      "31076488",
+      "30660611",
+      "30552627",
+      "30261337",
+      "30150312",
+      "29701870",
+      "29659567",
+      "29142108",
+      "29073502",
+      "28531187",
+      "28415180",
+      "27930326",
+      "27671653",
+      "27436908",
+      "25980974",
+      "25825722",
+      "25246576",
+      "24982253",
+      "23355633",
+      "23219575",
+      "22784824",
+      "22500806",
+      "22345559",
+      "22172675",
+      "21979915",
+      "21750367",
+      "21652360",
+      "21593027",
+      "21559520",
+      "21471636",
+      "21383128",
+      "20876644",
+      "19961843",
+      "19782146",
+      "19717465",
+      "19704520",
+      "19423667",
+      "19074340",
+      "18441210",
+      "18403827",
+      "17465675",
+      "16775701",
+      "16432202",
+      "16432192",
+      "16415160",
+      "16376602",
+      "16261190",
+      "16212493",
+      "16210497",
+      "15280208",
+      "15166290",
+      "14628043",
+      "12730267",
+      "12668618",
+      "12079669",
+      "11413463",
+      "11154315",
+      "9502728",
+      "8565856",
+      "8401598"
+    ],
+    "similar": [
+      "35727850",
+      "37282588",
+      "29659567",
+      "22345559",
+      "29363596",
+      "19717465",
+      "26872130",
+      "22885615",
+      "38821962",
+      "30552627",
+      "27208247",
+      "38540799",
+      "25673776",
+      "23181633",
+      "16372013",
+      "14555694",
+      "16139212",
+      "28681564",
+      "34546796",
+      "34643181",
+      "32025802",
+      "24496620",
+      "33332559",
+      "28886911",
+      "35985107",
+      "35462532",
+      "35569046",
+      "37862096",
+      "36182391",
+      "28576845",
+      "22873486",
+      "23573875",
+      "31984435",
+      "37540364",
+      "24576426",
+      "28195159",
+      "22380923",
+      "27624829",
+      "29967282",
+      "15673576",
+      "37418524",
+      "15961462",
+      "31434317",
+      "17429400",
+      "16877025",
+      "35972411",
+      "10417706",
+      "15753038",
+      "12492830",
+      "21505100",
+      "23124326",
+      "24179098",
+      "16387832",
+      "35972204",
+      "19175771",
+      "27510974",
+      "33593817",
+      "24589475",
+      "25363783",
+      "28445492",
+      "37709567",
+      "34530323",
+      "25825722",
+      "21224426",
+      "20018401",
+      "28399422",
+      "36111520",
+      "17768399",
+      "21474200",
+      "21406977",
+      "20876644",
+      "30072538",
+      "28576846",
+      "30552452",
+      "12070095",
+      "17827180",
+      "19321707",
+      "37834339",
+      "23549482",
+      "16139211",
+      "23397191",
+      "34963064",
+      "31766002",
+      "30155591",
+      "25131670",
+      "37182581",
+      "29217754",
+      "12070094",
+      "29884678",
+      "27436908",
+      "26756833",
+      "11440722",
+      "22158464",
+      "19805255",
+      "19258439",
+      "20110319",
+      "19782675",
+      "33632892",
+      "26662515",
+      "21104289"
+    ],
+    "review": [
+      "35727850",
+      "38540799",
+      "34546796",
+      "33332559",
+      "35985107",
+      "35569046",
+      "31984435",
+      "27624829",
+      "31434317",
+      "16877025",
+      "37709567",
+      "37834339",
+      "31766002"
+    ],
+    "pmc": [
+      "9249181"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1010199",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35727850/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35727850",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt7mc8m84v",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://facultyopinions.com/pubmed/35727850",
+        "provider": "H1 Connect - Access expert opinions and insights on biomedical research.",
+        "category": "Other Literature Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "See the articles recommended by the Faculty of more than 8,000 leading experts in Biology and Medicine."
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39401117",
+  "title": "Hierarchical Graph Transformer With Contrastive Learning for Gene Regulatory Network Inference.",
+  "authors": "Cui, Wentao; Long, Qingqing; Liu, Wenhao; Fang, Chen; Wang, Xuezhi; Wang, Pengfei; Zhou, Yuanchun",
+  "journal": "IEEE journal of biomedical and health informatics",
+  "published_date": "2024-10-14",
+  "window": {
+    "start": "2024-10-14",
+    "end": "2024-10-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于层级图Transformer和对比学习的GRN推断模型，利用ChIP-seq TF-DNA结合数据与基因本体信息，虽聚焦基因调控网络推断而非直接TF-DNA结合建模，但方法可迁移至TF-DNA互作预测。",
+  "abstract": "Gene regulatory networks (GRNs) are crucial for understanding gene regulation and cellular processes. Inferring GRNs helps uncover regulatory pathways, shedding light on the regulation and development of cellular processes. With the rise of high-throughput sequencing and advancements in computational technology, computational models have emerged as cost-effective alternatives to traditional experimental studies. Moreover, the surge in ChIP-seq data for TF-DNA binding has catalyzed the development of graph neural network (GNN)-based methods, greatly advancing GRN inference capabilities. However, most existing GNN-based methods suffer from the inability to capture long-distance structural semantic correlations due to transitive interactions. In this paper, we introduce a novel GNN-based model named Hierarchical Graph Transformer with Contrastive Learning for GRN (HGTCGRN) inference. HGTCGRN excels at capturing structural semantics using a hierarchical graph Transformer, which introduces a series of gene family nodes representing gene functions as virtual nodes to interact with nodes in the GRNS. These semantic-aware virtual-node embeddings are aggregated to produce node representations with varying emphasis. Additionally, we leverage gene ontology information to construct gene interaction networks for contrastive learning optimization of GRNs. Experimental results demonstrate that HGTCGRN achieves superior performance in GRN inference.",
+  "abstract_zh": "基因调控网络（GRNs）对于理解基因调控和细胞过程至关重要。推断GRNs有助于揭示调控通路，阐明细胞过程的调控与发育机制。随着高通量测序的兴起和计算技术的进步，计算模型已成为传统实验研究的经济高效替代方案。此外，TF-DNA结合的ChIP-seq数据激增，促进了基于图神经网络（GNN）的方法的发展，极大地推进了GRN推断能力。然而，大多数现有基于GNN的方法因传递性相互作用而无法捕捉长距离结构语义相关性。本文中，我们介绍了一种新颖的基于GNN的模型，名为用于GRN推断的层次图Transformer与对比学习（HGTCGRN）。HGTCGRN通过层次图Transformer擅长捕捉结构语义，该Transformer引入一系列代表基因功能的基因家族节点作为虚拟节点，与GRNs中的节点交互。这些语义感知的虚拟节点嵌入被聚合以生成具有不同侧重点的节点表示。此外，我们利用基因本体信息构建基因相互作用网络，用于GRNs的对比学习优化。实验结果表明，HGTCGRN在GRN推断中实现了优越性能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39401117/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39401117/",
+  "paper_page_path": "papers/pubmed/39401117/index.html"
+}

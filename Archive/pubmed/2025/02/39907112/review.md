@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and conclusion. Figures and supplementary materials referenced but not provided.
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and consistency between stated results and conclusions. Not assessed: editorial quality, formatting, or literature completeness beyond what is directly relevant to the claims.
+- **Shared manuscript claim summary** The authors propose that RDFs for two large serine integrases, TG1 and Bxb1, are moonlighting phage DNA replication proteins. They provide structural predictions, bioinformatic analyses, and experimental data to support that TG1 RDF is a functional SSB protein, that Bxb1 RDF has weak exonuclease activity, and that the integrase-RDF interface predicted by AlphaFold2 multimer is functionally relevant.
+- **Visible evidence base** Abstract, full text of introduction, methods, results, discussion, and conclusion. Figures and supplementary materials are referenced but not included in the provided material.
+- **Missing materials affecting confidence** All figures, supplementary figures, and supplementary tables. Experimental gel images, quantitative data, and statistical analyses are not directly visible. The manuscript states results but the primary evidence (gels, binding curves, activity assays) cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and timely question about the evolutionary origins of RDFs for large serine integrases. The hypothesis that RDFs are moonlighting phage proteins is plausible and supported by prior observations. However, the experimental evidence presented in the text is limited in scope and depth. The key claims regarding TG1 RDF as an SSB protein and Bxb1 RDF as an exonuclease rest on assays that are described but whose results are not fully visible. The mutational analysis of the predicted interface is a strength, but the interpretation relies heavily on AlphaFold2 models without experimental structural validation. The manuscript would benefit from more quantitative data, additional controls, and clearer presentation of the experimental results.
+- **Who would be interested in the results, and why** Researchers studying site-specific recombination, phage biology, and the evolution of protein function. The work is also relevant to those interested in the application of AlphaFold2 for predicting protein-protein interactions and to synthetic biologists using serine integrases for genome engineering, as understanding RDF function and evolution could inform design of recombination systems.
+- **Major strengths** The hypothesis is clearly stated and well-motivated. The use of structural prediction combined with bioinformatic searches is a creative approach. The mutational analysis testing the predicted interface is a logical and valuable experimental follow-up. The discussion of evolutionary implications is thoughtful and provides broader context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that TG1 RDF is a functional SSB protein is central to the paper's thesis.
+  - **Evidence pointer** Results section "TG1 RDF is a phage SSB protein"; Figure 4 (not provided)
+  - **Concern** The text states that TG1 RDF binds ssDNA in a concentration-dependent manner and does not bind dsDNA, but the actual data are not visible. No quantitative binding constants, competition experiments, or specificity controls are described. The claim that this protein is a "functional" SSB requires more than a single binding assay; it should include evidence of cooperative binding, preference for ssDNA over dsDNA, and ideally functional assays such as stimulation of a polymerase or protection of ssDNA from nucleases.
+  - **Why it matters** The identification of TG1 RDF as an SSB protein is a key piece of evidence for the moonlighting hypothesis. If the binding data are weak or not specific, the claim is not established.
+  - **Resolution test** Provide quantitative EMSA data with multiple protein concentrations, a binding curve with estimated Kd, competition with unlabeled ssDNA and dsDNA, and ideally a functional assay demonstrating SSB activity (e.g., stimulation of DNA polymerase or protection from nuclease digestion).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that Bxb1 RDF shows exonuclease activity.
+  - **Evidence pointer** Results section "Bxb1 RDF shows limited exonuclease activity"; Figure 3 (not provided)
+  - **Concern** The text acknowledges that the observed exonuclease activity is "limited" and that contamination cannot be ruled out. This is a significant caveat. The assay uses a single substrate and two metal ions, but no quantitative comparison to a known exonuclease, no time course, no product characterization, and no mutagenesis of predicted catalytic residues are described. The possibility of trace nuclease contamination is a serious alternative explanation that is not experimentally excluded.
+  - **Why it matters** The claim that Bxb1 RDF is an exonuclease is a central piece of evidence for the moonlighting hypothesis. If the activity is due to contamination, the claim is unsupported.
+  - **Resolution test** Include a time course, quantitative comparison of activity with a characterized exonuclease, analysis of reaction products (e.g., by mass spectrometry or gel electrophoresis with size markers), and mutagenesis of the predicted active site residues to show loss of activity. Also include a no-protein control and a boiled-protein control.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive rigor
+  - **Claim pointer** The claim that the mutational analysis validates the AlphaFold2-predicted interface.
+  - **Evidence pointer** Results section "Experimental data support the modeled RDF-integrase interfaces"; Figures 6-8 (not provided)
+  - **Concern** The text describes mutations on both integrase and RDF that affect function, but the interpretation is complicated by the fact that some mutants (e.g., integrase mutant 1) show reduced catalytic activity independent of RDF interaction. The authors acknowledge this for mutant 1 but do not fully address how they distinguish defects in catalysis from defects in RDF communication for all mutants. The statement that the interface is "validated" is strong given that the data are consistent with the model but do not prove it.
+  - **Why it matters** The validation of the predicted interface is important for the mechanistic model proposed. Overinterpretation could mislead future work.
+  - **Resolution test** Provide a more systematic analysis of mutant phenotypes, including separation of catalytic and RDF-interaction defects (e.g., using a catalytically dead integrase background). Consider testing additional mutations at the interface and providing a quantitative measure of RDF binding (e.g., pull-down or biophysical assay) rather than only functional readouts.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the RDF binding hotspot is conserved across LSIs.
+  - **Evidence pointer** Discussion section "Integrase proteins share an RDF-binding hotspot"; references to prior work
+  - **Concern** The discussion extends the findings to a general model of a conserved RDF-binding hotspot, but the experimental evidence presented here only directly addresses TG1 and, to a lesser extent, Bxb1. The claim of conservation relies on prior modeling and literature, which is appropriate for a discussion, but the strength of the statement could be tempered given the limited direct evidence.
+  - **Why it matters** Overgeneralization could lead to incorrect assumptions about other integrase-RDF systems.
+  - **Resolution test** Clarify in the text which parts of the hotspot model are directly supported by the current data and which are speculative extensions based on prior work.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "In vitro exonuclease reactions"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The description of the exonuclease assay is brief. The substrate design, reaction conditions, and analysis method are described but some details are missing (e.g., enzyme concentration range, specific activity of the labeled substrate, how products were quantified).
+  - **Required correction** Provide additional experimental details to allow replication, including enzyme concentrations, reaction volumes, incubation times, and the method used to quantify product formation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "TG1 and Bxb1 RDFs are structurally homologous to DNA replication proteins"
+  - **Evidence pointer** Results section, location not provided
+  - **Issue** The text states that the virtual pulldown "failed to convincingly identify interaction partners for the Bxb1 RDF" but does not describe what was tried or what the results were. This is a negative result that is mentioned but not shown.
+  - **Required correction** Briefly describe the virtual pulldown approach and its outcome, or state that the results are shown in supplementary material.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretive rigor
+  - **Affected element** Discussion section "How and why do phages moonlight existing proteins to take up RDF functions?"
+  - **Evidence pointer** Discussion section, location not provided
+  - **Issue** The evolutionary scenario proposed is speculative. While this is appropriate for a discussion, the text could more clearly distinguish between hypothesis and evidence-based conclusion.
+  - **Required correction** Use conditional language when discussing the evolutionary scenario and clearly label it as a hypothesis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "TG1 RDF is a phage SSB protein"
+  - **Evidence pointer** Results section, location not provided
+  - **Issue** The text mentions that the N-terminal extension of TG1 RDF is predicted to interact with other RDF copies and a family A polymerase, but no experimental validation of these interactions is provided.
+  - **Required correction** Either provide experimental evidence for these interactions or clearly state that they are predictions that require future testing.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of visible quantitative data for the key experiments. The claims that TG1 RDF is a functional SSB and that Bxb1 RDF has exonuclease activity are supported by assays whose results are not fully presented. The mutational analysis is described but the actual gel images and quantification are not available. Without these data, the strength of the evidence cannot be assessed. Additionally, the possibility of nuclease contamination in the Bxb1 RDF preparation is not experimentally excluded.
+- **Assessment against Nature-style criteria** Originality: The hypothesis that RDFs are moonlighting phage proteins is not entirely new, as prior work had suggested this possibility, but the specific identification of TG1 RDF as an SSB protein and the experimental testing of the predicted interface provide a novel contribution. Scientific importance: The work has implications for understanding the evolution of site-specific recombination systems and could inform engineering of integrases for biotechnology. The importance is moderate, as the findings are specific to two phage systems. Interdisciplinary readership: The work will primarily interest researchers in phage biology, recombination, and protein evolution. The broader readership may be limited. Technical soundness: The experimental design is generally sound, but the evidence presented is incomplete. The reliance on AlphaFold2 predictions without experimental structural validation is a limitation. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with the integrase field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The hypothesis is interesting and the approach is creative, but the evidence as presented is insufficient to fully establish the claims. The authors should provide more complete experimental data, address the contamination concern for the Bxb1 RDF exonuclease assay, and temper some of the interpretive statements.
+
+## Risk / unsupported claims
+- The claim that TG1 RDF is a "functional" SSB protein is not fully supported by the visible evidence; binding data are described but not shown.
+- The claim that Bxb1 RDF has exonuclease activity is weakened by the acknowledged possibility of contamination, which is not experimentally excluded.
+- The claim that the AlphaFold2-predicted interface is "validated" is too strong given that the data are consistent with but do not prove the model.
+- The proposal that the RDF-binding hotspot is conserved across LSIs is based largely on prior modeling and literature, not on direct experimental evidence from this study.
+- The predicted interactions of TG1 RDF with a family A polymerase are not experimentally tested.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that jatrorrhizine (JAT), a monomeric compound from Rhizoma Coptidis, reduces body weight and inflammatory cytokine expression in high-fat diet-induced obese mice. They propose that JAT acts through the transcription factors c-Jun/c-Fos to downregulate Mmp12, thereby alleviating obesity-associated inflammation. The abstract describes a multi-method approach including transcriptomics, qPCR, promoter activity assays, CETSA, molecular dynamics simulation, circular dichroism, and co-immunoprecipitation.
+- **Visible evidence base** Abstract text only; no numerical data, statistical details, experimental protocols, or figure/table references are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, statistical analyses, experimental methods, animal model details, dose and administration regimen, sample sizes, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic link between a natural product and obesity-related inflammation via a specific transcription factor axis. However, the evidence as summarized is insufficient to evaluate the robustness of the claims. Key quantitative outcomes, experimental design details, and validation steps are absent. The mechanistic chain from JAT binding to c-Jun/c-Fos and downstream Mmp12 regulation is asserted but not substantiated with data in the abstract. The work may be of interest to researchers in natural product pharmacology and obesity immunology, but the current presentation does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying natural product-based interventions for metabolic diseases, particularly those focused on obesity-related inflammation and macrophage or adipose tissue remodeling. The proposed c-Jun/c-Fos-Mmp12 axis may also interest investigators working on transcription factor regulation of matrix metalloproteinases in inflammatory contexts.
+- **Major strengths** The study addresses a clinically relevant problem, obesity-related chronic inflammation, using a defined natural product monomer. The proposed mechanism is specific and testable, involving a clear molecular axis. The use of multiple orthogonal techniques, including transcriptomics, promoter assays, biophysical methods, and protein interaction analysis, suggests a comprehensive approach if properly executed.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** JAT dose-dependently reduces body weight and decreases expression of IL6, IL1beta, and TNFalpha in tissues of obese mice.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states a dose-dependent effect on body weight and inflammatory cytokines but provides no numerical data, effect sizes, statistical significance, or number of animals per group. Without these, the claim cannot be evaluated for magnitude, consistency, or biological relevance.
+  - **Why it matters** Dose dependency is a central claim that supports the therapeutic potential of JAT. If the effect is weak or inconsistent, the translational relevance is diminished. The absence of quantitative evidence prevents assessment of whether the effect is robust and reproducible.
+  - **Resolution test** Provide dose-response data with mean values, standard errors, statistical tests, and sample sizes for body weight and each cytokine across all doses tested.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic validation
+  - **Claim pointer** JAT modulates c-Jun/c-Fos promoter activity, which in turn downregulates transcript and protein levels of Mmp12.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract asserts that JAT affects c-Jun/c-Fos promoter activity and subsequently reduces Mmp12 expression, but no data are shown to support this causal sequence. It is unclear whether JAT directly binds c-Jun/c-Fos, whether the promoter activity change is functionally linked to Mmp12 downregulation, and whether this occurs in the relevant adipose tissue or cell types.
+  - **Why it matters** The proposed mechanism is the core novelty of the study. Without direct evidence of each step, including binding, transcriptional regulation, and downstream protein changes, the mechanistic claim remains speculative. The use of CETSA and molecular dynamics simulation suggests binding studies, but results are not summarized.
+  - **Resolution test** Present data showing JAT binding to c-Jun/c-Fos, functional promoter assays with appropriate controls, and concordant changes in Mmp12 mRNA and protein in relevant cell or tissue models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** JAT ameliorates high-fat diet-induced obesity and associated inflammation through the c-Jun/c-Fos-Mmp12 axis.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract concludes a pathway-specific mechanism but does not provide loss-of-function or gain-of-function experiments, such as knockdown or overexpression of c-Jun, c-Fos, or Mmp12, to establish causality. Correlation between JAT treatment and changes in these targets is insufficient to prove that the axis mediates the therapeutic effect.
+  - **Why it matters** A mechanistic claim requires demonstration that the proposed pathway is necessary and sufficient for the observed phenotype. Without genetic or pharmacological perturbation, alternative pathways could explain the anti-obesity and anti-inflammatory effects.
+  - **Resolution test** Include experiments where c-Jun, c-Fos, or Mmp12 are modulated independently of JAT treatment, and show that the effects of JAT are attenuated or enhanced accordingly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title
+  - **Issue** The title states "Jatrorrhizine retard obesity" which contains a grammatical error. "Retard" should be "retards" for subject-verb agreement.
+  - **Required correction** Revise the title to "Jatrorrhizine retards obesity by modulating transcription factor c-Jun/c-Fos to downregulate Mmp12-mediated inflammation."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "single fluorescent promoter activity assay" but does not specify the cell type, promoter construct, or whether endogenous or exogenous c-Jun/c-Fos was used. This limits interpretability.
+  - **Required correction** Specify the cell model, promoter reporter design, and relevant controls in the abstract or full text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Cell thermodynamic stability analysis (CETSA)"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abbreviation CETSA is commonly expanded as "Cellular Thermal Shift Assay," not "Cell thermodynamic stability analysis." The provided expansion is nonstandard and may confuse readers.
+  - **Required correction** Use the standard expansion "Cellular Thermal Shift Assay" or provide the correct full term as used in the field.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scope of claim
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The conclusion states JAT "may ameliorate" obesity, which is appropriately cautious, but the preceding text uses definitive language such as "identified Mmp12 as a key target." This inconsistency in certainty is confusing.
+  - **Required correction** Align the level of certainty throughout the abstract, using conditional language where direct evidence is lacking.
+
+## Risk / unsupported claims
+- The claim that JAT dose-dependently reduces body weight and inflammatory cytokines is unsupported by quantitative data in the abstract.
+- The claim that JAT modulates c-Jun/c-Fos promoter activity to downregulate Mmp12 is unsupported by functional or binding data in the abstract.
+- The claim that the c-Jun/c-Fos-Mmp12 axis mediates the therapeutic effect of JAT is unsupported by causal experiments.
+- The relevance of Mmp12 as a "key target" is asserted without evidence of its functional role in the observed phenotype.
+- The generalizability of findings from a single mouse model to human obesity is not addressed and cannot be assessed from the abstract.

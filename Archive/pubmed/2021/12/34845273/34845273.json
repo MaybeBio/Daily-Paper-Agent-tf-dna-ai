@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "34845273",
+    "doi": "10.1038/s41598-021-02441-6",
+    "title": "Single cell imaging-based chromatin biomarkers for tumor progression."
+  },
+  "content": {
+    "abstract": "Tumour progression within the tissue microenvironment is accompanied by complex biomechanical alterations of the extracellular environment. While histopathology images provide robust biochemical markers for tumor progression in clinical settings, a quantitative single cell score using nuclear morphology and chromatin organization integrated with the long range mechanical coupling within the tumor microenvironment is missing. We propose that the spatial chromatin organization in individual nuclei characterises the cell state and their alterations during tumor progression. In this paper, we first built an image analysis pipeline and implemented it to classify nuclei from patient derived breast tissue biopsies of various cancer stages based on their nuclear and chromatin features. Replacing H&E with DNA binding dyes such as Hoescht stained tissue biopsies, we improved the classification accuracy. Using the nuclear morphology and chromatin organization features, we constructed a pseudo-time model to identify the chromatin state changes that occur during tumour progression. This enabled us to build a single-cell mechano-genomic score that characterises the cell state during tumor progression from a normal to a metastatic state. To gain further insights into the alterations in the local tissue microenvironments, we also used the nuclear orientations to identify spatial neighbourhoods that have been posited to drive tumor progression. Collectively, we demonstrate that image-based single cell chromatin and nuclear features are important single cell biomarkers for phenotypic mapping of tumor progression.",
+    "keywords": [],
+    "mesh_terms": [
+      "Biomarkers/*metabolism",
+      "Biomarkers, Tumor",
+      "Biophysics",
+      "Biopsy",
+      "Breast Neoplasms/metabolism",
+      "Cell Nucleus/*metabolism",
+      "Chromatin/*chemistry",
+      "Collagen/chemistry",
+      "Computational Biology",
+      "DNA/chemistry",
+      "Disease Progression",
+      "Fibroblasts/metabolism",
+      "Genomics",
+      "Humans",
+      "Image Processing, Computer-Assisted",
+      "In Vitro Techniques",
+      "Machine Learning",
+      "Neoplasm Metastasis",
+      "Neoplasms/*metabolism",
+      "Phenotype",
+      "Probability",
+      "Protein Binding",
+      "Tumor Microenvironment"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Venkatachalapathy, Saradha",
+        "Jokhun, Doorgesh S",
+        "Andhari, Madhavi",
+        "Shivashankar, G V"
+      ],
+      "short_names": [
+        "Venkatachalapathy S",
+        "Jokhun DS",
+        "Andhari M",
+        "Shivashankar GV"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Mechanobiology Institute and Department of Biological Sciences, National University of Singapore, Singapore, 117411, Singapore.",
+        "Department of Health Sciences and Technology, ETH Zurich, Zurich, Switzerland.",
+        "Paul Scherrer Institut, 5232, Villigen, Switzerland.",
+        "Mechanobiology Institute and Department of Biological Sciences, National University of Singapore, Singapore, 117411, Singapore.",
+        "Mechanobiology Institute and Department of Biological Sciences, National University of Singapore, Singapore, 117411, Singapore.",
+        "Department of Biological Sciences, Indian Institute of Science Education and Research Kolkata, Mohanpur, West Bengal, 741246, India.",
+        "Mechanobiology Institute and Department of Biological Sciences, National University of Singapore, Singapore, 117411, Singapore. shiva.gvs@gmail.com.",
+        "FIRC Institute for Molecular Oncology, 20139, Milan, Italy. shiva.gvs@gmail.com.",
+        "Department of Health Sciences and Technology, ETH Zurich, Zurich, Switzerland. shiva.gvs@gmail.com.",
+        "Paul Scherrer Institut, 5232, Villigen, Switzerland. shiva.gvs@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Venkatachalapathy, Saradha",
+        "short_name": "Venkatachalapathy S",
+        "identifiers": [],
+        "affiliations": [
+          "Mechanobiology Institute and Department of Biological Sciences, National University of Singapore, Singapore, 117411, Singapore.",
+          "Department of Health Sciences and Technology, ETH Zurich, Zurich, Switzerland.",
+          "Paul Scherrer Institut, 5232, Villigen, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Jokhun, Doorgesh S",
+        "short_name": "Jokhun DS",
+        "identifiers": [],
+        "affiliations": [
+          "Mechanobiology Institute and Department of Biological Sciences, National University of Singapore, Singapore, 117411, Singapore."
+        ]
+      },
+      {
+        "full_name": "Andhari, Madhavi",
+        "short_name": "Andhari M",
+        "identifiers": [],
+        "affiliations": [
+          "Mechanobiology Institute and Department of Biological Sciences, National University of Singapore, Singapore, 117411, Singapore.",
+          "Department of Biological Sciences, Indian Institute of Science Education and Research Kolkata, Mohanpur, West Bengal, 741246, India."
+        ]
+      },
+      {
+        "full_name": "Shivashankar, G V",
+        "short_name": "Shivashankar GV",
+        "identifiers": [],
+        "affiliations": [
+          "Mechanobiology Institute and Department of Biological Sciences, National University of Singapore, Singapore, 117411, Singapore. shiva.gvs@gmail.com.",
+          "FIRC Institute for Molecular Oncology, 20139, Milan, Italy. shiva.gvs@gmail.com.",
+          "Department of Health Sciences and Technology, ETH Zurich, Zurich, Switzerland. shiva.gvs@gmail.com.",
+          "Paul Scherrer Institut, 5232, Villigen, Switzerland. shiva.gvs@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2021 Nov 29",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/01 06:00",
+    "fetched_at": "2026-09-28 02:28:22"
+  },
+  "links": {
+    "cites": [
+      "41764479",
+      "40879746",
+      "40359941",
+      "40080399",
+      "39908115",
+      "39030176",
+      "38738286",
+      "38092866",
+      "38010905",
+      "38001169",
+      "37510269",
+      "36672333"
+    ],
+    "refs": [
+      "33122355",
+      "33037194",
+      "32313005",
+      "32023167",
+      "31636459",
+      "31528221",
+      "31501549",
+      "31273297",
+      "31209017",
+      "31197269",
+      "30976105",
+      "30936567",
+      "30886333",
+      "30816935",
+      "30367165",
+      "30128085",
+      "29606315",
+      "29263424",
+      "29203879",
+      "29044247",
+      "28791816",
+      "28615317",
+      "28582478",
+      "28381423",
+      "27663743",
+      "27571553",
+      "27312344",
+      "26826418",
+      "25468338",
+      "25468334",
+      "24629088",
+      "24309562",
+      "23085644",
+      "22691969",
+      "22337151",
+      "22118458",
+      "21908556",
+      "19165226",
+      "19153673",
+      "16815897",
+      "15343274"
+    ],
+    "similar": [
+      "34845273",
+      "29606315",
+      "29923622",
+      "28504305",
+      "30947151",
+      "11295618",
+      "20673354",
+      "32343706",
+      "34326378",
+      "11389545",
+      "29263424",
+      "8393369",
+      "9313826",
+      "22164226",
+      "11007437",
+      "30337080",
+      "16373966",
+      "26576947",
+      "11295610",
+      "8791108",
+      "31843716",
+      "31314779",
+      "8043158",
+      "34280546",
+      "12775917",
+      "24290943",
+      "14669277",
+      "11753877",
+      "31119567",
+      "33917241",
+      "34685604",
+      "33203646",
+      "10489626",
+      "16383013",
+      "26208307",
+      "33340365",
+      "38001169",
+      "9267561",
+      "21182180",
+      "15592017",
+      "2223010",
+      "33564040",
+      "23510467",
+      "34735529",
+      "29311580",
+      "8911509",
+      "28323041",
+      "36463283",
+      "29136101",
+      "16624624",
+      "11080789",
+      "21771025",
+      "20529269",
+      "30835504",
+      "33075760",
+      "29214466",
+      "1375804",
+      "9713344",
+      "32572199",
+      "25631564",
+      "22242161",
+      "18630843",
+      "15959557",
+      "34053009",
+      "11332081",
+      "1655233",
+      "22504875",
+      "29052204",
+      "10620145",
+      "1447826",
+      "29218893",
+      "1590897",
+      "7577751",
+      "8570289",
+      "31455893",
+      "7529131",
+      "7529856",
+      "18199716",
+      "22078026",
+      "32594560",
+      "28861708",
+      "15560848",
+      "33193316",
+      "28268808",
+      "22358970",
+      "7814142",
+      "27821221",
+      "31170987",
+      "22706633",
+      "34995293",
+      "38092866",
+      "37155406",
+      "39348407",
+      "36541010",
+      "25599536",
+      "39282391",
+      "35696646",
+      "38081823",
+      "34485971",
+      "35637521",
+      "36393865"
+    ],
+    "review": [
+      "34845273",
+      "29606315",
+      "29923622",
+      "30947151",
+      "11389545",
+      "33917241",
+      "34685604",
+      "10489626",
+      "16383013",
+      "15592017",
+      "28323041",
+      "30835504",
+      "15959557",
+      "22504875",
+      "8570289",
+      "31455893",
+      "22078026",
+      "32594560",
+      "28861708",
+      "25599536"
+    ],
+    "pmc": [
+      "8630115"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-021-02441-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34845273/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34845273",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

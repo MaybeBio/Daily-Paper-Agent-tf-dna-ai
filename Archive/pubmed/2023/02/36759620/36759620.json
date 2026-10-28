@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "36759620",
+    "doi": "10.1038/s41467-023-36262-0",
+    "title": "Multi-omics and machine learning reveal context-specific gene regulatory activities of PML::RARA in acute promyelocytic leukemia."
+  },
+  "content": {
+    "abstract": "The PML::RARA fusion protein is the hallmark driver of Acute Promyelocytic Leukemia (APL) and disrupts retinoic acid signaling, leading to wide-scale gene expression changes and uncontrolled proliferation of myeloid precursor cells. While known to be recruited to binding sites across the genome, its impact on gene regulation and expression is under-explored. Using integrated multi-omics datasets, we characterize the influence of PML::RARA binding on gene expression and regulation in an inducible PML::RARA cell line model and APL patient ex vivo samples. We find that genes whose regulatory elements recruit PML::RARA are not uniformly transcriptionally repressed, as commonly suggested, but also may be upregulated or remain unchanged. We develop a computational machine learning implementation called Regulatory Element Behavior Extraction Learning to deconvolute the complex, local transcription factor binding site environment at PML::RARA bound positions to reveal distinct signatures that modulate how PML::RARA directs the transcriptional response.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Cell Line",
+      "Gene Expression Regulation",
+      "*Leukemia, Promyelocytic, Acute/genetics/metabolism",
+      "Multiomics",
+      "Oncogene Proteins, Fusion/genetics/metabolism",
+      "Tretinoin/pharmacology",
+      "Retinoic Acid Receptor alpha",
+      "Promyelocytic Leukemia Protein"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Villiers, William",
+        "Kelly, Audrey",
+        "He, Xiaohan",
+        "Kaufman-Cook, James",
+        "Elbasir, Abdurrahman",
+        "Bensmail, Halima",
+        "Lavender, Paul",
+        "Dillon, Richard",
+        "Mifsud, Borbala",
+        "Osborne, Cameron S"
+      ],
+      "short_names": [
+        "Villiers W",
+        "Kelly A",
+        "He X",
+        "Kaufman-Cook J",
+        "Elbasir A",
+        "Bensmail H",
+        "Lavender P",
+        "Dillon R",
+        "Mifsud B",
+        "Osborne CS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8710-0263",
+        "ORCID: 0000-0001-9333-5296",
+        "ORCID: 0000-0003-3429-3094",
+        "ORCID: 0000-0003-4126-2499"
+      ],
+      "affiliations": [
+        "Department of Medical and Molecular Genetics, King's College London, London, UK.",
+        "School of Immunology & Microbial Sciences, MRC and Asthma UK Centre in Allergic Mechanisms of Asthma, King's College London, London, UK.",
+        "Department of Medical and Molecular Genetics, King's College London, London, UK.",
+        "Department of Medical and Molecular Genetics, King's College London, London, UK.",
+        "ICT Division, College of Science and Engineering, Hamad Bin Khalifa University, Doha, Qatar.",
+        "Qatar Computing Research Institute, Hamad Bin Khalifa University, Doha, Qatar.",
+        "School of Immunology & Microbial Sciences, MRC and Asthma UK Centre in Allergic Mechanisms of Asthma, King's College London, London, UK.",
+        "Department of Medical and Molecular Genetics, King's College London, London, UK.",
+        "Department of Haematology, Guy's and St. Thomas' NHS Foundation Trust, London, UK.",
+        "College of Health and Life Sciences, Hamad Bin Khalifa University, Education City, Doha, Qatar. bmifsud@hbku.edu.qa.",
+        "William Harvey Research Institute, Queen Mary University London, London, UK. bmifsud@hbku.edu.qa.",
+        "Department of Medical and Molecular Genetics, King's College London, London, UK. cameron.osborne9@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Villiers, William",
+        "short_name": "Villiers W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical and Molecular Genetics, King's College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Kelly, Audrey",
+        "short_name": "Kelly A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Immunology & Microbial Sciences, MRC and Asthma UK Centre in Allergic Mechanisms of Asthma, King's College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "He, Xiaohan",
+        "short_name": "He X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical and Molecular Genetics, King's College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Kaufman-Cook, James",
+        "short_name": "Kaufman-Cook J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical and Molecular Genetics, King's College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Elbasir, Abdurrahman",
+        "short_name": "Elbasir A",
+        "identifiers": [],
+        "affiliations": [
+          "ICT Division, College of Science and Engineering, Hamad Bin Khalifa University, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Bensmail, Halima",
+        "short_name": "Bensmail H",
+        "identifiers": [],
+        "affiliations": [
+          "Qatar Computing Research Institute, Hamad Bin Khalifa University, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Lavender, Paul",
+        "short_name": "Lavender P",
+        "identifiers": [
+          "0000-0001-8710-0263"
+        ],
+        "affiliations": [
+          "School of Immunology & Microbial Sciences, MRC and Asthma UK Centre in Allergic Mechanisms of Asthma, King's College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Dillon, Richard",
+        "short_name": "Dillon R",
+        "identifiers": [
+          "0000-0001-9333-5296"
+        ],
+        "affiliations": [
+          "Department of Medical and Molecular Genetics, King's College London, London, UK.",
+          "Department of Haematology, Guy's and St. Thomas' NHS Foundation Trust, London, UK."
+        ]
+      },
+      {
+        "full_name": "Mifsud, Borbála",
+        "short_name": "Mifsud B",
+        "identifiers": [
+          "0000-0003-3429-3094"
+        ],
+        "affiliations": [
+          "College of Health and Life Sciences, Hamad Bin Khalifa University, Education City, Doha, Qatar. bmifsud@hbku.edu.qa.",
+          "William Harvey Research Institute, Queen Mary University London, London, UK. bmifsud@hbku.edu.qa."
+        ]
+      },
+      {
+        "full_name": "Osborne, Cameron S",
+        "short_name": "Osborne CS",
+        "identifiers": [
+          "0000-0003-4126-2499"
+        ],
+        "affiliations": [
+          "Department of Medical and Molecular Genetics, King's College London, London, UK. cameron.osborne9@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2023 Feb 9",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/10 06:00",
+    "fetched_at": "2026-09-28 20:13:36"
+  },
+  "links": {
+    "cites": [
+      "42671651",
+      "42393459",
+      "42353099",
+      "41168841",
+      "40960339",
+      "40332534",
+      "40095699",
+      "39998604",
+      "39574909",
+      "39136995",
+      "39017850",
+      "38611029",
+      "38424237",
+      "37726492",
+      "37720354",
+      "37509198"
+    ],
+    "refs": [
+      "33441414",
+      "32854112",
+      "32393309",
+      "31036827",
+      "30992073",
+      "30977354",
+      "30783653",
+      "30305613",
+      "28846090",
+      "28369036",
+      "28079019",
+      "27641501",
+      "27306882",
+      "26835000",
+      "26519505",
+      "25938943",
+      "25605792",
+      "24695404",
+      "22549696",
+      "20577838",
+      "20159610",
+      "20159609",
+      "16932337",
+      "16757557",
+      "16449642",
+      "15194430",
+      "15096541",
+      "10938104",
+      "10882118",
+      "9486655",
+      "9486654",
+      "8521510",
+      "8394219",
+      "7478549",
+      "2218500",
+      "2170850"
+    ],
+    "similar": [
+      "36759620",
+      "39017850",
+      "19029980",
+      "9624536",
+      "25258343",
+      "14592978",
+      "8674046",
+      "24344243",
+      "33428799",
+      "39836190",
+      "23509325",
+      "25119106",
+      "24433507",
+      "39766302",
+      "30289902",
+      "20455087",
+      "29921692",
+      "10553155",
+      "15096541",
+      "12353268",
+      "39596602",
+      "38648485",
+      "15899384",
+      "24412926",
+      "19808868",
+      "25126724",
+      "17708789",
+      "27740626",
+      "30266821",
+      "25815789",
+      "20155840",
+      "22948489",
+      "38294534",
+      "27626703",
+      "22692509",
+      "34125173",
+      "36198282",
+      "10673742",
+      "11929790",
+      "21190992",
+      "11798779",
+      "9486655",
+      "20574048",
+      "26088929",
+      "30536958",
+      "10992301",
+      "7784078",
+      "7858248",
+      "29136503",
+      "39858554",
+      "30421475",
+      "26537301",
+      "39622167",
+      "26026090",
+      "23627671",
+      "26374632",
+      "20807888",
+      "1339190",
+      "8562957",
+      "20724820",
+      "1337847",
+      "16239915",
+      "10766166",
+      "30575821",
+      "11891284",
+      "10610177",
+      "27732960",
+      "33298649",
+      "9746761",
+      "20935222",
+      "11779431",
+      "27390356",
+      "8180390",
+      "35854096",
+      "38153216",
+      "18941112",
+      "8819070",
+      "26294332",
+      "9234742",
+      "23292868",
+      "22778276",
+      "23998577",
+      "24038216",
+      "39227737",
+      "12550769",
+      "35639830",
+      "16502581",
+      "9531570",
+      "32323584",
+      "38503502",
+      "25944686",
+      "22056243",
+      "9192750",
+      "25583766",
+      "1486033",
+      "39136995",
+      "37283355",
+      "26041820",
+      "8916959",
+      "31085908"
+    ],
+    "review": [
+      "36759620",
+      "39017850",
+      "24344243",
+      "24433507",
+      "19808868",
+      "29136503",
+      "39858554",
+      "1339190",
+      "1337847",
+      "8819070",
+      "22778276",
+      "38503502"
+    ],
+    "pmc": [
+      "9911410"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-023-36262-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36759620/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36759620",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse173751",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

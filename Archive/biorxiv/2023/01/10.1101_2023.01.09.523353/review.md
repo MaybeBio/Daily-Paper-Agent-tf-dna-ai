@@ -1,0 +1,88 @@
+## Review setup
+
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, funding, author contributions) as provided by the user. No supplementary figures or tables were included in the supplied material.
+- **Assessment boundary** The assessment is limited to the scientific claims, experimental design, data interpretation, and internal consistency of the provided manuscript text. No external validation of experimental data or reproducibility checks were performed.
+- **Shared manuscript claim summary** The manuscript claims that human PrimPol initiates DNA synthesis in a cis-orientation, where the N-terminal catalytic domain (NTD) and C-terminal domain (CTD) of the same molecule cooperate during primase activity. It further claims that the ZnFn motif residues Arg417 and Arg424 are required for binding the 5'-triphosphate of the initiating nucleotide, and that the CTD, particularly the RPA-binding motif (RBM), negatively regulates DNA binding by the NTD.
+- **Visible evidence base** The evidence base consists of biochemical assays (primase and polymerase activity assays), electrophoretic mobility shift assays (EMSA), and molecular modeling based on AlphaFold predictions and a related crystal structure (PDB ID 5f0q). Specific data are referenced to Figures 1–5 and Supplementary Figures S1–S3, but none of these figures or supplementary materials were provided in the submitted text.
+- **Missing materials affecting confidence** The following materials were not provided and are essential for a full assessment: all figures (Figures 1–5), Supplementary Figures S1–S3, Table 1 (oligonucleotide sequences), and any raw data or statistical analyses. Without these, quantitative claims about activity levels, binding affinities, and reproducibility cannot be independently evaluated.
+
+## Reviewer
+
+- **Overall assessment** The manuscript addresses a relevant and timely question regarding the mechanistic basis of human PrimPol primase activity. The authors present a plausible model involving cis-orientation of the catalytic and regulatory domains, supported by separation-of-function mutations and domain deletion experiments. However, the current text provides insufficient experimental detail and lacks the primary data (figures and supplementary materials) necessary to verify the central claims. The modeling section is speculative and would benefit from clearer presentation of the methodology and limitations. The manuscript is potentially of interest to the DNA replication and repair community, but the case is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying DNA replication stress, translesion synthesis, primase mechanisms, and mitochondrial DNA maintenance would find these results relevant. The proposed cis-orientation mechanism and the role of the ZnFn in triphosphate binding could inform broader understanding of primase family enzymes and their regulation.
+- **Major strengths** The study uses a combination of point mutations and domain deletions to dissect the roles of the NTD and CTD, which is a sound approach. The finding that the NTD alone retains weak primase activity is interesting and adds nuance to the model. The comparison with human primase PriS/PriL provides a useful conceptual framework. The identification of specific residues (Arg417, Arg424) potentially involved in triphosphate binding is a testable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that PrimPol operates in a cis-orientation based on the lack of complementation when mixing PrimPol D114A with PrimPol R417A or R424A mutants.
+  - **Evidence pointer** Figure 2, location not provided
+  - **Concern** The central conclusion of cis-orientation rests entirely on the interpretation of mixing experiments shown in Figure 2. Without the actual gel images, quantification, or controls (e.g., verifying that the mutants are expressed and stable, and that the mixing ratio is optimal), it is impossible to assess whether the lack of complementation is due to cis-orientation or to other factors such as insufficient protein concentration, suboptimal reaction conditions, or dominant-negative effects.
+  - **Why it matters** The cis-orientation claim is the primary novel finding of the manuscript. If this conclusion is not robustly supported, the overall significance of the work is substantially diminished.
+  - **Resolution test** Provide the raw data for Figure 2, including representative gels, quantification of activity, and appropriate controls (e.g., western blots for protein stability, titration of mutant proteins in mixing experiments). A clear demonstration that the mixing experiments were performed under conditions where trans-complementation would be expected to occur (e.g., using a known trans-acting primase as a positive control) would strengthen the claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that Arg417 and Arg424 are required for binding the 5'-triphosphate of the initiating nucleotide, based on EMSA experiments with a DNA substrate containing a 5'-triphosphate.
+  - **Evidence pointer** Figure 4, location not provided
+  - **Concern** The EMSA data are described qualitatively, but no binding affinities or quantitative comparisons are provided. It is unclear whether the reduced binding observed with R417A and R424A mutants is statistically significant and specific to the triphosphate moiety, or whether these mutations globally affect DNA binding. The manuscript also does not address whether the mutations affect protein folding or stability.
+  - **Why it matters** The proposed role of Arg417 and Arg424 in triphosphate binding is a key mechanistic claim. Without quantitative binding data and appropriate controls (e.g., using a substrate without a 5'-triphosphate), the conclusion is not fully supported.
+  - **Resolution test** Provide quantitative EMSA data (e.g., binding curves, Kd values) for wild-type and mutant proteins with substrates with and without a 5'-triphosphate. Include controls for protein integrity (e.g., circular dichroism or size-exclusion chromatography) to rule out global folding defects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretational rigor
+  - **Claim pointer** The manuscript claims that the CTD negatively regulates DNA binding by the NTD, based on increased DNA binding by the NTD alone compared to the full-length protein.
+  - **Evidence pointer** Figure 3B, location not provided
+  - **Concern** The interpretation that the CTD negatively regulates DNA binding is inferred from the observation that the NTD alone binds ssDNA more strongly than the full-length protein. However, the manuscript does not consider alternative explanations, such as the CTD inducing a conformational change in the NTD that reduces its intrinsic affinity, or the possibility that the full-length protein forms higher-order oligomers that alter binding stoichiometry.
+  - **Why it matters** The regulatory role of the CTD is a secondary claim but contributes to the proposed model. A more rigorous analysis of the binding mechanism would strengthen the interpretation.
+  - **Resolution test** Perform binding assays at multiple protein concentrations to determine stoichiometry, and use mutants that disrupt the NTD-CTD interface to test whether the regulatory effect is due to intramolecular interactions. Consider surface plasmon resonance or isothermal titration calorimetry for more detailed kinetic and thermodynamic analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validity
+  - **Claim pointer** The manuscript presents a molecular model of the ZnFn/template-primer complex based on AlphaFold predictions and manual fitting.
+  - **Evidence pointer** Figure 5, location not provided
+  - **Concern** The modeling approach is described briefly and relies on manual fitting, which is inherently subjective. The manuscript does not provide validation of the model (e.g., energy minimization, molecular dynamics, or comparison with experimental mutagenesis data beyond the tested residues). The claim that Arg424 does not interact with the triphosphate is based solely on the model and is not experimentally tested.
+  - **Why it matters** The model is used to support the functional role of Arg417 and to suggest a distinct role for Arg424. If the model is not robust, these interpretations are speculative.
+  - **Resolution test** Provide details of the modeling procedure, including the version of AlphaFold, the alignment method, and any refinement steps. Ideally, validate the model with additional mutagenesis (e.g., testing Arg424 mutants in functional assays) or use molecular dynamics simulations to assess the stability of the proposed interactions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that PrimPol initiates DNA synthesis in cis-orientation, but the term "cis-orientation" is not defined in the abstract. Readers unfamiliar with primase mechanisms may find this confusing.
+  - **Required correction** Briefly define cis-orientation in the abstract, e.g., "when the catalytic and regulatory domains of the same PrimPol molecule participate in DNA synthesis initiation."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Results section
+  - **Evidence pointer** Results, "PrimPol operates in cis-orientation" section, location not provided
+  - **Issue** The text mentions "PrimPol D117A" in the description of the mixing experiments, but the mutant is elsewhere referred to as "PrimPol D114A". This appears to be a typographical error.
+  - **Required correction** Correct the residue number to D114A throughout the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodology detail
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, "Primase reactions" section, location not provided
+  - **Issue** The methods state that reactions were "repeated twice for each protein preparation," but no statistical analysis is described. It is unclear whether the reported differences are statistically significant.
+  - **Required correction** Provide details on the number of independent experiments, error bars, and statistical tests used to assess significance.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, "The role of the ZnF motif in primase activity" section, location not provided
+  - **Issue** The discussion references a previous study (Martínez-Jiménez et al., ref 17) but does not clearly distinguish which findings are novel in this work versus confirmatory of prior results.
+  - **Required correction** Clarify the novel contributions of this study relative to previous work, particularly regarding the cis-orientation and the specific role of Arg417.
+
+## Risk / unsupported claims
+
+- The claim that PrimPol operates in a cis-orientation is not fully supported without the raw data from Figure 2 and appropriate controls for the mixing experiments.
+- The claim that Arg417 and Arg424 are required for 5'-triphosphate binding is not quantitatively supported without binding affinity measurements and controls for protein integrity.
+- The claim that the CTD negatively regulates DNA binding is inferred from qualitative EMSA data and lacks mechanistic validation.
+- The molecular model of the ZnFn/template-primer complex is based on speculative manual fitting and is not experimentally validated for the role of Arg424.
+- The statement that "the NTD alone retains weak primase activity" is presented without quantitative comparison to the full-length protein or statistical significance testing.
+- The claim that the RBM modulates DNA binding is based on a single deletion construct (PrimPol 1-475) and lacks a complementary experiment with a point mutation in the RBM to confirm specificity.

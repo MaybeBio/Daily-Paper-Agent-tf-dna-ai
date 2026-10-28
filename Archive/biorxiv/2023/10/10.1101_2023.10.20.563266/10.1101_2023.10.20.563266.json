@@ -1,0 +1,283 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.20.563266",
+  "title": "Dissecting signaling regulators driving AXL-mediated bypass resistance and associated phenotypes by phosphosite perturbations",
+  "doi": "10.1101/2023.10.20.563266",
+  "abstract": "<h4>ABSTRACT</h4> Receptor tyrosine kinase (RTK)-targeted therapies are often effective but invariably limited by drug resistance. A major mechanism of acquired resistance involves “bypass” switching to alternative pathways driven by non-targeted RTKs that restore proliferation. One such RTK is AXL whose overexpression, frequently observed in bypass resistant tumors, drives both cell survival and associated malignant phenotypes such as epithelial-to-mesenchymal (EMT) transition and migration. However, the signaling molecules and pathways eliciting these responses have remained elusive. To explore these coordinated effects, we generated a panel of mutant lung adenocarcinoma PC9 cell lines in which each AXL intracellular tyrosine residue was mutated to phenylalanine. By integrating measurements of phosphorylation signaling and other phenotypic changes associated with resistance through multivariate modeling, we mapped signaling perturbations to specific resistant phenotypes. Our results suggest that AXL signaling can be summarized into two clusters associated with progressive disease and poor clinical outcomes in lung cancer patients. These clusters displayed favorable Abl1 and SFK motifs and their phosphorylation was consistently decreased by dasatinib. High-throughput kinase specificity profiling showed that AXL likely activates the SFK cluster through FAK1 which is known to complex with Src. Moreover, the SFK cluster overlapped with a previously established focal adhesion kinase (FAK1) signature conferring EMT-mediated erlotinib resistance in lung cancer cells. Finally, we show that downstream of this kinase signaling, AXL and YAP form a positive feedback loop that sustains drug tolerant persister cells. Altogether, this work demonstrates an approach for dissecting signaling regulators by which AXL drives erlotinib resistance-associated phenotypic changes. <h4>One-sentence summary</h4> A systems biology approach elucidates the signaling pathways driving AXL-mediated erlotinib resistance in lung cancer.",
+  "authors": [
+    "Creixell M",
+    "Taylor SD",
+    "Gerritsen J",
+    "Bae SY",
+    "Jiang M",
+    "Augustin T",
+    "Loui M",
+    "Boixo C",
+    "Creixell P",
+    "White FM",
+    "Meyer AS"
+  ],
+  "published_date": "2023-10-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.20.563266",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.20.563266.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR746324",
+    "raw_record": {
+      "id": "PPR746324",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR746324"
+        ]
+      },
+      "doi": "10.1101/2023.10.20.563266",
+      "title": "Dissecting signaling regulators driving AXL-mediated bypass resistance and associated phenotypes by phosphosite perturbations",
+      "authorString": "Creixell M, Taylor SD, Gerritsen J, Bae SY, Jiang M, Augustin T, Loui M, Boixo C, Creixell P, White FM, Meyer AS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Creixell M",
+            "lastName": "Creixell",
+            "firstName": "Marc",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, University of California Los Angeles; Jonsson Comprehensive Cancer Center, University of California Los Angeles"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Taylor SD",
+            "lastName": "Taylor",
+            "firstName": "Scott",
+            "initials": "SD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, University of California Los Angeles; Jonsson Comprehensive Cancer Center, University of California Los Angeles"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gerritsen J",
+            "lastName": "Gerritsen",
+            "firstName": "Jacqueline",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge MA, USA; Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge MA, USA; Center for Precision Cancer Medicine, Massachusetts Institute of Technology, Cambridge MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bae SY",
+            "lastName": "Bae",
+            "firstName": "Song Yi",
+            "initials": "SY",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, University of California Los Angeles; Jonsson Comprehensive Cancer Center, University of California Los Angeles"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jiang M",
+            "lastName": "Jiang",
+            "firstName": "Mingxuan",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Robinson Way, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Augustin T",
+            "lastName": "Augustin",
+            "firstName": "Teresa",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Robinson Way, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Loui M",
+            "lastName": "Loui",
+            "firstName": "Michelle",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, University of California Los Angeles; Jonsson Comprehensive Cancer Center, University of California Los Angeles"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Boixo C",
+            "lastName": "Boixo",
+            "firstName": "Carmen",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, University of California Los Angeles; Jonsson Comprehensive Cancer Center, University of California Los Angeles"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Creixell P",
+            "lastName": "Creixell",
+            "firstName": "Pau",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Robinson Way, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "White FM",
+            "lastName": "White",
+            "firstName": "Forest",
+            "initials": "FM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge MA, USA; Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge MA, USA; Center for Precision Cancer Medicine, Massachusetts Institute of Technology, Cambridge MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meyer AS",
+            "lastName": "Meyer",
+            "firstName": "Aaron",
+            "initials": "AS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4513-1840"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering, University of California Los Angeles; Jonsson Comprehensive Cancer Center, University of California Los Angeles"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4513-1840"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  Receptor tyrosine kinase (RTK)-targeted therapies are often effective but invariably limited by drug resistance. A major mechanism of acquired resistance involves “bypass” switching to alternative pathways driven by non-targeted RTKs that restore proliferation. One such RTK is AXL whose overexpression, frequently observed in bypass resistant tumors, drives both cell survival and associated malignant phenotypes such as epithelial-to-mesenchymal (EMT) transition and migration. However, the signaling molecules and pathways eliciting these responses have remained elusive. To explore these coordinated effects, we generated a panel of mutant lung adenocarcinoma PC9 cell lines in which each AXL intracellular tyrosine residue was mutated to phenylalanine. By integrating measurements of phosphorylation signaling and other phenotypic changes associated with resistance through multivariate modeling, we mapped signaling perturbations to specific resistant phenotypes. Our results suggest that AXL signaling can be summarized into two clusters associated with progressive disease and poor clinical outcomes in lung cancer patients. These clusters displayed favorable Abl1 and SFK motifs and their phosphorylation was consistently decreased by dasatinib. High-throughput kinase specificity profiling showed that AXL likely activates the SFK cluster through FAK1 which is known to complex with Src. Moreover, the SFK cluster overlapped with a previously established focal adhesion kinase (FAK1) signature conferring EMT-mediated erlotinib resistance in lung cancer cells. Finally, we show that downstream of this kinase signaling, AXL and YAP form a positive feedback loop that sustains drug tolerant persister cells. Altogether, this work demonstrates an approach for dissecting signaling regulators by which AXL drives erlotinib resistance-associated phenotypic changes. <h4>One-sentence summary</h4>  A systems biology approach elucidates the signaling pathways driving AXL-mediated erlotinib resistance in lung cancer.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/10/23/2023.10.20.563266.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.10.20.563266"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR746324"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR746324&type=FILE&fileName=EMS190065-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS190065",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "nct",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-10-25",
+      "firstPublicationDate": "2023-10-23",
+      "firstIndexDate": "2023-10-25",
+      "fullTextReceivedDate": "2023-11-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41000812",
+  "title": "Predicting dynamic expression patterns in budding yeast with a fungal DNA language model.",
+  "authors": "Chao, Kuan-Hao; Magzoub, Majed Mohamed; Stoops, Emily; Hackett, Sean; Linder, Johannes; Kelley, David R",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-09-26",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用真菌DNA语言模型预测基因表达并识别TF结合基序动态，虽非直接建模TF-DNA三维互作，但AI方法可迁移至TF-DNA结合位点预测与调控机制研究。",
+  "abstract": "Predicting gene expression from DNA sequence remains challenging due to complex regulatory codes. We introduce a masked DNA language model pretrained on 165 fungal genomes closely related to budding yeast that captures conserved regulatory grammar. Fine-tuning the LM on yeast RNA-seq data-including high-resolution transcriptional regulator induction time courses generated in this study-yielded Shorkie, a model that substantially improves gene expression prediction compared to baselines trained without self-supervision. Shorkie identified canonical transcription factor (TF) binding motifs and tracked their usage across induction experiments. Furthermore, Shorkie accurately predicted variant effects, outperforming leading sequence-to-expression models in cis-eQTL classification and achieving high concordance with massively parallel reporter assays. Interpretability analyses revealed Shorkie's ability to resolve promoter dynamics, splicing signals, and temporal changes in regulatory motif usage. This framework demonstrates that evolutionary-scale pretraining combined with transfer learning substantially improves our ability to decode gene regulation from sequence, providing insights into noncoding variants and regulatory networks.",
+  "abstract_zh": "从DNA序列预测基因表达仍因复杂的调控编码而具有挑战性。我们引入了一种掩码DNA语言模型，该模型在165个与芽殖酵母密切相关的真菌基因组上进行了预训练，捕获了保守的调控语法。利用酵母RNA-seq数据（包括本研究中生成的高分辨率转录调控因子诱导时间序列）对语言模型进行微调，得到了Shorkie模型，与未使用自监督训练的基线模型相比，该模型显著提高了基因表达预测的准确性。Shorkie识别了典型的转录因子（TF）结合基序，并追踪了它们在诱导实验中的使用情况。此外，Shorkie准确预测了变异效应，在顺式eQTL分类中优于领先的序列到表达模型，并与大规模平行报告基因分析实现了高度一致性。可解释性分析揭示了Shorkie解析启动子动态、剪接信号以及调控基序使用的时间变化的能力。该框架表明，进化尺度预训练结合迁移学习显著提升了我们从序列解码基因调控的能力，为非编码变异和调控网络提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41000812/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41000812/",
+  "paper_page_path": "papers/pubmed/41000812/index.html"
+}

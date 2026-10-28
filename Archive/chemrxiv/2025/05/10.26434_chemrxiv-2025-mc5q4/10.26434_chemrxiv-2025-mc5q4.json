@@ -1,0 +1,207 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2025-mc5q4",
+  "title": "Combining Physics-Based Protein–DNA Energetics with Machine Learning to Predict Interpretable Transcription Factor-DNA Binding",
+  "doi": "10.26434/chemrxiv-2025-mc5q4",
+  "abstract": "Transcription factors (TFs) are essential regulators of gene expression, and variations in their target DNA sequences due to altering TF-DNA binding affinity and specificity lead to diseases ranging from developmental disorders to cancer. Computational methods that integrate physics-based models with machine learning (ML) hold promise to accurately predict protein–DNA binding affinities while ensuring interpretability and generalizability. Here, we present an approach combining all-atom molecular dynamics (MD) simulations and Molecular Mechanics-Generalized Born Surface Area (MMGBSA) energy calculations with ML model constructions (neural networks, random forests, support vector machines) to predict DNA binding affinities and specificities for the dimeric TF Myc/Max. Using high-quality experimental data from genomic-context protein-binding microarrays (gcPBM), we constructed a balanced dataset of 168 DNA sequences reflecting physiologically relevant genomic environments. Multiple independent simulations were conducted per sequence for each TF-DNA complex to capture structural dynamic and interaction properties, with physically essential energetic descriptors extracted, including van der Waals, electrostatic, solvation, hydrogen bonding, and additional energy corrections. Our models achieved a Pearson correlation of ~0.73 and a mean absolute error of 0.4, substantially improving upon conventional MMGBSA prediction. Feature importance analyses highlighted TF-DNA interfacial complementarity and hydrophobic interactions as primary determinants of binding affinity and specificity, though TF-DNA interfacial hydrogen bonding contributions remain to be better characterized physically for sequence dependency. This physics-informed ML framework thus aims at both predictive accuracy and mechanistic interpretability, paving the way toward universal scalable prediction of interpretable protein–DNA interactions.",
+  "authors": [
+    "Carmen Al Masri",
+    "Jin Yu"
+  ],
+  "published_date": "2025-05-07",
+  "updated_date": "2025-05-07T03:08:32Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2025-mc5q4",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-mc5q4",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T14:17:50Z",
+        "timestamp": 1785421070522,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            7
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                7
+              ]
+            ],
+            "date-time": "2025-05-07T00:00:00Z",
+            "timestamp": 1746576000000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Transcription factors (TFs) are essential regulators of gene expression, and variations in their target DNA sequences due to altering TF-DNA binding affinity and specificity lead to diseases ranging from developmental disorders to cancer. Computational methods that integrate physics-based models with machine learning (ML) hold promise to accurately predict protein–DNA binding affinities while ensuring interpretability and generalizability. Here, we present an approach combining all-atom molecular dynamics (MD) simulations and Molecular Mechanics-Generalized Born Surface Area (MMGBSA) energy calculations with ML model constructions (neural networks, random forests, support vector machines) to predict DNA binding affinities and specificities for the dimeric TF Myc/Max. Using high-quality experimental data from genomic-context protein-binding microarrays (gcPBM), we constructed a balanced dataset of 168 DNA sequences reflecting physiologically relevant genomic environments. Multiple independent simulations were conducted per sequence for each TF-DNA complex to capture structural dynamic and interaction properties, with physically essential energetic descriptors extracted, including van der Waals, electrostatic, solvation, hydrogen bonding, and additional energy corrections. Our models achieved a Pearson correlation of ~0.73 and a mean absolute error of 0.4, substantially improving upon conventional MMGBSA prediction. Feature importance analyses highlighted TF-DNA interfacial complementarity and hydrophobic interactions as primary determinants of binding affinity and specificity, though TF-DNA interfacial hydrogen bonding contributions remain to be better characterized physically for sequence dependency. This physics-informed ML framework thus aims at both predictive accuracy and mechanistic interpretability, paving the way toward universal scalable prediction of interpretable protein–DNA interactions.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2025-mc5q4",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            7
+          ]
+        ],
+        "date-time": "2025-05-07T03:08:32Z",
+        "timestamp": 1746587312000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Combining Physics-Based Protein–DNA Energetics with Machine Learning to Predict Interpretable Transcription Factor-DNA Binding"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0005-3985-5051",
+          "authenticated-orcid": false,
+          "given": "Carmen",
+          "family": "Al Masri",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04gyf1771",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of California, Irvine",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jin",
+          "family": "Yu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04gyf1771",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of California, Irvine",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-mc5q4",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:22:49Z",
+        "timestamp": 1778750569000
+      },
+      "score": 225.71014,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-mc5q4"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            7
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2025-mc5q4",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jcim.5c01143",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            7
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

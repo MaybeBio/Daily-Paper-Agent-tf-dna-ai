@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "41256668",
+    "doi": "10.1101/2025.10.03.679414",
+    "title": "RNA sequence design and protein-DNA specificity prediction with NA-MPNN."
+  },
+  "content": {
+    "abstract": "RNA sequence design and protein-DNA binding specificity prediction can both be framed as nucleic acid inverse-folding problems: finding the most likely nucleic acid sequences given a fixed three-dimensional structure of a nucleic acid or nucleic acid-protein complex. While task-specific tools have been developed, no unified deep learning model for nucleic acid inverse folding has been described; a single model would have larger and more diverse datasets available for training and a considerably greater range of applicability. Here we introduce Nucleic Acid MPNN (NA-MPNN), a message-passing neural network that treats proteins, DNA, and RNA within a unified biopolymer graph representation. NA-MPNN outperforms previous methods on RNA sequence design and fixed-dock protein-DNA specificity prediction, and should be broadly useful for de novo RNA structure design and prediction of DNA-binding specificity.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kubaney, Andrew",
+        "Favor, Andrew",
+        "McHugh, Lilian",
+        "Mitra, Raktim",
+        "Pecoraro, Robert",
+        "Dauparas, Justas",
+        "Glasscock, Cameron",
+        "Baker, David"
+      ],
+      "short_names": [
+        "Kubaney A",
+        "Favor A",
+        "McHugh L",
+        "Mitra R",
+        "Pecoraro R",
+        "Dauparas J",
+        "Glasscock C",
+        "Baker D"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-4982-6050",
+        "ORCID: 0000-0002-9977-2785",
+        "ORCID: 0000-0003-0291-2196",
+        "ORCID: 0000-0003-1182-3742",
+        "ORCID: 0000-0002-1656-0470",
+        "ORCID: 0000-0002-0030-144X",
+        "ORCID: 0000-0001-5223-6339",
+        "ORCID: 0000-0001-7896-6217"
+      ],
+      "affiliations": [
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Graduate Program in Molecular Engineering, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Graduate Program in Molecular Engineering, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Graduate Program in Biological Physics, Structure and Design, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Physics, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Department of BioSciences, Rice University, Houston, TX 77005, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+        "Howard Hughes Medical Institute, University of Washington, Seattle, WA 98105, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kubaney, Andrew",
+        "short_name": "Kubaney A",
+        "identifiers": [
+          "0009-0009-4982-6050"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Graduate Program in Molecular Engineering, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Favor, Andrew",
+        "short_name": "Favor A",
+        "identifiers": [
+          "0000-0002-9977-2785"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Graduate Program in Molecular Engineering, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "McHugh, Lilian",
+        "short_name": "McHugh L",
+        "identifiers": [
+          "0000-0003-0291-2196"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+          "Graduate Program in Biological Physics, Structure and Design, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Mitra, Raktim",
+        "short_name": "Mitra R",
+        "identifiers": [
+          "0000-0003-1182-3742"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Pecoraro, Robert",
+        "short_name": "Pecoraro R",
+        "identifiers": [
+          "0000-0002-1656-0470"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Physics, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Dauparas, Justas",
+        "short_name": "Dauparas J",
+        "identifiers": [
+          "0000-0002-0030-144X"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Glasscock, Cameron",
+        "short_name": "Glasscock C",
+        "identifiers": [
+          "0000-0001-5223-6339"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+          "Department of BioSciences, Rice University, Houston, TX 77005, USA."
+        ]
+      },
+      {
+        "full_name": "Baker, David",
+        "short_name": "Baker D",
+        "identifiers": [
+          "0000-0001-7896-6217"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98105, USA.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98105, USA.",
+          "Howard Hughes Medical Institute, University of Washington, Seattle, WA 98105, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Oct 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/19 06:32",
+    "fetched_at": "2026-10-01 06:35:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41256668",
+      "42636031",
+      "39345796",
+      "34905768",
+      "37996753",
+      "37824738",
+      "36843022",
+      "38281252",
+      "38830995",
+      "33454744",
+      "39833102",
+      "41045511",
+      "37745556",
+      "38529493",
+      "37438149",
+      "42192491",
+      "38856168",
+      "39312140",
+      "36574492",
+      "40601256",
+      "28056090",
+      "29155928",
+      "8229093",
+      "20522253",
+      "15504402",
+      "42605800",
+      "20193785",
+      "34073774",
+      "36430386",
+      "41256432",
+      "30933978",
+      "42323855",
+      "31881936",
+      "25935161",
+      "41165252",
+      "40662823",
+      "42412843",
+      "40617525",
+      "9054977",
+      "39737572",
+      "39576589",
+      "35709747",
+      "22574904",
+      "29970003",
+      "38940178",
+      "42584949",
+      "31918654",
+      "33712545",
+      "42227990",
+      "21693557",
+      "36304270",
+      "7849602",
+      "42427317",
+      "34773871",
+      "40914361",
+      "40919912",
+      "42063117",
+      "35109787",
+      "31746287",
+      "10205294",
+      "38358972",
+      "37883472",
+      "38157313",
+      "1510913",
+      "38365583",
+      "32077235",
+      "23043260",
+      "42319254",
+      "32142788",
+      "40079262",
+      "37915276",
+      "42154341",
+      "39223474",
+      "41201924",
+      "34524283",
+      "16790841",
+      "40987097",
+      "39350066",
+      "38643080",
+      "34904892",
+      "35768792",
+      "40961942",
+      "20946605",
+      "42658941",
+      "37547004",
+      "38600663",
+      "16274699",
+      "32920048",
+      "35927691",
+      "42012716",
+      "32910644",
+      "29508448",
+      "31483777",
+      "37490851",
+      "36049552",
+      "37165539",
+      "39471921",
+      "40554978",
+      "37730555",
+      "19923215"
+    ],
+    "review": [
+      "41256668",
+      "39345796",
+      "39833102",
+      "37438149",
+      "8229093",
+      "20193785",
+      "25935161",
+      "31746287",
+      "10205294",
+      "1510913"
+    ],
+    "pmc": [
+      "12621952"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41256668/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.10.03.679414",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

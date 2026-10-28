@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, conclusion, and author contributions. Supplementary figure and table titles are referenced but their contents are not provided.
+- **Assessment boundary** Scientific validity, technical soundness, logical coherence, and support of claims by presented evidence. The review is based solely on the provided manuscript text and does not assess editorial quality, formatting, or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The manuscript claims that the S267P mutation in the OxyR transcriptional regulator of Zymomonas mobilis is the key genetic determinant of enhanced oxidative stress tolerance in the mutant strain ZMNP. The authors propose a mechanistic model in which S267P relieves steric hindrance near the disulfide bond-forming cysteines (C204 and C213), promoting the oxidized, active conformation of OxyR, which in turn upregulates ROS detoxification genes. This leads to lower intracellular ROS, improved survival under H2O2 stress, and better fermentation performance in toxic xylose mother liquor. The authors further claim that OxyRS267P-regulated promoters can serve as biosensors for oxidative stress monitoring.
+- **Visible evidence base** Main text figures (Fig. 1, Fig. 3, Fig. 4, Fig. 5, Fig. 6, Fig. 7), supplementary figure titles (Fig. S1, S2, S3, S4, S5, S6), supplementary table titles (Tables S1–S13), and methods descriptions. The actual content of supplementary materials is not visible.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S13) are referenced but not provided. Raw RNA-seq data, DESeq2 output tables, EMSA gel images, flow cytometry data, structural model coordinates, MD simulation trajectories, and statistical analysis details are not accessible. This limits the ability to independently verify key quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in industrial microbiology: how a single point mutation in a global redox regulator confers tolerance to lignocellulosic hydrolysate inhibitors. The combination of reverse genetics, transcriptomics, structural modeling, molecular dynamics, and biosensor development is ambitious and potentially valuable. However, the evidence as presented has several gaps. The transcriptomic comparison is between ZMNPC and ZMNP, which is appropriate for identifying OxyRS267P-dependent changes, but the absence of a wild-type ZM4 transcriptomic comparison in the same experiment weakens the interpretation. The structural and MD analyses are largely speculative and not experimentally validated beyond the H269A mutant. The EMSA data are described but not shown in the main text. The biosensor claims are based on promoter activity measurements, but the dynamic range, specificity, and practical utility are not fully demonstrated. The manuscript would be strengthened by direct biochemical evidence of OxyR oxidation state, a more complete transcriptomic analysis, and quantitative biosensor characterization.
+- **Who would be interested in the results, and why** Researchers in microbial stress physiology, synthetic biology, and metabolic engineering would be interested. The work provides a potential genetic target for engineering robust industrial strains of Z. mobilis, a key organism for lignocellulosic biofuel and biochemical production. The biosensor concept for real-time oxidative stress monitoring is relevant to bioprocess control. The proposed mechanism of OxyR activation via steric relief may also be of interest to those studying redox-regulated transcription factors more broadly.
+- **Major strengths** The study uses a clear reverse-genetics approach to establish causality between the S267P mutation and the observed phenotype. The combination of multiple techniques (transcriptomics, structural modeling, MD, EMSA, biosensor construction) is comprehensive. The identification of a specific mutation that enhances OxyR activity without apparent growth trade-off is an interesting finding with practical implications. The biosensor application is a logical and potentially useful extension of the mechanistic work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that transcriptomic analysis revealed constitutive downregulation of ROS detoxification, cysteine biosynthesis, redox homeostasis, and macromolecular repair genes in ZMNPC compared to ZMNP, and that this is consistent with OxyRS267P being a key determinant of oxidative stress tolerance.
+  - **Evidence pointer** Results section "Genes associated with general stress responses downregulated in strain ZMNPC"; Table S4
+  - **Concern** The transcriptomic comparison is between ZMNPC and ZMNP only. Without a ZM4 wild-type control in the same experiment, it is not possible to determine whether the observed differences are specifically due to the S267P reversion or to other genetic differences between the strains. The manuscript states that ZMNP is a plasmid-free derivative of ZM4, but the genetic background of ZMNPC is not fully described. The claim that the differentially expressed genes are "associated with the OxyRS267P mutation" requires a more rigorous experimental design, such as comparing ZM4, ZMNP, and ZMNPC in the same transcriptomic run, or complementing ZMNPC with the mutant allele to confirm rescue of the phenotype.
+  - **Why it matters** The central causal claim of the manuscript rests on the transcriptomic differences being attributable to the S267P mutation. If the comparison is confounded by strain background differences, the mechanistic conclusions are not supported.
+  - **Resolution test** Provide a transcriptomic comparison including ZM4, ZMNP, and ZMNPC under identical conditions, or demonstrate that ZMNPC is isogenic to ZMNP except for the S267P reversion. Alternatively, complement ZMNPC with the S267P allele and show restoration of the ZMNP transcriptomic and phenotypic profile.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the S267P mutation relieves steric hindrance near the disulfide bond-forming cysteines, promoting OxyR activation, and that this is supported by structural modeling and molecular dynamics simulations.
+  - **Evidence pointer** Results section "The effect of OxyR mutations on protein structure and DNA-binding affinity"; Fig. 4, Fig. 5; Tables S10–S13
+  - **Concern** The structural model is based on the E. coli OxyR structure (PDB: 1I69 and 1I6A), but the Z. mobilis OxyR sequence has an N-terminal extension of 91 amino acids that is not present in the E. coli structure. The manuscript states that this region is structurally undefined, yet the proximity analysis and MD simulations appear to rely on a homology model. The details of how the Z. mobilis structure was generated, the quality of the model, and the validation of the MD simulations are not provided. The claim that S267P "relieves steric hindrance" is a hypothesis that is not directly tested. The H269A mutant experiment is presented as supporting evidence, but it only shows a phenotypic correlation, not a direct demonstration of the proposed steric mechanism.
+  - **Why it matters** The proposed mechanism is a key part of the manuscript's contribution. If the structural and MD evidence is not robust, the mechanistic claim is weakened.
+  - **Resolution test** Provide details of the homology modeling procedure, model quality metrics, and MD simulation validation. Directly test the steric hypothesis by measuring the oxidation kinetics of wild-type and mutant OxyR proteins in vitro, or by determining the crystal structure of the Z. mobilis OxyR in both reduced and oxidized states.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that EMSA experiments demonstrated enhanced DNA-binding affinity of OxyRS267P compared to wild-type OxyR.
+  - **Evidence pointer** Results section "The effect of OxyR mutations on protein structure and DNA-binding affinity"; Fig. 6, Fig. S6
+  - **Concern** The EMSA results are described in the text and referenced as Fig. 6 and Fig. S6, but the actual gel images are not shown in the provided manuscript text. The methods section describes the EMSA procedure but does not provide quantitative binding data, such as dissociation constants (Kd) or binding curves. The claim of "enhanced DNA-binding affinity" is qualitative and cannot be evaluated without the primary data.
+  - **Why it matters** The enhanced DNA-binding affinity is a central part of the mechanistic model. Without quantitative binding data, the claim is not substantiated.
+  - **Resolution test** Provide the EMSA gel images and quantitative binding data, including Kd values for both wild-type and mutant OxyR with the target promoter sequences. If possible, perform competition assays to demonstrate specificity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the developed biosensors OxyRS267P–P1732 and OxyRS267P–P1753 can monitor oxidative stress induced by ethanol, acetate, and furfural.
+  - **Evidence pointer** Results section "Verification of the regulatory capacity of OxyRS267P in response to stress"; Fig. 7
+  - **Concern** The biosensor characterization is limited to promoter activity measurements under a single set of conditions. The dynamic range, response time, sensitivity, and specificity of the biosensors are not characterized. The manuscript does not demonstrate that the biosensor response correlates with actual intracellular ROS levels in a quantitative manner. The claim that these biosensors are suitable for "real-time monitoring of intracellular oxidative stress during cell growth" is not supported by the presented data.
+  - **Why it matters** The biosensor application is a significant claimed outcome of the work. Without proper characterization, the utility of these biosensors is not established.
+  - **Resolution test** Provide a detailed characterization of the biosensors, including dose-response curves for each inducer, response kinetics, detection limits, and comparison with a known ROS-sensitive reporter. Demonstrate that the biosensor output correlates with intracellular ROS levels measured by an independent method.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that the OxyRS267P mutation provides enhanced oxidative stress tolerance without a growth trade-off, contrasting with the typical "fear-versus-greed" trade-off observed in other bacteria.
+  - **Evidence pointer** Discussion section; Fig. 3A
+  - **Concern** The claim that ZMNP shows no growth defect under stress-free conditions is based on growth curves in RM medium (Fig. 3A). However, the growth curves appear to be from a single representative experiment, and statistical analysis across multiple biological replicates is not presented. The manuscript does not measure growth under a range of conditions that would fully test the trade-off hypothesis, such as different nutrient limitations or stress levels. The discussion of the trade-off is speculative and not directly tested.
+  - **Why it matters** The claim of a "free lunch" (enhanced tolerance without cost) is a strong claim that would be of significant interest. If not rigorously supported, it may overstate the findings.
+  - **Resolution test** Provide growth data from multiple independent experiments with statistical analysis. Measure growth rates and yields under a range of stress and non-stress conditions. Directly compare the fitness of ZMNP, ZMNPC, and ZM4 in competitive co-culture experiments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Methods section "Measurement of survival rate after H2O2 shock"
+  - **Evidence pointer** Materials and methods
+  - **Issue** The method states that "Overnight cultures of ZM4, ZMNP, and ZMNPC strains were inoculated into fresh RM medium at an initial OD600 nm of 0.1 and grown to the mid-logarithmic phase." The exact OD600 nm range corresponding to mid-log phase is not specified, and the time required to reach this phase is not stated. This makes it difficult to reproduce the experiment.
+  - **Required correction** Specify the OD600 nm range for mid-log phase and the typical incubation time. Also specify the exact concentration of H2O2 used and the duration of exposure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Fig. 3
+  - **Evidence pointer** Fig. 3
+  - **Issue** The figure legend states "Values are the mean of one representative experiment with three technical replicates." This is unusual for biological experiments, where biological replicates are expected. The use of technical replicates only limits the generalizability of the findings.
+  - **Required correction** Clarify whether the experiments were performed with biological replicates and present data from all replicates, or justify the use of technical replicates only.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Fig. 3C
+  - **Evidence pointer** Fig. 3C
+  - **Issue** The statistical analysis is described as "T-test analysis was conducted for ROS detection with strain ZM4 or ZMNP as the control." It is unclear which comparisons were made and whether multiple testing corrections were applied. The p-value ranges are given as "0.01 < p < 0.05" and "p > 0.05", but exact p-values are not reported.
+  - **Required correction** Provide exact p-values for all comparisons and state whether multiple testing corrections were applied. Specify which strain was used as the control for each comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Genes associated with general stress responses downregulated in strain ZMNPC"
+  - **Evidence pointer** Results section; Table S4
+  - **Issue** The text states that "165 significantly differentially expressed genes (DEGs) between strain ZMNPC and strain ZMNP" were identified, but the full list is only in Table S4, which is not provided. The text highlights a few genes but does not provide a comprehensive overview of the functional categories enriched among the DEGs.
+  - **Required correction** Provide a summary of the functional categories of the DEGs in the main text, and ensure the full list is available in a supplementary table.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion states that "the applied stress may be of insufficient intensity to trigger a costly resource reallocation." This is presented as a hypothesis but is not tested. The manuscript would benefit from a more cautious interpretation or from experiments that vary stress intensity to test this hypothesis.
+  - **Required correction** Either soften the claim or provide experimental evidence supporting the stress-intensity-dependent trade-off hypothesis.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (transcriptomic comparison lacking wild-type control), R1-M2 (structural and MD evidence not sufficiently detailed or validated), R1-M3 (EMSA data not shown or quantified), R1-M4 (biosensor characterization incomplete).
+- **Assessment against Nature-style criteria** Originality: The work is moderately original. The specific mutation S267P in OxyR and its proposed mechanism of steric relief is a novel contribution, but the general concept of OxyR mutations enhancing stress tolerance is already established. Scientific importance: The findings are of interest to the Z. mobilis and industrial microbiology community, but the broader significance to redox biology is limited without more direct mechanistic evidence. Interdisciplinary readership: The work is primarily of interest to microbiologists and metabolic engineers. The biosensor application could attract a broader synthetic biology audience, but the current characterization is insufficient. Technical soundness: The technical approach is generally sound, but key experiments lack appropriate controls and quantitative data. Readability for nonspecialists: The manuscript is generally well-written and accessible, but some sections, particularly the structural analysis, assume specialist knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the reverse-genetics approach is appropriate, but the current evidence does not fully establish the mechanistic claims. The transcriptomic analysis needs a wild-type control, the structural and EMSA data need to be more rigorous, and the biosensor characterization needs to be more complete. If these concerns are addressed, the manuscript could make a valuable contribution.
+
+## Risk / unsupported claims
+- The claim that OxyRS267P is "the key genetic determinant" of enhanced oxidative stress tolerance is not fully supported without a transcriptomic comparison that includes the wild-type ZM4 strain in the same experiment.
+- The claim that the S267P mutation "relieves steric hindrance" near the disulfide bond-forming cysteines is a hypothesis based on structural modeling and MD simulations, but the details of the modeling and simulation are not provided, and the hypothesis is not directly tested.
+- The claim of enhanced DNA-binding affinity of OxyRS267P is based on EMSA experiments that are described but not shown, and no quantitative binding data are provided.
+- The claim that the biosensors can "monitor oxidative stress induced by ethanol, acetate and furfural" is based on promoter activity measurements under limited conditions, without characterization of dynamic range, sensitivity, or specificity.
+- The claim that ZMNP exhibits no growth trade-off under stress-free conditions is based on limited growth data without statistical analysis across biological replicates.
+- The statement that "the OxyRS267P mutation could displace H269 away from this region, likely reducing such hindrance and possibly promoting disulfide bond formation" is speculative and not directly supported by experimental evidence.

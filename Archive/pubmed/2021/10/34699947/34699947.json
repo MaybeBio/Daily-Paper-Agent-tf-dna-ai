@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "34699947",
+    "doi": "10.1016/j.jep.2021.114773",
+    "title": "Identification of potential regulating effect of baicalin on NFkappaB/CCL2/CCR2 signaling pathway in rats with cerebral ischemia by antibody-based array and bioinformatics analysis."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Baicalin is one of the major bioactive compounds extracted from the root of Scutellaria baicalensis Georgi, which was used to treat cerebral ischemia for thounds of years. However, its biological mechanisms remains to be further explored. AIM OF THE REVIEW: This study aims to identify potential biological mechanisms of baicalin against cerebral ischemia combining antibody-based array and bioinformatics analysis. METHODS: A rat model of middle cerebral artery occlusion (MCAO) was constructed. Sprague-Dawley rats were randomly divided into three groups: control group, ischemic model group, and baicalin 100 mg/kg treatment group respectively. Bederson score and 2, 3, 5-triphenyl tetrazolium chloride (TTC) staining were examined to evaluate the pharmacodynamics of baicalin treatment. Antibody-based array technology, enzyme linked immunosorbent assay (ELISA), western-blot, molecular docking, transcription factor perdiction, hematoxylin and eosin (H&E), and immunofluorescence staining were used to study the regulation of baicalin on inflammatory response after cerebral ischemia in vivo. LPS-induced RAW 264.7 macrophage inflammation model was prepared to observe the anti-inflammatory effect of baicalin in vitro. RESULTS: Baicalin (100 mg/kg) reduced neurological injury score, cerebral infarction volume, and necrotic cells in MCAO rats. Baicalin inhibited the expression of CCL2, and reduced the phosphorylation levels of p65, IkappaBalpha protein and down-regulated level of CCR2. Besides, baicalin could bond to CCR2 directly, which prevented CCL2 from binding to CCR2. Furthermore, baicalin down-regulated the number of monocytes in the peripheral blood and improved the spleen index post-cerebral ischemia. In vitro, baicalin significantly inhibited the secretion of NO, IL6, TNFalpha, and CCL2 in macrophages and promoted the secretion of IL13, IFNG, and IL1a. CONCLUSIONS: Baicalin inhibited cerebral ischemia-induced activation of the NFkappaB/CCL2/CCR2 pathway with multiple target effect. These data promote the therapeutic utilization of baicalin in preventing cerebral ischemia clinically.",
+    "keywords": [
+      "Baicalin",
+      "CCL2",
+      "CCR2",
+      "Cerebral ischemia",
+      "Inflammation",
+      "NFkappaB"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Brain Ischemia/*drug therapy",
+      "Chemokine CCL2/genetics/*metabolism",
+      "Computational Biology",
+      "Flavonoids/*therapeutic use",
+      "Macrophages/drug effects",
+      "Mice",
+      "NF-kappa B/genetics/*metabolism",
+      "Neuroprotective Agents/therapeutic use",
+      "Nitric Oxide/metabolism",
+      "Phytotherapy",
+      "RAW 264.7 Cells",
+      "Rats",
+      "Rats, Sprague-Dawley",
+      "Receptors, CCR2/genetics/*metabolism",
+      "Reperfusion Injury/*drug therapy",
+      "Scutellaria baicalensis/chemistry",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Tian",
+        "Wang, Xueqian",
+        "Ma, Chongyang",
+        "Ji, Jing",
+        "Xu, Wenxiu",
+        "Shao, Qi",
+        "Liao, Xuejing",
+        "Li, Ying",
+        "Cheng, Fafeng",
+        "Wang, Qingguo"
+      ],
+      "short_names": [
+        "Xu T",
+        "Wang X",
+        "Ma C",
+        "Ji J",
+        "Xu W",
+        "Shao Q",
+        "Liao X",
+        "Li Y",
+        "Cheng F",
+        "Wang Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: tiantianxu0717@163.com.",
+        "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: shirlyding@163.com.",
+        "School of Traditional Chinese Medicine, Capital Medical University, Beijing, China. Electronic address: machongyang@live.com.",
+        "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: 18752789942@163.com.",
+        "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: 20180931039@bucm.edu.cn.",
+        "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: 2532588647@qq.com.",
+        "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: lsnowcrystal@163.com.",
+        "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: yiyayinan734@163.com.",
+        "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: fafengcheng@gmail.com.",
+        "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: wangqg8558@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Tian",
+        "short_name": "Xu T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: tiantianxu0717@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Xueqian",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: shirlyding@163.com."
+        ]
+      },
+      {
+        "full_name": "Ma, Chongyang",
+        "short_name": "Ma C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Capital Medical University, Beijing, China. Electronic address: machongyang@live.com."
+        ]
+      },
+      {
+        "full_name": "Ji, Jing",
+        "short_name": "Ji J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: 18752789942@163.com."
+        ]
+      },
+      {
+        "full_name": "Xu, Wenxiu",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: 20180931039@bucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shao, Qi",
+        "short_name": "Shao Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: 2532588647@qq.com."
+        ]
+      },
+      {
+        "full_name": "Liao, Xuejing",
+        "short_name": "Liao X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: lsnowcrystal@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Ying",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: yiyayinan734@163.com."
+        ]
+      },
+      {
+        "full_name": "Cheng, Fafeng",
+        "short_name": "Cheng F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: fafengcheng@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Qingguo",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Beijing University of Chinese Medicine, Beijing, China. Electronic address: wangqg8558@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2022 Feb 10",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/27 06:00",
+    "fetched_at": "2026-09-28 01:14:33"
+  },
+  "links": {
+    "cites": [
+      "42286638",
+      "41007298",
+      "40932545",
+      "40320504",
+      "39268469",
+      "39036291",
+      "38612597",
+      "38137543",
+      "36465168",
+      "36401720",
+      "36091824",
+      "35795571"
+    ],
+    "refs": [],
+    "similar": [
+      "34699947",
+      "23973788",
+      "21093411",
+      "38669967",
+      "28743390",
+      "33307823",
+      "20859668",
+      "34080089",
+      "35408846",
+      "31228802",
+      "21600966",
+      "38225394",
+      "31678414",
+      "36252877",
+      "36322276",
+      "30323141",
+      "32945496",
+      "12965234",
+      "28624894",
+      "35292367",
+      "31734260",
+      "35285204",
+      "27229110",
+      "32422289",
+      "19294503",
+      "33173992",
+      "20618938",
+      "22800826",
+      "29878743",
+      "26805466",
+      "28645524",
+      "39014433",
+      "28986333",
+      "31568208",
+      "26939761",
+      "20863826",
+      "30647760",
+      "27833029",
+      "24344240",
+      "23934512",
+      "21159187",
+      "25239813",
+      "24161430",
+      "34929338",
+      "28942223",
+      "31912804",
+      "38762213",
+      "30171935",
+      "29257250",
+      "30570395",
+      "33675584",
+      "30248332",
+      "38419443",
+      "31767824",
+      "23041106",
+      "39179056",
+      "33007731",
+      "28753906",
+      "26607471",
+      "32410871",
+      "27716383",
+      "34399695",
+      "29275501",
+      "29934505",
+      "16595923",
+      "30090976",
+      "27596278",
+      "23504578",
+      "33653377",
+      "36841376",
+      "17069775",
+      "39206918",
+      "32904394",
+      "27295859",
+      "26452628",
+      "23619720",
+      "38428662",
+      "19274704",
+      "27980102",
+      "30794846",
+      "23911884",
+      "24681253",
+      "27043920",
+      "22085682",
+      "23400803",
+      "30930327",
+      "20566376",
+      "17332467",
+      "25837275",
+      "37475080",
+      "22796597",
+      "27286958",
+      "22850444",
+      "21272618",
+      "25009636",
+      "24930357",
+      "28478273",
+      "21185913",
+      "34767993",
+      "24462503",
+      "28065778",
+      "30458454",
+      "24417870",
+      "31279072",
+      "26782291",
+      "24639350",
+      "22340958",
+      "29630125",
+      "36661075",
+      "34109422",
+      "39268469",
+      "33371810",
+      "37155343",
+      "27030762",
+      "34494990",
+      "32650794",
+      "11535362",
+      "34376131",
+      "36183948",
+      "26355725",
+      "36786974",
+      "28383062",
+      "25149422",
+      "37697486",
+      "30987181",
+      "38890211",
+      "36070444",
+      "36110847",
+      "26885690",
+      "35387476",
+      "38428413",
+      "35537702",
+      "35467483",
+      "36191551",
+      "36731339",
+      "38284280",
+      "35358777",
+      "37533973",
+      "38564300",
+      "39076996",
+      "34343642",
+      "15639786",
+      "38875883",
+      "37298268",
+      "32550891",
+      "37437448",
+      "38709635",
+      "38628726",
+      "36301190",
+      "34362286",
+      "35101850",
+      "38679996",
+      "37058819",
+      "35598371",
+      "35185928",
+      "29345255",
+      "36051349",
+      "38949031",
+      "33595821",
+      "34815689",
+      "21341682",
+      "36271488",
+      "35071413",
+      "32820306",
+      "35567553",
+      "38600597",
+      "39185317",
+      "38617936",
+      "37649905",
+      "34642508",
+      "35820283",
+      "35706859",
+      "34587791",
+      "37325423",
+      "31418133",
+      "35265682",
+      "32161541",
+      "37895847"
+    ],
+    "review": [
+      "34699947",
+      "35408846",
+      "27295859",
+      "36110847",
+      "26885690",
+      "35387476",
+      "36191551",
+      "38284280",
+      "39076996",
+      "37298268",
+      "36051349",
+      "33595821",
+      "36271488",
+      "39185317"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(21)01003-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

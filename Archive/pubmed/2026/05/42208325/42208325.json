@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "42208325",
+    "doi": "10.1016/j.intimp.2026.116910",
+    "title": "Beta-Resorcylaldehyde attenuates DSS-induced colitis by inhibiting inflammation and oxidative stress through the Keap1/Nrf2/HO-1 pathway."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ulcerative colitis (UC), a bowel condition marked by heightened oxidative stress, ongoing inflammation, and intestinal barrier dysfunction, has limited therapeutic options that are both effective and safe. AIM: This study evaluated the therapeutic impacts and mechanisms of beta-Resorcylaldehyde (BRAL), the natural phenolic aldehyde derived from Morus alba wood, on dextran sulfate sodium (DSS)-induced UC. METHODS: A murine DSS-induced UC model was employed to assess the therapeutic effects of BRAL by assessing disease activity, histopathology, oxidative stress, cytokine expression, and intestinal barrier integrity in vivo. To investigate the underlying molecular mechanisms, RNA sequencing, quantitative PCR, and Western blot experiments were conducted. For in vitro validation, RAW264.7 macrophages and THP-1 cells stimulated with lipopolysaccharide and intestinal epithelial cells injured by tert-butyl hydroperoxide were utilized. The assessment of target engagement was carried out using the cellular thermal shift assay, molecular docking, and molecular dynamics simulation. RESULTS: BRAL markedly alleviated the symptoms of DSS-induced UC, reduced oxidative stress and inflammatory reactions, along with restored tight junction protein expression. Transcriptomic and biochemical analyses indicated that BRAL suppressed pro-inflammatory cytokine production while enhancing antioxidant defenses. Mechanistically, BRAL directly bound to Keap1, thereby promoting Nrf2 nuclear translocation and Nrf2/HO-1 pathway activation. Notably, pharmacological inhibition of Nrf2 with the well-known inhibitor ML385 abolished the protective effects of BRAL. CONCLUSION: BRAL improves DSS-induced UC through targeting Keap1 to activate Nrf2 signaling, thereby restoring redox homeostasis, suppressing inflammation, and preserving epithelial barrier integrity. These findings suggest that BRAL is a promising natural candidate for treating UC.",
+    "keywords": [
+      "Inflammation",
+      "Keap1/Nrf2/HO-1 pathway",
+      "Oxidative stress",
+      "Ulcerative colitis",
+      "beta-Resorcylaldehyde"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Oxidative Stress/drug effects",
+      "*NF-E2-Related Factor 2/metabolism",
+      "*Kelch-Like ECH-Associated Protein 1/metabolism",
+      "Mice",
+      "Humans",
+      "Heme Oxygenase-1/metabolism",
+      "Signal Transduction/drug effects",
+      "Dextran Sulfate",
+      "Membrane Proteins/metabolism",
+      "*Anti-Inflammatory Agents/therapeutic use/pharmacology",
+      "RAW 264.7 Cells",
+      "*Colitis, Ulcerative/drug therapy/chemically induced/pathology",
+      "Male",
+      "THP-1 Cells",
+      "Disease Models, Animal",
+      "Intestinal Barrier Function",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiang, Lei",
+        "Yang, Xue",
+        "Li, Qingzhou",
+        "Wang, Guilin",
+        "Hu, Rui",
+        "Li, Mingrui",
+        "Hu, Jushan",
+        "Lei, Haoran",
+        "Fan, Anran",
+        "Gong, Zipeng",
+        "Wang, Dong"
+      ],
+      "short_names": [
+        "Xiang L",
+        "Yang X",
+        "Li Q",
+        "Wang G",
+        "Hu R",
+        "Li M",
+        "Hu J",
+        "Lei H",
+        "Fan A",
+        "Gong Z",
+        "Wang D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "School of Medical and Life Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China; Department of Respiratory and Critical Care Medicine, West China Hospital, Sichuan University, Chengdu 610000, China.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "School of Medical and Life Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "Center for Tissue Engineering and Stem Cell Research, Translation Medicine Research Center，Guizhou Biomanufacturing Laboratory, Guizhou Medical University, Guiyang 561113, China.",
+        "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Guizhou Medical University, Guian New Area 561113, China.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China. Electronic address: dwang@cdutcm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiang, Lei",
+        "short_name": "Xiang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xue",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical and Life Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China; Department of Respiratory and Critical Care Medicine, West China Hospital, Sichuan University, Chengdu 610000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qingzhou",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Guilin",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Rui",
+        "short_name": "Hu R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Li, Mingrui",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Jushan",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical and Life Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Haoran",
+        "short_name": "Lei H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Anran",
+        "short_name": "Fan A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Tissue Engineering and Stem Cell Research, Translation Medicine Research Center，Guizhou Biomanufacturing Laboratory, Guizhou Medical University, Guiyang 561113, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Zipeng",
+        "short_name": "Gong Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Guizhou Medical University, Guian New Area 561113, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dong",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China. Electronic address: dwang@cdutcm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International immunopharmacology"
+    ],
+    "journal_abbrev": [
+      "Int Immunopharmacol"
+    ],
+    "pub_date": "2026 Sep 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/29 15:41",
+    "fetched_at": "2026-10-01 21:37:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42208325",
+      "39128305",
+      "37187359",
+      "33974900",
+      "41825712",
+      "41344517",
+      "34648903",
+      "40037266",
+      "38767761",
+      "39956261",
+      "41633697",
+      "31827675",
+      "39540346",
+      "38761782",
+      "41205527",
+      "40330488",
+      "40944283",
+      "40450981",
+      "40090427",
+      "40836408",
+      "38488031",
+      "42105812",
+      "40834531",
+      "41308388",
+      "41720014",
+      "41690427",
+      "38104873",
+      "40215818",
+      "41301498",
+      "38878683",
+      "40829505",
+      "41551824",
+      "36776858",
+      "31969881",
+      "39757276",
+      "38280336",
+      "38104880",
+      "41854860",
+      "42202913",
+      "40199409",
+      "34456904",
+      "41349467",
+      "36195303",
+      "37646040",
+      "39208524",
+      "36461599",
+      "41484750",
+      "40995618",
+      "29661352",
+      "40743903",
+      "42048735",
+      "40848885",
+      "40678703",
+      "40704782",
+      "40045550",
+      "33301917",
+      "39189446",
+      "41014668",
+      "37850313",
+      "41045342",
+      "42019124",
+      "40749954",
+      "41759427",
+      "32298752",
+      "39120720",
+      "36459293",
+      "42296875",
+      "37247589",
+      "39423661",
+      "41621760",
+      "41612915",
+      "37776768",
+      "41641266",
+      "38596488",
+      "41796620",
+      "36867295",
+      "39489360",
+      "39359694",
+      "42322763",
+      "31780371",
+      "35686527",
+      "42202920",
+      "39340986",
+      "40907407",
+      "40639239",
+      "41763137",
+      "39689597",
+      "38976102",
+      "39850943",
+      "40700826",
+      "41800106",
+      "41363052",
+      "38458086",
+      "41985849",
+      "41966028",
+      "41124707",
+      "41496348",
+      "41370975",
+      "42166934",
+      "38554854"
+    ],
+    "review": [
+      "42208325"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-5769(26)00756-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ulcerativecolitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ulcerative Colitis"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-649",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

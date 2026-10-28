@@ -1,0 +1,702 @@
+{
+  "identity": {
+    "pmid": "40887856",
+    "doi": "10.1002/ctm2.70461",
+    "title": "Dissecting cross-lineage tumourigenesis under p53 inactivation through single-cell multi-omics and spatial transcriptomics."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Tumour suppressor genes, exemplified by TP53 (encoding the human p53), function as critical guardians against tumourigenesis. Germline TP53-inactivating mutations underlie Li-Fraumeni syndrome, a hereditary cancer predisposition disorder characterised by early-onset pan-tissue malignancies. However, the context-dependent tumour-suppressive mechanisms of p53 remain incompletely elucidated. This study aims to investigate the disruption of cellular homeostasis and tumourigenic mechanisms following p53 inactivation across distinct cell lineages. METHODS: Trp53 (encoding mouse p53) knockout mouse model was employed to study molecular alterations under p53-deficient conditions. Multi-omics analyses - including single-cell transcriptomics, single-cell ATAC-seq, spatial transcriptomics, whole genome sequencing, and CUT&Tag - were integrated to construct a Trp53 functional cell landscape. Deep learning-based gene network models were employed to reconstruct p53 regulatory networks and simulate in silico perturbations caused by p53 loss. RESULTS: Our analyses revealed transitional dynamics in immune, stromal, and epithelial cells from normal physiology to p53-deficient states and subsequent tumourigenesis. These transitions implicated critical pathways such as cell cycle regulation, stress response, metabolic reprogramming, and immune modulation, displaying both lineage-conserved and lineage-specific features. Tumour-prone cell populations exhibiting elevated differentiation plasticity were identified across lineages within tumourigenic trajectories. Spatial transcriptomic profiling confirmed the emergence of thymic tumour-initiating T-cell clusters characterised by deterministic chromatin architectural disruptions under p53-loss pressure. Notably, we uncovered a recurrent upregulation signature of ribosomal protein genes as an early pivotal molecular event preceding malignant transformation in p53-deficient oncogenesis. Finally, we decoded the p53 downstream regulatory network and computationally evaluated the perturbation effects of genetic inactivation at single-cell resolution. CONCLUSIONS: Our results elucidate the multiscale consequences of p53 inactivation while providing valuable resources for understanding tumour predisposition associated with p53-inactivating mutations and developing clinical interception strategies. KEY POINTS: Construction of a Trp53 functional cell landscape utilising single-cell multi-omics and spatial omics technologies. Reconstruction of p53 downstream regulatory relationships with lineage heterogeneity via machine learning-based gene network modelling. Dissection of shared and lineage-specific features during cross-lineage tumourigenesis under p53 deficiency.",
+    "keywords": [
+      "cross-lineage tumourigenesis",
+      "knockout cell landscape analyses",
+      "p53 regulatory network",
+      "single-cell multi-omics"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Tumor Suppressor Protein p53/genetics",
+      "Single-Cell Analysis/methods",
+      "Transcriptome/genetics",
+      "*Carcinogenesis/genetics",
+      "Mice, Knockout",
+      "Li-Fraumeni Syndrome/genetics",
+      "Humans",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xinru",
+        "Mei, Yuqing",
+        "Wang, Xueyi",
+        "Wu, Hanyu",
+        "Wang, Renying",
+        "Zhang, Peijing",
+        "Zhang, Guodong",
+        "Li, Jiaqi",
+        "Jiang, Mengmeng",
+        "Fang, Xing",
+        "Ma, Lifeng",
+        "Liao, Yuan",
+        "Jia, Danmei",
+        "Niu, Haofu",
+        "Weigao, E",
+        "Chen, Haide",
+        "Yang, Lei",
+        "Zhang, Shuang",
+        "Zhang, Tingyue",
+        "Zhou, Yincong",
+        "Zhang, Qi",
+        "Huang, He",
+        "Ouyang, Hongwei",
+        "Chen, Ming",
+        "Liang, Tingbo",
+        "Peng, Jinrong",
+        "Wang, Jingjing",
+        "Guo, Guoji",
+        "Han, Xiaoping"
+      ],
+      "short_names": [
+        "Wang X",
+        "Mei Y",
+        "Wang X",
+        "Wu H",
+        "Wang R",
+        "Zhang P",
+        "Zhang G",
+        "Li J",
+        "Jiang M",
+        "Fang X",
+        "Ma L",
+        "Liao Y",
+        "Jia D",
+        "Niu H",
+        "Weigao E",
+        "Chen H",
+        "Yang L",
+        "Zhang S",
+        "Zhang T",
+        "Zhou Y",
+        "Zhang Q",
+        "Huang H",
+        "Ouyang H",
+        "Chen M",
+        "Liang T",
+        "Peng J",
+        "Wang J",
+        "Guo G",
+        "Han X"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0516-8008",
+        "ORCID: 0000-0003-0627-2536",
+        "ORCID: 0000-0003-3201-7635"
+      ],
+      "affiliations": [
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Zhejiang Provincial Key Lab for Tissue Engineering and Regenerative Medicine, Dr. Li Dak Sum & Yip Yio Chin Center for Stem Cell and Regenerative Medicine, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "College of Life Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, The First Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Institute of Hematology, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Zhejiang Provincial Key Lab for Tissue Engineering and Regenerative Medicine, Dr. Li Dak Sum & Yip Yio Chin Center for Stem Cell and Regenerative Medicine, Hangzhou, Zhejiang, China.",
+        "College of Life Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Department of Hepatobiliary and Pancreatic Surgery, The First Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "MOE Key Laboratory for Molecular Animal Nutrition, College of Animal Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Zhejiang Provincial Key Lab for Tissue Engineering and Regenerative Medicine, Dr. Li Dak Sum & Yip Yio Chin Center for Stem Cell and Regenerative Medicine, Hangzhou, Zhejiang, China.",
+        "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, Zhejiang, China.",
+        "Institute of Hematology, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xinru",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Mei, Yuqing",
+        "short_name": "Mei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xueyi",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Hanyu",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Renying",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Peijing",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+          "Zhejiang Provincial Key Lab for Tissue Engineering and Regenerative Medicine, Dr. Li Dak Sum & Yip Yio Chin Center for Stem Cell and Regenerative Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Guodong",
+        "short_name": "Zhang G",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiaqi",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Mengmeng",
+        "short_name": "Jiang M",
+        "identifiers": [],
+        "affiliations": [
+          "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Xing",
+        "short_name": "Fang X",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Lifeng",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Yuan",
+        "short_name": "Liao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Danmei",
+        "short_name": "Jia D",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Haofu",
+        "short_name": "Niu H",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Weigao, E",
+        "short_name": "Weigao E",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Haide",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+          "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Lei",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shuang",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tingyue",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yincong",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, Zhejiang University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qi",
+        "short_name": "Zhang Q",
+        "identifiers": [
+          "0000-0003-0516-8008"
+        ],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The First Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Huang, He",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+          "Institute of Hematology, Zhejiang University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Ouyang, Hongwei",
+        "short_name": "Ouyang H",
+        "identifiers": [
+          "0000-0003-0627-2536"
+        ],
+        "affiliations": [
+          "Zhejiang Provincial Key Lab for Tissue Engineering and Regenerative Medicine, Dr. Li Dak Sum & Yip Yio Chin Center for Stem Cell and Regenerative Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ming",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, Zhejiang University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Tingbo",
+        "short_name": "Liang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary and Pancreatic Surgery, The First Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Jinrong",
+        "short_name": "Peng J",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory for Molecular Animal Nutrition, College of Animal Sciences, Zhejiang University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jingjing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+          "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Guoji",
+        "short_name": "Guo G",
+        "identifiers": [],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+          "Zhejiang Provincial Key Lab for Tissue Engineering and Regenerative Medicine, Dr. Li Dak Sum & Yip Yio Chin Center for Stem Cell and Regenerative Medicine, Hangzhou, Zhejiang, China.",
+          "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, Zhejiang, China.",
+          "Institute of Hematology, Zhejiang University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Han, Xiaoping",
+        "short_name": "Han X",
+        "identifiers": [
+          "0000-0003-3201-7635"
+        ],
+        "affiliations": [
+          "Bone Marrow Transplantation Center of the First Affiliated Hospital and Center for Stem Cell and Regenerative Medicine, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical and translational medicine"
+    ],
+    "journal_abbrev": [
+      "Clin Transl Med"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/02 22:25",
+    "fetched_at": "2026-10-01 01:04:25"
+  },
+  "links": {
+    "cites": [
+      "41665072"
+    ],
+    "refs": [
+      "39891259",
+      "39872221",
+      "39443700",
+      "38395755",
+      "38287107",
+      "37995704",
+      "37979810",
+      "37801341",
+      "37607536",
+      "37519664",
+      "37443338",
+      "37258682",
+      "37258680",
+      "37059064",
+      "36755098",
+      "36617563",
+      "36602602",
+      "36453700",
+      "36229673",
+      "36124642",
+      "36119037",
+      "36099812",
+      "35995947",
+      "35978189",
+      "35549404",
+      "35549310",
+      "35132319",
+      "35131904",
+      "35090788",
+      "35057799",
+      "35020834",
+      "34998470",
+      "34888311",
+      "34774128",
+      "34733856",
+      "34594043",
+      "34580376",
+      "34508258",
+      "34497388",
+      "34417225",
+      "34062119",
+      "33633365",
+      "33597522",
+      "33499903",
+      "33414263",
+      "33378681",
+      "33244588",
+      "33095875",
+      "32956680",
+      "32899175",
+      "32868298",
+      "32797160",
+      "32725807",
+      "32669714",
+      "32404993",
+      "32214235",
+      "32195169",
+      "32079746",
+      "31991537",
+      "31907453",
+      "31874281",
+      "31653912",
+      "31350888",
+      "31300027",
+      "31214167",
+      "31036827",
+      "31026227",
+      "30989490",
+      "30954475",
+      "30824861",
+      "30787437",
+      "30283141",
+      "30139373",
+      "30115704",
+      "30107566",
+      "29760954",
+      "29654218",
+      "29474909",
+      "29409532",
+      "28991892",
+      "28886379",
+      "28825705",
+      "28820292",
+      "28768545",
+      "28558959",
+      "28494867",
+      "28288132",
+      "28270621",
+      "28222096",
+      "28115368",
+      "28114287",
+      "27884178",
+      "27869779",
+      "27768121",
+      "26757339",
+      "26000488",
+      "25799988",
+      "25765347",
+      "25735597",
+      "25574598",
+      "25526089",
+      "25452272",
+      "25024217",
+      "24947186",
+      "24792911",
+      "24665023",
+      "24658644",
+      "24141778",
+      "24034254",
+      "23775087",
+      "23323831",
+      "23123616",
+      "23117593",
+      "23104886",
+      "22617470",
+      "22431922",
+      "22388286",
+      "22334079",
+      "22195744",
+      "22019770",
+      "21807902",
+      "20946988",
+      "20182602",
+      "19878869",
+      "19776746",
+      "19688092",
+      "19661312",
+      "19451168",
+      "18798982",
+      "17579027",
+      "17057733",
+      "16847353",
+      "16473278",
+      "15750633",
+      "11514603",
+      "11030628",
+      "10023689",
+      "9584189",
+      "9516230",
+      "9390689",
+      "9110404",
+      "7922305",
+      "1978757",
+      "1552940",
+      "222475"
+    ],
+    "similar": [
+      "40887856",
+      "41699549",
+      "42475469",
+      "41939867",
+      "40764361",
+      "42074532",
+      "41716413",
+      "41371106",
+      "39703515",
+      "40767016",
+      "41246350",
+      "41485251",
+      "42040898",
+      "41230160",
+      "42140356",
+      "42048995",
+      "42123445",
+      "37468633",
+      "42486346",
+      "41035636",
+      "41743703",
+      "40963604",
+      "41942920",
+      "40785647",
+      "41436831",
+      "42233387",
+      "41997558",
+      "32958587",
+      "41366455",
+      "42458112",
+      "41423668",
+      "41065575",
+      "42231444",
+      "41923163",
+      "41099090",
+      "41839318",
+      "41917876",
+      "41836446",
+      "41601671",
+      "40770837",
+      "41455555",
+      "40308576",
+      "41342434",
+      "42263871",
+      "41402909",
+      "42001187",
+      "40826382",
+      "42024670",
+      "41611834",
+      "42106773",
+      "41580083",
+      "42007493",
+      "26086041",
+      "41221285",
+      "42089585",
+      "42136962",
+      "42260568",
+      "41684036",
+      "42023218",
+      "40302336",
+      "41972123",
+      "42435052",
+      "41521161",
+      "41159025",
+      "41715092",
+      "41290867",
+      "41107929",
+      "42558367",
+      "42143353",
+      "39395983",
+      "41249595",
+      "41688827",
+      "41337486",
+      "40097519",
+      "8398688",
+      "41526921",
+      "42136650",
+      "42256531",
+      "40540299",
+      "40375605",
+      "40908816",
+      "41183107",
+      "38896352",
+      "41621766",
+      "41186507",
+      "31829284",
+      "42608748",
+      "21865403",
+      "41217566",
+      "41776659",
+      "41014753",
+      "39223638",
+      "40317014",
+      "42148089",
+      "38944814",
+      "41986815",
+      "27956228",
+      "39031800",
+      "42217088",
+      "41208840"
+    ],
+    "review": [
+      "40887856",
+      "42074532",
+      "40963604",
+      "41942920",
+      "41455555"
+    ],
+    "pmc": [
+      "12399789"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40887856/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/ctm2.70461",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

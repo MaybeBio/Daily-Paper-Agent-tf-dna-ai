@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "39657846",
+    "doi": "10.1016/j.nbd.2024.106763",
+    "title": "Unraveling pathogenesis and potential biomarkers for autism spectrum disorder associated with HIF1A pathway based on machine learning and experiment validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental disorder with a high social burden and limited treatments. Hypoxic condition of the brain is considered an important pathological mechanism of ASD. HIF1A is a key participant in brain hypoxia, but its contribution to the pathophysiological landscape of ASD remains unclear. METHODS: ASD-related datasets were obtained from GEO database, and HIF1A-related genes from GeneCards. Co-expression module analysis identified module genes, which were intersected with HIF1A-related genes to identify common genes. Machine learning identified hub genes from intersection genes and PPI networks were constructed to explore relationships among hub and HIF1A. Single-cell RNA sequencing analyzed hub gene distribution across cell clusters. ASD mouse model was created by inducing maternal immune activation (MIA) with poly(I:C) injections, verified through behavioral tests. Validation of HIF1A pathway and hub genes was confirmed through Western Blot, qPCR, and immunofluorescence in ASD mice and microglia BV-2 cells. RESULTS: Using CEMiTool and GeneCards, 45 genes associated with ASD and HIF1A pathway were identified. Machine learning identified CDKN1A, ETS2, LYN, and SLC16A3 as potential ASD diagnostic markers. Single-cell sequencing pinpointed activated microglia as key immune cells. Behavioral tests showed MIA offspring mice exhibited typical ASD-like behaviors. Immunofluorescence confirmed the activation of microglia and HIF1A pathway in frontal cortex of ASD mice. Additionally, IL-6 contributed to ASD by activating JUN/HIF1A pathway, affecting CDKN1A, LYN, and SLC16A3 expression in microglia. CONCLUSIONS: HIF1A-related genes CDKN1A, ETS2, LYN, and SLC16A3 are strong diagnostic markers for ASD and the activation of IL-6/JUN/HIF1A pathway in microglia contributes to the pathogenesis of ASD.",
+    "keywords": [
+      "Autism spectrum disorder",
+      "Frontal cortex",
+      "HIF1A",
+      "IL-6",
+      "Machine learning",
+      "Microglia"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Autism Spectrum Disorder/genetics/metabolism",
+      "*Machine Learning",
+      "Mice",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism/genetics",
+      "*Biomarkers/metabolism",
+      "Female",
+      "Male",
+      "Mice, Inbred C57BL",
+      "Microglia/metabolism",
+      "Humans",
+      "Disease Models, Animal",
+      "Signal Transduction/physiology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cui, Jinru",
+        "Li, Heli",
+        "Hu, Cong",
+        "Zhang, Feiyan",
+        "Li, Yunjie",
+        "Weng, Ying",
+        "Yang, Liping",
+        "Li, Yingying",
+        "Yao, Minglan",
+        "Li, Hao",
+        "Luo, Xiaoping",
+        "Hao, Yan"
+      ],
+      "short_names": [
+        "Cui J",
+        "Li H",
+        "Hu C",
+        "Zhang F",
+        "Li Y",
+        "Weng Y",
+        "Yang L",
+        "Li Y",
+        "Yao M",
+        "Li H",
+        "Luo X",
+        "Hao Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China. Electronic address: haoyaner@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cui, Jinru",
+        "short_name": "Cui J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Li, Heli",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Cong",
+        "short_name": "Hu C",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Feiyan",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yunjie",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Weng, Ying",
+        "short_name": "Weng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Liping",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yingying",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Minglan",
+        "short_name": "Yao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hao",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Xiaoping",
+        "short_name": "Luo X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Hao, Yan",
+        "short_name": "Hao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China. Electronic address: haoyaner@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Neurobiology of disease"
+    ],
+    "journal_abbrev": [
+      "Neurobiol Dis"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/11 00:23",
+    "fetched_at": "2026-09-30 07:42:20"
+  },
+  "links": {
+    "cites": [
+      "42319587",
+      "42256253",
+      "42148151",
+      "41247426",
+      "40843131"
+    ],
+    "refs": [],
+    "similar": [
+      "39657846",
+      "40645949",
+      "40852845",
+      "39182588",
+      "38522317",
+      "25959200",
+      "41289970",
+      "38898502",
+      "39580060",
+      "41135271",
+      "28455196",
+      "38499656",
+      "33127853",
+      "40069859",
+      "30683682",
+      "39362015",
+      "36442276",
+      "38236354",
+      "39069636",
+      "40513625",
+      "39479394",
+      "38594551",
+      "40238451",
+      "40923924",
+      "38409127",
+      "38752179",
+      "40054734",
+      "30681777",
+      "40081778",
+      "34427843",
+      "40526590",
+      "39622390",
+      "33310189",
+      "39604505",
+      "37291580",
+      "31743624",
+      "26873041",
+      "28089559",
+      "32020500",
+      "36898611",
+      "37758861",
+      "39497100",
+      "32460837",
+      "39080700",
+      "27697456",
+      "38552922",
+      "40023202",
+      "28322282",
+      "36232395",
+      "28000768",
+      "36414133",
+      "31704787",
+      "39154487",
+      "38726016",
+      "30798536",
+      "38476236",
+      "36683854",
+      "40652246",
+      "30172895",
+      "38007751",
+      "28166277",
+      "41076106",
+      "27105825",
+      "37776011",
+      "29134693",
+      "21685248",
+      "37105442",
+      "36768401",
+      "40720357",
+      "36768688",
+      "38715090",
+      "37168851",
+      "41100952",
+      "28088462",
+      "31591201",
+      "34048873",
+      "38993386",
+      "39471905",
+      "27529337",
+      "30716470",
+      "41136355",
+      "39788508",
+      "41425587",
+      "37703921",
+      "40628340",
+      "37441807",
+      "40770435",
+      "40383635",
+      "40220928",
+      "29217683",
+      "35963885",
+      "37478258",
+      "40175518",
+      "35114831",
+      "39953505",
+      "40227316",
+      "40916281",
+      "40818967",
+      "39510156",
+      "41187794"
+    ],
+    "review": [
+      "39657846",
+      "39580060",
+      "28455196",
+      "30172895",
+      "41425587"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0969-9961(24)00365-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/autismspectrumdisorder.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Autism Spectrum Disorder"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0969-9961(24)00365-6",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/autismspectrumdisorder.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Autism Spectrum Disorder"
+      }
+    ],
+    "text_mined": []
+  }
+}

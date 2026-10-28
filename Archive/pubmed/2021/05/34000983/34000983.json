@@ -1,0 +1,405 @@
+{
+  "identity": {
+    "pmid": "34000983",
+    "doi": "10.1186/s12859-020-03871-1",
+    "title": "An improved DNA-binding hot spot residues prediction method by exploring interfacial neighbor properties."
+  },
+  "content": {
+    "abstract": "BACKGROUND: DNA-binding hot spots are dominant and fundamental residues that contribute most of the binding free energy yet accounting for a small portion of protein-DNA interfaces. As experimental methods for identifying hot spots are time-consuming and costly, high-efficiency computational approaches are emerging as alternative pathways to experimental methods. RESULTS: Herein, we present a new computational method, termed inpPDH, for hot spot prediction. To improve the prediction performance, we extract hybrid features which incorporate traditional features and new interfacial neighbor properties. To remove redundant and irrelevant features, feature selection is employed using a two-step feature selection strategy. Finally, a subset of 7 optimal features are chosen to construct the predictor using support vector machine. The results on the benchmark dataset show that this proposed method yields significantly better prediction accuracy than those previously published methods in the literature. Moreover, a user-friendly web server for inpPDH is well established and is freely available at http://bioinfo.ahu.edu.cn/inpPDH . CONCLUSIONS: We have developed an accurate improved prediction model, inpPDH, for hot spot residues in protein-DNA binding interfaces by given the structure of a protein-DNA complex. Moreover, we identify a comprehensive and useful feature subset including the proposed interfacial neighbor features that has an important strength for identifying hot spot residues. Our results indicate that these features are more effective than the conventional features considered previously, and that the combination of interfacial neighbor features and traditional features may support the creation of a discriminative feature set for efficient prediction of hot spot residues in protein-DNA complexes.",
+    "keywords": [
+      "Feature selection",
+      "Hot spot",
+      "Interfacial neighbor property",
+      "Protein-DNA complex",
+      "Support vector machine"
+    ],
+    "mesh_terms": [
+      "*Computational Biology",
+      "Databases, Protein",
+      "Protein Binding",
+      "*Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Sijia",
+        "Wang, Lihua",
+        "Zhao, Le",
+        "Li, Menglu",
+        "Liu, Mengya",
+        "Li, Ke",
+        "Bin, Yannan",
+        "Xia, Junfeng"
+      ],
+      "short_names": [
+        "Zhang S",
+        "Wang L",
+        "Zhao L",
+        "Li M",
+        "Liu M",
+        "Li K",
+        "Bin Y",
+        "Xia J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3024-1705"
+      ],
+      "affiliations": [
+        "Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institutes of Physical Science and Information Technology, Anhui University, Hefei, 230601, Anhui, China.",
+        "Key Laboratory of Computational Neuroscience and Brain-Inspired Intelligence (Fudan University), Ministry of Education, Shanghai, China.",
+        "Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institutes of Physical Science and Information Technology, Anhui University, Hefei, 230601, Anhui, China.",
+        "Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institutes of Physical Science and Information Technology, Anhui University, Hefei, 230601, Anhui, China.",
+        "Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institutes of Physical Science and Information Technology, Anhui University, Hefei, 230601, Anhui, China.",
+        "Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institutes of Physical Science and Information Technology, Anhui University, Hefei, 230601, Anhui, China.",
+        "Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institutes of Physical Science and Information Technology, Anhui University, Hefei, 230601, Anhui, China.",
+        "Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institutes of Physical Science and Information Technology, Anhui University, Hefei, 230601, Anhui, China. ynbin@ahu.edu.cn.",
+        "Key Laboratory of Computational Neuroscience and Brain-Inspired Intelligence (Fudan University), Ministry of Education, Shanghai, China. ynbin@ahu.edu.cn.",
+        "Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institutes of Physical Science and Information Technology, Anhui University, Hefei, 230601, Anhui, China. jfxia@ahu.edu.cn.",
+        "Key Laboratory of Computational Neuroscience and Brain-Inspired Intelligence (Fudan University), Ministry of Education, Shanghai, China. jfxia@ahu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Sijia",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institutes of Physical Science and Information Technology, Anhui University, Hefei, 230601, Anhui, China.",
+          "Key Laboratory of Computational Neuroscience and Brain-Inspired Intelligence (Fudan University), Ministry of Education, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lihua",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institutes of Physical Science and Information Technology, Anhui University, Hefei, 230601, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Le",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institutes of Physical Science and Information Technology, Anhui University, Hefei, 230601, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Li, Menglu",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institutes of Physical Science and Information Technology, Anhui University, Hefei, 230601, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Mengya",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institutes of Physical Science and Information Technology, Anhui University, Hefei, 230601, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ke",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institutes of Physical Science and Information Technology, Anhui University, Hefei, 230601, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Bin, Yannan",
+        "short_name": "Bin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institutes of Physical Science and Information Technology, Anhui University, Hefei, 230601, Anhui, China. ynbin@ahu.edu.cn.",
+          "Key Laboratory of Computational Neuroscience and Brain-Inspired Intelligence (Fudan University), Ministry of Education, Shanghai, China. ynbin@ahu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xia, Junfeng",
+        "short_name": "Xia J",
+        "identifiers": [
+          "0000-0003-3024-1705"
+        ],
+        "affiliations": [
+          "Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, Institutes of Physical Science and Information Technology, Anhui University, Hefei, 230601, Anhui, China. jfxia@ahu.edu.cn.",
+          "Key Laboratory of Computational Neuroscience and Brain-Inspired Intelligence (Fudan University), Ministry of Education, Shanghai, China. jfxia@ahu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2021 May 17",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/19 06:00",
+    "fetched_at": "2026-10-04 19:44:05"
+  },
+  "links": {
+    "cites": [
+      "38927611",
+      "37016308"
+    ],
+    "refs": [
+      "32218345",
+      "31751283",
+      "31626284",
+      "31157880",
+      "30957840",
+      "30704475",
+      "30533007",
+      "29994262",
+      "29688380",
+      "29536446",
+      "29281004",
+      "29091991",
+      "28430949",
+      "28383703",
+      "27151201",
+      "26934646",
+      "24623120",
+      "21735484",
+      "20386937",
+      "20377884",
+      "19884101",
+      "17546660",
+      "9653027",
+      "8182748",
+      "7529940",
+      "6667333",
+      "3024847",
+      "1723781"
+    ],
+    "similar": [
+      "34000983",
+      "20377884",
+      "30957840",
+      "29334889",
+      "33068261",
+      "32938375",
+      "23282146",
+      "30250210",
+      "30598091",
+      "26934646",
+      "29281004",
+      "23504705",
+      "19357097",
+      "19878545",
+      "21798070",
+      "32631222",
+      "28766075",
+      "37016308",
+      "30668479",
+      "38927611",
+      "30901953",
+      "30287797",
+      "22868682",
+      "32938395",
+      "17959648",
+      "31380766",
+      "21689480",
+      "30598073",
+      "25075532",
+      "22316154",
+      "24854765",
+      "29753757",
+      "25474679",
+      "22258275",
+      "29548799",
+      "30157750",
+      "27907159",
+      "21386962",
+      "24134392",
+      "34884927",
+      "19179356",
+      "31267738",
+      "20444871",
+      "30239627",
+      "21735484",
+      "27490858",
+      "26345449",
+      "27740495",
+      "26482832",
+      "29305179",
+      "31123959",
+      "20808810",
+      "37866116",
+      "18539611",
+      "35098379",
+      "28222000",
+      "39283314",
+      "25680094",
+      "37676603",
+      "29028926",
+      "29097781",
+      "27552763",
+      "35286461",
+      "26176857",
+      "20652820",
+      "29591488",
+      "24568581",
+      "18939967",
+      "24105801",
+      "28155714",
+      "33406224",
+      "27030570",
+      "30704475",
+      "30602422",
+      "35546347",
+      "34954608",
+      "27411307",
+      "33093842",
+      "25409550",
+      "20008102",
+      "31339073",
+      "21991319",
+      "33410688",
+      "28113437",
+      "21069866",
+      "29616000",
+      "25845030",
+      "31577192",
+      "27378005",
+      "28423569",
+      "21097468",
+      "24467761",
+      "24997383",
+      "24852252",
+      "19273533",
+      "22080558",
+      "22770357",
+      "24146760",
+      "25189131",
+      "37003392",
+      "32766811",
+      "19816781",
+      "29868903",
+      "38237792",
+      "33486591",
+      "30860571",
+      "35609687",
+      "24965847",
+      "36316653",
+      "35147037",
+      "31525028",
+      "39066130",
+      "34798459",
+      "22174808",
+      "21637529",
+      "35709747",
+      "35151790",
+      "33295914",
+      "17597870",
+      "22829945",
+      "19760494",
+      "32827670",
+      "22226192",
+      "24564955",
+      "30294271",
+      "34193921",
+      "35420988",
+      "33872313",
+      "33291870",
+      "35753699",
+      "35834447",
+      "19664241",
+      "23475502",
+      "25054318",
+      "32580129",
+      "34628276",
+      "30590490",
+      "37729064",
+      "35368659",
+      "27641752",
+      "36299898",
+      "22759651",
+      "30425802",
+      "37423912",
+      "35154264",
+      "34887905",
+      "21666834",
+      "22166014",
+      "35273581",
+      "30811440",
+      "33426873",
+      "21765568",
+      "36589311",
+      "37186412",
+      "34458447",
+      "34567088",
+      "36415752",
+      "34735345",
+      "38284090",
+      "37554661",
+      "30462144",
+      "37772192"
+    ],
+    "review": [
+      "34000983",
+      "30287797",
+      "22316154",
+      "34954608",
+      "24997383",
+      "35151790",
+      "35154264"
+    ],
+    "pmc": [
+      "8130120"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03871-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34000983/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34000983",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=biotools_inppdh",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://scite.ai/reports/34000983",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

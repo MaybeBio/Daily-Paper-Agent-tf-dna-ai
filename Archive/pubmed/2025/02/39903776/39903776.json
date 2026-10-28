@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "39903776",
+    "doi": "10.1371/journal.pcbi.1012824",
+    "title": "Interpreting the CTCF-mediated sequence grammar of genome folding with AkitaV2."
+  },
+  "content": {
+    "abstract": "Interphase mammalian genomes are folded in 3D with complex locus-specific patterns that impact gene regulation. CTCF (CCCTC-binding factor) is a key architectural protein that binds specific DNA sites, halts cohesin-mediated loop extrusion, and enables long-range chromatin interactions. There are hundreds of thousands of annotated CTCF-binding sites in mammalian genomes; disruptions of some result in distinct phenotypes, while others have no visible effect. Despite their importance, the determinants of which CTCF sites are necessary for genome folding and gene regulation remain unclear. Here, we update and utilize Akita, a convolutional neural network model, to extract the sequence preferences and grammar of CTCF contributing to genome folding. Our analyses of individual CTCF sites reveal four predictions: (i) only a small fraction of genomic sites are impactful; (ii) impact is highly dependent on sequences flanking the core CTCF binding motif; (iii) core and flanking nucleotides contribute largely additively to the overall impact of a site; (iv) sites created as combinations of different core and flanking sequences have impacts proportional to the product of their average impacts, i.e. they are broadly compatible. Our analysis of collections of CTCF sites make two predictions for multi-motif grammar: (i) insulation strength depends on the number of CTCF sites within a cluster, and (ii) pattern formation is governed by the orientation and spacing of these sites, rather than any inherent specialization of the CTCF motifs themselves. In sum, we present a framework for using neural network models to probe the sequences instructing genome folding and provide a number of predictions to guide future experimental inquiries.",
+    "keywords": [],
+    "mesh_terms": [
+      "*CCCTC-Binding Factor/metabolism/genetics/chemistry",
+      "Binding Sites/genetics",
+      "Humans",
+      "*Genome/genetics",
+      "Computational Biology/methods",
+      "Neural Networks, Computer",
+      "Animals",
+      "Chromatin/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Smaruj, Paulina N",
+        "Kamulegeya, Fahad",
+        "Kelley, David R",
+        "Fudenberg, Geoffrey"
+      ],
+      "short_names": [
+        "Smaruj PN",
+        "Kamulegeya F",
+        "Kelley DR",
+        "Fudenberg G"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1002-5140",
+        "ORCID: 0009-0008-1806-6661",
+        "ORCID: 0000-0001-7782-3548",
+        "ORCID: 0000-0001-5905-6517"
+      ],
+      "affiliations": [
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California, United States of America.",
+        "Stowers Institute for Medical Research, Kansas City, Missouri, United States of America.",
+        "Calico Life Sciences LLC, South San Francisco, California, United States of America.",
+        "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Smaruj, Paulina N",
+        "short_name": "Smaruj PN",
+        "identifiers": [
+          "0000-0003-1002-5140"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Kamulegeya, Fahad",
+        "short_name": "Kamulegeya F",
+        "identifiers": [
+          "0009-0008-1806-6661"
+        ],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, Missouri, United States of America."
+        ]
+      },
+      {
+        "full_name": "Kelley, David R",
+        "short_name": "Kelley DR",
+        "identifiers": [
+          "0000-0001-7782-3548"
+        ],
+        "affiliations": [
+          "Calico Life Sciences LLC, South San Francisco, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Fudenberg, Geoffrey",
+        "short_name": "Fudenberg G",
+        "identifiers": [
+          "0000-0001-5905-6517"
+        ],
+        "affiliations": [
+          "Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2025 Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/04 18:20",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "42635245",
+      "42094547",
+      "41648525",
+      "40683887",
+      "40654659",
+      "39862604"
+    ],
+    "refs": [
+      "39416077",
+      "39106157",
+      "38816647",
+      "38809952",
+      "38796686",
+      "38709825",
+      "38370764",
+      "38086418",
+      "37962376",
+      "37873116",
+      "37868032",
+      "37699887",
+      "37439339",
+      "37066196",
+      "36951113",
+      "36624151",
+      "36192604",
+      "35817979",
+      "35551308",
+      "35418676",
+      "35410161",
+      "34002095",
+      "33983921",
+      "33603233",
+      "33590861",
+      "33545664",
+      "33290745",
+      "33263279",
+      "33046897",
+      "33046896",
+      "32998764",
+      "32939066",
+      "32687525",
+      "32587015",
+      "32294452",
+      "32213324",
+      "32213323",
+      "32015543",
+      "32001106",
+      "31911579",
+      "31522987",
+      "31491387",
+      "31358994",
+      "31290943",
+      "30996347",
+      "30811994",
+      "30742094",
+      "29053968",
+      "28985562",
+      "28874668",
+      "28737770",
+      "28525758",
+      "28467304",
+      "26967279",
+      "26833806",
+      "26577052",
+      "26527277",
+      "26276636",
+      "26076233",
+      "25959774",
+      "25732821",
+      "25497547",
+      "23707059",
+      "22941365",
+      "22244452",
+      "22153082",
+      "20513432",
+      "18654629"
+    ],
+    "similar": [
+      "39903776",
+      "33046897",
+      "33232622",
+      "42065963",
+      "29593713",
+      "34002095",
+      "40628528",
+      "31285261",
+      "33154377",
+      "39988079",
+      "28424523",
+      "32631111",
+      "23804403",
+      "40374602",
+      "41978381",
+      "31522987",
+      "30940740",
+      "42635245",
+      "30310060",
+      "33187878",
+      "31937660",
+      "32293525",
+      "39738353",
+      "31905366",
+      "34711654",
+      "40806572",
+      "30213272",
+      "33255744",
+      "32680543",
+      "39169755",
+      "31522988",
+      "28467304",
+      "40874617",
+      "40764058",
+      "26499245",
+      "40965216",
+      "28536180",
+      "31910870",
+      "40118069",
+      "33626344",
+      "40011778",
+      "35817979",
+      "27582050",
+      "32043966",
+      "37699887",
+      "41238959",
+      "31177910",
+      "32128389",
+      "38397134",
+      "39093600",
+      "41277030",
+      "35410161",
+      "30031214",
+      "33545664",
+      "31911579",
+      "36182691",
+      "32393311",
+      "30948729",
+      "30039577",
+      "31491387",
+      "31666380",
+      "34197738",
+      "37552993",
+      "37408191",
+      "34702695",
+      "37146570",
+      "39180406",
+      "25299688",
+      "35993175",
+      "32503656",
+      "37076620",
+      "29437965",
+      "42094547",
+      "35180428",
+      "29076501",
+      "22952237",
+      "37813869",
+      "30655336",
+      "38950902",
+      "29757144",
+      "37077544",
+      "29561703",
+      "29949986",
+      "33634313",
+      "41556344",
+      "31266973",
+      "35456389",
+      "27974201",
+      "40613712",
+      "42201978",
+      "41430607",
+      "32988407",
+      "37536339",
+      "31665434",
+      "41381500",
+      "30120652",
+      "39312688",
+      "37979036",
+      "32885250",
+      "33579945"
+    ],
+    "review": [
+      "39903776",
+      "32631111",
+      "30940740",
+      "33187878",
+      "39169755",
+      "41277030",
+      "30031214",
+      "33545664",
+      "37408191",
+      "35993175",
+      "22952237"
+    ],
+    "pmc": [
+      "11828424"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1012824",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39903776/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "identity": {
+    "pmid": "41055763",
+    "doi": "10.1007/s10565-025-10085-9",
+    "title": "Characterization of SPTLC2 as a key driver promoting microglial activation and energy metabolism reprogramming after ischemic stroke through bulk and single-cell analyses combined with experimental validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ischemic stroke (IS) stands as a principal contributor to high rates of sickness and death. The condition's pathological development is complicated, featuring mechanisms like mitochondrial impairment and the activation of microglial cells. A thorough grasp of these intricate processes is vital for creating successful treatment strategies. METHODS: We applied Weighted Gene Co-expression Network Analysis (WGCNA) to find gene sets with a strong correlation to IS. Integrated machine learning approachs were used to identify key mitochondrial-related genes (MRGs). From this analysis, SPTLC2 was identified as a pivotal MRG and was subsequently analyzed in detail using single-cell RNA sequencing (scRNA-seq) datasets. We performed functional confirmation using experimental stroke simulations, which included transient middle cerebral artery occlusion (tMCAO) in mice and in vitro oxygen-glucose deprivation/reoxygenation (OGD/R) on primary microglia. RESULTS: WGCNA revealed two critical modules (yellow and blue) comprising 5348 genes, which were predominantly enriched in immune response, nerve regeneration, and lipid metabolism. We exhibited the robust and superior performance of MRGs in stroke prediction, which contributed to an optimal combination of ridge regression and random forest fitted on 18 MRGs. Subsequently, elevated expression of the SPTLC2 gene was observed in microglia following stroke. Functional studies and experimental validation demonstrated that SPTLC2 promoted microglial pro-inflammatory phenotype, metabolic reprogramming towards glycolysis, and exacerbated cell-cell communication alterations. SPTLC2-specific knockdown in myeloid cells using an adeno-associated virus (AAV) in our tMCAO model alleviated neurobehavioral deficits, reduced infarct volume, and improved mitochondrial function by elevating oxidative stress and mitigating mitochondrial membrane potential depolarization. Additionally, SPTLC2 was regulated by the transcription factor FLI1, and molecular docking identified potential drugs targeting SPTLC2, including Nystatin A3, Moxidectin, and Lumacaftor. CONCLUSION: Our study highlights SPTLC2 as a critical mediator of microglial activation and metabolic reprogramming in ischemic stroke, providing a foundation for developing novel therapeutic strategies targeting SPTLC2 to improve stroke outcomes.",
+    "keywords": [
+      "Machine learning",
+      "Microglia",
+      "Mitochondria",
+      "SPTLC2",
+      "Single-cell RNA sequencing",
+      "Stroke"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Microglia/metabolism",
+      "Single-Cell Analysis/methods",
+      "*Ischemic Stroke/metabolism/genetics/pathology",
+      "*Energy Metabolism",
+      "Mice",
+      "Mice, Inbred C57BL",
+      "Male",
+      "Gene Regulatory Networks",
+      "Disease Models, Animal",
+      "Mitochondria/metabolism",
+      "*Brain Ischemia/metabolism",
+      "Metabolic Reprogramming"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lai, Yongxing",
+        "Lin, Peiqiang",
+        "Wu, Zhiyun",
+        "Chen, Tin",
+        "Hong, Wenyao",
+        "Zheng, Mouwei",
+        "Chen, Jianhao",
+        "Liu, Nan",
+        "Chen, Hongbin"
+      ],
+      "short_names": [
+        "Lai Y",
+        "Lin P",
+        "Wu Z",
+        "Chen T",
+        "Hong W",
+        "Zheng M",
+        "Chen J",
+        "Liu N",
+        "Chen H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurology, Fujian Medical University Union Hospital, 29 Xinquan Road, Fuzhou, 350001, Fujian, China.",
+        "Department of Geriatric Medicine, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China.",
+        "Department of Neurology, Fujian Medical University Union Hospital, 29 Xinquan Road, Fuzhou, 350001, Fujian, China.",
+        "Department of Neurology, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China.",
+        "Department of Neurology, Fujian Medical University Union Hospital, 29 Xinquan Road, Fuzhou, 350001, Fujian, China.",
+        "Institude of Clinical Neurology, Fujian Medical University; Clinical Research Center for Precision Diagnosis and Treatment of Neurological Diseases of Fujian Province , Fuzhou, 350001, China.",
+        "Department of Neurology, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China.",
+        "Department of Neurosurgery, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China.",
+        "Department of Geriatric Medicine, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China.",
+        "Department of Rehabilitation Medicine, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China.",
+        "Department of Neurology, Fujian Medical University Union Hospital, 29 Xinquan Road, Fuzhou, 350001, Fujian, China. xieheliunan1984@163.com.",
+        "Institude of Clinical Neurology, Fujian Medical University; Clinical Research Center for Precision Diagnosis and Treatment of Neurological Diseases of Fujian Province , Fuzhou, 350001, China. xieheliunan1984@163.com.",
+        "Department of Neurology, Fujian Medical University Union Hospital, 29 Xinquan Road, Fuzhou, 350001, Fujian, China. hbchen0127@fjmu.edu.cn.",
+        "Institude of Clinical Neurology, Fujian Medical University; Clinical Research Center for Precision Diagnosis and Treatment of Neurological Diseases of Fujian Province , Fuzhou, 350001, China. hbchen0127@fjmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lai, Yongxing",
+        "short_name": "Lai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Fujian Medical University Union Hospital, 29 Xinquan Road, Fuzhou, 350001, Fujian, China.",
+          "Department of Geriatric Medicine, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Peiqiang",
+        "short_name": "Lin P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Fujian Medical University Union Hospital, 29 Xinquan Road, Fuzhou, 350001, Fujian, China.",
+          "Department of Neurology, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhiyun",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Fujian Medical University Union Hospital, 29 Xinquan Road, Fuzhou, 350001, Fujian, China.",
+          "Institude of Clinical Neurology, Fujian Medical University; Clinical Research Center for Precision Diagnosis and Treatment of Neurological Diseases of Fujian Province , Fuzhou, 350001, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Tin",
+        "short_name": "Chen T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Wenyao",
+        "short_name": "Hong W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Mouwei",
+        "short_name": "Zheng M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatric Medicine, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jianhao",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rehabilitation Medicine, Fuzhou University Affiliated Provincial Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Nan",
+        "short_name": "Liu N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Fujian Medical University Union Hospital, 29 Xinquan Road, Fuzhou, 350001, Fujian, China. xieheliunan1984@163.com.",
+          "Institude of Clinical Neurology, Fujian Medical University; Clinical Research Center for Precision Diagnosis and Treatment of Neurological Diseases of Fujian Province , Fuzhou, 350001, China. xieheliunan1984@163.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Hongbin",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Fujian Medical University Union Hospital, 29 Xinquan Road, Fuzhou, 350001, Fujian, China. hbchen0127@fjmu.edu.cn.",
+          "Institude of Clinical Neurology, Fujian Medical University; Clinical Research Center for Precision Diagnosis and Treatment of Neurological Diseases of Fujian Province , Fuzhou, 350001, China. hbchen0127@fjmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell biology and toxicology"
+    ],
+    "journal_abbrev": [
+      "Cell Biol Toxicol"
+    ],
+    "pub_date": "2025 Oct 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/07 12:30",
+    "fetched_at": "2026-10-01 03:37:36"
+  },
+  "links": {
+    "cites": [
+      "42286638"
+    ],
+    "refs": [
+      "39455097",
+      "39167645",
+      "39025856",
+      "38702940",
+      "38523678",
+      "38372422",
+      "38362904",
+      "38324639",
+      "38321473",
+      "38183570",
+      "38177281",
+      "38045064",
+      "38037097",
+      "37812891",
+      "37783431",
+      "37762701",
+      "37667836",
+      "37537969",
+      "37285269",
+      "37199734",
+      "37183260",
+      "37098609",
+      "37037094",
+      "36772984",
+      "36768203",
+      "36759884",
+      "36718090",
+      "36569892",
+      "36424740",
+      "36405745",
+      "36209301",
+      "36186129",
+      "36166825",
+      "35688114",
+      "35387495",
+      "35380050",
+      "35303422",
+      "35140708",
+      "35104574",
+      "35038582",
+      "34823758",
+      "34198071",
+      "34175552",
+      "34026822",
+      "33964119",
+      "33597522",
+      "33234418",
+      "32917229",
+      "32807643",
+      "32653056",
+      "32326963",
+      "32289316",
+      "31487867",
+      "31291966",
+      "30760287",
+      "30108193",
+      "29549824",
+      "28842833",
+      "28698261",
+      "27335046",
+      "26424096",
+      "25867923",
+      "25605792",
+      "25036109",
+      "22936770",
+      "22453632",
+      "22334391",
+      "21546393",
+      "20837969",
+      "20663647",
+      "15616790"
+    ],
+    "similar": [
+      "41055763",
+      "41941036",
+      "42215496",
+      "40302336",
+      "42068898",
+      "39326825",
+      "42578421",
+      "42536203",
+      "40967029",
+      "40404711",
+      "41253024",
+      "41354822",
+      "37869777",
+      "39217343",
+      "41950963",
+      "41887382",
+      "42268517",
+      "42603208",
+      "39278970",
+      "41483833",
+      "33517129",
+      "41424856",
+      "42391245",
+      "39694424",
+      "41544680",
+      "40787447",
+      "38678526",
+      "40830888",
+      "39478160",
+      "41797090",
+      "41792398",
+      "40378509",
+      "37402504",
+      "38144707",
+      "42292364",
+      "40154895",
+      "41615539",
+      "40764361",
+      "39968698",
+      "37908731",
+      "38082331",
+      "40898058",
+      "42461351",
+      "40751033",
+      "39095897",
+      "40379866",
+      "33754046",
+      "39218784",
+      "42189433",
+      "41608584",
+      "40207230",
+      "38773968",
+      "42431282",
+      "40694022",
+      "41984278",
+      "38874704",
+      "35450066",
+      "39718294",
+      "33577892",
+      "40237440",
+      "40294852",
+      "40087252",
+      "40263985",
+      "42526345",
+      "40009287",
+      "41084040",
+      "41962467",
+      "39654367",
+      "37951917",
+      "41349710",
+      "40446580",
+      "41869301",
+      "31793209",
+      "41174779",
+      "41814467",
+      "30961627",
+      "42152813",
+      "39198723",
+      "40064361",
+      "41371159",
+      "33745949",
+      "40972264",
+      "35688114",
+      "41805714",
+      "41474773",
+      "40400029",
+      "39395647",
+      "37777791",
+      "40085348",
+      "34156153",
+      "28389473",
+      "41317760",
+      "39953063",
+      "42587733",
+      "32382778",
+      "39721455",
+      "39340990",
+      "37087770",
+      "42082621",
+      "33771213"
+    ],
+    "review": [
+      "41055763",
+      "42152813"
+    ],
+    "pmc": [
+      "12504400"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ischemicstroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ischemic Stroke"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41055763/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s10565-025-10085-9",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

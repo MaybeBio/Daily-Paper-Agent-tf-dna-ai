@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors propose that CTCF uses zinc fingers 9 to 11 and an upstream DNA consensus sequence resembling CAGCTGTTCC to mediate high affinity binding and enhancer-blocking insulator activity at a subset of CTCF sites, using the IL3 locus as a model. They report that mutation of a CTGCAGCTTT sequence upstream of the CTCF core motif abolishes insulator activity, and propose a context-dependent model for CTCF function.
+- **Visible evidence base** Abstract text only; no experimental details, figures, tables, or statistical analyses were supplied
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, statistical details, and any supplementary data; without these, experimental rigor, reproducibility, and quantitative support cannot be assessed
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis that a secondary upstream DNA motif within CTCF binding sites may determine insulator versus non-insulator function. However, the evidence base provided is insufficient to evaluate the validity of the central claims. Key mechanistic details, including how zinc fingers 9 to 11 were identified, the affinity measurements, the functional assays, and the specificity of the proposed consensus motif, are not described. The claim that this motif distinguishes insulator from non-insulator CTCF sites is plausible but currently unsupported by the supplied material.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, gene regulation, and epigenetics would be interested, particularly those studying CTCF function, insulator elements, and the mechanisms underlying enhancer-promoter communication. The work could also appeal to computational biologists interested in sequence determinants of chromatin factor function.
+- **Major strengths** The hypothesis addresses a long-standing paradox in the field, namely how CTCF can mediate both insulating and non-insulating functions. The focus on a specific upstream DNA motif as a potential determinant is a testable and conceptually clear idea. The use of the IL3 locus as a model system is appropriate given prior characterization of this insulator.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that CTCF utilises zinc fingers 9 to 11 and an upstream DNA consensus sequence resembling CAGCTGTTCC to mediate high affinity binding and enhancer-blocking insulator activity.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states this as a finding but provides no experimental detail. It is unclear how zinc fingers 9 to 11 were implicated, whether this was determined by mutagenesis, structural analysis, or computational prediction. The affinity measurements are not described, and the functional evidence for insulator activity is only mentioned in passing.
+  - **Why it matters** Without specific data showing which zinc fingers contact which DNA bases, and without quantitative binding data, the mechanistic claim cannot be evaluated. The central premise of the paper depends on this evidence.
+  - **Resolution test** Provide experimental data, such as zinc finger mutagenesis coupled with binding assays, and quantitative affinity measurements for the proposed consensus motif.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that mutation of a CTGCAGCTTT sequence upstream of the CTCF core motif abolishes insulator activity.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a single mutation experiment but does not describe the assay system, the extent of the mutation, the specificity controls, or the quantitative effect. It is unclear whether the effect is complete or partial, and whether other mutations in the same region were tested.
+  - **Why it matters** This is the key functional experiment supporting the model. Without details on the assay and controls, the result cannot be interpreted, and the possibility of off-target effects or non-specific disruption cannot be excluded.
+  - **Resolution test** Describe the insulator assay in detail, including the reporter construct, the cell type, the mutation strategy, and show quantitative data with appropriate controls, including a scrambled or neutral mutation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The authors propose that CTCF confers insulator and barrier activity upon a specific subset of CTCF sites that contain the upstream DNA consensus binding motif.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract presents this as a general model but only describes data from a single locus, IL3. No genome-wide analysis or examination of other insulator sites is mentioned.
+  - **Why it matters** A general model requires evidence that the motif is present at other functional insulator sites and absent or non-functional at non-insulator CTCF sites. Without such evidence, the model remains speculative.
+  - **Resolution test** Provide genome-wide analysis of the motif at CTCF sites correlated with insulator activity, or functional validation at multiple additional loci.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "CCTF" in the first sentence, which appears to be a typographical error for "CTCF". This could confuse readers.
+  - **Required correction** Correct the abbreviation to "CTCF" throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Sequence description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the upstream motif "resembles CAGCTGTTCC" but later describes the mutated sequence as "CTGCAGCTTT". The relationship between these two sequences is not explained, and it is unclear whether they are the same motif or different elements.
+  - **Required correction** Clarify whether these are the same or different sequences, and provide the exact coordinates and orientation relative to the CTCF core motif.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "mine published data" but does not specify which datasets were used or how they were analyzed.
+  - **Required correction** List the specific published datasets and briefly describe the analysis approach in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are all blocking. The mechanistic claim regarding zinc fingers, the functional claim regarding the mutation, and the generalizability claim all require additional evidence that is not present in the supplied material.
+- **Assessment against Nature-style criteria** Originality is moderate; the idea that a secondary motif determines CTCF function is not entirely novel but could be a useful contribution if rigorously supported. Scientific importance is potentially high given the central role of CTCF in genome organization, but this depends on the strength of the evidence. Interdisciplinary readership is plausible, as the work could appeal to molecular biologists, epigenetics researchers, and computational biologists. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is adequate, though the abstract assumes familiarity with insulator biology and CTCF structure.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and worth pursuing, but the abstract alone does not provide sufficient experimental detail to support the central claims. A full manuscript with detailed methods and quantitative data would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that CTCF utilises zinc fingers 9 to 11 for binding the upstream motif is unsupported without structural or mutagenesis data.
+- The claim that the upstream consensus sequence mediates high affinity binding is unsupported without quantitative binding measurements.
+- The claim that mutation of CTGCAGCTTT abolishes insulator activity is unsupported without assay details and controls.
+- The general model that this motif distinguishes insulator from non-insulator CTCF sites is unsupported without genome-wide or multi-locus evidence.
+- The relationship between the proposed consensus sequence and the mutated sequence is unclear and not explained.

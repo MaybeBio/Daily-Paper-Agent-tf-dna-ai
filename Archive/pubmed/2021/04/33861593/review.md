@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report 48 microseconds of unbiased molecular dynamics simulations using two force fields (Amber99SB*-ILDNP and CHARMM36m) and circular dichroism experiments to characterize the conformational landscapes of the intrinsically disordered Neh4 and Neh5 domains of Nrf2. They claim Neh5 is markedly more disordered than Neh4, that Neh4 contains a nine-residue central region with alpha-helical propensity, that the two force fields diverge strongly for the glutamic acid-rich Neh5 but agree for Neh4, and that CHARMM36m agrees more closely with CD data.
+- **Visible evidence base** Abstract text only; no simulation details, CD spectra, convergence metrics, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameters, CD experimental methods, error analyses, and any comparison with experimental or prior computational data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable first computational and experimental characterization of the conformational landscapes of two functionally important intrinsically disordered domains. The reported simulation length of 48 microseconds is substantial and the use of two force fields with experimental validation is methodologically sound in principle. However, the abstract alone provides insufficient detail to evaluate the robustness of the central claims. The key conclusions regarding differential disorder between Neh4 and Neh5, the specific helical propensity in Neh4, and the force field comparison rest on analyses that are not visible here. The claim that no previous data exist on these conformational landscapes is strong and would require careful literature verification. The work could be of interest to the intrinsically disordered protein and drug discovery communities, but the evidence base as presented is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, particularly those involved in transcriptional regulation and stress response pathways. Computational chemists and biophysicists interested in force field performance for disordered and glutamic acid-rich peptides would also find the force field comparison relevant. The potential therapeutic angle regarding disruption of the Nrf2-CBP interaction may attract medicinal chemists seeking structural information for drug design, though the disordered nature of the targets presents challenges that this work begins to address.
+- **Major strengths** The study addresses a genuine gap in structural knowledge for two functionally important domains with no prior conformational data. The combination of long unbiased MD simulations with experimental CD validation is a rigorous approach for intrinsically disordered systems. The explicit comparison of two widely used force fields, including the glutamic acid-rich peptide case, provides practically useful information for the simulation community.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that Neh5 is markedly more disordered than Neh4, with Neh4 having nine residues in the middle showing alpha-helical propensity  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states these findings without presenting any quantitative metrics such as secondary structure populations, radius of gyration distributions, or residue-specific helical propensity values. No convergence analysis is mentioned, and it is unclear how "markedly more disordered" is defined and measured.  
+  - **Why it matters** The central conclusion of differential disorder and binding mechanisms rests entirely on this comparison. Without visible quantitative support and evidence that the simulations have converged over the 48 microsecond timescale, the claim cannot be assessed for robustness.  
+  - **Resolution test** Provide secondary structure propensity plots, disorder metrics with error bars, and convergence checks (e.g., block averaging or split-half analysis) in the full manuscript.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that the two force fields show strong differences for Neh5 but are in reasonable agreement for Neh4, and that CHARMM36m agrees more closely with CD results  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract reports force field dependent differences and agreement with CD data but provides no quantitative comparison. No metrics such as root mean square deviation between simulated and experimental CD spectra, or statistical significance of force field differences, are given.  
+  - **Why it matters** The force field comparison is a key methodological contribution. Without quantitative measures of agreement and difference, the conclusion that CHARMM36m is more accurate for this system is not established.  
+  - **Resolution test** Present quantitative comparison metrics between simulated and experimental CD spectra for both force fields, with appropriate error analysis and statistical testing.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim verification  
+  - **Claim pointer** The claim that no previous data regarding the conformational landscapes of Neh4 and Neh5 exist  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** This is a strong novelty claim that requires a comprehensive literature search to support. The abstract provides no citation or discussion of prior computational or experimental studies on these domains.  
+  - **Why it matters** If prior data exist, the novelty framing of the work is weakened. The claim is central to the paper's positioning and must be verifiable.  
+  - **Resolution test** Provide a thorough literature review in the introduction and discussion sections demonstrating the absence of prior conformational data for these specific domains.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical completeness  
+  - **Claim pointer** The use of 48 microseconds of unbiased MD simulations and CD spectropolarimetry experiments  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify how the 48 microseconds are distributed across systems, replicas, and force fields. No details on temperature, salt conditions, or CD experimental parameters are given.  
+  - **Why it matters** Reproducibility and assessment of sampling adequacy require knowledge of the simulation setup and experimental conditions. The distribution of simulation time across conditions affects the statistical power of the comparisons.  
+  - **Resolution test** Provide full simulation and experimental protocols in the methods section, including system composition, equilibration, production run lengths per replica, and CD buffer conditions.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "48 mus" is ambiguous and likely a typographical error for "48 microseconds" or "48 µs".  
+  - **Required correction** Use the standard abbreviation "48 µs" or spell out "48 microseconds" for clarity.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Abstract background  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that disruption of the Nrf2-CBP interaction could negate effects of aberrant Nrf2 upregulation, but does not explain why the free-state structures of Neh4 and Neh5 are relevant to this therapeutic goal beyond general structure-based drug design.  
+  - **Required correction** Briefly clarify how knowledge of the free-state conformational landscape informs drug design for these disordered domains, for example by identifying transient binding-competent conformations.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract description of Neh4 helical propensity  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "nine residues in the middle of the domain showing alpha-helical propensity" is vague regarding the degree of propensity and whether this is a stable or transient feature.  
+  - **Required correction** Specify the population or fraction of helical conformations for these residues in the full text, and clarify whether this is a transient or persistent feature across the simulation.
+
+## Risk / unsupported claims
+- The claim that Neh5 is markedly more disordered than Neh4 is unsupported in the abstract due to lack of quantitative metrics.
+- The claim that the two force fields show strong differences for Neh5 but agree for Neh4 is unsupported without quantitative comparison data.
+- The claim that CHARMM36m agrees more closely with CD results is unsupported without quantitative agreement metrics.
+- The claim that no previous data exist on the conformational landscapes of Neh4 and Neh5 is unverifiable from the abstract alone.
+- The biological relevance of the free-state conformations to drug design is asserted but not explained in the abstract.

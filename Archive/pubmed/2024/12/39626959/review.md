@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a rationally designed, disulfide-stapled peptide (TAZ-hTrap) derived from the Tead helical hairpin that selectively captures the Taz alpha-helix, reduces entropy penalty upon binding, and exhibits potent cytotoxic activity against gynecological tumor cells, with selectivity over noncognate proteins sharing high sequence conservation
+- **Visible evidence base** Abstract text only; references to computational dynamics simulation, energetics characterization, circular dichroism, fluorescence polarization, and viability assay are mentioned but no data are shown
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, sequence alignments, and raw or processed data for computational and experimental results
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting peptide design strategy that combines structure-based derivation with disulfide stapling to address a known entropic challenge in protein-peptide interactions. The biological rationale for targeting the Tead-Taz interface in gynecological cancers is sound and timely. However, the abstract alone provides insufficient evidence to evaluate the validity of the computational predictions, the experimental confirmation, or the claimed selectivity and cytotoxicity. The central claims are plausible but not verifiable from the supplied material. The work may be of interest to the peptide design and Hippo signaling communities, but the case is not established at this stage.
+- **Who would be interested in the results, and why** Researchers in peptide and protein engineering, particularly those focused on stapled peptides and helical mimetics, would find the design approach relevant. Investigators studying the Hippo signaling pathway, especially in the context of gynecological cancers, would be interested in a potential tool or lead compound targeting the Tead-Taz interaction. Computational chemists and biophysicists interested in entropy-enthalpy compensation in binding would also find the conceptual framework appealing.
+- **Major strengths** The design rationale is clear and mechanistically grounded, specifically addressing the intrinsic disorder of the isolated hairpin and the associated entropy penalty. The use of a disulfide staple to pre-organize the peptide into a native-like conformation is a well-established strategy, and its application to a double-helical hairpin is a reasonable extension. The inclusion of selectivity testing against conserved noncognate proteins is a thoughtful addition that strengthens the potential utility of the peptide.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that TAZ-hTrap exhibits "potent cytotoxic effect on diverse human gynecological tumors at cellular level" and "good selectivity for its cognate Taz over other noncognate proteins"
+  - **Evidence pointer** Abstract text; no figures, tables, or quantitative data provided
+  - **Concern** The abstract states that viability assays observed a potent cytotoxic effect and that selectivity was demonstrated, but no numerical data, statistical measures, or experimental details are provided. The potency, the range of cell lines tested, the concentrations used, and the comparison to controls are all absent. Similarly, the selectivity claim is made without showing the degree of discrimination or the identity of the noncognate proteins tested.
+  - **Why it matters** Cytotoxicity and selectivity are the two most impactful claims for translational relevance. Without quantitative evidence, the reader cannot assess whether the effect is meaningful, specific, or reproducible. The claim of "potent" and "good selectivity" is subjective and unsupported in the abstract.
+  - **Resolution test** Provide dose-response curves with IC50 values for multiple gynecological cancer cell lines, appropriate non-cancerous controls, and selectivity data showing binding or activity ratios against at least two or three noncognate proteins with quantified affinities or functional readouts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "the entropy penalty was minimized by disulfide stapling to effectively improve its affinity toward the alpha-helix"
+  - **Evidence pointer** Abstract text; reference to dynamics simulation and energetics characterization, but no data shown
+  - **Concern** The computational finding that the unmodified hairpin is intrinsically disordered and that the disulfide-stapled variant maintains a structured, native-like conformation is central to the design logic. However, no simulation details, free energy values, or comparison of binding affinities between the stapled and unstapled peptides are provided. The claim that entropy penalty was minimized is an inference that requires thermodynamic or kinetic data.
+  - **Why it matters** The entire design rationale rests on the entropy penalty argument. If the computational evidence is weak or the affinity improvement is modest, the novelty and utility of the approach are diminished. The abstract does not allow the reader to judge the magnitude of the effect or the robustness of the simulation.
+  - **Resolution test** Show binding affinity data (e.g., Kd values) for the unmodified hairpin versus TAZ-hTrap, along with computational free energy decomposition or entropy estimates. Provide simulation parameters and validation of the force field and sampling methodology.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that circular dichroism and fluorescence polarization "substantiate" the computational findings at the molecular level
+  - **Evidence pointer** Abstract text; no spectra or binding curves shown
+  - **Concern** The abstract mentions circular dichroism and fluorescence polarization as confirmatory methods, but no data are presented. It is unclear whether the circular dichroism spectra show a clear transition from disordered to structured upon stapling, and whether the fluorescence polarization experiments directly measure binding affinity or only provide a qualitative indication.
+  - **Why it matters** Experimental validation is essential to support the computational predictions. Without the actual spectra and binding curves, the reader cannot verify that the stapled peptide is indeed structured in solution or that it binds with improved affinity. The term "substantiate" is too strong without visible data.
+  - **Resolution test** Provide circular dichroism spectra for the unmodified and stapled peptides with secondary structure content estimates, and fluorescence polarization binding curves with fitted Kd values and appropriate controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "TAZ-hTrap" is introduced without explaining the "hTrap" acronym. The abstract refers to a "helical hairpin trap" but the abbreviation is not defined.
+  - **Required correction** Define "hTrap" at first use, for example, "helical hairpin trap (hTrap)".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental scope
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that the peptide has "potent cytotoxic effect on diverse human gynecological tumors" but does not specify which tumor types or cell lines were used. The term "diverse" is vague.
+  - **Required correction** List the specific gynecological cancer cell lines tested, or at least the tumor subtypes (e.g., ovarian, cervical, endometrial).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Selectivity claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The selectivity claim mentions "noncognate proteins that share a high conservation with the Taz alpha-helix" but does not name these proteins. Without names, the reader cannot assess the relevance of the selectivity test.
+  - **Required correction** Identify the specific noncognate proteins tested, such as Yap or other Tead-binding partners, and state the degree of sequence identity or similarity.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative data for the three central claims: cytotoxicity, selectivity, and entropy-driven affinity improvement. Without these data, the case for a potent and selective peptide with a validated design mechanism is not established.
+- **Assessment against Nature-style criteria** Originality: The design concept of deriving a double-helical hairpin from Tead and stapling it to capture Taz is a reasonable extension of existing stapled peptide work, but the abstract does not clearly differentiate it from prior Tead-binding peptide inhibitors. Scientific importance: The Hippo pathway is a relevant cancer target, and a selective Taz trap could be a useful tool, but the abstract does not demonstrate a significant advance over existing approaches. Interdisciplinary readership: The work bridges computational design, biophysics, and cancer biology, which could appeal to a broad audience, but the abstract is too thin to engage specialists in any one field. Technical soundness: The computational and experimental methods are mentioned but not described in sufficient detail to assess rigor. Readability for nonspecialists: The abstract is generally clear but uses jargon without adequate context, and the lack of data makes it hard for a nonspecialist to gauge significance.
+- **Recommendation posture** Currently not established from the provided evidence. The design rationale is interesting and the topic is relevant, but the abstract alone does not provide sufficient quantitative support for the key claims. A revised version with full data presentation could change this assessment.
+
+## Risk / unsupported claims
+- The claim of "potent cytotoxic effect" is unsupported without dose-response data or statistical analysis.
+- The claim of "good selectivity" is unsupported without named noncognate proteins and quantitative binding or activity data.
+- The claim that "entropy penalty was minimized" is an inference from computational work that is not shown.
+- The claim that circular dichroism and fluorescence polarization "substantiate" the computational findings is unverifiable without spectra or binding curves.
+- The statement that the hairpin peptide is "intrinsically disordered" is presented as a finding but no simulation or experimental evidence is visible.

@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "41740271",
+    "doi": "10.1016/j.ejrad.2026.112745",
+    "title": "MRI-based deep learning and radiomics for preoperative prediction of P53abn endometrial cancer: A multicenter study."
+  },
+  "content": {
+    "abstract": "PURPOSE: To develop and validate a non-invasive magnetic resonance imaging (MRI)-based deep learning and radiomics approach for the preoperative differentiation of p53 abnormal (P53abn) endometrial cancer, facilitating refined risk stratification for personalized treatment planning. METHODS: In this retrospective multi-institutional analysis, we examined data from 920 patients with histologically confirmed endometrial cancer who underwent preoperative MRI. A two-stage deep learning architecture (V-Net followed by VB-Net) was developed to automate tumor delineation across three participating centers. Extracted radiomic features from these segmented regions were leveraged to build machine learning classifiers-support vector machines (SVM), random forests (RF), logistic regression (LR), and decision trees (DT)-aimed at distinguishing p53-abnormal tumors from other molecular subtypes. Model efficacy was assessed using the Dice similarity coefficient (DSC) for segmentation accuracy and the area under the receiver operating characteristic curve (AUC) for classification performance. RESULTS: The automated segmentation achieved Dice similarity coefficients (DSC) of 77.4%, 84.9%, and 80.1% on T2-weighted imaging (T2WI), diffusion-weighted imaging (DWI), and contrast-enhanced T1-weighted imaging (CE-T1WI) sequences, respectively. Among the four classification models developed, the RF classifier demonstrated the highest AUC values in both internal CV cohort (0.924) and external test cohort (0.863). No statistically significant differences were observed between automated and manual segmentation results across all models (P = 0.109-0.454). CONCLUSION: The integrated deep learning and radiomics pipeline developed in this study provides a promising non-invasive approach for preoperative risk stratification of endometrial cancer. The model has demonstrated high performance in identifying the P53abn subtype, offering a valuable tool to support personalized treatment planning.",
+    "keywords": [
+      "Deep learning",
+      "Endometrial neoplasms",
+      "Magnetic resonance imaging",
+      "Molecular classification",
+      "Radiomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Endometrial Neoplasms/diagnostic imaging/genetics/surgery/pathology",
+      "Radiomics",
+      "*Magnetic Resonance Imaging/methods",
+      "*Deep Learning",
+      "Retrospective Studies",
+      "*Tumor Suppressor Protein p53/genetics",
+      "Middle Aged",
+      "Predictive Learning Models",
+      "Aged",
+      "Classification Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Ke",
+        "Song, Xiaoli",
+        "Liu, Xiaoyi",
+        "Lin, Xuqing",
+        "Luo, Hongjian",
+        "Gou, Xinyi",
+        "Hong, Nan",
+        "Wang, Yi",
+        "Zhou, Rong",
+        "Cheng, Jin"
+      ],
+      "short_names": [
+        "Wang K",
+        "Song X",
+        "Liu X",
+        "Lin X",
+        "Luo H",
+        "Gou X",
+        "Hong N",
+        "Wang Y",
+        "Zhou R",
+        "Cheng J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, Peking University People's Hospital, Beijing, China.",
+        "Department of Radiology, Second Hospital of Shanxi Medical University, Taiyuan, Shanxi, China.",
+        "Department of Radiology, Peking University People's Hospital, Beijing, China.",
+        "Department of Radiology, Peking University People's Hospital, Beijing, China.",
+        "Department of Radiology, The Third Affiliated Hospital of Zunyi Medical University (The First People's Hospital of Zunyi), Zunyi, Guizhou, China.",
+        "Department of Radiology, Peking University People's Hospital, Beijing, China.",
+        "Department of Radiology, Peking University People's Hospital, Beijing, China.",
+        "Department of Radiology, Peking University People's Hospital, Beijing, China.",
+        "Department of Obstetrics and Gynecology, Peking University People's Hospital, Beijing China. Electronic address: zhourong@pkuph.edu.cn.",
+        "Department of Radiology, Peking University People's Hospital, Beijing, China. Electronic address: chengjinpkuph@outlook.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Ke",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Peking University People's Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Song, Xiaoli",
+        "short_name": "Song X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Second Hospital of Shanxi Medical University, Taiyuan, Shanxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoyi",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Peking University People's Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Xuqing",
+        "short_name": "Lin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Peking University People's Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Hongjian",
+        "short_name": "Luo H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Third Affiliated Hospital of Zunyi Medical University (The First People's Hospital of Zunyi), Zunyi, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Gou, Xinyi",
+        "short_name": "Gou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Peking University People's Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Nan",
+        "short_name": "Hong N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Peking University People's Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yi",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Peking University People's Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Rong",
+        "short_name": "Zhou R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Peking University People's Hospital, Beijing China. Electronic address: zhourong@pkuph.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Cheng, Jin",
+        "short_name": "Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Peking University People's Hospital, Beijing, China. Electronic address: chengjinpkuph@outlook.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of radiology"
+    ],
+    "journal_abbrev": [
+      "Eur J Radiol"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/26 15:23",
+    "fetched_at": "2026-10-01 14:55:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41740271",
+      "40758203",
+      "41327771",
+      "41361391",
+      "41063067",
+      "41668011",
+      "40536279",
+      "39276192",
+      "38471960",
+      "41545974",
+      "41437107",
+      "40862800",
+      "41604786",
+      "35819326",
+      "40908231",
+      "41233272",
+      "42159881",
+      "36925335",
+      "39171859",
+      "40467374",
+      "39759109",
+      "41132717",
+      "41083477",
+      "42116691",
+      "40273481",
+      "41116179",
+      "39496536",
+      "41439587",
+      "39789538",
+      "41219899",
+      "41188013",
+      "40924128",
+      "42178484",
+      "40866275",
+      "41188258",
+      "41163973",
+      "39417854",
+      "39643475",
+      "41826882",
+      "42404078",
+      "34233259",
+      "36259352",
+      "39747670",
+      "38538868",
+      "40986134",
+      "41913156",
+      "41122649",
+      "39733718",
+      "36282309",
+      "40866274",
+      "41325721",
+      "39912494",
+      "40167646",
+      "39668711",
+      "40897833",
+      "38508934",
+      "41367726",
+      "39103772",
+      "41996781",
+      "42109488",
+      "38153859",
+      "41843889",
+      "37855421",
+      "32417712",
+      "42406147",
+      "41780136",
+      "41931018",
+      "41120521",
+      "37897302",
+      "42223485",
+      "39289097",
+      "34861530",
+      "41367005",
+      "41264387",
+      "38272767",
+      "41087962",
+      "36656410",
+      "41088039",
+      "40360135",
+      "39482688",
+      "39210161",
+      "42153825",
+      "35992858",
+      "41661434",
+      "41092750",
+      "40223991",
+      "38690027",
+      "40831132",
+      "39838503",
+      "40824403",
+      "39659930",
+      "40624579",
+      "41518607",
+      "40165094",
+      "41956924",
+      "39732615",
+      "39090668",
+      "41327078",
+      "40214699",
+      "40976116"
+    ],
+    "review": [
+      "41740271"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0720-048X(26)00093-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/mriscans.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "MRI Scans"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0720-048X(26)00093-8",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability, contributions, acknowledgements)
+- **Assessment boundary** Scientific content, technical soundness, claims versus evidence, and suitability for a high-impact generalist journal. No assessment of formatting or editorial style.
+- **Shared manuscript claim summary** The authors report the first crystal structure of human MUTYH bound to a transition-state mimic (1N) opposite 8-oxoguanine (OG). They functionally profile 12 cancer-associated variants (CAVs) near the [4Fe-4S] cluster, finding that most lose the cofactor and activity, while R241Q and N238S retain the cofactor and DNA binding but are catalytically inactive. Structural, functional, and molecular dynamics (MD) data are used to propose an allosteric network connecting the [4Fe-4S] cluster to the catalytic Asp236, which is required for adenine excision.
+- **Visible evidence base** Crystal structures (human MUTYH-TSAC, PDB 8FAY; GsMutY R149Q, PDB 9BS2), biochemical activity assays (STO and MTO), EMSA binding data, ICP-MS metal analysis, CD spectroscopy, MD simulations (WT, R241Q, N238S in human and mouse), coevolutionary analysis, and bacterial complementation assays.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S16) are referenced but not provided. Full crystallographic refinement statistics are only in supplementary Table S16. MD simulation parameters and convergence criteria are not fully described in the main text. Raw data for activity, binding, and metal analysis are not shown in the main text. The manuscript is a preprint and has not undergone peer review.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a long-standing question in the DNA repair field: the functional role of the [4Fe-4S] cluster in MUTYH. The first human MUTYH structure with a transition-state mimic is a valuable contribution, and the identification of R241Q and N238S as cofactor-retaining but catalytically dead variants is striking and mechanistically informative. The proposed allosteric network is plausible and supported by multiple complementary approaches. However, the evidence for the allosteric mechanism is largely correlative and computational; direct experimental proof that the [4Fe-4S] cluster controls Asp236 positioning or protonation is lacking. The functional profiling of CAVs is thorough but the link to cancer etiology remains speculative. The manuscript is well written and will interest the DNA repair and cancer biology communities, but the central mechanistic claim needs stronger experimental support.
+- **Who would be interested in the results, and why** DNA repair enzymologists studying base excision repair (BER) and the MUTYH family; cancer geneticists and clinicians interested in MUTYH-associated polyposis (MAP) and the functional impact of cancer-associated variants; structural biologists studying iron-sulfur cluster proteins; and computational biologists studying allosteric networks in enzymes. The work provides a structural framework for interpreting MUTYH variants and proposes a new regulatory mechanism for BER.
+- **Major strengths** 1. First human MUTYH structure with a transition-state mimic, filling a gap since only bacterial and mouse structures were available. 2. Functional profiling of 12 CAVs near the [4Fe-4S] cluster, with clear separation of variants that lose the cofactor versus those that retain it but are inactive. 3. Identification of a conserved H-bond network connecting the cluster to the catalytic Asp236, supported by crystallography, mutagenesis, MD simulations, and coevolutionary analysis. 4. The R241Q and N238S variants are particularly informative, as they separate cofactor retention and DNA binding from catalysis. 5. The proposed allosteric model is testable and conceptually novel.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for allosteric mechanism
+  - **Claim pointer** The authors claim that the [4Fe-4S] cluster functions to position and activate the catalytic Asp236 via an allosteric network, and that this network regulates DNA repair.
+  - **Evidence pointer** Results sections "Crystal structure of human MUTYH", "Impact of R241Q variant", "Molecular dynamics simulations"; Figures 2, 5; Discussion
+  - **Concern** The central claim of allostery between the [4Fe-4S] cluster and the active site is supported by structural observation of an H-bond network, loss-of-function mutations, and MD simulations. However, no direct experimental evidence demonstrates that the cluster controls Asp236 positioning or protonation state. The MD simulations show altered dynamics and interaction energies, but these are computational predictions. The R241Q and N238S variants could exert their effects through local structural changes that are not captured by the current analysis, rather than through a defined allosteric pathway. The claim that the cluster "positions and activates" Asp236 is stronger than the evidence supports.
+  - **Why it matters** The allosteric network is the central mechanistic novelty of the paper. If the evidence is only correlative, the claim is overstated and the paper's impact is reduced. A reviewer must be confident that the proposed mechanism is experimentally validated, not just computationally inferred.
+  - **Resolution test** Provide direct experimental evidence, such as: (a) a structure of a variant that disrupts the network (e.g., R241Q or N238S) showing altered Asp236 conformation; (b) measurement of Asp236 pKa in WT vs. variant enzymes using NMR or other methods; (c) activity assays with a cluster-deficient but folded enzyme (e.g., apo-MUTYH) to show loss of catalysis without loss of DNA binding; (d) cross-linking or FRET experiments to show conformational coupling between the cluster and active site.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional significance of R241Q and N238S in cells
+  - **Claim pointer** The authors state that R241Q and N238S are "completely inactive" as glycosylases and that this inactivity is due to disruption of the allosteric network, not loss of cofactor or DNA binding.
+  - **Evidence pointer** Results section "Functional profiling of cancer-associated variants"; Figures 3, 4; Table 1
+  - **Concern** The in vitro assays show that R241Q and N238S are inactive under the conditions tested. However, the bacterial complementation assay (Figure 3C) shows that these variants retain some mutation suppression activity (f values 12- to 23-fold higher than WT but lower than empty vector). This suggests residual in vivo activity that is not explained by the in vitro data. The authors do not reconcile this discrepancy. Additionally, the claim that these variants are "completely inactive" is based on a single assay condition; it is possible that activity could be rescued under different conditions (e.g., higher enzyme concentration, different pH, or presence of accessory factors).
+  - **Why it matters** The distinction between "inactive" and "reduced activity" is important for understanding the pathogenic mechanism of these CAVs. If they retain partial activity in cells, the allosteric network model may need to be refined. The discrepancy between in vitro and in vivo data weakens the claim that the network is absolutely required for catalysis.
+  - **Resolution test** Perform detailed kinetic analysis of R241Q and N238S under a range of conditions (e.g., pH, salt, enzyme concentration) to determine if any activity can be detected. Quantify the in vivo mutation suppression more precisely (e.g., measure mutation spectra) to determine if the residual activity is biologically meaningful. If the variants are truly inactive, explain why the complementation assay shows partial suppression.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the allosteric network to other BER glycosylases
+  - **Claim pointer** The authors suggest that the allosteric network is conserved in other [4Fe-4S] cluster-containing HhH BER glycosylases, citing sequence and structural comparisons (Figure 2F, S9).
+  - **Evidence pointer** Results section "Crystal structure of human MUTYH"; Discussion; Figure 2F, S9
+  - **Concern** The conservation analysis is based on sequence alignment and structural superposition, but no functional data are provided for other glycosylases. The claim that this network is a general feature of HhH BER glycosylases is speculative. The authors mention EndoIII/NTHL1 and MIG, but do not show that mutations in the equivalent residues in those enzymes affect catalysis.
+  - **Why it matters** The broader significance of the work depends on whether the allosteric mechanism is a general feature of this enzyme family. Without functional validation in other systems, the claim remains a hypothesis.
+  - **Resolution test** Perform mutagenesis on the equivalent residues in a second glycosylase (e.g., EndoIII or MIG) and test activity. Alternatively, soften the claim to state that the network is conserved in structure but its functional role in other enzymes is unknown.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of variant classification
+  - **Affected element** Results section "Functional profiling of cancer-associated variants"
+  - **Evidence pointer** Figure 3, Table 1
+  - **Issue** The authors group variants into "loss of cofactor" and "retained cofactor but inactive" categories, but the criteria for these groupings are not explicitly defined. For example, what level of metal retention is considered "retained"? What threshold defines "inactive"?
+  - **Required correction** Provide explicit thresholds or statistical criteria for classifying variants into functional groups.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** MD simulation validation
+  - **Affected element** Methods section "Molecular dynamics simulations"
+  - **Evidence pointer** Methods, Figures 5, S13–S16
+  - **Issue** The MD simulations are described briefly. No information is provided on convergence, equilibration, or reproducibility across replicates. The force field parameters for the [4Fe-4S] cluster are cited but not validated for this system.
+  - **Required correction** Add details on simulation convergence (e.g., RMSD over time), replicate variability, and any validation of the cluster parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of redox regulation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, last two paragraphs
+  - **Issue** The authors propose that the redox state of the [4Fe-4S] cluster may regulate MUTYH activity, but this is presented as speculation without experimental support. The connection to oxidative stress and cancer is plausible but not tested.
+  - **Required correction** Clearly label this as a hypothesis and suggest specific experiments to test it.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability for complementation assays
+  - **Affected element** Results section "Functional profiling of cancer-associated variants"
+  - **Evidence pointer** Figure 3C, Table S11
+  - **Issue** The complementation assay data are summarized but raw values and statistical analysis are not shown in the main text.
+  - **Required correction** Provide raw data and statistical tests in the main text or supplementary material.
+- **Technical failings that need to be addressed before the case is established** 1. The discrepancy between in vitro inactivity and partial in vivo complementation for R241Q and N238S must be resolved (R1-M2). 2. Direct experimental evidence for the allosteric mechanism is missing; the current data are correlative and computational (R1-M1). 3. The MD simulation methods need more detail to assess reliability (R1-m2).
+- **Assessment against Nature-style criteria** **Originality:** High. The first human MUTYH structure and the identification of a potential allosteric network are novel. **Scientific importance:** High for the DNA repair field, with implications for understanding MUTYH-associated cancer. **Interdisciplinary readership:** Moderate. The work will appeal to structural biologists, biochemists, and cancer geneticists, but the mechanistic detail may limit broader appeal. **Technical soundness:** Generally sound, but the central allosteric claim is not fully experimentally validated. The crystallography and biochemical assays appear well executed, but the MD simulations are not described in sufficient detail. **Readability for nonspecialists:** The abstract and introduction are accessible, but the results and discussion assume significant background in DNA repair enzymology. The paper would benefit from a clearer explanation of the allosteric model for a general audience.
+- **Recommendation posture** Supportive if the technical concerns are resolved. The manuscript presents a valuable structural and functional resource, but the central mechanistic claim of allostery needs stronger experimental support. The discrepancy between in vitro and in vivo data must be addressed. If these issues are resolved, the paper would be suitable for a high-impact journal.
+
+## Risk / unsupported claims
+- The claim that the [4Fe-4S] cluster "positions and activates" Asp236 is not directly supported by experimental evidence; it is inferred from structural observation and MD simulations.
+- The claim that the allosteric network is conserved across other HhH BER glycosylases is based on sequence/structure comparison only, with no functional validation in other enzymes.
+- The proposal that redox state of the cluster regulates MUTYH activity is speculative and not tested.
+- The statement that R241Q and N238S are "completely inactive" is contradicted by the partial complementation observed in the bacterial assay.
+- The functional significance of the V246F and R309C variants in cancer etiology is not established; the authors suggest reduced activity under oxidative stress but provide no direct evidence.

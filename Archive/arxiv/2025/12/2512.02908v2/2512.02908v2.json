@@ -1,0 +1,35 @@
+{
+  "source": "arxiv",
+  "source_id": "2512.02908v2",
+  "title": "Imperfect molecular detection can renormalize apparent kinetic rates in stochastic gene regulatory networks",
+  "doi": "",
+  "abstract": "Imperfect molecular detection in single-cell experiments introduces technical noise that obscures the true stochastic dynamics of gene regulatory networks. While binomial models of molecular capture provide a principled description of imperfect detection, they have so far been analyzed only for simple gene-expression models that do not explicitly account for regulation. Here, we extend binomial models of capture to general gene regulatory networks to understand how imperfect capture reshapes the observed time-dependent statistics of molecular counts. Our results reveal when capture effects correspond to a renormalization of a subset of the kinetic rates and when they cannot be absorbed into effective rates, providing a systematic basis for interpreting noisy single-cell measurements. In particular, we show that rate renormalization depends on the level of regulatory detail in the model. For implicit regulatory models based on promoter state transitions, it arises whenever gene product synthesis does not trigger a promoter state change, as in the absence of promoter-proximal pausing or when pausing is short-lived. For models with explicit transcription factor binding, the same condition holds, together with sufficiently high transcription factor abundance, which in practice requires only a few tens of molecules per cell. In these cases, technical noise reduces the apparent mean burst size of synthesized gene products and accelerates the apparent rates of transcription factor binding reactions. This acceleration becomes stronger as the number of protein species and/or molecules involved in promoter switching increases. These effects hold for gene regulatory networks of arbitrary connectivity and remain valid under time-dependent kinetic rates.",
+  "authors": [
+    "Iryna Zabaikina",
+    "Ramon Grima"
+  ],
+  "published_date": "2025-12-02T16:25:05Z",
+  "updated_date": "2026-06-18T12:16:17Z",
+  "journal": "",
+  "category": "q-bio.MN, q-bio.QM, q-bio.SC",
+  "landing_url": "https://arxiv.org/abs/2512.02908v2",
+  "pdf_url": "https://arxiv.org/pdf/2512.02908v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "2",
+  "keywords": [
+    "q-bio.MN",
+    "q-bio.QM",
+    "q-bio.SC"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2512.02908v2",
+    "raw_categories": [
+      "q-bio.MN",
+      "q-bio.QM",
+      "q-bio.SC"
+    ],
+    "journal_ref": ""
+  }
+}

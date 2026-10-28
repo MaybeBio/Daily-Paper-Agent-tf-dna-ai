@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors characterise two TetR/AcrR family transcription factors (TetR-206 and TetR-279) encoded within the actinomycin D biosynthetic gene cluster of the Antarctic soil isolate *Streptomyces fildesensis* So13.3. They report differential expression of TetR-279 under specific nutritional conditions, structural models of both proteins, and molecular dynamics simulations of TetR-279 and three point mutants (S166P, V167A, V167I) designed based on CRISPy-web predictions. The authors propose that targeted disruption of TetR-279 could derepress actinomycin D biosynthesis and potentially activate silent biosynthetic gene clusters.
+- **Visible evidence base** Abstract; Introduction; Results sections 2.1–2.3; Discussion; Conclusions; Materials and Methods sections 4.1–4.5; references to Figures 1–3, Table 1, Table 2, and Figure S1 (figures and tables not provided in the supplied material)
+- **Missing materials affecting confidence** Figures 1–3, Table 1, Table 2, and Figure S1 are referenced but not provided. Raw qPCR data, statistical analysis outputs, MD simulation trajectories, and clustering analysis details are not available. The CRISPy-web output and sgRNA design validation data are not shown.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant topic in antimicrobial resistance and cryptic biosynthetic gene cluster activation, using an integrative in silico and experimental approach. The work is potentially of interest to the natural product and synthetic biology communities. However, the evidence presented does not fully establish the central claims. The expression analysis is limited to a single gene under three conditions without functional validation. The structural and dynamic analyses are descriptive, and the link between the studied mutations and the proposed CRISPR-based strategy remains speculative. The manuscript would benefit from clearer presentation of data and a more rigorous connection between computational predictions and biological function.
+- **Who would be interested in the results, and why** Researchers in natural product discovery, Streptomyces biology, regulatory mechanisms of secondary metabolism, and CRISPR-based genome engineering in actinobacteria. The Antarctic strain context may also appeal to those studying extremophile microbial ecology and bioprospecting.
+- **Major strengths** The study addresses an underexplored regulatory aspect of actinomycin D biosynthesis. The combination of expression analysis, structural modelling, and MD simulations is integrative. The focus on an Antarctic strain adds novelty. The authors are transparent about the limitations of their in silico approach and position their work as a foundation for future experimental validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that TetR-279 is a "key regulator" of actinomycin D biosynthesis based on differential expression in ISP4 and IMA media.
+  - **Evidence pointer** Section 2.2, Figure 2, Table 1
+  - **Concern** The expression analysis is limited to transcriptional profiling of a single gene under three culture conditions. No functional data (e.g., gene deletion, overexpression, or reporter assays) are provided to demonstrate that TetR-279 actually regulates actinomycin D production. The claim of "key regulator" status is therefore not supported by the evidence presented.
+  - **Why it matters** The central hypothesis of the manuscript, that TetR-279 manipulation can influence actinomycin D production, rests on this regulatory role. Without functional validation, the relevance of the structural and mutational analyses is unclear.
+  - **Resolution test** Provide direct evidence of TetR-279 function, such as gene knockout or knockdown experiments showing altered actinomycin D production, or complementation assays. Alternatively, revise the claim to reflect that TetR-279 is a candidate regulator requiring functional validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the S166P mutation "considerably affected" TetR-279 flexibility based on MD simulations, and that V167A and V167I had "modest effects."
+  - **Evidence pointer** Section 2.3, Figure 3
+  - **Concern** The MD simulation methodology has several issues. The simulation temperature of 288.15 K is stated to resemble the native environment, but no justification is provided for this choice. The equilibration protocol uses the Berendsen thermostat and barostat, which are known to produce incorrect ensembles; modern practice recommends V-rescale and Parrinello–Rahman from the outset. The clustering analysis with a 0.30 nm cutoff is described but no details on the number of clusters, population sizes, or convergence criteria are given. The RMSF and SASA analyses are presented qualitatively without statistical comparison between the native and mutant systems. The claim that S166P "considerably affected" flexibility is not quantified.
+  - **Why it matters** The structural conclusions are the basis for proposing specific mutations for CRISPR-based editing. If the simulation methodology is flawed or the analysis is not rigorous, the proposed mutations may not have the predicted effects, undermining the practical utility of the study.
+  - **Resolution test** Provide detailed MD simulation parameters, convergence checks, and replicate simulations. Quantify differences in RMSF and SASA between systems with appropriate error estimates. Justify the choice of simulation temperature and use recommended ensemble algorithms.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The authors propose that "targeted disruption of TetR-279 may derepress actinomycin biosynthesis, enabling access to silent or cryptic secondary metabolites."
+  - **Evidence pointer** Abstract, Section 3, Section 5
+  - **Concern** This claim assumes that TetR-279 acts as a repressor of the actinomycin D cluster. However, the expression data show upregulation of TetR-279 in ISP4 and IMA media, which the authors interpret as activation. If TetR-279 is an activator, its disruption would be expected to reduce, not increase, actinomycin D production. The manuscript does not reconcile this apparent contradiction. The proposed strategy of disrupting a putative activator to derepress a pathway is logically inconsistent with the presented data.
+  - **Why it matters** The proposed CRISPR-based strategy is the main translational outcome of the study. If the regulatory logic is flawed, the strategy is unlikely to work as described.
+  - **Resolution test** Clarify the predicted regulatory role of TetR-279 (activator vs. repressor) based on the expression data and literature. Provide a mechanistic model consistent with the data. If TetR-279 is an activator, revise the proposed strategy accordingly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors used CRISPy-web to design sgRNAs and selected "AGAGCACGGAGATGACACGA" with PAM site "CGG" as the most appropriate.
+  - **Evidence pointer** Section 4.4
+  - **Concern** The criteria for selecting this sgRNA as "most appropriate" are not described. No off-target analysis, specificity scoring, or comparison with the other four designed sgRNAs is provided. The PAM site "CGG" is unusual for SpCas9, which typically recognises NGG; the authors do not specify which Cas9 variant is used.
+  - **Why it matters** The sgRNA design is a critical component of the proposed CRISPR strategy. Without evidence of specificity and efficacy, the strategy cannot be evaluated or reproduced.
+  - **Resolution test** Provide the full list of five sgRNAs with their scores, off-target predictions, and the rationale for selection. Specify the Cas9 variant and PAM requirements.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Figure 1
+  - **Issue** The description of DNA-binding residue predictions from DP-Bind is unclear. The authors state that residues cluster near positions 27–34, 58–63, and 69–80, but do not explain the significance of these clusters or how they relate to the structural model.
+  - **Required correction** Clarify the functional relevance of the predicted DNA-binding residues and how they support the proposed regulatory role.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Table 1
+  - **Issue** The statistical analysis for the qPCR data is described only as "one-way ANOVA" without reporting F-statistics, degrees of freedom, effect sizes, or post-hoc test results. The number of biological replicates (three) and technical replicates (two) is stated, but the variance structure is not described.
+  - **Required correction** Provide full statistical details, including test statistics, p-values for all pairwise comparisons, and confidence intervals.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Section 4.5
+  - **Evidence pointer** Location not provided
+  - **Issue** The force field used for MD simulations is not specified. The water model is stated as TIP3P, but the protein force field (e.g., AMBER, CHARMM, GROMOS) is not mentioned.
+  - **Required correction** Specify the force field and any relevant parameter settings.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature support
+  - **Affected element** Section 3
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion of TetR-family regulators in actinobacteria cites a review but does not critically compare the findings of this study with specific examples of TetR regulators in other actinomycin-like clusters beyond ActO.
+  - **Required correction** Expand the discussion to include more specific comparisons with characterised TetR regulators in related biosynthetic gene clusters.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Location not provided
+  - **Issue** The term "tetraciclyn repressor-like" (Section 2.1) appears to be a typographical error for "tetracycline repressor-like."
+  - **Required correction** Correct the typographical error.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of functional validation of TetR-279 regulatory role), R1-M2 (incomplete MD simulation methodology and analysis), R1-M3 (logical inconsistency in the proposed CRISPR strategy), R1-M4 (insufficient sgRNA design details)
+- **Assessment against Nature-style criteria** Originality: Moderate. The application to an Antarctic strain is novel, but the general approach of characterising TetR regulators and proposing CRISPR-based manipulation is not new. Scientific importance: Moderate. The work addresses a relevant problem (cryptic BGC activation) but does not provide a breakthrough or broadly applicable finding. Interdisciplinary readership: Limited. The manuscript is primarily of interest to specialists in Streptomyces biology and natural product discovery. Technical soundness: Weak. The MD simulation methodology has notable gaps, and the expression analysis lacks functional validation. Readability for nonspecialists: Acceptable. The manuscript is generally well-written, but some sections assume specialist knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a plausible framework but lacks the functional and methodological rigor required to support the central claims. Major revisions addressing the concerns above are necessary before the case can be made.
+
+## Risk / unsupported claims
+- The claim that TetR-279 is a "key regulator" of actinomycin D biosynthesis is unsupported by functional evidence.
+- The claim that S166P "considerably affected" flexibility is not quantified and is based on incomplete MD methodology.
+- The proposed strategy that disruption of TetR-279 would derepress actinomycin D biosynthesis is logically inconsistent with the presented expression data.
+- The sgRNA "AGAGCACGGAGATGACACGA" is claimed to be "most appropriate" without supporting specificity or efficacy data.
+- The statement that "targeted disruption of TetR-279 may... enable access to silent or cryptic secondary metabolites" is speculative and not supported by any experimental evidence.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.01.03.522623",
+  "title": "PIsToN: Evaluating Protein Binding Interfaces with Transformer Networks",
+  "authors": "Vitalii Stebliankin; Azam Shirali; Prabin Baral; Prem Chapagain; Giri Narasimhan",
+  "journal": "bioRxiv",
+  "published_date": "2023-01-04",
+  "window": {
+    "start": "2023-01-02",
+    "end": "2023-01-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用Transformer网络对蛋白质结合界面进行打分与区分天然复合物，虽非TF-DNA体系，但蛋白-蛋白界面建模方法可迁移至TF-DNA互作研究。",
+  "abstract": "The computational studies of protein binding are widely used to investigate fundamental biological processes and facilitate the development of modern drugs, vaccines, and therapeutics. Scoring functions aim to predict complexes that would be formed by the binding of two biomolecules and to assess and rank the strength of the binding at the interface. Despite past efforts, the accurate prediction and scoring of protein binding interfaces remain a challenge. The physics-based methods are computationally intensive and often have to trade accuracy for computational cost. The possible limitations of current machine learning (ML) methods are ineffective data representation, network architectures, and limited training data. Here, we propose a novel approach called PIsToN (evaluating P rotein binding I nterface s with T ransf o rmer N etworks) that aim to distinguish native-like protein complexes from decoys. Each protein interface is transformed into a collection of 2D images (interface maps), where each image corresponds to a geometric or biochemical property in which pixel intensity represents the feature values. Such a data representation provides atomic-level resolution of relevant protein characteristics. To build hybrid machine learning models, additional empirical-based energy terms are computed and provided as inputs to the neural network. The model is trained on thousands of native and computationally-predicted protein complexes that contain challenging examples. The multi-attention transformer network is also endowed with explainability by highlighting the specific features and binding sites that were the most important for the classification decision. The developed PIsToN model significantly outperforms existing state-of-the-art scoring functions on well-known datasets.",
+  "abstract_zh": "蛋白质结合的计算研究被广泛用于探究基本生物学过程，并促进现代药物、疫苗和治疗方法的开发。评分函数旨在预测两种生物分子结合所形成的复合物，并评估和排序界面处结合的强度。尽管过去已做出努力，但蛋白质结合界面的准确预测和评分仍是一个挑战。基于物理的方法计算密集，往往不得不在准确性和计算成本之间权衡。当前机器学习（ML）方法的潜在局限性包括数据表示无效、网络架构不足以及训练数据有限。在此，我们提出一种名为PIsToN（使用Transformer网络评估蛋白质结合界面）的新方法，旨在区分天然样蛋白质复合物与诱饵。每个蛋白质界面被转换为一系列2D图像（界面图），其中每张图像对应一种几何或生化特性，像素强度表示特征值。这种数据表示提供了相关蛋白质特性的原子级分辨率。为构建混合机器学习模型，额外计算基于经验的能量项，并将其作为神经网络的输入。该模型在数千个包含挑战性示例的天然和计算预测蛋白质复合物上进行训练。多注意力Transformer网络还通过突出对分类决策最重要的特定特征和结合位点，具备可解释性。所开发的PIsToN模型在知名数据集上显著优于现有最先进的评分函数。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.01.03.522623",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.01.03.522623",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.01.03.522623/index.html"
+}

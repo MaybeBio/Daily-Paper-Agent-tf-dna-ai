@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that stilbenoids isolated from *Vitis amurensis* bind to the DNA-binding domain 2 (DBD2) of human GATA-3, inhibit GATA-3-dependent transcription in reporter gene assays, and that one compound (KUP149) exhibits two binding modes on DBD2 that disrupt GATA-3-DNA interactions. The authors propose these compounds as potential inhibitors of allergic immune responses.
+- **Visible evidence base** Abstract text only; no experimental details, spectra, assay protocols, statistical analyses, or structural data are provided
+- **Missing materials affecting confidence** Full manuscript, NMR spectra and assignments, compound isolation and purity data, reporter gene assay details, docking methodology and validation, dose-response curves, statistical treatment, and any negative controls
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that natural stilbenoids may modulate GATA-3 activity through direct binding to its DNA-binding domain. However, the evidence as presented is insufficient to establish the core claims. The abstract lacks quantitative data, experimental controls, and methodological detail. The claim of two distinct binding modes for KUP149 is intriguing but cannot be evaluated without structural or spectroscopic evidence. The translational relevance to allergic responses is speculative at this stage.
+- **Who would be interested in the results, and why** Researchers in natural product discovery, transcription factor biology, and allergic disease pharmacology would be interested. The potential for stilbene-based compounds to modulate GATA-3 activity could appeal to those seeking new scaffolds for allergic inflammation therapy. The NMR-based binding characterization may interest structural biologists working on transcription factor-drug interactions.
+- **Major strengths** The study addresses a clinically relevant target (GATA-3 in Th2-mediated allergy) and uses a combination of biophysical (NMR) and functional (reporter gene) approaches. The identification of a natural product source (*V. amurensis*) with specific binding to a transcription factor DNA-binding domain is a reasonable starting point for drug discovery.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "Stilbenoids from *V. amurensis* showed specific binding to the DNA-binding domain of GATA-3, as detected by 2D NMR"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not provide any NMR data, such as chemical shift perturbation magnitudes, binding constants, or spectra showing specific versus nonspecific interactions. "Specific binding" is asserted without supporting quantitative or qualitative evidence.  
+  - **Why it matters** Without demonstration of specific, saturable binding with appropriate controls (e.g., a negative control compound or a mutant DBD2), the claim of specific binding cannot be distinguished from weak or nonspecific interactions common in NMR screening.  
+  - **Resolution test** Provide chemical shift perturbation data with concentration dependence, binding affinity (Kd) if measurable, and control experiments showing no binding to an unrelated protein or a mutated GATA-3 DBD2.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Functional evidence  
+  - **Claim pointer** "Reporter gene assays revealed dose-dependent transcriptional inhibition by these compounds"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract reports dose-dependent inhibition but provides no IC50 values, no concentration range tested, no cytotoxicity data, and no information on whether inhibition was specific to GATA-3 or a general transcriptional effect.  
+  - **Why it matters** Dose-dependent inhibition in a reporter assay could arise from general cellular toxicity, off-target effects on the reporter machinery, or compound aggregation. Without specificity controls and potency data, the functional claim is not established.  
+  - **Resolution test** Report IC50 values with confidence intervals, include a control reporter not driven by GATA-3, and show cell viability data at the concentrations used.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Structural interpretation  
+  - **Claim pointer** "KUP149 exhibited two binding modes on DBD2 based on NMR data, both of which can disrupt GATA-3-DNA interactions"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The claim of two binding modes is presented without any structural detail, such as the location of the binding sites, the residues involved, or how the two modes were distinguished. The assertion that both modes disrupt GATA-3-DNA interactions is not supported by any direct binding or functional data in the abstract.  
+  - **Why it matters** The mechanistic conclusion that two distinct binding modes both lead to functional disruption is a strong claim that requires structural evidence (e.g., docking poses, mutagenesis validation, or NMR-derived distance restraints) and a direct demonstration that DNA binding is competitively inhibited.  
+  - **Resolution test** Provide structural models or NMR-derived constraints for both binding modes, validate with mutagenesis of key residues, and show that KUP149 disrupts GATA-3-DNA complex formation in a direct binding assay (e.g., electrophoretic mobility shift assay or fluorescence anisotropy).  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Translational relevance  
+  - **Claim pointer** "These findings suggest stilbene-based natural products as potential inhibitors of allergic immune responses via GATA-3 modulation"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not include any cellular or in vivo data on Th2 differentiation, cytokine production, or allergic responses. The leap from biochemical inhibition to therapeutic potential is unsupported.  
+  - **Why it matters** GATA-3 inhibition in a reporter assay does not predict efficacy in a complex cellular context where GATA-3 regulates multiple genes and interacts with other transcription factors. The claim of therapeutic potential is premature.  
+  - **Resolution test** Include data on Th2 cytokine production (e.g., IL-4, IL-5, IL-13) in a relevant cell model, or temper the conclusion to state that these compounds warrant further investigation in cellular models of Th2 responses.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Compound nomenclature  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The compound KUP149 is introduced without structural context or a clear designation of its chemical class beyond "stilbenoid."  
+  - **Required correction** Provide the chemical structure or a clear structural class designation for KUP149 in the abstract or refer to a structure in the main text.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Methodological transparency  
+  - **Affected element** NMR backbone assignment  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that backbone assignment was performed but does not indicate the completeness of the assignment or the resonance frequency used.  
+  - **Required correction** State the percentage of backbone assignment completeness and the NMR field strength in the abstract or main text.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Statistical reporting  
+  - **Affected element** Dose-response data  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No statistical parameters (e.g., number of replicates, error bars, significance tests) are mentioned for the reporter gene assays.  
+  - **Required correction** Include a statement on replicates and statistical analysis in the abstract or refer to the methods section for these details.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (specific binding not demonstrated), R1-M2 (functional specificity and potency not established), R1-M3 (structural basis for two binding modes and DNA disruption not supported)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of targeting GATA-3 with natural stilbenoids is moderately original, but the abstract does not demonstrate a novel mechanism or a unique compound class beyond what is already known for stilbene bioactivity.  
+  - **Scientific importance** GATA-3 is a validated target in allergic disease, and small-molecule modulators are of interest. However, the importance of this specific finding is not yet established given the lack of functional and structural evidence.  
+  - **Interdisciplinary readership** The work bridges natural product chemistry, structural biology, and immunology, which could appeal to a broad audience if the evidence were more complete.  
+  - **Technical soundness** The combination of NMR and reporter assays is appropriate, but the abstract does not provide enough detail to assess the rigor of the experiments.  
+  - **Readability for nonspecialists** The abstract is generally readable, but terms like "DBD2" and "two-dimensional NMR" may be opaque to nonspecialists without brief contextual explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis but lacks the quantitative and control data needed to support the central claims. If the full manuscript provides the missing evidence (binding constants, specificity controls, structural details, and functional validation), the work could become a solid contribution to natural product-based transcription factor modulation. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- "Specific binding" of stilbenoids to GATA-3 DBD2 is unsupported without NMR perturbation data and controls.
+- "Dose-dependent transcriptional inhibition" is unsupported without IC50 values, specificity controls, and cytotoxicity data.
+- "Two binding modes" for KUP149 is unsupported without structural or spectroscopic evidence.
+- "Both modes can disrupt GATA-3-DNA interactions" is unsupported without direct DNA-binding competition data.
+- "Potential inhibitors of allergic immune responses" is speculative and not supported by any cellular or in vivo data in the abstract.

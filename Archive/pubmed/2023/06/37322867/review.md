@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and conclusions as presented in the provided manuscript. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors characterize JAZ–JAZ and JAZ–NINJA interactions in jasmonate signaling using biochemical, mutational, biophysical, and computational approaches. They identify distinct surfaces of the JAZ ZIM domain mediating homodimerization versus NINJA binding, demonstrate that NINJA stabilizes JAZ dimerization for clade V proteins, and provide structural models of these complexes. They propose a stepwise assembly model for the MYC–JAZ–NINJA–TPL repressor complex.
+- **Visible evidence base** AlphaScreen binding and competition assays, Y2H assays, pull-down assays, in planta root growth inhibition assays, HDX-MS, negative-stain EM, and ColabFold structural predictions. Figures 1–7 and Supplemental Figures S1–S18 are referenced.
+- **Missing materials affecting confidence** Full experimental details for several assays are relegated to supplemental information not provided. Raw data, statistical analysis details, and validation metrics for ColabFold models (e.g., PAE plots) are not fully described in the main text. The negative-stain EM map is deposited but not independently assessed here.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant gap in understanding the structural architecture of the jasmonate repressor complex. The combination of experimental and computational approaches is appropriate and the key finding—that JAZ–JAZ and JAZ–NINJA interactions use distinct ZIM surfaces—is well supported by multiple lines of evidence. The study is technically sound in its core claims, though several aspects require clarification and additional validation before the broader conclusions can be fully accepted.
+- **Who would be interested in the results, and why** Plant biologists studying jasmonate signaling, particularly those focused on transcriptional regulation and repressor complex assembly. Structural biologists interested in intrinsically disordered proteins and their complexes. Researchers studying plant hormone signaling cross-talk, as the JAZ–NINJA–TPL module shares features with auxin and gibberellin pathways.
+- **Major strengths** 1) The study fills a clear knowledge gap by providing structural models for previously intractable JAZ–JAZ and JAZ–NINJA complexes. 2) The combination of multiple orthogonal methods (Y2H, pull-down, HDX-MS, EM, computational modeling) strengthens the conclusions. 3) The identification of distinct ZIM surfaces for dimerization versus NINJA binding is a novel and important finding. 4) The in planta validation using JAZ10.4 mutants provides physiological relevance. 5) The stepwise stabilization model is conceptually elegant and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "NINJA modulates JAZ dimerization" and that NINJA binding stabilizes JAZ3 dimerization based on Y2H assays.
+  - **Evidence pointer** Figure 4, Results section "NINJA modulates JAZ dimerization"
+  - **Concern** The Y2H assay used to demonstrate NINJA-mediated enhancement of JAZ dimerization is indirect. The increase in β-galactosidase signal could reflect enhanced transcription of the reporter due to NINJA's co-activator function rather than true stabilization of JAZ–JAZ interactions. The authors do not provide a direct biophysical measurement (e.g., ITC, AUC, or SEC-MALS) of JAZ dimerization affinity in the presence versus absence of NINJA.
+  - **Why it matters** The claim that NINJA stabilizes JAZ dimerization is central to the proposed stepwise assembly model. If this is an artifact of the Y2H system, the model's foundation is weakened.
+  - **Resolution test** Provide direct biophysical evidence (e.g., SEC-MALS or AUC) showing increased JAZ3 dimer molecular weight or stability in the presence of NINJA. Alternatively, use a Y2H system with a different reporter or a mammalian two-hybrid system to rule out co-activator effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the smallest NINJA fragment that is sufficient for JAZ2 ZIM binding... spans G342–S406" and define this as the ZBD.
+  - **Evidence pointer** Figure 1B, Results section "The NINJA ZBD consists of a conserved structured core and a NINJA-specific N-terminal loop"
+  - **Concern** The AlphaScreen binding data in Figure 1B are presented as a bar graph without showing the full binding curves or indicating whether saturation was achieved. The IC50 values in Figure 1C are derived from competition assays, but the direct binding affinity (Kd) of the minimal ZBD for the JAZ ZIM domain is not reported. Without knowing the affinity, it is difficult to assess whether the identified ZBD is the physiologically relevant interaction module.
+  - **Why it matters** The precise definition of the ZBD is critical for interpreting the structural models and for understanding how NINJA recognizes JAZ proteins. If the minimal ZBD has weak affinity, additional regions of NINJA may contribute to binding in the full-length protein.
+  - **Resolution test** Provide direct binding affinity measurements (e.g., ITC or MST) for the minimal ZBD and full-length NINJA binding to JAZ ZIM domains. Show full binding isotherms for the AlphaScreen assays.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose that "NINJA binding may boost the dimerization strength of clade V proteins under physiological conditions" and that this has implications for understanding JAZ3 splice variants lacking the Jas motif.
+  - **Evidence pointer** Discussion section, Figure 4
+  - **Concern** The physiological relevance of the NINJA-mediated dimerization enhancement is not directly tested. The authors do not examine whether mutations that disrupt NINJA-mediated dimerization enhancement (without affecting NINJA binding per se) alter jasmonate responses in plants. The link to JAZ3 splice variants is speculative and not experimentally addressed.
+  - **Why it matters** The broader significance of the findings depends on whether NINJA-mediated dimerization modulation occurs in vivo and affects jasmonate signaling output. Without this validation, the physiological importance remains uncertain.
+  - **Resolution test** Generate JAZ3 or JAZ10 mutants that specifically disrupt NINJA-mediated dimerization enhancement while preserving NINJA binding, and test their effects on jasmonate-responsive phenotypes in transgenic plants.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the negative-stain EM density provides clear structure constraints for the AlphaFold model low-confidence regions in the context of the ternary complex."
+  - **Evidence pointer** Figure 7, Results section "Negative-stain electron microscopy analysis of an MYC–JAZ–NINJA complex"
+  - **Concern** The negative-stain EM analysis is based on only 3,991 particles out of 29,618 initially picked, and the resolution is stated as ~15 Å. At this resolution, it is unclear how "clear structure constraints" can be derived, particularly for disordered regions. The authors do not provide a quantitative measure of how well the AlphaFold models fit the EM density (e.g., cross-correlation coefficients) or how the EM data were used to constrain the models.
+  - **Why it matters** The claim that EM provides constraints on the models is important for validating the computational predictions. Without quantitative fitting metrics, this claim is not well supported.
+  - **Resolution test** Provide quantitative fitting statistics (e.g., correlation coefficients, Q-scores) for the docked models in the EM map. Clearly state which specific regions of the AlphaFold models are constrained by the EM data and how.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction assumes significant prior knowledge of jasmonate signaling. A brief overview of the core jasmonate signaling pathway (e.g., COI1, JAZ, MYC, and the role of JA-Ile) would make the manuscript more accessible to a broader readership.
+  - **Required correction** Add 2–3 sentences in the introduction providing a concise overview of the jasmonate signaling pathway and the role of JAZ proteins.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2B–D
+  - **Issue** The Y2H data in Figure 2 are presented as serial dilution spot assays without quantification. It is difficult to assess the magnitude of the effects of the deletions.
+  - **Required correction** Provide quantitative β-galactosidase assays for the key deletion mutants, or at least state the relative growth differences observed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, HDX-MS
+  - **Evidence pointer** Methods section "HDX detected by MS"
+  - **Issue** The HDX-MS experiments are described as "conducted as described previously with a few modifications detailed in the supplemental experimental procedures." The main text does not provide sufficient detail on the experimental conditions (e.g., labeling time, temperature, quench conditions) or the data analysis pipeline.
+  - **Required correction** Provide a brief summary of the key HDX-MS parameters in the main text methods, including labeling times, temperature, and the criteria used to define significant changes in deuterium uptake.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The statement that this "represents the first comprehensive view of a transcriptional repression complex in a plant hormone pathway" is somewhat overstated, given that structural information exists for auxin and gibberellin signaling complexes.
+  - **Required correction** Soften this claim to "one of the first comprehensive views" or "the first detailed view of the JAZ–NINJA core."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (NINJA-mediated dimerization enhancement requires direct biophysical validation), R1-M2 (binding affinity of minimal ZBD needs quantification), R1-M4 (EM fitting metrics need to be provided).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study provides novel structural models for JAZ–JAZ and JAZ–NINJA complexes and identifies distinct ZIM surfaces for these interactions. This is a significant advance over previous work.
+  - **Scientific importance** The findings have implications for understanding jasmonate signaling and plant stress responses. The stepwise assembly model is conceptually important, though its physiological relevance requires further validation.
+  - **Interdisciplinary readership** The work will primarily interest plant biologists and structural biologists. The broader plant science community will find the results relevant, but the appeal beyond these fields is limited.
+  - **Technical soundness** The core experimental approaches are appropriate and mostly well-executed. However, the Y2H-based claim of NINJA-mediated dimerization enhancement and the EM-based constraints on models require additional validation.
+  - **Readability for nonspecialists** The manuscript is generally well-written but assumes significant background knowledge. The figures are clear, but some figure legends could be more descriptive.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings regarding distinct ZIM surfaces for JAZ–JAZ versus JAZ–NINJA interactions are well supported and represent a meaningful advance. However, the claims regarding NINJA-mediated dimerization stabilization and the EM-based model constraints require additional experimental validation before the broader conclusions can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that NINJA stabilizes JAZ dimerization is based solely on Y2H data and requires direct biophysical validation.
+- The statement that the negative-stain EM density provides "clear structure constraints" for the AlphaFold models is not quantitatively supported.
+- The extrapolation of findings from JAZ3, JAZ5, and JAZ10 to all 13 Arabidopsis JAZ proteins is not fully justified, given the sequence diversity among JAZ family members.
+- The physiological relevance of the stepwise assembly model is inferred but not directly tested.
+- The claim that the JAZ–NINJA core represents "the first comprehensive view of a transcriptional repression complex in a plant hormone pathway" is overstated given existing structural studies in other hormone pathways.

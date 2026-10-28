@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and figure legends. No figures, tables, or supplementary materials were provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the claims as presented in the text. Statistical analyses and raw data were not independently verifiable.
+- **Shared manuscript claim summary** The authors propose that the transcription factor FLI1 directly binds the HDC promoter to regulate HDC expression, that HDC controls inflammatory genes (IL1B, CXCR2) independently of FLI1, that HDC does not affect leukemic cell proliferation in culture, and that HDC pathway inhibitors (diacerein, tetrandrine) suppress leukemia progression in a mouse model.
+- **Visible evidence base** Text descriptions of RT-qPCR, Western blotting, ChIP, cell proliferation assays, flow cytometry, molecular docking, and in vivo mouse survival experiments. Figure legends for Figures 1–6 and Supplemental Figures 1–5 are referenced but the actual data are not visible.
+- **Missing materials affecting confidence** All figures, tables, and supplementary data. Raw RNA-seq data, ChIP quantification, Western blot images, flow cytometry histograms, and survival curve statistics are not accessible. This substantially limits verification of the reported results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting link between FLI1, HDC, and inflammation in leukemia. The central claim that FLI1 directly regulates HDC transcription is supported by ChIP and expression data as described, but the functional significance of this axis remains unclear because HDC knockdown and histamine modulation had no effect on proliferation. The in vivo experiments with diacerein and tetrandrine are suggestive but confounded by the pleiotropic effects of these compounds. The manuscript is technically sound in parts but the narrative overreaches in several places, particularly regarding the role of HDC in leukemia progression and the proposed mechanism of tetrandrine action. The lack of visible data prevents full assessment.
+- **Who would be interested in the results, and why** Researchers studying FLI1 biology, ETS transcription factors in leukemia, histamine signaling in cancer, and the tumor microenvironment. The potential connection between allergy/asthma gene signatures and leukemia progression may interest translational researchers exploring drug repurposing.
+- **Major strengths** The study identifies a novel transcriptional target of FLI1 (HDC) with direct promoter binding evidence. The use of multiple complementary approaches (ChIP, knockdown, pharmacological inhibition, in vivo model) is commendable. The negative result regarding proliferation is honestly reported and helps delineate the pathway's role. The identification of tetrandrine as a potential FLI1 inhibitor with molecular docking support is an interesting finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "FLI1 transcriptionally regulates HDC by direct binding to its promoter" (Results, Figure 1)
+  - **Evidence pointer** Figure 1F, ChIP analysis; location not provided
+  - **Concern** The ChIP experiment is described as showing FLI1 binding to the HDC promoter, but no quantification, negative control data, or statistical analysis is shown in the text. The single FBS site identified (position −485 to −493) is not validated by mutagenesis or reporter assays. The claim of direct transcriptional regulation requires stronger evidence, including demonstration that FLI1 binding is functional (e.g., luciferase reporter with wild-type vs. mutant FBS).
+  - **Why it matters** This is the foundational claim of the manuscript. If FLI1 does not directly bind and regulate HDC, the entire mechanistic narrative collapses.
+  - **Resolution test** Provide ChIP quantification with appropriate controls (e.g., IgG, input, at least 3 biological replicates), and a reporter assay showing FLI1-dependent transactivation of the HDC promoter that is abolished by FBS mutation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "HDC controls several inflammatory genes including IL1B and CXCR2 that may influence leukemia progression in vivo through the tumor microenvironment" (Results, Figure 4)
+  - **Evidence pointer** Figure 4D–F; location not provided
+  - **Concern** The data show that HDC knockdown reduces IL1B and CXCR2 expression, but the mechanism is not explored. The claim that this affects leukemia progression through the tumor microenvironment is speculative and not directly tested. No in vivo data link HDC expression to inflammatory gene regulation or tumor microenvironment changes. The use of "may" in the claim is appropriate, but the discussion treats this as a likely mechanism without direct evidence.
+  - **Why it matters** The manuscript's central hypothesis is that HDC influences leukemia progression via inflammation, but the only in vivo data use diacerein, which inhibits IL1B broadly and is not specific to HDC. The causal chain from FLI1 to HDC to inflammatory genes to leukemia progression is not established.
+  - **Resolution test** Perform in vivo experiments with HDC knockdown or knockout in the leukemia model and measure inflammatory gene expression in the tumor microenvironment. Alternatively, rescue experiments with IL1B or CXCR2 overexpression in HDC-knockdown cells could support the proposed pathway.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Pharmacological specificity
+  - **Claim pointer** "Tetrandrine suppressed HDC transcription by directly binding to and inhibiting the FLI1 DNA binding domain" (Results, Figure 5)
+  - **Evidence pointer** Figure 5B–E, Supplemental Figure 4; location not provided
+  - **Concern** The molecular docking analysis shows a predicted binding interaction, but no experimental validation (e.g., surface plasmon resonance, isothermal titration calorimetry, or cellular thermal shift assay) is provided. Tetrandrine is known to have multiple cellular targets, and the claim of direct FLI1 binding is not supported by the data shown. The effect on HDC could be indirect through other pathways.
+  - **Why it matters** The manuscript proposes tetrandrine as a specific FLI1 inhibitor, which would be a significant finding. However, the evidence is only computational, and the observed effects on HDC and proliferation could be due to off-target effects.
+  - **Resolution test** Provide experimental binding data (e.g., pull-down, MST, or ITC) and a functional assay showing that tetrandrine specifically disrupts FLI1-DNA binding. A negative control with a FLI1 mutant lacking the DNA binding domain would strengthen the claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** "Diacerein, an IL1B inhibitor, strongly blocked Fli-1-induced leukemia in mice" (Results, Figure 6C)
+  - **Evidence pointer** Figure 6C; location not provided
+  - **Concern** The survival curves are described but no statistical details (e.g., log-rank test p-values, number of mice per group, biological replicates) are provided in the text. The sample size (N=6) is small, and no power analysis is mentioned. The claim of "strongly blocked" requires statistical support.
+  - **Why it matters** The in vivo data are a key part of the translational claim. Without proper statistical reporting, the robustness of the survival benefit cannot be assessed.
+  - **Resolution test** Report the exact p-values, hazard ratios, confidence intervals, and the number of independent experiments. Consider increasing sample size or providing justification for the N used.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, ChIP analysis
+  - **Evidence pointer** "Chromatin Immunoprecipitation (ChIp) Analysis" section; location not provided
+  - **Issue** The ChIP protocol is described as "previously published" without sufficient detail for replication. The specific antibody, sonication conditions, and quantification method are not described.
+  - **Required correction** Provide a detailed ChIP protocol or cite the original method with all relevant parameters.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 2C
+  - **Evidence pointer** Figure 2C; location not provided
+  - **Issue** The proliferation data are described as "marginally increased" but no statistical comparison or effect size is reported. The biological significance of this marginal effect is unclear.
+  - **Required correction** Report the statistical test used, p-values, and a clear statement of whether the effect is considered biologically meaningful.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Results, "HDC Induction by FLI1 Does Not Affect Cell Proliferation"
+  - **Evidence pointer** Figure 2C–F; location not provided
+  - **Concern** The text states that HDC knockdown does not affect proliferation, but Figure 2C shows a marginal increase. The interpretation of "no effect" versus "marginal effect" is inconsistent.
+  - **Required correction** Clarify the interpretation and ensure the text matches the data presented.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section; location not provided
+  - **Issue** The discussion speculates about the role of HDC in the tumor microenvironment without citing specific evidence from the study or prior literature that directly supports this.
+  - **Required correction** Either provide supporting data or temper the speculation with explicit acknowledgment of the lack of direct evidence.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abbreviations
+  - **Evidence pointer** Abbreviation section; location not provided
+  - **Issue** The abbreviation "liver/bone/kidnalkaline phosphatase, ALPLey" appears garbled and should be corrected to "alkaline phosphatase, liver/bone/kidney (ALPL)".
+  - **Required correction** Fix the typographical error in the abbreviation list.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (ChIP evidence insufficient), R1-M2 (causal link not established), R1-M3 (tetrandrine mechanism not validated experimentally).
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The identification of HDC as a FLI1 target is novel, but the broader concept of FLI1 regulating inflammatory genes is not entirely new. The study does not provide a fundamentally new paradigm.
+  - **Scientific importance** Moderate. The link between FLI1, HDC, and inflammation in leukemia is potentially interesting but the functional significance is not clearly demonstrated. The negative proliferation results weaken the case for a critical role.
+  - **Interdisciplinary readership** Limited. The study is primarily relevant to leukemia researchers and those studying histamine biology. The connection to asthma/allergy may broaden appeal but is not developed sufficiently.
+  - **Technical soundness** The methods are generally appropriate, but key claims (ChIP, tetrandrine binding) lack experimental validation. Statistical reporting is incomplete.
+  - **Readability for nonspecialists** The manuscript is generally readable, but the discussion of inflammatory gene regulation and the tumor microenvironment assumes familiarity with these fields. The abstract is clear.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has interesting elements but the central claims require additional experimental support, particularly regarding direct FLI1-HDC regulation, the functional role of HDC in leukemia progression, and the mechanism of tetrandrine action. The lack of visible data further limits confidence.
+
+## Risk / unsupported claims
+- The claim that FLI1 directly binds the HDC promoter is supported only by a single ChIP experiment described in text, with no quantification or controls visible.
+- The claim that tetrandrine directly binds the FLI1 DNA binding domain is based solely on computational docking, with no experimental validation.
+- The claim that HDC controls inflammatory genes that influence leukemia progression through the tumor microenvironment is speculative and not directly tested.
+- The statement that "HDC induction by FLI1 does not influence leukemia cell proliferation in culture" is contradicted by the reported marginal increase in Figure 2C.
+- The in vivo survival benefit of diacerein is reported without statistical details, making the strength of the effect unverifiable.
+- The mechanism by which EGC inhibits HDC transcription is stated to be "likely through MITF" but no direct evidence is provided.

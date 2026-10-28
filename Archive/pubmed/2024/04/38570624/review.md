@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and figure legends as provided.
+- **Assessment boundary** Scientific content, methodological rigor, validity of conclusions, and clarity of presentation. Editorial and stylistic issues are noted only where they affect scientific comprehension.
+- **Shared manuscript claim summary** The authors investigate the transcription factor CsqR (YihW) from *Escherichia coli*, which regulates genes involved in sulfoquinovose degradation. They report: (1) phylogenetic analysis revealing two main clusters of CsqR homologs with a conserved Met25 in enterobacterial species; (2) experimental detection of two CsqR protein forms (CsqR-l and CsqR-s) via western blot, with CsqR-s induced by sulfoquinovose; (3) molecular dynamics simulations suggesting two possible conformational states of CsqR-s differing in interdomain linker structure; and (4) docking predictions that CsqR-s may bind sulfoquinovose, sulforhamnose, sulfoquinovosyl glycerol, and lactose with higher specificity than CsqR-l.
+- **Visible evidence base** Abstract, full methods section, results section with figure legends (Figures 1-6), discussion, and supplementary figure/table references as cited in text.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1-S18) are referenced but not provided. Raw western blot images, MD simulation trajectories, docking scoring details, and phylogenetic tree data files are not available for verification. No statistical analysis section is present.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a multi-faceted study combining phylogenetics, experimental protein detection, and computational structural modeling to characterize the transcription factor CsqR. The phylogenetic analysis is informative and the identification of a conserved internal methionine is a valuable observation. The experimental demonstration of two CsqR forms is interesting, though the evidence is limited to a single western blot. The computational component is extensive but the conclusions drawn from MD simulations and docking are largely speculative and not experimentally validated. The manuscript is generally well-written and the topic is of interest to researchers studying bacterial transcription regulation and sulfoquinovose metabolism. However, several technical concerns and over-interpretations of computational results need to be addressed.
+- **Who would be interested in the results, and why** Researchers studying bacterial transcription factors, particularly those in the DeoR family; scientists investigating sulfoquinovose metabolism and sulfosugar utilization pathways; computational biologists interested in MD simulations of transcription factor conformational dynamics; and microbiologists studying gene regulation in Enterobacteriaceae.
+- **Major strengths** The phylogenetic analysis is thorough and reveals a clear evolutionary pattern with the conserved Met25. The combination of phylogenetics, experimental detection, and computational modeling is ambitious and integrative. The identification of a potential alternative translation start site with functional implications is a novel contribution. The docking analysis includes appropriate controls (glucose) and considers multiple physiologically relevant ligands.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence
+  - **Claim pointer** The claim that CsqR-s is "dramatically activated during growth with sulfoquinovose" and that CsqR-l is the predominant form during exponential growth on other carbon sources.
+  - **Evidence pointer** Figure 3b, Results section "CsqR-s is actively expressed in the presence of sulfoquinovose"
+  - **Concern** The western blot analysis appears to be based on a single experimental condition set with no replicates shown, no quantification, and no loading controls presented. The claim of "dramatic activation" is not supported by quantitative data. Additionally, the identification of the 26 kDa band as CsqR-s is inferred from molecular weight alone; no mass spectrometry or N-terminal sequencing confirmation is provided. The possibility that the 26 kDa band represents a degradation product of CsqR-l is not adequately excluded.
+  - **Why it matters** The differential expression of CsqR-s in response to sulfoquinovose is a central experimental finding of the manuscript. If this observation is not robustly supported, the functional significance of the alternative translation start site is weakened considerably.
+  - **Resolution test** Provide replicate western blots with densitometric quantification, include a loading control (e.g., total protein stain or a reference protein), and demonstrate that the 26 kDa band is not a proteolytic fragment (e.g., by using a protease inhibitor control or by mass spectrometry identification of the N-terminus).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational methodology
+  - **Claim pointer** The claim that MD simulations reveal two possible states of CsqR-s with the interdomain linker being either a disordered loop or an alpha-helix, and that these states correspond to "open" and "compact" conformations.
+  - **Evidence pointer** Methods section "Molecular dynamic simulations and docking", Results section "Molecular dynamic simulations of protein structures predicted for the long and short CsqR forms", Figures 4-5
+  - **Concern** The MD simulation methodology is described with insufficient detail to assess its validity. Key parameters are missing: force field version specifics, water model, salt concentration, temperature/pressure coupling algorithms, equilibration protocol, simulation length per replica, number of replicas, and convergence criteria. The claim of two distinct conformational states is based on a single 2 microsecond simulation per model, which is likely insufficient to sample the conformational space of a multi-domain protein. The additional 1 microsecond simulation at 350 K is mentioned but no analysis of this trajectory is presented. The selection of representative structures via clustering is described but the criteria for choosing "the most populated clusters presented closer to the end of simulation" is vague and potentially biased.
+  - **Why it matters** The conformational dynamics of CsqR-s are central to the structural conclusions of the manuscript. If the simulations are not converged or the sampling is inadequate, the proposed "open" and "compact" states may be artifacts of the simulation setup rather than genuine conformational states.
+  - **Resolution test** Provide complete simulation parameters, demonstrate convergence through multiple independent replicas, show time evolution of relevant order parameters (e.g., radius of gyration, interdomain distance), and perform a free energy analysis to establish the relative stability of the proposed states.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Docking validation
+  - **Claim pointer** The claim that docking predictions show all tested ligands (SQ, SR, SQG, lactose) bind to the same pocket in CsqR-l and CsqR-s, with CsqR-s showing higher specificity towards candidate effectors than CsqR-l.
+  - **Evidence pointer** Results section "Molecular docking of CsqR-l and CsqR-s models with lactose, SQ and its derivatives", Figures 5-6, Supplementary Table S2
+  - **Concern** The docking methodology is not adequately described. No information is provided on the docking grid box dimensions, exhaustiveness settings, number of docking runs, or the criteria for selecting "optimal binding modes." The claim that all ligands bind to the same pocket is based on visual inspection of docking poses, but no quantitative comparison of binding site residues across ligands is provided. The statement that CsqR-s has "higher specificity" is not supported by the data presented; binding affinity differences between ligands are not statistically analyzed, and the functional significance of the reported binding energy differences is unclear. The docking results are not validated by any experimental binding assay.
+  - **Why it matters** The docking predictions are used to support the functional significance of the two CsqR forms. Without proper validation and quantitative analysis, these predictions remain speculative and do not provide strong evidence for differential ligand specificity.
+  - **Resolution test** Provide complete docking parameters, perform multiple independent docking runs with statistical analysis of binding energies, compare binding site residues quantitatively across ligands and protein forms, and ideally validate predictions with experimental binding assays (e.g., ITC, MST, or SPR).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Phylogenetic interpretation
+  - **Claim pointer** The claim that the phylogenetic tree structure suggests "csqR might have been duplicated at some point" and that the presence of Met25 correlates with the presence of yih cassette genes.
+  - **Evidence pointer** Results section "Phylogenetic analysis of CsqR", Figure 2, Supplementary Table S1
+  - **Concern** The phylogenetic analysis is described but the tree is not shown with sufficient resolution in the main text to evaluate the duplication claim. The statement about duplication is speculative and not supported by any formal phylogenetic test (e.g., gene tree-species tree reconciliation, synteny analysis). The correlation between Met25 presence and yih cassette co-localization is mentioned but not statistically tested. The authors note exceptions to the co-localization pattern but do not discuss potential reasons for these exceptions.
+  - **Why it matters** The evolutionary scenario proposed for the origin of CsqR-s is an important part of the manuscript's narrative. If the duplication hypothesis is not well-supported, the evolutionary significance of the alternative translation start is weakened.
+  - **Resolution test** Provide a more detailed phylogenetic analysis with bootstrap support values, perform a formal test for duplication events, and conduct a statistical analysis of the association between Met25 and yih cassette presence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "CsqR (YihW) is a local transcription factor that controls expression of yih genes involved in degradation of sulfoquinovose in Escherichia coli." This is presented as established fact, but the manuscript itself notes that the role of CsqR was recently confirmed by Shimada et al. The abstract should acknowledge the recent nature of this finding.
+  - **Required correction** Rephrase to indicate that the role of CsqR was recently established, e.g., "CsqR (YihW) is a local transcription factor recently shown to control expression of yih genes involved in degradation of sulfoquinovose in Escherichia coli."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Methods, "Molecular dynamic simulations and docking"
+  - **Evidence pointer** Methods section, paragraph on MD simulations
+  - **Issue** The description of the MD simulation setup is incomplete. The authors state "most parameters being set as default" which is not acceptable for reproducibility. Specific parameters such as the water model, salt concentration, and the specific version of the Amber force field should be stated.
+  - **Required correction** Provide a complete list of simulation parameters including water model, ion concentration, non-bonded cutoff, and any modifications to default settings.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Results, qRT-PCR data
+  - **Evidence pointer** Results section "CsqR-s is actively expressed in the presence of sulfoquinovose", Supplementary Figure S3b
+  - **Issue** The qRT-PCR data are described qualitatively ("activation was higher for csqR-s") without any statistical analysis. No error bars are described in the text, and the number of biological replicates is stated as "at least two" which is insufficient for robust statistical conclusions.
+  - **Required correction** Provide statistical analysis of qRT-PCR data with appropriate tests, clearly state the number of biological and technical replicates, and show individual data points with error bars.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2 legend
+  - **Issue** The phylogenetic tree in Figure 2 is described as having two main clusters, but the figure as described appears to be a large tree that may be difficult to interpret in print. The alignment shown in the right panel is limited to the first 62 positions, which may not be representative of the full alignment.
+  - **Required correction** Consider providing a simplified schematic of the tree topology in the main text, with the full tree as a supplementary figure. Ensure that the alignment shown is representative and clearly labeled.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on CsqR-s function
+  - **Issue** The discussion of CsqR-s as a potential inhibitor of CsqR-l is speculative and not well-connected to existing literature on alternative translation start sites in bacterial transcription factors. The authors mention VirF and LeuO but do not discuss the mechanisms by which alternative forms of these regulators function.
+  - **Required correction** Expand the discussion to provide more context on how alternative translation start sites affect transcription factor function in other systems, and temper the speculation about CsqR-s function.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (western blot evidence), R1-M2 (MD simulation methodology), R1-M3 (docking validation)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The identification of a conserved internal methionine in CsqR and the potential for alternative translation start sites is a novel observation. However, the concept of alternative protein forms from internal start sites is well-established in bacteria. The computational approach combining MD and docking is not methodologically novel.
+  - **Scientific importance** Moderate. The findings contribute to understanding CsqR regulation and sulfoquinovose metabolism, but the significance is limited by the lack of functional validation. The potential for CsqR-s to act as a regulatory switch is interesting but remains speculative.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to microbiologists and computational biologists. The sulfoquinovose metabolism angle may attract biochemists, but the overall appeal is narrow.
+  - **Technical soundness** The phylogenetic analysis appears sound. The experimental section is underpowered with insufficient replicates and quantification. The computational section lacks methodological detail and validation. The docking results are not experimentally corroborated.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The introduction provides adequate context. However, the results section on MD simulations may be challenging for readers without computational biology background. The discussion is somewhat speculative and could be better grounded in experimental evidence.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis about alternative CsqR forms, but the experimental evidence is insufficient and the computational results are not adequately validated. Major revisions addressing the technical concerns, particularly the western blot quantification and MD simulation methodology, are required before the case is established.
+
+## Risk / unsupported claims
+- The claim that CsqR-s is "dramatically activated" by sulfoquinovose is not quantitatively supported by the western blot data presented.
+- The claim that CsqR-s may act as an inhibitor of CsqR-l is purely speculative and not supported by any functional data.
+- The claim that the two conformational states of CsqR-s ("open" and "compact") have functional significance is not experimentally validated.
+- The claim that CsqR-s has "higher specificity" towards candidate effectors compared to CsqR-l is not statistically supported by the docking data.
+- The suggestion that the alternative translation start site "could have appeared together with the yih cassette" is speculative and not tested.
+- The phylogenetic inference of a duplication event is not supported by formal analysis.
+- The functional significance of conserved residues in the ligand binding site (Arg150, Glu193, Lys215) is inferred from docking alone without experimental validation.

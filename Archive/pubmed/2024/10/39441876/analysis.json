@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39441876",
+  "title": "On the identification of differentially-active transcription factors from ATAC-seq data.",
+  "authors": "Gerbaldo, Felix Ezequiel; Sonder, Emanuel; Fischer, Vincent; Frei, Selina; Wang, Jiayi; Gapp, Katharina; Robinson, Mark D; Germain, Pierre-Luc",
+  "journal": "PLoS computational biology",
+  "published_date": "2024-10-23",
+  "window": {
+    "start": "2024-10-21",
+    "end": "2024-10-27"
+  },
+  "score": 5,
+  "one_liner_zh": "该文基准测试从ATAC-seq数据中识别差异活性转录因子的方法，虽涉及TF-DNA基序可及性分析，但缺乏三维互作建模与AI/物理模拟方法，属于广义TF-DNA关联的工程评估。",
+  "abstract": "ATAC-seq has emerged as a rich epigenome profiling technique, and is commonly used to identify Transcription Factors (TFs) underlying given phenomena. A number of methods can be used to identify differentially-active TFs through the accessibility of their DNA-binding motif, however little is known on the best approaches for doing so. Here we benchmark several such methods using a combination of curated datasets with various forms of short-term perturbations on known TFs, as well as semi-simulations. We include both methods specifically designed for this type of data as well as some that can be repurposed for it. We also investigate variations to these methods, and identify three particularly promising approaches (a chromVAR-limma workflow with critical adjustments, monaLisa and a combination of GC smooth quantile normalization and multivariate modeling). We further investigate the specific use of nucleosome-free fragments, the combination of top methods, and the impact of technical variation. Finally, we illustrate the use of the top methods on a novel dataset to characterize the impact on DNA accessibility of TRAnscription Factor TArgeting Chimeras (TRAFTAC), which can deplete TFs-in our case NFkB-at the protein level.",
+  "abstract_zh": "ATAC-seq已成为一种丰富的表观基因组分析技术，常用于识别给定现象背后的转录因子（Transcription Factors, TFs）。多种方法可通过其DNA结合基序的可及性来识别差异活性的转录因子，然而关于最佳实践方法所知甚少。在此，我们使用结合了已知转录因子各种短期扰动的精选数据集以及半模拟数据，对若干此类方法进行了基准测试。我们既包括专门为此类数据设计的方法，也包括可重新用于此目的的方法。我们还研究了这些方法的变体，并识别出三种特别有前景的方法（经关键调整的chromVAR-limma工作流程、monaLisa以及GC平滑分位数归一化与多变量建模的组合）。我们进一步研究了无核小体片段的特定使用、顶级方法的组合以及技术变异的影响。最后，我们在一项新数据集上展示了顶级方法的应用，以表征转录因子靶向嵌合体（TRAnscription Factor TArgeting Chimeras, TRAFTAC）对DNA可及性的影响，该嵌合体可在蛋白质水平上消耗转录因子——在我们的案例中为NFkB。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39441876/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39441876/",
+  "paper_page_path": "papers/pubmed/39441876/index.html"
+}

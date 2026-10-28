@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35690313",
+  "title": "Deep learning-based transcription factor activity for stratification of breast cancer patients.",
+  "authors": "Xiong, Yuqiang; Wang, Shiyuan; Wei, Haodong; Li, Hanshuang; Lv, Yingli; Chi, Meng; Su, Dongqing; Lu, Qianzi; Yu, Yao; Zuo, Yongchun; Yang, Lei",
+  "journal": "Biochimica et biophysica acta. Gene regulatory mechanisms",
+  "published_date": "2022-06-12",
+  "window": {
+    "start": "2022-06-06",
+    "end": "2022-06-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习对转录因子活性谱进行降维以对乳腺癌患者分型，虽涉及TF但未聚焦TF-DNA结合位点或互作机制建模，方法上仅用autoencoder做特征压缩，缺乏三维互作与物理模拟，属于边缘相关。",
+  "abstract": "Transcription factors directly bind to DNA and regulate the expression of the gene, causing epigenetic modification of the DNA. They often mediate epigenetic parameters of transcriptional and posttranscriptional mechanisms, and their expression activities can be used to characterize genomic aberrations in cancer cell. In this study, the activity profile of transcription factors inferred by VIPER algorithm. The autoencoder model was applied for compressing the transcription factor activity profile for obtaining more useful transformed features for stratifying patients into two different breast cancer subtypes. The deep learning-based subtypes exhibited superior prognostic value and yielded better risk-stratification than the transcription factor activity-based method. Importantly, according to transformed features, a deep neural network was constructed to predict the subtypes, and achieved the accuracy of 94.98% and area under the ROC curve of 0.9663, respectively. The proposed subtypes were found to be significantly associated with immune infiltration, tumor immunogenicity and so on. Furthermore, the ceRNA network was constructed for the breast cancer subtypes. Besides, 11 master regulators were found to be associated with patients in cluster 1. Given the robustness performance of our deep learning model over multiple breast cancer cohorts, we expected this model may be useful in the area of prognosis prediction and lead some possibility for personalized medicine in breast cancer patients.",
+  "abstract_zh": "转录因子直接与DNA结合并调控基因表达，导致DNA的表观遗传修饰。它们常常介导转录及转录后机制的表观遗传参数，其表达活性可用于表征癌细胞中的基因组畸变。本研究通过VIPER算法推断转录因子活性谱。应用自编码器模型对转录因子活性谱进行压缩，以获得更有用的转换特征，用于将患者分层为两种不同的乳腺癌亚型。基于深度学习的亚型显示出更优的预后价值，并在风险分层方面优于基于转录因子活性的方法。重要的是，根据转换特征，构建了一个深度神经网络来预测亚型，其准确率达到94.98%，ROC曲线下面积为0.9663。所提出的亚型被发现与免疫浸润、肿瘤免疫原性等显著相关。此外，针对乳腺癌亚型构建了ceRNA网络。另外，发现11个主调控因子与簇1中的患者相关。鉴于我们的深度学习模型在多个乳腺癌队列中的稳健性能，我们预期该模型可能在预后预测领域有所应用，并为乳腺癌患者的个性化医疗带来一定可能性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35690313/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35690313/",
+  "paper_page_path": "papers/pubmed/35690313/index.html"
+}

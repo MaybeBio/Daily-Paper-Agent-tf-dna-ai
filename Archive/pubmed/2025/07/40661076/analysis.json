@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40661076",
+  "title": "Exploration of M2 macrophage-related biomarkers and a candidate drug for glioblastoma using high-dimensional weighted gene co-expression network analysis.",
+  "authors": "Feng, Suyin; Zhu, Long; Gu, Jinyuan; Kou, Kun; Liu, Yongtai; Zhang, Guangmin; Lu, Hua; Zhang, Honglai; Sun, Runfeng",
+  "journal": "Frontiers in pharmacology",
+  "published_date": "2025-07-15",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过hdWGCNA和单细胞测序识别胶质母细胞瘤M2巨噬细胞相关生物标志物并预测候选药物，仅涉及分子对接且非蛋白质-DNA互作体系，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Macrophages exhibit diverse activation states. Notably, M2 macrophages, alternatively activated cells, are notably increased within glioblastoma (GBM). Herein, our current study aimed to identify gene biomarkers relevant to M2 macrophages using high-dimensional weighted gene co-expression network analysis (hdWGCNA) and predict a candidate drug for GBM. METHODS: Single-cell RNA sequencing (scRNA-seq) data (GSE162631) and expression data (GSE4290) for GBM were obtained from the Gene Expression Omnibus (GEO) database. The Seurat package was used for quality control, processing of scRNA-seq data, and identification of different GBM cell types. Subsequently, the clusterProfiler package was employed to functionally annotate the genes specifically highly expressed in the cells. Notably, genes related to the M2 macrophages were screened by differential expression analysis, and the gene modules were classified by hdWGCNA. Thereafter, a diagnostic model was constructed, and its robustness was tested. Moreover, drug candidates that could bind to the specific genes identified in this study were predicted and further confirmed via molecular docking. RESULTS: Ten cell clusters were classified, with macrophages showing a higher proportion in GBM samples. Moreover, highly expressed genes specific to the M2 macrophages were mainly enriched in neutrophil migration, myeloid leukocyte migration, and chemokine production. A total of 11 gene modules (module 1-11) specific to M2 macrophages were also determined; notably, module 7 showed a relatively high expression of genes. Three key genes, namely, nuclear factor-kappa-B-inhibitor alpha (NFKBIA), nuclear receptor 4A2 (NR4A2), and FosB Proto-Oncogene, AP-1 Transcription Factor Subunit (FOSB), were obtained by intersecting 3,257 differentially expressed genes (DEGs) with the hub genes screened by hdWGCNA. These three genes were applied to establish a robust and reliable diagnostic model, and they were found to bind to the candidate drug thalidomide. CONCLUSION: The current study revealed the potential gene biomarkers and drug candidate for GBM based on genes related to M2 macrophages, contributing to the understanding of the underlying mechanism of GBM.",
+  "abstract_zh": "背景：巨噬细胞表现出多种激活状态。值得注意的是，在胶质母细胞瘤（GBM）中，M2型巨噬细胞（即替代性激活细胞）显著增加。本研究旨在利用高维加权基因共表达网络分析（hdWGCNA）识别与M2巨噬细胞相关的基因生物标志物，并预测GBM的候选药物。方法：从基因表达综合（GEO）数据库获取GBM的单细胞RNA测序（scRNA-seq）数据（GSE162631）和表达数据（GSE4290）。使用Seurat包进行质量控制、scRNA-seq数据处理及不同GBM细胞类型的鉴定。随后，采用clusterProfiler包对细胞中特异性高表达基因进行功能注释。值得注意的是，通过差异表达分析筛选与M2巨噬细胞相关的基因，并通过hdWGCNA对基因模块进行分类。此后，构建诊断模型并测试其稳健性。此外，预测了能与本研究中识别出的特定基因结合的候选药物，并通过分子对接进一步确认。结果：共分类出10个细胞簇，其中巨噬细胞在GBM样本中比例较高。此外，M2巨噬细胞特异性高表达基因主要富集于中性粒细胞迁移、髓系白细胞迁移和趋化因子产生。还确定了11个M2巨噬细胞特异性基因模块（模块1-11）；值得注意的是，模块7显示基因表达相对较高。通过将3,257个差异表达基因（DEGs）与hdWGCNA筛选出的核心基因相交，获得三个关键基因，即核因子-κB抑制因子α（NFKBIA）、核受体4A2（NR4A2）和FosB原癌基因、AP-1转录因子亚基（FOSB）。这三个基因被用于建立稳健可靠的诊断模型，并发现它们能与候选药物沙利度胺结合。结论：本研究基于M2巨噬细胞相关基因揭示了GBM的潜在基因生物标志物和候选药物，有助于理解GBM的潜在机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40661076/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40661076/",
+  "paper_page_path": "papers/pubmed/40661076/index.html"
+}

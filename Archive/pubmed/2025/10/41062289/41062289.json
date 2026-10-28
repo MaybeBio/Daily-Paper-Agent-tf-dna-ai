@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "41062289",
+    "doi": "10.1101/gad.352622.125",
+    "title": "Dorsal determinant Hwa stabilizes beta-catenin through direct inhibition of GSK3."
+  },
+  "content": {
+    "abstract": "Stabilization of beta-catenin on the dorsal side of the embryo is critical for the formation of the dorsal organizer. The novel transmembrane protein Huluwa (Hwa) has recently been identified as the maternal dorsal determinant responsible for beta-catenin stabilization in dorsal organizer formation. The molecular mechanism by which Hwa induces WNT-independent beta-catenin stabilization remains elusive. In this study, we demonstrate that the conserved PPNSP motif of Hwa is phosphorylated by GSK3 and that the phosphorylated PPNSP motif potently inhibits GSK3, leading to beta-catenin stabilization. Notably, the phosphorylated PPNSP motif of Hwa has stronger GSK3 inhibitory activity than the phosphorylated PPPSP motif of LRP6. Molecular dynamics simulations suggest that the PPNpSP peptide has stronger affinity for GSK3 than the PPPpSP peptide, facilitated by the hydrogen bonding capacity of the asparagine residue. Consistent with Hwa's GSK3 inhibitory activity, Hwa enhances SIAH1-dependent degradation of AXIN. Hwa-induced beta-catenin stabilization and AXIN degradation are significantly enhanced by oligomerization. Thus, Hwa stabilizes beta-catenin through a molecular mechanism similar to that of LRP6 in mediating WNT signaling, representing a striking example of molecular convergence.",
+    "keywords": [
+      "GSK3",
+      "Hwa",
+      "dorsal determination",
+      "beta-catenin"
+    ],
+    "mesh_terms": [
+      "*beta Catenin/metabolism",
+      "*Glycogen Synthase Kinase 3/metabolism/antagonists & inhibitors",
+      "Animals",
+      "Phosphorylation",
+      "Protein Stability",
+      "Axin Protein/metabolism",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Low Density Lipoprotein Receptor-Related Protein-6/metabolism",
+      "Amino Acid Motifs",
+      "*Xenopus Proteins/metabolism/genetics/chemistry",
+      "Wnt Signaling Pathway",
+      "*Membrane Proteins/metabolism/chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ji, Lei",
+        "Chin, Chue Vin",
+        "Sun, Gangyu",
+        "Charlats, Olga",
+        "Vickers, Chad",
+        "Lu, Bo",
+        "Sigoillot, Frederic",
+        "Wang, Zhizhi",
+        "Xu, Wenqing",
+        "Cong, Feng"
+      ],
+      "short_names": [
+        "Ji L",
+        "Chin CV",
+        "Sun G",
+        "Charlats O",
+        "Vickers C",
+        "Lu B",
+        "Sigoillot F",
+        "Wang Z",
+        "Xu W",
+        "Cong F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Discovery Science, Novartis Biomedical Research, Cambridge, Massachusetts 02139, USA.",
+        "Discovery Science, Novartis Biomedical Research, Cambridge, Massachusetts 02139, USA.",
+        "School of Life Science and Technology, ShanghaiTech University, Shanghai 201210, China.",
+        "Discovery Science, Novartis Biomedical Research, Cambridge, Massachusetts 02139, USA.",
+        "Discovery Science, Novartis Biomedical Research, Cambridge, Massachusetts 02139, USA.",
+        "Discovery Science, Novartis Biomedical Research, Cambridge, Massachusetts 02139, USA.",
+        "Discovery Science, Novartis Biomedical Research, Cambridge, Massachusetts 02139, USA.",
+        "School of Life Science and Technology, ShanghaiTech University, Shanghai 201210, China.",
+        "School of Life Science and Technology, ShanghaiTech University, Shanghai 201210, China.",
+        "Discovery Science, Novartis Biomedical Research, Cambridge, Massachusetts 02139, USA; feng.cong@novartis.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ji, Lei",
+        "short_name": "Ji L",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Science, Novartis Biomedical Research, Cambridge, Massachusetts 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Chin, Chue Vin",
+        "short_name": "Chin CV",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Science, Novartis Biomedical Research, Cambridge, Massachusetts 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Sun, Gangyu",
+        "short_name": "Sun G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Technology, ShanghaiTech University, Shanghai 201210, China."
+        ]
+      },
+      {
+        "full_name": "Charlats, Olga",
+        "short_name": "Charlats O",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Science, Novartis Biomedical Research, Cambridge, Massachusetts 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Vickers, Chad",
+        "short_name": "Vickers C",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Science, Novartis Biomedical Research, Cambridge, Massachusetts 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Lu, Bo",
+        "short_name": "Lu B",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Science, Novartis Biomedical Research, Cambridge, Massachusetts 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Sigoillot, Frederic",
+        "short_name": "Sigoillot F",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Science, Novartis Biomedical Research, Cambridge, Massachusetts 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhizhi",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Technology, ShanghaiTech University, Shanghai 201210, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wenqing",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science and Technology, ShanghaiTech University, Shanghai 201210, China."
+        ]
+      },
+      {
+        "full_name": "Cong, Feng",
+        "short_name": "Cong F",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Science, Novartis Biomedical Research, Cambridge, Massachusetts 02139, USA; feng.cong@novartis.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes & development"
+    ],
+    "journal_abbrev": [
+      "Genes Dev"
+    ],
+    "pub_date": "2026 Jan 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/09 00:30",
+    "fetched_at": "2026-10-01 03:37:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40399324",
+      "39562571",
+      "35446621",
+      "34652064",
+      "31959294",
+      "30467143",
+      "30080849",
+      "29884654",
+      "29208373",
+      "29153704",
+      "28575679",
+      "28546513",
+      "27744318",
+      "25891077",
+      "24642411",
+      "23844574",
+      "22617425",
+      "21911385",
+      "21799911",
+      "21478859",
+      "20856934",
+      "20713706",
+      "20059949",
+      "19759537",
+      "19619488",
+      "19293931",
+      "19107203",
+      "18362152",
+      "18083125",
+      "18077588",
+      "17606995",
+      "17569865",
+      "16601693",
+      "16365045",
+      "16341017",
+      "15526030",
+      "15473842",
+      "15459103",
+      "15262887",
+      "14731402",
+      "12878610",
+      "11440715",
+      "11430833",
+      "11427888",
+      "10427095",
+      "10421629",
+      "10196136",
+      "9920888",
+      "9060476",
+      "9037034",
+      "8898213"
+    ],
+    "similar": [
+      "41062289",
+      "19293931",
+      "23579495",
+      "16341017",
+      "18509060",
+      "18077588",
+      "23872074",
+      "39562571",
+      "21887268",
+      "18362152",
+      "25735981",
+      "19107203",
+      "10481074",
+      "22083140",
+      "28546513",
+      "28418856",
+      "19711366",
+      "37983969",
+      "20460648",
+      "27558955",
+      "9601644",
+      "32726636",
+      "20974802",
+      "40399324",
+      "37189394",
+      "23743195",
+      "23761169",
+      "30467143",
+      "24335169",
+      "22184111",
+      "17595317",
+      "27568239",
+      "20519433",
+      "17202189",
+      "24412065",
+      "19309792",
+      "20229235",
+      "34615853",
+      "10559484",
+      "41945658",
+      "12417018",
+      "24451375",
+      "19141611",
+      "31557964",
+      "24353057",
+      "31189665",
+      "29251764",
+      "23959799",
+      "9601641",
+      "27484226",
+      "10882137",
+      "30038030",
+      "26598603",
+      "25500543",
+      "21098636",
+      "24692544",
+      "15972957",
+      "9566905",
+      "36598937",
+      "22372892",
+      "38968117",
+      "36693320",
+      "31519875",
+      "19801552",
+      "10330403",
+      "22100263",
+      "22270359",
+      "26438599",
+      "42489500",
+      "26004508",
+      "11834740",
+      "22871567",
+      "21304492",
+      "17318175",
+      "17569865",
+      "22682247",
+      "23811937",
+      "38325618",
+      "23843312",
+      "21699440",
+      "25143377",
+      "11212302",
+      "18606139",
+      "16303557",
+      "10421629",
+      "39385148",
+      "40424469",
+      "24105937",
+      "22558232",
+      "29656209",
+      "30035713",
+      "12000790",
+      "10339577",
+      "22195040",
+      "26475862",
+      "16799642",
+      "11036939",
+      "18641688",
+      "11970895",
+      "10684251"
+    ],
+    "review": [
+      "41062289",
+      "27568239",
+      "20229235",
+      "31557964",
+      "11212302",
+      "24105937"
+    ],
+    "pmc": [
+      "12758137"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41062289/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

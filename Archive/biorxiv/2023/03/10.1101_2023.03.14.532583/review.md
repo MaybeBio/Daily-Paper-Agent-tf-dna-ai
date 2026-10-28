@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary information descriptions
+- **Assessment boundary** Scientific content, technical validity, and claims as presented in the provided manuscript text; no external data or unpublished materials consulted
+- **Shared manuscript claim summary** The authors present cryo-EM structures of human Oct4 bound to nucleosomes containing endogenous Lin28B or nMatn1 DNA sequences, showing that Oct4 binding stabilizes nucleosomal DNA positioning, induces chromatin decompaction via interactions with histone H4 and H3 tails, and that H3K27 acetylation modulates cooperative binding of additional Oct4 and Sox2 molecules
+- **Visible evidence base** Cryo-EM structures and maps, native gel electrophoresis binding assays, MgCl2 precipitation assays, MNase-seq data, negative stain EM of chromatin arrays, western blot analyses, and mutagenesis experiments as described in the text
+- **Missing materials affecting confidence** Electron density maps and model coordinates are referenced but accession numbers are placeholders (EMD-xxx, PDB xxx); no representative micrographs, Fourier shell correlation curves, or model validation statistics are shown; figure panels are referenced but not visible; no statistical details for quantification; no raw data for binding assays or MNase-seq are provided in the text
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question in gene regulation: how pioneer transcription factors access nucleosomal DNA and cooperate with other factors. The authors present cryo-EM structures of Oct4 bound to nucleosomes with endogenous DNA sequences, which is a significant technical achievement given the challenges of capturing such complexes. The finding that Oct4 interacts with histone tails through its activation domain and that H3K27 modifications modulate cooperative binding is conceptually novel and potentially impactful. However, several technical concerns need to be addressed, particularly regarding the interpretation of the cryo-EM maps, the specificity of the observed histone interactions, and the quantitative support for the cooperativity claims. The manuscript is well-written and the logic is clear, but the evidence as presented does not fully establish all the major conclusions.
+- **Who would be interested in the results, and why** Researchers studying transcription factor binding to chromatin, pioneer factor biology, epigenetic regulation, nucleosome dynamics, and reprogramming. The findings on histone modification-dependent regulation of TF cooperativity would also interest those working on chromatin modifications and their functional consequences. The structural data on Oct4-nucleosome interactions would be valuable for the structural biology community studying protein-chromatin complexes.
+- **Major strengths** The use of endogenous DNA sequences rather than artificial positioning sequences is a notable strength, as it captures more physiologically relevant nucleosome dynamics. The identification of direct Oct4-histone interactions, particularly through the activation domain, provides a new mechanistic insight into pioneer factor function. The combination of structural and biochemical approaches to address cooperativity is well-designed. The finding that H3K27 acetylation specifically affects cooperative binding of additional factors, rather than initial binding, is a nuanced and interesting result.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validity of structural interpretation
+  - **Claim pointer** The authors claim that Oct4 binding induces nucleosomal DNA repositioning and stabilizes a specific DNA position, based on the cryo-EM structures
+  - **Evidence pointer** Results section "Oct4 binding positions Lin28B nucleosome", Figure 1, Extended Data Figures 1-3
+  - **Concern** The authors compare the Oct4-bound nucleosome structure to the free Lin28B nucleosome structure, but the free nucleosome structure has poorly resolved DNA (3.1 Å overall, DNA bases not well resolved), making it difficult to determine the DNA position. The claim that Oct4 "traps" the DNA in a specific position relies on comparing a well-resolved bound state to an ambiguous free state. Additionally, the authors note that the free nucleosome shows DNA protruding from both sides in some classes, but the Oct4-bound structure shows it from only one side. This could reflect sample heterogeneity rather than Oct4-induced positioning. The authors should provide more quantitative analysis of DNA positioning in both states, such as measuring the distribution of DNA end positions across particle classes.
+  - **Why it matters** The central model of the paper is that Oct4 binding stabilizes nucleosomal DNA positioning, which then exposes internal binding sites for cooperative factors. If the free nucleosome is already positioned or if the observed difference is due to experimental artifacts, this model is weakened.
+  - **Resolution test** Provide a quantitative comparison of DNA positioning distributions in free versus Oct4-bound nucleosomes, using methods such as 3D variability analysis or classification of DNA end positions. Show that the free nucleosome has multiple distinct DNA positions and that Oct4 binding shifts the population to a single position. Alternatively, provide evidence from independent assays (e.g., restriction enzyme accessibility at different positions) that support Oct4-induced DNA repositioning.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of Oct4-histone interactions
+  - **Claim pointer** The authors claim that Oct4 directly interacts with histone H3 and H4 tails, and that these interactions are functionally important for chromatin decompaction and cooperativity
+  - **Evidence pointer** Results sections "Oct4 N-terminal region changes the H4 tail conformation" and "Oct4 cooperativity is modulated by histone marks", Figures 2-3, Extended Data Figures 4-5
+  - **Concern** The density attributed to the Oct4 activation domain interacting with the H4 tail is described as "additional density" but the resolution of this region is not clearly stated. The activation domain is intrinsically disordered, and the authors do not provide evidence that this density specifically corresponds to Oct4 rather than to a conformational change in the histone or to a contaminant. The claim that the Oct4 N-terminal region is responsible for the H4 tail interaction is based on deletion experiments, but the authors do not show that the deleted region is the one observed in the density. Furthermore, the functional relevance of the H4 tail interaction for chromatin decompaction is inferred from the MgCl2 precipitation and negative stain EM experiments, but the link between the structural observation and the functional assay is not direct.
+  - **Why it matters** The claim that pioneer TFs directly interact with histones through their activation domains is a novel and important finding. If this interaction is not specific or not correctly assigned, the mechanistic model is compromised.
+  - **Resolution test** Provide a higher-resolution map of the Oct4 activation domain-histone interface, or validate the assignment using crosslinking mass spectrometry or mutagenesis of specific residues in the activation domain that would disrupt the interaction. Show that the density is absent when the N-terminal region is deleted. Provide a more direct assay linking the H4 tail interaction to chromatin decompaction, such as measuring inter-nucleosome interactions with defined H4 tail mutants.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support for cooperativity claims
+  - **Claim pointer** The authors claim that H3K27 acetylation increases cooperative binding of additional Oct4 and Sox2 molecules to internal binding sites
+  - **Evidence pointer** Results section "Oct4 cooperativity is modulated by histone marks", Figure 3, Extended Data Figures 6-7
+  - **Concern** The cooperativity claims are based on native gel electrophoresis assays, but the quantification methods are not described in sufficient detail. The authors state that H3K27ac increases binding of the second and third Oct4, but the magnitude of the effect and the statistical significance are not reported. The MNase-seq data are used to support the DNA positioning claims, but the analysis is not described in detail (e.g., how reads were mapped, how nucleosome positions were determined, how many replicates were performed). The authors also claim that H3K27me3 does not affect binding, but this negative result is not quantified.
+  - **Why it matters** The conclusion that histone modifications regulate pioneer TF cooperativity is a major claim of the paper. Without proper quantification and statistical analysis, the strength of this conclusion cannot be assessed.
+  - **Resolution test** Provide quantitative binding curves with error bars and statistical tests for the gel shift assays. Describe the MNase-seq analysis pipeline in detail, including how nucleosome positions were called and how the 1 bp shift was determined. Show replicate experiments and provide confidence intervals for the reported effects.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability to other genomic contexts
+  - **Claim pointer** The authors suggest that their findings on Oct4 binding and cooperativity apply broadly to pioneer TF function
+  - **Evidence pointer** Discussion section
+  - **Concern** The study uses only two DNA sequences (Lin28B and nMatn1) and one TF (Oct4). The authors discuss implications for other pioneer TFs and for reprogramming, but no data are presented to support this generalizability. The claim that "the epigenetic landscape can regulate Oct4 activity to ensure proper cell reprogramming" is speculative and not directly tested.
+  - **Why it matters** The broader significance of the work depends on whether the mechanisms identified are general or specific to the sequences and conditions tested.
+  - **Resolution test** Provide evidence that the observed mechanisms apply to other pioneer TFs or other DNA sequences, or temper the claims in the discussion to be more clearly limited to the systems studied.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Cryo-EM data processing
+  - **Evidence pointer** Methods section "CryoEM grid preparation and data collection"
+  - **Issue** The description of cryo-EM data processing is brief and lacks details on particle selection, classification strategy, and refinement parameters. The authors mention "focused classification followed by local search refinements" but do not specify how many particles were in each class or how the final maps were validated.
+  - **Required correction** Provide a more detailed description of the cryo-EM data processing pipeline, including the number of particles in each class, the resolution estimation method, and the validation statistics (e.g., map-model FSC, Q-scores).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Deposition of structures
+  - **Evidence pointer** Data availability section
+  - **Issue** The accession numbers for the EM maps and models are placeholders (EMD-xxx, PDB xxx). This prevents readers from accessing the data.
+  - **Required correction** Provide the actual accession numbers for the deposited EM maps and models.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure presentation
+  - **Affected element** Figures and Extended Data
+  - **Evidence pointer** Results sections
+  - **Issue** The text refers to specific panels (e.g., "Fig. 1a", "Extended Data Fig. 2h") but the figures are not included in the provided manuscript text. This makes it difficult to evaluate the evidence.
+  - **Required correction** Ensure that all figures and extended data are included in the manuscript submission and that the panels are clearly labeled and referenced in the text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Binding assays and MNase-seq
+  - **Evidence pointer** Methods section "Analysis of gels" and "MNase-seq"
+  - **Issue** The methods for quantifying gel bands and MNase-seq data are described, but no statistical tests are mentioned. The authors report differences between conditions but do not indicate whether these are statistically significant.
+  - **Required correction** Add statistical analysis (e.g., t-tests, ANOVA) for the quantitative comparisons and report p-values or confidence intervals.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Fuzzy" nucleosome
+  - **Evidence pointer** Results section "Oct4 binding positions Lin28B nucleosome"
+  - **Issue** The term "fuzzy" is used to describe the nucleosome at the Lin28B locus, but this term is not defined and may be confusing to readers.
+  - **Required correction** Define what is meant by "fuzzy" nucleosome (e.g., multiple DNA positions, partial unwrapping) and provide evidence for this claim.
+
+## Risk / unsupported claims
+- The claim that Oct4 binding "traps" nucleosomal DNA in a specific position is not fully supported because the free nucleosome structure has poorly resolved DNA, making the comparison ambiguous
+- The assignment of the additional density to the Oct4 activation domain is not validated by independent methods
+- The claim that H3K27 acetylation increases cooperative binding is not quantitatively supported with statistical analysis
+- The generalizability of the findings to other pioneer TFs and to reprogramming is speculative and not tested
+- The statement that "the epigenetic landscape can regulate Oct4 activity to ensure proper cell reprogramming" is not directly supported by the data presented
+- The claim that Oct4 binding reduces inter-nucleosome interactions is based on indirect assays (MgCl2 precipitation and negative stain EM) and the link to the structural observation is not direct

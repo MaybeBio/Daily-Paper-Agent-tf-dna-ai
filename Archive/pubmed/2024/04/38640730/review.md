@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use AlphaFold2-predicted tertiary structures of poxviral BEN domains to perform homology-based comparisons, concluding that most poxviral BEN modules are type II BEN, that several specific poxviral BEN domains carry positively charged surfaces consistent with DNA binding, and that MC036R structurally resembles human BEND3 in domain architecture and disorder content.
+- **Visible evidence base** Abstract text only; no methods, structural models, alignments, electrostatic calculations, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, structural coordinates, sequence alignments, electrostatic surface potential maps, and any validation metrics for AlphaFold2 predictions
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible bioinformatics-driven hypothesis about the structural classification of poxviral BEN domains. The central claims are interesting and potentially relevant to viral evolution and host mimicry, but the evidence base available for review is limited to the abstract. Several claims are stated without quantitative or methodological support, and the link between structural similarity and functional inference is not fully established from the supplied material. The work may be of interest to virologists and structural biologists, but the current abstract does not provide sufficient detail to assess technical rigor or the strength of the conclusions.
+- **Who would be interested in the results, and why** Virologists studying poxvirus host interactions, structural biologists interested in DNA-binding domain evolution, and researchers working on BEN domain family classification. The potential mimicry of host BEND3 by a viral protein could also interest immunologists and those studying viral immune evasion.
+- **Major strengths** The use of AlphaFold2 to address a phylogenetic and structural question is timely. The focus on electrostatic surface potential as a functional proxy for DNA binding is a reasonable approach. The observation of architectural similarity between MC036R and human BEND3 is a specific and potentially testable claim.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that AlphaFold2 predictions were used for "comprehensive homologous comparison" and that this method "accurately determine[s] the 3D model of BEN domains."
+  - **Evidence pointer** Abstract only; methods and validation metrics not provided
+  - **Concern** The abstract references a previous finding that an in silico method accurately determines BEN domain 3D models, but no details are given about the validation of AlphaFold2 predictions for poxviral BEN domains. No confidence scores, template information, or comparison to experimental structures are mentioned.
+  - **Why it matters** The entire conclusion rests on the reliability of predicted structures. Without evidence that the predictions are accurate for this specific protein family, the homology classification and electrostatic analyses may be built on unreliable models.
+  - **Resolution test** Provide AlphaFold2 confidence metrics (pLDDT, PAE), comparison to any available experimental structures, and a description of how structural alignments were performed and validated.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "the majority of poxviral BEN modules exhibit characteristics of type II BEN" is presented as a key finding.
+  - **Evidence pointer** Abstract only; no alignment data, classification criteria, or statistical support provided
+  - **Concern** The classification of BEN domains into type I and type II is not defined in the abstract, and no criteria are given for how "characteristics of type II" were determined. The number of poxviral BEN domains analyzed, the species coverage, and the phylogenetic context are all absent.
+  - **Why it matters** Without a clear classification scheme and a defined dataset, the reader cannot evaluate whether the conclusion is robust or an artifact of limited sampling or subjective criteria.
+  - **Resolution test** Define type I and type II BEN criteria, list the poxviral species and BEN domains analyzed, and provide a phylogenetic tree or alignment supporting the classification.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The claim that positively charged protein surfaces indicate "a structural basis for DNA loading" is used to infer functional relevance.
+  - **Evidence pointer** Abstract only; electrostatic maps not shown
+  - **Concern** Positive surface charge is a weak proxy for DNA binding. No experimental or computational binding data are presented, and the abstract does not discuss whether the identified positively charged regions correspond to known DNA-binding interfaces in BEN domains.
+  - **Why it matters** The functional inference goes beyond what structural prediction alone can support. Without binding assays or docking studies, the claim remains speculative.
+  - **Resolution test** Provide electrostatic surface maps with annotated DNA-binding interfaces, or include molecular docking or mutagenesis data supporting DNA interaction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "BEND family transcription factors" is used without defining the relationship between BEND proteins and BEN domains. The abstract later refers to "BEN proteins," which may confuse readers.
+  - **Required correction** Define BEND family and BEN domain explicitly, and use consistent terminology throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract, "majority of poxviral BEN modules"
+  - **Issue** The abstract does not state how many poxviral species or BEN domains were analyzed, nor the range of poxvirus families covered.
+  - **Required correction** Include the number of species and BEN domains analyzed, and specify the poxvirus genera included.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods reference
+  - **Evidence pointer** Abstract, "Building on our previous finding"
+  - **Issue** The previous in silico method is referenced but not identified, making it impossible for readers to locate the validation approach.
+  - **Required correction** Cite the previous work explicitly and briefly describe the validation method in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The reliability of AlphaFold2 predictions for this family and the classification criteria for type II BEN must be established before the central conclusions can be accepted.
+- **Assessment against Nature-style criteria** Originality is moderate; the application of AlphaFold2 to poxviral BEN domains is novel but builds on existing structural prediction approaches. Scientific importance is limited by the absence of functional validation and the narrow focus on a single protein family. Interdisciplinary readership is possible but not strongly supported, as the abstract does not connect the findings to broader questions in viral evolution or host immunity. Technical soundness cannot be assessed from the abstract alone and is currently unverified. Readability for nonspecialists is acceptable but would benefit from clearer definitions of BEN domain types and the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the blocking concerns regarding structural prediction reliability and classification criteria must be resolved before the claims can be considered supported.
+
+## Risk / unsupported claims
+- The claim that AlphaFold2 predictions "accurately determine" BEN domain 3D models is unsupported without validation metrics or comparison to experimental structures.
+- The classification of "the majority of poxviral BEN modules" as type II BEN is unsupported without defined criteria and dataset details.
+- The inference that positively charged surfaces indicate DNA-binding capability is unsupported without electrostatic maps or binding data.
+- The structural resemblance between MC036R and human BEND3 is stated but not substantiated with alignment scores or structural comparisons.
+- The statement that the findings provide "deeper insights into the functional roles of BEN proteins within poxviruses" is an overreach given the absence of functional experiments.

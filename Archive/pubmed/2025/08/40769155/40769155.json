@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "40769155",
+    "doi": "10.1016/j.cell.2025.07.010",
+    "title": "AI-generated MLH1 small binder improves prime editing efficiency."
+  },
+  "content": {
+    "abstract": "The prime editing (PE) system consists of a Cas9 nickase fused to a reverse transcriptase, which introduces precise edits into the target genomic region guided by a PE guide RNA. However, PE efficiency is limited by mismatch repair. To overcome this limitation, transient expression of a dominant-negative MLH1 (MLH1dn) has been used to inhibit key components of mismatch repair. Here, we designed a de novo MLH1 small binder (MLH1-SB) that binds to the dimeric interface of MLH1 and PMS2 using RFdiffusion and AlphaFold 3. The compact size of MLH1-SB enabled its integration into existing PE architectures via 2A systems, creating a PE-SB platform. The PE7-SB2 system significantly improved PE efficiency, achieving an 18.8-fold increase over PEmax and a 2.5-fold increase over PE7 in HeLa cells, as well as a 3.4-fold increase over PE7 in mice. This study highlights the potential of generative AI in advancing genome editing technology.",
+    "keywords": [
+      "AI-generated de novo protein",
+      "AlphaFold 3",
+      "RFdiffusion",
+      "artificial intelligence",
+      "genome editing",
+      "mismatch repair",
+      "prime editing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Gene Editing/methods",
+      "Animals",
+      "*MutL Protein Homolog 1/metabolism/genetics/chemistry",
+      "HeLa Cells",
+      "Mice",
+      "Mismatch Repair Endonuclease PMS2/metabolism",
+      "CRISPR-Cas Systems",
+      "DNA Mismatch Repair",
+      "Protein Binding",
+      "RNA, Guide, CRISPR-Cas Systems/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Park, Ju-Chan",
+        "Uhm, Heesoo",
+        "Kim, Yong-Woo",
+        "Oh, Ye Eun",
+        "Lee, Jang Hyeon",
+        "Yang, Jiyun",
+        "Kim, Kyoungmi",
+        "Bae, Sangsu"
+      ],
+      "short_names": [
+        "Park JC",
+        "Uhm H",
+        "Kim YW",
+        "Oh YE",
+        "Lee JH",
+        "Yang J",
+        "Kim K",
+        "Bae S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Genomic Medicine Institute, Seoul National University College of Medicine, Seoul 03080, Republic of Korea.",
+        "Genomic Medicine Institute, Seoul National University College of Medicine, Seoul 03080, Republic of Korea.",
+        "Department of Biomedical Sciences, Seoul National University College of Medicine, Seoul 03080, Republic of Korea.",
+        "Department of Biomedical Sciences, Seoul National University College of Medicine, Seoul 03080, Republic of Korea.",
+        "Department of Physiology, Korea University College of Medicine, Seoul, Republic of Korea; Department of Biomedical Sciences, Korea University College of Medicine, Seoul, Republic of Korea.",
+        "Department of Physiology, Korea University College of Medicine, Seoul, Republic of Korea; Department of Biomedical Sciences, Korea University College of Medicine, Seoul, Republic of Korea.",
+        "Department of Physiology, Korea University College of Medicine, Seoul, Republic of Korea; Department of Biomedical Sciences, Korea University College of Medicine, Seoul, Republic of Korea.",
+        "Genomic Medicine Institute, Seoul National University College of Medicine, Seoul 03080, Republic of Korea; Department of Biomedical Sciences, Seoul National University College of Medicine, Seoul 03080, Republic of Korea; Cancer Research Institute, Seoul National University College of Medicine, Seoul 03080, Republic of Korea; Institute of Molecular Biology and Genetics, Seoul National University, Seoul 08826, Republic of Korea. Electronic address: sbae7@snu.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Park, Ju-Chan",
+        "short_name": "Park JC",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Medicine Institute, Seoul National University College of Medicine, Seoul 03080, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Uhm, Heesoo",
+        "short_name": "Uhm H",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Medicine Institute, Seoul National University College of Medicine, Seoul 03080, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Yong-Woo",
+        "short_name": "Kim YW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, Seoul National University College of Medicine, Seoul 03080, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Oh, Ye Eun",
+        "short_name": "Oh YE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, Seoul National University College of Medicine, Seoul 03080, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Jang Hyeon",
+        "short_name": "Lee JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Korea University College of Medicine, Seoul, Republic of Korea; Department of Biomedical Sciences, Korea University College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yang, Jiyun",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Korea University College of Medicine, Seoul, Republic of Korea; Department of Biomedical Sciences, Korea University College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Kyoungmi",
+        "short_name": "Kim K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, Korea University College of Medicine, Seoul, Republic of Korea; Department of Biomedical Sciences, Korea University College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Bae, Sangsu",
+        "short_name": "Bae S",
+        "identifiers": [],
+        "affiliations": [
+          "Genomic Medicine Institute, Seoul National University College of Medicine, Seoul 03080, Republic of Korea; Department of Biomedical Sciences, Seoul National University College of Medicine, Seoul 03080, Republic of Korea; Cancer Research Institute, Seoul National University College of Medicine, Seoul 03080, Republic of Korea; Institute of Molecular Biology and Genetics, Seoul National University, Seoul 08826, Republic of Korea. Electronic address: sbae7@snu.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell"
+    ],
+    "journal_abbrev": [
+      "Cell"
+    ],
+    "pub_date": "2025 Oct 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/07 00:27",
+    "fetched_at": "2026-09-30 23:20:48"
+  },
+  "links": {
+    "cites": [
+      "42665685",
+      "42665684",
+      "42662231",
+      "42614027",
+      "42499346",
+      "42453397",
+      "42412614",
+      "42380278",
+      "42360136",
+      "42328791",
+      "42309771",
+      "42287453",
+      "42247518",
+      "42226724",
+      "42162366",
+      "42123499",
+      "42106677",
+      "41901428",
+      "41756010",
+      "41699287",
+      "41671414",
+      "41554351",
+      "41465342",
+      "41418774",
+      "41413028",
+      "41404502",
+      "41394966",
+      "41330932",
+      "41266859",
+      "41254174",
+      "40826422"
+    ],
+    "refs": [],
+    "similar": [
+      "40769155",
+      "38786078",
+      "41038616",
+      "34653350",
+      "35140211",
+      "29175432",
+      "36069759",
+      "38069367",
+      "38847802",
+      "39032648",
+      "41480639",
+      "38734692",
+      "35808824",
+      "28453523",
+      "38773623",
+      "40294053",
+      "40120586",
+      "40341582",
+      "30136313",
+      "38943578",
+      "39795970",
+      "39681408",
+      "33053554",
+      "30423605",
+      "33577226",
+      "39937081",
+      "34723847",
+      "38623982",
+      "38570691",
+      "40076915",
+      "16204034",
+      "28767177",
+      "33915664",
+      "35440051",
+      "40220094",
+      "28669579",
+      "35335122",
+      "37009661",
+      "35941224",
+      "40553339",
+      "40447589",
+      "34650270",
+      "39704127",
+      "11897781",
+      "37325180",
+      "36958601",
+      "33767395",
+      "33915653",
+      "36620890",
+      "39436282",
+      "39747083",
+      "36384993",
+      "29850986",
+      "38987629",
+      "39762286",
+      "38996967",
+      "37532794",
+      "33332859",
+      "40461565",
+      "34347667",
+      "37997470",
+      "35285457",
+      "39183142",
+      "34650269",
+      "33826163",
+      "36054288",
+      "36122480",
+      "36866757",
+      "31273487",
+      "30585020",
+      "38504345",
+      "35687127",
+      "38549229",
+      "32363481",
+      "40745000",
+      "36215471",
+      "40121082",
+      "36512351",
+      "39136471",
+      "40394220",
+      "27698246",
+      "38942381",
+      "38832869",
+      "20533529",
+      "32541478",
+      "34711981",
+      "33464043",
+      "39745853",
+      "40208414",
+      "40870013",
+      "37794706",
+      "28819720",
+      "36163548",
+      "33831997",
+      "34428613",
+      "37751191",
+      "38191664",
+      "38158001",
+      "28522803",
+      "27340770"
+    ],
+    "review": [
+      "40769155",
+      "38786078",
+      "41038616",
+      "38069367",
+      "38943578",
+      "38623982",
+      "35941224",
+      "36384993",
+      "31273487",
+      "40745000",
+      "36512351",
+      "27698246",
+      "38832869",
+      "40870013",
+      "37794706",
+      "37751191"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(25)00799-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40769155",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:40769155",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

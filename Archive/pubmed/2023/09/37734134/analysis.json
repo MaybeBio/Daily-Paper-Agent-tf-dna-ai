@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37734134",
+  "title": "Graph Attention Network based mapping of knowledge relations between chemical spaces of Nuclear factor kappa B and Centella asiatica.",
+  "authors": "P, Vivek; Mohanan, Mithun; U K, Shajil; E Pa, Sandesh; U C A, Jaleel",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2023-09-21",
+  "window": {
+    "start": "2023-09-18",
+    "end": "2023-09-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用图注意力网络映射NF-kappaB与积雪草分子的化学空间相似性以探索药物-靶标调控关系，虽涉及蛋白靶标但非蛋白质-DNA互作体系，且无结合建模或机制研究，仅方法上可部分借鉴。",
+  "abstract": "The confounding nature of the innate immunity target Nuclear Factor kappa B (NF-kappaB) and its interaction with Centella asiatica (CA) molecules necessitate the intervention of advanced technologies, such as deep learning methods. The integration of chemical space concepts with deep learning technologies is a new way of knowledge mapping used to explore drug-target interactions, especially in molecular libraries derived from traditional medicine based molecular sources. The current constraint of virtual screening for mechanistic target hunting is the use of a binary classification model that includes active and inactive molecules from in vitro experiments to explore drug-target interaction. This study aims to explore the regulatory nature of the molecules from the inhibition and activation of the NF-kappaB bioassay data set and map this information for a knowledge-based analysis against the molecules of CA, a low-growing tropical plant. This finding has led to a new direction in the field, transitioning from the conventional active-inactive framework to a more comprehensive active-inactive-regulatory model. This approach can be thoroughly explored by leveraging a graph-based deep learning system. The study presents an innovative approach using a Graph Attention Network (GAT) to rank CA molecules in chemical space based on their similarity with NF-kappaB bioassay molecules, enabling the efficient analysis of complex relationships between molecules and their regulatory function. Graph Attention Network (GAT) overcomes the limitations of traditional deep learning models such as Convolutional Neural Network (CNN) and Recurrent Neural Network (RNN) in handling non-Euclidean graph data and allows for a more precise understanding of similarity ranking by utilizing molecular graphs and attention behavior. By measuring similarity and arranging a matrix of similarity ranking based on GAT, deep neural ranking-based algorithms confirmed the regulatory behaviour of an innate immunity target NF-kappaB with the support of underlying inverse mapping in the surjective chemical spaces of NF-kappaB bioassays and CA molecular spaces. Overall, the study introduces new techniques for exploring the regulatory behaviour of complex targets like NF-kappaB. We then used t-SNE for clustering in chemical space and scaffold hunting for scaffold property analysis and identified nine CA molecules that exhibit regulatory behavior of NF-kappaB target and are recommended for further investigation.",
+  "abstract_zh": "先天免疫靶点核因子kappa B（NF-kappaB）及其与积雪草（CA）分子相互作用的复杂性， necessitates 引入先进技术，如深度学习方法。将化学空间概念与深度学习技术相结合，是一种新的知识映射方式，用于探索药物-靶点相互作用，尤其是在源自传统医学分子来源的分子库中。当前虚拟筛选用于机制靶点寻找的局限在于使用二元分类模型，该模型基于体外实验中的活性和非活性分子来探索药物-靶点相互作用。本研究旨在探索NF-kappaB生物测定数据集中分子在抑制和激活方面的调控性质，并将此信息映射到针对CA（一种低生长热带植物）分子的基于知识的分析中。这一发现为该领域带来了新方向，从传统的活性-非活性框架过渡到更全面的活性-非活性-调控模型。通过利用基于图的深度学习系统，可以深入探索这种方法。本研究提出了一种创新方法，使用图注意力网络（GAT）根据CA分子与NF-kappaB生物测定分子的相似性，在化学空间中对CA分子进行排序，从而高效分析分子及其调控功能之间的复杂关系。图注意力网络（GAT）克服了传统深度学习模型（如卷积神经网络（CNN）和循环神经网络（RNN））在处理非欧几里得图数据方面的局限性，并通过利用分子图和注意力行为，实现了对相似性排序的更精确理解。通过测量相似性并基于GAT排列相似性排序矩阵，深度神经排序算法在NF-kappaB生物测定和CA分子空间的满射化学空间中，借助底层逆映射，确认了先天免疫靶点NF-kappaB的调控行为。总体而言，本研究引入了探索复杂靶点（如NF-kappaB）调控行为的新技术。随后，我们使用t-SNE进行化学空间聚类和骨架搜索以进行骨架性质分析，并识别出九种表现出NF-kappaB靶点调控行为的CA分子，建议进一步研究。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37734134/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37734134/",
+  "paper_page_path": "papers/pubmed/37734134/index.html"
+}

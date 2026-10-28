@@ -1,0 +1,304 @@
+{
+  "identity": {
+    "pmid": "41465914",
+    "doi": "10.1097/MD.0000000000046647",
+    "title": "TLR2, CCR1, IRF8, and CCL4 as biomarkers for atherosclerosis progression and therapy response: A multi-omics study."
+  },
+  "content": {
+    "abstract": "Atherosclerosis (AS) is a growing vascular disease linked to plaque buildup, causing blood flow issues. Current diagnosis relies on symptoms and imaging, which are limited for early detection and plaque biology assessment. Treatments focus on symptoms but don't address root causes, leading to complications. This study aims to find new diagnostic markers and therapies using bioinformatics and machine learning. Data from gene expression omnibus datasets (GSE28829 for gene expression, GSE159677 for single-cell analysis) were analyzed via WGCNA to identify gene modules, Limma for differentially expressed genes, and gene ontology/KEGG for pathway enrichment. Protein-Protein Interaction networks, machine learning (least absolute shrinkage and selection operator, Random Forest, artificial neural network), immune infiltration (CIBERSORT), and single-cell RNA-seq were used. A nomogram model was built, and candidate drugs (e.g., simvastatin) were tested via molecular docking. Key modules (turquoise) and 238 differentially expressed genes linked to immune processes. Four biomarkers (toll like receptor 2, CCR1, interferon regulatory factor 8, CCL4) showed high diagnostic accuracy (AUC > 0.8). Immune analysis revealed altered macrophage/T cell profiles, with biomarkers correlating to monocyte/macrophage activity. The nomogram model was robust, and simvastatin docked strongly to target proteins. toll like receptor 2, CCR1, interferon regulatory factor 8, and CCL4 are novel AS biomarkers linked to immune pathways. The nomogram aids risk prediction, and simvastatin shows potential as a targeted therapy. Findings advance AS understanding and offer tools for early diagnosis and personalized treatment.",
+    "keywords": [
+      "atherosclerosis",
+      "diagnostic biomarkers",
+      "diagnostic model",
+      "immune infiltration",
+      "molecular docking"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Atherosclerosis/genetics/diagnosis/drug therapy",
+      "Biomarkers/metabolism",
+      "*Receptors, CCR1/genetics",
+      "*Toll-Like Receptor 2/genetics",
+      "*Chemokine CCL4/genetics",
+      "Disease Progression",
+      "Machine Learning",
+      "*Interferon Regulatory Factors/genetics",
+      "Computational Biology",
+      "Molecular Docking Simulation",
+      "Protein Interaction Maps",
+      "Simvastatin/therapeutic use/pharmacology",
+      "Nomograms",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Wangwei",
+        "Huang, Min",
+        "Li, Han",
+        "Shi, Jian"
+      ],
+      "short_names": [
+        "Zhou W",
+        "Huang M",
+        "Li H",
+        "Shi J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Cardiology Department, Liuzhou People's Hospital, Liuzhou, Guangxi, China.",
+        "Cardiology Department, Liuzhou People's Hospital, Liuzhou, Guangxi, China.",
+        "Cardiology Department, Liuzhou People's Hospital, Liuzhou, Guangxi, China.",
+        "Cardiology Department, The People's Hospital of laibin, Liuzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Wangwei",
+        "short_name": "Zhou W",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology Department, Liuzhou People's Hospital, Liuzhou, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Min",
+        "short_name": "Huang M",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology Department, Liuzhou People's Hospital, Liuzhou, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Han",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology Department, Liuzhou People's Hospital, Liuzhou, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Jian",
+        "short_name": "Shi J",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiology Department, The People's Hospital of laibin, Liuzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2025 Dec 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/30 07:41",
+    "fetched_at": "2026-10-01 10:12:08"
+  },
+  "links": {
+    "cites": [
+      "42351818"
+    ],
+    "refs": [
+      "39744578",
+      "38886134",
+      "36505501",
+      "36444698",
+      "36064568",
+      "35921995",
+      "35430846",
+      "35020525",
+      "34725479",
+      "34688276",
+      "34570211",
+      "33476202",
+      "32929225",
+      "32776281",
+      "32314637",
+      "31470780",
+      "31420554",
+      "31023999",
+      "30359201",
+      "29783854",
+      "29419394",
+      "29344893",
+      "28873455",
+      "28109426",
+      "27899599",
+      "27595467",
+      "26892956",
+      "25990557",
+      "25101488",
+      "25024399",
+      "23193258",
+      "23159553",
+      "22633472",
+      "19535079",
+      "19151033",
+      "19114008",
+      "18411230",
+      "18093481",
+      "16321392",
+      "15746186",
+      "15203102",
+      "12769747",
+      "12504826",
+      "12467248",
+      "12401480",
+      "10592173"
+    ],
+    "similar": [
+      "41465914",
+      "41316541",
+      "38716195",
+      "41424060",
+      "39396400",
+      "39139563",
+      "40884580",
+      "40588645",
+      "39557900",
+      "40977739",
+      "40441253",
+      "40129981",
+      "36823662",
+      "41432483",
+      "40821793",
+      "41262249",
+      "41107929",
+      "38755717",
+      "39953122",
+      "36470144",
+      "41146237",
+      "39586719",
+      "40916281",
+      "40997906",
+      "39896809",
+      "40419934",
+      "40406126",
+      "37721628",
+      "39855613",
+      "41214111",
+      "41080564",
+      "41013556",
+      "40362543",
+      "40210656",
+      "40809841",
+      "40070840",
+      "36627660",
+      "41200172",
+      "41442003",
+      "41198554",
+      "39188323",
+      "39541897",
+      "35842645",
+      "39475676",
+      "40155679",
+      "38886134",
+      "39709373",
+      "36969166",
+      "40808946",
+      "40808948",
+      "39730379",
+      "40704466",
+      "37963970",
+      "40977710",
+      "40313958",
+      "41044520",
+      "40898137",
+      "40245021",
+      "41052072",
+      "40761790",
+      "41239638",
+      "40969769",
+      "40500570",
+      "38899746",
+      "40024421",
+      "41300841",
+      "36211422",
+      "40362669",
+      "39697326",
+      "41418349",
+      "39142001",
+      "41325315",
+      "41392162",
+      "40360670",
+      "39295860",
+      "41410587",
+      "39188714",
+      "39081100",
+      "38951833",
+      "39875572",
+      "39735547",
+      "39351239",
+      "38863714",
+      "39509434",
+      "38987624",
+      "40901474",
+      "41291841",
+      "39609718",
+      "38144565",
+      "40207230",
+      "39923303",
+      "40192032",
+      "40443672",
+      "40421012",
+      "39559355",
+      "37115484",
+      "40053030",
+      "35287505",
+      "40901831",
+      "40692778"
+    ],
+    "review": [
+      "41465914"
+    ],
+    "pmc": [
+      "12747005"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/atherosclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atherosclerosis"
+      },
+      {
+        "url": "https://www.ovid.com/41465914.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41465914/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000046647",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

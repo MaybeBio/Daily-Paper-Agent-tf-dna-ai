@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36791464",
+  "title": "Re-Balancing Replica Exchange with Solute Tempering for Sampling Dynamic Protein Conformations.",
+  "authors": "Zhang, Yumeng; Liu, Xiaorong; Chen, Jianhan",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2023-02-16",
+  "window": {
+    "start": "2023-02-13",
+    "end": "2023-02-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出改进的REST3增强采样方法用于无序蛋白构象采样，虽以蛋白构象为对象而非TF-DNA互作，但其物理模拟方法可迁移至TF-DNA动态结合机理研究。",
+  "abstract": "Replica exchange with solute tempering (REST) is a highly effective variant of replica exchange for enhanced sampling in explicit solvent simulations of biomolecules. By scaling the Hamiltonian for a selected \"solute\" region of the system, REST effectively applies tempering only to the degrees of freedom of interest but not the rest of the system (\"solvent\"), allowing fewer replicas for covering the same temperature range. A key consideration of REST is how the solute-solvent interactions are scaled together with the solute-solute interactions. Here, we critically evaluate the performance of the latest REST2 protocol for sampling large-scale conformation fluctuations of intrinsically disordered proteins (IDPs). The results show that REST2 promotes artificial protein conformational collapse at high effective temperatures, which seems to be a designed feature originally to promote the sampling of reversible folding of small proteins. The collapse is particularly severe with larger IDPs, leading to replica segregation in the effective temperature space and hindering effective sampling of large-scale conformational changes. We propose that the scaling of the solute-solvent interactions can be treated as free parameters in REST, which can be tuned to control the solute conformational properties (e.g., chain expansion) at different effective temperatures and achieve more effective sampling. To this end, we derive a new REST3 protocol, where the strengths of the solute-solvent van der Waals interactions are recalibrated to reproduce the levels of protein chain expansion at high effective temperatures. The efficiency of REST3 is examined using two IDPs with nontrivial local and long-range structural features, including the p53 N-terminal domain and the kinase inducible transactivation domain of transcription factor CREB. The results suggest that REST3 leads to a much more efficient temperature random walk and improved sampling efficiency, which also further reduces the number of replicas required. Nonetheless, our analysis also reveals significant challenges of relying on tempering alone for sampling large-scale conformational fluctuations of disordered proteins. It is likely that more efficient sampling protocols will require incorporating more sophisticated Hamiltonian replica exchange schemes in addition to tempering.",
+  "abstract_zh": "副本交换与溶质变温（REST）是副本交换的一种高效变体，用于生物分子显式溶剂模拟中的增强采样。通过缩放系统中选定“溶质”区域的哈密顿量，REST仅对感兴趣的自由度进行变温处理，而不影响系统的其余部分（“溶剂”），从而在覆盖相同温度范围时所需副本数量更少。REST的一个关键考虑是如何将溶质-溶剂相互作用与溶质-溶质相互作用一起缩放。在此，我们严格评估了最新REST2协议在采样 intrinsically disordered proteins (IDPs) 大尺度构象波动方面的性能。结果表明，REST2在高有效温度下促进了人工蛋白质构象塌缩，这似乎是其设计特性，原本旨在促进小蛋白质可逆折叠的采样。对于较大的IDPs，这种塌缩尤为严重，导致有效温度空间中的副本分离，并阻碍了大尺度构象变化的有效采样。我们提出，在REST中，溶质-溶剂相互作用的缩放可视为自由参数，可通过调节来控制不同有效温度下的溶质构象特性（如链扩展），从而实现更有效的采样。为此，我们推导了一种新的REST3协议，其中溶质-溶剂范德华相互作用的强度被重新校准，以在高有效温度下重现蛋白质链扩展的水平。我们使用两个具有非平凡局部和长程结构特征的IDPs（包括p53 N端结构域和转录因子CREB的激酶诱导型反式激活结构域）检验了REST3的效率。结果表明，REST3实现了更高效的温度随机游走和改善的采样效率，并进一步减少了所需副本数量。尽管如此，我们的分析也揭示了仅依赖变温来采样无序蛋白质大尺度构象波动的重大挑战。更高效的采样协议可能需要结合更复杂的哈密顿副本交换方案，而不仅仅是变温。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36791464/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36791464/",
+  "paper_page_path": "papers/pubmed/36791464/index.html"
+}

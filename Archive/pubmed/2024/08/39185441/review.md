@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure/table references
+- **Assessment boundary** Scientific validity of the claims, methodological rigor, statistical analysis, and interpretation of results as presented in the manuscript
+- **Shared manuscript claim summary** The authors propose a novel heuristic, ΔΔG, derived from rigid-body docking scores of 57 compounds to 18 crystal structures of the LRH-1 ligand-binding domain and one full-length model. They report that ΔΔG positively correlates with the ability of these compounds to regulate full-length LRH-1 in cell-based assays, while raw docking scores do not. They further suggest that structural features, particularly the position of Helix 6, may underlie this correlation.
+- **Visible evidence base** Results sections with figures (Fig. 1-10), supplemental spreadsheets referenced but not provided, statistical analyses described in text and figure legends
+- **Missing materials affecting confidence** Supplemental spreadsheets (1-8) containing raw docking scores, assay data, and network analysis outputs; figure legends for supplemental figures; complete statistical output tables; details on the full-length LRH-1 model construction and validation
+
+## Reviewer
+- **Overall assessment** The manuscript presents an interesting and potentially useful computational heuristic for prioritizing compounds in LRH-1 drug discovery. The retrospective validation using a substantial dataset of 439 assay measurements is a strength. However, several methodological concerns, particularly regarding the derivation of ΔΔG, the handling of outliers, the statistical approach, and the interpretability of the network analyses, limit the current strength of the conclusions. The claim that ΔΔG is a validated tool for prioritizing compounds requires additional scrutiny and potentially prospective validation.
+- **Who would be interested in the results, and why** Researchers in nuclear receptor biology, particularly those studying LRH-1 and its homologs; computational chemists and structural biologists interested in docking-based virtual screening; drug discovery scientists seeking cost-effective methods for hit prioritization in allosteric targets.
+- **Major strengths** 1) The study addresses a practical problem in drug discovery: prioritizing hits for expensive secondary screening. 2) The use of a substantial retrospective dataset (439 assay measurements) provides a solid empirical basis. 3) The finding that raw docking scores do not correlate with activity, but a derived metric does, is a nuanced and potentially valuable observation. 4) The integration of network analyses to explore structural determinants adds a mechanistic dimension. 5) The reproducibility check with duplicate docking runs is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity and interpretation
+  - **Claim pointer** The authors claim that ΔΔG positively correlates with full-length LRH-1 regulation in cell-based assays, supported by significant Spearman correlations and non-zero regression slopes.
+  - **Evidence pointer** Figures 3-7, text in Results section "Compound ∆∆G associates with the ability of compounds to regulate LRH-1 in cells"
+  - **Concern** The statistical analysis appears to treat each well in the high-throughput assays as an independent event, but compounds were tested in replicates. This pseudoreplication inflates the effective sample size and can lead to artificially low p-values. The authors state "each well in the high-throughput assays treated as an individual event (replicates not averaged)" which is statistically problematic. The analysis should account for the hierarchical structure of the data (e.g., using mixed-effects models or averaging replicates before analysis).
+  - **Why it matters** If the correlation is driven by pseudoreplication, the reported significance levels may be overestimated, and the true strength of the association between ΔΔG and biological activity may be weaker than claimed. This directly affects the validity of the central claim.
+  - **Resolution test** Re-analyze the data using averaged values per compound per assay (or mixed-effects models with compound as a random effect). Report whether the correlations and regression slopes remain significant after accounting for the nested data structure.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor of ΔΔG derivation
+  - **Claim pointer** The authors define ΔΔG as the absolute difference between docking scores to full-length LRH-1 and the isolated LBD, and claim this metric correlates with biological activity.
+  - **Evidence pointer** Figure 3C, Methods section "PyRx computational docking"
+  - **Concern** The derivation of ΔΔG appears to be entirely empirical and post-hoc. The authors state it is an "arbitrary metric" and provide no theoretical or biophysical justification for why the absolute difference in docking scores between two different protein models should relate to biological activity. The risk of overfitting to this specific dataset is high, especially given the small number of compounds (n=57) and the multiple cutoffs and grouping strategies tested. The authors should provide a clearer rationale for this metric and ideally validate it on an independent dataset.
+  - **Why it matters** Without a mechanistic basis or independent validation, the ΔΔG metric may be a statistical artifact of this particular dataset. The claim that it can be used to prioritize compounds in future screens is not well-supported.
+  - **Resolution test** Provide a biophysical rationale for ΔΔG. Test the metric on an independent set of compounds with known LRH-1 activity. At minimum, perform a cross-validation analysis (e.g., leave-one-out) to assess the stability of the correlation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of network analyses
+  - **Claim pointer** The authors state that network analyses suggest unique communication paths exist between subsets of LRH-1 crystal structures that produced high vs. low ΔΔG values, and that the position of Helix 6 is a structural determinant.
+  - **Evidence pointer** Figure 10, Results section "High ∆∆GXSTAL structures have unique network properties"
+  - **Concern** The network analysis methodology is described only briefly. The eigenvector centrality values are averaged over secondary structural elements, but it is unclear how robust these averages are given the varying lengths of these elements and potential differences in residue conservation. The PCA shows clustering, but the authors do not report how much variance is explained by PC1 and PC2, nor do they perform any statistical test to confirm that the clustering is significant. The identification of "unique edges" is based on a simple set operation (removing common edges), which may not be statistically meaningful.
+  - **Why it matters** The network analysis is used to support a mechanistic hypothesis about Helix 6. If the methodology is not rigorous, the structural interpretation is weakened, and the link between ΔΔG and Helix 6 position becomes speculative.
+  - **Resolution test** Provide more details on the network analysis parameters and robustness. Report variance explained by principal components. Perform permutation tests or bootstrap analyses to assess the significance of the clustering and the uniqueness of edges. Consider whether the observed differences in Helix 6 position could be due to crystal packing or other artifacts rather than ligand-induced conformational changes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and practical utility
+  - **Claim pointer** The authors propose ΔΔG as a novel computational tool that can be applied to LRH-1 drug screens to prioritize compounds for resource-intensive secondary screening.
+  - **Evidence point** Discussion section
+  - **Concern** The study is retrospective, using compounds already identified as binders from a primary screen. The practical utility of ΔΔG for prioritizing compounds in a prospective screen is not demonstrated. The authors do not address how ΔΔG would perform on a diverse chemical library where most compounds are not binders. The correlation, even if real, is modest (r values around 0.3-0.4), which may not provide sufficient discrimination for practical prioritization.
+  - **Why it matters** The stated practical value of the work depends on its utility in real screening campaigns. A retrospective correlation on a small, biased set of compounds does not establish prospective utility.
+  - **Resolution test** Discuss the expected performance of ΔΔG in a prospective screen. If possible, test the metric on a set of decoy compounds or compounds known to be inactive. Provide a clear statement of the limitations of the retrospective approach.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Figure 3D
+  - **Evidence pointer** Figure 3D, text in Results
+  - **Issue** The text states "we noted some compounds had large differences in binding energy to the isolated LBD vs. full-length LRH-1, and those compounds appeared to more frequently regulate full-length LRH-1 in the wet lab assays." This observation is presented as the motivation for deriving ΔΔG, but the figure showing this initial observation (Figure 3D) shows a non-significant trend. The narrative would be clearer if the authors explicitly acknowledged that the initial observation was qualitative and that the quantitative analysis followed.
+  - **Required correction** Clarify the reasoning for deriving ΔΔG, distinguishing between the qualitative observation and the subsequent quantitative analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Spearman correlations
+  - **Evidence pointer** Figures 4, 7, 8
+  - **Issue** The authors report one-tailed Spearman p-values, justified by the positive slope of initial regressions. This is a post-hoc justification and may inflate the apparent significance. Two-tailed tests are more conservative and standard.
+  - **Required correction** Report two-tailed p-values for all Spearman correlations, or provide a pre-specified hypothesis that justifies one-tailed tests.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Supplemental spreadsheets
+  - **Evidence pointer** Data Availability section
+  - **Issue** The manuscript relies heavily on supplemental spreadsheets that are not provided for review. This limits the ability to verify the analyses.
+  - **Required correction** Ensure all supplemental data are made available for review and publication.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "ΔΔG"
+  - **Evidence pointer** Throughout
+  - **Issue** The term ΔΔG is conventionally used in biochemistry to denote the difference in free energy changes (e.g., between a mutant and wild-type protein). Here it is used to denote a difference in docking scores between two different protein models. This could be confusing to readers.
+  - **Required correction** Consider using a different term, such as "ΔΔScore" or "docking score difference," to avoid confusion with the established thermodynamic meaning of ΔΔG.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Full-length LRH-1 model
+  - **Evidence pointer** Methods section
+  - **Issue** The full-length LRH-1 model (PDB_DEV: 00000035) is described as an "integrative model" but no details are provided on how it was generated, its resolution, or its validation. This is important for assessing the reliability of docking results to this model.
+  - **Required correction** Provide a brief description of the model generation and validation, or a reference to the original publication.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 10
+  - **Evidence pointer** Figure 10
+  - **Issue** The PCA plot in Figure 10A does not show the percentage of variance explained by each principal component, making it difficult to assess how much of the total variance is captured in the plot.
+  - **Required correction** Add variance percentages to the axis labels of the PCA plot.
+
+## Risk / unsupported claims
+- The claim that ΔΔG is a "novel computational tool" with practical utility for prioritizing compounds in LRH-1 drug screens is not fully supported, as the study is retrospective and the correlation is modest.
+- The mechanistic interpretation linking ΔΔG to Helix 6 position is speculative and based on network analyses that are not fully validated.
+- The claim that compounds with high ΔΔG values "more frequently regulated LRH-1" is based on analyses that may suffer from pseudoreplication, as individual wells were treated as independent events.
+- The exclusion of compound VU0656093 is justified by its extreme docking scores, but the potential impact of this exclusion on the overall correlation is not fully explored.
+- The generalizability of the ΔΔG metric to other nuclear receptors (e.g., SF-1) is speculated but not tested.

@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "39419187",
+    "doi": "10.1016/j.jad.2024.10.053",
+    "title": "Association of aging related genes and immune microenvironment with major depressive disorder."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: To study the relationship between aging related genes (ARGs) and Major Depressive Disorder (MDD). METHODS: The datasets GSE98793, GSE52790 and GSE39653 for MDD were obtained from the GEO database, and ARGs were obtained from the Human Aging Genome Resources database. Differential expression genes (DEGs) screening and GO, KEGG enrichment analysis were performed to uncover the underlying mechanisms. To identify key ARGs associated with MDD (key ARG-DEGs), we employed machine learning methods such as LASSO, SVM, and Random Forest, as well as the plug-ins CytoHubba-MCC and MCODE methods. SsGSEA was used to analyze the immune infiltration of MDD and healthy controls. Furthermore, we created risk prediction nomograms model and ROC curves to assess not only the ability of key ARG-DEGs to diagnose MDD, but also predicted miRNAs and transcription factors (TFs) that might interact. Finally, a two-sample Mendelian randomization (MR) study was performed to confirm the association of identified key ARG-DEGs with depression. RESULTS: DEGs of ARGs between MDD and healthy controls led to the identification of eight ARG-DEGs. GO and KEGG analysis revealed that the pathways associated with these eight ARG-DEGs were primarily concentrated in Foxo pathway, JAK-STAT pathway, Pl3K-AKT pathway, and metabolic diseases. A comprehensive analysis further narrowed down the 8 ARG-DEGs to 4 key ARG-DEGs: MMP9, IL7R, S100B, and EGF. Immune infiltration analysis indicated significant differences in CD8(+) T cells, macrophages, neutrophils, Th2 cells, and TIL cells between MDD and control groups, correlating with these four key ARG-DEGs. Based on these four key ARG-DEGs, a risk prediction model for MDD was developed. The miRNA-TF-mRNA interaction network of the key ARG-DEGs highlights the complexity of the regulatory process, providing valuable insights for future related research. The MR study suggested a potential causal relationship between MMP9 and the risk of depression. CONCLUSION: The process of aging, immune dysregulation, and MDD are closely interconnected. MMP9, IL7R, S100B, and EGF may be used as novel diagnostic biomarkers and potential therapeutic targets for MDD, especially MMP9.",
+    "keywords": [
+      "Aging-related genes",
+      "Diagnostic model",
+      "Immune infiltration",
+      "Machine learning",
+      "Major depressive disorder"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Major Depressive Disorder/genetics/immunology",
+      "*Aging/genetics/immunology",
+      "Gene Expression Profiling",
+      "MicroRNAs/genetics",
+      "Machine Learning",
+      "Transcription Factors/genetics",
+      "Databases, Genetic",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yan, Bo",
+        "Liao, Pan",
+        "Han, Zhaoli",
+        "Zhao, Jing",
+        "Gao, Han",
+        "Liu, Yuan",
+        "Chen, Fanglian",
+        "Lei, Ping"
+      ],
+      "short_names": [
+        "Yan B",
+        "Liao P",
+        "Han Z",
+        "Zhao J",
+        "Gao H",
+        "Liu Y",
+        "Chen F",
+        "Lei P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Geriatrics, Tianjin Medical University General Hospital, Anshan Road No. 154, Tianjin 300052, China; Key Laboratory of Post-Trauma Neuro-Repair and Regeneration in Central Nervous System, Tianjin Key Laboratory of Injuries, Variations and Regeneration of Nervous System, Tianjin Neurological Institute, Ministry of Education, Tianjin 300052, China.",
+        "Key Laboratory of Post-Trauma Neuro-Repair and Regeneration in Central Nervous System, Tianjin Key Laboratory of Injuries, Variations and Regeneration of Nervous System, Tianjin Neurological Institute, Ministry of Education, Tianjin 300052, China; School of Medicine, Nankai University, Tianjin 300192, China.",
+        "Department of Geriatrics, Tianjin Medical University General Hospital, Anshan Road No. 154, Tianjin 300052, China; Key Laboratory of Post-Trauma Neuro-Repair and Regeneration in Central Nervous System, Tianjin Key Laboratory of Injuries, Variations and Regeneration of Nervous System, Tianjin Neurological Institute, Ministry of Education, Tianjin 300052, China.",
+        "Department of Geriatrics, Tianjin Medical University General Hospital, Anshan Road No. 154, Tianjin 300052, China; Key Laboratory of Post-Trauma Neuro-Repair and Regeneration in Central Nervous System, Tianjin Key Laboratory of Injuries, Variations and Regeneration of Nervous System, Tianjin Neurological Institute, Ministry of Education, Tianjin 300052, China.",
+        "Department of Geriatrics, Tianjin Medical University General Hospital, Anshan Road No. 154, Tianjin 300052, China; Key Laboratory of Post-Trauma Neuro-Repair and Regeneration in Central Nervous System, Tianjin Key Laboratory of Injuries, Variations and Regeneration of Nervous System, Tianjin Neurological Institute, Ministry of Education, Tianjin 300052, China.",
+        "Institute of Mental Health, Tianjin Anding Hospital, Mental Health Center of Tianjin Medical University, Tianjin 300222, China.",
+        "Department of Geriatrics, Tianjin Medical University General Hospital, Anshan Road No. 154, Tianjin 300052, China; Key Laboratory of Post-Trauma Neuro-Repair and Regeneration in Central Nervous System, Tianjin Key Laboratory of Injuries, Variations and Regeneration of Nervous System, Tianjin Neurological Institute, Ministry of Education, Tianjin 300052, China. Electronic address: chenfanglian1976@163.com.",
+        "Department of Geriatrics, Tianjin Medical University General Hospital, Anshan Road No. 154, Tianjin 300052, China; Key Laboratory of Post-Trauma Neuro-Repair and Regeneration in Central Nervous System, Tianjin Key Laboratory of Injuries, Variations and Regeneration of Nervous System, Tianjin Neurological Institute, Ministry of Education, Tianjin 300052, China; School of Medicine, Nankai University, Tianjin 300192, China. Electronic address: leiping1974@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yan, Bo",
+        "short_name": "Yan B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Tianjin Medical University General Hospital, Anshan Road No. 154, Tianjin 300052, China; Key Laboratory of Post-Trauma Neuro-Repair and Regeneration in Central Nervous System, Tianjin Key Laboratory of Injuries, Variations and Regeneration of Nervous System, Tianjin Neurological Institute, Ministry of Education, Tianjin 300052, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Pan",
+        "short_name": "Liao P",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Post-Trauma Neuro-Repair and Regeneration in Central Nervous System, Tianjin Key Laboratory of Injuries, Variations and Regeneration of Nervous System, Tianjin Neurological Institute, Ministry of Education, Tianjin 300052, China; School of Medicine, Nankai University, Tianjin 300192, China."
+        ]
+      },
+      {
+        "full_name": "Han, Zhaoli",
+        "short_name": "Han Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Tianjin Medical University General Hospital, Anshan Road No. 154, Tianjin 300052, China; Key Laboratory of Post-Trauma Neuro-Repair and Regeneration in Central Nervous System, Tianjin Key Laboratory of Injuries, Variations and Regeneration of Nervous System, Tianjin Neurological Institute, Ministry of Education, Tianjin 300052, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jing",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Tianjin Medical University General Hospital, Anshan Road No. 154, Tianjin 300052, China; Key Laboratory of Post-Trauma Neuro-Repair and Regeneration in Central Nervous System, Tianjin Key Laboratory of Injuries, Variations and Regeneration of Nervous System, Tianjin Neurological Institute, Ministry of Education, Tianjin 300052, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Han",
+        "short_name": "Gao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Tianjin Medical University General Hospital, Anshan Road No. 154, Tianjin 300052, China; Key Laboratory of Post-Trauma Neuro-Repair and Regeneration in Central Nervous System, Tianjin Key Laboratory of Injuries, Variations and Regeneration of Nervous System, Tianjin Neurological Institute, Ministry of Education, Tianjin 300052, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuan",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Mental Health, Tianjin Anding Hospital, Mental Health Center of Tianjin Medical University, Tianjin 300222, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Fanglian",
+        "short_name": "Chen F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Tianjin Medical University General Hospital, Anshan Road No. 154, Tianjin 300052, China; Key Laboratory of Post-Trauma Neuro-Repair and Regeneration in Central Nervous System, Tianjin Key Laboratory of Injuries, Variations and Regeneration of Nervous System, Tianjin Neurological Institute, Ministry of Education, Tianjin 300052, China. Electronic address: chenfanglian1976@163.com."
+        ]
+      },
+      {
+        "full_name": "Lei, Ping",
+        "short_name": "Lei P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Tianjin Medical University General Hospital, Anshan Road No. 154, Tianjin 300052, China; Key Laboratory of Post-Trauma Neuro-Repair and Regeneration in Central Nervous System, Tianjin Key Laboratory of Injuries, Variations and Regeneration of Nervous System, Tianjin Neurological Institute, Ministry of Education, Tianjin 300052, China; School of Medicine, Nankai University, Tianjin 300192, China. Electronic address: leiping1974@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of affective disorders"
+    ],
+    "journal_abbrev": [
+      "J Affect Disord"
+    ],
+    "pub_date": "2025 Jan 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/18 07:19",
+    "fetched_at": "2026-09-30 04:26:09"
+  },
+  "links": {
+    "cites": [
+      "42175431",
+      "41964403",
+      "41601671",
+      "41328062",
+      "40596265",
+      "40427032",
+      "40422915",
+      "40108056"
+    ],
+    "refs": [],
+    "similar": [
+      "39419187",
+      "40253457",
+      "37633529",
+      "39713769",
+      "39062507",
+      "38993198",
+      "39953304",
+      "39375405",
+      "36353576",
+      "39650552",
+      "39284527",
+      "39142001",
+      "40312440",
+      "38863714",
+      "40313967",
+      "35468096",
+      "33238838",
+      "38608447",
+      "39341981",
+      "39385284",
+      "38754597",
+      "39763672",
+      "39501335",
+      "39403102",
+      "34391068",
+      "40078458",
+      "37098514",
+      "38509535",
+      "40033248",
+      "37418066",
+      "36394763",
+      "40055592",
+      "33915220",
+      "38604455",
+      "38874508",
+      "39586719",
+      "38755543",
+      "40313958",
+      "37503333",
+      "34414022",
+      "39438957",
+      "39556279",
+      "35379119",
+      "39176085",
+      "38839020",
+      "40286923",
+      "38957433",
+      "35757392",
+      "39251231",
+      "36003956",
+      "37235790",
+      "39976098",
+      "36532015",
+      "39754246",
+      "39086489",
+      "37847347",
+      "39346628",
+      "39396400",
+      "39394121",
+      "35576491",
+      "33622334",
+      "38268224",
+      "35818227",
+      "40024299",
+      "37760894",
+      "37942417",
+      "39697326",
+      "40238799",
+      "40108736",
+      "39351239",
+      "40119934",
+      "37065487",
+      "38919616",
+      "38218255",
+      "38319987",
+      "36994393",
+      "38686376",
+      "39509434",
+      "39069636",
+      "36291136",
+      "38062833",
+      "39828023",
+      "35842645",
+      "33751989",
+      "34553293",
+      "38259479",
+      "36627660",
+      "37325630",
+      "39776247",
+      "38951833",
+      "38440848",
+      "34394704",
+      "36386585",
+      "36104591",
+      "38371524",
+      "40251588",
+      "39071134",
+      "38722514",
+      "39507054",
+      "36704339"
+    ],
+    "review": [
+      "39419187",
+      "37847347"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0165-0327(24)01744-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0165-0327(24)01744-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

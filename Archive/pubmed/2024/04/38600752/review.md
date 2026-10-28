@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use molecular dynamics or related computer simulations based on a precatalytic SpCas9:sgRNA:dsDNA X-ray structure to compute changes in PAM binding affinity for SpCas9 variants. They report that the E1219V mutation relaxes PAM stringency by modulating water accessibility and promoting new interactions with T-rich noncanonical PAMs, that R1333 and R1335 enforce canonical NGG recognition, that R1335A abolishes direct protein–PAM contacts and editing activity, that the R1335A/E1219V double mutant enhances DNA binding via desolvated electrostatic contacts, and that these thermodynamic findings link energetics, structure, and activity for rational design of improved Cas9 variants.
+- **Visible evidence base** Abstract text only; no methods, simulation details, error estimates, structural figures, or quantitative affinity data are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, force field choices, convergence criteria, free energy calculation protocols, structural figures, tables of computed values, experimental validation data, and any statistical analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational hypothesis linking specific SpCas9 mutations to altered PAM recognition thermodynamics. The proposed mechanism for E1219V, involving water-mediated tuning and new noncanonical interactions, is mechanistically interesting and potentially useful for genome editing design. However, the abstract alone provides no quantitative results, no methodological detail, and no validation against experimental data. The central claims, while coherent, cannot be assessed for technical soundness or robustness from the supplied material. The work may be of interest to computational biophysicists and genome editing researchers, but the evidence base is insufficient to establish the case as presented.
+- **Who would be interested in the results, and why** Computational biophysicists studying protein–DNA recognition and free energy methods would be interested in the thermodynamic framework. Genome editing researchers, particularly those engineering Cas9 variants with expanded PAM compatibility, would value mechanistic insights that could guide rational mutagenesis. The potential link between desolvation, electrostatics, and binding affinity is broadly relevant to protein engineering.
+- **Major strengths** The abstract addresses a significant gap in understanding the energetics of PAM recognition, which is often treated only structurally. The proposed dual role of water accessibility and specific arginine contacts provides a testable mechanistic model. The inclusion of a double mutant with predicted enhanced binding adds a nontrivial prediction that could be experimentally verified.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "we calculated the change in the PAM binding affinity in response to SpCas9 mutations using computer simulations" and that specific thermodynamic effects explain "varied DNA cleavage activity."
+  - **Evidence pointer** Abstract only; methods and results not provided
+  - **Concern** No methodological details are given for the simulations, including the force field, water model, simulation length, sampling method, free energy calculation approach (e.g., MM-PBSA, FEP, TI), or convergence criteria. Without these, the reliability of the computed affinity changes cannot be evaluated.
+  - **Why it matters** Free energy calculations are highly sensitive to protocol choices and sampling quality. Unconverged or poorly parameterized simulations can produce qualitatively incorrect trends, undermining the central mechanistic claims.
+  - **Resolution test** Provide a detailed methods section with simulation parameters, convergence metrics, and error bars for all computed free energy differences. Ideally, include a comparison with experimental binding or cleavage data for at least one variant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that "R1335A substitution completely disrupts the direct interaction between SpCas9 and PAM sequences (canonical or noncanonical), accounting for the loss of editing activity" and that the double mutant "boosts DNA binding affinity."
+  - **Evidence pointer** Abstract only; no quantitative data or experimental references provided
+  - **Concern** The abstract asserts a direct causal link between computed binding affinity and experimental editing activity, but no quantitative values, statistical measures, or experimental comparisons are presented. The claim that the double mutant boosts binding affinity appears to contradict the single R1335A loss-of-function, and the resolution of this apparent paradox is not explained.
+  - **Why it matters** The central novelty is the thermodynamic explanation of variant activity. Without quantitative affinity values and a clear comparison to experimental outcomes, the claims remain speculative and the proposed "direct link" is not established.
+  - **Resolution test** Present computed binding free energies for wild-type, E1219V, R1335A, and the double mutant, with uncertainties. Compare these to published experimental cleavage or binding data, and explicitly discuss how the double mutant's enhanced binding reconciles with R1335A's loss of activity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim that "E1219V mutation fine-tunes the water accessibility in the PAM binding pocket and promotes new interactions in the SpCas9:noncanonical T-rich PAM."
+  - **Evidence pointer** Abstract only; structural analysis not provided
+  - **Concern** The mechanistic description of water accessibility and new interactions is qualitative. No structural metrics, such as water occupancy, hydrogen bond distances, or interaction energies, are reported to support the proposed fine-tuning.
+  - **Why it matters** The proposed water-mediated mechanism is a key differentiator from prior structural studies. Without quantitative structural analysis, the mechanism is not distinguishable from alternative explanations, such as direct hydrophobic effects or backbone rearrangements.
+  - **Resolution test** Include figures or tables showing water occupancy maps, radial distribution functions, or interaction energy decompositions for wild-type versus E1219V, with clear statistical comparisons.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title and abstract framing
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The title poses a question, but the abstract does not explicitly state the answer in a single concluding sentence. The phrase "weakening the PAM stringency" is vague without a quantitative definition of stringency.
+  - **Required correction** Define "PAM stringency" operationally (e.g., as a free energy difference threshold) and state the main answer to the title question explicitly in the abstract's final sentence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental context
+  - **Evidence pointer** Abstract, no experimental data mentioned
+  - **Issue** The abstract references "varied DNA cleavage activity" but does not cite or summarize the experimental source of this activity data, leaving the reader unable to judge the relevance of the computational results.
+  - **Required correction** Add a brief statement of which experimental studies or assays the computed activities are compared against, or explicitly state that the comparison is qualitative and based on published literature.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, "desolvated pocket"
+  - **Issue** The term "desolvated pocket" is used without defining the degree of desolvation or how it was quantified, which may confuse readers unfamiliar with the simulation context.
+  - **Required correction** Clarify whether "desolvated" refers to reduced water occupancy relative to wild-type, and provide a quantitative measure or reference to a figure.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing simulation methodology and convergence evidence), R1-M2 (lack of quantitative affinity values and experimental comparison), R1-M3 (absence of structural metrics for the water-mediated mechanism)
+- **Assessment against Nature-style criteria** 
+  - Originality: The proposed water-accessibility-based mechanism for E1219V is potentially novel, but the abstract does not distinguish it clearly from prior structural hypotheses, so originality is plausible but not demonstrated.
+  - Scientific importance: Understanding PAM recognition energetics is important for Cas9 engineering, and the double mutant prediction is of practical interest. However, the importance is diminished by the lack of experimental validation.
+  - Interdisciplinary readership: The topic bridges computational chemistry, structural biology, and genome editing, which could attract a broad audience. The abstract is written accessibly but lacks the quantitative detail needed for expert assessment.
+  - Technical soundness: Not assessable from the abstract alone. The absence of methods and error analysis is a critical gap.
+  - Readability for nonspecialists: The abstract is generally clear and avoids excessive jargon, but terms like "desolvated pocket" and "PAM stringency" could be better defined.
+- **Recommendation posture** Currently not established from the provided evidence. The mechanistic hypothesis is interesting and worth pursuing, but the abstract alone does not provide sufficient methodological or quantitative support. A revised manuscript with full methods, error estimates, and experimental comparison could change this assessment to supportive.
+
+## Risk / unsupported claims
+- The claim that E1219V "weakens PAM stringency" via water accessibility is unsupported without quantitative water analysis.
+- The claim that R1335A "completely disrupts" all direct interactions is unsupported without interaction energy data.
+- The claim that the double mutant "boosts DNA binding affinity" is unsupported without computed free energy values.
+- The "direct link between energetics, structures, and activity" is asserted but not demonstrated with any quantitative correlation.
+- All quantitative claims about binding affinity changes are unverifiable from the abstract.

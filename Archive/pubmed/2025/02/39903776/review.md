@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supporting information references.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims relative to the presented evidence, and alignment with Nature-style criteria. No assessment of editorial fit for a specific journal.
+- **Shared manuscript claim summary** The authors present AkitaV2, an updated convolutional neural network model for predicting 3D genome folding from DNA sequence. They use this model to interpret the sequence grammar of CTCF-mediated genome folding, reporting that (i) only a small fraction of CTCF sites are impactful for genome folding, (ii) flanking sequences around the core CTCF motif strongly modulate site impact, (iii) core and flanking contributions are largely additive and multiplicative across sites, and (iv) multi-motif grammar is governed by site number, orientation, and spacing rather than intrinsic motif specialization. They also report that CTCF ChIP-seq correlates poorly with predicted functional impact, while single-molecule footprinting occupancy correlates well.
+- **Visible evidence base** Full text with figures referenced (Fig 1 through Fig 7, S1 through S7), methods section, and supporting information references. No raw data, code, or supplementary files were provided for direct inspection.
+- **Missing materials affecting confidence** The actual figures and supplementary figures/tables were not available for review. Model weights, training code, and hyperparameter specifications are referenced via an external URL but not provided. Raw prediction outputs, statistical test details, and exact sample sizes for some analyses are not fully specified in the text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial and well-motivated computational effort to interpret the sequence determinants of CTCF-mediated genome folding using an updated deep learning model. The work is technically sound in its core approach, and the findings are likely to be of interest to the 3D genome and gene regulation communities. However, several claims, particularly regarding the generality of the "grammar" rules and the biological interpretation of the model's predictions, are not fully established from the evidence presented. The lack of access to figures and supplementary materials limits a complete evaluation of the quantitative results. The manuscript would benefit from clearer presentation of statistical methods and a more cautious framing of some conclusions.
+- **Who would be interested in the results, and why** Researchers studying 3D genome organization, CTCF biology, loop extrusion mechanisms, and the application of deep learning to genomics. The work provides a framework for interpreting neural network models of genome folding and generates specific, testable predictions about CTCF site strength and multi-site grammar that could guide experimental design in genome engineering and gene regulation studies.
+- **Major strengths**
+  1. The update to AkitaV2 with cross-species training is a logical and potentially powerful extension, and the ensemble approach for robustness is commendable.
+  2. The use of in silico perturbation and insertion screens is a creative and high-throughput approach to dissect sequence grammar, complementing experimental limitations.
+  3. The finding that CTCF ChIP-seq correlates poorly with predicted functional impact, while single-molecule footprinting correlates well, is an important and potentially field-shifting observation.
+  4. The systematic exploration of multi-motif grammar (number, spacing, orientation) provides a clear and useful framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "only a small fraction of genomic sites are impactful" for genome folding.
+  - **Evidence pointer** Results section "Virtual insertions probe CTCF influences independently of genomic context", Fig 3B, location not provided.
+  - **Concern** The claim of a "small fraction" of impactful sites is based on the distribution of insertion scores for a curated set of 7,560 CTCF sites, of which only 1,500 were selected for deeper analysis. The criteria for selecting this subset (1250 highest + 250 random) are not clearly justified, and the threshold for what constitutes "impactful" is not defined. Without a clear definition and a proper statistical comparison to a null distribution (e.g., random sequences), the claim that the fraction is "small" is not quantitatively established.
+  - **Why it matters** This is a central claim of the paper, as it suggests that most CTCF sites are functionally redundant or weak. If the threshold is arbitrary or the subset is biased, the conclusion could be misleading for interpreting experimental data and prioritizing functional studies.
+  - **Resolution test** The authors should define a clear, pre-specified threshold for "impactful" (e.g., based on a null distribution of scores from random or scrambled sequences) and report the fraction of sites exceeding this threshold in the full set of 7,560 sites. They should also justify the selection of the 1,500-site subset and show that the conclusions are robust to this selection.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "core and flanking nucleotides contribute largely additively to the overall impact of a site" and that "sites created as combinations of different core and flanking sequences have impacts proportional to the product of their average impacts."
+  - **Evidence pointer** Results section "Core motifs and flanking sequences are broadly compatible", Fig 4, location not provided.
+  - **Concern** The evidence for additivity and multiplicativity is based on a matrix of insertion scores for combinations of cores and flanks, analyzed via SVD. While the first singular value capturing most of the variance is suggestive, the manuscript does not report the proportion of variance explained by the first singular value, nor does it provide a statistical test for the deviation from a purely multiplicative model. The claim of "broadly compatible" is vague and not quantitatively supported.
+  - **Why it matters** The additivity/multiplicativity claim is a key part of the proposed "grammar." If the model is not strictly multiplicative, the interpretation of how core and flanking sequences combine to determine site strength could be incorrect, affecting predictions for synthetic or natural sequences.
+  - **Resolution test** The authors should report the variance explained by the first singular value and perform a formal test of the multiplicative model (e.g., comparing the full SVD reconstruction to a rank-1 approximation with a goodness-of-fit metric). They should also discuss the biological implications of any deviations from additivity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "pattern formation is governed by the orientation and spacing of these sites, rather than any inherent specialization of the CTCF motifs themselves."
+  - **Evidence pointer** Results section "The positioning and orientation of multiple CTCF sites specifies a broad range of folding patterns", Fig 6 and Fig 7, location not provided.
+  - **Concern** The conclusion that there is no "inherent specialization" is based on a comparison of dot-forming versus boundary-forming abilities of a set of CTCF sites. However, the analysis appears to be limited to a relatively small number of sites (the 1,500 strong sites) and specific spacing/orientation configurations. The lack of a systematic test across a wider range of sites and configurations, and the absence of a statistical comparison (e.g., correlation between dot and boundary scores), weakens this claim.
+  - **Why it matters** This is a strong negative claim about the lack of functional specialization of CTCF motifs. If incorrect, it could mislead efforts to predict genome folding from sequence alone, as it would imply that only the arrangement of sites matters, not their specific sequence identity.
+  - **Resolution test** The authors should perform a more comprehensive analysis, including a wider range of sites (including weak ones) and a statistical test for the correlation between dot and boundary scores. They should also consider whether the model's predictions are consistent with known examples of specialized CTCF sites in the literature.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "influential sequences specifying TAD boundaries may not always align with insulation minima" based on the analysis of 4,474 mouse boundaries.
+  - **Evidence pointer** Results section "Influential boundary sequences are often outside insulation minima", Fig 7G, location not provided.
+  - **Concern** The analysis uses a threshold of ±28kb to define "nearby" sensitive bins, which is quite large (over 13 bins of 2kb). The claim that boundaries are "often" sensitive in a nearby bin but not at the minima is based on this broad window. The biological significance of a sensitive bin 20kb away from the insulation minimum is unclear, and the analysis does not account for the possibility that the insulation minimum is not the only functionally relevant position.
+  - **Why it matters** This finding has implications for interpreting experimental perturbations of TAD boundaries. If the model predicts that the most important sequences are not at the insulation minimum, experimental designs might need to target different regions. However, the current analysis does not provide a clear, quantitative definition of what constitutes a "misaligned" boundary.
+  - **Resolution test** The authors should provide a more detailed analysis of the distribution of sensitive bins relative to the insulation minimum, perhaps using a finer resolution and a more rigorous statistical test for enrichment. They should also discuss the potential mechanisms that could explain this offset.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "SMF CTCF Sites"
+  - **Evidence pointer** Methods, location not provided.
+  - **Issue** The text states that correlations "do not change after filtering for a minimum distance of 200 bp or 500 bp between CTCF sites." This is a robustness check, but the exact correlation values are not reported in the text.
+  - **Required correction** Report the correlation values for the unfiltered and filtered sets to allow readers to assess the robustness claim.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Cross-species model"
+  - **Evidence pointer** Methods, location not provided.
+  - **Issue** The model architecture is described as "the same neural network structure and weights as described for Akita," with a modification to the last layer. However, the original Akita architecture is not described in this manuscript, and the provided URL may not be accessible to all readers.
+  - **Required correction** Provide a brief description of the architecture or a more accessible reference, and ensure the URL is stable and publicly accessible.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "Cross species model"
+  - **Evidence pointer** S1B–S1E Fig, location not provided.
+  - **Issue** The performance improvement is reported as a change in Pearson R (0.66 vs. 0.61), but no confidence intervals or significance tests are provided.
+  - **Required correction** Report confidence intervals or a statistical test for the difference in performance.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, location not provided.
+  - **Issue** The discussion speculates that the low correlation with ChIP-seq "either stems from technical limitations of ChIP-seq for CTCF, or that CTCF ChIP-seq quantifies a population of CTCFs that are chromatin associated, yet not productively bound." This is presented as a binary choice, but other explanations are possible.
+  - **Required correction** Acknowledge that other explanations are possible and avoid over-interpreting the correlation results.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The definition of "impactful" sites and the selection of the 1,500-site subset need to be clarified and justified.
+  - R1-M2: The statistical evidence for additivity/multiplicativity needs to be strengthened with quantitative metrics.
+  - R1-M3: The claim of no inherent specialization needs a more comprehensive and statistically rigorous test.
+  - R1-M4: The analysis of boundary sensitivity needs a clearer definition of "misalignment" and a more detailed statistical treatment.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is original in its application of an updated deep learning model to systematically dissect CTCF sequence grammar. The use of in silico insertion and perturbation screens is a creative extension of existing interpretability methods. However, the conceptual framework of CTCF grammar is not entirely new, and the findings largely confirm and extend existing experimental observations.
+  - **Scientific importance** The findings have the potential to be important for the field, particularly the observation about ChIP-seq versus single-molecule footprinting. The proposed grammar rules, if validated, could provide a predictive framework for genome engineering. However, the importance is somewhat tempered by the lack of experimental validation and the reliance on a model whose biological accuracy is not fully established.
+  - **Interdisciplinary readership** The work is likely to appeal to a specialized audience of computational biologists and 3D genome researchers. The methods and findings may be less accessible to a broader biological audience without significant background in deep learning and Hi-C analysis.
+  - **Technical soundness** The core computational approach is sound, and the use of an ensemble and robustness checks is commendable. However, several key claims lack rigorous statistical support, and the lack of access to figures and code limits a full assessment of technical quality.
+  - **Readability for nonspecialists** The manuscript is generally well-written, but the methods and results sections are dense and assume significant prior knowledge of deep learning and 3D genomics. The abstract is clear, but the main text may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a valuable framework and several interesting findings, but the central claims about the fraction of impactful sites and the additivity/multiplicativity of sequence contributions need to be more rigorously established. The authors should also provide access to the figures and code to allow for a complete evaluation.
+
+## Risk / unsupported claims
+- The claim that "only a small fraction of genomic sites are impactful" is not quantitatively supported without a defined threshold and null distribution.
+- The claim that "core and flanking nucleotides contribute largely additively" is not statistically tested.
+- The claim that "pattern formation is governed by orientation and spacing, rather than any inherent specialization" is a strong negative claim that is not comprehensively tested.
+- The claim that "influential sequences specifying TAD boundaries may not always align with insulation minima" is based on a broad definition of "nearby" and lacks a clear biological interpretation.
+- The speculation about the biological meaning of the ChIP-seq versus single-molecule footprinting correlation is not directly tested.

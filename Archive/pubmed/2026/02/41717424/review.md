@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report the computational design and in silico characterization of a chimeric fusion protein combining human p53 with the NAC domain of Arabidopsis thaliana SOG1. The fusion protein is stated to be 336 amino acids (37.6 kDa), modeled via ClusPro and HDOCK docking, and assessed by 100 ns molecular dynamics simulations. Claims include favorable binding free energy with MDM2 and BRCA1 (BRCT domain), intact DNA-binding capability (PDB ID 1TUP), and potential utility in cancer therapy as a cross-kingdom therapeutic protein.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, validation metrics, or structural coordinates are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation trajectories, binding free energy values, statistical analyses, and any comparative benchmarks against native p53 or SOG1
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting idea, namely the fusion of a plant transcription factor domain with a human tumor suppressor to enhance DNA damage response. However, the current evidence base is insufficient to support the central claims. No quantitative results are reported, and the abstract lacks methodological detail necessary to evaluate the validity of the docking and simulation outcomes. The claim of "favorable binding free energy" is unsubstantiated without numerical values or error estimates. The biological rationale for fusing the SOG1 NAC domain to full-length p53 is not clearly articulated, and the functional implications are speculative. The manuscript may have potential, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational protein engineering, cancer biology, and DNA damage response pathways may find the cross-kingdom fusion concept of interest. Those working on p53-based therapeutics or plant stress signaling could also be curious about the translational potential. However, interest would be contingent on rigorous validation of the computational predictions and a clear demonstration of functional advantage over native p53.
+- **Major strengths** The idea of combining plant and animal DDR regulators is novel and could open new avenues in therapeutic protein design. The use of established docking tools (ClusPro, HDOCK) and MD simulations suggests a reasonable computational workflow, assuming the methods were applied correctly. The focus on interactions with MDM2 and BRCA1 is biologically relevant to p53 function.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims "favorable binding free energy with important regulatory partners MDM2 and BRCA1 (BRCT domain)" and "docked favorably with DNA (PDB ID 1TUP), demonstrating that DNA-binding capability remained intact."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No numerical data are presented for binding free energies, docking scores, or MD simulation metrics. The term "favorable" is qualitative and cannot be assessed without values, units, or comparison to controls. The claim that DNA-binding capability "remained intact" is inferred from a docking result, which does not establish functional integrity.
+  - **Why it matters** The central premise of the study rests on the fusion protein retaining p53-like function while gaining enhanced DDR activity. Without quantitative evidence, the reader cannot determine whether the fusion protein is stable, functional, or superior to native p53. The absence of comparative data against p53 alone or SOG1 alone undermines the claim of enhanced efficacy.
+  - **Resolution test** Provide binding free energy values (e.g., MM-PBSA or MM-GBSA) with standard deviations, docking scores for the fusion protein versus native p53 and SOG1, and RMSD/RMSF plots from MD simulations. Demonstrate that the fusion protein binds DNA with affinity comparable to or better than native p53, and that MDM2/BRCA1 interactions are not disrupted by the fusion.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological rationale
+  - **Claim pointer** The abstract states the fusion is "meant to increase the efficacy of DDR and apoptosis signaling" and proposes "a new strategy for treating cancer."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The mechanistic rationale for fusing the SOG1 NAC domain to p53 is not explained. SOG1 and p53 operate in different kingdoms with distinct regulatory networks. The abstract does not specify how the NAC domain would enhance p53 function, whether the fusion preserves p53's transactivation domains, or how the chimeric protein would be regulated in human cells. The therapeutic claim is speculative without functional validation.
+  - **Why it matters** A fusion protein must have a clear mechanistic advantage to justify its development. If the NAC domain does not contribute a defined function in a human context, the fusion may be inert or deleterious. The abstract does not address potential immunogenicity, stability in human serum, or delivery challenges, which are critical for any therapeutic claim.
+  - **Resolution test** Clarify the proposed mechanism by which SOG1's NAC domain enhances p53 activity. Provide evidence from the literature or preliminary data that the NAC domain can function in a heterologous system. If therapeutic potential is claimed, include a discussion of delivery, stability, and specificity, or temper the claim to a proof-of-concept study.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract describes "protein-protein docking approaches with ClusPro and HDOCK, followed by molecular dynamics (MD) simulations of 100 ns."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no details on the construction of the fusion protein sequence, the template structures used for modeling, the force field parameters, the solvation conditions, or the equilibration protocol for MD. The choice of 100 ns is noted, but convergence is not demonstrated. Without these details, the reproducibility of the study is impossible.
+  - **Why it matters** Computational studies must be reproducible to be credible. The absence of methodological specifics prevents reviewers and readers from verifying the results. The 100 ns timescale may be insufficient for observing conformational changes relevant to protein function, and the abstract does not address this limitation.
+  - **Resolution test** Include a detailed methods section with the fusion construct design, template PDB IDs, software versions, force fields, water models, temperature and pressure coupling, and equilibration steps. Show RMSD convergence plots and provide a rationale for the simulation length.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract sentence structure
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The sentence "we have designed and through computational characterization of a novel chimeric fusion protein" is grammatically awkward and obscures the intended meaning.
+  - **Required correction** Revise to "we designed and computationally characterized a novel chimeric fusion protein."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "favorable"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "favorable" is subjective and not a standard quantitative descriptor in computational biology.
+  - **Required correction** Replace with specific values, such as binding free energy in kcal/mol, and include a comparison to a reference system.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Therapeutic claim
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The claim of "a new strategy for treating cancer" is premature given the purely computational nature of the study.
+  - **Required correction** Soften to "a potential strategy" or "a proof-of-concept for future experimental validation."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence), R1-M2 (unclear biological rationale), R1-M3 (insufficient methodological detail)
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the cross-kingdom fusion concept is uncommon. Scientific importance is currently low because the claims are not substantiated with data. Interdisciplinary readership may be attracted, but the abstract does not provide enough depth for specialists in either plant biology or cancer biology to evaluate the work. Technical soundness cannot be assessed due to missing methods and results. Readability for nonspecialists is acceptable but would benefit from clearer language and a more explicit statement of the hypothesis.
+- **Recommendation posture** Currently not established from the provided evidence. The idea has potential, but the abstract alone does not support the claims. A revised manuscript with full methods, quantitative results, and a clearer mechanistic rationale would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim of "favorable binding free energy" is unsupported without numerical values.
+- The claim that DNA-binding capability "remained intact" is unsupported, as docking does not equate to function.
+- The claim of "enhanced efficacy of DDR and apoptosis signaling" is unsupported by any functional data.
+- The therapeutic claim for cancer treatment is speculative and not supported by the computational evidence.
+- The statement that this is the "first" direct fusion of plant and animal protein is unverifiable from the supplied material.

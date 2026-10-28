@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, background, methods, results, discussion, and figure/table legends. Supplementary material is referenced but not provided.
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and clarity of claims as presented in the provided text. No assessment of code, web server functionality, or supplementary data is possible without those materials.
+- **Shared manuscript claim summary** The authors present DisoFLAG, a computational method that jointly predicts protein intrinsic disorder and six disorder-associated functions (protein-, DNA-, RNA-, ion-, lipid-binding, and flexible linker) using a graph-based interaction protein language model (GiPLM). The method integrates pre-trained protein language model embeddings with a graph convolutional network that models functional correlations via an information gain-weighted adjacency matrix. The authors report superior performance over existing tools on independent test datasets and CAID2 benchmarks.
+- **Visible evidence base** Main text figures (Figs. 1–6), Tables 1–2, and referenced supplementary items (Additional file 1: Tables S1–S14, Fig. S1; Additional file 2). No supplementary data, code, or web server outputs were available for inspection.
+- **Missing materials affecting confidence** Supplementary tables and figures (S1–S14, Fig. S1), Additional file 2 data values, the standalone package, and the web server are not provided. Statistical significance details (Table S6, S8) and per-protein performance tables (S9, S10, S14) are referenced but unavailable. This limits verification of several claims, particularly regarding statistical significance and stability of performance.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology: predicting intrinsic disorder and its functional subtypes. The methodological idea of modeling functional correlations through a graph-based interaction unit is interesting and potentially useful. However, the evidence presented in the main text is insufficient to fully establish the claimed advantages. Several key comparisons lack statistical rigor, the handling of dataset redundancy and homology is not described, and the reported performance metrics are incomplete or inconsistently presented. The case study is illustrative but not quantitative. The work is potentially publishable after major revisions that address these concerns.
+- **Who would be interested in the results, and why** Researchers in protein bioinformatics, particularly those working on disorder prediction, function annotation of IDPs/IDRs, and application of protein language models. The method's joint prediction of multiple disorder functions could be of practical use for large-scale proteome annotation. The graph-based interaction modeling approach may also interest those developing multi-task learning architectures for protein sequence analysis.
+- **Major strengths** 1) The problem is well-motivated and practically relevant. 2) The GiPLM architecture is a novel combination of pre-trained language model embeddings with graph-based interaction modeling. 3) The method covers a broader range of disorder functions than most existing tools, including ion-binding which is not addressed by others. 4) The authors provide both a standalone package and a web server, which enhances usability. 5) The use of CAID2 benchmarks and independent test sets is appropriate for evaluation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that DisoFLAG achieves "relatively higher performance" and "statistically significant improvement in AUC compared to other methods" (Results, Comparison sections).
+  - **Evidence pointer** Table 2, Additional file 1: Tables S6–S8 (not provided)
+  - **Concern** The statistical significance of performance differences is claimed but the supporting data (Table S6, S8) is not available in the provided materials. Moreover, the main text does not describe the statistical test used, the number of proteins or residues compared, or how multiple testing was handled. Without this information, the claim of significant improvement cannot be evaluated.
+  - **Why it matters** Statistical significance is central to the claim that DisoFLAG outperforms existing methods. If the test is underpowered, improperly applied, or the comparison is confounded by dataset leakage, the conclusion would be invalid.
+  - **Resolution test** Provide the full statistical analysis in the main text or supplementary, including the test used, the exact p-values, the number of comparisons, and a description of how independence of test proteins was ensured. If the comparison is only on a small number of proteins, state this and discuss the power limitations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the graph-based interaction unit "significantly boosted the predictive performance" and that functional correlations contribute positively to predictions (Results, Graph-based interaction unit section).
+  - **Evidence pointer** Table 1, Fig. 3
+  - **Concern** The comparison between GiU and Seq (Table 1) shows improvements for some functions but the magnitude is modest and no confidence intervals or significance tests are provided. The LRP analysis (Fig. 3c) shows positive contributions but the methodology for aggregating relevance scores across proteins is not described. It is unclear whether the observed contributions are robust or could be an artifact of the LRP method.
+  - **Why it matters** The core methodological novelty is the graph-based interaction unit. If its benefit is not rigorously demonstrated, the contribution of the paper is weakened.
+  - **Resolution test** Provide confidence intervals or significance tests for the GiU vs. Seq comparison. Describe the LRP aggregation procedure in detail and show that the positive contributions are consistent across individual proteins, not driven by a few outliers.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CAID2 sequences were "completely unseen" by training and validation, and that it is "appropriate to directly compare" DisoFLAG results with CAID2 reported results (Results, Comparison to CAID2 section).
+  - **Evidence pointer** Methods, Dataset section; Results, Comparison to CAID2 section
+  - **Concern** The description of how sequence redundancy between the training set and CAID2 test sets was handled is insufficient. The authors state that a "thorough sequence comparison" was performed, but the method (e.g., BLAST E-value threshold, sequence identity cutoff) is not described. If any CAID2 protein shares significant sequence similarity with training proteins, the comparison would be biased.
+  - **Why it matters** Data leakage is a common pitfall in protein prediction benchmarks. If the test set is not truly independent, the reported performance is inflated and the comparison with CAID2 participants is unfair.
+  - **Resolution test** Describe the exact redundancy removal procedure, including the tool, parameters, and the number of sequences removed. Provide a list of the most similar training-test pairs and their sequence identities.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "a detailed description of all the trainable parameters and hyper-parameters of DisoFLAG was given in Additional file 1: Table S3."
+  - **Evidence pointer** Methods, Model training and evaluation section; Additional file 1: Table S3 (not provided)
+  - **Concern** The main text does not specify the training procedure: optimizer, learning rate, batch size, number of epochs, early stopping criteria, or data augmentation. The supplementary table is not available for inspection. Without these details, the method cannot be reproduced.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. The authors provide a package, but the training details are essential for understanding the model and for others to retrain or adapt it.
+  - **Resolution test** Provide the full training configuration in the main text or supplementary, including all hyperparameters, optimization settings, and hardware used. If the model is not intended to be retrained, state this explicitly and justify.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "DisoFLAG is currently the only predictor providing predictions of ion-binding IDRs" (Results, Comparison to other methods section).
+  - **Evidence pointer** Results, Comparison to other methods section
+  - **Concern** The claim of being the "only" predictor for ion-binding IDRs is strong and may be difficult to verify. The authors do not provide a comprehensive literature search to support this claim. Additionally, the performance for ion-binding is the lowest among all functions (AUC = 0.700, Table 2), which raises questions about its practical utility.
+  - **Why it matters** The novelty claim is part of the paper's contribution. If other methods exist, the claim is overstated. If the performance is too low to be useful, the practical value of this novelty is limited.
+  - **Resolution test** Provide a systematic search of the literature and existing tools to support the "only" claim. Discuss the practical utility of ion-binding prediction at the reported performance level.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Background
+  - **Evidence pointer** Abstract, Background section
+  - **Issue** The abstract states "DisoFLAG achieves relatively higher performance" without specifying the comparison baseline or the magnitude of improvement. The Background section introduces the three levels of similarity between biological sequences and natural language, but this framing is not clearly connected to the methodological design choices.
+  - **Required correction** Specify the comparison methods and the key performance gains in the abstract. Clarify how the language analogy directly motivates the GiPLM architecture.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Benchmark dataset section
+  - **Evidence pointer** Methods, Benchmark dataset of disorder functions
+  - **Issue** The dataset construction is described, but the number of proteins in each functional class is not stated in the main text. The class imbalance is likely severe (e.g., ion-binding is rare), which could affect training and evaluation.
+  - **Required correction** Provide the number of proteins and residues per functional class in the main text or supplementary, and discuss how class imbalance was handled.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Case study section
+  - **Evidence pointer** Fig. 6
+  - **Issue** The case study is qualitative. The claim that "DisoFLAG is the only method that can simultaneously identify the complete disordered protein-binding and lipid-binding regions" is based on visual inspection of one protein. No quantitative comparison is provided.
+  - **Required correction** Provide quantitative metrics for the case study, such as per-residue precision and recall for each method, or state clearly that the case study is illustrative only.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Methods, Graph-based interaction protein language model
+  - **Evidence pointer** Equations 1–14
+  - **Issue** The equations are presented without clear notation definitions in the main text. For example, the dimensions of matrices and the meaning of subscripts in Eq. (11) are not fully explained.
+  - **Required correction** Add a notation table or define all symbols in the text immediately after each equation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Model training and evaluation
+  - **Evidence pointer** Methods, Model training and evaluation section
+  - **Issue** The evaluation metrics are defined in the supplementary (Table S4), but the main text does not explain how thresholds were chosen for binary classification in the comparisons with other methods.
+  - **Required correction** State the threshold selection procedure in the main text, or refer explicitly to the supplementary table and summarize the key definitions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical significance not verifiable), R1-M2 (GiU benefit not rigorously demonstrated), R1-M3 (dataset independence not fully established), R1-M4 (training details missing).
+- **Assessment against Nature-style criteria**  
+  *Originality*: Moderate. The combination of a pre-trained protein language model with a graph-based interaction unit for joint prediction of multiple disorder functions is a novel architectural contribution, though each component is established.  
+  *Scientific importance*: Moderate. Improved prediction of disorder functions is valuable, but the reported gains are modest and the practical impact is not fully demonstrated.  
+  *Interdisciplinary readership*: Limited. The paper is primarily of interest to computational biologists and bioinformaticians. The framing around language analogy may appeal to a broader audience, but the technical content is specialized.  
+  *Technical soundness*: Currently insufficient. Key claims of superiority are not backed by verifiable statistical analysis, and dataset independence is not rigorously established.  
+  *Readability for nonspecialists*: Acceptable but improvable. The background is accessible, but the methods section is dense and would benefit from clearer notation and a high-level summary of the architecture.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the method covers a useful gap in disorder function prediction. However, the current evidence does not fully establish the claimed advantages, and the manuscript requires major revisions to address statistical rigor, dataset independence, and reproducibility.
+
+## Risk / unsupported claims
+- The claim of "statistically significant improvement in AUC compared to other methods" is unsupported without the supplementary statistical tables and a description of the test used.
+- The claim that DisoFLAG is the "only predictor providing predictions of ion-binding IDRs" is unverifiable from the provided materials.
+- The claim that the graph-based interaction unit "significantly boosted" performance is not supported by significance testing or confidence intervals.
+- The claim that CAID2 sequences were "completely unseen" is not fully verifiable without a description of the redundancy removal procedure.
+- The case study claim that DisoFLAG is the "only method" to simultaneously identify complete binding regions is based on a single qualitative example and is not quantitatively supported.

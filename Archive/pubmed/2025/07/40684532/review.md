@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors identify W104C as the most damaging mutation among Methyl Binding Domain (MBD) proteins, and use structure prediction, docking, and 500 ns all-atom molecular dynamics simulation to show that W104C in MECP2 reduces DNA-binding efficacy, alters interaction profiles, and induces conformational instability and fluctuating electrostatics, with implications for Rett syndrome.
+- **Visible evidence base** Abstract text only; no numerical data, figures, tables, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation parameters, docking protocols, statistical analyses, and validation metrics
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational workflow for assessing a disease-associated mutation in MECP2, but the evidence as summarized is insufficient to establish the central claims. The identification of W104C as "most damaging" lacks comparative context, the simulation and docking results are described qualitatively without quantitative support, and the link to Rett syndrome is speculative. The work may be of interest to the computational biology and epigenetics communities, but the current abstract does not provide enough detail to assess technical soundness or reproducibility.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying protein-DNA interactions, researchers investigating MECP2 mutations in Rett syndrome and related neurodevelopmental disorders, and groups developing predictive frameworks for mutation impact in epigenetic regulators.
+- **Major strengths** The study addresses a clinically relevant protein and mutation, combines sequence- and structure-based approaches, and uses a relatively long simulation time (500 ns) for conformational sampling. The focus on interaction profile changes and electrostatic surface properties is mechanistically informative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The W104C mutation in MECP2 was recognized as the most damaging alteration."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that W104C was identified as the most damaging mutation among MBD proteins, but no details are given about the sequence- and structure-based scoring methods, the number of variants compared, the criteria for "damaging," or the statistical significance of the ranking.
+  - **Why it matters** Without comparative data and defined thresholds, the claim of "most damaging" cannot be evaluated or reproduced, and it may overstate the confidence of the prediction.
+  - **Resolution test** Provide the full list of mutations considered, the scoring metrics used, and a comparison table showing W104C ranked against other candidates with associated confidence intervals or statistical tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** "Parameters including RMSD and R(g), indicated structural divergence and decreased DNA-binding efficacy in the mutant, coupled with solvent exposure."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports RMSD and radius of gyration trends but provides no numerical values, error bars, or statistical comparisons between wild type and mutant. The phrase "indicated structural divergence" is qualitative and does not establish significance.
+  - **Why it matters** RMSD and R(g) are standard metrics, but their interpretation requires quantitative reporting and statistical testing to distinguish real conformational differences from thermal fluctuations.
+  - **Resolution test** Report mean and standard deviation of RMSD and R(g) for both systems, with time series plots and statistical tests (e.g., per-residue RMSF, block averaging) demonstrating significant differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Docking validity
+  - **Claim pointer** "The docking of wild type and W104C mutant MECP2 onto the targeted gene BDNF, demonstrated variations in docking geometry."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims altered docking geometry but does not specify the docking software, scoring function, binding poses, or any quantitative measure of binding affinity or pose reliability. The phrase "inconsistent binding energies" is mentioned later but no values are given.
+  - **Why it matters** Docking results are highly dependent on methodology, and without scoring details or validation (e.g., re-docking, cross-docking, or comparison with experimental structures), the claimed differences may be artifacts of the protocol.
+  - **Resolution test** Provide docking scores, binding free energy estimates (e.g., MM-PBSA or similar), and visual or quantitative comparisons of binding poses, with error estimates and validation against known MECP2-DNA structures.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic claim
+  - **Claim pointer** "W104C disrupts stable DNA binding by MECP2 via inducing conformational instability and impairing hydrogen bond donor-acceptor activity, leading to fluctuating rotation angles and inconsistent binding energies throughout the simulation."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The causal chain from conformational instability to impaired hydrogen bonding to fluctuating rotation angles and binding energies is asserted without quantitative evidence. No hydrogen bond occupancy data, angle distributions, or energy time series are reported.
+  - **Why it matters** The mechanistic explanation is the core contribution of the study, but as presented it is unsupported and could be misleading if the underlying data are noisy or non-significant.
+  - **Resolution test** Report hydrogen bond occupancy and lifetimes for key residues, distributions of rotation angles over time, and binding energy trajectories with statistical comparisons between wild type and mutant.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Clinical relevance
+  - **Claim pointer** "The severity of deregulation of wild type MECP2 activity by W104C, prompting inborn genetic diseases, Rett syndrome, could further be experimentally tested."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract implies a direct link between W104C and Rett syndrome, but no clinical or experimental evidence is provided to support this association. The statement is framed as a suggestion for future work, which is appropriate, but the wording may be misread as an established finding.
+  - **Why it matters** Overstating clinical relevance can mislead readers, especially in a field where mutation-disease associations require experimental validation.
+  - **Resolution test** Clarify that the Rett syndrome link is a hypothesis, and cite any existing clinical or functional data on W104C if available, or explicitly state that none exists.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "prompting inborn genetic diseases, Rett syndrome" is grammatically awkward and could be misread as implying that W104C causes multiple diseases.
+  - **Required correction** Rephrase to "potentially contributing to Rett syndrome and related inborn genetic disorders."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods summary
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not specify the force field, water model, temperature, pressure, or simulation software used for the molecular dynamics, nor the docking algorithm.
+  - **Required correction** Add a brief methods summary in the abstract or ensure the full manuscript provides these details prominently.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Methyl Binding Domain (MBD) superfamily"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "superfamily" is used loosely; MBD proteins are typically described as a family or domain family, and the inclusion of SETDB1, SETDB2, BAZ2A, and BAZ2B as MBD proteins may require clarification since they contain MBD-like domains but are not always classified as canonical MBD proteins.
+  - **Required correction** Use "family" or "domain family" and clarify the classification criteria for the listed proteins.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract lacks quantitative data, statistical validation, and methodological detail for the central claims of mutation ranking, conformational differences, docking outcomes, and mechanistic disruption.
+- **Assessment against Nature-style criteria** Originality: moderate, as computational mutation analysis of MECP2 is not novel, but the specific focus on W104C and the combination of docking and simulation may offer incremental insight. Scientific importance: potentially relevant to Rett syndrome research, but the clinical link is unsubstantiated. Interdisciplinary readership: limited, as the abstract is written for a specialist computational biology audience and lacks context for broader readers. Technical soundness: not assessable from the abstract alone, but the lack of quantitative reporting raises concerns. Readability for nonspecialists: poor, as key terms and metrics are used without explanation or context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible workflow but does not provide sufficient quantitative or methodological detail to support the central claims. A revised version with full data, statistical analyses, and clearer framing of the clinical relevance could change this assessment.
+
+## Risk / unsupported claims
+- The claim that W104C is the "most damaging" mutation among MBD proteins is unsupported without comparative scoring data.
+- The claim of "decreased DNA-binding efficacy" is unsupported without quantitative binding affinity or free energy values.
+- The mechanistic claim of "impairing hydrogen bond donor-acceptor activity" is unsupported without occupancy or lifetime data.
+- The claim of "fluctuating rotation angles and inconsistent binding energies" is unsupported without time series or distributions.
+- The implied link between W104C and Rett syndrome is speculative and not backed by clinical or experimental evidence.

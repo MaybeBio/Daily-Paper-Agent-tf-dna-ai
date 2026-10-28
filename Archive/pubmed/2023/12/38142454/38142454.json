@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "38142454",
+    "doi": "10.1007/s12033-023-00973-y",
+    "title": "Identification of Crucial Genes and Signaling Pathways in Alectinib-Resistant Lung Adenocarcinoma Using Bioinformatic Analysis."
+  },
+  "content": {
+    "abstract": "Alectinib, a second-generation anaplastic lymphoma kinase (ALK) inhibitor, has been shown to be effective for patients with ALK-positive non-small cell lung cancer (NSCLC). However, alectinib resistance is a serious problem worldwide. To the best of our knowledge, little information is available on its molecular mechanisms using the Gene Expression Omnibus (GEO) database. In this study, the differentially expressed genes (DEGs) were selected from the gene expression profile GSE73167 between parental and alectinib-resistant human lung adenocarcinoma (LUAD) cell samples. The Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway and Gene Ontology (GO) annotation enrichment analyses were conducted using Database for Annotation, Visualization and Integrated Discovery (DAVID). The construction of protein-protein interaction (PPI) network was performed to visualize DEGs. The hub genes were extracted based on the analysis of the PPI network using plug-in cytoHubba of Cytoscape software. The functional roles of the key genes were investigated using Gene Expression Profiling Interactive Analysis (GEPIA), University of Alabama at Birmingham Cancer (UALCAN), Gene Set Enrichment Analysis (GSEA), and Tumor Immune Estimation Resource (TIMER) analysis. The networks of kinase, miRNA, and transcription-factor targets of SFTPD were explored using LinkedOmics. The drug sensitivity analysis of SFTPD was analyzed using the RNAactDrug database. Results showed a total of 144 DEGs were identified. Five hub genes were extracted, including mucin 5B (MUC5B), surfactant protein D (SFTPD), deleted in malignant brain tumors 1 (DMBT1), surfactant protein A2 (SFTPA2), and trefoil factor 3 (TFF3). The survival analysis using GEPIA displayed that low expression of SFTPD had a significantly negative effect on the prognosis of patients with LUAD. GSEA revealed that low expression of SFTPD was positively correlated with the pathways associated with drug resistance, such as DNA replication, cell cycle, drug metabolism, and DNA damage repair, including mismatch repair (MMR), base excision repair (BER), homologous recombination (HR), and nucleotide excision repair (NER). The SFTPD expression was negatively correlated with the drug sensitivity of alectinib according to RNAactDrug database. The expression of SFTPD was further validated in parental H3122 cells and alectinib-resistant H3122 cells by quantitative reverse transcription PCR (RT-qPCR). In conclusion, our study found that the five hub genes, especially low expression of SFTPD, are closely related to alectinib resistance in patients with LUAD.",
+    "keywords": [
+      "ALK",
+      "Alectinib resistance",
+      "GEO",
+      "Lung adenocarcinoma (LUAD)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carbazoles/pharmacology",
+      "*Drug Resistance, Neoplasm/genetics",
+      "*Computational Biology/methods",
+      "*Piperidines/pharmacology",
+      "*Gene Expression Regulation, Neoplastic/drug effects",
+      "*Lung Neoplasms/genetics/drug therapy/pathology/metabolism",
+      "*Signal Transduction/drug effects",
+      "*Protein Interaction Maps",
+      "*Adenocarcinoma of Lung/genetics/drug therapy/pathology",
+      "*Gene Regulatory Networks/drug effects",
+      "*Gene Expression Profiling",
+      "Gene Ontology",
+      "Protein Kinase Inhibitors/pharmacology",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Zhilong",
+        "Fan, Yafeng",
+        "Ma, Yong",
+        "Meng, Nan",
+        "Li, Dongbing",
+        "Wang, Dongliang",
+        "Lian, Jianhong",
+        "Hu, Chengguang"
+      ],
+      "short_names": [
+        "Li Z",
+        "Fan Y",
+        "Ma Y",
+        "Meng N",
+        "Li D",
+        "Wang D",
+        "Lian J",
+        "Hu C"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6376-4057"
+      ],
+      "affiliations": [
+        "Department of Thoracic Surgery, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, 030013, China.",
+        "Respiratory Department, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, 030013, China.",
+        "Thoracic Surgery Department II, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, 030013, China.",
+        "Department of Translational Medicine, ChosenMed Technology (Zhejiang) Co., Ltd, Beijing, 100176, China.",
+        "Department of Translational Medicine, ChosenMed Technology (Zhejiang) Co., Ltd, Beijing, 100176, China.",
+        "Department of Translational Medicine, ChosenMed Technology (Zhejiang) Co., Ltd, Beijing, 100176, China.",
+        "Department of Thoracic Surgery, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, 030013, China. jianhonglian@gmail.com.",
+        "Department of Thoracic Surgery, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, 030013, China. 635114176@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Zhilong",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, 030013, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Yafeng",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Respiratory Department, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, 030013, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yong",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "Thoracic Surgery Department II, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, 030013, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Nan",
+        "short_name": "Meng N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Translational Medicine, ChosenMed Technology (Zhejiang) Co., Ltd, Beijing, 100176, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dongbing",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Translational Medicine, ChosenMed Technology (Zhejiang) Co., Ltd, Beijing, 100176, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dongliang",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Translational Medicine, ChosenMed Technology (Zhejiang) Co., Ltd, Beijing, 100176, China."
+        ]
+      },
+      {
+        "full_name": "Lian, Jianhong",
+        "short_name": "Lian J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, 030013, China. jianhonglian@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Hu, Chengguang",
+        "short_name": "Hu C",
+        "identifiers": [
+          "0000-0001-6376-4057"
+        ],
+        "affiliations": [
+          "Department of Thoracic Surgery, Shanxi Province Cancer Hospital/Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, 030013, China. 635114176@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular biotechnology"
+    ],
+    "journal_abbrev": [
+      "Mol Biotechnol"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/24 18:41",
+    "fetched_at": "2026-10-04 23:05:59"
+  },
+  "links": {
+    "cites": [
+      "41899575",
+      "41796250",
+      "39976021",
+      "39899128",
+      "39335088",
+      "39207452",
+      "39108112"
+    ],
+    "refs": [
+      "36727065",
+      "35020204",
+      "34819673",
+      "32537823",
+      "32361787",
+      "32258155",
+      "31921125",
+      "31799597",
+      "31358542",
+      "31155338",
+      "30096454",
+      "29455675",
+      "29364287",
+      "29136207",
+      "29092952",
+      "28732212",
+      "28122866",
+      "27432227",
+      "26719536",
+      "26149886",
+      "24608429",
+      "23467301",
+      "23193258",
+      "20401612",
+      "19131956",
+      "19033363",
+      "17490408",
+      "15630429",
+      "10903251",
+      "10719667",
+      "3219363",
+      "1527377"
+    ],
+    "similar": [
+      "38142454",
+      "39108112",
+      "32578582",
+      "33130972",
+      "32323809",
+      "33979320",
+      "30074936",
+      "29845250",
+      "34039311",
+      "32556504",
+      "32384511",
+      "36714024",
+      "33134373",
+      "32059076",
+      "30096454",
+      "31698633",
+      "34257537",
+      "33398330",
+      "26682573",
+      "34825849",
+      "32741804",
+      "34397869",
+      "31692035",
+      "34017995",
+      "37024866",
+      "34961365",
+      "33501609",
+      "33080677",
+      "32756534",
+      "31805030",
+      "31987036",
+      "35354488",
+      "32041944",
+      "35474355",
+      "36032660",
+      "32598242",
+      "31926587",
+      "32795325",
+      "38783288",
+      "29870138",
+      "29266838",
+      "31424263",
+      "35762542",
+      "34825846",
+      "34077304",
+      "33126397",
+      "36336945",
+      "35996248",
+      "31233342",
+      "32304567",
+      "31731384",
+      "38360931",
+      "31127628",
+      "30132538",
+      "30506958",
+      "37990309",
+      "37919050",
+      "35281953",
+      "32669531",
+      "39111872",
+      "34301211",
+      "25228534",
+      "33120861",
+      "30883337",
+      "27356570",
+      "35254116",
+      "30244948",
+      "33949150",
+      "32626989",
+      "37790630",
+      "34335635",
+      "30203136",
+      "33029085",
+      "34941039",
+      "30825595",
+      "32607285",
+      "29482638",
+      "32217741",
+      "39331864",
+      "29850522",
+      "32265985",
+      "25502629",
+      "32519739",
+      "32467990",
+      "34232175",
+      "32149133",
+      "30670912",
+      "33437215",
+      "33578541",
+      "34737677",
+      "31181055",
+      "32031203",
+      "31277149",
+      "34391065",
+      "38858671",
+      "29305979",
+      "32769881",
+      "33310890",
+      "26849637",
+      "28983581"
+    ],
+    "review": [
+      "38142454",
+      "33080677"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12033-023-00973-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4006",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

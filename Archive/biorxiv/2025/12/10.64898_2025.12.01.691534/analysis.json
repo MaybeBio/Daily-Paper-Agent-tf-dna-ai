@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.01.691534",
+  "title": "Islands of Signal and Transcriptomic Sequencing: A Foundation Model for Mutation and Lineage Prediction based on DNA Methylation and RNA-seq",
+  "authors": "Alexandros Alexakos; Aristotelis Tsirigos",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-02",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 0,
+  "one_liner_zh": "该文构建基于DNA甲基化和RNA-seq的多组学基础模型用于癌症类型和突变预测，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "DNA methylation and RNA-seq provide complementary views of oncogenic state, but their high dimensionality complicates robust modeling. We develop a pancancer, multiomic foundation model that jointly encodes CpG-island DNA methylation and gene expression from TCGA, TARGET, CPTAC-3, and HCMI. Probe-level methylation is aggregated into CpG-island features, and RNA-seq is reduced to high-variance genes, yielding compact inputs for modality-specific MLP encoders. A BERT-like transformer with masked reconstruction and cross-modal prediction objectives learns a shared embedding space that supports missing-modality inputs. We evaluate the learned representations in two zero-shot settings: (i) cancer-type classification using a linear probe on frozen embeddings, and (ii) mutation prediction for 214 genes using a shallow MLP. The model achieves high performance for many tumor types and gene-cancer pairs without encoder finetuning. Pathway-level analyses show that hallmark oncogenic and immune programs appear as smooth gradients in the embedding space, indicating that the model captures biologically meaningful structure. These results demonstrate that combining CpG-island grouping with multiomic foundation pre-training yields compact, informative embeddings for mutation and lineage inference across cancers.",
+  "abstract_zh": "DNA甲基化和RNA-seq提供了致癌状态的互补视角，但其高维度特性使稳健建模变得复杂。我们开发了一个泛癌种、多组学基础模型，联合编码来自TCGA、TARGET、CPTAC-3和HCMI的CpG岛DNA甲基化与基因表达。探针水平的甲基化被聚合为CpG岛特征，RNA-seq被降维至高变异基因，从而为模态特定的MLP编码器提供紧凑输入。一个类似BERT的Transformer，结合掩码重建和跨模态预测目标，学习一个支持缺失模态输入的共享嵌入空间。我们在两种零样本设置中评估学习到的表示：（i）使用线性探针在冻结嵌入上进行癌症类型分类，以及（ii）使用浅层MLP对214个基因进行突变预测。该模型在无需编码器微调的情况下，对多种肿瘤类型和基因-癌症配对实现了高性能。通路水平分析显示，标志性致癌和免疫程序在嵌入空间中呈现平滑梯度，表明模型捕获了具有生物学意义的结构。这些结果证明，将CpG岛分组与多组学基础预训练相结合，可为跨癌症的突变和谱系推断生成紧凑且信息丰富的嵌入。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.01.691534",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.01.691534",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.01.691534/index.html"
+}

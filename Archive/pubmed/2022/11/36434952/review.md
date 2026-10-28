@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report the design and synthesis of hydrazone, oxime ester, and amide derivatives based on hit compounds 8 and 9a, with dioxo-benzo[d]isothiazole or dioxo-benzo[b]thiophene scaffolds, as novel inhibitors of the YAP-TEAD protein-protein interaction. Compound 11q is claimed to show potent inhibition of TEAD-YAP reporter activity (IC50 = 12.7 µM), suppression of endogenous target genes (CTGF and CYR61), inhibition of breast cancer cell growth (GI50 = 3.2 µM), and blockade of anchorage-independent growth. Molecular docking is used to propose binding at interface 2 of TEAD with lower docking scores than interface 3 binders, with predicted overlap with YAP. The authors conclude that 11q is an attractive therapeutic agent for solid tumors overexpressing YAP/TAZ.
+- **Visible evidence base** Abstract text only; no experimental methods, compound characterization data, assay protocols, statistical analyses, or docking parameters are provided
+- **Missing materials affecting confidence** Full manuscript, synthetic schemes, compound purity and characterization data, assay details (reporter cell lines, controls, replicates), dose-response curves, statistical methods, docking software and scoring functions, structural validation of binding modes, and any in vivo data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting medicinal chemistry effort targeting the YAP-TEAD interaction, a relevant oncology target. However, the claims are supported by limited quantitative data and no methodological detail. The potency values reported (IC50 = 12.7 µM, GI50 = 3.2 µM) are modest and raise questions about selectivity and therapeutic relevance. The docking analysis is described superficially and lacks validation. The case for 11q as a therapeutic agent is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in medicinal chemistry and chemical biology focused on protein-protein interaction inhibitors, particularly those targeting the Hippo pathway and YAP/TAZ-driven cancers. The scaffold novelty and structure-activity relationship exploration may interest groups developing TEAD inhibitors, though the modest potency limits immediate translational appeal.
+- **Major strengths** The abstract identifies a clear biological rationale (YAP-TEAD disruption in solid tumors). The design strategy based on hit compounds and systematic derivatization (hydrazone, oxime ester, amide) is logical. The inclusion of multiple assay types (reporter, endogenous gene expression, cell growth, soft agar) provides a broad phenotypic assessment. The docking analysis attempts to provide a structural hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Amide derivative 11q exhibited a higher potency in inhibiting TEAD-YAP reporter expression activity (IC(50) = 12.7 muM)"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The reported IC50 of 12.7 µM is high for a claimed potent inhibitor. No comparison to known TEAD-YAP inhibitors or positive controls is provided. The assay format, cell line, and whether the reporter is specific to YAP-TEAD interaction are not described.
+  - **Why it matters** Without context on assay sensitivity and comparator compounds, the potency claim cannot be evaluated. A 12.7 µM IC50 may reflect nonspecific effects or poor cellular permeability, undermining the central claim of potent inhibition.
+  - **Resolution test** Provide full dose-response data, positive and negative controls, and a comparison to established inhibitors. Demonstrate that the reporter activity is specifically dependent on YAP-TEAD interaction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Molecular docking analysis suggested that the newly synthesized compounds bound to interface 2 of TEAD had lower docking scores compared to the compounds that bind to interface 3; moreover, they were predicted to overlap with YAP."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The docking claim is vague. No docking software, scoring function, protein structure (PDB ID), ligand preparation, or validation (e.g., redocking of known ligands, molecular dynamics) is described. The statement that compounds "overlap with YAP" is not substantiated with quantitative metrics.
+  - **Why it matters** Docking predictions without rigorous methodology and validation are insufficient to support a binding mode claim. The proposed interface 2 binding is critical to the mechanistic narrative and requires experimental confirmation.
+  - **Resolution test** Provide full docking protocols, PDB IDs, docking scores for all compounds, and experimental validation (e.g., mutagenesis, biophysical binding assays such as ITC or SPR, or co-crystallography).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "we identified 11q as an attractive therapeutic agent for treating solid tumors overexpressing YAP/TAZ"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The conclusion that 11q is an attractive therapeutic agent is not supported by the data presented. Only in vitro cellular assays and in silico docking are described. No selectivity data against other TEAD isoforms or off-targets, no pharmacokinetic properties, and no in vivo efficacy are provided.
+  - **Why it matters** The term "therapeutic agent" implies drug-like properties and in vivo activity, which are not demonstrated. Overstating the translational potential without such evidence is misleading.
+  - **Resolution test** Provide selectivity profiling, metabolic stability, plasma protein binding, and in vivo efficacy in a relevant tumor model. Alternatively, temper the conclusion to "a promising lead compound for further optimization."
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses abbreviations (TEAD, YAP, TAZ, CTGF, CYR61) without defining them in the abstract, which may hinder readers unfamiliar with the Hippo pathway.
+  - **Required correction** Define all abbreviations at first use in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Compound naming
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "hit compound 8 and 9a" and "9b-n, 10a-s, 11a-r" without any structural context. This is inaccessible to readers without the full manuscript.
+  - **Required correction** Provide a brief structural description or a scheme reference in the abstract, or clarify that structures are shown in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Selectivity claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not address whether 11q selectively inhibits YAP-TEAD over other TEAD interactions (e.g., TEAD-VGLL4) or other transcription factors.
+  - **Required correction** Add a statement on selectivity or acknowledge this as a limitation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (potency claim lacks context and controls), R1-M2 (docking analysis lacks methodology and validation), R1-M3 (therapeutic claim overreaches available evidence)
+- **Assessment against Nature-style criteria** Originality: The scaffold class (dioxo-benzo[b]thiophene amides) may be novel for YAP-TEAD inhibition, but this is not clearly established from the abstract. Scientific importance: The target is relevant, but the modest potency and lack of in vivo data limit the significance. Interdisciplinary readership: The work is primarily of interest to medicinal chemists; the abstract does not frame the findings for a broader biological or clinical audience. Technical soundness: Not assessable from the abstract; key experimental details are missing. Readability for nonspecialists: The abstract is dense with abbreviations and compound numbers, reducing accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible medicinal chemistry effort, but the central claims of potent inhibition, binding mode, and therapeutic potential require substantial additional data and methodological detail. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that 11q is an "attractive therapeutic agent" is unsupported without in vivo efficacy, pharmacokinetic, and selectivity data.
+- The docking-based binding mode at interface 2 is unsupported without detailed methodology and experimental validation.
+- The potency of 11q (IC50 = 12.7 µM) is presented without comparator data, making the claim of "higher potency" relative to other compounds unverifiable from the abstract.
+- The inhibition of endogenous target genes (CTGF and CYR61) is mentioned without quantitative data or statistical significance.
+- The relevance of the soft agar assay results to therapeutic potential is not contextualized.

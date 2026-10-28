@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "35998896",
+    "doi": "10.1093/bib/bbac351",
+    "title": "Profiling prediction of nuclear receptor modulators with multi-task deep learning methods: toward the virtual screening."
+  },
+  "content": {
+    "abstract": "Nuclear receptors (NRs) are ligand-activated transcription factors, which constitute one of the most important targets for drug discovery. Current computational strategies mainly focus on a single target, and the transfer of learned knowledge among NRs was not considered yet. Herein we proposed a novel computational framework named NR-Profiler for prediction of potential NR modulators with high affinity and specificity. First, we built a comprehensive NR data set including 42 684 interactions to connect 42 NRs and 31 033 compounds. Then, we used multi-task deep neural network and multi-task graph convolutional neural network architectures to construct multi-task multi-classification models. To improve the predictive capability and robustness, we built a consensus model with an area under the receiver operating characteristic curve (AUC) = 0.883. Compared with conventional machine learning and structure-based approaches, the consensus model showed better performance in external validation. Using this consensus model, we demonstrated the practical value of NR-Profiler in virtual screening for NRs. In addition, we designed a selectivity score to quantitatively measure the specificity of NR modulators. Finally, we developed a freely available standalone software for users to make profiling predictions for their compounds of interest. In summary, our NR-Profiler provides a useful tool for NR-profiling prediction and is expected to facilitate NR-based drug discovery.",
+    "keywords": [
+      "conventional machine learning",
+      "multi-classification",
+      "multi-task deep learning",
+      "nuclear receptor modulator",
+      "virtual screening"
+    ],
+    "mesh_terms": [
+      "B-Cell Activation Factor Receptor",
+      "Calcitonin Receptor-Like Protein",
+      "Cytokine Receptor gp130",
+      "*Deep Learning",
+      "Histamine H2 Antagonists",
+      "Ligands",
+      "Neurokinin-1 Receptor Antagonists",
+      "Proto-Oncogene Proteins c-met",
+      "Receptor, Metabotropic Glutamate 5",
+      "Receptor-Like Protein Tyrosine Phosphatases, Class 2",
+      "*Receptors, Artificial",
+      "Receptors, Aryl Hydrocarbon",
+      "Receptors, Calcitriol",
+      "Receptors, Cytoplasmic and Nuclear",
+      "*Receptors, Gastrointestinal Hormone",
+      "Receptors, Muscarinic",
+      "*Receptors, Polymeric Immunoglobulin"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jiye",
+        "Lou, Chaofeng",
+        "Liu, Guixia",
+        "Li, Weihua",
+        "Wu, Zengrui",
+        "Tang, Yun"
+      ],
+      "short_names": [
+        "Wang J",
+        "Lou C",
+        "Liu G",
+        "Li W",
+        "Wu Z",
+        "Tang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3095-6006",
+        "ORCID: 0000-0003-2340-1109"
+      ],
+      "affiliations": [
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, School of Pharmacy, East China University of Science and Technology, 130 Meilong Road, Shanghai 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, School of Pharmacy, East China University of Science and Technology, 130 Meilong Road, Shanghai 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, School of Pharmacy, East China University of Science and Technology, 130 Meilong Road, Shanghai 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, School of Pharmacy, East China University of Science and Technology, 130 Meilong Road, Shanghai 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, School of Pharmacy, East China University of Science and Technology, 130 Meilong Road, Shanghai 200237, China.",
+        "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, School of Pharmacy, East China University of Science and Technology, 130 Meilong Road, Shanghai 200237, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jiye",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, School of Pharmacy, East China University of Science and Technology, 130 Meilong Road, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Lou, Chaofeng",
+        "short_name": "Lou C",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, School of Pharmacy, East China University of Science and Technology, 130 Meilong Road, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Guixia",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, School of Pharmacy, East China University of Science and Technology, 130 Meilong Road, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Li, Weihua",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, School of Pharmacy, East China University of Science and Technology, 130 Meilong Road, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zengrui",
+        "short_name": "Wu Z",
+        "identifiers": [
+          "0000-0003-3095-6006"
+        ],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, School of Pharmacy, East China University of Science and Technology, 130 Meilong Road, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Yun",
+        "short_name": "Tang Y",
+        "identifiers": [
+          "0000-0003-2340-1109"
+        ],
+        "affiliations": [
+          "Shanghai Frontiers Science Center of Optogenetic Techniques for Cell Metabolism, School of Pharmacy, East China University of Science and Technology, 130 Meilong Road, Shanghai 200237, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Sep 20",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/24 06:00",
+    "fetched_at": "2026-09-28 12:41:25"
+  },
+  "links": {
+    "cites": [
+      "41535365",
+      "39800678",
+      "39798999",
+      "39688780",
+      "39474497",
+      "39334272",
+      "38512848",
+      "37616260"
+    ],
+    "refs": [],
+    "similar": [
+      "35998896",
+      "39334272",
+      "32549344",
+      "36430386",
+      "31175293",
+      "20455005",
+      "38016311",
+      "35007471",
+      "38713612",
+      "18753690",
+      "18662801",
+      "32183141",
+      "19933380",
+      "31584374",
+      "36154553",
+      "23855664",
+      "24819724",
+      "35462346",
+      "31703452",
+      "17319953",
+      "14683516",
+      "20937105",
+      "26630876",
+      "12825943",
+      "24666037",
+      "29718163",
+      "18815806",
+      "35340861",
+      "35383362",
+      "38291477",
+      "11558997",
+      "33758923",
+      "27503683",
+      "29190087",
+      "33272675",
+      "36040137",
+      "17562482",
+      "19596656",
+      "33754707",
+      "36071406",
+      "38473785",
+      "20079722",
+      "31013097",
+      "33431042",
+      "36171550",
+      "32228116",
+      "34368838",
+      "15860255",
+      "28527568",
+      "23197792",
+      "36057226",
+      "31364850",
+      "31985163",
+      "34878785",
+      "31521253",
+      "21878368",
+      "22800372",
+      "31507420",
+      "36943645",
+      "32248132",
+      "33920024",
+      "21239617",
+      "30354114",
+      "36369613",
+      "30715873",
+      "30703487",
+      "34571539",
+      "35210493",
+      "28560482",
+      "29990125",
+      "12126937",
+      "37323377",
+      "35130630",
+      "26643261",
+      "19429508",
+      "21858146",
+      "35409140",
+      "21849441",
+      "15320707",
+      "11376110",
+      "23344935",
+      "32171918",
+      "30116918",
+      "35849939",
+      "15905360",
+      "12089346",
+      "21179495",
+      "30685762",
+      "34081851",
+      "35209011",
+      "38702021",
+      "21884792",
+      "26014480",
+      "9482670",
+      "31423003",
+      "32804365",
+      "20338175",
+      "33799614",
+      "20339547",
+      "37116265",
+      "38890295",
+      "36725679",
+      "38862216",
+      "36316405",
+      "38844122",
+      "37020333",
+      "36815050",
+      "38084920",
+      "27602059",
+      "36966203",
+      "38831341",
+      "39156568",
+      "32701288",
+      "37525507",
+      "32039185",
+      "34194693",
+      "37088813",
+      "36124309",
+      "38022699",
+      "36716271",
+      "37557894",
+      "38695558"
+    ],
+    "review": [
+      "35998896",
+      "18662801",
+      "19933380",
+      "31584374",
+      "24819724",
+      "14683516",
+      "11558997",
+      "27503683",
+      "17562482",
+      "32228116",
+      "15860255",
+      "21878368",
+      "22800372",
+      "30354114",
+      "30703487",
+      "19429508",
+      "23344935",
+      "32171918",
+      "32804365",
+      "20338175",
+      "38862216"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbac351",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

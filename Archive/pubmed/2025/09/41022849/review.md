@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided by the user.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims based solely on the supplied text. No external literature, data, or supplementary materials were consulted.
+- **Shared manuscript claim summary** The authors report that vortioxetine, a multimodal antidepressant, exhibits dose-dependent genotoxic and cytotoxic effects in cultured human peripheral blood lymphocytes, as measured by micronucleus, binucleus, and chromosomal aberration assays. They further report that vortioxetine binds to calf thymus DNA via intercalation (UV-Vis spectroscopy, Kb = 6.25 × 10⁵ M⁻¹), cleaves pBR322 DNA in the presence of H₂O₂, and that molecular docking (AutoDock Vina and Attracting Cavities) predicts minor groove binding. The authors conclude that vortioxetine poses a potential genotoxic risk with prolonged use.
+- **Visible evidence base** Results sections for in vitro assays (Tables 1 and 2, Figures 1 and 2), DNA binding (Figure 3, Equation 1), DNA cleavage (Figure 6), and in silico docking (Tables 3 and 4, Figures 4 and 5). Materials and methods sections for all assays.
+- **Missing materials affecting confidence** Raw data files, full statistical outputs, uncropped gel images, docking pose coordinates, validation metrics for docking (e.g., enrichment, pose reproduction), and details on compound purity and solubility. The manuscript text alone does not permit independent verification of quantitative results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and understudied question, namely the genotoxic potential of vortioxetine, a widely prescribed antidepressant. The combination of in vitro cytogenetic assays, spectroscopic DNA binding studies, and in silico docking is a reasonable approach for an initial safety assessment. However, the manuscript contains several internal inconsistencies, overstatements, and methodological ambiguities that currently prevent the conclusions from being fully supported. The most significant issues are the contradictory interpretations of the UV-Vis and docking data, the lack of a clear statistical framework for the DNA binding and cleavage experiments, and the unsupported leap from in vitro observations to clinical risk. The work is of potential interest to the psychopharmacology and genetic toxicology communities, but the evidence as presented is not sufficient to establish the stated claims.
+- **Who would be interested in the results, and why** Researchers in genetic toxicology, psychopharmacology, and drug safety assessment would be the primary audience. The findings are relevant to clinicians prescribing vortioxetine, particularly for long-term use, and to regulatory bodies evaluating drug safety. The comparative data with escitalopram may also interest those studying class effects of antidepressants on DNA integrity.
+- **Major strengths** The study addresses a clinically relevant gap in the safety profile of a commonly used drug. The use of multiple complementary assays (cytogenetic, spectroscopic, and computational) is commendable. The inclusion of escitalopram as a comparator provides a useful reference point. The authors acknowledge limitations such as small sample size and the need for mechanistic follow-up.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency of results and interpretation
+  - **Claim pointer** The authors state that UV-Vis results indicate intercalative binding, while docking results indicate minor groove binding, and then conclude that both modes may occur depending on the environment.
+  - **Evidence pointer** Results sections "DNA binding" and "In silico DNA binding study"; Discussion section.
+  - **Concern** The manuscript presents two conflicting binding modes without a clear resolution. The UV-Vis data (27.43% hypochromism, 7 nm redshift) are interpreted as intercalation, while both docking methods predict minor groove binding. The authors acknowledge this discrepancy but do not provide a mechanistic explanation or additional experiments to distinguish between the two modes. The statement that "vortioxetine may interact with DNA through both intercalative and groove-binding modes" is speculative and not directly supported by the data presented. This inconsistency undermines the coherence of the DNA binding story.
+  - **Why it matters** The binding mode is central to interpreting the biological significance of the DNA interaction. If the compound is a groove binder, the relevance of the intercalation-based UV-Vis interpretation is questionable. The lack of a clear resolution prevents the reader from understanding the actual nature of the drug-DNA interaction and its potential consequences.
+  - **Resolution test** The authors should either provide additional experimental evidence (e.g., competitive displacement assays with a known intercalator, viscosity measurements, or circular dichroism) to confirm the binding mode, or explicitly state that the UV-Vis data are not sufficient to assign a specific binding mode and reframe the interpretation accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical and methodological rigor of cytogenetic assays
+  - **Claim pointer** The authors claim dose-dependent genotoxic and cytotoxic effects of vortioxetine based on micronucleus, binucleus, and chromosomal aberration frequencies.
+  - **Evidence pointer** Results section "In vitro genotoxic and cytotoxic effects of Vortioxetine"; Tables 1 and 2; Figures 1 and 2; Materials and methods "Micronucleus assay" and "Chromosome aberration (CA) and sister chromatid exchange (SCE) assay".
+  - **Concern** The statistical analysis is described only as "Kruskal-Wallis followed by Dunn's test" with significance indicated in figures. However, the manuscript does not report effect sizes, confidence intervals, or exact p-values for the key comparisons. The text states that "a dose of 20 mg/kg vortioxetine and escitalopram significantly induced micronucleus formation" but the figure legend does not specify which comparisons were significant. Additionally, the methods section mentions a "negative, DMSO and positive controls" but the results do not clearly present the DMSO control data, and the text states DMSO was not included as a separate control group, which is contradictory. The sample size (n=10) is acknowledged as small, but the statistical power is not discussed.
+  - **Why it matters** The central claim of genotoxicity rests on these statistical comparisons. Without transparent reporting of the statistical framework, effect magnitudes, and control data, the reader cannot assess the robustness of the findings. The contradiction regarding the DMSO control further complicates interpretation.
+  - **Resolution test** The authors should provide a detailed statistical summary (e.g., median, interquartile range, exact p-values, effect sizes) for all groups and comparisons. They should clarify the role of the DMSO control and present its data. A power analysis or justification for the sample size should be included.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for clinical risk claims
+  - **Claim pointer** The abstract and discussion state that the findings "suggest a potential genotoxic risk with prolonged use" and advise clinicians to consider this risk.
+  - **Evidence pointer** Abstract; Discussion section.
+  - **Concern** The study uses in vitro concentrations of 5, 5, and 20 µg/mL, which the authors state correspond to therapeutic plasma concentrations. However, the translation of in vitro genotoxicity findings to in vivo clinical risk is not straightforward. The manuscript does not discuss pharmacokinetic factors such as protein binding, tissue distribution, or metabolic activation, which could significantly alter the actual exposure of cells to the parent compound or its metabolites. The claim of "potential genotoxic risk with prolonged use" is an extrapolation that goes beyond the data presented.
+  - **Why it matters** The clinical relevance of the findings is a key selling point of the manuscript. Overstating the implications could mislead clinicians and patients. A more cautious interpretation, clearly limited to the in vitro context, is warranted.
+  - **Resolution test** The authors should temper the clinical claims and explicitly state that the findings are preliminary and require confirmation in appropriate in vivo models. They should discuss the limitations of extrapolating from in vitro to in vivo risk.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological detail for DNA cleavage assay
+  - **Claim pointer** The authors claim that vortioxetine facilitates oxidative cleavage of DNA in the presence of H₂O₂.
+  - **Evidence pointer** Results section "DNA cleavage"; Figure 6; Materials and methods "DNA cleavage".
+  - **Concern** The description of the DNA cleavage assay is brief. The manuscript states that "vortioxetine showed cleavage activity in the presence of H₂O₂" but does not provide quantitative data (e.g., percentage of Form I converted to Form II or III) or a dose-response analysis. The figure legend mentions a vertical line separating distinct gels, but it is unclear if the experiments were performed on the same gel or if the images are representative. The methods do not specify the concentration range of vortioxetine tested, the incubation time, or the buffer conditions in sufficient detail for replication.
+  - **Why it matters** The DNA cleavage data is a key piece of evidence for genotoxic potential. Without quantitative and reproducible data, the claim is not fully supported.
+  - **Resolution test** The authors should provide quantitative densitometric analysis of gel bands, a dose-response curve, and a more detailed methods section. They should also clarify the relationship between the two gels shown.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Docking methodology and interpretation
+  - **Claim pointer** The authors report binding affinities of -7.29 kcal/mol (vortioxetine) and -7.69 kcal/mol (escitalopram) from Attracting Cavities, and -6.01 and -6.57 kcal/mol from AutoDock Vina, and conclude that both bind to the minor groove.
+  - **Evidence pointer** Results section "In silico DNA binding study"; Tables 3 and 4; Figures 4 and 5; Materials and methods "In Silico analyses".
+  - **Concern** The docking methodology is not described in sufficient detail. The manuscript mentions using SwissDock, but does not specify the exact parameters for the Attracting Cavities method, the search space, or the number of runs. The RMSD values reported for Attracting Cavities (32.44 Å and 153.61 Å) are acknowledged as not being conventional, but the authors do not explain what they represent or why they are reported. The statement that "vortioxetine demonstrates superior binding affinity to DNA compared to Escitalopram" based on AutoDock Vina results is contradicted by the Attracting Cavities results, where escitalopram has a more negative binding affinity. The authors do not reconcile this discrepancy.
+  - **Why it matters** The docking results are used to support the DNA binding mode and to compare the two drugs. The lack of methodological detail and the conflicting results between the two methods weaken the conclusions drawn from the in silico work.
+  - **Resolution test** The authors should provide a complete description of the docking protocols, including all parameters and validation steps. They should explain the meaning of the reported RMSD values and reconcile the conflicting binding affinity rankings from the two methods.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure legends
+  - **Affected element** Figures 1 and 2
+  - **Evidence pointer** Results section "In vitro genotoxic and cytotoxic effects of Vortioxetine".
+  - **Issue** The figure legends are incomplete. They do not specify the number of replicates, the statistical test used for each panel, or the exact p-values for significant comparisons. The text mentions "Significance level tested by Kruskal Wallis followed by Dunn's test" but the figures do not indicate which groups are compared.
+  - **Required correction** Provide complete figure legends that include the statistical test, the number of replicates, and the exact p-values or a clear key for significance levels.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract; Results section "In vitro genotoxic and cytotoxic effects of Vortioxetine".
+  - **Issue** The abstract states "cytotoxicity was evaluated through Mitotic index (MI)" but the results section also mentions "abnormality frequency" and "chromosomal aberration index." The relationship between these metrics is not clearly defined.
+  - **Required correction** Define each metric clearly and explain how they relate to cytotoxicity and genotoxicity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Dosing nomenclature
+  - **Affected element** Materials and methods "Materials"
+  - **Evidence pointer** Materials and methods section.
+  - **Issue** The text states "doses of vortioxetine (5, 10, and 20 mg/kg) were selected as therapeutic equivalents and converted to in vitro concentrations of 5, 10 and 20 µg/mL." The use of "mg/kg" for in vitro doses is confusing, as this is a concentration unit, not a dose. The conversion rationale is not explained.
+  - **Required correction** Clarify the conversion from in vivo doses to in vitro concentrations and use consistent units throughout.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 4 and 5
+  - **Evidence pointer** Results section "In silico DNA binding study".
+  - **Issue** The figure legends for Figures 4 and 5 are identical, but the figures are described as showing results from different docking methods. The figures are not referenced correctly in the text (Figure 5 is mentioned in the text but the legend for Figure 5 is not provided separately).
+  - **Required correction** Ensure each figure has a unique and descriptive legend, and that the text references the correct figure.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language and grammar
+  - **Affected element** Throughout
+  - **Evidence pointer** Entire manuscript.
+  - **Issue** There are several grammatical errors and awkward phrasings (e.g., "vortioxetine is a multimodal antidepressant with reported benefits on cognitive functioning" should be "on cognitive function"; "the results demonstrated that the occurrence of chromosomal anomalies increased in a concentration-dependent manner" is redundant with the data presented). The phrase "vortioxetine and escitalopram exhibited similar effects on the formation of MN, indicating that both compounds are safe in terms of MN formation" is contradictory, as the data show a significant increase at the highest dose.
+  - **Required correction** Perform a thorough language edit to improve clarity and correct grammatical errors. Revise statements that are internally contradictory.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (binding mode inconsistency), R1-M2 (statistical reporting), R1-M3 (clinical extrapolation), R1-M4 (DNA cleavage quantification).
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of a standard genotoxicity battery to a specific drug is not conceptually novel, but the lack of prior data on vortioxetine provides some originality.
+  - **Scientific importance** Moderate. The findings are of interest to the field of drug safety, but the clinical significance is not established due to the in vitro nature of the study and the acknowledged limitations.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to toxicologists and psychopharmacologists. The methods and findings are unlikely to attract a broad interdisciplinary audience.
+  - **Technical soundness** Currently insufficient. The statistical reporting is incomplete, the DNA cleavage data are not quantified, and the docking methodology lacks detail. The internal inconsistency between the UV-Vis and docking interpretations is a significant technical flaw.
+  - **Readability for nonspecialists** The manuscript is generally readable but contains jargon and some contradictory statements that would confuse a nonspecialist. The discussion of binding modes and docking metrics requires specialized knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and has a reasonable experimental design, but the internal inconsistencies, incomplete statistical reporting, and overinterpretation of the data prevent the conclusions from being supported. The authors should be encouraged to revise the manuscript to address the major concerns, particularly the binding mode discrepancy and the statistical rigor, before it can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that vortioxetine "binds to calf thymus DNA through intercalative interactions" is not fully supported, as the UV-Vis data are not quantitatively analyzed and the docking results suggest a different binding mode.
+- The claim that vortioxetine "cleaves pBR322 DNA in the presence of hydrogen peroxide" is not quantitatively supported, as no densitometric analysis or dose-response data are provided.
+- The claim that "both drugs are considered relatively safe" is an overstatement, as the study only assessed short-term in vitro effects and the authors themselves acknowledge the need for long-term in vivo studies.
+- The claim that the findings "provide valuable insight for clinicians in evaluating long-term safety" is not supported by the data, which are preliminary and in vitro.
+- The statement that "vortioxetine demonstrates superior binding affinity to DNA compared to escitalopram" is contradicted by the Attracting Cavities results and is therefore not supported.

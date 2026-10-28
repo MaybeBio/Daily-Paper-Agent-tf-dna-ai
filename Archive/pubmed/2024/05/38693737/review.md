@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report an in silico fragment-based design workflow combining machine learning classification, molecular docking (AutoDock Vina), and molecular dynamics simulation (Gromacs) to identify a G-quadruplex (G4) binding peptide. A candidate peptide (p10, sequence YWRWR) was synthesized by solid-phase peptide synthesis (SPPS) and evaluated for DNA binding by spectrophotometric titration, yielding an association constant (K(a)) of 4.45 x 10(5) M(-1) against ctDNA. Molecular modeling suggested stable complex formation with the G4 surface. The authors conclude that the K(a) value indicates favorable interactions and that the approach supports design of G4-binding peptides.
+- **Visible evidence base** Abstract text only; no experimental details, numerical outputs from docking or simulation, machine learning performance metrics, synthesis characterization data, or titration curves are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, machine learning dataset and validation results, docking scores, MD simulation trajectories or stability metrics, peptide purity and characterization data, raw spectrophotometric titration data, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible workflow combining computational design and experimental validation for a G4-binding peptide. However, the evidence base is limited to a single K(a) value and a qualitative statement about molecular modeling. The core claims of successful machine learning-guided design and stable G4 complex formation are not quantitatively supported by the provided material. The work may be of interest to researchers in peptide design and G4-targeted therapeutics, but the current abstract does not establish the case with sufficient rigor.
+- **Who would be interested in the results, and why** Researchers in anticancer drug discovery, particularly those focused on G-quadruplex ligands, peptide therapeutics, and computational drug design. The combination of machine learning with molecular modeling and experimental validation could appeal to method developers, though the abstract does not yet demonstrate a clear methodological advance.
+- **Major strengths** The workflow integrates multiple computational and experimental techniques, which is a reasonable strategy for peptide design. The use of a fragment-based approach with machine learning is timely. The inclusion of experimental synthesis and binding measurement, rather than purely computational prediction, is a positive feature.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that the machine learning classification, combined with docking and MD simulation, led to identification of a high-scoring peptide (p10) with favorable G4 binding.  
+  - **Evidence pointer** Abstract, Results section; location not provided  
+  - **Concern** No quantitative outputs from the machine learning model (e.g., accuracy, precision, ROC-AUC, feature importance) or from docking (e.g., binding scores for p10 versus other candidates) are reported. The MD simulation is mentioned but no stability metrics (e.g., RMSD, RMSF, binding free energy) are given. The claim that p10 was "high-scoring" is therefore unverifiable.  
+  - **Why it matters** Without these data, the reader cannot assess whether the computational pipeline was effective or whether p10 was selected on a sound basis. The central premise of the paper, that machine learning and molecular modeling successfully guided peptide design, is not supported.  
+  - **Resolution test** Provide the machine learning model performance metrics, docking scores for all candidate peptides, and MD simulation stability analyses (e.g., RMSD over time, binding free energy estimates) for the p10-G4 complex.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim-evidence alignment  
+  - **Claim pointer** The authors state that molecular modeling studies revealed p10 could form a stable complex with the G4 surface.  
+  - **Evidence pointer** Abstract, Results section; location not provided  
+  - **Concern** The abstract provides no structural or quantitative evidence for the claimed stable complex. No binding mode, interaction residues, hydrogen bonding patterns, or free energy values are described. The term "stable" is used without supporting simulation or experimental data.  
+  - **Why it matters** The claim of stable G4 binding is a key conclusion. Without structural or energetic evidence, the conclusion is speculative and cannot be distinguished from a generic docking result.  
+  - **Resolution test** Include representative MD simulation snapshots, interaction analysis (e.g., hydrogen bond occupancy), and binding free energy calculations (e.g., MM-PBSA or similar) for the p10-G4 complex.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Experimental validation scope  
+  - **Claim pointer** The authors report a K(a) of 4.45 x 10(5) M(-1) between p10 and ctDNA double helix and conclude this indicates favorable interactions.  
+  - **Evidence pointer** Abstract, Results and Conclusion sections; location not provided  
+  - **Concern** The binding measurement was performed against ctDNA, which is a mixed-sequence double-stranded DNA, not a G4 structure. The abstract does not report any binding assay against an actual G4 sequence. Therefore, the K(a) value does not directly support the claim of G4-specific binding.  
+  - **Why it matters** The paper's stated objective is to design G4-binding peptides. A K(a) against ctDNA does not demonstrate G4 selectivity or even G4 binding. The conclusion that the K(a) indicates favorable interactions for G4 targeting is not supported by the presented evidence.  
+  - **Resolution test** Provide binding data for p10 against a defined G4-forming oligonucleotide (e.g., telomeric or promoter G4) and, ideally, a comparison with a non-G4 control to establish selectivity.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility and characterization  
+  - **Claim pointer** The authors state that peptide synthesis was performed using SPPS and that DNA binding affinity was measured by spectrophotometric titration.  
+  - **Evidence pointer** Abstract, Methods section; location not provided  
+  - **Concern** No details on peptide purity, yield, or characterization (e.g., HPLC, mass spectrometry) are provided. The titration method is mentioned but no experimental conditions (buffer, pH, temperature, concentration range, fitting model) are given.  
+  - **Why it matters** Without characterization data, the identity and purity of p10 cannot be confirmed, which undermines the reliability of the binding measurement. Lack of titration details prevents replication.  
+  - **Resolution test** Include peptide characterization data (e.g., HPLC trace, MS spectrum) and full titration conditions, including the method used to calculate K(a).  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Background section  
+  - **Evidence pointer** Abstract, Background; location not provided  
+  - **Issue** The background states that G4 plays a role in regulating gene expression and telomerase function, but the link to cancer therapy is stated generally without specific context for why G4-binding peptides are advantageous over other ligand classes.  
+  - **Required correction** Briefly specify the rationale for peptide-based G4 binders, such as selectivity or bioavailability advantages, to strengthen the motivation.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Results section  
+  - **Evidence pointer** Abstract, Results; location not provided  
+  - **Issue** The term "high-scoring peptide" is vague. It is unclear whether the score refers to machine learning probability, docking affinity, or a combined metric.  
+  - **Required correction** Define the scoring criteria explicitly, including the specific metric and threshold used for selection.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Conclusion section  
+  - **Evidence pointer** Abstract, Conclusion; location not provided  
+  - **Issue** The conclusion states that further research could lead to targeted treatments, but no limitations of the current study are acknowledged, such as the lack of G4-specific binding data or cellular assays.  
+  - **Required correction** Add a sentence acknowledging the need for G4-specific binding validation and functional assays to support therapeutic potential.  
+
+## Risk / unsupported claims
+- The claim that machine learning classification contributed to identifying p10 is unsupported because no model performance or selection criteria are provided.
+- The claim that p10 forms a stable complex with the G4 surface is unsupported due to absence of structural or energetic data.
+- The claim that the K(a) of 4.45 x 10(5) M(-1) indicates favorable interactions for G4 binding is unsupported because the measurement was against ctDNA, not a G4 structure.
+- The overall conclusion that the approach successfully designed a G4-binding peptide is not established from the provided abstract evidence.

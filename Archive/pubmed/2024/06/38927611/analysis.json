@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38927611",
+  "title": "Prediction of Protein-DNA Interface Hot Spots Based on Empirical Mode Decomposition and Machine Learning.",
+  "authors": "Fang, Zirui; Li, Zixuan; Li, Ming; Yue, Zhenyu; Li, Ke",
+  "journal": "Genes",
+  "published_date": "2024-06-27",
+  "window": {
+    "start": "2024-06-24",
+    "end": "2024-06-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用经验模态分解和机器学习预测蛋白-DNA界面热点，属于广义蛋白-DNA互作结合位点预测，方法可迁移至TF-DNA体系，但未聚焦转录因子。",
+  "abstract": "Protein-DNA complex interactivity plays a crucial role in biological activities such as gene expression, modification, replication and transcription. Understanding the physiological significance of protein-DNA binding interfacial hot spots, as well as the development of computational biology, depends on the precise identification of these regions. In this paper, a hot spot prediction method called EC-PDH is proposed. First, we extracted features of these hot spots' solid solvent-accessible surface area (ASA) and secondary structure, and then the mean, variance, energy and autocorrelation function values of the first three intrinsic modal components (IMFs) of these conventional features were extracted as new features via the empirical modal decomposition algorithm (EMD). A total of 218 dimensional features were obtained. For feature selection, we used the maximum correlation minimum redundancy sequence forward selection method (mRMR-SFS) to obtain an optimal 11-dimensional-feature subset. To address the issue of data imbalance, we used the SMOTE-Tomek algorithm to balance positive and negative samples and finally used cat gradient boosting (CatBoost) to construct our hot spot prediction model for protein-DNA binding interfaces. Our method performs well on the test set, with AUC, MCC and F1 score values of 0.847, 0.543 and 0.772, respectively. After a comparative evaluation, EC-PDH outperforms the existing state-of-the-art methods in identifying hot spots.",
+  "abstract_zh": "蛋白质-DNA复合物相互作用在基因表达、修饰、复制和转录等生物活动中扮演着关键角色。理解蛋白质-DNA结合界面热点区域的生理意义，以及计算生物学的发展，依赖于对这些区域的精确识别。本文提出了一种名为EC-PDH的热点预测方法。首先，我们提取了这些热点的固体溶剂可及表面积（ASA）和二级结构特征，然后通过经验模态分解算法（EMD）提取了这些常规特征的前三个固有模态分量（IMFs）的均值、方差、能量和自相关函数值作为新特征。共获得218维特征。在特征选择方面，我们采用了最大相关最小冗余序列前向选择方法（mRMR-SFS）来获得一个最优的11维特征子集。为了解决数据不平衡问题，我们使用SMOTE-Tomek算法平衡正负样本，并最终使用cat梯度提升（CatBoost）构建了蛋白质-DNA结合界面的热点预测模型。我们的方法在测试集上表现良好，AUC、MCC和F1分数分别为0.847、0.543和0.772。经过比较评估，EC-PDH在识别热点方面优于现有的最先进方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38927611/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38927611/",
+  "paper_page_path": "papers/pubmed/38927611/index.html"
+}

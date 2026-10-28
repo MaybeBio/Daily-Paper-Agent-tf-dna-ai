@@ -1,0 +1,342 @@
+{
+  "identity": {
+    "pmid": "37115092",
+    "doi": "10.1097/MD.0000000000033360",
+    "title": "Investigation of the mechanism of Prunella vulgaris in treatment of papillary thyroid carcinoma based on network pharmacology integrated molecular docking and experimental verification."
+  },
+  "content": {
+    "abstract": "To analyze the molecular mechanism of Prunella vulgaris L. (PV) in the treatment of papillary thyroid carcinoma (PTC) by using network pharmacology combined with molecular docking verification. Traditional Chinese Medicine Systems Pharmacology Database and Analysis Platform database was used to predict the main active components of PV, Traditional Chinese Medicine Systems Pharmacology Database and Analysis Platform, PubChem, and Swiss Target Prediction databases were used to obtain the corresponding targets of all active components. Targets collected for PTC treatment through Gene Cards, Digest and Online Mendelian Inheritance in Man databases respectively. The Search Tool for the Retrieval of Interaction Gene/Protein database was used to obtain the interaction information between proteins, and the topology analysis and visualization were carried out through Cytoscape 3.7.2 software (https://cytoscape.org/). The R package cluster profiler was used for gene ontology and Kyoto encyclopedia of genes and genomes analysis. The \"active ingredient-target-disease\" network was constructed by using Cyto scape 3.7.2, and topological analysis was carried out to obtain the core compound. The molecular docking was processed by using Discovery Studio 2019 software, and the core target and active ingredient were verified. The inhibition rate was detected by CCK8 method. Western blot was used to detect the expression levels of kaempferol anti-PTC related pathway proteins. A total of 11 components and 83 corresponding targets in the component target network of PV, of which 6 were the core targets of PV in the treatment of PTC. It was showed that quercetin, luteolin, beta (beta)-sitosterol, kaempferol may be the core components of PV in the treatment of PTC. vascular endothelial growth factor A, tumor protein p53, transcription factor AP-1, prostaglandin endoperoxidase 2, interleukin 6, and IL-1B may be important targets for the treatment of PTC. The main biological processes mainly including response to nutrient levels, response to xenobiotic stimulus, response to extracellular stimulus, external side of plasma membrane, membrane raft, membrane microdomain, serine hydrolase activity, serine-type endopeptidase activity, antioxidant activity, etc IL-17 signaling pathway, and PI3K-Akt signaling pathway may affect the recurrence and metastasis of PTC. Kaempferol may significantly reduce the activity of Papillary cells of human thyroid carcinoma bcpap cell lines cells compared with quercetin, luteolin, beta-sitosterol. Kaempferol may reduce the protein expression levels of interleukin 6, vascular endothelial growth factor A, transcription factor AP-1, tumor protein p53, 1L-1B and prostaglandin endoperoxidase 2, respectively. PV has the characteristics of multi-components, multi-targets and multi- pathways in the treatment of PTC, which network pharmacology help to provides a theoretical basis for the screening of effective components of PV and further research.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Thyroid Cancer, Papillary/drug therapy",
+      "*Prunella",
+      "Vascular Endothelial Growth Factor A",
+      "Kaempferols/pharmacology/therapeutic use",
+      "Molecular Docking Simulation",
+      "Network Pharmacology",
+      "Tumor Suppressor Protein p53",
+      "Interleukin-6",
+      "Luteolin",
+      "Phosphatidylinositol 3-Kinases",
+      "Quercetin",
+      "Transcription Factor AP-1",
+      "*Thyroid Neoplasms",
+      "Serine",
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use",
+      "Medicine, Chinese Traditional"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Xiling",
+        "Li, Yan",
+        "Wang, Xiaodong",
+        "Huang, Yuanshe",
+        "Mao, Jingxin"
+      ],
+      "short_names": [
+        "Zhu X",
+        "Li Y",
+        "Wang X",
+        "Huang Y",
+        "Mao J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6009-676"
+      ],
+      "affiliations": [
+        "Anshun University, Guizhou Anshun, China.",
+        "Chongqing Medical and Pharmaceutical College, Chongqing, China.",
+        "Chongqing Medical and Pharmaceutical College, Chongqing, China.",
+        "Anshun University, Guizhou Anshun, China.",
+        "Chongqing Medical and Pharmaceutical College, Chongqing, China.",
+        "College of Pharmaceutical Sciences, Southwest University, Chongqing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Xiling",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Anshun University, Guizhou Anshun, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Chongqing Medical and Pharmaceutical College, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaodong",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Chongqing Medical and Pharmaceutical College, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yuanshe",
+        "short_name": "Huang Y",
+        "identifiers": [
+          "0000-0001-6009-676"
+        ],
+        "affiliations": [
+          "Anshun University, Guizhou Anshun, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Jingxin",
+        "short_name": "Mao J",
+        "identifiers": [],
+        "affiliations": [
+          "Chongqing Medical and Pharmaceutical College, Chongqing, China.",
+          "College of Pharmaceutical Sciences, Southwest University, Chongqing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2023 Apr 25",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/28 12:42",
+    "fetched_at": "2026-09-28 23:34:23"
+  },
+  "links": {
+    "cites": [
+      "41226537",
+      "39698463",
+      "38546071",
+      "37765160"
+    ],
+    "refs": [
+      "35814234",
+      "35647194",
+      "35535227",
+      "35245310",
+      "35170400",
+      "34013533",
+      "33680372",
+      "33538676",
+      "33531975",
+      "33505511",
+      "32824922",
+      "31966836",
+      "31933795",
+      "31895498",
+      "31776977",
+      "31059090",
+      "30660646",
+      "30127747",
+      "30039547",
+      "29692864",
+      "29049999",
+      "28924370",
+      "28673327",
+      "27384173",
+      "27236916",
+      "27034885",
+      "26807863",
+      "26732020",
+      "26660542",
+      "25074882",
+      "24160369",
+      "23215728",
+      "22443981",
+      "21093207",
+      "16525684",
+      "16226451",
+      "15080787"
+    ],
+    "similar": [
+      "37115092",
+      "37960775",
+      "38040415",
+      "36637916",
+      "38387682",
+      "34692849",
+      "35837376",
+      "39465738",
+      "37833363",
+      "38215128",
+      "38213248",
+      "37391801",
+      "37799727",
+      "39287271",
+      "36472040",
+      "35781817",
+      "37986389",
+      "38114219",
+      "38376772",
+      "37807411",
+      "36044117",
+      "36550856",
+      "34605344",
+      "34660782",
+      "37287284",
+      "37898675",
+      "37469733",
+      "40065477",
+      "35178959",
+      "36372090",
+      "37233418",
+      "34690752",
+      "35442463",
+      "35430443",
+      "38630770",
+      "38050247",
+      "35528155",
+      "35970314",
+      "38518018",
+      "38489696",
+      "36220511",
+      "37879505",
+      "39151530",
+      "39552028",
+      "35960089",
+      "35610009",
+      "37802827",
+      "37843333",
+      "37682164",
+      "39792751",
+      "36596057",
+      "36083487",
+      "36876711",
+      "36401375",
+      "38114126",
+      "38728503",
+      "37080367",
+      "36435778",
+      "39066538",
+      "39612458",
+      "35757473",
+      "39928767",
+      "34872267",
+      "36003311",
+      "39259113",
+      "37083803",
+      "35960090",
+      "37308028",
+      "37478218",
+      "37403397",
+      "36213575",
+      "36246566",
+      "33273957",
+      "37575231",
+      "37657065",
+      "37690812",
+      "37282910",
+      "36820318",
+      "33376732",
+      "38888753",
+      "32572780",
+      "37990309",
+      "36863641",
+      "33243703",
+      "37058016",
+      "35433974",
+      "39867868",
+      "39960946",
+      "38363944",
+      "36482557",
+      "36749277",
+      "35227068",
+      "36472041",
+      "35616676",
+      "36595795",
+      "35227178",
+      "34349502",
+      "36874926",
+      "35438554",
+      "36164910"
+    ],
+    "review": [
+      "37115092",
+      "39287271",
+      "39612458",
+      "37083803"
+    ],
+    "pmc": [
+      "10145964"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=102&issue=17&spage=e33360&aulast=Zhu",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/thyroidcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Thyroid Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/37115092.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37115092/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37115092",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000033360",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "pmid": "40004124",
+    "doi": "10.3390/ijms26041660",
+    "title": "Identification and Network Construction of mRNAs, miRNAs, lncRNAs, and circRNAs in Sweetpotato (Ipomoea batatas L.) Adventitious Roots Under Salt Stress via Whole-Transcriptome RNA Sequencing."
+  },
+  "content": {
+    "abstract": "Sweetpotato is the seventh largest crop worldwide, and soil salinization is a major environmental stress limiting its yield. Recent studies have shown that noncoding RNAs (ncRNAs) play important regulatory roles in plant responses to abiotic stress. However, ncRNAs in sweetpotato remain largely unexplored. This study analyzed the characteristics of salt-responsive ncRNAs in sweetpotato adventitious roots under salt stress via whole-transcriptome RNA sequencing. The results revealed that 3175 messenger RNAs (mRNAs), 458 microRNAs (miRNAs), 544 long-chain ncRNAs (lncRNAs), and 23 circular RNAs (circRNAs) were differentially expressed. Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis revealed that most differentially expressed mRNAs (DEmRNAs) and miRNAs (DEmiRNAs) were enriched primarily in phenylpropanoid biosynthesis, starch and sucrose metabolism, the Mitogen-Activated Protein Kinase (MAPK) signaling pathway, plant hormone signal transduction, the mRNA surveillance pathway, and ATP-binding cassette (ABC) transporters. Gene Ontology (GO) enrichment analysis revealed that the majority of DEmRNAs, their target DEmiRNAs, and differentially expressed lncRNAs (DElncRNAs) were associated with the cell wall, oxidation-reduction, the plasma membrane, protein phosphorylation, metabolic processes, transcription factor activity, and the regulation of transcription. Additionally, based on the competitive endogenous RNA (ceRNA) hypothesis, we predicted interactions among different RNAs and constructed a salt-responsive ceRNA network comprising 22 DEmiRNAs, 42 DEmRNAs, 27 DElncRNAs, and 10 differentially expressed circRNAs (DEcircRNAs). Some miRNAs, such as miR408, miR169, miR160, miR5139, miR5368, and miR6179, were central to the network, suggesting their crucial roles in the sweetpotato salt response. Our findings provide a foundation for further research into the potential functions of ncRNAs and offer new targets for salt stress resistance improvement through the manipulation of ncRNAs.",
+    "keywords": [
+      "circRNAs",
+      "lncRNAs",
+      "miRNAs",
+      "salt stress",
+      "sweetpotato",
+      "whole-transcriptome RNA sequencing"
+    ],
+    "mesh_terms": [
+      "*Ipomoea batatas/genetics/metabolism",
+      "*MicroRNAs/genetics",
+      "*RNA, Long Noncoding/genetics",
+      "*Plant Roots/genetics/metabolism",
+      "*RNA, Circular/genetics",
+      "Gene Expression Regulation, Plant",
+      "*Salt Stress/genetics",
+      "*RNA, Messenger/genetics",
+      "Gene Regulatory Networks",
+      "*Transcriptome",
+      "RNA, Plant/genetics",
+      "Gene Expression Profiling",
+      "Sequence Analysis, RNA",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Bo",
+        "Li, Yuxia",
+        "Shi, Jun",
+        "Chalasa, Dagaga Dibaba",
+        "Zhang, Lei",
+        "Wu, Shaoyuan",
+        "Xu, Tao"
+      ],
+      "short_names": [
+        "Jiang B",
+        "Li Y",
+        "Shi J",
+        "Chalasa DD",
+        "Zhang L",
+        "Wu S",
+        "Xu T"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-1904-4969"
+      ],
+      "affiliations": [
+        "Jiangsu Key Laboratory of Comparative Genomics, School of Life Sciences, Jiangsu Normal University, Xuzhou 221116, China.",
+        "Jiangsu Key Laboratory of Comparative Genomics, School of Life Sciences, Jiangsu Normal University, Xuzhou 221116, China.",
+        "Jiangsu Key Laboratory of Comparative Genomics, School of Life Sciences, Jiangsu Normal University, Xuzhou 221116, China.",
+        "Jiangsu Key Laboratory of Comparative Genomics, School of Life Sciences, Jiangsu Normal University, Xuzhou 221116, China.",
+        "Jiangsu Key Laboratory of Comparative Genomics, School of Life Sciences, Jiangsu Normal University, Xuzhou 221116, China.",
+        "Jiangsu Key Laboratory of Comparative Genomics, School of Life Sciences, Jiangsu Normal University, Xuzhou 221116, China.",
+        "Jiangsu Key Laboratory of Comparative Genomics, School of Life Sciences, Jiangsu Normal University, Xuzhou 221116, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Bo",
+        "short_name": "Jiang B",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Key Laboratory of Comparative Genomics, School of Life Sciences, Jiangsu Normal University, Xuzhou 221116, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuxia",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Key Laboratory of Comparative Genomics, School of Life Sciences, Jiangsu Normal University, Xuzhou 221116, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Jun",
+        "short_name": "Shi J",
+        "identifiers": [
+          "0009-0007-1904-4969"
+        ],
+        "affiliations": [
+          "Jiangsu Key Laboratory of Comparative Genomics, School of Life Sciences, Jiangsu Normal University, Xuzhou 221116, China."
+        ]
+      },
+      {
+        "full_name": "Chalasa, Dagaga Dibaba",
+        "short_name": "Chalasa DD",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Key Laboratory of Comparative Genomics, School of Life Sciences, Jiangsu Normal University, Xuzhou 221116, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lei",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Key Laboratory of Comparative Genomics, School of Life Sciences, Jiangsu Normal University, Xuzhou 221116, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Shaoyuan",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Key Laboratory of Comparative Genomics, School of Life Sciences, Jiangsu Normal University, Xuzhou 221116, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Tao",
+        "short_name": "Xu T",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangsu Key Laboratory of Comparative Genomics, School of Life Sciences, Jiangsu Normal University, Xuzhou 221116, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Feb 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/26 06:27",
+    "fetched_at": "2026-09-30 12:22:48"
+  },
+  "links": {
+    "cites": [
+      "41345166",
+      "41327033",
+      "41277777",
+      "40710359"
+    ],
+    "refs": [
+      "37833950",
+      "36864608",
+      "36460977",
+      "36292971",
+      "35874022",
+      "35651936",
+      "35519807",
+      "35487668",
+      "35177672",
+      "35026983",
+      "34830118",
+      "34725746",
+      "34718783",
+      "33424904",
+      "33396637",
+      "32900439",
+      "32448156",
+      "32351954",
+      "32138656",
+      "32066373",
+      "32045659",
+      "32005396",
+      "31795942",
+      "31783728",
+      "31752684",
+      "31729949",
+      "31666019",
+      "31563949",
+      "31403819",
+      "31390991",
+      "31368491",
+      "31311189",
+      "31248369",
+      "31212812",
+      "31159725",
+      "31159197",
+      "31125116",
+      "31029105",
+      "30962290",
+      "30781862",
+      "30707937",
+      "30676211",
+      "30562933",
+      "30445438",
+      "30403812",
+      "30233602",
+      "30128600",
+      "30016342",
+      "29968061",
+      "29720988",
+      "29717017",
+      "29558449",
+      "29422907",
+      "29370759",
+      "29338771",
+      "29280973",
+      "29205383",
+      "29191158",
+      "29021802",
+      "29017967",
+      "28994416",
+      "28959731",
+      "28904074",
+      "28861103",
+      "28819222",
+      "28785273",
+      "28717203",
+      "28501625",
+      "28352280",
+      "28279183",
+      "28241800",
+      "28105043",
+      "27739910",
+      "27671698",
+      "27499234",
+      "27402275",
+      "26860696",
+      "26470872",
+      "26466661",
+      "26387578",
+      "26342908",
+      "26242449",
+      "26089831",
+      "26048392",
+      "25888374",
+      "25801271",
+      "25768908",
+      "25697792",
+      "25615265",
+      "25583362",
+      "25445265",
+      "25362847",
+      "25092201",
+      "24579990",
+      "23719892",
+      "23592905",
+      "23536298",
+      "23446346",
+      "23430564",
+      "23341337",
+      "23253603",
+      "23043463",
+      "22931461",
+      "22718503",
+      "22365280",
+      "22160515",
+      "21802130",
+      "21476089",
+      "20632034",
+      "20616154",
+      "20599742",
+      "20459656",
+      "20427224",
+      "20135324",
+      "20012085",
+      "19351418",
+      "19248824",
+      "19244136",
+      "19211694",
+      "19145236",
+      "18952624",
+      "18356539",
+      "17662035",
+      "17573231",
+      "17369432",
+      "16805899",
+      "16510516",
+      "15355866",
+      "15200956",
+      "14744438",
+      "14597658",
+      "14513379",
+      "12508062",
+      "11679672",
+      "10717008"
+    ],
+    "similar": [
+      "40004124",
+      "33396637",
+      "37493868",
+      "31752684",
+      "38007196",
+      "36434735",
+      "31726968",
+      "37108322",
+      "38670640",
+      "39773546",
+      "36355332",
+      "39125819",
+      "34743709",
+      "34830118",
+      "39227669",
+      "35519807",
+      "39223454",
+      "33605699",
+      "36410144",
+      "40054802",
+      "36187128",
+      "32600250",
+      "34966440",
+      "37811627",
+      "31159725",
+      "32377727",
+      "39328420",
+      "31029105",
+      "37286730",
+      "37924392",
+      "31125116",
+      "34513995",
+      "38097981",
+      "32174045",
+      "39213211",
+      "37884868",
+      "36980995",
+      "39428538",
+      "30692017",
+      "33406894",
+      "34301211",
+      "31127661",
+      "35799021",
+      "35313353",
+      "31683503",
+      "34051854",
+      "39810084",
+      "33381546",
+      "38242381",
+      "31322220",
+      "35757392",
+      "36455743",
+      "37979576",
+      "35524814",
+      "35487029",
+      "34993720",
+      "31898160",
+      "38579562",
+      "39444146",
+      "32422009",
+      "30745559",
+      "32423886",
+      "39198785",
+      "40304434",
+      "38482622",
+      "37083698",
+      "34935623",
+      "37382793",
+      "37450076",
+      "33932142",
+      "38862913",
+      "32912111",
+      "38003577",
+      "38483066",
+      "36285722",
+      "33751610",
+      "36203142",
+      "31842887",
+      "30128795",
+      "38622534",
+      "36140715",
+      "32277520",
+      "36604807",
+      "37410211",
+      "33094914",
+      "33861762",
+      "36701720",
+      "39151553",
+      "32389707",
+      "33764282",
+      "33526028",
+      "35690768",
+      "34944311",
+      "28404936",
+      "33961683",
+      "38315381",
+      "36964498",
+      "33792237",
+      "32066373",
+      "39497056"
+    ],
+    "review": [
+      "40004124",
+      "32422009"
+    ],
+    "pmc": [
+      "11854956"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms26041660",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40004124/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

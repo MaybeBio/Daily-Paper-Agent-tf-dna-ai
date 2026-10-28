@@ -1,0 +1,443 @@
+{
+  "identity": {
+    "pmid": "40389113",
+    "doi": "10.1016/j.jare.2025.05.033",
+    "title": "Heme oxygenase 1 (HO-1) is a drug target for reversing cisplatin resistance in non-small cell lung cancer."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Platinum-based drugs, the most widely used chemotherapeutic drugs in clinical oncology, have long faced the problem of drug resistance, which is urgently in need of resolution. Identifying biomarkers of drug resistance may help reduce platinum resistance and improve therapeutic efficacy. OBJECTIVES: This study aims to identify potential biomarkers associated with the development of cisplatin resistance in non-small cell lung cancer (NSCLC) and explore mechanisms to overcome chemoresistance. METHODS: NSCLC cisplatin resistance cell lines were constructed, and transcriptome sequencing was performed. Results were validated using Gene Expression Omnibus (GEO) and The Cancer Genome Atlas (TCGA) databases. Molecular docking, proteomics sequencing, and in vitro and in vivo experiments were conducted to evaluate the role of Heme Oxygenase 1 (HO-1) in cisplatin resistance. RESULTS: NSCLC cisplatin resistance cell lines, GEO and TCGA data identified HMOX1, downstream of Nrf2, as a key drug resistance gene induced by cisplatin. Activation of the Nrf2/HO-1 pathway was found to induce ferroptosis resistance, a critical mechanism of cisplatin resistance. Candidate compounds SB 202190 and Nordihydroguaiaretic acid (NDGA) effectively reactivated ferroptosis by inhibiting HO-1, thereby increasing cisplatin sensitivity. CONCLUSION: The Nrf2/HO-1 pathway is a significant contributor to cisplatin resistance in NSCLC. Targeting HO-1 with SB 202190 and NDGA presents a promising strategy to overcome resistance and improve chemotherapy outcomes.",
+    "keywords": [
+      "Drug resistance",
+      "Ferroptosis",
+      "HO-1",
+      "NSCLC",
+      "Nrf2 pathway"
+    ],
+    "mesh_terms": [
+      "*Cisplatin/pharmacology/therapeutic use",
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung/drug therapy/genetics/metabolism/pathology",
+      "*Heme Oxygenase-1/metabolism/genetics/antagonists & inhibitors",
+      "*Drug Resistance, Neoplasm/drug effects/genetics",
+      "*Lung Neoplasms/drug therapy/genetics/metabolism/pathology",
+      "Animals",
+      "Mice",
+      "NF-E2-Related Factor 2/metabolism",
+      "Cell Line, Tumor",
+      "Antineoplastic Agents/pharmacology",
+      "Xenograft Model Antitumor Assays",
+      "Molecular Docking Simulation",
+      "Mice, Nude",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Ferroptosis/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mei, Jie",
+        "Tian, Hui-Xiang",
+        "Zhang, Xiao-Ye",
+        "Chen, Yuan-Shen",
+        "Wang, Lei-Yun",
+        "Zhang, Zhao",
+        "Zhang, Yu-Long",
+        "Rong, Ding-Chao",
+        "Zeng, Jun",
+        "Dong, Min",
+        "Gao, Yang",
+        "Yin, Ji-Ye",
+        "Wu, Hai-Jun",
+        "Wang, Peng-Yuan",
+        "Zhang, Wei"
+      ],
+      "short_names": [
+        "Mei J",
+        "Tian HX",
+        "Zhang XY",
+        "Chen YS",
+        "Wang LY",
+        "Zhang Z",
+        "Zhang YL",
+        "Rong DC",
+        "Zeng J",
+        "Dong M",
+        "Gao Y",
+        "Yin JY",
+        "Wu HJ",
+        "Wang PY",
+        "Zhang W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical Pharmacology, Xiangya Hospital, Institute of Clinical Pharmacology, Hunan Key Laboratory of Pharmacogenetics and National Clinical Research Center for Geriatric Disorders, Engineering Research Center of Applied Technology of Pharmacogenomics (Ministry of Education, China), Key Laboratory of Pharmacomicrobiomics of Hunan Province, Central South University, Changsha 410078, People's Republic of China; Central Laboratory of Hunan Cancer Hospital, Central South University, Changsha 410013, People's Republic of China; FuRong Laboratory, Changsha 410078 Hunan, People's Republic of China; Oujiang Laboratory, Key Laboratory of Alzheimer's Disease of Zhejiang Province, Institute of Aging, Wenzhou Medical University, Wenzhou 325000, People's Republic of China.",
+        "Department of Clinical Pharmacology, Xiangya Hospital, Institute of Clinical Pharmacology, Hunan Key Laboratory of Pharmacogenetics and National Clinical Research Center for Geriatric Disorders, Engineering Research Center of Applied Technology of Pharmacogenomics (Ministry of Education, China), Key Laboratory of Pharmacomicrobiomics of Hunan Province, Central South University, Changsha 410078, People's Republic of China.",
+        "Department of Clinical Pharmacology, Xiangya Hospital, Institute of Clinical Pharmacology, Hunan Key Laboratory of Pharmacogenetics and National Clinical Research Center for Geriatric Disorders, Engineering Research Center of Applied Technology of Pharmacogenomics (Ministry of Education, China), Key Laboratory of Pharmacomicrobiomics of Hunan Province, Central South University, Changsha 410078, People's Republic of China; Central Laboratory of Hunan Cancer Hospital, Central South University, Changsha 410013, People's Republic of China.",
+        "The First Affiliated Hospital of Guangdong Pharmaceutical University, Guangzhou 510080, People's Republic of China.",
+        "Department of Pharmacy, Traditional Chinese and Western Medicine Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430022, People's Republic of China.",
+        "Central South University Xiangya Medical School, Changsha 410013, People's Republic of China.",
+        "Department of Clinical Pharmacology, Xiangya Hospital, Institute of Clinical Pharmacology, Hunan Key Laboratory of Pharmacogenetics and National Clinical Research Center for Geriatric Disorders, Engineering Research Center of Applied Technology of Pharmacogenomics (Ministry of Education, China), Key Laboratory of Pharmacomicrobiomics of Hunan Province, Central South University, Changsha 410078, People's Republic of China.",
+        "Department of Orthopedics, The First Affiliated Hospital of Shaoyang University, Shaoyang 422000, People's Republic of China.",
+        "Department of Thoracic Surgery, Xiangya Hospital, Central South University, Changsha 410008, People's Republic of China.",
+        "Pharmaceutical College, Guangxi Medical University, Nanning 530021, People's Republic of China.",
+        "Department of Thoracic Surgery, Xiangya Hospital, Central South University, Changsha 410008, People's Republic of China.",
+        "Department of Clinical Pharmacology, Xiangya Hospital, Institute of Clinical Pharmacology, Hunan Key Laboratory of Pharmacogenetics and National Clinical Research Center for Geriatric Disorders, Engineering Research Center of Applied Technology of Pharmacogenomics (Ministry of Education, China), Key Laboratory of Pharmacomicrobiomics of Hunan Province, Central South University, Changsha 410078, People's Republic of China. Electronic address: yinjiye@csu.edu.cn.",
+        "Department of Oncology, Xiangya Hospital of Central South University, Changsha 410008, People's Republic of China. Electronic address: wuhaijun@csu.edu.cn.",
+        "Oujiang Laboratory, Key Laboratory of Alzheimer's Disease of Zhejiang Province, Institute of Aging, Wenzhou Medical University, Wenzhou 325000, People's Republic of China. Electronic address: py.wang@ojlab.ac.cn.",
+        "Department of Clinical Pharmacology, Xiangya Hospital, Institute of Clinical Pharmacology, Hunan Key Laboratory of Pharmacogenetics and National Clinical Research Center for Geriatric Disorders, Engineering Research Center of Applied Technology of Pharmacogenomics (Ministry of Education, China), Key Laboratory of Pharmacomicrobiomics of Hunan Province, Central South University, Changsha 410078, People's Republic of China; Central Laboratory of Hunan Cancer Hospital, Central South University, Changsha 410013, People's Republic of China; FuRong Laboratory, Changsha 410078 Hunan, People's Republic of China; The First Affiliated Hospital of Guangdong Pharmaceutical University, Guangzhou 510080, People's Republic of China. Electronic address: csuzhangwei@csu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mei, Jie",
+        "short_name": "Mei J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacology, Xiangya Hospital, Institute of Clinical Pharmacology, Hunan Key Laboratory of Pharmacogenetics and National Clinical Research Center for Geriatric Disorders, Engineering Research Center of Applied Technology of Pharmacogenomics (Ministry of Education, China), Key Laboratory of Pharmacomicrobiomics of Hunan Province, Central South University, Changsha 410078, People's Republic of China; Central Laboratory of Hunan Cancer Hospital, Central South University, Changsha 410013, People's Republic of China; FuRong Laboratory, Changsha 410078 Hunan, People's Republic of China; Oujiang Laboratory, Key Laboratory of Alzheimer's Disease of Zhejiang Province, Institute of Aging, Wenzhou Medical University, Wenzhou 325000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Tian, Hui-Xiang",
+        "short_name": "Tian HX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacology, Xiangya Hospital, Institute of Clinical Pharmacology, Hunan Key Laboratory of Pharmacogenetics and National Clinical Research Center for Geriatric Disorders, Engineering Research Center of Applied Technology of Pharmacogenomics (Ministry of Education, China), Key Laboratory of Pharmacomicrobiomics of Hunan Province, Central South University, Changsha 410078, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiao-Ye",
+        "short_name": "Zhang XY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacology, Xiangya Hospital, Institute of Clinical Pharmacology, Hunan Key Laboratory of Pharmacogenetics and National Clinical Research Center for Geriatric Disorders, Engineering Research Center of Applied Technology of Pharmacogenomics (Ministry of Education, China), Key Laboratory of Pharmacomicrobiomics of Hunan Province, Central South University, Changsha 410078, People's Republic of China; Central Laboratory of Hunan Cancer Hospital, Central South University, Changsha 410013, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yuan-Shen",
+        "short_name": "Chen YS",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Guangdong Pharmaceutical University, Guangzhou 510080, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lei-Yun",
+        "short_name": "Wang LY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Traditional Chinese and Western Medicine Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430022, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhao",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Central South University Xiangya Medical School, Changsha 410013, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yu-Long",
+        "short_name": "Zhang YL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacology, Xiangya Hospital, Institute of Clinical Pharmacology, Hunan Key Laboratory of Pharmacogenetics and National Clinical Research Center for Geriatric Disorders, Engineering Research Center of Applied Technology of Pharmacogenomics (Ministry of Education, China), Key Laboratory of Pharmacomicrobiomics of Hunan Province, Central South University, Changsha 410078, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Rong, Ding-Chao",
+        "short_name": "Rong DC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital of Shaoyang University, Shaoyang 422000, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Jun",
+        "short_name": "Zeng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Xiangya Hospital, Central South University, Changsha 410008, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Dong, Min",
+        "short_name": "Dong M",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmaceutical College, Guangxi Medical University, Nanning 530021, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yang",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, Xiangya Hospital, Central South University, Changsha 410008, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yin, Ji-Ye",
+        "short_name": "Yin JY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacology, Xiangya Hospital, Institute of Clinical Pharmacology, Hunan Key Laboratory of Pharmacogenetics and National Clinical Research Center for Geriatric Disorders, Engineering Research Center of Applied Technology of Pharmacogenomics (Ministry of Education, China), Key Laboratory of Pharmacomicrobiomics of Hunan Province, Central South University, Changsha 410078, People's Republic of China. Electronic address: yinjiye@csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Hai-Jun",
+        "short_name": "Wu HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Xiangya Hospital of Central South University, Changsha 410008, People's Republic of China. Electronic address: wuhaijun@csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Peng-Yuan",
+        "short_name": "Wang PY",
+        "identifiers": [],
+        "affiliations": [
+          "Oujiang Laboratory, Key Laboratory of Alzheimer's Disease of Zhejiang Province, Institute of Aging, Wenzhou Medical University, Wenzhou 325000, People's Republic of China. Electronic address: py.wang@ojlab.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wei",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacology, Xiangya Hospital, Institute of Clinical Pharmacology, Hunan Key Laboratory of Pharmacogenetics and National Clinical Research Center for Geriatric Disorders, Engineering Research Center of Applied Technology of Pharmacogenomics (Ministry of Education, China), Key Laboratory of Pharmacomicrobiomics of Hunan Province, Central South University, Changsha 410078, People's Republic of China; Central Laboratory of Hunan Cancer Hospital, Central South University, Changsha 410013, People's Republic of China; FuRong Laboratory, Changsha 410078 Hunan, People's Republic of China; The First Affiliated Hospital of Guangdong Pharmaceutical University, Guangzhou 510080, People's Republic of China. Electronic address: csuzhangwei@csu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of advanced research"
+    ],
+    "journal_abbrev": [
+      "J Adv Res"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/20 00:30",
+    "fetched_at": "2026-10-05 03:52:16"
+  },
+  "links": {
+    "cites": [
+      "42617575",
+      "42599961",
+      "42592132",
+      "42587233",
+      "42553426",
+      "42426281",
+      "42302172",
+      "41786997",
+      "41673658",
+      "41483442",
+      "41162811"
+    ],
+    "refs": [
+      "39519155",
+      "39356214",
+      "39121882",
+      "38701781",
+      "38664597",
+      "38614254",
+      "38587027",
+      "38572751",
+      "38245869",
+      "38167159",
+      "37937763",
+      "37851176",
+      "37606911",
+      "37488865",
+      "37421267",
+      "37079311",
+      "36966696",
+      "36809080",
+      "36724221",
+      "36552336",
+      "36552026",
+      "36154922",
+      "35265202",
+      "35039634",
+      "34985966",
+      "34385702",
+      "34067625",
+      "33895485",
+      "33894335",
+      "33456577",
+      "33355181",
+      "33232319",
+      "33128031",
+      "32964540",
+      "32817372",
+      "32455831",
+      "32448366",
+      "31456942",
+      "30692038",
+      "30604648",
+      "29768118",
+      "29452096",
+      "29364287",
+      "29068003",
+      "28475131",
+      "28012440",
+      "26830315",
+      "25493622",
+      "24375922",
+      "24180257",
+      "21892204",
+      "20068163",
+      "19478820",
+      "19286972",
+      "18996987",
+      "18852027",
+      "9845332",
+      "9539859"
+    ],
+    "similar": [
+      "40389113",
+      "38587027",
+      "33113504",
+      "39061086",
+      "41408403",
+      "38822881",
+      "28012440",
+      "41562315",
+      "26497680",
+      "40818823",
+      "41833771",
+      "40645461",
+      "42599961",
+      "42126498",
+      "31415285",
+      "41344272",
+      "40619029",
+      "32854746",
+      "40369444",
+      "40011884",
+      "40907917",
+      "33781830",
+      "31541463",
+      "26393425",
+      "38818906",
+      "41557244",
+      "24747074",
+      "41865688",
+      "42456829",
+      "42026186",
+      "40293839",
+      "40429829",
+      "29230104",
+      "24300974",
+      "32878625",
+      "40499802",
+      "41406834",
+      "41286308",
+      "39366066",
+      "41807497",
+      "30522099",
+      "40866937",
+      "40152390",
+      "39256686",
+      "39862920",
+      "42472515",
+      "30302523",
+      "39020302",
+      "29789623",
+      "30064446",
+      "31495720",
+      "30981205",
+      "34537072",
+      "28202053",
+      "33197518",
+      "24761924",
+      "38850814",
+      "18829555",
+      "32945379",
+      "40992442",
+      "41851365",
+      "41814370",
+      "42532288",
+      "41781454",
+      "39097893",
+      "38574881",
+      "34237431",
+      "40242936",
+      "39547404",
+      "41071625",
+      "40860181",
+      "40695404",
+      "41272697",
+      "30718500",
+      "32731058",
+      "39089636",
+      "33753110",
+      "42531287",
+      "31811110",
+      "32382008",
+      "32394538",
+      "39394878",
+      "31985119",
+      "38244586",
+      "33078469",
+      "39341007",
+      "39179137",
+      "38588931",
+      "42142138",
+      "28076844",
+      "29857117",
+      "40025550",
+      "34246759",
+      "33418541",
+      "35792913",
+      "36427803",
+      "32602212",
+      "29960010",
+      "41614410",
+      "39487426"
+    ],
+    "review": [
+      "40389113"
+    ],
+    "pmc": [
+      "12869221"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2090-1232(25)00347-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40389113/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and availability statements
+- **Assessment boundary** Scientific claims, methodology, validation approach, and interpretation as presented in the provided text
+- **Shared manuscript claim summary** The authors present TriCyP, a two-layer neural network using ESM-2 protein language model embeddings, to classify cysteine residues into three functional states (disulfide-bonded, metal-binding, free thiol). They report near-perfect accuracy on held-out data, apply the model to 2.7 million cysteines across 0.9 million ECOD F70 representative domains, and present analyses of disulfide and metal-binding patterns across evolutionary and subcellular contexts.
+- **Visible evidence base** Abstract, Introduction, Results sections (four subsections), Discussion subsections, Methods sections, figure references (Fig 1-5, Fig S1-S3), and data availability statements
+- **Missing materials affecting confidence** Figures and supplementary figures are referenced but not provided; detailed benchmark methodology for comparison tools is not fully described; specific statistical test details are absent; the independent benchmark set is not clearly defined
+
+## Reviewer
+- **Overall assessment** This manuscript presents a useful and potentially impactful tool for cysteine state prediction from protein language model embeddings. The core finding that a simple two-layer network on ESM-2 embeddings outperforms more complex structure-aware architectures is interesting and practically valuable. The large-scale application to ECOD domains provides a community resource with broad utility. However, several technical aspects require clarification and additional validation before the claims are fully established, particularly regarding the independence of the benchmark set, the handling of class imbalance, and the interpretation of the "orphaned" disulfide predictions.
+- **Who would be interested in the results, and why** Structural biologists, protein function annotators, and researchers working on cysteine post-translational modifications or metal-binding proteins would find this resource valuable. The ECOD integration makes it relevant to the protein classification and evolution community. The methodological finding that simple embedding-based models can match or exceed structure-based approaches will interest the protein language model and function prediction community.
+- **Major strengths** The manuscript addresses a clear gap in cysteine functional annotation at proteome scale. The model architecture is elegantly simple and computationally efficient. The application to ECOD domains provides a systematic and evolutionarily informed survey. The authors demonstrate awareness of limitations, particularly regarding inter-protein disulfides and the dynamic nature of cysteine states. The resource is made freely available with code, weights, and predictions deposited.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "On an independent benchmark set, TriCyP achieves near-perfect accuracy (AUROC = 0.99) and outperforms existing approaches for predicting both disulfide bonding and metal coordination."
+  - **Evidence pointer** Results section "Evaluating the performance of cysteine state predictors", Figure 2
+  - **Concern** The manuscript states that performance was evaluated on an "independent benchmark set" but the description of how this set was constructed is not provided. The cross-validation procedure is described, but the relationship between the cross-validation test folds and the "independent benchmark set" is unclear. If the benchmark set is derived from the same PDB-derived data used for training, the claim of independence is weakened. Additionally, the comparison with existing tools (GPSite, LMetalSite, SSBONDPredict) is described but the specific evaluation protocol, including whether these tools were retrained or used as-is, is not detailed.
+  - **Why it matters** The central claim of the manuscript is that TriCyP achieves near-perfect accuracy and outperforms existing methods. Without a clear description of the benchmark construction and evaluation protocol, this claim cannot be independently assessed. The comparison with existing tools is particularly important because these tools may have been trained on different data distributions, and the comparison may not be apples-to-apples.
+  - **Resolution test** Provide a clear description of how the independent benchmark set was constructed, including its relationship to the training data. Detail the evaluation protocol for existing tools, including whether they were used with default parameters, retrained, or adapted. Report performance metrics separately for the cross-validation test folds and the independent benchmark set.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We determined operational thresholds by maximizing the F1-score for each class, resulting in cutoffs of 0.972 and 0.742, respectively, in recognizing metal-binding and disulfide-bonded cysteines."
+  - **Evidence pointer** Results section "Evaluating the performance of cysteine state predictors", Figure 2C, F
+  - **Concern** The threshold selection procedure is described as maximizing F1-score, but the details of this optimization are not provided. Specifically, it is unclear whether the thresholds were optimized on the training set, validation set, or held-out test set. If thresholds were optimized on the test set, the reported performance metrics would be optimistically biased. Additionally, the manuscript does not report precision, recall, or F1 values at these thresholds, only AUROC and AP, which are threshold-independent metrics.
+  - **Why it matters** The operational thresholds are used for all downstream analyses, including the large-scale ECOD annotation. If the thresholds are optimistically biased, the reported proportions of disulfide-bonded and metal-binding cysteines in the ECOD survey could be inaccurate. The lack of threshold-dependent metrics makes it difficult to assess the practical utility of the classifier.
+  - **Resolution test** Clarify on which data the thresholds were optimized. Report precision, recall, and F1 at the chosen thresholds for the held-out test set. Consider reporting performance across a range of thresholds to demonstrate robustness.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Predicted disulfide-forming cysteines lacking a corresponding structural partner in AlphaFold models may identify either regions of elevated structural uncertainty or latent inter-protein disulfide bonds that stabilize protein-protein interactions."
+  - **Evidence pointer** Results section "TriCyP predictions reveal cysteines participating in inter-protein interactions", Figure 4
+  - **Concern** The manuscript presents this as a key application of TriCyP, but the analysis is largely qualitative. The authors show examples (Fig 4D-G) but do not provide a systematic evaluation of how often "orphaned" disulfide predictions correspond to genuine inter-protein disulfides versus false positives or structurally uncertain regions. The claim that these predictions "may identify" such features is appropriately hedged, but the utility of this application would be strengthened by a more quantitative assessment.
+  - **Why it matters** The ability to predict inter-protein disulfides from monomeric sequences is a potentially valuable contribution, as structure-based methods cannot capture these interactions. However, without a systematic validation, it is unclear how reliable this signal is and whether it can be used for high-confidence predictions.
+  - **Resolution test** Provide a quantitative analysis of orphaned disulfide predictions, such as the fraction that can be validated against known inter-protein disulfides in experimentally determined complexes, or a comparison with AlphaFold multimer predictions for a subset of cases.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "We observed a decrease in performance when utilizing isolated domain sequences rather than full-length protein sequences to generate embeddings."
+  - **Evidence pointer** Discussion section "Advantage and limitations of protein language models"
+  - **Concern** This is an important practical finding with implications for users of TriCyP, but the magnitude of the performance decrease is not quantified. The authors recommend using full-length sequences, but do not report the specific performance difference. This information is critical for users who may only have domain sequences available.
+  - **Why it matters** The ECOD database provides domain sequences, and users may reasonably apply TriCyP to these sequences directly. If the performance decrease is substantial, this could lead to inaccurate annotations. Quantifying the effect would help users understand the trade-offs.
+  - **Resolution test** Report the specific performance metrics (AUROC, AP) for both full-length and domain-only sequence inputs on the held-out test set. Consider providing a correction factor or guidance for users who must use domain sequences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction assumes familiarity with cysteine chemistry and protein structure concepts. A brief explanation of why cysteine is uniquely versatile among amino acids would help nonspecialist readers appreciate the significance of the work.
+  - **Required correction** Add one or two sentences explaining the chemical properties of the thiol group that enable its diverse functional roles.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Training and testing dataset preparation"
+  - **Evidence pointer** Methods section, first subsection
+  - **Issue** The description of the "grey zone" exclusion criterion is somewhat ambiguous. The text states that cysteines within 5 Å of a potential partner that failed to meet strict bonding criteria were excluded, but it is unclear whether this applies to both disulfide and metal-binding criteria or only one.
+  - **Required correction** Clarify whether the grey zone applies to both disulfide and metal-binding classification or only to specific cases.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Large-scale classification of cysteines in AlphaFold models"
+  - **Evidence pointer** Results section, third subsection, Figure 3
+  - **Issue** The comparison between PDB-derived and AFDB-derived domains (Fig 3A) is interesting but the interpretation is somewhat speculative. The authors attribute the higher disulfide rate in PDB-derived domains to experimental bias, but alternative explanations (e.g., differences in sequence composition) are not discussed.
+  - **Required correction** Acknowledge alternative explanations for the observed differences between PDB-derived and AFDB-derived domains.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion, "Incorporating feature predictions into future ECOD development"
+  - **Evidence pointer** Discussion section, fourth subsection
+  - **Issue** The discussion of ECOD integration is somewhat technical and may not be accessible to readers outside the protein classification community. A brief explanation of the ECOD hierarchy and why cysteine annotation is valuable for classification would help.
+  - **Required correction** Add a brief description of the ECOD hierarchy levels and how cysteine annotations could inform classification decisions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmark independence and evaluation protocol), R1-M2 (threshold optimization and reporting)
+- **Assessment against Nature-style criteria** Originality: The application of protein language model embeddings to cysteine state classification is novel, though the underlying approach is not conceptually unprecedented. The systematic ECOD-wide survey is a distinctive contribution. Scientific importance: The resource has clear utility for the structural biology and protein function annotation communities. The finding that simple embedding-based models can match structure-based approaches is practically important. Interdisciplinary readership: The work bridges protein language models, structural biology, and evolutionary classification, which could attract readers from multiple communities. Technical soundness: The core methodology is sound, but the benchmark evaluation and threshold optimization require clarification. The comparison with existing tools needs more detail. Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with cysteine chemistry and protein structure concepts. Some sections, particularly the ECOD integration discussion, may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core methodology and resource are valuable, and the concerns raised are addressable with additional analysis and clarification. The manuscript would benefit from a more rigorous description of the benchmark evaluation and threshold selection, as well as a quantitative assessment of the inter-protein disulfide application.
+
+## Risk / unsupported claims
+- The claim of "near-perfect accuracy" on an "independent benchmark set" cannot be fully assessed without a clear description of how this set was constructed and its relationship to the training data.
+- The claim that TriCyP "outperforms existing approaches" requires more detail on the evaluation protocol for comparison tools.
+- The interpretation of "orphaned" disulfide predictions as indicators of inter-protein disulfides or structural uncertainty is plausible but not systematically validated.
+- The claim that the lower predicted metal-binding fraction in PDB-derived domains reflects a "moderate false-negative rate" is presented without direct evidence.
+- The statement that "the choice of hyperparameters do not affect the validation performance much" is presented without supporting data.
+- The quantitative difference in performance between full-length and domain-only sequence inputs is mentioned but not quantified.

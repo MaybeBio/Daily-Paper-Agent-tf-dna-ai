@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.01.657174",
+  "title": "De novo design of protein-binding aptamers through deep reinforcement learning assembly of nucleic acid fragments",
+  "authors": "Gaoxing Guo; Liangwei Guo; Jiaqiang Qian; Xiaoming He; Xinzhou Qian; Lei Wang; Qiang Huang",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-03",
+  "window": {
+    "start": "2025-06-02",
+    "end": "2025-06-08"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度强化学习与蒙特卡洛树搜索从头设计靶向蛋白的DNA适配体，虽以蛋白-核酸适配体结合为核心，但聚焦适配体而非TF-DNA转录因子体系，方法可迁移至TF-DNA互作建模。",
+  "abstract": "Nucleic acid aptamers targeting proteins are becoming increasingly important in biopharmaceuticals and molecular diagnostics. Traditionally, aptamers are discovered through labor-intensive screening of nucleic acid libraries using the SELEX method. However, de novo design approaches without experimental screening remain a significant challenge. Here, we employed deep reinforcement learning to develop an artificial intelligence (AI) agent capable of de novo aptamer design, termed AiDTA (AI-driven Docking-Then-Assembling). First, nucleic acid fragments were docked to the target protein to identify target-binding fragments. Then, AiDTA automatically assembled these fragments into aptamers using the Monte Carlo tree search algorithm and a policy-value neural network to guide the agent in generating aptamers with secondary structures similar to the original constituent fragments. Experimental validation demonstrated that the AiDTA-designed DNA aptamers targeting disease-related proteins exhibited high binding affinities in the nanomolar range, achieving the de novo design of protein-binding aptamers for the first time. Our study establishes a new approach to obtaining protein-binding aptamers for potential applications in biopharmaceuticals and diagnostics.",
+  "abstract_zh": "靶向蛋白质的核酸适配体在生物制药和分子诊断中正变得越来越重要。传统上，适配体通过使用SELEX方法对核酸文库进行劳动密集型筛选来发现。然而，无需实验筛选的从头设计方法仍然是一个重大挑战。在此，我们采用深度强化学习开发了一种能够进行从头适配体设计的人工智能（AI）代理，称为AiDTA（AI驱动的对接-然后-组装）。首先，将核酸片段对接至靶蛋白以识别靶标结合片段。然后，AiDTA利用蒙特卡洛树搜索算法和策略-价值神经网络自动将这些片段组装成适配体，以引导代理生成具有与原始组成片段相似二级结构的适配体。实验验证表明，AiDTA设计的靶向疾病相关蛋白的DNA适配体表现出纳摩尔级别的高结合亲和力，首次实现了蛋白结合适配体的从头设计。我们的研究建立了一种获取蛋白结合适配体的新方法，为生物制药和诊断领域的潜在应用奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.01.657174",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.01.657174",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.01.657174/index.html"
+}

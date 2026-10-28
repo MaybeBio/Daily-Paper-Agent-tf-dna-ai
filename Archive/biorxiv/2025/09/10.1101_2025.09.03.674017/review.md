@@ -1,0 +1,106 @@
+## Review setup
+
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability)
+- **Assessment boundary** Scientific and technical evaluation of the claims as presented in the provided manuscript text; no external data or code verification performed
+- **Shared manuscript claim summary** The authors present YuelPocket, a graph neural network with a virtual joint node architecture for protein-small molecule binding site prediction, trained on the MOAD dataset (over 38,000 complexes), reporting AUC-ROC of 0.85 and 0.89 on COACH420 and Holo4k, respectively, along with ligand-specific prediction, binding affinity correlation, and a minimal probe set approach for comprehensive binding site discovery
+- **Visible evidence base** Abstract, Introduction, Results sections (four subsections), Discussion, Methods, Data availability statement, figure references (Figures 1-5, S1-S3, Tables S1-S4)
+- **Missing materials affecting confidence** Figures and tables themselves are not provided; detailed model hyperparameters, training configuration, and ablation studies are not described; baseline comparisons with existing methods are mentioned but not quantified in the text; code repository not inspected
+
+## Reviewer
+
+- **Overall assessment** The manuscript addresses an important problem in structure-based drug discovery and proposes a novel architectural contribution through the virtual joint node concept. The linear complexity argument is theoretically sound and represents a genuine advance over quadratic all-to-all connection schemes. However, the evidence presented in the text is insufficient to fully establish the claimed performance advantages. Key quantitative comparisons with existing methods are missing, the relationship between the reported AUC-ROC values and practical utility requires clarification, and several methodological details are underspecified. The correlation analysis with binding affinity is intriguing but the interpretation may be overstated given the correlational nature of the evidence.
+- **Who would be interested in the results, and why** Computational biologists and medicinal chemists working on structure-based drug discovery, particularly those developing or applying machine learning methods for binding site prediction. The virtual joint node architecture may also interest the broader graph neural network community working on protein-ligand interaction modeling. The minimal probe set concept could be valuable for high-throughput drug discovery applications.
+- **Major strengths** The virtual joint node architecture is a conceptually elegant solution to the computational complexity problem in unified protein-ligand graph construction. The training dataset scale (over 38,000 complexes) is substantially larger than many prior efforts. The exploration of binding affinity correlation from purely structural training is a thought-provoking finding. The adaptive threshold strategy demonstrates practical consideration for real-world deployment.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "YuelPocket achieves exceptional performance with AUC-ROC values of 0.85 and 0.89 on COACH420 and Holo4k datasets, respectively"
+  - **Evidence pointer** Results section, "Binding Site Prediction Performance on Benchmark Datasets"; Figure 2
+  - **Concern** The performance claims are presented without any comparison to existing state-of-the-art methods. The text mentions that "most current approaches focus on local structural features" but does not provide quantitative comparisons with methods such as P2Rank, DeepSite, DeepPocket, PUResNet, SiteRadar, or LigBind, despite these being discussed in the Introduction. The AUC-ROC values alone, without baseline context, do not establish whether the performance is "exceptional" relative to the field.
+  - **Why it matters** Without baseline comparisons, the central claim of improved performance cannot be evaluated. The reader cannot determine whether the virtual joint node architecture provides meaningful advantages over existing approaches or whether the reported values are within the range of what simpler methods already achieve.
+  - **Resolution test** Provide a comparison table with AUC-ROC, AUC-PR, and other relevant metrics for existing methods evaluated on the same COACH420 and Holo4k datasets, ideally using the same evaluation protocol and data splits.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Trained on the comprehensive MOAD dataset containing over 38,000 protein-small molecule complexes"
+  - **Evidence pointer** Results section, "Binding Site Prediction Performance on Benchmark Datasets"; Methods section, "Raw Data Collection"
+  - **Concern** The training and evaluation protocol is underspecified. The text states that COACH420 and Holo4k proteins are "also covered by MOAD" and that these were used as the test set with remaining proteins as training, but critical details are missing. How were overlapping complexes between MOAD and the benchmark datasets handled? Were all complexes for a given protein excluded from training when that protein appeared in the test set? What was the exact training-testing split ratio? How were multiple ligands per protein treated in the ground truth labeling?
+  - **Why it matters** Data leakage between training and test sets is a well-documented pitfall in binding site prediction evaluation. If complexes from test proteins were included in training, the reported performance could be substantially inflated. The "training-to-testing ratio of approximately 8.5:1.5" is ambiguous and does not clarify whether protein-level or complex-level splitting was used.
+  - **Resolution test** Clearly describe the data splitting protocol, including whether protein-level exclusion was enforced, how homologous proteins were handled, and the exact number of training and test complexes. Provide a supplementary figure or table showing the distribution of sequence identity between training and test proteins.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We observe exceptional specificity (0.85) and NPV (0.95), indicating the ability of YuelPocket to accurately identify non-binding regions while minimizing false positives"
+  - **Evidence pointer** Results section, "Binary Classification Threshold Optimization"; Figure 3
+  - **Concern** The precision value of approximately 0.25 is reported without adequate discussion. While the authors attribute this to class imbalance, the practical implications are significant. A precision of 0.25 means that three-quarters of predicted binding site residues are false positives. The claim of "exceptional" performance in identifying non-binding regions (specificity, NPV) is somewhat misleading when the positive predictive value is low. The manuscript does not discuss how this precision-recall trade-off affects practical utility in drug discovery applications.
+  - **Why it matters** For real-world drug discovery applications, false positive binding site predictions are costly. The manuscript should provide a balanced discussion of the precision limitations and how they might be addressed, or contextualize the precision values relative to what existing methods achieve.
+  - **Resolution test** Provide precision-recall curves for existing methods on the same datasets for direct comparison. Discuss the practical implications of the precision values and whether the adaptive threshold strategy can be tuned to achieve higher precision at acceptable recall levels.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "The emergence of binding affinity correlations from purely structural training data has profound implications for our understanding of protein-ligand interactions"
+  - **Evidence pointer** Results section, "Correlation between Pocket Probability and Binding Affinity"; Figure S3
+  - **Concern** The correlation analysis reports Pearson correlation of 0.391-0.429 and Spearman correlation of 0.415-0.423. While statistically significant, these are moderate correlations that explain only about 15-18% of the variance. The interpretation that this "has profound implications" and "suggests that the structural features that determine binding site formation are inherently linked to the energetic factors that govern binding strength" appears overstated. The correlation could arise from trivial factors such as pocket size or residue count correlating with both probability scores and binding affinity.
+  - **Why it matters** Overinterpretation of correlational findings can mislead the field. The manuscript should either temper the claims or provide additional analyses (e.g., partial correlations controlling for pocket size, comparison with random structural features) to support the interpretation.
+  - **Resolution test** Provide control analyses showing that the correlation is not driven by confounding variables. Compare the observed correlation with what would be expected from a model trained on random structural features. Discuss the practical utility of the correlation for affinity prediction.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "We also developed a minimal probe set approach using 15 selected ligands to comprehensively explore binding space across diverse protein targets"
+  - **Evidence pointer** Results section, "Comprehensive Binding Site Discovery with Minimal Probe Sets"; Figure 5
+  - **Concern** The minimal probe set approach is presented as a significant contribution, but the evaluation is incomplete. The text states that the probe set "provides comprehensive coverage of binding sites across diverse protein families" but does not provide quantitative metrics for coverage, comparison with random probe sets of the same size, or analysis of how the 15 selected ligands were chosen beyond the greedy algorithm description. The claim of "comprehensive" coverage requires quantitative support.
+  - **Why it matters** The utility of the minimal probe set depends on whether it provides coverage that is substantially better than random ligand selection. Without this comparison, the contribution of the probe set approach cannot be assessed.
+  - **Resolution test** Provide quantitative coverage metrics for the 15-ligand probe set compared with random sets of the same size, and show the distribution of coverage across protein families. Discuss the criteria for selecting the coverage threshold.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction, paragraph 3
+  - **Evidence pointer** "Existing GNN approaches that rely on local graph construction"
+  - **Issue** The description of limitations of existing GNN methods is somewhat generic. The text states that existing methods "construct only local graphs" and "do not explicitly incorporate ligand information," but does not provide specific examples or citations for which methods have these limitations.
+  - **Required correction** Provide specific citations and brief descriptions of representative existing GNN methods and their architectural choices to substantiate the claimed limitations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Graph Convolutional Layer Architecture"
+  - **Evidence pointer** "The aggregation function employs either sum or mean pooling with normalization"
+  - **Issue** The manuscript does not specify which aggregation function was used in the final model, nor does it provide the number of layers, hidden dimensions, learning rate, or other hyperparameters necessary for reproducibility.
+  - **Required correction** Provide the full set of hyperparameters and training configuration, either in the main text or in a supplementary table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Binding Site Clustering and Center Prediction"
+  - **Evidence pointer** "We developed an algorithm (Methods) that predicts pocket centers based on our residue-level predictions"
+  - **Issue** The comparison with existing methods reports DCC scores for Fpocket (0.710), PUResNet (0.460), and SiteRadar (0.760) but does not specify whether these values were reproduced by the authors or taken from published literature. The evaluation protocol for these comparisons is not described.
+  - **Required correction** Clarify the source of the comparison values and describe the evaluation protocol used for all methods to ensure fair comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, "Correlation between Pocket Probability and Binding Affinity"
+  - **Evidence pointer** "Since YuelPocket outputs probability scores for individual residues, we employed two aggregation methods"
+  - **Issue** The choice of aggregation methods (maximum and mean) is reasonable, but the manuscript does not discuss whether other aggregation strategies (e.g., median, weighted by distance to ligand) were considered or how sensitive the results are to this choice.
+  - **Required correction** Briefly discuss the sensitivity of the correlation results to the aggregation method choice.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion, paragraph 1
+  - **Evidence pointer** "The introduction of the virtual joint node addresses the computational complexity challenge"
+  - **Issue** The complexity analysis is presented in the Discussion rather than in the Methods or Results, which makes it difficult to verify the claims against the actual implementation. The notation C, m, n is introduced in the Introduction but the formal definition of C is only given in the Discussion.
+  - **Required correction** Move the formal complexity analysis to the Methods section and provide a clear definition of all notation at first use.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing baseline comparisons), R1-M2 (data leakage risk and underspecified evaluation protocol), R1-M3 (incomplete discussion of precision limitations)
+- **Assessment against Nature-style criteria** Originality: The virtual joint node architecture is a novel contribution that addresses a genuine limitation in existing GNN approaches for binding site prediction. The concept of using a hub node to achieve linear complexity while maintaining global information flow is elegant and potentially transferable to other protein-ligand interaction tasks. Scientific importance: Binding site prediction is a central problem in structure-based drug discovery, and improvements in this area have broad implications. However, the importance of the specific contribution is diminished by the lack of rigorous comparison with existing methods. Interdisciplinary readership: The work bridges machine learning, structural biology, and drug discovery, and the writing is generally accessible to readers across these fields. The clinical and pharmaceutical motivation is clearly articulated. Technical soundness: The architectural concept is sound, but the evaluation methodology has significant gaps. The lack of baseline comparisons, potential data leakage, and incomplete hyperparameter reporting prevent full assessment of technical validity. Readability for nonspecialists: The manuscript is generally well-written and accessible, with clear motivation and logical flow. However, some technical details (e.g., the complexity analysis) could be better placed and explained for readers outside the immediate field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core architectural idea is promising and the training data scale is a strength, but the manuscript currently does not establish that YuelPocket outperforms existing methods. The authors should provide rigorous baseline comparisons, clarify the data splitting protocol to rule out leakage, and provide complete implementation details. The interpretation of the affinity correlation results should also be tempered or supported with additional control analyses.
+
+## Risk / unsupported claims
+- The claim of "exceptional performance" based on AUC-ROC values without baseline comparisons is unsupported
+- The claim that the minimal probe set provides "comprehensive coverage" of binding sites is not quantitatively supported
+- The interpretation that affinity correlations "have profound implications" for understanding protein-ligand interactions is overstated given the moderate correlation magnitudes
+- The claim that existing GNN methods "fundamentally miss the global interaction patterns" is asserted without specific comparative evidence
+- The statement that the virtual joint node "can be interpreted as representing the binding pocket itself" is speculative and not directly supported by the presented analyses
+- The precision improvement from 0.2 to 0.4 when considering all ligands is presented as evidence for uncharacterized binding sites, but alternative explanations (e.g., label noise, evaluation artifacts) are not discussed

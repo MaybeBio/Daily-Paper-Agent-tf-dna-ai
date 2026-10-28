@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "40701468",
+    "doi": "10.1016/j.ijbiomac.2025.146187",
+    "title": "Disruption of c-Myc/Max heterodimerization induced by a novel anticancer agent endowed with 1,3-diphenylurea moiety: an in silico, chemoproteomics-based, and in vitro combined approach."
+  },
+  "content": {
+    "abstract": "The intrinsically disordered protein (IDP) c-Myc plays a crucial role in regulating cell growth, proliferation, and apoptosis, making it a significant target for cancer therapy. Herein, we report an integrated approach combining computational and biological methods to uncover key c-Myc structural aspects aimed at identifying modulators of this protein. A virtual screening campaign starting from commercially available libraries was performed, leading to the selection of 11 promising c-Myc binders. Preliminary biophysical and biological analysis, including Surface Plasmon Resonance (SPR) and MTT [(3-[4,5-dimethylthiazol-2-yl]-2,5 diphenyl tetrazolium bromide)] assays, highlighted three new potential c-Myc/Max heterodimerization inhibitors. Among them, 11 emerged as the most active one, displaying promising dissociation costant (K(D)) values on c-Myc (~ 60 muM), only slightly higher than the known binder 10058-F4 (with a K(D) ~ 40 muM) and on Max (with a K(D) ~ 80 muM). Notably, 11 showed significant antiproliferative effects on three different malignant cell lines (i.e., U937, HCT-116, and HT-29, as models of acute myeloid leukemia and colorectal cancer cell lines, respectively) in a dose- and cell-dependent manner. Importantly, a significant decrease in c-Myc levels was observed, especially in U937 leukemia cells with an 85 % reduction. Finally, molecular dynamics simulations and proteomic studies were performed to identify its binding site and key interacting residues. In summary, this work presents a robust research strategy and offers valuable insights for identifying new c-Myc/Max disruptors.",
+    "keywords": [
+      "Cancer",
+      "Computational chemistry",
+      "Drug discovery",
+      "Heterodimerization",
+      "Proteomics",
+      "c-Myc"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Antineoplastic Agents/chemistry/pharmacology/therapeutic use",
+      "Binding Sites",
+      "Drug Screening Assays, Antitumor",
+      "HCT116 Cells",
+      "HT29 Cells",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation",
+      "*Phenylurea Compounds/chemistry/pharmacology/therapeutic use",
+      "Protein Multimerization/drug effects",
+      "Proteomics",
+      "*Proto-Oncogene Proteins c-myc/antagonists & inhibitors",
+      "*Basic Helix-Loop-Helix Leucine Zipper Transcription Factors/antagonists & inhibitors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gazzillo, Erica",
+        "Capasso, Lucia",
+        "Scala, Francesca",
+        "Aliberti, Michela",
+        "Capuano, Alessandra",
+        "D'Urso, Gilda",
+        "Bruno, Ines",
+        "Mele, Donato",
+        "Reginelli, Alfonso",
+        "Lauro, Gianluigi",
+        "Casapullo, Agostino",
+        "Terracciano, Stefania",
+        "Altucci, Lucia",
+        "Chini, Maria Giovanna",
+        "Nebbioso, Angela",
+        "Bifulco, Giuseppe"
+      ],
+      "short_names": [
+        "Gazzillo E",
+        "Capasso L",
+        "Scala F",
+        "Aliberti M",
+        "Capuano A",
+        "D'Urso G",
+        "Bruno I",
+        "Mele D",
+        "Reginelli A",
+        "Lauro G",
+        "Casapullo A",
+        "Terracciano S",
+        "Altucci L",
+        "Chini MG",
+        "Nebbioso A",
+        "Bifulco G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: egazzillo@unisa.it.",
+        "Department of Precision Medicine, University of Campania \"Luigi Vanvitelli\", Vico L. De Crecchio 7, 80138, Naples, Italy. Electronic address: lucia.capasso2@unicampania.it.",
+        "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy; PhD Program in Drug Discovery and Development, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: fscala@unisa.it.",
+        "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy; PhD Program in Drug Discovery and Development, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: mialiberti@unisa.it.",
+        "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: acapuano@unisa.it.",
+        "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: gidurso@unisa.it.",
+        "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: brunoin@unisa.it.",
+        "Department of Precision Medicine, University of Campania \"Luigi Vanvitelli\", Vico L. De Crecchio 7, 80138, Naples, Italy. Electronic address: donato.mele@unicampania.it.",
+        "Department of Precision Medicine, University of Campania \"Luigi Vanvitelli\", Vico L. De Crecchio 7, 80138, Naples, Italy. Electronic address: alfonso.reginelli@unicampania.it.",
+        "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: glauro@unisa.it.",
+        "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: casapullo@unisa.it.",
+        "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: sterracciano@unisa.it.",
+        "Department of Precision Medicine, University of Campania \"Luigi Vanvitelli\", Vico L. De Crecchio 7, 80138, Naples, Italy; Program of Medical Epigenetics, Vanvitelli Hospital, Naples 80138, Italy; Biogem, Molecular Biology and Genetics Research Institute, Ariano Irpino 83031, Italy. Electronic address: lucia.altucci@unicampania.it.",
+        "Department of Biosciences and Territory, University of Molise, Contrada Fonte Lappone, Pesche, Isernia 86090, Italy. Electronic address: mariagiovanna.chini@unimol.it.",
+        "Department of Precision Medicine, University of Campania \"Luigi Vanvitelli\", Vico L. De Crecchio 7, 80138, Naples, Italy; Program of Medical Epigenetics, Vanvitelli Hospital, Naples 80138, Italy. Electronic address: angela.nebbioso@unicampania.it.",
+        "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: bifulco@unisa.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gazzillo, Erica",
+        "short_name": "Gazzillo E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: egazzillo@unisa.it."
+        ]
+      },
+      {
+        "full_name": "Capasso, Lucia",
+        "short_name": "Capasso L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Precision Medicine, University of Campania \"Luigi Vanvitelli\", Vico L. De Crecchio 7, 80138, Naples, Italy. Electronic address: lucia.capasso2@unicampania.it."
+        ]
+      },
+      {
+        "full_name": "Scala, Francesca",
+        "short_name": "Scala F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy; PhD Program in Drug Discovery and Development, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: fscala@unisa.it."
+        ]
+      },
+      {
+        "full_name": "Aliberti, Michela",
+        "short_name": "Aliberti M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy; PhD Program in Drug Discovery and Development, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: mialiberti@unisa.it."
+        ]
+      },
+      {
+        "full_name": "Capuano, Alessandra",
+        "short_name": "Capuano A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: acapuano@unisa.it."
+        ]
+      },
+      {
+        "full_name": "D'Urso, Gilda",
+        "short_name": "D'Urso G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: gidurso@unisa.it."
+        ]
+      },
+      {
+        "full_name": "Bruno, Ines",
+        "short_name": "Bruno I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: brunoin@unisa.it."
+        ]
+      },
+      {
+        "full_name": "Mele, Donato",
+        "short_name": "Mele D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Precision Medicine, University of Campania \"Luigi Vanvitelli\", Vico L. De Crecchio 7, 80138, Naples, Italy. Electronic address: donato.mele@unicampania.it."
+        ]
+      },
+      {
+        "full_name": "Reginelli, Alfonso",
+        "short_name": "Reginelli A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Precision Medicine, University of Campania \"Luigi Vanvitelli\", Vico L. De Crecchio 7, 80138, Naples, Italy. Electronic address: alfonso.reginelli@unicampania.it."
+        ]
+      },
+      {
+        "full_name": "Lauro, Gianluigi",
+        "short_name": "Lauro G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: glauro@unisa.it."
+        ]
+      },
+      {
+        "full_name": "Casapullo, Agostino",
+        "short_name": "Casapullo A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: casapullo@unisa.it."
+        ]
+      },
+      {
+        "full_name": "Terracciano, Stefania",
+        "short_name": "Terracciano S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: sterracciano@unisa.it."
+        ]
+      },
+      {
+        "full_name": "Altucci, Lucia",
+        "short_name": "Altucci L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Precision Medicine, University of Campania \"Luigi Vanvitelli\", Vico L. De Crecchio 7, 80138, Naples, Italy; Program of Medical Epigenetics, Vanvitelli Hospital, Naples 80138, Italy; Biogem, Molecular Biology and Genetics Research Institute, Ariano Irpino 83031, Italy. Electronic address: lucia.altucci@unicampania.it."
+        ]
+      },
+      {
+        "full_name": "Chini, Maria Giovanna",
+        "short_name": "Chini MG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences and Territory, University of Molise, Contrada Fonte Lappone, Pesche, Isernia 86090, Italy. Electronic address: mariagiovanna.chini@unimol.it."
+        ]
+      },
+      {
+        "full_name": "Nebbioso, Angela",
+        "short_name": "Nebbioso A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Precision Medicine, University of Campania \"Luigi Vanvitelli\", Vico L. De Crecchio 7, 80138, Naples, Italy; Program of Medical Epigenetics, Vanvitelli Hospital, Naples 80138, Italy. Electronic address: angela.nebbioso@unicampania.it."
+        ]
+      },
+      {
+        "full_name": "Bifulco, Giuseppe",
+        "short_name": "Bifulco G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, University of Salerno, Via Giovanni Paolo II, 132, 84084 Fisciano, Italy. Electronic address: bifulco@unisa.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/24 00:25",
+    "fetched_at": "2026-09-30 22:31:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40701468",
+      "34157284",
+      "25143136",
+      "25734936",
+      "19498040",
+      "20680803",
+      "29968736",
+      "17046567",
+      "38109131",
+      "26931396",
+      "40077826",
+      "32387836",
+      "30326371",
+      "26474287",
+      "20801893",
+      "20485733",
+      "22733550",
+      "29695509",
+      "39531932",
+      "28976731",
+      "39909588",
+      "41139418",
+      "13679853",
+      "38989847",
+      "19189276",
+      "25824336",
+      "17082780",
+      "9680483",
+      "41524758",
+      "33246106",
+      "16998799",
+      "9680370",
+      "10601024",
+      "19114306",
+      "18288422",
+      "18509642",
+      "8861962",
+      "36220270",
+      "22132187",
+      "23801058",
+      "32920366",
+      "9824157",
+      "24006055",
+      "34019285",
+      "36174765",
+      "15003254",
+      "9528857",
+      "19022175",
+      "30597997",
+      "25326649",
+      "24859015",
+      "25114221",
+      "34114895",
+      "33327259",
+      "8224841",
+      "34333394",
+      "15121849",
+      "32331235",
+      "23106332",
+      "32933752",
+      "40899573",
+      "30139745",
+      "9162900",
+      "31919096",
+      "28714689",
+      "7490766",
+      "39844620",
+      "40554207",
+      "34440739",
+      "15671156",
+      "19800226",
+      "19432426",
+      "22384171",
+      "9178892",
+      "10378692",
+      "41656506",
+      "8521822",
+      "38264995",
+      "38344942",
+      "31260268",
+      "7499403",
+      "8425219",
+      "34019284",
+      "14980448",
+      "16281068",
+      "10899308",
+      "10835425",
+      "9184233",
+      "35619182",
+      "28350847",
+      "39874063",
+      "30126925",
+      "30068698",
+      "26573731",
+      "36674871",
+      "2006410",
+      "33061303",
+      "32981413",
+      "20426839",
+      "36209705"
+    ],
+    "review": [
+      "40701468",
+      "20680803",
+      "30597997",
+      "32331235",
+      "10378692"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(25)06744-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

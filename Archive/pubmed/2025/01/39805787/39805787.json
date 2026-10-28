@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "39805787",
+    "doi": "10.19540/j.cnki.cjcmm.20240718.401",
+    "title": "[Bioinformatics and animal experiments reveal mechanism of Linggui Zhugan Decoction in ameliorating chronic heart failure after myocardial infarction via HIF-1alpha/HO-1 signaling pathway]."
+  },
+  "content": {
+    "abstract": "This study aims to investigate the effect of Linggui Zhugan Decoction(LGZGD) on autophagy in the mouse model of chronic heart failure(CHF) induced by myocardial infarction(MI), as well as the regulatory effect of LGZGD on the hypoxia-inducible factor-1alpha(HIF-1alpha)/heme oxygenase-1(HO-1) signaling pathway, based on bioinformatics and animal experiments. The active ingredients and corresponding targets of LGZGD were retrieved from the Traditional Chinese Medicine Systems Pharmacology and Analysis Database, and GEO, GeneCards, and DisGeNET were searched for the disease targets. Cytoscape was used to establish a &quot;drug-component-target&quot; network. The protein-protein interaction(PPI) network analysis was performed on STRING. R language was used for Gene Ontology(GO) and Kyoto Encycloperfia of Genes and Genomes(KEGG) enrichment analyses. Molecular docking was adopted to validate the core targets. The mouse model of MI-induced CHF was established by surgical ligation of the left anterior descending coronary artery. The modeled mice were assigned into the sham, model, low-, medium-, and high-dose(2.34, 4.68, and 9.36 g.kg~(-1), respectively) LGZGD, and captopril(3.25 mg.kg~(-1)) groups. After continuous administration for 6 weeks, a Doppler ultrasound imaging system was used to examine the heart function indicators: left ventricular ejection fraction(LVEF), left ventricular fractional shortening(LVFS), left ventricular end-systolic dimension(LVIDs), and left ventricular end-diastolic dimension(LVIDd). The myocardial tissue was stained with hematoxylin-eosin for the observation of morphological changes. The mRNA levels of microtubule-associated protein 1 light chain 3 beta(LC3B), Beclin1, p62, HIF-1alpha, and HO-1 in the myocardial tissue were determined by RT-qPCR. The protein levels of LC3B, beclin1, p62, autophagy-related protein 5(ATG5), HIF-1alpha, and HO-1 were determined by Western blot. The results showed that 103 active components of LGZGD, corresponding to 224 targets, were obtained. A total of 3 485 and 6 165 targets related to MI and CHF, respectively, were retrieved. The GSE16499 dataset obtained 3 263 differentially expressed genes. There were 31 common targets. The top 3 core active components were quercetin, naringenin, and 1-methoxyphaseollidin. The topology analysis results showed that the core targets were MAPK3, HMOX1(HO-1), MYC, ADRB2, PPARD, and HIF1A(HIF-1alpha). The molecular docking results showed strong binding between the core targets and the main active components of LGZGD. LGZGD significantly improved the heart function and alleviated the pathological changes in the myocardial tissue of mice. Western blot and RT-qPCR results showed that the HIF-1alpha/HO-1 signaling pathway and autophagy were activated in the model group. LGZGD up-regulated the levels of LC3B, Beclin1, ATG5, HIF-1alpha, and HO-1 while down-regulating the mRNA and protein levels of p62. In summary, LGZGD can enhance autophagy and improve the heart function in the mouse model of CHF after MI by upregulating the HIF-1alpha/HO-1 signaling pathway.",
+    "keywords": [
+      "HIF-1alpha/HO-1 signaling pathway",
+      "Linggui Zhugan Decoction",
+      "autophagy",
+      "chronic heart failure after myocardial infarction",
+      "network pharmacology"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Drugs, Chinese Herbal/administration & dosage/chemistry",
+      "*Myocardial Infarction/complications/metabolism/genetics/drug therapy",
+      "*Heart Failure/drug therapy/metabolism/genetics/etiology/physiopathology",
+      "Mice",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism/genetics",
+      "*Signal Transduction/drug effects",
+      "Male",
+      "Computational Biology",
+      "*Heme Oxygenase-1/metabolism/genetics",
+      "Molecular Docking Simulation",
+      "Protein Interaction Maps/drug effects",
+      "Mice, Inbred C57BL",
+      "Humans",
+      "Chronic Disease",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ren, Han",
+        "Wang, Shu-Shu",
+        "Zhao, Wan-Zhu",
+        "Xu, Shao-Hua",
+        "Wei, Ke-Dong",
+        "Wu, Wan-Wan",
+        "Huang, Sheng-Yi",
+        "Cai, Rui",
+        "Zhang, Yuan-Hong",
+        "Huang, Jin-Ling"
+      ],
+      "short_names": [
+        "Ren H",
+        "Wang SS",
+        "Zhao WZ",
+        "Xu SH",
+        "Wei KD",
+        "Wu WW",
+        "Huang SY",
+        "Cai R",
+        "Zhang YH",
+        "Huang JL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Integrated Chinese Medicine and Western Medicine, Anhui University of Chinese Medicine Hefei 230012, China.",
+        "School of Integrated Chinese Medicine and Western Medicine, Anhui University of Chinese Medicine Hefei 230012, China.",
+        "School of Chinese Medicine, Anhui University of Chinese Medicine Hefei 230012, China.",
+        "School of Chinese Medicine, Anhui University of Chinese Medicine Hefei 230012, China.",
+        "School of Integrated Chinese Medicine and Western Medicine, Anhui University of Chinese Medicine Hefei 230012, China.",
+        "School of Integrated Chinese Medicine and Western Medicine, Anhui University of Chinese Medicine Hefei 230012, China.",
+        "School of Integrated Chinese Medicine and Western Medicine, Anhui University of Chinese Medicine Hefei 230012, China.",
+        "School of Chinese Medicine, Anhui University of Chinese Medicine Hefei 230012, China.",
+        "School of Chinese Medicine, Anhui University of Chinese Medicine Hefei 230012, China.",
+        "School of Integrated Chinese Medicine and Western Medicine, Anhui University of Chinese Medicine Hefei 230012, China Anhui Province Key Laboratory of Chinese Medicinal Formula Hefei 230012, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ren, Han",
+        "short_name": "Ren H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese Medicine and Western Medicine, Anhui University of Chinese Medicine Hefei 230012, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shu-Shu",
+        "short_name": "Wang SS",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese Medicine and Western Medicine, Anhui University of Chinese Medicine Hefei 230012, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Wan-Zhu",
+        "short_name": "Zhao WZ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Medicine, Anhui University of Chinese Medicine Hefei 230012, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Shao-Hua",
+        "short_name": "Xu SH",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Medicine, Anhui University of Chinese Medicine Hefei 230012, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Ke-Dong",
+        "short_name": "Wei KD",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese Medicine and Western Medicine, Anhui University of Chinese Medicine Hefei 230012, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Wan-Wan",
+        "short_name": "Wu WW",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese Medicine and Western Medicine, Anhui University of Chinese Medicine Hefei 230012, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Sheng-Yi",
+        "short_name": "Huang SY",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese Medicine and Western Medicine, Anhui University of Chinese Medicine Hefei 230012, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Rui",
+        "short_name": "Cai R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Medicine, Anhui University of Chinese Medicine Hefei 230012, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuan-Hong",
+        "short_name": "Zhang YH",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chinese Medicine, Anhui University of Chinese Medicine Hefei 230012, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jin-Ling",
+        "short_name": "Huang JL",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrated Chinese Medicine and Western Medicine, Anhui University of Chinese Medicine Hefei 230012, China Anhui Province Key Laboratory of Chinese Medicinal Formula Hefei 230012, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Zhongguo Zhong yao za zhi = Zhongguo zhongyao zazhi = China journal of Chinese materia medica"
+    ],
+    "journal_abbrev": [
+      "Zhongguo Zhong Yao Za Zhi"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/14 00:20",
+    "fetched_at": "2026-09-30 09:44:24"
+  },
+  "links": {
+    "cites": [
+      "41919236",
+      "41254007",
+      "40832565"
+    ],
+    "refs": [],
+    "similar": [
+      "39805787",
+      "39307818",
+      "38457573",
+      "39929664",
+      "38621884",
+      "37619320",
+      "39986226",
+      "39307750",
+      "39280256",
+      "33645093",
+      "39923957",
+      "24024330",
+      "37282864",
+      "37089931",
+      "37478256",
+      "30623345",
+      "38580189",
+      "40136672",
+      "38953223",
+      "35035498",
+      "39066538",
+      "39580131",
+      "37287284",
+      "38674327",
+      "39041129",
+      "37087593",
+      "35178959",
+      "40109471",
+      "39051088",
+      "39004032",
+      "39075002",
+      "33645090",
+      "38109076",
+      "38088046",
+      "32315738",
+      "38812203",
+      "36604920",
+      "30504732",
+      "33023593",
+      "40013962",
+      "38485036",
+      "39701786",
+      "37807411",
+      "39041101",
+      "38867145",
+      "39074420",
+      "32626732",
+      "34011101",
+      "37799727",
+      "40228446",
+      "39577223",
+      "37469733",
+      "30531686",
+      "40087582",
+      "34472272",
+      "39532679",
+      "38571354",
+      "34286341",
+      "35718495",
+      "37190808",
+      "39343107",
+      "39701729",
+      "37833363",
+      "37929726",
+      "37005817",
+      "35249866",
+      "39565454",
+      "29771427",
+      "40128047",
+      "34353081",
+      "37317908",
+      "40197419",
+      "35343164",
+      "34994141",
+      "39076092",
+      "36403742",
+      "36212955",
+      "37382018",
+      "39928767",
+      "39742571",
+      "39432628",
+      "38707614",
+      "38588987",
+      "35851128",
+      "40194640",
+      "39259129",
+      "39357681",
+      "39099351",
+      "28932253",
+      "38916485",
+      "38050247",
+      "38775721",
+      "37802827",
+      "40329967",
+      "34660782",
+      "39061044",
+      "34047083",
+      "35528155",
+      "33771641",
+      "37898972"
+    ],
+    "review": [
+      "39805787",
+      "39432628"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/heartattack.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Attack"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-880",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

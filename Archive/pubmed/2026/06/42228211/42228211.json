@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "42228211",
+    "doi": "10.1007/s00011-026-02259-w",
+    "title": "ABCA8 drives bone loss via disrupting Th17/Treg imbalance: a novel immunometabolic target for osteoporosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteoporosis is a metabolic bone disease characterized by reduced bone mass and microarchitectural deterioration, with complex involvement of molecular networks and immune-associated transcriptional dysregulation. OBJECTIVE: This study aimed to elucidate the immune-associated regulatory features of ATP-binding cassette subfamily A member 8 (ABCA8) in osteoporosis. METHODS: Differential gene expression analysis was performed using the GSE35958 dataset, and 384 up-regulated genes and 1143 down-regulated genes were identified. Weighted gene co-expression network analysis (WGCNA) and machine learning-based feature selection (LASSO, random forest, and Boruta) were applied to identify key osteoporosis-associated genes. Gene set enrichment analysis (GSEA) and single-sample gene set enrichment analysis (ssGSEA) were conducted to explore immune-associated transcriptional signatures, including Th17- and regulatory T cell (Treg)-related signatures. In vivo validation was conducted in ovariectomized (OVX) rats, with gene modulation experiments evaluating bone phenotypes, osteogenic and osteoclastic markers, and inflammatory cytokine profiles. RESULTS: ABCA8 was significantly upregulated in osteoporotic samples and associated with osteoporosis-related transcriptional features. High ABCA8 expression was associated with altered immune-associated signatures, including Th17- and regulatory T cell (Treg)-related transcriptional features, as revealed by ssGSEA. Pathway analyses further linked ABCA8 expression to immune regulation and inflammatory signaling pathways. In OVX rats, ABCA8 knockdown improved trabecular bone microarchitecture, upregulated osteogenic markers (Runt-related transcription factor 2 (RUNX2), osteocalcin (OCN), and osteoprotegerin (OPG)), and downregulated bone resorption markers (receptor activator of nuclear factor kappaB ligand (RANKL) and tartrate-resistant acid phosphatase (TRAP)). Conversely, ABCA8 overexpression aggravated bone loss and was accompanied by disruption of the Th17/Treg balance and increased levels of interleukin-6 (IL-6), tumor necrosis factor-alpha (TNF-alpha), and interleukin-17 (IL-17). CONCLUSION: ABCA8 is closely associated with osteoporosis-related immune-associated transcriptional alterations and contributes to disease progression through dysregulation of osteoimmune balance. These findings suggest that ABCA8 may represent a potential immunoregulatory target for therapeutic intervention in osteoporosis.",
+    "keywords": [
+      "ABCA8",
+      "Immune-associated signatures",
+      "Machine learning",
+      "Osteoporosis",
+      "Th17/Treg balance",
+      "ssGSEA"
+    ],
+    "mesh_terms": [
+      "*Osteoporosis/genetics/immunology",
+      "Datasets as Topic",
+      "*Machine Learning",
+      "*Th17 Cells/immunology",
+      "Humans",
+      "*T-Lymphocytes, Regulatory/immunology",
+      "Animals",
+      "Rats",
+      "*ATP-Binding Cassette Transporters/genetics",
+      "Ovariectomy",
+      "Female",
+      "Protein Interaction Maps",
+      "Rats, Sprague-Dawley",
+      "Spleen/immunology/pathology",
+      "Blood Cells/immunology/pathology",
+      "Femur/pathology",
+      "Gene Expression"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yi, Wenjing",
+        "Xu, Wenan",
+        "Yang, Tao",
+        "Lyu, Xiaolin",
+        "Wang, Ziting",
+        "Chen, Leyi",
+        "Zhang, Jingya",
+        "Zhong, Yiming",
+        "Wang, Songlin",
+        "Wu, Buling"
+      ],
+      "short_names": [
+        "Yi W",
+        "Xu W",
+        "Yang T",
+        "Lyu X",
+        "Wang Z",
+        "Chen L",
+        "Zhang J",
+        "Zhong Y",
+        "Wang S",
+        "Wu B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+        "Department of Orthodontics, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Guangdong, 518000, Shenzhen, China.",
+        "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+        "Department of Pediatric Stomatology, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+        "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+        "Department of Oral Implantology, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+        "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+        "Department of Pediatric Stomatology, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+        "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+        "Department of Pediatric Stomatology, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+        "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+        "Department of Pediatric Stomatology, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+        "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+        "Department of Oral Restoration, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+        "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+        "Department of Endodontics, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+        "Salivary Gland Disease Center, Beijing Key Laboratory of Tooth Regeneration and Function Reconstruction, Beijing Laboratory of Oral Health, Beijing Stomatological Hospital, Capital Medical University, Beijing, 100070, China. slwang@ccmu.edu.cn.",
+        "Department of Stomatology, Laboratory of Oral Homeostatic Medicine, School of Medicine and SUSTech Homeostatic Medicine Institute (SHMI), Southern University of Science and Technology, Shenzhen, 518055, China. slwang@ccmu.edu.cn.",
+        "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China. bulingwu@smu.edu.cn.",
+        "Department of Endodontics, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Shenzhen, 518000, Guangdong, China. bulingwu@smu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yi, Wenjing",
+        "short_name": "Yi W",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+          "Department of Orthodontics, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Guangdong, 518000, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wenan",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+          "Department of Pediatric Stomatology, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Shenzhen, 518000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Tao",
+        "short_name": "Yang T",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+          "Department of Oral Implantology, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Shenzhen, 518000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Lyu, Xiaolin",
+        "short_name": "Lyu X",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+          "Department of Pediatric Stomatology, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Shenzhen, 518000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ziting",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+          "Department of Pediatric Stomatology, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Shenzhen, 518000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Leyi",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+          "Department of Pediatric Stomatology, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Shenzhen, 518000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jingya",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+          "Department of Oral Restoration, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Shenzhen, 518000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Yiming",
+        "short_name": "Zhong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China.",
+          "Department of Endodontics, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Shenzhen, 518000, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Songlin",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Salivary Gland Disease Center, Beijing Key Laboratory of Tooth Regeneration and Function Reconstruction, Beijing Laboratory of Oral Health, Beijing Stomatological Hospital, Capital Medical University, Beijing, 100070, China. slwang@ccmu.edu.cn.",
+          "Department of Stomatology, Laboratory of Oral Homeostatic Medicine, School of Medicine and SUSTech Homeostatic Medicine Institute (SHMI), Southern University of Science and Technology, Shenzhen, 518055, China. slwang@ccmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Buling",
+        "short_name": "Wu B",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Clinical College of Stomatology, School of Stomatology, Southern Medical University, Shenzhen, 518000, Guangdong, China. bulingwu@smu.edu.cn.",
+          "Department of Endodontics, Shenzhen Stomatology Hospital (Pingshan) of Southern Medical University, Shenzhen, 518000, Guangdong, China. bulingwu@smu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Inflammation research : official journal of the European Histamine Research Society ... [et al.]"
+    ],
+    "journal_abbrev": [
+      "Inflamm Res"
+    ],
+    "pub_date": "2026 Jun 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/02 12:43",
+    "fetched_at": "2026-10-01 22:27:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40424656",
+      "38753171",
+      "38468352",
+      "37968146",
+      "37473680",
+      "37251734",
+      "37130601",
+      "36941563",
+      "36835184",
+      "36050210",
+      "36012730",
+      "35633138",
+      "35478046",
+      "35453007",
+      "35255774",
+      "34513837",
+      "34373550",
+      "33915736",
+      "33651848",
+      "33431858",
+      "33210341",
+      "33129881",
+      "33086984",
+      "32719657",
+      "32685482",
+      "29571022",
+      "28420501",
+      "28293453",
+      "25191854",
+      "23948991",
+      "22455463",
+      "21450337",
+      "19636401",
+      "16586097",
+      "16199517",
+      "12379217",
+      "7657404"
+    ],
+    "similar": [
+      "42228211",
+      "42393739",
+      "42262669",
+      "39082354",
+      "40451839",
+      "40154899",
+      "29710663",
+      "41904851",
+      "42591919",
+      "36196151",
+      "40998040",
+      "40641910",
+      "41703659",
+      "29625972",
+      "42306043",
+      "40524965",
+      "40215821",
+      "41246341",
+      "32490537",
+      "40791102",
+      "24125756",
+      "39973551",
+      "40977677",
+      "37198572",
+      "40397119",
+      "42326009",
+      "42305270",
+      "37473680",
+      "42392819",
+      "41902667",
+      "42576498",
+      "30151623",
+      "40918403",
+      "42565562",
+      "42123445",
+      "40622369",
+      "26622351",
+      "30585456",
+      "38977961",
+      "41015798",
+      "41886086",
+      "42462530",
+      "40550295",
+      "34939389",
+      "30322615",
+      "39375626",
+      "33140671",
+      "40447963",
+      "38753171",
+      "29655696",
+      "22902986",
+      "41402885",
+      "22426695",
+      "42240195",
+      "42233387",
+      "39586719",
+      "39653105",
+      "42292393",
+      "40764361",
+      "41839584",
+      "23427056",
+      "42275747",
+      "42151888",
+      "23952076",
+      "39472803",
+      "42265520",
+      "37451490",
+      "42181863",
+      "34234776",
+      "41803291",
+      "31260757",
+      "40619720",
+      "37586803",
+      "30565043",
+      "29040945",
+      "29441931",
+      "42475869",
+      "32884248",
+      "39888372",
+      "40701122",
+      "41730740",
+      "34476437",
+      "40365536",
+      "35029749",
+      "42142793",
+      "41922671",
+      "41814702",
+      "41566737",
+      "39673582",
+      "36941563",
+      "30843284",
+      "42247642",
+      "42465770",
+      "36049372",
+      "36570798",
+      "41013556",
+      "40551648",
+      "28315458",
+      "40103380",
+      "41006883"
+    ],
+    "review": [
+      "42228211",
+      "42591919"
+    ],
+    "pmc": [
+      "13230258"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoporosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoporosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42228211/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00011-026-02259-w",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

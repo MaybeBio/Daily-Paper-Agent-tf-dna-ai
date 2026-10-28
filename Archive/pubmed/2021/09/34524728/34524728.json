@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "34524728",
+    "doi": "10.1002/cmdc.202100458",
+    "title": "A Step toward NRF2-DNA Interaction Inhibitors by Fragment-Based NMR Methods."
+  },
+  "content": {
+    "abstract": "The NRF2 transcription factor is a key regulator in cellular oxidative stress response, and acts as a tumor suppressor. Aberrant activation of NRF2 has been implicated in promoting chemo-resistance, tumor growth, and metastasis by activating its downstream target genes. Hence, inhibition of NRF2 promises to be an attractive therapeutic strategy to suppress cell proliferation and enhance cell apoptosis in cancer. Direct targeting of NRF2 with small-molecules to discover protein-DNA interaction inhibitors is challenging as it is a largely intrinsically disordered protein. To discover molecules that bind to NRF2 at the DNA binding interface, we performed an NMR-based fragment screen against its DNA-binding domain. We discovered several weakly binding fragment hits that bind to a region overlapping with the DNA binding site. Using SAR by catalogue we developed an initial structure-activity relationship for the most interesting initial hit series. By combining NMR chemical shift perturbations and data-driven docking, binding poses which agreed with NMR information and the observed SAR were elucidated. The herein discovered NRF2 hits and proposed binding modes form the basis for future structure-based optimization campaigns on this important but to date 'undrugged' cancer driver.",
+    "keywords": [
+      "NMR solution structures",
+      "NRF2",
+      "fragment screening",
+      "ligand docking",
+      "protein-DNA interactions",
+      "structure-activity relationships"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "DNA/*antagonists & inhibitors/metabolism",
+      "Humans",
+      "Molecular Docking Simulation",
+      "Molecular Structure",
+      "NF-E2-Related Factor 2/*antagonists & inhibitors/chemistry/metabolism",
+      "Nuclear Magnetic Resonance, Biomolecular",
+      "Protein Binding/*drug effects",
+      "Protein Domains",
+      "Small Molecule Libraries/*chemistry",
+      "Structure-Activity Relationship"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bruschweiler, Sven",
+        "Fuchs, Julian E",
+        "Bader, Gerd",
+        "McConnell, Darryl B",
+        "Konrat, Robert",
+        "Mayer, Moriz"
+      ],
+      "short_names": [
+        "Bruschweiler S",
+        "Fuchs JE",
+        "Bader G",
+        "McConnell DB",
+        "Konrat R",
+        "Mayer M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2760-9767",
+        "ORCID: 0000-0003-4322-9481",
+        "ORCID: 0000-0002-8410-3415",
+        "ORCID: 0000-0002-2537-3458",
+        "ORCID: 0000-0001-6489-4080",
+        "ORCID: 0000-0003-3432-4348"
+      ],
+      "affiliations": [
+        "Christian Doppler Laboratory for High-Content Structural Biology and Biotechnology, Department of Structural and Computational Biology, Max Perutz Labs, University of Vienna, Campus Vienna Biocenter 5, 1030, Vienna, Austria.",
+        "Boehringer Ingelheim RCV GmbH & Co. KG, Dr. Boehringer Gasse 5-11, 1121, Vienna, Austria.",
+        "Boehringer Ingelheim RCV GmbH & Co. KG, Dr. Boehringer Gasse 5-11, 1121, Vienna, Austria.",
+        "Boehringer Ingelheim RCV GmbH & Co. KG, Dr. Boehringer Gasse 5-11, 1121, Vienna, Austria.",
+        "Christian Doppler Laboratory for High-Content Structural Biology and Biotechnology, Department of Structural and Computational Biology, Max Perutz Labs, University of Vienna, Campus Vienna Biocenter 5, 1030, Vienna, Austria.",
+        "Boehringer Ingelheim RCV GmbH & Co. KG, Dr. Boehringer Gasse 5-11, 1121, Vienna, Austria."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Brüschweiler, Sven",
+        "short_name": "Brüschweiler S",
+        "identifiers": [
+          "0000-0003-2760-9767"
+        ],
+        "affiliations": [
+          "Christian Doppler Laboratory for High-Content Structural Biology and Biotechnology, Department of Structural and Computational Biology, Max Perutz Labs, University of Vienna, Campus Vienna Biocenter 5, 1030, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Fuchs, Julian E",
+        "short_name": "Fuchs JE",
+        "identifiers": [
+          "0000-0003-4322-9481"
+        ],
+        "affiliations": [
+          "Boehringer Ingelheim RCV GmbH & Co. KG, Dr. Boehringer Gasse 5-11, 1121, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Bader, Gerd",
+        "short_name": "Bader G",
+        "identifiers": [
+          "0000-0002-8410-3415"
+        ],
+        "affiliations": [
+          "Boehringer Ingelheim RCV GmbH & Co. KG, Dr. Boehringer Gasse 5-11, 1121, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "McConnell, Darryl B",
+        "short_name": "McConnell DB",
+        "identifiers": [
+          "0000-0002-2537-3458"
+        ],
+        "affiliations": [
+          "Boehringer Ingelheim RCV GmbH & Co. KG, Dr. Boehringer Gasse 5-11, 1121, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Konrat, Robert",
+        "short_name": "Konrat R",
+        "identifiers": [
+          "0000-0001-6489-4080"
+        ],
+        "affiliations": [
+          "Christian Doppler Laboratory for High-Content Structural Biology and Biotechnology, Department of Structural and Computational Biology, Max Perutz Labs, University of Vienna, Campus Vienna Biocenter 5, 1030, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Mayer, Moriz",
+        "short_name": "Mayer M",
+        "identifiers": [
+          "0000-0003-3432-4348"
+        ],
+        "affiliations": [
+          "Boehringer Ingelheim RCV GmbH & Co. KG, Dr. Boehringer Gasse 5-11, 1121, Vienna, Austria."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ChemMedChem"
+    ],
+    "journal_abbrev": [
+      "ChemMedChem"
+    ],
+    "pub_date": "2021 Dec 6",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/16 06:00",
+    "fetched_at": "2026-09-27 23:40:32"
+  },
+  "links": {
+    "cites": [
+      "42429410",
+      "42352295",
+      "42122150",
+      "41751434",
+      "41075071",
+      "40815486"
+    ],
+    "refs": [
+      "32359481",
+      "32040955",
+      "31511663",
+      "31511020",
+      "31332011",
+      "31097977",
+      "30851414",
+      "30760522",
+      "30728502",
+      "30618244",
+      "30457858",
+      "30256716",
+      "30148631",
+      "28430426",
+      "27663422",
+      "27552339",
+      "27417849",
+      "27158780",
+      "26645049",
+      "26270491",
+      "26091166",
+      "25458917",
+      "25357133",
+      "25285479",
+      "25237857",
+      "25062331",
+      "24661007",
+      "24138990",
+      "24134121",
+      "23962882",
+      "23728592",
+      "23225628",
+      "22566140",
+      "22431598",
+      "21402146",
+      "21315179",
+      "21205897",
+      "19797082",
+      "19795907",
+      "18413364",
+      "18366177",
+      "18214953",
+      "18088118",
+      "18007608",
+      "17121777",
+      "17020408",
+      "16927107",
+      "16716189",
+      "16507366",
+      "15801841",
+      "15667141",
+      "15272157",
+      "15060526",
+      "12580598",
+      "12557191",
+      "12360277",
+      "11839490",
+      "11142509",
+      "9757107",
+      "9671699",
+      "9628487",
+      "8563464",
+      "8520220",
+      "7937919"
+    ],
+    "similar": [
+      "34524728",
+      "33795749",
+      "32668381",
+      "32046917",
+      "31411465",
+      "31262091",
+      "31851823",
+      "23647822",
+      "33818106",
+      "31950858",
+      "30973731",
+      "34303079",
+      "31412289",
+      "34156100",
+      "31726716",
+      "29693453",
+      "39150085",
+      "27690435",
+      "34299054",
+      "23368099",
+      "29927029",
+      "28024463",
+      "33275320",
+      "21371602",
+      "32672401",
+      "33990683",
+      "28801166",
+      "34705450",
+      "32761504",
+      "23971943",
+      "34252790",
+      "29118094",
+      "27474998",
+      "36263945",
+      "29750408",
+      "23056183",
+      "32605297",
+      "32564647",
+      "29565554",
+      "30861618",
+      "26551711",
+      "37120484",
+      "27438818",
+      "29764756",
+      "27721047",
+      "27031670",
+      "32233486",
+      "25690569",
+      "26653613",
+      "29117896",
+      "26363505",
+      "32902980",
+      "16581765",
+      "27312421",
+      "25148595",
+      "28746889",
+      "24512214",
+      "23562243",
+      "29430847",
+      "34158350",
+      "34416373",
+      "29233294",
+      "17875642",
+      "33065433",
+      "26270491",
+      "32024620",
+      "35164081",
+      "27438813",
+      "25014534",
+      "29645362",
+      "26935067",
+      "32994435",
+      "32866756",
+      "31905878",
+      "30473361",
+      "22156223",
+      "26222438",
+      "31682434",
+      "29510947",
+      "33683866",
+      "31899866",
+      "31733215",
+      "25196717",
+      "35108001",
+      "23615671",
+      "30047845",
+      "38896426",
+      "26740153",
+      "32691963",
+      "24050442",
+      "33992967",
+      "38762209",
+      "27238211",
+      "27552339",
+      "34119834",
+      "23244564",
+      "30037752",
+      "29118095",
+      "32735606",
+      "27839920",
+      "26724452",
+      "23537132"
+    ],
+    "review": [
+      "34524728",
+      "32668381",
+      "31950858",
+      "27690435",
+      "28801166",
+      "29118094",
+      "32605297",
+      "26551711",
+      "27438818",
+      "32233486",
+      "29233294",
+      "27438813",
+      "25014534",
+      "31733215"
+    ],
+    "pmc": [
+      "9293343"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34524728/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34524728",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/cmdc.202100458",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3877",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

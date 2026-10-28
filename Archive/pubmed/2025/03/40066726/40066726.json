@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "40066726",
+    "doi": "10.1002/cbic.202400967",
+    "title": "Mechanistic Insights into Loop Dynamics in Reshaping the Conformation of YB-1 Cold Shock Domain."
+  },
+  "content": {
+    "abstract": "The human Y-box binding protein 1 (YB-1) plays a crucial role in various cellular processes. The cold shock domain (CSD) of YB-1 is responsible for specific nucleic acid recognition and exhibits a unique beta-barrel structure. While the CSD alone is unstable, the addition of 11 residues at the C-terminus significantly stabilizes the structure. This study investigates the molecular mechanisms by which this extended loop region influences the structure and dynamics of the CSD using all-atom molecular dynamics (MD) simulations, complemented by NMR and crosslinking experiments. Our simulations reveal that the extended loop forms a sandwich-like interaction network with the CSD, stabilizing the overall structure. This network involves hydrogen bonds and non-covalent interactions, preventing the loop from collapsing due to electrostatic attractions. Furthermore, we show that phosphorylation of S102 within the loop region disrupts this network, leading to increased structural flexibility and conformational changes. This disruption weakens the interaction between CSD and DNA, explaining the experimentally observed decrease in binding affinity upon phosphorylation. Our results provide mechanistic insights into the role of loop dynamics in reshaping the conformation of the YB-1 CSD.",
+    "keywords": [
+      "MD simulations",
+      "extended loop",
+      "interaction network",
+      "molecular dynamics",
+      "phosphorylation"
+    ],
+    "mesh_terms": [
+      "*Y-Box-Binding Protein 1/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Humans",
+      "Protein Domains",
+      "Protein Conformation",
+      "DNA/chemistry/metabolism",
+      "Phosphorylation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Min",
+        "Zhang, Beirong",
+        "He, Xiaofang",
+        "Zhang, Jingfeng",
+        "Zhao, Qun",
+        "Zhang, Xu",
+        "Liu, Maili",
+        "Gong, Zhou"
+      ],
+      "short_names": [
+        "Sun M",
+        "Zhang B",
+        "He X",
+        "Zhang J",
+        "Zhao Q",
+        "Zhang X",
+        "Liu M",
+        "Gong Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Magnetic Resonance Spectroscopy and Imaging, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan, Hubei, 430071, China.",
+        "University of Chinese Academy of Sciences, Beijing, 100049, China.",
+        "CAS Key Laboratory of Separation Science for Analytical Chemistry, National Chromatographic R. & A. Center, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, Liaoning, 116023, China.",
+        "University of Chinese Academy of Sciences, Beijing, 100049, China.",
+        "State Key Laboratory of Magnetic Resonance Spectroscopy and Imaging, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan, Hubei, 430071, China.",
+        "State Key Laboratory of Magnetic Resonance Spectroscopy and Imaging, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan, Hubei, 430071, China.",
+        "CAS Key Laboratory of Separation Science for Analytical Chemistry, National Chromatographic R. & A. Center, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, Liaoning, 116023, China.",
+        "State Key Laboratory of Magnetic Resonance Spectroscopy and Imaging, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan, Hubei, 430071, China.",
+        "State Key Laboratory of Magnetic Resonance Spectroscopy and Imaging, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan, Hubei, 430071, China.",
+        "State Key Laboratory of Magnetic Resonance Spectroscopy and Imaging, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan, Hubei, 430071, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Min",
+        "short_name": "Sun M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Magnetic Resonance Spectroscopy and Imaging, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan, Hubei, 430071, China.",
+          "University of Chinese Academy of Sciences, Beijing, 100049, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Beirong",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "CAS Key Laboratory of Separation Science for Analytical Chemistry, National Chromatographic R. & A. Center, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, Liaoning, 116023, China.",
+          "University of Chinese Academy of Sciences, Beijing, 100049, China."
+        ]
+      },
+      {
+        "full_name": "He, Xiaofang",
+        "short_name": "He X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Magnetic Resonance Spectroscopy and Imaging, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan, Hubei, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jingfeng",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Magnetic Resonance Spectroscopy and Imaging, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan, Hubei, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Qun",
+        "short_name": "Zhao Q",
+        "identifiers": [],
+        "affiliations": [
+          "CAS Key Laboratory of Separation Science for Analytical Chemistry, National Chromatographic R. & A. Center, Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, Liaoning, 116023, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xu",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Magnetic Resonance Spectroscopy and Imaging, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan, Hubei, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Maili",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Magnetic Resonance Spectroscopy and Imaging, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan, Hubei, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Zhou",
+        "short_name": "Gong Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Magnetic Resonance Spectroscopy and Imaging, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan, Hubei, 430071, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chembiochem : a European journal of chemical biology"
+    ],
+    "journal_abbrev": [
+      "Chembiochem"
+    ],
+    "pub_date": "2025 Jun 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/12 11:35",
+    "fetched_at": "2026-09-30 13:16:10"
+  },
+  "links": {
+    "cites": [
+      "41144700"
+    ],
+    "refs": [],
+    "similar": [
+      "40066726",
+      "31160337",
+      "32710623",
+      "32087051",
+      "11851341",
+      "26609765",
+      "15287751",
+      "26147853",
+      "26126888",
+      "40563206",
+      "11069676",
+      "22590640",
+      "41144700",
+      "9370259",
+      "16963428",
+      "24770864",
+      "39426727",
+      "30605522",
+      "20091748",
+      "26355086",
+      "32290447",
+      "29429449",
+      "38703206",
+      "22417301",
+      "35008856",
+      "8972186",
+      "29197185",
+      "32947956",
+      "24217978",
+      "22619371",
+      "33742080",
+      "40504558",
+      "29670170",
+      "29317221",
+      "40420381",
+      "35406781",
+      "24603188",
+      "23220387",
+      "25116735",
+      "29375007",
+      "33379356",
+      "27544639",
+      "20132728",
+      "33058958",
+      "23851501",
+      "38932204",
+      "24141788",
+      "28787652",
+      "39982680",
+      "14718551",
+      "12815724",
+      "22734485",
+      "11116154",
+      "30321499",
+      "31476125",
+      "39432460",
+      "34224843",
+      "33030907",
+      "40792470",
+      "30206185",
+      "32938768",
+      "28426203",
+      "29383749",
+      "40583493",
+      "22339596",
+      "25919092",
+      "34181981",
+      "30725510",
+      "37806554",
+      "24103640",
+      "25539742",
+      "40439100",
+      "11222770",
+      "29719201",
+      "23134843",
+      "25794108",
+      "33921540",
+      "8527430",
+      "31255973",
+      "28407364",
+      "33527205",
+      "24086308",
+      "18656966",
+      "27682200",
+      "33347888",
+      "41189057",
+      "26442703",
+      "26271991",
+      "25574774",
+      "32475063",
+      "26411306",
+      "12080043",
+      "7476164",
+      "41009570",
+      "27080258",
+      "30949773",
+      "38339016",
+      "25605055",
+      "21392397",
+      "22787154"
+    ],
+    "review": [
+      "40066726",
+      "32087051",
+      "16963428",
+      "20091748",
+      "32290447",
+      "24217978",
+      "35406781",
+      "20132728",
+      "33058958",
+      "12815724",
+      "34224843",
+      "30206185",
+      "22339596",
+      "18656966"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/cbic.202400967",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41831316",
+  "title": "PAIR: Reconstructing Single-Cell Open-Chromatin Landscapes for Transcription Factor Regulome Mapping.",
+  "authors": "Su, Yanchi; Qi, Qi; Fan, Yi; Wang, Yubo; Hao, Gaoyang; Wong, Ka-Chun; Wang, Yunhe; Li, Xiangtao",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2026-03-15",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用图神经网络和变分推断对单细胞ATAC-seq数据进行插补，重建开放染色质景观并推断转录因子调控程序，虽聚焦染色质可及性而非直接TF-DNA结合建模，但其图编码和调控模块分析方法可迁移至TF-DNA互作研究。",
+  "abstract": "Single-cell ATAC-seq (scATAC-seq) enables the interrogation of chromatin accessibility at cellular resolution, yet its practical utility is often constrained by limited sequencing depth, extreme sparsity, and pervasive technical missingness, which collectively hamper robust cell-state delineation and inference of transcription factor (TF) regulatory programs. We present PAIR, a probabilistic framework that restores scATAC-seq accessibility profiles by directly modeling the native cell-peak bipartite structure of chromatin accessibility. PAIR leverages a bipartite graph encoder to learn representations for both cells and peaks, and incorporates a variational latent layer to explicitly capture uncertainty arising from sparse and noisy measurements. To jointly recover discrete accessibility patterns and quantitative signal, PAIR integrates two complementary decoders: a qualitative decoder that reconstructs open/closed cell-peak incidences and a quantitative decoder that models accessibility counts under a Negative Binomial likelihood. Trained end-to-end with variational and embedding regularization, PAIR yields cell and peak embeddings and an imputed accessibility matrix that improves downstream analyses. Across simulated datasets with controlled sequencing depth, noise, and dropout, as well as multiple publicly available benchmarks, PAIR consistently improves clustering performance and increases sensitivity for differential accessibility. Beyond cell-level analyses, PAIR-derived peak embedding enables locus-centric regulatory interrogation: co-accessibility analysis around SOX10 reveals structured regulatory neighborhoods, and graph-based peak modules show selective activity across melanoma cell states and identify gene sets with clinically relevant survival associations. In a forebrain atlas, PAIR restores regulatory signals spanning both promoter-proximal and distal elements and uncovers biologically coherent enrichment patterns consistent with neuronal specialization.",
+  "abstract_zh": "单细胞ATAC-seq（scATAC-seq）能够在细胞分辨率下探究染色质可及性，但其实际应用常受限于测序深度不足、极端稀疏性以及普遍的技术性缺失，这些因素共同阻碍了稳健的细胞状态描绘和转录因子（TF）调控程序的推断。我们提出PAIR，一种概率框架，通过直接建模染色质可及性的天然细胞-峰二分结构来恢复scATAC-seq可及性谱。PAIR利用二分图编码器学习细胞和峰的表征，并引入变分潜层以显式捕获由稀疏和噪声测量引起的不确定性。为联合恢复离散可及性模式和定量信号，PAIR整合了两个互补解码器：一个定性解码器，用于重建开放/闭合的细胞-峰关联；一个定量解码器，在负二项似然下建模可及性计数。通过变分和嵌入正则化的端到端训练，PAIR生成细胞和峰嵌入以及一个改进下游分析的插补可及性矩阵。在具有受控测序深度、噪声和缺失率的模拟数据集以及多个公开基准上，PAIR持续提升聚类性能并增加差异可及性的敏感性。在细胞水平分析之外，PAIR衍生的峰嵌入支持位点中心的调控探究：围绕SOX10的共可及性分析揭示了结构化的调控邻域，基于图的峰模块在黑色素瘤细胞状态中表现出选择性活性，并识别出与临床相关生存关联的基因集。在前脑图谱中，PAIR恢复了跨越启动子近端和远端元件的调控信号，并揭示了与神经元特化一致的生物学连贯富集模式。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41831316/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41831316/",
+  "paper_page_path": "papers/pubmed/41831316/index.html"
+}

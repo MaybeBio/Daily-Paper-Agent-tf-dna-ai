@@ -1,0 +1,567 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.23.644697",
+  "title": "Human Body Single-Cell Atlas of 3D Genome Organization and DNA Methylation",
+  "doi": "10.1101/2025.03.23.644697",
+  "abstract": "Higher-order chromatin structure and DNA methylation are critical for gene regulation, but how these vary across the human body remains unclear. We performed multi-omic profiling of 3D genome structure and DNA methylation for 86,689 single nuclei across 16 human tissues, identifying 35 major and 206 cell subtypes. We revealed extensive changes in CG and non-CG methylation across almost all cell types and characterized 3D chromatin structure at an unprecedented cellular resolution. Intriguingly, extensive discrepancies exist between cell types delineated by DNA methylation and genome structure, indicating that the role of distinct epigenomic features in maintaining cell identity may vary by lineage. This study expands our understanding of the diversity of DNA methylation and chromatin structure and offers an extensive reference for exploring gene regulation in human health and disease.",
+  "authors": [
+    "Zhou J",
+    "Wu Y",
+    "Liu H",
+    "Tian W",
+    "Castanon RG",
+    "Bartlett A",
+    "Zhang Z",
+    "Yao G",
+    "Shi D",
+    "Clock B",
+    "Marcotte S",
+    "Nery JR",
+    "Liem M",
+    "Claffey N",
+    "Boggeman L",
+    "Barragan C",
+    "e Drigo RA",
+    "Weimer AK",
+    "Shi M",
+    "Cooper-Knock J",
+    "Zhang S",
+    "Snyder MP",
+    "Preissl S",
+    "Ren B",
+    "O’Connor C",
+    "Chen S",
+    "Luo C",
+    "Dixon JR",
+    "Ecker JR"
+  ],
+  "published_date": "2025-03-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.23.644697",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.23.644697.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR993104",
+    "raw_record": {
+      "id": "PPR993104",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR993104"
+        ]
+      },
+      "doi": "10.1101/2025.03.23.644697",
+      "title": "Human Body Single-Cell Atlas of 3D Genome Organization and DNA Methylation",
+      "authorString": "Zhou J, Wu Y, Liu H, Tian W, Castanon RG, Bartlett A, Zhang Z, Yao G, Shi D, Clock B, Marcotte S, Nery JR, Liem M, Claffey N, Boggeman L, Barragan C, e Drigo RA, Weimer AK, Shi M, Cooper-Knock J, Zhang S, Snyder MP, Preissl S, Ren B, O’Connor C, Chen S, Luo C, Dixon JR, Ecker JR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zhou J",
+            "lastName": "Zhou",
+            "firstName": "Jingtian",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Genomic Analysis Laboratory, , , ,"
+                },
+                {
+                  "affiliation": "Bioinformatics and Systems Biology Program, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wu Y",
+            "lastName": "Wu",
+            "firstName": "Yue",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genomic Analysis Laboratory, , , ,"
+                },
+                {
+                  "affiliation": "Division of Biological Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu H",
+            "lastName": "Liu",
+            "firstName": "Hanqing",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Society of Fellows, , , ,"
+                },
+                {
+                  "affiliation": "Genomic Analysis Laboratory, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tian W",
+            "lastName": "Tian",
+            "firstName": "Wei",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genomic Analysis Laboratory, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Castanon RG",
+            "lastName": "Castanon",
+            "firstName": "Rosa",
+            "initials": "RG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genomic Analysis Laboratory, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bartlett A",
+            "lastName": "Bartlett",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genomic Analysis Laboratory, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang Z",
+            "lastName": "Zhang",
+            "firstName": "Zuolong",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Software, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yao G",
+            "lastName": "Yao",
+            "firstName": "Guocong",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Computer and Information Engineering, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shi D",
+            "lastName": "Shi",
+            "firstName": "Dengxiaoyu",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genomic Analysis Laboratory, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Clock B",
+            "lastName": "Clock",
+            "firstName": "Ben",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gene Expression Laboratory, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marcotte S",
+            "lastName": "Marcotte",
+            "firstName": "Samantha",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gene Expression Laboratory, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nery JR",
+            "lastName": "Nery",
+            "firstName": "Joseph",
+            "initials": "JR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genomic Analysis Laboratory, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liem M",
+            "lastName": "Liem",
+            "firstName": "Michelle",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Flow Cytometry Core Facility, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Claffey N",
+            "lastName": "Claffey",
+            "firstName": "Naomi",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Flow Cytometry Core Facility, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Boggeman L",
+            "lastName": "Boggeman",
+            "firstName": "Lara",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Flow Cytometry Core Facility, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barragan C",
+            "lastName": "Barragan",
+            "firstName": "Cesar",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genomic Analysis Laboratory, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "e Drigo RA",
+            "lastName": "e Drigo",
+            "firstName": "Rafael Arrojo",
+            "initials": "RA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Physiology and Biophysics, , ,"
+                },
+                {
+                  "affiliation": "Center for Computational Systems Biology, , ,"
+                },
+                {
+                  "affiliation": "Diabetes Research and Training Center (DRTC), , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weimer AK",
+            "lastName": "Weimer",
+            "firstName": "Annika",
+            "initials": "AK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Stanford School of Medicine, Stanford, CA, USA"
+                },
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shi M",
+            "lastName": "Shi",
+            "firstName": "Minyi",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Stanford School of Medicine, Stanford, CA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cooper-Knock J",
+            "lastName": "Cooper-Knock",
+            "firstName": "Johnathan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sheffield Institute for Translational Neuroscience, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang S",
+            "lastName": "Zhang",
+            "firstName": "Sai",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Stanford School of Medicine, Stanford, CA, USA"
+                },
+                {
+                  "affiliation": "Department of Epidemiology, , , ,"
+                },
+                {
+                  "affiliation": "Departments of Biostatistics & Biomedical Engineering, Genetics Institute, McKnight Brain Institute, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Snyder MP",
+            "lastName": "Snyder",
+            "firstName": "Michael",
+            "initials": "MP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Stanford School of Medicine, Stanford, CA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Preissl S",
+            "lastName": "Preissl",
+            "firstName": "Sebastian",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Epigenomics, , , ,"
+                },
+                {
+                  "affiliation": "Institute of Experimental and Clinical Pharmacology and Toxicology, Faculty of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Institute of Pharmaceutical Sciences, Pharmacology & Toxicology, , ,"
+                },
+                {
+                  "affiliation": "Field of Excellence BioHealth, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ren B",
+            "lastName": "Ren",
+            "firstName": "Bing",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Epigenomics, , , ,"
+                },
+                {
+                  "affiliation": "Department of Cellular and Molecular Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "O’Connor C",
+            "lastName": "O’Connor",
+            "firstName": "Carolyn",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Flow Cytometry Core Facility, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chen S",
+            "lastName": "Chen",
+            "firstName": "Shengbo",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Software, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Luo C",
+            "lastName": "Luo",
+            "firstName": "Chongyuan",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Human Genetics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dixon JR",
+            "lastName": "Dixon",
+            "firstName": "Jesse",
+            "initials": "JR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gene Expression Laboratory, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ecker JR",
+            "lastName": "Ecker",
+            "firstName": "Joseph",
+            "initials": "JR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genomic Analysis Laboratory, , , ,"
+                },
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Higher-order chromatin structure and DNA methylation are critical for gene regulation, but how these vary across the human body remains unclear. We performed multi-omic profiling of 3D genome structure and DNA methylation for 86,689 single nuclei across 16 human tissues, identifying 35 major and 206 cell subtypes. We revealed extensive changes in CG and non-CG methylation across almost all cell types and characterized 3D chromatin structure at an unprecedented cellular resolution. Intriguingly, extensive discrepancies exist between cell types delineated by DNA methylation and genome structure, indicating that the role of distinct epigenomic features in maintaining cell identity may vary by lineage. This study expands our understanding of the diversity of DNA methylation and chromatin structure and offers an extensive reference for exploring gene regulation in human health and disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "216596/Z/19/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.03.23.644697"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR993104"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR993104&type=FILE&fileName=EMS204070-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS204070",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-03-25",
+      "firstPublicationDate": "2025-03-24",
+      "firstIndexDate": "2025-03-25",
+      "fullTextReceivedDate": "2025-03-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

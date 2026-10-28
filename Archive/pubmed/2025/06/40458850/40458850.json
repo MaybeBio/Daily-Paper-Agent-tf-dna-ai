@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "40458850",
+    "doi": "10.1049/syb2.70021",
+    "title": "Exploring Key Genes of Glutathione Metabolism in Systemic Lupus Erythematosus Based on Mendelian Randomisation, Single-Cell RNA Sequencing and Multiple Machine Learning Approaches."
+  },
+  "content": {
+    "abstract": "Systemic lupus erythematosus (SLE) is a complex autoimmune disease characterised by immune dysregulation leading to inflammation and organ damage. Despite the rising global incidence of SLE, its aetiology remains unclear. We applied Mendelian randomisation (MR), multi-omics integration, machine learning (ML), and SHAP to identify key metabolites and genes associated with SLE, revealing the crucial role of the glutathione pathway. MR analysis was performed on 1400 serum metabolites, revealing significant enrichment in the glutathione metabolic pathway. Single-cell RNA sequencing (scRNA-seq) data classified monocytes into Metabolism_high and Metabolism_low groups based on glutathione metabolism scores. Differentially expressed genes were analysed using GSEA, metabolic pathway activity assessment, transcription factor prediction, cellular communication analysis, and Pseudotime analysis. LASSO regression identified hub genes and machine learning models (CatBoost, XGBoost, NGBoost) were developed. The SHAP method was used to interpret these models. Expression of key genes was validated across multiple datasets. MR analysis confirmed that metabolites were enriched in the glutathione pathway, identifying nine hub genes. Machine learning models achieved AUCs of 0.85, 0.80, and 0.83 in the validation set. SHAP analysis highlighted LAP3 as the top contributing gene across all models. scRNA-seq data showed that LAP3 plays a significant role in the immune microenvironment of SLE. Validation across multiple datasets (training, validation, and GSE112087) revealed elevated LAP3 expression in PBMCs of SLE patients, with AUCs of 0.935, 0.795, and 0.817, respectively, suggesting strong diagnostic potential. Glutathione metabolism is closely associated with SLE development and LAP3 may play a key role in its progression. Both glutathione metabolism and LAP3 could serve as potential targets for SLE diagnosis and treatment.",
+    "keywords": [
+      "SHAP, multi-omic",
+      "glutathione metabolism",
+      "machine learning",
+      "mendelian randomisation",
+      "single-cell RNA sequencing",
+      "systemic lupus erythematosus (SLE)"
+    ],
+    "mesh_terms": [
+      "*Lupus Erythematosus, Systemic/genetics/metabolism",
+      "*Machine Learning",
+      "Humans",
+      "*Glutathione/metabolism",
+      "*Single-Cell Analysis",
+      "*Sequence Analysis, RNA",
+      "*Mendelian Randomization Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Kejiang",
+        "Li, Xiaoqiong",
+        "Tang, Ying",
+        "Zhao, Lizhou"
+      ],
+      "short_names": [
+        "Wang K",
+        "Li X",
+        "Tang Y",
+        "Zhao L"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-1463-3345"
+      ],
+      "affiliations": [
+        "The Department of Experimental Medicine, Meishan City People's Hospital, Meishan, China.",
+        "The Department of Experimental Medicine, Meishan City People's Hospital, Meishan, China.",
+        "Department of Clinical Laboratory, Meishan Traditional Chinese Medicine Hospital, Meishan, China.",
+        "Blood Research Laboratory, Chengdu Blood Center, Chengdu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Kejiang",
+        "short_name": "Wang K",
+        "identifiers": [
+          "0009-0006-1463-3345"
+        ],
+        "affiliations": [
+          "The Department of Experimental Medicine, Meishan City People's Hospital, Meishan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaoqiong",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "The Department of Experimental Medicine, Meishan City People's Hospital, Meishan, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Ying",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Meishan Traditional Chinese Medicine Hospital, Meishan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Lizhou",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "Blood Research Laboratory, Chengdu Blood Center, Chengdu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IET systems biology"
+    ],
+    "journal_abbrev": [
+      "IET Syst Biol"
+    ],
+    "pub_date": "2025 Jan-Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/03 06:27",
+    "fetched_at": "2026-09-30 19:18:44"
+  },
+  "links": {
+    "cites": [
+      "42193171"
+    ],
+    "refs": [
+      "39831891",
+      "39075536",
+      "39055656",
+      "38715925",
+      "38692019",
+      "38511557",
+      "38245519",
+      "37843125",
+      "37678715",
+      "37141218",
+      "37058753",
+      "36931174",
+      "36635386",
+      "36634566",
+      "36350503",
+      "36064646",
+      "35997565",
+      "35404840",
+      "34981119",
+      "34858388",
+      "34793444",
+      "34781111",
+      "34766146",
+      "34698778",
+      "34594039",
+      "34385713",
+      "34338327",
+      "34276670",
+      "33836940",
+      "33409392",
+      "33287854",
+      "33169094",
+      "32581077",
+      "32259244",
+      "32243801",
+      "32213345",
+      "31885772",
+      "31130958",
+      "31001455",
+      "30824564",
+      "30633362",
+      "30617339",
+      "30448290",
+      "30355498",
+      "30342710",
+      "30332628",
+      "30282943",
+      "30205516",
+      "30198844",
+      "30002074",
+      "29686387",
+      "29632529",
+      "29444855",
+      "29185130",
+      "28184992",
+      "27616674",
+      "27514076",
+      "26915395",
+      "26526349",
+      "25453285",
+      "25120751",
+      "24477662",
+      "24474739",
+      "22995213",
+      "22610275",
+      "22129255",
+      "19393193",
+      "19301095",
+      "18490410",
+      "17999179",
+      "17132098",
+      "14561795",
+      "12875898",
+      "6137189"
+    ],
+    "similar": [
+      "40458850",
+      "39173401",
+      "40909263",
+      "40613570",
+      "40625749",
+      "40958401",
+      "36341378",
+      "39404110",
+      "41316541",
+      "40766309",
+      "40131879",
+      "37582308",
+      "41261757",
+      "40808946",
+      "38464525",
+      "39388708",
+      "36470144",
+      "40097571",
+      "38167341",
+      "31673979",
+      "39126578",
+      "40949741",
+      "40958237",
+      "40296690",
+      "40281593",
+      "38044432",
+      "40019633",
+      "39361430",
+      "40328806",
+      "41080564",
+      "41488623",
+      "39066603",
+      "41261612",
+      "41083787",
+      "40433370",
+      "38970507",
+      "39840076",
+      "38169617",
+      "41274041",
+      "40438384",
+      "37614232",
+      "38774864",
+      "39476438",
+      "40739239",
+      "35757721",
+      "38962008",
+      "35515003",
+      "40745068",
+      "40276515",
+      "38997544",
+      "40589764",
+      "37465678",
+      "40877393",
+      "36524113",
+      "38599669",
+      "40537884",
+      "40616747",
+      "41209049",
+      "40826785",
+      "41328587",
+      "39629611",
+      "40315629",
+      "31670388",
+      "40102939",
+      "39647286",
+      "35558576",
+      "39290707",
+      "40916281",
+      "38862942",
+      "40207215",
+      "38179058",
+      "36893588",
+      "37845373",
+      "41432807",
+      "39863087",
+      "34084162",
+      "39081100",
+      "40618698",
+      "41262540",
+      "40297850",
+      "39445158",
+      "40270963",
+      "37947970",
+      "39717623",
+      "37971684",
+      "36059547",
+      "40702735",
+      "40185033",
+      "40212811",
+      "41033714",
+      "41261704",
+      "40999523",
+      "36860870",
+      "38128704",
+      "41059665",
+      "39614342",
+      "40819095",
+      "39503329",
+      "33568388",
+      "40562379"
+    ],
+    "review": [
+      "40458850",
+      "39863087"
+    ],
+    "pmc": [
+      "12130738"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lupus.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lupus"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40458850/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1049/syb2.70021",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LAP3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3688",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

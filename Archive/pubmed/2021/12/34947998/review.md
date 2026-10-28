@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report that prenatal BPA exposure at the FDA NOAEL (5000 µg/kg maternal body weight/day) disrupts transcriptome-interactome profiles in the neonatal rat prefrontal cortex in a sex-dependent manner. They report enrichment of ASD-related genes among differentially expressed genes, associations with postmortem ASD brain transcriptomic datasets, and identify ASD-related transcription factors (AR, ESR1, RORA, SOX5, TCF4, YY1) as potential mediators, supported by molecular docking predictions.
+- **Visible evidence base** RNA-seq data (differential expression, p < 0.05, FDR < 0.05), IPA pathway/network analyses, hypergeometric enrichment analyses against SFARI gene lists and GEO postmortem datasets, qRT-PCR validation for five selected genes, molecular docking free energy calculations
+- **Missing materials affecting confidence** Raw RNA-seq data files, full differential expression tables (only referenced as supplementary), qRT-PCR raw data and statistical details, docking scores for all transcription factors tested, details on multiple testing corrections for hypergeometric analyses, information on litter effects in statistical models, validation of antibody or binding assays for docking predictions
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question regarding the molecular mechanisms linking prenatal BPA exposure to ASD risk, with a focus on sex-specific effects in the prefrontal cortex. The study design is logical and the analytical approach is comprehensive, combining transcriptomics, pathway analysis, enrichment testing, and molecular docking. However, several technical and statistical concerns need to be addressed before the conclusions are fully supported. The sex-specific findings are intriguing but the small sample size (n = 3 per sex per treatment) and lack of litter-based statistical modeling raise concerns about robustness. The docking predictions are suggestive but require experimental validation. Overall, the work has potential but requires revisions to strengthen the evidence base.
+- **Who would be interested in the results, and why** Researchers in environmental health sciences, neurodevelopmental toxicology, autism genetics, and endocrine disruption would find these results relevant. The study provides a potential mechanistic link between an environmental chemical and ASD-related molecular changes, which is of interest to those studying gene-environment interactions in neurodevelopmental disorders. The sex-specific findings may also interest researchers focused on the male bias in ASD prevalence.
+- **Major strengths** The study addresses a significant gap by examining the prefrontal cortex, a key brain region in ASD, rather than focusing solely on the hippocampus. The multi-layered analytical approach (transcriptomics, pathway analysis, enrichment against established ASD gene databases, and docking) provides a comprehensive framework. The use of the FDA NOAEL dose is relevant for human risk assessment. The sex-specific analysis is a notable strength given the male bias in ASD.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and sample size
+  - **Claim pointer** The claim that prenatal BPA exposure disrupts transcriptome profiles in a sex-dependent manner is based on n = 3 per sex per treatment.
+  - **Evidence pointer** Section 2.1, Section 4.2
+  - **Concern** The sample size of three pups per sex per treatment is very small for transcriptomic analysis. With such small n, the differential expression results are highly susceptible to outlier effects and may not be reproducible. Additionally, the manuscript does not describe whether pups from the same litter were treated as independent samples or whether litter was included as a random effect in the statistical model. This is critical because littermates are not biologically independent, and failure to account for this can lead to inflated significance.
+  - **Why it matters** The core conclusion of sex-specific transcriptomic disruption rests on the robustness of the differential expression analysis. If the results are driven by a single outlier pup or by litter effects, the conclusions would not be reliable. This is a foundational issue that affects all downstream analyses.
+  - **Resolution test** Provide details on experimental design regarding litter allocation. If littermates were used, reanalyze the data using mixed-effects models with litter as a random factor. Alternatively, increase the sample size to at least 5-6 pups per sex per treatment from independent litters. Show that the differential expression results are stable across individual samples (e.g., via leave-one-out analysis or principal component analysis highlighting sample clustering).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical correction for multiple enrichment analyses
+  - **Claim pointer** The authors report significant enrichment of ASD candidate genes and transcription factor targets among BPA-responsive genes based on hypergeometric distribution analyses.
+  - **Evidence pointer** Sections 2.3, 2.4, 2.5, Tables 2, 3, 4
+  - **Concern** The manuscript reports numerous hypergeometric enrichment tests (across multiple gene lists, multiple transcription factors, multiple GEO datasets, and multiple brain regions) but does not describe any correction for multiple testing. With dozens or potentially hundreds of comparisons, the probability of false positives is substantial. The p-values reported (e.g., 4.44 × 10⁻³) may not survive correction.
+  - **Why it matters** The enrichment analyses are central to the claim that BPA-responsive genes are ASD-related and that specific transcription factors mediate these effects. Without appropriate multiple testing correction, these associations may be spurious, undermining the main conclusions.
+  - **Resolution test** Apply Benjamini-Hochberg or Bonferroni correction across all enrichment tests performed. Report adjusted p-values and indicate which associations remain significant. Alternatively, use permutation-based approaches to establish empirical null distributions for the enrichment statistics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation of docking predictions
+  - **Claim pointer** The molecular docking analysis predicts that BPA binds to RORA, SOX5, TCF4, and YY1, identifying these as novel targets of BPA.
+  - **Evidence pointer** Section 2.6, Table 5, Figure 2
+  - **Concern** The docking analysis is purely computational and the manuscript does not provide any experimental validation of BPA binding to these transcription factors. Docking predictions are known to have high false-positive rates, and the binding free energies reported are not contextualized against known binders or non-binders. The claim that these are "novel targets of BPA" is therefore premature.
+  - **Why it matters** The identification of novel BPA targets is a significant claim that could guide future research. However, without experimental confirmation (e.g., surface plasmon resonance, isothermal titration calorimetry, or cellular assays), the claim is not established. Overstating computational predictions as definitive targets could mislead the field.
+  - **Resolution test** Provide experimental validation of BPA binding to at least one or two of the proposed transcription factors. Alternatively, temper the language to clearly state that these are predicted interactions requiring experimental confirmation. Include positive and negative controls in the docking analysis to demonstrate the method's reliability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of findings across species
+  - **Claim pointer** The authors suggest that their findings in rats may be relevant to human ASD risk, particularly through the transcription factors identified.
+  - **Evidence pointer** Sections 2.3, 2.4, 3
+  - **Concern** The study uses rat models and human databases (SFARI, GEO postmortem datasets) for enrichment analyses. While this cross-species comparison is valuable, the manuscript does not adequately address potential species differences in BPA metabolism, brain development timing, or transcription factor function. The human postmortem datasets are from varied brain regions and ages, and the comparison to neonatal rat data may not be biologically appropriate.
+  - **Why it matters** The translational relevance of the findings depends on the validity of cross-species comparisons. If the developmental timing or molecular pathways differ substantially between rats and humans, the conclusions about ASD risk may not be generalizable.
+  - **Resolution test** Discuss the developmental equivalence between neonatal rats and the human developmental stages represented in the postmortem datasets. Address known species differences in BPA toxicokinetics and brain development. If possible, validate key findings in a human-relevant model system (e.g., human iPSC-derived neurons).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting of qRT-PCR data
+  - **Affected element** Section 2.3, Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The qRT-PCR validation is described for five genes, but the figure only shows results for some genes. Statistical details (e.g., error bars representation, number of technical replicates, statistical test used) are not fully described in the figure legend or methods.
+  - **Required correction** Provide complete qRT-PCR results for all five genes, including statistical analysis details. Clarify whether error bars represent standard deviation or standard error of the mean.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of differential expression criteria
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The criteria for defining differentially expressed genes are stated as p < 0.05 and FDR < 0.05, but the magnitude of change (fold-change threshold) is not specified. This makes it difficult to assess the biological significance of the reported changes.
+  - **Required correction** Specify the fold-change threshold used, or justify why no fold-change threshold was applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Docking methodology details
+  - **Affected element** Section 4.8
+  - **Evidence pointer** Section 4.8
+  - **Issue** The docking methodology description is brief. Details on the preparation of protein structures, grid box dimensions, number of runs, and selection criteria for the best poses are not provided.
+  - **Required correction** Expand the methods section to include sufficient detail for reproducibility, including software parameters and validation of the docking protocol.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures S1, S2
+  - **Evidence pointer** Figures S1, S2
+  - **Issue** The supplementary figures are referenced but not described in detail in the text. The network figures are likely complex and may be difficult to interpret without adequate labeling.
+  - **Required correction** Provide detailed figure legends for supplementary figures, explaining the meaning of node colors, sizes, and edge types.
+
+## Risk / unsupported claims
+- The claim that BPA directly interacts with RORA, SOX5, TCF4, and YY1 as "novel targets" is not supported by experimental evidence; only computational docking predictions are provided.
+- The claim of a causal link between prenatal BPA exposure and ASD risk through the identified transcription factors is speculative and not directly tested in this study.
+- The sex-specific differences in transcription factor involvement are based on small sample sizes and require validation in larger cohorts.
+- The relevance of findings from neonatal rats to human ASD pathophysiology is asserted but not fully established, given species differences in brain development and BPA metabolism.
+- The enrichment analyses against postmortem ASD datasets may be confounded by differences in brain region, age, and tissue processing between the rat model and human samples; these limitations are not adequately discussed.

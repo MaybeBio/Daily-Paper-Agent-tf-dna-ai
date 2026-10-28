@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38641451",
+  "title": "Develop and Validate a Nomogram Combining Contrast-Enhanced Spectral Mammography Deep Learning with Clinical-Pathological Features to Predict Neoadjuvant Chemotherapy Response in Patients with ER-Positive/HER2-Negative Breast Cancer.",
+  "authors": "Xing, Dong; Lv, Yongbin; Sun, Bolin; Chu, Tongpeng; Bao, Qianhao; Zhang, Han",
+  "journal": "Academic radiology",
+  "published_date": "2024-04-20",
+  "window": {
+    "start": "2024-04-15",
+    "end": "2024-04-21"
+  },
+  "score": 0,
+  "one_liner_zh": "该文利用增强光谱乳腺摄影深度学习与临床病理特征构建列线图预测乳腺癌新辅助化疗反应，完全不涉及蛋白质-DNA互作或TF-DNA结合体系，与课题无关。",
+  "abstract": "RATIONALE AND OBJECTIVES: To develop and validate a nomogram that combines contrast-enhanced spectral mammography (CESM) deep learning with clinical-pathological features to predict neoadjuvant chemotherapy (NAC) response (either low Miller Payne (MP-L) grades 1-2 or high MP (MP-H) grades 3-5) in patients with ER-positive/HER2-negative breast cancer. MATERIALS AND METHODS: In this retrospective study, 265 breast cancer patients were randomly allocated into training and test sets (used for models training and testing, respectively) at a 4:1 ratio. Deep learning models, based on the pre-trained ResNet34 model and initially fine-tuned for identifying breast cancer, were trained using low-energy and subtracted CESM images. The predicted results served as deep learning features for the deep learning-based model. Clinical-pathological features, including age, progesterone receptor (PR) status, estrogen receptor (ER) status, Ki67 expression levels, and neutrophil-to-lymphocyte ratio, were used for the clinical model. All these features contributed to the nomogram. Feature selection was performed through univariate analysis. Logistic regression models were developed and chosen using a stepwise selection method. The deep learning-based and clinical models, along with the nomogram, were evaluated using precision-recall curves, receiver operating characteristic (ROC) curves, specificity, recall, accuracy, negative predictive value, positive predictive value (PPV), balanced accuracy, F1-score, and decision curve analysis (DCA). RESULTS: The nomogram demonstrated considerable predictive ability, with higher area under the ROC curve (0.95, P < 0.05), accuracy (0.94), specificity (0.98), PPV (0.89), and precision (0.89) compared to the deep learning-based and clinical models. In DCA, the nomogram showed substantial clinical value in assisting breast cancer treatment decisions, exhibiting a higher net benefit than the other models. CONCLUSION: The nomogram, integrating CESM deep learning with clinical-pathological features, proved valuable for predicting NAC response in patients with ER-positive/HER2-negative breast cancer. Nomogram outperformed deep learning-based and clinical models.",
+  "abstract_zh": "RATIONALE AND OBJECTIVES: 开发并验证一种结合对比增强能谱乳腺摄影（CESM）深度学习与临床病理特征的列线图，以预测ER阳性/HER2阴性乳腺癌患者对新辅助化疗（NAC）的反应（低Miller Payne（MP-L）1-2级或高MP（MP-H）3-5级）。MATERIALS AND METHODS: 在这项回顾性研究中，265名乳腺癌患者按4:1比例随机分为训练集和测试集（分别用于模型训练和测试）。基于预训练ResNet34模型并初始微调用于识别乳腺癌的深度学习模型，使用低能量和减影CESM图像进行训练。预测结果作为深度学习模型的深度学习特征。临床病理特征，包括年龄、孕激素受体（PR）状态、雌激素受体（ER）状态、Ki67表达水平和中性粒细胞与淋巴细胞比率，用于临床模型。所有这些特征均纳入列线图。通过单变量分析进行特征选择。使用逐步选择方法开发并选择逻辑回归模型。基于深度学习的模型和临床模型，以及列线图，通过精确率-召回率曲线、受试者工作特征（ROC）曲线、特异性、召回率、准确率、阴性预测值、阳性预测值（PPV）、平衡准确率、F1分数和决策曲线分析（DCA）进行评估。RESULTS: 列线图显示出显著的预测能力，其ROC曲线下面积（0.95，P < 0.05）、准确率（0.94）、特异性（0.98）、PPV（0.89）和精确率（0.89）均高于基于深度学习的模型和临床模型。在DCA中，列线图在辅助乳腺癌治疗决策方面显示出显著的临床价值，其净收益高于其他模型。CONCLUSION: 结合CESM深度学习与临床病理特征的列线图，在预测ER阳性/HER2阴性乳腺癌患者对NAC反应方面被证明具有价值。列线图优于基于深度学习的模型和临床模型。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38641451/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38641451/",
+  "paper_page_path": "papers/pubmed/38641451/index.html"
+}

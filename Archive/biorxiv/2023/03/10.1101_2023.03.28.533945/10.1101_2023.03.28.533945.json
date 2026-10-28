@@ -1,0 +1,217 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.03.28.533945",
+  "title": "Single-cell multi-scale footprinting reveals the modular organization of DNA regulatory elements",
+  "doi": "10.1101/2023.03.28.533945",
+  "abstract": "Cis -regulatory elements control gene expression and are dynamic in their structure, reflecting changes to the composition of diverse effector proteins over time 1–3 . Here we sought to connect the structural changes at cis -regulatory elements to alterations in cellular fate and function. To do this we developed PRINT, a computational method that uses deep learning to correct sequence bias in chromatin accessibility data and identifies multi-scale footprints of DNA-protein interactions. We find that multi-scale footprints enable more accurate inference of TF and nucleosome binding. Using PRINT with single-cell multi-omics, we discover wide-spread changes to the structure and function of candidate cis -regulatory elements (cCREs) across hematopoiesis, wherein nucleosomes slide, expose DNA for TF binding, and promote gene expression. Activity segmentation using the co-variance across cell states identifies “sub-cCREs” as modular cCRE subunits of regulatory DNA. We apply this single-cell and PRINT approach to characterize the age-associated alterations to cCREs within hematopoietic stem cells (HSCs). Remarkably, we find a spectrum of aging alterations among HSCs corresponding to a global gain of sub-cCRE activity while preserving cCRE accessibility. Collectively, we reveal the functional importance of cCRE structure across cell states, highlighting changes to gene regulation at single-cell and single-base-pair resolution.",
+  "authors": [
+    "Hu Y",
+    "Ma S",
+    "Kartha VK",
+    "Duarte FM",
+    "Horlbeck M",
+    "Zhang R",
+    "Shrestha R",
+    "Labade A",
+    "Kletzien H",
+    "Meliki A",
+    "Castillo A",
+    "Durand N",
+    "Mattei E",
+    "Anderson LJ",
+    "Tay T",
+    "Earl AS",
+    "Shoresh N",
+    "Epstein CB",
+    "Wagers A",
+    "Buenrostro JD"
+  ],
+  "published_date": "2023-03-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.03.28.533945",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.03.28.533945.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR637933",
+    "raw_record": {
+      "id": "PPR637933",
+      "source": "PPR",
+      "doi": "10.1101/2023.03.28.533945",
+      "title": "Single-cell multi-scale footprinting reveals the modular organization of DNA regulatory elements",
+      "authorString": "Hu Y, Ma S, Kartha VK, Duarte FM, Horlbeck M, Zhang R, Shrestha R, Labade A, Kletzien H, Meliki A, Castillo A, Durand N, Mattei E, Anderson LJ, Tay T, Earl AS, Shoresh N, Epstein CB, Wagers A, Buenrostro JD.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hu Y",
+            "lastName": "Hu",
+            "firstName": "Yan",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Ma S",
+            "lastName": "Ma",
+            "firstName": "Sai",
+            "initials": "S"
+          },
+          {
+            "fullName": "Kartha VK",
+            "lastName": "Kartha",
+            "firstName": "Vinay",
+            "initials": "VK"
+          },
+          {
+            "fullName": "Duarte FM",
+            "lastName": "Duarte",
+            "firstName": "Fabiana",
+            "initials": "FM"
+          },
+          {
+            "fullName": "Horlbeck M",
+            "lastName": "Horlbeck",
+            "firstName": "Max",
+            "initials": "M"
+          },
+          {
+            "fullName": "Zhang R",
+            "lastName": "Zhang",
+            "firstName": "Ruochi",
+            "initials": "R"
+          },
+          {
+            "fullName": "Shrestha R",
+            "lastName": "Shrestha",
+            "firstName": "Rojesh",
+            "initials": "R"
+          },
+          {
+            "fullName": "Labade A",
+            "lastName": "Labade",
+            "firstName": "Ajay",
+            "initials": "A"
+          },
+          {
+            "fullName": "Kletzien H",
+            "lastName": "Kletzien",
+            "firstName": "Heidi",
+            "initials": "H"
+          },
+          {
+            "fullName": "Meliki A",
+            "lastName": "Meliki",
+            "firstName": "Alia",
+            "initials": "A"
+          },
+          {
+            "fullName": "Castillo A",
+            "lastName": "Castillo",
+            "firstName": "Andrew",
+            "initials": "A"
+          },
+          {
+            "fullName": "Durand N",
+            "lastName": "Durand",
+            "firstName": "Neva",
+            "initials": "N"
+          },
+          {
+            "fullName": "Mattei E",
+            "lastName": "Mattei",
+            "firstName": "Eugenio",
+            "initials": "E"
+          },
+          {
+            "fullName": "Anderson LJ",
+            "lastName": "Anderson",
+            "firstName": "Lauren",
+            "initials": "LJ"
+          },
+          {
+            "fullName": "Tay T",
+            "lastName": "Tay",
+            "firstName": "Tristan",
+            "initials": "T"
+          },
+          {
+            "fullName": "Earl AS",
+            "lastName": "Earl",
+            "firstName": "Andrew",
+            "initials": "AS"
+          },
+          {
+            "fullName": "Shoresh N",
+            "lastName": "Shoresh",
+            "firstName": "Noam",
+            "initials": "N"
+          },
+          {
+            "fullName": "Epstein CB",
+            "lastName": "Epstein",
+            "firstName": "Charles",
+            "initials": "CB"
+          },
+          {
+            "fullName": "Wagers A",
+            "lastName": "Wagers",
+            "firstName": "Amy",
+            "initials": "A"
+          },
+          {
+            "fullName": "Buenrostro JD",
+            "lastName": "Buenrostro",
+            "firstName": "Jason",
+            "initials": "JD"
+          }
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Cis -regulatory elements control gene expression and are dynamic in their structure, reflecting changes to the composition of diverse effector proteins over time  1–3 . Here we sought to connect the structural changes at  cis -regulatory elements to alterations in cellular fate and function. To do this we developed PRINT, a computational method that uses deep learning to correct sequence bias in chromatin accessibility data and identifies multi-scale footprints of DNA-protein interactions. We find that multi-scale footprints enable more accurate inference of TF and nucleosome binding. Using PRINT with single-cell multi-omics, we discover wide-spread changes to the structure and function of candidate  cis -regulatory elements (cCREs) across hematopoiesis, wherein nucleosomes slide, expose DNA for TF binding, and promote gene expression. Activity segmentation using the co-variance across cell states identifies “sub-cCREs” as modular cCRE subunits of regulatory DNA. We apply this single-cell and PRINT approach to characterize the age-associated alterations to cCREs within hematopoietic stem cells (HSCs). Remarkably, we find a spectrum of aging alterations among HSCs corresponding to a global gain of sub-cCRE activity while preserving cCRE accessibility. Collectively, we reveal the functional importance of cCRE structure across cell states, highlighting changes to gene regulation at single-cell and single-base-pair resolution.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.03.28.533945"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-03-31",
+      "firstPublicationDate": "2023-03-29",
+      "firstIndexDate": "2023-04-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

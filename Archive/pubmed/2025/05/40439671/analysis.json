@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40439671",
+  "title": "PLM-DBPs: enhancing plant DNA-binding protein prediction by integrating sequence-based and structure-aware protein language models.",
+  "authors": "Pokharel, Suresh; Barasa, Kepha; Pratyush, Pawel; Kc, Dukka B",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2025-05-29",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用序列与结构感知蛋白语言模型融合预测植物DNA结合蛋白，属广义蛋白-DNA互作预测，方法可迁移至TF-DNA体系，但未聚焦TF特异性结合机制。",
+  "abstract": "DNA-binding proteins (DBPs) play a crucial role in gene regulation, development, and environmental responses across plants, animals, and microorganisms. Existing DBP prediction methods are largely limited to sequence information, whether through handcrafted features or sequence-based protein language models (PLMs), overlooking structural cues critical to protein function. In addition, most existing tools are trained for general DBP predictions, which are often not accurate for plant-specific DBPs due to the unique structural and functional properties of plant proteins. Our work introduces PLM-DBPs, a deep learning framework that integrates both sequence-based and structure-aware representations to enhance DBP prediction in plants. We evaluated several state-of-the-art PLMs to extract high-dimensional protein representations and experimented with various fusion strategies to validate the complementary information between the various representations. Our final model, a fusion of sequence-based and structure-aware ANN models, achieves a notable improvement in predicting DBPs in plants outperforming previous state-of-the-art models. Although sequence-based PLMs already demonstrate strong performance in DBP prediction, our findings show that the integration of structural information further enhances predictive accuracy. This underscores the complementary nature of structural representations and establishes PLM-DBPs as a robust tool for advancing plant research and agricultural innovation. The proposed model and other resources are publicly available at https://github.com/suresh-pokharel/PLM-DBPs.",
+  "abstract_zh": "DNA结合蛋白（DBPs）在植物、动物和微生物的基因调控、发育及环境响应中发挥关键作用。现有的DBP预测方法大多局限于序列信息，无论是通过手工特征还是基于序列的蛋白质语言模型（PLMs），都忽略了对其功能至关重要的结构线索。此外，大多数现有工具是为通用DBP预测而训练的，由于植物蛋白独特的结构和功能特性，这些工具往往对植物特异性DBP预测不够准确。我们的工作引入了PLM-DBPs，一种深度学习框架，整合了基于序列和结构感知的表征，以增强植物中DBP的预测。我们评估了几种最先进的PLMs以提取高维蛋白质表征，并尝试了多种融合策略，以验证不同表征之间的互补信息。我们的最终模型，融合了基于序列和结构感知的ANN模型，在预测植物DBP方面取得了显著改进，超越了先前的最先进模型。尽管基于序列的PLMs在DBP预测中已展现出强大性能，但我们的发现表明，整合结构信息进一步提升了预测准确性。这强调了结构表征的互补性，并将PLM-DBPs确立为推进植物研究和农业创新的稳健工具。所提出的模型及其他资源可在https://github.com/suresh-pokharel/PLM-DBPs公开获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40439671/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40439671/",
+  "paper_page_path": "papers/pubmed/40439671/index.html"
+}

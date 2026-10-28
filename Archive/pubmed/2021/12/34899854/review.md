@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary figure/table references.
+- **Assessment boundary** Scientific validity, methodological soundness, interpretability claims, and reproducibility of the proposed MultiCapsNet framework, based solely on the provided manuscript content.
+- **Shared manuscript claim summary** The authors propose MultiCapsNet, a capsule network-based deep learning framework designed for integrating modular biological data from multiple sources and providing interpretable classification. They claim it achieves classification performance comparable to standard neural networks and random forests on a somatic variant call dataset and a mouse scRNA-seq dataset, while directly yielding importance scores for data sources. They further claim that prior knowledge (PPI and PDI) can be incorporated into the network structure, and that identified transcription factors (TFs) are biologically relevant, with partial validation against SCENIC.
+- **Visible evidence base** Methods section describing model architecture, dynamic routing, and data preprocessing; Results section reporting AUC, accuracy, F1 scores, correlation coefficients, and lists of TFs; Supplementary figure and table references (S1–S5, Tables S1–S3); GitHub repository link.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S5, Tables S1–S3) are referenced but not provided; exact hyperparameters, training procedures, and code implementation details are not fully described; details on the variant call dataset (e.g., feature definitions, class balance) and scRNA-seq preprocessing (e.g., normalization, gene selection) are incomplete; statistical significance testing for performance comparisons is not reported; details on the random forest and neural network baselines (e.g., architecture, hyperparameters) are limited.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful framework for integrating modular biological data with interpretable outputs, building on prior capsule network work. The core idea of using dynamic routing to assign importance scores to data sources is interesting and could appeal to a computational biology audience. However, the current evidence base is insufficient to fully establish the claimed advantages. Key limitations include incomplete reporting of experimental details, lack of statistical rigor in performance comparisons, and a limited demonstration of interpretability beyond correlating with known biology. The comparison with SCENIC is superficial and does not quantitatively benchmark against this established method. The manuscript would benefit from clearer articulation of the novelty relative to the authors' prior scCapsNet work and a more thorough validation of the interpretability claims.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on deep learning applications for genomics and single-cell data would be the primary audience. Researchers interested in model interpretability for biological discovery, particularly in the context of transcription factor identification and cell type classification, may find the framework appealing. The potential for integrating prior knowledge into network architecture could also interest those working on network biology and multi-omics data integration.
+- **Major Strengths**
+  - The proposed framework directly addresses a real need for interpretable deep learning models that can handle modular, heterogeneous biological data.
+  - The use of capsule networks and dynamic routing to derive data source importance scores is a conceptually interesting approach that avoids post-hoc feature importance calculations.
+  - The framework is demonstrated on two distinct applications (variant calling and scRNA-seq), showing some versatility.
+  - The incorporation of prior knowledge (PPI/PDI) into the network structure is a sensible strategy to enhance interpretability.
+- **Major Concerns**
+  - **R1-M1**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness and reproducibility
+    - **Claim pointer** The manuscript claims MultiCapsNet achieves classification performance comparable to neural networks and random forests on the variant call and scRNA-seq datasets.
+    - **Evidence pointer** Results section, Figures 4 and S4, location not provided.
+    - **Concern** The performance comparison is reported as mean accuracy or AUC values without any measure of variance or statistical significance testing. It is unclear if the observed differences (e.g., MultiCapsNet accuracy 0.873 vs. random forest 0.895) are meaningful. Furthermore, the baseline models (neural network, random forest) are not described in sufficient detail (e.g., architecture, hyperparameters, feature preprocessing) to ensure a fair comparison. The lack of error bars or confidence intervals on the reported metrics prevents assessment of the robustness of the results.
+    - **Why it matters** Without statistical rigor, the claim of "comparable performance" is not substantiated. A reader cannot determine if MultiCapsNet is a viable alternative to simpler, well-established methods. This is a core claim of the paper and must be supported by appropriate statistical analysis.
+    - **Resolution test** Provide performance metrics (e.g., accuracy, F1, AUC) with standard deviations or confidence intervals across multiple runs (e.g., 5-fold cross-validation repeated with different seeds). Perform statistical significance tests (e.g., paired t-test or Wilcoxon signed-rank test) comparing MultiCapsNet to each baseline. Provide full details of the baseline model architectures and hyperparameters.
+  - **R1-M2**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Interpretability claim validation
+    - **Claim pointer** The manuscript claims that the importance scores generated by MultiCapsNet are highly correlated with those from a neural network model (Pearson correlation = 0.876) and that identified TFs are biologically relevant.
+    - **Evidence pointer** Results section, Figure 4B, Figure 5C, location not provided.
+    - **Concern** The correlation with the neural network's importance scores is presented as a validation, but the neural network's importance scores are derived from a different method (shuffling). A high correlation may simply indicate that both methods identify the same dominant features, but it does not validate the correctness of either. The biological relevance of TFs is supported only by citing a few examples from the literature. This is anecdotal and does not constitute a systematic validation. The comparison with SCENIC is qualitative, listing overlapping TFs without a quantitative measure of enrichment or significance.
+    - **Why it matters** The interpretability of the model is a central selling point. The current evidence is too weak to support the claim that the model provides reliable and biologically meaningful insights. A more rigorous validation is needed to convince readers that the importance scores are trustworthy.
+    - **Resolution test** Provide a systematic evaluation of the importance scores, e.g., by comparing them to known gold-standard sets of cell-type-specific TFs using enrichment analysis (e.g., hypergeometric test). For the SCENIC comparison, quantify the overlap (e.g., Jaccard index) and assess its significance against a random expectation. Consider validating the importance scores by perturbing the most important data sources and measuring the impact on classification accuracy.
+  - **R1-M3**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Novelty and positioning
+    - **Claim pointer** The manuscript presents MultiCapsNet as a "general framework" and a new model built on CapsNet and scCapsNet.
+    - **Evidence pointer** Abstract, Introduction, location not provided.
+    - **Concern** The novelty of MultiCapsNet relative to the authors' previous scCapsNet model is not clearly articulated. The manuscript states it is "built on" scCapsNet, but the specific architectural or methodological advancements are not explicitly highlighted. The "general framework" claim is supported by only two examples, both of which are classification tasks. It is unclear how the framework would generalize to other types of data integration problems (e.g., regression, multi-modal integration with different data types).
+    - **Why it matters** For a methods paper, clearly establishing the novelty and the breadth of the framework is essential. Without this, the contribution may be seen as incremental.
+    - **Resolution test** Clearly delineate the differences between MultiCapsNet and scCapsNet, perhaps with a comparative table or figure. Discuss the generalizability of the framework to other data types and tasks, and ideally provide a third example or a conceptual framework for how it would be applied.
+  - **R1-M4**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness of interpretability mechanism
+    - **Claim pointer** The manuscript states that the magnitude of coupling coefficients can be "roughly regarded as the contribution of the primary capsules to the type capsules."
+    - **Evidence pointer** Methods section, "Average Coupling Coefficients and Data Source Importance", location not provided.
+    - **Concern** The interpretation of coupling coefficients as importance scores is not rigorously justified. In capsule networks, coupling coefficients represent the routing probabilities, but their direct relationship to feature importance is not established. The manuscript acknowledges this is a "rough" measure, but the entire interpretability claim rests on this assumption. No analysis is provided to show that these coefficients are stable across training runs or that they are not influenced by the scaling of input features.
+    - **Why it matters** If the coupling coefficients are not a reliable proxy for feature importance, the interpretability claims of the paper are undermined.
+    - **Resolution test** Provide a sensitivity analysis showing the stability of the importance scores across different random initializations. Compare the importance scores to those obtained from other interpretability methods (e.g., SHAP, LIME) on the same datasets to assess their validity.
+- **Minor Comments**
+  - **R1-m1**
+    - **Severity** Minor
+    - **Axis** Clarity and completeness
+    - **Affected element** Methods, "Datasets and Data Preprocessing"
+    - **Evidence pointer** Methods section, location not provided.
+    - **Issue** The description of the variant call dataset is incomplete. The number of features per group is not fully specified, and the encoding of categorical variables (e.g., cancer types) is not described. For the scRNA-seq dataset, the preprocessing steps (e.g., normalization, log-transformation, gene filtering) are not detailed.
+    - **Required correction** Provide a complete description of the datasets, including feature counts per group, encoding schemes, and all preprocessing steps. This is essential for reproducibility.
+  - **R1-m2**
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods, "The Architecture and Parameters of the MultiCapsNet Model"
+    - **Evidence pointer** Methods section, location not provided.
+    - **Issue** The manuscript does not specify the number of routing iterations, the dimension of the capsule vectors, or the loss function used for training. These are critical hyperparameters for capsule networks.
+    - **Required correction** Report all key hyperparameters, including the number of routing iterations, capsule dimensions, learning rate, batch size, and the loss function.
+  - **R1-m3**
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Introduction and Discussion
+    - **Evidence pointer** Introduction, Discussion, location not provided.
+    - **Issue** The manuscript assumes familiarity with capsule networks and dynamic routing. A brief, intuitive explanation of these concepts would make the paper more accessible to a broader biological audience.
+    - **Required correction** Add a short paragraph in the Introduction explaining the basic principles of capsule networks and why they are suited for this task.
+  - **R1-m4**
+    - **Severity** Minor
+    - **Axis** Clarity of figures
+    - **Affected element** Figure 5
+    - **Evidence pointer** Results section, Figure 5, location not provided.
+    - **Issue** The heatmaps in Figure 5 are described as showing "dark lines" for high values, but the color scale and the exact values are not defined. It is difficult to interpret the magnitude of the importance scores from the figure alone.
+    - **Required correction** Add a color scale legend to the heatmaps and consider labeling the axes with the TF/PPI names and cell types for clarity.
+  - **R1-m5**
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Results, "MultiCapsNet Model Compared with SCENIC"
+    - **Evidence pointer** Results section, location not provided.
+    - **Issue** The comparison with SCENIC is described only in terms of overlapping TFs. The criteria for selecting the top 30 TFs from MultiCapsNet are not clearly defined, and the SCENIC results are not independently evaluated.
+    - **Required correction** Clarify the selection criteria for the top TFs and provide a more detailed comparison, including a discussion of TFs that are unique to each method and their potential significance.
+- **Technical failings that need to be addressed before the case is established**
+  - Lack of statistical significance testing for all performance comparisons (R1-M1).
+  - Insufficient detail on model architecture, hyperparameters, and training procedures for reproducibility (R1-m2, R1-M1).
+  - Incomplete description of dataset preprocessing and feature encoding (R1-m1).
+  - The interpretability mechanism (coupling coefficients) is not rigorously validated (R1-M2, R1-M4).
+  - The novelty relative to scCapsNet is not clearly established (R1-M3).
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The application of capsule networks to modular biological data integration is a reasonable extension of existing work, but the core mechanism is not fundamentally new. The novelty is limited by the unclear distinction from the authors' prior scCapsNet model.
+  - **Scientific importance** Moderate. The problem of interpretable deep learning for biological data is important, and the framework could be useful to the community. However, the current evidence does not demonstrate a significant advance over existing methods.
+  - **Interdisciplinary readership** Limited. The manuscript is likely to appeal primarily to computational biologists and bioinformaticians. The lack of accessible explanations of capsule networks and the focus on specific datasets may limit its appeal to a broader biological or clinical audience.
+  - **Technical soundness** Weak. The technical details are insufficiently reported, and the validation of both performance and interpretability is not statistically rigorous. The claims are not fully supported by the evidence provided.
+  - **Readability for nonspecialists** Poor. The manuscript assumes significant prior knowledge of deep learning and capsule networks. The writing is dense and would be challenging for a biologist without a strong computational background.
+- **Recommendation posture** Currently not established from the provided evidence. The core concept is interesting, but the manuscript requires substantial revisions to address the technical and validation gaps. The authors must provide a more rigorous and complete description of their methods and a statistically sound evaluation of their claims before the case for MultiCapsNet as a general and interpretable framework can be made.
+
+## Risk / unsupported claims
+- The claim that MultiCapsNet provides "high interpretability" is not fully supported; the relationship between coupling coefficients and biological importance is assumed, not demonstrated.
+- The claim that performance is "comparable" to neural networks and random forests is unsupported due to lack of statistical testing and incomplete baseline descriptions.
+- The claim that the framework is "general" is not established, as only two classification examples are provided.
+- The biological relevance of identified TFs is supported only by anecdotal literature references, not by systematic enrichment analysis.
+- The comparison with SCENIC is qualitative and does not provide a quantitative benchmark of performance or interpretability.
+- The reproducibility of the results is limited by the incomplete reporting of hyperparameters, training details, and dataset preprocessing steps.

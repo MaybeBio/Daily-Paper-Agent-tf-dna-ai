@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40306980",
+  "title": "From Nuclear Receptors to GPCRs: a Deep Transfer Learning Approach for Enhanced Environmental Estrogen Recognition.",
+  "authors": "Yao, Tingji; Luo, Jiaqi; Han, Xiaoxiao; Yi, Hang; Zhang, Huazhou; Pan, Wenxiao; Xue, Qiao; Liu, Xian; Fu, Jianjie; Zhang, Aiqian",
+  "journal": "Environmental science & technology",
+  "published_date": "2025-05-01",
+  "window": {
+    "start": "2025-04-28",
+    "end": "2025-05-04"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度迁移学习预测环境雌激素与GPER的结合，虽涉及蛋白-配体互作，但对象为GPCR而非蛋白质-DNA，且无DNA结合建模，仅方法上对TF-DNA研究有间接启发。",
+  "abstract": "Environmental estrogens (EEs), as typical endocrine-disrupting chemicals (EDCs), can bind to classic estrogen receptors (ERs) to induce genomic effects, as well as to G protein-coupled estrogen receptor (GPER) located on the membrane, thereby inducing downstream nongenomic effects rapidly. However, due to the relatively scarce ligand data, receptor-based or ligand-based screening models for GPER are challenging. Inspired by functional similarity between GPER and ER, this study constructs a deep transfer learning model named GPNET to predict potential GPER-binding ligands by using three-dimensional (3D) molecular surface electrostatic potential point clouds (SepPC) as input. The model retains a part of molecular structural knowledge learned from the ER ligands and then trains the remaining parameters of the model using the GPER ligands, ultimately obtaining the GPNET model, which effectively predicts the binding activity of compounds with GPER. GPNET outperforms From Scratch (nontransfer) model on the small data set, achieving the area under the receiver operating characteristic (ROC) curve (AUC(ROC)) of 0.898 on the validation set and 0.863 on the test set, respectively. Furthermore, by visualizing the critical points and extracting the features from activation points of active ligands, the study provides a more in-depth interpretation of the molecular mechanism of two bisphenol A (BPA) alternatives binding to GPER.",
+  "abstract_zh": "环境雌激素（EEs）作为典型的内分泌干扰化学物质（EDCs），能够与经典雌激素受体（ERs）结合以诱导基因组效应，同时也能与位于膜上的G蛋白偶联雌激素受体（GPER）结合，从而迅速诱导下游非基因组效应。然而，由于配体数据相对匮乏，基于受体或配体的GPER筛选模型构建面临挑战。受GPER与ER功能相似性的启发，本研究构建了一种名为GPNET的深度迁移学习模型，利用三维（3D）分子表面静电势点云（SepPC）作为输入，以预测潜在的GPER结合配体。该模型保留了从ER配体中学到的部分分子结构知识，然后使用GPER配体训练模型的其余参数，最终获得GPNET模型，该模型能有效预测化合物与GPER的结合活性。在小数据集上，GPNET优于从头训练（非迁移）模型，在验证集上实现了接收者操作特征曲线下面积（AUC(ROC)）为0.898，在测试集上为0.863。此外，通过可视化关键点并从活性配体的激活点提取特征，本研究对两种双酚A（BPA）替代物与GPER结合的分子机制提供了更深入的解读。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40306980/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40306980/",
+  "paper_page_path": "papers/pubmed/40306980/index.html"
+}

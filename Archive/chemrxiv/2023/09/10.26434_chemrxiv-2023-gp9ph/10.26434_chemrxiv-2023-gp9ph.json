@@ -1,0 +1,302 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2023-gp9ph",
+  "title": "Synergistic Application of Molecular Docking and Machine Learning for Improved Protein-Ligand Binding Pose Prediction",
+  "doi": "10.26434/chemrxiv-2023-gp9ph",
+  "abstract": "Accurate prediction of protein-ligand complex structures is a crucial step in structure-based drug design. Traditional molecular docking methods exhibit limitations in terms of accuracy and sampling space, while relying on machine-learning approaches may lead to invalid conformations. In this study, we propose a novel strategy that combines molecular docking and machine learning methods. Firstly, the protein-ligand binding poses are predicted using the Uni-Mol Docking machine learning approach. Subsequently, position-restricted docking(PR Docking) on predicted binding poses is performed using Uni-Dock, generating physically constrained and valid binding poses. Finally, the binding poses are re-scored and ranked using machine learning scoring functions. This strategy harnesses the predictive power of machine learning and the physical constraints advantage of molecular docking. Evaluation experiments on multiple datasets demonstrate that, compared to using molecular docking or machine learning methods alone, our proposed strategy can significantly improve the success rate and accuracy of protein-ligand complex structure predictions. This strategy is avaliable at https://github.com/dptech-corp/Uni-Dock.",
+  "authors": [
+    "He Yang",
+    "Hongrui Lin",
+    "Yannan Yuan",
+    "Yaqi Li",
+    "Rongfeng Zou",
+    "Gengmo Zhou",
+    "Linfeng Zhang",
+    "Hang Zheng"
+  ],
+  "published_date": "2023-09-11",
+  "updated_date": "2023-09-11T08:49:11Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2023-gp9ph",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-gp9ph",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T14:17:27Z",
+        "timestamp": 1785421047103,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            11
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                11
+              ]
+            ],
+            "date-time": "2023-09-11T00:00:00Z",
+            "timestamp": 1694390400000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Accurate prediction of protein-ligand complex structures is a crucial step in structure-based drug design. Traditional molecular docking methods exhibit limitations in terms of accuracy and sampling space, while relying on machine-learning approaches may lead to invalid conformations. In this study, we propose a novel strategy that combines molecular docking and machine learning methods. Firstly, the protein-ligand binding poses are predicted using the Uni-Mol Docking machine learning approach. Subsequently, position-restricted docking(PR Docking) on predicted binding poses is performed using Uni-Dock, generating physically constrained and valid binding poses. Finally, the binding poses are re-scored and ranked using machine learning scoring functions. This strategy harnesses the predictive power of machine learning and the physical constraints advantage of molecular docking. Evaluation experiments on multiple datasets demonstrate that, compared to using molecular docking or machine learning methods alone, our proposed strategy can significantly improve the success rate and accuracy of protein-ligand complex structure predictions.  This strategy is avaliable at https://github.com/dptech-corp/Uni-Dock.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2023-gp9ph",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            11
+          ]
+        ],
+        "date-time": "2023-09-11T08:49:11Z",
+        "timestamp": 1694422151000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Synergistic Application of Molecular Docking and Machine Learning for Improved Protein-Ligand Binding Pose Prediction"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "He",
+          "family": "Yang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "DP Technology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hongrui",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "DP Technology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yannan",
+          "family": "Yuan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "DP Technology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yaqi",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "DP Technology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rongfeng",
+          "family": "Zou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "DP Technology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gengmo",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "DP Technology"
+            },
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/041pakw92",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Renmin University of China",
+              "place": [
+                "China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Linfeng",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "DP Technology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2825-0576",
+          "authenticated-orcid": false,
+          "given": "Hang",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "DP Technology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-gp9ph",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:39:10Z",
+        "timestamp": 1778755150000
+      },
+      "score": 112.383865,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2023-gp9ph"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            11
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2023-gp9ph",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1360/nso/20230058",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            11
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,481 @@
+{
+  "identity": {
+    "pmid": "40270544",
+    "doi": "10.3389/fgene.2025.1533900",
+    "title": "An in vivo systemic massively parallel platform for deciphering animal tissue-specific regulatory function."
+  },
+  "content": {
+    "abstract": "Introduction: Transcriptional regulation is an important process wherein non-protein coding enhancer sequences play a key role in determining cell type identity and phenotypic diversity. In neural tissue, these gene regulatory processes are crucial for coordinating a plethora of interconnected and regionally specialized cell types, ensuring their synchronized activity in generating behavior. Recognizing the intricate interplay of gene regulatory processes in the brain is imperative, as mounting evidence links neurodevelopment and neurological disorders to non-coding genome regions. While genome-wide association studies are swiftly identifying non-coding human disease-associated loci, decoding regulatory mechanisms is challenging due to causal variant ambiguity and their specific tissue impacts. Methods: Massively parallel reporter assays (MPRAs) are widely used in cell culture to study the non-coding enhancer regions, linking genome sequence differences to tissue-specific regulatory function. However, widespread use in animals encounters significant challenges, including insufficient viral library delivery and library quantification, irregular viral transduction rates, and injection site inflammation disrupting gene expression. Here, we introduce a systemic MPRA (sysMPRA) to address these challenges through systemic intravenous AAV viral delivery. Results: We demonstrate successful transduction of the MPRA library into diverse mouse tissues, efficiently identifying tissue specificity in candidate enhancers and aligning well with predictions from machine learning models. We highlight that sysMPRA effectively uncovers regulatory effects stemming from the disruption of MEF2C transcription factor binding sites, single-nucleotide polymorphisms, and the consequences of genetic variations associated with late-onset Alzheimer's disease. Conclusion: SysMPRA is an effective library delivering method that simultaneously determines the transcriptional functions of hundreds of enhancers in vivo across multiple tissues.",
+    "keywords": [
+      "PHP.eB",
+      "aav",
+      "brain",
+      "enhancer",
+      "in vivo",
+      "machine learning",
+      "tissue specific",
+      "transcriptional regulation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Brown, Ashley R",
+        "Fox, Grant A",
+        "Kaplow, Irene M",
+        "Lawler, Alyssa J",
+        "Phan, BaDoi N",
+        "Gadey, Lahari",
+        "Wirthlin, Morgan E",
+        "Ramamurthy, Easwaran",
+        "May, Gemma E",
+        "Chen, Ziheng",
+        "Su, Qiao",
+        "McManus, C Joel",
+        "van de Weerd, Robert",
+        "Pfenning, Andreas R"
+      ],
+      "short_names": [
+        "Brown AR",
+        "Fox GA",
+        "Kaplow IM",
+        "Lawler AJ",
+        "Phan BN",
+        "Gadey L",
+        "Wirthlin ME",
+        "Ramamurthy E",
+        "May GE",
+        "Chen Z",
+        "Su Q",
+        "McManus CJ",
+        "van de Weerd R",
+        "Pfenning AR"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Medical Scientist Training Program, University of Pittsburgh School of Medicine, Pittsburgh, PA, United States.",
+        "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States.",
+        "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Brown, Ashley R",
+        "short_name": "Brown AR",
+        "identifiers": [],
+        "affiliations": [
+          "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States."
+        ]
+      },
+      {
+        "full_name": "Fox, Grant A",
+        "short_name": "Fox GA",
+        "identifiers": [],
+        "affiliations": [
+          "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States."
+        ]
+      },
+      {
+        "full_name": "Kaplow, Irene M",
+        "short_name": "Kaplow IM",
+        "identifiers": [],
+        "affiliations": [
+          "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States.",
+          "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA, United States."
+        ]
+      },
+      {
+        "full_name": "Lawler, Alyssa J",
+        "short_name": "Lawler AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States.",
+          "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA, United States."
+        ]
+      },
+      {
+        "full_name": "Phan, BaDoi N",
+        "short_name": "Phan BN",
+        "identifiers": [],
+        "affiliations": [
+          "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States.",
+          "Medical Scientist Training Program, University of Pittsburgh School of Medicine, Pittsburgh, PA, United States."
+        ]
+      },
+      {
+        "full_name": "Gadey, Lahari",
+        "short_name": "Gadey L",
+        "identifiers": [],
+        "affiliations": [
+          "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States."
+        ]
+      },
+      {
+        "full_name": "Wirthlin, Morgan E",
+        "short_name": "Wirthlin ME",
+        "identifiers": [],
+        "affiliations": [
+          "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States."
+        ]
+      },
+      {
+        "full_name": "Ramamurthy, Easwaran",
+        "short_name": "Ramamurthy E",
+        "identifiers": [],
+        "affiliations": [
+          "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States."
+        ]
+      },
+      {
+        "full_name": "May, Gemma E",
+        "short_name": "May GE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA, United States."
+        ]
+      },
+      {
+        "full_name": "Chen, Ziheng",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA, United States."
+        ]
+      },
+      {
+        "full_name": "Su, Qiao",
+        "short_name": "Su Q",
+        "identifiers": [],
+        "affiliations": [
+          "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States."
+        ]
+      },
+      {
+        "full_name": "McManus, C Joel",
+        "short_name": "McManus CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA, United States."
+        ]
+      },
+      {
+        "full_name": "van de Weerd, Robert",
+        "short_name": "van de Weerd R",
+        "identifiers": [],
+        "affiliations": [
+          "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States."
+        ]
+      },
+      {
+        "full_name": "Pfenning, Andreas R",
+        "short_name": "Pfenning AR",
+        "identifiers": [],
+        "affiliations": [
+          "Ray and Stephanie Lane Department of Computational Biology, Carnegie Mellon University, Pittsburgh, PA, United States.",
+          "Neuroscience Institute, Carnegie Mellon University, Pittsburgh, PA, United States.",
+          "Department of Biological Sciences, Carnegie Mellon University, Pittsburgh, PA, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/24 12:30",
+    "fetched_at": "2026-09-30 16:28:56"
+  },
+  "links": {
+    "cites": [
+      "42359002",
+      "42317375",
+      "42179040",
+      "40672290",
+      "40667316",
+      "40580800",
+      "40543151",
+      "38915503"
+    ],
+    "refs": [
+      "39618480",
+      "38365907",
+      "37185990",
+      "37175930",
+      "37104615",
+      "36705030",
+      "36683855",
+      "36635387",
+      "36034770",
+      "35576146",
+      "35435902",
+      "35410163",
+      "35298243",
+      "34887588",
+      "34850108",
+      "34759919",
+      "34664552",
+      "34662402",
+      "34605404",
+      "34478631",
+      "34380600",
+      "33712417",
+      "33689769",
+      "33574611",
+      "33372131",
+      "33188066",
+      "33104772",
+      "32843144",
+      "32641802",
+      "32452758",
+      "32169219",
+      "31873292",
+      "31727856",
+      "31600518",
+      "31545165",
+      "31503409",
+      "31477158",
+      "31146125",
+      "30646598",
+      "30568279",
+      "30200996",
+      "30087329",
+      "30008330",
+      "29434377",
+      "28959042",
+      "28899340",
+      "28671695",
+      "28115742",
+      "27831498",
+      "27783940",
+      "27779093",
+      "27701403",
+      "27595386",
+      "27311442",
+      "27259154",
+      "27259153",
+      "27181059",
+      "26949250",
+      "26576614",
+      "26301843",
+      "26087164",
+      "25892301",
+      "25693568",
+      "25693563",
+      "25559105",
+      "25409826",
+      "24951455",
+      "24162737",
+      "24097267",
+      "23975816",
+      "23964981",
+      "23818646",
+      "23791963",
+      "23720329",
+      "23715323",
+      "23596391",
+      "23512712",
+      "23503198",
+      "23328393",
+      "23129659",
+      "22609971",
+      "22371084",
+      "22315714",
+      "22064851",
+      "21441907",
+      "21221095",
+      "21106759",
+      "20133776",
+      "19304878",
+      "17653270",
+      "17304246",
+      "14500911",
+      "6322160",
+      "6259538",
+      "1472867",
+      "1090005"
+    ],
+    "similar": [
+      "40270544",
+      "42475469",
+      "35082832",
+      "34605404",
+      "40672290",
+      "28204611",
+      "42234579",
+      "35410163",
+      "41862973",
+      "23512712",
+      "33626337",
+      "34486522",
+      "38538340",
+      "31131957",
+      "31206543",
+      "29028988",
+      "35887306",
+      "38979263",
+      "40463195",
+      "40421528",
+      "38712228",
+      "26576614",
+      "41738738",
+      "31500627",
+      "37873175",
+      "41030057",
+      "41952336",
+      "35229021",
+      "38365907",
+      "24920305",
+      "24967590",
+      "24156763",
+      "29482603",
+      "38906146",
+      "32043966",
+      "25956794",
+      "37645832",
+      "41185025",
+      "36423637",
+      "39814889",
+      "40653482",
+      "28683716",
+      "29396371",
+      "40205616",
+      "23341446",
+      "26072433",
+      "37953348",
+      "32194850",
+      "36705030",
+      "29378629",
+      "35435902",
+      "19212405",
+      "26515765",
+      "39716078",
+      "38413607",
+      "39974944",
+      "34294677",
+      "36043696",
+      "31417368",
+      "31106481",
+      "36945371",
+      "34664552",
+      "22590553",
+      "26042329",
+      "41250111",
+      "40543151",
+      "39367524",
+      "33320871",
+      "36635387",
+      "40881170",
+      "40060626",
+      "41920894",
+      "26377945",
+      "41279449",
+      "26750601",
+      "38915503",
+      "37868037",
+      "39838281",
+      "40846081",
+      "40161821",
+      "40368318",
+      "41381741",
+      "37012250",
+      "30892142",
+      "39362779",
+      "42179040",
+      "28589862",
+      "42581006",
+      "42366973",
+      "38978599",
+      "31503413",
+      "38183988",
+      "41986815",
+      "38915578",
+      "26713262",
+      "25340400",
+      "42449439",
+      "41256401",
+      "27490187",
+      "39677760"
+    ],
+    "review": [
+      "40270544",
+      "41862973",
+      "38538340",
+      "31131957",
+      "26072433",
+      "26515765",
+      "26042329",
+      "40543151",
+      "40881170",
+      "40368318"
+    ],
+    "pmc": [
+      "12016043"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40270544/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2025.1533900",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "37406763",
+    "doi": "10.1016/j.ymben.2023.07.001",
+    "title": "Towards universal synthetic heterotrophy using a metabolic coordinator."
+  },
+  "content": {
+    "abstract": "Engineering the utilization of non-native substrates, or synthetic heterotrophy, in proven industrial microbes such as Saccharomyces cerevisiae represents an opportunity to valorize plentiful and renewable sources of carbon and energy as inputs to bioprocesses. We previously demonstrated that activation of the galactose (GAL) regulon, a regulatory structure used by this yeast to coordinate substrate utilization with biomass formation during growth on galactose, during growth on the non-native substrate xylose results in a vastly altered gene expression profile and faster growth compared with constitutive overexpression of the same heterologous catabolic pathway. However, this effort involved the creation of a xylose-inducible variant of Gal3p (Gal3p(Syn4.1)), the sensor protein of the GAL regulon, preventing this semi-synthetic regulon approach from being easily adapted to additional non-native substrates. Here, we report the construction of a variant Gal3p(MC) (metabolic coordinator) that exhibits robust GAL regulon activation in the presence of structurally diverse substrates and recapitulates the dynamics of the native system. Multiple molecular modeling studies suggest that Gal3p(MC) occupies conformational states corresponding to galactose-bound Gal3p in an inducer-independent manner. Using Gal3p(MC) to test a regulon approach to the assimilation of the non-native lignocellulosic sugars xylose, arabinose, and cellobiose yields higher growth rates and final cell densities when compared with a constitutive overexpression of the same set of catabolic genes. The subsequent demonstration of rapid and complete co-utilization of all three non-native substrates suggests that Gal3p(MC)-mediated dynamic global gene expression changes by GAL regulon activation may be universally beneficial for engineering synthetic heterotrophy.",
+    "keywords": [
+      "Gene regulation",
+      "Metabolic engineering",
+      "Molecular dynamics",
+      "Substrate utilization",
+      "Sustainability",
+      "Synthetic biology"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/genetics",
+      "*Saccharomyces cerevisiae Proteins/genetics/metabolism",
+      "Heterotrophic Processes",
+      "Galactose/genetics/metabolism",
+      "Xylose/genetics/metabolism",
+      "Saccharomyces cerevisiae/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sullivan, Sean F",
+        "Shetty, Anuj",
+        "Bharadwaj, Tharun",
+        "Krishna, Naveen",
+        "Trivedi, Vikas D",
+        "Endalur Gopinarayanan, Venkatesh",
+        "Chappell, Todd C",
+        "Sellers, Daniel M",
+        "Pravin Kumar, R",
+        "Nair, Nikhil U"
+      ],
+      "short_names": [
+        "Sullivan SF",
+        "Shetty A",
+        "Bharadwaj T",
+        "Krishna N",
+        "Trivedi VD",
+        "Endalur Gopinarayanan V",
+        "Chappell TC",
+        "Sellers DM",
+        "Pravin Kumar R",
+        "Nair NU"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemical & Biological Engineering, Tufts University, Medford, MA, 02155, USA.",
+        "Kcat Enzymatic Private Limited, Bengaluru, Karnataka, 560005, India.",
+        "Kcat Enzymatic Private Limited, Bengaluru, Karnataka, 560005, India.",
+        "Kcat Enzymatic Private Limited, Bengaluru, Karnataka, 560005, India.",
+        "Department of Chemical & Biological Engineering, Tufts University, Medford, MA, 02155, USA; Department of Structural Biology and Center for Data Driven Discovery, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Chemical & Biological Engineering, Tufts University, Medford, MA, 02155, USA.",
+        "Department of Chemical & Biological Engineering, Tufts University, Medford, MA, 02155, USA.",
+        "Department of Chemical & Biological Engineering, Tufts University, Medford, MA, 02155, USA.",
+        "Kcat Enzymatic Private Limited, Bengaluru, Karnataka, 560005, India.",
+        "Department of Chemical & Biological Engineering, Tufts University, Medford, MA, 02155, USA. Electronic address: nikhil.nair@tufts.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sullivan, Sean F",
+        "short_name": "Sullivan SF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical & Biological Engineering, Tufts University, Medford, MA, 02155, USA."
+        ]
+      },
+      {
+        "full_name": "Shetty, Anuj",
+        "short_name": "Shetty A",
+        "identifiers": [],
+        "affiliations": [
+          "Kcat Enzymatic Private Limited, Bengaluru, Karnataka, 560005, India."
+        ]
+      },
+      {
+        "full_name": "Bharadwaj, Tharun",
+        "short_name": "Bharadwaj T",
+        "identifiers": [],
+        "affiliations": [
+          "Kcat Enzymatic Private Limited, Bengaluru, Karnataka, 560005, India."
+        ]
+      },
+      {
+        "full_name": "Krishna, Naveen",
+        "short_name": "Krishna N",
+        "identifiers": [],
+        "affiliations": [
+          "Kcat Enzymatic Private Limited, Bengaluru, Karnataka, 560005, India."
+        ]
+      },
+      {
+        "full_name": "Trivedi, Vikas D",
+        "short_name": "Trivedi VD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical & Biological Engineering, Tufts University, Medford, MA, 02155, USA; Department of Structural Biology and Center for Data Driven Discovery, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Endalur Gopinarayanan, Venkatesh",
+        "short_name": "Endalur Gopinarayanan V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical & Biological Engineering, Tufts University, Medford, MA, 02155, USA."
+        ]
+      },
+      {
+        "full_name": "Chappell, Todd C",
+        "short_name": "Chappell TC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical & Biological Engineering, Tufts University, Medford, MA, 02155, USA."
+        ]
+      },
+      {
+        "full_name": "Sellers, Daniel M",
+        "short_name": "Sellers DM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical & Biological Engineering, Tufts University, Medford, MA, 02155, USA."
+        ]
+      },
+      {
+        "full_name": "Pravin Kumar, R",
+        "short_name": "Pravin Kumar R",
+        "identifiers": [],
+        "affiliations": [
+          "Kcat Enzymatic Private Limited, Bengaluru, Karnataka, 560005, India."
+        ]
+      },
+      {
+        "full_name": "Nair, Nikhil U",
+        "short_name": "Nair NU",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical & Biological Engineering, Tufts University, Medford, MA, 02155, USA. Electronic address: nikhil.nair@tufts.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Metabolic engineering"
+    ],
+    "journal_abbrev": [
+      "Metab Eng"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/06 01:08",
+    "fetched_at": "2026-09-29 03:25:47"
+  },
+  "links": {
+    "cites": [
+      "42261631",
+      "39095391",
+      "37421944"
+    ],
+    "refs": [
+      "37421944",
+      "34663323",
+      "34313457",
+      "32927059",
+      "32432089",
+      "31636705",
+      "31437746",
+      "30723464",
+      "30498222",
+      "30256930",
+      "30151682",
+      "30010916",
+      "29788355",
+      "29581426",
+      "29460286",
+      "28059717",
+      "27140870",
+      "26999780",
+      "26967285",
+      "26826231",
+      "26339012",
+      "26112740",
+      "25882005",
+      "25419741",
+      "25049420",
+      "24930894",
+      "24850022",
+      "24841298",
+      "24206532",
+      "24142050",
+      "23468911",
+      "23183982",
+      "23150580",
+      "22921355",
+      "22685138",
+      "22446695",
+      "22302941",
+      "21387345",
+      "21187422",
+      "20929806",
+      "20871937",
+      "20829451",
+      "20550651",
+      "20460459",
+      "20408171",
+      "20385592",
+      "20077569",
+      "19367870",
+      "18304345",
+      "17959824",
+      "17597491",
+      "17545317",
+      "17439666",
+      "17315265",
+      "17277207",
+      "15980490",
+      "15264254",
+      "12925863",
+      "12096114",
+      "11517324",
+      "11125145",
+      "9299703",
+      "9111326",
+      "8843428",
+      "8744570",
+      "6092916",
+      "1544568",
+      "1317007"
+    ],
+    "similar": [
+      "37406763",
+      "27913116",
+      "29581426",
+      "22302941",
+      "11401712",
+      "24206532",
+      "18952899",
+      "8628318",
+      "9050845",
+      "10523671",
+      "22024631",
+      "22639079",
+      "9111326",
+      "16160853",
+      "22210830",
+      "30171750",
+      "16115868",
+      "9670023",
+      "34830296",
+      "10686151",
+      "22076150",
+      "16936734",
+      "10866670",
+      "34570755",
+      "16603548",
+      "38788894",
+      "37421944",
+      "25220841",
+      "12084916",
+      "20122217",
+      "9933513",
+      "22519357",
+      "16643954",
+      "20979343",
+      "29621349",
+      "16524886",
+      "37224271",
+      "20528923",
+      "27589939",
+      "12106903",
+      "21246509",
+      "28363963",
+      "27497973",
+      "29940003",
+      "11964151",
+      "18292341",
+      "27741250",
+      "29150499",
+      "25587748",
+      "10805731",
+      "30856163",
+      "34937866",
+      "26671616",
+      "20135317",
+      "38808673",
+      "11101808",
+      "34663323",
+      "10323230",
+      "29359658",
+      "10891331",
+      "23524005",
+      "25282639",
+      "37989311",
+      "20449743",
+      "30394022",
+      "24975936",
+      "24467867",
+      "20219100",
+      "25882005",
+      "26781725",
+      "15479235",
+      "37052375",
+      "29607452",
+      "2071013",
+      "33878391",
+      "31122246",
+      "23468911",
+      "28137775",
+      "34098954",
+      "33712428",
+      "17033882",
+      "22582063",
+      "22343189",
+      "26524688",
+      "29315378",
+      "37603344",
+      "31283105",
+      "16632884",
+      "31505595",
+      "22487265",
+      "28494761",
+      "29422502",
+      "21903144",
+      "30683746",
+      "14512430",
+      "35248023",
+      "23205153",
+      "15528549",
+      "26129747"
+    ],
+    "review": [
+      "37406763",
+      "11401712",
+      "30171750",
+      "34830296",
+      "23524005",
+      "30394022",
+      "17033882"
+    ],
+    "pmc": [
+      "10529783"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1096-7176(23)00099-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37406763/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/37406763",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38490467",
+  "title": "ASPTF: A computational tool to predict abiotic stress-responsive transcription factors in plants by employing machine learning algorithms.",
+  "authors": "Pradhan, Upendra Kumar; Mahapatra, Anuradha; Naha, Sanchita; Gupta, Ajit; Parsad, Rajender; Gahlaut, Vijay; Rath, Surya Narayan; Meher, Prabina Kumar",
+  "journal": "Biochimica et biophysica acta. General subjects",
+  "published_date": "2024-03-16",
+  "window": {
+    "start": "2024-03-11",
+    "end": "2024-03-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习预测植物非生物胁迫响应转录因子，但仅基于序列特征分类，未涉及TF-DNA结合位点、互作界面或三维结构建模，与课题核心的TF-DNA互作机制研究关联较弱。",
+  "abstract": "BACKGROUND: Abiotic stresses pose serious threat to the growth and yield of crop plants. Several studies suggest that in plants, transcription factors (TFs) are important regulators of gene expression, especially when it comes to coping with abiotic stresses. Therefore, it is crucial to identify TFs associated with abiotic stress response for breeding of abiotic stress tolerant crop cultivars. METHODS: Based on a machine learning framework, a computational model was envisaged to predict TFs associated with abiotic stress response in plants. To numerically encode TF sequences, four distinct sequence derived features were generated. The prediction was performed using ten shallow learning and four deep learning algorithms. For prediction using more pertinent and informative features, feature selection techniques were also employed. RESULTS: Using the features chosen by the light-gradient boosting machine-variable importance measure (LGBM-VIM), the LGBM achieved the highest cross-validation performance metrics (accuracy: 86.81%, auROC: 92.98%, and auPRC: 94.03%). Further evaluation of the proposed model (LGBM prediction method + LGBM-VIM selected features) was also done using an independent test dataset, where the accuracy, auROC and auPRC were observed 81.98%, 90.65% and 91.30%, respectively. CONCLUSIONS: To facilitate the adoption of the proposed strategy by users, the approach was implemented as a prediction server called ASPTF, accessible at https://iasri-sg.icar.gov.in/asptf/. The developed approach and the corresponding web application are anticipated to supplement experimental methods in the identification of transcription factors (TFs) responsive to abiotic stress in plants.",
+  "abstract_zh": "背景：非生物胁迫对农作物的生长和产量构成严重威胁。多项研究表明，在植物中，转录因子（TFs）是基因表达的重要调控因子，尤其是在应对非生物胁迫时。因此，识别与非生物胁迫响应相关的转录因子对于培育耐非生物胁迫的作物品种至关重要。方法：基于机器学习框架，设想了一种计算模型来预测植物中与非生物胁迫响应相关的转录因子。为了对转录因子序列进行数值编码，生成了四种不同的序列衍生特征。使用十种浅层学习算法和四种深度学习算法进行了预测。为了利用更相关且信息量更大的特征进行预测，还采用了特征选择技术。结果：使用由轻梯度提升机-变量重要性度量（LGBM-VIM）选择的特征，LGBM实现了最高的交叉验证性能指标（准确率：86.81%，auROC：92.98%，auPRC：94.03%）。此外，使用独立测试数据集对提出的模型（LGBM预测方法 + LGBM-VIM选择特征）进行了进一步评估，观察到的准确率、auROC和auPRC分别为81.98%、90.65%和91.30%。结论：为便于用户采用所提出的策略，该方法已实现为名为ASPTF的预测服务器，可通过https://iasri-sg.icar.gov.in/asptf/访问。所开发的方法及相应的网络应用程序预计将补充实验方法，用于识别植物中响应非生物胁迫的转录因子（TFs）。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38490467/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38490467/",
+  "paper_page_path": "papers/pubmed/38490467/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34560855",
+  "title": "Large-scale data analysis for robotic yeast one-hybrid platforms and multi-disciplinary studies using GateMultiplex.",
+  "authors": "Tsai, Ni-Chiao; Hsu, Tzu-Shu; Kuo, Shang-Che; Kao, Chung-Ting; Hung, Tzu-Huan; Lin, Da-Gin; Yeh, Chung-Shu; Chu, Chia-Chen; Lin, Jeng-Shane; Lin, Hsin-Hung; Ko, Chia-Ying; Chang, Tien-Hsien; Su, Jung-Chen; Lin, Ying-Chung Jimmy",
+  "journal": "BMC biology",
+  "published_date": "2021-09-26",
+  "window": {
+    "start": "2021-09-20",
+    "end": "2021-09-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文开发了用于酵母单杂交高通量数据分析的软件GateMultiplex，虽涉及DNA-蛋白互作检测，但核心是通用数据分析工具，缺乏AI或物理模拟方法，且未聚焦TF-DNA结合机制建模。",
+  "abstract": "BACKGROUND: Yeast one-hybrid (Y1H) is a common technique for identifying DNA-protein interactions, and robotic platforms have been developed for high-throughput analyses to unravel the gene regulatory networks in many organisms. Use of these high-throughput techniques has led to the generation of increasingly large datasets, and several software packages have been developed to analyze such data. We previously established the currently most efficient Y1H system, meiosis-directed Y1H; however, the available software tools were not designed for processing the additional parameters suggested by meiosis-directed Y1H to avoid false positives and required programming skills for operation. RESULTS: We developed a new tool named GateMultiplex with high computing performance using C++. GateMultiplex incorporated a graphical user interface (GUI), which allows the operation without any programming skills. Flexible parameter options were designed for multiple experimental purposes to enable the application of GateMultiplex even beyond Y1H platforms. We further demonstrated the data analysis from other three fields using GateMultiplex, the identification of lead compounds in preclinical cancer drug discovery, the crop line selection in precision agriculture, and the ocean pollution detection from deep-sea fishery. CONCLUSIONS: The user-friendly GUI, fast C++ computing speed, flexible parameter setting, and applicability of GateMultiplex facilitate the feasibility of large-scale data analysis in life science fields.",
+  "abstract_zh": "背景：酵母单杂交（Yeast one-hybrid, Y1H）是识别DNA-蛋白质相互作用的常用技术，且已开发出机器人平台用于高通量分析，以揭示许多生物中的基因调控网络。这些高通量技术的使用导致数据集日益庞大，并已开发出多种软件包来分析此类数据。我们先前建立了目前最高效的Y1H系统，即减数分裂导向的Y1H；然而，现有软件工具并非为处理减数分裂导向Y1H所建议的额外参数而设计，以避免假阳性，且操作需要编程技能。结果：我们开发了一种名为GateMultiplex的新工具，采用C++实现高计算性能。GateMultiplex集成了图形用户界面（GUI），允许无需任何编程技能即可操作。针对多种实验目的设计了灵活的参数选项，使GateMultiplex的应用范围甚至超越Y1H平台。我们进一步展示了使用GateMultiplex对其他三个领域的数据分析，包括临床前癌症药物发现中的先导化合物识别、精准农业中的作物品系选择，以及深海渔业中的海洋污染检测。结论：GateMultiplex的用户友好GUI、快速C++计算速度、灵活参数设置及广泛适用性，促进了生命科学领域大规模数据分析的可行性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34560855/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34560855/",
+  "paper_page_path": "papers/pubmed/34560855/index.html"
+}

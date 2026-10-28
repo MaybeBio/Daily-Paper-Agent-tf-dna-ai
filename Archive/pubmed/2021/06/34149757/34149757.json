@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "34149757",
+    "doi": "10.3389/fpls.2021.660303",
+    "title": "Elucidation of Novel cis-Regulatory Elements and Promoter Structures Involved in Iron Excess Response Mechanisms in Rice Using a Bioinformatics Approach."
+  },
+  "content": {
+    "abstract": "Iron (Fe) excess is a major constraint on crop production in flooded acidic soils, particularly in rice cultivation. Under Fe excess, plants activate a complex mechanism and network regulating Fe exclusion by roots and isolation in various tissues. In rice, the transcription factors and cis-regulatory elements (CREs) that regulate Fe excess response mechanisms remain largely elusive. We previously reported comprehensive microarray analyses of several rice tissues in response to various levels of Fe excess stress. In this study, we further explored novel CREs and promoter structures in rice using bioinformatics approaches with this microarray data. We first performed network analyses to predict Fe excess-related CREs through the categorization of the gene expression patterns of Fe excess-responsive transcriptional regulons, and found four major expression clusters: Fe storage type, Fe chelator type, Fe uptake type, and WRKY and other co-expression type. Next, we explored CREs within these four clusters of gene expression types using a machine-learning method called microarray-associated motif analyzer (MAMA), which we previously established. Through a comprehensive bioinformatics approach, we identified a total of 560 CRE candidates extracted by MAMA analyses and 42 important conserved sequences of CREs directly related to the Fe excess response in various rice tissues. We explored several novel cis-elements as candidate Fe excess CREs including GCWGCWGC, CGACACGC, and Myb binding-like motifs. Based on the presence or absence of candidate CREs using MAMA and known PLACE CREs, we found that the Boruta-XGBoost model explained expression patterns with high accuracy of about 83%. Enriched sequences of both novel MAMA CREs and known PLACE CREs led to high accuracy expression patterns. We also found new roles of known CREs in the Fe excess response, including the DCEp2 motif, IDEF1-, Zinc Finger-, WRKY-, Myb-, AP2/ERF-, MADS- box-, bZIP and bHLH- binding sequence-containing motifs among Fe excess-responsive genes. In addition, we built a molecular model and promoter structures regulating Fe excess-responsive genes based on new finding CREs. Together, our findings about Fe excess-related CREs and conserved sequences will provide a comprehensive resource for discovery of genes and transcription factors involved in Fe excess-responsive pathways, clarification of the Fe excess response mechanism in rice, and future application of the promoter sequences to produce genotypes tolerant of Fe excess.",
+    "keywords": [
+      "bioinformatics",
+      "cis-regulatory elements (CREs)",
+      "iron",
+      "iron toxicity",
+      "motifs",
+      "promoter sequence",
+      "rice",
+      "zinc"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kakei, Yusuke",
+        "Masuda, Hiroshi",
+        "Nishizawa, Naoko K",
+        "Hattori, Hiroyuki",
+        "Aung, May Sann"
+      ],
+      "short_names": [
+        "Kakei Y",
+        "Masuda H",
+        "Nishizawa NK",
+        "Hattori H",
+        "Aung MS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Vegetable and Floriculture Science, Research Center for Agricultural Information Technology, National Agriculture and Food Research Organization, Ibaraki, Japan.",
+        "Faculty of Bioresource Sciences, Department of Biological Production, Akita Prefectural University, Akita, Japan.",
+        "Research Institute for Bioresources and Biotechnology, Ishikawa Prefectural University, Ishikawa, Japan.",
+        "Faculty of Bioresource Sciences, Department of Biological Production, Akita Prefectural University, Akita, Japan.",
+        "Faculty of Bioresource Sciences, Department of Biological Production, Akita Prefectural University, Akita, Japan.",
+        "Research Institute for Bioresources and Biotechnology, Ishikawa Prefectural University, Ishikawa, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kakei, Yusuke",
+        "short_name": "Kakei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Vegetable and Floriculture Science, Research Center for Agricultural Information Technology, National Agriculture and Food Research Organization, Ibaraki, Japan."
+        ]
+      },
+      {
+        "full_name": "Masuda, Hiroshi",
+        "short_name": "Masuda H",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Bioresource Sciences, Department of Biological Production, Akita Prefectural University, Akita, Japan."
+        ]
+      },
+      {
+        "full_name": "Nishizawa, Naoko K",
+        "short_name": "Nishizawa NK",
+        "identifiers": [],
+        "affiliations": [
+          "Research Institute for Bioresources and Biotechnology, Ishikawa Prefectural University, Ishikawa, Japan."
+        ]
+      },
+      {
+        "full_name": "Hattori, Hiroyuki",
+        "short_name": "Hattori H",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Bioresource Sciences, Department of Biological Production, Akita Prefectural University, Akita, Japan."
+        ]
+      },
+      {
+        "full_name": "Aung, May Sann",
+        "short_name": "Aung MS",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Bioresource Sciences, Department of Biological Production, Akita Prefectural University, Akita, Japan.",
+          "Research Institute for Bioresources and Biotechnology, Ishikawa Prefectural University, Ishikawa, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in plant science"
+    ],
+    "journal_abbrev": [
+      "Front Plant Sci"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/22 06:00",
+    "fetched_at": "2026-09-27 19:40:35"
+  },
+  "links": {
+    "cites": [
+      "42633900",
+      "41677071",
+      "41675245",
+      "40873056",
+      "40653961",
+      "39100081",
+      "38575927",
+      "38076107",
+      "37546266",
+      "37528982",
+      "37493927",
+      "37338572",
+      "36299783",
+      "35953529",
+      "35283928",
+      "35251099",
+      "34887896"
+    ],
+    "refs": [
+      "33744946",
+      "33035327",
+      "32849682",
+      "31937681",
+      "31681346",
+      "31551359",
+      "31231401",
+      "30397229",
+      "30395277",
+      "30212930",
+      "29655221",
+      "28973723",
+      "28751317",
+      "28369511",
+      "27234235",
+      "26921305",
+      "26224556",
+      "26175515",
+      "25844118",
+      "25794933",
+      "25215497",
+      "24467902",
+      "24279975",
+      "24253678",
+      "22731699",
+      "22506799",
+      "21849619",
+      "21576262",
+      "21156806",
+      "20217243",
+      "20026187",
+      "20023399",
+      "19737364",
+      "19114008",
+      "18308732",
+      "18224446",
+      "18025467",
+      "17559517",
+      "16887895",
+      "16664577",
+      "16412081",
+      "14563928",
+      "11092880",
+      "9847208"
+    ],
+    "similar": [
+      "34149757",
+      "25844118",
+      "24279975",
+      "31937681",
+      "19737364",
+      "25303887",
+      "31652796",
+      "33796132",
+      "27193099",
+      "28119334",
+      "31412781",
+      "25442502",
+      "23010196",
+      "28973723",
+      "18308732",
+      "32849682",
+      "31231401",
+      "16412085",
+      "30016497",
+      "17559517",
+      "36742092",
+      "26734052",
+      "17672917",
+      "29298348",
+      "21892935",
+      "26327607",
+      "30496782",
+      "17137509",
+      "15781441",
+      "35406848",
+      "20217243",
+      "26224551",
+      "28934652",
+      "32086721",
+      "31244872",
+      "28647924",
+      "34456947",
+      "37474674",
+      "26566840",
+      "14675444",
+      "20097571",
+      "35283928",
+      "28855262",
+      "26459023",
+      "23756196",
+      "32610550",
+      "17288573",
+      "30974345",
+      "27527343",
+      "33347517",
+      "32994224",
+      "27257291",
+      "26864250",
+      "31533978",
+      "33008299",
+      "30209707",
+      "1704101",
+      "32904869",
+      "30773647",
+      "32998689",
+      "38324196",
+      "17986178",
+      "39100081",
+      "31786786",
+      "31214220",
+      "23948082",
+      "27135163",
+      "8612514",
+      "27148333",
+      "17717672",
+      "30763346",
+      "24188410",
+      "21036669",
+      "31041536",
+      "21854687",
+      "20807373",
+      "31681346",
+      "26607788",
+      "37410590",
+      "35303433",
+      "35334158",
+      "36945371",
+      "39322281",
+      "38213995",
+      "37546266",
+      "39366918",
+      "36299783",
+      "24280375",
+      "35743818",
+      "32728514",
+      "37528982",
+      "33005212",
+      "19704511",
+      "39255977",
+      "24894389",
+      "19476647",
+      "27681580",
+      "38084904",
+      "37577603",
+      "37609287",
+      "33151112",
+      "39014503",
+      "20333180",
+      "39199333",
+      "37662358",
+      "38495373",
+      "35769926",
+      "36950385",
+      "18340376",
+      "38260561",
+      "23519433",
+      "39282347",
+      "39005400",
+      "35251099",
+      "34276769",
+      "27708649",
+      "25349675",
+      "37066352",
+      "22639614",
+      "35648859",
+      "19325856",
+      "34524848",
+      "37461616",
+      "38979381",
+      "38807713",
+      "35327526",
+      "24860581",
+      "20023399"
+    ],
+    "review": [
+      "34149757",
+      "32849682",
+      "34456947",
+      "39100081",
+      "33151112",
+      "39199333",
+      "34276769",
+      "27708649",
+      "25349675"
+    ],
+    "pmc": [
+      "8207140"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34149757/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34149757",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fpls.2021.660303",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

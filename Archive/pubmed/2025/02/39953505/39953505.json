@@ -1,0 +1,417 @@
+{
+  "identity": {
+    "pmid": "39953505",
+    "doi": "10.1186/s12967-025-06112-2",
+    "title": "Critical role of Oas1g and STAT1 pathways in neuroinflammation: insights for Alzheimer's disease therapeutics."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Alzheimer's disease (AD) has a significant impact on an individual's health and places a heavy burden on society. Studies have emphasized the importance of microglia in the progression and development of AD. Interferon responses and Interferon-stimulated genes (ISGs) significantly function in neuroinflammatory and neurodegenerative diseases involving AD. Therefore, further exploration of the relationship among microglia, ISGs, and neuroinflammation in AD is warranted. METHODS: Microglia datasets from the GEO database were retrieved, along with additional microglia RNA-seq data from laboratory mice. Weighted Correlation Network Analysis was used on the training dataset to identify gene co-expression networks. Genes from the black module were intersected with interferon-stimulated genes, and differentially expressed genes (DEGs) were identified. Machine learning algorithms were applied to DEGs, and genes selected by both methods were identified as hub genes, with ROC curves used to evaluate their diagnostic accuracy. Gene Set Enrichment Analysis was performed to reveal functional pathways closely relating to hub genes. Microglia cells were transfected with siRNAs targeting Oas1g and STAT1. Total RNA from microglia cells and mouse brain tissues was extracted, reverse-transcribed, and analyzed via qRT-PCR. Proteins were extracted from cells, quantified, separated by SDS-PAGE, transferred to PVDF membranes, and probed with antibodies. Microglia cells were fixed, permeabilized, blocked, and stained with antibodies for STAT1, then visualized and photographed. RESULTS: Bioinformatics and machine learning algorithms revealed that Oas1g was identified as a hub gene, with an AUC of 0.812. Enrichment Analysis revealed that Oas1g is closely associated with interferon-related pathways. Expression of Oas1g was validated in AD mouse models, where it was significantly upregulated after microglial activation. Knockdown experiments suggested siOas1g attenuated the effect of siSTAT1, and the expressions of STAT1 and p-STAT1 were elevated. siOas1g could reverse the effect of siSTAT1, indicating that Oas1g potentially regulates the ISGs through the STAT1 pathway. CONCLUSION: We demonstrated that Oas1g was identified as a hub ISG in AD and can downregulate the activation of IFN-beta and STAT1, reducing the expression of ISGs in neuroinflammation. Oas1g might potentially be a beneficial candidate for both prevention and treatment of AD.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Interferon-stimulated genes",
+      "Machine learning",
+      "Neuroinflammation",
+      "Oas1g",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "*Alzheimer Disease/genetics/therapy/pathology",
+      "*STAT1 Transcription Factor/metabolism/genetics",
+      "Animals",
+      "*2',5'-Oligoadenylate Synthetase/metabolism/genetics",
+      "Microglia/metabolism/pathology",
+      "*Signal Transduction/genetics",
+      "Mice",
+      "*Neuroinflammatory Diseases/genetics/pathology",
+      "Gene Regulatory Networks",
+      "Humans",
+      "Gene Expression Regulation",
+      "Reproducibility of Results",
+      "Inflammation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Zhixin",
+        "Li, Linxi",
+        "Hou, Weizhong",
+        "Fan, Zhongxi",
+        "Zeng, Lifan",
+        "He, Limin",
+        "Ji, Yunxiang",
+        "Zhang, Jingbai",
+        "Wang, Fangran",
+        "Xing, Zhou",
+        "Wang, Yezhong",
+        "Ye, Yongyi"
+      ],
+      "short_names": [
+        "Xie Z",
+        "Li L",
+        "Hou W",
+        "Fan Z",
+        "Zeng L",
+        "He L",
+        "Ji Y",
+        "Zhang J",
+        "Wang F",
+        "Xing Z",
+        "Wang Y",
+        "Ye Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-9140-463X"
+      ],
+      "affiliations": [
+        "The Second Clinical Medicine School, Guangzhou Medical University, Guangzhou, China.",
+        "Department of Neurosurgery, Institute of Neuroscience, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China.",
+        "The Second Clinical Medicine School, Guangzhou Medical University, Guangzhou, China.",
+        "The Third Clinical Medicine School, Guangzhou Medical University, Guangzhou, China.",
+        "The Third Clinical Medicine School, Guangzhou Medical University, Guangzhou, China.",
+        "The Sixth Clinical Medicine School, Guangzhou Medical University, Guangzhou, China.",
+        "Department of Neurosurgery, Institute of Neuroscience, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China.",
+        "Department of Neurosurgery, Institute of Neuroscience, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China.",
+        "Department of Neurosurgery, Institute of Neuroscience, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China.",
+        "Department of Neurosurgery, Institute of Neuroscience, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China. zhou_xing2024@126.com.",
+        "Department of Neurosurgery, Institute of Neuroscience, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China. wangyezhong@gzhmu.edu.cn.",
+        "Department of Neurosurgery, Institute of Neuroscience, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China. yeyongyi@gzhmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Zhixin",
+        "short_name": "Xie Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical Medicine School, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Linxi",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Institute of Neuroscience, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Weizhong",
+        "short_name": "Hou W",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Clinical Medicine School, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Zhongxi",
+        "short_name": "Fan Z",
+        "identifiers": [],
+        "affiliations": [
+          "The Third Clinical Medicine School, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Lifan",
+        "short_name": "Zeng L",
+        "identifiers": [],
+        "affiliations": [
+          "The Third Clinical Medicine School, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "He, Limin",
+        "short_name": "He L",
+        "identifiers": [],
+        "affiliations": [
+          "The Sixth Clinical Medicine School, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Yunxiang",
+        "short_name": "Ji Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Institute of Neuroscience, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jingbai",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Institute of Neuroscience, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Fangran",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Institute of Neuroscience, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xing, Zhou",
+        "short_name": "Xing Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Institute of Neuroscience, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China. zhou_xing2024@126.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Yezhong",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Institute of Neuroscience, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China. wangyezhong@gzhmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ye, Yongyi",
+        "short_name": "Ye Y",
+        "identifiers": [
+          "0009-0004-9140-463X"
+        ],
+        "affiliations": [
+          "Department of Neurosurgery, Institute of Neuroscience, the Second Affiliated Hospital of Guangzhou Medical University, Guangzhou, China. yeyongyi@gzhmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2025 Feb 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/15 15:11",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [
+      "41772634",
+      "41427297",
+      "40564963"
+    ],
+    "refs": [
+      "39271059",
+      "38689398",
+      "38227161",
+      "37928544",
+      "37920815",
+      "37541485",
+      "37025141",
+      "37019812",
+      "36946499",
+      "36902234",
+      "36325336",
+      "35803230",
+      "35784208",
+      "35777222",
+      "35443157",
+      "35379992",
+      "35305973",
+      "34824210",
+      "34658859",
+      "34619763",
+      "34320340",
+      "34214174",
+      "34101789",
+      "33466587",
+      "33318676",
+      "33257666",
+      "32879487",
+      "32709045",
+      "32599714",
+      "32274467",
+      "31917687",
+      "31283436",
+      "30453885",
+      "30078389",
+      "28235660",
+      "28139375",
+      "27663720",
+      "27393659",
+      "27179961",
+      "27033548",
+      "25792098",
+      "25744296",
+      "25295306",
+      "25194421",
+      "25062954",
+      "23962923",
+      "23196181",
+      "23090498",
+      "21142819",
+      "20107219",
+      "19923450",
+      "19114008",
+      "17681844",
+      "17653195",
+      "16371364",
+      "16020513"
+    ],
+    "similar": [
+      "39953505",
+      "29784049",
+      "39920860",
+      "40787447",
+      "42082621",
+      "41291841",
+      "41816335",
+      "41676156",
+      "41580850",
+      "41081092",
+      "39136807",
+      "41009659",
+      "40971318",
+      "40600526",
+      "41634496",
+      "39188714",
+      "39971019",
+      "38862817",
+      "40093898",
+      "39394418",
+      "36708632",
+      "40564963",
+      "40736565",
+      "39799354",
+      "41871661",
+      "39507054",
+      "34523252",
+      "38913039",
+      "42021305",
+      "41827846",
+      "39905477",
+      "39125762",
+      "35526014",
+      "37684281",
+      "28213522",
+      "40628511",
+      "40634788",
+      "34589742",
+      "41275794",
+      "41115648",
+      "40438507",
+      "30558641",
+      "41622228",
+      "40411685",
+      "37520121",
+      "36635346",
+      "22305622",
+      "35180881",
+      "41935138",
+      "42554796",
+      "24097101",
+      "39965013",
+      "39215668",
+      "39841296",
+      "38566100",
+      "39571960",
+      "42024486",
+      "39487531",
+      "32329195",
+      "36405716",
+      "40707875",
+      "40858976",
+      "30124174",
+      "35012905",
+      "38544384",
+      "40335710",
+      "40175501",
+      "41854441",
+      "36970901",
+      "38971545",
+      "40684176",
+      "39591421",
+      "41869321",
+      "40406620",
+      "40375351",
+      "31984950",
+      "41689046",
+      "39715972",
+      "38823000",
+      "40642087",
+      "41845487",
+      "40847374",
+      "40207815",
+      "39752101",
+      "41052072",
+      "38360375",
+      "37434203",
+      "39458551",
+      "36195955",
+      "42178007",
+      "41826854",
+      "41851475",
+      "35911963",
+      "42601570",
+      "36918839",
+      "40753530",
+      "36374433",
+      "34367470",
+      "38682214",
+      "31346329"
+    ],
+    "review": [
+      "39953505",
+      "42021305"
+    ],
+    "pmc": [
+      "11829366"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-06112-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39953505/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1272",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

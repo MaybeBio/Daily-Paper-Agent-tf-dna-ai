@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "35911532",
+    "doi": "10.3389/fcvm.2022.920399",
+    "title": "Hub Genes Identification, Small Molecule Compounds Prediction for Atrial Fibrillation and Diagnostic Model Construction Based on XGBoost Algorithm."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Atrial fibrillation (AF) is the most common sustained cardiac arrhythmia and engenders significant global health care burden. The underlying mechanisms of AF is remained to be revealed and current treatment options for AF have limitations. Besides, a detection system can help identify those at risk of developing AF and will enable personalized management. MATERIALS AND METHODS: In this study, we utilized the robust rank aggregation method to integrate six AF microarray datasets from the Gene Expression Omnibus database, and identified a set of differentially expressed genes between patients with AF and controls. Potential compounds were identified by mining the Connectivity Map database. Functional modules and closely-interacted clusters were identified using weighted gene co-expression network analysis and protein-protein interaction network, respectively. The overlapped hub genes were further filtered. Subsequent analyses were performed to analyze the function, biological features, and regulatory networks. Moreover, a reliable Machine Learning-based diagnostic model was constructed and visualized to clarify the diagnostic features of these genes. RESULTS: A total of 156 upregulated and 34 downregulated genes were identified, some of which had not been previously investigated. We showed that mitogen-activated protein kinase and epidermal growth factor receptor inhibitors were likely to mitigate AF based on Connectivity Map analysis. Four genes, including CXCL12, LTBP1, LOXL1, and IGFBP3, were identified as hub genes. CXCL12 was shown to play an important role in regulation of local inflammatory response and immune cell infiltration. Regulation of CXCL12 expression in AF was analyzed by constructing a transcription factor-miRNA-mRNA network. The Machine Learning-based diagnostic model generated in this study showed good efficacy and reliability. CONCLUSION: Key genes involving in the pathogenesis of AF and potential therapeutic compounds for AF were identified. The biological features of CXCL12 in AF were investigated using integrative bioinformatics tools. The results suggested that CXCL12 might be a biomarker that could be used for distinguishing subsets of AF, and indicated that CXCL12 might be an important intermediate in the development of AF. A reliable Machine Learning-based diagnostic model was constructed. Our work improved understanding of the mechanisms of AF predisposition and progression, and identified potential therapeutic avenues for treatment of AF.",
+    "keywords": [
+      "Connectivity map",
+      "atrial fibrillation",
+      "rank robust aggregation",
+      "the Sharpley Additive exPlanations",
+      "the eXtreme Gradient Boosting algorithm",
+      "weighted gene coexpression network analysis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Lingzhi",
+        "Chen, Yunwei",
+        "Huang, Wei"
+      ],
+      "short_names": [
+        "Yang L",
+        "Chen Y",
+        "Huang W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Lingzhi",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yunwei",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Wei",
+        "short_name": "Huang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cardiovascular medicine"
+    ],
+    "journal_abbrev": [
+      "Front Cardiovasc Med"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/02 06:00",
+    "fetched_at": "2026-10-04 20:43:48"
+  },
+  "links": {
+    "cites": [
+      "40301504",
+      "37374146",
+      "37063972"
+    ],
+    "refs": [
+      "35202820",
+      "35066183",
+      "34983937",
+      "34980165",
+      "34737791",
+      "34643044",
+      "34453039",
+      "33600025",
+      "33092403",
+      "32860505",
+      "32603741",
+      "32484539",
+      "32125356",
+      "31801406",
+      "31691645",
+      "31504232",
+      "31397860",
+      "30998478",
+      "30910708",
+      "30894015",
+      "30267749",
+      "29965901",
+      "29868113",
+      "29535140",
+      "29496798",
+      "29344893",
+      "29195078",
+      "28993118",
+      "28569771",
+      "28450363",
+      "27931615",
+      "27494721",
+      "27291509",
+      "26441035",
+      "25960419",
+      "25916723",
+      "25622848",
+      "25617731",
+      "25605792",
+      "24763469",
+      "24708751",
+      "24368776",
+      "24345399",
+      "23761394",
+      "23409058",
+      "23183193",
+      "22763477",
+      "22760500",
+      "22455463",
+      "22257669",
+      "22247279",
+      "22147268",
+      "21785105",
+      "21414208",
+      "21215756",
+      "20576703",
+      "20117462",
+      "20038802",
+      "19283672",
+      "18988654",
+      "18222980",
+      "17276180",
+      "15817885",
+      "15549167",
+      "15302638",
+      "15056496",
+      "14960456",
+      "14745449",
+      "12821245",
+      "12624003",
+      "12186792",
+      "12062330",
+      "10916078",
+      "10807475"
+    ],
+    "similar": [
+      "35911532",
+      "34876841",
+      "38274270",
+      "35023949",
+      "36733486",
+      "34453039",
+      "35966550",
+      "33287936",
+      "39267804",
+      "33509101",
+      "33841968",
+      "35790963",
+      "38656659",
+      "39076905",
+      "39319462",
+      "37057099",
+      "34671599",
+      "37620966",
+      "31894294",
+      "37969297",
+      "39090590",
+      "33475065",
+      "34026864",
+      "33133125",
+      "35091780",
+      "32383373",
+      "34249084",
+      "33755965",
+      "36647491",
+      "37063972",
+      "33706714",
+      "32682418",
+      "23863953",
+      "38774921",
+      "37960721",
+      "35305619",
+      "35368701",
+      "34466069",
+      "33209394",
+      "32778054",
+      "34781940",
+      "36653368",
+      "33816621",
+      "34861826",
+      "35128826",
+      "36602538",
+      "34198460",
+      "34536521",
+      "35141302",
+      "32299435",
+      "34848999",
+      "36671813",
+      "34350834",
+      "32265825",
+      "29940585",
+      "34698362",
+      "34968391",
+      "35138035",
+      "35381314",
+      "34306038",
+      "33868359",
+      "33664765",
+      "34100730",
+      "34540918",
+      "35658960",
+      "34198450",
+      "34215202",
+      "35410298",
+      "33282565",
+      "31987036",
+      "35812327",
+      "34844599",
+      "33224973",
+      "30478836",
+      "34421979",
+      "38549670",
+      "35637927",
+      "35433958",
+      "34785936",
+      "31667013",
+      "36979891",
+      "35713363",
+      "34434654",
+      "30002985",
+      "34754625",
+      "34744455",
+      "35422846",
+      "35607269",
+      "35845080",
+      "33747117",
+      "34754623",
+      "35625787",
+      "39381104",
+      "35620387",
+      "34234459",
+      "31169306",
+      "35609018",
+      "32219041",
+      "34123594",
+      "32641130",
+      "30760287",
+      "34336929",
+      "33741890",
+      "35273637",
+      "34276800",
+      "39049829",
+      "34848992",
+      "37845390",
+      "29845250",
+      "35872921",
+      "31306099",
+      "37346800",
+      "37333624",
+      "35660966",
+      "36352845",
+      "38025532",
+      "36713002",
+      "37305716",
+      "37893006",
+      "37082238",
+      "38384278",
+      "37007944",
+      "38825608",
+      "36405616",
+      "38773619",
+      "19255648"
+    ],
+    "review": [
+      "35911532",
+      "33509101",
+      "38825608"
+    ],
+    "pmc": [
+      "9329605"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35911532/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35911532",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-12",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3300",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcvm.2022.920399",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,139 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, claims versus evidence, and reporting quality based solely on the supplied text
+- **Shared manuscript claim summary** The authors present CoBRA, a lightweight deep learning framework that predicts RNA–ligand binding sites from sequence alone using frozen embeddings from pre-trained RNA language models and an MLP classifier. They report that CoBRA outperforms structure-based state-of-the-art methods on multiple benchmark sets, with relative improvements of 22.1% in MCC and 45.6% in recall.
+- **Visible evidence base** Abstract, Introduction, Methods (dataset preparation, model architecture, RNA language models, loss functions, evaluation metrics, curvature analysis), Results and Discussion (model selection, benchmark comparisons, structural analysis, metal binding analysis), Conclusion, and figure/table references
+- **Missing materials affecting confidence** Figures 1–3, Tables 1–3, Supplementary Tables S1, Supplementary Figures S1–S2, exact hyperparameter values beyond those stated, per-dataset performance numbers, statistical significance tests, and code or data availability statements were not provided
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and relevant problem in RNA-targeted drug discovery, and the idea of using frozen RNA language model embeddings for binding site prediction is sensible and potentially useful. However, the provided text does not contain sufficient quantitative evidence to substantiate the central performance claims. Key results are described qualitatively, benchmark numbers are not reported in the text, and the comparison to existing methods lacks necessary detail. The methodological description is generally clear but omits several implementation specifics that would be required for reproducibility. The structural analysis section is interesting but its connection to the main claims is not fully developed. The manuscript is not yet suitable for publication in its current form; the evidence base must be substantially strengthened.
+- **Who would be interested in the results, and why** Researchers in RNA biology, computational drug discovery, and machine learning applied to biomolecular problems would be interested. The work is relevant to those developing RNA-targeted small molecule therapeutics, as well as to method developers working on sequence-based functional site prediction. The finding that language model embeddings can capture structural properties relevant to ligand binding without explicit structural input is of general interest to the machine learning for biology community.
+- **Major strengths** The problem is well motivated and practically important. The approach is conceptually simple and computationally lightweight, which is appealing for broad adoption. The systematic comparison of ten language models and six loss functions is a thorough design choice. The inclusion of external benchmark sets and the analysis of failure cases on the TE18 set demonstrate a reasonable effort toward rigorous evaluation. The manuscript is generally well written and accessible to a broad audience.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract and introduction state that CoBRA achieved a relative improvement of approximately 22.1% in MCC and 45.6% in recall compared to state-of-the-art RNA–ligand binding site prediction methods.
+  - **Evidence pointer** Results section, "Comparison with Other Existing Methods on Benchmark Sets"; Table 3 (not provided)
+  - **Concern** The central quantitative claims of the paper are not verifiable from the provided text. The specific MCC, AUROC, AUPRC, precision, and recall values for CoBRA models and comparator methods on each benchmark set are not reported in the manuscript text. Table 3 is referenced but its contents are not described numerically. The claimed 22.1% relative MCC improvement and 45.6% recall improvement cannot be traced to any specific comparison or dataset.
+  - **Why it matters** The primary contribution of this work is a performance claim. Without the underlying numbers, the reader cannot assess whether the improvement is statistically meaningful, consistent across datasets, or driven by particular benchmark characteristics. This is a fundamental issue that prevents evaluation of the paper's central thesis.
+  - **Resolution test** Provide a table or detailed text reporting per-dataset performance metrics (MCC, AUROC, AUPRC, precision, recall) for all CoBRA variants and all comparator methods, including standard deviations or confidence intervals where applicable. The claimed relative improvements should be directly computable from these reported values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The model is described as a "lightweight deep learning framework" that uses frozen embeddings from pre-trained RNA language models followed by an MLP classifier.
+  - **Evidence pointer** Methods, "Model Architecture" and "RNA Language Models"
+  - **Concern** Several implementation details essential for reproducibility are missing. The MLP hidden dimensions are not specified. The input length is fixed at 161 residues, but the rationale for this specific length is not given, and it is unclear how longer RNA sequences are handled. The text states that sequences are padded to 161 residues, but does not state whether longer sequences are truncated, and if so, how this affects binding site prediction for those sequences. The training/validation/test split procedure for the combined TR60 and HARIBOSS dataset is described only as using a "pre-determined random seed" with an 8:1:1 ratio, but the number of sequences in each split is not reported. The text also does not specify whether the test sets were used for model selection or only for final evaluation.
+  - **Why it matters** Reproducibility is a core requirement for computational method papers. Missing architectural and data handling details prevent other researchers from reimplementing the method, and the handling of long sequences is a practical concern for real-world application.
+  - **Resolution test** Specify all MLP layer dimensions, describe the sequence length truncation strategy and its justification, report the number of sequences in each training/validation/test split, and clarify the protocol for using the four external benchmark sets.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison validity
+  - **Claim pointer** The manuscript states that CoBRA outperformed existing methods, with the exception of TE18, and that on average CoBRA exhibited a 15.4%, 9.2%, and 33.8% improvement in MCC, AUROC, and recall, respectively, compared to ZeSTa.
+  - **Evidence pointer** Results, "Comparison with Other Existing Methods on Benchmark Sets"
+  - **Concern** The comparison to existing methods is described only in aggregate terms. It is unclear which specific methods were compared, how their predictions were generated (e.g., whether they used structural information as intended), and whether the comparison was fair in terms of input information. The text mentions ZeSTa specifically but does not describe how ZeSTa was run or whether its performance was taken from published results or re-computed. The statement that CoBRA outperformed other methods "with the exception of TE18" is vague, as the magnitude and consistency of the performance gap across datasets is not reported.
+  - **Why it matters** A fair and transparent comparison is essential for establishing that the proposed method is genuinely superior. Without details on comparator setup and per-dataset results, the reader cannot determine whether the reported improvements are meaningful or an artifact of evaluation choices.
+  - **Resolution test** Describe the comparator methods, their input requirements, and how they were configured. Report per-dataset performance for all methods and discuss any differences in input information or evaluation protocol that could affect the comparison.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript reports correlations between model predictions and Laplacian curvature values, including a point-biserial correlation of -0.171 (p = 2.8e-5) between predictions and LN values, and various correlations for TP/TN/FP/FN.
+  - **Evidence pointer** Results, "Structure Analysis on TE18 Dataset"; Figure S2 (not provided)
+  - **Concern** The statistical analyses reported are limited to correlation coefficients and p-values. No correction for multiple testing is described, and the number of sequences or residues included in these analyses is not stated. The interpretation of a correlation of -0.171 as evidence that the model "explains structural characteristics" is not well justified, as this is a weak correlation. The analysis of prediction performance by structural type reports accuracy values but no confidence intervals or statistical tests comparing performance across structural categories.
+  - **Why it matters** The structural analysis is used to support claims about the model's behavior and limitations. Weak correlations and unreported sample sizes make it difficult to assess the robustness of these findings, and the absence of multiple testing correction raises concerns about false positives.
+  - **Resolution test** Report the number of residues and sequences in the TE18 analysis, apply multiple testing corrections where appropriate, and provide confidence intervals or statistical tests for the accuracy values across structural types.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim scope
+  - **Claim pointer** The conclusion states that "the sequence-based model proposed employs a more generalizable strategy" and that CoBRA "demonstrated its capacity for generalization across a range of external datasets."
+  - **Evidence pointer** Conclusion; Results, "Comparison with Other Existing Methods on Benchmark Sets"
+  - **Concern** The claim of generalizability is based on performance across four benchmark sets, but the manuscript does not report how these sets differ in terms of RNA type, sequence length, ligand type, or structural complexity. The text notes that TE18 showed a performance decline, but the reasons for this decline are only partially explored. The claim that sequence-based methods are more generalizable than structure-based methods is a strong statement that is not directly supported by the presented evidence, as the comparison to structure-based methods is not fully detailed.
+  - **Why it matters** Generalizability is a key selling point of the proposed approach. Without a clear characterization of the benchmark sets and a thorough analysis of where and why the method succeeds or fails, the generalizability claim remains speculative.
+  - **Resolution test** Characterize the benchmark sets in terms of sequence and structural properties, discuss the distribution of performance across datasets, and temper the generalizability claim to match the evidence presented.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "Ribonucleic acid (RNA) molecules perform a variety of functions within cells and thus implicated in various human diseases" contains a grammatical error ("thus implicated" should be "and are thus implicated").
+  - **Required correction** Revise to "Ribonucleic acid (RNA) molecules perform a variety of functions within cells and are thus implicated in various human diseases."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The phrase "a starting point" is written as "an starting point" in the abstract.
+  - **Required correction** Correct to "a starting point."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Methods, "Dataset Preparation"
+  - **Evidence pointer** Dataset preparation section
+  - **Issue** The text refers to "HARIOBSS" in one instance and "HARIBOSS" in others. This inconsistency could confuse readers.
+  - **Required correction** Use "HARIBOSS" consistently throughout.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Structure Analysis on TE18 Dataset"
+  - **Evidence pointer** Structural analysis section
+  - **Issue** The term "burge" appears in the list of RNA secondary structure categories. This is likely a typo for "bulge."
+  - **Required correction** Correct to "bulge."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "Model Architecture"
+  - **Evidence pointer** Model architecture section
+  - **Issue** The text states that the final output layer produces a "two-dimensional logit" for each residue. This is unclear; presumably the output is a two-class logit vector, but the phrasing is ambiguous.
+  - **Required correction** Clarify as "a two-class logit vector" or "logits for the two classes."
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Benchmarked Loss Functions"
+  - **Evidence pointer** Loss function section
+  - **Issue** The composite loss in Equation 1 is described but the equation itself is not shown in the provided text. The value of λ is given, but the margin m is stated as 4 without further context.
+  - **Required correction** Ensure Equation 1 is displayed and provide a brief explanation of the role of each term.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "Evaluation Metrics"
+  - **Evidence pointer** Evaluation metrics section
+  - **Issue** The text defines precision, recall, and MCC but does not define AUROC and AUPRC. While these are standard metrics, a brief definition or reference would improve accessibility.
+  - **Required correction** Add a brief definition or reference for AUROC and AUPRC.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Comparison with Other Existing Methods on Benchmark Sets"
+  - **Evidence pointer** Benchmark comparison section
+  - **Issue** The text states "RB9, JL10, TL12, and TE18. Table 3 presents..." with a period after "TE18" that should be a comma or colon.
+  - **Required correction** Correct the punctuation.
+  - **Concern ID** R1-m9
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Prediction Results on Metal Binding Sites"
+  - **Evidence pointer** Metal binding section
+  - **Issue** The accuracy values for metal binding site prediction are reported as 0.647, 0.531, 0.497, and 0.202 for RB9, JL10, TL12, and TE18, respectively, but it is not stated which model produced these predictions.
+  - **Required correction** Specify which CoBRA model was used for this analysis.
+  - **Concern ID** R1-m10
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Conclusion
+  - **Evidence pointer** Conclusion section
+  - **Issue** The conclusion mentions "integrating lightweight structural features, such as LN, solvent accessible surface area, or secondary structure" as future work, but the manuscript does not discuss whether any preliminary experiments were conducted in this direction.
+  - **Required correction** Either remove the speculative language or add a brief note on whether any preliminary results exist.
+- **Technical failings that need to be addressed before the case is established** The absence of reported performance numbers for the benchmark comparisons (R1-M1) is the most critical failing. Without these data, the central claim of superiority over existing methods cannot be evaluated. The incomplete methodological details (R1-M2) also need to be addressed for reproducibility. The statistical rigor of the structural analysis (R1-M4) requires strengthening.
+- **Assessment against Nature-style criteria** Originality: The application of frozen RNA language model embeddings to binding site prediction is a reasonable incremental contribution, though similar approaches have been explored for proteins. The systematic comparison of multiple language models and loss functions adds some novelty. Scientific importance: The problem is important for RNA-targeted drug discovery, and a sequence-based method that matches or exceeds structure-based performance would be valuable. However, the importance is not fully established without robust quantitative evidence. Interdisciplinary readership: The work bridges machine learning, RNA biology, and drug discovery, and the writing is generally accessible. Technical soundness: The overall approach is sound in principle, but the lack of reported results and implementation details prevents a full assessment. Readability for nonspecialists: The manuscript is generally well written, but some sections assume familiarity with deep learning terminology and RNA structure concepts.
+- **Recommendation posture** Not currently established from the provided evidence. The manuscript addresses a relevant problem with a sensible approach, but the central performance claims are not verifiable from the supplied text. Substantial revision is required to report the underlying data, clarify methodological details, and strengthen the statistical analysis before the case for the method's utility can be assessed.
+
+## Risk / unsupported claims
+- The claim of 22.1% relative improvement in MCC and 45.6% increase in recall over state-of-the-art methods is unsupported, as the underlying per-dataset numbers are not reported.
+- The claim that CoBRA "exhibited superior performance, with the exception of TE18" is unsupported without per-dataset results for all methods.
+- The claim that the model "could explain structural characteristics via inherent sequence patterns" is based on a weak correlation (-0.171) and requires stronger statistical evidence and interpretation.
+- The statement that "the sequence-based model proposed employs a more generalizable strategy" is not directly supported by the presented evidence.
+- The claim that CoBRA is "lightweight" is not quantified; no parameter count, inference time, or computational resource comparison is provided.
+- The performance of the model on metal binding sites is reported without specifying which model variant was used, making the result difficult to interpret.

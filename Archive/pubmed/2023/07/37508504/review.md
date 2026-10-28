@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, conclusions, and materials and methods
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the reported findings
+- **Shared manuscript claim summary** The authors investigate the roles of three active-site residues (Tyr122, Ile168, Asp173) in human DNA dioxygenase ABH2, combining molecular dynamics simulations with kinetic and binding assays to show these residues affect catalytic activity rather than DNA binding, and to explore substrate discrimination between methylated lesions (m1A, m3C) and the epigenetic mark m5C
+- **Visible evidence base** MD simulation results (Figures 4, 5), CD spectra (Figure 6), EMSA binding data (Figures 7, 8), activity assays (Figures 9, 10), kinetic parameters (Figure 11, Table 2), and methodological descriptions (Section 4)
+- **Missing materials affecting confidence** Raw MD trajectory data, statistical analysis details for kinetic parameters, replicate information for activity assays, uncropped gel images, and explicit error analysis for reported kobs values
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic mutational analysis of three active-site residues in ABH2, combining computational and experimental approaches. The work addresses a relevant question in DNA repair enzymology regarding substrate specificity determinants. However, several technical concerns regarding data presentation, statistical rigor, and the strength of conclusions drawn from the MD simulations need to be addressed. The claim that these residues affect catalysis rather than binding is reasonably supported by the EMSA and activity data, but the mechanistic interpretations from MD require more careful validation.
+- **Who would be interested in the results, and why** Researchers in DNA repair mechanisms, particularly those studying AlkB family dioxygenases and oxidative demethylation. The work may also interest investigators working on epigenetic regulation through DNA demethylation pathways, and those using combined computational-experimental approaches to study enzyme-substrate recognition.
+- **Major strengths** The combination of MD simulations with experimental binding and activity assays provides complementary perspectives. The choice of three residues positioned at different spatial points in the active site is logical. The CD spectroscopy control confirms that mutations do not globally disrupt protein structure. The kinetic analysis distinguishes between binding effects and catalytic effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of MD simulations
+  - **Claim pointer** The authors claim that MD simulations reveal specific conformational changes induced by each mutation, including loss of hydrogen bonds, disruption of salt bridges, and altered positioning of damaged bases and cofactor
+  - **Evidence pointer** Section 2.2, Figures 4 and 5
+  - **Concern** The MD simulation methodology has several limitations that are not adequately addressed. The simulations use a nonbonded cationic dummy model for Fe2+, which is an approximation that may not accurately capture the coordination chemistry of the metal center. The simulation time of 100 ns (extended to 500 ns) may be insufficient to sample the conformational space relevant to substrate recognition. More critically, the authors do not provide quantitative metrics from the simulations such as root-mean-square deviation (RMSD), root-mean-square fluctuation (RMSF), or distance distributions between key atoms. The conclusions about "loss of hydrogen bonds" and "disruption of salt bridges" are presented qualitatively without supporting numerical data or statistical analysis across replicate simulations.
+  - **Why it matters** The MD simulations form a central pillar of the mechanistic interpretation. Without quantitative validation and proper convergence analysis, the conformational claims remain speculative. The qualitative descriptions of "catalytic" versus "noncatalytic" positions for m5C are particularly concerning, as these are used to explain substrate specificity without clear energetic or population-based evidence.
+  - **Resolution test** Provide quantitative analysis of MD trajectories including time-averaged distances between key atoms, hydrogen bond occupancy calculations, and population distributions of the proposed catalytic and noncatalytic states. Include convergence assessment and error estimates across replicate simulations. If the m5C positioning claim is central, provide free energy calculations or enhanced sampling to support the proposed equilibrium between states.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor of kinetic data
+  - **Claim pointer** The authors report kobs values for WT and mutant enzymes toward m1A and m3C substrates, with differences of 4-fold and 6-fold for I168A, and substantial reductions for Y122A and D173A
+  - **Evidence pointer** Section 2.4, Figures 10 and 11, Table 2
+  - **Concern** The kinetic analysis lacks essential statistical information. The authors do not report the number of independent replicates for the time-course experiments, error bars are not shown in Figure 10, and Table 2 does not include standard deviations or confidence intervals for the kobs values. The equation used to calculate kobs (Equation 2) appears to be a simplified approximation that assumes a specific relationship between initial velocity, equilibrium binding, and observed rate constant, but the derivation and validity of this approach are not discussed. Additionally, the authors state that differences between Y122A and D173A are "within the margin of error" for m3C, but no error values are provided to support this claim.
+  - **Why it matters** The central conclusion that these mutations affect catalytic activity rather than binding depends on the reliability and statistical significance of the kinetic parameters. Without proper error analysis and replicate information, the reported differences between WT and mutants cannot be properly evaluated. The comparison between substrates (m1A versus m3C) and the claim of differential effects also require statistical support.
+  - **Resolution test** Provide complete statistical analysis including number of replicates, standard deviations or standard errors for all reported kobs values, and appropriate statistical tests comparing WT and mutant activities. Show error bars on all kinetic plots. Justify the use of Equation 2 and validate the approach with appropriate controls or alternative analysis methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Strength of conclusions regarding m5C
+  - **Claim pointer** The authors suggest that the MD models of WT ABH2 with m5C-containing DNA reveal alternative positioning that may explain the lower efficiency of m5C oxidation, and that the tested mutations could influence this equilibrium
+  - **Evidence pointer** Section 2.2, Figure 5, Section 3
+  - **Concern** The manuscript does not present any experimental data on the activity of WT or mutant ABH2 toward m5C-containing DNA, despite this being a stated objective. The conclusions about m5C recognition are based entirely on MD simulations of WT enzyme only, with no simulation data for mutants with m5C. The claim that mutations "could influence" the proposed equilibrium is purely speculative without supporting evidence. The relevance of the m5C discussion to the overall conclusions is unclear given the absence of experimental validation.
+  - **Why it matters** The title and introduction suggest that understanding substrate specificity, including m5C, is a central goal. Without experimental data on m5C activity for WT and mutants, the manuscript cannot support claims about the role of these residues in m5C recognition. The speculative nature of these conclusions weakens the overall impact of the study.
+  - **Resolution test** Either provide experimental activity data for m5C-containing substrates with WT and mutant enzymes, or explicitly reframe the m5C discussion as preliminary computational observations that require experimental validation. If experimental data are not available, remove or substantially temper the claims about m5C substrate specificity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 8 presentation of Kd values
+  - **Evidence pointer** Section 2.4, Figure 8
+  - **Issue** The Kd values are presented only in a bar graph without showing the actual binding curves or the quality of the fits. The reader cannot assess whether the EMSA data adequately fit the Hill equation.
+  - **Required correction** Include representative binding curves or show the raw data points with fitted curves in supplementary material. Report the Hill coefficients obtained from the fits.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** MD simulation setup
+  - **Evidence pointer** Section 4.7
+  - **Issue** The description of the MD simulations lacks important technical details including the specific version of GROMACS, the temperature and pressure coupling parameters, the integration time step, and the criteria for determining equilibration. The method for generating mutant structures from the WT template is not described.
+  - **Required correction** Provide complete simulation parameters in the methods section or as supplementary information. Describe how mutations were introduced and whether the systems were re-equilibrated after mutation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data interpretation
+  - **Affected element** Discussion of I168A substrate preference
+  - **Evidence pointer** Section 2.5, Figures 9 and 10
+  - **Issue** The authors note that I168A shows different effects on m1A versus m3C activity but do not discuss potential structural explanations for this substrate-specific effect in sufficient depth, given that the MD simulations show widening of the active site pocket.
+  - **Required correction** Expand the discussion of how the enlarged pocket might differentially affect positioning of m1A versus m3C, potentially referencing specific interactions lost or gained in the mutant.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Section 1, Section 3
+  - **Issue** The manuscript would benefit from more direct comparison with previous mutational studies of ABH2 and related AlkB family members, particularly regarding whether similar residues have been investigated in other contexts.
+  - **Required correction** Add a brief comparison with relevant prior mutational analyses of AlkB family dioxygenases to contextualize the novelty of the current findings.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative MD analysis (R1-M1) and insufficient statistical reporting for kinetic data (R1-M2) are the primary technical issues that must be resolved. The absence of experimental m5C data (R1-M3) limits the scope of conclusions that can be drawn.
+- **Assessment against Nature-style criteria** Originality: The work addresses a specific question about active-site residue contributions in ABH2, which is a focused and somewhat incremental contribution to the field. The combination of MD with experimental validation is not novel in itself. Scientific importance: Understanding substrate specificity in DNA repair dioxygenases has moderate importance for the field, but the findings are unlikely to fundamentally change current understanding. Interdisciplinary readership: The work bridges computational and experimental biochemistry, which may interest a limited interdisciplinary audience. Technical soundness: The experimental binding and activity assays appear generally sound, but the MD analysis lacks quantitative rigor and the statistical treatment of kinetic data is insufficient. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with DNA repair enzymology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core experimental findings regarding the differential effects of the three mutations on catalytic activity versus binding are potentially valuable, but the manuscript requires substantial revision to address the quantitative analysis of MD simulations, statistical reporting of kinetic parameters, and appropriate framing of the m5C conclusions.
+
+## Risk / unsupported claims
+- The claim that MD simulations demonstrate specific conformational changes (loss of hydrogen bonds, disruption of salt bridges) is unsupported without quantitative trajectory analysis
+- The proposed equilibrium between "catalytic" and "noncatalytic" positions for m5C is speculative and not supported by population analysis or free energy calculations
+- The statement that mutations "could influence" the m5C positioning equilibrium is unsupported by any simulation or experimental data for mutants with m5C
+- The conclusion that the tested residues affect catalytic activity rather than DNA binding is supported by the EMSA data but would be strengthened by additional binding assays using alternative methods
+- The interpretation that I168A's differential effect on m1A versus m3C relates to increased αKG mobility is plausible but not directly demonstrated experimentally

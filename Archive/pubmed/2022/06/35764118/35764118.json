@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "35764118",
+    "doi": "10.1016/j.chemosphere.2022.135485",
+    "title": "Organophosphate flame retardant TDCPP: A risk factor for renal cancer?"
+  },
+  "content": {
+    "abstract": "Tris (1,3-dichloro-2-propyl) phosphate (TDCPP), a chlorinated organophosphate flame retardants(OPFRs), is widely used in a range of plastic foams, resins, and latexes. It can be detected in human tissues, including urine, and milk. Recent research has suggested that TDCPP has neurotoxic, reproductive, and potentially carcinogenic. In our study, we proposed a novel method for predicting the gene associated with tumor-compound interactions. We firstly used The Comparative Toxicogenomics Database (CTD) and downloaded potentially interactive genes about TDCPP in renal carcinoma. Gene expression data and the corresponding clinical information of the Kidney renal clear cell cancer (KIRC) patients were obtained from The Cancer Genome Atlas database (TCGA). Data from normal people in The Genotype-Tissue Expression (GTEx) databases was used to supplement the calculations. After being predicted by PharmMapper database, and validated by Gene Ontology and Kyoto Encyclopedia of Genes and Genomes, 25 genes were selected to construct protein-protein interaction network analysis. The prognostic value of these genes was evaluated with Kaplan-Meier analysis, and four interactive genes were selected. Gene set variation analysis and drug-target binding prediction proved the hub gene has a potential relationship with renal clear cell carcinoma. We then used the ChEA3 (Chip-X Enrichment Analysis, Version 3) database to predict the upstream of these interactive genes. Molecular docking was used to predict the binding of these transcription factors to TDCPP and interactive genes to TDCPP. Moreover, in cell lines and in vivo experiments demonstrated the cancer-promoting effect of TDCPP. The expression of the interactive genes was verified by qPCR and Western blot. Combining binding energy and qPCR results, we choose EPAS1 to verify its function in renal carcinoma cell lines. Our study provides a novel method to predict the potential interactive genes between TDCPP and renal cancer, which may reveal potential targets for the treatment and prevention of diseases.",
+    "keywords": [
+      "Bioinformatics",
+      "Kidney cancer",
+      "Molecular docking",
+      "Organophosphate flame retardants",
+      "TDCPP"
+    ],
+    "mesh_terms": [
+      "*Carcinoma, Renal Cell/chemically induced/genetics",
+      "*Flame Retardants/analysis",
+      "Humans",
+      "*Kidney Neoplasms/chemically induced/genetics",
+      "Molecular Docking Simulation",
+      "Organophosphates/metabolism/toxicity",
+      "Organophosphorus Compounds",
+      "Risk Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Xuan",
+        "Zhou, Xiang",
+        "Yao, Liangyu",
+        "Zhang, Xu",
+        "Cong, Rong",
+        "Luan, Jiaochen",
+        "Zhang, Tongtong",
+        "Song, Ninghong"
+      ],
+      "short_names": [
+        "Zhou X",
+        "Zhou X",
+        "Yao L",
+        "Zhang X",
+        "Cong R",
+        "Luan J",
+        "Zhang T",
+        "Song N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China.",
+        "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China.",
+        "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China.",
+        "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China.",
+        "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China.",
+        "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China.",
+        "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China.",
+        "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China; Department of Urology, The Affiliated Kizilsu Kirghiz Autonomous Prefecture People's Hospital of Nanjing Medical University, Artux, 845350, China. Electronic address: songninghong@aliyun.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Xuan",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiang",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Liangyu",
+        "short_name": "Yao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xu",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Cong, Rong",
+        "short_name": "Cong R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Luan, Jiaochen",
+        "short_name": "Luan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tongtong",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Song, Ninghong",
+        "short_name": "Song N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, 210029, China; Department of Urology, The Affiliated Kizilsu Kirghiz Autonomous Prefecture People's Hospital of Nanjing Medical University, Artux, 845350, China. Electronic address: songninghong@aliyun.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemosphere"
+    ],
+    "journal_abbrev": [
+      "Chemosphere"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/29 06:00",
+    "fetched_at": "2026-09-28 10:17:34"
+  },
+  "links": {
+    "cites": [
+      "41203806",
+      "40571851",
+      "40397357",
+      "37869074",
+      "37675228",
+      "37334296"
+    ],
+    "refs": [],
+    "similar": [
+      "35764118",
+      "38369091",
+      "34358932",
+      "25242413",
+      "24316320",
+      "30685670",
+      "25637911",
+      "35053312",
+      "32222518",
+      "33316748",
+      "21255595",
+      "32559856",
+      "37343856",
+      "20194068",
+      "23017583",
+      "23629516",
+      "30927662",
+      "38401740",
+      "19848166",
+      "25239634",
+      "32663715",
+      "25461749",
+      "33254794",
+      "30508752",
+      "35346870",
+      "32304943",
+      "22268003",
+      "28641197",
+      "36115506",
+      "28959647",
+      "36493961",
+      "31796289",
+      "33515873",
+      "33650306",
+      "30366322",
+      "31894355",
+      "24051214",
+      "23603146",
+      "29783866",
+      "23461877",
+      "36068737",
+      "34627810",
+      "29908513",
+      "28763939",
+      "38944011",
+      "21591615",
+      "35595029",
+      "34998776",
+      "25812808",
+      "35051466",
+      "24308350",
+      "22446829",
+      "30842366",
+      "23919627",
+      "32846289",
+      "29149642",
+      "34288551",
+      "31140607",
+      "24407104",
+      "28573493",
+      "22537891",
+      "26356387",
+      "31972937",
+      "26775187",
+      "35012906",
+      "23523854",
+      "32434091",
+      "25090580",
+      "23306105",
+      "34818247",
+      "26709203",
+      "33529899",
+      "21830137",
+      "35182677",
+      "35304560",
+      "25826601",
+      "22553152",
+      "30966736",
+      "36455348",
+      "30472470",
+      "22551874",
+      "33850477",
+      "27018022",
+      "37033923",
+      "31411769",
+      "26284344",
+      "29129621",
+      "24364718",
+      "30553217",
+      "27146889",
+      "25333763",
+      "32786581",
+      "32780567",
+      "36976996",
+      "32643373",
+      "21176966",
+      "28963974",
+      "32546061",
+      "33976979",
+      "25306433",
+      "23413926",
+      "33901908",
+      "30893750",
+      "25559354",
+      "38006928",
+      "35588625",
+      "37869074",
+      "36471843"
+    ],
+    "review": [
+      "35764118",
+      "38369091",
+      "32663715",
+      "22537891"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0045-6535(22)01978-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "arxiv",
+  "source_id": "2502.01311v1",
+  "title": "TFBS-Finder: Deep Learning-based Model with DNABERT and Convolutional Networks to Predict Transcription Factor Binding Sites",
+  "doi": "",
+  "abstract": "Transcription factors are proteins that regulate the expression of genes by binding to specific genomic regions known as Transcription Factor Binding Sites (TFBSs), typically located in the promoter regions of those genes. Accurate prediction of these binding sites is essential for understanding the complex gene regulatory networks underlying various cellular functions. In this regard, many deep learning models have been developed for such prediction, but there is still scope of improvement. In this work, we have developed a deep learning model which uses pre-trained DNABERT, a Convolutional Neural Network (CNN) module, a Modified Convolutional Block Attention Module (MCBAM), a Multi-Scale Convolutions with Attention (MSCA) module and an output module. The pre-trained DNABERT is used for sequence embedding, thereby capturing the long-term dependencies in the DNA sequences while the CNN, MCBAM and MSCA modules are useful in extracting higher-order local features. TFBS-Finder is trained and tested on 165 ENCODE ChIP-seq datasets. We have also performed ablation studies as well as cross-cell line validations and comparisons with other models. The experimental results show the superiority of the proposed method in predicting TFBSs compared to the existing methodologies. The codes and the relevant datasets are publicly available at https://github.com/NimishaGhosh/TFBS-Finder/.",
+  "authors": [
+    "Nimisha Ghosh",
+    "Pratik Dutta",
+    "Daniele Santoni"
+  ],
+  "published_date": "2025-02-03T12:41:11Z",
+  "updated_date": "2025-02-03T12:41:11Z",
+  "journal": "",
+  "category": "cs.LG, cs.AI, q-bio.GN",
+  "landing_url": "https://arxiv.org/abs/2502.01311v1",
+  "pdf_url": "https://arxiv.org/pdf/2502.01311v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "cs.LG",
+    "cs.AI",
+    "q-bio.GN"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2502.01311v1",
+    "raw_categories": [
+      "cs.LG",
+      "cs.AI",
+      "q-bio.GN"
+    ],
+    "journal_ref": ""
+  }
+}

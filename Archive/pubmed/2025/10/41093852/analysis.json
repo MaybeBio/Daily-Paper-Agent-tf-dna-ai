@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41093852",
+  "title": "scTFBridge: a disentangled deep generative model informed by TF-motif binding for gene regulation inference in single-cell multi-omics.",
+  "authors": "Wang, Feng-Ao; Yi, Chenxin; Chen, Jiajun; He, Ruikun; Liu, Junwei; Li, Yixue",
+  "journal": "Nature communications",
+  "published_date": "2025-10-16",
+  "window": {
+    "start": "2025-10-13",
+    "end": "2025-10-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基于TF-motif结合先验的多组学深度生成模型scTFBridge，用于单细胞基因调控网络推断，虽涉及TF-DNA结合知识但核心是GRN推断而非TF-DNA互作机制建模，方法可迁移至本课题。",
+  "abstract": "The interplay between transcription factors (TFs) and regulatory elements (REs) drives gene transcription, forming gene regulatory networks (GRNs). Advances in single-cell technologies now enable simultaneous measurement of RNA expression and chromatin accessibility, offering unprecedented opportunities for GRN inference at single-cell resolution. However, heterogeneity across omics layers complicates regulatory feature extraction. We present scTFBridge, a multi-omics deep generative model for GRN inference. scTFBridge disentangles latent spaces into shared and specific components across omics layers. By integrating TF-motif binding knowledge, scTFBridge aligns shared embeddings with specific TF regulatory activities, enhancing biological interpretability. Using explainability methods, scTFBridge computes regulatory scores for REs and TFs, enabling robust GRN inference. Our results further demonstrate that scTFBridge can identify cell-type-specific susceptibility genes and distinct regulatory programs, providing insights into gene regulation mechanisms at the single-cell level.",
+  "abstract_zh": "转录因子（TFs）与调控元件（REs）之间的相互作用驱动基因转录，形成基因调控网络（GRNs）。单细胞技术的进展使得同时测量RNA表达和染色质可及性成为可能，为在单细胞分辨率下推断GRNs提供了前所未有的机会。然而，跨组学层的异质性使调控特征提取复杂化。我们提出scTFBridge，一种用于GRN推断的多组学深度生成模型。scTFBridge将潜在空间分解为跨组学层的共享和特定组件。通过整合TF-motif结合知识，scTFBridge将共享嵌入与特定TF调控活性对齐，增强生物学可解释性。利用可解释性方法，scTFBridge计算REs和TFs的调控分数，实现稳健的GRN推断。我们的结果进一步表明，scTFBridge能够识别细胞类型特异的易感基因和不同的调控程序，为单细胞水平的基因调控机制提供见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41093852/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41093852/",
+  "paper_page_path": "papers/pubmed/41093852/index.html"
+}

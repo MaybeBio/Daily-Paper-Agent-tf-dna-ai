@@ -1,0 +1,229 @@
+{
+  "identity": {
+    "pmid": "39586719",
+    "doi": "10.3760/cma.j.cn121430-20240524-00457",
+    "title": "[Exploration of key ferroptosis-related genes as therapeutic targets for sepsis based on bioinformatics and the depiction of their immune profiles characterization]."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: To explore the characteristics of key ferroptosis-related genes as therapeutic targets for sepsis based on bioinformatics analysis, and describe their immune characteristics. METHODS: The transcriptome datasets GSE57065, GSE9960, GSE28750, and GSE137340 were downloaded from the Gene Expression Omnibus (GEO) database, immune-related gene (IRG) were obtained from ImmPort and InnateDB databases, and ferroptosis-related gene (FRG) were downloaded from the FerrDb database. The datasets GSE57065, GSE9960, and GSE28750 were integrated into an analysis dataset by the surrogate variable analysis (SVA) package and analyzed this analysis dataset by using the \"limma\" package to obtain differentially expressed gene (DEG), then the intersection set of DEG, FRG, and IRG were considered as ferroptosis and immune-related DEG (FImDEG). Gene ontology (GO) functional annotation and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were performed using \"ClusterProfiler\" to understand the biological function of FImDEG. The key genes were screened by protein-protein interaction (PPI) network, least absolute shrinkage and selection operator (LASSO) regression algorithms, and support vector machine (SVM) analyses, and Logistic regression model was built based on above key genes. Receiver operator characteristics curve (ROC curve) was plotted to evaluate the diagnostic efficacy of the key genes alone or combinative. The degree of infiltration of 22 immune cells was assessed using the \"CIBERSORT\" package, and the correlation between the expressions of key genes and infiltration degree of immune cells was analyzed. Dataset GSE137340 was used to verify these key genes. RESULTS: A dataset consisting of 146 sepsis samples and 61 healthy control samples was obtained by processing the database and removing batch effect. A total of 4 537 DEG were obtained, including 2 066 up-regulated genes and 2 471 down-regulated genes. 2 519 IRG and 855 FRG were obtained from the relevant database. Using the intersection of DEG, IRG and FRG, 34 FImDEG were obtained, including 20 up-regulated genes and 14 down-regulated genes. GO functional annotation showed that the biological functions of 34 FImDEG were mainly inhibition of transferase activity, regulation of DNA-binding transcription factor activity and cell response to stimulation. In terms of molecular function, it was mainly related to RNA polymerase II-specific DNA-binding transcription factor binding and various protein ligase binding. Changes in cell composition occurred mainly in promyelocytic leukemia protein and chromatin silencing complexes. Enrichment analysis of KEGG pathway showed that the major pathways involved in 34 FImDEG included cell aging, expression of programmed death-ligand 1 (PD-L1) and programmed death-1 (PD-1) checkpoint pathways in cancer, interleukin-17 (IL-17) signaling pathway, lipid and atherosclerosis, and NOD-like receptor signaling pathway. Four key genes, including cytochrome b-245 beta chain (CYBB), mitogen-activated protein kinase 14 (MAPK14), prostaglandin-endoperoxide synthase 2 (PTGS2) and V-relreticuloendotheliosis viral oncogene homology A (RELA), were screened through PPI network and LASSO and SVM machine learning. ROC curve analysis showed that the area under ROC curve (AUC) of the four key genes for diagnosing sepsis was all greater than 0.65, and the AUC of MAPK14 was 0.911. Logistic regression model was constructed based on four key genes, and the AUC was 0.956. Immunoinfiltration analysis showed that compared with healthy control samples, the infiltration degree of neutrophils and macrophages M0 was significantly increased in sepsis samples, while the infiltration degree of resting natural killer cell (NK cell), naive CD4(+) T cell and CD8(+) T cell was significantly lowered. Correlation analysis showed that the positive correlation between MAPK14 expression and the infiltration degree of neutrophils was the highest. Validation results in the GSE137340 dataset showed that compared with healthy control samples, the expressions of CYBB and MAPK14 in sepsis samples were significantly up-regulated, however, the expressions of PTGS2 and RELA were significantly down-regulated, similar to the expression trend in the above analysis dataset. CONCLUSIONS: Four key genes, including CYBB, MAPK14, PTGS2, and RELA, in the development of sepsis were identified through bioinformatics analysis, which play an important role in the immune process, and MAPK14 may be an important target for immune intervention.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Sepsis/genetics",
+      "*Computational Biology/methods",
+      "*Ferroptosis/genetics",
+      "Humans",
+      "*Databases, Genetic",
+      "Gene Ontology",
+      "Transcriptome",
+      "Protein Interaction Maps/genetics",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Meng",
+        "Mei, Yulin",
+        "Pan, Aijun"
+      ],
+      "short_names": [
+        "Li M",
+        "Mei Y",
+        "Pan A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Critical Care Medicine, the Affiliated Provincial Hospital of Anhui Medical University, Hefei 230001, Anhui, China.",
+        "Wannan Medical College, Wuhu 241002, Anhui, China. Corresponding author: Pan Aijun, Email: aijunpan868@ustc.edu.cn.",
+        "Department of Critical Care Medicine, the Affiliated Provincial Hospital of Anhui Medical University, Hefei 230001, Anhui, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Meng",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, the Affiliated Provincial Hospital of Anhui Medical University, Hefei 230001, Anhui, China."
+        ]
+      },
+      {
+        "full_name": "Mei, Yulin",
+        "short_name": "Mei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Wannan Medical College, Wuhu 241002, Anhui, China. Corresponding author: Pan Aijun, Email: aijunpan868@ustc.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Pan, Aijun",
+        "short_name": "Pan A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, the Affiliated Provincial Hospital of Anhui Medical University, Hefei 230001, Anhui, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Zhonghua wei zhong bing ji jiu yi xue"
+    ],
+    "journal_abbrev": [
+      "Zhonghua Wei Zhong Bing Ji Jiu Yi Xue"
+    ],
+    "pub_date": "2024 Oct",
+    "pub_year": "2024",
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/26 00:16",
+    "fetched_at": "2026-09-30 06:56:28"
+  },
+  "links": {
+    "cites": [
+      "40264754"
+    ],
+    "refs": [],
+    "similar": [
+      "39586719",
+      "39375405",
+      "40312440",
+      "36335193",
+      "37259023",
+      "38650009",
+      "38649061",
+      "39793232",
+      "36017103",
+      "39609718",
+      "37520121",
+      "38912048",
+      "38755717",
+      "37550393",
+      "37821869",
+      "40263537",
+      "38885209",
+      "40129981",
+      "39735537",
+      "39735547",
+      "35307059",
+      "38875180",
+      "40245021",
+      "35713363",
+      "39501535",
+      "35278479",
+      "39072329",
+      "39928821",
+      "31838482",
+      "34233597",
+      "39608795",
+      "39377750",
+      "37980550",
+      "33667236",
+      "38347799",
+      "35818227",
+      "39853851",
+      "35637927",
+      "39875572",
+      "39588003",
+      "39331874",
+      "37235492",
+      "38830963",
+      "39541922",
+      "35709926",
+      "39142001",
+      "39789929",
+      "39341981",
+      "38701300",
+      "40258895",
+      "38863714",
+      "38867322",
+      "36117534",
+      "39713769",
+      "38977948",
+      "38736878",
+      "38951833",
+      "38802844",
+      "35680809",
+      "37359526",
+      "37398680",
+      "32008037",
+      "39732743",
+      "38319987",
+      "38852219",
+      "39695788",
+      "40024299",
+      "35475279",
+      "38774864",
+      "37582718",
+      "39188714",
+      "35844488",
+      "37460430",
+      "34553293",
+      "40241169",
+      "38020614",
+      "39430765",
+      "39351239",
+      "39169865",
+      "40078458",
+      "36532018",
+      "38440848",
+      "39619595",
+      "37081490",
+      "29257295",
+      "40289127",
+      "39284931",
+      "39707003",
+      "39403102",
+      "38283345",
+      "40108736",
+      "30107230",
+      "38441793",
+      "39396400",
+      "38073349",
+      "37122694",
+      "38957433",
+      "38587531",
+      "36532015",
+      "35016690"
+    ],
+    "review": [
+      "39586719",
+      "39619595"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1181",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

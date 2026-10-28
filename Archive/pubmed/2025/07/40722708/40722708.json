@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "40722708",
+    "doi": "10.3390/biomedicines13071636",
+    "title": "Identification of Glycolysis-Related Genes in MAFLD and Their Immune Infiltration Implications: A Multi-Omics Analysis with Experimental Validation."
+  },
+  "content": {
+    "abstract": "Background: Metabolic-associated fatty liver disease (MAFLD) is characterized by metabolic syndrome and immune infiltration, with glycolysis pathway activation emerging as a pivotal contributor. This study aims to identify glycolysis-associated key genes driving MAFLD progression and elucidate their crosstalk with immune infiltration through bioinformatics analysis and experimental validation. Methods: Integrative multi-omics analysis was performed on bulk RNA-seq, single-cell RNA-seq, and spatial transcriptomic datasets from MAFLD patients and controls. Differential expression analysis and WGCNA were employed to pinpoint glycolysis-correlated key genes. The relationship with immune infiltration was analyzed using single-cell and spatial transcriptomics technologies. Machine learning was applied to identify feature genes for matching shared TFs and miRNAs. External cohort validation and in vivo experiments (methionine choline-deficient diet murine models) were conducted for biological confirmation. Results: Five glycolysis-associated key genes (ALDH3A1, CDK1, DEPDC1, HKDC1, SOX9) were identified and validated as MAFLD discriminators. Single-cell analysis revealed that the hepatocyte-fibroblast-macrophage axis constitutes the predominant glycolysis-active niche. Spatial transcriptomics showed that CDK1, SOX9, and HKDC1 were colocalized with the monocyte-derived macrophage marker CCR2. Using four machine learning models, four feature genes were identified, along with their common transcription factors YY1 and FOXC1, and the miRNA \"hsa-miR-590-3p\". External datasets and experimental validation confirmed that the key genes were upregulated in MAFLD samples. Conclusions: In this study, we identified five glycolysis-related key genes in MAFLD and explored their relationship with immune infiltration, providing new insights for diagnosis and metabolism-directed immunomodulation strategies in MAFLD.",
+    "keywords": [
+      "bioinformatics analysis",
+      "glycolysis",
+      "immune infiltration",
+      "metabolic-associated fatty liver disease (MAFLD)",
+      "metabolic-associated steatohepatitis (MASH)"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Jiawei",
+        "Yang, Siqi",
+        "Shou, Diwen",
+        "Liu, Bo",
+        "Li, Shaohan",
+        "Luo, Tongtong",
+        "Chen, Huiting",
+        "Huang, Chen",
+        "Zhou, Yongjian"
+      ],
+      "short_names": [
+        "Chen J",
+        "Yang S",
+        "Shou D",
+        "Liu B",
+        "Li S",
+        "Luo T",
+        "Chen H",
+        "Huang C",
+        "Zhou Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1721-7639"
+      ],
+      "affiliations": [
+        "Department of Gastroenterology and Hepatology, Second Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou 510006, China.",
+        "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China.",
+        "Department of Gastroenterology and Hepatology, Second Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou 510006, China.",
+        "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China.",
+        "Department of Gastroenterology and Hepatology, Second Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou 510006, China.",
+        "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China.",
+        "Department of Gastroenterology and Hepatology, Second Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou 510006, China.",
+        "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China.",
+        "Department of Gastroenterology and Hepatology, Second Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou 510006, China.",
+        "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China.",
+        "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China.",
+        "Department of Gastroenterology and Hepatology, Second Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou 510006, China.",
+        "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China.",
+        "Department of Gastroenterology and Hepatology, Second Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou 510006, China.",
+        "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China.",
+        "Department of Gastroenterology and Hepatology, Second Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou 510006, China.",
+        "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Jiawei",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Second Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou 510006, China.",
+          "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Siqi",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Second Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou 510006, China.",
+          "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China."
+        ]
+      },
+      {
+        "full_name": "Shou, Diwen",
+        "short_name": "Shou D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Second Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou 510006, China.",
+          "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Bo",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Second Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou 510006, China.",
+          "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shaohan",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Second Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou 510006, China.",
+          "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Tongtong",
+        "short_name": "Luo T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Huiting",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Second Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou 510006, China.",
+          "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Chen",
+        "short_name": "Huang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Second Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou 510006, China.",
+          "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yongjian",
+        "short_name": "Zhou Y",
+        "identifiers": [
+          "0000-0003-1721-7639"
+        ],
+        "affiliations": [
+          "Department of Gastroenterology and Hepatology, Second Affiliated Hospital, School of Medicine, South China University of Technology, Guangzhou 510006, China.",
+          "Department of Gastroenterology and Hepatology, Guangzhou Digestive Disease Center, Guangzhou First People's Hospital, Guangzhou 510013, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomedicines"
+    ],
+    "journal_abbrev": [
+      "Biomedicines"
+    ],
+    "pub_date": "2025 Jul 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/29 06:30",
+    "fetched_at": "2026-09-30 22:51:24"
+  },
+  "links": {
+    "cites": [
+      "41993162",
+      "41153726"
+    ],
+    "refs": [
+      "40507973",
+      "40507175",
+      "40078197",
+      "39294445",
+      "38658756",
+      "38428673",
+      "38308003",
+      "38280848",
+      "38215780",
+      "37663261",
+      "37556065",
+      "37338984",
+      "36114905",
+      "36002248",
+      "35586979",
+      "35563621",
+      "35038357",
+      "34417225",
+      "33597522",
+      "33568795",
+      "33273451",
+      "33042108",
+      "32980661",
+      "32928475",
+      "32863213",
+      "32278004",
+      "32001554",
+      "31597160",
+      "31419514",
+      "31178118",
+      "30642126",
+      "30517626",
+      "30201683",
+      "29844591",
+      "29320745",
+      "27664576",
+      "27396447",
+      "25822800",
+      "25539831",
+      "25295306",
+      "23563706",
+      "22455463",
+      "21414208",
+      "21319198",
+      "19114008",
+      "18497885",
+      "17767907",
+      "16603719",
+      "10960473"
+    ],
+    "similar": [
+      "40722708",
+      "41162503",
+      "39793853",
+      "40918148",
+      "39936105",
+      "40360670",
+      "39958950",
+      "41393260",
+      "40927774",
+      "40877393",
+      "41268541",
+      "41007773",
+      "40406118",
+      "40842856",
+      "38840205",
+      "41368350",
+      "39285685",
+      "41247865",
+      "41125916",
+      "39892308",
+      "40211257",
+      "40655952",
+      "41224720",
+      "37928903",
+      "39604470",
+      "40764361",
+      "41052072",
+      "39995143",
+      "41107929",
+      "37869071",
+      "41424060",
+      "40330909",
+      "41331663",
+      "40522140",
+      "41255601",
+      "41102315",
+      "40168801",
+      "41299485",
+      "41200169",
+      "37657050",
+      "38444758",
+      "39142001",
+      "40093327",
+      "40406126",
+      "41358199",
+      "41442003",
+      "40038775",
+      "41342434",
+      "40653046",
+      "40216908",
+      "41103643",
+      "41056488",
+      "40330470",
+      "39145004",
+      "41246341",
+      "40726500",
+      "39722894",
+      "39080525",
+      "38951833",
+      "38291374",
+      "40110132",
+      "41345488",
+      "40064115",
+      "40413726",
+      "40382612",
+      "35144542",
+      "41080564",
+      "40594788",
+      "36096296",
+      "39583859",
+      "36425072",
+      "41329453",
+      "41013727",
+      "41291978",
+      "40396179",
+      "41200201",
+      "39497821",
+      "39840076",
+      "41338474",
+      "40151199",
+      "40921229",
+      "41504052",
+      "41368255",
+      "40374866",
+      "39512836",
+      "40607061",
+      "37662928",
+      "40685483",
+      "40985305",
+      "40394449",
+      "41219826",
+      "39228284",
+      "40220593",
+      "41274397",
+      "39328906",
+      "40884939",
+      "39069636",
+      "41378005",
+      "39647286",
+      "41341129"
+    ],
+    "review": [
+      "40722708",
+      "40220593"
+    ],
+    "pmc": [
+      "12293006"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biomedicines13071636",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40722708/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SOX9-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-797",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

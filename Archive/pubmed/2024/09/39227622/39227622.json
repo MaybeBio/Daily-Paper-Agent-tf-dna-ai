@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "39227622",
+    "doi": "10.1038/s41598-024-71378-3",
+    "title": "Low-pass whole genome sequencing of circulating tumor cells to evaluate chromosomal instability in triple-negative breast cancer."
+  },
+  "content": {
+    "abstract": "Chromosomal Instability (CIN) is a common and evolving feature in breast cancer. Large-scale Transitions (LSTs), defined as chromosomal breakages leading to gains or losses of at least 10 Mb, have recently emerged as a metric of CIN due to their standardized definition across platforms. Herein, we report the feasibility of using low-pass Whole Genome Sequencing to assess LSTs, copy number alterations (CNAs) and their relationship in individual circulating tumor cells (CTCs) of triple-negative breast cancer (TNBC) patients. Initial assessment of LSTs in breast cancer cell lines consistently showed wide-ranging values (median 22, range 4-33, mean 21), indicating heterogeneous CIN. Subsequent analysis of CTCs revealed LST values (median 3, range 0-18, mean 5), particularly low during treatment, suggesting temporal changes in CIN levels. CNAs averaged 30 (range 5-49), with loss being predominant. As expected, CTCs with higher LSTs values exhibited increased CNAs. A CNA-based classifier of individual patient-derived CTCs, developed using machine learning, identified genes associated with both DNA proliferation and repair, such as RB1, MYC, and EXO1, as significant predictors of CIN. The model demonstrated a high predictive accuracy with an Area Under the Curve (AUC) of 0.89. Overall, these findings suggest that sequencing CTCs holds the potential to facilitate CIN evaluation and provide insights into its dynamic nature over time, with potential implications for monitoring TNBC progression through iterative assessments.",
+    "keywords": [
+      "Chromosomal instability",
+      "Circulating tumor cells",
+      "Copy number alterations",
+      "Large-scale transitions",
+      "Triple-negative breast cancer"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Area Under Curve",
+      "Cell Line, Tumor",
+      "Cell Proliferation/genetics",
+      "*Chromosomal Instability/genetics",
+      "DNA Copy Number Variations/genetics",
+      "DNA Repair/genetics",
+      "Feasibility Studies",
+      "Machine Learning",
+      "*Neoplastic Cells, Circulating",
+      "*Predictive Learning Models",
+      "Reproducibility of Results",
+      "*Triple Negative Breast Neoplasms/genetics",
+      "*Whole Genome Sequencing/methods/statistics & numerical data",
+      "Humans",
+      "Exodeoxyribonucleases",
+      "DNA Repair Enzymes",
+      "Proto-Oncogene Proteins c-myc",
+      "Ubiquitin-Protein Ligases",
+      "Retinoblastoma Binding Proteins"
+    ],
+    "pub_types": [
+      "Evaluation Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Di Cosimo, Serena",
+        "Silvestri, Marco",
+        "De Marco, Cinzia",
+        "Calzoni, Alessia",
+        "De Santis, Maria Carmen",
+        "Carnevale, Maria Grazia",
+        "Reduzzi, Carolina",
+        "Cristofanilli, Massimo",
+        "Cappelletti, Vera"
+      ],
+      "short_names": [
+        "Di Cosimo S",
+        "Silvestri M",
+        "De Marco C",
+        "Calzoni A",
+        "De Santis MC",
+        "Carnevale MG",
+        "Reduzzi C",
+        "Cristofanilli M",
+        "Cappelletti V"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Advanced Diagnostics, Fondazione IRCCS Istituto Nazionale Dei Tumori Di Milano, Via Venezian 1, 20100, Milan, Italy.",
+        "Department of Advanced Diagnostics, Fondazione IRCCS Istituto Nazionale Dei Tumori Di Milano, Via Venezian 1, 20100, Milan, Italy. marco.silvestri@istitutotumori.mi.it.",
+        "Isinnova S.R.L, Brescia, Italy. marco.silvestri@istitutotumori.mi.it.",
+        "Department of Advanced Diagnostics, Fondazione IRCCS Istituto Nazionale Dei Tumori Di Milano, Via Venezian 1, 20100, Milan, Italy.",
+        "Isinnova S.R.L, Brescia, Italy.",
+        "Department of Information Engineering, University of Brescia, Brescia, Italy.",
+        "Department of Radiation Oncology, Fondazione IRCCS Istituto Nazionale Dei Tumori Di Milano, Milan, Italy.",
+        "Breast Unit, Fondazione IRCCS Istituto Nazionale Dei Tumori Di Milano, Milan, Italy.",
+        "Department of Radiation Oncology, Fondazione IRCCS Istituto Nazionale Dei Tumori Di Milano, Milan, Italy.",
+        "Breast Unit, Fondazione IRCCS Istituto Nazionale Dei Tumori Di Milano, Milan, Italy.",
+        "Division of Hematology-Oncology, Weill Cornell Medicine, New York, NY, USA.",
+        "Division of Hematology-Oncology, Weill Cornell Medicine, New York, NY, USA.",
+        "Department of Advanced Diagnostics, Fondazione IRCCS Istituto Nazionale Dei Tumori Di Milano, Via Venezian 1, 20100, Milan, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Di Cosimo, Serena",
+        "short_name": "Di Cosimo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Advanced Diagnostics, Fondazione IRCCS Istituto Nazionale Dei Tumori Di Milano, Via Venezian 1, 20100, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Silvestri, Marco",
+        "short_name": "Silvestri M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Advanced Diagnostics, Fondazione IRCCS Istituto Nazionale Dei Tumori Di Milano, Via Venezian 1, 20100, Milan, Italy. marco.silvestri@istitutotumori.mi.it.",
+          "Isinnova S.R.L, Brescia, Italy. marco.silvestri@istitutotumori.mi.it."
+        ]
+      },
+      {
+        "full_name": "De Marco, Cinzia",
+        "short_name": "De Marco C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Advanced Diagnostics, Fondazione IRCCS Istituto Nazionale Dei Tumori Di Milano, Via Venezian 1, 20100, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Calzoni, Alessia",
+        "short_name": "Calzoni A",
+        "identifiers": [],
+        "affiliations": [
+          "Isinnova S.R.L, Brescia, Italy.",
+          "Department of Information Engineering, University of Brescia, Brescia, Italy."
+        ]
+      },
+      {
+        "full_name": "De Santis, Maria Carmen",
+        "short_name": "De Santis MC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Fondazione IRCCS Istituto Nazionale Dei Tumori Di Milano, Milan, Italy.",
+          "Breast Unit, Fondazione IRCCS Istituto Nazionale Dei Tumori Di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Carnevale, Maria Grazia",
+        "short_name": "Carnevale MG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Fondazione IRCCS Istituto Nazionale Dei Tumori Di Milano, Milan, Italy.",
+          "Breast Unit, Fondazione IRCCS Istituto Nazionale Dei Tumori Di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Reduzzi, Carolina",
+        "short_name": "Reduzzi C",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Hematology-Oncology, Weill Cornell Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Cristofanilli, Massimo",
+        "short_name": "Cristofanilli M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Hematology-Oncology, Weill Cornell Medicine, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Cappelletti, Vera",
+        "short_name": "Cappelletti V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Advanced Diagnostics, Fondazione IRCCS Istituto Nazionale Dei Tumori Di Milano, Via Venezian 1, 20100, Milan, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Sep 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Evaluation Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/04 01:01",
+    "fetched_at": "2026-09-30 02:15:07"
+  },
+  "links": {
+    "cites": [
+      "42481820",
+      "40452887",
+      "40227811",
+      "39827169"
+    ],
+    "refs": [
+      "38588415",
+      "36088510",
+      "36084384",
+      "35790747",
+      "35778502",
+      "35705807",
+      "35380536",
+      "35087134",
+      "35022204",
+      "34516829",
+      "34433815",
+      "33475288",
+      "32887501",
+      "32816908",
+      "32341031",
+      "31894314",
+      "30341162",
+      "29625050",
+      "29365031",
+      "28333072",
+      "27851748",
+      "27526321",
+      "26428292",
+      "25222836",
+      "25154812",
+      "24041940",
+      "22933060",
+      "21270108",
+      "20551164",
+      "17713584",
+      "16921376"
+    ],
+    "similar": [
+      "39227622",
+      "27851748",
+      "32816908",
+      "35087134",
+      "32738630",
+      "31364001",
+      "33562741",
+      "29494651",
+      "30022638",
+      "24970479",
+      "28487279",
+      "24651849",
+      "33098992",
+      "34403063",
+      "35792986",
+      "25846554",
+      "34768979",
+      "38905450",
+      "32650480",
+      "33743331",
+      "31462307",
+      "31705765",
+      "32401198",
+      "29297505",
+      "31784614",
+      "32380981",
+      "29233927",
+      "32784507",
+      "38105358",
+      "30977117",
+      "31151460",
+      "29298117",
+      "31481116",
+      "32341031",
+      "32644110",
+      "31113842",
+      "39545625",
+      "38721669",
+      "31939734",
+      "35896898",
+      "32705227",
+      "24559140",
+      "26818199",
+      "32247862",
+      "37166557",
+      "31348739",
+      "36123219",
+      "31894314",
+      "32860329",
+      "34163070",
+      "27852697",
+      "30642351",
+      "37680168",
+      "24866769",
+      "32558176",
+      "29996881",
+      "31216110",
+      "33306412",
+      "31361912",
+      "32299346",
+      "35563522",
+      "31238530",
+      "40179124",
+      "25164970",
+      "30576871",
+      "32132867",
+      "36266663",
+      "26219265",
+      "35722719",
+      "22048815",
+      "25307991",
+      "26806567",
+      "38744942",
+      "25107527",
+      "28212810",
+      "34272470",
+      "31240868",
+      "30371735",
+      "34606589",
+      "34465593",
+      "25307450",
+      "32887501",
+      "27813494",
+      "28957377",
+      "36781954",
+      "24096545",
+      "26537449",
+      "24970653",
+      "39705313",
+      "30450632",
+      "26540282",
+      "36747279",
+      "35380536",
+      "32337580",
+      "25770156",
+      "32255253",
+      "31160555",
+      "36930419",
+      "32512514",
+      "20062086"
+    ],
+    "review": [
+      "39227622",
+      "33562741",
+      "29297505"
+    ],
+    "pmc": [
+      "11372142"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-71378-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39227622/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1474",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

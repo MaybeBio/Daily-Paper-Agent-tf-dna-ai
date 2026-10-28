@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41191207",
+  "title": "Identification of lactylation-related biomarkers in HNSC by integrating machine learning and Spatial transcriptomics analysis.",
+  "authors": "Wang, Pu-Yu; Zheng, Yi-Ping; Zhao, Yu-Lin",
+  "journal": "Discover oncology",
+  "published_date": "2025-11-05",
+  "window": {
+    "start": "2025-11-03",
+    "end": "2025-11-09"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究通过机器学习与空间转录组学鉴定HNSC乳酸化相关生物标志物，核心为肿瘤预后与免疫浸润，未涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "OBJECTIVE: Head and neck squamous cell carcinoma (HNSC) is a common malignant tumor with a 5-year survival rate of less than 60% and lactylation modification plays a key role in its occurrence and progression. This study aims to identify key lactylation-related genes (LRGs) in HNSC and their prognostic impact by combining machine learning methods and spatial transcriptomics analysis. METHODS: High-throughput gene expression data of HNSC were obtained from the TCGA database. The \"Limma\" R package was used to screen differentially expressed genes (DEGs), and their biological significance was investigated through GO and KEGG functional enrichment analyses. Subsequently, weighted gene co-expression network analysis (WGCNA) was employed to identify disease trait-associated modules. We used 12 machine learning methods to screen for key genes and validated them in the GSE6631 dataset. Survival curves were plotted to evaluate the prognostic ability of key genes. Transcriptional regulation analysis via the \"RcisTarget\" package identified transcription factors associated with motifs exceeding NES  3.5. Single-cell and spatial transcriptomic analysis was performed, which involved dimensionality reduction, clustering via UMAP, cell type annotation and the plotting of spatial expression distribution maps of key genes. Finally, for immune infiltration analysis, the CIBERSORT algorithm was used to calculate the proportions of 22 types of immune cells, and then the correlations between key genes and immune-related genes were analyzed. RESULTS: Our study identified three key LRGs (MSN, KIF2C, and RFC4), which exhibited strong diagnostic performance, with AUC values of 0.986 for KIF2C, 0.964 for RFC4, and 0.89 for MSN in the TCGA-HNSC cohort. These findings were validated in the GSE6631 dataset. Western blotting showed a significant upregulation of the expression of these genes in the HNSC group, which was consistent with the RT-qPCR results. Survival analysis showed that the high expression of key genes was closely associated with a poorer overall survival (p < 0.05). Spatial transcriptomics analysis revealed that KIF2C, RFC4, and MSN were preferentially expressed in tumor core regions, indicating their involvement in the malignant microenvironment. Additionally, we discovered that 10 types of immune cell infiltrations were significantly changed in HNSC and well correlated with key genes. CONCLUSION: MSN, KIF2C and RFC4 may serve as potential biomarkers for diagnosing and predicting the prognosis of HNSC, providing new insights into targeted therapy.",
+  "abstract_zh": "目的：头颈部鳞状细胞癌（HNSC）是一种常见的恶性肿瘤，其5年生存率低于60%，乳酸化修饰在其发生和发展中起关键作用。本研究旨在通过结合机器学习方法和空间转录组学分析，识别HNSC中关键的乳酸化相关基因（LRGs）及其预后影响。方法：从TCGA数据库获取HNSC的高通量基因表达数据。使用“Limma”R包筛选差异表达基因（DEGs），并通过GO和KEGG功能富集分析研究其生物学意义。随后，采用加权基因共表达网络分析（WGCNA）识别与疾病性状相关的模块。我们使用12种机器学习方法筛选关键基因，并在GSE6631数据集中进行验证。绘制生存曲线以评估关键基因的预后能力。通过“RcisTarget”包进行转录调控分析，识别与NES > 3.5的基序相关的转录因子。进行了单细胞和空间转录组学分析，包括降维、通过UMAP聚类、细胞类型注释以及关键基因的空间表达分布图绘制。最后，对于免疫浸润分析，使用CIBERSORT算法计算22种免疫细胞的比例，然后分析关键基因与免疫相关基因之间的相关性。结果：我们的研究识别了三个关键LRGs（MSN、KIF2C和RFC4），它们表现出较强的诊断性能，在TCGA-HNSC队列中，KIF2C的AUC值为0.986，RFC4为0.964，MSN为0.89。这些发现在GSE6631数据集中得到验证。Western blotting显示，这些基因在HNSC组中的表达显著上调，这与RT-qPCR结果一致。生存分析显示，关键基因的高表达与较差的总生存期密切相关（p < 0.05）。空间转录组学分析揭示，KIF2C、RFC4和MSN在肿瘤核心区域优先表达，表明它们参与恶性微环境。此外，我们发现HNSC中10种免疫细胞的浸润发生显著变化，并与关键基因良好相关。结论：MSN、KIF2C和RFC4可能作为诊断和预测HNSC预后的潜在生物标志物，为靶向治疗提供新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41191207/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41191207/",
+  "paper_page_path": "papers/pubmed/41191207/index.html"
+}

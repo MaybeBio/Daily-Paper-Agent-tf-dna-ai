@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.11.28.569077",
+  "title": "TCR-H: Machine Learning Prediction of T-cell Receptor Epitope Binding on Unseen Datasets",
+  "authors": "Rajitha Rajeshwar T.; Omar Demerdash; Jeremy C. Smith",
+  "journal": "bioRxiv",
+  "published_date": "2023-11-29",
+  "window": {
+    "start": "2023-11-27",
+    "end": "2023-12-03"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用SVM预测T细胞受体-表位结合，对象为蛋白-肽互作而非蛋白质-DNA互作，且无三维结构建模或TF-DNA机制研究，与本课题关联度低。",
+  "abstract": "AI/ML approaches to predicting T-cell receptor (TCR) epitope specificity achieve high performance metrics on test datasets which include sequences that are also part of the training set but fail to generalize to test sets consisting of epitopes and TCRs that are absent from the training set, i.e., unseen. We present TCR-H, a supervised classification Support Vector Machines model using physicochemical features trained on the largest dataset available to date using only experimentally validated non-binders as negative datapoints. TCR-H exhibits an area under the curve of the receiver-operator characteristic (AUC of ROC) of 0.87 for epitope ‘hard splitting’ (i.e., on test sets with all epitopes unseen), 0.92 for TCR hard splitting and 0.89 for ‘strict splitting’ in which neither the epitopes nor the TCRs in the test set are seen in the training data. TCR-H may thus represent a significant step towards general applicability of epitope:TCR specificity prediction.",
+  "abstract_zh": "AI/ML方法在预测T细胞受体（TCR）表位特异性方面，在包含训练集中序列的测试数据集上取得了高性能指标，但未能泛化到由训练集中不存在的表位和TCR组成的测试集，即未见数据。我们提出了TCR-H，一种监督分类支持向量机模型，利用物理化学特征，在迄今为止最大的数据集上训练，仅使用实验验证的非结合剂作为负数据点。TCR-H在表位“硬分割”（即所有表位均未见的测试集）上的接收者操作特征曲线下面积（AUC of ROC）为0.87，在TCR硬分割上为0.92，在“严格分割”（测试集中的表位和TCR均未在训练数据中出现）上为0.89。因此，TCR-H可能代表了向表位：TCR特异性预测普遍适用性迈出的重要一步。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.11.28.569077",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.11.28.569077",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.11.28.569077/index.html"
+}

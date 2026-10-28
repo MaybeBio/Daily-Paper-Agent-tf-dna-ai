@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34179848",
+  "title": "ACSNI: An unsupervised machine-learning tool for prediction of tissue-specific pathway components using gene expression profiles.",
+  "authors": "Anene, Chinedu Anthony; Khan, Faraz; Bewicke-Copley, Findlay; Maniati, Eleni; Wang, Jun",
+  "journal": "Patterns (New York, N.Y.)",
+  "published_date": "2021-06-29",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用无监督深度学习从基因表达谱预测组织特异性通路组分，虽涉及转录因子结合数据验证，但核心是通路推断而非蛋白质-DNA互作建模，方法也不针对TF-DNA结合机制。",
+  "abstract": "Determining the tissue- and disease-specific circuit of biological pathways remains a fundamental goal of molecular biology. Many components of these biological pathways still remain unknown, hindering the full and accurate characterization of biological processes of interest. Here we describe ACSNI, an algorithm that combines prior knowledge of biological processes with a deep neural network to effectively decompose gene expression profiles (GEPs) into multi-variable pathway activities and identify unknown pathway components. Experiments on public GEP data show that ACSNI predicts cogent components of mTOR, ATF2, and HOTAIRM1 signaling that recapitulate regulatory information from genetic perturbation and transcription factor binding datasets. Our framework provides a fast and easy-to-use method to identify components of signaling pathways as a tool for molecular mechanism discovery and to prioritize genes for designing future targeted experiments (https://github.com/caanene1/ACSNI).",
+  "abstract_zh": "确定生物途径的组织特异性和疾病特异性回路仍然是分子生物学的基本目标。这些生物途径的许多组成部分仍然未知，阻碍了对感兴趣生物过程的全面和准确表征。在此，我们描述了ACSNI，一种将生物过程的先验知识与深度神经网络相结合的算法，能够有效将基因表达谱（GEPs）分解为多变量途径活性，并识别未知的途径组成部分。对公共GEP数据的实验表明，ACSNI预测了mTOR、ATF2和HOTAIRM1信号传导的合理组成部分，这些部分重现了来自遗传扰动和转录因子结合数据集中的调控信息。我们的框架提供了一种快速且易于使用的方法来识别信号传导途径的组成部分，作为分子机制发现的工具，并优先考虑用于设计未来靶向实验的基因（https://github.com/caanene1/ACSNI）。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34179848/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34179848/",
+  "paper_page_path": "papers/pubmed/34179848/index.html"
+}

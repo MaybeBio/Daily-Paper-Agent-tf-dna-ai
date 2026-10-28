@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.03.05.583540",
+  "title": "Protein Embeddings Predict Binding Residues in Disordered Regions",
+  "authors": "Laura R. Jahn; Céline Marquet; Michael Heinzinger; Burkhard Rost",
+  "journal": "bioRxiv",
+  "published_date": "2024-03-06",
+  "window": {
+    "start": "2024-03-04",
+    "end": "2024-03-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用蛋白质语言模型ProtT5预测无序区域中的结合残基，虽涉及蛋白质-配体（含核苷酸）互作，但非聚焦TF-DNA体系，方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "The identification of protein binding residues helps to understand their biological processes as protein function is often defined through ligand binding, such as to other proteins, small molecules, ions, or nucleotides. Methods predicting binding residues often err for intrinsically disordered proteins or regions (IDPs/IDPRs), often also referred to as molecular recognition features (MoRFs). Here, we presented a novel machine learning (ML) model trained to specifically predict binding regions in IDPRs. The proposed model, IDBindT5, leveraged embeddings from the protein language model (pLM) ProtT5 to reach a balanced accuracy of 57.2±3.6% (95% confidence interval). Assessed on the same data set, this did not differ at the 95% CI from the state-of-the-art (SOTA) methods ANCHOR2 and DeepDISOBind that rely on expert-crafted features and evolutionary information from multiple sequence alignments (MSAs). Assessed on differ data, methods such as SPOT-MoRF reached higher MCCs. IDBindT5’s SOTA predictions are much faster than other methods, easily enabling full-proteome analyses. Our findings emphasize the potential of pLMs as a promising approach for exploring and predicting features of disordered proteins. The model and a comprehensive manual are publicly available at https://github.com/jahnl/binding_in_disorder .",
+  "abstract_zh": "蛋白质结合残基的识别有助于理解其生物过程，因为蛋白质功能通常通过配体结合来定义，例如与其他蛋白质、小分子、离子或核苷酸的结合。预测结合残基的方法在本质上无序的蛋白质或区域（IDPs/IDPRs）上常常出错，这些区域也常被称为分子识别特征（MoRFs）。在此，我们提出了一种新型机器学习（ML）模型，专门训练用于预测IDPRs中的结合区域。所提出的模型IDBindT5利用蛋白质语言模型（pLM）ProtT5的嵌入，达到了57.2±3.6%（95%置信区间）的平衡准确率。在相同数据集上评估时，这一结果在95%置信区间内与依赖专家设计特征和多重序列比对（MSAs）进化信息的最先进（SOTA）方法ANCHOR2和DeepDISOBind无显著差异。在不同数据上评估时，如SPOT-MoRF等方法达到了更高的马修斯相关系数（MCCs）。IDBindT5的SOTA预测速度远快于其他方法，轻松实现全蛋白质组分析。我们的发现强调了pLMs作为探索和预测无序蛋白质特征的有前景方法的潜力。该模型及详细手册可在https://github.com/jahnl/binding_in_disorder 公开获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.03.05.583540",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.03.05.583540",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.03.05.583540/index.html"
+}

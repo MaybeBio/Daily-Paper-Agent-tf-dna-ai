@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "39498560",
+    "doi": "10.1002/prot.26759",
+    "title": "Exploring the Dynamic Interplay of Deleterious Variants on the RAF1-RAP1A Binding in Cancer: Conformational Analysis, Binding Free Energy, and Essential Dynamics."
+  },
+  "content": {
+    "abstract": "The RAF1-RAP1A interaction activates the MAPK/ERK pathway which is very crucial in the carcinogenesis process. This protein complex influences tumor formation, proliferation, and metastasis. Understanding aberrant interactions driven by clinical mutations is vital for targeted therapies. Hence, the current study focuses on the screening of clinically reported substitutions in the RAF1 and RAP1A genes using predictive algorithms integrated with all-atoms simulation, essential dynamics, and binding free energy methods. Survival analysis results revealed a strong association between RAF1 and RAP1A expression levels and diminished survival rates in cancer patients across different cancer types. Integrated machine learning algorithms showed that among the 134 mutations reported for these 2 proteins, only 13 and 35 were classified as deleterious mutations in RAF1 and RAP1P, respectively. Moreover, one mutation in RAF1 reported elevated levels of binding between RAF1 and RAP1P while in RAP1A, 7 mutations were reported to increase the binding affinity. The high-binding mutations, P34Q and V60F, were subjected to protein-protein coupling which confirmed the increase in the binding affinity. Wild-type and mutant RAF1-RAP1P bound complexes were subjected to molecular simulation investigation, revealing enhanced structural stability, increased compactness, and stabilized residue fluctuations of the mutant systems in contrast to the wild-type. In addition, hydrogen bonding analysis revealed a variation in the binding paradigm which further underscores the impact of these substitutions on the coupling of RAF1 and RAP1A. Principal component analysis (PCA) and free energy landscape (FEL) evaluation further determined dynamical variations in the wild-type and mutant complexes. Finally, the Gibbs free energy for each complex was estimated and found to be -71.94 +/- 0.38 kcal/mol for the wild-type, -95.57 +/- 0.37 kcal/mol for the V60F, and -85.76 +/- 0.72 kcal/mol for P34Q complex. These findings confirm the effect of these variants on increasing the binding affinity of RAF1 to RAP1P. These mutations can therefore be targeted for cancer therapy to modulate the activity of the MAPK/ERK signaling pathway.",
+    "keywords": [
+      "MAPK",
+      "RAF1",
+      "binding free energy",
+      "cancer",
+      "docking",
+      "mutations",
+      "simulation"
+    ],
+    "mesh_terms": [
+      "*Proto-Oncogene Proteins c-raf/genetics/chemistry/metabolism",
+      "Humans",
+      "Protein Binding",
+      "*Neoplasms/genetics/metabolism/pathology",
+      "Molecular Dynamics Simulation",
+      "*rap1 GTP-Binding Proteins/genetics/chemistry/metabolism",
+      "Mutation",
+      "Thermodynamics",
+      "Protein Conformation",
+      "Binding Sites",
+      "Shelterin Complex",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khan, Abbas",
+        "Ali, Syed Shujait",
+        "Zahid, Muhammad Ammar",
+        "Abdelsalam, Shahenda Salah",
+        "Albekairi, Noorah",
+        "Al-Zoubi, Raed M",
+        "Shkoor, Mohanad",
+        "Wei, Dong-Qing",
+        "Agouni, Abdelali"
+      ],
+      "short_names": [
+        "Khan A",
+        "Ali SS",
+        "Zahid MA",
+        "Abdelsalam SS",
+        "Albekairi N",
+        "Al-Zoubi RM",
+        "Shkoor M",
+        "Wei DQ",
+        "Agouni A"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-9754-9097",
+        "ORCID: 0000-0002-6676-5546",
+        "ORCID: 0000-0002-0548-429X",
+        "ORCID: 0000-0002-6748-3663",
+        "ORCID: 0000-0003-4200-7502",
+        "ORCID: 0000-0002-8363-1582"
+      ],
+      "affiliations": [
+        "Department of Pharmaceutical Sciences, College of Pharmacy, QU Health, Qatar University, Doha, Qatar.",
+        "Center for Biotechnology and Microbiology, University of Swat, Swat, Pakistan.",
+        "Department of Pharmaceutical Sciences, College of Pharmacy, QU Health, Qatar University, Doha, Qatar.",
+        "Department of Pharmaceutical Sciences, College of Pharmacy, QU Health, Qatar University, Doha, Qatar.",
+        "College of Pharmacy, King Saud University, Riyadh, Saudi Arabia.",
+        "Surgical Research Section, Department of Surgery, Hamad Medical Corporation, Doha, Qatar.",
+        "Department of Biomedical Sciences, College of Health Sciences, QU Health, Qatar University, Doha, Qatar.",
+        "Department of Chemistry, Jordan University of Science and Technology, Irbid, Jordan.",
+        "Department of Chemistry, College of Arts and Science, Qatar University, Doha, Qatar.",
+        "Department of Bioinformatics and Biostatistics, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+        "Department of Pharmaceutical Sciences, College of Pharmacy, QU Health, Qatar University, Doha, Qatar."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Khan, Abbas",
+        "short_name": "Khan A",
+        "identifiers": [
+          "0009-0008-9754-9097"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, College of Pharmacy, QU Health, Qatar University, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Ali, Syed Shujait",
+        "short_name": "Ali SS",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biotechnology and Microbiology, University of Swat, Swat, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Zahid, Muhammad Ammar",
+        "short_name": "Zahid MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, College of Pharmacy, QU Health, Qatar University, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Abdelsalam, Shahenda Salah",
+        "short_name": "Abdelsalam SS",
+        "identifiers": [
+          "0000-0002-6676-5546"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, College of Pharmacy, QU Health, Qatar University, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Albekairi, Noorah",
+        "short_name": "Albekairi N",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, King Saud University, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Al-Zoubi, Raed M",
+        "short_name": "Al-Zoubi RM",
+        "identifiers": [
+          "0000-0002-0548-429X"
+        ],
+        "affiliations": [
+          "Surgical Research Section, Department of Surgery, Hamad Medical Corporation, Doha, Qatar.",
+          "Department of Biomedical Sciences, College of Health Sciences, QU Health, Qatar University, Doha, Qatar.",
+          "Department of Chemistry, Jordan University of Science and Technology, Irbid, Jordan."
+        ]
+      },
+      {
+        "full_name": "Shkoor, Mohanad",
+        "short_name": "Shkoor M",
+        "identifiers": [
+          "0000-0002-6748-3663"
+        ],
+        "affiliations": [
+          "Department of Chemistry, College of Arts and Science, Qatar University, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Wei, Dong-Qing",
+        "short_name": "Wei DQ",
+        "identifiers": [
+          "0000-0003-4200-7502"
+        ],
+        "affiliations": [
+          "Department of Bioinformatics and Biostatistics, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Agouni, Abdelali",
+        "short_name": "Agouni A",
+        "identifiers": [
+          "0000-0002-8363-1582"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, College of Pharmacy, QU Health, Qatar University, Doha, Qatar."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2025 Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/05 06:21",
+    "fetched_at": "2026-09-30 05:32:55"
+  },
+  "links": {
+    "cites": [
+      "40552160"
+    ],
+    "refs": [
+      "37116237",
+      "36966556",
+      "35905763",
+      "35520925",
+      "35063482",
+      "34859531",
+      "34309564",
+      "34160124",
+      "33755190",
+      "33106741",
+      "32881105",
+      "31114883",
+      "30332914",
+      "29067736",
+      "28482034",
+      "27444142",
+      "27193693",
+      "26592383",
+      "26583988",
+      "25435214",
+      "24840647",
+      "24453961",
+      "23620713",
+      "23315928",
+      "22689647",
+      "22569528",
+      "21376230",
+      "20674547",
+      "20020197",
+      "19403886",
+      "18383312",
+      "16200636",
+      "15520807",
+      "12580598",
+      "7791872"
+    ],
+    "similar": [
+      "39498560",
+      "40671268",
+      "38174700",
+      "12850155",
+      "42011130",
+      "40568771",
+      "39975035",
+      "39253929",
+      "34124147",
+      "26695135",
+      "17063491",
+      "30047829",
+      "41192394",
+      "20964430",
+      "37676253",
+      "9593192",
+      "31351319",
+      "35533461",
+      "39659205",
+      "34943225",
+      "34655895",
+      "35730263",
+      "27233604",
+      "38686915",
+      "41964725",
+      "35905763",
+      "10210183",
+      "39589174",
+      "41373498",
+      "39227512",
+      "41307241",
+      "30154518",
+      "37527610",
+      "29725908",
+      "38281913",
+      "9931261",
+      "25671669",
+      "32726718",
+      "27592836",
+      "37325478",
+      "12054776",
+      "32086379",
+      "33164832",
+      "40347167",
+      "35504219",
+      "40524540",
+      "41780347",
+      "26257512",
+      "41266486",
+      "37716293",
+      "39264528",
+      "24371145",
+      "39535182",
+      "38084778",
+      "38242392",
+      "38502682",
+      "40446511",
+      "40033499",
+      "39275052",
+      "31602686",
+      "20052757",
+      "39653633",
+      "41489074",
+      "42118388",
+      "39775383",
+      "40085404",
+      "37646701",
+      "31035038",
+      "31490001",
+      "39635719",
+      "41575723",
+      "41616695",
+      "29048999",
+      "39673548",
+      "38760447",
+      "37661778",
+      "11146560",
+      "25386707",
+      "38434705",
+      "42130234",
+      "10454553",
+      "39710177",
+      "39769245",
+      "39264222",
+      "41853684",
+      "16916524",
+      "38115191",
+      "35429048",
+      "15211515",
+      "29433424",
+      "24526384",
+      "35587097",
+      "36188571",
+      "40643983",
+      "38529923",
+      "36733340",
+      "31476406",
+      "26273990",
+      "38450706",
+      "19562127"
+    ],
+    "review": [
+      "39498560",
+      "40671268"
+    ],
+    "pmc": [
+      "11809134"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39498560/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/prot.26759",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAF1-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1335",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

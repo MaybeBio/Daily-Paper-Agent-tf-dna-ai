@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "39110383",
+    "doi": "10.1007/s12033-024-01245-z",
+    "title": "Study of the Immune Infiltration and Sonic Hedgehog Expression Mechanism in Synovial Tissue of Rheumatoid Arthritis-Related Interstitial Lung Disease under Machine Learning CIBERSORT Algorithm."
+  },
+  "content": {
+    "abstract": "Rheumatoid arthritis-related interstitial lung disease (RA-ILD) is one of the common complications in patients with RA, which affects their quality of life. The CIBERSORT algorithm is widely employed to determine the proportion of immune cells (ICs) in diseased tissues, while the Sonic Hedgehog (Shh) signaling pathway, as an imperative regulatory factor, has also attracted attention in the pathology of RA-ILD. This work was to explore the mechanisms of RA-ILD immune infiltration and synovial tissue (ST) Shh expression based on the CIBERSORT algorithm. The differential genes of RA-ILD were subjected to pathway enrichment analysis using R language. The content and proportion of 22 types of ICs in RA-ILD lung tissues were analyzed using machine learning-based CIBERSORT algorithm. Meanwhile, immunoblotting was employed to detect and analyze the expression of Shh, Smoothened (Smo), and bone morphogenetic proteins (BMPs) proteins in ST samples from RA-ILD and Ctrl groups (RA patients without ILD). The hub target genes in the protein network associated with RA-ILD include BSG, CCL2, CTLA4, FGFBP1, GLI1, HHIP, HLA-DRB1, IFNAR1, IL17A, IL23A, IL-6, INPP4A, LILRB1, MUC5B, PADI4, PPM1A, PTCH1, PTPN22, RSPO4, Shh, SMO, STAT4, SUFU, TAOK2, TIMP2, and TWSG1, which are involved in multiple pathways, such as B cell regulation, transcription factors of the Shh pathway, and ST immune tolerance-related pathways. In the immunological analysis of RA-ILD using the CIBERSORT algorithm, HLA (r = - 0.26), PTPN22 (r = - 0.36), STAT4 (r = - 0.18), IL-6 (r = - 0.17), CTLA4 (r = - 0.27), and PADI4 (r = - 0.21) were all found to exhibit negative correlations with CD4+T cells (P < 0.05). Monocytes were found to be more abundant in RA-ILD patients' serum versus the Ctrl group. Shh, Smo, and BMP expressions were drastically lower in the RA-ILD group versus Ctrl group (P < 0.05). Significant immune cell infiltration was observed in the lung tissues of RA-ILD patients. Further analysis utilizing the CIBERSORT algorithm revealed alterations in the proportions of different IC subtypes, indicating their association with disease severity and prognosis. Moreover, there was a significant decrease in the expression levels of Shh, Smo, and BMP. These findings underscore the importance of immune cells in the pathophysiology of RA-ILD and suggest a potential involvement of the Shh signaling pathway in the pathogenesis of RA-ILD.",
+    "keywords": [
+      "CIBERSORT algorithm",
+      "Expression of Shh",
+      "Lung disease immune infiltration",
+      "RA-ILD",
+      "Synovial tissue"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Arthritis, Rheumatoid/complications/immunology/genetics",
+      "*Hedgehog Proteins/genetics/metabolism",
+      "*Machine Learning",
+      "*Synovial Membrane/metabolism/immunology/pathology",
+      "*Lung Diseases, Interstitial/immunology/etiology/genetics/metabolism/pathology",
+      "Algorithms",
+      "Signal Transduction",
+      "Bone Morphogenetic Proteins/metabolism/genetics",
+      "Smoothened Receptor/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Qunqun",
+        "Jiang, Yizhen",
+        "Cang, Xiaofeng",
+        "Pan, Jiaojiao",
+        "Shen, Xiaowen",
+        "Tang, Ruoyu",
+        "Zhou, Zhe",
+        "Zhu, Yiwen"
+      ],
+      "short_names": [
+        "Lu Q",
+        "Jiang Y",
+        "Cang X",
+        "Pan J",
+        "Shen X",
+        "Tang R",
+        "Zhou Z",
+        "Zhu Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-1911-2260"
+      ],
+      "affiliations": [
+        "Department of Rheumatology and Immunology, Suzhou Ninth People's Hospital, Wujiang, Suzhou, 215299, China.",
+        "Department of Rheumatology and Immunology, Suzhou Ninth People's Hospital, Wujiang, Suzhou, 215299, China.",
+        "Department of Rheumatology and Immunology, Suzhou Ninth People's Hospital, Wujiang, Suzhou, 215299, China.",
+        "Department of Rheumatology and Immunology, Suzhou Ninth People's Hospital, Wujiang, Suzhou, 215299, China.",
+        "Department of Rheumatology and Immunology, Suzhou Ninth People's Hospital, Wujiang, Suzhou, 215299, China.",
+        "Department of Rheumatology and Immunology, Suzhou Ninth People's Hospital, Wujiang, Suzhou, 215299, China.",
+        "Department of Rheumatology and Immunology, Suzhou Ninth People's Hospital, Wujiang, Suzhou, 215299, China.",
+        "Department of Rheumatology and Immunology, Suzhou Ninth People's Hospital, Wujiang, Suzhou, 215299, China. 1729998625@qq.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Qunqun",
+        "short_name": "Lu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Suzhou Ninth People's Hospital, Wujiang, Suzhou, 215299, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yizhen",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Suzhou Ninth People's Hospital, Wujiang, Suzhou, 215299, China."
+        ]
+      },
+      {
+        "full_name": "Cang, Xiaofeng",
+        "short_name": "Cang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Suzhou Ninth People's Hospital, Wujiang, Suzhou, 215299, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Jiaojiao",
+        "short_name": "Pan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Suzhou Ninth People's Hospital, Wujiang, Suzhou, 215299, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Xiaowen",
+        "short_name": "Shen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Suzhou Ninth People's Hospital, Wujiang, Suzhou, 215299, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Ruoyu",
+        "short_name": "Tang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Suzhou Ninth People's Hospital, Wujiang, Suzhou, 215299, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zhe",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Suzhou Ninth People's Hospital, Wujiang, Suzhou, 215299, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yiwen",
+        "short_name": "Zhu Y",
+        "identifiers": [
+          "0009-0008-1911-2260"
+        ],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Suzhou Ninth People's Hospital, Wujiang, Suzhou, 215299, China. 1729998625@qq.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular biotechnology"
+    ],
+    "journal_abbrev": [
+      "Mol Biotechnol"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/07 12:42",
+    "fetched_at": "2026-10-05 01:46:18"
+  },
+  "links": {
+    "cites": [
+      "41870745",
+      "41658427",
+      "41588920",
+      "41362116",
+      "41229424",
+      "40993499",
+      "40818002",
+      "40767898",
+      "40719989",
+      "40547599",
+      "40540299",
+      "40395456",
+      "40055697",
+      "40008534",
+      "39990773"
+    ],
+    "refs": [
+      "37442233",
+      "37115484",
+      "37097427",
+      "36939701",
+      "36794391",
+      "36311708",
+      "36075242",
+      "36061826",
+      "35695895",
+      "35315883",
+      "35121155",
+      "35078458",
+      "35055087",
+      "34971754",
+      "34910358",
+      "34831240",
+      "34726985",
+      "34592910",
+      "33635222",
+      "33609792",
+      "33314622",
+      "33117604",
+      "33046884",
+      "32794076",
+      "32260219",
+      "32141954",
+      "31792027",
+      "31702025",
+      "31541181",
+      "31058710",
+      "30469014",
+      "1866629"
+    ],
+    "similar": [
+      "39110383",
+      "24741597",
+      "26552406",
+      "40056511",
+      "39953769",
+      "25406358",
+      "36088884",
+      "34113405",
+      "39723749",
+      "39412518",
+      "32142504",
+      "34477936",
+      "29287593",
+      "27372294",
+      "32526259",
+      "40071296",
+      "36699262",
+      "41060747",
+      "39260308",
+      "38753688",
+      "36155967",
+      "34654367",
+      "40156412",
+      "28720095",
+      "37759458",
+      "39983663",
+      "41052072",
+      "30568656",
+      "40644421",
+      "39845946",
+      "40033001",
+      "32168865",
+      "30345907",
+      "38745204",
+      "38711508",
+      "36261881",
+      "34275739",
+      "39509434",
+      "41116042",
+      "23867990",
+      "38728884",
+      "26658865",
+      "39139563",
+      "34691030",
+      "26189371",
+      "27317298",
+      "26997437",
+      "24063979",
+      "23716070",
+      "35590341",
+      "34580585",
+      "39844268",
+      "34484236",
+      "40500570",
+      "40229742",
+      "11192540",
+      "33446260",
+      "36045515",
+      "30933423",
+      "40814094",
+      "27221780",
+      "39748687",
+      "40636121",
+      "41088837",
+      "38302188",
+      "33638296",
+      "25693592",
+      "20024066",
+      "16542506",
+      "17007023",
+      "20821230",
+      "33625044",
+      "39875062",
+      "29564556",
+      "37480451",
+      "38130211",
+      "39110542",
+      "24205507",
+      "26443305",
+      "38928165",
+      "33206287",
+      "39690755",
+      "40592131",
+      "24930892",
+      "34344703",
+      "41091209",
+      "35947933",
+      "36581384",
+      "31634481",
+      "29438014",
+      "34585990",
+      "24388991",
+      "28103855",
+      "17089004",
+      "35314903",
+      "28871954",
+      "31471819",
+      "30537251",
+      "28352064",
+      "37833957"
+    ],
+    "review": [
+      "39110383",
+      "20024066",
+      "33625044",
+      "24205507",
+      "38928165",
+      "33206287",
+      "36581384",
+      "17089004"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/interstitiallungdiseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Interstitial Lung Diseases"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12033-024-01245-z",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-DQA1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3385",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

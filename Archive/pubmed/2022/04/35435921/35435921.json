@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "35435921",
+    "doi": "10.1167/tvst.11.4.16",
+    "title": "Machine Learning Prediction of Non-Coding Variant Impact in Human Retinal cis-Regulatory Elements."
+  },
+  "content": {
+    "abstract": "PURPOSE: Prior studies have demonstrated the significance of specific cis-regulatory variants in retinal disease; however, determining the functional impact of regulatory variants remains a major challenge. In this study, we utilized a machine learning approach, trained on epigenomic data from the adult human retina, to systematically quantify the predicted impact of cis-regulatory variants. METHODS: We used human retinal DNA accessibility data (ATAC-seq) to determine a set of 18.9k high-confidence, putative cis-regulatory elements. Eighty percent of these elements were used to train a machine learning model utilizing a gapped k-mer support vector machine-based approach. In silico saturation mutagenesis and variant scoring was applied to predict the functional impact of all potential single nucleotide variants within cis-regulatory elements. Impact scores were tested in a 20% hold-out dataset and compared to allele population frequency, phylogenetic conservation, transcription factor (TF) binding motifs, and existing massively parallel reporter assay data. RESULTS: We generated a model that distinguishes between human retinal regulatory elements and negative test sequences with 95% accuracy. Among a hold-out test set of 3.7k human retinal CREs, all possible single nucleotide variants were scored. Variants with negative impact scores correlated with higher phylogenetic conservation of the reference allele, disruption of predicted TF binding motifs, and massively parallel reporter expression. CONCLUSIONS: We demonstrated the utility of human retinal epigenomic data to train a machine learning model for the purpose of predicting the impact of non-coding regulatory sequence variants. Our model accurately scored sequences and predicted putative transcription factor binding motifs. This approach has the potential to expedite the characterization of pathogenic non-coding sequence variants in the context of unexplained retinal disease. TRANSLATIONAL RELEVANCE: This workflow and resulting dataset serve as a promising genomic tool to facilitate the clinical prioritization of functionally disruptive non-coding mutations in the retina.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "Nucleotides",
+      "Phylogeny",
+      "Retina",
+      "*Retinal Diseases/genetics",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "VandenBosch, Leah S",
+        "Luu, Kelsey",
+        "Timms, Andrew E",
+        "Challam, Shriya",
+        "Wu, Yue",
+        "Lee, Aaron Y",
+        "Cherry, Timothy J"
+      ],
+      "short_names": [
+        "VandenBosch LS",
+        "Luu K",
+        "Timms AE",
+        "Challam S",
+        "Wu Y",
+        "Lee AY",
+        "Cherry TJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA.",
+        "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA.",
+        "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA.",
+        "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA.",
+        "University of Washington Department of Ophthalmology, Seattle, WA, USA.",
+        "University of Washington Department of Ophthalmology, Seattle, WA, USA.",
+        "Brotman Baty Institute for Precision Medicine, Seattle, WA, USA.",
+        "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA.",
+        "Brotman Baty Institute for Precision Medicine, Seattle, WA, USA.",
+        "University of Washington Department of Pediatrics, Seattle, WA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "VandenBosch, Leah S",
+        "short_name": "VandenBosch LS",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Luu, Kelsey",
+        "short_name": "Luu K",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Timms, Andrew E",
+        "short_name": "Timms AE",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Challam, Shriya",
+        "short_name": "Challam S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Yue",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "University of Washington Department of Ophthalmology, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Aaron Y",
+        "short_name": "Lee AY",
+        "identifiers": [],
+        "affiliations": [
+          "University of Washington Department of Ophthalmology, Seattle, WA, USA.",
+          "Brotman Baty Institute for Precision Medicine, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Cherry, Timothy J",
+        "short_name": "Cherry TJ",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Developmental Biology and Regenerative Medicine, Seattle Children's Research Institute, Seattle, WA, USA.",
+          "Brotman Baty Institute for Precision Medicine, Seattle, WA, USA.",
+          "University of Washington Department of Pediatrics, Seattle, WA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational vision science & technology"
+    ],
+    "journal_abbrev": [
+      "Transl Vis Sci Technol"
+    ],
+    "pub_date": "2022 Apr 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/19 06:00",
+    "fetched_at": "2026-09-28 07:38:38"
+  },
+  "links": {
+    "cites": [
+      "41381741",
+      "40519652",
+      "40060626",
+      "39778579",
+      "39276353",
+      "38538340",
+      "37926287",
+      "37662358",
+      "36043696"
+    ],
+    "refs": [
+      "34486522",
+      "33689769",
+      "33654266",
+      "33590861",
+      "33581335",
+      "33442000",
+      "32870927",
+      "32741549",
+      "32461654",
+      "32265282",
+      "31915147",
+      "31884638",
+      "31776829",
+      "31206543",
+      "31106481",
+      "30742112",
+      "30158147",
+      "30034950",
+      "30013107",
+      "29987030",
+      "29945882",
+      "29636475",
+      "29140464",
+      "28524769",
+      "28472656",
+      "28250457",
+      "28120510",
+      "27783940",
+      "27153584",
+      "26949250",
+      "26691988",
+      "26301843",
+      "26075791",
+      "25033408",
+      "24360275",
+      "23861382",
+      "23498934",
+      "23138309",
+      "23129659",
+      "22973536",
+      "22955828",
+      "22955616",
+      "22887818",
+      "22868264",
+      "22373907",
+      "22307276",
+      "21441919",
+      "21330290",
+      "20513432",
+      "20362068",
+      "20110278",
+      "20080505",
+      "19858363",
+      "19505943",
+      "18798982",
+      "17943463",
+      "16096348",
+      "15196954",
+      "12045153",
+      "2788922"
+    ],
+    "similar": [
+      "35435921",
+      "40060626",
+      "31884638",
+      "38517697",
+      "31362726",
+      "35303433",
+      "29617928",
+      "38184646",
+      "28204611",
+      "25340786",
+      "31106481",
+      "37805453",
+      "38355306",
+      "34486522",
+      "38760655",
+      "40250421",
+      "36690178",
+      "39386531",
+      "38715516",
+      "35858748",
+      "26499213",
+      "37926287",
+      "32043966",
+      "32265282",
+      "37600946",
+      "38889146",
+      "31737053",
+      "34898596",
+      "34567058",
+      "40205616",
+      "38953319",
+      "27980060",
+      "35410163",
+      "36510125",
+      "32192535",
+      "31206543",
+      "37292699",
+      "38383453",
+      "26476779",
+      "25442502",
+      "31053165",
+      "16807757",
+      "37569400",
+      "38451770",
+      "39469763",
+      "33300042",
+      "39778579",
+      "31228310",
+      "32133495",
+      "38354497",
+      "38644556",
+      "28335009",
+      "39482734",
+      "29893792",
+      "38538340",
+      "34750410",
+      "39127768",
+      "16362910",
+      "27406314",
+      "37751945",
+      "29855387",
+      "17653270",
+      "28120510",
+      "35143088",
+      "30304335",
+      "36243009",
+      "38093018",
+      "36057196",
+      "31915147",
+      "39943688",
+      "39326643",
+      "36640767",
+      "23512712",
+      "28234893",
+      "39152038",
+      "38183205",
+      "38234731",
+      "21730952",
+      "39506564",
+      "34973416",
+      "39255977",
+      "26072432",
+      "32444882",
+      "36715222",
+      "28525990",
+      "36273432",
+      "27161480",
+      "39362779",
+      "36454649",
+      "21554730",
+      "36178783",
+      "28691125",
+      "37950299",
+      "36246618",
+      "35037783",
+      "25637093",
+      "35471887",
+      "40065237",
+      "31871587",
+      "35486646"
+    ],
+    "review": [
+      "35435921",
+      "31884638",
+      "38715516",
+      "26499213",
+      "16807757",
+      "29893792",
+      "38538340",
+      "38093018",
+      "36057196",
+      "26072432",
+      "39362779"
+    ],
+    "pmc": [
+      "9034719"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/retinaldisorders.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Retinal Disorders"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35435921/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35435921",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35435921",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://tvst.arvojournals.org/article.aspx?doi=10.1167/tvst.11.4.16",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,13 @@
+# Predicting gene regulatory networks from multi-omics to link genetic risk variants and neuroimmunology to Alzheimer’s disease phenotypes
+
+
+## Background
+  Genome-wide association studies have found many genetic risk variants associated with Alzheimer’s disease (AD). However, how these risk variants affect deeper phenotypes such as disease progression and immune response remains elusive. Also, our understanding of cellular and molecular mechanisms from disease risk variants to various phenotypes is still limited. To address these problems, we performed an integrative multi-omics analysis of genotype, transcriptomics, and epigenomics for revealing gene regulatory mechanisms from disease variants to AD phenotypes.
+
+
+## Method
+  First, given the population gene expression data of a cohort, we construct and cluster its gene co-expression network to identify gene co-expression modules for various AD phenotypes. Next, we predict transcription factors (TFs) regulating co-expressed genes and AD risk SNPs that interrupt TF binding sites on regulatory elements. Finally, we construct a gene regulatory network (GRN) linking SNPs, interrupted TFs, and regulatory elements to target genes and gene modules for each phenotype in the cohort. This network thus provides systematic insights into gene regulatory mechanisms from risk variants to AD phenotypes.
+
+
+## Results
+  Our analysis predicted GRNs in three major AD-relevant regions: Hippocampus, Dorsolateral Prefrontal Cortex (DLPFC), Lateral Temporal Lobe (LTL). Comparative analyses revealed cross-region-conserved and region-specific GRNs, in which many immunological genes are present. For instance, SNPs rs13404184 and rs61068452 disrupt SPI1 binding and regulation of AD gene INPP5D in the Hippocampus and LTL. However, SNP rs117863556 interrupts bindings of REST to regulate GAB2 in DLPFC only. Driven by emerging neuroinflammation in AD, we used Covid-19 as a proxy to identify possible regulatory mechanisms for neuroimmunology in AD. To this end, we looked at the GRN subnetworks relating to genes from shared AD-Covid pathways. From those subnetworks, our machine learning analysis prioritized the AD-Covid genes for predicting Covid-19 severity. Decision Curve Analysis also validated our AD-Covid genes outperform known Covid-19 genes for classifying severe Covid-19 patients. This suggests AD-Covid genes along with linked SNPs can be potential novel biomarkers for neuroimmunology in AD. Finally, our results are open-source available as a comprehensive functional genomic map for AD, providing a deeper mechanistic understanding of the interplay among multi-omics, brain regions, gene functions like neuroimmunology, and phenotypes.

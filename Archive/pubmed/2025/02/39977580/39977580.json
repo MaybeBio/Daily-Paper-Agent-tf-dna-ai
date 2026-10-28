@@ -1,0 +1,534 @@
+{
+  "identity": {
+    "pmid": "39977580",
+    "doi": "10.1093/humupd/dmaf002",
+    "title": "Harnessing omics data for drug discovery and development in ovarian aging."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ovarian aging occurs earlier than the aging of many other organs and has a lasting impact on women's overall health and well-being. However, effective interventions to slow ovarian aging remain limited, primarily due to an incomplete understanding of the underlying molecular mechanisms and drug targets. Recent advances in omics data resources, combined with innovative computational tools, are offering deeper insight into the molecular complexities of ovarian aging, paving the way for new opportunities in drug discovery and development. OBJECTIVE AND RATIONALE: This review aims to synthesize the expanding multi-omics data, spanning genome, transcriptome, proteome, metabolome, and microbiome, related to ovarian aging, from both tissue-level and single-cell perspectives. We will specially explore how the analysis of these emerging omics datasets can be leveraged to identify novel drug targets and guide therapeutic strategies for slowing and reversing ovarian aging. SEARCH METHODS: We conducted a comprehensive literature search in the PubMed database using a range of relevant keywords: ovarian aging, age at natural menopause, premature ovarian insufficiency (POI), diminished ovarian reserve (DOR), genomics, transcriptomics, epigenomics, DNA methylation, RNA modification, histone modification, proteomics, metabolomics, lipidomics, microbiome, single-cell, genome-wide association studies (GWAS), whole-exome sequencing, phenome-wide association studies (PheWAS), Mendelian randomization (MR), epigenetic target, drug target, machine learning, artificial intelligence (AI), deep learning, and multi-omics. The search was restricted to English-language articles published up to September 2024. OUTCOMES: Multi-omics studies have uncovered key mechanisms driving ovarian aging, including DNA damage and repair deficiencies, inflammatory and immune responses, mitochondrial dysfunction, and cell death. By integrating multi-omics data, researchers can identify critical regulatory factors and mechanisms across various biological levels, leading to the discovery of potential drug targets. Notable examples include genetic targets such as BRCA2 and TERT, epigenetic targets like Tet and FTO, metabolic targets such as sirtuins and CD38+, protein targets like BIN2 and PDGF-BB, and transcription factors such as FOXP1. WIDER IMPLICATIONS: The advent of cutting-edge omics technologies, especially single-cell technologies and spatial transcriptomics, has provided valuable insights for guiding treatment decisions and has become a powerful tool in drug discovery aimed at mitigating or reversing ovarian aging. As technology advances, the integration of single-cell multi-omics data with AI models holds the potential to more accurately predict candidate drug targets. This convergence offers promising new avenues for personalized medicine and precision therapies, paving the way for tailored interventions in ovarian aging. REGISTRATION NUMBER: Not applicable.",
+    "keywords": [
+      "drug-target discovery",
+      "epigenomics",
+      "genomics",
+      "mechanism learning",
+      "metabolomics",
+      "microbiome",
+      "ovarian aging",
+      "proteomics",
+      "single-cell technology",
+      "transcriptomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Ovary/physiology/drug effects",
+      "*Drug Discovery/methods",
+      "*Aging/genetics/physiology/drug effects",
+      "Genomics",
+      "Metabolomics",
+      "Drug Development"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Fengyu",
+        "Zhu, Ming",
+        "Chen, Yi",
+        "Wang, Guiquan",
+        "Yang, Haiyan",
+        "Lu, Xinmei",
+        "Li, Yan",
+        "Chang, Hsun-Ming",
+        "Wu, Yang",
+        "Ma, Yunlong",
+        "Yuan, Shuai",
+        "Zhu, Wencheng",
+        "Dong, Xi",
+        "Zhao, Yue",
+        "Yu, Yang",
+        "Wang, Jia",
+        "Mu, Liangshan"
+      ],
+      "short_names": [
+        "Zhang F",
+        "Zhu M",
+        "Chen Y",
+        "Wang G",
+        "Yang H",
+        "Lu X",
+        "Li Y",
+        "Chang HM",
+        "Wu Y",
+        "Ma Y",
+        "Yuan S",
+        "Zhu W",
+        "Dong X",
+        "Zhao Y",
+        "Yu Y",
+        "Wang J",
+        "Mu L"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2334-4562",
+        "ORCID: 0000-0002-6434-1627",
+        "ORCID: 0000-0001-9742-6670",
+        "ORCID: 0000-0001-5055-5627",
+        "ORCID: 0000-0002-3903-0747",
+        "ORCID: 0000-0002-3016-9654",
+        "ORCID: 0000-0002-4310-1966",
+        "ORCID: 0000-0002-2343-4755",
+        "ORCID: 0000-0003-2498-3825"
+      ],
+      "affiliations": [
+        "Reproductive Medicine Center, Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "The First School of Medicine, Wenzhou Medical University, Wenzhou, China.",
+        "The First School of Medicine, Wenzhou Medical University, Wenzhou, China.",
+        "The First School of Medicine, Wenzhou Medical University, Wenzhou, China.",
+        "Xiamen Key Laboratory of Reproduction and Genetics, Department of Reproductive Medicine, Women and Children's Hospital, School of Medicine, Xiamen University, Xiamen, China.",
+        "Reproductive Medicine Center, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China.",
+        "Reproductive Medicine Center, Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Reproductive Medicine Center, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China.",
+        "Department of Obstetrics and Gynecology, China Medical University Hospital, Taichung, Taiwan.",
+        "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, China.",
+        "Department of Psychiatry, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Unit of Cardiovascular and Nutritional Epidemiology, Institute of Environmental Medicine, Karolinska Institute, Stockholm, Sweden.",
+        "Institute of Neuroscience, CAS Center for Excellence in Brain Science and Intelligence Technology, Chinese Academy of Sciences, Shanghai, China.",
+        "Reproductive Medicine Center, Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "State Key Laboratory of Female Fertility Promotion, Center for Reproductive Medicine, Department of Obstetrics and Gynecology, Peking University Third Hospital, Beijing, China.",
+        "State Key Laboratory of Female Fertility Promotion, Center for Reproductive Medicine, Department of Obstetrics and Gynecology, Peking University Third Hospital, Beijing, China.",
+        "National Clinical Research Center for Obstetrics and Gynecology, Beijing, China.",
+        "Key Laboratory of Assisted Reproduction, Ministry of Education, Beijing, China.",
+        "Beijing Key Laboratory of Reproductive Endocrinology and Assisted Reproductive Technology, Beijing, China.",
+        "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+        "Reproductive Medicine Center, Zhongshan Hospital, Fudan University, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Fengyu",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Medicine Center, Zhongshan Hospital, Fudan University, Shanghai, China.",
+          "The First School of Medicine, Wenzhou Medical University, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Ming",
+        "short_name": "Zhu M",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Medicine, Wenzhou Medical University, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yi",
+        "short_name": "Chen Y",
+        "identifiers": [
+          "0000-0003-2334-4562"
+        ],
+        "affiliations": [
+          "The First School of Medicine, Wenzhou Medical University, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Guiquan",
+        "short_name": "Wang G",
+        "identifiers": [
+          "0000-0002-6434-1627"
+        ],
+        "affiliations": [
+          "Xiamen Key Laboratory of Reproduction and Genetics, Department of Reproductive Medicine, Women and Children's Hospital, School of Medicine, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Haiyan",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Medicine Center, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Xinmei",
+        "short_name": "Lu X",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Medicine Center, Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Reproductive Medicine Center, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Hsun-Ming",
+        "short_name": "Chang HM",
+        "identifiers": [
+          "0000-0001-9742-6670"
+        ],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, China Medical University Hospital, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Wu, Yang",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yunlong",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Yuan, Shuai",
+        "short_name": "Yuan S",
+        "identifiers": [
+          "0000-0001-5055-5627"
+        ],
+        "affiliations": [
+          "Department of Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+          "Unit of Cardiovascular and Nutritional Epidemiology, Institute of Environmental Medicine, Karolinska Institute, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Zhu, Wencheng",
+        "short_name": "Zhu W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Neuroscience, CAS Center for Excellence in Brain Science and Intelligence Technology, Chinese Academy of Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Xi",
+        "short_name": "Dong X",
+        "identifiers": [
+          "0000-0002-3903-0747"
+        ],
+        "affiliations": [
+          "Reproductive Medicine Center, Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yue",
+        "short_name": "Zhao Y",
+        "identifiers": [
+          "0000-0002-3016-9654"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Female Fertility Promotion, Center for Reproductive Medicine, Department of Obstetrics and Gynecology, Peking University Third Hospital, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yang",
+        "short_name": "Yu Y",
+        "identifiers": [
+          "0000-0002-4310-1966"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Female Fertility Promotion, Center for Reproductive Medicine, Department of Obstetrics and Gynecology, Peking University Third Hospital, Beijing, China.",
+          "National Clinical Research Center for Obstetrics and Gynecology, Beijing, China.",
+          "Key Laboratory of Assisted Reproduction, Ministry of Education, Beijing, China.",
+          "Beijing Key Laboratory of Reproductive Endocrinology and Assisted Reproductive Technology, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jia",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0002-2343-4755"
+        ],
+        "affiliations": [
+          "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Mu, Liangshan",
+        "short_name": "Mu L",
+        "identifiers": [
+          "0000-0003-2498-3825"
+        ],
+        "affiliations": [
+          "Reproductive Medicine Center, Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human reproduction update"
+    ],
+    "journal_abbrev": [
+      "Hum Reprod Update"
+    ],
+    "pub_date": "2025 May 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/20 18:21",
+    "fetched_at": "2026-10-05 03:22:57"
+  },
+  "links": {
+    "cites": [
+      "42693473",
+      "42663799",
+      "42393720",
+      "42364156",
+      "42230553",
+      "42212335",
+      "42204611",
+      "42193417",
+      "42050634",
+      "41894084",
+      "41876529",
+      "41847614",
+      "41410805",
+      "41132845",
+      "40993676",
+      "40948980",
+      "40495196"
+    ],
+    "refs": [],
+    "similar": [
+      "39977580",
+      "40537580",
+      "41943684",
+      "39101486",
+      "36321557",
+      "26269925",
+      "41427121",
+      "41827905",
+      "41269529",
+      "41645653",
+      "40684321",
+      "40141349",
+      "42123604",
+      "41611834",
+      "41751160",
+      "42173625",
+      "42278344",
+      "41973972",
+      "41461245",
+      "35053186",
+      "40822515",
+      "41158224",
+      "41371352",
+      "41351667",
+      "39338186",
+      "40153587",
+      "40886194",
+      "34175822",
+      "40512301",
+      "41684520",
+      "41520911",
+      "40216576",
+      "41396836",
+      "41167326",
+      "42173635",
+      "41259970",
+      "42162504",
+      "40319309",
+      "41939867",
+      "40853611",
+      "40300104",
+      "33036834",
+      "39271266",
+      "39367121",
+      "26915271",
+      "40806492",
+      "40162315",
+      "31029063",
+      "41936855",
+      "42204731",
+      "40091050",
+      "40152541",
+      "41921727",
+      "32096829",
+      "41318344",
+      "41350740",
+      "40963604",
+      "40553325",
+      "35466851",
+      "41072887",
+      "35154283",
+      "41249878",
+      "38238823",
+      "40241080",
+      "42173633",
+      "38335558",
+      "33441136",
+      "37375323",
+      "41596454",
+      "41628813",
+      "40853597",
+      "40514687",
+      "42190810",
+      "41616992",
+      "40466334",
+      "33119753",
+      "40311786",
+      "40689362",
+      "42171750",
+      "41096595",
+      "41266662",
+      "41376168",
+      "41986011",
+      "41704487",
+      "40771479",
+      "42136650",
+      "31822904",
+      "41125905",
+      "41954864",
+      "38933282",
+      "39178679",
+      "39767657",
+      "41460411",
+      "40553344",
+      "41577209",
+      "41349936",
+      "41699549",
+      "40148470",
+      "41254692",
+      "42173632"
+    ],
+    "review": [
+      "39977580",
+      "40537580",
+      "41943684",
+      "36321557",
+      "26269925",
+      "41427121",
+      "41827905",
+      "41269529",
+      "41645653",
+      "40684321",
+      "40141349",
+      "42123604",
+      "41751160",
+      "42173625",
+      "42278344",
+      "41973972",
+      "41461245",
+      "35053186",
+      "40822515",
+      "41158224",
+      "41371352",
+      "41351667",
+      "39338186",
+      "40153587",
+      "40886194",
+      "34175822",
+      "40512301",
+      "41520911",
+      "40216576",
+      "41396836",
+      "41167326",
+      "42173635",
+      "41259970",
+      "42162504",
+      "40319309",
+      "40300104",
+      "39271266",
+      "26915271",
+      "40806492",
+      "40162315",
+      "41936855",
+      "40152541",
+      "41921727",
+      "32096829",
+      "40963604",
+      "41072887",
+      "35154283",
+      "41249878",
+      "38238823",
+      "42173633",
+      "38335558",
+      "37375323",
+      "41596454",
+      "41628813",
+      "40853597",
+      "42190810",
+      "41616992",
+      "40466334",
+      "40311786",
+      "40689362",
+      "41096595",
+      "41266662",
+      "41376168",
+      "41986011",
+      "40771479",
+      "42136650",
+      "31822904",
+      "41125905",
+      "41954864",
+      "39767657",
+      "41460411",
+      "41577209",
+      "41349936",
+      "42173632"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://www.ovid.com/39977580.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD38-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3279",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/humupd/article-lookup/doi/10.1093/humupd/dmaf002",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

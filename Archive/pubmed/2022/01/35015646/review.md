@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose SENIES, a two-layer deep learning predictor that integrates DNA shape features with sequence-derived features (one-hot and k-mer) to identify enhancers and classify their strength. They claim performance superiority over state-of-the-art methods on public datasets and report public availability of the code.
+- **Visible evidence base** Abstract text; no quantitative results, dataset descriptions, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset specifications, hyperparameter settings, baseline method descriptions, statistical significance tests, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful contribution to enhancer prediction by incorporating DNA shape features into a deep learning framework. However, the abstract lacks quantitative performance metrics, dataset details, and methodological specifics necessary to evaluate the validity of the claimed improvements. The two-layer architecture is described at a high level, but no evidence is provided to support the effectiveness of the DNA shape enhancement or the robustness of the results. The contribution is potentially interesting to the computational genomics community, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory element prediction, particularly those developing deep learning methods for genomic sequence analysis. Researchers studying enhancer biology and transcription factor binding mechanisms may also find the integration of DNA structural features relevant, as it addresses a recognized gap in sequence-only models.
+- **Major strengths** The motivation is clear and well grounded in the biological relevance of DNA structure for transcription factor binding. The two-layer architecture for separate enhancer identification and strength classification is a sensible design choice. The inclusion of DNA shape features alongside standard sequence encodings addresses a genuine limitation of prior approaches. Public code availability is a positive practice for reproducibility.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Evidence sufficiency  
+    - **Claim pointer** The abstract claims "performance comparison with state-of-the-art methods conducted on public datasets demonstrates the effectiveness and robustness of our predictor."  
+    - **Evidence pointer** Abstract, "Performance comparison" sentence; location not provided  
+    - **Concern** No quantitative results are reported in the abstract. There are no accuracy, AUC, F1, precision, recall, or any other performance metrics. The claim of effectiveness and robustness is therefore unsupported by the visible evidence.  
+    - **Why it matters** Without numerical comparisons to baseline methods, the reader cannot assess whether the proposed method offers any meaningful improvement. The central claim of the manuscript is the performance advantage, and this is not verifiable from the abstract alone.  
+    - **Resolution test** Provide specific performance metrics (e.g., accuracy, AUC, sensitivity, specificity) for SENIES and all compared methods on each dataset, along with confidence intervals or statistical significance tests.  
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Methodological transparency  
+    - **Claim pointer** The abstract states "DNA shape is introduced to describe the 3D structures of DNA sequences" and that the predictor consists of two layers.  
+    - **Evidence pointer** Abstract, "Here, we propose SENIES" and "The predictor consists of two layers" sentences; location not provided  
+    - **Concern** The abstract does not specify which DNA shape features are used (e.g., minor groove width, roll, helix twist, propeller twist), how they are computed, or how they are integrated into the deep learning architecture. The two-layer design is mentioned but no details are given on the network architecture, training procedure, or feature fusion strategy.  
+    - **Why it matters** The novelty of the method rests on the integration of DNA shape features. Without specifying the exact features and integration mechanism, the methodological contribution cannot be evaluated or reproduced.  
+    - **Resolution test** Describe the DNA shape features, their computation method, and the architectural details of both layers, including how shape features are combined with one-hot and k-mer encodings.  
+  - **R1-M3**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Dataset and evaluation rigor  
+    - **Claim pointer** The abstract claims evaluation "on public datasets" and "robustness" of the predictor.  
+    - **Evidence pointer** Abstract, "Performance comparison" sentence; location not provided  
+    - **Concern** The abstract does not identify which public datasets were used, how many samples they contain, or how train and test splits were constructed. Robustness is claimed but no evidence of cross-validation, independent testing, or sensitivity analysis is presented.  
+    - **Why it matters** Dataset choice and evaluation protocol directly affect the generalizability of the results. Without this information, the robustness claim is not assessable.  
+    - **Resolution test** Specify the datasets, sample sizes, class balance, and evaluation protocol (e.g., k-fold cross-validation, independent test sets). Provide evidence of robustness through multiple runs or alternative dataset evaluations.
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Abstract wording  
+    - **Evidence pointer** Abstract, "More features are extracted from the single DNA sequences to boost the performance" sentence; location not provided  
+    - **Issue** The phrasing is awkward and grammatically unclear. It likely means that previous methods extract more features from single DNA sequences, but the sentence structure obscures this meaning.  
+    - **Required correction** Rephrase to clearly state that prior methods have focused on extracting additional features from DNA sequences alone, without incorporating structural information.  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Reproducibility  
+    - **Affected element** Code availability statement  
+    - **Evidence pointer** Abstract, "The code implementation of SENIES is publicly available" sentence; location not provided  
+    - **Issue** The abstract states the code is available but does not indicate the license, dependencies, or whether trained models are included.  
+    - **Required correction** Add a brief statement on the license and include information on dependencies or model weights in the full manuscript.  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Terminology  
+    - **Affected element** "DNA shape enhanced"  
+    - **Evidence pointer** Abstract, title and first sentence of the proposal; location not provided  
+    - **Issue** The term "DNA shape enhanced" is used without defining what "enhanced" means in this context. It is unclear whether shape features are used as additional inputs, as attention mechanisms, or in some other capacity.  
+    - **Required correction** Clarify in the abstract or full text how the DNA shape information enhances the model, for example by stating that shape features are concatenated with sequence features as inputs to the network.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and the lack of methodological detail prevent any assessment of the core claims. R1-M3 is non-blocking but should be addressed to support the robustness claim.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The idea of integrating DNA shape features into a deep learning predictor for enhancers is not entirely new, as DNA shape has been used in other regulatory genomics contexts, but its application to enhancer strength prediction appears to be a reasonable incremental contribution. The originality is moderate and cannot be fully assessed without the full method description.  
+  - **Scientific importance** Enhancer identification is an important problem in gene regulation, and improving prediction accuracy has practical value. However, the abstract does not demonstrate a substantial advance over existing methods, so the scientific importance is currently not established.  
+  - **Interdisciplinary readership** The topic sits at the intersection of computational biology, genomics, and machine learning. The abstract is written in a way that is accessible to these communities, but the lack of quantitative results limits its appeal to a broader readership.  
+  - **Technical soundness** The technical soundness cannot be evaluated from the abstract alone. The architecture is described only at a high level, and no validation results are provided.  
+  - **Readability for nonspecialists** The abstract is generally readable, but the awkward phrasing in the opening sentences and the undefined term "DNA shape enhanced" reduce clarity for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach but lacks the quantitative and methodological details necessary to support the central claims. A revised abstract with specific performance metrics and methodological specifics, or access to the full manuscript, would be required to assess the contribution properly.
+
+## Risk / unsupported claims
+- The claim of "effectiveness and robustness" is unsupported because no performance metrics are reported in the abstract.
+- The claim that DNA shape features improve prediction performance is unsupported because no comparison between models with and without shape features is presented.
+- The claim of superiority over "state-of-the-art methods" is unverifiable without specific baseline names and numerical comparisons.
+- The generalizability of the method to other datasets or organisms is not assessable from the abstract.

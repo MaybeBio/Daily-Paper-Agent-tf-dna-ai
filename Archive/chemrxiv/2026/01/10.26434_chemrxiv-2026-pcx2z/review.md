@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a structure-guided alignment strategy to identify a novel putative ligand-binding site in Staphylococcus aureus CcpA (Sa-CcpA), not detected by conventional cavity-detection methods. They report phylogenetic conservation of cavity residues in pathogenic Bacillales species, molecular dynamics simulations supporting site stability, and docking of two known inhibitors. They suggest the approach is generalizable to other transcription factors.
+- **Visible evidence base** Abstract text only; no experimental details, structural coordinates, simulation parameters, docking scores, or phylogenetic trees are available
+- **Missing materials affecting confidence** Full methods, structural alignments, cavity detection results, MD simulation trajectories and analyses, docking protocols and scores, phylogenetic tree and sequence alignment details, and any validation of the predicted site
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially useful computational strategy for identifying cryptic ligand-binding sites in transcription factors, using Sa-CcpA as a case study. The concept is timely given the drug-target status of CcpA and the known challenges of its closed conformation. However, the current evidence base is insufficient to evaluate the technical soundness of the approach or the validity of the central claims. The abstract reports outcomes without providing quantitative results, control comparisons, or methodological detail. The claim that the site is "novel" and "not predicted by conventional cavity-detection methods" requires direct comparative data. The phylogenetic and simulation statements are similarly unsupported in the absence of specific analyses. The manuscript may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists and computational chemists working on transcription factor drug targeting, particularly those focused on Staphylococcus aureus and related Gram-positive pathogens. Researchers developing allosteric or cryptic-site inhibitors may find the alignment-based strategy conceptually appealing. The potential generalizability to other transcriptional regulators could attract a broader audience in antimicrobial drug discovery.
+- **Major strengths** The abstract addresses a real and well-recognized problem, namely the difficulty of targeting CcpA due to its closed conformation and lack of defined cavities. The proposed strategy, using co-crystallized transcription factors as structural templates, is a reasonable and potentially innovative idea. The inclusion of phylogenetic conservation, molecular dynamics, and docking provides a multi-pronged approach that, if rigorously executed, could strengthen the case. The framing of the method as potentially generalizable adds conceptual value.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The structure-guided alignment strategy identified a putative ligand-binding site in Sa-CcpA that was not predicted by conventional cavity-detection methods.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The central claim of a novel site relies on a comparison with "conventional cavity-detection methods," but no details are given about which methods were used, how the comparison was performed, or what thresholds defined a "predicted" site. Without this comparative evidence, the novelty claim cannot be assessed.
+  - **Why it matters** The entire premise of the manuscript depends on demonstrating that the new method finds something that existing tools miss. If the comparison is not rigorous or the thresholds are not equivalent, the claim of novelty may be overstated or artifactual.
+  - **Resolution test** Provide a direct comparison table or figure showing cavity predictions from at least two standard tools (e.g., FPocket, CASTp) alongside the new method, with clear criteria for what constitutes a detected site, and demonstrate that the identified site is absent from all conventional predictions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Multiple molecular dynamics simulations were performed, followed by docking analyses of two known Sa-CcpA inhibitors, to assess the stability of the newly identified site.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No simulation details are provided, including force field, simulation length, number of replicates, system setup, or convergence criteria. Similarly, docking methodology, scoring functions, and the specific inhibitors used are not named. Without these details, the stability and binding claims are not reproducible or verifiable.
+  - **Why it matters** Molecular dynamics and docking results are highly sensitive to protocol choices. The absence of methodological specifics prevents any assessment of whether the simulations were adequate to support claims of site stability or whether the docking results are meaningful.
+  - **Resolution test** Provide full methods for MD (software, force field, water model, simulation time, temperature/pressure coupling, equilibration protocol, replicate number) and docking (software, receptor and ligand preparation, search algorithm, scoring function, and the names and structures of the two inhibitors). Show quantitative stability metrics (e.g., RMSD, RMSF, binding-site pocket volume over time) and docking scores with appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** Phylogenetic analysis showed that residues within this predicted cavity are conserved in a subset of particular pathogenic species in the order Bacillales, suggesting an evolutionarily constrained and functionally relevant region.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The phylogenetic analysis is described only in a single sentence. No information is given on the sequence set, alignment method, conservation metric, or statistical significance. The phrase "subset of particular pathogenic species" is vague and does not indicate which species or how the subset was defined.
+  - **Why it matters** The evolutionary argument is used to support functional relevance of the predicted site. Without clear evidence of conservation relative to a background or a defined phylogenetic context, this claim is speculative.
+  - **Resolution test** Provide the phylogenetic tree or sequence alignment, specify the species included, define the conservation threshold, and show a statistical comparison (e.g., conservation scores for cavity residues versus non-cavity residues or versus a null model).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title and abstract framing
+  - **Evidence pointer** Abstract title and first paragraph
+  - **Issue** The title states "implications for transcriptional regulation and drug design," but the abstract does not discuss any functional or regulatory consequences of the predicted site beyond a general suggestion of relevance. The link to transcriptional regulation is not developed.
+  - **Required correction** Either add a brief statement in the abstract on how the predicted site might affect CcpA function or regulation, or temper the title to reflect the computational scope of the study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Inhibitor docking results
+  - **Evidence pointer** Abstract, final results sentence
+  - **Issue** The abstract states that docking of two known inhibitors was performed but does not report any outcome, such as binding affinity, predicted pose, or comparison with a control site. The reader cannot judge whether the docking supports or weakens the proposed site.
+  - **Required correction** Include a brief quantitative summary of the docking results, such as predicted binding energies or scores, and state whether the inhibitors bind preferentially to the predicted site relative to other regions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability claim
+  - **Affected element** Final sentence on approach generalizability
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The claim that the approach "may support future efforts" is appropriately cautious, but it is presented without any demonstration on a second system. As stated, it is a reasonable speculation but not a finding.
+  - **Required correction** Clarify that this is a forward-looking statement and not a validated outcome, or add a brief note on any preliminary application to another transcription factor if available.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The novelty claim, the simulation and docking evidence, and the phylogenetic support are all currently unverifiable from the abstract alone. Each requires specific methodological and quantitative detail to establish the case.
+- **Assessment against Nature-style criteria** Originality: The concept of using co-crystallized transcription factors as templates to find cryptic sites is moderately original, though related approaches exist in the literature for other protein families. Scientific importance: The target is clinically relevant, and a validated method for identifying sites in closed transcription factors would be valuable, but the importance is not yet demonstrated. Interdisciplinary readership: The work sits at the interface of structural biology, computational chemistry, and microbiology, which could appeal to a broad audience if the evidence is strong. Technical soundness: Not assessable from the abstract; the absence of methodological detail is a critical gap. Readability for nonspecialists: The abstract is generally clear and accessible, though terms like "catabolite control protein A" and "co-crystallized" may require some background. Overall, the manuscript does not currently meet the evidentiary standard expected for a high-impact journal.
+- **Recommendation posture** Currently not established from the provided evidence. The idea is promising and the target is important, but the abstract alone does not provide sufficient methodological or quantitative support for the central claims. A revised manuscript with full methods, comparative cavity detection results, detailed MD and docking analyses, and a rigorous phylogenetic conservation assessment would be needed to evaluate the case properly.
+
+## Risk / unsupported claims
+- The claim that the identified site is "novel" and "not predicted by conventional cavity-detection methods" is unsupported without comparative data.
+- The claim that molecular dynamics simulations demonstrate site stability is unsupported without simulation parameters and stability metrics.
+- The claim that docking of two known inhibitors provides evidence for the site is unsupported without docking scores or poses.
+- The claim that phylogenetic conservation suggests functional relevance is unsupported without alignment details or conservation statistics.
+- The generalizability of the approach to other transcription factors is speculative and not demonstrated.

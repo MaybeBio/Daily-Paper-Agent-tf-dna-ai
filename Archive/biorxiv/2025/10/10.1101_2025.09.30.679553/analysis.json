@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.30.679553",
+  "title": "Long-Read epigenetic clocks identify improved brain aging predictions",
+  "authors": "Grant SM; Eger SJ; Makarious MB; Meredith M; Moller A; Grant-Peters M; Hicks A; Mandal A; Auluck P; Villegas-Lanau A; Mejia-Cupajita B; Acosta-Uribe J; Aguillón D; Leonard H; Kuznetsov N; Weller C; Catching A; Reed X; Jain M; Ferrucci L; Kosik KS; Cookson MR; Ryten M; Nalls MA; Billingsley KJ",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-03",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用长读长测序甲基化数据构建衰老时钟，虽涉及转录因子结合基序富集分析，但核心是表观遗传衰老预测，非蛋白质-DNA互作建模，且无AI/物理模拟方法聚焦于TF-DNA结合机制。",
+  "abstract": "Epigenetic clocks are widely used to estimate biological aging, yet most are built from array-based data from peripheral tissues of predominantly European-ancestry individuals, limiting their generalizability. Here, we present aging clocks on DNA methylation from Oxford Nanopore long-read sequencing (LRS), leveraging over 28 million CpG sites from prefrontal cortex samples across individuals of African and European ancestry. These models were developed using GenoML, an automated machine learning platform for multi-omics data that leverages a diverse catalog of existing model architectures. Our long-read-informed clocks were developed using promoter-based and whole-genome window-based features, yielding models for each individual cohort as well as a combined-cohort clock. Each of these models demonstrated favorable performance compared to existing methylation clocks and was externally validated in a cohort of Colombian individuals. We further performed enrichment analyses and nominated both shared and cohort-specific pathways, cell types, and transcription factor binding motifs which may be implicated in aging and were not fully explained by cell type proportions or postmortem interval. Altogether, our findings highlight the power of long-read methylation data for constructing accurate, ancestry-aware aging clocks and emphasize the importance of inclusive training datasets.",
+  "abstract_zh": "表观遗传时钟被广泛用于估算生物学年龄，然而大多数时钟基于来自外周组织的阵列数据，且主要来源于欧洲血统个体，这限制了其普适性。在此，我们基于牛津纳米孔长读段测序（LRS）的DNA甲基化数据，利用来自非洲和欧洲血统个体前额叶皮层样本中的超过2800万个CpG位点，构建了衰老时钟。这些模型使用GenoML开发，这是一个针对多组学数据的自动化机器学习平台，利用了多种现有模型架构的目录。我们的长读段信息时钟基于启动子区域和全基因组窗口特征开发，为每个个体队列以及一个合并队列时钟生成了模型。每个模型与现有甲基化时钟相比均表现出优越性能，并在一个哥伦比亚个体队列中进行了外部验证。我们进一步进行了富集分析，并提名了共享及队列特异性的通路、细胞类型和转录因子结合基序，这些可能与衰老相关，且不能完全由细胞类型比例或死后间隔解释。总体而言，我们的发现突显了长读段甲基化数据在构建准确且具有血统意识的衰老时钟方面的力量，并强调了包容性训练数据集的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.30.679553",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.30.679553",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.30.679553/index.html"
+}

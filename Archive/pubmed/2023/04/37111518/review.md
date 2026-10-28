@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, and conclusions. Figures and supplementary materials referenced but not provided.
+- **Assessment boundary** Scientific soundness, technical rigor, validity of conclusions relative to presented evidence, and alignment with Nature-style criteria. No assessment of grammar or stylistic polish beyond readability for nonspecialists.
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered SSB-Ct binds to DNA metabolizing enzymes (ExoI and RecO) via two hot spots, that this two-hot-spot binding model can be exploited to design high-affinity SSB mimetic inhibitors, and that combining unnatural amino acid substitutions at both termini yields enthalpy-enhanced affinity with enthalpy–entropy compensation, supported by MD simulations, fluorescence anisotropy, ITC, and NMR.
+- **Visible evidence base** Molecular dynamics simulations (REST) for wild-type and modified SSB-Ct peptides with ExoI and RecO; fluorescence anisotropy competition and direct binding assays for 51 single mutants and selected combined mutants; ITC for selected peptides; 19F-NMR for selected peptides; pull-down assays in bacterial lysates; sequence conservation analysis referenced.
+- **Missing materials affecting confidence** Figures (main and supplementary), tables (including Table 1 and 2), supplementary data (Figures S1–S10, peptide analytical data), PDB structure details, and raw simulation or experimental data are not provided. This limits independent verification of quantitative claims and structural interpretations.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely topic: targeting SSB–SIP interactions as an antimicrobial strategy. The central hypothesis, that the proximal DFDD segment contributes to binding via a second hot spot, is plausible and supported by a combination of computational and experimental approaches. However, the evidence as presented is incomplete. Key quantitative results (IC50, KD, thermodynamic parameters) are cited but not shown in the provided text, and the structural interpretations rely heavily on figures and supplementary materials that are not available for review. The claim of a two-hot-spot model guiding inhibitor design is interesting but not fully established from the visible evidence. The work is technically ambitious, but several concerns about data completeness, methodological rigor, and the strength of the conclusions need to be addressed.
+- **Who would be interested in the results, and why** Researchers in antimicrobial drug discovery, specifically those targeting protein–protein interactions involving intrinsically disordered proteins. The work also appeals to structural biologists studying SSB biology and to medicinal chemists interested in peptidomimetic design with unnatural amino acids. The two-hot-spot concept and the use of enthalpy–entropy compensation analysis may be of broader interest to the IDP community.
+- **Major strengths** The study combines multiple orthogonal techniques (MD, fluorescence anisotropy, ITC, NMR, pull-down) to address a biologically and therapeutically relevant question. The focus on the disordered SSB-Ct and its adaptive recognition is timely. The use of unnatural amino acid scanning to probe both segments of the peptide is a systematic and thoughtful approach. The authors acknowledge the complexity of enthalpy–entropy compensation and attempt to rationalize non-additivity, which is a nuanced and honest treatment.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims specific IC50 and KD values (e.g., IC50 = 0.17 µM for E1-sSSB-Ct, KD = 19 nM for E1-sSSB-Ct, KD = 35 nM for R2-sSSB-Ct) and thermodynamic parameters from ITC.
+  - **Evidence pointer** Section 3.5, Table 3, Figure 7; location not provided for actual data values.
+  - **Concern** The quantitative binding data are central to the claim of improved affinity, but the actual values, error bars, replicates, and fitting details are not visible in the provided text. Without access to Table 3 and Figure 7, the reader cannot assess the reliability or statistical significance of the reported affinities.
+  - **Why it matters** The core conclusion that combined modifications yield high-affinity ligands depends entirely on these numbers. If the data are not robust or the analysis is flawed, the main claim collapses.
+  - **Resolution test** Provide the full ITC data, including raw thermograms, fitted curves, stoichiometry, and standard errors. Show the fluorescence anisotropy competition curves and the derivation of IC50 values. Ensure that all values cited in the text are traceable to the tables and figures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural interpretation
+  - **Claim pointer** The manuscript claims that MD simulations reveal transient interactions of SSB-Ct with two hot spots on ExoI and RecO, and that the residual flexibility allows adaptive molecular recognition.
+  - **Evidence pointer** Section 3.1, Figures 3 and 4, Figure S2; location not provided for simulation details.
+  - **Concern** The structural model is based on MD simulations, but the starting structures, force field validation, convergence criteria, and sampling adequacy are not described in the visible text. The claim of a "two-hot-spot" model relies on the interpretation of simulation snapshots, which are not shown. The RMSF values are cited but not presented in a way that allows independent assessment.
+  - **Why it matters** The two-hot-spot model is the conceptual foundation for the entire inhibitor design strategy. If the simulations are not robust or the interpretation is overreaching, the design rationale is weakened.
+  - **Resolution test** Provide detailed simulation protocols, including system setup, equilibration, production run lengths, and convergence checks. Show representative structures and RMSF plots. Discuss the statistical significance of the observed contacts and whether alternative binding modes were explored.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic support
+  - **Claim pointer** The manuscript claims that 19F-NMR data confirm reduced flexibility of the improved affinity complexes and support the two-hot-spot binding model.
+  - **Evidence pointer** Section 3.5, Figure S8; location not provided for NMR details.
+  - **Concern** The 19F-NMR experiments are mentioned as supporting evidence, but no details are given on the NMR sample conditions, assignment of signals, or how the linewidth or relaxation changes were quantified. The claim that signal disappearance upon binding indicates stabilization is plausible but not fully substantiated without the actual spectra or analysis.
+  - **Why it matters** The NMR data are used to corroborate the MD predictions and the thermodynamic findings. If the NMR interpretation is ambiguous, the convergence of evidence is weakened.
+  - **Resolution test** Provide the 19F-NMR spectra, peak assignments, and a quantitative analysis of linewidth or intensity changes. Discuss potential alternative explanations for signal broadening or disappearance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** The pull-down assay claims a two-fold enrichment of ExoI on E1-sSSB and a ten-fold enrichment of RecOn R1-sSSB compared to wtSSB-Ct.
+  - **Evidence pointer** Section 3.5, Figure S10; location not provided for quantification details.
+  - **Concern** The pull-down results are presented as evidence of improved binding in a complex environment, but the quantification method, normalization, and statistical analysis are not described. The discrepancy between R1-sSSB-Ct (which failed in ITC) showing a ten-fold enrichment is confusing and not explained.
+  - **Why it matters** The pull-down data are meant to show that the improved affinities translate to a biologically relevant context. If the quantification is not rigorous or the result is inconsistent with other assays, the translational claim is undermined.
+  - **Resolution test** Provide the full pull-down protocol, including wash conditions, elution, and mass spectrometry quantification. Show the raw data and statistical analysis. Explain the apparent discrepancy between R1-sSSB-Ct performance in ITC versus pull-down.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3, fluorescence anisotropy assay description
+  - **Evidence pointer** Section 2.3; location not provided
+  - **Issue** The equation for bound fraction (BF) is presented in a confusing manner, and the definition of λ is unclear.
+  - **Required correction** Clarify the equation and define all variables explicitly. Consider moving the equation to a supplementary methods section for readability.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.2, peptide synthesis
+  - **Evidence pointer** Section 2.2; location not provided
+  - **Issue** The peptide synthesis description lacks details on coupling times, resin loading, and cleavage conditions, which are important for reproducibility.
+  - **Required correction** Provide more detailed synthesis protocols or reference a standard method with specific parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.4, discussion of non-additivity
+  - **Evidence pointer** Section 3.4; location not provided
+  - **Issue** The non-additivity of combined mutations is attributed to enthalpy–entropy compensation, but the possibility of structural rearrangements or altered binding modes is not discussed.
+  - **Required correction** Add a brief discussion of alternative explanations for non-additivity, such as induced fit or conformational selection.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.6, MD simulations of modified peptides
+  - **Evidence pointer** Section 3.6, Figure 8; location not provided
+  - **Concern** The MD simulations for the modified peptides are described, but the starting structures for the modified peptides are not specified. It is unclear how the mutations were introduced and whether the simulations were long enough to observe equilibration.
+  - **Required correction** Describe the construction of modified peptide starting structures and provide evidence of simulation convergence.
+- **Technical failings that need to be addressed before the case is established** The lack of visible quantitative data (IC50, KD, thermodynamic parameters) and the absence of detailed simulation and NMR protocols are the most significant technical gaps. Without these, the central claims cannot be independently evaluated. The pull-down quantification and the discrepancy with ITC results also need clarification.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of targeting the disordered SSB-Ct via a two-hot-spot model is a novel angle, and the use of unnatural amino acid scanning across both segments is a creative approach. However, the idea of targeting SSB–SIP interactions is not new, and the originality lies mainly in the specific application.  
+  - **Scientific importance** The problem of antibiotic resistance is of high importance, and the SSB–SIP interface is a promising but underexplored target. If the two-hot-spot model is validated, it could have significant implications for antimicrobial design.  
+  - **Interdisciplinary readership** The work bridges structural biology, computational chemistry, and medicinal chemistry, and would appeal to a broad readership in these fields. However, the presentation assumes familiarity with MD simulations and ITC, which may limit accessibility.  
+  - **Technical soundness** The combination of methods is appropriate, but the lack of visible data and methodological details prevents a full assessment. The MD simulations and NMR experiments are described too briefly to judge their rigor.  
+  - **Readability for nonspecialists** The manuscript is generally well-structured, but the methods and results sections are dense and would benefit from clearer explanations of key concepts, such as the two-hot-spot model and enthalpy–entropy compensation, for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The hypothesis is interesting and the approach is promising, but the current evidence base is insufficient to fully establish the claims. The authors must provide the missing quantitative data, detailed methods, and address the inconsistencies noted above before the case is convincing.

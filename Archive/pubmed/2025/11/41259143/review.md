@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including Significance, Results, Discussion, and Materials and Methods sections. Figures are referenced but not fully visible; supplementary figures and tables are referenced but not provided.
+- **Assessment boundary** Assessment is limited to the provided text. Figure panels, supplementary information, and raw data are not available for direct evaluation. Statistical details, exact sample sizes, and full methodological parameters are only partially described.
+- **Shared manuscript claim summary** The manuscript reports that glutathionylated DNA (GSH-DNA) adducts accumulate at high levels in mitochondrial DNA (mtDNA), are formed from abasic (AP) sites via a mechanism catalyzed by TFAM and polyamines, and are regulated by the DNA repair enzymes APE1 and TDP1. The authors further report that GSH-DNA adduct accumulation does not disrupt cellular GSH homeostasis but is associated with changes in mitochondrial protein expression and altered TFAM-DNA binding stability.
+- **Visible evidence base** Main text with referenced figures (Fig. 1A–D, Fig. 2A–D, Fig. 3A–E, Fig. 4A–F, Fig. 5A–F), Table 1, and references to SI Appendix figures and tables. No raw data, full figure panels, or supplementary materials were provided.
+- **Missing materials affecting confidence** All figure panels, SI Appendix figures and tables, raw mass spectrometry data, proteomics data, MD simulation trajectories, and detailed experimental protocols beyond brief descriptions. Statistical analysis details and exact replicate numbers are not fully specified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially important and underexplored area of mitochondrial DNA damage biology. The central observation that GSH-DNA adducts are abundant in mtDNA and regulated by specific repair enzymes is of interest. However, the evidence as presented in the text alone is insufficient to fully establish several key claims. The quantitative mass spectrometry data are described but not shown, the enzyme kinetics are summarized but the underlying data are not visible, and the MD simulation results are presented without sufficient methodological detail. The manuscript would benefit from clearer presentation of the primary data and more rigorous statistical treatment. The conceptual framework is sound and the topic is timely, but the current evidence base does not fully support all conclusions drawn.
+- **Who would be interested in the results, and why** Researchers studying mitochondrial DNA damage and repair, DNA repair mechanisms involving APE1 and TDP1, mitochondrial biology, oxidative stress and redox signaling, and innate immune responses to DNA damage. The potential connection between GSH-DNA adducts and inflammatory diseases may also interest immunologists and researchers studying damage-associated molecular patterns.
+- **Major strengths** The manuscript addresses a novel type of DNA damage in mitochondria that has not been previously characterized. The combination of mass spectrometry-based quantification, enzyme kinetics, and molecular dynamics simulations provides a multi-pronged approach. The identification of specific repair enzymes (APE1 and TDP1) that regulate these adducts is mechanistically informative. The study also explores the biological consequences of adduct accumulation, including effects on protein expression and TFAM binding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and data availability
+  - **Claim pointer** The manuscript claims quantitative measurement of GSH-DNA adducts in nDNA and mtDNA using LC-MS/MS, with approximately 70-fold higher levels in mtDNA and a fivefold increase upon induction of mitochondrial AP sites.
+  - **Evidence pointer** Fig. 1B and 1C, location not provided for exact quantification details
+  - **Concern** The primary quantitative data supporting the central claim of GSH-DNA adduct accumulation are not visible in the provided text. The representative selected-ion chromatograms are referenced but not shown, and the quantification method relies on peak area ratios that cannot be assessed. The calibration curve, limit of detection, limit of quantification, and validation of the method for mtDNA samples are not described. The claim of a 70-fold difference between mtDNA and nDNA is striking and requires robust evidence, including appropriate controls for cross-contamination between mitochondrial and nuclear fractions during isolation.
+  - **Why it matters** The central premise of the manuscript rests on the accurate quantification of GSH-DNA adducts. Without visible chromatographic data, calibration information, and appropriate controls, the magnitude of the reported differences cannot be verified. Cross-contamination between nDNA and mtDNA during isolation is a known concern and could substantially affect the reported ratios.
+  - **Resolution test** Provide the full LC-MS/MS data including representative chromatograms, calibration curves, limits of detection and quantification, spike-recovery experiments, and evidence of mitochondrial DNA purity (e.g., PCR-based or sequencing-based assessment of nuclear contamination). Show biological replicate data with individual data points and statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** The manuscript claims that APE1 and TDP1 regulate GSH-DNA adduct levels in mtDNA, with APE1 playing a dominant role under alkylation damage conditions based on enzyme kinetics and knockout cell studies.
+  - **Evidence pointer** Fig. 2A–D, Table 1, SI Appendix Figs. S1–S4 and S6, location not provided
+  - **Concern** The enzyme kinetics data are summarized in Table 1 but the actual kinetic traces, substrate preparation and validation, and the conditions under which kcat and Km were determined are not described in sufficient detail. The claim that APE1 is the dominant regulator under alkylation damage is based on a comparison of knockout phenotypes, but the statistical significance of the differences between WT, APE1 KO, and TDP1 KO cells is not fully reported. The western blot confirmation of knockouts is referenced but not shown. The substrate used for kinetics contains a site-specific 3'-GS-ddR lesion, but the preparation and characterization of this substrate are not described.
+  - **Why it matters** The relative contributions of APE1 and TDP1 to GSH-DNA adduct regulation are central to the mechanistic model proposed. Without visible kinetic data and clear statistical comparisons between genotypes, the conclusion that APE1 is the major regulator under alkylation stress is not fully supported. The substrate preparation is critical for the validity of the kinetic measurements.
+  - **Resolution test** Provide full kinetic data with substrate characterization, show western blots for knockout confirmation, include statistical analysis of differences between genotypes with effect sizes and confidence intervals, and describe the preparation and validation of the 3'-GS-ddR-containing substrate.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational evidence
+  - **Claim pointer** The manuscript claims that MD simulations demonstrate that GSH-DNA adducts increase DNA conformational flexibility and stabilize TFAM-DNA binding, with binding energy differences of 37 to 133 kcal/mol.
+  - **Evidence pointer** Fig. 5B–F, SI Appendix Fig. S9, location not provided
+  - **Concern** The MD simulation methodology is described only briefly. The force field parameters used for the GSH-DNA adduct, the simulation protocol, the number of replicates, the convergence criteria, and the method for calculating binding energies are not specified. The reported binding energy differences of 37 to 133 kcal/mol are unusually large and the range is wide, which raises questions about the precision and reliability of the calculations. The relationship between the simulated model (Dickerson-Drew dodecamer with a central lesion) and the actual biological context of TFAM-bound mtDNA is not discussed.
+  - **Why it matters** The MD simulations are used to support the claim that GSH-DNA adducts stabilize TFAM-DNA binding. If the simulation methodology is not robust or the energy calculations are not converged, the conclusions drawn from these simulations are not reliable. The large range of binding energy differences suggests significant uncertainty.
+  - **Resolution test** Provide full simulation details including force field parameters, equilibration and production protocols, convergence analysis, replicate information, and a clear description of the binding energy calculation method. Show error estimates for the binding energies and discuss the limitations of the model system.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological significance and generalizability
+  - **Claim pointer** The manuscript claims that GSH-DNA adduct accumulation is associated with downregulation of mitochondrial ribosomal proteins and complex I subunits and upregulation of PRDX6, ARF5, and DNM1L, and that these changes represent biological consequences of adduct accumulation.
+  - **Evidence pointer** Fig. 4D–F, location not provided
+  - **Concern** The SILAC-based proteomics data are described but the full list of significantly changed proteins, the magnitude of changes, the statistical thresholds used, and the validation of the proteomics findings beyond PRDX6 are not provided. The connection between GSH-DNA adduct accumulation and the observed protein expression changes is correlative. The manuscript does not establish a causal link or a mechanistic pathway connecting adduct accumulation to the observed proteomic changes. The functional significance of the protein changes is speculative.
+  - **Why it matters** The claim that GSH-DNA adducts have biological consequences beyond their formation is important for the broader significance of the study. Without visible proteomics data and functional validation, the biological relevance of the observed protein changes is not established.
+  - **Resolution test** Provide the full proteomics dataset with statistical analysis, show validation of key protein changes by independent methods, and include experiments that directly test whether GSH-DNA adduct accumulation causes the observed protein expression changes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Fig. 2A
+  - **Evidence pointer** Fig. 2A, location not provided
+  - **Issue** The statistical comparisons between genotypes and treatment conditions are not fully described. The symbols used to denote significance are not defined in the text.
+  - **Required correction** Clearly define all significance symbols in the figure legend and report exact p-values or confidence intervals for all comparisons.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological clarity
+  - **Affected element** Materials and Methods, mitochondrial isolation
+  - **Evidence pointer** Materials and Methods, "Isolation of Mitochondria From Cultured Cells"
+  - **Issue** The mitochondrial isolation procedure is described briefly. The efficiency of mitochondrial enrichment and the degree of nuclear DNA contamination are not quantified.
+  - **Required correction** Provide data on mitochondrial purity, such as enrichment of mitochondrial markers and depletion of nuclear markers, to support the validity of mtDNA-specific measurements.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Fig. 3
+  - **Evidence pointer** Fig. 3A–E, location not provided
+  - **Issue** The gel-based assays in Fig. 3 are described but the quantification method for product yields is not specified. The relationship between band intensity and product quantity is not established.
+  - **Required correction** Describe the quantification method for gel-based assays, including whether densitometry was used and how linearity was ensured.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion of the potential role of GSH-DNA adducts in innate immunity and inflammation is speculative and not directly supported by data presented in the manuscript.
+  - **Required correction** Clearly distinguish between conclusions supported by data and speculative extensions. Consider tempering the language or adding supporting data or references.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Nomenclature and consistency
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout the manuscript
+  - **Issue** The manuscript uses both "GSH-DNA adducts" and "3'-GS-ddR" terminology. The relationship between these terms and the exact chemical structure of the adduct should be clarified.
+  - **Required correction** Define all terms clearly at first use and ensure consistent usage throughout.
+- **Technical failings that need to be addressed before the case is established** The primary quantitative data (LC-MS/MS chromatograms, calibration, validation) are not visible. The enzyme kinetics data are not fully presented. The MD simulation methodology is insufficiently detailed. The proteomics data are not shown. Statistical details are incomplete. Mitochondrial purity controls are not described.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of GSH-DNA adducts in mtDNA is novel and has not been previously characterized. The identification of specific repair enzymes and the involvement of TFAM and polyamines in adduct formation represent an original contribution.
+  - **Scientific importance** The findings have potential importance for understanding mitochondrial DNA damage biology, DNA repair mechanisms, and the intersection of mitochondrial damage with innate immunity and inflammation. The high levels of adducts reported suggest a potentially significant biological role.
+  - **Interdisciplinary readership** The topic bridges DNA repair, mitochondrial biology, redox biology, and immunology, which could attract a broad readership. However, the specialized nature of the mass spectrometry and MD simulation methods may limit accessibility.
+  - **Technical soundness** The technical approach is appropriate and multi-faceted, but the evidence as presented is incomplete. The lack of visible primary data and insufficient methodological detail for the MD simulations and proteomics prevent full assessment of technical soundness.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. The significance statement effectively communicates the importance of the work. However, some sections, particularly the MD simulation results, may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the approach is appropriate, but the current evidence base is insufficient to fully establish the claims. The authors should provide the primary data, additional methodological detail, and more rigorous statistical analysis. The manuscript has potential to be a significant contribution to the field if these concerns are addressed.

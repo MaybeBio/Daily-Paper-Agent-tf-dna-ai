@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusions. Figures, tables, and supplementary materials referenced but not provided.
+- **Assessment boundary** Scientific validity, technical soundness, and support for claims based solely on the supplied text. No assessment of formatting, grammar, or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors report the design and characterization of DB-2B, a novel small-molecule inhibitor targeting the STAT3 SH2 domain, derived from their previously reported inhibitor LY17. They claim DB-2B binds STAT3 with high affinity, selectively inhibits STAT3 activation and nuclear translocation, suppresses CRC cell proliferation, migration, invasion, and stemness, induces apoptosis and cell cycle arrest in vitro, and exhibits favorable oral bioavailability and safety with significant antitumor efficacy in a CRC xenograft model.
+- **Visible evidence base** Text descriptions of results from computational docking, SPR, ITC, CETSA, Western blotting, immunofluorescence, CCK-8, colony formation, EdU, Transwell, spheroid formation, flow cytometry, TEM, pharmacokinetic studies in rats, toxicity assessment in mice, and a subcutaneous xenograft model in nude mice. Figures S1–S6 and Table S1 referenced but not provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary data are absent. This includes raw binding data, Western blot images, flow cytometry histograms, pharmacokinetic curves, tumor growth curves, histopathology images, and statistical details. Without these, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting compound, DB-2B, as a STAT3 inhibitor with a rational design rationale based on structural optimization of a prior inhibitor. The breadth of assays employed is commendable and suggests a thorough experimental effort. However, the current text alone does not establish the core claims with sufficient rigor. Key issues include a lack of quantitative data for binding affinity and selectivity, incomplete statistical reporting, absence of key control experiments (e.g., selectivity against other STAT family members at the functional level, off-target profiling), and limited in vivo evidence with a single xenograft model. The claim of "selective" STAT3 inhibition is not adequately supported by the provided evidence. The manuscript would benefit from clearer presentation of data and more robust experimental design, particularly regarding selectivity and in vivo efficacy.
+- **Who would be interested in the results, and why** Researchers in cancer biology, particularly those focused on STAT3 signaling, colorectal cancer therapeutics, and small-molecule drug development. The compound's potential as an orally bioavailable STAT3 inhibitor could be of interest to medicinal chemists and translational oncology groups seeking new leads for targeted therapy.
+- **Major strengths** The rational design approach based on structural optimization of a known inhibitor is logical and well-articulated. The use of multiple orthogonal biophysical methods (SPR, ITC, CETSA) to confirm binding is a strength. The in vitro functional assays cover a broad range of cancer-relevant phenotypes, including proliferation, apoptosis, cell cycle, migration, invasion, and stemness. The inclusion of a positive control (TTI-101) in the in vivo study is appropriate. The discussion thoughtfully contextualizes the challenges in STAT3 drug development and acknowledges limitations of the current study.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Selectivity and specificity
+  - **Claim pointer** "DB-2B specifically inhibited STAT3 activation and nuclear translocation" and "DB-2B, a Novel and Selective STAT3 Inhibitor"
+  - **Evidence pointer** Section 3.2, Figure 2C
+  - **Concern** The claim of selectivity is based on Western blot data showing no inhibition of STAT1 and STAT5 phosphorylation. However, this is a limited assessment. Selectivity should be demonstrated against a broader panel of kinases and transcription factors, ideally through a kinome-wide or proteome-wide profiling approach. Additionally, the functional consequences of any off-target effects are not explored. The text does not provide quantitative data (e.g., densitometry) to support the claim of "no inhibition," and the figure is not available for review.
+  - **Why it matters** Selectivity is a central claim of the manuscript and is critical for the compound's therapeutic potential. Without robust selectivity data, the observed antitumor effects cannot be confidently attributed to STAT3 inhibition, and the risk of off-target toxicity remains uncharacterized.
+  - **Resolution test** Provide quantitative selectivity data, such as a kinome-wide screen or a panel of related STAT family members and other signaling proteins, with IC50 values or percentage inhibition at relevant concentrations. Include statistical analysis comparing phosphorylation levels between treated and control groups.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo efficacy and model relevance
+  - **Claim pointer** "orally administered DB-2B significantly suppressed CRC progression in vivo"
+  - **Evidence pointer** Section 3.7, Figure 7G–I
+  - **Concern** The in vivo efficacy is demonstrated in a single subcutaneous xenograft model using one cell line (DLD1). This model does not recapitulate the complexity of the tumor microenvironment, metastasis, or immune interactions. The text does not report tumor growth curves over time, only endpoint measurements. The statistical methods for comparing tumor volumes and weights are not described in detail. The positive control (TTI-101) is mentioned, but its efficacy relative to DB-2B is not quantitatively compared.
+  - **Why it matters** A single xenograft model is insufficient to establish antitumor efficacy and generalizability. The lack of detailed temporal data and statistical reporting limits the interpretability of the results. The clinical relevance of the model is questionable given the known limitations of subcutaneous xenografts.
+  - **Resolution test** Include tumor growth curves over the treatment period with error bars and statistical analysis (e.g., repeated measures ANOVA). Use additional CRC cell lines or patient-derived xenografts. Consider orthotopic or metastatic models. Provide a clear comparison of DB-2B efficacy with TTI-101, including statistical significance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Pharmacokinetics and bioavailability
+  - **Claim pointer** "DB-2B exhibited favorable oral bioavailability and safety"
+  - **Evidence pointer** Section 3.6, Table 1, Figure 6; Section 3.7, Figure 7A–E
+  - **Concern** The pharmacokinetic data are presented as a single table and figure, but the text lacks critical parameters such as half-life, clearance, volume of distribution, and the method of bioavailability calculation. The safety assessment is limited to a 5-day study in mice with only body weight, food/water intake, and histopathology of major organs. No hematological or biochemical parameters are reported. The sample sizes for pharmacokinetic and toxicity studies are not stated.
+  - **Why it matters** The claim of "favorable" pharmacokinetics and safety is not substantiated without comprehensive data. A 5-day study is too short to assess chronic toxicity. The lack of key pharmacokinetic parameters prevents assessment of drug exposure and dosing rationale.
+  - **Resolution test** Provide full pharmacokinetic parameters (t1/2, CL, Vd, F%) with statistical variability. Extend toxicity studies to a longer duration with assessment of blood chemistry, hematology, and histopathology of all major organs. Report sample sizes and statistical methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic depth
+  - **Claim pointer** "DB-2B specifically inhibited STAT3 activation and nuclear translocation, thereby blocking downstream gene transcription"
+  - **Evidence pointer** Sections 3.2 and 3.3, Figures 2 and 3
+  - **Concern** The mechanism is described as inhibition of STAT3 phosphorylation and nuclear translocation, leading to reduced expression of target genes. However, the manuscript does not explore whether DB-2B affects STAT3 DNA binding directly, disrupts STAT3 dimerization, or interferes with other post-translational modifications. The link between STAT3 inhibition and the observed phenotypic effects (apoptosis, cell cycle arrest) is correlative but not mechanistically proven, e.g., through rescue experiments with constitutively active STAT3.
+  - **Why it matters** A deeper mechanistic understanding would strengthen the claim that DB-2B acts specifically through STAT3 and would inform potential resistance mechanisms or combination strategies.
+  - **Resolution test** Perform experiments with constitutively active STAT3 (e.g., STAT3C) to see if it rescues the effects of DB-2B. Assess STAT3 DNA binding via electrophoretic mobility shift assay or chromatin immunoprecipitation. Investigate the effect of DB-2B on STAT3 dimerization using co-immunoprecipitation or in vitro assays.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Cell line authentication
+  - **Evidence pointer** Section 2.1
+  - **Issue** The manuscript does not state whether cell lines were authenticated (e.g., by short tandem repeat profiling) or tested for mycoplasma contamination.
+  - **Required correction** Add a statement on cell line authentication and mycoplasma testing in the methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Statistical analysis
+  - **Evidence pointer** Section 2.15
+  - **Issue** The statistical methods are described only briefly. It is unclear which specific tests were used for each experiment, whether data met assumptions for parametric tests, and how multiple comparisons were handled.
+  - **Required correction** Provide a detailed description of statistical tests used for each figure, including post-hoc tests and corrections for multiple comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Dose-response data
+  - **Evidence pointer** Section 3.2, Figure 2B
+  - **Issue** IC50 values are reported for DLD1 and HCT116, but the full dose-response curves and the range of concentrations tested are not described in the text.
+  - **Required correction** Include representative dose-response curves and specify the concentration range and number of replicates.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Supplementary materials
+  - **Evidence pointer** Sections 2.15 and 3.1
+  - **Issue** The manuscript references supplementary figures and a table, but these are not provided. It is unclear what additional data they contain.
+  - **Required correction** Ensure all supplementary materials are included and referenced appropriately in the text.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative binding data (SPR, ITC) in the text, absence of selectivity profiling beyond STAT1/STAT5, incomplete pharmacokinetic parameters, and the use of a single xenograft model are the primary technical shortcomings. The manuscript also lacks a clear statement on sample sizes and blinding for in vivo studies, which is critical for reproducibility.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The design of a novel STAT3 inhibitor based on structural optimization is incremental, but the specific compound and its characterization may offer new insights. The approach is not conceptually novel.
+  - **Scientific importance** Moderate. STAT3 is a validated cancer target, and orally bioavailable inhibitors are of clinical interest. However, the manuscript does not demonstrate a significant advance over existing inhibitors like TTI-101.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to cancer biologists and medicinal chemists. The broad significance to a general scientific audience is not established.
+  - **Technical soundness** The experimental design is generally sound, but the lack of quantitative data and incomplete statistical reporting weaken the conclusions. Selectivity and in vivo efficacy claims are not fully supported.
+  - **Readability for nonspecialists** The manuscript is clearly written and accessible, with a logical flow. However, the heavy reliance on specialized techniques may limit accessibility to a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the core claims of selectivity, favorable pharmacokinetics, and in vivo efficacy require additional data and analysis. I would be supportive if the technical concerns are resolved with quantitative data, broader selectivity profiling, and more robust in vivo studies.
+
+## Risk / unsupported claims
+- The claim of "selective" STAT3 inhibition is unsupported beyond a limited assessment of STAT1 and STAT5.
+- The claim of "favorable oral bioavailability" is not fully supported without complete pharmacokinetic parameters.
+- The claim of "favorable safety" is based on a short-term study and lacks comprehensive toxicity data.
+- The in vivo antitumor efficacy claim is based on a single xenograft model and lacks detailed temporal data.
+- The mechanistic link between STAT3 inhibition and phenotypic effects is correlative and not proven.

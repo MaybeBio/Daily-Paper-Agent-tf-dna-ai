@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "38037990",
+    "doi": "10.1021/acs.jcim.3c01527",
+    "title": "A Multimodal Deep Learning Framework for Predicting PPI-Modulator Interactions."
+  },
+  "content": {
+    "abstract": "Protein-protein interactions (PPIs) are essential for various biological processes and diseases. However, most existing computational methods for identifying PPI modulators require either target structure or reference modulators, which restricts their applicability to novel PPI targets. To address this challenge, we propose MultiPPIMI, a sequence-based deep learning framework that predicts the interaction between any given PPI target and modulator. MultiPPIMI integrates multimodal representations of PPI targets and modulators and uses a bilinear attention network to capture intermolecular interactions. Experimental results on our curated benchmark data set show that MultiPPIMI achieves an average AUROC of 0.837 in three cold-start scenarios and an AUROC of 0.994 in the random-split scenario. Furthermore, the case study shows that MultiPPIMI can assist molecular docking simulations in screening inhibitors of Keap1/Nrf2 PPI interactions. We believe that the proposed method provides a promising way to screen PPI-targeted modulators.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Protein Interaction Mapping/methods",
+      "Molecular Docking Simulation",
+      "Kelch-Like ECH-Associated Protein 1",
+      "*Deep Learning",
+      "NF-E2-Related Factor 2"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Heqi",
+        "Wang, Jianmin",
+        "Wu, Hongyan",
+        "Lin, Shenggeng",
+        "Chen, Junwei",
+        "Wei, Jinghua",
+        "Lv, Shuai",
+        "Xiong, Yi",
+        "Wei, Dong-Qing"
+      ],
+      "short_names": [
+        "Sun H",
+        "Wang J",
+        "Wu H",
+        "Lin S",
+        "Chen J",
+        "Wei J",
+        "Lv S",
+        "Xiong Y",
+        "Wei DQ"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-4979-8242",
+        "ORCID: 0009-0004-4925-7402",
+        "ORCID: 0000-0003-2910-6725"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Microbial Metabolism, Shanghai-Islamabad-Belgrade Joint Innovation Center on Antibacterial Resistances, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "The Interdisciplinary Graduate Program in Integrative Biotechnology and Translational Medicine, Yonsei University, Incheon 21983, Republic of Korea.",
+        "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen 518055, China.",
+        "State Key Laboratory of Microbial Metabolism, Shanghai-Islamabad-Belgrade Joint Innovation Center on Antibacterial Resistances, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "State Key Laboratory of Microbial Metabolism, Shanghai-Islamabad-Belgrade Joint Innovation Center on Antibacterial Resistances, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "Department of Chemistry, University of Toronto, Toronto M5R 0A3, Canada.",
+        "State Key Laboratory of Microbial Metabolism, Shanghai-Islamabad-Belgrade Joint Innovation Center on Antibacterial Resistances, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "State Key Laboratory of Microbial Metabolism, Shanghai-Islamabad-Belgrade Joint Innovation Center on Antibacterial Resistances, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "Shanghai Artificial Intelligence Laboratory, Shanghai 200232, China.",
+        "State Key Laboratory of Microbial Metabolism, Shanghai-Islamabad-Belgrade Joint Innovation Center on Antibacterial Resistances, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "Peng Cheng National Laboratory, Shenzhen 518055, China.",
+        "Zhongjing Research and Industrialization Institute of Chinese Medicine, Nanyang 473006, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Heqi",
+        "short_name": "Sun H",
+        "identifiers": [
+          "0009-0000-4979-8242"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Shanghai-Islamabad-Belgrade Joint Innovation Center on Antibacterial Resistances, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jianmin",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "The Interdisciplinary Graduate Program in Integrative Biotechnology and Translational Medicine, Yonsei University, Incheon 21983, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Wu, Hongyan",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen 518055, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Shenggeng",
+        "short_name": "Lin S",
+        "identifiers": [
+          "0009-0004-4925-7402"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Shanghai-Islamabad-Belgrade Joint Innovation Center on Antibacterial Resistances, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Junwei",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Shanghai-Islamabad-Belgrade Joint Innovation Center on Antibacterial Resistances, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Jinghua",
+        "short_name": "Wei J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Toronto, Toronto M5R 0A3, Canada."
+        ]
+      },
+      {
+        "full_name": "Lv, Shuai",
+        "short_name": "Lv S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Shanghai-Islamabad-Belgrade Joint Innovation Center on Antibacterial Resistances, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Yi",
+        "short_name": "Xiong Y",
+        "identifiers": [
+          "0000-0003-2910-6725"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Shanghai-Islamabad-Belgrade Joint Innovation Center on Antibacterial Resistances, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+          "Shanghai Artificial Intelligence Laboratory, Shanghai 200232, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Dong-Qing",
+        "short_name": "Wei DQ",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Shanghai-Islamabad-Belgrade Joint Innovation Center on Antibacterial Resistances, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+          "Peng Cheng National Laboratory, Shenzhen 518055, China.",
+          "Zhongjing Research and Industrialization Institute of Chinese Medicine, Nanyang 473006, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2023 Dec 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/01 12:44",
+    "fetched_at": "2026-09-29 11:18:39"
+  },
+  "links": {
+    "cites": [
+      "41975191",
+      "41693090",
+      "41536313",
+      "40883823",
+      "40370247",
+      "39707457",
+      "38680871",
+      "38600663"
+    ],
+    "refs": [],
+    "similar": [
+      "38037990",
+      "33795749",
+      "26935067",
+      "31787089",
+      "31851823",
+      "27312421",
+      "37191131",
+      "36841846",
+      "31726716",
+      "28746889",
+      "32233486",
+      "38097937",
+      "30423091",
+      "24066166",
+      "36634873",
+      "37630254",
+      "32866756",
+      "29420886",
+      "29037947",
+      "27690435",
+      "32564647",
+      "32693790",
+      "27474998",
+      "38783112",
+      "37441735",
+      "38064959",
+      "37679058",
+      "29750408",
+      "32902980",
+      "29693453",
+      "36128875",
+      "33990683",
+      "29994278",
+      "35939049",
+      "37935317",
+      "30068847",
+      "35806036",
+      "32032607",
+      "34119834",
+      "32668381",
+      "33818106",
+      "31412289",
+      "38043492",
+      "26441427",
+      "38564358",
+      "24130096",
+      "31279986",
+      "31283229",
+      "26597230",
+      "36086898",
+      "33839740",
+      "30582220",
+      "32437336",
+      "36863256",
+      "35776077",
+      "38466584",
+      "38744015",
+      "31509940",
+      "37881092",
+      "27476008",
+      "35549469",
+      "30736002",
+      "32046917",
+      "39051117",
+      "38340577",
+      "34236667",
+      "29117896",
+      "26551711",
+      "36263945",
+      "31721705",
+      "28545462",
+      "32024620",
+      "38330793",
+      "38503089",
+      "35721612",
+      "25602759",
+      "38598255",
+      "33683866",
+      "24512214",
+      "28802714",
+      "24565177",
+      "37013942",
+      "28024463",
+      "31411465",
+      "35391936",
+      "26415726",
+      "38159482",
+      "38104880",
+      "37603483",
+      "35758793",
+      "29306329",
+      "24564941",
+      "28113829",
+      "28364585",
+      "35462166",
+      "38892007",
+      "35242211",
+      "29560828",
+      "37570623",
+      "38102755",
+      "36671832"
+    ],
+    "review": [
+      "38037990",
+      "32233486",
+      "27690435",
+      "37441735",
+      "30068847",
+      "32668381",
+      "38043492",
+      "36086898",
+      "31509940",
+      "26551711",
+      "38330793",
+      "28802714",
+      "28364585"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38037990",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.3c01527",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

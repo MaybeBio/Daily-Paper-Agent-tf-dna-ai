@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "40789496",
+    "doi": "10.1016/j.freeradbiomed.2025.08.015",
+    "title": "Engineering a manganese superoxide dismutase with enhanced thermostability and activity via protein language Models: Toward antioxidant and anti-inflammatory applications in biomedicine and skincare."
+  },
+  "content": {
+    "abstract": "Superoxide dismutases (SODs) are essential antioxidant enzymes that catalyze the dismutation of superoxide radicals, playing a crucial role in cellular defense against oxidative stress. However, most natural SODs lack the thermostability required for industrial and therapeutic applications. In this study, we identified a manganese-dependent SOD (PsSOD) from the extremophilic bacterium Pseudogracilibacillus sp., which exhibited high native activity but limited stability under high-temperature conditions. To enhance its robustness, we employed a protein language model-guided strategy that integrated PSSM, ESM-1v, and SaProt to predict thermostability-enhancing mutations. Through four rounds of rational design and combinatorial mutagenesis, we developed an optimized variant (M4: T19H/L90M/Q122K/A183I), which retained approximately 70 % of its activity after 1 h at 90  degrees C-a 1.8-fold improvement over the wild type. Moreover, its catalytic activity reached 1567.6 U/mg, representing a 2.2-fold enhancement compared to the wild-type enzyme. Structural modeling and molecular dynamics simulations revealed that enhanced hydrophobic packing and reduced conformational flexibility contributed to the improved stability. Furthermore, M4 exhibited strong radical scavenging activity in vitro, activated the Nrf2/HO-1 antioxidant pathway, and suppressed pro-inflammatory cytokines (IL-6, TNF-alpha, IL-1beta) in LPS-stimulated HaCaT and RAW264.7 cells. These results underscore the potential of AI-assisted protein engineering to develop robust antioxidant enzymes for biomedical, cosmetic, and industrial applications.",
+    "keywords": [
+      "Artificial intelligence (AI)",
+      "Directed evolution",
+      "Industrial enzymes",
+      "Superoxide dismutase (SOD)",
+      "Thermostability"
+    ],
+    "mesh_terms": [
+      "*Antioxidants/pharmacology/chemistry/metabolism",
+      "Animals",
+      "Mice",
+      "*Superoxide Dismutase/genetics/chemistry/metabolism/pharmacology",
+      "Protein Engineering",
+      "Humans",
+      "Enzyme Stability",
+      "*Anti-Inflammatory Agents/pharmacology/chemistry",
+      "Molecular Dynamics Simulation",
+      "RAW 264.7 Cells",
+      "Oxidative Stress/drug effects",
+      "*Bacterial Proteins/genetics/chemistry/metabolism",
+      "NF-E2-Related Factor 2/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Naying",
+        "Deng, Yuting",
+        "Li, Rui",
+        "Liu, Fan",
+        "Wei, Dongsheng",
+        "Ren, Zefeng",
+        "Jin, Xuanyan",
+        "Zhao, Tongzhi",
+        "Park, Myeongsam",
+        "Choi, Jaehwan",
+        "Li, Zhengqun"
+      ],
+      "short_names": [
+        "Zhang N",
+        "Deng Y",
+        "Li R",
+        "Liu F",
+        "Wei D",
+        "Ren Z",
+        "Jin X",
+        "Zhao T",
+        "Park M",
+        "Choi J",
+        "Li Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+        "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China.",
+        "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China.",
+        "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China.",
+        "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China.",
+        "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China.",
+        "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China.",
+        "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China. Electronic address: jhchoipro@cosmax.com.",
+        "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China. Electronic address: zhengqun.li@cosmax.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Naying",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Yuting",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Rui",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Fan",
+        "short_name": "Liu F",
+        "identifiers": [],
+        "affiliations": [
+          "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Dongsheng",
+        "short_name": "Wei D",
+        "identifiers": [],
+        "affiliations": [
+          "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Zefeng",
+        "short_name": "Ren Z",
+        "identifiers": [],
+        "affiliations": [
+          "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Xuanyan",
+        "short_name": "Jin X",
+        "identifiers": [],
+        "affiliations": [
+          "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Tongzhi",
+        "short_name": "Zhao T",
+        "identifiers": [],
+        "affiliations": [
+          "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Park, Myeongsam",
+        "short_name": "Park M",
+        "identifiers": [],
+        "affiliations": [
+          "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Choi, Jaehwan",
+        "short_name": "Choi J",
+        "identifiers": [],
+        "affiliations": [
+          "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China. Electronic address: jhchoipro@cosmax.com."
+        ]
+      },
+      {
+        "full_name": "Li, Zhengqun",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "R&I Center, COSMAX China, 529 Xiaonan Road, Shanghai, China. Electronic address: zhengqun.li@cosmax.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Free radical biology & medicine"
+    ],
+    "journal_abbrev": [
+      "Free Radic Biol Med"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/12 00:27",
+    "fetched_at": "2026-09-30 23:47:42"
+  },
+  "links": {
+    "cites": [
+      "42343484",
+      "41462620"
+    ],
+    "refs": [],
+    "similar": [
+      "40789496",
+      "40014803",
+      "40541892",
+      "40058429",
+      "33421604",
+      "39613070",
+      "36293333",
+      "32290603",
+      "22253095",
+      "40752598",
+      "33880723",
+      "34329665",
+      "40430395",
+      "31234591",
+      "29958143",
+      "40368256",
+      "41006625",
+      "32070920",
+      "26224027",
+      "39128305",
+      "15261965",
+      "31112588",
+      "40871662",
+      "33974900",
+      "34626596",
+      "40594389",
+      "12392545",
+      "38851471",
+      "34161407",
+      "40482480",
+      "40992021",
+      "37864893",
+      "29769428",
+      "38483584",
+      "32234671",
+      "28274879",
+      "28914791",
+      "34029560",
+      "35887117",
+      "37434032",
+      "33045867",
+      "38530320",
+      "28982598",
+      "36142129",
+      "41240726",
+      "22771831",
+      "30153667",
+      "40904096",
+      "30685308",
+      "11594783",
+      "26682532",
+      "38565370",
+      "32512011",
+      "35517984",
+      "31827675",
+      "39851237",
+      "29421221",
+      "23640758",
+      "37650025",
+      "38474469",
+      "30553970",
+      "28472605",
+      "31121820",
+      "40992629",
+      "31273392",
+      "31344704",
+      "34775034",
+      "25511255",
+      "30365058",
+      "33285210",
+      "31835323",
+      "37702501",
+      "40154568",
+      "39033661",
+      "39757276",
+      "40360040",
+      "27569028",
+      "32736054",
+      "33632046",
+      "28754101",
+      "28188924",
+      "26081287",
+      "24316252",
+      "38750986",
+      "34162131",
+      "30227270",
+      "39757650",
+      "32699197",
+      "34078820",
+      "33613825",
+      "31790703",
+      "30890324",
+      "38977335",
+      "32756588",
+      "34648903",
+      "38058079",
+      "40781346",
+      "32476138",
+      "29547907",
+      "36947333"
+    ],
+    "review": [
+      "40789496",
+      "34161407",
+      "40992021",
+      "38483584"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0891-5849(25)00884-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/antioxidants.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antioxidants"
+      },
+      {
+        "url": "https://www.ovid.com/40789496.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

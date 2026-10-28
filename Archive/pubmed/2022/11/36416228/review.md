@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, summary, and conclusion. Figures and tables are referenced but not provided. Supplementary material is referenced but not provided.
+- **Assessment boundary** The assessment is limited to the scientific content, methodology, and claims presented in the provided text. No assessment of figures, tables, or supplementary material is possible as they were not supplied.
+- **Shared manuscript claim summary** The manuscript claims that coarse-grained molecular dynamics simulations of the lac repressor (LacI) in two conformations, one with flexible hinge regions (search conformation) and one with helical hinge regions (recognition conformation), reveal that the search conformation is more efficient for one-dimensional diffusion along straight DNA, while the recognition conformation is essential for specific binding to bent DNA. The authors further argue that conformational changes in LacI and DNA bending are coupled, with DNA bending likely preceding the hinge-to-helix transition.
+- **Visible evidence base** The evidence base consists of the manuscript text only. No figures, tables, or supplementary material were provided. The methods section describes the coarse-grained model, simulation parameters, and analysis techniques, but quantitative results are only referenced through figures and tables that are not visible.
+- **Missing materials affecting confidence** Figures 1–5, Tables S1–S5, and all supplementary material are referenced but not provided. These are essential for evaluating the validity of the simulation results, the trajectory analysis, and the comparison to experimental data. Without these, the quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question in the field of protein–DNA recognition, namely how transcription factors transition from a search mode to a specific binding mode. The use of coarse-grained simulations to study the lac repressor system is appropriate and the authors have made a reasonable effort to connect their results to experimental observations. However, the manuscript has several significant weaknesses. The central claim that the search conformation is more efficient for diffusion while the recognition conformation is required for specific binding is supported by the qualitative descriptions, but the quantitative evidence is not accessible without the figures and tables. The analysis of hopping versus groove tracking relies on a classification scheme that is described only briefly, and the potential for artifacts in this classification is not adequately discussed. The comparison to experimental data is presented as supportive, but the details of this comparison are not fully transparent. The conclusion that DNA bending precedes the conformational change in LacI is speculative and not directly tested by the simulations. Overall, the manuscript presents an interesting hypothesis but the evidence as presented is insufficient to fully establish the claims.
+- **Who would be interested in the results, and why** Researchers in the fields of biophysics, molecular recognition, and gene regulation would be interested in this work. The study addresses fundamental questions about how proteins search for and recognize specific DNA sequences, which is relevant to understanding transcriptional regulation. The use of coarse-grained simulations to study facilitated diffusion is of methodological interest to computational biophysicists. The specific findings about LacI conformations and their roles in search and recognition would be of interest to those studying the lac operon system and transcription factor dynamics more broadly.
+- **Major strengths** The manuscript addresses a timely and important question in protein–DNA recognition. The use of a coarse-grained model allows for simulations of diffusion dynamics that would be computationally prohibitive with atomistic models. The authors have made an effort to compare their results to experimental data, which strengthens the relevance of their findings. The discussion of the role of flexible hinge regions in facilitating both search and recognition is thoughtful and provides a plausible mechanistic framework. The acknowledgment of limitations, such as the shifted salt concentration range due to coarse graining, is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence accessibility
+  - **Claim pointer** The manuscript claims quantitative agreement between simulation results and experimental values for diffusion coefficients, pitch, and hopping frequency, but the actual data are only presented in figures and tables that are not provided.
+  - **Evidence pointer** Figures 3 and 4, Tables S3–S5, location not provided
+  - **Concern** The central quantitative claims of the manuscript, including the comparison of diffusion coefficients, pitch, and hopping frequency to experimental values, are presented only through references to figures and tables that are not included in the provided material. Without access to these data, it is impossible to assess whether the simulations indeed reproduce experimental observations or whether the differences between the search and recognition conformations are statistically significant. The manuscript text alone does not provide sufficient numerical detail to evaluate the strength of the evidence.
+  - **Why it matters** The validity of the manuscript's conclusions rests on the quantitative agreement between simulations and experiments. If the data are not accessible, the claims cannot be verified, and the scientific contribution of the work cannot be properly evaluated.
+  - **Resolution test** The authors should provide the figures and tables, or at minimum, the key numerical values (e.g., diffusion coefficients, pitch, hopping frequencies with error estimates) in the text or supplementary material, so that the claims can be independently assessed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The manuscript claims that the trajectory analysis can reliably distinguish between groove tracking and hopping, and that the classification is robust enough to support conclusions about the relative contributions of these modes to diffusion.
+  - **Evidence pointer** Methods section "Trajectory Analysis", location not provided
+  - **Concern** The classification of one-dimensional diffusion into groove tracking and hopping is described only briefly. The criteria for identifying groove tracking (fluctuation of not more than 1.5 bp from the center of the major groove) and hopping (periods between groove tracking events) are not fully specified. The manuscript does not discuss potential ambiguities in this classification, such as how boundary cases are handled, how the choice of thresholds affects the results, or whether the classification is sensitive to the simulation parameters. The authors note that "there are short events that add noise to the output of the analysis" and that lower bounds were added, but the rationale for these choices and their impact on the results are not explained.
+  - **Why it matters** The distinction between groove tracking and hopping is central to the manuscript's conclusions about the mechanisms of diffusion. If the classification is not robust or is sensitive to arbitrary thresholds, the conclusions about the relative contributions of these modes may not be reliable.
+  - **Resolution test** The authors should provide a more detailed description of the classification algorithm, including the specific criteria for groove tracking and hopping, the rationale for the chosen thresholds, and a sensitivity analysis showing how the results change with different threshold values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim support
+  - **Claim pointer** The manuscript claims that "DNA bending may precede the conformational changes in LacI" and that the encounter complex of the search conformation with straight DNA is the most likely initiator of specific complex formation.
+  - **Evidence pointer** Results section "Recognition Coupled Conformational Changes Are Likely Initiated in the Protein with Disordered Hinge Region When Aligning to the Target Site", location not provided
+  - **Concern** The conclusion that DNA bending precedes the conformational change in LacI is based on the observation that the search conformation has more favorable interactions with straight DNA than with bent DNA, and that the recognition conformation has more favorable interactions with bent DNA. However, the simulations do not directly test the temporal ordering of these events. The authors acknowledge that "this scenario does not exclude the possibility of coupling between the conformational transition of DNA and that of LacI," but the evidence presented does not strongly favor one ordering over the other. The claim is presented as a conclusion but is more speculative in nature.
+  - **Why it matters** The temporal ordering of DNA bending and protein conformational change is a key mechanistic claim. If the evidence does not directly support this ordering, the claim should be presented as a hypothesis rather than a conclusion.
+  - **Resolution test** The authors should either provide direct evidence for the temporal ordering (e.g., through time-resolved simulations or free energy calculations) or soften the claim to reflect the speculative nature of the conclusion.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation
+  - **Claim pointer** The manuscript claims that the coarse-grained model is appropriate for studying LacI diffusion and binding, and that the results are consistent with experimental observations.
+  - **Evidence pointer** Methods section "Coarse-Grained Model" and Results section "The Search Conformation Displays Better Sliding Properties Than the Recognition Conformation", location not provided
+  - **Concern** The manuscript does not provide a thorough validation of the coarse-grained model for the specific system under study. While the model has been used in previous work, the manuscript does not discuss potential limitations of the coarse-grained representation for capturing the subtle conformational changes in the hinge region that are central to the study. The authors note that the salt concentration range is shifted relative to experimental conditions, but the implications of this shift for the interpretation of the results are not fully discussed. Additionally, the manuscript does not address whether the model can accurately capture the energetics of specific versus nonspecific binding.
+  - **Why it matters** The conclusions of the manuscript depend on the reliability of the coarse-grained model. If the model has known limitations that are not addressed, the validity of the conclusions may be compromised.
+  - **Resolution test** The authors should provide a more detailed discussion of the model's limitations and how they might affect the conclusions. They should also consider additional validation against experimental data or atomistic simulations where possible.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that "the simulations were compared to experimental observables" but does not specify which observables or how the comparison was made. This makes it difficult for the reader to assess the strength of the validation.
+  - **Required correction** Specify the experimental observables used for comparison and briefly describe the outcome of the comparison.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section "Coarse-Grained Simulations", location not provided
+  - **Issue** The manuscript states that simulations were run for 10^8 MD steps but does not provide details on the time step used, the equilibration protocol, or the number of independent simulations performed. This information is necessary for reproducibility.
+  - **Required correction** Provide details on the time step, equilibration procedure, and number of replicates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section
+  - **Evidence pointer** Results section "One-Dimensional Diffusion of LacI Is Dominated by Hopping Dynamics", location not provided
+  - **Issue** The manuscript states that "the analysis of hopping and groove tracking as it is demonstrated in Figure 4A shows that we count groove tracking events when the protein remains in one groove," but then acknowledges that there are "significant fluctuations in the Z position that exceed what would be expected for groove tracking." This creates confusion about the reliability of the classification.
+  - **Required correction** Clarify how these fluctuations are handled in the analysis and whether they affect the conclusions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, location not provided
+  - **Issue** The introduction mentions that the two-state model has been used to interpret conformations of various DBPs, but does not provide specific examples or citations beyond the general references. This makes it difficult to place the current work in the broader context.
+  - **Required correction** Provide specific examples of other DBPs where the two-state model has been applied, with appropriate citations.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of access to the figures, tables, and supplementary material that contain the quantitative results. Without these, the central claims of the manuscript cannot be evaluated. Additionally, the trajectory analysis method is not described in sufficient detail to assess its robustness, and the model validation is incomplete.
+- **Assessment against Nature-style criteria** 
+  - Originality: The manuscript addresses a question that has been discussed in the literature, namely the role of conformational changes in transcription factor search and recognition. The specific application to LacI with a focus on the hinge region is somewhat novel, but the overall concept of two-state binding is not new. The originality is moderate.
+  - Scientific importance: The question of how transcription factors balance search efficiency with binding specificity is of fundamental importance in molecular biology. The manuscript provides a plausible mechanistic framework, but the importance of the specific findings is limited by the lack of direct experimental validation.
+  - Interdisciplinary readership: The topic is relevant to biophysics, computational biology, and molecular biology. The manuscript is likely to be of interest to researchers in these fields, but the technical nature of the simulations may limit its accessibility to a broader audience.
+  - Technical soundness: The coarse-grained simulation approach is well-established, but the manuscript has weaknesses in the description of the analysis methods and the validation of the model. The lack of access to the quantitative data prevents a full assessment of technical soundness.
+  - Readability for nonspecialists: The manuscript is generally well-written and the concepts are explained clearly. However, the methods section is dense and may be difficult for nonspecialists to follow. The figures, if provided, would likely help with readability.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a plausible hypothesis, but the evidence as presented is insufficient to fully establish the claims. The authors should provide the missing data, clarify the analysis methods, and address the limitations of the model before the manuscript can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that the search conformation is more efficient for one-dimensional diffusion than the recognition conformation is not fully supported without access to the quantitative data in Figures 3 and 4.
+- The claim that DNA bending precedes the conformational change in LacI is speculative and not directly tested by the simulations.
+- The claim that the coarse-grained model reproduces experimental results is not verifiable without the specific data and comparison details.
+- The claim that the core domain significantly influences search dynamics is based on qualitative observations and requires quantitative support.
+- The claim that the search conformation can recognize the target site on straight DNA is based on indirect evidence from distance profiles and encounter complex simulations, but the significance of these findings is not fully established.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38635316",
+  "title": "Machine Learning of Three-Dimensional Protein Structures to Predict the Functional Impacts of Genome Variation.",
+  "authors": "Shukla, Kriti; Idanwekhai, Kelvin; Naradikian, Martin; Ting, Stephanie; Schoenberger, Stephen P; Brunk, Elizabeth",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2024-04-18",
+  "window": {
+    "start": "2024-04-15",
+    "end": "2024-04-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用AlphaFold三维结构训练机器学习分类器，预测基因变异对NRF2和c-Myc转录活性的功能影响，虽涉及转录因子相关通路，但核心是变异功能预测而非TF-DNA结合互作建模，方法可迁移但对象和互作轴匹配度中等。",
+  "abstract": "Research in the human genome sciences generates a substantial amount of genetic data for hundreds of thousands of individuals, which concomitantly increases the number of variants of unknown significance (VUS). Bioinformatic analyses can successfully reveal rare variants and variants with clear associations with disease-related phenotypes. These studies have had a significant impact on how clinical genetic screens are interpreted and how patients are stratified for treatment. There are few, if any, computational methods for variants comparable to biological activity predictions. To address this gap, we developed a machine learning method that uses protein three-dimensional structures from AlphaFold to predict how a variant will influence changes to a gene's downstream biological pathways. We trained state-of-the-art machine learning classifiers to predict which protein regions will most likely impact transcriptional activities of two proto-oncogenes, nuclear factor erythroid 2 (NFE2L2)-related factor 2 (NRF2) and c-Myc. We have identified classifiers that attain accuracies higher than 80%, which have allowed us to identify a set of key protein regions that lead to significant perturbations in c-Myc or NRF2 transcriptional pathway activities.",
+  "abstract_zh": "人类基因组科学研究为数十万个体产生了大量的遗传数据，这同时增加了意义未明变异（VUS）的数量。生物信息学分析能够成功揭示罕见变异及与疾病相关表型有明确关联的变异。这些研究对临床遗传筛查的解读方式以及患者治疗分层产生了显著影响。目前，几乎没有与生物活性预测相当的变异计算方法。为弥补这一空白，我们开发了一种机器学习方法，利用AlphaFold提供的蛋白质三维结构来预测变异如何影响基因下游生物通路的变化。我们训练了最先进的机器学习分类器，以预测哪些蛋白质区域最可能影响两个原癌基因——核因子红细胞2相关因子2（NFE2L2）和c-Myc——的转录活性。我们识别出准确率超过80%的分类器，这些分类器使我们能够确定一组关键蛋白质区域，这些区域导致c-Myc或NRF2转录通路活性的显著扰动。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38635316/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38635316/",
+  "paper_page_path": "papers/pubmed/38635316/index.html"
+}

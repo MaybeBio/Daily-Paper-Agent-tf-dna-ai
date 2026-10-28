@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods details, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present a coarse-grained simulation model for protein-mediated DNA compaction, combined with an unsupervised machine learning pipeline for classifying DNA-protein complex structures. They apply this to HIV integrase-induced DNA compaction and report that protein-protein interactions are critical for forming looped intermediates observed experimentally.
+- **Visible evidence base** Abstract text only; no quantitative results, figures, tables, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters, validation data, experimental comparison details, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful computational framework for studying protein-mediated DNA compaction at mesoscale. The combination of coarse-grained simulations with unsupervised learning is conceptually appealing and the application to HIV integrase is biologically relevant. However, the abstract provides insufficient quantitative detail to evaluate the validity of the central claims, particularly the assertion that protein-protein interactions are critical for looped intermediate formation. The methodology is described at a high level, but key technical aspects such as model validation, parameter choices, and the robustness of the classification pipeline are not assessable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in biophysics, computational biology, and molecular biology studying DNA-protein interactions, chromatin organization, and viral genome packaging. The methodological framework could also interest those developing machine learning approaches for structural classification of biomolecular complexes.
+- **Major strengths** The proposed model is described as simple and generic, which could enhance its applicability across different protein-DNA systems. The use of experimentally derived binding strengths is a positive feature that grounds the model in measurable quantities. The unsupervised learning pipeline offers a systematic approach to classifying complex structures without requiring predefined structural categories.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that protein-protein interactions are critical to the formation of looped intermediate structures seen experimentally.
+  - **Evidence pointer** Abstract, no specific figure or table referenced
+  - **Concern** The central biological conclusion is stated without any quantitative support in the abstract. No data are presented showing the comparison between simulations with and without protein-protein interactions, nor is there any quantitative measure of how well the simulated looped intermediates match experimental observations.
+  - **Why it matters** This claim is the primary scientific finding of the work. Without visible evidence demonstrating the effect size, statistical significance, or degree of agreement with experimental data, the conclusion cannot be evaluated or reproduced.
+  - **Resolution test** Provide a figure or table showing structural metrics (e.g., loop size distribution, compaction ratio) for simulations with and without protein-protein interactions, alongside corresponding experimental measurements, with statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The model is described as simple and generic, with protein-DNA binding strength taken from experimental measurements.
+  - **Evidence pointer** Abstract, methods description
+  - **Concern** No validation of the coarse-grained model is described. It is unclear whether the model reproduces known DNA mechanical properties, whether the isotropic binding potential with imposed valency captures realistic protein-DNA interactions, or how sensitive the results are to model parameters.
+  - **Why it matters** A coarse-grained model's utility depends on its ability to capture the essential physics of the system. Without validation against known DNA properties or experimental benchmarks, the reliability of the simulation results is uncertain.
+  - **Resolution test** Include a validation section showing that the model reproduces known DNA persistence length, that the binding potential recapitulates experimental binding affinities, and that results are robust to reasonable parameter variations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** The unsupervised learning pipeline receives a large set of structural order parameters, reduces dimensionality via PCA, and groups results using a Gaussian mixture model.
+  - **Evidence pointer** Abstract, methods description
+  - **Concern** The abstract does not specify what structural order parameters are used, how many are included, how the number of PCA components or Gaussian mixture components is selected, or how the stability of the clustering is assessed.
+  - **Why it matters** Unsupervised learning results can be highly sensitive to feature selection and hyperparameter choices. Without this information, the reproducibility and robustness of the classification are not assessable.
+  - **Resolution test** Provide a detailed methods section listing the order parameters, the criteria for choosing PCA and mixture components, and a stability analysis (e.g., bootstrap or silhouette scores).
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Scope clarity
+  - **Affected element** Abstract, first sentence
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that protein-DNA interactions and compaction play key roles in a range of biological processes, but does not specify which processes are relevant to the model's applicability.
+  - **Required correction** Briefly list representative biological contexts (e.g., transcription regulation, viral packaging, chromatin organization) to frame the work's relevance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Abstract, results description
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract mentions "semi-quantitative approach" but does not clarify what is semi-quantitative versus quantitative in the analysis.
+  - **Required correction** Define what is meant by semi-quantitative, for example whether the model provides relative trends rather than absolute predictions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Abstract, methodology
+  - **Evidence pointer** Abstract
+  - **Issue** No mention of code or data availability, which is important for a computational methods paper.
+  - **Required correction** State whether simulation code, analysis scripts, and input data will be made publicly available.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central biological claim requires direct evidence, and the model requires validation before its predictions can be trusted. R1-M3, while not blocking, is necessary for reproducibility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of coarse-grained simulations with unsupervised learning for classifying DNA-protein complexes appears novel, though the individual components are established techniques.
+  - Scientific importance: The topic of protein-mediated DNA compaction is of broad interest, and a generic modeling framework could be valuable. However, the significance of the specific finding for HIV integrase is not yet established from the abstract.
+  - Interdisciplinary readership: The work bridges biophysics, computational biology, and virology, which could attract a broad audience if the results are convincingly demonstrated.
+  - Technical soundness: Not assessable from the abstract. Key technical details and validation are missing.
+  - Readability for nonspecialists: The abstract is generally clear, but terms like "discrete worm-like chain" and "grand canonical ensemble" may be opaque to some readers. The writing is accessible for a biophysics audience.
+- **Recommendation posture** Currently not established from the provided evidence. The framework is promising, but the central claim requires direct quantitative evidence and the model requires validation. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that protein-protein interactions are critical for looped intermediate formation is unsupported in the abstract, as no comparative data are shown.
+- The claim that the model is "simple and generic" is not substantiated with evidence of its applicability beyond the HIV integrase case.
+- The claim that the methodology provides a "systematic and semi-quantitative approach" is not supported by any demonstration of its output or accuracy.
+- The assertion that the model's protein-DNA binding strength is "taken from experimental measurements" cannot be verified without details on which measurements and how they were incorporated.
+- The performance of the unsupervised learning pipeline (e.g., classification accuracy, sensitivity to parameters) is not assessable from the abstract.

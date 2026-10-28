@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supplemental figure references
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and technical soundness as presented in the provided text. No access to actual data files, figures, or supplemental materials beyond what is described in the text
+- **Shared manuscript claim summary** The authors report that systematic mutagenesis of RNA-contacting residues in the ZRANB2 zinc finger domain, coupled with a modified RNA bind-n-seq assay and molecular dynamics simulations, yields a single point mutant (N32R) with altered sequence specificity from GGU to GGG while retaining high RNA-binding affinity
+- **Visible evidence base** Text descriptions of RBNS results, kpLogo analyses, k-means clustering, MD simulation protocols and outcomes, and structural interpretations. Figures referenced but not directly viewable
+- **Missing materials affecting confidence** Actual figures, supplemental data files, raw sequencing data, MD trajectory details, and statistical analyses are not available for direct verification
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and well-structured approach to engineering RNA-binding zinc finger domains with altered sequence specificity. The combination of experimental RBNS data with all-atom MD simulations provides a compelling framework for understanding ZnF-RNA recognition. The identification of a single point mutation that switches specificity from GGU to GGG is a notable advance. However, several technical aspects require clarification, particularly regarding the quantitative rigor of the RBNS analysis, the statistical treatment of MD simulation data, and the generalizability of the findings beyond the single mutant characterized in depth.
+- **Who would be interested in the results, and why** Researchers in RNA biology, protein engineering, and structural biology would find this work relevant. Those developing RNA-targeting tools, particularly programmable RNA-binding proteins, would be directly interested. The work also speaks to the broader community studying protein-RNA recognition principles and the design of sequence-specific RNA-binding modules for therapeutic applications.
+- **Major strengths** The study addresses a significant gap in the field, namely the limited understanding of how RNA-binding ZnF sequence governs specificity. The experimental design using a modular 2-ZnF array with an anchor ZnF is clever and enables systematic testing of individual test ZnFs. The integration of experimental binding data with MD simulations provides mechanistic insight into the observed specificity change. The identification of a single mutation that alters specificity while maintaining affinity is a clean and important result.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of RBNS quantitative analysis
+  - **Claim pointer** The authors claim that the modified RBNS assay can "robustly identify preferred RNA-binding motifs" and that fold-enrichment values provide estimates of binding affinity at different protein concentrations
+  - **Evidence pointer** Results section "RBNS characterizes the RNA-binding profile of ZnFs"; Materials and Methods "RNA bind-n-seq (RBNS)"
+  - **Concern** The manuscript does not provide sufficient detail on how fold-enrichment values are calculated and normalized across experiments. The claim that binding affinity can be estimated from RBNS at multiple protein concentrations requires a more rigorous quantitative framework. Specifically, the relationship between protein concentration, RNA concentration, and fold-enrichment is not formally described. The authors state that RNA concentration was kept constant at 1 μM, but the protein concentrations used (160-1280 nM) span a range that may not be in the linear binding regime for all mutants. Without a clear model for how fold-enrichment relates to binding affinity, the comparative statements about "high" versus "low" affinity across mutants are difficult to evaluate quantitatively.
+  - **Why it matters** The central claim of the paper, that N32R retains high binding affinity while altering specificity, depends critically on the quantitative interpretation of RBNS data. If the fold-enrichment values are not properly normalized or if the assay conditions do not allow for reliable affinity comparisons, the conclusion that N32R retains high affinity could be overstated or understated.
+  - **Resolution test** Provide a formal description of the fold-enrichment calculation, including normalization procedures and statistical tests for significance. Show that the assay can distinguish between known high- and low-affinity binders across the concentration range used. Ideally, validate the RBNS-derived affinity estimates for at least the wild-type and N32R mutants using an independent biophysical method such as ITC or fluorescence anisotropy.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical robustness of MD simulation conclusions
+  - **Claim pointer** The authors state that MD simulations "rationalize how a single amino acid substitution can alter the RNA motif recognition" and specifically that the NRmut-GGU RNA binding is "less stable" compared to NRmut-GGG RNA binding
+  - **Evidence pointer** Results section "All-atom MD simulations reveal the ZnF-RNA recognition mechanism"; Materials and Methods "All-atom molecular dynamics simulations" and "MD simulation data analysis"
+  - **Concern** The MD simulations were performed for 50 ns in triplicate for each of four systems. While this is a reasonable starting point, the conclusions about differential stability and hydrogen-bonding patterns between the four systems are based on relatively short simulation times. The manuscript does not report convergence analyses, block error estimates, or other standard metrics for assessing the statistical reliability of the hydrogen-bond occupancy calculations. The hydrogen-bond relative intensity scores are presented as single values without error bars or confidence intervals. Given that the key mechanistic claim rests on differences in hydrogen-bonding patterns between WT and NRmut complexes, the lack of statistical treatment is a significant gap.
+  - **Why it matters** The mechanistic interpretation of the specificity switch depends on the reliability of the MD-derived hydrogen-bonding analysis. If the differences in hydrogen-bond occupancy between systems are within the noise of the simulations, the proposed mechanism would not be supported.
+  - **Resolution test** Provide error estimates for the hydrogen-bond occupancy calculations, such as standard deviations across the three replicates. Show convergence of the hydrogen-bonding patterns over the simulation time. Consider extending simulation times or performing additional replicates to ensure the observed differences are robust.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the findings
+  - **Claim pointer** The authors state that their work "serves as a foundation for eventual use of RNA-binding ZnFs for programmable RNA targeting" and that the approach "opens the door to further rational design or screening of mutants with further alterations in sequence specificity"
+  - **Evidence pointer** Discussion section
+  - **Concern** The study characterizes one successful mutant (N32R) out of 38 tested. While this is a valid proof-of-principle, the claim that this approach serves as a foundation for programmable RNA targeting would be strengthened by demonstrating that the design principles can be extended to other positions or other specificity changes. The manuscript does not discuss whether the failure of the other 37 mutants provides any generalizable lessons, nor does it address the potential for combinatorial mutations to achieve more complex specificity changes.
+  - **Why it matters** The broader significance of the work depends on whether the identified design principles are transferable. If N32R is an isolated success with limited predictive power, the impact on the field would be more modest than claimed.
+  - **Resolution test** Discuss the outcomes of the other 37 mutants in the context of the proposed design principles. If possible, show that the same approach can be applied to alter specificity at other positions or to achieve different specificity changes. Alternatively, temper the claims about generalizability to reflect the current evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of mutant nomenclature
+  - **Affected element** Results section "Rational mutagenesis of ZRANB2 ZnF in search of novel RNA-binding motifs"
+  - **Evidence pointer** Table 1 and Table 2 references
+  - **Issue** The manuscript refers to the N32R mutation in the N-prime ZnF and the structurally equivalent N86R in the C-prime ZnF for MD simulations. The relationship between these two numbering systems is not explicitly clarified in the main text, which could cause confusion for readers not deeply familiar with the ZRANB2 structure.
+  - **Required correction** Add a sentence explicitly stating the correspondence between the N-prime and C-prime ZnF residue numbering, or provide a sequence alignment figure in the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of MD simulation methods
+  - **Affected element** Materials and Methods "All-atom molecular dynamics simulations"
+  - **Evidence pointer** Location not provided
+  - **Issue** The methods describe the simulation protocol but do not specify the version of the AMBER force field parameters for the zinc ion coordination, nor do they describe how the zinc coordination sphere was maintained during the simulations. This is important for reproducibility given the central role of the zinc ion in ZnF structure.
+  - **Required correction** Provide details on the zinc ion parameters and any restraints or coordination constraints applied during the simulations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation of negative results
+  - **Affected element** Results section "Rational mutagenesis of ZRANB2 ZnF in search of novel RNA-binding motifs"
+  - **Evidence pointer** Table 2 and Supplemental Figures S3-S6
+  - **Issue** The manuscript states that many mutants showed reduced or abolished binding but does not provide a systematic summary of which mutations were most detrimental and whether any patterns emerged (e.g., position-specific effects, charge-based effects).
+  - **Required correction** Add a brief paragraph summarizing the general trends observed across the 38 mutants, even if the primary focus is on the successful N32R mutant.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability of MD results
+  - **Affected element** Results section "All-atom MD simulations reveal the ZnF-RNA recognition mechanism"
+  - **Evidence pointer** Figure 4 references
+  - **Issue** The description of the structural overlays and hydrogen-bonding patterns is dense and may be difficult for nonspecialist readers to follow. The key point, that the arginine side chain is too long to interact favorably with uracil but can interact with guanine, could be stated more explicitly.
+  - **Required correction** Add a clear summary sentence at the end of the MD results section that states the proposed mechanism in plain language.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns that need to be addressed. The quantitative rigor of the RBNS analysis and the statistical treatment of the MD simulations are essential for supporting the central claims of the paper.
+- **Assessment against Nature-style criteria** Originality: The work is original in its systematic approach to engineering RNA-binding ZnF specificity and in combining experimental and computational methods. Scientific importance: The findings advance understanding of ZnF-RNA recognition and have potential implications for RNA-targeting tool development, though the immediate impact is moderate given the single successful mutant. Interdisciplinary readership: The work bridges structural biology, RNA biology, and computational chemistry, and would appeal to researchers across these fields. Technical soundness: The experimental design is generally sound, but the quantitative analysis requires strengthening as detailed above. Readability for nonspecialists: The manuscript is generally well-written and accessible, though the MD results section could benefit from clearer summary statements.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding, that a single point mutation can alter ZnF RNA-binding specificity while maintaining affinity, is potentially significant. However, the quantitative rigor of the RBNS analysis and the statistical treatment of the MD simulations must be strengthened to fully support the claims. Once these issues are addressed, the manuscript would be suitable for publication.
+
+## Risk / unsupported claims
+- The claim that the modified RBNS assay provides estimates of binding affinity is not fully supported without a formal quantitative framework for the fold-enrichment calculation
+- The claim that the NRmut-GGU RNA binding is "less stable" compared to NRmut-GGG RNA binding is not statistically supported given the lack of error analysis on the MD simulation data
+- The claim that the work "serves as a foundation for eventual use of RNA-binding ZnFs for programmable RNA targeting" is somewhat overstated given that only one successful mutant was identified and no demonstration of programmable targeting was performed
+- The statement that "all double mutants bearing N32R exhibited variable effects on RNA binding, but none of them further changed the preferred RNA-binding motif from GGG" is presented without quantitative details on the variability or the criteria for determining "no change" in motif preference

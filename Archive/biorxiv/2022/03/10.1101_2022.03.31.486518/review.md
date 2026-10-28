@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors use atomistic molecular dynamics simulations on DNA minicircles to show reciprocal influence between IHF binding and DNA supercoiling, including enhanced wrapping on supercoiled DNA, plectoneme pinning, supercoiling-dependent twist restraint, a "supercoiling buffer" mechanism, and DNA bridging that creates independent topological domains.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or validation data
+- **Missing materials affecting confidence** Full manuscript, methods, figures, tables, simulation parameters, force field details, statistical analyses, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially significant set of findings on the interplay between IHF and supercoiled DNA. However, the claims are broad and mechanistic, and the provided material contains no quantitative evidence, methodological detail, or validation to assess their robustness. The central conclusions, particularly the "supercoiling buffer" and topological domain separation, are not evaluable from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in DNA biophysics, chromatin structure, and protein-DNA recognition would be interested. The work addresses a physiologically relevant gap, namely how DNA-bending proteins function under torsional stress, which is relevant to understanding gene regulation, nucleoid organization, and DNA repair in vivo.
+- **Major strengths** The study targets a biologically important and underexplored question. The use of DNA minicircles to impose torsional constraint is an appropriate approach. The abstract proposes a novel conceptual framework, particularly the idea of IHF as a "supercoiling buffer" and the observation of DNA bridging, which could have broad implications.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that IHF "restrains under- or overtwisted DNA depending on whether the complex is formed in negatively or positively supercoiled DNA" and that this enables a "supercoiling buffer" mechanism.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No quantitative data are presented to support the direction or magnitude of twist restraint, nor the proposed buffering mechanism. The claim implies a dynamic equilibrium between bound and unbound states, but no free energy estimates, population analyses, or kinetic data are visible.  
+  - **Why it matters** The buffering mechanism is a central conceptual advance. Without quantitative support, it remains speculative and cannot be distinguished from alternative explanations, such as simple binding affinity changes under different superhelical densities.  
+  - **Resolution test** Provide quantitative measures of twist change as a function of supercoiling density, along with free energy profiles or occupancy data demonstrating buffering behavior.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that IHF bridges "divide DNA into independent topological domains."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The claim of topological domain separation is strong and has significant biological implications. However, no evidence is shown for the existence, stability, or functional consequence of these bridges. It is unclear whether the bridges are stable on simulation timescales or whether they represent transient contacts.  
+  - **Why it matters** Topological domain separation is a major claim that would require demonstration of sustained barrier function, not just transient protein-DNA contacts. Without this, the claim is unsupported.  
+  - **Resolution test** Show time-resolved trajectories of bridge formation and persistence, and demonstrate that supercoil diffusion is impeded across the bridge over the simulation timescale.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** The abstract states that atomistic molecular dynamics simulations were used, but no methodological details are provided.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No information is given on force field, water model, salt conditions, simulation length, number of replicas, or system size. These factors critically affect the reliability of conclusions about DNA supercoiling and protein binding.  
+  - **Why it matters** Without this information, the technical soundness of the simulations cannot be assessed, and the results cannot be reproduced or compared with existing literature.  
+  - **Resolution test** Provide full methods, including force field parameters, simulation protocol, equilibration strategy, and convergence criteria, in the main text or supplement.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "supercoiling buffer" is introduced without definition or quantitative context.  
+  - **Required correction** Define the term explicitly and specify the quantitative range of superhelical density over which buffering is observed.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Generalizability  
+  - **Affected element** Concluding statement  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The final sentence generalizes the findings to "other DNA-protein complexes relying on the deformation of DNA," but no comparative data or theoretical argument is provided.  
+  - **Required correction** Either temper the claim to a hypothesis or provide supporting evidence from additional systems or a general mechanistic model.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Comparison with prior work  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not mention how these findings relate to previous experimental or computational studies on IHF and supercoiling.  
+  - **Required correction** Add a brief statement in the abstract or introduction situating the results within existing knowledge.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core mechanistic claims and the methodological basis are not established from the provided material.
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of reciprocal influence between a DNA-bending protein and supercoiling, and the specific "supercoiling buffer" idea, appear novel and potentially original.  
+  - Scientific importance: The topic is important for understanding DNA transactions under torsional stress, which is physiologically relevant.  
+  - Interdisciplinary readership: The findings would appeal to biophysicists, molecular biologists, and computational biologists, but the abstract is written in a way that is accessible to a broad audience.  
+  - Technical soundness: Not assessable from the abstract; no methodological or quantitative detail is provided.  
+  - Readability for nonspecialists: The abstract is clear and well written, with concepts explained in accessible terms.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract alone does not provide sufficient quantitative or methodological support for the central claims. A full manuscript with detailed methods and results would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The "supercoiling buffer" mechanism is unsupported without quantitative twist and free energy data.
+- The claim of DNA bridging creating independent topological domains is unsupported without evidence of bridge stability and barrier function.
+- The generalizability to other DNA-protein complexes is unsupported and should be framed as a hypothesis.
+- The direction and magnitude of twist restraint under positive versus negative supercoiling are not quantifiable from the abstract.

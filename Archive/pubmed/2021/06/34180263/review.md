@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The authors report structure-based design of novel pyrimethamine (PYM) derivatives, with representative compounds 11b-d and 15a shown to downregulate STAT3 downstream proteins, inhibit STAT3 DNA binding domain (DBD), and exhibit greater than 100-fold improved cytotoxicity over PYM in cancer cells with both high and low pSTAT3 levels. The authors conclude these are promising leads for preclinical evaluation in STAT3-dependent cancers.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, compound synthesis details, assay protocols, dose-response data, statistical analyses, structural data, target engagement data, and any supporting figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting medicinal chemistry effort targeting STAT3 DBD, but the evidence base is insufficient to evaluate the validity, rigor, or significance of the claims. Key mechanistic and quantitative assertions are unsupported by the provided material, and several statements are ambiguous or internally inconsistent. The work may be of interest to the cancer biology and drug discovery communities, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers in cancer therapeutics, particularly those focused on STAT3 signaling, transcription factor inhibitors, and structure-based drug design. The potential for compounds active against both high and low pSTAT3 cancer cells could attract interest from groups studying STAT3-dependent malignancies and resistance mechanisms.
+- **Major strengths** The abstract identifies a clear biological target (STAT3 DBD) and a clinically relevant context (STAT3-dependent cancers). The claim of improved cytotoxicity relative to PYM suggests a meaningful optimization effort. The focus on both high and low pSTAT3 states is a thoughtful consideration of tumor heterogeneity.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "Intracellular target validation studies revealed that representative compounds 11b-d and 15a downregulate STAT3 downstream proteins and inhibit STAT3 DNA binding domain (DBD)."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract asserts target validation but provides no experimental detail, such as assay types (e.g., Western blot, reporter assays, electrophoretic mobility shift assay, or cellular thermal shift assay), concentrations used, or positive and negative controls. The term "inhibit STAT3 DNA binding domain" is ambiguous, as it could mean direct binding to the DBD, inhibition of DNA binding activity, or downstream functional inhibition.  
+  - **Why it matters** Without clear evidence of direct DBD engagement, the mechanistic claim is unsubstantiated. The distinction between direct DBD inhibition and indirect downregulation of STAT3 activity is critical for the paper's central hypothesis.  
+  - **Resolution test** Provide specific experimental data showing direct or functional inhibition of STAT3 DBD, including dose-response curves, appropriate controls, and statistical analysis. Clarify the exact mode of inhibition.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Quantitative claim support  
+  - **Claim pointer** "Relative to PYM, a cohort of these compounds are >100-fold more cytotoxic to cancer cells with constitutively active (high pSTAT3) and basal (low pSTAT3) STAT3 signaling."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract reports a greater than 100-fold improvement in cytotoxicity but provides no cell line identities, assay conditions, exposure times, or how "cytotoxicity" was measured (e.g., IC50 values, viability assays). The phrase "a cohort of these compounds" is vague, and it is unclear which compounds and how many are included.  
+  - **Why it matters** The magnitude of the claimed improvement is a central selling point. Without quantitative data, the claim cannot be assessed for reproducibility or biological relevance.  
+  - **Resolution test** Provide IC50 values or comparable metrics for PYM and each compound in defined cell lines, with replicates and statistical comparisons. Specify the number of compounds in the cohort and their identities.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Logical consistency  
+  - **Claim pointer** "suggesting that STAT3 DBD inhibition is deleterious to the proliferation of cancer cells with low and high pSTAT3 levels."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract implies that the observed cytotoxicity is causally linked to STAT3 DBD inhibition, but no direct evidence is presented to exclude off-target effects or alternative mechanisms. The statement also conflates correlation with causation, as the compounds may have other targets.  
+  - **Why it matters** The conclusion that STAT3 DBD inhibition is the operative mechanism is essential for the therapeutic rationale. Without target selectivity data or genetic rescue experiments, the claim is premature.  
+  - **Resolution test** Include selectivity assays against related transcription factors or kinases, or show that STAT3 knockdown or overexpression modulates compound sensitivity. Provide evidence that the observed cytotoxicity is dependent on STAT3 DBD inhibition.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** "downregulate STAT3 downstream proteins"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The abstract does not specify which downstream proteins were measured or the extent of downregulation.  
+  - **Required correction** Name the specific proteins and provide quantitative data or a reference to a figure.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "inhibit STAT3 DNA binding domain"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The phrase is ambiguous and could be misinterpreted as direct binding to the DBD rather than inhibition of DNA binding activity.  
+  - **Required correction** Use precise language, such as "inhibit STAT3 DNA binding activity" or "bind to the STAT3 DBD," and define the assay used.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** "structure-based tools"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The abstract does not describe the computational or structural methods used for design, which limits reproducibility.  
+  - **Required correction** Briefly state the docking or modeling approach and the structural template used.
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Scope  
+  - **Affected element** "promising leads for further preclinical evaluation"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The conclusion is broad and not supported by in vivo or pharmacokinetic data, which are absent.  
+  - **Required correction** Temper the conclusion to reflect that these are early-stage in vitro findings requiring further validation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks the experimental detail necessary to verify the mechanistic and quantitative claims, and the causal link between STAT3 DBD inhibition and cytotoxicity is not established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of targeting STAT3 DBD with PYM derivatives is not entirely novel, as PYM is a known STAT3 inhibitor, but the specific compound series may offer incremental novelty. This is not assessable in depth from the abstract.  
+  - **Scientific importance** STAT3 is a validated cancer target, and improved inhibitors could be clinically relevant. However, the importance of this specific series is not established without robust data.  
+  - **Interdisciplinary readership** The work bridges medicinal chemistry and cancer biology, which could appeal to a broad audience, but the abstract is too thin to attract nonspecialists.  
+  - **Technical soundness** Not assessable from the abstract; no methods or data are provided.  
+  - **Readability for nonspecialists** The abstract is concise but uses jargon without sufficient context, and the ambiguous phrasing reduces clarity.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis and preliminary claims, but the lack of experimental detail and unresolved mechanistic ambiguity preclude a supportive recommendation. The authors should provide the full manuscript with comprehensive data to allow proper evaluation.
+
+## Risk / unsupported claims
+- The claim that compounds 11b-d and 15a inhibit STAT3 DBD is unsupported without direct target engagement data.
+- The claim of greater than 100-fold improved cytotoxicity is unsupported without quantitative dose-response data.
+- The causal link between STAT3 DBD inhibition and cytotoxicity in low pSTAT3 cells is unsupported and may be confounded by off-target effects.
+- The conclusion that these are "promising leads for further preclinical evaluation" is unsupported by any in vivo or pharmacokinetic evidence.

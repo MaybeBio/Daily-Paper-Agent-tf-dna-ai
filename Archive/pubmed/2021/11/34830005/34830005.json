@@ -1,0 +1,462 @@
+{
+  "identity": {
+    "pmid": "34830005",
+    "doi": "10.3390/ijms222212127",
+    "title": "Mechanisms of Nucleosome Reorganization by PARP1."
+  },
+  "content": {
+    "abstract": "Poly(ADP-ribose) polymerase 1 (PARP1) is an enzyme involved in DNA repair, chromatin organization and transcription. During transcription initiation, PARP1 interacts with gene promoters where it binds to nucleosomes, replaces linker histone H1 and participates in gene regulation. However, the mechanisms of PARP1-nucleosome interaction remain unknown. Here, using spFRET microscopy, molecular dynamics and biochemical approaches we identified several different PARP1-nucleosome complexes and two types of PARP1 binding to mononucleosomes: at DNA ends and end-independent. Two or three molecules of PARP1 can bind to a nucleosome depending on the presence of linker DNA and can induce reorganization of the entire nucleosome that is independent of catalytic activity of PARP1. Nucleosome reorganization depends upon binding of PARP1 to nucleosomal DNA, likely near the binding site of linker histone H1. The data suggest that PARP1 can induce the formation of an alternative nucleosome state that is likely involved in gene regulation and DNA repair.",
+    "keywords": [
+      "molecular dynamics",
+      "nucleosome",
+      "poly(ADP-ribose) polymerase 1",
+      "spFRET microscopy"
+    ],
+    "mesh_terms": [
+      "Chromatin/*genetics",
+      "DNA Repair/genetics",
+      "DNA-Binding Proteins/*genetics",
+      "Gene Expression Regulation/genetics",
+      "Histones/genetics",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Nucleosomes/*genetics",
+      "Poly (ADP-Ribose) Polymerase-1/*genetics",
+      "Promoter Regions, Genetic/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maluchenko, Natalya V",
+        "Nilov, Dmitry K",
+        "Pushkarev, Sergey V",
+        "Kotova, Elena Y",
+        "Gerasimova, Nadezhda S",
+        "Kirpichnikov, Mikhail P",
+        "Langelier, Marie-France",
+        "Pascal, John M",
+        "Akhtar, Md Sohail",
+        "Feofanov, Alexey V",
+        "Studitsky, Vasily M"
+      ],
+      "short_names": [
+        "Maluchenko NV",
+        "Nilov DK",
+        "Pushkarev SV",
+        "Kotova EY",
+        "Gerasimova NS",
+        "Kirpichnikov MP",
+        "Langelier MF",
+        "Pascal JM",
+        "Akhtar MS",
+        "Feofanov AV",
+        "Studitsky VM"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4129-4984",
+        "ORCID: 0000-0002-5067-7939",
+        "ORCID: 0000-0002-5048-0378",
+        "ORCID: 0000-0002-1596-9506"
+      ],
+      "affiliations": [
+        "Faculty of Biology, Lomonosov Moscow State University, 119234 Moscow, Russia.",
+        "Belozersky Institute of Physicochemical Biology, Lomonosov Moscow State University, 119991 Moscow, Russia.",
+        "Faculty of Bioengineering and Bioinformatics, Lomonosov Moscow State University, 119991 Moscow, Russia.",
+        "Fox Chase Cancer Center, Philadelphia, PA 19111-2497, USA.",
+        "Faculty of Biology, Lomonosov Moscow State University, 119234 Moscow, Russia.",
+        "Faculty of Biology, Lomonosov Moscow State University, 119234 Moscow, Russia.",
+        "Department of Biochemistry and Molecular Medicine, Universite de Montreal, 2900 Boulevard Edouard-Montpetit, Montreal, QC H3T 1J4, Canada.",
+        "Department of Biochemistry and Molecular Medicine, Universite de Montreal, 2900 Boulevard Edouard-Montpetit, Montreal, QC H3T 1J4, Canada.",
+        "Molecular and Structural Biology Division, CSIR-Central Drug Research Institute, Lucknow 226031, Uttar Pradesh, India.",
+        "Faculty of Biology, Lomonosov Moscow State University, 119234 Moscow, Russia.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, 117997 Moscow, Russia.",
+        "Faculty of Biology, Lomonosov Moscow State University, 119234 Moscow, Russia.",
+        "Fox Chase Cancer Center, Philadelphia, PA 19111-2497, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maluchenko, Natalya V",
+        "short_name": "Maluchenko NV",
+        "identifiers": [
+          "0000-0003-4129-4984"
+        ],
+        "affiliations": [
+          "Faculty of Biology, Lomonosov Moscow State University, 119234 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Nilov, Dmitry K",
+        "short_name": "Nilov DK",
+        "identifiers": [
+          "0000-0002-5067-7939"
+        ],
+        "affiliations": [
+          "Belozersky Institute of Physicochemical Biology, Lomonosov Moscow State University, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Pushkarev, Sergey V",
+        "short_name": "Pushkarev SV",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Bioengineering and Bioinformatics, Lomonosov Moscow State University, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Kotova, Elena Y",
+        "short_name": "Kotova EY",
+        "identifiers": [],
+        "affiliations": [
+          "Fox Chase Cancer Center, Philadelphia, PA 19111-2497, USA."
+        ]
+      },
+      {
+        "full_name": "Gerasimova, Nadezhda S",
+        "short_name": "Gerasimova NS",
+        "identifiers": [
+          "0000-0002-5048-0378"
+        ],
+        "affiliations": [
+          "Faculty of Biology, Lomonosov Moscow State University, 119234 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Kirpichnikov, Mikhail P",
+        "short_name": "Kirpichnikov MP",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Biology, Lomonosov Moscow State University, 119234 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Langelier, Marie-France",
+        "short_name": "Langelier MF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Medicine, Université de Montréal, 2900 Boulevard Edouard-Montpetit, Montreal, QC H3T 1J4, Canada."
+        ]
+      },
+      {
+        "full_name": "Pascal, John M",
+        "short_name": "Pascal JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Medicine, Université de Montréal, 2900 Boulevard Edouard-Montpetit, Montreal, QC H3T 1J4, Canada."
+        ]
+      },
+      {
+        "full_name": "Akhtar, Md Sohail",
+        "short_name": "Akhtar MS",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Structural Biology Division, CSIR-Central Drug Research Institute, Lucknow 226031, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Feofanov, Alexey V",
+        "short_name": "Feofanov AV",
+        "identifiers": [
+          "0000-0002-1596-9506"
+        ],
+        "affiliations": [
+          "Faculty of Biology, Lomonosov Moscow State University, 119234 Moscow, Russia.",
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, 117997 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Studitsky, Vasily M",
+        "short_name": "Studitsky VM",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Biology, Lomonosov Moscow State University, 119234 Moscow, Russia.",
+          "Fox Chase Cancer Center, Philadelphia, PA 19111-2497, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Nov 9",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/28 06:00",
+    "fetched_at": "2026-09-28 02:10:34"
+  },
+  "links": {
+    "cites": [
+      "42395375",
+      "41526552",
+      "41303375",
+      "40940725",
+      "40911804",
+      "40586906",
+      "40427542",
+      "39909829",
+      "39595575",
+      "38553566",
+      "37762491",
+      "37626888",
+      "37582112",
+      "36672853",
+      "36359739",
+      "36077699",
+      "35806109"
+    ],
+    "refs": [
+      "33801950",
+      "33511412",
+      "32245127",
+      "32130604",
+      "32079521",
+      "31877876",
+      "31028139",
+      "29323273",
+      "28804761",
+      "28212747",
+      "28202539",
+      "27820806",
+      "26626480",
+      "26574453",
+      "26569599",
+      "26305327",
+      "25747399",
+      "25136112",
+      "22854955",
+      "22582261",
+      "22334709",
+      "20832725",
+      "20800598",
+      "20603072",
+      "20388712",
+      "19935686",
+      "19381918",
+      "18600227",
+      "18258916",
+      "17827147",
+      "17081995",
+      "17078646",
+      "16829982",
+      "15607977",
+      "12809599",
+      "10455009"
+    ],
+    "similar": [
+      "34830005",
+      "25161822",
+      "35806109",
+      "32934320",
+      "37762491",
+      "31848352",
+      "36356486",
+      "38215753",
+      "36359739",
+      "23132853",
+      "34465625",
+      "17827147",
+      "34486521",
+      "34919819",
+      "28695515",
+      "38307862",
+      "26305327",
+      "27373144",
+      "33683197",
+      "27903656",
+      "9278498",
+      "28804761",
+      "37240388",
+      "25916114",
+      "27041572",
+      "31248990",
+      "22547677",
+      "38750719",
+      "36672853",
+      "21444826",
+      "24086160",
+      "29844578",
+      "31291457",
+      "31782485",
+      "27016736",
+      "22053002",
+      "32383115",
+      "33482196",
+      "18258916",
+      "26750377",
+      "34732825",
+      "34066057",
+      "31616951",
+      "31992690",
+      "21228215",
+      "29220652",
+      "21508315",
+      "30777121",
+      "29976663",
+      "28786541",
+      "29149203",
+      "28475873",
+      "32245127",
+      "22737086",
+      "22570494",
+      "29306194",
+      "27979995",
+      "26308346",
+      "30529301",
+      "37481154",
+      "21326360",
+      "9315641",
+      "20015349",
+      "29284668",
+      "26648124",
+      "26518266",
+      "38553566",
+      "20886052",
+      "34192510",
+      "33357431",
+      "22854955",
+      "31426748",
+      "35527371",
+      "18406329",
+      "24508391",
+      "26895424",
+      "29661921",
+      "6418715",
+      "24285721",
+      "24727477",
+      "30799503",
+      "30266807",
+      "29018282",
+      "31668992",
+      "26170451",
+      "31129062",
+      "28695510",
+      "32702132",
+      "32199820",
+      "25477519",
+      "2498319",
+      "30684797",
+      "28973435",
+      "33061802",
+      "33589610",
+      "33771851",
+      "30177554",
+      "30323296",
+      "26474902",
+      "31965992",
+      "33925170",
+      "1627609",
+      "30088474",
+      "34030964",
+      "31015384",
+      "29886395",
+      "35177143",
+      "31614656",
+      "39218869",
+      "28695513",
+      "36130732",
+      "30551210",
+      "37683647",
+      "36515842",
+      "37327775",
+      "33932076",
+      "37582112",
+      "37574475",
+      "34380612",
+      "37419399",
+      "37569503",
+      "34798058",
+      "33692102",
+      "37805066",
+      "38329268",
+      "19843619",
+      "39229246",
+      "37904948",
+      "22434426",
+      "36483541",
+      "37161004",
+      "31965983",
+      "36577295",
+      "36714865",
+      "37437647",
+      "37021553",
+      "29313809",
+      "35647606",
+      "36711774",
+      "36789416",
+      "37696706",
+      "34824451",
+      "32774160",
+      "35563882"
+    ],
+    "review": [
+      "34830005",
+      "27903656",
+      "25916114",
+      "36672853",
+      "31782485",
+      "32383115",
+      "34066057",
+      "37481154",
+      "21326360",
+      "26518266",
+      "30799503",
+      "29018282",
+      "32199820",
+      "30684797",
+      "33771851",
+      "26474902",
+      "34030964",
+      "31015384",
+      "29886395",
+      "36577295",
+      "37696706"
+    ],
+    "pmc": [
+      "8620739"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms222212127",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34830005/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34830005",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-556",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, methods) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, experimental logic, and internal consistency based on the textual description only; no assessment of data quality, statistics, or image integrity possible without primary data
+- **Shared manuscript claim summary** The authors report that human SSB2 (hSSB2/NABP1/OBFC2A) undergoes liquid-liquid phase separation (LLPS) in vitro in the presence of ssDNA, that this process is mediated by the C-terminal intrinsically disordered region (IDR), that ssDNA is required for condensation (in contrast to E. coli SSB where ssDNA dissolves condensates), that ssRNA is a much weaker trigger, that condensation occurs at physiologically plausible low protein concentrations, that the process is sensitive to redox conditions and ionic strength, and that known and putative hSSB2 interaction partners are selectively enriched in the condensates.
+- **Visible evidence base** Textual descriptions of fluorescence microscopy, turbidity assays, fluorescence anisotropy binding measurements, EMSA, and partitioning experiments; references to Figures 1-8 and Tables S1-S2; no actual figures, numerical values, or statistical analyses are visible
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, numerical data, statistical analyses, and experimental replicates; the manuscript is a preprint and has not been peer-reviewed
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and interesting question: whether human SSB2, a single-stranded DNA binding protein involved in genome maintenance, undergoes liquid-liquid phase separation, and how this behavior compares to the previously characterized E. coli SSB. The conceptual framework, contrasting prokaryotic and eukaryotic SSB behavior, is appealing and potentially significant. However, the current text, without access to the primary data, leaves several critical issues unresolved. The claim that hSSB2 LLPS is ssDNA-dependent and IDR-mediated is plausible but rests entirely on qualitative descriptions of microscopy and turbidity data that cannot be evaluated. The mechanistic interpretation, particularly the proposed scaffolding role of ssDNA and the estimated minimal ssDNA length of 32 nucleotides, is speculative and depends on assumptions about oligomerization state that are not tested. The selective enrichment experiments are described only qualitatively, and the lack of quantitative partitioning data or controls for non-specific entrapment weakens the case. The physiological relevance argument, based on estimated cellular concentrations and ionic conditions, is reasonable but remains inferential. Overall, the study is potentially interesting but the evidence as presented is not sufficient to fully establish the central claims.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation in genome maintenance, particularly those interested in single-stranded DNA binding proteins and their roles in DNA repair. The comparison between prokaryotic and eukaryotic SSB behavior will also be of interest to evolutionary biologists studying the adaptation of genome maintenance mechanisms. The potential connection to cancer biology, given the reported roles of hSSB2 in DNA repair and its proposed relevance as a therapeutic target, may attract a broader oncology-focused audience.
+- **Major strengths** The conceptual framing is strong, contrasting bacterial and eukaryotic SSB phase separation and proposing a functional rationale based on spatial and kinetic differences between prokaryotic and eukaryotic cells. The study extends prior work on E. coli SSB to a human paralog, providing a comparative perspective. The inclusion of interaction partner partitioning experiments, testing known and putative partners, is a valuable addition that moves beyond simple biophysical characterization. The attention to ionic conditions and redox environment shows awareness of physiological context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that hSSB2 undergoes LLPS upon ssDNA binding, and that this is mediated by the IDR, based on microscopy and turbidity data.
+  - **Evidence pointer** Figures 2, 4; location not provided
+  - **Concern** The central claim of ssDNA-induced LLPS rests on qualitative descriptions of microscopy images and turbidity traces. No quantitative data are presented in the text: no turbidity values, no droplet size distributions, no fluorescence intensity measurements, no statistical comparisons between conditions. The distinction between LLPS and aggregation is asserted but not demonstrated with rigorous criteria (e.g., fluorescence recovery after photobleaching, FRAP, or other fluidity measurements). The claim that the IDR is essential is based on a deletion mutant, but the text does not describe how the mutant was characterized or whether the lack of condensation could be due to protein misfolding or reduced solubility rather than loss of phase separation propensity.
+  - **Why it matters** The entire premise of the paper rests on the demonstration that hSSB2 forms liquid condensates, not amorphous aggregates. Without quantitative evidence and proper controls, the central claim is not established. The distinction between LLPS and aggregation is critical, as many proteins can form non-specific aggregates under similar conditions.
+  - **Resolution test** Provide quantitative turbidity measurements with replicates and statistical analysis; show FRAP or similar evidence for liquid behavior of the droplets; include a characterization of the dIDR mutant (e.g., circular dichroism, size exclusion chromatography) to rule out misfolding; show that the droplets are not simply protein aggregates by demonstrating reversibility (e.g., dissolution upon dilution or salt addition) and lack of amyloid-like properties.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors propose that ssDNA acts as a scaffold providing multivalency for hSSB2-hSSB2 interactions, and that the minimal ssDNA length of 32 nucleotides reflects the number of hSSB2 monomers that can bind along the DNA.
+  - **Evidence pointer** Figure 2G-J; location not provided
+  - **Concern** The interpretation of the ssDNA length dependence is speculative. The authors themselves acknowledge that the oligomerization state of hSSB2 upon nucleic acid binding is unknown. The use of Equation 1, originally developed for a helicase, assumes a linear relationship between the logarithm of the dissociation constant and ssDNA length up to a saturation point. This assumption is not validated for hSSB2, and the interpretation of the 32-nucleotide value as a "binding site size" is one of several possible explanations. The authors note that the value could reflect either the intrinsic binding site of a monomer or the length required for cooperative binding of multiple monomers, but they do not design experiments to distinguish these possibilities.
+  - **Why it matters** The proposed mechanism of ssDNA scaffolding is central to the conceptual advance claimed by the authors. If the interpretation is not supported by direct evidence, the mechanistic claim is weakened, and the comparison to E. coli SSB becomes less informative.
+  - **Resolution test** Determine the oligomerization state of hSSB2 in solution and when bound to ssDNA (e.g., analytical ultracentrifugation, size exclusion chromatography with multi-angle light scattering, or single-molecule approaches). Test whether shorter ssDNA molecules that bind but do not induce LLPS can be cross-linked or compete with longer molecules. Use a series of defined-length ssDNA substrates to map the minimal length more precisely and correlate with binding stoichiometry.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of enrichment
+  - **Claim pointer** The authors claim that known and putative hSSB2 interaction partners are selectively enriched in hSSB2 condensates, while non-interacting proteins are excluded.
+  - **Evidence pointer** Figure 8; location not provided
+  - **Concern** The partitioning experiments are described only qualitatively. No quantitative enrichment ratios are provided, and the choice of negative controls is not fully described. The text mentions EGFP and E. coli SSB as non-enriched proteins, but it is unclear whether these are appropriate controls for a protein of similar size, charge, and nucleic acid binding capability. The claim that "ssDNA binding by another protein is not sufficient for co-condensation" is based on the E. coli SSB result, but E. coli SSB is a tetramer with different oligomeric properties, making it a potentially confounded control.
+  - **Why it matters** The selective enrichment of interaction partners is presented as evidence for the functional relevance of hSSB2 condensates. If the enrichment is not specific or is driven by non-specific physicochemical properties (e.g., charge, hydrophobicity), the functional interpretation is weakened.
+  - **Resolution test** Provide quantitative partitioning coefficients for all tested proteins, with multiple concentrations and replicates. Include additional negative controls matched for size, charge, and nucleic acid binding (e.g., a non-interacting OB-fold protein, a different ssDNA binding protein). Test whether enrichment is dependent on the specific interaction interface by using mutant hSSB2 variants that cannot bind the partner proteins.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance
+  - **Claim pointer** The authors argue that hSSB2 LLPS occurs under physiologically relevant conditions and may be relevant to genome maintenance in cells.
+  - **Evidence pointer** Figures 5-7; location not provided
+  - **Concern** The argument for physiological relevance is based on two observations: (i) LLPS occurs at low micromolar protein concentrations, and (ii) the ionic conditions used are within a "physiological" range. However, the cellular concentration of hSSB2 is estimated at approximately 0.02 µM in HeLa cells, which is 5- to 50-fold lower than the concentrations at which LLPS was observed in vitro (0.5-5 µM). The authors acknowledge this discrepancy but do not resolve it. The claim that local concentration increases upon ssDNA binding could overcome this threshold is plausible but entirely speculative. No experiments address whether hSSB2 forms condensates in cells.
+  - **Why it matters** The title and discussion emphasize the potential relevance of hSSB2 LLPS to eukaryotic genome maintenance. If the in vitro conditions are not representative of cellular conditions, the physiological significance of the observations is unclear.
+  - **Resolution test** Test whether LLPS occurs at lower protein concentrations in the presence of crowding agents (e.g., PEG, Ficoll, or cell lysate). Attempt to detect hSSB2 condensates in cells, either by immunofluorescence or by expressing fluorescently tagged hSSB2, under conditions of DNA damage or replication stress. Measure the effective local concentration of hSSB2 at sites of DNA damage.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that hSSB2 "also forms LLPS condensates under physiologically relevant ionic conditions" but does not specify the protein concentration range. Given the authors' own estimate of cellular hSSB2 concentration, this statement could be misleading.
+  - **Required correction** Specify the protein concentration range in the abstract, or qualify the statement to indicate that LLPS occurs at concentrations that may be achievable locally upon DNA damage.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Results section
+  - **Evidence pointer** Results, first paragraph; location not provided
+  - **Concern** The text states that "highly concentrated hSSB2 fractions (>300 µM) became opaque and showed high turbidity" during purification, and that this was reversible upon addition of 100 mM MgCl2. Later, the authors report that MgCl2 inhibits LLPS in a concentration-dependent manner. The initial observation is consistent with the later finding, but the text does not explicitly connect these observations.
+  - **Required correction** Add a sentence in the Results or Discussion noting that the initial purification observation is consistent with the salt sensitivity of LLPS characterized later.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Fluorescence anisotropy titrations
+  - **Evidence pointer** Methods, "Fluorescence anisotropy titrations"; location not provided
+  - **Issue** The text states that measurements were performed in "standard LLPS buffer omitting MgCl2" but does not specify the concentration of KCl in this buffer. The standard LLPS buffer contains 50 mM KCl, but it is unclear if this was maintained.
+  - **Required correction** Specify the exact buffer composition used for the anisotropy titrations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 3; location not provided
+  - **Concern** The authors suggest that hSSB2 condensates could serve as DNA repair compartments, but they do not discuss alternative models, such as the possibility that LLPS is a consequence of ssDNA binding rather than a functionally important process.
+  - **Required correction** Add a brief discussion of alternative interpretations and how they could be distinguished experimentally.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 1; location not provided
+  - **Concern** The introduction mentions that hSSB2 expression is tissue-specific but does not cite the relevant literature beyond the Human Protein Atlas. Given the importance of this point for the physiological relevance argument, additional supporting references would strengthen the text.
+  - **Required correction** Add citations to published studies on hSSB2 expression patterns.
+- **Technical failings that need to be addressed before the case is established** The absence of quantitative data for the central LLPS claims (turbidity values, droplet sizes, FRAP or equivalent fluidity measurements) is a critical gap. The lack of characterization of the dIDR mutant to rule out misfolding is a technical concern. The partitioning experiments lack quantitative analysis and appropriate controls. The estimate of cellular hSSB2 concentration and the argument for physiological relevance require more careful treatment, including consideration of crowding effects and local concentration.
+- **Assessment against Nature-style criteria** Originality: The study is original in its comparative approach, contrasting E. coli and human SSB phase separation, and in its proposal that differential LLPS behavior reflects adaptation to prokaryotic versus eukaryotic genome maintenance. However, the concept of SSB phase separation is not entirely new, given the authors' prior work on E. coli SSB and the growing literature on LLPS in DNA repair. Scientific importance: The findings, if fully substantiated, would be of interest to the LLPS and DNA repair communities, and the proposed evolutionary framework is thought-provoking. However, the physiological relevance remains uncertain, and the study does not yet demonstrate a functional role for hSSB2 LLPS in cells. Interdisciplinary readership: The topic bridges biophysics, cell biology, and DNA repair, and the writing is generally accessible. Technical soundness: Cannot be fully assessed without the primary data; the qualitative descriptions are insufficient to evaluate the rigor of the experiments. Readability for nonspecialists: The manuscript is clearly written and the conceptual framework is well explained, but the lack of quantitative summaries makes it difficult for a non-specialist to gauge the strength of the evidence.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is appealing and the study addresses a timely question, but the evidence as presented is not sufficient to fully establish the central claims. The authors should provide quantitative data, additional controls, and a more rigorous treatment of the physiological relevance argument.
+
+## Risk / unsupported claims
+- The claim that hSSB2 LLPS is a "bona fide" LLPS process is not fully supported without FRAP or equivalent fluidity measurements.
+- The claim that the IDR is essential for LLPS is not fully supported without characterization of the dIDR mutant to rule out misfolding or aggregation.
+- The claim that ssDNA acts as a scaffold providing multivalency is speculative and not directly tested.
+- The claim that the minimal ssDNA length of 32 nucleotides reflects a specific binding site size is one of several possible interpretations and is not uniquely supported by the data.
+- The claim that hSSB2 LLPS is physiologically relevant is not established, given the discrepancy between the in vitro protein concentrations and the estimated cellular concentration.
+- The claim that hSSB2 condensates could serve as DNA repair compartments is speculative and not tested in cells.
+- The claim that interaction partners are "selectively enriched" is not quantitatively supported.

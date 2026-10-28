@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "39621803",
+    "doi": "10.1371/journal.pgen.1011503",
+    "title": "FABIO: TWAS fine-mapping to prioritize causal genes for binary traits."
+  },
+  "content": {
+    "abstract": "Transcriptome-wide association studies (TWAS) have emerged as a powerful tool for identifying gene-trait associations by integrating gene expression mapping studies with genome-wide association studies (GWAS). While most existing TWAS approaches focus on marginal analyses through examining one gene at a time, recent developments in TWAS fine-mapping methods enable the joint modeling of multiple genes to refine the identification of potentially causal ones. However, these fine-mapping methods have primarily focused on modeling quantitative traits and examining local genomic regions, leading to potentially suboptimal performance. Here, we present FABIO, a TWAS fine-mapping method specifically designed for binary traits that is capable of modeling all genes jointly on an entire chromosome. FABIO employs a probit model to directly link the genetically regulated expression (GReX) of genes to binary outcomes while taking into account the GReX correlation among all genes residing on a chromosome. As a result, FABIO effectively controls false discoveries while offering substantial power gains over existing TWAS fine-mapping approaches. We performed extensive simulations to evaluate the performance of FABIO and applied it for in-depth analyses of six binary disease traits in the UK Biobank. In the real datasets, FABIO significantly reduced the size of the causal gene sets by 27.9%-36.9% over existing approaches across traits. Leveraging its improved power, FABIO successfully prioritized multiple potentially causal genes associated with the diseases, including GATA3 for asthma, ABCG2 for gout, and SH2B3 for hypertension. Overall, FABIO represents an effective tool for TWAS fine-mapping of disease traits.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Genome-Wide Association Study/methods",
+      "Humans",
+      "*Quantitative Trait Loci/genetics",
+      "*Chromosome Mapping/methods",
+      "Transcriptome/genetics",
+      "Polymorphism, Single Nucleotide",
+      "GATA3 Transcription Factor/genetics",
+      "Genetic Predisposition to Disease",
+      "Asthma/genetics",
+      "Gout/genetics",
+      "Models, Genetic",
+      "Gene Expression Profiling/methods",
+      "Phenotype"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Haihan",
+        "He, Kevin",
+        "Li, Zheng",
+        "Tsoi, Lam C",
+        "Zhou, Xiang"
+      ],
+      "short_names": [
+        "Zhang H",
+        "He K",
+        "Li Z",
+        "Tsoi LC",
+        "Zhou X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5902-7289",
+        "ORCID: 0000-0002-8354-426X",
+        "ORCID: 0000-0001-5826-1316",
+        "ORCID: 0000-0002-4331-7599"
+      ],
+      "affiliations": [
+        "Department of Biostatistics, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Department of Biostatistics, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Department of Biostatistics, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Department of Biostatistics, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Department of Dermatology, University of Michigan Medical School, Ann Arbor, Michigan, United States of America.",
+        "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, Michigan, United States of America.",
+        "Department of Biostatistics, University of Michigan, Ann Arbor, Michigan, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Haihan",
+        "short_name": "Zhang H",
+        "identifiers": [
+          "0000-0002-5902-7289"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, University of Michigan, Ann Arbor, Michigan, United States of America."
+        ]
+      },
+      {
+        "full_name": "He, Kevin",
+        "short_name": "He K",
+        "identifiers": [
+          "0000-0002-8354-426X"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, University of Michigan, Ann Arbor, Michigan, United States of America."
+        ]
+      },
+      {
+        "full_name": "Li, Zheng",
+        "short_name": "Li Z",
+        "identifiers": [
+          "0000-0001-5826-1316"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, University of Michigan, Ann Arbor, Michigan, United States of America."
+        ]
+      },
+      {
+        "full_name": "Tsoi, Lam C",
+        "short_name": "Tsoi LC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, University of Michigan, Ann Arbor, Michigan, United States of America.",
+          "Department of Dermatology, University of Michigan Medical School, Ann Arbor, Michigan, United States of America.",
+          "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, Michigan, United States of America."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiang",
+        "short_name": "Zhou X",
+        "identifiers": [
+          "0000-0002-4331-7599"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, University of Michigan, Ann Arbor, Michigan, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS genetics"
+    ],
+    "journal_abbrev": [
+      "PLoS Genet"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/02 18:28",
+    "fetched_at": "2026-09-30 07:20:52"
+  },
+  "links": {
+    "cites": [
+      "42201988",
+      "41993270",
+      "41251136",
+      "40721533",
+      "40694035"
+    ],
+    "refs": [
+      "38279040",
+      "38168930",
+      "35266441",
+      "35193147",
+      "35115687",
+      "34404112",
+      "34206432",
+      "34002096",
+      "33434493",
+      "32737316",
+      "32164793",
+      "31925571",
+      "31844974",
+      "31733066",
+      "31677964",
+      "31191511",
+      "30926970",
+      "30926968",
+      "30804563",
+      "30305743",
+      "30250122",
+      "29844615",
+      "29453348",
+      "28942963",
+      "28878256",
+      "28461764",
+      "27019110",
+      "26854917",
+      "26717315",
+      "26395773",
+      "26258848",
+      "26157023",
+      "25776069",
+      "25722852",
+      "25664851",
+      "24940679",
+      "24037378",
+      "24026573",
+      "23774753",
+      "23408905",
+      "23283176",
+      "22955987",
+      "22455463",
+      "22426310",
+      "22343431",
+      "21723852",
+      "20368174",
+      "15546393",
+      "15269782",
+      "12476080",
+      "10549629",
+      "10525032"
+    ],
+    "similar": [
+      "39621803",
+      "42201988",
+      "38279040",
+      "35766062",
+      "34659337",
+      "33831007",
+      "34779012",
+      "33615361",
+      "40516523",
+      "41993270",
+      "38824563",
+      "29218884",
+      "40603866",
+      "30864331",
+      "35212359",
+      "36179104",
+      "30926970",
+      "31844974",
+      "40111921",
+      "35043938",
+      "31230719",
+      "36608684",
+      "41251136",
+      "41634413",
+      "38279041",
+      "31937202",
+      "38240717",
+      "41250111",
+      "34001886",
+      "35931050",
+      "31931710",
+      "35334221",
+      "33434493",
+      "33901188",
+      "38816585",
+      "35933330",
+      "39189955",
+      "30926968",
+      "31337639",
+      "37164006",
+      "39558360",
+      "31978332",
+      "40902598",
+      "41338297",
+      "41974591",
+      "32275709",
+      "39187616",
+      "29547942",
+      "42066773",
+      "34082479",
+      "38001381",
+      "40036802",
+      "33635859",
+      "34626721",
+      "35138379",
+      "35175464",
+      "40409268",
+      "41810371",
+      "40694035",
+      "34669946",
+      "39526380",
+      "40691406",
+      "41570977",
+      "34686674",
+      "38129112",
+      "41445618",
+      "35108496",
+      "31113812",
+      "39495786",
+      "38918950",
+      "40205616",
+      "36610078",
+      "39444114",
+      "39550224",
+      "41912930",
+      "35100362",
+      "36171194",
+      "37245199",
+      "28238358",
+      "31919517",
+      "32954640",
+      "31834882",
+      "37588130",
+      "42298402",
+      "40155810",
+      "32961112",
+      "35052378",
+      "34711957",
+      "32817676",
+      "37197658",
+      "41556068",
+      "36243959",
+      "38769300",
+      "39854120",
+      "34255882",
+      "40267100",
+      "39763192",
+      "38104199",
+      "41188790",
+      "40220762"
+    ],
+    "review": [
+      "39621803",
+      "34659337",
+      "34779012",
+      "30926968",
+      "37164006",
+      "40694035",
+      "37588130"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pgen.1011503",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39621803/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

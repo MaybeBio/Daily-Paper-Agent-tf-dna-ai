@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present DUnet, a 3D convolutional neural network combining DenseNet and UNet architectures, for predicting protein-ligand binding pockets. The model is trained on protein 3D structural features and ligand binding site labels using three training configurations based on scPDB and SC6K datasets. The authors claim superior performance over state-of-the-art methods on independent benchmarks, improved accuracy with larger training sets, accurate prediction on a small industrial enzyme dataset, experimental validation of predicted substrate binding sites in microbial transglutaminase, and application to Swiss-Prot annotated proteins.
+- **Visible evidence base** Abstract text only; no quantitative performance metrics, dataset statistics, benchmark comparisons, or experimental results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, training and validation dataset details, benchmark protocols, performance metrics, experimental methods and results for transglutaminase validation, and Swiss-Prot prediction outcomes
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful deep learning approach for protein-ligand binding pocket prediction, but the evidence presented is insufficient to evaluate the validity of the core claims. No quantitative results, benchmark comparisons, or methodological details are visible. The experimental validation component is intriguing but entirely unsubstantiated in the abstract. The work may be of interest to the structural bioinformatics and enzyme engineering communities, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing or applying deep learning methods for protein function prediction would be interested. Enzyme engineers and structural biologists seeking improved tools for identifying substrate binding sites for protein engineering would also find the work relevant, particularly the industrial enzyme application and experimental validation aspects.
+- **Major strengths** The combination of DenseNet and UNet architectures for 3D binding pocket prediction is a reasonable methodological innovation. The inclusion of experimental validation for predicted binding sites in microbial transglutaminase is a notable strength that goes beyond purely computational benchmarking. The systematic investigation of training set size effects on prediction accuracy is a useful contribution.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "DUnet displayed better performance than the current state-of-art methods during the benchmark test using independent validation sets"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative performance metrics, no specification of which state-of-the-art methods were compared, no description of the benchmark datasets or evaluation metrics, and no statistical significance assessment. The claim of superior performance cannot be evaluated without these details.
+  - **Why it matters** The central claim of the manuscript is that DUnet outperforms existing methods. Without visible comparative data, the reader cannot assess whether this claim is justified or whether the comparison was fair and comprehensive.
+  - **Resolution test** Provide performance metrics (e.g., DCC, MCC, F1, AUPRC) for DUnet and all comparator methods on the same independent benchmark sets, with error bars or confidence intervals and statistical tests where appropriate.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "We experimentally characterized the substrate binding sites of microbial transglutaminase according to the prediction and showed the significance of these sites"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that experimental characterization was performed but provides no information on the experimental methods, the nature of the characterization (e.g., mutagenesis, binding assays, kinetic measurements), the specific residues tested, or the results obtained. The significance of the sites is asserted without supporting data.
+  - **Why it matters** Experimental validation is a distinguishing feature of this work and a key justification for the practical utility of DUnet. Without experimental details and results, this claim is unverifiable and the practical significance cannot be assessed.
+  - **Resolution test** Describe the experimental methods used, present the results (e.g., activity changes, binding affinity measurements) for wild-type and mutant proteins, and provide statistical analysis demonstrating the significance of the identified sites.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** "DUnet was trained using three dataset, the scPDB dataset, scPDB and SC6K datasets, and scPDB and its derived dataset by rotating the samples in the dataset"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The description of the three training configurations is ambiguous. It is unclear whether these represent three separate models trained on different data, an ablation study, or a progressive training scheme. The rationale for these configurations and how they relate to the performance claims is not explained. The phrase "rotating the samples" is vague and could refer to data augmentation or a different sampling strategy.
+  - **Why it matters** Understanding the training data composition is essential for evaluating the generalizability of the model and the claim that "enlarging the training set contributed to better accuracy." Ambiguity here prevents assessment of whether the observed improvements are due to data quantity, data diversity, or other factors.
+  - **Resolution test** Clearly describe each training configuration, the dataset sizes and compositions, the data augmentation strategy if any, and present results for each configuration separately to support the claim about training set size effects.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "DUnet was used to predict the ligand binding sites of Swiss-Prot annotated proteins"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract mentions a large-scale application to Swiss-Prot annotated proteins but provides no information on the scale of this analysis, the nature of the predictions, any validation of these predictions, or the biological insights derived. This appears to be a potentially significant application but is presented without context or results.
+  - **Why it matters** Large-scale predictions can be valuable for generating hypotheses, but without any assessment of prediction reliability or biological relevance, this section of the work cannot be evaluated. It is unclear whether this is a demonstration of scalability, a discovery-oriented analysis, or a preliminary observation.
+  - **Resolution test** Provide details on the number of proteins analyzed, the distribution of predicted binding sites, any validation against known annotations, and examples of novel predictions with biological context.
+
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "three dataset" which is grammatically incorrect and should be "three datasets." More importantly, the description of the datasets is incomplete; SC6K is described as "collecting of protein-ligand complexes deposited after January 1st, 2018" but the relationship between scPDB and SC6K in terms of overlap or redundancy is not stated.
+  - **Required correction** Correct the grammar and provide a clear description of each dataset, including the number of complexes, the date ranges, and whether there is any overlap between scPDB and SC6K.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "independent validation sets" but does not specify which datasets were used for validation, how they differ from the training data, or whether they represent a temporal or structural split. This information is critical for assessing the generalizability claims.
+  - **Required correction** Specify the validation datasets used, their relationship to the training data, and the rationale for their selection as independent benchmarks.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract describes DUnet as "derived from DenseNet and UNet" but provides no architectural details such as the number of layers, filter sizes, downsampling and upsampling strategies, or the input feature representation. The phrase "atomic physical characters" is vague and does not specify which features were used.
+  - **Required correction** Provide a clear description of the network architecture and the specific atomic features used as input, or refer to a methods section where these details are fully described.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims "better performance than the current state-of-art methods" but does not name any of these methods. Without naming the comparators, the reader cannot judge whether the comparison is against appropriate and current baselines.
+  - **Required correction** Name the specific state-of-the-art methods compared and briefly describe why they were selected as baselines.
+
+## Risk / unsupported claims
+- The claim of superior performance over state-of-the-art methods is unsupported in the abstract due to the absence of any quantitative results or named comparators.
+- The claim that enlarging the training set contributed to better accuracy is unsupported without per-configuration results.
+- The claim of accurate prediction on the industrial enzyme dataset is unsupported without performance metrics for this specific test set.
+- The claim of experimental characterization of microbial transglutaminase binding sites and their significance is entirely unsupported in the abstract.
+- The claim of successful application to Swiss-Prot annotated proteins is unsupported without details on the scale, methods, or outcomes of this analysis.
+- The methodological description of the three training configurations is ambiguous and prevents evaluation of the training strategy.

@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2023-h0s0k",
+  "title": "Implementing Protein-Polarized Ligand Charges into Relative Protein Ligand Binding Affinities Calculations",
+  "authors": "Avital Sharir-Ivry; Suliman Adam; Itamar Kass; Dana Krepel Zussman; Gal Masarati; Dorit Shemesh",
+  "journal": "ChemRxiv",
+  "published_date": "2023-11-26",
+  "window": {
+    "start": "2023-11-20",
+    "end": "2023-11-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出蛋白诱导极化配体电荷参数化方案，用于改善蛋白-配体相对结合自由能计算，虽涉及蛋白-配体互作与MD模拟，但对象为小分子配体而非蛋白质-DNA，且未涉及TF-DNA结合机制，仅方法上对结合自由能计算有间接参考价值。",
+  "abstract": "A major challenge in computer aided drug design is predicting relative binding energies of different molecules to a target protein using fast and accurate free-energy calculation methods. Free-energy calculations are primarily computed by utilizing classical molecular dynamics simulations based on all-atom force fields (FF) to model the interactions in the system. Present standard classical all-atom FFs contain fixed partial charges on the atoms and hence electrostatic interactions are modeled between them. The parametrization process to determine these partial charges usually relies on quantum mechanics or semi-empirical calculations of the molecule in the gas phase or homogenous water surrounding. These present standard parametrization schemes of the partial charges neglect, therefore, polarization effects from the protein surrounding. The absence of protein polarization effects can lead to significant errors in free energy calculations in proteins. We present a parametrization scheme for the partial charges of ligands, named protein induced polarization (PIP) charges, which account for the electrostatic polarization due to the protein-surrounding. The scheme involves single-point quantum mechanics/molecular mechanics (QM/MM) calculations of the ligand charges in the protein/water surrounding. Using PIP ligand partial charges, we have calculated the relative binding free energies (RBFEs) of well-studied protein-ligand systems. We show here that RBFEs computed with PIP charges are either significantly improved or at least comparable to those computed with non-polarized standard GAFF charges. Overall, we present a simple-to-use parametrization scheme to include protein polarization in any type of binding free energy calculations. The parametrization scheme increases accuracy in RBFE calculations while it does not add significant computation time to standard parametrization procedures.",
+  "abstract_zh": "计算机辅助药物设计中的一个主要挑战是利用快速且精确的自由能计算方法预测不同分子与靶蛋白的相对结合能。自由能计算主要通过基于全原子力场（FF）的经典分子动力学模拟来建模系统中的相互作用。目前标准的经典全原子力场在原子间固定部分电荷，因此静电相互作用是在这些电荷之间建模的。确定这些部分电荷的参数化过程通常依赖于分子在气相或均匀水环境中的量子力学或半经验计算。因此，当前标准的电荷参数化方案忽略了来自蛋白质环境的极化效应。蛋白质极化效应的缺失可能导致蛋白质自由能计算中的显著误差。我们提出了一种配体部分电荷的参数化方案，称为蛋白质诱导极化（PIP）电荷，该方案考虑了蛋白质环境引起的静电极化。该方案涉及在蛋白质/水环境中对配体电荷进行单点量子力学/分子力学（QM/MM）计算。使用PIP配体部分电荷，我们计算了研究充分的蛋白质-配体系统的相对结合自由能（RBFEs）。我们在此表明，使用PIP电荷计算的RBFEs要么显著改善，要么至少与非极化标准GAFF电荷计算的结果相当。总体而言，我们提出了一种简单易用的参数化方案，可将蛋白质极化纳入任何类型的结合自由能计算中。该参数化方案提高了RBFE计算的准确性，同时不会显著增加标准参数化过程的计算时间。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2023-h0s0k",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2023-h0s0k",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2023-h0s0k/index.html"
+}

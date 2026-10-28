@@ -1,0 +1,251 @@
+{
+  "identity": {
+    "pmid": "41672505",
+    "doi": "10.1248/cpb.c25-00587",
+    "title": "In Silico Analysis of the Binding Mode of Verteporfin, a YAP-TEAD Interaction Inhibitor."
+  },
+  "content": {
+    "abstract": "The Hippo signaling pathway plays a central role in regulating cell growth, and dysregulation of its downstream effector Yes-associated protein (YAP) leads to tumorigenesis. Verteporfin (VP), a clinically approved drug, inhibits YAP-TEA domain (TEAD) complex formation, yet its binding mechanism remains unclear. In this study, we conducted a comprehensive in silico analysis of all 4 VP isomers within the context of the full-length YAP-TEAD complex. The complex structure was modeled using AlphaFold2 multimer, which provided sufficient accuracy for docking simulations despite incomplete experimental data on YAP. Docking calculations were performed against 2 grids, one centered on a predicted druggable pocket and the other on the YAP-TEAD interface. A total of 304 poses were generated, and the top-scoring 100 were clustered using protein-ligand interaction fingerprints. Clusters derived from the interface grid revealed strong interactions with residues critical for YAP-TEAD binding. Among the 4 isomers, Ia-2 consistently showed the most favorable binding free energies. Notably, Cluster 7 highlighted a unique Ia-2 binding mode involving simultaneous interactions with Met86 and Arg87, suggesting a competitive mechanism at the YAP-TEAD interface. These results suggest that structural chirality may influence binding stability and interaction patterns, and that the Ia-2 isomer is predicted to preferentially stabilize an inhibitory binding mode. This study provides the first systematic comparison of all VP isomers with full-length YAP and suggests that isolating Ia-2 from Visudyne may enhance anticancer efficacy. The findings further support the rational strategies for designing selective YAP-TEAD inhibitors.",
+    "keywords": [
+      "AlphaFold2 modeling",
+      "Yes-associated protein-TEA domain interaction",
+      "molecular docking",
+      "protein-ligand interaction fingerprint",
+      "verteporfin isomer"
+    ],
+    "mesh_terms": [
+      "*Verteporfin/chemistry/pharmacology",
+      "Molecular Docking Simulation",
+      "*Transcription Factors/antagonists & inhibitors/metabolism/chemistry",
+      "Binding Sites/drug effects",
+      "Humans",
+      "Protein Binding/drug effects",
+      "*Adaptor Proteins, Signal Transducing/antagonists & inhibitors/metabolism/chemistry",
+      "YAP-Signaling Proteins",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ikegami, Yurika",
+        "Kudo, Genki",
+        "Hirao, Takumi",
+        "Yoshino, Ryunosuke",
+        "Hirokawa, Takatsugu"
+      ],
+      "short_names": [
+        "Ikegami Y",
+        "Kudo G",
+        "Hirao T",
+        "Yoshino R",
+        "Hirokawa T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Degree Programs in Comprehensive Human Sciences, Graduate School of Comprehensive Human Sciences, Doctoral Program in Medical Sciences, University of Tsukuba, Tsukuba, Ibaraki 305-8575, Japan.",
+        "Doctoral Program in Physics Degree Programs in Pure and Applied Sciences, Graduate School of Science and Technology, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki 305-8571, Japan.",
+        "Division of Biomedical Science, Faculty of Medicine, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki 305-8575, Japan.",
+        "Division of Biomedical Science, Faculty of Medicine, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki 305-8575, Japan.",
+        "Transborder Medical Research Center, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki 305-8575, Japan.",
+        "Division of Biomedical Science, Faculty of Medicine, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki 305-8575, Japan.",
+        "Transborder Medical Research Center, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki 305-8575, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ikegami, Yurika",
+        "short_name": "Ikegami Y",
+        "identifiers": [],
+        "affiliations": [
+          "Degree Programs in Comprehensive Human Sciences, Graduate School of Comprehensive Human Sciences, Doctoral Program in Medical Sciences, University of Tsukuba, Tsukuba, Ibaraki 305-8575, Japan."
+        ]
+      },
+      {
+        "full_name": "Kudo, Genki",
+        "short_name": "Kudo G",
+        "identifiers": [],
+        "affiliations": [
+          "Doctoral Program in Physics Degree Programs in Pure and Applied Sciences, Graduate School of Science and Technology, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki 305-8571, Japan."
+        ]
+      },
+      {
+        "full_name": "Hirao, Takumi",
+        "short_name": "Hirao T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biomedical Science, Faculty of Medicine, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki 305-8575, Japan."
+        ]
+      },
+      {
+        "full_name": "Yoshino, Ryunosuke",
+        "short_name": "Yoshino R",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biomedical Science, Faculty of Medicine, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki 305-8575, Japan.",
+          "Transborder Medical Research Center, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki 305-8575, Japan."
+        ]
+      },
+      {
+        "full_name": "Hirokawa, Takatsugu",
+        "short_name": "Hirokawa T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biomedical Science, Faculty of Medicine, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki 305-8575, Japan.",
+          "Transborder Medical Research Center, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki 305-8575, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical & pharmaceutical bulletin"
+    ],
+    "journal_abbrev": [
+      "Chem Pharm Bull (Tokyo)"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/12 00:47",
+    "fetched_at": "2026-10-01 13:44:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41672505",
+      "32901856",
+      "41192283",
+      "30640473",
+      "38606592",
+      "39572674",
+      "40907380",
+      "42018668",
+      "28430104",
+      "38863297",
+      "25384421",
+      "41407746",
+      "33146905",
+      "33511508",
+      "28515457",
+      "41524724",
+      "20123905",
+      "33121449",
+      "41161055",
+      "28790340",
+      "30482112",
+      "29760238",
+      "28002618",
+      "32286937",
+      "28470935",
+      "36398861",
+      "28960584",
+      "41214656",
+      "40914169",
+      "40864874",
+      "39826667",
+      "24380865",
+      "38565920",
+      "40081550",
+      "28752853",
+      "38791396",
+      "31479631",
+      "34509860",
+      "28334506",
+      "39966375",
+      "28404908",
+      "41949975",
+      "31235263",
+      "36809780",
+      "39177727",
+      "30395288",
+      "41854080",
+      "31494105",
+      "37010474",
+      "39686607",
+      "41780024",
+      "29725256",
+      "26592798",
+      "35950546",
+      "32329346",
+      "39153238",
+      "33651140",
+      "30401838",
+      "33611407",
+      "36825662",
+      "41343191",
+      "34587361",
+      "31489619",
+      "32546241",
+      "31878963",
+      "40608666",
+      "40985618",
+      "36008411",
+      "39903968",
+      "38565949",
+      "35288361",
+      "22677547",
+      "41534572",
+      "25010260",
+      "28249813",
+      "33172899",
+      "28570566",
+      "40542295",
+      "37240355",
+      "30978352",
+      "38427166",
+      "40619008",
+      "36588499",
+      "38553612",
+      "40503662",
+      "32376130",
+      "32773110",
+      "33142952",
+      "35993908",
+      "36522189",
+      "33097058",
+      "24837142",
+      "39681523",
+      "34657158",
+      "29149457",
+      "32912021",
+      "36434952",
+      "37830584",
+      "31533970",
+      "29893953"
+    ],
+    "review": [
+      "41672505",
+      "41192283",
+      "38863297",
+      "30482112"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1248/cpb.c25-00587",
+        "provider": "J-STAGE, Japan Science and Technology Information Aggregator, Electronic",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.medicalonline.jp/meteo_linkout.php?issn=0009-2363&volume=74&issue=2&spage=157",
+        "provider": "Medical Online, Meteo Inc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

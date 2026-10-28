@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "37456892",
+    "doi": "10.7717/peerj.15633",
+    "title": "Identification of key biomarkers based on the proliferation of secondary hyperparathyroidism by bioinformatics analysis and machine learning."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Secondary hyperparathyroidism (SHPT) is a frequent complication of chronic kidney disease (CKD) associated with morbidity and mortality. This study aims to identify potential biomarkers that may be used to predict the progression of SHPT and to elucidate the molecular mechanisms of SHPT pathogenesis at the transcriptome level. METHODS: We analyzed differentially expressed genes (DEGs) between diffuse and nodular parathyroid hyperplasia of SHPT patients from the GSE75886 dataset, and then verified DEG levels with the GSE83421 data file of primary hyperparathyroidism (PHPT) patients. Candidate gene sets were selected by machine learning screens of differential genes and immune cell infiltration was explored with the CIBERSORT algorithm. RcisTarget was used to predict transcription factors, and Cytoscape was used to construct a lncRNA-miRNA-mRNA network to identify possible molecular mechanisms. Immunohistochemistry (IHC) staining and quantitative real-time polymerase chain reaction (qRT-PCR) were used to verify the expression of screened genes in parathyroid tissues of SHPT patients and animal models. RESULTS: A total of 614 DEGs in GSE75886 were obtained as candidate gene sets for further analysis. Five key genes (USP12, CIDEA, PCOLCE2, CAPZA1, and ACCN2) had significant expression differences between groups and were screened with the best ranking in the machine learning process. These genes were shown to be closely related to immune cell infiltration levels and play important roles in the immune microenvironment. Transcription factor ZBTB6 was identified as the master regulator, alongside multiple other transcription factors. Combined with qPCR and IHC assay of hyperplastic parathyroid tissues from SHPT patients and rats confirm differential expression of USP12, CIDEA, PCOLCE2, CAPZA1, and ACCN2, suggesting that they may play important roles in the proliferation and progression of SHPT. CONCLUSION: USP12, CIDEA, PCOLCE2, CAPZA1, and ACCN2 have great potential both as biomarkers and as therapeutic targets in the proliferation of SHPT. These findings suggest novel potential targets and future directions for SHPT research.",
+    "keywords": [
+      "Bioinformatics analysis",
+      "Biomarkers",
+      "Immune cells infiltration",
+      "Machine learning",
+      "Secondary hyperparathyroidism"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Rats",
+      "Biomarkers",
+      "Cell Proliferation",
+      "*Hyperparathyroidism, Primary/complications",
+      "*Hyperparathyroidism, Secondary/genetics",
+      "Hyperplasia/complications",
+      "Parathyroid Glands/pathology",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shen, Aiwen",
+        "Shi, Jialin",
+        "Wang, Yu",
+        "Zhang, Qian",
+        "Chen, Jing"
+      ],
+      "short_names": [
+        "Shen A",
+        "Shi J",
+        "Wang Y",
+        "Zhang Q",
+        "Chen J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Nephrology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "National Clinical Research Center for Aging and Medicine, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Nephrology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "National Clinical Research Center for Aging and Medicine, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Nephrology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "National Clinical Research Center for Aging and Medicine, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Nephrology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "National Clinical Research Center for Aging and Medicine, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Nephrology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "National Clinical Research Center for Aging and Medicine, Huashan Hospital, Fudan University, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shen, Aiwen",
+        "short_name": "Shen A",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology, Huashan Hospital, Fudan University, Shanghai, China.",
+          "National Clinical Research Center for Aging and Medicine, Huashan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Jialin",
+        "short_name": "Shi J",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology, Huashan Hospital, Fudan University, Shanghai, China.",
+          "National Clinical Research Center for Aging and Medicine, Huashan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yu",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology, Huashan Hospital, Fudan University, Shanghai, China.",
+          "National Clinical Research Center for Aging and Medicine, Huashan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qian",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology, Huashan Hospital, Fudan University, Shanghai, China.",
+          "National Clinical Research Center for Aging and Medicine, Huashan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jing",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Nephrology, Huashan Hospital, Fudan University, Shanghai, China.",
+          "National Clinical Research Center for Aging and Medicine, Huashan Hospital, Fudan University, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PeerJ"
+    ],
+    "journal_abbrev": [
+      "PeerJ"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/17 06:42",
+    "fetched_at": "2026-09-29 04:11:17"
+  },
+  "links": {
+    "cites": [
+      "41189222",
+      "40833706",
+      "39374805"
+    ],
+    "refs": [
+      "35348903",
+      "35276205",
+      "35208186",
+      "35205121",
+      "34759262",
+      "34381028",
+      "33912936",
+      "33794814",
+      "32570711",
+      "31619668",
+      "30876622",
+      "30266909",
+      "30253289",
+      "30171599",
+      "29982796",
+      "29755129",
+      "29633272",
+      "28889026",
+      "28687838",
+      "28378123",
+      "28298326",
+      "28093067",
+      "28044233",
+      "27816765",
+      "27600827",
+      "26283674",
+      "26166745",
+      "26054367",
+      "25516917",
+      "25398716",
+      "21454719",
+      "21335517",
+      "18393917",
+      "18288099",
+      "17086194",
+      "16888677",
+      "15284307",
+      "10820180",
+      "9253354",
+      "7725755",
+      "7624138",
+      "2104257",
+      "1966555"
+    ],
+    "similar": [
+      "37456892",
+      "35681135",
+      "36755240",
+      "31914999",
+      "18398016",
+      "34215996",
+      "37051197",
+      "14734671",
+      "32343734",
+      "18789120",
+      "22334717",
+      "23569134",
+      "27600827",
+      "29040300",
+      "18311537",
+      "31311533",
+      "23042437",
+      "21715073",
+      "25294851",
+      "33912936",
+      "8689507",
+      "12778845",
+      "27876426",
+      "29633272",
+      "17514620",
+      "31928297",
+      "37094854",
+      "12444900",
+      "18345956",
+      "15882268",
+      "8678945",
+      "11780466",
+      "15009006",
+      "23552627",
+      "28980761",
+      "28867373",
+      "36788539",
+      "29982796",
+      "33991027",
+      "31670635",
+      "10496523",
+      "21541686",
+      "27589858",
+      "22036941",
+      "21454719",
+      "30945149",
+      "16816924",
+      "29659895",
+      "27757708",
+      "24503607",
+      "9364845",
+      "21565858",
+      "20068287",
+      "31818158",
+      "9726048",
+      "32094398",
+      "35164637",
+      "20585184",
+      "19194773",
+      "17047023",
+      "36395959",
+      "16109139",
+      "33058364",
+      "10550338",
+      "20095513",
+      "21335517",
+      "22875577",
+      "27419923",
+      "21595849",
+      "30171599",
+      "19533223",
+      "36267284",
+      "24292603",
+      "35880174",
+      "18277066",
+      "32517664",
+      "19890272",
+      "34536521",
+      "32746794",
+      "34021359",
+      "35348903",
+      "27741007",
+      "12859909",
+      "23594726",
+      "11982830",
+      "31192970",
+      "16825031",
+      "32074746",
+      "36750541",
+      "16997060",
+      "28044233",
+      "22011886",
+      "12746564",
+      "37854190",
+      "35848429",
+      "10652020",
+      "9253354",
+      "38707996",
+      "39310902"
+    ],
+    "review": [
+      "37456892",
+      "23042437",
+      "12778845",
+      "18345956",
+      "28980761",
+      "21454719",
+      "20585184",
+      "16109139",
+      "10550338",
+      "22875577",
+      "36267284",
+      "11982830",
+      "16825031"
+    ],
+    "pmc": [
+      "10340109"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37456892/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37456892",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7717/peerj.15633",
+        "provider": "PeerJ, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

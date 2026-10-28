@@ -1,0 +1,449 @@
+{
+  "identity": {
+    "pmid": "41745726",
+    "doi": "10.3390/toxins18020060",
+    "title": "Field-Evolved Resistance to Bt Cry Toxins in Lepidopteran Pests: Insights into Multilayered Regulatory Mechanisms and Next-Generation Management Strategies."
+  },
+  "content": {
+    "abstract": "Bt Cry toxins remain the cornerstone of transgenic crop protection against Lepidopteran pests, yet field-evolved resistance, particularly in invasive species such as Spodoptera frugiperda and Helicoverpa armigera, can threaten their long-term efficacy. This review presents a comprehensive and unified mechanistic framework that synthesizes current understanding of Bt Cry toxin modes of action and the complex, multilayered regulatory mechanisms of field-evolved resistance. Beyond the classical pore-formation model, emerging evidence highlights signal transduction cascades, immune evasion via suppression of Toll/IMD pathways, and tripartite toxin-host-microbiota interactions that can dynamically modulate protoxin activation and receptor accessibility. Resistance arises from target-site alterations (e.g., ABCC2/ABCC3, Cadherin mutations), altered midgut protease profiles, enhanced immune regeneration, and microbiota-mediated detoxification, orchestrated by transcription factor networks (GATA, FoxA, FTZ-F1), constitutive MAPK hyperactivation (especially MAP4K4-driven cascades), along with preliminary emerging findings on non-coding RNA involvement. Countermeasures now integrate synergistic Cry/Vip pyramiding, CRISPR/Cas9-validated receptor knockouts revealing functional redundancy, Domain III chimerization (e.g., Cry1A.105), phage-assisted continuous evolution (PACE), and the emerging application of AlphaFold3 for structure-guided rational redesign of resistance-breaking variants. Future sustainability hinges on system-level integration of single-cell transcriptomics, midgut-specific CRISPR screens, microbiome engineering, and AI-accelerated protein design to preempt resistance trajectories and secure Bt biotechnology within integrated resistance and pest management frameworks.",
+    "keywords": [
+      "Bacillus thuringiensis",
+      "ceRNA networks",
+      "cry toxin resistance",
+      "receptor gene regulation",
+      "sustainable pest management"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Junfei",
+        "He, Wenfeng",
+        "Qiu, Min",
+        "Lin, Jiaxin",
+        "Shu, Haoran",
+        "Wang, Jintao",
+        "Liu, Leilei"
+      ],
+      "short_names": [
+        "Xie J",
+        "He W",
+        "Qiu M",
+        "Lin J",
+        "Shu H",
+        "Wang J",
+        "Liu L"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-3608-2100",
+        "ORCID: 0000-0002-6347-2377",
+        "ORCID: 0009-0002-5623-4415"
+      ],
+      "affiliations": [
+        "Center of Applied Biotechnology, School of Life Sciences and Technology, Wuhan University of Bioengineering, Wuhan 430415, China.",
+        "Center of Applied Biotechnology, School of Life Sciences and Technology, Wuhan University of Bioengineering, Wuhan 430415, China.",
+        "College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China.",
+        "Center of Applied Biotechnology, School of Life Sciences and Technology, Wuhan University of Bioengineering, Wuhan 430415, China.",
+        "College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China.",
+        "Center of Applied Biotechnology, School of Life Sciences and Technology, Wuhan University of Bioengineering, Wuhan 430415, China.",
+        "College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China.",
+        "Center of Applied Biotechnology, School of Life Sciences and Technology, Wuhan University of Bioengineering, Wuhan 430415, China.",
+        "School of Life and Health Sciences, Hubei University of Technology, Wuhan 430068, China.",
+        "Center of Applied Biotechnology, School of Life Sciences and Technology, Wuhan University of Bioengineering, Wuhan 430415, China.",
+        "Center of Applied Biotechnology, School of Life Sciences and Technology, Wuhan University of Bioengineering, Wuhan 430415, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Junfei",
+        "short_name": "Xie J",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Applied Biotechnology, School of Life Sciences and Technology, Wuhan University of Bioengineering, Wuhan 430415, China."
+        ]
+      },
+      {
+        "full_name": "He, Wenfeng",
+        "short_name": "He W",
+        "identifiers": [
+          "0009-0002-3608-2100"
+        ],
+        "affiliations": [
+          "Center of Applied Biotechnology, School of Life Sciences and Technology, Wuhan University of Bioengineering, Wuhan 430415, China.",
+          "College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Min",
+        "short_name": "Qiu M",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Applied Biotechnology, School of Life Sciences and Technology, Wuhan University of Bioengineering, Wuhan 430415, China.",
+          "College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jiaxin",
+        "short_name": "Lin J",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Applied Biotechnology, School of Life Sciences and Technology, Wuhan University of Bioengineering, Wuhan 430415, China.",
+          "College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Shu, Haoran",
+        "short_name": "Shu H",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Applied Biotechnology, School of Life Sciences and Technology, Wuhan University of Bioengineering, Wuhan 430415, China.",
+          "School of Life and Health Sciences, Hubei University of Technology, Wuhan 430068, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jintao",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0002-6347-2377"
+        ],
+        "affiliations": [
+          "Center of Applied Biotechnology, School of Life Sciences and Technology, Wuhan University of Bioengineering, Wuhan 430415, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Leilei",
+        "short_name": "Liu L",
+        "identifiers": [
+          "0009-0002-5623-4415"
+        ],
+        "affiliations": [
+          "Center of Applied Biotechnology, School of Life Sciences and Technology, Wuhan University of Bioengineering, Wuhan 430415, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Toxins"
+    ],
+    "journal_abbrev": [
+      "Toxins (Basel)"
+    ],
+    "pub_date": "2026 Jan 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/26 13:40",
+    "fetched_at": "2026-10-01 14:54:36"
+  },
+  "links": {
+    "cites": [
+      "42500472",
+      "42043055"
+    ],
+    "refs": [
+      "41075938",
+      "40964909",
+      "40681558",
+      "39510378",
+      "39503848",
+      "39366175",
+      "39100879",
+      "39057955",
+      "39041011",
+      "39036703",
+      "38954724",
+      "38718835",
+      "38667368",
+      "38594617",
+      "38593893",
+      "38576788",
+      "38540692",
+      "38535342",
+      "38513093",
+      "38512131",
+      "38458436",
+      "38373570",
+      "38236820",
+      "38235648",
+      "37999088",
+      "37895079",
+      "37745689",
+      "37664435",
+      "37573416",
+      "37532331",
+      "37433327",
+      "37321433",
+      "37219008",
+      "37104211",
+      "37018465",
+      "36996102",
+      "36976001",
+      "36927031",
+      "36835720",
+      "36421056",
+      "36361800",
+      "36224245",
+      "36220404",
+      "36170641",
+      "36170342",
+      "35952810",
+      "35810716",
+      "35800392",
+      "35603737",
+      "35401496",
+      "35262369",
+      "35249643",
+      "35120513",
+      "35113858",
+      "34791204",
+      "34495986",
+      "34408299",
+      "34356469",
+      "34129679",
+      "33990582",
+      "33753580",
+      "33643268",
+      "33504654",
+      "33465145",
+      "33417820",
+      "33145907",
+      "32950745",
+      "32948025",
+      "32928099",
+      "32806491",
+      "32776976",
+      "32769995",
+      "32569314",
+      "32532972",
+      "32366901",
+      "32353188",
+      "32194442",
+      "32191775",
+      "31973862",
+      "31843687",
+      "31759051",
+      "31546813",
+      "31540044",
+      "31378361",
+      "31301674",
+      "31254345",
+      "30967027",
+      "30767423",
+      "30425578",
+      "30400341",
+      "30385510",
+      "30381456",
+      "30259358",
+      "30196079",
+      "29964167",
+      "29858245",
+      "29740041",
+      "29680748",
+      "29020006",
+      "28736301",
+      "28729614",
+      "28705634",
+      "28685236",
+      "28196471",
+      "28082675",
+      "27984734",
+      "27867074",
+      "27708457",
+      "27436739",
+      "27351135",
+      "27343383",
+      "27120167",
+      "26922301",
+      "26606918",
+      "26544881",
+      "26455902",
+      "25993013",
+      "25875245",
+      "25154974",
+      "25005122",
+      "24840729",
+      "24456341",
+      "23686267",
+      "23592996",
+      "22688687",
+      "22540421",
+      "22056668",
+      "21840855",
+      "21464133",
+      "21376122",
+      "20953975",
+      "20857709",
+      "20305020",
+      "20040372",
+      "17672866",
+      "17244539",
+      "16972133",
+      "16788061",
+      "16469695",
+      "16316403",
+      "15691952",
+      "15345053",
+      "12297093",
+      "7765229"
+    ],
+    "similar": [
+      "41745726",
+      "31973862",
+      "32887720",
+      "28736301",
+      "35262369",
+      "39964042",
+      "42475469",
+      "41326090",
+      "26225455",
+      "30097439",
+      "31843687",
+      "35120513",
+      "41208298",
+      "37816687",
+      "39277415",
+      "22081566",
+      "31772047",
+      "28036388",
+      "32290427",
+      "34363975",
+      "33924857",
+      "38593893",
+      "36053801",
+      "37368687",
+      "33145907",
+      "33893113",
+      "42567834",
+      "41831852",
+      "35202184",
+      "25754522",
+      "33274391",
+      "30710623",
+      "35633103",
+      "37874855",
+      "39503848",
+      "31175187",
+      "40244677",
+      "41807919",
+      "31759051",
+      "38072533",
+      "22540421",
+      "20069826",
+      "40744574",
+      "37378519",
+      "25340556",
+      "38672442",
+      "17475275",
+      "22606242",
+      "31821498",
+      "40131492",
+      "25875245",
+      "36200769",
+      "23285292",
+      "36710863",
+      "35611730",
+      "26583651",
+      "34560243",
+      "30278206",
+      "34268576",
+      "25595643",
+      "32517191",
+      "40384324",
+      "20376312",
+      "41954822",
+      "35878171",
+      "21621616",
+      "33127814",
+      "35737027",
+      "30543077",
+      "42493006",
+      "33417820",
+      "39277420",
+      "40870621",
+      "36835720",
+      "40899875",
+      "28199783",
+      "21390253",
+      "34054756",
+      "40977075",
+      "34922393",
+      "40964909",
+      "37017772",
+      "20687486",
+      "40539778",
+      "34780898",
+      "39057955",
+      "30077769",
+      "16022333",
+      "31136783",
+      "40518069",
+      "29607282",
+      "35603737",
+      "26384494",
+      "25401494",
+      "38954724",
+      "40242548",
+      "41350066",
+      "27914919",
+      "39456705",
+      "28363958"
+    ],
+    "review": [
+      "41745726",
+      "26225455",
+      "33924857",
+      "41807919",
+      "22540421",
+      "20069826",
+      "25340556",
+      "38672442",
+      "31821498",
+      "35611730",
+      "42493006",
+      "33417820",
+      "40870621",
+      "36835720",
+      "34054756",
+      "20687486",
+      "39057955"
+    ],
+    "pmc": [
+      "12945235"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=toxins18020060",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41745726/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-866",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

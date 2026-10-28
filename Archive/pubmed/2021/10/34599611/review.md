@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors extend the equally weighted multiscale elastic network model (ewmENM), comprising ewmGNM and ewmANM, to study the binding dynamics of TDP-43 and RNA. They report that RNA binding reduces flexibility in specific TDP-43 regions, strengthens inter-RRM and intra-RRM interactions via the linker, and identify key residues for binding through a thermodynamic cycle method combined with ewmGNM. Molecular dynamics simulations are used for validation.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methodological derivations, simulation parameters, statistical analyses, and validation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of a multiscale elastic network model to a biologically relevant protein-RNA system. However, the current abstract lacks the quantitative detail and methodological transparency needed to evaluate the validity of the claims. The core findings are stated qualitatively, and the validation via molecular dynamics is mentioned without any supporting data. The work may be of interest to computational biophysicists, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying protein-RNA interactions, particularly those interested in coarse-grained models and elastic network approaches. Researchers working on TDP-43 and its role in neurodegenerative diseases may also find the biological context relevant, though the abstract does not provide disease-specific mechanistic insights.
+- **Major strengths** The study addresses a biologically important system with a methodological extension of an established model. The combination of ENM-based analysis with a thermodynamic cycle approach and MD validation is a reasonable strategy. The focus on identifying key residues for binding and conformational rearrangement is practically relevant.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that RNA binding reduces flexibility in loop3 segments and the C-terminus, and that these regions play anchoring, induced fit, and conformational adjustment roles.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim is stated without any quantitative measure of flexibility change, statistical significance, or comparison to experimental data. No numerical values, error estimates, or control analyses are presented.
+  - **Why it matters** Without quantitative support, the reader cannot assess the magnitude or reliability of the reported flexibility changes. The functional interpretation (anchoring, induced fit) is speculative without corroborating evidence.
+  - **Resolution test** Provide quantitative flexibility values before and after RNA binding, with statistical measures, and compare to experimental or MD-derived data where available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that a thermodynamic cycle method combined with ewmGNM identifies key residues for RNA binding.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The thermodynamic cycle method is mentioned but not described. No details on how perturbations were applied, how binding free energy changes were computed, or how key residues were ranked are provided.
+  - **Why it matters** The identification of key residues is a central claim. Without methodological detail, the result cannot be reproduced or evaluated for correctness.
+  - **Resolution test** Describe the thermodynamic cycle formalism, perturbation scheme, and criteria for defining key residues. Provide a list of identified residues with associated free energy changes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation adequacy
+  - **Claim pointer** The abstract claims that molecular dynamics simulations validate and further interpret the ENM-based results.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No MD simulation details are given, including system setup, force field, simulation length, or how the MD results were compared to ENM predictions. The term "validate" implies a quantitative comparison that is not shown.
+  - **Why it matters** Validation is essential to establish that the ENM results are not artifacts of the coarse-grained approach. Without details, the validation claim is unverifiable.
+  - **Resolution test** Provide MD simulation parameters, convergence criteria, and a quantitative comparison between ENM and MD results for the key claims (flexibility changes, residue identification).
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "equally weighted multiscale elastic network model" is used without explaining what "equally weighted" means in this context.
+  - **Required correction** Briefly define the weighting scheme or refer to a prior publication for the model details.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not state the system size, number of RNA bases, or the specific TDP-43 construct used.
+  - **Required correction** Include basic system information to allow readers to assess the biological relevance of the model.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Functional claims
+  - **Evidence pointer** Abstract text
+  - **Issue** The functional roles assigned to loop3 and the C-terminus (anchoring, induced fit, conformational adjustment) are presented as conclusions rather than hypotheses.
+  - **Required correction** Frame these as interpretations consistent with the data, and note any alternative explanations.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and validation data means the core claims cannot be assessed.
+- **Assessment against Nature-style criteria** 
+  - Originality: The extension of ewmENM to protein-RNA systems appears incremental rather than conceptually novel. The abstract does not demonstrate a new principle or unexpected finding.
+  - Scientific importance: The biological system is relevant, but the abstract does not show how the findings advance understanding of TDP-43 function or disease mechanisms beyond what is already known.
+  - Interdisciplinary readership: The work is likely to appeal primarily to computational biophysicists. The abstract does not frame the results in a way that would attract a broader biological or clinical audience.
+  - Technical soundness: Cannot be evaluated from the abstract. The lack of methodological detail and quantitative support is a major limitation.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses model-specific terminology without sufficient context. The functional interpretations are accessible, but the technical basis is not.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful application, but the absence of quantitative results, methodological transparency, and validation details prevents a supportive recommendation. The authors should provide the full manuscript with detailed methods and results for a proper evaluation.
+
+## Risk / unsupported claims
+- The claim that RNA binding reduces flexibility in specific TDP-43 regions is unsupported without quantitative data.
+- The claim that the linker mediates strengthened inter-RRM interactions is unsupported without interaction energy or correlation analyses.
+- The identification of key residues for RNA binding is unsupported without a description of the thermodynamic cycle method or the list of residues.
+- The claim that MD simulations validate the ENM results is unsupported without any MD details or comparison data.
+- The functional interpretations (anchoring, induced fit, conformational adjustment) are speculative and not directly evidenced.

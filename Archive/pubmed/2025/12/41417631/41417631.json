@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "41417631",
+    "doi": "10.1093/g3journal/jkaf296",
+    "title": "MOKA: a pipeline for multiomics bridged SNP-set kernel association test."
+  },
+  "content": {
+    "abstract": "The explosion of genomic and multiomics data has created a need for scalable, reproducible tools that integrate functional annotations into genome-wide association studies (GWAS). We introduce the multiomics data bridged Kernel Association test (MOKA) pipeline, a Snakemake-based workflow that automates SNP-set kernel-based association testing by incorporating multiomics data, including gene expression, transcription factor binding, evolutionary conservation scores, and neural network-derived features. This data-bridged architecture enhances variant prioritization and aggregation, improving statistical power in GWAS. MOKA supports population structure correction via spectral decomposition, parallel computation, and post-GWAS analyses, including visualization, Gene Ontology annotation, pathway enrichment, and validation. As a use case, we applied MOKA to a schizophrenia GWAS cohort, identified 89 Bonferroni-significant genes, with a 15.7% validation rate in the disease-specific DisGeNET database and enrichment in pathways relevant to neuropsychiatric disease. MOKA provides a robust, scalable, and extensible framework for functional multiomics integration in genetic studies. It is open-source and available at https://github.com/davidenoma/moka.",
+    "keywords": [
+      "bioinformatics",
+      "functional annotation",
+      "genome-wide association studies",
+      "kernel-based association test",
+      "post-GWAS analysis",
+      "snakemake",
+      "workflow management system"
+    ],
+    "mesh_terms": [
+      "*Polymorphism, Single Nucleotide",
+      "*Genome-Wide Association Study/methods",
+      "Humans",
+      "*Software",
+      "Schizophrenia/genetics",
+      "*Genomics/methods",
+      "*Computational Biology/methods",
+      "Databases, Genetic",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Enoma, David",
+        "Wang, Dinghao",
+        "Kamdoum, Ariel Ghislain Kemogne",
+        "Polo, Rodrigo Ortega",
+        "Long, Quan",
+        "He, Jingni"
+      ],
+      "short_names": [
+        "Enoma D",
+        "Wang D",
+        "Kamdoum AGK",
+        "Polo RO",
+        "Long Q",
+        "He J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7300-8474",
+        "ORCID: 0000-0003-3795-1873",
+        "ORCID: 0000-0001-8049-9734"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+        "The Mathison Centre for Mental Health Research and Education, Hotchkiss Brain Institute, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+        "Alberta Children's Hospital Research Institute, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+        "Department of Mathematics and Statistics, Faculty of Science, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+        "Department of Mathematics and Statistics, Faculty of Science, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+        "Lethbridge Research and Development Centre, Agriculture and Agri-Food Canada, Lethbridge, AB T1J 4B1, Canada.",
+        "Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+        "The Mathison Centre for Mental Health Research and Education, Hotchkiss Brain Institute, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+        "Alberta Children's Hospital Research Institute, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+        "Department of Mathematics and Statistics, Faculty of Science, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+        "Department of Medical Genetics, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+        "Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+        "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, VIC 3004, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Enoma, David",
+        "short_name": "Enoma D",
+        "identifiers": [
+          "0000-0001-7300-8474"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+          "The Mathison Centre for Mental Health Research and Education, Hotchkiss Brain Institute, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+          "Alberta Children's Hospital Research Institute, University of Calgary, Calgary, AB T2N 4N1, Canada."
+        ]
+      },
+      {
+        "full_name": "Wang, Dinghao",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics and Statistics, Faculty of Science, University of Calgary, Calgary, AB T2N 4N1, Canada."
+        ]
+      },
+      {
+        "full_name": "Kamdoum, Ariel Ghislain Kemogne",
+        "short_name": "Kamdoum AGK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics and Statistics, Faculty of Science, University of Calgary, Calgary, AB T2N 4N1, Canada."
+        ]
+      },
+      {
+        "full_name": "Polo, Rodrigo Ortega",
+        "short_name": "Polo RO",
+        "identifiers": [],
+        "affiliations": [
+          "Lethbridge Research and Development Centre, Agriculture and Agri-Food Canada, Lethbridge, AB T1J 4B1, Canada."
+        ]
+      },
+      {
+        "full_name": "Long, Quan",
+        "short_name": "Long Q",
+        "identifiers": [
+          "0000-0003-3795-1873"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+          "The Mathison Centre for Mental Health Research and Education, Hotchkiss Brain Institute, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+          "Alberta Children's Hospital Research Institute, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+          "Department of Mathematics and Statistics, Faculty of Science, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+          "Department of Medical Genetics, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 4N1, Canada."
+        ]
+      },
+      {
+        "full_name": "He, Jingni",
+        "short_name": "He J",
+        "identifiers": [
+          "0000-0001-8049-9734"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Cumming School of Medicine, University of Calgary, Calgary, AB T2N 4N1, Canada.",
+          "Department of Neuroscience, School of Translational Medicine, Faculty of Medicine, Nursing and Health Sciences, Monash University, Melbourne, VIC 3004, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "G3 (Bethesda, Md.)"
+    ],
+    "journal_abbrev": [
+      "G3 (Bethesda)"
+    ],
+    "pub_date": "2026 Feb 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/19 18:32",
+    "fetched_at": "2026-10-01 09:08:23"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39565199",
+      "39535029",
+      "38314848",
+      "38118447",
+      "37782668",
+      "36420891",
+      "36402776",
+      "35778686",
+      "35647481",
+      "34849857",
+      "34669946",
+      "34493866",
+      "34017140",
+      "33200776",
+      "33169155",
+      "31608109",
+      "29876890",
+      "29788404",
+      "29739930",
+      "29149249",
+      "27924018",
+      "27667684",
+      "26856537",
+      "25156517",
+      "23479353",
+      "23468125",
+      "21892150",
+      "21850043",
+      "21407268",
+      "21167468",
+      "20560208",
+      "20208533",
+      "19858363",
+      "19812666",
+      "17701901",
+      "17554300",
+      "17478515",
+      "16024819",
+      "11315092"
+    ],
+    "similar": [
+      "41417631",
+      "31801406",
+      "27807048",
+      "38832465",
+      "41002190",
+      "23369106",
+      "38653490",
+      "37020193",
+      "21496265",
+      "37976215",
+      "36477976",
+      "41422555",
+      "21982513",
+      "25393678",
+      "39019974",
+      "28333195",
+      "32779262",
+      "26504140",
+      "37940870",
+      "19620097",
+      "40279264",
+      "20053839",
+      "39812506",
+      "40653482",
+      "31612961",
+      "41741362",
+      "38091963",
+      "28700989",
+      "22973544",
+      "38940522",
+      "27766955",
+      "22187495",
+      "19933162",
+      "34184051",
+      "33090994",
+      "41755740",
+      "23281744",
+      "35441669",
+      "39292536",
+      "23819779",
+      "29411426",
+      "33604756",
+      "34370400",
+      "21610748",
+      "41535759",
+      "22039405",
+      "29728367",
+      "36597047",
+      "41685638",
+      "26428293",
+      "29432514",
+      "22792057",
+      "39661350",
+      "25262152",
+      "29878048",
+      "38717471",
+      "34044854",
+      "39932497",
+      "39563277",
+      "33371893",
+      "27121852",
+      "29562348",
+      "41115712",
+      "41324558",
+      "28069594",
+      "29378629",
+      "27497439",
+      "31077144",
+      "24561481",
+      "24320595",
+      "19837719",
+      "25170024",
+      "23281810",
+      "26399714",
+      "36809570",
+      "26286716",
+      "29874547",
+      "30689722",
+      "41178806",
+      "39037262",
+      "38305800",
+      "32444882",
+      "30010968",
+      "37253165",
+      "32132732",
+      "36977197",
+      "23134571",
+      "31328826",
+      "27561358",
+      "41023601",
+      "26808560",
+      "30458782",
+      "29653892",
+      "21695280",
+      "41124022",
+      "32677173",
+      "41616909",
+      "35894642",
+      "29379090",
+      "31053169"
+    ],
+    "review": [
+      "41417631",
+      "41422555",
+      "39019974",
+      "36597047"
+    ],
+    "pmc": [
+      "12869064"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41417631/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/g3journal/article-lookup/doi/10.1093/g3journal/jkaf296",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "pmid": "41580658",
+    "doi": "10.1186/s12859-026-06367-6",
+    "title": "EDEN: multiscale expected density of nucleotide encoding for enhanced DNA sequence classification with hybrid deep learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: DNA sequences are fundamental carriers of genetic information, and their accurate classification is essential for understanding gene regulation, disease mechanisms, and translational genomics. Existing encoding methods often fail to capture both local and long-range dependencies simultaneously. RESULTS: We introduce EDEN (Expected Density of Nucleotide Encoding), a unified multiscale encoding framework based on kernel density estimation. EDEN captures position-specific and context-dependent nucleotide patterns and integrates them into a hybrid deep learning architecture. Across sixteen benchmark datasets covering promoter detection, core promoter detection, and transcription factor binding prediction, EDEN achieves the best average performance while using orders of magnitude fewer parameters compared with state-of-the-art models. All source code, pretrained models, and datasets are publicly available at: https://github.com/zabihis/EDEN . CONCLUSIONS: EDEN provides an efficient, biologically informed, and interpretable multiscale representation for genomic sequence classification. Its favorable parameter-performance ratio and robust consistency across tasks underscore its practicality for large-scale genomic applications.",
+    "keywords": [
+      "DNA sequence classification",
+      "Genomic deep learning",
+      "Hybrid convolutional neural network",
+      "Kernel density estimation",
+      "Multiscale sequence encoding",
+      "Unified sequence representation"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Sequence Analysis, DNA/methods",
+      "*Genomics/methods",
+      "*DNA/genetics",
+      "*Software"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zabihi, Saman",
+        "Hashemi, Sattar",
+        "Mansoori, Eghbal"
+      ],
+      "short_names": [
+        "Zabihi S",
+        "Hashemi S",
+        "Mansoori E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, Engineering, and IT, Shiraz University, Shiraz, Iran. s.zabihi@shirazu.ac.ir.",
+        "Department of Computer Science, Engineering, and IT, Shiraz University, Shiraz, Iran.",
+        "Department of Computer Science, Engineering, and IT, Shiraz University, Shiraz, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zabihi, Saman",
+        "short_name": "Zabihi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Engineering, and IT, Shiraz University, Shiraz, Iran. s.zabihi@shirazu.ac.ir."
+        ]
+      },
+      {
+        "full_name": "Hashemi, Sattar",
+        "short_name": "Hashemi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Engineering, and IT, Shiraz University, Shiraz, Iran."
+        ]
+      },
+      {
+        "full_name": "Mansoori, Eghbal",
+        "short_name": "Mansoori E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Engineering, and IT, Shiraz University, Shiraz, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2026 Jan 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/25 00:37",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [
+      "41978025"
+    ],
+    "refs": [
+      "40874985",
+      "40091193",
+      "39890468",
+      "39858426",
+      "39753409",
+      "39609566",
+      "39595624",
+      "38868182",
+      "37889083",
+      "37366813",
+      "37198531",
+      "36923950",
+      "35263332",
+      "34141139",
+      "34103512",
+      "33603233",
+      "33599251",
+      "33538820",
+      "33015010",
+      "19789120",
+      "16873662",
+      "15231754",
+      "3460087",
+      "2336393",
+      "1861980"
+    ],
+    "similar": [
+      "41580658",
+      "42475469",
+      "41564724",
+      "39096613",
+      "41530673",
+      "42338220",
+      "29069282",
+      "40598008",
+      "39766860",
+      "39214282",
+      "34073774",
+      "41762162",
+      "39107889",
+      "41450215",
+      "42029782",
+      "39709643",
+      "41963527",
+      "40346458",
+      "42135287",
+      "41454924",
+      "31437540",
+      "40778316",
+      "41253815",
+      "39696434",
+      "36403092",
+      "29155928",
+      "39402441",
+      "39747934",
+      "42412847",
+      "42635196",
+      "40772277",
+      "31186519",
+      "40670806",
+      "40914406",
+      "41687774",
+      "41634097",
+      "35389869",
+      "40282347",
+      "33741075",
+      "42242678",
+      "42633564",
+      "37271050",
+      "42328788",
+      "37020337",
+      "42574449",
+      "35676633",
+      "41475079",
+      "42133173",
+      "41288610",
+      "24727652",
+      "36528802",
+      "42102639",
+      "41421972",
+      "39350338",
+      "28245811",
+      "39667220",
+      "42096457",
+      "42685313",
+      "42508236",
+      "38485768",
+      "41172803",
+      "37127596",
+      "42151513",
+      "42332136",
+      "41888146",
+      "41677998",
+      "42099803",
+      "42636031",
+      "42174428",
+      "40386224",
+      "39929298",
+      "33845759",
+      "41259416",
+      "42239454",
+      "41241820",
+      "28334114",
+      "33634313",
+      "41978025",
+      "29970003",
+      "30808287",
+      "36049552",
+      "41965176",
+      "38358865",
+      "40991422",
+      "35799358",
+      "40646507",
+      "17488755",
+      "32701977",
+      "41857714",
+      "41886347",
+      "27084946",
+      "41962361",
+      "40265190",
+      "40349379",
+      "40914877",
+      "41576554",
+      "40751377",
+      "41645436",
+      "42776895",
+      "41294241"
+    ],
+    "review": [
+      "41580658",
+      "40265190"
+    ],
+    "pmc": [
+      "12879454"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-026-06367-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41580658/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

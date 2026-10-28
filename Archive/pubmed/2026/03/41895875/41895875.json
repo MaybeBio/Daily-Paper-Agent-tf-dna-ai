@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "41895875",
+    "doi": "10.1016/j.esmoop.2026.106064",
+    "title": "A machine learning assay to predict disease recurrence in hormone receptor-positive breast cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hormone receptor (HR)-positive, human epidermal growth factor 2 (HER2)-negative breast cancer associates with a sustained risk of relapse over time. Current multigene assays offer limited validity to identify clinically low-risk tumors at high risk of recurrence, which is particularly relevant in the context of novel adjuvant therapies. In this study, we developed and validated ER-Predict, a machine learning assay leveraging a 14-gene expression signature to classify early stage HR-positive/HER2-negative breast cancer according to the risk of relapse. MATERIALS AND METHODS: ER-Predict was developed on a cohort of 1413 HR-positive/HER2-negative early breast cancer cases. External validation was carried out across eight publicly available cohorts (n = 1118). Comparative benchmarking was conducted against reproduced prognostic signatures, and particularly, EndoPredict and Oncotype DX. Functional annotation and drug response analysis were carried out using gene expression and pharmacogenomic data from publicly available breast cancer cell lines. RESULTS: ER-Predict identified high-risk patients with significantly reduced distant metastasis-free survival in the external validation cohort (hazard ratio 2.03, 95% confidence interval 1.57-2.63, P < 0.0001). The assay demonstrated independent prognostic value beyond traditional clinicopathological factors, including tumor grade, tumor size, and nodal status, and consistently outperformed recomputed multigene panels. ER-Predict showed specificity toward luminal-like transcriptomic programs, revealing activation of key cell-cycle regulators governing endocrine resistance among high-risk tumors that had retained expression of retinoblastoma-1, suggesting potential actionability by means of cell-cycle inhibitors. CONCLUSIONS: ER-Predict represents a robust assay with potential utility in early stage HR-positive/HER2-negative breast cancer. Its consistent ability to identify high-risk patients supports further investigation as a decision-support tool to guide treatment intensification in clinically low-risk HR-positive/HER2-negative disease.",
+    "keywords": [
+      "artificial intelligence",
+      "breast cancer",
+      "machine learning",
+      "recurrence prediction"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/genetics/pathology/diagnosis",
+      "Female",
+      "*Machine Learning",
+      "*Neoplasm Recurrence, Local/genetics/diagnosis/epidemiology",
+      "Prognosis",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "*Receptors, Estrogen/metabolism",
+      "Predictive Learning Models",
+      "Prediction Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Boscolo Bielo, L",
+        "Trapani, D",
+        "Razavi, P",
+        "Chandarlapaty, S",
+        "Zhan, Y",
+        "Curigliano, G"
+      ],
+      "short_names": [
+        "Boscolo Bielo L",
+        "Trapani D",
+        "Razavi P",
+        "Chandarlapaty S",
+        "Zhan Y",
+        "Curigliano G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Early Drug Development for Innovative Therapies, European Institute of Oncology IRCCS, Milan, Italy; Department of Oncology and Hemato-Oncology, University of Milano, Milan, Italy; Breast Medicine Service, Department of Medicine, MSK, New York, USA. Electronic address: luca.boscolobielo@ieo.it.",
+        "Early Drug Development for Innovative Therapies, European Institute of Oncology IRCCS, Milan, Italy; Department of Oncology and Hemato-Oncology, University of Milano, Milan, Italy.",
+        "Breast Medicine Service, Department of Medicine, MSK, New York, USA; Weill-Cornell Medical College, New York, USA.",
+        "Breast Medicine Service, Department of Medicine, MSK, New York, USA; Weill-Cornell Medical College, New York, USA; Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, USA.",
+        "Department of Oncology and Hemato-Oncology, University of Milano, Milan, Italy; Diagnostica Molecolare Avanzata, Department of Experimental Oncology, European Institute of Oncology IRCCS, Milan, Italy. Electronic address: yinxiu.zhan@ieo.it.",
+        "Early Drug Development for Innovative Therapies, European Institute of Oncology IRCCS, Milan, Italy; Department of Oncology and Hemato-Oncology, University of Milano, Milan, Italy. Electronic address: giuseppe.curigliano@ieo.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Boscolo Bielo, L",
+        "short_name": "Boscolo Bielo L",
+        "identifiers": [],
+        "affiliations": [
+          "Early Drug Development for Innovative Therapies, European Institute of Oncology IRCCS, Milan, Italy; Department of Oncology and Hemato-Oncology, University of Milano, Milan, Italy; Breast Medicine Service, Department of Medicine, MSK, New York, USA. Electronic address: luca.boscolobielo@ieo.it."
+        ]
+      },
+      {
+        "full_name": "Trapani, D",
+        "short_name": "Trapani D",
+        "identifiers": [],
+        "affiliations": [
+          "Early Drug Development for Innovative Therapies, European Institute of Oncology IRCCS, Milan, Italy; Department of Oncology and Hemato-Oncology, University of Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Razavi, P",
+        "short_name": "Razavi P",
+        "identifiers": [],
+        "affiliations": [
+          "Breast Medicine Service, Department of Medicine, MSK, New York, USA; Weill-Cornell Medical College, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Chandarlapaty, S",
+        "short_name": "Chandarlapaty S",
+        "identifiers": [],
+        "affiliations": [
+          "Breast Medicine Service, Department of Medicine, MSK, New York, USA; Weill-Cornell Medical College, New York, USA; Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Zhan, Y",
+        "short_name": "Zhan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology and Hemato-Oncology, University of Milano, Milan, Italy; Diagnostica Molecolare Avanzata, Department of Experimental Oncology, European Institute of Oncology IRCCS, Milan, Italy. Electronic address: yinxiu.zhan@ieo.it."
+        ]
+      },
+      {
+        "full_name": "Curigliano, G",
+        "short_name": "Curigliano G",
+        "identifiers": [],
+        "affiliations": [
+          "Early Drug Development for Innovative Therapies, European Institute of Oncology IRCCS, Milan, Italy; Department of Oncology and Hemato-Oncology, University of Milano, Milan, Italy. Electronic address: giuseppe.curigliano@ieo.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ESMO open"
+    ],
+    "journal_abbrev": [
+      "ESMO Open"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/28 00:42",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39789179",
+      "39488549",
+      "38906254",
+      "38685923",
+      "38057718",
+      "37879443",
+      "37865915",
+      "37146621",
+      "36493792",
+      "36426870",
+      "35653145",
+      "35263519",
+      "34990895",
+      "34837074",
+      "33964451",
+      "33369357",
+      "31217513",
+      "31161190",
+      "31041683",
+      "30675515",
+      "30206110",
+      "29860917",
+      "29450494",
+      "28753430",
+      "28412587",
+      "27802449",
+      "27557300",
+      "27400969",
+      "27217450",
+      "27161491",
+      "27020857",
+      "26771021",
+      "26607490",
+      "26077471",
+      "25605792",
+      "24520097",
+      "24157828",
+      "23550210",
+      "23533813",
+      "23180760",
+      "22049316",
+      "21807638",
+      "19724274",
+      "18593943",
+      "17659439",
+      "17496320",
+      "17401012",
+      "17157792",
+      "16720680",
+      "16141321",
+      "16049480",
+      "15591335",
+      "1391987"
+    ],
+    "similar": [
+      "41895875",
+      "23074401",
+      "41061345",
+      "41831466",
+      "32372329",
+      "40845255",
+      "41965577",
+      "41691575",
+      "41707479",
+      "39545625",
+      "41709333",
+      "41886167",
+      "33152285",
+      "41942928",
+      "42218834",
+      "41405264",
+      "24035531",
+      "42329472",
+      "42497534",
+      "41162228",
+      "24725534",
+      "41213110",
+      "32652112",
+      "40288025",
+      "41697472",
+      "29450494",
+      "40878695",
+      "41327380",
+      "31026440",
+      "40560329",
+      "32284770",
+      "29137653",
+      "42366088",
+      "41493657",
+      "40972946",
+      "38692082",
+      "27209424",
+      "41074908",
+      "41675290",
+      "42176177",
+      "41526910",
+      "39821037",
+      "41632146",
+      "32385567",
+      "41637793",
+      "41999978",
+      "42148109",
+      "41528926",
+      "25880075",
+      "33028590",
+      "40121273",
+      "39579550",
+      "30180877",
+      "40936892",
+      "23146280",
+      "17993229",
+      "36241228",
+      "41653522",
+      "35912728",
+      "41898839",
+      "31907749",
+      "32229175",
+      "33617937",
+      "38587783",
+      "40184873",
+      "40347583",
+      "40623476",
+      "41466313",
+      "40927537",
+      "37822006",
+      "27762648",
+      "30171067",
+      "32902674",
+      "40833671",
+      "42173037",
+      "42488884",
+      "31064782",
+      "19956951",
+      "25600243",
+      "31504126",
+      "39477071",
+      "41963835",
+      "33753452",
+      "42214155",
+      "40597935",
+      "37659765",
+      "39742376",
+      "34090143",
+      "35568835",
+      "24060333",
+      "39951234",
+      "35448187",
+      "42185928",
+      "42431160",
+      "38000091",
+      "38722442",
+      "38131531",
+      "34481367",
+      "30694768",
+      "29502370"
+    ],
+    "review": [
+      "41895875",
+      "42218834",
+      "41074908",
+      "39821037",
+      "17993229",
+      "37659765"
+    ],
+    "pmc": [
+      "13040913"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://air.unimi.it/handle/2434/1246115",
+        "provider": "Archivio Istituzionale della Ricerca Unimi - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from AIR - Univ. Milan"
+      },
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2059-7029(26)00006-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41895875/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2059-7029(26)00006-2",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

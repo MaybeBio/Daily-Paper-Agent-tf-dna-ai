@@ -1,0 +1,445 @@
+{
+  "identity": {
+    "pmid": "37196001",
+    "doi": "10.1371/journal.pgen.1010745",
+    "title": "Changing course: Glucose starvation drives nuclear accumulation of Hexokinase 2 in S. cerevisiae."
+  },
+  "content": {
+    "abstract": "Glucose is the preferred carbon source for most eukaryotes, and the first step in its metabolism is phosphorylation to glucose-6-phosphate. This reaction is catalyzed by hexokinases or glucokinases. The yeast Saccharomyces cerevisiae encodes three such enzymes, Hxk1, Hxk2, and Glk1. In yeast and mammals, some isoforms of this enzyme are found in the nucleus, suggesting a possible moonlighting function beyond glucose phosphorylation. In contrast to mammalian hexokinases, yeast Hxk2 has been proposed to shuttle into the nucleus in glucose-replete conditions, where it reportedly moonlights as part of a glucose-repressive transcriptional complex. To achieve its role in glucose repression, Hxk2 reportedly binds the Mig1 transcriptional repressor, is dephosphorylated at serine 15 and requires an N-terminal nuclear localization sequence (NLS). We used high-resolution, quantitative, fluorescent microscopy of live cells to determine the conditions, residues, and regulatory proteins required for Hxk2 nuclear localization. Countering previous yeast studies, we find that Hxk2 is largely excluded from the nucleus under glucose-replete conditions but is retained in the nucleus under glucose-limiting conditions. We find that the Hxk2 N-terminus does not contain an NLS but instead is necessary for nuclear exclusion and regulating multimerization. Amino acid substitutions of the phosphorylated residue, serine 15, disrupt Hxk2 dimerization but have no effect on its glucose-regulated nuclear localization. Alanine substation at nearby lysine 13 affects dimerization and maintenance of nuclear exclusion in glucose-replete conditions. Modeling and simulation provide insight into the molecular mechanisms of this regulation. In contrast to earlier studies, we find that the transcriptional repressor Mig1 and the protein kinase Snf1 have little effect on Hxk2 localization. Instead, the protein kinase Tda1 regulates Hxk2 localization. RNAseq analyses of the yeast transcriptome dispels the idea that Hxk2 moonlights as a transcriptional regulator of glucose repression, demonstrating that Hxk2 has a negligible role in transcriptional regulation in both glucose-replete and limiting conditions. Our studies define a new model of cis- and trans-acting regulators of Hxk2 dimerization and nuclear localization. Based on our data, the nuclear translocation of Hxk2 in yeast occurs in glucose starvation conditions, which aligns well with the nuclear regulation of mammalian orthologs. Our results lay the foundation for future studies of Hxk2 nuclear activity.",
+    "keywords": [],
+    "mesh_terms": [
+      "Glucose/metabolism",
+      "Hexokinase/genetics/metabolism",
+      "Protein Kinases/metabolism",
+      "Repressor Proteins/metabolism",
+      "*Saccharomyces cerevisiae/metabolism",
+      "*Saccharomyces cerevisiae Proteins/genetics/metabolism",
+      "Serine/genetics/metabolism",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lesko, Mitchell A",
+        "Chandrashekarappa, Dakshayini G",
+        "Jordahl, Eric M",
+        "Oppenheimer, Katherine G",
+        "Bowman, Ray W 2nd",
+        "Shang, Chaowei",
+        "Durrant, Jacob D",
+        "Schmidt, Martin C",
+        "O'Donnell, Allyson F"
+      ],
+      "short_names": [
+        "Lesko MA",
+        "Chandrashekarappa DG",
+        "Jordahl EM",
+        "Oppenheimer KG",
+        "Bowman RW 2nd",
+        "Shang C",
+        "Durrant JD",
+        "Schmidt MC",
+        "O'Donnell AF"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3321-3374",
+        "ORCID: 0000-0002-9055-6875",
+        "ORCID: 0000-0003-0966-288X"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America.",
+        "Department of Microbiology and Molecular Genetics, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, United States of America.",
+        "Department of Biological Sciences, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America.",
+        "Department of Biological Sciences, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America.",
+        "Department of Biological Sciences, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America.",
+        "Department of Biological Sciences, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America.",
+        "Department of Biological Sciences, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America.",
+        "Department of Microbiology and Molecular Genetics, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, United States of America.",
+        "Department of Biological Sciences, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lesko, Mitchell A",
+        "short_name": "Lesko MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."
+        ]
+      },
+      {
+        "full_name": "Chandrashekarappa, Dakshayini G",
+        "short_name": "Chandrashekarappa DG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, United States of America."
+        ]
+      },
+      {
+        "full_name": "Jordahl, Eric M",
+        "short_name": "Jordahl EM",
+        "identifiers": [
+          "0000-0002-3321-3374"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."
+        ]
+      },
+      {
+        "full_name": "Oppenheimer, Katherine G",
+        "short_name": "Oppenheimer KG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."
+        ]
+      },
+      {
+        "full_name": "Bowman, Ray W",
+        "short_name": "Bowman RW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."
+        ]
+      },
+      {
+        "full_name": "Shang, Chaowei",
+        "short_name": "Shang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."
+        ]
+      },
+      {
+        "full_name": "Durrant, Jacob D",
+        "short_name": "Durrant JD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."
+        ]
+      },
+      {
+        "full_name": "Schmidt, Martin C",
+        "short_name": "Schmidt MC",
+        "identifiers": [
+          "0000-0002-9055-6875"
+        ],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, United States of America."
+        ]
+      },
+      {
+        "full_name": "O'Donnell, Allyson F",
+        "short_name": "O'Donnell AF",
+        "identifiers": [
+          "0000-0003-0966-288X"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS genetics"
+    ],
+    "journal_abbrev": [
+      "PLoS Genet"
+    ],
+    "pub_date": "2023 May",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/17 19:12",
+    "fetched_at": "2026-09-29 00:42:24"
+  },
+  "links": {
+    "cites": [
+      "42510863",
+      "42323674",
+      "41066605",
+      "40568959",
+      "40332024",
+      "40275108",
+      "40110750",
+      "39192292"
+    ],
+    "refs": [
+      "36749016",
+      "36302925",
+      "35767960",
+      "35538058",
+      "35129332",
+      "34354536",
+      "34298618",
+      "34235183",
+      "34022911",
+      "33692541",
+      "33502312",
+      "33491328",
+      "32890467",
+      "32870732",
+      "32673313",
+      "32597660",
+      "32108112",
+      "31697312",
+      "30858840",
+      "30641049",
+      "30516470",
+      "29938647",
+      "29788355",
+      "29414774",
+      "29295552",
+      "28874689",
+      "27899672",
+      "27697925",
+      "27496957",
+      "27345518",
+      "27115613",
+      "27043002",
+      "26895787",
+      "26865637",
+      "26596171",
+      "25999509",
+      "25796446",
+      "25593311",
+      "25399602",
+      "25399595",
+      "24769239",
+      "24576411",
+      "24483210",
+      "24204689",
+      "23957911",
+      "23749301",
+      "23629924",
+      "23066030",
+      "22289182",
+      "22157003",
+      "21310640",
+      "20943665",
+      "20815814",
+      "20702584",
+      "20346347",
+      "19779198",
+      "19563654",
+      "19525230",
+      "19520826",
+      "19517507",
+      "19473963",
+      "19010999",
+      "18719252",
+      "18651836",
+      "18568041",
+      "18407956",
+      "17488841",
+      "17401334",
+      "17178716",
+      "17081979",
+      "16962558",
+      "16914055",
+      "16554755",
+      "15951807",
+      "15667322",
+      "15574336",
+      "15494441",
+      "15381687",
+      "15264254",
+      "15226439",
+      "15215472",
+      "15004568",
+      "14715653",
+      "14630908",
+      "12882981",
+      "12676948",
+      "11875433",
+      "11805826",
+      "11742410",
+      "11311123",
+      "11258480",
+      "11170432",
+      "10688190",
+      "10648618",
+      "10217505",
+      "10087920",
+      "9738454",
+      "9718324",
+      "9600950",
+      "9566913",
+      "9545551",
+      "9056859",
+      "9000692",
+      "8970157",
+      "8917466",
+      "8744570",
+      "8321195",
+      "8286332",
+      "8144575",
+      "7862149",
+      "7732723",
+      "4592981",
+      "3540605",
+      "3519363",
+      "2685571",
+      "1713260",
+      "320023"
+    ],
+    "similar": [
+      "37196001",
+      "32948893",
+      "26865637",
+      "36302925",
+      "14715653",
+      "17178716",
+      "22157003",
+      "20815814",
+      "16528100",
+      "19525230",
+      "11311123",
+      "23066030",
+      "25629410",
+      "12007644",
+      "25593311",
+      "15667322",
+      "10556086",
+      "10217505",
+      "22289182",
+      "18588509",
+      "15705057",
+      "15031717",
+      "8657561",
+      "28812308",
+      "39192292",
+      "9738454",
+      "35526810",
+      "30397769",
+      "11282609",
+      "10493925",
+      "9774644",
+      "11331606",
+      "28854669",
+      "8917466",
+      "7732723",
+      "17428308",
+      "1874414",
+      "24627493",
+      "12715202",
+      "14516769",
+      "6357942",
+      "9566913",
+      "11447598",
+      "11563983",
+      "14871952",
+      "15696522",
+      "2559946",
+      "3540605",
+      "15911613",
+      "25163631",
+      "8549830",
+      "34354536",
+      "29113979",
+      "17662056",
+      "24529170",
+      "6300872",
+      "28583118",
+      "8321195",
+      "11073928",
+      "11571755",
+      "25641578",
+      "12054864",
+      "29380571",
+      "35944097",
+      "26895787",
+      "10648618",
+      "32673313",
+      "8467527",
+      "27107116",
+      "29422502",
+      "1310793",
+      "14679193",
+      "9563516",
+      "11971761",
+      "20199578",
+      "12220226",
+      "8056322",
+      "17071825",
+      "9285828",
+      "22904036",
+      "7813428",
+      "18179578",
+      "17892474",
+      "16878332",
+      "10510295",
+      "11481673",
+      "18757815",
+      "9858577",
+      "3905511",
+      "9718324",
+      "20219973",
+      "27708428",
+      "15169885",
+      "10403407",
+      "19087243",
+      "15340085",
+      "12582119",
+      "24815694",
+      "19398770",
+      "11134339",
+      "9045801",
+      "38352584",
+      "33443082",
+      "36555532"
+    ],
+    "review": [
+      "37196001",
+      "12007644",
+      "12715202",
+      "1310793"
+    ],
+    "pmc": [
+      "10228819"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pgen.1010745",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37196001/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/37196001",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37196001",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

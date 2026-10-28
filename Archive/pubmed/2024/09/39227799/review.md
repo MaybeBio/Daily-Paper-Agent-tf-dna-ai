@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (Background, Results, Materials and methods, Discussion, Figure legends)
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to the provided evidence, and suitability for a general genomics readership
+- **Shared manuscript claim summary** The authors propose that promoter-bound transcription factor binding sites (TFBSs) can predict downstream alternative splicing patterns. They develop machine learning and deep learning models using TFBS occupancy data from 15 human tissues, report that CNN models achieve high predictive performance (AUROC 0.889), and use in silico perturbation analysis to identify candidate splicing regulators, including CTCFL, which they validate with shRNA knockdown data.
+- **Visible evidence base** Main text, Methods section, Figure legends (Figs. 1–5). No raw data, supplementary files, or code were provided.
+- **Missing materials affecting confidence** Actual figures and figure panels are not viewable; supplementary tables, model hyperparameters, dataset sizes, cross-validation fold details, and the full results of the CTCFL validation analysis are not provided. Code availability is not stated.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and underexplored question: whether promoter TFBS composition can predict downstream splicing patterns. The authors are appropriately cautious in reporting limitations of generalization, particularly the poor performance on singleton genes under gene-wise cross-validation. However, several technical and conceptual issues weaken the strength of the claims. The most significant concerns are the lack of clarity on data splitting and leakage prevention, the absence of statistical significance testing for the key association analyses, and the incomplete reporting of the CTCFL validation. The claim that CNN models "predict the changes in splicing patterns" is only partially supported, given the modest performance metrics and the limited external validation. The manuscript would benefit from more rigorous benchmarking, clearer methodological details, and a more measured interpretation of the results.
+- **Who would be interested in the results, and why** Researchers studying alternative splicing regulation, promoter-enhancer interactions, and the application of deep learning to regulatory genomics. The work may also interest those developing interpretable models for TF binding and splicing coupling, as well as computational biologists working on cross-tissue prediction tasks.
+- **Major strengths** The study addresses a novel question with a reasonable computational framework. The authors demonstrate awareness of common pitfalls in cross-validation (e.g., data leakage from shared features) and implement multiple validation schemes to assess generalization. The use of DNase-seq-defined open chromatin regions to define putative TFBSs is a sensible approach. The inclusion of an empirical validation using CTCFL knockdown data is a valuable addition, even if the analysis is not fully described.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CNN models trained on TF binding changes in promoters can predict changes in splicing patterns, with AUROC of 0.889.
+  - **Evidence pointer** Results section, Fig. 4B
+  - **Concern** The reported AUROC of 0.889 is presented as the key performance metric, but the details of the cross-validation procedure used to obtain this number are not fully specified. It is unclear whether this is from a gene-wise, tissue-wise, or event-wise split. Given that the authors themselves demonstrate that event-wise and tissue-wise splits are subject to leakage (due to shared features across tissues), the reported AUROC may be optimistically biased. The manuscript does not report AUROC for the gene-wise split for the CNN model, which is the most stringent and relevant test of generalization.
+  - **Why it matters** If the 0.889 AUROC is derived from a leakage-prone split, the central claim of predictive power is overstated. The gene-wise split is the only scheme that tests whether the model can generalize to unseen genes, which is the biologically meaningful question. Without this number, the reader cannot assess the true generalizability of the model.
+  - **Resolution test** Report AUROC, AUPRC, F1, and accuracy for all three cross-validation schemes for all models (LReg, XGB, DNN, CNN). If the gene-wise AUROC is substantially lower, the claim should be revised to reflect that the model works primarily for genes seen during training.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "about two-third of TFs, their binding occupancy changes were significantly associated with splicing phase changes (N = 203, adj. p-value < 10−3, Fig. 2D)."
+  - **Evidence pointer** Results section, Fig. 2D
+  - **Concern** The chi-squared test is applied to 2×2 contingency tables for each TF, but the authors do not report the number of tests performed, the multiple testing correction method beyond Bonferroni, or the effect sizes (odds ratios) for the significant TFs. More importantly, the contingency table approach treats each tissue pair as an independent observation, but these pairs are not independent because they share the same gene and tissue. This pseudoreplication could inflate significance. The authors do not account for the non-independence of tissue pairs.
+  - **Why it matters** The association analysis is a core component of the paper's first aim. If the statistical test is invalid due to pseudoreplication, the list of 203 significant TFs may be unreliable, and the subsequent machine learning analysis may be built on a flawed foundation.
+  - **Resolution test** Use a mixed-effects model or a permutation-based approach that accounts for the non-independence of tissue pairs. Report the distribution of odds ratios and the number of TFs that remain significant after appropriate correction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "using empirical validation using K562 CTCFL shRNA knock-down data, we showed the significant role of CTCFL in splicing regulation."
+  - **Evidence pointer** Results section, Fig. 5C and 5D
+  - **Concern** The validation is described only briefly. The authors report a significant difference in ΔZΨ between CTCFL-target and non-target genes (p < 0.0001, Wilcoxon rank-sum test), but the number of genes in each group, the definition of "CTCFL-target genes," and the effect size are not provided. The sashimi plots in Fig. 5D show only two example genes, which is insufficient to demonstrate a general effect. It is also unclear whether the ΔZΨ changes are in the direction predicted by the model.
+  - **Why it matters** The CTCFL validation is the only experimental support for the model's biological relevance. Without clear statistics and a defined target gene set, the claim of a "significant role" is not well supported.
+  - **Resolution test** Provide the number of CTCFL-target and non-target genes, the median ΔZΨ values for each group, and a description of how target genes were defined. Show a distribution plot of ΔZΨ for all genes, not just two examples. State whether the direction of splicing changes matches the model's predictions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "we applied the importance analysis of the CNN models for each TF and identified some important TFs that affecting the splicing prediction genome-widely."
+  - **Evidence pointer** Results section, Fig. 5A
+  - **Concern** The importance analysis uses a zero-out perturbation approach, but the details are incomplete. It is unclear how many times the perturbation was repeated, whether the results were averaged over multiple model initializations, and how the threshold for "important" TFs was set. The authors also do not report whether the importance scores were stable across cross-validation folds.
+  - **Why it matters** Importance analysis is a key interpretability component. If the method is not robust or the threshold is arbitrary, the list of candidate regulators may not be reproducible.
+  - **Resolution test** Describe the perturbation procedure in full, report the variance of importance scores across model runs, and provide a statistical test or a clear threshold for defining important TFs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Identification of putative in vivo TF binding sites"
+  - **Evidence pointer** Methods section
+  - **Issue** The FDR threshold of <10−3 is described as "less stringent than the general recommended parameter (<10−4)." The rationale for this choice is not fully explained.
+  - **Required correction** Provide a brief justification for the chosen threshold and discuss the potential impact on false-positive TFBS calls.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Machine learning and deep learning models"
+  - **Evidence pointer** Methods section
+  - **Issue** The number of training epochs, learning rate, batch size, and other hyperparameters for the DNN and CNN models are not reported.
+  - **Required correction** Provide a table of hyperparameters or state that default settings were used with a reference.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, "Enrichment analysis"
+  - **Evidence pointer** Fig. 1D
+  - **Issue** The volcano plot in Fig. 1D shows significance and effect size, but the number of TFs tested and the number passing the significance threshold are not stated in the text.
+  - **Required correction** Add the total number of TFs tested and the number of significant TFs to the text or figure legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The statement "our study is the first genome-wide effort to investigate that the splicing pattern changes across tissues were accurately predicted from the TF binding occupancies in the promoter" is strong and may be difficult to verify.
+  - **Required correction** Soften the claim or provide a more specific comparison to prior work.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (cross-validation reporting), R1-M2 (statistical validity of association tests), R1-M3 (incomplete CTCFL validation). These are blocking because they directly affect the validity of the central claims.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The question of whether promoter TFBSs can predict downstream splicing is relatively novel, though related work on splicing codes exists. The approach of using TFBS occupancy changes rather than sequence alone is a useful angle.  
+  - **Scientific importance** If the claims were fully supported, the work could be of interest to the splicing and gene regulation communities. However, the current evidence does not establish a robust, generalizable predictive model.  
+  - **Interdisciplinary readership** The topic bridges transcription and splicing, which could appeal to a broad readership, but the manuscript is written in a way that assumes familiarity with both fields.  
+  - **Technical soundness** The main technical weaknesses are the incomplete cross-validation reporting and the statistical issues in the association analysis. These need to be resolved.  
+  - **Readability for nonspecialists** The manuscript is generally readable, but the Methods section is dense and some terms (e.g., "delta schema," "ZΨ") are not defined clearly enough for a nonspecialist.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the authors show appropriate caution in some areas, but the blocking concerns must be addressed before the claims can be considered established.
+
+## Risk / unsupported claims
+- The claim that CNN models achieve AUROC of 0.889 for predicting splicing changes is not fully supported because the cross-validation scheme used to obtain this number is not specified.
+- The claim that 203 TFs are significantly associated with splicing phase changes is not supported due to potential pseudoreplication in the statistical test.
+- The claim that CTCFL plays a "significant role" in splicing regulation is not fully supported by the incomplete validation data.
+- The claim of being "the first genome-wide effort" is not verifiable from the provided text.
+- The generalizability of the models to unseen genes is not established, as the gene-wise cross-validation results are not reported for the CNN model.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that food chain-transferred nanoplastics (FCT-NPs) accumulate in mouse liver, cause histopathological damage and metabolic disruption, and suppress PPAR signaling as a central hepatotoxicity mechanism, supported by multi-omics data and molecular docking/dynamics simulations suggesting direct NP-PPAR interaction.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative results, or methodological descriptions provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, statistical analyses, supplementary data, and any raw or processed omics datasets
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important finding on nanoplastics hepatotoxicity via PPAR signaling suppression, with a plausible mechanistic narrative. However, the evidence base visible in the abstract is insufficient to evaluate the rigor of the multi-omics analyses, the validity of the molecular docking conclusions, or the strength of causal claims. The central claim of direct NP-PPAR interaction is particularly under-supported from the abstract alone.
+- **Who would be interested in the results, and why** Environmental toxicologists, nanotoxicology researchers, regulatory scientists assessing plastic pollution health risks, and hepatologists interested in environmental contributors to metabolic liver disease. The food chain transfer angle broadens relevance to food safety and ecological health researchers.
+- **Major strengths** The study addresses a timely and globally relevant environmental health question. The multi-omics integration approach is ambitious and appropriate for the research question. The focus on a specific molecular pathway (PPAR signaling) provides mechanistic depth beyond descriptive toxicity reporting. The food chain transfer design adds ecological realism.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "Transcriptomic, proteomic, and metabolomic analyses collectively identified the suppression of PPAR signaling pathway as a central mechanism of FCT-NPs-induced hepatotoxicity"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that three omics layers collectively identified PPAR suppression, but provides no quantitative data, effect sizes, statistical significance, or consistency metrics across omics platforms. It is unclear whether PPAR pathway changes were concordant across all three layers or whether one layer drove the conclusion.  
+  - **Why it matters** The claim of "collective identification" implies robust cross-platform validation, which is a key strength of multi-omics studies. Without visible evidence of concordance, the central mechanistic conclusion cannot be assessed.  
+  - **Resolution test** Provide a summary table or text showing PPAR pathway enrichment statistics and direction of change for each omics layer, with significance thresholds and overlap metrics.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Causal inference  
+  - **Claim pointer** "Molecular docking and dynamics simulations revealed a potential direct interaction site between NPs and the PPAR ligand-binding domain, suggesting a mechanistic basis for toxicity"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract claims a "potential direct interaction site" but provides no details on docking scores, simulation stability, binding free energies, or whether the NP model used is chemically realistic. The phrase "potential" is appropriately cautious, but the subsequent claim that this "suggest[s] a mechanistic basis" overreaches without experimental validation such as binding assays or mutagenesis.  
+  - **Why it matters** Direct physical interaction between NPs and PPAR is a strong mechanistic claim that, if true, would be a significant finding. Computational predictions alone are insufficient to establish this, and the abstract does not indicate any experimental corroboration.  
+  - **Resolution test** Provide docking and simulation metrics, and ideally experimental binding data or at minimum a clear statement that the interaction is purely computational and hypothesis-generating.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Dose and exposure relevance  
+  - **Claim pointer** "substantial enrichment of FCT-NPs in liver, resulting in histopathological damage, impaired liver function, and metabolic homeostasis disruption"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not report exposure concentrations, dosing regimen, or NP characteristics (size, surface chemistry, polymer type). Without these, the relevance of the observed effects to real-world human or environmental exposure cannot be evaluated.  
+  - **Why it matters** Nanoplastics toxicity is highly dependent on particle properties and dose. The abstract's claim of health risk implication requires context on whether the exposure levels are environmentally realistic.  
+  - **Resolution test** Report NP characterization data, exposure doses, and a comparison to estimated environmental or dietary exposure levels in the full manuscript.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "FCT-NPs" is used without defining the food chain transfer model. It is unclear whether NPs were fed to prey organisms first and then to mice, or whether a synthetic food chain was used.  
+  - **Required correction** Briefly describe the exposure route in the abstract or define the term more explicitly.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Specificity  
+  - **Affected element** Downstream effects  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract lists "fatty acid transport and metabolism, retinoid and steroid metabolism, and redox balance" as disrupted downstream processes but does not indicate the direction of change or which specific metabolites or proteins were affected.  
+  - **Required correction** Provide one or two representative examples of altered metabolites or proteins for each pathway to illustrate the nature of disruption.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Generalizability  
+  - **Affected element** Species extrapolation  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The final sentence claims relevance to "both mammals and humans," but the study used only mice. The extrapolation to humans is not justified without discussion of species differences in PPAR biology or NP toxicokinetics.  
+  - **Required correction** Soften the claim or add a sentence acknowledging the need for human-relevant models or epidemiological evidence.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The multi-omics concordance evidence and the computational interaction claim require substantial additional support before the central mechanistic narrative can be accepted. R1-M3 is important for contextualizing relevance but is not blocking if the full manuscript provides dose information.
+- **Assessment against Nature-style criteria**  
+  - Originality: The food chain transfer angle and the specific focus on PPAR signaling as a mechanism are moderately original, though PPAR disruption by environmental contaminants is not a new concept.  
+  - Scientific importance: Potentially high given the global concern over nanoplastics, but the importance hinges on whether the mechanistic claims are robust and whether exposure levels are relevant.  
+  - Interdisciplinary readership: The topic bridges environmental science, toxicology, and hepatology, which could attract broad interest if the findings are well supported.  
+  - Technical soundness: Cannot be assessed from the abstract alone. The multi-omics approach is appropriate, but the lack of visible quantitative results and validation is a concern.  
+  - Readability for nonspecialists: The abstract is generally clear and well structured, though some terms (e.g., "FCT-NPs") could be defined more accessibly.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the blocking concerns regarding multi-omics concordance and the computational interaction claim must be resolved. I would be supportive if the full manuscript provides the necessary quantitative evidence and appropriately tempers the mechanistic claims.
+
+## Risk / unsupported claims
+- The claim of "first mechanistic evidence linking dietary FCT-NPs exposure to PPAR interaction" is unsupported from the abstract alone, as no comparative literature search or novelty validation is visible.
+- The claim that PPAR suppression is "central" to hepatotoxicity is not supported without evidence that other pathways were ruled out or shown to be downstream.
+- The extrapolation to human health risk is unsupported without dose relevance data or human-relevant models.
+- The statement that NPs "accumulate in organs" is presented as background but the specific accumulation data for the liver are not quantified in the abstract.

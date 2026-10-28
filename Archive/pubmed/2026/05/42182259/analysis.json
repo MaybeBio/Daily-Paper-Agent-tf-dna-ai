@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42182259",
+  "title": "Using Deep Learning Models of Gene Regulation to Guide Drug Prioritization.",
+  "authors": "Huang, Xiaoqin; Ovcharenko, Ivan",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-05-25",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习增强子模型和等位基因特异性评分，结合FOXA1敲低与药物转录谱进行药物重定位，虽涉及TF-DNA调控建模，但核心是药物优先排序而非TF-DNA互作机制研究。",
+  "abstract": "Drug repurposing offers a cost-effective strategy to accelerate therapeutic discovery, but most computational approaches fail to model noncoding genetic variation. Because over 90% of genome-wide association study (GWAS) risk variants reside in noncoding regions, linking regulatory variation to therapeutic hypotheses remains a major challenge. Here, we developed an integrative deep learning framework that links allele-specific enhancer prediction to transcription factor (TF)-centered gene expression changes and drug-induced transcriptional profiles to prioritize candidate therapeutics. Our cell type-specific deep learning enhancer models accurately distinguish active enhancers across seven cell lines. Using breast cancer as a proof-of-concept, we found that GWAS heritability is significantly enriched in MCF7 enhancers, supporting MCF7 as the cellular context for this disease. Allele-specific variant scoring identified breast cancer risk variants with strong allele-dependent effects, and attribution-based motif discovery revealed enrichment of FOXA1-associated motif features, consistent with FOXA1 upregulation in primary tumors. Integration of the FOXA1 knockdown-induced and drug-induced gene expression profiles identified 63 candidate compounds for treatment of breast cancer, including 18 approved drugs, with recovery of the known breast cancer therapy fulvestrant. Among prioritized compounds, 54% showed anti-correlated transcriptional effects across eight core breast cancer pathways, compared to 5.3% of non-prioritized compounds. Integration of drug-gene interaction data further refined these to eight compounds with supporting experimental or clinical evidence. Together, these results establish a regulatory variant-guided drug repurposing framework that connects noncoding genetic variation to therapeutic candidates and provides a generalizable strategy for translating the noncoding genome into pharmacologically relevant hypotheses.",
+  "abstract_zh": "药物再利用提供了一种成本效益高的策略来加速治疗发现，但大多数计算方法未能模拟非编码遗传变异。由于超过90%的全基因组关联研究（GWAS）风险变异位于非编码区域，将调控变异与治疗假设联系起来仍是一个重大挑战。在此，我们开发了一个整合的深度学习框架，将等位基因特异性增强子预测与转录因子（TF）中心的基因表达变化及药物诱导的转录谱相结合，以优先排序候选治疗药物。我们的细胞类型特异性深度学习增强子模型在七种细胞系中准确区分了活性增强子。以乳腺癌作为概念验证，我们发现GWAS遗传力在MCF7增强子中显著富集，支持MCF7作为该疾病的细胞背景。等位基因特异性变异评分识别出具有强等位基因依赖性效应的乳腺癌风险变异，基于归因的基序发现揭示了FOXA1相关基序特征的富集，与原发性肿瘤中FOXA1上调一致。整合FOXA1敲低诱导和药物诱导的基因表达谱，识别出63种用于乳腺癌治疗的候选化合物，包括18种已批准药物，并恢复了已知的乳腺癌治疗药物氟维司群。在优先排序的化合物中，54%在八个核心乳腺癌通路中显示出抗相关的转录效应，而非优先排序的化合物中这一比例为5.3%。药物-基因相互作用数据的整合进一步将这些化合物精炼为八种，具有支持性的实验或临床证据。综合这些结果，我们建立了一个调控变异引导的药物再利用框架，将非编码遗传变异与治疗候选药物联系起来，并提供了一种将非编码基因组转化为药理学相关假设的通用策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42182259/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42182259/",
+  "paper_page_path": "papers/pubmed/42182259/index.html"
+}

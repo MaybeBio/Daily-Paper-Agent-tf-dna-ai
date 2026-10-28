@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors describe a generative active learning (GAL) protocol combining REINVENT (generative molecular AI) with ESMACS (absolute binding free energy molecular dynamics simulations) and apply it to discover ligands for two targets, 3CLpro and TNKS2. They report that the protocol identifies better binders than a surrogate ML docking baseline for 3CLpro and than experimentally determined binding affinities for TNKS2, that the ligands are chemically diverse and occupy different chemical space than the baseline, and that batch size affects efficiency with recommended optimal values. The protocol was deployed on Frontier, an exascale machine, and the authors claim effective chemical space sampling at unprecedented scale.
+- **Visible evidence base** Abstract text only; no quantitative results, figures, tables, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, quantitative performance metrics, baseline definitions, experimental binding affinity data for TNKS2, batch size comparison results, and computational cost details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting integration of generative AI and physics-based free energy methods for ligand discovery, with a notable computational scale claim. However, the abstract alone provides insufficient quantitative evidence to assess the validity of the central claims. The comparison to baseline and experimental data is described qualitatively, and no metrics are given. The scientific case is plausible but not established from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists and drug discovery researchers interested in active learning, generative molecular design, and free energy perturbation methods would find this work relevant. Those working on scalable high-performance computing applications in drug discovery, particularly on exascale platforms, would also be interested. The combination of AI-driven generation with physics-based validation addresses a common bottleneck in de novo design, so the methodological community would likely follow this work.
+- **Major strengths** The integration of generative AI with absolute binding free energy simulations is a sensible and timely approach. The use of an exascale machine demonstrates a serious commitment to computational scale. The explicit consideration of batch size effects on protocol efficiency is a practical and useful contribution. The claim of chemical diversity relative to baseline is relevant for generative design evaluation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The protocol finds better binders compared to baseline for 3CLpro and compared to experimentally determined binding affinities for TNKS2
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative results are presented. The abstract states that better binders were found but does not report binding affinity values, improvements over baseline, statistical significance, or the number of compounds evaluated. For TNKS2, the comparison to experimentally determined binding affinities is mentioned without any numerical context.
+  - **Why it matters** Without quantitative evidence, the central claim of improved binder discovery cannot be evaluated. The reader cannot determine the magnitude of improvement, whether it is meaningful in a drug discovery context, or whether the comparison is fair.
+  - **Resolution test** Provide numerical results including binding free energy values, baseline performance metrics, and statistical measures of improvement for both targets. Report the number of compounds tested and the distribution of results.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The GAL protocol combines REINVENT and ESMACS in an active learning loop
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe how the active learning loop is implemented, how many cycles were run, how the acquisition function selects compounds, or how the free energy simulations are integrated with the generative model. The batch size variation is mentioned but no details are given on the range tested or the criteria for recommending optimal values.
+  - **Why it matters** Active learning outcomes depend critically on the acquisition strategy, the number of cycles, and the batch size. Without these details, the protocol cannot be reproduced or compared to other active learning approaches, and the batch size recommendation is unsupported.
+  - **Resolution test** Describe the active learning loop in detail, including the acquisition function, the number of cycles, the batch sizes tested, and the criteria used to determine optimal values. Provide a schematic or pseudocode if helpful.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The ligands found are chemically diverse and occupy a different chemical space than the baseline
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No metrics for chemical diversity or chemical space overlap are provided. Terms such as "diverse" and "different chemical space" are qualitative and could be interpreted in many ways. Without quantitative measures such as Tanimoto similarity distributions, principal component analysis of molecular descriptors, or other standard diversity metrics, this claim is not assessable.
+  - **Why it matters** Chemical diversity is a key claimed advantage of generative methods. If the claim is not supported, the value proposition of the GAL protocol relative to simpler baselines is weakened.
+  - **Resolution test** Provide quantitative diversity metrics comparing the generated compounds to the baseline set, such as pairwise similarity distributions, scaffold analysis, or descriptor-based clustering.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational scale claim
+  - **Claim pointer** The protocol was deployed on Frontier, the world's only exascale machine, and yields effective chemical space sampling at an unprecedented scale
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that the protocol was deployed on Frontier but does not report computational resource usage, wall-clock time, number of simulations performed, or how the scale compares to prior work. The phrase "unprecedented scale" is a strong claim that requires comparative data.
+  - **Why it matters** The computational scale is presented as a distinguishing feature. Without resource metrics, the reader cannot judge whether the scale is indeed unprecedented or whether the approach is practical for broader use.
+  - **Resolution test** Report the number of free energy simulations performed, the total compute time on Frontier, and a comparison to typical or prior computational campaigns in the field.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Baseline definition
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract refers to "a surrogate ML docking model" as the baseline for 3CLpro but does not specify what this model is or how it was trained.
+  - **Required correction** Define the baseline model, its training data, and its performance characteristics in the full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Target selection
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The choice of 3CLpro and TNKS2 as targets is not justified. These are relevant drug targets, but the abstract does not explain why they were selected for this study.
+  - **Required correction** Briefly justify target selection in the introduction or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Generative active learning"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The term "generative active learning" is used but not defined. It is not a standard term in the field and could be confused with other active learning variants.
+  - **Required correction** Define the term explicitly and distinguish it from other active learning approaches.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Batch size recommendation
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract states that optimal batch sizes are recommended but does not indicate what those values are or the scenarios they apply to.
+  - **Required correction** Report the recommended batch sizes and the scenarios in the abstract or clearly reference the relevant section of the full manuscript.
+
+## Risk / unsupported claims
+- The claim that the protocol finds better binders than baseline for 3CLpro and than experimental values for TNKS2 is unsupported without quantitative data.
+- The claim that ligands are chemically diverse and occupy different chemical space is unsupported without diversity metrics.
+- The claim of "unprecedented scale" is unsupported without computational resource data.
+- The recommendation of optimal batch sizes is not assessable without details on the tested range and evaluation criteria.
+- The overall claim of "effective chemical space sampling" is not quantitatively defined and cannot be evaluated from the abstract.

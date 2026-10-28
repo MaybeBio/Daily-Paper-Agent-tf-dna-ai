@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report an integrated computational and experimental workflow to identify quinone-methide triterpenes that disrupt the c-Myb-CBP/p300 KIX protein-protein interaction. Virtual screening of 457 compounds, 500 ns molecular dynamics simulations, free-energy-landscape analysis, and microscale thermophoresis experiments collectively identify tingenone as the most promising PPI disruptor, with an IC50 of 23.6 ± 3.0 µM, outperforming the reference compound Naphthol-AS-E-phosphate.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary data provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, validation metrics for computational predictions, raw MST binding curves, statistical analysis details, compound purity and source information, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a logically structured workflow combining computational screening, molecular dynamics, and biophysical validation. The central claim that tingenone is a promising scaffold for c-Myb-KIX PPI inhibition is plausible but rests on a limited experimental dataset. The discrepancy between computational predictions and experimental outcomes for isoiguesterin is acknowledged but not fully reconciled. The abstract would benefit from additional mechanistic detail and clearer presentation of how the computational metrics translate to the experimental ranking.
+- **Who would be interested in the results, and why** Researchers in cancer biology, particularly those studying transcriptional regulation in hematologic malignancies; medicinal chemists interested in natural product scaffolds for PPI inhibition; computational biologists developing funnel-based virtual screening and MD-based PPI disruption prediction workflows.
+- **Major strengths** The integrated approach combining multiple computational techniques with direct biophysical validation is commendable. The authors explicitly address the non-trivial observation that the best direct binder (isoiguesterin) is not the best disruptor, which adds nuance to the interpretation. The use of MST to confirm both the direct interaction and inhibition is appropriate for the system.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation depth
+  - **Claim pointer** "tingenone was the most potent inhibitor among the tested triterpenes (IC50 = 23.6 ± 3.0 µM), outperforming the reference disruptor Naphthol-AS-E-phosphate (IC50 = 29.0 ± 1.6 µM)"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The experimental validation is limited to a single assay format (MST) with a single concentration-response measurement. The IC50 values for tingenone and the reference compound differ by only approximately 1.2-fold, and the error bars overlap when considering the reported standard deviations. It is unclear whether this difference is statistically significant. Additionally, no selectivity data are presented to show that tingenone does not disrupt other KIX-mediated interactions or unrelated PPIs.
+  - **Why it matters** The central conclusion that tingenone is a promising scaffold depends on the robustness of the inhibition measurement. A marginal difference from the reference compound, without statistical testing or orthogonal validation, weakens the case for tingenone as a distinct improvement. Selectivity is critical for any PPI inhibitor claim, as non-specific effects would undermine the mechanistic interpretation.
+  - **Resolution test** Provide statistical analysis (e.g., p-values or confidence intervals) for the IC50 comparison. Include a selectivity panel showing tingenone does not inhibit a control PPI or a different KIX interaction partner. Ideally, add an orthogonal assay such as fluorescence polarization or NMR-based binding competition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational-experimental consistency
+  - **Claim pointer** "DeltaDeltaG(PPI) analysis showed that tingenone produced the strongest predicted weakening of the c-Myb-KIX interaction (+2.31 kcal/mol), whereas pristimerin had only a marginal disruptive effect (+0.28 kcal/mol) and isoiguesterin instead favored stabilization of the complex (-5.18 kcal/mol)"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract reports that isoiguesterin has the most favorable direct binding energetics but stabilizes the interface, while tingenone has less favorable direct binding but is the best disruptor. The mechanistic basis for this distinction is not explained. If the computational metrics are internally consistent, the reader needs to understand why a compound with stronger binding affinity would not also be a better competitor. The abstract does not clarify whether the DeltaDeltaG(PPI) values are derived from MM-PBSA, MM-GBSA, or another method, nor how the error or convergence of these estimates was assessed.
+  - **Why it matters** The computational ranking is the basis for selecting compounds for experimental testing. If the relationship between predicted binding energetics and predicted disruption is not mechanistically rationalized, the workflow's predictive validity is questionable. The reader cannot assess whether the computational approach is genuinely informative or whether the experimental results were used to rationalize a computational ranking post hoc.
+  - **Resolution test** Provide a clear mechanistic explanation for why a compound with stronger binding affinity would stabilize rather than disrupt the complex. Report the method used for DeltaDeltaG(PPI) calculation, convergence criteria, and error estimates. Ideally, show that the computational predictions were made prior to experimental testing and that the ranking was not adjusted after the MST results were obtained.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural basis of action
+  - **Claim pointer** "Using the c-Myb-bound KIX conformation derived from PDB:2AGH as the structural template"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify whether the compounds are predicted to bind at the c-Myb interaction site on KIX, at an allosteric site, or at a different interface. The distinction between direct competition and allosteric modulation is mechanistically important. The MD simulations are described as revealing "ligand-dependent effects on interfacial stability," but the binding site and mode of each compound are not stated.
+  - **Why it matters** The claim that these compounds disrupt the c-Myb-KIX PPI requires knowledge of where they bind. If they bind at a site distinct from the c-Myb interface, the mechanism would be allosteric, which has different implications for selectivity and optimization. Without this information, the structural rationale for the observed disruption is incomplete.
+  - **Resolution test** State the predicted binding site for each compound relative to the c-Myb interface on KIX. Provide representative MD snapshots or binding free energy decomposition showing the key contacts. If allosteric, identify the putative allosteric pathway connecting the binding site to the c-Myb interface.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** MST binding and inhibition data
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The Kd for the Myb-KIX interaction is reported as 28.49 ± 2.32 µM, and IC50 values are reported with standard deviations. It is unclear how many independent replicates were performed and whether the errors represent standard deviation or standard error of the mean.
+  - **Required correction** Specify the number of replicates and the error type. Report the statistical significance of the IC50 difference between tingenone and the reference compound.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Compound library details
+  - **Affected element** Virtual screening input
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that a library of 457 quinone-methide triterpenes was screened but does not indicate the source of this library, the diversity criteria, or whether it includes known inactive analogs as negative controls.
+  - **Required correction** Describe the library composition and source. If available, include information on chemical diversity and any filtering criteria applied before screening.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reference compound context
+  - **Affected element** Naphthol-AS-E-phosphate comparison
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract refers to Naphthol-AS-E-phosphate as a "reference disruptor" but does not provide its mechanism of action or whether it is a well-established c-Myb-KIX inhibitor in the literature.
+  - **Required correction** Briefly state the known activity and mechanism of Naphthol-AS-E-phosphate, or clarify why it was chosen as the reference.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The experimental validation is too limited to establish tingenone as a promising scaffold, and the computational-experimental inconsistency is not adequately explained.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of quinone-methide triterpenes to the c-Myb-KIX PPI is relatively novel, but the overall approach of virtual screening followed by MD and biophysical validation is well established.
+  - Scientific importance: Moderate. The c-Myb-KIX interaction is a valid therapeutic target, but the abstract does not demonstrate that tingenone has properties that would make it a lead compound beyond the modest IC50 value.
+  - Interdisciplinary readership: Limited. The abstract is written for a specialist audience familiar with both computational chemistry and biophysical assay terminology. The broader significance for cancer biology is stated but not developed.
+  - Technical soundness: The computational workflow is described in reasonable detail, but the lack of methodological specifics for the DeltaDeltaG(PPI) calculation and the limited experimental validation reduce confidence.
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with PPI concepts, MD simulation metrics, and MST. A nonspecialist would struggle to understand the significance of the DeltaDeltaG values or the distinction between binding and disruption.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible workflow and a candidate compound, but the experimental validation is too thin and the computational-experimental inconsistency is unresolved. The authors should be encouraged to resubmit with additional experimental data and clearer mechanistic interpretation.
+
+## Risk / unsupported claims
+- The claim that tingenone "produced the clearest signatures of interfacial weakening" is not supported by specific metrics or figures in the abstract.
+- The statement that isoiguesterin "favored stabilization of the complex" is presented without a mechanistic explanation for why a compound with favorable binding energetics would stabilize rather than disrupt.
+- The IC50 comparison between tingenone and Naphthol-AS-E-phosphate is presented as meaningful without statistical testing.
+- The abstract implies that the computational predictions and experimental results are consistent, but the ranking of compounds by computational metrics versus experimental potency is not explicitly compared.
+- No selectivity data are presented to support the claim that these compounds specifically disrupt the c-Myb-KIX interaction rather than acting non-specifically.

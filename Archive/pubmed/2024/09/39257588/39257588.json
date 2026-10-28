@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "39257588",
+    "doi": "10.3389/fimmu.2024.1433393",
+    "title": "Lactylation signature identifies liver fibrosis phenotypes and traces fibrotic progression to hepatocellular carcinoma."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Precise staging and classification of liver fibrosis are crucial for the hierarchy management of patients. The roles of lactylation are newly found in the progression of liver fibrosis. This study is committed to investigating the signature genes with histone lactylation and their connection with immune infiltration among liver fibrosis with different phenotypes. METHODS: Firstly, a total of 629 upregulated and 261 downregulated genes were screened out of 3 datasets of patients with liver fibrosis from the GEO database and functional analysis confirmed that these differentially expressed genes (DEGs) participated profoundly in fibrosis-related processes. After intersecting with previously reported lactylation-related genes, 12 DEGs related to histone lactylation were found and narrowed down to 6 core genes using R algorithms, namely S100A6, HMGN4, IFI16, LDHB, S100A4, and VIM. The core DEGs were incorporated into the Least absolute shrinkage and selection operator (LASSO) model to test their power to distinguish the fibrotic stage. RESULTS: Advanced fibrosis presented a pattern of immune infiltration different from mild fibrosis, and the core DEGs were significantly correlated with immunocytes. Gene set and enrichment analysis (GSEA) results revealed that core DEGs were closely linked to immune response and chemokine signaling. Samples were classified into 3 clusters using the LASSO model, followed by gene set variation analysis (GSVA), which indicated that liver fibrosis can be divided into status featuring lipid metabolism reprogramming, immunity immersing, and intermediate of both. The regulatory networks of the core genes shared several transcription factors, and certain core DEGs also presented dysregulation in other liver fibrosis and idiopathic pulmonary fibrosis (IPF) cohorts, indicating that lactylation may exert comparable functions in various fibrotic pathology. Lastly, core DEGs also exhibited upregulation in HCC. DISCUSSION: Lactylation extensively participates in the pathological progression and immune infiltration of fibrosis. Lactylation and related immune infiltration could be a worthy focus for the investigation of HCC developed from liver fibrosis.",
+    "keywords": [
+      "hepatocellular carcinoma",
+      "immune infiltration",
+      "lactylation",
+      "liver fibrosis",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Liver Cirrhosis/pathology/genetics/immunology/metabolism",
+      "*Carcinoma, Hepatocellular/genetics/pathology/immunology",
+      "*Liver Neoplasms/pathology/genetics/immunology/metabolism",
+      "*Disease Progression",
+      "*Phenotype",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "Histones/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Lin-Na",
+        "Li, Wen-Wen",
+        "Xiao, Lu-Shan",
+        "Lai, Wei-Nan"
+      ],
+      "short_names": [
+        "Li LN",
+        "Li WW",
+        "Xiao LS",
+        "Lai WN"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, China.",
+        "Guangzhou Wondfo Health Science and Technology Co., Ltd, Guangzhou, China.",
+        "Department of Infectious Diseases, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Department of Rheumatology and Immunology, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Lin-Na",
+        "short_name": "Li LN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wen-Wen",
+        "short_name": "Li WW",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou Wondfo Health Science and Technology Co., Ltd, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Lu-Shan",
+        "short_name": "Xiao LS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Wei-Nan",
+        "short_name": "Lai WN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/11 07:43",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [
+      "42562812",
+      "42536664",
+      "42519023",
+      "42244032",
+      "42075758",
+      "42042076",
+      "42001054",
+      "41891971",
+      "41891966",
+      "41888923",
+      "41865049",
+      "41685085",
+      "41261179",
+      "41074142",
+      "40867622",
+      "40790764",
+      "40766061",
+      "40649778",
+      "40594694",
+      "40584617",
+      "39974411",
+      "39867891"
+    ],
+    "refs": [
+      "38456209",
+      "38443347",
+      "38350421",
+      "38056058",
+      "37777506",
+      "37463576",
+      "37441587",
+      "37400694",
+      "37242427",
+      "37224925",
+      "37170968",
+      "37060186",
+      "36896611",
+      "36738977",
+      "36735787",
+      "36567801",
+      "36376165",
+      "36268709",
+      "36092712",
+      "36032141",
+      "35761067",
+      "35750137",
+      "35732125",
+      "35605812",
+      "35599583",
+      "35532977",
+      "34363018",
+      "34177945",
+      "34050894",
+      "34008300",
+      "33445170",
+      "33128017",
+      "32698683",
+      "31712723",
+      "31467298",
+      "31443682",
+      "31193303",
+      "30871980",
+      "30658730",
+      "30415722",
+      "30213667",
+      "28623179",
+      "28339466",
+      "28262670",
+      "27482070",
+      "25605792",
+      "23069476",
+      "22455463",
+      "21789480",
+      "15690074"
+    ],
+    "similar": [
+      "39257588",
+      "39118438",
+      "38213141",
+      "31344396",
+      "28355233",
+      "38817665",
+      "37400571",
+      "34925311",
+      "38319987",
+      "38901791",
+      "38896142",
+      "37346073",
+      "30702595",
+      "36568383",
+      "33878734",
+      "30525236",
+      "33897701",
+      "39394373",
+      "39096475",
+      "38701255",
+      "34021184",
+      "33992711",
+      "38867322",
+      "32184169",
+      "33725827",
+      "36051101",
+      "34866477",
+      "38236461",
+      "33053978",
+      "32853412",
+      "34544391",
+      "36464255",
+      "38840185",
+      "35535359",
+      "37194229",
+      "39010084",
+      "35865652",
+      "35907846",
+      "33988674",
+      "38627714",
+      "33847635",
+      "37903971",
+      "31029128",
+      "28238542",
+      "28640074",
+      "38965675",
+      "33602168",
+      "35790431",
+      "28432618",
+      "35693827",
+      "32482029",
+      "33879119",
+      "38884870",
+      "39044829",
+      "33089373",
+      "37228062",
+      "33439969",
+      "36378050",
+      "38493408",
+      "34085699",
+      "31043166",
+      "22539975",
+      "32198063",
+      "37522567",
+      "37783761",
+      "39155614",
+      "34260294",
+      "34603293",
+      "38238834",
+      "36195857",
+      "32887635",
+      "33574818",
+      "32046766",
+      "30272310",
+      "31558872",
+      "32789471",
+      "37242427",
+      "33115468",
+      "34112092",
+      "31758243",
+      "31969776",
+      "33662631",
+      "35124283",
+      "36211448",
+      "37540264",
+      "38476236",
+      "34257549",
+      "32319580",
+      "36438201",
+      "30582205",
+      "38419085",
+      "29436633",
+      "31633379",
+      "36936935",
+      "33789609",
+      "36193067",
+      "34257537",
+      "26125269",
+      "15800993",
+      "21930732",
+      "33934539",
+      "39285310",
+      "39315143",
+      "38275754"
+    ],
+    "review": [
+      "39257588",
+      "39279350"
+    ],
+    "pmc": [
+      "11383765"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cirrhosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cirrhosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39257588/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-S100A4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-297",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1433393",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to figures, tables, methods, or supplementary materials
+- **Shared manuscript claim summary** The authors report construction of a multi-omics integrative gene network for pear fruit development, integrating 3D genomic, transcriptomic, transcription factor binding, chromatin accessibility, protein structure, and proteomic data. The network contains over 45,678 elements and more than 3.15 million edges. Claims include predictive utility for regulatory and interactive relationships underlying fruit quality traits, experimental validation of predicted interactors of PbrII5, machine learning based prediction of sugar metabolism related genes with functional verification via overexpression, evidence of regulatory network divergence between duplicated genes with neofunctionalization as the dominant process, and release of a web database pearGRN.
+- **Visible evidence base** Abstract text only; no methodological details, statistical analyses, validation data, or database content are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, database contents, and experimental validation details
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable community resource and a substantial integrative analysis. The scale of the network and the range of integrated data types are impressive. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the network construction, the rigor of the validation experiments, or the statistical basis for the evolutionary conclusions. The claims are broad and the evidence base visible here is thin. The work may be of interest to the plant genomics and gene regulatory network communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Plant molecular biologists, fruit crop researchers, and computational biologists studying gene regulatory networks would be interested. The pearGRN database could serve as a resource for hypothesis generation in fruit development and quality research. Researchers working on gene duplication and regulatory evolution may also find the divergence analyses relevant.
+- **Major strengths** The integration of multiple omics data types into a single network is ambitious and potentially powerful. The inclusion of experimental validation for predicted interactors and predicted sugar metabolism genes strengthens the translational relevance. The development of a public database adds community value. The focus on fruit quality traits such as sugar and stone cells addresses economically important phenotypes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The integrative network comprises over 45,678 elements interconnected by more than 3.15 million edges and exhibits great potential in predicting regulatory and interactive relationships.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no information on how the network edges were defined, what confidence thresholds were applied, how data types were weighted or integrated, or how false positive rates were controlled. The sheer scale of edges suggests possible overconnection, but this cannot be assessed.
+  - **Why it matters** Without clarity on edge construction and quality control, the biological reliability of the network is unknown. Overconnected networks can generate spurious predictions that undermine downstream utility.
+  - **Resolution test** Provide detailed methods for edge inference, including thresholds, statistical tests, and cross validation. Show precision and recall benchmarks against known regulatory interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The integrative network was applied to predict interactors of PbrII5, an inhibitor of vacuolar sucrose hydrolysis, and the predicted interactors were further validated through molecular experiments.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that predicted interactors were validated but gives no indication of the number of predictions tested, the validation method, the success rate, or the functional significance of the validated interactions.
+  - **Why it matters** A small number of anecdotal validations would not establish network predictive power. The reader cannot judge whether the validation is convincing or selective.
+  - **Resolution test** Report the number of predictions made, the number tested, the validation assay type, and the concordance rate. Include negative controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The network showed good performance in automatically predicting fruit trait-related genes by leveraging machine learning models. A set of sugar metabolism-related genes was newly predicted, and their functions were verified through overexpression in pear fruit.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details are given on the machine learning approach, training and test sets, feature definitions, performance metrics, or how the newly predicted genes were selected for experimental validation. The overexpression verification is mentioned without phenotypic or molecular readouts.
+  - **Why it matters** Machine learning claims require rigorous benchmarking to be credible. Without metrics such as area under the curve, precision, recall, or comparison to baselines, the performance claim is unsupported.
+  - **Resolution test** Provide model details, cross validation results, baseline comparisons, and full experimental data from the overexpression studies including phenotypic measurements and statistical analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** Extensive regulatory network divergence was observed between duplicated genes, with neofunctionalization being the dominant evolutionary process reshaping network connections of duplicated genes.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no statistical framework, no definition of how neofunctionalization was inferred, no comparison to alternative models such as subfunctionalization, and no information on the number of gene pairs analyzed.
+  - **Why it matters** Evolutionary inferences require explicit models and statistical tests. Without these, the claim of neofunctionalization dominance is an assertion rather than a finding.
+  - **Resolution test** Describe the evolutionary analysis method, the criteria for classifying duplication events, the statistical tests used, and the distribution of outcomes across gene families.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract moves rapidly from network construction to prediction to evolution to database release, with little connective context for nonspecialist readers.
+  - **Required correction** Add one or two sentences framing the biological questions and the rationale for the integrative approach.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Database availability
+  - **Evidence pointer** Abstract text
+  - **Issue** The database URL is provided, but there is no statement about data download options, query interfaces, or whether all network data are accessible.
+  - **Required correction** State explicitly what data are available, in what format, and any usage restrictions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "3D genomic" is used without explanation. Nonspecialists may not know whether this refers to Hi-C data, chromatin conformation capture, or something else.
+  - **Required correction** Define the data type explicitly, for example "chromatin conformation capture (Hi-C) data".
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient methodological or statistical detail to evaluate any of the four central claims.
+- **Assessment against Nature-style criteria** Originality: the integration of six data types into a single fruit development network appears novel, but the abstract does not allow assessment of whether the conceptual advance is distinct from existing plant gene network resources. Scientific importance: fruit quality and gene duplication are important topics, and a validated network resource would be valuable, but the importance claim rests on validation evidence not visible here. Interdisciplinary readership: the work bridges genomics, bioinformatics, and molecular biology, which could attract broad interest, but the abstract is too dense for nonspecialists to follow. Technical soundness: not assessable from the abstract; the absence of methods and metrics is a critical gap. Readability for nonspecialists: the abstract is compact but assumes familiarity with multiple omics technologies and network inference concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes an ambitious project with potential value, but the visible evidence is insufficient to support the central claims. A full manuscript with detailed methods, validation data, and statistical analyses would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that the network "exhibits great potential in predicting regulatory and interactive relationships" is not supported by quantitative performance data in the abstract.
+- The claim that predicted PbrII5 interactors were validated is unverifiable without details on the number tested, methods, and results.
+- The claim of "good performance" in machine learning based gene prediction is unsupported without metrics or benchmarks.
+- The claim that neofunctionalization is the dominant evolutionary process is unsupported without statistical analysis.
+- The functional verification of sugar metabolism genes via overexpression is mentioned but no phenotypic or molecular evidence is provided.
+- The database pearGRN is stated to exist, but its content, usability, and completeness cannot be evaluated from the abstract.

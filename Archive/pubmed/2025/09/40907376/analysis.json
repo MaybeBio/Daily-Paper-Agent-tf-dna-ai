@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40907376",
+  "title": "Quantitative Structure-activity Relationship-based Neural Network Model in Screening Potential Inhibitors from Brown Algae against RelA in Oral Squamous Cell Carcinoma.",
+  "authors": "Alqarni, Abdullah; Hosmani, Jagadish; Alassiri, Saeed; Alqahtani, Ali Mosfer A; Assiri, Hassan Ahmed; AlHousami, Thabet; Zaki, Hattan; Patil, Shankargouda",
+  "journal": "International dental journal",
+  "published_date": "2025-09-05",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用QSAR神经网络筛选褐藻化合物抑制RelA转录因子，并通过分子对接和MD模拟验证小分子与RelA蛋白的结合，虽涉及TF-DNA相关蛋白但核心是小分子抑制剂筛选，非TF-DNA互作建模，方法可部分借鉴。",
+  "abstract": "INTRODUCTION AND AIM: Oral squamous cell carcinomas (OSCCs) are one of the most frequently diagnosed head and neck cancers with a poor prognosis despite the advancements in diagnostic techniques and treatment strategies. The progression of OSCC is driven by several molecular mechanisms, among them the overexpression of transcription factor RelA, which plays a crucial role by correlating with the clinicopathological characteristics. METHODS: This systematic investigation focused on identifying the top 25 crucial molecular descriptors to predict the RelA inhibitor through the quantitative structure-activity relationship (QSAR)-based artificial neural network model. RESULTS: In this study, the developed multilayer perceptron model showed an accuracy of 91.37% in the classification of active inhibitors, with a Matthews correlation coefficient (MCC) of 0.89. Then the model was assessed for the 1221 brown algae-derived compounds, identifying 1014 as the most active RelA inhibitors. Further, molecular docking revealed that phlorethopentafuhalol-A had a higher affinity based on the binding energy of -8.45 kcal/mol than the known RelA inhibitors (-5.30 to -1.31 kcal/mol). Molecular dynamics (MD) simulation confirmed that phlorethopentafuhalol-A formed a stable conformation with the RelA based on the trajectory analysis. CONCLUSIONS: Overall, this analysis demonstrated that phlorethopentafuhalol-A could be a potential RelA inhibitor that may be useful in the treatment of OSCC on further investigation. CLINICAL RELEVANCE: The multilayer perceptron model extracted relevant descriptors to predict the inhibitory properties of each compound. Using these descriptors, potential inhibitory molecules were predicted from a dataset of compounds sourced from brown algae. The predicted molecule was then evaluated for its interaction with the RelA protein through molecular docking and MD simulations.",
+  "abstract_zh": "引言与目的：口腔鳞状细胞癌（OSCC）是头颈部最常见的癌症之一，尽管诊断技术和治疗策略有所进步，其预后仍然较差。OSCC的进展受多种分子机制驱动，其中转录因子RelA的过表达通过与其临床病理特征相关联而发挥关键作用。方法：本系统研究聚焦于通过基于定量构效关系（QSAR）的人工神经网络模型，识别预测RelA抑制剂的前25个关键分子描述符。结果：在本研究中，所开发的多层感知器模型在活性抑制剂分类中显示出91.37%的准确率，马修斯相关系数（MCC）为0.89。随后，该模型对1221种褐藻来源化合物进行了评估，识别出1014种为最具活性的RelA抑制剂。进一步分子对接显示，phlorethopentafuhalol-A基于结合能-8.45 kcal/mol具有比已知RelA抑制剂（-5.30至-1.31 kcal/mol）更高的亲和力。分子动力学（MD）模拟通过轨迹分析确认，phlorethopentafuhalol-A与RelA形成了稳定构象。结论：总体而言，本分析表明phlorethopentafuhalol-A可能是一种潜在的RelA抑制剂，在进一步研究后可能对OSCC的治疗有用。临床相关性：多层感知器模型提取了相关描述符以预测每种化合物的抑制特性。利用这些描述符，从褐藻来源的化合物数据集中预测了潜在的抑制分子。随后，通过分子对接和MD模拟评估了预测分子与RelA蛋白的相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40907376/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40907376/",
+  "paper_page_path": "papers/pubmed/40907376/index.html"
+}

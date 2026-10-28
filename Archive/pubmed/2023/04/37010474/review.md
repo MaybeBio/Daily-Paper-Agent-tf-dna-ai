@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors retrospectively analyze a previously reported class of small-molecule YAP-TEAD PPI disruptors, using pharmacophore analysis, solvation analysis of molecular dynamics trajectories, and binding free energy calculations, to show that these in silico methods can guide structure-based design for a challenging, shallow protein-protein interaction surface.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or experimental comparisons are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, computational methods section, force field parameters, simulation protocols, experimental binding data, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a reasonable retrospective computational study with a clear motivation and a plausible methodological framework. However, the supplied material is insufficient to evaluate the technical soundness, the validity of the binding free energy comparisons, or the strength of the claim that these methods "can guide" design. The core conclusion is plausible but not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational chemists and structure-based drug designers working on protein-protein interaction targets, particularly those focused on transcription factor complexes and challenging shallow binding sites. The work may also interest medicinal chemists seeking to understand how peptidic inhibitors can be transitioned to small-molecule leads using in silico approaches.
+- **Major strengths** The target is clinically relevant and technically challenging. The retrospective design is appropriate for benchmarking computational methods against known experimental outcomes. The combination of pharmacophore, solvation, and binding free energy analyses is a coherent and potentially informative approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The computed binding free energy estimates agree well with experimental findings"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative data are presented to support the claimed agreement between computed and experimental binding free energies. No error estimates, correlation coefficients, or absolute values are given.
+  - **Why it matters** The central quantitative claim of the study rests on this agreement. Without numbers, the reader cannot assess whether the agreement is meaningful or within acceptable accuracy for the methods used.
+  - **Resolution test** Provide a table or figure comparing computed and experimental binding free energies for all compounds studied, including uncertainties and a statistical measure of agreement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "pharmacophore analysis augmented by solvation analysis of molecular dynamics trajectories can guide the designs"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the pharmacophore features, the solvation metrics used, or how these analyses were retrospectively applied. No details on the molecular dynamics protocol, force field, or simulation length are given.
+  - **Why it matters** Without methodological detail, the work cannot be reproduced or independently verified. The claim that these methods "can guide" design requires a clear description of what was done and how the guidance was assessed.
+  - **Resolution test** Include a methods section with full simulation parameters, pharmacophore generation and validation steps, and a description of how solvation analysis informed the design rationale.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "our results demonstrates the utility of advanced in silico methods in structure-based design efforts for difficult-to-drug targets"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not state whether the computational methods provided any new insight beyond what was already known from the original experimental study by Furet and coworkers. The retrospective nature is acknowledged, but the added value of the computational analysis is not quantified.
+  - **Why it matters** For a retrospective study, the contribution must be clearly differentiated from the original work. If the methods merely reproduce known outcomes, the utility claim is weakened.
+  - **Resolution test** State explicitly what new structural or energetic insights were obtained that were not available from the original study, and how these could inform future design efforts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, sentence beginning "Given advances in rapid high-throughput screening"
+  - **Issue** The sentence is long and the logical connection between the preceding context and the stated aim is unclear.
+  - **Required correction** Rephrase to clearly link the motivation to the specific analytical approach used in this study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Claim of "potent lead candidate"
+  - **Evidence pointer** Abstract, reference to Furet and coworkers
+  - **Issue** The term "potent" is not quantified. No potency value is given for the lead compound.
+  - **Required correction** Provide the potency value or a reference to the original publication where it is reported.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** "binding free energy calculations provide greater insight into the binding conformation and energetics"
+  - **Evidence pointer** Abstract, results section
+  - **Issue** It is unclear what "greater insight" means relative to what baseline. The comparison is not specified.
+  - **Required correction** Specify the baseline (e.g., compared to docking scores alone) and describe the specific insights obtained.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative binding free energy data and the lack of methodological detail prevent the core claims from being evaluated.
+- **Assessment against Nature-style criteria** Originality: moderate. The target is important and the retrospective approach is sensible, but the methods themselves are not novel. Scientific importance: potentially high if the methods provide transferable insights for other PPI targets, but this is not demonstrated in the abstract. Interdisciplinary readership: limited, as the work is primarily of interest to computational and medicinal chemists. Technical soundness: not assessable from the abstract alone. Readability for nonspecialists: the abstract is generally clear but uses field-specific terminology without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The study may be sound, but the abstract does not provide sufficient quantitative or methodological detail to support the central claims. A full manuscript review would be required to assess technical validity.
+
+## Risk / unsupported claims
+- The claim that computed binding free energies "agree well" with experimental findings is unsupported without quantitative data.
+- The claim that the methods "can guide" design is not established without a clear description of the retrospective analysis and its outcomes.
+- The statement that the lead compound is "potent" is unquantified in the abstract.
+- The assertion that the results "demonstrate the utility" of the methods is an overreach given the lack of comparative or prospective evidence.

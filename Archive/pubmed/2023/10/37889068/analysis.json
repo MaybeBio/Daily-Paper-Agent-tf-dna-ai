@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37889068",
+  "title": "High-throughput data and modeling reveal insights into the mechanisms of cooperative DNA-binding by transcription factor proteins.",
+  "authors": "Martin, Vincentius; Zhuang, Farica; Zhang, Yuning; Pinheiro, Kyle; Gordan, Raluca",
+  "journal": "Nucleic acids research",
+  "published_date": "2023-10-27",
+  "window": {
+    "start": "2023-10-23",
+    "end": "2023-10-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合高通量体外结合实验与机器学习建模，系统解析ETS1和RUNX1转录因子协同结合DNA的距离、方向及序列/形状特征机制，核心聚焦TF-DNA协同互作建模，方法可迁移且高度匹配本课题。",
+  "abstract": "Cooperative DNA-binding by transcription factor (TF) proteins is critical for eukaryotic gene regulation. In the human genome, many regulatory regions contain TF-binding sites in close proximity to each other, which can facilitate cooperative interactions. However, binding site proximity does not necessarily imply cooperative binding, as TFs can also bind independently to each of their neighboring target sites. Currently, the rules that drive cooperative TF binding are not well understood. In addition, it is oftentimes difficult to infer direct TF-TF cooperativity from existing DNA-binding data. Here, we show that in vitro binding assays using DNA libraries of a few thousand genomic sequences with putative cooperative TF-binding events can be used to develop accurate models of cooperativity and to gain insights into cooperative binding mechanisms. Using factors ETS1 and RUNX1 as our case study, we show that the distance and orientation between ETS1 sites are critical determinants of cooperative ETS1-ETS1 binding, while cooperative ETS1-RUNX1 interactions show more flexibility in distance and orientation and can be accurately predicted based on the affinity and sequence/shape features of the binding sites. The approach described here, combining custom experimental design with machine-learning modeling, can be easily applied to study the cooperative DNA-binding patterns of any TFs.",
+  "abstract_zh": "转录因子（TF）蛋白的协同DNA结合对真核基因调控至关重要。在人类基因组中，许多调控区域包含彼此邻近的TF结合位点，这可以促进协同相互作用。然而，结合位点的邻近并不必然意味着协同结合，因为TF也可以独立地结合到各自的邻近靶位点。目前，驱动TF协同结合的规则尚未被充分理解。此外，从现有的DNA结合数据中往往难以直接推断TF-TF之间的直接协同性。在此，我们展示了利用包含数千个基因组序列且具有推定协同TF结合事件的DNA文库进行体外结合实验，可以用于开发准确的协同性模型，并深入了解协同结合机制。以ETS1和RUNX1因子作为案例研究，我们表明ETS1位点之间的距离和方向是ETS1-ETS1协同结合的关键决定因素，而ETS1-RUNX1协同相互作用在距离和方向上表现出更大的灵活性，并且可以基于结合位点的亲和力及序列/形状特征进行准确预测。本文所述方法结合了定制实验设计与机器学习建模，可轻松应用于研究任何TF的协同DNA结合模式。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37889068/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37889068/",
+  "paper_page_path": "papers/pubmed/37889068/index.html"
+}

@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "37742460",
+    "doi": "10.1016/j.envint.2023.108221",
+    "title": "Multi-omics analysis reveals hepatic lipid metabolism profiles and serum lipid biomarkers upon indoor relevant VOC exposure."
+  },
+  "content": {
+    "abstract": "As a widespread indoor air pollutant, volatile organic compound (VOC) caused various adverse health effects, especial the damage to liver, which has become a growing public concern. However, the current toxic data are intrinsically restricted in the single or major VOC species. Limited knowledge is available regarding toxic effects, biomarkers and underlying mechanisms of real indoor VOC-caused liver damage. Herein, an indoor relevant VOC exposure model was established to evaluate the hepatic adverse outcomes. Machine learning and multi-omics approaches, including liver lipidomic, serum lipidomic and liver transcriptomic, were utilized to uncover the characteristics of liver damage, serum lipid biomarkers, and involved mechanism stimulated by VOC exposure. The result showed that indoor relevant VOC led to the abnormal hepatic lipid metabolism, mainly manifested as a decrease in triacylglycerol (TG) and its precursor substance diacylglycerol (DG), which could be contributed to the occurrence of hepatic adverse outcomes. In terms of serum lipid biomarkers, five lipid biomarkers in serum were uncovered using machine learning to reflect the hepatic lipid disorders induced by VOC. Multi-omics approaches revealed that the upregulated Dgkq disturbed the interconversion of DG and phosphatidic acid (PA), leading to a TG downregulation. The in-depth analysis revealed that VOC down-regulated FoxO transcription factor, contributing to the upregulation of Dgkq. Hence, this study can provide valuable insights into the understanding of liver damage caused by indoor relevant VOC exposure model VOC exposure, from the perspective of multi-omics analysis.",
+    "keywords": [
+      "Hepatic lipids",
+      "Liver damage",
+      "Multi-omics",
+      "Serum biomarkers",
+      "VOC"
+    ],
+    "mesh_terms": [
+      "*Volatile Organic Compounds/toxicity",
+      "*Lipid Metabolism/drug effects",
+      "Biomarkers/blood",
+      "*Liver/metabolism/drug effects",
+      "*Air Pollution, Indoor/adverse effects",
+      "*Lipids/blood",
+      "*Air Pollutants/toxicity",
+      "Lipidomics",
+      "Animals",
+      "Male",
+      "Humans",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Miao, Gan",
+        "Wang, Yu",
+        "Wang, Baoqiang",
+        "Yu, Hongyan",
+        "Liu, Jing",
+        "Pan, Ruonan",
+        "Zhou, Chengying",
+        "Ning, Jie",
+        "Zheng, Yuxin",
+        "Zhang, Rong",
+        "Jin, Xiaoting"
+      ],
+      "short_names": [
+        "Miao G",
+        "Wang Y",
+        "Wang B",
+        "Yu H",
+        "Liu J",
+        "Pan R",
+        "Zhou C",
+        "Ning J",
+        "Zheng Y",
+        "Zhang R",
+        "Jin X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China.",
+        "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China.",
+        "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China.",
+        "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China.",
+        "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China.",
+        "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China.",
+        "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China.",
+        "Department of Toxicology, School of Public Health, Hebei Medical University, Shijiazhuang, China.",
+        "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China.",
+        "Department of Toxicology, School of Public Health, Hebei Medical University, Shijiazhuang, China. Electronic address: rongzhang@hebmu.edu.cn.",
+        "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China. Electronic address: xtjin@qdu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Miao, Gan",
+        "short_name": "Miao G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yu",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Baoqiang",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Hongyan",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jing",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Ruonan",
+        "short_name": "Pan R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Chengying",
+        "short_name": "Zhou C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Ning, Jie",
+        "short_name": "Ning J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Toxicology, School of Public Health, Hebei Medical University, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yuxin",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Rong",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Toxicology, School of Public Health, Hebei Medical University, Shijiazhuang, China. Electronic address: rongzhang@hebmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Jin, Xiaoting",
+        "short_name": "Jin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Occupational Health and Environmental Health, School of Public Health, Qingdao University, Qingdao, China. Electronic address: xtjin@qdu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Environment international"
+    ],
+    "journal_abbrev": [
+      "Environ Int"
+    ],
+    "pub_date": "2023 Oct",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/25 00:42",
+    "fetched_at": "2026-09-29 07:44:22"
+  },
+  "links": {
+    "cites": [
+      "42643970",
+      "42411650",
+      "42357770",
+      "42265627",
+      "41488111",
+      "41341129",
+      "40995487",
+      "40337734",
+      "40285046",
+      "39026431"
+    ],
+    "refs": [],
+    "similar": [
+      "37742460",
+      "25145040",
+      "39047835",
+      "40571080",
+      "40795485",
+      "41933745",
+      "41962267",
+      "40795079",
+      "32321544",
+      "40706156",
+      "41845342",
+      "39369916",
+      "39265770",
+      "38999758",
+      "41610786",
+      "39927675",
+      "40684822",
+      "41470792",
+      "36495677",
+      "36858098",
+      "41831735",
+      "39940665",
+      "30200602",
+      "40442648",
+      "41103643",
+      "40188933",
+      "39150724",
+      "40594788",
+      "24333991",
+      "39722621",
+      "39490432",
+      "38588985",
+      "42097342",
+      "42036057",
+      "39842118",
+      "39454836",
+      "37414142",
+      "37816294",
+      "41186507",
+      "39278057",
+      "39428237",
+      "38971026",
+      "38059795",
+      "39897180",
+      "27905399",
+      "40472616",
+      "32615143",
+      "33429275",
+      "37027489",
+      "39551218",
+      "32443199",
+      "40068415",
+      "38936724",
+      "20362040",
+      "40132265",
+      "31872748",
+      "40274034",
+      "38199361",
+      "40441402",
+      "38986809",
+      "40142216",
+      "38237767",
+      "33940322",
+      "36986087",
+      "41341129",
+      "41791168",
+      "40383105",
+      "18429995",
+      "37944890",
+      "34098336",
+      "37364843",
+      "38941818",
+      "39388921",
+      "40946515",
+      "40995487",
+      "41763499",
+      "39389395",
+      "31586915",
+      "38685157",
+      "38325455",
+      "32760938",
+      "41529465",
+      "36321557",
+      "40127860",
+      "31884411",
+      "39662454",
+      "41560738",
+      "41436636",
+      "32623698",
+      "40449054",
+      "31835113",
+      "40179775",
+      "33309167",
+      "38191992",
+      "40216313",
+      "34171769",
+      "38374597",
+      "40483948",
+      "35354383",
+      "40147172"
+    ],
+    "review": [
+      "37742460",
+      "39047835",
+      "39150724",
+      "37414142",
+      "32615143",
+      "41791168"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0160-4120(23)00494-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/indoorairpollution.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Indoor Air Pollution"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3953",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

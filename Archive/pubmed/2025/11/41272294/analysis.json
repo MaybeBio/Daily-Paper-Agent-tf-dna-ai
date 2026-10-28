@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41272294",
+  "title": "Identification of potential anti-biofilm agents targeting LasR in Pseudomonas aeruginosa through machine learning-driven screening, molecular docking, and dynamics simulations.",
+  "authors": "Almatroudi, Ahmad",
+  "journal": "Scientific reports",
+  "published_date": "2025-11-22",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习虚拟筛选、分子对接和动力学模拟靶向铜绿假单胞菌LasR蛋白寻找抗生物膜抑制剂，虽涉及蛋白-配体互作建模，但对象为蛋白-小分子而非蛋白质-DNA互作，与TF-DNA课题关联较弱。",
+  "abstract": "Antimicrobial resistance (AMR) remains a major worldwide health concern, with biofilm-forming bacteria playing an important role in the persistence of chronic infections and the evasion of host immune responses. Pseudomonas aeruginosa, a common biofilm-forming bacteria, is notorious for causing a wide range of infections, particularly in immunocompromised people, and is highly resistant to standard treatment drugs. This work aims to find new anti-biofilm compounds that target the Pseudomonas aeruginosa LasR quorum-sensing system, which is an important regulator of biofilm development and pathogenicity. In this study machine learning-based virtual screening, molecular docking, and dynamics simulations were combined. Initially, a selection of 324 decoys and 116 known LasR inhibitors were selected and used to train a number of machine learning models. Random Forest (RF) outperformed other models with an accuracy of 0.98. Leveraging the predictive power of the RF model, a library of 9000 phytochemicals was screened using RF model, predicting 367 active compounds as potential LasR inhibitors. After that compounds were evaluated for drug-likeness using Lipinski's Rule of Five and 155 potential candidates were identified. Following molecular docking experiments, PubChem 3,795,981, PubChem 42,607,867, and PubChem 6,971,066 emerged as the top candidates, with binding energy scores of -12.0, -12.0, and - 11.8 kcal/mol, respectively. These compounds established persistent interactions with critical residues in the LasR binding site, mostly by hydrogen bonding and pi-pi stacking. Further molecular dynamics simulations and MMPBSA analysis indicate compounds PubChem 3,795,981 (-36.95 kcal/mol) and PubChem 42,607,867 (-38.58 kcal/mol) as the most favorable LasR inhibitor with minimal structural deviations, emphasizing their potential as anti-biofilm agent against resistant P. aeruginosa strains. This integrated pipeline helped to identify potential inhibitors providing theoretical basis for the development of anti-bacterial agents against Pseudomonas aeruginosa. Further research is needed to determine the therapeutic usefulness of these findings.",
+  "abstract_zh": "抗菌药物耐药性（AMR）仍是全球重大健康问题，其中形成生物膜的细菌在慢性感染持续和宿主免疫应答逃逸中发挥重要作用。铜绿假单胞菌（Pseudomonas aeruginosa）是一种常见的形成生物膜的细菌，以引起多种感染而闻名，尤其在免疫功能低下人群中，且对标准治疗药物高度耐药。本研究旨在寻找靶向铜绿假单胞菌LasR群体感应系统的新型抗生物膜化合物，该系统是生物膜形成和致病性的重要调控因子。本研究结合了基于机器学习的虚拟筛选、分子对接和动力学模拟。首先，选取324个诱饵和116个已知LasR抑制剂，用于训练多种机器学习模型。随机森林（Random Forest, RF）模型表现最佳，准确率为0.98。利用RF模型的预测能力，对9000种植物化学物质库进行筛选，预测出367种活性化合物作为潜在LasR抑制剂。随后，使用Lipinski五规则评估化合物的类药性，鉴定出155个潜在候选物。经分子对接实验后，PubChem 3,795,981、PubChem 42,607,867和PubChem 6,971,066成为最优候选物，结合能分数分别为-12.0、-12.0和-11.8 kcal/mol。这些化合物与LasR结合位点中的关键残基建立了持久相互作用，主要通过氢键和π-π堆积实现。进一步的分子动力学模拟和MMPBSA分析表明，化合物PubChem 3,795,981（-36.95 kcal/mol）和PubChem 42,607,867（-38.58 kcal/mol）是最有利的LasR抑制剂，且结构偏差最小，凸显了它们作为抗耐药铜绿假单胞菌菌株抗生物膜剂的潜力。这一整合流程有助于识别潜在抑制剂，为开发针对铜绿假单胞菌的抗菌药物提供理论基础。需进一步研究以确定这些发现的治疗实用性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41272294/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41272294/",
+  "paper_page_path": "papers/pubmed/41272294/index.html"
+}

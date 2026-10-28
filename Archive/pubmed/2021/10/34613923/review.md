@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose FCNGRU, a hybrid deep learning architecture combining a fully convolutional neural network (FCN) with a gated recurrent unit (GRU), to directly locate transcription factor binding sites (TFBSs) at nucleotide resolution. They further introduce a two-task framework (FCNGRU-double) that simultaneously performs nucleotide-level classification (TFBS location) and sequence-level regression (binding intensity). The method is evaluated on 45 in-vitro datasets from the UniPROBE database, with reported superior performance over competing methods and over a single-task variant (FCNGRU-single). Additional analysis using in vivo datasets is mentioned.
+- **Visible evidence base** Abstract text only; no quantitative results, performance metrics, dataset splits, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed architecture specifications, hyperparameter settings, training procedures, baseline descriptions, statistical significance tests, and the in vivo dataset analysis are unavailable
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful application of deep learning to TFBS localization, a problem of genuine biological interest. The combination of FCN and GRU is not conceptually novel, but the two-task framework is a reasonable design choice. However, the abstract provides no quantitative evidence, no comparison details, and no methodological specifics. The core claims of superior performance and the advantage of the two-task framework are therefore unverifiable from the supplied material. The work may be of interest to computational biologists and bioinformaticians, but the case is not established at this stage.
+- **Who would be interested in the results, and why** Computational biologists, bioinformaticians, and researchers in gene regulation and machine learning applied to genomics. The direct localization of TFBSs at nucleotide resolution is relevant to understanding gene regulatory mechanisms and could inform downstream functional studies.
+- **Major strengths** The problem addressed is well-defined and biologically meaningful. The two-task framework is a sensible approach to jointly model localization and intensity. The use of a large in-vitro benchmark (UniPROBE) is appropriate for this type of study.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "FCNGRU-double achieves much better results on these datasets" and "FCNGRU-double has an advantage over a single-task framework"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that FCNGRU-double achieves "much better results" than competing methods and outperforms FCNGRU-single, but no performance metrics, baseline names, statistical tests, or effect sizes are reported. Without these, the magnitude and significance of the claimed improvements cannot be assessed.
+  - **Why it matters** The central contribution of the paper is the claimed performance advantage. If the evidence is not presented, the reader cannot judge whether the method is genuinely superior or whether the difference is marginal or non-significant.
+  - **Resolution test** Provide quantitative results (e.g., AUC, accuracy, F1, correlation coefficients) with confidence intervals or statistical significance tests, and specify the competing methods and evaluation protocols.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** "we propose FCNGRU combing a fully convolutional neural network (FCN) with the gated recurrent unit (GRU) to directly locate TFBSs"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how the FCN and GRU components are integrated, what the input representation is (e.g., one-hot encoded DNA sequences), how the nucleotide-level classification is performed, or how the sequence-level regression is derived. The architecture is not reproducible from the abstract alone.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without architectural details, the method cannot be reimplemented or compared fairly by other researchers.
+  - **Resolution test** Provide a full architecture description, including layer types, dimensions, activation functions, loss functions, and training details, in the main text or supplementary materials.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** External validity
+  - **Claim pointer** "we combine with in vivo datasets to make a further analysis and discussion"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract mentions in vivo datasets but provides no details on what these datasets are, how they were used, or what conclusions were drawn. This part of the work is entirely unassessable.
+  - **Why it matters** In vivo validation is important for demonstrating that the method generalizes beyond in-vitro binding assays. Without specifics, the relevance and robustness of the method in a more realistic setting remain unknown.
+  - **Resolution test** Describe the in vivo datasets, the evaluation strategy, and the key findings, with appropriate metrics and comparisons.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title and terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The title uses "Combing" which appears to be a typographical error for "Combining". Additionally, the term "locating" is used but the abstract also refers to "predicts the probability of each nucleotide", which is a classification task; the relationship between "locating" and "predicting probability" should be clarified.
+  - **Required correction** Correct the typo in the title and define precisely what "locating" means in terms of output representation (e.g., a binary label per nucleotide or a probability threshold).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Baseline comparisons
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "competing methods" without naming them. This makes it impossible to contextualize the claimed improvement.
+  - **Required correction** List the specific baseline methods used in the comparison and briefly state their nature (e.g., CNN-only, RNN-only, or existing TFBS prediction tools).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Performance claims
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "much better results" is vague and not supported by any numerical evidence in the abstract.
+  - **Required correction** Report at least one key metric (e.g., area under the ROC curve) and indicate variability across the 45 datasets (e.g., mean and standard deviation).
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence), R1-M2 (insufficient methodological detail), R1-M3 (in vivo analysis not described)
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The combination of FCN and GRU is not novel in itself, but the two-task framework for simultaneous localization and intensity prediction may offer a new angle. However, the abstract does not clearly differentiate the approach from prior deep learning methods for TFBS prediction.  
+  - Scientific importance: Potentially high, as TFBS localization is a fundamental problem in gene regulation. The importance is not diminished by the lack of evidence, but it is not enhanced either.  
+  - Interdisciplinary readership: The work sits at the intersection of machine learning and genomics, which is of interest to a broad readership in computational biology. The abstract is accessible to nonspecialists in terms of the problem statement, but the lack of methodological detail limits its usefulness.  
+  - Technical soundness: Cannot be assessed from the abstract. No architecture, training, or evaluation details are provided.  
+  - Readability for nonspecialists: The abstract is generally clear in its motivation and high-level approach, but the absence of concrete results and method specifics reduces its informative value.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to evaluate the validity, reproducibility, or significance of the claims. A full manuscript with detailed methods, results, and statistical analyses would be required to assess the work properly.
+
+## Risk / unsupported claims
+- The claim that FCNGRU-double "achieves much better results" than competing methods is unsupported due to the absence of any quantitative data.
+- The claim that FCNGRU-double has an advantage over FCNGRU-single is unsupported for the same reason.
+- The claim that the method "directly locates TFBSs" is not substantiated with a clear definition of the output or an example of localization performance.
+- The mention of in vivo dataset analysis is unverifiable and cannot be evaluated from the abstract.

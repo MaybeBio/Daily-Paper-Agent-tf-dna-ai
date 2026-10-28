@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "38872110",
+    "doi": "10.1186/s12885-024-12494-1",
+    "title": "Identifying the mechanism of polysaccharopeptide against breast cancer based on network pharmacology and experimental verification."
+  },
+  "content": {
+    "abstract": "Polysaccharopeptide (PSP) is a potential active component in traditional Chinese medicine because of its anticancer effects on a variety of cancer cells and as immune enhancers of the immune system. Previous studies on the role of PSP in breast cancer have been limited, and the mechanism has not been clarified. This study is based on network pharmacology and molecular docking technology to predict the possible target of PSP treatment of breast cancer, and use experiments to verify the effect and mechanism of PSP on breast cancer. In this study, 287 PSP targets were obtained using SwissTargetPrediction database and PharmMapper database, and 183 breast cancer targets were obtained using DisGenNET database. By intersections of PSP targets and breast cancer targets, a total of 10 intersections were obtained. GO functional enrichment, KEGG pathway enrichment and molecular docking of these 10 target genes were performed to obtain the potential targets of PSP on breast cancer. In vitro experiments, we found that PSP significantly inhibited the proliferation and induced apoptosis of breast cancer cell lines MDA-MB-231, SUM-159 and MCF-7. Western Blot results showed that PSP could down-regulate the expression of p-JAK2 and p-STAT3 proteins. Similarly, the results of in vivo experiments showed that PSP can directly inhibit the tumor of MDA-MB-231 tumor-bearing mice, and the mechanism of action is mainly to inhibit the JAK2-STAT3 pathway. The above results were consistent with the results of network pharmacology, which provides a scientific basis for the clinical application of PSP in breast cancer patients.",
+    "keywords": [
+      "Breast cancer",
+      "Experimental validation",
+      "Molecular docking",
+      "Network pharmacology",
+      "Polysaccharopeptide"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/drug therapy/pathology/metabolism",
+      "Female",
+      "Animals",
+      "Mice",
+      "*Molecular Docking Simulation",
+      "*Cell Proliferation/drug effects",
+      "*Network Pharmacology",
+      "*Apoptosis/drug effects",
+      "*STAT3 Transcription Factor/metabolism",
+      "*Xenograft Model Antitumor Assays",
+      "Cell Line, Tumor",
+      "*Janus Kinase 2/metabolism",
+      "Proteoglycans/pharmacology",
+      "MCF-7 Cells",
+      "Mice, Nude",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Signal Transduction/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Cuixiang",
+        "Sun, Lijun",
+        "Wang, Huxia",
+        "Sun, Jingying",
+        "Feng, Yangmeng",
+        "Wang, Xingguang",
+        "Song, Zhangjun"
+      ],
+      "short_names": [
+        "Xu C",
+        "Sun L",
+        "Wang H",
+        "Sun J",
+        "Feng Y",
+        "Wang X",
+        "Song Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shaanxi Provincial Key Laboratory of Infection and Immune Diseases, Shaanxi Provincial People's Hospital, Xi'an, 710068, Shaanxi, China.",
+        "Shaanxi Province Research Center of Cell Immunological Engineering and Technology, Xi'an, 710068, Shaanxi, China.",
+        "Shaanxi Provincial Key Laboratory of Infection and Immune Diseases, Shaanxi Provincial People's Hospital, Xi'an, 710068, Shaanxi, China.",
+        "Shaanxi Province Research Center of Cell Immunological Engineering and Technology, Xi'an, 710068, Shaanxi, China.",
+        "Department of Breast Disease Center, Shaanxi Provincial Cancer Hospital, Xi'an, 710065, Shaanxi, China.",
+        "Shaanxi Provincial Key Laboratory of Infection and Immune Diseases, Shaanxi Provincial People's Hospital, Xi'an, 710068, Shaanxi, China.",
+        "Shaanxi Province Research Center of Cell Immunological Engineering and Technology, Xi'an, 710068, Shaanxi, China.",
+        "Shaanxi Provincial Key Laboratory of Infection and Immune Diseases, Shaanxi Provincial People's Hospital, Xi'an, 710068, Shaanxi, China.",
+        "Shaanxi Province Research Center of Cell Immunological Engineering and Technology, Xi'an, 710068, Shaanxi, China.",
+        "Department of Surgical Oncology, Shaanxi Provincial People's Hospital, 256 Youyi Road, Xi'an, 710068, Shaanxi, China.",
+        "Department of Surgical Oncology, Shaanxi Provincial People's Hospital, 256 Youyi Road, Xi'an, 710068, Shaanxi, China. songzhangjun2024@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Cuixiang",
+        "short_name": "Xu C",
+        "identifiers": [],
+        "affiliations": [
+          "Shaanxi Provincial Key Laboratory of Infection and Immune Diseases, Shaanxi Provincial People's Hospital, Xi'an, 710068, Shaanxi, China.",
+          "Shaanxi Province Research Center of Cell Immunological Engineering and Technology, Xi'an, 710068, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Lijun",
+        "short_name": "Sun L",
+        "identifiers": [],
+        "affiliations": [
+          "Shaanxi Provincial Key Laboratory of Infection and Immune Diseases, Shaanxi Provincial People's Hospital, Xi'an, 710068, Shaanxi, China.",
+          "Shaanxi Province Research Center of Cell Immunological Engineering and Technology, Xi'an, 710068, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Huxia",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Disease Center, Shaanxi Provincial Cancer Hospital, Xi'an, 710065, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Jingying",
+        "short_name": "Sun J",
+        "identifiers": [],
+        "affiliations": [
+          "Shaanxi Provincial Key Laboratory of Infection and Immune Diseases, Shaanxi Provincial People's Hospital, Xi'an, 710068, Shaanxi, China.",
+          "Shaanxi Province Research Center of Cell Immunological Engineering and Technology, Xi'an, 710068, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Yangmeng",
+        "short_name": "Feng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shaanxi Provincial Key Laboratory of Infection and Immune Diseases, Shaanxi Provincial People's Hospital, Xi'an, 710068, Shaanxi, China.",
+          "Shaanxi Province Research Center of Cell Immunological Engineering and Technology, Xi'an, 710068, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xingguang",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, Shaanxi Provincial People's Hospital, 256 Youyi Road, Xi'an, 710068, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Song, Zhangjun",
+        "short_name": "Song Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgical Oncology, Shaanxi Provincial People's Hospital, 256 Youyi Road, Xi'an, 710068, Shaanxi, China. songzhangjun2024@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2024 Jun 13",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/14 00:42",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [
+      "41389163",
+      "40750898",
+      "40729050",
+      "40259252"
+    ],
+    "refs": [
+      "36835056",
+      "33083975",
+      "32450253",
+      "31487867",
+      "31030754",
+      "30585547",
+      "29892198",
+      "29873274",
+      "29761158",
+      "28932226",
+      "28498395",
+      "28053540",
+      "27075627",
+      "26559373",
+      "26227964",
+      "25129068",
+      "23787177",
+      "23497877",
+      "21633165",
+      "18829483",
+      "16422392",
+      "12814145",
+      "12723750",
+      "12436306",
+      "9590173"
+    ],
+    "similar": [
+      "38872110",
+      "34614446",
+      "38849817",
+      "38670393",
+      "22792362",
+      "38518635",
+      "39342122",
+      "38850960",
+      "38516703",
+      "38845538",
+      "34550868",
+      "36403742",
+      "33358854",
+      "30073465",
+      "38812235",
+      "34675488",
+      "32504672",
+      "19926637",
+      "37287284",
+      "32868906",
+      "36882618",
+      "32004989",
+      "37879505",
+      "34262258",
+      "36471978",
+      "36906159",
+      "29388151",
+      "33771643",
+      "38513380",
+      "39057437",
+      "26755649",
+      "36472040",
+      "26191195",
+      "34246740",
+      "34087401",
+      "36933872",
+      "38753638",
+      "37474991",
+      "31707351",
+      "28602977",
+      "38621884",
+      "31242627",
+      "28910973",
+      "38643863",
+      "37575231",
+      "37833363",
+      "37799727",
+      "35850844",
+      "28069875",
+      "37282910",
+      "35429380",
+      "39244135",
+      "32240456",
+      "37843333",
+      "34453950",
+      "38675723",
+      "21465181",
+      "37129744",
+      "35489659",
+      "34808299",
+      "38114219",
+      "37852337",
+      "34983296",
+      "38032489",
+      "26515594",
+      "32219484",
+      "31760157",
+      "38415453",
+      "19383849",
+      "39203920",
+      "27500741",
+      "32109485",
+      "22824293",
+      "35178962",
+      "27122665",
+      "30106443",
+      "30599913",
+      "23938089",
+      "38783288",
+      "33174044",
+      "34002799",
+      "38493718",
+      "34728317",
+      "35116094",
+      "35012428",
+      "26843613",
+      "35610009",
+      "34159207",
+      "38858650",
+      "37069622",
+      "33750656",
+      "38179762",
+      "38776853",
+      "34522084",
+      "36472041",
+      "26527862",
+      "37437794",
+      "31014051",
+      "35734366",
+      "36998242",
+      "25434800",
+      "37802827",
+      "36604925",
+      "22537901",
+      "38879737",
+      "39023003",
+      "39013759"
+    ],
+    "review": [
+      "38872110",
+      "33358854"
+    ],
+    "pmc": [
+      "11177424"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-024-12494-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38872110/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38872110",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

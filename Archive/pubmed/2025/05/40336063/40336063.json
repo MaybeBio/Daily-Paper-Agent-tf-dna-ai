@@ -1,0 +1,412 @@
+{
+  "identity": {
+    "pmid": "40336063",
+    "doi": "10.1186/s12964-025-02196-x",
+    "title": "IKZF1 as a potential therapeutic target for dendritic cell-mediated immunotherapy in IgA nephropathy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Immunoglobulin A nephropathy (IgAN) is the most common primary glomerulonephritis globally and a major cause of renal failure. Immune dysregulation drives its pathogenesis. This study identifies novel genes as potential diagnostic and therapeutic targets, elucidating immune mechanisms in IgAN. METHODS: Immune cell infiltration analysis was conducted to explore the abnormal regulation of immune cells in IgAN. Weighted gene co-expression network analysis (WGCNA) was integrated with protein-protein interaction (PPI) analysis to identify hub genes associated with dendritic cells (DCs) in IgAN. Receiver operating characteristic (ROC) curve analysis and machine learning algorithms were employed to screen for DC-related diagnostic biomarkers from the dataset. Multiple bioinformatics methods were utilized to reveal shared molecular pathways. The findings were further validated through in vivo and vitro intervention experiments. RESULTS: WGCNA, Cytoscape, and three machine learning models collectively identified hub genes (IKZF1, MPEG1, CCR2, CCR5, and CCR7) that are significantly associated with DC immunity. Among these, IKZF1 was pinpointed as a key hub gene and a potential diagnostic biomarker for DC-related immune responses. Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis, and gene set enrichment analysis (GSEA) further revealed substantial differences in the biological processes, signaling pathways, and immune characteristics of DCs. RT-qPCR and immunofluorescence analyses confirmed enhanced infiltration of IKZF1(+) DCs in the tissues of both IgAN mice and anti-Thy1 nephritis rats. Mechanistically, IKZF1 promotes inflammation by mediating the production of pro-inflammatory factors and enhancing antigen presentation in DCs; this effect can be mitigated by siIKZF1 or lenalidomide treatment under LPS-induced inflammatory conditions in vitro. Consistently, treatment with lenalidomide, a molecular degrader of IKZF1, in anti-Thy1 nephritis models effectively alleviated renal damage and reduced inflammatory cell infiltration. CONCLUSIONS: This study delineated key patterns of immune cell infiltration in IgAN and identified diagnostic biomarkers associated with DCs, offering valuable insights into the potential therapeutic targeting of IKZF1(+) DCs.",
+    "keywords": [
+      "Biomarkers",
+      "Computational biology",
+      "Dendritic cells",
+      "IKZF1",
+      "Immunoglobulin A nephropathy"
+    ],
+    "mesh_terms": [
+      "*Dendritic Cells/immunology/metabolism",
+      "*Glomerulonephritis, IGA/therapy/immunology/genetics/pathology",
+      "Animals",
+      "*Ikaros Transcription Factor/metabolism/genetics",
+      "Humans",
+      "*Immunotherapy/methods",
+      "Rats",
+      "Mice",
+      "Protein Interaction Maps",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Fei",
+        "Sheng, Chunjia",
+        "He, Jiayi",
+        "Zhou, Yena",
+        "Qu, Yilun",
+        "Duan, Shuwei",
+        "Zhao, Yinghua",
+        "Xia, Jikai",
+        "Wu, Jie",
+        "Cai, Guangyan",
+        "Wu, Lingling",
+        "Zhang, Chuyue",
+        "Chen, Xiangmei"
+      ],
+      "short_names": [
+        "Peng F",
+        "Sheng C",
+        "He J",
+        "Zhou Y",
+        "Qu Y",
+        "Duan S",
+        "Zhao Y",
+        "Xia J",
+        "Wu J",
+        "Cai G",
+        "Wu L",
+        "Zhang C",
+        "Chen X"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8510-3831"
+      ],
+      "affiliations": [
+        "School of Medicine, Nankai University, Tianjin, 300071, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China.",
+        "Clinical Research Center, the First Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China.",
+        "School of Medicine, Nankai University, Tianjin, 300071, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China.",
+        "School of Clinical Medicine, Beijing Tsinghua Changgung Hospital, Tsinghua University, Beijing, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China. wulingling19860328@163.com.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China. zhangcycywch@wchscu.edu.cn.",
+        "Kidney Research Institute, Division of Nephrology, West China Hospital, Sichuan University, Chengdu, 610041, China. zhangcycywch@wchscu.edu.cn.",
+        "School of Medicine, Nankai University, Tianjin, 300071, China. xmchen301@126.com.",
+        "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China. xmchen301@126.com.",
+        "Kidney Research Institute, Division of Nephrology, West China Hospital, Sichuan University, Chengdu, 610041, China. xmchen301@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Fei",
+        "short_name": "Peng F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, Tianjin, 300071, China.",
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Sheng, Chunjia",
+        "short_name": "Sheng C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "He, Jiayi",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Research Center, the First Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yena",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, Tianjin, 300071, China.",
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Qu, Yilun",
+        "short_name": "Qu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Shuwei",
+        "short_name": "Duan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yinghua",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Beijing Tsinghua Changgung Hospital, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Jikai",
+        "short_name": "Xia J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jie",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Guangyan",
+        "short_name": "Cai G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Lingling",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China. wulingling19860328@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chuyue",
+        "short_name": "Zhang C",
+        "identifiers": [
+          "0000-0001-8510-3831"
+        ],
+        "affiliations": [
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China. zhangcycywch@wchscu.edu.cn.",
+          "Kidney Research Institute, Division of Nephrology, West China Hospital, Sichuan University, Chengdu, 610041, China. zhangcycywch@wchscu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiangmei",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Nankai University, Tianjin, 300071, China. xmchen301@126.com.",
+          "Department of Nephrology, First Medical Center of Chinese PLA General Hospital, National Key Laboratory of Kidney Diseases, Beijing Key Laboratory of Kidney Diseases Research, National Clinical Research Center for Kidney Diseases, Beijing, 100853, China. xmchen301@126.com.",
+          "Kidney Research Institute, Division of Nephrology, West China Hospital, Sichuan University, Chengdu, 610041, China. xmchen301@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell communication and signaling : CCS"
+    ],
+    "journal_abbrev": [
+      "Cell Commun Signal"
+    ],
+    "pub_date": "2025 May 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/08 00:25",
+    "fetched_at": "2026-09-30 17:21:14"
+  },
+  "links": {
+    "cites": [
+      "42589340",
+      "42519023",
+      "42256278",
+      "41756296"
+    ],
+    "refs": [
+      "37842645",
+      "37747686",
+      "37599014",
+      "37559135",
+      "37536037",
+      "37529043",
+      "37086678",
+      "36933629",
+      "36793719",
+      "36245645",
+      "35983053",
+      "35738837",
+      "35603220",
+      "35532794",
+      "35488446",
+      "35169036",
+      "34895340",
+      "34871625",
+      "34821031",
+      "34565282",
+      "34512151",
+      "34247883",
+      "34051812",
+      "33936064",
+      "33738286",
+      "33357427",
+      "33343577",
+      "33309134",
+      "32830258",
+      "32699192",
+      "32283569",
+      "32085673",
+      "30590794",
+      "30520136",
+      "29310487",
+      "29107106",
+      "27036736",
+      "26376858",
+      "26002150",
+      "25822800",
+      "25266210",
+      "25265199",
+      "19114008",
+      "17191083",
+      "16912230",
+      "15496162",
+      "15136556",
+      "3055970",
+      "3055955",
+      "1280885"
+    ],
+    "similar": [
+      "40336063",
+      "40263537",
+      "34823491",
+      "39612439",
+      "36978098",
+      "38552291",
+      "36793719",
+      "39540382",
+      "39136821",
+      "39696012",
+      "35910761",
+      "39713769",
+      "35418061",
+      "39670237",
+      "32894197",
+      "35601837",
+      "36948405",
+      "35769467",
+      "34861820",
+      "36225941",
+      "38824914",
+      "38693353",
+      "38628140",
+      "34190177",
+      "39953769",
+      "35069594",
+      "39403102",
+      "38126195",
+      "35392084",
+      "38268224",
+      "38774257",
+      "40073855",
+      "31392215",
+      "35647843",
+      "36059518",
+      "38863714",
+      "39586719",
+      "38736878",
+      "39142001",
+      "39086489",
+      "38946402",
+      "37820669",
+      "39351239",
+      "38571624",
+      "38957433",
+      "39284931",
+      "40312440",
+      "36148059",
+      "40091022",
+      "39870856",
+      "39378654",
+      "31316619",
+      "38395835",
+      "39460798",
+      "39697749",
+      "39671358",
+      "39139563",
+      "40196107",
+      "34466069",
+      "31894556",
+      "35278479",
+      "38979419",
+      "39375405",
+      "38285068",
+      "38301615",
+      "39609718",
+      "37008314",
+      "38511222",
+      "30502083",
+      "40245021",
+      "28713898",
+      "38660311",
+      "38601619",
+      "32791747",
+      "38787831",
+      "38951833",
+      "39341952",
+      "39814871",
+      "34977095",
+      "35911963",
+      "37122694",
+      "39754246",
+      "39853851",
+      "33468161",
+      "37974210",
+      "39263286",
+      "40110435",
+      "39171207",
+      "31547815",
+      "37684607",
+      "35978028",
+      "35016690",
+      "28944850",
+      "37390254",
+      "34553293",
+      "24081865",
+      "40151199",
+      "39505739",
+      "38987624",
+      "36643579"
+    ],
+    "review": [
+      "40336063"
+    ],
+    "pmc": [
+      "12057048"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biosignaling.biomedcentral.com/articles/10.1186/s12964-025-02196-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40336063/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1178",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

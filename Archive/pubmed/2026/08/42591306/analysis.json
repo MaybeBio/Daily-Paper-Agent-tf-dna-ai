@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42591306",
+  "title": "Single-cell RNA sequencing pseudobulk analysis and machine learning identify candidate biomarkers for ischemic cardiomyopathy.",
+  "authors": "Ye, Xianhua; Wu, Guoxiang; Xie, Jialan; Wu, Yanqing; Chen, Daqiu; Chen, Yixing; Xu, Shanghua; Luo, Shunxiang",
+  "journal": "Frontiers in cardiovascular medicine",
+  "published_date": "2026-08-13",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用单细胞RNA测序和机器学习筛选缺血性心肌病生物标志物，仅涉及TF预测与验证，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联弱。",
+  "abstract": "BACKGROUND: Ischemic cardiomyopathy (ICM) is a condition characterized by inadequate blood supply to the coronary arteries, resulting in myocardial damage and decreased cardiac functionality. This study aimed to identify potential biomarkers and regulatory networks in ICM, providing a foundation for further mechanistic and therapeutic investigations. METHODS: We analyzed public single-cell RNA sequencing (scRNA-seq) data to identify cell subpopulations through dimensionality reduction clustering followed by manual annotation. Differentially expressed genes (DEGs) were derived using the pseudobulk method. Subsequently, we employed three machine learning algorithms combined with the Boruta feature selection approach to screen for disease-characteristic genes in an external ICM dataset. Potential regulatory networks were reconstructed by predicting transcription factors (TFs) and microRNAs (miRNAs). Finally, we validated the expression levels of signature genes, TFs, and miRNAs in an in vivo ICM rat model. RESULTS: The pseudobulk analysis identified 168 DEGs, with machine learning selecting four hub genes as key signatures demonstrating acceptable ICM discriminative power. Their area under the curve (AUC) values were as follows: MLLT3 (76.7%), GFOD1 (78.6%), COLEC12 (77.8%), and RARRES1 (79.9%). Notably, when combined into a four-gene signature, a substantially higher AUC of 93.0% was achieved for the discrimination of ICM. Transcription factor analysis delineated that GFOD1, MLLT3, RARRES1, and COLEC12 were regulated by 17, 7, 7, and 3 TFs, respectively. The CTCF was found to be a shared transcription factor. Computational miRNA analysis retrieved 329 miRNAs. In vivo validation studies confirmed significantly reduced expression of four signature genes and CTCF, along with elevated levels of miR-195-5p and miR-5680 in ICM samples compared to those in sham controls. CONCLUSION: Our study characterized GFOD1, MLLT3, COLEC12, RARRES1, miR-195-5p, and miR-5680 as promising biomarkers for ischemic cardiomyopathy, with CTCF acting as a candidate transcription factor.",
+  "abstract_zh": "背景：缺血性心肌病（ICM）是一种以冠状动脉供血不足为特征，导致心肌损伤和心脏功能下降的疾病。本研究旨在识别ICM中的潜在生物标志物和调控网络，为进一步的机制和治疗研究提供基础。方法：我们分析了公共单细胞RNA测序（scRNA-seq）数据，通过降维聚类和手动注释来识别细胞亚群。使用伪批量方法获得差异表达基因（DEGs）。随后，我们采用三种机器学习算法结合Boruta特征选择方法，在外部ICM数据集中筛选疾病特征基因。通过预测转录因子（TFs）和微小RNA（miRNAs）重建潜在的调控网络。最后，我们在体内ICM大鼠模型中验证了特征基因、TFs和miRNAs的表达水平。结果：伪批量分析识别出168个DEGs，机器学习选择四个核心基因作为关键特征，显示出可接受的ICM区分能力。其曲线下面积（AUC）值如下：MLLT3（76.7%）、GFOD1（78.6%）、COLEC12（77.8%）和RARRES1（79.9%）。值得注意的是，当组合成四基因特征时，ICM区分的AUC显著提高至93.0%。转录因子分析显示，GFOD1、MLLT3、RARRES1和COLEC12分别受17、7、7和3个TFs调控。CTCF被发现是一个共享的转录因子。计算性miRNA分析检索到329个miRNAs。体内验证研究证实，与假手术对照组相比，ICM样本中四个特征基因和CTCF的表达显著降低，而miR-195-5p和miR-5680的水平升高。结论：我们的研究将GFOD1、MLLT3、COLEC12、RARRES1、miR-195-5p和miR-5680表征为缺血性心肌病的有前景的生物标志物，其中CTCF作为候选转录因子。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42591306/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42591306/",
+  "paper_page_path": "papers/pubmed/42591306/index.html"
+}

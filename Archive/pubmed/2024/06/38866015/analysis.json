@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38866015",
+  "title": "Cancer mutational signatures identification in clinical assays using neural embedding-based representations.",
+  "authors": "Yaacov, Adar; Ben Cohen, Gil; Landau, Jakob; Hope, Tom; Simon, Itamar; Rosenberg, Shai",
+  "journal": "Cell reports. Medicine",
+  "published_date": "2024-06-13",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用神经网络嵌入模型从临床基因panel中预测癌症突变特征，核心是体细胞突变签名而非蛋白质-DNA互作，无TF-DNA结合建模或AI/物理模拟方法，仅边缘相关。",
+  "abstract": "While mutational signatures provide a plethora of prognostic and therapeutic insights, their application in clinical-setting, targeted gene panels is extremely limited. We develop a mutational representation model (which learns and embeds specific mutation signature connections) that enables prediction of dominant signatures with only a few mutations. We predict the dominant signatures across more than 60,000 tumors with gene panels, delineating their landscape across different cancers. Dominant signature predictions in gene panels are of clinical importance. These included UV, tobacco, and apolipoprotein B mRNA editing enzyme, catalytic polypeptide (APOBEC) signatures that are associated with better survival, independently from mutational burden. Further analyses reveal gene and mutation associations with signatures, such as SBS5 with TP53 and APOBEC with FGFR3(S249C). In a clinical use case, APOBEC signature is a robust and specific predictor for resistance to epidermal growth factor receptor-tyrosine kinase inhibitors (EGFR-TKIs). Our model provides an easy-to-use way to detect signatures in clinical setting assays with many possible clinical implications for an unprecedented number of cancer patients.",
+  "abstract_zh": "虽然突变特征提供了大量的预后和治疗见解，但它们在临床环境中的靶向基因面板应用极为有限。我们开发了一种突变表示模型（该模型学习并嵌入特定的突变特征连接），使得仅凭少量突变即可预测主导特征。我们利用基因面板预测了超过60,000个肿瘤中的主导特征，描绘了它们在不同癌症中的分布情况。基因面板中的主导特征预测具有临床重要性。这些包括紫外线、烟草和载脂蛋白B mRNA编辑酶催化多肽（APOBEC）特征，它们与更好的生存率相关，且独立于突变负荷。进一步分析揭示了基因和突变与特征的关联，例如SBS5与TP53以及APOBEC与FGFR3(S249C)。在一个临床用例中，APOBEC特征是对表皮生长因子受体-酪氨酸激酶抑制剂（EGFR-TKIs）耐药的稳健且特异性预测因子。我们的模型提供了一种在临床检测中简便检测特征的方法，对前所未有的癌症患者数量具有许多潜在的临床意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38866015/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38866015/",
+  "paper_page_path": "papers/pubmed/38866015/index.html"
+}

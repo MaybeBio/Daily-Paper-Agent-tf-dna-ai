@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, literature review, methodology, results, conclusion)
+- **Assessment boundary** Technical soundness and validity of the proposed EGNN-based protein-ligand binding pose prediction method, as described in the provided manuscript
+- **Shared manuscript claim summary** The authors propose an E(n) Equivariant Graph Neural Network (EGNN) approach for predicting 3D protein-ligand binding structures. They claim the method shows promising potential for predicting ligand-protein binding poses, based on training on a subset of the PDBBind-v2020 dataset and evaluation on two test cases.
+- **Visible evidence base** Abstract, Sections I-V, Tables 1-2 (referenced but not shown), Figures 1-5 (referenced but not shown), Equations 1-2 and 7 (referenced but not shown)
+- **Missing materials affecting confidence** Figures 1-5, Tables 1-2, Equations 1-7, dataset split details, hyperparameter settings, baseline comparisons, full test set results, code availability
+
+## Reviewer
+- **Overall assessment** The manuscript presents a preliminary application of an existing EGNN architecture to protein-ligand binding pose prediction. While the topic is relevant and timely, the current manuscript lacks sufficient technical detail, rigorous evaluation, and comparative analysis to establish the claimed potential. The evaluation on only two test cases is anecdotal and does not support the broad claims made. The methodology section is incomplete, with key equations and figures referenced but not provided. The manuscript reads more like a project report than a complete research article.
+- **Who would be interested in the results, and why** Researchers in computational drug design, specifically those working on deep learning approaches for molecular docking and binding pose prediction. The application of equivariant graph neural networks to this problem is of interest to the machine learning for chemistry and biology community. However, the current evidence is too preliminary to attract significant attention.
+- **Major strengths** 
+  - The problem addressed (protein-ligand binding pose prediction) is of high importance in drug discovery.
+  - The use of E(n) equivariant graph neural networks is a modern and relevant approach.
+  - The manuscript is clearly written and easy to follow for a nonspecialist.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim the EGNN method demonstrates "promising potential" for predicting ligand-protein binding poses.
+  - **Evidence pointer** Section IV (Analysis and Results), Figures 4-5 (referenced but not shown)
+  - **Concern** The evaluation is based on only two test cases (PDB IDs 1a4m and 1a86). No statistical analysis, no aggregate performance metrics across the test set, and no comparison to existing docking methods or other deep learning baselines are provided. The reported TM scores (0.970 and 0.909) and RMSD values (2.234 and 4.509 Å) for two examples are insufficient to establish the method's general utility.
+  - **Why it matters** Without a systematic evaluation on a representative test set and comparison to state-of-the-art methods, the claimed potential cannot be assessed. The two examples may be cherry-picked or not representative of typical performance.
+  - **Resolution test** Provide evaluation on the full test set (50 complexes) with aggregate metrics (e.g., mean/median RMSD, success rate defined by a threshold such as RMSD < 2Å), and compare against at least one traditional docking tool (e.g., AutoDock Vina) and one deep learning baseline (e.g., TANKBind or EQUIBIND).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The methodology describes a two-model architecture (EGNN1 and EGNN2) handling "individual features of proteins and ligands" with concatenated outputs.
+  - **Evidence pointer** Section III.3 (Network Architecture Design), Figure 3 (referenced but not shown)
+  - **Concern** The architecture description is vague. It is unclear how EGNN1 and EGNN2 differ, how their outputs are concatenated, and how the final ligand pose is derived from the concatenated representation. The loss function is stated to be RMSD, but the exact formulation (Equation 7) is not shown. The relationship between the two models and the overall prediction pipeline is not clearly specified.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without a precise description of the architecture, feature sets, and loss computation, other researchers cannot implement or validate the method.
+  - **Resolution test** Provide a detailed description of both EGNN variants, including layer sizes, number of layers, feature dimensions, and how the concatenation and final coordinate prediction are performed. Include the full loss function and all relevant equations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state they used a subset of 1,000 complexes from PDBBind-v2020, split into 750/200/50 for training/validation/test.
+  - **Evidence pointer** Section III.1 (Data Acquisition and Processing)
+  - **Concern** The selection criteria for the 1,000 complexes are not described. It is unclear whether this is a random sample, a diversity-based selection, or based on some other criterion. The split is random, but no stratification or clustering is mentioned. This could introduce bias and affect generalizability.
+  - **Why it matters** Dataset construction directly impacts the validity of the evaluation. A non-representative or biased subset could lead to overly optimistic or misleading results.
+  - **Resolution test** Describe the selection process for the 1,000 complexes, including any filtering criteria (e.g., resolution, binding affinity type, ligand properties). Justify the dataset size and split. Consider using a standard benchmark split (e.g., the official PDBBind time-split or random split with multiple seeds).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim their approach "has the potential to greatly reduce the need for resources, time, and costs associated with experimental physical tests."
+  - **Evidence pointer** Section II (Literature Review), Section V (Conclusion)
+  - **Concern** This claim is speculative and not supported by any runtime analysis, scalability assessment, or comparison to existing methods in terms of computational cost. No inference time or training time is reported.
+  - **Why it matters** The practical impact of a computational method depends not only on accuracy but also on efficiency. Without quantitative evidence, the claim of reducing costs is unsubstantiated.
+  - **Resolution test** Report training and inference times, and compare them to baseline methods. Discuss the computational complexity of the approach in the context of large-scale virtual screening.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section III.1 (Data Acquisition and Processing)
+  - **Evidence pointer** "we employed Pymol [20], a widely-used software tool, for this purpose"
+  - **Issue** The use of PyMOL for applying random rotations and translations is unusual; typically, this is done with numerical libraries (e.g., NumPy). The specific PyMOL commands or scripts used are not described.
+  - **Required correction** Clarify the exact procedure for generating random orientations, or replace with a standard numerical approach and describe it precisely.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section III.2 (Graph Representation for Proteins and Ligands)
+  - **Evidence pointer** "Feature vectors are obtained using RdKit [21] and OGB libraries"
+  - **Issue** The specific feature sets used for nodes and edges are not described in the text. Tables 1 and 2 are referenced but not included in the provided material.
+  - **Required correction** Provide the feature descriptions in the text or include the tables. Specify which RdKit descriptors and OGB features are used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section III.3 (Network Architecture Design)
+  - **Evidence pointer** "we employ the root mean square deviation (RMSD) as the loss function"
+  - **Issue** The RMSD loss is computed between distance matrices (as implied by Equation 7), but the exact definition of the "contact list" and how it is determined is not specified.
+  - **Required correction** Define the contact list precisely (e.g., all heavy atom pairs within a cutoff distance) and describe how the loss is computed during training.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section IV (Analysis and Results)
+  - **Evidence pointer** "we selected two notable examples, namely PDB ID: 1a4m [25] and 1a86 [26]"
+  - **Issue** The criteria for selecting these two examples as "notable" are not stated. It is unclear if they are representative, best-case, or randomly chosen.
+  - **Required correction** State the selection criteria or present results for all test set examples.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section IV (Analysis and Results)
+  - **Evidence pointer** "we calculated the TM Score [29] and Root Mean Square Deviation (RMSD) between the two complexes"
+  - **Issue** The RMSD calculation is not specified. It is unclear whether this is ligand-only RMSD, binding-site RMSD, or full-complex RMSD. The TM score is typically used for protein structure comparison, not protein-ligand complexes.
+  - **Required correction** Specify the exact RMSD calculation (e.g., ligand heavy atoms after superposition on protein binding site) and justify the use of TM score for complex comparison.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section III.3 (Network Architecture Design)
+  - **Evidence pointer** "we utilize the Adam optimizer with a batch size of 128, a learning rate of 10−3, and a weight decay of 10−5"
+  - **Issue** No information is provided on the number of training epochs, early stopping criteria, or learning rate scheduling.
+  - **Required correction** Report the number of epochs and any regularization or early stopping strategies used.
+
+## Risk / unsupported claims
+- The claim that the EGNN method shows "promising potential" for predicting ligand-protein binding poses is unsupported by the limited evaluation on two test cases.
+- The claim that the approach "has the potential to greatly reduce the need for resources, time, and costs" is speculative and not backed by any efficiency analysis.
+- The claim that the method "overcomes the limitations of existing methods" is not supported by any comparative evaluation.
+- The overall effectiveness of the method cannot be assessed due to missing figures, tables, equations, and full test set results.

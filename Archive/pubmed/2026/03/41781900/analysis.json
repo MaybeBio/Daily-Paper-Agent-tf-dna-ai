@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41781900",
+  "title": "Identification of metabolism and inflammation-related biomarkers and potential drugs for schizophrenia based on comprehensive bioinformatics and machine learning.",
+  "authors": "Chen, Yanfang; Zhang, Min; Qiao, Ling; Lu, Feng; Ji, Shaoping",
+  "journal": "BMC psychiatry",
+  "published_date": "2026-03-05",
+  "window": {
+    "start": "2026-03-02",
+    "end": "2026-03-08"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究基于生物信息学和机器学习识别精神分裂症代谢炎症相关生物标志物，仅涉及TF调控网络构建，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Schizophrenia (SCZ) is a significant and widespread mental illness, where metabolism and inflammation-related genes (MIRGs) are crucial to understanding its underlying biology. This study aimed to identify peripheral biomarkers linked to metabolism and inflammation, validate these through the creation of a diagnostic model, investigate their connections with miRNA and transcription factors (TFs), and find potential drugs for targeting. METHODS: The datasets GES38484 and GSE54913 were obtained from the Gene Expression Omnibus (GEO) database, while the MIRGs were sourced from both the Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways and GeneCards. Key signature genes were identified using differential expression analysis, alongside techniques such as least absolute shrinkage and selection operator (LASSO) regression, support vector machine (SVM), Random Forest (RF), and extreme gradient boosting (XGBoost) methodologies. A logistic regression model was constructed for diagnostics, and its performance was assessed using a separate testing database. Furthermore, the signature genes were verified through RT-qPCR, and levels of immune infiltration were assessed using single-sample Gene Set Enrichment Analysis (ssGSEA). Finally, regulatory networks involving gene-miRNA and gene-TF interactions were created utilizing Cytoscape, while candidate drugs were identified through the Drug-Gene Interaction database. RESULTS: Six hub MIRGs were identified (HDC, NCKAP1L, FUCA1, CD40LG, CX3CR1, and SNAP25), leading to the development of a diagnostic signature based on these genes which served as potential biomarkers for SCZ (AUC = 0.884), further confirmed in the validation cohort (AUC = 0.933). The diagnostic model illustrated distinctions between low- and high-risk groups, highlighting differences in immune cell infiltration patterns. In-depth examination of these six genes indicated connections to 47 targeted miRNAs, 11 TFs within regulatory networks, and 40 potential therapeutic agents. CONCLUSION: Findings from this research offer significant understanding regarding the function of MIRGs in SCZ, which could aid in the creation of viable candidate biomarkers and possible therapies that modify the disease for SCZ. CLINICAL TRIAL NUMBER: Not applicable.",
+  "abstract_zh": "背景：精神分裂症（Schizophrenia, SCZ）是一种重要且广泛的精神疾病，其中代谢和炎症相关基因（MIRGs）对理解其潜在生物学机制至关重要。本研究旨在识别与代谢和炎症相关的外周生物标志物，通过构建诊断模型进行验证，探讨其与miRNA和转录因子（TFs）的关联，并寻找潜在的靶向药物。方法：从基因表达综合数据库（Gene Expression Omnibus, GEO）获取数据集GES38484和GSE54913，而MIRGs来源于京都基因与基因组百科全书（Kyoto Encyclopedia of Genes and Genomes, KEGG）通路和GeneCards数据库。通过差异表达分析，结合最小绝对收缩和选择算子（LASSO）回归、支持向量机（SVM）、随机森林（Random Forest, RF）和极端梯度提升（XGBoost）方法，识别关键特征基因。构建逻辑回归模型用于诊断，并使用独立测试数据库评估其性能。此外，通过RT-qPCR验证特征基因，并使用单样本基因集富集分析（ssGSEA）评估免疫浸润水平。最后，利用Cytoscape构建基因-miRNA和基因-TF调控网络，并通过药物-基因相互作用数据库识别候选药物。结果：识别出六个核心MIRGs（HDC、NCKAP1L、FUCA1、CD40LG、CX3CR1和SNAP25），基于这些基因开发了诊断特征，作为SCZ的潜在生物标志物（AUC = 0.884），并在验证队列中进一步确认（AUC = 0.933）。诊断模型展示了低风险和高风险组之间的差异，突出了免疫细胞浸润模式的差异。对这六个基因的深入分析表明，它们与47个靶向miRNA、调控网络中的11个TFs以及40种潜在治疗药物相关。结论：本研究结果为MIRGs在SCZ中的作用提供了重要见解，这可能有助于创建可行的候选生物标志物和针对SCZ的潜在疾病修饰疗法。临床试验编号：不适用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41781900/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41781900/",
+  "paper_page_path": "papers/pubmed/41781900/index.html"
+}

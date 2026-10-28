@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors present a new implementation of the BAT.py software that adds relative binding free energy (RBFE) calculations using separated topologies (SepTop) to an existing automated absolute binding free energy (ABFE) workflow. Three thermodynamic paths are implemented in AMBER and OpenMM, and tested on the BRD4(2) benchmark system. The authors report correlations with ABFE, standard RBFE, and experimental results, and discuss computational cost.
+- **Visible evidence base** Abstract text only; no numerical results, methodological details, or benchmark data are provided
+- **Missing materials affecting confidence** Full methods, simulation protocols, convergence criteria, error analysis, benchmark results, comparison data, and code availability details
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful software extension that addresses a recognized gap in binding free energy methodology, namely the application of RBFE to dissimilar ligands via separated topologies. However, the abstract provides no quantitative results, no methodological detail on the three thermodynamic paths, and no evidence of validation quality. The scientific case for the utility and reliability of this implementation cannot be assessed from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists working on drug discovery, particularly those using alchemical free energy methods. The work may also interest method developers in the molecular simulation community who seek automated tools that combine the advantages of ABFE and RBFE approaches.
+- **Major strengths** The conceptual motivation is clear and compelling. The combination of SepTop with an existing automated ABFE workflow addresses a practical limitation of standard RBFE, namely the requirement for ligand similarity, while avoiding common ABFE pitfalls such as occluded binding sites. The implementation across two simulation engines (AMBER and OpenMM) suggests potential for broad usability.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the three thermodynamic paths were tested on the BRD4(2) benchmark system and that correlations with ABFE, standard RBFE, and experimental results are discussed.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative results are presented. The abstract does not report any correlation coefficients, error metrics, or comparative performance data. The claim of testing and correlation is made without any supporting numbers.
+  - **Why it matters** The central value of this work lies in the demonstrated accuracy and reliability of the new implementation. Without quantitative evidence, the reader cannot judge whether the method performs adequately, whether the three paths are equivalent, or whether the results are competitive with existing approaches.
+  - **Resolution test** Provide correlation coefficients, mean unsigned errors, or similar metrics comparing the three paths against ABFE, standard RBFE, and experimental data, with appropriate uncertainty estimates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that three different thermodynamic paths for relative calculations were implemented.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the nature of the three thermodynamic paths, their differences, or the rationale for their inclusion. No information is given on how they relate to existing SepTop implementations or what specific advantages each path offers.
+  - **Why it matters** The methodological novelty and practical utility of the work depend on the design and implementation of these paths. Without this information, the reader cannot assess whether the implementation is sound, whether the paths are meaningfully distinct, or whether they address known limitations of existing approaches.
+  - **Resolution test** Describe each thermodynamic path in sufficient detail, including the alchemical transformations involved, the treatment of electrostatic and van der Waals interactions, and the specific advantages or limitations of each path.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation rigor
+  - **Claim pointer** The abstract implies that the implementation is validated through testing on the BRD4(2) benchmark system.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no information on the number of ligands tested, the diversity of the ligand set, the simulation lengths, the number of replicates, or the convergence criteria used. The choice of a single benchmark system, while reasonable, is not justified, and the generalizability of the results to other systems is unclear.
+  - **Why it matters** Validation on a single system with unspecified protocol details is insufficient to establish the reliability of a new computational tool. The reader cannot assess whether the results are robust, whether the method is broadly applicable, or whether the benchmark is representative.
+  - **Resolution test** Provide details on the benchmark system, including the number and diversity of ligands, simulation protocols, convergence assessment, and statistical treatment of results. Ideally, include additional test systems to demonstrate generalizability.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The term "separated topologies (SepTop)" is used without definition or reference. Readers unfamiliar with this specific approach may not understand what distinguishes it from other RBFE methods.
+  - **Required correction** Provide a brief definition or citation for SepTop in the abstract or introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Computational cost discussion
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that computational cost is discussed but provides no indication of the relative cost of the three paths or how they compare to standard ABFE or RBFE approaches.
+  - **Required correction** Include at least a qualitative statement on the relative computational cost of the three paths in the abstract, or indicate that this is addressed in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Software availability
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not mention where the software can be obtained, its license, or its documentation status.
+  - **Required correction** Add a statement on software availability, including a repository URL or distribution channel.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and validation rigor means the core claims of the work are not currently supported by the provided evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of SepTop with an automated ABFE workflow appears novel, but the abstract does not provide enough context to establish the degree of novelty relative to existing implementations.
+  - Scientific importance: The potential to apply RBFE to dissimilar ligands is scientifically important for drug discovery, but the abstract does not demonstrate that the implementation achieves this in practice.
+  - Interdisciplinary readership: The work is likely to interest computational chemists and method developers, but the abstract is too technical and lacks context for a broader interdisciplinary audience.
+  - Technical soundness: Cannot be assessed from the abstract. No methodological details or validation data are provided.
+  - Readability for nonspecialists: The abstract is concise but assumes familiarity with ABFE, RBFE, and alchemical free energy methods. The significance of the work is not framed for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual motivation is sound, but the abstract lacks the quantitative and methodological substance required to evaluate the implementation. A revised abstract with key results and methodological details, or access to the full manuscript, would be necessary to assess the work.
+
+## Risk / unsupported claims
+- The claim that the three thermodynamic paths were tested on BRD4(2) and show correlation with ABFE, standard RBFE, and experimental results is unsupported by any numerical data in the abstract.
+- The claim that SepTop avoids common challenges of ABFE calculations is presented as a general statement without supporting evidence specific to this implementation.
+- The claim that the implementation is automated and applicable to dissimilar ligands is plausible but not demonstrated in the abstract.
+- The relative computational cost of the three paths is mentioned but not quantified or even qualitatively described.

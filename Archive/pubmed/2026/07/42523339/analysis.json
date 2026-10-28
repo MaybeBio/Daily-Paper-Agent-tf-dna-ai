@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42523339",
+  "title": "A robust, sensitive phylogenetic method enables gene-level metagenomic analyses.",
+  "authors": "Tran, Nghi; Kananen, Kathryn; Bradley, Patrick H",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-07-29",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 2,
+  "one_liner_zh": "该文开发用于宏基因组差异丰度分析的稳健系统发育方法，虽涉及转录因子基因发现，但核心是微生物组统计方法，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "A key goal in the microbiome field is to move from taxonomic associations towards mechanistic hypotheses about microbial gene function. However, most methods for linking microbiome changes to specific genes are biased towards finding marker genes, with weak evidence for functional relevance. Phylogenetic regression can address this issue and has been previously applied to changes in microbial prevalence, but many environments (such as the gut in health vs. disease) are characterized more by changes in abundance, which presents unique statistical challenges. We show that when applied to real differential abundances from metagenomes, phylogenetic regression has an anti-conservative bias, indicating inflated false positives. We develop an alternative non-parametric method called \"robust permutration,\" designed specifically for differential abundance data, and evaluate its performance against phylogenetic regression as well as several other phylogenetic comparative methods in realistic simulations of metagenomic data. These results show that robust permutration is the most powerful method that appropriately controls the false positive rate. We further apply robust permutration to a human case-control study of liver cirrhosis, revealing that Lachnospiraceae abundance in disease is linked to a previously uncharacterized iron-sulfur transcription factor encoded near homologs of the butyryl-CoA oxygen oxidoreductase system, a recently discovered system for oxygen detoxification. This illustrates how robust, sensitive phylogenetic methods can enable the generation of new molecular hypotheses directly from metagenomic case-control data.",
+  "abstract_zh": "微生物组领域的一个关键目标是从分类学关联转向关于微生物基因功能的机制性假设。然而，大多数将微生物组变化与特定基因联系起来的方法偏向于发现标记基因，而对功能相关性的证据较弱。系统发育回归可以解决这一问题，并已被先前应用于微生物流行率的变化，但许多环境（如健康与疾病状态下的肠道）更多以丰度变化为特征，这带来了独特的统计挑战。我们表明，当将系统发育回归应用于来自宏基因组学的真实差异丰度时，其存在反保守偏差，表明假阳性率膨胀。我们开发了一种替代性非参数方法，称为“稳健置换 (robust permutration)”，专门针对差异丰度数据设计，并在宏基因组数据的现实模拟中，将其性能与系统发育回归及其他几种系统发育比较方法进行评估。这些结果表明，稳健置换是能适当控制假阳性率的最有力方法。我们进一步将稳健置换应用于一项人类肝硬化病例对照研究，揭示出疾病中毛螺菌科 (Lachnospiraceae) 的丰度与一个先前未表征的铁硫转录因子相关，该因子编码在丁酰辅酶A氧氧化还原酶系统同源物附近，后者是最近发现的用于氧解毒的系统。这说明了稳健、敏感的系统发育方法如何能够直接从宏基因组病例对照数据中生成新的分子假设。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42523339/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42523339/",
+  "paper_page_path": "papers/pubmed/42523339/index.html"
+}

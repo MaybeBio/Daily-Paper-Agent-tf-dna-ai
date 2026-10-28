@@ -1,0 +1,24 @@
+{
+  "source": "medrxiv",
+  "id": "10.1101/2021.08.15.21261805",
+  "title": "Leveraging sequences missing from the human genome to diagnose cancer",
+  "authors": "Georgakopoulos-Soares I; Barnea OY; Mouratidis I; Chan CS; Bradley R; Mahajan M; Sims J; Cintron DL; Easterlin R; Kim JS; Chen E; Pineda G; Parada GE; Witte JS; Maher CA; Feng F; Vathiotis I; Syrigos N; Panagiotou E; Charpidou A; Syrigos K; Chapman J; Kvale M; Hemberg M; Ahituv N",
+  "journal": "medRxiv",
+  "published_date": "2021-08-17",
+  "window": {
+    "start": "2021-08-16",
+    "end": "2021-08-22"
+  },
+  "score": 2,
+  "one_liner_zh": "该文利用肿瘤突变产生的neomer序列进行癌症诊断，虽涉及DNA序列与调控活性，但核心是cfDNA诊断应用，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Cancer diagnosis using cell-free DNA (cfDNA) has potential to improve treatment and survival but has several technical limitations. Here, we show that tumor-associated mutations create neomers, DNA sequences 13-17 nucleotides in length that are predominantly absent from genomes of healthy individuals, that can accurately detect cancer, including early stages, and distinguish subtypes and features. Using a neomer-based classifier, we show that we can distinguish twenty-one different tumor-types with higher accuracy than state-of-the-art methods. Refinement of this classifier using a handcrafted set of kmers identified additional cancer features with greater precision. Generation and analysis of 451 cfDNA whole-genome sequences demonstrates that neomers can precisely detect lung and ovarian cancer with an area under the curve (AUC) of 0.93 and 0.89, respectively. In particular, for early stages, we show that neomers can detect lung cancer with an AUC of 0.94 and ovarian cancer, which lacks an early detection test, with an AUC of 0.93. Finally, testing over 9,000 sequences with either promoter or massively parallel reporter assays, we show that neomers can identify cancer-associated mutations that alter regulatory activity. Combined, our results identify a novel, sensitive, specific and simple diagnostic tool that can also identify novel cancer-associated mutations in gene regulatory elements.",
+  "abstract_zh": "利用细胞游离DNA（cell-free DNA, cfDNA）进行癌症诊断有望改善治疗和生存率，但存在若干技术局限性。在此，我们表明肿瘤相关突变会产生新序列（neomers），即长度为13-17个核苷酸的DNA序列，这些序列在健康个体基因组中基本缺失，能够准确检测癌症（包括早期阶段），并区分亚型和特征。基于新序列的分类器，我们证明其能以高于现有最先进方法的准确性区分二十一种不同的肿瘤类型。通过手工设计的kmer集合对该分类器进行优化，进一步以更高精度识别了额外的癌症特征。对451个cfDNA全基因组序列的生成与分析表明，新序列能精确检测肺癌和卵巢癌，其曲线下面积（AUC）分别为0.93和0.89。特别是对于早期阶段，我们显示新序列能以AUC 0.94检测肺癌，并以AUC 0.93检测卵巢癌（后者目前缺乏早期检测手段）。最后，通过超过9,000个序列的启动子或大规模平行报告基因检测，我们表明新序列能识别改变调控活性的癌症相关突变。综合来看，我们的结果确定了一种新颖、灵敏、特异且简单的诊断工具，同时也能识别基因调控元件中的新型癌症相关突变。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.medrxiv.org/content/10.1101/2021.08.15.21261805",
+  "source_url": "https://www.medrxiv.org/content/10.1101/2021.08.15.21261805",
+  "paper_page_path": "papers/medrxiv/10.1101_2021.08.15.21261805/index.html"
+}

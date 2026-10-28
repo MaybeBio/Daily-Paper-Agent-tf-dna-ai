@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and presentation quality based solely on the supplied text
+- **Shared manuscript claim summary** The authors propose a computational framework using AlphaGenome, a sequence-to-function model, to infer functional transcription factor motif instances via in silico ablation. They apply this to C/EBPβ motifs near the TSC22D3 locus in multiple myeloma cells and compare predictions with CUT&RUN H3K27ac data following CEBPB knockout. They report concordant and discordant cases and interpret discrepancies biologically.
+- **Visible evidence base** Abstract, introduction, methods, results, discussion, conclusion, author contributions, funding, data availability statements. No figures, tables, or supplementary material were provided.
+- **Missing materials affecting confidence** All figures (Fig. 1, 2, 3, 4), Table 1, supplementary figures and sections, and the referenced experimental dataset (GSE312300) were not available for inspection. This substantially limits the ability to verify quantitative claims, statistical analyses, and biological interpretations.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach that leverages a large sequence-to-function model for motif-level functional inference. The idea of using in silico ablation with a matched sham-deletion null distribution is reasonable and potentially useful for hypothesis generation. However, the current evidence base is insufficient to establish the validity and generalizability of the framework. The case study is narrow, the comparison between model predictions and experimental data is indirect, and several key methodological details and validations are not fully described in the provided text. The manuscript reads more as a protocol demonstration than a validated method.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, particularly those interested in leveraging foundation models for functional annotation of noncoding elements. Researchers studying transcription factor biology, enhancer regulation, and multiple myeloma gene regulation may also find the case study relevant. The framework could appeal to those seeking scalable alternatives to experimental perturbation screens.
+- **Major strengths** 1. The conceptual shift from motif prediction to motif function via perturbation response is timely and aligns with the capabilities of modern sequence models. 2. The use of a sham-deletion null distribution for statistical confidence is a thoughtful design choice. 3. The authors acknowledge limitations and interpret discrepancies between model and experiment in a biologically nuanced manner. 4. The framework is presented as generalizable beyond the specific case study, which is appropriate for a methods-oriented paper.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that in silico motif ablation can identify functional motifs, with statistical significance assessed against a sham-derived null distribution.
+  - **Evidence pointer** Methods, Step 2; Results, In silico motif-effect inference; Table 1 (not provided)
+  - **Concern** The statistical framework for calling functional motifs is described only at a high level. Key details are missing: how the sham null distribution is constructed (e.g., number of sham positions, their genomic distribution, whether they are matched for GC content or chromatin state), how multiple testing is handled across 11 motifs and 9 histone tracks, and whether the 95% interval is a one-sided or two-sided test. Without these details, the reliability of the functional calls cannot be assessed.
+  - **Why it matters** The core claim of the paper rests on the statistical validity of the effect calling. If the null distribution is inappropriate or multiple testing is not controlled, the reported activating, repressive, and neutral classifications could be artifacts.
+  - **Resolution test** Provide a complete description of the sham ablation procedure, including the number and selection of sham positions, and specify the multiple testing correction method. Show that the null distribution is well-calibrated, for example, by demonstrating that sham deletions rarely produce significant LFC values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "Key activating motifs exhibited concordant loss of H3K27ac across both settings" and that discrepancies are "biologically interpretable."
+  - **Evidence pointer** Results, Comparison with experimental CEBPB knockout; Figure 3 (not provided)
+  - **Concern** The comparison between in silico predictions and experimental CEBPB knockout is indirect. The model predicts the effect of deleting a single motif instance, while the experiment removes the entire CEBPB protein. These are fundamentally different perturbations. The authors acknowledge this but do not provide a quantitative framework for what level of concordance would be expected under the null hypothesis of no predictive value. The reported concordance for motifs 5 and 8 under DMSO and motifs 5 and 7 under DEX is based on a small number of cases, and the statistical significance of this concordance is not established.
+  - **Why it matters** Without a clear expectation model, the concordance could be coincidental. The claim that the framework "recapitulates" experimental results is not supported by the evidence presented.
+  - **Resolution test** Provide a statistical test for concordance, such as a permutation test or a binomial test, that accounts for the number of motifs tested and the expected concordance by chance. Alternatively, present a more direct experimental validation, such as mutating individual motif instances and measuring H3K27ac changes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the framework "can be extended to additional TFs, cell types, and chromatin modalities" and represents a "scalable framework for hypothesis generation and regulatory annotation."
+  - **Evidence pointer** Abstract; Discussion; Conclusion
+  - **Concern** The generalizability claim is not supported by the evidence. The manuscript presents a single case study at one locus (TSC22D3) in one cell type (MM.1S) for one TF (C/EBPβ) and one chromatin mark (H3K27ac). The supplementary PPARG case study is mentioned but not provided in the text. Without demonstrating the framework on multiple TFs, loci, and cell types, the claim of generalizability is premature.
+  - **Why it matters** The novelty and impact of the approach depend on its broad applicability. A single case study, especially one with mixed concordance, is insufficient to establish this.
+  - **Resolution test** Include the supplementary PPARG case study in the main text or provide additional case studies across different TFs and cell types. Show that the framework performs consistently across diverse settings.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "AlphaGenome is a large sequence-to-function foundation model" and use it as their oracle for predictions.
+  - **Evidence pointer** Introduction; Methods, Step 2; Supplementary Section S1 (not provided)
+  - **Concern** The manuscript does not describe AlphaGenome's architecture, training data, or validation performance in sufficient detail. The authors refer to a supplementary section, but this is not available. Without understanding the model's capabilities and limitations, it is impossible to assess whether the predictions are reliable. The authors also do not discuss potential biases or failure modes of the model.
+  - **Why it matters** The entire framework depends on the quality of AlphaGenome's predictions. If the model is inaccurate for certain genomic contexts or chromatin marks, the conclusions drawn from the ablation analysis could be misleading.
+  - **Resolution test** Provide a detailed description of AlphaGenome, including its architecture, training data, and performance benchmarks. Discuss known limitations and how they might affect the results.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction assumes familiarity with sequence-to-function models and their applications. A brief explanation of what these models do and why they are relevant would improve accessibility.
+  - **Required correction** Add a sentence or two explaining the concept of sequence-to-function models and their potential for regulatory genomics.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Step 1
+  - **Evidence pointer** Methods, Step 1
+  - **Issue** The description of motif nomination is incomplete. The authors mention using FIMO with a relaxed threshold but do not specify the exact parameters, the reference genome version, or how overlapping motifs were handled.
+  - **Required correction** Provide full details of the motif scanning procedure, including FIMO version, parameters, and post-processing steps.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Motif nomination
+  - **Evidence pointer** Results, Motif nomination; Table 1 (not provided)
+  - **Issue** The authors state that 11 candidate motifs were detected but do not report the total number of motifs scanned or the false discovery rate. This makes it difficult to assess whether the relaxed threshold led to an excessive number of candidates.
+  - **Required correction** Report the total number of motifs scanned and the expected number of false positives at the chosen threshold.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion, Contextualizing model-experiment discrepancies
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The discussion of motif 3's discrepancy is speculative. The authors propose HDAC1 involvement but do not provide direct evidence for this mechanism.
+  - **Required correction** Clearly label this as a hypothesis and suggest specific experiments to test it.
+- **Technical failings that need to be addressed before the case is established** 1. Incomplete description of the statistical framework for effect calling (R1-M1). 2. Lack of a quantitative concordance test between in silico and experimental results (R1-M2). 3. Insufficient evidence for generalizability beyond a single case study (R1-M3). 4. Inadequate description of AlphaGenome and its validation (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The concept of using in silico ablation with a large sequence model for motif-level functional inference is moderately original, though related perturbation-based approaches exist. Scientific importance: The potential to scale functional annotation of regulatory elements is important, but the current evidence does not establish the framework's reliability. Interdisciplinary readership: The work bridges computational biology and experimental genomics, which could appeal to a broad audience, but the narrow case study limits its immediate impact. Technical soundness: The statistical and validation aspects are not fully described, preventing a thorough assessment. Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with sequence models and may be challenging for experimental biologists without computational background.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a promising idea, but the technical details and validation are insufficient to support the claims. Major revisions addressing the statistical framework, concordance analysis, and generalizability are required before the case is made.
+
+## Risk / unsupported claims
+- The claim that in silico ablation "recapitulates" experimental CEBPB knockout results is not quantitatively supported.
+- The claim of generalizability to other TFs, cell types, and chromatin modalities is unsupported by the presented evidence.
+- The biological interpretation of discrepancies, particularly the HDAC1-mediated mechanism for motif 3, is speculative and not directly tested.
+- The reliability of AlphaGenome's predictions is not assessable from the provided text.
+- The statistical significance of the functional motif calls cannot be evaluated without details of the sham null distribution and multiple testing correction.

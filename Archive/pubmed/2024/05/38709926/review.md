@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, significance statement, methods summary, data availability, author contributions)
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by presented evidence. Editorial or stylistic issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors propose that the antibiotic-sequestering protein TipAS from *Streptomyces lividans* exists in a finely balanced order–disorder equilibrium, with a conditionally disordered N-terminal subdomain (NTSD) that unfolds progressively between 298 and 313 K. They argue that this equilibrium produces multiple substates (N, N*, U) that modulate binding competence for thiopeptide antibiotics, and that this feature is conserved across orthologs from human-associated bacteria.
+- **Visible evidence base** Far-UV and near-UV CD, tryptophan fluorescence (steady-state and time-resolved), 1H-15N HSQC NMR, differential scanning calorimetry (DSC), SAXS, bWSME statistical mechanical modeling, explicit-solvent MD simulations, site-directed mutants (W30A, W51A), thiostrepton binding experiments, AlphaFold2 structure predictions, bioinformatic analysis of seven orthologs.
+- **Missing materials affecting confidence** The SI Appendix is referenced extensively (Figs. S1–S8, Tables S1–S4) but was not provided. This includes mutant characterization details, SAXS fitting parameters, MD simulation convergence criteria, and the full bWSME model parameterization. Without these, several quantitative claims cannot be fully verified.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and multi-pronged characterization of a protein that appears to sit at a structural tipping point between order and disorder. The combination of experimental probes, statistical mechanical modeling, and simulation is ambitious and largely appropriate. The central claim, that a finely balanced order–disorder equilibrium governs the folding–binding landscape of TipAS, is well motivated and supported by converging lines of evidence. However, several quantitative claims, particularly regarding the population ratios of substates and the conservation argument across orthologs, rest on assumptions and indirect inferences that require closer scrutiny. The manuscript would be strengthened by a more critical treatment of model limitations and by direct experimental tests of the proposed mechanism.
+- **Who would be interested in the results, and why** Researchers studying protein folding and binding mechanisms, particularly those interested in partially disordered states and their functional roles. The work is also relevant to the antibiotic resistance community, as it provides a mechanistic framework for understanding how sensor proteins achieve binding promiscuity. Methodologically, the combination of bWSME modeling with multiple experimental probes will interest biophysicists working on intrinsically disordered proteins and folding landscapes.
+- **Major strengths**
+  1. The multi-probe experimental strategy is exemplary. The authors use orthogonal techniques (CD, fluorescence, NMR, DSC, SAXS) to cross-validate the existence of a partially disordered state, and the consistency across probes is convincing.
+  2. The bWSME model provides a quantitative framework that connects the experimental observables to a physical picture of the conformational landscape. The model predictions are tested against multiple independent measurements.
+  3. The identification of a specific functional role for the disorder (binding competence) and the demonstration that ligand binding shifts the equilibrium are important conceptual advances.
+  4. The conservation analysis across orthologs, while preliminary, opens a potentially important evolutionary dimension.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative claim support
+  - **Claim pointer** The authors state that at 298 K, the population ratio of N:N*:U is 25:70:5, changing to 5:60:35 at 310 K (Discussion section).
+  - **Evidence pointer** Discussion section; based on fluorescence lifetime amplitudes (Fig. 4E) and bWSME model predictions (Fig. 3).
+  - **Concern** These population ratios are presented as quantitative results, but the derivation is not transparent. The fluorescence lifetime amplitudes are assigned to specific substates based on qualitative reasoning, and the bWSME model populations depend on model parameters that are not fully described in the main text. The conversion from lifetime amplitudes to absolute populations requires assumptions about quantum yields and radiative rates that are not stated. The agreement between the fluorescence-derived populations and the model predictions is asserted but not quantitatively demonstrated.
+  - **Why it matters** The population ratios are central to the paper's thesis that TipAS exists in a finely balanced equilibrium. If these numbers are not robust, the quantitative framing of the entire manuscript is weakened. Readers cannot assess the reliability of these values without a clear derivation.
+  - **Resolution test** Provide a detailed derivation of how lifetime amplitudes are converted to populations, including all assumptions. Show a quantitative comparison between fluorescence-derived populations and bWSME predictions across the full temperature range, with error estimates. If the model parameters are adjusted within reasonable bounds, do the qualitative conclusions remain?
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic claim support
+  - **Claim pointer** The authors propose a conformational-selection-like (CS) mechanism of binding, with deviations observed in the presence of ligand (Results section, "Thiostrepton-Induced Population Shifts of Substates").
+  - **Evidence pointer** Results section, Fig. 8; Discussion section.
+  - **Concern** The evidence for a CS mechanism is indirect. The authors observe that the N* population is depleted and the bound state increases with increasing TSN concentration, which is consistent with CS but also with induced fit. The deviation from pure CS is inferred from the observation that the N* state is stabilized by 20 K in the presence of TSN, but this is interpreted as "partial binding" without direct structural evidence. The distinction between CS and induced fit requires kinetic measurements or direct observation of the binding pathway, neither of which is presented.
+  - **Why it matters** The mechanistic claim (CS vs. induced fit) is a significant part of the paper's conceptual contribution. If the mechanism is actually a hybrid or predominantly induced fit, the interpretation of the order–disorder equilibrium as a pre-existing binding-competent state would need revision.
+  - **Resolution test** Perform kinetic binding experiments (e.g., stopped-flow or surface plasmon resonance) to distinguish between CS and induced fit. Alternatively, use NMR relaxation dispersion to directly observe the conformational exchange between N and N* and its coupling to ligand binding. If such experiments are not feasible, temper the mechanistic claim to reflect the ambiguity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of conclusions
+  - **Claim pointer** The authors conclude that the order–disorder equilibrium is conserved across orthologs from human-associated bacteria, based on AlphaFold2 predictions and bWSME modeling (Results section, "Disorder Determinants and a Conserved Weakly Stable NTSD Across Orthologs").
+  - **Evidence pointer** Results section, Fig. 9E–N.
+  - **Concern** The conservation argument relies on computational predictions (AlphaFold2 and bWSME) without experimental validation for any of the seven orthologs. AlphaFold2 predicts structure, not dynamics or stability, and the pLDDT score is an imperfect proxy for disorder. The bWSME predictions for orthologs use parameters derived from TipAS, which may not transfer. The claim of "conserved" features is therefore premature.
+  - **Why it matters** The evolutionary argument is a key part of the paper's significance, as it suggests a broadly relevant mechanism. If the ortholog predictions are not validated, this claim is speculative.
+  - **Resolution test** Experimentally characterize at least one or two orthologs using the same techniques applied to TipAS (e.g., CD or fluorescence melting). If this is not feasible, soften the language from "conserved" to "predicted to be conserved" and clearly state the computational nature of the evidence.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation
+  - **Claim pointer** The bWSME model is used to predict the conformational landscape, including the population of the fully folded state F at less than 0.5% at 298 K and the free energy barrier of 10 kJ mol−1 at 278 K (Results section, "The Conformational Landscape of TipAS").
+  - **Evidence pointer** Results section, Fig. 3D–G.
+  - **Concern** The bWSME model is a coarse-grained statistical mechanical model with parameters that must be calibrated. The authors state that the model reproduces the calorimetric profile, but the quality of the fit is not shown quantitatively. The model's predictions for the population of F and the barrier height are not directly validated by any experiment. The claim that F is an "excited state" is interesting but rests entirely on model assumptions.
+  - **Why it matters** The model provides the quantitative framework for interpreting the experimental data. If the model is not well-validated, the quantitative conclusions drawn from it are uncertain.
+  - **Resolution test** Show the quality of the bWSME fit to the calorimetric data, including residuals. Perform a sensitivity analysis on model parameters to determine how robust the predictions for F population and barrier height are. If possible, use an independent experimental method (e.g., hydrogen-deuterium exchange or NMR) to probe the population of the fully folded state.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Fig. 4E
+  - **Evidence pointer** Results section, "Temperature-Driven Equilibrium between Binding-Competent and Incompetent States"
+  - **Issue** The assignment of the three fluorescence lifetimes to specific substates (N, N*, U) is described in the text but the reasoning is not fully transparent. The authors state that τ1 reports on "folded-like rotameric states" and τ3 on "unfolded-like conformations," but the basis for these assignments is not fully explained.
+  - **Required correction** Provide a more detailed justification for the lifetime assignments, possibly referencing control experiments or literature precedents. If possible, include a supplementary figure showing the lifetime distributions and their temperature dependence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** SAXS analysis
+  - **Evidence pointer** Results section, "The Native Ensemble of TipAS Swells on Temperature Increase from 298 to 313 K"
+  - **Issue** The SAXS data are used to support the claim of ensemble expansion, but the analysis is described only briefly. The ensemble optimization method is mentioned but the details of the fitting procedure, including the number of conformations in the pool and the quality of the fits, are not provided in the main text.
+  - **Required correction** Move some of the SAXS analysis details from the SI to the main text, or at least summarize the key fitting parameters and the quality of the fits. This will allow readers to assess the robustness of the conclusion.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Fig. 9A
+  - **Evidence pointer** Results section, "Disorder Determinants and a Conserved Weakly Stable NTSD Across Orthologs"
+  - **Issue** The charge-hydropathy (Uversky) plot places the NTSD in the disordered region, but this analysis is based on the full sequence of the NTSD. The authors later show that parts of the NTSD (e.g., helix 3) can be structured. The use of a binary order/disorder classifier may oversimplify the situation.
+  - **Required correction** Acknowledge the limitation of the charge-hydropathy analysis and complement it with residue-level disorder predictions (e.g., IUPred or PONDR) to provide a more nuanced view.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the "fuzzy complex" concept is brief and not well integrated with the experimental data. The authors mention it as a possibility but do not discuss what evidence would be needed to support or refute it.
+  - **Required correction** Expand the discussion of the fuzzy complex model, and clearly state what experimental observations would distinguish it from other models of binding.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The derivation of substate populations from fluorescence lifetime data is not transparent and needs to be fully documented.
+  - R1-M2: The conformational-selection mechanism is not directly tested; the evidence is consistent with but does not uniquely support this model.
+  - R1-M3: The conservation claim across orthologs is based solely on computational predictions without experimental validation.
+  - R1-M4: The bWSME model predictions for the fully folded state population and barrier height are not validated by independent experiments.
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of a finely balanced order–disorder equilibrium as a functional determinant of antibiotic sequestration is novel. While partially disordered proteins are known, the specific application to a bacterial antibiotic sensor and the detailed characterization of the equilibrium are original contributions.
+  - **Scientific importance** The work has implications for understanding antibiotic resistance mechanisms and for the general biophysics of proteins that function at the order–disorder boundary. The potential conservation across human-associated bacteria adds translational relevance.
+  - **Interdisciplinary readership** The work bridges biophysics, structural biology, and microbiology. The significance statement is accessible, but the main text assumes substantial expertise in biophysical methods. The broader microbiology community may find the methods sections challenging.
+  - **Technical soundness** The experimental work is generally rigorous, with appropriate controls and cross-validation across techniques. However, the quantitative claims derived from the fluorescence lifetime analysis and the bWSME model require more detailed justification. The computational predictions for orthologs are not experimentally validated.
+  - **Readability for nonspecialists** The significance statement is clear and compelling. The main text is dense but well-organized. Some figures (e.g., Fig. 4E) are complex and would benefit from clearer annotation. The discussion is accessible but could be expanded to better contextualize the findings for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core experimental observations are convincing and the conceptual framework is valuable. However, the quantitative population ratios, the mechanistic claim of conformational selection, and the conservation argument need to be either more rigorously supported or appropriately qualified. If the authors can provide the missing derivations, validate the model predictions, and temper the over-reaching claims, this would be a strong contribution.
+
+## Risk / unsupported claims
+- The specific population ratios of N:N*:U (25:70:5 at 298 K; 5:60:35 at 310 K) are not derivable from the presented evidence without additional assumptions.
+- The claim of a conformational-selection mechanism is not uniquely supported by the data; induced fit or a hybrid mechanism cannot be excluded.
+- The conservation of the order–disorder equilibrium across seven orthologs is predicted computationally but not experimentally verified.
+- The assertion that the fully folded state F is populated at less than 0.5% at 298 K is a model prediction without direct experimental confirmation.
+- The interpretation of the 20 K stabilization of N* in the presence of TSN as "partial binding" is speculative and lacks structural evidence.

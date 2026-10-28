@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41263099",
+  "title": "The PROSITE database for protein families, domains, and sites.",
+  "authors": "Sigrist, Christian J A; Cuche, Beatrice A; de Castro, Edouard; Coudert, Elisabeth; Redaschi, Nicole; Bridge, Alan",
+  "journal": "Nucleic acids research",
+  "published_date": "2025-11-20",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文介绍PROSITE数据库的更新，虽涉及转录因子POU2F和NF-kappaB的关联发现及AlphaFold结构使用，但核心是数据库资源描述，缺乏对TF-DNA结合互作机制或AI/物理模拟方法的深入研究。",
+  "abstract": "PROSITE (https://prosite.expasy.org/) is a database of entries documenting protein domains, families, and functional sites, along with the associated patterns and profiles used to identify them. It is complemented by ProRule, a rule collection that enhances the discriminatory power of these profiles and patterns by providing additional information about amino acids critical for function and/or structure. Together, PROSITE motifs and ProRules are used to annotate domains and features in UniProtKB/Swiss-Prot entries. Since the onset of the COVID-19 pandemic, PROSITE has contributed to SARS-CoV-2 research by leveraging existing tools and by developing new profiles and ProRules for SARS-CoV-2 protein domains. A newly developed profile has also uncovered a link between coregulators of two transcription factor families: POU2F and NF-kappaB. ProRule has been updated to incorporate the ChEBI ontology to describe chemical ligands and the Rhea reference vocabulary for biochemical reaction annotation. Predicted tridimensional (3D) structures from AlphaFold are now regularly used to define domain boundaries during profile construction. ScanProsite has been enhanced to allow users to visualize motif matches on AlphaFold-predicted structures. In addition, the original pfsearch code has been fully rewritten and optimized to make efficient use of modern multi-core processors, with a new heuristic implemented to further improve performance.",
+  "abstract_zh": "PROSITE (https://prosite.expasy.org/) 是一个记录蛋白质结构域、家族和功能位点条目，以及用于识别这些条目的相关模式和谱的数据库。它由ProRule补充，这是一个规则集合，通过提供对功能和/或结构至关重要的氨基酸的额外信息，增强了这些谱和模式的判别能力。PROSITE基序和ProRules共同用于注释UniProtKB/Swiss-Prot条目中的结构域和特征。自COVID-19大流行开始以来，PROSITE通过利用现有工具并为SARS-CoV-2蛋白结构域开发新的谱和ProRules，为SARS-CoV-2研究做出了贡献。一个新开发的谱还揭示了两个转录因子家族共调节因子之间的联系：POU2F和NF-kappaB。ProRule已更新，以纳入ChEBI本体来描述化学配体，以及Rhea参考词汇用于生化反应注释。来自AlphaFold的预测三维（3D）结构现在在谱构建过程中定期用于定义结构域边界。ScanProsite已增强，允许用户在AlphaFold预测结构上可视化基序匹配。此外，原始的pfsearch代码已被完全重写和优化，以高效利用现代多核处理器，并实现了一种新的启发式方法以进一步提高性能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41263099/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41263099/",
+  "paper_page_path": "papers/pubmed/41263099/index.html"
+}

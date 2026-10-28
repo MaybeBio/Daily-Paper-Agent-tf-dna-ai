@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42561152",
+  "title": "Functional motif detection via in silico ablation using AlphaGenome.",
+  "authors": "Liang, Yuxuan; Dziadowicz, Sebastian A; Wang, Lei; Hu, Gangqing; Yan, Pingkun; Wang, Ge",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2026-08-06",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "score": 7,
+  "one_liner_zh": "利用AlphaGenome序列功能大模型对C/EBPβ基序进行虚拟敲除，预测TF-DNA基序功能贡献并与CUT&RUN验证，属于TF-DNA结合位点功能预测的AI方法，但未涉及三维互作建模或动态机制。",
+  "abstract": "Deciphering which transcription factor (TF) motif instances are functionally required for enhancer activity typically demands ChIP-based assays or labor-intensive perturbation experiments. We introduce a virtual motif-perturbation framework that uses AlphaGenome, a large sequence-to-function foundation model, to infer motif-level regulatory contribution directly from DNA sequence. Candidate C/EBP$\\mathrm\\beta $ motifs are identified within chromatin-active regions and systematically ablated in silico; the resulting changes in predicted regulatory activity are quantified and assessed against a sham-derived null distribution to establish statistical confidence. To evaluate whether sequence-level perturbations recapitulate biologically meaningful regulatory dependence, we compared in silico predictions with CUT&RUN measurements of H3K27ac following CEBPB knockout in multiple myeloma cells. Key activating motifs exhibited concordant loss of H3K27ac across both settings, whereas loci with apparent discrepancies reflected biologically interpretable mechanisms. Together, these findings suggest that large sequence-based models can approximate the directional consequences of TF perturbation, supporting motif-level functional analysis directly from DNA sequence. This supports sequence-only virtual ablation as a scalable framework for hypothesis generation and regulatory annotation that can be extended to additional TFs, cell types, and chromatin modalities.",
+  "abstract_zh": "解析哪些转录因子（TF）基序实例对增强子活性具有功能必要性，通常需要基于ChIP的检测或劳动密集型的扰动实验。我们引入了一种虚拟基序扰动框架，利用AlphaGenome（一个大型序列到功能的基础模型）直接从DNA序列推断基序层面的调控贡献。在染色质活性区域内识别候选的C/EBP$\\mathrm\\beta $基序，并在计算机中系统性地进行消融；随后量化预测调控活性的变化，并与基于假象（sham）导出的零分布进行比较，以建立统计置信度。为了评估序列层面的扰动是否能重现具有生物学意义的调控依赖性，我们将计算机预测与多发性骨髓瘤细胞中CEBPB敲除后的H3K27ac CUT&RUN测量结果进行了比较。关键激活基序在两种情境下均表现出H3K27ac的一致丢失，而存在明显差异的位点则反映了生物学上可解释的机制。综合这些发现表明，大型基于序列的模型能够近似TF扰动的方向性后果，支持直接从DNA序列进行基序层面的功能分析。这支持仅基于序列的虚拟消融作为假设生成和调控注释的可扩展框架，并可扩展到其他TF、细胞类型和染色质模态。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42561152/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42561152/",
+  "paper_page_path": "papers/pubmed/42561152/index.html"
+}

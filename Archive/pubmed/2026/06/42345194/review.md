@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, supplementary references)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidentiary support as presented in the provided text; no external verification of data or code
+- **Shared manuscript claim summary** The authors argue that AlphaFold3 (AF3) performs poorly at predicting protein–DNA complex structures, even for a minimal-difficulty test case (I-OnuI variants), and warn that hybrid models (AF3 predictions docked into low-resolution CryoEM maps) may contaminate future training sets, perpetuating inaccuracies.
+- **Visible evidence base** 13 crystallographic structures of I-OnuI variants (1.92–2.70 Å resolution), one crystallographic structure of I-PnoMI (1.87 Å), AF3 predictions for all, RMSD comparisons, DNA conformational parameter analyses, pLDDT/ipTM/pTM scores, supplementary figures and tables referenced
+- **Missing materials affecting confidence** Actual structural coordinates, RMSD values per residue, DNA parameter tables, pLDDT plots, AF3 input/output details, and the supplementary data folder are not provided in the text; only referenced
+
+## Reviewer
+- **Overall assessment** This manuscript presents a timely and important cautionary analysis of AF3's limitations for protein–DNA complex prediction. The authors use a well-chosen minimal system (I-OnuI variants) to demonstrate that even with minimal sequence and structural perturbation, AF3 fails to accurately model DNA conformation, hydration, and contact geometry. The extension to a realistic homology modeling case (I-PnoMI) strengthens the argument, showing a fundamentally incorrect orientation and register prediction. The writing is clear and accessible, and the broader concerns about training set contamination are well articulated. However, the manuscript's evidentiary base is incompletely presented in the provided text, and several claims require additional quantitative detail to be fully assessed. The philosophical and practical warnings are justified, but the case would be strengthened by more systematic benchmarking and explicit comparison to alternative tools or protocols.
+- **Who would be interested in the results, and why** Structural biologists, computational biologists, and developers of AI-based prediction tools. Also, experimentalists who use AF3 or similar tools to guide design of DNA-binding proteins or interpret CryoEM maps of protein–nucleic acid complexes. The cautionary message is directly relevant to the broad user base of AF3, which extends beyond specialists.
+- **Major strengths** (1) The choice of a minimal-difficulty system is methodologically sound and makes the failure mode particularly striking. (2) The inclusion of a realistic homology modeling case (I-PnoMI) demonstrates practical relevance. (3) The authors provide a clear, accessible explanation of the structural and chemical basis of the prediction failures. (4) The discussion of training set contamination is an important and forward-looking concern. (5) The tone is balanced, acknowledging the transformative value of AF3 while documenting its limitations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that AF3 predictions display "significant inaccuracies" in DNA conformation, solvation, and contact assignment across all 13 I-OnuI variants, and that the I-PnoMI prediction is "fundamentally incorrect."
+  - **Evidence pointer** Table 1, Fig. 1, Fig. 2, Fig. 3, Fig. 4, Supplementary Fig. S1, Supplementary Table S1; location not provided for specific values
+  - **Concern** The manuscript text describes the results qualitatively but does not provide the quantitative data needed to evaluate the magnitude and consistency of the reported failures. For example, RMSD values are given as ranges (2.45–4.57 Å for DNA), but per-structure values, per-residue breakdowns, and statistical comparisons to alternative methods are not shown. The DNA conformational parameter analysis is described for one example (eI-OnuI_P456_ACA) but not systematically for all 13 variants. The claim that "the choice of which AF3 model to focus on made little difference" is stated but not demonstrated with data. Without these details, the reader cannot independently assess the robustness of the conclusions.
+  - **Why it matters** The central claim of the manuscript is that AF3 systematically fails at protein–DNA prediction. This claim must be supported by complete, transparent quantitative evidence. If the failures are only significant for a subset of variants or are within the range of expected AF3 uncertainty, the conclusions would be substantially weakened.
+  - **Resolution test** Provide a supplementary table with per-structure RMSD values (protein, DNA, interface), per-residue DNA parameter deviations (all 13 variants), and a comparison of AF3 performance to a baseline (e.g., simple homology modeling or a docking tool). Show the distribution of pLDDT values across the P456 region for all variants, not just one example.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors state that the I-PnoMI AF3 prediction places the enzyme "in an inverted orientation on the DNA target site, with its center and corresponding cleavage sites shifted by two full basepairs."
+  - **Evidence pointer** Fig. 3; location not provided
+  - **Concern** The manuscript does not describe the AF3 input protocol in sufficient detail. Were the DNA sequence and protein sequence provided as separate chains? Were any restraints or constraints applied? Was the prediction performed with the default server settings or with custom parameters? The authors also do not state how the "best" of the five AF3 models was selected for the I-PnoMI case, nor do they show the other four models. The claim that 4/5 models were inverted is stated but not visualized or quantified.
+  - **Why it matters** AF3 predictions can be sensitive to input formatting, sequence alignment, and model selection. Without a detailed protocol, the reproducibility of the finding is unclear, and the possibility of a user-error artifact cannot be excluded.
+  - **Resolution test** Provide the full AF3 input sequences, the server version and settings used, and a figure showing all five predicted models for I-PnoMI aligned to the crystal structure. State explicitly how the "best" model was chosen.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors generalize from the I-OnuI/I-PnoMI system to state that AF3 has "elevated potential to be misleading" for protein–DNA complexes broadly.
+  - **Evidence pointer** Introduction, Discussion; location not provided
+  - **Concern** The manuscript is based on a single protein family (LAGLIDADG homing endonucleases). The authors acknowledge this limitation in the Introduction but do not systematically address it in the Discussion. The claim that AF3 performance on this family is representative of protein–DNA complexes in general is not supported by the data presented. The authors also note that some AF3 predictions of protein–DNA complexes have been successful (referencing [55]) but do not reconcile this with their negative results.
+  - **Why it matters** The manuscript's title and framing suggest a broad cautionary message. If the failures are specific to this protein family or to the particular mode of DNA binding (e.g., minor groove recognition, DNA bending), the generalizability of the warning would be limited.
+  - **Resolution test** Add a section discussing the known diversity of protein–DNA binding modes and the extent to which the I-OnuI system is representative. If possible, include a small number of additional test cases from different protein families to demonstrate the breadth of the problem.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states that AF3 "has transformed modern molecular and cellular biology" but does not specify the scope of this transformation. This is an overstatement that may mislead readers unfamiliar with the field.
+  - **Required correction** Qualify the statement, e.g., "has had a significant impact on structural biology and related fields."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** "All structures were solved with HKL2000 [47], PHASER [48], Phenix [49], COOT [50], and CCP4 [51]"
+  - **Issue** The software versions and specific refinement parameters are not provided. This is insufficient for reproducing the crystallographic analyses.
+  - **Required correction** Add a supplementary methods section with software versions, refinement statistics, and validation metrics (e.g., R-free, Ramachandran statistics).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** "The PDB files of all superimposed crystallographic structures and AF3 models, along with PyMol session files of the same superpositions and final refined .mtz map files for the crystal structures, are provided in a downloadable Supplementary Data Folder"
+  - **Issue** The statement does not specify the file format, size, or access mechanism for the supplementary data folder. It is also unclear whether the AF3 models are raw server outputs or post-processed.
+  - **Required correction** Specify the file formats, provide a direct download link or accession number, and state whether the AF3 models are raw outputs.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, third concern
+  - **Evidence pointer** "the incorporation of hybrid models... into future training sets may lead to an ongoing and inappropriate learning cycle"
+  - **Issue** This is a speculative claim that is not supported by direct evidence. While plausible, it is presented as a near-certainty.
+  - **Required correction** Soften the language, e.g., "may lead to an ongoing and inappropriate learning cycle, although this remains to be demonstrated."
+- **Technical failings that need to be addressed before the case is established** (1) Incomplete quantitative presentation of the 13-variant comparison (R1-M1). (2) Insufficient detail on AF3 input protocol and model selection (R1-M2). (3) Lack of systematic comparison to alternative prediction methods or baselines. (4) No statistical analysis of the significance of the observed deviations.
+- **Assessment against Nature-style criteria** Originality: The manuscript addresses a timely and under-explored problem, namely the reliability of AF3 for protein–DNA complexes. While individual failures have been noted elsewhere, the systematic analysis of a minimal-difficulty system and the homology modeling case is a novel contribution. Scientific importance: The findings are important for the broad community of AF3 users, as they highlight a critical limitation that is not widely appreciated. The warning about training set contamination is forward-looking and significant. Interdisciplinary readership: The manuscript is written in an accessible style and should be understandable to structural biologists, computational biologists, and experimentalists. Technical soundness: The crystallographic work appears sound, but the computational analysis is incompletely presented, and the lack of quantitative detail limits the strength of the conclusions. Readability for nonspecialists: The manuscript is well-written and clear, with helpful figures and a logical structure. Overall, the manuscript has the potential to be an important contribution, but the evidentiary base must be strengthened.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core message is important and likely correct, but the manuscript as presented does not provide sufficient quantitative evidence to fully establish the case. The authors should provide the missing data, clarify the AF3 protocol, and consider adding a small number of additional test cases to strengthen generalizability.
+
+## Risk / unsupported claims
+- The claim that AF3 predictions are "fundamentally incorrect" for I-PnoMI is supported by the described result but requires the full set of five models to be shown for verification.
+- The claim that "the choice of which AF3 model to focus on made little difference" is stated but not demonstrated with data.
+- The claim that hybrid models in training sets "may lead to an ongoing and inappropriate learning cycle" is speculative and not directly supported by evidence in this manuscript.
+- The generalization from the I-OnuI/I-PnoMI system to protein–DNA complexes broadly is not fully supported, as only one protein family is examined.
+- The statement that AF3 "has transformed modern molecular and cellular biology" is an overstatement that is not substantiated in the manuscript.

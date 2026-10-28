@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends not provided)
+- **Assessment boundary** Scientific content, technical soundness, claims vs. evidence, and alignment with Nature-style criteria based solely on the provided text
+- **Shared manuscript claim summary** The authors present EXTRA-seq, a genome-integrated massively parallel reporter assay that quantifies enhancer-promoter communication over kilobase distances. They claim it captures expression changes at single transcription factor binding site resolution, reveals TATA-box as a dynamic range amplifier, and that integrating deep learning models with plasmid-based assays improves gene expression prediction.
+- **Visible evidence base** Abstract, Introduction, Results (narrative only), Discussion, Methods (detailed protocols), figure callouts (Figures 1-6, Supplemental Figures 1-6)
+- **Missing materials affecting confidence** All figures and figure legends, all supplemental figures and legends, raw data, statistical analysis outputs, code, and sequencing data. These are referenced but not provided.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a technically ambitious and potentially valuable new assay for studying enhancer-promoter communication in an endogenous genomic context. The core concept, using RMCE to integrate reporter constructs at a defined locus with kilobase-scale enhancer-promoter distances, addresses a genuine gap in existing MPRA methodologies. The authors demonstrate applications to disease-relevant variants, single TFBS resolution, and provide intriguing biological findings regarding TATA-box function. However, the manuscript as presented has significant limitations. The results section is entirely narrative with no actual data shown, making it impossible to evaluate the strength of the claims. Several key technical details are unclear or potentially problematic, particularly regarding the RMCE efficiency, the use of a single genomic locus, and the interpretation of the TATA-box "dynamic range amplifier" effect. The comparison with deep learning models, while interesting, is presented in a way that is difficult to assess without seeing the actual predictions and statistical comparisons. The manuscript would benefit from a more rigorous presentation of the data, clearer statistical analyses, and a more cautious interpretation of some findings that may be confounded by the specific genomic context used.
+- **Who would be interested in the results, and why** Researchers in gene regulation, enhancer biology, and non-coding genomics would find this assay of interest as it offers a new tool for studying E-P communication in a more native context than episomal assays. Those working on variant effect prediction and deep learning models for gene expression would be interested in the benchmarking and integration results. The TATA-box findings could attract interest from the transcription mechanism community. The method could also be relevant for those studying disease-associated non-coding variants.
+- **Major strengths** 1) The assay concept addresses a real limitation of existing MPRA approaches by providing a genome-integrated context with kilobase-scale distances. 2) The use of barcoding and pooled screening enables quantitative, high-throughput measurements. 3) The application to a disease-relevant locus (AXIN2) with a known variant demonstrates potential biomedical utility. 4) The systematic comparison with both episomal assays and deep learning models is a valuable contribution. 5) The finding regarding TATA-box as a dynamic range amplifier is novel and potentially important.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that EXTRA-seq "captures expression changes at the resolution of individual transcription factor binding sites" and that it can be targeted to disease-relevant loci.
+  - **Evidence pointer** Results section, Figure 3, Supplemental Figure 4
+  - **Concern** The results section is entirely narrative with no actual data presented. The claim of single TFBS resolution is based on experiments with 19 individual TFBSs, but no data showing the actual expression measurements, statistical significance, or effect sizes are provided. The validation of the AXIN2 locus targeting is described but the actual data showing correct integration, mono-allelic modification, and functional outcomes are not shown. Without seeing the actual data, it is impossible to assess whether the assay truly achieves the claimed resolution and sensitivity.
+  - **Why it matters** The central claims of the paper rest on the ability of EXTRA-seq to detect subtle differences in enhancer activity at the level of individual TFBSs. If the assay cannot reliably distinguish between different TFBSs or if the effect sizes are small and variable, the conclusions drawn from these experiments would be undermined. The lack of data makes it impossible to evaluate the technical quality and reliability of the measurements.
+  - **Resolution test** Provide the actual data for the TFBS experiments, including the expression levels for each of the 19 TFBSs, the statistical comparisons between them, and the reproducibility across replicates. Show the validation data for the AXIN2 locus integration, including PCR or sequencing confirmation of correct integration, and demonstrate that the assay can reliably distinguish between different TFBSs with appropriate statistical power.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "integrating state-of-the-art deep learning models with plasmid-based enhancer assays improves the prediction of gene expression as measured by EXTRA-seq."
+  - **Evidence pointer** Results section, Figure 6
+  - **Concern** The claim that combining STARR-seq and Enformer predictions improves correlation with EXTRA-seq measurements is presented without any actual data. The methods for combining these predictions are described (summing log-transformed normalized activities), but the actual correlations, the statistical significance of the improvement, and the comparison to individual predictors are not shown. Furthermore, the use of the enhancer deletion construct for normalization across tools is not justified, and it is unclear whether this normalization is appropriate given the different scales and units of the different measurements.
+  - **Why it matters** This is a key claim of the paper, suggesting that the integration of different data types can improve predictive modeling. If the improvement is not statistically significant or is driven by a few outliers, the conclusion would be weakened. The lack of data makes it impossible to evaluate the strength of this claim.
+  - **Resolution test** Provide the actual correlation values for each individual predictor and for the combined predictors, with confidence intervals and p-values for the improvement. Show scatter plots of predicted versus measured activities. Justify the normalization approach and demonstrate that the improvement is robust to different normalization strategies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "the TATA-box acts as a dynamic range amplifier, modulating expression levels in function of enhancer strength."
+  - **Evidence pointer** Results section, Figure 5
+  - **Concern** The finding that TATA-box suppresses expression from weak enhancers while amplifying strong enhancers is presented as a novel discovery. However, the data supporting this claim are not shown. The analysis involves stratifying pairwise differences in logFC across promoter modifications by enhancer strength, but the actual data, the statistical analysis, and the effect sizes are not presented. Furthermore, the interpretation of this effect as "noise suppression" is speculative and not directly tested. The authors do not consider alternative explanations, such as differential transcription factor occupancy or changes in promoter-proximal pausing.
+  - **Why it matters** This is a potentially important biological finding, but the lack of data and the speculative interpretation make it difficult to assess its validity. If the effect is small or driven by a few specific enhancer-promoter combinations, the conclusion would be overstated. The claim of novelty also needs to be more carefully evaluated in the context of existing literature on TATA-box function.
+  - **Resolution test** Provide the actual data showing the relationship between enhancer strength and the effect of TATA-box insertion. Show the statistical analysis, including the correlation coefficients and p-values. Provide additional experiments or analyses to support the "noise suppression" interpretation, such as measuring expression variability across replicates or testing the effect of TATA-box on enhancer-independent (basal) transcription.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that EXTRA-seq "can be targeted to endogenous loci of interest" and that it "captures expression changes at the resolution of individual transcription factor binding sites."
+  - **Evidence pointer** Methods, Results section, Figure 1
+  - **Concern** The assay relies on RMCE to integrate a reporter cassette at a specific locus. The efficiency of this process is reported to be 1-6%, which is quite low. The authors do not discuss how this low efficiency might affect the representativeness of the results or whether there is any selection bias in the cells that successfully undergo RMCE. Additionally, the use of a single locus (AXIN2) raises questions about the generalizability of the findings. The authors acknowledge this limitation but do not provide any data from additional loci to support the broader applicability of the assay.
+  - **Why it matters** The low integration efficiency could introduce biases in the measured activities, and the use of a single locus limits the generalizability of the conclusions. Without data from multiple loci or a discussion of how the integration site might affect the results, it is difficult to assess the broader utility of the assay.
+  - **Resolution test** Provide data on the reproducibility of the assay across multiple independent integrations at the same locus. Discuss the potential for integration site effects and how they might be controlled for. If possible, show data from at least one additional locus to demonstrate generalizability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section
+  - **Evidence pointer** Results section, all subsections
+  - **Issue** The results section is written as a narrative without any figures or tables. This makes it very difficult to follow the logic of the experiments and to evaluate the claims. The text refers to figures and supplemental figures, but these are not provided.
+  - **Required correction** Provide the figures and figure legends, and restructure the results section to be more data-driven, with clear statements of what was measured, how, and what was found.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Estimating Replacement efficiency"
+  - **Evidence pointer** Methods section
+  - **Issue** The method for estimating replacement efficiency is described, but the actual numbers are not given. The authors state that the fraction of GFP-negative cells in control cells varied between 0.5-2.5% and in library-replaced cells between 1.5-8.9%. This is a wide range, and it is unclear how this variability affects the interpretation of the results.
+  - **Required correction** Provide the actual replacement efficiencies for each experiment and discuss how this variability might affect the results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the TATA-box as a "dynamic range amplifier" is interesting but somewhat speculative. The authors do not discuss potential mechanisms in detail, nor do they place this finding in the context of other studies on TATA-box function.
+  - **Required correction** Expand the discussion of the TATA-box finding, including potential mechanisms and a more thorough comparison with existing literature.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Library transfection and selection of positive cells"
+  - **Evidence pointer** Methods section
+  - **Issue** The method for selecting positive cells after RMCE is described, but the details of the FACS gating strategy are not provided. This makes it difficult to assess the stringency of the selection and the potential for contamination with non-recombined cells.
+  - **Required correction** Provide details of the FACS gating strategy and the expected purity of the selected cell population.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The manuscript as presented does not include any actual data, making it impossible to evaluate the technical soundness of the assay or the validity of the claims. The authors must provide the figures, data, and statistical analyses to support their conclusions.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of a genome-integrated MPRA with kilobase-scale distances is a novel and potentially valuable contribution. The use of RMCE for this purpose is not entirely new, but the specific implementation and the systematic comparison with other methods appear original.
+  - **Scientific importance** The assay addresses a real need in the field for methods that can measure enhancer-promoter communication in a more native context. The findings regarding TATA-box function and the integration of deep learning models could be of broad interest. However, the importance of these findings cannot be fully assessed without seeing the data.
+  - **Interdisciplinary readership** The work is primarily of interest to researchers in gene regulation, genomics, and computational biology. The methods and findings could also be relevant to those studying disease-associated variants. The manuscript is written in a way that is accessible to specialists but may be challenging for non-specialists due to the lack of figures and the heavy reliance on technical jargon.
+  - **Technical soundness** The technical soundness cannot be evaluated from the provided text alone. The methods are described in detail, but the actual data and results are not shown. The low RMCE efficiency and the use of a single locus are potential concerns that need to be addressed.
+  - **Readability for nonspecialists** The manuscript is written in a clear and logical manner, but the lack of figures and the technical nature of the methods make it difficult for non-specialists to follow. The abstract and introduction are accessible, but the results and discussion sections would benefit from more context and explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially valuable assay and presents interesting findings, but the lack of actual data makes it impossible to evaluate the claims. The authors must provide the figures, data, and statistical analyses to support their conclusions. If the data are as compelling as the narrative suggests, this could be a significant contribution to the field.
+
+## Risk / unsupported claims
+- The claim that EXTRA-seq "captures expression changes at the resolution of individual transcription factor binding sites" is unsupported without the actual data.
+- The claim that "integrating state-of-the-art deep learning models with plasmid-based enhancer assays improves the prediction of gene expression" is unsupported without the actual correlation data and statistical analyses.
+- The claim that "the TATA-box acts as a dynamic range amplifier" is unsupported without the actual data and statistical analyses.
+- The claim that EXTRA-seq "can be targeted to disease-relevant loci" is only demonstrated for a single locus (AXIN2) and the data are not shown.
+- The claim that EXTRA-seq "captures expression changes at the resolution of individual transcription factor binding sites" is based on experiments with 19 TFBSs, but the data are not shown.
+- The claim that "the TATA-box suppresses noise from weak enhancers" is speculative and not directly tested.
+- The claim that "computational tools and plasmid-based MPRAs complement each other in characterizing enhancer function" is based on the integration analysis, but the data are not shown.

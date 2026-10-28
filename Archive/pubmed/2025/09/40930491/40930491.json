@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "40930491",
+    "doi": "10.1016/j.jgg.2025.09.001",
+    "title": "Integrative multi-omics and genomic prediction reveal genetic basis of salt tolerance in alfalfa."
+  },
+  "content": {
+    "abstract": "The genetic basis of early-stage salt tolerance in alfalfa (Medicago sativa L.), a key factor limiting its productivity, remains poorly understood. To dissect this complex trait, we integrate genome-wide association studies (GWAS) and transcriptomics from 176 accessions within a machine learning based genomic prediction framework. Analysis reveals weak genetic correlations among four salt-tolerance traits and a gradual decline in performance under increasing salt stress. GWAS identify 60 significant associated SNPs, with the highest number detected under 100 mM salt stress. Salt tolerance exhibits an additive effect from favorable haplotypes, which are most abundant in Chinese accessions. GWAS-associated genes are related to key regulators of hormone signaling and osmotic adjustment, while transcriptome analysis indicates a global repression of stress-responsive transcription factors. Integrating these multi-omics datasets allows us to identify 14 candidate genes, including MsHSD1 (seed dormancy) and MsMTATP6 (energy metabolism). Crucially, incorporating these markers into genomic prediction models improve cross-population predictive accuracy to an average of 54.4%. This study provides insights into the genetic architecture of salt tolerance in alfalfa and offers valuable markers to facilitate molecular breeding.",
+    "keywords": [
+      "Alfalfa",
+      "GWAS",
+      "Genomic prediction",
+      "RNA-seq",
+      "Salt"
+    ],
+    "mesh_terms": [
+      "*Medicago sativa/genetics/physiology",
+      "*Salt Tolerance/genetics",
+      "Genome-Wide Association Study",
+      "Polymorphism, Single Nucleotide",
+      "*Genomics/methods",
+      "Gene Expression Regulation, Plant",
+      "Quantitative Trait Loci",
+      "Transcriptome",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Fei",
+        "Xu, Ming",
+        "Long, Ruicai",
+        "Zhu, Kai",
+        "Du, Mengrui",
+        "Ma, Wenqi",
+        "Xue, Hui",
+        "Peng, Yanling",
+        "Chen, Lin",
+        "Kang, Junmei",
+        "Zhou, Yongfeng",
+        "Yang, Qingchuan",
+        "Zhang, Fan"
+      ],
+      "short_names": [
+        "He F",
+        "Xu M",
+        "Long R",
+        "Zhu K",
+        "Du M",
+        "Ma W",
+        "Xue H",
+        "Peng Y",
+        "Chen L",
+        "Kang J",
+        "Zhou Y",
+        "Yang Q",
+        "Zhang F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Tropical Crop Breeding, Shenzhen Branch, Guangdong Laboratory of Lingnan Modern Agriculture, Key Laboratory of Synthetic Biology, Ministry of Agriculture and Rural Affairs, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, Guangdong 518000, China; Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China.",
+        "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China.",
+        "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China.",
+        "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China.",
+        "State Key Laboratory of Tropical Crop Breeding, Shenzhen Branch, Guangdong Laboratory of Lingnan Modern Agriculture, Key Laboratory of Synthetic Biology, Ministry of Agriculture and Rural Affairs, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, Guangdong 518000, China.",
+        "State Key Laboratory of Tropical Crop Breeding, Shenzhen Branch, Guangdong Laboratory of Lingnan Modern Agriculture, Key Laboratory of Synthetic Biology, Ministry of Agriculture and Rural Affairs, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, Guangdong 518000, China.",
+        "State Key Laboratory of Tropical Crop Breeding, Shenzhen Branch, Guangdong Laboratory of Lingnan Modern Agriculture, Key Laboratory of Synthetic Biology, Ministry of Agriculture and Rural Affairs, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, Guangdong 518000, China.",
+        "State Key Laboratory of Tropical Crop Breeding, Shenzhen Branch, Guangdong Laboratory of Lingnan Modern Agriculture, Key Laboratory of Synthetic Biology, Ministry of Agriculture and Rural Affairs, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, Guangdong 518000, China.",
+        "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China.",
+        "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China.",
+        "State Key Laboratory of Tropical Crop Breeding, Shenzhen Branch, Guangdong Laboratory of Lingnan Modern Agriculture, Key Laboratory of Synthetic Biology, Ministry of Agriculture and Rural Affairs, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, Guangdong 518000, China.",
+        "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China.",
+        "State Key Laboratory of Tropical Crop Breeding, Shenzhen Branch, Guangdong Laboratory of Lingnan Modern Agriculture, Key Laboratory of Synthetic Biology, Ministry of Agriculture and Rural Affairs, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, Guangdong 518000, China. Electronic address: zhangfan06@caas.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Fei",
+        "short_name": "He F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tropical Crop Breeding, Shenzhen Branch, Guangdong Laboratory of Lingnan Modern Agriculture, Key Laboratory of Synthetic Biology, Ministry of Agriculture and Rural Affairs, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, Guangdong 518000, China; Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Ming",
+        "short_name": "Xu M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Long, Ruicai",
+        "short_name": "Long R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Kai",
+        "short_name": "Zhu K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Du, Mengrui",
+        "short_name": "Du M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tropical Crop Breeding, Shenzhen Branch, Guangdong Laboratory of Lingnan Modern Agriculture, Key Laboratory of Synthetic Biology, Ministry of Agriculture and Rural Affairs, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, Guangdong 518000, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Wenqi",
+        "short_name": "Ma W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tropical Crop Breeding, Shenzhen Branch, Guangdong Laboratory of Lingnan Modern Agriculture, Key Laboratory of Synthetic Biology, Ministry of Agriculture and Rural Affairs, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, Guangdong 518000, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Hui",
+        "short_name": "Xue H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tropical Crop Breeding, Shenzhen Branch, Guangdong Laboratory of Lingnan Modern Agriculture, Key Laboratory of Synthetic Biology, Ministry of Agriculture and Rural Affairs, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, Guangdong 518000, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Yanling",
+        "short_name": "Peng Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tropical Crop Breeding, Shenzhen Branch, Guangdong Laboratory of Lingnan Modern Agriculture, Key Laboratory of Synthetic Biology, Ministry of Agriculture and Rural Affairs, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, Guangdong 518000, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Lin",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Junmei",
+        "short_name": "Kang J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yongfeng",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tropical Crop Breeding, Shenzhen Branch, Guangdong Laboratory of Lingnan Modern Agriculture, Key Laboratory of Synthetic Biology, Ministry of Agriculture and Rural Affairs, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, Guangdong 518000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Qingchuan",
+        "short_name": "Yang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fan",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tropical Crop Breeding, Shenzhen Branch, Guangdong Laboratory of Lingnan Modern Agriculture, Key Laboratory of Synthetic Biology, Ministry of Agriculture and Rural Affairs, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, Guangdong 518000, China. Electronic address: zhangfan06@caas.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of genetics and genomics = Yi chuan xue bao"
+    ],
+    "journal_abbrev": [
+      "J Genet Genomics"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/11 00:28",
+    "fetched_at": "2026-10-05 04:19:33"
+  },
+  "links": {
+    "cites": [
+      "42579509",
+      "41901039",
+      "41245440"
+    ],
+    "refs": [],
+    "similar": [
+      "40930491",
+      "32397526",
+      "34610811",
+      "30951087",
+      "29448940",
+      "40045220",
+      "39859322",
+      "30669971",
+      "37047244",
+      "40269327",
+      "34943880",
+      "25715445",
+      "40684070",
+      "39080407",
+      "23592587",
+      "31023240",
+      "40963196",
+      "28068350",
+      "40025430",
+      "39810092",
+      "41508545",
+      "39423209",
+      "35185967",
+      "41595452",
+      "33668850",
+      "39674500",
+      "37280506",
+      "41237189",
+      "26406473",
+      "38872112",
+      "41349803",
+      "28045337",
+      "41353245",
+      "41107743",
+      "31419945",
+      "25627243",
+      "35742869",
+      "41581103",
+      "41535716",
+      "39799501",
+      "39342026",
+      "40783625",
+      "41350459",
+      "37656830",
+      "41120937",
+      "39262125",
+      "38928203",
+      "40155810",
+      "41261851",
+      "31109303",
+      "40765523",
+      "31510912",
+      "40783812",
+      "40640114",
+      "40158163",
+      "38498195",
+      "38190765",
+      "26906624",
+      "28941083",
+      "35915266",
+      "41465111",
+      "40304561",
+      "28821952",
+      "41565595",
+      "32561778",
+      "27446182",
+      "28044314",
+      "30665358",
+      "39215647",
+      "33413113",
+      "32673760",
+      "41453341",
+      "40485044",
+      "33664362",
+      "31243730",
+      "30889856",
+      "30359026",
+      "30615606",
+      "33464396",
+      "41148340",
+      "35033678",
+      "41437322",
+      "39938825",
+      "28596776",
+      "30322083",
+      "41750279",
+      "35909721",
+      "41270574",
+      "38891967",
+      "33051724",
+      "37119337",
+      "40702013",
+      "39716096",
+      "40081875",
+      "33407102",
+      "40832758",
+      "36077153",
+      "38976061",
+      "38864675",
+      "33009812"
+    ],
+    "review": [
+      "40930491",
+      "34943880"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1673-8527(25)00235-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

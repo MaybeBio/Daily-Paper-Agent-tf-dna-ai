@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "41768279",
+    "doi": "10.1093/bioadv/vbaf271",
+    "title": "Deep learning for regulatory genomics: a survey of models, challenges, and applications."
+  },
+  "content": {
+    "abstract": "This research reviews recent advances in deep learning approaches tailored for regulatory genomics. It highlights how computational methods help decipher complex regulatory mechanisms within non-coding genomic regions across various tissues, emphasizing predictive applications such as transcription factor binding, chromatin accessibility, RNA processes, and RNA-protein interactions. The paper also discusses the evolution from traditional neural networks to advanced models like transformers and graph neural networks, considering three-dimensional genomic structures. Despite the promising performance, it acknowledges ongoing challenges like overfitting, biological variability, and limited dataset diversity. It emphasizes the urgent need for continued development of interpretable deep learning models to improve functional genomic annotation, underlining this task's significance in the genomics field.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ismail, Fathima Nuzla",
+        "Sengupta, Abira",
+        "Amarasoma, Shanika"
+      ],
+      "short_names": [
+        "Ismail FN",
+        "Sengupta A",
+        "Amarasoma S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0716-1478",
+        "ORCID: 0000-0002-6867-3362",
+        "ORCID: 0000-0001-9509-0069"
+      ],
+      "affiliations": [
+        "Department of Mathematics, State University of New York at Buffalo, Buffalo, NY 14260, United States.",
+        "School of Computing, University of Otago, Dunedin 9016, New Zealand.",
+        "Independent Researcher, AI & Advanced Analytics, Colombo 00900, Sri Lanka."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ismail, Fathima Nuzla",
+        "short_name": "Ismail FN",
+        "identifiers": [
+          "0000-0002-0716-1478"
+        ],
+        "affiliations": [
+          "Department of Mathematics, State University of New York at Buffalo, Buffalo, NY 14260, United States."
+        ]
+      },
+      {
+        "full_name": "Sengupta, Abira",
+        "short_name": "Sengupta A",
+        "identifiers": [
+          "0000-0002-6867-3362"
+        ],
+        "affiliations": [
+          "School of Computing, University of Otago, Dunedin 9016, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Amarasoma, Shanika",
+        "short_name": "Amarasoma S",
+        "identifiers": [
+          "0000-0001-9509-0069"
+        ],
+        "affiliations": [
+          "Independent Researcher, AI & Advanced Analytics, Colombo 00900, Sri Lanka."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics advances"
+    ],
+    "journal_abbrev": [
+      "Bioinform Adv"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/02 13:16",
+    "fetched_at": "2026-10-01 15:29:35"
+  },
+  "links": {
+    "cites": [
+      "42635199",
+      "42531458",
+      "41940101"
+    ],
+    "refs": [
+      "40406670",
+      "40106407",
+      "39696471",
+      "39609566",
+      "36528241",
+      "35551308",
+      "35449021",
+      "35396274",
+      "34929730",
+      "34608324",
+      "33662629",
+      "33603233",
+      "33581335",
+      "33538820",
+      "33046897",
+      "32732264",
+      "32433972",
+      "32084131",
+      "31666519",
+      "31510698",
+      "31178116",
+      "30967126",
+      "30923381",
+      "30923373",
+      "30869141",
+      "30823901",
+      "30777029",
+      "30661751",
+      "30601980",
+      "30500881",
+      "30478442",
+      "30147283",
+      "30013180",
+      "29648582",
+      "29617928",
+      "29588361",
+      "29497285",
+      "29467363",
+      "29097404",
+      "28850106",
+      "28398311",
+      "28334830",
+      "28158264",
+      "27386562",
+      "27197224",
+      "27084946",
+      "26301843",
+      "26213851",
+      "26017442",
+      "24931975",
+      "24097267",
+      "23241633",
+      "22955616",
+      "22908215",
+      "20944595",
+      "20053844",
+      "17565696",
+      "16314267",
+      "10592235"
+    ],
+    "similar": [
+      "41768279",
+      "42475469",
+      "37561655",
+      "40553343",
+      "39293804",
+      "39990095",
+      "29855387",
+      "42739369",
+      "42379586",
+      "42688306",
+      "42680998",
+      "39998912",
+      "42333573",
+      "41303412",
+      "29069282",
+      "39090688",
+      "41750401",
+      "33119236",
+      "40948833",
+      "42226266",
+      "37127596",
+      "40494170",
+      "40524189",
+      "32661261",
+      "39950082",
+      "38956008",
+      "38528797",
+      "40664094",
+      "35652477",
+      "39708837",
+      "41574108",
+      "39250757",
+      "42450302",
+      "40702706",
+      "42492189",
+      "34020542",
+      "41690236",
+      "42491247",
+      "41465283",
+      "41537311",
+      "33051704",
+      "42216001",
+      "41588477",
+      "41523993",
+      "41056615",
+      "40119464",
+      "37370113",
+      "42572360",
+      "42539610",
+      "41910880",
+      "40553344",
+      "40962325",
+      "42334640",
+      "37569400",
+      "42132948",
+      "38330793",
+      "35769139",
+      "40784939",
+      "31324140",
+      "42065698",
+      "42629596",
+      "38790258",
+      "40143756",
+      "40508402",
+      "41154856",
+      "35325548",
+      "39275870",
+      "40723810",
+      "42528297",
+      "41902503",
+      "41832731",
+      "41615288",
+      "31067608",
+      "42632029",
+      "40914877",
+      "41922965",
+      "31167642",
+      "41600241",
+      "32746932",
+      "33706810",
+      "41986002",
+      "39605624",
+      "41348251",
+      "41150002",
+      "39283464",
+      "39026761",
+      "42220148",
+      "35293310",
+      "42468752",
+      "41926296",
+      "42589315",
+      "38013993",
+      "33234095",
+      "34179082",
+      "40399818",
+      "41007453",
+      "41421305",
+      "30423062",
+      "40929038",
+      "42490893"
+    ],
+    "review": [
+      "41768279",
+      "37561655",
+      "39293804",
+      "39990095",
+      "42739369",
+      "42379586",
+      "42688306",
+      "39998912",
+      "42333573",
+      "41303412",
+      "41750401",
+      "33119236",
+      "40948833",
+      "42226266",
+      "40494170",
+      "40524189",
+      "38956008",
+      "40664094",
+      "35652477",
+      "39708837",
+      "41574108",
+      "42450302",
+      "42492189",
+      "34020542",
+      "41690236",
+      "42491247",
+      "41465283",
+      "41537311",
+      "33051704",
+      "42216001",
+      "41056615",
+      "42572360",
+      "42539610",
+      "41910880",
+      "40962325",
+      "42132948",
+      "38330793",
+      "35769139",
+      "42065698",
+      "42629596",
+      "38790258",
+      "40143756",
+      "40508402",
+      "41154856",
+      "39275870",
+      "42528297",
+      "41902503",
+      "41615288",
+      "31067608",
+      "42632029",
+      "41922965",
+      "41600241",
+      "41986002",
+      "41348251",
+      "41150002",
+      "39283464",
+      "42468752",
+      "33234095",
+      "34179082",
+      "41007453",
+      "41421305",
+      "40929038"
+    ],
+    "pmc": [
+      "12947584"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41768279/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformaticsadvances/article-lookup/doi/10.1093/bioadv/vbaf271",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, supporting information references)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the manuscript; no external validation performed
+- **Shared manuscript claim summary** The authors use AWSEM coarse-grained molecular dynamics simulations to argue that the N-terminal domain (NTD) of the bacterial elongation factor RfaH actively participates in fold-switching by stabilizing the α-helical CTD conformation and by trapping the β-barrel CTD in a three-stranded intermediate, thereby favoring the autoinhibited state.
+- **Visible evidence base** Simulation results (umbrella sampling free energy surfaces, temperature refolding trajectories, contact maps, frustratometer analysis) presented in Figures 2–5 and Supporting Information (S1–S7 Figs, S1 Table); methodological details in Methods section
+- **Missing materials affecting confidence** No simulation input files, parameter files, or analysis scripts provided; no raw trajectory data; no convergence metrics beyond histogram overlap; no error bars or statistical replicates reported for key free energy estimates; no experimental validation data presented in this manuscript
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and under-explored question: the role of the NTD in RfaH fold-switching. The use of AWSEM, a transferable coarse-grained force field with sequence-dependent potentials, is a reasonable choice and represents an advance over structure-based models used previously. The central claims, however, rest on simulation evidence that is not fully characterized in terms of convergence, statistical uncertainty, or sensitivity to key parameters (e.g., memory strength, temperature calibration). The interpretation that the NTD "actively" favors the α-state by stabilizing an intermediate is plausible but not uniquely established by the data presented. The manuscript would benefit from additional analyses to support the mechanistic claims and from a more careful discussion of limitations.
+- **Who would be interested in the results, and why** Researchers studying protein fold-switching, metamorphic proteins, and the NusG/Spt5 family of transcription factors. The work may also interest computational biophysicists developing or applying coarse-grained models to study conformational transitions in multi-domain proteins. The claim that the NTD plays an active role beyond simple steric blocking could inform experimental studies of RfaH regulation.
+- **Major strengths** (1) The question is well-motivated and addresses a gap in the literature, as most prior computational work focused on the isolated CTD. (2) The use of AWSEM with sequence-dependent potentials is appropriate and more realistic than structure-based models. (3) The combination of umbrella sampling and temperature refolding simulations provides complementary perspectives on the free energy landscape. (4) The inclusion of NusG and a chimeric construct as controls strengthens the argument for sequence-specific NTD-CTD interactions. (5) The identification of a specific NTD hydrophobic patch and its interaction with the β-intermediate is a concrete, testable prediction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that umbrella sampling simulations "recapitulate the thermodynamic equilibrium experimentally observed for RfaH and its isolated CTD" (Abstract, Results section).
+  - **Evidence pointer** Figure 2A and 2B; Methods section "Calculation of Qdiff and umbrella sampling"
+  - **Concern** The free energy surfaces are presented without any estimate of statistical uncertainty. The claim of recapitulating experimental equilibrium requires quantitative comparison (e.g., free energy differences between states) with error bars. The barrier heights quoted (6.4, 1.5, 30, 4.4 kcal/mol) are given as single values with no indication of convergence or sampling error. Given that only 51 umbrella windows were used and the simulation length is 120 ns per window, it is unclear whether the slow degrees of freedom relevant to fold-switching are adequately sampled.
+  - **Why it matters** Without uncertainty estimates, the reader cannot assess whether the observed free energy differences are statistically meaningful or within the noise of the model. This is particularly important for the central claim that the NTD stabilizes the α-state and destabilizes the β-state, which relies on comparing free energy surfaces across different systems.
+  - **Resolution test** Provide block-averaged or bootstrap error estimates for free energy differences; show convergence of free energy profiles with simulation time; consider replica exchange or other enhanced sampling methods to improve convergence; report the statistical significance of the difference between full-length and isolated CTD free energy surfaces.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the NTD interferes with βCTD refolding by mostly trapping it into a β-barrel intermediate" and that this intermediate is stabilized by specific NTD-CTD interactions (Abstract, Results, Discussion).
+  - **Evidence pointer** Figure 4, Figure 5, S1 Table
+  - **Concern** The evidence for "trapping" is based on the fraction of trajectories that end in the intermediate state (29% for βRfaH vs. 75% for isolated βCTD). However, the simulation protocol uses a linear temperature ramp from 1.5Tf to 0.6Tf, and it is not clear whether the final states represent equilibrium populations at the final temperature or kinetic trapping due to the cooling rate. The distinction between thermodynamic stabilization of the intermediate and kinetic trapping is not addressed. Additionally, the claim of "specific" interactions relies on the frustratometer analysis, but the comparison between the intermediate in the presence and absence of the NTD is not quantified (e.g., no statistical test for differences in frustration patterns).
+  - **Why it matters** The central mechanistic claim of the paper is that the NTD actively stabilizes a specific intermediate, which is proposed as the key step in fold-switching back to the autoinhibited state. If the observed trapping is a kinetic artifact of the cooling protocol, the interpretation would be substantially weakened.
+  - **Resolution test** Perform simulations at constant temperature (e.g., at 0.6Tf) starting from both the unfolded state and the intermediate to determine whether the intermediate is a true free energy minimum in the presence of the NTD; vary the cooling rate to test for kinetic effects; quantify the difference in frustration patterns between conditions with a statistical test.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "the NTD of RfaH favors the α-folded RfaH by specifically orienting the αCTD upon interdomain binding and by favoring β-barrel rupture into an intermediate from which fold-switching proceeds" (Abstract).
+  - **Evidence pointer** Figure 3, Figure 5, Discussion
+  - **Concern** The claim that the NTD "specifically orients" the αCTD is supported by the observation that 81% of refolding trajectories reach the native state. However, this is a high success rate, and it is not clear how this compares to what would be expected by chance or from a non-specific hydrophobic surface. The authors do not perform a control simulation with a mutated or altered NTD surface to demonstrate specificity. The claim that the NTD "favors β-barrel rupture" is inferred from the trapping of the intermediate, but the mechanism by which the NTD promotes rupture (rather than simply stabilizing the intermediate after rupture) is not demonstrated.
+  - **Why it matters** The paper's title claims the NTD plays an "active role" in fold-switching. The evidence presented supports a role in stabilizing the α-state and destabilizing the β-state, but the specific claim of "active" participation in the switching mechanism (as opposed to passive stabilization of the final state) requires more direct evidence.
+  - **Resolution test** Perform simulations with a control NTD surface (e.g., mutations that disrupt the hydrophobic patch) to test whether the orienting and trapping effects are specific; analyze the transition paths to determine whether the NTD actively promotes β-barrel rupture or merely stabilizes the intermediate after it forms.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Methods section "Calculation of Qdiff and umbrella sampling"
+  - **Evidence pointer** Equations 3–5
+  - **Issue** The definition of Qdiff is given in a compact mathematical form, but the physical interpretation is not explained clearly. A reader unfamiliar with this order parameter may struggle to understand what is being measured.
+  - **Required correction** Add a brief verbal description of Qdiff, explaining that it measures the fraction of native contacts from the α-state relative to the β-state, and clarify how the denominator (qA - qB) normalizes the coordinate.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "The AWSEM force field"
+  - **Evidence pointer** Equation 2
+  - **Issue** The memory strength parameter λmemory is set to 0.3 instead of the default 0.2, but the rationale for this choice is not explained. The authors state that this "results in a higher cooperativity due to a decrease in the roughness of the final potential," but the justification is not elaborated.
+  - **Required correction** Provide a brief explanation for the choice of λmemory, including any test simulations or sensitivity analysis that informed this decision.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "MD simulations of RfaH and its isolated CTD recapitulate their experimental states"
+  - **Evidence pointer** Figure 2C
+  - **Issue** The free energy surfaces are projected onto two order parameters (RMSD to αCTD and RMSD to βCTD), but the choice of these coordinates and their sufficiency to describe the fold-switching transition is not discussed. It is possible that other degrees of freedom (e.g., interdomain orientation) are important.
+  - **Required correction** Briefly justify the choice of reaction coordinates and discuss whether the projected free energy surfaces capture the essential features of the transition.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors suggest that the intermediate could be observed experimentally by studying equilibrium unfolding in the presence of chaotropic agents, but they do not provide specific predictions (e.g., expected population, spectroscopic signature) that could guide such experiments.
+  - **Required correction** Add a brief paragraph with concrete, testable predictions from the simulations (e.g., which residues are expected to show altered protection in HDX experiments, or which mutations would destabilize the intermediate).
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of uncertainty estimates for free energy surfaces) and R1-M2 (lack of distinction between thermodynamic stabilization and kinetic trapping) are the primary technical issues. Without addressing these, the central claims of the paper are not fully established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The work addresses a question that has received limited attention, as most prior studies focused on the isolated CTD. The claim that the NTD plays an active role is novel. However, the originality is moderate, as the general concept of interdomain interactions influencing fold-switching has been discussed in the literature.
+  - Scientific importance: The results are of interest to the fold-switching community and to researchers studying NusG/RfaH family proteins. The potential to inform experimental studies of RfaH regulation adds importance. However, the importance is limited by the lack of experimental validation and the reliance on a single computational model.
+  - Interdisciplinary readership: The work is primarily of interest to computational biophysicists and structural biologists. The broader readership in microbiology or transcription regulation may find the results relevant but may be deterred by the technical nature of the methods.
+  - Technical soundness: The use of AWSEM is appropriate, and the simulation protocols are generally reasonable. However, the lack of uncertainty estimates and the potential for kinetic artifacts in the refolding simulations are significant concerns that need to be addressed.
+  - Readability for nonspecialists: The manuscript is generally well-written, but the methods section is dense and may be challenging for readers not familiar with coarse-grained simulations. The results and discussion are accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an interesting question with an appropriate computational approach, and the results are potentially valuable. However, the lack of uncertainty estimates and the ambiguity between thermodynamic and kinetic effects must be addressed before the central claims can be considered established.
+
+## Risk / unsupported claims
+- The claim that the NTD "actively" participates in fold-switching by "favoring β-barrel rupture" is not directly supported by the data; the simulations show stabilization of an intermediate, but the mechanism of rupture promotion is not demonstrated.
+- The claim that the NTD "specifically orients" the αCTD is inferred from the high success rate of refolding simulations, but no control experiments (e.g., with altered NTD surfaces) are provided to establish specificity.
+- The statement that the intermediate observed in simulations "could be potentially observed by studying the equilibrium unfolding of the isolated CTD" is speculative and not supported by direct evidence.
+- The quantitative free energy differences between states (e.g., barrier heights) are presented without uncertainty estimates and cannot be evaluated for statistical significance.
+- The claim that the simulations "recapitulate the thermodynamic equilibrium experimentally observed" is not quantitatively supported, as no direct comparison with experimental free energy differences is provided.

@@ -1,0 +1,437 @@
+{
+  "identity": {
+    "pmid": "33823156",
+    "doi": "10.1016/j.jbc.2021.100635",
+    "title": "Distinct kinetic mechanisms of H3K4 methylation catalyzed by MLL3 and MLL4 core complexes."
+  },
+  "content": {
+    "abstract": "The methyltransferases MLL3 and MLL4 primarily catalyze the monomethylation of histone H3 lysine 4 (H3K4) on enhancers to regulate cell-type-specific gene expression and cell fate transition. MLL3 and MLL4 share almost identical binding partners and biochemical activities, but perform specific and nonredundant functions. The features and functions that distinguish MLL3 and MLL4 remain elusive. Here, we characterize the kinetic mechanisms of MLL3 and MLL4 ternary complexes containing the catalytic SET domain from MLL3 or MLL4 (MLL3(SET) or MLL4(SET)), the SPRY domain of ASH2L (ASH2L(SPRY)), and a short fragment of RBBP5 (RBBP5(AS-ABM)) to search for possible explanations. Steady-state kinetic analyses and inhibition studies reveal that the MLL3 complex catalyzes methylation in a random sequential bi-bi mechanism. In contrast, the MLL4 complex adopts an ordered sequential bi-bi mechanism, in which the cofactor S-adenosylmethionine (AdoMet) binds to the enzyme prior to the H3 peptide, and the methylated H3 peptide dissociates from the enzyme before S-adenosylhomocysteine (AdoHcy) detaches after methylation. Substrate-binding assays using fluorescence polarization (FP) confirm that AdoMet binding is a prerequisite for H3 binding for the MLL4 complex but not for the MLL3 complex. Molecular dynamic simulations reveal that the binding of AdoMet exclusively induces conformational constraints on the AdoMet-binding groove and the H3 substrate-binding pocket of MLL4, therefore stabilizing a specific active conformation to ease entry of the substrate H3. The distinct kinetic mechanisms and conformational plasticities provide important insights into the differential functions of MLL3 and MLL4 and may also guide the development of selective inhibitors targeting MLL3 or MLL4.",
+    "keywords": [
+      "MLL",
+      "enzyme kinetics",
+      "enzyme mechanism",
+      "epigenetics",
+      "histone methylation",
+      "methyltransferase"
+    ],
+    "mesh_terms": [
+      "Catalysis",
+      "DNA-Binding Proteins/*chemistry/genetics/*metabolism",
+      "Histone-Lysine N-Methyltransferase/*chemistry/genetics/*metabolism",
+      "Histones/chemistry/*metabolism",
+      "Humans",
+      "Kinetics",
+      "Methylation",
+      "Protein Binding",
+      "*Protein Processing, Post-Translational"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Yongxin",
+        "Huang, Yinping",
+        "Mencius, Jun",
+        "Li, Yanjing",
+        "Zhao, Lijie",
+        "Luo, Wanting",
+        "Chen, Yong",
+        "Quan, Shu"
+      ],
+      "short_names": [
+        "Zheng Y",
+        "Huang Y",
+        "Mencius J",
+        "Li Y",
+        "Zhao L",
+        "Luo W",
+        "Chen Y",
+        "Quan S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Bioreactor Engineering, Shanghai Collaborative Innovation Center for Biomanufacturing (SCICB), East China University of Science and Technology, Shanghai, China.",
+        "State Key Laboratory of Bioreactor Engineering, Shanghai Collaborative Innovation Center for Biomanufacturing (SCICB), East China University of Science and Technology, Shanghai, China.",
+        "State Key Laboratory of Bioreactor Engineering, Shanghai Collaborative Innovation Center for Biomanufacturing (SCICB), East China University of Science and Technology, Shanghai, China.",
+        "State Key Laboratory of Molecular Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, Shanghai, China.",
+        "State Key Laboratory of Molecular Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, Shanghai, China; University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Molecular Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, Shanghai, China; University of Chinese Academy of Sciences, Beijing, China; School of Life Science and Technology, ShanghaiTech University, Shanghai, China.",
+        "State Key Laboratory of Molecular Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, Shanghai, China; University of Chinese Academy of Sciences, Beijing, China; School of Life Science and Technology, ShanghaiTech University, Shanghai, China. Electronic address: yongchen@sibcb.ac.cn.",
+        "State Key Laboratory of Bioreactor Engineering, Shanghai Collaborative Innovation Center for Biomanufacturing (SCICB), East China University of Science and Technology, Shanghai, China. Electronic address: shuquan@ecust.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Yongxin",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, Shanghai Collaborative Innovation Center for Biomanufacturing (SCICB), East China University of Science and Technology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yinping",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, Shanghai Collaborative Innovation Center for Biomanufacturing (SCICB), East China University of Science and Technology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Mencius, Jun",
+        "short_name": "Mencius J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, Shanghai Collaborative Innovation Center for Biomanufacturing (SCICB), East China University of Science and Technology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yanjing",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Molecular Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Lijie",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Molecular Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, Shanghai, China; University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Wanting",
+        "short_name": "Luo W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Molecular Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, Shanghai, China; University of Chinese Academy of Sciences, Beijing, China; School of Life Science and Technology, ShanghaiTech University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yong",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Molecular Biology, Shanghai Institute of Biochemistry and Cell Biology, Center for Excellence in Molecular Cell Science, Chinese Academy of Sciences, Shanghai, China; University of Chinese Academy of Sciences, Beijing, China; School of Life Science and Technology, ShanghaiTech University, Shanghai, China. Electronic address: yongchen@sibcb.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Quan, Shu",
+        "short_name": "Quan S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, Shanghai Collaborative Innovation Center for Biomanufacturing (SCICB), East China University of Science and Technology, Shanghai, China. Electronic address: shuquan@ecust.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2021 Jan-Jun",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/07 06:00",
+    "fetched_at": "2026-09-27 15:42:39"
+  },
+  "links": {
+    "cites": [
+      "41720806",
+      "41133716",
+      "40885388",
+      "40593910",
+      "38700727",
+      "38090150",
+      "36070615",
+      "35938163",
+      "34545959"
+    ],
+    "refs": [
+      "32439762",
+      "31127101",
+      "30976793",
+      "30616667",
+      "30604749",
+      "30459467",
+      "30335158",
+      "29313530",
+      "28013028",
+      "27864305",
+      "27698142",
+      "27569753",
+      "26932671",
+      "26886794",
+      "26606496",
+      "26320581",
+      "25998713",
+      "25136132",
+      "24746804",
+      "24368734",
+      "24132290",
+      "24081332",
+      "23934151",
+      "23832629",
+      "23801631",
+      "23249737",
+      "23166019",
+      "23043551",
+      "22889332",
+      "21966348",
+      "20227379",
+      "19703992",
+      "18428767",
+      "18371366",
+      "17957188",
+      "17500065",
+      "17212484",
+      "16878130",
+      "16519522",
+      "16460659",
+      "15956786",
+      "15485804",
+      "15084713",
+      "14021667",
+      "12163695",
+      "11045621",
+      "7477409",
+      "3402066"
+    ],
+    "similar": [
+      "33823156",
+      "31485071",
+      "30604749",
+      "34156443",
+      "24081332",
+      "17500065",
+      "18372346",
+      "28013028",
+      "21124902",
+      "32697937",
+      "22113294",
+      "30335158",
+      "24235145",
+      "16519522",
+      "19556245",
+      "31127101",
+      "26324722",
+      "19433796",
+      "15485804",
+      "38849395",
+      "24368734",
+      "22652693",
+      "23166019",
+      "29954944",
+      "27698142",
+      "28483418",
+      "25561738",
+      "18512960",
+      "26320581",
+      "31400120",
+      "29024026",
+      "21106533",
+      "23459941",
+      "19556342",
+      "29313530",
+      "28669924",
+      "20374709",
+      "38960040",
+      "32365172",
+      "16185068",
+      "38579707",
+      "19047629",
+      "31034218",
+      "17166833",
+      "12514135",
+      "27638352",
+      "24680668",
+      "28375985",
+      "32071397",
+      "23249737",
+      "32439762",
+      "27367247",
+      "15939934",
+      "24491801",
+      "17021013",
+      "17925232",
+      "26886794",
+      "16603186",
+      "28967912",
+      "37481158",
+      "3558369",
+      "31440761",
+      "29861161",
+      "35819198",
+      "21724641",
+      "28759003",
+      "30150382",
+      "26787850",
+      "23453805",
+      "11687585",
+      "27834681",
+      "17517655",
+      "25593305",
+      "26002201",
+      "21239497",
+      "25346535",
+      "17898714",
+      "38513661",
+      "33712604",
+      "27940912",
+      "28398509",
+      "22158900",
+      "24656127",
+      "27474738",
+      "17013555",
+      "22569554",
+      "22713656",
+      "37331600",
+      "17676763",
+      "26744420",
+      "34195788",
+      "33033055",
+      "21285357",
+      "17351630",
+      "28732206",
+      "32867667",
+      "37012455",
+      "37262949",
+      "36513698",
+      "36154872",
+      "36323669",
+      "35704036",
+      "18391193",
+      "27129774",
+      "36623730",
+      "15958184",
+      "19221051",
+      "24634223",
+      "36869380",
+      "17338551",
+      "24486544",
+      "34782608",
+      "21880715",
+      "39165358",
+      "31076518",
+      "20937900",
+      "25018018",
+      "15933069",
+      "23117820",
+      "29404406",
+      "34074527",
+      "37118845",
+      "35820704",
+      "23470558",
+      "34592262",
+      "36070615",
+      "36142254",
+      "29785026",
+      "29897600",
+      "34157286",
+      "24715476",
+      "38266981",
+      "24240169",
+      "37527654",
+      "38106216",
+      "38798640",
+      "35640156",
+      "38113256",
+      "38297077",
+      "21454678",
+      "18311969",
+      "21738746",
+      "37443729",
+      "20943667",
+      "33431871",
+      "33824309",
+      "34356675",
+      "34758724",
+      "37252797",
+      "35563756",
+      "21625555",
+      "18072589",
+      "21779408",
+      "23459940",
+      "36197977",
+      "37638761",
+      "37862753",
+      "21116761",
+      "35754824",
+      "34890228",
+      "24656126",
+      "36697904"
+    ],
+    "review": [
+      "33823156",
+      "34156443",
+      "22652693",
+      "28669924",
+      "20374709",
+      "27638352",
+      "28375985",
+      "31440761",
+      "24656127",
+      "17013555",
+      "36154872",
+      "39165358",
+      "34074527",
+      "38266981"
+    ],
+    "pmc": [
+      "8144669"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(21)00421-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33823156/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33823156",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-978",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33823156",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

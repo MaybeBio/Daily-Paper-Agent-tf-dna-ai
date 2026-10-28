@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2023-gp9ph",
+  "title": "Synergistic Application of Molecular Docking and Machine Learning for Improved Protein-Ligand Binding Pose Prediction",
+  "authors": "He Yang; Hongrui Lin; Yannan Yuan; Yaqi Li; Rongfeng Zou; Gengmo Zhou; Linfeng Zhang; Hang Zheng",
+  "journal": "ChemRxiv",
+  "published_date": "2023-09-11",
+  "window": {
+    "start": "2023-09-11",
+    "end": "2023-09-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文结合分子对接与机器学习预测蛋白-配体结合构象，虽非TF-DNA体系，但方法可迁移至蛋白-DNA互作建模，具有借鉴价值。",
+  "abstract": "Accurate prediction of protein-ligand complex structures is a crucial step in structure-based drug design. Traditional molecular docking methods exhibit limitations in terms of accuracy and sampling space, while relying on machine-learning approaches may lead to invalid conformations. In this study, we propose a novel strategy that combines molecular docking and machine learning methods. Firstly, the protein-ligand binding poses are predicted using the Uni-Mol Docking machine learning approach. Subsequently, position-restricted docking(PR Docking) on predicted binding poses is performed using Uni-Dock, generating physically constrained and valid binding poses. Finally, the binding poses are re-scored and ranked using machine learning scoring functions. This strategy harnesses the predictive power of machine learning and the physical constraints advantage of molecular docking. Evaluation experiments on multiple datasets demonstrate that, compared to using molecular docking or machine learning methods alone, our proposed strategy can significantly improve the success rate and accuracy of protein-ligand complex structure predictions. This strategy is avaliable at https://github.com/dptech-corp/Uni-Dock.",
+  "abstract_zh": "蛋白质-配体复合物结构的准确预测是基于结构的药物设计中的关键步骤。传统的分子对接方法在准确性和采样空间方面存在局限性，而依赖机器学习方法可能导致无效构象。在本研究中，我们提出了一种结合分子对接和机器学习方法的新策略。首先，使用Uni-Mol Docking机器学习方法预测蛋白质-配体结合姿态。随后，利用Uni-Dock对预测的结合姿态进行位置限制对接（PR Docking），生成受物理约束且有效的结合姿态。最后，使用机器学习打分函数对结合姿态进行重新评分和排序。该策略利用了机器学习的预测能力和分子对接的物理约束优势。在多个数据集上的评估实验表明，与单独使用分子对接或机器学习方法相比，我们提出的策略能显著提高蛋白质-配体复合物结构预测的成功率和准确性。该策略可在https://github.com/dptech-corp/Uni-Dock获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2023-gp9ph",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2023-gp9ph",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2023-gp9ph/index.html"
+}

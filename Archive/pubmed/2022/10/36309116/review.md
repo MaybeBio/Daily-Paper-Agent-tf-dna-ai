@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors propose that Radix Glycyrrhizae extract (GL) and its constituent licochalcone A (LicoA) suppress inflammation by directly targeting TLR4, based on LPS-induced models in mice and THP-1 macrophages, with supporting docking, molecular dynamics, surface plasmon resonance imaging, and TLR4 overexpression experiments.
+- **Visible evidence base** Abstract text only; no figures, tables, or detailed methods provided
+- **Missing materials affecting confidence** Full methods, dose-response data, statistical details, raw SPRi and docking outputs, TLR4 overexpression validation, and any negative controls
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent hypothesis and a multi-technique approach, but the evidence as summarized is insufficient to establish direct TLR4 targeting as the definitive mechanism. Several claims are plausible yet under-supported without access to quantitative data and controls.
+- **Who would be interested in the results, and why** Researchers in ethnopharmacology, innate immunity, and inflammatory disease models would find the work relevant, particularly those studying natural product mechanisms of action on TLR4 signaling. The potential clinical relevance for acute lung injury adds translational interest.
+- **Major strengths** The study integrates in vivo, in vitro, and computational methods. The use of molecular docking, molecular dynamics, and SPRi to probe direct TLR4 binding is a strong approach. The TLR4 overexpression experiment provides a functional test of the proposed mechanism.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic specificity
+  - **Claim pointer** The conclusion that GL and LicoA exert anti-inflammatory effects by targeting TLR4 directly.
+  - **Evidence pointer** Abstract results section; location not provided
+  - **Concern** The abstract reports that TLR4 overexpression only "partly eliminated" the inhibitory effects of GL and LicoA. This partial reversal weakens the claim of direct TLR4 dependence and suggests additional off-target or parallel pathways may be involved.
+  - **Why it matters** A direct targeting mechanism requires that the effect be substantially dependent on the proposed target. Partial reversal is consistent with indirect or multi-target actions, which would change the mechanistic interpretation.
+  - **Resolution test** Provide quantitative data on the degree of TLR4 overexpression and the extent of reversal for each readout. If reversal is less than 50% for key inflammatory markers, the direct targeting claim should be revised.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Binding evidence
+  - **Claim pointer** LicoA binds to the TLR4-MD2 complex with a KD of 3.87 x 10(-7) M, and molecular docking places it in the LPS binding site.
+  - **Evidence pointer** Abstract results section; location not provided
+  - **Concern** The KD value is reported without experimental details, such as the concentration range, buffer conditions, or whether binding was competitive with LPS. Docking results are mentioned but not validated by mutagenesis or structural comparison.
+  - **Why it matters** A KD in the micromolar range may be physiologically relevant, but without competition assays or binding site validation, the claim of direct and specific binding to the LPS site is not established.
+  - **Resolution test** Show SPRi sensorgrams, include a competition experiment with unlabeled LPS, and provide mutagenesis data or a co-crystal structure to confirm the docking prediction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Dose-response and specificity
+  - **Claim pointer** LicoA dose-dependently reduces LPS-488 binding and inhibits TLR4 expression, MAPK and NF-kappaB activation.
+  - **Evidence pointer** Abstract results section; location not provided
+  - **Concern** The abstract does not specify the concentration range for LicoA or GL, nor whether the doses used are within a non-cytotoxic range. The specificity of the effect on TLR4 versus other LPS sensors, such as TLR2 or CD14, is not addressed.
+  - **Why it matters** Without dose-response curves and cytotoxicity data, the observed effects could be due to general cell stress or non-specific membrane perturbation. The lack of specificity testing leaves alternative mechanisms unexplored.
+  - **Resolution test** Provide full dose-response curves, cell viability data, and experiments using TLR4-deficient cells or other TLR agonists to demonstrate specificity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting clarity
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract materials and methods section
+  - **Issue** The abstract states that macrophages were "derived from THP-1" but does not specify the differentiation protocol or the maturation state.
+  - **Required correction** Specify the differentiation method, such as PMA treatment, and the resulting macrophage phenotype.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results
+  - **Evidence pointer** Abstract results section
+  - **Issue** No statistical measures, such as p-values or confidence intervals, are reported for any of the in vivo or in vitro findings.
+  - **Required correction** Include statistical details for all quantitative comparisons, including the number of replicates and the test used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Compound characterization
+  - **Affected element** LicoA purity and source
+  - **Evidence pointer** Abstract materials and methods section
+  - **Issue** The abstract does not state the purity or source of LicoA, which is critical for reproducibility.
+  - **Required correction** Provide the purity, supplier, and lot number for LicoA, and describe the preparation of the GL extract.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the direct targeting claim is not sufficiently supported by the partial reversal and the unvalidated binding data. R1-M3 is non-blocking but requires additional data for a complete case.
+- **Assessment against Nature-style criteria** Originality is moderate, as direct TLR4 targeting by natural products is an active area, but the specific use of LicoA is novel. Scientific importance is high given the clinical relevance of ALI and TLR4 as a therapeutic target. Interdisciplinary readership is plausible, spanning pharmacology, immunology, and computational biology. Technical soundness cannot be fully assessed from the abstract alone, but the approach is reasonable. Readability for nonspecialists is adequate, though the abstract is dense with technical terms.
+- **Recommendation posture** Supportive if technical concerns are resolved, particularly the partial reversal issue and the binding validation. Currently not established from the provided evidence.
+
+## Risk / unsupported claims
+- The claim that GL and LicoA act by "targeting the TLR4 directly" is not fully supported due to partial reversal with TLR4 overexpression.
+- The KD value for LicoA binding to TLR4-MD2 is reported without experimental context, making it unverifiable.
+- The molecular docking prediction of the LPS binding site is not validated by experimental mutagenesis or structural data.
+- The abstract does not provide evidence that the effects are specific to TLR4 versus other LPS-sensing receptors.
+- No data are presented to rule out non-specific or cytotoxic effects of GL or LicoA at the concentrations used.

@@ -1,0 +1,450 @@
+{
+  "identity": {
+    "pmid": "37580018",
+    "doi": "10.1016/j.modpat.2023.100304",
+    "title": "Deep Learning for Detecting BRCA Mutations in High-Grade Ovarian Cancer Based on an Innovative Tumor Segmentation Method From Whole Slide Images."
+  },
+  "content": {
+    "abstract": "BRCA1 and BRCA2 genes play a crucial role in repairing DNA double-strand breaks through homologous recombination. Their mutations represent a significant proportion of homologous recombination deficiency and are a reliable effective predictor of sensitivity of high-grade ovarian cancer (HGOC) to poly(ADP-ribose) polymerase inhibitors. However, their testing by next-generation sequencing is costly and time-consuming and can be affected by various preanalytical factors. In this study, we present a deep learning classifier for BRCA mutational status prediction from hematoxylin-eosin-safran-stained whole slide images (WSI) of HGOC. We constituted the OvarIA cohort composed of 867 patients with HGOC with known BRCA somatic mutational status from 2 different pathology departments. We first developed a tumor segmentation model according to dynamic sampling and then trained a visual representation encoder with momentum contrastive learning on the predicted tumor tiles. We finally trained a BRCA classifier on more than a million tumor tiles in multiple instance learning with an attention-based mechanism. The tumor segmentation model trained on 8 WSI obtained a dice score of 0.915 and an intersection-over-union score of 0.847 on a test set of 50 WSI, while the BRCA classifier achieved the state-of-the-art area under the receiver operating characteristic curve of 0.739 in 5-fold cross-validation and 0.681 on the testing set. An additional multiscale approach indicates that the relevant information for predicting BRCA mutations is located more in the tumor context than in the cell morphology. Our results suggest that BRCA somatic mutations have a discernible phenotypic effect that could be detected by deep learning and could be used as a prescreening tool in the future.",
+    "keywords": [
+      "BRCA mutation",
+      "computational pathology",
+      "deep learning",
+      "high-grade ovarian cancer",
+      "momentum contrast self-supervised learning",
+      "segmentation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Ovarian Neoplasms/genetics/pathology",
+      "*Deep Learning",
+      "BRCA2 Protein/genetics",
+      "BRCA1 Protein/genetics",
+      "Carcinoma, Ovarian Epithelial/genetics",
+      "Mutation",
+      "Poly(ADP-ribose) Polymerase Inhibitors/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bourgade, Raphael",
+        "Rabilloud, Noemie",
+        "Perennec, Tanguy",
+        "Pecot, Thierry",
+        "Garrec, Celine",
+        "Guedon, Alexis F",
+        "Delnatte, Capucine",
+        "Bezieau, Stephane",
+        "Lespagnol, Alexandra",
+        "de Tayrac, Marie",
+        "Henno, Sebastien",
+        "Sagan, Christine",
+        "Toquet, Claire",
+        "Mosnier, Jean-Francois",
+        "Kammerer-Jacquet, Solene-Florence",
+        "Loussouarn, Delphine"
+      ],
+      "short_names": [
+        "Bourgade R",
+        "Rabilloud N",
+        "Perennec T",
+        "Pecot T",
+        "Garrec C",
+        "Guedon AF",
+        "Delnatte C",
+        "Bezieau S",
+        "Lespagnol A",
+        "de Tayrac M",
+        "Henno S",
+        "Sagan C",
+        "Toquet C",
+        "Mosnier JF",
+        "Kammerer-Jacquet SF",
+        "Loussouarn D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology, University Hospital of Nantes, Nantes, France. Electronic address: raphael.bourgade@gmail.com.",
+        "Laboratoire du Traitement du Signal et de l'Image - Inserm U1099, University of Rennes, Rennes, France.",
+        "Department of Radiation Oncology, Institut de Cancerologie de l'Ouest Nantes, Saint-Herblain, France.",
+        "Facility for Artificial Intelligence and Image Analysis (FAIIA), Biosit UAR 3480 CNRS-US18 INSERM, University of Rennes, Rennes, France.",
+        "Department of Medical Genetics, University Hospital of Nantes, Nantes, France.",
+        "National Institute of Health and Medical Research, Pierre Louis Institute of Epidemiology and Public Health, Sorbonne University, Paris, France.",
+        "Department of Medical Genetics, University Hospital of Nantes, Nantes, France.",
+        "Department of Medical Genetics, University Hospital of Nantes, Nantes, France.",
+        "Department of Molecular Genetics and Genomics, University Hospital of Rennes, Rennes, France.",
+        "Department of Molecular Genetics and Genomics, University Hospital of Rennes, Rennes, France.",
+        "Department of Pathology, University Hospital of Rennes, Rennes, France.",
+        "Department of Pathology, University Hospital of Nantes, Nantes, France.",
+        "Department of Pathology, University Hospital of Nantes, Nantes, France.",
+        "Department of Pathology, University Hospital of Nantes, Nantes, France.",
+        "Laboratoire du Traitement du Signal et de l'Image - Inserm U1099, University of Rennes, Rennes, France; Department of Pathology, University Hospital of Rennes, Rennes, France.",
+        "Department of Pathology, University Hospital of Nantes, Nantes, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bourgade, Raphaël",
+        "short_name": "Bourgade R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University Hospital of Nantes, Nantes, France. Electronic address: raphael.bourgade@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Rabilloud, Noémie",
+        "short_name": "Rabilloud N",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire du Traitement du Signal et de l'Image - Inserm U1099, University of Rennes, Rennes, France."
+        ]
+      },
+      {
+        "full_name": "Perennec, Tanguy",
+        "short_name": "Perennec T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, Institut de Cancérologie de l'Ouest Nantes, Saint-Herblain, France."
+        ]
+      },
+      {
+        "full_name": "Pécot, Thierry",
+        "short_name": "Pécot T",
+        "identifiers": [],
+        "affiliations": [
+          "Facility for Artificial Intelligence and Image Analysis (FAIIA), Biosit UAR 3480 CNRS-US18 INSERM, University of Rennes, Rennes, France."
+        ]
+      },
+      {
+        "full_name": "Garrec, Céline",
+        "short_name": "Garrec C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, University Hospital of Nantes, Nantes, France."
+        ]
+      },
+      {
+        "full_name": "Guédon, Alexis F",
+        "short_name": "Guédon AF",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Health and Medical Research, Pierre Louis Institute of Epidemiology and Public Health, Sorbonne University, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Delnatte, Capucine",
+        "short_name": "Delnatte C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, University Hospital of Nantes, Nantes, France."
+        ]
+      },
+      {
+        "full_name": "Bézieau, Stéphane",
+        "short_name": "Bézieau S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Genetics, University Hospital of Nantes, Nantes, France."
+        ]
+      },
+      {
+        "full_name": "Lespagnol, Alexandra",
+        "short_name": "Lespagnol A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics and Genomics, University Hospital of Rennes, Rennes, France."
+        ]
+      },
+      {
+        "full_name": "de Tayrac, Marie",
+        "short_name": "de Tayrac M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics and Genomics, University Hospital of Rennes, Rennes, France."
+        ]
+      },
+      {
+        "full_name": "Henno, Sébastien",
+        "short_name": "Henno S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University Hospital of Rennes, Rennes, France."
+        ]
+      },
+      {
+        "full_name": "Sagan, Christine",
+        "short_name": "Sagan C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University Hospital of Nantes, Nantes, France."
+        ]
+      },
+      {
+        "full_name": "Toquet, Claire",
+        "short_name": "Toquet C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University Hospital of Nantes, Nantes, France."
+        ]
+      },
+      {
+        "full_name": "Mosnier, Jean-François",
+        "short_name": "Mosnier JF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University Hospital of Nantes, Nantes, France."
+        ]
+      },
+      {
+        "full_name": "Kammerer-Jacquet, Solène-Florence",
+        "short_name": "Kammerer-Jacquet SF",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire du Traitement du Signal et de l'Image - Inserm U1099, University of Rennes, Rennes, France; Department of Pathology, University Hospital of Rennes, Rennes, France."
+        ]
+      },
+      {
+        "full_name": "Loussouarn, Delphine",
+        "short_name": "Loussouarn D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, University Hospital of Nantes, Nantes, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Modern pathology : an official journal of the United States and Canadian Academy of Pathology, Inc"
+    ],
+    "journal_abbrev": [
+      "Mod Pathol"
+    ],
+    "pub_date": "2023 Nov",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/15 00:42",
+    "fetched_at": "2026-09-29 05:45:41"
+  },
+  "links": {
+    "cites": [
+      "42602542",
+      "41608456",
+      "41353287",
+      "41226862",
+      "40993310",
+      "40855096",
+      "40282519",
+      "40167932",
+      "40038690",
+      "39863682",
+      "39759153",
+      "39499318",
+      "38893102",
+      "38883738",
+      "38067395"
+    ],
+    "refs": [],
+    "similar": [
+      "37580018",
+      "36232628",
+      "30691488",
+      "32164585",
+      "37673346",
+      "30425037",
+      "27065456",
+      "39258876",
+      "27037296",
+      "28258387",
+      "31227342",
+      "32796232",
+      "39111459",
+      "31537627",
+      "32967790",
+      "36720553",
+      "35343191",
+      "27869444",
+      "28549976",
+      "37637244",
+      "20606085",
+      "34657357",
+      "30940100",
+      "28190312",
+      "29606854",
+      "30948273",
+      "34593530",
+      "34637782",
+      "31577534",
+      "27357817",
+      "27869447",
+      "36165864",
+      "25993149",
+      "26485111",
+      "32827632",
+      "30640700",
+      "33332934",
+      "37211773",
+      "34602290",
+      "29615458",
+      "23232854",
+      "36054589",
+      "27869446",
+      "31263023",
+      "27907908",
+      "31553234",
+      "26931795",
+      "31242303",
+      "35550005",
+      "36136896",
+      "29867226",
+      "30683677",
+      "25236687",
+      "30092674",
+      "29313279",
+      "33012552",
+      "31534014",
+      "28610746",
+      "28223274",
+      "31865042",
+      "35779836",
+      "36564284",
+      "31797087",
+      "36759000",
+      "30103829",
+      "27127105",
+      "27025497",
+      "22406760",
+      "31883735",
+      "23810788",
+      "37536445",
+      "27736844",
+      "26964893",
+      "34823292",
+      "30870286",
+      "28763368",
+      "36536772",
+      "38101298",
+      "31300207",
+      "31685558",
+      "30078507",
+      "34007132",
+      "28508305",
+      "28176296",
+      "33372675",
+      "37470594",
+      "30353044",
+      "26745875",
+      "35897700",
+      "27634150",
+      "25093514",
+      "32553590",
+      "34715071",
+      "34354733",
+      "37672073",
+      "34908807",
+      "37577691",
+      "39265953",
+      "33311458",
+      "38790330",
+      "38413598",
+      "38952117",
+      "38791889",
+      "39398198",
+      "38903738",
+      "38241820",
+      "38660159",
+      "39012745",
+      "34556802",
+      "38883738",
+      "38898127",
+      "38886290",
+      "38765185",
+      "39329651",
+      "38250956",
+      "38341402",
+      "38108720",
+      "38496571",
+      "37952058"
+    ],
+    "review": [
+      "37580018",
+      "30691488",
+      "27065456",
+      "27037296",
+      "32796232",
+      "39111459",
+      "32967790",
+      "35343191",
+      "37637244",
+      "29606854",
+      "31577534",
+      "27357817",
+      "27869447",
+      "25993149",
+      "26485111",
+      "32827632",
+      "37211773",
+      "36054589",
+      "27869446",
+      "26931795",
+      "31242303",
+      "35550005",
+      "29867226",
+      "30092674",
+      "33012552",
+      "31797087",
+      "27127105",
+      "37536445",
+      "27736844",
+      "26964893",
+      "34007132",
+      "28508305",
+      "35897700",
+      "27634150"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0893-3952(23)00209-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://hal.science/hal-04196223",
+        "provider": "HAL archives ouvertes - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3279",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

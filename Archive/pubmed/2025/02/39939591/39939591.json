@@ -1,0 +1,515 @@
+{
+  "identity": {
+    "pmid": "39939591",
+    "doi": "10.1038/s41467-025-56850-6",
+    "title": "Classification of psychedelics and psychoactive drugs based on brain-wide imaging of cellular c-Fos expression."
+  },
+  "content": {
+    "abstract": "Psilocybin, ketamine, and MDMA are psychoactive compounds that exert behavioral effects with distinguishable but also overlapping features. The growing interest in using these compounds as therapeutics necessitates preclinical assays that can accurately screen psychedelics and related analogs. We posit that a promising approach may be to measure drug action on markers of neural plasticity in native brain tissues. We therefore developed a pipeline for drug classification using light sheet fluorescence microscopy of immediate early gene expression at cellular resolution followed by machine learning. We tested male and female mice with a panel of drugs, including psilocybin, ketamine, 5-MeO-DMT, 6-fluoro-DET, MDMA, acute fluoxetine, chronic fluoxetine, and vehicle. In one-versus-rest classification, the exact drug was identified with 67% accuracy, significantly above the chance level of 12.5%. In one-versus-one classifications, psilocybin was discriminated from 5-MeO-DMT, ketamine, MDMA, or acute fluoxetine with >95% accuracy. We used Shapley additive explanation to pinpoint the brain regions driving the machine learning predictions. Our results suggest a unique approach for characterizing and validating psychoactive drugs with psychedelic properties.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Hallucinogens/pharmacology/classification",
+      "*Brain/drug effects/metabolism/diagnostic imaging",
+      "Female",
+      "*Psychotropic Drugs/pharmacology/classification",
+      "Mice",
+      "Ketamine/pharmacology",
+      "Male",
+      "*Proto-Oncogene Proteins c-fos/metabolism/genetics",
+      "Psilocybin/pharmacology",
+      "Machine Learning",
+      "Fluoxetine/pharmacology",
+      "N-Methyl-3,4-methylenedioxyamphetamine/pharmacology",
+      "Mice, Inbred C57BL",
+      "Microscopy, Fluorescence"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aboharb, Farid",
+        "Davoudian, Pasha A",
+        "Shao, Ling-Xiao",
+        "Liao, Clara",
+        "Rzepka, Gillian N",
+        "Wojtasiewicz, Cassandra",
+        "Indajang, Jonathan",
+        "Dibbs, Mark",
+        "Rondeau, Jocelyne",
+        "Sherwood, Alexander M",
+        "Kaye, Alfred P",
+        "Kwan, Alex C"
+      ],
+      "short_names": [
+        "Aboharb F",
+        "Davoudian PA",
+        "Shao LX",
+        "Liao C",
+        "Rzepka GN",
+        "Wojtasiewicz C",
+        "Indajang J",
+        "Dibbs M",
+        "Rondeau J",
+        "Sherwood AM",
+        "Kaye AP",
+        "Kwan AC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5096-7610",
+        "ORCID: 0009-0006-9503-1230",
+        "ORCID: 0000-0002-4341-361X",
+        "ORCID: 0000-0003-2169-1667"
+      ],
+      "affiliations": [
+        "Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA.",
+        "Weill Cornell Medicine/Rockefeller/Sloan-Kettering Tri-Institutional MD/PhD Program, New York, NY, USA.",
+        "Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA.",
+        "Interdepartmental Neuroscience Program, Yale University School of Medicine, New Haven, CT, USA.",
+        "Medical Scientist Training Program, Yale University School of Medicine, New Haven, CT, USA.",
+        "Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA.",
+        "Department of Psychiatry, Yale University School of Medicine, New Haven, CT, USA.",
+        "Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA.",
+        "Interdepartmental Neuroscience Program, Yale University School of Medicine, New Haven, CT, USA.",
+        "Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA.",
+        "Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA.",
+        "Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA.",
+        "Department of Psychiatry, Yale University School of Medicine, New Haven, CT, USA.",
+        "Department of Psychiatry, Yale University School of Medicine, New Haven, CT, USA.",
+        "Usona Institute, Fitchburg, WI, USA.",
+        "Department of Psychiatry, Yale University School of Medicine, New Haven, CT, USA.",
+        "Clinical Neurosciences Division, VA National Center for PTSD, West Haven, CT, USA.",
+        "Wu Tsai Institute, Yale University, New Haven, CT, USA.",
+        "Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA. alex.kwan@cornell.edu.",
+        "Department of Psychiatry, Yale University School of Medicine, New Haven, CT, USA. alex.kwan@cornell.edu.",
+        "Department of Psychiatry, Weill Cornell Medicine, New York, NY, USA. alex.kwan@cornell.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aboharb, Farid",
+        "short_name": "Aboharb F",
+        "identifiers": [],
+        "affiliations": [
+          "Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA.",
+          "Weill Cornell Medicine/Rockefeller/Sloan-Kettering Tri-Institutional MD/PhD Program, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Davoudian, Pasha A",
+        "short_name": "Davoudian PA",
+        "identifiers": [
+          "0000-0002-5096-7610"
+        ],
+        "affiliations": [
+          "Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA.",
+          "Interdepartmental Neuroscience Program, Yale University School of Medicine, New Haven, CT, USA.",
+          "Medical Scientist Training Program, Yale University School of Medicine, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Shao, Ling-Xiao",
+        "short_name": "Shao LX",
+        "identifiers": [
+          "0009-0006-9503-1230"
+        ],
+        "affiliations": [
+          "Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA.",
+          "Department of Psychiatry, Yale University School of Medicine, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Liao, Clara",
+        "short_name": "Liao C",
+        "identifiers": [],
+        "affiliations": [
+          "Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA.",
+          "Interdepartmental Neuroscience Program, Yale University School of Medicine, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Rzepka, Gillian N",
+        "short_name": "Rzepka GN",
+        "identifiers": [],
+        "affiliations": [
+          "Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Wojtasiewicz, Cassandra",
+        "short_name": "Wojtasiewicz C",
+        "identifiers": [],
+        "affiliations": [
+          "Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Indajang, Jonathan",
+        "short_name": "Indajang J",
+        "identifiers": [],
+        "affiliations": [
+          "Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Dibbs, Mark",
+        "short_name": "Dibbs M",
+        "identifiers": [
+          "0000-0002-4341-361X"
+        ],
+        "affiliations": [
+          "Department of Psychiatry, Yale University School of Medicine, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Rondeau, Jocelyne",
+        "short_name": "Rondeau J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry, Yale University School of Medicine, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Sherwood, Alexander M",
+        "short_name": "Sherwood AM",
+        "identifiers": [],
+        "affiliations": [
+          "Usona Institute, Fitchburg, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Kaye, Alfred P",
+        "short_name": "Kaye AP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry, Yale University School of Medicine, New Haven, CT, USA.",
+          "Clinical Neurosciences Division, VA National Center for PTSD, West Haven, CT, USA.",
+          "Wu Tsai Institute, Yale University, New Haven, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Kwan, Alex C",
+        "short_name": "Kwan AC",
+        "identifiers": [
+          "0000-0003-2169-1667"
+        ],
+        "affiliations": [
+          "Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY, USA. alex.kwan@cornell.edu.",
+          "Department of Psychiatry, Yale University School of Medicine, New Haven, CT, USA. alex.kwan@cornell.edu.",
+          "Department of Psychiatry, Weill Cornell Medicine, New York, NY, USA. alex.kwan@cornell.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Feb 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/13 00:22",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [
+      "42675044",
+      "42539178",
+      "42342649",
+      "41963345",
+      "41929185",
+      "41399475",
+      "41352354",
+      "41213805",
+      "40877079",
+      "40760185",
+      "40002450"
+    ],
+    "refs": [
+      "39558048",
+      "39232159",
+      "39209948",
+      "38778146",
+      "38669575",
+      "38538644",
+      "38102107",
+      "38052211",
+      "37773070",
+      "37709999",
+      "37651119",
+      "37391028",
+      "37390830",
+      "37295945",
+      "37248402",
+      "37231080",
+      "37015972",
+      "36736419",
+      "36683039",
+      "36682503",
+      "36636296",
+      "36630309",
+      "36351821",
+      "36322843",
+      "36280799",
+      "36171289",
+      "36050489",
+      "35487088",
+      "35301459",
+      "35149998",
+      "35084960",
+      "35077687",
+      "34686347",
+      "34650202",
+      "34580158",
+      "34565579",
+      "34355695",
+      "34255821",
+      "34228959",
+      "34035476",
+      "33972795",
+      "33915107",
+      "33905587",
+      "33852780",
+      "33739286",
+      "33529728",
+      "33358035",
+      "33344861",
+      "33299186",
+      "33146667",
+      "32958923",
+      "32929261",
+      "32771528",
+      "32679036",
+      "32594910",
+      "32483374",
+      "32478146",
+      "32386544",
+      "31911591",
+      "31666704",
+      "31109201",
+      "30822141",
+      "30359600",
+      "30273396",
+      "30262987",
+      "29945898",
+      "29720647",
+      "29446381",
+      "29282469",
+      "27238021",
+      "27066532",
+      "26706448",
+      "26638076",
+      "26578787",
+      "26371762",
+      "25592319",
+      "25558063",
+      "24740528",
+      "24581503",
+      "23982301",
+      "22787057",
+      "22363492",
+      "21350486",
+      "20877280",
+      "20724638",
+      "20717121",
+      "19043410",
+      "17522629",
+      "17366604",
+      "16894061",
+      "15085085",
+      "14523084",
+      "14184932",
+      "11927188",
+      "11900766",
+      "11101361",
+      "10686270",
+      "9682278",
+      "8492912",
+      "6076017",
+      "3037702",
+      "2880944",
+      "1969743"
+    ],
+    "similar": [
+      "39939591",
+      "38826215",
+      "36630309",
+      "37802267",
+      "33257322",
+      "23457892",
+      "37149346",
+      "37248402",
+      "38518266",
+      "31247301",
+      "39613915",
+      "37982394",
+      "39243659",
+      "31241740",
+      "34983249",
+      "38764044",
+      "37015972",
+      "35458717",
+      "39111558",
+      "34983261",
+      "32931403",
+      "39321788",
+      "37955822",
+      "38233467",
+      "14751419",
+      "34048997",
+      "36314881",
+      "18973603",
+      "34624734",
+      "17688928",
+      "30451567",
+      "35841696",
+      "36017784",
+      "13680075",
+      "38574699",
+      "36477830",
+      "38341085",
+      "24444771",
+      "31857204",
+      "35031816",
+      "39260823",
+      "32619708",
+      "35729252",
+      "34734392",
+      "36990794",
+      "37934320",
+      "23574442",
+      "37605471",
+      "18824064",
+      "38184069",
+      "31829932",
+      "38969716",
+      "36216840",
+      "29178010",
+      "38108102",
+      "36601974",
+      "36184377",
+      "38262735",
+      "33988930",
+      "21148021",
+      "37947195",
+      "33515586",
+      "30471679",
+      "33501857",
+      "18633827",
+      "27216487",
+      "37874338",
+      "39725123",
+      "35341564",
+      "38634840",
+      "33740877",
+      "32098487",
+      "35704271",
+      "21756931",
+      "38378926",
+      "39241438",
+      "38284341",
+      "38810366",
+      "39094057",
+      "35747039",
+      "39168165",
+      "31636488",
+      "26371762",
+      "38726805",
+      "22836372",
+      "25922420",
+      "34565579",
+      "29224406",
+      "17987061",
+      "39305768",
+      "17047932",
+      "38301886",
+      "34922987",
+      "10521585",
+      "34038314",
+      "32133835",
+      "40116762",
+      "32954860",
+      "26010878",
+      "32468195"
+    ],
+    "review": [
+      "39939591",
+      "37802267",
+      "33257322",
+      "37149346",
+      "38518266",
+      "39613915",
+      "37982394",
+      "39243659",
+      "35458717",
+      "39111558",
+      "32931403",
+      "39321788",
+      "37955822",
+      "34048997",
+      "35841696",
+      "36017784",
+      "13680075",
+      "38574699",
+      "38341085",
+      "24444771",
+      "39260823",
+      "35729252",
+      "36990794",
+      "37934320",
+      "31829932",
+      "29178010",
+      "33988930",
+      "37947195",
+      "33515586",
+      "30471679",
+      "35341564",
+      "38634840",
+      "32098487",
+      "35704271",
+      "21756931",
+      "38284341",
+      "39094057",
+      "35747039",
+      "31636488",
+      "38726805",
+      "34565579",
+      "38301886",
+      "34922987",
+      "34038314",
+      "40116762",
+      "32954860"
+    ],
+    "pmc": [
+      "11822132"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-56850-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39939591/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

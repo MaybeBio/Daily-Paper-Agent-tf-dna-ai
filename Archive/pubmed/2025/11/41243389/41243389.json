@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "41243389",
+    "doi": "10.1002/jgm.70057",
+    "title": "Identification of the Role of Transient Receptor Potential Channels in Acute Pancreatitis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Acute pancreatitis (AP) is a severe inflammatory disease. Transient receptor potential (TRP) channels have been reported to participate in various pathophysiological processes. However, the role of TRP channels in the AP remains unclear. Here, we investigated the involvement of TRP channels in AP. METHODS: We identified differentially expressed genes (DEGs) using the public AP datasets GSE3644 and GSE109227 and identified 20 hub genes. We analyzed their correlation with the TRP genes. Four DEGs related to TRP channels were selected, and functional enrichment analyses were conducted. An interaction network involving the transcription factors, microRNAs (miRNAs), and mRNA of the four TRP-associated genes was established. To evaluate the diagnostic effectiveness, receiver operating characteristic (ROC) analysis and machine learning (ML) methods, such as support vector classifiers and random forest, were applied. Furthermore, we analyzed immune cell infiltration and its relationship with the four TRP genes. To confirm these bioinformatics findings, we performed in vitro and in vivo experiments using primary acinar cells and an experimental mouse model of AP. RESULTS: Four TRP-related genes, namely, MCOLN1, MCOLN3, TRPM7, and TRPV4, were selected for the correlation analysis. Functional analyses showed that these four genes are involved in cellular senescence and the calcium signaling pathway. A TF-miRNA-mRNA interaction network was constructed for the four TRP-associated genes. The areas under the ROC curves (AUC) of MCOLN1, MCOLN3, TRPM7, and TRPV4 were 0.833, 0.700, 1.0, and 1.0, respectively. ML algorithms performed well in predicting AP with AUCs >/= 0.67. TRPM7, TRPV4, and MCOLN3 are associated with immune cell infiltration of AP tissues. Using experimental AP models, we found that the expression of three TRP-related genes, MCOLN1, TRPM7, and TRPV4, was significantly upregulated in mouse AP tissues. Specifically, TRPM7 knockdown or inhibition by its inhibitor 2-APB significantly reduced pancreatic acinar cell damage, inflammatory mediator expression, and mRNA levels of senescence-associated genes. CONCLUSIONS: Our study suggests that TRP-related genes play crucial roles in AP and may be promising biomarkers for predicting the pathogenesis of AP.",
+    "keywords": [
+      "acute pancreatitis",
+      "calcium signaling",
+      "cellular senescence",
+      "immune infiltration",
+      "transient receptor potential channel"
+    ],
+    "mesh_terms": [
+      "*Pancreatitis/genetics/metabolism/pathology",
+      "Animals",
+      "Humans",
+      "Mice",
+      "*Transient Receptor Potential Channels/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "Computational Biology/methods",
+      "Gene Expression Profiling",
+      "Disease Models, Animal",
+      "TRPM Cation Channels/genetics/metabolism",
+      "TRPV Cation Channels/genetics/metabolism",
+      "MicroRNAs/genetics",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shen, Shuangjun",
+        "Wu, Xiaowan",
+        "Cheng, Zhiyuan",
+        "Wang, Ruiyan",
+        "Jiang, Jing",
+        "Jiang, Weiliang"
+      ],
+      "short_names": [
+        "Shen S",
+        "Wu X",
+        "Cheng Z",
+        "Wang R",
+        "Jiang J",
+        "Jiang W"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-2113-9313"
+      ],
+      "affiliations": [
+        "Department of Gastroenterology, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Gastroenterology, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Gastroenterology, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Gastroenterology, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Gastroenterology, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Gastroenterology, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shen, Shuangjun",
+        "short_name": "Shen S",
+        "identifiers": [
+          "0009-0005-2113-9313"
+        ],
+        "affiliations": [
+          "Department of Gastroenterology, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Xiaowan",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Zhiyuan",
+        "short_name": "Cheng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ruiyan",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Jing",
+        "short_name": "Jiang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Weiliang",
+        "short_name": "Jiang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of gene medicine"
+    ],
+    "journal_abbrev": [
+      "J Gene Med"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/17 09:07",
+    "fetched_at": "2026-10-01 06:35:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41243389",
+      "16787531",
+      "36692516",
+      "20015940",
+      "23536075",
+      "23942896",
+      "36012311",
+      "24057349",
+      "20539005",
+      "41044520",
+      "40785039",
+      "38158807",
+      "22178934",
+      "39289270",
+      "40585980",
+      "28849189",
+      "33884443",
+      "19115145",
+      "41200201",
+      "40503237",
+      "39546499",
+      "38520499",
+      "41145553",
+      "37208975",
+      "41340461",
+      "39634181",
+      "37373205",
+      "19114343",
+      "38681131",
+      "40907662",
+      "36126722",
+      "20730379",
+      "40536508",
+      "30134548",
+      "24849279",
+      "25820697",
+      "36395409",
+      "34536521",
+      "19834762",
+      "22566504",
+      "38188686",
+      "36139480",
+      "38767974",
+      "25369838",
+      "40076525",
+      "39999939",
+      "27875791",
+      "41120603",
+      "40374866",
+      "16597917",
+      "41006883",
+      "33449852",
+      "38863714",
+      "24161127",
+      "40196107",
+      "31724100",
+      "40574839",
+      "16399784",
+      "40496861",
+      "38649912",
+      "34256685",
+      "40997906",
+      "39375405",
+      "17344381",
+      "20536737",
+      "26358221",
+      "19695100",
+      "19929312",
+      "41544137",
+      "28807149",
+      "38268224",
+      "38884700",
+      "41146237",
+      "25967713",
+      "29987591",
+      "38948951",
+      "27464700",
+      "16077087",
+      "26207981",
+      "35396708",
+      "38852485",
+      "34324688",
+      "38873601",
+      "28077439",
+      "32281947",
+      "38062833",
+      "35237056",
+      "35077860",
+      "24920677",
+      "16806461",
+      "32960383",
+      "23511028",
+      "40918403",
+      "40775364",
+      "41563994",
+      "41291978",
+      "40628511",
+      "22242975",
+      "35757392",
+      "20943764"
+    ],
+    "review": [
+      "41243389",
+      "39289270",
+      "20730379",
+      "36139480",
+      "24161127",
+      "20536737",
+      "28807149",
+      "16077087"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pancreatitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatitis"
+      },
+      {
+        "url": "https://www.ovid.com/41243389.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/jgm.70057",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

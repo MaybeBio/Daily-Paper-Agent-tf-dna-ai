@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "41331828",
+    "doi": "10.1186/s40001-025-03585-1",
+    "title": "Deciphering N7-methylguanosine-driven immune dysregulation in unexplained recurrent spontaneous abortion based on transcriptome data and experimental validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Unexplained recurrent spontaneous abortion (URSA) poses significant clinical challenges, with immune dysregulation at the maternal-fetal interface implicated in 80% of cases. While RNA modifications like N7-methylguanosine (m7G) are emerging as key regulators of immune pathologies, their role in URSA remains unexplored. METHODS: Decidual transcriptomes (GSE165004) from URSA patients and controls were analyzed to identify differentially expressed m7G regulators. Machine learning (LASSO/random forest) prioritized diagnostic biomarkers, which were validated via qRT-PCR and immunofluorescence. Differences in the immune infiltration landscape between the two groups were assessed by ssGSEA. Furthermore, Spearman correlation analysis was performed to explore associations between m7G-related biomarkers and immune infiltration characteristics. Regulatory networks (transcription factors/microRNAs) and therapeutic candidates of biomarkers were predicted using JASPAR, mirTarbase, and Coremine medical, respectively. RESULTS: Three key m7G regulators with diagnostic value were identified: LSM1, LARP1, and NCBP2. The nomogram constructed based on these biomarkers demonstrated excellent predictive performance in URSA. qRT-PCR and immunofluorescence confirmed that LSM1 expression was upregulated in URSA samples, while LARP1 and NCBP2 were downregulated. Furthermore, distinct patterns of immune infiltration were observed between URSA and control. Spearman analysis revealed that LSM1 was negatively correlated with Treg infiltration, whereas LARP1 and NCBP2 showed positive correlations with Treg. Besides, network analysis identified regulatory relationships between these biomarkers and 167 miRNAs (e.g., hsa-miR-27a-3p) or 18 TFs (e.g., E2F1, GATA2). Sirolimus (targeting NCBP2) and AZD4547 (targeting LSM1) were predicted to be the most promising therapeutic drugs. CONCLUSIONS: This study establishes m7G methylation as a novel epigenetic driver of immune dysregulation in URSA. The predictive signature offers translational tool for risk stratification and targeted therapy, bridging RNA epigenetics with reproductive immunology.",
+    "keywords": [
+      "Biomarker",
+      "Immune dysregulation",
+      "N7-methylguanosine",
+      "Unexplained recurrent spontaneous abortion"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "Pregnancy",
+      "*Abortion, Habitual/immunology/genetics",
+      "*Guanosine/analogs & derivatives/metabolism",
+      "*Transcriptome",
+      "Biomarkers/metabolism",
+      "Adult",
+      "Decidua/metabolism/immunology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Qing",
+        "Wang, Shimeng",
+        "Song, Sujie",
+        "Zhao, Xiaoxuan"
+      ],
+      "short_names": [
+        "Guo Q",
+        "Wang S",
+        "Song S",
+        "Zhao X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Heilongjiang Academy of Chinese Medicine Sciences, Harbin, 150080, China.",
+        "Department of Gynecology, The First Affiliated Hospital of Heilongjiang University of Chinese Medicine, Harbin, 150040, China.",
+        "Department of Traditional Chinese Medicine (TCM) Gynecology, Hangzhou TCM Hospital Affiliated to Zhejiang Chinese Medical University, Hangzhou, 310007, China.",
+        "Department of Traditional Chinese Medicine (TCM) Gynecology, Hangzhou TCM Hospital Affiliated to Zhejiang Chinese Medical University, Hangzhou, 310007, China. tychexuan@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Qing",
+        "short_name": "Guo Q",
+        "identifiers": [],
+        "affiliations": [
+          "Heilongjiang Academy of Chinese Medicine Sciences, Harbin, 150080, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shimeng",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology, The First Affiliated Hospital of Heilongjiang University of Chinese Medicine, Harbin, 150040, China."
+        ]
+      },
+      {
+        "full_name": "Song, Sujie",
+        "short_name": "Song S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine (TCM) Gynecology, Hangzhou TCM Hospital Affiliated to Zhejiang Chinese Medical University, Hangzhou, 310007, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xiaoxuan",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine (TCM) Gynecology, Hangzhou TCM Hospital Affiliated to Zhejiang Chinese Medical University, Hangzhou, 310007, China. tychexuan@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2025 Dec 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/03 07:41",
+    "fetched_at": "2026-10-01 07:55:32"
+  },
+  "links": {
+    "cites": [
+      "42553171",
+      "42072692"
+    ],
+    "refs": [
+      "40351534",
+      "40089835",
+      "40018039",
+      "39976098",
+      "39578692",
+      "39332589",
+      "39260796",
+      "39002868",
+      "38972152",
+      "38964031",
+      "38918785",
+      "38914382",
+      "38902779",
+      "38880226",
+      "38880188",
+      "38810124",
+      "38531882",
+      "37884527",
+      "37701433",
+      "37659205",
+      "37603948",
+      "37217762",
+      "37095185",
+      "37067401",
+      "37001474",
+      "36320552",
+      "36319956",
+      "36138023",
+      "35672876",
+      "35598182",
+      "35357751",
+      "35022030",
+      "34649494",
+      "34307373",
+      "34125914",
+      "34101149",
+      "33303732",
+      "32973809",
+      "31937097",
+      "31701148",
+      "30931480",
+      "30890124",
+      "30594216",
+      "29912392",
+      "27924014",
+      "27430240",
+      "27008011",
+      "26334375",
+      "25605792",
+      "23942572",
+      "23323831",
+      "22257669",
+      "22125385",
+      "21546393",
+      "20455873",
+      "14960456",
+      "12925520"
+    ],
+    "similar": [
+      "41331828",
+      "37265689",
+      "26868995",
+      "29657243",
+      "30339301",
+      "35083607",
+      "37832104",
+      "40658715",
+      "35897028",
+      "35003098",
+      "40771586",
+      "26996957",
+      "32839941",
+      "39440054",
+      "41000384",
+      "26675185",
+      "40898520",
+      "40097518",
+      "34484222",
+      "34421922",
+      "37340405",
+      "29741731",
+      "39600272",
+      "39436635",
+      "39440068",
+      "26057526",
+      "33944653",
+      "32522204",
+      "35784919",
+      "19087496",
+      "41056007",
+      "39707242",
+      "40018039",
+      "39787761",
+      "38988942",
+      "40405297",
+      "39390495",
+      "35689099",
+      "39908863",
+      "37280474",
+      "33182030",
+      "27698192",
+      "40485623",
+      "37549488",
+      "38142184",
+      "38810540",
+      "25674246",
+      "41087455",
+      "17442182",
+      "41425547",
+      "35764020",
+      "40542600",
+      "27363279",
+      "40696416",
+      "29932060",
+      "32506120",
+      "40692778",
+      "41335036",
+      "37657719",
+      "29482715",
+      "38628712",
+      "17543960",
+      "26879955",
+      "28531169",
+      "40659771",
+      "32169518",
+      "40200350",
+      "41371163",
+      "37116150",
+      "37158958",
+      "36810782",
+      "40374866",
+      "32709893",
+      "35900339",
+      "25989617",
+      "29678844",
+      "36467881",
+      "38987843",
+      "36636051",
+      "36793182",
+      "38482248",
+      "40113900",
+      "36226166",
+      "35711933",
+      "37968670",
+      "36685826",
+      "24739646",
+      "37501118",
+      "38637274",
+      "40536920",
+      "41120378",
+      "39863550",
+      "33371084",
+      "40321821",
+      "38090319",
+      "40245602",
+      "37067401",
+      "36895966",
+      "37868988",
+      "39027505"
+    ],
+    "review": [
+      "41331828"
+    ],
+    "pmc": [
+      "12771930"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-025-03585-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41331828/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

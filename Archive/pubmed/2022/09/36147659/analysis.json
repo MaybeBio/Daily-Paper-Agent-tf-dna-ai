@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36147659",
+  "title": "CASPIAN: A method to identify chromatin topological associated domains based on spatial density cluster.",
+  "authors": "Gong, Haiyan; Yang, Yi; Zhang, Xiaotong; Li, Minghong; Zhang, Sichen; Chen, Yang",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2022-09-24",
+  "window": {
+    "start": "2022-09-19",
+    "end": "2022-09-25"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用HDBSCAN空间密度聚类识别Hi-C染色质拓扑关联域边界，虽涉及CTCF等转录因子在边界富集，但核心是染色质结构域划分，非蛋白质-DNA互作建模，且方法为聚类算法而非AI/物理模拟，与课题关联较弱。",
+  "abstract": "With the development of Hi-C technology, the detection of topologically associated domains (TADs) boundaries plays an important role in exploring the relationship between gene structure and expression. However, a method that can identify accurate TAD boundaries from the Hi-C contact matrix with different resolutions is currently lacking. We proposed a method named CASPIAN that can identify chromatin TAD boundaries based on the spatial density clustering algorithm. CASPIAN requires few parameters to call TADs. This method is realized using the hierarchical density-based clustering method HDBSCAN, where the distance of pairwise bins is calculated based on three distance metrics (Euclidean, Manhattan, and Chebyshev distance metric) to adapt to the characteristics of the Hi-C contact matrix generated from simulation experiments or normalized methods. Our results show that, same as standard methods (e.g., Insulation Score, TopDom), CASPIAN can enrich factors related to promoting the gene expression, such as CTCF, H3K4me1, H3K4me3, RAD21, POLR2A, and SMC3. We also calculated the approximate proportion of various factors anchored at the TAD boundaries to observe the distribution of these factors surrounding the TAD boundaries. In conclusion, CASPIAN is an easy method to explore the relationship between transcription factors and TAD boundaries. CASPIAN is available online (https://gitee.com/ghaiyan/caspian).",
+  "abstract_zh": "随着Hi-C技术的发展，拓扑关联结构域（TADs）边界的检测在探索基因结构与表达之间的关系中扮演着重要角色。然而，目前缺乏一种能够从不同分辨率的Hi-C接触矩阵中识别准确TAD边界的方法。我们提出了一种名为CASPIAN的方法，基于空间密度聚类算法来识别染色质TAD边界。CASPIAN只需少量参数即可调用TADs。该方法利用基于层次密度的聚类方法HDBSCAN实现，其中成对bin之间的距离基于三种距离度量（欧几里得、曼哈顿和切比雪夫距离度量）计算，以适应来自模拟实验或标准化方法生成的Hi-C接触矩阵的特性。我们的结果表明，与标准方法（如Insulation Score、TopDom）相同，CASPIAN能够富集与促进基因表达相关的因子，如CTCF、H3K4me1、H3K4me3、RAD21、POLR2A和SMC3。我们还计算了锚定在TAD边界上的各种因子的近似比例，以观察这些因子在TAD边界周围的分布。总之，CASPIAN是一种简便的方法，用于探索转录因子与TAD边界之间的关系。CASPIAN可在线获取（https://gitee.com/ghaiyan/caspian）。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36147659/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36147659/",
+  "paper_page_path": "papers/pubmed/36147659/index.html"
+}

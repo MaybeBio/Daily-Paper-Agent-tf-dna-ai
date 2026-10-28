@@ -1,0 +1,587 @@
+{
+  "identity": {
+    "pmid": "38504345",
+    "doi": "10.1186/s12967-024-04869-6",
+    "title": "Epigenetic MLH1 silencing concurs with mismatch repair deficiency in sporadic, naturally occurring colorectal cancer in rhesus macaques."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Naturally occurring colorectal cancers (CRC) in rhesus macaques share many features with their human counterparts and are useful models for cancer immunotherapy; but mechanistic data are lacking regarding the comparative molecular pathogenesis of these cancers. METHODS: We conducted state-of-the-art imaging including CT and PET, clinical assessments, and pathological review of 24 rhesus macaques with naturally occurring CRC. Additionally, we molecularly characterized these tumors utilizing immunohistochemistry (IHC), microsatellite instability assays, DNAseq, transcriptomics, and developed a DNA methylation-specific qPCR assay for MLH1, CACNA1G, CDKN2A, CRABP1, and NEUROG1, human markers for CpG island methylator phenotype (CIMP). We furthermore employed Monte-Carlo simulations to in-silico model alterations in DNA topology in transcription-factor binding site-rich promoter regions upon experimentally demonstrated DNA methylation. RESULTS: Similar cancer histology, progression patterns, and co-morbidities could be observed in rhesus as reported for human CRC patients. IHC identified loss of MLH1 and PMS2 in all cases, with functional microsatellite instability. DNA sequencing revealed the close genetic relatedness to human CRCs, including a similar mutational signature, chromosomal instability, and functionally-relevant mutations affecting KRAS (G12D), TP53 (R175H, R273*), APC, AMER1, ALK, and ARID1A. Interestingly, MLH1 mutations were rarely identified on a somatic or germline level. Transcriptomics not only corroborated the similarities of rhesus and human CRCs, but also demonstrated the significant downregulation of MLH1 but not MSH2, MSH6, or PMS2 in rhesus CRCs. Methylation-specific qPCR suggested CIMP-positivity in 9/16 rhesus CRCs, but all 16/16 exhibited significant MLH1 promoter hypermethylation. DNA hypermethylation was modelled to affect DNA topology, particularly propeller twist and roll profiles. Modelling the DNA topology of a transcription factor binding motif (TFAP2A) in the MLH1 promoter that overlapped with a methylation-specific probe, we observed significant differences in DNA topology upon experimentally shown DNA methylation. This suggests a role of transcription factor binding interference in epigenetic silencing of MLH1 in rhesus CRCs. CONCLUSIONS: These data indicate that epigenetic silencing suppresses MLH1 transcription, induces the loss of MLH1 protein, abrogates mismatch repair, and drives genomic instability in naturally occurring CRC in rhesus macaques. We consider this spontaneous, uninduced CRC in immunocompetent, treatment-naive rhesus macaques to be a uniquely informative model for human CRC.",
+    "keywords": [
+      "Colorectal cancer",
+      "Epigenetic silencing",
+      "Mismatch repair deficiency",
+      "Nonhuman primates",
+      "Translational oncology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "Macaca mulatta/genetics/metabolism",
+      "*Microsatellite Instability",
+      "MutL Protein Homolog 1/genetics",
+      "Mismatch Repair Endonuclease PMS2/genetics/metabolism",
+      "*Colorectal Neoplasms/pathology",
+      "DNA Methylation/genetics",
+      "Epigenesis, Genetic",
+      "Transcription Factors/genetics/metabolism",
+      "DNA/metabolism",
+      "DNA Mismatch Repair/genetics",
+      "*Brain Neoplasms",
+      "*Neoplastic Syndromes, Hereditary"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Deycmar, Simon",
+        "Johnson, Brendan J",
+        "Ray, Karina",
+        "Schaaf, George W",
+        "Ryan, Declan Patrick",
+        "Cullin, Cassandra",
+        "Dozier, Brandy L",
+        "Ferguson, Betsy",
+        "Bimber, Benjamin N",
+        "Olson, John D",
+        "Caudell, David L",
+        "Whitlow, Christopher T",
+        "Solingapuram Sai, Kiran Kumar",
+        "Romero, Emily C",
+        "Villinger, Francois J",
+        "Burgos, Armando G",
+        "Ainsworth, Hannah C",
+        "Miller, Lance D",
+        "Hawkins, Gregory A",
+        "Chou, Jeff W",
+        "Gomes, Bruno",
+        "Hettich, Michael",
+        "Ceppi, Maurizio",
+        "Charo, Jehad",
+        "Cline, J Mark"
+      ],
+      "short_names": [
+        "Deycmar S",
+        "Johnson BJ",
+        "Ray K",
+        "Schaaf GW",
+        "Ryan DP",
+        "Cullin C",
+        "Dozier BL",
+        "Ferguson B",
+        "Bimber BN",
+        "Olson JD",
+        "Caudell DL",
+        "Whitlow CT",
+        "Solingapuram Sai KK",
+        "Romero EC",
+        "Villinger FJ",
+        "Burgos AG",
+        "Ainsworth HC",
+        "Miller LD",
+        "Hawkins GA",
+        "Chou JW",
+        "Gomes B",
+        "Hettich M",
+        "Ceppi M",
+        "Charo J",
+        "Cline JM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1312-5051"
+      ],
+      "affiliations": [
+        "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Roche Postdoctoral Fellowship (RPF) Program, Basel, Switzerland.",
+        "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Oregon National Primate Research Center, Oregon Health and Science University, Beaverton, OR, USA.",
+        "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "School of Veterinary Medicine, University of California Davis, Davis, CA, USA.",
+        "Oregon National Primate Research Center, Oregon Health and Science University, Beaverton, OR, USA.",
+        "Oregon National Primate Research Center, Oregon Health and Science University, Beaverton, OR, USA.",
+        "Oregon National Primate Research Center, Oregon Health and Science University, Beaverton, OR, USA.",
+        "Oregon National Primate Research Center, Oregon Health and Science University, Beaverton, OR, USA.",
+        "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Department of Radiology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Department of Radiology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "New Iberia Research Center, University of Louisiana-Lafayette, New Iberia, LA, USA.",
+        "New Iberia Research Center, University of Louisiana-Lafayette, New Iberia, LA, USA.",
+        "Caribbean Primate Research Center, University of Puerto Rico, Toa Baja, PR, USA.",
+        "Department of Biostatistics and Data Sciences, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Department of Cancer Biology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Center for Cancer Genomics and Precision Oncology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Center for Cancer Genomics and Precision Oncology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Department of Biochemistry, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Center for Cancer Genomics and Precision Oncology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Roche Pharma Research and Early Development, Roche Innovation Center Basel, Basel, Switzerland.",
+        "Roche Pharma Research and Early Development, Roche Innovation Center Basel, Basel, Switzerland.",
+        "Roche Pharma Research and Early Development, Roche Innovation Center Basel, Basel, Switzerland.",
+        "iTeos Therapeutics, Translational Medicine, Gosselies, Belgium.",
+        "Roche Pharma Research and Early Development, Roche Innovation Center Zurich, Zurich, Switzerland.",
+        "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA. jmcline@wakehealth.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Deycmar, Simon",
+        "short_name": "Deycmar S",
+        "identifiers": [
+          "0000-0002-1312-5051"
+        ],
+        "affiliations": [
+          "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+          "Roche Postdoctoral Fellowship (RPF) Program, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Johnson, Brendan J",
+        "short_name": "Johnson BJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Ray, Karina",
+        "short_name": "Ray K",
+        "identifiers": [],
+        "affiliations": [
+          "Oregon National Primate Research Center, Oregon Health and Science University, Beaverton, OR, USA."
+        ]
+      },
+      {
+        "full_name": "Schaaf, George W",
+        "short_name": "Schaaf GW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Ryan, Declan Patrick",
+        "short_name": "Ryan DP",
+        "identifiers": [],
+        "affiliations": [
+          "School of Veterinary Medicine, University of California Davis, Davis, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Cullin, Cassandra",
+        "short_name": "Cullin C",
+        "identifiers": [],
+        "affiliations": [
+          "Oregon National Primate Research Center, Oregon Health and Science University, Beaverton, OR, USA."
+        ]
+      },
+      {
+        "full_name": "Dozier, Brandy L",
+        "short_name": "Dozier BL",
+        "identifiers": [],
+        "affiliations": [
+          "Oregon National Primate Research Center, Oregon Health and Science University, Beaverton, OR, USA."
+        ]
+      },
+      {
+        "full_name": "Ferguson, Betsy",
+        "short_name": "Ferguson B",
+        "identifiers": [],
+        "affiliations": [
+          "Oregon National Primate Research Center, Oregon Health and Science University, Beaverton, OR, USA."
+        ]
+      },
+      {
+        "full_name": "Bimber, Benjamin N",
+        "short_name": "Bimber BN",
+        "identifiers": [],
+        "affiliations": [
+          "Oregon National Primate Research Center, Oregon Health and Science University, Beaverton, OR, USA."
+        ]
+      },
+      {
+        "full_name": "Olson, John D",
+        "short_name": "Olson JD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Caudell, David L",
+        "short_name": "Caudell DL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Whitlow, Christopher T",
+        "short_name": "Whitlow CT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Solingapuram Sai, Kiran Kumar",
+        "short_name": "Solingapuram Sai KK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Romero, Emily C",
+        "short_name": "Romero EC",
+        "identifiers": [],
+        "affiliations": [
+          "New Iberia Research Center, University of Louisiana-Lafayette, New Iberia, LA, USA."
+        ]
+      },
+      {
+        "full_name": "Villinger, Francois J",
+        "short_name": "Villinger FJ",
+        "identifiers": [],
+        "affiliations": [
+          "New Iberia Research Center, University of Louisiana-Lafayette, New Iberia, LA, USA."
+        ]
+      },
+      {
+        "full_name": "Burgos, Armando G",
+        "short_name": "Burgos AG",
+        "identifiers": [],
+        "affiliations": [
+          "Caribbean Primate Research Center, University of Puerto Rico, Toa Baja, PR, USA."
+        ]
+      },
+      {
+        "full_name": "Ainsworth, Hannah C",
+        "short_name": "Ainsworth HC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics and Data Sciences, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Miller, Lance D",
+        "short_name": "Miller LD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+          "Center for Cancer Genomics and Precision Oncology, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Hawkins, Gregory A",
+        "short_name": "Hawkins GA",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Cancer Genomics and Precision Oncology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+          "Department of Biochemistry, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Chou, Jeff W",
+        "short_name": "Chou JW",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Cancer Genomics and Precision Oncology, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Gomes, Bruno",
+        "short_name": "Gomes B",
+        "identifiers": [],
+        "affiliations": [
+          "Roche Pharma Research and Early Development, Roche Innovation Center Basel, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Hettich, Michael",
+        "short_name": "Hettich M",
+        "identifiers": [],
+        "affiliations": [
+          "Roche Pharma Research and Early Development, Roche Innovation Center Basel, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Ceppi, Maurizio",
+        "short_name": "Ceppi M",
+        "identifiers": [],
+        "affiliations": [
+          "Roche Pharma Research and Early Development, Roche Innovation Center Basel, Basel, Switzerland.",
+          "iTeos Therapeutics, Translational Medicine, Gosselies, Belgium."
+        ]
+      },
+      {
+        "full_name": "Charo, Jehad",
+        "short_name": "Charo J",
+        "identifiers": [],
+        "affiliations": [
+          "Roche Pharma Research and Early Development, Roche Innovation Center Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Cline, J Mark",
+        "short_name": "Cline JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA. jmcline@wakehealth.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2024 Mar 19",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/20 06:45",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [
+      "41681948",
+      "41599615",
+      "41228253",
+      "40691387",
+      "40647462"
+    ],
+    "refs": [
+      "37072347",
+      "36593067",
+      "36068918",
+      "35954394",
+      "35491653",
+      "35446842",
+      "35131383",
+      "35022204",
+      "34850907",
+      "34083238",
+      "33974508",
+      "33538338",
+      "33335035",
+      "33264544",
+      "33198240",
+      "32997907",
+      "32246441",
+      "32025018",
+      "31410780",
+      "31189721",
+      "30841849",
+      "30505963",
+      "30486892",
+      "30371878",
+      "30195653",
+      "30108684",
+      "29490919",
+      "29409522",
+      "29165643",
+      "28835386",
+      "28472390",
+      "27977612",
+      "27438990",
+      "27416752",
+      "26697199",
+      "25884297",
+      "25686699",
+      "25605792",
+      "25557234",
+      "24709753",
+      "24485249",
+      "24227677",
+      "23104886",
+      "22908213",
+      "22728672",
+      "21779454",
+      "21659424",
+      "21221095",
+      "20573698",
+      "20524847",
+      "19786833",
+      "19451168",
+      "19376112",
+      "16804544",
+      "16407376",
+      "15944788",
+      "12637487",
+      "12424112",
+      "11733361",
+      "2231712"
+    ],
+    "similar": [
+      "38504345",
+      "35446842",
+      "33452216",
+      "37751191",
+      "29439113",
+      "25311944",
+      "28293327",
+      "37849256",
+      "41041321",
+      "18257912",
+      "25701956",
+      "33915653",
+      "28819720",
+      "26883113",
+      "35724254",
+      "29758216",
+      "33577226",
+      "34302852",
+      "28669579",
+      "18618713",
+      "40244260",
+      "19526325",
+      "25557234",
+      "33053554",
+      "35395112",
+      "39894875",
+      "40208414",
+      "30423605",
+      "32620917",
+      "41347766",
+      "39724851",
+      "29850986",
+      "28874631",
+      "21102416",
+      "32449172",
+      "15887099",
+      "23648460",
+      "24166180",
+      "33831997",
+      "31811435",
+      "19424639",
+      "29055842",
+      "21911971",
+      "37838086",
+      "25663779",
+      "29107668",
+      "36736685",
+      "40616866",
+      "24323032",
+      "28640387",
+      "17545526",
+      "28304185",
+      "32541478",
+      "19690142",
+      "25280751",
+      "37101184",
+      "37997470",
+      "34695900",
+      "31530880",
+      "34545179",
+      "30387329",
+      "30585020",
+      "31273487",
+      "22498935",
+      "22992699",
+      "29783979",
+      "28591715",
+      "39180486",
+      "39069012",
+      "31150123",
+      "35285457",
+      "38191122",
+      "38003003",
+      "27273229",
+      "33608032",
+      "28651545",
+      "28730335",
+      "19127559",
+      "30324682",
+      "30989425",
+      "27220764",
+      "29596542",
+      "38297350",
+      "35939113",
+      "27601186",
+      "39344689",
+      "25194673",
+      "40295928",
+      "40058269",
+      "39910726",
+      "26895986",
+      "39827722",
+      "38061582",
+      "22899370",
+      "34048176",
+      "26884349",
+      "26848797",
+      "41433014",
+      "37325467",
+      "25871621"
+    ],
+    "review": [
+      "38504345",
+      "37751191",
+      "25701956",
+      "40244260",
+      "31530880",
+      "31273487",
+      "29783979",
+      "31150123"
+    ],
+    "pmc": [
+      "10953092"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-024-04869-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38504345/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38504345",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-544",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

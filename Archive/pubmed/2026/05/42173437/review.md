@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report that citrullination of the ING4 NLS (residues 130-152) at Arg132, Arg142, and Arg144, in single, double, and triple combinations, reduces binding affinity to PADI4 and to importin alpha3 (and its truncated variant DeltaImpalpha3), with all peptides binding in the low micromolar range and targeting the canonical NLS binding site. They infer that citrullination may interfere with ING4 nuclear translocation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, experimental protocols, raw biophysical data (e.g., ITC, NMR, DOSY), simulation parameters, statistical analyses, and any structural or kinetic details
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused and potentially interesting biophysical study on the effect of citrullination on ING4 NLS interactions with PADI4 and importin alpha3. The work addresses a plausible regulatory mechanism linking posttranslational modification to nuclear transport. However, the abstract alone provides insufficient detail to evaluate the robustness of the binding measurements, the relevance of the peptide model, or the physiological significance of the observed affinity changes. The conclusions are reasonable but preliminary, and the claim regarding interference with nuclear translocation is speculative without cellular or in vivo evidence.
+- **Who would be interested in the results, and why** Researchers in the fields of nuclear transport, posttranslational modifications (particularly citrullination), tumor suppressor biology, and biophysical characterization of protein-protein interactions. The work may also interest those studying PADI enzymes as therapeutic targets, given the link between citrullination and disease states such as cancer and inflammation.
+- **Major strengths** The study systematically varies citrullination degree and position across eight peptides, providing a comprehensive matrix of modifications. The use of multiple biophysical techniques (NMR, DOSY, and likely ITC or similar) and molecular simulations adds methodological breadth. The focus on a specific importin isoform (alpha3) and a truncated variant allows for mechanistic dissection of the binding site.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Citrullination at the NLS might interfere with ING4 nuclear translocation"
+  - **Evidence pointer** Abstract, conclusions section (location not provided)
+  - **Concern** The abstract reports only in vitro binding affinities and in silico simulations. No cellular or in vivo experiments are described that directly test nuclear translocation or localization of ING4 under conditions of citrullination. The inference that reduced binding to importin alpha3 translates to impaired nuclear import is plausible but not demonstrated.
+  - **Why it matters** The central biological claim of the study, that citrullination interferes with nuclear translocation, is the most impactful conclusion. Without functional evidence, the physiological relevance of the observed affinity changes remains speculative, and the study risks overinterpreting in vitro data.
+  - **Resolution test** Provide cellular assays (e.g., nuclear-cytoplasmic fractionation, immunofluorescence, or live-cell imaging) showing that citrullination of ING4, or treatment with PADI4, alters its nuclear localization. Alternatively, clearly reframe the conclusion as a hypothesis and limit claims to the in vitro binding effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "All the peptides were capable of binding to PADI4 with low micromolar affinities, but their affinity decreased as the fraction of citrullination increased" and similar for importin binding
+  - **Evidence pointer** Abstract, results section (location not provided)
+  - **Concern** The abstract does not report the magnitude of affinity changes, the number of replicates, or the statistical significance of the differences between peptides with varying citrullination degrees. Without these details, it is unclear whether the observed decreases are biologically meaningful or within experimental error.
+  - **Why it matters** The core quantitative claim relies on the reliability and precision of the binding measurements. If the affinity differences are small or not statistically robust, the conclusion that citrullination degree affects binding is weakened.
+  - **Resolution test** Report the full binding parameters (Kd values with errors), the number of independent experiments, and statistical tests comparing the different peptides. Provide representative binding curves and fit quality metrics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model relevance
+  - **Claim pointer** "We studied in vitro and in silico how the different degrees of citrullination affected binding of the NLS of ING4 to PADI4, Impalpha3 and its truncated species"
+  - **Evidence pointer** Abstract, methods description (location not provided)
+  - **Concern** The study uses synthetic peptides (residues 130-152) rather than full-length ING4. While this is a common approach, the abstract does not discuss whether the peptide accurately recapitulates the NLS conformation or binding behavior in the context of the full protein. Additionally, the use of DeltaImpalpha3, lacking the importin binding domain, is mentioned but its relevance to the physiological interaction is not explained.
+  - **Why it matters** Peptide-based studies can miss context-dependent effects, such as allosteric influences from other ING4 domains or the impact of the importin binding domain on NLS recognition. The abstract should justify the model system and acknowledge its limitations.
+  - **Resolution test** Add a discussion of the peptide model's validity, including any prior structural or functional data supporting its use. Clarify the role of DeltaImpalpha3 and whether results with this variant are expected to reflect full-length importin behavior.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, methods description
+  - **Evidence pointer** Abstract, first paragraph (location not provided)
+  - **Issue** The abstract states that PADI4 citrullinates ING4 at the NLS region but does not specify whether this is a known modification from prior studies or a new finding from this work.
+  - **Required correction** Clarify whether the citrullination sites (Arg132, Arg142, Arg144) were previously identified or are newly proposed, and cite the relevant evidence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, results
+  - **Evidence pointer** Abstract, results section (location not provided)
+  - **Issue** The abstract mentions that peptides were "monomeric and disordered" based on NMR and DOSY, but does not state the concentration range or conditions under which this was assessed.
+  - **Required correction** Provide the experimental conditions (e.g., buffer, temperature, concentration) for the biophysical characterization to allow reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Abstract, conclusions
+  - **Evidence pointer** Abstract, final sentence (location not provided)
+  - **Issue** The conclusion that "successive citrullination at the NLS affected binding to PADI4" is presented as a separate finding, but the abstract does not explain why this is mechanistically distinct from the effect on importin binding.
+  - **Required correction** Briefly explain the potential mechanism (e.g., altered electrostatics or conformational changes) or state that the mechanism remains to be determined.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of functional evidence for nuclear translocation interference) and R1-M2 (insufficient quantitative detail on binding affinities) are the primary technical issues. R1-M3 (model relevance) is important but not necessarily blocking if addressed in the full manuscript.
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of citrullination to NLS function is a relatively novel angle, but the concept of posttranslational modification affecting nuclear transport is established. Scientific importance: Moderate. The findings could have implications for understanding ING4 regulation and PADI4 biology, but the physiological relevance is not yet demonstrated. Interdisciplinary readership: Limited. The work is primarily of interest to biophysicists and cell biologists studying nuclear transport and protein modifications. Technical soundness: Not fully assessable from the abstract; the use of multiple techniques is promising, but the lack of quantitative details and statistical rigor is a concern. Readability for nonspecialists: The abstract is reasonably clear but assumes familiarity with importins, PADI enzymes, and biophysical terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not provide sufficient evidence to support the central biological claim of interference with nuclear translocation, and the quantitative binding data are not presented in enough detail to assess robustness. A revised manuscript with functional assays and full biophysical data could change this assessment.
+
+## Risk / unsupported claims
+- The claim that citrullination "might interfere with ING4 nuclear translocation" is unsupported by the abstract, as no cellular or in vivo data are presented.
+- The claim that "successive citrullination at the NLS affected binding to PADI4" is supported only by the abstract's qualitative statement of decreased affinity, without quantitative values or statistical analysis.
+- The relevance of DeltaImpalpha3 to the physiological importin interaction is not explained, making the interpretation of these results unclear.
+- The physiological significance of the low micromolar binding affinities is not discussed, leaving the reader to judge whether these are biologically relevant.

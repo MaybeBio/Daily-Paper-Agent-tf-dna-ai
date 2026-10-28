@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "pmid": "41475884",
+    "doi": "10.1136/bmjhci-2025-101751",
+    "title": "Machine learning prediction of germline BRCA1/2 pathogenic variants in patients with ovarian cancer."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: To assess the performance of machine learning (ML) algorithms to predict the presence of germline BRCA1/2 pathogenic variants in ovarian cancer (OC) patients based on clinical-pathological features. METHODS: Clinical-pathological features of 648 patients with OC tested for BRCA1/2 were analysed using three supervised ML algorithms: random forest, boosting and support vector machine. RESULTS: In the 'test' sample, boosting proved to be the most effective algorithm (accuracy: 84.5%; precision: 80.0%; recall: 3.1%; area under the curve (AUC): 78.8%), followed by support vector machine (accuracy: 81.4%; precision: 72.7%; recall: 27.6%; AUC: 62.3%) and random forest (accuracy: 74.4%; precision: 55.6%; recall: 14.7%; AUC: 71.3%). In the 'validation' sample, accuracy was 79.8% for boosting, 81.7% for support vector machine, 80.8% for random forest.In the most effective algorithm (boosting), family history of OC showed the highest relative influence (52.9), followed by histotype (19.5), personal history of breast cancer (BC) (17.1), age at diagnosis (8.4) and family history of BC (2.2), while Federation of Gynecology and Obstetrics stage had no influence. DISCUSSION: We identified the predictive algorithm that best estimates the a priori likelihood of being a carrier of germline BRCA1/2 pathogenic variants in patients with OC. These findings support a role for ML approaches in predicting BRCA1/2 status in patients with OC, but accuracy and precision are still suboptimal for clinical use, suggesting the need for additional research. CONCLUSIONS: Results support the selection of relevant clinical features for predictive purposes, which could have significant implications for the clinical management of patients with OC.",
+    "keywords": [
+      "Deep Learning",
+      "Machine Learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Machine Learning",
+      "*Ovarian Neoplasms/genetics",
+      "*Germ-Line Mutation",
+      "Middle Aged",
+      "Adult",
+      "*BRCA1 Protein/genetics",
+      "*BRCA2 Protein/genetics",
+      "Algorithms",
+      "Genetic Predisposition to Disease",
+      "Aged",
+      "Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Innella, Giovanni",
+        "Erini, Giulia",
+        "De Leo, Antonio",
+        "Godino, Lea",
+        "Caramanna, Luca",
+        "Ferrari, Simona",
+        "Miccoli, Sara",
+        "Perrone, Anna Myriam",
+        "Zamagni, Claudio",
+        "De Iaco, Pierandrea",
+        "Turchetti, Daniela",
+        "Rucci, Paola"
+      ],
+      "short_names": [
+        "Innella G",
+        "Erini G",
+        "De Leo A",
+        "Godino L",
+        "Caramanna L",
+        "Ferrari S",
+        "Miccoli S",
+        "Perrone AM",
+        "Zamagni C",
+        "De Iaco P",
+        "Turchetti D",
+        "Rucci P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6909-2412"
+      ],
+      "affiliations": [
+        "Medical Genetics Unit, IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy.",
+        "Department of Medical and Surgical Sciences, University of Bologna, Bologna, Italy.",
+        "Department of Medical and Surgical Sciences, University of Bologna, Bologna, Italy.",
+        "Department of Experimental, Diagnostics and Specialty Medicine, University of Bologna, Bologna, Italy.",
+        "IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy.",
+        "Medical Genetics Unit, IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy.",
+        "Department of Medical and Surgical Sciences, University of Bologna, Bologna, Italy.",
+        "Medical Genetics Unit, IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy.",
+        "Medical Genetics Unit, IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy.",
+        "Department of Medical and Surgical Sciences, University of Bologna, Bologna, Italy.",
+        "Division of Oncologic Gynecology, IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy.",
+        "Breast and Gynecological Medical Oncology, IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy.",
+        "Department of Medical and Surgical Sciences, University of Bologna, Bologna, Italy.",
+        "Division of Oncologic Gynecology, IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy.",
+        "Medical Genetics Unit, IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy daniela.turchetti@unibo.it.",
+        "Department of Medical and Surgical Sciences, University of Bologna, Bologna, Italy.",
+        "Department of Biomedical and Neuromotor Sciences, University of Bologna, Bologna, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Innella, Giovanni",
+        "short_name": "Innella G",
+        "identifiers": [
+          "0000-0002-6909-2412"
+        ],
+        "affiliations": [
+          "Medical Genetics Unit, IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy.",
+          "Department of Medical and Surgical Sciences, University of Bologna, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Erini, Giulia",
+        "short_name": "Erini G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical and Surgical Sciences, University of Bologna, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "De Leo, Antonio",
+        "short_name": "De Leo A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Experimental, Diagnostics and Specialty Medicine, University of Bologna, Bologna, Italy.",
+          "IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Godino, Lea",
+        "short_name": "Godino L",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Genetics Unit, IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Caramanna, Luca",
+        "short_name": "Caramanna L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical and Surgical Sciences, University of Bologna, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Ferrari, Simona",
+        "short_name": "Ferrari S",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Genetics Unit, IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Miccoli, Sara",
+        "short_name": "Miccoli S",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Genetics Unit, IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Perrone, Anna Myriam",
+        "short_name": "Perrone AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical and Surgical Sciences, University of Bologna, Bologna, Italy.",
+          "Division of Oncologic Gynecology, IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Zamagni, Claudio",
+        "short_name": "Zamagni C",
+        "identifiers": [],
+        "affiliations": [
+          "Breast and Gynecological Medical Oncology, IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "De Iaco, Pierandrea",
+        "short_name": "De Iaco P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical and Surgical Sciences, University of Bologna, Bologna, Italy.",
+          "Division of Oncologic Gynecology, IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Turchetti, Daniela",
+        "short_name": "Turchetti D",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Genetics Unit, IRCCS Azienda Ospedaliero-Universitaria di Bologna, Bologna, Italy daniela.turchetti@unibo.it.",
+          "Department of Medical and Surgical Sciences, University of Bologna, Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Rucci, Paola",
+        "short_name": "Rucci P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical and Neuromotor Sciences, University of Bologna, Bologna, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMJ health & care informatics"
+    ],
+    "journal_abbrev": [
+      "BMJ Health Care Inform"
+    ],
+    "pub_date": "2025 Dec 31",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/01 00:35",
+    "fetched_at": "2026-10-01 10:11:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40907208",
+      "40907206",
+      "40580611",
+      "40535134",
+      "40002556",
+      "39381112",
+      "38626948",
+      "38241820",
+      "38001421",
+      "37653025",
+      "37221047",
+      "36585641",
+      "32863885",
+      "32607472",
+      "31960407",
+      "30224757"
+    ],
+    "similar": [
+      "41475884",
+      "40580611",
+      "33726785",
+      "34930165",
+      "38866043",
+      "30078507",
+      "35456503",
+      "26928436",
+      "30683677",
+      "22684231",
+      "39724722",
+      "37221047",
+      "30606148",
+      "40392478",
+      "35209950",
+      "39513675",
+      "35216584",
+      "32776218",
+      "35741847",
+      "34702566",
+      "20683152",
+      "29506471",
+      "26852015",
+      "32980694",
+      "20482762",
+      "31825140",
+      "37182432",
+      "29884841",
+      "29483665",
+      "27907908",
+      "29297111",
+      "32772980",
+      "38041901",
+      "39663109",
+      "38219492",
+      "33020566",
+      "38960732",
+      "33937409",
+      "30972954",
+      "30103829",
+      "26026974",
+      "40210464",
+      "34356116",
+      "28549976",
+      "31841487",
+      "26848529",
+      "41068641",
+      "27914478",
+      "34983974",
+      "25850293",
+      "35918668",
+      "40405108",
+      "28619461",
+      "31244284",
+      "30617925",
+      "30821131",
+      "35761208",
+      "31411802",
+      "16847550",
+      "33629534",
+      "35908255",
+      "22725699",
+      "36881271",
+      "28715532",
+      "40251429",
+      "38813626",
+      "21989927",
+      "36029389",
+      "39541563",
+      "21499684",
+      "34036661",
+      "28376175",
+      "36974006",
+      "32718143",
+      "31907386",
+      "34371384",
+      "32862574",
+      "24130102",
+      "40419811",
+      "22507745",
+      "36555431",
+      "32022259",
+      "36324133",
+      "23479189",
+      "39847877",
+      "27257965",
+      "30075112",
+      "40340886",
+      "29460478",
+      "27025497",
+      "30979843",
+      "31368036",
+      "20512419",
+      "29361001",
+      "33999380",
+      "27741520",
+      "26541979",
+      "34861889",
+      "38246184",
+      "24522996"
+    ],
+    "review": [
+      "41475884",
+      "37221047",
+      "35216584",
+      "34702566",
+      "31825140"
+    ],
+    "pmc": [
+      "12766824"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://informatics.bmj.com/lookup/pmidlookup?view=long&pmid=41475884",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41475884/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3279",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

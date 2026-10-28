@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2110.09569v3",
+  "title": "Constrained Discrete Black-Box Optimization using Mixed-Integer Programming",
+  "authors": "Theodore Papalexopoulos; Christian Tjandraatmadja; Ross Anderson; Juan Pablo Vielma; David Belanger",
+  "journal": "",
+  "published_date": "2021-10-18",
+  "window": {
+    "start": "2021-10-18",
+    "end": "2021-10-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出NN+MILP框架用于离散黑箱优化，以DNA结合为测试案例之一，虽涉及DNA结合但非TF-DNA互作机制建模，方法可迁移至结合位点优化，故给5分。",
+  "abstract": "Discrete black-box optimization problems are challenging for model-based optimization (MBO) algorithms, such as Bayesian optimization, due to the size of the search space and the need to satisfy combinatorial constraints. In particular, these methods require repeatedly solving a complex discrete global optimization problem in the inner loop, where popular heuristic inner-loop solvers introduce approximations and are difficult to adapt to combinatorial constraints. In response, we propose NN+MILP, a general discrete MBO framework using piecewise-linear neural networks as surrogate models and mixed-integer linear programming (MILP) to optimize the acquisition function. MILP provides optimality guarantees and a versatile declarative language for domain-specific constraints. We test our approach on a range of unconstrained and constrained problems, including DNA binding, constrained binary quadratic problems from the MINLPLib benchmark, and the NAS-Bench-101 neural architecture search benchmark. NN+MILP surpasses or matches the performance of black-box algorithms tailored to the constraints at hand, with global optimization of the acquisition problem running in a few minutes using only standard software packages and hardware.",
+  "abstract_zh": "离散黑盒优化问题对于基于模型的优化（MBO）算法（如贝叶斯优化）而言具有挑战性，原因在于搜索空间的大小以及需要满足组合约束。特别是，这些方法需要在内部循环中反复求解一个复杂的离散全局优化问题，而流行的启发式内部循环求解器会引入近似，并且难以适应组合约束。为此，我们提出NN+MILP，一种通用的离散MBO框架，使用分段线性神经网络作为代理模型，并采用混合整数线性规划（MILP）来优化采集函数。MILP提供了最优性保证，以及用于领域特定约束的通用声明式语言。我们在多种无约束和约束问题上测试了我们的方法，包括DNA结合、来自MINLPLib基准的约束二元二次问题，以及NAS-Bench-101神经架构搜索基准。NN+MILP在性能上超越或匹配了针对当前约束定制的黑盒算法，且采集问题的全局优化仅需使用标准软件包和硬件，在几分钟内即可完成。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2110.09569v3",
+  "source_url": "https://arxiv.org/abs/2110.09569v3",
+  "paper_page_path": "papers/arxiv/2110.09569v3/index.html"
+}

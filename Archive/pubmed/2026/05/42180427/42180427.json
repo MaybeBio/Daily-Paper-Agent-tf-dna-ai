@@ -1,0 +1,253 @@
+{
+  "identity": {
+    "pmid": "42180427",
+    "doi": "10.1093/bioadv/vbag123",
+    "title": "Modeling strategies for in vivo transcription factor binding predictions."
+  },
+  "content": {
+    "abstract": "Identification of in vivo transcription factor (TF) binding sites is crucial to understand gene regulation, but the lack of scalability in their experimental identification directs researchers towards computational models. These models are often specific for a given TF, which hinders their generalizability to held-out TFs. In this work, we analyse different modeling strategies to predict in vivo TF binding sites using DNA accessibility, TF RNA expression and binding motif features. We present and test a cross-TF transfer learning scheme that allows learning from the entire training set. We show that model ensembling and DNA language model embeddings increase model performance. We provide an analysis of feature importance and show that ground truth ChIP-seq data quality is an important determinant of model performance. We also test our models in an independent dataset of held-out TFs, and report a mean AUPR of 0.36 in a very challenging cross-TF, cross-cell-type and cross-chromosomal setting, providing estimates of binding for TFs without available ChIP-seq experiments.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aksu, Ekin Deniz",
+        "Vingron, Martin"
+      ],
+      "short_names": [
+        "Aksu ED",
+        "Vingron M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0427-5197",
+        "ORCID: 0000-0002-1765-4241"
+      ],
+      "affiliations": [
+        "Department of Computational Molecular Biology, Max Planck Institute for Molecular Genetics, Berlin 14195, Germany.",
+        "Department of Computational Molecular Biology, Max Planck Institute for Molecular Genetics, Berlin 14195, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aksu, Ekin Deniz",
+        "short_name": "Aksu ED",
+        "identifiers": [
+          "0000-0002-0427-5197"
+        ],
+        "affiliations": [
+          "Department of Computational Molecular Biology, Max Planck Institute for Molecular Genetics, Berlin 14195, Germany."
+        ]
+      },
+      {
+        "full_name": "Vingron, Martin",
+        "short_name": "Vingron M",
+        "identifiers": [
+          "0000-0002-1765-4241"
+        ],
+        "affiliations": [
+          "Department of Computational Molecular Biology, Max Planck Institute for Molecular Genetics, Berlin 14195, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics advances"
+    ],
+    "journal_abbrev": [
+      "Bioinform Adv"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/25 12:34",
+    "fetched_at": "2026-10-01 21:38:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39609566",
+      "38701417",
+      "38609714",
+      "37443338",
+      "37073532",
+      "36719906",
+      "36471076",
+      "36420891",
+      "35681170",
+      "35188184",
+      "34751401",
+      "34608324",
+      "34579793",
+      "33603233",
+      "33538820",
+      "33355120",
+      "32848148",
+      "32728249",
+      "31723409",
+      "31699133",
+      "30922998",
+      "30808370",
+      "30630522",
+      "30567711",
+      "30142147",
+      "29425488",
+      "28991892",
+      "28750606",
+      "28334916",
+      "28234893",
+      "26213851",
+      "24515121",
+      "24489365",
+      "21106904",
+      "19773334",
+      "17540862",
+      "17098775",
+      "16381938",
+      "16381825",
+      "16024819"
+    ],
+    "similar": [
+      "42180427",
+      "28750606",
+      "42099803",
+      "37805453",
+      "31723409",
+      "39482734",
+      "20838582",
+      "27104615",
+      "30709337",
+      "20158869",
+      "23935523",
+      "26818008",
+      "19956545",
+      "29363433",
+      "24565265",
+      "34174819",
+      "32858223",
+      "24039567",
+      "26291518",
+      "30517703",
+      "26703974",
+      "36631751",
+      "38168434",
+      "25957350",
+      "35799193",
+      "30598100",
+      "26679776",
+      "21602262",
+      "28718849",
+      "26971251",
+      "35410161",
+      "30352610",
+      "34448158",
+      "25775564",
+      "23762209",
+      "24472686",
+      "37214836",
+      "38831039",
+      "38517697",
+      "31742324",
+      "34579793",
+      "21124945",
+      "19597778",
+      "41536793",
+      "38826350",
+      "37090616",
+      "28849563",
+      "30578913",
+      "35968123",
+      "25722376",
+      "35681170",
+      "40848288",
+      "40102719",
+      "35997560",
+      "39944799",
+      "22039215",
+      "38940155",
+      "32976105",
+      "22863112",
+      "42475469",
+      "24339764",
+      "29326300",
+      "22955984",
+      "27567672",
+      "40598892",
+      "38354497",
+      "19652015",
+      "34272562",
+      "42114111",
+      "35240993",
+      "32054475",
+      "41325984",
+      "32393327",
+      "28234893",
+      "33372147",
+      "21172055",
+      "34607350",
+      "24564528",
+      "18725950",
+      "26160164",
+      "18426580",
+      "24927817",
+      "36057196",
+      "16267080",
+      "30567711",
+      "27546793",
+      "24564277",
+      "31362726",
+      "40335485",
+      "37682473",
+      "25070602",
+      "20663846",
+      "39796242",
+      "28961802",
+      "34953471",
+      "21724591",
+      "35983231",
+      "24238150",
+      "27899623",
+      "17951829"
+    ],
+    "review": [
+      "42180427",
+      "31742324"
+    ],
+    "pmc": [
+      "13197119"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42180427/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformaticsadvances/article-lookup/doi/10.1093/bioadv/vbag123",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

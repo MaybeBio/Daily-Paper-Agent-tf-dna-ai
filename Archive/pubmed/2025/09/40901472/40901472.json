@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "40901472",
+    "doi": "10.3389/fimmu.2025.1467357",
+    "title": "Tumor associated neutrophils promote prostate cancer progression by mediating neutrophil trap secretion through PSMA1- NF-kappaB-HIF-1alpha signaling axis."
+  },
+  "content": {
+    "abstract": "Prostate cancer (PCa) is a common and deadly cancer in men, and despite its low specificity, PSA testing is the main method that is used to predict prognosis. Effective methods for predicting prognosis in clinical practice are lacking. Here, 1 in circle in this retrospective analysis of clinical data of PCa patients, we discovered that patients with PCa have elevated neutrophil levels and a greater risk of complications than patients with prostatic hyperplasia. 2 in circle We integrated LASSO regression analysis and machine learning analyses to create a prognostic prediction model involving 6 genes, and this model effectively categorized patients into high-risk and low-risk groups, with higher risk scores indicating a poorer prognosis. Furthermore, we used multivariate regression analysis to confirm that the risk score was an independent prognostic factor and created nomograms on the basis of clinical characteristics. Notably, the deconvolution algorithm revealed different compositions of the tumor microenvironment, with a greater proportion of neutrophils observed in the high-risk group. 3 in circle Finally, we conducted single-cell sequencing analysis and established a prostate cancer organoid model to confirm that TANs may exacerbate the TME in PCa via neutrophil trap formation, which is mediated by the PSMA1-NF-kappaB-HIF-1alpha signaling axis. Overall, this novel NET-related signature of PCa provides new insights for in-depth understanding and prediction of PCa prognosis.",
+    "keywords": [
+      "neutrophil",
+      "neutrophil extracellular trap",
+      "prognostic signature",
+      "prostate cancer",
+      "tumor organoid"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "*Prostatic Neoplasms/pathology/immunology/metabolism",
+      "*Neutrophils/immunology/metabolism",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "Signal Transduction/immunology",
+      "*NF-kappa B/metabolism",
+      "Tumor Microenvironment/immunology",
+      "Disease Progression",
+      "Retrospective Studies",
+      "Prognosis",
+      "Middle Aged",
+      "Aged",
+      "Glutamate Carboxypeptidase II/metabolism",
+      "Antigens, Surface/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dai, Qian",
+        "Wang, Hua",
+        "Li, Fang",
+        "Huang, Runchun",
+        "Jiang, Chenjun",
+        "Yuan, Liuya",
+        "Wang, Yayun",
+        "Li, Xun"
+      ],
+      "short_names": [
+        "Dai Q",
+        "Wang H",
+        "Li F",
+        "Huang R",
+        "Jiang C",
+        "Yuan L",
+        "Wang Y",
+        "Li X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Clinical Medical College, Lanzhou University, Lanzhou, China.",
+        "Department of Urology, First Hospital of Lanzhou University, Lanzhou, China.",
+        "The First Clinical Medical College, Lanzhou University, Lanzhou, China.",
+        "Department of Urology, First Hospital of Lanzhou University, Lanzhou, China.",
+        "The First Clinical Medical College, Lanzhou University, Lanzhou, China.",
+        "Department of Urology, First Hospital of Lanzhou University, Lanzhou, China.",
+        "The First Clinical Medical College, Lanzhou University, Lanzhou, China.",
+        "Department of Urology, First Hospital of Lanzhou University, Lanzhou, China.",
+        "The First Clinical Medical College, Lanzhou University, Lanzhou, China.",
+        "Department of Urology, First Hospital of Lanzhou University, Lanzhou, China.",
+        "The First Clinical Medical College, Lanzhou University, Lanzhou, China.",
+        "Department of Urology, First Hospital of Lanzhou University, Lanzhou, China.",
+        "The First Clinical Medical College, Lanzhou University, Lanzhou, China.",
+        "Department of Urology, First Hospital of Lanzhou University, Lanzhou, China.",
+        "The First Clinical Medical College, Lanzhou University, Lanzhou, China.",
+        "Department of General Surgery, The First Hospital of Lanzhou University, Lanzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dai, Qian",
+        "short_name": "Dai Q",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou, China.",
+          "Department of Urology, First Hospital of Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hua",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou, China.",
+          "Department of Urology, First Hospital of Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Fang",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou, China.",
+          "Department of Urology, First Hospital of Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Runchun",
+        "short_name": "Huang R",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou, China.",
+          "Department of Urology, First Hospital of Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Chenjun",
+        "short_name": "Jiang C",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou, China.",
+          "Department of Urology, First Hospital of Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Liuya",
+        "short_name": "Yuan L",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou, China.",
+          "Department of Urology, First Hospital of Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yayun",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou, China.",
+          "Department of Urology, First Hospital of Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xun",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Lanzhou University, Lanzhou, China.",
+          "Department of General Surgery, The First Hospital of Lanzhou University, Lanzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/03 18:36",
+    "fetched_at": "2026-10-01 01:03:43"
+  },
+  "links": {
+    "cites": [
+      "42653281",
+      "42591989",
+      "41582133"
+    ],
+    "refs": [
+      "39753138",
+      "39533445",
+      "39455097",
+      "38287713",
+      "38207030",
+      "37740236",
+      "37671160",
+      "36946351",
+      "36868226",
+      "36633525",
+      "36424389",
+      "35642770",
+      "35406451",
+      "35197446",
+      "34916492",
+      "34899751",
+      "34771497",
+      "34536504",
+      "34503307",
+      "34012451",
+      "33922033",
+      "33813748",
+      "33538338",
+      "33158279",
+      "32704044",
+      "32694624",
+      "32289253",
+      "31907001",
+      "31732677",
+      "31487184",
+      "31416173",
+      "31018021",
+      "30691365",
+      "30620402",
+      "29298878",
+      "29240947",
+      "29039897",
+      "28990587",
+      "28249590",
+      "27052650",
+      "25967142",
+      "25422912",
+      "25156255",
+      "23936036",
+      "21785456",
+      "21120446",
+      "19622584",
+      "18633355",
+      "14532780",
+      "12881395",
+      "7993842"
+    ],
+    "similar": [
+      "40901472",
+      "40916526",
+      "42697951",
+      "40335899",
+      "42407177",
+      "41207909",
+      "40278858",
+      "35154101",
+      "37369799",
+      "41006377",
+      "36891298",
+      "40963631",
+      "39530098",
+      "26548949",
+      "42359574",
+      "30843003",
+      "39733640",
+      "41521160",
+      "42723983",
+      "41281377",
+      "42500573",
+      "41188783",
+      "41813383",
+      "39759507",
+      "32296583",
+      "38191330",
+      "40066454",
+      "30093411",
+      "38898043",
+      "37143720",
+      "42328456",
+      "42419189",
+      "32102520",
+      "41798945",
+      "38070051",
+      "41782040",
+      "38782354",
+      "40963603",
+      "27533043",
+      "17914567",
+      "28693582",
+      "37565899",
+      "39830760",
+      "36901944",
+      "35836112",
+      "39956870",
+      "41111380",
+      "39174928",
+      "34902034",
+      "40256926",
+      "39434758",
+      "40510589",
+      "39221762",
+      "37728418",
+      "39431237",
+      "39113225",
+      "41346575",
+      "17213816",
+      "29268703",
+      "40838069",
+      "35538543",
+      "36643625",
+      "39331250",
+      "40721434",
+      "29770329",
+      "28610954",
+      "38634741",
+      "42277180",
+      "41162970",
+      "35783281",
+      "42079608",
+      "41430351",
+      "36105400",
+      "26450901",
+      "42074103",
+      "39256647",
+      "33258506",
+      "41612311",
+      "36479114",
+      "40746552",
+      "37346073",
+      "38567600",
+      "37898914",
+      "42478154",
+      "39742702",
+      "41394847",
+      "29315957",
+      "40568593",
+      "37933447",
+      "40696478",
+      "41870549",
+      "41474172",
+      "40308599",
+      "41419859",
+      "41071425",
+      "41310925",
+      "38566813",
+      "31115239",
+      "39137630",
+      "42244292"
+    ],
+    "review": [
+      "40901472",
+      "41521160"
+    ],
+    "pmc": [
+      "12399615"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40901472/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PSAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-415",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1467357",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

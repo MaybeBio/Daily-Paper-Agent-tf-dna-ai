@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results, Discussion, Data Availability) without supplementary figures, tables, or referenced external data.
+- **Assessment boundary** Evaluation of the scientific claims, methodological soundness, and reproducibility of the described machine learning workflow for predicting T7 primase-DNA binding, based solely on the provided text.
+- **Shared manuscript claim summary** The authors propose that a data-driven machine learning approach, applied to a large PBM dataset of T7 primase binding scores, can (i) identify sequence features governing primase-DNA recognition beyond the core 5'-GTC-3' motif, (ii) predict binding scores for novel sequences, and (iii) generate sequences with desired binding properties, validated by biochemical assays.
+- **Visible evidence base** Main text descriptions of methods and results, including references to Figures 1-5, Tables 1-2, and Supplementary Figures S1-S6 and Tables S1-S3. No actual data values, figures, or supplementary material were provided for direct inspection.
+- **Missing materials affecting confidence** All figures, tables, supplementary data, the GitHub repository contents, and the underlying PBM dataset. Without these, quantitative assessment of model performance, clustering validity, and biochemical validation is not possible.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and under-explored question in DNA-protein recognition, specifically the sequence determinants of primase binding beyond a minimal trinucleotide motif. The application of a machine learning workflow to a large existing PBM dataset is a reasonable strategy. However, the current text provides insufficient detail to evaluate the robustness of the computational pipeline, the statistical significance of the clustering, or the strength of the biochemical validation. Several claims, particularly regarding the generalizability of the findings and the biological implications, are not fully supported by the evidence presented. The work is potentially of interest to the DNA replication and protein-DNA recognition communities, but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying DNA replication mechanisms, particularly primase function and Okazaki fragment synthesis. Also, investigators interested in computational approaches to protein-DNA binding specificity, especially those applying machine learning to high-throughput binding data. The potential to design sequences with desired binding properties could be of interest to synthetic biologists and protein engineers.
+- **Major strengths** The study addresses a significant biological question with a potentially powerful approach. The use of a large, previously generated dataset is efficient. The choice of Lasso regression for interpretability, while comparing with other models, is methodologically sound. The inclusion of biochemical validation, albeit qualitative, is a positive step. The public availability of code and data is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the clustering analysis reveals a meaningful five-cluster structure that corresponds to binding strength, and that this structure indicates hidden sequence features essential for primase binding.
+  - **Evidence pointer** Results section, Figures 3A-3D, and related text.
+  - **Concern** The manuscript states that PCA and Kmeans reveal a clear five-cluster structure, but provides no quantitative justification for the choice of K=5, no metrics of cluster quality (e.g., silhouette score, Davies-Bouldin index), and no statistical test showing that the clusters are significantly different from random groupings. The claim that clusters are "homogeneous" or "inhomogeneous" is based on visual inspection of a 3D plot, which is not a rigorous basis for such a conclusion.
+  - **Why it matters** The entire downstream analysis, including the decision to train separate Lasso models per cluster, depends on the validity of this clustering. If the clustering is arbitrary or not robust, the subsequent model training and interpretation are compromised. The claim of hidden sequence features is a central finding and must be supported by statistical evidence.
+  - **Resolution test** Provide quantitative cluster validation metrics (e.g., silhouette analysis, gap statistic) for the chosen K. Show that the clustering is stable across different subsamples of the data. Demonstrate that the clusters are not an artifact of the dimensionality reduction or the specific clustering algorithm used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the Lasso model can predict binding scores for new DNA sequences with a mean absolute error (MAE) of less than 12%, and that this model identifies the most influential sequence features.
+  - **Evidence pointer** Results section, Figure 4, Table 1, and related text.
+  - **Concern** The model performance is reported as MAE, but the scale of the binding scores is not defined in the text. An MAE of 0.10 or 12% is meaningless without knowing the range of the target variable. Furthermore, the test set used for validation is described as consisting of only 16 sequences, which is a very small sample size for drawing robust conclusions about model generalizability. The method for selecting these 16 sequences is not described, introducing potential selection bias. The claim that the model can predict binding for "any DNA sequence" is a significant overstatement given the limited validation.
+  - **Why it matters** The predictive power of the model is a core claim of the paper. Without a clear definition of the error metric relative to the data distribution, and without a larger, more rigorously defined test set, the performance of the model cannot be adequately assessed. The overstatement of generalizability is a concern.
+  - **Resolution test** Report the range and distribution of binding scores in the dataset. Provide the MAE in both absolute and percentage terms relative to this range. Validate the model on a larger, held-out test set (e.g., 20% of the data) with a clear description of the sampling strategy. Report additional metrics such as R-squared. Avoid claims of predicting "any" sequence without evidence of extrapolation capability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that the biochemical validation confirms the model's predictions, showing that sequences with higher predicted binding scores result in improved RNA primer synthesis.
+  - **Evidence pointer** Results section, Figure 5, Supplementary Figures S5-S6, and related text.
+  - **Concern** The biochemical validation is described as "qualitative" and relies on visual comparison of gel band intensities. No quantification of the bands (e.g., densitometry) is presented, and no statistical analysis is performed to show that the differences in product yield are significant. The number of sequences tested (19) is small, and the selection criteria for these sequences are not fully described. The potential confounding effect of secondary structure formation is mentioned but not systematically controlled for.
+  - **Why it matters** The biochemical validation is the key experimental evidence linking the computational predictions to biological function. Without quantitative and statistical support, the validation is anecdotal and does not strongly support the claim that the model identifies sequences with functionally relevant binding properties.
+  - **Resolution test** Quantify the gel band intensities using densitometry. Perform statistical tests (e.g., t-test or ANOVA) comparing product yields between high- and low-predicted-binding groups. Provide a clear description of how the 19 test sequences were selected. Include a more detailed analysis of the potential impact of secondary structure on the results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, "Data preprocessing"
+  - **Evidence pointer** Materials and Methods, "Data preprocessing" subsection.
+  - **Issue** The description of the data preprocessing steps is high-level. The specific criteria for "data cleansing" and "data filtration" are not defined. For example, what constitutes an "outlier" and how were outliers removed?
+  - **Required correction** Provide a more detailed, step-by-step description of the preprocessing pipeline, including specific thresholds or rules used for data filtering.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section, "Predicting the binding score"
+  - **Evidence pointer** Results section, text describing Figure 4.
+  - **Issue** The text mentions a "small test-set taken from the PBM results" but does not specify the exact number of sequences in this test set or how they were chosen. The main text refers to Figure 4A showing 16 sequences, but this is not explicitly stated in the text.
+  - **Required correction** Clearly state the number of sequences in the test set and the criteria for their selection in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section, final paragraph.
+  - **Issue** The statement that the findings "may well have bearing on rules hidden in DNA sequences that are crucial for other specific DNA-protein interactions" is speculative and not directly supported by the data presented, which focuses on a single protein.
+  - **Required correction** Soften this claim or provide a more reasoned argument for why the approach could be generalized, perhaps by referencing similar successful applications in other systems.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract.
+  - **Issue** The abstract mentions "a machine learning workflow" and "a data driven approach" but does not specify the key finding or the performance of the model. The abstract is somewhat vague about the actual outcomes.
+  - **Required correction** Include a brief statement of the main result, such as the model's predictive accuracy or the identification of specific flanking sequence features that enhance binding.
+
+## Risk / unsupported claims
+- The claim that the model can predict binding scores for "any DNA sequence" is unsupported by the limited validation data presented.
+- The claim that the five-cluster structure reveals "hidden descriptors within the DNA sequence that are essential for primase binding" is not statistically substantiated.
+- The claim that the biochemical validation confirms the model's predictions is not quantitatively supported.
+- The statement that the findings can be generalized to other primases or other DNA-protein interactions is speculative and not directly evidenced.
+- The assertion that the Lasso model's closed-form equation provides a "comprehensive view of the principles that govern the activity of PBRs" is not fully justified, as the specific features and their coefficients are not discussed in the provided text.

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and supplementary figure/table references
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and interpretability of results as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors use an interpretable deep learning model (DeepSHM) combined with integrated gradients to show that AGCT motifs in framework region 1 (FW1) of human immunoglobulin heavy chain variable (IGHV) genes are less mutated than those in other subregions, and that this suppression correlates with the presence of a CAGCTG E-box motif, potentially mediated by E2A binding. They further show that ablation of the E-box motif through natural mutations increases mutation frequency, and that E2A associates with V regions in two B cell lines.
+- **Visible evidence base** Main text figures 1–8, supplementary figures 1, supplementary tables 1–3, methods descriptions for sequence data, DeepSHM, integrated gradients, MOODS, and ChIP-seq analysis
+- **Missing materials affecting confidence** Supplementary figures and tables are referenced but not provided in the submitted material; raw data files and code repository URLs are listed but not accessible for verification; no details on the number of sequences per IGHV allele or the distribution of AGCT sites across alleles are given; no information on the statistical power or multiple testing corrections for the ChIP-seq enrichment analysis
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and well-structured analysis using interpretable deep learning to identify a sequence context that suppresses somatic hypermutation at AGCT motifs in human immunoglobulin variable regions. The central finding, that a CAGCTG E-box motif in FW1 correlates with reduced mutation frequency and that E2A may mediate this effect, is biologically plausible and potentially significant for understanding SHM regulation. However, the evidence for a direct mechanistic role of E2A is indirect, relying on correlative ChIP-seq and motif analysis rather than functional perturbation. The statistical analyses are generally appropriate, but some claims, particularly regarding the independence of E-box and PyPy effects, require more rigorous validation. The manuscript is clearly written and accessible to a broad immunology audience, though some methodological details are underexplained.
+- **Who would be interested in the results, and why** Immunologists studying antibody diversification and somatic hypermutation, computational biologists interested in interpretable deep learning applications to genomics, and researchers investigating transcriptional regulation of AID targeting. The findings may also be relevant to those studying B cell lymphoma pathogenesis, given the role of off-target SHM.
+- **Major strengths** The use of interpretable deep learning to generate a testable hypothesis is innovative and well-executed. The correlation between E-box motif presence and reduced mutation frequency is robust across multiple IGHV alleles. The natural mutation analysis provides a clever approach to test the functional relevance of the E-box motif without experimental perturbation. The ChIP-seq data in two B cell lines strengthens the plausibility of E2A involvement.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that "E2A can directly associate with V regions" based on ChIP-seq data, and that this association supports a mechanistic role for E2A in suppressing SHM at CAGCTG motifs.
+  - **Evidence pointer** Results section, Figures 7A and 7B, Supplementary Tables 1 and 2
+  - **Concern** The ChIP-seq analysis shows enrichment of E2A binding at V regions in two cell lines, but the resolution is limited to 500 bp bins. This does not demonstrate direct binding to the specific CAGCTG motifs in FW1. The authors do not provide evidence that E2A binding at these loci is dependent on the CAGCTG motif, nor do they show that E2A binding correlates with reduced mutation at the single-nucleotide level. The claim of "direct association" is overstated given the resolution of the data.
+  - **Why it matters** The central mechanistic hypothesis is that E2A binding to CAGCTG suppresses AID access. Without evidence that E2A binds specifically to these motifs in V regions, the correlation between E-box presence and reduced mutation could be coincidental or mediated by other factors.
+  - **Resolution test** Provide ChIP-seq read density profiles at single-nucleotide or at least 50 bp resolution across the FW1 region, showing that E2A binding peaks coincide with CAGCTG motifs. Alternatively, perform an electrophoretic mobility shift assay or reporter assay demonstrating that E2A binds the FW1 CAGCTG motif and that mutation of the motif abolishes binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors state that "E-box and PyPy dimers contribute independently to AGCT mutability" based on a linear regression model with R2 values of 0.45 for the combined model versus 0.25 and 0.39 for individual models.
+  - **Evidence pointer** Results section, Table 1
+  - **Concern** The claim of independence is based on the observation that the combined model has a higher R2 than either individual model. However, the authors do not report whether the increase in R2 from 0.39 to 0.45 is statistically significant. Moreover, the regression model assumes linearity and additivity, which may not hold. The authors do not test for interaction effects between E-box presence and PyPy count, nor do they report confidence intervals for the regression coefficients.
+  - **Why it matters** The conclusion that E-box and PyPy effects are independent is important for the proposed model of SHM regulation. If the effects are not truly independent, the interpretation of the results could change.
+  - **Resolution test** Report the F-statistic and p-value for the improvement in R2 when adding the second variable. Test for interaction between E-box and PyPy count in the regression model. Provide bootstrap confidence intervals for the regression coefficients.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors conclude that "AGCTs in FW1 are significantly less mutated than those in other V subregions" based on analysis of 16,870 15-mers across 65 IGHV alleles.
+  - **Evidence pointer** Results section, Figures 1C and 1D
+  - **Concern** The analysis is limited to IGHV genes, and the authors do not address whether the same pattern holds for immunoglobulin light chain variable (IGKV/IGLV) genes. Additionally, the dataset is derived from a specific set of B cell subsets (marginal zone, memory, plasma cells), and it is unclear whether the findings generalize to other B cell populations or to SHM in non-IG loci.
+  - **Why it matters** The claim of a general suppressive mechanism would be strengthened by demonstrating that the pattern is not specific to IGHV genes or to the particular B cell subsets analyzed.
+  - **Resolution test** Extend the analysis to IGKV and IGLV genes, or at least discuss the potential limitations of the current dataset. If data are available, analyze SHM in other B cell subsets or in non-IG AID targets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, DeepSHM description
+  - **Evidence pointer** Methods section, "DeepSHM" subsection
+  - **Issue** The description of the DeepSHM model architecture and training procedure is brief and refers to a previous publication. For readers unfamiliar with the model, more detail on the input features, layer sizes, and training hyperparameters would be helpful.
+  - **Required correction** Provide a brief summary of the model architecture and training details in the main text or supplementary material.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section, Figure 4
+  - **Evidence pointer** Results section, Figure 4
+  - **Issue** The authors note that some FW1 AGCTs not flanked by C and G still have low mutation frequencies, suggesting a positional effect. This is mentioned but not discussed in detail.
+  - **Required correction** Expand the discussion of this observation, considering whether it reflects additional suppressive mechanisms or limitations of the current analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability statement
+  - **Issue** The code repository is listed, but the specific scripts used for the analyses in this paper are not clearly identified. The data availability statement mentions supplementary material but does not specify where the processed data files can be found.
+  - **Required correction** Provide a clear list of scripts and processed data files in the repository, and ensure the supplementary material includes all necessary data for reproducing the figures.
+- **Technical failings that need to be addressed before the case is established** The ChIP-seq analysis does not provide evidence for direct E2A binding to the specific CAGCTG motifs in FW1 at sufficient resolution. The statistical support for the independence of E-box and PyPy effects is incomplete. The generalizability of the findings to other immunoglobulin loci and B cell subsets is not established.
+- **Assessment against Nature-style criteria** Originality: The application of interpretable deep learning to identify a suppressive sequence context for SHM is novel and represents a methodological advance. Scientific importance: The finding of a potential E2B-mediated suppressive mechanism for SHM is significant for understanding antibody diversification and could have implications for vaccine design and lymphoma research. Interdisciplinary readership: The work bridges computational biology and immunology and should appeal to readers in both fields. Technical soundness: The deep learning and statistical methods are generally appropriate, but the ChIP-seq analysis lacks the resolution to support the strongest claims. Readability for nonspecialists: The manuscript is clearly written, with helpful context for readers unfamiliar with deep learning or SHM, though some methodological details are dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central finding is interesting and potentially important, but the evidence for a direct mechanistic role of E2A needs to be strengthened, and the statistical analyses need to be more rigorous.
+
+## Risk / unsupported claims
+- The claim that E2A "directly associates" with V regions is not supported by the resolution of the ChIP-seq data.
+- The claim that E-box and PyPy effects are "independent" is not statistically validated.
+- The generalizability of the findings to all IGHV genes and to other B cell subsets is not established.
+- The mechanistic model of E2A competing with AID for ssDNA access is speculative and not directly tested.

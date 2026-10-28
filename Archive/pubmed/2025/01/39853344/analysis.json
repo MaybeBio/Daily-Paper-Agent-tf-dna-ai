@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39853344",
+  "title": "Detecting B-cell lymphoma-6 overexpression status in primary central nervous system lymphoma using multiparametric MRI-based machine learning.",
+  "authors": "Wang, Mingxiao; Liu, Guoli; Zhang, Nan; Li, Yanhua; Sun, Shuo; Tan, Yahong; Ma, Lin",
+  "journal": "Neuroradiology",
+  "published_date": "2025-01-24",
+  "window": {
+    "start": "2025-01-20",
+    "end": "2025-01-26"
+  },
+  "score": 0,
+  "one_liner_zh": "该文利用多参数MRI影像组学与机器学习检测中枢神经系统淋巴瘤中BCL-6过表达状态，属于临床影像诊断，不涉及蛋白质-DNA互作、转录因子结合或AI/物理模拟建模，与本课题无关。",
+  "abstract": "PURPOSE: In primary central nervous system lymphoma (PCNSL), B-cell lymphoma-6 (BCL-6) is an unfavorable prognostic biomarker. We aim to non-invasively detect BCL-6 overexpression in PCNSL patients using multiparametric MRI and machine learning techniques. METHODS: 65 patients (101 lesions) with primary central nervous system lymphoma (PCNSL) diagnosed from January 2013 to July 2023, and all patients were randomly divided into a training set and a validation set according to a ratio of 8 to 2. ADC map derived from DWI (b = 0/1000 s/mm2), fast spin echo T2WI, T2FLAIR, were collected at 3.0 T. A total of 2234 radiomics features from the tumor segmentation area were extracted and LASSO were used to select features. Logistic regression (LR), Naive bayes (NB), Support vector machine (SVM), K-nearest Neighbor, (KNN) and Multilayer Perceptron (MLP), were used for machine learning, and sensitivity, specificity, accuracy F1-score, and area under the curve (AUC) was used to evaluate the detection performance of five classifiers, 6 groups with combinations of different sequences were fitted to 5 classifiers, and optimal classifier was obtained. RESULTS: BCL-6 status could be identified to varying degrees with 30 models based on radiomics, and model performance could be improved by combining different sequences and classifiers. Support vector machine (SVM) combined with three sequence group had the largest AUC (0.95) in training set and satisfactory AUC (0.87) in validation set. CONCLUSION: Multiparametric MRI based machine learning is promising in detecting BCL-6 overexpression.",
+  "abstract_zh": "目的：在原发性中枢神经系统淋巴瘤（PCNSL）中，B细胞淋巴瘤-6（BCL-6）是一种预后不良的生物标志物。我们旨在利用多参数MRI和机器学习技术，非侵入性地检测PCNSL患者中BCL-6的过表达。方法：纳入2013年1月至2023年7月期间诊断的原发性中枢神经系统淋巴瘤（PCNSL）患者65例（101个病灶），所有患者按8：2的比例随机分为训练集和验证集。在3.0 T下采集DWI（b = 0/1000 s/mm²）衍生的ADC图、快速自旋回波T2WI和T2FLAIR。从肿瘤分割区域提取共2234个影像组学特征，并使用LASSO进行特征选择。采用逻辑回归（LR）、朴素贝叶斯（NB）、支持向量机（SVM）、K近邻（KNN）和多层感知器（MLP）进行机器学习，并以敏感性、特异性、准确率、F1分数和曲线下面积（AUC）评估五种分类器的检测性能，将不同序列组合的6组数据拟合至5种分类器，获得最优分类器。结果：基于影像组学的30个模型能够不同程度地识别BCL-6状态，且结合不同序列和分类器可提升模型性能。支持向量机（SVM）结合三序列组在训练集中具有最大的AUC（0.95），在验证集中具有满意的AUC（0.87）。结论：基于多参数MRI的机器学习在检测BCL-6过表达方面具有前景。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39853344/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39853344/",
+  "paper_page_path": "papers/pubmed/39853344/index.html"
+}

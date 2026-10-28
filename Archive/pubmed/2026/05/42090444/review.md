@@ -1,0 +1,134 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, and materials and methods. No figures, tables, or supplementary files were provided.
+- **Assessment boundary** Evaluation is limited to the written text. Claims involving figures, tables, and supplementary materials are assessed only insofar as they are described in the text.
+- **Shared manuscript claim summary** The authors present a transfer learning framework that adapts the Enformer model to breast and prostate cancer using tissue-specific TF ChIP-seq data. They compute tissue-specific cis-regulatory activity (tCRA) scores for millions of SNVs, prioritize high-impact subsets, and demonstrate improved enrichment in enhancers, GWAS risk variants, and ClinVar pathogenic variants compared to the base model. TWAS using TL-prioritized variants identifies more cancer-relevant genes with functional, therapeutic, and disease relevance.
+- **Visible evidence base** Text descriptions of results, including correlation coefficients, enrichment percentages, gene counts, and database annotations. No raw data, figures, or tables were available for direct inspection.
+- **Missing materials affecting confidence** All figures, tables, supplementary files, and detailed numerical outputs are absent. The manuscript references S1-S14 tables and S1-S6 figures, none of which were provided. This substantially limits verification of the central claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem: adapting general-purpose deep learning models for regulatory variant prediction to tissue-specific cancer contexts. The conceptual framework is sound and the application to breast and prostate cancer is clinically relevant. However, the current text does not provide sufficient evidence to fully establish the claimed improvements. Key quantitative results are presented without confidence intervals or statistical tests, the comparison to Enformer is incomplete, and the absence of all figures and tables prevents independent verification. The work is promising but requires substantial additional analysis and clearer presentation before the claims can be considered established.
+- **Who would be interested in the results, and why** Statistical geneticists and computational biologists working on variant prioritization and functional annotation would be interested in the transfer learning methodology. Cancer genomics researchers studying breast and prostate cancer susceptibility would value the tissue-specific approach. Researchers developing therapeutic target discovery pipelines would find the integration with drug databases and dependency maps relevant. The work also speaks to the broader community interested in adapting foundation models to specialized biological domains.
+- **Major strengths** The manuscript tackles a significant limitation of general-purpose regulatory models by introducing tissue-specific fine-tuning. The choice of TF ChIP-seq data as the fine-tuning target is biologically motivated and builds on prior work from the authors. The downstream validation strategy, incorporating enhancer enrichment, GWAS overlap, ClinVar, DepMap, drug databases, and DisGeNET, is comprehensive. The computational efficiency of the approach, requiring only a single GPU for three days, is a practical advantage. The discussion of limitations is thoughtful and identifies clear directions for future work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims that TL-prioritized variants demonstrate "consistently greater enrichment" in tissue-specific enhancers, GWAS risk variants, and ClinVar pathogenic variants compared to Enformer.
+  - **Evidence pointer** Results section, Figure 3, S7 Table (location not provided)
+  - **Concern** The enrichment comparisons are presented as percentages (e.g., 13.3% vs. 7.5%) without any measure of uncertainty. No confidence intervals, standard errors, or statistical tests are reported. It is impossible to determine whether these differences are statistically significant or could arise from sampling variability. The claim of "consistently greater enrichment" requires formal statistical testing across all three thresholds (1M, 1.5M, 2M) and all comparison categories.
+  - **Why it matters** The central claim of the paper, that TL improves variant prioritization, rests entirely on these enrichment comparisons. Without statistical rigor, the observed differences could be noise. This is a foundational issue that affects all downstream conclusions.
+  - **Resolution test** Provide confidence intervals or bootstrap estimates for all enrichment percentages. Perform formal statistical tests (e.g., Fisher's exact test, permutation tests) comparing TL and Enformer enrichment for each threshold and category. Report effect sizes with uncertainty for all comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Completeness of comparison
+  - **Claim pointer** The manuscript claims that TL models outperform Enformer in identifying genes enriched for drug targets and clinically relevant disease associations.
+  - **Evidence pointer** Results section, Figure 4, S10-S13 Tables (location not provided)
+  - **Concern** The comparison between TL and Enformer in the TWAS results is asymmetric. For breast cancer, TL identified fewer genes than Enformer at the 1M threshold, yet the manuscript emphasizes cases where TL performs better. The criteria for "outperforming" are not clearly defined. Is it the number of genes, the enrichment rate, or the biological relevance? The manuscript reports both but does not specify which metric is primary. Additionally, the comparison of druggable genes and DisGeNET enrichment is presented without statistical testing.
+  - **Why it matters** The claim of improved therapeutic target discovery is a key selling point of the manuscript. If the comparison is selective or the metrics are ambiguous, the conclusion is not robust. A clear, pre-specified comparison framework is needed.
+  - **Resolution test** Define a primary outcome metric for comparing TL and Enformer in TWAS. Report results for all genes identified by each method, not just selected examples. Perform statistical tests for differences in enrichment rates. Provide a comprehensive table showing gene counts, druggable targets, and disease associations for both methods across all thresholds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation of model predictions
+  - **Claim pointer** The manuscript claims that TL models generate "statistically reliable predictions" with average correlations of 0.42 for breast and 0.47 for prostate TF ChIP-seq tracks.
+  - **Evidence pointer** Results section, Figure 2 (location not provided)
+  - **Concern** The reported correlations are modest. More importantly, there is no comparison to the base Enformer model's performance on the same tracks. Without this comparison, it is unclear whether TL improves, maintains, or degrades predictive accuracy. The manuscript also does not report the range of correlations across tracks, the number of tracks in each correlation group, or any measure of variance. The stratification into low, moderate, and high groups is described, but the actual numbers and statistical comparisons between groups are not provided.
+  - **Why it matters** The validity of the tCRA scores depends on the quality of the underlying model predictions. If TL does not improve prediction accuracy over Enformer, the biological interpretation of the tCRA scores is questionable. A direct comparison is essential.
+  - **Resolution test** Report the correlation between TL and Enformer predictions on the same held-out tracks. Provide the distribution of correlations across all tracks, including mean, median, range, and standard deviation. Compare the correlation groups statistically, reporting the number of tracks in each group and the test statistics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The manuscript describes a transfer learning framework and its application to breast and prostate cancer.
+  - **Evidence pointer** Materials and Methods, Results (location not provided)
+  - **Concern** The manuscript does not state whether the fine-tuned models, the tCRA scores, or the code used for the analysis will be made publicly available. The description of the model architecture and training procedure is incomplete. For example, the number of layers fine-tuned in each configuration is not specified, the learning rate schedule is not described, and the early stopping criterion is vague. The manuscript also does not specify the exact version of Enformer used or how the precomputed Enformer variant effect predictions were obtained and processed.
+  - **Why it matters** Reproducibility is a core requirement for computational biology. Without access to the models, scores, and code, other researchers cannot validate or build upon this work. The lack of detail in the methods also prevents replication.
+  - **Resolution test** Provide a clear statement on data and code availability. Include detailed hyperparameter settings, model architecture specifications, and training procedures. Specify the exact data sources and processing steps for all inputs.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Baseline comparison
+  - **Claim pointer** The manuscript claims that a simple CNN trained from scratch performed "substantially worse" than the TL model.
+  - **Evidence pointer** Discussion section, S5 and S6 Figures (location not provided)
+  - **Concern** The CNN baseline is mentioned only in the Discussion, with no details provided in the Results or Methods. The architecture, training procedure, and evaluation metrics for the CNN are not described. The comparison is presented as a single correlation value (0.18 vs. 0.39) without context or statistical testing.
+  - **Why it matters** The CNN baseline is used to argue for the necessity of transfer learning. If this comparison is not rigorously presented, the argument is weakened. A proper baseline comparison is needed to demonstrate the value of the TL approach.
+  - **Resolution test** Move the CNN baseline comparison to the Results section with full methodological details. Report the CNN architecture, training procedure, and evaluation metrics. Provide statistical tests comparing CNN and TL performance across all tracks.
+  - **Concern ID** R1-M6
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The manuscript claims that the framework is "generalizable" for tailoring foundation models to disease-relevant contexts.
+  - **Evidence pointer** Abstract, Discussion (location not provided)
+  - **Concern** The manuscript demonstrates the framework on only two cancer types. While breast and prostate cancer are good examples, the claim of generalizability is not supported by evidence. The authors do not discuss how the approach would scale to other tissues or diseases with different data availability or quality. The choice of TF ChIP-seq data as the fine-tuning target may not be optimal for all contexts.
+  - **Why it matters** The generalizability claim is part of the broader significance of the work. Without evidence or a clear discussion of the conditions under which the approach would work, this claim is speculative.
+  - **Resolution test** Add a discussion of the conditions under which the framework would generalize, including data requirements, computational constraints, and potential limitations. If possible, include a preliminary analysis on a third tissue or disease to demonstrate generalizability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract (location not provided)
+  - **Issue** The abstract states that the framework was applied to "275 and 357 tissue-specific transcription factor (TF) ChIP-seq tracks, respectively." It is unclear whether these numbers refer to unique TF-cell line combinations or total tracks. The Methods section clarifies that each TF-cell line combination is treated as a distinct track, but this is not stated in the abstract.
+  - **Required correction** Clarify in the abstract that the numbers refer to TF-cell line combinations or total tracks.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction (location not provided)
+  - **Issue** The term "tissue-specific" is used throughout the manuscript, but the fine-tuning data include cell lines, not primary tissues. This distinction is important because cell line data may not fully recapitulate tissue-specific regulatory processes.
+  - **Required correction** Acknowledge the use of cell line data and discuss the potential implications for tissue specificity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, TWAS section
+  - **Evidence pointer** Results section, Figure 4 (location not provided)
+  - **Issue** The manuscript reports gene counts and enrichment rates but does not provide the total number of genes tested or the number of significant genes expected by chance. This makes it difficult to assess the significance of the findings.
+  - **Required correction** Report the total number of genes tested and the expected number of false positives under the null hypothesis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Materials and Methods, Data preparation
+  - **Evidence pointer** Materials and Methods (location not provided)
+  - **Issue** The description of the data preparation is confusing. The text states that "we use 131072-bp regions predefined by Basenji2 and extend them to 196608 bp regions," but it is not clear how the extension is performed or why this specific size is chosen.
+  - **Required correction** Provide a clearer description of the data preparation steps, including the rationale for the specific region sizes.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and Methods, Performance evaluation
+  - **Evidence pointer** Materials and Methods (location not provided)
+  - **Issue** The performance evaluation section describes the calculation of Pearson correlation coefficients but does not specify whether these are computed on raw or normalized signals, or whether any transformation is applied.
+  - **Required correction** Specify the exact computation steps for the Pearson correlation coefficients.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion (location not provided)
+  - **Issue** The Discussion states that "TL-derived SNVs mainly dependent on the completeness and accuracy of the external model," but this sentence is grammatically awkward and the meaning is unclear.
+  - **Required correction** Rewrite the sentence to clearly state the limitation.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and Methods, TWAS
+  - **Evidence pointer** Materials and Methods (location not provided)
+  - **Issue** The TWAS section describes the use of elastic net but does not specify the values of the regularization parameters or the cross-validation procedure used to select them.
+  - **Required correction** Provide details on the regularization parameter selection.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results, ClinVar analysis
+  - **Evidence pointer** Results section, Figure 3F (location not provided)
+  - **Issue** The text reports "14 versus 6" pathogenic SNVs for TL and Enformer at the 1M threshold, but the Discussion states "14 vs. 4." This inconsistency needs to be resolved.
+  - **Required correction** Correct the inconsistent numbers in the Discussion.
+- **Technical failings that need to be addressed before the case is established** The absence of all figures, tables, and supplementary materials is a critical failing that prevents verification of the central claims. The lack of statistical testing for enrichment comparisons is a fundamental issue. The incomplete description of the CNN baseline and the asymmetric comparison in TWAS results also need to be addressed. The manuscript does not provide sufficient detail on data availability and code release.
+- **Assessment against Nature-style criteria** Originality: The application of transfer learning to adapt Enformer for tissue-specific cancer contexts is a novel contribution. While transfer learning is not new, its specific application to regulatory variant prioritization in cancer is original. Scientific importance: The work addresses a significant problem in variant interpretation and therapeutic target discovery. The potential to improve TWAS through functional prioritization is important. However, the importance is not fully established without rigorous statistical evidence. Interdisciplinary readership: The work bridges deep learning, statistical genetics, and cancer biology, and would appeal to researchers in all three fields. Technical soundness: The technical approach is reasonable, but the lack of statistical rigor and incomplete comparisons undermine confidence. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections, particularly the Methods, could benefit from clearer explanations.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is promising and the application is relevant, but the current evidence is insufficient to establish the central claims. The authors must provide statistical rigor, complete comparisons, and access to the underlying data and code before the work can be considered established.
+
+## Risk / unsupported claims
+- The claim of "consistently greater enrichment" in enhancers, GWAS risk variants, and ClinVar pathogenic variants is unsupported without statistical testing.
+- The claim that TL models "outperform" Enformer in identifying drug targets and disease-relevant genes is not fully supported due to asymmetric reporting.
+- The claim that the CNN baseline performed "substantially worse" is unsupported as the details are not provided.
+- The claim of "generalizable" framework is not supported by evidence from only two cancer types.
+- The reported correlation values for TL model performance (0.42 and 0.47) are presented without comparison to the base model or measures of variance.
+- The claim that TL-derived SNVs "enhance susceptibility gene discovery" is not fully supported without a clear comparison of gene discovery rates between TL and Enformer across all thresholds.

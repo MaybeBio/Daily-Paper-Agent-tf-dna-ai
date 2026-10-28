@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "39348410",
+    "doi": "10.1371/journal.pcbi.1012480",
+    "title": "BootCellNet, a resampling-based procedure, promotes unsupervised identification of cell populations via robust inference of gene regulatory networks."
+  },
+  "content": {
+    "abstract": "Recent advances in measurement technologies, particularly single-cell RNA sequencing (scRNA-seq), have revolutionized our ability to acquire large amounts of omics-level data on cellular states. As measurement techniques evolve, there has been an increasing need for data analysis methodologies, especially those focused on cell-type identification and inference of gene regulatory networks (GRNs). We have developed a new method named BootCellNet, which employs smoothing and resampling to infer GRNs. Using the inferred GRNs, BootCellNet further infers the minimum dominating set (MDS), a set of genes that determines the dynamics of the entire network. We have demonstrated that BootCellNet robustly infers GRNs and their MDSs from scRNA-seq data and facilitates unsupervised identification of cell clusters using scRNA-seq datasets of peripheral blood mononuclear cells and hematopoiesis. It has also identified COVID-19 patient-specific cells and their potential regulatory transcription factors. BootCellNet not only identifies cell types in an unsupervised and explainable way but also provides insights into the characteristics of identified cell types through the inference of GRNs and MDS.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Gene Regulatory Networks/genetics",
+      "*Single-Cell Analysis/methods",
+      "*COVID-19/genetics",
+      "*Computational Biology/methods",
+      "SARS-CoV-2/genetics",
+      "Algorithms",
+      "Leukocytes, Mononuclear/metabolism",
+      "Hematopoiesis/genetics",
+      "Sequence Analysis, RNA/methods",
+      "Unsupervised Machine Learning",
+      "Gene Expression Profiling/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kumagai, Yutaro"
+      ],
+      "short_names": [
+        "Kumagai Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5039-3979"
+      ],
+      "affiliations": [
+        "Cellular and Molecular Biotechnology Research Institute, National Institute of Advanced Industrial Science and Technology, Higashi, Tsukuba, Ibaraki, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kumagai, Yutaro",
+        "short_name": "Kumagai Y",
+        "identifiers": [
+          "0000-0002-5039-3979"
+        ],
+        "affiliations": [
+          "Cellular and Molecular Biotechnology Research Institute, National Institute of Advanced Industrial Science and Technology, Higashi, Tsukuba, Ibaraki, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/30 22:18",
+    "fetched_at": "2026-09-30 03:43:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38087709",
+      "37704621",
+      "37365273",
+      "37002403",
+      "36755098",
+      "36608654",
+      "36268869",
+      "35837408",
+      "34226537",
+      "34062119",
+      "34020546",
+      "33857289",
+      "33627794",
+      "33473155",
+      "33340021",
+      "32650275",
+      "32579887",
+      "32398875",
+      "31711128",
+      "31627739",
+      "31604482",
+      "30650380",
+      "30643263",
+      "30169550",
+      "29961576",
+      "29914354",
+      "29313948",
+      "28759029",
+      "27599550",
+      "26627738",
+      "25263125",
+      "24778220",
+      "23927492",
+      "23200825",
+      "22242113",
+      "20927193",
+      "20727791",
+      "20513432",
+      "18959772",
+      "18617426",
+      "18164222",
+      "17646406",
+      "17086188",
+      "16723010"
+    ],
+    "similar": [
+      "39348410",
+      "40062616",
+      "41984780",
+      "40409400",
+      "40251476",
+      "42225598",
+      "39939367",
+      "38950180",
+      "40804307",
+      "36626328",
+      "38980373",
+      "39694856",
+      "41052197",
+      "42141063",
+      "38861988",
+      "37985457",
+      "34424948",
+      "39684451",
+      "41191474",
+      "38653489",
+      "36629404",
+      "38896510",
+      "34251625",
+      "37004161",
+      "41300707",
+      "39960893",
+      "42378449",
+      "40662821",
+      "41288963",
+      "40591481",
+      "39814561",
+      "37244909",
+      "32716923",
+      "40116659",
+      "39605181",
+      "41601671",
+      "30547796",
+      "40374885",
+      "41067887",
+      "40220759",
+      "37897702",
+      "34020546",
+      "40662619",
+      "30779739",
+      "39487083",
+      "38976751",
+      "29630593",
+      "41786602",
+      "39934680",
+      "39311699",
+      "41871930",
+      "35715748",
+      "31960377",
+      "40444783",
+      "40699953",
+      "39417321",
+      "28977434",
+      "35961023",
+      "30758825",
+      "39350339",
+      "41554051",
+      "37365273",
+      "39062480",
+      "33026066",
+      "40956752",
+      "38810116",
+      "41317402",
+      "32532794",
+      "37686146",
+      "42061403",
+      "41896196",
+      "39180857",
+      "31682608",
+      "29342231",
+      "38856169",
+      "42059479",
+      "40983951",
+      "31566233",
+      "38580667",
+      "41518505",
+      "39585902",
+      "39788105",
+      "33244151",
+      "38278505",
+      "36168811",
+      "36877552",
+      "38995959",
+      "37936693",
+      "40966655",
+      "29028984",
+      "38879931",
+      "41883144",
+      "38287279",
+      "41043336",
+      "39373051",
+      "41716413",
+      "28254369",
+      "36734596",
+      "42129640",
+      "33170214"
+    ],
+    "review": [
+      "39348410",
+      "39939367",
+      "34020546",
+      "37365273",
+      "29342231",
+      "33244151"
+    ],
+    "pmc": [
+      "11466406"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1012480",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39348410/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAE-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-103",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

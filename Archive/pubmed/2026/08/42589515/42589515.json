@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "42589515",
+    "doi": "10.3390/ijms27156860",
+    "title": "Genome-Wide Dissection of the TCP Gene Family in Peach and Expression Analysis Under Drought Stress."
+  },
+  "content": {
+    "abstract": "The TCP (Teosinte branched 1/Cycloidea/Proliferating) gene family comprises plant-specific transcription factors essential for regulating growth, development, and environmental adaptation. Utilizing the high-quality 'Rui Youpan 1' ('RYP1') reference genome, we conducted a comprehensive genome-wide identification and characterization of the TCP family in peach (Prunus persica). We identified 20 PpTCP genes and systematically evaluated their physicochemical properties, chromosomal distribution, phylogeny, gene architecture, and promoter cis-regulatory elements. Notably, the enrichment of abscisic acid-responsive elements (ABREs) in their promoters suggests a significant role in abiotic stress signaling. Integrated RNA-seq and RT-qPCR analyses identified six putative candidates (PpTCP3, 5, 6, 11, 14, and 15) with pronounced differential expression under drought conditions. Subcellular localization confirmed that all tested PpTCPs function within the nucleus. Moreover, the results of STRING-based computer simulations predicting protein-protein interactions indicate that PpTCP3 and PpTCP5 interact with key hormone pathways and stress-related transcription factors (TFs), including auxin signaling and strigolactone signaling.",
+    "keywords": [
+      "TCP gene family",
+      "drought stress",
+      "expression profiling",
+      "peach",
+      "subcellular localization"
+    ],
+    "mesh_terms": [
+      "*Gene Expression Regulation, Plant",
+      "*Prunus persica/genetics/metabolism",
+      "*Plant Proteins/genetics/metabolism",
+      "*Transcription Factors/genetics/metabolism",
+      "*Stress, Physiological/genetics",
+      "Multigene Family",
+      "Drought Resistance",
+      "Droughts",
+      "Phylogeny",
+      "Promoter Regions, Genetic",
+      "Genome, Plant",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jing, Yanfu",
+        "Yu, Yang",
+        "Xiao, Zimin",
+        "Xu, Yaoguang",
+        "Tian, Yu",
+        "Su, Yanyan",
+        "Xie, Hua"
+      ],
+      "short_names": [
+        "Jing Y",
+        "Yu Y",
+        "Xiao Z",
+        "Xu Y",
+        "Tian Y",
+        "Su Y",
+        "Xie H"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-3258-149X",
+        "ORCID: 0000-0003-2867-4114"
+      ],
+      "affiliations": [
+        "Institute of Forestry and Pomology, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100093, China.",
+        "Beijing Engineering Research Center for Deciduous Fruit Trees, Beijing 100093, China.",
+        "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (North China), Ministry of Agriculture and Rural Affairs, Beijing 100093, China.",
+        "Institute of Forestry and Pomology, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100093, China.",
+        "Beijing Engineering Research Center for Deciduous Fruit Trees, Beijing 100093, China.",
+        "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (North China), Ministry of Agriculture and Rural Affairs, Beijing 100093, China.",
+        "Institute of Forestry and Pomology, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100093, China.",
+        "Beijing Engineering Research Center for Deciduous Fruit Trees, Beijing 100093, China.",
+        "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (North China), Ministry of Agriculture and Rural Affairs, Beijing 100093, China.",
+        "Institute of Forestry and Pomology, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100093, China.",
+        "Beijing Engineering Research Center for Deciduous Fruit Trees, Beijing 100093, China.",
+        "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (North China), Ministry of Agriculture and Rural Affairs, Beijing 100093, China.",
+        "Institute of Forestry and Pomology, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100093, China.",
+        "Beijing Engineering Research Center for Deciduous Fruit Trees, Beijing 100093, China.",
+        "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (North China), Ministry of Agriculture and Rural Affairs, Beijing 100093, China.",
+        "Institute of Forestry and Pomology, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100093, China.",
+        "Beijing Engineering Research Center for Deciduous Fruit Trees, Beijing 100093, China.",
+        "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (North China), Ministry of Agriculture and Rural Affairs, Beijing 100093, China.",
+        "Institute of Forestry and Pomology, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100093, China.",
+        "Beijing Engineering Research Center for Deciduous Fruit Trees, Beijing 100093, China.",
+        "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (North China), Ministry of Agriculture and Rural Affairs, Beijing 100093, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jing, Yanfu",
+        "short_name": "Jing Y",
+        "identifiers": [
+          "0009-0005-3258-149X"
+        ],
+        "affiliations": [
+          "Institute of Forestry and Pomology, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100093, China.",
+          "Beijing Engineering Research Center for Deciduous Fruit Trees, Beijing 100093, China.",
+          "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (North China), Ministry of Agriculture and Rural Affairs, Beijing 100093, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yang",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Forestry and Pomology, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100093, China.",
+          "Beijing Engineering Research Center for Deciduous Fruit Trees, Beijing 100093, China.",
+          "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (North China), Ministry of Agriculture and Rural Affairs, Beijing 100093, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Zimin",
+        "short_name": "Xiao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Forestry and Pomology, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100093, China.",
+          "Beijing Engineering Research Center for Deciduous Fruit Trees, Beijing 100093, China.",
+          "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (North China), Ministry of Agriculture and Rural Affairs, Beijing 100093, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yaoguang",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Forestry and Pomology, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100093, China.",
+          "Beijing Engineering Research Center for Deciduous Fruit Trees, Beijing 100093, China.",
+          "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (North China), Ministry of Agriculture and Rural Affairs, Beijing 100093, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Yu",
+        "short_name": "Tian Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Forestry and Pomology, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100093, China.",
+          "Beijing Engineering Research Center for Deciduous Fruit Trees, Beijing 100093, China.",
+          "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (North China), Ministry of Agriculture and Rural Affairs, Beijing 100093, China."
+        ]
+      },
+      {
+        "full_name": "Su, Yanyan",
+        "short_name": "Su Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Forestry and Pomology, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100093, China.",
+          "Beijing Engineering Research Center for Deciduous Fruit Trees, Beijing 100093, China.",
+          "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (North China), Ministry of Agriculture and Rural Affairs, Beijing 100093, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Hua",
+        "short_name": "Xie H",
+        "identifiers": [
+          "0000-0003-2867-4114"
+        ],
+        "affiliations": [
+          "Institute of Forestry and Pomology, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100093, China.",
+          "Beijing Engineering Research Center for Deciduous Fruit Trees, Beijing 100093, China.",
+          "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (North China), Ministry of Agriculture and Rural Affairs, Beijing 100093, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Jul 30",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/13 05:35",
+    "fetched_at": "2026-10-02 03:34:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42016357",
+      "41812874",
+      "41762812",
+      "41251155",
+      "41219606",
+      "41180019",
+      "41038136",
+      "40655554",
+      "40596840",
+      "40415975",
+      "40265781",
+      "40201755",
+      "40076552",
+      "39967685",
+      "39924854",
+      "39860996",
+      "39434425",
+      "39124235",
+      "38970467",
+      "38751120",
+      "38613393",
+      "38166656",
+      "37292030",
+      "36982512",
+      "36388499",
+      "36292581",
+      "35778326",
+      "35616063",
+      "35144110",
+      "35054767",
+      "34127667",
+      "33879205",
+      "33862182",
+      "33402202",
+      "33321205",
+      "32585190",
+      "32034565",
+      "31943056",
+      "31740930",
+      "31195663",
+      "30992344",
+      "30573726",
+      "28860559",
+      "27924014",
+      "27766460",
+      "26816618",
+      "25953851",
+      "25751142",
+      "25690850",
+      "25516281",
+      "25436570",
+      "24667308",
+      "24137171",
+      "23562796",
+      "23525075",
+      "22552535",
+      "20404498",
+      "19963426",
+      "18805992",
+      "18574149",
+      "17568984",
+      "17487191",
+      "17486095",
+      "17307931",
+      "16786299",
+      "15159638",
+      "15034147",
+      "14597658",
+      "12000681",
+      "11828032",
+      "11752327",
+      "11158532",
+      "10363373",
+      "9338963",
+      "9087405",
+      "7108955"
+    ],
+    "similar": [
+      "42589515",
+      "40596840",
+      "41023794",
+      "38965476",
+      "40797181",
+      "42045993",
+      "39940846",
+      "41695714",
+      "31195663",
+      "41107709",
+      "40629278",
+      "40624271",
+      "39684560",
+      "41690420",
+      "42511617",
+      "39201789",
+      "41579990",
+      "41303452",
+      "41582198",
+      "40076978",
+      "31349783",
+      "40669157",
+      "40244412",
+      "40870021",
+      "42074544",
+      "39596643",
+      "40021992",
+      "41465400",
+      "40243796",
+      "40429827",
+      "41009797",
+      "39186738",
+      "41511543",
+      "40076789",
+      "41992091",
+      "40869902",
+      "38954109",
+      "34299014",
+      "41016480",
+      "40329159",
+      "41596711",
+      "40649787",
+      "42278530",
+      "40014160",
+      "41213477",
+      "41776219",
+      "25416131",
+      "41199156",
+      "39716096",
+      "41520972",
+      "24594978",
+      "40715510",
+      "41455314",
+      "41087913",
+      "39859230",
+      "42168861",
+      "42151498",
+      "42298105",
+      "40340820",
+      "41611495",
+      "40282389",
+      "40410672",
+      "39848346",
+      "39519206",
+      "27083416",
+      "41519715",
+      "40301756",
+      "40748574",
+      "39063069",
+      "42589694",
+      "26441057",
+      "42473451",
+      "41418479",
+      "38338732",
+      "41977447",
+      "42074607",
+      "32034565",
+      "26704366",
+      "41044195",
+      "41898798",
+      "41862793",
+      "41530670",
+      "41751544",
+      "40316926",
+      "41300742",
+      "42435547",
+      "39596328",
+      "40131870",
+      "41811511",
+      "41762812",
+      "40725439",
+      "41454229",
+      "42353229",
+      "39273412",
+      "41977257",
+      "38637768",
+      "39363209",
+      "39099350",
+      "38811873",
+      "39201669"
+    ],
+    "review": [
+      "42589515",
+      "41690420"
+    ],
+    "pmc": [
+      "13467320"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27156860",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42589515/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

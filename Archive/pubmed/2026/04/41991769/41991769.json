@@ -1,0 +1,444 @@
+{
+  "identity": {
+    "pmid": "41991769",
+    "doi": "10.1038/s44320-026-00207-8",
+    "title": "Competing gene regulatory networks drive naive and memory B cell differentiation."
+  },
+  "content": {
+    "abstract": "Elucidating the gene regulatory networks (GRNs) that control human B cell differentiation is crucial for understanding immune responses to infection, vaccination, and autoimmunity. Here, we map the GRNs guiding naive and memory B cell differentiation. Early in activation, both cell types engage highly similar GRNs. However, at later stages, naive B cells diverge into two opposing GRNs that promote differentiation into either plasma cells or germinal center (GC) cells. In contrast, memory B cells predominantly activate the GRNs associated with plasma cell differentiation, such as IRF4. CRISPR perturbations of IRF4 and its downstream effector PRDM1 rewired the GRNs, blocking plasma cell programs and promoting GC fate. Finally, we trained machine learning algorithms to predict sister cells, solely based on the transcriptome. This showed that plasma cell gene expression is tightly correlated among sister cells, revealing heritable transcriptional programs. Collectively, our findings reveal distinct regulatory trajectories in naive and memory B cells and uncover heritable transcriptional states that shape human B cell fate decisions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Cell Differentiation/genetics",
+      "*Gene Regulatory Networks",
+      "Interferon Regulatory Factor-4",
+      "Positive Regulatory Domain I-Binding Factor 1/genetics/metabolism",
+      "Interferon Regulatory Factors/genetics/metabolism",
+      "*B-Lymphocytes/cytology/immunology/metabolism",
+      "*Memory B Cells/cytology/immunology/metabolism",
+      "Germinal Center/cytology/immunology",
+      "Plasma Cells/cytology/immunology/metabolism",
+      "Lymphocyte Activation/genetics",
+      "Immunologic Memory",
+      "Gene Expression Regulation",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Demela, Pietro",
+        "Esposito, Laura",
+        "Marchesan, Pietro",
+        "Nossa, Leonardo",
+        "Bolognini, Davide",
+        "Giacopuzzi, Edoardo",
+        "Ricciardelli, Eugenia",
+        "Ferrari, Paolo",
+        "Bombelli, Silvia",
+        "Peano, Clelia",
+        "Prati, Daniele",
+        "Valenti, Luca",
+        "Soskic, Blagoje"
+      ],
+      "short_names": [
+        "Demela P",
+        "Esposito L",
+        "Marchesan P",
+        "Nossa L",
+        "Bolognini D",
+        "Giacopuzzi E",
+        "Ricciardelli E",
+        "Ferrari P",
+        "Bombelli S",
+        "Peano C",
+        "Prati D",
+        "Valenti L",
+        "Soskic B"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-7412-4438",
+        "ORCID: 0000-0003-3246-7855",
+        "ORCID: 0000-0002-5651-8998",
+        "ORCID: 0009-0003-1109-4145"
+      ],
+      "affiliations": [
+        "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy.",
+        "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy.",
+        "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy.",
+        "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy.",
+        "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy.",
+        "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy.",
+        "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy.",
+        "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy.",
+        "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy.",
+        "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy.",
+        "Institute of Genetics and Biomedical Research, UoS of Milan, National Research Council, Milan, Italy.",
+        "Department of Transfusion Medicine, Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico, Milan, Italy.",
+        "Department of Transfusion Medicine, Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico, Milan, Italy.",
+        "Department of Pathophysiology and Transplantation, Universita degli Studi di Milano, Milan, Italy.",
+        "Precision Medicine and Biological Resource Center, Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico Milano, Milan, Italy.",
+        "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy. blagoje.soskic@fht.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Demela, Pietro",
+        "short_name": "Demela P",
+        "identifiers": [
+          "0009-0006-7412-4438"
+        ],
+        "affiliations": [
+          "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Esposito, Laura",
+        "short_name": "Esposito L",
+        "identifiers": [
+          "0000-0003-3246-7855"
+        ],
+        "affiliations": [
+          "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Marchesan, Pietro",
+        "short_name": "Marchesan P",
+        "identifiers": [],
+        "affiliations": [
+          "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Nossa, Leonardo",
+        "short_name": "Nossa L",
+        "identifiers": [],
+        "affiliations": [
+          "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Bolognini, Davide",
+        "short_name": "Bolognini D",
+        "identifiers": [],
+        "affiliations": [
+          "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Giacopuzzi, Edoardo",
+        "short_name": "Giacopuzzi E",
+        "identifiers": [],
+        "affiliations": [
+          "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Ricciardelli, Eugenia",
+        "short_name": "Ricciardelli E",
+        "identifiers": [
+          "0000-0002-5651-8998"
+        ],
+        "affiliations": [
+          "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Ferrari, Paolo",
+        "short_name": "Ferrari P",
+        "identifiers": [],
+        "affiliations": [
+          "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Bombelli, Silvia",
+        "short_name": "Bombelli S",
+        "identifiers": [],
+        "affiliations": [
+          "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Peano, Clelia",
+        "short_name": "Peano C",
+        "identifiers": [],
+        "affiliations": [
+          "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy.",
+          "Institute of Genetics and Biomedical Research, UoS of Milan, National Research Council, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Prati, Daniele",
+        "short_name": "Prati D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Transfusion Medicine, Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Valenti, Luca",
+        "short_name": "Valenti L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Transfusion Medicine, Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico, Milan, Italy.",
+          "Department of Pathophysiology and Transplantation, Università degli Studi di Milano, Milan, Italy.",
+          "Precision Medicine and Biological Resource Center, Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Soskic, Blagoje",
+        "short_name": "Soskic B",
+        "identifiers": [
+          "0009-0003-1109-4145"
+        ],
+        "affiliations": [
+          "Human Technopole, Viale Rita Levi-Montalcini 1, 20157, Milan, Italy. blagoje.soskic@fht.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular systems biology"
+    ],
+    "journal_abbrev": [
+      "Mol Syst Biol"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/17 07:10",
+    "fetched_at": "2026-10-01 18:31:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39843746",
+      "39168129",
+      "38969872",
+      "38838672",
+      "38831162",
+      "38605225",
+      "38502693",
+      "38340731",
+      "37932398",
+      "37550580",
+      "37400644",
+      "37055623",
+      "37002403",
+      "36973557",
+      "36852274",
+      "36755098",
+      "36289449",
+      "36108634",
+      "35987201",
+      "35113731",
+      "34469510",
+      "33963851",
+      "33597749",
+      "33491336",
+      "32778653",
+      "32601467",
+      "32561888",
+      "31866068",
+      "31836005",
+      "31792435",
+      "31740819",
+      "31002794",
+      "30954476",
+      "30917859",
+      "30899105",
+      "30404000",
+      "29950509",
+      "29262350",
+      "28991892",
+      "27994069",
+      "27457619",
+      "27322546",
+      "27217539",
+      "26944202",
+      "26437243",
+      "26069265",
+      "25698678",
+      "25656706",
+      "25636798",
+      "25288399",
+      "23850379",
+      "23684984",
+      "22728528",
+      "22638577",
+      "21613984",
+      "19917681",
+      "19749764",
+      "18978794",
+      "18836073",
+      "17723214",
+      "15778709",
+      "12692563",
+      "9294147",
+      "7892607"
+    ],
+    "similar": [
+      "41991769",
+      "33613551",
+      "34484219",
+      "23684984",
+      "38969872",
+      "30687317",
+      "24591370",
+      "16767092",
+      "17651861",
+      "30915071",
+      "26276871",
+      "40866336",
+      "22552227",
+      "39612915",
+      "42043375",
+      "34925321",
+      "11067898",
+      "40721291",
+      "29262350",
+      "35154079",
+      "29562201",
+      "33556247",
+      "42164486",
+      "40650910",
+      "28589353",
+      "25288397",
+      "24013550",
+      "20953163",
+      "26437243",
+      "40495388",
+      "34066151",
+      "40709286",
+      "41171696",
+      "26185770",
+      "22500831",
+      "26118840",
+      "19846886",
+      "41571859",
+      "22390182",
+      "21388429",
+      "24218138",
+      "25078688",
+      "33380497",
+      "41759512",
+      "42012954",
+      "19965640",
+      "32843533",
+      "35095922",
+      "41314361",
+      "16919487",
+      "25678371",
+      "33711260",
+      "22500833",
+      "18775669",
+      "31053401",
+      "32778653",
+      "26714588",
+      "19447676",
+      "23405902",
+      "29430664",
+      "38605225",
+      "24482285",
+      "17442944",
+      "17982071",
+      "29599140",
+      "28557002",
+      "32022930",
+      "9237929",
+      "38902223",
+      "28319733",
+      "33133085",
+      "29531165",
+      "26289642",
+      "28930660",
+      "36081178",
+      "17433651",
+      "30566861",
+      "21674482",
+      "35095929",
+      "41495445",
+      "35017215",
+      "11418631",
+      "20864035",
+      "9294147",
+      "27102965",
+      "16785887",
+      "38838672",
+      "19637202",
+      "30619255",
+      "19762555",
+      "34161770",
+      "30874351",
+      "31132512",
+      "30838773",
+      "9521060",
+      "26499265",
+      "16606676",
+      "18094331",
+      "31001283",
+      "33469456"
+    ],
+    "review": [
+      "41991769",
+      "35154079",
+      "33556247",
+      "40709286",
+      "22500831",
+      "26118840",
+      "22390182",
+      "21388429",
+      "22500833",
+      "18775669",
+      "19447676",
+      "23405902",
+      "9237929",
+      "28319733",
+      "36081178",
+      "17433651",
+      "35095929",
+      "41495445",
+      "35017215",
+      "19637202",
+      "30874351"
+    ],
+    "pmc": [
+      "13328623"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s44320-026-00207-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41991769/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

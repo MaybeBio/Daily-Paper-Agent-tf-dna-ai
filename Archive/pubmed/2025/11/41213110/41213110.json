@@ -1,0 +1,493 @@
+{
+  "identity": {
+    "pmid": "41213110",
+    "doi": "10.1158/1078-0432.CCR-25-1946",
+    "title": "Machine Learning-Based Prediction of Distant Recurrence Risk and Ribociclib Treatment Effect in HR+/HER2- Early Breast Cancer Using Real-World and NATALEE Data."
+  },
+  "content": {
+    "abstract": "PURPOSE: Despite current standard-of-care endocrine therapy, distant recurrence remains a concern for patients with hormone receptor-positive (HR+)/HER2- early breast cancer (EBC). Understanding individual recurrence risk would aid in clinical decision-making. We used machine learning to identify risk factors and develop recurrence risk prediction models. EXPERIMENTAL DESIGN: Predictor variables were identified by gradient boosting and used to train models on a large, diverse real-world dataset of patients with stage I-III HR+/HER2- EBC obtained from the US-based, electronic health record-derived deidentified Flatiron Health Research Database. An elastic net-penalized Cox proportional hazards model was validated internally with real-world data and externally with data from the NATALEE trial of ribociclib in patients with HR+/HER2- EBC. Prediction and outcome concordance for distant recurrence and treatment effect were analyzed with Harrell's concordance index (C-index) and integrated Brier score; model performance over time was determined by dynamic AUC analysis. RESULTS: The model accurately predicted distant recurrence in the real-world cohort [n = 7,842; C-index: 0.85 (95% confidence interval, 0.8461-0.8598); integrated Brier score: 0.05 (95% confidence interval, 0.0443-0.0495)] over time (AUC >0.7 through 10 years); internal validation and sensitivity analyses confirmed model performance. External validation with the NATALEE nonsteroidal aromatase inhibitor alone arm yielded a lower but still discriminative performance (C-index: 0.66). Training on NATALEE data improved concordance (C-index: 0.70); the NATALEE-trained model predicted a 3.2% reduction in distant recurrence at 48 months with ribociclib treatment in the real-world cohort. CONCLUSIONS: A machine learning model was developed that accurately predicted distant recurrence in HR+/HER2- EBC. The identified predictor variables and developed models may aid in risk-based personalized treatment decision-making.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Breast Neoplasms/drug therapy/pathology/metabolism",
+      "Female",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "*Machine Learning",
+      "*Purines/therapeutic use/administration & dosage",
+      "Receptors, Estrogen/metabolism",
+      "Middle Aged",
+      "*Neoplasm Recurrence, Local/pathology/drug therapy/epidemiology",
+      "*Aminopyridines/therapeutic use/administration & dosage",
+      "Receptors, Progesterone/metabolism",
+      "Aged",
+      "Prognosis",
+      "Adult",
+      "Risk Factors",
+      "Treatment Outcome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Howard, Frederick M",
+        "Fasching, Peter A",
+        "Santa-Maria, Cesar A",
+        "Lim, Elgene",
+        "Sparano, Joseph A",
+        "Lustberg, Maryam B",
+        "Bachelot, Thomas",
+        "Blyuss, Oleg",
+        "Brezden-Masley, Christine",
+        "Park, Yeon Hee",
+        "Akdere, Murat",
+        "Ye, Fen",
+        "Pantoja, Kristyn",
+        "Kurz, Christoph",
+        "Dominguez Castro, Patricia",
+        "Razavi, Pedram"
+      ],
+      "short_names": [
+        "Howard FM",
+        "Fasching PA",
+        "Santa-Maria CA",
+        "Lim E",
+        "Sparano JA",
+        "Lustberg MB",
+        "Bachelot T",
+        "Blyuss O",
+        "Brezden-Masley C",
+        "Park YH",
+        "Akdere M",
+        "Ye F",
+        "Pantoja K",
+        "Kurz C",
+        "Dominguez Castro P",
+        "Razavi P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6039-1141",
+        "ORCID: 0000-0003-4885-8471",
+        "ORCID: 0000-0003-0979-8787",
+        "ORCID: 0000-0001-8065-8838",
+        "ORCID: 0000-0002-9031-2010",
+        "ORCID: 0000-0001-8559-5645",
+        "ORCID: 0000-0002-0866-9484",
+        "ORCID: 0000-0002-0194-6389",
+        "ORCID: 0000-0002-4818-318X",
+        "ORCID: 0000-0003-4156-9212",
+        "ORCID: 0009-0001-4883-0463",
+        "ORCID: 0009-0003-4211-3062",
+        "ORCID: 0000-0003-2745-1808",
+        "ORCID: 0000-0001-9498-8002",
+        "ORCID: 0000-0002-2871-9573",
+        "ORCID: 0000-0003-4236-0576"
+      ],
+      "affiliations": [
+        "Department of Medicine, University of Chicago, Chicago, Illinois.",
+        "University Hospital Erlangen Comprehensive Cancer Center Erlangen-EMN, Friedrich Alexander University Erlangen-Nuremberg, Erlangen, Germany.",
+        "Breast and Gynecological Malignancies Group, Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins, Baltimore, Maryland.",
+        "Garvan Institute of Medical Research, Sydney, Australia.",
+        "Faculty of Medicine, St Vincent's Clinical School, University of New South Wales, Sydney, Australia.",
+        "Icahn School of Medicine at Mount Sinai, Tisch Cancer Institute, New York, New York.",
+        "Department of Medicine, Yale University School of Medicine, New Haven, Connecticut.",
+        "Department of Medical Oncology, Centre Leon-Berard, Lyon, France.",
+        "Centre for Cancer Screening, Prevention, and Early Diagnosis, Wolfson Institute of Population Health, Queen Mary University of London, London, United Kingdom.",
+        "Division of Medical Oncology and Hematology, Faculty of Medicine, Mount Sinai Hospital, University of Toronto, Toronto, Canada.",
+        "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea.",
+        "Novartis Pharma AG, Basel, Switzerland.",
+        "Novartis Pharmaceuticals Corporation, East Hanover, New Jersey.",
+        "Novartis Pharmaceuticals Corporation, Cambridge, Massachusetts.",
+        "Novartis Pharma GmbH, Munich, Germany.",
+        "Novartis Ireland, Dublin, Ireland.",
+        "Memorial Sloan Kettering Cancer Center, New York, New York."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Howard, Frederick M",
+        "short_name": "Howard FM",
+        "identifiers": [
+          "0000-0002-6039-1141"
+        ],
+        "affiliations": [
+          "Department of Medicine, University of Chicago, Chicago, Illinois."
+        ]
+      },
+      {
+        "full_name": "Fasching, Peter A",
+        "short_name": "Fasching PA",
+        "identifiers": [
+          "0000-0003-4885-8471"
+        ],
+        "affiliations": [
+          "University Hospital Erlangen Comprehensive Cancer Center Erlangen-EMN, Friedrich Alexander University Erlangen-Nuremberg, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Santa-Maria, Cesar A",
+        "short_name": "Santa-Maria CA",
+        "identifiers": [
+          "0000-0003-0979-8787"
+        ],
+        "affiliations": [
+          "Breast and Gynecological Malignancies Group, Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins, Baltimore, Maryland."
+        ]
+      },
+      {
+        "full_name": "Lim, Elgene",
+        "short_name": "Lim E",
+        "identifiers": [
+          "0000-0001-8065-8838"
+        ],
+        "affiliations": [
+          "Garvan Institute of Medical Research, Sydney, Australia.",
+          "Faculty of Medicine, St Vincent's Clinical School, University of New South Wales, Sydney, Australia."
+        ]
+      },
+      {
+        "full_name": "Sparano, Joseph A",
+        "short_name": "Sparano JA",
+        "identifiers": [
+          "0000-0002-9031-2010"
+        ],
+        "affiliations": [
+          "Icahn School of Medicine at Mount Sinai, Tisch Cancer Institute, New York, New York."
+        ]
+      },
+      {
+        "full_name": "Lustberg, Maryam B",
+        "short_name": "Lustberg MB",
+        "identifiers": [
+          "0000-0001-8559-5645"
+        ],
+        "affiliations": [
+          "Department of Medicine, Yale University School of Medicine, New Haven, Connecticut."
+        ]
+      },
+      {
+        "full_name": "Bachelot, Thomas",
+        "short_name": "Bachelot T",
+        "identifiers": [
+          "0000-0002-0866-9484"
+        ],
+        "affiliations": [
+          "Department of Medical Oncology, Centre Léon-Bérard, Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Blyuss, Oleg",
+        "short_name": "Blyuss O",
+        "identifiers": [
+          "0000-0002-0194-6389"
+        ],
+        "affiliations": [
+          "Centre for Cancer Screening, Prevention, and Early Diagnosis, Wolfson Institute of Population Health, Queen Mary University of London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Brezden-Masley, Christine",
+        "short_name": "Brezden-Masley C",
+        "identifiers": [
+          "0000-0002-4818-318X"
+        ],
+        "affiliations": [
+          "Division of Medical Oncology and Hematology, Faculty of Medicine, Mount Sinai Hospital, University of Toronto, Toronto, Canada."
+        ]
+      },
+      {
+        "full_name": "Park, Yeon Hee",
+        "short_name": "Park YH",
+        "identifiers": [
+          "0000-0003-4156-9212"
+        ],
+        "affiliations": [
+          "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Akdere, Murat",
+        "short_name": "Akdere M",
+        "identifiers": [
+          "0009-0001-4883-0463"
+        ],
+        "affiliations": [
+          "Novartis Pharma AG, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Ye, Fen",
+        "short_name": "Ye F",
+        "identifiers": [
+          "0009-0003-4211-3062"
+        ],
+        "affiliations": [
+          "Novartis Pharmaceuticals Corporation, East Hanover, New Jersey."
+        ]
+      },
+      {
+        "full_name": "Pantoja, Kristyn",
+        "short_name": "Pantoja K",
+        "identifiers": [
+          "0000-0003-2745-1808"
+        ],
+        "affiliations": [
+          "Novartis Pharmaceuticals Corporation, Cambridge, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Kurz, Christoph",
+        "short_name": "Kurz C",
+        "identifiers": [
+          "0000-0001-9498-8002"
+        ],
+        "affiliations": [
+          "Novartis Pharma GmbH, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Dominguez Castro, Patricia",
+        "short_name": "Dominguez Castro P",
+        "identifiers": [
+          "0000-0002-2871-9573"
+        ],
+        "affiliations": [
+          "Novartis Ireland, Dublin, Ireland."
+        ]
+      },
+      {
+        "full_name": "Razavi, Pedram",
+        "short_name": "Razavi P",
+        "identifiers": [
+          "0000-0003-4236-0576"
+        ],
+        "affiliations": [
+          "Memorial Sloan Kettering Cancer Center, New York, New York."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical cancer research : an official journal of the American Association for Cancer Research"
+    ],
+    "journal_abbrev": [
+      "Clin Cancer Res"
+    ],
+    "pub_date": "2026 Jan 16",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/10 18:23",
+    "fetched_at": "2026-10-01 06:03:39"
+  },
+  "links": {
+    "cites": [
+      "41632146"
+    ],
+    "refs": [
+      "40382465",
+      "39994475",
+      "39961969",
+      "39921795",
+      "39442617",
+      "39041867",
+      "38507751",
+      "38476641",
+      "38225255",
+      "38191193",
+      "38152439",
+      "38146744",
+      "38089005",
+      "37769521",
+      "37647069",
+      "37495705",
+      "37444546",
+      "37275963",
+      "36493792",
+      "36098027",
+      "35611679",
+      "35439025",
+      "35326674",
+      "34874182",
+      "34747484",
+      "34260475",
+      "34003702",
+      "33613796",
+      "33460574",
+      "33306425",
+      "30627694",
+      "29860917",
+      "26909792",
+      "26211827",
+      "25585328",
+      "25472026",
+      "24777111",
+      "24088296",
+      "23000897",
+      "22850554",
+      "21900114",
+      "21807638",
+      "20053270",
+      "16607692",
+      "11250998"
+    ],
+    "similar": [
+      "41213110",
+      "41320342",
+      "40996773",
+      "40516131",
+      "39442617",
+      "40878695",
+      "40019493",
+      "40789109",
+      "41314030",
+      "39754979",
+      "40277749",
+      "41312949",
+      "38507751",
+      "41061345",
+      "41558202",
+      "40896879",
+      "40148997",
+      "40204155",
+      "40826034",
+      "39294027",
+      "40996770",
+      "40288025",
+      "40381382",
+      "29437768",
+      "38003555",
+      "29718092",
+      "41512682",
+      "37275963",
+      "33645243",
+      "39152401",
+      "39851968",
+      "41587941",
+      "40157276",
+      "40735999",
+      "31378534",
+      "41162228",
+      "31838010",
+      "29654415",
+      "34161883",
+      "32954927",
+      "33373867",
+      "34292933",
+      "40796181",
+      "39707595",
+      "33152285",
+      "39133334",
+      "41405264",
+      "40190010",
+      "40198522",
+      "41675008",
+      "41147847",
+      "29404806",
+      "39826197",
+      "29164421",
+      "39024528",
+      "41006089",
+      "39915434",
+      "29804902",
+      "40624807",
+      "29799329",
+      "24035531",
+      "38131531",
+      "30340505",
+      "41270247",
+      "39951234",
+      "38472501",
+      "30522347",
+      "39413680",
+      "41229195",
+      "41389514",
+      "39023253",
+      "29058175",
+      "39848244",
+      "40208504",
+      "40121273",
+      "29902286",
+      "40017004",
+      "40862813",
+      "30328050",
+      "38771995",
+      "40833671",
+      "27717303",
+      "39248049",
+      "39586283",
+      "30194622",
+      "32998962",
+      "41411882",
+      "39213142",
+      "40768821",
+      "38761788",
+      "29330212",
+      "41744845",
+      "33065342",
+      "41762297",
+      "41014426",
+      "37659765",
+      "31166679",
+      "41697438",
+      "39136200",
+      "41387082"
+    ],
+    "review": [
+      "41213110",
+      "40277749",
+      "30522347",
+      "39413680",
+      "40862813",
+      "30194622"
+    ],
+    "pmc": [
+      "12809111"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41213110/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://aacrjournals.org/clincancerres/article-lookup/doi/10.1158/1078-0432.CCR-25-1946",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

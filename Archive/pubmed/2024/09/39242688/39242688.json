@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "39242688",
+    "doi": "10.1038/s41598-024-69721-9",
+    "title": "On discovery of novel hub genes for ER+ and TN breast cancer types through RNA seq data analyses and classification models."
+  },
+  "content": {
+    "abstract": "Breast cancer (BC) is a malignant neoplasm which is classified into various types defined by underlying molecular factors such as estrogen receptor positive (ER+), progesterone receptor positive (PR+), human epidermal growth factor positive (HER2+) and triple negative (TNBC). Early detection of ER+ and TNBC is crucial in the choice of diagnosis and appropriate treatment strategy. Here we report the key genes associated to ER+ and TNBC using RNA-Seq analysis and machine learning models. Three ER+ and TNBC RNA seq datasets comprising 164 patients in-toto were selected for standard NGS hierarchical data processing and data analyses protocols. Enrichment pathway analysis and network analysis was done and finally top hub genes were identified. To come with a reliable classifier which could distinguish the distinct transcriptome patterns associated to ER+ and TNBC, ML models were built employing Naive Bayes, SVM and kNN. 1730 common DEG's exhibiting significant logFC values with 0.05 p-value threshold were identified. A list of top ten hub genes were screened on the basis of maximal clique centrality (MCC) which included CDC20, CDK1, BUB1, AURKA, CDCA8, RRM2, TTK, CENPF, CEP55 and NDC80.These genes were found to be involved in crucial cell cycle pathways. k-Nearest Neighbor (kNN) model was observed to be best classifier with accuracy 84%, specificity 66% and sensitivity 95% to differentiate between ER+ and TNBC RNA-Seq transcriptomes. Our screened list of 10 hub genes can thus help unearth novel molecular signatures implicated in ER+ and TNBC onset, prognosis and design of novel protocols for breast cancer diagnostics and therapeutics.",
+    "keywords": [
+      "Breast cancer",
+      "Differentially expressed genes",
+      "ER+",
+      "Hub genes",
+      "Machine learning",
+      "TN"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Triple Negative Breast Neoplasms/genetics",
+      "*Receptors, Estrogen/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "RNA-Seq/methods",
+      "Biomarkers, Tumor/genetics",
+      "Gene Expression Profiling/methods",
+      "Transcriptome/genetics",
+      "Breast Neoplasms/genetics/classification/pathology",
+      "Machine Learning",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Saddiqa, Alishbah",
+        "Zakir, Mahrukh",
+        "Sheikh, Mawara",
+        "Muneer, Zahid",
+        "Hassan, Arsalan",
+        "Ali, Iqra",
+        "Haq, Ihtisham Ul",
+        "Khan, Azmat Ali",
+        "Malik, Abdul",
+        "Siddiqi, Abdul Rauf"
+      ],
+      "short_names": [
+        "Saddiqa A",
+        "Zakir M",
+        "Sheikh M",
+        "Muneer Z",
+        "Hassan A",
+        "Ali I",
+        "Haq IU",
+        "Khan AA",
+        "Malik A",
+        "Siddiqi AR"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Computational Biology and Bioinformatics Group (CBBG), Department of Biosciences, COMSATS University Islamabad, Park Road Islamabad, Islamabad, Pakistan.",
+        "Computational Biology and Bioinformatics Group (CBBG), Department of Biosciences, COMSATS University Islamabad, Park Road Islamabad, Islamabad, Pakistan.",
+        "Pakistan Agriculture Research Council, Islamabad, Pakistan.",
+        "Computational Biology and Bioinformatics Group (CBBG), Department of Biosciences, COMSATS University Islamabad, Park Road Islamabad, Islamabad, Pakistan.",
+        "Computational Biology and Bioinformatics Group (CBBG), Department of Biosciences, COMSATS University Islamabad, Park Road Islamabad, Islamabad, Pakistan.",
+        "Computational Biology and Bioinformatics Group (CBBG), Department of Biosciences, COMSATS University Islamabad, Park Road Islamabad, Islamabad, Pakistan.",
+        "Department of Physical Chemistry and Technology of Polymers, Silesian University of Technology, M. Strzody 9, 44-100, Gliwice, Poland.",
+        "Pharmaceutical Biotechnology Laboratory, Department of Pharmaceutical Chemistry, College of Pharmacy, King Saud University, 11451, Riyadh, Saudi Arabia.",
+        "Department of Pharmaceutics, College of Pharmacy, King Saud University, 11451, Riyadh, Saudi Arabia. amoinuddin@ksu.edu.sa.",
+        "Computational Biology and Bioinformatics Group (CBBG), Department of Biosciences, COMSATS University Islamabad, Park Road Islamabad, Islamabad, Pakistan. araufsiddiqi@comsats.edu.pk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Saddiqa, Alishbah",
+        "short_name": "Saddiqa A",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Bioinformatics Group (CBBG), Department of Biosciences, COMSATS University Islamabad, Park Road Islamabad, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Zakir, Mahrukh",
+        "short_name": "Zakir M",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Bioinformatics Group (CBBG), Department of Biosciences, COMSATS University Islamabad, Park Road Islamabad, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Sheikh, Mawara",
+        "short_name": "Sheikh M",
+        "identifiers": [],
+        "affiliations": [
+          "Pakistan Agriculture Research Council, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Muneer, Zahid",
+        "short_name": "Muneer Z",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Bioinformatics Group (CBBG), Department of Biosciences, COMSATS University Islamabad, Park Road Islamabad, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Hassan, Arsalan",
+        "short_name": "Hassan A",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Bioinformatics Group (CBBG), Department of Biosciences, COMSATS University Islamabad, Park Road Islamabad, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Ali, Iqra",
+        "short_name": "Ali I",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Bioinformatics Group (CBBG), Department of Biosciences, COMSATS University Islamabad, Park Road Islamabad, Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Haq, Ihtisham Ul",
+        "short_name": "Haq IU",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry and Technology of Polymers, Silesian University of Technology, M. Strzody 9, 44-100, Gliwice, Poland."
+        ]
+      },
+      {
+        "full_name": "Khan, Azmat Ali",
+        "short_name": "Khan AA",
+        "identifiers": [],
+        "affiliations": [
+          "Pharmaceutical Biotechnology Laboratory, Department of Pharmaceutical Chemistry, College of Pharmacy, King Saud University, 11451, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Malik, Abdul",
+        "short_name": "Malik A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutics, College of Pharmacy, King Saud University, 11451, Riyadh, Saudi Arabia. amoinuddin@ksu.edu.sa."
+        ]
+      },
+      {
+        "full_name": "Siddiqi, Abdul Rauf",
+        "short_name": "Siddiqi AR",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology and Bioinformatics Group (CBBG), Department of Biosciences, COMSATS University Islamabad, Park Road Islamabad, Islamabad, Pakistan. araufsiddiqi@comsats.edu.pk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Sep 6",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/07 14:42",
+    "fetched_at": "2026-09-30 02:15:07"
+  },
+  "links": {
+    "cites": [
+      "41354890"
+    ],
+    "refs": [
+      "38572751",
+      "36071247",
+      "35794100",
+      "33817210",
+      "33498339",
+      "33211879",
+      "32795325",
+      "32760426",
+      "32334446",
+      "31632198",
+      "30953709",
+      "30898978",
+      "30083066",
+      "29561704",
+      "29199086",
+      "28832679",
+      "28782484",
+      "28732212",
+      "28277293",
+      "28147341",
+      "27924014",
+      "27888421",
+      "27601899",
+      "26989362",
+      "26819640",
+      "26503945",
+      "26056679",
+      "25772923",
+      "25521941",
+      "25016158",
+      "24444383",
+      "23132118",
+      "21789182",
+      "21532627",
+      "21138954",
+      "21063955",
+      "20972220",
+      "20227277",
+      "20182602",
+      "19131956",
+      "18575892",
+      "16525682",
+      "16477674",
+      "16428479",
+      "16258100",
+      "14597658",
+      "12767038",
+      "11940046",
+      "11729114",
+      "9593664",
+      "8875058"
+    ],
+    "similar": [
+      "39242688",
+      "30302816",
+      "31733575",
+      "38713229",
+      "31197620",
+      "25756514",
+      "34406386",
+      "34055036",
+      "30128822",
+      "35627287",
+      "28030809",
+      "34797837",
+      "39350059",
+      "35465161",
+      "34895070",
+      "33428596",
+      "31434940",
+      "35504321",
+      "32816580",
+      "39206896",
+      "36334189",
+      "30203490",
+      "26975198",
+      "33743484",
+      "31257479",
+      "28106823",
+      "34686627",
+      "29368311",
+      "30003738",
+      "29328377",
+      "31986408",
+      "32338339",
+      "30888555",
+      "33734898",
+      "33408778",
+      "31342312",
+      "23172894",
+      "35474355",
+      "39284403",
+      "36859733",
+      "32681437",
+      "22343619",
+      "34610510",
+      "24004841",
+      "24086418",
+      "34053447",
+      "28060723",
+      "25611337",
+      "35711896",
+      "32681241",
+      "31974598",
+      "39193850",
+      "26446459",
+      "33464691",
+      "25412710",
+      "34172056",
+      "31081967",
+      "31741180",
+      "36536459",
+      "32766313",
+      "31641220",
+      "35401937",
+      "26650824",
+      "27393618",
+      "32358373",
+      "31087799",
+      "30089167",
+      "34095314",
+      "29115931",
+      "25880075",
+      "25736840",
+      "33499770",
+      "34603338",
+      "34445986",
+      "34464510",
+      "39206892",
+      "18657139",
+      "29260344",
+      "37893423",
+      "32605588",
+      "37190091",
+      "33068730",
+      "37393829",
+      "37391802",
+      "38831458",
+      "27260947",
+      "31280346",
+      "26846986",
+      "24337596",
+      "30175120",
+      "35093867",
+      "23971947",
+      "39317050",
+      "34794761",
+      "34830241",
+      "39380273",
+      "32591639",
+      "37742297",
+      "24982892",
+      "36077333",
+      "38755543",
+      "39409999"
+    ],
+    "review": [
+      "39242688"
+    ],
+    "pmc": [
+      "11379961"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-69721-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39242688/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

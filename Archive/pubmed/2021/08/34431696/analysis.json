@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34431696",
+  "title": "Machine Learning of Bacterial Transcriptomes Reveals Responses Underlying Differential Antibiotic Susceptibility.",
+  "authors": "Sastry, Anand V; Dillon, Nicholas; Anand, Amitesh; Poudel, Saugat; Hefner, Ying; Xu, Sibei; Szubin, Richard; Feist, Adam M; Nizet, Victor; Palsson, Bernhard",
+  "journal": "mSphere",
+  "published_date": "2021-08-26",
+  "window": {
+    "start": "2021-08-23",
+    "end": "2021-08-29"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习分析细菌转录组以解释抗生素敏感性差异，虽涉及转录调控因子但无蛋白质-DNA互作建模或结合机制研究，与本课题关联微弱。",
+  "abstract": "In vitro antibiotic susceptibility testing often fails to accurately predict in vivo drug efficacies, in part due to differences in the molecular composition between standardized bacteriologic media and physiological environments within the body. Here, we investigate the interrelationship between antibiotic susceptibility and medium composition in Escherichia coli K-12 MG1655 as contextualized through machine learning of transcriptomics data. Application of independent component analysis, a signal separation algorithm, shows that complex phenotypic changes induced by environmental conditions or antibiotic treatment are directly traced to the action of a few key transcriptional regulators, including RpoS, Fur, and Fnr. Integrating machine learning results with biochemical knowledge of transcription factor activation reveals medium-dependent shifts in respiration and iron availability that drive differential antibiotic susceptibility. By extension, the data generation and data analytics workflow used here can interrogate the regulatory state of a pathogen under any measured condition and can be applied to any strain or organism for which sufficient transcriptomics data are available. IMPORTANCE Antibiotic resistance is an imminent threat to global health. Patient treatment regimens are often selected based on results from standardized antibiotic susceptibility testing (AST) in the clinical microbiology lab, but these in vitro tests frequently misclassify drug effectiveness due to their poor resemblance to actual host conditions. Prior attempts to understand the combined effects of drugs and media on antibiotic efficacy have focused on physiological measurements but have not linked treatment outcomes to transcriptional responses on a systems level. Here, application of machine learning to transcriptomics data identified medium-dependent responses in key regulators of bacterial iron uptake and respiratory activity. The analytical workflow presented here is scalable to additional organisms and conditions and could be used to improve clinical AST by identifying the key regulatory factors dictating antibiotic susceptibility.",
+  "abstract_zh": "体外抗生素敏感性试验常常无法准确预测体内药物疗效，部分原因在于标准化细菌学培养基与体内生理环境之间分子组成的差异。在此，我们通过转录组数据的机器学习，研究大肠杆菌K-12 MG1655中抗生素敏感性与培养基组成之间的相互关系。应用独立成分分析（一种信号分离算法）表明，由环境条件或抗生素处理诱导的复杂表型变化可直接追溯至少数关键转录调控因子的作用，包括RpoS、Fur和Fnr。将机器学习结果与转录因子激活的生化知识相结合，揭示了培养基依赖性的呼吸作用和铁可用性变化，这些变化驱动了差异化的抗生素敏感性。进一步地，本文所用的数据生成和数据分析工作流程可用于探究病原体在任何测定条件下的调控状态，并可应用于任何具有足够转录组数据的菌株或生物体。重要性 抗生素耐药性是对全球健康的迫在眉睫的威胁。患者治疗方案通常基于临床微生物实验室标准化抗生素敏感性试验（AST）的结果来选择，但这些体外试验因与实际宿主环境相似性差而经常错误分类药物有效性。先前试图理解药物和培养基对抗生素疗效联合效应的研究侧重于生理测量，但未在系统层面将治疗结果与转录反应联系起来。在此，将机器学习应用于转录组数据，识别了细菌铁摄取和呼吸活性关键调控因子中的培养基依赖性反应。本文提出的分析工作流程可扩展至更多生物体和条件，并可通过识别决定抗生素敏感性的关键调控因子来改进临床AST。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34431696/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34431696/",
+  "paper_page_path": "papers/pubmed/34431696/index.html"
+}

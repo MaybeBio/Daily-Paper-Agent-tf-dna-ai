@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.03.07.642067",
+  "title": "Improved Prediction of Bacterial Type VI Secretion Effector Proteins Using an Integrated Convolutional Neural Network Model Combining N-terminal Signal Sequences, Evolutionary Information and Pre-Trained Protein Language Features",
+  "authors": "Yueming Hu; Minqing Yan; Yanyan Zhu; Haoyu Chao; Sida Li; Qinyang Ni; Yanshi Hu; Enyan Liu; Liya Liu; Yifan Chen; Zeya Zhou; Yuhao Chen; Shilong Zhang; Yejun Wang; Cong Feng; Ming Chen",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-12",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用CNN集成模型预测细菌VI型分泌系统效应蛋白，属于蛋白质序列分类任务，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Type VI secretion system effectors (T6SEs) are crucial for bacterial pathogenicity, making their accurate identification essential for understanding bacterial virulence mechanisms. This study analyzed the differences in amino acid composition of N-terminal signal sequences between T6SEs and non-T6SEs, uncovering distinct positional amino acid preferences in T6SEs. Using a combination of unsupervised and supervised analysis, we evaluated feature encoding methods and developed T6CNN, an ensemble model that integrates N-terminal signal sequences, evolutionary information, and pre-trained protein language features for T6SE prediction. T6CNN demonstrated outstanding performance in independent testing, outperforming existing tools with a 7.9% accuracy increase (to 0.953), a 13.2% sensitivity improvement (to 0.964), and a 6.6% specificity enhancement (to 0.951). The T6CNN model offers a reliable and accurate solution for T6SE prediction, with significant potential to advance research on bacterial pathogenicity. Importance This study introduces T6CNN, a new computational model for identifying Type VI secretion system effectors used by harmful bacteria. By analyzing early protein sequences, T6CNN uncovers unique features that reliably distinguish effector proteins. Integrating evolutionary data and pre-trained protein language features, the model outperforms existing methods in accuracy, sensitivity, and specificity. This enhanced prediction tool deepens our understanding of bacterial infection mechanisms and offers researchers a valuable resource for pinpointing key virulence factors. Ultimately, T6CNN may help drive the development of more targeted antibacterial treatments and strategies to combat bacterial diseases.",
+  "abstract_zh": "VI型分泌系统效应蛋白（T6SEs）对细菌致病性至关重要，因此其准确识别对于理解细菌毒力机制不可或缺。本研究分析了T6SEs与非T6SEs之间N端信号序列氨基酸组成的差异，揭示了T6SEs中独特的位点特异性氨基酸偏好。通过结合无监督与有监督分析，我们评估了特征编码方法，并开发了T6CNN，一种整合N端信号序列、进化信息及预训练蛋白质语言特征的集成模型，用于T6SE预测。T6CNN在独立测试中表现出色，优于现有工具，准确率提升7.9%（至0.953），灵敏度提高13.2%（至0.964），特异性增强6.6%（至0.951）。T6CNN模型为T6SE预测提供了可靠且准确的解决方案，在推进细菌致病性研究方面具有显著潜力。重要性 本研究引入了T6CNN，一种用于识别有害细菌所用VI型分泌系统效应蛋白的新型计算模型。通过分析早期蛋白质序列，T6CNN揭示了能够可靠区分效应蛋白的独特特征。整合进化数据与预训练蛋白质语言特征，该模型在准确性、灵敏度和特异性方面均优于现有方法。这一增强的预测工具加深了我们对细菌感染机制的理解，并为研究人员提供了定位关键毒力因子的宝贵资源。最终，T6CNN可能有助于推动更具针对性的抗菌治疗及对抗细菌疾病策略的开发。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.03.07.642067",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.03.07.642067",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.03.07.642067/index.html"
+}

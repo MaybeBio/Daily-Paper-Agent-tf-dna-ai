@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "41712668",
+    "doi": "10.1371/journal.pcbi.1013996",
+    "title": "Controllable protein design via autoregressive direct coupling analysis conditioned on principal components."
+  },
+  "content": {
+    "abstract": "We present FeatureDCA, a statistical framework for protein sequence modeling and generation that extends Direct Coupling Analysis (DCA) with biologically meaningful conditioning. The method can leverage different kinds of information, such as phylogeny, optimal growth temperature, enzymatic activity or, as in the case presented here, principal components derived from multiple sequence alignments, and use it to improve the learning process and consequently efficiently condition the generative process. FeatureDCA allows sampling to be guided toward specific regions of sequence space while maintaining the efficiency and interpretability of Potts-based inference. Across multiple protein families, our autoregressive implementation of FeatureDCA matches or surpasses the generative accuracy of established models in reproducing higher-order sequence statistics while preserving substantial sequence diversity. Structural validation with AlphaFold and ESMFold confirms that generated sequences adopt folds consistent with their intended wild-type targets. In a detailed case study of the Response Regulator family (PF00072), which comprises distinct structural subclasses linked to different DNA-binding domains, FeatureDCA accurately reproduces class-specific architectures when conditioned on subtype-specific principal components, highlighting its potential for fine-grained structural control. Predictions of experimental deep mutational scanning data show accuracy comparable to that of unconditioned autoregressive Potts models, indicating that FeatureDCA also captures local functional constraints. These results position FeatureDCA as a flexible and transparent approach for targeted sequence generation, bridging statistical fidelity, structural realism, and interpretability in protein design.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Caredda, Francesco",
+        "Gennai, Lisa",
+        "De Los Rios, Paolo",
+        "Pagnani, Andrea"
+      ],
+      "short_names": [
+        "Caredda F",
+        "Gennai L",
+        "De Los Rios P",
+        "Pagnani A"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-2175-8084",
+        "ORCID: 0009-0000-6156-5804"
+      ],
+      "affiliations": [
+        "Department of Applied Science and Technology, Politecnico di Torino, Torino, Italy.",
+        "Institute of Physics, School of Basic Sciences, Ecole Polytechnique Federale de Lausanne - EPFL, Lausanne, Switzerland.",
+        "Institute of Physics, School of Basic Sciences, Ecole Polytechnique Federale de Lausanne - EPFL, Lausanne, Switzerland.",
+        "Institute of Bioengineering, School of Basic Sciences, Ecole Polytechnique Federale de Lausanne - EPFL, Lausanne, Switzerland.",
+        "Department of Applied Science and Technology, Politecnico di Torino, Torino, Italy.",
+        "Italian Institute for Genomic Medicine, IRCCS Candiolo, Candiolo, Italy.",
+        "INFN, Sezione di Torino, Torino, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Caredda, Francesco",
+        "short_name": "Caredda F",
+        "identifiers": [
+          "0009-0009-2175-8084"
+        ],
+        "affiliations": [
+          "Department of Applied Science and Technology, Politecnico di Torino, Torino, Italy."
+        ]
+      },
+      {
+        "full_name": "Gennai, Lisa",
+        "short_name": "Gennai L",
+        "identifiers": [
+          "0009-0000-6156-5804"
+        ],
+        "affiliations": [
+          "Institute of Physics, School of Basic Sciences, École Polytechnique Fédérale de Lausanne - EPFL, Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "De Los Rios, Paolo",
+        "short_name": "De Los Rios P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, School of Basic Sciences, École Polytechnique Fédérale de Lausanne - EPFL, Lausanne, Switzerland.",
+          "Institute of Bioengineering, School of Basic Sciences, École Polytechnique Fédérale de Lausanne - EPFL, Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Pagnani, Andrea",
+        "short_name": "Pagnani A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Science and Technology, Politecnico di Torino, Torino, Italy.",
+          "Italian Institute for Genomic Medicine, IRCCS Candiolo, Candiolo, Italy.",
+          "INFN, Sezione di Torino, Torino, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/19 19:02",
+    "fetched_at": "2026-10-01 14:24:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39915710",
+      "39818825",
+      "38718835",
+      "38547871",
+      "38011273",
+      "37956700",
+      "36927031",
+      "36350672",
+      "35950958",
+      "34715775",
+      "34608136",
+      "34525554",
+      "34265844",
+      "33897979",
+      "33876751",
+      "33125078",
+      "32703877",
+      "31034887",
+      "30250057",
+      "29351669",
+      "29120346",
+      "27519796",
+      "26446903",
+      "23878237",
+      "23399542",
+      "22106262",
+      "19575571",
+      "10592235",
+      "2017436"
+    ],
+    "similar": [
+      "41712668",
+      "42475469",
+      "42136025",
+      "36734516",
+      "41446059",
+      "41750280",
+      "23912807",
+      "41310253",
+      "41409142",
+      "34112081",
+      "36321557",
+      "39915710",
+      "34608136",
+      "37988083",
+      "42282134",
+      "41206951",
+      "15059245",
+      "41757065",
+      "41729820",
+      "41959328",
+      "41992779",
+      "42246097",
+      "41667775",
+      "26269925",
+      "30725667",
+      "41174308",
+      "36564857",
+      "35593869",
+      "31855381",
+      "41256639",
+      "37076519",
+      "34616884",
+      "34525554",
+      "41055214",
+      "23617634",
+      "40496892",
+      "23990764",
+      "42495002",
+      "41666568",
+      "28289198",
+      "40971691",
+      "28155662",
+      "34117879",
+      "42326814",
+      "31872748",
+      "15504234",
+      "32945673",
+      "42222300",
+      "41614412",
+      "38830995",
+      "42163392",
+      "41993527",
+      "32770229",
+      "38110247",
+      "38778425",
+      "40754881",
+      "11917143",
+      "41786230",
+      "11391013",
+      "41691015",
+      "39475544",
+      "38879522",
+      "18451428",
+      "38011273",
+      "34681569",
+      "42289978",
+      "42308684",
+      "41977286",
+      "41150248",
+      "42380674",
+      "31639992",
+      "42253318",
+      "37976326",
+      "42239143",
+      "42527525",
+      "38601958",
+      "34815338",
+      "37693436",
+      "27567672",
+      "41877793",
+      "41912385",
+      "41553896",
+      "41937725",
+      "34728624",
+      "32002010",
+      "38686454",
+      "41245953",
+      "40365615",
+      "42165572",
+      "22106262",
+      "26920058",
+      "40509866",
+      "39829868",
+      "29262162",
+      "33716309",
+      "40902999",
+      "42286075",
+      "30850429",
+      "31746978",
+      "42059635"
+    ],
+    "review": [
+      "41712668",
+      "36321557",
+      "41729820",
+      "26269925",
+      "38110247"
+    ],
+    "pmc": [
+      "12935303"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1013996",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41712668/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

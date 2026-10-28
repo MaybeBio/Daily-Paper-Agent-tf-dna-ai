@@ -1,0 +1,184 @@
+# Potential mechanisms of traditional Chinese medicine in treating insomnia: A network pharmacology, GEO validation, and molecular-docking study
+
+
+## Abstract
+  The purpose of this study is to investigate the potential mechanisms of Chinese herbs for the treatment of insomnia using a combination of data mining, network pharmacology, and molecular-docking validation. All the prescriptions for insomnia treated by the academician Qi Wang from 2020 to 2022 were collected. The Ancient and Modern Medical Case Cloud Platform v2.3 was used to identify high-frequency Chinese medicinal herbs and the core prescription. The Traditional Chinese Medicine Systems Pharmacology and UniProt databases were utilized to predict the effective active components and targets of the core herbs. Insomnia-related targets were collected from 4 databases. The intersecting targets were utilized to build a protein–protein interaction network and conduct gene ontology enrichment analysis and Kyoto Encyclopedia of Genes and Genomes pathway enrichment analysis using the STRING database, Cytoscape software, and clusterProfiler package. Gene chip data (GSE208668) were obtained from the Gene Expression Omnibus database. The limma package was applied to identify differentially expressed genes (DEGs) between insomnia patients and healthy controls. To create a “transcription factor (TF)-miRNA-mRNA” network, the differentially expressed miRNAs were entered into the TransmiR, FunRich, Targetscan, and miRDB databases. Subsequently, the overlapping targets were validated using the DEGs, and further validations were conducted through molecular docking and molecular dynamics simulations. Among the 117 prescriptions, 65 herbs and a core prescription were identified. Network pharmacology and bioinformatics analysis revealed that active components such as β-sitosterol, stigmasterol, and canadine acted on hub targets, including interleukin-6, caspase-3, and hypoxia-inducible factor-1α. In GSE208668, 6417 DEGs and 7 differentially expressed miRNAs were identified. A “TF-miRNA-mRNA” network was constructed by 4 “TF-miRNA” interaction pairs and 66 “miRNA-mRNA” interaction pairs. Downstream mRNAs exert therapeutic effects on insomnia by regulating circadian rhythm. Molecular-docking analyses demonstrated good docking between core components and hub targets. Molecular dynamics simulation displayed the strong stability of the complex formed by small molecule and target. The core prescription by the academician Qi Wang for treating insomnia, which involves multiple components, targets, and pathways, showed the potential to improve sleep, providing a basis for clinical treatment of insomnia.
+
+
+## 1. Introduction
+  Insomnia is a disorder characterized by insufficient sleep duration or poor sleep quality, including difficulty in falling asleep, early awakening, and difficulty returning to sleep after waking up.[1] It affects daily functioning in the social, occupational, and academic aspects of life. The incidence of insomnia has been growing with the increasing competitiveness in society. In accordance with the World Health Organization statistics, approximately 27% of the global population experiences sleep disorders.[2] The prevalence of insomnia has been reported to be positively correlated with age,[3] and has been shown to be greater in females.[4] Moreover, 50% of individuals with insomnia also have comorbid mental disorders such as anxiety and depression.[5] In modern medicine, the treatment of insomnia is often based on its underlying pathological mechanism and involves the use of drugs such as benzodiazepines, barbiturates, and melatonin receptor agonists. However, these medications are associated with significant adverse effects and the potential for drug dependence.[6]
+
+  Traditional Chinese medicine (TCM) has an extensive history and abundant clinical experience in the treatment of insomnia. In recent decades, Western countries have extensively reported Chinese herbal medicine for its therapeutic benefits. Numerous clinical studies, including randomized controlled trials, have been carried out to assess the effectiveness and underlying mechanisms of TCM in the treatment of insomnia.[7] The mechanisms that have been reported include inhibiting the reuptake of monoamines, influencing the binding of neurotransmitter receptors and activity of channel transport proteins, as well as regulating communication between neurons and the hypothalamic–pituitary–adrenal axis.[8] According to TCM theory, the human rhythm is closely related to the nature rhythm.[9] Studies have shown that herbs with sleep–wake rhythm, such as lily that opens during the day and closes at night, are therapeutic for insomnia.[10] In academician Qi Wang’s prescriptions, Pinellia ternate (Banxia, BX), and Prunellae spica (Xiakucao, XKC) are commonly used herbs because their growth exhibits temporal rhythm, corresponding to the traditional Chinese solar terms. BX is harvested after the summer solstice, whereas XKC thrives during the winter solstice, and withers during the summer solstice.
+
+  In this study, we comprehensively accumulated the effective prescriptions of Qi Wang for insomnia from 2020 to 2022. Data-mining techniques was used to analyze the commonly used Chinese medicinal herbs for insomnia. Network pharmacology[11] was employed to predict the active ingredients and targets of core herbs for treating insomnia; molecular-docking and molecular dynamics simulation were used to validate core components and hub targets; and bioinformatics methods were utilized to explore possible mechanisms (Fig. 1). This study aims to explore the multi-component, multi-target, and multi-pathway mechanisms of TCM in treating insomnia and serves as a reference for the clinical treatment of insomnia.
+
+
+## 2. Materials and methods
+
+### 2.1. Prescription source and screening
+  The prescriptions included in this study were sourced from the Ancient and Modern Medical Case Cloud Platform V2.3 (http://www.yiankb.com/) created by the Institute of Information on Traditional Chinese Medicine, China Academy of Chinese Medical Sciences. The period was set from 2020 to 2022, and all the prescriptions for insomnia by the academician Qi Wang were collected. The diagnosis of insomnia in the collected prescriptions met the fifth edition of the “Diagnostic and Statistical Manual of Mental Disorders (DSM-5).”[12] The therapeutic effect of prescriptions was evaluated according to the Standard for Diagnostic Efficacy of Diseases and Syndromes of Traditional Chinese Medicine (ZY/T001.1-94)—Insomnia,[13] which divided the therapeutic effect of insomnia into 3 categories: cure, improvement and ineffectiveness. Cure indicates a return to normal sleep with the disappearance of symptoms. Improvement indicates prolonged sleep with improvement in symptoms. Ineffectiveness indicates no improvement in sleep or symptoms. We screened effective prescriptions with efficacy of cure or improvement for inclusion in the analysis. This study was approved by the Medical Ethics Committee of Beijing University of Chinese Medicine, No: 2019BZHYLL0204.
+
+
+### 2.2. Terminology standardization
+  Based on the “Pharmacopoeia of the People’s Republic of China (2015 edition),”[14] the property, taste, and meridian tropism of Chinese medicinal herbs in the included prescriptions, were subjected to standardized processing.
+
+
+### 2.3. Data statistics and analysis
+  Data cleaning, database construction, analysis, and mining were conducted in the Ancient and Modern Medical Case Cloud Platform.
+
+
+### 2.4. Frequency statistics of drug usage
+  The frequency of herbal usage in the included prescriptions was arranged in descending order.
+
+
+### 2.5. Frequency statistics of drug attributes
+  The frequency of herbal attributes including property, taste, and meridian tropism was arranged in descending order.
+
+
+### 2.6. Association rule analysis of drugs
+  An association rule analysis of the included herbs was conducted with the Apriori algorithm.[15] A confidence level of 0.5 and a support level of 0.2 were set, with the lift condition > 1. The herbal combination association graph was obtained.
+
+
+### 2.7. Screening of the core active ingredients of the drugs and corresponding targets
+  According to the “Network Pharmacology Evaluation Method Guidance,”[11] the Traditional Chinese Medicine Systems Pharmacology Database and Analysis Platform (TCMSP)[16] was employed to retrieve the ingredients of the core herbs for the treatment of insomnia. The screening criteria included oral bioavailability ≥30%, blood–brain barrier ≥−0.3, drug likeness≥0.18,[17] permeability across the intestinal epithelial cells (Caco-2) ≥−0.4, and half-life ≥4.[18] These criteria helped to select active components of the core herbs. The corresponding gene targets of each component were found by matching them with the proteins in the UniProt database.[19] The SwissTargetPrediction platform[20] was applied to predict potential targets for active components without target records.
+
+
+### 2.8. Screening of genes related to insomnia
+  Insomnia-related genes were obtained by integrating gene information from various databases, including the GeneCards database,[21] the OMIM database,[22] the PharmGKB database,[23,24] and the TTD database.[25]
+
+
+### 2.9. Construction of the “Drug-Compound-Target-Disease” network
+  The common targets of core herb targets and insomnia-related gene were identified, which were the key targets for the active components acting on the disease. The common targets were visualized using a Venn diagram. Additionally, a protein–protein interaction (PPI) network was generated for the common targets by the STRING database (version: 11.5).[26,27] The degree values of the PPI nodes were calculated by Cytoscape (version: 3.9.1)[28] and used for nodes ranking. A “Drug-Compound-Target-Disease” network was then constructed by Cytoscape, with nodes representing disease, core herbs, active components, and gene targets.
+
+
+### 2.10. Gene functional enrichment analysis
+  Functional enrichment analysis was performed with the common targets using the clusterProfiler package (version: 4.7.1.003).[29,30] The gene ontology (GO)[31,32] database and Kyoto Encyclopedia of Genes and Genomes (KEGG)[33,34] database were predefined as the background gene sets. The “Target-Pathway” bubble charts were generated to display the results visually.
+
+
+### 2.11. Disease sample data download
+  We searched for series related to “insomnia” in the Gene Expression Omnibus database (http://www.ncbi.nlm.nih.gov/geo).[35,36] The inclusion criteria were set as follows: samples included both insomnia samples and normal samples from human tissues with expression profiling by array or high-throughput sequencing. The exclusion criteria were set at <5 samples each group.
+
+
+### 2.12. Analysis of differential expressed genes for targets verification
+  Limma package (version: 3.50.3)[37] was used to carry out the differential expression analysis. The screening criteria for differential expressed genes (DEGs) were |log2FC| > 0.6 and adjusted P-value < .05. The results of DEG analysis were visualized using a volcano plot. Then, we utilized the intersection of the DEGs with the common targets shared by the active ingredients and disease to obtain validated targets. The expression patterns of these validated targets were displayed using a heatmap. The validated targets in the top ten nodes of the PPI network were defined as hub targets.
+
+
+### 2.13. Construction of the “TF-miRNA-mRNA” network
+  The classes of DEGs were annotated using the GENECODE database (Release 45)[38] (https://www.gencodegenes.org/human/), from which differentially expressed miRNAs (DE-miRNAs) were extracted. The transcription factors (TFs) regulating DE-miRNAs were predicted by the TransmiR v2.0 database[39] (https://www.cuilab.cn/transmir) and the function of “miRNA enrichment” in FunRich (version: 3.1.3)[40] (http://funrich.org/index.html). For FunRich, the TFs of each DE-miRNA was obtained by a threshold of corrected P-value < .05 (Bonferroni method). TFs from the 2 methods above were merged, and TFs belonging to both DEGs and common targets were retained to establish “TF-miRNA” pairs. The mRNAs as targets of the DE-miRNAs were predicted using TargetScan 8.0[41] (https://www.targetscan.org/vert_80/) and miRDB[42] (https://mirdb.org/mirdb/index.html). The predicted mRNAs were taken from the results shared by the 2 methods and intersected with DEGs to establish “miRNA-mRNA” pairs. Based on the above pairs, the network of “TF-miRNA-mRNA” was constructed and visualized by Cytoscape. Besides, the KEGG and Reactome[43] pathways of the mRNAs were analyzed by KOBAS-i[44] (corrected P-value < .05).
+
+
+### 2.14. Validation of molecular-docking simulation
+  The interactions between hub targets and core active ingredients were verified by molecular docking. The 3D structures of core active components and hub target proteins were sourced from the TCMSP database and PDB database.[45,46] The downloaded protein structures were processed by PyMOL software (version: 2.6.0)[47] in preparation for molecular docking, including the addition of hydrogen atoms, calculation of charges, and removal of solvents. The protein macromolecule and small molecules from herbs were loaded into AutoDock software (version: 4.2.6)[48] for docking, and semiflexible docking was performed to identify binding sites between the small ligand molecules and the amino acid residues of the protein.
+
+
+### 2.15. Validation of molecular dynamics simulation
+  Gromacs software (version: 2022.3)[49] was used for molecular dynamics simulation. AmberTools22 was used to add general AMBER force field to small molecules, while Gaussian 16W was used to hydrogenate small molecules. Under a constant temperature of 300K and a normal pressure of 1.0 bar, the simulation system adopted the steepest descent method to minimize the energy, and then carried out the canonical (NVT) and isothermal-isobaric (NPT) ensembles for 100,000 steps, respectively, with the coupling constant of 0.1 ps and the duration of 100 ps. Finally, the molecular dynamics simulation was conducted for a total of 5,000,000 steps, with a step length of 2 fs and a total duration of 100 ns.
+
+
+## 3. Results
+
+### 3.1. Screening of effective prescriptions
+  In total, we screened 117 effective prescriptions for inclusion in the analysis, which accounted for 85.4% of all insomnia prescriptions. These effective prescriptions included 15 prescriptions with an efficacy rating of cure and 102 prescriptions with an efficacy rating of improvement.
+
+
+### 3.2. Analysis of drug usage frequency statistics
+  In this study, 65 herbs were included in the effective prescriptions. The total frequency of herbs was 1035. The herbs were subjected to a statistical analysis based on their frequency, and the top 10 herbs are presented in descending order in Table 1, including Pinellia ternata (BX), Prunellae spica (XKC), Perillae folium (Zisu, ZS), Lilii bulbus (Baihe, BH), Albiziae flos (Hehuanhua, HHH), Corydalis rhizoma (Yanhusuo, YHS), Nardostachyos radix et rhizoma (Gansong, GS), Sophorae flavescentis radix (Kushen, KS), Aurantii fructus (Zhiqiao, ZQ), and Carthami flos (Honghua, HH).
+
+
+### 3.3. Statistical analysis of drug attributes
+  A comprehensive statistical analysis was conducted on herbs, considering their property, taste, and meridian tropism. The results of the analysis indicated that the treatment of insomnia mainly involved the use of herbs with warm and cold properties. Specifically, warm herbs were used 630 times, while cold herbs were used 382 times (Fig. 2A). The predominant tastes of the herbs were bitter, pungent, and sweet. Bitter herbs appeared 539 times, pungent herbs appeared 628 times, and sweet herbs appeared 625 times (Fig. 2B). Regarding meridians, the top 3 tropisms were liver meridian, spleen meridian, and heart meridian (Fig. 2C).
+
+
+### 3.4. Drug association rule analysis
+  Association rule analysis was performed on the included herbs. This analysis yielded a network graph of the combination rules among them (Fig. 2D). In the network graph, each node symbolized an herb, and the connections between nodes symbolized the co-occurrence relationships between 2 different herbs. The higher the value, the stronger the relationship between the 2 herbs. A core prescription including BX, XKC, ZS, BH, HHH, YHS, GS, and KS was identified.
+
+
+### 3.5. Results of the active ingredients and corresponding targets
+  The components of the core herbs (BX, XKC, ZS, BH, HHH, YHS, GS, and KS) were retrieved from the TCMSP database. Absorption, distribution, metabolism, and excretion pharmacokinetic screening was performed to obtain active components and match them with target proteins. Relevant information was also searched and collected as supplementary data from the PubChem database[50] and the HERB database.[51] After screening and removing, 54 active components and 135 associated target proteins were obtained (Supplementary Tables S1, http://links.lww.com/MD/M366 and S2, http://links.lww.com/MD/M367).
+
+
+### 3.6. Results of the analysis of genes related to insomnia
+  In total, 2923 insomnia-related targets were obtained from the GeneCards database. Additionally, 1 target was found in PharmGKB, 4 targets in OMIM, and 26 targets in TTD. After removing duplicates, 2937 insomnia-related targets were identified (Supplementary Table S3, http://links.lww.com/MD/M368).
+
+
+### 3.7. Results of the construction of the “Drug-Compound-Target-Disease” network
+  The intersection of the targets from the components of core herbs and the insomnia-related targets resulted in 72 common targets (Fig. 3A). The common targets were imported into the STRING database. The species of study was designated as human, with a minimum requisite interaction score higher than 0.9. The PPI network was optimized by Cytoscape, containing 72 nodes and 395 edges (Fig. 3B). The higher degree value of a node, the larger and darker it appeared, reflecting a greater number of connections and stronger interactions with other nodes.
+
+  The common targets were employed to establish the “Drug-Component-Target-Disease” network. This network consisted of 8 nodes for herbs, 50 nodes for active components, 67 nodes for core targets, and a node for disease (Fig. 3C). The top 8 active components with the highest degree values were chosen as the critical molecular components for treating insomnia using the core herbs. The top 10 targets with the highest degree values were identified as the critical targets (Table 2, Supplementary Table S4, http://links.lww.com/MD/M369).
+
+
+### 3.8. Enrichment analysis of GO and KEGG pathways
+  The common targets were inserted into the clusterProfiler package for GO and KEGG enrichment analysis. The results revealed that the therapeutic mechanisms of the core herbs for insomnia could potentially be based on 1153 biological processes, 72 cellular components, 120 molecular functions, and 72 biological pathways (Supplementary Tables S5, http://links.lww.com/MD/M370 and S6, http://links.lww.com/MD/M371). The top 20 results of the enrichment analysis for GO and KEGG are visually presented in Figure 4. The GO terms indicated that the adrenergic receptor signaling pathway, neurotransmitter receptor activity, release of neurotransmitters, and composition of the synaptic junction were closely associated with the mechanism of insomnia. On the other hand, the KEGG enrichment analysis identified pathways related to serotonergic synapses, neuroactive ligand-receptor interactions, tumor necrosis factor (TNF) signaling pathway, calcium signaling pathway, and AGE–RAGE signaling pathway.
+
+
+### 3.9. Results of DEGs
+  The volcano plot of the GSE208668 dataset displayed the DEGs between the insomnia group and the normal group (Fig. 5A, Supplementary Table S7, http://links.lww.com/MD/M372). The Venn diagram illustrated the relationship between the common targets and DEGs (Fig. 5B). The heatmap depicted the expression of the validated targets (Fig. 5C). Targets that were both validated and had a high degree in the PPI network were identified as hub targets, including interleukin-6 (IL-6), CASP3, tumor protein 53 (TP53), HIF1A, vascular endothelial growth factor A (VEGFA), and FOS (Table 3).
+
+
+### 3.10. Construction of the “TF-miRNA-mRNA” network
+  Seven DE-miRNAs were found in the DEGs (Supplementary Table S8, http://links.lww.com/MD/M373). The TransmiR 2.0 database predicted 78 upstream TFs for DE-miRNAs. Among these TFs, TP53 and AHR were found to intersect with DEGs and common targets. Utilizing the “miRNA enrichment” function in FunRich, a total of 72 TFs were predicted for the DE-miRNAs, with FOS being the overlapping TF. The TF-miRNA pairs included TP53-hsa-let-7i, TP53-hsa-miR-130a, AHR-hsa-mir-130a, and FOS-hsa-mir-130a. According to TargetScan and miRDB, hsa-let-7i-3p obtained 32 overlapping mRNAs, while hsa-miR-130a-3p obtained 221 overlapping mRNAs. The intersections of these mRNAs with DEGs were 11 genes and 55 genes, respectively. The relationships between TFs, miRNAs, and mRNAs were shown in Supplementary Table S9, http://links.lww.com/MD/M374, and the “TF-miRNA-mRNA” network constructed in Cytoscape is shown in Figure 6. For mRNAs regulated by hsa-let-7i, KOBAS-i identified 19 KEGG pathways and 63 Reactome pathways (Supplementary Table S10, http://links.lww.com/MD/M375). Among them, the most significant pathway was circadian rhythm (hsa04710). For mRNAs regulated by hsa-miR-130a, KOBAS-i identified a KEGG pathway and a Reactome pathway (Supplementary Table S11, http://links.lww.com/MD/M376). They were apelin signaling pathway (hsa04371) and signal transduction (R-HSA-162582).
+
+
+### 3.11. Results of molecular-docking simulations
+  A total of 48 molecular-docking simulations were performed, and the binding energies required for molecular docking are visualized using a heatmap in Figure 7. In the heatmap, darker colors indicated lower binding energies required for molecular docking, tighter binding between protein and ligand. The minimum binding energy of docking was <0, indicating spontaneous binding of the ligand and receptor.[52] The lowest binding energies between hub targets and core molecule compounds were all no more than −1.2 kcal/mol, suggesting that stable structures could be formed between the small molecules and protein targets.[53]
+
+  Among these, the small molecules β-sitosterol, stigmasterol, cryptotanshinone, canadine, baicalein and canadine showed good binding to targets, indicating that they might be the critical components of the core herbs for treating insomnia. The combinations with good molecular-docking results were selected for local detailed presentation (Fig. 8). β-Sitosterol established 3 hydrogen bonds (HBonds) with THR-263, VAL-264, and ARG-17 in hypoxia-inducible factor-1α, with bond distances of 2.1, 2.1, and 2.3 Å, respectively. Canadine formed 4 HBonds with GLU-95, LYS-8, and TRP-99 in interleukin-6 (IL-6), with bond distances of 2.0, 2.1, 2.2, and 2.6 Å, respectively.
+
+
+### 3.12. Results of molecular dynamics simulations
+  The optimal conformation resulting from the docking of caspase-3 with β-sitosterol molecule was selected for molecular dynamics simulations. We calculated the root mean square deviation values of the β-sitosterol–caspase-3 complex to assess the stability of the complex structure during molecular dynamics simulation (Fig. 9A). The result indicated that after 20 ns of simulation, the root mean square deviation values of complex gradually reached a stable state and the fluctuation range was <0.2 nm, which suggested that the binding between β-sitosterol and caspase-3 was relatively stable.[54]
+
+  We calculated the root mean square fluctuation (RMSF) values to assess the fluctuation of each amino acid residue in the complex during molecular dynamics simulation. The smaller the RMSF values, the more stable the binding of the complex. Conversely, larger RMSF values indicated a greater impact of the small molecule ligand on the spatial structure of the protein residues.[55] As shown in Figure 9B, the overall fluctuation of the amino acid residues was minimal, indicating a low level of flexibility. The RMSF values exhibited wide fluctuations within the residue range of 150 to 200, indicating greater flexibility of the complex in these regions.
+
+  We performed molecular mechanics generalized-Boltzmann surface area analysis to calculate the total binding free energy of the complex and analyze the stability of the binding. As shown in Table 4, the β-sitosterol–caspase-3 complex exhibited a total binding free energy of −38.43 kcal/mol during molecular dynamics simulation. Van der Waals energy, electrostatic energy, nonpolar solvation energy, and gas-phase free energy all contributed to the binding of the β-sitosterol–caspase-3 complex. Among these, van der Waals energy and gas-phase free energy made significant contributions.
+
+  We assessed the number of HBonds in the β-sitosterol–caspase-3 complex. As shown in Figure 9C, during molecular dynamics simulation, the complex formed a maximum of 2 HBonds. Ultimately, a single stable HBond was formed, which exhibited persistence and stability to maintain the structure and function of the complex.
+
+
+## 4. Discussion
+  This study collected 65 types of Chinese herbs from 117 effective prescriptions for treating insomnia. According to the statistical analysis, these herbs are mainly classified into the liver, spleen, and heart meridians, which indicates that the treatment of Chinese herbs for insomnia focuses on dispersing stagnated hepatoqi, nourishing qi and blood, and tranquilizing the mind. On the basis of association rules, a core prescription containing 8 types of herbs (BX, XKC, ZS, BH, HHH, YHS, GS, and KS) was selected for treating insomnia by the academician Qi Wang. Prescriptions containing BX have been shown to improve sleep.[56] Among them, the combination of BX and XKC is known as Shuangxia Decoction (SXD). Zhang et al[57] found that SXD effectively improves sleep quality in fruit flies. Sun et al[58] showed that SXD exhibited beneficial sedative and hypnotic bioactivity by modulating serotoninergic function and the immune system. Guo et al[59] performed systematic pharmacological research and found that SXD could treat sleep disorders by reducing inflammatory responses and regulating the immune and central nervous systems. Zhong et al[60] found that the essential oil of ZS potentially exerted sedative and hypnotic effects by regulating the GABAergic system pathway in mice with PCPA-induced insomnia. Si et al[61] found that BH could alleviate insomnia by modulating the composition, diversity, and metabolites of rats’ gut microbiota. Chang et al[62] reported that HHH could improve the memory loss induced by short-term sleep deprivation in fruit flies. Lee et al[63] found that KS and its bioactive compound, marine, promoted the transition from nonrapid eye movement sleep to rapid eye movement sleep by activating the VLPO neurons and modulating serotonin transmission in rats. A research showed that l-tetrahydropalmatine, an active component of YHS, was a partial agonist of dopamine D1 receptor and an antagonist of dopamine D2 receptor, which had sedative and hypnotic effects.[64] A randomized controlled trial demonstrated that GS played a crucial role in sleep induction and sleep maintenance for patients with insomnia.[65]
+
+  We identified 54 bioactive ingredients of core herbs treating insomnia, including β-sitosterol, stigmasterol, cryptotanshinone, cavidine, and baicalein. β-Sitosterol is derived from BX, XKC, and BH; stigmasterol comes from BH and BX; canadine is found in YHS; cryptotanshinone is present in GS; cavidine is found in BX and YHS; baicalein is derived from BX and HH. Both β-sitosterol and stigmasterol are plant sterols. β-Sitosterol has been shown to significantly up-regulate the expression level of glutamic acid decarboxylase-65 in the hypothalamus of mice, resulting in regulating sleep architecture.[66] The mechanism of stigmasterol in regulating sleep may be related to its ability to scavenge excess oxygen radicals in the body.[67] Research suggests that cryptotanshinone exerts a neuroprotective effect on rat neuronal function by inhibiting neuronal apoptosis.[68] Baicalein, a flavonoid compound, has been demonstrated to protect neurons and exhibit anxiolytic and sedative effects by acting on GABA receptors.[69]
+
+  Meanwhile, we identified 72 common targets between core herbs and insomnia, including IL-6, CASP3, TP53, HIF1A, VEGFA, and FOS. IL-6 is an essential cytokine of inflammatory responses. Base on the close relationship between inflammation and sleep,[70] IL-6 also plays an important role in sleep regulation. Research has shown that sleep deprivation or sleep disorders can lead to upregulation of IL-6 expression.[71] IL-6 can also influence sleep by regulating the transcription of circadian clock genes.[72] A series of studies have found that herbs can treat neurological disorders by lowering the level of IL-6. A meta-analysis[73] showed that the combined intervention of Chaihu-jia-Longgu-Muli-tang and serotonin-norepinephrine reuptake inhibitors significantly improved symptoms of anxiety and insomnia, and reduced the levels of serum IL-6 and TNF-α. An animal experimental study[74] showed that Jiao-Tai-Wan effectively attenuated the levels of serum TNF-α and IL-6. In our study, the results of molecular docking show that β-sitosterol, stigmasterol, and canadine bind tightly to IL-6, which might improve sleep by modulating IL-6 expression. One previous study[75] showed that sleep was related to the immune system and possessed a bidirectional regulatory function. The results of GO and KEGG for common targets also showed that the core herbs might treat insomnia through inflammation-related pathways. Caspase-3 is involved in cell apoptosis pathways and may influence the quality of sleep by regulating neuronal apoptosis and synaptic remodeling.[76] It is reported that ginsenoside Rg1 contributes to the amelioration of sleep deprivation-induced learning and memory deficits, which might be mediated by the Bcl-2/Bax/caspase-3 apoptosis signaling pathway.[77] In this study, we validated the binding ability of β-sitosterol and caspase-3 by molecular docking and molecular dynamics simulations, which revealed that the complex exhibited excellent stability. VEGFA is distributed in various organs and tissues throughout the body, releasing growth factors and promoting angiogenesis.[78] VEGFA has been shown to regulate the generation of endothelial cells and improve microcirculation in individuals with insomnia, significantly improving sleep disorders. A study of meta-analysis[79] has shown that patients with obstructive sleep apnea have significantly higher concentrations of VEGFA in their blood than healthy controls. This suggests that VEGFA contributes to nocturnal hypoxia, which might be a causative factor of obstructive sleep apnea. According to the results of molecular docking, β-sitosterol and stigmasterol exhibited lower affinity when bound to VEGFA. This suggests that traditional Chinese herbs that activate blood and qi might have a role in modulating VEGFA to promote sleep.
+
+  We found that TFs such as TP53 and FOS were included in hub targets. Considering the regulatory relationship between TFs and miRNAs, we analyzed all the DE-miRNAs in DEGs. We found that among the 7 DE-miRNAs, hsa-let-7i might be regulated by TP53, while hsa-miR-130a might be regulated by TP53 and FOS. Previous studies have shown that p53 can regulate certain genes related to sleep, such as Period gene.[80] c-Fos is a subtype of the Fos protein family, and is closely associated with sleep. During the rapid eye movement sleep stage, changes in neuronal activity patterns and synaptic transmission lead to an increase in the expression level of c-Fos.[81] In our study, the downstream pathway of hsa-let-7i resulted in circadian rhythm, which was 1 of the most important pathways for insomnia. Meanwhile, the downstream pathway of hsa-miR-130a contained apelin signaling pathway, which was associated with cardiovascular disorders, and had been suggested to be a candidate pathway for the development of coronary heart disease, depression, and anxiety disorders.[82] In the results of molecular docks, β-sitosterol, stigmasterol, cryptotanshinone, and cavidine all showed good docking affinity (affinity < –7 kcal/mol) with TP53. The β-sitosterol and stigmasterol also showed good affinity with FOS. Therefore, we believe that these components in core herbs regulate the expression of TP53 and FOS, which affect the transcription of the corresponding miRNAs and have an impact on the downstream pathways such as circadian rhythm and apelin signaling pathway, leading to therapeutic effects on insomnia.
+
+  In addition, gene function enrichment analysis of common targets showed that the core herbs might intervene insomnia through various neurological pathways, including neurotransmitter receptor activity, neurotransmitter release, composition of the synaptic junction, and neuroactive ligand-receptor interactions.
+
+  Three possible outcomes were identified: Six key proteins target (IL-6, caspase-3, p53, hypoxia-inducible factor-1α, VEGFA, and c-Fos) and 8 core active compounds (β-sitosterol, stigmasterol, leonticine, formononetin, canadine, cryptotanshinone, cavidine, and baicalein) from herbs were discovered as potential insomnia-related components and targets for TCM treatment. The findings of this study are primarily associated with inflammatory cytokines and neural pathways. The “Drug-Component-Target-Disease” network reflects the complicated interactions among insomnia, herbs, nervous system, and immune system. It has been reported that sleep bolsters immune defense, and immune signals facilitate sleep.[83] The “TF-miRNA-mRNA” network reflects a complicated regulatory mechanism in the treatment of insomnia by TCM. Some small molecules in herbs may bind to TFs, and affect the transcription of miRNAs, leading to regulating downstream mRNAs. Finally, it results in changes in circadian rhythm, and contributes to the quality of sleep.
+
+  However, this study has several limitations. Firstly, we explored the molecular mechanism of the core herbs to improve insomnia based on network pharmacology and bioinformatics, and performed validation by molecular docking and molecular dynamics simulations, but lacked validation through cellular and animal experiments. Secondly, the component and target information from databases, as well as information on biological samples from the Gene Expression Omnibus database, may have a biasing effect due to different sources and limited sample size. These deficiencies will hopefully be refined in subsequent studies using well-designed clinical studies and experiments to validate our results.
+
+
+## 5. Conclusions
+  This study utilized data mining to perform statistical analysis of 117 effective prescriptions treating insomnia, with the aim of identifying medication patterns and core herbs. Network-pharmacology analysis preliminarily indicated that 54 bioactive ingredients in the core herbs may act on 72 common targets. The mechanism may involve 3 aspects, the first is the targets and signaling pathways related to inflammation, the second is the neurological-related signaling pathways, and the third is the effect on the “TF-miRNA-mRNA” network to regulate circadian rhythm. Additionally, molecular-docking and molecular dynamics simulations were conducted on the core components and targets, and showed good results. This study illustrates that traditional Chinese herbs shows potential for treating insomnia through multi-component, multi-target, and multi-pathway. We aspire for this study to provide valuable guidance for clinical treatment of insomnia.
+
+
+## Acknowledgments
+  The authors would like to acknowledge the universities and institutions for providing technical support and valuable assistance through the appropriate departments during this research project.
+
+
+## Author contributions
+  Conceptualization: Xing Liu, Pengcheng Sun.
+
+  Data curation: Xing Liu, Pengcheng Sun.
+
+  Formal analysis: Xing Liu.
+
+  Funding acquisition: Qi Wang.
+
+  Methodology: Xing Liu, Xuejie Bao.
+
+  Software: Pengcheng Sun.
+
+  Validation: Yanqi Cao, Liying Wang.
+
+  Visualization: Yanqi Cao.
+
+  Writing – original draft: Xing Liu, Pengcheng Sun.
+
+  Writing – review & editing: Xuejie Bao, Liying Wang.
+
+
+## Supplementary Material

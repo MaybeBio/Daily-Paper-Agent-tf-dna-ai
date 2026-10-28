@@ -1,0 +1,97 @@
+## Review setup
+
+- **Input scope** Full manuscript text and author summary as provided
+- **Assessment boundary** Scientific content, methodological soundness, and claims as presented in the supplied material
+- **Shared manuscript claim summary** The authors present an open-source computational pipeline integrating deep learning-based RBP prediction, protein structure prediction, structural homology validation, and molecular docking. Applied to 247 phage genomes, the pipeline identifies 653 high-confidence RBP candidates, 13 of which show strong structural homology to known phage adsorption proteins. One candidate (YDV08491.1) is highlighted for its predicted energetically favourable interaction with E. coli OmpF.
+- **Visible evidence base** Abstract text and author summary only. No figures, tables, methods section, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full methods, dataset accession details, model training and validation procedures, statistical analyses, structural alignment data, docking parameters, and all figures and tables. The absence of these materials substantially limits the depth of technical assessment possible.
+
+## Reviewer
+
+- **Overall assessment** The manuscript addresses a relevant and timely problem in food safety diagnostics, namely the computational identification of phage receptor-binding proteins for biosensor development. The proposed pipeline is conceptually coherent and the authors appropriately acknowledge the need for experimental validation. However, the provided material is limited to an abstract and summary, which prevents a rigorous evaluation of the methodological claims, data quality, and statistical robustness. Several claims are presented without sufficient supporting detail, and the current evidence base is insufficient to fully establish the case for the pipeline's reliability and generalizability.
+- **Who would be interested in the results, and why** Researchers in phage biology, computational biology, and biosensor development would find the pipeline of interest as a potential tool for prioritizing RBP candidates. Food safety scientists and diagnostic assay developers may also be interested in the specific candidates identified for Salmonella, E. coli, and Listeria monocytogenes. The open-source nature of the pipeline could appeal to those seeking reproducible computational workflows.
+- **Major strengths** The problem addressed is practically important and the proposed pipeline integrates multiple state-of-the-art computational tools in a logical sequence. The authors emphasize reproducibility and open-source availability, which are commendable. The identification of a specific candidate with predicted favourable binding to a known bacterial surface protein provides a concrete, testable output that could guide experimental work.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The pipeline identifies 653 high-confidence RBP candidates from 247 phage genomes using PhageRBPdetect built on ESM-2.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** The abstract states that PhageRBPdetect identified 653 high-confidence candidates, but no details are provided on the model architecture, training data, threshold selection, or validation of the prediction accuracy. The term "high-confidence" is not defined with any quantitative criterion.  
+  - **Why it matters** Without a clear definition of the confidence threshold and evidence of model performance (e.g., precision, recall, comparison to existing tools), the reliability of the 653 candidates cannot be assessed. This is central to the pipeline's claimed utility.  
+  - **Resolution test** Provide the model training and validation details, including datasets, metrics, and thresholds. Show a benchmark comparison against existing RBP prediction tools.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** Foldseek structural homology validation confirmed 13 candidates with a structural match probability of 1.0 to known phage adsorption proteins.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** A structural match probability of 1.0 is reported, but the criteria for "confirmation" are not specified. It is unclear whether this probability reflects a single best match, whether multiple matches were considered, and what the significance threshold was. The claim of "spanning four structural archetypes" is also not substantiated with structural classifications or alignments.  
+  - **Why it matters** The 13 candidates are a key output of the pipeline and are presented as high-confidence hits. If the structural validation criteria are not transparent or are overly permissive, the biological relevance of these candidates is uncertain.  
+  - **Resolution test** Detail the Foldseek search parameters, the definition of structural match probability, and the criteria for selecting the 13 candidates. Provide structural alignments or classification evidence for the four archetypes.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** Exploratory rigid-body docking identified YDV08491.1 with a predicted binding energy of −132.3 kcal/mol against OmpF.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** The docking result is presented as supporting experimental prioritization, but no details are given on the docking software, scoring function, receptor and ligand preparation, or whether the predicted binding energy is statistically significant relative to decoy or control calculations. A single energy value without context is insufficient to support the claim of a "particularly strong predicted binding interaction."  
+  - **Why it matters** Docking predictions are highly sensitive to methodology. Without evidence of appropriate controls or comparison to other candidates, the prioritization of YDV08491.1 may be premature.  
+  - **Resolution test** Describe the docking protocol in full, including software versions, parameters, and any validation steps. Show a distribution of binding energies across all candidates or a comparison to known non-binders to contextualize the −132.3 kcal/mol value.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The pipeline is described as "systematic," "open-source," and "reproducible."  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** The abstract mentions an open-source pipeline, but no repository URL, software version, or usage instructions are provided. The dataset of 247 phage genomes is described as "quality-controlled," but the quality control criteria are not stated.  
+  - **Why it matters** Reproducibility is a stated goal, but without access to the code, data, and clear protocols, other researchers cannot independently apply or verify the pipeline. This undermines the manuscript's contribution to the field.  
+  - **Resolution test** Provide a public repository with versioned code, a detailed README, and accession numbers or download links for all input genomes and intermediate data. Specify the quality control steps applied to the genome dataset.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The candidates' structural diversity and predicted host specificity support their future development as phage-based biosensors and biocontrol tools.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** The claim that structural diversity and predicted host specificity support future development is speculative. No experimental data are presented to demonstrate that any candidate actually binds to its predicted target or functions in a biosensor or biocontrol context.  
+  - **Why it matters** The translational potential of the candidates is a key motivation for the work. Without experimental validation, the practical significance of the findings remains unproven.  
+  - **Resolution test** Clarify that this is a forward-looking statement and provide a clear roadmap for experimental validation. If any preliminary experimental data exist, include them.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Author summary  
+  - **Evidence pointer** Author summary, location not provided  
+  - **Issue** The author summary is generally clear, but the phrase "bacteriophages viruses that infect bacteria" lacks a comma or dash, which may cause a momentary parsing difficulty for nonspecialist readers.  
+  - **Required correction** Add a comma or restructure the sentence, for example, "Bacteriophages, viruses that infect bacteria, use surface proteins..."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Model confidence score  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Issue** The mean model confidence score of 0.89 and a 90.2% prediction success rate are reported, but the definitions of these metrics are not provided. It is unclear what "prediction success rate" refers to (e.g., successful structure generation, confidence threshold pass rate).  
+  - **Required correction** Define both metrics explicitly and state how they were calculated.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interdisciplinary readership  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Issue** Terms such as "ESM-2 protein language model" and "Foldseek" are used without brief explanations. While familiar to computational biologists, they may be opaque to food safety scientists.  
+  - **Required correction** Add a brief parenthetical explanation for these tools on first use, for example, "ESM-2, a deep learning model trained on protein sequences."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. These concerns relate to the lack of methodological detail and validation evidence for the core claims of the pipeline's performance and the prioritization of specific candidates.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The combination of deep learning, structure prediction, and docking for RBP identification is not entirely novel, as similar approaches exist in the literature, but the specific application to foodborne pathogens and the open-source pipeline design may offer incremental novelty. The originality claim is difficult to fully assess without a comparison to prior work.  
+  - **Scientific importance** The problem of rapid and specific pathogen detection is important, and computational prioritization of RBPs could accelerate biosensor development. However, the current evidence is purely computational, and the translational impact remains speculative.  
+  - **Interdisciplinary readership** The topic bridges computational biology, microbiology, and food safety, which could attract a broad audience. However, the abstract assumes familiarity with bioinformatics tools, which may limit accessibility for some readers.  
+  - **Technical soundness** The technical soundness cannot be adequately evaluated from the provided material. Key methodological details and validation metrics are missing, and the docking and structural validation claims are not sufficiently supported.  
+  - **Readability for nonspecialists** The abstract is reasonably clear, and the author summary is accessible, but some technical terms and metrics are undefined. The overall structure is logical and easy to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a plausible and potentially useful pipeline, but the absence of methodological detail, validation data, and reproducibility resources prevents a positive assessment. The authors should be encouraged to resubmit with full methods, benchmark results, and access to code and data.
+
+## Risk / unsupported claims
+
+- The claim that 653 candidates are "high-confidence" is unsupported without defined thresholds and model validation metrics.
+- The claim that 13 candidates are "confirmed" by structural homology is unsupported without details on Foldseek parameters and significance criteria.
+- The predicted binding energy of −132.3 kcal/mol for YDV08491.1 is presented without context or controls, making the claim of a "particularly strong" interaction unverifiable.
+- The statement that the candidates' structural diversity and predicted host specificity "support their future development" is speculative and not backed by experimental evidence.
+- The overall pipeline's reproducibility claim is unverifiable without a public repository or detailed protocol.

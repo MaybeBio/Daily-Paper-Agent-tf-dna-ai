@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "41695600",
+    "doi": "10.1155/mi/2903373",
+    "title": "Integrated Multiomics Elucidates Molecular Mechanisms of Bisphenol A in Exacerbating Crohn's Disease."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Bisphenol A (BPA), a widespread environmental endocrine-disrupting chemical, has been associated with the development and progression of Crohn's disease (CD), yet its precise molecular mechanisms remain unclear. We aimed to systematically elucidate the potential molecular mechanisms by which BPA exacerbates CD and to identify key biomarkers and therapeutic targets. METHODS: BPA-related targets and CD transcriptomic datasets (GSE36807, GSE75214, and GSE95095) were retrieved from public databases. Overlapping genes were identified and subjected to functional enrichment and protein-protein interaction (PPI) network analysis. Multiple machine learning algorithms were employed to screen for core genes, and molecular docking was used to validate the binding affinity between BPA and core proteins. Immune infiltration analysis and regulatory network construction were performed to explore the roles of core genes in the immune microenvironment and post-translational regulation. RESULTS: A total of 65 overlapping genes between BPA and CD were identified, primarily enriched in pathways related to inflammation, apoptosis, and immune regulation. Machine learning screened five core genes (HGF, IL1R1, MMP1, MMP2, and NTRK2), which demonstrated strong diagnostic performance in independent datasets. Molecular docking revealed strong binding affinity between BPA and these proteins, with the lowest binding energy observed for MMP2 (-8.4 kcal/mol). Immune infiltration analysis indicated significant correlations between core genes and immune cell subsets such as Tr1, Th17, and Tfh cells. Regulatory network analysis identified key transcription factors (e.g., STAT3) and E3 ubiquitin ligases (e.g., SYVN1) involved in gene regulation. CONCLUSION: BPA may exacerbate CD progression by dysregulating core genes, such as HGF, IL1R1, MMP1, MMP2, and NTRK2, thereby disrupting inflammatory balance, extracellular matrix remodeling, and immune homeostasis.",
+    "keywords": [
+      "Crohn's disease",
+      "bisphenol a",
+      "machine learning",
+      "molecular docking",
+      "network toxicology"
+    ],
+    "mesh_terms": [
+      "*Phenols/toxicity",
+      "Bisphenol A Compounds",
+      "*Benzhydryl Compounds/toxicity/chemistry",
+      "Humans",
+      "*Crohn Disease/metabolism/chemically induced",
+      "Molecular Docking Simulation",
+      "Protein Interaction Maps",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dai, Liangliang",
+        "Qiu, Chenjie"
+      ],
+      "short_names": [
+        "Dai L",
+        "Qiu C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3826-4832",
+        "ORCID: 0000-0003-2632-7397"
+      ],
+      "affiliations": [
+        "Department of Urology, Wujin Hospital Affiliated With Jiangsu University, Changzhou, 213004, China, ujs.edu.cn.",
+        "Department of Urology, The Wujin Clinical College of Xuzhou Medical University, Changzhou, 213004, China, xzmc.edu.cn.",
+        "Department of General Surgery, Changzhou Hospital of Traditional Chinese Medicine, Changzhou, 213000, China, czzyy.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dai, Liangliang",
+        "short_name": "Dai L",
+        "identifiers": [
+          "0000-0002-3826-4832"
+        ],
+        "affiliations": [
+          "Department of Urology, Wujin Hospital Affiliated With Jiangsu University, Changzhou, 213004, China, ujs.edu.cn.",
+          "Department of Urology, The Wujin Clinical College of Xuzhou Medical University, Changzhou, 213004, China, xzmc.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Qiu, Chenjie",
+        "short_name": "Qiu C",
+        "identifiers": [
+          "0000-0003-2632-7397"
+        ],
+        "affiliations": [
+          "Department of General Surgery, Changzhou Hospital of Traditional Chinese Medicine, Changzhou, 213000, China, czzyy.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Mediators of inflammation"
+    ],
+    "journal_abbrev": [
+      "Mediators Inflamm"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/16 12:31",
+    "fetched_at": "2026-10-01 14:25:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41456157",
+      "41265414",
+      "41177025",
+      "41067309",
+      "40441191",
+      "40264196",
+      "40065502",
+      "39947377",
+      "39928266",
+      "39775097",
+      "39755265",
+      "39558183",
+      "39550874",
+      "39520743",
+      "39353590",
+      "39346909",
+      "38920313",
+      "38154151",
+      "37995775",
+      "37713619",
+      "37622114",
+      "37346028",
+      "37170220",
+      "37154240",
+      "36844713",
+      "36281733",
+      "36235658",
+      "36131123",
+      "35879744",
+      "35781563",
+      "35609983",
+      "35239781",
+      "35193009",
+      "34669962",
+      "34669131",
+      "34509005",
+      "34261638",
+      "34085740",
+      "33859636",
+      "33802883",
+      "33535181",
+      "33496180",
+      "33026087",
+      "33011352",
+      "32556102",
+      "32540565",
+      "32377513",
+      "32274301",
+      "32194176",
+      "32090263",
+      "32055825",
+      "31927086",
+      "31926340",
+      "31106366",
+      "31014995",
+      "30445645",
+      "30398643",
+      "29874946",
+      "28191884",
+      "27080105",
+      "26749371",
+      "25605792",
+      "23634226",
+      "23467089",
+      "22427120",
+      "22303952",
+      "22140110",
+      "21233055",
+      "20926419",
+      "20689021",
+      "20222127",
+      "20192806",
+      "19897548",
+      "19502515",
+      "18680198"
+    ],
+    "similar": [
+      "41695600",
+      "41136974",
+      "41261566",
+      "42520089",
+      "41790626",
+      "41911226",
+      "42552472",
+      "41465929",
+      "42227375",
+      "41673191",
+      "41456051",
+      "42373973",
+      "41226680",
+      "40406126",
+      "42065064",
+      "41847139",
+      "41181148",
+      "42201343",
+      "41895505",
+      "41189187",
+      "42558309",
+      "42153145",
+      "42624872",
+      "41348202",
+      "41301871",
+      "41912493",
+      "41384025",
+      "42511660",
+      "41703488",
+      "41183686",
+      "41666766",
+      "41442003",
+      "40192506",
+      "40884426",
+      "42511782",
+      "41371106",
+      "42476233",
+      "40347869",
+      "40939530",
+      "42771980",
+      "41254771",
+      "41408581",
+      "42386029",
+      "42214919",
+      "40588645",
+      "41316712",
+      "41761258",
+      "41909102",
+      "40586299",
+      "42269260",
+      "39870856",
+      "40393322",
+      "42421348",
+      "41832544",
+      "39541897",
+      "41794809",
+      "40916281",
+      "42528957",
+      "41773807",
+      "41742320",
+      "37622114",
+      "42208629",
+      "41373010",
+      "42004536",
+      "42698445",
+      "42292668",
+      "41177218",
+      "42494595",
+      "42377012",
+      "42015036",
+      "40838869",
+      "42128337",
+      "42292825",
+      "39993869",
+      "42510893",
+      "41734620",
+      "42113191",
+      "41254734",
+      "40317014",
+      "42499389",
+      "39488873",
+      "41459671",
+      "39780215",
+      "41190071",
+      "42292423",
+      "42298305",
+      "36792688",
+      "42530267",
+      "41435607",
+      "42471730",
+      "40676786",
+      "42085381",
+      "41671296",
+      "42437265",
+      "42278407",
+      "40532306",
+      "41721342",
+      "42328663",
+      "41909133",
+      "40355485"
+    ],
+    "review": [
+      "41695600"
+    ],
+    "pmc": [
+      "12902187"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/crohnsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Crohn's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41695600/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/mi/2903373",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

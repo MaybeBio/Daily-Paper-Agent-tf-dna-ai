@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "41957069",
+    "doi": "10.1038/s41598-026-43067-w",
+    "title": "Structural basis for TRF2-RAP1 recruitment by EBNA1 at the EBV origin of replication."
+  },
+  "content": {
+    "abstract": "Epstein-Barr Nuclear Antigen 1 (EBNA1) is essential for the episomal maintenance and DNA replication of Epstein-Barr virus (EBV) in latently infected cells and acts through binding to oriP. The minimal replicative unit of oriP ((1/2)DS) contains four EBNA1 binding sites flanked by single telomeric nonamers that recruit shelterin proteins TRF2 and Rap1, but the structural basis for host-factor engagement is not known. Here, we integrate cryo-electron microscopy, zero-length cross-linking mass spectrometry, Alphafold3 modeling, and biochemical binding assays to define the complex formed by EBNA1-TRF2-Rap1 assembly on the (1/2)DS. We find that a highly dynamic complex is formed, with the TRF2 homodimerization domain (TRFH) flexibly interacting with EBNA1 on the surface opposite the DNA-binding region, where there is a large acidic patch in EBNA1 that is unique amongst the herpesvirus episome maintenance proteins. Mutagenesis of this acidic patch abolishes TRFH binding and oriP-dependent plasmid replication. These findings identify a previously uncharacterized acidic patch docking surface on EBNA1 essential for coordinating TRF2-Rap1 at oriP and provide new insights into both EBV and telomere DNA replication.",
+    "keywords": [
+      "CryoEM",
+      "EBNA1",
+      "EBV",
+      "Shelterin",
+      "TERF2",
+      "TERF2IP",
+      "TRF2",
+      "hRAP1",
+      "oriP"
+    ],
+    "mesh_terms": [
+      "*Epstein-Barr Virus Nuclear Antigens/metabolism/chemistry/genetics",
+      "*Replication Origin",
+      "Humans",
+      "*Herpesvirus 4, Human/genetics/physiology",
+      "*Telomeric Repeat Binding Protein 2/metabolism/chemistry/genetics",
+      "*Telomere-Binding Proteins/metabolism/chemistry/genetics",
+      "Protein Binding",
+      "Virus Replication",
+      "DNA Replication",
+      "Binding Sites",
+      "Shelterin Complex",
+      "Cryoelectron Microscopy",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sustek, Samantha",
+        "Messick, Troy E",
+        "Dheekollu, Jayaraju",
+        "Albitz, Coltin",
+        "Chen, Christopher",
+        "Faustino, Anneliese",
+        "Tang, Hsin-Yao",
+        "Kim, Hee Jong",
+        "Murakami, Kenji",
+        "Lieberman, Paul M"
+      ],
+      "short_names": [
+        "Sustek S",
+        "Messick TE",
+        "Dheekollu J",
+        "Albitz C",
+        "Chen C",
+        "Faustino A",
+        "Tang HY",
+        "Kim HJ",
+        "Murakami K",
+        "Lieberman PM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry and Biophysics, Perelman School of Medicine, The University of Pennsylvania, Philadelphia, PA, 19104, USA.",
+        "The Wistar Institute, Philadelphia, PA, 19104, USA.",
+        "The Wistar Institute, Philadelphia, PA, 19104, USA.",
+        "The Wistar Institute, Philadelphia, PA, 19104, USA.",
+        "The Wistar Institute, Philadelphia, PA, 19104, USA.",
+        "The Wistar Institute, Philadelphia, PA, 19104, USA.",
+        "The Wistar Institute, Philadelphia, PA, 19104, USA.",
+        "The Wistar Institute, Philadelphia, PA, 19104, USA.",
+        "Department of Biochemistry and Biophysics, Perelman School of Medicine, The University of Pennsylvania, Philadelphia, PA, 19104, USA.",
+        "Department of Biochemistry and Biophysics, Perelman School of Medicine, The University of Pennsylvania, Philadelphia, PA, 19104, USA. kenjim@pennmedicine.upenn.edu.",
+        "The Wistar Institute, Philadelphia, PA, 19104, USA. lieberman@wistar.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sustek, Samantha",
+        "short_name": "Sustek S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Perelman School of Medicine, The University of Pennsylvania, Philadelphia, PA, 19104, USA.",
+          "The Wistar Institute, Philadelphia, PA, 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Messick, Troy E",
+        "short_name": "Messick TE",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, PA, 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Dheekollu, Jayaraju",
+        "short_name": "Dheekollu J",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, PA, 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Albitz, Coltin",
+        "short_name": "Albitz C",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, PA, 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Christopher",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, PA, 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Faustino, Anneliese",
+        "short_name": "Faustino A",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, PA, 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Tang, Hsin-Yao",
+        "short_name": "Tang HY",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, PA, 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Hee Jong",
+        "short_name": "Kim HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Perelman School of Medicine, The University of Pennsylvania, Philadelphia, PA, 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Murakami, Kenji",
+        "short_name": "Murakami K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Perelman School of Medicine, The University of Pennsylvania, Philadelphia, PA, 19104, USA. kenjim@pennmedicine.upenn.edu."
+        ]
+      },
+      {
+        "full_name": "Lieberman, Paul M",
+        "short_name": "Lieberman PM",
+        "identifiers": [],
+        "affiliations": [
+          "The Wistar Institute, Philadelphia, PA, 19104, USA. lieberman@wistar.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Apr 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/10 00:33",
+    "fetched_at": "2026-10-01 18:00:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40849907",
+      "40399573",
+      "39821265",
+      "39763972",
+      "39237202",
+      "36113467",
+      "36037477",
+      "35881804",
+      "34761263",
+      "34117231",
+      "33482082",
+      "33176153",
+      "31556486",
+      "31142669",
+      "30602661",
+      "29700264",
+      "29642420",
+      "28165473",
+      "28104399",
+      "27687982",
+      "26468528",
+      "25947153",
+      "25675958",
+      "24460791",
+      "24216761",
+      "24146617",
+      "24146614",
+      "23836915",
+      "23051804",
+      "20719947",
+      "20200249",
+      "19716786",
+      "18922874",
+      "18761675",
+      "18157137",
+      "18006317",
+      "17853891",
+      "17189190",
+      "16799465",
+      "15808506",
+      "15795266",
+      "15795250",
+      "15775975",
+      "15109495",
+      "14581536",
+      "12953058",
+      "11931758",
+      "11517328",
+      "11509178",
+      "11443858",
+      "11172042",
+      "10906136",
+      "10544081",
+      "10196336",
+      "9878348",
+      "9434725"
+    ],
+    "similar": [
+      "41957069",
+      "41282254",
+      "31142669",
+      "36037477",
+      "11931758",
+      "14581536",
+      "28701406",
+      "20219917",
+      "24486954",
+      "33482082",
+      "31941781",
+      "24067969",
+      "9434725",
+      "11443858",
+      "18385243",
+      "19265546",
+      "15464848",
+      "24344309",
+      "19834552",
+      "11500385",
+      "10207059",
+      "41378909",
+      "11602702",
+      "15302216",
+      "27009953",
+      "23031715",
+      "8262037",
+      "20200249",
+      "40657913",
+      "26858444",
+      "19073720",
+      "9504426",
+      "30817940",
+      "10799567",
+      "21910783",
+      "37262099",
+      "2542579",
+      "8806482",
+      "14557661",
+      "16799465",
+      "19244323",
+      "26468528",
+      "22302879",
+      "22589552",
+      "15795250",
+      "28077791",
+      "23086976",
+      "8288561",
+      "25675958",
+      "14585343",
+      "21490103",
+      "15498777",
+      "10775587",
+      "20929547",
+      "26748096",
+      "10954558",
+      "15479791",
+      "11522821",
+      "19726498",
+      "10074103",
+      "30606931",
+      "7739569",
+      "9930345",
+      "20545442",
+      "9878348",
+      "22735264",
+      "11017796",
+      "22226960",
+      "8388506",
+      "12953058",
+      "11602700",
+      "10438828",
+      "23836915",
+      "29959331",
+      "8551585",
+      "1310782",
+      "10801810",
+      "19393319",
+      "19656898",
+      "11684889",
+      "21795327",
+      "19129441",
+      "10544081",
+      "21209116",
+      "29160297",
+      "8625416",
+      "39082275",
+      "27836746",
+      "42132380",
+      "18202258",
+      "9742250",
+      "1309258",
+      "8107251",
+      "15289871",
+      "24469404",
+      "9334219",
+      "1660154",
+      "9421526",
+      "41905531",
+      "11172042"
+    ],
+    "review": [
+      "41957069",
+      "11443858",
+      "23031715",
+      "30606931"
+    ],
+    "pmc": [
+      "13223232"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-43067-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41957069/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TERF2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-956",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

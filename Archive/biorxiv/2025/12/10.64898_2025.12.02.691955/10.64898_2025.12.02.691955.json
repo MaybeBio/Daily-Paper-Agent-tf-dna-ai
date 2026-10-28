@@ -1,0 +1,214 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.02.691955",
+  "title": "WormTagDB: A Systematic Survey of Endogenously Tagged Proteins in C. elegans and Roadmap Towards the Tagged Proteome",
+  "doi": "10.64898/2025.12.02.691955",
+  "abstract": "Endogenous protein tagging in Caenorhabditis elegans enables direct visualization and manipulation of proteins in vivo, providing native readouts of expression, localization, and dynamics. No coordinated effort currently exists to comprehensively tag proteins on a large scale, resulting in patchy coverage that limits comprehensive proteome analyses. We systematically reviewed 2,500 primary research articles, identifying 778 that report novel endogenous tags, and integrated these with the Caenorhabditis Genetics Center strain records to catalog >90% of all existing tagged alleles. In total, we found that 1,554 unique genes (~8% of the proteome) have been endogenously tagged. Gene Ontology enrichment analysis revealed that cytoskeletal proteins, transcription factors, and RNA-binding proteins dominate the tagged proteome, while membrane proteins, metabolic enzymes, and mitochondrial components remain largely untagged, reflecting both technical barriers and research priorities that have shaped the last decade of tagging efforts. We created WormTagDB (https://wormtagdb.rc.duke.edu), an interactive, community-updatable resource that consolidates all known endogenously tagged alleles and provides precomputed CRISPR guide and homology-arm primer designs for N- and C-terminal knock-ins across all protein-coding genes. This will enable researchers to easily identify existing alleles to prevent redundant strain generation and rapidly initiate new knock-in experiments. A systematic effort to tag every C. elegans gene would deliver the first complete metazoan visual proteome, providing comprehensive insights into protein localization, dynamics, and regulation, revealing new protein associations and molecular processes.",
+  "authors": [
+    "Leyhr J",
+    "Chi Q",
+    "Zeng L",
+    "Shen E",
+    "Zou W",
+    "Sherwood D"
+  ],
+  "published_date": "2025-12-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.02.691955",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.02.691955.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1233077",
+    "raw_record": {
+      "id": "PPR1233077",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1233077"
+        ]
+      },
+      "doi": "10.64898/2025.12.02.691955",
+      "title": "WormTagDB: A Systematic Survey of Endogenously Tagged Proteins in C. elegans and Roadmap Towards the Tagged Proteome",
+      "authorString": "Leyhr J, Chi Q, Zeng L, Shen E, Zou W, Sherwood D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Leyhr J",
+            "lastName": "Leyhr",
+            "firstName": "Jake",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chi Q",
+            "lastName": "Chi",
+            "firstName": "Qiuyi",
+            "initials": "Q",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zeng L",
+            "lastName": "Zeng",
+            "firstName": "Lin",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shen E",
+            "lastName": "Shen",
+            "firstName": "En-Zhi",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zou W",
+            "lastName": "Zou",
+            "firstName": "Wei",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Translational Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sherwood D",
+            "lastName": "Sherwood",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Endogenous protein tagging in Caenorhabditis elegans enables direct visualization and manipulation of proteins in vivo, providing native readouts of expression, localization, and dynamics. No coordinated effort currently exists to comprehensively tag proteins on a large scale, resulting in patchy coverage that limits comprehensive proteome analyses. We systematically reviewed 2,500 primary research articles, identifying 778 that report novel endogenous tags, and integrated these with the Caenorhabditis Genetics Center strain records to catalog >90% of all existing tagged alleles. In total, we found that 1,554 unique genes (~8% of the proteome) have been endogenously tagged. Gene Ontology enrichment analysis revealed that cytoskeletal proteins, transcription factors, and RNA-binding proteins dominate the tagged proteome, while membrane proteins, metabolic enzymes, and mitochondrial components remain largely untagged, reflecting both technical barriers and research priorities that have shaped the last decade of tagging efforts. We created WormTagDB (https://wormtagdb.rc.duke.edu), an interactive, community-updatable resource that consolidates all known endogenously tagged alleles and provides precomputed CRISPR guide and homology-arm primer designs for N- and C-terminal knock-ins across all protein-coding genes. This will enable researchers to easily identify existing alleles to prevent redundant strain generation and rapidly initiate new knock-in experiments. A systematic effort to tag every C. elegans gene would deliver the first complete metazoan visual proteome, providing comprehensive insights into protein localization, dynamics, and regulation, revealing new protein associations and molecular processes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "226804/Z/22/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.02.691955"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1233077"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1233077&type=FILE&fileName=EMS214906-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41873681",
+            "reference": "G3 (Bethesda, Md.). \n    2026 Mar;:jkag068",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214906",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-05",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "40375299",
+    "doi": "10.1186/s12935-025-03802-1",
+    "title": "SP1 promotes triple-negative breast cancer progression by targeting USP5."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Triple-negative breast cancer (TNBC) is characterized by the absence of targeted therapies and a dismal prognosis, necessitating a critical exploration of the molecular mechanisms driving TNBC pathogenesis and the identification of novel therapeutic targets. While dysregulated USP5 expression has been observed in various malignancies, its specific functions and mechanisms in TNBC remain poorly understood. METHODS: The study utilized a combination of TCGA database analysis, immunohistochemistry staining (IHC), quantitative RT-PCR, and western blotting assay to investigate the expression of USP5 and SP1 in TNBC. Furthermore, the study examined the role of the SP1-USP5 axis and the USP5 inhibitor periplocin in TNBC progression through CCK-8 assay, colony formation assay, EDU incorporation assay, and tumor xenograft experiments. Additionally, the study explored the underlying mechanisms involved in the regulation of USP5 expression in TNBC using luciferase assay, ChIP-qPCR, quantitative RT-PCR, and western blotting assay. In order to ascertain potential inhibitors of USP5 activity, a combination of the Molecular Operating Environment (MOE) multi-functional docking platform, cellular thermal shift assay, and in vitro USP5 activity assay were utilized. RESULTS: In the current investigation, it was observed that the expression of USP5 was elevated in TNBC and was significantly correlated with decreased overall survival rates among patients. The upregulation of USP5 was found to be mediated by the transcription factor SP1 through its binding to the USP5 promoter, consequently facilitating the progression of TNBC. Notably, the natural compound periplocin was identified as a promising inhibitor of USP5, demonstrating potential efficacy in impeding the advancement of TNBC. CONCLUSIONS: Our research findings indicate that the SP1-USP5 signaling pathway is significantly involved in the advancement of TNBC, and periplocin's ability to target USP5 presents a potential therapeutic approach for managing TNBC. These results offer valuable insights for the development of novel treatment strategies for TNBC patients.",
+    "keywords": [
+      "Cancer progression",
+      "SP1",
+      "TNBC",
+      "USP5"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Shi-Yi",
+        "Peng, Zi-Mei",
+        "Deng, Feng-Yi",
+        "Xiong, Jin-Yong",
+        "Luo, Pu-Ying",
+        "Han, Xiao-Jian",
+        "Zhang, Zhen"
+      ],
+      "short_names": [
+        "Wu SY",
+        "Peng ZM",
+        "Deng FY",
+        "Xiong JY",
+        "Luo PY",
+        "Han XJ",
+        "Zhang Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Clinical Medicine, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 152 Aiguo Road, Nanchang, Jiangxi, 330006, China.",
+        "Institute of Clinical Medicine, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 152 Aiguo Road, Nanchang, Jiangxi, 330006, China.",
+        "Institute of Clinical Medicine, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 152 Aiguo Road, Nanchang, Jiangxi, 330006, China.",
+        "Institute of Clinical Medicine, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 152 Aiguo Road, Nanchang, Jiangxi, 330006, China.",
+        "Jiangxi Maternal and Child Health Hospital, Nanchang, Jiangxi, China.",
+        "Institute of Geriatrics, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, Nanchang, Jiangxi, China.",
+        "Institute of Clinical Medicine, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 152 Aiguo Road, Nanchang, Jiangxi, 330006, China. nkzhenzhang@163.com.",
+        "Jiangxi Province Key Laboratory of Immunity and Inflammation, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, Nanchang, Jiangxi, China. nkzhenzhang@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Shi-Yi",
+        "short_name": "Wu SY",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Medicine, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 152 Aiguo Road, Nanchang, Jiangxi, 330006, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Zi-Mei",
+        "short_name": "Peng ZM",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Medicine, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 152 Aiguo Road, Nanchang, Jiangxi, 330006, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Feng-Yi",
+        "short_name": "Deng FY",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Medicine, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 152 Aiguo Road, Nanchang, Jiangxi, 330006, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Jin-Yong",
+        "short_name": "Xiong JY",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Medicine, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 152 Aiguo Road, Nanchang, Jiangxi, 330006, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Pu-Ying",
+        "short_name": "Luo PY",
+        "identifiers": [],
+        "affiliations": [
+          "Jiangxi Maternal and Child Health Hospital, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Han, Xiao-Jian",
+        "short_name": "Han XJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Geriatrics, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhen",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Clinical Medicine, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, 152 Aiguo Road, Nanchang, Jiangxi, 330006, China. nkzhenzhang@163.com.",
+          "Jiangxi Province Key Laboratory of Immunity and Inflammation, Jiangxi Provincial People's Hospital, The First Affiliated Hospital of Nanchang Medical College, Nanchang, Jiangxi, China. nkzhenzhang@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer cell international"
+    ],
+    "journal_abbrev": [
+      "Cancer Cell Int"
+    ],
+    "pub_date": "2025 May 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/16 11:42",
+    "fetched_at": "2026-09-30 17:46:18"
+  },
+  "links": {
+    "cites": [
+      "42465006",
+      "42129854"
+    ],
+    "refs": [
+      "38926952",
+      "38217030",
+      "37838174",
+      "37208329",
+      "37100377",
+      "37060095",
+      "36966936",
+      "36602428",
+      "36528652",
+      "36423542",
+      "34858787",
+      "34423867",
+      "33812473",
+      "33658627",
+      "32584515",
+      "32444850",
+      "32162523",
+      "32061320",
+      "31864387",
+      "31701148",
+      "31281542",
+      "30809294",
+      "29298117",
+      "28580429",
+      "26763486",
+      "26512454",
+      "25396320",
+      "25306921",
+      "25101824",
+      "23365613",
+      "22955616",
+      "22284358",
+      "22021377",
+      "20709209",
+      "19772640",
+      "12824386",
+      "11847087"
+    ],
+    "similar": [
+      "40375299",
+      "38217030",
+      "40217291",
+      "39419019",
+      "39927118",
+      "40066708",
+      "35180863",
+      "34145213",
+      "37686205",
+      "39318028",
+      "39789572",
+      "38890750",
+      "32125723",
+      "37393829",
+      "37667382",
+      "38009308",
+      "29310680",
+      "40097917",
+      "29126392",
+      "37331414",
+      "38763012",
+      "29059676",
+      "39317050",
+      "38697448",
+      "40092695",
+      "30736840",
+      "34858787",
+      "38273343",
+      "34976812",
+      "39780116",
+      "39443820",
+      "36754085",
+      "35524313",
+      "37827343",
+      "39705151",
+      "40109332",
+      "38702967",
+      "40153970",
+      "40076939",
+      "34991621",
+      "39460738",
+      "39615216",
+      "34026654",
+      "33618253",
+      "32448269",
+      "36949468",
+      "40053057",
+      "34780286",
+      "40054655",
+      "37060095",
+      "39197215",
+      "39397799",
+      "38218898",
+      "33123271",
+      "38692507",
+      "31281542",
+      "34324278",
+      "38442372",
+      "39556022",
+      "32264877",
+      "39658878",
+      "40296903",
+      "28095864",
+      "38435998",
+      "30651219",
+      "39741917",
+      "39878804",
+      "38613358",
+      "30826934",
+      "35980070",
+      "37713894",
+      "36602428",
+      "40164869",
+      "36280829",
+      "32552913",
+      "37802875",
+      "39582290",
+      "38888849",
+      "32944002",
+      "39397222",
+      "33640782",
+      "32801869",
+      "37199805",
+      "40145099",
+      "36889779",
+      "34427098",
+      "31174562",
+      "39121924",
+      "40104724",
+      "38831379",
+      "33324107",
+      "34306338",
+      "31298383",
+      "38760717",
+      "29348684",
+      "23430586",
+      "36768478",
+      "27130446",
+      "35378000",
+      "35920704"
+    ],
+    "review": [
+      "40375299"
+    ],
+    "pmc": [
+      "12083124"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://cancerci.biomedcentral.com/articles/10.1186/s12935-025-03802-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40375299/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-603",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

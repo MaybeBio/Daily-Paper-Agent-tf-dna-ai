@@ -1,0 +1,476 @@
+{
+  "identity": {
+    "pmid": "42226243",
+    "doi": "10.1186/s12967-026-08366-w",
+    "title": "CA9 targets ITGB1 to accelerate the progression of colorectal cancer by promoting the neutrophil extracellular traps formation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The immunological role of carbonic anhydrase IX (CA9) in colorectal cancer (CRC) progression remains undefined. This study reveals a CA9-driven mechanism promoting tumor progression through neutrophil extracellular traps (NETs). METHODS: CA9 was identified as ‌a candidate oncogene in CRC through public single-cell RNA sequencing data screening. Endogenous modulation of CA9 in vitro and in vivo was performed to elucidate its function. Flow cytometry and immunofluorescence assays were employed to assess how CA9 promotes neutrophil infiltration and NETs formation in tumor tissues. Finally, molecular docking, co-immunoprecipitation, and cytokine arrays were integrated to investigate the specific mechanisms of CA9-driven CRC progression. RESULTS: Serum CA9 expression level in CRC patients exhibited significantly elevated relative to controls, correlating with poor clinical prognosis (P < 0.05). Interestingly, CA9 mainly played a significant pro-tumor role in CRC mouse models, promoting tumor progression by regulating neutrophil recruitment and NETs formation. Mechanistically, CA9 binds to ITGB1, activating the NF-kappaB pathway and triggering increased secretion of C-X-C motif chemokine ligand 8 (CXCL8), which subsequently promoted neutrophil recruitment and NETs formation. Thus, the CA9-ITGB1-CXCL8 axis induces neutrophil reactive oxygen species production and NETs formation, thereby promoting CRC tumor progression. CONCLUSION: The CA9-driven ITGB1-CXCL8-NETs signaling axis significantly promotes CRC progression, thereby establishing CA9 as a novel potential therapeutic target for CRC.",
+    "keywords": [
+      "CA9",
+      "CXCL8",
+      "Colorectal cancer",
+      "ITGB1",
+      "Neutrophil extracellular traps"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Extracellular Traps/metabolism",
+      "*Colorectal Neoplasms/pathology/genetics/blood/metabolism",
+      "Animals",
+      "*Disease Progression",
+      "*Integrin beta1/metabolism",
+      "*Carbonic Anhydrase IX/metabolism/blood",
+      "NF-kappa B/metabolism",
+      "Cell Line, Tumor",
+      "*Neutrophils/metabolism",
+      "*Antigens, Neoplasm/metabolism/blood",
+      "Signal Transduction",
+      "Interleukin-8/metabolism",
+      "Male",
+      "Female",
+      "Protein Binding",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jie",
+        "Li, Ben",
+        "Zhou, Jiajie",
+        "Li, Ruiqi",
+        "Sun, Longhe",
+        "Xu, Zijie",
+        "Zhao, Shuai",
+        "Cheng, Yifan",
+        "Tian, Zhen",
+        "Fu, Yayan",
+        "Zhang, Chenkai",
+        "Fang, Dengyang",
+        "Sun, Qiannan",
+        "Wang, Daorong"
+      ],
+      "short_names": [
+        "Wang J",
+        "Li B",
+        "Zhou J",
+        "Li R",
+        "Sun L",
+        "Xu Z",
+        "Zhao S",
+        "Cheng Y",
+        "Tian Z",
+        "Fu Y",
+        "Zhang C",
+        "Fang D",
+        "Sun Q",
+        "Wang D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+        "Northern Jiangsu People's Hospital, Yangzhou, Jiangsu, 225001, China.",
+        "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+        "Northern Jiangsu People's Hospital, Clinical Teaching Hospital of Medical School, Nanjing University, Yangzhou, 225001, China.",
+        "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+        "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+        "Northern Jiangsu People's Hospital, Clinical Teaching Hospital of Medical School, Nanjing University, Yangzhou, 225001, China.",
+        "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+        "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+        "Northern Jiangsu People's Hospital, Clinical Teaching Hospital of Medical School, Nanjing University, Yangzhou, 225001, China.",
+        "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+        "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+        "The Forth People's Hospital of Taizhou, Taizhou, 225300, China.",
+        "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+        "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+        "Northern Jiangsu People's Hospital, Clinical Teaching Hospital of Medical School, Nanjing University, Yangzhou, 225001, China.",
+        "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+        "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+        "Northern Jiangsu People's Hospital, Clinical Teaching Hospital of Medical School, Nanjing University, Yangzhou, 225001, China.",
+        "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+        "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+        "Northern Jiangsu People's Hospital, Clinical Teaching Hospital of Medical School, Nanjing University, Yangzhou, 225001, China.",
+        "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+        "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+        "Northern Jiangsu People's Hospital, Clinical Teaching Hospital of Medical School, Nanjing University, Yangzhou, 225001, China.",
+        "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+        "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+        "Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+        "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+        "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+        "Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+        "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+        "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+        "Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+        "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+        "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+        "Northern Jiangsu People's Hospital, Yangzhou, Jiangsu, 225001, China.",
+        "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+        "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+        "Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou University, Yangzhou, Jiangsu, 225001, China. wdaorong666@sina.com.",
+        "Northern Jiangsu People's Hospital, Clinical Teaching Hospital of Medical School, Nanjing University, Yangzhou, 225001, China. wdaorong666@sina.com.",
+        "Northern Jiangsu People's Hospital, Yangzhou, Jiangsu, 225001, China. wdaorong666@sina.com.",
+        "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China. wdaorong666@sina.com.",
+        "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China. wdaorong666@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jie",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+          "Northern Jiangsu People's Hospital, Yangzhou, Jiangsu, 225001, China.",
+          "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ben",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "Northern Jiangsu People's Hospital, Clinical Teaching Hospital of Medical School, Nanjing University, Yangzhou, 225001, China.",
+          "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+          "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jiajie",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Northern Jiangsu People's Hospital, Clinical Teaching Hospital of Medical School, Nanjing University, Yangzhou, 225001, China.",
+          "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+          "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ruiqi",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Northern Jiangsu People's Hospital, Clinical Teaching Hospital of Medical School, Nanjing University, Yangzhou, 225001, China.",
+          "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+          "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Longhe",
+        "short_name": "Sun L",
+        "identifiers": [],
+        "affiliations": [
+          "The Forth People's Hospital of Taizhou, Taizhou, 225300, China.",
+          "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+          "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Zijie",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Northern Jiangsu People's Hospital, Clinical Teaching Hospital of Medical School, Nanjing University, Yangzhou, 225001, China.",
+          "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+          "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Shuai",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "Northern Jiangsu People's Hospital, Clinical Teaching Hospital of Medical School, Nanjing University, Yangzhou, 225001, China.",
+          "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+          "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Yifan",
+        "short_name": "Cheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Northern Jiangsu People's Hospital, Clinical Teaching Hospital of Medical School, Nanjing University, Yangzhou, 225001, China.",
+          "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+          "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Zhen",
+        "short_name": "Tian Z",
+        "identifiers": [],
+        "affiliations": [
+          "Northern Jiangsu People's Hospital, Clinical Teaching Hospital of Medical School, Nanjing University, Yangzhou, 225001, China.",
+          "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+          "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Yayan",
+        "short_name": "Fu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+          "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+          "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chenkai",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+          "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+          "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Dengyang",
+        "short_name": "Fang D",
+        "identifiers": [],
+        "affiliations": [
+          "Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou University, Yangzhou, Jiangsu, 225001, China.",
+          "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+          "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Qiannan",
+        "short_name": "Sun Q",
+        "identifiers": [],
+        "affiliations": [
+          "Northern Jiangsu People's Hospital, Yangzhou, Jiangsu, 225001, China.",
+          "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China.",
+          "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Daorong",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou University, Yangzhou, Jiangsu, 225001, China. wdaorong666@sina.com.",
+          "Northern Jiangsu People's Hospital, Clinical Teaching Hospital of Medical School, Nanjing University, Yangzhou, 225001, China. wdaorong666@sina.com.",
+          "Northern Jiangsu People's Hospital, Yangzhou, Jiangsu, 225001, China. wdaorong666@sina.com.",
+          "Yangzhou Key Laboratory of Basic and Clinical Transformation of Digestive and Metabolic Diseases, Yangzhou, Jiangsu, 225001, China. wdaorong666@sina.com.",
+          "General Surgery Institute of Yangzhou, Yangzhou University, Yangzhou, Jiangsu, 225001, China. wdaorong666@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2026 May 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/02 06:34",
+    "fetched_at": "2026-10-01 22:27:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40801632",
+      "40731404",
+      "40050869",
+      "39992721",
+      "39658540",
+      "39653768",
+      "39572570",
+      "39269257",
+      "38801961",
+      "38760815",
+      "38701117",
+      "38572751",
+      "38447573",
+      "38326908",
+      "38191922",
+      "37386737",
+      "36800999",
+      "36725964",
+      "36594087",
+      "36565919",
+      "35771565",
+      "35392239",
+      "35222445",
+      "35183412",
+      "34998944",
+      "34899751",
+      "34674757",
+      "34503307",
+      "34260886",
+      "33811125",
+      "33376096",
+      "32810447",
+      "32302573",
+      "32152317",
+      "32139701",
+      "31631858",
+      "31350295",
+      "31078621",
+      "30978440",
+      "30559345",
+      "30065713",
+      "29622770",
+      "29274868",
+      "25735562",
+      "24157548",
+      "19348862"
+    ],
+    "similar": [
+      "42226243",
+      "37684625",
+      "32296583",
+      "41430151",
+      "42407177",
+      "42413984",
+      "41749320",
+      "36537608",
+      "41219985",
+      "40250692",
+      "41184884",
+      "41980200",
+      "41535258",
+      "39269257",
+      "41389668",
+      "40059806",
+      "40335899",
+      "34450241",
+      "32228650",
+      "42552060",
+      "39085875",
+      "40010762",
+      "26447758",
+      "39549020",
+      "41611162",
+      "39169021",
+      "42205867",
+      "42035135",
+      "28912140",
+      "41580703",
+      "40486508",
+      "40148973",
+      "42178452",
+      "41917269",
+      "37958984",
+      "41827010",
+      "41491503",
+      "42169639",
+      "30446590",
+      "39990665",
+      "42050706",
+      "41904587",
+      "42500573",
+      "37203323",
+      "41923267",
+      "42241033",
+      "41469919",
+      "41102168",
+      "41443148",
+      "42163428",
+      "42069097",
+      "34412652",
+      "26261008",
+      "38576002",
+      "41845506",
+      "41430691",
+      "41316398",
+      "40842027",
+      "33838681",
+      "41775627",
+      "35440019",
+      "31530502",
+      "38844957",
+      "30119635",
+      "39454636",
+      "24657657",
+      "39350250",
+      "41857001",
+      "38926151",
+      "31078621",
+      "34773477",
+      "31619268",
+      "27912775",
+      "40731404",
+      "41805986",
+      "30705034",
+      "41179295",
+      "41986125",
+      "38150024",
+      "41796219",
+      "39695693",
+      "34583750",
+      "40746890",
+      "33456563",
+      "34115241",
+      "42236112",
+      "42323172",
+      "40270028",
+      "34153301",
+      "40937457",
+      "37264195",
+      "31496351",
+      "31271975",
+      "42266694",
+      "42070310",
+      "39497094",
+      "41246306",
+      "41436831",
+      "31395078",
+      "38240906"
+    ],
+    "review": [
+      "42226243"
+    ],
+    "pmc": [
+      "13440105"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-026-08366-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42226243/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-229",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

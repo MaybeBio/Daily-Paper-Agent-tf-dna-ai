@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "36508455",
+    "doi": "10.1371/journal.pgen.1010535",
+    "title": "Transcription factor binding process is the primary driver of noise in gene expression."
+  },
+  "content": {
+    "abstract": "Noise in expression of individual genes gives rise to variations in activity of cellular pathways and generates heterogeneity in cellular phenotypes. Phenotypic heterogeneity has important implications for antibiotic persistence, mutation penetrance, cancer growth and therapy resistance. Specific molecular features such as the presence of the TATA box sequence and the promoter nucleosome occupancy have been associated with noise. However, the relative importance of these features in noise regulation is unclear and how well these features can predict noise has not yet been assessed. Here through an integrated statistical model of gene expression noise in yeast we found that the number of regulating transcription factors (TFs) of a gene was a key predictor of noise, whereas presence of the TATA box and the promoter nucleosome occupancy had poor predictive power. With an increase in the number of regulatory TFs, there was a rise in the number of cooperatively binding TFs. In addition, an increased number of regulatory TFs meant more overlaps in TF binding sites, resulting in competition between TFs for binding to the same region of the promoter. Through modeling of TF binding to promoter and application of stochastic simulations, we demonstrated that competition and cooperation among TFs could increase noise. Thus, our work uncovers a process of noise regulation that arises out of the dynamics of gene regulation and is not dependent on any specific transcription factor or specific promoter sequence.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites/genetics",
+      "*Gene Expression/genetics/physiology",
+      "Nucleosomes/metabolism",
+      "Protein Binding",
+      "Saccharomyces cerevisiae/genetics/metabolism",
+      "*Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Parab, Lavisha",
+        "Pal, Sampriti",
+        "Dhar, Riddhiman"
+      ],
+      "short_names": [
+        "Parab L",
+        "Pal S",
+        "Dhar R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4642-0492"
+      ],
+      "affiliations": [
+        "Department of Biotechnology, Indian Institute of Technology (IIT) Kharagpur, Kharagpur, West Bengal, India.",
+        "Max-Planck-Institute for Evolutionary Biology, Plon, Germany.",
+        "Department of Biotechnology, Indian Institute of Technology (IIT) Kharagpur, Kharagpur, West Bengal, India.",
+        "Department of Biotechnology, Indian Institute of Technology (IIT) Kharagpur, Kharagpur, West Bengal, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Parab, Lavisha",
+        "short_name": "Parab L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Indian Institute of Technology (IIT) Kharagpur, Kharagpur, West Bengal, India.",
+          "Max-Planck-Institute for Evolutionary Biology, Plön, Germany."
+        ]
+      },
+      {
+        "full_name": "Pal, Sampriti",
+        "short_name": "Pal S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Indian Institute of Technology (IIT) Kharagpur, Kharagpur, West Bengal, India."
+        ]
+      },
+      {
+        "full_name": "Dhar, Riddhiman",
+        "short_name": "Dhar R",
+        "identifiers": [
+          "0000-0003-4642-0492"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, Indian Institute of Technology (IIT) Kharagpur, Kharagpur, West Bengal, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS genetics"
+    ],
+    "journal_abbrev": [
+      "PLoS Genet"
+    ],
+    "pub_date": "2022 Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/13 06:00",
+    "fetched_at": "2026-10-04 21:11:17"
+  },
+  "links": {
+    "cites": [
+      "42642383",
+      "42000255",
+      "41705696",
+      "41559111",
+      "41332733",
+      "40665244",
+      "40260118",
+      "39809571",
+      "39566186",
+      "39516495",
+      "39345612",
+      "39302959",
+      "39171584",
+      "38663407",
+      "37390199",
+      "36993565",
+      "35858548"
+    ],
+    "refs": [
+      "34919538",
+      "33619394",
+      "33280256",
+      "32415118",
+      "31913117",
+      "31747591",
+      "31694866",
+      "31235692",
+      "31101674",
+      "31076411",
+      "30917326",
+      "30718850",
+      "30638445",
+      "30602787",
+      "30554963",
+      "30352675",
+      "30024089",
+      "29915087",
+      "29688347",
+      "29192388",
+      "29102610",
+      "29036684",
+      "28665997",
+      "28607484",
+      "28414750",
+      "27626380",
+      "27185547",
+      "27138336",
+      "26991085",
+      "26832815",
+      "26355006",
+      "26215071",
+      "25491770",
+      "25136970",
+      "25030889",
+      "24889621",
+      "24529382",
+      "24144978",
+      "24048065",
+      "23935476",
+      "23527780",
+      "23288538",
+      "22956896",
+      "22820945",
+      "22726434",
+      "22683268",
+      "22498630",
+      "22466169",
+      "22275871",
+      "22238267",
+      "22158248",
+      "22102575",
+      "21390269",
+      "21179497",
+      "20975739",
+      "20811459",
+      "20808728",
+      "20671182",
+      "20616060",
+      "20436457",
+      "20403328",
+      "20164922",
+      "20160109",
+      "19767748",
+      "19658736",
+      "19578359",
+      "19252489",
+      "18448704",
+      "17347438",
+      "16916930",
+      "16783381",
+      "16715097",
+      "16699522",
+      "16169922",
+      "16122420",
+      "15308767",
+      "15166317",
+      "15006352",
+      "14992726",
+      "12687005",
+      "12183631",
+      "9730283",
+      "9023339"
+    ],
+    "similar": [
+      "36508455",
+      "20172488",
+      "22820945",
+      "25559499",
+      "23990766",
+      "28212748",
+      "21931670",
+      "26843321",
+      "24942981",
+      "22098745",
+      "24189399",
+      "22189060",
+      "21045055",
+      "21075748",
+      "10982825",
+      "21627806",
+      "26678747",
+      "25085421",
+      "25762553",
+      "23700413",
+      "19494041",
+      "30318444",
+      "26818008",
+      "22841002",
+      "24727477",
+      "29874603",
+      "19933262",
+      "20003404",
+      "8047170",
+      "26291518",
+      "30888317",
+      "19652015",
+      "26627840",
+      "17997593",
+      "32054475",
+      "22354995",
+      "26832815",
+      "19959498",
+      "19720867",
+      "19108605",
+      "21408617",
+      "22369481",
+      "2196450",
+      "20860999",
+      "15225549",
+      "8404861",
+      "22453733",
+      "18769540",
+      "8524266",
+      "32499583",
+      "19158363",
+      "24372030",
+      "23266802",
+      "23565060",
+      "28414750",
+      "35618416",
+      "17418911",
+      "24256300",
+      "8264586",
+      "19140324",
+      "19451592",
+      "11048951",
+      "25748434",
+      "31093693",
+      "8139577",
+      "7961772",
+      "26245832",
+      "23636944",
+      "21942931",
+      "21821044",
+      "32574834",
+      "10684934",
+      "12054769",
+      "15287978",
+      "19521817",
+      "21149679",
+      "32763226",
+      "19111667",
+      "20185727",
+      "21785133",
+      "9391050",
+      "10705431",
+      "20238415",
+      "10713069",
+      "22369687",
+      "12536147",
+      "10487868",
+      "31881824",
+      "22737086",
+      "15345046",
+      "30017582",
+      "7957054",
+      "23527292",
+      "8943356",
+      "26314830",
+      "37853017",
+      "36602094",
+      "39163638",
+      "24109486",
+      "28176840",
+      "38724715",
+      "38262110"
+    ],
+    "review": [
+      "36508455",
+      "17418911",
+      "31093693",
+      "32763226"
+    ],
+    "pmc": [
+      "9779669"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pgen.1010535",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36508455/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/36508455",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36508455",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

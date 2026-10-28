@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "41530081",
+    "doi": "10.1021/acs.jctc.5c01660",
+    "title": "Inferring DNA Kinkability from Biased MD Simulations."
+  },
+  "content": {
+    "abstract": "In several biological processes, such as looping, supercoiling, and DNA-protein interactions, DNA is subject to very strong deformations. While coarse-grained models often approximate DNA as a smoothly bendable polymer, experimental and theoretical studies have demonstrated that mechanical stress can induce localized kinks. Here, we employ the Rigid Base Biasing of Nucleic Acids (RBB-NA) algorithm to systematically probe the properties of highly deformed DNA in all-atom simulations of short dodecamers. A simultaneous bias in bending (roll) and twist is applied locally to two consecutive base pairs in the center of the dodecamers. Using umbrella sampling, we construct free energy landscapes that reveal sequence-dependent effects for kink formation and quantify the energetic cost of kinking. We identify distinct features in the free energy profiles highlighting anharmonic effects, such as asymmetries in the positive vs negative roll. Our analysis suggests two distinct kink types characterized either by positive roll and undertwisting (twist-bend kinks) or by negative roll without excess twist (pure bend kinks). The former are frequently observed in DNA-protein structures and are expected to be favored in vivo in negatively supercoiled chromosomes. The latter has been observed in DNA simulations of minicircles and is favored in torsionally constrained DNA.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Nucleic Acid Conformation",
+      "Thermodynamics",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fassino, Arianna",
+        "Carlon, Enrico",
+        "Voorspoels, Aderik"
+      ],
+      "short_names": [
+        "Fassino A",
+        "Carlon E",
+        "Voorspoels A"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-2531-1328",
+        "ORCID: 0000-0001-8266-1096",
+        "ORCID: 0000-0003-1955-2254"
+      ],
+      "affiliations": [
+        "Soft Matter and Biophysics, KU Leuven, Celestijnenlaan 200D, Leuven B-3001 Belgium.",
+        "Soft Matter and Biophysics, KU Leuven, Celestijnenlaan 200D, Leuven B-3001 Belgium.",
+        "Soft Matter and Biophysics, KU Leuven, Celestijnenlaan 200D, Leuven B-3001 Belgium.",
+        "Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool L69 7ZB, U.K."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fassino, Arianna",
+        "short_name": "Fassino A",
+        "identifiers": [
+          "0009-0005-2531-1328"
+        ],
+        "affiliations": [
+          "Soft Matter and Biophysics, KU Leuven, Celestijnenlaan 200D, Leuven B-3001 Belgium."
+        ]
+      },
+      {
+        "full_name": "Carlon, Enrico",
+        "short_name": "Carlon E",
+        "identifiers": [
+          "0000-0001-8266-1096"
+        ],
+        "affiliations": [
+          "Soft Matter and Biophysics, KU Leuven, Celestijnenlaan 200D, Leuven B-3001 Belgium."
+        ]
+      },
+      {
+        "full_name": "Voorspoels, Aderik",
+        "short_name": "Voorspoels A",
+        "identifiers": [
+          "0000-0003-1955-2254"
+        ],
+        "affiliations": [
+          "Soft Matter and Biophysics, KU Leuven, Celestijnenlaan 200D, Leuven B-3001 Belgium.",
+          "Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool L69 7ZB, U.K."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2026 Jan 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/14 00:37",
+    "fetched_at": "2026-10-05 04:44:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40854823",
+      "39927957",
+      "39629625",
+      "38591677",
+      "38411091",
+      "37356908",
+      "37340948",
+      "36912082",
+      "36795949",
+      "36695645",
+      "36540025",
+      "35732531",
+      "35394775",
+      "34352078",
+      "34005944",
+      "33594049",
+      "31956910",
+      "31114927",
+      "30999490",
+      "30192578",
+      "27976883",
+      "27845464",
+      "26615701",
+      "26593845",
+      "26569599",
+      "26184874",
+      "25303338",
+      "25260586",
+      "25228467",
+      "25223784",
+      "25122748",
+      "24580711",
+      "23677618",
+      "23368161",
+      "22936778",
+      "22936762",
+      "22370561",
+      "21247872",
+      "20482144",
+      "20334529",
+      "19658741",
+      "19486670",
+      "19380377",
+      "19217852",
+      "18654166",
+      "18096619",
+      "17351000",
+      "17244195",
+      "17027501",
+      "15809441",
+      "15783354",
+      "15447460",
+      "15125838",
+      "15102446",
+      "14581192",
+      "10835278",
+      "9736707",
+      "8980235",
+      "8628992",
+      "1653449",
+      "1095931"
+    ],
+    "similar": [
+      "41530081",
+      "36695645",
+      "19932116",
+      "34847218",
+      "9518483",
+      "21247872",
+      "17027501",
+      "33570937",
+      "10966775",
+      "1988678",
+      "20232937",
+      "11724529",
+      "30954045",
+      "26258468",
+      "35129570",
+      "24506488",
+      "12666159",
+      "29506273",
+      "22750979",
+      "29432448",
+      "24829460",
+      "29064703",
+      "33594049",
+      "19380377",
+      "30192578",
+      "31574750",
+      "17930081",
+      "26638896",
+      "21917856",
+      "39177087",
+      "16861282",
+      "9782776",
+      "34005944",
+      "41738979",
+      "23730911",
+      "26046547",
+      "11724532",
+      "25167042",
+      "16427082",
+      "9380675",
+      "11350169",
+      "23621762",
+      "20481762",
+      "28423273",
+      "23475204",
+      "1538391",
+      "15306458",
+      "11124028",
+      "2926819",
+      "24116642",
+      "7696459",
+      "32291075",
+      "28595422",
+      "39560790",
+      "16698780",
+      "3233199",
+      "35732531",
+      "7727057",
+      "19804732",
+      "35341743",
+      "41036608",
+      "23005781",
+      "20614923",
+      "21830782",
+      "39044429",
+      "11580248",
+      "14755574",
+      "29806939",
+      "8461448",
+      "38591677",
+      "21482100",
+      "26292244",
+      "33164531",
+      "31680510",
+      "40312912",
+      "27283311",
+      "35394775",
+      "12595551",
+      "10373369",
+      "34718725",
+      "25404188",
+      "24845216",
+      "18586040",
+      "6400899",
+      "23617391",
+      "39927543",
+      "27664220",
+      "26593845",
+      "30999490",
+      "19217852",
+      "21999672",
+      "34928161",
+      "8756512",
+      "40803550",
+      "29370096",
+      "22241779",
+      "34127998",
+      "31490686",
+      "26244743",
+      "23912807"
+    ],
+    "review": [
+      "41530081",
+      "21830782",
+      "14755574",
+      "21482100",
+      "31680510"
+    ],
+    "pmc": [
+      "12854757"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41530081/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.5c01660",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "40271123",
+    "doi": "10.3389/fcvm.2025.1546865",
+    "title": "Identification of biomarkers associated with energy metabolism in hypertrophic cardiomyopathy and exploration of potential mechanisms of roles."
+  },
+  "content": {
+    "abstract": "BACKGROUND: In hypertrophic cardiomyopathy (HCM), limited reports exist regarding its association with energy metabolism. Here, biomarkers related to energy metabolism in HCM were identified through bioinformatics analysis. METHODS: HCM transcriptome data were acquired from the GEO (GSE36961) database for comparative analysis in order to identify differentially expressed genes (DEGs). Subsequently, the identified DEGs were intersected with key module genes in Weighted gene co-expression network analysis (WGCNA) and energy metabolism related genes (EMRGs) to identify DE-EMRGs. Then, feature biomarkers were screened using the least absolute shrinkage and selection operator (LASSO) regression and support vector machine-recursive feature elimination (SVM-RFE) methods, and the intersection of the feature biomarkers obtained from both methods was used for subsequent analysis. Furthermore, biomarkers defined as biomarkers with consistent expression trends across both GSE36961 and GSE89714 datasets and significant inter-cohort differences were selected for subsequent analysis. Subsequently, an immune analysis was conducted. Additionally, the transcription factors (TFs), and drugs regulating the biomarkers were predicted based on online databases. RESULTS: The co-selection of seven potential biomarkers based on machine learning identified IGFBP3 and JAK2 as biomarkers in HCM. Upregulation of IGFBP3 and JAK2 in the HCM cohort was observed in the GSE36961 and GSE89714 datasets. Utilizing ssGSEA, it was unveiled that the HCM cohort exhibited elevated ratings of effector memory CD4T cells while displaying diminished scores across 22 other immune cell categories. Notably, JAK2 expression exhibited a strong negative correlation with myeloid-derived suppressor cells (MDSCs) infiltration, while IGFBP3 showed no significant associations with immune cell infiltration. Utilizing NetworkAnalyst, miRNAs and TFs regulating biomarkers expression in HCM were predicted, with hsa-mir-16-5p, hsa-mir-147a, hsa-mir-210b-3p, hsa-let-7b-5p, and hsa-mir-34a-5p identified as regulators of both IGFBP3 and JAK2. GATA2 was also found to be a TF regulating the expression of both biomarkers. Furthermore, the potential therapeutic targets of JAK2 and IGFBP3 in HCM were ruxolitinib and celecoxib, respectively. CONCLUSION: In conclusion, the identification of IGFBP3 and JAK2 as biomarkers in HCM, highlight promising avenues for further research and treatment development in HCM.",
+    "keywords": [
+      "bioinformatics analysis",
+      "biomarkers",
+      "energy metabolism",
+      "hypertrophic cardiomyopathy",
+      "immune infiltration"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cai, Songyan",
+        "Jin, Tianying",
+        "Liu, Mintong",
+        "Dai, Qingyuan"
+      ],
+      "short_names": [
+        "Cai S",
+        "Jin T",
+        "Liu M",
+        "Dai Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China.",
+        "Department of Cardiology, First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China.",
+        "Department of Cardiology, First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China.",
+        "Department of Physical Examination for Cadres, First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cai, Songyan",
+        "short_name": "Cai S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Tianying",
+        "short_name": "Jin T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Mintong",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Qingyuan",
+        "short_name": "Dai Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Examination for Cadres, First Affiliated Hospital of Kunming Medical University, Kunming, Yunnan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cardiovascular medicine"
+    ],
+    "journal_abbrev": [
+      "Front Cardiovasc Med"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/24 12:28",
+    "fetched_at": "2026-09-30 16:28:56"
+  },
+  "links": {
+    "cites": [
+      "42041542",
+      "41511345"
+    ],
+    "refs": [
+      "38853772",
+      "38825493",
+      "38801513",
+      "38774750",
+      "37553421",
+      "37237146",
+      "36807298",
+      "36431990",
+      "36267414",
+      "35732239",
+      "35394031",
+      "35349179",
+      "35086661",
+      "35084989",
+      "34824210",
+      "34765550",
+      "34672721",
+      "34557778",
+      "34368252",
+      "34225646",
+      "33558530",
+      "33328477",
+      "33298734",
+      "33197173",
+      "33125080",
+      "32899712",
+      "32764968",
+      "32500027",
+      "32169038",
+      "32098504",
+      "31982427",
+      "31945014",
+      "31849507",
+      "31842377",
+      "30392760",
+      "30267440",
+      "30115228",
+      "28912181",
+      "28842216",
+      "28679633",
+      "28499193",
+      "28381408",
+      "28194444",
+      "26150695",
+      "25814232",
+      "25656053",
+      "25605792",
+      "25459350",
+      "24058762",
+      "23323831",
+      "23223021",
+      "23109667",
+      "22910030",
+      "22025605",
+      "21841463",
+      "21515029",
+      "21269502",
+      "20808728",
+      "20624503",
+      "19771387",
+      "19141684",
+      "19114008",
+      "18591647",
+      "16912647",
+      "16567515",
+      "15226630",
+      "14597658",
+      "12711218",
+      "11481471",
+      "11194704",
+      "7769092"
+    ],
+    "similar": [
+      "40271123",
+      "36267414",
+      "36238494",
+      "39142001",
+      "37391825",
+      "35178407",
+      "37065602",
+      "35328083",
+      "39263286",
+      "38006610",
+      "34520765",
+      "30338905",
+      "34765659",
+      "38994496",
+      "35764238",
+      "39329089",
+      "37559135",
+      "36998473",
+      "37821907",
+      "38463581",
+      "34497835",
+      "36628247",
+      "39507054",
+      "38291374",
+      "38371524",
+      "37986345",
+      "36829193",
+      "40238799",
+      "38476236",
+      "40078458",
+      "38951833",
+      "36532015",
+      "39444490",
+      "35990977",
+      "38914980",
+      "34285551",
+      "34946964",
+      "38947229",
+      "36401966",
+      "39043774",
+      "39028999",
+      "36148059",
+      "38774444",
+      "31788082",
+      "32176034",
+      "36104591",
+      "40274894",
+      "39375405",
+      "36685847",
+      "39923303",
+      "40312440",
+      "37081490",
+      "35282347",
+      "40313958",
+      "39509434",
+      "36792688",
+      "39238829",
+      "40078927",
+      "36915125",
+      "37520121",
+      "36034449",
+      "39807607",
+      "37821869",
+      "37143115",
+      "38711508",
+      "36647068",
+      "31059139",
+      "38464965",
+      "39616855",
+      "39080525",
+      "32642095",
+      "39512836",
+      "39170142",
+      "39086489",
+      "39160643",
+      "39730379",
+      "34136543",
+      "37528851",
+      "38405617",
+      "37608666",
+      "39331874",
+      "35401927",
+      "38629342",
+      "38277535",
+      "37980270",
+      "34362365",
+      "40129981",
+      "34107850",
+      "36470144",
+      "38649912",
+      "39219820",
+      "38260098",
+      "38028617",
+      "38972072",
+      "36942257",
+      "36991484",
+      "40068024",
+      "33407587",
+      "39396400",
+      "38384272"
+    ],
+    "review": [
+      "40271123"
+    ],
+    "pmc": [
+      "12014567"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40271123/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1252",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcvm.2025.1546865",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

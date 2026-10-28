@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to test whether the autoinhibitory loop (AIL) of the CREB-binding protein (CBP) HAT domain, when acetylated at Lys1595, can bind to the bromodomain of the same protein. They report structural instability and fast unbinding kinetics, concluding that the AIL is not a ligand of the bromodomain. They also compare with the histone peptide H3K56ac, which shows higher stability in the pocket.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force field parameters, convergence criteria, or quantitative data are provided
+- **Missing materials affecting confidence** Full methods, simulation lengths, replica or repeat counts, free energy estimates, structural figures, binding interface analysis, and any statistical validation of the unbinding phases
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused and potentially useful computational study on a specific intramolecular interaction in CBP. The central claim, that the acetylated AIL does not stably bind the bromodomain, is plausible and consistent with the described simulation outcomes. However, the evidence base is too thin to assess technical rigor. Key methodological details and quantitative results are absent, and the comparison with H3K56ac is only qualitatively described. The conclusion is not established from the supplied material alone.
+- **Who would be interested in the results, and why** Researchers studying transcriptional coactivation, particularly the regulation of CBP and p300, and those interested in bromodomain ligand specificity or the functional role of autoinhibitory loops. Computational chemists and biophysicists using molecular dynamics to probe protein-protein or protein-peptide interactions may also find the approach relevant.
+- **Major strengths** The question is biologically meaningful and addresses a specific, testable hypothesis about intramolecular regulation. The use of a natural ligand as a comparative control is a sound strategy. The reported two-phase unbinding behavior, if robust, could offer mechanistic insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the AIL is not a ligand of the bromodomain based on structural instability and fast unbinding kinetics.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative metrics for "structural instability" or "fast unbinding kinetics." No simulation lengths, number of replicates, force field, water model, temperature, or pressure conditions are stated. Without these, the reliability of the simulations cannot be assessed.
+  - **Why it matters** Molecular dynamics results are highly sensitive to system setup and sampling. A claim of non-binding requires evidence that the simulations were sufficiently converged and that the observed unbinding is not an artifact of insufficient sampling or inappropriate parameters.
+  - **Resolution test** Provide full simulation details, including total simulation time per system, number of independent runs, and convergence checks. Report quantitative measures such as residence times, binding free energies, or contact lifetimes for both the AIL and H3K56ac.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors state that the comparison with H3K56ac shows higher stability in the pocket, supporting the instability of the AIL.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The comparison is only qualitative. No data are shown for H3K56ac binding stability, such as root-mean-square deviation, contact persistence, or unbinding times. The abstract does not indicate whether the H3K56ac simulations were performed under identical conditions.
+  - **Why it matters** A comparative claim requires matched conditions and quantitative comparison. Without these, the reader cannot judge whether the difference is meaningful or within statistical noise.
+  - **Resolution test** Present side-by-side quantitative results for AIL and H3K56ac, including error estimates, and confirm identical simulation protocols.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The authors imply that the AIL is not a ligand of the bromodomain on the same protein chain, which may have functional implications.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not discuss whether the simulations account for the full-length protein context, including the linker between the AIL and bromodomain, or whether the AIL was simulated as an isolated peptide. The relevance of the finding to the intact protein is unclear.
+  - **Why it matters** Intramolecular interactions can be influenced by tethering and local concentration effects. If the AIL was simulated in isolation, the conclusion may not transfer to the full-length context.
+  - **Resolution test** Clarify the simulation setup, and if the AIL was isolated, discuss or simulate the tethered context to support the biological conclusion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "fast unbinding kinetics" is used without defining a timescale or comparing to any reference.
+  - **Required correction** Specify the observed timescales or provide a comparative reference to make the statement quantitative.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of the simulation software, force field, or system size is given.
+  - **Required correction** Include these details in the full manuscript and summarize key parameters in the abstract or a methods summary.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the AIL is "not a ligand" but does not discuss potential alternative roles, such as transient binding or allosteric effects.
+  - **Required correction** Add a sentence acknowledging the limits of the conclusion and possible alternative interpretations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claim and the comparative control lack quantitative support. R1-M3 is important but not blocking if the setup is clarified.
+- **Assessment against Nature-style criteria** Originality: moderate, as the specific question is novel but the approach is standard. Scientific importance: moderate, relevant to CBP regulation but not a broad conceptual advance. Interdisciplinary readership: limited, primarily of interest to structural biologists and computational chemists. Technical soundness: not assessable from the abstract due to missing methods and data. Readability for nonspecialists: the abstract is clear but assumes familiarity with bromodomain and AIL terminology.
+- **Recommendation posture** Currently not established from the provided evidence. Supportive if the full manuscript provides quantitative simulation details, matched comparative data, and a clear description of the system setup.
+
+## Risk / unsupported claims
+- The claim that the AIL is not a ligand of the bromodomain is unsupported without quantitative binding or kinetic data.
+- The claim that H3K56ac shows higher stability is unsupported without matched quantitative comparison.
+- The two-phase unbinding description is unverifiable from the abstract alone.
+- Any implication about the full-length protein context is unsupported unless the simulation setup is clarified.

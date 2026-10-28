@@ -1,0 +1,434 @@
+{
+  "identity": {
+    "pmid": "40213661",
+    "doi": "10.7150/thno.107776",
+    "title": "An anti-FAP-scFv-functionalized exosome-carrying hydrogel delivers SKI mRNA to fibrotic nucleus pulposus cells to alleviate intervertebral disc degeneration by regulating FOXO3."
+  },
+  "content": {
+    "abstract": "Rationale: Nucleus pulposus (NP) fibrosis is a contributing factor to intervertebral disc degeneration (IVDD), which lacks an effective treatment. This study focuses on elucidating the role and mechanisms of the TGF-beta signaling repressor SKI in NP fibrosis and exploring its therapeutic potential. Methods: Single-cell RNA sequencing (scRNA-seq) was used to investigate fibrotic nucleus pulposus cell (NPC) subsets and assess TGF-beta signaling activation. Two recombinant plasmids encoding single-chain variable fragments (scFvs) targeting the fibrotic NPC marker FAP and SKI mRNA were co-transfected into HEK-293T cells to yield functionalized exosomes (EX(ski+scFv)). The addition of EX(ski+scFv) to a gelatin/oxidized sodium alginate hydrogel produced a pH-responsive exosome/hydrogel system named Gel@EX(ski+scFv). The therapeutic effects and underlying mechanism of Gel@EX(ski+scFv) were evaluated by RNA sequencing, molecular docking and coimmunoprecipitation. Results: A fibrotic NPC subset was characterized by elevated FAP and diminished SKI expression, along with activation of the TGF-beta signaling pathway. SKI overexpression reduced fibrosis in TGF-beta-treated NPCs. EX(ski+scFv) successfully delivered SKI mRNA to FAP-expressing fibrotic NPCs. Gel@EX(ski+scFv) possessed good mechanical properties, degradability, injectability, and biocompatibility. Gel@EX(ski+scFv) effectively alleviated NP fibrosis and IVDD in rats. RNA sequencing, molecular docking and coimmunoprecipitation revealed that SKI could interact with FOXO3 to suppress the TGF-beta signaling pathway. Conclusion: This study elucidates the mechanism by which SKI-mediated TGF-beta signaling inhibition alleviates NP fibrosis. The development of the Gel@EX(ski+scFv) system for the targeted delivery of SKI mRNA offers a promising therapeutic strategy to alleviate NP fibrosis and IVDD in the future.",
+    "keywords": [
+      "SKI gene",
+      "functionalized exosomes",
+      "intervertebral disc degeneration",
+      "nucleus pulposus fibrosis",
+      "pH-responsive hydrogel"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Single-Chain Antibodies/administration & dosage",
+      "*Nucleus Pulposus/metabolism/pathology/drug effects",
+      "*Forkhead Box Protein O3/metabolism/genetics",
+      "*Hydrogels/chemistry",
+      "RNA, Messenger/genetics/administration & dosage/metabolism",
+      "Rats",
+      "*Exosomes/metabolism",
+      "*Intervertebral Disc Degeneration/therapy/pathology/drug therapy/metabolism",
+      "Fibrosis",
+      "HEK293 Cells",
+      "*Pancreatitis-Associated Proteins/metabolism/antagonists & inhibitors",
+      "Signal Transduction",
+      "Male",
+      "Rats, Sprague-Dawley",
+      "Transforming Growth Factor beta/metabolism",
+      "*Proto-Oncogene Proteins/genetics/metabolism",
+      "Membrane Proteins",
+      "Endopeptidases",
+      "Fibroblast Activation Protein Alpha"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yueyang",
+        "Zhai, Yu",
+        "Wang, Tianling",
+        "Wang, Siya",
+        "Tian, Yu",
+        "Bian, Zhiqun",
+        "Zhang, Yang",
+        "Zhang, Chao",
+        "Liu, Minghan",
+        "Li, Changqing"
+      ],
+      "short_names": [
+        "Li Y",
+        "Zhai Y",
+        "Wang T",
+        "Wang S",
+        "Tian Y",
+        "Bian Z",
+        "Zhang Y",
+        "Zhang C",
+        "Liu M",
+        "Li C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), 400038, Chongqing, China.",
+        "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopaedic, 400038, Chongqing, China.",
+        "State Key Laboratory of Trauma and Chemical Poisoning, 400038, Chongqing, China.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), 400038, Chongqing, China.",
+        "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopaedic, 400038, Chongqing, China.",
+        "State Key Laboratory of Trauma and Chemical Poisoning, 400038, Chongqing, China.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), 400038, Chongqing, China.",
+        "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopaedic, 400038, Chongqing, China.",
+        "State Key Laboratory of Trauma and Chemical Poisoning, 400038, Chongqing, China.",
+        "College of Bioengineering, Chongqing University, 400044, Chongqing, China.",
+        "Department Of Wound Repair and Rehabilitation Medicine, Center of Bone Metabolism and Repair, State Key Laboratory of Trauma, Burns and Combined Injury, Trauma Center, Research Institute of Surgery, Daping Hospital, Army Medical University, Chongqing, China.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), 400038, Chongqing, China.",
+        "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopaedic, 400038, Chongqing, China.",
+        "State Key Laboratory of Trauma and Chemical Poisoning, 400038, Chongqing, China.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), 400038, Chongqing, China.",
+        "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopaedic, 400038, Chongqing, China.",
+        "State Key Laboratory of Trauma and Chemical Poisoning, 400038, Chongqing, China.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), 400038, Chongqing, China.",
+        "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopaedic, 400038, Chongqing, China.",
+        "State Key Laboratory of Trauma and Chemical Poisoning, 400038, Chongqing, China.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), 400038, Chongqing, China.",
+        "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopaedic, 400038, Chongqing, China.",
+        "State Key Laboratory of Trauma and Chemical Poisoning, 400038, Chongqing, China.",
+        "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), 400038, Chongqing, China.",
+        "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopaedic, 400038, Chongqing, China.",
+        "State Key Laboratory of Trauma and Chemical Poisoning, 400038, Chongqing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yueyang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), 400038, Chongqing, China.",
+          "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopaedic, 400038, Chongqing, China.",
+          "State Key Laboratory of Trauma and Chemical Poisoning, 400038, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhai, Yu",
+        "short_name": "Zhai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), 400038, Chongqing, China.",
+          "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopaedic, 400038, Chongqing, China.",
+          "State Key Laboratory of Trauma and Chemical Poisoning, 400038, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tianling",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), 400038, Chongqing, China.",
+          "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopaedic, 400038, Chongqing, China.",
+          "State Key Laboratory of Trauma and Chemical Poisoning, 400038, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Siya",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Bioengineering, Chongqing University, 400044, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Yu",
+        "short_name": "Tian Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department Of Wound Repair and Rehabilitation Medicine, Center of Bone Metabolism and Repair, State Key Laboratory of Trauma, Burns and Combined Injury, Trauma Center, Research Institute of Surgery, Daping Hospital, Army Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Bian, Zhiqun",
+        "short_name": "Bian Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), 400038, Chongqing, China.",
+          "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopaedic, 400038, Chongqing, China.",
+          "State Key Laboratory of Trauma and Chemical Poisoning, 400038, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), 400038, Chongqing, China.",
+          "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopaedic, 400038, Chongqing, China.",
+          "State Key Laboratory of Trauma and Chemical Poisoning, 400038, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chao",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), 400038, Chongqing, China.",
+          "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopaedic, 400038, Chongqing, China.",
+          "State Key Laboratory of Trauma and Chemical Poisoning, 400038, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Minghan",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), 400038, Chongqing, China.",
+          "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopaedic, 400038, Chongqing, China.",
+          "State Key Laboratory of Trauma and Chemical Poisoning, 400038, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Changqing",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Xinqiao Hospital, Third Military Medical University (Army Medical University), 400038, Chongqing, China.",
+          "Chongqing Municipal Health Commission Key Laboratory of Precision Orthopaedic, 400038, Chongqing, China.",
+          "State Key Laboratory of Trauma and Chemical Poisoning, 400038, Chongqing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Theranostics"
+    ],
+    "journal_abbrev": [
+      "Theranostics"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/11 06:25",
+    "fetched_at": "2026-09-30 15:25:49"
+  },
+  "links": {
+    "cites": [
+      "42528914",
+      "42404384",
+      "42273693",
+      "42152122",
+      "41459417",
+      "41354850",
+      "40895719",
+      "40727644",
+      "40713978"
+    ],
+    "refs": [
+      "39024569",
+      "38965553",
+      "38926762",
+      "38607953",
+      "38589859",
+      "38461842",
+      "38403470",
+      "38368083",
+      "38293743",
+      "38167807",
+      "37935854",
+      "37738123",
+      "37714133",
+      "37624742",
+      "36828738",
+      "36788965",
+      "36756875",
+      "36150381",
+      "36117450",
+      "35822179",
+      "35743056",
+      "35597779",
+      "35500062",
+      "35461253",
+      "35437544",
+      "35377803",
+      "35332686",
+      "35314685",
+      "34703014",
+      "34094855",
+      "33847835",
+      "33537081",
+      "33255085",
+      "33239795",
+      "33084203",
+      "32929000",
+      "32305351",
+      "32128275",
+      "31879190",
+      "31744193",
+      "31707045",
+      "31629677",
+      "31511695",
+      "31132405",
+      "30496104",
+      "30296017",
+      "29892481",
+      "29649547",
+      "29573870",
+      "29217661",
+      "29138094",
+      "29131164",
+      "28376367",
+      "28027646",
+      "27108839",
+      "26463451",
+      "23124260",
+      "21420963",
+      "21341267",
+      "20130650",
+      "19701188",
+      "16625151",
+      "15340826",
+      "12546390"
+    ],
+    "similar": [
+      "40213661",
+      "39605029",
+      "40118349",
+      "40011941",
+      "33459443",
+      "38816771",
+      "33982787",
+      "34488795",
+      "39986487",
+      "35147801",
+      "38691848",
+      "38721892",
+      "39752759",
+      "39625652",
+      "28805297",
+      "40169595",
+      "37667246",
+      "39713901",
+      "39212824",
+      "38969077",
+      "31808511",
+      "37587825",
+      "38017517",
+      "34450323",
+      "39308283",
+      "38973294",
+      "39250820",
+      "38838859",
+      "36731695",
+      "39366471",
+      "33565085",
+      "34136064",
+      "39746276",
+      "38949514",
+      "40239592",
+      "29555463",
+      "31351174",
+      "38836662",
+      "33455530",
+      "35907249",
+      "38944256",
+      "39898539",
+      "39555665",
+      "38316670",
+      "39490768",
+      "39414222",
+      "40075068",
+      "38997667",
+      "39516278",
+      "38093179",
+      "38640717",
+      "33372336",
+      "40262939",
+      "30268161",
+      "29649568",
+      "32265028",
+      "38740166",
+      "34396430",
+      "37088454",
+      "40239332",
+      "39938720",
+      "34020031",
+      "38728878",
+      "30414849",
+      "38877413",
+      "28622016",
+      "34229586",
+      "38690917",
+      "39986601",
+      "39889410",
+      "34754326",
+      "39804951",
+      "33391467",
+      "38890795",
+      "28087442",
+      "40174870",
+      "40064280",
+      "30267879",
+      "38943627",
+      "33289319",
+      "35108117",
+      "39622432",
+      "39567627",
+      "39192377",
+      "38403470",
+      "30511395",
+      "39846724",
+      "40087134",
+      "40281518",
+      "39844302",
+      "39675125",
+      "39874850",
+      "38212432",
+      "31951975",
+      "34055990",
+      "38485818",
+      "34390725",
+      "38711073",
+      "33488928",
+      "39267140"
+    ],
+    "review": [
+      "40213661"
+    ],
+    "pmc": [
+      "11980650"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40213661/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO3-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1774",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.thno.org/v15p3877.htm",
+        "provider": "Ivyspring International Publisher",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

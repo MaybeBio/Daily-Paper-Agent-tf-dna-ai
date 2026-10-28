@@ -1,0 +1,123 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided text. No external validation or replication performed.
+- **Shared manuscript claim summary** The authors report structure-based design of selective glucocorticoid receptor modulators (SGRMs) that engage a solvent channel adjacent to the ligand-binding pocket. They claim these compounds suppress pro-inflammatory cytokines, promote memory precursor T cell differentiation, and minimally induce immune checkpoint proteins PD-1 and CTLA-4 or M2 macrophage polarization. They further claim that molecular dynamics simulations reveal a "lever arm" mechanism of allosteric modulation, and that a ligand perturbation with machine learning (LPML) framework identifies coregulated gene networks linking T cell effector function to checkpoint induction.
+- **Visible evidence base** Abstract, Introduction, Results (partial), Discussion, Methods (partial), figure legends referenced but figures not provided, supplementary figure/table references, dataset references.
+- **Missing materials affecting confidence** Figures and supplementary figures/tables not provided. Molecular dynamics simulation section is incomplete ("TBD"). Docking and MD methods sections are empty. RNA-seq dataset accession not provided. Supplementary datasets referenced but not available. Statistical details for several assays incomplete.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question: whether glucocorticoid receptor ligands can be designed to separate anti-inflammatory and anti-tumor effects from immunosuppressive and checkpoint-inducing activities. The chemical strategy, extending a steroidal scaffold into a solvent channel, is logical and builds on prior work. The LPML framework is conceptually interesting and potentially valuable. However, the manuscript as provided is incomplete. The molecular dynamics section is a placeholder, figures are not available, and several methods are missing. The core claims, particularly the allosteric mechanism and the selectivity profile, cannot be fully evaluated from the supplied material. The biological data presented in text form are suggestive but not sufficient to establish the central conclusions.
+- **Who would be interested in the results, and why** Researchers in nuclear receptor biology, glucocorticoid pharmacology, immuno-oncology, and drug discovery. The potential to separate anti-inflammatory from immunosuppressive effects of GR ligands is of broad interest for developing safer therapies for autoimmune diseases and for combining glucocorticoids with checkpoint inhibitor immunotherapy.
+- **Major strengths** The chemical design strategy is rational and grounded in structural knowledge. The use of a graded ligand series combined with machine learning to map coregulated responses is a novel methodological contribution. The focus on immune checkpoint proteins as a key readout is clinically relevant. The inclusion of primary immune cell subsets (CD4, CD8, macrophages) adds physiological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that molecular dynamics simulations revealed a "lever arm" mechanism of allosteric modulation from the solvent channel.
+  - **Evidence pointer** Results section "Molecular dynamics simulations revealed leveraged allostery from the solvent channel" is marked "TBD". Methods sections for Docking and Molecular Dynamics Simulation are empty.
+  - **Concern** The central mechanistic claim of the paper is presented as a placeholder. No simulation data, parameters, or analysis are provided. This is a major component of the paper's novelty and cannot be assessed.
+  - **Why it matters** The allosteric mechanism is a key differentiator of this work from prior GR modulator studies. Without the simulation data, the structural basis for the observed functional selectivity remains speculative.
+  - **Resolution test** Provide the complete MD simulation results, including system setup, force field parameters, simulation length, convergence criteria, and analysis of steroid core dynamics. Show that the solvent-channel substituents indeed alter the conformational ensemble of the ligand-binding domain in a manner distinct from Dex.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability
+  - **Claim pointer** The manuscript reports functional data on T cell cytokines, checkpoint proteins, and macrophage polarization, and a transcriptional network analysis.
+  - **Evidence pointer** Figures 1-4 and supplementary figures S1-S6 are referenced but not provided. Supplementary datasets 1-3 are referenced but not available.
+  - **Concern** All primary data supporting the biological claims are in figures and datasets that were not included in the provided material. The text descriptions are insufficient to evaluate the magnitude, reproducibility, or statistical robustness of the effects.
+  - **Why it matters** The core claims of selective immunomodulation and coregulated gene networks rest entirely on these data. Without access to the figures and datasets, the claims cannot be verified.
+  - **Resolution test** Provide all figures with appropriate statistical annotations, and make supplementary datasets available for review.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological rigor
+  - **Claim pointer** The LPML framework is claimed to identify coregulated responses and gene networks across cell types.
+  - **Evidence pointer** Methods section "Machine Learning" describes simple linear regression of gene expression changes against PD-1 protein expression, with an R2 threshold of 0.5.
+  - **Concern** The description of the LPML framework is minimal. It is unclear how the "graded series of ligands" is used in the regression, how many ligands were included, whether the regression is performed across ligands or across genes, and how the R2 threshold was chosen. The claim of "mapping coregulated responses across cell types" implies a more complex analysis than simple pairwise regression.
+  - **Why it matters** The LPML framework is presented as a generalizable strategy. If the methodology is not clearly described and justified, its utility and validity cannot be assessed.
+  - **Resolution test** Provide a detailed description of the LPML algorithm, including input data, preprocessing, model selection, and validation. Justify the R2 threshold and demonstrate the stability of the identified networks, for example through bootstrapping or cross-validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Concentration and dose-response
+  - **Claim pointer** The authors state that SGRMs "suppressed T cell pro-inflammatory cytokines" and "showed minimal induction of... checkpoint proteins."
+  - **Evidence pointer** Methods section "T cell Drug Treatment and Flow Cytometry" states final concentrations of 10 μM for CD8+ T cells and 1 μM for CD4+ T cells, based on "dose-response curves with dexamethasone and representative compounds (data not shown)".
+  - **Concern** The choice of concentrations differs between CD8+ and CD4+ T cells, and the basis for these concentrations is not shown. It is unclear whether the observed selectivity is concentration-dependent and whether the comparison to Dex is at equimolar or equieffective concentrations.
+  - **Why it matters** Selectivity claims are only meaningful if comparisons are made at appropriate concentrations. If SGRMs are simply less potent than Dex, the observed differences may not reflect qualitative mechanistic differences.
+  - **Resolution test** Provide full dose-response curves for the key assays (cytokine suppression, checkpoint induction, viability) for Dex and the lead SGRMs, and justify the concentrations used in the comparative assays.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript reports correlations between compound effects across assays and cell types.
+  - **Evidence pointer** Results section "Immune cell fingerprinting of GC responses across cell-types revealed patterns of coregulation" and Methods "Quantification and Statistical Analyses".
+  - **Concern** The correlation analysis appears to be based on a small number of compounds (the SGRM series). The number of compounds is not stated. With a small n, Pearson correlations can be unstable and driven by outliers. The threshold for significance in the correlation matrix is stated (r = 0.66), but the number of tests and the correction method are not fully described.
+  - **Why it matters** The LPML framework relies on correlations to identify coregulated networks. If the correlations are not robust, the inferred networks may be spurious.
+  - **Resolution test** State the number of compounds used in the correlation analysis. Provide confidence intervals or bootstrap estimates for the key correlations. Consider using rank-based correlations if the data are not normally distributed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The phrase "enabling the rational design of SGRMs with tailored immunomodulatory profiles" is vague. It is unclear what specific design rules were derived from the LPML analysis.
+  - **Required correction** Specify what design principles or structural features were identified as key determinants of the selective profile.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "NTKO/TKO Proliferation (Claudia in Spicer lab)"
+  - **Issue** The subsection title includes an informal note about the responsible lab member. This is not appropriate for a formal manuscript.
+  - **Required correction** Remove the informal note and use a standard subsection title.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Methods, Quantification and Statistical Analyses
+  - **Evidence pointer** "significance denoted as *p < 0.033, **p < 0.022, and ***p < 0.001"
+  - **Issue** These significance thresholds are unconventional. Standard thresholds are typically p < 0.05, p < 0.01, p < 0.001. The values 0.033 and 0.022 are unusual and may be a typographical error.
+  - **Required correction** Verify the significance thresholds and use standard conventions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Methods, DRUGseq
+  - **Evidence pointer** "Raw and processed RNA-seq datasets will be deposited to the Gene Expression Omnibus (GEO), with accession number XXX, in the future."
+  - **Issue** The accession number is a placeholder. For a preprint, data should be deposited and accessible at the time of submission.
+  - **Required correction** Provide the GEO accession number or state a clear timeline for deposition.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Molecular Dynamics
+  - **Evidence pointer** "TBD"
+  - **Issue** The section is incomplete.
+  - **Required correction** Complete the section with the simulation results.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Figure 3
+  - **Evidence pointer** "Fig 3A, fig. 5B-C" and "Fig 3A, fig. S6A–B"
+  - **Issue** There are inconsistent references to supplementary figures (fig. 5B-C vs. fig. S5B-C). This may be a typographical error.
+  - **Required correction** Standardize figure references.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Methods, Macrophage Polarization
+  - **Evidence pointer** "macrophages were then treated with 10μM of vehicle, Dex, or GR compounds for 48 h"
+  - **Issue** The concentration of Dex is not specified. It is unclear whether Dex was used at 10 μM or at a different concentration.
+  - **Required correction** Specify the Dex concentration used in the macrophage experiments.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (MD simulations missing), R1-M2 (figures and datasets not provided), R1-M3 (LP framework underdescribed), R1-M4 (concentration selection not justified).
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of using a solvent-channel-directed ligand series combined with machine learning to map GR allosteric networks is original. The specific claim of separating checkpoint induction from anti-inflammatory activity is novel. However, the originality cannot be fully assessed without the MD data and the complete biological datasets.
+  - **Scientific importance** The question of whether GR ligands can be designed to avoid immunosuppressive and checkpoint-inducing effects is of high importance for both basic biology and clinical translation. If substantiated, this work could influence the design of safer glucocorticoids and inform combination strategies with immunotherapy.
+  - **Interdisciplinary readership** The work spans medicinal chemistry, structural biology, immunology, and computational biology. It would appeal to a broad readership if the data are presented clearly. The current text is accessible but the incomplete sections limit its impact.
+  - **Technical soundness** The chemical synthesis and initial biological assays appear reasonable based on the text. The LPML approach is conceptually sound but underdescribed. The MD simulations, a key technical component, are absent. The statistical methods are partially described but the unconventional significance thresholds raise concerns.
+  - **Readability for nonspecialists** The abstract and introduction are well written and accessible. The results section is more technical and would benefit from clearer explanations of the LPML framework and the significance of the solvent-channel mechanism. The incomplete sections disrupt the flow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential but is incomplete. The central mechanistic claim (MD simulations) is missing, and the primary biological data are not available for review. The LPML methodology is underdescribed. The authors should be invited to resubmit a complete version with all figures, datasets, and the MD simulation section included.
+
+## Risk / unsupported claims
+- The claim that SGRMs "promoted differentiation of memory precursor T cells" is not supported by data shown in the text; the relevant figure is not provided.
+- The claim that SGRMs "showed minimal induction of... checkpoint proteins PD-1 and CTLA-4" is based on data not shown.
+- The claim that "solvent-channel substituents function as a lever arm to drive dynamic oscillations in the steroid core" is entirely unsupported as the MD section is marked "TBD".
+- The claim that the LPML framework "identified effector T cell gene networks tightly coupled with immune checkpoint induction" is based on datasets not provided.
+- The claim that the compounds "spanned a full range of activities" in the NTKO assay is not quantifiable without the dose-response data.
+- The claim that "SR11466 opened the pore to enable potent binding" is based on structural data not shown in the provided text.

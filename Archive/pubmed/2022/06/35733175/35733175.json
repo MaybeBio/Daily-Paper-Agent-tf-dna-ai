@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "35733175",
+    "doi": "10.1186/s12885-022-09763-2",
+    "title": "Exploring the potential mechanism of emetine against coronavirus disease 2019 combined with lung adenocarcinoma: bioinformatics and molecular simulation analyses."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Patients with lung adenocarcinoma (LUAD) may be more predisposed to coronavirus disease 2019 (COVID-19) and have a poorer prognosis. Currently, there is still a lack of effective anti-LUAD/COVID-19 drugs. Thus, this study aimed to screen for an effective anti-LUAD/COVID-19 drug and explore the potential mechanisms. METHODS: Firstly, we performed differentially expressed gene (DEG) analysis on LUAD transcriptome profiling data in The Cancer Genome Atlas (TCGA), where intersections with COVID-19-related genes were screened out. Then, we conducted Cox proportional hazards analyses on these LUAD/COVID-19 DEGs to construct a risk score. Next, LUAD/COVID-19 DEGs were uploaded on Connectivity Map to obtain drugs for anti-LUAD/COVID-19. Finally, we used network pharmacology, molecular docking, and molecular dynamics (MD) simulation to explore the drug's therapeutic targets and potential mechanisms for anti-LUAD/COVID-19. RESULTS: We identified 230 LUAD/COVID-19 DEGs and constructed a risk score containing 7 genes (BTK, CCL20, FURIN, LDHA, TRPA1, ZIC5, and SDK1) that could classify LUAD patients into two risk groups. Then, we screened emetine as an effective drug for anti-LUAD/COVID-19. Network pharmacology analyses identified 6 potential targets (IL6, DPP4, MIF, PRF1, SERPING1, and SLC6A4) for emetine in anti-LUAD/COVID-19. Molecular docking and MD simulation analyses showed that emetine exhibited excellent binding capacities to DDP4 and the main protease (Mpro) of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). CONCLUSIONS: This study found that emetine may inhibit the entry and replication of SARS-CoV-2 and enhance tumor immunity by bounding to DDP4 and Mpro.",
+    "keywords": [
+      "Bioinformatics analyses",
+      "COVID-19",
+      "Emetine",
+      "Lung adenocarcinoma",
+      "Molecular docking",
+      "Molecular dynamics"
+    ],
+    "mesh_terms": [
+      "*Adenocarcinoma of Lung/complications/drug therapy",
+      "Computational Biology",
+      "DNA-Binding Proteins/genetics",
+      "*Emetine/pharmacology",
+      "Gene Expression Regulation, Neoplastic",
+      "Humans",
+      "*Lung Neoplasms/complications/drug therapy",
+      "Molecular Docking Simulation",
+      "*SARS-CoV-2/drug effects",
+      "Serotonin Plasma Membrane Transport Proteins/genetics/metabolism",
+      "Transcription Factors/genetics",
+      "*COVID-19 Drug Treatment"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Kun",
+        "Wang, Ke",
+        "Zhang, Chaoguo",
+        "Teng, Xiuli",
+        "Li, Dan",
+        "Chen, Mingwei"
+      ],
+      "short_names": [
+        "Zhang K",
+        "Wang K",
+        "Zhang C",
+        "Teng X",
+        "Li D",
+        "Chen M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Respiratory and Critical Care Medicine, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi Province, China.",
+        "Department of Respiratory and Critical Care Medicine, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi Province, China.",
+        "Department of Respiratory and Critical Care Medicine, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi Province, China.",
+        "Department of Respiratory and Critical Care Medicine, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi Province, China.",
+        "Department of Respiratory and Critical Care Medicine, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi Province, China.",
+        "Department of Respiratory and Critical Care Medicine, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi Province, China. chenmw36@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Kun",
+        "short_name": "Zhang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ke",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chaoguo",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Teng, Xiuli",
+        "short_name": "Teng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dan",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Mingwei",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi Province, China. chenmw36@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cancer"
+    ],
+    "journal_abbrev": [
+      "BMC Cancer"
+    ],
+    "pub_date": "2022 Jun 22",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/23 06:00",
+    "fetched_at": "2026-09-28 09:58:03"
+  },
+  "links": {
+    "cites": [
+      "41799383",
+      "40853920",
+      "40687580",
+      "37335738",
+      "36329841",
+      "35896984"
+    ],
+    "refs": [
+      "36057267",
+      "35156902",
+      "34967848",
+      "34962505",
+      "34953359",
+      "34863994",
+      "34780863",
+      "34649152",
+      "34626304",
+      "34594836",
+      "34396086",
+      "34254564",
+      "34018657",
+      "33916927",
+      "33839715",
+      "33828375",
+      "33759279",
+      "33538338",
+      "33169132",
+      "33151290",
+      "33125081",
+      "33067112",
+      "32962519",
+      "32962378",
+      "32954977",
+      "32815481",
+      "32814759",
+      "32738607",
+      "32726803",
+      "32321856",
+      "32251767",
+      "32248766",
+      "32198291",
+      "32066541",
+      "31912902",
+      "31775307",
+      "31441146",
+      "31436297",
+      "30741976",
+      "30620402",
+      "29872540",
+      "29800655",
+      "29536226",
+      "28573592",
+      "27336364",
+      "26332055",
+      "26075911",
+      "25310746",
+      "25216328",
+      "24660890",
+      "23831647",
+      "22559147",
+      "19499576",
+      "19399780",
+      "17618469",
+      "17008526",
+      "11148007",
+      "10592173",
+      "10352854"
+    ],
+    "similar": [
+      "35733175",
+      "36157452",
+      "37694790",
+      "32741804",
+      "36924737",
+      "35910781",
+      "38783288",
+      "37990309",
+      "35390032",
+      "31698633",
+      "34254564",
+      "34880385",
+      "36119022",
+      "34775559",
+      "37000102",
+      "38555814",
+      "37315647",
+      "33414898",
+      "29870138",
+      "37790630",
+      "33134373",
+      "34301211",
+      "36400857",
+      "38967229",
+      "38071755",
+      "34175739",
+      "35007526",
+      "35871777",
+      "33422520",
+      "37581210",
+      "37996625",
+      "34712201",
+      "32556504",
+      "36591698",
+      "38811809",
+      "33062704",
+      "37592781",
+      "33513419",
+      "38647237",
+      "34819106",
+      "34256754",
+      "38862217",
+      "37218202",
+      "34510311",
+      "33029490",
+      "38618726",
+      "32103339",
+      "32578582",
+      "35635202",
+      "35520289",
+      "35844446",
+      "36311724",
+      "38414025",
+      "33711336",
+      "35866781",
+      "37322027",
+      "39075165",
+      "34397869",
+      "38167084",
+      "35210754",
+      "37325819",
+      "33655889",
+      "34951253",
+      "34840672",
+      "38973963",
+      "34256900",
+      "37986325",
+      "38764064",
+      "32769881",
+      "33195688",
+      "32298601",
+      "35029877",
+      "35384056",
+      "31322267",
+      "36892747",
+      "35504892",
+      "38356310",
+      "33648465",
+      "34111567",
+      "35127768",
+      "32568613",
+      "32819300",
+      "32384511",
+      "33764269",
+      "34367321",
+      "36524130",
+      "34259140",
+      "35438554",
+      "34115610",
+      "37378675",
+      "37259225",
+      "28533502",
+      "32916258",
+      "34623759",
+      "36104591",
+      "30195659",
+      "38475658"
+    ],
+    "review": [
+      "35733175"
+    ],
+    "pmc": [
+      "9214478"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-022-09763-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35733175/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35733175",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

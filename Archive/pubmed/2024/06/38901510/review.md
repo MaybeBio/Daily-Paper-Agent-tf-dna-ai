@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, as supplied
+- **Shared manuscript claim summary** The authors report a combined thermodynamic, structural, and dynamic characterization of viral PTAP late-domain recognition by TSG101-UEV, using isothermal titration calorimetry, X-ray crystallography, molecular dynamics simulations, and computational analysis of intramolecular communication pathways. They identify conserved hydrophobic contacts and water-mediated hydrogen bonds at the binding interface, plus electrostatic hotspots adjacent to the core motif that modulate affinity. Using competitive phage display, they report improved affinity by 1-2 orders of magnitude, yielding novel peptides with low micromolar affinities. Molecular dynamics simulations suggest optimized peptides engage new pockets on the UEV domain surface. The authors conclude that binding is governed by conserved structural elements yet tuneable through targeted optimization, with implications for inhibitor design against TSG101-dependent pathways.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or numerical data are provided.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, experimental methods, numerical thermodynamic parameters, crystallographic statistics, phage display library details, peptide sequences, simulation parameters, and statistical analyses. None of these are available for verification.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and integrative study of TSG101-UEV recognition of PTAP motifs, combining multiple biophysical and computational approaches. The claim of improved peptide affinity through phage display is notable and could be of interest to the antiviral drug development community. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the methods, the robustness of the thermodynamic and structural data, or the validity of the computational conclusions. Several claims are stated without supporting quantitative evidence, and the relationship between the phage display results and the structural findings is not clearly established. The work may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists and biophysicists studying protein-protein interactions involving ubiquitin pathway components would find the thermodynamic and structural characterization relevant. Virologists and antiviral drug developers focused on host-oriented strategies against enveloped viruses, particularly those targeting TSG101-dependent budding, would be interested in the improved peptide ligands as potential lead compounds. Computational chemists working on molecular dynamics and binding free energy analysis may also find the intramolecular communication pathway analysis of interest.
+- **Major strengths** The integrative approach combining experimental thermodynamics, crystallography, and computational simulation is commendable and potentially powerful. The identification of water-mediated hydrogen bonds and electrostatic hotspots as modulators of affinity adds mechanistic nuance beyond the canonical hydrophobic PTAP contacts. The use of competitive phage display to improve affinity by 1-2 orders of magnitude is a practical and potentially valuable advance. The claim that optimized peptides engage new pockets on the UEV surface suggests a novel mechanistic insight.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that phage display screening improved affinity by 1-2 orders of magnitude, producing novel peptides with low micromolar affinities.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract states that affinity was improved by 1-2 orders of magnitude but provides no numerical values for the starting and final affinities, no peptide sequences, no information on the phage display library design or screening stringency, and no comparison with natural PTAP-containing ligands. The claim of "low micromolar affinities" is vague and cannot be assessed without specific dissociation constants and the corresponding experimental conditions.
+  - **Why it matters** The central practical advance of the study is the improved peptide affinity. Without quantitative thermodynamic data and experimental details, the magnitude and significance of the improvement cannot be verified. This claim is foundational to the stated therapeutic implications.
+  - **Resolution test** Provide the measured dissociation constants or binding free energies for the starting ligands and the optimized peptides, with error estimates and the number of replicates. Include peptide sequences and the phage display screening protocol details.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that molecular dynamics simulations revealed that optimized peptides engage new pockets on the UEV domain surface.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** No simulation details are provided, including force field parameters, simulation length, number of replicas, convergence criteria, or the method used to identify "new pockets." The abstract does not specify whether these pockets were observed in the crystal structures or only in silico, nor whether the simulations were validated against experimental binding data.
+  - **Why it matters** The claim that optimized peptides engage new pockets is a novel mechanistic proposal that could explain the improved affinity. If this is based solely on unvalidated simulations, the conclusion is speculative. The structural basis of the improved binding must be supported by experimental evidence or at least by robust and clearly described computational methodology.
+  - **Resolution test** Describe the simulation protocol in full, including software, force field, simulation time, and analysis methods. If possible, provide experimental structural evidence, such as co-crystal structures of the optimized peptides with TSG101-UEV, or clearly state that the pocket engagement is a simulation-derived hypothesis requiring experimental validation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that binding is governed by conserved structural elements yet tuneable through targeted optimization, and that electrostatic hotspots adjacent to the core motif modulate affinity.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract does not provide any quantitative thermodynamic data, such as enthalpy and entropy changes, for the identified electrostatic hotspots or for the water-mediated hydrogen bonds. The relative contributions of hydrophobic contacts, water-mediated hydrogen bonds, and electrostatic interactions to the overall binding free energy are not quantified. The claim that binding is "tuneable" is not supported by a systematic mutational analysis or by a comparison of multiple ligand variants.
+  - **Why it matters** The mechanistic conclusions are the intellectual core of the study. Without quantitative dissection of the energetic contributions, the claims remain qualitative and cannot be evaluated for robustness. The "tuneability" claim requires demonstration that specific modifications lead to predictable changes in affinity.
+  - **Resolution test** Provide a table of thermodynamic parameters for the natural PTAP ligand and for the optimized peptides, including enthalpy, entropy, and heat capacity changes where available. Include mutational data or structure-activity relationships that demonstrate the role of the identified electrostatic hotspots.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "viral PTAP Late domain recognition" is grammatically awkward and potentially confusing. It is unclear whether the authors mean recognition of viral PTAP late domains or recognition of PTAP motifs within viral late domains.
+  - **Required correction** Rephrase to "recognition of PTAP motifs within viral late domains" or similar for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "computational analysis of intramolecular communication pathways" but does not describe what this analysis revealed or how it relates to the binding mechanism. This appears as an orphan method without a corresponding result.
+  - **Required correction** Either state a specific finding from this analysis or remove the mention from the abstract to avoid implying an unstated result.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Abstract claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The claim of "low micromolar affinities" is imprecise. Low micromolar could range from 1 to 10 micromolar, which represents a significant difference in binding affinity for a potential lead compound.
+  - **Required correction** Provide the specific dissociation constant values or a narrow range with error estimates.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative thermodynamic data, the lack of simulation details, and the unquantified mechanistic claims collectively prevent the case from being established from the supplied material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of phage display with structural and thermodynamic analysis for TSG101-UEV is moderately original, though the general approach is not unprecedented. The claim of new pocket engagement is potentially novel but unverified.
+  - Scientific importance: The topic is relevant to antiviral development and protein-protein interaction biology, but the importance is not fully demonstrated without quantitative evidence of improved affinity and specificity.
+  - Interdisciplinary readership: The study spans structural biology, biophysics, computational chemistry, and virology, which could attract a broad readership if the results are robustly supported.
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail and quantitative data is a significant limitation.
+  - Readability for nonspecialists: The abstract is generally readable but uses jargon without sufficient context, and the logical flow from methods to conclusions is not fully transparent.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially valuable study, but the absence of quantitative data and methodological detail prevents a supportive recommendation. A full manuscript with complete experimental results would be required to assess the validity and significance of the claims.
+
+## Risk / unsupported claims
+- The claim of improved affinity by 1-2 orders of magnitude is unsupported without numerical binding data.
+- The claim that optimized peptides engage new pockets on the UEV domain surface is unsupported without simulation details or experimental structural evidence.
+- The claim that electrostatic hotspots adjacent to the core motif modulate affinity is unsupported without quantitative thermodynamic or mutational data.
+- The claim that binding is "tuneable through targeted optimization" is unsupported without a systematic demonstration of predictable affinity changes.
+- The claim of "water-mediated hydrogen bonds" contributing to binding is stated but not quantified or structurally demonstrated in the abstract.
+- The therapeutic implications for broad-spectrum antivirals are speculative and not supported by any functional or cellular data in the abstract.

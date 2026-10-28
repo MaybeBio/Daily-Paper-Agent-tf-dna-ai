@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37569400",
+  "title": "DeepSATA: A Deep Learning-Based Sequence Analyzer Incorporating the Transcription Factor Binding Affinity to Dissect the Effects of Non-Coding Genetic Variants.",
+  "authors": "Ma, Wenlong; Fu, Yang; Bao, Yongzhou; Wang, Zhen; Lei, Bowen; Zheng, Weigang; Wang, Chao; Liu, Yuwen",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2023-08-12",
+  "window": {
+    "start": "2023-08-07",
+    "end": "2023-08-13"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于深度学习的序列分析器DeepSATA，整合转录因子结合亲和力实现跨物种染色质可及性预测与调控变异注释，虽非直接TF-DNA结合机制建模，但方法可迁移至TF-DNA互作研究。",
+  "abstract": "Utilizing large-scale epigenomics data, deep learning tools can predict the regulatory activity of genomic sequences, annotate non-coding genetic variants, and uncover mechanisms behind complex traits. However, these tools primarily rely on human or mouse data for training, limiting their performance when applied to other species. Furthermore, the limited exploration of many species, particularly in the case of livestock, has led to a scarcity of comprehensive and high-quality epigenetic data, posing challenges in developing reliable deep learning models for decoding their non-coding genomes. The cross-species prediction of the regulatory genome can be achieved by leveraging publicly available data from extensively studied organisms and making use of the conserved DNA binding preferences of transcription factors within the same tissue. In this study, we introduced DeepSATA, a novel deep learning-based sequence analyzer that incorporates the transcription factor binding affinity for the cross-species prediction of chromatin accessibility. By applying DeepSATA to analyze the genomes of pigs, chickens, cattle, humans, and mice, we demonstrated its ability to improve the prediction accuracy of chromatin accessibility and achieve reliable cross-species predictions in animals. Additionally, we showcased its effectiveness in analyzing pig genetic variants associated with economic traits and in increasing the accuracy of genomic predictions. Overall, our study presents a valuable tool to explore the epigenomic landscape of various species and pinpoint regulatory deoxyribonucleic acid (DNA) variants associated with complex traits.",
+  "abstract_zh": "利用大规模表观基因组学数据，深度学习工具能够预测基因组序列的调控活性、注释非编码遗传变异，并揭示复杂性状背后的机制。然而，这些工具主要依赖人类或小鼠数据进行训练，限制了其在其他物种上的应用性能。此外，许多物种（尤其是家畜）的探索有限，导致全面且高质量的表观遗传数据稀缺，这为开发可靠的深度学习模型以解码其非编码基因组带来了挑战。通过利用广泛研究物种的公开数据，并利用同一组织内转录因子保守的DNA结合偏好，可以实现调控基因组的跨物种预测。在本研究中，我们引入了DeepSATA，一种新型的基于深度学习的序列分析器，它整合了转录因子结合亲和力，用于染色质可及性的跨物种预测。通过将DeepSATA应用于分析猪、鸡、牛、人类和小鼠的基因组，我们证明了其提高染色质可及性预测准确性的能力，并在动物中实现了可靠的跨物种预测。此外，我们还展示了其在分析与经济性状相关的猪遗传变异以及提高基因组预测准确性方面的有效性。总体而言，我们的研究提供了一个有价值的工具，用于探索多种物种的表观基因组景观，并精确定位与复杂性状相关的调控性脱氧核糖核酸（DNA）变异。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37569400/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37569400/",
+  "paper_page_path": "papers/pubmed/37569400/index.html"
+}

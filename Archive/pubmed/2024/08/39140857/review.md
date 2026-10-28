@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and supplementary figure/table references
+- **Assessment boundary** Scientific validity of the claims, methodological soundness, evidence quality, and alignment with the stated conclusions. No assessment of editorial fit or publication venue suitability.
+- **Shared manuscript claim summary** The authors apply their previously developed RP-MDS computational method to classify 397 TP53 somatic missense variants from COSMIC as deleterious or non-deleterious based on predicted effects on p53 structural stability. They report 195 (49.1%) predicted deleterious variants, validate a subset of 18 predicted deleterious variants using a GFP reporter assay in H1299 cells, and conclude that somatic missense variant deleteriousness can be identified by structural stability effects.
+- **Visible evidence base** Abstract, full methods section, results narrative, discussion, references to Figures 1–8 and Supplementary Figures/Tables (figures and tables themselves not provided), Table 1 referenced but not shown, Table S1/S2 referenced but not shown
+- **Missing materials affecting confidence** All figures and tables are referenced but not provided. Supplementary materials not available. The RP-MDS server URL is given but not assessed. Training variant lists and raw numerical data not provided. GFP assay raw fluorescence values and statistical outputs not shown.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful application of an established computational method to a clinically relevant problem. The core hypothesis, that somatic and germline missense variants affecting the same codon have similar structural consequences, is reasonable and supported by prior work. However, the evidence as presented is insufficient to fully establish the claims. The training set is small, the validation is limited to 18 variants in a single cell line, and the reported validation success rate (12/18, 66.7%) is modest. The manuscript would benefit from clearer presentation of the classification thresholds, more robust validation, and direct comparison with existing somatic variant classification approaches.
+- **Who would be interested in the results, and why** Cancer geneticists and molecular pathologists interested in functional interpretation of TP53 somatic variants; computational biologists developing variant effect prediction tools; clinical genomics researchers seeking to improve variant classification for precision oncology. The potential to classify the large number of unclassified somatic TP53 variants is clinically relevant.
+- **Major strengths** The RP-MDS method is mechanistically grounded in protein structure rather than sequence conservation, which is appropriate for somatic variants. The study addresses a real gap in somatic variant classification. The inclusion of a functional validation assay, albeit limited, strengthens the work. The authors acknowledge limitations of their approach and discuss biological differences between germline and somatic variants.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that RP-MDS predicted 195 of 397 (49.1%) somatic missense variants as deleterious, and that this classification is validated by the GFP reporter assay.
+  - **Evidence pointer** Results section, "Classification of somatic missense variants"; "Functional validation for the predicted deleterious variants"; Figure 8 (not provided)
+  - **Concern** The validation set is small (18 predicted deleterious variants) and the success rate is 66.7% (12/18). No non-deleterious predicted variants were tested as negative controls in the functional assay. Without testing predicted non-deleterious variants, the specificity of the method cannot be assessed. The authors report that 6 of 18 predicted deleterious variants showed no significant GFP reduction, which is a substantial false positive rate. The manuscript does not provide a clear explanation for these discordant cases, and the discussion attributes them to possible assay limitations without direct evidence.
+  - **Why it matters** The central claim is that RP-MDS can identify deleterious somatic missense variants. A 66.7% validation rate with no negative controls does not establish the predictive value of the method. The false positive rate may be higher than reported if predicted non-deleterious variants also show functional effects. Without this information, the clinical utility of the classification is not demonstrated.
+  - **Resolution test** Provide functional assay results for a matched set of predicted non-deleterious variants. Report sensitivity, specificity, positive predictive value, and negative predictive value. If possible, include additional validation using orthogonal assays (e.g., transcriptional activity, protein stability measurements) or comparison with established functional databases (e.g., IARC TP53 database).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that a threshold of structural deviation greater than 3.46 was used to classify variants as deleterious, based on the pathogenic variant distribution.
+  - **Evidence pointer** Methods section, "Molecular Dynamics Simulation and Ramachandran Plot"; Results section, "Determination of threshold between deleterious and nondeleterious variants"; Figure 2 (not provided)
+  - **Concern** The derivation of the 3.46 threshold is described only briefly. The authors state it corresponds to the 95th percentile of the lower mean, but the statistical details are unclear. The training set consists of only 26 pathogenic, 18 benign, and 8 wildtype alleles. The manuscript does not report the distribution of structural deviation values for these training variants, nor does it show how the threshold separates the two groups. The choice of 95th percentile of the lower mean is not standard and requires justification. Additionally, the authors note that the threshold may need adjustment for different studies, which undermines the generalizability of the classification.
+  - **Why it matters** The threshold is the basis for all classifications in the study. If the threshold is not robustly derived or is arbitrary, the classification results are not reliable. The small training set and lack of cross-validation raise concerns about overfitting. The manuscript does not demonstrate that the threshold is stable across different variant subsets or that it generalizes beyond the training data.
+  - **Resolution test** Provide a detailed description of the threshold derivation, including the distributions of structural deviation values for training variants. Perform cross-validation or bootstrap analysis to assess threshold stability. Report the area under the ROC curve or similar discrimination metrics. Justify the choice of 95th percentile of the lower mean or use a more standard statistical approach.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative analysis
+  - **Claim pointer** The authors state in the Discussion that RP-MDS is superior to other in silico methods based on previous studies, and imply that this superiority extends to somatic variant classification.
+  - **Evidence pointer** Discussion section, paragraph 2; references to previous studies [6, 9, 11]
+  - **Concern** The claim of superiority is based on comparisons made in previous publications for germline variants. The current study does not include any direct comparison of RP-MDS with other commonly used somatic variant prediction tools (e.g., SIFT, PolyPhen-2, MutationAssessor, CADD, or cancer-specific tools such as CHASM or TransFIC) on the same TP53 somatic variant set. The authors also do not compare their predictions with the CMC tier classification or with experimentally determined functional data from the IARC TP53 database.
+  - **Why it matters** For the method to be adopted, it must demonstrate added value over existing tools. The manuscript does not provide evidence that RP-MDS outperforms or complements current approaches for somatic variant classification. Without a head-to-head comparison, the practical utility of the method is unclear.
+  - **Resolution test** Perform a comparative analysis of RP-MDS predictions against multiple established in silico tools on the same 397 variant set. Report concordance, discordance, and performance metrics against known functional outcomes where available. Discuss cases where RP-MDS provides unique information not captured by other methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation
+  - **Claim pointer** The authors state that predicted deleterious variants were enriched at specific residue positions and that this enrichment supports the biological relevance of the classification.
+  - **Evidence pointer** Results section, "Classification of somatic missense variants"; Figure 3 and Supplementary Figure 1 (not provided)
+  - **Concern** The enrichment analysis is descriptive. The authors report that deleterious variants were concentrated in the 150–170 and 200–240 residue regions, but they do not provide statistical testing for enrichment. They also note that the difference between deleterious and non-deleterious variant distributions was not significant (Supplementary Figure 1), which contradicts the claim of enrichment. The biological interpretation of the enriched regions is not discussed in detail, and no comparison is made with known TP53 functional domains or mutational hotspots.
+  - **Why it matters** The claim of enrichment is used to support the biological validity of the classification. If the enrichment is not statistically significant, this support is weakened. A more rigorous analysis would strengthen the case that RP-MDS identifies biologically meaningful variants.
+  - **Resolution test** Perform statistical enrichment analysis (e.g., Fisher exact test or permutation-based methods) comparing the distribution of predicted deleterious versus non-deleterious variants across protein domains. Discuss the biological significance of any enriched regions in the context of known TP53 structure-function relationships.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, GFP-based functional assay
+  - **Evidence pointer** Methods section, "GFP-based functional assay"
+  - **Issue** The description of the GFP assay is incomplete. The authors state that GFP activity was read using a microplate reader but do not specify the excitation/emission wavelengths, the normalization method (e.g., cell viability, transfection efficiency), or whether a standard curve was used. The statistical test is described as a one-tailed t-test, but the number of independent experiments and replicates per experiment is not stated.
+  - **Required correction** Provide complete details of the assay protocol, including wavelengths, normalization, number of independent experiments, and replicates. Clarify whether the one-tailed t-test was pre-specified and justify its use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability section
+  - **Issue** The data availability statement refers only to the RP-MDS server. It does not mention availability of the structural deviation values for all 397 variants, the GFP assay raw data, or the training variant lists. This limits reproducibility.
+  - **Required correction** Provide a supplementary data file with all variant-level predictions and assay results, or state clearly where these data can be accessed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, "Determination of threshold between deleterious and nondeleterious variants"
+  - **Evidence pointer** Results section, Figure 2 (not provided)
+  - **Issue** The authors report a p-value of less than 0.0001 for the comparison between benign and pathogenic variant distributions but do not state the effect size or confidence intervals. The figure is not available for review.
+  - **Required correction** Report effect size and confidence intervals for the comparison. Ensure that figure captions include all necessary statistical details.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Abstract, Results, Discussion
+  - **Issue** The terms "deleterious" and "non-deleterious" are used as binary classifications, but the manuscript acknowledges that structural effects exist on a continuum. The use of a hard threshold may oversimplify the biological reality.
+  - **Required correction** Consider using graded categories or reporting continuous structural deviation values alongside binary classifications. Discuss the implications of threshold-based classification for clinical interpretation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (validation without negative controls), R1-M2 (threshold derivation not fully transparent), R1-M3 (no comparative analysis with existing tools)
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of an existing method to somatic variants is incremental, though the focus on structural stability is a useful angle. Scientific importance: Moderate. TP53 somatic variant classification is clinically relevant, but the study does not provide a definitive solution. Interdisciplinary readership: Limited. The work is primarily of interest to computational biologists and TP53 researchers. Technical soundness: Weak to moderate. The computational method is established, but the validation is limited and the threshold derivation lacks rigor. Readability for nonspecialists: Adequate. The manuscript is generally clear, though some methodological details are dense.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem and the approach is mechanistically reasonable, but the evidence presented is insufficient to support the central claims. The validation is too limited, the threshold derivation is not fully transparent, and no comparison with existing methods is provided. Major revisions addressing these concerns are required before the case is established.
+
+## Risk / unsupported claims
+- The claim that RP-MDS can identify deleterious somatic missense variants is not fully supported due to the limited validation (12/18 success rate) and absence of negative controls.
+- The claim that predicted deleterious variants were enriched at specific residue positions is not supported by statistical testing, and the authors themselves note the difference was not significant.
+- The assertion in the Discussion that RP-MDS is superior to other in silico methods for somatic variant classification is extrapolated from germline studies and is not directly tested here.
+- The statement that "deleterious somatic missense variants can be identified by referring to their impact on protein structural stability" is presented as a general conclusion but is based on a single gene and a small validation set.
+- The manuscript does not provide evidence that the 3.46 threshold is generalizable beyond the training set or stable across different variant subsets.

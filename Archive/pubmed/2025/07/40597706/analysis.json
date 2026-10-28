@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40597706",
+  "title": "Development and clinical validation of deep learning-based immunohistochemistry prediction models for subtyping and staging of gastrointestinal cancers.",
+  "authors": "Wang, Junxiao; Zhang, Shiying; Li, Jia; Deng, Mei; Zeng, Zhi; Dong, Zehua; Chen, Fangfang; Liu, Wen; Wu, Lianlian; Yu, Honggang",
+  "journal": "BMC gastroenterology",
+  "published_date": "2025-07-02",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用深度学习从H&E切片预测IHC生物标志物用于胃肠癌分型分期，属纯组织病理图像分析，无蛋白质-DNA互作体系、结合建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: Immunohistochemistry (IHC) is a critical tool for tumor diagnosis and treatment, but it is time and tissue consuming, and highly dependent on skilled laboratory technicians. Recently, deep learning-based IHC biomarker prediction models have been widely developed, but few investigations have explored their clinical application effectiveness. METHODS: In this study, we aimed to create an automatic pipeline for the construction of deep learning models to generate AI-IHC (Artificial Intelligence) output using H&E whole slide images (WSIs) and compared the pathology reports by pathologists on AI-IHC versus conventional IHC. We obtained 134 WSIs including H&E and IHC pairs, and automatically extracted 415,463 tiles from H&E slides for model construction based on the annotation transfer from IHC slides. Five IHC biomarker prediction models (P40, Pan-CK, Desmin, P53, Ki-67) were developed to support a range of clinically relevant diagnostic applications across various gastrointestinal cancer subtypes, including esophageal, gastric, and colorectal cancers. The Ki-67 proliferation index was quantitatively assessed using digital image analysis. RESULTS: The AUCs of five IHC biomarker models ranged from 0.90 to 0.96 and the accuracies were between 83.04 and 90.81%. Additional 150 WSIs from 30 patients were collected to assess the effectiveness of AI-IHC through the multi-reader multi-case (MRMC) study. Each case was read by three pathologists, once on AI-IHC and once on conventional IHC with a minimum 2-week washout period. The results indicate that the consistency rates of pathologists in AI and conventional IHC cases were high in Desmin, Pan-CK and P40 (96.67-100%) while moderate in the P53 (70.00%). We also evaluated the T-stage through the staining of these IHC biomarkers and the consistency rate was 86.36%. Furthermore, the Ki-67 proliferation index, as reported by AI-IHC, showed a variability ranging from 17.35% +/-16.2% compared to conventional IHC, with ICC of 0.415 (P = 0.015) between these two groups. CONCLUSIONS: Here, we leveraged automatic tile-level annotations from H&E slides to efficiently develop deep learning-based IHC biomarker models, achieving AUCs between 0.90 and 0.96. AI generated IHC showed substantial concordance with conventional IHC across most markers, supporting its potential as an assistive tool in routine diagnostics.",
+  "abstract_zh": "背景：免疫组织化学（IHC）是肿瘤诊断和治疗中的关键工具，但其耗时且消耗组织，并高度依赖熟练的实验室技术人员。近年来，基于深度学习的IHC生物标志物预测模型已被广泛开发，但很少有研究探讨其临床应用效果。方法：在本研究中，我们旨在构建一个自动化流程，用于开发深度学习模型，以从H&E全切片图像（WSIs）生成AI-IHC（人工智能）输出，并比较病理学家对AI-IHC与传统IHC的病理报告。我们获取了134张包含H&E和IHC配对的WSIs，并基于IHC切片的注释转移，从H&E切片中自动提取了415,463个图块用于模型构建。开发了五种IHC生物标志物预测模型（P40、Pan-CK、Desmin、P53、Ki-67），以支持多种胃肠道癌症亚型（包括食管癌、胃癌和结直肠癌）的临床相关诊断应用。Ki-67增殖指数通过数字图像分析进行定量评估。结果：五种IHC生物标志物模型的AUC范围为0.90至0.96，准确率介于83.04%至90.81%之间。额外收集了来自30名患者的150张WSIs，通过多读片者多病例（MRMC）研究评估AI-IHC的有效性。每个病例由三名病理学家分别读取，一次基于AI-IHC，一次基于传统IHC，间隔至少2周的洗脱期。结果表明，病理学家在AI和传统IHC病例中的一致性率在Desmin、Pan-CK和P40中较高（96.67-100%），而在P53中为中等（70.00%）。我们还通过这些IHC生物标志物的染色评估了T分期，一致性率为86.36%。此外，AI-IHC报告的Ki-67增殖指数与传统IHC相比，变异性范围为17.35% ± 16.2%，两组间ICC为0.415（P = 0.015）。结论：在本研究中，我们利用H&E切片的自动图块级注释，高效开发了基于深度学习的IHC生物标志物模型，实现了0.90至0.96的AUC。AI生成的IHC在大多数标志物上与传统IHC显示出显著一致性，支持其作为常规诊断辅助工具的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40597706/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40597706/",
+  "paper_page_path": "papers/pubmed/40597706/index.html"
+}

@@ -1,0 +1,257 @@
+{
+  "identity": {
+    "pmid": "40861392",
+    "doi": "10.1093/bioadv/vbaf175",
+    "title": "Statistical relationships across epigenomes using large-scale hierarchical clustering."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Recent advances in genomics and sequencing platforms have revolutionized our ability to create immense data sets, particularly for studying epigenetic regulation of gene expression. However, the avalanche of epigenomic data is difficult to parse for biological interpretation given nonlinear complex patterns and relationships. This attractive challenge in epigenomic data lends itself to machine learning for discerning infectivity and susceptibility. In this study, we explore over 3000 epigenomes of uninfected individuals and provide a framework to characterize the relationships among epigenetic modifiers, their modifiers, genetic loci, and specific immune cell types across all chromosomes using hierarchical clustering. RESULTS: Hierarchical clustering of epigenomic data revealed consistent epigenetic patterns across chromosomes, demonstrating that variation due to epigenetic modifiers is greater than variation between cell types. Gene Ontology and KEGG pathway analyses indicated significant enrichment of genes involved in chromatin remodeling, mRNA splicing, immune responses, and the regulation of microRNAs and snoRNAs. Epigenetic modifiers frequently formed biologically relevant clusters, including the cohesin complex, RNA Polymerase II transcription factors, and PRC2 complex members. These clustering behaviors remained consistent across all chromosomes, supported by entropy analysis and high Adjusted Rand Index scores, indicating robust cross-chromosomal similarity. Co-occurrence analysis further revealed specific sets of modifiers that consistently appeared together within clusters, reflecting shared biological functions and interactions. Validation using another dataset confirmed the reproducibility of these clustering patterns and modifier co-occurrence relationships, underscoring the reliability and generalizability of the methodology. AVAILABILITY AND IMPLEMENTATION: The analysis pipeline for this study is freely available online at the GitHub repository: https://github.com/lanl/epigen.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Anastasiia",
+        "Lubbers, Nicholas",
+        "Steadman, Christina R",
+        "Sanbonmatsu, Karissa Y"
+      ],
+      "short_names": [
+        "Kim A",
+        "Lubbers N",
+        "Steadman CR",
+        "Sanbonmatsu KY"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8702-0754"
+      ],
+      "affiliations": [
+        "Computing and AI division at Los Alamos National Laboratory, Los Alamos, NM 87544, United States.",
+        "Computing and AI division at Los Alamos National Laboratory, Los Alamos, NM 87544, United States.",
+        "Bioscience division at Los Alamos National Laboratory, Los Alamos, NM 87544, United States.",
+        "Theoretical division at Los Alamos National Laboratory, Los Alamos, NM 87544, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Anastasiia",
+        "short_name": "Kim A",
+        "identifiers": [
+          "0000-0002-8702-0754"
+        ],
+        "affiliations": [
+          "Computing and AI division at Los Alamos National Laboratory, Los Alamos, NM 87544, United States."
+        ]
+      },
+      {
+        "full_name": "Lubbers, Nicholas",
+        "short_name": "Lubbers N",
+        "identifiers": [],
+        "affiliations": [
+          "Computing and AI division at Los Alamos National Laboratory, Los Alamos, NM 87544, United States."
+        ]
+      },
+      {
+        "full_name": "Steadman, Christina R",
+        "short_name": "Steadman CR",
+        "identifiers": [],
+        "affiliations": [
+          "Bioscience division at Los Alamos National Laboratory, Los Alamos, NM 87544, United States."
+        ]
+      },
+      {
+        "full_name": "Sanbonmatsu, Karissa Y",
+        "short_name": "Sanbonmatsu KY",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical division at Los Alamos National Laboratory, Los Alamos, NM 87544, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics advances"
+    ],
+    "journal_abbrev": [
+      "Bioinform Adv"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/27 20:46",
+    "fetched_at": "2026-10-01 00:36:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "32114424",
+      "31177562",
+      "30388784",
+      "29925875",
+      "29458327",
+      "27091476",
+      "26034282",
+      "25706888",
+      "25666097",
+      "24385541",
+      "24335803",
+      "23706625",
+      "22955990",
+      "22955616",
+      "22253299",
+      "21726340",
+      "21062823",
+      "21058938",
+      "19158813",
+      "18931660",
+      "17478515",
+      "17363974",
+      "16651376",
+      "15988529",
+      "15608262",
+      "14597658",
+      "12045153",
+      "11895880",
+      "11420713"
+    ],
+    "similar": [
+      "40861392",
+      "36321557",
+      "26817822",
+      "35451457",
+      "33816958",
+      "40027655",
+      "35929807",
+      "34999761",
+      "36941541",
+      "40152244",
+      "40041114",
+      "35786716",
+      "29137603",
+      "28587632",
+      "32814973",
+      "40119919",
+      "33681991",
+      "40188497",
+      "30359297",
+      "29581440",
+      "35198011",
+      "40811172",
+      "36734596",
+      "33285568",
+      "29907088",
+      "20590332",
+      "40698866",
+      "28605501",
+      "29360936",
+      "33381821",
+      "33682877",
+      "30428831",
+      "28155634",
+      "30202935",
+      "28096084",
+      "26140054",
+      "29630593",
+      "30917779",
+      "36707993",
+      "30967126",
+      "30596637",
+      "41175859",
+      "40616903",
+      "32103259",
+      "33272320",
+      "41459353",
+      "31769130",
+      "27933038",
+      "18426580",
+      "31373611",
+      "40425750",
+      "37294468",
+      "16945146",
+      "34586379",
+      "30532623",
+      "28961917",
+      "33279962",
+      "31243426",
+      "37928340",
+      "40845158",
+      "38547401",
+      "36495179",
+      "26743512",
+      "36970338",
+      "32167521",
+      "34888618",
+      "34917514",
+      "27307610",
+      "40778314",
+      "40799494",
+      "35561178",
+      "35472084",
+      "28934481",
+      "16524483",
+      "39573833",
+      "16257984",
+      "32698720",
+      "28203701",
+      "37314966",
+      "37610338",
+      "34659332",
+      "35900151",
+      "38354497",
+      "27863955",
+      "39101486",
+      "32246821",
+      "37101154",
+      "27994031",
+      "34252968",
+      "33693548",
+      "33724304",
+      "35188184",
+      "37991248",
+      "24191069",
+      "40260119",
+      "27852308",
+      "33560368",
+      "33098418",
+      "40385425",
+      "15130935"
+    ],
+    "review": [
+      "40861392",
+      "36321557",
+      "31769130",
+      "37294468",
+      "31243426"
+    ],
+    "pmc": [
+      "12373635"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40861392/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformaticsadvances/article-lookup/doi/10.1093/bioadv/vbaf175",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

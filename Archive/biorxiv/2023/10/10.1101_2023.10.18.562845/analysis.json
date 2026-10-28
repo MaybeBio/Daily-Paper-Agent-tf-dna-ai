@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.18.562845",
+  "title": "<i>De novo</i> generation of T-cell receptors with desired epitope-binding property by leveraging a pre-trained large language model",
+  "authors": "Jiannan Yang; Bing He; Yu Zhao; Feng Jiang; Zhonghuang Wang; Yixin Guo; Zhimeng Xu; Bo Yuan; Jiangning Song; Qingpeng Zhang; Jianhua Yao",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-20",
+  "window": {
+    "start": "2023-10-16",
+    "end": "2023-10-22"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用预训练大语言模型生成T细胞受体（TCR）以结合特定表位，虽涉及蛋白-肽互作与生成建模，但对象为TCR-表位而非蛋白质-DNA互作，且无TF-DNA结合位点或界面机制研究，仅方法上对蛋白生成建模有间接启发。",
+  "abstract": "Generating T-cell receptors (TCRs) with desired epitope-binding properties is a fundamental step in the development of immunotherapies, yet heavily relies on laborious and expensive wet experiments. Recent advancements in generative artificial intelligence have demonstrated promising power in protein design and engineering. In this regard, we propose a large language model, termed Epitope-Receptor-Transformer (ERTransformer), for the de novo generation of TCRs with the desired epitope-binding property. ERTransformer is built on EpitopeBERT and ReceptorBERT, which are trained using 1.9 million epitope sequences and 33.1 million TCR sequences, respectively. To demonstrate the model capability, we generate 1000 TCRs for each of the five epitopes with known natural TCRs. The artificial TCRs exhibit low sequence identity (average Bit-score 27.64 with a standard deviation of 1.50) but high biological function similarity (average BLOSUM62 score 32.32 with a standard deviation of 12.01) to natural TCRs. Furthermore, the artificial TCRs are not very structurally identical to natural ones (average RMSD 2.84 Å with a standard deviation of 1.21 Å) but exhibit a comparable binding affinity towards the corresponding epitopes. Our work highlights the tremendous potential of applying ERTransformer to generate novel TCRs with desired epitope-binding ability.",
+  "abstract_zh": "生成具有所需表位结合特性的T细胞受体（TCRs）是免疫疗法开发中的基础步骤，但这一过程严重依赖繁琐且昂贵的湿实验。生成式人工智能的最新进展已在蛋白质设计与工程领域展现出巨大潜力。为此，我们提出了一种大型语言模型，称为表位-受体-转换器（Epitope-Receptor-Transformer, ERTransformer），用于从头生成具有所需表位结合特性的TCRs。ERTansformer基于EpitopeBERT和ReceptorBERT构建，分别使用190万条表位序列和3310万条TCR序列进行训练。为展示模型能力，我们针对五个已知天然TCRs的表位，各生成了1000个TCRs。人工生成的TCRs与天然TCRs相比，序列同一性较低（平均Bit-score为27.64，标准差为1.50），但生物功能相似性较高（平均BLOSUM62评分为32.32，标准差为12.01）。此外，人工TCRs与天然TCRs在结构上并非高度一致（平均RMSD为2.84 Å，标准差为1.21 Å），但展现出与相应表位相当的结合亲和力。我们的工作凸显了应用ERTansformer生成具有所需表位结合能力的新型TCRs的巨大潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.18.562845",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.18.562845",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.18.562845/index.html"
+}

@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "33923155",
+    "doi": "10.3390/genes12050635",
+    "title": "Investigating Cellular Trajectories in the Severity of COVID-19 and Their Transcriptional Programs Using Machine Learning Approaches."
+  },
+  "content": {
+    "abstract": "Single-cell RNA sequencing of the bronchoalveolar lavage fluid (BALF) samples from COVID-19 patients has enabled us to examine gene expression changes of human tissue in response to the SARS-CoV-2 virus infection. However, the underlying mechanisms of COVID-19 pathogenesis at single-cell resolution, its transcriptional drivers, and dynamics require further investigation. In this study, we applied machine learning algorithms to infer the trajectories of cellular changes and identify their transcriptional programs. Our study generated cellular trajectories that show the COVID-19 pathogenesis of healthy-to-moderate and healthy-to-severe on macrophages and T cells, and we observed more diverse trajectories in macrophages compared to T cells. Furthermore, our deep-learning algorithm DrivAER identified several pathways (e.g., xenobiotic pathway and complement pathway) and transcription factors (e.g., MITF and GATA3) that could be potential drivers of the transcriptomic changes for COVID-19 pathogenesis and the markers of the COVID-19 severity. Moreover, macrophages-related functions corresponded more to the disease severity compared to T cells-related functions. Our findings more proficiently dissected the transcriptomic changes leading to the severity of a COVID-19 infection.",
+    "keywords": [
+      "COVID-19",
+      "bronchoalveolar lavage fluid",
+      "deep learning",
+      "machine learning",
+      "single cell RNA-seq",
+      "trajectory inference"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Bronchoalveolar Lavage Fluid/*virology",
+      "COVID-19/*etiology/genetics/*pathology",
+      "Computational Biology/methods",
+      "Gene Expression Profiling",
+      "Humans",
+      "Machine Learning",
+      "*Macrophages/physiology/virology",
+      "Sequence Analysis, RNA/methods",
+      "Single-Cell Analysis",
+      "*T-Lymphocytes/physiology/virology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jeong, Hyun-Hwan",
+        "Jia, Johnathan",
+        "Dai, Yulin",
+        "Simon, Lukas M",
+        "Zhao, Zhongming"
+      ],
+      "short_names": [
+        "Jeong HH",
+        "Jia J",
+        "Dai Y",
+        "Simon LM",
+        "Zhao Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3477-0914"
+      ],
+      "affiliations": [
+        "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+        "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+        "MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences, Houston, TX 77030, USA.",
+        "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+        "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+        "Therapeutic Innovation Center, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+        "MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences, Houston, TX 77030, USA.",
+        "Human Genetics Center, School of Public Health, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jeong, Hyun-Hwan",
+        "short_name": "Jeong HH",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Jia, Johnathan",
+        "short_name": "Jia J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+          "MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Dai, Yulin",
+        "short_name": "Dai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Simon, Lukas M",
+        "short_name": "Simon LM",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+          "Therapeutic Innovation Center, Baylor College of Medicine, Houston, TX 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Zhongming",
+        "short_name": "Zhao Z",
+        "identifiers": [
+          "0000-0002-3477-0914"
+        ],
+        "affiliations": [
+          "Center for Precision Health, School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+          "MD Anderson Cancer Center UTHealth Graduate School of Biomedical Sciences, Houston, TX 77030, USA.",
+          "Human Genetics Center, School of Public Health, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2021 Apr 24",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/01 06:00",
+    "fetched_at": "2026-09-27 16:37:23"
+  },
+  "links": {
+    "cites": [
+      "42138434",
+      "41683713",
+      "38702954",
+      "37569677",
+      "37425024",
+      "37378775",
+      "36768914",
+      "36325317",
+      "36230912",
+      "35879967",
+      "34940755",
+      "34885134",
+      "34155559"
+    ],
+    "refs": [
+      "35402822",
+      "34155559",
+      "33337474",
+      "33301553",
+      "33277181",
+      "33211888",
+      "33178176",
+      "33101705",
+      "33101264",
+      "32943538",
+      "32919977",
+      "32910179",
+      "32834892",
+      "32799105",
+      "32758877",
+      "32721799",
+      "32574293",
+      "32559419",
+      "32554923",
+      "32479746",
+      "32398875",
+      "32382776",
+      "32366266",
+      "32283152",
+      "32161940",
+      "31986264",
+      "31834594",
+      "31178118",
+      "30936559",
+      "30846559",
+      "30674886",
+      "29914354",
+      "29723194",
+      "29087512",
+      "28860618",
+      "28263292",
+      "27587467",
+      "27135536",
+      "26771021",
+      "25148023",
+      "23824597",
+      "22477527",
+      "21323663",
+      "20232918",
+      "20010915",
+      "18832706",
+      "18687298",
+      "17640961",
+      "16862190",
+      "15222897",
+      "15187249",
+      "11816819",
+      "9712024",
+      "7033235"
+    ],
+    "similar": [
+      "33923155",
+      "34603282",
+      "34238338",
+      "33138195",
+      "33473155",
+      "34137173",
+      "32398875",
+      "34612698",
+      "33429418",
+      "33301553",
+      "33717140",
+      "34880855",
+      "35007307",
+      "33846275",
+      "34675242",
+      "34315893",
+      "33081343",
+      "34330889",
+      "34504487",
+      "35751199",
+      "36059456",
+      "36553530",
+      "32849601",
+      "35172892",
+      "33858331",
+      "34394094",
+      "34262570",
+      "33513487",
+      "34155559",
+      "34001664",
+      "35192147",
+      "33630737",
+      "34835019",
+      "32591762",
+      "34899693",
+      "29244011",
+      "33915568",
+      "33131070",
+      "31566233",
+      "31960377",
+      "29415263",
+      "34424948",
+      "32611485",
+      "34311326",
+      "35350779",
+      "34731091",
+      "38555477",
+      "33098359",
+      "37096588",
+      "34064104",
+      "32497778",
+      "33506950",
+      "33096026",
+      "33802569",
+      "34618691",
+      "34495837",
+      "36902333",
+      "35922752",
+      "36670287",
+      "32744436",
+      "34478921",
+      "31405383",
+      "32633718",
+      "31889137",
+      "33178176",
+      "36517964",
+      "34578338",
+      "32983174",
+      "35039442",
+      "37730638",
+      "36246577",
+      "36124665",
+      "38128536",
+      "39413794"
+    ],
+    "review": [
+      "33923155",
+      "34675242",
+      "32611485",
+      "35922752"
+    ],
+    "pmc": [
+      "8145325"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes12050635",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33923155/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33923155",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

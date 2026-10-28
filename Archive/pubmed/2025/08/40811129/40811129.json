@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "40811129",
+    "doi": "10.1093/plphys/kiaf318",
+    "title": "A machine learning-based tool for predicting transcription factor-target gene interactions in soybean."
+  },
+  "content": {
+    "abstract": "",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Xueai",
+        "Zhang, Baoyi",
+        "Yang, Long",
+        "Huang, Junxian",
+        "Huang, Fang",
+        "Zhang, Hongsheng",
+        "Song, Qingxin",
+        "Huang, Ji"
+      ],
+      "short_names": [
+        "Zhu X",
+        "Zhang B",
+        "Yang L",
+        "Huang J",
+        "Huang F",
+        "Zhang H",
+        "Song Q",
+        "Huang J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5496-3203",
+        "ORCID: 0000-0002-1442-6091",
+        "ORCID: 0009-0005-3455-3767",
+        "ORCID: 0009-0009-7206-6459",
+        "ORCID: 0000-0002-8333-5847",
+        "ORCID: 0000-0002-2022-1826",
+        "ORCID: 0000-0001-7081-3339",
+        "ORCID: 0000-0002-9057-4299"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Nanjing Agricultural University, Nanjing 210095, China.",
+        "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Nanjing Agricultural University, Nanjing 210095, China.",
+        "State Key Laboratory for Vegetation Structure, Function and Construction (VegLab), Yunnan Technology Innovation Center of Perennial Rice, New Cornerstone Science Laboratory, School of Agriculture, Yunnan University, Kunming 650091, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Nanjing Agricultural University, Nanjing 210095, China.",
+        "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China.",
+        "College of Artificial Intelligence, Nanjing Agricultural University, Nanjing 210095, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Nanjing Agricultural University, Nanjing 210095, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Nanjing Agricultural University, Nanjing 210095, China.",
+        "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Nanjing Agricultural University, Nanjing 210095, China.",
+        "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Nanjing Agricultural University, Nanjing 210095, China.",
+        "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Xueai",
+        "short_name": "Zhu X",
+        "identifiers": [
+          "0000-0002-5496-3203"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Nanjing Agricultural University, Nanjing 210095, China.",
+          "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Baoyi",
+        "short_name": "Zhang B",
+        "identifiers": [
+          "0000-0002-1442-6091"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Nanjing Agricultural University, Nanjing 210095, China.",
+          "State Key Laboratory for Vegetation Structure, Function and Construction (VegLab), Yunnan Technology Innovation Center of Perennial Rice, New Cornerstone Science Laboratory, School of Agriculture, Yunnan University, Kunming 650091, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Long",
+        "short_name": "Yang L",
+        "identifiers": [
+          "0009-0005-3455-3767"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Nanjing Agricultural University, Nanjing 210095, China.",
+          "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Junxian",
+        "short_name": "Huang J",
+        "identifiers": [
+          "0009-0009-7206-6459"
+        ],
+        "affiliations": [
+          "College of Artificial Intelligence, Nanjing Agricultural University, Nanjing 210095, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Fang",
+        "short_name": "Huang F",
+        "identifiers": [
+          "0000-0002-8333-5847"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Nanjing Agricultural University, Nanjing 210095, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hongsheng",
+        "short_name": "Zhang H",
+        "identifiers": [
+          "0000-0002-2022-1826"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Nanjing Agricultural University, Nanjing 210095, China.",
+          "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China."
+        ]
+      },
+      {
+        "full_name": "Song, Qingxin",
+        "short_name": "Song Q",
+        "identifiers": [
+          "0000-0001-7081-3339"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Nanjing Agricultural University, Nanjing 210095, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Ji",
+        "short_name": "Huang J",
+        "identifiers": [
+          "0000-0002-9057-4299"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Crop Genetics & Germplasm Enhancement and Utilization, Nanjing Agricultural University, Nanjing 210095, China.",
+          "Jiangsu Province Engineering Research Center of Seed Industry Science and Technology, Nanjing 210095, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant physiology"
+    ],
+    "journal_abbrev": [
+      "Plant Physiol"
+    ],
+    "pub_date": "2025 Aug 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/14 22:52",
+    "fetched_at": "2026-09-30 23:47:00"
+  },
+  "links": {
+    "cites": [
+      "42636099"
+    ],
+    "refs": [],
+    "similar": [
+      "40811129",
+      "38903425",
+      "32041224",
+      "35152280",
+      "34991467",
+      "23933754",
+      "37771485",
+      "35628351",
+      "41120490",
+      "33510761",
+      "33006667",
+      "34893984",
+      "34061885",
+      "37633921",
+      "32765975",
+      "35395721",
+      "40855500",
+      "40107212",
+      "33297289",
+      "39375864",
+      "37330499",
+      "34241771",
+      "33845763",
+      "40133779",
+      "38410726",
+      "32647230",
+      "34737033",
+      "36071455",
+      "31006969",
+      "38617016",
+      "30853548",
+      "40674867",
+      "21690103",
+      "40220943",
+      "41096851",
+      "39283464",
+      "37447700",
+      "35511108",
+      "24278248",
+      "38258978",
+      "38495565",
+      "35710324",
+      "33472664",
+      "35153767",
+      "38524310",
+      "39707003",
+      "30547446",
+      "36991347",
+      "35666184",
+      "39695844",
+      "39285210",
+      "40221419",
+      "38875590",
+      "36679470",
+      "33930039",
+      "34271420",
+      "24149053",
+      "35072631",
+      "35652477",
+      "39598459",
+      "37514272",
+      "35774807",
+      "36679555",
+      "33865589",
+      "36991952",
+      "35303896",
+      "37542255",
+      "35909793",
+      "30319525",
+      "32723266",
+      "41033661",
+      "30565313",
+      "31533522",
+      "33256785",
+      "36298508",
+      "39541188",
+      "40186829",
+      "39273901",
+      "40770289",
+      "39669564",
+      "33679898",
+      "38352411",
+      "39186842",
+      "36426919",
+      "39522017",
+      "37980960",
+      "37759175",
+      "38370022",
+      "31824557",
+      "33062451",
+      "37275552",
+      "40416072",
+      "39219431",
+      "34396150",
+      "40215481",
+      "39722081",
+      "35614333",
+      "36355333",
+      "32171918",
+      "39005295"
+    ],
+    "review": [
+      "40811129",
+      "23933754",
+      "33006667",
+      "32765975",
+      "34737033",
+      "36071455",
+      "38617016",
+      "40220943",
+      "39283464",
+      "35153767",
+      "35652477",
+      "32723266",
+      "31533522",
+      "36426919",
+      "37759175",
+      "39219431",
+      "40215481"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://academic.oup.com/plphys/article-lookup/doi/10.1093/plphys/kiaf318",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

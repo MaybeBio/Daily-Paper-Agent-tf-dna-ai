@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "39541973",
+    "doi": "10.1016/j.str.2024.10.026",
+    "title": "Deciphering the molecular mechanism underlying morphology transition in two-component DNA-protein cophase separation."
+  },
+  "content": {
+    "abstract": "Nucleic acid and protein co-condensates exhibit diverse morphologies crucial for fundamental cellular processes. Despite many previous studies that advanced our understanding of this topic, several interesting biophysical questions regarding the underlying molecular mechanisms remain. We investigated DNA and human transcription factor p53 co-condensates-a scenario where neither dsDNA nor the protein demonstrates phase-separation behavior individually. Through a combination of experimental assays and theoretical approaches, we elucidated: (1) the phase diagram of DNA-protein co-condensates at a certain observation time, identifying a phase transition between viscoelastic fluid and viscoelastic solid states, and a morphology transition from droplet-like to \"pearl chain\"-like co-condensates; (2) the growth dynamics of co-condensates. Droplet-like and \"pearl chain\"-like co-condensates share a common initial critical microscopic cluster size at the nanometer scale during the early stage of phase separation. These findings provide important insights into the biophysical mechanisms underlying multi-component phase separation within cellular environments.",
+    "keywords": [
+      "AFM-FS",
+      "CMC",
+      "DNA-protein interactive co-condensate",
+      "DPIC",
+      "VPS",
+      "atomic force microscopy-based force spectroscopy",
+      "biomolecular condensate",
+      "coarse-grained molecular dynamics",
+      "critical microscopic cluster",
+      "dcFCCS",
+      "dual-color fluorescence cross-correlation spectroscopy",
+      "growth dynamics of co-condensate",
+      "morphology regulation",
+      "multicomponent phase diagram",
+      "viscoelastic phase separation"
+    ],
+    "mesh_terms": [
+      "*DNA/metabolism/chemistry",
+      "Humans",
+      "*Tumor Suppressor Protein p53/metabolism/chemistry/genetics",
+      "Phase Transition",
+      "Biomolecular Condensates/metabolism/chemistry",
+      "Viscosity"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Cheng",
+        "Bian, Yunqiang",
+        "Tang, Yiting",
+        "Meng, Lingyu",
+        "Yin, Peipei",
+        "Hong, Ye",
+        "Cheng, Jun",
+        "Li, Yuchen",
+        "Lin, Jie",
+        "Tang, Chao",
+        "Chen, Chunlai",
+        "Li, Wenfei",
+        "Qi, Zhi"
+      ],
+      "short_names": [
+        "Li C",
+        "Bian Y",
+        "Tang Y",
+        "Meng L",
+        "Yin P",
+        "Hong Y",
+        "Cheng J",
+        "Li Y",
+        "Lin J",
+        "Tang C",
+        "Chen C",
+        "Li W",
+        "Qi Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Quantitative Biology, Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China.",
+        "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, Zhejiang 325000, China.",
+        "School of Life Sciences, Beijing Advanced Innovation Center for Structural Biology, Beijing Frontier Research Center for Biological Structure, State Key Laboratory of Membrane Biology, Tsinghua University, Beijing 100084, China.",
+        "Center for Quantitative Biology, Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China.",
+        "Center for Quantitative Biology, Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China.",
+        "The Integrated Science Program, Yuanpei College, Peking University, Beijing 100871, China.",
+        "Center for Quantitative Biology, Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China.",
+        "Center for Quantitative Biology, Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China.",
+        "Center for Quantitative Biology, Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China.",
+        "Center for Quantitative Biology, Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China; School of Physics, Peking University, Beijing 100871, China.",
+        "School of Life Sciences, Beijing Advanced Innovation Center for Structural Biology, Beijing Frontier Research Center for Biological Structure, State Key Laboratory of Membrane Biology, Tsinghua University, Beijing 100084, China. Electronic address: chunlai@mail.tsinghua.edu.cn.",
+        "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, Zhejiang 325000, China; Department of Physics, National Laboratory of Solid-State Microstructure, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China. Electronic address: wfli@nju.edu.cn.",
+        "Center for Quantitative Biology, Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China; School of Physics, Peking University, Beijing 100871, China. Electronic address: zhiqi7@pku.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Cheng",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Quantitative Biology, Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Bian, Yunqiang",
+        "short_name": "Bian Y",
+        "identifiers": [],
+        "affiliations": [
+          "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, Zhejiang 325000, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Yiting",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Beijing Advanced Innovation Center for Structural Biology, Beijing Frontier Research Center for Biological Structure, State Key Laboratory of Membrane Biology, Tsinghua University, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Lingyu",
+        "short_name": "Meng L",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Quantitative Biology, Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Peipei",
+        "short_name": "Yin P",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Quantitative Biology, Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Ye",
+        "short_name": "Hong Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Integrated Science Program, Yuanpei College, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Jun",
+        "short_name": "Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Quantitative Biology, Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuchen",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Quantitative Biology, Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jie",
+        "short_name": "Lin J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Quantitative Biology, Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Chao",
+        "short_name": "Tang C",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Quantitative Biology, Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China; School of Physics, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Chunlai",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Beijing Advanced Innovation Center for Structural Biology, Beijing Frontier Research Center for Biological Structure, State Key Laboratory of Membrane Biology, Tsinghua University, Beijing 100084, China. Electronic address: chunlai@mail.tsinghua.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Wenfei",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, Zhejiang 325000, China; Department of Physics, National Laboratory of Solid-State Microstructure, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China. Electronic address: wfli@nju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Qi, Zhi",
+        "short_name": "Qi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Quantitative Biology, Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China; School of Physics, Peking University, Beijing 100871, China. Electronic address: zhiqi7@pku.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Structure (London, England : 1993)"
+    ],
+    "journal_abbrev": [
+      "Structure"
+    ],
+    "pub_date": "2025 Jan 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/15 00:32",
+    "fetched_at": "2026-09-30 05:56:08"
+  },
+  "links": {
+    "cites": [
+      "41917188",
+      "41505096",
+      "41452986",
+      "41203642",
+      "40977604",
+      "40661432",
+      "40565141"
+    ],
+    "refs": [],
+    "similar": [
+      "39541973",
+      "39661689",
+      "33087563",
+      "38885177",
+      "39482532",
+      "39113361",
+      "36227474",
+      "39804953",
+      "39168125",
+      "40172489",
+      "40291420",
+      "39366355",
+      "34767801",
+      "39042834",
+      "34772787",
+      "38987300",
+      "39075031",
+      "37468629",
+      "39166772",
+      "39826709",
+      "38360555",
+      "38848869",
+      "36847235",
+      "34772789",
+      "40184654",
+      "39620362",
+      "35727989",
+      "39418394",
+      "34772786",
+      "37194953",
+      "33453268",
+      "40327693",
+      "38664966",
+      "39827079",
+      "36883003",
+      "35881789",
+      "39327453",
+      "37252985",
+      "34090478",
+      "37735903",
+      "38971830",
+      "39636939",
+      "37549257",
+      "39964249",
+      "38698644",
+      "35597639",
+      "40249817",
+      "38609349",
+      "35293386",
+      "40168179",
+      "40108179",
+      "39320949",
+      "37287688",
+      "36350032",
+      "34654286",
+      "39856105",
+      "34588591",
+      "34129784",
+      "39987501",
+      "38781207",
+      "37019112",
+      "38999934",
+      "37470705",
+      "39326881",
+      "36071192",
+      "40098319",
+      "39496836",
+      "33864415",
+      "39034215",
+      "36150962",
+      "39271032",
+      "36690068",
+      "39303698",
+      "34271007",
+      "38832749",
+      "39725032",
+      "40229261",
+      "38499848",
+      "39433596",
+      "34762868",
+      "33307683",
+      "33930220",
+      "39037698",
+      "39225536",
+      "34862761",
+      "33453924",
+      "38349628",
+      "39922741",
+      "37379327",
+      "39196681",
+      "38751116",
+      "36634798",
+      "33704061",
+      "35618207",
+      "40164149",
+      "39549813",
+      "34890409",
+      "38722189",
+      "34552246",
+      "39227569"
+    ],
+    "review": [
+      "39541973",
+      "38885177",
+      "39482532",
+      "40172489",
+      "39366355",
+      "34767801",
+      "34772787",
+      "38360555",
+      "34772789",
+      "34772786",
+      "39827079",
+      "39327453",
+      "37735903",
+      "39964249",
+      "38698644",
+      "38609349",
+      "36350032",
+      "34129784",
+      "39326881",
+      "36071192",
+      "39034215",
+      "36150962",
+      "39271032",
+      "39303698",
+      "34271007",
+      "39433596",
+      "33930220",
+      "39037698",
+      "39922741",
+      "37379327"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0969-2126(24)00461-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-649",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

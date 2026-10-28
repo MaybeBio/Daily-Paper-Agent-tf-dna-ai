@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "38783706",
+    "doi": "10.1093/bib/bbae246",
+    "title": "Predicting RNA polymerase II transcriptional elongation pausing and associated histone code."
+  },
+  "content": {
+    "abstract": "RNA Polymerase II (Pol II) transcriptional elongation pausing is an integral part of the dynamic regulation of gene transcription in the genome of metazoans. It plays a pivotal role in many vital biological processes and disease progression. However, experimentally measuring genome-wide Pol II pausing is technically challenging and the precise governing mechanism underlying this process is not fully understood. Here, we develop RP3 (RNA Polymerase II Pausing Prediction), a network regularized logistic regression machine learning method, to predict Pol II pausing events by integrating genome sequence, histone modification, gene expression, chromatin accessibility, and protein-protein interaction data. RP3 can accurately predict Pol II pausing in diverse cellular contexts and unveil the transcription factors that are associated with the Pol II pausing machinery. Furthermore, we utilize a forward feature selection framework to systematically identify the combination of histone modification signals associated with Pol II pausing. RP3 is freely available at https://github.com/AMSSwanglab/RP3.",
+    "keywords": [
+      "Pol II pausing",
+      "histone modification",
+      "machine learning",
+      "multi-omics data integration"
+    ],
+    "mesh_terms": [
+      "*RNA Polymerase II/metabolism",
+      "*Histone Code",
+      "Humans",
+      "Transcription Elongation, Genetic",
+      "Chromatin/metabolism/genetics",
+      "Histones/metabolism",
+      "Machine Learning",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ren, Lixin",
+        "Ma, Wanbiao",
+        "Wang, Yong"
+      ],
+      "short_names": [
+        "Ren L",
+        "Ma W",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9054-0809"
+      ],
+      "affiliations": [
+        "School of Mathematics and Physics, University of Science and Technology Beijing, 30 Xueyuan Road, Haidian District, Beijing 100083, China.",
+        "School of Mathematics and Physics, University of Science and Technology Beijing, 30 Xueyuan Road, Haidian District, Beijing 100083, China.",
+        "CEMS, NCMIS, MDIS, Academy of Mathematics and Systems Science, National Center for Mathematics and Interdisciplinary Sciences, Chinese Academy of Sciences, 55 Zhongguancun East Road, Haidian District, Beijing 100190, China.",
+        "School of Mathematical Sciences, University of Chinese Academy of Sciences, 19A Yuquan Road, Shijingshan District, Beijing 100049, China.",
+        "Center for Excellence in Animal Evolution and Genetics, Chinese Academy of Sciences, 32 Jiaochang Donglu, Wuhua District, Kunming 650223, China.",
+        "Key Laboratory of Systems Biology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Chinese Academy of Sciences, 1 Xiangshan Zhi Nong, West Lake District, Hangzhou 330106, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ren, Lixin",
+        "short_name": "Ren L",
+        "identifiers": [
+          "0000-0001-9054-0809"
+        ],
+        "affiliations": [
+          "School of Mathematics and Physics, University of Science and Technology Beijing, 30 Xueyuan Road, Haidian District, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Wanbiao",
+        "short_name": "Ma W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Physics, University of Science and Technology Beijing, 30 Xueyuan Road, Haidian District, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yong",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "CEMS, NCMIS, MDIS, Academy of Mathematics and Systems Science, National Center for Mathematics and Interdisciplinary Sciences, Chinese Academy of Sciences, 55 Zhongguancun East Road, Haidian District, Beijing 100190, China.",
+          "School of Mathematical Sciences, University of Chinese Academy of Sciences, 19A Yuquan Road, Shijingshan District, Beijing 100049, China.",
+          "Center for Excellence in Animal Evolution and Genetics, Chinese Academy of Sciences, 32 Jiaochang Donglu, Wuhua District, Kunming 650223, China.",
+          "Key Laboratory of Systems Biology, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Chinese Academy of Sciences, 1 Xiangshan Zhi Nong, West Lake District, Hangzhou 330106, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 May 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/24 06:42",
+    "fetched_at": "2026-09-29 20:36:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38422958",
+      "37430091",
+      "36922644",
+      "36859550",
+      "35981753",
+      "34982944",
+      "33788942",
+      "33526657",
+      "33048117",
+      "32917861",
+      "32385332",
+      "31521504",
+      "31462772",
+      "31092938",
+      "29740129",
+      "29425488",
+      "28717009",
+      "28363125",
+      "27010758",
+      "25910208",
+      "25773599",
+      "25693130",
+      "25561494",
+      "25479637",
+      "23911322",
+      "23555293",
+      "22986266",
+      "22955620",
+      "22837395",
+      "22306664",
+      "22266761",
+      "21964334",
+      "21962715",
+      "21700224",
+      "21321083",
+      "21248844",
+      "20434984"
+    ],
+    "similar": [
+      "38783706",
+      "33526657",
+      "31127935",
+      "31399344",
+      "24459145",
+      "28717009",
+      "31242411",
+      "17942706",
+      "27520065",
+      "29174978",
+      "26555214",
+      "31806706",
+      "36727445",
+      "16141209",
+      "27259512",
+      "37517697",
+      "21321083",
+      "41757456",
+      "25049226",
+      "29056321",
+      "32402252",
+      "34982944",
+      "38748572",
+      "23555293",
+      "31123063",
+      "23064645",
+      "41162393",
+      "36082605",
+      "29378787",
+      "21385935",
+      "22406341",
+      "32297950",
+      "22701709",
+      "40713835",
+      "23150254",
+      "25820424",
+      "21326897",
+      "26279188",
+      "29458328",
+      "25509347",
+      "27601472",
+      "15808512",
+      "31826988",
+      "28793256",
+      "23229551",
+      "33138675",
+      "37093003",
+      "34534457",
+      "38810649",
+      "25693130",
+      "25561494",
+      "23884411",
+      "41537425",
+      "31965986",
+      "29514850",
+      "28396559",
+      "24843027",
+      "24595285",
+      "37500929",
+      "40858114",
+      "35614107",
+      "41978266",
+      "37748648",
+      "29740129",
+      "33208928",
+      "21962715",
+      "30797902",
+      "24485661",
+      "41272392",
+      "24590075",
+      "34216714",
+      "19667075",
+      "22876190",
+      "33640324",
+      "31185909",
+      "27028548",
+      "32278832",
+      "28871058",
+      "38401543",
+      "21859475",
+      "34666004",
+      "22986266",
+      "34075391",
+      "29845885",
+      "18846226",
+      "34324863",
+      "39412992",
+      "23795456",
+      "41408042",
+      "25029256",
+      "15542822",
+      "33788942",
+      "26254229",
+      "34254686",
+      "27369380",
+      "33676925",
+      "21074046",
+      "12944475",
+      "26241863",
+      "23951546"
+    ],
+    "review": [
+      "38783706",
+      "26555214",
+      "34982944",
+      "31123063",
+      "22406341",
+      "23150254",
+      "25509347",
+      "25693130",
+      "24595285",
+      "29740129",
+      "33208928",
+      "30797902",
+      "33640324",
+      "22986266",
+      "23795456",
+      "26254229",
+      "34254686",
+      "27369380",
+      "33676925",
+      "26241863"
+    ],
+    "pmc": [
+      "11116834"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38783706.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38783706/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38783706",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae246",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

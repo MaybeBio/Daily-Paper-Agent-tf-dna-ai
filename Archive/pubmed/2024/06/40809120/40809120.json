@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "40809120",
+    "doi": "10.3389/fsysb.2024.1402664",
+    "title": "De novo prediction of functional effects of genetic variants from DNA sequences based on context-specific molecular information."
+  },
+  "content": {
+    "abstract": "Deciphering the functional effects of noncoding genetic variants stands as a fundamental challenge in human genetics. Traditional approaches, such as Genome-Wide Association Studies (GWAS), Transcriptome-Wide Association Studies (TWAS), and Quantitative Trait Loci (QTL) studies, are constrained by obscured the underlying molecular-level mechanisms, making it challenging to unravel the genetic basis of complex traits. The advent of Next-Generation Sequencing (NGS) technologies has enabled context-specific genome-wide measurements, encompassing gene expression, chromatin accessibility, epigenetic marks, and transcription factor binding sites, to be obtained across diverse cell types and tissues, paving the way for decoding genetic variation effects directly from DNA sequences only. The de novo predictions of functional effects are pivotal for enhancing our comprehension of transcriptional regulation and its disruptions caused by the plethora of noncoding genetic variants linked to human diseases and traits. This review provides a systematic overview of the state-of-the-art models and algorithms for genetic variant effect predictions, including traditional sequence-based models, Deep Learning models, and the cutting-edge Foundation Models. It delves into the ongoing challenges and prospective directions, presenting an in-depth perspective on contemporary developments in this domain.",
+    "keywords": [
+      "DNA sequence",
+      "cellular context specificity",
+      "deep learning",
+      "disease genetics",
+      "foundation models",
+      "genetic variants",
+      "systems genetics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Jiaxin",
+        "Das Adhikari, Sikta",
+        "Wang, Hao",
+        "Huang, Binbin",
+        "Qi, Wenjie",
+        "Cui, Yuehua",
+        "Wang, Jianrong"
+      ],
+      "short_names": [
+        "Yang J",
+        "Das Adhikari S",
+        "Wang H",
+        "Huang B",
+        "Qi W",
+        "Cui Y",
+        "Wang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, United States.",
+        "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, United States.",
+        "Department of Statistics and Probability, Michigan State University, East Lansing, MI, United States.",
+        "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, United States.",
+        "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, United States.",
+        "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, United States.",
+        "Department of Biomedical Engineering, Michigan State University, East Lansing, MI, United States.",
+        "Department of Statistics and Probability, Michigan State University, East Lansing, MI, United States.",
+        "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Jiaxin",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, United States."
+        ]
+      },
+      {
+        "full_name": "Das Adhikari, Sikta",
+        "short_name": "Das Adhikari S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, United States.",
+          "Department of Statistics and Probability, Michigan State University, East Lansing, MI, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Hao",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, United States."
+        ]
+      },
+      {
+        "full_name": "Huang, Binbin",
+        "short_name": "Huang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, United States."
+        ]
+      },
+      {
+        "full_name": "Qi, Wenjie",
+        "short_name": "Qi W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, United States.",
+          "Department of Biomedical Engineering, Michigan State University, East Lansing, MI, United States."
+        ]
+      },
+      {
+        "full_name": "Cui, Yuehua",
+        "short_name": "Cui Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics and Probability, Michigan State University, East Lansing, MI, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Jianrong",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, MI, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in systems biology"
+    ],
+    "journal_abbrev": [
+      "Front Syst Biol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/03 00:00",
+    "fetched_at": "2026-09-29 21:28:30"
+  },
+  "links": {
+    "cites": [
+      "40917099"
+    ],
+    "refs": [
+      "39609566",
+      "34608324",
+      "33603233",
+      "33538820",
+      "33096239",
+      "32687525",
+      "31784727",
+      "31713622",
+      "31068683",
+      "30926968",
+      "30013180",
+      "29588361",
+      "27197224",
+      "27084946",
+      "26751173",
+      "26301843",
+      "26075791",
+      "25642630",
+      "25273974",
+      "25033408",
+      "24995601",
+      "24487584",
+      "22243964",
+      "21875935",
+      "20944595",
+      "19815776",
+      "15761122",
+      "15716906",
+      "9581503"
+    ],
+    "similar": [
+      "40809120",
+      "34659337",
+      "26301843",
+      "39678461",
+      "30864331",
+      "39606421",
+      "38639992",
+      "40694035",
+      "39977605",
+      "33300042",
+      "29218884",
+      "28193859",
+      "38594933",
+      "40421528",
+      "34541447",
+      "34699533",
+      "39090688",
+      "37262323",
+      "30388398",
+      "40098614",
+      "41111148",
+      "38314955",
+      "38001381",
+      "32103259",
+      "26016481",
+      "29727691",
+      "31337639",
+      "37569400",
+      "33926512",
+      "38824563",
+      "34038741",
+      "37398408",
+      "37965371",
+      "39575117",
+      "35969790",
+      "35193936",
+      "38012720",
+      "31931697",
+      "27005890",
+      "30013180",
+      "28528868",
+      "34021560",
+      "37492098",
+      "31931702",
+      "39107801",
+      "31937202",
+      "39558360",
+      "33848003",
+      "35047852",
+      "34938269",
+      "40827700",
+      "40883263",
+      "30820025",
+      "33691767",
+      "23329609",
+      "32809547",
+      "39605417",
+      "34462306",
+      "30849219",
+      "40501721",
+      "37294468",
+      "38889146",
+      "40101754",
+      "33155827",
+      "35293310",
+      "39986329",
+      "35483347",
+      "29351903",
+      "31931710",
+      "28193175",
+      "39874404",
+      "40526492",
+      "37038103",
+      "39026761",
+      "33635859",
+      "33371893",
+      "40672290",
+      "38815977",
+      "40409268",
+      "29178833",
+      "32363570",
+      "36727912",
+      "40458558",
+      "31501319",
+      "23570689",
+      "39550354",
+      "38991381",
+      "23138309",
+      "40373737",
+      "32012148",
+      "38719704",
+      "39909383",
+      "40631876",
+      "27798116",
+      "40468385",
+      "30401456",
+      "21085640",
+      "41396161",
+      "30650056",
+      "34629083"
+    ],
+    "review": [
+      "40809120",
+      "34659337",
+      "40694035",
+      "39977605",
+      "38594933",
+      "37262323",
+      "30388398",
+      "40098614",
+      "34938269",
+      "33691767",
+      "23329609",
+      "30849219",
+      "37294468",
+      "40101754",
+      "39986329",
+      "35483347",
+      "37038103",
+      "36727912",
+      "23138309"
+    ],
+    "pmc": [
+      "12341974"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40809120/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fsysb.2024.1402664",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

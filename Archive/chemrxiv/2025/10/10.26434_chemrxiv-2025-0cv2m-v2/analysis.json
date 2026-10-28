@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-0cv2m-v2",
+  "title": "Computational Evaluation of Molecular Binding on Metal Surfaces in Temperature Programmed Desorption: Accuracy of DFT Functionals and Neural Network Potentials",
+  "authors": "Tatsuya Joutsuka; Yoshiteru Itagaki",
+  "journal": "ChemRxiv",
+  "published_date": "2025-10-21",
+  "window": {
+    "start": "2025-10-20",
+    "end": "2025-10-26"
+  },
+  "score": 0,
+  "one_liner_zh": "该文评估DFT泛函与神经网络势在金属表面分子吸附/脱附中的精度，对象为小分子-金属表面体系，不涉及蛋白质-DNA互作，与本课题无关。",
+  "abstract": "Understanding molecular adsorption and desorption on metal surfaces is crucial for heterogeneous catalysis and surface science. In this work, we systematically evaluate the performance of various density functional theory (DFT) exchange–correlation functionals—PBE, PBE-D3, revPBE-D3, optB88-vdW, BEEF-vdW, and SCAN+rVV10—and a neural network potential for modeling molecular binding relevant to temperature programmed desorption (TPD). Using well-characterized systems, we compare computed bulk lattice constants, surface energies, and binding energies of representative adsorbates (CO, CO2, methanol, and benzene) on transition metal surfaces (Ni, Cu, Ru, Rh, Pd, Ag, Pt, Au) against experimental TPD data. Our results reveal that dispersion-corrected functionals like PBE-D3 and SCAN+rVV10 yield accurate bulk lattice constants, while BEEF-vdW tends to overestimate them. optB88-vdW and SCAN+rVV10 accurately reproduce surface energies, while PBE-D3 and revPBE-D3 often overestimate them. On the other hand, BEEF-vdW provides better agreement for binding energies but at the cost of less accurate bulk properties. We further demonstrate how machine-learned potentials can efficiently reproduce DFT-level energetics and enable molecular dynamics simulations to extract more realistic kinetic parameters, including pre-exponential factors and potential of mean force (PMF) profiles. This study demonstrates the accuracy of modeling molecular adsorption using DFT and neural network potentials, elucidating the trade-offs associated with functional selection in surface science and offering practical guidance for choosing appropriate computational methods for accurately simulating desorption processes.",
+  "abstract_zh": "理解金属表面上的分子吸附与脱附对于多相催化和表面科学至关重要。在本工作中，我们系统评估了多种密度泛函理论（DFT）交换-关联泛函——PBE、PBE-D3、revPBE-D3、optB88-vdW、BEEF-vdW和SCAN+rVV10——以及一种神经网络势在模拟与程序升温脱附（TPD）相关的分子结合方面的性能。利用表征良好的体系，我们将计算得到的体相晶格常数、表面能以及代表性吸附物（CO、CO2、甲醇和苯）在过渡金属表面（Ni、Cu、Ru、Rh、Pd、Ag、Pt、Au）上的结合能与实验TPD数据进行比较。我们的结果表明，色散校正泛函如PBE-D3和SCAN+rVV10能准确预测体相晶格常数，而BEEF-vdW倾向于高估它们。optB88-vdW和SCAN+rVV10能准确重现表面能，而PBE-D3和revPBE-D3通常高估它们。另一方面，BEEF-vdW在结合能方面提供更好的一致性，但以牺牲体相性质的准确性为代价。我们进一步展示了机器学习势如何高效重现DFT级别的能量学，并实现分子动力学模拟以提取更真实的动力学参数，包括指前因子和平均力势（PMF）曲线。本研究展示了使用DFT和神经网络势模拟分子吸附的准确性，阐明了表面科学中泛函选择相关的权衡，并为选择适当的计算方法以准确模拟脱附过程提供了实用指导。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-0cv2m-v2",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-0cv2m-v2",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-0cv2m-v2/index.html"
+}

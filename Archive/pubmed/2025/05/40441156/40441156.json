@@ -1,0 +1,546 @@
+{
+  "identity": {
+    "pmid": "40441156",
+    "doi": "10.1016/j.molcel.2025.05.008",
+    "title": "A disordered linker in the Polycomb protein Polyhomeotic tunes phase separation and oligomerization."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are increasingly recognized as key regulators of chromatin organization, yet how their formation and properties arise from protein sequences remains incompletely understood. Cross-species comparisons can reveal both conserved functions and significant evolutionary differences. Here, we integrate in vitro reconstitution, molecular dynamics simulations, and cell-based assays to examine how Drosophila and human variants of Polyhomeotic (Ph)-a subunit of the PRC1 chromatin regulatory complex-drive condensate formation through their sterile alpha motif (SAM) oligomerization domains. We identify divergent interactions between SAM and the disordered linker connecting it to the rest of Ph. These interactions enhance oligomerization and modulate both the formation and properties of reconstituted condensates. Oligomerization influences condensate dynamics but minimally impacts condensate formation. Linker-SAM interactions also affect condensate formation in Drosophila and human cells and growth in Drosophila imaginal discs. Our findings show how evolutionary changes in disordered linkers can fine-tune condensate properties, providing insights into sequence-function relationships.",
+    "keywords": [
+      "CRISPR",
+      "Drosophila",
+      "Polycomb",
+      "analytical ultracentrifugation",
+      "biochemistry",
+      "biomolecular condensates",
+      "gene regulation",
+      "intrinsically disordered regions",
+      "molecular dynamics simulations",
+      "oligomerization",
+      "phase separation",
+      "sterile alpha motif"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Drosophila Proteins/genetics/metabolism/chemistry",
+      "Humans",
+      "*Drosophila melanogaster/genetics/metabolism/growth & development",
+      "*Polycomb Repressive Complex 1/genetics/metabolism/chemistry",
+      "*DNA-Binding Proteins/genetics/metabolism/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Multimerization",
+      "Chromatin/metabolism/genetics",
+      "Imaginal Discs/metabolism/growth & development",
+      "Biomolecular Condensates/metabolism/genetics",
+      "Protein Binding",
+      "Phase Separation",
+      "Cell Cycle Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gemeinhardt, Tim M",
+        "Regy, Roshan M",
+        "Phan, Tien M",
+        "Pal, Nanu",
+        "Sharma, Jyoti",
+        "Senkovich, Olga",
+        "Mendiola, Andrea J",
+        "Ledterman, Heather J",
+        "Henrickson, Amy",
+        "Lopes, Daniel",
+        "Kapoor, Utkarsh",
+        "Bihani, Ashish",
+        "Sihou, Djamouna",
+        "Kim, Young C",
+        "Jeruzalmi, David",
+        "Demeler, Borries",
+        "Kim, Chongwoo A",
+        "Mittal, Jeetain",
+        "Francis, Nicole J"
+      ],
+      "short_names": [
+        "Gemeinhardt TM",
+        "Regy RM",
+        "Phan TM",
+        "Pal N",
+        "Sharma J",
+        "Senkovich O",
+        "Mendiola AJ",
+        "Ledterman HJ",
+        "Henrickson A",
+        "Lopes D",
+        "Kapoor U",
+        "Bihani A",
+        "Sihou D",
+        "Kim YC",
+        "Jeruzalmi D",
+        "Demeler B",
+        "Kim CA",
+        "Mittal J",
+        "Francis NJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Montreal Clinical Research Institute (IRCM), Montreal, QC, Canada; Division of Experimental Medicine, McGill University, Montreal, QC, Canada.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA.",
+        "Montreal Clinical Research Institute (IRCM), Montreal, QC, Canada; Department of Biochemistry and Molecular Medicine, University of Montreal, Montreal, QC, Canada.",
+        "Montreal Clinical Research Institute (IRCM), Montreal, QC, Canada.",
+        "Department of Biochemistry and Molecular Genetics, Midwestern University, Glendale, AZ, USA.",
+        "Department of Biochemistry and Molecular Genetics, Midwestern University, Glendale, AZ, USA.",
+        "Department of Biochemistry and Molecular Genetics, Midwestern University, Glendale, AZ, USA.",
+        "Department of Chemistry and Biochemistry, The University of Lethbridge, Lethbridge, AB, Canada.",
+        "Department of Chemistry and Biochemistry, City College of New York, New York, NY, USA.",
+        "Department of Chemical and Biomedical Engineering, University of Wyoming, Laramie, WY, USA.",
+        "Montreal Clinical Research Institute (IRCM), Montreal, QC, Canada; Division of Experimental Medicine, McGill University, Montreal, QC, Canada.",
+        "Montreal Clinical Research Institute (IRCM), Montreal, QC, Canada; Department of Biochemistry and Molecular Medicine, University of Montreal, Montreal, QC, Canada.",
+        "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, DC, USA.",
+        "Department of Chemistry and Biochemistry, City College of New York, New York, NY, USA; Ph.D. Program in Biochemistry, The Graduate Center of the City University of New York, New York, NY, USA; Ph.D. Program in Biology, The Graduate Center of the City University of New York, New York, NY, USA; Ph.D. Program in Chemistry, The Graduate Center of the City University of New York, New York, NY, USA.",
+        "Department of Chemistry and Biochemistry, The University of Lethbridge, Lethbridge, AB, Canada; Department of Chemistry and Biochemistry, University of Montana, Missoula, MT, USA.",
+        "Department of Biochemistry and Molecular Genetics, Midwestern University, Glendale, AZ, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA; Department of Chemistry, Texas A&M University, College Station, TX, USA; Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX, USA. Electronic address: jeetain@tamu.edu.",
+        "Montreal Clinical Research Institute (IRCM), Montreal, QC, Canada; Division of Experimental Medicine, McGill University, Montreal, QC, Canada; Department of Biochemistry and Molecular Medicine, University of Montreal, Montreal, QC, Canada. Electronic address: nicole.francis@ircm.qc.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gemeinhardt, Tim M",
+        "short_name": "Gemeinhardt TM",
+        "identifiers": [],
+        "affiliations": [
+          "Montreal Clinical Research Institute (IRCM), Montreal, QC, Canada; Division of Experimental Medicine, McGill University, Montreal, QC, Canada."
+        ]
+      },
+      {
+        "full_name": "Regy, Roshan M",
+        "short_name": "Regy RM",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Phan, Tien M",
+        "short_name": "Phan TM",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Pal, Nanu",
+        "short_name": "Pal N",
+        "identifiers": [],
+        "affiliations": [
+          "Montreal Clinical Research Institute (IRCM), Montreal, QC, Canada; Department of Biochemistry and Molecular Medicine, University of Montreal, Montreal, QC, Canada."
+        ]
+      },
+      {
+        "full_name": "Sharma, Jyoti",
+        "short_name": "Sharma J",
+        "identifiers": [],
+        "affiliations": [
+          "Montreal Clinical Research Institute (IRCM), Montreal, QC, Canada."
+        ]
+      },
+      {
+        "full_name": "Senkovich, Olga",
+        "short_name": "Senkovich O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, Midwestern University, Glendale, AZ, USA."
+        ]
+      },
+      {
+        "full_name": "Mendiola, Andrea J",
+        "short_name": "Mendiola AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, Midwestern University, Glendale, AZ, USA."
+        ]
+      },
+      {
+        "full_name": "Ledterman, Heather J",
+        "short_name": "Ledterman HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, Midwestern University, Glendale, AZ, USA."
+        ]
+      },
+      {
+        "full_name": "Henrickson, Amy",
+        "short_name": "Henrickson A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, The University of Lethbridge, Lethbridge, AB, Canada."
+        ]
+      },
+      {
+        "full_name": "Lopes, Daniel",
+        "short_name": "Lopes D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, City College of New York, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Kapoor, Utkarsh",
+        "short_name": "Kapoor U",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomedical Engineering, University of Wyoming, Laramie, WY, USA."
+        ]
+      },
+      {
+        "full_name": "Bihani, Ashish",
+        "short_name": "Bihani A",
+        "identifiers": [],
+        "affiliations": [
+          "Montreal Clinical Research Institute (IRCM), Montreal, QC, Canada; Division of Experimental Medicine, McGill University, Montreal, QC, Canada."
+        ]
+      },
+      {
+        "full_name": "Sihou, Djamouna",
+        "short_name": "Sihou D",
+        "identifiers": [],
+        "affiliations": [
+          "Montreal Clinical Research Institute (IRCM), Montreal, QC, Canada; Department of Biochemistry and Molecular Medicine, University of Montreal, Montreal, QC, Canada."
+        ]
+      },
+      {
+        "full_name": "Kim, Young C",
+        "short_name": "Kim YC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, DC, USA."
+        ]
+      },
+      {
+        "full_name": "Jeruzalmi, David",
+        "short_name": "Jeruzalmi D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, City College of New York, New York, NY, USA; Ph.D. Program in Biochemistry, The Graduate Center of the City University of New York, New York, NY, USA; Ph.D. Program in Biology, The Graduate Center of the City University of New York, New York, NY, USA; Ph.D. Program in Chemistry, The Graduate Center of the City University of New York, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Demeler, Borries",
+        "short_name": "Demeler B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, The University of Lethbridge, Lethbridge, AB, Canada; Department of Chemistry and Biochemistry, University of Montana, Missoula, MT, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Chongwoo A",
+        "short_name": "Kim CA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, Midwestern University, Glendale, AZ, USA."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA; Department of Chemistry, Texas A&M University, College Station, TX, USA; Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX, USA. Electronic address: jeetain@tamu.edu."
+        ]
+      },
+      {
+        "full_name": "Francis, Nicole J",
+        "short_name": "Francis NJ",
+        "identifiers": [],
+        "affiliations": [
+          "Montreal Clinical Research Institute (IRCM), Montreal, QC, Canada; Division of Experimental Medicine, McGill University, Montreal, QC, Canada; Department of Biochemistry and Molecular Medicine, University of Montreal, Montreal, QC, Canada. Electronic address: nicole.francis@ircm.qc.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cell"
+    ],
+    "journal_abbrev": [
+      "Mol Cell"
+    ],
+    "pub_date": "2025 Jun 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/30 01:42",
+    "fetched_at": "2026-09-30 18:44:24"
+  },
+  "links": {
+    "cites": [
+      "42689414",
+      "42549674",
+      "42409769",
+      "42287624",
+      "42034057",
+      "41785860",
+      "41781700",
+      "41542599",
+      "40909535",
+      "40766493",
+      "40643536"
+    ],
+    "refs": [
+      "39994485",
+      "39878648",
+      "39824169",
+      "39815045",
+      "39674888",
+      "39178860",
+      "38877037",
+      "38781207",
+      "38701672",
+      "38658752",
+      "38592759",
+      "38537534",
+      "38521066",
+      "38160320",
+      "37756159",
+      "37359769",
+      "37218279",
+      "37126449",
+      "37094140",
+      "37073403",
+      "36690068",
+      "36537242",
+      "36412795",
+      "35802394",
+      "34916288",
+      "34862761",
+      "34717733",
+      "34620850",
+      "34516789",
+      "34507520",
+      "34315935",
+      "34265844",
+      "34241518",
+      "33934416",
+      "33771451",
+      "33692345",
+      "33264400",
+      "33169001",
+      "33154383",
+      "33053359",
+      "32822572",
+      "32632317",
+      "32484438",
+      "32439634",
+      "32312191",
+      "32286294",
+      "31950077",
+      "31894537",
+      "31698957",
+      "31685521",
+      "31570887",
+      "31171700",
+      "30514760",
+      "30254245",
+      "30244836",
+      "30217894",
+      "29628210",
+      "29539421",
+      "29364893",
+      "29258725",
+      "28483149",
+      "28280206",
+      "28225081",
+      "28157505",
+      "27827373",
+      "27643538",
+      "27465542",
+      "27151979",
+      "26759081",
+      "26297996",
+      "25468754",
+      "24755934",
+      "24091011",
+      "23827738",
+      "23473600",
+      "22743772",
+      "22724443",
+      "22275876",
+      "22275371",
+      "22012622",
+      "21351738",
+      "21241892",
+      "21177970",
+      "19749760",
+      "19749759",
+      "19247646",
+      "19029910",
+      "18993116",
+      "18927235",
+      "18728193",
+      "18576630",
+      "18428767",
+      "16882982",
+      "16314526",
+      "15556567",
+      "15200961",
+      "12791274",
+      "11992127",
+      "11222153",
+      "9722603",
+      "9674423",
+      "8744570",
+      "7907493",
+      "7662368",
+      "1420991"
+    ],
+    "similar": [
+      "40441156",
+      "37961422",
+      "33154383",
+      "36412795",
+      "38257239",
+      "32628956",
+      "30514760",
+      "27151979",
+      "22275371",
+      "38383656",
+      "38521066",
+      "23071455",
+      "25044168",
+      "40954121",
+      "21085656",
+      "26759081",
+      "22724443",
+      "42287624",
+      "25468754",
+      "41933903",
+      "40682822",
+      "34090478",
+      "30254245",
+      "15905166",
+      "42034057",
+      "21351738",
+      "40848932",
+      "23523430",
+      "37499944",
+      "41780630",
+      "42230638",
+      "29871666",
+      "20351181",
+      "22491092",
+      "22275876",
+      "9735366",
+      "37756159",
+      "15280237",
+      "34620850",
+      "31950077",
+      "26063573",
+      "9121482",
+      "19478141",
+      "38701218",
+      "29924323",
+      "40766493",
+      "27001825",
+      "11992127",
+      "40588121",
+      "24186981",
+      "37487640",
+      "35676368",
+      "41524628",
+      "41118627",
+      "34203110",
+      "29995890",
+      "1346609",
+      "22910904",
+      "37668016",
+      "15791260",
+      "9372908",
+      "24292500",
+      "16079157",
+      "23391928",
+      "20696397",
+      "31484080",
+      "35032681",
+      "15060132",
+      "29432187",
+      "20062800",
+      "36303054",
+      "31171700",
+      "11560780",
+      "16628213",
+      "11583617",
+      "25082344",
+      "28765367",
+      "12370294",
+      "33053359",
+      "27466807",
+      "9891050",
+      "19556241",
+      "29555581",
+      "21483667",
+      "29070704",
+      "40661423",
+      "25490262",
+      "22722341",
+      "9343432",
+      "34951585",
+      "42288240",
+      "35179885",
+      "40971955",
+      "19767730",
+      "39815045",
+      "21963238",
+      "23912807",
+      "25482055",
+      "15386022",
+      "41904596"
+    ],
+    "review": [
+      "40441156",
+      "35179885",
+      "25482055"
+    ],
+    "pmc": [
+      "12145237"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1097-2765(25)00413-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=40441156",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40441156/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40441156",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

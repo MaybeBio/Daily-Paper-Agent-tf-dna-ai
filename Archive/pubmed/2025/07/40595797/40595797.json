@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "40595797",
+    "doi": "10.1038/s41598-025-04485-4",
+    "title": "Identification of exosome-related genes in NSCLC via integrated bioinformatics and machine learning analysis."
+  },
+  "content": {
+    "abstract": "Exosomes are crucial in the development of non-small cell lung cancer (NSCLC), yet exosome-associated genes in NSCLC remain insufficiently explored. The present study identified 59 exosome-associated differentially expressed genes (EA-DEGs) from the Gene Expression Omnibus (GEO) and GeneCards databases. Functional analysis indicated the involvement of the EA-DEGs in NSCLC-related pathways, including the cell cycle, DNA replication, and the immune response. Logistic regression, Least Absolute Shrinkage and Selection Operator (LASSO), support vector machine-recursive feature elimination (SVM-RFE), and random forest (RF) models were used to identify four key biomarkers, namely, PAICS, SLC2A1, A2M, and GPM6A, with diagnostic potential. Gene expression, pathological staging, and prognosis were analyzed in the lung adenocarcinoma (LUAD) subtype. Potential drugs targeting these biomarkers were identified, and an RNA-binding protein (RBP) and transcription factor (TF) regulatory network was constructed. Single-sample Gene Set Enrichment Analysis (ssGSEA) analysis highlighted the involvement of changes in the immune microenvironment. A diagnostic model providing new insight into the molecular mechanisms underlying NSCLC is proposed. However, further experimental verification is required to assess its practical value for NSCLC and other lung cancer subtypes before clinical application.",
+    "keywords": [
+      "Exosome",
+      "Genes",
+      "Machine learning",
+      "NSCLC",
+      "TME"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung/genetics/pathology/metabolism",
+      "*Lung Neoplasms/genetics/pathology/metabolism",
+      "*Exosomes/genetics/metabolism",
+      "*Computational Biology/methods",
+      "*Machine Learning",
+      "Biomarkers, Tumor/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Regulatory Networks",
+      "Prognosis",
+      "Gene Expression Profiling",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Zhenjie",
+        "Du, Tianyu",
+        "Yang, Guosheng",
+        "Sun, Yinghuan",
+        "Xiao, Xuyang"
+      ],
+      "short_names": [
+        "Sun Z",
+        "Du T",
+        "Yang G",
+        "Sun Y",
+        "Xiao X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Thoracic Surgery, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, 121001, China.",
+        "Department of Thoracic Surgery, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, 121001, China.",
+        "Department of Thoracic Surgery, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, 121001, China.",
+        "Department of Thoracic Surgery, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, 121001, China.",
+        "Department of Thoracic Surgery, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, 121001, China. xiaoxy@jzmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Zhenjie",
+        "short_name": "Sun Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, 121001, China."
+        ]
+      },
+      {
+        "full_name": "Du, Tianyu",
+        "short_name": "Du T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, 121001, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Guosheng",
+        "short_name": "Yang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, 121001, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yinghuan",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, 121001, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Xuyang",
+        "short_name": "Xiao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The First Affiliated Hospital of Jinzhou Medical University, Jinzhou, 121001, China. xiaoxy@jzmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Jul 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/02 06:28",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [
+      "42703336",
+      "42405671",
+      "41948338",
+      "41884621",
+      "41617774",
+      "41514649"
+    ],
+    "refs": [
+      "39063033",
+      "38572751",
+      "38422959",
+      "38230766",
+      "38177255",
+      "38145013",
+      "38068296",
+      "37817172",
+      "37539055",
+      "37064115",
+      "37063055",
+      "35790774",
+      "35767426",
+      "35751589",
+      "35625488",
+      "35609983",
+      "35467477",
+      "35441799",
+      "35172688",
+      "34980213",
+      "34753486",
+      "34557778",
+      "34445366",
+      "34335635",
+      "33548389",
+      "33237278",
+      "33183286",
+      "32944172",
+      "32864132",
+      "32493389",
+      "31155338",
+      "31114875",
+      "30385537",
+      "30371825",
+      "29579674",
+      "29290805",
+      "29087512",
+      "28887580",
+      "27322403",
+      "27188576",
+      "26681897",
+      "25990557",
+      "25724326",
+      "25691825",
+      "25605792",
+      "24930139",
+      "24863262",
+      "24297251",
+      "22257669",
+      "21414208",
+      "14597658",
+      "11752295",
+      "10592235"
+    ],
+    "similar": [
+      "40595797",
+      "40313958",
+      "39341981",
+      "41299753",
+      "38696317",
+      "40475773",
+      "41169155",
+      "40860289",
+      "41442003",
+      "41136530",
+      "39823156",
+      "41394854",
+      "40997906",
+      "32059076",
+      "40826767",
+      "39108112",
+      "41146237",
+      "31127628",
+      "40328901",
+      "31805030",
+      "32795325",
+      "39142001",
+      "31692035",
+      "39945271",
+      "36202977",
+      "39904830",
+      "41013556",
+      "40394719",
+      "41200172",
+      "40312440",
+      "39071134",
+      "39507054",
+      "32048869",
+      "39553728",
+      "39509434",
+      "39797413",
+      "40595823",
+      "41220724",
+      "32299382",
+      "39068752",
+      "38863714",
+      "37387637",
+      "39609718",
+      "41006883",
+      "39650552",
+      "39794414",
+      "41300841",
+      "39488307",
+      "34825846",
+      "40796933",
+      "40830558",
+      "32969465",
+      "39109577",
+      "38711508",
+      "39351221",
+      "36688087",
+      "40302006",
+      "38142454",
+      "36627791",
+      "40320470",
+      "40084401",
+      "40761790",
+      "39251710",
+      "29845250",
+      "40360670",
+      "40374866",
+      "39394418",
+      "40129981",
+      "40741868",
+      "40092988",
+      "40682474",
+      "39333719",
+      "40484863",
+      "39396400",
+      "40251360",
+      "41409294",
+      "41285333",
+      "37986345",
+      "34555052",
+      "28223168",
+      "33988228",
+      "38767974",
+      "41162544",
+      "34257525",
+      "40589937",
+      "39616855",
+      "40594252",
+      "34518802",
+      "38872167",
+      "41378005",
+      "29305979",
+      "39789578",
+      "40362543",
+      "39489517",
+      "34580719",
+      "34658257",
+      "36532015",
+      "39735547",
+      "39433800",
+      "41019083"
+    ],
+    "review": [
+      "40595797"
+    ],
+    "pmc": [
+      "12215682"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-04485-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40595797/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-274",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

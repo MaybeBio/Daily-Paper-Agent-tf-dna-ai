@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and methods as presented in the abstract; full manuscript not available for verification
+- **Shared manuscript claim summary** The authors integrate single-nucleus ATAC-seq and RNA-seq data from 71 donors (36 with schizophrenia) with GWAS summary statistics to assess how schizophrenia-associated SNPs alter transcription factor (TF) binding motifs across 15 cortical cell types. They report that risk SNPs predominantly disrupt TF binding, protective alleles show a more balanced effect, and disrupted TF motifs are linked to altered expression of target genes including NAGA in excitatory neurons and HLA-B in oligodendrocyte precursor cells.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, methods section, statistical details, effect size estimates, cell type annotation procedures, quality control metrics, replication analyses, and any sensitivity or validation analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable integrative approach to linking schizophrenia GWAS variants to cell type specific regulatory effects. The focus on TF motif disruption across cortical cell types is timely and could advance mechanistic understanding of non-coding risk variants. However, the abstract alone provides insufficient detail to evaluate the robustness of the analytical pipeline, the statistical framework, or the specificity of the reported gene level findings. The claim that disrupted TF motifs lead to altered expression of NAGA and HLA-B requires careful validation that cannot be assessed from the supplied material.
+- **Who would be interested in the results, and why** Researchers in psychiatric genetics, regulatory genomics, and neurobiology would be interested. The work addresses a central gap in schizophrenia genetics, namely the functional interpretation of non-coding GWAS variants in relevant brain cell types. Those studying cell type specific gene regulation and TF biology would also find the genome-wide map of TF motif disruptions useful as a resource.
+- **Major strengths** The study addresses a clinically and biologically important question with a well motivated design. The integration of single-nucleus chromatin accessibility and expression data with GWAS summary statistics is a modern and appropriate approach. The focus on cell type specific effects is a clear strength given the cellular heterogeneity of the cortex and the likely cell type specificity of schizophrenia risk mechanisms. The identification of specific candidate genes (NAGA, HLA-B) with prior disease relevance adds potential translational value.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that disrupted TF motifs can lead to altered expression of target genes, including NAGA in excitatory neurons and HLA-B in oligodendrocyte precursor cells.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The causal link between TF motif disruption and downstream gene expression changes is asserted without visible evidence of a formal mediation or colocalization analysis. The abstract does not describe how confounding by linkage disequilibrium, allelic heterogeneity, or cell type composition was addressed. It is unclear whether the expression changes are statistically attributable to the specific TF motif disruptions or could arise from other regulatory mechanisms at the same loci.
+  - **Why it matters** Establishing a direct mechanistic link from variant to TF binding to gene expression is the central claim of the study. Without rigorous statistical support, the NAGA and HLA-B findings remain correlative and could mislead downstream functional studies.
+  - **Resolution test** Provide colocalization or Mendelian randomization style analyses linking the GWAS signal to expression quantitative trait loci in the relevant cell types, and demonstrate that the TF motif disruption is the causal mediator. Show sensitivity analyses excluding alternative causal variants in high linkage disequilibrium.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report that risk SNPs predominantly disrupt TF binding, while protective alleles show a more balanced effect with both disruptions and enhancements.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The directionality of effect (disruption versus enhancement) depends entirely on the choice of reference allele and the direction of the GWAS effect. The abstract does not describe how allele alignment was handled or whether the analysis was strand consistent. The statistical significance of the asymmetry between risk and protective alleles is not reported, and no confidence intervals or effect sizes are given.
+  - **Why it matters** If the asymmetry is an artifact of allele coding or threshold effects, the central biological conclusion would be invalid. The claim of a predominant disruption effect is a headline finding that requires robust statistical demonstration.
+  - **Resolution test** Describe allele alignment procedures, show that results are robust to reference genome build and strand flips, and provide permutation based null distributions or bootstrap confidence intervals for the disruption enhancement asymmetry.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The authors state that they integrated single-nucleus ATAC-seq and RNA-seq data from 71 donors with GWAS summary statistics.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No information is provided on how the 71 donors were ascertained, how schizophrenia diagnosis was confirmed, how batch effects were handled, or how pseudobulk versus single cell level analyses were performed. The number of cells per cell type, sequencing depth, and quality control thresholds are absent. The GWAS summary statistics source and ancestry matching between the GWAS and the brain cohort are not described.
+  - **Why it matters** Inconsistencies in ancestry or cell type composition between datasets can generate spurious associations. Without these details, the reproducibility of the pipeline is uncertain and the risk of technical artifacts is non-trivial.
+  - **Resolution test** Provide a detailed methods section with donor demographics, cell counts, quality metrics, batch correction strategies, and a clear description of the GWAS dataset used including ancestry composition and SNP overlap with the ATAC-seq data.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Definition of cortical cell types
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract states that 15 cortical cell types were analyzed but does not list them. The inclusion of excitatory neurons and oligodendrocyte precursor cells is mentioned, but the full set is unclear.
+  - **Required correction** List the 15 cell types in the abstract or refer to a supplementary table with clear annotation criteria.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Effect sizes and significance thresholds
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** No effect sizes, p values, or multiple testing correction methods are reported for the TF motif disruption findings or the gene expression associations.
+  - **Required correction** Include representative effect sizes and significance thresholds, and state the multiple testing correction approach used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Clinical relevance statement
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The final sentence suggests the findings may inform novel therapeutic strategies, but no evidence is presented that TF motif disruptions are druggable or that targeting them would have clinical benefit.
+  - **Required correction** Soften the therapeutic implication or provide a brief rationale for how TF motif information could be used in drug development.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The causal mediation claim, the directionality asymmetry, and the data integration pipeline all require substantial additional evidence before the central conclusions can be accepted.
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach of mapping TF motif disruptions across cortical cell types in schizophrenia is not entirely novel but the cell type resolution and integration strategy may offer a new resource. The abstract does not clearly differentiate the work from prior TF motif analyses in psychiatric genetics.
+  - Scientific importance: The question is important and the potential to link GWAS variants to cell type specific regulatory mechanisms is of high value. However, the importance is contingent on the robustness of the findings, which cannot be assessed from the abstract.
+  - Interdisciplinary readership: The work would appeal to geneticists, neurobiologists, and computational biologists. The abstract is written in a way that is broadly accessible, though some technical terms are used without definition.
+  - Technical soundness: Not assessable from the abstract. The absence of statistical details and validation analyses prevents any judgment of technical rigor.
+  - Readability for nonspecialists: The abstract is clear and well structured, but the lack of context on TF motif analysis methods may limit accessibility for readers outside the field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting framework, but the central claims require full manuscript evaluation. A supportive recommendation would be contingent on the authors demonstrating robust statistical methods, rigorous validation of the mediation claim, and transparent reporting of the data integration pipeline.
+
+## Risk / unsupported claims
+- The claim that disrupted TF motifs lead to altered expression of NAGA and HLA-B is unsupported from the abstract alone; no statistical evidence is provided.
+- The claim that risk SNPs predominantly disrupt TF binding while protective alleles show a balanced effect is unsupported without allele alignment details and significance testing.
+- The genome-wide map of TF motif disruptions is mentioned as a deliverable but its scope, validation, and accessibility are not described.
+- The therapeutic implication is speculative and not supported by any evidence in the abstract.

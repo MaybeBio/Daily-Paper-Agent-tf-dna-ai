@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "35941239",
+    "doi": "10.1038/s41592-022-01562-8",
+    "title": "scBasset: sequence-based modeling of single-cell ATAC-seq using convolutional neural networks."
+  },
+  "content": {
+    "abstract": "Single-cell assay for transposase-accessible chromatin using sequencing (scATAC) shows great promise for studying cellular heterogeneity in epigenetic landscapes, but there remain important challenges in the analysis of scATAC data due to the inherent high dimensionality and sparsity. Here we introduce scBasset, a sequence-based convolutional neural network method to model scATAC data. We show that by leveraging the DNA sequence information underlying accessibility peaks and the expressiveness of a neural network model, scBasset achieves state-of-the-art performance across a variety of tasks on scATAC and single-cell multiome datasets, including cell clustering, scATAC profile denoising, data integration across assays and transcription factor activity inference.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin/genetics",
+      "*Chromatin Immunoprecipitation Sequencing",
+      "Epigenomics",
+      "Neural Networks, Computer",
+      "Sequence Analysis, DNA/methods",
+      "Single-Cell Analysis/methods",
+      "Transposases/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Han",
+        "Kelley, David R"
+      ],
+      "short_names": [
+        "Yuan H",
+        "Kelley DR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9636-9376",
+        "ORCID: 0000-0001-7782-3548"
+      ],
+      "affiliations": [
+        "Calico Life Sciences, South San Francisco, CA, USA. yuanh@calicolabs.com.",
+        "Calico Life Sciences, South San Francisco, CA, USA. drk@calicolabs.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Han",
+        "short_name": "Yuan H",
+        "identifiers": [
+          "0000-0002-9636-9376"
+        ],
+        "affiliations": [
+          "Calico Life Sciences, South San Francisco, CA, USA. yuanh@calicolabs.com."
+        ]
+      },
+      {
+        "full_name": "Kelley, David R",
+        "short_name": "Kelley DR",
+        "identifiers": [
+          "0000-0001-7782-3548"
+        ],
+        "affiliations": [
+          "Calico Life Sciences, South San Francisco, CA, USA. drk@calicolabs.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature methods"
+    ],
+    "journal_abbrev": [
+      "Nat Methods"
+    ],
+    "pub_date": "2022 Sep",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/09 06:00",
+    "fetched_at": "2026-09-28 12:07:03"
+  },
+  "links": {
+    "cites": [
+      "42443492",
+      "42282607",
+      "42140984",
+      "42113457",
+      "42060707",
+      "41984952",
+      "41927920",
+      "41832145",
+      "41823837",
+      "41663439",
+      "41618434",
+      "41555918",
+      "41331142",
+      "41296545",
+      "41279458",
+      "41258300",
+      "41236480",
+      "41125796",
+      "41120648",
+      "41073542",
+      "41068106",
+      "40999099",
+      "40994438",
+      "40848288",
+      "40723810",
+      "40542107",
+      "40436897",
+      "40360798",
+      "40291712",
+      "39975126",
+      "39956806",
+      "39904740",
+      "39868043",
+      "39820306",
+      "39792333",
+      "39500613",
+      "39345504",
+      "39341994",
+      "39322753",
+      "39232149",
+      "39152456",
+      "39131276",
+      "39090688",
+      "39060615",
+      "39050785",
+      "39026761",
+      "38974799",
+      "38841126",
+      "38724693",
+      "38633814",
+      "38534537",
+      "38514783",
+      "38464242",
+      "38463314",
+      "38388573",
+      "38225263",
+      "38216661",
+      "38191932",
+      "38187742",
+      "38177592",
+      "38145338",
+      "38086419",
+      "38036778",
+      "37962376",
+      "37897340",
+      "37582793",
+      "37494428",
+      "37365273",
+      "37340307",
+      "37294804",
+      "37161089",
+      "37099664",
+      "37082202",
+      "36935423",
+      "36902216",
+      "36814848"
+    ],
+    "refs": [],
+    "similar": [
+      "35941239",
+      "38493346",
+      "37537502",
+      "40723810",
+      "38338756",
+      "36902216",
+      "35574596",
+      "38600256",
+      "31739806",
+      "39881144",
+      "35584295",
+      "41236480",
+      "34252968",
+      "36161934",
+      "39800872",
+      "33663563",
+      "36173566",
+      "33637727",
+      "38330939",
+      "41021262",
+      "31594952",
+      "39049508",
+      "40963104",
+      "37012226",
+      "39757254",
+      "40154828",
+      "35939233",
+      "35478247",
+      "40700014",
+      "41270791",
+      "39122670",
+      "36131234",
+      "39093856",
+      "35858748",
+      "37980428",
+      "36062065",
+      "36719906",
+      "39394227",
+      "40097444",
+      "32312702",
+      "33191916",
+      "31110271",
+      "35195064",
+      "36549922",
+      "39500613",
+      "30559361",
+      "29925875",
+      "39017885",
+      "38724693",
+      "40000710",
+      "41104806",
+      "32543102",
+      "26083756",
+      "30821321",
+      "40049167",
+      "38872103",
+      "35906531",
+      "32392348",
+      "40471991",
+      "40591481",
+      "32014034",
+      "34737275",
+      "35997564",
+      "33717140",
+      "37990143",
+      "38515040",
+      "35359328",
+      "39062661",
+      "38581422",
+      "34471111",
+      "39127768",
+      "35411004",
+      "31428792",
+      "39814025",
+      "32213349",
+      "37249868",
+      "36452861",
+      "28075484",
+      "39487131",
+      "33659905",
+      "33779599",
+      "39987573",
+      "40880280",
+      "32336246",
+      "36995609",
+      "37811941",
+      "40841610",
+      "36313930",
+      "30580963",
+      "37249867",
+      "39956806",
+      "33581341",
+      "34586377",
+      "34718405",
+      "34686316",
+      "35022082",
+      "30936163",
+      "36232500",
+      "39255248",
+      "36495457"
+    ],
+    "review": [
+      "35941239",
+      "38338756",
+      "35478247",
+      "41270791",
+      "32312702",
+      "36549922",
+      "39500613",
+      "32014034",
+      "36313930",
+      "33581341"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41592-022-01562-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35941239",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

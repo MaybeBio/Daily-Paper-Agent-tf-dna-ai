@@ -1,0 +1,604 @@
+{
+  "identity": {
+    "pmid": "34916285",
+    "doi": "10.1073/pnas.2106844118",
+    "title": "Systems biology analysis of human genomes points to key pathways conferring spina bifida risk."
+  },
+  "content": {
+    "abstract": "Spina bifida (SB) is a debilitating birth defect caused by multiple gene and environment interactions. Though SB shows non-Mendelian inheritance, genetic factors contribute to an estimated 70% of cases. Nevertheless, identifying human mutations conferring SB risk is challenging due to its relative rarity, genetic heterogeneity, incomplete penetrance, and environmental influences that hamper genome-wide association studies approaches to untargeted discovery. Thus, SB genetic studies may suffer from population substructure and/or selection bias introduced by typical candidate gene searches. We report a population based, ancestry-matched whole-genome sequence analysis of SB genetic predisposition using a systems biology strategy to interrogate 298 case-control subject genomes (149 pairs). Genes that were enriched in likely gene disrupting (LGD), rare protein-coding variants were subjected to machine learning analysis to identify genes in which LGD variants occur with a different frequency in cases versus controls and so discriminate between these groups. Those genes with high discriminatory potential for SB significantly enriched pathways pertaining to carbon metabolism, inflammation, innate immunity, cytoskeletal regulation, and essential transcriptional regulation consistent with their having impact on the pathogenesis of human SB. Additionally, an interrogation of conserved noncoding sequences identified robust variant enrichment in regulatory regions of several transcription factors critical to embryonic development. This genome-wide perspective offers an effective approach to the interrogation of coding and noncoding sequence variant contributions to rare complex genetic disorders.",
+    "keywords": [
+      "myelomeningocele",
+      "neural tube defects",
+      "pathway analysis",
+      "rare variant enrichment",
+      "whole-genome sequence"
+    ],
+    "mesh_terms": [
+      "Case-Control Studies",
+      "Genetic Predisposition to Disease",
+      "*Genome, Human",
+      "Genome-Wide Association Study",
+      "Humans",
+      "Spinal Dysraphism/*genetics",
+      "Systems Biology",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aguiar-Pulido, Vanessa",
+        "Wolujewicz, Paul",
+        "Martinez-Fundichely, Alexander",
+        "Elhaik, Eran",
+        "Thareja, Gaurav",
+        "Abdel Aleem, Alice",
+        "Chalhoub, Nader",
+        "Cuykendall, Tawny",
+        "Al-Zamer, Jamel",
+        "Lei, Yunping",
+        "El-Bashir, Haitham",
+        "Musser, James M",
+        "Al-Kaabi, Abdulla",
+        "Shaw, Gary M",
+        "Khurana, Ekta",
+        "Suhre, Karsten",
+        "Mason, Christopher E",
+        "Elemento, Olivier",
+        "Finnell, Richard H",
+        "Ross, M Elizabeth"
+      ],
+      "short_names": [
+        "Aguiar-Pulido V",
+        "Wolujewicz P",
+        "Martinez-Fundichely A",
+        "Elhaik E",
+        "Thareja G",
+        "Abdel Aleem A",
+        "Chalhoub N",
+        "Cuykendall T",
+        "Al-Zamer J",
+        "Lei Y",
+        "El-Bashir H",
+        "Musser JM",
+        "Al-Kaabi A",
+        "Shaw GM",
+        "Khurana E",
+        "Suhre K",
+        "Mason CE",
+        "Elemento O",
+        "Finnell RH",
+        "Ross ME"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5248-6944",
+        "ORCID: 0000-0002-7660-5511",
+        "ORCID: 0000-0003-2277-6400",
+        "ORCID: 0000-0002-5278-9053",
+        "ORCID: 0000-0003-1504-0884",
+        "ORCID: 0000-0002-4014-8750",
+        "ORCID: 0000-0002-7765-4956",
+        "ORCID: 0000-0001-9638-3912",
+        "ORCID: 0000-0002-1850-1642",
+        "ORCID: 0000-0002-5962-8754",
+        "ORCID: 0000-0001-6440-8089"
+      ],
+      "affiliations": [
+        "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY 10021.",
+        "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY 10021.",
+        "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065.",
+        "His Royal Highness Prince Alwaleed Bin Talal Bin Abdulaziz Al-Saud Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY 10065.",
+        "Department of Biology, Lund University SE-221 00 Lund, Sweden.",
+        "Department of Physiology and Biophysics, Weill Cornell Medicine-Qatar, Doha, Qatar.",
+        "Department of Neurology, Weill Cornell Medicine-Qatar, Doha, Qatar.",
+        "Department of Neurology, Weill Cornell Medicine-Qatar, Doha, Qatar.",
+        "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065.",
+        "His Royal Highness Prince Alwaleed Bin Talal Bin Abdulaziz Al-Saud Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY 10065.",
+        "Rehabilitation Medicine, Hamad Medical Corporation, Doha, Qatar.",
+        "Department of Molecular and Cellular Biology, Center for Precision Environmental Health, Baylor College of Medicine, Houston, TX 77030.",
+        "Rehabilitation Medicine, Hamad Medical Corporation, Doha, Qatar.",
+        "Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston, TX 77030.",
+        "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY 10065.",
+        "Sidra Medical and Research Center, Weill Cornell Medicine-Qatar, Doha, Qatar.",
+        "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA 94305.",
+        "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065.",
+        "His Royal Highness Prince Alwaleed Bin Talal Bin Abdulaziz Al-Saud Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY 10065.",
+        "Department of Physiology and Biophysics, Weill Cornell Medicine-Qatar, Doha, Qatar.",
+        "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY 10021.",
+        "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065.",
+        "His Royal Highness Prince Alwaleed Bin Talal Bin Abdulaziz Al-Saud Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY 10065.",
+        "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY 10021.",
+        "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065.",
+        "His Royal Highness Prince Alwaleed Bin Talal Bin Abdulaziz Al-Saud Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY 10065.",
+        "Caryl and Israel Englander Institute for Precision Medicine, Weill Cornell Medicine, New York, NY 10021.",
+        "Department of Molecular and Cellular Biology, Center for Precision Environmental Health, Baylor College of Medicine, Houston, TX 77030.",
+        "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030.",
+        "Department of Medicine, Baylor College of Medicine, Houston, TX 77030.",
+        "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY 10021; mer2005@med.cornell.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aguiar-Pulido, Vanessa",
+        "short_name": "Aguiar-Pulido V",
+        "identifiers": [
+          "0000-0001-5248-6944"
+        ],
+        "affiliations": [
+          "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY 10021."
+        ]
+      },
+      {
+        "full_name": "Wolujewicz, Paul",
+        "short_name": "Wolujewicz P",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY 10021."
+        ]
+      },
+      {
+        "full_name": "Martinez-Fundichely, Alexander",
+        "short_name": "Martinez-Fundichely A",
+        "identifiers": [
+          "0000-0002-7660-5511"
+        ],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065.",
+          "His Royal Highness Prince Alwaleed Bin Talal Bin Abdulaziz Al-Saud Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY 10065."
+        ]
+      },
+      {
+        "full_name": "Elhaik, Eran",
+        "short_name": "Elhaik E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Lund University SE-221 00 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Thareja, Gaurav",
+        "short_name": "Thareja G",
+        "identifiers": [
+          "0000-0003-2277-6400"
+        ],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Weill Cornell Medicine-Qatar, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Abdel Aleem, Alice",
+        "short_name": "Abdel Aleem A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Weill Cornell Medicine-Qatar, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Chalhoub, Nader",
+        "short_name": "Chalhoub N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Weill Cornell Medicine-Qatar, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Cuykendall, Tawny",
+        "short_name": "Cuykendall T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065.",
+          "His Royal Highness Prince Alwaleed Bin Talal Bin Abdulaziz Al-Saud Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY 10065."
+        ]
+      },
+      {
+        "full_name": "Al-Zamer, Jamel",
+        "short_name": "Al-Zamer J",
+        "identifiers": [
+          "0000-0002-5278-9053"
+        ],
+        "affiliations": [
+          "Rehabilitation Medicine, Hamad Medical Corporation, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Lei, Yunping",
+        "short_name": "Lei Y",
+        "identifiers": [
+          "0000-0003-1504-0884"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, Center for Precision Environmental Health, Baylor College of Medicine, Houston, TX 77030."
+        ]
+      },
+      {
+        "full_name": "El-Bashir, Haitham",
+        "short_name": "El-Bashir H",
+        "identifiers": [
+          "0000-0002-4014-8750"
+        ],
+        "affiliations": [
+          "Rehabilitation Medicine, Hamad Medical Corporation, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Musser, James M",
+        "short_name": "Musser JM",
+        "identifiers": [
+          "0000-0002-7765-4956"
+        ],
+        "affiliations": [
+          "Department of Pathology and Genomic Medicine, Houston Methodist Research Institute, Houston, TX 77030.",
+          "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY 10065."
+        ]
+      },
+      {
+        "full_name": "Al-Kaabi, Abdulla",
+        "short_name": "Al-Kaabi A",
+        "identifiers": [],
+        "affiliations": [
+          "Sidra Medical and Research Center, Weill Cornell Medicine-Qatar, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Shaw, Gary M",
+        "short_name": "Shaw GM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA 94305."
+        ]
+      },
+      {
+        "full_name": "Khurana, Ekta",
+        "short_name": "Khurana E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065.",
+          "His Royal Highness Prince Alwaleed Bin Talal Bin Abdulaziz Al-Saud Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY 10065."
+        ]
+      },
+      {
+        "full_name": "Suhre, Karsten",
+        "short_name": "Suhre K",
+        "identifiers": [
+          "0000-0001-9638-3912"
+        ],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Weill Cornell Medicine-Qatar, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Mason, Christopher E",
+        "short_name": "Mason CE",
+        "identifiers": [
+          "0000-0002-1850-1642"
+        ],
+        "affiliations": [
+          "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY 10021.",
+          "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065.",
+          "His Royal Highness Prince Alwaleed Bin Talal Bin Abdulaziz Al-Saud Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY 10065."
+        ]
+      },
+      {
+        "full_name": "Elemento, Olivier",
+        "short_name": "Elemento O",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY 10021.",
+          "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065.",
+          "His Royal Highness Prince Alwaleed Bin Talal Bin Abdulaziz Al-Saud Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY 10065.",
+          "Caryl and Israel Englander Institute for Precision Medicine, Weill Cornell Medicine, New York, NY 10021."
+        ]
+      },
+      {
+        "full_name": "Finnell, Richard H",
+        "short_name": "Finnell RH",
+        "identifiers": [
+          "0000-0002-5962-8754"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, Center for Precision Environmental Health, Baylor College of Medicine, Houston, TX 77030.",
+          "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030.",
+          "Department of Medicine, Baylor College of Medicine, Houston, TX 77030."
+        ]
+      },
+      {
+        "full_name": "Ross, M Elizabeth",
+        "short_name": "Ross ME",
+        "identifiers": [
+          "0000-0001-6440-8089"
+        ],
+        "affiliations": [
+          "Center for Neurogenetics, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY 10021; mer2005@med.cornell.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2021 Dec 21",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/18 06:00",
+    "fetched_at": "2026-09-28 02:54:55"
+  },
+  "links": {
+    "cites": [
+      "40313675",
+      "39669613",
+      "39385469",
+      "38798648",
+      "37771625",
+      "37364051",
+      "37284286",
+      "36046618",
+      "35625701"
+    ],
+    "refs": [
+      "34713546",
+      "34001009",
+      "33740447",
+      "33686259",
+      "32918152",
+      "32680836",
+      "32650820",
+      "32461654",
+      "32025007",
+      "32024999",
+      "31876989",
+      "31693581",
+      "31626773",
+      "31133750",
+      "31114916",
+      "31078526",
+      "30476243",
+      "30445488",
+      "30256984",
+      "29998117",
+      "29976953",
+      "29650030",
+      "29573971",
+      "29472443",
+      "29205322",
+      "28605766",
+      "28276201",
+      "27959693",
+      "27925688",
+      "27883265",
+      "27707701",
+      "27648547",
+      "27398621",
+      "27296701",
+      "27268795",
+      "27247591",
+      "27155922",
+      "27124621",
+      "26983021",
+      "26940867",
+      "26686651",
+      "26686465",
+      "26446290",
+      "25948244",
+      "25431634",
+      "25339461",
+      "25303531",
+      "25170308",
+      "25128525",
+      "24781250",
+      "24632739",
+      "24132899",
+      "24078477",
+      "23922697",
+      "23749186",
+      "23449594",
+      "23128226",
+      "23125102",
+      "22863193",
+      "22604720",
+      "21693562",
+      "21682921",
+      "21170338",
+      "20843827",
+      "20836042",
+      "20740593",
+      "20354512",
+      "20110278",
+      "19740675",
+      "19451168",
+      "19114008",
+      "17706365",
+      "17008366",
+      "15608240",
+      "15371503",
+      "15229603",
+      "12824425",
+      "12411608",
+      "11559264",
+      "11027232",
+      "10559448",
+      "10433923",
+      "7063747",
+      "6353932",
+      "1754501",
+      "1677062",
+      "1307234"
+    ],
+    "similar": [
+      "34916285",
+      "33686259",
+      "28276201",
+      "39669613",
+      "12797455",
+      "32969478",
+      "22140002",
+      "35040250",
+      "12797456",
+      "31332962",
+      "38526198",
+      "29681089",
+      "16080189",
+      "23706941",
+      "30256984",
+      "22140583",
+      "19165900",
+      "39094898",
+      "20419766",
+      "37522954",
+      "23913553",
+      "26173399",
+      "31898828",
+      "9667406",
+      "20101694",
+      "27883265",
+      "24588777",
+      "30189017",
+      "29248470",
+      "15039923",
+      "12116225",
+      "20932315",
+      "35741713",
+      "17720888",
+      "8733136",
+      "22473653",
+      "27714636",
+      "14735580",
+      "23922697",
+      "34864704",
+      "23024056",
+      "11857541",
+      "17149730",
+      "11147289",
+      "25131656",
+      "33576426",
+      "10525207",
+      "15887293",
+      "28712006",
+      "24632739",
+      "18553462",
+      "21204206",
+      "23223018",
+      "28686331",
+      "15449172",
+      "9863598",
+      "33855610",
+      "15211708",
+      "19493349",
+      "28333195",
+      "19683694",
+      "11074490",
+      "31675701",
+      "17352815",
+      "33285644",
+      "21262862",
+      "26446020",
+      "38226444",
+      "14745930",
+      "32650820",
+      "32986630",
+      "32986629",
+      "31693581",
+      "19215021",
+      "25864616",
+      "25115437",
+      "10661913",
+      "23166514",
+      "15887275",
+      "12116226",
+      "15121991",
+      "19161160",
+      "10088035",
+      "23024041",
+      "24978929",
+      "35717001",
+      "9826722",
+      "34934172",
+      "30689296",
+      "17479212",
+      "38528656",
+      "31744032",
+      "33325411",
+      "7550316",
+      "22692891",
+      "29125526",
+      "17024475",
+      "11320527",
+      "8602137",
+      "29703944"
+    ],
+    "review": [
+      "34916285",
+      "20419766",
+      "27883265",
+      "29248470",
+      "11147289",
+      "10525207",
+      "33285644",
+      "32986630",
+      "32986629",
+      "31693581",
+      "15121991",
+      "23024041",
+      "33325411",
+      "22692891"
+    ],
+    "pmc": [
+      "8713748"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2106844118?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/spinabifida.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Spina Bifida"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34916285/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34916285",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://hdl.handle.net/11577/2458825",
+        "provider": "Padua Research Archive - University of Padua - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

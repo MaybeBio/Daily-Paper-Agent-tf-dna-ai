@@ -1,0 +1,521 @@
+{
+  "identity": {
+    "pmid": "39713324",
+    "doi": "10.1101/2024.12.09.627537",
+    "title": "Transcription factors form a ternary complex with NIPBL/MAU2 to localize cohesin at enhancers."
+  },
+  "content": {
+    "abstract": "While the cohesin complex is a key player in genome architecture, how it localizes to specific chromatin sites is not understood. Recently, we and others have proposed that direct interactions with transcription factors lead to the localization of the cohesin-loader complex (NIPBL/MAU2) within enhancers. Here, we identify two clusters of LxxLL motifs within the NIPBL sequence that regulate NIPBL dynamics, interactome, and NIPBL-dependent transcriptional programs. One of these clusters interacts with MAU2 and is necessary for the maintenance of the NIPBL-MAU2 heterodimer. The second cluster binds specifically to the ligand-binding domains of steroid receptors. For the glucocorticoid receptor (GR), we examine in detail its interaction surfaces with NIPBL and MAU2. Using AlphaFold2 and molecular docking algorithms, we uncover a GR-NIPBL-MAU2 ternary complex and describe its importance in GR-dependent gene regulation. Finally, we show that multiple transcription factors interact with NIPBL-MAU2, likely using interfaces other than those characterized for GR.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fettweis, Gregory",
+        "Wagh, Kaustubh",
+        "Stavreva, Diana A",
+        "Jimenez-Panizo, Alba",
+        "Kim, Sohyoung",
+        "Lion, Michelle",
+        "Alegre-Marti, Andrea",
+        "Rinaldi, Lorenzo",
+        "Johnson, Thomas A",
+        "Krishnamurthy, Manan",
+        "Wang, Li",
+        "Ball, David A",
+        "Karpova, Tatiana S",
+        "Upadhyaya, Arpita",
+        "Vertommen, Didier",
+        "Recio, Juan Fernandez",
+        "Estebanez-Perpina, Eva",
+        "Dequiedt, Franck",
+        "Hager, Gordon L"
+      ],
+      "short_names": [
+        "Fettweis G",
+        "Wagh K",
+        "Stavreva DA",
+        "Jimenez-Panizo A",
+        "Kim S",
+        "Lion M",
+        "Alegre-Marti A",
+        "Rinaldi L",
+        "Johnson TA",
+        "Krishnamurthy M",
+        "Wang L",
+        "Ball DA",
+        "Karpova TS",
+        "Upadhyaya A",
+        "Vertommen D",
+        "Recio JF",
+        "Estebanez-Perpina E",
+        "Dequiedt F",
+        "Hager GL"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6623-2264",
+        "ORCID: 0000-0001-8514-027X",
+        "ORCID: 0000-0002-7904-6452",
+        "ORCID: 0000-0001-7046-6162",
+        "ORCID: 0000-0002-6140-7918",
+        "ORCID: 0000-0001-6646-8798",
+        "ORCID: 0000-0003-2977-4205",
+        "ORCID: 0000-0002-9135-3252",
+        "ORCID: 0000-0001-8906-0533",
+        "ORCID: 0000-0002-3976-3668",
+        "ORCID: 0000-0001-6025-2128",
+        "ORCID: 0000-0003-1496-919X",
+        "ORCID: 0000-0001-7648-8282",
+        "ORCID: 0000-0003-2687-5801",
+        "ORCID: 0000-0003-1234-7477"
+      ],
+      "affiliations": [
+        "Laboratory of Gene Expression and Cancer, GIGA-Molecular & Computational Biology, University of Liege, 4000 Liege, Belgium.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Instituto de Ciencias de la Vid y del Vino (ICVV), CSIC - Universidad de La Rioja - Gobierno de La Rioja, 26007 Logrono, Spain.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Laboratory of Gene Expression and Cancer, GIGA-Molecular & Computational Biology, University of Liege, 4000 Liege, Belgium.",
+        "Institute of Biomedicine of the University of Barcelona (IBUB), University of Barcelona (UB), 08028 Barcelona, Spain.",
+        "Department of Biochemistry and Molecular Biomedicine, Faculty of Biology, University of Barcelona (UB), 08028 Barcelona, Spain.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Present Address: Delfi Diagnostics Inc, Baltimore, MD 21224, USA.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Present Address: Medical Scientist Training Program, Icahn School of Medicine at Mount Sinai, New York, NY, 10029, USA.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+        "Department of Physics, University of Maryland, College Park, Maryland 20742, USA.",
+        "Institute for Physical Science and Technology, University of Maryland, College Park, MD 20742, USA.",
+        "de Duve Institute, Universite Catholique de Louvain, 1348 Louvain-la-Neuve, Belgium.",
+        "Instituto de Ciencias de la Vid y del Vino (ICVV), CSIC - Universidad de La Rioja - Gobierno de La Rioja, 26007 Logrono, Spain.",
+        "Institute of Biomedicine of the University of Barcelona (IBUB), University of Barcelona (UB), 08028 Barcelona, Spain.",
+        "Department of Biochemistry and Molecular Biomedicine, Faculty of Biology, University of Barcelona (UB), 08028 Barcelona, Spain.",
+        "Laboratory of Gene Expression and Cancer, GIGA-Molecular & Computational Biology, University of Liege, 4000 Liege, Belgium.",
+        "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fettweis, Gregory",
+        "short_name": "Fettweis G",
+        "identifiers": [
+          "0000-0002-6623-2264"
+        ],
+        "affiliations": [
+          "Laboratory of Gene Expression and Cancer, GIGA-Molecular & Computational Biology, University of Liège, 4000 Liège, Belgium."
+        ]
+      },
+      {
+        "full_name": "Wagh, Kaustubh",
+        "short_name": "Wagh K",
+        "identifiers": [
+          "0000-0001-8514-027X"
+        ],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Stavreva, Diana A",
+        "short_name": "Stavreva DA",
+        "identifiers": [
+          "0000-0002-7904-6452"
+        ],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Jiménez-Panizo, Alba",
+        "short_name": "Jiménez-Panizo A",
+        "identifiers": [
+          "0000-0001-7046-6162"
+        ],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+          "Instituto de Ciencias de la Vid y del Vino (ICVV), CSIC - Universidad de La Rioja - Gobierno de La Rioja, 26007 Logroño, Spain."
+        ]
+      },
+      {
+        "full_name": "Kim, Sohyoung",
+        "short_name": "Kim S",
+        "identifiers": [
+          "0000-0002-6140-7918"
+        ],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Lion, Michelle",
+        "short_name": "Lion M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Gene Expression and Cancer, GIGA-Molecular & Computational Biology, University of Liège, 4000 Liège, Belgium."
+        ]
+      },
+      {
+        "full_name": "Alegre-Martí, Andrea",
+        "short_name": "Alegre-Martí A",
+        "identifiers": [
+          "0000-0001-6646-8798"
+        ],
+        "affiliations": [
+          "Institute of Biomedicine of the University of Barcelona (IBUB), University of Barcelona (UB), 08028 Barcelona, Spain.",
+          "Department of Biochemistry and Molecular Biomedicine, Faculty of Biology, University of Barcelona (UB), 08028 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Rinaldi, Lorenzo",
+        "short_name": "Rinaldi L",
+        "identifiers": [
+          "0000-0003-2977-4205"
+        ],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+          "Present Address: Delfi Diagnostics Inc, Baltimore, MD 21224, USA."
+        ]
+      },
+      {
+        "full_name": "Johnson, Thomas A",
+        "short_name": "Johnson TA",
+        "identifiers": [
+          "0000-0002-9135-3252"
+        ],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Krishnamurthy, Manan",
+        "short_name": "Krishnamurthy M",
+        "identifiers": [
+          "0000-0001-8906-0533"
+        ],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA.",
+          "Present Address: Medical Scientist Training Program, Icahn School of Medicine at Mount Sinai, New York, NY, 10029, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Li",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Ball, David A",
+        "short_name": "Ball DA",
+        "identifiers": [
+          "0000-0002-3976-3668"
+        ],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Karpova, Tatiana S",
+        "short_name": "Karpova TS",
+        "identifiers": [
+          "0000-0001-6025-2128"
+        ],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Upadhyaya, Arpita",
+        "short_name": "Upadhyaya A",
+        "identifiers": [
+          "0000-0003-1496-919X"
+        ],
+        "affiliations": [
+          "Department of Physics, University of Maryland, College Park, Maryland 20742, USA.",
+          "Institute for Physical Science and Technology, University of Maryland, College Park, MD 20742, USA."
+        ]
+      },
+      {
+        "full_name": "Vertommen, Didier",
+        "short_name": "Vertommen D",
+        "identifiers": [
+          "0000-0001-7648-8282"
+        ],
+        "affiliations": [
+          "de Duve Institute, Université Catholique de Louvain, 1348 Louvain-la-Neuve, Belgium."
+        ]
+      },
+      {
+        "full_name": "Recio, Juan Fernández",
+        "short_name": "Recio JF",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Ciencias de la Vid y del Vino (ICVV), CSIC - Universidad de La Rioja - Gobierno de La Rioja, 26007 Logroño, Spain."
+        ]
+      },
+      {
+        "full_name": "Estébanez-Perpiñá, Eva",
+        "short_name": "Estébanez-Perpiñá E",
+        "identifiers": [
+          "0000-0003-2687-5801"
+        ],
+        "affiliations": [
+          "Institute of Biomedicine of the University of Barcelona (IBUB), University of Barcelona (UB), 08028 Barcelona, Spain.",
+          "Department of Biochemistry and Molecular Biomedicine, Faculty of Biology, University of Barcelona (UB), 08028 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Dequiedt, Franck",
+        "short_name": "Dequiedt F",
+        "identifiers": [
+          "0000-0003-1234-7477"
+        ],
+        "affiliations": [
+          "Laboratory of Gene Expression and Cancer, GIGA-Molecular & Computational Biology, University of Liège, 4000 Liège, Belgium."
+        ]
+      },
+      {
+        "full_name": "Hager, Gordon L",
+        "short_name": "Hager GL",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Receptor Biology and Gene Expression, National Cancer Institute, National Institutes of Health, Bethesda, MD 20892, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Feb 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/23 17:24",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39742660",
+      "39541347",
+      "39413793",
+      "37540844",
+      "37377026",
+      "37315128",
+      "37062615",
+      "36898992",
+      "36897969",
+      "36464162",
+      "36261017",
+      "35654035",
+      "35353576",
+      "35140242",
+      "33640491",
+      "33592625",
+      "33561389",
+      "33334824",
+      "32409525",
+      "30922844",
+      "30552103",
+      "30241609",
+      "29995837",
+      "29094699",
+      "28985562",
+      "28315485",
+      "28167679",
+      "28041881",
+      "27967069",
+      "27382178",
+      "27273514",
+      "26687354",
+      "26499245",
+      "26038942",
+      "25516281",
+      "25497547",
+      "25196272",
+      "22127214",
+      "21934712",
+      "21706014",
+      "20219941",
+      "19563753",
+      "19060903",
+      "17661813",
+      "17444519",
+      "17099704",
+      "16159155",
+      "15691650",
+      "15563469",
+      "12930999",
+      "10882066",
+      "9808622",
+      "9299341",
+      "9192902",
+      "1847450",
+      "1372244"
+    ],
+    "similar": [
+      "39713324",
+      "40377219",
+      "32433956",
+      "24287868",
+      "24700590",
+      "35353576",
+      "39983729",
+      "21934712",
+      "24550742",
+      "23967866",
+      "37288770",
+      "31753851",
+      "27797076",
+      "37962004",
+      "30096364",
+      "39742660",
+      "37062615",
+      "33334824",
+      "23760082",
+      "28855971",
+      "29261648",
+      "32409525",
+      "37774974",
+      "25255084",
+      "22039349",
+      "36898992",
+      "34386522",
+      "21454523",
+      "28167679",
+      "28041881",
+      "36449519",
+      "39975341",
+      "35654035",
+      "18854353",
+      "29611806",
+      "28137757",
+      "34315879",
+      "34170011",
+      "32680543",
+      "35476527",
+      "37070193",
+      "32917770",
+      "20720539",
+      "31320616",
+      "28475897",
+      "36897969",
+      "26038942",
+      "37786717",
+      "30097539",
+      "34611363",
+      "37010886",
+      "25220052",
+      "26725122",
+      "28679547",
+      "24778232",
+      "40210441",
+      "36424654",
+      "19468298",
+      "21784059",
+      "35371307",
+      "19763162",
+      "27207471",
+      "25963978",
+      "40060486",
+      "26278180",
+      "11154266",
+      "27125329",
+      "19308700",
+      "17827210",
+      "31516082",
+      "17965872",
+      "36189249",
+      "28914604",
+      "24591583",
+      "29738565",
+      "28987049",
+      "37592094",
+      "30630974",
+      "17909832",
+      "23920377",
+      "23499533",
+      "22885700",
+      "34624221",
+      "33176147",
+      "24286025",
+      "18682536",
+      "32631111",
+      "36449618",
+      "27903902",
+      "24145515",
+      "29447171",
+      "28200020",
+      "40184420",
+      "12917342",
+      "28381557",
+      "32294452",
+      "11514567",
+      "39917313",
+      "35986423",
+      "34083716"
+    ],
+    "review": [
+      "39713324",
+      "30096364",
+      "37062615",
+      "34386522",
+      "27207471",
+      "19308700",
+      "31516082"
+    ],
+    "pmc": [
+      "11661173"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39713324/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39713324",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NIPBL-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.12.09.627537",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

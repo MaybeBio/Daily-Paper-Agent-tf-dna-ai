@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "36692138",
+    "doi": "10.1093/bioinformatics/btad038",
+    "title": "NetProphet 3: a machine learning framework for transcription factor network mapping and multi-omics integration."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Many methods have been proposed for mapping the targets of transcription factors (TFs) from gene expression data. It is known that combining outputs from multiple methods can improve performance. To date, outputs have been combined by using either simplistic formulae, such as geometric mean, or carefully hand-tuned formulae that may not generalize well to new inputs. Finally, the evaluation of accuracy has been challenging due to the lack of genome-scale, ground-truth networks. RESULTS: We developed NetProphet3, which combines scores from multiple analyses automatically, using a tree boosting algorithm trained on TF binding location data. We also developed three independent, genome-scale evaluation metrics. By these metrics, NetProphet3 is more accurate than other commonly used packages, including NetProphet 2.0, when gene expression data from direct TF perturbations are available. Furthermore, its integration mode can forge a consensus network from gene expression data and TF binding location data. AVAILABILITY AND IMPLEMENTATION: All data and code are available at https://zenodo.org/record/7504131#.Y7Wu3i-B2x8. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism",
+      "*Multiomics",
+      "Gene Expression Regulation",
+      "Protein Binding",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Abid, Dhoha",
+        "Brent, Michael R"
+      ],
+      "short_names": [
+        "Abid D",
+        "Brent MR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9072-7777",
+        "ORCID: 0000-0002-8689-0299"
+      ],
+      "affiliations": [
+        "Center for Genome Sciences and Systems Biology, Washington University School of Medicine, St. Louis, MO 63110, USA.",
+        "Department of Computer Science and Engineering, Washington University, St. Louis, MO 63130, USA.",
+        "Center for Genome Sciences and Systems Biology, Washington University School of Medicine, St. Louis, MO 63110, USA.",
+        "Department of Computer Science and Engineering, Washington University, St. Louis, MO 63130, USA.",
+        "Department of Genetics, Washington University School of Medicine, St. Louis, MO 63110, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Abid, Dhoha",
+        "short_name": "Abid D",
+        "identifiers": [
+          "0000-0002-9072-7777"
+        ],
+        "affiliations": [
+          "Center for Genome Sciences and Systems Biology, Washington University School of Medicine, St. Louis, MO 63110, USA.",
+          "Department of Computer Science and Engineering, Washington University, St. Louis, MO 63130, USA."
+        ]
+      },
+      {
+        "full_name": "Brent, Michael R",
+        "short_name": "Brent MR",
+        "identifiers": [
+          "0000-0002-8689-0299"
+        ],
+        "affiliations": [
+          "Center for Genome Sciences and Systems Biology, Washington University School of Medicine, St. Louis, MO 63110, USA.",
+          "Department of Computer Science and Engineering, Washington University, St. Louis, MO 63130, USA.",
+          "Department of Genetics, Washington University School of Medicine, St. Louis, MO 63110, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2023 Feb 3",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/25 06:00",
+    "fetched_at": "2026-09-28 19:36:17"
+  },
+  "links": {
+    "cites": [
+      "41795654",
+      "41314178",
+      "41022589",
+      "40463179",
+      "39273402",
+      "37790443"
+    ],
+    "refs": [
+      "35188184",
+      "33237311",
+      "32181581",
+      "32060051",
+      "31985403",
+      "31341088",
+      "30976803",
+      "30886345",
+      "30030442",
+      "29467401",
+      "28968736",
+      "28060339",
+      "27794550",
+      "27720190",
+      "26832691",
+      "24766815",
+      "24603674",
+      "24173036",
+      "24146602",
+      "23636944",
+      "22888912",
+      "22696679",
+      "22572961",
+      "22419079",
+      "22214611",
+      "22153082",
+      "21471402",
+      "21049040",
+      "20972212",
+      "20927193",
+      "19964678",
+      "19536199",
+      "18802438",
+      "17623806",
+      "16723010",
+      "16686963",
+      "16522208",
+      "15343339",
+      "15297299",
+      "12509465",
+      "11532938",
+      "10541856",
+      "10490611",
+      "10022891",
+      "9791119"
+    ],
+    "similar": [
+      "36692138",
+      "28968736",
+      "23636944",
+      "36637211",
+      "35997560",
+      "33135076",
+      "34028557",
+      "32054475",
+      "34415323",
+      "35157023",
+      "36383167",
+      "36864611",
+      "36788531",
+      "25957350",
+      "21690103",
+      "18426580",
+      "30304373",
+      "35445698",
+      "36366781",
+      "24565265",
+      "21172055",
+      "31161194",
+      "34375392",
+      "34390577",
+      "31801079",
+      "34383882",
+      "27587697",
+      "31723409",
+      "36094338",
+      "30423062",
+      "28961802",
+      "37432499",
+      "28334224",
+      "28750606",
+      "14555624",
+      "31742324",
+      "34554215",
+      "22238267",
+      "34314098",
+      "35583303",
+      "34570169",
+      "26130577",
+      "36699385",
+      "36083008",
+      "31061989",
+      "21724591",
+      "28234893",
+      "36394233",
+      "32246829",
+      "29036404",
+      "35266510",
+      "31995498",
+      "31099391",
+      "25161228",
+      "22456606",
+      "20444835",
+      "35266505",
+      "31857203",
+      "34555591",
+      "33631799",
+      "30541050",
+      "25433699",
+      "36106996",
+      "22954627",
+      "26092860",
+      "34849583",
+      "34986221",
+      "28710010",
+      "25559499",
+      "19825796",
+      "26679776",
+      "32282466",
+      "23812975",
+      "23497388",
+      "27288497",
+      "30957844",
+      "31218364",
+      "31362726",
+      "36124807",
+      "18586698",
+      "36307271",
+      "27307632",
+      "27153719"
+    ],
+    "review": [
+      "36692138",
+      "31742324",
+      "34314098"
+    ],
+    "pmc": [
+      "9912366"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36692138.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36692138/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36692138",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btad038",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

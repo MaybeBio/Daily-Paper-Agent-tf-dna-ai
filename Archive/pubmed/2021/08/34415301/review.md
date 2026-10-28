@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors argue that existing datasets for DNA-binding protein prediction are flawed, introduce new datasets and benchmark tasks, propose a gradient boosting model using protein language model features, and show that this model outperforms two prior models, with a BLAST-based nearest neighbor baseline also performing well. They further claim that models focus on DNA-binding regions and that cross-taxa prediction is accurate within kingdoms and partially informative across kingdoms.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset specifications, model architecture details, hyperparameters, evaluation protocols, and code or data availability verification
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to the field of DNA-binding protein prediction by addressing dataset quality issues and proposing new benchmarks. However, the abstract alone provides insufficient evidence to evaluate the validity of the claims. The reported performance comparisons and cross-taxa results lack quantitative detail, and the methodological novelty is unclear. The work may be of interest to computational biologists, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function annotation, particularly those developing or evaluating machine learning models for DNA-binding protein prediction. The improved datasets and benchmark tasks could serve as community resources, and the cross-taxa analysis may inform practical applications in genome annotation.
+- **Major strengths** The authors identify a real and important problem, namely flawed datasets in prior literature, and propose new datasets and evaluation tasks. The inclusion of a simple baseline model and a BLAST-based nearest neighbor approach is a useful sanity check. The focus on cross-taxa generalization is practically relevant.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Evidence sufficiency  
+    - **Claim pointer** The abstract claims that the new gradient boosting model outperforms two previously published models, and that a BLAST-based nearest neighbor baseline also performs well.  
+    - **Evidence pointer** Abstract, Results section; location not provided  
+    - **Concern** No quantitative performance metrics, such as accuracy, precision, recall, F1, or area under the ROC curve, are reported. The claim of outperformance is unsupported without numerical comparisons.  
+    - **Why it matters** The central contribution of the paper is the performance comparison. Without numbers, the reader cannot assess the magnitude of improvement or whether the difference is statistically significant.  
+    - **Resolution test** Provide specific performance values for all models on the new datasets, including confidence intervals or statistical tests, in the full manuscript.  
+  - **Concern ID** R1-M2  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Dataset validity  
+    - **Claim pointer** The abstract states that previous datasets have "substantial flaws" and that the new datasets address these problems.  
+    - **Evidence pointer** Abstract, Motivation section; location not provided  
+    - **Concern** The nature of the flaws and how the new datasets correct them are not described. Without details on dataset construction, redundancy control, and labeling accuracy, the validity of the new datasets cannot be assessed.  
+    - **Why it matters** If the new datasets are not demonstrably superior, the benchmark results may not be meaningful, and the contribution to the field is weakened.  
+    - **Resolution test** Describe the specific flaws in prior datasets and provide a detailed description of how the new datasets were constructed, including any filtering or curation steps.  
+  - **Concern ID** R1-M3  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Methodological clarity  
+    - **Claim pointer** The abstract proposes a "simple new model" using features from a published protein language model, but no details are given.  
+    - **Evidence pointer** Abstract, Results section; location not provided  
+    - **Concern** The model architecture, feature extraction method, and training procedure are not described. The claim that the model is "simple" is not substantiated.  
+    - **Why it matters** Reproducibility is a core requirement for computational studies. Without methodological details, other researchers cannot implement or build upon the model.  
+    - **Resolution test** Provide a full description of the model, including feature generation, hyperparameters, and training code, in the main text or supplementary materials.  
+  - **Concern ID** R1-M4  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Generalizability  
+    - **Claim pointer** The abstract claims that the best models are "highly accurate across species in the same kingdom" and "can provide some information when predicting across kingdoms."  
+    - **Evidence pointer** Abstract, Results section; location not provided  
+    - **Concern** The terms "highly accurate" and "some information" are vague and not quantified. The scope of the cross-taxa analysis, such as which species and kingdoms were tested, is not specified.  
+    - **Why it matters** The practical utility of the models depends on their generalization performance. Without clear metrics and scope, the claim is not actionable.  
+    - **Resolution test** Report quantitative performance for each taxonomic group tested, and specify the species and kingdoms included in the analysis.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Abstract, Motivation section  
+    - **Evidence pointer** Location not provided  
+    - **Issue** The phrase "substantial flaws" is used without examples or context.  
+    - **Required correction** Briefly list one or two representative flaws in the abstract to give readers a concrete sense of the problem.  
+  - **Concern ID** R1-m2  
+    - **Severity** Minor  
+    - **Axis** Reproducibility  
+    - **Affected element** Abstract, Availability section  
+    - **Evidence pointer** Location not provided  
+    - **Issue** The abstract mentions data and code availability but does not state whether the datasets are in a standardized format or whether the code is documented.  
+    - **Required correction** Add a sentence in the abstract or availability section indicating that the datasets are provided in a common format and that the code includes usage instructions.  
+  - **Concern ID** R1-m3  
+    - **Severity** Minor  
+    - **Axis** Terminology  
+    - **Affected element** Abstract, Results section  
+    - **Evidence pointer** Location not provided  
+    - **Issue** The term "baseline nearest neighbor model using BLAST percent identity" is not defined in the abstract.  
+    - **Required correction** Clarify whether this is a k-nearest neighbor classifier or a different approach, and specify the distance metric used.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns are blocking because the core claims of performance improvement, dataset quality, and model reproducibility cannot be evaluated from the abstract alone.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The idea of improving datasets and benchmarks for DNA-binding protein prediction is not entirely novel, but the specific focus on dataset flaws and cross-taxa evaluation may offer a fresh perspective. The abstract does not clearly distinguish the contribution from prior work.  
+  - **Scientific importance** The problem is important for protein function annotation, but the abstract does not demonstrate a significant advance over existing methods. The impact depends on the quality of the new datasets and the performance gains, which are not shown.  
+  - **Interdisciplinary readership** The topic is relevant to bioinformatics and molecular biology, but the abstract is written for a specialist audience. The lack of context for nonspecialists limits broader appeal.  
+  - **Technical soundness** Cannot be assessed from the abstract. The absence of methodological details and quantitative results prevents evaluation of the technical approach.  
+  - **Readability for nonspecialists** The abstract is concise but uses field-specific terms without explanation. It is not accessible to a general scientific audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful contribution, but the lack of quantitative results and methodological detail means the claims cannot be verified. A revised abstract with specific performance numbers and dataset descriptions, or access to the full manuscript, would be needed to assess the work.
+
+## Risk / unsupported claims
+- The claim that the new gradient boosting model outperforms prior models is unsupported without quantitative results.
+- The claim that previous datasets have "substantial flaws" is unsupported without specific examples.
+- The claim that the new datasets address these flaws is unsupported without dataset descriptions.
+- The claim that models "learn to focus on DNA-binding regions" is unsupported without experimental evidence.
+- The claim of "highly accurate" cross-taxa prediction is unsupported without metrics.
+- The claim that the model is "simple" is unsupported without architectural details.

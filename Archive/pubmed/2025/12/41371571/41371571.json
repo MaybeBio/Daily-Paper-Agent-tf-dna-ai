@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "41371571",
+    "doi": "10.1016/j.tox.2025.154366",
+    "title": "Linking AhR and Nrf2 activation to neurotoxicity through adverse outcome pathway-based machine learning."
+  },
+  "content": {
+    "abstract": "Chemical-induced neurotoxicity poses a challenge for safety assessment due to the complexity of central nervous system responses and the limitations of conventional assays. We developed an adverse outcome pathway (AOP)-guided machine-learning framework that links molecular initiating events, using the activation of the aryl hydrocarbon receptor (AhR) and Nrf2-mediated oxidative stress responses as examples, to neurotoxicity. A curated dataset was assembled from public sources and the literature, key molecular features such as nitrogen-containing groups were identified as structural alerts associated with neurotoxicity. Within this framework, AhR and Nrf2 activity information (measured or predicted) was integrated with structural fingerprints to enhance biological interpretability while maintaining robust predictive performance (e.g., AUC value > 0.80) in both cross-validation and external validation. The AOP-based model was further applied to virtual screening of 7576 compounds, with blood-brain barrier (BBB) permeability and applicability domain (AD) constraints ensuring reliable predictions. Molecular docking of 12 prioritized persistent organic pollutants (POPs) further supported these predictions, revealing strong binding affinities with AhR (up to -10.2 kcal/mol) and Nrf2 (up to -7.9 kcal/mol) through interactions such as hydrogen bonding and pi-pi stacking. Overall, this strategy highlights AOP-based machine learning as a powerful approach to connect structure, mechanism, and outcomes, thereby improving chemical risk assessment and prioritization.",
+    "keywords": [
+      "Adverse outcome pathway",
+      "Chemical neurotoxicity",
+      "Mechanism-driven modeling",
+      "Structural alerts"
+    ],
+    "mesh_terms": [
+      "*NF-E2-Related Factor 2/metabolism",
+      "*Receptors, Aryl Hydrocarbon/metabolism",
+      "*Machine Learning",
+      "*Adverse Outcome Pathways",
+      "Humans",
+      "*Neurotoxicity Syndromes/metabolism/etiology",
+      "Molecular Docking Simulation",
+      "Oxidative Stress/drug effects",
+      "Animals",
+      "*Basic Helix-Loop-Helix Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Jiajia",
+        "Yan, Kai",
+        "Li, Xiaofang",
+        "Deng, Wenjing",
+        "He, Meian",
+        "Zhu, Hao",
+        "Yan, Xiliang",
+        "Yan, Bing"
+      ],
+      "short_names": [
+        "Yang J",
+        "Yan K",
+        "Li X",
+        "Deng W",
+        "He M",
+        "Zhu H",
+        "Yan X",
+        "Yan B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Environmental Research at Greater Bay Area, Key Laboratory for Water Quality and Conservation of the Pearl River Delta, Ministry of Education, Guangzhou University, Guangzhou 510006, China.",
+        "Institute of Environmental Research at Greater Bay Area, Key Laboratory for Water Quality and Conservation of the Pearl River Delta, Ministry of Education, Guangzhou University, Guangzhou 510006, China.",
+        "Institute of Environmental Research at Greater Bay Area, Key Laboratory for Water Quality and Conservation of the Pearl River Delta, Ministry of Education, Guangzhou University, Guangzhou 510006, China. Electronic address: lixiaofang0813@gzhu.edu.cn.",
+        "Department of Science and Environmental Studies, The Education University of Hong Kong, Tai Po, NT, Hong Kong Special Administrative Region of China.",
+        "Department of Occupational and Environmental Health and State Key Laboratory of Environmental Health for Incubating, School of Public Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China.",
+        "Center for Biomedical Informatics and Genomics, Tulane University, New Orleans, LA 70112, United States.",
+        "College of Animal Science, South China Agricultural University, Guangzhou 510642, China. Electronic address: yanxiliang1991@scau.edu.cn.",
+        "Institute of Environmental Research at Greater Bay Area, Key Laboratory for Water Quality and Conservation of the Pearl River Delta, Ministry of Education, Guangzhou University, Guangzhou 510006, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Jiajia",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Environmental Research at Greater Bay Area, Key Laboratory for Water Quality and Conservation of the Pearl River Delta, Ministry of Education, Guangzhou University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Kai",
+        "short_name": "Yan K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Environmental Research at Greater Bay Area, Key Laboratory for Water Quality and Conservation of the Pearl River Delta, Ministry of Education, Guangzhou University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaofang",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Environmental Research at Greater Bay Area, Key Laboratory for Water Quality and Conservation of the Pearl River Delta, Ministry of Education, Guangzhou University, Guangzhou 510006, China. Electronic address: lixiaofang0813@gzhu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Deng, Wenjing",
+        "short_name": "Deng W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Science and Environmental Studies, The Education University of Hong Kong, Tai Po, NT, Hong Kong Special Administrative Region of China."
+        ]
+      },
+      {
+        "full_name": "He, Meian",
+        "short_name": "He M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Occupational and Environmental Health and State Key Laboratory of Environmental Health for Incubating, School of Public Health, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430030, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Hao",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biomedical Informatics and Genomics, Tulane University, New Orleans, LA 70112, United States."
+        ]
+      },
+      {
+        "full_name": "Yan, Xiliang",
+        "short_name": "Yan X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science, South China Agricultural University, Guangzhou 510642, China. Electronic address: yanxiliang1991@scau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yan, Bing",
+        "short_name": "Yan B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Environmental Research at Greater Bay Area, Key Laboratory for Water Quality and Conservation of the Pearl River Delta, Ministry of Education, Guangzhou University, Guangzhou 510006, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Toxicology"
+    ],
+    "journal_abbrev": [
+      "Toxicology"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/11 01:22",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [
+      "42694632"
+    ],
+    "refs": [],
+    "similar": [
+      "41371571",
+      "42074173",
+      "41500358",
+      "33182092",
+      "40063898",
+      "41575478",
+      "29524501",
+      "41452362",
+      "27720465",
+      "35328472",
+      "28529068",
+      "25680693",
+      "38672460",
+      "38969138",
+      "41501583",
+      "34906874",
+      "39890034",
+      "42074185",
+      "37451370",
+      "41769099",
+      "28189649",
+      "41789594",
+      "35211661",
+      "27212452",
+      "38979646",
+      "36087060",
+      "35739723",
+      "26145830",
+      "41355500",
+      "42159741",
+      "20395535",
+      "37895177",
+      "40062460",
+      "40930398",
+      "42025019",
+      "41631896",
+      "26427884",
+      "38761765",
+      "25548370",
+      "37341548",
+      "39929369",
+      "34555451",
+      "41887355",
+      "42113380",
+      "40410551",
+      "39835132",
+      "36779220",
+      "41386181",
+      "39182714",
+      "37866606",
+      "32093744",
+      "39813840",
+      "40668407",
+      "41061939",
+      "39732775",
+      "39945917",
+      "39742830",
+      "35660951",
+      "39706064",
+      "21753779",
+      "29788535",
+      "35701726",
+      "23846855",
+      "21256954",
+      "41707808",
+      "36191662",
+      "23800876",
+      "28585088",
+      "42057395",
+      "30308017",
+      "17266942",
+      "41791290",
+      "41172870",
+      "40825424",
+      "39228295",
+      "32526934",
+      "34147625",
+      "35123993",
+      "29752288",
+      "39344334",
+      "39174753",
+      "30836878",
+      "41604324",
+      "37068727",
+      "42019124",
+      "40964721",
+      "41822751",
+      "31872748",
+      "28273792",
+      "25605028",
+      "32546278",
+      "41652971",
+      "30291945",
+      "15790560",
+      "35174548",
+      "36321557",
+      "31370872",
+      "37866692",
+      "41860418",
+      "41461937"
+    ],
+    "review": [
+      "41371571",
+      "28529068",
+      "38969138",
+      "39890034",
+      "28189649",
+      "27212452",
+      "41355500",
+      "40062460",
+      "41631896",
+      "37341548",
+      "39929369",
+      "35660951",
+      "42057395",
+      "17266942",
+      "39228295",
+      "28273792",
+      "25605028",
+      "35174548",
+      "36321557"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0300-483X(25)00325-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GSTP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0300-483X(25)00325-7",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

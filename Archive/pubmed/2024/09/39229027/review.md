@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Methods, results, and conclusions as presented in the preprint
+- **Shared manuscript claim summary** The authors organized a community challenge (BICCN Challenge) to evaluate computational methods for predicting cell type-specific enhancers in the mouse cortex. Six teams submitted 79 predictions, which were benchmarked against 677 in vivo validated enhancers. Top-performing methods relied primarily on ATAC-seq specificity, while sequence-based deep learning models added value in prioritizing strong enhancers and deprioritizing non-functional ones. The study provides a public benchmark and insights into which data modalities and computational approaches are most effective.
+- **Visible evidence base** Main text, figures referenced (Figs. 1–4), supplementary figures and tables referenced, methods section
+- **Missing materials affecting confidence** Supplementary figures and tables not provided; detailed per-team method code not provided; raw data not provided; full benchmark scoring code not provided
+
+## Reviewer
+- **Overall assessment** This manuscript presents a timely and well-organized community challenge that addresses an important problem in neurogenomics: predicting cell type-specific enhancers in the mammalian cortex. The study is commendable for its scale (677 validated enhancers), its public availability of benchmark and code, and its systematic comparison of diverse computational approaches. The finding that ATAC-seq specificity is the strongest predictor, and that sequence models add complementary value, is useful and actionable. However, several technical aspects require clarification and strengthening before the conclusions are fully established. These include the statistical rigor of the benchmark metric, the handling of class imbalance, the generalizability of the results beyond the tested cell types and brain regions, and the interpretation of the re-scoring analysis. The manuscript is well-written and accessible, but the methods section needs more detail for reproducibility.
+- **Who would be interested in the results, and why** Researchers developing genetic tools for cell type-specific access in the brain (e.g., AAV-based tools), computational biologists working on enhancer prediction and regulatory genomics, and neuroscientists interested in cortical cell type diversity and gene regulation. The benchmark and public resources will be valuable to the broader genomics community.
+- **Major strengths** 1) Large-scale, standardized in vivo validation dataset (677 enhancers) that is a unique and valuable resource. 2) Community challenge design with multiple independent teams and methods, reducing single-team bias. 3) Clear and interpretable benchmark metric, publicly available. 4) Systematic comparison of data modalities (ATAC-seq, RNA-seq, Hi-C, sequence) and identification of key predictive features. 5) Demonstration that sequence models can complement ATAC-seq, particularly for prioritizing strong enhancers and avoiding false positives. 6) Re-scoring analysis provides a thoughtful approach to reconciling prediction and validation discrepancies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The benchmark metric is described as "optimized when enhancers with On-Target activity are ranked highest, and Mixed-Target, Off-Target and No-Labeling enhancers are ranked lowest" and is used to rank all methods.
+  - **Evidence pointer** Methods, "Benchmark metrics for evaluation of enhancer prioritization methods"; Results, Fig. 1F
+  - **Concern** The benchmark metric is a weighted sum of ranks with category-specific weights (On-Target: -1, Mixed-Target: 0.5, Off-Target/No-Labeling: 1) and strength weights (Strong: 2, Weak: 1.5, None: 1). The choice of these weights appears arbitrary and is not justified. The metric's sensitivity to these weights is not tested. Furthermore, the metric sums ranks across all cell types, which may be dominated by cell types with more validated enhancers. The statistical properties of this metric (e.g., its distribution under a null model of random ranking) are not characterized, making it difficult to assess whether differences between methods are significant.
+  - **Why it matters** The primary conclusion that "top-performing methods" are better than others rests entirely on this metric. If the metric is biased or not statistically robust, the ranking of methods and the derived conclusions could be misleading.
+  - **Resolution test** Provide a justification for the chosen weights, or demonstrate that results are robust to reasonable variations in weights. Perform a permutation test or similar to establish the null distribution of the metric and report confidence intervals or p-values for differences between methods. Consider normalizing the metric per cell type to avoid dominance by cell types with many enhancers.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Sequence models also identified cell type-specific transcription factor codes that can guide designs of in silico enhancers" and "we found DLX-and LHX-like motifs in interneurons, MEF-like motifs and E-box motifs in neurons, SOX-like motifs in Oligo and OPC and NFI-like motifs in astrocytes, Oligo, OPC, Vip and L6b neurons, consistent with previously reported TF motif enrichments in cortical cell types."
+  - **Evidence pointer** Results, "Re-scored enhancers validate model predictions"; Supplemental Fig. 14
+  - **Concern** The motif enrichment analysis is described briefly, and the results are presented as confirmatory ("consistent with previously reported"). However, the methodology for identifying "frequently occurring motifs" and clustering them across cell types is not detailed. The statistical significance of the motif enrichments is not reported. The claim that these motifs "can guide designs of in silico enhancers" is speculative and not directly tested.
+  - **Why it matters** The identification of TF codes is presented as a key outcome of the sequence model. Without rigorous statistical analysis and validation, this claim is not well-supported. The potential utility for in silico enhancer design is an important translational claim that requires experimental demonstration or at least a more concrete computational validation.
+  - **Resolution test** Provide a detailed description of the motif discovery and clustering methods, including parameters and statistical thresholds. Report enrichment p-values or effect sizes. If claiming utility for in silico design, provide a proof-of-concept (e.g., design and test a synthetic enhancer based on the identified motifs).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / Generalizability
+  - **Claim pointer** "This community challenge establishes a benchmark for enhancer prioritization algorithms and reveals computational approaches and molecular information that are crucial for identifying functional enhancers in mammalian cortical cell types."
+  - **Evidence pointer** Discussion
+  - **Concern** The benchmark is limited to mouse cortical cell types and a specific set of 677 enhancers. The authors acknowledge limitations (e.g., bulk ATAC-seq, PHP.eB AAV bias, V1 vs M1), but the generalizability of the findings to other brain regions, species, or enhancer types is not discussed in depth. The claim of establishing a "benchmark" is strong; it would be more accurate to say a benchmark for this specific context.
+  - **Why it matters** The stated goal is to develop tools for the mammalian brain broadly. If the findings are context-specific, the utility of the benchmark for other applications is limited. Overstating generalizability could mislead other researchers.
+  - **Resolution test** Soften the claim to specify the context (mouse cortex, PHP.eB AAV). Discuss explicitly which findings are likely to generalize and which may not, and what additional benchmarks are needed.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "We find that open chromatin was a key predictor of functional enhancers, and sequence models improved prediction of non-functional enhancers that can be deprioritized as opposed to pursued for in vivo testing."
+  - **Evidence pointer** Results, Fig. 4E-G
+  - **Concern** The comparison of modalities (ATAC-seq, H3K27ac, CREsted, combined) is based on average precision (AP) and ROC curves. However, the details of how these scores were computed for each modality are not fully described. For example, how was the "specificity metric" applied to H3K27ac data? How were the combined scores normalized? The statistical significance of the differences in AP (e.g., 0.54 vs 0.52) is not reported.
+  - **Why it matters** The conclusion that combining modalities improves prediction is a key finding. Without statistical testing, it is unclear if the observed improvement is meaningful or within noise.
+  - **Resolution test** Provide full details of score computation for each modality. Report confidence intervals or p-values for differences in AP and AUC. Consider using a paired statistical test that accounts for the correlation between predictions on the same set of enhancers.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Benchmark metrics for evaluation of enhancer prioritization methods"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the benchmark metric is dense and the equation is not fully explained. The variables (e.g., ICategory, IStrength) are defined, but the rationale for the specific weights is not clear.
+  - **Required correction** Expand the explanation of the metric, including a worked example. Justify the choice of weights or state that they are arbitrary and test robustness.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Stein Aerts team methods"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the Aerts team's methods is high-level. For example, "We processed fragment files through pycisTopic" and "We ranked regions based on the Gini index" lack specific parameters and versions.
+  - **Required correction** Provide more detail on parameters, software versions, and any custom code. Consider adding a supplementary methods file or a code repository link.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Re-scored enhancers validate model predictions"
+  - **Evidence pointer** Results section, Fig. 4
+  - **Issue** The re-scoring analysis is interesting but the criteria for re-scoring are not fully clear. The text says "we manually inspected" and "re-evaluated validation data," but the specific rules for changing a label from No-Labeling to On-Target are not stated.
+  - **Required correction** Provide a clear description of the re-scoring criteria, ideally with examples. State whether the re-scoring was done blind to the model predictions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figures
+  - **Evidence pointer** Figs. 1-4
+  - **Issue** The figures are referenced but not provided in the manuscript text. It is difficult to assess the quality of the data presentation.
+  - **Required correction** Ensure figures are self-explanatory with clear labels and legends. Consider adding more panels to show per-cell-type performance, which is currently only summarized.
+- **Technical failings that need to be addressed before the case is established** 1) The benchmark metric's statistical properties and weight choices need to be justified and tested (R1-M1). 2) The motif enrichment analysis needs more rigorous statistical support (R1-M2). 3) The comparison of modalities needs statistical testing (R1-M4). 4) The re-scoring criteria need to be explicit and objective (R1-m3).
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The community challenge format for enhancer prediction in the mammalian brain is novel, and the public benchmark is a unique contribution.
+  - **Scientific importance** High. Improving enhancer prediction is critical for developing genetic tools for brain research and potentially for therapeutic applications. The findings have direct practical implications.
+  - **Interdisciplinary readership** Moderate. The topic is of interest to neuroscientists, computational biologists, and genomics researchers. The writing is accessible, but some methods may be too technical for a general audience.
+  - **Technical soundness** Moderate. The study is well-designed, but several technical aspects (metric, statistics, re-scoring) need strengthening to fully support the conclusions.
+  - **Readability for nonspecialists** Good. The abstract and introduction are clear. The results are presented logically, but the methods section is dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses an important problem and provides valuable resources. However, the statistical rigor of the benchmark and the support for some claims need to be improved before the conclusions are fully established. I recommend major revisions.
+
+## Risk / unsupported claims
+- The claim that "sequence models also identified cell type-specific transcription factor codes that can guide designs of in silico enhancers" is not fully supported by the presented analysis, as the motif enrichment lacks statistical rigor and the utility for in silico design is not demonstrated.
+- The claim that the benchmark "establishes a benchmark for enhancer prioritization algorithms" is overstated given the context-specific nature of the validation data (mouse cortex, PHP.eB AAV).
+- The re-scoring of 66 No-Labeling enhancers to On-Target is based on manual inspection, and the criteria are not fully described, making this result difficult to evaluate.
+- The comparison of methods using the benchmark metric lacks statistical testing, so the significance of performance differences is unknown.

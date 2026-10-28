@@ -1,0 +1,274 @@
+{
+  "identity": {
+    "pmid": "42544308",
+    "doi": "10.7717/peerj.21572",
+    "title": "CPT1A, CYGB, and MRPL3 in pre-eclampsia: biomarkers identified from oxidative stress-related gene analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The involvement of oxidative stress (OS) in pre-eclampsia (PE) has been reported, and the present study probed into the OS-related feature genes in PE. METHODS: The dataset GSE60438 was used to identify the OS-related features in PE, and corresponding feature genes were identified using machine learning algorithms including weighted gene co-expression network analysis (WGCNA), Least Absolute Shrinkage and Selection Operator (LASSO) regression analysis and support vector machine-recursive feature elimination (SVM-RFE). The diagnostic value of the feature genes and their correlation with immune infiltration were explored. Gene set enrichment analysis (GSEA) was performed to identify enriched pathways of these genes. Furthermore, regulatory networks involving the feature genes were constructed. The role of these genes in hypoxia/reoxygenation (H/R)-induced trophoblasts was investigated. RESULTS: Two WGCNA-identified modules (MEpurple and MEturquoise) were intersected with OS-related genes, yielding 359 common genes. Through machine learning algorithms and expression validation, three genes (CPT1A, CYGB and MRPL3) were identified and used to establish a diagnostic model, which reached an AUC of 0.930. The transcription factor (TF) SPI1 and multiple miRNAs formed a potential regulatory network for CPT1A, CYGB and MRPL3, and the expression of these three genes was closely associated with the infiltration of various immune cells (such as monocytes and macrophages M1) in PE. Cellular experiments confirmed that CPT1A silencing alleviated trophoblast dysfunction, reduced reactive oxygen species (ROS) levels, and decreased apoptosis under H/R conditions. CONCLUSION: The present study examined the OS features in PE, hoping to contribute to the management of PE.",
+    "keywords": [
+      "Bioinformatics",
+      "Carnitine palmitoyltransferase 1A",
+      "Oxidative stress",
+      "Pre-eclampsia"
+    ],
+    "mesh_terms": [
+      "*Pre-Eclampsia/genetics/metabolism",
+      "Humans",
+      "Female",
+      "*Oxidative Stress/genetics",
+      "Pregnancy",
+      "Biomarkers/metabolism",
+      "*Carnitine O-Palmitoyltransferase/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "Trophoblasts/metabolism",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Ling",
+        "Wu, Meiting"
+      ],
+      "short_names": [
+        "Chen L",
+        "Wu M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gynecology and Obstetrics, Fujian Medical University Union Hospital, Fuzhou, China.",
+        "Department of Gynecology and Obstetrics, Fujian Medical University Union Hospital, Fuzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Ling",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Meiting",
+        "short_name": "Wu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, Fujian Medical University Union Hospital, Fuzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PeerJ"
+    ],
+    "journal_abbrev": [
+      "PeerJ"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/03 06:36",
+    "fetched_at": "2026-10-02 03:09:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41450823",
+      "41135615",
+      "40592741",
+      "40473580",
+      "40446627",
+      "40294855",
+      "40151199",
+      "39726411",
+      "39675129",
+      "39544937",
+      "39462412",
+      "39316252",
+      "39291377",
+      "38904677",
+      "38846957",
+      "38650628",
+      "38544384",
+      "38490067",
+      "38393449",
+      "38361516",
+      "38203478",
+      "37980977",
+      "37933855",
+      "37718520",
+      "36797292",
+      "36702079",
+      "36635411",
+      "36223503",
+      "36112670",
+      "35798691",
+      "35728631",
+      "35254588",
+      "34954654",
+      "34831277",
+      "34576285",
+      "33809353",
+      "33633150",
+      "33417666",
+      "33013837",
+      "32479800",
+      "32278127",
+      "31904364",
+      "31901653",
+      "31900483",
+      "31586785",
+      "31585373",
+      "31443682",
+      "31357698",
+      "29278960",
+      "26010865",
+      "22480931",
+      "19114008",
+      "11846609"
+    ],
+    "similar": [
+      "42544308",
+      "41858783",
+      "41044520",
+      "42030320",
+      "42292668",
+      "41787525",
+      "37525915",
+      "41388523",
+      "42564306",
+      "39707003",
+      "39934690",
+      "41667698",
+      "38476236",
+      "40374866",
+      "40619562",
+      "41013556",
+      "41029776",
+      "41988156",
+      "41034826",
+      "42367122",
+      "38767974",
+      "40048749",
+      "39583859",
+      "41432483",
+      "40181664",
+      "41885016",
+      "39206894",
+      "40967560",
+      "39930027",
+      "41146237",
+      "40068030",
+      "39142001",
+      "39375405",
+      "40970657",
+      "39509434",
+      "35764238",
+      "40532551",
+      "42473750",
+      "40629475",
+      "40611211",
+      "41508240",
+      "41563994",
+      "40552285",
+      "37908757",
+      "39026250",
+      "42123756",
+      "39709373",
+      "38650649",
+      "41200172",
+      "39984919",
+      "39394418",
+      "41703488",
+      "39853851",
+      "40861438",
+      "42326009",
+      "42274933",
+      "38711508",
+      "36532015",
+      "40347801",
+      "39923303",
+      "39560561",
+      "40997906",
+      "41324863",
+      "42302511",
+      "42597971",
+      "40901831",
+      "39096939",
+      "39916955",
+      "38371524",
+      "39396400",
+      "41826854",
+      "40186271",
+      "42327749",
+      "40362543",
+      "42461218",
+      "31416885",
+      "39341981",
+      "41393259",
+      "40016711",
+      "40592741",
+      "39507054",
+      "40830558",
+      "39170142",
+      "42107160",
+      "38951833",
+      "41291841",
+      "40313958",
+      "39815029",
+      "40151199",
+      "39609718",
+      "38941397",
+      "40901474",
+      "41826889",
+      "39544937",
+      "40598145",
+      "41116042",
+      "41102315",
+      "35962388",
+      "41902830",
+      "37033969"
+    ],
+    "review": [
+      "42544308"
+    ],
+    "pmc": [
+      "13429108"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42544308/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7717/peerj.21572",
+        "provider": "PeerJ, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

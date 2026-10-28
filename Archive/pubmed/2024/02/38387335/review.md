@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report the identification of 3-aryl-5-methyl-isoxazole-4-carboxamide derivatives as novel HIF-2alpha agonists via docking-based virtual screening and structural modification. Compound v19 was an initial hit; optimization yielded compounds 12g and 14d with in vitro EC50 values of 2.29 µM and 1.78 µM, respectively. Molecular dynamics simulations suggest allosteric enhancement of HIF-2 dimerization. Compound 14d showed a favorable pharmacokinetic profile with oral bioavailability of 68.71%, proposed as a lead for renal anemia treatment.
+- **Visible evidence base** Abstract text only; no experimental details, compound structures, assay protocols, statistical analyses, or PK data are provided
+- **Missing materials affecting confidence** Full manuscript, figures, tables, supplementary information, experimental methods, raw data, and statistical details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting discovery of a new chemotype for HIF-2alpha agonism, which could be relevant for renal anemia research. However, the evidence base is limited to summary statements without access to the underlying data. The key claims, particularly the agonist mechanism, the allosteric mode of action, and the pharmacokinetic advantage, cannot be independently evaluated from the supplied material. The work appears technically plausible but requires full scrutiny of the experimental details.
+- **Who would be interested in the results, and why** Researchers in hypoxia signaling, erythropoietin regulation, and drug discovery for anemia. The identification of a novel agonist scaffold for HIF-2alpha could interest medicinal chemists seeking alternatives to current erythropoiesis-stimulating agents, and structural biologists studying HIF-2 dimerization dynamics.
+- **Major strengths** The study addresses an underexplored area, as most HIF-2 research focuses on inhibitors, not agonists. The use of docking-based virtual screening on inhibitor crystal structures to find agonists is a creative approach. The reported oral bioavailability of 68.71% for compound 14d is notable and suggests potential for oral dosing.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The most promising compounds 12g and 14d exhibited potent HIF-2alpha agonistic activities in vitro with EC(50) values of 2.29 muM and 1.78 muM, respectively."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states EC50 values but provides no details on the assay system, cell type, readout, or how agonism was defined. Without these, the biological relevance and reproducibility of the values cannot be assessed.
+  - **Why it matters** EC50 values are only meaningful in the context of the assay. If the assay measures a surrogate endpoint or uses non-physiological conditions, the claimed potency may not translate to cellular or in vivo efficacy.
+  - **Resolution test** Provide full assay description, including cell line, HIF-2alpha construct, reporter gene or target gene readout, positive and negative controls, and replicate numbers. Show dose-response curves and statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** "Molecular dynamics simulations have revealed their capacity to allosterically enhance HIF-2 dimerization, which shed light on their mechanism of action."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim that MD simulations "revealed" allosteric enhancement of dimerization is a strong mechanistic statement. Simulations can suggest hypotheses but do not prove biological mechanism. No experimental validation, such as mutagenesis, biophysical binding assays, or cellular dimerization assays, is mentioned.
+  - **Why it matters** If the mechanism is not experimentally supported, the claim of allosteric agonism remains speculative. This affects the novelty and utility of the compounds as tool molecules or leads.
+  - **Resolution test** Include experimental evidence for enhanced dimerization, such as co-immunoprecipitation, FRET, or surface plasmon resonance, and show that the MD predictions are consistent with these data. Alternatively, temper the claim to "suggested" rather than "revealed."
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Pharmacokinetic claim
+  - **Claim pointer** "Compound 14d demonstrated a favorable pharmacokinetic (PK) profile, boasting an impressive oral bioavailability value of 68.71 %."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a single PK parameter, oral bioavailability, without any other PK data such as clearance, half-life, volume of distribution, or dose used. The term "favorable" is subjective and unsupported without comparative data or context.
+  - **Why it matters** Oral bioavailability alone is insufficient to establish a "favorable" PK profile. High bioavailability does not guarantee efficacy or safety. The claim of a lead compound for renal anemia requires more comprehensive PK and efficacy data.
+  - **Resolution test** Provide full PK parameters from the study, including dose, route, sampling times, and calculated values. Include efficacy data in an animal model of anemia to support the therapeutic potential.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Compound naming
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The compounds are referred to as "v19," "12g," and "14d" without structural context. Readers cannot visualize the chemical differences or the optimization path.
+  - **Required correction** Include a brief structural description or a reference to a figure in the full text that shows the chemical structures and the modification steps.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Novel scaffolds"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "novel scaffolds" is used without defining what makes them novel relative to known HIF-2 modulators. This is a strong claim that needs substantiation.
+  - **Required correction** Clarify the structural novelty, for example, by comparing to known HIF-2alpha ligands or stating the absence of this scaffold in prior literature.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Therapeutic claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract concludes that compound 14d is "an auspicious lead compound for the treatment of renal anemia" but provides no in vivo efficacy data or comparison to existing treatments.
+  - **Required correction** Soften the conclusion to reflect that this is a preliminary finding, or add a sentence on planned or preliminary in vivo studies.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of assay details, experimental validation of the mechanism, and comprehensive PK data prevent the case from being established from the abstract alone.
+- **Assessment against Nature-style criteria** Originality: The concept of HIF-2alpha agonism is relatively underexplored, and the use of inhibitor structures for virtual screening of agonists is creative. Scientific importance: The potential application to renal anemia is clinically relevant, but the impact depends on the robustness of the in vitro and in vivo data, which are not fully visible. Interdisciplinary readership: The topic bridges medicinal chemistry, structural biology, and pharmacology, which could appeal to a broad audience. Technical soundness: Cannot be fully assessed from the abstract; the claims require verification of the experimental methods and data. Readability for nonspecialists: The abstract is concise but uses technical terms without explanation, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting finding, but the key claims require full experimental details and validation. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim of "potent" agonistic activity is unsupported without a defined potency threshold or comparison to known agonists.
+- The claim that MD simulations "revealed" the mechanism is unsupported; simulations are hypothesis-generating.
+- The claim of a "favorable" PK profile is unsupported with only one parameter.
+- The therapeutic claim for renal anemia is unsupported without in vivo efficacy data.
+- The novelty of the scaffolds is asserted but not demonstrated.

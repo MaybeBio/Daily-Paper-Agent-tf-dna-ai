@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "36189254",
+    "doi": "10.3389/fimmu.2022.1007326",
+    "title": "Exploration of the underlying biological differences and targets in ovarian cancer patients with diverse immunotherapy response."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Preclinical trials of immunotherapy in ovarian cancer (OC) have shown promising results. This makes it meaningful to prospectively examine the biological mechanisms explaining the differences in response performances to immunotherapy among OC patients. METHODS: Open-accessed data was obtained from the Cancer Genome Atlas and Gene Expression Omnibus database. All the analysis was conducted using the R software. RESULTS: We firstly performed the TIDE analysis to evaluate the immunotherapy response rate of OC patients. The machine learning algorithm LASSO logistic regression and SVM-RFE were used to identify the characteristic genes. The genes DPT, RUNX1T1, PTPRN, LSAMP, FDCSP and COL6A6 were selected for molecular typing. Our result showed that the patients in Cluster1 might have a better prognosis and might be more sensitive to immunotherapy, including PD-1 and CTLA4 therapy options. Pathway enrichment analysis showed that in Cluster2, the pathway of EMT, TNFalpha/NF-kB signaling, IL2/STAT5 signaling, inflammatory response, KRAS signaling, apical junction, complement, interferon-gamma response and allograft rejection were significantly activated. Also, genomic instability analysis was performed to identify the underlying genomic difference between the different Cluster patients. Single-cell analysis showed that the DPT, COL6A6, LSAMP and RUNX1T1 were mainly expressed in the fibroblasts. We then quantified the CAFs infiltration in the OC samples. The result showed that patients with low CAFs infiltration might have a lower TIDE score and a higher proportion of immunotherapy responders. Also, we found all the characteristic genes DPT, RUNX1T1, PTPRN, LSAMP, FDCSP and COL6A6 were upregulated in the patients with high CAFs infiltration. Immune infiltration analysis showed that the patients in Cluster2 might have a higher infiltration of naive B cells, activated NK cells and resting Dendritic cells. CONCLUSIONS: In summary, our study provides new insights into ovarian cancer immunotherapy. Meanwhile, specific targets DPT, RUNX1T1, PTPRN, LSAMP, FDCSP, COL6A6 and CAFs were identified for OC immunotherapy.",
+    "keywords": [
+      "cancer-associated fibroblasts",
+      "immunotherapy response",
+      "machine learning",
+      "ovarian cancer",
+      "prognosis"
+    ],
+    "mesh_terms": [
+      "CTLA-4 Antigen",
+      "Carcinoma, Ovarian Epithelial",
+      "Female",
+      "Humans",
+      "Immunotherapy",
+      "Interferon-gamma/therapeutic use",
+      "Interleukin-2/therapeutic use",
+      "NF-kappa B",
+      "*Ovarian Neoplasms/drug therapy/therapy",
+      "Programmed Cell Death 1 Receptor",
+      "Proto-Oncogene Proteins p21(ras)",
+      "*STAT5 Transcription Factor",
+      "Tumor Necrosis Factor-alpha/therapeutic use"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Jinjin",
+        "Chen, Surong",
+        "Dai, Xichao",
+        "Ma, Liang",
+        "Chen, Yu",
+        "Bian, Weigang",
+        "Sun, Yunhao"
+      ],
+      "short_names": [
+        "Chen J",
+        "Chen S",
+        "Dai X",
+        "Ma L",
+        "Chen Y",
+        "Bian W",
+        "Sun Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Oncology Department, The First People's Hospital of Yancheng City, The Yancheng Clinical College of Xuzhou Medical University, Yancheng, China.",
+        "Oncology Department, The First People's Hospital of Yancheng City, The Yancheng Clinical College of Xuzhou Medical University, Yancheng, China.",
+        "Oncology Department, The First People's Hospital of Yancheng City, The Yancheng Clinical College of Xuzhou Medical University, Yancheng, China.",
+        "Oncology Department, The First People's Hospital of Yancheng City, The Yancheng Clinical College of Xuzhou Medical University, Yancheng, China.",
+        "Oncology Department, The First People's Hospital of Yancheng City, The Yancheng Clinical College of Xuzhou Medical University, Yancheng, China.",
+        "Oncology Department, The First People's Hospital of Yancheng City, The Yancheng Clinical College of Xuzhou Medical University, Yancheng, China.",
+        "Department of Thoracic Surgery, The First People's Hospital of Yancheng City, The Yancheng Clinical College of Xuzhou Medical University, Yancheng, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Jinjin",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Department, The First People's Hospital of Yancheng City, The Yancheng Clinical College of Xuzhou Medical University, Yancheng, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Surong",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Department, The First People's Hospital of Yancheng City, The Yancheng Clinical College of Xuzhou Medical University, Yancheng, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Xichao",
+        "short_name": "Dai X",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Department, The First People's Hospital of Yancheng City, The Yancheng Clinical College of Xuzhou Medical University, Yancheng, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Liang",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Department, The First People's Hospital of Yancheng City, The Yancheng Clinical College of Xuzhou Medical University, Yancheng, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yu",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Department, The First People's Hospital of Yancheng City, The Yancheng Clinical College of Xuzhou Medical University, Yancheng, China."
+        ]
+      },
+      {
+        "full_name": "Bian, Weigang",
+        "short_name": "Bian W",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology Department, The First People's Hospital of Yancheng City, The Yancheng Clinical College of Xuzhou Medical University, Yancheng, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yunhao",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, The First People's Hospital of Yancheng City, The Yancheng Clinical College of Xuzhou Medical University, Yancheng, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/04 06:00",
+    "fetched_at": "2026-09-28 14:30:53"
+  },
+  "links": {
+    "cites": [
+      "41244147",
+      "41076961",
+      "40846911",
+      "39355132",
+      "38418707",
+      "38001616",
+      "37935564",
+      "36980477",
+      "36755806"
+    ],
+    "refs": [
+      "35285281",
+      "35262677",
+      "34777331",
+      "34207103",
+      "33562096",
+      "33292625",
+      "33168565",
+      "32878103",
+      "32434947",
+      "32102694",
+      "31851799",
+      "31645082",
+      "31117037",
+      "30622344",
+      "30523282",
+      "30453885",
+      "30375371",
+      "30098599",
+      "29656492",
+      "29344893",
+      "29232467",
+      "29232466",
+      "27743768",
+      "27550819",
+      "27069014",
+      "26787282",
+      "25269487",
+      "24368280",
+      "23323831",
+      "21540640",
+      "20811673",
+      "19237447",
+      "16199517"
+    ],
+    "similar": [
+      "36189254",
+      "36755806",
+      "36189290",
+      "36276992",
+      "37186041",
+      "36439484",
+      "38461331",
+      "36032075",
+      "34745121",
+      "36003381",
+      "35719392",
+      "36969851",
+      "37449151",
+      "34745124",
+      "33043974",
+      "29343281",
+      "36386793",
+      "38640321",
+      "35606755",
+      "32391193",
+      "38242159",
+      "33675171",
+      "35958598",
+      "37868825",
+      "36645174",
+      "34346253",
+      "33189611",
+      "33604353",
+      "30521597",
+      "28039262",
+      "36119108",
+      "28657225",
+      "31987036",
+      "35026984",
+      "35967313",
+      "36532066",
+      "35783281",
+      "32689954",
+      "34552622",
+      "30120041",
+      "36091124",
+      "10525372",
+      "39027431",
+      "31288851",
+      "29767856",
+      "35530162",
+      "35711935",
+      "34692770",
+      "35928610",
+      "33563317",
+      "35741755",
+      "34528758",
+      "35477477",
+      "36159860",
+      "34994595",
+      "23831470",
+      "34795003",
+      "34395521",
+      "35479936",
+      "33072070",
+      "31645082",
+      "8849947",
+      "26573793",
+      "34777359",
+      "27063803",
+      "33838550",
+      "33282553",
+      "32794637",
+      "33742531",
+      "33747955",
+      "32944405",
+      "34966691",
+      "36111294",
+      "23975756",
+      "35372049",
+      "35386298",
+      "32705213",
+      "35990668",
+      "35493519",
+      "27055470",
+      "25229990",
+      "32226313",
+      "34262565",
+      "35713363",
+      "32731180",
+      "35874760",
+      "31533840",
+      "35184748",
+      "35568893",
+      "36860864",
+      "33884649",
+      "7674333",
+      "35812403",
+      "36090899",
+      "34275119",
+      "35992141",
+      "31729978",
+      "30725388",
+      "32385217",
+      "38715807",
+      "37213709",
+      "37006812"
+    ],
+    "review": [
+      "36189254",
+      "28657225",
+      "36532066",
+      "35530162",
+      "8849947",
+      "27063803",
+      "33838550",
+      "32944405",
+      "27055470"
+    ],
+    "pmc": [
+      "9521167"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36189254/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36189254",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1270",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2022.1007326",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

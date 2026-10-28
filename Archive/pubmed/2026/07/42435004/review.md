@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full-text methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The abstract reports that the transcription factor ZygoMata2, containing an HMG-box DNA-binding domain, regulates mating-type a-specific gene expression in the miso and soy sauce yeast Zygosaccharomyces sp. via recognition of upstream activation sequences, with flexibility attributed to cooperative binding with ZygoMcm1, supported by CRISPR-Cas9 mutants, domain-swap experiments, UAS substitution assays, and AlphaFold structural predictions.
+- **Visible evidence base** Abstract text only; no experimental details, strain lists, statistical analyses, or structural prediction outputs are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, strain construction details, quantitative expression data, mating assay protocols, AlphaFold prediction parameters and confidence metrics, and any statistical treatment
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and potentially interesting mechanistic story about a noncanonical HMG-box transcription factor in an understudied industrial yeast. However, the evidence as summarized is insufficient to fully establish the central claims. Key mechanistic conclusions, particularly regarding DNA-binding specificity and cooperative interaction with ZygoMcm1, rest on indirect or predictive evidence that cannot be critically evaluated from the abstract alone. The work may be of value to the yeast genetics and industrial microbiology communities, but the current presentation does not yet meet the evidentiary standard expected for a high-impact journal.
+- **Who would be interested in the results, and why** Researchers studying mating-type regulation in non-Saccharomyces yeasts, comparative transcription factor biology, HMG-box DNA-binding proteins, and industrial yeast strain engineering for miso and soy sauce fermentation would find these results relevant. The demonstration of cross-species UAS recognition and flexible DNA-binding specificity may also interest those working on transcription factor evolution and synthetic promoter design.
+- **Major strengths** The study addresses a genuine gap in understanding mating-type regulation in an industrially important but genetically undercharacterized yeast. The use of CRISPR-Cas9 for targeted gene disruption is appropriate and modern. The domain-swap experiment with Schizosaccharomyces pombe Mat1-Mc provides a direct test of HMG-box function. The cross-species UAS substitution experiment is a clever approach to test binding specificity. The inclusion of AlphaFold predictions to support a mechanistic hypothesis is forward-looking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The resulting mutants showed reduced expression of ZygoSTE6, which is specific to mating-type a, and did not mate, suggesting that ZygoMata2 regulates the expression of mating-type a in Zygosaccharomyces sp."
+  - **Evidence pointer** Abstract, no figure or table reference provided
+  - **Concern** The abstract states that ZygoMATa2 mutants showed "reduced expression" of ZygoSTE6 and "did not mate," but provides no quantitative data, no statistical comparison, no number of independent mutants tested, and no demonstration that the phenotype is specifically due to loss of ZygoMata2 rather than off-target effects or polar effects. The term "reduced" is vague and could range from a modest decrease to near-complete abolition.
+  - **Why it matters** The entire mechanistic model rests on the phenotype of the ZygoMATa2 mutants. Without quantitative expression data, statistical support, and evidence of complementation or phenotypic rescue, the causal link between ZygoMata2 and mating-type a regulation is not firmly established.
+  - **Resolution test** Provide quantitative RT-qPCR or RNA-seq data for ZygoSTE6 expression in wild-type versus mutant strains with statistical analysis, show mating efficiency data with appropriate controls, and include complementation experiments or at least demonstrate that the CRISPR edits are precise and do not introduce secondary mutations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Expression of ZygoSTE6 was observed when the HMG-box of ZygoMata2 was exchanged with that of Mat1-Mc, which regulates mating-type expression in Schizosaccharomyces pombe, indicating that ZygoMata2 recognizes its target DNA sequence via the HMG-box."
+  - **Evidence pointer** Abstract, no figure or table reference provided
+  - **Concern** The domain-swap experiment is described in a single sentence with no details on how the chimeric protein was constructed, whether it was expressed at comparable levels to the wild-type protein, whether the observed ZygoSTE6 expression was quantitatively similar to wild-type, or whether the chimeric protein retained any residual activity from the original HMG-box. The conclusion that DNA recognition is mediated by the HMG-box assumes that the swap did not disrupt protein folding or nuclear localization.
+  - **Why it matters** Domain-swap experiments are only interpretable if the chimeric protein is properly expressed, localized, and folded. Without these controls, the observed ZygoSTE6 expression could be due to nonspecific effects or partial function of the chimeric protein rather than a clean demonstration of HMG-box-mediated DNA recognition.
+  - **Resolution test** Show Western blot or equivalent evidence of chimeric protein expression and stability, demonstrate nuclear localization, and provide quantitative comparison of ZygoSTE6 expression levels between wild-type and chimeric strains.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Substitution of the predicted upstream activation sequence (UAS) in ZygoSTE6 with the UAS of a mating-type a-specific gene from another yeast species led to mating-type a-specific gene expression in transformed Zygosaccharomyces sp. yeast, indicating that ZygoMata2 can recognize the UAS of mating-type a-specific genes of other species."
+  - **Evidence pointer** Abstract, no figure or table reference provided
+  - **Concern** The abstract does not specify which yeast species or which UAS was used, how the UAS was predicted, whether the substitution was complete or partial, or how "mating-type a-specific gene expression" was measured. The claim of cross-species recognition is broad and would require testing multiple UAS elements from different species to be generalizable.
+  - **Why it matters** The conclusion that ZygoMata2 can recognize heterologous UAS elements is a key part of the flexibility argument. Without specifying the exact sequences tested and the quantitative outcomes, the claim cannot be evaluated or reproduced.
+  - **Resolution test** Specify the source species and UAS sequences used, show the reporter construct design, provide quantitative expression data for the transformed strains, and ideally test UAS elements from multiple species to demonstrate generality.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "This hypothesis was supported by replacement of the UAS of ZygoSTE6 with the complete palindrome sequence, P(PAL), and by the results of protein and DNA structure prediction using AlphaFold."
+  - **Evidence pointer** Abstract, no figure or table reference provided
+  - **Concern** The use of AlphaFold for protein structure prediction is reasonable, but AlphaFold does not predict DNA-binding specificity or protein-DNA interactions. The abstract does not clarify how AlphaFold was used to support the cooperative binding hypothesis, nor does it describe the P(PAL) replacement experiment in sufficient detail. The connection between the structural predictions and the functional data is not articulated.
+  - **Why it matters** The cooperative binding hypothesis is presented as a speculative explanation for observed flexibility. If the supporting evidence is only indirect or predictive, the hypothesis should be framed as such rather than as a supported conclusion.
+  - **Resolution test** Provide details of the AlphaFold predictions, including confidence metrics and how the predicted structures inform the cooperative binding model. For the P(PAL) experiment, show quantitative expression data and explain how the result specifically supports cooperative binding over alternative explanations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract introduction
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract assumes familiarity with the mating-type system of Zygosaccharomyces and the significance of the absence of an HMG-box in Saccharomyces cerevisiae Mata2. Nonspecialist readers may not understand why this difference is important.
+  - **Required correction** Add one sentence explaining the functional significance of the HMG-box difference and why Zygosaccharomyces is a relevant system for studying mating-type regulation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract, no methods section provided
+  - **Issue** The abstract mentions CRISPR-Cas9 construction of mutants but provides no information on the guide RNA design, the specific target sequence, or the verification of editing efficiency.
+  - **Required correction** In the full manuscript, provide complete CRISPR-Cas9 methods including guide RNA sequences, donor template design if applicable, and confirmation of on-target editing.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Statistical reporting
+  - **Evidence pointer** Abstract, no statistical data provided
+  - **Issue** No statistical information is provided for any of the expression or mating experiments described.
+  - **Required correction** Include statistical tests, sample sizes, and measures of variability for all quantitative comparisons in the full manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The final claim about "flexible recognition of the binding sequence of other HMG-box transcription factors" is broad and could be interpreted as a general property of HMG-box proteins, which is not established by the data presented.
+  - **Required correction** Qualify the conclusion to specify that the flexibility was observed for the specific UAS elements and species tested, and avoid overgeneralization.
+
+## Risk / unsupported claims
+- The claim that ZygoMata2 "regulates the expression of mating-type a" is only weakly supported by the abstract, as the phenotype is described qualitatively without quantitative or statistical evidence.
+- The claim that ZygoMata2 recognizes its target DNA sequence via the HMG-box is based on a single domain-swap experiment with no controls described.
+- The claim that ZygoMata2 can recognize UAS elements from other species is based on an unspecified substitution experiment with no details on the sequences or quantitative outcomes.
+- The cooperative binding hypothesis involving ZygoMcm1 is presented as "supported" but the evidence described (P(PAL) replacement and AlphaFold predictions) is indirect and not fully explained.
+- The use of AlphaFold to support a protein-DNA interaction mechanism is not methodologically justified, as AlphaFold does not predict DNA-binding specificity.
+- No information is provided on strain backgrounds, growth conditions, or experimental replicates, making reproducibility assessment impossible.

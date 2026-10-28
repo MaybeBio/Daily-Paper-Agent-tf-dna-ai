@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34071676",
+  "title": "VirtualFlow Ants-Ultra-Large Virtual Screenings with Artificial Intelligence Driven Docking Algorithm Based on Ant Colony Optimization.",
+  "authors": "Gorgulla, Christoph; Cinaroglu, Suleyman Selim; Fischer, Patrick D; Fackeldey, Konstantin; Wagner, Gerhard; Arthanari, Haribabu",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-06-03",
+  "window": {
+    "start": "2021-05-31",
+    "end": "2021-06-06"
+  },
+  "score": 4,
+  "one_liner_zh": "该文介绍基于蚁群优化的PLANTS对接算法集成到VirtualFlow进行超大规模虚拟筛选，虽涉及分子对接方法，但对象为小分子-蛋白，非蛋白质-DNA互作体系，与TF-DNA课题关联较弱。",
+  "abstract": "The docking program PLANTS, which is based on ant colony optimization (ACO) algorithm, has many advanced features for molecular docking. Among them are multiple scoring functions, the possibility to model explicit displaceable water molecules, and the inclusion of experimental constraints. Here, we add support of PLANTS to VirtualFlow (VirtualFlow Ants), which adds a valuable method for primary virtual screenings and rescoring procedures. Furthermore, we have added support of ligand libraries in the MOL2 format, as well as on the fly conversion of ligand libraries which are in the PDBQT format to the MOL2 format to endow VirtualFlow Ants with an increased flexibility regarding the ligand libraries. The on the fly conversion is carried out with Open Babel and the program SPORES. We applied VirtualFlow Ants to a test system involving KEAP1 on the Google Cloud up to 128,000 CPUs, and the observed scaling behavior is approximately linear. Furthermore, we have adjusted several central docking parameters of PLANTS (such as the speed parameter or the number of ants) and screened 10 million compounds for each of the 10 resulting docking scenarios. We analyzed their docking scores and average docking times, which are key factors in virtual screenings. The possibility of carrying out ultra-large virtual screening with PLANTS via VirtualFlow Ants opens new avenues in computational drug discovery.",
+  "abstract_zh": "基于蚁群优化（ACO）算法的对接程序PLANTS，具备多项分子对接的高级功能，其中包括多种评分函数、模拟显式可置换水分子的能力，以及纳入实验约束的功能。在此，我们将PLANTS的支持添加到VirtualFlow（VirtualFlow Ants）中，为初级虚拟筛选和重打分流程增添了一种有价值的方法。此外，我们增加了对MOL2格式配体库的支持，并实现了将PDBQT格式的配体库即时转换为MOL2格式的功能，以增强VirtualFlow Ants在处理配体库方面的灵活性。该即时转换通过Open Babel和SPORES程序完成。我们将VirtualFlow Ants应用于涉及KEAP1的测试系统，在Google Cloud上使用多达128,000个CPU，观察到的扩展行为近似线性。进一步地，我们调整了PLANTS的几个核心对接参数（如速度参数或蚂蚁数量），并为10种不同的对接场景各筛选了1000万个化合物。我们分析了它们的对接得分和平均对接时间，这些是虚拟筛选中的关键因素。通过VirtualFlow Ants使用PLANTS进行超大规模虚拟筛选的可能性，为计算药物发现开辟了新途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34071676/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34071676/",
+  "paper_page_path": "papers/pubmed/34071676/index.html"
+}

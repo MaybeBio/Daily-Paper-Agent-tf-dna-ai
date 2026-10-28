@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "39848347",
+    "doi": "10.1016/j.gene.2025.149227",
+    "title": "Identify and analyze ferroptosis-related molecular modules and immune signatures in epilepsy using microarray-based transcriptome profiling and single-cell sequencing."
+  },
+  "content": {
+    "abstract": "Currently, the pathogenesis of epilepsy remains poorly understood. Although there is evidence indicating that iron death might play a significant role, its molecular immunological mechanisms are largely unknown. This study was designed to analyze and explore the molecular mechanisms and immunological characteristics of iron death-related genes in epilepsy. We obtained datasets of blood and brain tissues for epilepsy from the GEO database and the set of iron death-related genes from FerrDb. Through two machine learning algorithms, we identified three Hub genes, namely RELA, TFRC, and QSOX1. Unsupervised clustering revealed two distinct clusters. Immune infiltration analysis demonstrated that one cluster had significantly higher immune infiltration. We established an epilepsy diagnostic model and nomogram. The results were confirmed by RT-qPCR and Western Blot. Single-cell analysis showed that the SPP1 signalling pathway was overly activated in astrocytes and microglia. This study offers new perspectives and a theoretical foundation for the diagnosis of epilepsy.",
+    "keywords": [
+      "Epilepsy",
+      "Ferroptosis",
+      "Immunological characteristics",
+      "Machine learning",
+      "Molecular clusters",
+      "Single-cell analysis"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/genetics",
+      "*Epilepsy/genetics/immunology/metabolism",
+      "Humans",
+      "Single-Cell Analysis/methods",
+      "Gene Expression Profiling/methods",
+      "Transcriptome",
+      "Transcription Factor RelA/genetics",
+      "Receptors, Transferrin/genetics",
+      "Astrocytes/metabolism",
+      "Signal Transduction",
+      "Microglia/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Cong",
+        "Wei, Fan",
+        "You, Zhipeng",
+        "Li, Jiran",
+        "Liu, Yang",
+        "Liu, Xingan",
+        "Fan, Zhijie",
+        "He, Yunmin",
+        "Gao, Xiaoying",
+        "Sun, Jiahang"
+      ],
+      "short_names": [
+        "Huang C",
+        "Wei F",
+        "You Z",
+        "Li J",
+        "Liu Y",
+        "Liu X",
+        "Fan Z",
+        "He Y",
+        "Gao X",
+        "Sun J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China.",
+        "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China.",
+        "Department of Anesthesiology, The Fourth Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150000, PR China. Electronic address: 13936259853@163.com.",
+        "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China. Electronic address: sun978675@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Cong",
+        "short_name": "Huang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China."
+        ]
+      },
+      {
+        "full_name": "Wei, Fan",
+        "short_name": "Wei F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China."
+        ]
+      },
+      {
+        "full_name": "You, Zhipeng",
+        "short_name": "You Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiran",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yang",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xingan",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China."
+        ]
+      },
+      {
+        "full_name": "Fan, Zhijie",
+        "short_name": "Fan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China."
+        ]
+      },
+      {
+        "full_name": "He, Yunmin",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China."
+        ]
+      },
+      {
+        "full_name": "Gao, Xiaoying",
+        "short_name": "Gao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The Fourth Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150000, PR China. Electronic address: 13936259853@163.com."
+        ]
+      },
+      {
+        "full_name": "Sun, Jiahang",
+        "short_name": "Sun J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang Province 150081, PR China. Electronic address: sun978675@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Gene"
+    ],
+    "journal_abbrev": [
+      "Gene"
+    ],
+    "pub_date": "2025 Mar 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/24 00:26",
+    "fetched_at": "2026-10-05 02:28:39"
+  },
+  "links": {
+    "cites": [
+      "41940035"
+    ],
+    "refs": [],
+    "similar": [
+      "39848347",
+      "39052183",
+      "39586719",
+      "36506471",
+      "39799354",
+      "37752199",
+      "40124361",
+      "39794696",
+      "39872538",
+      "39605941",
+      "39707003",
+      "39735537",
+      "39131609",
+      "37957905",
+      "37645416",
+      "39293745",
+      "39520298",
+      "40211281",
+      "36466094",
+      "38814177",
+      "39076986",
+      "37821869",
+      "39238187",
+      "36297287",
+      "38453824",
+      "39170609",
+      "39793853",
+      "39789929",
+      "38664443",
+      "39478056",
+      "39169865",
+      "39930056",
+      "39051085",
+      "38963039",
+      "39372411",
+      "40024299",
+      "38760473",
+      "36057911",
+      "39072329",
+      "38362684",
+      "39710756",
+      "37965040",
+      "35787932",
+      "39793232",
+      "39107713",
+      "40097571",
+      "39346628",
+      "38758406",
+      "39839184",
+      "38020614",
+      "39026663",
+      "38536014",
+      "38908617",
+      "37653201",
+      "39438957",
+      "36610561",
+      "40299032",
+      "39612457",
+      "38127902",
+      "39763654",
+      "37492576",
+      "38241836",
+      "39375405",
+      "39764891",
+      "36497037",
+      "39880339",
+      "39657846",
+      "39278970",
+      "39622968",
+      "37647346",
+      "39841296",
+      "35637927",
+      "36552720",
+      "40330470",
+      "38104050",
+      "40172091",
+      "38057699",
+      "39798208",
+      "40163962",
+      "38038045",
+      "38875180",
+      "38979407",
+      "39541922",
+      "37675635",
+      "34499810",
+      "40118372",
+      "39853851",
+      "40258895",
+      "39512836",
+      "39258983",
+      "39139563",
+      "34975326",
+      "38962008",
+      "39238647",
+      "39555084",
+      "38360836",
+      "37986676",
+      "38653998",
+      "35938001",
+      "39091931"
+    ],
+    "review": [
+      "39848347"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-1119(25)00015-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/epilepsy.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Epilepsy"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SPP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3592",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/epilepsy.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Epilepsy"
+      }
+    ],
+    "text_mined": []
+  }
+}

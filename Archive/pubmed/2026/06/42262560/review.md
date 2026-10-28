@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors integrated RNA-Seq, sRNA-Seq, and degradome data from rice seedlings under brassinolide treatment and from BR core signaling mutants (qgl3, osgsk3, osbzr1) to construct coexpression and regulatory networks. They report synergistic transcriptional regulation between BR mutants and BL treatment, identify central modules involving qGL3 and OsGSK3, predict potential BR-core TF genes, validate selected mutants via BL sensitivity and immunoblot assays, and develop a BR transcriptional regulatory network database.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical details, mutant validation data, database access information, and any supplementary datasets
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable integrative bioinformatics and experimental study on BR transcriptional regulation in rice. The combination of multi-omics data and network construction is timely and could be of interest to the plant hormone and regulatory network communities. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the network construction, the statistical rigor of the integrative analyses, or the strength of the experimental validations. Several claims are broad and would require substantial evidence to support.
+- **Who would be interested in the results, and why** Researchers studying brassinosteroid signaling, plant transcription factor networks, and rice functional genomics would be interested. The proposed database could serve as a community resource. The integration of sRNA and degradome data with transcriptomics may also appeal to those working on post-transcriptional regulation in hormone pathways.
+- **Major strengths** The study integrates multiple omics data types, which is methodologically ambitious. The focus on core signaling mutants and BL treatment allows for a comparative framework. The development of a public database is a practical contribution. The inclusion of experimental validation of predicted TF mutants adds a functional dimension beyond purely computational predictions.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that "synergistic regulation at the transcriptional level between BR core signaling mutants and BL treatment" was revealed, and that "central modules involving qGL3 and OsGSK3" were highlighted.  
+  - **Evidence pointer** Abstract only; no figures or tables provided  
+  - **Concern** The abstract does not describe how synergy was defined or quantified. It is unclear whether the synergy is statistical, additive, or based on overlap of differentially expressed genes. The criteria for identifying "central modules" are also unspecified.  
+  - **Why it matters** Without a clear operational definition of synergy and module centrality, the core claims cannot be independently assessed or reproduced. This is foundational to the entire network analysis.  
+  - **Resolution test** Provide explicit statistical definitions of synergy (e.g., interaction terms in a model, expected vs. observed overlap) and centrality (e.g., degree, betweenness, or hub score thresholds) with corresponding significance tests and effect sizes.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that "machine learning-based transcription factor (TF) target prediction methods" were used to construct regulatory networks.  
+  - **Evidence pointer** Abstract only; methods not provided  
+  - **Concern** No details are given on which machine learning algorithms were used, what training data were employed, how features were selected, or how predictions were validated. The performance of such predictors is highly dependent on these choices.  
+  - **Why it matters** TF target prediction is error-prone, and the reliability of the entire regulatory network depends on the accuracy of these predictions. Without validation metrics (e.g., precision, recall, cross-validation results), the network claims are not credible.  
+  - **Resolution test** Describe the algorithms, training and test sets, feature sets, and report validation metrics. Ideally, provide experimental validation for a subset of predicted targets beyond the few mutants mentioned.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that "potential BR-core TF genes were identified" and that "their loss-of-function mutants were evaluated using BL sensitivity assays and immunoblot analyses."  
+  - **Evidence pointer** Abstract only; no data shown  
+  - **Concern** The abstract does not state how many TF genes were identified, how many mutants were tested, what the outcomes were, or whether any mutants showed altered BR responses. The immunoblot analyses are mentioned but their purpose and results are not described.  
+  - **Why it matters** The experimental validation is a key part of the study's contribution. Without reporting the number of candidates, the fraction validated, and the direction of effects, the claim of identification remains unsupported.  
+  - **Resolution test** Provide a summary of the number of predicted TFs, the number of mutants tested, the phenotypic and biochemical results, and statistical comparisons to controls.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility and resource availability  
+  - **Claim pointer** The authors state that "a BR transcriptional regulatory network database was developed."  
+  - **Evidence pointer** Abstract only; no URL or access details  
+  - **Concern** No web address, accession number, or description of the database contents and query capabilities is provided.  
+  - **Why it matters** A database is only useful if accessible and documented. The claim of providing a "valuable resource" cannot be evaluated without access information.  
+  - **Resolution test** Provide the database URL, a description of its contents, and a demonstration of its functionality, ideally with a user guide or example queries.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "crucial in regulating" is vague and could be more specific about which aspects of growth, development, and adaptation are affected.  
+  - **Required correction** Specify the phenotypic or physiological processes addressed in the study.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Mutant description  
+  - **Evidence pointer** Abstract, methods sentence  
+  - **Issue** The mutants qgl3, osgsk3, and osbzr1 are named but not described. It is unclear whether these are null alleles, knockdowns, or overexpressors.  
+  - **Required correction** Briefly state the allele type and the expected effect on the corresponding gene function.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Statistical reporting  
+  - **Affected element** BL sensitivity assays  
+  - **Evidence pointer** Abstract, validation sentence  
+  - **Issue** No mention of replicates, statistical tests, or effect sizes for the BL sensitivity assays.  
+  - **Required correction** Include a statement on the number of biological replicates and the statistical methods used.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "BR-core TF genes"  
+  - **Evidence pointer** Abstract, results sentence  
+  - **Issue** The term "BR-core TF genes" is not defined. It is unclear whether this refers to TFs directly regulated by BR signaling components or TFs that regulate BR biosynthesis or signaling.  
+  - **Required correction** Define the term explicitly in the abstract or introduction.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These three concerns directly affect the validity of the central claims regarding synergy, network construction, and experimental validation. Without addressing them, the case for the study's conclusions is not established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The integration of sRNA-Seq and degradome data with transcriptomics in a BR context is somewhat novel, but the abstract does not clearly distinguish this from prior BR network studies. Originality is plausible but not fully demonstrated.  
+  - **Scientific importance** BR signaling is a well-studied field, and a comprehensive regulatory network with a database could be useful. However, the abstract does not articulate a major conceptual advance or a surprising finding that would elevate its importance beyond an incremental contribution.  
+  - **Interdisciplinary readership** The work bridges genomics, bioinformatics, and plant physiology, which could attract a broad readership. However, the abstract is written in a way that assumes familiarity with BR signaling and network methods, which may limit accessibility.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The lack of methodological detail and validation metrics is a significant concern.  
+  - **Readability for nonspecialists** The abstract is concise but uses jargon without explanation. It is readable for specialists but not for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially useful study, but the absence of methodological detail, statistical definitions, and validation results prevents a supportive recommendation. If the full manuscript addresses the major concerns, the study could be considered for publication in a specialized plant science journal, though the scope and impact would need to be clearly demonstrated.
+
+## Risk / unsupported claims
+- The claim of "synergistic regulation" between mutants and BL treatment is unsupported without a defined statistical framework.
+- The claim that "central modules involving qGL3 and OsGSK3" were highlighted is unsupported without network centrality criteria.
+- The claim that "potential BR-core TF genes were identified" is unsupported without reporting the number of candidates and validation outcomes.
+- The claim that the database is a "valuable resource" is unverifiable without access details.
+- The overall conclusion that the study reveals "complex regulatory network" architecture is not assessable from the abstract alone.

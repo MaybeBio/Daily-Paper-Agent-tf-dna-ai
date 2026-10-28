@@ -1,0 +1,111 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and data availability statements
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and internal consistency as presented in the supplied text
+- **Shared manuscript claim summary** The authors propose that byte-pair tokenization on the human genome, combined with a BERT-based language model (GROVER), yields an optimized vocabulary for DNA language modeling. They claim this vocabulary captures information content relevant to genome function, that GROVER learns sequence context and grammatical structure, and that it outperforms fixed-length k-mer tokenization on several fine-tuning tasks.
+- **Visible evidence base** Abstract, full introduction, results narrative without figures, discussion, methods descriptions, data availability links
+- **Missing materials affecting confidence** All figures and tables referenced in the text are not provided. No quantitative results, performance metrics, or statistical analyses are visible. The fine-tuning task descriptions lack architectural details and hyperparameter settings for the downstream models. No comparison baselines are shown numerically.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and relevant problem in genomic language modeling, namely the selection of an optimal tokenization strategy for DNA sequences. The conceptual framing of the genome as a language with an undefined vocabulary is compelling, and the use of byte-pair encoding is a reasonable approach. However, the current submission is a narrative summary without the supporting figures, tables, or quantitative results needed to evaluate the claims. The central assertions about vocabulary optimality, learned representations, and downstream performance cannot be verified from the supplied material. The work has potential, but the evidence base is insufficient for a rigorous assessment.
+- **Who would be interested in the results, and why** Computational biologists developing DNA language models, researchers applying NLP methods to genomics, and groups working on genome annotation and regulatory element prediction would find this work relevant. The proposed tokenization strategy and the analysis of learned embeddings could inform future model design choices. The fine-tuning results on promoter identification and CTCF binding are of practical interest to those studying gene regulation.
+- **Major strengths** The problem addressed is well-defined and important. The use of byte-pair tokenization to generate frequency-balanced vocabularies is a thoughtful response to the known issue of k-mer frequency heterogeneity in genomes. The authors correctly identify the limitations of fixed-length k-mers and propose a data-driven alternative. The conceptual distinction between intrinsic and extrinsic validation for vocabulary selection is sound. The analysis of token embeddings across multiple dimensions (frequency, sequence content, length, repeat localization) is a reasonable exploratory approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that GROVER outperforms fixed-length k-mer models on promoter identification and CTCF binding tasks, with F1 scores of 0.996, 0.60, and 0.72 respectively.
+  - **Evidence pointer** Results section, Figure 7 (not provided)
+  - **Concern** The quantitative results supporting the central performance claims are not visible. The F1 scores are stated in the text, but without the corresponding figures, error bars, statistical tests, or comparison to baseline models, these numbers cannot be evaluated. It is unclear whether the differences are significant, whether the tasks were run multiple times, or what the variance is.
+  - **Why it matters** The claim that GROVER outperforms k-mer models is a core part of the manuscript's contribution. Without visible evidence, this claim is unverifiable and the case for the proposed tokenization strategy is not established.
+  - **Resolution test** Provide the figures with performance curves, confusion matrices, or bar plots with error bars. Include statistical significance tests comparing GROVER to each k-mer baseline. Report the number of independent runs and the variance across runs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The authors state that the optimal vocabulary was selected through performance assessment with next-k-mer prediction across 100 to 5000 cycles of byte-pair tokenization.
+  - **Evidence pointer** Results section, Figure 2 (not provided)
+  - **Concern** The selection procedure for the optimal vocabulary is described only in narrative form. The reader cannot see the accuracy curves across cycles, the criteria for choosing cycle 600, or how the next-k-mer prediction task was implemented for each candidate vocabulary. The relationship between next-k-mer prediction accuracy and downstream task performance is asserted but not demonstrated.
+  - **Why it matters** The choice of cycle 600 is a pivotal methodological decision. If the selection criterion is not transparent and reproducible, the entire vocabulary construction pipeline is called into question.
+  - **Resolution test** Show the accuracy versus cycle number plots for all k values. State the exact selection rule (e.g., peak accuracy, plateau detection). Provide the code or pseudocode for the selection procedure.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that GROVER learns "context and lexical ambiguity" and that average embeddings of genomic regions relate to functional genomics annotation.
+  - **Evidence pointer** Results section, Figures 4, 5, and 6 (not provided)
+  - **Concern** The analysis of learned representations is described qualitatively. The PCA, UMAP, and hierarchical clustering results are referenced but not shown. The claim that GROVER learns functional annotation "purely from the contextual relationships of tokens" is a strong statement that requires visual evidence of clustering patterns and quantitative measures of association.
+  - **Why it matters** The manuscript's broader claim that the model captures biological meaning from sequence alone depends on this analysis. Without visible clustering or correlation results, the claim is unsupported.
+  - **Resolution test** Provide the PCA and UMAP plots with clear color coding and legends. Include quantitative measures such as silhouette scores, enrichment statistics, or correlation coefficients between embedding distances and annotation distances.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The methods section states that training was carried out on clusters of A100 GPUs with specific hyperparameters, but several key details are missing.
+  - **Evidence pointer** Methods section, "The DNA Language Model GROVER"
+  - **Concern** The learning rate is stated as 4^-4, which is ambiguous. It is unclear whether this means 4 to the power of -4 (which equals 1/256) or a typo for 1e-4. The number of training steps, warmup schedule, weight decay, and gradient clipping are not specified. The masking probability is stated as 0.022, which is unusually low for BERT-style training and may warrant justification.
+  - **Why it matters** Reproducibility is a core requirement for computational work. Ambiguous hyperparameters prevent others from replicating the training procedure and verifying the results.
+  - **Resolution test** Clarify the learning rate notation. Provide a complete hyperparameter table including training steps, batch size, learning rate schedule, warmup, weight decay, and any regularization. Justify the masking probability or correct it if it is a typo.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Baseline fairness
+  - **Claim pointer** The authors compare GROVER to k-mer models of lengths 4, 5, and 6 on fine-tuning tasks.
+  - **Evidence pointer** Results section, Figure 7 (not provided)
+  - **Concern** The k-mer models are described as using the same parameters and samples as GROVER, but it is unclear whether the k-mer models were trained with the same number of parameters, the same training data, and the same computational budget. If the k-mer models are smaller or undertrained, the comparison is unfair.
+  - **Why it matters** The claim of superiority over k-mer models is only meaningful if the baselines are strong and fairly trained.
+  - **Resolution test** Report the parameter counts for all models. Describe the training budget for each model. If the k-mer models were trained for fewer steps or with less data, state this explicitly and discuss the implications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The opening sentence about LLMs on natural language is generic and does not directly motivate the genomic problem. The connection between natural language performance and genomic language modeling could be stated more precisely.
+  - **Required correction** Consider revising to directly state the challenge of defining a vocabulary for genomic sequences and why this matters for language model performance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 2
+  - **Issue** The term "Rare Word Problems" is capitalized as if it is a standard named concept, but it is not a widely recognized term in the literature. It may be a reference to a specific paper or a general concept.
+  - **Required correction** Either provide a citation for this term or rephrase to describe the problem in plain language.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Methods, "The DNA Language Model GROVER"
+  - **Evidence pointer** Methods section, hyperparameter list
+  - **Issue** The learning rate is written as 4^-4, which is mathematically 1/256. This is an unusual learning rate and may be a typo for 1e-4. The beta value is written as 0,99 with a comma, which is a European decimal separator but inconsistent with the rest of the manuscript.
+  - **Required correction** Use consistent decimal notation throughout. Clarify the learning rate value.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "Next k-mer prediction"
+  - **Evidence pointer** Methods section, "Next k-mer prediction"
+  - **Issue** The description of the next-k-mer prediction task does not specify how the k-mer labels are constructed, whether the prediction is from a fixed context window, or how the fine-tuning head is designed.
+  - **Required correction** Provide a more detailed description of the task setup, including input format, label construction, and output layer.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, CTCF binding task
+  - **Evidence pointer** Results section, "GROVER can be fine-tuned for tasks to understand genome biology"
+  - **Issue** The F1 score of 0.72 for CTCF binding is reported without a baseline or chance level. It is unclear what a random classifier would achieve on this task.
+  - **Required correction** Report the baseline performance (e.g., majority class, random classifier) and the number of positive and negative examples in the test set.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 1
+  - **Issue** The phrase "the vocabulary that currently best defines the information of the human genome as it can be extracted by a BERT model" is hedged but still strong. The claim is limited to BERT models, which is appropriate, but the word "best" implies a comprehensive comparison that is not shown.
+  - **Required correction** Consider softening to "a vocabulary that performs well" or "a vocabulary that improves upon fixed-length k-mers" unless a broader comparison is provided.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** Originality: The application of byte-pair encoding to genomic tokenization is not entirely new, as BPE has been used in other genomic language models, but the systematic selection of vocabulary size through next-k-mer prediction is a reasonable contribution. Scientific importance: The question of optimal tokenization for DNA language models is relevant to a growing community, and the fine-tuning results on regulatory elements are of interest. However, the importance is not fully established without visible quantitative evidence. Interdisciplinary readership: The manuscript bridges NLP and genomics, and the writing is accessible to both communities, though some genomic terminology may be dense for NLP readers and vice versa. Technical soundness: The methodological choices are reasonable in principle, but the missing figures and incomplete hyperparameter reporting prevent a full assessment. Readability for nonspecialists: The abstract and introduction are clear, but the results section assumes familiarity with both transformer architectures and genomic annotation concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a plausible approach and interesting ideas, but the absence of all figures, tables, and quantitative results makes it impossible to verify the central claims. The authors should resubmit with the full set of figures, detailed quantitative results, and complete methodological descriptions.
+
+## Risk / unsupported claims
+- The claim that GROVER outperforms fixed-length k-mer models on promoter identification and CTCF binding is unsupported because the corresponding figures and statistical analyses are not provided.
+- The claim that the vocabulary selected at cycle 600 is optimal is unsupported because the selection curves and criteria are not shown.
+- The claim that GROVER learns functional annotation from context alone is unsupported because the clustering and correlation analyses are not visible.
+- The claim that GROVER learns "lexical ambiguity" is not defined or demonstrated with specific examples or quantitative measures.
+- The statement that perplexity is 12% of the vocabulary for GROVER versus 25%, 21%, and 36% for k-mer models is presented without the underlying data or calculation method.
+- The claim that the model "can now start using" the extracted representations for biological discovery is forward-looking and not supported by any demonstrated biological insight in the current text.

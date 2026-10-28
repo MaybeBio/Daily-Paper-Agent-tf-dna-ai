@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-z3mhh",
+  "title": "Advancing Density Functional Tight-Binding method for Large Organic Molecules through Equivariant Neural Networks",
+  "authors": "Leonardo Rafael Medrano Sandonas; Mirela Puleva; Ricardo Parra Payano; Martin Stöhr; Gianaurelio Cuniberti; Alexandre Tkatchenko",
+  "journal": "ChemRxiv",
+  "published_date": "2025-04-24",
+  "window": {
+    "start": "2025-04-21",
+    "end": "2025-04-27"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用等变神经网络改进半经验DFTB方法以提升大有机分子模拟精度，虽涉及生物分子体系但未聚焦蛋白质-DNA互作或TF-DNA结合，方法可迁移性有限。",
+  "abstract": "Semi-empirical electronic structure methods have become valuable tools for studying complex (bio)molecular systems due to their balance between computational efficiency and accuracy. A key aspect of these methods is their parameterization, which not only governs the reliability of the results but also provides an opportunity to enhance their overall performance. In our previous work [J. Phys. Chem. Lett. 11, 16 (2021)], we improved the accuracy of the semi-empirical density functional tight-binding (DFTB) method for computing multiple properties of small molecules by developing the machine learning (ML) potential NN$_{\\rm rep}$ to bridge the gap between electronic DFTB components and those of the hybrid DFT-PBE0 functional. To overcome the limitations of NN$_{\\rm rep}$, we introduce the EquiDTB framework, which leverages physics-inspired equivariant neural networks (NN) to parameterize scalable and transferable $\\Delta_{\\rm TB}$ many-body potentials, replacing the standard pairwise repulsive potential in the DFTB method. This advancement extends the applicability of our ML-corrected DFTB approach to larger molecules and non-covalent systems, going beyond the chemical space represented in the training quantum-mechanical datasets. Indeed, the enhanced performance of EquiDTB over the standard TB methods (DFTB and GFN2-xTB) is demonstrated by the accurate computation of the atomic forces of equilibrium and non-equilibrium small molecular dimers, as well as their interaction energies. Moreover, EquiDTB can be effectively employed to explore the potential energy surfaces of large and flexible drug-like molecules---for example, to determine the minimum energy path between isomers, analyze structural transitions during dynamical simulations, compute vibrational modes, and investigate energetic rankings. Therefore, our work highlights that an optimal integration of an equivariant NN with QM datasets can advance the DFTB method to achieve DFT-PBE0 level accuracy with high computational efficiency, paving the way for more reliable (bio)molecular simulations.",
+  "abstract_zh": "半经验电子结构方法因其在计算效率与精度之间的平衡，已成为研究复杂（生物）分子系统的宝贵工具。这些方法的一个关键方面是其参数化，这不仅决定了结果的可靠性，也提供了提升整体性能的机会。在我们先前的工作中 [J. Phys. Chem. Lett. 11, 16 (2021)]，我们通过开发机器学习（ML）势NN$_{\\rm rep}$，弥合了电子DFTB组件与混合DFT-PBE0泛函之间的差距，从而提高了半经验密度泛函紧束缚（DFTB）方法在计算小分子多种性质时的精度。为克服NN$_{\\rm rep}$的局限性，我们引入了EquiDTB框架，该框架利用受物理启发的等变神经网络（NN）来参数化可扩展且可转移的$\\Delta_{\\rm TB}$多体势，取代了DFTB方法中标准的成对排斥势。这一进展将我们ML校正的DFTB方法的应用范围扩展至更大分子和非共价系统，超越了训练量子力学数据集所代表的化学空间。确实，EquiDTB相较于标准TB方法（DFTB和GFN2-xTB）的增强性能，通过准确计算平衡和非平衡小分子二聚体的原子力及其相互作用能得到了验证。此外，EquiDTB可有效用于探索大型柔性药物样分子的势能面——例如，确定异构体之间的最小能量路径、分析动力学模拟中的结构转变、计算振动模式，以及研究能量排序。因此，我们的工作强调，将等变NN与QM数据集优化整合，可推动DFTB方法实现DFT-PBE0级别的精度，同时保持高计算效率，为更可靠的（生物）分子模拟铺平道路。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-z3mhh",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-z3mhh",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-z3mhh/index.html"
+}

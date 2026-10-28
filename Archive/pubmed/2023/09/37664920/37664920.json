@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "37664920",
+    "doi": "10.31083/j.fbl2808179",
+    "title": "Integrated Bioinformatic Analyses Reveal Immune Molecular Markers and Regulatory Networks for Cerebral Ischemia-Reperfusion."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Cerebral ischemia-reperfusion injury (CIR) following a stroke results in secondary damage and is a leading cause of adult disability. The present study aimed to identify hub genes and networks in CIR to explore potential therapeutic agents for its treatment. METHODS: Differentially expressed genes based on the GSE23163 dataset were identified, and weighted gene co-expression network analysis was performed to explore co-expression modules associated with CIR. Hub genes were identified by intersecting immune gene profiles, differentially expressed genes, and modular genes. Gene Ontology, Kyoto Encyclopedia of Genes and Genomes pathway, and transcription factor-microRNA-gene regulatory network analyses were then conducted in selected crucial modules. Subsequently, their expression levels in animal models were verified using real-time quantitative polymerase chain reaction and Western blotting. Finally, potential drug molecules were screened for, and molecular docking simulations were performed to identify potential therapeutic targets. RESULTS: Seven hub genes-namely, Ccl3, Ccl4, Ccl7, Cxcl1, Hspa1a, Cd14, and Socs3-were identified. Furthermore, we established a protein interaction network using the STRING database and found that the core genes selected through the cytohubba plugin remained consistent. Animal experiments showed that at the transcriptional level, all seven genes showed significant differences (p < 0.001, fold change vs sham, 5-200). At the translational level, however, only Ccl3, Ccl4, Ccl7, Hspa1a, and Socs3 showed significant differences, while Cxcl1 and Cd14 did not. Nifedipine, with the highest predicted score, was identified as a therapeutic agent and successfully docked with the protein encoded by the hub genes. CONCLUSIONS: The expression of Ccl3, Ccl4, Ccl7, Hspa1a, and Socs3 was significantly different in CIR tissues compared to normal tissues both at the transcriptional and translational levels. Systems biology approaches indicated that these could be possible CIR marker genes, providing a stepping stone for further experimental studies.",
+    "keywords": [
+      "cerebral ischemia-reperfusion",
+      "differentially expressed gene",
+      "hub genes",
+      "ischemic stroke",
+      "molecular docking",
+      "nifedipine",
+      "weighted gene co-expression network analysis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Molecular Docking Simulation",
+      "Reperfusion",
+      "*Reperfusion Injury/genetics",
+      "Computational Biology",
+      "Biomarkers",
+      "*Brain Ischemia"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Qixin",
+        "Du, Anning",
+        "Wang, Jiayue",
+        "Wang, Luyang",
+        "Zhu, Xu",
+        "Yue, Xin",
+        "Liao, Shengen",
+        "Shi, Mengsha",
+        "Qu, Qiang",
+        "Cheang, Iokfai",
+        "Li, Xinli",
+        "Pang, Hui",
+        "Tong, Guoxin"
+      ],
+      "short_names": [
+        "Guo Q",
+        "Du A",
+        "Wang J",
+        "Wang L",
+        "Zhu X",
+        "Yue X",
+        "Liao S",
+        "Shi M",
+        "Qu Q",
+        "Cheang I",
+        "Li X",
+        "Pang H",
+        "Tong G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, Affiliated Hangzhou First People's Hospital, Zhejiang University, School of Medicine, 310006 Hangzhou, Zhejiang, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Rehabilitation Medicine, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, Xuzhou Central Hospital, Xuzhou School of Clinical Medicine of Nanjing Medical University, 221009 Nanjing, Jiangsu, China.",
+        "Department of Cardiology, Affiliated Hangzhou First People's Hospital, Zhejiang University, School of Medicine, 310006 Hangzhou, Zhejiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Qixin",
+        "short_name": "Guo Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hangzhou First People's Hospital, Zhejiang University, School of Medicine, 310006 Hangzhou, Zhejiang, China.",
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Du, Anning",
+        "short_name": "Du A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiayue",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rehabilitation Medicine, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Luyang",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xu",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Yue, Xin",
+        "short_name": "Yue X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Shengen",
+        "short_name": "Liao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Mengsha",
+        "short_name": "Shi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Qu, Qiang",
+        "short_name": "Qu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Cheang, Iokfai",
+        "short_name": "Cheang I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xinli",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The First Affiliated Hospital of Nanjing Medical University, 210029 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Hui",
+        "short_name": "Pang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Xuzhou Central Hospital, Xuzhou School of Clinical Medicine of Nanjing Medical University, 221009 Nanjing, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Tong, Guoxin",
+        "short_name": "Tong G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Affiliated Hangzhou First People's Hospital, Zhejiang University, School of Medicine, 310006 Hangzhou, Zhejiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioscience (Landmark edition)"
+    ],
+    "journal_abbrev": [
+      "Front Biosci (Landmark Ed)"
+    ],
+    "pub_date": "2023 Aug 25",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/04 06:43",
+    "fetched_at": "2026-09-29 06:34:47"
+  },
+  "links": {
+    "cites": [
+      "39723246"
+    ],
+    "refs": [],
+    "similar": [
+      "37664920",
+      "33705733",
+      "29901134",
+      "35658960",
+      "37033969",
+      "31699960",
+      "39147333",
+      "35691081",
+      "33290384",
+      "37460430",
+      "32558399",
+      "36046789",
+      "30664169",
+      "37235790",
+      "38433560",
+      "38212812",
+      "30566931",
+      "37234258",
+      "37006305",
+      "36778059",
+      "32768643",
+      "36499614",
+      "38560254",
+      "31987036",
+      "35016690",
+      "31599430",
+      "30889366",
+      "32243390",
+      "36013591",
+      "35473522",
+      "38601664",
+      "37122694",
+      "32811479",
+      "28438516",
+      "36867343",
+      "37359526",
+      "31667013",
+      "35128826",
+      "32696819",
+      "34565282",
+      "36627660",
+      "34345178",
+      "36635346",
+      "37080367",
+      "32598242",
+      "37261991",
+      "35313524",
+      "36032660",
+      "31304055",
+      "31772617",
+      "35975032",
+      "36046663",
+      "37161136",
+      "36872278",
+      "32626989",
+      "34215202",
+      "34852788",
+      "35873563",
+      "34313877",
+      "36253874",
+      "36506310",
+      "35718056",
+      "34749208",
+      "37153570",
+      "32164735",
+      "34218797",
+      "28685721",
+      "35392084",
+      "28713993",
+      "35773742",
+      "35990977",
+      "36225941",
+      "32311231",
+      "32315738",
+      "31612481",
+      "36062083",
+      "33149108",
+      "34663380",
+      "35401659",
+      "35996248",
+      "32481304",
+      "31059139",
+      "34823498",
+      "32044658",
+      "36291136",
+      "36090322",
+      "36356328",
+      "32578582",
+      "30185153",
+      "30506958",
+      "34536521",
+      "30542696",
+      "37230395",
+      "38188159",
+      "34426769",
+      "38376054"
+    ],
+    "review": [
+      "37664920",
+      "32481304"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD14-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.imrpress.com/journal/FBL/28/8/10.31083/j.fbl2808179",
+        "provider": "IMR Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

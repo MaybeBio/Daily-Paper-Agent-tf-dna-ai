@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34035047",
+  "title": "A joint deep learning model enables simultaneous batch effect correction, denoising, and clustering in single-cell transcriptomics.",
+  "authors": "Lakkis, Justin; Wang, David; Zhang, Yuanchao; Hu, Gang; Wang, Kui; Pan, Huize; Ungar, Lyle; Reilly, Muredach P; Li, Xiangjie; Li, Mingyao",
+  "journal": "Genome research",
+  "published_date": "2021-05-27",
+  "window": {
+    "start": "2021-05-24",
+    "end": "2021-05-30"
+  },
+  "score": 0,
+  "one_liner_zh": "该文提出单细胞转录组数据的深度学习方法CarDEC，用于批次效应校正、去噪和聚类，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Recent developments of single-cell RNA-seq (scRNA-seq) technologies have led to enormous biological discoveries. As the scale of scRNA-seq studies increases, a major challenge in analysis is batch effects, which are inevitable in studies involving human tissues. Most existing methods remove batch effects in a low-dimensional embedding space. Although useful for clustering, batch effects are still present in the gene expression space, leaving downstream gene-level analysis susceptible to batch effects. Recent studies have shown that batch effect correction in the gene expression space is much harder than in the embedding space. Methods such as Seurat 3.0 rely on the mutual nearest neighbor (MNN) approach to remove batch effects in gene expression, but MNN can only analyze two batches at a time, and it becomes computationally infeasible when the number of batches is large. Here, we present CarDEC, a joint deep learning model that simultaneously clusters and denoises scRNA-seq data while correcting batch effects both in the embedding and the gene expression space. Comprehensive evaluations spanning different species and tissues showed that CarDEC outperforms Scanorama, DCA + Combat, scVI, and MNN. With CarDEC denoising, non-highly variable genes offer as much signal for clustering as the highly variable genes (HVGs), suggesting that CarDEC substantially boosted information content in scRNA-seq. We also showed that trajectory analysis using CarDEC's denoised and batch-corrected expression as input revealed marker genes and transcription factors that are otherwise obscured in the presence of batch effects. CarDEC is computationally fast, making it a desirable tool for large-scale scRNA-seq studies.",
+  "abstract_zh": "单细胞RNA测序（scRNA-seq）技术的最新发展带来了巨大的生物学发现。随着scRNA-seq研究规模的扩大，分析中的一个主要挑战是批次效应，这在涉及人体组织的研究中不可避免。大多数现有方法在低维嵌入空间中去除批次效应。虽然对聚类有用，但批次效应在基因表达空间中仍然存在，使得下游基因水平分析易受批次效应影响。近期研究表明，在基因表达空间中校正批次效应远比在嵌入空间中困难。诸如Seurat 3.0等方法依赖互最近邻（MNN）方法在基因表达中去除批次效应，但MNN一次只能分析两个批次，当批次数量较大时，其计算变得不可行。在此，我们提出CarDEC，一种联合深度学习模型，能够同时聚类和去噪scRNA-seq数据，并在嵌入空间和基因表达空间中校正批次效应。跨不同物种和组织的综合评估显示，CarDEC优于Scanorama、DCA + Combat、scVI和MNN。通过CarDEC去噪，非高变基因在聚类中提供与高变基因（HVGs）相当的信号，表明CarDEC显著提升了scRNA-seq中的信息含量。我们还表明，使用CarDEC去噪和批次校正后的表达作为输入进行轨迹分析，揭示了在批次效应存在时被掩盖的标记基因和转录因子。CarDEC计算速度快，使其成为大规模scRNA-seq研究的理想工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34035047/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34035047/",
+  "paper_page_path": "papers/pubmed/34035047/index.html"
+}

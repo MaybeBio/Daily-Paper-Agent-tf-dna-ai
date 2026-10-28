@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a combined experimental and computational pipeline (rapid affinity purification, precision mass spectrometry, high-resolution molecular docking) to map physical associations between 296 small-molecule metabolite ligands and 69 essential enzymes plus 45 transcription factors in *E. coli*. They further claim systematic pathway integration, pan-microbial evolutionary projections, and independent biophysical validation to establish functional significance, revealing network-level crosstalk principles, binding pocket conservation patterns, and scaffolds for selective chemical probes. They assert the pipeline is scalable to whole cells and multi-cellular communities.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods, statistical analyses, validation datasets, docking scoring details, biophysical characterization protocols, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract describes an ambitious and potentially impactful resource for protein-metabolite interactions in a model bacterium. The scale of the dataset (296 ligands, 114 proteins) is substantial, and the integration of experimental affinity purification with computational docking is a reasonable strategy. However, the abstract alone provides insufficient detail to evaluate the technical rigor, data quality, or the strength of the functional claims. Several assertions, particularly regarding network-level principles and probe design scaffolds, appear to extend beyond what can be supported by the visible evidence. The work is likely of interest to the systems biology and chemical biology communities, but the case for broad significance is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Systems biologists studying metabolic regulation and transcriptional control; chemical biologists interested in small-molecule probe development; microbiologists focused on *E. coli* as a model organism; computational biologists developing docking or interactome mapping methods. The resource could serve as a reference dataset for protein-metabolite interactions and may inform drug discovery or antimicrobial development efforts.
+- **Major strengths** The scale and scope of the interactome mapping are impressive, covering a large number of ligands and proteins in a single organism. The combination of experimental affinity purification with mass spectrometry and molecular docking is a pragmatic approach to address a challenging problem. The inclusion of evolutionary projections and biophysical validation suggests an attempt to move beyond descriptive mapping toward functional interpretation. The stated scalability of the pipeline has potential for broader application.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims precise mapping of physical associations between 296 ligands and 114 proteins using the described pipeline.
+  - **Evidence pointer** Abstract only; no methods or validation data provided
+  - **Concern** The abstract provides no information on false positive or false negative rates for the affinity purification and mass spectrometry steps, nor on the criteria used to define a confident interaction. Molecular docking is notoriously prone to false positives, and no scoring thresholds, benchmark results, or independent validation metrics are described.
+  - **Why it matters** Without evidence of the accuracy and reproducibility of the interaction calls, the core dataset cannot be assessed for reliability. If the false positive rate is high, downstream functional interpretations would be compromised.
+  - **Resolution test** Provide precision and recall estimates based on known interactions, docking score distributions, and independent validation rates. Include benchmark comparisons against established datasets or orthogonal methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims the work reveals principles governing functional crosstalk on a network level and scaffolds for designing selective chemical probes.
+  - **Evidence pointer** Abstract only; no network analyses or probe design data shown
+  - **Concern** The abstract asserts network-level principles and probe scaffolds without presenting any specific findings, examples, or quantitative support. These are strong claims that require demonstration of novel, generalizable insights rather than descriptive observations.
+  - **Why it matters** The significance of the work hinges on whether the identified principles are genuinely new and broadly applicable. Without concrete examples or statistical evidence, these claims remain unsupported and may overstate the contribution.
+  - **Resolution test** Present specific network motifs or crosstalk patterns with statistical significance, and show at least one validated selective probe with evidence of specificity and functional effect.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The abstract states the pipeline can be scaled to illuminate native small-molecule networks of complete cells and potentially entire multi-cellular communities.
+  - **Evidence pointer** Abstract only; no scalability data or proof-of-concept beyond *E. coli* provided
+  - **Concern** The scalability claim is speculative and not supported by any data in the abstract. Scaling from a single bacterial species to multi-cellular communities involves substantial technical challenges, including sample complexity, dynamic range, and ligand diversity, which are not addressed.
+  - **Why it matters** This claim extends the potential impact of the work, but if it is not grounded in demonstrated feasibility, it may mislead readers about the current state of the method.
+  - **Resolution test** Provide evidence of scalability, such as application to a more complex sample or a clear discussion of technical barriers and how they might be overcome.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** Terms such as "pan-microbial evolutionary projections" and "structurally resolved ligand interactome" are used without definition or context, which may hinder comprehension for readers outside the immediate field.
+  - **Required correction** Briefly define these terms or provide context in the abstract to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Selection criteria for proteins and ligands
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not explain why these specific 69 enzymes and 45 transcription factors were chosen, nor how the 296 ligands were selected. This limits the reader's ability to assess potential bias in the dataset.
+  - **Required correction** State the selection criteria in the abstract or refer to methods for details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Claim of "divergent patterns of binding pocket conservation"
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions divergent conservation patterns but does not indicate whether these patterns are statistically significant or functionally validated.
+  - **Required correction** Clarify the basis for this claim, including any statistical or experimental support.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (interaction accuracy and validation) and R1-M2 (support for network-level principles and probe scaffolds) are the primary technical concerns. Without addressing these, the core claims of the work cannot be considered established.
+- **Assessment against Nature-style criteria** Originality: The approach of combining affinity purification, mass spectrometry, and docking at this scale is novel, though individual components are established. Scientific importance: Potentially high if the dataset is reliable and the functional insights are generalizable, but the abstract does not yet demonstrate this. Interdisciplinary readership: The topic bridges microbiology, systems biology, and chemical biology, which is suitable for a broad audience, but the abstract needs clearer framing. Technical soundness: Not assessable from the abstract alone; the lack of validation details is a major gap. Readability for nonspecialists: The abstract is dense and uses field-specific jargon without sufficient explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The work has clear potential, and I would be supportive if the technical concerns regarding interaction accuracy and the support for functional claims are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim of "precise mapping" of ligand-protein associations is unsupported without validation metrics.
+- The claim of revealing "principles governing functional crosstalk on a network level" is unsupported without specific network analyses.
+- The claim of providing "scaffolds for designing selective chemical probes" is unsupported without examples or validation.
+- The scalability claim to "complete cells and potentially entire multi-cellular communities" is speculative and not supported by data in the abstract.
+- The claim of "divergent patterns of binding pocket conservation" is unsupported without statistical or experimental evidence.

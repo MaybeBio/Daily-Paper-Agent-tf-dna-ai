@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, methodological soundness, interpretation of results, and alignment with claims made in the abstract and main text. Editorial or formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors propose a fitting-free polymer model of chromatin organisation in which multivalent transcription factors bind to transcription units, generating stochastic and bursty transcription. They claim that spatial correlations from 3D genome organisation produce complex small-world regulatory networks, that these networks depend on sub-saturating transcription factor concentrations, and that the model reconciles GWAS-based complexity with overexpression-based simplicity. They further apply the model to whole human chromosomes and to the DiGeorge deletion.
+- **Visible evidence base** Simulation results from a bead-spring polymer model with explicit transcription factors, including analyses of transcriptional activity, correlation networks, contact maps, and perturbation scenarios (knockouts, loops, heterochromatin, whole chromosomes, deletion). Comparisons to experimental data include GRO-seq, Capture-HiC, and published cohesin perturbation studies.
+- **Missing materials affecting confidence** Supplementary figures and notes are referenced but not provided in the submitted material. Specific parameter values for chromosome-scale simulations, details of the HMM model, and full statistical methods for network analyses are not available. Experimental data used for comparison are cited but not included in full.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually interesting and potentially important modelling framework linking 3D genome organisation to emergent regulatory network complexity. The central idea, that spatial clustering of transcription factors at sub-saturating concentrations generates small-world regulatory networks, is novel and could have broad implications for interpreting GWAS results. The model is parsimonious and the authors are appropriately cautious about its limitations. However, the strength of the claims is not fully established from the provided evidence. Several key results rely on qualitative comparisons, and the absence of supplementary material limits the ability to assess robustness, parameter sensitivity, and statistical rigour. The manuscript would benefit from clearer quantitative benchmarks and a more critical discussion of model simplifications.
+- **Who would be interested in the results, and why** Researchers in gene regulation, chromatin biology, and computational genomics would find this work relevant. It offers a mechanistic, physics-based perspective on why regulatory networks appear both complex and simple, which is directly relevant to those interpreting GWAS and eQTL data. The modelling community studying chromosome organisation and transcriptional noise would also be interested. The potential clinical application to copy-number variants such as the DiGeorge deletion may attract a broader biomedical audience.
+- **Major strengths** The model is fitting-free, which is a significant strength for predictive power. The authors connect a physical mechanism (spatial clustering and competition for limiting factors) to a well-known empirical puzzle (omnigenic versus master-regulator views). The application to whole chromosomes and a clinically relevant deletion demonstrates scalability and practical utility. The stochastic and bursty transcription emerging from the model is consistent with single-cell observations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the model predicts patterns of transcriptional activity in whole human chromosomes that correlate significantly with experimental GRO-seq data.
+  - **Evidence pointer** Figure 7C, 7D; location not provided for exact statistical methods
+  - **Concern** The reported Spearman correlations (approximately 0.38 for all beads, 0.32 for TUs) are modest, and the manuscript does not provide confidence intervals, permutation tests, or comparison against null models. It is unclear whether these correlations are driven by trivial features such as genomic distance or chromatin state annotations rather than by the specific mechanism proposed. The claim of "significant" correlation requires a more rigorous statistical framework.
+  - **Why it matters** The whole-chromosome validation is a central pillar of the paper's claim that the model captures real biological behaviour. Without robust statistical benchmarking, the correlation could be artefactual or non-specific, undermining the central conclusion.
+  - **Resolution test** Provide permutation-based null distributions, confidence intervals for correlations, and control analyses using randomised TF binding sites or shuffled chromatin state annotations. Demonstrate that the correlation is not explained by simpler genomic features.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that increasing transcription factor concentration dramatically simplifies regulatory networks.
+  - **Evidence pointer** Figure 3B; location not provided for network metrics
+  - **Concern** The network simplification is quantified only by the fraction of nodes in the largest connected component. This single metric is insufficient to characterise network complexity. Other properties such as clustering coefficient, path length, degree distribution, and modularity are not reported for the concentration series. The claim of "small-world" networks is asserted but quantitative small-world metrics are only referenced to supplementary material not provided.
+  - **Why it matters** The concentration-dependent simplification is a key mechanistic prediction that reconciles GWAS complexity with overexpression simplicity. If the network simplification is not robustly characterised, this central claim is weakened.
+  - **Resolution test** Report a fuller set of network metrics across concentrations, including small-world coefficient, clustering, and degree distribution. Provide statistical comparisons across conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that the model is fitting-free and can be applied to any chromosome given appropriate genomic data.
+  - **Evidence pointer** Methods section; Supplementary Notes 1 and 3 referenced but not provided
+  - **Concern** The manuscript does not provide sufficient detail on how genomic data (DNase hypersensitivity, H3K27ac, HMM states) are converted into model parameters. The mapping from experimental data to bead classifications and binding affinities is not fully specified. Without this information, the model cannot be reproduced or applied by others.
+  - **Why it matters** Reproducibility is a core requirement for a modelling paper. The claim of being "fitting-free" is only meaningful if the input data processing is transparent and standardised.
+  - **Resolution test** Provide a detailed step-by-step protocol for converting genomic data into model inputs, including all thresholds, normalisation steps, and parameter values. Make code and input data publicly available.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the model provides a mechanistic explanation for the omnigenic model and reconciles it with master-regulator observations.
+  - **Evidence pointer** Discussion section; Figure 3
+  - **Concern** The connection to the omnigenic model is largely qualitative. The authors do not formally map their network model to the equations of the omnigenic model, nor do they demonstrate that the emergent networks have the same statistical properties as those inferred from GWAS. The claim of reconciliation is therefore suggestive rather than demonstrated.
+  - **Why it matters** The broader significance of the paper depends on this conceptual link. A more formal connection would substantially increase the impact.
+  - **Resolution test** Derive or simulate the omnigenic model and compare its network properties with those from the polymer model. Alternatively, fit the polymer model to a specific GWAS dataset and show that predicted network properties match empirical estimates.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The opening sentence implies a direct contrast between "simple" and "complex" views of regulation, but the resolution of this contrast is not clearly stated in the abstract.
+  - **Required correction** Rephrase to explicitly state the reconciliation mechanism (spatial competition at sub-saturating factor concentrations) in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Methods, polymer model
+  - **Evidence pointer** Methods, equation (5)
+  - **Issue** The Lennard-Jones potential parameters are given, but the rationale for the specific values of epsilon (3 kBT for attractive interactions) is not explained.
+  - **Required correction** Add a sentence justifying the choice of interaction strengths, ideally with reference to experimental estimates of TF-DNA binding affinities.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, DiGeorge deletion
+  - **Evidence pointer** Figure 8B
+  - **Issue** The Manhattan plot shows many significant changes, but the authors do not discuss whether the predicted affected regions correspond to known DiGeorge syndrome candidate genes.
+  - **Required correction** Add a brief comparison with known DiGeorge syndrome genes to strengthen the clinical relevance claim.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 2
+  - **Issue** The transition from GWAS findings to the omnigenic model is abrupt and may be difficult for non-specialists to follow.
+  - **Required correction** Add one or two sentences explaining the omnigenic model in plain terms before introducing the authors' alternative framework.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigour of whole-chromosome validation), R1-M2 (incomplete network characterisation), R1-M3 (insufficient methodological detail for reproducibility).
+- **Assessment against Nature-style criteria** Originality: High. The idea that 3D spatial organisation alone, without explicit biochemical regulation, generates small-world regulatory networks is novel and distinct from existing models. Scientific importance: Potentially high, as it offers a mechanistic bridge between two influential but seemingly contradictory views of gene regulation. However, the importance is not yet fully demonstrated due to the concerns above. Interdisciplinary readership: The work should appeal to physicists, computational biologists, and molecular biologists, but the presentation is currently more accessible to the modelling community than to experimentalists. Technical soundness: The core simulation approach is sound, but the statistical validation and network analysis are incomplete. Readability for non-specialists: The manuscript is generally well written, but some sections, particularly the methods, assume familiarity with polymer physics and simulation techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central idea is promising and the model is elegant, but the current evidence does not fully establish the claims of predictive accuracy and network complexity. The authors should address the statistical and reproducibility issues before the case is considered established.

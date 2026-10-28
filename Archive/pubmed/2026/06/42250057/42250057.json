@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "42250057",
+    "doi": "10.1007/s12282-026-01870-3",
+    "title": "A simple morphometric algorithm based on nuclear atypia features of invasive breast carcinoma: relationship with nuclear grade, Ki-67 level, and hormone receptor status."
+  },
+  "content": {
+    "abstract": "Background With the widespread availability of whole-slide imaging, many studies have utilized digital images of hematoxylin and eosin (H&E)-stained breast cancer tissues and applied convolutional neural networks (CNNs) for pathological diagnosis. However, CNN-based diagnosis is largely a black box and may be limited in quantitative morphological research. In this study, we developed a simple algorithm for morphometric analysis of three nuclear atypia features on H&E-stained whole-slide images to predict nuclear grade, hormone receptor status, and Ki-67 levels in breast cancer.Materials and Methods Using 43,183 H&E-stained nuclear images larger than 20 microm(2) from 131 invasive ductal breast carcinomas, we calculated the following features of nuclear atypia using a computer vision algorithm: anisonucleosis (variation in nuclear size), inhomogeneous chromatin density, and the average size of prominent nucleoli. Anisonucleosis was quantified as the percentage of nuclei larger than 47 mum(2). Inhomogeneous chromatin was defined as the percentage of blue-saturated structures with 0.92-fold luminance or less than the average nuclear luminance. Prominent nucleoli were identified based on blue-saturated structures with 0.87-fold luminance or less, circularity greater than 0.65, and size greater than 1.15 mum(2). Using these values of nuclear atypia features, the thresholds that were the most associated with grade and biomarkers were calculated using receiver operating characteristic curves by Youden index.Results The morphometric algorithm using these thresholds predicted nuclear grade (grade 1 and 3), Ki-67 index >== 20%, and hormone receptor negative status with sensitivities of 52.1 to 100% and specificities from 34.3 to 85.3%. Two multivariable logistic regression models combining these three thresholds predicted nuclear grade, Ki-67, and hormone receptor negative with much better accuracy, sensitivities ranging from 57.1 to 91.3%, specificities from 50.9 to 82.2%, and area under curve of 0.70-0.82. The algorithm was applied to an independent set of 42 tumors.Conclusion The present morphological algorithm of nuclear atypia might provide new insights into the computational grading of invasive breast cancer.",
+    "keywords": [
+      "Breast cancer",
+      "Digital pathology",
+      "Hormone receptor",
+      "Invasive breast carcinoma",
+      "Morphometry",
+      "Nuclear atypia",
+      "Nuclear grade",
+      "Nucleoli",
+      "Whole-slide imaging"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/pathology/metabolism",
+      "*Ki-67 Antigen/metabolism/analysis",
+      "*Algorithms",
+      "*Carcinoma, Ductal, Breast/pathology/metabolism",
+      "Neoplasm Grading",
+      "Receptors, Estrogen/metabolism",
+      "Receptors, Progesterone/metabolism",
+      "*Cell Nucleus/pathology",
+      "Convolutional Neural Networks",
+      "Image Processing, Computer-Assisted/methods",
+      "Biomarkers, Tumor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tsuru, Tomohiro",
+        "Watanabe, Takanori",
+        "Kouzu, Keita",
+        "Yamagishi, Youji",
+        "Einama, Takahiro",
+        "Yamasaki, Tamio",
+        "Tsujimoto, Hironori",
+        "Kishi, Yoji",
+        "Ueno, Hideki",
+        "Tsuda, Hitoshi"
+      ],
+      "short_names": [
+        "Tsuru T",
+        "Watanabe T",
+        "Kouzu K",
+        "Yamagishi Y",
+        "Einama T",
+        "Yamasaki T",
+        "Tsujimoto H",
+        "Kishi Y",
+        "Ueno H",
+        "Tsuda H"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-6913-0868",
+        "ORCID: 0000-0002-6433-3184",
+        "ORCID: 0000-0002-4434-0803",
+        "ORCID: 0000-0002-2808-4723",
+        "ORCID: 0000-0001-8885-1210",
+        "ORCID: 0000-0002-8600-1199",
+        "ORCID: 0000-0003-3457-4224"
+      ],
+      "affiliations": [
+        "Department of Surgery, National Defense Medical College Hospital, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan.",
+        "Department of Basic Pathology, National Defense Medical College, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan.",
+        "Department of Basic Pathology, National Defense Medical College, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan.",
+        "Department of Surgery, National Defense Medical College Hospital, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan.",
+        "Department of Surgery, National Defense Medical College Hospital, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan.",
+        "Department of Basic Pathology, National Defense Medical College, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan.",
+        "Department of Surgery, National Defense Medical College Hospital, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan.",
+        "Department of Surgery, National Defense Medical College Hospital, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan.",
+        "Department of Surgery, National Defense Medical College Hospital, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan.",
+        "Department of Surgery, National Defense Medical College Hospital, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan.",
+        "Department of Surgery, National Defense Medical College Hospital, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan.",
+        "Department of Basic Pathology, National Defense Medical College, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan. hstsuda@gmail.com.",
+        "Department of Diagnostic Pathology, Seikei-kai Chiba Medical Center, 1-7- 1 Minami-cho, Chuo-ku, Chiba, 260-0842, Chiba, Japan. hstsuda@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tsuru, Tomohiro",
+        "short_name": "Tsuru T",
+        "identifiers": [
+          "0009-0006-6913-0868"
+        ],
+        "affiliations": [
+          "Department of Surgery, National Defense Medical College Hospital, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan.",
+          "Department of Basic Pathology, National Defense Medical College, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan."
+        ]
+      },
+      {
+        "full_name": "Watanabe, Takanori",
+        "short_name": "Watanabe T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Pathology, National Defense Medical College, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan."
+        ]
+      },
+      {
+        "full_name": "Kouzu, Keita",
+        "short_name": "Kouzu K",
+        "identifiers": [
+          "0000-0002-6433-3184"
+        ],
+        "affiliations": [
+          "Department of Surgery, National Defense Medical College Hospital, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamagishi, Youji",
+        "short_name": "Yamagishi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, National Defense Medical College Hospital, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan.",
+          "Department of Basic Pathology, National Defense Medical College, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan."
+        ]
+      },
+      {
+        "full_name": "Einama, Takahiro",
+        "short_name": "Einama T",
+        "identifiers": [
+          "0000-0002-4434-0803"
+        ],
+        "affiliations": [
+          "Department of Surgery, National Defense Medical College Hospital, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamasaki, Tamio",
+        "short_name": "Yamasaki T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, National Defense Medical College Hospital, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan."
+        ]
+      },
+      {
+        "full_name": "Tsujimoto, Hironori",
+        "short_name": "Tsujimoto H",
+        "identifiers": [
+          "0000-0002-2808-4723"
+        ],
+        "affiliations": [
+          "Department of Surgery, National Defense Medical College Hospital, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan."
+        ]
+      },
+      {
+        "full_name": "Kishi, Yoji",
+        "short_name": "Kishi Y",
+        "identifiers": [
+          "0000-0001-8885-1210"
+        ],
+        "affiliations": [
+          "Department of Surgery, National Defense Medical College Hospital, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan."
+        ]
+      },
+      {
+        "full_name": "Ueno, Hideki",
+        "short_name": "Ueno H",
+        "identifiers": [
+          "0000-0002-8600-1199"
+        ],
+        "affiliations": [
+          "Department of Surgery, National Defense Medical College Hospital, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan."
+        ]
+      },
+      {
+        "full_name": "Tsuda, Hitoshi",
+        "short_name": "Tsuda H",
+        "identifiers": [
+          "0000-0003-3457-4224"
+        ],
+        "affiliations": [
+          "Department of Basic Pathology, National Defense Medical College, 3-2 Namiki, Tokorozawa, 359-8513, Saitama, Japan. hstsuda@gmail.com.",
+          "Department of Diagnostic Pathology, Seikei-kai Chiba Medical Center, 1-7- 1 Minami-cho, Chuo-ku, Chiba, 260-0842, Chiba, Japan. hstsuda@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Breast cancer (Tokyo, Japan)"
+    ],
+    "journal_abbrev": [
+      "Breast Cancer"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/06 12:34",
+    "fetched_at": "2026-10-01 22:26:29"
+  },
+  "links": {
+    "cites": [
+      "42479416"
+    ],
+    "refs": [
+      "36192400",
+      "34242744",
+      "32954927",
+      "32164298",
+      "32152792",
+      "31928404",
+      "31085625",
+      "30655808",
+      "30182055",
+      "29923622",
+      "28506892",
+      "24563345",
+      "24503411",
+      "24101045",
+      "22899294",
+      "21326812",
+      "19894267",
+      "13499785",
+      "9769782",
+      "9504686",
+      "1757079"
+    ],
+    "similar": [
+      "42250057",
+      "40744681",
+      "28472544",
+      "40143808",
+      "20143189",
+      "32471471",
+      "26742937",
+      "20349598",
+      "19736866",
+      "41250202",
+      "29693354",
+      "25565114",
+      "7496840",
+      "22833438",
+      "20663194",
+      "22878371",
+      "23584595",
+      "22450930",
+      "30337080",
+      "26096243",
+      "10872036",
+      "11381366",
+      "19242056",
+      "25684532",
+      "21244664",
+      "29284425",
+      "27477822",
+      "21057570",
+      "17633394",
+      "27222586",
+      "30785924",
+      "23240985",
+      "33887303",
+      "21725655",
+      "40012857",
+      "11932891",
+      "31696388",
+      "17845726",
+      "28193205",
+      "24403473",
+      "22886478",
+      "22424533",
+      "23244108",
+      "40898467",
+      "30806064",
+      "9743304",
+      "31630876",
+      "28766197",
+      "11345835",
+      "18407934",
+      "22996916",
+      "24304465",
+      "18947395",
+      "17393979",
+      "30678383",
+      "32572716",
+      "29848291",
+      "24586570",
+      "33360027",
+      "29330212",
+      "30553188",
+      "24558165",
+      "32787871",
+      "40210131",
+      "21733550",
+      "12828606",
+      "40195667",
+      "27511992",
+      "36510982",
+      "23575073",
+      "22843935",
+      "24838367",
+      "21092276",
+      "28583788",
+      "22207430",
+      "38851736",
+      "24070170",
+      "21043825",
+      "28890183",
+      "24989913",
+      "36330383",
+      "20412586",
+      "41786866",
+      "40813116",
+      "16753742",
+      "28550498",
+      "31754747",
+      "31983107",
+      "26493064",
+      "21437249",
+      "15844176",
+      "29062076",
+      "25824769",
+      "39478421",
+      "23738706",
+      "20137353",
+      "25012047",
+      "34673584",
+      "33648758",
+      "22527102"
+    ],
+    "review": [
+      "42250057"
+    ],
+    "pmc": [
+      "13283171"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42250057/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12282-026-01870-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "37651627",
+    "doi": "10.1093/bfgp/elad039",
+    "title": "DBPMod: a supervised learning model for computational recognition of DNA-binding proteins in model organisms."
+  },
+  "content": {
+    "abstract": "DNA-binding proteins (DBPs) play critical roles in many biological processes, including gene expression, DNA replication, recombination and repair. Understanding the molecular mechanisms underlying these processes depends on the precise identification of DBPs. In recent times, several computational methods have been developed to identify DBPs. However, because of the generic nature of the models, these models are unable to identify species-specific DBPs with higher accuracy. Therefore, a species-specific computational model is needed to predict species-specific DBPs. In this paper, we introduce the computational DBPMod method, which makes use of a machine learning approach to identify species-specific DBPs. For prediction, both shallow learning algorithms and deep learning models were used, with shallow learning models achieving higher accuracy. Additionally, the evolutionary features outperformed sequence-derived features in terms of accuracy. Five model organisms, including Caenorhabditis elegans, Drosophila melanogaster, Escherichia coli, Homo sapiens and Mus musculus, were used to assess the performance of DBPMod. Five-fold cross-validation and independent test set analyses were used to evaluate the prediction accuracy in terms of area under receiver operating characteristic curve (auROC) and area under precision-recall curve (auPRC), which was found to be ~89-92% and ~89-95%, respectively. The comparative results demonstrate that the DBPMod outperforms 12 current state-of-the-art computational approaches in identifying the DBPs for all five model organisms. We further developed the web server of DBPMod to make it easier for researchers to detect DBPs and is publicly available at https://iasri-sg.icar.gov.in/dbpmod/. DBPMod is expected to be an invaluable tool for discovering DBPs, supplementing the current experimental and computational methods.",
+    "keywords": [
+      "DNA-binding proteins",
+      "deep learning",
+      "evolutionary features",
+      "machine learning",
+      "model organism"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*DNA-Binding Proteins/metabolism",
+      "Humans",
+      "*Computational Biology/methods",
+      "Supervised Machine Learning",
+      "Caenorhabditis elegans/genetics/metabolism",
+      "Drosophila melanogaster/genetics/metabolism",
+      "Mice",
+      "Algorithms",
+      "Software"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pradhan, Upendra K",
+        "Meher, Prabina K",
+        "Naha, Sanchita",
+        "Sharma, Nitesh K",
+        "Agarwal, Aarushi",
+        "Gupta, Ajit",
+        "Parsad, Rajender"
+      ],
+      "short_names": [
+        "Pradhan UK",
+        "Meher PK",
+        "Naha S",
+        "Sharma NK",
+        "Agarwal A",
+        "Gupta A",
+        "Parsad R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7098-8785"
+      ],
+      "affiliations": [
+        "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India.",
+        "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India.",
+        "Division of Computer Applications, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India.",
+        "Titus Family Department of Clinical Pharmacy, USC Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1540 Alcazar Street, Los Angeles, CA 90033, USA.",
+        "Amity Institute of Biotechnology, Amity University, Noida, Uttar Pradesh 201313, India.",
+        "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India.",
+        "ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pradhan, Upendra K",
+        "short_name": "Pradhan UK",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India."
+        ]
+      },
+      {
+        "full_name": "Meher, Prabina K",
+        "short_name": "Meher PK",
+        "identifiers": [
+          "0000-0002-7098-8785"
+        ],
+        "affiliations": [
+          "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India."
+        ]
+      },
+      {
+        "full_name": "Naha, Sanchita",
+        "short_name": "Naha S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computer Applications, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India."
+        ]
+      },
+      {
+        "full_name": "Sharma, Nitesh K",
+        "short_name": "Sharma NK",
+        "identifiers": [],
+        "affiliations": [
+          "Titus Family Department of Clinical Pharmacy, USC Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1540 Alcazar Street, Los Angeles, CA 90033, USA."
+        ]
+      },
+      {
+        "full_name": "Agarwal, Aarushi",
+        "short_name": "Agarwal A",
+        "identifiers": [],
+        "affiliations": [
+          "Amity Institute of Biotechnology, Amity University, Noida, Uttar Pradesh 201313, India."
+        ]
+      },
+      {
+        "full_name": "Gupta, Ajit",
+        "short_name": "Gupta A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Statistical Genetics, ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India."
+        ]
+      },
+      {
+        "full_name": "Parsad, Rajender",
+        "short_name": "Parsad R",
+        "identifiers": [],
+        "affiliations": [
+          "ICAR-Indian Agricultural Statistics Research Institute, PUSA, New Delhi 110012, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in functional genomics"
+    ],
+    "journal_abbrev": [
+      "Brief Funct Genomics"
+    ],
+    "pub_date": "2024 Jul 19",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/31 18:41",
+    "fetched_at": "2026-09-29 06:19:55"
+  },
+  "links": {
+    "cites": [
+      "40391089",
+      "38856168",
+      "38747369"
+    ],
+    "refs": [],
+    "similar": [
+      "37651627",
+      "36416116",
+      "38747369",
+      "37158175",
+      "31009682",
+      "38316843",
+      "38490467",
+      "35378437",
+      "39316155",
+      "31123959",
+      "38660008",
+      "39265460",
+      "39657630",
+      "32920048",
+      "38986796",
+      "34932484",
+      "40439671",
+      "30316822",
+      "33842944",
+      "38892007",
+      "40185915",
+      "38856168",
+      "34493371",
+      "35803984",
+      "26724853",
+      "40042853",
+      "41257586",
+      "29097781",
+      "23516347",
+      "33647600",
+      "37150785",
+      "31714956",
+      "29678692",
+      "21422073",
+      "35021193",
+      "27565741",
+      "32300371",
+      "35447463",
+      "28185545",
+      "27489953",
+      "28152994",
+      "34291709",
+      "36719781",
+      "32352006",
+      "32917152",
+      "33410688",
+      "40820010",
+      "39000124",
+      "39602828",
+      "39408682",
+      "33780341",
+      "21046474",
+      "40940539",
+      "36891974",
+      "35836985",
+      "36939943",
+      "38279081",
+      "34461202",
+      "33227813",
+      "16518452",
+      "34064595",
+      "18752680",
+      "37028059",
+      "35731758",
+      "38949938",
+      "37000299",
+      "35154264",
+      "30668479",
+      "35627292",
+      "33238837",
+      "40121399",
+      "30616524",
+      "18796161",
+      "35163534",
+      "39395242",
+      "31881982",
+      "30351377",
+      "36044786",
+      "30291426",
+      "39408595",
+      "36880172",
+      "33174853",
+      "26357215",
+      "32550561",
+      "33986992",
+      "33491072",
+      "23365625",
+      "30957840",
+      "41107866",
+      "30052767",
+      "30114914",
+      "39270885",
+      "35801442",
+      "31412138",
+      "35389869",
+      "37812647",
+      "41172803",
+      "29047334",
+      "36646347",
+      "26940649"
+    ],
+    "review": [
+      "37651627",
+      "33842944",
+      "31714956",
+      "34461202",
+      "35154264"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=37651627",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/37651627.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bfg/article-lookup/doi/10.1093/bfgp/elad039",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

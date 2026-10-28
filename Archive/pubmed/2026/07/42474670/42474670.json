@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "42474670",
+    "doi": "10.1007/s10067-026-08240-6",
+    "title": "Targeting the FoxO-ferroptosis axis: mechanistic insights into Saikosaponin A-mediated protection against cartilage degeneration in osteoarthritis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteoarthritis (OA) is a common chronic inflammatory orthopedic disease, and ferroptosis (a novel OA-associated cell death mechanism) remains insufficiently understood. Saikosaponin A (a traditional Chinese medicine monomer) shows OA therapeutic effects, but its role in OA-related ferroptosis is unclear. This study aimed to elucidate its mechanism via bioinformatics, single-cell analysis, and in vitro/in vivo experiments. METHODS: OA expression profiles (GEO: GSE1919, GSE55235, GSE55475) and ferroptosis genes (FerrDb) were collected. Machine learning identified OA ferroptosis hub genes and pathways; scRNA-seq (GSE169454, Seurat/SCENIC) defined chondrocyte subsets. Network pharmacology and experiments (human primary chondrocytes, MIA-KOA rats) validated targets. RESULTS: Bioinformatics and network pharmacology analysis revealed that Saikosaponin A mediates chondrocyte ferroptosis via the TNF signaling pathway and FoxO signaling pathway through the regulation of MAPK14, MAPK8, SOX2, IL1B, NR4A1, and PTGS2. Subsequent in vitro and in vivo experiments confirmed that Saikosaponin A can alleviate the progression of KOA by regulating chondrocyte ferroptosis through the FoxO signaling pathway. Finally, single-cell combined bioinformatics analysis further expanded the relationship between core genes and chondrocyte subtypes. CONCLUSION: This study systematically elucidated that Saikosaponin A can regulate FoxO signaling pathway to modulate chondrocyte ferroptosis and alleviate the progression of KOA, and that MAPK14, MAPK8, SOX2, IL1B, NR4A1, and PTGS2 are involved in the regulation of chondrocyte phenotype. Key Points * Integrated multi-omics approach identifies the FoxO-ferroptosis axis in OA. Combining bioinformatics, network pharmacology, and single-cell sequencing revealed the crucial role of the FoxO signaling pathway in regulating chondrocyte ferroptosis during osteoarthritis (OA) progression. * Saikosaponin A alleviates chondrocyte ferroptosis via the FoxO pathway. Both in vitro and in vivo experiments demonstrate that the natural compound Saikosaponin A inhibits erastin-induced ferroptosis in chondrocytes by targeting key components of the FoxO signaling pathway (FoxO1 and PI3K). * MAPK14, MAPK8, SOX2, IL1B, NR4A1, and PTGS2 are key regulatory genes. Multi-dataset analysis pinpointed six hub genes linking ferroptosis to OA, which are involved in Saikosaponin A's therapeutic mechanism. * Single-cell analysis maps ferroptosis hub genes to specific chondrocyte subtypes. The study unveils the distinct distribution of ferroptosis-related regulators (e.g., high PTGS2 in ProCs and RegCs) across chondrocyte subpopulations, providing cellular-level insights for targeted therapy.",
+    "keywords": [
+      "Chondrocyte phenotype",
+      "Ferroptosis",
+      "FoxO signaling pathway",
+      "Osteoarthritis",
+      "Saikosaponin A"
+    ],
+    "mesh_terms": [
+      "*Oleanolic Acid/analogs & derivatives/pharmacology",
+      "*Saponins/pharmacology",
+      "*Osteoarthritis/metabolism/drug therapy/pathology/genetics",
+      "Animals",
+      "Humans",
+      "*Chondrocytes/drug effects/metabolism",
+      "Rats",
+      "Signal Transduction/drug effects",
+      "*Ferroptosis/drug effects/genetics",
+      "*Forkhead Transcription Factors/metabolism",
+      "Network Pharmacology",
+      "Computational Biology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Lei",
+        "Zhang, Longlong",
+        "He, Lipeng",
+        "Jia, Lijunpeng",
+        "Liu, Fei",
+        "Yan, Chengyuan",
+        "Li, Jingchi",
+        "Wei, Donghua",
+        "Wang, Guoyou"
+      ],
+      "short_names": [
+        "Zhang L",
+        "Zhang L",
+        "He L",
+        "Jia L",
+        "Liu F",
+        "Yan C",
+        "Li J",
+        "Wei D",
+        "Wang G"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-3670-9636"
+      ],
+      "affiliations": [
+        "Department of Orthopedics, Luzhou Key Laboratory of Orthopedic Disorders, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan Province, People's Republic of China.",
+        "Department of Orthopedics, Luzhou Key Laboratory of Orthopedic Disorders, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan Province, People's Republic of China.",
+        "Department of Orthopaedics, Wuxi Hospital of Traditional Chinese Medicine, Wuxi, 214000, Jiangsu Province, People's Republic of China.",
+        "Department of Orthopedics, Luzhou Key Laboratory of Orthopedic Disorders, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan Province, People's Republic of China.",
+        "Department of Orthopedics, Luzhou Key Laboratory of Orthopedic Disorders, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan Province, People's Republic of China.",
+        "Department of Orthopaedics, Jiangjin Hospital of Traditional Chinese Medicine, Jiangjin, 402260, Chongqing City, People's Republic of China.",
+        "Department of Orthopedics, Luzhou Key Laboratory of Orthopedic Disorders, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan Province, People's Republic of China.",
+        "Department of Orthopaedics, Jiangjin Hospital of Traditional Chinese Medicine, Jiangjin, 402260, Chongqing City, People's Republic of China. donghuawei2025@163.com.",
+        "Department of Orthopedics, Luzhou Key Laboratory of Orthopedic Disorders, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan Province, People's Republic of China. wangguoyou1981@swmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Lei",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Luzhou Key Laboratory of Orthopedic Disorders, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Longlong",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Luzhou Key Laboratory of Orthopedic Disorders, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "He, Lipeng",
+        "short_name": "He L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Wuxi Hospital of Traditional Chinese Medicine, Wuxi, 214000, Jiangsu Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Jia, Lijunpeng",
+        "short_name": "Jia L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Luzhou Key Laboratory of Orthopedic Disorders, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Fei",
+        "short_name": "Liu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Luzhou Key Laboratory of Orthopedic Disorders, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yan, Chengyuan",
+        "short_name": "Yan C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, Jiangjin Hospital of Traditional Chinese Medicine, Jiangjin, 402260, Chongqing City, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Jingchi",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Luzhou Key Laboratory of Orthopedic Disorders, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan Province, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wei, Donghua",
+        "short_name": "Wei D",
+        "identifiers": [
+          "0009-0003-3670-9636"
+        ],
+        "affiliations": [
+          "Department of Orthopaedics, Jiangjin Hospital of Traditional Chinese Medicine, Jiangjin, 402260, Chongqing City, People's Republic of China. donghuawei2025@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Guoyou",
+        "short_name": "Wang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Luzhou Key Laboratory of Orthopedic Disorders, The Affiliated Traditional Chinese Medicine Hospital, Southwest Medical University, Luzhou, 646000, Sichuan Province, People's Republic of China. wangguoyou1981@swmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical rheumatology"
+    ],
+    "journal_abbrev": [
+      "Clin Rheumatol"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/20 12:40",
+    "fetched_at": "2026-10-02 02:17:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40517915",
+      "40371070",
+      "40241060",
+      "39856053",
+      "39755397",
+      "39661331",
+      "39442190",
+      "39348104",
+      "39281838",
+      "39237134",
+      "39137258",
+      "38766865",
+      "38574617",
+      "38389105",
+      "38366038",
+      "38202076",
+      "38149417",
+      "37993541",
+      "37748410",
+      "37644785",
+      "37393639",
+      "37166463",
+      "37051231",
+      "37002971",
+      "36854703",
+      "36827028",
+      "36722056",
+      "36536250",
+      "36305834",
+      "36304454",
+      "36300620",
+      "36116029",
+      "36106017",
+      "35976954",
+      "35958605",
+      "35734177",
+      "35370642",
+      "35101656",
+      "35026512",
+      "34493872",
+      "34126961",
+      "34092035",
+      "33929529",
+      "32725315",
+      "32592611",
+      "32035570",
+      "31167641",
+      "30026257",
+      "25605792",
+      "17609389"
+    ],
+    "similar": [
+      "42474670",
+      "40258527",
+      "40216809",
+      "41539091",
+      "40299032",
+      "40797087",
+      "41581577",
+      "41539373",
+      "42249421",
+      "38636375",
+      "42128154",
+      "38832987",
+      "36439689",
+      "40058106",
+      "42474760",
+      "40818538",
+      "42531834",
+      "40517915",
+      "41077348",
+      "40381663",
+      "39640258",
+      "40540898",
+      "40686116",
+      "42377012",
+      "41712577",
+      "42391815",
+      "38759289",
+      "41965191",
+      "39423944",
+      "39779817",
+      "41941107",
+      "41017094",
+      "41112282",
+      "42353855",
+      "38429394",
+      "41548376",
+      "37879209",
+      "39991669",
+      "41694337",
+      "40586853",
+      "41038144",
+      "41005058",
+      "35378415",
+      "41218586",
+      "38318502",
+      "41720004",
+      "41316378",
+      "41067202",
+      "41504045",
+      "39934774",
+      "39121926",
+      "41766874",
+      "41854786",
+      "40016915",
+      "38389105",
+      "40966781",
+      "40885352",
+      "41593037",
+      "36359826",
+      "32281255",
+      "38868774",
+      "39778769",
+      "40435578",
+      "40564983",
+      "39964979",
+      "39368343",
+      "40546656",
+      "41542094",
+      "37548663",
+      "42012045",
+      "41326925",
+      "40345271",
+      "42120779",
+      "42030882",
+      "42045320",
+      "40112602",
+      "41049439",
+      "42302946",
+      "38621621",
+      "30048987",
+      "42367783",
+      "41502501",
+      "42389985",
+      "41190713",
+      "41074161",
+      "41533098",
+      "41633494",
+      "42341350",
+      "41824220",
+      "42543340",
+      "39717946",
+      "41388916",
+      "39849508",
+      "37188001",
+      "40636124",
+      "40475787",
+      "40787173",
+      "40426157",
+      "33441836",
+      "40165317"
+    ],
+    "review": [
+      "42474670"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoarthritis"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s10067-026-08240-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-878",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

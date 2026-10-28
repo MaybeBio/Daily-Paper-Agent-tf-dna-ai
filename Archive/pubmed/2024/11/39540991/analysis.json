@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39540991",
+  "title": "Identification of diagnostic genes and the miRNA‒mRNA‒TF regulatory network in human oocyte aging via machine learning methods.",
+  "authors": "Luo, Xi; Liang, Mingming; Zhang, Dandan; Huang, Ben",
+  "journal": "Journal of assisted reproduction and genetics",
+  "published_date": "2024-11-14",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 3,
+  "one_liner_zh": "该文通过机器学习识别卵母细胞衰老相关诊断基因并构建miRNA-mRNA-TF调控网络，但核心是基因表达与调控网络分析，缺乏蛋白质-DNA三维互作建模或结合机制研究，仅涉及TF作为调控因子，与本课题的TF-DNA互作建模方向关联较弱。",
+  "abstract": "PURPOSE: Oocyte aging is a significant factor in the negative reproductive outcomes of older women. However, the pathogenesis of oocyte aging remains unclear. This study aimed to identify the hub genes involved in oocyte aging via bioinformatics methods. METHODS: The oocyte aging datasets GSE155179 and GSE158802 were obtained from the GEO database and analyzed as the training set. The GSE164371 dataset was then defined as the validation set. Differentially expressed genes were analyzed via the limma package and weighted gene coexpression network analysis, and intersected with cellular senescence-associated genes from the Cell Senescence database. The hub genes were identified via three machine learning algorithms, namely, support vector machine recursive feature elimination, random forest, and least absolute shrinkage and selection operator logistic, which were also confirmed via the validation set. Finally, a microRNA-mRNA‒transcription factor regulatory network and single-gene gene set enrichment analysis were performed to clarify the pathogenesis of oocyte aging. RESULTS: A competing endogenous RNA network of GSE155179 and GSE158802 with 124 mRNAs, 31 long noncoding RNAs, and 31 miRNAs was constructed. Two modules with 814 genes were considered the key modules of oocyte aging. PDIK1L, SIRT1, and MCU were subsequently identified as hub genes; on the basis of these hub genes, a regulatory network of oocyte aging with 8 miRNAs, 3 mRNAs, and 227 TFs was ultimately constructed. CONCLUSIONS: This study contributes to a deeper understanding of oocyte aging and may aid in the development of therapeutic approaches to improve reproductive outcomes in older women.",
+  "abstract_zh": "目的：卵母细胞老化是高龄女性生殖结局不良的重要因素。然而，卵母细胞老化的发病机制仍不清楚。本研究旨在通过生物信息学方法识别参与卵母细胞老化的核心基因。方法：从GEO数据库获取卵母细胞老化数据集GSE155179和GSE158802，并将其作为训练集进行分析。随后将GSE164371数据集定义为验证集。通过limma包和加权基因共表达网络分析差异表达基因，并与细胞衰老数据库中的细胞衰老相关基因取交集。通过三种机器学习算法，即支持向量机递归特征消除、随机森林和最小绝对收缩与选择算子逻辑回归，识别核心基因，并通过验证集进行确认。最后，构建microRNA-mRNA-转录因子调控网络和单基因基因集富集分析，以阐明卵母细胞老化的发病机制。结果：构建了GSE155179和GSE158802的竞争性内源RNA网络，包含124个mRNA、31个长链非编码RNA和31个miRNA。两个模块共814个基因被认为是卵母细胞老化的关键模块。随后，PDIK1L、SIRT1和MCU被识别为核心基因；基于这些核心基因，最终构建了包含8个miRNA、3个mRNA和227个转录因子的卵母细胞老化调控网络。结论：本研究有助于更深入地理解卵母细胞老化，并可能有助于开发改善高龄女性生殖结局的治疗方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39540991/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39540991/",
+  "paper_page_path": "papers/pubmed/39540991/index.html"
+}

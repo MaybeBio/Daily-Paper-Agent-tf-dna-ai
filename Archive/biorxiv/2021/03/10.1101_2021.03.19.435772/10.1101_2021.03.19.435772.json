@@ -1,0 +1,321 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.03.19.435772",
+  "title": "Machine learning prediction of Antibody-Antigen binding: dataset, method and testing",
+  "doi": "10.1101/2021.03.19.435772",
+  "abstract": "DNA sequencing technologies are providing new insights into the immune response by allowing the large scale sequencing of rearranged immunoglobulin gene present in an individual, however the applications of this approach are limited by the lack of methods for determining the antigen(s) that an immunoglobulin encoded by a given sequence binds to. Computational methods for predicting antibody-antigen interactions that leverage structure prediction and docking have been proposed, however these methods require knowledge of the 3D structures. As a step towards the development of a machine learning method suitable for predicting antibody-antigen binding affinities from sequence data, a weighted nearest neighbor machine learning approach was applied to the problem. A prediction program was coded in Python and evaluated using cross-validation on a dataset of 600 antibodies interacting with 50 antigens. The classification predicting accuracy was around 76% for this dataset. These results provide a useful frame of reference as well as protocols and considerations for machine learning and dataset creation in this area. Both the dataset (in csv format) and the machine learning program (coded in python) are freely available for download.",
+  "authors": [
+    "Chao Ye",
+    "Wenxing Hu",
+    "Bruno Gaeta"
+  ],
+  "published_date": "2021-03-20",
+  "updated_date": "2021-03-21T03:20:16Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.03.19.435772",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.03.19.435772.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            28
+          ]
+        ],
+        "date-time": "2026-08-28T04:09:11Z",
+        "timestamp": 1787890151911,
+        "version": "build-2784847793"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            20
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 18,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                3,
+                20
+              ]
+            ],
+            "date-time": "2021-03-20T00:00:00Z",
+            "timestamp": 1616198400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>DNA sequencing technologies are providing new insights into the immune response by allowing the large scale sequencing of rearranged immunoglobulin gene present in an individual, however the applications of this approach are limited by the lack of methods for determining the antigen(s) that an immunoglobulin encoded by a given sequence binds to. Computational methods for predicting antibody-antigen interactions that leverage structure prediction and docking have been proposed, however these methods require knowledge of the 3D structures.</jats:p>\n                <jats:p>As a step towards the development of a machine learning method suitable for predicting antibody-antigen binding affinities from sequence data, a weighted nearest neighbor machine learning approach was applied to the problem. A prediction program was coded in Python and evaluated using cross-validation on a dataset of 600 antibodies interacting with 50 antigens. The classification predicting accuracy was around 76% for this dataset. These results provide a useful frame of reference as well as protocols and considerations for machine learning and dataset creation in this area.</jats:p>\n                <jats:p>Both the dataset (in csv format) and the machine learning program (coded in python) are freely available for download.</jats:p>",
+      "DOI": "10.1101/2021.03.19.435772",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            21
+          ]
+        ],
+        "date-time": "2021-03-21T03:20:16Z",
+        "timestamp": 1616296816000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Machine learning prediction of Antibody-Antigen binding: dataset, method and testing"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Chao",
+          "family": "Ye",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wenxing",
+          "family": "Hu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bruno",
+          "family": "Gaeta",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024080516341367000_2021.03.19.435772v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/imr.12659"
+        },
+        {
+          "key": "2024080516341367000_2021.03.19.435772v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.coi.2016.03.008"
+        },
+        {
+          "key": "2024080516341367000_2021.03.19.435772v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2016.180"
+        },
+        {
+          "key": "2024080516341367000_2021.03.19.435772v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw458"
+        },
+        {
+          "issue": "7",
+          "key": "2024080516341367000_2021.03.19.435772v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0181490",
+          "DOI": "10.1371/journal.pone.0181490",
+          "article-title": "Assisted Design of Antibody and Protein Therapeutics (ADAPT)",
+          "volume": "12",
+          "year": "2017",
+          "journal-title": "PLoS ONE"
+        },
+        {
+          "issue": "2",
+          "key": "2024080516341367000_2021.03.19.435772v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "255",
+          "DOI": "10.1038/nprot.2016.169",
+          "article-title": "The ClusPro web server for protein-protein docking [J]",
+          "volume": "12",
+          "year": "2017",
+          "journal-title": "Nature Protocols"
+        },
+        {
+          "key": "2024080516341367000_2021.03.19.435772v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btg371"
+        },
+        {
+          "issue": "2",
+          "key": "2024080516341367000_2021.03.19.435772v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "392",
+          "DOI": "10.1002/prot.21117",
+          "article-title": "PIPER: an FFT-based protein docking program with pairwise potentials [J]",
+          "volume": "65",
+          "year": "2006",
+          "journal-title": "Proteins-structure Function & Bioinformatics"
+        },
+        {
+          "issue": "Web Server issue",
+          "key": "2024080516341367000_2021.03.19.435772v1.9",
+          "first-page": "96",
+          "article-title": "ClusPro: a fully automated algorithm for protein-protein docking [J]",
+          "volume": "32",
+          "year": "2004",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2024080516341367000_2021.03.19.435772v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1000644"
+        },
+        {
+          "key": "2024080516341367000_2021.03.19.435772v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkn216"
+        },
+        {
+          "key": "2024080516341367000_2021.03.19.435772v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0063906"
+        },
+        {
+          "key": "2024080516341367000_2021.03.19.435772v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/elps.1150181505"
+        },
+        {
+          "key": "2024080516341367000_2021.03.19.435772v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Krishna Praneeth Kilambi & Jeffrey J. Gray Structure-based cross-docking analysis of antibody-antigen interaction Scientific Reportsvolume 7, Article number: 8145 (2017)",
+          "DOI": "10.1038/s41598-017-08414-y"
+        },
+        {
+          "key": "2024080516341367000_2021.03.19.435772v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Raybould, M.I.J. , Kovaltsuk, A. , Marks, C. and Deane, C.M. (2020). CoV-AbDab: the coronavirus antibody database. Bioinformatics.",
+          "DOI": "10.1101/2020.05.15.077313"
+        },
+        {
+          "key": "2024080516341367000_2021.03.19.435772v1.16",
+          "first-page": "707",
+          "article-title": "Binary Codes Capable of Correcting Deletions, Insertions and Reversals",
+          "volume": "10",
+          "year": "1966",
+          "journal-title": "Soviet Physics Doklady"
+        },
+        {
+          "key": "2024080516341367000_2021.03.19.435772v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.89.22.10915"
+        },
+        {
+          "issue": "3",
+          "key": "2024080516341367000_2021.03.19.435772v1.18",
+          "first-page": "806",
+          "article-title": "Antibody-specific model of amino acid substitution for immunological inferences from alignments of antibody sequences",
+          "volume": "32",
+          "year": "2014",
+          "journal-title": "Mol Biol Evol"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.03.19.435772",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:28:20Z",
+        "timestamp": 1768440500000
+      },
+      "score": 96.16671,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.03.19.435772"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            20
+          ]
+        ]
+      },
+      "references-count": 18,
+      "URL": "https://doi.org/10.1101/2021.03.19.435772",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

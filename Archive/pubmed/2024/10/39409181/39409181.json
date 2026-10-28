@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "39409181",
+    "doi": "10.3390/ijms251910855",
+    "title": "Leonurine Inhibits Hepatic Lipid Synthesis to Ameliorate NAFLD via the ADRA1a/AMPK/SCD1 Axis."
+  },
+  "content": {
+    "abstract": "Leonurine is a natural product unique to the Lamiaceae plant Leonurus japonicus Houtt., and it has attracted attention due to its anti-oxidative stress, anti-apoptosis, anti-fibrosis, and metabolic regulation properties. Also, it plays an important role in the prevention and treatment of nonalcoholic fatty liver disease (NAFLD) through a variety of biological mechanisms, but its mechanism of action remains to be elucidated. Therefore, this study aims to preliminarily explore the mechanisms of action of leonurine in NAFLD. Mice were randomly divided into four groups: the normal control (NC) group, the Model (M) group, the leonurine treatment (LH) group, and the fenofibrate treatment (FB) group. The NAFLD model was induced by a high-fat high-sugar diet (HFHSD) for 12 weeks, and liver pathological changes and biochemical indices were observed after 12 weeks. Transcriptomic analysis results indicated that leonurine intervention reversed the high-fat high-sugar diet-induced changes in lipid metabolism-related genes such as stearoyl-CoA desaturase 1 (Scd1), Spermine Synthase (Sms), AP-1 Transcription Factor Subunit (Fos), Oxysterol Binding Protein Like 5 (Osbpl5), and FK506 binding protein 5 (Fkbp5) in liver tissues. Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis results suggest that leonurine may exert its lipid-lowering effects through the AMP-activated protein kinase (AMPK) signaling pathway. Liver lipidomic analysis showed that leonurine could alter the abundance of lipid molecules related to fatty acyl (FAs) and glycerophospholipids (GPs) such as TxB3, carnitine C12-OH, carnitine C18:1-OH, and LPC (20:3/0:0). Molecular biology experiments and molecular docking techniques verified that leonurine might improve hepatic lipid metabolism through the alpha-1A adrenergic receptor (ADRA1a)/AMPK/SCD1 axis. In summary, the present study explored the mechanism by which leonurine ameliorated NAFLD by inhibiting hepatic lipid synthesis via the ADRA1a/AMPK/SCD1 axis.",
+    "keywords": [
+      "ADRA1a/AMPK/SCD1 axis",
+      "leonurine",
+      "lipid metabolism",
+      "lipidomic",
+      "nonalcoholic fatty liver disease",
+      "transcriptomic"
+    ],
+    "mesh_terms": [
+      "*Non-alcoholic Fatty Liver Disease/drug therapy/metabolism/etiology/pathology",
+      "Animals",
+      "Mice",
+      "*Gallic Acid/analogs & derivatives/pharmacology",
+      "*Stearoyl-CoA Desaturase/metabolism/genetics",
+      "*AMP-Activated Protein Kinases/metabolism",
+      "*Lipid Metabolism/drug effects",
+      "*Liver/metabolism/drug effects/pathology",
+      "Male",
+      "Diet, High-Fat/adverse effects",
+      "Lipogenesis/drug effects",
+      "Signal Transduction/drug effects",
+      "Mice, Inbred C57BL",
+      "Disease Models, Animal"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Wen",
+        "Pan, Maoxing",
+        "Zheng, Chuiyang",
+        "Shen, Haiyan",
+        "Pi, Dajin",
+        "Song, Qingliang",
+        "Liang, Zheng",
+        "Zhen, Jianwei",
+        "Pan, Jinyue",
+        "Liu, Lianghao",
+        "Yang, Qinhe",
+        "Zhang, Yupei"
+      ],
+      "short_names": [
+        "Fan W",
+        "Pan M",
+        "Zheng C",
+        "Shen H",
+        "Pi D",
+        "Song Q",
+        "Liang Z",
+        "Zhen J",
+        "Pan J",
+        "Liu L",
+        "Yang Q",
+        "Zhang Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-3488-2141",
+        "ORCID: 0000-0001-8837-1313"
+      ],
+      "affiliations": [
+        "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China.",
+        "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China.",
+        "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China.",
+        "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China.",
+        "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China.",
+        "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China.",
+        "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China.",
+        "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China.",
+        "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China.",
+        "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China.",
+        "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China.",
+        "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Wen",
+        "short_name": "Fan W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Maoxing",
+        "short_name": "Pan M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Chuiyang",
+        "short_name": "Zheng C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Haiyan",
+        "short_name": "Shen H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China."
+        ]
+      },
+      {
+        "full_name": "Pi, Dajin",
+        "short_name": "Pi D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China."
+        ]
+      },
+      {
+        "full_name": "Song, Qingliang",
+        "short_name": "Song Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Zheng",
+        "short_name": "Liang Z",
+        "identifiers": [
+          "0009-0004-3488-2141"
+        ],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China."
+        ]
+      },
+      {
+        "full_name": "Zhen, Jianwei",
+        "short_name": "Zhen J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Jinyue",
+        "short_name": "Pan J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Lianghao",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Qinhe",
+        "short_name": "Yang Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yupei",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0001-8837-1313"
+        ],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Jinan University, Guangzhou 510632, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 Oct 9",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/16 10:18",
+    "fetched_at": "2026-09-30 04:26:09"
+  },
+  "links": {
+    "cites": [
+      "42687819",
+      "42591168",
+      "41788811",
+      "41383472",
+      "41227404",
+      "40873177",
+      "40727101",
+      "40202674",
+      "40076875",
+      "39866478"
+    ],
+    "refs": [
+      "38492843",
+      "37984123",
+      "37248852",
+      "36932227",
+      "36626630",
+      "36555127",
+      "36529278",
+      "36366750",
+      "36072867",
+      "35438043",
+      "35322811",
+      "35253649",
+      "35178990",
+      "34980215",
+      "34706275",
+      "34063217",
+      "33894145",
+      "33296645",
+      "32715369",
+      "32207804",
+      "31548878",
+      "31389309",
+      "31119169",
+      "31075413",
+      "31069695",
+      "31049523",
+      "30618759",
+      "30605676",
+      "30158201",
+      "29879659",
+      "29709897",
+      "29706567",
+      "29530061",
+      "29295591",
+      "28974774",
+      "28232179",
+      "26629955",
+      "26481476",
+      "26064924",
+      "24997500",
+      "24566853",
+      "24412548",
+      "23787165",
+      "23127783",
+      "22840690",
+      "20874679",
+      "20713121",
+      "19862476",
+      "19499576",
+      "19038363",
+      "18216768",
+      "16505231",
+      "12939593",
+      "11533051",
+      "10947170",
+      "1976328"
+    ],
+    "similar": [
+      "39409181",
+      "31226399",
+      "26035386",
+      "31832001",
+      "34073834",
+      "32884949",
+      "38588984",
+      "30621686",
+      "37562090",
+      "30145577",
+      "32579753",
+      "28638220",
+      "32630596",
+      "33037652",
+      "36610145",
+      "31558861",
+      "33474802",
+      "29295591",
+      "31280138",
+      "31519174",
+      "29542003",
+      "31301418",
+      "33341045",
+      "30235452",
+      "39193572",
+      "34224699",
+      "28982243",
+      "25737164",
+      "30572631",
+      "33989817",
+      "29101357",
+      "34999396",
+      "28514835",
+      "32289432",
+      "26670228",
+      "21970804",
+      "36641101",
+      "35945571",
+      "39415220",
+      "34426119",
+      "30668392",
+      "37580962",
+      "32171530",
+      "24362075",
+      "35907871",
+      "30868489",
+      "38184503",
+      "33204402",
+      "29574225",
+      "26970305",
+      "29702089",
+      "29414781",
+      "32035613",
+      "33290156",
+      "27349145",
+      "38788791",
+      "38647315",
+      "34592488",
+      "31858105",
+      "29156529",
+      "37010930",
+      "32705195",
+      "27343380",
+      "32324591",
+      "23994574",
+      "30537674",
+      "31690632",
+      "31576092",
+      "32346285",
+      "38892467",
+      "23702383",
+      "31472955",
+      "38394735",
+      "37049884",
+      "25310357",
+      "33411880",
+      "31083505",
+      "32666969",
+      "36724639",
+      "35280674",
+      "29290651",
+      "32228319",
+      "36677577",
+      "36752274",
+      "34734090",
+      "31195981",
+      "32121602",
+      "35621963",
+      "28241817",
+      "39098464",
+      "30675881",
+      "38850668",
+      "32996649",
+      "31113010",
+      "30668424",
+      "27208776",
+      "31505325",
+      "28851735",
+      "24918580",
+      "24927063"
+    ],
+    "review": [
+      "39409181",
+      "23994574"
+    ],
+    "pmc": [
+      "11476755"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms251910855",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/steatoticliverdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Steatotic Liver Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39409181/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FAS-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-506",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

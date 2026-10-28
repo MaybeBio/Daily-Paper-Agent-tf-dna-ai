@@ -1,0 +1,485 @@
+{
+  "identity": {
+    "pmid": "36462188",
+    "doi": "10.1093/sleep/zsac279",
+    "title": "Integration of genome-scale data identifies candidate sleep regulators."
+  },
+  "content": {
+    "abstract": "STUDY OBJECTIVES: Genetics impacts sleep, yet, the molecular mechanisms underlying sleep regulation remain elusive. In this study, we built machine learning models to predict sleep genes based on their similarity to genes that are known to regulate sleep. METHODS: We trained a prediction model on thousands of published datasets, representing circadian, immune, sleep deprivation, and many other processes, using a manually curated list of 109 sleep genes. RESULTS: Our predictions fit with prior knowledge of sleep regulation and identified key genes and pathways to pursue in follow-up studies. As an example, we focused on the NF-kappaB pathway and showed that chronic activation of NF-kappaB in a genetic mouse model impacted the sleep-wake patterns. CONCLUSION: Our study highlights the power of machine learning in integrating prior knowledge and genome-wide data to study genetic regulation of complex behaviors such as sleep.",
+    "keywords": [
+      "genetics",
+      "genome-scale data integration",
+      "machine learning",
+      "sleep regulation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "Circadian Rhythm/genetics",
+      "Gene Expression Regulation",
+      "*NF-kappa B/genetics",
+      "*Sleep/genetics/physiology",
+      "Sleep Deprivation/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Yin Yeng",
+        "Endale, Mehari",
+        "Wu, Gang",
+        "Ruben, Marc D",
+        "Francey, Lauren J",
+        "Morris, Andrew R",
+        "Choo, Natalie Y",
+        "Anafi, Ron C",
+        "Smith, David F",
+        "Liu, Andrew C",
+        "Hogenesch, John B"
+      ],
+      "short_names": [
+        "Lee YY",
+        "Endale M",
+        "Wu G",
+        "Ruben MD",
+        "Francey LJ",
+        "Morris AR",
+        "Choo NY",
+        "Anafi RC",
+        "Smith DF",
+        "Liu AC",
+        "Hogenesch JB"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8092-3926",
+        "ORCID: 0000-0002-4526-2034",
+        "ORCID: 0000-0002-0048-4012",
+        "ORCID: 0000-0003-1927-0900"
+      ],
+      "affiliations": [
+        "Divisions of Human Genetics and Immunobiology, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, 45229, USA.",
+        "Department of Pharmacology and Systems Physiology, University of Cincinnati College of Medicine, Cincinnati, OH 45229, USA.",
+        "Department of Physiology and Aging, University of Florida College of Medicine, Gainesville, FL 32610, USA.",
+        "Divisions of Human Genetics and Immunobiology, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, 45229, USA.",
+        "Divisions of Human Genetics and Immunobiology, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, 45229, USA.",
+        "Divisions of Human Genetics and Immunobiology, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, 45229, USA.",
+        "Department of Physiology and Aging, University of Florida College of Medicine, Gainesville, FL 32610, USA.",
+        "Division of Pediatric Otolaryngology-Head and Neck Surgery, Cincinnati Children's Hospital Medical Center, Cincinnati, OH 45229, USA.",
+        "Department of Medicine, Chronobiology and Sleep Institute, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Division of Pediatric Otolaryngology-Head and Neck Surgery, Cincinnati Children's Hospital Medical Center, Cincinnati, OH 45229, USA.",
+        "Division of Pulmonary Medicine and the Sleep Center, Cincinnati Children's Hospital Medical Center, Cincinnati, OH 45229, USA.",
+        "Center for Circadian Medicine, Cincinnati Children's Hospital Medical Center, Cincinnati, OH 45229, USA.",
+        "Department of Otolaryngology - Head and Neck Surgery, University of Cincinnati College of Medicine, Cincinnati, OH 45229, USA.",
+        "Department of Physiology and Aging, University of Florida College of Medicine, Gainesville, FL 32610, USA.",
+        "Divisions of Human Genetics and Immunobiology, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, 45229, USA.",
+        "Center for Circadian Medicine, Cincinnati Children's Hospital Medical Center, Cincinnati, OH 45229, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Yin Yeng",
+        "short_name": "Lee YY",
+        "identifiers": [
+          "0000-0002-8092-3926"
+        ],
+        "affiliations": [
+          "Divisions of Human Genetics and Immunobiology, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, 45229, USA.",
+          "Department of Pharmacology and Systems Physiology, University of Cincinnati College of Medicine, Cincinnati, OH 45229, USA."
+        ]
+      },
+      {
+        "full_name": "Endale, Mehari",
+        "short_name": "Endale M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Aging, University of Florida College of Medicine, Gainesville, FL 32610, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Gang",
+        "short_name": "Wu G",
+        "identifiers": [
+          "0000-0002-4526-2034"
+        ],
+        "affiliations": [
+          "Divisions of Human Genetics and Immunobiology, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, 45229, USA."
+        ]
+      },
+      {
+        "full_name": "Ruben, Marc D",
+        "short_name": "Ruben MD",
+        "identifiers": [],
+        "affiliations": [
+          "Divisions of Human Genetics and Immunobiology, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, 45229, USA."
+        ]
+      },
+      {
+        "full_name": "Francey, Lauren J",
+        "short_name": "Francey LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Divisions of Human Genetics and Immunobiology, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, 45229, USA."
+        ]
+      },
+      {
+        "full_name": "Morris, Andrew R",
+        "short_name": "Morris AR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Aging, University of Florida College of Medicine, Gainesville, FL 32610, USA."
+        ]
+      },
+      {
+        "full_name": "Choo, Natalie Y",
+        "short_name": "Choo NY",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Otolaryngology-Head and Neck Surgery, Cincinnati Children's Hospital Medical Center, Cincinnati, OH 45229, USA."
+        ]
+      },
+      {
+        "full_name": "Anafi, Ron C",
+        "short_name": "Anafi RC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Chronobiology and Sleep Institute, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Smith, David F",
+        "short_name": "Smith DF",
+        "identifiers": [
+          "0000-0002-0048-4012"
+        ],
+        "affiliations": [
+          "Division of Pediatric Otolaryngology-Head and Neck Surgery, Cincinnati Children's Hospital Medical Center, Cincinnati, OH 45229, USA.",
+          "Division of Pulmonary Medicine and the Sleep Center, Cincinnati Children's Hospital Medical Center, Cincinnati, OH 45229, USA.",
+          "Center for Circadian Medicine, Cincinnati Children's Hospital Medical Center, Cincinnati, OH 45229, USA.",
+          "Department of Otolaryngology - Head and Neck Surgery, University of Cincinnati College of Medicine, Cincinnati, OH 45229, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Andrew C",
+        "short_name": "Liu AC",
+        "identifiers": [
+          "0000-0003-1927-0900"
+        ],
+        "affiliations": [
+          "Department of Physiology and Aging, University of Florida College of Medicine, Gainesville, FL 32610, USA."
+        ]
+      },
+      {
+        "full_name": "Hogenesch, John B",
+        "short_name": "Hogenesch JB",
+        "identifiers": [],
+        "affiliations": [
+          "Divisions of Human Genetics and Immunobiology, Department of Pediatrics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, 45229, USA.",
+          "Center for Circadian Medicine, Cincinnati Children's Hospital Medical Center, Cincinnati, OH 45229, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Sleep"
+    ],
+    "journal_abbrev": [
+      "Sleep"
+    ],
+    "pub_date": "2023 Feb 8",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/04 06:00",
+    "fetched_at": "2026-09-28 16:58:39"
+  },
+  "links": {
+    "cites": [
+      "41963146",
+      "41074266",
+      "39347483",
+      "38919616",
+      "38629438",
+      "38288298",
+      "38065634",
+      "36422063"
+    ],
+    "refs": [
+      "35149761",
+      "34807912",
+      "33188746",
+      "33070389",
+      "33065013",
+      "32851972",
+      "32851175",
+      "32396837",
+      "32386536",
+      "32351543",
+      "32165711",
+      "31776259",
+      "31665515",
+      "31619542",
+      "31601740",
+      "31601739",
+      "31473062",
+      "31409809",
+      "31031659",
+      "30920354",
+      "30846698",
+      "30804566",
+      "30804565",
+      "30742884",
+      "30705188",
+      "30696823",
+      "30467459",
+      "30380102",
+      "30366905",
+      "30209245",
+      "30157420",
+      "30091978",
+      "29899451",
+      "29891550",
+      "29240764",
+      "29184056",
+      "29022597",
+      "28439010",
+      "28388406",
+      "28283022",
+      "28231463",
+      "28086098",
+      "27806374",
+      "27708309",
+      "27510422",
+      "27378304",
+      "27374120",
+      "27131783",
+      "26996081",
+      "26903630",
+      "26762182",
+      "26578587",
+      "26417606",
+      "26361389",
+      "25948244",
+      "25662449",
+      "25637807",
+      "25613900",
+      "25605792",
+      "25349387",
+      "25083019",
+      "25083013",
+      "24870542",
+      "24846773",
+      "24737000",
+      "24259429",
+      "23193282",
+      "23180795",
+      "23110975",
+      "22891766",
+      "22391450",
+      "22253230",
+      "21784243",
+      "21546393",
+      "20935057",
+      "20023653",
+      "19679812",
+      "19617891",
+      "19342593",
+      "19131956",
+      "18635795",
+      "18405376",
+      "18267068",
+      "17716597",
+      "17580594",
+      "17557450",
+      "16793936",
+      "16782029",
+      "16680138",
+      "16381927",
+      "15858564",
+      "15800623",
+      "15075390",
+      "12553906",
+      "11752295",
+      "11232563",
+      "7832296",
+      "1346338"
+    ],
+    "similar": [
+      "36462188",
+      "12486704",
+      "22976546",
+      "31776259",
+      "26059855",
+      "18419317",
+      "27801296",
+      "20689154",
+      "23562184",
+      "28444394",
+      "26527095",
+      "11744682",
+      "27413249",
+      "12015603",
+      "20299255",
+      "28360128",
+      "18614689",
+      "26612390",
+      "22532843",
+      "11050136",
+      "17425220",
+      "19473235",
+      "25325477",
+      "25223586",
+      "10362764",
+      "26168277",
+      "16954408",
+      "19553435",
+      "16171284",
+      "25197809",
+      "24446504",
+      "16859185",
+      "23450268",
+      "23738906",
+      "25435215",
+      "30690224",
+      "28738082",
+      "34895464",
+      "22849821",
+      "24477387",
+      "26564124",
+      "25772847",
+      "20120617",
+      "32061938",
+      "35216763",
+      "25581923",
+      "33647263",
+      "15191924",
+      "30050989",
+      "16793936",
+      "12383246",
+      "28364486",
+      "10667450",
+      "21442875",
+      "24577121",
+      "32726319",
+      "12700105",
+      "28977444",
+      "29109033",
+      "24439663",
+      "30009381",
+      "17969864",
+      "32785281",
+      "24082304",
+      "18028544",
+      "19428616",
+      "23322906",
+      "24338665",
+      "17639784",
+      "16269313",
+      "16279936",
+      "15817324",
+      "30091978",
+      "29395381",
+      "22634208",
+      "22922941",
+      "18983259",
+      "11306614",
+      "19005045",
+      "19713847",
+      "16979429",
+      "17903308",
+      "10700548",
+      "28778228",
+      "27148829",
+      "15858564",
+      "26512752",
+      "29982088",
+      "22947657",
+      "26518594",
+      "18077435",
+      "27494321",
+      "21056223"
+    ],
+    "review": [
+      "36462188",
+      "12486704",
+      "22976546",
+      "26059855",
+      "18419317",
+      "11744682",
+      "20299255",
+      "28360128",
+      "19473235",
+      "16859185",
+      "22849821",
+      "24477387",
+      "32061938",
+      "35216763",
+      "33647263",
+      "28364486",
+      "10667450",
+      "21442875",
+      "12700105",
+      "28977444",
+      "17969864",
+      "24338665",
+      "16269313",
+      "16279936",
+      "29395381",
+      "18983259",
+      "19005045",
+      "19713847",
+      "16979429",
+      "28778228"
+    ],
+    "pmc": [
+      "9905783"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.informatics.jax.org/reference/36462188",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/36462188.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36462188/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36462188",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/sleep/article-lookup/doi/10.1093/sleep/zsac279",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

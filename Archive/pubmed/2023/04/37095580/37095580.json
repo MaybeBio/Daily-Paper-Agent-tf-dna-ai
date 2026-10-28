@@ -1,0 +1,483 @@
+{
+  "identity": {
+    "pmid": "37095580",
+    "doi": "10.1186/s13059-023-02916-x",
+    "title": "A graph neural network-based interpretable framework reveals a novel DNA fragility-associated chromatin structural unit."
+  },
+  "content": {
+    "abstract": "BACKGROUND: DNA double-strand breaks (DSBs) are among the most deleterious DNA lesions, and they can cause cancer if improperly repaired. Recent chromosome conformation capture techniques, such as Hi-C, have enabled the identification of relationships between the 3D chromatin structure and DSBs, but little is known about how to explain these relationships, especially from global contact maps, or their contributions to DSB formation. RESULTS: Here, we propose a framework that integrates graph neural network (GNN) to unravel the relationship between 3D chromatin structure and DSBs using an advanced interpretable technique GNNExplainer. We identify a new chromatin structural unit named the DNA fragility-associated chromatin interaction network (FaCIN). FaCIN is a bottleneck-like structure, and it helps to reveal a universal form of how the fragility of a piece of DNA might be affected by the whole genome through chromatin interactions. Moreover, we demonstrate that neck interactions in FaCIN can serve as chromatin structural determinants of DSB formation. CONCLUSIONS: Our study provides a more systematic and refined view enabling a better understanding of the mechanisms of DSB formation under the context of the 3D genome.",
+    "keywords": [
+      "3D chromatin structure",
+      "DSB",
+      "Graph neural network",
+      "Interpretability"
+    ],
+    "mesh_terms": [
+      "*Chromatin",
+      "*DNA Repair",
+      "DNA",
+      "DNA Breaks, Double-Stranded",
+      "DNA-Binding Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Yu",
+        "Xu, Xiang",
+        "Lin, Lin",
+        "Xu, Kang",
+        "Zheng, Yang",
+        "Ren, Chao",
+        "Tao, Huan",
+        "Wang, Xu",
+        "Zhao, Huan",
+        "Tu, Weiwei",
+        "Bai, Xuemei",
+        "Wang, Junting",
+        "Huang, Qiya",
+        "Li, Yaru",
+        "Chen, Hebing",
+        "Li, Hao",
+        "Bo, Xiaochen"
+      ],
+      "short_names": [
+        "Sun Y",
+        "Xu X",
+        "Lin L",
+        "Xu K",
+        "Zheng Y",
+        "Ren C",
+        "Tao H",
+        "Wang X",
+        "Zhao H",
+        "Tu W",
+        "Bai X",
+        "Wang J",
+        "Huang Q",
+        "Li Y",
+        "Chen H",
+        "Li H",
+        "Bo X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9464-1372"
+      ],
+      "affiliations": [
+        "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China.",
+        "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China.",
+        "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China.",
+        "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China.",
+        "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China.",
+        "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China.",
+        "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China.",
+        "4Paradigm Inc, Beijing, China.",
+        "4Paradigm Inc, Beijing, China.",
+        "4Paradigm Inc, Beijing, China.",
+        "The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, China.",
+        "The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, China.",
+        "State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.",
+        "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China.",
+        "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China. chb-1012@163.com.",
+        "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China. lihao_thu@163.com.",
+        "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China. boxiaoc@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Yu",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiang",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Lin",
+        "short_name": "Lin L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Kang",
+        "short_name": "Xu K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yang",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Chao",
+        "short_name": "Ren C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Huan",
+        "short_name": "Tao H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "4Paradigm Inc, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Huan",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "4Paradigm Inc, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Tu, Weiwei",
+        "short_name": "Tu W",
+        "identifiers": [],
+        "affiliations": [
+          "4Paradigm Inc, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Xuemei",
+        "short_name": "Bai X",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Junting",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Harbin Medical University, Harbin, 150001, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Qiya",
+        "short_name": "Huang Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yaru",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hebing",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China. chb-1012@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Hao",
+        "short_name": "Li H",
+        "identifiers": [
+          "0000-0002-9464-1372"
+        ],
+        "affiliations": [
+          "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China. lihao_thu@163.com."
+        ]
+      },
+      {
+        "full_name": "Bo, Xiaochen",
+        "short_name": "Bo X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Health Service and Transfusion Medicine, Beijing, 100850, China. boxiaoc@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2023 Apr 24",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/25 00:41",
+    "fetched_at": "2026-09-28 23:34:23"
+  },
+  "links": {
+    "cites": [
+      "42136817",
+      "41555433",
+      "41310905",
+      "40586163",
+      "39910043",
+      "39478146",
+      "39441076",
+      "39013885",
+      "38935071",
+      "38658791",
+      "37673975"
+    ],
+    "refs": [
+      "35934594",
+      "34980897",
+      "34108684",
+      "33953379",
+      "33848455",
+      "33597753",
+      "33077885",
+      "32710624",
+      "32647330",
+      "32265580",
+      "32232911",
+      "31740966",
+      "31645724",
+      "31618627",
+      "31263220",
+      "31202576",
+      "31110352",
+      "30778174",
+      "30736820",
+      "30367165",
+      "30202056",
+      "29544533",
+      "28735753",
+      "28704353",
+      "28561034",
+      "28497783",
+      "27708356",
+      "27649880",
+      "27525976",
+      "27211488",
+      "27053337",
+      "26544937",
+      "26415882",
+      "26276636",
+      "26245832",
+      "25693564",
+      "25513782",
+      "25497547",
+      "24614316",
+      "23536826",
+      "23503052",
+      "23246437",
+      "22955616",
+      "22941365",
+      "22576172",
+      "22495300",
+      "19890323",
+      "19847258",
+      "19815776",
+      "11242102",
+      "11048728",
+      "1497310"
+    ],
+    "similar": [
+      "37095580",
+      "21036673",
+      "23948232",
+      "32908893",
+      "22666473",
+      "31818467",
+      "31401119",
+      "28847819",
+      "17178837",
+      "20144732",
+      "15162010",
+      "19390086",
+      "23950729",
+      "28847822",
+      "25675367",
+      "26040249",
+      "21664912",
+      "36834658",
+      "24651490",
+      "17320375",
+      "34068283",
+      "17713585",
+      "17486112",
+      "25463437",
+      "31476573",
+      "21212734",
+      "20714222",
+      "24891506",
+      "32840769",
+      "27745971",
+      "29956296",
+      "22328517",
+      "30270107",
+      "21342792",
+      "22002603",
+      "20016273",
+      "21552545",
+      "20442295",
+      "36125964",
+      "23498941",
+      "26245832",
+      "24023853",
+      "23919923",
+      "27257076",
+      "23122415",
+      "17850903",
+      "29018219",
+      "22260685",
+      "23974106",
+      "18657500",
+      "27820601",
+      "21660690",
+      "22031019",
+      "32784607",
+      "31645724",
+      "28847817",
+      "30357385",
+      "28525744",
+      "32482713",
+      "25547252",
+      "18076285",
+      "34266628",
+      "30394812",
+      "31882194",
+      "19380488",
+      "19442252",
+      "19576233",
+      "35205260",
+      "24754998",
+      "27474442",
+      "16721046",
+      "30798938",
+      "23454236",
+      "17689960",
+      "20157594",
+      "34458909",
+      "15843385",
+      "17082765",
+      "35857772",
+      "16508680",
+      "19365581",
+      "30049456",
+      "19682466",
+      "26034280",
+      "28202543",
+      "19164567",
+      "18157161",
+      "25960340",
+      "20422424",
+      "18951175",
+      "30558210",
+      "39363891"
+    ],
+    "review": [
+      "37095580",
+      "21036673",
+      "23948232",
+      "32908893",
+      "31401119",
+      "28847819",
+      "20144732",
+      "15162010",
+      "28847822",
+      "26040249",
+      "21664912",
+      "36834658",
+      "17320375",
+      "34068283",
+      "17713585",
+      "25463437",
+      "31476573",
+      "21212734",
+      "29956296",
+      "23498941",
+      "23919923",
+      "22260685",
+      "32784607",
+      "28847817",
+      "32482713",
+      "30394812",
+      "19576233",
+      "35205260",
+      "24754998",
+      "30798938",
+      "15843385",
+      "19682466",
+      "18157161",
+      "25960340"
+    ],
+    "pmc": [
+      "10124043"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02916-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37095580/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37095580",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse78172",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

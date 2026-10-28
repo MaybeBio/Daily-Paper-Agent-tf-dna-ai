@@ -1,0 +1,116 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, background, results, discussion, methods, figure legends) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the proposed method, its validation, and its presentation. No assessment of code functionality beyond what is described in the text.
+- **Shared manuscript claim summary** The authors present CaiNet, a modular simulation and inference framework for gene regulatory networks (GRNs). The core idea is to decouple network elements during small time intervals and synchronize molecule numbers across elements at interval boundaries. This allows local analytical or stochastic solutions to be used for each element. The authors claim that this approach (1) approximates deterministic ODE solutions when all elements are treated deterministically, (2) approximates Gillespie simulations when stochasticity is included for gene switching and birth/death events, (3) reproduces noise-induced bi-stability and oscillations in GRNs, (4) supports deterministic delays, and (5) enables inference of network topology and steady-state parameters via a neural-network-inspired gradient descent method.
+- **Visible evidence base** Main text with equations, figure legends, and references to supplementary tables (S1-S5). No actual figures, supplementary files, or code were provided for inspection.
+- **Missing materials affecting confidence** Figures (1-6) and all supplementary tables (S1-S5) are referenced but not included. The software implementation (CaiNet) is not provided for testing. No benchmark comparisons against existing tools are shown. The inference method is demonstrated only on simulated data, with no experimental validation.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful modular approach for simulating GRNs with mixed deterministic and stochastic elements. The idea of decoupling elements and synchronizing at fixed intervals is not entirely new but is applied here in a systematic way with analytical solutions for common promoter architectures and biochemical reactions. The main strengths are the conceptual simplicity, the ability to mix deterministic and stochastic treatments, and the integration of simulation with inference. However, the validation is limited to a small set of synthetic examples, and several technical details are either missing or not fully justified. The claim that the method "approximates" Gillespie simulations is supported only by qualitative visual comparisons (figures not available for review). The inference section is a proof-of-concept with no comparison to existing methods and no analysis of scalability or robustness. The manuscript would benefit from a more rigorous error analysis, a broader set of test cases, and a clearer statement of limitations.
+- **Who would be interested in the results, and why** Researchers in systems biology and computational biology who need practical tools for simulating GRNs with stochastic effects, especially those studying noise-induced phenomena such as bi-stability and oscillations. The inference capability may interest researchers seeking to estimate parameters from steady-state data. The modular design and GUI may appeal to experimentalists who want a user-friendly tool for model building.
+- **Major strengths**
+  1. The modular decoupling approach is conceptually clear and could offer computational advantages over full Gillespie simulations for large networks.
+  2. The ability to incrementally add stochastic detail (deterministic → gene switching → birth/death) is a useful feature for exploratory modeling.
+  3. The integration of simulation and inference in a single framework is valuable.
+  4. The provision of analytical solutions for common promoter motifs and reactions is a practical contribution.
+  5. The software is freely available, which supports reproducibility and community adoption.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CaiNet "approximates the solution of a Gillespie simulation" when stochastic gene switching and birth/death events are included (Results, Scenario 3).
+  - **Evidence pointer** Figure 2g, 2i, 2j; Figure 5b, 5d; Methods section "Simulation of the negative feedback cascade".
+  - **Concern** The validation of the stochastic version of CaiNet against Gillespie simulations is presented only through visual comparisons of time traces and histograms. No quantitative error metrics (e.g., mean squared error, Kolmogorov-Smirnov test, relative error in variance) are provided. The claim of "good agreement" is therefore not rigorously supported. Moreover, the Gillespie simulation is described as "specifically written and optimized" for the test networks, which raises a question of fairness in the comparison. The authors should provide quantitative measures of agreement and discuss the conditions under which the approximation is expected to hold (e.g., time step size, reaction rates, molecule numbers).
+  - **Why it matters** The central claim of the paper is that CaiNet can approximate stochastic simulations. Without quantitative validation, the reader cannot assess the accuracy or reliability of the method, which is critical for its adoption.
+  - **Resolution test** Provide quantitative comparisons (e.g., error in mean, variance, and autocorrelation) between CaiNet and Gillespie simulations for the test networks, across a range of time step sizes and parameter values. Show that the error decreases as the time step decreases and discuss the computational cost trade-off.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the modular approach "enables simulating different scenarios with increasing level of stochastic detail, ranging from an approximate solution of the system of deterministic differential equations associated with the GRN to an approximate solution of the corresponding stochastic chemical master equations."
+  - **Evidence pointer** Results, Scenario 1 (Figure 2c); Methods, "Pseudo code of network simulations by CaiNet".
+  - **Concern** The convergence of the deterministic version of CaiNet to the ODE solution is shown for a single test case (repressive cascade) and for a biochemical reaction network. The authors state that "if Δt was sufficiently small, the approximation of CaiNet approached the global solution of the associated system of ODEs." However, no formal error analysis is provided. The choice of time step is left to the user, and the manuscript does not provide guidance on how to select it or how to verify convergence. This is a significant practical limitation.
+  - **Why it matters** Users need to know how to choose the synchronization time step to obtain reliable results. Without error bounds or convergence criteria, the method may be used incorrectly, leading to inaccurate conclusions.
+  - **Resolution test** Provide a formal error analysis (e.g., local truncation error, global error bounds) for the modular approach. Include a practical guideline for time step selection, possibly based on the fastest rate in the system. Demonstrate convergence for a range of test problems.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "CaiNet is able to reproduce noise-induced bi-stability and oscillations in dynamically complex GRNs."
+  - **Evidence pointer** Figure 5b, 5d; Methods, "Noise-induced bi-stability and oscillations".
+  - **Concern** The two test networks used to demonstrate bi-stability and oscillations are relatively simple (single gene with positive or negative autoregulation). While these are relevant motifs, the claim of "dynamically complex GRNs" is not supported by the examples. The authors should test the method on larger, more complex networks, or temper the claim.
+  - **Why it matters** The broader applicability of the method to complex GRNs is a key selling point. The current evidence is insufficient to support this claim.
+  - **Resolution test** Apply CaiNet to a larger GRN (e.g., a published benchmark model with multiple feedback loops and cross-talk) and compare its performance to Gillespie simulations. Show that the method scales and remains accurate.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the inference method "recovers the network topology and the network parameters well" for networks of up to 10 genes.
+  - **Evidence pointer** Figure 6f; Results, "Inference of GRNs with a neural network approach".
+  - **Concern** The inference results are presented as a single figure (not available for review) with a reported false positive fraction of ~20% and true positive fraction of ~90%. The relative error in equilibrium constants is reported as ~1%. However, no details are given on the distribution of these errors, the sensitivity to initial conditions, the number of training iterations, or the computational cost. The method is not compared to any existing inference approach. The choice of training data (all single-gene knockouts) is a strong assumption that may not hold in practice.
+  - **Why it matters** The inference capability is a major contribution of the paper. Without a thorough evaluation, the reader cannot judge its practical utility.
+  - **Resolution test** Provide a more detailed analysis of the inference method, including error distributions, convergence behavior, sensitivity to initial guesses, and a comparison to at least one existing inference method. Discuss the assumptions and limitations of the approach.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The authors state that "CaiNet is designed to assist users in setting up and simulating complex GRNs at molecular detail."
+  - **Evidence pointer** Results, "Setup of GRNs with the graphical user interface of CaiNet"; Discussion.
+  - **Concern** The manuscript is written in a style that is likely accessible to computational biologists but may be challenging for experimental biologists who are potential users. The GUI is described, but no screenshots or user walkthroughs are provided. The manuscript would benefit from a clearer explanation of the user workflow and the types of biological questions that can be addressed.
+  - **Why it matters** The stated goal is to provide a user-friendly tool. The manuscript should demonstrate this usability.
+  - **Resolution test** Include a figure showing the GUI with a step-by-step example of setting up a simple GRN. Add a section in the Discussion that explicitly addresses the target user and provides a typical use case.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, Results
+  - **Issue** The abstract is dense and uses technical terms (e.g., "periodic synchronization") without defining them. The phrase "periodic synchronization of isolated network elements" is not immediately clear.
+  - **Required correction** Consider rephrasing the abstract to be more accessible, e.g., "We present a method that simulates each element of a gene regulatory network independently for short time intervals and then synchronizes molecule numbers across the network."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Effective rates given by the promoter structure"
+  - **Evidence pointer** Equations 11-23
+  - **Issue** The derivation of effective rates for promoter architectures is presented without a clear statement of assumptions. For example, the competitive repression model assumes that repressor binding prevents activator binding, but this is not explicitly stated.
+  - **Required correction** Add a sentence stating the assumptions underlying each promoter model.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Chemical reactions"
+  - **Evidence pointer** Equations 41-55
+  - **Issue** The analytical solutions for chemical reactions are presented without derivation. While this is acceptable for a methods section, a reference to a standard textbook or a brief derivation sketch would help readers verify the results.
+  - **Required correction** Add a reference or a brief note on how the solutions are obtained.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, "Inference of GRNs with a neural network approach"
+  - **Evidence pointer** Figure 6
+  - **Issue** The description of the inference process is brief and does not explain how the gradient is computed for a modular network. The reader is referred to the Methods, but the Methods section is also terse.
+  - **Required correction** Expand the description of the inference algorithm, either in the Results or the Methods, to make it self-contained.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Consideration of delays"
+  - **Evidence pointer** Figure 3
+  - **Issue** The implementation of delays is described as a shift by a fixed number of synchronization steps. This is a discrete approximation of a continuous delay. The manuscript does not discuss the accuracy of this approximation.
+  - **Required correction** Add a brief discussion of the limitations of the discrete delay implementation and how it compares to continuous delay models.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of quantitative validation of the stochastic version of CaiNet against Gillespie simulations.
+  - R1-M2: No error analysis or convergence criteria for the modular time-stepping approach.
+  - R1-M4: Insufficient evaluation of the inference method, including no comparison to existing methods.
+- **Assessment against Nature-style criteria**
+  - **Originality** The modular decoupling approach is a variation of existing hybrid simulation methods. The specific combination of analytical solutions for promoter architectures, modular synchronization, and neural-network-based inference is somewhat novel, but the individual components are not new. The originality is moderate.
+  - **Scientific importance** The ability to simulate and infer GRNs with stochastic detail is important for systems biology. However, the demonstrated examples are simple, and the practical impact is not yet clear. The importance is moderate.
+  - **Interdisciplinary readership** The work is relevant to computational biology, systems biology, and potentially experimental biology. However, the presentation is technical and may not attract a broad readership. The interdisciplinary appeal is limited.
+  - **Technical soundness** The mathematical derivations appear correct, but the validation is insufficient. The lack of quantitative error analysis and the limited test cases undermine confidence in the method. Technical soundness is currently not fully established.
+  - **Readability for nonspecialists** The manuscript is written for a specialized audience. The abstract and introduction are dense, and the methods are highly technical. The readability for nonspecialists is low.
+- **Recommendation posture** Currently not established from the provided evidence. The core idea is promising, but the validation is insufficient to support the claims. The authors should address the major concerns, particularly the quantitative validation of the stochastic approximation and the error analysis, before the case is made.
+
+## Risk / unsupported claims
+- The claim that CaiNet "approximates the solution of a Gillespie simulation" is not quantitatively supported.
+- The claim that the method "reproduces noise-induced bi-stability and oscillations in dynamically complex GRNs" is not supported by the simple test cases.
+- The claim that the inference method "recovers the network topology and the network parameters well" is based on a single, unreviewed figure with no statistical analysis.
+- The claim that CaiNet is "fast" compared to Gillespie is based on a single timing example and is not generalized.
+- The claim that the modular approach "enables simulating different scenarios with increasing level of stochastic detail" is plausible but not rigorously demonstrated.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.10.687627",
+  "title": "Billion-Scale Deciphering of Human Gene Regulatory Grammar",
+  "authors": "Mayne J; Rodriguez ME; Burrell M; Ceroni F; Goldrick S",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-10",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过百万级序列-表达数据与深度学习模型解析人类基因调控语法，虽聚焦启动子而非TF-DNA结合位点预测，但TF占用建模与序列-表达预测方法可迁移至TF-DNA互作研究。",
+  "abstract": "Predicting how DNA sequence specifies gene expression remains a core challenge across regulatory genomics. Most predictive assays and models depend on native genomic DNA, constraining the full biochemical engineering space for assessing and designing new sequences. Here, we address this gap with a scalable experimental–computational platform that rapidly generates million-scale sequence-to-expression datasets that directly link degenerate sequences to their function in human cells. We built degenerate libraries of 200-bp promoter cassettes and performed pooled stable integration of up to 10 12 unique constructs, enabling the curation of million-scale sequence-to-expression datasets by fluorescently sorting billions of human cells. Biophysical modeling of transcription-factor occupancy on the data using position weight matrices reveals a broad spectrum of correlations between factor abundance and expression levels, with some co-abundances reaching Pearson’s r ≈ 0.99, consistent with cooperative and probabilistic regulation. Leveraging the dataset, we trained sequence-to-expression deep learning models that predict held-out expression with Pearson r ≈ 0.4, converge on shared sequence determinants, and agree strongly with each other (Pearson’s r = 0.93), indicating reproducible sequence-expression relationships. Finally, with minimal retraining the models generalize to an independently generated dataset collected under distinct sorting conditions, transferring sequence rules across contexts. Our platform enables repeated, rapid studies and supports deeper mechanistic insight while providing baseline models for forward design of human regulatory elements, advancing prediction beyond genomic-DNA-anchored methods.",
+  "abstract_zh": "预测DNA序列如何指定基因表达仍是调控基因组学中的核心挑战。大多数预测性检测和模型依赖于天然基因组DNA，这限制了评估和设计新序列的完整生物化学工程空间。在此，我们通过一个可扩展的实验-计算平台来解决这一空白，该平台能快速生成百万规模的序列到表达数据集，直接将简并序列与其在人类细胞中的功能联系起来。我们构建了200-bp启动子盒的简并文库，并进行了多达10^12个独特构建体的混合稳定整合，通过荧光分选数十亿个人类细胞，实现了百万规模序列到表达数据集的整理。使用位置权重矩阵对数据进行转录因子占据的生物物理建模，揭示了因子丰度与表达水平之间广泛的相关性谱，其中一些共丰度达到Pearson’s r ≈ 0.99，与协同和概率性调控一致。利用该数据集，我们训练了序列到表达的深度学习模型，这些模型预测保留表达时Pearson r ≈ 0.4，收敛于共享的序列决定因素，并彼此高度一致（Pearson’s r = 0.93），表明序列-表达关系具有可重复性。最后，通过最小化再训练，模型能泛化到在不同分选条件下独立生成的数据集，跨情境转移序列规则。我们的平台支持重复、快速的研究，并提供更深入的机制洞察，同时为人类调控元件的前向设计提供基线模型，将预测推进到超越基因组DNA锚定方法的水平。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.10.687627",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.10.687627",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.10.687627/index.html"
+}

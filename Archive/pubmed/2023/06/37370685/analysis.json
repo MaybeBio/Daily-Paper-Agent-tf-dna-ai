@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37370685",
+  "title": "Radiogenomics Analysis Linking Multiparametric MRI and Transcriptomics in Prostate Cancer.",
+  "authors": "Dinis Fernandes, Catarina; Schaap, Annekoos; Kant, Joan; van Houdt, Petra; Wijkstra, Hessel; Bekers, Elise; Linder, Simon; Bergman, Andries M; van der Heide, Uulke; Mischi, Massimo; Zwart, Wilbert; Eduati, Federica; Turco, Simona",
+  "journal": "Cancers",
+  "published_date": "2023-06-28",
+  "window": {
+    "start": "2023-06-26",
+    "end": "2023-07-02"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究关联前列腺癌MRI影像特征与转录组TF活性，但核心是影像-转录组关联而非蛋白质-DNA互作建模，且无AI/物理模拟方法用于互作机制研究。",
+  "abstract": "Prostate cancer (PCa) is a highly prevalent cancer type with a heterogeneous prognosis. An accurate assessment of tumor aggressiveness can pave the way for tailored treatment strategies, potentially leading to better outcomes. While tumor aggressiveness is typically assessed based on invasive methods (e.g., biopsy), radiogenomics, combining diagnostic imaging with genomic information can help uncover aggressive (imaging) phenotypes, which in turn can provide non-invasive advice on individualized treatment regimens. In this study, we carried out a parallel analysis on both imaging and transcriptomics data in order to identify features associated with clinically significant PCa (defined as an ISUP grade >/= 3), subsequently evaluating the correlation between them. Textural imaging features were extracted from multi-parametric MRI sequences (T2W, DWI, and DCE) and combined with DCE-derived parametric pharmacokinetic maps obtained using magnetic resonance dispersion imaging (MRDI). A transcriptomic analysis was performed to derive functional features on transcription factors (TFs), and pathway activity from RNA sequencing data, here referred to as transcriptomic features. For both the imaging and transcriptomic features, different machine learning models were separately trained and optimized to classify tumors in either clinically insignificant or significant PCa. These models were validated in an independent cohort and model performance was used to isolate a subset of relevant imaging and transcriptomic features to be further investigated. A final set of 31 imaging features was correlated to 33 transcriptomic features obtained on the same tumors. Five significant correlations (p < 0.05) were found, of which, three had moderate strength (|r| >/= 0.5). The strongest significant correlations were seen between a perfusion-based imaging feature-MRDI A median-and the activities of the TFs STAT6 (-0.64) and TFAP2A (-0.50). A higher-order T2W textural feature was also significantly correlated to the activity of the TF STAT6 (-0.58). STAT6 plays an important role in controlling cell proliferation and migration. Loss of the AP2alpha protein expression, quantified by TFAP2A, has been strongly associated with aggressiveness and progression in PCa. According to our findings, a combination of texture features extracted from T2W and DCE, as well as perfusion-based pharmacokinetic features, can be considered for the prediction of clinically significant PCa, with the pharmacokinetic MRDI A feature being the most correlated with the underlying transcriptomic information. These results highlight a link between quantitative imaging features and the underlying transcriptomic landscape of prostate tumors.",
+  "abstract_zh": "前列腺癌（PCa）是一种高度流行的癌症类型，其预后具有异质性。准确评估肿瘤侵袭性可为制定个性化治疗策略铺平道路，从而可能带来更好的预后结果。虽然肿瘤侵袭性通常基于侵入性方法（如活检）进行评估，但放射基因组学结合诊断影像与基因组信息，有助于揭示侵袭性（影像）表型，进而为个体化治疗方案提供非侵入性建议。在本研究中，我们对影像和转录组学数据进行了平行分析，以识别与临床显著性PCa（定义为ISUP分级≥3）相关的特征，并随后评估它们之间的相关性。从多参数MRI序列（T2W、DWI和DCE）中提取纹理影像特征，并与使用磁共振弥散成像（MRDI）获得的DCE衍生参数药代动力学图谱相结合。进行了转录组学分析，以从RNA测序数据中推导转录因子（TFs）的功能特征和通路活性，此处称为转录组学特征。对于影像和转录组学特征，分别训练和优化了不同的机器学习模型，以将肿瘤分类为临床非显著性或显著性PCa。这些模型在独立队列中进行了验证，模型性能用于筛选出相关影像和转录组学特征的子集以供进一步研究。最终，将31个影像特征与同一肿瘤上获得的33个转录组学特征进行了相关性分析。发现了五个显著相关性（p < 0.05），其中三个具有中等强度（|r| ≥ 0.5）。最强的显著相关性出现在基于灌注的影像特征——MRDI A中位数——与转录因子STAT6（-0.64）和TFAP2A（-0.50）的活性之间。一个高阶T2W纹理特征也与转录因子STAT6的活性显著相关（-0.58）。STAT6在控制细胞增殖和迁移中发挥重要作用。由TFAP2A量化的AP2alpha蛋白表达的缺失，与PCa的侵袭性和进展密切相关。根据我们的发现，结合从T2W和DCE提取的纹理特征以及基于灌注的药代动力学特征，可考虑用于预测临床显著性PCa，其中药代动力学MRDI A特征与潜在转录组信息的相关性最强。这些结果强调了定量影像特征与前列腺肿瘤潜在转录组景观之间的联系。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37370685/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37370685/",
+  "paper_page_path": "papers/pubmed/37370685/index.html"
+}

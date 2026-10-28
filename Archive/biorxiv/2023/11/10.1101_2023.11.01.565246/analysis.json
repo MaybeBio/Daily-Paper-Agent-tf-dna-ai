@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.11.01.565246",
+  "title": "MetalPrognosis: a Biological Language Model-based Approach for Disease-Associated Mutations in Metal-Binding Site prediction",
+  "authors": "Runchang Jia; Zhijie He; Cong Wang; Xudong Guo; Fuyi Li",
+  "journal": "bioRxiv",
+  "published_date": "2023-11-04",
+  "window": {
+    "start": "2023-10-30",
+    "end": "2023-11-05"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用蛋白语言模型预测金属结合位点中的疾病相关突变，虽涉及蛋白-金属离子互作，但非蛋白质-DNA互作体系，且无结合建模或TF-DNA机制研究，与本课题关联较弱。",
+  "abstract": "Protein-metal ion interactions play a central role in the onset of numerous diseases. When amino acid changes lead to missense mutations in metal-binding sites, the disrupted interaction with metal ions can compromise protein function, potentially causing severe human ailments. Identifying these disease-associated mutation sites within metal-binding regions is paramount for understanding protein function and fostering innovative drug development. While some computational methods aim to tackle this challenge, they often fall short in accuracy, commonly due to manual feature extraction and the absence of structural data. We introduce MetalPrognosis, an innovative, alignment-free solution that predicts disease-associated mutations within metal-binding sites of metalloproteins with heightened precision. Rather than relying on manual feature extraction, MetalPrognosis employs sliding window sequences as input, extracting deep semantic insights from pre-trained protein language models. These insights are then incorporated into a convolutional neural network, facilitating the derivation of intricate features. Comparative evaluations show MetalPrognosis outperforms leading methodologies like MCCNN and PolyPhen-2 across various metalloprotein test sets. Furthermore, an ablation study reiterates the effectiveness of our model architecture. To facilitate public use, we have made the datasets, source codes, and trained models for MetalPrognosis online available at http://metalprognosis.unimelb-biotools.cloud.edu.au/ .",
+  "abstract_zh": "蛋白质-金属离子相互作用在众多疾病的发生中扮演核心角色。当氨基酸变化导致金属结合位点出现错义突变时，与金属离子的相互作用被破坏，可能损害蛋白质功能，进而引发严重的人类疾病。识别金属结合区域内这些与疾病相关的突变位点，对于理解蛋白质功能和促进创新药物开发至关重要。尽管一些计算方法旨在应对这一挑战，但它们往往在准确性上有所欠缺，通常是由于手动特征提取和缺乏结构数据所致。我们引入了MetalPrognosis，一种创新的、无需序列比对的解决方案，能够以更高的精度预测金属蛋白金属结合位点内的疾病相关突变。MetalPrognosis不依赖手动特征提取，而是采用滑动窗口序列作为输入，从预训练蛋白质语言模型中提取深层语义信息。这些信息随后被整合到卷积神经网络中，有助于推导出复杂特征。比较评估显示，MetalPrognosis在多种金属蛋白测试集上优于MCCNN和PolyPhen-2等领先方法。此外，消融研究重申了我们模型架构的有效性。为便于公众使用，我们已将MetalPrognosis的数据集、源代码和训练模型在线提供，网址为http://metalprognosis.unimelb-biotools.cloud.edu.au/。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.11.01.565246",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.11.01.565246",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.11.01.565246/index.html"
+}

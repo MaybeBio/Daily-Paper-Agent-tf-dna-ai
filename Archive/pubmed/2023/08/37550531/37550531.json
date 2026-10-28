@@ -1,0 +1,760 @@
+{
+  "identity": {
+    "pmid": "37550531",
+    "doi": "10.1038/s41588-023-01469-w",
+    "title": "PhenoScore quantifies phenotypic variation for rare genetic diseases by combining facial analysis with other clinical features using a machine-learning framework."
+  },
+  "content": {
+    "abstract": "Several molecular and phenotypic algorithms exist that establish genotype-phenotype correlations, including facial recognition tools. However, no unified framework that investigates both facial data and other phenotypic data directly from individuals exists. We developed PhenoScore: an open-source, artificial intelligence-based phenomics framework, combining facial recognition technology with Human Phenotype Ontology data analysis to quantify phenotypic similarity. Here we show PhenoScore's ability to recognize distinct phenotypic entities by establishing recognizable phenotypes for 37 of 40 investigated syndromes against clinical features observed in individuals with other neurodevelopmental disorders and show it is an improvement on existing approaches. PhenoScore provides predictions for individuals with variants of unknown significance and enables sophisticated genotype-phenotype studies by testing hypotheses on possible phenotypic (sub)groups. PhenoScore confirmed previously known phenotypic subgroups caused by variants in the same gene for SATB1, SETBP1 and DEAF1 and provides objective clinical evidence for two distinct ADNP-related phenotypes, already established functionally.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Artificial Intelligence",
+      "Phenotype",
+      "Algorithms",
+      "Machine Learning",
+      "Biological Variation, Population",
+      "*Matrix Attachment Region Binding Proteins",
+      "DNA-Binding Proteins",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dingemans, Alexander J M",
+        "Hinne, Max",
+        "Truijen, Kim M G",
+        "Goltstein, Lia",
+        "van Reeuwijk, Jeroen",
+        "de Leeuw, Nicole",
+        "Schuurs-Hoeijmakers, Janneke",
+        "Pfundt, Rolph",
+        "Diets, Illja J",
+        "den Hoed, Joery",
+        "de Boer, Elke",
+        "Coenen-van der Spek, Jet",
+        "Jansen, Sandra",
+        "van Bon, Bregje W",
+        "Jonis, Noraly",
+        "Ockeloen, Charlotte W",
+        "Vulto-van Silfhout, Anneke T",
+        "Kleefstra, Tjitske",
+        "Koolen, David A",
+        "Campeau, Philippe M",
+        "Palmer, Elizabeth E",
+        "Van Esch, Hilde",
+        "Lyon, Gholson J",
+        "Alkuraya, Fowzan S",
+        "Rauch, Anita",
+        "Marom, Ronit",
+        "Baralle, Diana",
+        "van der Sluijs, Pleuntje J",
+        "Santen, Gijs W E",
+        "Kooy, R Frank",
+        "van Gerven, Marcel A J",
+        "Vissers, Lisenka E L M",
+        "de Vries, Bert B A"
+      ],
+      "short_names": [
+        "Dingemans AJM",
+        "Hinne M",
+        "Truijen KMG",
+        "Goltstein L",
+        "van Reeuwijk J",
+        "de Leeuw N",
+        "Schuurs-Hoeijmakers J",
+        "Pfundt R",
+        "Diets IJ",
+        "den Hoed J",
+        "de Boer E",
+        "Coenen-van der Spek J",
+        "Jansen S",
+        "van Bon BW",
+        "Jonis N",
+        "Ockeloen CW",
+        "Vulto-van Silfhout AT",
+        "Kleefstra T",
+        "Koolen DA",
+        "Campeau PM",
+        "Palmer EE",
+        "Van Esch H",
+        "Lyon GJ",
+        "Alkuraya FS",
+        "Rauch A",
+        "Marom R",
+        "Baralle D",
+        "van der Sluijs PJ",
+        "Santen GWE",
+        "Kooy RF",
+        "van Gerven MAJ",
+        "Vissers LELM",
+        "de Vries BBA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4297-5976",
+        "ORCID: 0000-0002-0658-4399",
+        "ORCID: 0000-0002-9796-3342",
+        "ORCID: 0000-0001-6614-876X",
+        "ORCID: 0000-0002-7022-577X",
+        "ORCID: 0000-0002-4470-0864",
+        "ORCID: 0000-0002-3624-1047",
+        "ORCID: 0000-0003-0329-1520",
+        "ORCID: 0000-0002-2152-4626",
+        "ORCID: 0000-0001-9713-7107",
+        "ORCID: 0000-0003-1844-215X",
+        "ORCID: 0000-0002-9604-5726",
+        "ORCID: 0000-0002-5869-0716",
+        "ORCID: 0000-0003-4158-341X",
+        "ORCID: 0000-0003-2930-3163",
+        "ORCID: 0000-0003-3524-661X",
+        "ORCID: 0000-0002-1174-2806",
+        "ORCID: 0000-0003-1959-3267",
+        "ORCID: 0000-0003-2024-0485",
+        "ORCID: 0000-0002-2206-9098",
+        "ORCID: 0000-0001-6470-5497",
+        "ORCID: 0000-0002-0000-2917"
+      ],
+      "affiliations": [
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Artificial Intelligence, Donders Institute for Brain, Cognition and Behaviour, Radboud University, Nijmegen, the Netherlands.",
+        "Department of Artificial Intelligence, Donders Institute for Brain, Cognition and Behaviour, Radboud University, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Language and Genetics Department, Max Planck Institute for Psycholinguistics, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Amsterdam UMC, University of Amsterdam, Amsterdam, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+        "Department of Pediatrics, University of Montreal, Montreal, Quebec, Canada.",
+        "Faculty of Medicine and Health, UNSW Sydney, Sydney, New South Wales, Australia.",
+        "Sydney Children's Hospitals Network, Sydney, New South Wales, Australia.",
+        "Center for Human Genetics, University Hospitals Leuven, University of Leuven, Leuven, Belgium.",
+        "Department of Human Genetics and George A. Jervis Clinic, Institute for Basic Research in Developmental Disabilities (IBR), Staten Island, NY, USA.",
+        "Biology PhD Program, The Graduate Center, The City University of New York, New York City, NY, USA.",
+        "Department of Translational Genomics, Center for Genomic Medicine, King Faisal Specialist Hospital and Research Center, Riyadh, Saudi Arabia.",
+        "Institute of Medical Genetics, University of Zurich, Zurich, Switzerland.",
+        "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA.",
+        "Faculty of Medicine, University of Southampton, Southampton, UK.",
+        "Department of Clinical Genetics, Leiden University Medical Center, Leiden, the Netherlands.",
+        "Department of Clinical Genetics, Leiden University Medical Center, Leiden, the Netherlands.",
+        "Department of Medical Genetics, University of Antwerp, Antwerp, Belgium.",
+        "Department of Artificial Intelligence, Donders Institute for Brain, Cognition and Behaviour, Radboud University, Nijmegen, the Netherlands.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands. lisenka.vissers@radboudumc.nl.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands. bert.devries@radboudumc.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dingemans, Alexander J M",
+        "short_name": "Dingemans AJM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands.",
+          "Department of Artificial Intelligence, Donders Institute for Brain, Cognition and Behaviour, Radboud University, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Hinne, Max",
+        "short_name": "Hinne M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Artificial Intelligence, Donders Institute for Brain, Cognition and Behaviour, Radboud University, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Truijen, Kim M G",
+        "short_name": "Truijen KMG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Goltstein, Lia",
+        "short_name": "Goltstein L",
+        "identifiers": [
+          "0000-0003-4297-5976"
+        ],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "van Reeuwijk, Jeroen",
+        "short_name": "van Reeuwijk J",
+        "identifiers": [
+          "0000-0002-0658-4399"
+        ],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "de Leeuw, Nicole",
+        "short_name": "de Leeuw N",
+        "identifiers": [
+          "0000-0002-9796-3342"
+        ],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Schuurs-Hoeijmakers, Janneke",
+        "short_name": "Schuurs-Hoeijmakers J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Pfundt, Rolph",
+        "short_name": "Pfundt R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Diets, Illja J",
+        "short_name": "Diets IJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "den Hoed, Joery",
+        "short_name": "den Hoed J",
+        "identifiers": [
+          "0000-0001-6614-876X"
+        ],
+        "affiliations": [
+          "Language and Genetics Department, Max Planck Institute for Psycholinguistics, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "de Boer, Elke",
+        "short_name": "de Boer E",
+        "identifiers": [
+          "0000-0002-7022-577X"
+        ],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Coenen-van der Spek, Jet",
+        "short_name": "Coenen-van der Spek J",
+        "identifiers": [
+          "0000-0002-4470-0864"
+        ],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Jansen, Sandra",
+        "short_name": "Jansen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Amsterdam UMC, University of Amsterdam, Amsterdam, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "van Bon, Bregje W",
+        "short_name": "van Bon BW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Jonis, Noraly",
+        "short_name": "Jonis N",
+        "identifiers": [
+          "0000-0002-3624-1047"
+        ],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Ockeloen, Charlotte W",
+        "short_name": "Ockeloen CW",
+        "identifiers": [
+          "0000-0003-0329-1520"
+        ],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Vulto-van Silfhout, Anneke T",
+        "short_name": "Vulto-van Silfhout AT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Kleefstra, Tjitske",
+        "short_name": "Kleefstra T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Koolen, David A",
+        "short_name": "Koolen DA",
+        "identifiers": [
+          "0000-0002-2152-4626"
+        ],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Campeau, Philippe M",
+        "short_name": "Campeau PM",
+        "identifiers": [
+          "0000-0001-9713-7107"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, University of Montreal, Montreal, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Palmer, Elizabeth E",
+        "short_name": "Palmer EE",
+        "identifiers": [
+          "0000-0003-1844-215X"
+        ],
+        "affiliations": [
+          "Faculty of Medicine and Health, UNSW Sydney, Sydney, New South Wales, Australia.",
+          "Sydney Children's Hospitals Network, Sydney, New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Van Esch, Hilde",
+        "short_name": "Van Esch H",
+        "identifiers": [
+          "0000-0002-9604-5726"
+        ],
+        "affiliations": [
+          "Center for Human Genetics, University Hospitals Leuven, University of Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Lyon, Gholson J",
+        "short_name": "Lyon GJ",
+        "identifiers": [
+          "0000-0002-5869-0716"
+        ],
+        "affiliations": [
+          "Department of Human Genetics and George A. Jervis Clinic, Institute for Basic Research in Developmental Disabilities (IBR), Staten Island, NY, USA.",
+          "Biology PhD Program, The Graduate Center, The City University of New York, New York City, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Alkuraya, Fowzan S",
+        "short_name": "Alkuraya FS",
+        "identifiers": [
+          "0000-0003-4158-341X"
+        ],
+        "affiliations": [
+          "Department of Translational Genomics, Center for Genomic Medicine, King Faisal Specialist Hospital and Research Center, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Rauch, Anita",
+        "short_name": "Rauch A",
+        "identifiers": [
+          "0000-0003-2930-3163"
+        ],
+        "affiliations": [
+          "Institute of Medical Genetics, University of Zürich, Zürich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Marom, Ronit",
+        "short_name": "Marom R",
+        "identifiers": [
+          "0000-0003-3524-661X"
+        ],
+        "affiliations": [
+          "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Baralle, Diana",
+        "short_name": "Baralle D",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, University of Southampton, Southampton, UK."
+        ]
+      },
+      {
+        "full_name": "van der Sluijs, Pleuntje J",
+        "short_name": "van der Sluijs PJ",
+        "identifiers": [
+          "0000-0002-1174-2806"
+        ],
+        "affiliations": [
+          "Department of Clinical Genetics, Leiden University Medical Center, Leiden, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Santen, Gijs W E",
+        "short_name": "Santen GWE",
+        "identifiers": [
+          "0000-0003-1959-3267"
+        ],
+        "affiliations": [
+          "Department of Clinical Genetics, Leiden University Medical Center, Leiden, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Kooy, R Frank",
+        "short_name": "Kooy RF",
+        "identifiers": [
+          "0000-0003-2024-0485"
+        ],
+        "affiliations": [
+          "Department of Medical Genetics, University of Antwerp, Antwerp, Belgium."
+        ]
+      },
+      {
+        "full_name": "van Gerven, Marcel A J",
+        "short_name": "van Gerven MAJ",
+        "identifiers": [
+          "0000-0002-2206-9098"
+        ],
+        "affiliations": [
+          "Department of Artificial Intelligence, Donders Institute for Brain, Cognition and Behaviour, Radboud University, Nijmegen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Vissers, Lisenka E L M",
+        "short_name": "Vissers LELM",
+        "identifiers": [
+          "0000-0001-6470-5497"
+        ],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands. lisenka.vissers@radboudumc.nl."
+        ]
+      },
+      {
+        "full_name": "de Vries, Bert B A",
+        "short_name": "de Vries BBA",
+        "identifiers": [
+          "0000-0002-0000-2917"
+        ],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition and Behaviour, Radboud University Medical Center, Nijmegen, the Netherlands. bert.devries@radboudumc.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature genetics"
+    ],
+    "journal_abbrev": [
+      "Nat Genet"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/08 00:42",
+    "fetched_at": "2026-09-29 05:20:57"
+  },
+  "links": {
+    "cites": [
+      "42684307",
+      "42393928",
+      "42362790",
+      "42346184",
+      "42208149",
+      "42032369",
+      "41943166",
+      "41908718",
+      "41786677",
+      "41594725",
+      "41468891",
+      "41318682",
+      "41282771",
+      "41214838",
+      "41073373",
+      "40849403",
+      "40670343",
+      "40588065",
+      "40575353",
+      "40410386",
+      "40321940",
+      "40280028",
+      "40236430",
+      "39858576",
+      "39669611",
+      "39398426",
+      "39013459",
+      "39013458",
+      "38926592",
+      "38743093",
+      "38711434",
+      "38637827",
+      "38566179",
+      "38424297",
+      "38282129",
+      "38282074",
+      "38254177",
+      "38238566",
+      "37926714",
+      "37860568",
+      "37759476"
+    ],
+    "refs": [
+      "35920826",
+      "35869530",
+      "35393595",
+      "35390071",
+      "35145301",
+      "35134823",
+      "34758253",
+      "34445333",
+      "33953404",
+      "33821002",
+      "33603161",
+      "33513338",
+      "33439542",
+      "33288918",
+      "33087888",
+      "32839576",
+      "32758449",
+      "32755546",
+      "32504078",
+      "32012000",
+      "31965085",
+      "31432391",
+      "31234903",
+      "31164752",
+      "31029150",
+      "30923367",
+      "30617323",
+      "30568311",
+      "30476213",
+      "30247488",
+      "30224757",
+      "30038395",
+      "30027524",
+      "29997393",
+      "29777175",
+      "29459680",
+      "29258477",
+      "29196356",
+      "27899602",
+      "27528417",
+      "26562621",
+      "26306646",
+      "26229552",
+      "25741868",
+      "25186178",
+      "24963138",
+      "24896178",
+      "24531329",
+      "24487276",
+      "24162188",
+      "24038936",
+      "23033978",
+      "23020937",
+      "22544367",
+      "22544363",
+      "21811163",
+      "21076407",
+      "21037274",
+      "20676075",
+      "20551152",
+      "20436468",
+      "20354512",
+      "19800049",
+      "19561590",
+      "19344873",
+      "18950739",
+      "18460186",
+      "17357067",
+      "16877736",
+      "6986000"
+    ],
+    "similar": [
+      "37550531",
+      "31255713",
+      "38711434",
+      "30905398",
+      "33513338",
+      "30617323",
+      "29436146",
+      "21034428",
+      "39013459",
+      "24963138",
+      "34202291",
+      "36877742",
+      "30923367",
+      "37452347",
+      "37534870",
+      "31754030",
+      "28139846",
+      "33381861",
+      "38696757",
+      "34843488",
+      "29995249",
+      "30675030",
+      "36384353",
+      "33270670",
+      "30568311",
+      "33226994",
+      "24564704",
+      "32853554",
+      "37943654",
+      "38466077",
+      "34116881",
+      "25262492",
+      "29250549",
+      "35463254",
+      "38935959",
+      "38216788",
+      "32673247",
+      "33938623",
+      "34524677",
+      "24816822",
+      "36764810",
+      "38790177",
+      "38615568",
+      "33001999",
+      "21702966",
+      "37258868",
+      "36182950",
+      "28940898",
+      "32700329",
+      "32161151",
+      "37522495",
+      "33109029",
+      "32479180",
+      "25774204",
+      "26883067",
+      "36303224",
+      "32066720",
+      "38622540",
+      "31701156",
+      "35322975",
+      "33575021",
+      "33927573",
+      "33731876",
+      "35858754",
+      "25048351",
+      "23896390",
+      "29778030",
+      "37904203",
+      "34663554",
+      "36081348",
+      "34498543",
+      "34015806",
+      "37787768",
+      "35009562",
+      "37551667",
+      "23756908",
+      "33731472",
+      "30251058",
+      "26896328",
+      "24643256",
+      "36178783",
+      "35981081",
+      "35716097",
+      "34521999",
+      "31751476",
+      "26724698",
+      "32972400",
+      "37352901",
+      "36302858",
+      "36868685",
+      "23540420",
+      "33058462",
+      "35145301",
+      "34481768",
+      "34031551",
+      "33484947",
+      "34428295"
+    ],
+    "review": [
+      "37550531",
+      "34202291",
+      "37534870",
+      "33381861",
+      "29995249",
+      "37943654",
+      "38216788",
+      "36764810",
+      "38790177",
+      "33109029",
+      "32479180",
+      "35322975",
+      "33575021",
+      "36081348",
+      "34498543",
+      "35716097",
+      "26724698",
+      "37352901",
+      "36302858",
+      "36868685",
+      "23540420"
+    ],
+    "pmc": [
+      "11414844"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41588-023-01469-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37550531/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37550531",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

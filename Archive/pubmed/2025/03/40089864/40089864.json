@@ -1,0 +1,450 @@
+{
+  "identity": {
+    "pmid": "40089864",
+    "doi": "10.1002/advs.202408891",
+    "title": "GDC: Integration of Multi-Omic and Phenotypic Resources to Unravel the Genetic Pathogenesis of Hearing Loss."
+  },
+  "content": {
+    "abstract": "Effective research and clinical application in audiology and hearing loss (HL) require the integration of diverse data, yet the absence of a dedicated database impedes understanding and insight extraction in HL. To address this, the Genetic Deafness Commons (GDC) is developed by consolidating extensive genetic and genomic data from 51 public databases and the Chinese Deafness Genetics Consortium. This repository comprises 5 983 613 variants across 201 HL genes, revealing the genetic landscape of HL and identifying six novel mutational hotspots within the DNA-binding domains of transcription factors. Comparative phenotypic analyses highlighted considerable disparities between human and mouse models. Among the 201 human HL genes, 133 exhibit hearing abnormalities in mice; 35 have been tested in mice without exhibiting a hearing loss phenotype; and 33 lack auditory testing data. Moreover, gene expression analyses in the cochleae of mice, humans, and rhesus macaques demonstrated a notable correlation (R(2) 0.718-0.752). Utilizing gene expression, function, pathway, and phenotype data, a SMOTE-Random Forest model identified 18 candidate HL genes, including TBX2, newly confirmed as an HL gene. As a comprehensive and unified repository, the GDC advances audiology research and practice by improving data accessibility and usability, ultimately fostering deeper insights into hearing disorders.",
+    "keywords": [
+      "database",
+      "gene expression",
+      "hearing loss",
+      "machine learning",
+      "mouse phenotype"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Hearing Loss/genetics",
+      "Phenotype",
+      "Mice",
+      "*Databases, Genetic",
+      "Disease Models, Animal",
+      "Genomics/methods",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cheng, Hui",
+        "Wang, Xuegang",
+        "Zhong, Mingjun",
+        "Geng, Jia",
+        "Li, Wenjian",
+        "Pei, Kanglu",
+        "Wang, Jing",
+        "Wang, Lanchen",
+        "Lu, Yu",
+        "Cheng, Jing",
+        "Bu, Fengxiao",
+        "Yuan, Huijun"
+      ],
+      "short_names": [
+        "Cheng H",
+        "Wang X",
+        "Zhong M",
+        "Geng J",
+        "Li W",
+        "Pei K",
+        "Wang J",
+        "Wang L",
+        "Lu Y",
+        "Cheng J",
+        "Bu F",
+        "Yuan H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+        "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China.",
+        "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+        "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China.",
+        "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+        "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China.",
+        "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+        "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China.",
+        "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+        "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China.",
+        "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+        "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China.",
+        "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+        "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+        "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China.",
+        "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+        "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China.",
+        "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+        "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China.",
+        "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+        "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China.",
+        "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+        "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cheng, Hui",
+        "short_name": "Cheng H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+          "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xuegang",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+          "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Mingjun",
+        "short_name": "Zhong M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+          "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Jia",
+        "short_name": "Geng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+          "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wenjian",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+          "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China."
+        ]
+      },
+      {
+        "full_name": "Pei, Kanglu",
+        "short_name": "Pei K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+          "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lanchen",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+          "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yu",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+          "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Jing",
+        "short_name": "Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+          "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China."
+        ]
+      },
+      {
+        "full_name": "Bu, Fengxiao",
+        "short_name": "Bu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+          "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Huijun",
+        "short_name": "Yuan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oto-Rhino-Laryngology, West China Hospital of Sichuan University, Chengdu, 610000, China.",
+          "Institute of Rare Diseases, West China Hospital of Sichuan University, Chengdu, 610044, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/16 12:44",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [
+      "42233258",
+      "42214845",
+      "42162447",
+      "42131115",
+      "42074555",
+      "41604548",
+      "40962492"
+    ],
+    "refs": [
+      "39083201",
+      "39030733",
+      "38920964",
+      "38452609",
+      "38445888",
+      "38218018",
+      "38111038",
+      "38103548",
+      "38091987",
+      "37953380",
+      "37953330",
+      "37953324",
+      "37941124",
+      "37352859",
+      "37268776",
+      "37173518",
+      "36933008",
+      "36866529",
+      "36445327",
+      "36413997",
+      "36370105",
+      "36350672",
+      "36318249",
+      "36060279",
+      "35960848",
+      "35864128",
+      "35770850",
+      "35457072",
+      "34733322",
+      "34599370",
+      "34536825",
+      "34469751",
+      "34387941",
+      "34335733",
+      "34230634",
+      "34172972",
+      "34062119",
+      "33597522",
+      "33258894",
+      "33113372",
+      "33070389",
+      "32461654",
+      "32404924",
+      "32355288",
+      "31740819",
+      "31377237",
+      "31138263",
+      "31103816",
+      "30661751",
+      "30423086",
+      "30371827",
+      "30311386",
+      "30245029",
+      "30192042",
+      "29697819",
+      "29300386",
+      "29300372",
+      "28934385",
+      "28838066",
+      "28654725",
+      "28573592",
+      "28479595",
+      "28162890",
+      "28079113",
+      "27899662",
+      "27666373",
+      "27268795",
+      "26152746",
+      "26014595",
+      "25954003",
+      "25751142",
+      "25741868",
+      "25690850",
+      "25149764",
+      "24491564",
+      "24344781",
+      "24234437",
+      "23717403",
+      "22455463",
+      "21722859",
+      "19910308",
+      "18245393",
+      "17352659",
+      "15752533",
+      "14681372",
+      "12502788",
+      "10658959"
+    ],
+    "similar": [
+      "40089864",
+      "29726933",
+      "39272213",
+      "39406892",
+      "30311386",
+      "40962492",
+      "30245029",
+      "30894701",
+      "33997018",
+      "33111345",
+      "36194208",
+      "29331482",
+      "29026089",
+      "35346193",
+      "36833263",
+      "39767564",
+      "39831886",
+      "34338889",
+      "40068948",
+      "34133797",
+      "40100472",
+      "22534022",
+      "37801830",
+      "38297846",
+      "34428318",
+      "38400873",
+      "30303587",
+      "19694516",
+      "31451425",
+      "34281439",
+      "35182233",
+      "40187231",
+      "29500086",
+      "35711095",
+      "35939872",
+      "40189202",
+      "37473993",
+      "34519870",
+      "32567228",
+      "31083078",
+      "37121227",
+      "26968065",
+      "36494063",
+      "26915689",
+      "39434538",
+      "23044516",
+      "38804613",
+      "41410899",
+      "34946889",
+      "36515421",
+      "28542515",
+      "34258273",
+      "24164807",
+      "40494824",
+      "36833385",
+      "28420617",
+      "40595116",
+      "35854274",
+      "25968158",
+      "38296632",
+      "28934385",
+      "31096295",
+      "34733322",
+      "22531723",
+      "33713422",
+      "26117665",
+      "24182601",
+      "16630581",
+      "40008839",
+      "39874782",
+      "29929553",
+      "22016077",
+      "33745059",
+      "34600166",
+      "21917145",
+      "19818876",
+      "27941975",
+      "34111299",
+      "34784928",
+      "34058916",
+      "31393079",
+      "35667089",
+      "32623615",
+      "27473502",
+      "37864300",
+      "27023905",
+      "33455126",
+      "36657329",
+      "40404318",
+      "18283275",
+      "38949079",
+      "33710140",
+      "33074773",
+      "35722856",
+      "41137352",
+      "39755840",
+      "34363095",
+      "38822754",
+      "40407660",
+      "36958120"
+    ],
+    "review": [
+      "40089864",
+      "29726933",
+      "29331482",
+      "34338889",
+      "19694516",
+      "29500086",
+      "31083078",
+      "37121227",
+      "23044516",
+      "28420617",
+      "22531723",
+      "24182601",
+      "22016077",
+      "35667089",
+      "18283275",
+      "38949079",
+      "34363095"
+    ],
+    "pmc": [
+      "12362786"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40089864/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

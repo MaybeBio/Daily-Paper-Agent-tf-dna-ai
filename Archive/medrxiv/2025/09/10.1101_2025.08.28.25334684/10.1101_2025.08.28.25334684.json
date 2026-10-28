@@ -1,0 +1,487 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2025.08.28.25334684",
+  "title": "Enhancer-targeting CRISPR screens at coronary artery disease loci suggest shared mechanisms of disease risk",
+  "doi": "10.1101/2025.08.28.25334684",
+  "abstract": "To systematically identify causal genetic mechanisms that confer risk for coronary artery disease (CAD) in GWAS loci, we mapped genome-wide variant-to-enhancer-to-gene (V2E2G) links in vascular smooth muscle cells (SMC). Enhancers identified by active chromatin features, and further prioritized by base-resolution deep learning models of chromatin accessibility in 108 CAD loci, were studied with CRISPRi targeting and Direct-Capture Targeted Perturb-seq (DC-TAP-seq) evaluation of 470 genes. Seventy-six V2E2G links were identified for 59 candidate CAD genes representing gene programs including epithelial-mesenchymal transformation, ubiquitination, and protein folding as well as BMP and TGFB signaling. Similar methods employed with an independent focused screen targeting one candidate locus at 9p21.3 identified 10 enhancers regulating expression of multiple genes at this location. Detailed molecular studies revealed that two enhancers mediating transcription factor binding and transcriptional regulation contribute to ancestry-specific and sex-specific risk for CAD and the surrogate biomarker vascular calcification. Together, these studies advance our identification of GWAS CAD V2E2G links across the genome, and specific mechanisms of risk at the complex 9p21.3 locus.",
+  "authors": [
+    "Ramste M",
+    "Weldy C",
+    "Kundu S",
+    "Zhao Q",
+    "Li D",
+    "Brand K",
+    "Sharma D",
+    "Ramste A",
+    "Jagoda E",
+    "Ray J",
+    "Caceres RD",
+    "Galante J",
+    "Gschwind AR",
+    "Lahtinen N",
+    "Nguyen T",
+    "Amrute JM",
+    "Park CY",
+    "Kim JB",
+    "Kaikkonen MU",
+    "Stitziel NO",
+    "Steinmetz L",
+    "Kundaje A",
+    "Engreitz JM",
+    "Quertermous T"
+  ],
+  "published_date": "2025-09-02",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2025.08.28.25334684",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2025.08.28.25334684.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1077309",
+    "raw_record": {
+      "id": "PPR1077309",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1077309"
+        ]
+      },
+      "doi": "10.1101/2025.08.28.25334684",
+      "title": "Enhancer-targeting CRISPR screens at coronary artery disease loci suggest shared mechanisms of disease risk",
+      "authorString": "Ramste M, Weldy C, Kundu S, Zhao Q, Li D, Brand K, Sharma D, Ramste A, Jagoda E, Ray J, Caceres RD, Galante J, Gschwind AR, Lahtinen N, Nguyen T, Amrute JM, Park CY, Kim JB, Kaikkonen MU, Stitziel NO, Steinmetz L, Kundaje A, Engreitz JM, Quertermous T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ramste M",
+            "lastName": "Ramste",
+            "firstName": "Markus",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cardiovascular Medicine, Stanford, CA; 94305"
+                },
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weldy C",
+            "lastName": "Weldy",
+            "firstName": "Chad",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4652-6422"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cardiovascular Medicine, Stanford, CA; 94305"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kundu S",
+            "lastName": "Kundu",
+            "firstName": "Soumya",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Stanford, CA; 94305"
+                },
+                {
+                  "affiliation": "Department of Computer Science, Stanford, CA; 94305"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhao Q",
+            "lastName": "Zhao",
+            "firstName": "Quanyi",
+            "initials": "Q",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cardiovascular Medicine, Stanford, CA; 94305"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li D",
+            "lastName": "Li",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cardiovascular Medicine, Stanford, CA; 94305"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brand K",
+            "lastName": "Brand",
+            "firstName": "Kayla",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Stanford, CA; 94305"
+                },
+                {
+                  "affiliation": "Basic Science and Engineering Initiative, Betty Irene Moore Children’s Heart Center, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sharma D",
+            "lastName": "Sharma",
+            "firstName": "Disha",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cardiovascular Medicine, Stanford, CA; 94305"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ramste A",
+            "lastName": "Ramste",
+            "firstName": "Amanda",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cardiovascular Medicine, Stanford, CA; 94305"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jagoda E",
+            "lastName": "Jagoda",
+            "firstName": "Evelyn",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Genomic Mechanisms of Disease, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ray J",
+            "lastName": "Ray",
+            "firstName": "Judhajeet",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Genomic Mechanisms of Disease, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Caceres RD",
+            "lastName": "Caceres",
+            "firstName": "Roxanne Diaz",
+            "initials": "RD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cardiovascular Medicine, Stanford, CA; 94305"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Galante J",
+            "lastName": "Galante",
+            "firstName": "James",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Stanford, CA; 94305"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gschwind AR",
+            "lastName": "Gschwind",
+            "firstName": "Andreas",
+            "initials": "AR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Stanford, CA; 94305"
+                },
+                {
+                  "affiliation": "Basic Science and Engineering Initiative, Betty Irene Moore Children’s Heart Center, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lahtinen N",
+            "lastName": "Lahtinen",
+            "firstName": "Nuutti",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nguyen T",
+            "lastName": "Nguyen",
+            "firstName": "Trieu",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cardiovascular Medicine, Stanford, CA; 94305"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Amrute JM",
+            "lastName": "Amrute",
+            "firstName": "Junedh",
+            "initials": "JM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cardiology, Department of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Park CY",
+            "lastName": "Park",
+            "firstName": "Chong Yong",
+            "initials": "CY",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cardiovascular Medicine, Stanford, CA; 94305"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kim JB",
+            "lastName": "Kim",
+            "firstName": "Juyong Brian",
+            "initials": "JB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cardiovascular Medicine, Stanford, CA; 94305"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kaikkonen MU",
+            "lastName": "Kaikkonen",
+            "firstName": "Minna",
+            "initials": "MU",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "A. I. Virtanen Institute for Molecular Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stitziel NO",
+            "lastName": "Stitziel",
+            "firstName": "Nathan",
+            "initials": "NO",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cardiology, Department of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Steinmetz L",
+            "lastName": "Steinmetz",
+            "firstName": "Lars",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Stanford, CA; 94305"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kundaje A",
+            "lastName": "Kundaje",
+            "firstName": "Anshul",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Stanford, CA; 94305"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Engreitz JM",
+            "lastName": "Engreitz",
+            "firstName": "Jesse",
+            "initials": "JM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, Stanford, CA; 94305"
+                },
+                {
+                  "affiliation": "Department of Computer Science, Stanford, CA; 94305"
+                },
+                {
+                  "affiliation": "Center for Genomic Mechanisms of Disease, , ,"
+                },
+                {
+                  "affiliation": "Basic Science and Engineering Initiative, Betty Irene Moore Children’s Heart Center, , ,"
+                },
+                {
+                  "affiliation": "Gene Regulation Observatory, , , ,"
+                },
+                {
+                  "affiliation": "School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Quertermous T",
+            "lastName": "Quertermous",
+            "firstName": "Thomas",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cardiovascular Medicine, Stanford, CA; 94305"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4652-6422"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "To systematically identify causal genetic mechanisms that confer risk for coronary artery disease (CAD) in GWAS loci, we mapped genome-wide variant-to-enhancer-to-gene (V2E2G) links in vascular smooth muscle cells (SMC). Enhancers identified by active chromatin features, and further prioritized by base-resolution deep learning models of chromatin accessibility in 108 CAD loci, were studied with CRISPRi targeting and Direct-Capture Targeted Perturb-seq (DC-TAP-seq) evaluation of 470 genes. Seventy-six V2E2G links were identified for 59 candidate CAD genes representing gene programs including epithelial-mesenchymal transformation, ubiquitination, and protein folding as well as BMP and TGFB signaling. Similar methods employed with an independent focused screen targeting one candidate locus at 9p21.3 identified 10 enhancers regulating expression of multiple genes at this location. Detailed molecular studies revealed that two enhancers mediating transcription factor binding and transcriptional regulation contribute to ancestry-specific and sex-specific risk for CAD and the surrogate biomarker vascular calcification. Together, these studies advance our identification of GWAS CAD V2E2G links across the genome, and specific mechanisms of risk at the complex 9p21.3 locus.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.08.28.25334684"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1077309"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1077309&type=FILE&fileName=EMS208508-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS208508",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gwas",
+          "refsnp",
+          "omim",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-09-03",
+      "firstPublicationDate": "2025-09-02",
+      "firstIndexDate": "2025-09-03",
+      "fullTextReceivedDate": "2025-09-16",
+      "hasEvaluations": "N"
+    }
+  }
+}

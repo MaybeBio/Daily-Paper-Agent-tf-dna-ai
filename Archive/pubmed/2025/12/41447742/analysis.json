@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41447742",
+  "title": "Predicting the cell differentiation of Pit-1 positivity of pituitary incidentaloma using radiomics analysis based on MRI.",
+  "authors": "Duan, C; Wang, M; Guo, X; Ye, C; Zhao, X; Yao, S; Chen, W",
+  "journal": "Clinical radiology",
+  "published_date": "2025-12-25",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 0,
+  "one_liner_zh": "基于MRI影像组学预测垂体偶发瘤Pit-1阳性，属临床影像分类，无蛋白质-DNA互作体系、无结合建模或AI/物理模拟方法，与课题无关。",
+  "abstract": "AIM: This study aimed to construct and assess a predictive model based on radiomics features derived from preoperative MRI images to identify Pit-1 positivity in patients with pituitary incidentalomas (PIs), thereby providing a potential tool to support clinical decision-making (surgical or medical intervention versus radiological follow-up). MATERIALS AND METHODS: The study included 32 patients diagnosed with PIs who underwent surgery during a 1-3 years follow-up period. Clinical data and MRI scans, including T1-weighted with contrast (T1C) and T2-weighted (T2) sequences, were collected. Radiomics features were extracted from the region of interest (ROI), which was subjected to analysis using four machine learning algorithms namely Random Forest (RF), Support Vector Machine (SVM), K-Nearest Neighbors (KNN), and Naive Bayes (NB) to build predictive models. Their performance was evaluated using five-fold cross-validation to calculate the mean area under the curve (AUC), sensitivity, and specificity. RESULTS: 30 T1C features, 39 T2 features, and 45 combined T1C + T2 features were selected from the initial pool of 107 features for model construction. The RF model demonstrated superior performance with an AUC of 0.875, outperforming that of SVM (AUC = 0.716), KNN (AUC = 0.550), and NB (AUC = 0.725). The RF model achieved a sensitivity of 86.6 % and a specificity of 88.3 % when the ROI was delineated on T1C sequences. The models incorporating T2 features alone or in combination with T1C did not yield higher performance than those based solely on T1C. CONCLUSION: The findings of this study suggest that radiomics analysis combined with machine learning algorithms can effectively predict Pit-1 positivity in PIs using preoperative MRI images. This approach has the potential to identify high-risk PI subtypes at an earlier stage, thereby facilitating more timely clinical interventions.",
+  "abstract_zh": "目的：本研究旨在构建并评估一种基于术前MRI图像影像组学特征的预测模型，以识别垂体偶发瘤（PIs）患者中Pit-1阳性状态，从而为临床决策（手术或药物治疗与放射学随访）提供潜在支持工具。材料与方法：研究纳入32例诊断为PIs并在1-3年随访期间接受手术的患者。收集临床数据及MRI扫描，包括T1加权对比增强（T1C）和T2加权（T2）序列。从感兴趣区域（ROI）提取影像组学特征，并使用四种机器学习算法，即随机森林（RF）、支持向量机（SVM）、K近邻（KNN）和朴素贝叶斯（NB）进行分析，以构建预测模型。通过五折交叉验证评估其性能，计算平均曲线下面积（AUC）、敏感性和特异性。结果：从初始107个特征中筛选出30个T1C特征、39个T2特征及45个T1C + T2组合特征用于模型构建。RF模型表现出优越性能，AUC为0.875，优于SVM（AUC = 0.716）、KNN（AUC = 0.550）和NB（AUC = 0.725）。当ROI在T1C序列上勾画时，RF模型达到86.6%的敏感性和88.3%的特异性。单独使用T2特征或与T1C组合的模型未产生高于仅基于T1C模型的性能。结论：本研究结果表明，结合机器学习算法的影像组学分析可利用术前MRI图像有效预测PIs中的Pit-1阳性状态。该方法有望在更早阶段识别高风险PI亚型，从而促进更及时的临床干预。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41447742/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41447742/",
+  "paper_page_path": "papers/pubmed/41447742/index.html"
+}

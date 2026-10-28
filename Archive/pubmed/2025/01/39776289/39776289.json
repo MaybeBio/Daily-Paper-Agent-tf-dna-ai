@@ -1,0 +1,422 @@
+{
+  "identity": {
+    "pmid": "39776289",
+    "doi": "10.1111/cns.70206",
+    "title": "Clozapine Induces Agranulocytosis via Inflammatory and Hematopoietic Cytokine Induction of the JAK-STAT Signaling Pathway: Evidence From Network Pharmacology and Molecular Docking."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Clozapine exhibits significant therapeutic efficacy in schizophrenia, especially treatment-resistant schizophrenia. However, clozapine can cause agranulocytosis, a fatal adverse effect, and the aim of this study is to explore this mechanism based on network pharmacology and molecular docking. METHOD: Six and two databases were used to identify targets associated with clozapine and agranulocytosis, respectively. The bioinformatics online platform was used to identify overlaps between the drug and disease targets. The protein-protein interaction (PPI) network was characterized using Cystoscope 3.10.1 and STRING. Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO) were analyzed using the DAVID online platform. A drug-target-pathway-disease network was constructed utilizing Cystoscope 3.10.1. The Auto Dock Vina and PyMOL software were used to verify the molecular docking of clozapine and core targets. RESULTS: The analysis revealed 188 overlapping targets. The PPI and KEGG enrichment pathway analyses demonstrated that clozapine induces agranulocytosis by modulating the hematopoietic cell lineage and JAK-STAT signaling pathways via interleukin-3 (IL3), IL6, IL2 receptor subunit alpha (IL2RA), and granulocyte colony-stimulating factor. Binding energies between clozapine and core targets were favorable (< -7.0 kcal/mol). CONCLUSION: Clozapine-induced agranulocytosis may be linked to the JAK-STAT inflammatory signaling pathway through inflammatory and hematopoietic-related cytokines. Our findings enhance our comprehension of the potential mechanisms underlying clozapine-induced agranulocytosis.",
+    "keywords": [
+      "agranulocytosis",
+      "clozapine",
+      "molecular docking",
+      "network pharmacology"
+    ],
+    "mesh_terms": [
+      "*Agranulocytosis/chemically induced",
+      "*Molecular Docking Simulation",
+      "*Clozapine/adverse effects/pharmacology",
+      "*Signal Transduction/drug effects",
+      "Humans",
+      "*Antipsychotic Agents/adverse effects/pharmacology",
+      "*Cytokines/metabolism",
+      "*Network Pharmacology",
+      "*Janus Kinases/metabolism",
+      "STAT Transcription Factors/metabolism",
+      "Protein Interaction Maps/drug effects",
+      "Inflammation/chemically induced/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Ying",
+        "Li, Ranli",
+        "Chen, Ximing",
+        "Li, Yachen",
+        "Zhang, Qiuyu",
+        "Yang, Lei",
+        "Wang, Lina",
+        "Sun, Yun",
+        "Mao, Fuqiang",
+        "Zhuo, Chuan Jun"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Li R",
+        "Chen X",
+        "Li Y",
+        "Zhang Q",
+        "Yang L",
+        "Wang L",
+        "Sun Y",
+        "Mao F",
+        "Zhuo CJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3793-550X"
+      ],
+      "affiliations": [
+        "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Department of Psychiatry and Psychology, School of Basic Medical Sciences, Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Department of Psychiatry and Psychology, School of Basic Medical Sciences, Tianjin Medical University, Tianjin, China.",
+        "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+        "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Ying",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Department of Psychiatry and Psychology, School of Basic Medical Sciences, Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ranli",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ximing",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yachen",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qiuyu",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Lei",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lina",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yun",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Fuqiang",
+        "short_name": "Mao F",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Department of Psychiatry and Psychology, School of Basic Medical Sciences, Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhuo, Chuan Jun",
+        "short_name": "Zhuo CJ",
+        "identifiers": [
+          "0000-0002-3793-550X"
+        ],
+        "affiliations": [
+          "Computational Biology Center, Tianjin Anding Hospital, Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China.",
+          "Laboratory of Psychiatric-Neuroimaging-Genetic and Co-Morbidity (PGNP_Lab), Nankai University Affiliated Tianjin Anding Hospital, Tianjin Mental Health Center of Tianjin Medical University, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "CNS neuroscience & therapeutics"
+    ],
+    "journal_abbrev": [
+      "CNS Neurosci Ther"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/08 18:21",
+    "fetched_at": "2026-09-30 09:13:04"
+  },
+  "links": {
+    "cites": [
+      "41479675",
+      "40774882"
+    ],
+    "refs": [
+      "39408591",
+      "39364246",
+      "39359180",
+      "38697177",
+      "38691351",
+      "38518857",
+      "38446743",
+      "38264533",
+      "38262745",
+      "38101868",
+      "38040009",
+      "37985318",
+      "37575231",
+      "37470804",
+      "37329895",
+      "37301669",
+      "36994117",
+      "36794520",
+      "36674761",
+      "36313369",
+      "36305812",
+      "36297382",
+      "35468669",
+      "34935985",
+      "34823758",
+      "34772606",
+      "34423492",
+      "34278794",
+      "33846298",
+      "33567393",
+      "32989092",
+      "32267936",
+      "31922669",
+      "31680165",
+      "31487867",
+      "31480527",
+      "31303314",
+      "31024554",
+      "30995500",
+      "30856469",
+      "30723070",
+      "30395287",
+      "30319405",
+      "30192094",
+      "29980618",
+      "29528898",
+      "29126136",
+      "28747065",
+      "28472422",
+      "27924014",
+      "27400856",
+      "27322403",
+      "27095146",
+      "26876947",
+      "26267420",
+      "25424130",
+      "25176396",
+      "24878925",
+      "24792161",
+      "23142198",
+      "23046136",
+      "22584864",
+      "20868635",
+      "19344427",
+      "19116909",
+      "17287757",
+      "17181606",
+      "16160616",
+      "14597658",
+      "12734009",
+      "11533853",
+      "11094146",
+      "10688821",
+      "10592235",
+      "10590052",
+      "9326224",
+      "9323793",
+      "9097728",
+      "8894200",
+      "8793147"
+    ],
+    "similar": [
+      "39776289",
+      "39753306",
+      "40774882",
+      "41203698",
+      "41492010",
+      "37143282",
+      "37575231",
+      "40229786",
+      "40452077",
+      "37287284",
+      "40585331",
+      "33513419",
+      "35616676",
+      "37833363",
+      "40013962",
+      "40574364",
+      "39251712",
+      "40922365",
+      "34808299",
+      "40570565",
+      "39049631",
+      "41439108",
+      "40355237",
+      "40388786",
+      "34873575",
+      "41261300",
+      "38579905",
+      "40350911",
+      "33634308",
+      "37879505",
+      "39095732",
+      "41155161",
+      "40676786",
+      "39343107",
+      "39617073",
+      "38759074",
+      "40255473",
+      "41630346",
+      "40522420",
+      "39928767",
+      "40543694",
+      "38114126",
+      "39074420",
+      "39991083",
+      "40725959",
+      "41189264",
+      "41731839",
+      "41620965",
+      "38619514",
+      "38951468",
+      "39410900",
+      "37807411",
+      "40865347",
+      "37469733",
+      "39093467",
+      "39701786",
+      "39125368",
+      "41261616",
+      "40816370",
+      "39015338",
+      "36626454",
+      "41921863",
+      "38489696",
+      "39066538",
+      "37190808",
+      "41303371",
+      "42163610",
+      "41504045",
+      "35430443",
+      "38822913",
+      "38670393",
+      "41629408",
+      "39923611",
+      "38103742",
+      "39552028",
+      "40202273",
+      "36281111",
+      "40760645",
+      "38582151",
+      "37832514",
+      "37990309",
+      "41367024",
+      "34557547",
+      "32389853",
+      "40988247",
+      "39041167",
+      "39085510",
+      "38086608",
+      "38322942",
+      "39934490",
+      "33191068",
+      "41963573",
+      "41135618",
+      "41418734",
+      "40859479",
+      "39440778",
+      "38941043",
+      "39259129",
+      "41601160",
+      "37929726"
+    ],
+    "review": [
+      "39776289"
+    ],
+    "pmc": [
+      "11707432"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39776289.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39776289/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/cns.70206",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

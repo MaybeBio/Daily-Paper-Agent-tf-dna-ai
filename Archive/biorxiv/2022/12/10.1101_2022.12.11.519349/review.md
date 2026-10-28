@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, background, methods, results, discussion, acknowledgements, footnotes, bibliography) as provided
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and presentation quality. No assessment of code functionality or reproducibility beyond what is described in the text
+- **Shared manuscript claim summary** The authors claim that (1) protein–ligand binding sites in monomeric enzymes are enriched in locally frustrated interactions in the unbound state, and (2) a machine learning tool (FrustraPocket) combining local frustration features and local density can predict protein–ligand binding sites from unbound protein structures alone
+- **Visible evidence base** Abstract, Background, Methods (partial), Results (two subsections), Discussion, Acknowledgements, Footnotes, Bibliography. Figures referenced but not provided. Tables referenced but not provided
+- **Missing materials affecting confidence** Figures 1–4, Tables 1–2, full Methods section (hyperparameter values, feature list, cross-validation details), dataset composition details, and code repository contents were not available for inspection
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting hypothesis linking energetic local frustration to ligand binding site prediction. The core observation that binding residues are enriched in frustrated interactions is plausible and consistent with prior work by the same group. However, the evidence presented in this manuscript is insufficient to fully establish the predictive utility of FrustraPocket. Key performance metrics are reported without adequate context, the model evaluation appears to lack rigorous validation procedures, and the comparison to existing methods is absent. The manuscript is written in a clear style but contains several technical ambiguities and unsupported statements that need resolution.
+- **Who would be interested in the results, and why** Researchers in computational structural biology, protein biophysics, and drug discovery would be interested. The concept of using energetic frustration as a biophysical descriptor for binding site prediction is novel and could complement geometric approaches. The tool may be of practical use to those studying cryptic binding sites or protein function annotation
+- **Major strengths** The hypothesis is well-motivated by prior work on local frustration and protein function. The use of a biophysical descriptor (frustration) rather than purely geometric features is conceptually novel. The tool is made available via GitHub and Docker, which supports reproducibility and community adoption. The pair distribution function analysis provides a quantitative characterization of frustration around binding sites
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves an AUC of 0.70, indicating that it "correctly detects approximately 70% of the ligand-protein binding residues"
+  - **Evidence pointer** Results section, Performance of the model; Figure 3; Table 2
+  - **Concern** The AUC of 0.70 is reported without confidence intervals, cross-validation details, or a clear description of how the test set was constructed. The claim that AUC 0.70 translates to "correctly detects approximately 70% of the ligand-protein binding residues" is a misinterpretation of AUC, which measures the probability that a randomly chosen positive instance is ranked higher than a randomly chosen negative instance, not the detection rate at a specific operating point. The manuscript does not report sensitivity or specificity at a chosen threshold, nor does it provide precision-recall curves, which are more informative for imbalanced datasets such as this one.
+  - **Why it matters** The central claim of the manuscript is that FrustraPocket is a useful predictor. Without rigorous evaluation metrics and proper interpretation, the predictive performance cannot be adequately assessed. The misinterpretation of AUC suggests a lack of methodological rigor that undermines confidence in the reported results.
+  - **Resolution test** Provide cross-validated AUC with confidence intervals, report precision-recall curves, and state the operating threshold used for classification. Clarify the interpretation of AUC in the context of the imbalanced dataset.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Concern** The dataset construction and model evaluation procedure are incompletely described. The authors state that the dataset was split into 80% training and 20% test sets using train_test_split(), but no information is provided about stratification, whether the split was performed at the protein level or residue level, or whether any sequence or structural similarity-based redundancy reduction was applied. If residues from the same protein appear in both training and test sets, the evaluation would be optimistically biased due to information leakage.
+  - **Why it matters** Without proper dataset partitioning, the reported performance metrics may not generalize to new proteins. This is a critical issue for a machine learning-based predictor intended for practical use.
+  - **Resolution test** Describe the splitting procedure in detail, including whether proteins were grouped to prevent leakage, and report performance on a held-out set of proteins not used in training.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Concern** The manuscript does not compare FrustraPocket to existing ligand binding site prediction methods. Numerous tools exist (e.g., Fpocket, SiteMap, DeepSite, P2Rank) that are widely used. Without a comparative benchmark, it is impossible to assess whether FrustraPocket offers any advantage over the state of the art.
+  - **Why it matters** The claimed novelty and utility of the tool cannot be established without demonstrating competitive or superior performance relative to existing methods. The authors state that "there was no method based on the analysis of the protein energetics," but this does not obviate the need for benchmarking against geometric and machine learning approaches.
+  - **Resolution test** Include a comparative analysis against at least two established binding site prediction tools on a common benchmark dataset, reporting standard metrics such as DCC, MCC, and success rate at top-ranked pockets.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Concern** The definition of a "pocket" in the output is vague. The authors state that "a pocket is defined by at least 5 close residues that are all of class 1, in case there are no class 1 residues close to each other no pocket is defined." The criteria for "close" are not specified, and the relationship between predicted pockets and actual ligand binding sites is not evaluated. The example application to ATP-dependent DNA ligase shows nine predicted pockets, but it is unclear how many of these correspond to known binding sites.
+  - **Why it matters** The practical utility of the tool depends on its ability to identify meaningful pockets. Without a clear definition and evaluation of pocket-level prediction accuracy, the output of the tool cannot be interpreted.
+  - **Resolution test** Define the clustering criteria precisely, and evaluate pocket-level prediction accuracy by measuring the distance between predicted pocket centers and known ligand binding sites, reporting success rates at various distance thresholds.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Concern** The claim that "the fact that in most cases we identify pockets for which no ligand is known may be hinting that several cryptic binding sites are present in many proteins" is speculative and not supported by any experimental validation or literature evidence. Cryptic binding sites are a specific phenomenon that requires demonstration of ligand-induced conformational changes or binding under specific conditions.
+  - **Why it matters** This statement overreaches beyond the data presented and could mislead readers into interpreting predicted pockets as validated cryptic sites.
+  - **Resolution test** Either remove this speculation or provide supporting evidence, such as comparison with known cryptic site databases or experimental validation of at least one predicted site.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section, Performance of the model
+  - **Evidence pointer** Results section, Performance of the model
+  - **Issue** The definitions of True Positive rate and False Positive rate are incorrect. The text states "The False Postive rate is defined as FN/(FN+TP)", which is incorrect. The false positive rate should be FP/(FP+TN).
+  - **Required correction** Correct the definition of false positive rate to FP/(FP+TN).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Methods section, Dataset
+  - **Evidence pointer** Methods section, Dataset, local frustration and local density
+  - **Issue** The text states "we selected from BioLiP database all entries that had their EC Number annotated in order to select only enzymatic proteins." It is unclear whether the EC number annotation was used as a filter for enzyme classification or for another purpose. Additionally, the redundancy reduction criteria for the non-redundant dataset are not described.
+  - **Required correction** Clarify the role of EC number annotation and describe the redundancy reduction procedure (e.g., sequence identity threshold).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Methods section, Algorithm workflow
+  - **Evidence pointer** Methods section, Algorithm workflow
+  - **Issue** The sentence "The parameters used for XGBoost model, were," is incomplete. The parameter values are not provided in the text.
+  - **Required correction** Provide the full list of hyperparameters used for the XGBoost model.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section, Protein–ligand binding sites
+  - **Evidence pointer** Results section, Protein–ligand binding sites
+  - **Issue** The text states "we can see an enrichment of neutral and highly frustrated interactions, relative to the contacts topology of the protein (black lines)." The term "contacts topology" is not defined, and it is unclear what the black lines represent quantitatively.
+  - **Required correction** Define "contacts topology" and clarify what the black lines in Figure 2A represent.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion and conclusion
+  - **Issue** The statement "until now there was no method based on the analysis of the protein energetics" is too strong. There are energy-based approaches to binding site prediction, such as those using molecular interaction potentials or electrostatic calculations.
+  - **Required correction** Soften the claim to "no widely used method based on local frustration energetics" or similar.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "We built a tool using a simple machine learning algorithm named FrustraPocket" but does not mention the type of machine learning algorithm (XGBoost) or the features used. This omission reduces the informativeness of the abstract.
+  - **Required correction** Briefly mention the algorithm type and key features in the abstract.
+
+## Risk / unsupported claims
+- The claim that AUC 0.70 indicates "correctly detects approximately 70% of the ligand-protein binding residues" is unsupported and reflects a misinterpretation of AUC.
+- The claim that "in most cases we identify pockets for which no ligand is known may be hinting that several cryptic binding sites are present in many proteins" is speculative and unsupported by experimental evidence.
+- The claim that "there was no method based on the analysis of the protein energetics" for binding site prediction is overstated and not substantiated by a literature review.
+- The performance of the model relative to existing methods is not assessable due to the absence of comparative benchmarks.
+- The generalizability of the model to non-enzymatic proteins or proteins with different oligomeric states is not assessable from the provided data.

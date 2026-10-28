@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "39486730",
+    "doi": "10.1016/j.ijbiomac.2024.137045",
+    "title": "Multi-omics revealed that ELAVL3 regulates MYCN in neuroblastoma via immunogenic cell death: Risk stratification and experimental research."
+  },
+  "content": {
+    "abstract": "Neuroblastoma (NB), a common and highly lethal malignant disease in pediatrics, still lacks an effective therapeutic approach that addresses all conditions. Immunogenic Cell Death (ICD) plays a crucial role in tumor cell death and triggers a potent anti-tumor immune response. In this study, we report an ICD-related index (ICDR-Index) in NB through various machine learning methodologies, utilizing bulk transcriptome data from 1244 NB samples and 16 scRNA-seq datasets. Our results showed that the ICDR-Index could accurately identify different risk subtypes of patients with NB and provide predictive value for prognosis. Importantly, we found that high-risk patients with NB exhibited significantly poor overall survival (OS) rates, adverse clinical phenotypes, poor immune cell infiltration, and low sensitivity to immunotherapy. Furthermore, we identified ELAVL3 as a key gene within the ICDR-Index, where high expression levels were associated with malignancy and poor OS in NB. Additionally, targeted silencing of ELAVL3 down-regulated MYCN gene expression and reduced the malignancy of NB cells. Notably, the si-ELAVL3-transfected NB cells enhanced the anti-tumor activity of NK cells. Collectively, this study offers avenues for predicting the risk stratification of patients with NB and reveals a potential mechanism by which ELAVL3 regulates NB cell death.",
+    "keywords": [
+      "ELAVL3",
+      "Immunogenic cell death",
+      "Multi-omics",
+      "Neuroblastoma",
+      "Prognostic prediction"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Neuroblastoma/genetics/immunology/pathology",
+      "*N-Myc Proto-Oncogene Protein/genetics/metabolism",
+      "*Gene Expression Regulation, Neoplastic",
+      "Cell Line, Tumor",
+      "Immunogenic Cell Death",
+      "Prognosis",
+      "Risk Assessment",
+      "Killer Cells, Natural/immunology/metabolism",
+      "Transcriptome",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hong, Peng",
+        "Hu, Zaihong",
+        "Lin, Jie",
+        "Cui, Kongkong",
+        "Gao, Zhiqiang",
+        "Tian, Xiaomao",
+        "Shi, Qinlin",
+        "Lin, Tao",
+        "Wei, Guanghui"
+      ],
+      "short_names": [
+        "Hong P",
+        "Hu Z",
+        "Lin J",
+        "Cui K",
+        "Gao Z",
+        "Tian X",
+        "Shi Q",
+        "Lin T",
+        "Wei G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China. Electronic address: 485141@hospital.cqmu.edu.cn.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China.",
+        "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hong, Peng",
+        "short_name": "Hong P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Zaihong",
+        "short_name": "Hu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jie",
+        "short_name": "Lin J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Kongkong",
+        "short_name": "Cui K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Zhiqiang",
+        "short_name": "Gao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Xiaomao",
+        "short_name": "Tian X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Qinlin",
+        "short_name": "Shi Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China. Electronic address: 485141@hospital.cqmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lin, Tao",
+        "short_name": "Lin T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Guanghui",
+        "short_name": "Wei G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Children's Hospital of Chongqing Medical University; National Clinical Research Center for Child Health and Disorders; Ministry of Education Key Laboratory of Child Development and Disorders; Chongqing Key Laboratory of Structural Birth Defect and Reconstruction, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/02 23:12",
+    "fetched_at": "2026-09-30 05:13:58"
+  },
+  "links": {
+    "cites": [
+      "42078544",
+      "41200185"
+    ],
+    "refs": [],
+    "similar": [
+      "39486730",
+      "39532261",
+      "33737337",
+      "34016720",
+      "38125723",
+      "31637848",
+      "39703515",
+      "27517149",
+      "36311753",
+      "37712965",
+      "32788584",
+      "27599694",
+      "40087586",
+      "26549029",
+      "37175848",
+      "27876123",
+      "34655293",
+      "33172452",
+      "37741985",
+      "32240058",
+      "38516781",
+      "32512012",
+      "37230388",
+      "32979173",
+      "29784674",
+      "39133652",
+      "29374092",
+      "38745192",
+      "39675397",
+      "36539767",
+      "39762147",
+      "38336749",
+      "34011924",
+      "38962012",
+      "28456710",
+      "32169869",
+      "36130928",
+      "34773529",
+      "28791558",
+      "33239635",
+      "31255282",
+      "40108662",
+      "33452207",
+      "26482175",
+      "29925504",
+      "37843625",
+      "33326736",
+      "34937609",
+      "37094904",
+      "37545226",
+      "26076666",
+      "30612140",
+      "27707976",
+      "28984200",
+      "28270499",
+      "36708875",
+      "33411331",
+      "35018218",
+      "39585848",
+      "27894074",
+      "39215128",
+      "35969939",
+      "28574509",
+      "34565342",
+      "12960121",
+      "39189159",
+      "37461251",
+      "31615807",
+      "32087738",
+      "38717048",
+      "24586395",
+      "39028490",
+      "27669225",
+      "37543638",
+      "36675163",
+      "24011394",
+      "39948114",
+      "32204764",
+      "29328367",
+      "38512513",
+      "29466962",
+      "37958555",
+      "27448979",
+      "35850708",
+      "26657295",
+      "20080637",
+      "40330458",
+      "24293393",
+      "35942521",
+      "31511046",
+      "40082458",
+      "31094257",
+      "37275552",
+      "34751044",
+      "17023822",
+      "37350973",
+      "39294296",
+      "32483461",
+      "36438198",
+      "39395371"
+    ],
+    "review": [
+      "39486730",
+      "31094257"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(24)07854-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/neuroblastoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Neuroblastoma"
+      }
+    ],
+    "text_mined": []
+  }
+}

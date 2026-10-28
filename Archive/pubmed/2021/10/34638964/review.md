@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and internal consistency of the reported data and conclusions
+- **Shared manuscript claim summary** The authors report that a core-extended naphthalene diimide (cex-NDI) exhibits distinct binding modes to hybrid G-quadruplex, parallel G-quadruplex, and B-duplex DNA, and that the fluorescence intensity of the bound ligand correlates with the extent of stacking interactions, thereby rationalizing its conformation-sensitive fluorescent properties. The authors further report preferential nuclear localization in cancer cells.
+- **Visible evidence base** NMR titration data, DLS size measurements, native PAGE, CD and UV-vis titrations, fluorescence titrations, Job plot analyses, molecular docking, cell viability assays, and confocal microscopy images
+- **Missing materials affecting confidence** Raw spectra, full titration curves with error bars, statistical details for docking clusters, uncropped gel images, quantitative colocalization analysis, and raw microscopy images
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and timely question, namely the molecular basis for conformation-sensitive fluorescence of a G-quadruplex probe. The combination of biophysical methods with docking is appropriate in principle. However, the evidence presented is largely qualitative and the central claim, that fluorescence intensity correlates with the amount of stacking interactions, is inferred rather than directly demonstrated. Several technical details are missing or ambiguous, and the biological data do not fully support the conclusion that the probe specifically targets G-quadruplex-rich nuclear regions. The work is potentially of interest to the nucleic acid structure and chemical biology communities, but the current evidence base is insufficient to firmly establish the stated conclusions.
+- **Who would be interested in the results, and why** Researchers working on G-quadruplex structure and function, developers of fluorescent probes for nucleic acid conformations, and medicinal chemists interested in small molecule DNA binders. The proposed correlation between binding mode and fluorescence response, if rigorously established, would be of practical value for probe design.
+- **Major strengths** The study combines multiple orthogonal biophysical techniques to characterize ligand DNA interactions. The use of well-defined model systems (hybrid G-quadruplex, parallel G-quadruplex, duplex) is appropriate. The docking studies provide plausible structural models that are consistent with the experimental observations. The biological experiments, while preliminary, address an important translational aspect.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that the fluorescence intensity of DNA-bound cex-NDI correlates with the amount of stacking interactions formed by the ligand with each DNA target.
+  - **Evidence pointer** Section 2.5, Section 2.6, Figure 7
+  - **Concern** The central mechanistic claim is based on a qualitative comparison between fluorescence quantum yields and docking-derived binding modes. No quantitative correlation analysis is provided. The docking models are not validated experimentally (e.g., by mutagenesis or by using modified ligands). The fluorescence data are presented as spectra and Job plots, but no quantum yield values are given in the text or figures for the bound states.
+  - **Why it matters** The stated correlation is the main conceptual advance of the paper. Without quantitative support, the conclusion remains speculative and the design principles for improved probes are not firmly grounded.
+  - **Resolution test** Provide quantitative fluorescence quantum yields for cex-NDI bound to each DNA target, and demonstrate a statistically significant correlation with the number or extent of stacking contacts derived from docking or from experimental structural data. Alternatively, validate the docking predictions by testing a control ligand with altered stacking ability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the severe broadening of proton NMR signals at specific ligand ratios indicates complex equilibria and multiple binding poses.
+  - **Evidence pointer** Section 2.1, Figure 2
+  - **Concern** The NMR data are described only qualitatively. No line width analysis, chemical shift perturbation plots, or binding constants are provided. The interpretation of broadening as evidence for multiple binding modes is plausible but not rigorously supported. The possibility of aggregation-induced broadening is not excluded, despite the DLS data showing large aggregates at higher ratios.
+  - **Why it matters** The NMR experiments are presented as a key technique, but the analysis is insufficient to support the mechanistic conclusions drawn from them.
+  - **Resolution test** Provide quantitative NMR analysis, such as chemical shift perturbation curves, line width measurements as a function of ligand ratio, and, if possible, binding affinity estimates. Address the aggregation issue explicitly by showing that broadening is not solely due to aggregate formation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that cex-NDI mainly localizes in the G-quadruplex-rich nuclei of cancer cells.
+  - **Evidence pointer** Section 2.7.2, Figure 10, Figure 11
+  - **Concern** The microscopy data are qualitative. No quantitative colocalization analysis with a nuclear marker or a G-quadruplex specific antibody is provided. The DNase treatment experiment shows reduced fluorescence, but this only demonstrates DNA binding, not G-quadruplex specificity. The claim that the signal is associated with nucleoli is speculative and not supported by a nucleolar marker.
+  - **Why it matters** The biological data are used to support the translational relevance of the probe. Without quantitative and specific evidence, the conclusion that the probe targets G-quadruplex-rich regions in cells is not established.
+  - **Resolution test** Perform quantitative colocalization analysis with a nuclear stain and a G-quadruplex structure specific antibody. Include a nucleolar marker to support the nucleolar localization claim. Provide statistical analysis of fluorescence intensity across multiple cells and experiments.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report that the last binding event in the Job plot analysis corresponds to stoichiometries of approximately 1:5, 1:4, and 1:9 for the hybrid G-quadruplex, parallel G-quadruplex, and duplex, respectively.
+  - **Evidence pointer** Section 2.5, Figure 7
+  - **Concern** The Job plot analysis is used to infer binding stoichiometry, but the interpretation of multiple slope changes is not straightforward, especially for a ligand that aggregates. The assignment of specific stoichiometries to distinct binding events is not justified by the data shown. No error analysis or replicate experiments are described.
+  - **Why it matters** The stoichiometry claims are used to support the model of multiple binding events and to explain the different fluorescence responses. If the stoichiometry assignments are incorrect, the model is weakened.
+  - **Resolution test** Provide replicate Job plot experiments with error analysis. Use an independent method, such as ITC or ESI-MS, to confirm the binding stoichiometries. Discuss the potential influence of ligand aggregation on the Job plot interpretation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the probe provides fluorescent signals of markedly different intensities when bound to G-quadruplexes of different conformations or duplexes, but does not specify the magnitude of these differences.
+  - **Required correction** Include quantitative values for the fluorescence differences, or refer to a specific figure in the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4, Figure 5
+  - **Issue** The CD data are described as showing changes in band intensity and shifts, but the interpretation of these changes in terms of structural alterations is not explained in detail.
+  - **Required correction** Provide a more explicit interpretation of the CD changes, relating them to known structural features of G-quadruplexes and duplexes.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 3.7
+  - **Evidence pointer** Section 3.7
+  - **Issue** The docking protocol is described, but the criteria for selecting the most populated cluster and the range of binding energies across clusters are not reported.
+  - **Required correction** Report the number of clusters, the population of each, and the range of binding energies. State the criteria used to select the representative pose.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.7.1
+  - **Evidence pointer** Section 2.7.1, Table 1
+  - **Issue** The IC50 values are reported in Table 1, but the units and the statistical significance of differences between cell lines are not stated.
+  - **Required correction** Specify the units of IC50 values and include statistical analysis (e.g., p values) for comparisons between cell lines and time points.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2, Figure 3
+  - **Issue** The DLS data show the formation of large aggregates at high ligand ratios, but the size distribution of the aggregates is not discussed in relation to the fluorescence quenching observed at those ratios.
+  - **Required correction** Discuss the potential contribution of ligand aggregates to the observed fluorescence quenching, and clarify whether the quenching is due to binding or to aggregation effects.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+
+## Risk / unsupported claims
+- The claim that fluorescence intensity correlates with the amount of stacking interactions is not quantitatively supported.
+- The claim that cex-NDI mainly localizes in G-quadruplex-rich nuclei of cancer cells is not supported by specific colocalization or competition experiments.
+- The assignment of specific binding stoichiometries from Job plot analysis is not rigorously justified.
+- The interpretation of NMR broadening as evidence for multiple binding modes is plausible but not quantitatively established.
+- The statement that the probe acts as a conformation-sensitive probe in cells is not directly demonstrated, as the cellular experiments do not distinguish between G-quadruplex conformations.

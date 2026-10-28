@@ -1,0 +1,764 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.03.560786",
+  "title": "Systematic Investigation of Machine Learning on Limited Data: A Study on Predicting Protein-Protein Binding Strength",
+  "doi": "10.1101/2023.10.03.560786",
+  "abstract": "The application of machine learning techniques in biological research, especially when dealing with limited data availability, poses significant challenges. In this study, we leveraged advancements in method development for predicting protein-protein binding strength to conduct a systematic investigation into the application of machine learning on limited data. The binding strength, quantitatively measured as binding affinity, is vital for understanding the processes of recognition, association, and dysfunction that occur within protein complexes. By incorporating transfer learning, integrating domain knowledge, and employing both deep learning and traditional machine learning algorithms, we mitigate the impact of data limitations and make significant advancements in predicting protein-protein binding affinity. In particular, we developed over 20 models, ultimately selecting three representative best-performing ones that belong to distinct categories. The first model is structure-based, consisting of a random forest regression and thirteen handcrafted features. The second model is sequence-based, employing an architecture that combines transferred embedding features with a multilayer perceptron. Finally, we created an ensemble model by averaging the predictions of the two aforementioned models. The comparison with other predictors on three independent datasets confirmed the significant improvements achieved by our models in predicting protein-protein binding affinity. The source codes for these three models are available at https://github.com/minghuilab/BindPPI .",
+  "authors": [
+    "Feifan Zheng",
+    "Xin Jiang",
+    "Yuhao Wen",
+    "Yan Yang",
+    "Minghui Li"
+  ],
+  "published_date": "2023-10-05",
+  "updated_date": "2023-10-05T21:56:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.03.560786",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.03.560786.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:18:50Z",
+        "timestamp": 1768508330389,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            5
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 92,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            5
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The application of machine learning techniques in biological research, especially when dealing with limited data availability, poses significant challenges. In this study, we leveraged advancements in method development for predicting protein-protein binding strength to conduct a systematic investigation into the application of machine learning on limited data. The binding strength, quantitatively measured as binding affinity, is vital for understanding the processes of recognition, association, and dysfunction that occur within protein complexes. By incorporating transfer learning, integrating domain knowledge, and employing both deep learning and traditional machine learning algorithms, we mitigate the impact of data limitations and make significant advancements in predicting protein-protein binding affinity. In particular, we developed over 20 models, ultimately selecting three representative best-performing ones that belong to distinct categories. The first model is structure-based, consisting of a random forest regression and thirteen handcrafted features. The second model is sequence-based, employing an architecture that combines transferred embedding features with a multilayer perceptron. Finally, we created an ensemble model by averaging the predictions of the two aforementioned models. The comparison with other predictors on three independent datasets confirmed the significant improvements achieved by our models in predicting protein-protein binding affinity. The source codes for these three models are available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/minghuilab/BindPPI\">https://github.com/minghuilab/BindPPI</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2023.10.03.560786",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            5
+          ]
+        ],
+        "date-time": "2023-10-05T21:56:13Z",
+        "timestamp": 1696542973000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Systematic Investigation of Machine Learning on Limited Data: A Study on Predicting Protein-Protein Binding Strength"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Feifan",
+          "family": "Zheng",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xin",
+          "family": "Jiang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yuhao",
+          "family": "Wen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yan",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Minghui",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14539"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbw068"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1008543",
+          "DOI": "10.1371/journal.pcbi.1008543",
+          "article-title": "PremPS: Predicting the impact of missense mutations on protein stability",
+          "volume": "16",
+          "year": "2020",
+          "journal-title": "PLoS Comput Biol"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang N , et al. MutaBind2: Predicting the Impacts of Single and Multiple Mutations on Protein-Protein Interactions. iScience 23, 100939 (2020).",
+          "DOI": "10.1016/j.isci.2020.100939"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw374"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "1311",
+          "DOI": "10.1038/s42003-021-02826-3",
+          "article-title": "PremPLI: a machine learning model for predicting the effects of missense mutations on protein-ligand interactions",
+          "volume": "4",
+          "year": "2021",
+          "journal-title": "Commun Biol"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct401022c"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang N , et al. PremPRI: Predicting the Effects of Missense Mutations on Protein-RNA Interactions. Int J Mol Sci 21, (2020).",
+          "DOI": "10.1101/2020.04.07.029520"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1006615",
+          "DOI": "10.1371/journal.pcbi.1006615",
+          "article-title": "PremPDI estimates and interprets the effects of missense mutations on protein-DNA interactions",
+          "volume": "14",
+          "year": "2018",
+          "journal-title": "PLoS Comput Biol"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pancotti C , et al. Predicting protein stability changes upon single-point mutation: a thorough comparison of the available tools on a new dataset. Brief Bioinform 23, (2022).",
+          "DOI": "10.1093/bib/bbab555"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Huang YQ , Sun P , Chen Y , Liu HX , Hao GF , Song BA . Bioinformatics toolbox for exploring target mutation-induced drug resistance. Brief Bioinform 24, (2023).",
+          "DOI": "10.1093/bib/bbad033"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sequeiros-Borja CE , Surpeta B , Brezovsky J . Recent advances in user-friendly computational tools to engineer protein function. Brief Bioinform 22, (2021).",
+          "DOI": "10.1093/bib/bbaa150"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2021.11.001"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Benevenuta S , Pancotti C , Fariselli P , Birolo G , Sanavia T . An antisymmetric neural network to predict free energy changes in protein variants. Journal of Physics D: Applied Physics 54, 245403 (2021).",
+          "DOI": "10.1088/1361-6463/abedfb"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nikam R , Yugandhar K , Michael Gromiha M . Discrimination and Prediction of Protein-Protein Binding Affinity Using Deep Learning Approach. Intelligent Computing Theories and Application, 809–815 (2018).",
+          "DOI": "10.1007/978-3-319-95933-7_89"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "729",
+          "DOI": "10.1142/S2737416522500314",
+          "article-title": "SeBPPI: A Sequence-Based Protein–Protein Binding Predictor",
+          "volume": "21",
+          "year": "2022",
+          "journal-title": "Journal of Computational Biophysics and Chemistry"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.93.1.13"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2013.08.002"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcp.20356"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "221",
+          "DOI": "10.1007/978-1-4939-7201-2_15",
+          "article-title": "Exploring Protein-Protein Interactions as Drug Targets for Anti-cancer Therapy with In Silico Workflows",
+          "volume": "1647",
+          "year": "2017",
+          "journal-title": "Methods Mol Biol"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/npp.2008.151"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.23",
+          "first-page": "45",
+          "article-title": "Optimization of therapeutic antibodies",
+          "volume": "4",
+          "year": "2021",
+          "journal-title": "Antib Ther"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kastritis PL , Bonvin AM . On the binding affinity of macromolecular interactions: daring to ask why proteins interact. J R Soc Interface 10, 20120835 (2013).",
+          "DOI": "10.1098/rsif.2012.0835"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "430",
+          "DOI": "10.2174/1568009618666180803104631",
+          "article-title": "Exploring Proteomic Drug Targets, Therapeutic Strategies and Protein - Protein Interactions in Cancer: Mechanistic View",
+          "volume": "19",
+          "year": "2019",
+          "journal-title": "Current cancer drug targets"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-59745-483-4_14"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1074-5521(96)90063-0"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1112171109"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm1859"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1202617"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Siebenmorgen T , Zacharias M . Computational prediction of protein–protein binding affinities. WIREs Computational Molecular Science 10, (2019).",
+          "DOI": "10.1002/wcms.1448"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1114017109"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "210",
+          "DOI": "10.1021/acs.jctc.6b00979",
+          "article-title": "and Reliable Relative Free Energy Prediction Using Ensemble Based Thermodynamic Integration",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "J Chem Theory Comput"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21372"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "11057",
+          "DOI": "10.1021/acsomega.1c07037",
+          "article-title": "Protein-Protein Binding Free Energy Predictions with the MM/PBSA Approach Complemented with the Gaussian-Based Method for Entropy Estimation",
+          "volume": "7",
+          "year": "2022",
+          "journal-title": "ACS Omega"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.257"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm049314d"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jproteome.2c00020"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "31",
+          "DOI": "10.1016/j.sbi.2016.10.016",
+          "article-title": "Protein-protein interactions: scoring schemes and binding affinity",
+          "volume": "44",
+          "year": "2017",
+          "journal-title": "Curr Opin Struct Biol"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr513"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.2027"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "795",
+          "DOI": "10.1016/j.bpj.2015.01.001",
+          "article-title": "Minimalistic predictor of protein binding energy: contribution of solvation factor to protein binding",
+          "volume": "108",
+          "year": "2015",
+          "journal-title": "Biophys J"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Abbasi WA , Yaseen A , Hassan FU , Andleeb S , Minhas F . ISLAND: in-silico proteins binding affinity prediction using sequence information. BioData Min 13, 20 (2020).",
+          "DOI": "10.1186/s13040-020-00231-w"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.07454"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw514"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu580"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2015.07.016"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "462",
+          "DOI": "10.1093/bioinformatics/bty635",
+          "article-title": "SKEMPI 2.0: an updated benchmark of changes in protein-protein binding energy, kinetics and thermodynamics upon mutation",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "2787",
+          "DOI": "10.1093/bioinformatics/btx312",
+          "article-title": "PROXiMATE: a database of mutant protein-protein complex thermodynamics and kinetics",
+          "volume": "33",
+          "year": "2017",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm030580l"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cpbi.5"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp973084f"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20289"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki524"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.59",
+          "unstructured": "Pedregosa F , et al. Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research 12, 2825–2830."
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.60",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Brooks BR , Bruccoleri RE , Olafson BD , States DJ , Swaminathan Sa , Karplus MJJocc . CHARMM: a program for macromolecular energy, minimization, and dynamics calculations. 4, 187–217 (1983).",
+          "DOI": "10.1002/jcc.540040211"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq1105"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bip.360221211"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0046688"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "1445",
+          "DOI": "10.1093/bioinformatics/btz773",
+          "article-title": "SOLart: a structure-based method to predict protein solubility and aggregation",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.4023714"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm998"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/18.4.608"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.68",
+          "doi-asserted-by": "crossref",
+          "first-page": "809",
+          "DOI": "10.1016/j.bpj.2018.07.035",
+          "article-title": "Contact Potential for Structure Prediction of Proteins and Protein Complexes from Potts Model",
+          "volume": "115",
+          "year": "2018",
+          "journal-title": "Biophys J"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.69",
+          "doi-asserted-by": "crossref",
+          "first-page": "419",
+          "DOI": "10.1007/s00894-009-0541-y",
+          "article-title": "McVol - a program for calculating protein volumes and identifying cavities by a Monte Carlo algorithm",
+          "volume": "16",
+          "year": "2010",
+          "journal-title": "J Mol Model"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.580"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.24235"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1050"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1043"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1180"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(02)00442-4"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0020161"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.77",
+          "unstructured": "Kollman PA , et al. Calculating structures and free energies of complex molecules: combining molecular mechanics and continuum models."
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.22921"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu594"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.21373"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.21920"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq007"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.21419"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.21495"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.24214"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.22550"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci100353e"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/00221300309601282"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2531595"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0121945"
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.91",
+          "unstructured": "Virtanen P , et al. SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python. Nature Methods 17, 261–272."
+        },
+        {
+          "key": "2023101104200660000_2023.10.03.560786v1.92",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhu W , Shenoy A , Kundrotas P , Elofsson A . Evaluation of AlphaFold-Multimer prediction on multi-chain protein complexes. Bioinformatics 39, (2023).",
+          "DOI": "10.1093/bioinformatics/btad424"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.10.03.560786",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:20:01Z",
+        "timestamp": 1768454401000
+      },
+      "score": 111.79115,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.10.03.560786"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            5
+          ]
+        ]
+      },
+      "references-count": 92,
+      "URL": "https://doi.org/10.1101/2023.10.03.560786",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.csbj.2023.12.018",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            5
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

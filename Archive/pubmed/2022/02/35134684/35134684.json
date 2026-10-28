@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "35134684",
+    "doi": "10.1016/j.bios.2021.113897",
+    "title": "De novo design of a transcription factor for a progesterone biosensor."
+  },
+  "content": {
+    "abstract": "Identifying, isolating, and obtaining naturally occurring transcription factors (TFs) is crucial for developing transcription-dependent biosensors. However, identifying and optimizing TFs for given molecules requires extensive time and effort. Accordingly, here, we report a strategy for the de novo design of a nonnatural TF, DLA, on the basis of a subtle conformational change of the ligand-binding domain (LBD) after the binding of a target molecule with its receptor. For the de novo design of DLA, we applied molecular dynamics to simulate different conformational states of DLA in order to understand the complete activity of DLA, which involves shortening of the distance between the DNA-binding domain (DBD) and the activation domain (AD) after progesterone binds to its LBD within DLA. The simulated results suggested that prokaryotic LexA, a truncated LBD from the progesterone receptor, and prokaryotic B42 together constitute DLA with a TF function. As a proof of concept, DLA was used as a transcription activator controlling the transcription of green fluorescent protein to construct an S. cerevisiae biosensor for progesterone detection. The progesterone-specific biosensor was successfully constructed with a sensitivity index EC(50) of 27 mug/L, working range (0.16-60 mug/L), and time-to-detection (2.5 h). Ultimately, a low-cost, user-friendly kit was developed for the rapid detection of progesterone in the clinic. Theoretically, this work can also be used to develop a variety of other biosensors by employing the same strategy.",
+    "keywords": [
+      "Artificial transcription factor",
+      "Diagnosis",
+      "Molecular dynamics simulation",
+      "Progesterone biosensor",
+      "Whole-cell"
+    ],
+    "mesh_terms": [
+      "*Biosensing Techniques/methods",
+      "Gene Expression Regulation",
+      "Progesterone",
+      "Saccharomyces cerevisiae/metabolism",
+      "*Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Kun",
+        "Zhang, Yunsen",
+        "Liu, Ke",
+        "Zhao, Yunqiu",
+        "Gao, Bei",
+        "Tao, Xinyi",
+        "Zhao, Ming",
+        "Wang, Feng-Qing",
+        "Wei, Dongzhi"
+      ],
+      "short_names": [
+        "Liu K",
+        "Zhang Y",
+        "Liu K",
+        "Zhao Y",
+        "Gao B",
+        "Tao X",
+        "Zhao M",
+        "Wang FQ",
+        "Wei D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237, China.",
+        "School of Ethnic Medicine, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, China.",
+        "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237, China.",
+        "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237, China.",
+        "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237, China.",
+        "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237, China.",
+        "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237, China.",
+        "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237, China. Electronic address: fqwang@ecust.edu.cn.",
+        "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237, China. Electronic address: dzhwei@ecust.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Kun",
+        "short_name": "Liu K",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yunsen",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Ethnic Medicine, Chengdu University of Traditional Chinese Medicine, Chengdu, 611137, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ke",
+        "short_name": "Liu K",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yunqiu",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Bei",
+        "short_name": "Gao B",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Xinyi",
+        "short_name": "Tao X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ming",
+        "short_name": "Zhao M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Feng-Qing",
+        "short_name": "Wang FQ",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237, China. Electronic address: fqwang@ecust.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wei, Dongzhi",
+        "short_name": "Wei D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, 130 Meilong Road, Shanghai, 200237, China. Electronic address: dzhwei@ecust.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biosensors & bioelectronics"
+    ],
+    "journal_abbrev": [
+      "Biosens Bioelectron"
+    ],
+    "pub_date": "2022 May 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/09 06:00",
+    "fetched_at": "2026-09-28 05:06:57"
+  },
+  "links": {
+    "cites": [
+      "42601542",
+      "42326856",
+      "41655251",
+      "41551738",
+      "41543532",
+      "41310207",
+      "40575295",
+      "39800796",
+      "39509282",
+      "39108279",
+      "38758251",
+      "38647746",
+      "38616975",
+      "37700097",
+      "36269495",
+      "35412319"
+    ],
+    "refs": [],
+    "similar": [
+      "35134684",
+      "38616975",
+      "26714111",
+      "30204430",
+      "36550338",
+      "35412319",
+      "38696354",
+      "32152281",
+      "32690010",
+      "31777933",
+      "32268060",
+      "36526685",
+      "35872379",
+      "27642864",
+      "9033395",
+      "33864457",
+      "31433622",
+      "1586949",
+      "29170965",
+      "31935067",
+      "31373795",
+      "17637799",
+      "31335131",
+      "34477863",
+      "26521244",
+      "27419466",
+      "30004013",
+      "33975701",
+      "27744683",
+      "37053505",
+      "35089702",
+      "33899477",
+      "16209540",
+      "25559499",
+      "30563319",
+      "32798802",
+      "31742324",
+      "8264659",
+      "31525958",
+      "30064218",
+      "8058776",
+      "8662980",
+      "18174357",
+      "22189060",
+      "31067766",
+      "12054769",
+      "32058699",
+      "15712302",
+      "22238267",
+      "27208139",
+      "28237255",
+      "32054475",
+      "9212059",
+      "22074568",
+      "12650714",
+      "38468096",
+      "27216648",
+      "2689442",
+      "18769540",
+      "31134186",
+      "17188753",
+      "25299987",
+      "33555859",
+      "29087704",
+      "32945589",
+      "23153078",
+      "7838157",
+      "27824891",
+      "27583695",
+      "23912807",
+      "33035895",
+      "33496568",
+      "29688705",
+      "10082539",
+      "7862171",
+      "30972468",
+      "32078765",
+      "31778177",
+      "8628257",
+      "32339148",
+      "29614096",
+      "10379890",
+      "16701070",
+      "23609235",
+      "33332385",
+      "34918775",
+      "30840628",
+      "16025279",
+      "29961098",
+      "35015142",
+      "10750018",
+      "28790414",
+      "17252601",
+      "23636944",
+      "31689103",
+      "33045666",
+      "9849965",
+      "38817964",
+      "27045526",
+      "28531348",
+      "16645037",
+      "32858223",
+      "25486123"
+    ],
+    "review": [
+      "35134684",
+      "35872379",
+      "26521244",
+      "33899477",
+      "31742324",
+      "27583695"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0956-5663(21)00934-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35134684",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

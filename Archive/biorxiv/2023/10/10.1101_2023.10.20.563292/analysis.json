@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.20.563292",
+  "title": "Three-dimensional localization of fluorescent proteins in living Escherichia coli",
+  "authors": "Karempudi P; Gras K; Amselem E; Zikrin S; Elf J",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-21",
+  "window": {
+    "start": "2023-10-16",
+    "end": "2023-10-22"
+  },
+  "score": 2,
+  "one_liner_zh": "该文利用深度学习实现活体大肠杆菌中荧光蛋白的三维定位，研究染色体位点空间分布，虽涉及蛋白定位但非蛋白质-DNA互作或TF-DNA结合机制建模，与本课题关联微弱。",
+  "abstract": "3D localization of fluorescent proteins (FPs) in living bacteria has been challenging due to the low signal-to-background ratio of the FPs and the relatively uncertain positioning of the cells in the optical reference system. Using mother-machine microfluidic devices together with deep learning, we present an approach that enables accurate 3D localization of FPs in Escherichia coli over long periods. We describe a method to simulate ground truth training data for the deep learning network based on background models generated from experimental data. We test the method by studying how chromosomal loci are relocated in 3D over the E. coli cell cycle. Since the cells are radially symmetric, we expect the same width and height distribution of fluorophores if the 3D positions are correctly determined. We observe this pattern experimentally for all the labelled loci on the chromosome. Interestingly, some loci are located exclusively in the periphery of the nucleoid, while others are more confined to the core of the nucleoid. This method enables studying any chromosomal loci inside living E. coli cells in high-throughput.",
+  "abstract_zh": "活细菌中荧光蛋白（FPs）的三维定位一直具有挑战性，原因在于FPs的低信号背景比以及细胞在光学参考系统中相对不确定的定位。利用母机微流控装置结合深度学习，我们提出了一种方法，能够在长时间内实现对大肠杆菌中FPs的精确三维定位。我们描述了一种基于实验数据生成的背景模型来模拟深度学习网络的地面真值训练数据的方法。我们通过研究染色体位点在大肠杆菌细胞周期中的三维重定位来测试该方法。由于细胞呈径向对称，如果三维位置被正确确定，我们预期荧光团的宽度和高度分布相同。我们在实验中对染色体上所有标记的位点观察到了这一模式。有趣的是，一些位点仅位于核仁周边，而其他位点则更局限于核仁核心。该方法能够高通量地研究活体大肠杆菌细胞内的任何染色体位点。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.20.563292",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.20.563292",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.20.563292/index.html"
+}

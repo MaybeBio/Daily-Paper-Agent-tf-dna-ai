@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "42441082",
+    "doi": "10.34133/csbj.0060",
+    "title": "caRBP-Pred: Leveraging Protein Language Models for the Prediction of Chromatin-Associated RNA-Binding Proteins."
+  },
+  "content": {
+    "abstract": "RNA-binding proteins (RBPs) play pivotal roles in cellular processes ranging from RNA metabolism to 3-dimensional genome organization. A distinct subset, chromatin-associated RBPs (caRBPs), binds directly to chromatin to function as transcriptional regulators. However, experimental identification of caRBPs using techniques such as chromatin immunoprecipitation sequencing and mass spectrometry is labor-intensive and costly. Existing computational tools for DNA-binding protein and RBP prediction often rely on outdated Gene Ontology annotations and fail to capture the unique characteristics of chromatin association. Here, we introduce caRBP-Pred, a deep learning framework that integrates a pre-trained protein language model with convolutional neural networks and bidirectional long short-term memory networks. By leveraging full-length protein sequences and evolutionary embeddings from ProtT5-XL, caRBP-Pred significantly outperforms existing DNA- and RNA-binding protein predictors. Application of our model to the mouse proteome identified 41 high-confidence caRBP candidates. Multidimensional validation using the COMPARTMENTS database and InterProScan confirmed that a proportion of these candidates possess experimentally verified chromatin-binding domains or high-confidence nuclear localization. Collectively, caRBP-Pred is the first computational tool specifically designed for caRBP prediction, offering a valuable resource for investigating the regulatory roles of caRBPs in chromatin-related function.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Qiang",
+        "Yang, Feng",
+        "Sun, Hao",
+        "Wang, Huating",
+        "Chen, Xiaona"
+      ],
+      "short_names": [
+        "Sun Q",
+        "Yang F",
+        "Sun H",
+        "Wang H",
+        "Chen X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5547-9501",
+        "ORCID: 0000-0001-6241-811X"
+      ],
+      "affiliations": [
+        "Department of Orthopaedics and Traumatology, Li Ka Shing Institute of Health Sciences, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Center for Neuromusculoskeletal Restorative Medicine, Hong Kong SAR, China.",
+        "Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, Zhejiang, China.",
+        "Department of Orthopaedics and Traumatology, Li Ka Shing Institute of Health Sciences, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Center for Neuromusculoskeletal Restorative Medicine, Hong Kong SAR, China.",
+        "Department of Bioinformatics, Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, Guangdong, China.",
+        "Department of Orthopaedics and Traumatology, Li Ka Shing Institute of Health Sciences, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Center for Neuromusculoskeletal Restorative Medicine, Hong Kong SAR, China.",
+        "Department of Orthopaedics and Traumatology, Li Ka Shing Institute of Health Sciences, The Chinese University of Hong Kong, Hong Kong, China.",
+        "Center for Neuromusculoskeletal Restorative Medicine, Hong Kong SAR, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Qiang",
+        "short_name": "Sun Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics and Traumatology, Li Ka Shing Institute of Health Sciences, The Chinese University of Hong Kong, Hong Kong, China.",
+          "Center for Neuromusculoskeletal Restorative Medicine, Hong Kong SAR, China.",
+          "Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Feng",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics and Traumatology, Li Ka Shing Institute of Health Sciences, The Chinese University of Hong Kong, Hong Kong, China.",
+          "Center for Neuromusculoskeletal Restorative Medicine, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Hao",
+        "short_name": "Sun H",
+        "identifiers": [
+          "0000-0002-5547-9501"
+        ],
+        "affiliations": [
+          "Department of Bioinformatics, Warshel Institute for Computational Biology, School of Medicine, The Chinese University of Hong Kong, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Huating",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics and Traumatology, Li Ka Shing Institute of Health Sciences, The Chinese University of Hong Kong, Hong Kong, China.",
+          "Center for Neuromusculoskeletal Restorative Medicine, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiaona",
+        "short_name": "Chen X",
+        "identifiers": [
+          "0000-0001-6241-811X"
+        ],
+        "affiliations": [
+          "Department of Orthopaedics and Traumatology, Li Ka Shing Institute of Health Sciences, The Chinese University of Hong Kong, Hong Kong, China.",
+          "Center for Neuromusculoskeletal Restorative Medicine, Hong Kong SAR, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/13 22:48",
+    "fetched_at": "2026-10-02 01:52:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40439671",
+      "39990254",
+      "39818834",
+      "39138204",
+      "39122006",
+      "38383529",
+      "37997848",
+      "37962385",
+      "37270323",
+      "37045843",
+      "36689472",
+      "35719916",
+      "35649392",
+      "35521556",
+      "35176130",
+      "34871434",
+      "34649616",
+      "34232869",
+      "33986992",
+      "33780344",
+      "33606243",
+      "33334313",
+      "33196814",
+      "32920048",
+      "32728246",
+      "32681508",
+      "32201808",
+      "31725778",
+      "31722485",
+      "31677973",
+      "31629687",
+      "31251911",
+      "31128943",
+      "30323214",
+      "29961577",
+      "29273625",
+      "27993780",
+      "27775709",
+      "27729296",
+      "25870414",
+      "24573882",
+      "24493033",
+      "24451626",
+      "20172959",
+      "19458158",
+      "16731699",
+      "12598368"
+    ],
+    "similar": [
+      "42441082",
+      "35649392",
+      "42475469",
+      "41172803",
+      "34871434",
+      "42045261",
+      "28245811",
+      "32808039",
+      "33334313",
+      "42157243",
+      "29722865",
+      "38856168",
+      "35768792",
+      "40847540",
+      "35652477",
+      "32920048",
+      "30698743",
+      "29970003",
+      "41762162",
+      "40646507",
+      "31323206",
+      "34571539",
+      "41921197",
+      "28336542",
+      "39695955",
+      "33685590",
+      "39617063",
+      "33552144",
+      "41257586",
+      "39489606",
+      "38986796",
+      "31824574",
+      "42015301",
+      "41285097",
+      "42288985",
+      "38303473",
+      "41564724",
+      "39214282",
+      "31888461",
+      "38660008",
+      "41865419",
+      "34729306",
+      "31537716",
+      "34415289",
+      "35263332",
+      "17411336",
+      "23610392",
+      "28881969",
+      "40102719",
+      "24999558",
+      "42099803",
+      "40601256",
+      "41875143",
+      "27161996",
+      "31513916",
+      "40119803",
+      "32503474",
+      "34038367",
+      "35189638",
+      "31722485",
+      "40121399",
+      "38615462",
+      "39357703",
+      "31251911",
+      "40837854",
+      "31026297",
+      "41277526",
+      "42409279",
+      "37158175",
+      "42012716",
+      "40628826",
+      "41284811",
+      "22481296",
+      "40404282",
+      "37421941",
+      "33780344",
+      "41130478",
+      "41448304",
+      "28334975",
+      "26540053",
+      "34406415",
+      "37635383",
+      "39433833",
+      "34649616",
+      "40053625",
+      "27768875",
+      "42322462",
+      "41232885",
+      "35443054",
+      "37328639",
+      "42185831",
+      "25652745",
+      "24123256",
+      "23872922",
+      "19759913",
+      "35456374",
+      "42353306",
+      "41684299",
+      "20603381",
+      "42412843"
+    ],
+    "review": [
+      "42441082",
+      "40847540",
+      "35652477",
+      "40404282",
+      "26540053",
+      "42322462",
+      "23872922"
+    ],
+    "pmc": [
+      "13336236"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/0060",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42441082/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

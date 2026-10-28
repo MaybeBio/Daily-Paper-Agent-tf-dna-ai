@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.30.621056",
+  "title": "AlphaFold 2, but not AlphaFold 3, predicts confident but unrealistic β-solenoid structures for repeat proteins",
+  "authors": "Pratt OS; Elliott LG; Haon M; Mesdaghi S; Price RM; Simpkin AJ; Rigden DJ",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-30",
+  "window": {
+    "start": "2024-10-28",
+    "end": "2024-11-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文评估AlphaFold 2对重复蛋白序列预测出高置信但不可靠的β-solenoid结构，涉及蛋白质结构预测与MD验证，但非蛋白质-DNA互作体系，方法可迁移至TF-DNA结构建模。",
+  "abstract": "AlphaFold 2 has revolutionised protein structure prediction but, like any new tool, its performance on specific classes of targets, especially those potentially under- represented in its training data, merits attention. Prompted by a highly confident prediction for a biologically meaningless, scrambled repeat sequence, we assessed AF2 performance on sequences comprised perfect repeats of random sequences of different lengths. AF2 frequently folds such sequences into β-solenoids which, while ascribed high confidence, contain unusual and implausible features such as internally stacked and uncompensated charged residues. A number of sequences confidently predicted as β-solenoids are predicted by other advanced methods as intrinsically disordered. The instability of some predictions is demonstrated by Molecular Dynamics. Importantly, other Deep Learning-based structure prediction tools predict different structures or β-solenoids with much lower confidence suggesting that AF2 alone has an unreasonable tendency to predict confident but unrealistic β-solenoids for perfect repeat sequences. The potential implications for structure prediction of natural (near-)perfect sequence repeat proteins are also explored.",
+  "abstract_zh": "AlphaFold 2 已彻底改变了蛋白质结构预测领域，但如同任何新工具，其在特定类别靶标上的表现，尤其是那些可能在训练数据中代表性不足的靶标，值得关注。受一个对生物学上无意义的、混乱重复序列的高置信度预测的启发，我们评估了AF2在不同长度随机序列完美重复组成的序列上的性能。AF2经常将这些序列折叠成β-螺旋结构，尽管被赋予高置信度，但这些结构包含异常且不合理的特征，如内部堆叠且未补偿的带电残基。一些被高置信度预测为β-螺旋的序列，被其他先进方法预测为固有无序。某些预测的不稳定性通过分子动力学 (molecular dynamics) 得到证实。重要的是，其他基于深度学习 (deep learning) 的结构预测工具预测出不同的结构或置信度低得多的β-螺旋，这表明仅AF2对完美重复序列存在不合理地预测高置信度但不切实际的β-螺旋的倾向。此外，还探讨了其对天然（近）完美序列重复蛋白结构预测的潜在影响。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.30.621056",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.30.621056",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.30.621056/index.html"
+}

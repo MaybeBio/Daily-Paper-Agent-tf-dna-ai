@@ -1,0 +1,111 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, methods, results, discussion, and supplemental figure legends
+- **Assessment boundary** Scientific validity of claims based on provided evidence; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors propose that the N-terminal domain (NTD) of TDP-43 interacts directly with the tandem RNA recognition motifs (RRM1 and RRM2), that this interaction perturbs residues involved in RNA binding, and that the presence of the NTD alters RNA binding affinity for short UG-rich sequences.
+- **Visible evidence base** 2D [1H,15N] HSQC-NMR spectra of TDP-43 102-260 and TDP-43 1-260; chemical shift perturbation analysis; HADDOCK and ClusPro docking; I-TASSER-MTD and RaptorX structure predictions; CPMG relaxation dispersion NMR; microscale thermophoresis binding assays
+- **Missing materials affecting confidence** No figures or tables were provided; no NMR assignment details; no raw CPMG data or relaxation dispersion curves; no MST binding curves or fitted parameters; no statistical analysis details; no validation metrics for docking or structure prediction models
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially important question regarding interdomain communication in TDP-43, a protein of high biomedical relevance. The combination of NMR spectroscopy, computational docking, and binding assays is appropriate in principle. However, the evidence as presented is insufficient to establish the central claims. The NMR data are described qualitatively without showing spectra or quantitative perturbation analysis. The CPMG experiment is described as evidence of interaction, but no relaxation dispersion data, exchange parameters, or control experiments are shown. The MST data are described with a single apparent Kd value for one construct, with no replicates, error estimates, or binding curves. The computational predictions are presented without validation metrics or discussion of model uncertainty. The conclusion that the NTD "protects" against non-specific RNA binding is speculative and not directly tested. The manuscript requires substantial additional data and analysis before the claims can be considered established.
+- **Who would be interested in the results, and why** Researchers studying TDP-43 structure and function, particularly those interested in ALS and FTD pathogenesis, RNA binding proteins, and the role of interdomain interactions in protein function. The potential implication for N-terminal tagged constructs would also be of interest to the broader TDP-43 community.
+- **Major strengths** The question of NTD-RRM interdomain interactions in TDP-43 is timely and important. The use of multiple complementary approaches (NMR, docking, structure prediction, binding assays) is commendable. The observation that the NTD affects RNA binding is potentially significant. The discussion of implications for tagged constructs is thoughtful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "clustered shifts in the RNA binding sites of both RRM domains" are observed when comparing TDP-43 102-260 and TDP-43 1-260.
+  - **Evidence pointer** Results section "2D [1H,15N] HSQC-NMR of TDP-43 102-260 vs. TDP-43 1-260"; Figure 1 (not provided)
+  - **Concern** The chemical shift perturbation analysis is described qualitatively. No spectra are shown, no quantitative CSP values are provided, and no threshold for significance is defined. The claim that shifts are "clustered" in RNA binding sites requires a quantitative mapping of perturbations onto the structure with statistical support. The authors state that 143 resonances were identified for TDP-43 102-260 and 208 for TDP-43 1-260, but the completeness of assignment and the confidence in resonance matching between constructs are not discussed.
+  - **Why it matters** The central observation of NTD-induced perturbations in the RRM domains is the foundation for all subsequent claims. Without quantitative CSP data and evidence of reliable resonance assignment transfer, the interaction claim is not supported.
+  - **Resolution test** Provide the 2D spectra as figures, show a CSP plot with per-residue values, define a significance threshold (e.g., 3σ as stated), and map significant perturbations onto the RRM structure. Provide evidence that resonance assignments were transferred reliably between constructs, or perform de novo assignment for TDP-43 1-260.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that CPMG relaxation dispersion NMR "demonstrated evidence of an interaction between NTD 1-102 and RRMs 102-260."
+  - **Evidence pointer** Results section "Biophysical assessment of NTD-RRM interactions using CPMG-NMR and SPR"; Figure 3 (not provided)
+  - **Concern** The CPMG experiment is described in a single sentence. No relaxation dispersion curves are shown, no Rex values are reported, no exchange rate constants or populations are extracted, and no comparison between apo and NTD-added conditions is quantified. The statement that "significant changes in signal intensity" were observed is not a demonstration of a specific interaction. The claim that the increased T2 tumbling rate indicates complex formation is not supported by the data described. The SPR experiment mentioned in the section title is not described at all in the text.
+  - **Why it matters** CPMG relaxation dispersion is a powerful technique, but the evidence must be presented quantitatively to support the claim of a specific, transient interaction. Without dispersion profiles and fitted exchange parameters, the observation of intensity changes could be attributed to non-specific effects such as viscosity, aggregation, or sample degradation.
+  - **Resolution test** Show representative relaxation dispersion curves for residues in both RRM domains in the absence and presence of NTD. Report fitted Rex values, exchange rate constants, and populations. Include control experiments (e.g., NTD alone, or a non-interacting protein) to rule out non-specific effects. Describe the SPR experiment and show the data or remove the mention.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that MST "demonstrated significant changes in RNA binding between TDP-43 102-260 and TDP-43 1-260," with an apparent Kd of 350 nM for (UG)4 binding to TDP-43 1-260.
+  - **Evidence pointer** Results section "NTD competes with RNA-binding to the RRM domains in 2D 15N-HSQC-NMR"; Figure 5 (not provided)
+  - **Concern** The MST data are described with a single Kd value. No binding curves are shown, no replicates are reported, no error estimates are provided, and no comparison of binding affinities across constructs and RNA lengths is quantified. The claim that (UG)4 does not bind to TDP-43 102-260 is based on "no chemical shifts" in NMR and a "Non-Binder model" in MST, but the sensitivity limits of both methods are not discussed. The statement that (UG)6 binds to both constructs is not quantified.
+  - **Why it matters** The differential RNA binding behavior is a key conclusion of the manuscript. Without quantitative binding data with appropriate error analysis, the claim that the NTD alters RNA binding affinity is not established. The possibility that the observed differences are due to experimental artifacts or differences in protein quality between constructs cannot be excluded.
+  - **Resolution test** Show MST binding curves for all construct-RNA combinations tested. Report Kd values with standard errors from at least three independent replicates. Provide a statistical comparison between conditions. Discuss the sensitivity limits of the NMR and MST assays for detecting weak binding.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive validity
+  - **Claim pointer** The authors claim that "the NTD may protect the RRM domain from non-specific RNA binding" and that "opening the TDP-43 NTD exposes the RRM domain and highly charged residues... that then allow RNAs to bind with higher affinity and specificity."
+  - **Evidence pointer** Discussion section; Conclusions
+  - **Concern** The functional interpretation that the NTD protects against non-specific RNA binding is speculative. The data show that (UG)4 binds to TDP-43 1-260 but not to TDP-43 102-260, which is interpreted as the NTD enhancing binding. However, the alternative interpretation that the NTD changes the conformation of the RRM domains to create a new binding site, or that the linker region contributes directly to binding, is not excluded. The claim of "protection" implies a regulatory function that is not directly tested.
+  - **Why it matters** The physiological relevance of the proposed mechanism depends on the interpretation. Overinterpretation of the data could mislead future studies on TDP-43 function and pathology.
+  - **Resolution test** Perform direct competition experiments where NTD is added in trans to TDP-43 102-260 and RNA binding is measured. Test whether the linker region alone can enhance RNA binding. Discuss alternative interpretations explicitly and provide a more cautious framing of the conclusions.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical rigor
+  - **Claim pointer** The authors state that "the shifted residues were not assigned using multi-dimensional NMR experiments which could lead to errors of precisely which residues were most significantly shifted."
+  - **Evidence pointer** Discussion section
+  - **Concern** The authors acknowledge a critical limitation in their NMR analysis: the CSP analysis relies on transferring assignments from TDP-43 102-260 to TDP-43 1-260 without de novo assignment. This is a significant technical concern because the presence of the NTD could alter the chemical environment of residues beyond the interaction interface, leading to misassignment. The authors do not describe how resonance matching was performed or what criteria were used.
+  - **Why it matters** If the assignments are incorrect, the mapping of perturbations onto specific residues and the identification of the interaction interface are unreliable. This affects the interpretation of which residues are involved in the NTD-RRM interaction.
+  - **Resolution test** Perform triple-resonance experiments (e.g., HNCACB, CBCA(CO)NH) on TDP-43 1-260 to obtain de novo assignments, or provide a detailed description of the transfer protocol with confidence metrics. Alternatively, use isotopic labeling strategies to isolate the RRM domain signals in the context of the full construct.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states that TDP-43 "plays a crucial role in the pathophysiology and progression of ALS" without citing specific evidence. This is a broad claim that should be supported or qualified.
+  - **Required correction** Add a brief citation or rephrase to indicate that this is an established finding in the field.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, NMR spectroscopy
+  - **Evidence pointer** Methods section "2D 15N-HSQC-NMR"
+  - **Issue** The NMR data collection parameters are incomplete. The temperature, number of scans, spectral widths, and acquisition times are not specified. The CSP calculation equation is referenced but not shown.
+  - **Required correction** Provide complete acquisition parameters and explicitly state the CSP equation used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, MST
+  - **Evidence pointer** Methods section "Microscale Thermophoresis"
+  - **Issue** The MST methods describe two different instruments (Monolith NT.115 and Monolith X) with different detection modes. The rationale for using different instruments for different constructs is not explained, and the consistency of results across instruments is not discussed.
+  - **Required correction** Explain why different instruments were used and provide a cross-validation of results on at least one condition.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretive validity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The statement that "one interpretation of overexpressed tagged TDP-43 and its predilection for aggregation could be due to non-specific RNA and possibly charged protein binding in the absence of N-terminal domain stacking" is highly speculative and not supported by data presented in this manuscript.
+  - **Required correction** Clearly label this as a hypothesis requiring direct testing and consider moving to a "Future Directions" section.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, docking
+  - **Evidence pointer** Results section "Prediction of interdomain contacts by simulating protein-protein interactions"; Table 1 (not provided)
+  - **Issue** The HADDOCK results are described with cluster numbers and scores, but the table is not provided. The criteria for selecting "favorable" clusters are not defined, and the relationship between the docking models and the NMR-derived perturbation data is not quantitatively assessed.
+  - **Required correction** Provide Table 1 and describe the scoring criteria. Consider showing a superposition of the top docking models with the NMR perturbation data mapped onto the structure.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, structure prediction
+  - **Evidence pointer** Results section "De novo sequence to structure prediction of TDP-43 1-260"
+  - **Issue** The description of I-TASSER-MTD and RaptorX results is brief and does not include confidence scores, model quality metrics, or a comparison of the predicted models with the docking results.
+  - **Required correction** Provide model quality metrics (e.g., C-score for I-TASSER, p-value for RaptorX) and discuss the agreement between the different computational approaches.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative CSP analysis required), R1-M2 (quantitative CPMG analysis required), R1-M3 (quantitative MST analysis with replicates and errors required)
+- **Assessment against Nature-style criteria** Originality: The question of NTD-RRM interdomain interactions in TDP-43 is of interest, but the concept of interdomain communication in multi-domain RNA binding proteins is not novel. The specific application to TDP-43 is valuable. Scientific importance: Potentially high, given the central role of TDP-43 in ALS and FTD, but the current evidence does not yet establish the proposed mechanism. Interdisciplinary readership: The topic would appeal to structural biologists, biochemists, and neuroscientists, but the current presentation is too specialized and lacks the broader context needed for a general audience. Technical soundness: The experimental approaches are appropriate in principle, but the data presentation is insufficient to assess technical rigor. Readability for nonspecialists: The manuscript assumes significant background knowledge and does not provide sufficient context for readers outside the TDP-43 field.
+- **Recommendation posture** Not established from the provided evidence. The manuscript addresses an important question and the experimental strategy is reasonable, but the data as presented are insufficient to support the central claims. Substantial additional data, including quantitative NMR analysis, complete binding curves with statistical analysis, and validation of computational models, are required before the claims can be evaluated.
+
+## Risk / unsupported claims
+- The claim that the NTD "protects" the RRM domain from non-specific RNA binding is not directly tested and is an overinterpretation of the data.
+- The claim that CPMG NMR "demonstrated evidence of an interaction" is unsupported because no quantitative relaxation dispersion data are shown.
+- The claim that (UG)4 does not bind to TDP-43 102-260 is based on negative evidence without discussion of assay sensitivity limits.
+- The claim that the NTD stacks onto the RRM domains is based on computational predictions that are not validated experimentally and are not quantitatively compared to the NMR data.
+- The statement that "opening the TDP-43 NTD exposes the RRM domain and highly charged residues... that then allow RNAs to bind with higher affinity and specificity" is speculative and not supported by the data presented.
+- The relevance of the D169G mutation to the proposed NTD-RRM interaction is discussed but not experimentally tested.

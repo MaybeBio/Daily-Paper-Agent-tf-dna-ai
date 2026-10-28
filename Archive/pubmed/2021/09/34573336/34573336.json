@@ -1,0 +1,350 @@
+{
+  "identity": {
+    "pmid": "34573336",
+    "doi": "10.3390/genes12091351",
+    "title": "Identification of Key Transcription Factors Related to Bacterial Spot Resistance in Pepper through Regulatory Network Analyses."
+  },
+  "content": {
+    "abstract": "Bacterial spot (BS), caused by Xanthomonas campestris pv. Vesicatoria (Xcv), severely affects the quality and yield of pepper. Thus, breeding new pepper cultivars with enhanced resistance to BS can improve economic benefits for pepper production. Identification of BS resistance genes is an essential step to achieve this goal. However, very few BS resistance genes have been well characterized in pepper so far. In this study, we reanalyzed public multiple time points related to RNA-seq data sets from two pepper cultivars, the Xcv-susceptible cultivar ECW and the Xcv-resistant cultivar VI037601, post Xcv infection. We identified a total of 3568 differentially expressed genes (DEGs) between two cultivars post Xcv infection, which were mainly involved in some biological processes, such as Gene Ontology (GO) terms related to defense response to bacterium, immune system process, and regulation of defense response, etc. Through weighted gene co-expression network analysis (WGCNA), we identified 15 hub (Hub) transcription factor (TF) candidates in response to Xcv infection. We further selected 20 TFs from the gene regulatory network (GRN) potentially involved in Xcv resistance response. Finally, we predicted 4 TFs, C3H (p-coumarate 3-hydroxylase), ERF (ethylene-responsive element binding factor), TALE (three-amino-acid-loop-extension), and HSF (heat shock transcription factor), as key factors responsible for BS disease resistance in pepper. In conclusion, our study provides valuable resources for dissecting the underlying molecular mechanism responsible for Xcv resistance in pepper. Additionally, it also provides valuable references for mining transcriptomic data to identify key candidates for disease resistance in horticulture crops.",
+    "keywords": [
+      "RNA-seq",
+      "Xcv",
+      "co-expression module",
+      "gene regulatory network",
+      "pepper"
+    ],
+    "mesh_terms": [
+      "Capsicum/*genetics/*microbiology",
+      "Disease Resistance/genetics",
+      "Gene Expression Regulation, Plant",
+      "Gene Regulatory Networks",
+      "Machine Learning",
+      "Plant Diseases/genetics/*microbiology",
+      "Plant Proteins/*genetics",
+      "Regulatory Sequences, Nucleic Acid",
+      "Reproducibility of Results",
+      "Sequence Analysis, RNA",
+      "Transcription Factors/*genetics",
+      "Xanthomonas vesicatoria/pathogenicity"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Qingquan",
+        "Gao, Shenghua",
+        "Zhang, Wenli"
+      ],
+      "short_names": [
+        "Zhu Q",
+        "Gao S",
+        "Zhang W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4640-8541",
+        "ORCID: 0000-0002-3832-1980",
+        "ORCID: 0000-0003-0710-1966"
+      ],
+      "affiliations": [
+        "State Key Laboratory for Crop Genetics and Germplasm Enhancement, Collaborative Innovation Center for Modern Crop Production Co-Sponsored by Province and Ministry (CIC-MCP), Nanjing Agricultural University, No.1 Weigang, Nanjing 210095, China.",
+        "Hubei Key Laboratory of Vegetable Germplasm Enhancement and Genetic Improvement, Cash Crops Research Institute, Hubei Academy of Agricultural Sciences, Wuhan 430070, China.",
+        "State Key Laboratory for Crop Genetics and Germplasm Enhancement, Collaborative Innovation Center for Modern Crop Production Co-Sponsored by Province and Ministry (CIC-MCP), Nanjing Agricultural University, No.1 Weigang, Nanjing 210095, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Qingquan",
+        "short_name": "Zhu Q",
+        "identifiers": [
+          "0000-0002-4640-8541"
+        ],
+        "affiliations": [
+          "State Key Laboratory for Crop Genetics and Germplasm Enhancement, Collaborative Innovation Center for Modern Crop Production Co-Sponsored by Province and Ministry (CIC-MCP), Nanjing Agricultural University, No.1 Weigang, Nanjing 210095, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Shenghua",
+        "short_name": "Gao S",
+        "identifiers": [
+          "0000-0002-3832-1980"
+        ],
+        "affiliations": [
+          "Hubei Key Laboratory of Vegetable Germplasm Enhancement and Genetic Improvement, Cash Crops Research Institute, Hubei Academy of Agricultural Sciences, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenli",
+        "short_name": "Zhang W",
+        "identifiers": [
+          "0000-0003-0710-1966"
+        ],
+        "affiliations": [
+          "State Key Laboratory for Crop Genetics and Germplasm Enhancement, Collaborative Innovation Center for Modern Crop Production Co-Sponsored by Province and Ministry (CIC-MCP), Nanjing Agricultural University, No.1 Weigang, Nanjing 210095, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2021 Aug 29",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/29 06:00",
+    "fetched_at": "2026-09-28 00:14:21"
+  },
+  "links": {
+    "cites": [
+      "42098626",
+      "40860728",
+      "36294563",
+      "36293517",
+      "35885895",
+      "35881688",
+      "35126435"
+    ],
+    "refs": [
+      "33705404",
+      "33337034",
+      "32762649",
+      "32522139",
+      "32343414",
+      "32276403",
+      "32187229",
+      "32054757",
+      "31737002",
+      "31614571",
+      "31533315",
+      "30423086",
+      "30418610",
+      "30115782",
+      "30111282",
+      "29730427",
+      "29498672",
+      "29115926",
+      "28396678",
+      "28365842",
+      "28077403",
+      "27924042",
+      "27540173",
+      "27493213",
+      "27208977",
+      "26838812",
+      "26667381",
+      "25865119",
+      "25751142",
+      "25730421",
+      "25666274",
+      "25649754",
+      "25533953",
+      "25516281",
+      "25335438",
+      "25220680",
+      "24227677",
+      "23663178",
+      "22455463",
+      "22112215",
+      "22039529",
+      "21789182",
+      "21153748",
+      "20927193",
+      "20356413",
+      "19400653",
+      "19400644",
+      "19114008",
+      "19083153",
+      "18943998",
+      "17716623",
+      "16723010",
+      "15612634",
+      "14597658",
+      "11725949",
+      "10758484"
+    ],
+    "similar": [
+      "34573336",
+      "33705404",
+      "23272161",
+      "22913752",
+      "18506481",
+      "25491184",
+      "26706081",
+      "24117868",
+      "21205632",
+      "25738319",
+      "11855726",
+      "15545602",
+      "35134217",
+      "25323422",
+      "19939946",
+      "26233534",
+      "15604723",
+      "21535260",
+      "39044136",
+      "22640562",
+      "21299658",
+      "23784462",
+      "18327607",
+      "12520329",
+      "29730427",
+      "24032447",
+      "28155188",
+      "38739764",
+      "25335438",
+      "25252816",
+      "31550522",
+      "23453188",
+      "23785289",
+      "33333784",
+      "18427932",
+      "17962564",
+      "12437295",
+      "24022744",
+      "23057972",
+      "29614367",
+      "15782348",
+      "16344945",
+      "26313760",
+      "25694549",
+      "11710530",
+      "27398933",
+      "23132937",
+      "16874489",
+      "21118349",
+      "26088319",
+      "21628629",
+      "22492811",
+      "17929052",
+      "12059102",
+      "25873668",
+      "18676663",
+      "29738468",
+      "34769521",
+      "28508261",
+      "16927203",
+      "22998579",
+      "21396108",
+      "32493221",
+      "31846710",
+      "12650451",
+      "14760538",
+      "19473322",
+      "16005163",
+      "26104875",
+      "32209000",
+      "21424609",
+      "18242775",
+      "15743446",
+      "15564537",
+      "29498672",
+      "17149652",
+      "30842619",
+      "11773524",
+      "29698473",
+      "25074588",
+      "35133857",
+      "21335377",
+      "17905862",
+      "19777255",
+      "24085708",
+      "35218893",
+      "16718483",
+      "28004240",
+      "21029318",
+      "19400644",
+      "23093361",
+      "25149655",
+      "27647723",
+      "35879667",
+      "36943531",
+      "27793102",
+      "25993303",
+      "39029820",
+      "38924220",
+      "37834210",
+      "35275280",
+      "37828130",
+      "34828347",
+      "35226664",
+      "36039368",
+      "38516670",
+      "39166246",
+      "39117335",
+      "37152997",
+      "26504558",
+      "37275256",
+      "38951818",
+      "38674502",
+      "33430258",
+      "35860403",
+      "24559060",
+      "36212322",
+      "30984219",
+      "37528972",
+      "29755291",
+      "36461221",
+      "35599873",
+      "36015396",
+      "36959250",
+      "36212275",
+      "35234935",
+      "36904008",
+      "37154901",
+      "35261357"
+    ],
+    "review": [
+      "34573336",
+      "25252816",
+      "28508261",
+      "19400644"
+    ],
+    "pmc": [
+      "8472308"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes12091351",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34573336/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34573336",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

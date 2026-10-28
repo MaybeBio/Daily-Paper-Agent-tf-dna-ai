@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "35534113",
+    "doi": "10.1016/bs.apcsb.2022.02.003",
+    "title": "Computational structural assessment of BReast CAncer type 1 susceptibility protein (BRCA1) and BRCA1-Associated Ring Domain protein 1 (BARD1) mutations on the protein-protein interface."
+  },
+  "content": {
+    "abstract": "Breast cancer type 1 susceptibility protein (BRCA1) is closely related to the BRCA2 (breast cancer type 2 susceptibility protein) and BARD1 (BRCA1-associated RING domain-1) proteins. The homodimers were formed through their RING fingers; however they form more compact heterodimers preferentially, influencing BRCA1 residues 1-109 and BARD1 residues 26-119. We implemented an integrative computational pipeline to screen all the mutations in BRCA1 and identify the most significant mutations influencing the Protein-Protein Interactions (PPI) in the BRCA1-BARD1 protein complex. The amino acids involved in the PPI regions were identified from the PDBsum database with the PDB ID: 1JM7. We screened 2118 missense mutations in BRCA1 and none in BARD1 for pathogenicity and stability and analyzed the amino acid sequences for conserved residues. We identified the most significant mutations from these screenings as V11G, M18K, L22S, and T97R positioned in the PPI regions of the BRCA1-BARD1 protein complex. We further performed protein-protein docking using the ZDOCK server. The native protein-protein complex showed the highest binding score of 2118.613, and the V11G mutant protein complex showed the least binding score of 1992.949. The other three mutation protein complexes had binding scores between the native and V11G protein complexes. Finally, a molecular dynamics simulation study using GROMACS was performed to comprehend changes in the BRCA1-BARD1 complex's binding pattern due to the mutation. From the analysis, we observed the highest deviation with lowest compactness and a decrease in the intramolecular h-bonds in the BRCA1-BARD1 protein complex with the V11G mutation compared to the native complex or the complexes with other mutations.",
+    "keywords": [
+      "BRCA1-BARD1",
+      "Molecular dynamics",
+      "Pathogenicity",
+      "Protein-protein interaction",
+      "Stability"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "*BRCA1 Protein/chemistry/genetics/metabolism",
+      "*Breast Neoplasms/genetics",
+      "Female",
+      "Humans",
+      "Mutation",
+      "Tumor Suppressor Proteins/genetics/metabolism",
+      "Ubiquitin-Protein Ligases/chemistry/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Thirumal Kumar, D",
+        "Udhaya Kumar, S",
+        "Jain, Nikita",
+        "Sowmya, Baviri",
+        "Balsekar, Kamakshi",
+        "Siva, R",
+        "Kamaraj, Balu",
+        "Sidenna, Mariem",
+        "George Priya Doss, C",
+        "Zayed, Hatem"
+      ],
+      "short_names": [
+        "Thirumal Kumar D",
+        "Udhaya Kumar S",
+        "Jain N",
+        "Sowmya B",
+        "Balsekar K",
+        "Siva R",
+        "Kamaraj B",
+        "Sidenna M",
+        "George Priya Doss C",
+        "Zayed H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India; Meenakshi Academy of Higher Education and Research (Deemed to be University), Chennai, Tamil Nadu, India.",
+        "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
+        "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
+        "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
+        "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
+        "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
+        "Department of Neuroscience Technology, College of Applied Medical Sciences, Imam Abdulrahman Bin Faisal University, Jubail, Saudi Arabia.",
+        "Department of Biomedical Sciences, College of Health and Sciences, QU Health, Qatar University, Doha, Qatar.",
+        "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
+        "Department of Biomedical Sciences, College of Health and Sciences, QU Health, Qatar University, Doha, Qatar. Electronic address: hatem.zayed@qu.edu.qa."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Thirumal Kumar, D",
+        "short_name": "Thirumal Kumar D",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India; Meenakshi Academy of Higher Education and Research (Deemed to be University), Chennai, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Udhaya Kumar, S",
+        "short_name": "Udhaya Kumar S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Jain, Nikita",
+        "short_name": "Jain N",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Sowmya, Baviri",
+        "short_name": "Sowmya B",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Balsekar, Kamakshi",
+        "short_name": "Balsekar K",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Siva, R",
+        "short_name": "Siva R",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Kamaraj, Balu",
+        "short_name": "Kamaraj B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience Technology, College of Applied Medical Sciences, Imam Abdulrahman Bin Faisal University, Jubail, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Sidenna, Mariem",
+        "short_name": "Sidenna M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, College of Health and Sciences, QU Health, Qatar University, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "George Priya Doss, C",
+        "short_name": "George Priya Doss C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Integrative Genomics, Department of Integrative Biology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Zayed, Hatem",
+        "short_name": "Zayed H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, College of Health and Sciences, QU Health, Qatar University, Doha, Qatar. Electronic address: hatem.zayed@qu.edu.qa."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advances in protein chemistry and structural biology"
+    ],
+    "journal_abbrev": [
+      "Adv Protein Chem Struct Biol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/10 06:00",
+    "fetched_at": "2026-09-28 08:19:38"
+  },
+  "links": {
+    "cites": [
+      "41057936",
+      "40977904"
+    ],
+    "refs": [],
+    "similar": [
+      "35534113",
+      "36775657",
+      "29367421",
+      "20060929",
+      "34591954",
+      "37339533",
+      "11573085",
+      "11278247",
+      "28976962",
+      "26350354",
+      "17848578",
+      "27977889",
+      "16403807",
+      "10026184",
+      "34789768",
+      "14638690",
+      "26395808",
+      "17497650",
+      "11807980",
+      "17392432",
+      "15265711",
+      "18493658",
+      "21393566",
+      "17550235",
+      "15159397",
+      "18443292",
+      "23056176",
+      "16061562",
+      "16489000",
+      "21982881",
+      "11773071",
+      "33789098",
+      "34102105",
+      "12732733",
+      "20967475",
+      "24289923",
+      "34619284",
+      "20077502",
+      "16768547",
+      "33589814",
+      "15665273",
+      "17510055",
+      "33114377",
+      "32708251",
+      "32722046",
+      "22262852",
+      "28948225",
+      "28262780",
+      "16633366",
+      "21344236",
+      "35351360",
+      "9798686",
+      "37305927",
+      "35084806",
+      "16152612",
+      "31270457",
+      "33593852",
+      "17185394",
+      "19117993",
+      "20878461",
+      "21087664",
+      "11526114",
+      "19164445",
+      "26010302",
+      "16108063",
+      "16651405",
+      "29858377",
+      "11790560",
+      "29686231",
+      "17333333",
+      "30925164",
+      "8944023",
+      "35280675",
+      "9425226",
+      "12431996",
+      "39243377",
+      "17028982",
+      "34610268",
+      "29180510",
+      "32347575",
+      "14647430",
+      "15632137",
+      "35650591",
+      "14976165",
+      "20451671",
+      "12485996",
+      "18243530",
+      "21815143",
+      "11943588",
+      "20351172",
+      "25634209",
+      "20842729",
+      "37823591",
+      "10195418",
+      "9832560",
+      "11593018",
+      "27197561",
+      "22544576",
+      "11925436",
+      "17081976",
+      "19176389",
+      "30244837",
+      "36732462",
+      "25994375",
+      "32726901",
+      "34518696",
+      "18842000",
+      "38990952",
+      "9342365",
+      "33623049",
+      "37418175",
+      "25748678",
+      "35659930",
+      "37948190",
+      "36530327",
+      "35548793",
+      "39387837",
+      "38242199",
+      "24411079",
+      "37502949",
+      "38485918"
+    ],
+    "review": [
+      "35534113",
+      "34591954",
+      "34619284",
+      "33114377",
+      "32708251",
+      "32722046",
+      "16633366",
+      "35351360",
+      "16108063",
+      "11790560",
+      "35650591",
+      "11943588",
+      "10195418"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1876-1623(22)00017-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

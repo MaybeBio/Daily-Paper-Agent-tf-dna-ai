@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37841836",
+  "title": "Towards a comprehensive regulatory map of Mammalian Genomes.",
+  "authors": "Goncalves, Tassia Mangetti; Stewart, Casey L; Baxley, Samantha D; Xu, Jason; Li, Daofeng; Gabel, Harrison W; Wang, Ting; Avraham, Oshri; Zhao, Guoyan",
+  "journal": "Research square",
+  "published_date": "2023-10-16",
+  "window": {
+    "start": "2023-10-16",
+    "end": "2023-10-22"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发无训练数据的CRM预测算法MrMOD，基于序列预测哺乳动物顺式调控模块，虽涉及转录因子结合位点关联，但核心是调控元件注释而非TF-DNA互作建模，方法为传统统计与机器学习，非AI/物理模拟，故为中档匹配。",
+  "abstract": "Genome mapping studies have generated a nearly complete collection of genes for the human genome, but we still lack an equivalently vetted inventory of human regulatory sequences. Cis-regulatory modules (CRMs) play important roles in controlling when, where, and how much a gene is expressed. We developed a training data-free CRM-prediction algorithm, the Mammalian Regulatory MOdule Detector (MrMOD) for accurate CRM prediction in mammalian genomes. MrMOD provides genome position-fixed CRM models similar to the fixed gene models for the mouse and human genomes using only genomic sequences as the inputs with one adjustable parameter - the significance p-value. Importantly, MrMOD predicts a comprehensive set of high-resolution CRMs in the mouse and human genomes including all types of regulatory modules not limited to any tissue, cell type, developmental stage, or condition. We computationally validated MrMOD predictions used a compendium of 21 orthogonal experimental data sets including thousands of experimentally defined CRMs and millions of putative regulatory elements derived from hundreds of different tissues, cell types, and stimulus conditions obtained from multiple databases. In ovo transgenic reporter assay demonstrates the power of our prediction in guiding experimental design. We analyzed CRMs located in the chromosome 17 using unsupervised machine learning and identified groups of CRMs with multiple lines of evidence supporting their functionality, linking CRMs with upstream binding transcription factors and downstream target genes. Our work provides a comprehensive base pair resolution annotation of the functional regulatory elements and non-functional regions in the mammalian genomes.",
+  "abstract_zh": "基因组作图研究已生成了人类基因组近乎完整的基因集合，但我们仍缺乏同等经过验证的人类调控序列目录。顺式调控模块 (cis-regulatory modules, CRMs) 在控制基因何时、何地以及表达多少方面发挥重要作用。我们开发了一种无需训练数据的CRM预测算法，即哺乳动物调控模块检测器 (Mammalian Regulatory MOdule Detector, MrMOD)，用于在哺乳动物基因组中进行准确的CRM预测。MrMOD提供基因组位置固定的CRM模型，类似于小鼠和人类基因组的固定基因模型，仅使用基因组序列作为输入，并带有一个可调参数——显著性p值。重要的是，MrMOD预测了小鼠和人类基因组中一套全面的高分辨率CRMs，包括所有类型的调控模块，不限于任何组织、细胞类型、发育阶段或条件。我们使用21个正交实验数据集的汇编对MrMOD预测进行了计算验证，这些数据集包括数千个实验定义的CRMs以及从多个数据库获得的数百种不同组织、细胞类型和刺激条件下衍生的数百万个推定调控元件。卵内转基因报告实验证明了我们的预测在指导实验设计方面的能力。我们使用无监督机器学习分析了位于17号染色体上的CRMs，并识别出具有多条证据支持其功能的CRM组，将CRMs与上游结合转录因子和下游靶基因联系起来。我们的工作为哺乳动物基因组中的功能性调控元件和非功能区域提供了全面的碱基对分辨率注释。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37841836/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37841836/",
+  "paper_page_path": "papers/pubmed/37841836/index.html"
+}

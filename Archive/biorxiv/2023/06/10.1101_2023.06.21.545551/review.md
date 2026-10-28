@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) without figures, tables, or supporting information
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence consistency based solely on the provided text
+- **Shared manuscript claim summary** The authors report that intrinsically disordered regions (IDRs) in the N-terminus of MYC, particularly MYC box 0 (Mb0), interact intramolecularly with the C-terminal MYC:MAX DNA binding domain (DBD) via electrostatic forces, that these interactions compete with DNA binding, and that they reduce the DNA association rate of full-length MYC:MAX complexes, as shown by NMR and SPR experiments.
+- **Visible evidence base** Text descriptions of NMR chemical shift perturbation experiments, titration data with fitted dissociation constants, competition experiments, SPR binding curves, and site-directed mutagenesis constructs
+- **Missing materials affecting confidence** All figures, tables (including Table 1 and Table S2), supporting information PDF, NMR assignment data, raw SPR sensorgrams, and statistical analyses
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question in MYC biology: whether intramolecular interactions between disordered regions and the DNA binding domain regulate MYC:MAX DNA binding. The authors present a plausible model supported by a combination of NMR and SPR data. However, the provided text lacks the quantitative data presentation necessary to fully evaluate the strength of the claims. The central conclusion that Mb0:DBD interactions are physiologically relevant rests on affinity measurements and competition experiments whose details are not fully visible. The work is potentially significant for understanding MYC regulation and for drug discovery, but the evidence as presented is incomplete.
+- **Who would be interested in the results, and why** Researchers studying MYC oncoprotein function, transcription factor regulation by intrinsically disordered regions, and biophysicists interested in IDR:domain interactions. The drug discovery community targeting MYC would also be interested given the proposed new targeting strategy.
+- **Major strengths** The study addresses a novel regulatory mechanism for MYC, a challenging and clinically important target. The use of full-length MYC:MAX complexes is a significant technical achievement. The combination of NMR and SPR provides complementary views of the interactions. The identification of Mb0 as a key regulatory element with micromolar affinity is a concrete and testable finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that intramolecular IDR:DBD interactions in MYC decelerate the association of MYC:MAX complexes to DNA, based on SPR experiments.
+  - **Evidence pointer** Results section "Disordered regions in full-length MYC reduce the DNA binding affinity of the MYC:MAX TF"; Figure 1
+  - **Concern** The SPR data supporting the 15- to 20-fold affinity reduction and the conclusion that this is due to slower association rates are described only qualitatively. No kinetic parameters (ka, kd, KD) are provided in the text. The claim that association is decelerated while dissociation is comparable is central to the mechanistic model, but the supporting sensorgrams and fitted values are not visible.
+  - **Why it matters** The mechanistic distinction between association-driven versus dissociation-driven affinity reduction is the foundation of the proposed "locked" state model. Without quantitative kinetic data, the model is not established.
+  - **Resolution test** Provide fitted kinetic parameters for all SPR experiments, including standard errors and goodness-of-fit statistics, and show representative sensorgrams with overlaid fits.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors report a KD of approximately 7 μM for Mb0 binding to the MYC:MAX DBD, and affinities between 50 and 500 μM for other fragments.
+  - **Evidence pointer** Results section "Mapping of interaction sites"; Table 1; Figure 3D; Figure S11
+  - **Concern** The dissociation constants are mentioned in the text but the actual values, fitting procedures, and error estimates are not presented. Table 1 is referenced but not provided. The number of replicates, the model used for fitting, and the quality of the fits are not described.
+  - **Why it matters** The relative affinities of different MYC fragments for the DBD are used to rank their importance and to argue that Mb0 is the dominant regulatory element. Without transparent affinity data, this ranking is not verifiable.
+  - **Resolution test** Present Table 1 with all KD values, standard deviations, number of independent experiments, and a description of the fitting model and its assumptions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors state that NMR competition experiments show that E-box DNA displaces Mb0 and MYC(256-299) from the DBD, and that phosphorylated MAX(2-21) competes with Mb0 for the same binding site.
+  - **Evidence pointer** Results section "Intramolecular backfolding and DNA binding are mutually exclusive"; Figure 4A; Figure S13
+  - **Concern** The competition experiments are described narratively but the NMR spectra, the extent of displacement, and the quantitative analysis are not shown. The claim that DNA and Mb0 occupy the same binding site requires demonstration that the observed CSPs are competitive rather than allosteric.
+  - **Why it matters** The mutual exclusivity of DNA and Mb0 binding is the key mechanistic claim. If the competition is not direct, the model of a "locked" state is weakened.
+  - **Resolution test** Show representative overlaid spectra for the competition titrations, quantify the fraction of bound versus free peptide at each DNA concentration, and provide a control experiment demonstrating that the observed effects are due to direct competition.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The authors propose that the intramolecular interactions identified in trans are also relevant in cis, based on experiments with full-length MYC:MAX.
+  - **Evidence pointer** Results section "Conquer full-length MYC:MAX by NMR"; Figure 4E and F
+  - **Concern** The evidence for intramolecular (cis) interactions in full-length MYC:MAX is limited to a single NMR experiment with 13C-MTC-labeled Cys25. The authors observe CSPs and intensity changes upon DNA addition, but do not demonstrate that these changes are due to intramolecular backfolding rather than intermolecular interactions between different MYC molecules in the sample.
+  - **Why it matters** The distinction between cis and trans interactions is critical for the biological interpretation. If the observed effects are intermolecular, the model of a single MYC molecule adopting a "locked" conformation is not supported.
+  - **Resolution test** Perform a concentration-dependent NMR experiment to show that the observed CSPs and intensity changes are independent of protein concentration, consistent with an intramolecular process. Alternatively, use a covalently linked construct that prevents intermolecular interactions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "location not provided"
+  - **Issue** The abstract states that "the interactions identified in this work are also relevant in cis" but does not specify which interactions or how this was determined.
+  - **Required correction** Briefly state the experimental approach used to demonstrate cis interactions in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, NMR spectroscopy
+  - **Evidence pointer** Methods section "NMR spectroscopy and data analysis"
+  - **Issue** The NMR titration data fitting equation is mentioned but the specific parameters and constraints used in the global fit are not described.
+  - **Required correction** Provide details on the fitting procedure, including which parameters were shared across datasets and how the stoichiometry was treated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, SPR
+  - **Evidence pointer** Methods section "SPR"
+  - **Issue** The SPR methods do not specify the immobilization strategy for DNA, the regeneration conditions, or whether mass transport limitations were assessed.
+  - **Required correction** Add these experimental details to allow replication.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section "Kinetic parameters establish a mechanistic model of DNA binding by the MYC:MAX TF"
+  - **Issue** The discussion of the "locked" state model would benefit from a more explicit statement of the assumptions and limitations of the model.
+  - **Required correction** Acknowledge that the model is based on in vitro data and that cellular validation is needed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The concept of intramolecular IDR:DBD regulation in MYC is novel and extends previous work on other transcription factors. Scientific importance: The findings have potential implications for understanding MYC regulation and for therapeutic targeting, which is of high importance given MYC's role in cancer. Interdisciplinary readership: The work bridges structural biology, biophysics, and cancer biology, and would appeal to a broad audience. Technical soundness: The experimental approaches are appropriate, but the lack of quantitative data presentation prevents full assessment. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with NMR and SPR terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the preliminary data are suggestive, but the manuscript in its current form does not provide sufficient quantitative evidence to fully establish the claims. The authors should provide the missing data and address the concerns about cis versus trans interactions before the case is convincing.
+
+## Risk / unsupported claims
+- The claim that intramolecular IDR:DBR interactions in MYC decelerate DNA association is not quantitatively supported without fitted kinetic parameters.
+- The KD values for Mb0 and other fragments are stated but not presented with errors or fitting details.
+- The claim that DNA and Mb0 compete for the same binding site is not fully established without direct competition data.
+- The relevance of the identified interactions in cis in full-length MYC:MAX is not convincingly demonstrated, as intermolecular interactions cannot be excluded.
+- The statement that the interactions are "biologically meaningful" based on affinity ranges is speculative without cellular validation.

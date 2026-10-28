@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "37910519",
+    "doi": "10.1371/journal.pone.0283705",
+    "title": "Screening fructosamine-3-kinase (FN3K) inhibitors, a deglycating enzyme of oncogenic Nrf2: Human FN3K homology modelling, docking and molecular dynamics simulations."
+  },
+  "content": {
+    "abstract": "Fructosamine-3-kinase (FN3K) is involved in the deglycation of Nrf2, a significant regulator of oxidative stress in cancer cells. However, the intricate functional aspects of FN3K and Nrf2 in breast cancers have not been explored vividly. The objectives of this study are to design the human FN3K protein using homology modeling followed by the screening of several anticancer molecules and examining their efficacy to modulate FN3K activity, Nrf2-mediated antioxidant signalling. Methods pertinent to homology modeling, virtual screening, molecular docking, molecular dynamics simulations, assessment of ADME properties, cytotoxicity assays for anticancer molecules of natural/synthetic origin in breast cancer cells (BT-474, T-47D), and Western blotting were used in this study. The screened anticancer molecules including kinase inhibitors of natural and synthetic origin interacted with the 3-dimensional structure of the catalytic domain in human FN3K protein designed through homology modeling by significant CDOCKER interaction energies. Subsequently, gefitinib, sorafenib, neratinib, tamoxifen citrate, and cyclosporine A enhanced the expression of FN3K in BT-474 cell lines with simultaneous alteration in Nrf2-driven antioxidant signalling. Oxaliplatin significantly downregulated FN3K expression and modulated Nrf2-driven antioxidant signalling when compared to cisplatin and other anticancer drugs. Hence, the study concluded the potential implications of existing anticancer drugs to modulate FN3K activity in breast cancers.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*NF-E2-Related Factor 2/metabolism",
+      "Molecular Dynamics Simulation",
+      "Antioxidants",
+      "Molecular Docking Simulation",
+      "Phosphotransferases (Alcohol Group Acceptor)/metabolism",
+      "*Antineoplastic Agents/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Beeraka, Narasimha M",
+        "Zhang, Jin",
+        "Mandal, Subhankar",
+        "Vikram P R, Hemanth",
+        "Liu, Junqi",
+        "B M, Namitha",
+        "Zhao, Di",
+        "Vishwanath, Prashanth",
+        "B M, Gurupadayya",
+        "Fan, Ruitai"
+      ],
+      "short_names": [
+        "Beeraka NM",
+        "Zhang J",
+        "Mandal S",
+        "Vikram P R H",
+        "Liu J",
+        "B M N",
+        "Zhao D",
+        "Vishwanath P",
+        "B M G",
+        "Fan R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3401-4315"
+      ],
+      "affiliations": [
+        "Cancer Center, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+        "Department of Pharmaceutical Chemistry, JSS College of Pharmacy, JSS Academy of Higher Education & Research (JSS AHER), Mysuru, Karnataka, India.",
+        "Department of Human Anatomy, I.M. Sechenov First Moscow State Medical University (Sechenov University), Moscow, Russian Federation.",
+        "Raghavendra Institute of Pharmaceutical Education and Research (RIPER), Anantapuramu, Chiyyedu, Andhra Pradesh, India.",
+        "Herman B. Wells Center for Pediatric Research, Department of Pediatrics, Indiana University School of Medicine, Indianapolis, IN, United States of America.",
+        "Department of Pharmacology and Toxicology, University of Mississippi Medical Center, Jackson, Mississippi, United States of America.",
+        "Department of Pharmaceutical Chemistry, JSS College of Pharmacy, JSS Academy of Higher Education & Research (JSS AHER), Mysuru, Karnataka, India.",
+        "Department of Pharmaceutical Chemistry, JSS College of Pharmacy, JSS Academy of Higher Education & Research (JSS AHER), Mysuru, Karnataka, India.",
+        "Cancer Center, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+        "Department of Radiation Oncology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+        "Department of Pharmacology, JSS College of Pharmacy, JSS Academy of Higher Education & Research (JSS AHER), Mysuru, Karnataka, India.",
+        "Department of Endocrinology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+        "Department of Biochemistry, Center of Excellence in Molecular Biology and Regenerative Medicine, JSS Medical College, JSS Academy of Higher Education and Research, Mysore, India.",
+        "Department of Pharmaceutical Chemistry, JSS College of Pharmacy, JSS Academy of Higher Education & Research (JSS AHER), Mysuru, Karnataka, India.",
+        "Cancer Center, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+        "Department of Radiation Oncology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Beeraka, Narasimha M",
+        "short_name": "Beeraka NM",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+          "Department of Pharmaceutical Chemistry, JSS College of Pharmacy, JSS Academy of Higher Education & Research (JSS AHER), Mysuru, Karnataka, India.",
+          "Department of Human Anatomy, I.M. Sechenov First Moscow State Medical University (Sechenov University), Moscow, Russian Federation.",
+          "Raghavendra Institute of Pharmaceutical Education and Research (RIPER), Anantapuramu, Chiyyedu, Andhra Pradesh, India.",
+          "Herman B. Wells Center for Pediatric Research, Department of Pediatrics, Indiana University School of Medicine, Indianapolis, IN, United States of America."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jin",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology, University of Mississippi Medical Center, Jackson, Mississippi, United States of America."
+        ]
+      },
+      {
+        "full_name": "Mandal, Subhankar",
+        "short_name": "Mandal S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, JSS College of Pharmacy, JSS Academy of Higher Education & Research (JSS AHER), Mysuru, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Vikram P R, Hemanth",
+        "short_name": "Vikram P R H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, JSS College of Pharmacy, JSS Academy of Higher Education & Research (JSS AHER), Mysuru, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Liu, Junqi",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Center, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+          "Department of Radiation Oncology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "B M, Namitha",
+        "short_name": "B M N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, JSS College of Pharmacy, JSS Academy of Higher Education & Research (JSS AHER), Mysuru, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Zhao, Di",
+        "short_name": "Zhao D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+        ]
+      },
+      {
+        "full_name": "Vishwanath, Prashanth",
+        "short_name": "Vishwanath P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Center of Excellence in Molecular Biology and Regenerative Medicine, JSS Medical College, JSS Academy of Higher Education and Research, Mysore, India."
+        ]
+      },
+      {
+        "full_name": "B M, Gurupadayya",
+        "short_name": "B M G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry, JSS College of Pharmacy, JSS Academy of Higher Education & Research (JSS AHER), Mysuru, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Fan, Ruitai",
+        "short_name": "Fan R",
+        "identifiers": [
+          "0000-0003-3401-4315"
+        ],
+        "affiliations": [
+          "Cancer Center, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.",
+          "Department of Radiation Oncology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/01 18:43",
+    "fetched_at": "2026-09-29 09:40:32"
+  },
+  "links": {
+    "cites": [
+      "41473983",
+      "40258841",
+      "39173621",
+      "39015566",
+      "38868177"
+    ],
+    "refs": [
+      "36026508",
+      "35327653",
+      "35205702",
+      "34572304",
+      "34484640",
+      "34344998",
+      "34288822",
+      "34209658",
+      "33466626",
+      "33315519",
+      "32765594",
+      "32636308",
+      "32502195",
+      "32348566",
+      "31970149",
+      "31911277",
+      "31398338",
+      "31237914",
+      "30877063",
+      "30569323",
+      "30508677",
+      "30507437",
+      "30500458",
+      "30497501",
+      "29670684",
+      "29661206",
+      "29223570",
+      "28803127",
+      "28785379",
+      "28537140",
+      "28330784",
+      "28240180",
+      "27956260",
+      "27775829",
+      "27392435",
+      "27320238",
+      "26995305",
+      "26620784",
+      "26617301",
+      "26403645",
+      "26014809",
+      "25975227",
+      "25729387",
+      "24967427",
+      "24928736",
+      "24269963",
+      "23963659",
+      "23941661",
+      "23884568",
+      "23458248",
+      "22580449",
+      "21613209",
+      "21541964",
+      "21343397",
+      "21237663",
+      "20156908",
+      "19150933",
+      "18849320",
+      "18787129",
+      "18539158",
+      "18413364",
+      "17266192",
+      "17095602",
+      "17016424",
+      "16075278",
+      "15033376",
+      "11863115",
+      "11248153",
+      "9008363",
+      "8903934",
+      "3382006"
+    ],
+    "similar": [
+      "37910519",
+      "37861038",
+      "33466626",
+      "31398338",
+      "16037310",
+      "14633848",
+      "33917258",
+      "27394048",
+      "39173621",
+      "17681011",
+      "15102834",
+      "15137908",
+      "14641081",
+      "26352355",
+      "15705060",
+      "17686456",
+      "20967558",
+      "15331600",
+      "16920277",
+      "11522682",
+      "29066600",
+      "15922110",
+      "23648633",
+      "16819943",
+      "28287856",
+      "35487399",
+      "20009024",
+      "17072594",
+      "34314247",
+      "16523184",
+      "32636308",
+      "28746889",
+      "37630254",
+      "33208304",
+      "21288167",
+      "24556415",
+      "16670083",
+      "32467223",
+      "15381090",
+      "30389603",
+      "36017854",
+      "37240327",
+      "26222438",
+      "38830903",
+      "18334852",
+      "19417020",
+      "21052529",
+      "28024463",
+      "21924559",
+      "29662304",
+      "21253391",
+      "35605918",
+      "26482805",
+      "35125087",
+      "28738766",
+      "23933386",
+      "27470570",
+      "26622167",
+      "32781872",
+      "17108137",
+      "31131946",
+      "28675319",
+      "32899850",
+      "24308969",
+      "23347118",
+      "29493460",
+      "32032607",
+      "37127651",
+      "31022969",
+      "38868177",
+      "35490310",
+      "36326112",
+      "33933460",
+      "31412289",
+      "30295165",
+      "31726716",
+      "33571414",
+      "32691963",
+      "16037312",
+      "36358960",
+      "20175230",
+      "20175229",
+      "32407263",
+      "18036733",
+      "30641320",
+      "32024620",
+      "28410869",
+      "30861618",
+      "27312421",
+      "36214306",
+      "29064326",
+      "32605658",
+      "24066166",
+      "27323826",
+      "27822011",
+      "39149269"
+    ],
+    "review": [
+      "37910519",
+      "33466626",
+      "14641081",
+      "20967558",
+      "28675319",
+      "37127651"
+    ],
+    "pmc": [
+      "10619859"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0283705",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37910519/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37910519",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42372471",
+  "title": "Integrating stemness and epithelial-mesenchymal transition signatures with machine learning identifies RUNX1 as a therapeutic vulnerability in colorectal cancer.",
+  "authors": "Padubidri, Shashank Rao; Singh, Mahender Kumar; Dehury, Budheswar",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2026-06-30",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用单细胞转录组与AI/ML识别结直肠癌EMT-干性相关转录因子RUNX1，并做虚拟筛选与MD模拟，虽涉及TF-DNA结合位点与MD，但核心是药物靶点发现而非TF-DNA互作机制建模，方法可迁移但对象与互作轴偏弱。",
+  "abstract": "Colorectal cancer (CC) arises from a complex interplay between genetic and epigenetic alterations within the colorectal mucosa, resulting in unchecked cellular proliferation and tumor development. This complexity results in diverse clinical presentations and varying responses to treatment, highlighting the critical need for personalized therapeutic approaches. The epithelial-mesenchymal transition (EMT) plays a pivotal role in CC progression, but its molecular complexity and therapeutic vulnerabilities remain poorly defined at single-cell resolution. Here, we analyzed single-cell RNA-seq (scRNA-seq) data from 42,535 CC cells to characterize EMT states, stemness, and copy number variations. We identified 3,421 hybrid EMT-state cells with high stemness and employed AI/ML models to uncover key transcription factors (TFs). Among 38,606 genes screened, 4,261 were differentially expressed, where CytoTRACE2 and GSVA confirmed stemness enrichment in hybrid EMT cells. Using a deep learning model, scVAEDer, we prioritized 40 master regulatory genes, followed by GENIE3-based TF network analysis, revealing 52 TFs,15 of which regulated more than 5 target genes and were linked to CC progression via diverse pathways. Protein-protein interaction analysis highlighted RUNX1 and SOX4 as central hubs, but RUNX1 emerged as the superior druggable target due to SOX4's poor survival association. To assess the druggability, we performed high-throughput screening of Enamine diversity library's HLL, comprising of 4,60,160 compounds using Schrodinger virtual screening workflow against RUNX1 and molecular dynamics simulations of 500 ns to assess the structural stability and dynamics of screened compounds. Among the top-scoring molecules, compounds Z3687059578 and Z3133469179 displayed stable, strong interactions with RUNX1's DNA binding site, with Z3133469179 emerging as a particularly promising inhibitor. Compared with conventional transcriptomic target-discovery approaches, our integrative single-cell and AI-guided framework simultaneously captures tumor heterogeneity, enabling more comprehensive therapeutic target prioritization in cancer. Our findings establish RUNX1 as a novel druggable TF in EMT-driven CC and propose the identified small molecule for further preclinical validation. Overall, our integrative approach combining single-cell genomics and AI-guided target discovery, and computational drug screening offers a novel framework for identifying therapeutic vulnerabilities in heterogeneous CC.",
+  "abstract_zh": "结直肠癌（CC）源于结直肠黏膜内遗传与表观遗传改变之间的复杂相互作用，导致细胞增殖失控及肿瘤发展。这种复杂性导致了多样化的临床表现和对治疗的不同反应，凸显了个性化治疗策略的关键需求。上皮-间质转化（EMT）在CC进展中发挥核心作用，但其分子复杂性及治疗脆弱性在单细胞分辨率下仍定义不清。在此，我们分析了来自42,535个CC细胞的单细胞RNA测序（scRNA-seq）数据，以表征EMT状态、干性及拷贝数变异。我们鉴定出3,421个具有高干性的杂交EMT状态细胞，并采用AI/ML模型揭示关键转录因子（TFs）。在筛选的38,606个基因中，4,261个差异表达，其中CytoTRACE2和GSVA确认了杂交EMT细胞中的干性富集。利用深度学习模型scVAEDer，我们优先筛选出40个主调控基因，随后基于GENIE3的TF网络分析揭示了52个TFs，其中15个调控超过5个靶基因，并通过多种通路与CC进展相关联。蛋白质-蛋白质相互作用分析突出RUNX1和SOX4为核心枢纽，但RUNX1因SOX4的生存关联性较差而成为更优的可成药靶点。为评估可成药性，我们使用Schrodinger虚拟筛选工作流程对Enamine多样性库的HLL（包含460,160个化合物）进行了高通量筛选，并对筛选出的化合物进行了500 ns的分子动力学模拟，以评估其结构稳定性及动态行为。在得分最高的分子中，化合物Z3687059578和Z3133469179与RUNX1的DNA结合位点表现出稳定且强烈的相互作用，其中Z3133469179成为特别有前景的抑制剂。与传统转录组靶点发现方法相比，我们的整合性单细胞和AI引导框架同时捕获肿瘤异质性，从而在癌症中实现更全面的治疗靶点优先排序。我们的发现确立了RUNX1作为EMT驱动的CC中新型可成药TF，并提出了所鉴定的小分子以供进一步临床前验证。总体而言，我们结合单细胞基因组学、AI引导的靶点发现及计算药物筛选的整合方法，为识别异质性CC中的治疗脆弱性提供了新框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42372471/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42372471/",
+  "paper_page_path": "papers/pubmed/42372471/index.html"
+}

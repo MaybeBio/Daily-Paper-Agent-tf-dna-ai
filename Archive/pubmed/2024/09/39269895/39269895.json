@@ -1,0 +1,233 @@
+{
+  "identity": {
+    "pmid": "39269895",
+    "doi": "10.1089/omi.2024.0150",
+    "title": "Systems Biology and Machine Learning Identify Genetic Overlaps Between Lung Cancer and Gastroesophageal Reflux Disease."
+  },
+  "content": {
+    "abstract": "One Health and planetary health place emphasis on the common molecular mechanisms that connect several complex human diseases as well as human and planetary ecosystem health. For example, not only lung cancer (LC) and gastroesophageal reflux disease (GERD) pose a significant burden on planetary health, but also the coexistence of GERD in patients with LC is often associated with a poor prognosis. This study reports on the genetic overlaps between these two conditions using systems biology-driven bioinformatics and machine learning-based algorithms. A total of nine hub genes including IGHV1-3, COL3A1, ITGA11, COL1A1, MS4A1, SPP1, MMP9, MMP7, and LOC102723407 were found to be significantly altered in both LC and GERD as compared with controls and with pathway analyses suggesting a significant association with the matrix remodeling pathway. The expression of these genes was validated in two additional datasets. Random forest and K-nearest neighbor, two machine learning-based algorithms, achieved accuracies of 89% and 85% for distinguishing LC and GERD, respectively, from controls using these hub genes. Additionally, potential drug targets were identified, with molecular docking confirming the binding affinity of doxycycline to matrix metalloproteinase 7 (binding affinity: -6.8 kcal/mol). The present study is the first of its kind that combines in silico and machine learning algorithms to identify the gene signatures that relate to both LC and GERD and promising drug candidates that warrant further research in relation to therapeutic innovation in LC and GERD. Finally, this study also suggests upstream regulators, including microRNAs and transcription factors, that can inform future mechanistic research on LC and GERD.",
+    "keywords": [
+      "GERD",
+      "drug targets",
+      "lung cancer",
+      "machine learning",
+      "precision medicine",
+      "systems biology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Lung Neoplasms/genetics",
+      "*Machine Learning",
+      "*Gastroesophageal Reflux/genetics/diagnosis",
+      "*Systems Biology/methods",
+      "Algorithms",
+      "Computational Biology/methods",
+      "Molecular Docking Simulation",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dasgupta, Sanjukta"
+      ],
+      "short_names": [
+        "Dasgupta S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9085-2658"
+      ],
+      "affiliations": [
+        "Department of Biotechnology, Center for Multidisciplinary Research and Innovations, Brainware University, Barasat, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dasgupta, Sanjukta",
+        "short_name": "Dasgupta S",
+        "identifiers": [
+          "0000-0002-9085-2658"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, Center for Multidisciplinary Research and Innovations, Brainware University, Barasat, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Omics : a journal of integrative biology"
+    ],
+    "journal_abbrev": [
+      "OMICS"
+    ],
+    "pub_date": "2024 Oct",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/13 18:44",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [
+      "42141451",
+      "42133161",
+      "41742201",
+      "41225405",
+      "41021077",
+      "40879851",
+      "40797277",
+      "40719989",
+      "40598621",
+      "40533863"
+    ],
+    "refs": [],
+    "similar": [
+      "39269895",
+      "38856681",
+      "37907428",
+      "41305834",
+      "40769224",
+      "41442003",
+      "40209518",
+      "39888730",
+      "38517701",
+      "38979602",
+      "40997906",
+      "40406126",
+      "41009659",
+      "39068752",
+      "41671296",
+      "41006883",
+      "41855208",
+      "39139563",
+      "41009970",
+      "41320661",
+      "41052072",
+      "38310567",
+      "40642087",
+      "40313958",
+      "39656775",
+      "40450094",
+      "40328901",
+      "41146237",
+      "38412787",
+      "40916281",
+      "39142001",
+      "38863714",
+      "41478005",
+      "39071134",
+      "34873190",
+      "34187846",
+      "39595659",
+      "40197140",
+      "37740761",
+      "40826767",
+      "39512836",
+      "40032209",
+      "41200172",
+      "39738398",
+      "34751010",
+      "40453984",
+      "41299770",
+      "41226349",
+      "38414734",
+      "41511815",
+      "39496786",
+      "38901416",
+      "40328806",
+      "36049413",
+      "41642369",
+      "41142807",
+      "40313967",
+      "30785874",
+      "28132438",
+      "40670650",
+      "41699663",
+      "39965006",
+      "38867322",
+      "41605052",
+      "40070840",
+      "41351083",
+      "30428899",
+      "41508240",
+      "39849508",
+      "40131879",
+      "41137290",
+      "40500570",
+      "40820054",
+      "41190071",
+      "41262249",
+      "39427825",
+      "38994368",
+      "30195659",
+      "39993869",
+      "41479901",
+      "40129981",
+      "40362543",
+      "41878449",
+      "40008534",
+      "40670571",
+      "36479899",
+      "40685483",
+      "40083558",
+      "40374866",
+      "39430334",
+      "40084401",
+      "40932390",
+      "40887626",
+      "27485664",
+      "41132671",
+      "40819162",
+      "41683685",
+      "41410587",
+      "40849369",
+      "41839318"
+    ],
+    "review": [
+      "39269895",
+      "28132438",
+      "40932390"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1089/omi.2024.0150?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/gerd.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "GERD"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ITGA11-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3568",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "identity": {
+    "pmid": "39723827",
+    "doi": "10.1002/pro.70022",
+    "title": "The structural influence of the oncogenic driver mutation N642H in the STAT5B SH2 domain."
+  },
+  "content": {
+    "abstract": "The point mutation N642H of the signal transducer and activator of transcription 5B (STAT5B) protein is associated with aggressive and drug-resistant forms of leukemia. This mutation is thought to promote cancer due to hyperactivation of STAT5B caused by increased stability of the active, parallel dimer state. However, the molecular mechanism leading to this stabilization is not well understood as there is currently no structure of the parallel dimer. To investigate the mutation's mechanism of action, we conducted extensive all-atom molecular dynamics simulations of multiple oligomeric forms of both STAT5B and STAT5B(N642H), including a model for the parallel dimer. The N642H mutation directly affects the hydrogen bonding network within the phosphotyrosine (pY)-binding pocket of the parallel dimer, enhancing the pY-binding interaction. The simulations indicate that apo STAT5B is highly flexible, exploring a diverse conformational space. In contrast, apo STAT5B(N642H) accesses two distinct conformational states, one of which resembles the conformation of the parallel dimer. The simulation predictions of the effects of the mutation on structure and dynamics are supported by the results of hydrogen-deuterium exchange (HDX) mass spectrometry measurements carried out on STAT5B and STAT5B(N642H) in which a phosphopeptide was used to mimic the effects of parallel dimerization on the SH2 domain. The molecular-level information uncovered in this work contributes to our understanding of STAT5B hyperactivation by the N642H mutation and could help pave the way for novel therapeutic strategies targeting this mutation.",
+    "keywords": [
+      "SH2 domains",
+      "STAT proteins",
+      "intrinsically disordered regions",
+      "molecular dynamics simulations",
+      "oncogenic mutation",
+      "protein dynamics",
+      "signal transducer and activator of transcription"
+    ],
+    "mesh_terms": [
+      "*STAT5 Transcription Factor/genetics/chemistry/metabolism",
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "*src Homology Domains",
+      "Protein Multimerization",
+      "Hydrogen Bonding",
+      "Point Mutation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Haas-Neill, Liam",
+        "Meneksedag-Erol, Deniz",
+        "Chaudhry, Ayesha",
+        "Novoselova, Masha",
+        "Ashraf, Qirat F",
+        "de Araujo, Elvin D",
+        "Wilson, Derek J",
+        "Rauscher, Sarah"
+      ],
+      "short_names": [
+        "Haas-Neill L",
+        "Meneksedag-Erol D",
+        "Chaudhry A",
+        "Novoselova M",
+        "Ashraf QF",
+        "de Araujo ED",
+        "Wilson DJ",
+        "Rauscher S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3852-8786",
+        "ORCID: 0000-0002-7765-3304",
+        "ORCID: 0009-0005-5043-6261",
+        "ORCID: 0000-0003-0716-2830",
+        "ORCID: 0000-0002-7012-6085",
+        "ORCID: 0000-0001-9860-3237"
+      ],
+      "affiliations": [
+        "Department of Physics, University of Toronto, Toronto, Ontario, Canada.",
+        "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario, Canada.",
+        "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario, Canada.",
+        "Department of Chemistry, York University, Toronto, Ontario, Canada.",
+        "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario, Canada.",
+        "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario, Canada.",
+        "Department of Chemistry, University of Toronto, Toronto, Ontario, Canada.",
+        "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario, Canada.",
+        "Department of Chemistry, York University, Toronto, Ontario, Canada.",
+        "Department of Physics, University of Toronto, Toronto, Ontario, Canada.",
+        "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario, Canada.",
+        "Department of Chemistry, University of Toronto, Toronto, Ontario, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Haas-Neill, Liam",
+        "short_name": "Haas-Neill L",
+        "identifiers": [
+          "0000-0003-3852-8786"
+        ],
+        "affiliations": [
+          "Department of Physics, University of Toronto, Toronto, Ontario, Canada.",
+          "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Meneksedag-Erol, Deniz",
+        "short_name": "Meneksedag-Erol D",
+        "identifiers": [
+          "0000-0002-7765-3304"
+        ],
+        "affiliations": [
+          "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Chaudhry, Ayesha",
+        "short_name": "Chaudhry A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, York University, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Novoselova, Masha",
+        "short_name": "Novoselova M",
+        "identifiers": [
+          "0009-0005-5043-6261"
+        ],
+        "affiliations": [
+          "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Ashraf, Qirat F",
+        "short_name": "Ashraf QF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario, Canada.",
+          "Department of Chemistry, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "de Araujo, Elvin D",
+        "short_name": "de Araujo ED",
+        "identifiers": [
+          "0000-0003-0716-2830"
+        ],
+        "affiliations": [
+          "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Wilson, Derek J",
+        "short_name": "Wilson DJ",
+        "identifiers": [
+          "0000-0002-7012-6085"
+        ],
+        "affiliations": [
+          "Department of Chemistry, York University, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Rauscher, Sarah",
+        "short_name": "Rauscher S",
+        "identifiers": [
+          "0000-0001-9860-3237"
+        ],
+        "affiliations": [
+          "Department of Physics, University of Toronto, Toronto, Ontario, Canada.",
+          "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario, Canada.",
+          "Department of Chemistry, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/26 18:15",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38618957",
+      "38498036",
+      "37265738",
+      "37208335",
+      "37059181",
+      "36596870",
+      "36240739",
+      "35834424",
+      "35831295",
+      "35659507",
+      "35210405",
+      "34824210",
+      "34809691",
+      "34601763",
+      "34480923",
+      "33723372",
+      "33616388",
+      "32647828",
+      "32395997",
+      "31717342",
+      "31605750",
+      "31175292",
+      "31170499",
+      "30573779",
+      "30236283",
+      "29964048",
+      "29788355",
+      "29472718",
+      "28448048",
+      "27819658",
+      "27803324",
+      "27752093",
+      "26942696",
+      "26893391",
+      "26717567",
+      "26702099",
+      "26606496",
+      "26488642",
+      "25752764",
+      "25586472",
+      "25443960",
+      "25299346",
+      "25242457",
+      "24972766",
+      "24889800",
+      "24308725",
+      "23596048",
+      "23452343",
+      "23055911",
+      "22569091",
+      "22520852",
+      "22260616",
+      "21500218",
+      "20453929",
+      "20442417",
+      "20057044",
+      "19781967",
+      "19309697",
+      "18536014",
+      "18433722",
+      "18351591",
+      "17922012",
+      "17212484",
+      "16793553",
+      "16736488",
+      "16465695",
+      "16192273",
+      "15780933",
+      "15680235",
+      "15313458",
+      "15264254",
+      "15020666",
+      "14987415",
+      "12209125",
+      "11045621",
+      "10823841",
+      "10543978",
+      "9630226",
+      "9593186",
+      "9504803",
+      "9300491",
+      "8744570",
+      "7568026",
+      "7512222",
+      "6667333",
+      "4760134"
+    ],
+    "similar": [
+      "39723827",
+      "31175292",
+      "39994010",
+      "23160480",
+      "27752093",
+      "23596048",
+      "10823841",
+      "10209040",
+      "25288792",
+      "19630967",
+      "22419735",
+      "16464942",
+      "30573779",
+      "23977103",
+      "25752764",
+      "40485531",
+      "23912807",
+      "18258175",
+      "26471877",
+      "40163145",
+      "30835430",
+      "20698672",
+      "10976913",
+      "18550772",
+      "32395997",
+      "28092032",
+      "32227557",
+      "33226337",
+      "41453450",
+      "16772534",
+      "25333863",
+      "28400581",
+      "25885255",
+      "32113119",
+      "34680385",
+      "18536014",
+      "28092042",
+      "25702814",
+      "26717567",
+      "37981812",
+      "21365683",
+      "25098340",
+      "8794768",
+      "36542668",
+      "20574521",
+      "24569879",
+      "10729993",
+      "22442148",
+      "39786519",
+      "33030907",
+      "24512550",
+      "11929748",
+      "16125365",
+      "16446405",
+      "26645482",
+      "40783913",
+      "39012820",
+      "25586472",
+      "15210125",
+      "17822672",
+      "21205633",
+      "41225768",
+      "9512716",
+      "30978352",
+      "21360612",
+      "27682200",
+      "42384185",
+      "23980151",
+      "11971004",
+      "41528873",
+      "9742102",
+      "22775396",
+      "25205818",
+      "24211327",
+      "24972766",
+      "26717604",
+      "29246863",
+      "9211920",
+      "19624718",
+      "7680435",
+      "30862565",
+      "33542831",
+      "37059181",
+      "11851339",
+      "38801229",
+      "39675702",
+      "10754312",
+      "11682625",
+      "28686668",
+      "17997837",
+      "30091902",
+      "26774853",
+      "31661961",
+      "9446798",
+      "10757801",
+      "8868476",
+      "18276758",
+      "29383743",
+      "30985989",
+      "27367207"
+    ],
+    "review": [
+      "39723827",
+      "24512550"
+    ],
+    "pmc": [
+      "11670306"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39723827.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39723827/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70022",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1638",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

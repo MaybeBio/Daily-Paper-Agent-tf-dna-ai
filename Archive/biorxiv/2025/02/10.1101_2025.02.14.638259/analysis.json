@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.02.14.638259",
+  "title": "Communication pathway analysis within protein-nucleic acid complexes",
+  "authors": "Bheemireddy S; González-Alemán R; Bignon E; Karami Y",
+  "journal": "bioRxiv",
+  "published_date": "2025-02-18",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发基于MD模拟的ComPASS方法，构建蛋白-核酸复合物内残基间通信网络，揭示TF-DNA（如LacI阻遏物）等体系中的别构信号传导机制，与TF-DNA互作动态机理高度相关。",
+  "abstract": "Inter-residue communication forms a vast and intricate network that underpins essential biological processes such as catalysis, gene expression, and cell signaling. Allostery, a crucial phenomenon where distant regions of a macromolecule are energetically coupled to elicit functional responses, operates through these intricate communication networks within macromolecular complexes. Despite the pivotal role of nucleic acids in these networks, their contributions to allostery remain largely overlooked. To address this gap, we developed ComPASS, a large-scale computational method designed to study communication networks in protein-protein and protein-nucleic acid complexes. Recognizing the significance of dynamics in the communication of macromolecules, our approach leverages molecular dynamics (MD) simulation data to extract inter-residue key properties, including dynamical correlations, interactions, and distances. These properties are integrated to construct a weighted communication network that comprehensively represents dependencies among amino acids and nucleotides. Using ComPASS, we uncovered distinct mechanisms of signal transmission in diverse macromolecular systems. In Cysteinyl-tRNA synthetase, the central domain was found to mediate the coordination between substrate recognition and enzymatic activity, ensuring functional precision. In the LacI repressor, allosteric communication occurs through interface pathways within the dimer, effectively linking ligand sensing to DNA binding. For the Type IIF restriction endonuclease Bse634I, structural communication across dimer and tetramer interfaces was crucial for specific DNA recognition. In the liver X receptor, a key helical region was identified as a bridge connecting ligand-binding events to DNA interactions. Finally, our analysis with ComPASS aligned with previous literature, confirmed the role of H2A L1 loops in mediating communication across histone interfaces and coordinating interactions between structural domains in nucleosome complexes. ComPASS is available as an open-source tool, maintained at https://github.com/yasamankarami/compass . By offering an integrated framework for studying communication networks, ComPASS advances our understanding of conformational dynamics, particularly within protein-nucleic acid complexes.",
+  "abstract_zh": "残基间通讯形成了一个庞大而复杂的网络，支撑着催化、基因表达和细胞信号传导等基本生物过程。变构（allostery）是一种关键现象，其中大分子的远距离区域通过能量耦合引发功能响应，它通过大分子复合物内这些复杂的通讯网络运作。尽管核酸在这些网络中扮演关键角色，但其对变构的贡献在很大程度上仍被忽视。为弥补这一空白，我们开发了ComPASS，一种大规模计算方法，旨在研究蛋白质-蛋白质和蛋白质-核酸复合物中的通讯网络。认识到动力学在大分子通讯中的重要性，我们的方法利用分子动力学（molecular dynamics, MD）模拟数据提取残基间关键属性，包括动力学相关性、相互作用和距离。这些属性被整合以构建一个加权通讯网络，全面代表氨基酸和核苷酸之间的依赖性。使用ComPASS，我们揭示了多种大分子系统中信号传递的不同机制。在半胱氨酰-tRNA合成酶中，中央结构域被发现介导底物识别与酶活性之间的协调，确保功能精确性。在LacI阻遏蛋白中，变构通讯通过二聚体内的界面路径发生，有效连接配体感应与DNA结合。对于Type IIF限制性内切酶Bse634I，二聚体和四聚体界面上的结构通讯对特异性DNA识别至关重要。在肝X受体中，一个关键螺旋区域被识别为连接配体结合事件与DNA相互作用的桥梁。最后，我们使用ComPASS的分析与先前文献一致，确认了H2A L1环在介导组蛋白界面间通讯及协调核小体复合物中结构域相互作用中的作用。ComPASS作为开源工具提供，维护于https://github.com/yasamankarami/compass。通过提供研究通讯网络的集成框架，ComPASS增进了我们对构象动力学的理解，特别是在蛋白质-核酸复合物中。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.02.14.638259",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.02.14.638259",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.02.14.638259/index.html"
+}

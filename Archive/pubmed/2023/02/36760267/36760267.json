@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "36760267",
+    "doi": "10.1039/d2ra07007c",
+    "title": "Discovery of new STAT3 inhibitors as anticancer agents using ligand-receptor contact fingerprints and docking-augmented machine learning."
+  },
+  "content": {
+    "abstract": "STAT3 belongs to a family of seven vital transcription factors. High levels of STAT3 are detected in several types of cancer. Hence, STAT3 inhibition is considered a promising therapeutic anti-cancer strategy. In this work, we used multiple docked poses of STAT3 inhibitors to augment training data for machine learning QSAR modeling. Ligand-Receptor Contact Fingerprints and scoring values were implemented as descriptor variables. Escalating docking-scoring consensus levels were scanned against orthogonal machine learners, and the best learners (Random Forests and XGBoost) were coupled with genetic algorithm and Shapley additive explanations (SHAP) to identify critical descriptors that determine anti-STAT3 bioactivity to be translated into pharmacophore model(s). Two successful pharmacophores were deduced and subsequently used for in silico screening against the National Cancer Institute (NCI) database. A total of 26 hits were evaluated in vitro for their anti-STAT3 bioactivities. Out of which, three hits of novel chemotypes, showed cytotoxic IC(50) values in the nanomolar range (35 nM to 6.7 muM). However, two are potent dihydrofolate reductase (DHFR) inhibitors and therefore should have significant indirect STAT3 inhibitory effects. The third hit (cytotoxic IC(50) = 0.44 muM) is purely direct STAT3 inhibitor (devoid of DHFR activity) and caused, at its cytotoxic IC(50), more than two-fold reduction in the expression of STAT3 downstream genes (c-Myc and Bcl-xL). The presented work indicates that the concept of data augmentation using multiple docked poses is a promising strategy for generating valid machine learning models capable of discriminating active from inactive compounds.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jaradat, Nour Jamal",
+        "Alshaer, Walhan",
+        "Hatmal, Mamon",
+        "Taha, Mutasem Omar"
+      ],
+      "short_names": [
+        "Jaradat NJ",
+        "Alshaer W",
+        "Hatmal M",
+        "Taha MO"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2946-7328",
+        "ORCID: 0000-0002-4453-072X"
+      ],
+      "affiliations": [
+        "Department of Pharmaceutical Sciences, Faculty of Pharmacy, University of Jordan Amman 11492 Jordan mutasem@ju.edu.jo +962 6 5339649 +962 6 5355000 ext. 23305.",
+        "Cell Therapy Center, The University of Jordan Amman 11942 Jordan.",
+        "Department of Medical Laboratory Sciences, Faculty of Applied Medical Sciences, The Hashemite University P.O. Box 330127 Zarqa 13133 Jordan.",
+        "Department of Pharmaceutical Sciences, Faculty of Pharmacy, University of Jordan Amman 11492 Jordan mutasem@ju.edu.jo +962 6 5339649 +962 6 5355000 ext. 23305."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jaradat, Nour Jamal",
+        "short_name": "Jaradat NJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, Faculty of Pharmacy, University of Jordan Amman 11492 Jordan mutasem@ju.edu.jo +962 6 5339649 +962 6 5355000 ext. 23305."
+        ]
+      },
+      {
+        "full_name": "Alshaer, Walhan",
+        "short_name": "Alshaer W",
+        "identifiers": [
+          "0000-0003-2946-7328"
+        ],
+        "affiliations": [
+          "Cell Therapy Center, The University of Jordan Amman 11942 Jordan."
+        ]
+      },
+      {
+        "full_name": "Hatmal, Mamon",
+        "short_name": "Hatmal M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory Sciences, Faculty of Applied Medical Sciences, The Hashemite University P.O. Box 330127 Zarqa 13133 Jordan."
+        ]
+      },
+      {
+        "full_name": "Taha, Mutasem Omar",
+        "short_name": "Taha MO",
+        "identifiers": [
+          "0000-0002-4453-072X"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, Faculty of Pharmacy, University of Jordan Amman 11492 Jordan mutasem@ju.edu.jo +962 6 5339649 +962 6 5355000 ext. 23305."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "RSC advances"
+    ],
+    "journal_abbrev": [
+      "RSC Adv"
+    ],
+    "pub_date": "2023 Jan 31",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/11 06:00",
+    "fetched_at": "2026-09-28 20:13:36"
+  },
+  "links": {
+    "cites": [
+      "42470478",
+      "42330341",
+      "41940903",
+      "41627387",
+      "41011163",
+      "38643174",
+      "37597062",
+      "37514107"
+    ],
+    "refs": [
+      "34953855",
+      "34704754",
+      "34426763",
+      "34262291",
+      "33839684",
+      "33373063",
+      "33352047",
+      "32807795",
+      "32603980",
+      "32525782",
+      "32475130",
+      "32361862",
+      "31957003",
+      "31907421",
+      "31891719",
+      "31512867",
+      "31487867",
+      "31475670",
+      "31218960",
+      "31170499",
+      "31150627",
+      "30976107",
+      "29660364",
+      "29313301",
+      "28875329",
+      "28510083",
+      "28262505",
+      "27899562",
+      "27722817",
+      "26730496",
+      "26559373",
+      "26169829",
+      "25956379",
+      "25944486",
+      "25883136",
+      "25558171",
+      "25448759",
+      "25306898",
+      "24413672",
+      "23434585",
+      "23092060",
+      "22112539",
+      "21949561",
+      "21526897",
+      "21441118",
+      "21370899",
+      "21182587",
+      "20712901",
+      "19795911",
+      "19434845",
+      "18433722",
+      "18196462",
+      "17985863",
+      "17692803",
+      "17114005",
+      "16335926",
+      "15801843",
+      "15781182",
+      "12925999",
+      "12479928",
+      "12133614",
+      "12036371",
+      "11858637",
+      "11259830",
+      "10550013",
+      "9671298",
+      "8951652",
+      "4009615",
+      "2428470",
+      "1361210"
+    ],
+    "similar": [
+      "36760267",
+      "37222400",
+      "37597062",
+      "34426763",
+      "38446372",
+      "35424985",
+      "35507210",
+      "36545090",
+      "35909285",
+      "26954606",
+      "34463213",
+      "31158642",
+      "33353031",
+      "36430841",
+      "35973966",
+      "32328476",
+      "35274943",
+      "37641144",
+      "25050878",
+      "19341295",
+      "38653790",
+      "26188796",
+      "27671297",
+      "30799792",
+      "18536013",
+      "37052308",
+      "36893546",
+      "28008665",
+      "37978263",
+      "29456101",
+      "24338032",
+      "26685860",
+      "34861473",
+      "36502694",
+      "35059939",
+      "27569779",
+      "31738136",
+      "37043162",
+      "38202763",
+      "36837770",
+      "27599492",
+      "31889497",
+      "26840362",
+      "31867798",
+      "27401455",
+      "31336592",
+      "35991984",
+      "29306979",
+      "25936945",
+      "29454290",
+      "21342558",
+      "32830299",
+      "31339076",
+      "23507201",
+      "32339898",
+      "30818109",
+      "32525782",
+      "38589405",
+      "25525429",
+      "24469103",
+      "21376648",
+      "31630312",
+      "34843171",
+      "32392362",
+      "37175889",
+      "28299833",
+      "38173208",
+      "35040417",
+      "38418571",
+      "29167753",
+      "35172577",
+      "35901959",
+      "22112539",
+      "17988876",
+      "38779737",
+      "27477465",
+      "35490310",
+      "33889764",
+      "35318890",
+      "34696689",
+      "30754680",
+      "34562852",
+      "24050502",
+      "34303874",
+      "30047845",
+      "31394858",
+      "29909120",
+      "27310104",
+      "27528182",
+      "11754578",
+      "29475408",
+      "34946760",
+      "32207987",
+      "19238244",
+      "36841313",
+      "31721705",
+      "37812986",
+      "23603608",
+      "30404161",
+      "32603980"
+    ],
+    "review": [
+      "36760267",
+      "35274943"
+    ],
+    "pmc": [
+      "9896621"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36760267/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d2ra07007c",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36760267",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BCL2L1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

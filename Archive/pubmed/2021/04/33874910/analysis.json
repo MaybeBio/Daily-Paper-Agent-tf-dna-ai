@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33874910",
+  "title": "Modeling transcriptional regulation using gene regulatory networks based on multi-omics data sources.",
+  "authors": "Patel, Neel; Bush, William S",
+  "journal": "BMC bioinformatics",
+  "published_date": "2021-04-21",
+  "window": {
+    "start": "2021-04-19",
+    "end": "2021-04-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文基于多组学基因调控网络建模转录因子对基因表达的影响，虽涉及TF调控但未聚焦TF-DNA结合位点预测或三维互作机制，方法以统计预测为主，缺乏AI/物理模拟建模，故为中档匹配。",
+  "abstract": "BACKGROUND: Transcriptional regulation is complex, requiring multiple cis (local) and trans acting mechanisms working in concert to drive gene expression, with disruption of these processes linked to multiple diseases. Previous computational attempts to understand the influence of regulatory mechanisms on gene expression have used prediction models containing input features derived from cis regulatory factors. However, local chromatin looping and trans-acting mechanisms are known to also influence transcriptional regulation, and their inclusion may improve model accuracy and interpretation. In this study, we create a general model of transcription factor influence on gene expression by incorporating both cis and trans gene regulatory features. RESULTS: We describe a computational framework to model gene expression for GM12878 and K562 cell lines. This framework weights the impact of transcription factor-based regulatory data using multi-omics gene regulatory networks to account for both cis and trans acting mechanisms, and measures of the local chromatin context. These prediction models perform significantly better compared to models containing cis-regulatory features alone. Models that additionally integrate long distance chromatin interactions (or chromatin looping) between distal transcription factor binding regions and gene promoters also show improved accuracy. As a demonstration of their utility, effect estimates from these models were used to weight cis-regulatory rare variants for sequence kernel association test analyses of gene expression. CONCLUSIONS: Our models generate refined effect estimates for the influence of individual transcription factors on gene expression, allowing characterization of their roles across the genome. This work also provides a framework for integrating multiple data types into a single model of transcriptional regulation.",
+  "abstract_zh": "背景：转录调控十分复杂，需要多种顺式（局部）和反式作用机制协同工作以驱动基因表达，这些过程的破坏与多种疾病相关。以往的计算方法尝试理解调控机制对基因表达的影响，使用了包含源自顺式调控因子输入特征的预测模型。然而，已知局部染色质环化和反式作用机制也影响转录调控，纳入这些因素可能提高模型准确性和解释力。在本研究中，我们通过整合顺式和反式基因调控特征，构建了一个转录因子对基因表达影响的一般模型。结果：我们描述了一个计算框架，用于建模GM12878和K562细胞系的基因表达。该框架使用多组学基因调控网络加权转录因子调控数据的影响，以考虑顺式和反式作用机制，以及局部染色质环境的测量。这些预测模型相比仅含顺式调控特征的模型表现显著更优。额外整合远端转录因子结合区域与基因启动子之间的长距离染色质相互作用（或染色质环化）的模型也显示出更高的准确性。作为其效用的演示，这些模型的效应估计被用于加权顺式调控罕见变异，以进行基因表达的序列核关联分析。结论：我们的模型为单个转录因子对基因表达的影响生成了精细的效应估计，从而能够表征它们在全基因组中的作用。这项工作还提供了一个框架，用于将多种数据类型整合到单一的转录调控模型中。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33874910/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33874910/",
+  "paper_page_path": "papers/pubmed/33874910/index.html"
+}

@@ -1,0 +1,396 @@
+{
+  "identity": {
+    "pmid": "39604504",
+    "doi": "10.1038/s41598-024-80858-5",
+    "title": "Single-cell multiomics reveals simvastatin inhibits pan-cancer epithelial-mesenchymal transition via the MEK/ERK pathway in XBP1+ mast cells."
+  },
+  "content": {
+    "abstract": "Distant metastasis is the leading cause of cancer-related mortality, and achieving survival benefits through advancements in systemic therapy remains challenging. Mast cells play a dual role in shaping the tumor microenvironment (TME) and influencing distant metastasis, underscoring the significant research value of targeting mast cells for systemic therapy in advanced cancer. We investigated variations in mast cell infiltration levels in primary and metastatic malignancies using immunocyte infiltration analysis. Mast cell subsets were identified from pan-cancer distant metastasis single-cell sequencing data through dimensionality reduction clustering and cell type annotation, combined with cell trajectory and communication network analyses. A prognostic model was established using WGCNA and 12 machine learning algorithms to identify potential mast cell targets. Drug sensitivity and Mendelian randomization analyses were conducted to select potential drugs targeting mast cells, and their effects on epithelial-mesenchymal transition (EMT) were validated through in vitro experiments, including wound healing, transwell, and western blot assays. Results revealed that activated mast cells show increased infiltration in metastatic tumors, correlating with poor survival duration. XBP1+ mast cells were identified as key components of the inhibitory TME, potentially involved in EMT activation. Simvastatin was identified as a potential drug, reversing EMT induced by XBP1+ mast cells in pan-cancer. Aberrant activation of MEK/ERK signaling in XBP1+ mast cells can stimulate cancer cell EMT by modulating degranulation, while Simvastatin can inhibit EMT by suppressing degranulation.",
+    "keywords": [
+      "Distant metastasis",
+      "HMG-CoA reductase inhibitors",
+      "Mast cells",
+      "Multi-omics",
+      "Pan-cancer"
+    ],
+    "mesh_terms": [
+      "*Mast Cells/drug effects/metabolism",
+      "*Epithelial-Mesenchymal Transition/drug effects",
+      "*Simvastatin/pharmacology",
+      "Humans",
+      "*X-Box Binding Protein 1/metabolism/genetics",
+      "*Single-Cell Analysis",
+      "*Tumor Microenvironment/drug effects",
+      "MAP Kinase Signaling System/drug effects",
+      "Cell Line, Tumor",
+      "Neoplasms/drug therapy/pathology/metabolism",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Sen",
+        "Zhang, Huimin",
+        "Zhao, Ruiqi",
+        "Wu, Zhulin",
+        "Zhang, Weiqing",
+        "Yu, Mengjiao",
+        "Zhang, Bei",
+        "Ma, Lanyue",
+        "Li, Danfei",
+        "Peng, Lisheng",
+        "Luo, Weijun"
+      ],
+      "short_names": [
+        "Lin S",
+        "Zhang H",
+        "Zhao R",
+        "Wu Z",
+        "Zhang W",
+        "Yu M",
+        "Zhang B",
+        "Ma L",
+        "Li D",
+        "Peng L",
+        "Luo W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Department of Traditional Chinese Medicine, People's Hospital of Longhua, Shenzhen, China.",
+        "Department of Traditional Chinese Medicine, People's Hospital of Longhua, Shenzhen, China.",
+        "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Department of Hepatology, Shenzhen Traditional Chinese Medicine Hospital, Shenzhen, China. szpengls2023@163.com.",
+        "Department of Traditional Chinese Medicine, People's Hospital of Longhua, Shenzhen, China. szluoweijun@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Sen",
+        "short_name": "Lin S",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Huimin",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ruiqi",
+        "short_name": "Zhao R",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhulin",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, People's Hospital of Longhua, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Weiqing",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, People's Hospital of Longhua, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Mengjiao",
+        "short_name": "Yu M",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bei",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Lanyue",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Danfei",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "The Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Lisheng",
+        "short_name": "Peng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatology, Shenzhen Traditional Chinese Medicine Hospital, Shenzhen, China. szpengls2023@163.com."
+        ]
+      },
+      {
+        "full_name": "Luo, Weijun",
+        "short_name": "Luo W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, People's Hospital of Longhua, Shenzhen, China. szluoweijun@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Nov 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/28 06:36",
+    "fetched_at": "2026-09-30 06:55:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38727283",
+      "38720342",
+      "38572751",
+      "38056463",
+      "38056196",
+      "37958796",
+      "37635168",
+      "37580807",
+      "37449905",
+      "37413710",
+      "37394638",
+      "37376140",
+      "37139869",
+      "37059065",
+      "36917948",
+      "36801000",
+      "36385701",
+      "35264777",
+      "35171433",
+      "35045983",
+      "34818551",
+      "34606974",
+      "34475573",
+      "34063789",
+      "33735912",
+      "33597522",
+      "33436641",
+      "33193405",
+      "33012327",
+      "32753728",
+      "32033033",
+      "31740819",
+      "31293594",
+      "30787437",
+      "30643263",
+      "30531897",
+      "29875777",
+      "29747682",
+      "29651440",
+      "28864210",
+      "28825705",
+      "28626727",
+      "27980106",
+      "27616674",
+      "27009393",
+      "26603621",
+      "26146612",
+      "25929183",
+      "25867923",
+      "25822800",
+      "25643609",
+      "25270120",
+      "25056597",
+      "24767877",
+      "24658644",
+      "23887206",
+      "23633481",
+      "22802077",
+      "21976550",
+      "20807568",
+      "20001231",
+      "19961471",
+      "19549304",
+      "19114008",
+      "19059394",
+      "16646834",
+      "10592173",
+      "9259558"
+    ],
+    "similar": [
+      "39604504",
+      "38557865",
+      "34542161",
+      "33028359",
+      "40231974",
+      "31640627",
+      "30243096",
+      "27505247",
+      "26574150",
+      "38849609",
+      "40330458",
+      "23817018",
+      "33402388",
+      "39615165",
+      "39294296",
+      "30662566",
+      "31448674",
+      "23172668",
+      "32141512",
+      "32679188",
+      "39930412",
+      "39703515",
+      "25280941",
+      "32724475",
+      "29103028",
+      "31681988",
+      "35854234",
+      "39318039",
+      "25207459",
+      "39364685",
+      "39806516",
+      "35581606",
+      "22248055",
+      "26754532",
+      "37151068",
+      "38066486",
+      "29568909",
+      "31559412",
+      "35272617",
+      "29848667",
+      "30845991",
+      "31948366",
+      "38820773",
+      "40205370",
+      "24569463",
+      "27394697",
+      "24108744",
+      "31866511",
+      "30537288",
+      "34171378",
+      "28192403",
+      "38683136",
+      "39224598",
+      "29952428",
+      "39722173",
+      "31438892",
+      "30139661",
+      "30279728",
+      "23690956",
+      "38294713",
+      "29587825",
+      "27481258",
+      "30723155",
+      "39317050",
+      "40010552",
+      "31136035",
+      "26420858",
+      "28332555",
+      "29451351",
+      "31978449",
+      "31605776",
+      "30244296",
+      "25825208",
+      "28817834",
+      "38869635",
+      "36463238",
+      "34599932",
+      "37076857",
+      "34124911",
+      "29284478",
+      "36362025",
+      "25448414",
+      "40124374",
+      "25873302",
+      "37718528",
+      "22447278",
+      "33811837",
+      "39430754",
+      "39905485",
+      "39389321",
+      "32373962",
+      "27266881",
+      "39118068",
+      "29721073",
+      "28485480",
+      "39565461",
+      "37782103",
+      "29463274",
+      "28126034",
+      "31978894"
+    ],
+    "review": [
+      "39604504",
+      "39615165",
+      "32679188",
+      "39806516",
+      "22248055",
+      "34171378",
+      "31136035"
+    ],
+    "pmc": [
+      "11603196"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-80858-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39604504/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2786",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,859 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.08.556854",
+  "title": "Comparative transcriptomics reveal a novel tardigrade specific DNA binding protein induced in response to ionizing radiation",
+  "doi": "10.1101/2023.09.08.556854",
+  "abstract": "Tardigrades, microscopic animals found in virtually all ecosystems, are renowned for their remarkable ability to withstand extreme conditions. Recent studies have identified novel tardigrade specific protein families that aid in resistance to desiccation and ionizing radiation (IR). Notably, a tardigrade specific DNA binding protein called Dsup (for DNA damage suppressor) has been found to protect from X-ray damage in human cells and from hydroxyl radicals in vitro . However, Dsup has only been found in two species within the Hypsibioidea superfamily. To better understand mechanisms underlying radio-resistance in the Tardigrada phylum, we first characterized DNA damage and repair in response to IR in the model species Hypsibius exemplaris . By analysis of phosphorylated H2AX, we demonstrated the induction and repair of DNA double-strand breaks after IR exposure. Importantly, the rate of single-strand breaks induced was roughly equivalent to that in human cells, suggesting that DNA repair plays a predominant role in the remarkable radio-resistance of tardigrades. In order to identify novel tardigrade specific genes involved, we next conducted a comparative transcriptomics across three species, H. exemplaris , Acutuncus antarcticus and Paramacrobiotus fairbanksi , the latter belonging to the Macrobiotoidea superfamily known to lack Dsup homologs. In all three species, many genes of DNA repair were among the most strongly overexpressed genes alongside a novel tardigrade specific gene, named T ardigrade D NA damage R esponse protein 1 (TDR1). We found that TDR1 protein interacts with DNA and forms aggregates at high concentration suggesting it may condensate DNA and act by preserving chromosome organization until DNA repair is accomplished. Remarkably, when expressed in human cells, TDR1 improved resistance to Bleomycin, a radiomimetic drug. Based on these findings, we propose that TDR1 is a novel tardigrade specific gene responsible for conferring resistance to IR. Our study sheds light on mechanisms of DNA repair helping to cope with high levels of DNA damage. Furthermore, it suggests that at least two tardigrade specific genes, respectively for Dsup and TDR1, have independently evolved DNA-binding functions that contribute to radio-resistance in the Tardigrada phylum.",
+  "authors": [
+    "M. Anoud",
+    "E. Delagoutte",
+    "Q. Helleu",
+    "A. Brion",
+    "E. Duvernois-Berthet",
+    "M. As",
+    "X. Marques",
+    "K. Lamribet",
+    "C. Senamaud",
+    "L. Jourdren",
+    "A. Adrait",
+    "S. Heinrich",
+    "G. Toutirais",
+    "S. Hamlaoui",
+    "G. Gropplero",
+    "I. Giovannini",
+    "L. Ponger",
+    "M. Gèze",
+    "C. Blugeon",
+    "Y. Coute",
+    "R. Guidetti",
+    "L Rebecchi",
+    "C. Giovannangeli",
+    "A. De Cian",
+    "J-P. Concordet"
+  ],
+  "published_date": "2023-09-09",
+  "updated_date": "2023-09-10T03:30:12Z",
+  "journal": "bioRxiv",
+  "category": "Molecular Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.08.556854",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.08.556854.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Molecular Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Molecular Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            27
+          ]
+        ],
+        "date-time": "2026-02-27T01:39:27Z",
+        "timestamp": 1772156367756,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            9
+          ]
+        ]
+      },
+      "group-title": "Molecular Biology",
+      "reference-count": 72,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Tardigrades, microscopic animals found in virtually all ecosystems, are renowned for their remarkable ability to withstand extreme conditions. Recent studies have identified novel tardigrade specific protein families that aid in resistance to desiccation and ionizing radiation (IR). Notably, a tardigrade specific DNA binding protein called Dsup (for DNA damage suppressor) has been found to protect from X-ray damage in human cells and from hydroxyl radicals\n                  <jats:italic>in vitro</jats:italic>\n                  . However, Dsup has only been found in two species within the Hypsibioidea superfamily.\n                </jats:p>\n                <jats:p>\n                  To better understand mechanisms underlying radio-resistance in the Tardigrada phylum, we first characterized DNA damage and repair in response to IR in the model species\n                  <jats:italic>Hypsibius exemplaris</jats:italic>\n                  . By analysis of phosphorylated H2AX, we demonstrated the induction and repair of DNA double-strand breaks after IR exposure. Importantly, the rate of single-strand breaks induced was roughly equivalent to that in human cells, suggesting that DNA repair plays a predominant role in the remarkable radio-resistance of tardigrades. In order to identify novel tardigrade specific genes involved, we next conducted a comparative transcriptomics across three species,\n                  <jats:italic>H. exemplaris</jats:italic>\n                  ,\n                  <jats:italic>Acutuncus antarcticus</jats:italic>\n                  and\n                  <jats:italic>Paramacrobiotus fairbanksi</jats:italic>\n                  , the latter belonging to the Macrobiotoidea superfamily known to lack Dsup homologs. In all three species, many genes of DNA repair were among the most strongly overexpressed genes alongside a novel tardigrade specific gene, named\n                  <jats:italic>T</jats:italic>\n                  ardigrade\n                  <jats:italic>D</jats:italic>\n                  NA damage\n                  <jats:italic>R</jats:italic>\n                  esponse protein\n                  <jats:italic>1</jats:italic>\n                  (TDR1). We found that TDR1 protein interacts with DNA and forms aggregates at high concentration suggesting it may condensate DNA and act by preserving chromosome organization until DNA repair is accomplished. Remarkably, when expressed in human cells, TDR1 improved resistance to Bleomycin, a radiomimetic drug. Based on these findings, we propose that TDR1 is a novel tardigrade specific gene responsible for conferring resistance to IR. Our study sheds light on mechanisms of DNA repair helping to cope with high levels of DNA damage. Furthermore, it suggests that at least two tardigrade specific genes, respectively for Dsup and TDR1, have independently evolved DNA-binding functions that contribute to radio-resistance in the Tardigrada phylum.\n                </jats:p>",
+      "DOI": "10.1101/2023.09.08.556854",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            10
+          ]
+        ],
+        "date-time": "2023-09-10T03:30:12Z",
+        "timestamp": 1694316612000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Comparative transcriptomics reveal a novel tardigrade specific DNA binding protein induced in response to ionizing radiation"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "M.",
+          "family": "Anoud",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "E.",
+          "family": "Delagoutte",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Q.",
+          "family": "Helleu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "A.",
+          "family": "Brion",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "E.",
+          "family": "Duvernois-Berthet",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "As",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "X.",
+          "family": "Marques",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "K.",
+          "family": "Lamribet",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "C.",
+          "family": "Senamaud",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "L.",
+          "family": "Jourdren",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "A.",
+          "family": "Adrait",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Heinrich",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "G.",
+          "family": "Toutirais",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Hamlaoui",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "G.",
+          "family": "Gropplero",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "I.",
+          "family": "Giovannini",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "L.",
+          "family": "Ponger",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Gèze",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "C.",
+          "family": "Blugeon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3896-6196",
+          "authenticated-orcid": false,
+          "given": "Y.",
+          "family": "Coute",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "R.",
+          "family": "Guidetti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "L",
+          "family": "Rebecchi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "C.",
+          "family": "Giovannangeli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "A.",
+          "family": "De Cian",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "J-P.",
+          "family": "Concordet",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1078/0044-5231-00028"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-animal-021419-083711"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac563"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0968-0004(98)01232-8"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0133658"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0072098"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mrrev.2018.02.003"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0177751"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01101-x"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msab293"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.47682"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1511"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.25431/11380_1178608"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts635"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/s0960-9822(01)00555-3"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2004.03.024"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/jeb.160622"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0800966105"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-022-01573-5"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tice.2018.03.005"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rsos.191159"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jinsphys.2011.03.003"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s40851-019-0127-1"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41559-020-1129-2"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2013.084"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rsob.200413"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms12808"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/life7020026"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12964-020-00670-2"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/cancers11091333"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0168884"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-019-5912-x"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1108799108"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/mst010"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2014.07.024"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/2211-5463.12926"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a012583"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbrc.2022.07.060"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ejmp.2019.03.016"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.10.13.464219"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2013.12.016"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-014-0550-8"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cub.2005.01.029"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/g3.119.400734"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14157"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.46",
+          "first-page": "349",
+          "article-title": "Action Différentielle Des Rayons x et Ultraviolets Sur Le Tardigrade Macrobiotus Areolatus, a l’état Actif et Desséché",
+          "volume": "98",
+          "year": "1964",
+          "journal-title": "Bull. Biol. France Belgique"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty1057"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1269/jrr.45.229"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.06.16.545282"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-43075-8"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2021.01.014"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2018.08.022"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4197"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/14789450.2022.2160324"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1744-7410.2004.tb00145.x"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/em.21944"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00792-016-0888-9"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.104.029249"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2216739120"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0118272"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/09553008414552111"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-cellbio-100818-125320"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2016.04.001"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.15208"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(01)00195-7"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw580"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/jeb.142.1.267"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.1640"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0044209"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dib.2021.107111"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-022-08642-1"
+        },
+        {
+          "key": "2024021706100609000_2023.09.08.556854v2.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.274.5.2907"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.09.08.556854",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:11:46Z",
+        "timestamp": 1768453906000
+      },
+      "score": 94.28485,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.09.08.556854"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            9
+          ]
+        ]
+      },
+      "references-count": 72,
+      "URL": "https://doi.org/10.1101/2023.09.08.556854",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/elife.92621",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.92621.3",
+            "asserted-by": "object"
+          }
+        ],
+        "has-version": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.92621.1",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.92621.2",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            9
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

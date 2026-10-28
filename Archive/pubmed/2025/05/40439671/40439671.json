@@ -1,0 +1,281 @@
+{
+  "identity": {
+    "pmid": "40439671",
+    "doi": "10.1093/bib/bbaf245",
+    "title": "PLM-DBPs: enhancing plant DNA-binding protein prediction by integrating sequence-based and structure-aware protein language models."
+  },
+  "content": {
+    "abstract": "DNA-binding proteins (DBPs) play a crucial role in gene regulation, development, and environmental responses across plants, animals, and microorganisms. Existing DBP prediction methods are largely limited to sequence information, whether through handcrafted features or sequence-based protein language models (PLMs), overlooking structural cues critical to protein function. In addition, most existing tools are trained for general DBP predictions, which are often not accurate for plant-specific DBPs due to the unique structural and functional properties of plant proteins. Our work introduces PLM-DBPs, a deep learning framework that integrates both sequence-based and structure-aware representations to enhance DBP prediction in plants. We evaluated several state-of-the-art PLMs to extract high-dimensional protein representations and experimented with various fusion strategies to validate the complementary information between the various representations. Our final model, a fusion of sequence-based and structure-aware ANN models, achieves a notable improvement in predicting DBPs in plants outperforming previous state-of-the-art models. Although sequence-based PLMs already demonstrate strong performance in DBP prediction, our findings show that the integration of structural information further enhances predictive accuracy. This underscores the complementary nature of structural representations and establishes PLM-DBPs as a robust tool for advancing plant research and agricultural innovation. The proposed model and other resources are publicly available at https://github.com/suresh-pokharel/PLM-DBPs.",
+    "keywords": [
+      "DBP prediction",
+      "plant DNA-binding protein",
+      "protein classification",
+      "protein language models",
+      "structure-aware PLMs"
+    ],
+    "mesh_terms": [
+      "*DNA-Binding Proteins/chemistry/metabolism/genetics",
+      "*Plant Proteins/chemistry/metabolism/genetics",
+      "*Deep Learning",
+      "*Computational Biology/methods",
+      "*Plants/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pokharel, Suresh",
+        "Barasa, Kepha",
+        "Pratyush, Pawel",
+        "Kc, Dukka B"
+      ],
+      "short_names": [
+        "Pokharel S",
+        "Barasa K",
+        "Pratyush P",
+        "Kc DB"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1495-2953",
+        "ORCID: 0000-0002-4210-1200",
+        "ORCID: 0000-0001-7443-1928"
+      ],
+      "affiliations": [
+        "Golisano College of Computing and Information Sciences, Rochester Institute of Technology, Rochester 14623, NY, United States.",
+        "College of Computing, Michigan Technological University, Houghton 49931, MI, United States.",
+        "Golisano College of Computing and Information Sciences, Rochester Institute of Technology, Rochester 14623, NY, United States.",
+        "Golisano College of Computing and Information Sciences, Rochester Institute of Technology, Rochester 14623, NY, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pokharel, Suresh",
+        "short_name": "Pokharel S",
+        "identifiers": [
+          "0000-0003-1495-2953"
+        ],
+        "affiliations": [
+          "Golisano College of Computing and Information Sciences, Rochester Institute of Technology, Rochester 14623, NY, United States."
+        ]
+      },
+      {
+        "full_name": "Barasa, Kepha",
+        "short_name": "Barasa K",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computing, Michigan Technological University, Houghton 49931, MI, United States."
+        ]
+      },
+      {
+        "full_name": "Pratyush, Pawel",
+        "short_name": "Pratyush P",
+        "identifiers": [
+          "0000-0002-4210-1200"
+        ],
+        "affiliations": [
+          "Golisano College of Computing and Information Sciences, Rochester Institute of Technology, Rochester 14623, NY, United States."
+        ]
+      },
+      {
+        "full_name": "Kc, Dukka B",
+        "short_name": "Kc DB",
+        "identifiers": [
+          "0000-0001-7443-1928"
+        ],
+        "affiliations": [
+          "Golisano College of Computing and Information Sciences, Rochester Institute of Technology, Rochester 14623, NY, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2025 May 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/29 13:00",
+    "fetched_at": "2026-09-30 18:44:24"
+  },
+  "links": {
+    "cites": [
+      "42707507",
+      "42441082"
+    ],
+    "refs": [
+      "40181110",
+      "39818825",
+      "39665266",
+      "39633723",
+      "39244557",
+      "38986796",
+      "38866950",
+      "38856168",
+      "38662579",
+      "37156916",
+      "36416116",
+      "36209286",
+      "36192636",
+      "35609601",
+      "33986992",
+      "33780341",
+      "33237286",
+      "32920048",
+      "32797179",
+      "31722485",
+      "30032213",
+      "29753757",
+      "26304539",
+      "25269475",
+      "18042272",
+      "2842864"
+    ],
+    "similar": [
+      "40439671",
+      "39665266",
+      "38986796",
+      "37609352",
+      "35378437",
+      "39795988",
+      "38316843",
+      "32920048",
+      "39988825",
+      "36719781",
+      "36416116",
+      "37651627",
+      "39179250",
+      "38856168",
+      "39214282",
+      "38747369",
+      "39110130",
+      "38303473",
+      "39657630",
+      "37745556",
+      "38281252",
+      "38895377",
+      "38662579",
+      "39570605",
+      "39121938",
+      "37874953",
+      "37437362",
+      "39900285",
+      "38656743",
+      "39985945",
+      "39457474",
+      "40397945",
+      "37577664",
+      "32409904",
+      "39481588",
+      "39102077",
+      "35389869",
+      "39576667",
+      "38078741",
+      "39237735",
+      "37690736",
+      "39858443",
+      "39921962",
+      "29753757",
+      "32689927",
+      "29186632",
+      "38310333",
+      "40282384",
+      "38903752",
+      "31483777",
+      "29028906",
+      "40235638",
+      "38900798",
+      "37866116",
+      "35731758",
+      "40027759",
+      "39254573",
+      "35799660",
+      "40343467",
+      "38866950",
+      "34932484",
+      "37557052",
+      "26304539",
+      "38830995",
+      "40067411",
+      "40185915",
+      "39276905",
+      "38555810",
+      "27565741",
+      "38015872",
+      "40391089",
+      "39576587",
+      "33410688",
+      "39827171",
+      "39316155",
+      "39246251",
+      "36211019",
+      "39357703",
+      "39961524",
+      "34232869",
+      "38643080",
+      "39489606",
+      "40333592",
+      "40027840",
+      "39164870",
+      "38064959",
+      "40138263",
+      "38016996",
+      "40170888",
+      "32300371",
+      "36044786",
+      "39657158",
+      "36892166",
+      "34571539",
+      "34291709",
+      "38871095",
+      "32352006",
+      "39244557",
+      "36653898",
+      "39858535"
+    ],
+    "review": [
+      "40439671",
+      "39985945",
+      "39102077",
+      "39921962"
+    ],
+    "pmc": [
+      "12121366"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40439671.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40439671/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf245",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

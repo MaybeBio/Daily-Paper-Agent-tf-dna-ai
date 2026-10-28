@@ -1,0 +1,510 @@
+{
+  "identity": {
+    "pmid": "34782763",
+    "doi": "10.1038/s41588-021-00964-2",
+    "title": "A cis-acting mechanism mediates transcriptional memory at Polycomb target genes in mammals."
+  },
+  "content": {
+    "abstract": "Epigenetic inheritance of gene expression states enables a single genome to maintain distinct cellular identities. How histone modifications contribute to this process remains unclear. Using global chromatin perturbations and local, time-controlled modulation of transcription, we establish the existence of epigenetic memory of transcriptional activation for genes that can be silenced by the Polycomb group. This property emerges during cell differentiation and allows genes to be stably switched after a transient transcriptional stimulus. This transcriptional memory state at Polycomb targets operates in cis; however, rather than relying solely on read-and-write propagation of histone modifications, the memory is also linked to the strength of activating inputs opposing Polycomb proteins, and therefore varies with the cellular context. Our data and computational simulations suggest a model whereby transcriptional memory arises from double-negative feedback between Polycomb-mediated silencing and active transcription. Transcriptional memory at Polycomb targets thus depends not only on histone modifications but also on the gene-regulatory network and underlying identity of a cell.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Epigenesis, Genetic",
+      "Female",
+      "Histone Code",
+      "Humans",
+      "Male",
+      "Mammals/*genetics",
+      "Mice",
+      "Polycomb Repressive Complex 2/genetics",
+      "Polycomb-Group Proteins/*genetics",
+      "*Transcriptional Activation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Holoch, Daniel",
+        "Wassef, Michel",
+        "Lovkvist, Cecilia",
+        "Zielinski, Dina",
+        "Aflaki, Setareh",
+        "Lombard, Berangere",
+        "Hery, Tiphaine",
+        "Loew, Damarys",
+        "Howard, Martin",
+        "Margueron, Raphael"
+      ],
+      "short_names": [
+        "Holoch D",
+        "Wassef M",
+        "Lovkvist C",
+        "Zielinski D",
+        "Aflaki S",
+        "Lombard B",
+        "Hery T",
+        "Loew D",
+        "Howard M",
+        "Margueron R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7696-7814",
+        "ORCID: 0000-0002-6188-9590",
+        "ORCID: 0000-0002-9111-8842",
+        "ORCID: 0000-0001-7670-0781",
+        "ORCID: 0000-0002-9093-7977"
+      ],
+      "affiliations": [
+        "Institut Curie, Paris Sciences et Lettres Research University, Sorbonne University, Paris, France.",
+        "INSERM U934/CNRS UMR 3215, Paris, France.",
+        "Institut Curie, Paris Sciences et Lettres Research University, Sorbonne University, Paris, France.",
+        "INSERM U934/CNRS UMR 3215, Paris, France.",
+        "John Innes Centre, Norwich Research Park, Norwich, UK. cecilia.loevkvist@bric.ku.dk.",
+        "Biotech Research and Innovation Centre, University of Copenhagen, Copenhagen, Denmark. cecilia.loevkvist@bric.ku.dk.",
+        "Institut Curie, Paris Sciences et Lettres Research University, Sorbonne University, Paris, France.",
+        "INSERM U934/CNRS UMR 3215, Paris, France.",
+        "INSERM U900, Mines ParisTech, Paris, France.",
+        "Institut Curie, Paris Sciences et Lettres Research University, Sorbonne University, Paris, France.",
+        "INSERM U934/CNRS UMR 3215, Paris, France.",
+        "Institut Curie, Paris Sciences et Lettres Research University, Sorbonne University, Paris, France.",
+        "Proteomics Mass Spectrometry Laboratory, Paris, France.",
+        "Institut Curie, Paris Sciences et Lettres Research University, Sorbonne University, Paris, France.",
+        "INSERM U934/CNRS UMR 3215, Paris, France.",
+        "Institut Curie, Paris Sciences et Lettres Research University, Sorbonne University, Paris, France.",
+        "Proteomics Mass Spectrometry Laboratory, Paris, France.",
+        "John Innes Centre, Norwich Research Park, Norwich, UK.",
+        "Institut Curie, Paris Sciences et Lettres Research University, Sorbonne University, Paris, France. raphael.margueron@curie.fr.",
+        "INSERM U934/CNRS UMR 3215, Paris, France. raphael.margueron@curie.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Holoch, Daniel",
+        "short_name": "Holoch D",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Curie, Paris Sciences et Lettres Research University, Sorbonne University, Paris, France.",
+          "INSERM U934/CNRS UMR 3215, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Wassef, Michel",
+        "short_name": "Wassef M",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Curie, Paris Sciences et Lettres Research University, Sorbonne University, Paris, France.",
+          "INSERM U934/CNRS UMR 3215, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Lövkvist, Cecilia",
+        "short_name": "Lövkvist C",
+        "identifiers": [
+          "0000-0001-7696-7814"
+        ],
+        "affiliations": [
+          "John Innes Centre, Norwich Research Park, Norwich, UK. cecilia.loevkvist@bric.ku.dk.",
+          "Biotech Research and Innovation Centre, University of Copenhagen, Copenhagen, Denmark. cecilia.loevkvist@bric.ku.dk."
+        ]
+      },
+      {
+        "full_name": "Zielinski, Dina",
+        "short_name": "Zielinski D",
+        "identifiers": [
+          "0000-0002-6188-9590"
+        ],
+        "affiliations": [
+          "Institut Curie, Paris Sciences et Lettres Research University, Sorbonne University, Paris, France.",
+          "INSERM U934/CNRS UMR 3215, Paris, France.",
+          "INSERM U900, Mines ParisTech, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Aflaki, Setareh",
+        "short_name": "Aflaki S",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Curie, Paris Sciences et Lettres Research University, Sorbonne University, Paris, France.",
+          "INSERM U934/CNRS UMR 3215, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Lombard, Bérangère",
+        "short_name": "Lombard B",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Curie, Paris Sciences et Lettres Research University, Sorbonne University, Paris, France.",
+          "Proteomics Mass Spectrometry Laboratory, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Héry, Tiphaine",
+        "short_name": "Héry T",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Curie, Paris Sciences et Lettres Research University, Sorbonne University, Paris, France.",
+          "INSERM U934/CNRS UMR 3215, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Loew, Damarys",
+        "short_name": "Loew D",
+        "identifiers": [
+          "0000-0002-9111-8842"
+        ],
+        "affiliations": [
+          "Institut Curie, Paris Sciences et Lettres Research University, Sorbonne University, Paris, France.",
+          "Proteomics Mass Spectrometry Laboratory, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Howard, Martin",
+        "short_name": "Howard M",
+        "identifiers": [
+          "0000-0001-7670-0781"
+        ],
+        "affiliations": [
+          "John Innes Centre, Norwich Research Park, Norwich, UK."
+        ]
+      },
+      {
+        "full_name": "Margueron, Raphaël",
+        "short_name": "Margueron R",
+        "identifiers": [
+          "0000-0002-9093-7977"
+        ],
+        "affiliations": [
+          "Institut Curie, Paris Sciences et Lettres Research University, Sorbonne University, Paris, France. raphael.margueron@curie.fr.",
+          "INSERM U934/CNRS UMR 3215, Paris, France. raphael.margueron@curie.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature genetics"
+    ],
+    "journal_abbrev": [
+      "Nat Genet"
+    ],
+    "pub_date": "2021 Dec",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/17 06:00",
+    "fetched_at": "2026-09-28 01:55:23"
+  },
+  "links": {
+    "cites": [
+      "42567931",
+      "42420667",
+      "42331751",
+      "41913290",
+      "41896334",
+      "41840059",
+      "41807460",
+      "41791710",
+      "41639407",
+      "41634341",
+      "41422243",
+      "41385584",
+      "40858112",
+      "40830515",
+      "40118040",
+      "39736786",
+      "39448850",
+      "39180406",
+      "39094565",
+      "38997437",
+      "38813842",
+      "38718120",
+      "38658752",
+      "38658543",
+      "38607915",
+      "38490199",
+      "38416817",
+      "38134278",
+      "37855680",
+      "37849386",
+      "37626134",
+      "37466633",
+      "37415723",
+      "37301892",
+      "37207657",
+      "37041131",
+      "36893455",
+      "36579891",
+      "36574409",
+      "36234804",
+      "36161922",
+      "36134917",
+      "36054209",
+      "35752172",
+      "35708655",
+      "35579426",
+      "35396277"
+    ],
+    "refs": [
+      "33616630",
+      "32424114",
+      "31955845",
+      "31928411",
+      "31548724",
+      "31040401",
+      "30976011",
+      "30146316",
+      "29932905",
+      "29925950",
+      "29813047",
+      "28869966",
+      "28591841",
+      "28499832",
+      "28342717",
+      "28302795",
+      "28302794",
+      "28302792",
+      "28224990",
+      "28135237",
+      "28112738",
+      "27851729",
+      "27419533",
+      "27396330",
+      "27197219",
+      "26725110",
+      "26637281",
+      "26504232",
+      "26278926",
+      "25848745",
+      "25838386",
+      "25831549",
+      "25807481",
+      "25730490",
+      "25607372",
+      "25237104",
+      "25092339",
+      "24999238",
+      "24780085",
+      "24755934",
+      "24576422",
+      "24346702",
+      "24176123",
+      "24157548",
+      "23614352",
+      "23287722",
+      "23203812",
+      "22713873",
+      "21854979",
+      "21789182",
+      "21549310",
+      "21317239",
+      "21239496",
+      "21205896",
+      "21170310",
+      "21030644",
+      "20974918",
+      "20513432",
+      "20385584",
+      "20133625",
+      "19767730",
+      "19700617",
+      "19451217",
+      "19303854",
+      "18993116",
+      "18285464",
+      "17994007",
+      "17851529",
+      "17825402",
+      "17761849",
+      "17713478",
+      "17673620",
+      "17610305",
+      "17407749",
+      "16959577",
+      "16624287",
+      "16086633",
+      "12297622",
+      "11222153",
+      "2419125",
+      "1977656",
+      "1350533"
+    ],
+    "similar": [
+      "34782763",
+      "33616630",
+      "26642436",
+      "30699116",
+      "38288743",
+      "31036804",
+      "38718120",
+      "28342717",
+      "30082786",
+      "38071364",
+      "34473050",
+      "27705803",
+      "34680880",
+      "34620850",
+      "38416817",
+      "31278155",
+      "29054931",
+      "32601198",
+      "29190361",
+      "33804165",
+      "36464274",
+      "36738766",
+      "38361032",
+      "39883738",
+      "25500566",
+      "30793782",
+      "37895228",
+      "40186324",
+      "32991980",
+      "36293135",
+      "17525233",
+      "17107999",
+      "37391188",
+      "37542070",
+      "36076977",
+      "26474904",
+      "38997437",
+      "16415857",
+      "31015400",
+      "28652613",
+      "36054209",
+      "37094603",
+      "26453572",
+      "35681061",
+      "29522656",
+      "22594313",
+      "25955967",
+      "26504232",
+      "39179589",
+      "33888563",
+      "40340859",
+      "35733026",
+      "38506728",
+      "37283086",
+      "33468665",
+      "25367972",
+      "31671162",
+      "23473600",
+      "32393638",
+      "21311219",
+      "34426021",
+      "36380631",
+      "21179169",
+      "26549758",
+      "29845708",
+      "34060617",
+      "35904285",
+      "23468641",
+      "19738629",
+      "31043422",
+      "24845830",
+      "32773039",
+      "38134278",
+      "27705745",
+      "32001513",
+      "24244179",
+      "25817278",
+      "22896699",
+      "27635762",
+      "24755934",
+      "33602871",
+      "35355014",
+      "27940208",
+      "36921607",
+      "28251962",
+      "40068813",
+      "27659984",
+      "24793759",
+      "25065750",
+      "33479437",
+      "30814291",
+      "33662809",
+      "27721404",
+      "22778136",
+      "25687468",
+      "32743818",
+      "19029043",
+      "36577293",
+      "25644713",
+      "36455041"
+    ],
+    "review": [
+      "34782763",
+      "33616630",
+      "38288743",
+      "34680880",
+      "38416817",
+      "31278155",
+      "33804165",
+      "36738766",
+      "30793782",
+      "37895228",
+      "32991980",
+      "36293135",
+      "37391188",
+      "36076977",
+      "26474904",
+      "38997437",
+      "26453572",
+      "35681061",
+      "38506728",
+      "25367972",
+      "23473600",
+      "34426021",
+      "29845708",
+      "34060617",
+      "19738629",
+      "25817278",
+      "24755934",
+      "27940208",
+      "28251962",
+      "24793759",
+      "33662809",
+      "25687468",
+      "32743818"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://hal.archives-ouvertes.fr/hal-03448602",
+        "provider": "HAL archives ouvertes - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41588-021-00964-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/34782763",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse147563",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

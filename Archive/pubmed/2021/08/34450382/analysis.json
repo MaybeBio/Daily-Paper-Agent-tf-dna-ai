@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34450382",
+  "title": "Computer-aided prediction of inhibitors against STAT3 for managing COVID-19 associated cytokine storm.",
+  "authors": "Dhall, Anjali; Patiyal, Sumeet; Sharma, Neelam; Devi, Naorem Leimarembi; Raghava, Gajendra P S",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2021-08-28",
+  "window": {
+    "start": "2021-08-23",
+    "end": "2021-08-29"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习预测STAT3小分子抑制剂，对象为蛋白-小分子而非蛋白-DNA互作，且无结合建模或TF-DNA机制研究，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Proinflammatory cytokines are correlated with the severity of disease in patients with COVID-19. IL6-mediated activation of STAT3 proliferates proinflammatory responses that lead to cytokine storm promotion. Thus, STAT3 inhibitors may play a crucial role in managing the COVID-19 pathogenesis. The present study discusses a method for predicting inhibitors against the STAT3 signaling pathway. METHOD: The main dataset comprises 1565 STAT3 inhibitors and 1671 non-inhibitors used for training, testing, and evaluation of models. A number of machine learning classifiers have been implemented to develop the models. RESULTS: The outcomes of the data analysis show that rings and aromatic groups are significantly abundant in STAT3 inhibitors compared to non-inhibitors. First, we developed models using 2-D and 3-D chemical descriptors and achieved a maximum AUC of 0.84 and 0.73, respectively. Second, fingerprints are used to build predictive models and achieved 0.86 AUC with an accuracy of 78.70% on the validation dataset. Finally, models were developed using hybrid descriptors, which achieved a maximum of 0.87 AUC with 78.55% accuracy on the validation dataset. CONCLUSION: We used the best model to identify STAT3 inhibitors in FDA-approved drugs and found few drugs (e.g., Tamoxifen and Perindopril) to manage the cytokine storm in COVID-19 patients. A webserver \"STAT3In\" (https://webs.iiitd.edu.in/raghava/stat3in/) has been developed to predict and design STAT3 inhibitors.",
+  "abstract_zh": "背景：促炎细胞因子与COVID-19患者的疾病严重程度相关。IL6介导的STAT3激活会增殖促炎反应，导致细胞因子风暴的促进。因此，STAT3抑制剂可能在管理COVID-19发病机制中发挥关键作用。本研究讨论了一种预测STAT3信号通路抑制剂的方法。方法：主要数据集包含1565个STAT3抑制剂和1671个非抑制剂，用于模型的训练、测试和评估。已实施多种机器学习分类器来开发模型。结果：数据分析结果显示，与非抑制剂相比，STAT3抑制剂中环和芳香基团显著丰富。首先，我们使用2-D和3-D化学描述符开发模型，并分别达到最大AUC为0.84和0.73。其次，使用指纹构建预测模型，在验证数据集上达到0.86的AUC，准确率为78.70%。最后，使用混合描述符开发模型，在验证数据集上达到最大0.87的AUC，准确率为78.55%。结论：我们使用最佳模型来识别FDA批准药物中的STAT3抑制剂，并发现少数药物（如他莫昔芬和培哚普利）可用于管理COVID-19患者的细胞因子风暴。已开发一个网络服务器“STAT3In”（https://webs.iiitd.edu.in/raghava/stat3in/），用于预测和设计STAT3抑制剂。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34450382/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34450382/",
+  "paper_page_path": "papers/pubmed/34450382/index.html"
+}

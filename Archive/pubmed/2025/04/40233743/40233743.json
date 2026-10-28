@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "40233743",
+    "doi": "10.1016/j.ajhg.2024.12.011",
+    "title": "ACMG/AMP interpretation of BRCA1 missense variants: Structure-informed scores add evidence strength granularity to the PP3/BP4 computational evidence."
+  },
+  "content": {
+    "abstract": "Classification of missense variants is challenging. Lacking compelling clinical and/or functional data, ACMG/AMP lines of evidence are restricted to PM2 (rarity code applied at supporting level) and PP3/BP4 (computational evidence based mostly on multiple-sequence-alignment conservation tools). Currently, the ClinGen ENIGMA BRCA1/2 Variant Curation Expert Panel uses BayesDel to apply PP3/BP4 to missense variants located in the BRCA1 RING/BRCT domains. The ACMG/AMP framework does not refer explicitly to protein structure as a putative source of pathogenic/benign evidence. Here, we tested the value of incorporating structure-based evidence such as relative solvent accessibility (RSA), folding stability (DeltaDeltaG), and/or AlphaMissense pathogenicity to the classification of BRCA1 missense variants. We used MAVE functional scores as proxies for pathogenicity/benignity. We computed RSA and FoldX5.0 DeltaDeltaG predictions using as alternative input templates for either PDB files or AlphaFold2 models, and we retrieved pre-computed AlphaMissense and BayesDel scores. We calculated likelihood ratios toward pathogenicity/benignity provided by the tools (individually or combined). We performed a clinical validation of major findings using the large-scale BRIDGES case-control dataset. AlphaMissense outperforms DeltaDeltaG and BayesDel, providing similar PP3/BP4 evidence strengths with lower rate of variants in the uninformative score range. AlphaMissense combined with DeltaDeltaG increases evidence strength granularity. AlphaFold2 models perform well as input templates for DeltaDeltaG predictions. Regardless of the tool, BP4 (but not PP3) is highly dependent on RSA, with benignity evidence provided only to variants targeting buried or partially buried residues (RSA </= 60%). Stratification by functional domain did not reveal major differences. In brief, structure-based analysis improves PP3/BP4 assessment, uncovering a relevant role for RSA.",
+    "keywords": [
+      "ACMG/AMP",
+      "AlphaFold",
+      "AlphaMissense",
+      "BRCA1",
+      "BayesDel",
+      "MAVE",
+      "PP3/BP4",
+      "RSA",
+      "DeltaDeltaG"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Mutation, Missense/genetics",
+      "*BRCA1 Protein/genetics/chemistry",
+      "*Computational Biology/methods",
+      "Female",
+      "Bayes Theorem",
+      "Breast Neoplasms/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramadane-Morchadi, Lobna",
+        "Rotenberg, Nitsan",
+        "Esteban-Sanchez, Ada",
+        "Fortuno, Cristina",
+        "Gomez-Sanz, Alicia",
+        "Varga, Matthew J",
+        "Chamberlin, Adam",
+        "Richardson, Marcy E",
+        "Michailidou, Kyriaki",
+        "Perez-Segura, Pedro",
+        "Spurdle, Amanda B",
+        "de la Hoya, Miguel"
+      ],
+      "short_names": [
+        "Ramadane-Morchadi L",
+        "Rotenberg N",
+        "Esteban-Sanchez A",
+        "Fortuno C",
+        "Gomez-Sanz A",
+        "Varga MJ",
+        "Chamberlin A",
+        "Richardson ME",
+        "Michailidou K",
+        "Perez-Segura P",
+        "Spurdle AB",
+        "de la Hoya M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Molecular Oncology Laboratory, Hospital Clinico San Carlos, IdISSC (Instituto de Investigacion Sanitaria del Hospital Clinico San Carlos), 28040 Madrid, Spain.",
+        "University of Queensland, Brisbane, QLD, Australia; Molecular Cancer Epidemiology Laboratory, QIMR Berghofer MRI, Herston, QLD 4006, Australia.",
+        "Molecular Oncology Laboratory, Hospital Clinico San Carlos, IdISSC (Instituto de Investigacion Sanitaria del Hospital Clinico San Carlos), 28040 Madrid, Spain.",
+        "Molecular Cancer Epidemiology Laboratory, QIMR Berghofer MRI, Herston, QLD 4006, Australia.",
+        "Molecular Oncology Laboratory, Hospital Clinico San Carlos, IdISSC (Instituto de Investigacion Sanitaria del Hospital Clinico San Carlos), 28040 Madrid, Spain.",
+        "Ambry Genetics, Aliso Viejo, CA 92656, USA.",
+        "Ambry Genetics, Aliso Viejo, CA 92656, USA.",
+        "Ambry Genetics, Aliso Viejo, CA 92656, USA.",
+        "Biostatistics Unit, The Cyprus Institute of Neurology & Genetics, 2371 Nicosia, Cyprus.",
+        "Molecular Oncology Laboratory, Hospital Clinico San Carlos, IdISSC (Instituto de Investigacion Sanitaria del Hospital Clinico San Carlos), 28040 Madrid, Spain.",
+        "University of Queensland, Brisbane, QLD, Australia; Molecular Cancer Epidemiology Laboratory, QIMR Berghofer MRI, Herston, QLD 4006, Australia.",
+        "Molecular Oncology Laboratory, Hospital Clinico San Carlos, IdISSC (Instituto de Investigacion Sanitaria del Hospital Clinico San Carlos), 28040 Madrid, Spain. Electronic address: miguel.hoya@salud.madrid.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ramadane-Morchadi, Lobna",
+        "short_name": "Ramadane-Morchadi L",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Oncology Laboratory, Hospital Clínico San Carlos, IdISSC (Instituto de Investigación Sanitaria del Hospital Clínico San Carlos), 28040 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Rotenberg, Nitsan",
+        "short_name": "Rotenberg N",
+        "identifiers": [],
+        "affiliations": [
+          "University of Queensland, Brisbane, QLD, Australia; Molecular Cancer Epidemiology Laboratory, QIMR Berghofer MRI, Herston, QLD 4006, Australia."
+        ]
+      },
+      {
+        "full_name": "Esteban-Sánchez, Ada",
+        "short_name": "Esteban-Sánchez A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Oncology Laboratory, Hospital Clínico San Carlos, IdISSC (Instituto de Investigación Sanitaria del Hospital Clínico San Carlos), 28040 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Fortuno, Cristina",
+        "short_name": "Fortuno C",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cancer Epidemiology Laboratory, QIMR Berghofer MRI, Herston, QLD 4006, Australia."
+        ]
+      },
+      {
+        "full_name": "Gómez-Sanz, Alicia",
+        "short_name": "Gómez-Sanz A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Oncology Laboratory, Hospital Clínico San Carlos, IdISSC (Instituto de Investigación Sanitaria del Hospital Clínico San Carlos), 28040 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Varga, Matthew J",
+        "short_name": "Varga MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Ambry Genetics, Aliso Viejo, CA 92656, USA."
+        ]
+      },
+      {
+        "full_name": "Chamberlin, Adam",
+        "short_name": "Chamberlin A",
+        "identifiers": [],
+        "affiliations": [
+          "Ambry Genetics, Aliso Viejo, CA 92656, USA."
+        ]
+      },
+      {
+        "full_name": "Richardson, Marcy E",
+        "short_name": "Richardson ME",
+        "identifiers": [],
+        "affiliations": [
+          "Ambry Genetics, Aliso Viejo, CA 92656, USA."
+        ]
+      },
+      {
+        "full_name": "Michailidou, Kyriaki",
+        "short_name": "Michailidou K",
+        "identifiers": [],
+        "affiliations": [
+          "Biostatistics Unit, The Cyprus Institute of Neurology & Genetics, 2371 Nicosia, Cyprus."
+        ]
+      },
+      {
+        "full_name": "Pérez-Segura, Pedro",
+        "short_name": "Pérez-Segura P",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Oncology Laboratory, Hospital Clínico San Carlos, IdISSC (Instituto de Investigación Sanitaria del Hospital Clínico San Carlos), 28040 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Spurdle, Amanda B",
+        "short_name": "Spurdle AB",
+        "identifiers": [],
+        "affiliations": [
+          "University of Queensland, Brisbane, QLD, Australia; Molecular Cancer Epidemiology Laboratory, QIMR Berghofer MRI, Herston, QLD 4006, Australia."
+        ]
+      },
+      {
+        "full_name": "de la Hoya, Miguel",
+        "short_name": "de la Hoya M",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Oncology Laboratory, Hospital Clínico San Carlos, IdISSC (Instituto de Investigación Sanitaria del Hospital Clínico San Carlos), 28040 Madrid, Spain. Electronic address: miguel.hoya@salud.madrid.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "American journal of human genetics"
+    ],
+    "journal_abbrev": [
+      "Am J Hum Genet"
+    ],
+    "pub_date": "2025 May 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/16 00:24",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42327342",
+      "42015116",
+      "41765968",
+      "41749372",
+      "41358200",
+      "40233741"
+    ],
+    "refs": [
+      "39604737",
+      "39142283",
+      "37733863",
+      "36928239",
+      "36413997",
+      "36344848",
+      "35046575",
+      "35021073",
+      "34584144",
+      "34293799",
+      "34265844",
+      "34063805",
+      "33471991",
+      "32958805",
+      "32720330",
+      "31484976",
+      "30962250",
+      "30712981",
+      "30209399",
+      "29300386",
+      "29024182",
+      "28422960",
+      "27995669",
+      "27268795",
+      "26584803",
+      "25937569",
+      "25741868",
+      "21853506",
+      "21414208",
+      "16096348",
+      "15980494",
+      "15133502",
+      "11573085",
+      "9730927"
+    ],
+    "similar": [
+      "40233743",
+      "40233742",
+      "41809564",
+      "36413997",
+      "39030733",
+      "40829598",
+      "38496501",
+      "34955381",
+      "39345488",
+      "39142283",
+      "40084623",
+      "31131967",
+      "40973199",
+      "35659930",
+      "39096911",
+      "36865205",
+      "37352859",
+      "42159056",
+      "38815586",
+      "42199731",
+      "41499258",
+      "33767344",
+      "42063570",
+      "29775997",
+      "29580235",
+      "30105462",
+      "40212732",
+      "40925377",
+      "39720176",
+      "40251429",
+      "37168384",
+      "36833189",
+      "33087888",
+      "38087376",
+      "41867208",
+      "38160042",
+      "30765603",
+      "40343029",
+      "31911673",
+      "41786677",
+      "18285836",
+      "15923272",
+      "30458859",
+      "41080992",
+      "25643705",
+      "41357762",
+      "20516115",
+      "40027238",
+      "24845084",
+      "31907386",
+      "41856558",
+      "42157253",
+      "41840222",
+      "30869828",
+      "37335020",
+      "37076566",
+      "39440667",
+      "28807866",
+      "35191126",
+      "39430403",
+      "31112341",
+      "33106425",
+      "40397311",
+      "39546087",
+      "38725546",
+      "28081714",
+      "24489791",
+      "22684231",
+      "39676521",
+      "41419200",
+      "41383239",
+      "30257991",
+      "29996917",
+      "40225155",
+      "29300386",
+      "30095857",
+      "18992264",
+      "35736817",
+      "38417439",
+      "42069732",
+      "30840781",
+      "31892348",
+      "34793697",
+      "41797047",
+      "28866612",
+      "41756679",
+      "23867111",
+      "38811176",
+      "21447777",
+      "21769658",
+      "18036263",
+      "41041882",
+      "22527099",
+      "39194334",
+      "37578980",
+      "41508098",
+      "32916545",
+      "35585550",
+      "24894818",
+      "30311375"
+    ],
+    "review": [
+      "40233743",
+      "28866612"
+    ],
+    "pmc": [
+      "12120176"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0002-9297(24)00453-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40233743/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-107",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

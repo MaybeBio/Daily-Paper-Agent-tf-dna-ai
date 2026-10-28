@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "36715222",
+    "doi": "10.1093/bfgp/elac057",
+    "title": "iEnhancer-SKNN: a stacking ensemble learning-based method for enhancer identification and classification using sequence information."
+  },
+  "content": {
+    "abstract": "Enhancers, a class of distal cis-regulatory elements located in the non-coding region of DNA, play a key role in gene regulation. It is difficult to identify enhancers from DNA sequence data because enhancers are freely distributed in the non-coding region, with no specific sequence features, and having a long distance with the targeted promoters. Therefore, this study presents a stacking ensemble learning method to accurately identify enhancers and classify enhancers into strong and weak enhancers. Firstly, we obtain the fusion feature matrix by fusing the four features of Kmer, PseDNC, PCPseDNC and Z-Curve9. Secondly, five K-Nearest Neighbor (KNN) models with different parameters are trained as the base model, and the Logistic Regression algorithm is utilized as the meta-model. Thirdly, the stacking ensemble learning strategy is utilized to construct a two-layer model based on the base model and meta-model to train the preprocessed feature sets. The proposed method, named iEnhancer-SKNN, is a two-layer prediction model, in which the function of the first layer is to predict whether the given DNA sequences are enhancers or non-enhancers, and the function of the second layer is to distinguish whether the predicted enhancers are strong enhancers or weak enhancers. The performance of iEnhancer-SKNN is evaluated on the independent testing dataset and the results show that the proposed method has better performance in predicting enhancers and their strength. In enhancer identification, iEnhancer-SKNN achieves an accuracy of 81.75%, an improvement of 1.35% to 8.75% compared with other predictors, and in enhancer classification, iEnhancer-SKNN achieves an accuracy of 80.50%, an improvement of 5.5% to 25.5% compared with other predictors. Moreover, we identify key transcription factor binding site motifs in the enhancer regions and further explore the biological functions of the enhancers and these key motifs. Source code and data can be downloaded from https://github.com/HaoWuLab-Bioinformatics/iEnhancer-SKNN.",
+    "keywords": [
+      "enhancer identification",
+      "sequence analysis",
+      "stacking ensemble learning",
+      "transcription factor motifs"
+    ],
+    "mesh_terms": [
+      "*Enhancer Elements, Genetic/genetics",
+      "Promoter Regions, Genetic/genetics",
+      "Sequence Analysis, DNA/methods",
+      "*Software",
+      "DNA",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Hao",
+        "Liu, Mengdi",
+        "Zhang, Pengyu",
+        "Zhang, Hongming"
+      ],
+      "short_names": [
+        "Wu H",
+        "Liu M",
+        "Zhang P",
+        "Zhang H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2340-9258",
+        "ORCID: 0000-0001-5167-6666",
+        "ORCID: 0000-0001-8696-4983",
+        "ORCID: 0000-0003-4605-8577"
+      ],
+      "affiliations": [
+        "College of Information Engineering, Northwest A&F University, Yangling, 712100, Shaanxi, China.",
+        "School of Software, Shandong University, Jinan, 250101, Shandong, China.",
+        "College of Information Engineering, Northwest A&F University, Yangling, 712100, Shaanxi, China.",
+        "College of Information Engineering, Northwest A&F University, Yangling, 712100, Shaanxi, China.",
+        "College of Information Engineering, Northwest A&F University, Yangling, 712100, Shaanxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Hao",
+        "short_name": "Wu H",
+        "identifiers": [
+          "0000-0003-2340-9258"
+        ],
+        "affiliations": [
+          "College of Information Engineering, Northwest A&F University, Yangling, 712100, Shaanxi, China.",
+          "School of Software, Shandong University, Jinan, 250101, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Mengdi",
+        "short_name": "Liu M",
+        "identifiers": [
+          "0000-0001-5167-6666"
+        ],
+        "affiliations": [
+          "College of Information Engineering, Northwest A&F University, Yangling, 712100, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Pengyu",
+        "short_name": "Zhang P",
+        "identifiers": [
+          "0000-0001-8696-4983"
+        ],
+        "affiliations": [
+          "College of Information Engineering, Northwest A&F University, Yangling, 712100, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hongming",
+        "short_name": "Zhang H",
+        "identifiers": [
+          "0000-0003-4605-8577"
+        ],
+        "affiliations": [
+          "College of Information Engineering, Northwest A&F University, Yangling, 712100, Shaanxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in functional genomics"
+    ],
+    "journal_abbrev": [
+      "Brief Funct Genomics"
+    ],
+    "pub_date": "2023 May 18",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/31 06:00",
+    "fetched_at": "2026-10-04 21:48:57"
+  },
+  "links": {
+    "cites": [
+      "42209562",
+      "38946113",
+      "38924058",
+      "38666860"
+    ],
+    "refs": [],
+    "similar": [
+      "36715222",
+      "33119044",
+      "34364858",
+      "31874637",
+      "33481715",
+      "35942693",
+      "34814323",
+      "37113248",
+      "29878118",
+      "30822398",
+      "36220606",
+      "26476782",
+      "33808317",
+      "36376800",
+      "36936423",
+      "37852600",
+      "36520922",
+      "36071071",
+      "37442977",
+      "38485768",
+      "34226917",
+      "36063523",
+      "36740001",
+      "28334114",
+      "33802922",
+      "25378307",
+      "33833783",
+      "33581335",
+      "35015646",
+      "33741075",
+      "28589862",
+      "28716036",
+      "31318408",
+      "30286077",
+      "36043696",
+      "30696717",
+      "36030022",
+      "30374023",
+      "28688491",
+      "28881991",
+      "28239713",
+      "31340596",
+      "28024147",
+      "27490187",
+      "36671456",
+      "33184104",
+      "35594906",
+      "35820811",
+      "35417351",
+      "24967590",
+      "35887306",
+      "25517091",
+      "36161334",
+      "31437540",
+      "37021401",
+      "34553746",
+      "35190950",
+      "26091399",
+      "35264081",
+      "37294799",
+      "29070071",
+      "8380090",
+      "22759862",
+      "29219068",
+      "35181793",
+      "9414299",
+      "32786686",
+      "26499213",
+      "37348298",
+      "15342512",
+      "35082832",
+      "32568326",
+      "32249388",
+      "37539835",
+      "33321153",
+      "33535061",
+      "37021559",
+      "38870532",
+      "38385876",
+      "24714811",
+      "20363979",
+      "24156763",
+      "37510345",
+      "29659982",
+      "33316035",
+      "35410163",
+      "9012660",
+      "34486522",
+      "27321818",
+      "38187673",
+      "39131276",
+      "32689977",
+      "35605495",
+      "35603393",
+      "26099324",
+      "35686053",
+      "33133227",
+      "28605766",
+      "31201999",
+      "35633468",
+      "25872643",
+      "20624780",
+      "36990028",
+      "32312232",
+      "30905748",
+      "35062021",
+      "33096548",
+      "39312561",
+      "37760334",
+      "34749786",
+      "38486135",
+      "38430611",
+      "31565573",
+      "37257410",
+      "33160328",
+      "37012250",
+      "38946113",
+      "38343388",
+      "29072144",
+      "39193566",
+      "37366813",
+      "37982748",
+      "27978541",
+      "28827824",
+      "30562350",
+      "37582793",
+      "35435921",
+      "38816885",
+      "37193676",
+      "32732264",
+      "39223609",
+      "39084477",
+      "38139375",
+      "31228310",
+      "37022025",
+      "37854634",
+      "28096768",
+      "39367524",
+      "39229027",
+      "39420601",
+      "35422876",
+      "38868182",
+      "38020152",
+      "38206557",
+      "34508359",
+      "37104615",
+      "38666025",
+      "38761656",
+      "32737473",
+      "38094296",
+      "38385478",
+      "39184348",
+      "39404804",
+      "31969180",
+      "39075972",
+      "38826394",
+      "38083774",
+      "35685360",
+      "35576146",
+      "38915713",
+      "37166953",
+      "37818175",
+      "39275507",
+      "37494820",
+      "32341900",
+      "37886685",
+      "39087000",
+      "26832446",
+      "38014229",
+      "37195463",
+      "38510021",
+      "37173718",
+      "37144127",
+      "38375921",
+      "39110340",
+      "38394128",
+      "37662358",
+      "39282388",
+      "39409359",
+      "35213317",
+      "36822264",
+      "38182076",
+      "38853896",
+      "39314734",
+      "37476664",
+      "36010815",
+      "37772098"
+    ],
+    "review": [
+      "36715222",
+      "37021401",
+      "26499213",
+      "33316035",
+      "27321818",
+      "37257410"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36715222.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bfg/article-lookup/doi/10.1093/bfgp/elac057",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

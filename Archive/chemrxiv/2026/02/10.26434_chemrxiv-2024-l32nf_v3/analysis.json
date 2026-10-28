@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2024-l32nf/v3",
+  "title": "Impact of the halogen PB radii in the estimation of protein-ligand binding energies using MM-PBSA calculations",
+  "authors": "Andreia Fortuna; Paulo J. Costa",
+  "journal": "ChemRxiv",
+  "published_date": "2026-02-04",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文评估MM-PBSA中卤素半径和额外点电荷对蛋白-配体结合自由能计算的影响，虽涉及蛋白-配体互作和MD模拟，但对象为小分子配体而非蛋白质-DNA，方法可迁移至TF-DNA界面建模，故为中档。",
+  "abstract": "Halogenation is a widely used strategy in drug design, not only to improve ADME properties but also because halogens can form halogen bonds (XBs) with biological targets. To predict protein--ligand binding free energies (\\dGbind{}), paramount in drug discovery, MM-PBSA remains a popular intermediate approach between less accurate docking and more rigorous free-energy methods. However, the use of extra-points of charge (EPs) to describe halogen anisotropy and enable XB sampling in MM-PBSA calculations is still uncommon. Optimized halogen radii ($r_{\\mathrm{opt}}$) for PBSA calculations, which are compatible with EPs and reproduce hydration free energies with good accuracy, were recently developed. Yet, their impact on protein--ligand binding free energy calculations has not been systematically assessed. Here, we evaluate the performance of $r_{\\mathrm{opt}}$ in estimating \\dGbind{} values for three sets of halogenated inhibitors of casein kinase-2 with available experimental binding data. We compared three EP models and standard RESP charges (no EPs), while also analyzing the effect of the internal dielectric constant ($\\epsilon$$_{\\textnormal{in}}$) and sampling time. Our results show that direct use of the X-ray structures generally leads to poor correlations, whereas relaxation through MM minimization, particularly with $\\epsilon$$_{\\textnormal{in}}$ = 4, yields an improved agreement with experiment. Incorporating configurational sampling via MD can, in some conditions, further enhance the correlations, though optimal Pearson coefficients are highly dependent on both sampling length and PBSA setup. Nonetheless, optimized radii ($r_{\\mathrm{opt}}$) provided slight improvements, while inclusion of halogen anisotropy through EPs also typically increased correlations. The choice of $\\epsilon$$_{\\textnormal{in}}$ also influenced the quality of predictions. The use of EPs seems to be sufficient to account for the polarizability in systems with multiple halogens and thus lower $\\epsilon$$_{\\textnormal{in}}$ are acceptable, but for ligands with fewer halogens, a higher $\\epsilon$$_{\\textnormal{in}}$ proved beneficial. To our knowledge, this is the first comprehensive benchmark of MM-PBSA calculations using EP-based simulations, and our findings can provide practical guidelines on how to best combine EPs, optimized radii, dielectric constants, and sampling strategies for an improved description of halogen bonding in protein--ligand complexes.",
+  "abstract_zh": "卤化是药物设计中广泛使用的策略，不仅用于改善ADME性质，还因为卤素能与生物靶标形成卤键（XBs）。在药物发现中，预测蛋白质-配体结合自由能（\\dGbind{}）至关重要，MM-PBSA仍然是介于精度较低的对接和更严格的自由能方法之间的流行中间方法。然而，在MM-PBSA计算中使用额外电荷点（EPs）来描述卤素各向异性并实现XB采样仍不常见。最近开发了用于PBSA计算的优化卤素半径（$r_{\\mathrm{opt}}$），这些半径与EPs兼容，并能以良好精度重现水合自由能。然而，它们对蛋白质-配体结合自由能计算的影响尚未被系统评估。在此，我们评估了$r_{\\mathrm{opt}}$在估计三组具有可用实验结合数据的酪蛋白激酶-2卤化抑制剂\\dGbind{}值时的性能。我们比较了三种EP模型和标准RESP电荷（无EPs），同时分析了内介电常数（$\\epsilon$$_{\\textnormal{in}}$）和采样时间的影响。我们的结果表明，直接使用X射线结构通常导致较差的相关性，而通过MM最小化进行弛豫，特别是在$\\epsilon$$_{\\textnormal{in}}$ = 4时，与实验的一致性得到改善。在某些条件下，通过MD引入构象采样可以进一步增强相关性，尽管最优皮尔逊系数高度依赖于采样长度和PBSA设置。尽管如此，优化半径（$r_{\\mathrm{opt}}$）提供了轻微改进，而通过EPs包含卤素各向异性也通常增加了相关性。$\\epsilon$$_{\\textnormal{in}}$的选择也影响了预测质量。使用EPs似乎足以解释具有多个卤素系统中的极化性，因此较低的$\\epsilon$$_{\\textnormal{in}}$是可接受的，但对于卤素较少的配体，较高的$\\epsilon$$_{\\textnormal{in}}$被证明是有益的。据我们所知，这是首次使用基于EP的模拟对MM-PBSA计算进行全面基准测试，我们的发现可以为如何最佳组合EPs、优化半径、介电常数和采样策略提供实用指南，以改进蛋白质-配体复合物中卤键的描述。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2024-l32nf/v3",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2024-l32nf/v3",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2024-l32nf_v3/index.html"
+}

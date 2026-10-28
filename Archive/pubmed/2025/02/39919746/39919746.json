@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "pmid": "39919746",
+    "doi": "10.1016/j.molcel.2025.01.016",
+    "title": "Combinatorial mapping of E3 ubiquitin ligases to their target substrates."
+  },
+  "content": {
+    "abstract": "E3 ubiquitin ligases (E3s) confer specificity of protein degradation through ubiquitination of substrate proteins. Yet, the vast majority of the >600 human E3s have no known substrates. To identify proteolytic E3-substrate pairs at scale, we developed combinatorial mapping of E3 targets (COMET), a framework for testing the role of many E3s in degrading many candidate substrates within a single experiment. We applied COMET to SCF ubiquitin ligase subunits that mediate degradation of target substrates (6,716 F-box-ORF [open reading frame] combinations) and E3s that degrade short-lived transcription factors (TFs) (26,028 E3-TF combinations). Our data suggest that many E3-substrate relationships are complex rather than 1:1 associations. Finally, we leverage deep learning to predict the structural basis of E3-substrate interactions and probe the strengths and limits of such models. Looking forward, we consider the practicality of transposing this framework, i.e., computational structural prediction of all possible E3-substrate interactions, followed by multiplex experimental validation.",
+    "keywords": [
+      "benchmarking",
+      "deep learning",
+      "high-throughput screening",
+      "machine learning",
+      "proteolysis",
+      "structure prediction",
+      "ubiquitin",
+      "ubiquitin ligases"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Ubiquitin-Protein Ligases/metabolism/genetics/chemistry",
+      "Ubiquitination",
+      "Substrate Specificity",
+      "Proteolysis",
+      "Transcription Factors/metabolism/genetics",
+      "Deep Learning",
+      "*SKP Cullin F-Box Protein Ligases/metabolism/genetics",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Suiter, Chase C",
+        "Calderon, Diego",
+        "Lee, David S",
+        "Chiu, Melodie",
+        "Jain, Shruti",
+        "Chardon, Florence M",
+        "Lee, Choli",
+        "Daza, Riza M",
+        "Trapnell, Cole",
+        "Zheng, Ning",
+        "Shendure, Jay"
+      ],
+      "short_names": [
+        "Suiter CC",
+        "Calderon D",
+        "Lee DS",
+        "Chiu M",
+        "Jain S",
+        "Chardon FM",
+        "Lee C",
+        "Daza RM",
+        "Trapnell C",
+        "Zheng N",
+        "Shendure J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Molecular and Cellular Biology Program, University of Washington, Seattle, WA 98195, USA; Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Seattle Hub for Synthetic Biology, Seattle, WA 98195, USA. Electronic address: ccsuiter@uw.edu.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Seattle Hub for Synthetic Biology, Seattle, WA 98195, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Seattle Hub for Synthetic Biology, Seattle, WA 98195, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Seattle Hub for Synthetic Biology, Seattle, WA 98195, USA; Brotman Baty Institute for Precision Medicine, University of Washington, Seattle, WA 98195, USA; Allen Discovery Center for Cell Lineage Tracing, Seattle, WA 98195, USA.",
+        "Department of Pharmacology, University of Washington, Seattle, WA 98195, USA; Howard Hughes Medical Institute, Seattle, WA 98195, USA.",
+        "Molecular and Cellular Biology Program, University of Washington, Seattle, WA 98195, USA; Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Seattle Hub for Synthetic Biology, Seattle, WA 98195, USA; Brotman Baty Institute for Precision Medicine, University of Washington, Seattle, WA 98195, USA; Allen Discovery Center for Cell Lineage Tracing, Seattle, WA 98195, USA; Howard Hughes Medical Institute, Seattle, WA 98195, USA. Electronic address: shendure@uw.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Suiter, Chase C",
+        "short_name": "Suiter CC",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cellular Biology Program, University of Washington, Seattle, WA 98195, USA; Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Seattle Hub for Synthetic Biology, Seattle, WA 98195, USA. Electronic address: ccsuiter@uw.edu."
+        ]
+      },
+      {
+        "full_name": "Calderon, Diego",
+        "short_name": "Calderon D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, David S",
+        "short_name": "Lee DS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Chiu, Melodie",
+        "short_name": "Chiu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Jain, Shruti",
+        "short_name": "Jain S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Chardon, Florence M",
+        "short_name": "Chardon FM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Seattle Hub for Synthetic Biology, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Choli",
+        "short_name": "Lee C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Daza, Riza M",
+        "short_name": "Daza RM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Seattle Hub for Synthetic Biology, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Trapnell, Cole",
+        "short_name": "Trapnell C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Seattle Hub for Synthetic Biology, Seattle, WA 98195, USA; Brotman Baty Institute for Precision Medicine, University of Washington, Seattle, WA 98195, USA; Allen Discovery Center for Cell Lineage Tracing, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Zheng, Ning",
+        "short_name": "Zheng N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of Washington, Seattle, WA 98195, USA; Howard Hughes Medical Institute, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Shendure, Jay",
+        "short_name": "Shendure J",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Cellular Biology Program, University of Washington, Seattle, WA 98195, USA; Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Seattle Hub for Synthetic Biology, Seattle, WA 98195, USA; Brotman Baty Institute for Precision Medicine, University of Washington, Seattle, WA 98195, USA; Allen Discovery Center for Cell Lineage Tracing, Seattle, WA 98195, USA; Howard Hughes Medical Institute, Seattle, WA 98195, USA. Electronic address: shendure@uw.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cell"
+    ],
+    "journal_abbrev": [
+      "Mol Cell"
+    ],
+    "pub_date": "2025 Feb 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/08 00:31",
+    "fetched_at": "2026-09-30 10:52:08"
+  },
+  "links": {
+    "cites": [
+      "42422020",
+      "42361156",
+      "42226266",
+      "42220438",
+      "41764121",
+      "41726935",
+      "41385001",
+      "41159544",
+      "40940201",
+      "40832228"
+    ],
+    "refs": [
+      "38811841",
+      "37735597",
+      "37590370",
+      "35637307",
+      "34626566",
+      "34265844",
+      "33961781",
+      "33854235",
+      "33779035",
+      "33567269",
+      "32958894",
+      "32494016",
+      "31940492",
+      "27834739",
+      "27773672",
+      "27048304",
+      "27015313",
+      "26780180",
+      "26732515",
+      "26631746",
+      "26095538",
+      "25670854",
+      "24699078",
+      "24292625",
+      "24292623",
+      "23314863",
+      "23222517",
+      "22955616",
+      "22404630",
+      "21963094",
+      "21725316",
+      "21605981",
+      "21205896",
+      "19956254",
+      "19489725",
+      "18988848",
+      "18988847",
+      "18154321",
+      "17410169",
+      "16896351",
+      "15688063",
+      "15520277",
+      "14704432",
+      "14523392",
+      "12824889",
+      "12169669",
+      "12070128",
+      "10733526",
+      "10559878",
+      "9346931",
+      "8939846",
+      "1846030"
+    ],
+    "similar": [
+      "39919746",
+      "28739890",
+      "39456142",
+      "23528706",
+      "33536622",
+      "35751381",
+      "29522376",
+      "29070679",
+      "28189687",
+      "22889411",
+      "28455558",
+      "31238008",
+      "9635407",
+      "25900982",
+      "22149024",
+      "21946088",
+      "39983670",
+      "29499128",
+      "26851277",
+      "18988848",
+      "19489725",
+      "14688465",
+      "26976582",
+      "19897738",
+      "20878590",
+      "10581972",
+      "23734257",
+      "39396041",
+      "12169662",
+      "11245432",
+      "31610939",
+      "25460509",
+      "39548056",
+      "38735474",
+      "27249653",
+      "19712108",
+      "20396374",
+      "23522382",
+      "39670824",
+      "29643511",
+      "35836176",
+      "28456970",
+      "32032354",
+      "31898225",
+      "38709105",
+      "31898226",
+      "39972349",
+      "33010352",
+      "25505247",
+      "10582239",
+      "35247307",
+      "28839186",
+      "22959436",
+      "38514884",
+      "33168699",
+      "38102142",
+      "33160249",
+      "20194622",
+      "23695783",
+      "36176194",
+      "26362128",
+      "23747565",
+      "28049764",
+      "37996419",
+      "28928219",
+      "38439679",
+      "35821048",
+      "31678254",
+      "12609982",
+      "21372847",
+      "33683364",
+      "37028429",
+      "25425648",
+      "31868589",
+      "30242699",
+      "32733036",
+      "33693667",
+      "15090654",
+      "39018347",
+      "29326975",
+      "18787112",
+      "35037020",
+      "17254749",
+      "21247385",
+      "25315626",
+      "34771091",
+      "29858610",
+      "15071497",
+      "38305738",
+      "28375744",
+      "27485899",
+      "21863490",
+      "35320687",
+      "19648119",
+      "19240029",
+      "23000173",
+      "31924572",
+      "24068890",
+      "25744769",
+      "28271482"
+    ],
+    "review": [
+      "39919746",
+      "23528706",
+      "28455558",
+      "9635407",
+      "26851277",
+      "19489725",
+      "14688465",
+      "10581972",
+      "31610939",
+      "19712108",
+      "20396374",
+      "23522382",
+      "39670824",
+      "31898225",
+      "31898226",
+      "35247307",
+      "33160249",
+      "26362128",
+      "23747565",
+      "21372847",
+      "21247385",
+      "34771091",
+      "29858610",
+      "15071497",
+      "28375744",
+      "27485899",
+      "35320687",
+      "25744769"
+    ],
+    "pmc": [
+      "11845296"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1097-2765(25)00051-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39919746/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39919746",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

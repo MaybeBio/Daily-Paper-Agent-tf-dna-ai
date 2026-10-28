@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "39164366",
+    "doi": "10.1038/s41598-024-69852-z",
+    "title": "BAX and DDB2 as biomarkers for acute radiation exposure in the human blood ex vivo and non-human primate models."
+  },
+  "content": {
+    "abstract": "There are currently no available FDA-cleared biodosimetry tools for rapid and accurate assessment of absorbed radiation dose following a radiation/nuclear incident. Previously we developed a protein biomarker-based FAST-DOSE bioassay system for biodosimetry. The aim of this study was to integrate an ELISA platform with two high-performing FAST-DOSE biomarkers, BAX and DDB2, and to construct machine learning models that employ a multiparametric biomarker strategy for enhancing the accuracy of exposure classification and radiation dose prediction. The bioassay showed 97.92% and 96% accuracy in classifying samples in human and non-human primate (NHP) blood samples exposed ex vivo to 0-5 Gy X-rays, respectively up to 48 h after exposure, and an adequate correlation between reconstructed and actual dose in the human samples (R(2) = 0.79, RMSE = 0.80 Gy, and MAE = 0.63 Gy) and NHP (R(2) = 0.80, RMSE = 0.78 Gy, and MAE = 0.61 Gy). Biomarker measurements in vivo from four NHPs exposed to a single 2.5 Gy total body dose showed a persistent upregulation in blood samples collected on days 2 and 5 after irradiation. The data indicates that using a combined approach of targeted proteins can increase bioassay sensitivity and provide a more accurate dose prediction.",
+    "keywords": [
+      "Biodosimetry",
+      "ELISA",
+      "Intracellular proteins",
+      "Machine learning",
+      "Protein biomarkers",
+      "Radiation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Biomarkers/blood",
+      "*DNA-Binding Proteins/blood",
+      "*bcl-2-Associated X Protein/metabolism/blood",
+      "Radiation Exposure/adverse effects",
+      "Male",
+      "Radiometry/methods",
+      "Macaca mulatta",
+      "Female",
+      "Machine Learning",
+      "Radiation Dosage"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kanagaraj, Karthik",
+        "Phillippi, Michelle A",
+        "Ober, Elizabeth H",
+        "Shuryak, Igor",
+        "Kleiman, Norman J",
+        "Olson, John",
+        "Schaaf, George",
+        "Cline, J Mark",
+        "Turner, Helen C"
+      ],
+      "short_names": [
+        "Kanagaraj K",
+        "Phillippi MA",
+        "Ober EH",
+        "Shuryak I",
+        "Kleiman NJ",
+        "Olson J",
+        "Schaaf G",
+        "Cline JM",
+        "Turner HC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Radiological Research, Department of Radiation Oncology, Columbia University Irving Medical Center, New York, NY, 10032, USA. kk3581@cumc.columbia.edu.",
+        "Center for Radiological Research, Department of Radiation Oncology, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+        "Center for Radiological Research, Department of Radiation Oncology, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+        "Center for Radiological Research, Department of Radiation Oncology, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+        "Department of Environmental Health Sciences, Mailman School of Public Health, Columbia University Irving Medical Center, New York, NY, USA.",
+        "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA.",
+        "Center for Radiological Research, Department of Radiation Oncology, Columbia University Irving Medical Center, New York, NY, 10032, USA. ht2231@cumc.columbia.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kanagaraj, Karthik",
+        "short_name": "Kanagaraj K",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Radiological Research, Department of Radiation Oncology, Columbia University Irving Medical Center, New York, NY, 10032, USA. kk3581@cumc.columbia.edu."
+        ]
+      },
+      {
+        "full_name": "Phillippi, Michelle A",
+        "short_name": "Phillippi MA",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Radiological Research, Department of Radiation Oncology, Columbia University Irving Medical Center, New York, NY, 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Ober, Elizabeth H",
+        "short_name": "Ober EH",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Radiological Research, Department of Radiation Oncology, Columbia University Irving Medical Center, New York, NY, 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Shuryak, Igor",
+        "short_name": "Shuryak I",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Radiological Research, Department of Radiation Oncology, Columbia University Irving Medical Center, New York, NY, 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Kleiman, Norman J",
+        "short_name": "Kleiman NJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Environmental Health Sciences, Mailman School of Public Health, Columbia University Irving Medical Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Olson, John",
+        "short_name": "Olson J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Schaaf, George",
+        "short_name": "Schaaf G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Cline, J Mark",
+        "short_name": "Cline JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Wake Forest University School of Medicine, Winston-Salem, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Turner, Helen C",
+        "short_name": "Turner HC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Radiological Research, Department of Radiation Oncology, Columbia University Irving Medical Center, New York, NY, 10032, USA. ht2231@cumc.columbia.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Aug 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/21 03:50",
+    "fetched_at": "2026-09-30 01:31:41"
+  },
+  "links": {
+    "cites": [
+      "42457795",
+      "42154011",
+      "41316504",
+      "40507282",
+      "40149344"
+    ],
+    "refs": [
+      "39034036",
+      "37688632",
+      "37561730",
+      "37074660",
+      "37057983",
+      "37057975",
+      "37018160",
+      "36653416",
+      "34879151",
+      "34515768",
+      "34083048",
+      "34075897",
+      "33667298",
+      "32728041",
+      "32341393",
+      "32192645",
+      "31632918",
+      "30605362",
+      "30507310",
+      "30485322",
+      "30446901",
+      "30394814",
+      "30202043",
+      "29911522",
+      "29193982",
+      "28755482",
+      "28650707",
+      "28118115",
+      "27590469",
+      "26011498",
+      "24312182",
+      "21402818",
+      "21402810",
+      "21402809",
+      "21388271",
+      "20938227",
+      "9836559",
+      "8552390"
+    ],
+    "similar": [
+      "39164366",
+      "28328310",
+      "33667298",
+      "32728041",
+      "39034036",
+      "39396080",
+      "30202043",
+      "37561730",
+      "30394814",
+      "34699313",
+      "31373872",
+      "36653416",
+      "35073400",
+      "20065677",
+      "38471523",
+      "26425897",
+      "26589759",
+      "39222930",
+      "28121725",
+      "27556353",
+      "30605362",
+      "34515768",
+      "30074847",
+      "38953870",
+      "33597632",
+      "27473690",
+      "32947487",
+      "30507310",
+      "30870098",
+      "38499035",
+      "28650775",
+      "30843397",
+      "29474504",
+      "26425904",
+      "38684463",
+      "29736597",
+      "38402257",
+      "29596720",
+      "37057982",
+      "26829612",
+      "30371121",
+      "35675853",
+      "15698498",
+      "21388269",
+      "30299338",
+      "33289997",
+      "26425903",
+      "30183511",
+      "37712393",
+      "15555453",
+      "33963206",
+      "33009295",
+      "31804590",
+      "20065686",
+      "31211643",
+      "35680903",
+      "25972268",
+      "27466458",
+      "38997265",
+      "33737626",
+      "26425898",
+      "30576526",
+      "20065684",
+      "38072322",
+      "26745115",
+      "32947489",
+      "26763932",
+      "32947488",
+      "26791381",
+      "38661544",
+      "23144912",
+      "20338261",
+      "32483044",
+      "15962761",
+      "21959603",
+      "23451251",
+      "23362884",
+      "27218292",
+      "37414809",
+      "25963628",
+      "31330030",
+      "37436720",
+      "22439602",
+      "31352081",
+      "23862692",
+      "37527359",
+      "21801108",
+      "33064820",
+      "35196651",
+      "38683751",
+      "24925901",
+      "18572087",
+      "19382019",
+      "37688632",
+      "22769026",
+      "32175928",
+      "32483042",
+      "26425899",
+      "28118115",
+      "21724286",
+      "31618122",
+      "36136739",
+      "38480827"
+    ],
+    "review": [
+      "39164366",
+      "26425897",
+      "33009295",
+      "32483044"
+    ],
+    "pmc": [
+      "11336173"
+    ],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

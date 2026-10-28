@@ -1,0 +1,647 @@
+{
+  "identity": {
+    "pmid": "42547268",
+    "doi": "10.1101/gad.353368.125",
+    "title": "TNK1 is a targetable JAK-independent driver of STAT signaling and inflammation."
+  },
+  "content": {
+    "abstract": "Deregulated inflammatory signaling via STAT family transcription factors, particularly STAT1, underlies a variety of immune-related diseases, including inflammatory bowel disease. Whereas activation of STATs by JAKs via canonical receptor-driven JAK-STAT signaling is well understood, little is known about JAK-independent mechanisms of STAT activation. Here, we identify the understudied nonreceptor tyrosine kinase TNK1 as a therapeutically targetable, JAK-independent activator of STAT signaling. Using a multiomics approach, we mapped a network of TNK1 substrates associated with protein condensates and proinflammatory signaling, including STAT1. We found that TNK1, but not its sister kinase ACK1, directly phosphorylates STATs at well described STAT-activating JAK sites. In cells, TNK1-mediated STAT1 phosphorylation and activation occurs independently of JAKs. Imaging and interactomics data suggest that TNK1 interacts with STAT1 in cytosolic condensates, which likely compartmentalize TNK1-substrate interactions. We show that an intrinsically disordered proline-rich region in TNK1, which includes a 14-3-3 docking phosphorylation site, is required for the formation of kinase-active TNK1 condensates and STAT1 phosphorylation. Mutations within the proline-rich region that eliminate 14-3-3 binding increase formation of TNK1 condensates, suggesting a model in which 14-3-3 acts as a clamp that constrains the flexible PRR to inhibit condensate formation and STAT1 activation. Finally, we show that TNK1 is a targetable driver of STAT1-mediated inflammation in the gut as inhibition of TNK1 reduces active STAT1 in the colon and ameliorates colitis symptoms in mice.",
+    "keywords": [
+      "14-3-3",
+      "STAT1",
+      "condensate",
+      "kinase"
+    ],
+    "mesh_terms": [
+      "*Signal Transduction/genetics",
+      "Animals",
+      "Phosphorylation",
+      "Humans",
+      "*Inflammation/genetics",
+      "*Protein-Tyrosine Kinases/metabolism/genetics/chemistry",
+      "*STAT1 Transcription Factor/metabolism/genetics",
+      "Mice",
+      "Janus Kinases/metabolism",
+      "14-3-3 Proteins/metabolism",
+      "Protein Binding",
+      "Fetal Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lopez-Palacios, Tania P",
+        "Madhusanka, Deshan",
+        "Scott, Samuel M",
+        "Vaughan, Alec J",
+        "Egbert, Christina M",
+        "Chan, Tsz-Yin",
+        "Bustos, Yaphet",
+        "Ashworth, Spencer W",
+        "Truman, Jacob M",
+        "Per Moreno, Angela",
+        "Tsang, Tsz-Ming",
+        "Jayatunge, Dasun N",
+        "Yang, Jingshu",
+        "Nelson, Paige",
+        "Al-Sudani, Fatima",
+        "Tarara, Madelyn",
+        "Kohler, Emmalee",
+        "Pereira Mendiola, Nelson E",
+        "Soderblom, Erik J",
+        "Stubben, Chris J",
+        "Stewart, Paul A",
+        "Kolasangiani, Reza",
+        "Dobish, Kasidy K",
+        "Knobel, Beate",
+        "Buckley, Shannon M",
+        "Bidone, Tamara C",
+        "Smoot, Rory L",
+        "Uchida, Amiko M",
+        "Morawe, Mareen",
+        "Armacki, Milena",
+        "Andersen, Joshua L"
+      ],
+      "short_names": [
+        "Lopez-Palacios TP",
+        "Madhusanka D",
+        "Scott SM",
+        "Vaughan AJ",
+        "Egbert CM",
+        "Chan TY",
+        "Bustos Y",
+        "Ashworth SW",
+        "Truman JM",
+        "Per Moreno A",
+        "Tsang TM",
+        "Jayatunge DN",
+        "Yang J",
+        "Nelson P",
+        "Al-Sudani F",
+        "Tarara M",
+        "Kohler E",
+        "Pereira Mendiola NE",
+        "Soderblom EJ",
+        "Stubben CJ",
+        "Stewart PA",
+        "Kolasangiani R",
+        "Dobish KK",
+        "Knobel B",
+        "Buckley SM",
+        "Bidone TC",
+        "Smoot RL",
+        "Uchida AM",
+        "Morawe M",
+        "Armacki M",
+        "Andersen JL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0882-308X",
+        "ORCID: 0000-0001-8543-661X"
+      ],
+      "affiliations": [
+        "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Fritz B. Burns Cancer Research Laboratory, Salt Lake City, Utah 84112, USA.",
+        "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Chemistry and Biochemistry, Brigham Young University, Provo, Utah 84602, USA.",
+        "Department of Chemistry and Biochemistry, Brigham Young University, Provo, Utah 84602, USA.",
+        "Department of Chemistry and Biochemistry, Brigham Young University, Provo, Utah 84602, USA.",
+        "Division of Oncology, Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Chemistry and Biochemistry, Brigham Young University, Provo, Utah 84602, USA.",
+        "Department of Chemistry and Biochemistry, Brigham Young University, Provo, Utah 84602, USA.",
+        "Department of Chemistry and Biochemistry, Brigham Young University, Provo, Utah 84602, USA.",
+        "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Proteomics and Metabolomics Shared Resources, Duke University School of Medicine, Durham, North Carolina 27710, USA.",
+        "Cancer Bioinformatics Shared Resource, Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Nutrition and Integrative Physiology, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Biomedical Engineering, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Scientific Computing and Imaging Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Internal Medicine, Division of Hematology and Hematopoietic Malignances, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Internal Medicine I, University Hospital Ulm, Ulm 89081, Germany.",
+        "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Internal Medicine, Division of Hematology and Hematopoietic Malignances, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Biomedical Engineering, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Scientific Computing and Imaging Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Surgery, Mayo Clinic, Rochester, Minnesota 55905, USA.",
+        "Department of Biochemistry and Molecular Biology, Mayo Clinic, Rochester, Minnesota 55905, USA.",
+        "Department of Medicine, University of Utah, Salt Lake City, Utah 84112, USA.",
+        "Department of Internal Medicine I, University Hospital Ulm, Ulm 89081, Germany.",
+        "Department of Internal Medicine I, University Hospital Ulm, Ulm 89081, Germany.",
+        "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA; josh.andersen@hci.utah.edu.",
+        "Fritz B. Burns Cancer Research Laboratory, Salt Lake City, Utah 84112, USA.",
+        "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "López-Palacios, Tania P",
+        "short_name": "López-Palacios TP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA.",
+          "Fritz B. Burns Cancer Research Laboratory, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Madhusanka, Deshan",
+        "short_name": "Madhusanka D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Scott, Samuel M",
+        "short_name": "Scott SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Vaughan, Alec J",
+        "short_name": "Vaughan AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Brigham Young University, Provo, Utah 84602, USA."
+        ]
+      },
+      {
+        "full_name": "Egbert, Christina M",
+        "short_name": "Egbert CM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Brigham Young University, Provo, Utah 84602, USA."
+        ]
+      },
+      {
+        "full_name": "Chan, Tsz-Yin",
+        "short_name": "Chan TY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Brigham Young University, Provo, Utah 84602, USA."
+        ]
+      },
+      {
+        "full_name": "Bustos, Yaphet",
+        "short_name": "Bustos Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Oncology, Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Ashworth, Spencer W",
+        "short_name": "Ashworth SW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Brigham Young University, Provo, Utah 84602, USA."
+        ]
+      },
+      {
+        "full_name": "Truman, Jacob M",
+        "short_name": "Truman JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Brigham Young University, Provo, Utah 84602, USA."
+        ]
+      },
+      {
+        "full_name": "Per Moreno, Angela",
+        "short_name": "Per Moreno A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Brigham Young University, Provo, Utah 84602, USA."
+        ]
+      },
+      {
+        "full_name": "Tsang, Tsz-Ming",
+        "short_name": "Tsang TM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Jayatunge, Dasun N",
+        "short_name": "Jayatunge DN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Jingshu",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Nelson, Paige",
+        "short_name": "Nelson P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Al-Sudani, Fatima",
+        "short_name": "Al-Sudani F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Tarara, Madelyn",
+        "short_name": "Tarara M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Kohler, Emmalee",
+        "short_name": "Kohler E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Pereira Mendiola, Nelson E",
+        "short_name": "Pereira Mendiola NE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Soderblom, Erik J",
+        "short_name": "Soderblom EJ",
+        "identifiers": [],
+        "affiliations": [
+          "Proteomics and Metabolomics Shared Resources, Duke University School of Medicine, Durham, North Carolina 27710, USA."
+        ]
+      },
+      {
+        "full_name": "Stubben, Chris J",
+        "short_name": "Stubben CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Bioinformatics Shared Resource, Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Stewart, Paul A",
+        "short_name": "Stewart PA",
+        "identifiers": [
+          "0000-0003-0882-308X"
+        ],
+        "affiliations": [
+          "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+          "Department of Nutrition and Integrative Physiology, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Kolasangiani, Reza",
+        "short_name": "Kolasangiani R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Utah, Salt Lake City, Utah 84112, USA.",
+          "Scientific Computing and Imaging Institute, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Dobish, Kasidy K",
+        "short_name": "Dobish KK",
+        "identifiers": [],
+        "affiliations": [
+          "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+          "Department of Internal Medicine, Division of Hematology and Hematopoietic Malignances, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Knobel, Beate",
+        "short_name": "Knobel B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine I, University Hospital Ulm, Ulm 89081, Germany."
+        ]
+      },
+      {
+        "full_name": "Buckley, Shannon M",
+        "short_name": "Buckley SM",
+        "identifiers": [],
+        "affiliations": [
+          "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA.",
+          "Department of Internal Medicine, Division of Hematology and Hematopoietic Malignances, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Bidone, Tamara C",
+        "short_name": "Bidone TC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Utah, Salt Lake City, Utah 84112, USA.",
+          "Scientific Computing and Imaging Institute, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Smoot, Rory L",
+        "short_name": "Smoot RL",
+        "identifiers": [
+          "0000-0001-8543-661X"
+        ],
+        "affiliations": [
+          "Department of Surgery, Mayo Clinic, Rochester, Minnesota 55905, USA.",
+          "Department of Biochemistry and Molecular Biology, Mayo Clinic, Rochester, Minnesota 55905, USA."
+        ]
+      },
+      {
+        "full_name": "Uchida, Amiko M",
+        "short_name": "Uchida AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      },
+      {
+        "full_name": "Morawe, Mareen",
+        "short_name": "Morawe M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine I, University Hospital Ulm, Ulm 89081, Germany."
+        ]
+      },
+      {
+        "full_name": "Armacki, Milena",
+        "short_name": "Armacki M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine I, University Hospital Ulm, Ulm 89081, Germany."
+        ]
+      },
+      {
+        "full_name": "Andersen, Joshua L",
+        "short_name": "Andersen JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncological Sciences, University of Utah, Salt Lake City, Utah 84112, USA; josh.andersen@hci.utah.edu.",
+          "Fritz B. Burns Cancer Research Laboratory, Salt Lake City, Utah 84112, USA.",
+          "Huntsman Cancer Institute, University of Utah, Salt Lake City, Utah 84112, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes & development"
+    ],
+    "journal_abbrev": [
+      "Genes Dev"
+    ],
+    "pub_date": "2026 Aug 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/04 00:35",
+    "fetched_at": "2026-10-02 03:09:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40694331",
+      "40588121",
+      "39925132",
+      "39721828",
+      "39565209",
+      "39494541",
+      "38720073",
+      "38578832",
+      "38487554",
+      "37119817",
+      "36939323",
+      "36931259",
+      "36884350",
+      "36631611",
+      "36402225",
+      "36334623",
+      "36240739",
+      "35864335",
+      "34577540",
+      "34504101",
+      "34497340",
+      "34471133",
+      "34397095",
+      "34382383",
+      "33472080",
+      "33253749",
+      "32983160",
+      "32694928",
+      "32620797",
+      "32203403",
+      "31626750",
+      "31521232",
+      "31352002",
+      "30320600",
+      "30209212",
+      "29891719",
+      "29875129",
+      "29761158",
+      "29649876",
+      "29419930",
+      "29364866",
+      "28656979",
+      "28323260",
+      "27756058",
+      "27396959",
+      "27374120",
+      "27312411",
+      "26888669",
+      "26559373",
+      "26351690",
+      "25516281",
+      "24449862",
+      "24227677",
+      "24098568",
+      "23104886",
+      "22306293",
+      "21637378",
+      "21536687",
+      "20697568",
+      "20530205",
+      "20090780",
+      "19794087",
+      "19234210",
+      "18974114",
+      "17726064",
+      "17471239",
+      "17406617",
+      "16444738",
+      "16044153",
+      "12171960",
+      "10974037",
+      "9679041",
+      "9566874",
+      "7541555"
+    ],
+    "similar": [
+      "42547268",
+      "33253749",
+      "24449862",
+      "8657151",
+      "14634121",
+      "17849321",
+      "10823829",
+      "32694928",
+      "8642285",
+      "8770944",
+      "10851052",
+      "24319264",
+      "39631567",
+      "16354768",
+      "9047382",
+      "22454431",
+      "12093796",
+      "8709637",
+      "7988557",
+      "12764155",
+      "8977235",
+      "7657660",
+      "9685210",
+      "24333668",
+      "15284024",
+      "9373245",
+      "30995068",
+      "16324217",
+      "23107828",
+      "12556491",
+      "11698287",
+      "34504101",
+      "10228162",
+      "8780896",
+      "9226159",
+      "35772766",
+      "41331846",
+      "27551052",
+      "29239838",
+      "24742922",
+      "11278437",
+      "11032030",
+      "9851859",
+      "14674010",
+      "11476770",
+      "16501077",
+      "9582023",
+      "38829137",
+      "12847270",
+      "11684091",
+      "15356134",
+      "12754213",
+      "10470819",
+      "15543946",
+      "39032278",
+      "9510175",
+      "34630419",
+      "12504822",
+      "8592940",
+      "8790359",
+      "11881154",
+      "12584205",
+      "9974409",
+      "17258468",
+      "12191995",
+      "16686690",
+      "10880341",
+      "42426850",
+      "28739485",
+      "8732683",
+      "11207308",
+      "9015216",
+      "41405992",
+      "12941469",
+      "7716810",
+      "10404396",
+      "22121102",
+      "42751103",
+      "11722592",
+      "10851051",
+      "35238133",
+      "25027037",
+      "9421393",
+      "18832710",
+      "9915797",
+      "9722518",
+      "40140631",
+      "8683106",
+      "9355737",
+      "27473820",
+      "20471303",
+      "10975815",
+      "27357186",
+      "10825167",
+      "14978237",
+      "37184230",
+      "30455079",
+      "10358079",
+      "16982750",
+      "11875080"
+    ],
+    "review": [
+      "42547268",
+      "10851052",
+      "7716810",
+      "10851051",
+      "35238133",
+      "40140631",
+      "27473820"
+    ],
+    "pmc": [
+      "13501527"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42547268/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TNK2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1779",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

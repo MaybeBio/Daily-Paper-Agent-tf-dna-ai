@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; full text not available for verification
+- **Shared manuscript claim summary** The authors evaluate two genomic language models (Evo 2 and megaDNA) for whole-genome sequence generation across prokaryotic, eukaryotic, and viral genomes, reporting systematic failures in preserving long-range organization, repeat composition, transcription factor binding site architecture, and evolutionary constraints. A convolutional neural network classifier distinguishes synthetic from natural sequences with AUROC up to 0.97 in eukaryotes and 0.82 in prokaryotes, with accuracy increasing with genomic distance from the seed. The authors conclude that current gLM architectures have fundamental limitations for realistic genome generation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full text, methods details, model versions and hyperparameters, dataset composition, evaluation metrics definitions, classifier architecture and training details, statistical analyses, and all quantitative results beyond the two AUROC values
+
+## Reviewer
+- **Overall assessment** The abstract addresses a timely and important question regarding the utility of genomic language models for synthetic genome generation. The reported findings, if fully supported, would be of considerable interest to computational biology and biosafety communities. However, the abstract alone provides insufficient detail to evaluate the rigor of the methodology, the validity of the conclusions, or the generalizability of the claims. Several statements appear to overreach relative to what can be established from the described evidence, particularly the claim of "fundamental limitations" in gLM architectures. The work has potential but requires substantial additional information and analysis before its central claims can be assessed.
+- **Who would be interested in the results, and why** Computational biologists developing or applying generative models for genomic sequences; researchers in synthetic biology and genome engineering; biosafety and biosecurity communities concerned with distinguishing synthetic from natural DNA; and methodologists studying the representational limits of transformer-based architectures on biological sequences.
+- **Major strengths** The question is well-motivated and of high practical relevance. The evaluation spans multiple domains of life, which strengthens the potential generalizability of the findings. The use of a discriminative classifier as an independent assessment tool is a reasonable approach. The observation that classification accuracy increases with genomic distance from the seed is an interesting and potentially informative result.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim "systematic failures in gLM-based genomic reconstruction" across multiple biological features.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that synthetic sequences "consistently failed to preserve long-range genomic organization, repeat and k-mer composition, transcription factor binding site architecture, and evolutionary constraints," but no quantitative results, statistical tests, or comparison baselines are provided. It is unclear how these features were measured, what thresholds defined "failure," and whether the observed deviations are statistically significant relative to appropriate null models.
+  - **Why it matters** Without quantitative evidence and defined criteria, the central claim of systematic failure cannot be evaluated. The term "systematic" implies a consistent pattern across all tested conditions, which requires demonstration across the full dataset, not just a summary statement.
+  - **Resolution test** Provide quantitative metrics for each biological feature with confidence intervals, statistical comparisons against appropriate controls, and clear definitions of failure thresholds. Show results for each genome tested, not only aggregated summaries.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that a convolutional neural network "reliably distinguished synthetic from natural sequences, achieving AUROC values up to 0.97 in eukaryotes and 0.82 in prokaryotes."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports only two AUROC values without specifying the number of test sequences, the cross-validation scheme, the class balance, the sequence length used for classification, or the genomic regions from which sequences were drawn. The claim of "reliably distinguished" requires more than a single AUROC value, particularly given the large gap between eukaryotic and prokaryotic performance.
+  - **Why it matters** AUROC values are highly dependent on the test set composition and the difficulty of the classification task. Without details on the classifier training and evaluation, the reader cannot assess whether the reported values reflect genuine differences between synthetic and natural sequences or artifacts of the experimental design.
+  - **Resolution test** Provide full classifier details including architecture, training and test splits, sequence lengths, number of samples, and AUROC with confidence intervals. Report performance separately for each genome and each model tested.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and interpretation
+  - **Claim pointer** The authors conclude that their findings "suggest fundamental limitations in current gLM architectures for capturing the long-range, hierarchical nature of genomic sequences."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract evaluates only two models, Evo 2 and megaDNA, on a limited set of genomes. Generalizing from two architectures to "current gLM architectures" as a class is a substantial inferential leap. The observed failures could be specific to these models, their training data, or the generation strategy employed, rather than inherent to the architecture family.
+  - **Why it matters** The conclusion has strong implications for the field and for biosafety policy. Overgeneralization from a small sample of models could misdirect future research and applications.
+  - **Resolution test** Either temper the conclusion to reflect the specific models tested, or provide evidence that the observed limitations are shared across a broader range of gLM architectures with different training regimes and objectives.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state they "tested Evo 2 on diverse prokaryotic, eukaryotic and viral genomes, and megaDNA on bacteriophage genomes."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify the number of genomes tested, the species represented, the genome sizes, or the generation parameters used for each model. The term "diverse" is undefined.
+  - **Why it matters** Reproducibility requires precise specification of the input data and generation conditions. Without this information, the scope of the evaluation cannot be determined, and the results cannot be replicated or compared with future studies.
+  - **Resolution test** Provide a complete list of genomes with accession numbers, genome sizes, and the generation protocol for each model, including any hyperparameters and sampling strategies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "models showed particular difficulty with repetitive elements" is vague. It is unclear whether this refers to all types of repeats or specific classes, and what metric was used to assess difficulty.
+  - **Required correction** Specify the repeat classes analyzed and the quantitative measure of difficulty, such as recall or precision for repeat regions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "evolutionary constraints" as a feature that was not preserved, but does not define what this means operationally. This could refer to codon usage bias, selective constraint scores, or other measures.
+  - **Required correction** Define the specific evolutionary constraint metrics used and how they were computed for synthetic versus natural sequences.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that classification accuracy "increased monotonically with genomic distance from the seed" is presented without supporting data. Monotonicity is a strong claim that requires demonstration across multiple distance bins.
+  - **Required correction** Provide the distance bins used and the accuracy values for each bin, or rephrase to describe the observed trend without claiming strict monotonicity.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, statistical analyses, and model evaluation details means that the core claims of systematic failure and reliable discrimination cannot be verified from the supplied material. The generalization from two models to all gLM architectures is not justified.
+- **Assessment against Nature-style criteria** Originality: the question is not entirely new, as limitations of generative models for biological sequences have been discussed, but the specific focus on whole-genome generation and the multi-feature evaluation may offer a useful contribution. Scientific importance: high, given the potential applications in synthetic biology and biosafety. Interdisciplinary readership: the topic bridges machine learning, genomics, and biosecurity, and the abstract is written accessibly. Technical soundness: cannot be assessed from the abstract alone; the lack of methodological detail is a major deficiency. Readability for nonspecialists: the abstract is generally clear, though terms such as "k-mer composition" and "AUROC" may require background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary observations, but the absence of quantitative results and methodological detail prevents evaluation of the central claims. A revised version with full methods, comprehensive results, and appropriately tempered conclusions could be considered supportive.
+
+## Risk / unsupported claims
+- The claim of "fundamental limitations in current gLM architectures" is unsupported given that only two models were evaluated.
+- The claim of "systematic failures" across multiple biological features is unsupported without quantitative metrics and statistical tests.
+- The claim that the classifier "reliably distinguished" synthetic from natural sequences is unsupported without details on the classifier evaluation and the range of AUROC values across test conditions.
+- The claim of monotonic increase in classification accuracy with genomic distance is unsupported without data.
+- The generalizability of findings to "diverse" genomes cannot be assessed without a list of the genomes tested.

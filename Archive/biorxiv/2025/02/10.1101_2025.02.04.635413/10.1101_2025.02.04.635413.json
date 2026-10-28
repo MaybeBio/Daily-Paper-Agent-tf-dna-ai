@@ -1,0 +1,399 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.02.04.635413",
+  "title": "NanoBEP – A Machine Learning Based Tool for Nanobody Binding Energy Prediction",
+  "doi": "10.1101/2025.02.04.635413",
+  "abstract": "Nanobody is a special class of antibodies comprising only one variable heavy chain. Its small size and high stability over a wide range of temperature and pH, makes it an ideal candidate for biomedical applications. Designing a nanobody that can bind to a specific target protein, either for therapeutic or diagnostic purposes, requires a quick estimation of binding affinity of nanobody-protein complex. Many predictive models for protein-protein interactions have been developed leveraging the capability of machine learning techniques. The popular protein-protein interaction models, however, could not accurately predict the binding affinity of available nanobody-protein complexes. We, therefore, have developed a random forest based model that can predict the value of dissociation constant (log 10 K d ) at high accuracy with a Pearson’s correlation coefficient value of 0.95 and a mean absolute error of 0.44. Our cherry-picked model identifies the best protein features for the prediction through two stages of selection strategy that includes elimination of highly correlated features through graph network analysis, followed by the recursive feature elimination through random forest. Despite being a class of antibodies, a model trained only on antigen-antibody complexes couldn’t accurately predict the binding affinity of the nanobody-protein complexes. The predictability improved only when we included the data on monomeric protein complexes and some nanobody-protein complexes during training.",
+  "authors": [
+    "Soma Prasad Sahoo",
+    "Pratibha Manickavasagam",
+    "M. Hamsa Priya"
+  ],
+  "published_date": "2025-02-07",
+  "updated_date": "2025-02-07T20:25:21Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.02.04.635413",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.02.04.635413.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            11
+          ]
+        ],
+        "date-time": "2026-04-11T07:52:45Z",
+        "timestamp": 1775893965078,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            7
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 33,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                7
+              ]
+            ],
+            "date-time": "2025-02-07T00:00:00Z",
+            "timestamp": 1738886400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            7
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Nanobody is a special class of antibodies comprising only one variable heavy chain. Its small size and high stability over a wide range of temperature and pH, makes it an ideal candidate for biomedical applications. Designing a nanobody that can bind to a specific target protein, either for therapeutic or diagnostic purposes, requires a quick estimation of binding affinity of nanobody-protein complex. Many predictive models for protein-protein interactions have been developed leveraging the capability of machine learning techniques. The popular protein-protein interaction models, however, could not accurately predict the binding affinity of available nanobody-protein complexes. We, therefore, have developed a random forest based model that can predict the value of dissociation constant (log\n                  <jats:sub>10</jats:sub>\n                  K\n                  <jats:sub>d</jats:sub>\n                  ) at high accuracy with a Pearson’s correlation coefficient value of 0.95 and a mean absolute error of 0.44. Our cherry-picked model identifies the best protein features for the prediction through two stages of selection strategy that includes elimination of highly correlated features through graph network analysis, followed by the recursive feature elimination through random forest. Despite being a class of antibodies, a model trained only on antigen-antibody complexes couldn’t accurately predict the binding affinity of the nanobody-protein complexes. The predictability improved only when we included the data on monomeric protein complexes and some nanobody-protein complexes during training.\n                </jats:p>",
+      "DOI": "10.1101/2025.02.04.635413",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            7
+          ]
+        ],
+        "date-time": "2025-02-07T20:25:21Z",
+        "timestamp": 1738959921000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "NanoBEP – A Machine Learning Based Tool for Nanobody Binding Energy Prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Soma Prasad",
+          "family": "Sahoo",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai-36, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Pratibha",
+          "family": "Manickavasagam",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai-36, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3049-3531",
+          "authenticated-orcid": false,
+          "given": "M. Hamsa",
+          "family": "Priya",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai-36, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mehdi Arbabi-Ghahroudi . Camelid single-domain antibodies: Historical perspective and future outlook. Front Immunol., 8, November 2017.",
+          "DOI": "10.3389/fimmu.2017.01589"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/antib8040055"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.nanolett.9b02062"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.addr.2023.114726"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C. Freire Soraya , M. L. Barros , J. P. Zuliani , G. P. Furtado , and R. G. Stábeli . Camelid single-domain antibodies as an alternative to overcome challenges related to the prevention, detection, and control of neglected tropical diseases. Front Immunol., 8, June 2017.",
+          "DOI": "10.3389/fimmu.2017.00653"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Moutel , N. Bery , V. Bernard , L. Keller , E. Lemesre , A. de Marco , L. Ligat , J.-C. Rain , G. Favre , A. Olichon , and F. Perez . Nali-h1: A universal synthetic library of humanized nanobodies providing highly functional antibodies and intrabodies. eLife., 5, July 2016.",
+          "DOI": "10.7554/eLife.16228"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rsif.2012.0835"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.24235"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms10062763"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.xpro.2023.102459"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. Douzi . Protein-Protein Interactions: Surface Plasmon Resonance, volume 1648, pages 257–275. Springer New York, 2017.",
+          "DOI": "10.1007/978-1-4939-7033-9_21"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/meth.1999.0852"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbp001"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0014-5793(03)00456-3"
+        },
+        {
+          "issue": "2",
+          "key": "2026041100020426000_2025.02.04.635413v1.15",
+          "first-page": "393",
+          "article-title": "AB-Bind: Antibody binding mutational database for computational affinity predictions",
+          "volume": "25",
+          "year": "2015",
+          "journal-title": "Protein Sci"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpc.2022.106762"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu580"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Vangone and A. M. Bonvin . Contacts-based prediction of binding affinity in protein–protein complexes. eLife., 4, July 2015.",
+          "DOI": "10.7554/eLife.07454"
+        },
+        {
+          "issue": "23",
+          "key": "2026041100020426000_2025.02.04.635413v1.19",
+          "first-page": "3676",
+          "article-title": "Prodigy: A web server for predicting the binding affinity of protein–protein complexes",
+          "volume": "32",
+          "year": "2016",
+          "journal-title": "Bioin- formatics"
+        },
+        {
+          "issue": "4",
+          "key": "2026041100020426000_2025.02.04.635413v1.20",
+          "first-page": "1141",
+          "article-title": "Graph-based antibody-antigen binding affinity prediction and docking scoring function",
+          "volume": "38",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jproteome.2c00020"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbapap.2023.140948"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. X. Yang , P. Wang , and B. T. Zhu . Binding affinity prediction for antibody-protein antigen complexes: A machine learning analysis based on interface and surface areas. J. Mol. Graph Model., 118:108364, January 2023.",
+          "DOI": "10.1016/j.jmgm.2022.108364"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. X. Yang , P. Wang , and B. T. Zhu . Importance of interface and surface areas in protein-protein binding affinity prediction: A machine learning analysis based on linear regression and artificial neural network. Biophys. Chem., 283:106762, April 2022.",
+          "DOI": "10.1016/j.bpc.2022.106762"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm030580l"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz062"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.26974"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-13-313"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm998"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/5.0118207"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.1239303"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/1536867X20909688"
+        },
+        {
+          "key": "2026041100020426000_2025.02.04.635413v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Pajankar and A. Joshi . Introduction to machine learning with scikit-learn. Hands- on Machine Learning with Python, pages 65–77, 2022.",
+          "DOI": "10.1007/978-1-4842-7921-2_5"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.02.04.635413",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            11
+          ]
+        ],
+        "date-time": "2026-04-11T07:02:13Z",
+        "timestamp": 1775890933000
+      },
+      "score": 93.07697,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.02.04.635413"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            7
+          ]
+        ]
+      },
+      "references-count": 33,
+      "URL": "https://doi.org/10.1101/2025.02.04.635413",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            7
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, background, results, discussion, methods) as provided
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the provided text; no external data or supplementary materials were accessible for independent verification
+- **Shared manuscript claim summary** The authors propose a conserved-current loop extrusion (CCLE) model in which cohesin ChIP-seq data alone, interpreted as a nearly conserved probability current, yields position-dependent loop extrusion rates that predict TAD-scale Hi-C maps in interphase Schizosaccharomyces pombe and meiotic and mitotic Saccharomyces cerevisiae without explicit boundary elements
+- **Visible evidence base** Figures 1-6 (as described in text), Tables 1-2, Additional File 1 (referenced but not provided), Additional File 2 (referenced but not provided)
+- **Missing materials affecting confidence** Additional File 1 (supplementary methods and figures S1-S24), Additional File 2 (dataset table), raw Hi-C and ChIP-seq data, code for simulations, detailed parameter optimization procedures, statistical error calculations
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually appealing and potentially significant advance in modeling chromatin organization by deriving position-dependent loop extrusion rates from cohesin ChIP-seq data without requiring explicit boundary element definitions. The model is tested across three distinct chromatin states in two yeast species, showing good visual and quantitative agreement with experimental Hi-C maps. However, the strength of the central claim, that cohesin distribution alone predicts chromatin organization, depends critically on several modeling assumptions and parameter choices that are not fully transparent from the provided text. The absence of the supplementary methods and figures, which contain essential derivations, validation steps, and additional comparisons, limits the ability to fully assess technical soundness. The comparison against a diffusion-capture alternative is valuable but incomplete, and the treatment of model violations in the mitotic case raises questions about the generality of the approach. The manuscript is well written and accessible, but several technical details require clarification before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, genome organization, and biophysical modeling of chromosomes would be the primary audience. The work is also relevant to computational biologists developing polymer models of chromatin and to experimentalists studying cohesin function in non-vertebrate systems. The claim that a single input (cohesin ChIP-seq) can predict Hi-C maps across diverse cell states is of broad interest to the chromosome architecture community.
+- **Major strengths** 1) The conceptual shift from discrete boundary elements to continuous position-dependent extrusion rates is elegant and potentially generalizable. 2) The model is tested in three distinct biological contexts with very different Hi-C features, demonstrating versatility. 3) The self-consistency check, reproducing ChIP-seq from simulated loop configurations, is a strong validation step. 4) The comparison with a diffusion-capture model provides a useful benchmark. 5) The inferred cohesin copy numbers and processivity values are compared to independent estimates, grounding the model in biology.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the CCLE model accurately predicts Hi-C maps using only cohesin ChIP-seq data as input, with just four or five fitting parameters.
+  - **Evidence pointer** Results sections for S. pombe, meiotic S. cerevisiae, mitotic S. cerevisiae; Tables 1-2; Figures 1, 5, 6
+  - **Concern** The manuscript reports excellent agreement between simulated and experimental Hi-C maps, but the quantitative metrics (MPR, PCC) are presented without a clear null model or statistical significance assessment. The MPR values for S. pombe (approximately 1.09) are close to unity, but the improvement over the diffusion-capture model (MPR 1.1754) is modest. More critically, the mitotic S. cerevisiae case shows substantially worse agreement (MPR 1.9536, PCC 0.4488), and the authors attribute this to noise and model violations. This raises the question of whether the model is genuinely predictive or whether the parameter optimization procedure, which is not fully described in the provided text, is flexible enough to fit diverse patterns. The claim that the model "accurately predicts" Hi-C maps requires a more rigorous statistical framework, including confidence intervals on the metrics and a demonstration that the agreement is not simply a result of overfitting.
+  - **Why it matters** The central claim of the paper rests on the quality of the agreement between simulation and experiment. Without a clear statistical basis for evaluating this agreement, and with one of the three test cases showing substantially poorer performance, the strength of the conclusion is weakened.
+  - **Resolution test** Provide a detailed description of the parameter optimization procedure, including the search space, convergence criteria, and the sensitivity of the results to initial conditions. Present a null model comparison, such as a randomized ChIP-seq input or a model with uniform extrusion rates, to demonstrate that the observed agreement is specifically due to the spatial information in the ChIP-seq data. Report confidence intervals or bootstrap estimates for MPR and PCC values. For the mitotic case, provide a more detailed analysis of where the model fails and whether the violations are consistent with known biology.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that the model is self-consistent because simulated LEF occupancy probabilities reproduce the input ChIP-seq data.
+  - **Evidence pointer** Figure 3, Figure 5D, Figure 6C; Results sections on self-consistency
+  - **Concern** The self-consistency check is presented as a validation, but the procedure for converting ChIP-seq signal to occupancy probability (Equation 10) involves a subtraction of a uniform cohesive cohesin density, rho_c, which is itself a fitting parameter. This creates a circularity: the model fits rho_c to achieve agreement with Hi-C, then uses the same parameter to claim that the simulated occupancy matches the ChIP-seq. The cross-correlation values (approximately 0.7-0.8) are reported, but the expected value under the null hypothesis of no relationship is not given. Furthermore, the conversion of ChIP-seq counts to absolute occupancy probabilities requires assumptions about antibody efficiency, background levels, and the relationship between ChIP-seq signal and true occupancy that are not discussed.
+  - **Why it matters** The self-consistency check is a key argument for the validity of the model. If the procedure is circular or relies on unstated assumptions, the validation is weakened.
+  - **Resolution test** Clarify the independence of the self-consistency check from the parameter fitting. For example, perform a cross-validation where the model is fit on one half of the genome and the self-consistency is evaluated on the other half. Provide a null distribution for the cross-correlation values, for example by shuffling the ChIP-seq signal. Discuss the assumptions underlying the conversion of ChIP-seq to occupancy probability and how violations of these assumptions might affect the results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the success of CCLE in yeasts suggests that loop extrusion by cohesin is the primary mechanism underlying TADs in these systems.
+  - **Evidence pointer** Discussion section; Conclusions
+  - **Concern** The manuscript demonstrates that a model with position-dependent extrusion rates derived from ChIP-seq can reproduce Hi-C maps. However, this does not uniquely establish that loop extrusion is the mechanism, nor that cohesin is the dominant factor. Other mechanisms, such as phase separation, transcription-mediated organization, or polymer-polymer interactions, could potentially produce similar patterns. The comparison with the diffusion-capture model is a useful step, but only one alternative model is considered, and it is a relatively simple one. The claim that cohesin is the "dominant loop extrusion factor" and that the model "marks the base of all, or the overwhelming majority, of TAD-scale loops" is stronger than the evidence supports.
+  - **Why it matters** The broader significance of the work depends on the generality of the mechanism. Overstating the conclusion could mislead the field.
+  - **Resolution test** Soften the language in the conclusions to reflect that the model is consistent with loop extrusion as a mechanism, but does not exclude others. Consider testing additional alternative models, such as a random-loop model or a model with only cohesive cohesin, to strengthen the case for loop extrusion specifically. Discuss the limitations of the approach in distinguishing between mechanisms.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the model uses "cohesin ChIP-seq data alone" as input.
+  - **Evidence pointer** Methods section; Equation 10; Table 2
+  - **Concern** While the model does not use explicit boundary element positions, it does require several additional inputs and assumptions: the choice of which cohesin subunit ChIP-seq to use (Psc3, Rec8, Mcd1), the assumption of a uniform background of cohesive cohesin (rho_c), the polymer persistence length, the nuclear radius, and the functional form of the contact probability for a polymer in confinement. The number of fitting parameters (4-5) is modest, but the sensitivity of the results to these choices is not systematically explored. For example, would the model work equally well with a different cohesin subunit ChIP-seq? How sensitive are the results to the assumed nuclear radius or persistence length?
+  - **Why it matters** The claim of "cohesin distribution alone" is central to the paper's novelty. If the results are highly sensitive to other assumptions, the claim is weakened.
+  - **Resolution test** Perform a sensitivity analysis for each of the key parameters and inputs. Show that the agreement with experimental Hi-C is robust to reasonable variations in these parameters. Test whether the model works with alternative cohesin subunit ChIP-seq data. Discuss the rationale for the chosen parameter values and the potential impact of uncertainties in these values.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Methods section, polymer modeling
+  - **Evidence pointer** Methods, "Modeling the chromatin polymer inside the nucleus"
+  - **Issue** The description of the polymer model is brief. The choice of reflecting boundary conditions is justified by reference to Rabl configurations, but the alternative of absorbing boundary conditions is only mentioned in passing. The functional form of the contact probability is not given in the main text.
+  - **Required correction** Provide the explicit functional form of the contact probability in the main text or refer more clearly to the supplementary methods. Briefly explain the physical difference between reflecting and absorbing boundary conditions and why the reflecting case is more appropriate for the systems studied.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Table 2, parameter values
+  - **Evidence pointer** Table 2
+  - **Issue** The uncertainties on the fitted parameters are reported as standard deviations, but the method for calculating these uncertainties is not described in the main text. It is unclear whether these are statistical errors from the fitting procedure or systematic uncertainties from the model assumptions.
+  - **Required correction** Clarify the source of the reported uncertainties. If they are statistical, describe the fitting procedure in more detail. If they are systematic, discuss how they were estimated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Evidence quality
+  - **Affected element** Comparison with Ref. [54]
+  - **Evidence pointer** Results, meiotic S. cerevisiae section; Discussion
+  - **Issue** The manuscript states that CCLE improves on Ref. [54] by eliminating the need to specify boundary element positions. However, the comparison with Ref. [54] is only qualitative. A direct quantitative comparison of the two models on the same dataset would strengthen the claim of improvement.
+  - **Required correction** If possible, run the Ref. [54] model on the same S. pombe and S. cerevisiae datasets and compare MPR and PCC values. If this is not feasible, provide a more detailed discussion of the specific advantages of CCLE over Ref. [54] in terms of predictive power and parameter parsimony.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1A-F
+  - **Issue** The figure is described as having a left-right symmetry to indicate agreement, but the quantitative comparison is only given in the text via MPR and PCC values. The ratio maps in Figure 1E and F are helpful, but a color scale bar is not described.
+  - **Required correction** Add a color scale bar to the ratio maps and consider adding a quantitative scale to the main Hi-C maps. This will help readers assess the degree of agreement visually.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Discussion of Wpl1 depletion
+  - **Evidence pointer** Results, meiotic S. cerevisiae section; Additional File 1: Figure S17
+  - **Issue** The Wpl1 depletion experiment is mentioned as a validation, but the details are not provided in the main text. It is unclear whether the ChIP-seq data for Wpl1-depleted cells was used as input to the model or whether the model was run with parameters from the wild-type case.
+  - **Required correction** Clarify the procedure for the Wpl1 depletion simulation. If the ChIP-seq data was used as input, state this explicitly. If the model was run with wild-type parameters, discuss the implications of this assumption.
+
+## Risk / unsupported claims
+- The claim that the CCLE model "accurately predicts" Hi-C maps is not fully supported without a statistical framework for assessing agreement and a demonstration of robustness to parameter choices.
+- The claim that cohesin is the "dominant loop extrusion factor" and that the model "marks the base of all, or the overwhelming majority, of TAD-scale loops" is stronger than the evidence supports, as alternative mechanisms are not excluded.
+- The self-consistency check (reproducing ChIP-seq from simulated occupancy) may be circular because the conversion from ChIP-seq to occupancy involves a fitted parameter (rho_c).
+- The comparison with the diffusion-capture model is limited to a single alternative and does not establish that loop extrusion is uniquely favored.
+- The treatment of the mitotic S. cerevisiae case, where model assumptions are violated, is not fully resolved; the authors acknowledge the issue but do not provide a quantitative assessment of the impact on the conclusions.
+- The claim that the model is applicable "across the tree of life" is speculative, as it is only tested in two yeast species.

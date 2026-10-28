@@ -1,0 +1,837 @@
+{
+  "identity": {
+    "pmid": "36745048",
+    "doi": "10.1158/2159-8290.CD-22-0244",
+    "title": "Discovery of Targets for Immune-Metabolic Antitumor Drugs Identifies Estrogen-Related Receptor Alpha."
+  },
+  "content": {
+    "abstract": "Drugs that kill tumors through multiple mechanisms have the potential for broad clinical benefits. Here, we first developed an in silico multiomics approach (BipotentR) to find cancer cell-specific regulators that simultaneously modulate tumor immunity and another oncogenic pathway and then used it to identify 38 candidate immune-metabolic regulators. We show the tumor activities of these regulators stratify patients with melanoma by their response to anti-PD-1 using machine learning and deep neural approaches, which improve the predictive power of current biomarkers. The topmost identified regulator, ESRRA, is activated in immunotherapy-resistant tumors. Its inhibition killed tumors by suppressing energy metabolism and activating two immune mechanisms: (i) cytokine induction, causing proinflammatory macrophage polarization, and (ii) antigen-presentation stimulation, recruiting CD8+ T cells into tumors. We also demonstrate a wide utility of BipotentR by applying it to angiogenesis and growth suppressor evasion pathways. BipotentR (http://bipotentr.dfci.harvard.edu/) provides a resource for evaluating patient response and discovering drug targets that act simultaneously through multiple mechanisms. SIGNIFICANCE: BipotentR presents resources for evaluating patient response and identifying targets for drugs that can kill tumors through multiple mechanisms concurrently. Inhibition of the topmost candidate target killed tumors by suppressing energy metabolism and effects on two immune mechanisms. This article is highlighted in the In This Issue feature, p. 517.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Antineoplastic Agents/pharmacology",
+      "Receptors, Estrogen",
+      "Immunotherapy",
+      "*Melanoma/pathology",
+      "CD8-Positive T-Lymphocytes",
+      "Tumor Microenvironment",
+      "Cell Line, Tumor",
+      "ERRalpha Estrogen-Related Receptor"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sahu, Avinash",
+        "Wang, Xiaoman",
+        "Munson, Phillip",
+        "Klomp, Jan P G",
+        "Wang, Xiaoqing",
+        "Gu, Shengqing Stan",
+        "Han, Ya",
+        "Qian, Gege",
+        "Nicol, Phillip",
+        "Zeng, Zexian",
+        "Wang, Chenfei",
+        "Tokheim, Collin",
+        "Zhang, Wubing",
+        "Fu, Jingxin",
+        "Wang, Jin",
+        "Nair, Nishanth Ulhas",
+        "Rens, Joost A P",
+        "Bourajjaj, Meriem",
+        "Jansen, Bas",
+        "Leenders, Inge",
+        "Lemmers, Jaap",
+        "Musters, Mark",
+        "van Zanten, Sanne",
+        "van Zelst, Laura",
+        "Worthington, Jenny",
+        "Liu, Jun S",
+        "Juric, Dejan",
+        "Meyer, Clifford A",
+        "Oubrie, Arthur",
+        "Liu, X Shirley",
+        "Fisher, David E",
+        "Flaherty, Keith T"
+      ],
+      "short_names": [
+        "Sahu A",
+        "Wang X",
+        "Munson P",
+        "Klomp JPG",
+        "Wang X",
+        "Gu SS",
+        "Han Y",
+        "Qian G",
+        "Nicol P",
+        "Zeng Z",
+        "Wang C",
+        "Tokheim C",
+        "Zhang W",
+        "Fu J",
+        "Wang J",
+        "Nair NU",
+        "Rens JAP",
+        "Bourajjaj M",
+        "Jansen B",
+        "Leenders I",
+        "Lemmers J",
+        "Musters M",
+        "van Zanten S",
+        "van Zelst L",
+        "Worthington J",
+        "Liu JS",
+        "Juric D",
+        "Meyer CA",
+        "Oubrie A",
+        "Liu XS",
+        "Fisher DE",
+        "Flaherty KT"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2193-6276",
+        "ORCID: 0000-0002-7833-6108",
+        "ORCID: 0000-0003-1635-3313",
+        "ORCID: 0000-0002-1313-2614",
+        "ORCID: 0000-0001-7476-8889",
+        "ORCID: 0000-0002-4200-0864",
+        "ORCID: 0000-0003-1892-4239",
+        "ORCID: 0000-0001-5068-0399",
+        "ORCID: 0000-0002-8526-5889",
+        "ORCID: 0000-0002-3905-3244",
+        "ORCID: 0000-0001-7573-3768",
+        "ORCID: 0000-0003-1395-5378",
+        "ORCID: 0000-0003-2233-299X",
+        "ORCID: 0000-0002-4028-3661",
+        "ORCID: 0000-0002-4785-0403",
+        "ORCID: 0000-0002-8832-0329",
+        "ORCID: 0000-0002-5737-9088",
+        "ORCID: 0000-0002-6029-1028",
+        "ORCID: 0000-0001-5985-7656",
+        "ORCID: 0000-0002-6030-0641",
+        "ORCID: 0000-0003-1760-3329",
+        "ORCID: 0000-0001-9801-7334",
+        "ORCID: 0000-0002-9819-5218",
+        "ORCID: 0000-0002-0094-8892",
+        "ORCID: 0000-0003-0442-0371",
+        "ORCID: 0000-0002-4450-7239",
+        "ORCID: 0000-0003-2983-7704",
+        "ORCID: 0000-0002-8321-2839",
+        "ORCID: 0000-0001-6765-9246",
+        "ORCID: 0000-0003-4736-7339",
+        "ORCID: 0000-0002-5506-0575",
+        "ORCID: 0000-0002-3402-0478"
+      ],
+      "affiliations": [
+        "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "Department of Obstetrics and Gynecology, University of Colorado School of Medicine, Aurora, Colorado.",
+        "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "State Key Laboratory of Medical Molecular Biology, Department of Biochemistry and Molecular Biology, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China.",
+        "Department of Medicine and Harvard Medical School, Massachusetts General Hospital Cancer Center, Boston, Massachusetts.",
+        "Lead Pharma, Kloosterstraat, Oss, the Netherlands.",
+        "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "Department of Cardiology, Shanghai Jiao Tong University Affiliated Sixth People's Hospital, Shanghai, China.",
+        "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "School of Life Sciences and Technology, Tongji University, Shanghai, China.",
+        "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "Cancer Data Science Laboratory, National Cancer Institute, National Institutes of Health, Bethesda, Maryland.",
+        "Lead Pharma, Kloosterstraat, Oss, the Netherlands.",
+        "Lead Pharma, Kloosterstraat, Oss, the Netherlands.",
+        "Lead Pharma, Kloosterstraat, Oss, the Netherlands.",
+        "Lead Pharma, Kloosterstraat, Oss, the Netherlands.",
+        "Lead Pharma, Kloosterstraat, Oss, the Netherlands.",
+        "Lead Pharma, Kloosterstraat, Oss, the Netherlands.",
+        "Lead Pharma, Kloosterstraat, Oss, the Netherlands.",
+        "Lead Pharma, Kloosterstraat, Oss, the Netherlands.",
+        "Axis Bioservices, Coleraine, United Kingdom.",
+        "Department of Statistics, Harvard University, Cambridge, Massachusetts.",
+        "Department of Medicine and Harvard Medical School, Massachusetts General Hospital Cancer Center, Boston, Massachusetts.",
+        "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "Lead Pharma, Kloosterstraat, Oss, the Netherlands.",
+        "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+        "Department of Medicine and Harvard Medical School, Massachusetts General Hospital Cancer Center, Boston, Massachusetts.",
+        "Department of Dermatology, Massachusetts General Hospital, Boston, Massachusetts.",
+        "Department of Medicine and Harvard Medical School, Massachusetts General Hospital Cancer Center, Boston, Massachusetts."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sahu, Avinash",
+        "short_name": "Sahu A",
+        "identifiers": [
+          "0000-0002-2193-6276"
+        ],
+        "affiliations": [
+          "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+          "Department of Obstetrics and Gynecology, University of Colorado School of Medicine, Aurora, Colorado."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaoman",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0000-0002-7833-6108"
+        ],
+        "affiliations": [
+          "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+          "State Key Laboratory of Medical Molecular Biology, Department of Biochemistry and Molecular Biology, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Munson, Phillip",
+        "short_name": "Munson P",
+        "identifiers": [
+          "0000-0003-1635-3313"
+        ],
+        "affiliations": [
+          "Department of Medicine and Harvard Medical School, Massachusetts General Hospital Cancer Center, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Klomp, Jan P G",
+        "short_name": "Klomp JPG",
+        "identifiers": [
+          "0000-0002-1313-2614"
+        ],
+        "affiliations": [
+          "Lead Pharma, Kloosterstraat, Oss, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaoqing",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0000-0001-7476-8889"
+        ],
+        "affiliations": [
+          "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts.",
+          "Department of Cardiology, Shanghai Jiao Tong University Affiliated Sixth People's Hospital, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Shengqing Stan",
+        "short_name": "Gu SS",
+        "identifiers": [
+          "0000-0002-4200-0864"
+        ],
+        "affiliations": [
+          "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Han, Ya",
+        "short_name": "Han Y",
+        "identifiers": [
+          "0000-0003-1892-4239"
+        ],
+        "affiliations": [
+          "School of Life Sciences and Technology, Tongji University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Gege",
+        "short_name": "Qian G",
+        "identifiers": [
+          "0000-0001-5068-0399"
+        ],
+        "affiliations": [
+          "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Nicol, Phillip",
+        "short_name": "Nicol P",
+        "identifiers": [
+          "0000-0002-8526-5889"
+        ],
+        "affiliations": [
+          "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Zeng, Zexian",
+        "short_name": "Zeng Z",
+        "identifiers": [
+          "0000-0002-3905-3244"
+        ],
+        "affiliations": [
+          "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Wang, Chenfei",
+        "short_name": "Wang C",
+        "identifiers": [
+          "0000-0001-7573-3768"
+        ],
+        "affiliations": [
+          "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Tokheim, Collin",
+        "short_name": "Tokheim C",
+        "identifiers": [
+          "0000-0003-1395-5378"
+        ],
+        "affiliations": [
+          "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wubing",
+        "short_name": "Zhang W",
+        "identifiers": [
+          "0000-0003-2233-299X"
+        ],
+        "affiliations": [
+          "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Fu, Jingxin",
+        "short_name": "Fu J",
+        "identifiers": [
+          "0000-0002-4028-3661"
+        ],
+        "affiliations": [
+          "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Wang, Jin",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0002-4785-0403"
+        ],
+        "affiliations": [
+          "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Nair, Nishanth Ulhas",
+        "short_name": "Nair NU",
+        "identifiers": [
+          "0000-0002-8832-0329"
+        ],
+        "affiliations": [
+          "Cancer Data Science Laboratory, National Cancer Institute, National Institutes of Health, Bethesda, Maryland."
+        ]
+      },
+      {
+        "full_name": "Rens, Joost A P",
+        "short_name": "Rens JAP",
+        "identifiers": [
+          "0000-0002-5737-9088"
+        ],
+        "affiliations": [
+          "Lead Pharma, Kloosterstraat, Oss, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Bourajjaj, Meriem",
+        "short_name": "Bourajjaj M",
+        "identifiers": [
+          "0000-0002-6029-1028"
+        ],
+        "affiliations": [
+          "Lead Pharma, Kloosterstraat, Oss, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Jansen, Bas",
+        "short_name": "Jansen B",
+        "identifiers": [
+          "0000-0001-5985-7656"
+        ],
+        "affiliations": [
+          "Lead Pharma, Kloosterstraat, Oss, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Leenders, Inge",
+        "short_name": "Leenders I",
+        "identifiers": [
+          "0000-0002-6030-0641"
+        ],
+        "affiliations": [
+          "Lead Pharma, Kloosterstraat, Oss, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Lemmers, Jaap",
+        "short_name": "Lemmers J",
+        "identifiers": [
+          "0000-0003-1760-3329"
+        ],
+        "affiliations": [
+          "Lead Pharma, Kloosterstraat, Oss, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Musters, Mark",
+        "short_name": "Musters M",
+        "identifiers": [
+          "0000-0001-9801-7334"
+        ],
+        "affiliations": [
+          "Lead Pharma, Kloosterstraat, Oss, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "van Zanten, Sanne",
+        "short_name": "van Zanten S",
+        "identifiers": [
+          "0000-0002-9819-5218"
+        ],
+        "affiliations": [
+          "Lead Pharma, Kloosterstraat, Oss, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "van Zelst, Laura",
+        "short_name": "van Zelst L",
+        "identifiers": [
+          "0000-0002-0094-8892"
+        ],
+        "affiliations": [
+          "Lead Pharma, Kloosterstraat, Oss, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Worthington, Jenny",
+        "short_name": "Worthington J",
+        "identifiers": [
+          "0000-0003-0442-0371"
+        ],
+        "affiliations": [
+          "Axis Bioservices, Coleraine, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Liu, Jun S",
+        "short_name": "Liu JS",
+        "identifiers": [
+          "0000-0002-4450-7239"
+        ],
+        "affiliations": [
+          "Department of Statistics, Harvard University, Cambridge, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Juric, Dejan",
+        "short_name": "Juric D",
+        "identifiers": [
+          "0000-0003-2983-7704"
+        ],
+        "affiliations": [
+          "Department of Medicine and Harvard Medical School, Massachusetts General Hospital Cancer Center, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Meyer, Clifford A",
+        "short_name": "Meyer CA",
+        "identifiers": [
+          "0000-0002-8321-2839"
+        ],
+        "affiliations": [
+          "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Oubrie, Arthur",
+        "short_name": "Oubrie A",
+        "identifiers": [
+          "0000-0001-6765-9246"
+        ],
+        "affiliations": [
+          "Lead Pharma, Kloosterstraat, Oss, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Liu, X Shirley",
+        "short_name": "Liu XS",
+        "identifiers": [
+          "0000-0003-4736-7339"
+        ],
+        "affiliations": [
+          "Department of Data Science, Dana-Farber Cancer Institute, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Fisher, David E",
+        "short_name": "Fisher DE",
+        "identifiers": [
+          "0000-0002-5506-0575"
+        ],
+        "affiliations": [
+          "Department of Medicine and Harvard Medical School, Massachusetts General Hospital Cancer Center, Boston, Massachusetts.",
+          "Department of Dermatology, Massachusetts General Hospital, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Flaherty, Keith T",
+        "short_name": "Flaherty KT",
+        "identifiers": [
+          "0000-0002-3402-0478"
+        ],
+        "affiliations": [
+          "Department of Medicine and Harvard Medical School, Massachusetts General Hospital Cancer Center, Boston, Massachusetts."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer discovery"
+    ],
+    "journal_abbrev": [
+      "Cancer Discov"
+    ],
+    "pub_date": "2023 Mar 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/07 06:00",
+    "fetched_at": "2026-09-28 20:13:36"
+  },
+  "links": {
+    "cites": [
+      "41881965",
+      "41420243",
+      "41162153",
+      "41022529",
+      "40593467",
+      "40407722",
+      "40356747",
+      "40335986",
+      "40303343",
+      "40269930",
+      "39994715",
+      "39864589",
+      "39312191",
+      "39300154",
+      "39218971",
+      "38937602",
+      "38811773",
+      "38357003",
+      "38303527",
+      "37833991",
+      "37256211",
+      "37175690"
+    ],
+    "refs": [
+      "35418676",
+      "35243413",
+      "35121805",
+      "34983745",
+      "34914499",
+      "34693652",
+      "34586733",
+      "34134073",
+      "34040149",
+      "33860225",
+      "33736924",
+      "33713851",
+      "33589424",
+      "33525981",
+      "33508232",
+      "33234603",
+      "33179754",
+      "32919526",
+      "32783915",
+      "32767996",
+      "32690972",
+      "32669714",
+      "32641987",
+      "32572171",
+      "32346095",
+      "32286268",
+      "32284588",
+      "32122211",
+      "32117445",
+      "32102694",
+      "32033573",
+      "31984309",
+      "31978349",
+      "31900386",
+      "31882897",
+      "31830245",
+      "31792460",
+      "31699883",
+      "31598675",
+      "31578521",
+      "31572375",
+      "31564637",
+      "31509742",
+      "31452512",
+      "31407002",
+      "31375813",
+      "31359002",
+      "31178118",
+      "31068700",
+      "31048245",
+      "31043744",
+      "31033233",
+      "30979687",
+      "30787016",
+      "30753825",
+      "30705422",
+      "30643263",
+      "30536907",
+      "30462313",
+      "30449682",
+      "30388455",
+      "30309915",
+      "30296940",
+      "30127393",
+      "29988129",
+      "29961579",
+      "29937401",
+      "29892061",
+      "29805099",
+      "29776993",
+      "29643242",
+      "29628290",
+      "29568499",
+      "29482517",
+      "29443960",
+      "29301958",
+      "29245013",
+      "29198524",
+      "29092931",
+      "29051489",
+      "29033130",
+      "28920959",
+      "28894104",
+      "28841353",
+      "28650338",
+      "28472902",
+      "28433543",
+      "28424698",
+      "28416471",
+      "28356677",
+      "28337200",
+      "28134258",
+      "28134252",
+      "28129544",
+      "28084418",
+      "27929420",
+      "27899662",
+      "27789702",
+      "27732846",
+      "27584036",
+      "27466232",
+      "27376123",
+      "27124452",
+      "27050525",
+      "26970723",
+      "26910538",
+      "26864256",
+      "26607793",
+      "26456756",
+      "26377897",
+      "26321679",
+      "26200012",
+      "26193342",
+      "25822800",
+      "25516281",
+      "25476604",
+      "25071169",
+      "24360962",
+      "24300480",
+      "23674878",
+      "23323831",
+      "22820642",
+      "22455463",
+      "21897365",
+      "21867926",
+      "21414208",
+      "21382489",
+      "21376230",
+      "21300889",
+      "21218783",
+      "21172432",
+      "20208535",
+      "19847166",
+      "19451226",
+      "19265109",
+      "18951005",
+      "17261634",
+      "17053832",
+      "16814729",
+      "16199517",
+      "15057291",
+      "2218183"
+    ],
+    "similar": [
+      "36745048",
+      "31511064",
+      "27846884",
+      "28648905",
+      "35764365",
+      "37298135",
+      "30811474",
+      "32929370",
+      "37531900",
+      "34737215",
+      "32944405",
+      "37028818",
+      "37620043",
+      "37001908",
+      "34637400",
+      "38237304",
+      "35732347",
+      "35580929",
+      "29967265",
+      "32839553",
+      "32210957",
+      "32724476",
+      "24586709",
+      "35288462",
+      "29688262",
+      "35989085",
+      "36595044",
+      "29703719",
+      "33158915",
+      "35791438",
+      "30012672",
+      "33479026",
+      "30305604",
+      "36209176",
+      "34049930",
+      "32122909",
+      "33277233",
+      "30111819",
+      "34887262",
+      "33312174",
+      "37259060",
+      "35292516",
+      "37276392",
+      "20844763",
+      "24502656",
+      "32185706",
+      "35720386",
+      "36923542",
+      "36600652",
+      "35193929",
+      "33589527",
+      "32841222",
+      "31703604",
+      "38164130",
+      "24667641",
+      "28807056",
+      "35347072",
+      "34528979",
+      "30721155",
+      "26431276",
+      "37055842",
+      "33500272",
+      "30012853",
+      "32690770",
+      "33250900",
+      "30127393",
+      "25483888",
+      "33727246",
+      "33707234",
+      "31744829",
+      "26219551",
+      "35228603",
+      "28898698",
+      "29956749",
+      "35688558",
+      "38195768",
+      "38056895",
+      "32485280",
+      "38462636",
+      "38309268",
+      "16971810",
+      "33537094",
+      "28912267",
+      "38433029",
+      "37312163",
+      "33414263",
+      "30736857",
+      "32875727",
+      "34016722",
+      "37415974",
+      "31404607",
+      "35793868",
+      "31275310",
+      "36096533",
+      "37728660",
+      "34740924"
+    ],
+    "review": [
+      "36745048",
+      "32944405",
+      "32210957",
+      "35989085",
+      "32185706",
+      "38164130",
+      "33250900",
+      "38433029",
+      "32875727"
+    ],
+    "pmc": [
+      "9975674"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/melanoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Melanoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36745048/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36745048",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://aacrjournals.org/cancerdiscovery/article-lookup/doi/10.1158/2159-8290.CD-22-0244",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

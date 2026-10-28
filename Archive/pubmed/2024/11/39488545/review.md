@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends.
+- **Assessment boundary** Scientific validity, technical soundness, and support for claims based on the provided manuscript content. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations of a yeast replisome bound to an H3/H4 tetramer and replicated DNA to propose that parental histones can be recycled to daughter strands without histone chaperones. They identify two pathways: a Cdc45-mediated pathway favoring leading strand deposition and a Cdc45-unmediated pathway favoring lagging strand deposition. They further propose that RPA binding regulates strand bias and that Pol ε modulates the destination location. In vitro replication assays and native PAGE experiments are presented as supporting evidence.
+- **Visible evidence base** Simulation trajectories (100 runs for the 2-RPA system, 50 runs for 0-RPA, 100 runs for 1-RPA, 50 runs for CMG without Pol ε), temperature replica exchange simulations for parameter calibration, in vitro DNA replication assays with nucleosome-assembled DNA, native PAGE binding assays between Cdc45 and H3/H4 tetramer, and structural analyses of simulation trajectories.
+- **Missing materials affecting confidence** Supplementary figures and movies are referenced but not provided. Source data files are mentioned but not available. Details on simulation convergence, error estimation, and statistical analysis of trajectory classifications are incomplete. The exact sequences and constructs for the H3/H4 tetramer and Cdc45 mutants are not fully described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question in chromatin replication: how parental H3/H4 histones are recycled to daughter strands. The use of coarse-grained simulations to visualize histone transfer pathways is innovative and provides testable hypotheses. However, the central claim that histones are recycled without chaperones relies heavily on simulation results that may be sensitive to model parameters and initial conditions. The experimental support is indirect, and the in vitro replication assay does not directly demonstrate recycling of parental histones to specific strands. The manuscript is well written and the figures are clear, but several technical concerns need to be addressed before the conclusions are fully supported.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, DNA replication, and epigenetics would be interested. The study provides a molecular model for how histone recycling might occur at the replication fork, which is central to understanding epigenetic inheritance. The proposed role of Cdc45 as a histone-binding platform and the regulatory effects of RPA and Pol ε are novel and could guide future experimental work.
+- **Major strengths** The study uses a well-established coarse-grained model (AICG2+) that has been previously applied to nucleosome dynamics. The simulation setup is carefully constructed using available cryo-EM structures. The identification of two distinct recycling pathways is a novel finding. The experimental validation, while limited, does provide some support for the simulation predictions. The discussion of limitations is honest and thoughtful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "histones are recycled via Cdc45-mediated and unmediated pathways without histone chaperones" is central to the paper.
+  - **Evidence pointer** Results section "Replisome directly recycles an H3/H4 tetramer to replicated DNA strands" and "An H3/H4 tetramer is recycled via two pathways"; Figures 2 and 4.
+  - **Concern** The simulation results show that only 20% of trajectories result in successful recycling to daughter strands. This low success rate raises questions about the robustness of the observed pathways. The authors do not provide a detailed analysis of why the other 80% of trajectories fail, nor do they assess whether the 20% success rate is statistically significant or an artifact of the specific initial conditions. The classification of trajectories into "Cdc45-mediated" and "Cdc45-unmediated" pathways is based on visual inspection of a small number of trajectories, and no quantitative criteria are provided for this classification.
+  - **Why it matters** If the recycling events are rare and the pathways are not robustly defined, the proposed molecular mechanism may not be representative of what occurs in vivo. The low success rate also suggests that the model may be missing key factors that facilitate recycling, which would undermine the claim that chaperones are not required.
+  - **Resolution test** The authors should provide a quantitative analysis of all trajectories, including those that do not result in recycling. They should define clear, objective criteria for classifying pathways and demonstrate that the observed pathways are statistically enriched compared to a null model. Sensitivity analysis with respect to initial conditions and model parameters should be performed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "RPA binding regulated the ratio recycled to each strand" is based on simulations with 0, 1, and 2 RPA molecules.
+  - **Evidence pointer** Results section "The number of RPA on the lagging strand regulates the strand bias"; Figure 4.
+  - **Concern** The simulations with different RPA numbers use different lengths of ssDNA on the lagging strand (16 nt for 0-RPA, 36 nt for 1-RPA, 56 nt for 2-RPA). This confounds the effect of RPA number with the effect of ssDNA length. The authors do not control for ssDNA length, so the observed changes in strand bias could be due to the length of the ssDNA rather than the presence of RPA. Additionally, the number of trajectories for the 0-RPA (50) and 1-RPA (100) systems is different from the 2-RPA system (100), which may affect the statistical power of the comparisons.
+  - **Why it matters** The conclusion that RPA regulates strand bias is a key finding of the paper. If this conclusion is confounded by ssDNA length, the proposed regulatory mechanism is not supported.
+  - **Resolution test** The authors should perform simulations with the same ssDNA length but different numbers of RPA molecules, or with different ssDNA lengths but the same number of RPA molecules, to disentangle these effects. They should also ensure equal numbers of trajectories for each condition and provide statistical tests for the differences in strand bias.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "DNA bending by Pol ε modulated the destination location" is based on simulations with and without Pol ε.
+  - **Evidence pointer** Results section "Pol ε association affects the destination location for the leading strand recycling"; Figure 5.
+  - **Concern** The simulations without Pol ε also lack the Pol ε-DNA interactions, which may affect the overall stability and dynamics of the replication fork. The authors attribute the change in destination location to DNA bending, but they do not directly test this hypothesis. For example, they do not perform simulations with a non-bending Pol ε mutant or with a DNA construct that cannot be bent. The observed change in destination location could be due to other effects of removing Pol ε, such as changes in the electrostatic environment or steric interactions.
+  - **Why it matters** The claim that Pol ε modulates destination location via DNA bending is a specific mechanistic proposal. Without direct evidence for the role of bending, the conclusion is not fully supported.
+  - **Resolution test** The authors should perform control simulations where Pol ε is present but its DNA-bending ability is disabled, or where DNA bending is artificially induced in the absence of Pol ε. This would directly test the role of bending in determining destination location.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the in vitro replication assay supports the simulation prediction that "a replisome can recycle histones to replicated DNA strands upon collision with a nucleosome without histone chaperones."
+  - **Evidence pointer** Results section "Replisome directly recycles an H3/H4 tetramer to replicated DNA strands"; Figure 2E.
+  - **Concern** The in vitro replication assay shows a ~150 bp biotinylated DNA fragment after MNase digestion, which is interpreted as evidence of nucleosome formation on replicated DNA. However, this assay does not directly demonstrate that the histones on the replicated DNA are the parental histones from the original nucleosome. The biotin label is on the newly synthesized DNA, not on the histones. The authors rule out end-labeling by Pol ε, but they do not rule out other mechanisms, such as histone exchange from the soluble pool or non-specific association of histones with DNA. The assay also does not distinguish between leading and lagging strand deposition.
+  - **Why it matters** The experimental support for the central claim is indirect. If the ~150 bp fragment is not due to recycling of parental histones, the experimental validation is weakened.
+  - **Resolution test** The authors should use a more direct assay, such as labeling the parental histones (e.g., with a fluorescent tag or a chemical label) and tracking their location after replication. They should also perform control experiments with excess unlabeled histones to rule out exchange from the soluble pool.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence.
+  - **Issue** The phrase "faithful recycling of histones from parental DNA to replicated strands" is slightly ambiguous. It could be interpreted as histones moving from parental DNA to replicated strands, but the process involves the transfer of histones from the parental nucleosome to the daughter strands after the fork passes.
+  - **Required correction** Rephrase to "faithful recycling of parental histones onto the replicated daughter strands" for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Coarse-grained molecular dynamics simulations".
+  - **Issue** The description of the simulation protocol is brief. The authors state that they used the AICG2+ model and the 3SPN.2 model but do not provide details on the specific parameters used, such as the strength of the electrostatic interactions, the treatment of long-range interactions, or the equilibration protocol.
+  - **Required correction** Provide more details on the simulation parameters, including the cutoff for non-bonded interactions, the method for handling long-range electrostatics, and the length of the equilibration and production runs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Results
+  - **Evidence pointer** Results section "An H3/H4 tetramer is recycled via two pathways"; Figure 2J.
+  - **Issue** The strand bias ratios are presented as percentages without error bars or statistical tests. It is unclear whether the differences between conditions (e.g., 2-RPA vs 0-RPA) are statistically significant.
+  - **Required correction** Provide error bars and statistical tests (e.g., confidence intervals or p-values) for the strand bias ratios.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 3.
+  - **Issue** The authors speculate that post-translational modifications of Cdc45 (T189 and T195 phosphorylation) may enhance interactions with H3/H4. This is an interesting hypothesis, but it is not tested in the current study.
+  - **Required correction** Clearly label this as speculation and suggest it as a direction for future work.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (low success rate and pathway classification), R1-M2 (confounding of RPA number and ssDNA length), R1-M3 (lack of direct test for Pol ε bending), R1-M4 (indirect experimental evidence for recycling).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study is original in its use of coarse-grained simulations to model histone recycling at a replication fork. The identification of Cdc45 as a potential histone-binding platform is novel.
+  - **Scientific importance** The question of how parental histones are recycled is of fundamental importance to epigenetics. The study provides a molecular model that could guide future experiments.
+  - **Interdisciplinary readership** The topic is relevant to researchers in chromatin biology, DNA replication, and biophysics. The use of simulations may also appeal to computational biologists.
+  - **Technical soundness** The simulation methodology is based on established models, but the concerns raised above about trajectory analysis, confounding variables, and indirect experimental support need to be addressed.
+  - **Readability for nonspecialists** The manuscript is generally well written and accessible. The figures are clear and help convey the main findings. However, some technical details in the methods may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses an important question and provides novel insights, but the current evidence does not fully support the central claims. The authors should address the concerns about simulation robustness, confounding variables, and experimental validation before the conclusions can be accepted.
+
+## Risk / unsupported claims
+- The claim that histones are recycled via two distinct pathways (Cdc45-mediated and unmediated) is based on a small number of trajectories and lacks quantitative classification criteria.
+- The claim that RPA regulates strand bias is confounded by differences in ssDNA length across simulation conditions.
+- The claim that Pol ε modulates destination location via DNA bending is not directly tested.
+- The in vitro replication assay does not directly demonstrate recycling of parental histones to specific daughter strands.
+- The statement that "the simulations provided insights and experimentally testable predictions" is supported, but the specific predictions are not all experimentally validated.

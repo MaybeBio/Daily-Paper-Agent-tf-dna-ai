@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, funding, acknowledgements) as provided by the author. Supplementary figures and tables are referenced but not included.
+- **Assessment boundary** Scientific content, methodological rigor, logical consistency, and support of claims by presented evidence. No assessment of formatting, grammar, or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The manuscript claims that bacterial SSB and eukaryotic RPA perform direct, collision-based strand transfer between ssDNA molecules via a transient ternary intermediate complex, that both proteins undergo concentration-dependent homo- and hetero-protein exchange on ssDNA without requiring specific protein-protein interactions, and that both proteins bind RNA and transfer to competing RNA, with a strong preference for DNA over RNA.
+- **Visible evidence base** Main text figures 1–7 (described in text), Supplementary Figures S1–S6 (referenced), Supplementary Table S1 (referenced). Methods section describes construct preparation, protein purification, labeling, and smFRET data acquisition. No raw data, representative traces beyond those described, or statistical details are provided in the supplied material.
+- **Missing materials affecting confidence** Supplementary figures and table are not provided. No raw smFRET traces, histograms with fit parameters, error bars, replicate numbers, or statistical test details are shown. No information on the number of independent experiments or biological replicates. No control experiments for labeling effects on protein function are described. No data on RNA binding affinity or specificity beyond the competition assays.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question in nucleic acid metabolism: how single-stranded DNA-binding proteins dynamically redistribute and exchange on nucleic acid substrates. The use of single-molecule FRET to directly visualize strand transfer intermediates is a strength, and the observation of a ternary complex during transfer is potentially significant. However, the evidence as presented is incomplete. Key claims regarding the mechanism of transfer, the absence of specific protein-protein interactions in hetero-exchange, and the DNA-over-RNA preference are not fully supported by the data described. The lack of quantitative details, control experiments, and supplementary materials limits the ability to assess the robustness of the conclusions. The manuscript is technically sound in its approach but requires substantial additional evidence and clarification before the case is established.
+- **Who would be interested in the results, and why** Researchers studying DNA replication, repair, and recombination, particularly those focused on single-stranded DNA binding proteins and their dynamic behavior. The work is also relevant to investigators interested in protein-nucleic acid interactions, single-molecule biophysics, and the mechanisms of protein exchange on nucleic acid substrates. The potential implications for RNA metabolism and R-loop biology may attract a broader audience in gene expression and genome stability.
+- **Major strengths** 1. The use of single-molecule FRET to directly observe transient intermediates during strand transfer is a powerful approach that provides real-time kinetic information. 2. The systematic comparison of SSB and RPA, including homo- and hetero-protein exchange, addresses a fundamental question about the generality of these mechanisms. 3. The inclusion of RNA substrates extends the study beyond DNA and opens new questions about the role of these proteins in RNA metabolism. 4. The observation of multiple failed attempts before successful transfer is an interesting mechanistic detail that supports a collision-based model.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The manuscript claims that strand transfer proceeds through a ternary intermediate complex where the protein simultaneously interacts with at least two ssDNA molecules, and that this is a direct transfer mechanism.  
+  - **Evidence pointer** Results section "Real-time SSB and RPA transfer pathway", Figure 3  
+  - **Concern** The evidence for a ternary intermediate relies on the observation of Cy5 intensity increases before transfer completion, interpreted as two Cy3 molecules exciting a single Cy5. This interpretation is plausible but not rigorously established. The authors do not provide control experiments to rule out alternative explanations, such as transient conformational changes in the protein-DNA complex that bring the donor and acceptor into closer proximity without a second DNA strand being bound. Additionally, the time resolution (50 ms) may not be sufficient to resolve short-lived intermediates, and the authors do not provide a quantitative analysis of the frequency, duration, or stability of these putative ternary complexes.  
+  - **Why it matters** The central mechanistic claim of the paper is that transfer occurs via a ternary complex. If this interpretation is incorrect, the entire model of direct transfer is undermined. The distinction between a true ternary complex and a conformational fluctuation is critical for understanding the mechanism.  
+  - **Resolution test** Provide control experiments with labeled DNA in the absence of protein, or with a non-binding protein variant, to show that the Cy5 intensity increase is specific to the ternary complex. Include a quantitative analysis of the dwell times of the putative intermediate states and show that they are consistent with a kinetic model of ternary complex formation. Alternatively, use a three-color FRET scheme to directly demonstrate simultaneous binding of two DNA molecules.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The manuscript claims that hetero-protein exchange between SSB and RPA occurs and that this indicates that protein exchange does not require specific protein-protein interactions.  
+  - **Evidence pointer** Results section "Hetero-protein exchange dynamics between SSB and RPA on ssDNA", Figure 5  
+  - **Concern** The hetero-exchange experiments are described only qualitatively. The authors state that SSB can replace RPA and vice versa, but no kinetic parameters are provided. The claim that this demonstrates a lack of specific protein-protein interactions is an inference that requires a more rigorous test. For example, the exchange could be mediated by a transient interaction between the two proteins that is not specific but still required. The authors do not test whether a non-ssDNA-binding protein can also facilitate exchange, which would be a more direct test of the requirement for protein-protein interactions.  
+  - **Why it matters** The conclusion that exchange does not require specific protein-protein interactions is a key finding with implications for how these proteins function in vivo. If the exchange is actually mediated by some form of interaction, the conclusion would be incorrect.  
+  - **Resolution test** Perform hetero-exchange experiments with a non-ssDNA-binding protein (e.g., BSA) as a control to show that exchange is not simply due to non-specific protein crowding. Measure the concentration dependence of hetero-exchange and compare the rate constants to those of homo-exchange. If the rates are similar, this would support the lack of specific interactions.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The manuscript claims that both SSB and RPA bind RNA and undergo strand transfer to competing RNA, but that DNA is strongly preferred over RNA.  
+  - **Evidence pointer** Results section "RNA binding and strand transfer dynamics of SSB and RPA", Figure 6; "Binding competition between DNA and RNA for SSB or RPA", Figure 7  
+  - **Concern** The RNA experiments are described with limited quantitative detail. The binding of SSB and RPA to RNA is inferred from FRET changes, but no binding affinities or kinetic parameters are provided. The competition experiments show that DNA can outcompete RNA, but the authors do not quantify the preference or test whether RNA can compete with DNA. The claim of a "strong preference" is not supported by quantitative data. Additionally, the use of poly-U RNA may not represent physiological RNA substrates, and the authors do not discuss the potential relevance of their findings to cellular RNA metabolism.  
+  - **Why it matters** The RNA-related findings are presented as a significant extension of the work, but without quantitative data, the strength of the claim is unclear. The biological relevance of RNA binding by SSB and RPA is an important question, and the current evidence is insufficient to support the conclusions.  
+  - **Resolution test** Provide binding curves and dissociation constants for SSB and RPA binding to RNA and DNA under identical conditions. Quantify the competition experiments by measuring the fraction of protein transferred as a function of competitor concentration and fit the data to a competitive binding model. Test RNA competition with DNA to determine if the preference is absolute or relative.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The manuscript claims that the observed kinetics follow pseudo-first-order behavior and that rate constants are concentration-dependent.  
+  - **Evidence pointer** Results sections "SSB binding and direct transfer kinetics on ssDNA" and "Binding Kinetics and direct transfer of RPA on ssDNA", Figures 1, 2  
+  - **Concern** The kinetic analyses are described as fitting to single-exponential decays, but no details are given on the number of molecules analyzed, the variability between experiments, or the goodness of fit. The rate constants are reported with standard errors, but it is unclear how many independent experiments were performed. The manuscript does not provide a table of all kinetic parameters or a comparison of replicates.  
+  - **Why it matters** Reproducibility is essential for establishing the reliability of the kinetic measurements. Without information on variability and replicate numbers, it is difficult to assess whether the reported differences between conditions are significant.  
+  - **Resolution test** Provide a supplementary table with all kinetic parameters, including the number of molecules, number of independent experiments, and standard deviations. Show representative fits and residual plots. Perform statistical tests to compare rate constants between conditions.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Methods section "Protein purification and labelling"  
+  - **Evidence pointer** Methods section, location not provided  
+  - **Issue** The labeling efficiency for RPA is not stated, and the method for determining labeling efficiency is not described.  
+  - **Required correction** Provide the labeling efficiency for RPA and describe the method used (e.g., absorbance ratio, mass spectrometry).  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Results section "SSB binding and direct transfer kinetics on ssDNA"  
+  - **Evidence pointer** Figure 1, location not provided  
+  - **Issue** The text states that the transfer rate for dT 40 to dT 40 was similar to that for dT 70 to dT 60 , but the values are given in different units (M −1 s −1 ) and the comparison is not statistically tested.  
+  - **Required correction** Perform a statistical comparison of the two rate constants and report the p-value.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Discussion section "Protein exchange dynamics of SSB and RPA on ssDNA"  
+  - **Evidence pointer** Discussion, location not provided  
+  - **Issue** The discussion of the biological implications of hetero-exchange is speculative and not directly supported by the data. The authors suggest that exchange-based regulatory mechanisms could be broadly relevant, but they do not provide evidence for this in a cellular context.  
+  - **Required correction** Either temper the speculation or provide a brief discussion of how the in vitro findings might relate to known in vivo processes, with appropriate citations.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Results section "RNA binding and strand transfer dynamics of SSB and RPA"  
+  - **Evidence pointer** Figure 6, location not provided  
+  - **Issue** The text states that RPA-bound RNA exhibited a high-FRET state (~0.8), but it is not clear whether this is the same FRET state as DNA-bound RPA or a distinct state.  
+  - **Required correction** Clarify whether the FRET states for RNA-bound and DNA-bound RPA are the same or different, and discuss the implications for the conformation of the protein-RNA complex.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (ternary intermediate evidence), R1-M2 (hetero-exchange controls), R1-M3 (quantitative RNA binding and competition data). These are blocking because the central claims of the manuscript depend on them.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The work addresses a fundamental question in nucleic acid metabolism and provides a single-molecule perspective that is relatively novel. The observation of a ternary intermediate during strand transfer is potentially original, but the evidence is not yet conclusive.  
+  - **Scientific importance** The dynamic behavior of SSB and RPA is central to genome stability, and understanding the mechanisms of transfer and exchange has broad implications. The extension to RNA substrates is interesting but not yet fully developed.  
+  - **Interdisciplinary readership** The topic is of interest to biophysicists, biochemists, and molecular biologists. The single-molecule approach may appeal to a broader readership, but the manuscript is currently written in a way that is accessible to specialists.  
+  - **Technical soundness** The experimental approach is sound, but the lack of quantitative details and controls weakens the technical rigor. The manuscript would benefit from additional experiments and a more thorough analysis.  
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear, but the methods and results sections assume familiarity with smFRET and kinetic analysis. A brief explanation of the FRET approach for nonspecialists would improve accessibility.  
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important question and uses a powerful approach, but the central claims are not yet fully supported. The authors should be encouraged to revise and resubmit with additional data and analysis.
+
+## Risk / unsupported claims
+- The claim that strand transfer proceeds through a ternary intermediate complex is not fully supported by the evidence presented. The interpretation of the Cy5 intensity increase is plausible but not rigorously established.
+- The claim that hetero-protein exchange does not require specific protein-protein interactions is an inference that is not directly tested.
+- The claim of a "strong preference" for DNA over RNA is not quantified.
+- The statement that "only one RNA can be bound to the ssDNA" (Results, RPA section) is not supported by any data or citation.
+- The discussion of the biological relevance of RNA binding by SSB and RPA is speculative and not directly supported by the experiments.

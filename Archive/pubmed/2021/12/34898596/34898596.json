@@ -1,0 +1,430 @@
+{
+  "identity": {
+    "pmid": "34898596",
+    "doi": "10.1371/journal.pcbi.1009670",
+    "title": "CoRE-ATAC: A deep learning model for the functional classification of regulatory elements from single cell and bulk ATAC-seq data."
+  },
+  "content": {
+    "abstract": "Cis-Regulatory elements (cis-REs) include promoters, enhancers, and insulators that regulate gene expression programs via binding of transcription factors. ATAC-seq technology effectively identifies active cis-REs in a given cell type (including from single cells) by mapping accessible chromatin at base-pair resolution. However, these maps are not immediately useful for inferring specific functions of cis-REs. For this purpose, we developed a deep learning framework (CoRE-ATAC) with novel data encoders that integrate DNA sequence (reference or personal genotypes) with ATAC-seq cut sites and read pileups. CoRE-ATAC was trained on 4 cell types (n = 6 samples/replicates) and accurately predicted known cis-RE functions from 7 cell types (n = 40 samples) that were not used in model training (mean average precision = 0.80, mean F1 score = 0.70). CoRE-ATAC enhancer predictions from 19 human islet samples coincided with genetically modulated gain/loss of enhancer activity, which was confirmed by massively parallel reporter assays (MPRAs). Finally, CoRE-ATAC effectively inferred cis-RE function from aggregate single nucleus ATAC-seq (snATAC) data from human blood-derived immune cells that overlapped with known functional annotations in sorted immune cells, which established the efficacy of these models to study cis-RE functions of rare cells without the need for cell sorting. ATAC-seq maps from primary human cells reveal individual- and cell-specific variation in cis-RE activity. CoRE-ATAC increases the functional resolution of these maps, a critical step for studying regulatory disruptions behind diseases.",
+    "keywords": [],
+    "mesh_terms": [
+      "Cells, Cultured",
+      "Chromatin Immunoprecipitation Sequencing/*methods",
+      "Computational Biology",
+      "DNA/analysis/genetics",
+      "*Deep Learning",
+      "Humans",
+      "Islets of Langerhans/cytology",
+      "Monocytes/cytology",
+      "Regulatory Sequences, Nucleic Acid/*genetics",
+      "Single-Cell Analysis/*methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Thibodeau, Asa",
+        "Khetan, Shubham",
+        "Eroglu, Alper",
+        "Tewhey, Ryan",
+        "Stitzel, Michael L",
+        "Ucar, Duygu"
+      ],
+      "short_names": [
+        "Thibodeau A",
+        "Khetan S",
+        "Eroglu A",
+        "Tewhey R",
+        "Stitzel ML",
+        "Ucar D"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2421-4225",
+        "ORCID: 0000-0001-9473-3317",
+        "ORCID: 0000-0002-4607-8001",
+        "ORCID: 0000-0001-5630-559X",
+        "ORCID: 0000-0002-9772-3066"
+      ],
+      "affiliations": [
+        "The Jackson Laboratory for Genomic Medicine, Farmington, Connecticut, United States of America.",
+        "The Jackson Laboratory for Genomic Medicine, Farmington, Connecticut, United States of America.",
+        "The Jackson Laboratory for Genomic Medicine, Farmington, Connecticut, United States of America.",
+        "The Jackson Laboratory, Bar Harbor, Maine, United States of America.",
+        "The Jackson Laboratory for Genomic Medicine, Farmington, Connecticut, United States of America.",
+        "Institute for Systems Genomics, University of Connecticut Health Center, Farmington, Connecticut, United States of America.",
+        "Department of Genetics and Genome Sciences, University of Connecticut Health Center, Farmington, Connecticut, United States of America.",
+        "The Jackson Laboratory for Genomic Medicine, Farmington, Connecticut, United States of America.",
+        "Institute for Systems Genomics, University of Connecticut Health Center, Farmington, Connecticut, United States of America.",
+        "Department of Genetics and Genome Sciences, University of Connecticut Health Center, Farmington, Connecticut, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Thibodeau, Asa",
+        "short_name": "Thibodeau A",
+        "identifiers": [
+          "0000-0003-2421-4225"
+        ],
+        "affiliations": [
+          "The Jackson Laboratory for Genomic Medicine, Farmington, Connecticut, United States of America."
+        ]
+      },
+      {
+        "full_name": "Khetan, Shubham",
+        "short_name": "Khetan S",
+        "identifiers": [],
+        "affiliations": [
+          "The Jackson Laboratory for Genomic Medicine, Farmington, Connecticut, United States of America."
+        ]
+      },
+      {
+        "full_name": "Eroglu, Alper",
+        "short_name": "Eroglu A",
+        "identifiers": [
+          "0000-0001-9473-3317"
+        ],
+        "affiliations": [
+          "The Jackson Laboratory for Genomic Medicine, Farmington, Connecticut, United States of America."
+        ]
+      },
+      {
+        "full_name": "Tewhey, Ryan",
+        "short_name": "Tewhey R",
+        "identifiers": [
+          "0000-0002-4607-8001"
+        ],
+        "affiliations": [
+          "The Jackson Laboratory, Bar Harbor, Maine, United States of America."
+        ]
+      },
+      {
+        "full_name": "Stitzel, Michael L",
+        "short_name": "Stitzel ML",
+        "identifiers": [
+          "0000-0001-5630-559X"
+        ],
+        "affiliations": [
+          "The Jackson Laboratory for Genomic Medicine, Farmington, Connecticut, United States of America.",
+          "Institute for Systems Genomics, University of Connecticut Health Center, Farmington, Connecticut, United States of America.",
+          "Department of Genetics and Genome Sciences, University of Connecticut Health Center, Farmington, Connecticut, United States of America."
+        ]
+      },
+      {
+        "full_name": "Ucar, Duygu",
+        "short_name": "Ucar D",
+        "identifiers": [
+          "0000-0002-9772-3066"
+        ],
+        "affiliations": [
+          "The Jackson Laboratory for Genomic Medicine, Farmington, Connecticut, United States of America.",
+          "Institute for Systems Genomics, University of Connecticut Health Center, Farmington, Connecticut, United States of America.",
+          "Department of Genetics and Genome Sciences, University of Connecticut Health Center, Farmington, Connecticut, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2021 Dec",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/14 06:00",
+    "fetched_at": "2026-09-28 02:54:55"
+  },
+  "links": {
+    "cites": [
+      "42642593",
+      "41526189",
+      "41514301",
+      "40911150",
+      "40100752",
+      "39747019",
+      "36891511",
+      "36719906",
+      "35595537",
+      "35456445"
+    ],
+    "refs": [
+      "34475398",
+      "33213499",
+      "31570894",
+      "31375813",
+      "31178118",
+      "30650367",
+      "30575722",
+      "30573452",
+      "30445434",
+      "30375457",
+      "30371817",
+      "30181159",
+      "30166440",
+      "30078726",
+      "29731168",
+      "29608179",
+      "29379200",
+      "29256496",
+      "29126249",
+      "28904110",
+      "28334114",
+      "27259153",
+      "27197224",
+      "27153584",
+      "26656845",
+      "26527727",
+      "26301843",
+      "26253466",
+      "25886982",
+      "25822800",
+      "25723102",
+      "25693563",
+      "25559105",
+      "24695404",
+      "24670763",
+      "24614316",
+      "24127591",
+      "24119843",
+      "24097267",
+      "23582322",
+      "23328393",
+      "23193258",
+      "23166509",
+      "22955616",
+      "22373907",
+      "22371084",
+      "21441907",
+      "21035756",
+      "20944595",
+      "20513432",
+      "19474294",
+      "19212405",
+      "19056695",
+      "18798982",
+      "17277777",
+      "16489339",
+      "11752295",
+      "10450512"
+    ],
+    "similar": [
+      "34898596",
+      "32029221",
+      "33191916",
+      "34313779",
+      "39127768",
+      "30375457",
+      "35858748",
+      "33606259",
+      "36902216",
+      "39041910",
+      "33637727",
+      "39326643",
+      "32014034",
+      "34251624",
+      "37118773",
+      "33583425",
+      "32213349",
+      "36711646",
+      "35195064",
+      "33044128",
+      "36173566",
+      "39383060",
+      "26977395",
+      "32392348",
+      "33686069",
+      "31428792",
+      "37751945",
+      "35103972",
+      "36807060",
+      "37600946",
+      "37211599",
+      "33663563",
+      "34292930",
+      "35022082",
+      "34870838",
+      "34465366",
+      "29155775",
+      "30962623",
+      "31631012",
+      "34282334",
+      "32251359",
+      "32576878",
+      "34875002",
+      "35867231",
+      "34390932",
+      "37875977",
+      "35604124",
+      "31594952",
+      "34035253",
+      "38194039",
+      "31123324",
+      "38330939",
+      "28193859",
+      "36807076",
+      "34071577",
+      "34430912",
+      "38643066",
+      "38232730",
+      "37217250",
+      "34774128",
+      "36466281",
+      "32312702",
+      "27903897",
+      "35584295",
+      "37673071",
+      "20118932",
+      "39082647",
+      "33239788",
+      "31160376",
+      "32336246",
+      "33074546",
+      "35037783",
+      "35800102",
+      "35755130",
+      "36789086",
+      "35104610",
+      "30580963",
+      "26083756",
+      "37950200",
+      "34284136",
+      "34547403",
+      "33516170",
+      "29855387",
+      "37289818",
+      "32620137",
+      "35848835",
+      "36807065",
+      "35359328",
+      "36427156",
+      "29605854",
+      "29807547",
+      "32637041",
+      "30042136",
+      "31206543",
+      "36094959",
+      "35296236",
+      "37012226",
+      "38604126",
+      "34772935",
+      "35473573",
+      "35303433",
+      "31633482",
+      "38724693",
+      "36454649",
+      "38600256",
+      "38519979",
+      "37090552",
+      "38189539",
+      "34737275",
+      "39187646",
+      "35475224",
+      "39386531",
+      "38841126",
+      "35435921",
+      "37546906",
+      "30869141",
+      "28204611",
+      "34815310",
+      "37770437",
+      "37786710",
+      "38781390",
+      "37491046",
+      "33355120",
+      "34963480",
+      "34634809",
+      "37114830",
+      "32978299",
+      "39090688",
+      "37537503",
+      "36640767",
+      "34142101",
+      "27701403",
+      "36824965",
+      "36778447",
+      "38724692",
+      "39143494",
+      "38671305",
+      "38036783",
+      "39240519",
+      "35615697",
+      "38182825",
+      "39362779",
+      "37996959",
+      "38712228",
+      "35578363",
+      "37577623",
+      "37214950",
+      "32641802",
+      "36824845",
+      "37425964",
+      "36635387",
+      "37034577",
+      "38853896",
+      "38724694",
+      "39026761",
+      "37662358",
+      "37609287",
+      "32761099",
+      "33277618",
+      "38296821",
+      "35941215",
+      "38351929",
+      "38352569",
+      "33869207",
+      "37781603",
+      "38724669"
+    ],
+    "review": [
+      "34898596",
+      "33606259",
+      "32014034",
+      "34282334",
+      "34390932",
+      "32312702",
+      "32637041",
+      "35615697"
+    ],
+    "pmc": [
+      "8699717"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1009670",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34898596/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34898596",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

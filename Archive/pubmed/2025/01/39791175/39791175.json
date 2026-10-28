@@ -1,0 +1,361 @@
+{
+  "identity": {
+    "pmid": "39791175",
+    "doi": "10.2174/0118715303326112241021061805",
+    "title": "Identification of Programmed Cell Death-related Biomarkers for the Potential Diagnosis and Treatment of Osteoporosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteoporosis (OP) is a skeletal condition characterized by increased susceptibility to fractures. Programmed cell death (PCD) is the orderly process of cells ending their own life that has not been thoroughly explored in relation to OP. OBJECTIVE: This study is to investigate PCD-related genes in OP, shedding light on potential mechanisms underlying the disease. METHODS: Public datasets (GSE56814 and GSE56815) were analyzed to identify differentially expressed genes (DEGs). We employed the least absolute shrinkage and selection operator (LASSO), Boruta, and random forest (RF) algorithms to pinpoint hub PCD-related genes in OP and construct a predictive nomogram model. The performance of the model was validated through ROC curve analysis, calibration curves, and decision curve analysis. Additionally, transcription factor (TF) interaction analysis and functional enrichment analysis were conducted to explore the regulatory networks and biological pathways involved. RESULTS: We identified 161 DEGs, with 30 prominently associated with PCD. Five hub genes, PDPK1, MAP1LC3B, ZFP36, DRAM1, and MPO, were highlighted as particularly significant. A predictive nomogram integrating these genes demonstrated high accuracy (AUC) in forecasting OP risk, with an AUC of 0.911 in the GSE56815 dataset. The validation confirmed the gene model efficacy in differentiating OP risk and clinical applicability. The subsequent TF-gene interaction analyses revealed that these hub genes are regulated by multiple TFs, indicating their central role in OP pathology. Functional enrichment analysis of the hub genes indicated significant involvement in apoptosis, autophagy, and immune response pathways. CONCLUSION: This study identified PDPK1, MAP1LC3B, ZFP36, DRAM1, and MPO as potential biomarkers and proposes a nomogram based on hub genes for predicting osteoporosis risk.",
+    "keywords": [
+      "Osteoporosis (OP)",
+      "bone homeostasis",
+      "diagnosis",
+      "machine learning",
+      "nomogram.",
+      "osteoblast",
+      "osteoclast",
+      "programmed cell death (PCD)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Osteoporosis/diagnosis/genetics/therapy/metabolism",
+      "Biomarkers/metabolism",
+      "*Apoptosis/genetics/physiology",
+      "Databases, Genetic",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling/methods",
+      "Nomograms",
+      "*Apoptosis Regulatory Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huo, Yancheng",
+        "Guo, Meng",
+        "Li, Yihan",
+        "Yao, Xingchen",
+        "Tian, Qingxian",
+        "Liu, Tie"
+      ],
+      "short_names": [
+        "Huo Y",
+        "Guo M",
+        "Li Y",
+        "Yao X",
+        "Tian Q",
+        "Liu T"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-4953-0194"
+      ],
+      "affiliations": [
+        "Department of Orthopaedic Surgery, Beijing Chaoyang Hospital, Capital Medical University, Beijing 100020, China.",
+        "Department of Orthopaedic Surgery, Beijing Chaoyang Hospital, Capital Medical University, Beijing 100020, China.",
+        "Department of Orthopaedic Surgery, Beijing Chaoyang Hospital, Capital Medical University, Beijing 100020, China.",
+        "Department of Orthopaedic Surgery, Beijing Chaoyang Hospital, Capital Medical University, Beijing 100020, China.",
+        "Department of Orthopaedic Surgery, Beijing Chaoyang Hospital, Capital Medical University, Beijing 100020, China.",
+        "Department of Orthopaedic Surgery, Beijing Chaoyang Hospital, Capital Medical University, Beijing 100020, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huo, Yancheng",
+        "short_name": "Huo Y",
+        "identifiers": [
+          "0009-0006-4953-0194"
+        ],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, Beijing Chaoyang Hospital, Capital Medical University, Beijing 100020, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Meng",
+        "short_name": "Guo M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, Beijing Chaoyang Hospital, Capital Medical University, Beijing 100020, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yihan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, Beijing Chaoyang Hospital, Capital Medical University, Beijing 100020, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Xingchen",
+        "short_name": "Yao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, Beijing Chaoyang Hospital, Capital Medical University, Beijing 100020, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Qingxian",
+        "short_name": "Tian Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, Beijing Chaoyang Hospital, Capital Medical University, Beijing 100020, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Tie",
+        "short_name": "Liu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedic Surgery, Beijing Chaoyang Hospital, Capital Medical University, Beijing 100020, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Endocrine, metabolic & immune disorders drug targets"
+    ],
+    "journal_abbrev": [
+      "Endocr Metab Immune Disord Drug Targets"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/10 06:19",
+    "fetched_at": "2026-09-30 09:13:04"
+  },
+  "links": {
+    "cites": [
+      "41458498"
+    ],
+    "refs": [
+      "38038723",
+      "37828580",
+      "37625900",
+      "36597777",
+      "36581167",
+      "36369364",
+      "36341760",
+      "35346278",
+      "35298263",
+      "35269841",
+      "34740817",
+      "34688418",
+      "33377210",
+      "33289180",
+      "32773051",
+      "32216834",
+      "32048762",
+      "31679460",
+      "31467365",
+      "31168451",
+      "31120440",
+      "30948788",
+      "30931480",
+      "30568239",
+      "30203495",
+      "29993742",
+      "29416009",
+      "29330445",
+      "29255269",
+      "29169848",
+      "28985560",
+      "27924156",
+      "27514700",
+      "26771021",
+      "26643175",
+      "26318060",
+      "26273491",
+      "25605792",
+      "25540184",
+      "25368616",
+      "24922577",
+      "24684389",
+      "23720375",
+      "23334784",
+      "23323831",
+      "22975756",
+      "22257882",
+      "22238271",
+      "22055344",
+      "21561920",
+      "21414208",
+      "20427518",
+      "19622015",
+      "19148178",
+      "19109884",
+      "18305538",
+      "18045538",
+      "17552058",
+      "17496320",
+      "17210947",
+      "17144789",
+      "17130162",
+      "17102582",
+      "17099194",
+      "16839881",
+      "14597658",
+      "12049882",
+      "11792567",
+      "11126309",
+      "10802651",
+      "10782361",
+      "10592173",
+      "7976495"
+    ],
+    "similar": [
+      "39791175",
+      "40830558",
+      "40241169",
+      "39130750",
+      "40918403",
+      "40997906",
+      "38650009",
+      "38260098",
+      "41444522",
+      "40603950",
+      "36311708",
+      "41158409",
+      "39351238",
+      "40860289",
+      "41291841",
+      "41146237",
+      "36034449",
+      "39697326",
+      "41054070",
+      "41458160",
+      "40927289",
+      "37605572",
+      "40108736",
+      "40463372",
+      "38778304",
+      "38528539",
+      "36105394",
+      "40211501",
+      "41200172",
+      "41006883",
+      "38637425",
+      "38831425",
+      "39726602",
+      "39650552",
+      "41357842",
+      "40313558",
+      "39082346",
+      "37251077",
+      "41195206",
+      "39006030",
+      "39396400",
+      "37378675",
+      "41021591",
+      "40642528",
+      "41044520",
+      "39735547",
+      "39656402",
+      "40617086",
+      "40500570",
+      "39281570",
+      "38499050",
+      "39394418",
+      "41219916",
+      "40538801",
+      "39556279",
+      "40854963",
+      "34315402",
+      "40634444",
+      "39574022",
+      "37645416",
+      "40701122",
+      "41327654",
+      "40205951",
+      "37335694",
+      "40129981",
+      "41402885",
+      "41266415",
+      "38711508",
+      "40849369",
+      "41368257",
+      "41432483",
+      "39173977",
+      "38987688",
+      "39139563",
+      "41127319",
+      "41357210",
+      "39744064",
+      "30569177",
+      "39839184",
+      "41196851",
+      "40574839",
+      "38851464",
+      "40406620",
+      "41479901",
+      "38690269",
+      "39086489",
+      "39295860",
+      "41158253",
+      "38825605",
+      "39904039",
+      "40263537",
+      "39544937",
+      "41346577",
+      "36513616",
+      "39929099",
+      "39506588",
+      "39142001",
+      "38455534",
+      "40313394",
+      "36993785"
+    ],
+    "review": [
+      "39791175"
+    ],
+    "pmc": [
+      "12606621"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoporosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoporosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39791175/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MPO-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1052",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/238227/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

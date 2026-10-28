@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "40716748",
+    "doi": "10.1016/j.jbc.2025.110519",
+    "title": "Integrating deep learning for post-translational modifications crosstalk on Hsp90 and drug binding."
+  },
+  "content": {
+    "abstract": "Post-translational modification (PTM) of proteins regulates cellular proteostasis by expanding protein functional diversity. This naturally leads to increased proteome complexity as a result of PTM crosstalk. Here, we used the molecular chaperone protein, Heat shock protein-90 (Hsp90), which is subject to a plethora of PTMs, to investigate this concept. Hsp90 is at the hub of proteostasis and cellular signaling networks in cancer and is, therefore, an attractive therapeutic target in cancer. We demonstrated that deletion of histone deacetylase 3 (HDAC3) and histone deacetylase 8 (HDAC8) in human cells led to increased binding of Hsp90 to both ATP and its ATP-competitive inhibitor, Ganetespib. When bound to this inhibitor, Hsp90 from both HDAC3 and HDAC8 knock-out human cells exhibited similar PTMs, mainly phosphorylation and acetylation, and created a common proteomic network signature. We used both a deep-learning artificial intelligence (AI) prediction model and data based on mass spectrometry analysis of Hsp90 isolated from the mammalian cells bound to its drugs to decipher PTM crosstalk. The alignment of data from both methods demonstrates that the deep-learning prediction model offers a highly efficient and rapid approach for deciphering PTM crosstalk on complex proteins such as Hsp90.",
+    "keywords": [
+      "Hsp90",
+      "acetylation",
+      "artificial intelligence",
+      "chaperone",
+      "cochaperone",
+      "deep learning",
+      "histone deacetylase",
+      "phosphorylation"
+    ],
+    "mesh_terms": [
+      "*HSP90 Heat-Shock Proteins/metabolism/genetics/chemistry/antagonists & inhibitors",
+      "Humans",
+      "*Protein Processing, Post-Translational",
+      "Histone Deacetylases/metabolism/genetics",
+      "*Deep Learning",
+      "Acetylation",
+      "Protein Binding",
+      "Phosphorylation",
+      "Repressor Proteins",
+      "Histone Deacetylase 3"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Heritz, Jennifer A",
+        "Meluni, Katherine A",
+        "Backe, Sarah J",
+        "Cayaban, Sara J",
+        "Wengert, Laura A",
+        "Kunz, Meik",
+        "Woodford, Mark R",
+        "Bourboulia, Dimitra",
+        "Mollapour, Mehdi"
+      ],
+      "short_names": [
+        "Heritz JA",
+        "Meluni KA",
+        "Backe SJ",
+        "Cayaban SJ",
+        "Wengert LA",
+        "Kunz M",
+        "Woodford MR",
+        "Bourboulia D",
+        "Mollapour M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, SUNY Upstate Medical University, Syracuse, New York, USA; Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, New York, USA; Upstate Cancer Center, SUNY Upstate Medical University, Syracuse, New York, USA.",
+        "Department of Urology, SUNY Upstate Medical University, Syracuse, New York, USA; Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, New York, USA; Upstate Cancer Center, SUNY Upstate Medical University, Syracuse, New York, USA.",
+        "Department of Urology, SUNY Upstate Medical University, Syracuse, New York, USA; Upstate Cancer Center, SUNY Upstate Medical University, Syracuse, New York, USA.",
+        "Department of Urology, SUNY Upstate Medical University, Syracuse, New York, USA; Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, New York, USA; Upstate Cancer Center, SUNY Upstate Medical University, Syracuse, New York, USA.",
+        "Department of Urology, SUNY Upstate Medical University, Syracuse, New York, USA; Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, New York, USA; Upstate Cancer Center, SUNY Upstate Medical University, Syracuse, New York, USA.",
+        "The Bioinformatics CRO, Sanford Florida, USA.",
+        "Department of Urology, SUNY Upstate Medical University, Syracuse, New York, USA; Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, New York, USA; Upstate Cancer Center, SUNY Upstate Medical University, Syracuse, New York, USA.",
+        "Department of Urology, SUNY Upstate Medical University, Syracuse, New York, USA; Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, New York, USA; Upstate Cancer Center, SUNY Upstate Medical University, Syracuse, New York, USA.",
+        "Department of Urology, SUNY Upstate Medical University, Syracuse, New York, USA; Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, New York, USA; Upstate Cancer Center, SUNY Upstate Medical University, Syracuse, New York, USA. Electronic address: mollapom@upstate.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Heritz, Jennifer A",
+        "short_name": "Heritz JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, SUNY Upstate Medical University, Syracuse, New York, USA; Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, New York, USA; Upstate Cancer Center, SUNY Upstate Medical University, Syracuse, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Meluni, Katherine A",
+        "short_name": "Meluni KA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, SUNY Upstate Medical University, Syracuse, New York, USA; Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, New York, USA; Upstate Cancer Center, SUNY Upstate Medical University, Syracuse, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Backe, Sarah J",
+        "short_name": "Backe SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, SUNY Upstate Medical University, Syracuse, New York, USA; Upstate Cancer Center, SUNY Upstate Medical University, Syracuse, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Cayaban, Sara J",
+        "short_name": "Cayaban SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, SUNY Upstate Medical University, Syracuse, New York, USA; Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, New York, USA; Upstate Cancer Center, SUNY Upstate Medical University, Syracuse, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Wengert, Laura A",
+        "short_name": "Wengert LA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, SUNY Upstate Medical University, Syracuse, New York, USA; Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, New York, USA; Upstate Cancer Center, SUNY Upstate Medical University, Syracuse, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Kunz, Meik",
+        "short_name": "Kunz M",
+        "identifiers": [],
+        "affiliations": [
+          "The Bioinformatics CRO, Sanford Florida, USA."
+        ]
+      },
+      {
+        "full_name": "Woodford, Mark R",
+        "short_name": "Woodford MR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, SUNY Upstate Medical University, Syracuse, New York, USA; Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, New York, USA; Upstate Cancer Center, SUNY Upstate Medical University, Syracuse, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Bourboulia, Dimitra",
+        "short_name": "Bourboulia D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, SUNY Upstate Medical University, Syracuse, New York, USA; Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, New York, USA; Upstate Cancer Center, SUNY Upstate Medical University, Syracuse, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Mollapour, Mehdi",
+        "short_name": "Mollapour M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, SUNY Upstate Medical University, Syracuse, New York, USA; Department of Biochemistry and Molecular Biology, SUNY Upstate Medical University, Syracuse, New York, USA; Upstate Cancer Center, SUNY Upstate Medical University, Syracuse, New York, USA. Electronic address: mollapom@upstate.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/29 04:06",
+    "fetched_at": "2026-09-30 22:51:24"
+  },
+  "links": {
+    "cites": [
+      "42154435",
+      "41643838",
+      "41634806",
+      "40976416"
+    ],
+    "refs": [
+      "39652584",
+      "39414766",
+      "39181529",
+      "39142378",
+      "38878853",
+      "38534118",
+      "38311120",
+      "37979178",
+      "37056379",
+      "35986838",
+      "35688358",
+      "34794206",
+      "34606780",
+      "33986242",
+      "33239621",
+      "33037995",
+      "32527727",
+      "31088857",
+      "30395289",
+      "29127155",
+      "28429788",
+      "27072697",
+      "26916000",
+      "26804907",
+      "23867252",
+      "22806877",
+      "22144665",
+      "20651736",
+      "20159553",
+      "17218278",
+      "15916966",
+      "15264254",
+      "14622256",
+      "12941844",
+      "10527618",
+      "9707442"
+    ],
+    "similar": [
+      "40716748",
+      "40976416",
+      "34530730",
+      "33017618",
+      "18559531",
+      "32527727",
+      "15916966",
+      "15937340",
+      "17363504",
+      "18591380",
+      "19158084",
+      "16199163",
+      "38411135",
+      "25442004",
+      "23734688",
+      "21082217",
+      "29177662",
+      "28298630",
+      "27100623",
+      "25234862",
+      "17218278",
+      "21856339",
+      "36520312",
+      "16809764",
+      "20813976",
+      "26916000",
+      "26498249",
+      "21184271",
+      "29720613",
+      "18307035",
+      "23867252",
+      "24156782",
+      "39652584",
+      "39543960",
+      "40990539",
+      "27868254",
+      "19805354",
+      "28537252",
+      "39142371",
+      "39665290",
+      "21898227",
+      "30597863",
+      "25839432",
+      "16087666",
+      "31088919",
+      "36961081",
+      "39142378",
+      "30699359",
+      "23806880",
+      "25921532",
+      "24303801",
+      "11777905",
+      "18505931",
+      "24395240",
+      "10748112",
+      "25243616",
+      "31025088",
+      "19207105",
+      "18991631",
+      "31778773",
+      "30039622",
+      "17699868",
+      "22384180",
+      "29789295",
+      "26663086",
+      "28153791",
+      "30502916",
+      "23041319",
+      "26565746",
+      "32518165",
+      "18927309",
+      "14701748",
+      "20651736",
+      "22328923",
+      "24462205",
+      "37540432",
+      "27072697",
+      "24092806",
+      "37328388",
+      "19855091",
+      "27515256",
+      "18394702",
+      "27382012",
+      "22955504",
+      "26883953",
+      "34339852",
+      "28459537",
+      "24526703",
+      "22494029",
+      "26517842",
+      "31283755",
+      "26562659",
+      "20837488",
+      "11602581",
+      "21803775",
+      "23585225",
+      "16919237",
+      "38460516",
+      "26549458",
+      "21919888"
+    ],
+    "review": [
+      "40716748",
+      "40976416",
+      "34530730",
+      "32527727",
+      "23734688",
+      "25234862",
+      "21856339",
+      "26916000",
+      "40990539",
+      "30597863",
+      "25839432",
+      "39142378",
+      "23806880",
+      "25243616",
+      "19207105",
+      "18991631",
+      "30502916",
+      "32518165",
+      "20651736",
+      "27072697",
+      "27515256",
+      "22955504",
+      "34339852"
+    ],
+    "pmc": [
+      "12398796"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(25)02370-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40716748/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1532",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

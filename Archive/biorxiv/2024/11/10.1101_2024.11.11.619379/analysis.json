@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.11.619379",
+  "title": "Cross-platform DNA motif discovery and benchmarking to explore binding specificities of poorly studied human transcription factors",
+  "authors": "Ilya E. Vorontsov; Ivan Kozin; Sergey Abramov; Alexandr Boytsov; Arttu Jolma; Mihai Albu; Giovanna Ambrosini; Katerina Faltejskova; Antoni J. Gralak; Nikita Gryzunov; Sachi Inukai; Semyon Kolmykov; Pavel Kravchenko; Judith F. Kribelbauer-Swietek; Kaitlin U. Laverty; Vladimir Nozdrin; Zain M. Patel; Dmitry Penzar; Marie-Luise Plescher; Sara E. Pour; Rozita Razavi; Ally W.H. Yang; Ivan Yevshin; Arsenii Zinkevich; Matthew T. Weirauch; Philipp Bucher; Bart Deplancke; Oriol Fornes; Jan Grau; Ivo Grosse; Fedor A. Kolpakov; The Codebook/GRECO-BIT Consortium; Vsevolod J. Makeev; Timothy R. Hughes; Ivan V. Kulakovskiy",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-12",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过多平台多工具对394个人类转录因子进行DNA基序发现与基准测试，构建基序目录，虽聚焦TF-DNA结合特异性但以序列基序为主，缺乏三维互作建模与AI/物理模拟方法，属于广义TF-DNA互作研究，对本课题有数据与基准参考价值。",
+  "abstract": "A DNA sequence pattern, or “motif”, is an essential representation of DNA-binding specificity of a transcription factor (TF). Any particular motif model has potential flaws due to shortcomings of the underlying experimental data and computational motif discovery algorithm. As a part of the Codebook/GRECO-BIT initiative, here we evaluated at large scale the cross-platform recognition performance of positional weight matrices (PWMs), which remain popular motif models in many practical applications. We applied ten different DNA motif discovery tools to generate PWMs from the “Codebook” data comprised of 4,237 experiments from five different platforms profiling the DNA-binding specificity of 394 human proteins, focusing on understudied transcription factors of different structural families. For many of the proteins, there was no prior knowledge of a genuine motif. By benchmarking-supported human curation, we constructed an approved subset of experiments comprising about 30% of all experiments and 50% of tested TFs which displayed consistent motifs across platforms and replicates. We present the Codebook Motif Explorer ( https://mex.autosome.org ), a detailed online catalog of DNA motifs, including the top-ranked PWMs, and the underlying source and benchmarking data. We demonstrate that in the case of high-quality experimental data, most of the popular motif discovery tools detect valid motifs and generate PWMs, which perform well both on genomic and synthetic data. Yet, for each of the algorithms, there were problematic combinations of proteins and platforms, and the basic motif properties such as nucleotide composition and information content offered little help in detecting such pitfalls. By combining multiple PMWs in decision trees, we demonstrate how our setup can be readily adapted to train and test binding specificity models more complex than PWMs. Overall, our study provides a rich motif catalog as a solid baseline for advanced models and highlights the power of the multi-platform multi-tool approach for reliable mapping of DNA binding specificities. Abstract Figure Graphical Abstract",
+  "abstract_zh": "DNA序列模式，或称“基序”，是转录因子（TF）DNA结合特异性的基本表示。任何特定的基序模型都可能因底层实验数据和计算基序发现算法的不足而存在潜在缺陷。作为Codebook/GRECO-BIT计划的一部分，我们在大规模上评估了位置权重矩阵（PWMs）的跨平台识别性能，这些矩阵在许多实际应用中仍是流行的基序模型。我们应用了十种不同的DNA基序发现工具，从“Codebook”数据中生成PWMs，该数据包含来自五个不同平台的4,237个实验，描绘了394个人类蛋白的DNA结合特异性，重点关注不同结构家族中研究较少的转录因子。对于许多蛋白，此前并无真实基序的已知信息。通过基准测试支持的人工筛选，我们构建了一个经批准的子集，包含约30%的所有实验和50%的测试转录因子，这些实验在平台和重复间显示出一致的基序。我们提供了Codebook基序探索器（https://mex.autosome.org），这是一个详细的DNA基序在线目录，包括排名靠前的PWMs及底层来源和基准数据。我们证明，在高质量实验数据的情况下，大多数流行的基序发现工具能检测到有效基序并生成PWMs，这些矩阵在基因组和合成数据上均表现良好。然而，对于每种算法，都存在蛋白与平台的组合问题，而基本基序属性如核苷酸组成和信息含量在检测此类陷阱时帮助甚微。通过将多个PWMs组合在决策树中，我们展示了我们的设置如何能轻松适应于训练和测试比PWMs更复杂的结合特异性模型。总体而言，我们的研究提供了丰富的基序目录，作为高级模型的坚实基础，并强调了多平台多工具方法在可靠映射DNA结合特异性方面的力量。摘要图 图形摘要",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.11.619379",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.619379",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.11.619379/index.html"
+}

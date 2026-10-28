@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.02.21.707165",
+  "title": "A Comprehensive Atlas and Machine-Learning Framework for Predicting IDR-Protein Binding Affinity",
+  "authors": "Subinoy Adhikari; Soham Choudhuri; Jagannath Mondal",
+  "journal": "bioRxiv",
+  "published_date": "2026-02-23",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 6,
+  "one_liner_zh": "该文构建IDR-蛋白复合物结合亲和力数据集并开发图Transformer预测模型，虽非TF-DNA体系，但蛋白-蛋白互作界面建模与AI方法可迁移至TF-DNA结合预测，具有借鉴价值。",
+  "abstract": "Intrinsically disordered regions (IDRs) enable pervasive, regulatable protein interactions, yet predicting their binding affinities remains challenging because disorder permits heterogeneous interfaces and context-dependent recognition. Here we introduce IBPC- K d , a curated dataset of 1,785 IDR-ordered protein complexes with experimentally measured dissociation constants ( K d ), spanning more than six orders of magnitude in affinity and covering diverse IDR lengths and partner classes. Across this resource, we find that global interfacial shape complementarity is a consistent correlate of affinity, followed by the structural order of the partner surface and a systematic electrostatic asymmetry between IDRs and their binders. Local physicochemical patterning modulates binding in a partner-dependent manner. Guided by these observations, we develop IDRBindNet , a graph-transformer model that integrates protein language model embeddings with interface geometry and residue-level chemical context to predict dissociation constants from IDR-partner complexes. IDRBindNet achieves state-of-the-art accuracy on held-out complexes (R 2 up to 0.911) while implicitly learning biologically relevant attention patterns corresponding to partner disorder and geometric fit. Notably, the framework generalizes through external validation on a set of recently reported de novo designed binders targeting the human surfaceome, showing encouraging concordance across nanomolar-to-micromolar affinities. Together, IBPC- K d and the accompanying predictor IDRBindNet provide a quantitative framework for interrogating determinants of IDR recognition and for prioritizing candidate interactions for mechanistic and design studies.",
+  "abstract_zh": "intrinsically disordered regions (IDRs) 实现广泛、可调控的蛋白质相互作用，然而预测其结合亲和力仍具挑战性，因为无序性允许异质界面和依赖上下文的识别。在此，我们引入 IBPC-Kd，一个包含 1,785 个 IDR-有序蛋白复合物的精选数据集，具有实验测量的解离常数 (Kd)，亲和力跨度超过六个数量级，覆盖多样的 IDR 长度和伴侣类别。在该资源中，我们发现全局界面形状互补性是亲和力的一致相关因素，其次是伴侣表面的结构有序性和 IDR 与其结合物之间的系统性静电不对称性。局部物理化学模式以伴侣依赖方式调节结合。基于这些观察，我们开发了 IDRBindNet，一种图变换器模型，整合蛋白质语言模型嵌入、界面几何和残基级化学上下文，以从 IDR-伴侣复合物预测解离常数。IDRBindNet 在保留复合物上实现最先进精度（R² 最高达 0.911），同时隐式学习与伴侣无序性和几何匹配相关的生物学相关注意力模式。值得注意的是，该框架通过外部验证泛化，针对一组最近报道的靶向人类表面组的从头设计结合物，在纳摩尔至微摩尔亲和力范围内显示出令人鼓舞的一致性。总之，IBPC-Kd 和配套预测器 IDRBindNet 提供了一个定量框架，用于探究 IDR 识别的决定因素，并优先选择候选相互作用进行机制和设计研究。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.02.21.707165",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.02.21.707165",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.02.21.707165/index.html"
+}

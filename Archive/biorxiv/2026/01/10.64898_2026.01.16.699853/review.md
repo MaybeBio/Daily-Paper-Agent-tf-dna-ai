@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) without figures, tables, or supplementary information
+- **Assessment boundary** Scientific claims, methodological soundness, and evidentiary support based solely on the provided text; figures, tables, and supplementary materials referenced but not directly assessable
+- **Shared manuscript claim summary** The authors use all-atom MD simulations to compare mannose binding in the carbohydrate recognition domains of DC-SIGN and MRC1, reporting that mannose binds less stably to DC-SIGN than to MRC1, that a specific binding state (state C) is unique to MRC1 and requires an asparagine side-chain rotation, and that these findings question DC-SIGN's suitability as a target in retinoblastoma photodynamic therapy
+- **Visible evidence base** Text descriptions of methods and results; references to Figures 1-10, Tables 1-2, and Supplementary Figures S1-S8 and Table S1; no actual data values, plots, or statistical analyses are visible in the provided material
+- **Missing materials affecting confidence** All figures, tables, supplementary information, simulation parameter files, and trajectory data; specific numerical results (binding affinities, RMSD/RMSF values, distance distributions, covariance data); details of ligand structures and force field parameterization
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in glycobiology with potential therapeutic implications, and the methodological framework combining all-atom MD with coarse-grain Brownian dynamics is appropriate for the stated goals. However, the central claims regarding differential binding stability and the mechanistic explanation for MRC1-specific binding cannot be adequately evaluated from the text alone, as all quantitative evidence resides in figures and tables that were not provided. The conclusion questioning DC-SIGN's suitability as a therapeutic target appears to extend beyond what the presented simulation data can support, particularly given the authors' own acknowledgment that the multimeric receptor context may substantially alter binding behavior.
+- **Who would be interested in the results, and why** Researchers in glycobiology and C-type lectin structure-function relationships would find the comparative binding analysis relevant. The computational glycobiology community would be interested in the methodological approach and the identification of alternative binding states. Investigators developing glycan-based therapeutics, particularly for photodynamic therapy in retinoblastoma, would be the primary applied audience. The findings on secondary binding sites and the asparagine rotation mechanism could inform future ligand design efforts.
+- **Major strengths** The study addresses a clinically motivated question with clear therapeutic relevance. The combination of all-atom MD with coarse-grain Brownian dynamics provides complementary perspectives on binding stability and protein flexibility. The authors identify a specific, mechanistically plausible binding state (state C) unique to MRC1 and support its biological relevance by referencing crystal structures of related CRDs crystallized without calcium. The acknowledgment of limitations regarding monomeric versus multimeric receptor context demonstrates appropriate scientific caution. The availability of simulation parameters, trajectories, and analysis scripts in public repositories is commendable for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The analysis of the protein-carbohydrate contacts from the resulting trajectories highlights the variability of the mannose binding modes on both CRDs, and shows how the increased affinity of mannose for the MRC1 CRD can be related to a specific mannose binding state that is not accessible in the DC-SIGN CRD"
+  - **Evidence pointer** Figures 5-9, Table 2, Supplementary Figures S3-S7; location not provided
+  - **Concern** The central claim of differential binding affinity between DC-SIGN and MRC1, and the attribution of this difference to a specific binding state, rests entirely on quantitative data presented in figures and tables that are not visible in the provided material. The text states that mannose systematically unbinds from DC-SIGN within the first 100 ns across all replicas and ligands, but no numerical support (e.g., residence times, binding free energies, contact frequencies) is provided in the text itself. Similarly, the claim that state C is "the most stable one" is made without reporting the actual binding affinities or stabilities that would substantiate this ranking.
+  - **Why it matters** The differential binding affinity between the two receptors is the primary scientific finding of the manuscript. Without access to the quantitative evidence, the claim cannot be verified, and the mechanistic explanation linking state C to increased MRC1 affinity remains an assertion rather than a demonstrated result.
+  - **Resolution test** Provide the numerical data underlying Figures 5-9 and Table 2 in the text or in a format assessable during review, including binding affinities with uncertainties, residence times, and statistical comparisons between binding states and between receptors.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** "All-atom molecular dynamics simulations were carried out using GROMACS(v.2023.2), and the CHARMM36m force-field (see the force-field discussion in the supplementary information)"
+  - **Evidence pointer** Section 2, Material and Methods; Supplementary information (force-field discussion); location not provided
+  - **Concern** The choice of CHARMM36m for protein-carbohydrate simulations is not justified in the visible text, and the reader is referred to supplementary information for the force-field discussion. CHARMM36m is primarily optimized for intrinsically disordered proteins, and its performance for carbohydrate ligands, particularly regarding glycosidic bond parameters and sugar ring puckering, is not established in the provided material. The manuscript does not describe how the carbohydrate parameters were generated, whether they were validated against experimental data, or how the force field choice might affect the binding affinity results.
+  - **Why it matters** Force field accuracy is critical for the reliability of binding affinity and stability predictions in MD simulations. If the carbohydrate parameters are not appropriately validated, the quantitative binding results, and consequently the central comparative claims, could be artifacts of the force field rather than genuine biophysical differences.
+  - **Resolution test** Provide the force-field validation discussion, including parameter sources for the carbohydrate ligands, any benchmarking against experimental binding data, and a justification for the CHARMM36m choice specifically for protein-carbohydrate systems.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim scope
+  - **Claim pointer** "The higher structural stability of the MRC1 glycan binding pocket and the possibility of mannose binding via state C result in a higher mannose affinity for MRC1 compared to DC-SIGN, which questions DC-SIGN's suitability as a target in retinoblastoma photodynamic therapy"
+  - **Evidence pointer** Section 3, Results and discussion; Section 4, Conclusion; location not provided
+  - **Concern** The conclusion that DC-SIGN may be unsuitable as a therapeutic target in retinoblastoma PDT extends beyond the simulation data presented. The authors themselves acknowledge that DC-SIGN assembles as a homotetramer in vivo and that multimeric presentation may enhance affinity through avidity effects. The monomeric CRD simulations cannot capture this cooperativity, and the conclusion does not account for other factors relevant to therapeutic targeting, such as receptor accessibility, expression levels, or the potential for multivalent ligand design. The leap from reduced monomeric binding stability to therapeutic unsuitability is not adequately supported.
+  - **Why it matters** The therapeutic implication is a significant motivating factor for the study and may influence future research directions in PDT development. An unsupported conclusion could mislead subsequent therapeutic design efforts or be used to justify abandoning DC-SIGN as a target without sufficient evidence.
+  - **Resolution test** Either temper the conclusion to reflect the limitations of monomeric simulations, or provide additional evidence (e.g., simulations of the tetrameric assembly, discussion of avidity effects, or quantitative comparison with known therapeutic thresholds) that supports the claim regarding therapeutic suitability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Sampling adequacy
+  - **Claim pointer** "For each ligand-receptor pair, we ran three replicas for the 500 ns production steps in the NPT ensemble"
+  - **Evidence pointer** Section 2, Material and Methods; location not provided
+  - **Concern** The manuscript does not report whether the 500 ns simulations reached convergence, whether the three replicas produced consistent results, or whether the sampling was sufficient to capture the binding and unbinding events described. Given that the authors report systematic unbinding from DC-SIGN within the first 100 ns, it is unclear whether the remaining 400 ns of simulation time for those systems contributed meaningful information about binding modes or affinities. No convergence metrics (e.g., block averaging, autocorrelation times, replica consistency) are described.
+  - **Why it matters** Inadequate sampling can lead to incorrect conclusions about binding stability and the relative populations of different binding states. If the simulations are not converged, the reported binding affinities and the identification of state C as the most stable state may not be reliable.
+  - **Resolution test** Provide convergence analysis, including time evolution of binding affinities or contact maps, comparison of results across replicas, and justification that the simulation length is sufficient to characterize the binding equilibria for both receptors.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description
+  - **Evidence pointer** Section 2, Material and Methods; location not provided
+  - **Issue** The description of the equilibration protocol is incomplete. The text states that six simulations with decreasing restraints were performed, but the durations are only partially specified (125,000 steps for the first three and 250,000 steps for the last three), and the restraint schemes are described in a fragmented manner. The sentence describing the force constants for backbone and side chain atoms appears to be cut off mid-thought.
+  - **Required correction** Provide a complete, coherent description of the equilibration protocol, including the exact restraint values for each stage, the total equilibration time, and the criteria used to determine that equilibration was complete.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Ligand parameterization
+  - **Evidence pointer** Section 2, Material and Methods; location not provided
+  - **Issue** The manuscript states that five mannose-based ligands were modeled and parameterized on CHARMM-GUI using NMR experimental structures provided by collaborators, but no details are given about the ligand structures, the nature of the modifications relative to mannose, or the parameterization procedure. The reader cannot assess whether the ligand set is appropriate for the stated goal of designing selective therapeutic compounds.
+  - **Required correction** Provide a table or figure showing the ligand structures, a description of the parameterization workflow, and a rationale for the choice of these specific ligands.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Binding affinity results
+  - **Evidence pointer** Table 2; location not provided
+  - **Concern** The text refers to binding affinities in Table 2 but does not describe the statistical treatment of the MM/PBSA results. It is unclear whether standard errors or confidence intervals are reported, how the three replicas were combined, or whether the differences between ligands and between receptors are statistically significant.
+  - **Required correction** Describe the statistical analysis of the MM/PBSA results, including how replica variability was handled and whether significance testing was performed for the reported differences.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; Section 1, Introduction; location not provided
+  - **Concern** The abstract states that the work investigates "the interaction between several mannose based ligands and the CRDs from DC-SIGN and MRC1," but the introduction describes the therapeutic context as requiring ligands that bind DC-SIGN but not MRC1. The framing is somewhat inconsistent, as the study appears to characterize binding to both receptors rather than to demonstrate selectivity.
+  - **Required correction** Clarify whether the goal is to characterize binding to both receptors for comparative purposes, or to identify ligands with differential selectivity, and ensure the abstract and introduction are consistent in this framing.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of limitations
+  - **Evidence pointer** Section 4, Conclusion; location not provided
+  - **Concern** The conclusion acknowledges the limitation of studying monomeric CRDs rather than multimeric receptor assemblies, but does not discuss other limitations, such as the use of a single force field, the absence of explicit validation against experimental binding data, or the potential sensitivity of the results to the initial binding pose.
+  - **Required correction** Add a limitations paragraph that addresses force field sensitivity, validation against experimental data, and the dependence of the results on starting structures.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for differential binding affinity not assessable from provided material), R1-M2 (force field choice and carbohydrate parameterization not justified or validated in visible text)
+- **Assessment against Nature-style criteria** Originality: The comparative approach to two related C-type lectin CRDs and the identification of a specific MRC1-only binding state with a mechanistic explanation (asparagine rotation) has some novelty, though the general observation that mannose binds weakly to monomeric DC-SIGN CRDs is consistent with prior literature. Scientific importance: The therapeutic motivation is clinically relevant, but the significance of the findings for PDT development is not fully established given the acknowledged limitations of the monomeric model. Interdisciplinary readership: The work bridges glycobiology, computational biophysics, and therapeutic development, which could appeal to a broad audience, but the presentation assumes substantial familiarity with MD simulation methodology. Technical soundness: The methodological framework is appropriate, but the lack of visible validation for force field parameters and the absence of convergence analysis prevent assessment of technical reliability. Readability for nonspecialists: The manuscript is written in a style accessible to structural biologists and computational chemists, but the introduction could better contextualize the clinical problem for readers outside the glycobiology field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The scientific question is relevant and the methodological approach is sound in principle, but the central quantitative claims cannot be evaluated from the provided material, and the force field validation must be demonstrated. The conclusion regarding therapeutic suitability should be tempered or better supported.

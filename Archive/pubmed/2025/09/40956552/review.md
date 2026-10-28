@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors identify BACH1 as a poor prognosis factor in glioblastoma (GBM), report that the small-molecule compound HPPE binds BACH1 at its C-terminal bZIP domain, disrupts BACH1/TCF-4 interaction, inhibits the Wnt/beta-catenin pathway, suppresses malignant phenotypes in vitro and in vivo, and shows synergy with temozolomide (TMZ) in GBM models.
+- **Visible evidence base** Abstract text only; methods and results are summarized without numerical data, statistical details, or experimental figures
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, compound characterization data, and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting therapeutic strategy targeting BACH1 in GBM, with a plausible mechanistic link to Wnt/beta-catenin signaling. However, the evidence as summarized is insufficient to evaluate the rigor of the findings. Key quantitative data, experimental controls, and validation details are absent, and several claims appear to exceed what the described experiments can support without further information.
+- **Who would be interested in the results, and why** Researchers in glioma biology, Wnt signaling, and targeted cancer therapy would be interested. The proposed BACH1-targeting strategy and its potential synergy with TMZ could have translational relevance for GBM treatment, which remains a disease with poor prognosis and limited therapeutic options.
+- **Major strengths** The study addresses an underexplored target (BACH1) in GBM and proposes a specific small-molecule inhibitor with a defined binding domain. The combination of computational, biochemical, cellular, and in vivo approaches is comprehensive in scope. The potential synergy with TMZ is clinically relevant.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** HPPE binds to BACH1 at the bZIP domain on the C-terminus and promotes competitive binding of BACH1 and TCF-4, inhibiting formation of the beta-catenin/TCF-4 complex.
+  - **Evidence pointer** Abstract; methods summarized as molecular dynamics, docking, MST, co-IP; location not provided
+  - **Concern** The abstract states that HPPE binds BACH1 at the bZIP domain and promotes competitive binding with TCF-4, but no quantitative binding data, affinity constants, or competition assay results are provided. The distinction between direct binding and indirect effects is not established.
+  - **Why it matters** The central mechanistic claim depends on demonstrating specific, direct binding of HPPE to BACH1 and a competitive relationship with TCF-4. Without quantitative or controlled data, the proposed mechanism remains speculative.
+  - **Resolution test** Provide binding affinity values (e.g., Kd from MST), competition assay results with appropriate controls, and mutagenesis data confirming the bZIP domain as the binding site.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** BTB domain deletion from BACH1 eliminated its ability to interact with TCF-4 and rescued the inhibition of Wnt/beta-catenin signaling and malignant phenotype induced by HPPE.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports that BTB domain deletion abolishes BACH1/TCF-4 interaction and rescues HPPE effects, but the logic is unclear. If HPPE binds the bZIP domain, deletion of the BTB domain should not directly affect HPPE binding. The rescue experiment may reflect loss of BACH1 function rather than specific HPPE targeting.
+  - **Why it matters** This experiment is presented as key evidence for target specificity. If the rescue is due to general loss of BACH1 function rather than disruption of HPPE binding, the claim of specific targeting is weakened.
+  - **Resolution test** Include a bZIP domain deletion or point mutant control to show that HPPE effects are specifically dependent on the bZIP domain, and clarify the role of the BTB domain in BACH1/TCF-4 interaction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence
+  - **Claim pointer** HPPE inhibited proliferation, promoted apoptosis, induced G2/M arrest, and showed synergistic effect with TMZ in GBM cells and in vivo.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative data are provided for any phenotypic outcomes. Effect sizes, dose-response relationships, statistical significance, and the definition of synergy are not reported. The in vivo survival benefit is mentioned without median survival values or statistical comparison.
+  - **Why it matters** The therapeutic potential of HPPE rests on the magnitude and reproducibility of these effects. Without quantitative reporting, the clinical relevance cannot be assessed.
+  - **Resolution test** Report numerical values with statistical tests for all phenotypic assays, including IC50 values, apoptosis rates, cell cycle distributions, synergy scores (e.g., combination index), and survival curves with hazard ratios.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity and off-target effects
+  - **Claim pointer** HPPE principally binds to BACH1 and inhibits Wnt/beta-catenin signaling.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not address whether HPPE has off-target effects on other bZIP-containing proteins or other signaling pathways. The selectivity of HPPE for BACH1 over closely related factors is not discussed.
+  - **Why it matters** Small-molecule inhibitors often have multiple targets. Without selectivity data, the attribution of observed effects to BACH1 specifically is not fully supported.
+  - **Resolution test** Include selectivity profiling against related bZIP family members and transcriptomic or proteomic evidence of pathway specificity.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses "competitive binding of BACH1 and TCF-4" which is ambiguous. It is unclear whether HPPE promotes BACH1 competing with TCF-4 for beta-catenin binding, or whether HPPE disrupts a BACH1/TCF-4 complex.
+  - **Required correction** Clarify the molecular relationship among HPPE, BACH1, TCF-4, and beta-catenin with a precise mechanistic statement.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Prognostic claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that BACH1 is a poor prognosis factor in GBM is stated without any supporting data, such as hazard ratios, patient cohort size, or statistical significance.
+  - **Required correction** Provide the relevant survival analysis statistics or reference to a figure in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Compound characterization
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention the source, purity, or structural characterization of HPPE, which is essential for reproducibility.
+  - **Required correction** Include compound source, purity, and characterization data in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (binding specificity and quantitative binding data), R1-M2 (causal logic of BTB domain deletion experiment), R1-M3 (absence of quantitative phenotypic data), R1-M4 (lack of selectivity assessment)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. Targeting BACH1 in GBM is relatively unexplored, but the concept of inhibiting Wnt signaling in cancer is well established.
+  - Scientific importance: Potentially high if the findings are robust, given the poor prognosis of GBM and the need for new therapeutic strategies.
+  - Interdisciplinary readership: The topic would appeal to cancer biologists, pharmacologists, and clinicians, but the abstract does not currently present the work in a way that would attract a broad interdisciplinary audience.
+  - Technical soundness: Cannot be assessed from the abstract alone. The described methods are appropriate in principle, but the absence of quantitative data and controls prevents evaluation.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses specialized terminology without sufficient context. The mechanistic description is dense and could be simplified.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially interesting hypothesis, but the lack of quantitative data, unclear experimental logic in the BTB domain deletion experiment, and absence of selectivity data mean that the central claims cannot be evaluated. The authors should be invited to submit a revised version with full experimental details, or the manuscript should be reviewed with access to the complete data.
+
+## Risk / unsupported claims
+- The claim that HPPE specifically binds BACH1 at the bZIP domain is unsupported without quantitative binding data and mutagenesis controls.
+- The claim that BTB domain deletion rescues HPPE effects is logically unclear and may reflect non-specific loss of BACH1 function.
+- The claim of synergy with TMZ is unsupported without combination index values or equivalent quantitative synergy metrics.
+- The prognostic significance of BACH1 in GBM is stated without supporting statistics.
+- The in vivo survival benefit is reported without numerical survival data or statistical comparison.
+- The overall conclusion that targeting the C-terminus of BACH1 provides a combined therapeutic strategy is not fully supported by the evidence summarized in the abstract.

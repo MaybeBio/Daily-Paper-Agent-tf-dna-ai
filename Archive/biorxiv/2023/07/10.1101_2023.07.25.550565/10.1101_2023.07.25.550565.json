@@ -1,0 +1,552 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.25.550565",
+  "title": "Graph Attention Site Prediction (GrASP): Identifying Druggable Binding Sites Using Graph Neural Networks with Attention",
+  "doi": "10.1101/2023.07.25.550565",
+  "abstract": "Identifying and discovering druggable protein binding sites is an important early step in computer-aided drug discovery but remains a difficult task where most campaigns rely on a priori knowledge of binding sites from experiments. Here we present a novel binding site prediction method called Graph Attention Site Prediction (GrASP) and re-evaluate assumptions in nearly every step in the site prediction workflow from dataset preparation to model evaluation. GrASP is able to achieve state-of-the-art performance at recovering binding sites in PDB structures while maintaining a high degree of precision which will minimize wasted computation in downstream tasks such as docking and free energy perturbation.",
+  "authors": [
+    "Zachary Smith",
+    "Michael Strobel",
+    "Bodhi P. Vani",
+    "Pratyush Tiwary"
+  ],
+  "published_date": "2023-07-28",
+  "updated_date": "2023-07-28T16:40:10Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.25.550565",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.25.550565.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            16
+          ]
+        ],
+        "date-time": "2026-03-16T11:54:01Z",
+        "timestamp": 1773662041198,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            28
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 56,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            28
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Identifying and discovering druggable protein binding sites is an important early step in computer-aided drug discovery but remains a difficult task where most campaigns rely on\n                  <jats:italic>a priori</jats:italic>\n                  knowledge of binding sites from experiments. Here we present a novel binding site prediction method called Graph Attention Site Prediction (GrASP) and re-evaluate assumptions in nearly every step in the site prediction workflow from dataset preparation to model evaluation. GrASP is able to achieve state-of-the-art performance at recovering binding sites in PDB structures while maintaining a high degree of precision which will minimize wasted computation in downstream tasks such as docking and free energy perturbation.\n                </jats:p>",
+      "DOI": "10.1101/2023.07.25.550565",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            28
+          ]
+        ],
+        "date-time": "2023-07-28T16:40:10Z",
+        "timestamp": 1690562410000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 9,
+      "title": [
+        "Graph Attention Site Prediction (GrASP): Identifying Druggable Binding Sites Using Graph Neural Networks with Attention"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Zachary",
+          "family": "Smith",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Strobel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bodhi P.",
+          "family": "Vani",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Pratyush",
+          "family": "Tiwary",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cbpa.2007.08.033"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr331"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm050540c"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "2990",
+          "DOI": "10.1021/acs.jctc.6b00201",
+          "article-title": "Prediction of Protein–Ligand Binding Poses via a Combination of Induced Fit Docking and Metadynamics Simulations",
+          "volume": "12",
+          "year": "2016",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Vani, B. P. ; Aranganathan, A. ; Wang, D. ; Tiwary, P. AlphaFold2-RAVE: From Sequence to Boltzmann Ranking. Journal of Chemical Theory and Computation 2023,",
+          "DOI": "10.1101/2022.05.25.493365"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "590",
+          "DOI": "10.1038/s41586-021-03828-1",
+          "article-title": "Highly accurate protein structure prediction for the human proteome",
+          "volume": "596",
+          "year": "2021",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "654",
+          "DOI": "10.1021/acs.accounts.9b00613",
+          "article-title": "Investigating Cryptic Binding Sites by Molecular Dynamics Simulations",
+          "volume": "53",
+          "year": "2020",
+          "journal-title": "Accounts of Chemical Research"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "5581",
+          "DOI": "10.1021/acs.jcim.1c00660",
+          "article-title": "O. Cryptic Pockets Repository through Pocket Dynamics Tracking and Metadynamics on Essential Dynamics Space: Applications to Mcl-1",
+          "volume": "61",
+          "year": "2021",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.6b05425"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-10-1"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(92)80074-N"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1093-3263(98)00002-3"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.15",
+          "first-page": "1",
+          "article-title": "PocketPicker: analysis of ligand binding-sites with shape descriptors",
+          "volume": "1",
+          "year": "2007",
+          "journal-title": "Chemistry Central Journal"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(95)00073-9"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1008124202956"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt503"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.19",
+          "first-page": "1",
+          "article-title": "Predicting Protein Ligand Binding Sites by Combining Evolutionary Sequence Conservation and 3D Structure",
+          "volume": "5",
+          "year": "2009",
+          "journal-title": "PLOS Computational Biology"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0707684105"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.21",
+          "first-page": "286",
+          "article-title": "FTSite: high accuracy detection of ligand binding sites on unbound protein structures",
+          "volume": "28",
+          "year": "2011",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp281"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.23",
+          "first-page": "1",
+          "article-title": "LIGSITE csc: predicting ligand binding sites using the Connolly surface and degree of conservation",
+          "volume": "6",
+          "year": "2006",
+          "journal-title": "BMC structural biology"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.24",
+          "first-page": "D399",
+          "article-title": "sc-PDB: a 3D-database of ligandable binding sites—10 years on",
+          "volume": "43",
+          "year": "2014",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-018-2201-7"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx350"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.27",
+          "first-page": "1",
+          "article-title": "P2Rank: machine learning based tool for rapid and accurate prediction of ligand binding sites from protein structure",
+          "volume": "10",
+          "year": "2018",
+          "journal-title": "Journal of cheminformatics"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "W345",
+          "DOI": "10.1093/nar/gkz424",
+          "article-title": "PrankWeb: a web server for ligand binding site prediction and visualization",
+          "volume": "47",
+          "year": "2019",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "W593",
+          "DOI": "10.1093/nar/gkac389",
+          "article-title": "PrankWeb 3: accelerated ligand-binding site predictions for experimental and modelled protein structures",
+          "volume": "50",
+          "year": "2022",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.30",
+          "unstructured": "Aggarwal, R. ; Gupta, A. ; Chelur, V. ; Jawahar, C. V. ; Priyakumar, U. D. DeepPocket: Ligand Binding Site Detection and Segmentation using 3D Convolutional Neural Networks. Journal of Chemical Information and Modeling 0, 0, null, PMID: 34374539."
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.31",
+          "first-page": "1",
+          "article-title": "Improving detection of protein-ligand binding sites with 3D segmentation",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.9b00554"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.33",
+          "first-page": "1",
+          "article-title": "DeepDrug3D: Classification of ligand-binding pockets in proteins with a convolutional neural network",
+          "volume": "15",
+          "year": "2019",
+          "journal-title": "PLOS Computational Biology"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.34",
+          "article-title": "Semi-supervised classification with graph convolutional networks",
+          "year": "2016",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.35",
+          "unstructured": "Fey, M. ; Lenssen, J. E. Fast Graph Representation Learning with PyTorch Geometric. 2019."
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "1520",
+          "DOI": "10.1021/acscentsci.8b00507",
+          "article-title": "PotentialNet for molecular property prediction",
+          "volume": "4",
+          "year": "2018",
+          "journal-title": "ACS central science"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.37",
+          "article-title": "Atom3d: Tasks on molecules in three dimensions",
+          "year": "2020",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.38",
+          "article-title": "Diffdock: Diffusion steps, twists, and turns for molecular docking",
+          "year": "2022",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Meller, A. ; Ward, M. ; Borowsky, J. ; Lotthammer, J. M. ; Kshirsagar, M. ; Oveido, F. ; Lavista Ferres, J. ; Bowman, G. R. Predicting the locations of cryptic pockets from single protein structures using the PocketMiner graph neural network. bioRxiv 2022,",
+          "DOI": "10.1101/2022.06.28.497399"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shi, W. ; Singha, M. ; Pu, L. ; Ramanujam, J. R. ; Brylinski, M. Graphsite: ligand-binding site classification using deep graph neural network. bioRxiv 2021,",
+          "DOI": "10.1101/2021.12.06.471420"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sverrisson, F. ; Feydy, J. ; Correia, B. E. ; Bronstein, M. M. Fast end-to-end learning on protein surfaces. 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2021; pp 15267–15276.",
+          "DOI": "10.1109/CVPR46437.2021.01502"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.42",
+          "article-title": "How Attentive are Graph Attention Networks?",
+          "year": "2021",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.43",
+          "article-title": "How powerful are graph neural networks?",
+          "year": "2018",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.44",
+          "unstructured": "Battaglia, P. W. et al. Relational inductive biases, deep learning, and graph networks. CoRR 2018, abs/1806.01261."
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.45",
+          "unstructured": "Godwin, J. ; Schaarschmidt, M. ; Gaunt, A. L. ; Sanchez-Gonzalez, A. ; Rubanova, Y. ; Veli? cković, P. ; Kirkpatrick, J. ; Battaglia, P. Simple GNN Regularisation for 3D Molecular Property Prediction and Beyond. International Conference on Learning Representations. 2022."
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He, K. ; Zhang, X. ; Ren, S. ; Sun, J. Deep residual learning for image recognition. Proceedings of the IEEE conference on computer vision and pattern recognition. 2016; pp 770–778.",
+          "DOI": "10.1109/CVPR.2016.90"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.47",
+          "unstructured": "Xu, K. ; Li, C. ; Tian, Y. ; Sonobe, T. ; Kawarabayashi, K.-i. ; Jegelka, S. Representation Learning on Graphs with Jumping Knowledge Networks. Proceedings of the 35th International Conference on Machine Learning. 2018; pp 5453–5462."
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.48",
+          "article-title": "Graph attention networks",
+          "year": "2017",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.49",
+          "first-page": "1409",
+          "article-title": "A statiscal method for evaluating systematic relationships",
+          "volume": "38",
+          "year": "1958",
+          "journal-title": "Univ Kans sci bull"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1758-2946-7-S1-S1"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.51",
+          "unstructured": "Corso, G. ; Cavalleri, L. ; Beaini, D. ; Lio, P. ; Veli? cković, P. Principal Neighbourhood Aggregation for Graph Nets. Advances in Neural Information Processing Systems. 2020; pp 13260–13271."
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.52",
+          "article-title": "Instance normalization: The missing ingredient for fast stylization",
+          "year": "2016",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.53",
+          "article-title": "Fast and accurate deep network learning by exponential linear units (elus)",
+          "year": "2015",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.54",
+          "unstructured": "Tyrrell, R. ; Fellar, R. Convex analysis. 1970."
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.55",
+          "unstructured": "Preparata, F. P. ; Shamos, M. I. Computational geometry: an introduction; Springer Science & Business Media, 2012."
+        },
+        {
+          "key": "2023073107350918000_2023.07.25.550565v1.56",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kirillov, A. ; Mintun, E. ; Ravi, N. ; Mao, H. ; Rolland, C. ; Gustafson, L. ; Xiao, T. ; Whitehead, S. ; Berg, A. C. ; Lo, W.-Y. ; Dollár, P. ; Girshick, R. Segment Anything. 2023.",
+          "DOI": "10.1109/ICCV51070.2023.00371"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.07.25.550565",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:59:36Z",
+        "timestamp": 1768453176000
+      },
+      "score": 126.46242,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.07.25.550565"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            28
+          ]
+        ]
+      },
+      "references-count": 56,
+      "URL": "https://doi.org/10.1101/2023.07.25.550565",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jcim.3c01698",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            28
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

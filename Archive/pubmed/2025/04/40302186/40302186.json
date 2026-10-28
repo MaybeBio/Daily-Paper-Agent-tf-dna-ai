@@ -1,0 +1,430 @@
+{
+  "identity": {
+    "pmid": "40302186",
+    "doi": "10.1049/syb2.70017",
+    "title": "SAE1 May Play a Pro-Carcinogenic Role in Pancreatic Adenocarcinoma: A Comprehensive Study Integrating Multiple Pieces of Evidence."
+  },
+  "content": {
+    "abstract": "SAE1, a key factor in tumour development, has not been thoroughly examined in pancreatic adenocarcinoma (PAAD), a cancer with high incidence and poor prognosis. We conducted a comprehensive study, integrating mRNA data, immunohistochemistry, CRISPR-modified cell line analysis and single-cell RNA sequencing to assess SAE1's role in PAAD. We also used ChIP-Seq to explore SAE1's transcriptional regulation and analysed clinical data, drug sensitivity and molecular docking models. SAE1 mRNA was significantly overexpressed in PAAD, with a substantial impact on cell proliferation and migration. Functional analyses linked SAE1 to cell cycle and DNA replication pathways, suggesting a role in PAAD development. Our study indicates that SAE1 may promote PAAD through cell cycle pathways, with FOXA1 potentially regulating SAE1's abnormal behaviour.",
+    "keywords": [
+      "RNA-Seq",
+      "SUMO1 activating enzyme subunit 1",
+      "cell cycle",
+      "pancreatic adenocarcinoma",
+      "scRNA-Seq"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pancreatic Neoplasms/genetics/metabolism/pathology",
+      "*Adenocarcinoma/genetics/metabolism/pathology",
+      "Cell Line, Tumor",
+      "Gene Expression Regulation, Neoplastic",
+      "*Carcinogenesis/genetics",
+      "Cell Proliferation",
+      "Hepatocyte Nuclear Factor 3-alpha/metabolism",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yi",
+        "Wu, Tong",
+        "Li, Qi",
+        "Li, Ming-Jie",
+        "Yu, Na",
+        "Meng, Li-Jueyi",
+        "Chen, Xian-Jin",
+        "Chi, Bang-Teng",
+        "Li, Shi-De",
+        "Huang, Su-Ning",
+        "Chen, Gang",
+        "Ye, Yu-Ping",
+        "Wei, Dan-Ming"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Wu T",
+        "Li Q",
+        "Li MJ",
+        "Yu N",
+        "Meng LJ",
+        "Chen XJ",
+        "Chi BT",
+        "Li SD",
+        "Huang SN",
+        "Chen G",
+        "Ye YP",
+        "Wei DM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2180-9226"
+      ],
+      "affiliations": [
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Information Management and Information System, School of Information and Management, Guangxi Medical University, Nanning, China.",
+        "Department of Radiotherapy, Guangxi Medical University Cancer Hospital, Nanning, China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Key Laboratory of Clinical Laboratory Medicine of Guangxi Department of Education, Department of Clinical Laboratory, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yi",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Tong",
+        "short_name": "Wu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qi",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ming-Jie",
+        "short_name": "Li MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Na",
+        "short_name": "Yu N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Li-Jueyi",
+        "short_name": "Meng LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xian-Jin",
+        "short_name": "Chen XJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Chi, Bang-Teng",
+        "short_name": "Chi BT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shi-De",
+        "short_name": "Li SD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+          "Department of Information Management and Information System, School of Information and Management, Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Su-Ning",
+        "short_name": "Huang SN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiotherapy, Guangxi Medical University Cancer Hospital, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Gang",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Yu-Ping",
+        "short_name": "Ye YP",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Clinical Laboratory Medicine of Guangxi Department of Education, Department of Clinical Laboratory, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Dan-Ming",
+        "short_name": "Wei DM",
+        "identifiers": [
+          "0000-0002-2180-9226"
+        ],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IET systems biology"
+    ],
+    "journal_abbrev": [
+      "IET Syst Biol"
+    ],
+    "pub_date": "2025 Jan-Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/30 06:26",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39831891",
+      "39085477",
+      "39075536",
+      "38813236",
+      "38572751",
+      "38351014",
+      "38341833",
+      "38311316",
+      "38256104",
+      "38237304",
+      "38200229",
+      "38097539",
+      "38071340",
+      "38010918",
+      "38001635",
+      "37942963",
+      "37886949",
+      "37763649",
+      "37746894",
+      "37705041",
+      "37658700",
+      "37426759",
+      "37424798",
+      "37330494",
+      "37196908",
+      "37180146",
+      "37019340",
+      "36831430",
+      "36769170",
+      "36748193",
+      "36653361",
+      "36551588",
+      "36537297",
+      "36468095",
+      "36370105",
+      "36346366",
+      "36325355",
+      "36161334",
+      "36134453",
+      "36057597",
+      "36050295",
+      "35997565",
+      "35917568",
+      "35859792",
+      "35831896",
+      "35609983",
+      "35606717",
+      "35372510",
+      "35184420",
+      "35118587",
+      "34977001",
+      "34911544",
+      "34621746",
+      "34556138",
+      "34275165",
+      "34260682",
+      "34072728",
+      "34058053",
+      "34045512",
+      "33882393",
+      "33839689",
+      "33597522",
+      "33596994",
+      "33518400",
+      "33378938",
+      "33359678",
+      "33353838",
+      "31658955",
+      "31647559",
+      "31345225",
+      "30542720",
+      "30462313",
+      "30341162",
+      "29549242",
+      "29317636",
+      "28825705",
+      "28407145",
+      "23550210",
+      "22257669",
+      "14681366"
+    ],
+    "similar": [
+      "40302186",
+      "39310930",
+      "32289284",
+      "33994864",
+      "39332020",
+      "39209222",
+      "34468015",
+      "39026679",
+      "40226617",
+      "39118300",
+      "29903985",
+      "39875873",
+      "40141028",
+      "35154122",
+      "40258406",
+      "39342295",
+      "31254927",
+      "41346611",
+      "38955307",
+      "40089287",
+      "39844556",
+      "37702882",
+      "38520747",
+      "33507917",
+      "33661995",
+      "39791146",
+      "36600208",
+      "40129158",
+      "37563820",
+      "40705960",
+      "38502348",
+      "39044066",
+      "38526683",
+      "36459296",
+      "33387040",
+      "40677006",
+      "36199146",
+      "40409389",
+      "33437202",
+      "33648511",
+      "38944166",
+      "37974070",
+      "36908851",
+      "31541081",
+      "34840598",
+      "41482412",
+      "40683920",
+      "37024802",
+      "32181755",
+      "39773340",
+      "39742381",
+      "33831427",
+      "40683608",
+      "32985124",
+      "38538250",
+      "39097890",
+      "39127164",
+      "39538226",
+      "31584877",
+      "39871271",
+      "41151864",
+      "36408702",
+      "41315624",
+      "38245886",
+      "36371178",
+      "37812330",
+      "40350979",
+      "38788819",
+      "35322324",
+      "33000197",
+      "39152432",
+      "31913856",
+      "40812519",
+      "39762747",
+      "38783033",
+      "38837874",
+      "40191200",
+      "34332578",
+      "39604668",
+      "32929382",
+      "37253918",
+      "36142142",
+      "37957639",
+      "39661267",
+      "38350242",
+      "40398712",
+      "25793983",
+      "37506150",
+      "40436845",
+      "36572856",
+      "35615982",
+      "34185423",
+      "37232506",
+      "39276709",
+      "34471186",
+      "34134622",
+      "34233576",
+      "34777634",
+      "33649780",
+      "39424110"
+    ],
+    "review": [
+      "40302186"
+    ],
+    "pmc": [
+      "12041129"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40302186/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1049/syb2.70017",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

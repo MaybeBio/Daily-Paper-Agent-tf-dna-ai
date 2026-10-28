@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors propose PPRTGI, a graph neural network with personalized PageRank, to predict transcription factor (TF) target gene interactions using DNA sequence features and biological associations. They report area under receiver operating characteristic (AUROC) of 93.87% and area under precision recall curves (AUPRC) of 88.79% on a human dataset, and state the model is effective across six datasets from different species.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, baseline comparisons, or experimental results beyond the two performance metrics
+- **Missing materials affecting confidence** Full methods, model architecture details, hyperparameter settings, dataset composition and preprocessing, baseline models, statistical significance tests, cross validation procedures, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of graph neural networks to TF target gene interaction prediction. However, the current evidence base is insufficient to evaluate the technical soundness, novelty, or generalizability of the proposed method. The reported performance metrics, while seemingly strong, cannot be interpreted without details on data splits, baseline comparisons, and evaluation protocols. The claim of effectiveness across six datasets is not substantiated by any visible results.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, particularly those interested in graph based deep learning methods for biological interaction prediction. The work may also appeal to researchers studying transcription factor biology who seek computational prioritization tools for experimental validation.
+- **Major strengths** The problem is biologically relevant and practically important. The use of personalized PageRank in a graph neural network framework is a reasonable design choice for capturing local and global graph structure. The inclusion of multiple species datasets suggests an intention toward generalizability, though this is not verifiable from the abstract.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves AUROC of 93.87% and AUPRC of 88.79% on the human dataset.
+  - **Evidence pointer** Abstract, results sentence
+  - **Concern** The abstract reports only two performance metrics without any context regarding the evaluation setup. It is unclear whether these results are from a held out test set, cross validation, or the training set. No baseline comparisons are provided, so the relative improvement over existing methods cannot be assessed.
+  - **Why it matters** Without knowing the evaluation protocol and baseline performance, the reported numbers are not interpretable. A high AUROC can be misleading if the dataset is imbalanced, if there is data leakage, or if the task is trivial relative to baselines. The core claim of effectiveness depends entirely on this missing context.
+  - **Resolution test** Provide details on train validation test splits, cross validation strategy, class balance, and compare against at least two established baseline methods under identical conditions. Report standard deviations or confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** Feature representations of TFs and target genes are extracted from sequence embeddings and biological associations.
+  - **Evidence pointer** Abstract, methods description
+  - **Concern** The abstract does not specify which sequence embedding method is used, what biological associations are incorporated, or how these features are integrated. No details on the graph construction, node features, or edge definitions are provided.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Without specification of input features and graph construction, other researchers cannot implement or validate the method. The novelty claim depends on these design choices being clearly articulated.
+  - **Resolution test** Describe the exact sequence embedding approach, the source and type of biological associations, and the graph construction process in sufficient detail for independent implementation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** PPRTGI is effective in regulatory interaction inference, with experiments on six datasets from different species.
+  - **Evidence pointer** Abstract, experimental design sentence
+  - **Concern** The abstract states experiments were designed on six datasets but provides no results for any dataset other than human. The claim of effectiveness across species is unsupported by visible evidence.
+  - **Why it matters** Generalizability across species is a key selling point for computational methods in biology. If the model only performs well on human data, its utility for other organisms is questionable. The claim as stated cannot be evaluated.
+  - **Resolution test** Report performance metrics for all six datasets, including species names, dataset sizes, and any species specific challenges. Discuss any performance variation across species.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The phrase "combining the aggregated node feature with graph structure" is vague and does not clarify how the personalized PageRank mechanism interacts with the graph neural network layers.
+  - **Required correction** Clarify the architectural flow, specifically how personalized PageRank is incorporated into the message passing or aggregation scheme.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Baseline comparison
+  - **Evidence pointer** Abstract, results sentence
+  - **Issue** No baseline methods are mentioned in the abstract, making it impossible to contextualize the reported performance.
+  - **Required correction** Include at least one or two baseline method names and their corresponding performance metrics in the abstract or state that comparisons are provided in the full text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Performance reporting
+  - **Evidence pointer** Abstract, results sentence
+  - **Issue** The AUROC and AUPRC values are reported as point estimates without any measure of variance or statistical significance.
+  - **Required correction** Report standard deviations or confidence intervals across multiple runs or cross validation folds.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The evaluation protocol, feature and graph construction details, and multi species results are all essential to establishing the validity of the claims. None are visible in the abstract.
+- **Assessment against Nature-style criteria** Originality cannot be assessed from the abstract alone, as the novelty of the personalized PageRank approach in this context is not compared to prior graph neural network methods for TF target prediction. Scientific importance is potentially high given the biological relevance, but the evidence is insufficient to confirm a meaningful advance. Interdisciplinary readership is plausible, as the work bridges machine learning and molecular biology, but the abstract does not clearly articulate the biological implications beyond a general statement. Technical soundness is not established due to missing methodological and evaluation details. Readability for nonspecialists is moderate, though terms such as "bilinear decoder" and "personalized PageRank" are used without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to evaluate the method or its claims. A full review of the manuscript with methods and results would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim of effectiveness across six datasets is unsupported, as no results for non human datasets are provided.
+- The reported AUROC and AUPRC values are uninterpretable without evaluation protocol details and baseline comparisons.
+- The novelty of the method relative to existing graph neural network approaches for TF target interaction prediction is not assessable from the abstract.
+- The biological relevance and potential impact of the method are stated but not demonstrated with any concrete examples or downstream analyses.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36656856",
+  "title": "Physicochemical models of protein-DNA binding with standard and modified base pairs.",
+  "authors": "Chiu, Tsu-Pei; Rao, Satyanarayan; Rohs, Remo",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2023-01-20",
+  "window": {
+    "start": "2023-01-16",
+    "end": "2023-01-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于理化特征的DeepRec模型预测蛋白-DNA结合亲和力，涵盖标准及修饰碱基对，虽非典型TF-DNA但聚焦蛋白-DNA互作机制且方法可迁移至TF-DNA研究。",
+  "abstract": "DNA-binding proteins play important roles in various cellular processes, but the mechanisms by which proteins recognize genomic target sites remain incompletely understood. Functional groups at the edges of the base pairs (bp) exposed in the DNA grooves represent physicochemical signatures. As these signatures enable proteins to form specific contacts between protein residues and bp, their study can provide mechanistic insights into protein-DNA binding. Existing experimental methods, such as X-ray crystallography, can reveal such mechanisms based on physicochemical interactions between proteins and their DNA target sites. However, the low throughput of structural biology methods limits mechanistic insights for selection of many genomic sites. High-throughput binding assays enable prediction of potential target sites by determining relative binding affinities of a protein to massive numbers of DNA sequences. Many currently available computational methods are based on the sequence of standard Watson-Crick bp. They assume that the contribution of overall binding affinity is independent for each base pair, or alternatively include dinucleotides or short k-mers. These methods cannot directly expand to physicochemical contacts, and they are not suitable to apply to DNA modifications or non-Watson-Crick bp. These variations include DNA methylation, and synthetic or mismatched bp. The proposed method, DeepRec, can predict relative binding affinities as function of physicochemical signatures and the effect of DNA methylation or other chemical modifications on binding. Sequence-based modeling methods are in comparison a coarse-grain description and cannot achieve such insights. Our chemistry-based modeling framework provides a path towards understanding genome function at a mechanistic level.",
+  "abstract_zh": "DNA结合蛋白在多种细胞过程中发挥重要作用，但蛋白质识别基因组靶位点的机制仍未完全明了。DNA沟槽中暴露的碱基对（bp）边缘功能基团代表了物理化学特征。由于这些特征使蛋白质能够在蛋白质残基和碱基对之间形成特异性接触，对其研究可为蛋白质-DNA结合提供机制性见解。现有实验方法，如X射线晶体学（X-ray crystallography），可基于蛋白质与其DNA靶位点之间的物理化学相互作用揭示此类机制。然而，结构生物学方法的低通量限制了针对众多基因组位点选择的机制性见解。高通量结合测定通过确定蛋白质对大量DNA序列的相对结合亲和力，能够预测潜在靶位点。许多当前可用的计算方法基于标准Watson-Crick碱基对的序列。它们假设整体结合亲和力的贡献对每个碱基对是独立的，或另选地包含二核苷酸或短k-mer。这些方法无法直接扩展到物理化学接触，也不适用于DNA修饰或非Watson-Crick碱基对。这些变异包括DNA甲基化、合成或错配碱基对。所提出的方法DeepRec，能够预测相对结合亲和力作为物理化学特征的函数，以及DNA甲基化或其他化学修饰对结合的影响。相比之下，基于序列的建模方法是粗粒化描述，无法实现此类见解。我们的基于化学的建模框架为在机制层面理解基因组功能提供了一条路径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36656856/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36656856/",
+  "paper_page_path": "papers/pubmed/36656856/index.html"
+}

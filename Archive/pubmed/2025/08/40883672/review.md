@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Materials and Methods, Results, Discussion, Conclusion) as provided by the user. No supplementary files, figures, or tables were available for direct inspection beyond the text descriptions.
+- **Assessment boundary** The review is limited to the content of the provided manuscript text. Claims, methods, and results are assessed based on what is explicitly stated. No external verification of data, software outputs, or experimental procedures was performed.
+- **Shared manuscript claim summary** The manuscript claims that activated biochar amendment enhances antioxidant activity (catalase, peroxidase, superoxide dismutase) and reduces lipid peroxidation in wheat under deficit irrigation, and that in-silico analyses (protein-protein docking, phylogenetics, subcellular localization, motif/domain prediction) reveal a stable interaction between DREB1 transcription factors and peroxidase, supporting a role for DREB1 in drought tolerance.
+- **Visible evidence base** Text descriptions of results, including statistical outcomes (percentages, p-values), docking interaction details (residues, bond distances, angles), and figures/tables referenced (Fig. 1-6, Table 1-2, Supplementary Table 1). No raw data, sequence alignments, or software output files were provided.
+- **Missing materials affecting confidence** Supplementary files (including Supplementary Table 1 and Supplementary Material 1), full figure images, and table data were not accessible. The specific AlphaFold structure identifiers, HDOCK output scores, and MEME/domain search parameters beyond "default" were not provided. The statistical analysis details (e.g., ANOVA tables, post-hoc tests) are not fully described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant topic in crop stress biology, combining field-based physiological measurements with computational protein interaction analysis. The field data on biochar effects on antioxidant enzymes are potentially useful, but the presentation is incomplete and lacks statistical rigor in reporting. The in-silico component, while interesting, is largely descriptive and the connection between the docking results and the physiological observations is speculative. The manuscript would benefit from clearer hypotheses, more detailed methods, and a more cautious interpretation of the computational findings.
+- **Who would be interested in the results, and why** Researchers in plant abiotic stress physiology, particularly those studying antioxidant defense mechanisms and soil amendments like biochar. Also, computational biologists interested in transcription factor-protein interactions, and wheat breeders looking for candidate genes for drought tolerance improvement.
+- **Major strengths** The combination of field experiments with computational analysis is a potentially integrative approach. The focus on a specific transcription factor family (DREB1) and its potential interaction with a key antioxidant enzyme (peroxidase) is a targeted and mechanistically plausible angle. The study provides a list of TaDREB genes with physicochemical properties, which could be a resource for the community.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The manuscript claims that "a stable protein-protein interaction was observed between peroxidase and dehydration-responsive element binding protein" based on docking results.
+    - **Evidence pointer** Results section "Peroxidase-DREB1 interaction", Figure 2, Tables 1 and 2.
+    - **Concern** The evidence for a "stable" interaction is based solely on the presence of hydrogen bonds, salt bridges, and hydrophobic contacts in a single docking model. The manuscript does not report any docking scores (e.g., HDOCK score, confidence score), which are standard metrics for assessing the quality and likelihood of a predicted interaction. The biological relevance of the interaction is not demonstrated; the authors do not show co-localization, co-expression, or any functional assay. The claim of stability is therefore unsupported by the provided evidence.
+    - **Why it matters** The central in-silico claim of the paper rests on this interaction. Without quantitative docking metrics or any form of experimental validation, the conclusion that DREB1 and peroxidase interact is speculative and cannot be considered established.
+    - **Resolution test** The authors must provide the docking scores and confidence measures from HDOCK. They should also discuss the limitations of docking predictions and ideally provide some form of supporting evidence, such as co-expression analysis from transcriptomic data or a literature-based rationale for the interaction.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The manuscript states that "both levels of AB treatment significantly enhanced catalase activity by 44-49% in wheat under deficit irrigation" and that "AB amendment in deficit irrigation increased the antioxidant activity 44-57% in all cultivars."
+    - **Evidence pointer** Results section "Antioxidant enzyme assay", Figure 1.
+    - **Concern** The statistical analysis is not described in sufficient detail. The authors mention using SPSS and Origin but do not specify the statistical tests used (e.g., ANOVA, post-hoc tests), the model assumptions, or how the percentage increases were calculated. The claim of "significance" is made without reporting F-statistics, degrees of freedom, or p-values for the specific comparisons. The figure description mentions "alphabets represent the differences among treatments at p ≤ 0.05 level of significance," but the exact comparisons and error structure are unclear.
+    - **Why it matters** The physiological results are the foundation of the paper's premise. Without a clear and reproducible statistical analysis, the reader cannot assess the validity of the reported differences between treatments and cultivars. This is a fundamental requirement for a study with experimental data.
+    - **Resolution test** The authors must provide a detailed description of the statistical model, including the factors, interactions, and post-hoc tests used. They should report the test statistics and p-values for the key comparisons, or provide the full ANOVA table in the supplementary materials.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Originality / Scientific importance
+    - **Claim pointer** The manuscript claims that "there is no previous in-silico study on wheat showing the role of DREB1 in drought stress resilience" and that the study provides "insights into the potential role of DREB1 in drought stress response."
+    - **Evidence pointer** Introduction, Discussion.
+    - **Concern** The novelty of the in-silico analysis is overstated. While a specific docking study of DREB1-peroxidase may be new, the DREB1 gene family in wheat has been extensively studied, and genome-wide analyses of DREB transcription factors have been published. The phylogenetic, motif, and domain analyses presented here are standard and largely confirmatory of known features of DREB proteins. The claim of being the "first" is difficult to verify and likely too strong.
+    - **Why it matters** The scientific importance of the study hinges on its novelty. If the in-silico analysis is largely confirmatory, the contribution is incremental. The authors need to more clearly articulate what is genuinely new about their computational approach or findings.
+    - **Resolution test** The authors should temper their novelty claims and more thoroughly discuss how their findings extend or refine existing knowledge of wheat DREB1 genes. They should cite and compare their results with previous genome-wide studies of DREB families in wheat and other cereals.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Readability for nonspecialists
+    - **Claim pointer** The manuscript aims to provide "molecular insights into drought tolerance in wheat" and suggests that "enhancement of TaDREB1 gene expression in wheat with specific modifications can improve drought stress tolerance."
+    - **Evidence pointer** Introduction, Discussion, Conclusion.
+    - **Concern** The logical connection between the field experiments, the in-silico docking, and the final conclusion is not clearly articulated. The authors do not explain how the observed increase in peroxidase activity under biochar treatment is mechanistically linked to the predicted DREB1-peroxidase interaction. The discussion jumps from physiological observations to molecular speculation without a clear narrative. The conclusion that modifying TaDREB1 expression will improve drought tolerance is a significant leap from the data presented.
+    - **Why it matters** For a broad readership, the story needs to be coherent and the implications clearly derived from the results. The current structure leaves the reader to guess how the pieces fit together, weakening the overall impact of the study.
+    - **Resolution test** The authors should restructure the discussion to explicitly connect the field observations to the computational predictions. They should propose a testable model for how biochar-induced signalling might lead to DREB1 activation and subsequent peroxidase interaction, and clearly state the limitations of their current evidence in supporting this model.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Introduction
+    - **Evidence pointer** Introduction, paragraph 1.
+    - **Issue** The opening paragraph contains a general statement about wheat being a "prime food source" and mentions a population estimate for 2023 that is already in the past. The writing could be more focused and current.
+    - **Required correction** Update the population statistics and streamline the introduction to more directly lead to the study's objectives.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods, Protein-protein docking
+    - **Evidence pointer** Methods section "Protein-protein docking".
+    - **Issue** The selection criteria for the "active enzyme" used in docking are vague. The authors state "an active enzyme was selected" based on "significant variation in peroxidase was observed," but the specific rationale for choosing peroxidase over catalase or SOD is not fully explained.
+    - **Required correction** Clarify the criteria for selecting peroxidase for the docking study, perhaps by referencing the magnitude of change or its known role in lignification and stress response.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods, In-silico analysis
+    - **Evidence pointer** Methods section "In-silico analysis of the DREB1 gene family in T. aestivum".
+    - **Issue** The methods for identifying DREB1 proteins in wheat are not fully described. The authors mention using BLAST-P against the Phytozome database but do not specify the E-value threshold, the number of hits retrieved, or the criteria for defining a "DREB1" protein versus other DREB subfamily members.
+    - **Required correction** Provide more detail on the BLAST search parameters and the filtering criteria used to define the final set of TaDREB1 proteins.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Results, Subcellular localization
+    - **Evidence pointer** Results section "Subcellular localization", Figure 3.
+    - **Issue** The description of the subcellular localization results is qualitative. The authors mention "strong nuclear localization" and "significant chloroplast localization" but do not provide the numerical scores from WoLF PSORT that support these statements.
+    - **Required correction** Include the WoLF PSORT scores in the text or as a supplementary table to allow readers to assess the confidence of the predictions.
+    - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Results, Phylogenetic analysis
+    - **Evidence pointer** Results section "Phylogenetic analysis of the DREB1 gene", Figure 4.
+    - **Issue** The phylogenetic analysis is described as using MEGA-11 with a neighbor-joining method, but the bootstrap values are not reported in the text. The figure is not available for inspection.
+    - **Required correction** Report the bootstrap values for key nodes in the tree, either in the text or on the figure itself.
+    - **Concern ID** R1-m6
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Discussion
+    - **Evidence pointer** Discussion, paragraph 2.
+    - **Issue** The discussion contains a long, speculative paragraph on biochar's role in signalling and hormonal regulation. While interesting, it is not directly supported by the data presented and reads more like a general review.
+    - **Required correction** Shorten this section and focus on how the specific results of this study support or refine these general concepts.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative docking scores (R1-M1) and the incomplete reporting of statistical methods and results (R1-M2) are the primary technical failings. Without these, the central claims of the paper cannot be properly evaluated.
+- **Assessment against Nature-style criteria** 
+    - **Originality** The specific combination of biochar field trials with DREB1-peroxidase docking is somewhat novel, but the individual components are well-established. The claim of being the first in-silico study on wheat DREB1 is likely an overstatement. The originality is therefore limited.
+    - **Scientific importance** The potential link between a soil amendment, a transcription factor, and an antioxidant enzyme is of interest to the stress biology community. However, the speculative nature of the molecular interaction and the lack of functional validation limit the immediate importance of the findings.
+    - **Interdisciplinary readership** The study could appeal to agronomists, plant physiologists, and computational biologists. However, the disconnect between the field and computational parts may limit its appeal to any single group.
+    - **Technical soundness** The technical soundness is currently compromised by the missing docking metrics and incomplete statistical reporting. The in-silico methods are standard but not described in sufficient detail for replication.
+    - **Readability for nonspecialists** The manuscript is written in a way that is generally accessible, but the logical flow from results to conclusions is not clear, making it difficult for a nonspecialist to grasp the main message.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the major technical and conceptual gaps must be addressed before the claims can be considered valid. A resubmission after major revisions, including quantitative docking data, detailed statistical analysis, and a more coherent narrative, could be considered.
+
+## Risk / unsupported claims
+- The claim of a "stable" DREB1-peroxidase interaction is unsupported without docking scores or experimental validation.
+- The claim that "both levels of AB treatment significantly enhanced catalase activity by 44-49%" is unverifiable without the full statistical output.
+- The statement that "there is no previous in-silico study on wheat showing the role of DREB1 in drought stress resilience" is likely inaccurate and is not supported by a comprehensive literature review in the manuscript.
+- The conclusion that "enhancement of TaDREB1 gene expression in wheat with specific modifications can improve drought stress tolerance" is a speculative leap from the descriptive data presented.
+- The biological significance of the predicted DREB1-peroxidase interaction is not established; the manuscript does not provide evidence that these two proteins are co-expressed or functionally linked in vivo.

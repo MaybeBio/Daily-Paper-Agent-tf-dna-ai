@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, tables, or supporting data were provided for evaluation
+- **Shared manuscript claim summary** The authors investigate how solvation thermodynamic potentials vary as proteins adopt different conformations, specifically comparing binding cavities from molecular dynamics simulations with mobile side chains versus side chains restrained about their cognate bound structure. They report that side chain reorganization significantly affects binding site solvation structure and thermodynamics, and that in the vast majority of cases there is a significant solvation free energetic cost to forming cognate ligand bound structures in the absence of the ligand. They discuss implications for discovering alternative binding pockets, estimating water displacement contributions to binding affinity, and assessing cryptic pocket bindability.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical results were provided
+- **Missing materials affecting confidence** Full manuscript text, methods description, simulation details, force field parameters, system definitions, all figures and tables, quantitative results, statistical analyses, and any discussion of limitations or caveats
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and timely investigation linking solvation thermodynamics to protein conformational flexibility, an area that has received limited attention. The central finding, that forming cognate bound conformations in the absence of ligand carries a solvation free energetic cost in most cases, is plausible and could be of practical relevance to structure-based drug design. However, the abstract alone provides insufficient detail to evaluate the rigor of the computational approach, the statistical significance of the reported trends, the generality of the conclusions across protein systems, or the practical utility of the proposed framework. The claims are broad relative to the evidence presented in the abstract, and several key methodological and interpretive questions cannot be assessed from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists working on solvation thermodynamics, molecular dynamics simulations of proteins, and structure-based drug design would be the primary audience. Researchers interested in cryptic pocket discovery, water mapping approaches, and the thermodynamic basis of ligand binding would also find the results relevant. The work could inform practical decisions about which protein conformations to target in virtual screening campaigns and how to interpret water displacement contributions to binding affinity.
+- **Major strengths** The topic addresses a genuine gap in the field, namely the integration of solvation thermodynamics with conformational sampling. The central question, whether forming cognate bound conformations in the absence of ligand carries a solvation penalty, is well posed and potentially impactful. The proposed applications to cryptic pocket assessment and water displacement energetics are relevant to ongoing efforts in drug discovery.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that side chain reorganization has a significant effect on the structure and thermodynamics of binding site solvation, and that in the vast majority of cases there is a significant solvation free energetic cost to forming cognate ligand bound structures when the ligand is absent.
+  - **Evidence pointer** Abstract only; no methods, figures, or tables provided
+  - **Concern** The abstract provides no methodological details about how solvation thermodynamic potentials were computed, which solvation model or theory was used, how the molecular dynamics simulations were performed, what force field was employed, how many protein systems were studied, or how statistical significance was assessed. Without this information, the reliability of the reported solvation free energy calculations cannot be evaluated. Solvation thermodynamic quantities are notoriously sensitive to methodological choices, including the choice of solvent model, the treatment of long range electrostatics, and the convergence of the simulations.
+  - **Why it matters** The central claims of the abstract rest entirely on the accuracy and convergence of the solvation thermodynamic calculations. If the methodology is not robust, the reported trends could be artifacts of the computational approach rather than genuine physical effects. The claim that a solvation cost exists in the vast majority of cases requires both a sufficiently large and diverse test set and appropriate statistical treatment, neither of which can be assessed from the abstract.
+  - **Resolution test** The full manuscript must provide a detailed description of the solvation thermodynamic methodology, including validation against experimental or high level computational benchmarks, convergence criteria, and error estimates. The number and diversity of protein systems must be stated, and the statistical significance of the reported trends must be demonstrated with appropriate tests. If the methodology is standard and well validated, and the statistical analysis is sound, this concern could be resolved.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that understanding the interplay between solvation thermodynamics and protein structural fluctuations is crucial for discovering alternative binding pockets, estimating the contribution to binding affinity of displacing water upon ligand binding, and assessing revealed cryptic pocket bindability.
+  - **Evidence pointer** Abstract only; no results connecting the findings to these applications were provided
+  - **Concern** The abstract asserts that the findings are crucial for three practical applications, but no evidence is presented that the proposed framework actually improves performance in any of these areas. The connection between the reported solvation costs and the ability to discover alternative binding pockets or assess cryptic pocket bindability is asserted rather than demonstrated. It is unclear whether the solvation cost metric has any predictive power for these applications beyond what existing methods already provide.
+  - **Why it matters** The broader significance of the work depends on whether the proposed framework offers practical advantages over existing approaches. If the solvation cost metric does not actually help in pocket discovery or bindability assessment, the work reduces to a descriptive study of solvation thermodynamics in conformational ensembles, which would be of more limited interest.
+  - **Resolution test** The full manuscript must include concrete demonstrations or at least well reasoned arguments, supported by data, that the solvation thermodynamic framework provides useful information for at least one of the claimed applications. Comparative analyses against existing methods would strengthen the case. If such demonstrations are absent, the claims should be appropriately moderated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The authors imply that solvation thermodynamics has typically not been integrated into the exploration of alternate protein conformations, positioning their work as addressing this gap.
+  - **Evidence pointer** Abstract only; no literature context provided
+  - **Concern** The abstract does not provide sufficient context to assess the novelty of the approach relative to existing literature. Water mapping methods, solvation thermodynamic analyses of binding sites, and conformational sampling studies are all active areas of research. It is unclear whether the specific combination of approaches presented here is genuinely novel or whether it represents an incremental extension of existing work.
+  - **Why it matters** The novelty of the contribution is a key criterion for assessing the significance of the work. If similar analyses have been reported previously, the claims of novelty would need to be moderated and the specific advances clearly delineated.
+  - **Resolution test** The full manuscript must include a thorough literature review that situates the work within existing studies on solvation thermodynamics and conformational flexibility. The specific novel contributions must be clearly articulated relative to prior work. If the approach is indeed novel, this concern would be resolved.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The term "cognate binding site formation" in the title and the phrase "cognate ligand bound structures" in the abstract may be unclear to readers outside the immediate field. The concept of forming a bound conformation in the absence of the ligand is central to the work but is not explained in accessible terms.
+  - **Required correction** Define or rephrase these terms in the abstract to make the central concept accessible to a broader readership, for example by explaining that the authors study the solvation properties of protein conformations that match the ligand bound state but are sampled without the ligand present.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Claim of generality
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract states that the solvation cost is observed in the vast majority of cases, but no information is provided about the number or diversity of protein systems studied. The phrase "vast majority" is vague and could encompass a wide range of outcomes.
+  - **Required Correction** Provide the number of systems studied and a quantitative statement of the fraction of cases showing the reported effect, along with a measure of statistical uncertainty.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion of implications
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract mentions three potential applications but does not indicate which, if any, are demonstrated in the manuscript versus proposed as future directions.
+  - **Required Correction** Clarify in the abstract which applications are supported by results presented in the manuscript and which are speculative or future work.
+
+## Risk / unsupported claims
+- The claim that solvation thermodynamics has typically not been integrated into the exploration of alternate protein conformations is unverifiable from the abstract alone and requires literature support.
+- The claim that side chain reorganization has a significant effect on solvation structure and thermodynamics is plausible but cannot be evaluated without methodological details and quantitative results.
+- The claim that there is a significant solvation free energetic cost to forming cognate bound structures in the vast majority of cases is unsupported without information on system count, diversity, and statistical analysis.
+- The claim that the findings are crucial for the three stated applications is asserted without supporting evidence in the abstract.
+- All quantitative results, including the magnitude of the reported solvation costs, are not provided and therefore cannot be assessed.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report an integrative computational pipeline to screen missense mutations in BRCA1 affecting the BRCA1-BARD1 protein-protein interface, identifying V11G, M18K, L22S, and T97R as significant, with V11G showing the most destabilizing effects based on docking scores and molecular dynamics simulations.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, docking score tables, MD simulation trajectories, statistical analyses, sequence conservation data, pathogenicity prediction details, and any validation or comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful computational screening approach for prioritizing BRCA1 mutations affecting the BRCA1-BARD1 interaction. However, the evidence presented is insufficient to fully evaluate the robustness of the pipeline, the statistical significance of the findings, or the biological relevance of the identified mutations. The claims are plausible but not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in cancer genetics, structural biology, and computational biology, particularly those studying BRCA1 function, protein-protein interaction prediction, and variant interpretation for clinical or functional studies. The approach could inform prioritization of variants for experimental validation.
+- **Major strengths** The study addresses a clinically relevant question with a clear computational workflow. The integration of multiple computational tools (pathogenicity, stability, conservation, docking, MD) is a reasonable strategy. The identification of specific mutations in the PPI interface provides a focused set for further investigation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that V11G, M18K, L22S, and T97R are "the most significant mutations" influencing PPI, based on screening 2118 missense mutations.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The criteria for selecting these four mutations from 2118 screened variants are not described. No thresholds, scoring metrics, or ranking methodology are provided. It is unclear whether these mutations were selected based on combined scores, individual criteria, or a subjective cutoff.
+  - **Why it matters** Without transparent selection criteria, the claim of "most significant" cannot be evaluated or reproduced. The choice of mutations directly determines the validity of all downstream analyses.
+  - **Resolution test** Provide a detailed description of the screening pipeline, including all tools used, their parameters, and the exact decision rules or thresholds for selecting the four mutations. Ideally, include a supplementary table ranking all 2118 mutations with their scores.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that the native complex showed the highest binding score (2118.613) and V11G the lowest (1992.949), with the other three mutations in between.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** Only two binding scores are reported. The scores for M18K, L22S, and T97R are not given, and no statistical analysis (e.g., error estimates, significance testing) is mentioned. ZDOCK scores are known to have variability depending on input structures and parameters.
+  - **Why it matters** The claim that V11G is the most destabilizing relies on a single docking score without uncertainty quantification. The difference between 2118.613 and 1992.949 may or may not be meaningful without error bars or replicate runs.
+  - **Resolution test** Report all docking scores with standard deviations or confidence intervals, and perform statistical comparison (e.g., t-test or ANOVA) between native and mutant complexes. If replicates were not performed, acknowledge this limitation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that MD simulations showed "highest deviation with lowest compactness and a decrease in the intramolecular h-bonds" for the V11G mutant.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative values are provided for RMSD, Rg, or hydrogen bond counts. No simulation length, force field, water model, or equilibration protocol is described. It is unclear whether the observed differences are statistically significant or within normal fluctuation ranges.
+  - **Why it matters** MD simulation results are highly dependent on simulation setup and analysis choices. Without quantitative data and statistical assessment, the claim of altered binding patterns is not substantiated.
+  - **Resolution test** Provide MD simulation details (length, ensemble, force field, etc.) and report mean and standard deviation of RMSD, Rg, and hydrogen bond numbers for all systems, with statistical tests comparing mutant to native.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "integrative computational pipeline" but does not list the specific tools used for pathogenicity, stability, and conservation analysis.
+  - **Required correction** Specify all software and databases used (e.g., SIFT, PolyPhen, I-Mutant, ConSurf) in the abstract or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Mutation coverage
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states "none in BARD1" mutations were screened, but it is unclear whether BARD1 mutations were excluded by design or because none were found in the database.
+  - **Required correction** Clarify whether BARD1 mutations were intentionally excluded or if the screening was limited to BRCA1 only.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** Biological relevance
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not discuss whether the identified mutations have been reported in cancer patients or have known clinical significance.
+  - **Required correction** Add a sentence on whether these mutations are known in ClinVar or COSMIC, and their potential clinical relevance.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (selection criteria), R1-M2 (docking score statistics), R1-M3 (MD simulation quantification)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The combination of tools is not novel, but the specific application to BRCA1-BARD1 with a comprehensive screen may offer incremental value.
+  - Scientific importance: Moderate. BRCA1 mutations are clinically relevant, but the abstract does not demonstrate that the findings advance understanding beyond existing computational studies.
+  - Interdisciplinary readership: Limited. The work is primarily of interest to computational biologists and cancer geneticists; broader appeal is not evident from the abstract.
+  - Technical soundness: Not established. Key methodological details and statistical analyses are missing.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon (e.g., "intramolecular h-bonds") without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible workflow but lacks the quantitative detail and statistical rigor needed to support the central claims. Supportive if the technical concerns are resolved with full data and methods.
+
+## Risk / unsupported claims
+- The claim that V11G, M18K, L22S, and T97R are "the most significant mutations" is unsupported without selection criteria.
+- The claim that V11G shows the "least binding score" is unsupported without scores for all mutants and statistical analysis.
+- The claim of "highest deviation with lowest compactness and a decrease in the intramolecular h-bonds" is unsupported without quantitative MD data.
+- The biological or clinical significance of the identified mutations is not addressed and cannot be evaluated from the abstract.

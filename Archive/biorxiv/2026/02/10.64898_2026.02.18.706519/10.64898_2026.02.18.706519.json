@@ -1,0 +1,180 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.18.706519",
+  "title": "EchoVisuALL: From Echocardiography to Gene Discovery",
+  "doi": "10.64898/2026.02.18.706519",
+  "abstract": "Cardiovascular diseases are a major global health burden, demanding phenotyping frame-works that can match the scale and complexity of contemporary mouse genetics. Here, we introduce EchoVisuALL, an AI-enabled pipeline for automated high-throughput transthoracic echocardiography (TTE) coupling deep-learning-based left-ventricular segmentation with data reporting. Across 65,000 recordings from over 18,000 mice, including single-gene knockouts from the International Mouse Phenotyping Consortium, the framework quantified cardiac morphology and function with minimal operator dependency and high reliability, validated against an expert-curated gold standard dataset. By extracting quantitative parameters across the cardiac cycle, EchoVisuALL in combination with multi-dimensional clustering uncovered nonlinear phenotypic relationships and revealed 37 of 715 genes associated with significant cardiac abnormalities, encompassing well-known human disease genes as well as 12 previously unrecognized candidates, including Cep70, Acot12, Atp8b3, Eea1, Kctd2 , and Tspan15 . These genotype-phenotype associations are involved in myocardial energetics, membrane biology, and cardiac remodeling. We demonstrate the potential of EchoVisuALL to move beyond image segmentation by delivering a standardized, quantitative foundation for scalable downstream analyses, enabling the discovery of novel cardiac disease genes.",
+  "authors": [
+    "Galter I",
+    "Schneltzer E",
+    "Marr C",
+    "Spielmann N",
+    "Hrabě de Angelis M"
+  ],
+  "published_date": "2026-02-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.18.706519",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.18.706519.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1223225",
+    "raw_record": {
+      "id": "PPR1223225",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1223225"
+        ]
+      },
+      "doi": "10.64898/2026.02.18.706519",
+      "title": "EchoVisuALL: From Echocardiography to Gene Discovery",
+      "authorString": "Galter I, Schneltzer E, Marr C, Spielmann N, Hrabě de Angelis M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Galter I",
+            "lastName": "Galter",
+            "firstName": "Isabella",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Experimental Genetics, Helmholtz Munich, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schneltzer E",
+            "lastName": "Schneltzer",
+            "firstName": "Elida",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Experimental Genetics, Helmholtz Munich, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marr C",
+            "lastName": "Marr",
+            "firstName": "Carsten",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of AI for Health, Helmholtz Munich, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spielmann N",
+            "lastName": "Spielmann",
+            "firstName": "Nadine",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Experimental Genetics, Helmholtz Munich, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hrabě de Angelis M",
+            "lastName": "Hrabě de Angelis",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Experimental Genetics, Helmholtz Munich, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Cardiovascular diseases are a major global health burden, demanding phenotyping frame-works that can match the scale and complexity of contemporary mouse genetics. Here, we introduce EchoVisuALL, an AI-enabled pipeline for automated high-throughput transthoracic echocardiography (TTE) coupling deep-learning-based left-ventricular segmentation with data reporting. Across 65,000 recordings from over 18,000 mice, including single-gene knockouts from the International Mouse Phenotyping Consortium, the framework quantified cardiac morphology and function with minimal operator dependency and high reliability, validated against an expert-curated gold standard dataset. By extracting quantitative parameters across the cardiac cycle, EchoVisuALL in combination with multi-dimensional clustering uncovered nonlinear phenotypic relationships and revealed 37 of 715 genes associated with significant cardiac abnormalities, encompassing well-known human disease genes as well as 12 previously unrecognized candidates, including  Cep70, Acot12, Atp8b3, Eea1, Kctd2 , and  Tspan15 . These genotype-phenotype associations are involved in myocardial energetics, membrane biology, and cardiac remodeling. We demonstrate the potential of EchoVisuALL to move beyond image segmentation by delivering a standardized, quantitative foundation for scalable downstream analyses, enabling the discovery of novel cardiac disease genes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.02.18.706519"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1223225"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1223225&type=FILE&fileName=EMS215569-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215569",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-02-19",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract
+- **Shared manuscript claim summary** The authors report that the USP25 catalytic domain binds directly to the KEAP1 Kelch domain with high affinity, that a non-canonical ETGQ motif in USP25 is required and sufficient for this binding, that this motif explains why USP28 does not regulate the KEAP1-NRF2 axis, and that the findings provide a structural framework for designing protein-protein interaction inhibitors for oxidative stress-related diseases.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, all experimental data, structural models, statistical analyses, and methodological details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting molecular interaction study with clear translational implications. However, the evidence base available for review is limited to the abstract, which precludes independent verification of the central claims. The identification of a non-canonical ETGQ motif and the functional divergence from USP28 are notable, but several claims require scrutiny of primary data that are not accessible here.
+- **Who would be interested in the results, and why** Researchers in redox biology, ubiquitin signaling, and structural biology would be interested. The KEAP1-NRF2 axis is central to antioxidant responses, and defining a new binding interface could inform therapeutic strategies for oxidative stress-related diseases. The USP25-USP28 functional divergence also bears on deubiquitinase specificity, relevant to drug development efforts targeting DUBs.
+- **Major strengths** The study addresses a clear gap in understanding the molecular basis of USP25-KEAP1 interaction. The combination of biophysical methods (gel filtration, ITC), mutational analysis, and AlphaFold 3 modeling is appropriate for characterizing a protein-protein interface. The claim of a non-canonical motif and the comparative analysis with USP28 add conceptual novelty.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract states that the ETGQ motif is "required and sufficient" for binding to the Kelch beta-propeller.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of sufficiency is strong and typically requires demonstration that the motif alone, in isolation or transplanted into a non-binding context, can confer binding. The abstract does not specify whether such experiments were performed, nor does it provide quantitative binding data (e.g., Kd values from ITC) to support the "high affinity" descriptor.
+  - **Why it matters** Sufficiency claims are central to the mechanistic conclusion. Without explicit evidence that the motif alone drives binding, the conclusion that this motif defines the interface is not fully established. The "high affinity" claim also requires numerical support to be meaningful.
+  - **Resolution test** Provide ITC-derived Kd values for the USP25-KEAP1 interaction and for mutants or minimal constructs containing the ETGQ motif. Show that a peptide or chimeric protein bearing the ETGQ motif binds Kelch, while a version lacking it does not.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The abstract states that "because of this interaction, the closely related homolog USP28 does not regulate the KEAP1-NRF2 axis."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The causal link between the absence of the ETGQ motif in USP28 and its lack of KEAP1 regulation is asserted but not demonstrated in the abstract. It is unclear whether USP28 was tested for KEAP1 binding or NRF2 axis regulation, and whether the difference is solely attributable to the motif or to other sequence or structural differences.
+  - **Why it matters** This claim extends the mechanistic finding to a comparative evolutionary and functional conclusion. If not supported by direct experiments, it remains speculative and could mislead interpretations of DUB functional divergence.
+  - **Resolution test** Show experimental data comparing USP28 and USP25 binding to KEAP1, and demonstrate that introducing the ETGQ motif into USP28 confers binding or that removing it from USP25 abolishes binding and downstream effects on NRF2.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validity
+  - **Claim pointer** The abstract states that "AlphaFold 3 structural modeling and structure-guided mutagenesis show that this ETGQ motif is required and sufficient for binding."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** AlphaFold 3 predictions are computational and require experimental validation. The abstract does not specify the confidence metrics (e.g., pLDDT, PAE) or whether the predicted interface was validated by co-crystallography, cross-linking, or other orthogonal biophysical methods. The phrase "structure-guided mutagenesis" implies experimental support, but the extent and rigor of that validation are not assessable from the abstract.
+  - **Why it matters** Structural claims underpin the entire mechanistic narrative. If the model is not robustly validated, the proposed interface and the design implications for inhibitors are on uncertain footing.
+  - **Resolution test** Provide validation data such as co-crystal structure, mutagenesis scanning across the interface, or hydrogen-deuterium exchange mass spectrometry. Report AlphaFold confidence scores and show that mutations predicted to disrupt the interface abolish binding in vitro and in cells.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "simple sequence searching" is vague and does not convey the methodology used to identify the ETGQ motif.
+  - **Required correction** Specify the search strategy, such as sequence alignment against known Kelch-binding motifs or motif scanning tools, to allow reproducibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Binding affinity
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "high affinity" is used without numerical values.
+  - **Required correction** Report the dissociation constant (Kd) from ITC measurements in the abstract or indicate that values are provided in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope of claims
+  - **Affected element** Therapeutic implications
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that the findings provide a "clear structural framework" for inhibitor design is forward-looking but not substantiated by any functional or pharmacological data in the abstract.
+  - **Required correction** Soften the claim to indicate that the structure provides a basis for future inhibitor design, or cite preliminary inhibitor or cellular data if available.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The sufficiency claim, the causal link to USP28, and the structural model validation are all central and currently not verifiable from the abstract alone.
+- **Assessment against Nature-style criteria** Originality: The non-canonical ETGQ motif and the USP25-USP28 divergence are conceptually novel, though the abstract does not fully distinguish this from prior knowledge of Kelch-binding motifs. Scientific importance: The KEAP1-NRF2 axis is a major pathway, and a new binding interface has potential significance, but the impact depends on the robustness of the structural and functional evidence. Interdisciplinary readership: The topic bridges structural biology, redox signaling, and drug discovery, which could attract broad interest. Technical soundness: The methods listed are appropriate, but the abstract does not provide enough detail to assess rigor. Readability for nonspecialists: The abstract is concise and accessible, though terms like "Kelch beta-propeller" and "deubiquitinase" may require background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting model, but the central claims of sufficiency, functional divergence, and structural validity require access to the full data. A supportive recommendation would be contingent on the primary evidence meeting the standards implied by the claims.
+
+## Risk / unsupported claims
+- The claim that the ETGQ motif is "sufficient" for binding is unsupported without explicit minimal-domain or transplantation experiments.
+- The causal statement that USP28 does not regulate KEAP1-NRF2 "because of" the absence of this interaction is unsupported without direct comparative data.
+- The "high affinity" descriptor is unquantified and therefore not assessable.
+- The structural model from AlphaFold 3 is presented as evidence without confidence metrics or orthogonal validation.
+- The therapeutic design implications are speculative in the absence of any functional or pharmacological data.

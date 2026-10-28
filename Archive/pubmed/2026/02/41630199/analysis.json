@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41630199",
+  "title": "Multi-omics integration and machine learning unveil FOXO3/SIRT1 axis as oxidative stress biomarkers and therapeutic targets in osteoporosis.",
+  "authors": "Zheng, Shang; Luo, Xingye; Chen, Guomin; Wang, Pingxi",
+  "journal": "Medicine",
+  "published_date": "2026-02-03",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 3,
+  "one_liner_zh": "该文通过多组学整合与机器学习识别骨质疏松中氧化应激相关基因FOXO3/SIRT1轴，虽涉及转录因子预测与分子对接，但核心是疾病生物标志物而非蛋白质-DNA互作机制建模，方法上仅用简单对接与网络分析，缺乏AI/物理模拟的深度互作研究。",
+  "abstract": "Osteoporosis (OP) is a degenerative skeletal disorder marked by a decrease in bone mineral density, which significantly raises the risk of fractures. The development of OP is closely associated with oxidative stress (OS), yet the specific molecular targets of OS in the context of OP, as well as the corresponding therapeutic strategies, are not well understood. This study aimed to systematically identify OS-related biomarkers for OP and explore potential therapeutic agents, providing new insights into the pathological mechanisms and precision therapy of OP. OP-related datasets (GSE56815 as the training set and GSE35958 as the validation set) were obtained from the gene expression omnibus database. Integrated with OS-related genes from GeneCards, 72 co-expressed differentially expressed genes associated with both OP and OS were identified. A protein-protein interaction network was constructed using search tool for the retrieval of interacting genes/proteins, and 9 hub genes were identified via Maximal Clique Centrality and MCODDE algorithms. Three core genes (SIRT2, neutrophil elastase [ELANE], and forkhead box O3 [FOXO3]) were further selected using random forest and support vector machine models. Diagnostic accuracy of key genes was evaluated by receiver operating characteristic curves. Immune infiltration analysis was performed with ImmuCellAI, while transcription factors were predicted through NetworkAnalyst to establish a miRNA-seed-transcription factor (TF) regulatory network. Potential drugs were screened from DGIdb, and molecular docking was conducted with CB-DOCK2 using ligand-protein structures from PubChem and UniProt. A FOXO3/sirtuin 1 (SIRT1) functional axis was subsequently constructed. The 72 differentially expressed genes showed enrichment in cell division, chromosome segregation, and cell cycle pathways. SIRT2, ELANE, and FOXO3 exhibited high diagnostic accuracy for OP (area under the curve > 0.7). Immune infiltration analysis revealed significant differences in key immune cells and subtypes between OP and controls. The miRNA-seed-TF network implicated miR-34a and miR-132. Molecular docking confirmed stable binding of 5 compounds to targets. Critically, the FOXO3-SIRT1 axis was identified as mediating oxidative stress in OP pathogenesis. FOXO3 and SIRT2 were upregulated; ELANE downregulated. This study identified SIRT2, ELANE, and FOXO3 as key OS-related biomarkers for OP and screened 5 potential therapeutic compounds. Integrating miRNA-TF network and drug sensitivity analysis, we propose the FOXO3/SIRT1 axis as central to OP oxidative stress, providing a foundation for mechanistic studies and targeted drug development.",
+  "abstract_zh": "骨质疏松症（OP）是一种退行性骨骼疾病，以骨矿物质密度降低为特征，显著增加骨折风险。OP的发生与氧化应激（OS）密切相关，然而，OS在OP中的具体分子靶点及相应的治疗策略尚不明确。本研究旨在系统识别OP中与OS相关的生物标志物，并探索潜在的治疗药物，为OP的病理机制和精准治疗提供新见解。从基因表达综合数据库获取OP相关数据集（GSE56815作为训练集，GSE35958作为验证集）。结合GeneCards中的OS相关基因，鉴定出72个与OP和OS均相关的共表达差异表达基因。利用检索相互作用基因/蛋白质的工具构建蛋白质-蛋白质相互作用网络，并通过最大团中心性和MCODDE算法识别出9个枢纽基因。使用随机森林和支持向量机模型进一步筛选出3个核心基因（SIRT2、中性粒细胞弹性蛋白酶[ELANE]和叉头框O3[FOXO3]）。通过受试者工作特征曲线评估关键基因的诊断准确性。使用ImmuCellAI进行免疫浸润分析，同时通过NetworkAnalyst预测转录因子，以建立miRNA-种子-转录因子（TF）调控网络。从DGIdb筛选潜在药物，并使用CB-DOCK2结合PubChem和UniProt的配体-蛋白质结构进行分子对接。随后构建了FOXO3/去乙酰化酶1（SIRT1）功能轴。72个差异表达基因在细胞分裂、染色体分离和细胞周期通路中富集。SIRT2、ELANE和FOXO3对OP表现出较高的诊断准确性（曲线下面积>0.7）。免疫浸润分析显示，OP与对照组之间在关键免疫细胞及其亚型方面存在显著差异。miRNA-种子-TF网络涉及miR-34a和miR-132。分子对接证实5种化合物与靶点稳定结合。关键的是，FOXO3-SIRT1轴被确定为介导OP发病机制中的氧化应激。FOXO3和SIRT2上调；ELANE下调。本研究将SIRT2、ELANE和FOXO3确定为OP的关键OS相关生物标志物，并筛选出5种潜在治疗化合物。结合miRNA-TF网络和药物敏感性分析，我们提出FOXO3/SIRT1轴是OP氧化应激的核心，为机制研究和靶向药物开发奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41630199/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41630199/",
+  "paper_page_path": "papers/pubmed/41630199/index.html"
+}

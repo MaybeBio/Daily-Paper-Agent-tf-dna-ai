@@ -1,0 +1,311 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.02.543382",
+  "title": "Antibody Complementarity-Determining Region Sequence Design using AlphaFold2 and Binding Affinity Prediction Model",
+  "doi": "10.1101/2023.06.02.543382",
+  "abstract": "Affinity maturation in the immune response is limited in terms of affinity gain, and natural antibodies often do not have the binding affinity required for therapeutic applications. Therefore, improving the binding affinity of antibodies is essential for developing antibody-based therapeutics. Designing antibodies using experimental methods is expensive in terms of cost and time owing to the large range of complementarity-determining regions to be explored. Recently, computational methods have been developed as low-cost and fast means of designing and redesigning antibodies. This study evaluated the design performance of AlphaFold2 and the binder hallucination, which can predict protein 3D structures with high accuracy even without experimental antibodies, by redesigning antibody sequences to improve the binding affinity of existing antigen-antibody complexes. Therefore, antibody sequences with higher affinity can be designed for antigen-antibody complexes not included in the training data of AlphaFold2, indicating that the proposed method may be effective as an antibody design method.",
+  "authors": [
+    "Takafumi Ueki",
+    "Masahito Ohue"
+  ],
+  "published_date": "2023-06-06",
+  "updated_date": "2023-06-06T17:31:39Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.02.543382",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.02.543382.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:47:52Z",
+        "timestamp": 1768506472521,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            6
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 20,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Affinity maturation in the immune response is limited in terms of affinity gain, and natural antibodies often do not have the binding affinity required for therapeutic applications. Therefore, improving the binding affinity of antibodies is essential for developing antibody-based therapeutics. Designing antibodies using experimental methods is expensive in terms of cost and time owing to the large range of complementarity-determining regions to be explored. Recently, computational methods have been developed as low-cost and fast means of designing and redesigning antibodies. This study evaluated the design performance of AlphaFold2 and the binder hallucination, which can predict protein 3D structures with high accuracy even without experimental antibodies, by redesigning antibody sequences to improve the binding affinity of existing antigen-antibody complexes. Therefore, antibody sequences with higher affinity can be designed for antigen-antibody complexes not included in the training data of AlphaFold2, indicating that the proposed method may be effective as an antibody design method.</jats:p>",
+      "DOI": "10.1101/2023.06.02.543382",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            6
+          ]
+        ],
+        "date-time": "2023-06-06T17:31:39Z",
+        "timestamp": 1686072699000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Antibody Complementarity-Determining Region Sequence Design using AlphaFold2 and Binding Affinity Prediction Model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Takafumi",
+          "family": "Ueki",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0120-1643",
+          "authenticated-orcid": false,
+          "given": "Masahito",
+          "family": "Ohue",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023061008250958000_2023.06.02.543382v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.BEJ.2018.06.003"
+        },
+        {
+          "issue": "4",
+          "key": "2023061008250958000_2023.06.02.543382v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "55",
+          "DOI": "10.3390/antib8040055",
+          "article-title": "“Antibody structure and function: the basis for engineering therapeutics",
+          "volume": "8",
+          "year": "2019",
+          "journal-title": "Antibodies"
+        },
+        {
+          "key": "2023061008250958000_2023.06.02.543382v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.92.5.1254"
+        },
+        {
+          "key": "2023061008250958000_2023.06.02.543382v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1074-7613(00)80580-4"
+        },
+        {
+          "issue": "12",
+          "key": "2023061008250958000_2023.06.02.543382v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "1315",
+          "DOI": "10.1038/s41592-019-0598-1",
+          "article-title": "“Unified rational protein engineering with sequence-based deep representation learning",
+          "volume": "16",
+          "year": "2019",
+          "journal-title": "Nat. Methods"
+        },
+        {
+          "key": "2023061008250958000_2023.06.02.543382v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-20241-w"
+        },
+        {
+          "issue": "1",
+          "key": "2023061008250958000_2023.06.02.543382v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "49",
+          "DOI": "10.1016/j.cels.2020.05.007",
+          "article-title": "“A generative neural network for maximizing fitness and diversity of synthetic DNA and protein sequences",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Cell Syst"
+        },
+        {
+          "key": "2023061008250958000_2023.06.02.543382v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "issue": "7889",
+          "key": "2023061008250958000_2023.06.02.543382v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "547",
+          "DOI": "10.1038/s41586-021-04184-w",
+          "article-title": "“De novo protein design by deep network hallucination",
+          "volume": "600",
+          "year": "2021",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2023061008250958000_2023.06.02.543382v1.10",
+          "unstructured": "sokrypton, “AfDesign,” 2023, https://github.com/sokrypton/ColabDesign/tree/main/af."
+        },
+        {
+          "key": "2023061008250958000_2023.06.02.543382v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Kosugi and M. Ohue , “Solubility-aware protein binding peptide design using AlphaFold,” Biomedicines, vol. 10, no. 7, 2022.",
+          "DOI": "10.3390/biomedicines10071626"
+        },
+        {
+          "key": "2023061008250958000_2023.06.02.543382v1.12",
+          "unstructured": "sokrypton, “af/readme.md,” 2023, https://github.com/sokrypton/ColabDesign/blob/main/af/README.md."
+        },
+        {
+          "key": "2023061008250958000_2023.06.02.543382v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt473"
+        },
+        {
+          "issue": "7873",
+          "key": "2023061008250958000_2023.06.02.543382v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "590",
+          "DOI": "10.1038/s41586-021-03828-1",
+          "article-title": "“Highly accurate protein structure prediction for the human proteome",
+          "volume": "596",
+          "year": "2021",
+          "journal-title": "Nature"
+        },
+        {
+          "issue": "2",
+          "key": "2023061008250958000_2023.06.02.543382v1.15",
+          "first-page": "47",
+          "article-title": "“The trajectories of protein structure prediction before AlphaFold2 and the future",
+          "volume": "3",
+          "year": "2022",
+          "journal-title": "JSBi Bioinform. Rev"
+        },
+        {
+          "key": "2023061008250958000_2023.06.02.543382v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. P. Roney and S. Ovchinnikov , “State-of-the-art estimation of protein model accuracy using AlphaFold,” Phys. Rev. Lett., vol. 129(23), no. 238101, 2022.",
+          "DOI": "10.1103/PhysRevLett.129.238101"
+        },
+        {
+          "issue": "11",
+          "key": "2023061008250958000_2023.06.02.543382v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2122954119",
+          "DOI": "10.1073/pnas.2122954119",
+          "article-title": "“Deep learning guided optimization of human antibody against SARS-CoV-2 variants with broad neutralization",
+          "volume": "119",
+          "year": "2022",
+          "journal-title": "Proc. Natl. Acad. Sci"
+        },
+        {
+          "key": "2023061008250958000_2023.06.02.543382v1.18",
+          "unstructured": "HeliXonProtein, “DDG Predictor,” 2023, https://github.com/HeliXonProtein/binding-ddg-predictor."
+        },
+        {
+          "key": "2023061008250958000_2023.06.02.543382v1.19",
+          "article-title": "“Adam: A method for stochastic optimization",
+          "year": "2014",
+          "journal-title": "arXiv"
+        },
+        {
+          "key": "2023061008250958000_2023.06.02.543382v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(87)90412-8"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.06.02.543382",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:44:55Z",
+        "timestamp": 1768452295000
+      },
+      "score": 93.94806,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.06.02.543382"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            6
+          ]
+        ]
+      },
+      "references-count": 20,
+      "URL": "https://doi.org/10.1101/2023.06.02.543382",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35898303",
+  "title": "Decoding the Role of Epigenetics in Breast Cancer Using Formal Modeling and Machine-Learning Methods.",
+  "authors": "Asim, Ayesha; Kiani, Yusra Sajid; Saeed, Muhammad Tariq; Jabeen, Ishrat",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2022-07-29",
+  "window": {
+    "start": "2022-07-25",
+    "end": "2022-07-31"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用形式化建模和机器学习研究乳腺癌中DNMT1-RUNX3表观遗传调控网络及药物分类，但核心是基因调控网络而非蛋白质-DNA互作，且无TF-DNA结合建模或AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "Breast carcinogenesis is known to be instigated by genetic and epigenetic modifications impacting multiple cellular signaling cascades, thus making its prevention and treatments a challenging endeavor. However, epigenetic modification, particularly DNA methylation-mediated silencing of key TSGs, is a hallmark of cancer progression. One such tumor suppressor gene (TSG) RUNX3 (Runt-related transcription factor 3) has been a new insight in breast cancer known to be suppressed due to local promoter hypermethylation mediated by DNA methyltransferase 1 (DNMT1). However, the precise mechanism of epigenetic-influenced silencing of the RUNX3 signaling resulting in cancer invasion and metastasis remains inadequately characterized. In this study, a biological regulatory network (BRN) has been designed to model the dynamics of the DNMT1-RUNX3 network augmented by other regulators such as p21, c-myc, and p53. For this purpose, the Rene Thomas qualitative modeling was applied to compute the unknown parameters and the subsequent trajectories signified important behaviors of the DNMT1-RUNX3 network (i.e., recovery cycle, homeostasis, and bifurcation state). As a result, the biological system was observed to invade cancer metastasis due to persistent activation of oncogene c-myc accompanied by consistent downregulation of TSG RUNX3. Conversely, homeostasis was achieved in the absence of c-myc and activated TSG RUNX3. Furthermore, DNMT1 was endorsed as a potential epigenetic drug target to be subjected to the implementation of machine-learning techniques for the classification of the active and inactive DNMT1 modulators. The best-performing ML model successfully classified the active and least-active DNMT1 inhibitors exhibiting 97% classification accuracy. Collectively, this study reveals the underlined epigenetic events responsible for RUNX3-implicated breast cancer metastasis along with the classification of DNMT1 modulators that can potentially drive the perception of epigenetic-based tumor therapy.",
+  "abstract_zh": "已知乳腺癌的发生由影响多种细胞信号级联的遗传和表观遗传修饰所引发，因此使其预防和治疗成为一项艰巨的任务。然而，表观遗传修饰，特别是DNA甲基化介导的关键肿瘤抑制基因（TSG）沉默，是癌症进展的一个标志。其中一种肿瘤抑制基因RUNX3（Runt相关转录因子3）在乳腺癌中已成为新见解，已知其因DNA甲基转移酶1（DNMT1）介导的局部启动子高甲基化而受到抑制。然而，表观遗传影响下RUNX3信号沉默导致癌症侵袭和转移的精确机制仍未得到充分表征。在本研究中，设计了一个生物调控网络（BRN）来模拟DNMT1-RUNX3网络的动态，该网络由其他调控因子如p21、c-myc和p53增强。为此，应用了Rene Thomas定性建模来计算未知参数，随后的轨迹表明了DNMT1-RUNX3网络的重要行为（即恢复周期、稳态和分叉状态）。结果观察到，由于癌基因c-myc的持续激活伴随TSG RUNX3的持续下调，生物系统发生癌症转移。相反，在缺乏c-myc且TSG RUNX3激活的情况下实现了稳态。此外，DNMT1被认定为潜在的表观遗传药物靶点，可应用于机器学习技术以分类活性和非活性DNMT1调节剂。表现最佳的机器学习模型成功分类了活性和低活性DNMT1抑制剂，分类准确率达97%。总体而言，本研究揭示了导致RUNX3相关乳腺癌转移的表观遗传事件，以及DNMT1调节剂的分类，这可能推动基于表观遗传的肿瘤治疗的认识。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35898303/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35898303/",
+  "paper_page_path": "papers/pubmed/35898303/index.html"
+}

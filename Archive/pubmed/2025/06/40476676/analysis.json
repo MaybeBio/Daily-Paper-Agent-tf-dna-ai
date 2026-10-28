@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40476676",
+  "title": "Identification of macrophage-associated diagnostic biomarkers and molecular subtypes in gestational diabetes mellitus based on machine learning.",
+  "authors": "Wei, Kai; Yuan, Liyun; Ge, Yongsheng; Yu, Han; Zhao, Guoping; Zhang, Guoqing; Liu, Guohua",
+  "journal": "Artificial cells, nanomedicine, and biotechnology",
+  "published_date": "2025-06-06",
+  "window": {
+    "start": "2025-06-02",
+    "end": "2025-06-08"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究基于机器学习整合scRNA-seq和RNA-seq识别妊娠期糖尿病巨噬细胞相关诊断标志物，虽构建了TF-基因调控网络，但核心是疾病诊断分型而非蛋白质-DNA互作机制建模，方法上无AI/物理模拟的互作建模。",
+  "abstract": "Gestational diabetes mellitus (GDM) is a common metabolic disorder during pregnancy, involving multiple immune and inflammatory factors. Macrophages play a crucial role in its development. This study integrated scRNA-seq and RNA-seq data to explore macrophage-related diagnostic genes and GDM subtypes. For scRNA-seq data, cell clusters were annotated using the SingleR package and validated with marker gene expression profiles, while hdWGCNA analysis identified three gene modules related to macrophages. A diagnostic model for GDM derived from endothelial cell transcriptomes was constructed by employing a variety of machine learning ensemble algorithms, achieving an AUC of 0.887. The model identified five differentially expressed genes (ZEB2, MALAT1, HEBP1, AHSA1, and TTC3) as potential diagnostic biomarkers. The CB-DSNMF algorithm was proposed to identify two distinct GDM subtypes from RNA-seq data, revealing significant differences in biological behaviours. This algorithm outperformed other baselines in multiple clustering metrics. Mendelian randomisation analysis identified ZEB2 as a gene causally related to GDM risk. A transcription factor (TF)-gene regulatory network was constructed for these genes using the ENCODE database. The study highlights the importance of macrophages in GDM, provides a high-precision diagnostic model, and offers new insights into personalised treatment strategies, contributing to a better understanding of GDM pathophysiology.",
+  "abstract_zh": "妊娠期糖尿病（GDM）是妊娠期常见的代谢性疾病，涉及多种免疫和炎症因子。巨噬细胞在其发生发展中发挥关键作用。本研究整合了scRNA-seq和RNA-seq数据，以探索与巨噬细胞相关的诊断基因及GDM亚型。对于scRNA-seq数据，使用SingleR包对细胞簇进行注释，并通过标记基因表达谱进行验证，同时hdWGCNA分析识别出三个与巨噬细胞相关的基因模块。通过采用多种机器学习集成算法，构建了源自内皮细胞转录组的GDM诊断模型，其AUC达到0.887。该模型识别出五个差异表达基因（ZEB2、MALAT1、HEBP1、AHSA1和TTC3）作为潜在的诊断生物标志物。提出CB-DSNMF算法，从RNA-seq数据中识别出两种不同的GDM亚型，揭示其在生物学行为上的显著差异。该算法在多种聚类指标上优于其他基线方法。孟德尔随机化分析将ZEB2确定为与GDM风险存在因果关系的基因。利用ENCODE数据库为这些基因构建了转录因子（TF）-基因调控网络。本研究强调了巨噬细胞在GDM中的重要性，提供了高精度的诊断模型，并为个性化治疗策略提供了新见解，有助于更深入地理解GDM的病理生理机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40476676/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40476676/",
+  "paper_page_path": "papers/pubmed/40476676/index.html"
+}

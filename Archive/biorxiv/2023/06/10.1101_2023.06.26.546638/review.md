@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results and discussion, conclusion, computational methods, data availability statement, author contributions, funding sources, and supporting information list.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of conclusions relative to evidence presented, and alignment with Nature-style criteria. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors use computational methods (CAVER, fpocket, GOLD docking, MD simulations) to characterize how a C50 cis-1,4-polyisoprene model accesses the buried active site of LcpK30, identifying two dominant tunnels, two hydrophobic pockets, and two binding modes (extended and folded), with the extended mode proposed as catalytically relevant and consistent with experimental oligomer size distributions.
+- **Visible evidence base** Abstract, full introduction, results and discussion narrative, computational methods, data availability statement, and list of supporting figures and tables. No actual figures, tables, or supplementary data files were provided for direct inspection.
+- **Missing materials affecting confidence** All figures (Fig 1-5), all supporting figures (S1-S18), all supporting tables (S1-S8), and the underlying data files (docking poses, MD trajectories, tunnel/pocket calculations) are referenced but not available. This substantially limits independent verification of quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computationally intensive investigation of substrate access and binding in LcpK30, addressing a genuinely important question in enzymatic rubber degradation. The methodological pipeline is reasonable and the authors demonstrate awareness of the limitations of static structure analysis by incorporating MD simulations. However, the central claims regarding tunnel identity, pocket relevance, binding mode preference, and cleavage site prediction rest entirely on referenced figures and tables that were not accessible for review. The quantitative support for key conclusions, such as the dominance of van der Waals interactions (94% vs 6% electrostatic) and the agreement between predicted and experimental oligomer distributions, cannot be verified from the supplied material. The manuscript would benefit from clearer articulation of how the computational predictions could be experimentally tested, and from more explicit discussion of the uncertainties inherent in the docking and MD approaches for such a flexible substrate.
+- **Who would be interested in the results, and why** Researchers in enzymatic polymer degradation, particularly those studying rubber oxygenases and latex clearing proteins, would find the proposed access pathways and binding modes valuable for designing mutagenesis experiments. The work also has relevance for the broader community investigating how large, flexible, hydrophobic substrates reach buried active sites in oxidative enzymes. Computational enzymologists interested in substrate channel prediction and MD-based binding analysis may also find the methodological pipeline of interest.
+- **Major strengths** The study addresses a well-defined and important question that has been largely unexplored for LcpK30. The combination of static tunnel/pocket prediction with MD-based dynamic analysis is appropriate and strengthens the conclusions. The use of a substrate model with 10 isoprene units is a reasonable compromise between computational tractability and biological relevance. The identification of specific residues for future mutagenesis provides a clear path for experimental follow-up. The authors also appropriately acknowledge the need for conformational changes to accommodate the substrate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence availability and verifiability
+  - **Claim pointer** The manuscript claims identification of two dominant tunnels, two relevant hydrophobic pockets, two binding modes, and a cleavage site preference consistent with experimental data.
+  - **Evidence pointer** Figures 2-5, Supporting Figures S1-S18, Supporting Tables S1-S8, location not provided
+  - **Concern** All quantitative and qualitative results supporting the central claims are contained in figures and tables that were not provided for review. Without access to these materials, it is impossible to assess whether the tunnel rankings, pocket volumes, docking scores, MD convergence, contact frequencies, or cleavage site histograms actually support the stated conclusions. The claim of agreement with experimental oligomer distributions is particularly difficult to evaluate without seeing the actual predicted versus observed distributions.
+  - **Why it matters** The core scientific contribution of this manuscript is the specific computational prediction of how the substrate accesses and binds in LcpK30. If the underlying data are not available for scrutiny, the claims cannot be independently verified, which is essential for a computational study where methodological choices heavily influence outcomes.
+  - **Resolution test** Provide all figures and supporting information for review, or clearly indicate where these materials can be accessed. The quantitative claims should be traceable to specific data points in the provided figures and tables.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The manuscript states that the bonded model of heme with O2 bound was used to simulate the catalytically active state, and that the singlet spin state was chosen based on comparison to oxymyoglobin.
+  - **Evidence pointer** Computational methods, Molecular dynamics simulations section, location not provided
+  - **Concern** The choice of spin state and the bonded model for the heme-O2 complex is critical for the reliability of the MD simulations, yet no validation is presented. The authors state that the singlet spin state gave bond parameters closer to oxymyoglobin, but no comparison data are shown. Additionally, the manual placement of O2 and the lack of any discussion about the stability of the O2 binding during the simulations raises questions about whether the simulations truly represent a catalytically relevant state.
+  - **Why it matters** The entire binding mode analysis and cleavage site prediction depend on the accuracy of the heme-O2 model. If the model is not properly validated, the subsequent conclusions about substrate positioning and cleavage preferences may be artifacts of the model rather than genuine features of the enzyme.
+  - **Resolution test** Provide validation data for the heme-O2 model, including comparison of bond parameters to experimental structures, and demonstrate that O2 remains bound and correctly positioned throughout the MD simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical and sampling rigor
+  - **Claim pointer** The manuscript claims that MD simulations confirm the persistence of two dominant tunnels and two hydrophobic pockets, and that cleavage site preferences can be derived from distance histograms.
+  - **Evidence pointer** Results and discussion, Identification of tunnels and pockets section, and Molecular dynamics simulations section, location not provided
+  - **Concern** The manuscript does not report how many independent MD simulations were performed, whether the simulations converged, or how the distance histograms for cleavage site prediction were constructed and statistically analyzed. The claim that "4 out of the 6 folded conformations" had central C=C bonds in favorable positions suggests a small sample size, and it is unclear whether this is statistically meaningful. The analysis of tunnel persistence across MD snapshots also lacks details on how many snapshots were analyzed and how the clustering was performed.
+  - **Why it matters** For a computational study, the robustness of the conclusions depends on adequate sampling and statistical analysis. Without this information, it is unclear whether the observed binding modes and cleavage preferences are reproducible features or artifacts of limited sampling.
+  - **Resolution test** Report the number of independent simulations, convergence metrics, and statistical analysis of the distance histograms. Provide error estimates or confidence intervals for the cleavage site preferences.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental validation and predictive power
+  - **Claim pointer** The manuscript claims that the predicted cleavage site preference (central C=C bonds 5 and 6) agrees well with experimentally observed oligomer distributions produced by LcpK30.
+  - **Evidence pointer** Results and discussion, Molecular dynamics simulation section, and Figure 4, location not provided
+  - **Concern** The agreement with experimental data is stated but not demonstrated quantitatively. No experimental data are shown, and the comparison appears to be qualitative. It is unclear how the predicted cleavage frequencies were converted to predicted oligomer distributions, and whether the comparison accounts for the fact that the substrate model has only 10 isoprene units while the natural substrate is much larger.
+  - **Why it matters** The claim of agreement with experiment is a key piece of evidence for the validity of the computational approach. If this agreement is not rigorously demonstrated, the predictive power of the model remains unsubstantiated.
+  - **Resolution test** Provide a quantitative comparison between predicted and experimental oligomer distributions, including the methodology for converting cleavage frequencies to distributions and appropriate statistical measures of agreement.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, first sentence, location not provided
+  - **Issue** The abstract states that Lcps catalyze oxidative cleavage of C=C bonds in cis-1,4-polyisoprene, but does not specify the co-substrate (O2) or the product types beyond "oligomeric compounds." This is somewhat imprecise for a broad readership.
+  - **Required correction** Briefly mention the requirement for O2 and specify the functionalized oligoisoprenoid products in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Computational methods, Protein-ligand docking section
+  - **Evidence pointer** Computational methods, Protein-ligand docking section, location not provided
+  - **Issue** The manuscript states that the binding site was defined as residues within 10 or 15 Å from the heme iron, but does not specify how the docking search space was otherwise constrained or whether multiple docking runs were performed to ensure reproducibility.
+  - **Required correction** Provide details on the number of docking runs, the genetic algorithm settings, and any additional constraints applied to the search space.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Results and discussion, Molecular dynamics simulation section
+  - **Evidence pointer** Results and discussion, Molecular dynamics simulation section, location not provided
+  - **Issue** The manuscript states that the extended conformation is "more representative of a catalytically relevant pose" but also acknowledges that folded conformations had higher docking scores. The reasoning for prioritizing the extended conformation is not fully elaborated.
+  - **Required correction** Clarify the criteria used to judge catalytic relevance beyond proximity to O2, and discuss why the higher docking scores of folded conformations do not undermine the preference for the extended mode.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results and discussion, Identification of tunnels and pockets section
+  - **Evidence pointer** Results and discussion, Identification of tunnels and pockets section, location not provided
+  - **Issue** The manuscript mentions a water network occupying the tunnels and pockets but does not discuss whether this water is displaced upon substrate binding or how it affects the binding energetics.
+  - **Required correction** Briefly discuss the role of the water network in substrate binding and whether displacement of these waters contributes to the binding free energy.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (evidence availability) and R1-M2 (methodological validation) must be resolved before the central claims can be assessed. R1-M3 (statistical rigor) and R1-M4 (experimental comparison) are also important for establishing the robustness and predictive power of the conclusions.
+- **Assessment against Nature-style criteria** Originality: The question of how a large, flexible, hydrophobic polymer accesses a buried active site in LcpK30 is original and addresses a gap in the field. The use of a multi-tool computational pipeline is not entirely novel, but the specific application to LcpK30 with a realistic substrate model is a contribution. Scientific importance: The work has clear importance for understanding enzymatic rubber degradation and for guiding enzyme engineering efforts. However, the importance is somewhat limited by the lack of experimental validation within the manuscript itself. Interdisciplinary readership: The topic bridges enzymology, polymer science, and computational chemistry, and the findings could interest researchers in all three areas. The writing is generally accessible, though some computational details may be challenging for non-specialists. Technical soundness: The methodological choices are reasonable, but the lack of access to the actual data and the absence of validation for the heme model prevent a full assessment of technical soundness. Readability for nonspecialists: The abstract and introduction are clear, but the results section assumes familiarity with computational techniques. A brief explanation of key methods for a general audience would improve accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important question with a reasonable methodological approach, but the central claims cannot be verified without access to the figures, tables, and supporting data. The authors should be encouraged to resubmit with all data available for review, along with additional validation of the heme model and more rigorous statistical analysis of the simulation results.
+
+## Risk / unsupported claims
+- The claim that two dominant tunnels provide feasible routes for substrate binding is unsupported without the tunnel calculation results (Fig 2a, S1 Table, S2 Fig).
+- The claim that two hydrophobic pockets near the heme are likely to accommodate the substrate and determine oligomer size distribution is unsupported without pocket analysis results (Fig 2b, S5 Fig).
+- The claim that the extended conformation is more catalytically relevant is weakly supported by the narrative but requires the docking poses and MD data to be evaluated.
+- The claim that the predicted cleavage site preference agrees with experimental data is unsupported without a quantitative comparison.
+- The claim that van der Waals interactions dominate binding (94% vs 6% electrostatic) is unverifiable without the energy analysis data (S16 Fig).
+- The claim that the heme model accurately represents the catalytically active state is unverifiable without validation data.

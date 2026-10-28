@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41034896",
+  "title": "Unraveling the role of MAG, PTEN, and NOTCH1 in axonal regeneration: a network analysis and molecular dynamics study of siRNA/drugs/nanocarriers interactions.",
+  "authors": "Salimi, Alireza; Moeinafshar, Aysan; Rezvantalab, Sima; Dabiri, Mohammad; Rezaei, Nima; Beheshtizadeh, Nima",
+  "journal": "Journal of translational medicine",
+  "published_date": "2025-10-02",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究聚焦轴突再生中MAG/PTEN/NOTCH1蛋白与siRNA/药物/纳米载体的分子动力学模拟，虽涉及蛋白-配体互作，但对象非蛋白质-DNA互作体系，方法亦未涉及TF-DNA结合建模，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Axonal regeneration remains a critical yet challenging process in spinal cord injury (SCI) recovery, primarily due to the limited regenerative capacity of adult central nervous system (CNS) axons. Identifying key molecular targets and optimizing therapeutic delivery systems are promising strategies to enhance axonal regeneration. METHODS: In this study, we investigated the roles of three critical proteins-MAG, PTEN, and NOTCH1-in axonal regeneration through an integrative approach combining network analysis and molecular dynamics (MD) simulations. We compiled 361 regeneration-associated genes from the REGene database and a targeted PubMed literature review. Gene ontology enrichment analysis via DAVID identified key genes linked to axonal regeneration and oligodendrocyte differentiation. A protein-protein interaction (PPI) network was constructed to pinpoint hub genes, with Cytoscape used to assess degree, betweenness, and closeness centrality. The top-ranking genes across at least two centrality metrics were selected, and GeneMANIA validated their functional relevance, confirming MAG, PTEN, and NOTCH1 as negative regulators of regeneration. Using siDirect and siRNA Wizard, we designed siRNA molecules targeting these genes, while DGIdb and literature mining identified small-molecule drugs (e.g., GT1b for MAG, enzalutamide for PTEN). MD simulations explored their interactions with polymeric nanocarriers-PLGA, PEI, chitosan, and PEI-PEG-revealing distinct binding patterns. RESULTS: All proteins exhibited favorable binding with their respective drugs, with MAG-GT1b demonstrating the strongest affinity ( -146.07 +/- 61.63 kJ/mol). Free energy landscape (FEL) analysis of the MAG/GT1b complex revealed a pronounced global energy minimum at 20.6 kJ/mol, reflecting high-affinity binding. Among nanocarriers, chitosan showed strong siRNA interactions, whereas PLGA and PEI exhibited superior drug-binding properties, particularly for GT1b, as evidenced by lower solvent-accessible surface area (SASA) values, indicating tighter encapsulation. Notably, PLGA-based systems displayed a broader radius of gyration (Rg) distribution, attributed to their amphiphilic nature, which promotes rapid self-assembly into multiple dispersed nanocarriers rather than consolidated structures. Additionally, PLGA chains exhibited reduced average SASA values (40-90 nm(2)) compared to other polymers. CONCLUSIONS: The strongest siRNA interactions occurred between PTEN siRNA-enzalutamide and PLGA ( -107.31 kJ/mol) or PEI ( -87.15 kJ/mol), primarily driven by van der Waals forces. While these in silico findings are promising, preclinical validation is essential for clinical translation. This study highlights the potential of combining network analysis and MD simulations to decipher complex interactions among proteins, siRNA, drugs, and polymers, offering novel insights into therapeutic strategies for SCI.",
+  "abstract_zh": "背景：轴突再生仍然是脊髓损伤（SCI）恢复中一个关键且具有挑战性的过程，主要归因于成年中枢神经系统（CNS）轴突有限的再生能力。识别关键分子靶点并优化治疗递送系统是增强轴突再生的有前景策略。方法：在本研究中，我们通过整合网络分析和分子动力学（MD）模拟的方法，探讨了三种关键蛋白——MAG、PTEN和NOTCH1——在轴突再生中的作用。我们从REGene数据库和针对性的PubMed文献综述中汇编了361个再生相关基因。通过DAVID进行的基因本体富集分析识别了与轴突再生和少突胶质细胞分化相关的关键基因。构建了蛋白质-蛋白质相互作用（PPI）网络以定位枢纽基因，并使用Cytoscape评估度、介数中心性和接近中心性。选择在至少两个中心性指标中排名靠前的基因，并通过GeneMANIA验证其功能相关性，确认MAG、PTEN和NOTCH1为再生的负调控因子。使用siDirect和siRNA Wizard，我们设计了靶向这些基因的siRNA分子，同时通过DGIdb和文献挖掘识别了小分子药物（例如，针对MAG的GT1b，针对PTEN的恩杂鲁胺）。MD模拟探索了它们与聚合物纳米载体——PLGA、PEI、壳聚糖和PEI-PEG——的相互作用，揭示了不同的结合模式。结果：所有蛋白质均与其相应药物表现出有利的结合，其中MAG-GT1b显示出最强的亲和力（-146.07 +/- 61.63 kJ/mol）。MAG/GT1b复合物的自由能景观（FEL）分析揭示了一个在20.6 kJ/mol处的显著全局能量最小值，反映了高亲和力结合。在纳米载体中，壳聚糖显示出强的siRNA相互作用，而PLGA和PEI表现出优越的药物结合特性，特别是对GT1b，这通过较低的溶剂可及表面积（SASA）值得以证明，表明更紧密的封装。值得注意的是，基于PLGA的系统显示出更广泛的回转半径（Rg）分布，这归因于其两亲性，促进了快速自组装成多个分散的纳米载体，而非整合结构。此外，与其他聚合物相比，PLGA链表现出降低的平均SASA值（40-90 nm(2)）。结论：最强的siRNA相互作用发生在PTEN siRNA-恩杂鲁胺与PLGA（-107.31 kJ/mol）或PEI（-87.15 kJ/mol）之间，主要由范德华力驱动。尽管这些计算机模拟结果令人鼓舞，但临床转化仍需临床前验证。本研究强调了结合网络分析和MD模拟来解析蛋白质、siRNA、药物和聚合物之间复杂相互作用的潜力，为SCI的治疗策略提供了新的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41034896/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41034896/",
+  "paper_page_path": "papers/pubmed/41034896/index.html"
+}

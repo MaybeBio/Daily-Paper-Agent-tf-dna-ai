@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42682200",
+  "title": "Leveraging human-trained neural networks for cross-species chromatin regulation annotations.",
+  "authors": "Maillard, Noemien; Demars, Julie; Mourad, Raphael",
+  "journal": "G3 (Bethesda, Md.)",
+  "published_date": "2026-09-02",
+  "window": {
+    "start": "2026-08-31",
+    "end": "2026-09-06"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用人类训练的神经网络跨物种推断动物染色质注释，涉及TF结合预测，但非TF-DNA互作机制建模，方法可迁移至本课题。",
+  "abstract": "Analogous to the Encyclopedia of DNA Elements (ENCODE) project, the Functional Annotation of ANimal Genomes (FAANG) consortium has produced chromatin annotations for domesticated animals, albeit in smaller amounts. Although acquiring experimental data is more accessible and affordable for many species, human and mouse organisms will remain the reference. Classical methods based on sequence conservation can be used to infer missing annotations, but are inappropriate for non-conserved sequences. While regulatory sequences share low to moderate conservation, they have retained their regulatory function during the evolution process. Here, we take advantage of three neural networks (DeepBind, DeepSEA, and Enformer) trained with human and mouse ENCODE data to infer chromatin annotations (transcription factors binding, chromatin accessibility, and histone marks) in cattle, pig, chicken, and European seabass. For this purpose, we comprehensively assessed the quality of predictions using experimental data from FAANG, through AUC-ROC and AUC-PR metrics. Our results showed low variability between tissues and similar performances for various annotations in mammals and chicken, with AUC-PR ranging from 0.663 +/- 0.010 (chicken) to 0.765 +/- 0.009 (pig) for the best predicted experiment, H3K4me3 (all tissues grouped), but lower (0.238 +/- 0.005) in fish. Further analyses focused on pigs highlighted (i) accurate predictions even for non-conserved sequences, and (ii) variable predictions depending on genomic feature annotations. Our results advocate the widespread use of human-trained neural networks as a first step in cross-species genome annotation before training species-specific models.",
+  "abstract_zh": "类似于DNA元件百科全书（ENCODE）项目，动物基因组功能注释（FAANG）联盟已为家养动物生成了染色质注释，尽管数量较少。虽然对许多物种而言，获取实验数据更为便捷且成本较低，但人类和小鼠生物体仍将作为参考。基于序列保守性的经典方法可用于推断缺失的注释，但不适用于非保守序列。尽管调控序列具有低至中等的保守性，它们在进化过程中保留了其调控功能。在此，我们利用三个神经网络（DeepBind、DeepSEA和Enformer），这些网络使用人类和小鼠的ENCODE数据进行训练，以推断牛、猪、鸡和欧洲海鲈中的染色质注释（转录因子结合、染色质可及性和组蛋白标记）。为此，我们使用FAANG的实验数据，通过AUC-ROC和AUC-PR指标全面评估了预测质量。我们的结果显示，在哺乳动物和鸡中，不同组织间的变异性较低，且各种注释的性能相似，对于预测最佳的实验H3K4me3（所有组织合并），AUC-PR范围从0.663 +/- 0.010（鸡）到0.765 +/- 0.009（猪），但在鱼类中较低（0.238 +/- 0.005）。进一步针对猪的分析强调：（i）即使对于非保守序列也能准确预测，以及（ii）预测结果因基因组特征注释而异。我们的结果主张广泛使用人类训练的神经网络作为跨物种基因组注释的第一步，然后再训练物种特异性模型。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42682200/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42682200/",
+  "paper_page_path": "papers/pubmed/42682200/index.html"
+}

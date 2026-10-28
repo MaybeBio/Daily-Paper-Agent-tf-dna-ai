@@ -1,0 +1,452 @@
+{
+  "identity": {
+    "pmid": "33787284",
+    "doi": "10.1161/JAHA.120.019667",
+    "title": "Consensus Transcriptional Landscape of Human End-Stage Heart Failure."
+  },
+  "content": {
+    "abstract": "Background Transcriptomic studies have contributed to fundamental knowledge of myocardial remodeling in human heart failure (HF). However, the key HF genes reported are often inconsistent between studies, and systematic efforts to integrate evidence from multiple patient cohorts are lacking. Here, we aimed to provide a framework for comprehensive comparison and analysis of publicly available data sets resulting in an unbiased consensus transcriptional signature of human end-stage HF. Methods and Results We curated and uniformly processed 16 public transcriptomic studies of left ventricular samples from 263 healthy and 653 failing human hearts. First, we evaluated the degree of consistency between studies by using linear classifiers and overrepresentation analysis. Then, we meta-analyzed the deregulation of 14 041 genes to extract a consensus signature of HF. Finally, to functionally characterize this signature, we estimated the activities of 343 transcription factors, 14 signaling pathways, and 182 micro RNAs, as well as the enrichment of 5998 biological processes. Machine learning approaches revealed conserved disease patterns across all studies independent of technical differences. These consistent molecular changes were prioritized with a meta-analysis, functionally characterized and validated on external data. We provide all results in a free public resource (https://saezlab.shinyapps.io/reheat/) and exemplified usage by deciphering fetal gene reprogramming and tracing the potential myocardial origin of the plasma proteome markers in patients with HF. Conclusions Even though technical and sampling variability confound the identification of differentially expressed genes in individual studies, we demonstrated that coordinated molecular responses during end-stage HF are conserved. The presented resource is crucial to complement findings in independent studies and decipher fundamental changes in failing myocardium.",
+    "keywords": [
+      "consensus signature",
+      "heart failure",
+      "knowledge banks",
+      "machine learning",
+      "meta-analysis",
+      "transcriptomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Gene Expression Profiling/methods",
+      "*Heart Failure/genetics/metabolism/physiopathology",
+      "*Myocardium/metabolism",
+      "Signal Transduction",
+      "*Transcription Factors/genetics",
+      "*Transcriptome/genetics",
+      "Ventricular Remodeling/physiology",
+      "*Consensus Sequence/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramirez Flores, Ricardo O",
+        "Lanzer, Jan D",
+        "Holland, Christian H",
+        "Leuschner, Florian",
+        "Most, Patrick",
+        "Schultz, Jobst-Hendrik",
+        "Levinson, Rebecca T",
+        "Saez-Rodriguez, Julio"
+      ],
+      "short_names": [
+        "Ramirez Flores RO",
+        "Lanzer JD",
+        "Holland CH",
+        "Leuschner F",
+        "Most P",
+        "Schultz JH",
+        "Levinson RT",
+        "Saez-Rodriguez J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Faculty of Medicine, and Heidelberg University Hospital Institute for Computational Biomedicine Bioquant Heidelberg University Heidelberg Germany.",
+        "Faculty of Biosciences Heidelberg University Heidelberg Germany.",
+        "Informatics for Life Heidelberg Germany.",
+        "Faculty of Medicine, and Heidelberg University Hospital Institute for Computational Biomedicine Bioquant Heidelberg University Heidelberg Germany.",
+        "Faculty of Biosciences Heidelberg University Heidelberg Germany.",
+        "Informatics for Life Heidelberg Germany.",
+        "Department of General Internal Medicine and Psychosomatics Heidelberg University Hospital Heidelberg Germany.",
+        "Faculty of Medicine, and Heidelberg University Hospital Institute for Computational Biomedicine Bioquant Heidelberg University Heidelberg Germany.",
+        "Faculty of Biosciences Heidelberg University Heidelberg Germany.",
+        "Department of Cardiology Medical University Hospital Heidelberg Germany.",
+        "DZHK (German Centre for Cardiovascular Research), partner site Heidelberg/Mannheim Heidelberg Germany.",
+        "Department of Cardiology Medical University Hospital Heidelberg Germany.",
+        "DZHK (German Centre for Cardiovascular Research), partner site Heidelberg/Mannheim Heidelberg Germany.",
+        "Center for Translational Medicine Jefferson University Philadelphia PA.",
+        "Department of General Internal Medicine and Psychosomatics Heidelberg University Hospital Heidelberg Germany.",
+        "Informatics for Life Heidelberg Germany.",
+        "Department of General Internal Medicine and Psychosomatics Heidelberg University Hospital Heidelberg Germany.",
+        "Faculty of Medicine, and Heidelberg University Hospital Institute for Computational Biomedicine Bioquant Heidelberg University Heidelberg Germany.",
+        "Informatics for Life Heidelberg Germany.",
+        "Faculty of Medicine Joint Research Centre for Computational Biomedicine (JRC-COMBINE) RWTH Aachen University Aachen Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ramirez Flores, Ricardo O",
+        "short_name": "Ramirez Flores RO",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, and Heidelberg University Hospital Institute for Computational Biomedicine Bioquant Heidelberg University Heidelberg Germany.",
+          "Faculty of Biosciences Heidelberg University Heidelberg Germany.",
+          "Informatics for Life Heidelberg Germany."
+        ]
+      },
+      {
+        "full_name": "Lanzer, Jan D",
+        "short_name": "Lanzer JD",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, and Heidelberg University Hospital Institute for Computational Biomedicine Bioquant Heidelberg University Heidelberg Germany.",
+          "Faculty of Biosciences Heidelberg University Heidelberg Germany.",
+          "Informatics for Life Heidelberg Germany.",
+          "Department of General Internal Medicine and Psychosomatics Heidelberg University Hospital Heidelberg Germany."
+        ]
+      },
+      {
+        "full_name": "Holland, Christian H",
+        "short_name": "Holland CH",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, and Heidelberg University Hospital Institute for Computational Biomedicine Bioquant Heidelberg University Heidelberg Germany.",
+          "Faculty of Biosciences Heidelberg University Heidelberg Germany."
+        ]
+      },
+      {
+        "full_name": "Leuschner, Florian",
+        "short_name": "Leuschner F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology Medical University Hospital Heidelberg Germany.",
+          "DZHK (German Centre for Cardiovascular Research), partner site Heidelberg/Mannheim Heidelberg Germany."
+        ]
+      },
+      {
+        "full_name": "Most, Patrick",
+        "short_name": "Most P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology Medical University Hospital Heidelberg Germany.",
+          "DZHK (German Centre for Cardiovascular Research), partner site Heidelberg/Mannheim Heidelberg Germany.",
+          "Center for Translational Medicine Jefferson University Philadelphia PA."
+        ]
+      },
+      {
+        "full_name": "Schultz, Jobst-Hendrik",
+        "short_name": "Schultz JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Internal Medicine and Psychosomatics Heidelberg University Hospital Heidelberg Germany."
+        ]
+      },
+      {
+        "full_name": "Levinson, Rebecca T",
+        "short_name": "Levinson RT",
+        "identifiers": [],
+        "affiliations": [
+          "Informatics for Life Heidelberg Germany.",
+          "Department of General Internal Medicine and Psychosomatics Heidelberg University Hospital Heidelberg Germany."
+        ]
+      },
+      {
+        "full_name": "Saez-Rodriguez, Julio",
+        "short_name": "Saez-Rodriguez J",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medicine, and Heidelberg University Hospital Institute for Computational Biomedicine Bioquant Heidelberg University Heidelberg Germany.",
+          "Informatics for Life Heidelberg Germany.",
+          "Faculty of Medicine Joint Research Centre for Computational Biomedicine (JRC-COMBINE) RWTH Aachen University Aachen Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Heart Association"
+    ],
+    "journal_abbrev": [
+      "J Am Heart Assoc"
+    ],
+    "pub_date": "2021 Apr 6",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/01 06:00",
+    "fetched_at": "2026-09-27 15:17:55"
+  },
+  "links": {
+    "cites": [
+      "42362693",
+      "42090754",
+      "41539643",
+      "41173856",
+      "41063917",
+      "40933310",
+      "40859824",
+      "40615581",
+      "40446189",
+      "40335066",
+      "40276472",
+      "40182152",
+      "39905473",
+      "39763850",
+      "39333715",
+      "39311911",
+      "39196177",
+      "39051433",
+      "38943333",
+      "38766848",
+      "38529333",
+      "38506047",
+      "38163813",
+      "38111915",
+      "38077583",
+      "37991480",
+      "37762009",
+      "37488529",
+      "36749382",
+      "36454462",
+      "36345035",
+      "36325489",
+      "36201541",
+      "35926050",
+      "34897403",
+      "34558834"
+    ],
+    "refs": [
+      "36130500",
+      "32278008",
+      "31948008",
+      "31862877",
+      "31525460",
+      "31340985",
+      "31298559",
+      "31155234",
+      "30876857",
+      "30783653",
+      "30696809",
+      "30447998",
+      "30419824",
+      "30357387",
+      "29800107",
+      "29636450",
+      "29485202",
+      "29295995",
+      "28933783",
+      "28646030",
+      "28572508",
+      "28497843",
+      "28434088",
+      "28432635",
+      "28398307",
+      "27499035",
+      "27322546",
+      "26935038",
+      "26771021",
+      "26756417",
+      "26288364",
+      "26280121",
+      "25814686",
+      "25613900",
+      "25605792",
+      "25528681",
+      "24966838",
+      "24599027",
+      "24429688",
+      "24339868",
+      "24058762",
+      "24036209",
+      "23640964",
+      "23193258",
+      "23042661",
+      "22427379",
+      "21828333",
+      "20972220",
+      "20688976",
+      "20124440",
+      "19910308",
+      "19638707",
+      "18786563",
+      "17982005",
+      "17900369",
+      "17045896",
+      "16952980",
+      "16199517",
+      "16096348",
+      "16002056",
+      "15769906",
+      "15733902",
+      "12796126"
+    ],
+    "similar": [
+      "33787284",
+      "18780759",
+      "33106094",
+      "21828333",
+      "36448446",
+      "29288409",
+      "41173856",
+      "40182152",
+      "31683036",
+      "31582141",
+      "16236311",
+      "41789108",
+      "15718504",
+      "37830984",
+      "19638707",
+      "32664951",
+      "33491589",
+      "25236884",
+      "32885678",
+      "22085907",
+      "30419824",
+      "36345035",
+      "39774683",
+      "27884156",
+      "33118835",
+      "40335066",
+      "41252712",
+      "39441209",
+      "20460602",
+      "39351221",
+      "24429688",
+      "39445426",
+      "34088950",
+      "40149456",
+      "36865094",
+      "39357681",
+      "34218797",
+      "31298559",
+      "20219015",
+      "19783184",
+      "33259868",
+      "41310709",
+      "40405297",
+      "28497843",
+      "25159852",
+      "31885737",
+      "12429867",
+      "24219836",
+      "39351239",
+      "30901275",
+      "29438982",
+      "19061896",
+      "30090932",
+      "25725476",
+      "31083689",
+      "40662214",
+      "31933487",
+      "41120885",
+      "32638546",
+      "12920479",
+      "37275875",
+      "35000421",
+      "39679839",
+      "40276472",
+      "41507758",
+      "26093152",
+      "25865791",
+      "30978160",
+      "40617086",
+      "23143794",
+      "33472092",
+      "29716898",
+      "41126838",
+      "20547165",
+      "29459363",
+      "39226894",
+      "40715126",
+      "22516365",
+      "18178572",
+      "36248879",
+      "41620995",
+      "40446189",
+      "41751834",
+      "38656659",
+      "32998746",
+      "20511406",
+      "32460775",
+      "26769625",
+      "12679207",
+      "35128826",
+      "28973020",
+      "27336675",
+      "24825877",
+      "33042024",
+      "30590389",
+      "31842580",
+      "39028282",
+      "18591436",
+      "23349187",
+      "15063398"
+    ],
+    "review": [
+      "33787284",
+      "21828333",
+      "19638707",
+      "39774683",
+      "39445426",
+      "31933487",
+      "39679839",
+      "25865791",
+      "41620995"
+    ],
+    "pmc": [
+      "8174362"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ahajournals.org/doi/10.1161/JAHA.120.019667?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/heartfailure.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Failure"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33787284/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33787284",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GZMA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2658",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33787284",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

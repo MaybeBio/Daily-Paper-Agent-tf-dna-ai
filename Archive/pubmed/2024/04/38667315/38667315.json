@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "38667315",
+    "doi": "10.3390/cells13080700",
+    "title": "Probing the Effects of Retinoblastoma Binding Protein 6 (RBBP6) Knockdown on the Sensitivity of Cisplatin in Cervical Cancer Cells."
+  },
+  "content": {
+    "abstract": "Cervical cancer is a major cause of death in women despite the advancement of current treatment modalities. The conventional therapeutic agent, cisplatin (CCDP), is the standard treatment for CC; however, resistance often develops due to the cancer's heterogeneity. Therefore, a detailed elucidation of the specific molecular mechanisms driving CC is crucial for the development of targeted therapeutic strategies. Retinoblastoma binding protein 6 (RBBP6) is a potential biomarker associated with cell proliferation and is upregulated in cervical cancer sites, exhibiting apoptosis and dysregulated p53 expression. Furthermore, RBBP6 has been demonstrated to sensitize cancer cells to radiation and certain chemotherapeutic agents by regulating the Bcl-2 gene, thus suggesting a crosstalk among RBBP6/p53/BCL-2 oncogenic signatures. The present study, therefore, investigated the relationship between cisplatin and RBBP6 expression in CC cells. Herein, we first explored bioinformatics simulations and identified that the RBBP6/p53/BCL-2 signaling pathway is overexpressed and correlated with CC. For further analysis, we explored the Genomics of Drug Sensitivity in Cancer (GDSC) and found that most of the CC cell lines are sensitive to CCDP. To validate these findings, RBBP6 was silenced in HeLa and Vero cells using RNAi technology, followed by measurement of wild-type p53 and Bcl-2 at the mRNA level using qPCR. Cells co-treated with cisplatin and siRBBP6 were subsequently analyzed for apoptosis induction and real-time growth monitoring using flow cytometry and the xCELLigence system, respectively. Cancer cells in the co-treatment group showed a reduction in apoptosis compared to the cisplatin-treated group. Moreover, the real-time growth monitoring revealed a reduced growth rate in RBBP6 knockdown cells treated with cisplatin. Although wild-type p53 remained unchanged in the co-treatment group of cancer cells, Bcl-2 was completely repressed, suggesting that RBBP6 is necessary for sensitizing cervical cancer cells to cisplatin treatment by downregulating Bcl-2. The Vero cell population, which served as a non-cancerous control cell line in this study, remained viable following treatment with both siRBBP6 and cisplatin. Findings from this study suggest that RBBP6 expression promotes cisplatin sensitivity in HeLa cells through Bcl-2 downregulation. Knockdown of RBBP6 limits apoptosis induction and delays cell growth inhibition in response to cisplatin. The knowledge obtained here has the potential to help improve cisplatin efficacy through personalized administration based on the expression profile of RBBP6 among individual patients.",
+    "keywords": [
+      "Bcl-2",
+      "apoptosis",
+      "cervical cancer",
+      "cisplatin",
+      "p53",
+      "personalized medicine",
+      "retinoblastoma binding protein 6 (RBBP6)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Cisplatin/pharmacology",
+      "Female",
+      "*Uterine Cervical Neoplasms/genetics/pathology/metabolism/drug therapy",
+      "Cell Line, Tumor",
+      "Drug Resistance, Neoplasm/genetics/drug effects",
+      "Tumor Suppressor Protein p53/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Proto-Oncogene Proteins c-bcl-2/metabolism/genetics",
+      "Apoptosis/drug effects/genetics",
+      "Gene Knockdown Techniques",
+      "Cell Proliferation/drug effects",
+      "Antineoplastic Agents/pharmacology",
+      "Signal Transduction/drug effects",
+      "HeLa Cells",
+      "*DNA-Binding Proteins",
+      "*Ubiquitin-Protein Ligases"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mehta, Harshini",
+        "Ambele, Melvin Anyasi",
+        "Mokgautsi, Ntlotlang",
+        "Moela, Pontsho"
+      ],
+      "short_names": [
+        "Mehta H",
+        "Ambele MA",
+        "Mokgautsi N",
+        "Moela P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6636-2026",
+        "ORCID: 0000-0002-0747-3930"
+      ],
+      "affiliations": [
+        "Division of Genetics, Department of Biochemistry, Genetics and Microbiology, Faculty of Natural and Agricultural Sciences, University of Pretoria, Pretoria 0002, South Africa.",
+        "Institute for Cellular and Molecular Medicine, Department of Immunology and SAMRC Extramural Unit for Stem Cell Research and Therapy, Faculty of Health Sciences, University of Pretoria, Pretoria 0001, South Africa.",
+        "Department of Oral and Maxillofacial Pathology, School of Dentistry, Faculty of Health Sciences, University of Pretoria, Pretoria 0001, South Africa.",
+        "Division of Genetics, Department of Biochemistry, Genetics and Microbiology, Faculty of Natural and Agricultural Sciences, University of Pretoria, Pretoria 0002, South Africa.",
+        "Division of Genetics, Department of Biochemistry, Genetics and Microbiology, Faculty of Natural and Agricultural Sciences, University of Pretoria, Pretoria 0002, South Africa."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mehta, Harshini",
+        "short_name": "Mehta H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genetics, Department of Biochemistry, Genetics and Microbiology, Faculty of Natural and Agricultural Sciences, University of Pretoria, Pretoria 0002, South Africa."
+        ]
+      },
+      {
+        "full_name": "Ambele, Melvin Anyasi",
+        "short_name": "Ambele MA",
+        "identifiers": [
+          "0000-0002-6636-2026"
+        ],
+        "affiliations": [
+          "Institute for Cellular and Molecular Medicine, Department of Immunology and SAMRC Extramural Unit for Stem Cell Research and Therapy, Faculty of Health Sciences, University of Pretoria, Pretoria 0001, South Africa.",
+          "Department of Oral and Maxillofacial Pathology, School of Dentistry, Faculty of Health Sciences, University of Pretoria, Pretoria 0001, South Africa."
+        ]
+      },
+      {
+        "full_name": "Mokgautsi, Ntlotlang",
+        "short_name": "Mokgautsi N",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genetics, Department of Biochemistry, Genetics and Microbiology, Faculty of Natural and Agricultural Sciences, University of Pretoria, Pretoria 0002, South Africa."
+        ]
+      },
+      {
+        "full_name": "Moela, Pontsho",
+        "short_name": "Moela P",
+        "identifiers": [
+          "0000-0002-0747-3930"
+        ],
+        "affiliations": [
+          "Division of Genetics, Department of Biochemistry, Genetics and Microbiology, Faculty of Natural and Agricultural Sciences, University of Pretoria, Pretoria 0002, South Africa."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cells"
+    ],
+    "journal_abbrev": [
+      "Cells"
+    ],
+    "pub_date": "2024 Apr 18",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/26 13:23",
+    "fetched_at": "2026-09-29 19:05:46"
+  },
+  "links": {
+    "cites": [
+      "42239902",
+      "41031707"
+    ],
+    "refs": [
+      "36763571",
+      "36400749",
+      "36342579",
+      "36216888",
+      "35020204",
+      "33776489",
+      "33538338",
+      "33149679",
+      "32218844",
+      "31812369",
+      "31534777",
+      "31274515",
+      "30956230",
+      "30886526",
+      "30237738",
+      "30100160",
+      "29997439",
+      "29959920",
+      "29369481",
+      "28348367",
+      "28025559",
+      "27354763",
+      "26474854",
+      "26318295",
+      "25319826",
+      "25106857",
+      "25058905",
+      "25042259",
+      "24703106",
+      "24695215",
+      "24237223",
+      "23799110",
+      "22659329",
+      "22139301",
+      "21676486",
+      "21630254",
+      "20811617",
+      "20541702",
+      "18851979",
+      "18575327",
+      "17470788",
+      "16396680",
+      "16120770",
+      "15475430",
+      "15386344",
+      "14576837",
+      "11905599",
+      "11483599",
+      "10665656",
+      "10202165",
+      "9294611"
+    ],
+    "similar": [
+      "38667315",
+      "24703106",
+      "24993114",
+      "36853473",
+      "21676486",
+      "30219819",
+      "39888044",
+      "39336777",
+      "21863213",
+      "31180057",
+      "27613187",
+      "32826249",
+      "26474854",
+      "34648915",
+      "31128995",
+      "26698249",
+      "26318295",
+      "30627777",
+      "22920753",
+      "25719555",
+      "23803073",
+      "25781640",
+      "15566959",
+      "29896986",
+      "27083050",
+      "32379984",
+      "28399926",
+      "28085111",
+      "24398307",
+      "14662026",
+      "31870179",
+      "34821362",
+      "24335512",
+      "18640498",
+      "15467442",
+      "30142917",
+      "31917289",
+      "40269076",
+      "33908630",
+      "29363722",
+      "38733116",
+      "26497680",
+      "11401473",
+      "14991767",
+      "23934659",
+      "23534730",
+      "29501043",
+      "30064446",
+      "31244286",
+      "32648086",
+      "33236135",
+      "30221354",
+      "30827507",
+      "33649833",
+      "30737644",
+      "19821098",
+      "33760204",
+      "26905308",
+      "25891367",
+      "28446399",
+      "20646542",
+      "26996126",
+      "30352127",
+      "25112877",
+      "25348020",
+      "39265236",
+      "23863966",
+      "30237738",
+      "16115953",
+      "27959427",
+      "9162297",
+      "38477044",
+      "29952351",
+      "29650944",
+      "20372863",
+      "30690027",
+      "33300478",
+      "9389577",
+      "15870947",
+      "31056260",
+      "31960449",
+      "23417151",
+      "22740515",
+      "30738960",
+      "26820938",
+      "32063580",
+      "27498029",
+      "27601129",
+      "36344947",
+      "21618512",
+      "18480997",
+      "34499772",
+      "22074157",
+      "22888789",
+      "20858478",
+      "31424656",
+      "29126926",
+      "22245869",
+      "28246354",
+      "21608020"
+    ],
+    "review": [
+      "38667315"
+    ],
+    "pmc": [
+      "11049397"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://screening.iarc.fr/atlashisto.php",
+        "provider": "International Agency for Research on Cancer - Screening Group",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Histopathology and cytopathology of the uterine cervix - digital atlas"
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cells13080700",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38667315/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38667315",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors propose a novel machine learning method, MV-H-RKM, for predicting DNA-binding proteins (DBPs). The method extracts five features from three views of proteins, fuses them via a shared hidden vector, and applies hypergraph regularization to enforce structure consistency. Reported accuracies are 84.09% on PDB1075 and 85.48% on PDB186, claimed to outperform state-of-the-art approaches. Code is publicly available.
+- **Visible evidence base** Abstract text only; no experimental details, dataset descriptions, baseline comparisons, statistical tests, or code verification possible
+- **Missing materials affecting confidence** Full manuscript, detailed methodology, dataset splits, hyperparameter settings, baseline results, statistical significance tests, and code execution results
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible methodological contribution in the field of DBP prediction, but the evidence provided is insufficient to evaluate the novelty, technical soundness, or robustness of the claimed performance improvements. The reported accuracies are stated without context on variance, baseline comparability, or statistical significance. The claim of superiority over state-of-the-art methods cannot be assessed from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in computational biology, particularly those working on protein function prediction, machine learning applications in bioinformatics, and multi-view learning methods. The potential interest lies in the methodological combination of multi-view feature fusion and hypergraph regularization, which may offer a new approach to similar prediction tasks.
+- **Major strengths** The proposed method integrates multiple views and features, which is a reasonable strategy for capturing diverse protein characteristics. The use of hypergraph regularization to enforce structure consistency is a conceptually interesting idea. The public availability of code is a positive aspect for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method achieves accuracies of 84.09% and 85.48% on PDB1075 and PDB186, respectively, and performs better than other state-of-the-art approaches.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports accuracy values without any indication of variance, confidence intervals, or statistical significance testing. The claim of outperforming state-of-the-art methods is not supported by comparative data or baseline descriptions.
+  - **Why it matters** Without statistical rigor, the reported performance improvements could be due to random variation, dataset-specific artifacts, or favorable hyperparameter choices. The core claim of superiority cannot be validated.
+  - **Resolution test** Provide full experimental results including multiple runs, standard deviations, and statistical tests (e.g., paired t-test or Wilcoxon signed-rank test) comparing MV-H-RKM against all baseline methods on both datasets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The method extracts five features from three views of proteins and fuses them via a shared hidden vector with hypergraph regularization.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify which five features are extracted, how the three views are defined, or how the hypergraph is constructed. Without these details, the method cannot be reproduced or independently evaluated.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific claims. The lack of methodological detail prevents other researchers from implementing or verifying the approach.
+  - **Resolution test** Provide a detailed methodology section in the full manuscript, including feature definitions, view construction, hypergraph formulation, and all hyperparameter settings.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The method is proposed as a new predictor of DBPs, addressing limitations of existing methods.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not clearly articulate what specific limitations of existing methods are addressed or why the proposed approach is conceptually novel beyond combining known techniques. The novelty claim is not substantiated.
+  - **Why it matters** For a methods paper, the scientific contribution must be clearly framed in terms of what is new and why it matters. Without this, the importance of the work is unclear.
+  - **Resolution test** In the full manuscript, explicitly compare the methodological components with prior work and demonstrate where the novelty lies, ideally with ablation studies showing the contribution of each component.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract title and terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "Restricted Kernel Machine" is not defined or explained in the abstract, which may confuse nonspecialist readers.
+  - **Required correction** Provide a brief definition or context for "Restricted Kernel Machine" in the abstract or introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Performance reporting
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract reports accuracy as a single percentage without specifying the evaluation metric (e.g., accuracy, F1-score, AUC) or the evaluation protocol (e.g., cross-validation, independent test).
+  - **Required correction** Specify the exact metric and evaluation protocol used for both datasets.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Code availability
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The code link is provided, but there is no mention of the license, dependencies, or instructions for usage.
+  - **Required correction** Include a brief statement on code usability, such as license type and key dependencies, in the full manuscript or repository.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of statistical validation and methodological detail prevents the core claims from being assessed. R1-M3 is non-blocking but should be addressed to strengthen the scientific contribution.
+- **Assessment against Nature-style criteria** Originality: The combination of multi-view learning and hypergraph regularization is not entirely new, but the specific application to DBP prediction may offer some novelty. However, this cannot be fully assessed from the abstract. Scientific importance: The problem of DBP prediction is relevant, but the abstract does not demonstrate a significant advance over existing methods. Interdisciplinary readership: The work is likely to appeal to computational biologists and machine learning researchers, but the abstract is too technical for a broader audience. Technical soundness: Not established due to missing experimental details and statistical rigor. Readability for nonspecialists: The abstract is accessible but lacks context for key terms and methods.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to validate the methodological claims or performance results. A full manuscript with detailed methodology, rigorous experiments, and statistical analysis is required before the case can be considered.
+
+## Risk / unsupported claims
+- The claim that MV-H-RKM "performs better than other state-of-the-art approaches" is unsupported without comparative data and statistical tests.
+- The reported accuracy values (84.09% and 85.48%) are presented without variance or confidence intervals, making them unverifiable.
+- The methodological description of "five features from three views" and "hypergraph regularization" is too vague to evaluate or reproduce.
+- The novelty of the approach relative to existing methods is not substantiated in the abstract.

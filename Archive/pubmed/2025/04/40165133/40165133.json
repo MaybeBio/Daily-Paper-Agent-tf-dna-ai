@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "40165133",
+    "doi": "10.1186/s12879-025-10822-9",
+    "title": "Integrated bioinformatics and experiment validation reveal cuproptosis-related biomarkers and therapeutic targets in sepsis-induced myocardial dysfunction."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sepsis-induced myocardial dysfunction (SIMD) is a serious sepsis complication with high mortality, yet current diagnostic and therapeutic approaches remain limited. The lack of early, specific biomarkers and effective treatments necessitates exploration of novel mechanisms. Recently, cuproptosis has been implicated in various diseases, but its role in SIMD is unclear. This study aimed to identify cuproptosis-related biomarkers and potential therapeutic agents, supported by animal model validation. METHODS: Four GEO datasets (GSE79962, GSE267388, GSE229925, GSE229298) were analyzed using Limma and WGCNA to identify overlapping genes from differentially expressed genes (DEGs), cuproptosis-related DEGs (DE-CRGs), and module-associated genes. Gene Set Enrichment Analysis (GSEA) and single-sample GSEA (ssGSEA) were performed to assess biological functions and immune cell infiltration, respectively. ceRNA and transcription factor networks were constructed to explore gene regulatory mechanisms, while consensus clustering was employed to define cuproptosis-related subtypes. Diagnostic genes were selected through SVM-RFE, LASSO, and random forest models. Additionally, potential gene-targeting agents were predicted using drug-gene interaction analysis. The findings were validated in SIMD animal models through qPCR and immunohistochemical analysis to confirm gene expression. RESULTS: PDHB and DLAT emerged as key cuproptosis-related biomarkers. GSEA indicated upregulation of oxidative phosphorylation and downregulation of chemokine signaling. ssGSEA revealed negative correlations with several immune cell types. A ceRNA network (51 nodes, 56 edges) was constructed. Machine learning identified PDHB, NDUFA9, and TIMMDC1 as diagnostic genes, with PDHB showing high accuracy (AUC = 0.995 in GSE79962; AUC = 0.960, 0.864, and 0.984 in external datasets). Using the DSigDB database, we predicted six drugs that exhibit significant binding activity with PDHB. qPCR and immunohistochemistry confirmed reduced PDHB and DLAT expression in SIMD animal models. CONCLUSION: This study identifies PDHB and DLAT as cuproptosis-related biomarkers, addressing the diagnostic and therapeutic gaps in SIMD by unveiling novel molecular insights for early intervention and targeted treatment. CLINICAL TRIAL NUMBER: Not applicable.",
+    "keywords": [
+      "Biomarkers",
+      "Cuproptosis-related genes",
+      "Machine learning",
+      "Molecular mechanism",
+      "Sepsis-induced myocardial dysfunction",
+      "Therapeutic targets"
+    ],
+    "mesh_terms": [
+      "*Sepsis/complications",
+      "Animals",
+      "*Computational Biology/methods",
+      "Biomarkers/metabolism",
+      "Disease Models, Animal",
+      "Gene Regulatory Networks",
+      "Humans",
+      "Mice",
+      "Gene Expression Profiling",
+      "*Cardiomyopathies/etiology/genetics",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shi, Xuemei",
+        "Yan, Zhonghan",
+        "Ding, Ruilin",
+        "Xia, Fenfen",
+        "Du, Yan",
+        "Wang, Xiaojie",
+        "Peng, Qing"
+      ],
+      "short_names": [
+        "Shi X",
+        "Yan Z",
+        "Ding R",
+        "Xia F",
+        "Du Y",
+        "Wang X",
+        "Peng Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, 646000, China.",
+        "Department of Cardiology, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, 646000, China.",
+        "Institute of Drug Clinical Trial/GCP Center, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, 646000, China.",
+        "Department of Cardiology, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, 646000, China.",
+        "Department of Cardiology, Deyang People's Hospital, Deyang, Sichuan Province, 618099, China.",
+        "Department of Endocrinology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, 646000, China. 46601661@qq.com.",
+        "Department of Cardiology, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, 646000, China. qingpeng9712118@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shi, Xuemei",
+        "short_name": "Shi X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Zhonghan",
+        "short_name": "Yan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Ruilin",
+        "short_name": "Ding R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Drug Clinical Trial/GCP Center, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Fenfen",
+        "short_name": "Xia F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, 646000, China."
+        ]
+      },
+      {
+        "full_name": "Du, Yan",
+        "short_name": "Du Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Deyang People's Hospital, Deyang, Sichuan Province, 618099, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaojie",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, 646000, China. 46601661@qq.com."
+        ]
+      },
+      {
+        "full_name": "Peng, Qing",
+        "short_name": "Peng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, The Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan Province, 646000, China. qingpeng9712118@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC infectious diseases"
+    ],
+    "journal_abbrev": [
+      "BMC Infect Dis"
+    ],
+    "pub_date": "2025 Mar 31",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/01 06:26",
+    "fetched_at": "2026-09-30 14:52:30"
+  },
+  "links": {
+    "cites": [
+      "42495776",
+      "42158287",
+      "42049805",
+      "41890740",
+      "40926894",
+      "40858849"
+    ],
+    "refs": [
+      "39736533",
+      "39353384",
+      "39267265",
+      "39068453",
+      "38979432",
+      "38947313",
+      "38927133",
+      "38681070",
+      "38184374",
+      "37584654",
+      "37513928",
+      "37500296",
+      "37422242",
+      "37150036",
+      "37090740",
+      "36939934",
+      "36774340",
+      "36653385",
+      "36619743",
+      "35862345",
+      "35298263",
+      "35152560",
+      "34737617",
+      "34538488",
+      "33473203",
+      "33333007",
+      "30981218",
+      "29645001",
+      "29275361",
+      "29258510",
+      "27711126",
+      "27274621",
+      "27198221",
+      "26279757",
+      "25605792",
+      "24309898",
+      "23223238",
+      "22357253",
+      "22027536",
+      "20117961",
+      "14758146",
+      "11352890",
+      "2197912"
+    ],
+    "similar": [
+      "40165133",
+      "39671358",
+      "38681070",
+      "38291374",
+      "38971104",
+      "38804624",
+      "38163157",
+      "38901133",
+      "37007946",
+      "38690269",
+      "39583859",
+      "38935114",
+      "39814871",
+      "31794266",
+      "39142001",
+      "40374840",
+      "39991151",
+      "39763654",
+      "39853851",
+      "37659036",
+      "38495196",
+      "39375405",
+      "37393262",
+      "38842240",
+      "40362543",
+      "40313958",
+      "36479114",
+      "36532015",
+      "39586719",
+      "37035738",
+      "39793232",
+      "37275904",
+      "36440046",
+      "36865349",
+      "38912048",
+      "40129981",
+      "39351239",
+      "39069636",
+      "38912044",
+      "38713173",
+      "39391037",
+      "37324184",
+      "38741149",
+      "40055592",
+      "40255693",
+      "38883603",
+      "38767974",
+      "37822923",
+      "39697326",
+      "38168558",
+      "37313407",
+      "38987624",
+      "38839020",
+      "39388708",
+      "40072691",
+      "37330494",
+      "37065492",
+      "39616855",
+      "37561332",
+      "36524127",
+      "38827298",
+      "40312440",
+      "39559355",
+      "38863714",
+      "35937995",
+      "36405733",
+      "39578562",
+      "37143115",
+      "37809099",
+      "38779731",
+      "40276654",
+      "37333810",
+      "37529244",
+      "40362669",
+      "39396083",
+      "39507054",
+      "38899746",
+      "40093012",
+      "40244055",
+      "38245687",
+      "38951833",
+      "39341981",
+      "39243324",
+      "38440848",
+      "38428843",
+      "40247093",
+      "39735547",
+      "37215133",
+      "39747316",
+      "40149491",
+      "40034693",
+      "36760248",
+      "39950836",
+      "38074089",
+      "38085668",
+      "40337173",
+      "39723205",
+      "37279744",
+      "39347483",
+      "39509434"
+    ],
+    "review": [
+      "40165133"
+    ],
+    "pmc": [
+      "11956201"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-025-10822-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cardiomyopathy.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cardiomyopathy"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40165133/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

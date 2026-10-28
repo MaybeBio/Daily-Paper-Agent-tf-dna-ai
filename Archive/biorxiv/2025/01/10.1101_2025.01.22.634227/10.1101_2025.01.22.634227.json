@@ -1,0 +1,396 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.01.22.634227",
+  "title": "Digital Reprogramming Decodes Epigenetic Barriers of Cell Fate Changes",
+  "doi": "10.1101/2025.01.22.634227",
+  "abstract": "Fates of differentiated cells in our body can be induced to change by nuclear reprogramming. In this way, cells valuable for therapeutic purposes and disease modeling can be produced. However, the efficiency of this process is low, partly due to the properties of somatic donor nuclei which stabilize their differentiated fate but also act as barriers reprogramming-associated cell fate changes. The identity of these reprogramming barriers is not fully understood. Here, we developed an artificial intelligence-based approach to model nuclear reprogramming and used it to identify the chromatin modification H3K27ac as a novel epigenetic barrier to reprogramming-induced cell fate changes. Using reprogramming by nuclear transfer (NT) to eggs of Xenopus laevis as a model system, we profiled chromatin modifications in different cell types alongside gene expression patterns before and after reprogramming. Our model integrated the data to accurately predict reprogramming outcomes on a transcriptome level. By leveraging model predictions, we find that genes resisting inactivation during reprogramming display specific chromatin modification barcodes, including the known reprogramming barrier H3K4me3 alongside a novel candidate barrier, H3K27ac. Accordingly, reducing H3K27ac levels using p300/CBP inhibitors before reprogramming led to an improved downregulation of genes linked to H3K27ac-modified enhancers after reprogramming. Importantly, these effects were accompanied by improved embryonic development of the resulting nuclear transfer embryos. In summary, our study developed Digital Reprogramming, an artificial intelligence approach capable of predicting resistance to cell-fate reprogramming, which led to the identification of H3K27ac as a critical barrier to reprogramming-associated cell-fate changes. <h4>Keywords:</h4> machine learning, predictive modeling, SCNT, nuclear reprogramming, H3K27ac, p300/CBP, epigenetic memory, cell fate stability.",
+  "authors": [
+    "Janeva A",
+    "Penfold CA",
+    "Llorente-Armijo S",
+    "Li H",
+    "Zikmund T",
+    "Stock M",
+    "Jullien J",
+    "Straub T",
+    "Forne I",
+    "Imhof A",
+    "Vaquerizas JM",
+    "Gurdon JB",
+    "Hoermanseder EB"
+  ],
+  "published_date": "2025-01-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.01.22.634227",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.01.22.634227.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR970114",
+    "raw_record": {
+      "id": "PPR970114",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR970114"
+        ]
+      },
+      "doi": "10.1101/2025.01.22.634227",
+      "title": "Digital Reprogramming Decodes Epigenetic Barriers of Cell Fate Changes",
+      "authorString": "Janeva A, Penfold CA, Llorente-Armijo S, Li H, Zikmund T, Stock M, Jullien J, Straub T, Forne I, Imhof A, Vaquerizas JM, Gurdon JB, Hoermanseder EB.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Janeva A",
+            "lastName": "Janeva",
+            "firstName": "Ana",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0007-5144-3345"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Epigenetics and Stem Cells (IES), Helmholtz Munich, Feodor-Lynen-Str. 21, D-81377 Munich, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Penfold CA",
+            "lastName": "Penfold",
+            "firstName": "Christopher",
+            "initials": "CA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Trust − , , Tennis Court Road , ,"
+                },
+                {
+                  "affiliation": "Department of Physiology, Development and Neuroscience, , Downing Site, ,"
+                },
+                {
+                  "affiliation": "Centre for Trophoblast Research, , Downing Site, ,"
+                },
+                {
+                  "affiliation": "Wellcome Trust − Medical Research Council Stem Cell Institute, , Jeffrey Cheah Biomedical Centre, Puddicombe Way , CB2 0AW,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Llorente-Armijo S",
+            "lastName": "Llorente-Armijo",
+            "firstName": "Sara",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, Du Cane Road, London W12 0HS, United Kingdom"
+                },
+                {
+                  "affiliation": "Institute of Clinical Sciences, Faculty of Medicine, , Du Cane Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li H",
+            "lastName": "Li",
+            "firstName": "Huiwen",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Epigenetics and Stem Cells (IES), Helmholtz Munich, Feodor-Lynen-Str. 21, D-81377 Munich, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zikmund T",
+            "lastName": "Zikmund",
+            "firstName": "Tomas",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2452-3749"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Epigenetics and Stem Cells (IES), Helmholtz Munich, Feodor-Lynen-Str. 21, D-81377 Munich, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stock M",
+            "lastName": "Stock",
+            "firstName": "Marco",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Epigenetics and Stem Cells (IES), Helmholtz Munich, Feodor-Lynen-Str. 21, D-81377 Munich, Germany"
+                },
+                {
+                  "affiliation": "Institute of Functional Epigenetics (IFE), Helmholtz Munich, D-85764 Neuherberg, Germany"
+                },
+                {
+                  "affiliation": "Institute of Computational Biology (ICB), Helmholtz Munich, D-85764 Neuherberg, Germany"
+                },
+                {
+                  "affiliation": "TUM School of Life Sciences Weihenstephan, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jullien J",
+            "lastName": "Jullien",
+            "firstName": "Jerome",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7868-0021"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Trust − , , Tennis Court Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Straub T",
+            "lastName": "Straub",
+            "firstName": "Tobias",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0547-0453"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Core Facility Bioinformatics, Biomedical Center Munich (BMC), Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Forne I",
+            "lastName": "Forne",
+            "firstName": "Ignasi",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0309-907X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Analysis Unit, Biomedical Center (BMC), Faculty of Medicine, (LMU) Munich, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Imhof A",
+            "lastName": "Imhof",
+            "firstName": "Axel",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2993-8249"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Analysis Unit, Biomedical Center (BMC), Faculty of Medicine, (LMU) Munich, ,"
+                },
+                {
+                  "affiliation": "Department of Molecular Biology, Biomedical Center Munich, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vaquerizas JM",
+            "lastName": "Vaquerizas",
+            "firstName": "Juan",
+            "initials": "JM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, Du Cane Road, London W12 0HS, United Kingdom"
+                },
+                {
+                  "affiliation": "Institute of Clinical Sciences, Faculty of Medicine, , Du Cane Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gurdon JB",
+            "lastName": "Gurdon",
+            "firstName": "John",
+            "initials": "JB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Trust − , , Tennis Court Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hoermanseder EB",
+            "lastName": "Hoermanseder",
+            "firstName": "Eva",
+            "initials": "EB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Trust − , , Tennis Court Road , ,"
+                },
+                {
+                  "affiliation": "Institute of Epigenetics and Stem Cells (IES), Helmholtz Munich, Feodor-Lynen-Str. 21, D-81377 Munich, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0547-0453"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7868-0021"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0309-907X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2452-3749"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2993-8249"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0007-5144-3345"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Fates of differentiated cells in our body can be induced to change by nuclear reprogramming. In this way, cells valuable for therapeutic purposes and disease modeling can be produced. However, the efficiency of this process is low, partly due to the properties of somatic donor nuclei which stabilize their differentiated fate but also act as barriers reprogramming-associated cell fate changes. The identity of these reprogramming barriers is not fully understood. Here, we developed an artificial intelligence-based approach to model nuclear reprogramming and used it to identify the chromatin modification H3K27ac as a novel epigenetic barrier to reprogramming-induced cell fate changes. Using reprogramming by nuclear transfer (NT) to eggs of Xenopus laevis as a model system, we profiled chromatin modifications in different cell types alongside gene expression patterns before and after reprogramming. Our model integrated the data to accurately predict reprogramming outcomes on a transcriptome level. By leveraging model predictions, we find that genes resisting inactivation during reprogramming display specific chromatin modification barcodes, including the known reprogramming barrier H3K4me3 alongside a novel candidate barrier, H3K27ac. Accordingly, reducing H3K27ac levels using p300/CBP inhibitors before reprogramming led to an improved downregulation of genes linked to H3K27ac-modified enhancers after reprogramming. Importantly, these effects were accompanied by improved embryonic development of the resulting nuclear transfer embryos. In summary, our study developed Digital Reprogramming, an artificial intelligence approach capable of predicting resistance to cell-fate reprogramming, which led to the identification of H3K27ac as a critical barrier to reprogramming-associated cell-fate changes. <h4>Keywords:</h4> machine learning, predictive modeling, SCNT, nuclear reprogramming, H3K27ac, p300/CBP, epigenetic memory, cell fate stability.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "092096/Z/10/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "101050/Z/13/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.01.22.634227"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.01.22.634227"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR970114"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR970114&type=FILE&fileName=EMS202904-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS202904",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gca",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-01-26",
+      "firstPublicationDate": "2025-01-24",
+      "firstIndexDate": "2025-01-28",
+      "fullTextReceivedDate": "2025-02-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

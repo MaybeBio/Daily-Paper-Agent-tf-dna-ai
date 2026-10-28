@@ -1,0 +1,128 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusion, and supplementary statements) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the manuscript's claims, methods, results, and interpretability, based solely on the supplied material. No external data, code, or supplementary files were accessed.
+- **Shared manuscript claim summary** The authors propose DeepARC, a hybrid deep learning model combining CNN, BiLSTM, and an attention mechanism, with a novel positional embedding that merges OneHot encoding and DNA2Vec. They claim superior predictive performance (average AUC 0.908) over existing methods (DeepTF, DeepBind, CNN-Zeng) on 50 ENCODE ChIP-seq datasets across five cell lines, and enhanced interpretability via attention weight visualization.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (Datasets, Problem Statements, Positional Embedding, CNN, BiLSTM, Attention Mechanism, Dense Module), Results (Evaluation Measurements, Performance Comparison With Other Model Frameworks, Performance Comparison Among Positional Embedding and Other Methods, Performance Comparison With Other Existing Predictors, Attention Mechanism Brings Interpretation), Conclusion, Data Availability, Author Contributions, Funding, Conflict of Interest, Publisher's Note. Tables 1-4 and Figures 1-5 are referenced but not provided.
+- **Missing materials affecting confidence** Tables 1-4 and Figures 1-5 are cited but absent from the supplied text. No code, hyperparameter details beyond partial descriptions, dataset accession identifiers, or supplementary material are available. Statistical significance tests, confidence intervals, and standard deviations for performance metrics are not reported. The benchmark dataset construction (e.g., negative set generation specifics, cell line selection criteria) is only partially described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational genomics, namely TFBS prediction, and proposes a plausible architecture combining established components (CNN, BiLSTM, attention) with a novel embedding strategy. The writing is generally clear but contains grammatical errors and imprecise phrasing. The core claims of superior performance and interpretability are not fully verifiable from the provided material due to missing tables and figures, lack of statistical rigor, and incomplete methodological details. The novelty is incremental, as the components are individually well-known, and the claimed advantage of the positional embedding is not convincingly demonstrated without full comparative data and error analysis. The interpretability claim, while supported by attention visualization, lacks quantitative validation. Overall, the work has potential but is currently not established from the provided evidence.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, specifically those developing or applying deep learning methods for sequence-based prediction tasks. The work may also interest researchers focused on model interpretability in genomics, as the attention mechanism offers a potential route to motif discovery. The practical application to ChIP-seq data analysis could appeal to experimentalists seeking improved TFBS prediction tools.
+- **Major Strengths**  
+  - The problem is well-motivated and practically relevant.  
+  - The proposed architecture integrates multiple proven techniques (CNN, BiLSTM, attention) in a coherent manner.  
+  - The positional embedding idea, combining OneHot and DNA2Vec, is a reasonable attempt to address a known limitation of single-encoding methods.  
+  - The use of multiple evaluation metrics (Sen, Spe, Acc, MCC, AUC) is appropriate.  
+  - The attention visualization for interpretability is a valuable addition, though underdeveloped.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Evidence completeness  
+    - **Claim pointer** The manuscript claims "DeepARC achieves promising performances with an average AUC score of 0.908 on five cell lines" and superior results in Tables 1, 3, and 4.  
+    - **Evidence pointer** Tables 1-4 and Figures 3-5 are referenced but not provided in the supplied material.  
+    - **Concern** The central quantitative claims of the paper rest entirely on tables and figures that are absent from the provided text. Without these data, the reader cannot verify the reported performance metrics, compare methods, or assess the variability across datasets. The claim of superiority over existing methods is therefore unsubstantiated in this submission.  
+    - **Why it matters** The primary contribution of the paper is empirical, and the missing evidence directly undermines the validity of the main conclusions.  
+    - **Resolution test** Provide all tables and figures with full numerical values, including per-dataset results, means, and standard deviations. Include statistical tests (e.g., paired t-test or Wilcoxon) comparing DeepARC against baselines.  
+  - **Concern ID** R1-M2  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Statistical rigor  
+    - **Claim pointer** The manuscript states "our model (CNN-BiLSTM-Att) generally has the best performance" and reports percentage improvements (e.g., Sen, Acc, MCC higher by specific amounts).  
+    - **Evidence pointer** Results section, "Performance Comparison With Other Model Frameworks" and "Performance Comparison With Other Existing Predictors"; location not provided for specific numbers.  
+    - **Concern** No statistical significance testing, confidence intervals, or error bars are reported. The observed differences could be within random variation, especially given the limited number of datasets (50) and potential class imbalance. The percentage improvements are presented without any measure of uncertainty.  
+    - **Why it matters** Without statistical validation, the claimed improvements cannot be distinguished from noise, which is critical for a method comparison paper.  
+    - **Resolution test** Add statistical tests for all pairwise comparisons, report standard deviations or confidence intervals for each metric, and discuss effect sizes.  
+  - **Concern ID** R1-M3  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Methodological clarity  
+    - **Claim pointer** The positional embedding method is described as combining OneHot and DNA2Vec, with a convolutional module to reduce dimensionality, but the exact implementation is unclear.  
+    - **Evidence pointer** Materials and Methods, "Positional Embedding" section; Figure 2 is referenced but not provided.  
+    - **Concern** The description of the embedding process is incomplete. Key details are missing, including the specific k-mer length used (mentioned as 3-mer in the results but not justified), the architecture of the convolutional module (number of layers, filter sizes, stride), how the OneHot and DNA2Vec features are concatenated, and the handling of variable-length sequences. The formula for Zpe is given but the dimensions and preprocessing steps are not fully specified.  
+    - **Why it matters** Reproducibility is a core requirement for computational methods. Without precise implementation details, other researchers cannot replicate or build upon the work.  
+    - **Resolution test** Provide a detailed algorithmic description, including all hyperparameters, layer configurations, and a clear diagram or pseudocode. Release code and trained models.  
+  - **Concern ID** R1-M4  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Interpretability validation  
+    - **Claim pointer** The manuscript claims "attention mechanism brings interpretation" and that attention weights concentrate on peak regions, indicating motif locations.  
+    - **Evidence pointer** Results section, "Attention Mechanism Brings Interpretation"; Figures 4 and 5 are referenced but not provided.  
+    - **Concern** The interpretability claim is based solely on visual inspection of attention weight plots. No quantitative evaluation is provided, such as comparison of attention peaks with known motif positions, enrichment analysis, or ablation studies. The claim that attention identifies TFBS is plausible but not demonstrated.  
+    - **Why it matters** Interpretability is a stated advantage of the method, but without validation, it remains anecdotal.  
+    - **Resolution test** Quantitatively compare attention peaks against known TFBS annotations (e.g., using AUC for peak-motif overlap), perform ablation studies removing attention, and report precision/recall for motif detection.  
+  - **Concern ID** R1-M5  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Baseline fairness  
+    - **Claim pointer** The manuscript compares DeepARC against DeepTF, DeepBind, and CNN-Zeng, claiming superior performance.  
+    - **Evidence pointer** Results section, "Performance Comparison With Other Existing Predictors"; Table 4 is referenced but not provided.  
+    - **Concern** The comparison methodology is not described. It is unclear whether the baseline models were retrained on the same data, whether hyperparameters were optimized for each method, or whether the same train/validation/test splits were used. Without this information, the comparison may be biased.  
+    - **Why it matters** Fair benchmarking is essential to support claims of superiority.  
+    - **Resolution test** Describe the training and evaluation protocol for all methods, including hyperparameter tuning, cross-validation strategy, and data splits. Consider using a standardized benchmark.  
+  - **Concern ID** R1-M6  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Dataset representativeness  
+    - **Claim pointer** The manuscript uses "50 datasets selected at random from 690 ChIP-seq datasets, including five cell lines" for training and testing.  
+    - **Evidence pointer** Materials and Methods, "Datasets" section.  
+    - **Concern** The selection of 50 datasets from 690 is described as random, but no details are given on the distribution across cell lines, the number of positive and negative samples per dataset, or the potential for redundancy (e.g., overlapping TFs). The negative set generation is only vaguely described as "recombining the positive sequence with the matching length," which may introduce biases.  
+    - **Why it matters** Dataset composition directly affects model performance and generalizability. Poorly described or biased datasets can lead to overoptimistic results.  
+    - **Resolution test** Provide a detailed breakdown of datasets by cell line and TF, report class balance, describe negative set construction precisely, and discuss potential biases.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Abstract  
+    - **Evidence pointer** Abstract, "location not provided"  
+    - **Issue** The phrase "the binding of transcription factors (TFs) to TF binding sites (TFBS) plays a vital role" is grammatically awkward and could be rephrased for clarity.  
+    - **Required correction** Revise to "the binding of transcription factors (TFs) to their binding sites (TFBS) plays a vital role."  
+  - **Concern ID** R1-m2  
+    - **Severity** Minor  
+    - **Axis** Technical accuracy  
+    - **Affected element** Materials and Methods, "Bidirectional Long Short-Term Memory Networks"  
+    - **Evidence pointer** "location not provided"  
+    - **Issue** The LSTM equations are referenced but not explicitly written out, and the notation is incomplete. The text states "the following is the operation formula" but no formulas are shown.  
+    - **Required correction** Include the full LSTM update equations with all variable definitions.  
+  - **Concern ID** R1-m3  
+    - **Severity** Minor  
+    - **Axis** Consistency  
+    - **Affected element** Results, "Performance Comparison With Other Model Frameworks"  
+    - **Evidence pointer** "location not provided"  
+    - **Issue** The text reports percentage improvements (e.g., "5.43%, 1.36%, and 1.4% higher") but does not specify whether these are absolute or relative differences, nor the baseline values.  
+    - **Required correction** Clarify the calculation method and provide baseline values for context.  
+  - **Concern ID** R1-m4  
+    - **Severity** Minor  
+    - **Axis** Language quality  
+    - **Affected element** Introduction  
+    - **Evidence pointer** "location not provided"  
+    - **Issue** Several sentences are overly long and contain grammatical errors, e.g., "In (20), the NLP method has many applications in the field of DNA sequence and realizes distributed embedding representation."  
+    - **Required correction** Rewrite for clarity and grammatical correctness.  
+  - **Concern ID** R1-m5  
+    - **Severity** Minor  
+    - **Axis** Reproducibility  
+    - **Affected element** Materials and Methods, "Datasets"  
+    - **Evidence pointer** "location not provided"  
+    - **Issue** The source of the ENCODE data and the specific preprocessing steps (e.g., genome build, peak calling thresholds) are not cited or described.  
+    - **Required correction** Add references for the data and describe preprocessing in detail.  
+  - **Concern ID** R1-m6  
+    - **Severity** Minor  
+    - **Axis** Figure quality  
+    - **Affected element** Results, "Attention Mechanism Brings Interpretation"  
+    - **Evidence pointer** Figures 4 and 5 are referenced but not provided.  
+    - **Issue** The figures are essential for the interpretability claim but are missing.  
+    - **Required correction** Ensure all figures are included and clearly labeled with axes and legends.  
+- **Technical failings that need to be addressed before the case is established**  
+  - Missing tables and figures (Tables 1-4, Figures 1-5) that contain the core quantitative results.  
+  - Lack of statistical significance testing and error reporting for all performance metrics.  
+  - Incomplete description of the positional embedding method, including hyperparameters and architecture details.  
+  - Unclear comparison protocol for baseline methods, including hyperparameter tuning and data splits.  
+  - Inadequate description of dataset selection and negative set construction.  
+  - No quantitative validation of the interpretability claim.  
+- **Assessment against Nature-style criteria**  
+  - **Originality** The combination of CNN, BiLSTM, and attention is not novel in itself, as similar architectures exist in the literature. The positional embedding that merges OneHot and DNA2Vec is a modest variation on existing encoding strategies. The originality is limited and incremental.  
+  - **Scientific importance** TFBS prediction is an important problem in regulatory genomics, and improved methods could have practical value. However, the manuscript does not demonstrate a significant advance over the state of the art, given the missing evidence and lack of statistical rigor.  
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and bioinformaticians. The methods are not presented in a way that would attract a broader interdisciplinary audience, and the writing is not sufficiently accessible to nonspecialists.  
+  - **Technical soundness** The technical approach is plausible, but the manuscript has significant gaps in methodology description and validation. The lack of statistical analysis and incomplete details undermine confidence in the results.  
+  - **Readability for nonspecialists** The manuscript is written in a technical style but contains grammatical errors and unclear phrasing. The abstract and introduction are somewhat accessible, but the methods and results sections would be challenging for nonspecialists.  
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the missing data, lack of statistical rigor, and incomplete methodological details prevent a positive recommendation. The authors should address the major concerns, particularly by providing all tables and figures, adding statistical analyses, and clarifying the methods, before the case for the paper's claims can be made.

@@ -1,0 +1,466 @@
+{
+  "identity": {
+    "pmid": "36402776",
+    "doi": "10.1038/s41467-022-34888-0",
+    "title": "Integrating transcription factor occupancy with transcriptome-wide association analysis identifies susceptibility genes in human cancers."
+  },
+  "content": {
+    "abstract": "Transcriptome-wide association studies (TWAS) have successfully discovered many putative disease susceptibility genes. However, TWAS may suffer from inaccuracy of gene expression predictions due to inclusion of non-regulatory variants. By integrating prior knowledge of susceptible transcription factor occupied elements, we develop sTF-TWAS and demonstrate that it outperforms existing TWAS approaches in both simulation and real data analyses. Under the sTF-TWAS framework, we build genetic models to predict alternative splicing and gene expression in normal breast, prostate and lung tissues from the Genotype-Tissue Expression project and apply these models to data from large genome-wide association studies (GWAS) conducted among European-ancestry populations. At Bonferroni-corrected P < 0.05, we identify 354 putative susceptibility genes for these cancers, including 189 previously unreported in GWAS loci and 45 in loci unreported by GWAS. These findings provide additional insight into the genetic susceptibility of human cancers. Additionally, we show the generalizability of the sTF-TWAS on non-cancer diseases.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "*Genome-Wide Association Study",
+      "Transcriptome",
+      "Transcription Factors/genetics",
+      "Polymorphism, Single Nucleotide",
+      "Quantitative Trait Loci/genetics",
+      "*Neoplasms/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Jingni",
+        "Wen, Wanqing",
+        "Beeghly, Alicia",
+        "Chen, Zhishan",
+        "Cao, Chen",
+        "Shu, Xiao-Ou",
+        "Zheng, Wei",
+        "Long, Quan",
+        "Guo, Xingyi"
+      ],
+      "short_names": [
+        "He J",
+        "Wen W",
+        "Beeghly A",
+        "Chen Z",
+        "Cao C",
+        "Shu XO",
+        "Zheng W",
+        "Long Q",
+        "Guo X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3004-5168",
+        "ORCID: 0000-0003-1226-070X",
+        "ORCID: 0000-0003-3795-1873",
+        "ORCID: 0000-0001-5269-1294"
+      ],
+      "affiliations": [
+        "Department of Biochemistry & Molecular Biology, University of Calgary, Calgary, Canada.",
+        "Department of Oncology, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+        "Department of Biochemistry & Molecular Biology, University of Calgary, Calgary, Canada.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, Nashville, TN, USA.",
+        "Department of Biochemistry & Molecular Biology, University of Calgary, Calgary, Canada. quan.long@ucalgary.ca.",
+        "Department of Medical Genetics, University of Calgary, Calgary, Canada. quan.long@ucalgary.ca.",
+        "Department of Mathematics & Statistics, University of Calgary, Calgary, Canada. quan.long@ucalgary.ca.",
+        "Alberta Children's Hospital Research Institute, University of Calgary, Calgary, Canada. quan.long@ucalgary.ca.",
+        "Hotchkiss Brain Institute, University of Calgary, Calgary, Canada. quan.long@ucalgary.ca.",
+        "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, Nashville, TN, USA. xingyi.guo@vumc.org.",
+        "Department of Biomedical Informatics, Vanderbilt University School of Medicine, Nashville, TN, USA. xingyi.guo@vumc.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Jingni",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology, University of Calgary, Calgary, Canada.",
+          "Department of Oncology, Xiangya Hospital, Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Wanqing",
+        "short_name": "Wen W",
+        "identifiers": [
+          "0000-0002-3004-5168"
+        ],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, Nashville, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Beeghly, Alicia",
+        "short_name": "Beeghly A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, Nashville, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhishan",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, Nashville, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Cao, Chen",
+        "short_name": "Cao C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology, University of Calgary, Calgary, Canada."
+        ]
+      },
+      {
+        "full_name": "Shu, Xiao-Ou",
+        "short_name": "Shu XO",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, Nashville, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Zheng, Wei",
+        "short_name": "Zheng W",
+        "identifiers": [
+          "0000-0003-1226-070X"
+        ],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, Nashville, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Long, Quan",
+        "short_name": "Long Q",
+        "identifiers": [
+          "0000-0003-3795-1873"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology, University of Calgary, Calgary, Canada. quan.long@ucalgary.ca.",
+          "Department of Medical Genetics, University of Calgary, Calgary, Canada. quan.long@ucalgary.ca.",
+          "Department of Mathematics & Statistics, University of Calgary, Calgary, Canada. quan.long@ucalgary.ca.",
+          "Alberta Children's Hospital Research Institute, University of Calgary, Calgary, Canada. quan.long@ucalgary.ca.",
+          "Hotchkiss Brain Institute, University of Calgary, Calgary, Canada. quan.long@ucalgary.ca."
+        ]
+      },
+      {
+        "full_name": "Guo, Xingyi",
+        "short_name": "Guo X",
+        "identifiers": [
+          "0000-0001-5269-1294"
+        ],
+        "affiliations": [
+          "Division of Epidemiology, Department of Medicine, Vanderbilt Epidemiology Center, Vanderbilt-Ingram Cancer Center, Vanderbilt University School of Medicine, Nashville, TN, USA. xingyi.guo@vumc.org.",
+          "Department of Biomedical Informatics, Vanderbilt University School of Medicine, Nashville, TN, USA. xingyi.guo@vumc.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2022 Nov 19",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/20 06:00",
+    "fetched_at": "2026-09-28 16:21:20"
+  },
+  "links": {
+    "cites": [
+      "42337910",
+      "42218145",
+      "42090444",
+      "41554047",
+      "41540004",
+      "41417631",
+      "41359149",
+      "41338217",
+      "41099493",
+      "41040682",
+      "40205015",
+      "39930075",
+      "39535029",
+      "39526380",
+      "39471467",
+      "39311699",
+      "39099406",
+      "38952424",
+      "38759092",
+      "38733992",
+      "38400758",
+      "38118447",
+      "37766879",
+      "37632791",
+      "37164006"
+    ],
+    "refs": [
+      "34518541",
+      "33798195",
+      "33635859",
+      "33505025",
+      "33471974",
+      "33398198",
+      "33230299",
+      "33200776",
+      "33058866",
+      "32912253",
+      "32424353",
+      "32115800",
+      "32015527",
+      "31911677",
+      "31696517",
+      "31444360",
+      "31402092",
+      "31337649",
+      "31101764",
+      "31043753",
+      "31006511",
+      "30926970",
+      "30926968",
+      "30804563",
+      "30668570",
+      "30293088",
+      "30287866",
+      "30096302",
+      "30054336",
+      "29915430",
+      "29892050",
+      "29892016",
+      "29739930",
+      "29727689",
+      "29632383",
+      "29083409",
+      "28604730",
+      "28025329",
+      "27640304",
+      "27471964",
+      "27459855",
+      "27126046",
+      "27087578",
+      "27087447",
+      "27019110",
+      "26928228",
+      "26854917",
+      "26843070",
+      "26645718",
+      "26618344",
+      "26354892",
+      "26258848",
+      "26014596",
+      "25693563",
+      "23498934",
+      "23374354",
+      "23001124",
+      "22357756",
+      "22343431",
+      "21695229",
+      "19274049",
+      "17701901"
+    ],
+    "similar": [
+      "36402776",
+      "38733992",
+      "37164006",
+      "37245199",
+      "30864331",
+      "35766062",
+      "33831007",
+      "37873299",
+      "33635859",
+      "37415806",
+      "29218884",
+      "34082479",
+      "38515142",
+      "34669946",
+      "38400758",
+      "31402092",
+      "38918950",
+      "34779012",
+      "33058866",
+      "34286847",
+      "35138379",
+      "31429796",
+      "35043938",
+      "31696517",
+      "35175464",
+      "38001381",
+      "35052378",
+      "36179104",
+      "33615361",
+      "33901188",
+      "32574393",
+      "37632791",
+      "29547942",
+      "35334221",
+      "38314955",
+      "31821614",
+      "34626721",
+      "35100255",
+      "34520569",
+      "29808603",
+      "32079541",
+      "35812248",
+      "33482886",
+      "36611863",
+      "38129112",
+      "33909040",
+      "31101764",
+      "35967305",
+      "30926968",
+      "29848177",
+      "37099718",
+      "32833970",
+      "31821608",
+      "31919517",
+      "38104199",
+      "30709929",
+      "35619696",
+      "38769300",
+      "31337639",
+      "37749624",
+      "39189955",
+      "36243959",
+      "36608684",
+      "30287866",
+      "36929942",
+      "34021117",
+      "35933330",
+      "34255882",
+      "36416764",
+      "33340029",
+      "35241742",
+      "34659337",
+      "30993394",
+      "37197658",
+      "36755318",
+      "36174000",
+      "36908940",
+      "38984127",
+      "38845201",
+      "32954640",
+      "35108496",
+      "34142171",
+      "33733352",
+      "34470669",
+      "35523146",
+      "31230729",
+      "36610078",
+      "38846986",
+      "32115800",
+      "34675350",
+      "31455417",
+      "38697998",
+      "31917448",
+      "26854917",
+      "32581322",
+      "38279040",
+      "32818884",
+      "35672318",
+      "35414113",
+      "33691763",
+      "32363570",
+      "34504106",
+      "38701790",
+      "28893853",
+      "30561910",
+      "33369784",
+      "38890564",
+      "37676898",
+      "29915430",
+      "37198407",
+      "38014246",
+      "37486714",
+      "33998598",
+      "37511476",
+      "39266564",
+      "29632383",
+      "36171194",
+      "34981446",
+      "38699333",
+      "38982044",
+      "37576186",
+      "37986797",
+      "37592229",
+      "37658226",
+      "37205487",
+      "38403629",
+      "37769343",
+      "38014125",
+      "37824084",
+      "36798214",
+      "36690614",
+      "37667381",
+      "38160291",
+      "33523132",
+      "33403041",
+      "34317694",
+      "39420631",
+      "37034585",
+      "37766879",
+      "36882394",
+      "37034675"
+    ],
+    "review": [
+      "36402776",
+      "37164006",
+      "38515142",
+      "34779012",
+      "34286847",
+      "31429796",
+      "35052378",
+      "36611863",
+      "30926968",
+      "34659337",
+      "37658226"
+    ],
+    "pmc": [
+      "9675749"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-022-34888-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36402776/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36402776",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

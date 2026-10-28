@@ -1,0 +1,477 @@
+{
+  "identity": {
+    "pmid": "34539644",
+    "doi": "10.3389/fimmu.2021.715072",
+    "title": "Artificial Intelligence Predicts Severity of COVID-19 Based on Correlation of Exaggerated Monocyte Activation, Excessive Organ Damage and Hyperinflammatory Syndrome: A Prospective Clinical Study."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Prediction of the severity of COVID-19 at its onset is important for providing adequate and timely management to reduce mortality. OBJECTIVE: To study the prognostic value of damage parameters and cytokines as predictors of severity of COVID-19 using an extensive immunologic profiling and unbiased artificial intelligence methods. METHODS: Sixty hospitalized COVID-19 patients (30 moderate and 30 severe) and 17 healthy controls were included in the study. The damage indicators high mobility group box 1 (HMGB1), lactate dehydrogenase (LDH), aspartate aminotransferase (AST), alanine aminotransferase (ALT), extensive biochemical analyses, a panel of 47 cytokines and chemokines were analyzed at weeks 1, 2 and 7 along with clinical complaints and CT scans of the lungs. Unbiased artificial intelligence (AI) methods (logistic regression and Support Vector Machine and Random Forest algorithms) were applied to investigate the contribution of each parameter to prediction of the severity of the disease. RESULTS: On admission, the severely ill patients had significantly higher levels of LDH, IL-6, monokine induced by gamma interferon (MIG), D-dimer, fibrinogen, glucose than the patients with moderate disease. The levels of macrophage derived cytokine (MDC) were lower in severely ill patients. Based on artificial intelligence analysis, eight parameters (creatinine, glucose, monocyte number, fibrinogen, MDC, MIG, C-reactive protein (CRP) and IL-6 have been identified that could predict with an accuracy of 83-87% whether the patient will develop severe disease. CONCLUSION: This study identifies the prognostic factors and provides a methodology for making prediction for COVID-19 patients based on widely accepted biomarkers that can be measured in most conventional clinical laboratories worldwide.",
+    "keywords": [
+      "COVID-19",
+      "IL-6",
+      "artificial intelligence",
+      "macrophage derived cytokine",
+      "prediction models"
+    ],
+    "mesh_terms": [
+      "Alanine Transaminase/blood",
+      "Aspartate Aminotransferases/blood",
+      "Biomarkers/analysis",
+      "COVID-19/*pathology",
+      "Cytokines/blood",
+      "Diagnosis, Computer-Assisted/*methods",
+      "Female",
+      "HMGB1 Protein/blood",
+      "Humans",
+      "L-Lactate Dehydrogenase/blood",
+      "Macrophages/immunology",
+      "Male",
+      "Middle Aged",
+      "Monocytes/immunology",
+      "Prognosis",
+      "Prospective Studies",
+      "SARS-CoV-2",
+      "*Severity of Illness Index",
+      "*Support Vector Machine"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Krysko, Olga",
+        "Kondakova, Elena",
+        "Vershinina, Olga",
+        "Galova, Elena",
+        "Blagonravova, Anna",
+        "Gorshkova, Ekaterina",
+        "Bachert, Claus",
+        "Ivanchenko, Mikhail",
+        "Krysko, Dmitri V",
+        "Vedunova, Maria"
+      ],
+      "short_names": [
+        "Krysko O",
+        "Kondakova E",
+        "Vershinina O",
+        "Galova E",
+        "Blagonravova A",
+        "Gorshkova E",
+        "Bachert C",
+        "Ivanchenko M",
+        "Krysko DV",
+        "Vedunova M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Upper Airways Research Laboratory, Department of Head and Skin, Ghent University, Ghent, Belgium.",
+        "Institute of Biology and Biomedicine, National Research Lobachevsky State University of Nizhniy Novgorod, Nizhniy Novgorod, Russia.",
+        "Institute of Information Technology, Mathematics and Mechanics, National Research Lobachevsky State University of Nizhniy Novgorod, Nizhniy Novgorod, Russia.",
+        "Privolzhsky Research Medical University, Nizhny Novgorod, Russia.",
+        "Privolzhsky Research Medical University, Nizhny Novgorod, Russia.",
+        "Institute of Biology and Biomedicine, National Research Lobachevsky State University of Nizhniy Novgorod, Nizhniy Novgorod, Russia.",
+        "Upper Airways Research Laboratory, Department of Head and Skin, Ghent University, Ghent, Belgium.",
+        "Institute of Information Technology, Mathematics and Mechanics, National Research Lobachevsky State University of Nizhniy Novgorod, Nizhniy Novgorod, Russia.",
+        "Institute of Biology and Biomedicine, National Research Lobachevsky State University of Nizhniy Novgorod, Nizhniy Novgorod, Russia.",
+        "Cell Death Investigation and Therapy Laboratory, Department of Human Structure and Repair, Ghent University, Ghent, Belgium.",
+        "Department of Pathophysiology, Sechenov First Moscow State Medical University (Sechenov University), Moscow, Russia.",
+        "Cancer Research Institute, Ghent, Belgium.",
+        "Institute of Biology and Biomedicine, National Research Lobachevsky State University of Nizhniy Novgorod, Nizhniy Novgorod, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Krysko, Olga",
+        "short_name": "Krysko O",
+        "identifiers": [],
+        "affiliations": [
+          "Upper Airways Research Laboratory, Department of Head and Skin, Ghent University, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Kondakova, Elena",
+        "short_name": "Kondakova E",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biology and Biomedicine, National Research Lobachevsky State University of Nizhniy Novgorod, Nizhniy Novgorod, Russia."
+        ]
+      },
+      {
+        "full_name": "Vershinina, Olga",
+        "short_name": "Vershinina O",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Information Technology, Mathematics and Mechanics, National Research Lobachevsky State University of Nizhniy Novgorod, Nizhniy Novgorod, Russia."
+        ]
+      },
+      {
+        "full_name": "Galova, Elena",
+        "short_name": "Galova E",
+        "identifiers": [],
+        "affiliations": [
+          "Privolzhsky Research Medical University, Nizhny Novgorod, Russia."
+        ]
+      },
+      {
+        "full_name": "Blagonravova, Anna",
+        "short_name": "Blagonravova A",
+        "identifiers": [],
+        "affiliations": [
+          "Privolzhsky Research Medical University, Nizhny Novgorod, Russia."
+        ]
+      },
+      {
+        "full_name": "Gorshkova, Ekaterina",
+        "short_name": "Gorshkova E",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biology and Biomedicine, National Research Lobachevsky State University of Nizhniy Novgorod, Nizhniy Novgorod, Russia."
+        ]
+      },
+      {
+        "full_name": "Bachert, Claus",
+        "short_name": "Bachert C",
+        "identifiers": [],
+        "affiliations": [
+          "Upper Airways Research Laboratory, Department of Head and Skin, Ghent University, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Ivanchenko, Mikhail",
+        "short_name": "Ivanchenko M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Information Technology, Mathematics and Mechanics, National Research Lobachevsky State University of Nizhniy Novgorod, Nizhniy Novgorod, Russia."
+        ]
+      },
+      {
+        "full_name": "Krysko, Dmitri V",
+        "short_name": "Krysko DV",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biology and Biomedicine, National Research Lobachevsky State University of Nizhniy Novgorod, Nizhniy Novgorod, Russia.",
+          "Cell Death Investigation and Therapy Laboratory, Department of Human Structure and Repair, Ghent University, Ghent, Belgium.",
+          "Department of Pathophysiology, Sechenov First Moscow State Medical University (Sechenov University), Moscow, Russia.",
+          "Cancer Research Institute, Ghent, Belgium."
+        ]
+      },
+      {
+        "full_name": "Vedunova, Maria",
+        "short_name": "Vedunova M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biology and Biomedicine, National Research Lobachevsky State University of Nizhniy Novgorod, Nizhniy Novgorod, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/21 06:00",
+    "fetched_at": "2026-09-27 23:57:19"
+  },
+  "links": {
+    "cites": [
+      "41496298",
+      "39633683",
+      "39619372",
+      "39575415",
+      "39497098",
+      "37561777",
+      "37378785",
+      "37223650",
+      "36225927",
+      "35838950",
+      "35677047",
+      "35549897"
+    ],
+    "refs": [
+      "34093642",
+      "33939645",
+      "33932751",
+      "33894209",
+      "33845270",
+      "33773396",
+      "33732261",
+      "33553782",
+      "33548798",
+      "33521226",
+      "33479167",
+      "33467466",
+      "33460569",
+      "33424133",
+      "33410720",
+      "33396584",
+      "33382773",
+      "33313438",
+      "33305624",
+      "33303843",
+      "33264547",
+      "33257872",
+      "33244371",
+      "33231615",
+      "33188036",
+      "33040384",
+      "33037188",
+      "32972995",
+      "32959998",
+      "32920514",
+      "32850809",
+      "32814568",
+      "32710975",
+      "32664879",
+      "32661059",
+      "32648899",
+      "32584597",
+      "32555134",
+      "32546191",
+      "32475759",
+      "32475230",
+      "32451808",
+      "32444460",
+      "32407672",
+      "32405603",
+      "32377375",
+      "32353251",
+      "32317203",
+      "32217835",
+      "32217650",
+      "32214079",
+      "32142651",
+      "32091533",
+      "32044814",
+      "31978945",
+      "31609612",
+      "31184204",
+      "31106685",
+      "31101865",
+      "30907085",
+      "27050509",
+      "26953178",
+      "23151605",
+      "17704786",
+      "11390417",
+      "10985257"
+    ],
+    "similar": [
+      "34539644",
+      "33861750",
+      "34858403",
+      "33963559",
+      "32492165",
+      "34163488",
+      "34938289",
+      "32713118",
+      "33350432",
+      "33162345",
+      "33647501",
+      "34539631",
+      "33872186",
+      "32301746",
+      "33491433",
+      "33043447",
+      "33534084",
+      "38378528",
+      "32710975",
+      "33791045",
+      "32540370",
+      "33727024",
+      "32873520",
+      "35622504",
+      "33521616",
+      "32879103",
+      "35179604",
+      "34242184",
+      "34975124",
+      "33900694",
+      "28040364",
+      "32576347",
+      "34678611",
+      "33157267",
+      "33314141",
+      "32164089",
+      "36604799",
+      "32573995",
+      "32437830",
+      "33986318",
+      "21716592",
+      "34238338",
+      "35753029",
+      "32451362",
+      "34855832",
+      "33711574",
+      "34911879",
+      "33851033",
+      "37165346",
+      "34399709",
+      "33988788",
+      "33764883",
+      "34411557",
+      "33811680",
+      "33407216",
+      "32711001",
+      "32769260",
+      "33039937",
+      "35894709",
+      "32860465",
+      "35976368",
+      "33378061",
+      "32475230",
+      "38758852",
+      "32945705",
+      "34663207",
+      "34299080",
+      "33536460",
+      "34275790",
+      "33225509",
+      "39067395",
+      "34462686",
+      "37388734",
+      "38458880",
+      "35844497",
+      "34374346",
+      "34158545",
+      "35888561",
+      "36185918",
+      "36631939",
+      "34489933",
+      "35341062",
+      "37123202",
+      "37319152",
+      "33619362",
+      "35529862",
+      "35566559",
+      "33987944",
+      "33631640",
+      "36668902",
+      "33955253",
+      "38601145",
+      "37041987",
+      "35594023",
+      "36165862",
+      "35443454",
+      "35844615",
+      "34930966",
+      "39106646",
+      "37015978",
+      "33569963",
+      "36967481",
+      "35386702",
+      "36966433",
+      "34091385",
+      "34547582",
+      "38089943",
+      "34391001",
+      "38245638",
+      "35721343",
+      "36189213",
+      "32845042",
+      "34804383",
+      "35177642",
+      "39273719",
+      "37362525",
+      "38263446",
+      "35442475",
+      "33168383",
+      "37576285",
+      "34139154",
+      "34912242",
+      "35054223",
+      "33269361",
+      "39057703",
+      "38779486",
+      "34406249",
+      "37260778",
+      "35386227",
+      "36555872",
+      "38541079",
+      "35434542",
+      "36124024",
+      "36632859",
+      "36530391",
+      "36612278",
+      "38882581",
+      "36143306",
+      "33907345",
+      "32907800",
+      "33246860",
+      "36873473",
+      "36707935",
+      "33585525"
+    ],
+    "review": [
+      "34539644",
+      "32540370",
+      "33521616",
+      "33900694",
+      "33157267",
+      "33711574",
+      "33378061"
+    ],
+    "pmc": [
+      "8442605"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34539644/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34539644",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CXCL9-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1478",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2021.715072",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

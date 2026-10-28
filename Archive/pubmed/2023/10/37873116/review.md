@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv 2023.10.04.560808)
+- **Assessment boundary** Scientific content, methodology, claims, and evidence as presented in the provided text. No supplementary figures, tables, or methods sections were available for detailed inspection beyond what is referenced.
+- **Shared manuscript claim summary** The authors present a single-cell multi-omic atlas of human fibroblast reprogramming to pluripotency, integrated with convolutional neural network models (ChromBPNet) to dissect the cis-regulatory sequence determinants of chromatin dynamics. They report that early reprogramming is driven by supraphysiological OSK concentrations binding low-affinity, non-canonical motifs, that transient elements decay as a function of motif affinity and factor concentration, and that these elements sequester somatic TFs (e.g., AP-1) away from fibroblast-specific sites, quantitatively associating with somatic gene silencing ("repression-by-theft").
+- **Visible evidence base** Main text figures referenced (Fig 1a-g, Fig 2a-d, Fig 3a-f, Fig 4a-e, Fig 5a-f, Fig 6a-g, Fig 7i-v), supplementary figures (Fig S1a-j, S2a-d, S3a-d, S4a-c, S5a-c, S6a, S7a-h, S8a-d, S9a-c, S10a-d), supplementary tables (Table S1, S2), and methods sections as described in text. Specific numerical values, statistical details, and full methodological parameters are not fully available in the provided text.
+- **Missing materials affecting confidence** Full methods section, supplementary figures and tables, exact model architecture and training details, precise statistical test descriptions, and complete data processing pipelines. These are referenced but not provided in the submitted text, limiting independent verification of several quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial and technically sophisticated integration of single-cell chromatin and transcriptome profiling with deep learning-based sequence modeling to address fundamental questions about transcription factor stoichiometry, motif affinity, and syntax during reprogramming. The conceptual advance is significant, particularly the proposal of a quantitative "repression-by-theft" mechanism linking AP-1 sequestration to somatic silencing. The data resources and analytical framework are likely to be of broad interest. However, several key claims, especially those involving quantitative relationships between TF concentration, motif affinity, and chromatin dynamics, require more rigorous validation and clearer presentation of statistical and methodological details. The manuscript is promising but currently does not fully establish all its major conclusions from the evidence provided.
+- **Who would be interested in the results, and why** Researchers in cellular reprogramming, pluripotency, chromatin biology, and gene regulation will find the single-cell atlas and the mechanistic insights into early reprogramming events valuable. The deep learning approach (ChromBPNet) and its application to single-cell ATAC-seq will interest computational biologists developing sequence-to-function models. The "repression-by-theft" hypothesis has implications for understanding transcription factor competition and cellular fate decisions, relevant to developmental biologists and those studying disease-associated transcription factor dysregulation.
+- **Major strengths**
+  1. Dense temporal sampling of single-cell chromatin and transcriptome during reprogramming, including early time points (D1, D2) via multiome, providing a high-resolution view of cell state transitions.
+  2. Integration of base-resolution deep learning (ChromBPNet) with single-cell ATAC-seq to infer TF binding dynamics, including bias correction and de-sparsification, is methodologically advanced.
+  3. The systematic analysis of motif syntax, affinity, and stoichiometry across cell states offers a novel framework for understanding pioneer factor activity.
+  4. The quantitative link between AP-1 sequestration and somatic gene silencing at single-cell level is a compelling and testable hypothesis.
+  5. The study is well-contextualized within existing literature and discusses limitations transparently.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Statistical rigor
+  - **Claim pointer** The claim that "the decay rate of accessibility of these transient elements is a function of motif affinity and OSK concentration" (Abstract, Results section "Duration of transience correlates with motif affinity").
+  - **Evidence pointer** Figure 5e, 5f, and associated text; location not provided for specific statistical tests.
+  - **Concern** The manuscript asserts a quantitative relationship between motif affinity (log-odds scores) and decay rate of accessibility across transient element subsets (COC/E1-3). However, the statistical analysis supporting this is not fully described. It is unclear whether the differences in log-odds distributions between subsets are controlled for confounding factors such as genomic location, chromatin state, or co-binding of other factors. The "surrogate binding saturation curves" (Fig 5f) appear to be descriptive; formal statistical modeling (e.g., mixed-effects models) accounting for variability across cells and peaks is not presented. The claim of a causal relationship between concentration and decay rate requires more rigorous quantitative support.
+  - **Why it matters** This is a central mechanistic claim of the paper. Without robust statistical evidence, the conclusion that decay is quantitatively determined by affinity and concentration is not established, weakening the overall narrative.
+  - **Resolution test** Provide detailed statistical methods, including the exact tests used for comparing log-odds distributions, and demonstrate that the relationship between affinity and decay holds after controlling for potential confounders. Present formal models (e.g., regression) that quantify the contribution of affinity and concentration to decay rate with appropriate confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Model validation
+  - **Claim pointer** The claim that ChromBPNet models accurately predict cell-state-specific ATAC-seq profiles and that DeepLIFT contribution scores reflect TF binding dynamics (Results sections "Base-resolution deep learning models..." and "Transcription factor concentration and motif affinity...").
+  - **Evidence pointer** Figure 3a-d, Figure S3a-d, and text; location not provided for model performance metrics.
+  - **Concern** The manuscript reports high and stable Pearson correlations for model performance, but the specific values, the definition of "high," and the comparison to baseline models are not provided. The validation of DeepLIFT contribution scores as proxies for TF binding is not benchmarked against independent measures (e.g., ChIP-seq, known binding sites). The claim that bias-corrected footprints reflect true TF occupancy, especially for low-affinity sites, requires validation against orthogonal data. The potential for model artifacts or overfitting to sequence features that correlate with, but do not cause, accessibility is not addressed.
+  - **Why it matters** The entire downstream analysis relies on the fidelity of ChromBPNet predictions and contribution scores. If the models are not adequately validated, all conclusions about motif syntax, affinity, and TF dynamics are undermined.
+  - **Resolution test** Provide detailed performance metrics (e.g., Pearson/Spearman correlations, AUPRC) for all cell states, compare against simpler baselines (e.g., k-mer-based models), and validate contribution scores against ChIP-seq data for key TFs (OCT4, SOX2, KLF4, AP-1) at matched time points. Show that bias-corrected footprints at known high-affinity sites are consistent with expected binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / Interpretation
+  - **Claim pointer** The claim that "sequestration of somatic TFs to newly opened regulatory elements" is "strongly associated with the silencing of fibroblast-specific genes within individual nuclei" (Abstract, Results section "Sequestration of AP-1...").
+  - **Evidence pointer** Figure 6g, Figure S10b-d; location not provided for correlation analysis details.
+  - **Concern** The negative correlation (Spearman ⍴= −0.54) between AP-1 sequestration score and fibroblast gene program score is presented as evidence for "repression-by-theft." However, correlation does not establish causation. Alternative explanations, such as a common upstream regulator driving both AP-1 redistribution and gene silencing, or a general stress response to overexpression, are not ruled out. The analysis is performed at the level of individual nuclei, but the dynamic nature of the process (sequestration occurring before silencing) is not directly tested. The specificity of the effect to AP-1 (versus other somatic TFs) is not fully explored.
+  - **Why it matters** The "repression-by-theft" mechanism is a major conceptual contribution. If the association is not causal or is confounded, the interpretation is significantly weakened.
+  - **Resolution test** Perform causal inference analyses (e.g., mediation analysis, perturbation experiments) or at least demonstrate temporal precedence using the multiome data (e.g., show that sequestration precedes silencing in pseudotime). Test whether the effect is specific to AP-1 by analyzing other somatic TF motifs and their sequestration scores.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Reproducibility
+  - **Claim pointer** The claim that "~56% of the scATAC-seq peaks in the xOSK cells... are not accessible in fibroblasts" and similar quantitative statements about peak dynamics (Results section "Peak sets of coordinated chromatin dynamics...").
+  - **Evidence pointer** Figure 4a, Figure S8a; location not provided for peak calling and clustering parameters.
+  - **Concern** The manuscript describes clustering of 525,835 peaks into 20 peak sets and 7 archetypes, but the methods for determining the number of clusters, the stability of these clusters, and the criteria for assigning peaks to sets are not detailed. The quantitative claims about proportions of peaks (e.g., 56%) lack confidence intervals. The robustness of these peak sets to different clustering parameters or data subsampling is not demonstrated.
+  - **Why it matters** The peak set definitions underpin all subsequent analyses of motif enrichment and dynamics. If the clustering is not robust, the conclusions about distinct regulatory syntax and dynamics may be artifacts.
+  - **Resolution test** Provide detailed clustering methodology, including parameter choices and stability analyses (e.g., bootstrap or silhouette scores). Report confidence intervals for proportions of peaks in each set. Show that the major conclusions hold across different clustering resolutions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and early results
+  - **Evidence pointer** Introduction, Figure 1
+  - **Issue** The introduction and initial results section are dense and assume significant prior knowledge of both reprogramming biology and deep learning. The description of ChromBPNet is brief and may be difficult for non-computational readers to follow.
+  - **Required correction** Provide a more accessible explanation of ChromBPNet's architecture and what it learns, perhaps with a schematic in Figure 3. Consider moving some technical details to a dedicated methods section or supplement.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Figure 2a
+  - **Evidence pointer** Figure 2a, text on deconvolution of Sendai transcripts
+  - **Issue** The method for deconvolving endogenous and exogenous (Sendai) OSKM transcripts is described only briefly. The accuracy of this deconvolution is critical for the claims about OSK stoichiometry, but no validation or error analysis is presented.
+  - **Required correction** Describe the deconvolution method in more detail, including any validation steps (e.g., spike-in controls, comparison to known expression levels). Discuss potential errors and their impact on the stoichiometry conclusions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, Figure 7
+  - **Evidence pointer** Discussion, Figure 7i-v
+  - **Issue** The model figure (Figure 7) is a useful summary, but the schematic of "repression-by-theft" could be clearer about the temporal sequence of events and the distinction between direct and indirect effects.
+  - **Required correction** Consider revising the schematic to more explicitly show the proposed causal chain (OSK overexpression → AP-1 redistribution → somatic silencing) and to indicate where evidence is direct versus inferred.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, Figure 3g, Figure S7
+  - **Evidence pointer** Figure 3g, Figure S7a-h
+  - **Issue** The description of "surrogate binding saturation curves" and the interpretation of footprint strength as a function of concentration and affinity is complex. The distinction between predicted and observed footprints may confuse readers.
+  - **Required correction** Clarify the terminology and provide a more intuitive explanation of what these curves represent and why they support the conclusions. Consider simplifying the figure or adding annotations.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of rigorous statistical modeling for the affinity-decay relationship.
+  - R1-M2: Insufficient validation of ChromBPNet predictions and DeepLIFT contribution scores against independent data.
+  - R1-M3: Correlation-based evidence for "repression-by-theft" without causal or temporal support.
+  - R1-M4: Underspecified clustering methodology and lack of robustness analysis for peak sets.
+- **Assessment against Nature-style criteria**
+  - **Originality** High. The integration of single-cell multi-omics with base-resolution deep learning to dissect TF stoichiometry and motif syntax during reprogramming is novel. The "repression-by-theft" hypothesis, while previously suggested, is given a quantitative and single-cell resolution framework here.
+  - **Scientific importance** High. The findings have implications for understanding pioneer factor biology, transcriptional regulation, and cellular reprogramming. The proposed mechanism of somatic TF sequestration could be broadly relevant to other cellular transitions and disease states.
+  - **Interdisciplinary readership** Moderate to high. The topic is of interest to stem cell biologists, chromatin biologists, and computational biologists. However, the technical complexity of the deep learning approach may limit accessibility to a broader biological audience. The clinical or translational relevance is not immediately apparent, which may reduce appeal to a general Nature readership.
+  - **Technical soundness** Moderate. The experimental design and data generation appear sound, but the analytical methods, particularly the statistical validation of key claims and the benchmarking of the deep learning models, are not fully described or validated in the provided text. This is a significant weakness that must be addressed.
+  - **Readability for nonspecialists** Moderate. The abstract and introduction are relatively clear, but the results sections are dense and technical. The manuscript would benefit from clearer explanations of the computational methods and more intuitive figure presentations.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a potentially important advance, but the major claims are not fully established from the provided evidence. The authors must address the statistical rigor of the affinity-decay analysis, validate the deep learning models against independent data, provide causal or temporal evidence for the "repression-by-theft" mechanism, and detail the clustering methodology. If these concerns are adequately resolved, the manuscript could be suitable for a high-impact journal.
+
+## Risk / unsupported claims
+- The quantitative relationship between motif affinity and decay rate of transient elements (R1-M1) is not statistically established.
+- The accuracy of ChromBPNet predictions and the biological validity of DeepLIFT contribution scores as measures of TF binding are not validated against independent data (R1-M2).
+- The causal role of AP-1 sequestration in somatic gene silencing is not demonstrated; the observed correlation could be confounded (R1-M3).
+- The robustness of the 20 peak sets and 7 archetypes to clustering parameters is not shown (R1-M4).
+- The claim that transient elements are "unique to reprogramming" (Results section "Early Transient peaks are unique...") is based on comparison to a reference DHS index, but the completeness and relevance of this comparison are not fully discussed. The absence of peaks in the DHS index could be due to technical limitations of the index rather than true uniqueness.
+- The statement that "sustained expression of reprogramming factors at or beyond their levels in iPSCs may be critical to avoid partial reprogramming" is speculative and not directly tested.
+- The generalizability of the "repression-by-theft" mechanism beyond the specific cell types and factors studied is not established.

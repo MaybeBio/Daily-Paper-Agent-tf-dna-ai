@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36335101",
+  "title": "Learning the histone codes with large genomic windows and three-dimensional chromatin interactions using transformer.",
+  "authors": "Lee, Dohoon; Yang, Jeewon; Kim, Sun",
+  "journal": "Nature communications",
+  "published_date": "2022-11-06",
+  "window": {
+    "start": "2022-10-31",
+    "end": "2022-11-06"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用Transformer建模组蛋白修饰与三维染色质互作预测基因表达，虽涉及染色质调控但非蛋白质-DNA互作或TF-DNA结合体系，且无AI/物理模拟方法用于蛋白-DNA结合建模，仅间接相关。",
+  "abstract": "The quantitative characterization of the transcriptional control by histone modifications has been challenged by many computational studies, but most of them only focus on narrow and linear genomic regions around promoters, leaving a room for improvement. We present Chromoformer, a transformer-based, three-dimensional chromatin conformation-aware deep learning architecture that achieves the state-of-the-art performance in the quantitative deciphering of the histone codes in gene regulation. The core essence of Chromoformer architecture lies in the three variants of attention operation, each specialized to model individual hierarchy of transcriptional regulation involving from core promoters to distal elements in contact with promoters through three-dimensional chromatin interactions. In-depth interpretation of Chromoformer reveals that it adaptively utilizes the long-range dependencies between histone modifications associated with transcription initiation and elongation. We also show that the quantitative kinetics of transcription factories and Polycomb group bodies can be captured by Chromoformer. Together, our study highlights the great advantage of attention-based deep modeling of complex interactions in epigenomes.",
+  "abstract_zh": "组蛋白修饰对转录调控的定量表征一直受到许多计算研究的挑战，但大多数研究仅聚焦于启动子周围的狭窄线性基因组区域，仍有改进空间。我们提出了Chromoformer，一种基于Transformer的三维染色质构象感知深度学习架构，在基因调控中组蛋白密码的定量解读方面达到了最先进性能。Chromoformer架构的核心本质在于三种注意力操作的变体，每种专门建模从核心启动子到通过三维染色质相互作用与启动子接触的远端元件的转录调控的各个层级。对Chromoformer的深入解读揭示，它自适应地利用与转录起始和延伸相关的组蛋白修饰之间的长程依赖性。我们还表明，转录工厂和Polycomb群体的定量动力学可由Chromoformer捕获。总之，我们的研究突显了基于注意力的深度建模在表观基因组复杂相互作用中的巨大优势。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36335101/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36335101/",
+  "paper_page_path": "papers/pubmed/36335101/index.html"
+}

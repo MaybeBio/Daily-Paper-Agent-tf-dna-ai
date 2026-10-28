@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "38566111",
+    "doi": "10.1186/s13059-024-03221-x",
+    "title": "Species-aware DNA language models capture regulatory elements and their evolution."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The rise of large-scale multi-species genome sequencing projects promises to shed new light on how genomes encode gene regulatory instructions. To this end, new algorithms are needed that can leverage conservation to capture regulatory elements while accounting for their evolution. RESULTS: Here, we introduce species-aware DNA language models, which we trained on more than 800 species spanning over 500 million years of evolution. Investigating their ability to predict masked nucleotides from context, we show that DNA language models distinguish transcription factor and RNA-binding protein motifs from background non-coding sequence. Owing to their flexibility, DNA language models capture conserved regulatory elements over much further evolutionary distances than sequence alignment would allow. Remarkably, DNA language models reconstruct motif instances bound in vivo better than unbound ones and account for the evolution of motif sequences and their positional constraints, showing that these models capture functional high-order sequence and evolutionary context. We further show that species-aware training yields improved sequence representations for endogenous and MPRA-based gene expression prediction, as well as motif discovery. CONCLUSIONS: Collectively, these results demonstrate that species-aware DNA language models are a powerful, flexible, and scalable tool to integrate information from large compendia of highly diverged genomes.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Regulatory Sequences, Nucleic Acid",
+      "*DNA",
+      "Sequence Alignment",
+      "Algorithms",
+      "Conserved Sequence/genetics",
+      "Evolution, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Karollus, Alexander",
+        "Hingerl, Johannes",
+        "Gankin, Dennis",
+        "Grosshauser, Martin",
+        "Klemon, Kristian",
+        "Gagneur, Julien"
+      ],
+      "short_names": [
+        "Karollus A",
+        "Hingerl J",
+        "Gankin D",
+        "Grosshauser M",
+        "Klemon K",
+        "Gagneur J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7570-7877"
+      ],
+      "affiliations": [
+        "School of Computation, Information and Technology, Technical University of Munich, Garching, Germany.",
+        "Munich Center for Machine Learning, Munich, Germany.",
+        "School of Computation, Information and Technology, Technical University of Munich, Garching, Germany.",
+        "School of Computation, Information and Technology, Technical University of Munich, Garching, Germany.",
+        "School of Computation, Information and Technology, Technical University of Munich, Garching, Germany.",
+        "School of Computation, Information and Technology, Technical University of Munich, Garching, Germany.",
+        "School of Computation, Information and Technology, Technical University of Munich, Garching, Germany. gagneur@in.tum.de.",
+        "Munich Center for Machine Learning, Munich, Germany. gagneur@in.tum.de.",
+        "Institute of Human Genetics, School of Medicine and Health, Technical University of Munich, Munich, Germany. gagneur@in.tum.de.",
+        "Computational Health Center, Helmholtz Center Munich, Neuherberg, Germany. gagneur@in.tum.de.",
+        "Munich Data Science Institute, Technical University of Munich, Garching, Germany. gagneur@in.tum.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Karollus, Alexander",
+        "short_name": "Karollus A",
+        "identifiers": [
+          "0000-0001-7570-7877"
+        ],
+        "affiliations": [
+          "School of Computation, Information and Technology, Technical University of Munich, Garching, Germany.",
+          "Munich Center for Machine Learning, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Hingerl, Johannes",
+        "short_name": "Hingerl J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computation, Information and Technology, Technical University of Munich, Garching, Germany."
+        ]
+      },
+      {
+        "full_name": "Gankin, Dennis",
+        "short_name": "Gankin D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computation, Information and Technology, Technical University of Munich, Garching, Germany."
+        ]
+      },
+      {
+        "full_name": "Grosshauser, Martin",
+        "short_name": "Grosshauser M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computation, Information and Technology, Technical University of Munich, Garching, Germany."
+        ]
+      },
+      {
+        "full_name": "Klemon, Kristian",
+        "short_name": "Klemon K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computation, Information and Technology, Technical University of Munich, Garching, Germany."
+        ]
+      },
+      {
+        "full_name": "Gagneur, Julien",
+        "short_name": "Gagneur J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computation, Information and Technology, Technical University of Munich, Garching, Germany. gagneur@in.tum.de.",
+          "Munich Center for Machine Learning, Munich, Germany. gagneur@in.tum.de.",
+          "Institute of Human Genetics, School of Medicine and Health, Technical University of Munich, Munich, Germany. gagneur@in.tum.de.",
+          "Computational Health Center, Helmholtz Center Munich, Neuherberg, Germany. gagneur@in.tum.de.",
+          "Munich Data Science Institute, Technical University of Munich, Garching, Germany. gagneur@in.tum.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2024 Apr 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/03 00:44",
+    "fetched_at": "2026-09-29 18:05:50"
+  },
+  "links": {
+    "cites": [
+      "42656278",
+      "42509369",
+      "41676719",
+      "41629344",
+      "41606153",
+      "41556344",
+      "41555097",
+      "41537311",
+      "41394079",
+      "41383767",
+      "41301211",
+      "41282136",
+      "41073788",
+      "41022589",
+      "41000812",
+      "40966500",
+      "40809782",
+      "40799805",
+      "40719915",
+      "40660356",
+      "40626041",
+      "40463199",
+      "39905233",
+      "39840283",
+      "39416135",
+      "39386557",
+      "39362779",
+      "39358547",
+      "39333252",
+      "39322281",
+      "39070037",
+      "38464101"
+    ],
+    "refs": [
+      "37883436",
+      "37262161",
+      "37104570",
+      "35190730",
+      "35042801",
+      "34845350",
+      "34791404",
+      "33911273",
+      "33760053",
+      "33692541",
+      "33538820",
+      "33262328",
+      "33219055",
+      "31032841",
+      "30251908",
+      "29563167",
+      "29248374",
+      "28974235",
+      "28850106",
+      "28802259",
+      "28320951",
+      "26883383",
+      "26587879",
+      "25875337",
+      "25504712",
+      "24169404",
+      "24119399",
+      "23799026",
+      "23795289",
+      "23654277",
+      "23615609",
+      "23562153",
+      "22955616",
+      "22102575",
+      "21931670",
+      "21914852",
+      "21886479",
+      "20923774",
+      "20625544",
+      "20083321",
+      "20047961",
+      "20003500",
+      "18586710",
+      "18584029",
+      "17188034",
+      "17021158",
+      "16809671",
+      "16024819",
+      "15883364",
+      "15693947",
+      "12748633",
+      "11455386",
+      "10944202",
+      "10850490",
+      "8670622",
+      "5637732"
+    ],
+    "similar": [
+      "38566111",
+      "16716228",
+      "19293946",
+      "35410163",
+      "15590941",
+      "10854408",
+      "14659006",
+      "17053093",
+      "18428790",
+      "17381235",
+      "17540681",
+      "12748633",
+      "21912528",
+      "23303791",
+      "19284541",
+      "12775844",
+      "14672977",
+      "20661307",
+      "16477324",
+      "17785540",
+      "21470961",
+      "26254488",
+      "12799348",
+      "12834164",
+      "17286865",
+      "17201929",
+      "21092170",
+      "19128492",
+      "38030727",
+      "15215384",
+      "17662135",
+      "17137509",
+      "14629780",
+      "18307801",
+      "25873371",
+      "36342464",
+      "14668220",
+      "18535663",
+      "18485226",
+      "15921531",
+      "17993685",
+      "18586710",
+      "17377845",
+      "20659275",
+      "17993689",
+      "14993211",
+      "17341494",
+      "30286077",
+      "20047961",
+      "15062796",
+      "21068212",
+      "27701403",
+      "16452803",
+      "12082130",
+      "19132088",
+      "11230160",
+      "15655071",
+      "17686169",
+      "33239788",
+      "29618053",
+      "26020930",
+      "21821017",
+      "19893611",
+      "15998734",
+      "12724540",
+      "9571157",
+      "11827949",
+      "27412606",
+      "21187896",
+      "17274809",
+      "23482485",
+      "15215389",
+      "16873477",
+      "17660203",
+      "34649930",
+      "21571672",
+      "19913403",
+      "17997594",
+      "18282512",
+      "23636946",
+      "17893078",
+      "17963524",
+      "17914226",
+      "16542424",
+      "16522199",
+      "24773316",
+      "11483574",
+      "19958507",
+      "19259274",
+      "18245880",
+      "16643658",
+      "18245871",
+      "17787058",
+      "16792801",
+      "16729895",
+      "20144609",
+      "16284194",
+      "26482678",
+      "22402505",
+      "26721389"
+    ],
+    "review": [
+      "38566111",
+      "23482485",
+      "19913403",
+      "18282512",
+      "16643658"
+    ],
+    "pmc": [
+      "10985990"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03221-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38566111/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38566111",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

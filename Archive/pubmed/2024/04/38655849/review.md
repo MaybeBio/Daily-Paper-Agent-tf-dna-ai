@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, and materials and methods sections.
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based solely on the provided manuscript content. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors report that PURA syndrome-causing mutations impair PUR-domain integrity and affect P-body association. They provide crystal structures of human PURA N- and C-terminal PUR domains, show that patient-derived mutations (K97E, I140P, F233del, R199P, R245P) affect folding, RNA binding, dimerization, and P-body localization, and propose that the structural flexibility of PUR domains explains the high penetrance of mutations across the protein.
+- **Visible evidence base** Abstract, Introduction, Results (including figure descriptions), Discussion, Materials and methods, and Data availability statements. Figures and supplementary files are referenced but not directly viewable.
+- **Missing materials affecting confidence** Actual figures, figure supplements, and supplementary files (e.g., Supplementary file 1a, 1b) are not provided. Raw data, statistical analyses, and detailed experimental replicates are not accessible. This limits full verification of quantitative claims and image quality.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a valuable structural and functional analysis of human PURA and its disease-associated variants. The combination of cellular localization studies, biophysical assays, and crystal structures provides a compelling framework for understanding PURA syndrome pathogenesis. The observation that PURA domains exhibit structural flexibility and that mutations can cause misfolding or functional impairment without global unfolding is interesting and potentially important. However, several claims, particularly regarding the correlation between in vitro defects and patient pathogenicity, are based on a limited number of variants and would benefit from additional validation. The manuscript is generally well-written and the data, as described, appear to support the main conclusions, though access to the actual figures is necessary for full assessment.
+- **Who would be interested in the results, and why** Researchers in the fields of neurodevelopmental disorders, RNA biology, and structural biology would find this work relevant. Specifically, those studying PURA syndrome, P-body function, and the molecular consequences of disease mutations on protein structure and dynamics would be interested. The study also has implications for understanding genotype-phenotype correlations in monogenic disorders.
+- **Major strengths** 1. The study provides the first experimental structures of human PURA domains, which are important resources for the field. 2. The combination of cellular, biophysical, and structural methods is comprehensive and provides a multi-layered view of mutation effects. 3. The identification of P-body localization defects as a potential pathogenic mechanism is a novel and interesting finding. 4. The study offers a plausible structural explanation for the high penetrance of diverse mutations across the PURA sequence.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence support for a central claim
+  - **Claim pointer** The authors claim that "patient-derived variants show impaired P-body association of hsPURA" and that this is a potential mechanism for PURA syndrome.
+  - **Evidence pointer** Results section, Figure 2A, 2B.
+  - **Concern** The claim of impaired P-body association is based on overexpression of mutant proteins in HeLa cells. The manuscript does not provide details on whether the expression levels of the mutants are comparable to wild-type, or whether the observed reduction in co-localization is due to protein misfolding and aggregation rather than a specific defect in P-body targeting. Furthermore, the functional significance of this reduced association for P-body biology is not directly tested.
+  - **Why it matters** This is a key novel finding of the paper. If the effect is non-specific (e.g., due to protein aggregation), the conclusion that P-body mislocalization is a core pathogenic mechanism would be weakened. The lack of functional assays (e.g., measuring P-body formation or mRNA decay) makes it difficult to assess the biological relevance of the observed co-localization changes.
+  - **Resolution test** Provide quantitative data on expression levels of wild-type and mutant proteins. Include a control with a known aggregation-prone mutant. Perform functional assays, such as measuring P-body numbers or size in cells expressing the mutants, or assessing the interaction of PURA mutants with known P-body components.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural claims
+  - **Claim pointer** The authors state that the N-terminal PUR domain shows "great flexibility in its domain fold" and that the K97E mutation induces "promiscuous domain folding" based on crystal structures and MD simulations.
+  - **Evidence pointer** Results section, Figures 4B, 5B-E, Figure 5—figure supplement 2, and Materials and methods.
+  - **Concern** The interpretation of structural flexibility and "promiscuous folding" is based on comparisons of multiple molecules in the asymmetric unit of crystal structures. While this can indicate conformational variability, it is not a direct measure of dynamics in solution. The MD simulations are described as supporting this, but the details of the simulations (e.g., force field validation, convergence, and analysis) are not provided in sufficient depth. The claim that the K97E mutation causes a "shift of register" in β-strands is a significant structural change, and it is unclear if this is a robust finding or an artifact of crystal packing.
+  - **Why it matters** The central thesis of the paper is that PURA is structurally flexible and susceptible to mutations. If the evidence for this flexibility is not robust, the explanatory model for high mutation penetrance is weakened.
+  - **Resolution test** Provide more detailed analysis of the MD simulations, including convergence checks and a comparison of the conformational ensembles of WT and K97E. Validate the "shift of register" observation with additional biophysical techniques, such as NMR relaxation dispersion or hydrogen-deuterium exchange, to probe dynamics in solution.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of findings
+  - **Claim pointer** The authors suggest that their findings "offer a structural explanation for why so many genetic variations across the sequence of hsPURA result in the full disease spectrum."
+  - **Evidence pointer** Discussion section.
+  - **Concern** This claim is based on the analysis of a very small number of variants (K97E, R140P, F233del, R199P, R245P). While the authors show that some of these mutations affect folding or function, it is a significant extrapolation to conclude that this is a general mechanism for all pathogenic mutations across the entire protein. Many mutations could affect other functions, such as protein-protein interactions or subcellular localization signals, without necessarily causing gross structural changes.
+  - **Why it matters** The paper aims to provide a unifying model for the high penetrance of PURA mutations. Overstating the generalizability of the findings could mislead future research and clinical interpretation.
+  - **Resolution test** Acknowledge the limited number of variants tested and temper the general claim. Alternatively, provide additional data on a larger panel of mutations, including those in different structural regions, to support the model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Results section, Figure 1C
+  - **Evidence pointer** Figure 1C
+  - **Issue** The quantification of stress-granule co-localization is mentioned but the statistical details (e.g., number of cells, replicates, statistical test used) are not described in the text.
+  - **Required correction** Add a brief description of the quantification method and statistical analysis in the figure legend or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Materials and methods, Molecular dynamics simulations
+  - **Evidence pointer** Materials and methods section
+  - **Issue** The description of the MD simulations is brief. Details on the simulation length, temperature coupling, and analysis of the "statistically significant differences" are missing.
+  - **Required correction** Provide more details on the simulation parameters and the statistical analysis used to compare WT and K97E fluctuations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Discussion, R140P variant
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors conclude that R140P is "likely benign" based on their assays. However, the variant is listed as "uncertain significance" in ClinVar. The manuscript could more clearly state that while the data suggest it is benign, clinical interpretation should be cautious.
+  - **Required correction** Soften the conclusion regarding R140P and explicitly state the limitations of the in vitro assays for clinical classification.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of quantitative data and statistical analysis for the P-body co-localization experiments (R1-M1). 2. Insufficient detail on MD simulation methods and analysis to support the claim of "promiscuous folding" (R1-M2). 3. The general claim about all PURA mutations is not supported by the limited number of variants tested (R1-M3).
+- **Assessment against Nature-style criteria** **Originality:** The study is original in providing the first experimental structures of human PURA domains and linking structural flexibility to disease penetrance. **Scientific importance:** The findings are important for understanding PURA syndrome and potentially other monogenic disorders where mutations are broadly distributed. **Interdisciplinary readership:** The work will appeal to structural biologists, cell biologists, and clinical geneticists. **Technical soundness:** The technical approaches are generally sound, but the lack of detailed methods for some experiments (e.g., MD simulations) and the limited functional validation of P-body defects are weaknesses. **Readability for nonspecialists:** The manuscript is well-written and the concepts are explained clearly, making it accessible to a broad scientific audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially significant, but the concerns regarding the specificity of the P-body localization defect and the robustness of the structural flexibility claims need to be addressed with additional data and analysis.
+
+## Risk / unsupported claims
+- The claim that impaired P-body association is a direct pathogenic mechanism for PURA syndrome is not fully supported, as the functional consequences of reduced co-localization were not tested.
+- The claim that the structural flexibility of PURA domains explains the high penetrance of all mutations across the protein is an extrapolation from a small number of variants and is not fully supported.
+- The conclusion that R140P is "likely benign" is based on in vitro assays and should be tempered given its "uncertain significance" in clinical databases.

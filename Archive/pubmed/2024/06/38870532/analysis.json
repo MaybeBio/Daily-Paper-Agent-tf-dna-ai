@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38870532",
+  "title": "Supervised learning of enhancer-promoter specificity based on genome-wide perturbation studies highlights areas for improvement in learning.",
+  "authors": "Barth, Dylan; Van, Richard; Cardwell, Jonathan; Han, Mira V",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2024-06-13",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习整合增强子扰动与TF/组蛋白ChIP-seq数据预测增强子-启动子关系，虽涉及TF-DNA结合特征但非核心TF-DNA互作建模，方法可迁移但深度有限。",
+  "abstract": "MOTIVATION: Understanding the rules that govern enhancer-driven transcription remains a central unsolved problem in genomics. Now with multiple massively parallel enhancer perturbation assays published, there are enough data that we can utilize to learn to predict enhancer-promoter (EP) relationships in a data-driven manner. RESULTS: We applied machine learning to one of the largest enhancer perturbation studies integrated with transcription factor (TF) and histone modification ChIP-seq. The results uncovered a discrepancy in the prediction of genome-wide data compared to data from targeted experiments. Relative strength of contact was important for prediction, confirming the basic principle of EP regulation. Novel features such as the density of the enhancers/promoters in the genomic region was found to be important, highlighting our lack of understanding on how other elements in the region contribute to the regulation. Several TF peaks were identified that improved the prediction by identifying the negatives and reducing False Positives. In summary, integrating genomic assays with enhancer perturbation studies increased the accuracy of the model, and provided novel insights into the understanding of enhancer-driven transcription. AVAILABILITY AND IMPLEMENTATION: The trained models, data, and the source code are available at http://doi.org/10.5281/zenodo.11290386 and https://github.com/HanLabUNLV/sleps.",
+  "abstract_zh": "动机：理解调控增强子驱动转录的规则仍是基因组学中一个核心未解问题。随着多个大规模平行增强子扰动实验的发表，现有数据已足够我们利用以数据驱动的方式学习预测增强子-启动子（enhancer-promoter, EP）关系。结果：我们将机器学习应用于一项最大的增强子扰动研究之一，该研究整合了转录因子（transcription factor, TF）和组蛋白修饰ChIP-seq数据。结果揭示了全基因组数据预测与靶向实验数据预测之间的差异。接触的相对强度对预测至关重要，确认了EP调控的基本原理。发现增强子/启动子在基因组区域中的密度等新特征具有重要意义，突显了我们对区域中其他元件如何参与调控的理解不足。识别出几个TF峰，通过识别阴性样本和减少假阳性提高了预测性能。总之，将基因组测定与增强子扰动研究整合提高了模型准确性，并为理解增强子驱动的转录提供了新见解。可用性与实现：训练好的模型、数据和源代码可在 http://doi.org/10.5281/zenodo.11290386 和 https://github.com/HanLabUNLV/sleps 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38870532/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38870532/",
+  "paper_page_path": "papers/pubmed/38870532/index.html"
+}

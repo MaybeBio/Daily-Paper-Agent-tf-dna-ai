@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "40751912",
+    "doi": "10.1016/j.celrep.2025.116089",
+    "title": "Single-cell multiomics reveals the oscillatory dynamics of mRNA metabolism and chromatin accessibility during the cell cycle."
+  },
+  "content": {
+    "abstract": "The cell cycle is a tightly regulated process that requires precise temporal expression of thousands of cell-cycle-dependent genes. However, the genome-wide dynamics of mRNA metabolism throughout the cell cycle remain uncharacterized. Here, we combined single-cell multiome sequencing, biophysical modeling, and deep learning to quantify rates of mRNA transcription, splicing, nuclear export, and degradation. Our approach revealed that both transcriptional and post-transcriptional processes exhibit distinct oscillatory waves at specific cell cycle phases, with post-transcriptional regulation playing a prominent role in shaping mRNA accumulation. We also observed dynamic changes in chromatin accessibility and transcription factor binding footprints, identifying key regulators underlying the oscillatory dynamics of mRNA. Taken together, the results of our approach uncovered a high-resolution map of RNA metabolism dynamics and chromatin accessibility, offering new insights into the temporal control of gene expression in proliferating cells.",
+    "keywords": [
+      "(post-)transcriptional kinetics",
+      "CP: Molecular biology",
+      "cell cycle",
+      "chromatin accessibility dynamics",
+      "gene expression dynamics",
+      "mESCs",
+      "mRNA metabolism",
+      "single-cell multiomics",
+      "trajectory inference"
+    ],
+    "mesh_terms": [
+      "*Chromatin/metabolism",
+      "*RNA, Messenger/metabolism/genetics",
+      "*Single-Cell Analysis/methods",
+      "*Cell Cycle/genetics",
+      "Humans",
+      "Transcription, Genetic",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nariya, Maulik K",
+        "Santiago-Algarra, David",
+        "Tassy, Olivier",
+        "Cerciat, Marie",
+        "Ye, Tao",
+        "Riba, Andrea",
+        "Molina, Nacho"
+      ],
+      "short_names": [
+        "Nariya MK",
+        "Santiago-Algarra D",
+        "Tassy O",
+        "Cerciat M",
+        "Ye T",
+        "Riba A",
+        "Molina N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), Illkirch, France; Centre National de la Recherche Scientifique (CNRS), UMR 7104, Illkirch, France; Institut National de Sante et de Recherche Medicale (ISERM), UMR-S 1258, Illkirch, France; Universite de Strasbourg, IGBMC UMR 7104-UMR-S 1258, Illkirch, France. Electronic address: nariyam@igbmc.fr.",
+        "Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), Illkirch, France; Centre National de la Recherche Scientifique (CNRS), UMR 7104, Illkirch, France; Institut National de Sante et de Recherche Medicale (ISERM), UMR-S 1258, Illkirch, France; Universite de Strasbourg, IGBMC UMR 7104-UMR-S 1258, Illkirch, France.",
+        "Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), Illkirch, France; Centre National de la Recherche Scientifique (CNRS), UMR 7104, Illkirch, France; Institut National de Sante et de Recherche Medicale (ISERM), UMR-S 1258, Illkirch, France; Universite de Strasbourg, IGBMC UMR 7104-UMR-S 1258, Illkirch, France.",
+        "Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), Illkirch, France; Centre National de la Recherche Scientifique (CNRS), UMR 7104, Illkirch, France; Institut National de Sante et de Recherche Medicale (ISERM), UMR-S 1258, Illkirch, France; Universite de Strasbourg, IGBMC UMR 7104-UMR-S 1258, Illkirch, France.",
+        "Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), Illkirch, France; Centre National de la Recherche Scientifique (CNRS), UMR 7104, Illkirch, France; Institut National de Sante et de Recherche Medicale (ISERM), UMR-S 1258, Illkirch, France; Universite de Strasbourg, IGBMC UMR 7104-UMR-S 1258, Illkirch, France.",
+        "Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), Illkirch, France; Centre National de la Recherche Scientifique (CNRS), UMR 7104, Illkirch, France; Institut National de Sante et de Recherche Medicale (ISERM), UMR-S 1258, Illkirch, France; Universite de Strasbourg, IGBMC UMR 7104-UMR-S 1258, Illkirch, France.",
+        "Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), Illkirch, France; Centre National de la Recherche Scientifique (CNRS), UMR 7104, Illkirch, France; Institut National de Sante et de Recherche Medicale (ISERM), UMR-S 1258, Illkirch, France; Universite de Strasbourg, IGBMC UMR 7104-UMR-S 1258, Illkirch, France. Electronic address: molinan@igbmc.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nariya, Maulik K",
+        "short_name": "Nariya MK",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), Illkirch, France; Centre National de la Recherche Scientifique (CNRS), UMR 7104, Illkirch, France; Institut National de Santé et de Recherche Médicale (ISERM), UMR-S 1258, Illkirch, France; Université de Strasbourg, IGBMC UMR 7104-UMR-S 1258, Illkirch, France. Electronic address: nariyam@igbmc.fr."
+        ]
+      },
+      {
+        "full_name": "Santiago-Algarra, David",
+        "short_name": "Santiago-Algarra D",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), Illkirch, France; Centre National de la Recherche Scientifique (CNRS), UMR 7104, Illkirch, France; Institut National de Santé et de Recherche Médicale (ISERM), UMR-S 1258, Illkirch, France; Université de Strasbourg, IGBMC UMR 7104-UMR-S 1258, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Tassy, Olivier",
+        "short_name": "Tassy O",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), Illkirch, France; Centre National de la Recherche Scientifique (CNRS), UMR 7104, Illkirch, France; Institut National de Santé et de Recherche Médicale (ISERM), UMR-S 1258, Illkirch, France; Université de Strasbourg, IGBMC UMR 7104-UMR-S 1258, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Cerciat, Marie",
+        "short_name": "Cerciat M",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), Illkirch, France; Centre National de la Recherche Scientifique (CNRS), UMR 7104, Illkirch, France; Institut National de Santé et de Recherche Médicale (ISERM), UMR-S 1258, Illkirch, France; Université de Strasbourg, IGBMC UMR 7104-UMR-S 1258, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Ye, Tao",
+        "short_name": "Ye T",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), Illkirch, France; Centre National de la Recherche Scientifique (CNRS), UMR 7104, Illkirch, France; Institut National de Santé et de Recherche Médicale (ISERM), UMR-S 1258, Illkirch, France; Université de Strasbourg, IGBMC UMR 7104-UMR-S 1258, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Riba, Andrea",
+        "short_name": "Riba A",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), Illkirch, France; Centre National de la Recherche Scientifique (CNRS), UMR 7104, Illkirch, France; Institut National de Santé et de Recherche Médicale (ISERM), UMR-S 1258, Illkirch, France; Université de Strasbourg, IGBMC UMR 7104-UMR-S 1258, Illkirch, France."
+        ]
+      },
+      {
+        "full_name": "Molina, Nacho",
+        "short_name": "Molina N",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), Illkirch, France; Centre National de la Recherche Scientifique (CNRS), UMR 7104, Illkirch, France; Institut National de Santé et de Recherche Médicale (ISERM), UMR-S 1258, Illkirch, France; Université de Strasbourg, IGBMC UMR 7104-UMR-S 1258, Illkirch, France. Electronic address: molinan@igbmc.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports"
+    ],
+    "journal_abbrev": [
+      "Cell Rep"
+    ],
+    "pub_date": "2025 Aug 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/03 03:46",
+    "fetched_at": "2026-09-30 22:50:42"
+  },
+  "links": {
+    "cites": [
+      "42589495",
+      "41488354"
+    ],
+    "refs": [],
+    "similar": [
+      "40751912",
+      "38778223",
+      "37722500",
+      "36735940",
+      "41087739",
+      "40063068",
+      "38012720",
+      "30166440",
+      "36857184",
+      "39905485",
+      "40577680",
+      "40598278",
+      "31136738",
+      "27364684",
+      "41315351",
+      "39198388",
+      "35695574",
+      "32929225",
+      "40911150",
+      "41266355",
+      "38940155",
+      "26083756",
+      "40707954",
+      "41104806",
+      "23034120",
+      "36250630",
+      "39121860",
+      "27681430",
+      "38956662",
+      "28771467",
+      "21364973",
+      "27365425",
+      "34650278",
+      "38781959",
+      "39878215",
+      "38280850",
+      "41093852",
+      "38664790",
+      "33894228",
+      "37568210",
+      "27879202",
+      "34016988",
+      "31806706",
+      "28972179",
+      "34687484",
+      "39700048",
+      "24109597",
+      "38964322",
+      "33633365",
+      "32699019",
+      "40883263",
+      "40042873",
+      "31597106",
+      "37114830",
+      "36965484",
+      "41481707",
+      "34686316",
+      "32139547",
+      "31527794",
+      "32051232",
+      "41120274",
+      "26655523",
+      "25373146",
+      "37655806",
+      "20305391",
+      "20625907",
+      "39376034",
+      "40240003",
+      "36902216",
+      "38353329",
+      "34390642",
+      "40468596",
+      "36495456",
+      "30795893",
+      "25446273",
+      "39916216",
+      "40060638",
+      "39993185",
+      "37723297",
+      "32312289",
+      "23959860",
+      "33205894",
+      "23209382",
+      "22806141",
+      "33930315",
+      "30257851",
+      "25263594",
+      "38092913",
+      "39266564",
+      "33104788",
+      "40262617",
+      "31201211",
+      "39766899",
+      "25373614",
+      "37824614",
+      "33602870",
+      "25775193",
+      "12415002",
+      "37336330",
+      "38254205"
+    ],
+    "review": [
+      "40751912",
+      "32929225",
+      "33894228",
+      "37655806",
+      "20625907"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211-1247(25)00860-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

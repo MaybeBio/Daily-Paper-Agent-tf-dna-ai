@@ -1,0 +1,452 @@
+{
+  "identity": {
+    "pmid": "34810266",
+    "doi": "10.1073/pnas.2112940118",
+    "title": "Scaling concepts in 'omics: Nuclear lamin-B scales with tumor growth and often predicts poor prognosis, unlike fibrosis."
+  },
+  "content": {
+    "abstract": "Physicochemical principles such as stoichiometry and fractal assembly can give rise to characteristic scaling between components that potentially include coexpressed transcripts. For key structural factors within the nucleus and extracellular matrix, we discover specific gene-gene scaling exponents across many of the 32 tumor types in The Cancer Genome Atlas, and we demonstrate utility in predicting patient survival as well as scaling-informed machine learning (SIML). All tumors with adjacent tissue data show cancer-elevated proliferation genes, with some genes scaling with the nuclear filament LMNB1, including the transcription factor FOXM1 that we show directly regulates LMNB1 SIML shows that such regulated cancers cluster together with longer overall survival than dysregulated cancers, but high LMNB1 and FOXM1 in half of regulated cancers surprisingly predict poor survival, including for liver cancer. COL1A1 is also studied because it too increases in tumors, and a pan-cancer set of fibrosis genes shows substoichiometric scaling with COL1A1 but predicts patient outcome only for liver cancer-unexpectedly being prosurvival. Single-cell RNA-seq data show nontrivial scaling consistent with power laws from bulk RNA and protein analyses, and SIML segregates synthetic from contractile cancer fibroblasts. Our scaling approach thus yields fundamentals-based power laws relatable to survival, gene function, and experiments.",
+    "keywords": [
+      "expression",
+      "fibrosis",
+      "mechanobiology",
+      "nucleus",
+      "scaling"
+    ],
+    "mesh_terms": [
+      "Cell Nucleus/metabolism",
+      "Cell Proliferation",
+      "Cell Survival",
+      "Collagen/chemistry",
+      "Computational Biology",
+      "DNA/metabolism",
+      "Extracellular Matrix/metabolism",
+      "Fibrosis/*metabolism",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic",
+      "Genomics",
+      "Humans",
+      "Kaplan-Meier Estimate",
+      "Lamin Type B/*chemistry",
+      "Liver Neoplasms/genetics/*metabolism",
+      "Mass Spectrometry",
+      "Neoplasms/metabolism",
+      "Oncogenes",
+      "Prognosis",
+      "Proteomics/methods",
+      "Stress, Mechanical",
+      "Transcriptome",
+      "Treatment Outcome"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vashisth, Manasvita",
+        "Cho, Sangkyun",
+        "Irianto, Jerome",
+        "Xia, Yuntao",
+        "Wang, Mai",
+        "Hayes, Brandon",
+        "Wieland, Daniel",
+        "Wells, Rebecca",
+        "Jafarpour, Farshid",
+        "Liu, Andrea",
+        "Discher, Dennis E"
+      ],
+      "short_names": [
+        "Vashisth M",
+        "Cho S",
+        "Irianto J",
+        "Xia Y",
+        "Wang M",
+        "Hayes B",
+        "Wieland D",
+        "Wells R",
+        "Jafarpour F",
+        "Liu A",
+        "Discher DE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2280-5980",
+        "ORCID: 0000-0002-9099-201X",
+        "ORCID: 0000-0002-6988-4102",
+        "ORCID: 0000-0002-2441-0296",
+        "ORCID: 0000-0002-2295-2729"
+      ],
+      "affiliations": [
+        "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Molecular and Cell Biophysics Laboratory, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Molecular and Cell Biophysics Laboratory, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Molecular and Cell Biophysics Laboratory, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Molecular and Cell Biophysics Laboratory, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Molecular and Cell Biophysics Laboratory, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Molecular and Cell Biophysics Laboratory, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Department of Physics/Graduate Group in Physics, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Department of Physics/Graduate Group in Physics, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104; discher@seas.upenn.edu.",
+        "Molecular and Cell Biophysics Laboratory, University of Pennsylvania, Philadelphia, PA 19104.",
+        "Department of Physics/Graduate Group in Physics, University of Pennsylvania, Philadelphia, PA 19104."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vashisth, Manasvita",
+        "short_name": "Vashisth M",
+        "identifiers": [
+          "0000-0002-2280-5980"
+        ],
+        "affiliations": [
+          "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+          "Molecular and Cell Biophysics Laboratory, University of Pennsylvania, Philadelphia, PA 19104."
+        ]
+      },
+      {
+        "full_name": "Cho, Sangkyun",
+        "short_name": "Cho S",
+        "identifiers": [],
+        "affiliations": [
+          "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+          "Molecular and Cell Biophysics Laboratory, University of Pennsylvania, Philadelphia, PA 19104."
+        ]
+      },
+      {
+        "full_name": "Irianto, Jerome",
+        "short_name": "Irianto J",
+        "identifiers": [],
+        "affiliations": [
+          "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+          "Molecular and Cell Biophysics Laboratory, University of Pennsylvania, Philadelphia, PA 19104."
+        ]
+      },
+      {
+        "full_name": "Xia, Yuntao",
+        "short_name": "Xia Y",
+        "identifiers": [],
+        "affiliations": [
+          "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+          "Molecular and Cell Biophysics Laboratory, University of Pennsylvania, Philadelphia, PA 19104."
+        ]
+      },
+      {
+        "full_name": "Wang, Mai",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+          "Molecular and Cell Biophysics Laboratory, University of Pennsylvania, Philadelphia, PA 19104."
+        ]
+      },
+      {
+        "full_name": "Hayes, Brandon",
+        "short_name": "Hayes B",
+        "identifiers": [
+          "0000-0002-9099-201X"
+        ],
+        "affiliations": [
+          "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+          "Molecular and Cell Biophysics Laboratory, University of Pennsylvania, Philadelphia, PA 19104."
+        ]
+      },
+      {
+        "full_name": "Wieland, Daniel",
+        "short_name": "Wieland D",
+        "identifiers": [],
+        "affiliations": [
+          "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104."
+        ]
+      },
+      {
+        "full_name": "Wells, Rebecca",
+        "short_name": "Wells R",
+        "identifiers": [
+          "0000-0002-6988-4102"
+        ],
+        "affiliations": [
+          "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104."
+        ]
+      },
+      {
+        "full_name": "Jafarpour, Farshid",
+        "short_name": "Jafarpour F",
+        "identifiers": [
+          "0000-0002-2441-0296"
+        ],
+        "affiliations": [
+          "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+          "Department of Physics/Graduate Group in Physics, University of Pennsylvania, Philadelphia, PA 19104."
+        ]
+      },
+      {
+        "full_name": "Liu, Andrea",
+        "short_name": "Liu A",
+        "identifiers": [
+          "0000-0002-2295-2729"
+        ],
+        "affiliations": [
+          "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104.",
+          "Department of Physics/Graduate Group in Physics, University of Pennsylvania, Philadelphia, PA 19104."
+        ]
+      },
+      {
+        "full_name": "Discher, Dennis E",
+        "short_name": "Discher DE",
+        "identifiers": [],
+        "affiliations": [
+          "Physical Science Oncology Center at Penn, University of Pennsylvania, Philadelphia, PA 19104; discher@seas.upenn.edu.",
+          "Molecular and Cell Biophysics Laboratory, University of Pennsylvania, Philadelphia, PA 19104.",
+          "Department of Physics/Graduate Group in Physics, University of Pennsylvania, Philadelphia, PA 19104."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2021 Nov 30",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/24 06:00",
+    "fetched_at": "2026-09-28 02:10:34"
+  },
+  "links": {
+    "cites": [
+      "42261377",
+      "41982677",
+      "41981279",
+      "41858409",
+      "41811846",
+      "41676501",
+      "39915297",
+      "38927314",
+      "38778606",
+      "38290913",
+      "38238542",
+      "37218524",
+      "36031407",
+      "35764212",
+      "35719698",
+      "35346899",
+      "35293271"
+    ],
+    "refs": [
+      "32444850",
+      "32414923",
+      "32109383",
+      "32082299",
+      "31779702",
+      "31588021",
+      "31463421",
+      "31239284",
+      "30608231",
+      "30467522",
+      "30135582",
+      "29742017",
+      "29248556",
+      "28912132",
+      "28806747",
+      "28232471",
+      "28043971",
+      "27843598",
+      "27798635",
+      "27798234",
+      "26252379",
+      "26168347",
+      "25875127",
+      "25387393",
+      "25127216",
+      "24856586",
+      "24567359",
+      "24109597",
+      "24074532",
+      "23990565",
+      "23644458",
+      "23109430",
+      "22614003",
+      "22155925",
+      "21654799",
+      "21627864",
+      "21527027",
+      "20267758",
+      "19931152",
+      "19804737",
+      "19522540",
+      "19440351",
+      "18758239",
+      "18573889",
+      "17893336",
+      "17018632",
+      "16587956",
+      "16055543",
+      "15654331",
+      "14623400",
+      "12732141",
+      "12624517",
+      "11792820",
+      "10851016",
+      "10630641",
+      "7911470",
+      "7357605"
+    ],
+    "similar": [
+      "34810266",
+      "34511484",
+      "28249813",
+      "26456572",
+      "35123387",
+      "33112662",
+      "31661127",
+      "32807122",
+      "31703591",
+      "32715976",
+      "26048077",
+      "28532215",
+      "30009820",
+      "31341364",
+      "26229401",
+      "31387921",
+      "30918060",
+      "34321100",
+      "29184082",
+      "28060739",
+      "33636524",
+      "30603844",
+      "31072351",
+      "30720105",
+      "34279157",
+      "33562824",
+      "34406843",
+      "23727079",
+      "31375643",
+      "33297932",
+      "31886176",
+      "22930530",
+      "34467992",
+      "28449718",
+      "8586436",
+      "30981109",
+      "33777168",
+      "28931598",
+      "18506891",
+      "33863293",
+      "34741389",
+      "33280519",
+      "28482906",
+      "30135189",
+      "30947151",
+      "32283571",
+      "33439969",
+      "24293108",
+      "19522540",
+      "34612781",
+      "23439683",
+      "22337891",
+      "32246902",
+      "30525236",
+      "33970702",
+      "31074374",
+      "34374301",
+      "32714316",
+      "30589034",
+      "33879119",
+      "34803509",
+      "27497790",
+      "34530169",
+      "34280005",
+      "18282123",
+      "25592766",
+      "26420858",
+      "32036380",
+      "32703154",
+      "35008908",
+      "33897701",
+      "25213081",
+      "29568201",
+      "26469707",
+      "33971670",
+      "26302489",
+      "37129354",
+      "37388771"
+    ],
+    "review": [
+      "34810266",
+      "28532215",
+      "30947151"
+    ],
+    "pmc": [
+      "8640833"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2112940118?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34810266/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34810266",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LMNB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1242",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

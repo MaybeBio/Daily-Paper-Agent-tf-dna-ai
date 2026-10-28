@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41477820",
+  "title": "Machine learning-powered single-molecule cancer diagnosis using DNA origami tags.",
+  "authors": "Xiong, Jinxin; He, Zhimei; Guan, Wenyan; Zhi, Sheng; Sun, Xing; Yang, Zixiao; Ma, Jianfeng; Fan, Chunhai; Wang, Lianhui; Chao, Jie",
+  "journal": "Science advances",
+  "published_date": "2026-01-01",
+  "window": {
+    "start": "2025-12-29",
+    "end": "2026-01-04"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习辅助AFM识别DNA折纸标签进行单分子癌症诊断，虽涉及DNA识别但非蛋白质-DNA互作或TF-DNA结合机制，方法为图像分类而非互作建模，与本课题关联较弱。",
+  "abstract": "Single-molecule detection (SMD) holds considerable promise in biomedical research. Although atomic force microscopy (AFM) provides an important technique with nanoscale resolution for SMD, its broader application is limited by labeling challenges and slow data processing. Here, we present a machine learning (ML)-powered strategy combining AFM and DNA nanotags for SMD and cancer diagnosis. Nickases are applied to create specific single-strand breaks in target DNA, allowing insertion of exogenous DNA to attach shape-distinct nanotags for AFM imaging. A YOLOv5l algorithm is adopted to automatically recognize target objects in AFM images, which can classify 370 structures in 1.21 seconds with 98% accuracy. The proof of concept of this strategy is confirmed by identifying nickase-edited sites on both linear and circular DNA. Its practical applicability is demonstrated by detecting KRAS Gly12Arg (G12R) and p53 Arg175His (R175H) mutations in samples from patients with pancreatic and colorectal cancer, with accuracy rivaling Sanger sequencing and quantitative polymerase chain reaction, opening avenues for SMD.",
+  "abstract_zh": "单分子检测（SMD）在生物医学研究中具有广阔前景。尽管原子力显微镜（AFM）为SMD提供了一种具有纳米级分辨率的重要技术，但其更广泛的应用受到标记挑战和数据处理缓慢的限制。在此，我们提出了一种结合AFM和DNA纳米标签的机器学习（ML）驱动策略，用于SMD和癌症诊断。利用切口酶在目标DNA中创建特异性单链断裂，从而允许插入外源DNA以附着形状独特的纳米标签，供AFM成像使用。采用YOLOv5l算法自动识别AFM图像中的目标对象，该算法能在1.21秒内对370个结构进行分类，准确率达98%。通过识别线性和环状DNA上的切口酶编辑位点，证实了该策略的概念验证。其实际应用性通过检测胰腺癌和结直肠癌患者样本中的KRAS Gly12Arg（G12R）和p53 Arg175His（R175H）突变得到展示，其准确性与桑格测序和定量聚合酶链反应相媲美，为SMD开辟了新途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41477820/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41477820/",
+  "paper_page_path": "papers/pubmed/41477820/index.html"
+}

@@ -1,0 +1,411 @@
+{
+  "identity": {
+    "pmid": "41684508",
+    "doi": "10.1016/j.xops.2025.101062",
+    "title": "Interpretable Aging Signatures in Human Retinal Cell Types Revealed by Single-Cell RNA Sequencing and Sparse Logistic Regression."
+  },
+  "content": {
+    "abstract": "PURPOSE: To characterize cell-type-specific transcriptional changes during human retinal aging and develop machine learning (ML) model for cellular age discrimination in a Chinese cohort. DESIGN: Cross-sectional, laboratory-based observational study. PARTICIPANTS: Eighteen unfrozen retinas from 12 Chinese donors (9 young, 34-55 y; 9 old, 68-92 y). METHODS: Single-cell RNA sequencing (10x, v3.1) generated 223 612 cells, batch-corrected with single-cell variational inference; age-related signatures were defined by intersecting single-cell and pseudobulk differentially expressed genes (DEGs), then cell-type-specific panels were rank-ordered with L1-regularized logistic regression plus recursive feature elimination and interpreted through hallmark-pathway enrichment and transcription factor (TF) regulon mapping. MAIN OUTCOME MEASURES: Age-related cellular composition shifts; cell-type-specific DEGs; ML classifier accuracy and feature rankings; TF regulon activity changes. RESULTS: Eleven major retinal cell populations were identified. Aging showed declining rod-to-cone ratios, reduced bipolar cell (BC) proportions among interneurons, and increased astrocyte abundance. Muller glial cells exhibited the most pronounced transcriptional changes, followed by BCs and rods. Machine learning classifiers achieved 80% to 96% accuracy across cell types (microglia 96%, horizontal cells [HCs] 93%, BCs 91%, cones 90%, rods 89%). Shared aging signatures included mitochondrial dysfunction and inflammatory activation. Cell-specific vulnerabilities emerged: mitochondria-centric stress in rods/BCs, proteostasis-retinoid metabolism in cones, and structural-RNA maintenance in HCs. CONCLUSIONS: This study provides the first ML derived, cell-type-specific aging signatures for human retina in a Chinese cohort, revealing both conserved molecular hallmarks and distinctive cellular vulnerabilities that inform targeted therapeutic strategies for retinal aging. FINANCIAL DISCLOSURES: The author has no/the authors have no proprietary or commercial interest in any materials discussed in this article.",
+    "keywords": [
+      "Aging",
+      "Machine learning",
+      "Retina",
+      "Single-cell RNA sequencing",
+      "Transcriptional regulation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Luning",
+        "Lin, Sen",
+        "Tao, Yiwen",
+        "Pan, Qi",
+        "Cai, Tengda",
+        "Ye, Yunyan",
+        "Liu, Jianhui",
+        "Zhou, Yang",
+        "Shao, Yongqing",
+        "Yi, Quanyong",
+        "Lu, Zen Huat",
+        "Chen, Lie",
+        "McKay, Gareth",
+        "Rankin, Richard",
+        "Li, Fan",
+        "Meng, Weihua"
+      ],
+      "short_names": [
+        "Yang L",
+        "Lin S",
+        "Tao Y",
+        "Pan Q",
+        "Cai T",
+        "Ye Y",
+        "Liu J",
+        "Zhou Y",
+        "Shao Y",
+        "Yi Q",
+        "Lu ZH",
+        "Chen L",
+        "McKay G",
+        "Rankin R",
+        "Li F",
+        "Meng W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Nottingham Ningbo China Beacons of Excellence Research and Innovation Institute, University of Nottingham Ningbo China, Ningbo, China.",
+        "Nottingham Ningbo China Beacons of Excellence Research and Innovation Institute, University of Nottingham Ningbo China, Ningbo, China.",
+        "Nottingham Ningbo China Beacons of Excellence Research and Innovation Institute, University of Nottingham Ningbo China, Ningbo, China.",
+        "Nottingham Ningbo China Beacons of Excellence Research and Innovation Institute, University of Nottingham Ningbo China, Ningbo, China.",
+        "Nottingham Ningbo China Beacons of Excellence Research and Innovation Institute, University of Nottingham Ningbo China, Ningbo, China.",
+        "Department of Ophthalmology, Lihuili Hospital Affiliated with Ningbo University, Ningbo, China.",
+        "Department of Cardiology, Lihuili Hospital Affiliated with Ningbo University, Ningbo, China.",
+        "Ningbo Institute of Innovation for Combined Medicine and Engineering, The Affiliated Li Huili Hospital, Ningbo University, Ningbo, China.",
+        "Department of Ophthalmology, The Affiliated Ningbo Eye Hospital of Wenzhou Medical University, Ningbo, China.",
+        "Department of Ophthalmology, The Affiliated Ningbo Eye Hospital of Wenzhou Medical University, Ningbo, China.",
+        "PAPRSB Institute of Health Sciences, Universiti Brunei Darussalam, Bandar Seri, Begawan, Brunei Darussalam.",
+        "PAPRSB Institute of Health Sciences, Universiti Brunei Darussalam, Bandar Seri, Begawan, Brunei Darussalam.",
+        "Centre for Public Health, Institute of Clinical Science, Queen's University Belfast, Royal Hospital, Belfast, UK.",
+        "Centre for English Language Education, University of Nottingham Ningbo China, Ningbo, China.",
+        "Eye Center, Zhongshan City People's Hospital, Zhongshan, Guangdong, China.",
+        "Nottingham Ningbo China Beacons of Excellence Research and Innovation Institute, University of Nottingham Ningbo China, Ningbo, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Luning",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Nottingham Ningbo China Beacons of Excellence Research and Innovation Institute, University of Nottingham Ningbo China, Ningbo, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Sen",
+        "short_name": "Lin S",
+        "identifiers": [],
+        "affiliations": [
+          "Nottingham Ningbo China Beacons of Excellence Research and Innovation Institute, University of Nottingham Ningbo China, Ningbo, China."
+        ]
+      },
+      {
+        "full_name": "Tao, Yiwen",
+        "short_name": "Tao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Nottingham Ningbo China Beacons of Excellence Research and Innovation Institute, University of Nottingham Ningbo China, Ningbo, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Qi",
+        "short_name": "Pan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Nottingham Ningbo China Beacons of Excellence Research and Innovation Institute, University of Nottingham Ningbo China, Ningbo, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Tengda",
+        "short_name": "Cai T",
+        "identifiers": [],
+        "affiliations": [
+          "Nottingham Ningbo China Beacons of Excellence Research and Innovation Institute, University of Nottingham Ningbo China, Ningbo, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Yunyan",
+        "short_name": "Ye Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Lihuili Hospital Affiliated with Ningbo University, Ningbo, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jianhui",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Lihuili Hospital Affiliated with Ningbo University, Ningbo, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yang",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Ningbo Institute of Innovation for Combined Medicine and Engineering, The Affiliated Li Huili Hospital, Ningbo University, Ningbo, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Yongqing",
+        "short_name": "Shao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Affiliated Ningbo Eye Hospital of Wenzhou Medical University, Ningbo, China."
+        ]
+      },
+      {
+        "full_name": "Yi, Quanyong",
+        "short_name": "Yi Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Affiliated Ningbo Eye Hospital of Wenzhou Medical University, Ningbo, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Zen Huat",
+        "short_name": "Lu ZH",
+        "identifiers": [],
+        "affiliations": [
+          "PAPRSB Institute of Health Sciences, Universiti Brunei Darussalam, Bandar Seri, Begawan, Brunei Darussalam."
+        ]
+      },
+      {
+        "full_name": "Chen, Lie",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "PAPRSB Institute of Health Sciences, Universiti Brunei Darussalam, Bandar Seri, Begawan, Brunei Darussalam."
+        ]
+      },
+      {
+        "full_name": "McKay, Gareth",
+        "short_name": "McKay G",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Public Health, Institute of Clinical Science, Queen's University Belfast, Royal Hospital, Belfast, UK."
+        ]
+      },
+      {
+        "full_name": "Rankin, Richard",
+        "short_name": "Rankin R",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for English Language Education, University of Nottingham Ningbo China, Ningbo, China."
+        ]
+      },
+      {
+        "full_name": "Li, Fan",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Center, Zhongshan City People's Hospital, Zhongshan, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Weihua",
+        "short_name": "Meng W",
+        "identifiers": [],
+        "affiliations": [
+          "Nottingham Ningbo China Beacons of Excellence Research and Innovation Institute, University of Nottingham Ningbo China, Ningbo, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Ophthalmology science"
+    ],
+    "journal_abbrev": [
+      "Ophthalmol Sci"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/13 06:32",
+    "fetched_at": "2026-10-01 13:43:13"
+  },
+  "links": {
+    "cites": [
+      "41949379"
+    ],
+    "refs": [
+      "40857552",
+      "40095253",
+      "39954235",
+      "39833899",
+      "39804630",
+      "39765697",
+      "39530327",
+      "38819040",
+      "38801700",
+      "38012720",
+      "37998721",
+      "37830599",
+      "37610311",
+      "37388908",
+      "36528240",
+      "36408112",
+      "36183055",
+      "36040015",
+      "35974106",
+      "35346303",
+      "35132262",
+      "35075486",
+      "35052305",
+      "34691611",
+      "34362080",
+      "34285779",
+      "34079093",
+      "33154423",
+      "33082308",
+      "32821496",
+      "32801619",
+      "32596637",
+      "32561888",
+      "30954475",
+      "29608179",
+      "29481549",
+      "29409532",
+      "26771021",
+      "26210861",
+      "25516281",
+      "23582059",
+      "8225863",
+      "1730530"
+    ],
+    "similar": [
+      "41684508",
+      "28050121",
+      "40660409",
+      "38945518",
+      "35413909",
+      "40531615",
+      "35386199",
+      "39055259",
+      "32734440",
+      "39954235",
+      "9839981",
+      "12443989",
+      "40374315",
+      "12118163",
+      "38540038",
+      "19655401",
+      "34341398",
+      "41200172",
+      "40425313",
+      "8720448",
+      "12892644",
+      "33393903",
+      "41677271",
+      "31436334",
+      "41255255",
+      "37496518",
+      "40967560",
+      "7955364",
+      "9356416",
+      "39241251",
+      "39833899",
+      "41400582",
+      "20018684",
+      "8225863",
+      "25228773",
+      "29141686",
+      "40738387",
+      "34691611",
+      "21079736",
+      "18977238",
+      "38659747",
+      "40839430",
+      "40707916",
+      "8962834",
+      "36040015",
+      "40592385",
+      "30096325",
+      "26092486",
+      "27499608",
+      "41455767",
+      "25309346",
+      "31653841",
+      "20517486",
+      "36535406",
+      "21413382",
+      "39804630",
+      "18087239",
+      "30092025",
+      "27385534",
+      "37426783",
+      "15152186",
+      "39000540",
+      "40569117",
+      "19778581",
+      "38192121",
+      "16998928",
+      "33893221",
+      "12916741",
+      "41508240",
+      "40914339",
+      "17653034",
+      "15163632",
+      "25954153",
+      "17525218",
+      "39509434",
+      "41390089",
+      "18095322",
+      "15156575",
+      "41550140",
+      "17266784",
+      "37979052",
+      "39638278",
+      "41188996",
+      "17463042",
+      "41388523",
+      "20437529",
+      "36629404",
+      "10865319",
+      "23818861",
+      "29368007",
+      "7881758",
+      "40830558",
+      "31072937",
+      "39210608",
+      "37007713",
+      "38742929",
+      "21878117",
+      "37935630",
+      "31285302",
+      "34003213"
+    ],
+    "review": [
+      "41684508",
+      "12892644"
+    ],
+    "pmc": [
+      "12892068"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-9145(25)00360-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41684508/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

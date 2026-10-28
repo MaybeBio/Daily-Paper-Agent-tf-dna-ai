@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors extend the RoseTTAFold deep learning architecture to model protein-nucleic acid complexes and RNA tertiary structures. A single trained network, RoseTTAFoldNA, is claimed to produce 3D models with confidence estimates for protein-DNA, protein-RNA, and RNA structures, and to outperform current state-of-the-art methods in cases of high confidence. The tool is claimed to be broadly useful for modeling natural complexes and for designing sequence-specific binding proteins.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark descriptions, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, methods section, benchmark datasets, evaluation metrics, comparison baselines, confidence calibration data, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant extension of a well-established deep learning framework to a challenging and biologically important problem. The claims are ambitious and plausible given the authors' prior work, but the abstract alone provides no quantitative evidence, no benchmark details, and no methodological specifics. The core claims of accuracy improvement and broad utility cannot be evaluated from the supplied material. The work may be of high interest, but the current evidence base is insufficient to assess technical soundness or reproducibility.
+- **Who would be interested in the results, and why** Structural biologists, computational biologists, and researchers in RNA biology and protein engineering would be interested. The ability to predict protein-nucleic acid complexes without homology is a long-standing gap, and a reliable tool would accelerate studies of gene regulation, RNA processing, and the design of synthetic binding proteins. The potential for design applications also appeals to synthetic biology and therapeutic development communities.
+- **Major strengths** The problem addressed is important and timely. The approach builds on a proven architecture, which lends credibility. The claim of a single network covering multiple complex types is elegant and potentially practical. The stated confidence estimates are a valuable feature for users.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "confident predictions have considerably higher accuracy than current state of the art methods"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative comparison with any named state-of-the-art method. No metrics, datasets, or error bars are given. The phrase "considerably higher accuracy" is unsupported by any visible data.
+  - **Why it matters** This is the central performance claim of the work. Without benchmark details, readers cannot judge whether the improvement is real, marginal, or limited to specific cases. The claim is not falsifiable from the abstract.
+  - **Resolution test** Provide a benchmark table with named baselines, datasets, and metrics such as TM-score, RMSD, or interface accuracy, with statistical significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "We develop a single trained network, RoseTTAFoldNA"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No information is given on training data, architecture modifications, hyperparameters, or computational cost. The abstract does not state whether the network or code is publicly available.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without training and implementation details, the work cannot be independently verified or adapted by other groups.
+  - **Resolution test** Include a methods section with full architecture details, training data composition, and a statement on code and model availability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope of claims
+  - **Claim pointer** "RoseTTAFoldNA should be broadly useful for modeling the structure of naturally occurring protein-nucleic acid complexes, and for designing sequence specific RNA and DNA binding proteins"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims broad utility and design capability, but no design experiments or application case studies are described. The claim of "broadly useful" is speculative without demonstration on diverse biological examples.
+  - **Why it matters** Overstated scope can mislead potential users. The design claim in particular requires experimental validation, which is not mentioned.
+  - **Resolution test** Provide at least one design case study with experimental validation, or temper the claim to reflect only modeling capability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** "RNA tertiary structures"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not clarify whether RNA tertiary structure prediction is a standalone capability or only in complex with proteins.
+  - **Required correction** Specify whether the network predicts RNA alone, RNA in complexes, or both, and clarify the input requirements.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "confidence estimates"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The nature of the confidence estimates is undefined. It is unclear whether these are per-residue, per-interface, or global scores, and whether they are calibrated.
+  - **Required correction** Define the confidence metric and provide calibration evidence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison scope
+  - **Affected element** "current state of the art methods"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The comparison set is not named. It is unclear which methods were compared and whether they include recent deep learning approaches.
+  - **Required correction** List the baseline methods and justify their selection.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative benchmarks, implementation details, and design validation means the core claims are not established from the provided evidence.
+
+## Risk / unsupported claims
+- "confident predictions have considerably higher accuracy than current state of the art methods" is unsupported without benchmark data.
+- "broadly useful for modeling the structure of naturally occurring protein-nucleic acid complexes" is unsupported without diverse application examples.
+- "designing sequence specific RNA and DNA binding proteins" is unsupported without experimental design validation.
+- The overall performance and reliability of RoseTTAFoldNA cannot be assessed from the abstract alone.

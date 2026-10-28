@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42360672",
+  "title": "Identification of Moonlighting Proteins from Published Literature Using Natural Language Processing and AI.",
+  "authors": "Varghese, Dana Mary; Kukreti, Vishwas; Verma, Ajay Kumar; Chakraborti, Anirban; Ahmad, Shandar",
+  "journal": "The protein journal",
+  "published_date": "2026-06-27",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用NLP和AI从文献中识别蛋白质的兼职功能（moonlighting），虽涉及DNA结合蛋白但未聚焦TF-DNA互作建模，方法可迁移性有限。",
+  "abstract": "Research publications on various aspects of functional genomics are constantly growing, providing an opportunity and challenge to mine for the information of interest, among them are the annotation of proteins into their specific functional class or the sheer degeneracy of their functions. While knowledge-driven approaches to functional annotations are based on mechanistic basis or data-driven predictive models based on deterministic features, they do not harness what is already reported in literature in different contexts. Natural language processing, combined with machine learning aims to bridge this gap. We have earlier developed a method to predict an intriguing protein functional property, called moonlighting in DNA-binding proteins using protein features with reasonable accuracy. However, the very development of training data and harnessing of available functional information from literature are the tasks, not addressed well so far for this problem. It may be noted that moonlighting being a problem of functional redundancy, literature mining may be a way to provide a cross-study perspective and hence a better prediction performance. Here we present an NLP-based model for literature mining and identifying moonlighting behaviour of proteins. A high-performing PubMed BERT model pre-trained on PubMed publications was further optimized through retraining on particular data sets, allowing accurate identification of moonlighting function in proteins. We show that this approach can identify moonlighting proteins with high accuracy and outperform first principle approaches reported earlier. The methods presented here are for moonlighting behaviour of proteins but are scalable to any literature-mining problem in biological domain. Data sets and codes used in this work are provided in GitHub repository https://github.com/Sciwhylab/moonlighting_nlp .",
+  "abstract_zh": "关于功能基因组学各个方面的研究出版物持续增长，为挖掘感兴趣的信息提供了机遇和挑战，其中包括将蛋白质注释到其特定功能类别或它们功能的纯粹简并性。虽然基于知识的功能注释方法依赖于机制基础或基于确定性特征的数据驱动预测模型，但它们并未利用文献中在不同背景下已报道的内容。自然语言处理结合机器学习旨在弥合这一差距。我们此前开发了一种方法，利用蛋白质特征以合理的准确性预测一种有趣的蛋白质功能特性，即DNA结合蛋白中的兼职功能 (moonlighting)。然而，训练数据的开发以及从文献中利用可用的功能信息，是迄今为止针对此问题尚未很好解决的任务。值得注意的是，兼职功能作为功能冗余问题，文献挖掘可能提供跨研究视角，从而带来更好的预测性能。在此，我们提出一种基于NLP的模型，用于文献挖掘和识别蛋白质的兼职行为。一个在PubMed出版物上预训练的高性能PubMed BERT模型，通过针对特定数据集的再训练进一步优化，从而能够准确识别蛋白质中的兼职功能。我们表明，这种方法能以高准确性识别兼职蛋白，并优于先前报道的第一性原理方法。本文所述方法针对蛋白质的兼职行为，但可扩展到生物领域的任何文献挖掘问题。本工作使用的数据集和代码已提供在GitHub仓库 https://github.com/Sciwhylab/moonlighting_nlp 中。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42360672/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42360672/",
+  "paper_page_path": "papers/pubmed/42360672/index.html"
+}

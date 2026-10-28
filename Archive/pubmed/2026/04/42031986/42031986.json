@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "42031986",
+    "doi": "10.1038/s41598-026-50434-0",
+    "title": "beta-sitosterol suppresses malignant biological behaviors and glycolysis via modulating YBX1-hnRNP K interaction in non-small cell lung cancer."
+  },
+  "content": {
+    "abstract": "Non-small cell lung cancer (NSCLC) is the most prevalent form of lung malignancy. As a type of phytosterol, beta-sitosterol shares structural similarities with cholesterol and has been shown to possess multiple pharmacological properties. This study aimed to investigate how beta-sitosterol influences the progression of NSCLC. To assess the impact of beta-sitosterol on NSCLC cells, a treatment with a range of concentrations was administered. Subsequent analyses included cell viability (CCK-8 assay), proliferation (EdU incorporation), migration and invasion (Transwell chambers), apoptosis (flow cytometry), and glycolytic metabolism. Interactions between Y-box binding protein 1 (YBX1) and heterogeneous nuclear ribonucleoprotein K (hnRNP K) were predicted using STRING, DMFold, and molecular docking approaches, with subsequent validation by co-immunoprecipitation. To verify their functional roles, genetic modification techniques including overexpression and knockdown were employed. beta-sitosterol dose-dependently inhibited malignant biological behaviors and glycolysis while promoting apoptosis. Notably, beta-sitosterol suppressed YBX1-hnRNP K binding without altering their expression. Moreover, YBX1 overexpression or YBX1 mutation promoted malignancy and glycolysis, whereas hnRNP K silencing reversed these effects. In this in vitro study, beta-sitosterol suppressed malignant biological behaviors and glycolysis. This effect was associated with suppressed YBX1-hnRNP K interaction in NSCLC cells. Although the precise mechanism by which beta-sitosterol disrupts this interaction remains to be elucidated, our findings identify the YBX1-hnRNP K complex as a potential mediator of beta-sitosterol's anti-tumor activity in NSCLC.",
+    "keywords": [
+      "Glycolysis",
+      "NSCLC",
+      "YBX1",
+      "hnRNP K",
+      "beta-sitosterol"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung/metabolism/drug therapy/pathology",
+      "*Lung Neoplasms/metabolism/drug therapy/pathology",
+      "*Y-Box-Binding Protein 1/metabolism/genetics/chemistry",
+      "*Sitosterols/pharmacology",
+      "*Heterogeneous-Nuclear Ribonucleoprotein K/metabolism/chemistry/genetics",
+      "*Glycolysis/drug effects",
+      "Apoptosis/drug effects",
+      "Cell Line, Tumor",
+      "Cell Proliferation/drug effects",
+      "Cell Movement/drug effects",
+      "Protein Binding/drug effects",
+      "Molecular Docking Simulation",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Cell Survival/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Guolu",
+        "Feng, Jianyu",
+        "Zeng, Jianying",
+        "Liao, Rongxin",
+        "Zhong, Xiaojun",
+        "Lv, Zhuo",
+        "Chen, Fengsheng"
+      ],
+      "short_names": [
+        "Ma G",
+        "Feng J",
+        "Zeng J",
+        "Liao R",
+        "Zhong X",
+        "Lv Z",
+        "Chen F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Geriatrics, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, Southern Medical University, Guangzhou, China.",
+        "Department of Traditional Chinese Medicine Preventive Treatment, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, Southern Medical University, Guangzhou, China.",
+        "Department of Traditional Chinese Medicine, Guangzhou Fuda Cancer Hospital, Guangzhou, China.",
+        "Department of Oncology, Guangzhou Fuda Cancer Hospital, Guangzhou, China.",
+        "Department of Geriatrics, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, Southern Medical University, Guangzhou, China.",
+        "Department of Traditional Chinese Medicine Preventive Treatment, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, Southern Medical University, Guangzhou, China.",
+        "Department of Intervention, Guangzhou Fuda Cancer Hospital, Guangzhou, China.",
+        "Department of Oncology, Guangzhou Hospital of Integrated Traditional and Western Medicine, No.87, Yingbin Avenue, Xinhua Street, Huadu District, 510800, Guangzhou, China. zhuozhuotu@163.com.",
+        "Department of Hepatology, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, Southern Medical University, No.13, Shiliugang Road, Haizhu District, 510310, Guangzhou, China. fsc0126@smu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Guolu",
+        "short_name": "Ma G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, Southern Medical University, Guangzhou, China.",
+          "Department of Traditional Chinese Medicine Preventive Treatment, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Jianyu",
+        "short_name": "Feng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Guangzhou Fuda Cancer Hospital, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Jianying",
+        "short_name": "Zeng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Guangzhou Fuda Cancer Hospital, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Rongxin",
+        "short_name": "Liao R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Geriatrics, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, Southern Medical University, Guangzhou, China.",
+          "Department of Traditional Chinese Medicine Preventive Treatment, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Xiaojun",
+        "short_name": "Zhong X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intervention, Guangzhou Fuda Cancer Hospital, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Zhuo",
+        "short_name": "Lv Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Guangzhou Hospital of Integrated Traditional and Western Medicine, No.87, Yingbin Avenue, Xinhua Street, Huadu District, 510800, Guangzhou, China. zhuozhuotu@163.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Fengsheng",
+        "short_name": "Chen F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatology, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, Southern Medical University, No.13, Shiliugang Road, Haizhu District, 510310, Guangzhou, China. fsc0126@smu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Apr 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/25 00:34",
+    "fetched_at": "2026-10-01 19:02:56"
+  },
+  "links": {
+    "cites": [
+      "42143392"
+    ],
+    "refs": [
+      "41588247",
+      "41530534",
+      "40721081",
+      "39983806",
+      "39537174",
+      "39429884",
+      "39104405",
+      "38439529",
+      "38364944",
+      "38279484",
+      "38143380",
+      "37247842",
+      "36827002",
+      "35995256",
+      "35973900",
+      "35501983",
+      "35387975",
+      "35352475",
+      "35323350",
+      "35122073",
+      "34751163",
+      "34440660",
+      "34082012",
+      "33906591",
+      "33601147",
+      "33456577",
+      "32504068",
+      "31492158",
+      "31378236",
+      "31077320",
+      "30905819",
+      "30589662",
+      "30221675",
+      "26473555",
+      "17920528",
+      "10809782"
+    ],
+    "similar": [
+      "42031986",
+      "31492158",
+      "38279484",
+      "40216870",
+      "35410432",
+      "34082012",
+      "41204108",
+      "42054276",
+      "38844957",
+      "38814517",
+      "39755832",
+      "41916122",
+      "41499825",
+      "35387975",
+      "41372105",
+      "41794778",
+      "31912882",
+      "41317688",
+      "40155519",
+      "42579020",
+      "40259252",
+      "38470557",
+      "38671369",
+      "40928583",
+      "41344272",
+      "41579832",
+      "41759425",
+      "39647464",
+      "26713736",
+      "39537174",
+      "28534943",
+      "32561752",
+      "39476941",
+      "39964646",
+      "32239804",
+      "41740687",
+      "41215575",
+      "40928458",
+      "41987290",
+      "28440452",
+      "41499386",
+      "34713300",
+      "40792659",
+      "37968995",
+      "30906213",
+      "39862920",
+      "31252267",
+      "41452395",
+      "42230729",
+      "34811815",
+      "38943969",
+      "34050851",
+      "39716068",
+      "40545696",
+      "25799586",
+      "40029169",
+      "34109989",
+      "39931532",
+      "42135683",
+      "38432577",
+      "40096187",
+      "40833599",
+      "33395541",
+      "33537917",
+      "42185511",
+      "38411943",
+      "34109434",
+      "41619555",
+      "34521423",
+      "39206990",
+      "38032489",
+      "35176466",
+      "42284640",
+      "28697764",
+      "38670393",
+      "37644752",
+      "38692507",
+      "33537094",
+      "39523092",
+      "42142703",
+      "41699263",
+      "35301175",
+      "33212065",
+      "32602212",
+      "39368268",
+      "42203340",
+      "42290049",
+      "32767026",
+      "40801328",
+      "33280517",
+      "39138880",
+      "26176608",
+      "40664016",
+      "41410190",
+      "42129773",
+      "31788970",
+      "33534015",
+      "31204561",
+      "41801295",
+      "39500794"
+    ],
+    "review": [
+      "42031986"
+    ],
+    "pmc": [
+      "13279819"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-026-50434-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42031986/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1028",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "42395443",
+    "doi": "10.1101/2025.04.24.650458",
+    "title": "Deep dynamical models of single-cell multiomic velocities predict loss-of-function and rescue perturbations in B cells."
+  },
+  "content": {
+    "abstract": "We present DynaVelo, a generative neural ordinary differential equation model that learns the joint dynamics of gene expression and transcription factor (TF) motif activities in evolving cell systems using single-cell multiome with joint gene expression and chromatin accesibility readout. DynaVelo leverages partial RNA velocity information together with single-cell TF motif accessibility data to improve the modeling of cell state dynamics and identification of TF drivers. We show that DynaVelo recovers the complex and bifurcating in vivo dynamics of wildtype murine germinal center (GC) B cells and reveals how these cell dynamics change under loss-of-function mutations in epigenetic regulators Arid1a and Ctcf. DynaVelo resolves how TF motif activities evolve along latent time trajectories using analysis of training cells or through generated trajectories from the model. In silico perturbation analysis further enables DynaVelo to infer dynamic and cell-state-specific gene regulatory networks (GRNs), recovering many known TF-to-gene edges in the wildtype GC GRN and predicting those that are disrupted in mutants. Finally, in silico gene and TF perturbations allow both the prediction of cell dynamics under loss-of-function genetic mutations and the identification of TF perturbations to rescue loss-of-function dynamic and immunological phenotypes. This analysis predicted that Ctcf knockout would rescue Arid1a loss-of-function phenotype in the GC reaction and nominated Bcl6 and Stat3 as additional TFs whose knockout would rescue Arid1a loss. We validated these predictions in vivo using double heterozygous mutant mice, confirming rescue of the Arid1a dark zone phenotype in all cases and quantitatively assessing model predictions using multiome in Arid1aHet;CtcfHet double heterozygous mice. DynaVelo therefore provides a powerful new deep learning framework for modeling and perturbing dynamic cell systems by harnessing single-cell multiome data sets.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Karbalayghareh, Alireza",
+        "Pelzer, Benedikt",
+        "Chin, Christopher R",
+        "Melnick, Ari",
+        "Barisic, Darko",
+        "Leslie, Christina S"
+      ],
+      "short_names": [
+        "Karbalayghareh A",
+        "Pelzer B",
+        "Chin CR",
+        "Melnick A",
+        "Barisic D",
+        "Leslie CS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1723-9355"
+      ],
+      "affiliations": [
+        "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA.",
+        "Department of Medicine, Weill Cornell Medicine, Cornell University, New York, NY 10065, USA.",
+        "Clinic for Hematology and Stem Cell Transplantation, University Hopsital Essen, Essen, 45147, Germany.",
+        "Department of Medicine, Weill Cornell Medicine, Cornell University, New York, NY 10065, USA.",
+        "Department of Medicine, Weill Cornell Medicine, Cornell University, New York, NY 10065, USA.",
+        "Meyer Cancer Center, Weill Cornell Medical College, New York, NY 10065, USA.",
+        "Department of Medicine, Weill Cornell Medicine, Cornell University, New York, NY 10065, USA.",
+        "Meyer Cancer Center, Weill Cornell Medical College, New York, NY 10065, USA.",
+        "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Karbalayghareh, Alireza",
+        "short_name": "Karbalayghareh A",
+        "identifiers": [
+          "0000-0002-1723-9355"
+        ],
+        "affiliations": [
+          "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Pelzer, Benedikt",
+        "short_name": "Pelzer B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Weill Cornell Medicine, Cornell University, New York, NY 10065, USA.",
+          "Clinic for Hematology and Stem Cell Transplantation, University Hopsital Essen, Essen, 45147, Germany."
+        ]
+      },
+      {
+        "full_name": "Chin, Christopher R",
+        "short_name": "Chin CR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Weill Cornell Medicine, Cornell University, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Melnick, Ari",
+        "short_name": "Melnick A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Weill Cornell Medicine, Cornell University, New York, NY 10065, USA.",
+          "Meyer Cancer Center, Weill Cornell Medical College, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Barisic, Darko",
+        "short_name": "Barisic D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Weill Cornell Medicine, Cornell University, New York, NY 10065, USA.",
+          "Meyer Cancer Center, Weill Cornell Medical College, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Leslie, Christina S",
+        "short_name": "Leslie CS",
+        "identifiers": [],
+        "affiliations": [
+          "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jun 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/03 06:31",
+    "fetched_at": "2026-10-02 00:48:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38744973",
+      "38593783",
+      "35108499",
+      "33633365",
+      "33589836",
+      "33098772",
+      "32873422",
+      "32728250",
+      "31011186",
+      "30874354",
+      "30166440",
+      "30089906",
+      "29409532",
+      "28825706",
+      "28759029",
+      "27653600",
+      "27505670",
+      "26752769",
+      "25497547",
+      "23644491",
+      "19563753",
+      "18798982"
+    ],
+    "similar": [
+      "42395443",
+      "42475469",
+      "40654959",
+      "37443338",
+      "40037709",
+      "38940155",
+      "41288963",
+      "41498638",
+      "28951888",
+      "41256408",
+      "37577525",
+      "42119563",
+      "41300707",
+      "38980373",
+      "41093852",
+      "24228871",
+      "35410161",
+      "41984780",
+      "40667223",
+      "38744843",
+      "41978381",
+      "41643202",
+      "37985457",
+      "29769331",
+      "28750606",
+      "32054475",
+      "36168811",
+      "30598100",
+      "41218606",
+      "36902216",
+      "42482180",
+      "36778259",
+      "35193937",
+      "42013480",
+      "37708894",
+      "41067887",
+      "40251476",
+      "35489382",
+      "42249125",
+      "37214836",
+      "37561629",
+      "42239343",
+      "40753156",
+      "39570626",
+      "39803441",
+      "34390642",
+      "42059479",
+      "42741841",
+      "38354497",
+      "41452988",
+      "21172055",
+      "42561152",
+      "37788349",
+      "42094467",
+      "39975293",
+      "22106333",
+      "42680482",
+      "40662821",
+      "42710863",
+      "41000825",
+      "23623899",
+      "25162401",
+      "41907425",
+      "40662824",
+      "40971887",
+      "31053165",
+      "39326643",
+      "38609714",
+      "34621263",
+      "40419657",
+      "41473285",
+      "41310370",
+      "41826830",
+      "41518505",
+      "39689711",
+      "36043696",
+      "41415381",
+      "18426580",
+      "31362726",
+      "35176234",
+      "29879919",
+      "37085776",
+      "27104615",
+      "40655014",
+      "34544361",
+      "39896674",
+      "35961023",
+      "26291518",
+      "22456606",
+      "42146410",
+      "37873116",
+      "37961577",
+      "42398561",
+      "34424948",
+      "42180427",
+      "36204155",
+      "38653489",
+      "41279603",
+      "37607190",
+      "28748400"
+    ],
+    "review": [
+      "42395443",
+      "42013480"
+    ],
+    "pmc": [
+      "13320785"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42395443/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.04.24.650458",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

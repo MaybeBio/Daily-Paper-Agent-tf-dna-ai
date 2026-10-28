@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40854963",
+  "title": "Study on differentially expressed genes and pattern recognition receptors in osteoporosis based on bioinformatics analysis.",
+  "authors": "Mao, Songbo; Wang, Yanbiao; Gu, Mingyong; Liu, Kai; Ma, Jibin; Miao, Jun; Zhao, Fang",
+  "journal": "Scientific reports",
+  "published_date": "2025-08-27",
+  "window": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "score": 2,
+  "one_liner_zh": "基于GEO数据挖掘骨质疏松差异表达基因与模式识别受体，构建PPI及miRNA/TF调控网络，属纯转录组生信分析，无蛋白-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Osteoporosis is a common skeletal disorder characterized by low bone mass and structural deterioration, leading to an increased risk of fractures. This study aimed to explore the molecular mechanisms underlying osteoporosis using bioinformatics approaches, with a focus on pattern recognition receptor-related differentially expressed genes (PRR-related DEGs). Two gene expression datasets (GSE7429 and GSE56815) were retrieved from the GEO database, comprising 30 osteoporosis samples and 30 matched controls. Data integration and batch effect correction were performed using the GEOquery and sva packages, followed by differential expression analysis with limma. A total of 1,052 pattern recognition receptor-related genes (PRR-related genes) were obtained from GeneCards, and 98 PRR-related DEGs were identified. GO and KEGG enrichment analyses revealed that these genes are primarily involved in the MAPK cascade, calcium ion homeostasis, leukocyte migration, and the regulation of inflammatory responses. A protein-protein interaction (PPI) network was constructed using STRING, and six hub genes (MDM2, AKT1, ESR1, NCOR1, CCND1, and NCOA2) were identified via CytoHubba. Regulatory networks involving miRNAs and transcription factors were constructed using ENCORI and ChIPBase. ROC curve analysis showed that ESR1 exhibited moderate diagnostic potential (AUC > 0.7). In conclusion, this study systematically identifies PRR-related DEGs and hub genes associated with osteoporosis through integrated bioinformatics analysis. These findings may contribute to a better understanding of immune-related molecular mechanisms and lay the groundwork for future research on potential diagnostic markers or therapeutic strategies.",
+  "abstract_zh": "骨质疏松症是一种常见的骨骼疾病，其特征为骨量低和结构退化，导致骨折风险增加。本研究旨在利用生物信息学方法探讨骨质疏松症的分子机制，重点关注模式识别受体相关的差异表达基因（PRR-related DEGs）。从GEO数据库中获取了两个基因表达数据集（GSE7429和GSE56815），包含30个骨质疏松症样本和30个匹配对照。使用GEOquery和sva包进行数据整合和批次效应校正，随后通过limma进行差异表达分析。从GeneCards中获得了共1,052个模式识别受体相关基因（PRR-related genes），并鉴定出98个PRR-related DEGs。GO和KEGG富集分析显示，这些基因主要参与MAPK级联反应、钙离子稳态、白细胞迁移以及炎症反应的调控。使用STRING构建了蛋白质-蛋白质相互作用（PPI）网络，并通过CytoHubba鉴定了六个枢纽基因（MDM2、AKT1、ESR1、NCOR1、CCND1和NCOA2）。利用ENCORI和ChIPBase构建了涉及miRNA和转录因子的调控网络。ROC曲线分析显示，ESR1表现出中等诊断潜力（AUC > 0.7）。总之，本研究通过整合生物信息学分析，系统性地鉴定了与骨质疏松症相关的PRR-related DEGs和枢纽基因。这些发现可能有助于更好地理解免疫相关的分子机制，并为未来潜在诊断标志物或治疗策略的研究奠定基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40854963/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40854963/",
+  "paper_page_path": "papers/pubmed/40854963/index.html"
+}

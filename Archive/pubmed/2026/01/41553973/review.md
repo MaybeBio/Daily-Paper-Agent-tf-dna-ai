@@ -1,0 +1,64 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The authors propose a reusable computational pipeline integrating transcriptomic and secretome proteomic data from hyperglycemic endothelial cells and diabetic kidneys, identifying 534 commonly upregulated genes/proteins, refining 278 high-confidence mediators, ten hub genes, and candidate repurposable drugs via network pharmacology and molecular docking.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, dataset identifiers, statistical details, docking scores, validation data, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible multi-omics framework with potential relevance to diabetic kidney disease, but the evidence base is insufficient to evaluate the validity, reproducibility, or significance of the findings. The claims are broad and largely descriptive, with no quantitative results or validation metrics provided. The pipeline's novelty and the biological interpretation of the hub genes and drug candidates cannot be assessed from the supplied material.
+- **Who would be interested in the results, and why** Researchers in diabetic complications, endothelial biology, and computational drug repurposing may find the integrated approach of interest, particularly those seeking systematic frameworks for multi-omics integration and therapeutic target nomination. However, the abstract does not yet demonstrate sufficient depth to attract a broad audience.
+- **Major strengths** The proposed pipeline is conceptually integrative, combining transcriptomic and proteomic data with network pharmacology and docking, which could offer a reusable strategy. The focus on repurposable drugs is practically relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The pipeline identified 534 commonly upregulated genes/proteins and refined 278 high-confidence mediators.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the statistical thresholds, normalization methods, or how "common" upregulation was defined across datasets. No effect sizes, p-values, or false discovery rates are reported.
+  - **Why it matters** Without these details, the robustness of the 534 and 278 gene/protein lists cannot be evaluated, and the core analytical claim is unverifiable.
+  - **Resolution test** Provide explicit statistical criteria, dataset sources, and a supplementary table with full gene lists and significance metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** Ten hub genes were pinpointed via protein-protein interaction network analysis.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The hub genes are not named, and no network metrics (e.g., degree, betweenness) or validation of their functional relevance are provided.
+  - **Why it matters** Hub gene identification is a central claim, but without gene identities and supporting metrics, the biological significance cannot be assessed.
+  - **Resolution test** List the ten hub genes, provide network analysis parameters, and include functional validation or literature-based evidence for their role in DKD.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Candidate compounds (e.g., bruceantin, idelalisib) potentially target this network, with molecular docking simulations (e.g., idelalisib with CTCF/BRD4).
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No docking scores, binding affinities, or comparison to known inhibitors are reported. The selection criteria for the drug library and the rationale for choosing CTCF/BRD4 are not described.
+  - **Why it matters** The drug repurposing claim is a key translational output, but without quantitative docking data and target justification, the hypothesis is unsupported.
+  - **Resolution test** Provide docking scores, target selection rationale, and ideally experimental validation or comparison with known binders.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** Terms like "secretome proteomic" and "network pharmacology" are used without brief definitions, which may limit accessibility.
+  - **Required correction** Add a short explanatory phrase for these terms in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract does not clarify how the endothelial cell data relate to the diabetic kidney data beyond "common upregulation," leaving the integrative logic unclear.
+  - **Required correction** Specify the biological rationale for comparing these two data types and how the integration strengthens the conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The integrative approach is not clearly novel, as multi-omics integration and network pharmacology are established methods. Scientific importance: The potential relevance to DKD is real, but the abstract does not demonstrate a significant advance. Interdisciplinary readership: The work could appeal to computational and clinical researchers, but the abstract lacks sufficient detail to engage them. Technical soundness: Not assessable from the abstract due to missing statistical and methodological details. Readability for nonspecialists: The abstract is generally clear but uses jargon without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract outlines a plausible framework, but the absence of quantitative results, methodological details, and validation means the core claims cannot be evaluated. Supportive if technical concerns are resolved with full data and methods.
+
+## Risk / unsupported claims
+- The identification of 534 commonly upregulated genes/proteins is unsupported without statistical criteria.
+- The refinement to 278 high-confidence mediators is unsupported without validation details.
+- The ten hub genes are unverifiable as they are not named or quantified.
+- The drug candidates and docking simulations are unsupported without binding scores or target rationale.
+- The claim of a "reusable" pipeline is not assessable without code or workflow details.

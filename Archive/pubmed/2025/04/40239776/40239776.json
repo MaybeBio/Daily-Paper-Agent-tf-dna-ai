@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "40239776",
+    "doi": "10.1016/j.reprotox.2025.108918",
+    "title": "Integrating network toxicology and Mendelian randomization to uncover the role of AHR in linking air pollution to male reproductive health."
+  },
+  "content": {
+    "abstract": "BACKGROUND: With the rapid advancement of global industrialization and urbanization, air pollution has emerged as a major public health concern. This study investigates the molecular mechanisms linking air pollutants (APs) to male reproductive health (MRH), providing a scientific foundation for disease prevention and treatment. METHODS: APs-disease-related genes were retrieved from multiple network databases, followed by Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses. A protein-protein interaction (PPI) network was constructed to elucidate potential molecular interactions. Differentially expressed genes from two external Gene Expression Omnibus (GEO) sequencing datasets were selected for validation, and intersection analysis was performed to identify key genes. Mendelian randomization (MR）was then applied to assess the causal relationships between key genes and male infertility (MIF), erectile dysfunction (ED), total testosterone levels, and testicular dysfunction. Additionally, molecular docking analysis was conducted to evaluate the binding affinity between key genes and APs. RESULTS: This study focused on seven common APs (Benzene, SO(2), NO, CO, NO(2), Toluene, and O(3)) and two MRH conditions (ED and MIF). Through intersection analyses and external validation, Aryl Hydrocarbon Receptor (AHR) was identified as a key regulator. MR analysis suggested that AHR may contribute to MIF and ED by suppressing testosterone levels and impairing testicular function. CONCLUSION: By integrating network toxicology, MR, and molecular docking analysis, this study highlights the critical role of AHR as a molecular bridge between air pollution and MRH. These findings provide novel molecular insights into the impact of Aps on MRH.",
+    "keywords": [
+      "Air pollutants",
+      "Male reproductive health",
+      "Mendelian randomization",
+      "Molecular docking",
+      "Network toxicology"
+    ],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "*Air Pollutants/toxicity",
+      "*Receptors, Aryl Hydrocarbon/genetics/metabolism",
+      "*Air Pollution/adverse effects",
+      "Mendelian Randomization Analysis",
+      "*Infertility, Male/genetics/chemically induced",
+      "Molecular Docking Simulation",
+      "Reproductive Health",
+      "Protein Interaction Maps",
+      "*Basic Helix-Loop-Helix Proteins/genetics/metabolism",
+      "Testosterone/blood",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yuqi",
+        "Liu, Zhiyu",
+        "Zhou, Tao",
+        "Zhu, Xinyao",
+        "Wu, Qilong",
+        "Zeng, Yang",
+        "Yang, Jinghong",
+        "Meng, Chunyang",
+        "Deng, Qingfu"
+      ],
+      "short_names": [
+        "Li Y",
+        "Liu Z",
+        "Zhou T",
+        "Zhu X",
+        "Wu Q",
+        "Zeng Y",
+        "Yang J",
+        "Meng C",
+        "Deng Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan 646000, China; Public Center of Experimental Technology, Southwest Medical University, Luzhou, Sichuan 646000, China.",
+        "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan 646000, China; Public Center of Experimental Technology, Southwest Medical University, Luzhou, Sichuan 646000, China.",
+        "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan 646000, China; Public Center of Experimental Technology, Southwest Medical University, Luzhou, Sichuan 646000, China.",
+        "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan 646000, China; Public Center of Experimental Technology, Southwest Medical University, Luzhou, Sichuan 646000, China.",
+        "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan 646000, China; Public Center of Experimental Technology, Southwest Medical University, Luzhou, Sichuan 646000, China.",
+        "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan 646000, China.",
+        "Department of Orthopedics, The Affiliated Hospital, Southwest Medical University, Luzhou, Sichuan 646000, China.",
+        "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan 646000, China; Public Center of Experimental Technology, Southwest Medical University, Luzhou, Sichuan 646000, China. Electronic address: mengchunyang3@163.com.",
+        "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan 646000, China. Electronic address: dengqingfu@swmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yuqi",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan 646000, China; Public Center of Experimental Technology, Southwest Medical University, Luzhou, Sichuan 646000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhiyu",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan 646000, China; Public Center of Experimental Technology, Southwest Medical University, Luzhou, Sichuan 646000, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Tao",
+        "short_name": "Zhou T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan 646000, China; Public Center of Experimental Technology, Southwest Medical University, Luzhou, Sichuan 646000, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xinyao",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan 646000, China; Public Center of Experimental Technology, Southwest Medical University, Luzhou, Sichuan 646000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Qilong",
+        "short_name": "Wu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan 646000, China; Public Center of Experimental Technology, Southwest Medical University, Luzhou, Sichuan 646000, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Yang",
+        "short_name": "Zeng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan 646000, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jinghong",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The Affiliated Hospital, Southwest Medical University, Luzhou, Sichuan 646000, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Chunyang",
+        "short_name": "Meng C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan 646000, China; Public Center of Experimental Technology, Southwest Medical University, Luzhou, Sichuan 646000, China. Electronic address: mengchunyang3@163.com."
+        ]
+      },
+      {
+        "full_name": "Deng, Qingfu",
+        "short_name": "Deng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Affiliated Hospital of Southwest Medical University, Luzhou, Sichuan 646000, China. Electronic address: dengqingfu@swmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Reproductive toxicology (Elmsford, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "Reprod Toxicol"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/17 00:23",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42311939",
+      "42064774",
+      "41832938",
+      "41745810",
+      "41357520"
+    ],
+    "refs": [],
+    "similar": [
+      "40239776",
+      "40022828",
+      "41186507",
+      "41274466",
+      "41094572",
+      "41718809",
+      "40108295",
+      "41492010",
+      "40691870",
+      "41191606",
+      "41630303",
+      "41183465",
+      "40345629",
+      "41511918",
+      "41832938",
+      "41088691",
+      "40073855",
+      "41172746",
+      "41235149",
+      "41305716",
+      "41601048",
+      "39257141",
+      "40958307",
+      "41499168",
+      "41707913",
+      "39694170",
+      "41548764",
+      "41291978",
+      "41726179",
+      "40223054",
+      "40943141",
+      "41562054",
+      "41478005",
+      "40359556",
+      "40671224",
+      "39238373",
+      "41096726",
+      "40304766",
+      "39143741",
+      "40307969",
+      "30308017",
+      "39541897",
+      "27103661",
+      "39654220",
+      "39536568",
+      "40319252",
+      "40355485",
+      "40598458",
+      "39780215",
+      "39103773",
+      "40054538",
+      "40886600",
+      "41088531",
+      "40929757",
+      "40550064",
+      "40790309",
+      "40419866",
+      "38362587",
+      "41029140",
+      "41275765",
+      "41189212",
+      "39512681",
+      "41045498",
+      "41740552",
+      "39740427",
+      "40602159",
+      "39809170",
+      "39960968",
+      "33358854",
+      "40347726",
+      "40692979",
+      "40676786",
+      "40564983",
+      "41719982",
+      "40628511",
+      "40780689",
+      "41083578",
+      "41727318",
+      "41347325",
+      "41183686",
+      "38579905",
+      "40214911",
+      "41270966",
+      "41239680",
+      "40911005",
+      "39678198",
+      "40700968",
+      "41759998",
+      "41187890",
+      "41790626",
+      "39251712",
+      "41634900",
+      "41019083",
+      "38591204",
+      "41316467",
+      "40696610",
+      "41134653",
+      "41330962",
+      "40615101",
+      "40527822"
+    ],
+    "review": [
+      "40239776",
+      "40419866",
+      "33358854"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0890-6238(25)00089-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/airpollution.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Air Pollution"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3842",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

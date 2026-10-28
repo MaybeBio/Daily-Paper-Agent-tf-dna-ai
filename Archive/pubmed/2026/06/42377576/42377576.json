@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "42377576",
+    "doi": "10.1007/s00894-026-06818-0",
+    "title": "RGTBind: RBF-gate graph transformer with spatially biased attention for protein-DNA binding-site prediction."
+  },
+  "content": {
+    "abstract": "CONTEXT: Protein-DNA binding-site prediction is essential for understanding gene regulation and protein function, but remains difficult because DNA recognition depends on both sequence context and three-dimensional structure. We developed RGTBind, a graph transformer that combines multi-scale radial basis function distance encoding with a learnable threshold-gating mechanism to model spatially informative residue interactions. On the independent Test_129 and Test_181 benchmarks, RGTBind achieved the best F1, AUC, and MCC among the compared methods, supporting the value of distance-aware attention with structure-guided neighbor selection for residue-level protein-DNA binding-site prediction. METHODS: Each protein was represented as a residue-level graph derived from AlphaFold2-predicted structures. Residue features included AlphaFold2 single representations, DSSP-derived structural descriptors, PSI-BLAST position-specific scoring matrices (PSSM), and HHblits hidden Markov model (HMM) profiles. Pairwise C alpha -C alpha distances were encoded using a multi-scale radial basis function scheme and incorporated into a graph transformer through spatially biased multi-head self-attention and a learnable threshold gate. Sequence redundancy was reduced with CD-HIT. The model was trained with AdamW using five-fold cross-validation on Train_573 and evaluated on the Test_129 and Test_181 benchmark datasets.",
+    "keywords": [
+      "Adaptive threshold gating",
+      "Distance-biased self-attention",
+      "Graph transformer",
+      "Multi-scale RBF distance encoding",
+      "Protein-DNA binding-site prediction"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "*DNA/chemistry/metabolism",
+      "Models, Molecular",
+      "Protein Binding",
+      "Algorithms",
+      "*Computational Biology/methods",
+      "*Software"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qiu, Yi",
+        "Zhao, Duo",
+        "Ye, Ying",
+        "Chen, Jing",
+        "Wu, Hongjie"
+      ],
+      "short_names": [
+        "Qiu Y",
+        "Zhao D",
+        "Ye Y",
+        "Chen J",
+        "Wu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, Jiangsu, 215009, China.",
+        "The Seventh People's Hospital of Shanghai University of Traditional Chinese Medicine, Shanghai, 200137, China.",
+        "The Seventh People's Hospital of Shanghai University of Traditional Chinese Medicine, Shanghai, 200137, China. yeying@hosno7.com.",
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, Jiangsu, 215009, China. jingchen@usts.edu.cn.",
+        "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, Jiangsu, 215009, China. hongjiewu@usts.edu.cn.",
+        "Jiangsu Province Key Laboratory of Intelligent Building Energy Efficiency, Suzhou University of Science and Technology, Suzhou, Jiangsu, 215009, China. hongjiewu@usts.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qiu, Yi",
+        "short_name": "Qiu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, Jiangsu, 215009, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Duo",
+        "short_name": "Zhao D",
+        "identifiers": [],
+        "affiliations": [
+          "The Seventh People's Hospital of Shanghai University of Traditional Chinese Medicine, Shanghai, 200137, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Ying",
+        "short_name": "Ye Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Seventh People's Hospital of Shanghai University of Traditional Chinese Medicine, Shanghai, 200137, China. yeying@hosno7.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Jing",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, Jiangsu, 215009, China. jingchen@usts.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Hongjie",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Suzhou University of Science and Technology, Suzhou, Jiangsu, 215009, China. hongjiewu@usts.edu.cn.",
+          "Jiangsu Province Key Laboratory of Intelligent Building Energy Efficiency, Suzhou University of Science and Technology, Suzhou, Jiangsu, 215009, China. hongjiewu@usts.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular modeling"
+    ],
+    "journal_abbrev": [
+      "J Mol Model"
+    ],
+    "pub_date": "2026 Jun 30",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/30 12:32",
+    "fetched_at": "2026-10-02 00:49:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41491898",
+      "41463537",
+      "40830361",
+      "40777776",
+      "39093669",
+      "39086148",
+      "38960900",
+      "38281252",
+      "38242383",
+      "37976593",
+      "36727436",
+      "36139026",
+      "35652477",
+      "35650286",
+      "34265844",
+      "33577689",
+      "30943723",
+      "30169574",
+      "29846643",
+      "29610332",
+      "28961686",
+      "28575181",
+      "26615024",
+      "23087378",
+      "23060610",
+      "18801847",
+      "17379688",
+      "9580679",
+      "9254694"
+    ],
+    "similar": [
+      "42377576",
+      "38975896",
+      "25708928",
+      "35039821",
+      "39471921",
+      "22574904",
+      "15720719",
+      "24475169",
+      "19091029",
+      "41168713",
+      "39848362",
+      "40359455",
+      "41045511",
+      "19594868",
+      "42119874",
+      "32946833",
+      "41791267",
+      "42336024",
+      "25756377",
+      "28851273",
+      "40601256",
+      "24448651",
+      "33837387",
+      "40919912",
+      "18803867",
+      "33442949",
+      "17316627",
+      "21787304",
+      "38491248",
+      "40888747",
+      "41977286",
+      "37824738",
+      "29608705",
+      "41402709",
+      "42083872",
+      "41566703",
+      "23166753",
+      "42190366",
+      "41540516",
+      "25113160",
+      "41596767",
+      "18235992",
+      "23703214",
+      "35842895",
+      "22174808",
+      "31881828",
+      "40795814",
+      "42323855",
+      "40000026",
+      "39357703",
+      "42316773",
+      "30598073",
+      "26527718",
+      "33238837",
+      "19439068",
+      "27282833",
+      "39481634",
+      "34415020",
+      "40121399",
+      "30032213",
+      "35447463",
+      "23116714",
+      "39270885",
+      "39153682",
+      "38927611",
+      "41276805",
+      "40673435",
+      "30943723",
+      "42386985",
+      "24675572",
+      "40327458",
+      "28606086",
+      "40728607",
+      "39103447",
+      "41698566",
+      "40960030",
+      "38295475",
+      "37764319",
+      "40742755",
+      "39528184",
+      "36398714",
+      "31693872",
+      "31027046",
+      "40139623",
+      "29536446",
+      "20522253",
+      "17488755",
+      "41094395",
+      "20525822",
+      "39657158",
+      "31888057",
+      "23335013",
+      "29753757",
+      "22666491",
+      "41447498",
+      "29182548",
+      "34929739",
+      "40914361",
+      "37317619",
+      "34073705"
+    ],
+    "review": [
+      "42377576",
+      "25756377"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s00894-026-06818-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD48-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

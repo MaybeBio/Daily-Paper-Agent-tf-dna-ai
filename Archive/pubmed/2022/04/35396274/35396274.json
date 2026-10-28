@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "35396274",
+    "doi": "10.1101/gr.275870.121",
+    "title": "Chromatin interaction-aware gene regulatory modeling with graph attention networks."
+  },
+  "content": {
+    "abstract": "Linking distal enhancers to genes and modeling their impact on target gene expression are longstanding unresolved problems in regulatory genomics and critical for interpreting noncoding genetic variation. Here, we present a new deep learning approach called GraphReg that exploits 3D interactions from chromosome conformation capture assays to predict gene expression from 1D epigenomic data or genomic DNA sequence. By using graph attention networks to exploit the connectivity of distal elements up to 2 Mb away in the genome, GraphReg more faithfully models gene regulation and more accurately predicts gene expression levels than the state-of-the-art deep learning methods for this task. Feature attribution used with GraphReg accurately identifies functional enhancers of genes, as validated by CRISPRi-FlowFISH and TAP-seq assays, outperforming both convolutional neural networks (CNNs) and the recently proposed activity-by-contact model. Sequence-based GraphReg also accurately predicts direct transcription factor (TF) targets as validated by CRISPRi TF knockout experiments via in silico ablation of TF binding motifs. GraphReg therefore represents an important advance in modeling the regulatory impact of epigenomic and sequence elements.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites/genetics",
+      "Chromatin/genetics",
+      "*Gene Expression Regulation",
+      "Gene Regulatory Networks",
+      "*Neural Networks, Computer",
+      "Regulatory Sequences, Nucleic Acid",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Karbalayghareh, Alireza",
+        "Sahin, Merve",
+        "Leslie, Christina S"
+      ],
+      "short_names": [
+        "Karbalayghareh A",
+        "Sahin M",
+        "Leslie CS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1723-9355"
+      ],
+      "affiliations": [
+        "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, New York 10065, USA.",
+        "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, New York 10065, USA.",
+        "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, New York 10065, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Karbalayghareh, Alireza",
+        "short_name": "Karbalayghareh A",
+        "identifiers": [
+          "0000-0002-1723-9355"
+        ],
+        "affiliations": [
+          "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, New York 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Sahin, Merve",
+        "short_name": "Sahin M",
+        "identifiers": [],
+        "affiliations": [
+          "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, New York 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Leslie, Christina S",
+        "short_name": "Leslie CS",
+        "identifiers": [],
+        "affiliations": [
+          "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, New York 10065, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome research"
+    ],
+    "journal_abbrev": [
+      "Genome Res"
+    ],
+    "pub_date": "2022 May",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/10 06:00",
+    "fetched_at": "2026-09-28 07:05:30"
+  },
+  "links": {
+    "cites": [
+      "42547575",
+      "42509369",
+      "42504200",
+      "42467984",
+      "42457959",
+      "42234579",
+      "42169411",
+      "42148149",
+      "42132948",
+      "42036810",
+      "41978384",
+      "41922356",
+      "41867859",
+      "41832145",
+      "41823837",
+      "41768279",
+      "41766646",
+      "41691282",
+      "41596454",
+      "41545085",
+      "41526189",
+      "41523993",
+      "41503157",
+      "41279614",
+      "40957944",
+      "40832731",
+      "40777510",
+      "40773517",
+      "40626041",
+      "40533554",
+      "40462903",
+      "40111986",
+      "39884279",
+      "39605624",
+      "39363891",
+      "39363017",
+      "39284975",
+      "39131276",
+      "39122941",
+      "39082651",
+      "38979226",
+      "38825692",
+      "38798671",
+      "38514783",
+      "38177592",
+      "38053013",
+      "38014075",
+      "37996959",
+      "37673975",
+      "37669132",
+      "37577543",
+      "37508462",
+      "37461616",
+      "37419111",
+      "37324054",
+      "37224527",
+      "37205975",
+      "37161475",
+      "36814848",
+      "36698974",
+      "36444296",
+      "36018818",
+      "35325548",
+      "34955367",
+      "34882195"
+    ],
+    "refs": [
+      "35325548",
+      "35196517",
+      "34608324",
+      "34099725",
+      "33603233",
+      "32483332",
+      "32433972",
+      "32213324",
+      "31784727",
+      "31554806",
+      "31318408",
+      "30013180",
+      "29588361",
+      "28513628",
+      "28079019",
+      "27643841",
+      "27587684",
+      "27079975",
+      "26390058",
+      "25559105",
+      "21330290",
+      "20979621",
+      "19815776",
+      "14663149"
+    ],
+    "similar": [
+      "35396274",
+      "30423062",
+      "29617928",
+      "31318408",
+      "33137083",
+      "24603674",
+      "35666736",
+      "27490187",
+      "32770026",
+      "36723807",
+      "31053165",
+      "25228660",
+      "34486522",
+      "22863112",
+      "31206543",
+      "29074739",
+      "34292930",
+      "28204599",
+      "21326906",
+      "29654070",
+      "37598467",
+      "22456606",
+      "31856220",
+      "25361952",
+      "37214836",
+      "37370113",
+      "31006511",
+      "35325548",
+      "28576882",
+      "36917472",
+      "25442502",
+      "34534646",
+      "33581335",
+      "32029002",
+      "35764630",
+      "33413545",
+      "30555922",
+      "34251618",
+      "35410163",
+      "33381816",
+      "38643066",
+      "30359306",
+      "38168841",
+      "37996959",
+      "36043696",
+      "33259518",
+      "23636944",
+      "22955984",
+      "22115494",
+      "24564528",
+      "30374068",
+      "28957653",
+      "22955983",
+      "39127768",
+      "29069282",
+      "30709337",
+      "33191916",
+      "38884259",
+      "38053013",
+      "22106333",
+      "31362726",
+      "35511108",
+      "38451769",
+      "19956545",
+      "33706810",
+      "35858748",
+      "35190730",
+      "33950192",
+      "30142147",
+      "31590652",
+      "22955621",
+      "32174324",
+      "35440119",
+      "25957350",
+      "35293310",
+      "32054475",
+      "28100260",
+      "19324929",
+      "27391817",
+      "32772801",
+      "29970003",
+      "30580963",
+      "21821017",
+      "34187518",
+      "37443338",
+      "26016777",
+      "37488417",
+      "34953471",
+      "22718975",
+      "26300124",
+      "36155619",
+      "26818008",
+      "28865451",
+      "36671456",
+      "22950945",
+      "28137873",
+      "18237429",
+      "25752748",
+      "22084256",
+      "27008015",
+      "36243974",
+      "39318505",
+      "37577603",
+      "37461616"
+    ],
+    "review": [
+      "35396274",
+      "19324929"
+    ],
+    "pmc": [
+      "9104700"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://genome.cshlp.org/lookup/pmidlookup?view=long&pmid=35396274",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35396274/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35396274",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://facultyopinions.com/pubmed/35396274",
+        "provider": "H1 Connect - Access expert opinions and insights on biomedical research.",
+        "category": "Other Literature Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "See the articles recommended by the Faculty of more than 8,000 leading experts in Biology and Medicine."
+      }
+    ],
+    "text_mined": []
+  }
+}

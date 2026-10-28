@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41883144",
+  "title": "GRNFormer: accurate gene regulatory network inference using graph transformer.",
+  "authors": "Hegde, Akshata; Cheng, Jianlin",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2026-03-26",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用图Transformer从转录组数据推断基因调控网络，虽涉及转录因子锚定采样，但核心是基因共表达关系推断而非TF-DNA三维互作建模，方法可迁移但对象和互作轴偏离。",
+  "abstract": "MOTIVATION: Deciphering gene regulatory networks (GRNs) from single-cell transcriptomics data remains a fundamental challenge in computational biology. It is hindered by data sparsity, high dimensionality, and the lack of scalable, generalizable inference models. To address this, we present GRNFormer, a generalizable graph transformer framework for accurate GRN inference from transcriptomics data across species, cell types, and platforms without requiring cell-type annotations or prior regulatory information. RESULTS: GRNFormer integrates a transformer-based gene expression encoder (Gene-Transcoder) with a variational graph autoencoder (GraViTAE) employing pairwise attention to jointly learn the representations of genes (nodes) and their co-expression relationships (edges). Leveraging TF-Walker, a transcription factor-anchored subgraph sampling strategy, it effectively captures gene regulatory interactions from either single-cell or bulk RNA-seq datasets. Benchmarking on standard datasets demonstrates that GRNFormer outperforms existing traditional and deep learning state-of-the-art methods in blind evaluations, achieving average sampled area under the receiver operating characteristic curve (Sampled_AUROC) and sampled area under the precision-recall curve (Sampled_AUPRC) values between 0.90 and 0.98 as well as 0.87-0.98 average sampled F1 score. The model robustly recovers both known and novel regulatory networks, including pluripotency circuits in human embryonic stem cells (hESCs) and immune cell modules in peripheral blood mononuclear cells (PBMCs). The architecture enables scalable, biologically interpretable GRN inference across various datasets, cell types, and species, establishing GRNFormer as a robust and transferable tool for network biology. AVAILABILITY AND IMPLEMENTATION: GRNFormer is available on GitHub (https://github.com/BioinfoMachineLearning/GRNformer); the version used in this work is archived on Zenodo (https://doi.org/10.5281/zenodo.18868395), with evaluation resources for reproducibility.",
+  "abstract_zh": "动机：从单细胞转录组学数据中解析基因调控网络（GRNs）仍是计算生物学中的一项基本挑战，其难点在于数据稀疏性、高维性以及缺乏可扩展且泛化的推断模型。为解决此问题，我们提出GRNFormer，一种可泛化的图变换器框架，用于跨物种、细胞类型和平台从转录组学数据中准确推断GRN，无需细胞类型注释或先验调控信息。结果：GRNFormer将基于变换器的基因表达编码器（Gene-Transcoder）与采用成对注意力的变分图自编码器（GraViTAE）相结合，共同学习基因（节点）及其共表达关系（边）的表示。利用TF-Walker（一种转录因子锚定的子图采样策略），它能有效从单细胞或批量RNA-seq数据集中捕获基因调控相互作用。在标准数据集上的基准测试表明，GRNFormer在盲评中优于现有传统和深度学习最先进方法，平均采样接收者操作特征曲线下面积（Sampled_AUROC）和平均采样精确率-召回率曲线下面积（Sampled_AUPRC）值介于0.90至0.98之间，平均采样F1分数为0.87-0.98。该模型稳健地恢复已知和新颖的调控网络，包括人胚胎干细胞（hESCs）中的多能性回路和外周血单核细胞（PBMCs）中的免疫细胞模块。该架构支持跨多种数据集、细胞类型和物种的可扩展、生物学可解释的GRN推断，使GRNFormer成为网络生物学中稳健且可转移的工具。可用性与实现：GRNFormer可在GitHub上获取（https://github.com/BioinfoMachineLearning/GRNformer）；本工作所用版本已存档于Zenodo（https://doi.org/10.5281/zenodo.18868395），并提供可复现性的评估资源。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41883144/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41883144/",
+  "paper_page_path": "papers/pubmed/41883144/index.html"
+}

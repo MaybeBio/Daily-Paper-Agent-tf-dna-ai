@@ -1,0 +1,204 @@
+{
+  "identity": {
+    "pmid": "42398561",
+    "doi": "10.1016/j.jbi.2026.105080",
+    "title": "Causal intervention validation of gene regulatory signals in scGPT."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Single-cell foundation models such as scGPT have been promoted as representations of gene regulation, but their advertised regulatory signal has been judged largely from attention weights, which are correlational. We ask a deliberately bounded question: whether direct interventions on scGPT gene tokens-causal with respect to the model's own computation-recover model-internal transcription-factor (TF)-target dependencies that align with curated references, whether that signal is robust, and whether it transfers to real perturbation responses. We separate these into two explicit validation axes and report both, including where the model-internal signal does not correspond to biological causality. METHODS: On Tabula Sapiens kidney, lung, and immune subsets, plus an external Krasnow lung atlas and three CRISPR perturbation datasets (Adamson, Dixit, Shifrut), we ablate or swap TF token values inside scGPT and quantify changes in target-token readouts. Axis 1 (reference alignment): intervention scores are evaluated against curated TRRUST and DoRothEA references and against attention and coexpression baselines, with new robustness studies over cell count (120-500), positive/negative pair count, four negative-sampling designs, and four readout strategies (mean, L(2), cosine, max). We trace component-level circuits via activation patching, and benchmark against twelve GRN inference methods including a neural-network baseline on a matched substrate, additionally giving the classical methods larger cell budgets to test the equal-information question. Axis 2 (perturbation transfer): scores are evaluated against CRISPR perturbation-derived edges under balanced labels and AUROC. RESULTS: On Axis 1, lung shows reproducible enrichment that is stable across cell count and survives all four negative-sampling designs (permutation p improving from 0.07 to 0.03 as cells grow from 120 to 500); kidney enrichment is significant at small samples but does not survive scaling (permutation p rising to 0.16 at 500 cells); immune is at baseline. Richer readouts (L(2), cosine) recover signal the scalar mean compresses away, particularly in kidney. On the matched benchmark scGPT leads classical and neural baselines at the shared 120-cell budget, but the lead narrows as the classical methods are given more cells, confirming this is a signal-efficiency result, not general superiority. On Axis 2, balanced evaluation of all three CRISPR datasets, including the TF-screen Dixit data, yields AUROC  approximately  0.50: the model-internal signal does not predict real perturbation responses. CONCLUSION: scGPT encodes tissue-conditional, intervention-sensitive regulatory structure that is aligned with literature-curated TF-target edges (robustly in lung) but is representational rather than biologically causal: it does not transfer to perturbation outcomes. The pipeline is a practical mechanistic-audit toolkit for biological foundation models, and the gap between reference alignment and perturbation transfer is a concrete cautionary result for using such models in regulatory inference.",
+    "keywords": [
+      "Activation patching",
+      "Causal intervention",
+      "Gene regulatory networks",
+      "Mechanistic interpretability",
+      "ScGPT",
+      "Single-cell foundation models",
+      "Transcription factors"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Transcription Factors/metabolism",
+      "*Gene Expression Regulation",
+      "*Gene Regulatory Networks",
+      "*Computational Biology/methods",
+      "Single-Cell Analysis",
+      "Models, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kendiukhov, Ihor"
+      ],
+      "short_names": [
+        "Kendiukhov I"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, University of Tuebingen, Sand 14, 72076 Tuebingen, Germany. Electronic address: ihor.kendiukhov@student.uni-tuebingen.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kendiukhov, Ihor",
+        "short_name": "Kendiukhov I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of Tuebingen, Sand 14, 72076 Tuebingen, Germany. Electronic address: ihor.kendiukhov@student.uni-tuebingen.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomedical informatics"
+    ],
+    "journal_abbrev": [
+      "J Biomed Inform"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/04 00:33",
+    "fetched_at": "2026-10-02 00:48:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42398561",
+      "42482180",
+      "42527907",
+      "42475469",
+      "42296381",
+      "42509463",
+      "36321557",
+      "42379339",
+      "41310253",
+      "42155660",
+      "41288963",
+      "42585234",
+      "41883144",
+      "32019417",
+      "38409223",
+      "42033879",
+      "41628222",
+      "41386265",
+      "18426580",
+      "38744843",
+      "38879931",
+      "21172055",
+      "32054475",
+      "42059479",
+      "42467671",
+      "25369032",
+      "38873396",
+      "24228871",
+      "30547796",
+      "42061403",
+      "41826830",
+      "41093852",
+      "42086551",
+      "40662821",
+      "42286785",
+      "42013480",
+      "40269681",
+      "38950180",
+      "17319944",
+      "35961023",
+      "42378449",
+      "42636032",
+      "22456606",
+      "31985403",
+      "41489955",
+      "41716413",
+      "41206950",
+      "41300707",
+      "30445760",
+      "29914350",
+      "41067887",
+      "41871930",
+      "16131521",
+      "32051003",
+      "40251476",
+      "41514902",
+      "31701125",
+      "40662800",
+      "38342857",
+      "40069299",
+      "26823190",
+      "42316003",
+      "36192495",
+      "41554051",
+      "41643202",
+      "29297370",
+      "38653489",
+      "33438713",
+      "25707768",
+      "38980373",
+      "39584702",
+      "42653305",
+      "42560939",
+      "42411605",
+      "40633682",
+      "42449777",
+      "42412811",
+      "39207727",
+      "40654959",
+      "39387266",
+      "42333095",
+      "35757392",
+      "41050338",
+      "25121490",
+      "39679439",
+      "41801512",
+      "37000175",
+      "39833103",
+      "31340985",
+      "42650039",
+      "42652231",
+      "21496241",
+      "30961611",
+      "38913814",
+      "17244365",
+      "32241274",
+      "31964336",
+      "41498638",
+      "37897702",
+      "42064781"
+    ],
+    "review": [
+      "42398561",
+      "36321557",
+      "38873396",
+      "42013480",
+      "39207727"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1532-0464(26)00104-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

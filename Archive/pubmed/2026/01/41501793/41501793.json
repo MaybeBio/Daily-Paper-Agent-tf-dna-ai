@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "41501793",
+    "doi": "10.1186/s12967-025-07550-8",
+    "title": "Ginsenoside RG3 and cantharidin synergistically suppress the progression of hepatocellular carcinoma via targeting the PRMT1-SREBF1 axis-mediated lipid metabolism."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ginsenosides, such as ginsenoside RG3, demonstrate antitumor potential in hepatocellular carcinoma (HCC) and are often combined with cantharidin (CTD) in traditional Chinese medicine to achieve synergistic effects while mitigating CTD's toxicity. However, the precise molecular mechanisms underlying this synergy remain elusive. METHODS: The progression of HCC was assessed using a series of in vitro assays, including CCK-8 for cell viability, EdU staining for proliferation, wound healing for migration, and transwell assay for invasion. The antitumor efficacy and hepatotoxicity were assessed in animal models using mice, employing tumor volume measurement, histopathological analysis, and quantification of serum alanine aminotransferase (ALT) and aspartate aminotransferase (AST) through ELISA. To decipher the underlying synergistic mechanisms, we employed an integrated approach of network pharmacology, RNA sequencing, and molecular docking. The expression of key targets was verified by RT-qPCR and western blotting, while the direct interaction between PRMT1 and SREBF1 was confirmed by co-immunoprecipitation (Co-IP). RESULTS: The RG3/CTD combination exhibited a potent synergistic antitumor effect, suppressing tumor proliferation, migration, and invasion more effectively than either agent alone. Mechanistically, the therapy dually modulated aberrant lipid metabolism by concurrently inhibiting the PI3K/AKT/mTOR signaling axis and PRMT1-mediated epigenetic regulation. We identified a novel direct interaction between PRMT1 and SREBF1. The binding of the CTD/RG3 complex disrupted this interaction, inhibiting PRMT1-mediated arginine methylation of SREBF1 and consequently downregulating SREBF1 expression and activity. Furthermore, RG3 significantly mitigated CTD-induced hepatotoxicity by maintaining hepatic serum ALT and AST levels, an effect likely mediated by the modulation of AKT, ACOX1, and ABCB1 pathways to reduce oxidative stress and restore metabolic homeostasis. CONCLUSIONS: Our findings establish a novel RG3-CTD regimen that concurrently enhances therapeutic efficacy and reduces hepatotoxicity through coordinated targeting of oncogenic signaling and metabolic reprogramming. This study provides a robust mechanistic foundation for the clinical translation of RG3/CTD combination therapy for HCC.",
+    "keywords": [
+      "CTD",
+      "Ginsenoside RG3",
+      "HCC",
+      "Lipid biosynthesis",
+      "PRMT1",
+      "SREBF1"
+    ],
+    "mesh_terms": [
+      "*Carcinoma, Hepatocellular/pathology/drug therapy/metabolism",
+      "Animals",
+      "*Ginsenosides/pharmacology/therapeutic use",
+      "*Liver Neoplasms/pathology/drug therapy/metabolism",
+      "Humans",
+      "*Protein-Arginine N-Methyltransferases/metabolism",
+      "*Cantharidin/therapeutic use/pharmacology",
+      "Drug Synergism",
+      "*Lipid Metabolism/drug effects",
+      "*Sterol Regulatory Element Binding Protein 1/metabolism",
+      "Cell Proliferation/drug effects",
+      "Cell Line, Tumor",
+      "*Disease Progression",
+      "Signal Transduction/drug effects",
+      "Cell Movement/drug effects",
+      "*Repressor Proteins/metabolism",
+      "Mice, Nude",
+      "Mice",
+      "Male",
+      "Mice, Inbred BALB C",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yuehua",
+        "Yuan, Hengye",
+        "Yu, Yonggai",
+        "Gou, Xianggang",
+        "Wang, Ziyao",
+        "Zhou, Zhongzheng",
+        "Wang, Zezhen",
+        "Yan, Wei",
+        "Wang, Haisheng",
+        "Yan, Jia"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Yuan H",
+        "Yu Y",
+        "Gou X",
+        "Wang Z",
+        "Zhou Z",
+        "Wang Z",
+        "Yan W",
+        "Wang H",
+        "Yan J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China.",
+        "School of Life Science, Inner Mongolia University, Xin Lin Guo Le South Road 49, Yu Quan District, Hohhot, Inner Mongolia, 010000, China.",
+        "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China.",
+        "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China.",
+        "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China.",
+        "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China.",
+        "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China.",
+        "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China.",
+        "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China. 19980089@immu.edu.cn.",
+        "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China. yanjia0781@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yuehua",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Hengye",
+        "short_name": "Yuan H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Inner Mongolia University, Xin Lin Guo Le South Road 49, Yu Quan District, Hohhot, Inner Mongolia, 010000, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Yonggai",
+        "short_name": "Yu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China."
+        ]
+      },
+      {
+        "full_name": "Gou, Xianggang",
+        "short_name": "Gou X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ziyao",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zhongzheng",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zezhen",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Wei",
+        "short_name": "Yan W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Haisheng",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China. 19980089@immu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yan, Jia",
+        "short_name": "Yan J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Inner Mongolia Medical University, Xin hua Street No. 5, Hui min District, Hohhot, Inner Mongolia, 010010, China. yanjia0781@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2026 Jan 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/08 07:13",
+    "fetched_at": "2026-10-01 10:42:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40535845",
+      "39726313",
+      "39323625",
+      "39309011",
+      "39150093",
+      "39034837",
+      "38899975",
+      "38768838",
+      "38465219",
+      "38441023",
+      "38424417",
+      "38383964",
+      "38213310",
+      "38036934",
+      "38017425",
+      "37393234",
+      "37383714",
+      "37257560",
+      "37202806",
+      "36674695",
+      "36594207",
+      "36408240",
+      "36330637",
+      "36167294",
+      "36133804",
+      "35860003",
+      "35719058",
+      "35691079",
+      "35610020",
+      "35600776",
+      "35309116",
+      "35219164",
+      "35148178",
+      "34930287",
+      "33793882",
+      "32846865",
+      "32707651",
+      "32532964",
+      "31431619",
+      "31211478",
+      "30655855",
+      "30525897",
+      "30478299",
+      "29348728"
+    ],
+    "similar": [
+      "41501793",
+      "41520736",
+      "41293954",
+      "41564520",
+      "41126368",
+      "42284354",
+      "40615101",
+      "41832498",
+      "41924451",
+      "40412057",
+      "41640866",
+      "39558331",
+      "40252583",
+      "40702694",
+      "41858177",
+      "41101075",
+      "41866005",
+      "41115564",
+      "42119450",
+      "41558058",
+      "42580240",
+      "40316156",
+      "39549544",
+      "40049103",
+      "41734586",
+      "42062902",
+      "40401713",
+      "29156516",
+      "40615733",
+      "40130992",
+      "40450984",
+      "32407961",
+      "41719100",
+      "34130594",
+      "41285809",
+      "39032475",
+      "42275883",
+      "39023830",
+      "39576845",
+      "38017425",
+      "41187400",
+      "40057142",
+      "22559167",
+      "41695286",
+      "39367565",
+      "29621733",
+      "39674355",
+      "37856990",
+      "32187962",
+      "40543691",
+      "41242299",
+      "39427522",
+      "42067013",
+      "41747797",
+      "42431283",
+      "41650503",
+      "42176510",
+      "42014849",
+      "38901205",
+      "39030964",
+      "40944546",
+      "41130376",
+      "35719058",
+      "41962267",
+      "40517619",
+      "41219895",
+      "42214227",
+      "38520835",
+      "42424675",
+      "42228265",
+      "39971013",
+      "39348778",
+      "39216686",
+      "40809929",
+      "40593127",
+      "41193823",
+      "40883741",
+      "41629949",
+      "39962068",
+      "35169857",
+      "40646641",
+      "42492266",
+      "39586558",
+      "41858068",
+      "39301883",
+      "41424411",
+      "30971294",
+      "40106068",
+      "41865688",
+      "37657666",
+      "34696683",
+      "41653713",
+      "41952494",
+      "42317348",
+      "41621698",
+      "41485289",
+      "41347828",
+      "34880599",
+      "41198498",
+      "40682115"
+    ],
+    "review": [
+      "41501793"
+    ],
+    "pmc": [
+      "12811908"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-07550-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41501793/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

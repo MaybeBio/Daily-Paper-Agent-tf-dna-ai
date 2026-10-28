@@ -1,0 +1,391 @@
+{
+  "identity": {
+    "pmid": "33905247",
+    "doi": "10.1021/acs.jcim.1c00029",
+    "title": "Solution-State Preorganization of Cyclic beta-Hairpin Ligands Determines Binding Mechanism and Affinities for MDM2."
+  },
+  "content": {
+    "abstract": "Understanding mechanisms of protein folding and binding is crucial to designing their molecular function. Molecular dynamics (MD) simulations and Markov state model (MSM) approaches provide a powerful way to understand complex conformational change that occurs over long time scales. Such dynamics are important for the design of therapeutic peptidomimetic ligands, whose affinity and binding mechanism are dictated by a combination of folding and binding. To examine the role of preorganization in peptide binding to protein targets, we performed massively parallel explicit-solvent MD simulations of cyclic beta-hairpin ligands designed to mimic the p53 transactivation domain and competitively bind mouse double minute 2 homologue (MDM2). Disrupting the MDM2-p53 interaction is a therapeutic strategy to prevent degradation of the p53 tumor suppressor in cancer cells. MSM analysis of over 3 ms of aggregate trajectory data enabled us to build a detailed mechanistic model of coupled folding and binding of four cyclic peptides which we compare to experimental binding affinities and rates. The results show a striking relationship between the relative preorganization of each ligand in solution and its affinity for MDM2. Specifically, changes in peptide conformational populations predicted by the MSMs suggest that entropy loss upon binding is the main factor influencing affinity. The MSMs also enable detailed examination of non-native interactions which lead to misfolded states and comparison of structural ensembles with experimental NMR measurements. In contrast to an MSM study of p53 transactivation domain (TAD) binding to MDM2, MSMs of cyclic beta-hairpin binding show a conformational selection mechanism. Finally, we make progress toward predicting accurate off rates of cyclic peptides using multiensemble Markov models (MEMMs) constructed from unbiased and biased simulated trajectories.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Ligands",
+      "Mice",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Protein Folding",
+      "*Proto-Oncogene Proteins c-mdm2/metabolism",
+      "*Tumor Suppressor Protein p53/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ge, Yunhui",
+        "Zhang, Si",
+        "Erdelyi, Mate",
+        "Voelz, Vincent A"
+      ],
+      "short_names": [
+        "Ge Y",
+        "Zhang S",
+        "Erdelyi M",
+        "Voelz VA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3946-1440",
+        "ORCID: 0000-0003-0359-5970",
+        "ORCID: 0000-0002-1054-2124"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Temple University, Philadelphia, Pennsylvania 19122, United States.",
+        "Department of Chemistry, Temple University, Philadelphia, Pennsylvania 19122, United States.",
+        "Department of Chemistry-BMC, Uppsala University, SE-75123 Uppsala, Sweden.",
+        "Department of Chemistry, Temple University, Philadelphia, Pennsylvania 19122, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ge, Yunhui",
+        "short_name": "Ge Y",
+        "identifiers": [
+          "0000-0002-3946-1440"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Temple University, Philadelphia, Pennsylvania 19122, United States."
+        ]
+      },
+      {
+        "full_name": "Zhang, Si",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Temple University, Philadelphia, Pennsylvania 19122, United States."
+        ]
+      },
+      {
+        "full_name": "Erdelyi, Mate",
+        "short_name": "Erdelyi M",
+        "identifiers": [
+          "0000-0003-0359-5970"
+        ],
+        "affiliations": [
+          "Department of Chemistry-BMC, Uppsala University, SE-75123 Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Voelz, Vincent A",
+        "short_name": "Voelz VA",
+        "identifiers": [
+          "0000-0002-1054-2124"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Temple University, Philadelphia, Pennsylvania 19122, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2021 May 24",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/28 06:00",
+    "fetched_at": "2026-09-27 16:37:23"
+  },
+  "links": {
+    "cites": [
+      "41181929",
+      "40243822",
+      "38756815",
+      "38078851",
+      "37873328",
+      "37236147",
+      "36994157",
+      "36945779",
+      "36073605",
+      "35395889",
+      "34046431"
+    ],
+    "refs": [
+      "33759131",
+      "32027758",
+      "31917926",
+      "31891108",
+      "31774287",
+      "31599485",
+      "31246463",
+      "31083977",
+      "31046237",
+      "30694671",
+      "30320271",
+      "30287685",
+      "29522679",
+      "29518328",
+      "29303257",
+      "29132080",
+      "29062047",
+      "28992700",
+      "28834715",
+      "28614661",
+      "28541045",
+      "28388463",
+      "28076801",
+      "27731454",
+      "27226302",
+      "26678621",
+      "26676832",
+      "26580382",
+      "26575573",
+      "26574340",
+      "26488642",
+      "26457449",
+      "25833563",
+      "25741627",
+      "25605901",
+      "25362358",
+      "25250719",
+      "24754484",
+      "24601557",
+      "24418072",
+      "24342240",
+      "24336354",
+      "23946421",
+      "23890007",
+      "23822324",
+      "23750122",
+      "23572190",
+      "23407358",
+      "23214419",
+      "22824207",
+      "22778442",
+      "22760863",
+      "22707706",
+      "22694121",
+      "22524527",
+      "22148351",
+      "21777691",
+      "21637799",
+      "21269250",
+      "21075307",
+      "20715028",
+      "20516128",
+      "20449836",
+      "20401387",
+      "19887634",
+      "19485483",
+      "19255450",
+      "18725320",
+      "18412373",
+      "18391200",
+      "18271516",
+      "17742054",
+      "17323946",
+      "16888652",
+      "16511824",
+      "16159277",
+      "15291512",
+      "15116359",
+      "15083458",
+      "12395429",
+      "11710970",
+      "11535071",
+      "10077639",
+      "9450543",
+      "9153396",
+      "9153395",
+      "8875929",
+      "1535557"
+    ],
+    "similar": [
+      "33905247",
+      "28834715",
+      "27538695",
+      "33759131",
+      "30645121",
+      "26138282",
+      "38916177",
+      "38078851",
+      "31755361",
+      "17302414",
+      "26046940",
+      "22815859",
+      "23609977",
+      "19408261",
+      "21528875",
+      "21904608",
+      "38679255",
+      "26032728",
+      "16159876",
+      "23324352",
+      "27731454",
+      "19255450",
+      "26701330",
+      "33401765",
+      "28871352",
+      "16817233",
+      "31473433",
+      "25591003",
+      "25584963",
+      "29142290",
+      "15953616",
+      "17957142",
+      "25808617",
+      "14741215",
+      "32448094",
+      "19305137",
+      "18800837",
+      "31282659",
+      "19323449",
+      "19958516",
+      "16857591",
+      "28992700",
+      "29522679",
+      "22617389",
+      "24418072",
+      "29878773",
+      "30513790",
+      "22444248",
+      "32001262",
+      "31781989",
+      "20660730",
+      "11925449",
+      "28425639",
+      "25363585",
+      "20190571",
+      "21191186",
+      "24342622",
+      "21077640",
+      "8950981",
+      "18435534",
+      "21584881",
+      "21425995",
+      "24491548",
+      "24211465",
+      "24264557",
+      "32497081",
+      "27050388",
+      "8875929",
+      "25377899",
+      "20515689",
+      "20490618",
+      "35780910",
+      "15001357",
+      "17848574",
+      "22408446",
+      "12381304",
+      "32192337",
+      "24858256",
+      "31795143",
+      "31390185",
+      "15557803",
+      "19363523",
+      "25625937",
+      "21088491",
+      "32691963",
+      "30832340",
+      "22666487",
+      "31971801",
+      "38237679",
+      "20726601",
+      "22807444",
+      "23398638",
+      "20056466",
+      "18826207",
+      "27373663",
+      "29877036",
+      "32651397",
+      "28042966",
+      "22337874",
+      "18355443",
+      "35775962",
+      "35395889",
+      "39002136",
+      "33904312",
+      "37903231",
+      "38516972",
+      "29390806",
+      "35424539",
+      "37504674",
+      "24907984",
+      "34820109",
+      "37686057",
+      "26441670",
+      "37312849",
+      "39342432",
+      "23750122"
+    ],
+    "review": [
+      "33905247",
+      "33759131",
+      "21425995",
+      "25625937",
+      "37504674"
+    ],
+    "pmc": [
+      "9960209"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33905247/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33905247",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33905247",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.1c00029",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

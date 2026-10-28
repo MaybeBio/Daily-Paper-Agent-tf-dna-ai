@@ -1,0 +1,37 @@
+{
+  "source": "arxiv",
+  "source_id": "2503.12377v1",
+  "title": "GCBLANE: A graph-enhanced convolutional BiLSTM attention network for improved transcription factor binding site prediction",
+  "doi": "",
+  "abstract": "Identifying transcription factor binding sites (TFBS) is crucial for understanding gene regulation, as these sites enable transcription factors (TFs) to bind to DNA and modulate gene expression. Despite advances in high-throughput sequencing, accurately identifying TFBS remains challenging due to the vast genomic data and complex binding patterns. GCBLANE, a graph-enhanced convolutional bidirectional Long Short-Term Memory (LSTM) attention network, is introduced to address this issue. It integrates convolutional, multi-head attention, and recurrent layers with a graph neural network to detect key features for TFBS prediction. On 690 ENCODE ChIP-Seq datasets, GCBLANE achieved an average AUC of 0.943, and on 165 ENCODE datasets, it reached an AUC of 0.9495, outperforming advanced models that utilize multimodal approaches, including DNA shape information. This result underscores GCBLANE's effectiveness compared to other methods. By combining graph-based learning with sequence analysis, GCBLANE significantly advances TFBS prediction.",
+  "authors": [
+    "Jonas Chris Ferrao",
+    "Dickson Dias",
+    "Sweta Morajkar",
+    "Manisha Gokuldas Fal Dessai"
+  ],
+  "published_date": "2025-03-16T06:52:03Z",
+  "updated_date": "2025-03-16T06:52:03Z",
+  "journal": "",
+  "category": "cs.LG, q-bio.GN, q-bio.QM",
+  "landing_url": "https://arxiv.org/abs/2503.12377v1",
+  "pdf_url": "https://arxiv.org/pdf/2503.12377v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "cs.LG",
+    "q-bio.GN",
+    "q-bio.QM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2503.12377v1",
+    "raw_categories": [
+      "cs.LG",
+      "q-bio.GN",
+      "q-bio.QM"
+    ],
+    "journal_ref": ""
+  }
+}

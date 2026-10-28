@@ -1,0 +1,328 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.04.663250",
+  "title": "GAME: Genomic API for Model Evaluation",
+  "doi": "10.1101/2025.07.04.663250",
+  "abstract": "The rapid expansion of genomics datasets and the application of machine learning has produced sequence-to-activity genomics models with ever-expanding capabilities. However, benchmarking these models on practical applications has been challenging because individual projects evaluate their models in ad hoc ways, and there is substantial heterogeneity of both model architectures and benchmarking tasks. To address this challenge, we have created GAME, a system for large-scale, community-led standardized model benchmarking on user-defined evaluation tasks. We borrow concepts from the Application Programming Interface (API) paradigm to allow for seamless communication between pre-trained models and benchmarking tasks, ensuring consistent evaluation protocols. Because all models and benchmarks are inherently compatible in this framework, the continual addition of new models and new benchmarks is easy. We also developed a Matcher module powered by a large language model (LLM) to automate ambiguous task alignment between benchmarks and models. Containerization of these modules enhances reproducibility and facilitates the deployment of models and benchmarks across computing platforms. By focusing on predicting underlying biochemical phenomena (e.g. gene expression, open chromatin, DNA binding), we ensure that tasks remain technology-independent. We provide examples of benchmarks and models implementing this framework, and anticipate that the community will contribute their own, leading to an ever-expanding and evolving set of models and evaluation tasks. This resource will accelerate genomics research by illuminating the best models for a given task, motivating novel functional genomic benchmarks, and providing a more nuanced understanding of model abilities.",
+  "authors": [
+    "Luthra I",
+    "Priyadarshi S",
+    "Guo R",
+    "Mahieu L",
+    "Kempynck N",
+    "Dooley D",
+    "Penzar D",
+    "Vorontsov I",
+    "Sheng Y",
+    "Tu X",
+    "Klie A",
+    "Drusinsky S",
+    "Floren A",
+    "Armand E",
+    "Alasoo K",
+    "Seelig G",
+    "Tewhey R",
+    "Koo P",
+    "Agarwal V",
+    "Gosai S",
+    "Pinello L",
+    "White MA",
+    "Lal A",
+    "Zeitlinger J",
+    "Pollard KS",
+    "Libbrecht M",
+    "Carter H",
+    "Mostafavi S",
+    "Kulakovskiy I",
+    "Hsiao W",
+    "Aerts S",
+    "Zhou J",
+    "de Boer CG"
+  ],
+  "published_date": "2025-07-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.04.663250",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.04.663250.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1047852",
+    "raw_record": {
+      "id": "PPR1047852",
+      "source": "PPR",
+      "doi": "10.1101/2025.07.04.663250",
+      "title": "GAME: Genomic API for Model Evaluation",
+      "authorString": "Luthra I, Priyadarshi S, Guo R, Mahieu L, Kempynck N, Dooley D, Penzar D, Vorontsov I, Sheng Y, Tu X, Klie A, Drusinsky S, Floren A, Armand E, Alasoo K, Seelig G, Tewhey R, Koo P, Agarwal V, Gosai S, Pinello L, White MA, Lal A, Zeitlinger J, Pollard KS, Libbrecht M, Carter H, Mostafavi S, Kulakovskiy I, Hsiao W, Aerts S, Zhou J, de Boer CG.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Luthra I",
+            "lastName": "Luthra",
+            "firstName": "Ishika",
+            "initials": "I"
+          },
+          {
+            "fullName": "Priyadarshi S",
+            "lastName": "Priyadarshi",
+            "firstName": "Satyam",
+            "initials": "S"
+          },
+          {
+            "fullName": "Guo R",
+            "lastName": "Guo",
+            "firstName": "Rui",
+            "initials": "R"
+          },
+          {
+            "fullName": "Mahieu L",
+            "lastName": "Mahieu",
+            "firstName": "Lukas",
+            "initials": "L"
+          },
+          {
+            "fullName": "Kempynck N",
+            "lastName": "Kempynck",
+            "firstName": "Niklas",
+            "initials": "N"
+          },
+          {
+            "fullName": "Dooley D",
+            "lastName": "Dooley",
+            "firstName": "Damion",
+            "initials": "D"
+          },
+          {
+            "fullName": "Penzar D",
+            "lastName": "Penzar",
+            "firstName": "Dmitry",
+            "initials": "D"
+          },
+          {
+            "fullName": "Vorontsov I",
+            "lastName": "Vorontsov",
+            "firstName": "Ilya",
+            "initials": "I"
+          },
+          {
+            "fullName": "Sheng Y",
+            "lastName": "Sheng",
+            "firstName": "Yilun",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Tu X",
+            "lastName": "Tu",
+            "firstName": "Xinming",
+            "initials": "X"
+          },
+          {
+            "fullName": "Klie A",
+            "lastName": "Klie",
+            "firstName": "Adam",
+            "initials": "A"
+          },
+          {
+            "fullName": "Drusinsky S",
+            "lastName": "Drusinsky",
+            "firstName": "Shiron",
+            "initials": "S"
+          },
+          {
+            "fullName": "Floren A",
+            "lastName": "Floren",
+            "firstName": "Alexander",
+            "initials": "A"
+          },
+          {
+            "fullName": "Armand E",
+            "lastName": "Armand",
+            "firstName": "Ethan",
+            "initials": "E"
+          },
+          {
+            "fullName": "Alasoo K",
+            "lastName": "Alasoo",
+            "firstName": "Kaur",
+            "initials": "K"
+          },
+          {
+            "fullName": "Seelig G",
+            "lastName": "Seelig",
+            "firstName": "Georg",
+            "initials": "G"
+          },
+          {
+            "fullName": "Tewhey R",
+            "lastName": "Tewhey",
+            "firstName": "Ryan",
+            "initials": "R"
+          },
+          {
+            "fullName": "Koo P",
+            "lastName": "Koo",
+            "firstName": "Peter",
+            "initials": "P"
+          },
+          {
+            "fullName": "Agarwal V",
+            "lastName": "Agarwal",
+            "firstName": "Vikram",
+            "initials": "V"
+          },
+          {
+            "fullName": "Gosai S",
+            "lastName": "Gosai",
+            "firstName": "Sager",
+            "initials": "S"
+          },
+          {
+            "fullName": "Pinello L",
+            "lastName": "Pinello",
+            "firstName": "Luca",
+            "initials": "L"
+          },
+          {
+            "fullName": "White MA",
+            "lastName": "White",
+            "firstName": "Michael",
+            "initials": "MA"
+          },
+          {
+            "fullName": "Lal A",
+            "lastName": "Lal",
+            "firstName": "Avantika",
+            "initials": "A"
+          },
+          {
+            "fullName": "Zeitlinger J",
+            "lastName": "Zeitlinger",
+            "firstName": "Julia",
+            "initials": "J"
+          },
+          {
+            "fullName": "Pollard KS",
+            "lastName": "Pollard",
+            "firstName": "Katherine",
+            "initials": "KS"
+          },
+          {
+            "fullName": "Libbrecht M",
+            "lastName": "Libbrecht",
+            "firstName": "Maxwell",
+            "initials": "M"
+          },
+          {
+            "fullName": "Carter H",
+            "lastName": "Carter",
+            "firstName": "Hannah",
+            "initials": "H"
+          },
+          {
+            "fullName": "Mostafavi S",
+            "lastName": "Mostafavi",
+            "firstName": "Sara",
+            "initials": "S"
+          },
+          {
+            "fullName": "Kulakovskiy I",
+            "lastName": "Kulakovskiy",
+            "firstName": "Ivan",
+            "initials": "I"
+          },
+          {
+            "fullName": "Hsiao W",
+            "lastName": "Hsiao",
+            "firstName": "Will",
+            "initials": "W"
+          },
+          {
+            "fullName": "Aerts S",
+            "lastName": "Aerts",
+            "firstName": "Stein",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8006-0315"
+            }
+          },
+          {
+            "fullName": "Zhou J",
+            "lastName": "Zhou",
+            "firstName": "Jian",
+            "initials": "J"
+          },
+          {
+            "fullName": "de Boer CG",
+            "lastName": "de Boer",
+            "firstName": "Carl",
+            "initials": "CG"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8006-0315"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The rapid expansion of genomics datasets and the application of machine learning has produced sequence-to-activity genomics models with ever-expanding capabilities. However, benchmarking these models on practical applications has been challenging because individual projects evaluate their models in ad hoc ways, and there is substantial heterogeneity of both model architectures and benchmarking tasks. To address this challenge, we have created GAME, a system for large-scale, community-led standardized model benchmarking on user-defined evaluation tasks. We borrow concepts from the Application Programming Interface (API) paradigm to allow for seamless communication between pre-trained models and benchmarking tasks, ensuring consistent evaluation protocols. Because all models and benchmarks are inherently compatible in this framework, the continual addition of new models and new benchmarks is easy. We also developed a Matcher module powered by a large language model (LLM) to automate ambiguous task alignment between benchmarks and models. Containerization of these modules enhances reproducibility and facilitates the deployment of models and benchmarks across computing platforms. By focusing on predicting underlying biochemical phenomena (e.g. gene expression, open chromatin, DNA binding), we ensure that tasks remain technology-independent. We provide examples of benchmarks and models implementing this framework, and anticipate that the community will contribute their own, leading to an ever-expanding and evolving set of models and evaluation tasks. This resource will accelerate genomics research by illuminating the best models for a given task, motivating novel functional genomic benchmarks, and providing a more nuanced understanding of model abilities.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.07.04.663250"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.04.663250"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-07-13",
+      "firstPublicationDate": "2025-07-08",
+      "firstIndexDate": "2025-07-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38493227",
+  "title": "A robust ultrasensitive transcriptional switch in noisy cellular environments.",
+  "authors": "Jeong, Eui Min; Kim, Jae Kyoung",
+  "journal": "NPJ systems biology and applications",
+  "published_date": "2024-03-17",
+  "window": {
+    "start": "2024-03-11",
+    "end": "2024-03-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过模型模拟研究转录开关的噪声鲁棒性设计，涉及转录调控机制但非TF-DNA结合位点预测或互作建模，且方法为动力学模拟而非AI或分子模拟，与课题关联较弱。",
+  "abstract": "Ultrasensitive transcriptional switches enable sharp transitions between transcriptional on and off states and are essential for cells to respond to environmental cues with high fidelity. However, conventional switches, which rely on direct repressor-DNA binding, are extremely noise-sensitive, leading to unintended changes in gene expression. Here, through model simulations and analysis, we discovered that an alternative design combining three indirect transcriptional repression mechanisms, sequestration, blocking, and displacement, can generate a noise-resilient ultrasensitive switch. Although sequestration alone can generate an ultrasensitive switch, it remains sensitive to noise because the unintended transcriptional state induced by noise persists for long periods. However, by jointly utilizing blocking and displacement, these noise-induced transitions can be rapidly restored to the original transcriptional state. Because this transcriptional switch is effective in noisy cellular contexts, it goes beyond previous synthetic transcriptional switches, making it particularly valuable for robust synthetic system design. Our findings also provide insights into the evolution of robust ultrasensitive switches in cells. Specifically, the concurrent use of seemingly redundant indirect repression mechanisms in diverse biological systems appears to be a strategy to achieve noise-resilience of ultrasensitive switches.",
+  "abstract_zh": "超灵敏转录开关能够在转录开启与关闭状态之间实现急剧转换，对于细胞以高保真度响应环境信号至关重要。然而，依赖直接阻遏蛋白-DNA结合的传统开关对噪声极为敏感，导致基因表达发生非预期变化。在此，通过模型模拟与分析，我们发现一种结合三种间接转录抑制机制——隔离（sequestration）、阻断（blocking）和置换（displacement）——的替代设计能够生成抗噪声的超灵敏开关。尽管仅凭隔离机制即可产生超灵敏开关，但由于噪声诱导的非预期转录状态会持续较长时间，其仍对噪声敏感。然而，通过联合利用阻断和置换机制，这些噪声诱导的转换能够迅速恢复至原始转录状态。由于该转录开关在噪声丰富的细胞环境中有效，它超越了以往合成的转录开关，使其在稳健合成系统设计中尤为宝贵。我们的发现还为细胞中稳健超灵敏开关的进化提供了见解。具体而言，在多种生物系统中同时使用看似冗余的间接抑制机制，似乎是实现超灵敏开关抗噪声性的一种策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38493227/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38493227/",
+  "paper_page_path": "papers/pubmed/38493227/index.html"
+}

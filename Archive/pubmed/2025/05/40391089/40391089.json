@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "40391089",
+    "doi": "10.1093/nargab/lqaf058",
+    "title": "DRBP-EDP: classification of DNA-binding proteins and RNA-binding proteins using ESM-2 and dual-path neural network."
+  },
+  "content": {
+    "abstract": "Regulation of DNA or RNA at the transcriptional, post-transcriptional, and translational levels are key steps in the central dogma of molecular biology. DNA-binding proteins (DBPs) and RNA-binding proteins (RBPs) play pivotal roles in the precise regulation of gene expression in these steps. Both of these two classes of proteins are nucleic acid-binding proteins (NABPs), so they exhibit significant similarity in both sequence and structure. However, traditional methods for identifying NABPs are typically time-consuming, costly, and challenging to scale up. Utilizing deep learning to classify proteins intelligently has emerged as a more efficient solution for these issues. In this study, we propose a phased classification method integrating ESM-2 with a dual-path neural network, called DRBP-EDP. Additionally, a refined approach to dataset construction is designed, resulting in the creation of high-quality protein classification datasets. The results demonstrated that the model achieved strong performance, with 90.03% accuracy in the first stage for classifying NABPs and non-nucleic acid-binding proteins, and 89.56% accuracy in the second stage for classifying DBPs and RBPs. To enhance accessibility and usability, DRBP-EDP has been developed in both executable and web-based versions, which are publicly available at https://doi.org/10.5281/zenodo.14092184 and https://github.com/MuQiang-MQ/DRBP-EDP.",
+    "keywords": [],
+    "mesh_terms": [
+      "*RNA-Binding Proteins/classification/genetics/chemistry/metabolism",
+      "*DNA-Binding Proteins/classification/genetics/chemistry/metabolism",
+      "*Neural Networks, Computer",
+      "Deep Learning",
+      "*Software",
+      "Humans",
+      "Databases, Protein"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mu, Qiang",
+        "Yu, Guoping",
+        "Zhou, Guomin",
+        "He, Yubing",
+        "Zhang, Jianhua"
+      ],
+      "short_names": [
+        "Mu Q",
+        "Yu G",
+        "Zhou G",
+        "He Y",
+        "Zhang J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7279-4629",
+        "ORCID: 0000-0003-3758-3492"
+      ],
+      "affiliations": [
+        "Agricultural Information Institute, Chinese Academy of Agricultural Sciences, Beijing 100081, China.",
+        "National Nanfan Research Institute (Sanya), Chinese Academy of Agricultural Sciences/Hainan Seed Industry Laboratory, Sanya 572024, China.",
+        "National Nanfan Research Institute (Sanya), Chinese Academy of Agricultural Sciences/Hainan Seed Industry Laboratory, Sanya 572024, China.",
+        "China National Rice Research Institute, Chinese Academy of Agricultural Sciences, Hangzhou 310006, China.",
+        "Agricultural Information Institute, Chinese Academy of Agricultural Sciences, Beijing 100081, China.",
+        "National Nanfan Research Institute (Sanya), Chinese Academy of Agricultural Sciences/Hainan Seed Industry Laboratory, Sanya 572024, China.",
+        "Nanjing Institute of Agricultural Mechanization, Ministry of Agriculture and Rural Affairs, Nanjing 210014, China.",
+        "National Nanfan Research Institute (Sanya), Chinese Academy of Agricultural Sciences/Hainan Seed Industry Laboratory, Sanya 572024, China.",
+        "State Key Laboratory of Crop Gene Resources and Breeding, Institute of Crop Sciences (ICS), Chinese Academy of Agricultural Sciences, Beijing 100081, China.",
+        "Key Laboratory of Gene Editing Technologies (Hainan), Ministry of Agricultural and Rural Affairs, Sanya 572024, China.",
+        "Agricultural Information Institute, Chinese Academy of Agricultural Sciences, Beijing 100081, China.",
+        "National Nanfan Research Institute (Sanya), Chinese Academy of Agricultural Sciences/Hainan Seed Industry Laboratory, Sanya 572024, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mu, Qiang",
+        "short_name": "Mu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Agricultural Information Institute, Chinese Academy of Agricultural Sciences, Beijing 100081, China.",
+          "National Nanfan Research Institute (Sanya), Chinese Academy of Agricultural Sciences/Hainan Seed Industry Laboratory, Sanya 572024, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Guoping",
+        "short_name": "Yu G",
+        "identifiers": [],
+        "affiliations": [
+          "National Nanfan Research Institute (Sanya), Chinese Academy of Agricultural Sciences/Hainan Seed Industry Laboratory, Sanya 572024, China.",
+          "China National Rice Research Institute, Chinese Academy of Agricultural Sciences, Hangzhou 310006, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Guomin",
+        "short_name": "Zhou G",
+        "identifiers": [],
+        "affiliations": [
+          "Agricultural Information Institute, Chinese Academy of Agricultural Sciences, Beijing 100081, China.",
+          "National Nanfan Research Institute (Sanya), Chinese Academy of Agricultural Sciences/Hainan Seed Industry Laboratory, Sanya 572024, China.",
+          "Nanjing Institute of Agricultural Mechanization, Ministry of Agriculture and Rural Affairs, Nanjing 210014, China."
+        ]
+      },
+      {
+        "full_name": "He, Yubing",
+        "short_name": "He Y",
+        "identifiers": [
+          "0000-0001-7279-4629"
+        ],
+        "affiliations": [
+          "National Nanfan Research Institute (Sanya), Chinese Academy of Agricultural Sciences/Hainan Seed Industry Laboratory, Sanya 572024, China.",
+          "State Key Laboratory of Crop Gene Resources and Breeding, Institute of Crop Sciences (ICS), Chinese Academy of Agricultural Sciences, Beijing 100081, China.",
+          "Key Laboratory of Gene Editing Technologies (Hainan), Ministry of Agricultural and Rural Affairs, Sanya 572024, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jianhua",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0003-3758-3492"
+        ],
+        "affiliations": [
+          "Agricultural Information Institute, Chinese Academy of Agricultural Sciences, Beijing 100081, China.",
+          "National Nanfan Research Institute (Sanya), Chinese Academy of Agricultural Sciences/Hainan Seed Industry Laboratory, Sanya 572024, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR genomics and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "NAR Genom Bioinform"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/20 06:28",
+    "fetched_at": "2026-10-05 03:51:35"
+  },
+  "links": {
+    "cites": [
+      "42707507",
+      "42541679",
+      "42423156",
+      "41683618",
+      "41646832"
+    ],
+    "refs": [
+      "40133785",
+      "39990254",
+      "39818825",
+      "39244557",
+      "38856168",
+      "38747369",
+      "38660008",
+      "37651627",
+      "37562328",
+      "37479078",
+      "37405873",
+      "37158175",
+      "36927031",
+      "36474806",
+      "36416116",
+      "36044786",
+      "35190689",
+      "35148267",
+      "34932484",
+      "34905768",
+      "34415020",
+      "34265844",
+      "34201749",
+      "33986992",
+      "33876751",
+      "33780341",
+      "32920048",
+      "32142788",
+      "31913448",
+      "31722485",
+      "31302171",
+      "31228283",
+      "30395287",
+      "30323214",
+      "30032213",
+      "29949966",
+      "29859773",
+      "29753757",
+      "29287069",
+      "29186632",
+      "27993780",
+      "27503141",
+      "27200044",
+      "26520853",
+      "26482832",
+      "26017442",
+      "24573882",
+      "24573478",
+      "23872922",
+      "23060610",
+      "22522696",
+      "21183467",
+      "20525822",
+      "19911048",
+      "18515839",
+      "18042272",
+      "17703195",
+      "16731699",
+      "16722805",
+      "15356290",
+      "14741005",
+      "14737187",
+      "12520024"
+    ],
+    "similar": [
+      "40391089",
+      "38856168",
+      "32920048",
+      "36044786",
+      "31722485",
+      "33780341",
+      "35521556",
+      "34905768",
+      "31323206",
+      "33334313",
+      "36935548",
+      "29970003",
+      "37562328",
+      "34694393",
+      "34932484",
+      "35378437",
+      "36052164",
+      "29722865",
+      "38381315",
+      "26467480",
+      "35768792",
+      "30423078",
+      "38316843",
+      "39990254",
+      "35148267",
+      "21284850",
+      "34297803",
+      "37158175",
+      "39133151",
+      "28132027",
+      "40359455",
+      "31483777",
+      "25935161",
+      "32808039",
+      "39833102",
+      "29529991",
+      "29253082",
+      "36416116",
+      "31513916",
+      "20677174",
+      "39520544",
+      "34780180",
+      "33577689",
+      "39804669",
+      "40121399",
+      "38810377",
+      "32191896",
+      "38871095",
+      "35051187",
+      "39695955",
+      "34403477",
+      "38986796",
+      "35150250",
+      "39528630",
+      "28245811",
+      "24573478",
+      "39214282",
+      "27720645",
+      "30323214",
+      "32454029",
+      "39528950",
+      "35451938",
+      "39270885",
+      "36049552",
+      "38747369",
+      "18716674",
+      "27720642",
+      "28315749",
+      "33780344",
+      "14970381",
+      "32142788",
+      "37651627",
+      "39702717",
+      "30455357",
+      "34781902",
+      "34571539",
+      "24123256",
+      "33685590",
+      "38643080",
+      "39657630",
+      "33872313",
+      "31598693",
+      "39985437",
+      "32573679",
+      "18452716",
+      "29931156",
+      "19357098",
+      "19490865",
+      "39900285",
+      "38491248",
+      "35471886",
+      "40082642",
+      "29155928",
+      "38917322",
+      "39312678",
+      "39576589",
+      "30808287",
+      "35043942",
+      "21143803",
+      "33119053"
+    ],
+    "review": [
+      "40391089",
+      "25935161",
+      "39833102",
+      "29253082",
+      "28315749",
+      "30455357"
+    ],
+    "pmc": [
+      "12086546"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40391089/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nargab/article-lookup/doi/10.1093/nargab/lqaf058",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

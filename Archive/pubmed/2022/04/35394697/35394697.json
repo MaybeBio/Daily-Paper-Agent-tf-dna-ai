@@ -1,0 +1,545 @@
+{
+  "identity": {
+    "pmid": "35394697",
+    "doi": "10.1049/syb2.12043",
+    "title": "Disrupted myelination network in the cingulate cortex of Parkinson's disease."
+  },
+  "content": {
+    "abstract": "The cingulate cortex is part of the conserved limbic system, which is considered as a hub of emotional and cognitive control. Accumulating evidence suggested that involvement of the cingulate cortex is significant for cognitive impairment of Parkinson's disease (PD). However, mechanistic studies of the cingulate cortex in PD pathogenesis are limited. Here, transcriptomic and regulatory network analyses were conducted for the cingulate cortex in PD. Enrichment and clustering analyses showed that genes involved in regulation of membrane potential and glutamate receptor signalling pathway were upregulated. Importantly, myelin genes and the oligodendrocyte development pathways were markedly downregulated, indicating disrupted myelination in PD cingulate cortex. Cell-type-specific signatures revealed that myelinating oligodendrocytes were the major cell type damaged in the PD cingulate cortex. Furthermore, downregulation of myelination pathways in the cingulate cortex were shared and validated in another independent RNAseq cohort of dementia with Lewy bodies (DLB). In combination with ATACseq data, gene regulatory networks (GRNs) were further constructed for 32 transcription factors (TFs) and 466 target genes among differentially expressed genes (DEGs) using a tree-based machine learning algorithm. Several transcription factors, including Olig2, Sox8, Sox10, E2F1, and NKX6-2, were highlighted as key nodes in a sub-network, which control many overlapping downstream targets associated with myelin formation and gliogenesis. In addition, the authors have validated a subset of DEGs by qPCRs in two PD mouse models. Notably, seven of these genes,TOX3, NECAB2 NOS1, CAPN3, NR4A2, E2F1 and FOXP2, have been implicated previously in PD or neurodegeneration and are worthy of further studies as novel candidate genes. Together, our findings provide new insights into the role of remyelination as a promising new approach to treat PD after demyelination.",
+    "keywords": [
+      "cingulate cortex",
+      "demyelination",
+      "gene regulatory network",
+      "parkinson's disease"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Calcium-Binding Proteins/genetics/metabolism",
+      "Calpain/genetics/metabolism",
+      "Eye Proteins/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "Gyrus Cinguli/metabolism/pathology",
+      "Homeodomain Proteins/genetics/metabolism",
+      "Humans",
+      "Mice",
+      "Muscle Proteins/genetics/metabolism",
+      "*Parkinson Disease/genetics",
+      "SOXE Transcription Factors/genetics/metabolism",
+      "Signal Transduction",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Song",
+        "Yang, Jiajun",
+        "Huang, Shenghui",
+        "Fan, Yuanlan",
+        "Xu, Tao",
+        "He, Jiangshuang",
+        "Guo, Jiahao",
+        "Ji, Xiang",
+        "Wang, Zhibo",
+        "Li, Peijun",
+        "Chen, Jiangfan",
+        "Zhang, Yi"
+      ],
+      "short_names": [
+        "Xie S",
+        "Yang J",
+        "Huang S",
+        "Fan Y",
+        "Xu T",
+        "He J",
+        "Guo J",
+        "Ji X",
+        "Wang Z",
+        "Li P",
+        "Chen J",
+        "Zhang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0909-2621"
+      ],
+      "affiliations": [
+        "Institute of Genomic Medicine, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+        "School of Laboratory Medicine and Life Science, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+        "Institute of Genomic Medicine, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+        "School of Laboratory Medicine and Life Science, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+        "Institute of Genomic Medicine, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+        "School of Laboratory Medicine and Life Science, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+        "Institute of Genomic Medicine, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+        "School of Laboratory Medicine and Life Science, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+        "Molecular Neuropharmacology Lab, School of Optometry and Ophthalmology, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+        "The Eye-Brain Research Center, State Key Laboratory of Ophthalmology, Optometry and Visual Science, Wenzhou, Zhejiang Province, China.",
+        "Institute of Genomic Medicine, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+        "School of Laboratory Medicine and Life Science, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+        "Institute of Genomic Medicine, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+        "School of Laboratory Medicine and Life Science, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+        "Department of Mathematics, School of Science & Engineering, Tulane University, New Orleans, Louisiana, USA.",
+        "Institute of Genomic Medicine, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+        "The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+        "Molecular Neuropharmacology Lab, School of Optometry and Ophthalmology, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+        "The Eye-Brain Research Center, State Key Laboratory of Ophthalmology, Optometry and Visual Science, Wenzhou, Zhejiang Province, China.",
+        "Institute of Genomic Medicine, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+        "The Eye-Brain Research Center, State Key Laboratory of Ophthalmology, Optometry and Visual Science, Wenzhou, Zhejiang Province, China.",
+        "Key Laboratory of Alzheimer's Disease of Zhejiang Province, Institute of Aging, Wenzhou Medical University, Wenzhou, Zhejiang Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Song",
+        "short_name": "Xie S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genomic Medicine, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+          "School of Laboratory Medicine and Life Science, Wenzhou Medical University, Wenzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jiajun",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genomic Medicine, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+          "School of Laboratory Medicine and Life Science, Wenzhou Medical University, Wenzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Shenghui",
+        "short_name": "Huang S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genomic Medicine, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+          "School of Laboratory Medicine and Life Science, Wenzhou Medical University, Wenzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Yuanlan",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genomic Medicine, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+          "School of Laboratory Medicine and Life Science, Wenzhou Medical University, Wenzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Tao",
+        "short_name": "Xu T",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Neuropharmacology Lab, School of Optometry and Ophthalmology, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+          "The Eye-Brain Research Center, State Key Laboratory of Ophthalmology, Optometry and Visual Science, Wenzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "He, Jiangshuang",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genomic Medicine, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+          "School of Laboratory Medicine and Life Science, Wenzhou Medical University, Wenzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Jiahao",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genomic Medicine, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+          "School of Laboratory Medicine and Life Science, Wenzhou Medical University, Wenzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Xiang",
+        "short_name": "Ji X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, School of Science & Engineering, Tulane University, New Orleans, Louisiana, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhibo",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Genomic Medicine, Wenzhou Medical University, Wenzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Li, Peijun",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Affiliated Hospital and Yuying Children's Hospital, Wenzhou Medical University, Wenzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jiangfan",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Neuropharmacology Lab, School of Optometry and Ophthalmology, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+          "The Eye-Brain Research Center, State Key Laboratory of Ophthalmology, Optometry and Visual Science, Wenzhou, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yi",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0002-0909-2621"
+        ],
+        "affiliations": [
+          "Institute of Genomic Medicine, Wenzhou Medical University, Wenzhou, Zhejiang Province, China.",
+          "The Eye-Brain Research Center, State Key Laboratory of Ophthalmology, Optometry and Visual Science, Wenzhou, Zhejiang Province, China.",
+          "Key Laboratory of Alzheimer's Disease of Zhejiang Province, Institute of Aging, Wenzhou Medical University, Wenzhou, Zhejiang Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IET systems biology"
+    ],
+    "journal_abbrev": [
+      "IET Syst Biol"
+    ],
+    "pub_date": "2022 May",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/09 06:00",
+    "fetched_at": "2026-09-28 07:05:30"
+  },
+  "links": {
+    "cites": [
+      "42603268",
+      "42482628",
+      "42156405",
+      "41917074",
+      "41781332",
+      "40979532",
+      "40650243",
+      "40593212",
+      "39684351",
+      "39609868",
+      "39062584",
+      "38052682",
+      "37907554",
+      "37720086",
+      "35726096"
+    ],
+    "refs": [
+      "34102111",
+      "33390888",
+      "33004674",
+      "32530539",
+      "32173400",
+      "32042175",
+      "31907445",
+      "31701148",
+      "31627131",
+      "31587869",
+      "31500132",
+      "31451898",
+      "31183926",
+      "30976973",
+      "30949044",
+      "30898893",
+      "30770787",
+      "30672734",
+      "30540932",
+      "30382938",
+      "30344043",
+      "30204897",
+      "29986767",
+      "29986742",
+      "29945882",
+      "29649548",
+      "29421655",
+      "29404899",
+      "29324989",
+      "29222591",
+      "29189096",
+      "29107053",
+      "28798667",
+      "28756177",
+      "28652971",
+      "28634745",
+      "28575651",
+      "28482862",
+      "28467897",
+      "28170178",
+      "28059714",
+      "27978791",
+      "27742469",
+      "27706215",
+      "27666482",
+      "27455109",
+      "27354364",
+      "27187682",
+      "26949399",
+      "26876244",
+      "26553931",
+      "26355680",
+      "26166300",
+      "26166299",
+      "26041738",
+      "25896324",
+      "25789755",
+      "25765347",
+      "25658373",
+      "25637808",
+      "25605792",
+      "25546015",
+      "25525598",
+      "25516281",
+      "25462288",
+      "25448687",
+      "25380588",
+      "25324381",
+      "25210616",
+      "25187168",
+      "25186741",
+      "25056210",
+      "24920634",
+      "24905578",
+      "24503276",
+      "24485249",
+      "24453336",
+      "24439664",
+      "24427314",
+      "24363970",
+      "24078737",
+      "24020486",
+      "23948991",
+      "23690594",
+      "23553667",
+      "23497356",
+      "23408472",
+      "23229151",
+      "23175603",
+      "22455463",
+      "22449381",
+      "22315721",
+      "22284829",
+      "22173972",
+      "21800131",
+      "21689651",
+      "21639795",
+      "21514331",
+      "21330290",
+      "21179447",
+      "20927193",
+      "20736035",
+      "20628651",
+      "20198482",
+      "20126261",
+      "20091409",
+      "19910308",
+      "19786961",
+      "19710327",
+      "19694908",
+      "19589054",
+      "19509051",
+      "19508690",
+      "19441130",
+      "19330340",
+      "19286483",
+      "19226510",
+      "19029340",
+      "18760349",
+      "17563363",
+      "17484051",
+      "17360686",
+      "17213182",
+      "16964263",
+      "16672981",
+      "16672980",
+      "16626704",
+      "16207731",
+      "15886014",
+      "15824318",
+      "15721235",
+      "15541309",
+      "15541308",
+      "15303102",
+      "15087508",
+      "15082788",
+      "14675724",
+      "14572463",
+      "13678875",
+      "12930822",
+      "12890647",
+      "12687392",
+      "12633150",
+      "12496759",
+      "12490535",
+      "12446870",
+      "12084935",
+      "12062037",
+      "12009758",
+      "9616125",
+      "9560156",
+      "9197268",
+      "9092472",
+      "8895469",
+      "1361223"
+    ],
+    "similar": [
+      "35394697",
+      "33791366",
+      "32728898",
+      "28965931",
+      "34536521",
+      "30776463",
+      "20959288",
+      "39049641",
+      "29500351",
+      "31731914",
+      "30083784",
+      "29034508",
+      "29257331",
+      "35278479",
+      "32344560",
+      "27821050",
+      "24204311",
+      "32210219",
+      "25564492",
+      "29023979",
+      "32205467",
+      "24690883",
+      "24516667",
+      "24619358",
+      "23201181",
+      "25680202",
+      "30741686",
+      "27666482",
+      "22419314",
+      "33628784",
+      "32807513",
+      "26269422",
+      "34480425",
+      "39080336",
+      "39138468",
+      "31593492",
+      "34800582",
+      "17977053",
+      "29500931",
+      "26928066",
+      "12706204",
+      "31038233",
+      "33021140",
+      "25732184",
+      "29653596",
+      "27349437",
+      "32446776",
+      "32276105",
+      "19780200",
+      "37522749",
+      "35731466",
+      "11078223",
+      "25447234",
+      "12810766",
+      "31098748",
+      "9667773",
+      "33236247",
+      "18272785",
+      "32714075",
+      "20144603",
+      "34522247",
+      "28472858",
+      "17223013",
+      "27733608",
+      "26626223",
+      "25937615",
+      "33211252",
+      "26627939",
+      "23284986",
+      "31327631",
+      "26534986",
+      "30665415",
+      "27532821",
+      "28321951",
+      "32415937",
+      "29297292",
+      "22480734",
+      "30713215",
+      "27062301",
+      "33770499",
+      "24403280",
+      "17098222",
+      "28750583",
+      "28370559",
+      "17714331",
+      "32600964",
+      "30623975",
+      "33484978",
+      "33523013",
+      "19647093",
+      "35269707",
+      "38458535",
+      "36952070",
+      "37502982",
+      "38561620",
+      "34366686",
+      "35813880",
+      "18196299",
+      "35994781",
+      "38413605",
+      "33017301"
+    ],
+    "review": [
+      "35394697",
+      "31731914",
+      "22419314",
+      "34480425",
+      "29653596",
+      "25447234"
+    ],
+    "pmc": [
+      "9290774"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35394697/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35394697",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1049/syb2.12043",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

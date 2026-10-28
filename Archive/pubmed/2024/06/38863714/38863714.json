@@ -1,0 +1,437 @@
+{
+  "identity": {
+    "pmid": "38863714",
+    "doi": "10.3389/fimmu.2024.1351908",
+    "title": "Integrated bioinformatics combined with machine learning to analyze shared biomarkers and pathways in psoriasis and cervical squamous cell carcinoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Psoriasis extends beyond its dermatological inflammatory manifestations, encompassing systemic inflammation. Existing studies have indicated a potential risk of cervical cancer among patients with psoriasis, suggesting a potential mechanism of co-morbidity. This study aims to explore the key genes, pathways, and immune cells that may link psoriasis and cervical squamous cell carcinoma (CESC). METHODS: The cervical squamous cell carcinoma dataset (GSE63514) was downloaded from the Gene Expression Omnibus (GEO). Two psoriasis-related datasets (GSE13355 and GSE14905) were merged into one comprehensive dataset after removing batch effects. Differentially expressed genes were identified using Limma and co-expression network analysis (WGCNA), and machine learning random forest algorithm (RF) was used to screen the hub genes. We analyzed relevant gene enrichment pathways using GO and KEGG, and immune cell infiltration in psoriasis and CESC samples using CIBERSORT. The miRNA-mRNA and TFs-mRNA regulatory networks were then constructed using Cytoscape, and the biomarkers for psoriasis and CESC were determined. Potential drug targets were obtained from the cMAP database, and biomarker expression levels in hela and psoriatic cell models were quantified by RT-qPCR. RESULTS: In this study, we identified 27 key genes associated with psoriasis and cervical squamous cell carcinoma. NCAPH, UHRF1, CDCA2, CENPN and MELK were identified as hub genes using the Random Forest machine learning algorithm. Chromosome mitotic region segregation, nucleotide binding and DNA methylation are the major enrichment pathways for common DEGs in the mitotic cell cycle. Then we analyzed immune cell infiltration in psoriasis and cervical squamous cell carcinoma samples using CIBERSORT. Meanwhile, we used the cMAP database to identify ten small molecule compounds that interact with the central gene as drug candidates for treatment. By analyzing miRNA-mRNA and TFs-mRNA regulatory networks, we identified three miRNAs and nine transcription factors closely associated with five key genes and validated their expression in external validation datasets and clinical samples. Finally, we examined the diagnostic effects with ROC curves, and performed experimental validation in hela and psoriatic cell models. CONCLUSIONS: We identified five biomarkers, NCAPH, UHRF1, CDCA2, CENPN, and MELK, which may play important roles in the common pathogenesis of psoriasis and cervical squamous cell carcinoma, furthermore predict potential therapeutic agents. These findings open up new perspectives for the diagnosis and treatment of psoriasis and squamous cell carcinoma of the cervix.",
+    "keywords": [
+      "biomarkers",
+      "cervical squamous cell carcinoma (CESC)",
+      "immune cell infiltration",
+      "machine learning",
+      "psoriasis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Psoriasis/genetics/immunology",
+      "*Uterine Cervical Neoplasms/genetics/immunology",
+      "Female",
+      "*Computational Biology/methods",
+      "*Machine Learning",
+      "*Gene Regulatory Networks",
+      "*Carcinoma, Squamous Cell/genetics/immunology",
+      "*Biomarkers, Tumor/genetics",
+      "MicroRNAs/genetics",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic",
+      "Databases, Genetic",
+      "Protein Interaction Maps/genetics",
+      "Transcriptome",
+      "HeLa Cells",
+      "Signal Transduction/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Luyu",
+        "Yin, Pan",
+        "Yang, Ruida",
+        "Zhang, Guanfei",
+        "Wu, Cong",
+        "Zheng, Yan",
+        "Wu, Shaobo",
+        "Liu, Meng"
+      ],
+      "short_names": [
+        "Liu L",
+        "Yin P",
+        "Yang R",
+        "Zhang G",
+        "Wu C",
+        "Zheng Y",
+        "Wu S",
+        "Liu M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+        "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+        "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+        "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+        "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+        "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+        "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+        "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+        "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+        "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+        "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+        "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+        "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Luyu",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+          "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Pan",
+        "short_name": "Yin P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+          "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Ruida",
+        "short_name": "Yang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+          "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Guanfei",
+        "short_name": "Zhang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Cong",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+          "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yan",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Shaobo",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China.",
+          "Department of Medicine, Xi'an Jiaotong University, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Meng",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/12 06:42",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [
+      "42703414",
+      "42640410",
+      "42474555",
+      "42353157",
+      "42351909",
+      "42064079",
+      "41991682",
+      "41188783",
+      "41098166",
+      "40864203",
+      "40821804",
+      "40820150",
+      "40406126",
+      "40351602",
+      "40029502",
+      "39832113"
+    ],
+    "refs": [
+      "37728657",
+      "37536615",
+      "37394057",
+      "37390565",
+      "37314629",
+      "37246786",
+      "37108492",
+      "37083077",
+      "37060495",
+      "37019386",
+      "36650758",
+      "36633525",
+      "36552005",
+      "36533975",
+      "36380731",
+      "36336213",
+      "36108558",
+      "35949592",
+      "35757712",
+      "35751489",
+      "35422519",
+      "35238067",
+      "34767808",
+      "34741389",
+      "34440623",
+      "34144192",
+      "33795533",
+      "33538338",
+      "33470207",
+      "33429982",
+      "33311486",
+      "33059314",
+      "32943207",
+      "32644822",
+      "32474464",
+      "32459291",
+      "32406496",
+      "32372761",
+      "32279582",
+      "32278478",
+      "32074260",
+      "31880170",
+      "31812369",
+      "31678210",
+      "31379105",
+      "31315034",
+      "31038390",
+      "30958602",
+      "30907775",
+      "30666134",
+      "30648836",
+      "30639897",
+      "30638582",
+      "30588732",
+      "30548893",
+      "30542391",
+      "30267745",
+      "29992535",
+      "29737208",
+      "29480666",
+      "29399123",
+      "29377076",
+      "29269420",
+      "29249871",
+      "29232557",
+      "29156822",
+      "28764577",
+      "28386355",
+      "28218043",
+      "28212760",
+      "28212759",
+      "28049589",
+      "27899662",
+      "27270309",
+      "26902922",
+      "26676102",
+      "26025581",
+      "25605792",
+      "25438737",
+      "25428369",
+      "23987103",
+      "23845151",
+      "23223131",
+      "22054142",
+      "20633008",
+      "20303878",
+      "20082957",
+      "16886059",
+      "16886055",
+      "12838312",
+      "11260548",
+      "10571748"
+    ],
+    "similar": [
+      "38863714",
+      "40406126",
+      "40374866",
+      "41120603",
+      "40997906",
+      "36049413",
+      "41288681",
+      "31642613",
+      "39142001",
+      "39586719",
+      "39375405",
+      "32307200",
+      "39139563",
+      "41320661",
+      "40196107",
+      "41044520",
+      "41479901",
+      "40328901",
+      "37740761",
+      "39086489",
+      "41300841",
+      "41006883",
+      "39512836",
+      "42064079",
+      "40119934",
+      "40826767",
+      "39071134",
+      "32597160",
+      "41316541",
+      "33966732",
+      "42109727",
+      "40374840",
+      "40093012",
+      "31041817",
+      "31424263",
+      "32756534",
+      "40685483",
+      "38755717",
+      "41052072",
+      "38660311",
+      "41544137",
+      "39118438",
+      "39028999",
+      "41388523",
+      "40216809",
+      "40860289",
+      "39072329",
+      "38268224",
+      "40087784",
+      "39673621",
+      "41239481",
+      "40129981",
+      "41198554",
+      "40977739",
+      "39875572",
+      "40024299",
+      "33437215",
+      "39169439",
+      "40406620",
+      "41146237",
+      "39351239",
+      "30602391",
+      "41132671",
+      "32546690",
+      "36321868",
+      "25936657",
+      "38690269",
+      "40574839",
+      "42074514",
+      "35757392",
+      "38899746",
+      "41066424",
+      "40340571",
+      "40078458",
+      "40305445",
+      "31987036",
+      "40313958",
+      "32368784",
+      "31977248",
+      "41432483",
+      "40312440",
+      "39367003",
+      "41716396",
+      "39080525",
+      "39833772",
+      "41080564",
+      "39509434",
+      "31794546",
+      "40973872",
+      "38319987",
+      "41205134",
+      "40821971",
+      "39559355",
+      "28375447",
+      "41013556",
+      "41268597",
+      "42081554",
+      "35558576",
+      "40596265",
+      "41094572"
+    ],
+    "review": [
+      "38863714"
+    ],
+    "pmc": [
+      "11165063"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38863714/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38863714",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1169",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2024.1351908",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cervicalcancer.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cervical Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

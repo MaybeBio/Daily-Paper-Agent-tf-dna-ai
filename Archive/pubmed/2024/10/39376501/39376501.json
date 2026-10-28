@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "39376501",
+    "doi": "10.1155/2024/6260651",
+    "title": "Malignant Transformation of Normal Oral Tissue to Dysplasia and Early Oral Squamous Cell Carcinoma: An In Silico Transcriptomics Approach."
+  },
+  "content": {
+    "abstract": "Background: Oral squamous cell carcinoma (OSCC) is a prevalent and aggressive form of head and neck cancer, often diagnosed at advanced stages. Elucidating the molecular mechanisms involved in the malignant transformation from normal oral tissue to oral preinvasive lesions (OPL) and primary OSCC could facilitate early diagnosis and improve therapeutic strategies. Methods: Differentially expressed genes (DEGs) were identified from the GSE30784 dataset by comparing normal oral tissue, oral dysplasia, and primary OSCC samples. Cross-validation was performed using an independent RNA-seq dataset, GSE186775. Protein-protein interaction (PPI) network analysis, gene ontology annotation, and pathway enrichment analysis were conducted on the common DEGs. Hub genes were identified, and their prognostic significance was evaluated using survival analysis. Transcription factor (TF) enrichment analysis, cross-validation, and immunohistochemistry analyses were also performed. Results: A total of 226 proteins and 677 interactions were identified in the PPI network, with 34 hub genes, including FN1, SERPINE1, PLAUR, THBS1, and ITGA6. Pathways such as \"Formation of the cornified envelope,\" \"Keratinization,\" and \"Developmental biology\" were enriched. Overexpression of SERPINE1, PLAUR, THBS1, and ITGA6 correlated with poor prognosis, while upregulation of CALML5 and SPINK5 was associated with favorable outcomes. NFIB emerged as the most significant TF-regulating hub genes. Immunohistochemistry validated ITGA6 overexpression in primary OSCC. Cross-validation using the RNA-seq dataset supported the involvement of critical genes in the malignant transformation process. Conclusion: This study identified vital genes, pathways, and prognostic markers involved in the malignant transformation from normal oral tissue to OPL and primary OSCC, providing insights for early diagnosis and targeted therapy development. Cross-validation with an independent RNA-seq dataset and immunohistochemistry reinforced the findings, supporting the robustness of the identified molecular signatures.",
+    "keywords": [
+      "biomarkers",
+      "dysplasia",
+      "oral squamous cell carcinoma",
+      "pathogenesis",
+      "prognosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Mouth Neoplasms/genetics/pathology/metabolism",
+      "*Cell Transformation, Neoplastic/genetics",
+      "*Gene Expression Regulation, Neoplastic",
+      "*Transcriptome/genetics",
+      "*Protein Interaction Maps/genetics",
+      "Gene Expression Profiling",
+      "Carcinoma, Squamous Cell/genetics/pathology/metabolism",
+      "Computer Simulation",
+      "Prognosis",
+      "Gene Regulatory Networks",
+      "Gene Ontology",
+      "Biomarkers, Tumor/genetics/metabolism",
+      "Squamous Cell Carcinoma of Head and Neck/genetics/pathology/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jamshidi, Shokoofeh",
+        "Tavangar, Matina",
+        "Shojaei, Setareh",
+        "Taherkhani, Amir"
+      ],
+      "short_names": [
+        "Jamshidi S",
+        "Tavangar M",
+        "Shojaei S",
+        "Taherkhani A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0646-1882",
+        "ORCID: 0009-0005-3272-8500",
+        "ORCID: 0000-0001-8323-1231",
+        "ORCID: 0000-0002-6546-8785"
+      ],
+      "affiliations": [
+        "Department of Oral and Maxillofacial Pathology, School of Dentistry, Dental Research Center, Hamadan University of Medical Sciences, Hamadan, Iran.",
+        "Department of Oral and Maxillofacial Pathology, School of Dentistry, Hamadan University of Medical Sciences, Hamadan, Iran.",
+        "Department of Oral and Maxillofacial Pathology, School of Dentistry, Hamadan University of Medical Sciences, Hamadan, Iran.",
+        "Research Center for Molecular Medicine, Hamadan University of Medical Sciences, Hamadan, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jamshidi, Shokoofeh",
+        "short_name": "Jamshidi S",
+        "identifiers": [
+          "0000-0002-0646-1882"
+        ],
+        "affiliations": [
+          "Department of Oral and Maxillofacial Pathology, School of Dentistry, Dental Research Center, Hamadan University of Medical Sciences, Hamadan, Iran."
+        ]
+      },
+      {
+        "full_name": "Tavangar, Matina",
+        "short_name": "Tavangar M",
+        "identifiers": [
+          "0009-0005-3272-8500"
+        ],
+        "affiliations": [
+          "Department of Oral and Maxillofacial Pathology, School of Dentistry, Hamadan University of Medical Sciences, Hamadan, Iran."
+        ]
+      },
+      {
+        "full_name": "Shojaei, Setareh",
+        "short_name": "Shojaei S",
+        "identifiers": [
+          "0000-0001-8323-1231"
+        ],
+        "affiliations": [
+          "Department of Oral and Maxillofacial Pathology, School of Dentistry, Hamadan University of Medical Sciences, Hamadan, Iran."
+        ]
+      },
+      {
+        "full_name": "Taherkhani, Amir",
+        "short_name": "Taherkhani A",
+        "identifiers": [
+          "0000-0002-6546-8785"
+        ],
+        "affiliations": [
+          "Research Center for Molecular Medicine, Hamadan University of Medical Sciences, Hamadan, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Analytical cellular pathology (Amsterdam)"
+    ],
+    "journal_abbrev": [
+      "Anal Cell Pathol (Amst)"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/08 10:18",
+    "fetched_at": "2026-09-30 04:06:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37953279",
+      "37544131",
+      "37478574",
+      "36611391",
+      "36239104",
+      "36160115",
+      "35864968",
+      "35820930",
+      "35096593",
+      "35017649",
+      "35012286",
+      "34712414",
+      "34473219",
+      "34202255",
+      "34059833",
+      "33923400",
+      "33921923",
+      "33820852",
+      "33498377",
+      "33239692",
+      "33237311",
+      "32587829",
+      "32514122",
+      "32426701",
+      "31966075",
+      "31724495",
+      "31550560",
+      "31499475",
+      "31114875",
+      "30620402",
+      "30207593",
+      "30140156",
+      "30067725",
+      "29852393",
+      "29795328",
+      "28899878",
+      "28880746",
+      "28780084",
+      "28738193",
+      "28407145",
+      "26883388",
+      "26850833",
+      "26527605",
+      "26491674",
+      "26331143",
+      "26080462",
+      "26067133",
+      "25764026",
+      "25591821",
+      "25516281",
+      "25058159",
+      "23650586",
+      "23581409",
+      "23279708",
+      "23136192",
+      "22761427",
+      "21764851",
+      "21465481",
+      "21067998",
+      "21063955",
+      "20334895",
+      "19221650",
+      "18669583",
+      "18486742",
+      "18314908",
+      "17496320",
+      "16735300",
+      "14528274",
+      "12904167",
+      "12764019",
+      "12734009",
+      "12539951",
+      "12525261",
+      "11678185",
+      "11598146",
+      "11346465",
+      "9861340",
+      "8290962"
+    ],
+    "similar": [
+      "39376501",
+      "31343435",
+      "34406843",
+      "33869632",
+      "31794546",
+      "32597160",
+      "31562292",
+      "36321868",
+      "32756466",
+      "28640079",
+      "38640322",
+      "31538341",
+      "35820930",
+      "31424263",
+      "33831734",
+      "33892811",
+      "33837652",
+      "36210538",
+      "30226546",
+      "33006223",
+      "38310566",
+      "26317789",
+      "26276270",
+      "39310253",
+      "35222682",
+      "39097557",
+      "38299399",
+      "30937621",
+      "30431131",
+      "35232899",
+      "34944486",
+      "35132271",
+      "35003322",
+      "28043142",
+      "38575815",
+      "30249886",
+      "38216818",
+      "31793175",
+      "30409304",
+      "26465941",
+      "38523407",
+      "36052378",
+      "36656379",
+      "29875348",
+      "38816308",
+      "19691830",
+      "25539663",
+      "35449073",
+      "32756534",
+      "26745629",
+      "37029240",
+      "36797470",
+      "35762542",
+      "39000073",
+      "33080677",
+      "31460782",
+      "30589034",
+      "33790326",
+      "38408642",
+      "38442470",
+      "32623386",
+      "30610792",
+      "29512771",
+      "39213052",
+      "39308526",
+      "25439053",
+      "34252587",
+      "37927242",
+      "36596059",
+      "38978333",
+      "35129592",
+      "27935034",
+      "25925492",
+      "33993060",
+      "33969929",
+      "37452322",
+      "38923759",
+      "34954767",
+      "33982750",
+      "36969496",
+      "29240723",
+      "31315917",
+      "21068540",
+      "33420101",
+      "39142241",
+      "34457087",
+      "24716969",
+      "34606406",
+      "29454310",
+      "38179755",
+      "31127138",
+      "39009214",
+      "31409573",
+      "33739025",
+      "30332510",
+      "28259920",
+      "34290392",
+      "28174608",
+      "31894857",
+      "36843559",
+      "39430767",
+      "39041628",
+      "39385905",
+      "39412414",
+      "39424062",
+      "39393421",
+      "39376769"
+    ],
+    "review": [
+      "39376501",
+      "33080677",
+      "39308526",
+      "27935034",
+      "39142241",
+      "39430767",
+      "39041628"
+    ],
+    "pmc": [
+      "11458300"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/oralcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Oral Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39376501/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2024/6260651",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1162",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

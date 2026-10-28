@@ -1,0 +1,444 @@
+{
+  "identity": {
+    "pmid": "36056063",
+    "doi": "10.1038/s41598-022-19027-5",
+    "title": "Machine learning and bioinformatics to identify 8 autophagy-related biomarkers and construct gene regulatory networks in dilated cardiomyopathy."
+  },
+  "content": {
+    "abstract": "Dilated cardiomyopathy (DCM) is a condition of impaired ventricular remodeling and systolic diastole that is often complicated by arrhythmias and heart failure with a poor prognosis. This study attempted to identify autophagy-related genes (ARGs) with diagnostic biomarkers of DCM using machine learning and bioinformatics approaches. Differential analysis of whole gene microarray data of DCM from the Gene Expression Omnibus (GEO) database was performed using the NetworkAnalyst 3.0 platform. Differentially expressed genes (DEGs) matching (|log2FoldChange >/= 0.8, p value &lt; 0.05|) were obtained in the GSE4172 dataset by merging ARGs from the autophagy gene libraries, HADb and HAMdb, to obtain autophagy-related differentially expressed genes (AR-DEGs) in DCM. The correlation analysis of AR-DEGs and their visualization were performed using R language. Gene Ontology (GO) enrichment analysis and combined multi-database pathway analysis were served by the Enrichr online enrichment analysis platform. We used machine learning to screen the diagnostic biomarkers of DCM. The transcription factors gene regulatory network was constructed by the JASPAR database of the NetworkAnalyst 3.0 platform. We also used the drug Signatures database (DSigDB) drug database of the Enrichr platform to screen the gene target drugs for DCM. Finally, we used the DisGeNET database to analyze the comorbidities associated with DCM. In the present study, we identified 23 AR-DEGs of DCM. Eight (PLEKHF1, HSPG2, HSF1, TRIM65, DICER1, VDAC1, BAD, TFEB) molecular markers of DCM were obtained by two machine learning algorithms. Transcription factors gene regulatory network was established. Finally, 10 gene-targeted drugs and complications for DCM were identified.",
+    "keywords": [],
+    "mesh_terms": [
+      "Autophagy/genetics",
+      "Biomarkers",
+      "*Cardiomyopathy, Dilated/genetics",
+      "Computational Biology",
+      "DEAD-box RNA Helicases/genetics",
+      "Gene Expression Profiling",
+      "*Gene Regulatory Networks",
+      "Humans",
+      "Machine Learning",
+      "Ribonuclease III/genetics",
+      "Transcription Factors/genetics",
+      "Tripartite Motif Proteins/genetics",
+      "Ubiquitin-Protein Ligases/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Fengjun",
+        "Xia, Mingyue",
+        "Jiang, Jiarong",
+        "Wang, Shuai",
+        "Zhao, Qiong",
+        "Yu, Cheng",
+        "Yu, Jinzhen",
+        "Xian, Dexian",
+        "Li, Xiao",
+        "Zhang, Lin",
+        "Liu, Yuan",
+        "Peng, Min"
+      ],
+      "short_names": [
+        "Zhang F",
+        "Xia M",
+        "Jiang J",
+        "Wang S",
+        "Zhao Q",
+        "Yu C",
+        "Yu J",
+        "Xian D",
+        "Li X",
+        "Zhang L",
+        "Liu Y",
+        "Peng M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Acupuncture and Massage, Shandong University of Traditional Chinese Medicine, Jinan, China.",
+        "College of Traditional Chinese Medicine, Shandong University of Traditional Chinese Medicine, Jinan, China.",
+        "Department of Cardiology, PLA Rocket Force Characteristic Medical Center, Beijing, China.",
+        "Department of Pediatric Surgery, Shandong Provincial Hospital affiliated to Shandong First Medical University, Jinan, China.",
+        "Department of Traditional Chinese Medicine, Shandong Provincial Hospital affiliated to Shandong First Medical University, Jinan, China.",
+        "Department of Traditional Chinese Medicine Classics, Shandong University of Traditional Chinese Medicine Affiliated Hospital, Jinan, Shandong, China.",
+        "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China.",
+        "College of Acupuncture and Massage, Shandong University of Traditional Chinese Medicine, Jinan, China.",
+        "Department of Cardiology, Shandong University of Traditional Chinese Medicine Affiliated Hospital, Jinan, Shandong, China.",
+        "Department of Clinical Pharmacy, Shaoxing People's Hospital, Shaoxing Hospital, Zhejiang University School of Medicine, Shaoxing, China.",
+        "Department of Traditional Chinese Medicine, Shandong Provincial Hospital affiliated to Shandong First Medical University, Jinan, China. liuyuanly0429@163.com.",
+        "Department of Traditional Chinese Medicine, Shandong Provincial Hospital affiliated to Shandong First Medical University, Jinan, China. pengmin186@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Fengjun",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Acupuncture and Massage, Shandong University of Traditional Chinese Medicine, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Mingyue",
+        "short_name": "Xia M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Shandong University of Traditional Chinese Medicine, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Jiarong",
+        "short_name": "Jiang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, PLA Rocket Force Characteristic Medical Center, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shuai",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Surgery, Shandong Provincial Hospital affiliated to Shandong First Medical University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Qiong",
+        "short_name": "Zhao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Shandong Provincial Hospital affiliated to Shandong First Medical University, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Cheng",
+        "short_name": "Yu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine Classics, Shandong University of Traditional Chinese Medicine Affiliated Hospital, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Jinzhen",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "First Clinical Medical College, Shandong University of Traditional Chinese Medicine, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Xian, Dexian",
+        "short_name": "Xian D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Acupuncture and Massage, Shandong University of Traditional Chinese Medicine, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiao",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Shandong University of Traditional Chinese Medicine Affiliated Hospital, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lin",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, Shaoxing People's Hospital, Shaoxing Hospital, Zhejiang University School of Medicine, Shaoxing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuan",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Shandong Provincial Hospital affiliated to Shandong First Medical University, Jinan, China. liuyuanly0429@163.com."
+        ]
+      },
+      {
+        "full_name": "Peng, Min",
+        "short_name": "Peng M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Shandong Provincial Hospital affiliated to Shandong First Medical University, Jinan, China. pengmin186@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2022 Sep 2",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/03 06:00",
+    "fetched_at": "2026-09-28 12:55:28"
+  },
+  "links": {
+    "cites": [
+      "42265416",
+      "41695624",
+      "41614028",
+      "40844633",
+      "40754871",
+      "40176068",
+      "39836320",
+      "38947768",
+      "38801963",
+      "37701780",
+      "37063954",
+      "36814683"
+    ],
+    "refs": [
+      "35095074",
+      "35008739",
+      "34850907",
+      "34517007",
+      "34512673",
+      "34391068",
+      "34379189",
+      "33989081",
+      "33928642",
+      "33708886",
+      "33645545",
+      "33532181",
+      "33526170",
+      "33195466",
+      "33125081",
+      "33046850",
+      "32969064",
+      "32671752",
+      "32606327",
+      "32010611",
+      "31723063",
+      "31691815",
+      "31618500",
+      "31546610",
+      "31441146",
+      "31310649",
+      "31009519",
+      "31005723",
+      "30944313",
+      "30931480",
+      "30922066",
+      "30618070",
+      "30594732",
+      "30463267",
+      "30453885",
+      "30367898",
+      "30257397",
+      "30115125",
+      "30075204",
+      "30066211",
+      "30021848",
+      "29764898",
+      "29713021",
+      "29650543",
+      "29136241",
+      "28912180",
+      "28138397",
+      "28031478",
+      "27924018",
+      "27899662",
+      "27829229",
+      "27465663",
+      "27141961",
+      "26801612",
+      "26076956",
+      "25990557",
+      "25552656",
+      "25364765",
+      "24567073",
+      "24454898",
+      "23983249",
+      "23840532",
+      "23748029",
+      "23586463",
+      "23460909",
+      "22326846",
+      "22115783",
+      "21699655",
+      "21617040",
+      "21205968",
+      "20808728",
+      "20713901",
+      "20225336",
+      "19754666",
+      "18988904",
+      "18256189",
+      "18191218",
+      "17925408",
+      "17850629",
+      "17604717",
+      "17450150",
+      "17332429",
+      "17106732",
+      "17008131",
+      "16213475",
+      "16199517",
+      "14623809",
+      "11583900",
+      "10604474",
+      "10592173",
+      "9733094",
+      "7922340"
+    ],
+    "similar": [
+      "36056063",
+      "40808946",
+      "32626989",
+      "40074718",
+      "41479901",
+      "39425025",
+      "39427832",
+      "38571624",
+      "36394763",
+      "38886541",
+      "40790764",
+      "27737314",
+      "41496071",
+      "32581210",
+      "36042172",
+      "38347953",
+      "35850644",
+      "32727980",
+      "28318762",
+      "39914590",
+      "36035223",
+      "39142001",
+      "36733486",
+      "40313958",
+      "39006834",
+      "40263537",
+      "38460409",
+      "35702326",
+      "40869128",
+      "40469433",
+      "39150631",
+      "36631012",
+      "35749386",
+      "37108502",
+      "38758521",
+      "39509434",
+      "35346191",
+      "38168558",
+      "36518003",
+      "40374866",
+      "39318238",
+      "40078458",
+      "40374840",
+      "36104591",
+      "27050951",
+      "41398629",
+      "35327947",
+      "35433958",
+      "41146237",
+      "40406126",
+      "41104127",
+      "41080564",
+      "40830558",
+      "41052072",
+      "39660984",
+      "35841977",
+      "36046789",
+      "35411175",
+      "38863714",
+      "36725968",
+      "40421012",
+      "31236962",
+      "35752958",
+      "35282347",
+      "35378210",
+      "37008310",
+      "36286305",
+      "35431545",
+      "40362543",
+      "40520229",
+      "35646094",
+      "40123611",
+      "41145553",
+      "35151359",
+      "39870856",
+      "37268658",
+      "38062833",
+      "37085930",
+      "41137290",
+      "39762897",
+      "40644421",
+      "40312440",
+      "38791423",
+      "37560246",
+      "39341981",
+      "30203513",
+      "30419824",
+      "39650552",
+      "34970603",
+      "39875572",
+      "40761790",
+      "39375405",
+      "35438360",
+      "30670912",
+      "37967988",
+      "34946895",
+      "33484110",
+      "30115125",
+      "34313877",
+      "35757392"
+    ],
+    "review": [
+      "36056063",
+      "35841977"
+    ],
+    "pmc": [
+      "9440113"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-022-19027-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36056063/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36056063",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BAD-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

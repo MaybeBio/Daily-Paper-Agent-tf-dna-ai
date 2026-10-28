@@ -1,0 +1,465 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.07.23.453290",
+  "title": "PCRMS: a database of predicted <i>cis</i> -regulatory modules and constituent transcription factor binding sites in genomes",
+  "doi": "10.1101/2021.07.23.453290",
+  "abstract": "More accurate and more complete predictions of cis -regulatory modules (CRMs) and constituent transcriptional factor (TF) binding sites (TFBSs) in genomes can facilitate characterizing functions of regulatory sequences. Here, we developed a database PCRMS ( https://cci-bioinfo.uncc.edu ) that stores highly accurate and unprecedentedly complete maps of predicted CRMs and TFBSs in the human and mouse genomes. The web interface allows the user to browse CRMs and TFBSs in an organism, find the closest CRMs to a gene, search CRMs around a gene, and find all TFBSs of a TF. PCRMS can be a useful resource for the research community to characterize regulatory genomes.",
+  "authors": [
+    "Pengyu Ni",
+    "Zhengchang Su"
+  ],
+  "published_date": "2021-07-26",
+  "updated_date": "2021-07-26T11:00:10Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.07.23.453290",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.07.23.453290.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T17:07:52Z",
+        "timestamp": 1768496872515,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            26
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 52,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            26
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  More accurate and more complete predictions of\n                  <jats:italic>cis</jats:italic>\n                  -regulatory modules (CRMs) and constituent transcriptional factor (TF) binding sites (TFBSs) in genomes can facilitate characterizing functions of regulatory sequences. Here, we developed a database PCRMS (\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://cci-bioinfo.uncc.edu\">https://cci-bioinfo.uncc.edu</jats:ext-link>\n                  ) that stores highly accurate and unprecedentedly complete maps of predicted CRMs and TFBSs in the human and mouse genomes. The web interface allows the user to browse CRMs and TFBSs in an organism, find the closest CRMs to a gene, search CRMs around a gene, and find all TFBSs of a TF. PCRMS can be a useful resource for the research community to characterize regulatory genomes.\n                </jats:p>",
+      "DOI": "10.1101/2021.07.23.453290",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            26
+          ]
+        ],
+        "date-time": "2021-07-26T11:00:10Z",
+        "timestamp": 1627297210000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "PCRMS: a database of predicted\n                  <i>cis</i>\n                  -regulatory modules and constituent transcription factor binding sites in genomes"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9878-5480",
+          "authenticated-orcid": false,
+          "given": "Pengyu",
+          "family": "Ni",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4636-3440",
+          "authenticated-orcid": false,
+          "given": "Zhengchang",
+          "family": "Su",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Davidson EH : The Regulatory Genome: Gene Regulatory Networks In Development And Evolution. Academic Press; 2006.",
+          "DOI": "10.1016/B978-012088563-3.50022-5"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0903103106"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ejhg.2013.96"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nri3362"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rstb.2013.0017"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gde.2014.08.011"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1090005"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1222794"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1242510"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1242463"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1242429"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1318"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.2422"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1004857"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ymeth.2009.03.001"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/pdb.prot5448"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.17",
+          "first-page": "21",
+          "article-title": "ATAC- seq: a method for assaying chromatin accessibility genome-wide",
+          "volume": "109",
+          "year": "2015",
+          "journal-title": "Current protocols in molecular biology"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "256",
+          "DOI": "10.1038/nprot.2011.444",
+          "article-title": "Using formaldehyde-assisted isolation of regulatory elements (FAIRE) to isolate active regulatory DNA",
+          "volume": "7",
+          "year": "2012",
+          "journal-title": "Nature protocols"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2008.02.022"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1105136"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.1001046"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1010-1045"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14248"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.2653"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr341"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks237"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0052055"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt506"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1906"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature09906"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1937"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature12787"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Khan A , Zhang X : dbSUPER: a database of super-enhancers in mouse and human genome. Nucleic Acids Res 2015.",
+          "DOI": "10.1101/014803"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1025"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ashoor H , Kleftogiannis D , Radovanovic A , Bajic VB : DENdb: database of integrated human enhancers. Database (Oxford) 2015, 2015.",
+          "DOI": "10.1093/database/bav085"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks1233"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks1092"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.12.041"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fishilevich S , Nudel R , Rappaport N , Hadar R , Plaschkes I , Iny Stein T , Rosen N , Kohn A , Twik M , Safran M , et al: GeneHancer: genome-wide integration of enhancers and target genes in GeneCards. Database (Oxford) 2017, 2017.",
+          "DOI": "10.1093/database/bax028"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky864"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cai Z , Cui Y , Tan Z , Zhang G , Tan Z , Zhang X , Peng Y : RAEdb: a database of enhancers identified by high-throughput reporter assays. Database 2019, 2019.",
+          "DOI": "10.1093/database/bay140"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "D113",
+          "DOI": "10.1093/nar/gkx988",
+          "article-title": "HEDD: human enhancer disease database",
+          "volume": "46",
+          "year": "2018",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx920"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1243"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.45",
+          "first-page": "D58",
+          "article-title": "EnhancerAtlas 2.0: an updated resource with enhancer annotation in 586 tissue/cell types across nine species",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2493-4"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ni P , Su Z : A map of cis-regulatory modules and constituent transcription factor binding sites in 77.5% regions of the human genome. bioRxiv 2020.",
+          "DOI": "10.1101/2021.07.23.453290"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl822"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw983"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li Y , Ni P , Zhang S , Li G , Su Z : ProSampler: an ultra-fast and accurate motif finder in large ChIP-seq datasets for combinatory motif discovery. Bioinformatics 2019.",
+          "DOI": "10.1101/394007"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1600-065X.2012.01112.x"
+        },
+        {
+          "key": "2021072806250619000_2021.07.23.453290v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1182/blood-2012-11-469619"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.07.23.453290",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:59:44Z",
+        "timestamp": 1768442384000
+      },
+      "score": 108.44128,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.07.23.453290"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            26
+          ]
+        ]
+      },
+      "references-count": 52,
+      "URL": "https://doi.org/10.1101/2021.07.23.453290",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/database/baac024",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            26
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

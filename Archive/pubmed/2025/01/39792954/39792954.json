@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "39792954",
+    "doi": "10.1371/journal.pcbi.1012755",
+    "title": "The role of chromatin state in intron retention: A case study in leveraging large scale deep learning models."
+  },
+  "content": {
+    "abstract": "Complex deep learning models trained on very large datasets have become key enabling tools for current research in natural language processing and computer vision. By providing pre-trained models that can be fine-tuned for specific applications, they enable researchers to create accurate models with minimal effort and computational resources. Large scale genomics deep learning models come in two flavors: the first are large language models of DNA sequences trained in a self-supervised fashion, similar to the corresponding natural language models; the second are supervised learning models that leverage large scale genomics datasets from ENCODE and other sources. We argue that these models are the equivalent of foundation models in natural language processing in their utility, as they encode within them chromatin state in its different aspects, providing useful representations that allow quick deployment of accurate models of gene regulation. We demonstrate this premise by leveraging the recently created Sei model to develop simple, interpretable models of intron retention, and demonstrate their advantage over models based on the DNA language model DNABERT-2. Our work also demonstrates the impact of chromatin state on the regulation of intron retention. Using representations learned by Sei, our model is able to discover the involvement of transcription factors and chromatin marks in regulating intron retention, providing better accuracy than a recently published custom model developed for this purpose.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Chromatin/genetics",
+      "*Introns/genetics",
+      "Humans",
+      "Computational Biology/methods",
+      "Models, Genetic",
+      "Genomics/methods",
+      "Natural Language Processing"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Daoud, Ahmed",
+        "Ben-Hur, Asa"
+      ],
+      "short_names": [
+        "Daoud A",
+        "Ben-Hur A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8269-6942"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Colorado State University, Fort Collins, Colorado, United States of America.",
+        "Department of Computer Science, Colorado State University, Fort Collins, Colorado, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Daoud, Ahmed",
+        "short_name": "Daoud A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Colorado State University, Fort Collins, Colorado, United States of America."
+        ]
+      },
+      {
+        "full_name": "Ben-Hur, Asa",
+        "short_name": "Ben-Hur A",
+        "identifiers": [
+          "0000-0001-8269-6942"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Colorado State University, Fort Collins, Colorado, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/10 18:21",
+    "fetched_at": "2026-09-30 09:13:04"
+  },
+  "links": {
+    "cites": [
+      "42245286",
+      "42213808",
+      "40870034"
+    ],
+    "refs": [
+      "38762032",
+      "38464101",
+      "36949544",
+      "36789492",
+      "36782260",
+      "36609515",
+      "36417849",
+      "35817977",
+      "35449021",
+      "35338361",
+      "34850907",
+      "34608324",
+      "34232869",
+      "34181707",
+      "34016504",
+      "33876751",
+      "33538820",
+      "32687525",
+      "32584815",
+      "32086391",
+      "31747612",
+      "30971806",
+      "30661751",
+      "30013180",
+      "29588361",
+      "28882000",
+      "28428957",
+      "27197224",
+      "26301843",
+      "26113877",
+      "26034889",
+      "25970242",
+      "25606059",
+      "25258385",
+      "25187560",
+      "23104886",
+      "22955974",
+      "22293517",
+      "21926158",
+      "20445623",
+      "20418102",
+      "16731699"
+    ],
+    "similar": [
+      "39792954",
+      "42475469",
+      "42492189",
+      "40605274",
+      "42491247",
+      "42135287",
+      "39090688",
+      "39795988",
+      "39923968",
+      "42430786",
+      "41537311",
+      "38608190",
+      "40315689",
+      "30971806",
+      "40660356",
+      "37468830",
+      "36949544",
+      "41555097",
+      "39576667",
+      "40334224",
+      "39173410",
+      "39265217",
+      "37916871",
+      "42467987",
+      "39884279",
+      "39272021",
+      "33986655",
+      "32661261",
+      "39176909",
+      "39666835",
+      "40031197",
+      "40849052",
+      "41690236",
+      "33750385",
+      "39708837",
+      "35652477",
+      "40064991",
+      "37258680",
+      "40614511",
+      "41042522",
+      "41576119",
+      "40163820",
+      "39500238",
+      "40397945",
+      "41300810",
+      "41187282",
+      "38701417",
+      "37722445",
+      "37958843",
+      "39775454",
+      "39489607",
+      "38340264",
+      "41319624",
+      "41634097",
+      "42688306",
+      "39661975",
+      "40702706",
+      "36347888",
+      "41336503",
+      "37696966",
+      "33961736",
+      "37625508",
+      "39214282",
+      "41223195",
+      "39205391",
+      "39237191",
+      "41980187",
+      "42252067",
+      "41719833",
+      "41138953",
+      "39083337",
+      "34493371",
+      "38295474",
+      "40764622",
+      "33539511",
+      "35612228",
+      "41428176",
+      "40962325",
+      "31021325",
+      "39669437",
+      "41426306",
+      "39419501",
+      "41673205",
+      "41069408",
+      "40917147",
+      "37765758",
+      "41880603",
+      "35767322",
+      "37985685",
+      "33074102",
+      "38555493",
+      "41411735",
+      "38160274",
+      "39863694",
+      "34227303",
+      "42323878",
+      "38198963",
+      "37347514",
+      "38553162",
+      "34286375"
+    ],
+    "review": [
+      "39792954",
+      "42492189",
+      "42491247",
+      "42430786",
+      "41537311",
+      "30971806",
+      "41555097",
+      "42467987",
+      "39666835",
+      "40031197",
+      "41690236",
+      "39708837",
+      "35652477",
+      "37958843",
+      "42688306",
+      "42252067",
+      "40962325",
+      "40917147"
+    ],
+    "pmc": [
+      "11756788"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1012755",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39792954/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

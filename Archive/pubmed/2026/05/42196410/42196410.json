@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "42196410",
+    "doi": "10.3390/ijms27104436",
+    "title": "Toward a Molecular Reclassification of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Integrating Multi-Omics, Machine Learning, and Precision Medicine."
+  },
+  "content": {
+    "abstract": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) is a complex, multi-system disease characterized by a multitude of symptoms across various organ systems. Diagnosis has relied heavily on heterogeneous clinical symptom presentation and evolving case definitions, with treatment focused on addressing presenting symptoms due to the paucity of validated biomarkers. Meanwhile, advances have been made in understanding the underlying pathophysiology through strong epidemiologic, clinical, and basic science studies. This narrative review synthesizes recent advances that are likely to drive a shift in understanding from symptom-based classification toward a molecularly defined understanding of the disease. This shift in understanding will likely provide the foundation for future research efforts focused on targeting diagnosis and treatment more effectively. Specifically, we reference the identification of rare genetic risk variants through the HEAL2 deep learning framework, the large-scale DecodeME genome-wide association study, and dynamic epigenetic markers of disease state. In addition, the findings revealed the downstream consequences of this genetic and epigenetic priming: chronic innate immune activation, CD8+ T cell exhaustion characterized by upregulation of the exhaustion-driving transcription factors Thymocyte Selection-Associated HMG Box (TOX) and Eomesodermin (EOMES), and a cellular energy crisis centered on mitochondrial dysfunction. Furthermore, results of recent studies have revealed sex-specific transcriptomic and proteomic signatures of maladaptive recovery. We also highlight the role of machine learning and artificial intelligence integrations in translating high-dimensional multi-omics data into actionable biological insights, including the identification of monocyte subsets via Positive Unlabeled Learning, circulating cell-free RNA diagnostic signatures, and integrated multi-modal disease models such as BioMapAI. The combination of these findings, which highlight multiple identifiable mechanisms of molecular activity, support the feasibility of molecular subtyping, precision diagnostics, and targeted therapeutic strategies for ME/CFS.",
+    "keywords": [
+      "ME/CFS",
+      "biomarkers",
+      "deep learning",
+      "epigenetics",
+      "machine learning",
+      "mitochondrial dysfunction",
+      "multi-omics",
+      "post-exertional malaise",
+      "precision medicine",
+      "transcriptomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Fatigue Syndrome, Chronic/genetics/classification/diagnosis/metabolism",
+      "*Precision Medicine/methods",
+      "*Machine Learning",
+      "Multiomics",
+      "Proteomics/methods",
+      "Biomarkers",
+      "Genome-Wide Association Study",
+      "Epigenesis, Genetic",
+      "T-Cell Exhaustion"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Frank, Joshua",
+        "Nesterovitch, Nicole",
+        "Movva, Chetana",
+        "Klimas, Nancy G",
+        "Nathanson, Lubov"
+      ],
+      "short_names": [
+        "Frank J",
+        "Nesterovitch N",
+        "Movva C",
+        "Klimas NG",
+        "Nathanson L"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1459-3268",
+        "ORCID: 0000-0003-1038-9083"
+      ],
+      "affiliations": [
+        "Institute for Neuro-Immune Medicine, Dr. Kiran C. Patel College of Osteopathic Medicine, Nova Southeastern University, Fort Lauderdale, FL 33328, USA.",
+        "Halmos College of Arts and Sciences, Nova Southeastern University, Fort Lauderdale, FL 33328, USA.",
+        "Halmos College of Arts and Sciences, Nova Southeastern University, Fort Lauderdale, FL 33328, USA.",
+        "Institute for Neuro-Immune Medicine, Dr. Kiran C. Patel College of Osteopathic Medicine, Nova Southeastern University, Fort Lauderdale, FL 33328, USA.",
+        "Institute for Neuro-Immune Medicine, Dr. Kiran C. Patel College of Osteopathic Medicine, Nova Southeastern University, Fort Lauderdale, FL 33328, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Frank, Joshua",
+        "short_name": "Frank J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Neuro-Immune Medicine, Dr. Kiran C. Patel College of Osteopathic Medicine, Nova Southeastern University, Fort Lauderdale, FL 33328, USA."
+        ]
+      },
+      {
+        "full_name": "Nesterovitch, Nicole",
+        "short_name": "Nesterovitch N",
+        "identifiers": [],
+        "affiliations": [
+          "Halmos College of Arts and Sciences, Nova Southeastern University, Fort Lauderdale, FL 33328, USA."
+        ]
+      },
+      {
+        "full_name": "Movva, Chetana",
+        "short_name": "Movva C",
+        "identifiers": [],
+        "affiliations": [
+          "Halmos College of Arts and Sciences, Nova Southeastern University, Fort Lauderdale, FL 33328, USA."
+        ]
+      },
+      {
+        "full_name": "Klimas, Nancy G",
+        "short_name": "Klimas NG",
+        "identifiers": [
+          "0000-0003-1459-3268"
+        ],
+        "affiliations": [
+          "Institute for Neuro-Immune Medicine, Dr. Kiran C. Patel College of Osteopathic Medicine, Nova Southeastern University, Fort Lauderdale, FL 33328, USA."
+        ]
+      },
+      {
+        "full_name": "Nathanson, Lubov",
+        "short_name": "Nathanson L",
+        "identifiers": [
+          "0000-0003-1038-9083"
+        ],
+        "affiliations": [
+          "Institute for Neuro-Immune Medicine, Dr. Kiran C. Patel College of Osteopathic Medicine, Nova Southeastern University, Fort Lauderdale, FL 33328, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 May 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/27 06:32",
+    "fetched_at": "2026-10-01 21:38:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41237904",
+      "41205594",
+      "40943482",
+      "40789036",
+      "40715814",
+      "40338225",
+      "39810236",
+      "39621903",
+      "39592839",
+      "38965566",
+      "38887284",
+      "38693641",
+      "38256459",
+      "38256344",
+      "38232699",
+      "38172662",
+      "37373402",
+      "37226227",
+      "37179299",
+      "36982194",
+      "36769022",
+      "36653846",
+      "36233152",
+      "35236205",
+      "34682909",
+      "34209852",
+      "33577778",
+      "33148325",
+      "32644129",
+      "31830003",
+      "31394725",
+      "30910331",
+      "30829147",
+      "30805319",
+      "30516085",
+      "30193110",
+      "30036399",
+      "29856774",
+      "29226748",
+      "28760971",
+      "28231836",
+      "27573827",
+      "27127189",
+      "25512702",
+      "25364305",
+      "23346033",
+      "21975140",
+      "18397528",
+      "11327394"
+    ],
+    "similar": [
+      "42196410",
+      "42475469",
+      "39810236",
+      "41444612",
+      "40980765",
+      "42278344",
+      "40321247",
+      "42511874",
+      "40465195",
+      "40789036",
+      "41752134",
+      "41508032",
+      "42183196",
+      "41057909",
+      "40715814",
+      "42450188",
+      "40943482",
+      "35854226",
+      "42366266",
+      "39658280",
+      "37179299",
+      "42280469",
+      "38327880",
+      "38650940",
+      "42450251",
+      "38693641",
+      "33184353",
+      "39727052",
+      "42558367",
+      "37569313",
+      "26613325",
+      "40806417",
+      "41611834",
+      "42231444",
+      "28231836",
+      "42454043",
+      "36769022",
+      "41791269",
+      "41368891",
+      "41112249",
+      "30036399",
+      "41715182",
+      "41751160",
+      "37226227",
+      "39621903",
+      "40162526",
+      "41895458",
+      "32972442",
+      "41645653",
+      "35236205",
+      "41366804",
+      "40806492",
+      "42533331",
+      "42015188",
+      "41237904",
+      "40963604",
+      "23685416",
+      "37881452",
+      "30207334",
+      "41266662",
+      "37653608",
+      "35821115",
+      "37915075",
+      "30910331",
+      "41822518",
+      "38979186",
+      "42220511",
+      "36732593",
+      "29666214",
+      "37373402",
+      "39361124",
+      "41073921",
+      "34368926",
+      "41828537",
+      "29692205",
+      "40129725",
+      "42456531",
+      "38600563",
+      "28441964",
+      "41017304",
+      "33329554",
+      "24734022",
+      "40162315",
+      "41226047",
+      "41314754",
+      "30516085",
+      "41766899",
+      "42321833",
+      "31036648",
+      "41616992",
+      "37328077",
+      "39297956",
+      "41943684",
+      "41334655",
+      "32727489",
+      "35421511",
+      "39394558",
+      "40517231",
+      "31330791",
+      "40149893"
+    ],
+    "review": [
+      "42196410",
+      "39810236",
+      "42278344",
+      "42511874",
+      "42183196",
+      "42366266",
+      "42280469",
+      "42450251",
+      "38693641",
+      "39727052",
+      "37569313",
+      "26613325",
+      "40806417",
+      "42454043",
+      "41368891",
+      "41715182",
+      "41751160",
+      "37226227",
+      "40162526",
+      "41895458",
+      "41645653",
+      "41366804",
+      "40806492",
+      "40963604",
+      "23685416",
+      "41266662",
+      "30910331",
+      "42220511",
+      "29666214",
+      "41073921",
+      "40129725",
+      "42456531",
+      "41017304",
+      "40162315",
+      "41314754",
+      "41616992",
+      "39297956",
+      "41943684",
+      "41334655",
+      "32727489",
+      "35421511",
+      "40517231",
+      "31330791",
+      "40149893"
+    ],
+    "pmc": [
+      "13207433"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27104436",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/myalgicencephalomyelitischronicfatiguesyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42196410/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

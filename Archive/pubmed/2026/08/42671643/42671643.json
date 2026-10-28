@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "42671643",
+    "doi": "10.1007/s10142-026-02027-3",
+    "title": "An integrative multi-project transcriptomic and structural prediction framework identifies candidate cold-responsive transcription factors in Medicago sativa."
+  },
+  "content": {
+    "abstract": "Cold stress limits alfalfa (Medicago sativa) growth and persistence, but public transcriptomic datasets differ widely in genotype, tissue, treatment duration, and experimental design. We integrated RNA-seq data from ten independent BioProjects using a common processing workflow while retaining project-specific structures. A recurrent contrast-level DEG-derived pool of 4,354 genes was ranked by random forest using expression profiles from 240 samples. The original model showed strong internal discrimination (OOB ROC-AUC = 0.937), whereas fully nested leave-one-BioProject-out validation yielded an accuracy of 0.729, balanced accuracy of 0.676, and ROC-AUC of 0.727. PlantTFDB annotation identified MsG0680033896.01, MsG0680033848.01, and MsG0480021906.01 as the three highest-ranked transcription factors. The first two candidates showed greater stability in project-held-out and alternative machine-learning analyses. In project-aware multilevel meta-analysis, neither the primary 50-contrast analysis nor the 54-contrast sensitivity analysis identified genome-wide significant transcripts after Benjamini-Hochberg correction. However, MsG0680033896.01 and MsG0680033848.01 showed predominantly positive effects, positive pooled estimates, and confidence intervals excluding zero in both analyses, whereas MsG0480021906.01 showed weaker directional consistency. Co-expression, promoter prediction, chromosomal localization, and AlphaFold3 modeling provided additional computational context, including localization of the two leading candidates within a Chr6 CBF/DREB1-like-enriched region. These results prioritize MsG0680033896.01 and MsG0680033848.01 as high-confidence computational candidates and retain MsG0480021906.01 as an additional project-sensitive candidate for future functional testing.",
+    "keywords": [
+      "Medicago sativa",
+      "Cold stress",
+      "Multi-project transcriptomics",
+      "Multilevel meta-analysis",
+      "Random forest"
+    ],
+    "mesh_terms": [
+      "*Medicago sativa/genetics/metabolism",
+      "*Transcription Factors/genetics/metabolism",
+      "*Transcriptome",
+      "*Plant Proteins/genetics/metabolism/chemistry",
+      "Gene Expression Regulation, Plant",
+      "*Cold-Shock Response/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Huixin",
+        "Wang, Meng",
+        "Zhu, Xiaoyue",
+        "Zhang, Ruixin",
+        "Dong, Lina",
+        "Guo, Changhong",
+        "Shu, Yongjun"
+      ],
+      "short_names": [
+        "Jiang H",
+        "Wang M",
+        "Zhu X",
+        "Zhang R",
+        "Dong L",
+        "Guo C",
+        "Shu Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4463-0218"
+      ],
+      "affiliations": [
+        "Key Laboratory of Molecular Cytogenetics and Genetic Breeding of Heilongjiang Province, College of Life Science and Technology, Harbin Normal University, Harbin, 150025, P. R. China.",
+        "Key Laboratory of Molecular Cytogenetics and Genetic Breeding of Heilongjiang Province, College of Life Science and Technology, Harbin Normal University, Harbin, 150025, P. R. China.",
+        "Key Laboratory of Molecular Cytogenetics and Genetic Breeding of Heilongjiang Province, College of Life Science and Technology, Harbin Normal University, Harbin, 150025, P. R. China.",
+        "Key Laboratory of Molecular Cytogenetics and Genetic Breeding of Heilongjiang Province, College of Life Science and Technology, Harbin Normal University, Harbin, 150025, P. R. China.",
+        "Key Laboratory of Molecular Cytogenetics and Genetic Breeding of Heilongjiang Province, College of Life Science and Technology, Harbin Normal University, Harbin, 150025, P. R. China.",
+        "Key Laboratory of Molecular Cytogenetics and Genetic Breeding of Heilongjiang Province, College of Life Science and Technology, Harbin Normal University, Harbin, 150025, P. R. China.",
+        "Key Laboratory of Molecular Cytogenetics and Genetic Breeding of Heilongjiang Province, College of Life Science and Technology, Harbin Normal University, Harbin, 150025, P. R. China. syjun2003@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Huixin",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Molecular Cytogenetics and Genetic Breeding of Heilongjiang Province, College of Life Science and Technology, Harbin Normal University, Harbin, 150025, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Meng",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Molecular Cytogenetics and Genetic Breeding of Heilongjiang Province, College of Life Science and Technology, Harbin Normal University, Harbin, 150025, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Xiaoyue",
+        "short_name": "Zhu X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Molecular Cytogenetics and Genetic Breeding of Heilongjiang Province, College of Life Science and Technology, Harbin Normal University, Harbin, 150025, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ruixin",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Molecular Cytogenetics and Genetic Breeding of Heilongjiang Province, College of Life Science and Technology, Harbin Normal University, Harbin, 150025, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Dong, Lina",
+        "short_name": "Dong L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Molecular Cytogenetics and Genetic Breeding of Heilongjiang Province, College of Life Science and Technology, Harbin Normal University, Harbin, 150025, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Guo, Changhong",
+        "short_name": "Guo C",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Molecular Cytogenetics and Genetic Breeding of Heilongjiang Province, College of Life Science and Technology, Harbin Normal University, Harbin, 150025, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Shu, Yongjun",
+        "short_name": "Shu Y",
+        "identifiers": [
+          "0000-0003-4463-0218"
+        ],
+        "affiliations": [
+          "Key Laboratory of Molecular Cytogenetics and Genetic Breeding of Heilongjiang Province, College of Life Science and Technology, Harbin Normal University, Harbin, 150025, P. R. China. syjun2003@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Functional & integrative genomics"
+    ],
+    "journal_abbrev": [
+      "Funct Integr Genomics"
+    ],
+    "pub_date": "2026 Aug 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/31 19:42",
+    "fetched_at": "2026-10-02 04:52:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41035197",
+      "38718835",
+      "38239810",
+      "32881101",
+      "32673760",
+      "32489650",
+      "32068158",
+      "30423086",
+      "29735429",
+      "28263959",
+      "27935950",
+      "27924042",
+      "27634930",
+      "27288366",
+      "27092161",
+      "26681689",
+      "25516281",
+      "23269463",
+      "22455463",
+      "21867785",
+      "21414208",
+      "21062823",
+      "20838408",
+      "20808728",
+      "20110278",
+      "19728874",
+      "19712066",
+      "19505943",
+      "17855156",
+      "16669782",
+      "16407444",
+      "16398926",
+      "9952441",
+      "9707537",
+      "9525853",
+      "9023378"
+    ],
+    "similar": [
+      "42671643",
+      "35642507",
+      "42350947",
+      "41107709",
+      "42475469",
+      "39408674",
+      "39095692",
+      "41270574",
+      "30326607",
+      "39716096",
+      "39343877",
+      "38637768",
+      "36077414",
+      "39838277",
+      "42277708",
+      "40203558",
+      "41963790",
+      "18218976",
+      "30889856",
+      "36768707",
+      "40715510",
+      "41193681",
+      "41511543",
+      "38773372",
+      "31109303",
+      "41184778",
+      "38891967",
+      "36553638",
+      "41750279",
+      "39859171",
+      "42353798",
+      "31412781",
+      "39927691",
+      "41286636",
+      "41107726",
+      "24556904",
+      "39716071",
+      "40725407",
+      "37644390",
+      "31403329",
+      "35790623",
+      "34362293",
+      "42117572",
+      "38943631",
+      "39179986",
+      "41454229",
+      "39242996",
+      "39227784",
+      "41801446",
+      "41828374",
+      "29448940",
+      "42343898",
+      "35742869",
+      "26801649",
+      "38928203",
+      "42289463",
+      "38373903",
+      "42473451",
+      "27542359",
+      "42050414",
+      "37803258",
+      "41764430",
+      "42665810",
+      "35805915",
+      "34931872",
+      "15918883",
+      "40163212",
+      "35705909",
+      "40295903",
+      "41264840",
+      "25799491",
+      "42213270",
+      "40429856",
+      "40165085",
+      "34191816",
+      "42123445",
+      "41317612",
+      "30600412",
+      "33001712",
+      "39223486",
+      "25495120",
+      "26149169",
+      "41170672",
+      "39000350",
+      "27272950",
+      "41742024",
+      "40990345",
+      "34946855",
+      "42333035",
+      "40369459",
+      "23188214",
+      "37628861",
+      "35842574",
+      "27187372",
+      "39596388",
+      "32199947",
+      "41865428",
+      "34681032",
+      "41107743",
+      "41183626"
+    ],
+    "review": [
+      "42671643",
+      "42289463"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s10142-026-02027-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

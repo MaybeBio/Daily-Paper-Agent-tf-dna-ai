@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, conclusions) as provided by the user. No supplementary files, figures, or tables were supplied.
+- **Assessment boundary** The review is limited to the content of the provided manuscript text. Claims regarding performance, methodology, and biological insights are assessed based on the text alone. No external data, code, or supplementary materials were available for verification.
+- **Shared manuscript claim summary** The authors propose DNABERT-Cap, a deep learning architecture combining a bidirectional transformer-based encoder (DNABERT), a convolutional layer, a bidirectional long short-term memory (BiLSTM) layer, and a capsule network, for predicting transcription factor binding sites (TFBS) from DNA sequences. They report superior performance over several baselines and state-of-the-art methods across five cell lines, and demonstrate cross-cell line generalization using five additional cell lines. They also report analyses of transcription factor frequency and recognition of transcription factors absent from training data, suggesting potential biological insights.
+- **Visible evidence base** The manuscript text includes descriptions of results, performance metrics, and methodological details. Tables and figures are referenced but not provided. The evidence base for this review is therefore the textual claims and the methodological descriptions.
+- **Missing materials affecting confidence** The following materials were not provided and would be necessary for a full assessment: all tables (Tables 1-5), all figures (Figures 1-3), the supplementary file, the actual performance data, details of the baseline implementations, the exact dataset composition, and any code or reproducibility information. Without these, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology, namely the prediction of transcription factor binding sites, and proposes a novel combination of established deep learning components. The architecture is plausible and the reported results, if accurate, would represent a useful contribution. However, the manuscript as provided has several significant weaknesses. The claims of superiority over state-of-the-art methods are not fully supported by the evidence presented in the text, as the comparison details are incomplete. The cross-cell line and cross-transcription factor analyses are interesting but the interpretation is somewhat speculative. The methodological description is generally clear but lacks some critical details for reproducibility. The writing is acceptable but could be improved in places. Overall, the work has potential but requires substantial revision and additional evidence to fully support its claims.
+- **Who would be interested in the results, and why** Researchers in computational biology, bioinformatics, and genomics, particularly those working on transcription factor binding site prediction, regulatory genomics, and deep learning applications to DNA sequence analysis. The cross-cell line and cross-transcription factor analyses may also be of interest to molecular biologists studying gene regulation, as the authors suggest potential for generating hypotheses about transcription factor behaviour.
+- **Major strengths** The manuscript addresses a well-defined and important problem. The proposed architecture is a reasonable and novel combination of existing components, and the ablation-style baselines are a good approach to evaluate the contribution of each component. The inclusion of cross-cell line and cross-transcription factor analyses goes beyond simple benchmark reporting and attempts to extract biological insights. The use of established benchmark data (ENCODE) and comparison with several state-of-the-art methods is appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and reproducibility
+  - **Claim pointer** The manuscript claims that DNABERT-Cap outperforms several state-of-the-art predictors (DeepARC, DeepTF, CNN-Zeng, DeepBind) in terms of accuracy, specificity, MCC, and AUC, with specific percentage improvements over DeepARC.
+  - **Evidence pointer** Section 2.3, Table 2, Figure 1 (not provided)
+  - **Concern** The specific performance numbers and the details of the comparison are not available in the provided text. The claim of superiority is based on Table 2 and Figure 1, which are not included. Furthermore, the text states that results from references [43,44] are "not directly comparable" due to different encoding methods and unspecified cell lines, yet these are still mentioned in the comparison. The comparison with DeepARC is presented with specific percentage improvements, but without the underlying data, these cannot be verified. The statistical significance of these differences is not discussed beyond a general statement of a 95% confidence level.
+  - **Why it matters** The central claim of the paper is that the proposed method is superior to existing approaches. Without the actual data and a clear description of the comparison protocol, this claim cannot be evaluated. The mention of non-comparable results adds confusion rather than clarity.
+  - **Resolution test** Provide the full data in Tables 1 and 2, including all metrics for all methods and cell lines. Clearly describe the experimental setup for the comparison, including how the baseline methods were implemented and run. State whether the performance differences are statistically significant and, if so, what test was used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness and reproducibility
+  - **Claim pointer** The manuscript describes the pipeline as DNABERT followed by a convolutional layer, a BiLSTM layer, a primary capsule layer, and a TFBS capsule layer with dynamic routing.
+  - **Evidence pointer** Section 4.3, Figure 3 (not provided)
+  - **Concern** The description of the pipeline, while detailed, lacks some critical parameters for reproducibility. For example, the number of convolutional filters, the kernel size (stated as 2), the number of BiLSTM units (stated as 64), the capsule dimensions (stated as 16), and the number of dynamic routing iterations (stated as 3) are given. However, the input sequence length is not explicitly stated in the methods, although it is implied to be 101 bp from the data preparation section. The output of the BiLSTM is described as a matrix HS of size R^(t x 2dim), but the relationship between t and the sequence length is not clear. The exact architecture, including the number of primary capsules and the dimensions of the weight matrices, is not fully specified. The training procedure, including the number of epochs, learning rate schedule, and early stopping criteria, is not described.
+  - **Why it matters** For a methods paper in deep learning, reproducibility is paramount. The current description is insufficient for another research group to implement the method without significant guesswork. This undermines the scientific value of the contribution.
+  - **Resolution test** Provide a complete and precise description of the architecture, including all layer dimensions, activation functions, and the flow of data between layers. Describe the training procedure in detail, including optimization parameters, number of epochs, and any regularization techniques. Consider making the code publicly available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation and support for biological claims
+  - **Claim pointer** The manuscript states that cross-cell line prediction works well and that the analysis of transcription factor frequency and recognition of transcription factors absent from training data provides "indications of interest for molecular biology."
+  - **Evidence pointer** Sections 2.4, 2.5, 2.6, Tables 3-5, Figure 2 (not provided)
+  - **Concern** The interpretation of the cross-cell line and cross-transcription factor results is somewhat speculative. For example, the high cross-cell line prediction for DnD41 is attributed to the prevalence of CTCF, but this is presented as a "reasonable interpretation" without further analysis. The correlation between transcription factor frequency and AUC is reported with a correlation value of 0.35 and a p-value, but the text does not discuss what this moderate correlation implies beyond stating that frequency is not the only factor. The claim that the model can recognize transcription factors absent from training data is interesting, but the mechanism for this is not explored. The biological significance of these findings is not clearly articulated.
+  - **Why it matters** The authors suggest that their results could be of interest for molecular biology studies and could allow researchers to verify hypotheses about transcription factor behaviour. For this to be credible, the biological interpretation needs to be more rigorous and less speculative. The current text makes claims that are not fully supported by the analysis presented.
+  - **Resolution test** Provide a more detailed analysis of the cross-cell line and cross-transcription factor results. For example, analyze which sequence features are learned that enable cross-cell line prediction. Discuss the limitations of the correlation analysis. For the transcription factors absent from training, provide examples and discuss potential reasons for their recognition. Frame the biological implications more cautiously and with appropriate caveats.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison with prior work and novelty
+  - **Claim pointer** The introduction states that "methods based on transformers remain partially unexplored" in the context of TFBS prediction.
+  - **Evidence pointer** Section 1
+  - **Concern** The introduction provides a review of related work but does not clearly position the novelty of the proposed method relative to existing transformer-based approaches for TFBS prediction. The statement that transformer methods are "partially unexplored" is vague. There are existing works that use transformers for TFBS prediction, and the authors should clearly state what is new about their specific combination of components. The novelty of combining DNABERT, CNN, BiLSTM, and capsule networks is not clearly articulated as a contribution beyond the sum of its parts.
+  - **Why it matters** For a paper to be a significant contribution, the novelty must be clearly established. The current text does not sufficiently differentiate the proposed method from existing work, particularly other transformer-based approaches.
+  - **Resolution test** Expand the related work section to include a more thorough discussion of existing transformer-based methods for TFBS prediction. Clearly state the specific limitations of these methods that the proposed approach addresses. Articulate the specific novelty of the proposed architecture and why this combination of components is expected to perform better.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is somewhat dense and could be clearer. The phrase "empowered by bidirectional long-short term memory layers and with a capsule layer responsible for the final prediction" is awkwardly phrased.
+  - **Required correction** Rephrase for clarity, for example: "We propose a bidirectional transformer-based encoder, combined with bidirectional long short-term memory layers and a capsule layer for final classification."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The baselines are described in a list format that is not well integrated into the text. The description of the baselines is brief and lacks detail on their implementation.
+  - **Required correction** Integrate the baseline descriptions into the text and provide more detail on how each baseline was implemented, including any hyperparameter tuning.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Section 4.3, Equation (9)
+  - **Evidence pointer** Section 4.3, Equation (9)
+  - **Issue** The squashing function in Equation (9) is written as: vy = ||sy||^2 / (1 + ||sy||) * sy / ||sy||^2. This simplifies to sy / (1 + ||sy||), which is not the standard squashing function used in capsule networks. The standard function is ||sy||^2 / (1 + ||sy||^2) * sy / ||sy||.
+  - **Required correction** Correct the equation to the standard squashing function: vy = (||sy||^2 / (1 + ||sy||^2)) * (sy / ||sy||).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Section 5
+  - **Evidence pointer** Section 5
+  - **Issue** The conclusion contains a typo: "deep learning mmethod" should be "deep learning method".
+  - **Required correction** Fix the typo.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Section 2.5
+  - **Issue** The text states "p < 0.001157" which is an unusual way to report a p-value. It is more common to report the exact p-value or a threshold such as p < 0.001.
+  - **Required correction** Report the exact p-value or use a standard threshold.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Section 4.1
+  - **Evidence pointer** Section 4.1
+  - **Issue** The text states "500,000 sequences for each of the five cell lines were selected randomly from these datasets." It is unclear if this is 500,000 total or 500,000 per cell line. The phrasing suggests per cell line, but this should be clarified.
+  - **Required correction** Clarify the number of sequences used per cell line.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of access to the actual data (tables and figures) to verify the performance claims. The incomplete description of the architecture and training procedure is a secondary but significant failing that prevents reproducibility. The incorrect squashing function equation is a technical error that needs correction.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The combination of DNABERT, CNN, BiLSTM, and capsule networks is a novel architecture, but the individual components are well-established. The novelty is incremental rather than groundbreaking. The claim that transformer methods are "partially unexplored" is not sufficiently supported.
+  - **Scientific importance** The problem of TFBS prediction is important, and improved methods are of value. However, the potential impact is limited by the incremental nature of the improvement and the lack of demonstrated biological insights beyond what is already known.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and bioinformaticians. The potential biological implications are mentioned but not developed enough to attract a broader molecular biology audience.
+  - **Technical soundness** The approach is technically plausible, but the incomplete description and the error in the squashing function equation raise concerns. The lack of statistical significance testing for the performance comparisons is a weakness.
+  - **Readability for nonspecialists** The manuscript is written for a specialist audience. The introduction and discussion are accessible, but the methods section is dense and assumes familiarity with deep learning concepts. The abstract is somewhat technical.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is reasonable and the problem is relevant. However, the manuscript in its current form does not fully support its claims due to missing data, incomplete methodological details, and a technical error. The authors should be encouraged to revise the manuscript to address these issues.
+
+## Risk / unsupported claims
+- The claim that DNABERT-Cap outperforms state-of-the-art methods is unsupported in the provided text because the actual data (Tables 1, 2, Figure 1) are not available.
+- The claim that cross-cell line prediction works "very well" is based on Table 3, which is not provided.
+- The claim that the model can recognize transcription factors absent from training data is based on Table 5, which is not provided.
+- The statement that the results provide "indications of interest for molecular biology" is speculative and not fully supported by the analysis described in the text.
+- The claim that the proposed method "performs markedly better than the existing state-of-the-art" (Introduction) is not verifiable without the data.
+- The assertion that the improved performance is due to the specific combination of components is not directly tested beyond the ablation baselines, and the results of those baselines are not fully reported in the text.

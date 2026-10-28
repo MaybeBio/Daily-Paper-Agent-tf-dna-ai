@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33741685",
+  "title": "Fast decoding cell type-specific transcription factor binding landscape at single-nucleotide resolution.",
+  "authors": "Li, Hongyang; Guan, Yuanfang",
+  "journal": "Genome research",
+  "published_date": "2021-03-21",
+  "window": {
+    "start": "2021-03-15",
+    "end": "2021-03-21"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出深度学习模型Leopard，以单核苷酸分辨率预测细胞类型特异性TF结合位点，核心聚焦TF-DNA互作结合位点预测，方法为AI建模，高度匹配本课题。",
+  "abstract": "Decoding the cell type-specific transcription factor (TF) binding landscape at single-nucleotide resolution is crucial for understanding the regulatory mechanisms underlying many fundamental biological processes and human diseases. However, limits on time and resources restrict the high-resolution experimental measurements of TF binding profiles of all possible TF-cell type combinations. Previous computational approaches either cannot distinguish the cell context-dependent TF binding profiles across diverse cell types or can only provide a relatively low-resolution prediction. Here we present a novel deep learning approach, Leopard, for predicting TF binding sites at single-nucleotide resolution, achieving the average area under receiver operating characteristic curve (AUROC) of 0.982 and the average area under precision recall curve (AUPRC) of 0.208. Our method substantially outperformed the state-of-the-art methods Anchor and FactorNet, improving the predictive AUPRC by 19% and 27%, respectively, when evaluated at 200-bp resolution. Meanwhile, by leveraging a many-to-many neural network architecture, Leopard features a hundredfold to thousandfold speedup compared with current many-to-one machine learning methods.",
+  "abstract_zh": "在单核苷酸分辨率下解码细胞类型特异性的转录因子（TF）结合图谱，对于理解许多基本生物过程和人类疾病背后的调控机制至关重要。然而，时间和资源的限制使得对所有可能的TF-细胞类型组合进行高分辨率实验测量TF结合谱变得困难。以往的计算方法要么无法区分不同细胞类型中依赖于细胞环境的TF结合谱，要么只能提供相对较低分辨率的预测。在此，我们提出了一种新颖的深度学习方法Leopard，用于在单核苷酸分辨率下预测TF结合位点，实现了平均受试者工作特征曲线下面积（AUROC）为0.982，平均精确率-召回率曲线下面积（AUPRC）为0.208。我们的方法显著优于现有最先进的方法Anchor和FactorNet，在200-bp分辨率下评估时，预测AUPRC分别提高了19%和27%。同时，通过利用多对多神经网络架构，Leopard相比当前的多对一机器学习方法，实现了百倍至千倍的加速。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33741685/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33741685/",
+  "paper_page_path": "papers/pubmed/33741685/index.html"
+}

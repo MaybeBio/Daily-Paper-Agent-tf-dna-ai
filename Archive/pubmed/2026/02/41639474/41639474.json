@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "41639474",
+    "doi": "10.1007/s00299-026-03731-x",
+    "title": "Transcriptomic analyses reveal regulatory plasticity and metabolic reprogramming underlying genotype-specific microspore embryogenesis in wheat."
+  },
+  "content": {
+    "abstract": "Embryogenic efficiency in wheat microspores is driven by epigenetic regulation, homoeolog expression bias, and genotype-specific genomic variation, with coordinated remodeling of metabolic pathways and cell-wall dynamics establishing a favourable cellular environment. Microspore embryogenesis is a process in which immature male gametophytes are induced to form embryo-like structures that can regenerate into doubled haploid (DH) plants following chromosome doubling. By producing complete homozygosity in a single generation, DH technology accelerates cultivar development and is particularly valuable for breeding resilient crops. However, bread wheat remains largely recalcitrant to microspore embryogenesis, with strong genotype dependence limiting its broad application in breeding programs. Here, we performed a comparative transcriptomic time-course in two spring wheat cultivars with contrasting embryogenic responses: Nanda (highly responsive) and Sadash (recalcitrant). Dynamic gene expression reprogramming was observed during embryogenesis, with Nanda exhibiting enrichment of biological processes associated with epigenetic regulation, including nucleosome assembly, chromatin remodeling, and chromatin organization. In addition, genes related to stress perception, hormonal signaling, cytoskeletal and cell wall dynamics, and metabolic pathways showed coordinated expression changes, collectively characterizing the transcriptional landscape associated with successful microspore embryogenesis. Differentially expressed gene (DEG) hotspots identified structural variation underlying the divergent responses between genotypes. Machine learning highlighted potential biomarkers, notably a histone deacetylase gene TRAESCS1D02G454400 located within a DEG-enriched region. Subgenome-specific analysis revealed pronounced suppression of B-subgenome homoeologs in Sadash, 65% of which overlapped with DEGs from the genotype comparison. These findings highlight the role of epigenetic regulation, homoeolog expression bias, and genotype-specific genomic variation in determining embryogenic efficiency. Importantly, these conclusions are based on transcriptomic associations and require functional validation, while providing candidate molecular targets and biomarkers to overcome recalcitrance and enhance the utility of microspore embryogenesis in wheat DH breeding.",
+    "keywords": [
+      "Homoeolog expression",
+      "Machine learning",
+      "Microspore embryogenesis",
+      "RNA seq",
+      "Transcription factor",
+      "Wheat"
+    ],
+    "mesh_terms": [
+      "*Triticum/genetics/metabolism/embryology",
+      "Genotype",
+      "Gene Expression Regulation, Plant/genetics",
+      "Gene Expression Profiling",
+      "*Pollen/genetics/metabolism",
+      "Epigenesis, Genetic",
+      "Seeds/genetics",
+      "Transcriptome/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Hai Ying",
+        "Jiang, Yunfei",
+        "Kathiria, Palak",
+        "Bollina, Venkatesh",
+        "Tan, Yifang",
+        "Enns, Jean L",
+        "Ferrie, Alison M R",
+        "Kagale, Sateesh"
+      ],
+      "short_names": [
+        "Yuan HY",
+        "Jiang Y",
+        "Kathiria P",
+        "Bollina V",
+        "Tan Y",
+        "Enns JL",
+        "Ferrie AMR",
+        "Kagale S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4049-3036",
+        "ORCID: 0000-0003-4260-6513",
+        "ORCID: 0000-0002-7213-1590"
+      ],
+      "affiliations": [
+        "Aquatic and Crop Resource Development Research Centre, National Research Council Canada, Saskatoon, SK, S7N 0W9, Canada.",
+        "Aquatic and Crop Resource Development Research Centre, National Research Council Canada, Saskatoon, SK, S7N 0W9, Canada.",
+        "Department of Plant, Food, and Environmental Sciences, Faculty of Agriculture, Dalhousie University, Truro, NS, B2N 5E3, Canada.",
+        "Aquatic and Crop Resource Development Research Centre, National Research Council Canada, Saskatoon, SK, S7N 0W9, Canada.",
+        "INARI, Cambridge, MA, 02139, USA.",
+        "Aquatic and Crop Resource Development Research Centre, National Research Council Canada, Saskatoon, SK, S7N 0W9, Canada.",
+        "Nuseed, Sacramento, CA, 95605, USA.",
+        "Aquatic and Crop Resource Development Research Centre, National Research Council Canada, Saskatoon, SK, S7N 0W9, Canada.",
+        "Aquatic and Crop Resource Development Research Centre, National Research Council Canada, Saskatoon, SK, S7N 0W9, Canada.",
+        "Aquatic and Crop Resource Development Research Centre, National Research Council Canada, Saskatoon, SK, S7N 0W9, Canada.",
+        "Aquatic and Crop Resource Development Research Centre, National Research Council Canada, Saskatoon, SK, S7N 0W9, Canada. Sateesh.Kagale@nrc-cnrc.gc.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Hai Ying",
+        "short_name": "Yuan HY",
+        "identifiers": [
+          "0000-0002-4049-3036"
+        ],
+        "affiliations": [
+          "Aquatic and Crop Resource Development Research Centre, National Research Council Canada, Saskatoon, SK, S7N 0W9, Canada."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yunfei",
+        "short_name": "Jiang Y",
+        "identifiers": [
+          "0000-0003-4260-6513"
+        ],
+        "affiliations": [
+          "Aquatic and Crop Resource Development Research Centre, National Research Council Canada, Saskatoon, SK, S7N 0W9, Canada.",
+          "Department of Plant, Food, and Environmental Sciences, Faculty of Agriculture, Dalhousie University, Truro, NS, B2N 5E3, Canada."
+        ]
+      },
+      {
+        "full_name": "Kathiria, Palak",
+        "short_name": "Kathiria P",
+        "identifiers": [],
+        "affiliations": [
+          "Aquatic and Crop Resource Development Research Centre, National Research Council Canada, Saskatoon, SK, S7N 0W9, Canada.",
+          "INARI, Cambridge, MA, 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Bollina, Venkatesh",
+        "short_name": "Bollina V",
+        "identifiers": [],
+        "affiliations": [
+          "Aquatic and Crop Resource Development Research Centre, National Research Council Canada, Saskatoon, SK, S7N 0W9, Canada.",
+          "Nuseed, Sacramento, CA, 95605, USA."
+        ]
+      },
+      {
+        "full_name": "Tan, Yifang",
+        "short_name": "Tan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Aquatic and Crop Resource Development Research Centre, National Research Council Canada, Saskatoon, SK, S7N 0W9, Canada."
+        ]
+      },
+      {
+        "full_name": "Enns, Jean L",
+        "short_name": "Enns JL",
+        "identifiers": [],
+        "affiliations": [
+          "Aquatic and Crop Resource Development Research Centre, National Research Council Canada, Saskatoon, SK, S7N 0W9, Canada."
+        ]
+      },
+      {
+        "full_name": "Ferrie, Alison M R",
+        "short_name": "Ferrie AMR",
+        "identifiers": [],
+        "affiliations": [
+          "Aquatic and Crop Resource Development Research Centre, National Research Council Canada, Saskatoon, SK, S7N 0W9, Canada."
+        ]
+      },
+      {
+        "full_name": "Kagale, Sateesh",
+        "short_name": "Kagale S",
+        "identifiers": [
+          "0000-0002-7213-1590"
+        ],
+        "affiliations": [
+          "Aquatic and Crop Resource Development Research Centre, National Research Council Canada, Saskatoon, SK, S7N 0W9, Canada. Sateesh.Kagale@nrc-cnrc.gc.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant cell reports"
+    ],
+    "journal_abbrev": [
+      "Plant Cell Rep"
+    ],
+    "pub_date": "2026 Feb 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/05 00:30",
+    "fetched_at": "2026-10-01 13:07:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39577504",
+      "39098309",
+      "38884589",
+      "38290051",
+      "38235196",
+      "37448590",
+      "37394308",
+      "37243703",
+      "37144459",
+      "36854474",
+      "35318532",
+      "35069615",
+      "35059633",
+      "34886809",
+      "34699991",
+      "34448161",
+      "33413097",
+      "33045058",
+      "32763226",
+      "31679994",
+      "31628162",
+      "31611902",
+      "31104710",
+      "30984213",
+      "30792725",
+      "30753698",
+      "30715473",
+      "30639314",
+      "30567491",
+      "30499031",
+      "30115783",
+      "30115782",
+      "29531122",
+      "29299323",
+      "29291722",
+      "28859907",
+      "28837647",
+      "27776781",
+      "27508061",
+      "27098368",
+      "26635844",
+      "26113852",
+      "25907568",
+      "25653664",
+      "25516281",
+      "25356773",
+      "25261160",
+      "25074410",
+      "24695404",
+      "24658416",
+      "24622953",
+      "24464291",
+      "24303077",
+      "23852380",
+      "23839308",
+      "23104886",
+      "21816040",
+      "21779827",
+      "21742634",
+      "19910308",
+      "19229567",
+      "19174456",
+      "18974997",
+      "18713398",
+      "18507790",
+      "18214490",
+      "18024558",
+      "17384168",
+      "15928015",
+      "15591444",
+      "15144374",
+      "14597658",
+      "12466527",
+      "10792817",
+      "2937615"
+    ],
+    "similar": [
+      "41639474",
+      "27098368",
+      "32392816",
+      "18552352",
+      "42470546",
+      "39577504",
+      "36699843",
+      "29258440",
+      "25074410",
+      "27137210",
+      "42470556",
+      "29531122",
+      "32910317",
+      "38592809",
+      "23839308",
+      "42470553",
+      "34876002",
+      "40943578",
+      "42052897",
+      "41593318",
+      "33114625",
+      "28915785",
+      "35247694",
+      "42475469",
+      "40119252",
+      "27514748",
+      "41683697",
+      "42511535",
+      "25356773",
+      "38425801",
+      "23987738",
+      "16841216",
+      "41717104",
+      "27735125",
+      "18507790",
+      "41902521",
+      "32938380",
+      "25907568",
+      "32184417",
+      "26150821",
+      "42115335",
+      "22197894",
+      "37446349",
+      "39267528",
+      "41579109",
+      "41772488",
+      "37294468",
+      "26475271",
+      "40696443",
+      "40806488",
+      "30753698",
+      "33413097",
+      "34270033",
+      "40898053",
+      "23729197",
+      "40393645",
+      "38057735",
+      "25060767",
+      "39981724",
+      "38422632",
+      "42350942",
+      "24563120",
+      "41936818",
+      "28752355",
+      "40198567",
+      "30115782",
+      "33380327",
+      "41647640",
+      "35432475",
+      "33478384",
+      "42374184",
+      "42115937",
+      "37834075",
+      "32623576",
+      "23175669",
+      "33803701",
+      "26895338",
+      "31611902",
+      "22292455",
+      "32066846",
+      "42749932",
+      "41170672",
+      "41411127",
+      "42115945",
+      "40923910",
+      "17384168",
+      "32277459",
+      "32652220",
+      "30157778",
+      "31628162",
+      "22857779",
+      "37170217",
+      "41437568",
+      "42589656",
+      "41896705",
+      "19229567",
+      "38745054",
+      "26797431",
+      "42286711",
+      "28706533"
+    ],
+    "review": [
+      "41639474",
+      "42470546",
+      "41683697",
+      "42511535",
+      "18507790",
+      "41579109",
+      "37294468"
+    ],
+    "pmc": [
+      "12872716"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41639474/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://dx.doi.org/10.1007/s00299-026-03731-x",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

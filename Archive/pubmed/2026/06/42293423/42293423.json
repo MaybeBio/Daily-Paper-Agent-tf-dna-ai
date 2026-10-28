@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "pmid": "42293423",
+    "doi": "10.1016/j.ejro.2026.100770",
+    "title": "Standardized contrast-enhanced CT-based radiomics for non-invasive prediction of TTF-1 status in lung adenocarcinoma: A cross-validated single-center study."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Thyroid transcription factor-1 (TTF-1) is a clinically relevant immunohistochemical marker in lung adenocarcinoma with diagnostic, prognostic, and therapeutic implications. As tissue sampling is invasive and often limited by small biopsy specimens, non-invasive imaging biomarkers are of increasing interest. This study aimed to develop and internally validate a standardized contrast-enhanced CT-based radiomics workflow for prediction of TTF-1 expression, with emphasis on reproducibility and methodological robustness. METHODS: This retrospective single-center study included 164 treatment-naive patients with histologically confirmed lung adenocarcinoma and available TTF-1 immunohistochemistry. TTF-1 expression was assessed using routine immunohistochemical staining on biopsy or resection specimens, with binary classification based on nuclear staining. Primary tumors were semi-automatically segmented on contrast-enhanced CT using IBSI-compliant preprocessing. A total of 107 radiomic features were extracted. Interobserver reproducibility was evaluated in a subset of 55 tumors using intraclass correlation coefficients. Logistic regression, random forest, and XGBoost models were trained using five-fold stratified cross-validation. Performance was evaluated using AUC. RESULTS: Among 164 patients, 115 tumors (70.1%) were TTF-1 positive. XGBoost achieved the highest performance (mean AUC = 0.83 +/- 0.04), significantly outperforming other models (p < 0.01). Radiomic features showed good interobserver reproducibility, particularly for shape and first-order features. SHAP analysis identified sphericity, entropy, and mean CT attenuation as key predictors. CONCLUSION: A standardized CT-based radiomics approach shows promising performance for non-invasive prediction of TTF-1 status in lung adenocarcinoma. Given the retrospective single-center design and lack of external validation, further multicenter studies are required.",
+    "keywords": [
+      "CT",
+      "Interobserver Agreement",
+      "Lung adenocarcinoma",
+      "Machine Learning",
+      "Radiomics",
+      "TTF-1"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nussel, Martin",
+        "Trinks, Jan-Niklas",
+        "Forster, Stefan",
+        "Krugmann, Jens",
+        "Klink, Thorsten"
+      ],
+      "short_names": [
+        "Nussel M",
+        "Trinks JN",
+        "Forster S",
+        "Krugmann J",
+        "Klink T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Radiology, Neuroradiology and Interventional Therapy, Klinikum Bayreuth, Medical Campus Upper Franconia, Friedrich Alexander University, Erlangen, Germany.",
+        "Institute of Radiology, Neuroradiology and Interventional Therapy, Klinikum Bayreuth, Medical Campus Upper Franconia, Friedrich Alexander University, Erlangen, Germany.",
+        "Department of Nuclear Medicine, Klinikum Bayreuth, Bayreuth, Germany.",
+        "Institute of Pathology, Klinikum Bayreuth, Bayreuth, Germany.",
+        "Institute of Radiology, Neuroradiology and Interventional Therapy, Klinikum Bayreuth, Medical Campus Upper Franconia, Friedrich Alexander University, Erlangen, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nüssel, Martin",
+        "short_name": "Nüssel M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Radiology, Neuroradiology and Interventional Therapy, Klinikum Bayreuth, Medical Campus Upper Franconia, Friedrich Alexander University, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Trinks, Jan-Niklas",
+        "short_name": "Trinks JN",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Radiology, Neuroradiology and Interventional Therapy, Klinikum Bayreuth, Medical Campus Upper Franconia, Friedrich Alexander University, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Förster, Stefan",
+        "short_name": "Förster S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, Klinikum Bayreuth, Bayreuth, Germany."
+        ]
+      },
+      {
+        "full_name": "Krugmann, Jens",
+        "short_name": "Krugmann J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Klinikum Bayreuth, Bayreuth, Germany."
+        ]
+      },
+      {
+        "full_name": "Klink, Thorsten",
+        "short_name": "Klink T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Radiology, Neuroradiology and Interventional Therapy, Klinikum Bayreuth, Medical Campus Upper Franconia, Friedrich Alexander University, Erlangen, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of radiology open"
+    ],
+    "journal_abbrev": [
+      "Eur J Radiol Open"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/15 12:54",
+    "fetched_at": "2026-10-01 23:40:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40647486",
+      "39299230",
+      "38626948",
+      "36653905",
+      "36031854",
+      "35768005",
+      "33937821",
+      "32607472",
+      "32154773",
+      "30170872",
+      "29959149",
+      "28975929",
+      "27574741",
+      "27330520",
+      "26697407",
+      "26579733",
+      "26291008",
+      "25569120",
+      "24892406",
+      "24627710",
+      "23899066",
+      "3203132"
+    ],
+    "similar": [
+      "42293423",
+      "41851773",
+      "41184761",
+      "42406147",
+      "41067858",
+      "40831132",
+      "41217475",
+      "41417019",
+      "41372786",
+      "41690021",
+      "42189943",
+      "42214904",
+      "41659266",
+      "42510124",
+      "36151427",
+      "41873371",
+      "42351755",
+      "41024122",
+      "41786866",
+      "42135669",
+      "32112116",
+      "41145899",
+      "41971431",
+      "40485732",
+      "41820213",
+      "41818775",
+      "42445379",
+      "42564746",
+      "41723042",
+      "41580638",
+      "36456151",
+      "42404078",
+      "41163288",
+      "42292366",
+      "41626154",
+      "42311663",
+      "40755095",
+      "39140631",
+      "42136648",
+      "42347136",
+      "41955913",
+      "42583436",
+      "41484563",
+      "40928386",
+      "31166787",
+      "41942650",
+      "34513686",
+      "41634854",
+      "40400957",
+      "41149132",
+      "40328536",
+      "40858464",
+      "39665892",
+      "41549273",
+      "40687424",
+      "35880343",
+      "40348987",
+      "42210170",
+      "42582867",
+      "40506909",
+      "40967950",
+      "36682051",
+      "37278046",
+      "42578790",
+      "38824514",
+      "42109488",
+      "42548540",
+      "41656813",
+      "38757628",
+      "41530023",
+      "42466970",
+      "35896836",
+      "41130882",
+      "40165657",
+      "39528880",
+      "41079089",
+      "41988296",
+      "33738250",
+      "42159881",
+      "42583263",
+      "41857541",
+      "40402434",
+      "41666655",
+      "42118273",
+      "37938382",
+      "33718035",
+      "41595123",
+      "32676319",
+      "41114339",
+      "33547553",
+      "34660285",
+      "41120931",
+      "41007196",
+      "38520581",
+      "42375379",
+      "40958333",
+      "41455921",
+      "40467374",
+      "41081208",
+      "36458424"
+    ],
+    "review": [
+      "42293423"
+    ],
+    "pmc": [
+      "13264170"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2352-0477(26)00047-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42293423/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "40812665",
+    "doi": "10.1016/j.ejphar.2025.177968",
+    "title": "The multi-target intervention reveals the mechanism by which Finerenone alleviates Polymyxin B-induced kidney injury: an integrated study of network pharmacology, transcriptomics, and molecular docking."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Polymyxin B (PMB), a last-resort antibiotic against multidrug-resistant Gram-negative pathogens, faces clinical limitations due to dose-dependent nephrotoxicity. Current protective strategies have proven inadequate, underscoring an urgent need for novel interventions. We hypothesize that Finerenone may mitigate PMB-induced kidney injury through multi-mechanism renoprotective effects. METHODS: Network pharmacology identified potential PMB targets and drug-induced kidney injury-related targets. Transcriptomic analysis of PMB-treated HK-2 renal tubular cells identified differential expressed genes (DEGs). Molecular docking was employed to evaluate PMB and Finerenone binding potential against core targets screened by integrated omics analysis. Molecular dynamics simulations (MDS) further validated key interactions. RESULTS: Network pharmacology revealed 111 common targets between PMB and drug-induced kidney injury. Transcriptomics identified significant gene expression changes in PMB-treated cells. Integrated analysis identified core pathways and key targets. Molecular docking demonstrated that Finerenone exhibits high-affinity binding to these core targets (binding energies < -5.0 kcal/mol). MDS confirmed the stability of Finerenone-target complexes. Finerenone's protective effect involves modulating the STAT3 (Signal Transducer and Activator of Transcription 3) -CASP3 (Caspase 3) -HIF1A (Hypoxia Inducible Factor 1 Subunit Alpha) axis, thereby reducing oxidative stress, apoptosis, and fibrosis. CONCLUSION: This study provides the first evidence elucidating the central role of the STAT3-CASP3-HIF1A axis in PMB-induced nephrotoxicity and demonstrates that Finerenone exerts multi-targeted protective effects primarily through direct interactions with STAT3, CASP3, and HIF1A. These findings highlight the significant therapeutic potential of Finerenone for treating acute drug-induced kidney injury, extending its application beyond chronic kidney diseases. Future research should validate its efficacy in vivo and systematically explore synergistic effects with other therapeutic strategies to facilitate clinical translation.",
+    "keywords": [
+      "Finerenone",
+      "Molecular dynamics simulation",
+      "Nephrotoxicity",
+      "Network pharmacology",
+      "Polymyxin B",
+      "RNA-Seq"
+    ],
+    "mesh_terms": [
+      "Molecular Docking Simulation",
+      "Network Pharmacology",
+      "Humans",
+      "*Transcriptome/drug effects",
+      "*Polymyxin B/adverse effects",
+      "*Anti-Bacterial Agents/adverse effects",
+      "Cell Line",
+      "*Acute Kidney Injury/chemically induced/metabolism/genetics/prevention & control/pathology/drug therapy",
+      "Gene Expression Profiling",
+      "Molecular Dynamics Simulation",
+      "STAT3 Transcription Factor/metabolism",
+      "Naphthyridines"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Ge",
+        "Yao, Pu",
+        "Shang, Shenglan",
+        "Yang, Jun",
+        "Li, Wei",
+        "Chen, Yongchuan",
+        "Zhang, Hong"
+      ],
+      "short_names": [
+        "Yang G",
+        "Yao P",
+        "Shang S",
+        "Yang J",
+        "Li W",
+        "Chen Y",
+        "Zhang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, First Affiliated Hospital of Army Medical University, Gaotanyan Street 30, Chongqing, 400038, China; Department of Pharmacy, Renmin Hospital of Wuhan University, Jiefang Road 238, Wuhan, Hubei, 430060, China. Electronic address: yangge@tmmu.edu.cn.",
+        "Department of Pharmacy, First Affiliated Hospital of Army Medical University, Gaotanyan Street 30, Chongqing, 400038, China. Electronic address: upoay1989@tmmu.edu.cn.",
+        "Department of Clinical Pharmacy, General Hospital of Central Theater Command, 627 Wuluo Road, Wuhan, Hubei Province, 430070, China. Electronic address: s_shang0818@163.com.",
+        "Department of Pharmacy, First Affiliated Hospital of Army Medical University, Gaotanyan Street 30, Chongqing, 400038, China. Electronic address: yangjun@tmmu.edu.cn.",
+        "Department of Pharmacy, Chongqing University Cancer Hospital, Hanyu Road 181, Chongqing, 400030, China. Electronic address: liwei.tmmu@163.com.",
+        "Department of Pharmacy, First Affiliated Hospital of Army Medical University, Gaotanyan Street 30, Chongqing, 400038, China. Electronic address: zwmcyc@tmmu.edu.cn.",
+        "Department of Pharmacy, Renmin Hospital of Wuhan University, Jiefang Road 238, Wuhan, Hubei, 430060, China. Electronic address: rm002397@whu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Ge",
+        "short_name": "Yang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, First Affiliated Hospital of Army Medical University, Gaotanyan Street 30, Chongqing, 400038, China; Department of Pharmacy, Renmin Hospital of Wuhan University, Jiefang Road 238, Wuhan, Hubei, 430060, China. Electronic address: yangge@tmmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yao, Pu",
+        "short_name": "Yao P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, First Affiliated Hospital of Army Medical University, Gaotanyan Street 30, Chongqing, 400038, China. Electronic address: upoay1989@tmmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shang, Shenglan",
+        "short_name": "Shang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Pharmacy, General Hospital of Central Theater Command, 627 Wuluo Road, Wuhan, Hubei Province, 430070, China. Electronic address: s_shang0818@163.com."
+        ]
+      },
+      {
+        "full_name": "Yang, Jun",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, First Affiliated Hospital of Army Medical University, Gaotanyan Street 30, Chongqing, 400038, China. Electronic address: yangjun@tmmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Wei",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Chongqing University Cancer Hospital, Hanyu Road 181, Chongqing, 400030, China. Electronic address: liwei.tmmu@163.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Yongchuan",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, First Affiliated Hospital of Army Medical University, Gaotanyan Street 30, Chongqing, 400038, China. Electronic address: zwmcyc@tmmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hong",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Renmin Hospital of Wuhan University, Jiefang Road 238, Wuhan, Hubei, 430060, China. Electronic address: rm002397@whu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of pharmacology"
+    ],
+    "journal_abbrev": [
+      "Eur J Pharmacol"
+    ],
+    "pub_date": "2025 Oct 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/14 22:52",
+    "fetched_at": "2026-09-30 23:47:00"
+  },
+  "links": {
+    "cites": [
+      "42178416"
+    ],
+    "refs": [],
+    "similar": [
+      "40812665",
+      "40832613",
+      "40783104",
+      "38801815",
+      "39612992",
+      "41303615",
+      "39225483",
+      "40436765",
+      "40469629",
+      "37737075",
+      "40853502",
+      "40490230",
+      "24439066",
+      "40676786",
+      "39222242",
+      "40988247",
+      "39278295",
+      "39686413",
+      "35670240",
+      "22802257",
+      "29061752",
+      "35762314",
+      "41444316",
+      "38959606",
+      "36992629",
+      "40965976",
+      "40578675",
+      "41265761",
+      "38395179",
+      "38779756",
+      "34802380",
+      "39374881",
+      "40482862",
+      "40839986",
+      "41373974",
+      "38822913",
+      "39626534",
+      "26856846",
+      "41129534",
+      "39251712",
+      "40427511",
+      "38822120",
+      "41380825",
+      "40543694",
+      "40593998",
+      "41201487",
+      "37799727",
+      "40914309",
+      "29501603",
+      "40550434",
+      "40916281",
+      "28167560",
+      "40682227",
+      "40397117",
+      "29844039",
+      "39701786",
+      "41330962",
+      "40154226",
+      "40617810",
+      "40157293",
+      "41203698",
+      "40615099",
+      "30568031",
+      "41344519",
+      "40958307",
+      "40835195",
+      "37833759",
+      "37575231",
+      "38812235",
+      "40585331",
+      "27686609",
+      "41226722",
+      "39742571",
+      "39679136",
+      "39066538",
+      "40451491",
+      "36646160",
+      "29038262",
+      "40721767",
+      "38901753",
+      "41207328",
+      "41186507",
+      "39558045",
+      "41097169",
+      "40499803",
+      "39442187",
+      "40456947",
+      "37861962",
+      "41261300",
+      "37340752",
+      "41246353",
+      "40682983",
+      "38644599",
+      "39023307",
+      "40991986",
+      "38363942",
+      "41187388",
+      "40694904",
+      "37088170",
+      "40617550"
+    ],
+    "review": [
+      "40812665",
+      "40397117",
+      "40617810"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0014-2999(25)00722-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/antibiotics.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotics"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAE-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

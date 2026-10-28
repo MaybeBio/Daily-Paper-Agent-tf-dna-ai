@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41010053",
+  "title": "Predicting Gene Expression Responses to Cold in Arabidopsis thaliana Using Natural Variation in DNA Sequence.",
+  "authors": "Takou, Margarita; Bellis, Emily S; Lasky, Jesse R",
+  "journal": "Genes",
+  "published_date": "2025-09-27",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用CNN从DNA序列预测拟南芥冷响应基因表达差异，涉及顺式调控基序与转录因子结合，但未聚焦TF-DNA三维互作建模，方法可迁移但深度有限。",
+  "abstract": "Background/Objectives: The evolution of gene expression responses is a critical component of population adaptation to variable environments. Predicting how DNA sequence influences expression is challenging because the genotype-to-phenotype map is not well resolved for cis-regulatory elements, transcription factor binding, regulatory interactions, and epigenetic features, not to mention how these factors respond to the environment. Methods: We tested if flexible machine learning models could learn some of the underlying cis-regulatory genotype-to-phenotype map to predict expression response to a specific environment. We tested this approach using cold-responsive transcriptome profiles in five Arabidopsis thaliana natural accessions. Results: We first tested for evidence that cis regulation plays a role in environmental response, finding 14 and 15 motifs that were significantly enriched within the up- and downstream regions of cold-responsive differentially regulated genes (DEGs). We next applied convolutional neural networks (CNNs), which learn de novo cis-regulatory motifs in DNA sequences to predict expression response to cold. We found that CNNs predicted differential expression with moderate accuracy, with evidence that predictions were hindered by the biological complexity of regulation and the large potential regulatory code. Conclusions: Overall, approaches for predicting DEGs between specific environments based only on proximate DNA sequences require further development. It may be necessary to incorporate additional biological information into models to generate accurate predictions that will be useful to population biologists.",
+  "abstract_zh": "背景/目标：基因表达响应的演化是群体适应多变环境的关键组成部分。预测DNA序列如何影响表达具有挑战性，因为基因型到表型的图谱在顺式调控元件、转录因子结合、调控相互作用和表观遗传特征方面尚未得到充分解析，更不用说这些因素如何响应环境了。方法：我们测试了灵活的机器学习模型是否能够学习部分潜在的顺式调控基因型到表型图谱，以预测对特定环境的表达响应。我们使用五个拟南芥（*Arabidopsis thaliana*）自然品系的冷响应转录组谱测试了这种方法。结果：我们首先测试了顺式调控在环境响应中发挥作用的证据，在冷响应差异表达基因（DEGs）的上游和下游区域中发现了14个和15个显著富集的基序。接下来，我们应用卷积神经网络（CNNs），该网络从头学习DNA序列中的顺式调控基序，以预测对冷的表达响应。我们发现CNNs以中等准确度预测了差异表达，且有证据表明预测受到调控的生物学复杂性和庞大潜在调控代码的阻碍。结论：总体而言，仅基于邻近DNA序列预测特定环境间DEGs的方法需要进一步发展。可能有必要将额外的生物学信息纳入模型中，以生成对群体生物学家有用的准确预测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41010053/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41010053/",
+  "paper_page_path": "papers/pubmed/41010053/index.html"
+}

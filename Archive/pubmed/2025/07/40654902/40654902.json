@@ -1,0 +1,517 @@
+{
+  "identity": {
+    "pmid": "40654902",
+    "doi": "10.1101/2025.05.02.651747",
+    "title": "Differential cell signaling testing for cell-cell communication inference from single-cell data by dominoSignal."
+  },
+  "content": {
+    "abstract": "Algorithms for ligand-receptor network inference have emerged as commonly used tools to estimate cell-cell communication from reference single-cell data. Many studies employ these algorithms to compare signaling between conditions and lack methods to statistically identify signals that are significantly different. We previously developed the cell communication inference algorithm Domino, which considers ligand and receptor gene expression in association with downstream transcription factor activity scoring. We developed the dominoSignal software to innovate upon Domino and extend its functionality to test statistically differential cellular signaling. This new functionality includes compilation of active signals as linkages from multiple subjects in a single-cell data set and testing condition-dependent signaling linkage. The software is applicable for analysis of single-cell data sets with multiple subjects as biological replicates as well as with bootstrapped replicates from data sets with few or pooled subjects. We use simulation studies to benchmark the number of subjects in compared groups and cells within an annotated cell type sufficient to accurately identify differential linkages. We demonstrate the application of the Differential Cell Signaling Test (DCST) in the dominoSignal software to investigate consequences of cancer cell phenotypes and immunotherapy on cell-cell communication in tumor microenvironments. These applications in cancer studies demonstrate the ability of differential cell signaling analysis to infer changes to cell communication networks from therapeutic or experimental perturbations, which is broadly applicable across biological systems.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mitchell, Jacob T",
+        "Stapleton, Orian",
+        "Krishnan, Kavita",
+        "Nagaraj, Sushma",
+        "Lvovs, Dmitrijs",
+        "Cherry, Christopher",
+        "Poissonnier, Amanda",
+        "Horton, Wes",
+        "Adey, Andrew",
+        "Rao, Varun",
+        "Huff, Amanda",
+        "Zimmerman, Jacquelyn W",
+        "Kagohara, Luciane T",
+        "Zaidi, Neeha",
+        "Coussens, Lisa M",
+        "Jaffee, Elizabeth M",
+        "Elisseeff, Jeniffer H",
+        "Fertig, Elana J"
+      ],
+      "short_names": [
+        "Mitchell JT",
+        "Stapleton O",
+        "Krishnan K",
+        "Nagaraj S",
+        "Lvovs D",
+        "Cherry C",
+        "Poissonnier A",
+        "Horton W",
+        "Adey A",
+        "Rao V",
+        "Huff A",
+        "Zimmerman JW",
+        "Kagohara LT",
+        "Zaidi N",
+        "Coussens LM",
+        "Jaffee EM",
+        "Elisseeff JH",
+        "Fertig EJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5370-9692"
+      ],
+      "affiliations": [
+        "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Quantitative Sciences Division, Department of Oncology, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Department of Genetic Medicine, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Quantitative Sciences Division, Department of Oncology, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Translational Tissue Engineering Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Quantitative Sciences Division, Department of Oncology, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+        "Department of Medicine, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+        "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Translational Tissue Engineering Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Department of Cell, Developmental & Cancer Biology, Oregon Health & Science University, Portland, Oregon, USA.",
+        "Department of Cell, Developmental & Cancer Biology, Oregon Health & Science University, Portland, Oregon, USA.",
+        "Department of Molecular & Medical Genetics, Oregon Health & Science University, Portland, Oregon, USA.",
+        "Knight Cancer Institute, Oregon Health & Science University, Portland, Oregon, USA.",
+        "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+        "Department of Medicine, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+        "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Department of Cell, Developmental & Cancer Biology, Oregon Health & Science University, Portland, Oregon, USA.",
+        "Knight Cancer Institute, Oregon Health & Science University, Portland, Oregon, USA.",
+        "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Translational Tissue Engineering Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Department of Chemical and Biomedical Engineering, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Quantitative Sciences Division, Department of Oncology, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+        "Department of Medicine, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+        "Department of Applied Mathematics & Statistics, Whiting School of Engineering, Johns Hopkins University, Baltimore, Maryland, USA.",
+        "Greenbaum Comprehensive Cancer Center, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+        "Institute for Health Computing, University of Maryland School of Medicine, Baltimore, Maryland, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mitchell, Jacob T",
+        "short_name": "Mitchell JT",
+        "identifiers": [
+          "0000-0002-5370-9692"
+        ],
+        "affiliations": [
+          "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Quantitative Sciences Division, Department of Oncology, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Department of Genetic Medicine, Johns Hopkins University, Baltimore, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Stapleton, Orian",
+        "short_name": "Stapleton O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Quantitative Sciences Division, Department of Oncology, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Krishnan, Kavita",
+        "short_name": "Krishnan K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Translational Tissue Engineering Center, Johns Hopkins University, Baltimore, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Nagaraj, Sushma",
+        "short_name": "Nagaraj S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Quantitative Sciences Division, Department of Oncology, Johns Hopkins University, Baltimore, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Lvovs, Dmitrijs",
+        "short_name": "Lvovs D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+          "Department of Medicine, University of Maryland School of Medicine, Baltimore, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Cherry, Christopher",
+        "short_name": "Cherry C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Translational Tissue Engineering Center, Johns Hopkins University, Baltimore, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Poissonnier, Amanda",
+        "short_name": "Poissonnier A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell, Developmental & Cancer Biology, Oregon Health & Science University, Portland, Oregon, USA."
+        ]
+      },
+      {
+        "full_name": "Horton, Wes",
+        "short_name": "Horton W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell, Developmental & Cancer Biology, Oregon Health & Science University, Portland, Oregon, USA."
+        ]
+      },
+      {
+        "full_name": "Adey, Andrew",
+        "short_name": "Adey A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular & Medical Genetics, Oregon Health & Science University, Portland, Oregon, USA.",
+          "Knight Cancer Institute, Oregon Health & Science University, Portland, Oregon, USA."
+        ]
+      },
+      {
+        "full_name": "Rao, Varun",
+        "short_name": "Rao V",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+          "Department of Medicine, University of Maryland School of Medicine, Baltimore, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Huff, Amanda",
+        "short_name": "Huff A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Zimmerman, Jacquelyn W",
+        "short_name": "Zimmerman JW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Kagohara, Luciane T",
+        "short_name": "Kagohara LT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Zaidi, Neeha",
+        "short_name": "Zaidi N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Coussens, Lisa M",
+        "short_name": "Coussens LM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell, Developmental & Cancer Biology, Oregon Health & Science University, Portland, Oregon, USA.",
+          "Knight Cancer Institute, Oregon Health & Science University, Portland, Oregon, USA."
+        ]
+      },
+      {
+        "full_name": "Jaffee, Elizabeth M",
+        "short_name": "Jaffee EM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Elisseeff, Jeniffer H",
+        "short_name": "Elisseeff JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Translational Tissue Engineering Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Department of Chemical and Biomedical Engineering, Johns Hopkins University, Baltimore, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Fertig, Elana J",
+        "short_name": "Fertig EJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Sydney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Johns Hopkins Convergence Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Johns Hopkins Bloomberg Kimmel Institute, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Quantitative Sciences Division, Department of Oncology, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+          "Department of Medicine, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+          "Department of Applied Mathematics & Statistics, Whiting School of Engineering, Johns Hopkins University, Baltimore, Maryland, USA.",
+          "Greenbaum Comprehensive Cancer Center, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+          "Institute for Health Computing, University of Maryland School of Medicine, Baltimore, Maryland, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 May 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/14 12:28",
+    "fetched_at": "2026-09-30 22:00:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39811671",
+      "39107318",
+      "38975873",
+      "38587552",
+      "38063199",
+      "37827697",
+      "37612508",
+      "37443338",
+      "37231261",
+      "37169965",
+      "36964178",
+      "36395331",
+      "36280719",
+      "35549404",
+      "35201318",
+      "34725479",
+      "34584091",
+      "34341534",
+      "34296197",
+      "34062119",
+      "34059827",
+      "34049975",
+      "33937018",
+      "33853780",
+      "33597522",
+      "33341869",
+      "33324425",
+      "33168968",
+      "33147626",
+      "32988401",
+      "32561888",
+      "32103204",
+      "31932730",
+      "31871321",
+      "31819264",
+      "31740819",
+      "31273297",
+      "31209384",
+      "31197017",
+      "30962623",
+      "30923815",
+      "30567574",
+      "30531897",
+      "30385653",
+      "30333318",
+      "29864117",
+      "29608179",
+      "29494575",
+      "28991892",
+      "28263292",
+      "27192564",
+      "26653891",
+      "26343385",
+      "25925574",
+      "25704820",
+      "22718975",
+      "21720167",
+      "16371591",
+      "14502271",
+      "11412299",
+      "9930702",
+      "6692374"
+    ],
+    "similar": [
+      "40654902",
+      "41746282",
+      "37827697",
+      "40877935",
+      "31046666",
+      "41451540",
+      "41436831",
+      "31653243",
+      "37776237",
+      "40585304",
+      "42170279",
+      "42475469",
+      "40429912",
+      "41786602",
+      "40522999",
+      "41159728",
+      "38343537",
+      "37026478",
+      "40536815",
+      "33828580",
+      "19381531",
+      "41716413",
+      "40827204",
+      "41310253",
+      "23887981",
+      "41006377",
+      "41656832",
+      "35043939",
+      "29914350",
+      "36230879",
+      "37949861",
+      "23912807",
+      "19112081",
+      "38678387",
+      "40149878",
+      "32019417",
+      "19454027",
+      "39896800",
+      "40932376",
+      "42244292",
+      "41635010",
+      "36629404",
+      "42059276",
+      "39606019",
+      "40508102",
+      "42486346",
+      "34282418",
+      "40764361",
+      "42039614",
+      "40229677",
+      "25055984",
+      "34158099",
+      "23829771",
+      "36147664",
+      "40064955",
+      "40918148",
+      "39276328",
+      "31701125",
+      "39289562",
+      "23074402",
+      "37034624",
+      "36307979",
+      "28011782",
+      "36451086",
+      "33625677",
+      "36626328",
+      "35899330",
+      "21745399",
+      "39397186",
+      "41425595",
+      "23280066",
+      "25294919",
+      "35191953",
+      "36274239",
+      "20338053",
+      "28333195",
+      "31918656",
+      "27600248",
+      "36712056",
+      "40894480",
+      "35941549",
+      "33539338",
+      "42323351",
+      "40247122",
+      "40095604",
+      "34635140",
+      "39224598",
+      "30372442",
+      "33597522",
+      "41542227",
+      "31028652",
+      "41984780",
+      "41288963",
+      "34858473",
+      "35753695",
+      "22327945",
+      "41292944",
+      "33153500",
+      "42146454",
+      "38631346"
+    ],
+    "review": [
+      "40654902",
+      "40536815",
+      "19381531",
+      "36147664"
+    ],
+    "pmc": [
+      "12248116"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40654902/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.05.02.651747",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

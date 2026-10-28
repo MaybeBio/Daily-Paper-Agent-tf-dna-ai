@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided
+- **Assessment boundary** Scientific content, methodological soundness, and support of claims based solely on the supplied material
+- **Shared manuscript claim summary** The authors characterize the blue-light responsive photoreceptor-transcription factor ToAureo1 from Thalassiosira oceanica, demonstrate modularity of its sensor and effector domains, and engineer a chimeric construct (AsTobZL) with a non-native LOV sensor to show functional compatibility and tunable temporal control
+- **Visible evidence base** Abstract, Introduction, Materials and methods (sections 2.1-2.6), Results (sections 3.1-3.8), Discussion, supplementary figure/table references (Figures S1-S6, Table S1-A/B)
+- **Missing materials affecting confidence** Primary data figures (Figures 1-6) and supplementary figures/tables are referenced but not provided; raw spectra, gel images, and statistical analyses are not accessible; no sequence accession details beyond UniProtKB identifiers are given
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting exploration of aureochrome modularity and engineering, with a chimeric design that could be valuable for optogenetics. However, the provided text lacks the primary experimental data needed to evaluate the central claims. The in silico modeling, kinetics measurements, and EMSA results are described narratively but cannot be verified from the supplied material. The conceptual framework around modularity and temporal control is reasonable, but the evidence base is insufficient to establish the conclusions as presented.
+- **Who would be interested in the results, and why** Researchers in optogenetics, synthetic biology, and photoreceptor biology would be interested in the demonstration of cross-species domain compatibility and tunable dark recovery kinetics. Those studying aureochromes in diatoms or stramenopiles would value the characterization of ToAureo1 and its interaction network potential. The work could inform design principles for light-regulated transcription factors in synthetic circuits.
+- **Major strengths** The study addresses a relevant question about modularity in photoreceptor-transcription factors, which is important for synthetic biology. The design of a chimeric construct with a well-characterized LOV sensor (AsLOV2) is a logical approach to test domain interchangeability. The discussion of network motifs and temporal control provides useful context for optogenetic applications. The consideration of N-terminal intrinsic disorder and its potential role in transactivation adds depth.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that ToAureo1 bZIP and LOV domains show conserved 3D structures and that the bZIP domain interacts with Aureo-box containing DNA, based on in silico modeling and docking.
+  - **Evidence pointer** Section 3.2, Figure 1, Figure 2
+  - **Concern** The modeling and docking results are described only in text. No structural figures, docking scores, or interaction details are provided in the supplied material. The claim of conserved structures and favorable DNA interaction cannot be assessed without the actual models, validation metrics, or comparative analysis.
+  - **Why it matters** The structural claims underpin the entire premise of modularity and domain function. Without visible evidence, the reader cannot verify the quality of the models, the significance of the docking, or the validity of the interaction predictions.
+  - **Resolution test** Provide the modeled structures with Ramachandran statistics, docking scores, and interaction maps. Show the DNA-protein interface with specific contacts and compare with known aureochrome structures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability
+  - **Claim pointer** The manuscript claims that ToAubZL shows a four-fold increase in DNA binding activity upon blue-light illumination and that dark recovery kinetics differ significantly between wild-type and chimeric constructs.
+  - **Evidence pointer** Section 3.4, Section 3.5, Figure 3, Figure 5
+  - **Concern** The EMSA results and kinetics data are described narratively but no gels, binding curves, or kinetic fits are shown. The claim of a four-fold increase and ten-fold difference in dark recovery time cannot be verified. The effect of high salt exposure on kinetics and binding is mentioned but not quantified or displayed.
+  - **Why it matters** These are the core experimental results supporting the modularity and engineering claims. Without the primary data, the conclusions are unsupported and the reproducibility cannot be evaluated.
+  - **Resolution test** Include representative EMSA gels with quantified binding curves, show dark recovery kinetics plots with fitted rate constants and errors, and provide statistical comparisons across conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The manuscript claims that the chimeric AsTobZL construct is functional as a blue-light responsive transcription factor, demonstrating compatibility between ToAureo1 bZIP and AsLOV2.
+  - **Evidence pointer** Section 3.7, Figure 5
+  - **Concern** The construction of the chimera is described, but the fusion boundary and linker composition are not clearly defined. The functional assay relies on EMSA, but the conditions, protein concentrations, and DNA concentrations are not fully specified. The claim of success is based on binding activity, but no data are shown.
+  - **Why it matters** The chimera is a key deliverable of the study. Without clear construction details and functional data, the claim of compatibility and the implications for optogenetics are not established.
+  - **Resolution test** Provide a schematic of the chimera with exact fusion points, show EMSA data with appropriate controls, and specify all assay conditions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The manuscript suggests that higher-order structures and heterodimerization among ToAureos could be important for transcription regulation and that the findings strengthen the role of aureochromes in light-regulated interaction networks.
+  - **Evidence pointer** Section 3.8, Figure 6, Figure S6
+  - **Concern** The helical wheel projections are used to infer dimerization potential, but no experimental validation is provided. The discussion of network implications is speculative and goes beyond the data presented.
+  - **Why it matters** The claims about interaction networks and large-scale participation are not supported by direct evidence. Overinterpretation could mislead readers about the functional significance of the findings.
+  - **Resolution test** Provide experimental evidence for dimerization, such as size exclusion chromatography or crosslinking, or temper the claims to reflect the speculative nature.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Location not provided
+  - **Issue** The extinction coefficient for FMN is stated as 12500 M-1 cm-1, but the wavelength at which this is applied is not specified. The calculation of protein concentration from OD447 assumes full FMN occupancy, which is not validated.
+  - **Required correction** Specify the wavelength and validate FMN occupancy, or acknowledge the assumption.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.6
+  - **Evidence pointer** Location not provided
+  - **Issue** The EMSA protocol lacks details on binding buffer composition, incubation time, and temperature. The use of red-light or white-light conditions is mentioned but not standardized.
+  - **Required correction** Provide full EMSA conditions and describe light exposure parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Figure S1, Figure S2
+  - **Issue** The sequence alignment and designation of ToAureo1-6 are referenced but not shown. The basis for naming ToAureo1 as KOSY93 is not explained.
+  - **Required correction** Show the alignment and clarify the naming criteria.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Location not provided
+  - **Issue** The dark recovery kinetics are described as fitting to a single exponential, but the equation is written as OD447nm = constant(1-e-kt), which is a rising exponential. This is inconsistent with a decay process.
+  - **Required correction** Correct the equation or clarify the fitting model.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Section 3.8
+  - **Evidence pointer** Location not provided
+  - **Issue** The claim that PtAureo1a influences 75% of genes upon blue-light transition is cited to "Mann et al., 2020" but no full reference is provided in the text.
+  - **Required correction** Add the full citation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of primary data for structural modeling, kinetics, and binding assays means the central claims are not verifiable. The methodological details for the chimera construction and functional assays are incomplete.
+- **Assessment against Nature-style criteria** Originality: The concept of testing modularity via a chimeric aureochrome is not entirely novel, as similar domain-swapping approaches exist in optogenetics, but the specific application to ToAureo1 adds some originality. Scientific importance: The findings could be relevant for optogenetics and understanding aureochrome function, but the importance is not fully demonstrated without robust data. Interdisciplinary readership: The work bridges photobiology, synthetic biology, and structural biology, which could appeal to a broad audience, but the presentation is too specialized in places. Technical soundness: Cannot be assessed due to missing data; the described methods are standard but the execution is unverifiable. Readability for nonspecialists: The introduction and discussion are accessible, but the results section relies heavily on references to figures not provided, making it difficult to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential merit, but the lack of primary data and incomplete methodological details prevent a positive assessment. Supportive if the authors provide the full dataset, including figures, raw kinetics, EMSA gels, and structural models, and address the technical concerns.
+
+## Risk / unsupported claims
+- The claim of conserved 3D structures of ToAureo1 domains is unsupported without model figures or validation.
+- The four-fold increase in DNA binding activity under blue light is unverifiable without EMSA data.
+- The ten-fold difference in dark recovery time between wild-type and chimeric constructs is unverifiable without kinetics plots.
+- The claim that high salt exposure affects kinetics and binding is not quantified.
+- The inference of heterodimerization potential from helical wheel projections is speculative without experimental validation.
+- The discussion of network-level implications and large-scale participation in transcription regulation is not supported by direct evidence.

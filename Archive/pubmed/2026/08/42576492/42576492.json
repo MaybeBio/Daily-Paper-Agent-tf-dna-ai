@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "42576492",
+    "doi": "10.12122/j.issn.1673-4254.2026.08.11",
+    "title": "[Paeoniflorin alleviates cancer-related fatigue during chemotherapy for breast cancer by targeting EZH2/CCNE1 to regulate cell cycle and inflammatory microenvironment]."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: To explore the molecular mechanisms and key pharmacodynamic basis of Baishao for alleviating cancer-related fatigue (CRF) during chemotherapy for breast cancer. METHODS: Bioinformatics analyses were used to explore the active ingredients and potential targets of Baishao, CRF-related targets, and the differentially expressed core genes between chemotherapy and non-chemotherapy groups. Four machine learning algorithms (Random Forest, SVM, XGBoost, and GLM) were used to screen the key feature genes to construct a diagnostic nomogram model with subsequent survival and immunohistochemical analyses using Kaplan-Meier Plotter and HPA databases. In an IL-17-induced Py230 breast cancer cell model of CRF, the regulatory effects of paeoniflorin (a major active ingredient of Baishao) on the core targets were validated using CCK-8 assay, qRT-PCR, Western blotting, and immunofluorescence staining. RESULTS: Thirteen active ingredients (including paeoniflorin, albiflorin, and kaempferol) and 475 drug targets of Baishao were identified, yielding 65 core intersection genes enriched in the MAPK signaling cascade, circadian rhythm, and cell cycle regulation and showing significant correlations with immune cells. The SVM model demonstrated the best diagnostic performance and identified PSMB8, EZH2, CCNE1, PSEN2, and CDK1 as the key feature genes. The SVM-based nomogram achieved a C-index of 0.911, showing excellent calibration and clinical net benefit. Molecular docking confirmed strong binding affinities between the core ingredients of Baishao and the key targets. Survival analysis linked high EZH2 and CCNE1 expressions to poor breast cancer prognosis. In IL-17-induced Py230 cells, chemotherapy resulted in significant upregulation of EZH2 and CCNE1 expressions, which were effectively reversed by paeoniflorin treatment with an efficacy comparable to specific positive inhibitors. CONCLUSIONS: Paeoniflorin alleviates chemotherapy-induced CRF in breast cancer by targeting and inhibiting abnormal expressions of EZH2 and CCNE1 to regulate cell cycle and inflammatory microenvironment, highlighting the therapeutic potential of Baishao for attenuating toxicity and enhancing efficacy of chemotherapy.",
+    "keywords": [
+      "Baishao",
+      "breast cancer",
+      "cancer-related fatigue during chemotherapy",
+      "integrative pharmacology",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "*Monoterpenes/pharmacology",
+      "*Breast Neoplasms/drug therapy",
+      "*Glucosides/pharmacology",
+      "Humans",
+      "Glycosides",
+      "Female",
+      "Tumor Microenvironment/drug effects",
+      "*Enhancer of Zeste Homolog 2 Protein/metabolism",
+      "Cell Cycle/drug effects",
+      "Cell Line, Tumor",
+      "Inflammation"
+    ],
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Zhuang",
+        "Shi, Huan",
+        "Chen, Jieting",
+        "Liang, Yuqi",
+        "Wu, Yingchao",
+        "Zuo, Qian",
+        "Chen, Qianjun"
+      ],
+      "short_names": [
+        "Li Z",
+        "Shi H",
+        "Chen J",
+        "Liang Y",
+        "Wu Y",
+        "Zuo Q",
+        "Chen Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Second Clinical College of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+        "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou 510120, China.",
+        "Guangdong Academy of Traditional Chinese Medicine, Guangzhou 510120, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+        "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou 510120, China.",
+        "Guangdong Academy of Traditional Chinese Medicine, Guangzhou 510120, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+        "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou 510120, China.",
+        "Guangdong Academy of Traditional Chinese Medicine, Guangzhou 510120, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+        "Guangdong Academy of Traditional Chinese Medicine, Guangzhou 510120, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+        "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou 510120, China.",
+        "Guangdong Academy of Traditional Chinese Medicine, Guangzhou 510120, China.",
+        "Second Clinical College of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+        "State Key Laboratory of Traditional Chinese Medicine Syndrome, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+        "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou 510120, China.",
+        "Guangdong Academy of Traditional Chinese Medicine, Guangzhou 510120, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Zhuang",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Second Clinical College of Guangzhou University of Chinese Medicine, Guangzhou 510405, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Huan",
+        "short_name": "Shi H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+          "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou 510120, China.",
+          "Guangdong Academy of Traditional Chinese Medicine, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jieting",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+          "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou 510120, China.",
+          "Guangdong Academy of Traditional Chinese Medicine, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Yuqi",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+          "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou 510120, China.",
+          "Guangdong Academy of Traditional Chinese Medicine, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yingchao",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+          "Guangdong Academy of Traditional Chinese Medicine, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Qian",
+        "short_name": "Zuo Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+          "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou 510120, China.",
+          "Guangdong Academy of Traditional Chinese Medicine, Guangzhou 510120, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Qianjun",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Second Clinical College of Guangzhou University of Chinese Medicine, Guangzhou 510405, China.",
+          "State Key Laboratory of Traditional Chinese Medicine Syndrome, Second Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou 510120, China.",
+          "Department of Breast, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou 510120, China.",
+          "Guangdong Academy of Traditional Chinese Medicine, Guangzhou 510120, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nan fang yi ke da xue xue bao = Journal of Southern Medical University"
+    ],
+    "journal_abbrev": [
+      "Nan Fang Yi Ke Da Xue Xue Bao"
+    ],
+    "pub_date": "2026 Aug 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "English Abstract",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/11 06:36",
+    "fetched_at": "2026-10-02 03:35:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41465507",
+      "41429618",
+      "40708675",
+      "39817679",
+      "38483255",
+      "38182734",
+      "37419230",
+      "36845103",
+      "36793870",
+      "36770956",
+      "36396625",
+      "36142441",
+      "35163066",
+      "35135482",
+      "34589402",
+      "34508254",
+      "34423389",
+      "34188777",
+      "33982750",
+      "33163341",
+      "32575562",
+      "32427405",
+      "32091339",
+      "31246581",
+      "26845405",
+      "26250110",
+      "25113839"
+    ],
+    "similar": [
+      "42576492",
+      "41293954",
+      "41342434",
+      "35673907",
+      "41619865",
+      "40916281",
+      "41731839",
+      "38664825",
+      "41186509",
+      "41344141",
+      "38890248",
+      "32754259",
+      "40255471",
+      "40355485",
+      "41429618",
+      "33246425",
+      "41371106",
+      "41442003",
+      "37799727",
+      "42580240",
+      "41436831",
+      "33823894",
+      "42528957",
+      "40438115",
+      "41872824",
+      "38879780",
+      "41300841",
+      "33121524",
+      "41710887",
+      "42292668",
+      "41016300",
+      "41798945",
+      "34967576",
+      "39993869",
+      "40803430",
+      "40496857",
+      "40808956",
+      "42558367",
+      "41672117",
+      "30378143",
+      "42244316",
+      "33215433",
+      "41435607",
+      "22094936",
+      "41716413",
+      "40902811",
+      "41298718",
+      "31455378",
+      "33276757",
+      "42421348",
+      "42477639",
+      "40450287",
+      "41984188",
+      "39581340",
+      "41106221",
+      "25262426",
+      "30223276",
+      "37069494",
+      "31860165",
+      "30760814",
+      "40936892",
+      "38681206",
+      "40145099",
+      "42520089",
+      "38918989",
+      "42363525",
+      "40546661",
+      "42236612",
+      "40619273",
+      "37653627",
+      "36193154",
+      "41909133",
+      "30066891",
+      "42220063",
+      "41673191",
+      "42328663",
+      "41828710",
+      "40656610",
+      "40185258",
+      "41689016",
+      "41935997",
+      "39508875",
+      "28214878",
+      "41117990",
+      "40944978",
+      "37287284",
+      "38417600",
+      "41169155",
+      "40328901",
+      "38849817",
+      "41759266",
+      "39317050",
+      "39441216",
+      "41607539",
+      "42303913",
+      "41832427",
+      "41694764",
+      "41184845",
+      "42332356",
+      "42024238"
+    ],
+    "review": [
+      "42576492"
+    ],
+    "pmc": [
+      "13458492"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42576492/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-797",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.14.654102",
+  "title": "DPAC: Prediction and Design of Protein-DNA Interactions via Sequence-Based Contrastive Learning",
+  "doi": "10.1101/2025.05.14.654102",
+  "abstract": "Interactions between DNA and proteins are pivotal in natural biological processes, and designing proteins that can bind to DNA with high specificity is crucial for advancing genomic technologies. Existing state-of-the-art models for both modeling and designing protein-DNA interactions primarily rely on structural information, facing limitations in scalability and efficiency for large-scale applications. Notable methods like AlphaFold 3 and RosettaTTAFold All-Atom exist, but they are inefficient and inherently struggle at modeling conformationally unstable proteins, such as transcription factors, which arguably represent the most important class of DNA-binding proteins. Here, we present DPAC 1 ( D NA- P rotein binding A lignment via C ontrastive learning), which leverages pre-trained protein and DNA language models via a contrastive loss to align the two modalities in a high-dimensional shared latent space. DPAC not only significantly accelerates the design process compared to current structure-based methods but also demonstrates a strong ability to differentiate real binders from non-binders. Our model achieves an AUC score of 0.591 on a low identity set, outperforming state-of-the-art structure-based methods. Additionally, DPAC integrates simulated annealing for the design of new protein sequences with optimized DNA binding affinity, successfully recovering binding affinity in engineered sequences by up to 20% in in silico tests. Our results highlight DPAC’s potential for facilitating the design and discovery of sequence-specific DNA-binding proteins, paving the way for advancements in genomic research and biotechnology applications.",
+  "authors": [
+    "Leo Tianlai Chen",
+    "Rishab Pulugurta",
+    "Pranay Vure",
+    "Pranam Chatterjee"
+  ],
+  "published_date": "2025-05-19",
+  "updated_date": "2025-05-19T11:40:11Z",
+  "journal": "bioRxiv",
+  "category": "Bioengineering",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.14.654102",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.14.654102.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioengineering"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioengineering",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            2
+          ]
+        ],
+        "date-time": "2026-06-02T16:40:30Z",
+        "timestamp": 1780418430739,
+        "version": "3.54.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            19
+          ]
+        ]
+      },
+      "group-title": "Bioengineering",
+      "reference-count": 61,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                19
+              ]
+            ],
+            "date-time": "2025-05-19T00:00:00Z",
+            "timestamp": 1747612800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Interactions between DNA and proteins are pivotal in natural biological processes, and designing proteins that can bind to DNA with high specificity is crucial for advancing genomic technologies. Existing state-of-the-art models for both modeling and designing protein-DNA interactions primarily rely on structural information, facing limitations in scalability and efficiency for large-scale applications. Notable methods like AlphaFold 3 and RosettaTTAFold All-Atom exist, but they are inefficient and inherently struggle at modeling conformationally unstable proteins, such as transcription factors, which arguably represent the most important class of DNA-binding proteins. Here, we present\n                  <jats:bold>DPAC</jats:bold>\n                  <jats:sup>1</jats:sup>\n                  (\n                  <jats:bold>D</jats:bold>\n                  NA-\n                  <jats:bold>P</jats:bold>\n                  rotein binding\n                  <jats:bold>A</jats:bold>\n                  lignment via\n                  <jats:bold>C</jats:bold>\n                  ontrastive learning), which leverages pre-trained protein and DNA language models via a contrastive loss to align the two modalities in a high-dimensional shared latent space. DPAC not only significantly accelerates the design process compared to current structure-based methods but also demonstrates a strong ability to differentiate real binders from non-binders. Our model achieves an AUC score of 0.591 on a low identity set, outperforming state-of-the-art structure-based methods. Additionally, DPAC integrates simulated annealing for the design of new protein sequences with optimized DNA binding affinity, successfully recovering binding affinity in engineered sequences by up to 20% in\n                  <jats:italic>in silico</jats:italic>\n                  tests. Our results highlight DPAC’s potential for facilitating the design and discovery of sequence-specific DNA-binding proteins, paving the way for advancements in genomic research and biotechnology applications.\n                </jats:p>",
+      "DOI": "10.1101/2025.05.14.654102",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            19
+          ]
+        ],
+        "date-time": "2025-05-19T11:40:11Z",
+        "timestamp": 1747654811000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "DPAC: Prediction and Design of Protein-DNA Interactions via Sequence-Based Contrastive Learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Leo Tianlai",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rishab",
+          "family": "Pulugurta",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pranay",
+          "family": "Vure",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3957-8478",
+          "authenticated-orcid": false,
+          "given": "Pranam",
+          "family": "Chatterjee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3884"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.2",
+          "first-page": "117",
+          "article-title": "Accurate prediction of protein–nucleic acid complexes using rosettafoldna",
+          "volume": "21",
+          "year": "2023",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Krishna , J. Wang , W. Ahern , P. Sturmfels , P. Venkatesh , I. Kalvet , G. R. Lee , F. S. Morey-Burrows , I. Anishchenko , I. R. Humphreys , R. McHugh , D. Vafeados , X. Li , G. A. Sutherland , A. Hitchcock , C. N. Hunter , A. Kang , E. Brackenbrough , A. K. Bera , M. Baek , F. DiMaio , and D. Baker , “Generalized biomolecular modeling and design with rosettafold all-atom,” Science, vol. 384, Apr. 2024.",
+          "DOI": "10.1126/science.adl2528"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Abramson , J. Adler , J. Dunger , R. Evans , T. Green , A. Pritzel , O. Ronneberger , L. Willmore , A. J. Ballard , J. Bambrick , S. W. Bodenstein , D. A. Evans , C.-C. Hung , M. O’Neill , D. Reiman , K. Tunyasuvunakool , Z. Wu , A. Žemgulytė , E. Arvaniti , C. Beattie , O. Bertolli , A. Bridgland , A. Cherepanov , M. Congreve , A. I. Cowen-Rivers , A. Cowie , M. Figurnov , F. B. Fuchs , H. Gladman , R. Jain , Y. A. Khan , C. M. R. Low , K. Perlin , A. Potapenko , P. Savy , S. Singh , A. Stecula , A. Thillaisundaram , C. Tong , S. Yakneen , E. D. Zhong , M. Zielinski , A. Žídek , V. Bapst , P. Kohli , M. Jaderberg , D. Hassabis , and J. M. Jumper , “Accurate structure prediction of biomolecular interactions with alphafold3,” Nature, May 2024.",
+          "DOI": "10.1038/s41586-024-08416-7"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. V. Honorato , J. Roel-Touris , and A. M. J. J. Bonvin , “Martini-based protein-dna coarse-grained haddocking,” Frontiers in Molecular Biosciences, vol. 6, Oct. 2019.",
+          "DOI": "10.3389/fmolb.2019.00102"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Már , K. Nitsenko , and P. O. Heidarsson , “Multifunctional intrinsically disordered regions in transcription factors,” Chemistry – A European Journal, vol. 29, Mar. 2023.",
+          "DOI": "10.1002/chem.202203369"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2021.3095381"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H. Dalla-Torre , L. Gonzalez , J. Mendoza-Revilla , N. L. Carranza , A. H. Grzywaczewski , F. Oteri , C. Dallago , E. Trop , B. P. de Almeida , H. Sirelkhatim , G. Richard , M. Skwark , K. Beguir , M. Lopez , and T. Pierrot , “The nucleotide transformer: Building and evaluating robust foundation models for human genomics,” Jan. 2023.",
+          "DOI": "10.1101/2023.01.11.523679"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.10",
+          "article-title": "Dnabert-2: Efficient foundation model and benchmark for multi-species genome",
+          "year": "2023",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.11",
+          "unstructured": "A. Radford , J. W. Kim , C. Hallacy , A. Ramesh , G. Goh , S. Agarwal , G. Sastry , A. Askell , P. Mishkin , J. Clark , et al., “Learning transferable visual models from natural language supervi-sion,” in International conference on machine learning, pp. 8748–8763, PMLR, 2021."
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.220.4598.671"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. Hie , S. Candido , Z. Lin , O. Kabeli , R. Rao , N. Smetanin , T. Sercu , and A. Rives , “A high-level programming language for generative protein design,” bioRxiv, pp. 2022–12, 2022.",
+          "DOI": "10.1101/2022.12.21.521526"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0375-9601(87)90796-1"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad630"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "G. Brixi , T. Ye , L. Hong , T. Wang , C. Monticello , N. Lopez-Barbosa , S. Vincoff , V. Yudistyra , L. Zhao , E. Haarer , T. Chen , S. Pertsemlidis , K. Palepu , S. Bhat , J. Christopher , X. Li , T. Liu , S. Zhang , L. Petersen , M. P. DeLisa , and P. Chatterjee , “Saltamp;peppr is an interface-predicting language model for designing peptide-guided protein degraders,” Communications Biology, vol. 6, Oct. 2023.",
+          "DOI": "10.1038/s42003-023-05464-z"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Bhat , K. Palepu , L. Hong , J. Mao , T. Ye , R. Iyer , L. Zhao , T. Chen , S. Vincoff , R. Watson , T. Z. Wang , D. Srijay , V. S. Kavirayuni , K. Kholina , S. Goel , P. Vure , A. J. Deshpande , S. H. Soderling , M. P. DeLisa , and P. Chatterjee , “De novo design of peptide binders to conformationally diverse targets with contrastive language modeling,” Science Advances, vol. 11, Jan. 2025.",
+          "DOI": "10.1126/sciadv.adr8638"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.19",
+          "unstructured": "T. Chen , M. Dumas , R. Watson , S. Vincoff , C. Peng , L. Zhao , L. Hong , S. Pertsemlidis , M. Shaepers-Cheu , T. Z. Wang , D. Srijay , C. Monticello , P. Vure , R. Pulugurta , K. Kholina , S. Goel , M. P. DeLisa , R. Truant , H. C. Aguilar , and P. Chatterjee , “Pepmlm: Target sequenceconditioned generation of therapeutic peptide binders via span masked language modeling,” arXiv, 2023."
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Vincoff , S. Goel , K. Kholina , R. Pulugurta , P. Vure , and P. Chatterjee , “Fuson-plm: a fusion oncoprotein-specific language model via adjusted rate masking,” Nature Communications, vol. 16, Feb. 2025.",
+          "DOI": "10.1038/s41467-025-56745-6"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Chen , Y. Zhang , and P. Chatterjee , “moppit:de novogeneration of motif-specific binders with protein language models,” Aug. 2024.",
+          "DOI": "10.1101/2024.07.31.606098"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Chen , P. Vure , R. Pulugurta , and P. Chatterjee , “Amp-diffusion: Integrating latent diffusion with protein language models for antimicrobial peptide generation,” Mar. 2024.",
+          "DOI": "10.1101/2024.03.03.583201"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. D. T. Torres , T. Chen , F. Wan , P. Chatterjee , and C. de la Fuente-Nunez , “Generative latent diffusion language modeling yields anti-infective synthetic peptides,” Feb. 2025.",
+          "DOI": "10.1101/2025.01.31.636003"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. Zhang , P. He , A. Hsu , and P. Chatterjee , “Metalatte: Metal binding prediction via multi-task learning on protein language model latents,” June 2024.",
+          "DOI": "10.1101/2024.06.26.600843"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.25",
+          "unstructured": "Z. Zhou , Y. Ji , W. Li , P. Dutta , R. Davuluri , and H. Liu , “Dnabert-2: Efficient foundation model and benchmark for multi-species genome,” 2023."
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.26",
+          "article-title": "On the sentence embeddings from pre-trained language models",
+          "year": "2020",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.27",
+          "article-title": "Whitening sentence representations for better semantics and faster retrieval",
+          "year": "2021",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "F. Wang and H. Liu , “Understanding the behaviour of contrastive loss,” in Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pp. 2495–2504, 2021.",
+          "DOI": "10.1109/CVPR46437.2021.00252"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-023-02086-5"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Wohlwend , G. Corso , S. Passaro , M. Reveiz , K. Leidal , W. Swiderski , T. Portnoi , I. Chinn , J. Silterra , T. Jaakkola , et al., “Boltz-1: Democratizing biomolecular interaction modeling,” bioRxiv, pp. 2024–11, 2024.",
+          "DOI": "10.1101/2024.11.19.624167"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.31",
+          "unstructured": "C. D. team , J. Boitreaud , J. Dent , M. McPartlon , J. Meier , V. Reis , A. Rogozhonikov , and K. Wu , “Chai-1: Decoding the molecular interactions of life,” BioRxiv, pp. 2024–10, 2024."
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "P. Kunzmann , T. D. Müller , M. Greil , J. H. Krumbach , J. M. Anter , D. Bauer , F. Islam , and K. Hamacher , “Biotite: new tools for a versatile python bioinformatics library,” BMC Bioinformatics, vol. 24, June 2023.",
+          "DOI": "10.1186/s12859-023-05345-6"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm048957q"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cels.2023.10.002"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C. J. Glasscock , R. Pecoraro , R. McHugh , L. A. Doyle , W. Chen , O. Boivin , B. Lonnquist , E. Na , Y. Politanska , H. K. Haddox , et al., “Computational design of sequence-specific dna-binding proteins,” bioRxiv, 2023.",
+          "DOI": "10.1101/2023.09.20.558720"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Dauparas , G. R. Lee , R. Pecoraro , L. An , I. Anishchenko , C. Glasscock , and D. Baker , “Atomic context-conditioned protein sequence design using ligandmpnn,” Nature Methods, pp. 1–7, 2025.",
+          "DOI": "10.1038/s41592-025-02626-1"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0969-2126(96)00125-6"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.febslet.2013.08.015"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2842"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-025-02656-9"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.41",
+          "unstructured": "S. Tang , Y. Zhang , and P. Chatterjee , “Peptune: De novo generation of therapeutic peptides with multi-objective-guided discrete diffusion,” in Forty-second International Conference on Machine Learning, 2025."
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.42",
+          "unstructured": "F. Z. Peng , Z. Bezemek , S. Patel , J. Rector-Brooks , S. Yao , A. Tong , and P. Chatterjee , “Path planning for masked diffusion model sampling,” arXiv, 2025."
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.43",
+          "unstructured": "S. Vincoff , O. Davis , A. Tong , J. Bose , and P. Chatterjee , “SOAPI: Siamese-guided generation of off-target-avoiding protein interactions,” in ICLR 2025 Workshop on Generative and Experimental Perspectives for Biomolecular Design, 2025."
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.44",
+          "unstructured": "S. Tang , Y. Zhang , A. Tong , and P. Chatterjee , “Gumbel-softmax flow matching with straight-through guidance for controllable biological sequence generation,” arXiv, 2025."
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.45",
+          "unstructured": "T. Chen , Y. Zhang , S. Tang , and P. Chatterjee , “Multi-objective-guided discrete flow matching for controllable biological sequence design,” arXiv, 2025."
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.46",
+          "unstructured": "J. Li , D. Li , S. Savarese , and S. Hoi , “Blip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models,” in International conference on machine learning, pp. 19730–19742, PMLR, 2023."
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "X. Zhai , B. Mustafa , A. Kolesnikov , and L. Beyer , “Sigmoid loss for language image pre-training,” in Proceedings of the IEEE/CVF International Conference on Computer Vision, pp. 11975–11986, 2023.",
+          "DOI": "10.1109/ICCV51070.2023.01100"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Singh , S. Sledzieski , B. Bryson , L. Cowen , and B. Berger , “Contrastive learning in protein language space predicts interactions between drugs and protein targets,” Proceedings of the National Academy of Sciences, vol. 120, June 2023.",
+          "DOI": "10.1073/pnas.2220778120"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.49",
+          "unstructured": "B. Gao , B. Qiang , H. Tan , Y. Jia , M. Ren , M. Lu , J. Liu , W.-Y. Ma , and Y. Lan , “Drugclip: Contrasive protein-molecule representation learning for virtual screening,” Advances in Neural Information Processing Systems, vol. 36, 2024."
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae488"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbab564"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab044"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae039"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.2006.11239"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06415-8"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-023-00691-9"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/2632-2153/accacd"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.59",
+          "unstructured": "N. Gruver , S. Stanton , N. Frey , T. G. Rudner , I. Hotzel , J. Lafrance-Vanasse , A. Rajpal , K. Cho , and A. G. Wilson , “Protein design with guided discrete diffusion,” Advances in Neural Information Processing Systems, vol. 36, 2024."
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.60",
+          "article-title": "Decoupled weight decay regularization",
+          "year": "2017",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2025052120150463000_2025.05.14.654102v1.61",
+          "doi-asserted-by": "crossref",
+          "unstructured": "N. Ferruz , S. Schmidt , and B. Höcker , “Protgpt2 is a deep unsupervised language model for protein design,” Nature Communications, vol. 13, July 2022.",
+          "DOI": "10.1038/s41467-022-32007-7"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.05.14.654102",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T08:44:08Z",
+        "timestamp": 1768466648000
+      },
+      "score": 87.23516,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.05.14.654102"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            19
+          ]
+        ]
+      },
+      "references-count": 61,
+      "URL": "https://doi.org/10.1101/2025.05.14.654102",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            19
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

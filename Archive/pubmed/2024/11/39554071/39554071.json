@@ -1,0 +1,436 @@
+{
+  "identity": {
+    "pmid": "39554071",
+    "doi": "10.1101/2024.10.23.619858",
+    "title": "Altered AP-1, RUNX and EGR chromatin dynamics drive fibrotic lung disease."
+  },
+  "content": {
+    "abstract": "Pulmonary fibrosis, including systemic sclerosis-associated interstitial lung disease (SSc-ILD), involves myofibroblasts and SPP1(hi) macrophages as drivers of fibrosis. Single-cell RNA sequencing has delineated fibroblast and macrophages transcriptomes, but limited insight into transcriptional control of profibrotic gene programs. To address this challenge, we analyzed multiomic snATAC/snRNA-seq on explanted SSc-ILD and donor control lungs. The neural network tool ChromBPNet inferred increased TF binding at single base pair resolution to profibrotic genes, including CTHRC1 and ADAM12, in fibroblasts and SPP1 and CCL18 in macrophages. The novel algorithm HALO confirmed AP-1, RUNX, and EGR TF activity controlling profibrotic gene programs and established TF-regulatory element-gene networks. This TF action atlas provides comprehensive insights into the transcriptional regulation of fibroblasts and macrophages in healthy and fibrotic human lungs.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Valenzi, Eleanor",
+        "Jia, Minxue",
+        "Gerges, Peter",
+        "Fan, Jingyu",
+        "Tabib, Tracy",
+        "Behara, Rithika",
+        "Zhou, Yuechen",
+        "Sembrat, John",
+        "Das, Jishnu",
+        "Benos, Panayiotis V",
+        "Singh, Harinder",
+        "Lafyatis, Robert"
+      ],
+      "short_names": [
+        "Valenzi E",
+        "Jia M",
+        "Gerges P",
+        "Fan J",
+        "Tabib T",
+        "Behara R",
+        "Zhou Y",
+        "Sembrat J",
+        "Das J",
+        "Benos PV",
+        "Singh H",
+        "Lafyatis R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5747-064X",
+        "ORCID: 0000-0003-3172-3132"
+      ],
+      "affiliations": [
+        "Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, University of Pittsburgh.",
+        "Division of Rheumatology and Clinical Immunology, University of Pittsburgh.",
+        "Department of Computational and Systems Biology, University of Pittsburgh.",
+        "Center for Systems Immunology and Department of Immunology, University of Pittsburgh.",
+        "Center for Systems Immunology and Department of Immunology, University of Pittsburgh.",
+        "Division of Rheumatology and Clinical Immunology, University of Pittsburgh.",
+        "Center for Systems Immunology and Department of Immunology, University of Pittsburgh.",
+        "Division of Rheumatology and Clinical Immunology, University of Pittsburgh.",
+        "Division of Rheumatology and Clinical Immunology, University of Pittsburgh.",
+        "Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, University of Pittsburgh.",
+        "Center for Systems Immunology and Department of Immunology, University of Pittsburgh.",
+        "Department of Computational and Systems Biology, University of Pittsburgh.",
+        "Department of Epidemiology, University of Florida.",
+        "Center for Systems Immunology and Department of Immunology, University of Pittsburgh.",
+        "Division of Rheumatology and Clinical Immunology, University of Pittsburgh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Valenzi, Eleanor",
+        "short_name": "Valenzi E",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, University of Pittsburgh.",
+          "Division of Rheumatology and Clinical Immunology, University of Pittsburgh."
+        ]
+      },
+      {
+        "full_name": "Jia, Minxue",
+        "short_name": "Jia M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Systems Biology, University of Pittsburgh."
+        ]
+      },
+      {
+        "full_name": "Gerges, Peter",
+        "short_name": "Gerges P",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology and Department of Immunology, University of Pittsburgh."
+        ]
+      },
+      {
+        "full_name": "Fan, Jingyu",
+        "short_name": "Fan J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology and Department of Immunology, University of Pittsburgh."
+        ]
+      },
+      {
+        "full_name": "Tabib, Tracy",
+        "short_name": "Tabib T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology, University of Pittsburgh.",
+          "Center for Systems Immunology and Department of Immunology, University of Pittsburgh."
+        ]
+      },
+      {
+        "full_name": "Behara, Rithika",
+        "short_name": "Behara R",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology, University of Pittsburgh."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yuechen",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology, University of Pittsburgh."
+        ]
+      },
+      {
+        "full_name": "Sembrat, John",
+        "short_name": "Sembrat J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pulmonary, Allergy, Critical Care and Sleep Medicine, University of Pittsburgh."
+        ]
+      },
+      {
+        "full_name": "Das, Jishnu",
+        "short_name": "Das J",
+        "identifiers": [
+          "0000-0002-5747-064X"
+        ],
+        "affiliations": [
+          "Center for Systems Immunology and Department of Immunology, University of Pittsburgh."
+        ]
+      },
+      {
+        "full_name": "Benos, Panayiotis V",
+        "short_name": "Benos PV",
+        "identifiers": [
+          "0000-0003-3172-3132"
+        ],
+        "affiliations": [
+          "Department of Computational and Systems Biology, University of Pittsburgh.",
+          "Department of Epidemiology, University of Florida."
+        ]
+      },
+      {
+        "full_name": "Singh, Harinder",
+        "short_name": "Singh H",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Systems Immunology and Department of Immunology, University of Pittsburgh."
+        ]
+      },
+      {
+        "full_name": "Lafyatis, Robert",
+        "short_name": "Lafyatis R",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Rheumatology and Clinical Immunology, University of Pittsburgh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Oct 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/18 13:19",
+    "fetched_at": "2026-09-30 06:31:22"
+  },
+  "links": {
+    "cites": [
+      "39565376"
+    ],
+    "refs": [
+      "41057364",
+      "39129787",
+      "38803164",
+      "38578825",
+      "38334630",
+      "37726818",
+      "37706477",
+      "37690682",
+      "37557175",
+      "37421394",
+      "37418531",
+      "37310903",
+      "37142338",
+      "37027478",
+      "36973557",
+      "36917392",
+      "36866529",
+      "36641135",
+      "36304460",
+      "36291184",
+      "36241719",
+      "36239866",
+      "35849803",
+      "35665902",
+      "35648859",
+      "35288580",
+      "35228718",
+      "35174208",
+      "35098542",
+      "35048404",
+      "34850907",
+      "34725479",
+      "34625743",
+      "34594043",
+      "34282151",
+      "34243624",
+      "33859634",
+      "33603233",
+      "33586346",
+      "33464299",
+      "33294861",
+      "32865099",
+      "32832599",
+      "32832598",
+      "32747759",
+      "32575869",
+      "32562787",
+      "32486098",
+      "32317643",
+      "32281584",
+      "32057899",
+      "32007573",
+      "31740819",
+      "31701148",
+      "31604482",
+      "31566660",
+      "31405848",
+      "31221805",
+      "30123182",
+      "30089906",
+      "29409532",
+      "29274297",
+      "29050333",
+      "28825706",
+      "28178271",
+      "27428424",
+      "27156934",
+      "26960759",
+      "26240058",
+      "26098215",
+      "25765347",
+      "25303440",
+      "25029475",
+      "24574232",
+      "23906810",
+      "23180629",
+      "22842476",
+      "22139817",
+      "21931594",
+      "21514423",
+      "21339212",
+      "20513432",
+      "20395449",
+      "20039427",
+      "19679873",
+      "18798982",
+      "17469163",
+      "17329309",
+      "16702209",
+      "16439363",
+      "14977630",
+      "14597658",
+      "12805086",
+      "10802651"
+    ],
+    "similar": [
+      "39554071",
+      "41478761",
+      "35849803",
+      "31405848",
+      "41706126",
+      "42292441",
+      "38937794",
+      "33859634",
+      "38509595",
+      "23915349",
+      "31221805",
+      "30501089",
+      "41092115",
+      "34380701",
+      "36103378",
+      "42018656",
+      "34972106",
+      "40832362",
+      "20404807",
+      "37142338",
+      "36927333",
+      "34504485",
+      "41381212",
+      "40374521",
+      "33013852",
+      "39519222",
+      "40410053",
+      "27377409",
+      "42028853",
+      "40001138",
+      "19565505",
+      "33493091",
+      "21931594",
+      "42193930",
+      "40579317",
+      "40013233",
+      "39928535",
+      "34344444",
+      "24574232",
+      "42124727",
+      "39098251",
+      "37402274",
+      "33294861",
+      "39211872",
+      "41321019",
+      "42328894",
+      "41826820",
+      "42024552",
+      "39834736",
+      "34282151",
+      "41993306",
+      "39261509",
+      "41354972",
+      "28330499",
+      "32134204",
+      "41677271",
+      "31119153",
+      "35726496",
+      "38720423",
+      "34867934",
+      "34370624",
+      "38924775",
+      "34222222",
+      "34976199",
+      "29316328",
+      "26807760",
+      "38279381",
+      "39439976",
+      "41576947",
+      "38348044",
+      "38664790",
+      "41473285",
+      "17469163",
+      "34231378",
+      "34873597",
+      "22771387",
+      "41785251",
+      "39183565",
+      "37266432",
+      "41411065",
+      "34289031",
+      "41236898",
+      "38536934",
+      "39919902",
+      "33430962",
+      "26360820",
+      "41580874",
+      "41494735",
+      "26749424",
+      "39326643",
+      "42102198",
+      "32562787",
+      "37369139",
+      "26744410",
+      "32725139",
+      "37867940",
+      "39892726",
+      "33769920",
+      "42337746",
+      "42199627"
+    ],
+    "review": [
+      "39554071",
+      "33013852",
+      "42024552",
+      "26807760"
+    ],
+    "pmc": [
+      "11565795"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39554071/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SPP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.10.23.619858",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

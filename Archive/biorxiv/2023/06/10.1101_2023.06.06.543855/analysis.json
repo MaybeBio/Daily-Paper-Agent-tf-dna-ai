@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.06.543855",
+  "title": "Re-annotation of SARS-CoV-2 proteins using an HHpred-based approach opens new opportunities for a better understanding of this virus",
+  "authors": "Brézellec P",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-07",
+  "window": {
+    "start": "2023-06-05",
+    "end": "2023-06-11"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用HHpred对SARS-CoV-2蛋白进行重注释，发现与宿主蛋白的相似性，但无蛋白质-DNA互作体系、无结合建模，且方法为序列同源搜索而非AI/物理模拟，与本课题无关。",
+  "abstract": "<h4> A bstract </h4> Since the publication of the genome of SARS-CoV-2 – the causative agent of COVID-19 – in January 2020, many bioinformatic tools have been applied to annotate its proteins. Although effcient methods have been used, such as the identification of protein domains stored in Pfam, most of the proteins of this virus have no detectable homologous protein domains outside the viral taxa. As it is now well established that some viral proteins share similarities with proteins of their hosts, we decided to explore the hypothesis that this lack of homologies could be, at least in part, the result of the documented loss of sensitivity of Pfam Hidden Markov Models (HMMs) when searching for domains in “divergent organisms”. In order to improve the annotation of SARS-CoV-2 proteins, we used the HHpred protein annotation tool. To avoid “false positive predictions” as much as possible, we designed a robustness procedure to evaluate the HHpred results. In total, 6 robust similarities involving 6 distinct SARS-CoV-2 proteins were detected. Of these 6 similarities, 3 are already known and well documented, and one is in agreement with recent crystallographic results. We then examined carefully the two similarities that have not yet been reported in the literature. We first show that the C-terminal part of Spike S (the protein that binds the virion to the cell membrane by interacting with the host receptor, triggering infection) has similarities with the human prominin-1/CD133; after reviewing what is known about prominin-1/CD133, we suggest that the C-terminal part of Spike S could both improve the docking of Spike S to ACE2 (the main cell entry receptor for SARS-CoV-2) and be involved in the delivery of virions to regions where ACE2 is located in cells. Secondly, we show that the SARS-CoV-2 ORF3a protein shares similarities with human G protein-coupled receptors (GPCRs), such as Lutropin-choriogonadotropic hormone receptor, primarily belonging to the “Rhodopsin family”. To further investigate these similarities, we compared Prominin 1 and Lutropin-choriogonadotropic hormone receptor to a set of viral proteins using HHPRED. Interestingly, Prominin 1 showed similarities with 6 viral Spike glycoproteins, primarily from coronaviruses. Equally interestingly, Lutropin-choriogonadotropic hormone receptor showed similarities with 23 viral G-protein coupled receptors, particularly from Herpesvirales. We conclude that the approach described here (or similar approaches) opens up new avenues of research to better understand SARS-CoV-2 and could be used to complement virus annotations, particularly for less-studied viruses.",
+  "abstract_zh": "自2020年1月SARS-CoV-2（COVID-19的病原体）基因组发布以来，许多生物信息学工具已被应用于注释其蛋白质。尽管已采用高效方法，如识别Pfam中存储的蛋白质结构域，但该病毒的大多数蛋白质在病毒分类群之外未检测到同源蛋白质结构域。鉴于现已充分证实某些病毒蛋白质与其宿主蛋白质存在相似性，我们决定探索这一假设：这种同源性的缺失可能至少部分归因于Pfam隐马尔可夫模型（HMMs）在搜索“分歧生物”中的结构域时已知的灵敏度下降。为改进SARS-CoV-2蛋白质的注释，我们使用了HHpred蛋白质注释工具。为尽可能避免“假阳性预测”，我们设计了一个稳健性程序来评估HHpred结果。总共检测到涉及6种不同SARS-CoV-2蛋白质的6个稳健相似性。在这6个相似性中，3个已为人所知且记录详尽，1个与近期晶体学结果一致。随后，我们仔细审查了文献中尚未报道的两个相似性。首先，我们表明Spike S的C端部分（该蛋白质通过与宿主受体相互作用将病毒粒子结合到细胞膜，从而触发感染）与人prominin-1/CD133存在相似性；在回顾了关于prominin-1/CD133的已知信息后，我们提出Spike S的C端部分可能既改善Spike S与ACE2（SARS-CoV-2的主要细胞进入受体）的对接，又参与将病毒粒子递送至细胞中ACE2所在的区域。其次，我们表明SARS-CoV-2的ORF3a蛋白质与人G蛋白偶联受体（GPCRs）存在相似性，例如促黄体生成素-绒毛膜促性腺激素受体，主要属于“视紫红质家族”。为进一步研究这些相似性，我们使用HHPRED将Prominin 1和促黄体生成素-绒毛膜促性腺激素受体与一组病毒蛋白质进行了比较。有趣的是，Prominin 1显示出与6种病毒Spike糖蛋白的相似性，主要来自冠状病毒。同样有趣的是，促黄体生成素-绒毛膜促性腺激素受体显示出与23种病毒G蛋白偶联受体的相似性，特别是来自疱疹病毒目。我们得出结论，本文所述方法（或类似方法）为更好地理解SARS-CoV-2开辟了新的研究途径，并可用于补充病毒注释，尤其是对研究较少的病毒。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.06.543855",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.06.543855",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.06.543855/index.html"
+}

@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "42345194",
+    "doi": "10.1093/nar/gkag608",
+    "title": "Caveat emptor: predicting and modeling protein-DNA recognition and binding via machine-learning computational approaches."
+  },
+  "content": {
+    "abstract": "The recent development of AI-based predictive tools, such as AlphaFold3, for the prediction of the structures of biological molecules and their complexes has transformed modern molecular and cellular biology. While it displays exceptional accuracy in the modeling of folded protein domains and subunits, as well as larger protein-protein complexes and assemblages, AlphaFold3's performance in predicting the details of protein-DNA (or more broadly, protein-nucleic acid) contacts and complexes is less well established. Here we summarize the recent development and performance of tools intended to predict, model, and/or design protein:DNA recognition and contacts, and then demonstrate (using a well-defined system that offers a minimal \"degree of difficulty\") the issues that often surround the use of a resource such as AlphaFold3 for predicting protein:DNA interactions. Beyond providing a cautionary tale for casual users, we note that the incorporation of hybrid models of protein-DNA complexes (in which computationally predicted models are docked into low-resolution CryoEM density maps with little further refinement or quality control) into future training sets may lead to an ongoing and inappropriate learning cycle that further encourages such tools to generate new, equally inaccurate models of protein-DNA complexes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Computational Biology/methods",
+      "*DNA/chemistry/metabolism",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "*Machine Learning",
+      "Models, Molecular",
+      "Predictive Learning Models",
+      "Protein Binding",
+      "*Software"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Esler, Morgan A",
+        "Werther, Rachel",
+        "Doyle, Lindsey A",
+        "Ubilla-Rodriguez, Natalia C",
+        "Schwensen, Jeanette S",
+        "Hallinan, Jazmine P",
+        "Lambert, Abigail R",
+        "Young, Juliana C",
+        "Silverstein, Miriam",
+        "Stoddard, Barry L"
+      ],
+      "short_names": [
+        "Esler MA",
+        "Werther R",
+        "Doyle LA",
+        "Ubilla-Rodriguez NC",
+        "Schwensen JS",
+        "Hallinan JP",
+        "Lambert AR",
+        "Young JC",
+        "Silverstein M",
+        "Stoddard BL"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3058-1550",
+        "ORCID: 0000-0002-0008-473X",
+        "ORCID: 0000-0001-5174-7858"
+      ],
+      "affiliations": [
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States.",
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States.",
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States.",
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States.",
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States.",
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States.",
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States.",
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States.",
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States.",
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Esler, Morgan A",
+        "short_name": "Esler MA",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States."
+        ]
+      },
+      {
+        "full_name": "Werther, Rachel",
+        "short_name": "Werther R",
+        "identifiers": [
+          "0000-0002-3058-1550"
+        ],
+        "affiliations": [
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States."
+        ]
+      },
+      {
+        "full_name": "Doyle, Lindsey A",
+        "short_name": "Doyle LA",
+        "identifiers": [
+          "0000-0002-0008-473X"
+        ],
+        "affiliations": [
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States."
+        ]
+      },
+      {
+        "full_name": "Ubilla-Rodriguez, Natalia C",
+        "short_name": "Ubilla-Rodriguez NC",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States."
+        ]
+      },
+      {
+        "full_name": "Schwensen, Jeanette S",
+        "short_name": "Schwensen JS",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States."
+        ]
+      },
+      {
+        "full_name": "Hallinan, Jazmine P",
+        "short_name": "Hallinan JP",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States."
+        ]
+      },
+      {
+        "full_name": "Lambert, Abigail R",
+        "short_name": "Lambert AR",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States."
+        ]
+      },
+      {
+        "full_name": "Young, Juliana C",
+        "short_name": "Young JC",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States."
+        ]
+      },
+      {
+        "full_name": "Silverstein, Miriam",
+        "short_name": "Silverstein M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States."
+        ]
+      },
+      {
+        "full_name": "Stoddard, Barry L",
+        "short_name": "Stoddard BL",
+        "identifiers": [
+          "0000-0001-5174-7858"
+        ],
+        "affiliations": [
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center, 1100 Fairview Ave. N., Seattle, WA 98109, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jun 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/25 06:35",
+    "fetched_at": "2026-10-02 00:14:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41863075",
+      "41805121",
+      "41131660",
+      "40963109",
+      "40940539",
+      "40701553",
+      "40645653",
+      "40332289",
+      "40248099",
+      "39833102",
+      "39657630",
+      "39607707",
+      "39276905",
+      "39187718",
+      "39103447",
+      "38955920",
+      "38801070",
+      "38718835",
+      "38281252",
+      "38225382",
+      "38063012",
+      "38040737",
+      "37259835",
+      "36927031",
+      "36626764",
+      "36380591",
+      "36008947",
+      "35618416",
+      "35122321",
+      "34282049",
+      "33802210",
+      "32814809",
+      "32359399",
+      "31588918",
+      "31114927",
+      "28873986",
+      "28637173",
+      "27754618",
+      "27133026",
+      "26705195",
+      "25255213",
+      "24589358",
+      "24243859",
+      "23707478",
+      "23423888",
+      "22796087",
+      "21784983",
+      "20666728",
+      "20435674",
+      "20383002",
+      "19865164",
+      "19461840",
+      "19443739",
+      "11433033",
+      "11104519",
+      "9464564",
+      "1333585"
+    ],
+    "similar": [
+      "42345194",
+      "42475469",
+      "39576589",
+      "41313605",
+      "41274550",
+      "40332289",
+      "21787304",
+      "29608705",
+      "41311232",
+      "41020638",
+      "29536446",
+      "42349588",
+      "40209920",
+      "40449614",
+      "41478913",
+      "25935161",
+      "22312425",
+      "30598073",
+      "39103447",
+      "34415020",
+      "39833102",
+      "26527718",
+      "42598852",
+      "42584949",
+      "40601256",
+      "20733060",
+      "31628659",
+      "22868682",
+      "38986166",
+      "31693276",
+      "23788679",
+      "25756377",
+      "23790211",
+      "19439068",
+      "28383703",
+      "19008249",
+      "40719555",
+      "30933978",
+      "39576578",
+      "32142788",
+      "25708089",
+      "39660955",
+      "23703214",
+      "39858648",
+      "41168713",
+      "34905768",
+      "19594868",
+      "19343221",
+      "32946833",
+      "23912807",
+      "38747369",
+      "39657630",
+      "40544633",
+      "16246914",
+      "37996753",
+      "27862345",
+      "29753757",
+      "23873960",
+      "40673435",
+      "34073705",
+      "38491248",
+      "30602422",
+      "41166421",
+      "41666404",
+      "41652166",
+      "18922190",
+      "41174318",
+      "25113160",
+      "40934860",
+      "39237205",
+      "32920048",
+      "25977296",
+      "39936575",
+      "41174317",
+      "17316627",
+      "41147497",
+      "15504402",
+      "42412843",
+      "41115690",
+      "33863902",
+      "24448651",
+      "39541188",
+      "38795564",
+      "42108633",
+      "15340913",
+      "39125995",
+      "38883239",
+      "25724101",
+      "27865038",
+      "24334394",
+      "30957840",
+      "15751119",
+      "29253082",
+      "40634710",
+      "29040720",
+      "39456178",
+      "36727436",
+      "29028926",
+      "19594872",
+      "37651627"
+    ],
+    "review": [
+      "42345194",
+      "40332289",
+      "41311232",
+      "40209920",
+      "25935161",
+      "39833102",
+      "38986166",
+      "25756377",
+      "23790211",
+      "39576578",
+      "40544633",
+      "41666404",
+      "41652166",
+      "40934860",
+      "39936575",
+      "38795564",
+      "42108633",
+      "39125995",
+      "29253082"
+    ],
+    "pmc": [
+      "13294676"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42345194/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag608",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

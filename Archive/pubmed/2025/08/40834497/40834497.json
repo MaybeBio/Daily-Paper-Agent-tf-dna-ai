@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "40834497",
+    "doi": "10.1016/j.ejmech.2025.118066",
+    "title": "Discovery of protein arginine methyltransferase 1 inhibitor by structure-based pharmacophore modeling, virtual screening, molecular dynamics simulations, and the enhancement of paclitaxel's antitumor activity."
+  },
+  "content": {
+    "abstract": "Protein arginine methyltransferase 1 (PRMT1), a key epigenetic regulator, is implicated in tumor progression and therapy resistance. Here, we identify a novel PRMT1 inhibitor, YH-4, through structure-based pharmacophore modeling, virtual screening, and molecular dynamics simulations. YH-4 demonstrates potent PRMT1 inhibition (IC(50) = 4.11 muM) and dose-dependently suppresses asymmetric dimethylarginine (ADMA) levels and histone H4R3me2a modification in triple-negative breast cancer (TNBC) cells. In vitro, YH-4 induces cell cycle arrest, apoptosis, and inhibits migration and colony formation in MDA-MB-231 cells. Notably, YH-4 synergizes with paclitaxel (PTX), reducing cell viability and enhancing PTX efficacy in a xenograft model in vivo. This study is the first to confirm that PRMT1 inhibitors act as chemotherapeutic sensitizers for paclitaxel in the treatment of TNBC. Molecular dynamics simulations confirm stable binding of YH-4 to PRMT1, driven by hydrogen bonding and hydrophobic interactions. This study highlights YH-4 as a promising therapeutic agent to overcome paclitaxel resistance in TNBC and provides a computational-experimental framework for developing PRMT1-targeted therapies.",
+    "keywords": [
+      "Chemotherapeutic sensitizers",
+      "PRMT1 inhibitor",
+      "Triple-negative breast cancer",
+      "Virtual screening"
+    ],
+    "mesh_terms": [
+      "*Protein-Arginine N-Methyltransferases/antagonists & inhibitors/metabolism",
+      "*Paclitaxel/pharmacology/chemistry",
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "Structure-Activity Relationship",
+      "Molecular Structure",
+      "*Enzyme Inhibitors/pharmacology/chemistry/chemical synthesis",
+      "*Antineoplastic Agents/pharmacology/chemistry/chemical synthesis",
+      "Drug Screening Assays, Antitumor",
+      "Animals",
+      "Dose-Response Relationship, Drug",
+      "Cell Proliferation/drug effects",
+      "*Drug Discovery",
+      "Apoptosis/drug effects",
+      "*Repressor Proteins/antagonists & inhibitors/metabolism",
+      "Cell Line, Tumor",
+      "Mice",
+      "Female",
+      "Triple Negative Breast Neoplasms/drug therapy/pathology",
+      "Cell Survival/drug effects",
+      "Pharmacophore"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Su, Yan",
+        "Lok, Wun-Taai",
+        "Zhang, Mei-Mei",
+        "Gao, Jian-Mei",
+        "He, Jiaxin",
+        "Chao, Nan",
+        "Yuan, Hui",
+        "Ouyang, Yifan",
+        "Hong, Zhou",
+        "Fan, Yanru",
+        "Wang, Dong",
+        "Huang, Yu",
+        "Wang, Hao",
+        "Yang, Hao"
+      ],
+      "short_names": [
+        "Su Y",
+        "Lok WT",
+        "Zhang MM",
+        "Gao JM",
+        "He J",
+        "Chao N",
+        "Yuan H",
+        "Ouyang Y",
+        "Hong Z",
+        "Fan Y",
+        "Wang D",
+        "Huang Y",
+        "Wang H",
+        "Yang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China.",
+        "Guangzhou International Campus, South China University of Technology, Guangzhou, 511442, China.",
+        "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China.",
+        "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China.",
+        "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China.",
+        "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China.",
+        "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China.",
+        "Fujian Key Laboratory of Toxicant and Drug Toxicology, School of Medicine, Ningde Normal University, Ningde, Fujian, 352100, China.",
+        "College of Life Science and Technology, Ningxia Polytechnic, Ningxia Open University, Yinchuan, 750021, China.",
+        "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China.",
+        "College of Pharmaceutical Sciences and Cancer Center, Zhejiang University, Hangzhou, 310058, Zhejiang, China. Electronic address: duke.wang@zju.edu.cn.",
+        "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China. Electronic address: huangyunxmu@163.com.",
+        "School of Pharmacy, Minzu University of China, Beijing, China. Electronic address: hao.wang@muc.edu.cn.",
+        "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China. Electronic address: yhao246@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Su, Yan",
+        "short_name": "Su Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China."
+        ]
+      },
+      {
+        "full_name": "Lok, Wun-Taai",
+        "short_name": "Lok WT",
+        "identifiers": [],
+        "affiliations": [
+          "Guangzhou International Campus, South China University of Technology, Guangzhou, 511442, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Mei-Mei",
+        "short_name": "Zhang MM",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Jian-Mei",
+        "short_name": "Gao JM",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China."
+        ]
+      },
+      {
+        "full_name": "He, Jiaxin",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China."
+        ]
+      },
+      {
+        "full_name": "Chao, Nan",
+        "short_name": "Chao N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Hui",
+        "short_name": "Yuan H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China."
+        ]
+      },
+      {
+        "full_name": "Ouyang, Yifan",
+        "short_name": "Ouyang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Fujian Key Laboratory of Toxicant and Drug Toxicology, School of Medicine, Ningde Normal University, Ningde, Fujian, 352100, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Zhou",
+        "short_name": "Hong Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science and Technology, Ningxia Polytechnic, Ningxia Open University, Yinchuan, 750021, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Yanru",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dong",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences and Cancer Center, Zhejiang University, Hangzhou, 310058, Zhejiang, China. Electronic address: duke.wang@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Huang, Yu",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China. Electronic address: huangyunxmu@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Hao",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Minzu University of China, Beijing, China. Electronic address: hao.wang@muc.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Hao",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Ningxia Medical University, Yinchuan, 750004, China. Electronic address: yhao246@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Chem"
+    ],
+    "pub_date": "2025 Dec 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/20 18:32",
+    "fetched_at": "2026-10-01 00:16:46"
+  },
+  "links": {
+    "cites": [
+      "42549137"
+    ],
+    "refs": [],
+    "similar": [
+      "40834497",
+      "28927791",
+      "40929806",
+      "40245820",
+      "28643125",
+      "39509788",
+      "33176943",
+      "38754310",
+      "38901279",
+      "33316691",
+      "30366617",
+      "38809025",
+      "39316844",
+      "38724444",
+      "31390828",
+      "33853662",
+      "38776807",
+      "28780701",
+      "40925147",
+      "28656289",
+      "41301411",
+      "40774067",
+      "41273799",
+      "34294886",
+      "32767958",
+      "30957988",
+      "40298145",
+      "25348815",
+      "41223569",
+      "25559100",
+      "38941699",
+      "39935420",
+      "40015157",
+      "39029290",
+      "40020424",
+      "40763846",
+      "30660004",
+      "39216194",
+      "39368144",
+      "31838326",
+      "39232499",
+      "39889972",
+      "31101597",
+      "40758628",
+      "40199403",
+      "39647747",
+      "39591692",
+      "40680314",
+      "39326339",
+      "40288122",
+      "34147909",
+      "21838253",
+      "27601899",
+      "28525844",
+      "40884268",
+      "40925146",
+      "39521191",
+      "39583632",
+      "39986105",
+      "39265894",
+      "40774111",
+      "40130992",
+      "26824386",
+      "31015230",
+      "31631978",
+      "40253761",
+      "22506763",
+      "34186178",
+      "39955845",
+      "40986987",
+      "40779814",
+      "27545444",
+      "39488968",
+      "33042272",
+      "40976627",
+      "40662493",
+      "29628326",
+      "28636189",
+      "34600241",
+      "39339370",
+      "22917032",
+      "29627262",
+      "39305634",
+      "39868843",
+      "38965692",
+      "41200741",
+      "41188812",
+      "34623802",
+      "34299315",
+      "33894490",
+      "39406109",
+      "40736991",
+      "37948299",
+      "40582186",
+      "40223545",
+      "40808326",
+      "26428871",
+      "41138333",
+      "40961586",
+      "39208364"
+    ],
+    "review": [
+      "40834497",
+      "39316844"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0223-5234(25)00831-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1474",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:40834497",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "39560539",
+    "doi": "10.1097/MD.0000000000040559",
+    "title": "Deciphering sepsis: An observational bioinformatic analysis of gene expression in granulocytes from GEO dataset GSE123731."
+  },
+  "content": {
+    "abstract": "Sepsis triggers severe inflammatory responses leading to organ dysfunction and demands early diagnostic and therapeutic intervention. This study identifies differentially expressed genes (DEGs) in sepsis patients using the Gene Expression Omnibus database to find potential diagnostic and therapeutic markers. We analyzed the dataset GSE123731 via GEO2R to detect DEGs, constructed protein-protein interaction networks, and performed transcription factor analyses using Cytoscape. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes pathway analyses were conducted using R and FunRich software. Key genes were validated by Quantitative Reverse Transcription Polymerase Chain and co-immunoprecipitation assays in granulocytes from sepsis patients. We identified 59 DEGs significantly involved in neutrophil degranulation and immune system activation. Cytokine signaling pathways were highlighted in Kyoto Encyclopedia of Genes and Genomes analysis. Co-immunoprecipitation assays confirmed interactions involving matrix metallopeptidase 8, matrix metallopeptidase 9, and arginase 1, supporting their roles as biomarkers. The identified DEGs and validated interactions reveal crucial molecular mechanisms in sepsis, offering new avenues for diagnostic and therapeutic strategies, potentially enhancing patient outcomes.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Sepsis/genetics/metabolism",
+      "*Computational Biology/methods",
+      "*Granulocytes/metabolism",
+      "*Protein Interaction Maps/genetics",
+      "Databases, Genetic",
+      "Gene Expression Profiling/methods",
+      "Biomarkers/metabolism/blood",
+      "Gene Ontology",
+      "Signal Transduction/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Observational Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jin, Li",
+        "He, Xiaowei",
+        "Wang, Yuanyuan",
+        "Shao, Feng",
+        "Qian, Jun",
+        "Jiang, Mengxiao",
+        "Zhang, Shengjie",
+        "Liao, Wenjie"
+      ],
+      "short_names": [
+        "Jin L",
+        "He X",
+        "Wang Y",
+        "Shao F",
+        "Qian J",
+        "Jiang M",
+        "Zhang S",
+        "Liao W"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-5291-6008"
+      ],
+      "affiliations": [
+        "Department of Emergency, Nantong Third People's Hospital, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China.",
+        "Department of Emergency Medicine, The First Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China.",
+        "Department of Emergency, Affiliated Rugao Hospital of Nantong University Xinglin College, Rugao People's Hospital, Rugao, Jiangsu, China.",
+        "Department of Emergency, Lianyungang Second People's Hospital Affiliated to Kangda College of Nanjing Medical University, Lianyungang, Jiangsu, China.",
+        "Department of Emergency, Nantong Third People's Hospital, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China.",
+        "Department of Emergency, Nantong Third People's Hospital, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China.",
+        "Department of Emergency, Nantong Third People's Hospital, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China.",
+        "Department of Emergency, Nantong Third People's Hospital, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China.",
+        "Department of Emergency, Lianyungang Second People's Hospital Affiliated to Kangda College of Nanjing Medical University, Lianyungang, Jiangsu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jin, Li",
+        "short_name": "Jin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, Nantong Third People's Hospital, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China.",
+          "Department of Emergency Medicine, The First Affiliated Hospital of Soochow University, Suzhou, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "He, Xiaowei",
+        "short_name": "He X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, Affiliated Rugao Hospital of Nantong University Xinglin College, Rugao People's Hospital, Rugao, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuanyuan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, Lianyungang Second People's Hospital Affiliated to Kangda College of Nanjing Medical University, Lianyungang, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Feng",
+        "short_name": "Shao F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, Nantong Third People's Hospital, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Jun",
+        "short_name": "Qian J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, Nantong Third People's Hospital, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Mengxiao",
+        "short_name": "Jiang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, Nantong Third People's Hospital, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shengjie",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, Nantong Third People's Hospital, Affiliated Nantong Hospital 3 of Nantong University, Nantong, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Wenjie",
+        "short_name": "Liao W",
+        "identifiers": [
+          "0009-0001-5291-6008"
+        ],
+        "affiliations": [
+          "Department of Emergency, Lianyungang Second People's Hospital Affiliated to Kangda College of Nanjing Medical University, Lianyungang, Jiangsu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2024 Nov 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Observational Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/19 15:15",
+    "fetched_at": "2026-09-30 06:30:41"
+  },
+  "links": {
+    "cites": [
+      "41937676",
+      "41393400"
+    ],
+    "refs": [
+      "33111742",
+      "32505253",
+      "31954465",
+      "31576113",
+      "31205414",
+      "31075840",
+      "30877336",
+      "30873175",
+      "30654825",
+      "29937192",
+      "29740436",
+      "28244690",
+      "27506554",
+      "27217054",
+      "26903336",
+      "25932591",
+      "24838355",
+      "24232462"
+    ],
+    "similar": [
+      "39560539",
+      "29257295",
+      "35190763",
+      "39586719",
+      "38852219",
+      "34931168",
+      "32008037",
+      "39802181",
+      "31838482",
+      "33640831",
+      "31987036",
+      "39044690",
+      "38701300",
+      "39197622",
+      "32575108",
+      "38774257",
+      "39617276",
+      "35818227",
+      "30916045",
+      "38142454",
+      "33149760",
+      "32578582",
+      "37812997",
+      "30132538",
+      "39351239",
+      "30365099",
+      "39341981",
+      "31772617",
+      "32756534",
+      "37460430",
+      "31137244",
+      "32598242",
+      "39430765",
+      "33582701",
+      "31339875",
+      "31794546",
+      "32945465",
+      "33847684",
+      "38912048",
+      "34077304",
+      "38781871",
+      "40331545",
+      "37235492",
+      "31899762",
+      "30825595",
+      "32384023",
+      "33407587",
+      "40245021",
+      "32626989",
+      "31545495",
+      "32567431",
+      "31770211",
+      "35239706",
+      "35313524",
+      "33437215",
+      "34160465",
+      "40173189",
+      "30670912",
+      "33144895",
+      "32546690",
+      "31801935",
+      "37563710",
+      "37224002",
+      "39028999",
+      "40209528",
+      "36119022",
+      "29240723",
+      "35116032",
+      "38858671",
+      "33741890",
+      "31699960",
+      "29845250",
+      "30519576",
+      "32147961",
+      "35381625",
+      "33863396",
+      "34039311",
+      "32811479",
+      "30483789",
+      "33280594",
+      "38296899",
+      "34218797",
+      "34760021",
+      "37498421",
+      "34233597",
+      "34358255",
+      "40320470",
+      "34553293",
+      "33080677",
+      "31424263",
+      "32922167",
+      "33120861",
+      "38669428",
+      "39928821",
+      "39337585",
+      "36042664",
+      "39829117",
+      "32772341",
+      "39096856",
+      "31277155"
+    ],
+    "review": [
+      "39560539",
+      "33080677"
+    ],
+    "pmc": [
+      "11575963"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://www.ovid.com/39560539.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39560539/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ARG1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000040559",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

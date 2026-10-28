@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report an in silico selection pipeline for DNA aptamers against the progesterone receptor DNA-binding domain (PR DBD), using ssDNA sequences derived from human progesterone response elements. They identify PRDBDapt17 as the best candidate based on docking scores and molecular dynamics simulations, and report experimental validation via direct ELASA with a limit of detection of 3.91 nM and an equilibrium dissociation constant of 366.6 nM. They further claim cross-reactivity with estrogen and androgen receptors, suggesting a universal binder for steroid hormone receptors, and propose diagnostic utility for breast cancer.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary information provided
+- **Missing materials affecting confidence** Full methods for library design, docking parameters, molecular dynamics simulation conditions, ELASA protocol, statistical analyses, and any negative control experiments; all figures and tables; sequence information for PRDBDapt17 and other candidates; data supporting cross-reactivity claims
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting approach to aptamer discovery using structure-based in silico screening, but the evidence provided is insufficient to evaluate the validity of the claims. The reported experimental results are limited to a single aptamer with modest binding affinity, and the cross-reactivity and diagnostic utility claims are not supported by the data described. The work may be of interest to researchers in aptamer development and breast cancer diagnostics, but the current abstract does not establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers in aptamer selection and molecular diagnostics, particularly those working on alternatives to antibodies for steroid hormone receptor detection. The in silico approach may appeal to computational biologists interested in structure-based screening methods. Clinicians and diagnostic developers focused on breast cancer biomarkers may also find the potential application relevant, though the current evidence is preliminary.
+- **Major strengths** The use of natural progesterone response element sequences as a starting library is a rational design choice. The combination of docking and molecular dynamics simulations provides a structured in silico selection pipeline. The inclusion of experimental validation via ELASA, even if preliminary, is a positive step beyond purely computational work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "PRDBDapt17 appeared to be the best candidate, with the highest docking scores of 11334. Molecular dynamic simulation also substantiates PRDBDapt17 as the most potent aptamer."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not provide any details on how docking scores were compared across candidates, whether the scores were statistically distinct, or how molecular dynamics simulations were used to rank potency. No metrics such as binding free energies, stability measures, or simulation convergence criteria are reported.
+  - **Why it matters** Without these details, the selection of PRDBDapt17 as the best candidate cannot be independently assessed. Docking scores alone are often poor predictors of experimental binding, and the claim that simulations "substantiate" potency requires quantitative evidence.
+  - **Resolution test** Provide a comparison table of docking scores and simulation-derived metrics for all 64 candidates, with statistical analysis, and describe the simulation protocol and analysis criteria in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Direct ELASA demonstrated a limit of detection of 3.91 nM while the equilibrium dissociation constant was estimated at 366.6 nM."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports a limit of detection and a dissociation constant, but no experimental details are given. It is unclear how the Kd was estimated, whether the ELASA was performed in replicate, what controls were used, and whether the reported values are reproducible. The large discrepancy between LOD and Kd is not explained.
+  - **Why it matters** The experimental validation is the core evidence for the aptamer's functionality. Without protocol details, replicate numbers, and error estimates, the reliability of these values cannot be assessed, and the binding affinity is relatively weak for diagnostic applications.
+  - **Resolution test** Provide full ELASA methods, including buffer conditions, incubation times, washing steps, replicate counts, and the method used to calculate Kd. Include error bars and statistical analysis in the figures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "As PRDBDapt17 also interacts with estrogen receptor and androgen receptor, it can also be a potential universal binder of steroid hormone receptors."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that PRDBDapt17 interacts with estrogen and androgen receptors, but no data are presented to support this claim. No experimental or computational evidence is described, and the term "interacts" is vague.
+  - **Why it matters** This claim is used to suggest broad utility as a universal binder, which is a significant extension of the work. Without supporting data, this is an unsupported generalization that could mislead readers about the aptamer's specificity and cross-reactivity profile.
+  - **Resolution test** Provide experimental binding data for estrogen and androgen receptors, including specificity controls, or clearly state that this is a hypothesis based on sequence homology rather than demonstrated interaction.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "PRDBDapt17 can be used in the diagnostics of breast cancer."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no evidence that PRDBDapt17 can detect progesterone receptor in clinical samples, in tissue, or in any matrix relevant to breast cancer diagnostics. The reported experiments are limited to a purified protein target in a buffer system.
+  - **Why it matters** Diagnostic utility requires demonstration of specificity and sensitivity in complex biological samples, which is not addressed. This claim overreaches the presented evidence and could be misleading.
+  - **Resolution test** Remove this claim or provide data from spiked serum, cell lysates, or tissue samples demonstrating diagnostic performance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Library design
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract states that sixty-four ssDNA sequences were derived from human progesterone response elements, but the rationale for this specific number and the selection criteria for these sequences are not described.
+  - **Required correction** Briefly explain the source and selection criteria for the 64 sequences, or refer to a methods section where this is detailed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Docking method
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** PatchDock is mentioned as the docking tool, but no parameters, scoring function details, or validation of the docking protocol are provided.
+  - **Required correction** Include docking parameters and any validation steps in the full methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "in silico selection"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The term "in silico selection" is used, but the abstract does not clarify whether this is a fully computational selection or a computational pre-screening followed by experimental validation, which appears to be the case.
+  - **Required correction** Clarify the workflow terminology to accurately describe the hybrid computational-experimental approach.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** ELASA results
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** No information is given on the number of replicates, statistical significance, or variability of the ELASA measurements.
+  - **Required correction** Report replicate numbers and error estimates in the results section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative comparison for candidate selection), R1-M2 (insufficient experimental validation details), R1-M3 (unsupported cross-reactivity claim), R1-M4 (overreaching diagnostic claim)
+- **Assessment against Nature-style criteria** Originality: The approach of using natural response element sequences as a starting library for aptamer selection is somewhat novel, but the overall concept of in silico aptamer selection is not new. Scientific importance: The potential application to breast cancer diagnostics is relevant, but the weak binding affinity and lack of clinical context limit the significance. Interdisciplinary readership: The work bridges computational biology and molecular diagnostics, which could appeal to a broad audience, but the abstract does not provide enough detail to engage specialists from either field. Technical soundness: The computational pipeline is plausible but not sufficiently described for evaluation, and the experimental validation is preliminary. Readability for nonspecialists: The abstract is generally clear but uses technical terms without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable proof-of-concept, but the lack of methodological detail and unsupported claims prevent a positive recommendation. The authors should address the major concerns, particularly the cross-reactivity and diagnostic claims, and provide full experimental data before the case can be considered.
+
+## Risk / unsupported claims
+- Cross-reactivity with estrogen and androgen receptors is stated without any supporting data.
+- Diagnostic utility for breast cancer is claimed without any clinical or sample-based evidence.
+- The selection of PRDBDapt17 as the best candidate is not quantitatively supported in the abstract.
+- The reported LOD and Kd values are presented without experimental context or error estimates, making them unverifiable from the supplied material.

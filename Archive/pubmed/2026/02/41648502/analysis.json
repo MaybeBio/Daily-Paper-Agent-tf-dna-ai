@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41648502",
+  "title": "Fundamental limitations of genomic language models for realistic sequence generation.",
+  "authors": "Tzanakakis, Alexandros; Mouratidis, Ioannis; Georgakopoulos-Soares, Ilias",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-02-06",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文评估基因组语言模型生成合成基因组的能力，发现其无法保留转录因子结合位点架构等长程基因组特征，虽非直接建模TF-DNA互作，但涉及TF结合位点架构评估，且方法（gLM+CNN分类）对TF-DNA相关序列建模有参考价值。",
+  "abstract": "Large language models (LLMs) have shown remarkable success in natural language processing, prompting interest in their application to genomic sequence analysis. Genomic Language Models (gLMs) based on similar architectures offer a promising avenue for synthetic genome generation and characterization. However, their effectiveness for biological sequence modeling remains poorly characterized. We present a comprehensive evaluation of genomic language models that explicitly aim to generate entire synthetic genomes. We tested Evo 2 on diverse prokaryotic, eukaryotic and viral genomes, and megaDNA on bacteriophage genomes, and assessed performance across key biological features and organizational patterns. Our results reveal systematic failures in gLM-based genomic reconstruction. While the synthetic sequences captured local sequence statistics, they consistently failed to preserve long-range genomic organization, repeat and k-mer composition, transcription factor binding site architecture, and evolutionary constraints. Generated sequences exhibited violations of natural genomic patterns and models showed particular difficulty with repetitive elements. To assess the quality of genome generation, we trained a convolutional neural network that reliably distinguished synthetic from natural sequences, achieving AUROC values up to 0.97 in eukaryotes and 0.82 in prokaryotes, with classification accuracy increasing monotonically with genomic distance from the seed. These findings suggest fundamental limitations in current gLM architectures for capturing the long-range, hierarchical nature of genomic sequences. Our work highlights the need for specialized architectures that explicitly model evolutionary constraints rather than relying solely on statistical patterns, with important implications for computational biology applications requiring realistic sequence generation and for biosafety assessments that depend on the distinguishability of synthetic and natural genomic sequences.",
+  "abstract_zh": "大语言模型（LLMs）在自然语言处理领域展现出显著成功，引发了将其应用于基因组序列分析的兴趣。基于类似架构的基因组语言模型（gLMs）为合成基因组生成与表征提供了一条有前景的途径。然而，它们在生物序列建模中的有效性仍缺乏充分表征。我们提出了一项对旨在明确生成完整合成基因组的基因组语言模型的全面评估。我们在多种原核、真核及病毒基因组上测试了Evo 2，在噬菌体基因组上测试了megaDNA，并评估了关键生物学特征和组织模式上的性能。我们的结果揭示了基于gLM的基因组重建中的系统性失败。尽管合成序列捕捉到了局部序列统计特征，但它们始终未能保留长程基因组组织、重复序列及k-mer组成、转录因子结合位点架构以及进化约束。生成的序列表现出对自然基因组模式的违反，且模型在重复元件方面尤为困难。为评估基因组生成质量，我们训练了一个卷积神经网络，该网络能可靠地区分合成序列与自然序列，在真核生物中达到高达0.97的AUROC值，在原核生物中达到0.82，且分类准确率随与种子序列的基因组距离增加而单调上升。这些发现表明，当前gLM架构在捕捉基因组序列的长程、层级特性方面存在根本性局限。我们的工作强调了需要专门架构来显式建模进化约束，而非仅依赖统计模式，这对需要真实序列生成的计算生物学应用以及依赖合成与自然基因组序列可区分性的生物安全评估具有重要意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41648502/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41648502/",
+  "paper_page_path": "papers/pubmed/41648502/index.html"
+}

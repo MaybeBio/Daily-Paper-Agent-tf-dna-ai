@@ -1,0 +1,850 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.20.558720",
+  "title": "Computational design of sequence-specific DNA-binding proteins",
+  "doi": "10.1101/2023.09.20.558720",
+  "abstract": "Sequence-specific DNA-binding proteins (DBPs) play critical roles in biology and biotechnology, and there has been considerable interest in the engineering of DBPs with new or altered specificities for genome editing and other applications. While there has been some success in reprogramming naturally occurring DBPs using selection methods, the computational design of new DBPs that recognize arbitrary target sites remains an outstanding challenge. We describe a computational method for the design of small DBPs that recognize specific target sequences through interactions with bases in the major groove, and employ this method in conjunction with experimental screening to generate binders for 5 distinct DNA targets. These binders exhibit specificity closely matching the computational models for the target DNA sequences at as many as 6 base positions and affinities as low as 30–100 nM. The crystal structure of a designed DBP-target site complex is in close agreement with the design model, highlighting the accuracy of the design method. The designed DBPs function in both Escherichia coli and mammalian cells to repress and activate transcription of neighboring genes. Our method is a substantial step towards a general route to small and hence readily deliverable sequence-specific DBPs for gene regulation and editing.",
+  "authors": [
+    "Cameron J. Glasscock",
+    "Robert Pecoraro",
+    "Ryan McHugh",
+    "Lindsey A. Doyle",
+    "Wei Chen",
+    "Olivier Boivin",
+    "Beau Lonnquist",
+    "Emily Na",
+    "Yuliya Politanska",
+    "Hugh K. Haddox",
+    "David Cox",
+    "Christoffer Norn",
+    "Brian Coventry",
+    "Inna Goreshnik",
+    "Dionne Vafeados",
+    "Gyu Rie Lee",
+    "Raluca Gordan",
+    "Barry L. Stoddard",
+    "Frank DiMaio",
+    "David Baker"
+  ],
+  "published_date": "2023-09-21",
+  "updated_date": "2023-09-22T00:25:13Z",
+  "journal": "bioRxiv",
+  "category": "Synthetic Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.20.558720",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.20.558720.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Synthetic Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Synthetic Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            17
+          ]
+        ],
+        "date-time": "2026-07-17T19:42:02Z",
+        "timestamp": 1784317322676,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            21
+          ]
+        ]
+      },
+      "group-title": "Synthetic Biology",
+      "reference-count": 73,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            21
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Sequence-specific DNA-binding proteins (DBPs) play critical roles in biology and biotechnology, and there has been considerable interest in the engineering of DBPs with new or altered specificities for genome editing and other applications. While there has been some success in reprogramming naturally occurring DBPs using selection methods, the computational design of new DBPs that recognize arbitrary target sites remains an outstanding challenge. We describe a computational method for the design of small DBPs that recognize specific target sequences through interactions with bases in the major groove, and employ this method in conjunction with experimental screening to generate binders for 5 distinct DNA targets. These binders exhibit specificity closely matching the computational models for the target DNA sequences at as many as 6 base positions and affinities as low as 30–100 nM. The crystal structure of a designed DBP-target site complex is in close agreement with the design model, highlighting the accuracy of the design method. The designed DBPs function in both\n                  <jats:italic>Escherichia coli</jats:italic>\n                  and mammalian cells to repress and activate transcription of neighboring genes. Our method is a substantial step towards a general route to small and hence readily deliverable sequence-specific DBPs for gene regulation and editing.\n                </jats:p>",
+      "DOI": "10.1101/2023.09.20.558720",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            22
+          ]
+        ],
+        "date-time": "2023-09-22T00:25:13Z",
+        "timestamp": 1695342313000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 20,
+      "title": [
+        "Computational design of sequence-specific DNA-binding proteins"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5223-6339",
+          "authenticated-orcid": false,
+          "given": "Cameron J.",
+          "family": "Glasscock",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1656-0470",
+          "authenticated-orcid": false,
+          "given": "Robert",
+          "family": "Pecoraro",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0291-2196",
+          "authenticated-orcid": false,
+          "given": "Ryan",
+          "family": "McHugh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0008-473X",
+          "authenticated-orcid": false,
+          "given": "Lindsey A.",
+          "family": "Doyle",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5255-4166",
+          "authenticated-orcid": false,
+          "given": "Wei",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1913-0334",
+          "authenticated-orcid": false,
+          "given": "Olivier",
+          "family": "Boivin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0006-1778-2135",
+          "authenticated-orcid": false,
+          "given": "Beau",
+          "family": "Lonnquist",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emily",
+          "family": "Na",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6766-988X",
+          "authenticated-orcid": false,
+          "given": "Yuliya",
+          "family": "Politanska",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8324-8324",
+          "authenticated-orcid": false,
+          "given": "Hugh K.",
+          "family": "Haddox",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Cox",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1450-4651",
+          "authenticated-orcid": false,
+          "given": "Christoffer",
+          "family": "Norn",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6910-6255",
+          "authenticated-orcid": false,
+          "given": "Brian",
+          "family": "Coventry",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9254-9249",
+          "authenticated-orcid": false,
+          "given": "Inna",
+          "family": "Goreshnik",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2560-8907",
+          "authenticated-orcid": false,
+          "given": "Dionne",
+          "family": "Vafeados",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9119-5303",
+          "authenticated-orcid": false,
+          "given": "Gyu Rie",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6404-6556",
+          "authenticated-orcid": false,
+          "given": "Raluca",
+          "family": "Gordan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2250-9601",
+          "authenticated-orcid": false,
+          "given": "Barry L.",
+          "family": "Stoddard",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Frank",
+          "family": "DiMaio",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Baker",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2000-1-1-reviews001"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "4793",
+          "DOI": "10.1093/nar/gkab211",
+          "article-title": "Rational engineering of a modular bacterial CRISPR–Cas activation platform with expanded target range",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2020.02.19.956730"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2014.07.002"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "551",
+          "DOI": "10.1038/s41586-022-04654-9",
+          "article-title": "Design of protein-binding proteins from the target structure alone",
+          "volume": "605",
+          "year": "2022",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature04818"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq283"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08508"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr022"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2022.11.29.518332"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.389"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature19946"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biophys.29.1.183"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-010909-095056"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ymeth.2014.06.014"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3486"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.add8643"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.73.3.804"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/335321a0"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "367",
+          "DOI": "10.1002/j.1460-2075.1994.tb06270.x",
+          "article-title": "Mutagenesis supports water mediated recognition in the trp repressor-operator system",
+          "volume": "13",
+          "year": "1994",
+          "journal-title": "EMBO J"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/19.5.1045"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.3187531"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/335789a0"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-060408-091030"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.biochi.2007.07.020"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.bi.59.070190.004441"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki524"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/29.13.2860"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.604"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abn2100"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAB1113"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Gupta , J. A. Stamatoyannopoulos , T. L. Bailey , W. Noble , Quantifying similarity between motifs. Genome Biol. 8, R24 (2007).",
+          "DOI": "10.1186/gb-2007-8-2-r24"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1112"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(03)00447-9"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2008.195"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1246"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nchembio.1411"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06415-8"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.6.1203"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.11.05.467434"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "1097",
+          "DOI": "10.1038/s41596-021-00675-2",
+          "article-title": "Genetic circuit design automation with Cello 2.0",
+          "volume": "17",
+          "year": "2022",
+          "journal-title": "Nat. Protoc"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.241257.118"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature00833"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0969-2126(93)90012-6"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/73317"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/28893"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(91)90526-5"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Steinegger , M. Meier , M. Mirdita , H. Vöhringer , S. J. Haunsberger , J. Söding , HH-suite3 for fast remote homology detection and deep protein annotation. BMC Bioinformatics. 20, 473 (2019).",
+          "DOI": "10.1186/s12859-019-3019-7"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1081"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.51",
+          "first-page": "205",
+          "article-title": "A new generation of homology search tools based on probabilistic inference",
+          "volume": "23",
+          "year": "2009",
+          "journal-title": "Genome Inform. Int. Conf. Genome Inform"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "D723",
+          "DOI": "10.1093/nar/gkac976",
+          "article-title": "The IMG/M data management and analysis system v.7: content updates and new features",
+          "volume": "51",
+          "year": "2023",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2021171118"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1097-2765(00)80130-6"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi047352t"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm504"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(94)90231-3"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0969-2126(98)00047-1"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/21.4.801"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg680"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr048"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.6b00819"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.65",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Leaver-Fay , M. Tyka , S. M. Lewis , O. F. Lange , J. Thompson , R. Jacak , K. W. Kaufman , P. D. Renfrew , C. A. Smith , W. Sheffler , I. W. Davis , S. Cooper , A. Treuille , D. J. Mandell , F. Richter , Y.-E. A. Ban , S. J. Fleishman , J. E. Corn , D. E. Kim , S. Lyskov , M. Berrondo , S. Mentzer , Z. Popović , J. J. Havranek , J. Karanicolas , R. Das , J. Meiler , T. Kortemme , J. J. Gray , B. Kuhlman , D. Baker , P. Bradley , “ROSETTA3: an object-oriented software suite for the simulation and design of macromolecules” in Methods in Enzymology (Elsevier, 2011; https://linkinghub.elsevier.com/retrieve/pii/B9780123812704000196), vol. 487, pp. 545–574.",
+          "DOI": "10.1016/B978-0-12-381270-4.00019-6"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bip.360221211"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/30.10.e43"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/protein/gzq002"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.69",
+          "doi-asserted-by": "crossref",
+          "first-page": "85",
+          "DOI": "10.1107/S2059798317017235",
+          "article-title": "DIALS: implementation and evaluation of a new integration package",
+          "volume": "74",
+          "year": "2018",
+          "journal-title": "Acta Crystallogr. Sect. Struct. Biol"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0021889807021206"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.71",
+          "doi-asserted-by": "crossref",
+          "first-page": "861",
+          "DOI": "10.1107/S2059798319011471",
+          "article-title": "Macromolecular structure determination using X-rays, neutrons and electrons: recent developments in Phenix",
+          "volume": "75",
+          "year": "2019",
+          "journal-title": "Acta Crystallogr. Sect. Struct. Biol"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444910007493"
+        },
+        {
+          "key": "2023092512300467000_2023.09.20.558720v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0003647"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.09.20.558720",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:15:38Z",
+        "timestamp": 1768454138000
+      },
+      "score": 90.87283,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.09.20.558720"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            21
+          ]
+        ]
+      },
+      "references-count": 73,
+      "URL": "https://doi.org/10.1101/2023.09.20.558720",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s41594-025-01669-4",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            21
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

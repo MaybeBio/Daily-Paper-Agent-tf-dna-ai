@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The abstract claims that capsaicin inhibits Klebsiella pneumoniae biofilm formation and eradicates established biofilms, reduces metabolic activity and exopolysaccharide production, decreases cell surface hydrophobicity, induces intracellular reactive oxygen species, downregulates biofilm and quorum sensing related gene transcription, and interacts with the transcriptional regulator SdiA as supported by computational docking and molecular dynamics simulations.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full methods, experimental replicates and statistics, strain details, assay conditions, docking and simulation parameters, gene expression data, and any raw or processed data files
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that capsaicin may target SdiA to inhibit K. pneumoniae biofilm formation. However, the evidence as described is largely phenomenological and computational, with no mechanistic validation that SdiA is the functional target. Several quantitative claims lack statistical context, and the link between in vitro observations and the stated therapeutic potential for pneumonia is not established. The work may be of interest to researchers in antimicrobial resistance and biofilm biology, but the current abstract does not provide sufficient evidence to support the central mechanistic conclusion.
+- **Who would be interested in the results, and why** Researchers studying biofilm formation in Gram-negative pathogens, quorum sensing inhibitors, natural product-based antimicrobials, and alternative strategies to combat antibiotic resistant K. pneumoniae. The computational component may also interest those in structure based drug discovery.
+- **Major strengths** The abstract addresses a clinically relevant problem, namely biofilm associated K. pneumoniae infections. The combination of phenotypic assays with computational docking and molecular dynamics is a reasonable exploratory approach. The reported inhibition percentages and binding energy provide quantitative anchors, though their robustness is unclear.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The abstract states that capsaicin interacts with transcriptional regulator SdiA and implies this interaction underlies biofilm inhibition.
+  - **Evidence pointer** Computational analysis and molecular simulations, location not provided
+  - **Concern** The only evidence for SdiA as the target is a docking binding energy of -5.6 kcal/mol and simulation stability. No experimental validation such as genetic knockout, overexpression, or binding assays is described. The abstract does not show that SdiA disruption phenocopies capsaicin treatment or that capsaicin loses activity in an sdiA mutant.
+  - **Why it matters** Without functional validation, the claim that capsaicin acts by targeting SdiA is speculative. Docking scores alone are weak predictors of biological activity, and many compounds bind proteins without functional consequences.
+  - **Resolution test** Provide experimental evidence that capsaicin's antibiofilm effect is dependent on SdiA, for example using an sdiA deletion strain or complementation, or a direct binding assay such as surface plasmon resonance or isothermal titration calorimetry.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical and methodological rigor
+  - **Claim pointer** The abstract reports specific inhibition percentages, including 72.65 +/- 3.23 % for biofilm development and 46.64 +/- 4.31 % for metabolic activity, and states that gene transcription was downregulated.
+  - **Evidence pointer** Phenotypic assays and transcription level measurements, location not provided
+  - **Concern** No information is given on the number of replicates, statistical tests used, or variability across independent experiments. The error bars are presented without defining whether they represent standard deviation or standard error. The gene expression data are described only as downregulated without effect sizes, statistical significance, or which genes were examined.
+  - **Why it matters** Quantitative claims without statistical context cannot be evaluated for reliability. The reader cannot determine whether the reported effects are robust or within normal experimental variation.
+  - **Resolution test** Report replicate numbers, statistical methods, and exact p values or confidence intervals for all quantitative assays. Provide a full list of genes tested with fold changes and significance thresholds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Translational relevance
+  - **Claim pointer** The abstract concludes that capsaicin may serve as a promising agent for new therapeutic drugs to combat bacterial infections associated with biofilm and antibiotic resistance, and that it shows potential in managing pneumonia complications.
+  - **Evidence pointer** All experiments described are in vitro, location not provided
+  - **Concern** No in vivo data, cytotoxicity assessment, or pharmacokinetic considerations are presented. The MIC is reported as 256 mug/ml, which is high and raises questions about achievable therapeutic concentrations. The abstract does not address whether capsaicin at effective concentrations is safe for mammalian cells or feasible for systemic delivery.
+  - **Why it matters** The therapeutic claim is not supported by the evidence. High MIC values and lack of toxicity data make the translational potential speculative.
+  - **Resolution test** Provide cytotoxicity data against relevant mammalian cell lines, in vivo efficacy in an animal model of pneumonia, and a discussion of achievable concentrations relative to the MIC.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The term "capsaiciniods" appears to be a typographical error for "capsaicinoids."
+  - **Required correction** Correct the spelling to "capsaicinoids."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Strain and assay details
+  - **Evidence pointer** Methods not provided
+  - **Issue** The abstract does not specify the K. pneumoniae strain used, growth conditions, or the concentration of capsaicin used in the biofilm assays beyond the MIC.
+  - **Required correction** Specify the strain and the capsaicin concentrations used for each assay.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Mechanistic link
+  - **Evidence pointer** Gene expression and ROS data, location not provided
+  - **Issue** The abstract reports both ROS induction and downregulation of quorum sensing genes but does not explain how these observations relate to each other or to SdiA binding.
+  - **Required correction** Clarify the proposed sequence of events linking SdiA interaction, gene regulation, ROS production, and biofilm inhibition.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality is moderate, as capsaicin's antimicrobial properties are known, though its specific targeting of SdiA in K. pneumoniae is a novel angle. Scientific importance is limited by the lack of mechanistic validation and the high MIC. Interdisciplinary readership is possible given the combination of microbiology and computational chemistry, but the abstract does not provide enough depth for either audience. Technical soundness cannot be fully assessed from the abstract, but the missing statistics and lack of experimental validation for the target are significant weaknesses. Readability for nonspecialists is acceptable, though some terms such as SdiA and quorum sensing are not explained.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents preliminary observations that could form the basis of a study, but the central mechanistic claim and the translational conclusion require substantial additional evidence.
+
+## Risk / unsupported claims
+- The claim that capsaicin targets SdiA as the mechanism of biofilm inhibition is unsupported without experimental validation.
+- The claim that capsaicin may serve as a promising therapeutic agent for pneumonia is unsupported without in vivo or toxicity data.
+- The quantitative inhibition percentages and gene expression changes are not evaluable without statistical details.
+- The statement that molecular simulations validated stability under physiological conditions is not verifiable without simulation parameters and conditions.

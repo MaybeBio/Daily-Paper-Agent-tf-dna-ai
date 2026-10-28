@@ -1,0 +1,255 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2024-l32nf-v2",
+  "title": "Impact of the halogen PB radii in the estimation of protein-ligand binding energies using MM-PBSA calculations",
+  "doi": "10.26434/chemrxiv-2024-l32nf-v2",
+  "abstract": "Halogenation is a commonly used strategy in drug design, not only due to the improvement of ADME properties of the compounds but also due to the ability of halogens to engage in halogen bonds (XBs) with biological targets such as proteins. The prediction of binding free energies (\\dGbind{}) is paramount in drug development, and, in this context, MM-PBSA calculations are a fast and commonly used method to achieve such a task. However, the usage of parameters to describe halogen anisotropy, such as extra-points of charge (EPs) that allow for the sampling of XBs, in MM-PBSA calculations is not common. Despite the recent development of optimized radii for halogens (r$_{opt}$), compatible with EP implementations, providing accurate hydration free energies at the PBSA level, the impact of these parameters in the calculation of binding free energies (\\dGbind{}) on protein-ligand complexes was yet to be tackled. In this work, we evaluated the performance of r$_{opt}$ in the estimation of \\dGbind{} values using MM-PBSA calculations for three sets of CK2 inhibitors. for which the experimental binding energies are available. We tested the performance of three EP models and standard RESP charges (i.e. when no EP is added), along with the effect of the internal dielectric constant ($\\epsilon$_{\\textnormal{in}}$) and sampling time. Our results indicate that, while directly using the X-ray structure does not typically lead to good results, relaxation through MM minimization, especially with $\\epsilon$_{\\textnormal{in}}$ = 4, leads to very decent correlations with the experimental values. Better correlations were achieved when adding configurational sampling via MD simulations, though, the Pearson coefficients varied substantially with sampling time and PBSA setup used, indicating that longer sampling times do not necessarily lead to higher correlations with experimental values. For all cases, optimized halogen radii (r$_{opt}$) leads to slight improvements whereas the description of the halogen anisotropy \\textit{via} and EP considerably improved the correlations for \\textbf{Set A} and \\textbf{Set C}. In addition, our findings suggest that $\\epsilon$_{\\textnormal{in}}$ has a considerable impact on the prediction of the \\dGbind{} values, with the usage of an EP being enough to account for polarizability for systems with several halogens, whereas for systems with fewer halogens, a higher $\\epsilon$_{\\textnormal{in}}$ might be needed. Moreover, the use of an EP allowed the sampling of XBs without impairing the sampling of hydrogen bonds (HBs). To date, this study is the first to provide a comprehensive benchmark using MM-PBSA calculations, thus giving insights into which parameters contribute to a better description of halogen bonding systems.",
+  "authors": [
+    "Andreia Fortuna",
+    "Paulo J. Costa"
+  ],
+  "published_date": "2025-09-08",
+  "updated_date": "2025-09-08T08:09:10Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2024-l32nf-v2",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2024-l32nf-v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "2",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T11:13:29Z",
+        "timestamp": 1778757209704,
+        "version": "3.51.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            8
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                8
+              ]
+            ],
+            "date-time": "2025-09-08T00:00:00Z",
+            "timestamp": 1757289600000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001871",
+          "name": "Fundação para a Ciência e a Tecnologia",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "SFRH/BD/146447/2019 (10.54499/SFRH/BD/146447/2019)"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "SFRH/BD/146447/2019 (10.54499/SFRH/BD/146447/2019)"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001871",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001871",
+          "name": "Fundação para a Ciência e a Tecnologia",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "UID/04046/2025"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "UID/04046/2025"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001871",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100019180",
+          "name": "HORIZON EUROPE European Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "TWIN2PIPSA, GA 101079147 (10.3030/101079147)"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "TWIN2PIPSA, GA 101079147 (10.3030/101079147)"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100019180",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Halogenation is a commonly used strategy in drug design, not only due to the improvement of ADME properties of the compounds but also due to the ability of halogens to engage in halogen bonds (XBs) with biological targets such as proteins. The prediction of binding free energies (\\dGbind{}) is paramount in drug development, and, in this context, MM-PBSA calculations are a fast and commonly used method to achieve such a task. However, the usage of parameters to describe halogen anisotropy, such as extra-points of charge (EPs) that allow for the sampling of XBs, in MM-PBSA calculations is not common. Despite the recent development of optimized radii for halogens (r$_{opt}$), compatible with EP implementations, providing accurate hydration free energies at the PBSA level, the impact of these parameters in the calculation of binding free energies (\\dGbind{}) on protein-ligand complexes was yet to be tackled. In this work, we evaluated the performance of r$_{opt}$ in the estimation of \\dGbind{} values using MM-PBSA calculations for three sets of CK2 inhibitors. for which the experimental binding energies are available. We tested the performance of three EP models and standard RESP charges (i.e. when no EP is added), along with the effect of the internal dielectric constant ($\\epsilon$_{\\textnormal{in}}$) and sampling time. Our results indicate that, while directly using the X-ray structure does not typically lead to good results, relaxation through MM minimization, especially with $\\epsilon$_{\\textnormal{in}}$ = 4, leads to very decent correlations with the experimental values. Better correlations were achieved when adding configurational sampling via MD simulations, though, the Pearson coefficients varied substantially with sampling time and PBSA setup used, indicating that longer sampling times do not necessarily lead to higher correlations with experimental values. For all cases, optimized halogen radii (r$_{opt}$) leads to slight improvements whereas the description of the halogen anisotropy \\textit{via} and EP considerably improved the correlations for \\textbf{Set A} and \\textbf{Set C}. In addition, our findings suggest that $\\epsilon$_{\\textnormal{in}}$ has a considerable impact on the prediction of the \\dGbind{} values, with the usage of an EP being enough to account for polarizability for systems with several halogens, whereas for systems with fewer halogens, a higher $\\epsilon$_{\\textnormal{in}}$ might be needed. Moreover, the use of an EP allowed the sampling of XBs without impairing the sampling of hydrogen bonds (HBs). To date, this study is the first to provide a comprehensive benchmark using MM-PBSA calculations, thus giving insights into which parameters contribute to a better description of halogen bonding systems.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2024-l32nf-v2",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            8
+          ]
+        ],
+        "date-time": "2025-09-08T08:09:10Z",
+        "timestamp": 1757318950000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Impact of the halogen PB radii in the estimation of protein-ligand binding energies using MM-PBSA calculations"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Andreia",
+          "family": "Fortuna",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "BioISI – Instituto de Biosistemas e Ciências Integrativas, Faculdade de Ciências, Universidade de Lisboa, 1749-016, Lisboa, Portugal"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0492-6666",
+          "authenticated-orcid": false,
+          "given": "Paulo J.",
+          "family": "Costa",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "BioISI – Instituto de Biosistemas e Ciências Integrativas, Faculdade de Ciências, Universidade de Lisboa, 1749-016, Lisboa, Portugal"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2024-l32nf-v2",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:16:41Z",
+        "timestamp": 1778753801000
+      },
+      "score": 95.06537,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2024-l32nf-v2"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            8
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2024-l32nf-v2",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1039/D5CP03537F",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            8
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

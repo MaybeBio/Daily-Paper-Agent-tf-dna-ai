@@ -1,0 +1,862 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.01.15.575555",
+  "title": "An Integrated Machine Learning Approach Delineates an Entropic Expansion Mechanism for the Binding of a Small Molecule to <i>α</i> -Synuclein",
+  "doi": "10.1101/2024.01.15.575555",
+  "abstract": "The mis-folding and aggregation of intrinsically disordered proteins (IDPs) such as α -synuclein ( α S) underlie the pathogenesis of various neurodegenerative disorders. However, targeting α S with small molecules faces challenges due to its lack of defined ligand-binding pockets in its disordered structure. Here, we implement a deep artificial neural network based machine learning approach, which is able to statistically distinguish fuzzy ensemble of conformational substates of α S in neat water from those in aqueous fasudil (small molecule of interest) solution. In particular, the presence of fasudil in the solvent either modulates pre-existing states of α S or gives rise to new conformational states of α S, akin to an ensemble-expansion mechanism. The ensembles display strong conformation-dependence in residue-wise interaction with the small molecule. A thermodynamic analysis indicates that small-molecule modulates the structural repertoire of α S by tuning protein backbone entropy, however entropy of the water remains unperturbed. Together, this study sheds light on the intricate interplay between small molecules and IDPs, offering insights into entropic modulation and ensemble expansion as key biophysical mechanisms driving potential therapeutics.",
+  "authors": [
+    "Sneha Menon",
+    "Subinoy Adhikari",
+    "Jagannath Mondal"
+  ],
+  "published_date": "2024-01-16",
+  "updated_date": "2024-01-16T21:00:16Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.01.15.575555",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.01.15.575555.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            27
+          ]
+        ],
+        "date-time": "2026-02-27T01:39:46Z",
+        "timestamp": 1772156386941,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            16
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 105,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            8
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The mis-folding and aggregation of intrinsically disordered proteins (IDPs) such as\n                  <jats:italic>α</jats:italic>\n                  -synuclein (\n                  <jats:italic>α</jats:italic>\n                  S) underlie the pathogenesis of various neurodegenerative disorders. However, targeting\n                  <jats:italic>α</jats:italic>\n                  S with small molecules faces challenges due to its lack of defined ligand-binding pockets in its disordered structure. Here, we implement a deep artificial neural network based machine learning approach, which is able to statistically distinguish fuzzy ensemble of conformational substates of\n                  <jats:italic>α</jats:italic>\n                  S in neat water from those in aqueous fasudil (small molecule of interest) solution. In particular, the presence of fasudil in the solvent either modulates pre-existing states of\n                  <jats:italic>α</jats:italic>\n                  S or gives rise to new conformational states of\n                  <jats:italic>α</jats:italic>\n                  S, akin to an ensemble-expansion mechanism. The ensembles display strong conformation-dependence in residue-wise interaction with the small molecule. A thermodynamic analysis indicates that small-molecule modulates the structural repertoire of\n                  <jats:italic>α</jats:italic>\n                  S by tuning protein backbone entropy, however entropy of the water remains unperturbed. Together, this study sheds light on the intricate interplay between small molecules and IDPs, offering insights into entropic modulation and ensemble expansion as key biophysical mechanisms driving potential therapeutics.\n                </jats:p>",
+      "DOI": "10.1101/2024.01.15.575555",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2024-01-16T21:00:16Z",
+        "timestamp": 1705438816000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "An Integrated Machine Learning Approach Delineates an Entropic Expansion Mechanism for the Binding of a Small Molecule to\n                  <i>α</i>\n                  -Synuclein"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Sneha",
+          "family": "Menon",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Subinoy",
+          "family": "Adhikari",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jagannath",
+          "family": "Mondal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3920"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2011.03.011"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.5b00548"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "214",
+          "DOI": "10.1038/nchembio.536",
+          "article-title": "Intrinsic disorder mediates the diverse regulatory functions of the Cdk inhibitor p21",
+          "volume": "7",
+          "year": "2011",
+          "journal-title": "Nature chemical biology"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2016.01.030"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.12.035"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2016.08.001"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shin, Y. ; Brangwynne, C. P . Liquid phase condensation in cell physiology and disease. Science 2017, 357, eaaf4382.",
+          "DOI": "10.1126/science.aaf4382"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ceb.2020.12.012"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "215",
+          "DOI": "10.1146/annurev.biophys.37.032807.125924",
+          "article-title": "Intrinsically disordered proteins in human diseases: introducing the D2 concept",
+          "volume": "37",
+          "year": "2008",
+          "journal-title": "Annual review of biophysics"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.11",
+          "unstructured": "Bronowska, A. Thermodynamics of Ligand-Protein Interactions: Implications for Molecular Design, Thermodynamics - Interaction Studies - Solids, Liquids and Gases; 2011."
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd4486"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cbpa.2010.06.169"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chembiol.2008.09.011"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M111.325456"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhu, M. ; De Simone, A. ; Schenk, D. ; Toth, G. ; Dobson, C. M. ; Vendruscolo, M . Identification of small-molecule binding pockets in the soluble monomeric form of the Abeta42 peptide. The Journal of Chemical Physics 2013, 139, 035101.",
+          "DOI": "10.1063/1.4811831"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cbic.201200704"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "558",
+          "DOI": "10.1038/nsmb.1437",
+          "article-title": "EGCG redirects amyloidogenic polypeptides into unstructured, off-pathway oligomers",
+          "volume": "15",
+          "year": "2008",
+          "journal-title": "Nature structural and molecular biology"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Heller, G. T. et al. Small-molecule sequestration of amyloid as a drug discovery strategy for Alzheimers disease. Science Advances 2020, 6, eabb5924.",
+          "DOI": "10.1126/sciadv.abb5924"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja312471h"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "558",
+          "DOI": "10.1038/nchembio.1528",
+          "article-title": "Targeting the disordered C terminus of PTP1B with an allosteric inhibitor",
+          "volume": "10",
+          "author": "others„,",
+          "year": "2014",
+          "journal-title": "Nature chemical biology"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "3840",
+          "DOI": "10.1002/anie.201308389",
+          "article-title": "Compensatory Adaptations of Structural Dynamics in an Intrinsically Disordered Protein Complex",
+          "volume": "53",
+          "year": "2014",
+          "journal-title": "Angewandte Chemie International Edition"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cbpa.2021.02.009"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fields, C. R. ; Bengoa-Vergniory, N. ; Wade-Martins, R . Targeting Alpha-Synuclein as a Therapy for Parkinson’s Disease. Frontiers in Molecular Neuroscience 2019, 12.",
+          "DOI": "10.3389/fnmol.2019.00299"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0089680"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.26",
+          "first-page": "1",
+          "article-title": "Fasudil attenuates aggregation of α-synuclein in models of Parkinson’s disease",
+          "volume": "4",
+          "year": "2016",
+          "journal-title": "Acta neuropathologica communications"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cao, K. ; Zhu, Y. ; Hou, Z. ; Liu, M. ; Yang, Y. ; Hu, H. ; Dai, Y. ; Wang, Y. ; Yuan, S. ; Huang, G . α-Synuclein as a Target for Metallo-Anti-Neurodegenerative Agents. Angewandte Chemie International Edition 2022,",
+          "DOI": "10.1002/ange.202215360"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1100976108"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-32107-4"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Stephens, A. D. ; Kölbel, J. ; Moons, R. ; Chung, C. W. ; Ruggiero, M. T. ; Mahmoudi, N. ; Shmool, T. A. ; McCoy, T. M. ; Nietlispach, D. ; Routh, A. F . Decreased Water Mobility Contributes To Increased α-Synuclein Aggregation. Angewandte Chemie International Edition 2022,",
+          "DOI": "10.1002/ange.202212063"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "e202205726",
+          "DOI": "10.1002/ange.202205726",
+          "article-title": "Direct Observation of Elongated Conformational States in α-Synuclein upon Liquid-Liquid Phase Separation",
+          "volume": "134",
+          "year": "2022",
+          "journal-title": "Angewandte Chemie"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.1c07591"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1800690115"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.1501177"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aat4010"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.0c02088"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "673",
+          "DOI": "10.1021/jacsau.1c00536",
+          "article-title": "Global structure of the intrinsically disordered protein tau emerges from its local structure",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "Jacs Au"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Prinz, J.-H. ; Wu, H. ; Sarich, M. ; Keller, B. ; Senne, M. ; Held, M. ; Chodera, J. D. ; Schutte, C. ; Noe, F . Markov models of molecular kinetics: Generation and validation. J. Chem. Phys. 2011, 134, 174105.",
+          "DOI": "10.1063/1.3565032"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bowman, G. R. ; Beauchamp, K. A. ; Boxer, G. ; Pande, V. S . Progress and challenges in the automated construction of Markov state models for full protein systems. J. Chem. Phys. 2009, 131, 124101.",
+          "DOI": "10.1063/1.3216567"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.7b12191"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Adhikari, S. ; Mondal, J . Machine Learning Subtle Conformational Change due to Phosphorylation in Intrinsically Disordered Proteins. The Journal of Physical Chemistry B 2023,",
+          "DOI": "10.1021/acs.jpcb.3c05136"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.42",
+          "unstructured": "Kingma, D. P. ; Welling, M . Auto-encoding variational bayes. arXiv preprint arXiv:1312.6114 2013,"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.43",
+          "unstructured": "Rezende, D. J. ; Mohamed, S. ; Wierstra, D . Stochastic backpropagation and approximate inference in deep generative models. International conference on machine learning. 2014; pp 1278–1286."
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hyvärinen, A . Independent component analysis: recent advances. Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 2013, 371, 20110534.",
+          "DOI": "10.1098/rsta.2011.0534"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TAC.1980.1102314"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1469-1809.1936.tb02137.x"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schölkopf, B. ; Smola, A. ; Müller, K.-R . Kernel principal component analysis. Artificial Neural Networks-ICANN 97: 7th International Conference Lausanne, Switzerland, October 8–10, 1997 Proceeedings. 2005; pp 583–588.",
+          "DOI": "10.1007/BFb0020217"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kruskal, J. B. ; Wish, M. Multidimensional scaling; Sage, 1978; Vol. 11.",
+          "DOI": "10.4135/9781412985130"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.290.5500.2319"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Faloutsos, C. ; Lin, K.-I . FastMap: A fast algorithm for indexing, data-mining and visualization of traditional and multimedia datasets. Proceedings of the 1995 ACM SIGMOD international conference on Management of data. 1995; pp 163–174.",
+          "DOI": "10.1145/568271.223812"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.290.5500.2323"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.52",
+          "first-page": "2354",
+          "article-title": "A review of various linear and non linear dimensionality reduction techniques",
+          "volume": "6",
+          "year": "2015",
+          "journal-title": "Int. J. Comput. Sci. Inf. Technol"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0603553103"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "600",
+          "DOI": "10.1021/ct5007357",
+          "article-title": "Modeling molecular kinetics with tICA and the kernel trick",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.55",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wehmeyer, C. ; Noé, F . Time-lagged autoencoders: Deep learning of slow collective variables for molecular kinetics. The Journal of chemical physics 2018, 148.",
+          "DOI": "10.1063/1.5011399"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1127647"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "5525",
+          "DOI": "10.1021/acs.jctc.5b00743",
+          "article-title": "PyEMMA 2: A software package for estimation, validation, and analysis of Markov models",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.58",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hore, A. ; Ziou, D . Image quality metrics: PSNR vs. SSIM. 2010 20th international conference on pattern recognition. 2010; pp 2366–2369.",
+          "DOI": "10.1109/ICPR.2010.579"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2018.03.015"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2015.07.004"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2014.05.007"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0959-440X(02)00289-0"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.63",
+          "doi-asserted-by": "crossref",
+          "first-page": "1738",
+          "DOI": "10.1021/acschemneuro.2c00116",
+          "article-title": "A Small Molecule Stabilizes the Disordered Native State of the Alzheimer’s Aβ Peptide",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "ACS Chemical Neuroscience"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1624057"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.65",
+          "doi-asserted-by": "crossref",
+          "first-page": "8191",
+          "DOI": "10.1021/jp103120q",
+          "article-title": "Two-phase thermodynamic model for efficient and accurate absolute entropy of water from molecular dynamics simulations",
+          "volume": "114",
+          "year": "2010",
+          "journal-title": "The Journal of Physical Chemistry B"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "5892",
+          "DOI": "10.1038/s41467-023-41586-y",
+          "article-title": "Thermodynamic forces from protein and water govern condensate formation of an intrinsically disordered protein domain",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.8b00143"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp109"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.69",
+          "doi-asserted-by": "crossref",
+          "first-page": "2891",
+          "DOI": "10.1021/jp2068123",
+          "article-title": "Efficient calculation of molecular configurational entropies using an information theoretic approximation",
+          "volume": "116",
+          "year": "2012",
+          "journal-title": "The Journal of Physical Chemistry B"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja044834j"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja904716h"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja208657z"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2013.07.044"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.74",
+          "doi-asserted-by": "crossref",
+          "first-page": "5113",
+          "DOI": "10.1021/ct500569b",
+          "article-title": "Balanced protein–water interactions improve properties of disordered proteins and non-specific protein association",
+          "volume": "10",
+          "year": "2014",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.75",
+          "doi-asserted-by": "crossref",
+          "first-page": "71",
+          "DOI": "10.1038/nmeth.4067",
+          "article-title": "CHARMM36m: an improved force field for folded and intrinsically disordered proteins",
+          "volume": "14",
+          "year": "2017",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0407146102"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0506202102"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja802220c"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja069124n"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.80",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ahmed, M. C. ; Skaanning, L. K. ; Jussupow, A. ; Newcombe, E. A. ; Kragelund, B. B. ; Camilloni, C. ; Langkilde, A. E. ; Lindorff-Larsen, K . Refinement of α-synuclein ensembles against SAXS data: Comparison of force fields and methods. Frontiers in molecular biosciences 2021, 8, 654333.",
+          "DOI": "10.3389/fmolb.2021.654333"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.6b00351"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.82",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lincoff, J. ; Krzeminski, M. ; Haghighatlari, M. ; Teixeira, J. ; Gomes, G.-N. W. ; Gradinaru, C. C. ; Forman-Kay, J. D. ; Head-Gordon, T . Extended Experimental Inferential Structure Determination Method for Evaluating the Structural Ensembles of Disordered Protein States. arXiv preprint arXiv:1912.12582 2019,",
+          "DOI": "10.1038/s42004-020-0323-0"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.83",
+          "first-page": "02B",
+          "article-title": "On the statistical equivalence of restrained-ensemble simulations with the maximum entropy method",
+          "volume": "138",
+          "year": "2013",
+          "journal-title": "The Journal of chemical physics"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.84",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1003406",
+          "DOI": "10.1371/journal.pcbi.1003406",
+          "article-title": "Combining experiments and simulations using the maximum entropy principle",
+          "volume": "10",
+          "year": "2014",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.85",
+          "first-page": "03B",
+          "article-title": "Molecular dynamics simulations with replica-averaged structural restraints generate structural ensembles according to the maximum entropy principle",
+          "volume": "138",
+          "year": "2013",
+          "journal-title": "The Journal of chemical physics"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.0c03217"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.87",
+          "unstructured": "Lindahl, E. ; Abraham, M. ; Hess, B. ; Spoel, v. d. D . GROMACS 2020.1 Source code. 2020."
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.88",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bussi, G. ; Donadio, D. ; Parrinello, M . Canonical sampling through velocity rescaling. The Journal of chemical physics 2007, 126, 014101.",
+          "DOI": "10.1063/1.2408420"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.328693"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cpc.2013.06.003"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.91",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Darden, T. ; York, D. ; Pedersen, L . The effect of long-range electrostatic interactions in simulations of macromolecular crystals–a comparison of the ewald and truncated list methods. J. Chem. Phys 1993, 99, 10089.",
+          "DOI": "10.1063/1.465608"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1096-987X(199709)18:12<1463::AID-JCC4>3.3.CO;2-L"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.93",
+          "doi-asserted-by": "crossref",
+          "first-page": "550",
+          "DOI": "10.1109/72.846725",
+          "article-title": "Taking on the curse of dimensionality in joint distributions using neural networks",
+          "volume": "11",
+          "year": "2000",
+          "journal-title": "IEEE Transactions on Neural Networks"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.94",
+          "unstructured": "Larochelle, H. ; Murray, I . The neural autoregressive distribution estimator. Proceedings of the fourteenth international conference on artificial intelligence and statistics. 2011; pp 29–37."
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.95",
+          "unstructured": "Higgins, I. ; Matthey, L. ; Pal, A. ; Burgess, C. ; Glorot, X. ; Botvinick, M. ; Mohamed, S. ; Lerchner, A . beta-vae: Learning basic visual concepts with a constrained variational framework. International conference on learning representations. 2016."
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.96",
+          "unstructured": "others„ et al. Tensorflow: Large-scale machine learning on heterogeneous distributed systems. arXiv preprint arXiv:1603.04467 2016,"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.97",
+          "unstructured": "Glorot, X. ; Bengio, Y . Understanding the difficulty of training deep feedforward neural networks. Proceedings of the thirteenth international conference on artificial intelligence and statistics. 2010; pp 249–256."
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.98",
+          "unstructured": "Kingma, D. P. ; Ba, J . Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980 2014,"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.99",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TIP.2003.819861"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.100",
+          "doi-asserted-by": "crossref",
+          "first-page": "503",
+          "DOI": "10.1007/s10955-005-9003-9",
+          "article-title": "Towards a theory of transition paths",
+          "volume": "123",
+          "year": "2006",
+          "journal-title": "Journal of statistical physics"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.101",
+          "doi-asserted-by": "crossref",
+          "first-page": "1192",
+          "DOI": "10.1137/070699500",
+          "article-title": "Transition path theory for Markov jump processes",
+          "volume": "7",
+          "year": "2009",
+          "journal-title": "Multiscale Modeling & Simulation"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0905466106"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.103",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Caro, M. A. ; Laurila, T. ; Lopez-Acevedo, O . Accurate schemes for calculation of thermodynamic properties of liquid mixtures from molecular dynamics simulations. The Journal of chemical physics 2016, 145.",
+          "DOI": "10.1063/1.4973001"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.104",
+          "doi-asserted-by": "crossref",
+          "first-page": "3432",
+          "DOI": "10.1021/acs.jctc.7b00314",
+          "article-title": "Redox potentials from ab initio molecular dynamics and explicit entropy calculations: Application to transition metals in aqueous solution",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024061202550525000_2024.01.15.575555v3.105",
+          "doi-asserted-by": "crossref",
+          "first-page": "1893",
+          "DOI": "10.1021/ct200211b",
+          "article-title": "Absolute entropy and energy of carbon dioxide using the two-phase thermodynamic model",
+          "volume": "7",
+          "year": "2011",
+          "journal-title": "Journal of chemical theory and computation"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.01.15.575555",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:48:21Z",
+        "timestamp": 1768456101000
+      },
+      "score": 82.60754,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.01.15.575555"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            16
+          ]
+        ]
+      },
+      "references-count": 105,
+      "URL": "https://doi.org/10.1101/2024.01.15.575555",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/elife.97709",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.97709.3",
+            "asserted-by": "object"
+          }
+        ],
+        "has-version": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.97709.1",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.97709.2",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            16
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

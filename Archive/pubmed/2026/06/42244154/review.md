@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including summary, introduction, materials and methods, results, discussion, and supplementary figure/table legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The manuscript claims that the rice MYB transcription factor OsMYB305 promotes leaf senescence by directly repressing the cytokinin biosynthesis gene OsIPT8 and activating the cytokinin degradation gene OsCKX2, thereby modulating cytokinin homeostasis. The authors further claim that natural allelic variation in OsMYB305, particularly a SNP in the OsIPT8 promoter that disrupts OsMYB305 binding, is associated with subspecies-specific leaf senescence phenotypes and contributes to regional adaptation in rice cultivation.
+- **Visible evidence base** CRISPR/Cas9 knockout mutants, overexpression lines, Y1H assays, ChIP-qPCR, EMSA, dual-luciferase reporter assays, UHPLC-based cytokinin quantification, CKX activity assays, AlphaFold structural predictions, and SNP/haplotype analyses using the 3000 Rice Genomes Project and wild rice data.
+- **Missing materials affecting confidence** Figures and supplementary tables (Figs 1–8, S1–S14; Tables S1–S9) were not provided. Statistical details, sample sizes, replication numbers, and raw data are not accessible. The full methods for the natural variation analysis and the source of leaf senescence phenotypic values are not fully described.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting regulatory module in which OsMYB305 integrates cytokinin and ABA signaling to control leaf senescence in rice, with a plausible link to regional adaptation through natural variation. The combination of reverse genetics, biochemical binding assays, and population-level haplotype analysis is commendable. However, the absence of key figures and supplementary data prevents full evaluation of the experimental rigor and the strength of the claims. Several concerns regarding the directness of transcriptional regulation, the functional significance of the identified SNP, and the evolutionary interpretation require clarification before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying leaf senescence, cytokinin biology, MYB transcription factors, and rice functional genomics would find this work relevant. The potential connection between a senescence-regulating transcription factor and regional adaptation in rice could also interest crop breeders and evolutionary biologists working on domestication and local adaptation.
+- **Major strengths** The study addresses an important gap in understanding upstream regulation of cytokinin metabolism during senescence. The use of multiple independent approaches (Y1H, ChIP-qPCR, EMSA, dual-LUC) to validate direct binding is rigorous. The inclusion of natural variation analysis across 3000 rice accessions adds a population-level dimension that is often missing in molecular studies. The identification of a specific SNP that disrupts binding provides a concrete mechanistic link between genotype and phenotype.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that OsMYB305 directly represses OsIPT8 and activates OsCKX2 and OsNAP is central to the proposed model.
+  - **Evidence pointer** Results sections "OsMYB305 directly represses OsIPT8 and activates OsCKX2 and OsNAP"; Figures 4, 5, S9, S10
+  - **Concern** The Y1H, ChIP-qPCR, and EMSA data are described but the actual figures are not available for review. The ChIP-qPCR enrichment values, the specificity of the Y1H interactions, and the EMSA competition controls cannot be assessed. The dual-LUC assays show transcriptional repression of OsIPT8 and activation of OsCKX2 and OsNAP, but the magnitude of effects and the number of biological replicates are not stated. The claim of direct binding relies on the quality of these assays, which cannot be verified from the text alone.
+  - **Why it matters** The entire mechanistic model depends on OsMYB305 directly regulating these three target genes. If the binding data are weak or non-specific, the model collapses. The distinction between direct and indirect regulation is critical for the proposed pathway.
+  - **Resolution test** Provide the actual ChIP-qPCR enrichment data with appropriate controls, show Y1H results with proper positive and negative controls, and include EMSA with unlabeled competitor probes to demonstrate specificity. State the number of biological replicates and the statistical significance for the dual-LUC assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The claim that a SNP in the OsIPT8 promoter disrupts OsMYB305 binding and thereby contributes to delayed leaf senescence.
+  - **Evidence pointer** Results section "Natural variation in the OsIPT8 promoter affects OsMYB305 binding to the cis-element"; Figure 7
+  - **Concern** The manuscript states that a T to C substitution within Motif 3 in the OsIPT8 promoter divides accessions into two haplotypes and that EMSA shows loss of binding for the pOsIPT8b allele. However, the phenotypic association is based on leaf senescence values from the IRGCIS database, and the statistical analysis of this association is not described in detail. The claim that this SNP contributes to delayed leaf senescence requires a clear demonstration that the haplotype-phenotype association is significant and not confounded by population structure or linkage disequilibrium with other causal variants.
+  - **Why it matters** The regional adaptation claim rests on this association. Without proper statistical control, the observed correlation could be spurious. The functional relevance of the SNP in planta is not demonstrated beyond in vitro binding.
+  - **Resolution test** Provide a detailed description of the statistical model used for the haplotype-phenotype association, including corrections for population structure. Show that the SNP effect is robust. Ideally, introduce the pOsIPT8b allele into a common background or use a transgenic approach to demonstrate that the SNP alters senescence phenotypes in planta.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The claim that natural allelic variation in OsMYB305 contributes to regional adaptation in rice cultivation.
+  - **Evidence pointer** Results section "Natural variation in OsMYB305 is associated with subspecies-specific leaf senescence"; Figure 6; Discussion section "Adaptive selection of OsMYB305 haplotypes under high-latitude environments"
+  - **Concern** The geographical distribution analysis shows that the OsMYB305a allele is enriched in high-latitude regions, but the manuscript does not provide evidence for selection, such as population differentiation statistics (e.g., Fst), selection scans, or environmental association analyses. The adaptive explanation is plausible but speculative without such evidence. The functional link between earlier senescence and fitness in high-latitude environments is also not directly tested.
+  - **Why it matters** The title and a major conclusion of the manuscript claim regional adaptation. This is a strong evolutionary claim that requires population genetic evidence beyond allele frequency patterns. Without selection analysis, the observed distribution could reflect neutral processes or demographic history.
+  - **Resolution test** Perform formal selection tests (e.g., Tajima's D, Fst outlier analysis, or environmental association analysis) on the OsMYB305 locus. Alternatively, soften the claim to "associated with regional distribution" rather than "contributes to regional adaptation" unless direct fitness evidence is provided.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic completeness
+  - **Claim pointer** The claim that OsMYB305 modulates cytokinin homeostasis during leaf senescence through direct regulation of OsIPT8 and OsCKX2.
+  - **Evidence pointer** Results section "Loss of OsMYB305 enhances CK accumulation and reduces ABA sensitivity"; Figure 3
+  - **Concern** The manuscript shows that OsIPT8 and OsCKX2 are direct targets, but the relative contribution of each target to the observed cytokinin changes is not dissected. The increase in cytokinin levels in the mutant could be primarily due to OsIPT8 upregulation or OsCKX2 downregulation, or both. The manuscript does not address whether OsMYB305 also affects other cytokinin metabolic genes indirectly. The connection between reduced ABA sensitivity and the proposed model is also not fully integrated.
+  - **Why it matters** A clear mechanistic model requires understanding which target genes are functionally most important. The ABA connection adds complexity but is not fully explained in the context of the proposed pathway.
+  - **Resolution test** Perform genetic epistasis experiments or use target gene overexpression/knockdown in the osmyb305 background to determine the contribution of each target. Clarify how reduced ABA sensitivity fits into the model, possibly by examining whether OsMYB305 regulates ABA signaling components directly or indirectly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Summary section; Introduction
+  - **Issue** The abstract states that OsMYB305 downregulates "cytokinin-mediated inhibition of leaf senescence," which is a somewhat convoluted phrasing. The Introduction could more clearly state the gap in knowledge regarding upstream regulators of cytokinin metabolism during senescence.
+  - **Required correction** Rephrase the abstract for clarity, for example "OsMYB305 promotes leaf senescence by suppressing cytokinin biosynthesis and promoting cytokinin degradation." In the Introduction, explicitly state that while cytokinins are known to delay senescence, the transcription factors that regulate cytokinin metabolic genes during senescence are largely unknown.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Materials and Methods, Statistical analysis
+  - **Evidence pointer** Materials and Methods section "Statistical analysis"
+  - **Issue** The statistical methods section is brief. It mentions one-way ANOVA and Student's t-test but does not specify how many biological replicates were used for each experiment, whether data met normality assumptions, or how multiple testing was handled.
+  - **Required correction** Provide details on the number of biological replicates for each experiment, the software used, and any corrections for multiple comparisons beyond the post hoc test.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability section
+  - **Issue** The data availability statement only mentions NCBI accession numbers for gene sequences. The raw data for transcriptomics, ChIP-qPCR, and phenotypic analyses are not deposited in a public repository.
+  - **Required correction** Deposit raw data in a suitable repository (e.g., GEO for expression data, Zenodo or Figshare for phenotypic data) and provide accession numbers.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, subsection "Subspecies-specific effects of the OsMYB305a haplotype on leaf senescence"
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of asymmetric phenotypes between knockout and overexpression lines is speculative. The explanation that the Dongjin background is already fast-senescing is plausible but not directly tested.
+  - **Required correction** Acknowledge this as a hypothesis and suggest experiments to test it, such as generating overexpression lines in a different genetic background or measuring senescence rates in additional cultivars.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Materials and Methods, EMSA
+  - **Evidence pointer** Materials and Methods section "Electrophoretic mobility shift assays (EMSA)"
+  - **Issue** The EMSA methods do not specify the protein concentration used, the amount of probe, or whether competition assays were performed with unlabeled probes.
+  - **Required correction** Add these experimental details to allow replication.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (direct binding evidence not verifiable without figures), R1-M2 (haplotype-phenotype association lacks statistical rigor), R1-M3 (regional adaptation claim lacks population genetic evidence).
+- **Assessment against Nature-style criteria** Originality: The identification of a MYB transcription factor that directly regulates both a cytokinin biosynthesis and a degradation gene is a novel contribution. The link to natural variation and regional adaptation adds an original dimension. Scientific importance: The work addresses a fundamental question in senescence regulation and has potential implications for crop improvement. However, the importance is somewhat limited by the lack of functional validation of the SNP in planta and the absence of selection analysis. Interdisciplinary readership: The study bridges molecular biology, genetics, and evolutionary biology, which could attract a broad readership. Technical soundness: The experimental approaches are generally appropriate, but the inability to assess the actual data due to missing figures is a significant limitation. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with rice genetics and cytokinin metabolism.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core mechanistic findings are potentially valuable, but the manuscript cannot be fully evaluated without the figures and supplementary data. The regional adaptation claim requires additional population genetic evidence or should be tempered.

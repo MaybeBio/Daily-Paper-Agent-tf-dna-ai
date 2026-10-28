@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "38559255",
+    "doi": "10.1101/2024.03.13.583868",
+    "title": "Dissection of core promoter syntax through single nucleotide resolution modeling of transcription initiation."
+  },
+  "content": {
+    "abstract": "How the DNA sequence of cis-regulatory elements encode transcription initiation patterns remains poorly understood. Here we introduce CLIPNET, a deep learning model trained on population-scale PRO-cap data that predicts the position and quantity of transcription initiation with single nucleotide resolution from DNA sequence more accurately than existing approaches. Interpretation of CLIPNET revealed a complex regulatory syntax consisting of DNA-protein interactions in five major positions between -200 and +50 bp relative to the transcription start site, as well as more subtle positional preferences among transcriptional activators. Transcriptional activator and core promoter motifs work non-additively to encode distinct aspects of initiation, with the former driving initiation quantity and the latter initiation position. We identified core promoter motifs that explain initiation patterns in the majority of promoters and enhancers, including DPR motifs and AT-rich TBP binding sequences in TATA-less promoters. Our results provide insights into the sequence architecture governing transcription initiation.",
+    "keywords": [
+      "DPR",
+      "TATA box",
+      "cis-regulatory elements",
+      "core promoter motifs",
+      "transcription initiation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Adam Y",
+        "Danko, Charles G"
+      ],
+      "short_names": [
+        "He AY",
+        "Danko CG"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2084-6970",
+        "ORCID: 0000-0002-1999-7125"
+      ],
+      "affiliations": [
+        "Baker Institute for Animal Health, College of Veterinary Medicine, Cornell University.",
+        "Graduate Field of Computational Biology, Cornell University.",
+        "Baker Institute for Animal Health, College of Veterinary Medicine, Cornell University.",
+        "Department of Biomedical Sciences, College of Veterinary Medicine, Cornell University."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Adam Y",
+        "short_name": "He AY",
+        "identifiers": [
+          "0000-0003-2084-6970"
+        ],
+        "affiliations": [
+          "Baker Institute for Animal Health, College of Veterinary Medicine, Cornell University.",
+          "Graduate Field of Computational Biology, Cornell University."
+        ]
+      },
+      {
+        "full_name": "Danko, Charles G",
+        "short_name": "Danko CG",
+        "identifiers": [
+          "0000-0002-1999-7125"
+        ],
+        "affiliations": [
+          "Baker Institute for Animal Health, College of Veterinary Medicine, Cornell University.",
+          "Department of Biomedical Sciences, College of Veterinary Medicine, Cornell University."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Sep 17",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/01 18:42",
+    "fetched_at": "2026-09-29 18:05:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39779956",
+      "38662817",
+      "38036790",
+      "38036789",
+      "38036778",
+      "37848026",
+      "37163335",
+      "36335397",
+      "35775732",
+      "35597524",
+      "35177836",
+      "34850907",
+      "34782625",
+      "34608324",
+      "33795473",
+      "33689769",
+      "33603233",
+      "33270111",
+      "33235186",
+      "32958950",
+      "32908305",
+      "32728249",
+      "32687525",
+      "32597978",
+      "31713622",
+      "31712408",
+      "31178116",
+      "30683753",
+      "30606845",
+      "30349116",
+      "29946135",
+      "29588361",
+      "29425488",
+      "28994650",
+      "28977400",
+      "28137873",
+      "28108474",
+      "27863239",
+      "27197224",
+      "27193682",
+      "27193681",
+      "27052732",
+      "26472909",
+      "26287746",
+      "26028540",
+      "25892221",
+      "25383968",
+      "25363779",
+      "25215497",
+      "24958592",
+      "24880339",
+      "24843027",
+      "24561252",
+      "24441470",
+      "23523369",
+      "23446344",
+      "23332764",
+      "22955616",
+      "22258509",
+      "21778360",
+      "21330290",
+      "20981092",
+      "20801935",
+      "20434984",
+      "20107516",
+      "19915551",
+      "19741698",
+      "17603472",
+      "17324271",
+      "16998473",
+      "16827941",
+      "16645617",
+      "16230532",
+      "15231738",
+      "12809139",
+      "12045153",
+      "10848601",
+      "10635321",
+      "9420329",
+      "8598298",
+      "8565831",
+      "8548797",
+      "8264580",
+      "7909358",
+      "3282236",
+      "2467742",
+      "98262"
+    ],
+    "similar": [
+      "38559255",
+      "26394619",
+      "28539359",
+      "19337366",
+      "21284373",
+      "40983924",
+      "17123746",
+      "38853896",
+      "15733318",
+      "20222994",
+      "17210644",
+      "8086419",
+      "25747261",
+      "26824723",
+      "11564871",
+      "23933270",
+      "29482522",
+      "16790048",
+      "21931670",
+      "22834489",
+      "20805245",
+      "7966586",
+      "14597623",
+      "8735270",
+      "8321191",
+      "19483094",
+      "24205361",
+      "23801666",
+      "16037067",
+      "25035402",
+      "1748992",
+      "8598298",
+      "32908305",
+      "30755505",
+      "27003446",
+      "39020164",
+      "16916456",
+      "40767619",
+      "24204023",
+      "30998799",
+      "8308008",
+      "10542223",
+      "16626302",
+      "18436437",
+      "1400410",
+      "30622120",
+      "8339931",
+      "17137509",
+      "7961772",
+      "29176831",
+      "25383968",
+      "14660650",
+      "24177688",
+      "30778358",
+      "28412515",
+      "11581157",
+      "7565743",
+      "8340407",
+      "31092928",
+      "24413663",
+      "9238060",
+      "33553008",
+      "11048951",
+      "35597524",
+      "1321424",
+      "27007846",
+      "17346352",
+      "7518774",
+      "2072443",
+      "23414203",
+      "25774193",
+      "10848601",
+      "8377828",
+      "2329577",
+      "8139927",
+      "15939554",
+      "7565728",
+      "2247077",
+      "29946135",
+      "8355718",
+      "1588975",
+      "11687517",
+      "38173877",
+      "9234706",
+      "34652274",
+      "21071415",
+      "19755139",
+      "22110682",
+      "19682982",
+      "41646320",
+      "41497617",
+      "22683808",
+      "9343426",
+      "7853477",
+      "19119427",
+      "12767124",
+      "11839742",
+      "26046838",
+      "8663141",
+      "25588059"
+    ],
+    "review": [
+      "38559255",
+      "8735270",
+      "23801666",
+      "16626302",
+      "18436437",
+      "35597524",
+      "29946135",
+      "19682982"
+    ],
+    "pmc": [
+      "10979970"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38559255/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38559255",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-325",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.03.13.583868",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

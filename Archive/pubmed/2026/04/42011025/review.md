@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, data availability)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the provided text; no external data or supplementary files were assessed
+- **Shared manuscript claim summary** The authors present a single-cell co-mapping assay (woT-ChIC) that jointly profiles H3K27me3 and H3K4me1 histone modifications with full-length transcriptomes in individual cells during early zebrafish development (4–24 hpf). They report that chromatin and transcriptional states are uncoupled before germ layer formation and become progressively coupled during gastrulation and somitogenesis. They describe cis-spreading of H3K27me3 as a mechanism for silencing developmental genes, identify cell type-specific demethylation events, and use an interpretable machine learning model to classify transcription factors as lineage-specific activators or repressors based on chromatin state at binding sites.
+- **Visible evidence base** Main text figures referenced (Figures 1–4 and associated supplements), supplementary files 1–4, methods descriptions, data availability statement
+- **Missing materials affecting confidence** Supplementary figures and files not provided; no access to raw data, quality control metrics, or full figure panels; statistical details and model validation parameters only partially described
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant gap in developmental biology by providing a multimodal single-cell dataset that jointly measures histone modifications and transcriptomes during zebrafish embryogenesis. The central observation that chromatin and transcriptional states become progressively coupled during development is potentially important. However, several key claims, particularly regarding the uncoupling of chromatin and transcription at early stages and the TF classification scheme, require stronger statistical support and clearer presentation of validation metrics. The methods are described in sufficient detail to be reproducible, but some analytical choices need justification.
+- **Who would be interested in the results, and why** Developmental biologists studying chromatin dynamics during embryogenesis, researchers interested in polycomb-mediated gene silencing, and method developers working on single-cell multi-omics approaches. The dataset itself will be a valuable resource for the zebrafish community and for those studying the establishment of cell identity.
+- **Major strengths** The study presents a technically challenging dataset that jointly profiles histone modifications and transcriptomes in single cells across multiple developmental time points. The observation of progressive coupling between chromatin state and transcription during development is conceptually interesting. The TF classification framework, which integrates chromatin state at binding sites with TF expression, offers a potentially useful approach for predicting TF function in vivo. The inclusion of a nuclei-based protocol to reduce maternal RNA contamination is a thoughtful methodological addition.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The claim that chromatin and transcriptional states are "uncoupled" before germ layer formation and become "progressively connected" during gastrulation and somitogenesis.
+  - **Evidence pointer** Figure 3c and 3d; Figure 3—figure supplement 2d; Results section "Global chromatin state of cells is decoupled from gene expression during early development"
+  - **Concern** The correlation analysis between H3K4me1 and unspliced RNA signals is presented as evidence for decoupling at early time points. However, the statistical framework for assessing "uncoupling" is not clearly defined. What is the null expectation for correlation between chromatin marks and transcription in early embryos? The authors do not report confidence intervals, effect sizes, or a formal test for whether the observed correlations at early time points differ significantly from zero or from a biologically meaningful threshold. Additionally, the decrease in global H3K4me1 signal with time (Figure 3—figure supplement 1c) could confound correlation analyses if not properly normalized.
+  - **Why it matters** The central conceptual claim of the paper rests on this observation. If the apparent uncoupling is an artifact of technical factors (e.g., lower signal-to-noise at early time points, differences in cell composition, or maternal RNA contamination), the interpretation would be substantially weakened.
+  - **Resolution test** Provide a formal statistical comparison of correlation coefficients across time points, including confidence intervals. Report the correlation between H3K4me1 and transcription for a set of control genes (e.g., constitutively expressed housekeeping genes) to establish a baseline expectation. Demonstrate that the observed decoupling is not explained by differences in sequencing depth, cell quality, or maternal RNA contribution.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that H3K27me3 cis-spreading is a mechanism for silencing developmental genes, and that this process is "seemingly uncoupled with the prior transcription state of these genes."
+  - **Evidence pointer** Figure 2b–d; Figure 2—figure supplement 2g–h; Results section "Spatiotemporal spreading of H3K27me3 associates with the silencing of gene expression during development"
+  - **Concern** The regression analysis used to link H3K27me3 density to gene expression is described only briefly. The authors state that silenced genes show a strong negative correlation, but the model specification, covariates included, and handling of confounders (e.g., gene length, GC content, expression level) are not described. The claim that spreading is "uncoupled" from prior transcription state requires a demonstration that the genes showing spreading were not already silenced before the spreading event. The temporal resolution of the data (4, 6, 8, 10, 12, 24 hpf) may be insufficient to establish causality.
+  - **Why it matters** The proposed mechanism of H3K27me3 spreading as a driver of gene silencing is a key finding. If the correlation between spreading and silencing is confounded by prior transcriptional state or by other chromatin features, the mechanistic interpretation would be incorrect.
+  - **Resolution test** Provide a more detailed description of the regression model, including covariates and diagnostics. Show that genes with H3K27me3 spreading were expressed at the time of initial marking (e.g., at 4 hpf) and that silencing follows spreading in individual cells or metacells along a trajectory. Consider a causal inference framework or at least a temporal ordering analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The claim that the TF classification model accurately identifies lineage-specific activators and repressors, and that a subset of TFs are "epigenetically regulated."
+  - **Evidence pointer** Figure 4a–c; Figure 4—figure supplement 1a–b; Results section "The chromatin state of binding sites predicts the function of transcription factors during gastrulation"
+  - **Concern** The model validation is described as achieving R2 > 0.6 for 45 TFs, but the authors do not report how many TFs were tested in total, what the distribution of R2 values was, or how the threshold was chosen. The classification of TFs as activators or repressors based on the sign of regression weights is a strong claim that requires experimental validation. The authors mention that the model "captured the well-established developmental function" of a few TFs, but this is anecdotal. The claim that some TFs are "epigenetically regulated" is based on non-zero weights for the TF's own chromatin state, but the direction and interpretation of these weights are not clearly explained.
+  - **Why it matters** The TF classification framework is presented as a major outcome of the paper. Without rigorous validation (e.g., comparison to known TF functions across a larger set, experimental perturbation, or cross-validation with held-out data), the predictive value of the model is uncertain.
+  - **Resolution test** Report the total number of TFs analyzed, the distribution of model performance, and the criteria for selecting the 45 TFs. Validate predictions against a curated set of known TF functions in zebrafish development. Provide experimental validation for at least a subset of newly predicted TF functions, or clearly state the predictions as hypotheses requiring testing.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data interpretation
+  - **Claim pointer** The claim that the "active chromatin state is a better predictor of a cell's functional (transcriptomic) state" compared to the repressive state.
+  - **Evidence pointer** Discussion section; Figure 3c
+  - **Concern** This claim is made in the discussion but the supporting analysis is not clearly presented in the results. The authors compare correlations of H3K4me1 and H3K27me3 with transcription, but the statistical comparison between these two correlations is not reported. It is unclear whether the difference is significant and whether it holds across all cell types and time points.
+  - **Why it matters** This is an important conceptual point about the relative roles of active and repressive chromatin marks in defining cell identity. If the claim is not rigorously supported, it should be softened or moved to a hypothesis-generating statement.
+  - **Resolution test** Perform a formal statistical comparison between the correlation of H3K4me1 with transcription and the correlation of H3K27me3 with transcription, including appropriate multiple testing correction. Report results stratified by cell type and developmental stage.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1a
+  - **Evidence pointer** Figure 1a; Materials and methods "Whole-organism T-ChIC of zebrafish embryos"
+  - **Issue** The schematic in Figure 1a is described as showing the workflow, but the key innovation (the "nuclei" protocol for removing maternal RNA) is not clearly highlighted in the text description.
+  - **Required correction** Add a clear description of the nuclei protocol in the figure legend and main text, emphasizing how it addresses the maternal RNA contamination issue.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Differential H3K27me3 analysis
+  - **Evidence pointer** Results section "Spatiotemporal spreading of H3K27me3 associates with the silencing of gene expression during development"; Materials and methods "H3K27me3 spreading and demethylation analysis"
+  - **Issue** The differential analysis uses edgeR with metacells as replicates, but the number of metacells per cell type and the dispersion estimates are not reported.
+  - **Required correction** Report the number of metacells per cell type, the estimated dispersion, and the number of genes tested in the differential analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** TF motif annotation
+  - **Evidence pointer** Materials and methods "Peak calling and annotation"
+  - **Issue** The description of TF motif assignment states that motifs were filtered for those present in SwissRegulon, but the matching threshold and the handling of multiple motifs per peak are not described.
+  - **Required correction** Provide the motif matching threshold, the number of peaks with at least one motif, and the method for assigning a single motif to a peak with multiple matches.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Cross-species comparison
+  - **Evidence pointer** Results section "Spatiotemporal spreading of H3K27me3 associates with the silencing of gene expression during development"; Figure 2—figure supplement 2f
+  - **Issue** The comparison to mouse embryo data is presented as evidence for conservation, but the analysis is described only briefly and the statistical comparison is not reported.
+  - **Required correction** Provide a quantitative comparison (e.g., overlap of genes showing spreading in both species, correlation of signal profiles) and report the statistical significance.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Throughout
+  - **Issue** The term "uncoupled" is used to describe the relationship between chromatin and transcription at early stages, but this could be misinterpreted as a complete lack of relationship. A more nuanced term such as "weakly correlated" or "not yet established" may be more accurate.
+  - **Required correction** Consider revising the terminology to more precisely reflect the statistical findings.
+
+## Risk / unsupported claims
+- The claim that chromatin and transcriptional states are "uncoupled" before germ layer formation is not fully supported by the statistical analysis presented; the threshold for "uncoupling" is not defined.
+- The claim that H3K27me3 cis-spreading is "seemingly uncoupled with the prior transcription state" is not supported by a temporal analysis demonstrating that spreading precedes silencing.
+- The TF classification model's accuracy is not rigorously validated; only anecdotal examples are provided.
+- The claim that the active chromatin state is a "better predictor" of transcriptional state is not supported by a formal statistical comparison.
+- The cross-species conservation claim (mouse comparison) is not quantitatively supported in the provided text.
+- The statement that "the overall number of detected genes with both spliced and unspliced counts is higher than previously reported" requires direct comparison to the cited studies with appropriate statistical testing, which is not provided.
+- The claim that the dataset "resolves the dynamic relationship between chromatin and transcription" is overstated given the correlational nature of the analyses.

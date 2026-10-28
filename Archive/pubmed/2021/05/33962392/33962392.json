@@ -1,0 +1,419 @@
+{
+  "identity": {
+    "pmid": "33962392",
+    "doi": "10.18632/aging.202982",
+    "title": "Prognostic value of members of NFAT family for pan-cancer and a prediction model based on NFAT2 in bladder cancer."
+  },
+  "content": {
+    "abstract": "Bladder cancer (BLCA) is one of the common malignant tumors of the urinary system. The poor prognosis of BLCA patients is due to the lack of early diagnosis and disease recurrence after treatment. Increasing evidence suggests that gene products of the nuclear factor of activated T-cells (NFAT) family are involved in BLCA progression and subsequent interaction(s) with immune surveillance. In this study, we carried out a pan-cancer analysis of the NFAT family and found that NFAT2 is an independent prognostic factor for BLCA. We then screened for differentially expressed genes (DEGs) and further analyzed such candidate gene loci using gene ontology enrichment to curate the KEGG database. We then used Lasso and multivariate Cox regression to identify 4 gene loci (FER1L4, RNF128, EPHB6, and FN1) which were screened together with NFAT2 to construct a prognostic model based on using Kaplan-Meier analysis to predict the overall survival of BLCA patients. Moreover, the accuracy of our proposed model is supported by deposited datasets in the Gene Expression Omnibus (GEO) database. Finally, a nomogram of this prognosis model for BLCA was established which could help to provide better disease management and treatment.",
+    "keywords": [
+      "NFAT",
+      "bladder cancer",
+      "nomogram",
+      "overall survival",
+      "prognostic risk score"
+    ],
+    "mesh_terms": [
+      "Cell Line, Tumor",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic",
+      "Gene Ontology",
+      "Humans",
+      "Kaplan-Meier Estimate",
+      "*Models, Biological",
+      "NFATC Transcription Factors/genetics/*metabolism",
+      "Oncogenes",
+      "Prognosis",
+      "Proportional Hazards Models",
+      "Protein Interaction Maps/genetics",
+      "Reproducibility of Results",
+      "Risk Factors",
+      "Urinary Bladder Neoplasms/*diagnosis/genetics/*metabolism/pathology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dai, Zhou-Tong",
+        "Xiang, Yuan",
+        "Wang, Yundan",
+        "Bao, Le-Yuan",
+        "Wang, Jun",
+        "Li, Jia-Peng",
+        "Zhang, Hui-Min",
+        "Lu, Zhongxin",
+        "Ponnambalam, Sreenivasan",
+        "Liao, Xing-Hua"
+      ],
+      "short_names": [
+        "Dai ZT",
+        "Xiang Y",
+        "Wang Y",
+        "Bao LY",
+        "Wang J",
+        "Li JP",
+        "Zhang HM",
+        "Lu Z",
+        "Ponnambalam S",
+        "Liao XH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Wuhan 430081, Hubei, P.R. China.",
+        "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Wuhan 430081, Hubei, P.R. China.",
+        "Department of Medical Laboratory, Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430014, Hubei, P.R. China.",
+        "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Wuhan 430081, Hubei, P.R. China.",
+        "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Wuhan 430081, Hubei, P.R. China.",
+        "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Wuhan 430081, Hubei, P.R. China.",
+        "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Wuhan 430081, Hubei, P.R. China.",
+        "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Wuhan 430081, Hubei, P.R. China.",
+        "Department of Medical Laboratory, Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430014, Hubei, P.R. China.",
+        "School of Molecular and Cellular Biology, University of Leeds, Leeds LS2 9JT, United Kingdom.",
+        "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Wuhan 430081, Hubei, P.R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dai, Zhou-Tong",
+        "short_name": "Dai ZT",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Wuhan 430081, Hubei, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Yuan",
+        "short_name": "Xiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Wuhan 430081, Hubei, P.R. China.",
+          "Department of Medical Laboratory, Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430014, Hubei, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yundan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Wuhan 430081, Hubei, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Bao, Le-Yuan",
+        "short_name": "Bao LY",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Wuhan 430081, Hubei, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jun",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Wuhan 430081, Hubei, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Jia-Peng",
+        "short_name": "Li JP",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Wuhan 430081, Hubei, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hui-Min",
+        "short_name": "Zhang HM",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Wuhan 430081, Hubei, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Lu, Zhongxin",
+        "short_name": "Lu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory, Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430014, Hubei, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Ponnambalam, Sreenivasan",
+        "short_name": "Ponnambalam S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular and Cellular Biology, University of Leeds, Leeds LS2 9JT, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Liao, Xing-Hua",
+        "short_name": "Liao XH",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biology and Medicine, College of Life and Health Sciences, Wuhan University of Science and Technology, Wuhan 430081, Hubei, P.R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Aging"
+    ],
+    "journal_abbrev": [
+      "Aging (Albany NY)"
+    ],
+    "pub_date": "2021 May 7",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/08 06:00",
+    "fetched_at": "2026-09-27 16:56:38"
+  },
+  "links": {
+    "cites": [
+      "40470116",
+      "40038210",
+      "39236169",
+      "39125654",
+      "36770654",
+      "36652182",
+      "35816352",
+      "35719407"
+    ],
+    "refs": [
+      "31492561",
+      "31423213",
+      "31216681",
+      "31114875",
+      "31101593",
+      "31052345",
+      "30832692",
+      "30556848",
+      "30207593",
+      "29771417",
+      "29313949",
+      "29274284",
+      "29245927",
+      "28972965",
+      "28972876",
+      "28524749",
+      "28495876",
+      "28157208",
+      "27370177",
+      "27350254",
+      "27324428",
+      "26661513",
+      "26224446",
+      "25677125",
+      "25374904",
+      "25352553",
+      "25231981",
+      "24979766",
+      "24912672",
+      "24367507",
+      "24093089",
+      "23684510",
+      "23370271",
+      "23193258",
+      "22895187",
+      "22845408",
+      "22588877",
+      "22455463",
+      "22088333",
+      "21036738",
+      "20962265",
+      "20927322",
+      "19724275",
+      "19517271",
+      "18323559",
+      "18257673",
+      "17371988",
+      "17356713",
+      "16582901",
+      "16505480",
+      "16364251",
+      "16217396",
+      "16080541",
+      "14612926",
+      "14597658",
+      "12460779",
+      "12080349",
+      "10797484",
+      "10762014",
+      "9768749",
+      "9143705",
+      "3260003"
+    ],
+    "similar": [
+      "33962392",
+      "34315402",
+      "33685397",
+      "34706720",
+      "31333338",
+      "32047816",
+      "34112144",
+      "36357874",
+      "34819038",
+      "30048970",
+      "35140317",
+      "34802433",
+      "34484235",
+      "33150179",
+      "33888644",
+      "34738881",
+      "32390597",
+      "38064272",
+      "35581606",
+      "37123010",
+      "30359990",
+      "36973787",
+      "38903931",
+      "39152248",
+      "39048164",
+      "35154117",
+      "38023241",
+      "34930465",
+      "38336764",
+      "33204728",
+      "34975891",
+      "33894748",
+      "38049825",
+      "37632832",
+      "31216997",
+      "39112614",
+      "32352838",
+      "31883309",
+      "36183925",
+      "28060759",
+      "33323544",
+      "34512654",
+      "38579085",
+      "37064115",
+      "37647346",
+      "32596394",
+      "34708131",
+      "39075554",
+      "38332160",
+      "35993952",
+      "35669725",
+      "36090967",
+      "34418989",
+      "38968515",
+      "35860239",
+      "34926692",
+      "37872487",
+      "34512722",
+      "31657881",
+      "39033778",
+      "22808294",
+      "35768832",
+      "34426790",
+      "39029056",
+      "34374227",
+      "37968767",
+      "36072584",
+      "32677673",
+      "37115085",
+      "35450397",
+      "35706790",
+      "38518167",
+      "37960960",
+      "33184436",
+      "31373406",
+      "33204364",
+      "25050631",
+      "36689018",
+      "38071230",
+      "29445424",
+      "39104534",
+      "35125116",
+      "37171335",
+      "37790935",
+      "36472061",
+      "37301098",
+      "33929972",
+      "33048468",
+      "33960661",
+      "37006317",
+      "33391264",
+      "29973580",
+      "38898429",
+      "34329197",
+      "30953370",
+      "34733656",
+      "36263004",
+      "34368227",
+      "38918587",
+      "37563710",
+      "27858162"
+    ],
+    "review": [
+      "33962392"
+    ],
+    "pmc": [
+      "8202856"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.aging-us.com/full/202982",
+        "provider": "Impact Journals, LLC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bladdercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bladder Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33962392/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33962392",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-983",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33962392",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/173959/",
+        "provider": "White Rose Research Online",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

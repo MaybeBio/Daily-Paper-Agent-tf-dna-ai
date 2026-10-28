@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or computational details beyond those summarized
+- **Shared manuscript claim summary** The authors report in silico DFT-based activation strain and energy decomposition analyses of oxidation of simplified Zn(2+) tetrahedral complexes (CCCC, CCCH, CCHH) by H(2)O(2), finding that CCCC is oxidized most easily due to electrostatic and orbital interactions; that sulfenate-kappaO isomerization introduces a kinetic barrier without improving dissociation energetics; and that ligand exchange with free thiolates and selenolates may trigger ligand dissociation, supported by molecular docking simulations.
+- **Visible evidence base** Abstract text only; no figures, tables, computational protocols, or docking details provided
+- **Missing materials affecting confidence** Full manuscript, computational methodology details, numerical results, structural data, docking parameters, and any supporting information
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused computational study with a clear mechanistic question and a plausible methodological framework. However, the evidence base available for review is limited to the abstract, which prevents independent verification of the central claims. The conclusions are stated with reasonable caution, but several key quantitative and methodological details are absent, limiting the ability to assess technical soundness and the strength of the structure-property trends claimed.
+- **Who would be interested in the results, and why** Researchers in bioinorganic chemistry, computational chemistry, and redox biology, particularly those studying zinc finger protein stability under oxidative stress, metal-thiolate oxidation mechanisms, and the design of metal-binding site models. The activation strain analysis approach may also appeal to method-oriented computational chemists interested in reaction mechanism decomposition.
+- **Major strengths** The study addresses a biologically relevant question with a well-defined model system. The use of activation strain and energy decomposition analyses provides a mechanistically informative framework. The comparison across three zinc finger motifs is a sensible design for identifying structural determinants of reactivity. The inclusion of ligand exchange and docking adds a potentially valuable translational dimension.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that CCCC is oxidized most easily, explained by electrostatic and orbital interactions, and that trends are rationalized through activation strain and energy decomposition analyses.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a single computational level (ZORA-M06/TZ2P ae // ZORA-BLYP-D3(BJ)/TZ2P) but provides no numerical data, such as activation barriers, reaction energies, or energy decomposition terms. Without these values, the relative ease of oxidation across the three motifs cannot be independently assessed, and the stated explanation in terms of electrostatic and orbital interactions is not verifiable.
+  - **Why it matters** The central mechanistic conclusion rests on quantitative comparisons that are not visible in the abstract. A reader cannot determine whether the reported trend is robust, whether the energy differences are significant, or whether the decomposition analysis supports the stated interpretation.
+  - **Resolution test** Provide activation barriers, reaction energies, and key energy decomposition terms for each motif, with a clear comparison table or figure, in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that sulfenate-kappaO isomerization introduces a kinetic barrier without improving the energetics of ligand dissociation.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states this outcome but provides no kinetic or thermodynamic data, such as barrier heights for isomerization or dissociation energies before and after isomerization. The conclusion that the isomerization is kinetically unfavorable and thermodynamically unhelpful cannot be evaluated.
+  - **Why it matters** This is a key mechanistic step in the proposed disruption pathway. Without quantitative support, the claim is an assertion rather than a demonstrated result.
+  - **Resolution test** Report the relevant barrier heights and dissociation energies, and show how they compare across the three motifs, in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that ligand exchange with free thiolates and selenolates may trigger ligand dissociation, possibly leading to metal ejection, and that molecular docking simulations support this hypothesis.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract mentions molecular docking simulations but provides no details on the docking protocol, targets, ligands, scoring functions, or results. The connection between docking outcomes and the proposed ligand-exchange mechanism is not established in the abstract.
+  - **Why it matters** Docking is a distinct method from the DFT calculations, and its relevance to the proposed mechanism requires explicit justification. Without details, the support claimed from docking is unverifiable.
+  - **Resolution test** Describe the docking setup and results, and explain how docking outcomes relate to the ligand-exchange energetics, in the full manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Terms such as "sulfenate-kappaS" and "sulfenate-kappaO" are used without definition or context, which may hinder readers unfamiliar with coordination chemistry notation.
+  - **Required correction** Define these terms briefly on first use, or provide a short explanatory phrase.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Computational protocol
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract specifies the DFT functional and basis set but does not mention how stationary points were characterized, whether solvent effects were included, or how the model complexes were constructed and validated.
+  - **Required correction** Include these details in the full methods section, and state them clearly in the abstract if space permits.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of scope
+  - **Affected element** Biological relevance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that H(2)O(2) is biologically relevant but does not specify the concentration range or conditions under which the modeled oxidation would be physiologically plausible.
+  - **Required correction** Add a brief statement on the biological context or a reference to relevant conditions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative data for the central reactivity trend, the isomerization barrier, and the docking support means the core claims are not currently established from the provided evidence.
+- **Assessment against Nature-style criteria** Originality: The application of activation strain analysis to zinc finger oxidation is a reasonable extension of existing methods, but the abstract does not demonstrate a conceptually novel framework. Scientific importance: The topic is relevant to redox biology and zinc finger stability, but the significance of the findings is not quantified or contextualized against prior work. Interdisciplinary readership: The work bridges computational chemistry and bioinorganic chemistry, but the abstract is likely to be accessible mainly to specialists. Technical soundness: The methodological framework is plausible, but the absence of numerical results prevents verification. Readability for nonspecialists: The abstract is concise but uses specialized terminology without sufficient explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential merit, but the abstract alone does not provide sufficient quantitative or methodological detail to support the central claims. A full manuscript with complete data would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The relative ease of oxidation across CCCC, CCCH, and CCHH is stated but not supported by any numerical data in the abstract.
+- The explanation of the reactivity trend in terms of electrostatic and orbital interactions is asserted without presentation of the underlying decomposition terms.
+- The claim that sulfenate-kappaO isomerization introduces a kinetic barrier without improving dissociation energetics is unsupported by any reported barrier or energy values.
+- The claim that molecular docking simulations support the ligand-exchange hypothesis is unverifiable without docking details or results.
+- The biological relevance of the modeled conditions is asserted but not contextualized with specific physiological parameters.

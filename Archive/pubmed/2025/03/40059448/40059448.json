@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "40059448",
+    "doi": "10.1096/fj.202402793R",
+    "title": "Polo-like kinase2 regulates renal tubulointerstitial fibrosis via notch signaling pathway in diabetic kidney disease."
+  },
+  "content": {
+    "abstract": "Renal tubulointerstitial fibrosis is considered as an important pathological feature of diabetic kidney disease (DKD). However, the underlying mechanism remains unclear. Polo-like kinase2 (PLK2) is a known player in the regulation of organ fibrosis. Herein, we investigated the expression and function of PLK2 in renal tubular epithelial cells in DKD. Data from the GSE30529 datasets were subjected to analyze the differentially expressed genes (DEGs) in non-diabetic and diabetic renal tubule samples. Molecular docking analysis and Co-IP assay were performed to investigate the interaction between PLK2 and NOTCH1. Immunohistochemistry, immunofluorescent staining, qRT-PCR, and western blot were performed. Our research revealed an increased expression of PLK2 in both DKD mouse kidney tissues and HK-2 cells stimulated by high glucose (HG). Silencing PLK2 remarkably reduced the expression of the renal fibrosis-related markers fibronectin (FN), connective tissue growth factor (CTGF) and alpha smooth muscle actin(alphaSMA). Furthermore, we verified the interaction between PLK2 and NOTCH1. Silencing PLK2 significantly inhibited the activation of the Notch signaling pathway, and concurrently overexpressing HES1 rescued the downregulation of FN, CTGF, and alphaSMA induced by transfecting si-PLK2. Finally, we found that treatment with DAPT suppressed the activation of the Notch signaling pathway and reversed the progression of renal fibrosis caused by HG. This study demonstrates that PLK2 mediates renal tubulointerstitial fibrosis in DKD by activating the Notch signaling pathway, suggesting that PLK2 may be a potential therapeutic target for DKD.",
+    "keywords": [
+      "diabetic kidney disease",
+      "interstitial fibrosis",
+      "notch signaling pathway",
+      "polo-like kinase2",
+      "renal tubular epithelial cell"
+    ],
+    "mesh_terms": [
+      "*Diabetic Nephropathies/metabolism/pathology/genetics",
+      "*Protein Serine-Threonine Kinases/metabolism/genetics",
+      "Animals",
+      "Mice",
+      "Fibrosis/metabolism",
+      "*Signal Transduction",
+      "Humans",
+      "*Kidney Tubules/pathology/metabolism",
+      "Male",
+      "Mice, Inbred C57BL",
+      "Cell Line",
+      "*Receptor, Notch1/metabolism/genetics",
+      "Epithelial Cells/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Jiayi",
+        "Xu, Haibin",
+        "Su, Cailin",
+        "Dong, Wenhui",
+        "Xiao, Manlu",
+        "Xiao, Nan",
+        "Jia, Yijie",
+        "Xue, Yaoming"
+      ],
+      "short_names": [
+        "Luo J",
+        "Xu H",
+        "Su C",
+        "Dong W",
+        "Xiao M",
+        "Xiao N",
+        "Jia Y",
+        "Xue Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3343-5006",
+        "ORCID: 0009-0009-3192-076X",
+        "ORCID: 0009-0008-1200-155X",
+        "ORCID: 0009-0001-9463-4180",
+        "ORCID: 0009-0007-2441-2447",
+        "ORCID: 0000-0001-6818-6719",
+        "ORCID: 0000-0002-4338-8397",
+        "ORCID: 0000-0003-1356-4780"
+      ],
+      "affiliations": [
+        "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China.",
+        "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Jiayi",
+        "short_name": "Luo J",
+        "identifiers": [
+          "0000-0002-3343-5006"
+        ],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Haibin",
+        "short_name": "Xu H",
+        "identifiers": [
+          "0009-0009-3192-076X"
+        ],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Su, Cailin",
+        "short_name": "Su C",
+        "identifiers": [
+          "0009-0008-1200-155X"
+        ],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Wenhui",
+        "short_name": "Dong W",
+        "identifiers": [
+          "0009-0001-9463-4180"
+        ],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Manlu",
+        "short_name": "Xiao M",
+        "identifiers": [
+          "0009-0007-2441-2447"
+        ],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Nan",
+        "short_name": "Xiao N",
+        "identifiers": [
+          "0000-0001-6818-6719"
+        ],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Yijie",
+        "short_name": "Jia Y",
+        "identifiers": [
+          "0000-0002-4338-8397"
+        ],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Yaoming",
+        "short_name": "Xue Y",
+        "identifiers": [
+          "0000-0003-1356-4780"
+        ],
+        "affiliations": [
+          "Department of Endocrinology and Metabolism, Nanfang Hospital, Southern Medical University, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "FASEB journal : official publication of the Federation of American Societies for Experimental Biology"
+    ],
+    "journal_abbrev": [
+      "FASEB J"
+    ],
+    "pub_date": "2025 Mar 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/10 08:00",
+    "fetched_at": "2026-09-30 13:16:10"
+  },
+  "links": {
+    "cites": [
+      "42254676",
+      "41019094",
+      "40828323",
+      "40822939",
+      "40591224",
+      "40243723"
+    ],
+    "refs": [
+      "39002871",
+      "38521405",
+      "38184733",
+      "37640723",
+      "37265030",
+      "37094847",
+      "35905928",
+      "35842499",
+      "34433292",
+      "34327204",
+      "33799608",
+      "33482186",
+      "33203706",
+      "33176854",
+      "33067313",
+      "32192190",
+      "29289895",
+      "28794168",
+      "28655909",
+      "27908889",
+      "27423313",
+      "26934179",
+      "26831938",
+      "26004360",
+      "24954208",
+      "24892707",
+      "24598160",
+      "23093662",
+      "22402306",
+      "20978353",
+      "19001868",
+      "17360533",
+      "17081991",
+      "15242618",
+      "11685557",
+      "10922968",
+      "8991084"
+    ],
+    "similar": [
+      "40059448",
+      "32141566",
+      "40237854",
+      "32054986",
+      "39509016",
+      "32715764",
+      "30324679",
+      "38952291",
+      "32376130",
+      "32558900",
+      "31629675",
+      "39901448",
+      "38878099",
+      "39884075",
+      "32338120",
+      "38972525",
+      "26956696",
+      "39991769",
+      "34801707",
+      "39743023",
+      "39418962",
+      "40247227",
+      "32424454",
+      "32933345",
+      "34278469",
+      "39789539",
+      "39251943",
+      "29298862",
+      "26062793",
+      "40043828",
+      "39140974",
+      "35669284",
+      "32297575",
+      "39570100",
+      "39541663",
+      "26155842",
+      "40174339",
+      "39838394",
+      "34608568",
+      "40174645",
+      "40010183",
+      "32473006",
+      "37095454",
+      "29294056",
+      "11422741",
+      "35367831",
+      "39989251",
+      "27467277",
+      "39880066",
+      "33692334",
+      "39586521",
+      "39556027",
+      "39643641",
+      "31841202",
+      "39133777",
+      "20978353",
+      "39643036",
+      "24088962",
+      "36347997",
+      "37884902",
+      "39608245",
+      "28033563",
+      "31539631",
+      "38832484",
+      "32500512",
+      "28100501",
+      "37087550",
+      "38183100",
+      "39424127",
+      "31084358",
+      "30280598",
+      "26808537",
+      "31650524",
+      "29848325",
+      "31948095",
+      "38776855",
+      "38147289",
+      "33729484",
+      "32798559",
+      "39904045",
+      "26191142",
+      "22792351",
+      "29209813",
+      "34627808",
+      "31746345",
+      "34295152",
+      "39562622",
+      "36142408",
+      "29233968",
+      "32681069",
+      "33621200",
+      "29568954",
+      "29482336",
+      "30407728",
+      "39089491",
+      "39169174",
+      "38512446",
+      "33755760",
+      "32868134",
+      "27145370"
+    ],
+    "review": [
+      "40059448"
+    ],
+    "pmc": [
+      "11891471"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40059448/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1096/fj.202402793R",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1122",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

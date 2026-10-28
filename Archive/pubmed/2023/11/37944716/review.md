@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that the Ser7 residue of the RNA Pol II CTD influences recruitment of the Cdc73 subunit of the Paf1 complex, and identify specific arginine residues in Cdc73 that interact with phosphorylated Ser2, Ser5, and Ser7 of tandem CTD heptads, based on MD simulations and pull-down experiments.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, or methodological descriptions provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, MD simulation parameters, and raw data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic claim regarding Cdc73 recruitment to the phosphorylated CTD of RNA Pol II, with a specific focus on Ser7. However, the evidence base visible in the abstract is insufficient to evaluate the rigor of the experimental approach, the validity of the MD simulation findings, or the strength of the pull-down data supporting the proposed residue-specific interactions. The claim that Ser7 influences Cdc73 recruitment is not directly supported by functional experiments described in the abstract, and the relationship between the identified binding interface and the stated title claim remains unclear.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation, particularly those focused on RNA polymerase II CTD modifications, the Paf1 complex, and the role of CTD phosphorylation patterns in recruiting elongation factors. The work may also interest structural biologists investigating protein-phosphopeptide interactions and computational biologists using MD simulations to predict binding interfaces.
+- **Major strengths** The abstract addresses a specific and mechanistically important question about how CTD phosphorylation patterns, particularly Ser7P, are decoded by the Paf1 complex. The combination of MD simulation with mutational and pull-down validation is a reasonable approach for identifying interaction interfaces. The focus on Cdc73 as a CTD-binding subunit is timely given the known roles of Paf1C in transcription.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The title and abstract claim that Ser7 of the CTD influences recruitment of Cdc73 for mRNA transcription.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not present any direct experimental evidence that Ser7 phosphorylation affects Cdc73 recruitment in a functional context. The pull-down experiments described identify interactions between phosphorylated Ser2, Ser5, and Ser7 with specific arginine residues, but no data are shown demonstrating that loss or mutation of Ser7 alters Cdc73 recruitment to the CTD or affects transcription.
+  - **Why it matters** The title claim is the central message of the manuscript. Without functional evidence linking Ser7 to Cdc73 recruitment, the stated conclusion is not established from the provided material.
+  - **Resolution test** Provide experimental data showing that mutation or modification of Ser7 in CTD repeats reduces or abolishes Cdc73 binding in pull-down assays, and ideally that this affects transcription in a cellular or in vitro system.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of MD simulation claims
+  - **Claim pointer** The 500 ns MD simulation studies identified the binding interface and the pattern of CTD phosphorylation involved in the interaction with Cdc73.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No details are provided regarding the simulation system, force field, starting structures, convergence criteria, or validation of the simulation against experimental data. A single 500 ns trajectory is generally insufficient to establish a reliable binding interface without replica simulations or enhanced sampling methods.
+  - **Why it matters** The proposed residue-specific interactions (Arg310 with Ser2P, Arg268 with Ser5P, Arg300 with Ser7P) are derived from the simulations. If the simulation methodology is not robust, the subsequent mutational validation may be based on an unreliable model.
+  - **Resolution test** Provide full simulation parameters, convergence analysis, multiple independent trajectories, and comparison with experimental binding data to support the predicted interface.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for residue-specific interactions
+  - **Claim pointer** Phosphorylated Ser2, Ser5, and Ser7 of tandem CTD heptads interact respectively with Arg310, Arg268, and Arg300 of Cdc73.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that "possible key residues were mutated and the subsequent pull down analysis suggests" the specific interactions. However, no data are shown regarding the magnitude of binding changes, whether mutations were single or combined, or whether the effects were specific to the proposed phospho-residue partners. The word "suggests" indicates the evidence may be preliminary.
+  - **Why it matters** The residue-specific interaction map is the core mechanistic finding. Without quantitative binding data and appropriate controls, the specificity of each arginine for a particular phospho-serine is not established.
+  - **Resolution test** Show pull-down data with quantified binding affinities or enrichment values for each mutant against each phospho-CTD peptide, including negative controls with unphosphorylated CTD and non-phospho-mimetic mutations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** "hyper phosphorylated CTD"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "hyper phosphorylated CTD" is used without definition. It is unclear whether this refers to CTD phosphorylated at all Ser2, Ser5, and Ser7 positions, or a specific combination.
+  - **Required correction** Define the phosphorylation state of the CTD used in the binding experiments, including which residues were phosphorylated and how this was achieved.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of functional context
+  - **Affected element** "play active role during different stages of mRNA transcription"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that Paf1C plays an active role during transcription but does not specify what that role is or how Cdc73 recruitment relates to it.
+  - **Required correction** Briefly state the known or proposed function of Cdc73 during transcription elongation or other stages to contextualize the recruitment finding.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Pull-down analysis
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** No statistical information is provided for the pull-down experiments, such as number of replicates or error estimates.
+  - **Required correction** Include information on experimental replicates and statistical analysis in the full manuscript, and summarize this in the abstract if space permits.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of direct evidence for Ser7 influence on Cdc73 recruitment), R1-M2 (insufficient MD simulation details), R1-M3 (incomplete evidence for residue-specific interactions)
+- **Assessment against Nature-style criteria** Originality: The focus on Ser7 as a determinant of Cdc73 recruitment is a relatively novel angle, as most CTD-Paf1C studies emphasize Ser2P and Ser5P. Scientific importance: Understanding how the Paf1 complex reads CTD phosphorylation codes is relevant to transcriptional regulation, but the significance of the specific Ser7-Cdc73 interaction for transcription outcomes is not demonstrated in the abstract. Interdisciplinary readership: The work bridges structural biology, computational simulation, and transcription biochemistry, which could appeal to a broad audience if the evidence is robust. Technical soundness: Cannot be assessed from the abstract alone; the MD simulation approach and pull-down validation require full methodological scrutiny. Readability for nonspecialists: The abstract is reasonably accessible but uses specialized terminology without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis and preliminary data, but the central claim regarding Ser7 influence on Cdc73 recruitment is not directly supported, and the technical details necessary to evaluate the MD simulation and interaction mapping are absent. A revised manuscript with functional evidence and complete methodological reporting could change this assessment.
+
+## Risk / unsupported claims
+- The claim that Ser7 of the CTD influences recruitment of Cdc73 is unsupported by direct experimental evidence in the abstract.
+- The residue-specific interaction map (Arg310-Ser2P, Arg268-Ser5P, Arg300-Ser7P) is presented as a conclusion but is only described as "suggested" by the data.
+- The statement that the CTD binding domain of Cdc73 is "an independent folding unit" is not supported by any structural or biophysical data visible in the abstract.
+- The functional relevance of the identified interactions for mRNA transcription is asserted but not demonstrated.

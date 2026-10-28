@@ -1,0 +1,828 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.13.681983",
+  "title": "Cooperative molecular interaction networks govern PARP1 inhibitor selectivity and binding affinity",
+  "doi": "10.1101/2025.10.13.681983",
+  "abstract": "Selective inhibition of PARP1 represents a promising strategy to improve the therapeutic index of PARP inhibitors, a class of anticancer agents that exploit defects in DNA repair pathways. While PARP inhibitors have shown remarkable clinical benefit, particularly in BRCA-mutated tumors, the lack of discrimination between PARP1 and its close homolog PARP2, often leads to hematological toxicity and limits treatment efficacy. Thus, achieving molecular selectivity for PARP1 remains a central challenge in the rational design of safer and more potent inhibitors. To explore the molecular determinants of ligand selectivity, we focus on four clinically relevant PARP inhibitors—two PARP1-selective (saruparib and NMS-P118) and two non-selective (veliparib and olaparib) inhibitors—and perform atomistic potential-of-mean-force calculations of the PARP1 catalytic binding domain in the presence of these molecules. Our simulations near-quantitatively capture the experimental relative binding preferences, demonstrating that our approach reliably reflects selectivity patterns. Based on these findings, we analyze protein–ligand contact frequencies to identify the stabilizing interaction network and contact connectivity inducing protein selectivity. The most frequent protein–inhibitor contacts are primarily mediated by tyrosine triads and electrostatic interactions, showing a cooperative complex network of intermolecular contacts which strongly relies on protein multivalency. To dissect the decisive role of individual residues across the binding site, we also perform targeted mutagenesis of the PARP1 catalytic pocket in complex with saruparib, replacing several active-site amino acids by glycines. Progressively increasing the number of mutations markedly reduces binding stability, with distinct residue combinations exerting two primary effects: destabilization of the final bound state and the emergence of energetic barriers along the ligand association pathway. Together, our results provide a coherent mechanistic framework for understanding PARP1 selectivity and informs the rational design of next-generation inhibitors with improved efficacy and safety.",
+  "authors": [
+    "Alejandro Feito",
+    "Natàlia DeMoya-Valenzuela",
+    "Cristian Privat",
+    "Andrés R. Tejedor",
+    "Lucía Paniagua-Herranz",
+    "Adiran Garaizar",
+    "Alberto Ocana",
+    "Jorge R. Espinosa"
+  ],
+  "published_date": "2025-10-14",
+  "updated_date": "2025-10-14T19:10:20Z",
+  "journal": "bioRxiv",
+  "category": "Molecular Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.13.681983",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.13.681983.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Molecular Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Molecular Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            24
+          ]
+        ],
+        "date-time": "2026-07-24T14:25:48Z",
+        "timestamp": 1784903148808,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            14
+          ]
+        ]
+      },
+      "group-title": "Molecular Biology",
+      "reference-count": 76,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                14
+              ]
+            ],
+            "date-time": "2025-10-14T00:00:00Z",
+            "timestamp": 1760400000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Selective inhibition of PARP1 represents a promising strategy to improve the therapeutic index of PARP inhibitors, a class of anticancer agents that exploit defects in DNA repair pathways. While PARP inhibitors have shown remarkable clinical benefit, particularly in BRCA-mutated tumors, the lack of discrimination between PARP1 and its close homolog PARP2, often leads to hematological toxicity and limits treatment efficacy. Thus, achieving molecular selectivity for PARP1 remains a central challenge in the rational design of safer and more potent inhibitors. To explore the molecular determinants of ligand selectivity, we focus on four clinically relevant PARP inhibitors—two PARP1-selective (saruparib and NMS-P118) and two non-selective (veliparib and olaparib) inhibitors—and perform atomistic potential-of-mean-force calculations of the PARP1 catalytic binding domain in the presence of these molecules. Our simulations near-quantitatively capture the experimental relative binding preferences, demonstrating that our approach reliably reflects selectivity patterns. Based on these findings, we analyze protein–ligand contact frequencies to identify the stabilizing interaction network and contact connectivity inducing protein selectivity. The most frequent protein–inhibitor contacts are primarily mediated by tyrosine triads and electrostatic interactions, showing a cooperative complex network of intermolecular contacts which strongly relies on protein multivalency. To dissect the decisive role of individual residues across the binding site, we also perform targeted mutagenesis of the PARP1 catalytic pocket in complex with saruparib, replacing several active-site amino acids by glycines. Progressively increasing the number of mutations markedly reduces binding stability, with distinct residue combinations exerting two primary effects: destabilization of the final bound state and the emergence of energetic barriers along the ligand association pathway. Together, our results provide a coherent mechanistic framework for understanding PARP1 selectivity and informs the rational design of next-generation inhibitors with improved efficacy and safety.</jats:p>",
+      "DOI": "10.1101/2025.10.13.681983",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            14
+          ]
+        ],
+        "date-time": "2025-10-14T19:10:20Z",
+        "timestamp": 1760469020000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Cooperative molecular interaction networks govern PARP1 inhibitor selectivity and binding affinity"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0000-1282-7580",
+          "authenticated-orcid": false,
+          "given": "Alejandro",
+          "family": "Feito",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Physical Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid 28040, Spain"
+            },
+            {
+              "name": "Instituto Pluridisciplinar, Universidad Complutense de Madrid, P.º de Juan XXIII, 1, Moncloa - Aravaca, 28040 Madrid, Spain"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7394-7030",
+          "authenticated-orcid": false,
+          "given": "Natàlia",
+          "family": "DeMoya-Valenzuela",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Experimental Therapeutics Unit, Hospital Clínico San Carlos (HCSC), Instituto de Investigación Sanitaria San Carlos (IdISSC), Madrid, Spain"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8288-6508",
+          "authenticated-orcid": false,
+          "given": "Cristian",
+          "family": "Privat",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Experimental Therapeutics Unit, Hospital Clínico San Carlos (HCSC), Instituto de Investigación Sanitaria San Carlos (IdISSC), Madrid, Spain"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9437-6169",
+          "authenticated-orcid": false,
+          "given": "Andrés R.",
+          "family": "Tejedor",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Physical Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid 28040, Spain"
+            },
+            {
+              "name": "Instituto Pluridisciplinar, Universidad Complutense de Madrid, P.º de Juan XXIII, 1, Moncloa - Aravaca, 28040 Madrid, Spain"
+            },
+            {
+              "name": "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lucía",
+          "family": "Paniagua-Herranz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Experimental Therapeutics Unit, Hospital Clínico San Carlos (HCSC), Instituto de Investigación Sanitaria San Carlos (IdISSC), Madrid, Spain"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9320-2984",
+          "authenticated-orcid": false,
+          "given": "Adiran",
+          "family": "Garaizar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Data Science, Bayer AG, Alfred-Nobel-Straße 50, 40789 Monheim am Rhein, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1067-9630",
+          "authenticated-orcid": false,
+          "given": "Alberto",
+          "family": "Ocana",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Experimental Therapeutics Unit, Hospital Clínico San Carlos (HCSC), Instituto de Investigación Sanitaria San Carlos (IdISSC), Madrid, Spain"
+            },
+            {
+              "name": "PhAsIca Biosciences S.L, Calle Velázquez, 27, 28001 Madrid, Spain"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4255-6635",
+          "authenticated-orcid": false,
+          "given": "Jorge R.",
+          "family": "Espinosa",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Physical Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid 28040, Spain"
+            },
+            {
+              "name": "Instituto Pluridisciplinar, Universidad Complutense de Madrid, P.º de Juan XXIII, 1, Moncloa - Aravaca, 28040 Madrid, Spain"
+            },
+            {
+              "name": "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, UK"
+            },
+            {
+              "name": "PhAsIca Biosciences S.L, Calle Velázquez, 27, 28001 Madrid, Spain"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/biom2040524"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.53"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2015.10.032"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "746",
+          "DOI": "10.1038/s41467-018-03159-2",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12032-021-01570-2"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "4162",
+          "DOI": "10.3390/cancers14174162",
+          "volume": "14",
+          "year": "2022",
+          "journal-title": "Cancers"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac866"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1010545",
+          "DOI": "10.1371/journal.pgen.1010545",
+          "volume": "18",
+          "year": "2022",
+          "journal-title": "PLoS genetics"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13072-024-00550-w"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2322520121"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bcp.2011.12.014"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "487",
+          "DOI": "10.3390/cancers10120487",
+          "volume": "10",
+          "year": "2018",
+          "journal-title": "Cancers"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/cancers15143642"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.14",
+          "first-page": "181",
+          "volume": "38",
+          "year": "2019",
+          "journal-title": "Investigational New Drugs"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "L. Cortesi , H. Rugo , and C. Jackisch , Targeted Oncology 16, 255 (2021).",
+          "DOI": "10.1007/s11523-021-00796-4"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1053/j.seminoncol.2023.09.005"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "198",
+          "DOI": "10.1016/j.ejmech.2019.01.024",
+          "volume": "165",
+          "year": "2019",
+          "journal-title": "European journal of medicinal chemistry"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "107",
+          "DOI": "10.1186/s13073-024-01370-z",
+          "volume": "16",
+          "year": "2024",
+          "journal-title": "Genome medicine"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1349-7006.2004.tb02195.x"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-020-0218-z"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "255",
+          "DOI": "10.1007/s11523-021-00796-4",
+          "volume": "16",
+          "year": "2021",
+          "journal-title": "Targeted oncology"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1078-0432.CCR-20-2766"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41416-023-02326-7"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2121979119"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "1912",
+          "DOI": "10.1002/cncr.30631",
+          "volume": "123",
+          "year": "2017",
+          "journal-title": "Cancer"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "633",
+          "DOI": "10.3390/ijms23020633",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "International Journal of Molecular Sciences"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. Ryan , B. Bolaňos , M. Smith , P. B. Palde , P. D. Cuenca , T. L. VanArsdale , S. Niessen , L. Zhang , D. Behenna , M. A. Ornelas , et al., Journal of Biological Chemistry 296 (2021).",
+          "DOI": "10.1074/jbc.RA120.016573"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2217/fon.14.313"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1538-7445.AM2012-5588"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "2475",
+          "DOI": "10.1158/1538-7445.AM2017-2475",
+          "volume": "77",
+          "year": "2017",
+          "journal-title": "Cancer Research"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "7",
+          "DOI": "10.1016/j.ctrv.2018.03.004",
+          "volume": "66",
+          "year": "2018",
+          "journal-title": "Cancer Treatment Reviews"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1056/NEJMoa1611310"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1056/NEJMoa1910962"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1056/NEJMoa1802905"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0140-6736(23)01055-3"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1124/jpet.114.222448"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.4c01725"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.5b00680"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1470-2045(18)30786-1"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "979873",
+          "DOI": "10.3389/fphar.2022.979873",
+          "volume": "13",
+          "year": "2023",
+          "journal-title": "Frontiers in Pharmacology"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1078-0432.CCR-22-0301"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Azad , N. Agarwal , A. J. Armstrong , E. Hellmis , F. Schlürmann , M. Sugimoto , Y. ü rün , N. Xing , M. Aregay , J. Lima , et al., “Phase iii, double-blind, placebo-controlled, 2-cohort, randomized study of saruparib (azd5305) in combination with androgen receptor pathway inhibitors in patients with metastatic hormone-sensitive prostate cancer with and without homologous recombination repair mutation (evoparprostate01).” (2025).",
+          "DOI": "10.1200/JCO.2025.43.5_suppl.TPS279"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2016.03.008"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "1259",
+          "DOI": "10.1038/s42003-021-02780-0",
+          "volume": "4",
+          "year": "2021",
+          "journal-title": "Communications biology"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-20998-8"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.46",
+          "first-page": "1262",
+          "volume": "60 4",
+          "year": "2017",
+          "journal-title": "Journal of medicinal chemistry"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "1269",
+          "DOI": "10.3390/biom14101269",
+          "volume": "14",
+          "year": "2024",
+          "journal-title": "Biomolecules"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1112181108"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "4266",
+          "DOI": "10.1021/ct4004228",
+          "volume": "9",
+          "year": "2013",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "12764",
+          "DOI": "10.1038/s41598-025-97208-8",
+          "volume": "15",
+          "year": "2025",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.51",
+          "unstructured": "M. Khalid , M. H Alqarni , A. I. Foudah , and M. Saad Al Oraby , Journal of Biomolecular Structure and Dynamics, 1 (2025)."
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "131",
+          "DOI": "10.1007/s00894-023-05525-4",
+          "volume": "29",
+          "year": "2023",
+          "journal-title": "Journal of Molecular Modeling"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "e9241",
+          "DOI": "10.7717/peerj.9241",
+          "volume": "8",
+          "year": "2020",
+          "journal-title": "PeerJ"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.54",
+          "doi-asserted-by": "crossref",
+          "unstructured": "V. Nozal , O. Beyens , S. Peeters , A. Fabisiak , K. Augustyns , I. De Meester , P. Van der Veken , and H. De Winter , European Journal of Medicinal Chemistry, 117913 (2025).",
+          "DOI": "10.1016/j.ejmech.2025.117913"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.55",
+          "unstructured": "A. Feito Sr , N. DeMoya-Valenzuela , C. Privat , A. R. Tejedor , M. DelValle-Carrillo , S. Cembellín , L. Paniagua-Herranz , A. Garaizar , J. Oller-Iscar , A. Ocana , et al., bioRxiv, 2025 (2025)."
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi902079y"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "4390",
+          "DOI": "10.1038/s41598-022-08130-2",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "2207742",
+          "DOI": "10.1002/advs.202207742",
+          "volume": "10",
+          "year": "2023",
+          "journal-title": "Advanced Science"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.59",
+          "doi-asserted-by": "crossref",
+          "first-page": "5717",
+          "DOI": "10.1038/s41467-022-32874-0",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.60",
+          "doi-asserted-by": "crossref",
+          "first-page": "302",
+          "DOI": "10.1021/acscentsci.4c01617",
+          "volume": "11",
+          "year": "2025",
+          "journal-title": "ACS Central Science"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1800690115"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.62",
+          "doi-asserted-by": "crossref",
+          "first-page": "134",
+          "DOI": "10.1002/prot.26590",
+          "volume": "92",
+          "year": "2024",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.63",
+          "unstructured": "J. Wagner , M. Thompson , D. L. Mobley , J. Chodera , C. Bannan , A. Rizzi , trevorgokey, D. L. Dotson , J. A. Mitchell , jaimergp, Camila , P. Behara , C. Bayly , JoshHorton, L. Wang , I. Pulido , PEFrankel, V. Lim , S. Sasmal , J. A. Clark , SimonBoothroyd, A. Dalke , E. Holz , B. Westbrook , D. Smith , E. Pretti , J. Horton , and L.-P. Wang , “openforcefield/openff-toolkit: 0.16.9 minor re-lease,” (2025)."
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm051197e"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07217-2"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm8001263"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1124/jpet.113.210146"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.1c01012"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1078-0432.CCR-15-0887"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm801171j"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08356"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.72",
+          "first-page": "301",
+          "volume": "3",
+          "year": "2013",
+          "journal-title": "Frontiers in oncology"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.73",
+          "doi-asserted-by": "crossref",
+          "first-page": "601065",
+          "DOI": "10.3389/fmolb.2020.601065",
+          "volume": "7",
+          "year": "2020",
+          "journal-title": "Frontiers in molecular biosciences"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.74",
+          "doi-asserted-by": "crossref",
+          "first-page": "868",
+          "DOI": "10.3390/ijms25020868",
+          "volume": "25",
+          "year": "2024",
+          "journal-title": "International Journal of Molecular Sciences"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2119800119"
+        },
+        {
+          "key": "2026020606322757000_2025.10.13.681983v3.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.0c03217"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.10.13.681983",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:16:26Z",
+        "timestamp": 1782278186000
+      },
+      "score": 76.19667,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.10.13.681983"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            14
+          ]
+        ]
+      },
+      "references-count": 76,
+      "URL": "https://doi.org/10.1101/2025.10.13.681983",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1371/journal.pcbi.1014296",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            14
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, experimental procedures) as provided
+- **Assessment boundary** Scientific content, methodological soundness, evidence quality, and alignment with stated claims; no assessment of editorial fit or publication decision
+- **Shared manuscript claim summary** The authors propose that explainable deep learning applied to promoter cis-regulatory element (CRE) arrays can identify lineage-specific transcription factor (TF)–CRE interactions that regulate kiwifruit ripening initiation, and they validate selected predictions via transient reporter assays and DAP-seq.
+- **Visible evidence base** Results sections describing CNN model training and performance, feature visualization outputs, transient reporter assay data, DAP-seq binding data, and WGCNA comparisons; figures referenced but not shown; supplementary tables referenced but not provided
+- **Missing materials affecting confidence** Figures S1–S3, Tables S1–S6, and all figure panels are referenced but not included in the provided text; exact numerical values for reporter assay fold-changes, DAP-seq peak statistics, and WGCNA module assignments are not available; the transcriptomic dataset is from a prior publication and is not independently described
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually interesting application of explainable deep learning to identify candidate TF–CRE interactions in a non-model fruit crop. The integration of computational prediction with experimental validation is commendable. However, the evidence as presented is incomplete in several critical respects. The CNN model performance is modest (ROC-AUC = 0.651), and the authors do not adequately address whether this level of predictive accuracy is sufficient to support the specificity of the claimed novel interactions. The experimental validation, while suggestive, is limited to four TFs and three promoters, and the reported inconsistencies (e.g., ERT2 activation by MYB81) are not fully resolved. The claim of lineage-specific regulatory network evolution is plausible but is not directly tested, as no comparative analysis across species is presented. The manuscript would benefit from clearer presentation of quantitative results and a more rigorous treatment of alternative explanations.
+- **Who would be interested in the results, and why** Researchers studying fruit ripening regulation, particularly in climacteric species; computational biologists interested in explainable AI applications to gene regulation; plant molecular biologists studying cis-regulatory evolution. The methodological framework may also interest those working on non-model species where genetic resources are limited.
+- **Major strengths** The study addresses a significant gap by moving beyond conserved regulatory factors to identify potentially lineage-specific interactions. The use of explainable DL to prioritize candidate TF–CRE pairs is innovative and could be broadly applicable. The combination of computational prediction with two independent experimental validation approaches (reporter assays and DAP-seq) strengthens the credibility of the identified interactions. The authors are transparent about model limitations and the ambiguity of some results.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The CNN model can predict kiwifruit ripening-related gene expression changes from promoter CRE arrays with sufficient accuracy to identify novel regulatory interactions.
+  - **Evidence pointer** Results section "DL model predicted gene expression changes"; Figure 2b
+  - **Concern** The reported ROC-AUC of 0.651 for the Ethyup versus control classification is modest. The authors acknowledge this is lower than a previous tomato study but attribute it to biological complexity. However, the manuscript does not report precision-recall curves, calibration metrics, or the distribution of prediction confidence across the full gene set. More critically, the authors do not demonstrate that the model's predictions are significantly better than a sequence-composition baseline or a model trained on shuffled labels. Without such controls, it is unclear whether the identified CREs reflect genuine regulatory information or partially spurious correlations.
+  - **Why it matters** The entire downstream analysis, including the selection of the top 5% high-confidence genes and the feature visualization, depends on the model having learned meaningful sequence–expression relationships. If the model's predictive signal is weak or confounded, the prioritized CRE–TF interactions may not be biologically relevant, undermining the central claims of the paper.
+  - **Resolution test** Provide baseline comparisons (e.g., dinucleotide-preserving shuffled sequences, GC-content-matched controls), report precision-recall AUC and calibration plots, and demonstrate that the top-ranked genes are enriched for known ripening-related functions beyond what would be expected by chance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** Transient reporter assays and DAP-seq analyses validated the predicted CRE–TF interactions and their regulatory relationships.
+  - **Evidence pointer** Results sections "ABI5-like bZIP, G2-like, and MYB81-like TFs directly regulate..." and "DAP-seq analysis"; Figures 4 and 5
+  - **Concern** The validation data are described qualitatively in the text, but no quantitative results are provided. For the reporter assays, the authors report p-values from Student's t-tests but do not state the magnitude of activation or repression, the number of biological replicates beyond "16 and 20," or whether the effects are dose-dependent. For DAP-seq, the authors state that "over 90% of the CRE positions... overlapped with the DAP-seq peaks" but do not report peak-calling thresholds, enrichment statistics, or the fraction of peaks that fall in open chromatin or accessible regions. The statement that "peak signals are not so clear" and that the association is "ambiguous" is concerning and requires quantitative support.
+  - **Why it matters** The validation experiments are the primary evidence that the computationally predicted interactions are biologically real. Without quantitative effect sizes, confidence intervals, and appropriate statistical tests, the reader cannot assess the strength or reproducibility of the claimed regulatory relationships. The acknowledged ambiguity in the DAP-seq data further weakens the validation.
+  - **Resolution test** Provide full quantitative results for all reporter assay experiments, including mean fold-changes, standard errors, and individual replicate values. For DAP-seq, report peak-calling parameters, the number of significant peaks per TF, the overlap statistics with predicted CREs using appropriate background models, and a genome-wide enrichment analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The identified regulatory network is lineage-specific and evolved independently in kiwifruit.
+  - **Evidence pointer** Discussion section; no dedicated comparative analysis
+  - **Concern** The central claim of lineage specificity is not directly tested. The authors compare their findings to known regulators in tomato and other species, but no systematic comparative analysis is performed. For example, the authors do not examine whether the identified CREs in kiwifruit promoters are conserved in orthologous promoters of other species, nor do they test whether the predicted TF–CRE interactions would be detected using the same pipeline applied to tomato or another reference species. The statement that "fruit crop species may have evolved lineage-specific fruit ripening-related cis-trans regulatory networks" is presented as a conclusion but is actually a hypothesis that the current data cannot distinguish from alternative explanations, such as incomplete knowledge of conserved regulators.
+  - **Why it matters** The claim of lineage specificity is a key part of the paper's significance. If the identified interactions are actually conserved but previously uncharacterized, the conclusions would be different. The manuscript would be substantially strengthened by a direct comparative analysis.
+  - **Resolution test** Apply the same DL pipeline to promoter data from at least one other climacteric fruit species (e.g., tomato) and compare the predicted CRE–TF interactions. Alternatively, examine the conservation of the identified CREs in orthologous promoters across a panel of species and test whether the predicted binding sites are under selective constraint.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The DL model identifies CREs relevant to ripening independently of co-expression patterns, providing a distinct approach from co-expression network analysis.
+  - **Evidence pointer** Results section "Potential correlation between the explainable DL and the co-expression network"; Figure 6
+  - **Concern** The comparison with WGCNA is underpowered and the interpretation is unclear. The authors report that predicted TF–gene pairs are not significantly enriched among first-degree co-expression connections (p = 0.46), but they do not report the statistical power of this test or the expected enrichment under a null model. The observation that some validated pairs fall in the same WGCNA module is presented as supportive, but the significance of this co-module membership is not assessed. The authors conclude that the DL approach identifies interactions "independently of co-expression patterns," but the absence of enrichment does not demonstrate independence; it may simply reflect the low sensitivity of the co-expression network at the chosen threshold.
+  - **Why it matters** The claim that the DL approach provides information complementary to co-expression analysis is used to argue for its utility. If the two methods are actually capturing overlapping information, the novelty of the approach is reduced. The current analysis does not adequately address this.
+  - **Resolution test** Perform a formal comparison of the information content of the DL predictions and the co-expression network, e.g., by testing whether the DL-predicted interactions are enriched among co-expression connections at multiple thresholds, and by assessing whether the DL predictions add predictive power for expression changes beyond co-expression alone.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental procedures, DL model training
+  - **Evidence pointer** "Experimental procedures" section
+  - **Issue** The description of hyperparameter optimization states that "at least 40 times" trials were performed, but the specific search space, the final selected hyperparameters, and the criteria for selection are not reported. The code repository is referenced, but the manuscript should include the key parameters for reproducibility.
+  - **Required correction** Provide a table or text listing the final hyperparameters for each model (kernel size, layer depth, learning rate, optimizer, etc.) and describe the model selection procedure more precisely.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, feature visualization
+  - **Evidence pointer** Results section "Identification of novel key CREs"; Figure 2e
+  - **Issue** The description of how guided backpropagation was used to identify relevant CREs is brief. It is unclear how the "cumulative relevance" was computed across the 279 genes, how the threshold for "enriched" TF channels was set, and whether the analysis was performed on the trained model's gradients or on a separate interpretation model.
+  - **Required correction** Clarify the feature attribution methodology, including how relevance scores were aggregated across genes and how significance was determined.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, reporter assays
+  - **Evidence pointer** Results section "ABI5-like bZIP, G2-like, and MYB81-like TFs directly regulate..."
+  - **Issue** The p-values are reported from Student's t-tests, but it is not stated whether these were one-tailed or two-tailed, whether multiple testing corrections were applied across the multiple comparisons (4 TFs x 3 promoters), or whether the data met the assumptions of the test.
+  - **Required correction** State the test type, the number of comparisons, and whether any multiple testing correction was applied. Consider reporting effect sizes and confidence intervals.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, DAP-seq
+  - **Evidence pointer** Results section "DAP-seq analysis"; Figure 5
+  - **Issue** The DAP-seq analysis is described as validating binding, but the manuscript does not report whether the identified binding sites in the three promoters are the same sites that were mutated in the reporter assays. This connection is critical for linking the binding data to the functional assays.
+  - **Required correction** Explicitly state whether the DAP-seq peaks overlap with the mutated CREs in the reporter assays, and if so, show this overlap in a figure or table.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model validation insufficient), R1-M2 (quantitative validation data missing), R1-M3 (lineage-specificity claim not tested)
+- **Assessment against Nature-style criteria**
+  - **Originality** The application of explainable DL to identify lineage-specific TF–CRE interactions in a non-model fruit crop is a novel methodological contribution. The specific finding of ABI5-like, G2-like, and MYB81-like TFs as potential regulators of kiwifruit ripening has not been previously reported. However, the conceptual framework of using DL for regulatory element discovery is not new, and the originality lies primarily in the application domain.
+  - **Scientific importance** The question of whether regulatory networks controlling fruit ripening evolve in a lineage-specific manner is of broad interest to plant biology and evolutionary biology. If substantiated, the findings could inform breeding strategies and our understanding of convergent evolution in fruit crops. However, the current evidence does not fully establish this claim, as no comparative analysis is presented.
+  - **Interdisciplinary readership** The work bridges computational biology, plant molecular biology, and fruit science. The explainable DL approach may attract readers from the machine learning community, while the biological findings will interest plant scientists. The manuscript is generally accessible, though some DL concepts could be explained more clearly for a non-specialist audience.
+  - **Technical soundness** The computational pipeline is reasonable but incompletely validated. The experimental methods are standard and appropriate, but the quantitative reporting is insufficient. The lack of baseline comparisons for the DL model and the incomplete statistical reporting for the validation experiments are significant weaknesses.
+  - **Readability for nonspecialists** The manuscript is clearly written and the logical flow is easy to follow. The authors do a good job of explaining the motivation and the significance of their findings. However, some sections, particularly the description of the DL architecture and feature visualization, assume familiarity with machine learning concepts that may not be shared by all readers.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an interesting and potentially important question with a novel methodological approach. However, the current evidence is insufficient to fully support the central claims. The model validation needs to be strengthened with appropriate baseline comparisons, the experimental data need to be reported quantitatively and completely, and the lineage-specificity claim needs to be directly tested or substantially softened. If these issues are addressed, the manuscript could make a valuable contribution.
+
+## Risk / unsupported claims
+- The claim that the identified TF–CRE interactions are "lineage-specific" is not supported by any comparative analysis and should be treated as a hypothesis rather than a conclusion.
+- The statement that the DL model can identify regulatory networks "independently of co-expression patterns" is not adequately supported, as the analysis only shows a lack of enrichment, not independence.
+- The claim that 7 of 11 predicted interactions "directly activated expression" is based on reporter assay data that are not quantitatively reported; the magnitude and reproducibility of these effects cannot be assessed.
+- The assertion that the CNN model "reflects the actual physiological reactions influencing kiwifruit ripening" is an overstatement given the modest ROC-AUC and the lack of baseline comparisons.
+- The generalizability of the approach to other species or biological contexts is asserted but not demonstrated.

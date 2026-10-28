@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41154714",
+  "title": "Bioinformatics-Based Analysis of the Screening and Evaluation of Potential Targets of FTY720 for the Treatment of Non-Small Cell Lung Cancer.",
+  "authors": "Han, Mengyuan; Hailati, Sendaer; Dilimulati, Dilihuma; Baishan, Alhar; Aikebaier, Alifeiye; Zhou, Wenting",
+  "journal": "Biology",
+  "published_date": "2025-10-29",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用生物信息学筛选FTY720治疗非小细胞肺癌的靶基因，含分子对接与MD模拟，但核心是药物-蛋白互作而非蛋白质-DNA互作，仅涉及TF调控网络构建，与本课题关联较弱。",
+  "abstract": "BACKGROUND: A range of cancer cells are significantly inhibited by FTY720. It is unknown, nevertheless, how FTY720 influences the onset of non-small cell lung cancer (NSCLC). Using bioinformatics techniques, we analyzed and the possible molecular mechanisms and targets of FTY720 for the treatment of NSCLC. METHODS: DEGs (Differentially expressed genes) were acquired by differential analysis of the dataset GSE10072. Obtained FTY720 target genes and NSCLC disease genes from databases such as Swiss-TargetPrediction and GeneCard. Subsequently, target and disease genes, as well as DEGs, were merged for Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis, gene ontology (GO), and protein interaction analysis. The overlapping genes of DEGs and target genes, and disease genes were also obtained separately and subjected to survival as well as expression analyses. We constructed the regulatory network of miRNAs and transcription factors (TFs) on hub genes. Finally, the immune cell association of hub genes was evaluated using the ssGSEA method, molecular docking of FTY720 to hub genes was carried out utilizing Autodock, and molecular dynamics simulations were conducted. RESULTS: In this study, 444 DEGs, 232 target genes of FTY720, and 466 disease genes were obtained. Moreover, a total of 1062 genes were obtained by removing duplicate values after merging, among which PIK3R1, Akt1, and S1PR1 had the highest DEGREE values in the protein interactions network, and these genes were primarily enriched in MAPK, PI3K-Akt signaling pathways, with the PI3K-Akt signaling pathway being the most prominent. Among the overlapping genes, three potential targets of FTY720 for NSCLC treatment were found: S1PR1, ZEB2, and HBEGF. ZEB2 and S1PR1 were determined to be hub genes and to significantly affect NSCLC prognosis by survival analysis. Furthermore, hsa-miR-132-3p, hsa-miR-192-5p, and hsa-miR-6845-3p were strongly associated with FTY720 for the treatment of NSCLC; CTBP1 (carboxy-terminal binding protein 1), EZH2 (protein lysine N-methyltransferase), and ZNF610 (zinc-finger protein 610) may all influence the expression of ZEB2 and S1PR1. Hub genes had a substantial negative link with memory B cells and a significant positive correlation with memory CD8 T cells and Th17 helper T cells. The molecular docking and kinetic simulation results of FTY720 with the two hub genes indicate that the protein-ligand complex has good stability. CONCLUSION: Our research indicates that FTY720 may inhibit NSCLC via possible targets ZEB2 and S1PR1, further laying the theoretical foundation for the utilization of FTY720 in NSCLC treatment.",
+  "abstract_zh": "背景：FTY720能显著抑制多种癌细胞。然而，FTY720如何影响非小细胞肺癌（NSCLC）的发生尚不清楚。利用生物信息学技术，我们分析并探讨了FTY720治疗NSCLC的可能分子机制和靶点。方法：通过对数据集GSE10072进行差异分析，获得差异表达基因（DEGs）。从Swiss-TargetPrediction和GeneCard等数据库获取FTY720靶基因和NSCLC疾病基因。随后，将靶基因、疾病基因及DEGs合并，进行京都基因与基因组百科全书（KEGG）通路富集分析、基因本体论（GO）和蛋白质相互作用分析。同时，分别获取DEGs与靶基因、疾病基因的重叠基因，并进行生存及表达分析。我们构建了miRNAs和转录因子（TFs）对核心基因的调控网络。最后，利用ssGSEA方法评估核心基因的免疫细胞关联性，使用Autodock进行FTY720与核心基因的分子对接，并进行分子动力学模拟。结果：本研究获得444个DEGs、232个FTY720靶基因和466个疾病基因。此外，合并去重后共获得1062个基因，其中PIK3R1、Akt1和S1PR1在蛋白质相互作用网络中具有最高的DEGREE值，这些基因主要富集于MAPK、PI3K-Akt信号通路，其中PI3K-Akt信号通路最为显著。在重叠基因中，发现FTY720治疗NSCLC的三个潜在靶点：S1PR1、ZEB2和HBEGF。通过生存分析确定ZEB2和S1PR1为核心基因，并显著影响NSCLC预后。此外，hsa-miR-132-3p、hsa-miR-192-5p和hsa-miR-6845-3p与FTY720治疗NSCLC密切相关；CTBP1（羧基末端结合蛋白1）、EZH2（蛋白赖氨酸N-甲基转移酶）和ZNF610（锌指蛋白610）可能影响ZEB2和S1PR1的表达。核心基因与记忆B细胞呈显著负相关，与记忆CD8 T细胞和Th17辅助T细胞呈显著正相关。FTY720与两个核心基因的分子对接和动力学模拟结果表明，蛋白质-配体复合物具有良好的稳定性。结论：我们的研究表明，FTY720可能通过潜在靶点ZEB2和S1PR1抑制NSCLC，进一步为FTY720在NSCLC治疗中的应用奠定理论基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41154714/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41154714/",
+  "paper_page_path": "papers/pubmed/41154714/index.html"
+}

@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "35194959",
+    "doi": "10.1002/cam4.4616",
+    "title": "A systematic and comprehensive analysis of colorectal squamous cell carcinoma: Implication for diagnosis and treatment."
+  },
+  "content": {
+    "abstract": "BACKGROUND: This study was aimed at establishing a nomogram for survival prediction of Colorectal squamous cell carcinoma (CSCC), understanding the molecular pathogenesis, exploring a better treatment, and predicting the potential therapeutic agents. METHODS: Surveillance, Epidemiology, and End Results (SEER) database was used to obtained CSCC patients and the nomogram was performed. Propensity score matching (PSM), Kaplan-Meier analysis, subgroup analysis, and interaction test were used to explore the better treatment strategy for CSCC. Bioinformatics were used to explore the molecular mechanism and potential therapeutic drugs of CSCC. RESULTS: A total of 3949 CSCC patients were studied. The nomogram was constructed and evaluated to have a good performance. We found that the radiotherapy had a better effect than surgery, and the difference between radiotherapy and combined therapy was not significant. 821 differentially expressed genes in CSCC were obtained from GSE6988 dataset. DNA damage repair, mismatch repair, and cell cycle pathways might contribute to CSCC occurrence as indicated by KEGGpathway and GSEA analysis. Transcription factors analysis revealed that TP63 and STAT1 may have an important role in occurrence and development of CSCC. 1607 potential drugs against CSCC were found using the CMAP database, and molecular docking was carried out to show the binding energy between TP63 and drugs. CONCLUSIONS: A good prognosis nomogram was constructed for CSCC. We also have a better understanding of the underlying molecular mechanisms of occurrence and development of CSCC and predicted potential therapeutic drugs, providing a theoretical basis for the treatment of CSCC.",
+    "keywords": [
+      "colorectal squamous cell carcinoma",
+      "drug prediction",
+      "molecular mechanism",
+      "nomogram",
+      "treatment strategy"
+    ],
+    "mesh_terms": [
+      "*Carcinoma, Squamous Cell/diagnosis/genetics/therapy",
+      "*Colorectal Neoplasms/diagnosis/epidemiology/genetics",
+      "Humans",
+      "Kaplan-Meier Estimate",
+      "Molecular Docking Simulation",
+      "Nomograms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Yang",
+        "Yu, Jiarui",
+        "Hu, Jitao",
+        "Zhou, Chaoxi",
+        "Niu, Jian",
+        "Ma, Hongqing",
+        "Han, Jiaxu",
+        "Fan, Shaoqing",
+        "Liu, Youqiang",
+        "Zhao, Yalei",
+        "Zhao, Lianmei",
+        "Wang, Guiying"
+      ],
+      "short_names": [
+        "Yang Y",
+        "Yu J",
+        "Hu J",
+        "Zhou C",
+        "Niu J",
+        "Ma H",
+        "Han J",
+        "Fan S",
+        "Liu Y",
+        "Zhao Y",
+        "Zhao L",
+        "Wang G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9363-9588",
+        "ORCID: 0000-0001-9601-8210"
+      ],
+      "affiliations": [
+        "Department of Gastrointestinal Surgery, The Third Hospital of Hebei Medical University, Shijiazhuang, China.",
+        "Department of Radiation Oncology, North China University of Science and Technology Affiliated People's Hospital, Tangshan, Hebei, China.",
+        "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China.",
+        "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China.",
+        "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China.",
+        "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China.",
+        "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China.",
+        "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China.",
+        "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China.",
+        "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China.",
+        "Research Centers, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China.",
+        "Department of Gastrointestinal Surgery, The Third Hospital of Hebei Medical University, Shijiazhuang, China.",
+        "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Yang",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The Third Hospital of Hebei Medical University, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Jiarui",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation Oncology, North China University of Science and Technology Affiliated People's Hospital, Tangshan, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Jitao",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Chaoxi",
+        "short_name": "Zhou C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Jian",
+        "short_name": "Niu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Hongqing",
+        "short_name": "Ma H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Han, Jiaxu",
+        "short_name": "Han J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Shaoqing",
+        "short_name": "Fan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Youqiang",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yalei",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Lianmei",
+        "short_name": "Zhao L",
+        "identifiers": [
+          "0000-0002-9363-9588"
+        ],
+        "affiliations": [
+          "Research Centers, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Guiying",
+        "short_name": "Wang G",
+        "identifiers": [
+          "0000-0001-9601-8210"
+        ],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The Third Hospital of Hebei Medical University, Shijiazhuang, China.",
+          "Department of General Surgery, The Fourth Hospital of Hebei Medical University, Shijiazhuang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer medicine"
+    ],
+    "journal_abbrev": [
+      "Cancer Med"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/24 06:00",
+    "fetched_at": "2026-09-28 05:37:21"
+  },
+  "links": {
+    "cites": [
+      "40416862",
+      "38526029",
+      "38328435",
+      "37901330",
+      "36564624"
+    ],
+    "refs": [
+      "34305889",
+      "33495406",
+      "33395750",
+      "33239678",
+      "33211265",
+      "33021125",
+      "32899762",
+      "32201124",
+      "32012175",
+      "31725640",
+      "31340447",
+      "31331908",
+      "31230364",
+      "31144617",
+      "31056618",
+      "30910837",
+      "30506884",
+      "29419930",
+      "29218248",
+      "29097249",
+      "28801721",
+      "26974707",
+      "26372482",
+      "25981812",
+      "25392258",
+      "25222072",
+      "24874735",
+      "23015401",
+      "22710792",
+      "22284679",
+      "21623384",
+      "19900445",
+      "19347829",
+      "18707873",
+      "17661147",
+      "17527081",
+      "15378566",
+      "14006818",
+      "11289278",
+      "7094788",
+      "529012"
+    ],
+    "similar": [
+      "35194959",
+      "37039868",
+      "38584210",
+      "37443499",
+      "38849300",
+      "40713628",
+      "41025051",
+      "39663166",
+      "31725640",
+      "39887534",
+      "36781109",
+      "34461929",
+      "34336651",
+      "40787842",
+      "32536673",
+      "41198210",
+      "37080357",
+      "40661946",
+      "36057587",
+      "35950233",
+      "34291084",
+      "40234755",
+      "39258484",
+      "26617873",
+      "37776257",
+      "40000793",
+      "36454384",
+      "38287820",
+      "33588862",
+      "30910843",
+      "26662108",
+      "39528226",
+      "33907270",
+      "37245170",
+      "39738606",
+      "37969067",
+      "37747524",
+      "40600888",
+      "38196527",
+      "38679654",
+      "39472872",
+      "38708353",
+      "37204444",
+      "35116238",
+      "38725285",
+      "29310604",
+      "40820150",
+      "26398134",
+      "38688457",
+      "36324094",
+      "31932544",
+      "38960987",
+      "38158418",
+      "35130902",
+      "37741753",
+      "32377703",
+      "36085041",
+      "40152495",
+      "35179409",
+      "39891967",
+      "38644277",
+      "38040119",
+      "38555077",
+      "39972644",
+      "36217877",
+      "32651104",
+      "33564088",
+      "38867481",
+      "33176731",
+      "30272325",
+      "32194711",
+      "38403266",
+      "40823592",
+      "38240461",
+      "36704830",
+      "30105812",
+      "37071145",
+      "26219687",
+      "35781608",
+      "38306566",
+      "40404864",
+      "26819278",
+      "34301206",
+      "38749826",
+      "35941578",
+      "40846774",
+      "38850312",
+      "41193984",
+      "40235233",
+      "37308869",
+      "37188624",
+      "30145798",
+      "32503630",
+      "37237238",
+      "35947350",
+      "27419636",
+      "32519819",
+      "39041256",
+      "30931936",
+      "34043139"
+    ],
+    "review": [
+      "35194959",
+      "38867481"
+    ],
+    "pmc": [
+      "9189455"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35194959/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35194959",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/cam4.4616",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1491",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

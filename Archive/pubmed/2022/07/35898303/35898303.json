@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "35898303",
+    "doi": "10.3389/fmolb.2022.882738",
+    "title": "Decoding the Role of Epigenetics in Breast Cancer Using Formal Modeling and Machine-Learning Methods."
+  },
+  "content": {
+    "abstract": "Breast carcinogenesis is known to be instigated by genetic and epigenetic modifications impacting multiple cellular signaling cascades, thus making its prevention and treatments a challenging endeavor. However, epigenetic modification, particularly DNA methylation-mediated silencing of key TSGs, is a hallmark of cancer progression. One such tumor suppressor gene (TSG) RUNX3 (Runt-related transcription factor 3) has been a new insight in breast cancer known to be suppressed due to local promoter hypermethylation mediated by DNA methyltransferase 1 (DNMT1). However, the precise mechanism of epigenetic-influenced silencing of the RUNX3 signaling resulting in cancer invasion and metastasis remains inadequately characterized. In this study, a biological regulatory network (BRN) has been designed to model the dynamics of the DNMT1-RUNX3 network augmented by other regulators such as p21, c-myc, and p53. For this purpose, the Rene Thomas qualitative modeling was applied to compute the unknown parameters and the subsequent trajectories signified important behaviors of the DNMT1-RUNX3 network (i.e., recovery cycle, homeostasis, and bifurcation state). As a result, the biological system was observed to invade cancer metastasis due to persistent activation of oncogene c-myc accompanied by consistent downregulation of TSG RUNX3. Conversely, homeostasis was achieved in the absence of c-myc and activated TSG RUNX3. Furthermore, DNMT1 was endorsed as a potential epigenetic drug target to be subjected to the implementation of machine-learning techniques for the classification of the active and inactive DNMT1 modulators. The best-performing ML model successfully classified the active and least-active DNMT1 inhibitors exhibiting 97% classification accuracy. Collectively, this study reveals the underlined epigenetic events responsible for RUNX3-implicated breast cancer metastasis along with the classification of DNMT1 modulators that can potentially drive the perception of epigenetic-based tumor therapy.",
+    "keywords": [
+      "Dnmt1",
+      "RUNX3 signaling pathway",
+      "SMBioNet",
+      "c-myc",
+      "machine learning",
+      "qualitative modeling"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Asim, Ayesha",
+        "Kiani, Yusra Sajid",
+        "Saeed, Muhammad Tariq",
+        "Jabeen, Ishrat"
+      ],
+      "short_names": [
+        "Asim A",
+        "Kiani YS",
+        "Saeed MT",
+        "Jabeen I"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Interdisciplinary Engineering and Sciences (SINES), National University of Sciences and Technology, (NUST), Islamabad, Pakistan.",
+        "School of Interdisciplinary Engineering and Sciences (SINES), National University of Sciences and Technology, (NUST), Islamabad, Pakistan.",
+        "School of Interdisciplinary Engineering and Sciences (SINES), National University of Sciences and Technology, (NUST), Islamabad, Pakistan.",
+        "School of Interdisciplinary Engineering and Sciences (SINES), National University of Sciences and Technology, (NUST), Islamabad, Pakistan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Asim, Ayesha",
+        "short_name": "Asim A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Interdisciplinary Engineering and Sciences (SINES), National University of Sciences and Technology, (NUST), Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Kiani, Yusra Sajid",
+        "short_name": "Kiani YS",
+        "identifiers": [],
+        "affiliations": [
+          "School of Interdisciplinary Engineering and Sciences (SINES), National University of Sciences and Technology, (NUST), Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Saeed, Muhammad Tariq",
+        "short_name": "Saeed MT",
+        "identifiers": [],
+        "affiliations": [
+          "School of Interdisciplinary Engineering and Sciences (SINES), National University of Sciences and Technology, (NUST), Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Jabeen, Ishrat",
+        "short_name": "Jabeen I",
+        "identifiers": [],
+        "affiliations": [
+          "School of Interdisciplinary Engineering and Sciences (SINES), National University of Sciences and Technology, (NUST), Islamabad, Pakistan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/29 06:00",
+    "fetched_at": "2026-10-04 20:25:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34321275",
+      "32398970",
+      "31134191",
+      "30594246",
+      "29868564",
+      "29209143",
+      "28659828",
+      "28582695",
+      "27703839",
+      "27071379",
+      "26708741",
+      "26254344",
+      "25565774",
+      "24822169",
+      "24289493",
+      "23898051",
+      "23593078",
+      "22607757",
+      "22479409",
+      "22275124",
+      "21660514",
+      "20119531",
+      "19682550",
+      "18580070",
+      "17571247",
+      "16818622",
+      "15234201",
+      "12154408",
+      "703339"
+    ],
+    "similar": [
+      "35898303",
+      "22274925",
+      "27859417",
+      "34920321",
+      "18850007",
+      "20492341",
+      "26147747",
+      "30982493",
+      "15386381",
+      "30121333",
+      "18953836",
+      "34799276",
+      "20631058",
+      "30133331",
+      "23669186",
+      "18580070",
+      "16328045",
+      "27781158",
+      "21229291",
+      "24502362",
+      "30226601",
+      "16230397",
+      "30002361",
+      "23652987",
+      "26104385",
+      "26980709",
+      "21268059",
+      "33494674",
+      "23892093",
+      "32504382",
+      "24001767",
+      "27703839",
+      "18058463",
+      "33212300",
+      "32461152",
+      "28835422",
+      "25595591",
+      "24947242",
+      "35033518",
+      "30954555",
+      "27664488",
+      "31628193",
+      "23215027",
+      "22275124",
+      "15087453",
+      "16818622",
+      "23723708",
+      "25512445",
+      "27659015",
+      "25485502",
+      "30099141",
+      "23800731",
+      "18097595",
+      "17270239",
+      "19808967",
+      "24042352",
+      "27475839",
+      "17923751",
+      "25088199",
+      "21819494",
+      "16977793",
+      "35255904",
+      "24247422",
+      "34052627",
+      "29555308",
+      "34217777",
+      "21565830",
+      "18256927",
+      "18475302",
+      "24447545",
+      "19015875",
+      "29901158",
+      "20442291",
+      "25641675",
+      "24447505",
+      "32855526",
+      "15051926",
+      "26708741",
+      "32943993",
+      "30707290",
+      "31810492",
+      "27825140",
+      "20093774",
+      "32771023",
+      "17914577",
+      "28468586",
+      "25315069",
+      "32861793",
+      "23770846",
+      "24002642",
+      "24403453",
+      "37371794",
+      "38292544",
+      "38606097"
+    ],
+    "review": [
+      "35898303",
+      "23669186",
+      "21268059",
+      "33494674",
+      "32504382",
+      "32461152",
+      "16977793",
+      "25641675",
+      "26708741"
+    ],
+    "pmc": [
+      "9309526"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35898303/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35898303",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2022.882738",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

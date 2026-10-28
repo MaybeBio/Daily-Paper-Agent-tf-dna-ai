@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors introduce COFFEE, a sequence-specific coarse-grained energy function for DNA-protein complexes, built by modular integration of existing protein and DNA models without parameter recalibration. A statistical potential derived from crystal structures enables sequence-specific DNA-protein interactions, with a single adjustable parameter lambda(DNAPRO). The model reportedly reproduces crystallographic B-factors, SAXS profiles, NMR chemical shifts, and salt-induced nucleosome unraveling, and explains ARG to LYS mutation effects.
+- **Visible evidence base** Abstract text only; no quantitative data, figures, tables, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, parameter values, data set details, statistical analysis, and comparison protocols
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable coarse-grained model with a broad range of claimed applications. However, the evidence base is limited to qualitative statements, and the absence of quantitative metrics, error analyses, and methodological specifics prevents independent evaluation of the central claims. The work is of interest to computational biophysicists, but the case for transferability and accuracy is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying DNA-protein interactions, chromatin organization, and nucleosome dynamics would find the model relevant. Researchers developing coarse-grained force fields would also be interested in the modular integration approach and the sequence-specific statistical potential.
+- **Major strengths** The modular integration of existing force fields without recalibration is a pragmatic and potentially transferable design. The use of a statistical potential for sequence specificity is a reasonable strategy. The range of validation targets, including B-factors, SAXS, NMR, and nucleosome dynamics, suggests broad applicability if the claims are substantiated.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "crystallographic B-factors for DNA-protein complexes with varying sizes and topologies are quantitatively reproduced" and that "COFFEE predicts scattering profiles that are in quantitative agreement with small-angle X-ray scattering experiments, as well as chemical shifts that are consistent with NMR."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative data, such as correlation coefficients, root-mean-square deviations, or comparison to alternative models, to support the term "quantitative agreement." No error bars, statistical significance tests, or benchmarks are mentioned.
+  - **Why it matters** Without quantitative metrics, the reader cannot assess the accuracy of the model relative to existing approaches or determine whether the agreement is trivial or meaningful. The claim of "quantitative" reproduction is a core selling point and must be verifiable.
+  - **Resolution test** Provide specific numerical comparisons, such as R-factors for B-factors, chi-squared values for SAXS fits, and chemical shift deviations, with appropriate statistical analyses and comparisons to baseline models.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Parameter sensitivity
+  - **Claim pointer** The abstract states that "the only parameter in COFFEE is the strength (lambda(DNAPRO)) of the DNA-protein contact potential" and that "for an optimal choice of lambda(DNAPRO)" the B-factors are reproduced.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The sensitivity of results to lambda(DNAPRO) is not described. It is unclear how the optimal value was determined, whether it is system-dependent, and how robust the predictions are to variations in this parameter.
+  - **Why it matters** If the model's performance depends critically on fine-tuning lambda(DNAPRO) for each system, the claim of transferability is weakened. A single fixed parameter across all systems is essential for the model to be broadly useful.
+  - **Resolution test** Show a systematic scan of lambda(DNAPRO) for multiple complexes, demonstrating that a single value works across diverse systems and that results are stable over a reasonable range.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The abstract claims that "nucleosome simulations explain the destabilization effect of ARG to LYS mutations, which do not alter the balance of electrostatic interactions but affect chemical interactions in subtle ways."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The explanation for the mutation effect is vague. The abstract does not specify what "chemical interactions" are altered, how the model captures these effects, or what quantitative changes in stability were observed.
+  - **Why it matters** The claim of explaining subtle chemical effects is a strong statement that requires a clear mechanistic basis. Without specifics, the explanation could be post hoc or an artifact of the model's approximations.
+  - **Resolution test** Provide detailed free energy decomposition for wild-type and mutant nucleosomes, identifying specific interaction changes and showing that the model's predictions match experimental stability trends quantitatively.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model name and acronym
+  - **Evidence pointer** Abstract title and text
+  - **Issue** The acronym COFFEE is introduced as "Coarse-grained Force Field for Energy Estimation," but the title uses "COFFEE" without defining the expansion. The playful "Brewing COFFEE" title may distract from scientific content.
+  - **Required correction** Define the acronym at first use in the abstract and consider a more formal title in the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data set description
+  - **Evidence pointer** Abstract text
+  - **Issue** The statistical potential is "derived from a data set of high-resolution crystal structures," but the size, composition, and resolution cutoff of the data set are not mentioned.
+  - **Required correction** Specify the number of structures, range of protein and DNA types, and resolution criteria in the abstract or main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Validation breadth
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract lists multiple validation targets but does not mention any limitations or systems where the model might fail.
+  - **Required correction** Add a sentence acknowledging potential limitations, such as applicability to specific sequence contexts or timescales.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The modular integration approach and sequence-specific statistical potential are novel, but the abstract does not clearly differentiate from existing coarse-grained models.
+  - Scientific importance: DNA-protein interactions are central to many biological processes, and a transferable model would be valuable. However, the importance is not fully demonstrated without quantitative evidence.
+  - Interdisciplinary readership: The work would appeal to computational chemists, biophysicists, and structural biologists, but the abstract is technical and may not be accessible to a broader audience.
+  - Technical soundness: The approach is plausible, but the lack of quantitative validation and parameter sensitivity analysis prevents assessment of technical rigor.
+  - Readability for nonspecialists: The abstract is concise but uses jargon without sufficient context, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents promising ideas, but the absence of quantitative data and methodological details means the central claims cannot be verified. I would be supportive if the full manuscript provides rigorous validation, parameter sensitivity analysis, and mechanistic detail.
+
+## Risk / unsupported claims
+- The claim of "quantitative" reproduction of B-factors, SAXS, and NMR is unsupported without numerical data.
+- The claim that ARG to LYS mutation effects are "explained" is unsupported without mechanistic detail.
+- The claim of "transferability" is unsupported without evidence that a single lambda(DNAPRO) works across diverse systems.
+- The claim that the model is "robust" is not assessable from the abstract.

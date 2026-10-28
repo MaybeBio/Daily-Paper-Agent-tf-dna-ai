@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42209541",
+  "title": "Virtual immunohistochemistry by conditional generative adversarial networks.",
+  "authors": "Zhang, Wei; Hui, Tik Ho; Tse, May; Chen, Zhen; Manno, Francis A M; Hill, Fraser; Lau, Condon; Li, Xinyue",
+  "journal": "Scientific reports",
+  "published_date": "2026-05-29",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用条件生成对抗网络将H&E染色图像转换为IHC染色图像，属于医学图像翻译，与蛋白质-DNA互作及TF-DNA结合建模完全无关。",
+  "abstract": "Histopathological diagnosis is crucial for assisting doctors and veterinarians with timely treatment strategy selection and optimal patient management. After the hematoxylin and eosin (H&E) staining process, immunohistochemistry (IHC) staining is often required, resulting in a longer turnaround time but providing more disease-specific information. In this study, we propose a Virtual IHC Generative Adversarial Network (VihcGAN) model to transform the H&E stained images of formalin-fixed sections from canine lymph nodes into CD3 and PAX5 IHC stained images, providing a feasible procedure to obtain virtually IHC stained images paired with H&E images. We further propose a novel metric stain Intersection over Union (IoU) to evaluate the accuracy of IHC stained images by incorporating the knowledge of IHC staining, such as the type, number, and position of stained cells. Virtual IHC staining via VihcGAN is computationally fast, with 1 second per image, and thus can bypass time-consuming and costly IHC procedures. Moreover, VihcGAN generates images with a high resolution of 2048  x 2048, which is much higher than related studies. Experimental results on image quality, metrics, expert grading, and visualization assessment demonstrate the effectiveness of our approach. Source code for VihcGAN and Stain IoU metric are available at https://github.com/coffeeNtv/VihcGAN .",
+  "abstract_zh": "组织病理学诊断对于协助医生和兽医及时选择治疗策略和优化患者管理至关重要。在苏木精-伊红（H&E）染色过程之后，通常需要进行免疫组织化学（IHC）染色，这虽然延长了周转时间，但提供了更多疾病特异性信息。在本研究中，我们提出了一种虚拟IHC生成对抗网络（VihcGAN）模型，将来自犬淋巴结的福尔马林固定切片的H&E染色图像转换为CD3和PAX5 IHC染色图像，提供了一种可行的方法来获得与H&E图像配对的虚拟IHC染色图像。我们进一步提出了一种新的度量标准——染色交集比（IoU），通过结合IHC染色的知识（如染色细胞的类型、数量和位置）来评估IHC染色图像的准确性。通过VihcGAN进行的虚拟IHC染色计算速度快，每张图像仅需1秒，因此可以绕过耗时且昂贵的IHC程序。此外，VihcGAN生成的图像具有2048 x 2048的高分辨率，远高于相关研究。在图像质量、度量标准、专家评分和可视化评估方面的实验结果证明了我们方法的有效性。VihcGAN和Stain IoU度量的源代码可在https://github.com/coffeeNtv/VihcGAN获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42209541/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42209541/",
+  "paper_page_path": "papers/pubmed/42209541/index.html"
+}

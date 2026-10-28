@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, appendix) as provided
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and evidence presented; no editorial or formatting considerations
+- **Shared manuscript claim summary** The authors present IDEA, a residue-level biophysical model that learns an interpretable protein-DNA interaction energy matrix from known complex structures and sequences, and claim it predicts binding affinities, genomic binding sites, and absolute binding free energies via simulation integration
+- **Visible evidence base** Abstract, Introduction, Results sections (narrative), Methods sections (optimization, evaluation, simulation), Appendix (comparisons, failure analysis), figure references (Figures 1-5, S1-S15, Tables S1-S4)
+- **Missing materials affecting confidence** Figures and tables referenced but not provided; supplementary materials not provided; GitHub repository not accessible; specific numerical results (e.g., correlation coefficients, AUC values) reported without confidence intervals or statistical significance tests in several cases
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach that combines structure-based and sequence-based information into an interpretable energy model for protein-DNA interactions. The core idea of learning a residue-level interaction matrix from structural data and applying it to binding affinity prediction is timely and potentially useful. However, the evidence provided is insufficient to fully establish the claimed capabilities. Several key results are described narratively without the corresponding figures or tables being available for inspection, and the statistical rigor of the comparisons is not fully documented. The transferability analysis and the simulation integration are promising but require more detailed validation. The manuscript would benefit from clearer reporting of error bars, significance testing, and a more systematic comparison with existing methods across all benchmarks.
+- **Who would be interested in the results, and why** Computational biologists studying protein-DNA recognition, developers of biophysical models for gene regulation, experimentalists seeking predictive tools for transcription factor binding site identification, and researchers interested in interpretable machine learning approaches for molecular interactions. The interpretable nature of the model and its potential for mechanistic insights would appeal to a broad readership in molecular biology and biophysics.
+- **Major strengths** The IDEA model addresses a real gap by combining structural and sequence information in an interpretable framework. The emphasis on interpretability is a significant advantage over black-box deep learning approaches. The transferability analysis across a CATH superfamily is a thoughtful test of generalizability. The integration into a simulation framework to obtain absolute binding free energies is an ambitious and potentially impactful extension.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims accurate prediction of DNA recognition sites and binding affinities across various protein families, and successful identification of genomic binding sites
+  - **Evidence pointer** Figures 2, 4, S4-S9, S12; Tables S1-S2; location not provided for specific numerical values
+  - **Concern** The central quantitative results are presented without the actual figures and tables being available in the provided material. Correlation coefficients, AUC values, and comparisons with other methods are stated in the text, but the corresponding plots, ROC curves, and tables are not accessible for verification. This prevents assessment of the quality of the predictions, the distributions of the data, and the statistical significance of the reported improvements.
+  - **Why it matters** Without the visual and tabular evidence, the reader cannot evaluate whether the claimed predictive accuracy is robust, whether the distributions are well-separated, or whether the comparisons with existing methods are fair and correctly interpreted. This is essential for establishing the validity of the core claims.
+  - **Resolution test** Provide the referenced figures and tables with clear axis labels, legends, and statistical annotations. Include confidence intervals or error bars for all reported metrics, and specify the number of replicates or samples used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims that IDEA outperforms or performs comparably to state-of-the-art methods, and that it achieves high predictive accuracy in cross-validation
+  - **Evidence pointer** Appendix section "Comparison of IDEA predictive performance Using HT-SELEX data"; Figures S6-S7; Tables S1-S2; location not provided
+  - **Concern** The statistical basis for the performance comparisons is not fully described. It is unclear whether the reported AUC and PRAUC values are accompanied by confidence intervals, whether the differences between methods are statistically significant, and how the cross-validation was performed (e.g., stratification, number of folds, handling of sequence redundancy). The 10-fold cross-validation is mentioned, but the variance across folds is not reported.
+  - **Why it matters** Claims of superiority or comparability require statistical support. Without significance testing or variance estimates, the reported differences could be within noise, and the conclusions about model performance are not robust.
+  - **Resolution test** Report confidence intervals or standard deviations for all performance metrics. Perform and report statistical significance tests (e.g., paired tests across folds or bootstrap) for comparisons with other methods. Describe the cross-validation procedure in detail, including how sequences were split and whether redundancy was controlled.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** The manuscript claims that the IDEA model can be integrated into a simulation framework to quantitatively capture absolute protein-DNA binding free energies
+  - **Evidence pointer** Methods section "Sequence Specific Protein-DNA Simulation Model"; Figure 5; Figure S13-S14; location not provided
+  - **Concern** The description of how the IDEA-learned energy model is incorporated into the simulation is brief. The functional form of the sequence-specific interaction term is given, but the scaling and normalization of the IDEA energy matrix for use in the simulation are not fully justified. The relationship between the reduced units of the IDEA model and the physical units of the simulation is not explained. The choice of the 9 complexes for simulation validation and the criteria for selecting them are not stated.
+  - **Why it matters** The claim of predicting absolute binding free energies is strong and requires a clear demonstration that the simulation setup is physically sound and that the results are not artifacts of the specific parameter choices. Without this clarity, the simulation results are difficult to interpret or reproduce.
+  - **Resolution test** Provide a detailed description of the simulation protocol, including the exact form of the energy function, the normalization procedure, the equilibration and sampling protocols, and the error analysis. Justify the choice of the 9 test complexes and show that the results are robust to reasonable variations in the model parameters.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and limitations
+  - **Claim pointer** The manuscript claims that IDEA is transferable across proteins in the same CATH superfamily and that it can be applied to various protein families
+  - **Evidence pointer** Results section "IDEA Demonstrates Transferability across Proteins in the Same CATH Superfamily"; Figure 3; Figure S10-S11; location not provided
+  - **Concern** The transferability analysis is limited to the MAX-associated CATH superfamily. The claim of general applicability to various protein families is supported by the HT-SELEX analysis across 12 families, but the failure analysis in the Appendix indicates that performance is reduced for 4 out of 22 proteins. The reasons for these failures are discussed, but the implications for the generalizability of the model are not fully addressed. It is unclear whether the model is expected to work for all families or only those with available structural data and similar binding modes.
+  - **Why it matters** The practical utility of the model depends on its ability to generalize beyond the training set. A clearer statement of the model's limitations and the conditions under which it is expected to perform well would help users assess its applicability to their systems of interest.
+  - **Resolution test** Provide a more systematic analysis of the conditions under which the model succeeds or fails, potentially by analyzing the structural and sequence features that correlate with prediction accuracy. Discuss the scope of applicability more explicitly in the Discussion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Introduction, paragraph 1
+  - **Evidence pointer** Location not provided
+  - **Issue** The first sentence of the Introduction is a fragment and reads awkwardly.
+  - **Required correction** Revise to a complete sentence, e.g., "Gene regulation is essential for guiding processes from development to disease response."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Energy Model Optimization"
+  - **Evidence pointer** Location not provided
+  - **Issue** The number of decoy sequences (1000 DNA and 10,000 protein) is stated, but the method for generating these decoys is not fully described. It is unclear whether the decoys are random sequences or have specific properties (e.g., similar GC content).
+  - **Required correction** Provide a brief description of the decoy generation procedure, including any constraints applied to ensure they are realistic but non-binding.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section "Processing of ChIP-seq Data"
+  - **Evidence pointer** Location not provided
+  - **Issue** The Z-score normalization is described, but the threshold for identifying binding sites (Z score < -0.75) is stated without justification.
+  - **Required correction** Provide a rationale for the chosen threshold or cite a reference for its use.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of comparison
+  - **Affected element** Appendix section "Comparison of IDEA predictive performance Using HT-SELEX data"
+  - **Evidence pointer** Location not provided
+  - **Issue** The comparison with DBD-Hunter and rCLAMPS is described, but the details of how these models were applied (e.g., whether they were retrained on the same data or used as pre-trained models) are not fully specified.
+  - **Required correction** Clarify the setup for each comparison method to ensure a fair and reproducible benchmark.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing figures and tables), R1-M2 (lack of statistical rigor in performance comparisons)
+- **Assessment against Nature-style criteria** Originality: The approach of learning an interpretable residue-level energy matrix from structural data is a novel contribution that differentiates it from purely sequence-based or black-box deep learning methods. Scientific importance: The problem of predicting protein-DNA binding specificity and affinity is of high importance in gene regulation research. The potential to provide interpretable insights into the molecular grammar of binding is valuable. Interdisciplinary readership: The work bridges structural biology, computational biophysics, and genomics, and would appeal to researchers in these fields. Technical soundness: The underlying optimization framework is plausible, but the current evidence is insufficient to fully assess technical soundness due to missing figures and incomplete statistical reporting. Readability for nonspecialists: The manuscript is generally well-written and the concepts are explained clearly, but the Methods section assumes familiarity with coarse-grained modeling and energy optimization.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the preliminary results described are encouraging, but the manuscript in its current form does not provide sufficient evidence to fully establish the claims. The missing figures and tables, and the lack of statistical rigor in the comparisons, are significant issues that must be addressed before the case is convincing.
+
+## Risk / unsupported claims
+- The claim of "quantitatively captures the absolute protein-DNA binding free energies" is not fully supported by the evidence provided, as the simulation results are described without detailed validation or error analysis.
+- The claim of "accurate prediction of DNA recognition sites and their binding strengths across various protein families" is based on the HT-SELEX analysis, but the performance for 4 out of 22 proteins is acknowledged to be reduced, and the reasons are not fully explored.
+- The claim that IDEA "can be utilized for mechanistic studies of various DNA recognition processes" is a reasonable extrapolation but is not directly demonstrated in the provided material.
+- The performance comparison with other methods is described, but the statistical significance of the differences is not established.

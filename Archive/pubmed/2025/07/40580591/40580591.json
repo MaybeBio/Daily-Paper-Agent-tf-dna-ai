@@ -1,0 +1,229 @@
+{
+  "identity": {
+    "pmid": "40580591",
+    "doi": "10.1016/j.compbiolchem.2025.108560",
+    "title": "Identification of the differences in molecular networks between idiopathic pulmonary fibrosis and lung squamous cell carcinoma using machine learning."
+  },
+  "content": {
+    "abstract": "Idiopathic pulmonary fibrosis (IPF) is an independent risk factor for lung cancer, especially squamous cell carcinoma (SCC). The prognosis of patients with both IPF and SCC is poorer than that of patients with only IPF, and preventive measures against SCC in patients with IPF remain elusive. Understanding the distinct mechanisms that induce both diseases is crucial for mitigating SCC onset in patients with IPF. We developed highly accurate machine learning (ML) models to classify patients with IPF or SCC using public RNA sequencing data. To construct the ML models, a random restart technique was applied to the five algorithms. To identify the differentially expressed genes (DEGs) between IPF and SCC, feature importance was calculated in the classification models. Furthermore, we detected somatic mutations affecting gene expression using SCC data. The ML models identified VCX2, TMPRSS11B, PRUNE2, PRG4, PZP, SCARA5, DES, HPSE2, HOXD11, S100A7A, and PLA2G2A as DEGs. Somatic mutations were detected in four transcription factors, BHLHE40, MYC, STAT1, and E2F4, which regulate the expression of these 11 genes. Furthermore, a molecular network comprising four transcription factors and 11 downstream genes was discovered. This newly identified molecular network enhances our understanding of the distinct mechanisms underlying IPF and SCC onset, and provides new insights into preventing SCC complications in patients with IPF.",
+    "keywords": [
+      "Idiopathic pulmonary fibrosis",
+      "Lung squamous cell carcinoma",
+      "Machine learning",
+      "Molecular networks",
+      "Public data",
+      "RNA sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Idiopathic Pulmonary Fibrosis/genetics/diagnosis/metabolism",
+      "*Machine Learning",
+      "*Carcinoma, Squamous Cell/genetics/diagnosis/metabolism",
+      "*Lung Neoplasms/genetics/diagnosis/metabolism",
+      "*Gene Regulatory Networks",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nojima, Yosui",
+        "Mizuguchi, Kenji"
+      ],
+      "short_names": [
+        "Nojima Y",
+        "Mizuguchi K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Artificial Intelligence Center for Health and Biomedical Research (ArCHER), National Institutes of Biomedical Innovation, Health and Nutrition, 17-3 Senrioka-Shinmachi, Settu, Osaka 566-0002, Japan; Center for Mathematical Modeling and Data Science, The University of Osaka, 1-3 Machikaneyama, Toyonaka, Osaka 560-8531, Japan. Electronic address: nojima.yosui.mmds@osaka-u.ac.jp.",
+        "Artificial Intelligence Center for Health and Biomedical Research (ArCHER), National Institutes of Biomedical Innovation, Health and Nutrition, 17-3 Senrioka-Shinmachi, Settu, Osaka 566-0002, Japan; Institute for Protein Research, The University of Osaka, 3-2 Yamadaoka, Suita, Osaka 565-0871, Japan. Electronic address: kenji@protein.osaka-u.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nojima, Yosui",
+        "short_name": "Nojima Y",
+        "identifiers": [],
+        "affiliations": [
+          "Artificial Intelligence Center for Health and Biomedical Research (ArCHER), National Institutes of Biomedical Innovation, Health and Nutrition, 17-3 Senrioka-Shinmachi, Settu, Osaka 566-0002, Japan; Center for Mathematical Modeling and Data Science, The University of Osaka, 1-3 Machikaneyama, Toyonaka, Osaka 560-8531, Japan. Electronic address: nojima.yosui.mmds@osaka-u.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Mizuguchi, Kenji",
+        "short_name": "Mizuguchi K",
+        "identifiers": [],
+        "affiliations": [
+          "Artificial Intelligence Center for Health and Biomedical Research (ArCHER), National Institutes of Biomedical Innovation, Health and Nutrition, 17-3 Senrioka-Shinmachi, Settu, Osaka 566-0002, Japan; Institute for Protein Research, The University of Osaka, 3-2 Yamadaoka, Suita, Osaka 565-0871, Japan. Electronic address: kenji@protein.osaka-u.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/01 04:49",
+    "fetched_at": "2026-09-30 20:53:11"
+  },
+  "links": {
+    "cites": [
+      "41971943"
+    ],
+    "refs": [],
+    "similar": [
+      "40580591",
+      "31241180",
+      "33533494",
+      "40640934",
+      "39046603",
+      "41855208",
+      "37559532",
+      "37996625",
+      "39340293",
+      "42074286",
+      "39944354",
+      "38872139",
+      "42024670",
+      "41939867",
+      "28081703",
+      "41388329",
+      "41408564",
+      "38703565",
+      "40273141",
+      "11679937",
+      "33046043",
+      "41665823",
+      "41955235",
+      "39991151",
+      "40483519",
+      "37673297",
+      "39402203",
+      "40557159",
+      "32360590",
+      "31482686",
+      "35078421",
+      "39333367",
+      "40494203",
+      "34285914",
+      "40665394",
+      "39062997",
+      "40187620",
+      "41369928",
+      "40604645",
+      "40075162",
+      "28081052",
+      "41192648",
+      "37334348",
+      "40857336",
+      "40670650",
+      "41438766",
+      "32426915",
+      "37985153",
+      "41261179",
+      "42055268",
+      "41320661",
+      "34522168",
+      "37928522",
+      "39289672",
+      "40538010",
+      "38203265",
+      "41198554",
+      "36211385",
+      "39704195",
+      "41562054",
+      "39855369",
+      "28484236",
+      "37794454",
+      "28619094",
+      "37783761",
+      "36681777",
+      "28862766",
+      "37811627",
+      "35130915",
+      "40355204",
+      "30366970",
+      "31305128",
+      "34734011",
+      "38872435",
+      "35185901",
+      "36216496",
+      "41088915",
+      "25381634",
+      "31177264",
+      "38887981",
+      "41350847",
+      "39369217",
+      "36923791",
+      "39753882",
+      "41632363",
+      "39354547",
+      "28949095",
+      "41158409",
+      "40328901",
+      "41815121",
+      "31412851",
+      "39764456",
+      "27633630",
+      "33647885",
+      "34370624",
+      "41671621",
+      "27356570",
+      "34666057",
+      "36860337",
+      "40280949"
+    ],
+    "review": [
+      "40580591",
+      "28081052"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(25)00220-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3938",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

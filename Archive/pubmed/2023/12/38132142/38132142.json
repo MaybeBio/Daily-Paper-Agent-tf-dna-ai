@@ -1,0 +1,410 @@
+{
+  "identity": {
+    "pmid": "38132142",
+    "doi": "10.3390/cells12242821",
+    "title": "Flavonoids Regulate Redox-Responsive Transcription Factors in Glioblastoma and Microglia."
+  },
+  "content": {
+    "abstract": "The tumor microenvironment (TME) has emerged as a valuable therapeutic target in glioblastoma (GBM), as it promotes tumorigenesis via an increased production of reactive oxygen species (ROS). Immune cells such as microglia accumulate near the tumor and its hypoxic core, fostering tumor proliferation and angiogenesis. In this study, we explored the therapeutic potential of natural polyphenols with antioxidant and anti-inflammatory properties. Notably, flavonoids, including fisetin and quercetin, can protect non-cancerous cells while eliminating transformed cells (2D cultures and 3D tumoroids). We tested the hypothesis that fisetin and quercetin are modulators of redox-responsive transcription factors, for which subcellular location plays a critical role. To investigate the sites of interaction between natural compounds and stress-responsive transcription factors, we combined molecular docking with experimental methods employing proximity ligation assays. Our findings reveal that fisetin decreased cytosolic acetylated high mobility group box 1 (acHMGB1) and increased transcription factor EB (TFEB) abundance in microglia but not in GBM. Moreover, our results suggest that the most powerful modulator of the Nrf2-KEAP1 complex is fisetin. This finding is in line with molecular modeling and calculated binding properties between fisetin and Nrf2-KEAP1, which indicated more sites of interactions and stronger binding affinities than quercetin.",
+    "keywords": [
+      "fisetin",
+      "glioblastoma",
+      "microglia",
+      "natural polyphenols",
+      "oxidative stress",
+      "quercetin",
+      "reactive oxygen species",
+      "redox-responsive transcription factors",
+      "tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Flavonoids/pharmacology",
+      "Quercetin/pharmacology",
+      "Kelch-Like ECH-Associated Protein 1/metabolism",
+      "Microglia/metabolism",
+      "NF-E2-Related Factor 2/metabolism",
+      "*Glioblastoma/drug therapy",
+      "Molecular Docking Simulation",
+      "Oxidation-Reduction",
+      "Tumor Microenvironment"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Joma, Natali",
+        "Zhang, Issan",
+        "Righetto, Germanna L",
+        "McKay, Laura",
+        "Gran, Evan Rizzel",
+        "Kakkar, Ashok",
+        "Maysinger, Dusica"
+      ],
+      "short_names": [
+        "Joma N",
+        "Zhang I",
+        "Righetto GL",
+        "McKay L",
+        "Gran ER",
+        "Kakkar A",
+        "Maysinger D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8914-4606",
+        "ORCID: 0000-0002-0017-5201"
+      ],
+      "affiliations": [
+        "Department of Pharmacology and Therapeutics, McGill University, 3655 Promenade Sir-William-Osler, Montreal, QC H3G 1Y6, Canada.",
+        "Department of Pharmacology and Therapeutics, McGill University, 3655 Promenade Sir-William-Osler, Montreal, QC H3G 1Y6, Canada.",
+        "Department of Pharmacology and Therapeutics, McGill University, 3655 Promenade Sir-William-Osler, Montreal, QC H3G 1Y6, Canada.",
+        "Structural Genomics Consortium, University of Toronto, 101 College St, Toronto, ON M5G 1L7, Canada.",
+        "Department of Chemistry, McGill University, 801 Sherbrooke St W, Montreal, QC H3A 0B8, Canada.",
+        "Department of Pharmacology and Therapeutics, McGill University, 3655 Promenade Sir-William-Osler, Montreal, QC H3G 1Y6, Canada.",
+        "Department of Chemistry, McGill University, 801 Sherbrooke St W, Montreal, QC H3A 0B8, Canada.",
+        "Department of Pharmacology and Therapeutics, McGill University, 3655 Promenade Sir-William-Osler, Montreal, QC H3G 1Y6, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Joma, Natali",
+        "short_name": "Joma N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Therapeutics, McGill University, 3655 Promenade Sir-William-Osler, Montreal, QC H3G 1Y6, Canada."
+        ]
+      },
+      {
+        "full_name": "Zhang, Issan",
+        "short_name": "Zhang I",
+        "identifiers": [
+          "0000-0001-8914-4606"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Therapeutics, McGill University, 3655 Promenade Sir-William-Osler, Montreal, QC H3G 1Y6, Canada."
+        ]
+      },
+      {
+        "full_name": "Righetto, Germanna L",
+        "short_name": "Righetto GL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Therapeutics, McGill University, 3655 Promenade Sir-William-Osler, Montreal, QC H3G 1Y6, Canada.",
+          "Structural Genomics Consortium, University of Toronto, 101 College St, Toronto, ON M5G 1L7, Canada."
+        ]
+      },
+      {
+        "full_name": "McKay, Laura",
+        "short_name": "McKay L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, McGill University, 801 Sherbrooke St W, Montreal, QC H3A 0B8, Canada."
+        ]
+      },
+      {
+        "full_name": "Gran, Evan Rizzel",
+        "short_name": "Gran ER",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Therapeutics, McGill University, 3655 Promenade Sir-William-Osler, Montreal, QC H3G 1Y6, Canada."
+        ]
+      },
+      {
+        "full_name": "Kakkar, Ashok",
+        "short_name": "Kakkar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, McGill University, 801 Sherbrooke St W, Montreal, QC H3A 0B8, Canada."
+        ]
+      },
+      {
+        "full_name": "Maysinger, Dusica",
+        "short_name": "Maysinger D",
+        "identifiers": [
+          "0000-0002-0017-5201"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Therapeutics, McGill University, 3655 Promenade Sir-William-Osler, Montreal, QC H3G 1Y6, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cells"
+    ],
+    "journal_abbrev": [
+      "Cells"
+    ],
+    "pub_date": "2023 Dec 12",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/22 12:43",
+    "fetched_at": "2026-10-04 23:05:59"
+  },
+  "links": {
+    "cites": [
+      "41304439",
+      "41009025",
+      "39671046"
+    ],
+    "refs": [
+      "37390645",
+      "37216554",
+      "37189349",
+      "36552553",
+      "35953721",
+      "35817026",
+      "35624211",
+      "35217834",
+      "34943830",
+      "34836091",
+      "34744708",
+      "34681913",
+      "34525361",
+      "34463468",
+      "34209338",
+      "34194012",
+      "34118189",
+      "34009983",
+      "33818106",
+      "33690618",
+      "33668814",
+      "33585565",
+      "33585220",
+      "33515348",
+      "33498872",
+      "32887473",
+      "32823544",
+      "32796543",
+      "32664328",
+      "32435379",
+      "32429080",
+      "32162523",
+      "32023447",
+      "31936711",
+      "31898999",
+      "31851823",
+      "31752169",
+      "31697921",
+      "31585077",
+      "31507379",
+      "30946496",
+      "30781396",
+      "30760707",
+      "30715851",
+      "30123112",
+      "30064267",
+      "30039547",
+      "29993262",
+      "29854002",
+      "29669750",
+      "29530410",
+      "29308473",
+      "29104732",
+      "29026209",
+      "28989978",
+      "28819546",
+      "28701948",
+      "28520445",
+      "28410147",
+      "28324424",
+      "28273655",
+      "28230051",
+      "27892768",
+      "27738491",
+      "27708405",
+      "27252382",
+      "26763536",
+      "26715031",
+      "26713745",
+      "26281720",
+      "26180585",
+      "26122708",
+      "26101955",
+      "26057936",
+      "25904867",
+      "25754370",
+      "25712493",
+      "25678788",
+      "25614221",
+      "24406211",
+      "24366543",
+      "23796248",
+      "23722832",
+      "23678444",
+      "23583203",
+      "23174266",
+      "22336470",
+      "22141580",
+      "22010024",
+      "21919503",
+      "21624888",
+      "21219181",
+      "20716914",
+      "20424562",
+      "18726985",
+      "18444161",
+      "17975708",
+      "17516211",
+      "17513788",
+      "17462578",
+      "16888629",
+      "16513409",
+      "16507366",
+      "16133426",
+      "15734795",
+      "15650567",
+      "15264254",
+      "15183185",
+      "15164985",
+      "14984061",
+      "14871457",
+      "10746610"
+    ],
+    "similar": [
+      "38132142",
+      "25881548",
+      "17462537",
+      "35568790",
+      "34391968",
+      "38104880",
+      "32336035",
+      "32276170",
+      "31059805",
+      "34176443",
+      "24161694",
+      "31412289",
+      "32860805",
+      "32024620",
+      "30781396",
+      "26122708",
+      "27474998",
+      "33403898",
+      "32298752",
+      "35010945",
+      "23538677",
+      "28002939",
+      "35977659",
+      "33811899",
+      "27143001",
+      "26878775",
+      "32445069",
+      "30316844",
+      "32344103",
+      "28746889",
+      "37187359",
+      "28420170",
+      "27573160",
+      "33166928",
+      "23618921",
+      "34662529",
+      "32142880",
+      "30352880",
+      "31167117",
+      "38149556",
+      "33571414",
+      "30259744",
+      "32377290",
+      "32032607",
+      "28842501",
+      "35684398",
+      "37451151",
+      "26721592",
+      "32161178",
+      "32220623",
+      "29255090",
+      "30692632",
+      "33656904",
+      "31482617",
+      "32866756",
+      "31279986",
+      "31131946",
+      "35566228",
+      "28801166",
+      "23633659",
+      "37011738",
+      "31349040",
+      "27312421",
+      "31230229",
+      "32672401",
+      "32654377",
+      "36571996",
+      "28899203",
+      "31874248",
+      "31155513",
+      "29717933",
+      "28502971",
+      "34415206",
+      "32251645",
+      "32323805",
+      "32212827",
+      "18358244",
+      "30396067",
+      "37446045",
+      "35323490",
+      "37499433",
+      "30876764",
+      "31283229",
+      "37047024",
+      "32369110",
+      "35935939",
+      "33446568"
+    ],
+    "review": [
+      "38132142",
+      "35568790",
+      "32336035",
+      "26122708",
+      "33403898",
+      "35977659",
+      "32377290",
+      "28842501",
+      "33656904",
+      "31482617",
+      "28801166",
+      "28899203",
+      "29717933",
+      "28502971",
+      "34415206",
+      "37047024"
+    ],
+    "pmc": [
+      "10871111"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cells12242821",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38132142/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38132142",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

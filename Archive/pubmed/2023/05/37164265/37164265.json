@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "37164265",
+    "doi": "10.1016/j.labinv.2023.100173",
+    "title": "Development of a Pathomics-Based Model for the Prediction of Malignant Transformation in Oral Leukoplakia."
+  },
+  "content": {
+    "abstract": "Accurate prognostic stratification of oral leukoplakia (OLK) with risk of malignant transformation into oral squamous cell carcinoma is crucial. We developed an objective and powerful pathomics-based model for the prediction of malignant transformation in OLK using hematoxylin and eosin (H&E)-stained images. In total, 759 H&E-stained images from multicenter cohorts were included. A training set (n = 489), validation set (n = 196), and testing set (n = 74) were used for model development. Four deep learning methods were used to train and validate the model constructed using H&E-stained images. Pathomics features generated through deep learning combined with machine learning algorithms were used to develop a pathomics-based model. Immunohistochemical staining of Ki67, p53, and PD-L1 was used to interpret the black box of the model. Pathomics-based models predicted the malignant transformation of OLK (validation set area under curve [AUC], 0.899; testing set AUC, 0.813) and significantly identified high-risk and low-risk populations. The prediction performance of malignant transformation from dysplasia grading (validation set AUC, 0.743) was lower than that of the pathomics-based model. The expressions of Ki67, p53, and PD-L1 were correlated with various pathomics features. The pathomics-based model accurately predicted the malignant transformation of OLK and may be useful for the objective and rapid assessment of the prognosis of patients with OLK.",
+    "keywords": [
+      "deep learning",
+      "histopathology",
+      "malignant transformation",
+      "oral leukoplakia",
+      "oral squamous cell carcinoma"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Mouth Neoplasms/pathology",
+      "*Carcinoma, Squamous Cell/pathology",
+      "B7-H1 Antigen",
+      "Ki-67 Antigen",
+      "Tumor Suppressor Protein p53",
+      "Leukoplakia, Oral/pathology",
+      "Cell Transformation, Neoplastic/pathology",
+      "*Head and Neck Neoplasms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cai, Xinjia",
+        "Li, Long",
+        "Yu, Feiyan",
+        "Guo, Rongrong",
+        "Zhou, Xuan",
+        "Zhang, Fang",
+        "Zhang, Heyu",
+        "Zhang, Jianyun",
+        "Li, Tiejun"
+      ],
+      "short_names": [
+        "Cai X",
+        "Li L",
+        "Yu F",
+        "Guo R",
+        "Zhou X",
+        "Zhang F",
+        "Zhang H",
+        "Zhang J",
+        "Li T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oral Pathology, Peking University School and Hospital of Stomatology, National Center of Stomatology, National Clinical Research Center for Oral Diseases, National Engineering Research Center of Oral Biomaterials and Digital Medical Devices, Beijing, China; Research Unit of Precision Pathologic Diagnosis in Tumors of the Oral and Maxillofacial Regions, Chinese Academy of Medical Sciences, Beijing, China.",
+        "Hunan Key Laboratory of Oral Health Research, Xiangya Stomatological Hospital, Central South University, Changsha, China.",
+        "Department of Oral Medicine, Shanxi Province Key Laboratory of Oral Diseases Prevention and New Materials, Shanxi Medical University School and Hospital of Stomatology, Taiyuan, China.",
+        "Department of Oral Medicine, Shanxi Province Key Laboratory of Oral Diseases Prevention and New Materials, Shanxi Medical University School and Hospital of Stomatology, Taiyuan, China.",
+        "Department of Oral Pathology, Peking University School and Hospital of Stomatology, National Center of Stomatology, National Clinical Research Center for Oral Diseases, National Engineering Research Center of Oral Biomaterials and Digital Medical Devices, Beijing, China.",
+        "Department of Oral Medicine, Shanxi Province Key Laboratory of Oral Diseases Prevention and New Materials, Shanxi Medical University School and Hospital of Stomatology, Taiyuan, China. Electronic address: zhangfangdoctor@sxmu.edu.cn.",
+        "Central Laboratory, Peking University School and Hospital of Stomatology, Beijing, China. Electronic address: zhangheyu1983@sina.cn.",
+        "Department of Oral Pathology, Peking University School and Hospital of Stomatology, National Center of Stomatology, National Clinical Research Center for Oral Diseases, National Engineering Research Center of Oral Biomaterials and Digital Medical Devices, Beijing, China; Research Unit of Precision Pathologic Diagnosis in Tumors of the Oral and Maxillofacial Regions, Chinese Academy of Medical Sciences, Beijing, China. Electronic address: jianyunz0509@aliyun.com.",
+        "Department of Oral Pathology, Peking University School and Hospital of Stomatology, National Center of Stomatology, National Clinical Research Center for Oral Diseases, National Engineering Research Center of Oral Biomaterials and Digital Medical Devices, Beijing, China; Research Unit of Precision Pathologic Diagnosis in Tumors of the Oral and Maxillofacial Regions, Chinese Academy of Medical Sciences, Beijing, China. Electronic address: litiejun22@vip.sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cai, Xinjia",
+        "short_name": "Cai X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Pathology, Peking University School and Hospital of Stomatology, National Center of Stomatology, National Clinical Research Center for Oral Diseases, National Engineering Research Center of Oral Biomaterials and Digital Medical Devices, Beijing, China; Research Unit of Precision Pathologic Diagnosis in Tumors of the Oral and Maxillofacial Regions, Chinese Academy of Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Long",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Key Laboratory of Oral Health Research, Xiangya Stomatological Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Feiyan",
+        "short_name": "Yu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Medicine, Shanxi Province Key Laboratory of Oral Diseases Prevention and New Materials, Shanxi Medical University School and Hospital of Stomatology, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Rongrong",
+        "short_name": "Guo R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Medicine, Shanxi Province Key Laboratory of Oral Diseases Prevention and New Materials, Shanxi Medical University School and Hospital of Stomatology, Taiyuan, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xuan",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Pathology, Peking University School and Hospital of Stomatology, National Center of Stomatology, National Clinical Research Center for Oral Diseases, National Engineering Research Center of Oral Biomaterials and Digital Medical Devices, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fang",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Medicine, Shanxi Province Key Laboratory of Oral Diseases Prevention and New Materials, Shanxi Medical University School and Hospital of Stomatology, Taiyuan, China. Electronic address: zhangfangdoctor@sxmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Heyu",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Central Laboratory, Peking University School and Hospital of Stomatology, Beijing, China. Electronic address: zhangheyu1983@sina.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jianyun",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Pathology, Peking University School and Hospital of Stomatology, National Center of Stomatology, National Clinical Research Center for Oral Diseases, National Engineering Research Center of Oral Biomaterials and Digital Medical Devices, Beijing, China; Research Unit of Precision Pathologic Diagnosis in Tumors of the Oral and Maxillofacial Regions, Chinese Academy of Medical Sciences, Beijing, China. Electronic address: jianyunz0509@aliyun.com."
+        ]
+      },
+      {
+        "full_name": "Li, Tiejun",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral Pathology, Peking University School and Hospital of Stomatology, National Center of Stomatology, National Clinical Research Center for Oral Diseases, National Engineering Research Center of Oral Biomaterials and Digital Medical Devices, Beijing, China; Research Unit of Precision Pathologic Diagnosis in Tumors of the Oral and Maxillofacial Regions, Chinese Academy of Medical Sciences, Beijing, China. Electronic address: litiejun22@vip.sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Laboratory investigation; a journal of technical methods and pathology"
+    ],
+    "journal_abbrev": [
+      "Lab Invest"
+    ],
+    "pub_date": "2023 Aug",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Multicenter Study",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/11 00:42",
+    "fetched_at": "2026-09-29 00:14:05"
+  },
+  "links": {
+    "cites": [
+      "42513537",
+      "42302483",
+      "42066493",
+      "42021214",
+      "41486586",
+      "41454320",
+      "41421003",
+      "41238821",
+      "41008865",
+      "40988929",
+      "40885838",
+      "40690457",
+      "40494896",
+      "40449473",
+      "40146354",
+      "39678866",
+      "39418127",
+      "39248300",
+      "38758520",
+      "38403665"
+    ],
+    "refs": [],
+    "similar": [
+      "37164265",
+      "35921211",
+      "38217281",
+      "39248300",
+      "32578762",
+      "34409799",
+      "31027907",
+      "32348606",
+      "36449687",
+      "37749621",
+      "28797449",
+      "30160018",
+      "38388379",
+      "37454941",
+      "30443884",
+      "12969225",
+      "25518919",
+      "26885914",
+      "35653817",
+      "31133518",
+      "25978541",
+      "38066025",
+      "23776093",
+      "31896811",
+      "9762452",
+      "39239507",
+      "38545828",
+      "31172563",
+      "35064378",
+      "35858493",
+      "16598671",
+      "33896830",
+      "20036603",
+      "35792829",
+      "32433822",
+      "37531467",
+      "25938156",
+      "20412398",
+      "14707453",
+      "35249786",
+      "31422212",
+      "30936424",
+      "36325600",
+      "12953781",
+      "33368584",
+      "9813722",
+      "33605260",
+      "14675138",
+      "35763911",
+      "34872754",
+      "38936092",
+      "38753243",
+      "37224426",
+      "25426788",
+      "23826135",
+      "21342275",
+      "22646284",
+      "2651483",
+      "11321806",
+      "21435003",
+      "28545021",
+      "23784518",
+      "39313101",
+      "38246983",
+      "29895129",
+      "12694347",
+      "38749538",
+      "37752089",
+      "25576219",
+      "7476784",
+      "21159209",
+      "16020958",
+      "33861793",
+      "36149153",
+      "35199416",
+      "27153448",
+      "22751922",
+      "35894087",
+      "21225307",
+      "21844976",
+      "34351567",
+      "29516925",
+      "11988932",
+      "15583543",
+      "28923296",
+      "31910881",
+      "21833468",
+      "33187013",
+      "28053372",
+      "8745441",
+      "8843456",
+      "11289621",
+      "22931571",
+      "8245568",
+      "16086069",
+      "17990010",
+      "35360978",
+      "12563356",
+      "38557926",
+      "26189354",
+      "29108105",
+      "9127380",
+      "19735007",
+      "29606637",
+      "9206463",
+      "11478700",
+      "29588189",
+      "16540085",
+      "35091134",
+      "26234610",
+      "19813163",
+      "31493377",
+      "36982894",
+      "21762430",
+      "27793032",
+      "37722701",
+      "37526880",
+      "36260219",
+      "39145002",
+      "36721313",
+      "33723932",
+      "26064958",
+      "34062896",
+      "37762685",
+      "37670255",
+      "39299554",
+      "39382109",
+      "38238410",
+      "38476364",
+      "38594651",
+      "38356714",
+      "39104391",
+      "39061760",
+      "38833826",
+      "38348072",
+      "36709324",
+      "38177382",
+      "28815113"
+    ],
+    "review": [
+      "37164265",
+      "30443884",
+      "37224426",
+      "2651483",
+      "12694347",
+      "37752089",
+      "7476784",
+      "35199416",
+      "21225307",
+      "26189354",
+      "29606637",
+      "35091134",
+      "34062896"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0023-6837(23)00116-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/headandneckcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Head and Neck Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

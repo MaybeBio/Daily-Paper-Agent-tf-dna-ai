@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations of 21-residue peptide segments from the androgen receptor N-terminal domain (AR-NTD) to investigate how covalent ligands (SARICAs) alter local conformational preferences. They report that effective condensate-neutralizing ligands containing a cyanopyrazole B-ring reduce helical propensity in the C406-centered peptide, with key contacts involving W399, whereas ineffective ligands with a cyanophenyl ring do not. They propose that disruption of transient helical structures may underlie the mechanism of LLPS neutralization.
+- **Visible evidence base** Main text, Figures 1–4, Table 1, Supplementary Figure references (S1–S4)
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; force field parameter files and validation data not shown; raw simulation trajectories and convergence metrics not available; experimental data from the cited SARICA study (Thiyagarajan et al.) not included for direct comparison
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question: whether small-molecule covalent ligands can specifically modulate the conformational ensemble of an intrinsically disordered region, and whether such modulation correlates with functional outcomes (LLPS neutralization). The computational approach is reasonable and the choice of peptide segments is well justified by prior experimental data. However, the study has significant limitations in sampling, force field validation, and direct linkage between simulated conformational changes and the macroscopic LLPS phenotype. The central claim that cyanopyrazole-mediated helix destabilization is the mechanism of LLPS neutralization is plausible but not established from the provided evidence. The manuscript would benefit from additional validation, more robust sampling, and a clearer articulation of the inferential gap between peptide-level simulations and full-length AR-NTD behavior.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, nuclear receptor biology, drug discovery targeting IDRs, and computational biophysics. The work provides a concrete example of how covalent ligands can alter IDR conformational preferences, which is relevant to the growing interest in targeting disordered regions therapeutically. The methodological approach may also interest computational chemists developing protocols for ligand-IDR simulations.
+- **Major strengths** 
+  - Addresses a biologically and therapeutically relevant question with clear motivation from prior experimental findings
+  - Systematic design of ligand variants to isolate structural determinants (B-ring identity, linker presence)
+  - Use of multiple analysis methods (DSSP, contact maps, UMAP, PCA) to characterize conformational ensembles
+  - Honest acknowledgment of sampling limitations and the transient nature of IDR conformations
+  - Clear writing and logical organization
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We find that effective drug molecules have strong effects on altering local secondary structures. Specifically, the cyanopyrazole (B-ring) of SARICAs seems to be responsible for reducing helical propensity."
+  - **Evidence pointer** Figure 2, Figure 4, Section 3
+  - **Concern** The central claim that cyanopyrazole reduces helical propensity is based on single 50 ns simulations per system (with some extended to 100 ns). For intrinsically disordered peptides, 50 ns is generally insufficient to achieve converged conformational sampling. The authors acknowledge this but do not provide quantitative convergence metrics (e.g., block averaging, autocorrelation times, or replicate simulations). The observation that the native C406 peptide "largely maintains helical secondary structure" over 50 ns may reflect the starting conformation persisting rather than a true thermodynamic preference. Without replicate simulations or enhanced sampling, the differences between ligand-bound and unbound systems could be within statistical noise.
+  - **Why it matters** The entire mechanistic conclusion rests on the reliability of the observed conformational differences. If sampling is inadequate, the reported helix destabilization by cyanopyrazole may be an artifact of limited sampling rather than a genuine physical effect. This undermines the central claim and the proposed mechanism of LLPS neutralization.
+  - **Resolution test** Provide at least 3 independent replicate simulations per system with error bars on helical propensity and contact frequencies. Alternatively, use enhanced sampling methods (e.g., replica exchange MD, metadynamics) to obtain converged free energy surfaces. Show quantitative convergence metrics (e.g., RMSD between block averages, autocorrelation times) demonstrating that the reported differences are statistically significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "These findings on the mechanism of action can be useful for designing molecules that influence IDR structure and condensate of the AR in the future." and "We proposed that the cyanopyrazole ring is more effective at interfering with helical structures than the cyanophenyl ring."
+  - **Evidence pointer** Section 3, Figure 4
+  - **Concern** The manuscript does not establish a direct causal link between the observed peptide-level conformational changes and the functional outcome of LLPS neutralization. The authors speculate that "transient helical packing contributes to the LLPS driver" but provide no experimental or computational evidence connecting the specific peptide segment (C406-centered) to the intermolecular interactions that drive condensate formation. The leap from "this ligand destabilizes a helix in a 21-residue peptide" to "this explains how the ligand dissolves AR condensates" is not supported by the data presented. The authors themselves note that "not all LLPS use the same theme," yet they do not test alternative mechanisms or provide evidence that the C406 region is actually involved in LLPS-driving interactions.
+  - **Why it matters** The stated significance of the work is its potential to inform drug design for AR condensate modulation. If the connection between peptide-level helix destabilization and LLPS neutralization is speculative, the practical utility of these findings is unclear. The manuscript would be strengthened by either (a) direct simulation or experimental evidence that the C406 region participates in LLPS-driving interactions, or (b) a more cautious framing that limits claims to the observed conformational effects without overextending to the LLPS mechanism.
+  - **Resolution test** Provide additional data linking the C406 region to LLPS, such as: (1) simulations of longer AR-NTD constructs showing that the C406 region forms transient helices that participate in intermolecular contacts; (2) mutagenesis experiments showing that disrupting the C406 helix affects condensate formation; or (3) a clearly stated limitation that the LLPS mechanism is speculative and requires further investigation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "We constructed four modified cysteine residues that are covalently bound to distinct ligands: XNN, XNB, XN0, and XEN."
+  - **Evidence pointer** Section 2.1, Table 1, Supplementary Figure S3
+  - **Concern** The force field parameters for the covalent ligand-cysteine adducts were generated using AM1-BCC charges and the AMBER ff99SB force field. The manuscript does not provide validation of these parameters (e.g., comparison to quantum mechanical reference data, checks of geometric integrity, or assessment of parameter transferability). The choice of ff99SB is also dated; newer force fields (e.g., ff14SB, ff19SB) or IDP-specific parameter sets may be more appropriate. The authors do not discuss how the choice of force field might affect their conclusions.
+  - **Why it matters** Force field accuracy is critical for IDP simulations, where conformational ensembles are highly sensitive to the balance of backbone and side-chain interactions. If the ligand parameters are inaccurate or the protein force field is not well-suited for IDPs, the reported conformational preferences could be artifacts. This is particularly concerning given the short simulation times and the reliance on subtle differences in helical propensity.
+  - **Resolution test** Provide validation of the ligand parameters (e.g., comparison of bond lengths, angles, and dihedrals to QM reference data; assessment of partial charge reproduction). Justify the choice of ff99SB or repeat key simulations with a more modern force field to confirm that the qualitative conclusions are robust.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** "The results can lead to better understanding of IDR–ligand interaction and improved, rationally designed SARICAs in the future."
+  - **Evidence pointer** Section 4
+  - **Concern** The manuscript does not discuss the specificity of the observed interactions. The authors show that cyanopyrazole contacts W399 and A403, but do not address whether this is a specific interaction or a general hydrophobic effect. They also do not compare their findings to known ligand-IDR interactions in other systems, which would help contextualize the significance of their observations. The discussion of drug design implications is vague and does not provide concrete guidance for medicinal chemists.
+  - **Why it matters** For the work to be useful to a broad audience, the authors need to articulate what is generalizable and what is specific to this system. Without this context, the significance of the findings is unclear to readers outside the immediate computational biophysics community.
+  - **Resolution test** Add a discussion section comparing the observed ligand-IDR interactions to known examples in the literature. Address whether the W399-cyanopyrazole interaction is likely to be specific or a general aromatic stacking effect. Provide more concrete suggestions for how these findings could guide SARICA design.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2.2
+  - **Evidence pointer** "We initially performed 55 ns MD simulations for each peptide system. We took the first 5 ns as an equilibration run and did not use it for the 50 ns analysis."
+  - **Issue** The rationale for the 5 ns equilibration period is not explained. For IDP simulations, equilibration times can be longer, and the choice of 5 ns may be insufficient for the system to relax from the initial constructed conformation.
+  - **Required correction** Provide justification for the equilibration time or show that key observables (e.g., RMSD, radius of gyration) reached a plateau within 5 ns.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.3
+  - **Evidence pointer** "A residue–residue contact is considered formed (contact value 1 assigned) between residues j and k when any atoms of residue j is within a distance cutoff (4.2 Å in this case) of any atoms of residue k."
+  - **Issue** The contact definition uses a single distance cutoff of 4.2 Å for all atom pairs. This is a reasonable choice, but the sensitivity of the results to this cutoff is not discussed. Different cutoffs could alter the contact maps and potentially the conclusions.
+  - **Required correction** Add a brief sensitivity analysis or cite prior work justifying the 4.2 Å cutoff for IDP contact analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 3
+  - **Evidence pointer** "The UMAP coordinates are more sensitive than those of PCA, although both present a consistent picture that during the second 50 ns additional conformations lead to complex coordinates and complicated projections."
+  - **Issue** The interpretation of UMAP and PCA projections is not explained for readers unfamiliar with these methods. The statement that "UMAP coordinates are more sensitive" is vague and could be misinterpreted.
+  - **Required correction** Briefly explain what UMAP and PCA projections represent in this context and what "sensitivity" means here. Clarify how the projections support the conclusions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section 3
+  - **Evidence pointer** "Earlier experimental results indicated that XNN and XN0 are likely to be effective LLPS neutralizers compared to XNB."
+  - **Issue** The experimental data from the cited study (Thiyagarajan et al.) are not summarized in sufficient detail. Readers cannot assess the strength of the correlation between the experimental LLPS neutralization and the simulated conformational changes without knowing the experimental conditions, concentrations, and quantitative measures of neutralization.
+  - **Required correction** Provide a brief summary of the experimental results, including quantitative measures of LLPS neutralization for each ligand, to allow readers to evaluate the strength of the correlation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.1
+  - **Evidence pointer** "We constructed 21-residue long peptide segments centered at each of these Cys residues."
+  - **Issue** The choice of 21-residue segments is not justified. The authors note that longer segments would increase sampling difficulty, but they do not discuss whether 21 residues are sufficient to capture the relevant local structural context, particularly for the C406 region which may be influenced by more distal residues.
+  - **Required correction** Justify the peptide length choice or discuss the potential limitations of using short segments to represent the behavior of the full-length IDR.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 1
+  - **Evidence pointer** "The lack of well-characterized structures also makes studying protein–ligand interactions more difficult for computational methods. It is challenging to apply molecular docking and other conventional methods, which require well-defined native protein conformation(s)."
+  - **Issue** The introduction assumes familiarity with computational drug discovery methods. A brief explanation of why docking fails for IDRs would help nonspecialist readers understand the methodological choice.
+  - **Required correction** Add one or two sentences explaining why docking requires well-defined structures and why MD simulations are more suitable for IDRs.
+
+## Risk / unsupported claims
+- The claim that cyanopyrazole-mediated helix destabilization is the mechanism of LLPS neutralization is not supported by direct evidence; it is a plausible hypothesis but not established.
+- The claim that "effective drug molecules have strong effects on altering local secondary structures" is based on limited sampling and may not be statistically robust.
+- The assertion that "the core contact interaction may be initiated by Trp (W399) with cyanopyrazole ring" is speculative and not supported by mutational or energetic analysis.
+- The generalizability of the findings to full-length AR-NTD behavior is not demonstrated; the peptide-level simulations may not capture the complexity of the full IDR.
+- The statement that "the conclusion might be applicable to systems with similar characteristics, such as the glucocorticoid receptor" is unsupported by any comparative analysis.

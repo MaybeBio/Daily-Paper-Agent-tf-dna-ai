@@ -1,0 +1,263 @@
+{
+  "identity": {
+    "pmid": "42470494",
+    "doi": "10.1007/s10735-026-10848-6",
+    "title": "Investigating the mechanisms of malignant progression in colorectal cancer using weighted gene co-expression network analysis and machine learning."
+  },
+  "content": {
+    "abstract": "Colorectal cancer (CRC) remains a leading cause of cancer-related mortality worldwide. Understanding the complex molecular networks that underlie this aggressive behavior is critical for developing novel diagnostic and therapeutic strategies. This study aimed to identify key molecular regulators of CRC progression by integrating Weighted Gene Co-expression Network Analysis (WGCNA) with machine learning algorithms. Hub genes were initially identified by intersecting genes from the most significant module with CRC-related and glycolysis-related targets from the GeneCards database, as well as upregulated differentially expressed genes (DEGs) from the GSE113513 dataset. Lasso regression and random forest (RF) algorithms were employed to screen for key genes from this intersection. The expression of the identified key gene was validated using quantitative real-time PCR (qRT-PCR) and Western blotting. Functional assays, including Cell Counting Kit-8 (CCK-8), colony formation, Transwell invasion, flow cytometry, and metabolic analyses, were conducted to analyze the malignant behaviors of CRC cells. The regulatory relationship between cyclin dependent kinase 1 (CDK1) and transcription factor AP-4 (TFAP4) was validated through chromatin immunoprecipitation (ChIP) and dual-luciferase reporter assays. A xenograft mouse model was used to evaluate the effect of TFAP4 knockdown on the malignant progression of CRC cells in vivo. WGCNA and machine learning analyses identified three key genes: MET, MYC, and CDK1. CDK1 was selected for further investigation and found to be significantly upregulated in CRC tissues and cell lines. Functionally, CDK1 knockdown markedly inhibited CRC cell proliferation, invasion, and glycolysis while promoting apoptosis. Mechanistically, the transcription factor TFAP4 was identified as an upstream regulator that directly activated CDK1 transcription. Moreover, CDK1 and TFAP4 expression were associated with metastatic stage. TFAP4 exerted its oncogenic effects by positively regulating CDK1. Furthermore, silencing TFAP4 significantly suppressed tumor growth in vivo. This study establishes the TFAP4-CDK1 axis as a critical driver of malignant progression in CRC. Targeting this pathway could lead to the development of novel interventions for CRC.",
+    "keywords": [
+      "Colorectal cancer",
+      "Cyclin dependent kinase 1",
+      "Machine learning algorithms",
+      "Transcription factor AP-4",
+      "Weighted gene co-expression network analysis"
+    ],
+    "mesh_terms": [
+      "*Colorectal Neoplasms/genetics/pathology",
+      "Humans",
+      "*Gene Regulatory Networks",
+      "*Gene Expression Regulation, Neoplastic",
+      "Animals",
+      "Disease Progression",
+      "*Machine Learning",
+      "Cell Line, Tumor",
+      "Mice",
+      "Gene Expression Profiling",
+      "Cell Proliferation/genetics",
+      "CDC2 Protein Kinase/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Song",
+        "Meng, Lei",
+        "Fan, Xiaoye",
+        "He, Xiaoqing"
+      ],
+      "short_names": [
+        "Zheng S",
+        "Meng L",
+        "Fan X",
+        "He X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Xingtai Medical University, 376 Shunde Road, Xiangdu District, Xingtai City, 054000, Hebei Province, China. 15227869283@163.com.",
+        "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Xingtai Medical University, 376 Shunde Road, Xiangdu District, Xingtai City, 054000, Hebei Province, China.",
+        "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Xingtai Medical University, 376 Shunde Road, Xiangdu District, Xingtai City, 054000, Hebei Province, China.",
+        "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Xingtai Medical University, 376 Shunde Road, Xiangdu District, Xingtai City, 054000, Hebei Province, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Song",
+        "short_name": "Zheng S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Xingtai Medical University, 376 Shunde Road, Xiangdu District, Xingtai City, 054000, Hebei Province, China. 15227869283@163.com."
+        ]
+      },
+      {
+        "full_name": "Meng, Lei",
+        "short_name": "Meng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Xingtai Medical University, 376 Shunde Road, Xiangdu District, Xingtai City, 054000, Hebei Province, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Xiaoye",
+        "short_name": "Fan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Xingtai Medical University, 376 Shunde Road, Xiangdu District, Xingtai City, 054000, Hebei Province, China."
+        ]
+      },
+      {
+        "full_name": "He, Xiaoqing",
+        "short_name": "He X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The Second Affiliated Hospital of Xingtai Medical University, 376 Shunde Road, Xiangdu District, Xingtai City, 054000, Hebei Province, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular histology"
+    ],
+    "journal_abbrev": [
+      "J Mol Histol"
+    ],
+    "pub_date": "2026 Jul 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/19 04:00",
+    "fetched_at": "2026-10-02 01:51:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40962169",
+      "40557837",
+      "40486858",
+      "39806333",
+      "38801926",
+      "38572751",
+      "38429268",
+      "38112903",
+      "37091904",
+      "36894688",
+      "36828759",
+      "35781722",
+      "35192356",
+      "33591350",
+      "33373169",
+      "32783650",
+      "32127012",
+      "28174738"
+    ],
+    "similar": [
+      "42470494",
+      "41106221",
+      "42501233",
+      "41436831",
+      "42069097",
+      "41716413",
+      "40962169",
+      "41559659",
+      "33608020",
+      "39722009",
+      "42169639",
+      "39973554",
+      "40779443",
+      "33831429",
+      "29734178",
+      "40656610",
+      "42260555",
+      "41198561",
+      "40167359",
+      "39806333",
+      "37917325",
+      "40112348",
+      "38809379",
+      "42432583",
+      "41642808",
+      "42582956",
+      "41572068",
+      "36576616",
+      "38253900",
+      "42401341",
+      "33664859",
+      "41496017",
+      "42050706",
+      "33744866",
+      "40065477",
+      "42444619",
+      "42365218",
+      "41342434",
+      "30010111",
+      "39199281",
+      "40682845",
+      "42262434",
+      "41194017",
+      "40217155",
+      "34974791",
+      "39023830",
+      "39987563",
+      "40668324",
+      "40643716",
+      "40713656",
+      "42530263",
+      "35837768",
+      "32993655",
+      "39851228",
+      "31203132",
+      "32641995",
+      "42580240",
+      "41204349",
+      "41219406",
+      "34023852",
+      "40484863",
+      "41418870",
+      "42550740",
+      "35795731",
+      "32690100",
+      "41293954",
+      "41628115",
+      "38760791",
+      "38747892",
+      "41831177",
+      "41543195",
+      "42579020",
+      "39316306",
+      "41566326",
+      "29517105",
+      "35039980",
+      "38291092",
+      "41486187",
+      "41687471",
+      "40328901",
+      "30365932",
+      "30542696",
+      "40967560",
+      "40547309",
+      "37980488",
+      "31257454",
+      "37266842",
+      "41985081",
+      "41972476",
+      "40269881",
+      "39344563",
+      "32552762",
+      "41772703",
+      "41953046",
+      "41923267",
+      "38520835",
+      "40313958",
+      "41580703",
+      "35108639",
+      "34050266"
+    ],
+    "review": [
+      "42470494",
+      "41219406"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/colorectalcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Colorectal Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1007/s10735-026-10848-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-797",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

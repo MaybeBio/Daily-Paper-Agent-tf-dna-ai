@@ -1,0 +1,81 @@
+# Gnetofuran A Enhances Osteoblast Differentiation through the p38 Signaling Pathway
+
+
+## Abstract
+  Gnetofuran A, a newly extracted compound from Gnetum latifolium, possesses anti-inflammatory effects by inhibiting TNF-α activity. However, the function and mechanism of Gnetofuran A in osteoblast differentiation remain unknown. In this study, we found that Gnetofuran A enhanced osteoblast differentiation and upregulated the mRNA levels of osteogenic genes, including alkaline phosphatase (ALP) and osteocalcin (OC). Meanwhile, Gnetofuran A improved protein levels of Runt-related gene 2 (Runx2) and Osterix, the key transcription factors in osteoblast differentiation. Furthermore, we discovered that p38 MAPK signaling is involved in Gnetofuran A-induced osteoblast differentiation. A docking analysis showed the potential interaction between Gnetofuran A and p38. Taken together, our study provides a new biological function of Gnetofuran A and a therapeutic candidate for osteoporosis.
+
+
+## INTRODUCTION
+  Osteoporosis, a pervasive bone disorder, represents a growing public health concern, particularly in the context of aging populations (Wark, 1993). This condition is pathologically defined by a substantial reduction in bone mineral density (BMD) and severe deterioration of bone microarchitecture, which impair bone strength and increase the risk of fragility fractures (Glaser and Kaplan, 1997; Lane, 2006). At the cellular level, the pathogenesis of osteoporosis is largely attributed to an imbalance in bone remodeling, primarily stemming from either excessive osteoclast activation, leading to accelerated bone breakdown, or significant impairment of osteoblast function, resulting in insufficient new bone formation (Eriksen, 2010; Tella and Gallagher, 2014). Consequently, therapeutic strategies aimed at promoting osteoblast function or modulating osteoclast activity are considered efficacious in the management of osteoporosis. Nevertheless, the precise mechanisms for effectively maintaining bone homeostasis through the regulation of bone remodeling remain to be fully elucidated.
+
+  Osteoblasts, which play a central role in bone formation, differentiate from mesenchymal stem cells (Blair et al., 2017). Their differentiation is tightly controlled by various signaling pathways and multiple transcription factors (Nakashima and de Crombrugghe, 2003). Runx2 and Osterix are the most representative transcription factors expressed during the early and late phase of osteoblast differentiation, respectively (Ducy et al., 1997; Fu et al., 2007). These factors regulate osteogenic gene expression, including that of alkaline phosphatase (ALP), bone sialoprotein (BSP), and osteocalcin (OC) (Zhang, 2010; Komori, 2006b, 2006a). Moreover, Runx2 and Osterix act as downstream molecules of the mitogen-activated protein kinase (MAPK), AKT, and PKA signaling pathways (Choi et al., 2011b; Greenblatt et al., 2010; He et al., 2014). For example, ERK regulates Runx2 function by phosphorylating Runx2 after extracellular matrix (ECM) protein stimulation (Qiao et al., 2004; Xiao et al., 2000, 2002). ERK1/2 affects Osterix protein stability and transcriptional activity (Choi et al., 2011a). AKT phosphorylates and regulates both Runx2 and Osterix (Choi et al., 2011b, 2014).
+
+  Gnetofuran A is isolated from Gnetum latifolium (Gnetaceae), as a new phenolic derivative (Ali et al., 2003). The pharmacological function of Gnetofuran A shows moderate anti-inflammatory activity by inhibiting the TNF-α production (Yao et al., 2006). However, the biological function of Gnetofuran A during osteoblast differentiation remains unknown. Here, we aimed to elucidate whether Gnetofuran A promotes osteogenesis and to address its potential underlying mechanisms.
+
+
+## MATERIALS AND METHODS
+
+### Cell culture, differentiation and transfection
+  C2C12 murine premyoblasts were cultured in Dulbecco’s modified Eagle medium (DMEM; GibcoTM, Carlsbad, CA, USA) containing 10% fetal bovine serum (FBS; Welgene, Deagu, Korea) and 1% antibiotic-antimycotics (GibcoTM) at 37°C in a 5% CO2 incubator. To stimulate C2C12 differentiation, fully confluent cells were kept in 2% FBS medium and treated with or without 100 ng/mL bone morphogenetic protein 4 (BMP4). Transfection of shRunx2 into C2C12 cells was performed using polyethyleneimine (PEI) (Polysciences, Inc., Warrington, PA, USA).
+
+
+### Reagents
+  Gnetofuran A was synthesized as previously described (Ali et al., 2003) (Fig. 1A). All other chemicals obtained from Calbiochem (San Diego, CA, USA) are provided in Supplementary Table 1.
+
+
+### MTT assay
+  C2C12 cells were plated into 96-well plates in triplicate and exposed to increasing concentrations of Gnetofuran A for 3 days. At the end of the treatment, MTT (3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide) working solution was applied, and the cultures were maintained at 37°C for 4 h to allow the reduction of MTT into insoluble formazan. The medium was then replaced with 100 μL of DMSO to dissolve the formazan crystals. Optical density was subsequently recorded at 540 nm.
+
+
+### Alkaline phosphatase (ALP) staining
+  To evaluate the extent of differentiation, fully differentiated C2C12 cells were fixed in 4% paraformaldehyde at room temperature for 10 min. Cells were then incubated with 1-Step NBT/BCIP Substrate Solution (34042; Thermo Scientific, Waltham, MA, USA). ALP staining was evaluated quantitatively by absorbance measurement at 480 nm in triplicate.
+
+
+### Immunoblotting
+  Cells were harvested in membrane lysis buffer for 15 min, and the extracted proteins were resolved by SDS-PAGE before being transferred to PVDF membrane (Immobilon-P; Millipore, Burlington, MA, USA). The membranes were subsequently incubated in 5% skim milk prepared in TBS-T to block nonspecific binding. Primary antibodies (shown in Supplementary Table 2) were applied, followed by incubation with horseradish peroxidase (HRP)-linked secondary antibodies. Protein bands were detected using Immobilon Western Chemiluminescent HRP Substrate (WBKLS0500, Millipore) and imaged with the Amersham ImageQuant 800 system (GE Healthcare Life Sciences, Marlborough, MA, USA).
+
+
+### Reverse transcription followed by quantitative polymerase chain reaction (RT-qPCR)
+  RNA extraction was carried out using the RNAiso plus kit (TaKaRa, Tokyo, Japan), and cDNA was synthesized from total RNA with the GoScript Reverse Transcription System (Promega, Madison, WI, USA). qPCR was conducted on a Bio-Rad CFX96 real-time PCR system (Hercules, CA, USA) using SYBR Green chemistry. The amplification protocol consisted of an initial denaturation step at 95°C for 30 s, followed by 40 cycles at 95°C for 5 s and 60°C for 30 s, and concluded with melting curve analysis. Gene expression was normalized against Gapdh, and each experiment was conducted in triplicate. Primer sequences are provided in Supplementary Table 3.
+
+
+### Molecular docking analysis
+  The structure of Gnetofuran A was generated using ChemDraw 20.0 (Revvity, Inc., Waltham, MA, USA) and subsequently energy-minimized using the MM2 force field using Chem3D 20.0 (Revvity, Inc.). The resulting structure was exported in mol2 format for docking studies. The crystal structure of p38 (PDB code: 1OUK) were retrieved from the RCSB Protein Data Bank (https://www.rcsb.org). The docking grid box was established with the GetBox plugin in PyMOL (Schrödinger, Inc., NY, USA), centered at 44.3 Å, 32.5 Å, and 31.7 Å, with dimensions of 23.0 Å×20.8 Å×15.3 Å. Semi-flexible docking simulations were carried out using the LeDock (https://www.lephar.com) program. In this docking protocol, conformational flexibility was allowed for the ligand, while the receptor was kept rigid. Twelve docking poses were generated for Gnetofuran A, and the model with the most favorable binding energy was chosen as the optimal conformation after evaluating interaction modes and scoring values. The interactions in the final pose were analyzed and visualized with PyMOL and LigPlot+ software (European Bioinformatics Institute, Cambridgeshire, UK).
+
+
+### Statistical analyses
+  All experiments were repeated at least three times. Experimental values were expressed as means ± standard error of the mean. Statistical significance was determined using Student’s t-test, with a p-value of <0.05 indicating significance.
+
+
+## RESULTS
+
+### Effects of Gnetofuran A on cell viability
+  To examine the cytotoxicity in C2C12 cells, C2C12 cells were incubated in the presence of 0, 0.3125, 0.625, 1.25, 2.5, 5, 10, and 20 μM of Gnetofuran A for 3 days. MTT assays showed that Gnetofuran A at concentrations up to 20 μM did not affect cell viability (Fig. 1B). Therefore, all concentrations of Gnetofuran A were allowed to be used in subsequent experiments.
+
+
+### Gnetofuran A enhances osteoblast differentiation
+  C2C12 cells can be transdifferentiated into osteoblasts by BMP4 induction for 3 days (Li et al., 2005). To investigate whether Gnetofuran A affects osteoblast differentiation, C2C12 cells were treated with increasing concentrations of the Gnetofuran A and stimulated with BMP4 for 72 h. Because alkaline phosphatase (ALP) serves as a major marker in the early phase of osteoblast differentiation (Rodan and Noda 1991), ALP staining was conducted to evaluate the effects of Gnetofuran A. The results showed that ALP activity increased after BMP4 treatment and further increased after treatment with Gnetofuran A in a dose-dependent manner (Fig. 2A, 2B). Next, to confirm whether Gnetofuran A affects the expression of osteogenic genes, the mRNA levels of Alp and Oc were determined by RT-qPCR. Similar to the ALP staining results, Gnetofuran A markedly increased the mRNA levels of Alp and Oc (Fig. 2C, 2D). These results indicated that Gnetofuran A induced osteogenic differentiation of C2C12 cells.
+
+
+### Gnetofuran A increases the protein expression of Runx2 and Osterix
+  To investigate the mechanisms by which Gnetofuran A affects osteoblast differentiation, we examined the expression of major transcription factors, Runx2 and Osterix. As shown in Fig. 3A, the mRNA levels of Runx2 and Osterix did not increase after Gnetofuran A treatment. Interestingly, the protein levels of Runx2 increased after Gnetofuran A treatment in the early stage of osteoblast differentiation. In contrast, the protein levels of Osterix slightly increased at the late stage of osteoblast differentiation (Fig. 3B). To further confirm the intracellular target of Gnetofuran A, we used the shRunx2 to block the function of Runx2, and the knockdown efficiency of shRunx2 has been elucidated in the previous study (Piao et al., 2023). The result showed that Gnetofuran A treatment did not restore shRunx2-suppressed ALP staining (Fig. 3C, 3D). These results demonstrate that Runx2 is the major target for Gnetofuran A-induced osteoblast differentiation.
+
+
+### p38 signaling is involved in Gnetofuran A-induced osteoblast differentiation
+  Multiple signaling pathways, including MAPK (Greenblatt et al., 2013), AKT (Kawamura et al., 2007), and PKA (Tascau et al., 2016), are known to regulate osteoblast differentiation. To investigate the signal pathways mediating Gnetofuran A-induced C2C12 cell differentiation, several kinase inhibitors were employed for the inhibition of PKA, p38 MAPK, and AKT signaling pathways. Consistent with the ALP staining results, the p38 MAPK signaling inhibitor SB203580 significantly suppressed the Gnetofuran A-induced osteoblast differentiation (Fig. 4A, 4B). Next, we evaluated the effects of kinase inhibitors on Gnetofuran A-induced ALP activity. As expected, the p38 MAPK signaling inhibitor (SB) dramatically decreased Gnetofuran A-induced ALP activity in a concentration-dependent manner (Fig. 4C, 4D). Furthermore, we explored the potential molecular interactions between Gnetofuran A and p38 MAPK using molecular docking analysis. Fig. 5 showed that Gnetofuran A formed stable interaction with p38. These findings suggest that the p38 MAPK signaling pathway is important in the Gnetofuran A-induced osteoblast differentiation.
+
+
+## DISCUSSION
+  In our study, we have identified new biological functions of Gnetofuran A extracted from G. latifolium besides anti-inflammatory activity. Furthermore, we discovered that Runx2 is a major intracellular target for Gnetofuran. Also, we identified that the p38 signaling pathway participates in Gnetofuran A-mediated osteoblast differentiation. Thus, our results provide a new candidate for osteoporosis treatment.
+
+  Osteoblast proliferation, maturation, and differentiation are important to bone formation and homeostasis (Kim et al., 2020). Osteoblast differentiation is a dynamic and complex process that requires the involvement and regulation of multiple transcription factors (Walsh et al., 2006). In particular, Runx2, a representative transcription factor, has an essential role in osteoblast differentiation (Komori, 2011; Long, 2011). Disruption of Runx2 functions causes cleidocranial dysplasia in humans and leads to bone loss in mice (Hecht et al., 2007; Wu et al., 2014). In this study, we screened several compounds on osteoblast differentiation (data not shown). Among these compounds, we found Gnetofuran A (compound 16, randomly named KGL-21M3-2D) showed most positive effect at ALP staining. Furthermore, Gnetofuran A promoted osteoblast differentiation by regulating the Runx2 protein expression but not its mRNA expression. To elucidate the intracellular target of Gnetofuran A, we silenced endogenous Runx2 expression by shRNA. We found that Gnetofuran A did not positively affect the shRunx2 group. Thus, we ensure that Runx2 is the major target for Gnetofuran A. On the other hand, Runx2 is the upstream regulator for Osterix (Nishio et al., 2006), another specific transcription factor in osteoblast differentiation. Even though the protein expression of Osterix was only slightly increased in our study, it resulted from increased Runx2 expression.
+
+  Osteoblast differentiation also requires the BMP, MAPK, and AKT signaling pathways. The canonical BMP signaling pathway plays an essential role in bone development because its activation is required for mesenchymal stem cell differentiation into osteoblasts (Beederman et al., 2013). In addition, the non-canonical BMP signaling pathway, acting through the TAK1-MKK3/6-p38 MAPK axis, phosphorylates Runx2 and promotes its interaction with the co-activator (Greenblatt et al., 2010). p38 activation also improves BMP2-induced osteoblast in pluripotent C2C12 cells (Gallea et al., 2001). The Smad and p38 signaling pathways both play critical roles in regulating Runx2 expression following transforming growth factor-β (TGF-β) and BMP stimulation (Lee et al., 2002). In our study, we found that the effects of Gnetofuran A required the involvement of BMP4 and increased BMP4-induced osteoblast differentiation. Moreover, p38 MAPK signaling inhibition dramatically suppressed Gnetofuran A-induced osteoblast differentiation. Furthermore, docking analysis showed the stable binding between Gnetofuran A and p38 within the ATP-binding pocket through hydrogen bonds formed with Ala51, Asp168, Lys53, and Lys152 of p38. Those findings imply that Gnetofuran A may function as a modulator of p38, enhancing the p38 MAPK signaling cascade. However, how p38 signaling regulates the effect of Gnetofuran A on Runx2 during osteoblast differentiation requires further investigation.
+
+  In conclusion, we found that Gnetofuran A, a novel compound extracted from G. latifolium, promoted osteoblast differentiation and increased the Runx2 and Osterix protein expression via interacting with p38. Thus, it is a potential therapeutic candidate for the treatment of bone metabolic diseases, including osteoporosis (Fig. 6).
+
+
+## N/A
+
+## ACKNOWLEDGMENTS
+  This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korean government (MSIT) (RS-2019-NR040056), and by the Korea Basic Science Institute (KBSI) (grant number: C523400).

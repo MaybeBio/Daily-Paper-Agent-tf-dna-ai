@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors introduce DNAgenie, a machine learning predictor for DNA-type-specific binding residues (A-DNA, B-DNA, single-stranded DNA) in protein sequences. They claim it outperforms adapted existing methods on an independent test set, reduces cross-predictions via a two-step refinement, produces competitive protein-level predictions, and yields plausible human proteome predictions with novel putative binders.
+- **Visible evidence base** Abstract text only; no quantitative results, datasets, or methodological details provided
+- **Missing materials affecting confidence** Full methods, training and test dataset descriptions, performance metrics, statistical significance tests, comparison protocols, webserver implementation details, and proteome-scale analysis results
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful tool for DNA-type-specific binding residue prediction, addressing a real gap in the field. However, the evidence base is limited to qualitative claims without quantitative support, making the core assertions of superiority and reduced cross-prediction unverifiable from the supplied material. The novelty of the architecture and the robustness of the evaluation cannot be assessed.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-DNA interaction prediction, functional annotation of proteins, and machine learning applications in genomics. Experimentalists studying DNA-binding proteins may also find the tool useful for prioritizing residues for mutagenesis or structural studies, particularly given the type-specific distinction.
+- **Major strengths** The focus on DNA-type-specific prediction is a clear advance over existing agnostic methods. The two-step refinement to reduce cross-predictions addresses a known limitation in the field. The inclusion of a webserver enhances practical utility. The proteome-scale application suggests potential for broad biological discovery.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Comparative tests on an independent test dataset demonstrate that DNAgenie outperforms the current methods that we adapt to predict residue-level interactions with the three DNA types."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of superior performance is made without any quantitative metrics, such as accuracy, precision, recall, F1-score, or area under the ROC curve. No statistical significance testing is mentioned. The phrase "outperforms" is undefined in magnitude and context.
+  - **Why it matters** Without numerical results and significance tests, the reader cannot judge whether the improvement is meaningful or within noise. This is the central claim of the tool's utility and must be substantiated.
+  - **Resolution test** Provide performance metrics for DNAgenie and all compared methods on the independent test set, including confidence intervals or p-values for differences. Specify the evaluation metrics and the number of test proteins/residues.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "DNAgenie uses a comprehensive physiochemical profile extracted from an input protein sequence and implements a two-step refinement process to provide accurate predictions and to minimize the cross-predictions."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe the machine learning architecture, the nature of the physiochemical features, the training data, or how the two-step refinement works. The claim that this is "custom-designed" and "first-of-its-kind" cannot be evaluated without these details.
+  - **Why it matters** Reproducibility and assessment of novelty require a clear description of the method. The reader cannot determine if the approach is genuinely new or if the refinement step is a trivial post-processing heuristic.
+  - **Resolution test** In the full manuscript, provide a detailed description of the architecture, feature set, training and validation protocols, and the specific mechanism of the refinement step. Compare the architecture to existing predictors to substantiate the novelty claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "Further analysis finds that the use of the second (refinement) step leads to a substantial reduction in the cross predictions."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The magnitude of the reduction in cross-predictions is not quantified. The term "substantial" is subjective. No baseline for cross-prediction levels is given, nor is the method for measuring cross-predictions described.
+  - **Why it matters** Cross-prediction reduction is a key selling point of the tool. Without quantitative evidence, the reader cannot assess whether the refinement step provides a meaningful benefit or is a minor adjustment.
+  - **Resolution test** Report the cross-prediction rates (e.g., fraction of predicted DNA-binding residues that are known to bind other ligands) for DNAgenie with and without the refinement step, and for compared methods. Include statistical tests for the difference.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "Empirical tests show that DNAgenie's outputs that are converted to coarse-grained protein-level predictions compare favorably against recent tools that predict which DNA-binding proteins interact with double-stranded versus single-stranded DNAs."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The comparison is described as "favorable," but no metrics or datasets are specified. The conversion from residue-level to protein-level predictions is not described, and it is unclear if the comparison is fair (e.g., same training/test splits, same evaluation criteria).
+  - **Why it matters** This claim extends the tool's utility beyond residue prediction to protein-level classification. Without details, the reader cannot verify the validity of the comparison or the conversion method.
+  - **Resolution test** Provide the protein-level prediction metrics, the conversion algorithm, and a description of the compared tools and their evaluation protocols. Ensure the comparison uses identical test sets and criteria.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation
+  - **Claim pointer** "Predictions from the sequences of the whole human proteome reveal that the results produced by DNAgenie substantially overlap with the known DNA-binding proteins while also including promising leads for several hundred previously unknown putative DNA binders."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The overlap with known DNA-binding proteins is not quantified, and the "promising leads" are not defined or validated. No criteria for "promising" are given, and no experimental or literature-based validation is mentioned.
+  - **Why it matters** Proteome-scale predictions are only useful if they are reliable and if novel predictions are credible. Without validation, the novel leads could be false positives, and the overlap could be trivially high or low.
+  - **Resolution test** Report the overlap statistics (e.g., recall of known DNA-binding proteins), the number of novel predictions, and any validation efforts (e.g., literature search, functional enrichment, or experimental confirmation). Define the confidence thresholds for "promising."
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Webserver availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The webserver URL is provided, but there is no mention of its usability, input/output formats, or any restrictions (e.g., sequence length limits).
+  - **Required correction** In the full manuscript, describe the webserver interface, input requirements, and output formats to facilitate user adoption.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "DNA-type-specific"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "DNA-type-specific" is used, but the abstract does not clarify whether the predictor distinguishes among A-DNA, B-DNA, and ssDNA in a mutually exclusive manner or if a residue can be predicted to bind multiple types.
+  - **Required Correction** Define the prediction output format, specifically whether predictions are exclusive or allow multiple labels per residue.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "over a dozen computational predictors" but does not specify how many were adapted for comparison or why some were excluded.
+  - **Required Correction** In the full manuscript, list all compared methods, the adaptation process, and the rationale for inclusion or exclusion.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of superior performance, methodological novelty, and cross-prediction reduction are unsupported by quantitative or descriptive evidence in the abstract. These must be resolved with full methodological and results details.
+- **Assessment against Nature-style criteria** Originality: The focus on DNA-type-specific prediction is a clear conceptual advance, but the novelty of the architecture cannot be assessed without method details. Scientific importance: The tool addresses a real gap and has potential for broad application, but the importance is diminished by the lack of demonstrated quantitative advantage. Interdisciplinary readership: The topic is relevant to computational and experimental biologists, but the abstract is too vague to attract a broad audience. Technical soundness: Cannot be evaluated from the abstract; the lack of metrics and method description is a major weakness. Readability for nonspecialists: The abstract is generally clear but uses terms like "physiochemical profile" and "coarse-grained" without explanation, which may hinder nonspecialist understanding.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising concept, but the absence of quantitative results and methodological detail prevents verification of the central claims. A revised manuscript with full evidence could change this assessment.
+
+## Risk / unsupported claims
+- The claim that DNAgenie is "first-of-its-kind" is unsupported without a comprehensive literature comparison.
+- The claim of "substantial reduction" in cross-predictions is unsupported without quantified data.
+- The claim of "favorable" comparison at the protein level is unsupported without metrics.
+- The claim of "promising leads" for novel DNA-binding proteins is unsupported without validation or definition.
+- The overall claim that DNAgenie is "a valuable tool" is premature given the lack of evidence in the abstract.

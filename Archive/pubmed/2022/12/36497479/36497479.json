@@ -1,0 +1,469 @@
+{
+  "identity": {
+    "pmid": "36497479",
+    "doi": "10.3390/cancers14235999",
+    "title": "Correlation of Transcriptomics and FDG-PET SUVmax Indicates Reciprocal Expression of Stemness-Related Transcription Factor and Neuropeptide Signaling Pathways in Glucose Metabolism of Ewing Sarcoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: In Ewing sarcoma (EwS), long-term treatment effects and poor survival rates for relapsed or metastatic cases require individualization of therapy and the discovery of new treatment methods. Tumor glucose metabolic activity varies significantly between patients, and FDG-PET signals have been proposed as prognostic factors. However, the biological basis for the generally elevated but variable glucose metabolism in EwS is not well understood. METHODS: We retrospectively included 19 EwS samples (17 patients). Affymetrix gene expression was correlated with maximal standardized uptake value (SUVmax) using machine learning, linear regression modelling, and gene set enrichment analyses for functional annotation. RESULTS: Expression of five genes correlated (MYBL2, ELOVL2, NETO2) or anticorrelated (FAXDC2, PLSCR4) significantly with SUVmax (adjusted p-value </= 0.05). Additionally, we identified 23 genes with large SUVmax effect size, which were significantly enriched for \"neuropeptide Y receptor activity (GO:0004983)\" (adjusted p-value = 0.0007). The expression of the members of this signaling pathway (NPY, NPY1R, NPY5R) anticorrelated with SUVmax. In contrast, three transcription factors associated with maintaining stemness displayed enrichment of their target genes with higher SUVmax: RNF2, E2F family, and TCF3. CONCLUSION: Our large-scale analysis examined comprehensively the correlations between transcriptomics and tumor glucose utilization. Based on our findings, we hypothesize that stemness may be associated with increased glucose uptake, whereas neuroectodermal differentiation may anticorrelate with glucose uptake.",
+    "keywords": [
+      "18-FDG-PET",
+      "Ewing sarcoma",
+      "SUVmax",
+      "radiogenomics",
+      "transcriptomics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Prexler, Carolin",
+        "Knape, Marie Sophie",
+        "Erlewein-Schweizer, Janina",
+        "Roll, Wolfgang",
+        "Specht, Katja",
+        "Woertler, Klaus",
+        "Weichert, Wilko",
+        "von Luettichau, Irene",
+        "Rossig, Claudia",
+        "Hauer, Julia",
+        "Richter, Guenther H S",
+        "Weber, Wolfgang",
+        "Burdach, Stefan"
+      ],
+      "short_names": [
+        "Prexler C",
+        "Knape MS",
+        "Erlewein-Schweizer J",
+        "Roll W",
+        "Specht K",
+        "Woertler K",
+        "Weichert W",
+        "von Luettichau I",
+        "Rossig C",
+        "Hauer J",
+        "Richter GHS",
+        "Weber W",
+        "Burdach S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7136-0554",
+        "ORCID: 0000-0002-8672-5285",
+        "ORCID: 0000-0002-4058-3058",
+        "ORCID: 0000-0003-4782-5539",
+        "ORCID: 0000-0001-6400-4471"
+      ],
+      "affiliations": [
+        "Department of Pediatrics and Children's Cancer Research Center, Kinderklinik Munchen Schwabing, Klinikum Rechts der Isar, Fakultat fur Medizin, Technische Universitat Munchen, 80804 Munich, Germany.",
+        "Department of Pediatrics and Children's Cancer Research Center, Kinderklinik Munchen Schwabing, Klinikum Rechts der Isar, Fakultat fur Medizin, Technische Universitat Munchen, 80804 Munich, Germany.",
+        "Institute of Pathology, Technische Universitat Munchen, 81675 Munich, Germany.",
+        "Department of Nuclear Medicine, University Hospital Munster, Albert-Schweitzer-Campus 1 A1, 48149 Munster, Germany.",
+        "Institute of Pathology, Technische Universitat Munchen, 81675 Munich, Germany.",
+        "Musculoskeletal Radiology Section, Klinikum Rechts der Isar, Technische Universitat Munchen, 81675 Munich, Germany.",
+        "Institute of Pathology, Technische Universitat Munchen, 81675 Munich, Germany.",
+        "German Cancer Consortium (DKTK), Partner Site Munich, 81675 Munich, Germany.",
+        "Department of Pediatrics and Children's Cancer Research Center, Kinderklinik Munchen Schwabing, Klinikum Rechts der Isar, Fakultat fur Medizin, Technische Universitat Munchen, 80804 Munich, Germany.",
+        "ERN PaedCan, 1090 Vienna, Austria.",
+        "Department of Pediatric Hematology and Oncology, University Children's Hospital Muenster, 48149 Muenster, Germany.",
+        "Cells-in-Motion Cluster of Excellence (EXC 1003-CiM), University of Muenster, 48149 Muenster, Germany.",
+        "Department of Pediatrics and Children's Cancer Research Center, Kinderklinik Munchen Schwabing, Klinikum Rechts der Isar, Fakultat fur Medizin, Technische Universitat Munchen, 80804 Munich, Germany.",
+        "Department of Pediatrics, Division of Oncology and Hematology, Charite-Universitatsmedizin Berlin, Augustenburger Platz 1, 13353 Berlin, Germany.",
+        "German Cancer Consortium (DKTK), Partner Site Berlin, 13353 Berlin, Germany.",
+        "German Cancer Consortium (DKTK), Partner Site Munich, 81675 Munich, Germany.",
+        "Department of Nuclear Medicine, Klinikum Rechts der Isar, Technische Universitat Munchen, 81675 Munich, Germany.",
+        "Department of Pediatrics and Children's Cancer Research Center, Kinderklinik Munchen Schwabing, Klinikum Rechts der Isar, Fakultat fur Medizin, Technische Universitat Munchen, 80804 Munich, Germany.",
+        "Institute of Pathology, Technische Universitat Munchen, 81675 Munich, Germany.",
+        "German Cancer Consortium (DKTK), Partner Site Munich, 81675 Munich, Germany.",
+        "Academy of Translational Medicine and Department of Molecular Oncology-British Columbia Cancer Research Centre, University of British Columbia, 675 West 10th Avenue, Vancouver, BC V5Z 1L3, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Prexler, Carolin",
+        "short_name": "Prexler C",
+        "identifiers": [
+          "0000-0001-7136-0554"
+        ],
+        "affiliations": [
+          "Department of Pediatrics and Children's Cancer Research Center, Kinderklinik München Schwabing, Klinikum Rechts der Isar, Fakultät für Medizin, Technische Universität München, 80804 Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Knape, Marie Sophie",
+        "short_name": "Knape MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics and Children's Cancer Research Center, Kinderklinik München Schwabing, Klinikum Rechts der Isar, Fakultät für Medizin, Technische Universität München, 80804 Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Erlewein-Schweizer, Janina",
+        "short_name": "Erlewein-Schweizer J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Technische Universität München, 81675 Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Roll, Wolfgang",
+        "short_name": "Roll W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nuclear Medicine, University Hospital Münster, Albert-Schweitzer-Campus 1 A1, 48149 Munster, Germany."
+        ]
+      },
+      {
+        "full_name": "Specht, Katja",
+        "short_name": "Specht K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Technische Universität München, 81675 Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Woertler, Klaus",
+        "short_name": "Woertler K",
+        "identifiers": [],
+        "affiliations": [
+          "Musculoskeletal Radiology Section, Klinikum Rechts der Isar, Technische Universität München, 81675 Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Weichert, Wilko",
+        "short_name": "Weichert W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pathology, Technische Universität München, 81675 Munich, Germany.",
+          "German Cancer Consortium (DKTK), Partner Site Munich, 81675 Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "von Luettichau, Irene",
+        "short_name": "von Luettichau I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics and Children's Cancer Research Center, Kinderklinik München Schwabing, Klinikum Rechts der Isar, Fakultät für Medizin, Technische Universität München, 80804 Munich, Germany.",
+          "ERN PaedCan, 1090 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Rossig, Claudia",
+        "short_name": "Rossig C",
+        "identifiers": [
+          "0000-0002-8672-5285"
+        ],
+        "affiliations": [
+          "Department of Pediatric Hematology and Oncology, University Children's Hospital Muenster, 48149 Muenster, Germany.",
+          "Cells-in-Motion Cluster of Excellence (EXC 1003-CiM), University of Muenster, 48149 Muenster, Germany."
+        ]
+      },
+      {
+        "full_name": "Hauer, Julia",
+        "short_name": "Hauer J",
+        "identifiers": [
+          "0000-0002-4058-3058"
+        ],
+        "affiliations": [
+          "Department of Pediatrics and Children's Cancer Research Center, Kinderklinik München Schwabing, Klinikum Rechts der Isar, Fakultät für Medizin, Technische Universität München, 80804 Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Richter, Guenther H S",
+        "short_name": "Richter GHS",
+        "identifiers": [
+          "0000-0003-4782-5539"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, Division of Oncology and Hematology, Charite-Universitätsmedizin Berlin, Augustenburger Platz 1, 13353 Berlin, Germany.",
+          "German Cancer Consortium (DKTK), Partner Site Berlin, 13353 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Weber, Wolfgang",
+        "short_name": "Weber W",
+        "identifiers": [],
+        "affiliations": [
+          "German Cancer Consortium (DKTK), Partner Site Munich, 81675 Munich, Germany.",
+          "Department of Nuclear Medicine, Klinikum Rechts der Isar, Technische Universität München, 81675 Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Burdach, Stefan",
+        "short_name": "Burdach S",
+        "identifiers": [
+          "0000-0001-6400-4471"
+        ],
+        "affiliations": [
+          "Department of Pediatrics and Children's Cancer Research Center, Kinderklinik München Schwabing, Klinikum Rechts der Isar, Fakultät für Medizin, Technische Universität München, 80804 Munich, Germany.",
+          "Institute of Pathology, Technische Universität München, 81675 Munich, Germany.",
+          "German Cancer Consortium (DKTK), Partner Site Munich, 81675 Munich, Germany.",
+          "Academy of Translational Medicine and Department of Molecular Oncology-British Columbia Cancer Research Centre, University of British Columbia, 675 West 10th Avenue, Vancouver, BC V5Z 1L3, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancers"
+    ],
+    "journal_abbrev": [
+      "Cancers (Basel)"
+    ],
+    "pub_date": "2022 Dec 5",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/12 06:00",
+    "fetched_at": "2026-10-04 21:11:17"
+  },
+  "links": {
+    "cites": [
+      "42674817",
+      "42355429",
+      "40420294",
+      "38868205",
+      "37373115"
+    ],
+    "refs": [
+      "35484119",
+      "35427190",
+      "35325185",
+      "35087836",
+      "34472082",
+      "34378010",
+      "33908607",
+      "33780170",
+      "33715090",
+      "33362854",
+      "33157203",
+      "32154773",
+      "32080121",
+      "31999643",
+      "31853559",
+      "31741777",
+      "31431459",
+      "31205526",
+      "31201181",
+      "31126127",
+      "31053804",
+      "30488140",
+      "30171420",
+      "30116519",
+      "30017264",
+      "29977059",
+      "29100369",
+      "29092951",
+      "28928879",
+      "28640249",
+      "28434617",
+      "28134926",
+      "27849386",
+      "27262566",
+      "27141961",
+      "27100297",
+      "26816643",
+      "26549645",
+      "26250765",
+      "26193259",
+      "26179511",
+      "26052443",
+      "25651460",
+      "25605792",
+      "25557270",
+      "25223734",
+      "25186949",
+      "24536061",
+      "24318733",
+      "23586463",
+      "22573616",
+      "22084725",
+      "21442722",
+      "20697116",
+      "20688976",
+      "19352191",
+      "19304675",
+      "19289832",
+      "19131956",
+      "18925858",
+      "18698022",
+      "18447587",
+      "18166834",
+      "17979783",
+      "17288599",
+      "16863735",
+      "16850407",
+      "16513255",
+      "16380191",
+      "16314643",
+      "16284200",
+      "16199517",
+      "16151765",
+      "15548687",
+      "15534753",
+      "15219262",
+      "13351639",
+      "12925520",
+      "12808457",
+      "12582260",
+      "12538238",
+      "11752295",
+      "11594280",
+      "8101562",
+      "4622125",
+      "3923710",
+      "2544451",
+      "1522903"
+    ],
+    "similar": [
+      "36497479",
+      "27100297",
+      "33715090",
+      "27645694",
+      "21975382",
+      "31853559",
+      "34575018",
+      "19136271",
+      "30843003",
+      "31565568",
+      "25387699",
+      "30390401",
+      "32683540",
+      "32446127",
+      "28928879",
+      "31832727",
+      "30061271",
+      "32711449",
+      "27448574",
+      "31892967",
+      "26131811",
+      "20524086",
+      "31502013",
+      "30196378",
+      "33978830",
+      "30868898",
+      "31107830",
+      "36435856",
+      "29507627",
+      "28008776",
+      "20505933",
+      "32079385",
+      "24107806",
+      "21467846",
+      "25518184",
+      "31300363",
+      "23674658",
+      "30941318",
+      "28671673",
+      "18374589",
+      "28841702",
+      "28178131",
+      "23558689",
+      "22206958",
+      "28540535",
+      "32494919",
+      "24900062",
+      "34943508",
+      "31165974",
+      "30488140",
+      "24237755",
+      "29100369",
+      "29716554",
+      "26682140",
+      "36439506",
+      "34991834",
+      "28039701",
+      "33277873",
+      "26961089",
+      "29679113",
+      "24326983",
+      "31932660",
+      "35814438",
+      "30908341",
+      "24156027",
+      "34046420",
+      "23687644",
+      "22444673",
+      "30741933",
+      "27645144",
+      "25227018",
+      "19372474",
+      "29656756",
+      "28886153",
+      "30300005",
+      "27130054",
+      "23756383",
+      "27087372",
+      "27281357",
+      "32274551",
+      "29398870",
+      "25572091",
+      "25216749",
+      "35621141",
+      "31445355",
+      "32027706",
+      "32327296",
+      "27482643",
+      "26221300",
+      "28233086",
+      "32100227",
+      "27619357",
+      "31933555",
+      "24900136"
+    ],
+    "review": [
+      "36497479",
+      "32446127",
+      "28178131",
+      "23687644"
+    ],
+    "pmc": [
+      "9735504"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cancers14235999",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36497479/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36497479",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1287",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse218758",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

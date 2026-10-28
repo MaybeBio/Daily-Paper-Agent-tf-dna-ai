@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Materials and Methods, Results, Computer Modeling, Discussion and Conclusions) as provided by the user.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the presented evidence. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors use homology modeling, molecular dynamics simulations, and point mutagenesis to investigate promoter recognition specificity of *Corynebacterium glutamicum* stress response sigma factors σD and σH. They characterize natural and artificial hybrid promoters, construct mutant σH variants, and propose a σH_6aa/PD35-rsdAH10-uvrD3 pair as a candidate for bio-orthogonal transcription.
+- **Visible evidence base** In vivo promoter activity assays (fluorescence-based, two-plasmid system) for four promoters and six sigma factor variants; homology models based on *E. coli* σE structures (PDB 4LUP, 2H27); 800 ns MD simulations of 18 σ4–promoter complexes; sequence alignments and structural figures (Figs. 1–8, Tables 1–2, Fig. S1).
+- **Missing materials affecting confidence** Supplementary files (Tables 1S, 2S, Fig. S1) were not provided. No raw fluorescence data, no statistical analysis details beyond standard deviations, no MD simulation parameters (force field, water model, equilibration protocol, convergence criteria), no validation metrics for homology models (e.g., Ramachandran statistics, QMEAN scores), and no coordinates or trajectories for the simulated complexes.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in bacterial transcription regulation, specifically the molecular determinants of sigma factor promoter selectivity in a biotechnologically important organism. The combination of computational modeling and experimental validation is commendable and aligns with the journal's scope. However, the study has significant limitations in the depth of the computational analysis, the lack of quantitative rigor in the experimental assays, and the absence of key methodological details. The central claim of achieving bio-orthogonal transcription is only partially supported, and several interpretations of the MD results are speculative. The manuscript would benefit from substantial revision, additional controls, and more detailed reporting of methods and data.
+- **Who would be interested in the results, and why** Researchers in bacterial transcription regulation, sigma factor biology, synthetic biology (particularly those designing orthogonal expression systems), and computational structural biology. The work also has relevance for the *C. glutamicum* biotechnology community, given the organism's industrial importance.
+- **Major strengths** 1) The study addresses a clear and important question with a combined computational-experimental approach. 2) The use of naturally occurring hybrid promoters provides a biologically relevant test system. 3) The systematic mutagenesis strategy is logical and well-described. 4) The identification of a candidate bio-orthogonal sigma-promoter pair has potential practical utility. 5) The discussion of structural flexibility and its role in promoter recognition is thoughtful and adds context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of computational methods
+  - **Claim pointer** The manuscript claims that MD simulations provide mechanistic explanations for the observed experimental promoter activities.
+  - **Evidence pointer** Computer Modeling section; Figs. 4–8; "location not provided" for simulation parameters.
+  - **Concern** The MD simulation methodology is critically underreported. No force field, water model, salt concentration, temperature coupling, pressure coupling, or equilibration protocol is specified. The 800 ns simulation time is mentioned, but no convergence analysis, block averaging, or error estimates are provided. The homology models are described as based on *E. coli* σE structures, but no validation of model quality is given. Without these details, the reliability of the MD-derived conclusions cannot be assessed.
+  - **Why it matters** The central interpretive framework of the manuscript rests on the MD simulations. If the simulations are not technically sound or are not converged, the proposed mechanisms (e.g., destabilizing S171-T−34 interactions, R170-Y155 steric conflicts) are unsupported. This undermines the core scientific contribution of the work.
+  - **Resolution test** Provide complete simulation parameters, model validation metrics, convergence analysis (e.g., RMSD vs. time, block error estimates), and ideally replicate simulations. If the key interactions are robust across these analyses, the concern is resolved.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental rigor and quantitative support
+  - **Claim pointer** The manuscript claims that the artificial hybrid promoter PD35-rsdAH10-uvrD3 shows "almost optimal properties" for bio-orthogonal transcription, and that σH_6aa is the most suitable sigma variant.
+  - **Evidence pointer** Results section, Fig. 3; "location not provided" for raw data.
+  - **Concern** The experimental data are presented only as bar graphs with standard deviations from three biological replicates. No raw fluorescence values, no statistical tests (e.g., t-tests, ANOVA), and no normalization details are provided. The claim of "almost optimal" is qualitative and not supported by quantitative criteria. Furthermore, the assay measures fluorescence from cell extracts, which is an indirect and potentially variable readout of promoter activity. No positive or negative controls (e.g., known strong/weak promoters) are described.
+  - **Why it matters** The central experimental conclusion, that a specific sigma-promoter pair enables bio-orthogonal transcription, requires robust quantitative evidence. Without statistical analysis and appropriate controls, the claim is not established. The lack of raw data also prevents independent verification.
+  - **Resolution test** Provide raw fluorescence values, statistical comparisons between conditions, and include appropriate controls. Define quantitative criteria for "bio-orthogonal" (e.g., activity ratio relative to native promoters) and demonstrate that the candidate pair meets these criteria.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation and speculation
+  - **Claim pointer** The manuscript proposes that the atypical C−35 base in the Pcg0441 promoter and the TTTT spacer sequence jointly explain the unexpected recognition of this promoter by σD.
+  - **Evidence pointer** Discussion and Conclusions; Computer Modeling section; "location not provided".
+  - **Concern** This interpretation is presented as a likely explanation but is not directly tested. The MD simulations show structural differences, but no mutagenesis experiments were performed to test the role of the C−35 base or the TTTT spacer in σD recognition of Pcg0441. The authors acknowledge this indirectly but do not propose a clear experimental test.
+  - **Why it matters** The manuscript aims to "decipher" promoter recognition specificity. A key mechanistic claim about a natural promoter is left untested, weakening the overall contribution. The claim is plausible but remains speculative.
+  - **Resolution test** Perform targeted mutagenesis of the Pcg0441 promoter (e.g., C−35 to G, or modification of the TTTT spacer) and test the effect on σD- and σH-dependent activity. If the predictions from the MD simulations are confirmed, the interpretation is strengthened.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and scope
+  - **Claim pointer** The manuscript implies that the findings on σD/σH promoter recognition can inform the design of bio-orthogonal transcription systems more broadly.
+  - **Evidence pointer** Discussion and Conclusions; "location not provided".
+  - **Concern** The study is limited to a small set of promoters and sigma variants from a single organism. The claim of generalizability is not supported by the data. The authors do not discuss how their findings might transfer to other sigma factors or organisms, nor do they address potential limitations of their approach.
+  - **Why it matters** The broader significance of the work is overstated. The manuscript would be strengthened by a more measured discussion of the scope and limitations of the findings.
+  - **Resolution test** Revise the discussion to clearly state the scope of the conclusions and avoid overgeneralization. If possible, include a brief comparison with known sigma factor-promoter interactions in other organisms.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Materials and Methods, Mutagenesis section
+  - **Evidence pointer** "location not provided"
+  - **Issue** The mutagenesis section does not specify the exact amino acid substitutions for each mutant beyond the sequence changes listed in Table 2. It is unclear whether the numbering refers to the mature protein or the precursor, and whether any additional mutations were introduced inadvertently.
+  - **Required correction** Clarify the numbering system and provide a full list of primers and mutagenesis conditions. Confirm that no unintended mutations were present by sequencing the full gene.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section, Fig. 3
+  - **Evidence pointer** "location not provided"
+  - **Issue** The figure legend states "standard deviations of three biological replicates" but does not indicate whether technical replicates were also performed. The number of independent experiments is not stated.
+  - **Required correction** Specify the number of independent biological and technical replicates. Consider reporting individual data points or confidence intervals.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality and accessibility
+  - **Affected element** Figs. 4–8
+  - **Evidence pointer** "location not provided"
+  - **Issue** The figures are described as showing molecular interactions, but the resolution and labeling are not sufficient to discern the key interactions without the accompanying text. Some labels are small and may be illegible in print.
+  - **Required correction** Provide higher-resolution figures with larger labels. Consider adding a schematic summary figure that clearly shows the key interactions and mutations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** "location not provided"
+  - **Issue** The introduction cites previous work on sigma factor promoter recognition but does not discuss recent structural studies of σ4-domain-DNA interactions in detail. This would help contextualize the novelty of the findings.
+  - **Required correction** Add a brief discussion of recent structural and functional studies of sigma factor-promoter interactions, particularly for group 4 sigma factors.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Throughout
+  - **Evidence pointer** "location not provided"
+  - **Issue** The terms "σD/σH-dependent," "σD35H10," and "hybrid" are used somewhat interchangeably. The nomenclature for the mutant sigma factors (e.g., σH_4aa, σH_6aa_K) is clear but could be defined more explicitly in a single place.
+  - **Required correction** Define all terms and abbreviations in a dedicated section or table. Use consistent terminology throughout.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (MD methodology underreported), R1-M2 (lack of quantitative experimental rigor). These are blocking because the core claims of the manuscript depend on both the computational and experimental results being reliable and reproducible.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The combination of computational modeling and mutagenesis to study sigma factor specificity is not entirely new, but the specific focus on σD/σH in *C. glutamicum* and the construction of a bio-orthogonal pair is a novel contribution.
+  - **Scientific importance** Moderate. The findings are relevant to understanding sigma factor selectivity and have potential biotechnological applications, but the study is limited in scope and does not provide a major conceptual advance.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to specialists in bacterial transcription and computational biology. The biotechnological angle may attract a broader audience, but the presentation is not sufficiently accessible.
+  - **Technical soundness** Currently insufficient. The lack of methodological detail for the MD simulations and the absence of statistical analysis in the experimental data prevent a full assessment of technical rigor.
+  - **Readability for nonspecialists** Adequate but could be improved. The manuscript is generally well-written, but the results section is dense and would benefit from clearer summaries of the key findings and their implications.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question and presents a plausible approach, but the current evidence is insufficient to fully support the central claims. The authors should address the blocking concerns (MD methodology, experimental rigor) and revise the discussion to be more measured in its claims.
+
+## Risk / unsupported claims
+- The claim that the artificial hybrid promoter PD35-rsdAH10-uvrD3 has "almost optimal properties" for bio-orthogonal transcription is not quantitatively supported.
+- The claim that σH_6aa is the "most suitable" sigma variant is based on qualitative comparisons and lacks statistical support.
+- The proposed mechanism for σD recognition of the Pcg0441 promoter (involving C−35 and the TTTT spacer) is speculative and not directly tested.
+- The generalizability of the findings to other sigma factors or organisms is not supported by the data.
+- The MD simulation results are presented as explanatory but are not validated by convergence analysis or comparison with experimental structures.

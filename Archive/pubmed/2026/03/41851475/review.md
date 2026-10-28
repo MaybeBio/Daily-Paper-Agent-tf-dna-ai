@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a multi-omics and experimental study identifying seven hub genes associated with PANoptosis and metabolic cell death in microglia during the subacute phase of traumatic brain injury (TBI). They propose that the transcription factors Batf and Irf8 co-regulate these hub genes, and that a disease-associated microglial subset (MG3) shows differential expression of four hub genes (Lgals3, Gbp2, Capg, Timp1). They conclude that shared nodal molecules may interconnect metabolic cell death and PANoptosis, offering potential therapeutic targets for TBI.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or numerical results provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods for WGCNA, MCC, single-cell RNA-seq processing, CCI model validation, ChEA3 prediction, AlphaFold3 and EMSA experiments, Monocle2 trajectory analysis, metabolic flux algorithms, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting integrative approach combining bioinformatics and experimental validation to identify shared regulatory nodes between metabolic cell death and PANoptosis in microglia after TBI. However, the abstract alone provides insufficient detail to evaluate the rigor of the analytical pipeline, the robustness of the hub gene identification, the validity of the experimental validations, or the strength of the causal claims. The central conclusion that shared nodal molecules interconnect these cell death pathways is plausible but not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in neurotrauma, neuroinflammation, microglial biology, and cell death pathways would be interested. The potential identification of shared regulatory nodes between metabolic cell death and PANoptosis could inform therapeutic development for TBI and other neuroinflammatory conditions. The multi-omics approach may also interest computational biologists working on integrative analyses.
+- **Major strengths** The study combines multiple complementary approaches (bulk and single-cell RNA-seq, WGCNA, MCC, experimental CCI model, transcription factor prediction, structural validation, trajectory analysis, and metabolic flux prediction). The use of both computational prediction (AlphaFold3) and experimental validation (EMSA) for transcription factor binding is a notable strength. The focus on the subacute phase of TBI addresses a clinically relevant but understudied window.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Seven hub genes associated with PANoptosis and metabolic cell death were identified through WGCNA and MCC algorithms"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify which seven hub genes were identified, the criteria for hub gene selection, the parameters used for WGCNA (soft-threshold power, module size, etc.), or how the intersection between PANoptosis-related and metabolic cell death-related genes was determined. Without these details, the reproducibility and robustness of the hub gene identification cannot be assessed.
+  - **Why it matters** Hub gene identification is the foundational step of this study. If the selection criteria are arbitrary or the WGCNA parameters are not justified, all downstream analyses and conclusions are compromised.
+  - **Resolution test** Provide the full list of seven hub genes, the WGCNA parameters, the gene set definitions for PANoptosis and metabolic cell death, and the statistical thresholds used for hub gene selection.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "ChEA3 predicted that Batf and Irf8 are common transcription factors regulating these hub genes. Their binding conformations were validated using both AlphaFold3 and EMSA"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not clarify whether the AlphaFold3 and EMSA validations were performed for both transcription factors across all seven hub genes, or only for a subset. The phrase "their binding conformations" is ambiguous. Additionally, EMSA typically tests binding of a transcription factor to a specific DNA sequence; the abstract does not state which promoter regions were tested or how many independent replicates were performed.
+  - **Why it matters** The claim that Batf and Irf8 co-regulate hub genes across distinct cell death pathways is a central mechanistic assertion. If the validation is incomplete or underpowered, the claim of co-regulation is not supported.
+  - **Resolution test** Specify the exact number of transcription factor-hub gene pairs tested by AlphaFold3 and EMSA, the promoter sequences used, the number of replicates, and provide representative EMSA images with quantification.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** "Experimental evidence confirmed that these four hub genes are upregulated in microglia, with Lgals3 and Capg exhibiting distinct expression levels across different cell death modalities"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the experimental methods used to confirm upregulation (e.g., qPCR, Western blot, immunohistochemistry), the time points examined, the number of animals per group, or the statistical comparisons performed. The phrase "distinct expression levels across different cell death modalities" is vague and does not specify which modalities were compared or the direction of the differences.
+  - **Why it matters** The experimental validation is the key translational component of the study. Without details on methodology, sample sizes, and statistical rigor, the claim of upregulation cannot be evaluated.
+  - **Resolution test** Provide detailed methods for the validation experiments, including sample sizes, statistical tests, effect sizes, and clear definitions of the cell death modalities compared.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Logical coherence
+  - **Claim pointer** "Integrated multidimensional evidence ultimately identified the disease-associated microglial subset MG3"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not explain how the MG3 subset was defined, what markers distinguish it from other microglial subsets, or how the "integrated multidimensional evidence" was combined to arrive at this identification. The logical link between the hub gene analysis, trajectory analysis, metabolic flux prediction, and the final identification of MG3 is not articulated.
+  - **Why it matters** The identification of MG3 as the disease-associated subset is a key output of the study. Without a clear analytical framework, the reader cannot determine whether this identification is data-driven or biased by prior assumptions.
+  - **Resolution test** Provide a clear description of the clustering approach, marker genes for MG3, the criteria for calling it "disease-associated," and a schematic or narrative explaining how each line of evidence contributed to this conclusion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Abstract title
+  - **Issue** The title uses "Decoding" which is a promotional term not typically used in scientific literature. The phrase "metabolic cell death" is also used without definition, which may confuse readers unfamiliar with this terminology.
+  - **Required correction** Consider a more neutral title such as "Identification of microglial hub genes linking metabolic cell death and PANoptosis in the subacute phase of traumatic brain injury" and define "metabolic cell death" in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract results
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract does not report any quantitative results (e.g., number of differentially expressed genes, fold changes, p-values, confidence intervals). This makes it impossible to gauge the magnitude or significance of the findings.
+  - **Required correction** Include key quantitative results with statistical measures in the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract mentions "metabolic flux algorithms" but does not name the specific algorithms or software used. Similarly, the single-cell RNA-seq processing pipeline is not described.
+  - **Required correction** Name the specific algorithms and software versions used for metabolic flux prediction and single-cell analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract final sentence
+  - **Issue** The conclusion states that the findings "warrant further investigation," which is appropriately cautious, but the preceding sentence claims "the potential existence of shared nodal molecules" as if this is a novel discovery. The abstract does not compare these findings to any existing literature on shared regulators of cell death pathways.
+  - **Required correction** Add a brief comparison to existing knowledge on shared regulators of cell death pathways to contextualize the novelty claim.
+
+## Risk / unsupported claims
+- The claim that seven hub genes were identified is unverifiable without the gene list and selection criteria.
+- The claim that Batf and Irf8 co-regulate hub genes across distinct cell death pathways is not supported by the abstract alone, as the extent of validation is unclear.
+- The claim that MG3 is a disease-associated microglial subset is not supported without marker definitions and clustering details.
+- The claim that Lgals3 and Gbp2, Capg, and Timp1 are upregulated in microglia is not supported without experimental details.
+- The claim that shared nodal molecules interconnect metabolic cell death and PANoptosis is a hypothesis, not an established finding, based on the abstract.
+- The overall therapeutic potential claim is speculative and not supported by functional or in vivo efficacy data.

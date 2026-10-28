@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors use mass-action kinetic models, theory, and spatial stochastic simulations to show that protein dimerization can either enhance or impair DNA target selectivity, depending on target spacing and clustering, and apply the framework to explain genome-wide distribution of the GAF protein from ChIP-seq data.
+- **Visible evidence base** Abstract text only; no quantitative results, model equations, simulation details, or data comparisons are available
+- **Missing materials affecting confidence** Full text, all figures and tables, model derivation, parameter values, simulation protocols, ChIP-seq data processing and comparison details, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially important framework for understanding how protein dimerization modulates DNA target selectivity, with a clear three-theme structure and a biological application to GAF. However, the abstract alone provides insufficient quantitative detail to evaluate the rigor of the models, the validity of the conclusions, or the strength of the ChIP-seq comparison. The central claims are plausible but currently not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in gene regulation, transcription factor biology, biophysical modeling of protein-DNA interactions, and computational genomics would be interested. The work addresses a fundamental question of how protein-protein interactions shape DNA binding specificity, which has implications for interpreting ChIP-seq and other occupancy measurements, and for predicting transcription factor behavior in clustered versus dispersed target architectures.
+- **Major strengths** The abstract identifies a non-obvious mechanism, namely that dimerization can impair dwell times and occupancy by redistributing proteins across DNA, which challenges the common assumption that dimerization always stabilizes binding. The integration of mass-action kinetics, theory, and spatial stochastic simulations is methodologically ambitious. The application to GAF provides a concrete biological context that could make the framework broadly useful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "dimerization can also impair measured dwell times and occupancy on target sequences because the population redistributes across DNA" is central to the paper.
+  - **Evidence pointer** Abstract only; no quantitative results or model outputs provided
+  - **Concern** The abstract states this impairment mechanism as a finding, but no specific simulation or analytical result is shown to support it. The conditions under which impairment occurs, the magnitude of the effect, and the parameter ranges are not described.
+  - **Why it matters** This is the core novel claim. Without quantitative evidence, the reader cannot assess whether the effect is robust, biologically relevant, or an artifact of specific model assumptions.
+  - **Resolution test** Provide a representative figure showing dwell time or occupancy as a function of dimerization affinity and target spacing, with clear parameter values and error estimates, and state the conditions under which impairment is observed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "dimensional reduction achieved through nonspecific binding and subsequent 1D diffusion controls the order-of-magnitude of enhancements despite nucleosome barriers" is presented as a key theme.
+  - **Evidence pointer** Abstract only; no model details or simulation results provided
+  - **Concern** The abstract asserts that dimensional reduction controls enhancement magnitudes, but no quantitative comparison is shown between models with and without 1D diffusion, nor is the role of nucleosome barriers quantified.
+  - **Why it matters** This theme is essential for understanding the relative importance of different mechanisms. Without quantitative support, the claim is speculative.
+  - **Resolution test** Show a comparison of enhancement factors for models with and without 1D diffusion, and include nucleosome barrier parameters in the simulation description.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that the model "explains how the distribution of the essential GAF protein throughout the genome is highly selective for clustered targets due to protein interactions" is a key biological validation.
+  - **Evidence pointer** Abstract only; no ChIP-seq data, model fit, or statistical comparison provided
+  - **Concern** The abstract states that the model explains GAF distribution, but no details are given on how the model was parameterized for GAF, how the ChIP-seq data were processed, what metrics were used for comparison, or whether the agreement is statistically significant.
+  - **Why it matters** This is the only biological application presented. Without a rigorous comparison, the claim that the model has explanatory power for real genomic data is unsupported.
+  - **Resolution test** Provide a figure comparing model-predicted and ChIP-seq-derived occupancy for clustered versus dispersed targets, with a statistical test and description of parameter fitting.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "coordination between proteins that bind DNA while simultaneously binding to one another" is vague about whether the protein-protein interaction occurs on or off DNA.
+  - **Required correction** Specify whether dimerization is assumed to occur in solution, on DNA, or both, and clarify the order of binding events.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract, methods sentence
+  - **Issue** The abstract mentions "mass-action kinetic models of pairwise reversible reactions" but does not state whether the models are deterministic or stochastic, or how spatial simulations are coupled to the mass-action framework.
+  - **Required correction** Briefly describe the model type and the relationship between the mass-action and spatial simulation components.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Claim of generality
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim that the framework "predicts when even weak dimerization can redistribute and stabilize proteins on DNA" is presented as general, but the abstract does not discuss potential limitations, such as dependence on specific rate constants or DNA architecture.
+  - **Required correction** Add a sentence acknowledging parameter dependence or state the range of conditions under which the prediction holds.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking because the central mechanistic claims and the biological application are not supported by quantitative evidence in the abstract. The manuscript must provide model equations, simulation results, and a rigorous ChIP-seq comparison to establish the case.
+- **Assessment against Nature-style criteria** Originality is high, as the idea that dimerization can impair selectivity is counterintuitive and not widely appreciated. Scientific importance is potentially high for transcription factor biology and genomic data interpretation. Interdisciplinary readership is plausible, given the combination of biophysics, modeling, and genomics. Technical soundness cannot be assessed from the abstract alone, and the lack of quantitative detail is a major gap. Readability for nonspecialists is adequate, with clear theme statements, but the abstract assumes familiarity with concepts like dimensional reduction and ChIP-seq.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract does not provide sufficient quantitative support for the central claims. A revised manuscript with full model details, simulation results, and a rigorous biological comparison would be needed to assess the case.
+
+## Risk / unsupported claims
+- The claim that dimerization impairs dwell times and occupancy is unsupported without quantitative model outputs.
+- The claim that dimensional reduction controls enhancement magnitudes is unsupported without comparative simulations.
+- The claim that the model explains GAF distribution is unsupported without ChIP-seq comparison details.
+- The prediction that weak dimerization can redistribute and stabilize proteins is presented without parameter ranges or validation.

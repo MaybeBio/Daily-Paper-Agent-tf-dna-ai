@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35339665",
+  "title": "Identifying the oncogenic potential of gene fusions exploiting miRNAs.",
+  "authors": "Lovino, Marta; Montemurro, Marilisa; Barrese, Venere S; Ficarra, Elisa",
+  "journal": "Journal of biomedical informatics",
+  "published_date": "2022-03-28",
+  "window": {
+    "start": "2022-03-28",
+    "end": "2022-04-03"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用神经网络整合转录因子、miRNA等信息分类致癌基因融合，虽涉及转录因子但非蛋白质-DNA互作建模，方法为分类而非结合机制研究，与本课题关联弱。",
+  "abstract": "It is estimated that oncogenic gene fusions cause about 20% of human cancer morbidity. Identifying potentially oncogenic gene fusions may improve affected patients' diagnosis and treatment. Previous approaches to this issue included exploiting specific gene-related information, such as gene function and regulation. Here we propose a model that profits from the previous findings and includes the microRNAs in the oncogenic assessment. We present ChimerDriver, a tool to classify gene fusions as oncogenic or not oncogenic. ChimerDriver is based on a specifically designed neural network and trained on genetic and post-transcriptional information to obtain a reliable classification. The designed neural network integrates information related to transcription factors, gene ontologies, microRNAs and other detailed information related to the functions of the genes involved in the fusion and the gene fusion structure. As a result, the performances on the test set reached 0.83 f1-score and 96% recall. The comparison with state-of-the-art tools returned comparable or higher results. Moreover, ChimerDriver performed well in a real-world case where 21 out of 24 validated gene fusion samples were detected by the gene fusion detection tool Starfusion. ChimerDriver integrates transcriptional and post-transcriptional information in an ad-hoc designed neural network to effectively discriminate oncogenic gene fusions from passenger ones. ChimerDriver source code is freely available at https://github.com/martalovino/ChimerDriver.",
+  "abstract_zh": "据估计，致癌基因融合导致约20%的人类癌症发病率。识别潜在的致癌基因融合可能改善受影响患者的诊断和治疗。以往解决此问题的方法包括利用特定的基因相关信息，如基因功能和调控。在此，我们提出一个模型，该模型借鉴了先前的研究成果，并将微小RNA纳入致癌性评估中。我们介绍了ChimerDriver，一个将基因融合分类为致癌或非致癌的工具。ChimerDriver基于专门设计的神经网络，并在遗传和转录后信息上进行训练，以获得可靠的分类。该设计的神经网络整合了与转录因子、基因本体论、微小RNA以及与融合涉及的基因功能和基因融合结构相关的其他详细信息。结果显示，测试集上的性能达到了0.83的F1分数和96%的召回率。与最先进工具的比较显示结果相当或更高。此外，ChimerDriver在实际案例中表现良好，在24个经过验证的基因融合样本中，有21个被基因融合检测工具Starfusion检测到。ChimerDriver在专门设计的神经网络中整合了转录和转录后信息，以有效区分致癌基因融合与乘客基因融合。ChimerDriver源代码可在https://github.com/martalovino/ChimerDriver免费获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35339665/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35339665/",
+  "paper_page_path": "papers/pubmed/35339665/index.html"
+}

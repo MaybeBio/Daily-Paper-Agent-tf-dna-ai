@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41922356",
+  "title": "An end-to-end generalizable deep learning framework to comprehensively analyze transcriptional regulation.",
+  "authors": "Zhang, Zhaoxi; Fan, Xiaoya; Zhong, Jiaxin; Jia, Lijuan; Han, Yuanyuan; Yang, Chenyi; He, Zengyou; Li, Xiaoyan; Yau, Shing-Tung; Wu, Rongling; Danko, Charles G; Wang, Zhong",
+  "journal": "Nature communications",
+  "published_date": "2026-04-02",
+  "window": {
+    "start": "2026-03-30",
+    "end": "2026-04-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出BioSeq2Seq深度学习框架，利用DNA序列与转录活性预测多种基因组注释任务，其中包含TFBS预测，但非核心聚焦TF-DNA互作机制建模，方法可迁移至本课题。",
+  "abstract": "Genome annotation currently requires performing dozens of molecular assays in hundreds of cell and tissue samples, an expensive endeavor which is impractical to replicate across all species and conditions of interest. Here, we introduce BioSeq2Seq, a deep learning framework that infers cell-line-specific molecular assays widely used for genome annotation by leveraging a tri-modal input: evolutionarily conserved DNA sequence features, together with cell-line-specific transcriptional activity and directionality captured by a single run-on sequencing assay. BioSeq2Seq enables flexible genome annotation tasks through parameterized configurations of input features and output targets, combined with gradient-guided architectural refinement for specific biological objectives. Our model demonstrates high accuracy across four downstream tasks, showing improvements of 14.27% in histone modification prediction, 2.50% in functional element identification, and 2.90% in gene expression prediction compared to state-of-the-art methods. In transcription factor binding site (TFBS) prediction, it maintains performance comparable to that of leading existing approaches. By achieving competitive performance across tasks with single-cell-line input data, BioSeq2Seq provides an efficient and low-cost alternative for genome annotation.",
+  "abstract_zh": "基因组注释目前需要在数百种细胞和组织样本中执行数十种分子检测，这是一项昂贵的工程，难以在所有感兴趣的物种和条件下复制。在此，我们介绍BioSeq2Seq，一种深度学习框架，通过利用三模态输入推断广泛用于基因组注释的细胞系特异性分子检测：进化保守的DNA序列特征，以及通过单一run-on测序检测捕获的细胞系特异性转录活性和方向性。BioSeq2Seq通过输入特征和输出目标的参数化配置，结合针对特定生物学目标的梯度引导架构优化，实现灵活的基因组注释任务。我们的模型在四个下游任务中表现出高准确性，与最先进方法相比，在组蛋白修饰预测中提升14.27%，在功能元件识别中提升2.50%，在基因表达预测中提升2.90%。在转录因子结合位点（TFBS）预测中，其性能与现有领先方法相当。通过以单细胞系输入数据在各项任务中实现竞争性表现，BioSeq2Seq为基因组注释提供了一种高效且低成本的替代方案。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41922356/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41922356/",
+  "paper_page_path": "papers/pubmed/41922356/index.html"
+}

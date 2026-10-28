@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41491113",
+  "title": "Decoding cell state transitions driven by dynamic cell-cell communication in spatial transcriptomics.",
+  "authors": "Yan, Lulu; Zhang, Dongyan; Sun, Xiaoqiang",
+  "journal": "Nature computational science",
+  "published_date": "2026-01-06",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用物理信息神经网络建模空间转录组中细胞间通讯驱动的细胞状态转变，虽涉及转录因子激活级联，但核心是细胞状态动态而非蛋白质-DNA互作建模，方法可迁移性有限。",
+  "abstract": "In multicellular systems, cell fate determination emerges from the integration of intracellular signaling and intercellular communication. Spatial transcriptomics (ST) provides opportunities to elucidate these regulatory processes, yet inferring the spatiotemporal dynamics of cell state transitions (CSTs) governed by cell-cell communication (CCC) remains a challenge. Here we introduce CCCvelo to reconstruct CCC-driven CST dynamics by jointly optimizing a dynamic CCC signaling network and a latent CST clock. CCCvelo formulates a unified multiscale nonlinear kinetic model that integrates intercellular ligand-receptor signaling gradients with intracellular transcription-factor activation cascades to capture gene expression dynamics encoding CSTs. Moreover, we devise PINN-CELL, a physics-informed neural-network-based coevolution learning algorithm, which simultaneously optimizes model parameters and pseudotemporal ordering. Application of CCCvelo to high-resolution ST datasets, including mouse cortex, embryonic trunk development and human prostate cancer datasets, demonstrates its ability to successfully recover known morphogenetic trajectories while uncovering dynamic CCC signaling rewiring that orchestrates CST progression.",
+  "abstract_zh": "在多细胞系统中，细胞命运决定源于细胞内信号传导与细胞间通讯的整合。空间转录组学（spatial transcriptomics, ST）为阐明这些调控过程提供了机会，然而推断由细胞间通讯（cell-cell communication, CCC）调控的细胞状态转变（cell state transitions, CSTs）的时空动态仍是一项挑战。在此，我们引入CCCvelo，通过联合优化动态CCC信号网络和潜在CST时钟，重建CCC驱动的CST动态。CCCvelo构建了一个统一的多尺度非线性动力学模型，该模型整合了细胞间配体-受体信号梯度与细胞内转录因子激活级联，以捕捉编码CSTs的基因表达动态。此外，我们设计了PINN-CELL，一种基于物理信息的神经网络协同进化学习算法，该算法同时优化模型参数和伪时间排序。将CCCvelo应用于高分辨率ST数据集，包括小鼠皮层、胚胎躯干发育及人类前列腺癌数据集，证明了其能够成功恢复已知的形态发生轨迹，同时揭示协调CST进程的动态CCC信号重连。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41491113/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41491113/",
+  "paper_page_path": "papers/pubmed/41491113/index.html"
+}

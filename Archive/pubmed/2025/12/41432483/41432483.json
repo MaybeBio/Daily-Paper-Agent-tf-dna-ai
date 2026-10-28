@@ -1,0 +1,262 @@
+{
+  "identity": {
+    "pmid": "41432483",
+    "doi": "10.1111/aji.70201",
+    "title": "Identification and Subtype Analysis of Lipid Metabolism-Related Diagnostic Biomarkers for Endometriosis Based on WGCNA and Machine Learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Endometriosis (EM), a disorder driven by persistent systemic inflammation, impacts around 10% of women in their reproductive period, often diagnosed only via surgery. Metabolic alterations, particularly in lipid metabolism, may uncover novel biomarkers. We aimed to identify diagnostic markers and molecular subtypes by integrating lipid metabolism gene expression and machine learning. METHODS: We downloaded gene expression datasets (GSE51981 and GSE7305) from the Gene Expression Omnibus (GEO) database. Differential expression was analyzed using limma (|log(2)FC| > 1, p.adj < 0.05); intersected with lipid genes to yield candidate genes. Weighted gene co-expression network analysis (WGCNA) demonstrated endometriosis-connected gene modules. Integrating lipid metabolism-related differentially expressed genes with WGCNA hub genes, followed by least absolute shrinkage and selection operator (LASSO) and XGBoost machine learning, identified diagnostic biomarkers. Their performance was validated using receiver operating characteristic (ROC) curves in an independent dataset. Immune infiltration, including CIBERSORT and single-sample GSEA (ssGSEA), gene set enrichment analysis (GSEA), and non-negative matrix factorization (NMF)-based subtype analyses were performed. MicroRNA (miRNA) and transcription factor (TF) regulatory networks were constructed using online databases. RESULTS: We identified 106 lipid metabolism-related differential genes. WGCNA revealed the turquoise module strongly correlated with endometriosis. ELOVL6 and MED20 were identified as key genes through machine learning algorithms. The two key genes emerged as robust diagnostic biomarkers, showing high area under the ROC curves (AUCs) across both training and validation sets. Immune infiltration analysis revealed distinct immune cell patterns in endometriosis, with ELOVL6 and MED20 correlating with specific immune cells. Subtype analysis, based on lipid metabolism scores, stratified patients into high and low score groups with differential gene expression and immune cell infiltration. Regulatory networks identified miRNAs and TFs targeting ELOVL6 and MED20. CONCLUSION: Our study identified ELOVL6 and MED20 as promising lipid metabolism-related diagnostic biomarkers for endometriosis. We also uncovered distinct molecular subtypes linked to lipid metabolism, providing novel insights into endometriosis heterogeneity and potential therapeutic targets.",
+    "keywords": [
+      "diagnostic",
+      "endometriosis",
+      "lipid metabolism"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Endometriosis/diagnosis/genetics/metabolism",
+      "Female",
+      "*Machine Learning",
+      "*Lipid Metabolism/genetics",
+      "Biomarkers/metabolism",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Databases, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Yingyi",
+        "Hou, Yue",
+        "Wu, Jinshuang",
+        "Lou, Ning",
+        "Yang, Dongxia"
+      ],
+      "short_names": [
+        "Guo Y",
+        "Hou Y",
+        "Wu J",
+        "Lou N",
+        "Yang D"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-4446-495X"
+      ],
+      "affiliations": [
+        "Heilongjiang University of Chinese Medicine, Harbin, China.",
+        "Heilongjiang University of Chinese Medicine, Harbin, China.",
+        "Heilongjiang University of Chinese Medicine, Harbin, China.",
+        "Heilongjiang University of Chinese Medicine, Harbin, China.",
+        "Department of Gynaecology, Second Affiliated Hospital of Heilongjiang University of Chinese Medicine, Harbin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Yingyi",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Heilongjiang University of Chinese Medicine, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Yue",
+        "short_name": "Hou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Heilongjiang University of Chinese Medicine, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jinshuang",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Heilongjiang University of Chinese Medicine, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Lou, Ning",
+        "short_name": "Lou N",
+        "identifiers": [],
+        "affiliations": [
+          "Heilongjiang University of Chinese Medicine, Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Dongxia",
+        "short_name": "Yang D",
+        "identifiers": [
+          "0009-0006-4446-495X"
+        ],
+        "affiliations": [
+          "Department of Gynaecology, Second Affiliated Hospital of Heilongjiang University of Chinese Medicine, Harbin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "American journal of reproductive immunology (New York, N.Y. : 1989)"
+    ],
+    "journal_abbrev": [
+      "Am J Reprod Immunol"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/23 12:47",
+    "fetched_at": "2026-10-01 09:45:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41432483",
+      "36532015",
+      "41013556",
+      "39507054",
+      "41052072",
+      "40046872",
+      "40901831",
+      "39975557",
+      "40097519",
+      "41388523",
+      "42123756",
+      "41137290",
+      "42292668",
+      "41146237",
+      "40500570",
+      "40070840",
+      "41168872",
+      "39142001",
+      "40924862",
+      "40374840",
+      "41044520",
+      "39396400",
+      "41570454",
+      "39139563",
+      "40406620",
+      "42302029",
+      "39855613",
+      "36148059",
+      "41316541",
+      "39394418",
+      "40313958",
+      "38711508",
+      "41913032",
+      "41393259",
+      "42123445",
+      "42255426",
+      "40360670",
+      "38660311",
+      "41291841",
+      "41265166",
+      "41789070",
+      "35764238",
+      "42233387",
+      "41479901",
+      "38863714",
+      "40532306",
+      "40273141",
+      "40119397",
+      "40245021",
+      "37499902",
+      "41902830",
+      "40460484",
+      "42056344",
+      "41200172",
+      "38767974",
+      "40860289",
+      "37008314",
+      "42278407",
+      "39324181",
+      "41189222",
+      "35278479",
+      "39375405",
+      "40768057",
+      "38371524",
+      "41487007",
+      "39707003",
+      "41310859",
+      "40997906",
+      "38291374",
+      "41988156",
+      "41787525",
+      "39586719",
+      "40819095",
+      "42092981",
+      "40766309",
+      "41816328",
+      "41006883",
+      "42267557",
+      "39512836",
+      "40808946",
+      "39670237",
+      "39263286",
+      "41547864",
+      "39556279",
+      "38755717",
+      "36777638",
+      "38987624",
+      "42244292",
+      "41029776",
+      "42083957",
+      "40970657",
+      "39509434",
+      "36968495",
+      "36225941",
+      "39086489",
+      "41884211",
+      "39713769",
+      "39749331",
+      "41733593",
+      "40830558"
+    ],
+    "review": [
+      "41432483"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/endometriosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Endometriosis"
+      },
+      {
+        "url": "https://www.ovid.com/41432483.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/aji.70201",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

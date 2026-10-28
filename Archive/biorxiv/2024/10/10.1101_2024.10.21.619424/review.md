@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary figure references
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors report computational redesign of TALE proteins into sequence-independent DNA-binding repeat proteins (NucleoX, NX) that self-assemble on double-stranded DNA templates into linear protein-DNA complexes with template-controlled lengths. They characterize these assemblies by AFM and cryo-EM, and demonstrate application as multivalent peptide antigen display platforms that elicit antigen-specific antibodies in mice.
+- **Visible evidence base** Figures 1-4 (referenced but not fully visible in text), Supplementary Figures S1-S9, Supplementary Tables S1-S2, Methods section
+- **Missing materials affecting confidence** Actual figure images and supplementary data files are not provided; only figure legends and text descriptions are available. This limits independent verification of image quality, statistical analyses, and structural interpretations.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to DNA-templated protein assembly by repurposing the natural TALE repeat architecture. The design strategy is logical and the demonstration of nuclease protection, cooperative assembly, and immunogenicity is commendable. However, several technical concerns regarding structural characterization, assembly mechanism, and quantitative rigor need to be addressed before the central claims are fully established. The work is potentially significant for the fields of protein design and nanobiotechnology, but the current evidence base is incomplete in key areas.
+- **Who would be interested in the results, and why** Researchers in protein design and engineering, DNA nanotechnology, structural biology, and vaccine development would find this work relevant. The concept of using repeat proteins for DNA-templated assembly could inspire new approaches to programmable nanomaterials. The immunogenicity data may interest vaccinologists exploring novel antigen display platforms.
+- **Major strengths** The design concept is elegant and builds logically on known TALE biology. The use of Rosetta for symmetric redesign is appropriate. The demonstration of sequence-independent DNA binding and cooperative assembly is supported by multiple complementary assays. The nuclease protection data provide functional evidence for a continuous protein coat. The immunogenicity comparison against an established nanoparticle platform is a useful benchmark.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural characterization
+  - **Claim pointer** The authors state that cryo-EM 2D class averages show NX11 proteins are "closely packed and ordered on the DNA" and that the designed protein-protein interfaces are formed.
+  - **Evidence pointer** Figure 3i-j, cryo-EM section in Results
+  - **Concern** The cryo-EM analysis is limited to 2D class averages, and the authors explicitly state that 3D reconstructions lacked sufficient resolution and confidence. The interpretation that the designed protein-protein interfaces are formed relies on visual inspection of 2D averages, which may not be sufficient to confirm specific interface formation. The heterogeneity described (Type I and Type II complexes) suggests structural variability that is not fully explained.
+  - **Why it matters** The central claim of the paper is that NX proteins assemble via designed interfaces into ordered polymers on DNA. Without higher-resolution structural evidence, alternative assembly modes (e.g., non-specific aggregation, partial interface formation) cannot be excluded.
+  - **Resolution test** Provide higher-resolution cryo-EM reconstructions or alternative structural validation (e.g., cross-linking mass spectrometry, hydrogen-deuterium exchange, or mutagenesis of predicted interface residues with functional assays) to confirm that the designed interfaces are formed as intended.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Assembly mechanism and stoichiometry
+  - **Claim pointer** The authors claim that NX11 assembly on DNA is cooperative and that the protein-DNA complexes have template-controlled lengths.
+  - **Evidence pointer** Figure 2c-e, EMSA data in Results
+  - **Concern** The evidence for cooperativity is indirect. The EMSA shows a mobility shift with increasing protein concentration, but no quantitative binding isotherm or Hill coefficient is provided. The claim of template-controlled lengths is inferred from AFM contour length measurements, but the relationship between DNA length and protein coverage is not systematically varied or quantified. The two-phase assembly kinetics (rapid increase then decrease in scattering) is not mechanistically explained.
+  - **Why it matters** Cooperativity and length control are key distinguishing features of the designed system. Without quantitative binding data and systematic length variation, these claims remain qualitative.
+  - **Resolution test** Perform quantitative binding assays (e.g., fluorescence anisotropy or ITC) to determine binding affinity and cooperativity. Vary DNA template length systematically and measure resulting complex lengths by AFM or other methods to demonstrate precise length control.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Immunogenicity data interpretation
+  - **Claim pointer** The authors state that NX11-DNA immunogens "elicit robust antigen-specific antibodies in mice" and that they show similar titers to the I53_dn5 nanoparticle benchmark.
+  - **Evidence pointer** Figure 4c-d, immunogenicity section in Results
+  - **Concern** The immunogenicity data are presented as endpoint titers from a single time point (week 5, two weeks post-boost) with groups of five mice. No statistical analysis is shown, and the comparison to the benchmark is descriptive. The manuscript does not report antibody quality (e.g., avidity, isotype, neutralization) or durability. The relevance of the antibody response to protective immunity is not addressed.
+  - **Why it matters** The claim of potential as a vaccine platform requires more rigorous immunological evaluation. Descriptive titer comparisons without statistics are insufficient to support the claim of comparable performance to an established platform.
+  - **Resolution test** Provide statistical analysis of titer differences, include additional time points, and characterize antibody quality (e.g., avidity, subclass, functional activity). Consider including a negative control group (e.g., DNA alone, protein alone) to demonstrate antigen-specific responses.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Design generalizability
+  - **Claim pointer** The authors suggest the approach "could be used to generate assemblies from other types of repeat proteins."
+  - **Evidence pointer** Discussion section
+  - **Concern** This claim is speculative and not supported by experimental evidence in the current manuscript. Only one TALE repeat protein (NX11, and NX5 to a lesser extent) is characterized. The generalizability to other repeat protein families is plausible but untested.
+  - **Why it matters** The broader significance of the work depends on whether the design principles are transferable. Without demonstration on at least one additional repeat protein system, this claim remains a hypothesis.
+  - **Resolution test** Either temper the claim in the discussion or provide preliminary data on an additional repeat protein system to support generalizability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 2c
+  - **Evidence pointer** Figure 2c, light scattering data
+  - **Issue** The two-phase assembly kinetics are described but the figure is not visible in the provided text. The decrease in scattering over time is attributed to "slow re-arrangement" without supporting evidence.
+  - **Required correction** Provide additional characterization of the rearrangement process (e.g., time-resolved AFM or EM) or temper the interpretation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** AFM analysis
+  - **Evidence pointer** AFM methods section
+  - **Issue** The AFM analysis reports n=35 for height measurements and n=10 for FFT periodicity analysis. The criteria for selecting molecules for analysis are not described, and potential selection bias is not addressed.
+  - **Required correction** Describe the selection criteria for molecules included in the analysis and discuss potential biases.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Sequence-independent" claim
+  - **Evidence pointer** Throughout Results
+  - **Issue** The term "sequence-independent" is used to describe DNA binding, but the evidence presented (nuclease protection, EMSA) does not directly demonstrate sequence independence. The authors do not test binding to multiple different DNA sequences.
+  - **Required correction** Either provide direct evidence of sequence-independent binding (e.g., binding assays with multiple DNA sequences) or use more cautious language such as "non-sequence-specific" based on the design rationale.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Immunogenicity data
+  - **Evidence pointer** Figure 4c-d
+  - **Issue** No statistical details are provided for the immunogenicity data. Error bars are mentioned but the number of replicates and statistical tests are not described.
+  - **Required correction** Provide full statistical details including number of replicates, error bar definitions, and statistical tests used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Structural model
+  - **Affected element** AlphaFold2 predictions
+  - **Evidence pointer** Results section, cryo-EM analysis
+  - **Issue** AlphaFold2 predictions are mentioned as supporting the extended conformation with 68 Å pitch, but the details of these predictions are not provided.
+  - **Required correction** Include the AlphaFold2 prediction details or a supplementary figure showing the predicted structures.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (structural confirmation of designed interfaces) and R1-M2 (quantitative evidence for cooperativity and length control) are the primary technical issues. Without addressing these, the central claims of designed assembly and template-controlled lengths are not fully established.
+- **Assessment against Nature-style criteria** Originality: The concept of repurposing TALE repeat proteins for DNA-templated assembly is novel and distinct from prior work on designed DNA-binding proteins. Scientific importance: The work addresses a gap in programmable protein-DNA hybrid materials and could have implications for vaccine design and nanotechnology. Interdisciplinary readership: The work bridges protein design, structural biology, and immunology, which would appeal to a broad audience. Technical soundness: The design strategy is sound, but the structural characterization is incomplete, and quantitative binding data are lacking. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with protein design terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance is significant, and the preliminary data are promising. However, the structural evidence for designed interface formation and the quantitative characterization of assembly cooperativity and length control need to be strengthened before the central claims are fully convincing.
+
+## Risk / unsupported claims
+- The claim that designed protein-protein interfaces are formed in NX11-DNA complexes is not fully supported by the available 2D class averages and requires higher-resolution structural evidence.
+- The claim of cooperative assembly is not quantitatively supported; no binding isotherms or Hill coefficients are provided.
+- The claim of template-controlled lengths is only qualitatively supported by AFM measurements on a single DNA length (750 bp for AFM, 250 bp for biochemical assays).
+- The claim that the approach is generalizable to other repeat protein families is speculative and not experimentally demonstrated.
+- The immunogenicity comparison to the I53_dn5 benchmark lacks statistical analysis and is therefore not rigorously supported.
+- The term "sequence-independent" DNA binding is not directly demonstrated experimentally.

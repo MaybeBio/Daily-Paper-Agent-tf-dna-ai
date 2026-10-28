@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "40981365",
+    "doi": "10.1002/pro.70316",
+    "title": "Molecular basis of EWS interdomain self-association and its role in condensate formation."
+  },
+  "content": {
+    "abstract": "Ewing sarcoma, the second most common pediatric bone and soft tissue cancer, is caused by aberrant fusion of the RNA-binding protein EWS (EWS) low-complexity domain (EWS(LCD)) to the DNA-binding domain of the transcription factor friend leukemia integration 1 (FLI1). The resulting fusion, EWS::FLI1, directly interacts with and engages in a dynamic interplay with EWS that drives tumorigenesis and regulates the function of both proteins. While EWS(LCD) is known to promote self-association, the role of the RNA-binding domains (RBDs) of EWS, which include arginine-glycine-glycine (RGG) repeat regions and a structured RNA-recognition motif (RRM), remains less well understood. Here, we investigate the interplay between EWS(LCD) and RBDs using biomolecular condensation assays, microscopy, nuclear magnetic resonance (NMR) spectroscopy, and molecular simulations. Our studies reveal that RBDs differentially influence EWS(LCD) condensate formation and suggest that electrostatics and polypeptide-chain length likely contribute to this interaction. NMR spectroscopy and molecular dynamics simulations further demonstrate that EWS(LCD) and the central RNA-binding region, comprising the RRM and RGG2 domains, engage in transient, non-specific interactions that are broadly distributed across both regions and involve diverse residue types. Specifically, tyrosine, polar residues, and proline within EWS(LCD) preferentially interact with arginine, glycine, and proline residues in the RBD. Atomistic simulations of EWS confirm that the full-length protein exhibits a similar interaction profile with conserved chemical specificity, supporting a model in which a network of weak, distributed interdomain contacts underlies EWS self-association. Together, these findings provide molecular insight into the mechanisms of EWS condensate formation and lay the groundwork for understanding how interdomain interactions regulate EWS and EWS::FLI1 function.",
+    "keywords": [
+      "EWS",
+      "NMR",
+      "biomolecular condensate",
+      "intrinsically disordered protein",
+      "molecular simulation"
+    ],
+    "mesh_terms": [
+      "*RNA-Binding Protein EWS/chemistry/metabolism/genetics",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Proto-Oncogene Protein c-fli-1/chemistry/metabolism/genetics",
+      "Protein Domains",
+      "Protein Binding",
+      "*Oncogene Proteins, Fusion/chemistry/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sohn, Erich J",
+        "Sojitra, Kandarp A",
+        "Rodrigues, Leticia",
+        "Xu, Xiaoping",
+        "Frost, Bess",
+        "Mittal, Jeetain",
+        "Libich, David S"
+      ],
+      "short_names": [
+        "Sohn EJ",
+        "Sojitra KA",
+        "Rodrigues L",
+        "Xu X",
+        "Frost B",
+        "Mittal J",
+        "Libich DS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5908-0912",
+        "ORCID: 0009-0002-8801-699X",
+        "ORCID: 0009-0004-1680-1811",
+        "ORCID: 0000-0002-1212-8138",
+        "ORCID: 0000-0002-9725-6402",
+        "ORCID: 0000-0001-6492-2803"
+      ],
+      "affiliations": [
+        "Greehey Children's Cancer Research Institute, The University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA.",
+        "Department of Biochemistry and Structural Biology, The University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA.",
+        "Greehey Children's Cancer Research Institute, The University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA.",
+        "Department of Biochemistry and Structural Biology, The University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA.",
+        "Greehey Children's Cancer Research Institute, The University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA.",
+        "Department of Biochemistry and Structural Biology, The University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA.",
+        "Department of Molecular Biology, Cell Biology and Biochemistry and Center for Alzheimer's Disease Research, Brown University, Providence, Rhode Island, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA.",
+        "Department of Chemistry, Texas A&M University, College Station, Texas, USA.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas, USA.",
+        "Greehey Children's Cancer Research Institute, The University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA.",
+        "Department of Biochemistry and Structural Biology, The University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sohn, Erich J",
+        "short_name": "Sohn EJ",
+        "identifiers": [
+          "0000-0001-5908-0912"
+        ],
+        "affiliations": [
+          "Greehey Children's Cancer Research Institute, The University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA.",
+          "Department of Biochemistry and Structural Biology, The University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Sojitra, Kandarp A",
+        "short_name": "Sojitra KA",
+        "identifiers": [
+          "0009-0002-8801-699X"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Rodrigues, Leticia",
+        "short_name": "Rodrigues L",
+        "identifiers": [
+          "0009-0004-1680-1811"
+        ],
+        "affiliations": [
+          "Greehey Children's Cancer Research Institute, The University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA.",
+          "Department of Biochemistry and Structural Biology, The University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiaoping",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Greehey Children's Cancer Research Institute, The University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA.",
+          "Department of Biochemistry and Structural Biology, The University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Frost, Bess",
+        "short_name": "Frost B",
+        "identifiers": [
+          "0000-0002-1212-8138"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology and Biochemistry and Center for Alzheimer's Disease Research, Brown University, Providence, Rhode Island, USA."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas, USA.",
+          "Department of Chemistry, Texas A&M University, College Station, Texas, USA.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Libich, David S",
+        "short_name": "Libich DS",
+        "identifiers": [
+          "0000-0001-6492-2803"
+        ],
+        "affiliations": [
+          "Greehey Children's Cancer Research Institute, The University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA.",
+          "Department of Biochemistry and Structural Biology, The University of Texas Health Science Center at San Antonio, San Antonio, Texas, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/22 12:46",
+    "fetched_at": "2026-10-01 02:40:27"
+  },
+  "links": {
+    "cites": [
+      "42051291",
+      "41594575"
+    ],
+    "refs": [
+      "40377985",
+      "40028898",
+      "39920231",
+      "39095374",
+      "38553587",
+      "38511874",
+      "38506112",
+      "38492239",
+      "38383656",
+      "38316988",
+      "37824531",
+      "37442414",
+      "37079924",
+      "36929870",
+      "36129371",
+      "35501371",
+      "35483357",
+      "35443099",
+      "34994941",
+      "34759379",
+      "34304571",
+      "34203801",
+      "34145397",
+      "34035145",
+      "33674598",
+      "33597515",
+      "33577679",
+      "33547841",
+      "33006225",
+      "32393642",
+      "32029630",
+      "31794728",
+      "31270472",
+      "29930090",
+      "29513652",
+      "28924037",
+      "28847958",
+      "28844694",
+      "26328871",
+      "25244701",
+      "24320889",
+      "24267890",
+      "23901099",
+      "23148796",
+      "22579281",
+      "19417137",
+      "17415412",
+      "17202261",
+      "15743974",
+      "14534527",
+      "10982800",
+      "10767297",
+      "10523836",
+      "9704926",
+      "9488465",
+      "7845667",
+      "6416622",
+      "1522903"
+    ],
+    "similar": [
+      "40981365",
+      "40377985",
+      "40131773",
+      "37961424",
+      "34994941",
+      "32658189",
+      "39344201",
+      "34145397",
+      "23145994",
+      "28775288",
+      "38492239",
+      "27875302",
+      "27760381",
+      "25737553",
+      "30700749",
+      "29945296",
+      "42295992",
+      "16537893",
+      "33741715",
+      "39560616",
+      "26336820",
+      "41950086",
+      "17202261",
+      "34570101",
+      "29873416",
+      "21979944",
+      "25898720",
+      "17047047",
+      "36929870",
+      "23935076",
+      "26776507",
+      "22086061",
+      "42417395",
+      "36124657",
+      "25483190",
+      "19920188",
+      "21926473",
+      "31392992",
+      "22986530",
+      "23995784",
+      "25779942",
+      "40668764",
+      "34329586",
+      "23441188",
+      "27166877",
+      "36658219",
+      "36330954",
+      "23178492",
+      "23750284",
+      "22266186",
+      "34009296",
+      "36615603",
+      "23894528",
+      "24481407",
+      "36194562",
+      "41482356",
+      "39201282",
+      "39487368",
+      "34345016",
+      "41136396",
+      "34060252",
+      "22723308",
+      "31072811",
+      "28844694",
+      "24812032",
+      "16865286",
+      "26997645",
+      "31898537",
+      "25704812",
+      "26848860",
+      "21403840",
+      "29091716",
+      "28720588",
+      "21531709",
+      "25401475",
+      "19189974",
+      "35483357",
+      "26979396",
+      "35653119",
+      "28358102",
+      "20933505",
+      "26623725",
+      "39013417",
+      "27282934",
+      "28671673",
+      "40664627",
+      "21872822",
+      "20211855",
+      "37478161",
+      "18413612",
+      "23365673",
+      "25564528",
+      "37894854",
+      "21653923",
+      "25712098",
+      "31025088",
+      "39695664",
+      "29328472",
+      "24124617",
+      "25162919"
+    ],
+    "review": [
+      "40981365",
+      "26848860",
+      "21872822",
+      "37894854"
+    ],
+    "pmc": [
+      "12451834"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40981365.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40981365/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/pro.70316",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40981365",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

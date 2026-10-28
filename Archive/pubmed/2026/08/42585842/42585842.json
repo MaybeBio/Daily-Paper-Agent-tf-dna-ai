@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "42585842",
+    "doi": "10.1016/j.dnarep.2026.103944",
+    "title": "Characterization of a Ku-binding motif in the C-terminal region of RAG2."
+  },
+  "content": {
+    "abstract": "We applied an unsupervised interactome analysis with the RAG2 C-terminal region (R2CT) in v-abl pro-B cells undergoing V(D)J recombination. Mass-spectrometry analyses showed that Ku70 and Ku80 were among the top 10 hits. To further strengthen these observations, we performed Proximity Ligation Assay (PLA) and characterize the existence of a GFP-R2CT-Ku complex formation in cellulo. The interaction of several partners with Ku70/80 (Ku) through Ku-binding motifs (KBMs) in their sequences governs their enrolment in NHEJ repair complexes. Through sequence analysis, we identified a KBM within R2CT (R-KBM, amino acids 589-527). We confirmed by calorimetry a specific micromolar interaction between this RAG2 region and Ku70/80/DNA complex. The RAG2 motif KBM can be subdivided in two conserved parts that have no interaction individually. AlphaFold2 prediction coupled with molecular dynamic simulations indicate that the C-terminal part of the RAG2 motif interacts with Ku80 on the same site than the NHEJ factor XLF. These in silico analyses indicated that the N-terminal part of the RAG2 motif interacts with DNA adjacent to Ku with a major role of the K503 residue in agreement with disruption of the interaction observed with the K503E mutant. This study further extends the large ensemble of proteins recruited at DSBs by KBM motifs and substantiates the model of a tight coupling between DNA breakage and repair during V(D)J recombination, mediated by the Ku-RAG2 C-terminus interaction.",
+    "keywords": [
+      "Coupling NHEJ and V(D)J",
+      "Double-Strand Breaks Repair",
+      "Ku-Binding Motif (KBM)",
+      "RAG1/2 recombinase"
+    ],
+    "mesh_terms": [
+      "*Ku Autoantigen/metabolism",
+      "*DNA-Binding Proteins/metabolism/chemistry/genetics",
+      "Humans",
+      "Amino Acid Motifs",
+      "Protein Binding",
+      "*DNA End-Joining Repair",
+      "*V(D)J Recombination",
+      "Animals",
+      "Precursor Cells, B-Lymphoid/metabolism",
+      "Amino Acid Sequence",
+      "DNA/metabolism",
+      "Nuclear Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tadi, Satish K",
+        "Gesnik, Armelle",
+        "Nabhan, Lea",
+        "Frit, Philippe",
+        "Iehl, Florence",
+        "Ropars, Virginie",
+        "Dingli, Florent",
+        "Loew, Damarys",
+        "Calsou, Patrick",
+        "Callebaut, Isabelle",
+        "Cuniasse, Philippe",
+        "Charbonnier, Jean-Baptiste",
+        "de Villartay, Jean-Pierre"
+      ],
+      "short_names": [
+        "Tadi SK",
+        "Gesnik A",
+        "Nabhan L",
+        "Frit P",
+        "Iehl F",
+        "Ropars V",
+        "Dingli F",
+        "Loew D",
+        "Calsou P",
+        "Callebaut I",
+        "Cuniasse P",
+        "Charbonnier JB",
+        "de Villartay JP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory \"Genome Dynamics in the Immune System\", INSERM UMR 1163, DGSI, Imagine Institute, Universite de Paris Cite, Paris 75015, France.",
+        "Institute for Integrative Biology of the Cell (I2BC), Universite Paris-Saclay, CEA, CNRS, Gif-sur-Yvette, 91190, France.",
+        "Laboratory \"Genome Dynamics in the Immune System\", INSERM UMR 1163, DGSI, Imagine Institute, Universite de Paris Cite, Paris 75015, France.",
+        "Institut de Pharmacologie et de Biologie Structurale (IPBS), Universite de Toulouse, CNRS, Universite Toulouse III - Paul Sabatier (UT3), Toulouse, France.",
+        "Institute for Integrative Biology of the Cell (I2BC), Universite Paris-Saclay, CEA, CNRS, Gif-sur-Yvette, 91190, France.",
+        "Institute for Integrative Biology of the Cell (I2BC), Universite Paris-Saclay, CEA, CNRS, Gif-sur-Yvette, 91190, France.",
+        "Institut Curie, PSL Research University, Centre de Recherche, CurieCoreTech Spectrometrie de Masse Proteomique, Paris 75005, France.",
+        "Institut Curie, PSL Research University, Centre de Recherche, CurieCoreTech Spectrometrie de Masse Proteomique, Paris 75005, France.",
+        "Institut de Pharmacologie et de Biologie Structurale (IPBS), Universite de Toulouse, CNRS, Universite Toulouse III - Paul Sabatier (UT3), Toulouse, France.",
+        "Sorbonne Universite, Museum National d'Histoire Naturelle, UMR CNRS 7590, Institut de Mineralogie, de Physique des Materiaux et de Cosmochimie, IMPMC, Paris 75005, France.",
+        "Institute for Integrative Biology of the Cell (I2BC), Universite Paris-Saclay, CEA, CNRS, Gif-sur-Yvette, 91190, France.",
+        "Institute for Integrative Biology of the Cell (I2BC), Universite Paris-Saclay, CEA, CNRS, Gif-sur-Yvette, 91190, France. Electronic address: Jb.charbonnier@i2bc.paris-saclay.fr.",
+        "Laboratory \"Genome Dynamics in the Immune System\", INSERM UMR 1163, DGSI, Imagine Institute, Universite de Paris Cite, Paris 75015, France. Electronic address: jean-pierre.de-villartay@inserm.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tadi, Satish K",
+        "short_name": "Tadi SK",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory \"Genome Dynamics in the Immune System\", INSERM UMR 1163, DGSI, Imagine Institute, Université de Paris Cité, Paris 75015, France."
+        ]
+      },
+      {
+        "full_name": "Gesnik, Armelle",
+        "short_name": "Gesnik A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Integrative Biology of the Cell (I2BC), Université Paris-Saclay, CEA, CNRS, Gif-sur-Yvette, 91190, France."
+        ]
+      },
+      {
+        "full_name": "Nabhan, Léa",
+        "short_name": "Nabhan L",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory \"Genome Dynamics in the Immune System\", INSERM UMR 1163, DGSI, Imagine Institute, Université de Paris Cité, Paris 75015, France."
+        ]
+      },
+      {
+        "full_name": "Frit, Philippe",
+        "short_name": "Frit P",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Pharmacologie et de Biologie Structurale (IPBS), Université de Toulouse, CNRS, Université Toulouse III - Paul Sabatier (UT3), Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Iehl, Florence",
+        "short_name": "Iehl F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Integrative Biology of the Cell (I2BC), Université Paris-Saclay, CEA, CNRS, Gif-sur-Yvette, 91190, France."
+        ]
+      },
+      {
+        "full_name": "Ropars, Virginie",
+        "short_name": "Ropars V",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Integrative Biology of the Cell (I2BC), Université Paris-Saclay, CEA, CNRS, Gif-sur-Yvette, 91190, France."
+        ]
+      },
+      {
+        "full_name": "Dingli, Florent",
+        "short_name": "Dingli F",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Curie, PSL Research University, Centre de Recherche, CurieCoreTech Spectrométrie de Masse Protéomique, Paris 75005, France."
+        ]
+      },
+      {
+        "full_name": "Loew, Damarys",
+        "short_name": "Loew D",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Curie, PSL Research University, Centre de Recherche, CurieCoreTech Spectrométrie de Masse Protéomique, Paris 75005, France."
+        ]
+      },
+      {
+        "full_name": "Calsou, Patrick",
+        "short_name": "Calsou P",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Pharmacologie et de Biologie Structurale (IPBS), Université de Toulouse, CNRS, Université Toulouse III - Paul Sabatier (UT3), Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Callebaut, Isabelle",
+        "short_name": "Callebaut I",
+        "identifiers": [],
+        "affiliations": [
+          "Sorbonne Université, Muséum National d'Histoire Naturelle, UMR CNRS 7590, Institut de Minéralogie, de Physique des Matériaux et de Cosmochimie, IMPMC, Paris 75005, France."
+        ]
+      },
+      {
+        "full_name": "Cuniasse, Philippe",
+        "short_name": "Cuniasse P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Integrative Biology of the Cell (I2BC), Université Paris-Saclay, CEA, CNRS, Gif-sur-Yvette, 91190, France."
+        ]
+      },
+      {
+        "full_name": "Charbonnier, Jean-Baptiste",
+        "short_name": "Charbonnier JB",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Integrative Biology of the Cell (I2BC), Université Paris-Saclay, CEA, CNRS, Gif-sur-Yvette, 91190, France. Electronic address: Jb.charbonnier@i2bc.paris-saclay.fr."
+        ]
+      },
+      {
+        "full_name": "de Villartay, Jean-Pierre",
+        "short_name": "de Villartay JP",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory \"Genome Dynamics in the Immune System\", INSERM UMR 1163, DGSI, Imagine Institute, Université de Paris Cité, Paris 75015, France. Electronic address: jean-pierre.de-villartay@inserm.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "DNA repair"
+    ],
+    "journal_abbrev": [
+      "DNA Repair (Amst)"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/12 23:34",
+    "fetched_at": "2026-10-02 03:34:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42585842",
+      "34006647",
+      "38901287",
+      "27830975",
+      "30291363",
+      "27063109",
+      "8756676",
+      "27705800",
+      "40498075",
+      "23345432",
+      "40659092",
+      "23689425",
+      "37870477",
+      "27875301",
+      "9461456",
+      "25795113",
+      "19715578",
+      "27601633",
+      "35695492",
+      "10446239",
+      "21349273",
+      "27601299",
+      "28882611",
+      "10207052",
+      "39151475",
+      "23322783",
+      "30017584",
+      "28759779",
+      "24753404",
+      "31733588",
+      "25745109",
+      "41700088",
+      "40680721",
+      "28641126",
+      "18281312",
+      "23178593",
+      "18355052",
+      "33873062",
+      "23620595",
+      "8972848",
+      "14672664",
+      "9341172",
+      "11457852",
+      "21811007",
+      "28163277",
+      "31731258",
+      "23324393",
+      "31115163",
+      "9223317",
+      "23308051",
+      "9362500",
+      "11112693",
+      "24466051",
+      "21160472",
+      "42423307",
+      "18332040",
+      "11870614",
+      "16314503",
+      "10871410",
+      "19893054",
+      "34056803",
+      "20142431",
+      "30851288",
+      "28696258",
+      "37108203",
+      "21756904",
+      "22037767",
+      "11279128",
+      "17562296",
+      "18064046",
+      "10891502",
+      "18164703",
+      "8754818",
+      "17236818",
+      "8632777",
+      "27130816",
+      "21742970",
+      "18776215",
+      "20195511",
+      "10602508",
+      "31141305",
+      "28652322",
+      "25841101",
+      "25987660",
+      "12518983",
+      "36640344",
+      "25670504",
+      "25625798",
+      "32937838",
+      "37395399",
+      "24942867",
+      "36762474",
+      "29065392",
+      "11859125",
+      "30024881",
+      "17241822",
+      "9760994",
+      "25676158",
+      "15150344",
+      "21880593"
+    ],
+    "review": [
+      "42585842",
+      "25795113",
+      "34056803",
+      "30851288",
+      "25987660",
+      "12518983"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1568-7864(26)00023-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-XRCC5-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1776",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

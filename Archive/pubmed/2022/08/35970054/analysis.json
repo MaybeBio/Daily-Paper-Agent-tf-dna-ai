@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35970054",
+  "title": "Predicting gene expression levels from DNA sequences and post-transcriptional information with transformers.",
+  "authors": "Pipoli, Vittorio; Cappelli, Mattia; Palladini, Alessandro; Peluso, Carlo; Lovino, Marta; Ficarra, Elisa",
+  "journal": "Computer methods and programs in biomedicine",
+  "published_date": "2022-08-16",
+  "window": {
+    "start": "2022-08-15",
+    "end": "2022-08-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用Transformer预测基因表达水平，虽涉及DNA序列和转录因子信息，但核心是表达量回归而非TF-DNA结合互作建模，方法可迁移但深度不足。",
+  "abstract": "BACKGROUND AND OBJECTIVES: In the latest years, the prediction of gene expression levels has been crucial due to its potential applications in the clinics. In this context, Xpresso and others methods based on Convolutional Neural Networks and Transformers were firstly proposed to this aim. However, all these methods embed data with a standard one-hot encoding algorithm, resulting in impressively sparse matrices. In addition, post-transcriptional regulation processes, which are of uttermost importance in the gene expression process, are not considered in the model. METHODS: This paper presents Transformer DeepLncLoc, a novel method to predict the abundance of the mRNA (i.e., gene expression levels) by processing gene promoter sequences, managing the problem as a regression task. The model exploits a transformer-based architecture, introducing the DeepLncLoc method to perform the data embedding. Since DeepLncloc is based on word2vec algorithm, it avoids the sparse matrices problem. RESULTS: Post-transcriptional information related to mRNA stability and transcription factors is included in the model, leading to significantly improved performances compared to the state-of-the-art works. Transformer DeepLncLoc reached 0.76 of R(2) evaluation metric compared to 0.74 of Xpresso. CONCLUSION: The Multi-Headed Attention mechanisms which characterizes the transformer methodology is suitable for modeling the interactions between DNA's locations, overcoming the recurrent models. Finally, the integration of the transcription factors data in the pipeline leads to impressive gains in predictive power.",
+  "abstract_zh": "背景与目标：近年来，基因表达水平的预测因其在临床中的潜在应用而变得至关重要。在此背景下，Xpresso及其他基于卷积神经网络（Convolutional Neural Networks）和Transformer的方法首次被提出用于此目的。然而，所有这些方法均采用标准独热编码（one-hot encoding）算法嵌入数据，导致矩阵极其稀疏。此外，转录后调控过程在基因表达过程中至关重要，但未在模型中得到考虑。方法：本文提出Transformer DeepLncLoc，一种通过处理基因启动子序列来预测mRNA丰度（即基因表达水平）的新方法，并将问题视为回归任务。该模型采用基于Transformer的架构，引入DeepLncLoc方法进行数据嵌入。由于DeepLncLoc基于word2vec算法，它避免了稀疏矩阵问题。结果：与mRNA稳定性和转录因子相关的转录后信息被纳入模型，相较于现有最先进工作，性能显著提升。Transformer DeepLncLoc的R²评估指标达到0.76，而Xpresso为0.74。结论：Transformer方法特有的多头注意力（Multi-Headed Attention）机制适用于建模DNA位点间的相互作用，超越了循环模型。最后，将转录因子数据整合到流程中，在预测能力上带来了显著提升。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35970054/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35970054/",
+  "paper_page_path": "papers/pubmed/35970054/index.html"
+}

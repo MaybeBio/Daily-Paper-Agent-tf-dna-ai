@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "40306980",
+    "doi": "10.1021/acs.est.5c02014",
+    "title": "From Nuclear Receptors to GPCRs: a Deep Transfer Learning Approach for Enhanced Environmental Estrogen Recognition."
+  },
+  "content": {
+    "abstract": "Environmental estrogens (EEs), as typical endocrine-disrupting chemicals (EDCs), can bind to classic estrogen receptors (ERs) to induce genomic effects, as well as to G protein-coupled estrogen receptor (GPER) located on the membrane, thereby inducing downstream nongenomic effects rapidly. However, due to the relatively scarce ligand data, receptor-based or ligand-based screening models for GPER are challenging. Inspired by functional similarity between GPER and ER, this study constructs a deep transfer learning model named GPNET to predict potential GPER-binding ligands by using three-dimensional (3D) molecular surface electrostatic potential point clouds (SepPC) as input. The model retains a part of molecular structural knowledge learned from the ER ligands and then trains the remaining parameters of the model using the GPER ligands, ultimately obtaining the GPNET model, which effectively predicts the binding activity of compounds with GPER. GPNET outperforms From Scratch (nontransfer) model on the small data set, achieving the area under the receiver operating characteristic (ROC) curve (AUC(ROC)) of 0.898 on the validation set and 0.863 on the test set, respectively. Furthermore, by visualizing the critical points and extracting the features from activation points of active ligands, the study provides a more in-depth interpretation of the molecular mechanism of two bisphenol A (BPA) alternatives binding to GPER.",
+    "keywords": [
+      "3D molecular surface electrostatic potential point clouds",
+      "G protein-coupled estrogen receptor",
+      "environmental estrogens",
+      "molecular mechanism",
+      "transfer learning"
+    ],
+    "mesh_terms": [
+      "*Receptors, G-Protein-Coupled",
+      "*Estrogens",
+      "*Deep Learning",
+      "Receptors, Estrogen",
+      "Ligands",
+      "Endocrine Disruptors",
+      "*Receptors, Cytoplasmic and Nuclear",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yao, Tingji",
+        "Luo, Jiaqi",
+        "Han, Xiaoxiao",
+        "Yi, Hang",
+        "Zhang, Huazhou",
+        "Pan, Wenxiao",
+        "Xue, Qiao",
+        "Liu, Xian",
+        "Fu, Jianjie",
+        "Zhang, Aiqian"
+      ],
+      "short_names": [
+        "Yao T",
+        "Luo J",
+        "Han X",
+        "Yi H",
+        "Zhang H",
+        "Pan W",
+        "Xue Q",
+        "Liu X",
+        "Fu J",
+        "Zhang A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9719-4467",
+        "ORCID: 0000-0002-0325-9996",
+        "ORCID: 0000-0002-5398-4707",
+        "ORCID: 0000-0002-6373-0719",
+        "ORCID: 0000-0001-5680-2529"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China.",
+        "School of Environment, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou 310012, P. R. China.",
+        "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China.",
+        "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China.",
+        "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China.",
+        "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China.",
+        "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China.",
+        "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China.",
+        "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China.",
+        "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China.",
+        "School of Environment, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou 310012, P. R. China.",
+        "Institute of Environment and Health, Jianghan University, Wuhan 430056, P.R. China.",
+        "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China.",
+        "School of Environment, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou 310012, P. R. China.",
+        "Institute of Environment and Health, Jianghan University, Wuhan 430056, P.R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yao, Tingji",
+        "short_name": "Yao T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China.",
+          "School of Environment, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou 310012, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Luo, Jiaqi",
+        "short_name": "Luo J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Han, Xiaoxiao",
+        "short_name": "Han X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Yi, Hang",
+        "short_name": "Yi H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Huazhou",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Pan, Wenxiao",
+        "short_name": "Pan W",
+        "identifiers": [
+          "0000-0002-9719-4467"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Xue, Qiao",
+        "short_name": "Xue Q",
+        "identifiers": [
+          "0000-0002-0325-9996"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xian",
+        "short_name": "Liu X",
+        "identifiers": [
+          "0000-0002-5398-4707"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Fu, Jianjie",
+        "short_name": "Fu J",
+        "identifiers": [
+          "0000-0002-6373-0719"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China.",
+          "School of Environment, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou 310012, P. R. China.",
+          "Institute of Environment and Health, Jianghan University, Wuhan 430056, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Aiqian",
+        "short_name": "Zhang A",
+        "identifiers": [
+          "0000-0001-5680-2529"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, P. R. China.",
+          "School of Environment, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou 310012, P. R. China.",
+          "Institute of Environment and Health, Jianghan University, Wuhan 430056, P.R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Environmental science & technology"
+    ],
+    "journal_abbrev": [
+      "Environ Sci Technol"
+    ],
+    "pub_date": "2025 Jun 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/01 00:27",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [
+      "42251462",
+      "42022495",
+      "40761943"
+    ],
+    "refs": [],
+    "similar": [
+      "40306980",
+      "27546037",
+      "28159674",
+      "33164654",
+      "26490843",
+      "32973678",
+      "34328988",
+      "26023144",
+      "35461094",
+      "23707773",
+      "33329395",
+      "22251451",
+      "23056216",
+      "37759810",
+      "37887304",
+      "37110520",
+      "24530924",
+      "26190834",
+      "32587576",
+      "33600191",
+      "22495674",
+      "22496838",
+      "28858478",
+      "21844907",
+      "32745784",
+      "22521564",
+      "30677511",
+      "29654925",
+      "22414008",
+      "28007532",
+      "33054574",
+      "32296387",
+      "33706245",
+      "34240848",
+      "26261617",
+      "26470790",
+      "32899453",
+      "32849301",
+      "28285016",
+      "19442754",
+      "22520060",
+      "36662583",
+      "30545896",
+      "32922363",
+      "27451102",
+      "26585158",
+      "35788105",
+      "26189910",
+      "24062489",
+      "28964603",
+      "36113621",
+      "25030373",
+      "35353510",
+      "37279863",
+      "23116143",
+      "28595943",
+      "31370872",
+      "38636681",
+      "37664844",
+      "33574796",
+      "34576301",
+      "31628182",
+      "36065843",
+      "23597597",
+      "28347854",
+      "36502987",
+      "26573009",
+      "34352396",
+      "28450143",
+      "25957002",
+      "21791623",
+      "25167221",
+      "31706983",
+      "33250856",
+      "26183213",
+      "35774023",
+      "33582643",
+      "25312822",
+      "30473274",
+      "21673097",
+      "20382141",
+      "36883690",
+      "21349822",
+      "29065151",
+      "39936103",
+      "26303299",
+      "32143514",
+      "28877783",
+      "28476123",
+      "26985039",
+      "31127318",
+      "31125759",
+      "32973677",
+      "29224106",
+      "23466742",
+      "25349983",
+      "37414130",
+      "29659348",
+      "27516013",
+      "26714890"
+    ],
+    "review": [
+      "40306980",
+      "28159674",
+      "33164654",
+      "32973678",
+      "26023144",
+      "33329395",
+      "37759810",
+      "37887304",
+      "24530924",
+      "26190834",
+      "22495674",
+      "21844907",
+      "22521564",
+      "28007532",
+      "32296387",
+      "33706245",
+      "32849301",
+      "28285016",
+      "19442754",
+      "36662583",
+      "30545896",
+      "27451102",
+      "26189910",
+      "23116143",
+      "28595943",
+      "38636681",
+      "37664844",
+      "33574796",
+      "28347854",
+      "26573009",
+      "28450143",
+      "30473274",
+      "36883690",
+      "39936103",
+      "32973677",
+      "29224106"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/esthag/article-lookup/doi/10.1021/acs.est.5c02014",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

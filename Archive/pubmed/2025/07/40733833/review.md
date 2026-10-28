@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report that sulfated glycosaminoglycans (GAGs), specifically chondroitin sulfate (CS) and heparin (HP), inhibit CRISPR-Cas9 activity. Heparin shows stronger inhibition that is concentration-dependent. Molecular dynamics simulations suggest sulfated heparin residues bind to essential DNA-binding sites on Cas9. Higher molecular weight GAGs show enhanced inhibition under the same sulfation level. Sulfation site affects activity, with C6-sulfation of CS and N-sulfation of heparin being more favorable for inhibition.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, statistical analyses, or simulation parameters provided
+- **Missing materials affecting confidence** Full methods, experimental protocols, quantitative inhibition data, statistical analyses, molecular dynamics simulation details, validation experiments, and any supporting figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding GAG-based inhibition of CRISPR-Cas9, which could have relevance for controlling genome editing activity. However, the evidence base available for assessment is limited to the abstract, and several claims lack sufficient quantitative or mechanistic support as presented. The relationship between GAG structure and inhibitory activity is plausible but requires rigorous experimental validation and clearer mechanistic evidence.
+- **Who would be interested in the results, and why** Researchers in genome editing, particularly those focused on safety and control mechanisms for CRISPR-Cas9; investigators studying carbohydrate-based therapeutics; and scientists interested in protein-glycosaminoglycan interactions. The potential for developing carbohydrate-based inhibitors of Cas9 could appeal to translational researchers seeking safer gene-editing approaches.
+- **Major strengths** The study addresses a relevant and timely problem, namely the need for controlled Cas9 activity in clinical applications. The focus on structure-activity relationships of GAGs is a useful angle that may provide design principles for future inhibitors. The combination of experimental inhibition data with molecular dynamics simulations is a reasonable approach to link function with potential mechanisms.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that sulfated GAGs inhibit CRISPR-Cas9 activity, with heparin showing stronger inhibition that correlates positively with concentration.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract states that CS and HP inhibit Cas9 activity and that heparin shows a concentration-dependent effect, but no quantitative data are presented. No IC50 values, percent inhibition, or statistical comparisons are given. It is unclear how inhibition was measured, what concentrations were tested, and whether the effects are specific to Cas9 or reflect general non-specific interactions.  
+  - **Why it matters** Without quantitative dose-response data and appropriate controls, the claim of inhibition cannot be rigorously evaluated. Non-specific effects, such as aggregation or charge-based interference with assay components, could produce apparent inhibition. The concentration dependence claim requires clear experimental evidence.  
+  - **Resolution test** Provide dose-response curves for CS and HP with appropriate replicates, statistical analysis, and controls demonstrating specificity of inhibition for Cas9 activity. Report quantitative parameters such as IC50 values and confidence intervals.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic support  
+  - **Claim pointer** The claim that sulfated heparin residues inhibit Cas9 by binding to essential DNA-binding sites, as suggested by molecular dynamics simulations.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The mechanistic conclusion is based solely on molecular dynamics simulations, but no simulation details are provided. It is unclear what system was simulated, what force field was used, what timescales were covered, and whether the binding was stable and specific. The abstract does not indicate whether the proposed binding site was experimentally validated, for example through mutagenesis or competitive binding assays.  
+  - **Why it matters** Simulation results alone are insufficient to establish a binding mechanism. Without experimental validation, the proposed mechanism remains speculative. The claim that binding to DNA-binding sites impairs activity needs direct evidence linking the simulated interaction to functional inhibition.  
+  - **Resolution test** Provide simulation parameters and convergence criteria, and include experimental validation such as mutagenesis of the proposed binding residues, competitive binding assays, or surface plasmon resonance measurements to confirm the interaction.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Structure-activity relationship support  
+  - **Claim pointer** The claim that higher molecular weight GAGs exhibit enhanced inhibitory effects under the same sulfation level, and that sulfation site affects activity.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract states that molecular weight and sulfation site influence inhibition, but no data are shown to support these structure-activity relationships. It is unclear how many GAG variants were tested, how molecular weight was controlled, and how sulfation site effects were isolated from other variables. The comparison between C6-sulfation of CS and N-sulfation of heparin involves different GAG backbones, making direct comparison difficult.  
+  - **Why it matters** The structure-activity relationship is the central contribution of the study. If the evidence for molecular weight and sulfation site effects is not robust, the conclusions may not be generalizable. Confounding variables such as charge density or backbone conformation could explain the observed differences.  
+  - **Resolution test** Present a systematic series of GAG variants with controlled molecular weight and defined sulfation patterns, with quantitative inhibition data and appropriate statistical analysis. Include appropriate controls to isolate the effect of each structural feature.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility and rigor  
+  - **Claim pointer** The overall experimental approach and conclusions.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not describe the experimental system used to measure Cas9 activity, the source and purity of the GAGs, or the conditions under which inhibition was assessed. No information is given on replicates, controls, or statistical methods. This lack of detail prevents assessment of reproducibility and rigor.  
+  - **Why it matters** Reproducibility is a core requirement for scientific claims. Without knowing the assay system, GAG preparation, and analysis methods, the findings cannot be independently evaluated or replicated.  
+  - **Resolution test** Provide full methods including assay details, GAG characterization data, and statistical analysis plan. Ensure that all key experiments are described with sufficient detail for replication.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term "sulfated heparin residues" is ambiguous. It is unclear whether this refers to specific sulfated domains within heparin or to heparin fragments.  
+  - **Required correction** Clarify the terminology, for example by specifying whether intact heparin or defined sulfated fragments were used in the simulations and experiments.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Concentration range  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract states that heparin inhibition correlates positively with concentration but does not indicate the concentration range tested.  
+  - **Required correction** Report the concentration range and the basis for selecting it.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Comparison between CS and HP  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The comparison between CS and HP is complicated by differences in backbone structure, sulfation density, and molecular weight. The abstract does not address whether these differences were controlled.  
+  - **Required correction** State whether the comparison was made under matched conditions and discuss potential confounding factors.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative data, lack of experimental validation for the proposed mechanism, and insufficient detail on the structure-activity relationship experiments mean that the central claims are not currently established from the provided evidence.
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of using GAGs as Cas9 inhibitors is moderately original, though the broader idea of controlling Cas9 activity is not new. The structure-activity relationship angle adds some novelty.  
+  - Scientific importance: The potential to regulate Cas9 activity is of significant interest for genome editing safety, but the importance of this specific GAG-based approach is not yet clear without stronger evidence.  
+  - Interdisciplinary readership: The topic bridges carbohydrate chemistry, structural biology, and genome editing, which could attract a broad readership if the findings are robust.  
+  - Technical soundness: Cannot be fully assessed from the abstract. The lack of quantitative data and simulation details is a concern.  
+  - Readability for nonspecialists: The abstract is generally readable, but some terms and claims would benefit from clearer explanation.  
+  - Overall, the study has potential but does not currently meet the evidentiary standard expected for a high-impact journal.
+- **Recommendation posture** Currently not established from the provided evidence. The findings are potentially interesting, but the abstract lacks the quantitative and mechanistic detail needed to support the claims. A revised manuscript with full experimental data, validation of the proposed mechanism, and rigorous structure-activity analysis would be needed to assess the case properly.
+
+## Risk / unsupported claims
+- The claim that sulfated GAGs inhibit CRISPR-Cas9 activity is unsupported by quantitative data in the abstract.
+- The claim that heparin inhibition correlates positively with concentration is unsupported without dose-response data.
+- The mechanistic claim that sulfated heparin residues bind to essential DNA-binding sites is unsupported without simulation details or experimental validation.
+- The claims regarding molecular weight and sulfation site effects on inhibition are unsupported without systematic structure-activity data.
+- The overall conclusion that these findings provide a foundation for developing carbohydrate-based inhibitors is speculative given the limited evidence presented.

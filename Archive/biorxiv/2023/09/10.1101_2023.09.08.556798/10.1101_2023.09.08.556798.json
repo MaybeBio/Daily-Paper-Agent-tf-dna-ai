@@ -1,0 +1,176 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.08.556798",
+  "title": "Proteome-scale prediction of molecular mechanisms underlying dominant genetic diseases",
+  "doi": "10.1101/2023.09.08.556798",
+  "abstract": "Many dominant genetic disorders result from protein-altering mutations, acting primarily through dominant-negative (DN), gain-of-function (GOF), and loss-of-function (LOF) mechanisms. Deciphering the mechanisms by which dominant diseases exert their effects is often experimentally challenging and resource intensive, but is essential for developing appropriate therapeutic approaches. Diseases that arise via a LOF mechanism are more amenable to be treated by conventional gene therapy, whereas DN and GOF mechanisms may require gene editing or targeting by small molecules. Moreover, pathogenic missense mutations that act via DN and GOF mechanisms are more difficult to identify than those that act via LOF using nearly all currently available variant effect predictors. Here, we introduce a tripartite statistical model made up of support vector machine binary classifiers trained to predict whether human protein-coding genes are likely to be associated with DN, GOF, or LOF molecular disease mechanisms. We test the utility of the predictions by examining biologically and clinically meaningful properties known to be associated with the mechanisms. Our results strongly support that the models are able to generalise on unseen data and offer insight into the functional attributes of proteins associated with different mechanisms. We hope that our predictions will serve as a springboard for researchers studying novel variants and those of uncertain clinical significance, guiding variant interpretation strategies and experimental characterisation. Predictions for the human UniProt reference proteome are available at https://osf.io/z4dcp/ .",
+  "authors": [
+    "Badonyi M",
+    "Marsh JA"
+  ],
+  "published_date": "2023-09-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.08.556798",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.08.556798.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR721484",
+    "raw_record": {
+      "id": "PPR721484",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR721484"
+        ]
+      },
+      "doi": "10.1101/2023.09.08.556798",
+      "title": "Proteome-scale prediction of molecular mechanisms underlying dominant genetic diseases",
+      "authorString": "Badonyi M, Marsh JA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Badonyi M",
+            "lastName": "Badonyi",
+            "firstName": "Mihaly",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8305-5618"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marsh JA",
+            "lastName": "Marsh",
+            "firstName": "Joseph",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4132-0628"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8305-5618"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4132-0628"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Many dominant genetic disorders result from protein-altering mutations, acting primarily through dominant-negative (DN), gain-of-function (GOF), and loss-of-function (LOF) mechanisms. Deciphering the mechanisms by which dominant diseases exert their effects is often experimentally challenging and resource intensive, but is essential for developing appropriate therapeutic approaches. Diseases that arise via a LOF mechanism are more amenable to be treated by conventional gene therapy, whereas DN and GOF mechanisms may require gene editing or targeting by small molecules. Moreover, pathogenic missense mutations that act via DN and GOF mechanisms are more difficult to identify than those that act via LOF using nearly all currently available variant effect predictors. Here, we introduce a tripartite statistical model made up of support vector machine binary classifiers trained to predict whether human protein-coding genes are likely to be associated with DN, GOF, or LOF molecular disease mechanisms. We test the utility of the predictions by examining biologically and clinically meaningful properties known to be associated with the mechanisms. Our results strongly support that the models are able to generalise on unseen data and offer insight into the functional attributes of proteins associated with different mechanisms. We hope that our predictions will serve as a springboard for researchers studying novel variants and those of uncertain clinical significance, guiding variant interpretation strategies and experimental characterisation. Predictions for the human UniProt reference proteome are available at  https://osf.io/z4dcp/ .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/08/2023.09.08.556798.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.09.08.556798"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR721484"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR721484&type=FILE&fileName=EMS187769-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39172982",
+            "reference": "PloS one. 2024 ;19(8):e0307312",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 4,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS187769",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-09-10",
+      "firstPublicationDate": "2023-09-08",
+      "firstIndexDate": "2023-09-10",
+      "fullTextReceivedDate": "2024-02-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

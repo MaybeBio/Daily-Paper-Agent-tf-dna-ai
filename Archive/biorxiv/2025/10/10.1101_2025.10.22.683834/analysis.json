@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.22.683834",
+  "title": "ProSiteHunter: A unified framework for sequence-based prediction of protein-nucleic acid and protein-protein binding sites",
+  "authors": "Dongliang Hou; Qihang Zhen; Zexin Lv; Xinyue Cui; Suhui Wang; Minghua Hou; Zhan Zhou; Xiaogen Zhou; Guijun Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-23",
+  "window": {
+    "start": "2025-10-20",
+    "end": "2025-10-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于蛋白质语言模型与多源特征融合的统一序列框架ProSiteHunter，预测蛋白-核酸及蛋白-蛋白结合位点，虽非聚焦TF-DNA特异性体系，但方法可迁移至TF-DNA结合位点预测，具有借鉴价值。",
+  "abstract": "Accurate prediction of protein binding sites is essential for elucidating protein function, understanding molecular interaction mechanisms, and facilitating drug design. However, existing sequence-based approaches are often designed for specific binding-site types and therefore lack generality, whereas structure-based methods typically rely on high-quality structural models, limiting their applicability. Here, we introduce ProSiteHunter, a unified sequence-based framework for protein binding-site prediction, which integrates a fine-tuned protein language model (SiteT5) with a multi-source feature-fusion network that incorporates evolutionary, geometric, and statistical features, while employing bidirectional semantics, local associations, and global dependencies for comprehensive binding-site characterization. The method was systematically evaluated on diverse binding sites prediction tasks, where ProSiteHunter achieved a 39.1% average improvement in PRAUC for protein-DNA/RNA/protein tasks and a 7.4% PRAUC enhancement on the particularly challenging antibody-antigen task over state-of-the-art methods. Moreover, ProSiteHunter is capable of identifying local flexible sites that complement AlphaFold3 predictions and improving the accuracy of antibody-antigen interaction prediction. These results highlight ProSiteHunter as an efficient and unified approach for accurate and robust prediction of diverse protein binding sites.",
+  "abstract_zh": "蛋白质结合位点的准确预测对于阐明蛋白质功能、理解分子相互作用机制以及促进药物设计至关重要。然而，现有的基于序列的方法通常针对特定结合位点类型设计，因此缺乏通用性，而基于结构的方法通常依赖高质量的结构模型，限制了其适用性。在此，我们介绍了ProSiteHunter，一个统一的基于序列的蛋白质结合位点预测框架，它整合了微调的蛋白质语言模型（SiteT5）与多源特征融合网络，该网络融合了进化、几何和统计特征，同时利用双向语义、局部关联和全局依赖进行全面的结合位点表征。该方法在多种结合位点预测任务上进行了系统评估，其中ProSiteHunter在蛋白质-DNA/RNA/蛋白质任务上实现了PRAUC平均提升39.1%，在特别具有挑战性的抗体-抗原任务上实现了PRAUC提升7.4%，优于现有最先进方法。此外，ProSiteHunter能够识别局部柔性位点，补充AlphaFold3的预测，并提高抗体-抗原相互作用预测的准确性。这些结果凸显了ProSiteHunter作为一种高效且统一的方法，能够准确且稳健地预测多种蛋白质结合位点。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.22.683834",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.22.683834",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.22.683834/index.html"
+}

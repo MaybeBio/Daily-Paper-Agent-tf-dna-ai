@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "41891880",
+    "doi": "10.1093/nar/gkag258",
+    "title": "Accurate prediction of cohesin and RNA Polymerase II-associated chromatin interactions using convolutional neural networks."
+  },
+  "content": {
+    "abstract": "The three-dimensional (3D) genome organization specifies how the distal regulatory elements in the linear genome interact with target genes to regulate transcription. Several experimental methods have been developed to study the 3D genome organization. However, these methods are, in general, expensive, technically challenging, and time-consuming. We present Convolutional Neural Networks-Chromatin Interaction Predictor (CNN-ChIPr), a machine learning method for predicting the relative strength of cohesin- and RNA Polymerase II (RNA Pol II)-associated chromatin interactions/loops using experimental ChIP-seq data and other public inputs that can be easily obtained without additional new experiments. To leverage the pattern-recognition capability of CNN, we formatted the multiple ChIP-seq data, defining the features of interaction anchor regions into two-dimensional (2D) grids. The results showed that CNN-ChIPr performs well in predicting cohesin- and RNA Pol II-associated chromatin interactions at the peak-level resolution. The predictions can also be used to reconstruct contact maps with high similarity to the maps constructed by the original data. In addition to cohesin loops and RNA Pol II loops, CNN-ChIPr can accurately predict Hi-C interactions as well. We demonstrate the utility of this approach by identifying chromatin loops, target genes, and downstream pathways associated with enhancers regulated by the binding of tissue-specific master transcription factors, androgen receptor (AR) and estrogen receptor (ER), in prostate cancer and breast cancer cells, respectively. Collectively, CNN-ChIPr complements experimental 3D genome mapping technologies and provides a powerful alternative in contexts where such assays are impractical or infeasible, such as clinical specimens or time-course studies.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Cohesins/metabolism",
+      "*RNA Polymerase II/metabolism",
+      "*Chromatin/metabolism",
+      "*Convolutional Neural Networks",
+      "*Gene Expression Regulation",
+      "Machine Learning",
+      "*Chromosome Mapping/methods",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Abbas, Ahmed",
+        "Chandratre, Khyati",
+        "Liu, Chengcheng",
+        "Zhang, Michael Q",
+        "Mani, Ram S"
+      ],
+      "short_names": [
+        "Abbas A",
+        "Chandratre K",
+        "Liu C",
+        "Zhang MQ",
+        "Mani RS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4486-5669",
+        "ORCID: 0000-0003-3698-3670",
+        "ORCID: 0000-0003-4771-2649",
+        "ORCID: 0000-0002-7022-6115",
+        "ORCID: 0000-0003-3552-7905"
+      ],
+      "affiliations": [
+        "Department of Pathology, UT Southwestern Medical Center, Dallas, TX 75390, United States.",
+        "Department of Biological Sciences, Center for Systems Biology, The University of Texas at Dallas, Richardson, TX 75080, United States.",
+        "Department of Biological Sciences, Center for Systems Biology, The University of Texas at Dallas, Richardson, TX 75080, United States.",
+        "Department of Biological Sciences, Center for Systems Biology, The University of Texas at Dallas, Richardson, TX 75080, United States.",
+        "Department of Pathology, UT Southwestern Medical Center, Dallas, TX 75390, United States.",
+        "Department of Urology, UT Southwestern Medical Center, Dallas, TX 75390, United States.",
+        "Harold C. Simmons Comprehensive Cancer Center, UT Southwestern Medical Center, Dallas, TX 75390, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Abbas, Ahmed",
+        "short_name": "Abbas A",
+        "identifiers": [
+          "0000-0002-4486-5669"
+        ],
+        "affiliations": [
+          "Department of Pathology, UT Southwestern Medical Center, Dallas, TX 75390, United States."
+        ]
+      },
+      {
+        "full_name": "Chandratre, Khyati",
+        "short_name": "Chandratre K",
+        "identifiers": [
+          "0000-0003-3698-3670"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Center for Systems Biology, The University of Texas at Dallas, Richardson, TX 75080, United States."
+        ]
+      },
+      {
+        "full_name": "Liu, Chengcheng",
+        "short_name": "Liu C",
+        "identifiers": [
+          "0000-0003-4771-2649"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Center for Systems Biology, The University of Texas at Dallas, Richardson, TX 75080, United States."
+        ]
+      },
+      {
+        "full_name": "Zhang, Michael Q",
+        "short_name": "Zhang MQ",
+        "identifiers": [
+          "0000-0002-7022-6115"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Center for Systems Biology, The University of Texas at Dallas, Richardson, TX 75080, United States."
+        ]
+      },
+      {
+        "full_name": "Mani, Ram S",
+        "short_name": "Mani RS",
+        "identifiers": [
+          "0000-0003-3552-7905"
+        ],
+        "affiliations": [
+          "Department of Pathology, UT Southwestern Medical Center, Dallas, TX 75390, United States.",
+          "Department of Urology, UT Southwestern Medical Center, Dallas, TX 75390, United States.",
+          "Harold C. Simmons Comprehensive Cancer Center, UT Southwestern Medical Center, Dallas, TX 75390, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Mar 19",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/27 17:37",
+    "fetched_at": "2026-10-01 17:02:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40829174",
+      "38671192",
+      "38538789",
+      "38217027",
+      "37578596",
+      "36624151",
+      "35832620",
+      "35551308",
+      "35420890",
+      "34399797",
+      "34306171",
+      "33780170",
+      "33454752",
+      "33184109",
+      "33046897",
+      "33046896",
+      "32728247",
+      "32343676",
+      "32213324",
+      "31804952",
+      "31740966",
+      "31273215",
+      "30869141",
+      "30864654",
+      "30737237",
+      "30202056",
+      "28855260",
+      "28358394",
+      "28056762",
+      "27886167",
+      "27643841",
+      "27625391",
+      "27141961",
+      "26771021",
+      "26686651",
+      "26686465",
+      "26616563",
+      "26438538",
+      "26052346",
+      "26017442",
+      "25497547",
+      "25448293",
+      "24347632",
+      "24213634",
+      "23586463",
+      "23582322",
+      "22955616",
+      "22495300",
+      "19890323",
+      "19815776",
+      "19451168",
+      "18798982",
+      "16199517"
+    ],
+    "similar": [
+      "41891880",
+      "38217027",
+      "20161818",
+      "25970635",
+      "32680543",
+      "32343676",
+      "41530636",
+      "42475469",
+      "37133976",
+      "25228660",
+      "31742318",
+      "26330747",
+      "35077535",
+      "21167036",
+      "32616013",
+      "36897969",
+      "42068378",
+      "32847102",
+      "40186170",
+      "39283464",
+      "31653198",
+      "40452075",
+      "38783706",
+      "24002784",
+      "34399797",
+      "37440599",
+      "42170760",
+      "31806706",
+      "23555293",
+      "38670416",
+      "36723807",
+      "30865881",
+      "20122241",
+      "30016502",
+      "38705393",
+      "24213634",
+      "23134707",
+      "40425856",
+      "40490791",
+      "35654035",
+      "27582050",
+      "38918438",
+      "41677071",
+      "31811132",
+      "36206320",
+      "26259101",
+      "37550699",
+      "34729306",
+      "29757144",
+      "26960733",
+      "33247104",
+      "38585764",
+      "40782793",
+      "29437966",
+      "38495565",
+      "38768423",
+      "33407087",
+      "21962715",
+      "35410163",
+      "23010778",
+      "40243368",
+      "22028663",
+      "32592681",
+      "36325618",
+      "23704192",
+      "30146161",
+      "37021559",
+      "35396274",
+      "22456606",
+      "42177279",
+      "39884837",
+      "19275938",
+      "23340844",
+      "20843783",
+      "21911605",
+      "34093998",
+      "7623847",
+      "37546906",
+      "40128797",
+      "40226920",
+      "37427784",
+      "40130876",
+      "32349780",
+      "27526722",
+      "42289051",
+      "25030914",
+      "36544209",
+      "39254997",
+      "41257569",
+      "41013693",
+      "22278832",
+      "28848320",
+      "22212979",
+      "34769020",
+      "42637758",
+      "33138675",
+      "26581180",
+      "34099014",
+      "28970965",
+      "22265404"
+    ],
+    "review": [
+      "41891880",
+      "39283464",
+      "42170760",
+      "19275938"
+    ],
+    "pmc": [
+      "13023042"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41891880/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag258",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

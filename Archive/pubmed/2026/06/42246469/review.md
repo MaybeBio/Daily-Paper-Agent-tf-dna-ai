@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions presented in the abstract; no methods, figures, tables, or full-text data were available for evaluation
+- **Shared manuscript claim summary** The abstract asserts that activating and deactivating mutations of PPARgamma operate through distinct molecular mechanisms, that deactivating variants act via dominant-negative effects including coactivator sequestration, impaired ligand recognition, AF-2 surface destabilization, and corepressor bias, and that activating mutations stabilize helix 12 and AF-2, enhance coactivator recruitment, and promote ligand-independent transcription. It further claims that molecular dynamics simulations demonstrate these variants alter conformational ensembles and that this understanding guides selective modulator design and mutation classification.
+- **Visible evidence base** Abstract text only; no experimental or computational data, no methodological details, no figures or tables, no statistical analyses
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, structural models, validation metrics, experimental corroboration, figure legends, and any quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible conceptual framework for understanding PPARgamma mutation effects, but it is written as a narrative review-style summary rather than a primary research report. No specific findings, quantitative data, or methodological innovations are described. The claims are general and largely established in the literature, and the abstract does not convey what new insight this work provides beyond existing knowledge. The scientific case cannot be assessed from the supplied material.
+- **Who would be interested in the results, and why** Researchers in nuclear receptor biology, structural biology, and metabolic disease genetics might find a systematic molecular analysis of PPARgamma mutations useful, particularly those interested in structure-function relationships, dominant-negative mechanisms, and therapeutic targeting of nuclear receptors. Clinicians and geneticists studying familial partial lipodystrophy and insulin resistance syndromes could also benefit from improved mutation classification.
+- **Major strengths** The abstract identifies a clinically relevant problem and connects molecular mechanisms to disease phenotypes. The distinction between activating and deactivating mutation classes is clearly articulated, and the potential translational relevance for selective modulator design is appropriately noted.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that molecular dynamics simulations demonstrate how activating and deactivating mutations reshape conformational ensembles and alter the equilibrium between inactive and active states.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No simulation data, system details, force fields, timescales, convergence criteria, or validation metrics are presented. The claim that simulations "demonstrate" these effects cannot be evaluated without any methodological or quantitative information.
+  - **Why it matters** The central scientific contribution appears to rest on computational evidence. Without access to simulation protocols, reproducibility checks, and statistical analyses, the reliability of the claimed conformational insights is unknown.
+  - **Resolution test** Provide the full methods section, simulation parameters, ensemble analyses, and validation against experimental structures or functional data. Show representative quantitative results that distinguish activating from deactivating mutations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty and contribution
+  - **Claim pointer** The abstract implies that this work provides new molecular insight into PPARgamma activator and deactivator mutations.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The described mechanisms, including coactivator sequestration, AF-2 destabilization, helix 12 stabilization, and ligand-independent activation, are well-established concepts in nuclear receptor biology. The abstract does not state what is new, what was previously unknown, or how this study advances beyond prior structural and computational work on PPARgamma mutations.
+  - **Why it matters** For a research article, the incremental contribution must be explicit. If the work is a review or perspective, that should be stated. As presented, the abstract reads as a summary of known principles rather than a report of new findings.
+  - **Resolution test** Clearly state the specific novel findings, hypotheses tested, or methodological advances. Provide a comparison with prior computational or structural studies on PPARgamma mutations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The abstract claims that understanding these molecular mechanisms helps classify mutations as dominant-negative or drug-rescuable and guides selective modulator design.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No data are presented that link specific mutations to classification outcomes or that demonstrate how the proposed mechanisms inform modulator design. The translational claim is asserted without supporting evidence.
+  - **Why it matters** This is a strong practical claim that requires experimental validation, such as functional assays, ligand binding studies, or cellular readouts. Without such evidence, the claim is speculative.
+  - **Resolution test** Provide experimental or computational data that directly test mutation classification or modulator response predictions. Show how the mechanistic insights translate into testable predictions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Scope and article type
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not indicate whether this is a primary research article, a computational study, or a review. The phrasing is consistent with a review-style summary.
+  - **Required correction** State the article type and the specific contribution of this work in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Mutation examples
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions disease-causing mutations but does not name any specific variants, their locations, or their functional consequences.
+  - **Required correction** Include representative mutation examples with structural or functional annotations to ground the discussion.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "demonstrated"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The word "demonstrated" implies strong evidence, but no data are shown. Softer language such as "suggested" or "indicated" would be more appropriate for an abstract without visible results.
+  - **Required correction** Adjust the language to match the level of evidence actually presented in the manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of any visible data, methods, or quantitative results means the core claims cannot be verified. The abstract does not establish a novel contribution or provide evidence for the mechanistic and translational assertions.
+- **Assessment against Nature-style criteria** Originality: not assessable from the abstract, which presents known concepts without stating new contributions. Scientific importance: the topic is relevant, but the abstract does not demonstrate why this specific study matters beyond existing literature. Interdisciplinary readership: the topic could appeal to structural biologists, computational chemists, and metabolic disease researchers, but the abstract does not convey findings that would engage a broad audience. Technical soundness: not assessable without methods or data. Readability for nonspecialists: the abstract is reasonably clear but uses field-specific terminology without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a conceptual framework rather than reporting verifiable findings. A full manuscript with methods, results, and validation would be required to assess whether the claims are supported.
+
+## Risk / unsupported claims
+- The claim that molecular dynamics simulations demonstrate conformational changes and altered equilibria is unsupported without simulation data or methods.
+- The claim that mechanistic understanding guides selective modulator design and mutation classification is unsupported without experimental or computational validation.
+- The general assertion that deactivating mutations act via dominant-negative mechanisms is presented as established fact but is not substantiated with specific data from this study.
+- The overall novelty of the work cannot be evaluated from the abstract alone.

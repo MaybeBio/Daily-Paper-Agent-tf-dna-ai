@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "41013727",
+    "doi": "10.1186/s40001-025-03142-w",
+    "title": "Integrated bioinformatics analysis unravels mitochondrial-immune crosstalk and infiltration dynamics in sepsis progression."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sepsis is a critical illness, and mitochondrial dysfunction is associated with its progression. However, the classification of mitochondrial-related differentially expressed genes (MitoDEGs) in sepsis and the immune infiltration characteristics have not been thoroughly investigated. This study aimed to explore the relevant content. METHODS: Gene expression data were obtained from the Gene Expression Omnibus (GEO), while mitochondrial-related genes were sourced from the MitoCarta3.0 database. We applied Weighted Gene Co-expression Network Analysis (WGCNA) to identify Sepsis-related MitoDEGs (Se-MitoDEGs), and utilized unsupervised clustering analysis to categorize sepsis samples into distinct clusters. Machine learning algorithms identified hub Se-MitoDEGs, and a validation set and a nomogram for sepsis diagnosis were established. The CIBERSORT algorithm was employed to investigate immune infiltration characteristics in sepsis and their association with hub Se-MitoDEGs. The expression levels of relevant genes were evaluated in peripheral blood samples from septic patients and normal controls through quantitative real-time reverse transcription polymerase chain reaction (qRT-PCR). Associated transcription factors, miRNAs, and drugs were constructed into a diagram via NetworkAnalyst and Comparative Toxicogenomics Database (CTD). RESULTS: 15 Se-MitoDEGs exhibited differential expression between septic and normal samples. Immune infiltration analysis demonstrated significant increases in neutrophils, activated mast cells, and M0 macrophages among septic patients compared to control subjects. We categorized sepsis samples into two clusters; most hub genes in cluster 2 (C2) were highly expressed, exhibiting low immune infiltration and immune score. Some differences were observed in the pathways between the two clusters. By utilizing machine learning techniques and the validation set, MSRB2, TSPO, and BLOC1S1 were identified, and a nomogram of the three genes exhibited a substantial area under the curve (AUC) of 0.886, and the AUC for the validation set was recorded at 0.866, highlighting the robustness of our predictive model. Survival analysis found that low expression of TSPO and high expression of MSRB2 in peripheral blood were negatively correlated with the 28-day survival rate of septic patients. qRT-PCR validation indicated that the expression levels of these three hub genes are consistent with our bioinformatics analysis results. Associated small molecules, including Estradiol, pirinixic acid, and Valproic acid, are potential therapeutic drugs for sepsis. CONCLUSION: By integrating bioinformatics with machine learning models, we identified three mitochondrial and immune-related biomarkers (MSRB2, TSPO, and BLOC1S1) with diagnostic value for sepsis. These biomarkers provide new insights into subtype stratification, immune infiltration characteristics, and targeted therapy in sepsis.",
+    "keywords": [
+      "Bioinformatics analysis",
+      "Immune infiltration",
+      "Mitochondrial-immune crosstalk",
+      "Sepsis"
+    ],
+    "mesh_terms": [
+      "Computational Biology/methods",
+      "*Mitochondrial Diseases/blood/genetics/immunology/pathology",
+      "*Sepsis/blood/genetics/immunology/mortality",
+      "Disease Progression",
+      "*Mitochondria/immunology/metabolism/pathology",
+      "*Gene Regulatory Networks/immunology",
+      "Gene Expression Profiling",
+      "Machine Learning",
+      "Survival Analysis",
+      "Survival Rate",
+      "Nomograms",
+      "Area Under Curve",
+      "Humans",
+      "Datasets as Topic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Meng, Fanjian",
+        "Zhong, Anyuan",
+        "Li, Ting",
+        "Yang, Yun",
+        "Chen, Chen",
+        "Huang, Yongkang",
+        "Zhou, Tong",
+        "Pei, Yongjian",
+        "Shi, Minhua"
+      ],
+      "short_names": [
+        "Meng F",
+        "Zhong A",
+        "Li T",
+        "Yang Y",
+        "Chen C",
+        "Huang Y",
+        "Zhou T",
+        "Pei Y",
+        "Shi M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedics, Suzhou Hospital of Integrated Traditional Chinese and Western Medicine, Suzhou, Jiangsu, China.",
+        "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Soochow University, 1055 SanXiang Road, Gusu District, Suzhou, 215004, Jiangsu, China.",
+        "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Soochow University, 1055 SanXiang Road, Gusu District, Suzhou, 215004, Jiangsu, China.",
+        "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Soochow University, 1055 SanXiang Road, Gusu District, Suzhou, 215004, Jiangsu, China.",
+        "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Soochow University, 1055 SanXiang Road, Gusu District, Suzhou, 215004, Jiangsu, China.",
+        "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Soochow University, 1055 SanXiang Road, Gusu District, Suzhou, 215004, Jiangsu, China.",
+        "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Soochow University, 1055 SanXiang Road, Gusu District, Suzhou, 215004, Jiangsu, China.",
+        "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Soochow University, 1055 SanXiang Road, Gusu District, Suzhou, 215004, Jiangsu, China. sdfeypyj@163.com.",
+        "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Soochow University, 1055 SanXiang Road, Gusu District, Suzhou, 215004, Jiangsu, China. shiminhuahxk@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Meng, Fanjian",
+        "short_name": "Meng F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Suzhou Hospital of Integrated Traditional Chinese and Western Medicine, Suzhou, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Anyuan",
+        "short_name": "Zhong A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Soochow University, 1055 SanXiang Road, Gusu District, Suzhou, 215004, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ting",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Soochow University, 1055 SanXiang Road, Gusu District, Suzhou, 215004, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yun",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Soochow University, 1055 SanXiang Road, Gusu District, Suzhou, 215004, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Chen",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Soochow University, 1055 SanXiang Road, Gusu District, Suzhou, 215004, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yongkang",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Soochow University, 1055 SanXiang Road, Gusu District, Suzhou, 215004, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Tong",
+        "short_name": "Zhou T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Soochow University, 1055 SanXiang Road, Gusu District, Suzhou, 215004, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Pei, Yongjian",
+        "short_name": "Pei Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Soochow University, 1055 SanXiang Road, Gusu District, Suzhou, 215004, Jiangsu, China. sdfeypyj@163.com."
+        ]
+      },
+      {
+        "full_name": "Shi, Minhua",
+        "short_name": "Shi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Soochow University, 1055 SanXiang Road, Gusu District, Suzhou, 215004, Jiangsu, China. shiminhuahxk@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2025 Sep 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Validation Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/27 06:33",
+    "fetched_at": "2026-10-01 02:39:46"
+  },
+  "links": {
+    "cites": [
+      "42509766"
+    ],
+    "refs": [
+      "40788639",
+      "40770761",
+      "40714016",
+      "40660214",
+      "40353923",
+      "39710370",
+      "39227925",
+      "39175881",
+      "38971458",
+      "38968960",
+      "38916095",
+      "38908539",
+      "38799559",
+      "38795391",
+      "38755528",
+      "38643190",
+      "38596676",
+      "38517482",
+      "38491514",
+      "38404283",
+      "38039825",
+      "37895006",
+      "37593782",
+      "37398680",
+      "37337301",
+      "37249456",
+      "36994647",
+      "36960274",
+      "36858655",
+      "36601058",
+      "36574032",
+      "36263048",
+      "36215787",
+      "36059483",
+      "36016936",
+      "35965153",
+      "35751589",
+      "35444254",
+      "34824200",
+      "34768767",
+      "34220338",
+      "33174596",
+      "32839410",
+      "32596378",
+      "32473386",
+      "31949883",
+      "31565151",
+      "31385383",
+      "31265853",
+      "31078523",
+      "30754087",
+      "30636495",
+      "30392071",
+      "30385779",
+      "30231496",
+      "29344893",
+      "29121281",
+      "28864056",
+      "28036233",
+      "27207943",
+      "26903338",
+      "26903336",
+      "26110490",
+      "25605792",
+      "22309213",
+      "21685083",
+      "21576180",
+      "20809400",
+      "19937997",
+      "19114008",
+      "18424444",
+      "17618940"
+    ],
+    "similar": [
+      "41013727",
+      "39609718",
+      "40496861",
+      "38774875",
+      "38291374",
+      "39265357",
+      "36726122",
+      "40129981",
+      "37434203",
+      "40274954",
+      "40768057",
+      "38690269",
+      "41479901",
+      "41305746",
+      "39586719",
+      "39775580",
+      "40055592",
+      "40830558",
+      "39026250",
+      "39263286",
+      "39348809",
+      "39139563",
+      "40997906",
+      "39695788",
+      "40808946",
+      "39026663",
+      "40836955",
+      "40319751",
+      "37115484",
+      "39975557",
+      "39789578",
+      "41246299",
+      "39512836",
+      "41254473",
+      "40350654",
+      "39920860",
+      "39142001",
+      "40821971",
+      "40966021",
+      "40425742",
+      "41127826",
+      "35844622",
+      "39697326",
+      "37359526",
+      "39709373",
+      "40453984",
+      "39735547",
+      "41340627",
+      "40274894",
+      "41052072",
+      "38370978",
+      "40068062",
+      "39188714",
+      "39559355",
+      "40704466",
+      "41146237",
+      "41013556",
+      "39845946",
+      "41300841",
+      "39026683",
+      "40849369",
+      "40500570",
+      "40898483",
+      "40093012",
+      "40313958",
+      "37822923",
+      "39069636",
+      "38912048",
+      "41204556",
+      "40406620",
+      "39377750",
+      "40591166",
+      "39029061",
+      "39396400",
+      "40510478",
+      "38863714",
+      "41080564",
+      "41424725",
+      "39475676",
+      "40969769",
+      "38987688",
+      "40362669",
+      "38868781",
+      "38899746",
+      "39544937",
+      "41094572",
+      "41107920",
+      "40119397",
+      "40340571",
+      "37398680",
+      "41432483",
+      "41424060",
+      "39749331",
+      "39763654",
+      "39403102",
+      "39375405",
+      "40140612",
+      "35787932",
+      "39671358",
+      "39953444"
+    ],
+    "review": [
+      "41013727"
+    ],
+    "pmc": [
+      "12465656"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-025-03142-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41013727/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1104",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

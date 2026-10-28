@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "41167420",
+    "doi": "10.1016/j.jare.2025.10.069",
+    "title": "Ginsenoside Rg3 inhibits melanoma progression by inducing ferroptosis via the p53/SLC7A11/GPX4 pathway."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Melanoma represents an aggressive cutaneous malignancy with limited treatment options. Ginsenoside Rg3, an active component extracted from the roots of Panax ginseng, has been extensively demonstrated to possess significant anti-tumor efficacy, showing promising application potential in the treatment of various malignancies. However, the role of Rg3 in melanoma treatment and its related mechanisms have not been reported in detail. Thus, exploring and elucidating reliable molecular mechanisms is critical. OBJECTIVES: This study aimed to investigate the therapeutic efficacy of ginsenoside Rg3 in melanoma and its underlying mechanisms. METHODS: This research investigated the mechanism of melanoma pathogenesis using a clinical cohort database and established a corresponding disease model. By integrating transcriptomic and metabolomic approaches, we systematically explored the intrinsic molecular mechanisms by which Rg3 regulated ferroptosis in melanoma. Then, immunohistochemistry (IHC), reverse transcription quantitative polymerase chain reaction (RT-qPCR), western blotting (WB), molecular docking (MD), and molecular dynamics simulation (MDS) were used for validation. RESULTS: The database analysis revealed that melanoma was associated with the ferroptosis pathway. In vitro experiments showed that Rg3 inhibited the proliferation of melanoma cells. The functional annotation and enrichment analysis of differentially expressed genes and metabolites based on animal transcriptome and metabolome experiments showed that Rg3 exerted therapeutic effects by regulating the glutathione metabolism pathway and ferroptosis pathway. The detection based on the reagent kit revealed significant changes in ferroptosis-related biomarkers. IHC, RT-qPCR, and WB analyses confirmed the expression patterns of ferroptosis-associated mRNAs and proteins. MD and MDS confirmed stable binding between Rg3 and p53, SLC7A11, GPX4, and FTH1 proteins. CONCLUSION: Rg3 induced melanoma ferroptosis via the p53/SLC7A11/GPX4 pathway, offering therapeutic potential for melanoma.",
+    "keywords": [
+      "Ferroptosis",
+      "Ginsenoside Rg3",
+      "Melanoma",
+      "p53/SLC7A11/GPX4"
+    ],
+    "mesh_terms": [
+      "*Ginsenosides/pharmacology",
+      "*Ferroptosis/drug effects",
+      "*Melanoma/drug therapy/metabolism/pathology/genetics",
+      "Animals",
+      "*Tumor Suppressor Protein p53/metabolism/genetics",
+      "Humans",
+      "Mice",
+      "Cell Line, Tumor",
+      "Cell Proliferation/drug effects",
+      "Signal Transduction/drug effects",
+      "Disease Progression",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Anting",
+        "Zhu, Shunyao",
+        "Yao, Xiaowen",
+        "Chen, Yusang",
+        "Yao, Jingjing",
+        "Shen, Mengdan",
+        "Shi, Senlin",
+        "Han, Xi",
+        "Zhang, Ting"
+      ],
+      "short_names": [
+        "Ma A",
+        "Zhu S",
+        "Yao X",
+        "Chen Y",
+        "Yao J",
+        "Shen M",
+        "Shi S",
+        "Han X",
+        "Zhang T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, 548 Binwen Road, Hangzhou, Zhejiang 310053, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, 548 Binwen Road, Hangzhou, Zhejiang 310053, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, 548 Binwen Road, Hangzhou, Zhejiang 310053, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, 548 Binwen Road, Hangzhou, Zhejiang 310053, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, 548 Binwen Road, Hangzhou, Zhejiang 310053, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, 548 Binwen Road, Hangzhou, Zhejiang 310053, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, 548 Binwen Road, Hangzhou, Zhejiang 310053, China.",
+        "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou 310053, China. Electronic address: 20241149@zcmu.edu.cn.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, 548 Binwen Road, Hangzhou, Zhejiang 310053, China. Electronic address: zhangting55@zcmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Anting",
+        "short_name": "Ma A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, 548 Binwen Road, Hangzhou, Zhejiang 310053, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Shunyao",
+        "short_name": "Zhu S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, 548 Binwen Road, Hangzhou, Zhejiang 310053, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Xiaowen",
+        "short_name": "Yao X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, 548 Binwen Road, Hangzhou, Zhejiang 310053, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yusang",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, 548 Binwen Road, Hangzhou, Zhejiang 310053, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Jingjing",
+        "short_name": "Yao J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, 548 Binwen Road, Hangzhou, Zhejiang 310053, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Mengdan",
+        "short_name": "Shen M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, 548 Binwen Road, Hangzhou, Zhejiang 310053, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Senlin",
+        "short_name": "Shi S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, 548 Binwen Road, Hangzhou, Zhejiang 310053, China."
+        ]
+      },
+      {
+        "full_name": "Han, Xi",
+        "short_name": "Han X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou 310053, China. Electronic address: 20241149@zcmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ting",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, 548 Binwen Road, Hangzhou, Zhejiang 310053, China. Electronic address: zhangting55@zcmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of advanced research"
+    ],
+    "journal_abbrev": [
+      "J Adv Res"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/31 00:29",
+    "fetched_at": "2026-10-01 05:03:58"
+  },
+  "links": {
+    "cites": [
+      "42376435",
+      "42180102",
+      "42136652",
+      "41750638",
+      "41599661"
+    ],
+    "refs": [
+      "40919139",
+      "40787624",
+      "40693376",
+      "40414584",
+      "40391780",
+      "40387609",
+      "40356178",
+      "40222167",
+      "40205726",
+      "39955826",
+      "39913118",
+      "39904712",
+      "39876991",
+      "39716999",
+      "39581704",
+      "39562548",
+      "39545407",
+      "39466543",
+      "39455097",
+      "39365866",
+      "39343306",
+      "38768811",
+      "38572751",
+      "38471712",
+      "38176269",
+      "38049916",
+      "38016474",
+      "37863004",
+      "37735472",
+      "37649598",
+      "37430140",
+      "37173039",
+      "36941015",
+      "36923926",
+      "36411664",
+      "36230575",
+      "36167294",
+      "35673569",
+      "35664063",
+      "35525504",
+      "34516843",
+      "33268902",
+      "33000412",
+      "32355263",
+      "28231544",
+      "26937234",
+      "26309394",
+      "8476254",
+      "528568"
+    ],
+    "similar": [
+      "41167420",
+      "40252583",
+      "38926825",
+      "41429385",
+      "41187650",
+      "39326813",
+      "41448369",
+      "38837315",
+      "42565568",
+      "41199365",
+      "41354015",
+      "25521755",
+      "31081060",
+      "40412057",
+      "38679154",
+      "39566382",
+      "40540898",
+      "41115564",
+      "40673298",
+      "31629252",
+      "41451920",
+      "40456202",
+      "41539091",
+      "42364854",
+      "42103085",
+      "42129454",
+      "41293954",
+      "41235254",
+      "42000005",
+      "41206901",
+      "39978273",
+      "41065914",
+      "39307744",
+      "39072683",
+      "42308762",
+      "40852892",
+      "39549544",
+      "41920257",
+      "41501793",
+      "40377003",
+      "39466543",
+      "40959275",
+      "41016294",
+      "39800242",
+      "21152855",
+      "41261300",
+      "38930897",
+      "40011884",
+      "40618168",
+      "39318043",
+      "42319734",
+      "26094873",
+      "42550316",
+      "38652227",
+      "39181279",
+      "39334380",
+      "41843361",
+      "40066086",
+      "40876907",
+      "38404269",
+      "40766765",
+      "29169725",
+      "41101075",
+      "40513923",
+      "40187002",
+      "41745458",
+      "41898564",
+      "41968638",
+      "41356603",
+      "42486819",
+      "41740333",
+      "41888600",
+      "35582998",
+      "41135271",
+      "41047052",
+      "41914830",
+      "40886473",
+      "37718459",
+      "35968603",
+      "38350242",
+      "40316154",
+      "41562315",
+      "41977217",
+      "25672851",
+      "41477983",
+      "31002353",
+      "39561883",
+      "42492799",
+      "39600281",
+      "37714424",
+      "39978746",
+      "41308710",
+      "40318300",
+      "41606605",
+      "40615101",
+      "42314910",
+      "37315642",
+      "41344272",
+      "41814763",
+      "40846041"
+    ],
+    "review": [
+      "41167420"
+    ],
+    "pmc": [
+      "13316401"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2090-1232(25)00864-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/melanoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Melanoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41167420/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAE-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-103",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

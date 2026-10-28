@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2020.12.30.424817",
+  "title": "Chromatin Interaction Neural Network (ChINN): A machine learning-based method for predicting chromatin interactions from DNA sequences",
+  "authors": "Fan Cao; Yu Zhang; Yichao Cai; Sambhavi Animesh; Ying Zhang; Semih Akincilar; Yan Ping Loh; Wee Joo Chng; Vinay Tergaonkar; Chee Keong Kwoh; Melissa J. Fullwood",
+  "journal": "bioRxiv",
+  "published_date": "2020-12-31",
+  "window": {
+    "start": "2020-12-28",
+    "end": "2021-01-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习预测开放染色质区间的染色质互作，虽涉及DNA序列与蛋白介导的互作，但非TF-DNA结合体系，方法可迁移但深度不足。",
+  "abstract": "Chromatin interactions play important roles in regulating gene expression. However, the availability of genome-wide chromatin interaction data is limited. Various computational methods have been developed to predict chromatin interactions. Most of these methods rely on large collections of ChIP-Seq/RNA-Seq/DNase-Seq datasets and predict only enhancer-promoter interactions. Some of the ‘state-of-the-art’ methods have poor experimental designs, leading to over-exaggerated performances and misleading conclusions. Here we developed a computational method, Chromatin Interaction Neural Network (ChINN), to predict chromatin interactions between open chromatin regions by using only DNA sequences of the interacting open chromatin regions. ChINN is able to predict CTCF-, RNA polymerase II- and HiC-associated chromatin interactions between open chromatin regions. ChINN also shows good across-sample performances and captures various sequence features that are predictive of chromatin interactions. To apply our results to clinical patient data, we applied CHINN to predict chromatin interactions in 6 chronic lymphocytic leukemia (CLL) patient samples and a cohort of open chromatin data from 84 CLL samples that was previously published. Our results demonstrated extensive heterogeneity in chromatin interactions in patient samples, and one of the sources of this heterogeneity were the different subtypes of CLL.",
+  "abstract_zh": "染色质相互作用在调控基因表达中发挥重要作用。然而，全基因组范围的染色质相互作用数据可用性有限。目前已开发多种计算方法来预测染色质相互作用。这些方法大多依赖于大量的ChIP-Seq/RNA-Seq/DNase-Seq数据集，并且仅预测增强子-启动子相互作用。一些“最先进”的方法存在实验设计不佳的问题，导致性能被过度夸大并产生误导性结论。在此，我们开发了一种计算方法，即染色质相互作用神经网络 (Chromatin Interaction Neural Network, ChINN)，仅利用相互作用的开放染色质区域的DNA序列来预测开放染色质区域之间的染色质相互作用。ChINN能够预测CTCF、RNA聚合酶II和HiC相关的开放染色质区域间的染色质相互作用。ChINN还表现出良好的跨样本性能，并捕获了多种可预测染色质相互作用的序列特征。为了将我们的结果应用于临床患者数据，我们将CHINN应用于预测6例慢性淋巴细胞白血病 (chronic lymphocytic leukemia, CLL) 患者样本中的染色质相互作用，以及一组先前发表的来自84例CLL样本的开放染色质数据。我们的结果表明，患者样本中的染色质相互作用存在广泛的异质性，而这种异质性的来源之一是CLL的不同亚型。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2020.12.30.424817",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2020.12.30.424817",
+  "paper_page_path": "papers/biorxiv/10.1101_2020.12.30.424817/index.html"
+}

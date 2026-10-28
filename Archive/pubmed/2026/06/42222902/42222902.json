@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "42222902",
+    "doi": "10.1111/cas.70435",
+    "title": "Organ-Specific Cancer-Associated Fibroblast Subtypes Across the Digestive System Linked to Cancer Hallmarks."
+  },
+  "content": {
+    "abstract": "Cancer-associated fibroblasts (CAFs) are major stromal components of the tumor microenvironment (TME) and play diverse roles in gastrointestinal (GI) cancer progression, immunity, and therapeutic resistance. However, the heterogeneity, tissue specificity, and clinical relevance of CAFs across GI cancers remain incompletely defined. We integrated 14 independent single-cell RNA-sequencing datasets comprising 239 GI adenocarcinoma samples to define the subtypes of CAFs. Machine learning-based deconvolution was applied to 18 bulk transcriptomic cohorts (3396 patients) to estimate CAF subtype abundance and assess prognostic associations by meta-analysis. Functional states, differentiation trajectories, cell-cell communication, and spatial organization were analyzed using gene-set enrichment, transcription factor activity inference, pseudotime modeling, ligand-receptor analysis, and spatial transcriptomics. We identified eight CAF subtypes with distinct transcriptional programs and organ-specific distributions. Two myofibroblastic CAF subtypes (myCAF1 and myCAF2) were consistently associated with poor prognosis, characterized by extracellular matrix remodeling, TGF-beta signaling, hypoxia adaptation, and close crosstalk with immunosuppressive macrophages, as well as tumor cells displaying epithelial-mesenchymal transition and hypoxia signatures. In contrast, inflammatory CAF (iCAF) 1 was associated with a favorable prognosis and increased infiltration of antitumor immune cells. Spatial transcriptomic analyses further revealed that distinct CAF subtypes preferentially occupied discrete spatial domains within the GI TME. Our study demonstrated that the functional state and spatial context of CAFs jointly affect tumor progression and outcomes in patients with GI cancers. myCAF-driven stromal niches promote immune suppression and poor prognosis, whereas a balanced inflammatory CAF program may support antitumor immunity.",
+    "keywords": [
+      "cancer-associated fibroblasts",
+      "gastrointestinal cancer",
+      "patient prognosis",
+      "single-cell RNA sequencing",
+      "spatial transcriptomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Cancer-Associated Fibroblasts/metabolism/pathology",
+      "Tumor Microenvironment/genetics",
+      "*Gastrointestinal Neoplasms/pathology/genetics",
+      "Prognosis",
+      "Gene Expression Regulation, Neoplastic",
+      "Spatial Transcriptomics",
+      "Gene Expression Profiling",
+      "Organ Specificity",
+      "Transcriptome",
+      "Epithelial-Mesenchymal Transition/genetics",
+      "*Adenocarcinoma/pathology/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Huaitao",
+        "Semba, Takashi",
+        "Yonemura, Atsuko",
+        "Naito, Hiroshi",
+        "Fu, Lingfeng",
+        "Tajiri, Takuya",
+        "Iwatsuki, Masaaki",
+        "Ishimoto, Takatsugu"
+      ],
+      "short_names": [
+        "Wang H",
+        "Semba T",
+        "Yonemura A",
+        "Naito H",
+        "Fu L",
+        "Tajiri T",
+        "Iwatsuki M",
+        "Ishimoto T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1852-1835"
+      ],
+      "affiliations": [
+        "Division of Carcinogenesis, The Cancer Institute, Japanese Foundation for Cancer Research, Tokyo, Japan.",
+        "Department of Gastroenterological Surgery, Graduate School of Medical Sciences, Kumamoto University, Kumamoto, Japan.",
+        "Department of General Surgery, Shengjing Hospital of China Medical University, Shenyang, China.",
+        "Division of Carcinogenesis, The Cancer Institute, Japanese Foundation for Cancer Research, Tokyo, Japan.",
+        "Division of Carcinogenesis, The Cancer Institute, Japanese Foundation for Cancer Research, Tokyo, Japan.",
+        "Division of Carcinogenesis, The Cancer Institute, Japanese Foundation for Cancer Research, Tokyo, Japan.",
+        "Division of Carcinogenesis, The Cancer Institute, Japanese Foundation for Cancer Research, Tokyo, Japan.",
+        "Division of Carcinogenesis, The Cancer Institute, Japanese Foundation for Cancer Research, Tokyo, Japan.",
+        "Department of Gastroenterological Surgery, Graduate School of Medical Sciences, Kumamoto University, Kumamoto, Japan.",
+        "Department of Gastroenterological Surgery, Graduate School of Medical Sciences, Kumamoto University, Kumamoto, Japan.",
+        "Division of Carcinogenesis, The Cancer Institute, Japanese Foundation for Cancer Research, Tokyo, Japan.",
+        "International Research Center of Medical Sciences, Kumamoto University, Kumamoto, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Huaitao",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Carcinogenesis, The Cancer Institute, Japanese Foundation for Cancer Research, Tokyo, Japan.",
+          "Department of Gastroenterological Surgery, Graduate School of Medical Sciences, Kumamoto University, Kumamoto, Japan.",
+          "Department of General Surgery, Shengjing Hospital of China Medical University, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Semba, Takashi",
+        "short_name": "Semba T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Carcinogenesis, The Cancer Institute, Japanese Foundation for Cancer Research, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Yonemura, Atsuko",
+        "short_name": "Yonemura A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Carcinogenesis, The Cancer Institute, Japanese Foundation for Cancer Research, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Naito, Hiroshi",
+        "short_name": "Naito H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Carcinogenesis, The Cancer Institute, Japanese Foundation for Cancer Research, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Fu, Lingfeng",
+        "short_name": "Fu L",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Carcinogenesis, The Cancer Institute, Japanese Foundation for Cancer Research, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Tajiri, Takuya",
+        "short_name": "Tajiri T",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Carcinogenesis, The Cancer Institute, Japanese Foundation for Cancer Research, Tokyo, Japan.",
+          "Department of Gastroenterological Surgery, Graduate School of Medical Sciences, Kumamoto University, Kumamoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Iwatsuki, Masaaki",
+        "short_name": "Iwatsuki M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterological Surgery, Graduate School of Medical Sciences, Kumamoto University, Kumamoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Ishimoto, Takatsugu",
+        "short_name": "Ishimoto T",
+        "identifiers": [
+          "0000-0003-1852-1835"
+        ],
+        "affiliations": [
+          "Division of Carcinogenesis, The Cancer Institute, Japanese Foundation for Cancer Research, Tokyo, Japan.",
+          "International Research Center of Medical Sciences, Kumamoto University, Kumamoto, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer science"
+    ],
+    "journal_abbrev": [
+      "Cancer Sci"
+    ],
+    "pub_date": "2026 Sep",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/01 12:39",
+    "fetched_at": "2026-10-01 22:27:17"
+  },
+  "links": {
+    "cites": [
+      "42512419"
+    ],
+    "refs": [
+      "41402556",
+      "41005303",
+      "40319897",
+      "40187844",
+      "40154487",
+      "40038297",
+      "39745128",
+      "39547224",
+      "39366372",
+      "39303725",
+      "39289562",
+      "39242191",
+      "38909621",
+      "38242124",
+      "38232734",
+      "37994565",
+      "37865092",
+      "37843125",
+      "36917948",
+      "36797231",
+      "36765128",
+      "36543251",
+      "36394263",
+      "36171287",
+      "35883004",
+      "35549406",
+      "35414659",
+      "35027767",
+      "34958892",
+      "34711971",
+      "33044028",
+      "32973222",
+      "32505533",
+      "31980749",
+      "31960376",
+      "31740819",
+      "31699795",
+      "31439548",
+      "31315034",
+      "31285419",
+      "31197017",
+      "30899105",
+      "30816343",
+      "30718830",
+      "29780381",
+      "28358376",
+      "28232471",
+      "28137302",
+      "27608497",
+      "27550820",
+      "27492255",
+      "27447449",
+      "26771021",
+      "26458763",
+      "24856586",
+      "22865778",
+      "22735568",
+      "20923568",
+      "18662538",
+      "18297062",
+      "17704799",
+      "16199517"
+    ],
+    "similar": [
+      "42222902",
+      "42206269",
+      "41987092",
+      "40616092",
+      "41942785",
+      "42143353",
+      "40303408",
+      "42512054",
+      "41951422",
+      "40102930",
+      "39966876",
+      "41592891",
+      "42639041",
+      "41019085",
+      "42144098",
+      "42359574",
+      "42625168",
+      "41107799",
+      "41521297",
+      "41129052",
+      "40688078",
+      "42304476",
+      "42653235",
+      "41948466",
+      "41921137",
+      "41663460",
+      "42140356",
+      "42100798",
+      "42471842",
+      "41194113",
+      "42136962",
+      "42589604",
+      "42319469",
+      "39703515",
+      "42051516",
+      "40657391",
+      "34140640",
+      "40520021",
+      "35794563",
+      "39755821",
+      "40589759",
+      "39120743",
+      "37010552",
+      "41735371",
+      "38115703",
+      "41205579",
+      "37729702",
+      "41716413",
+      "36102377",
+      "42289752",
+      "42495647",
+      "41208987",
+      "30575030",
+      "41544201",
+      "42251414",
+      "38148640",
+      "41496273",
+      "39934919",
+      "36032075",
+      "41249628",
+      "41595137",
+      "39404431",
+      "34238352",
+      "40307786",
+      "39238647",
+      "41953013",
+      "39138551",
+      "40721434",
+      "41807965",
+      "42119923",
+      "40788933",
+      "41121153",
+      "40855036",
+      "40068177",
+      "38702814",
+      "32496971",
+      "40050872",
+      "39611243",
+      "42572768",
+      "39759522",
+      "41005711",
+      "41991755",
+      "41436831",
+      "39707456",
+      "40443671",
+      "39712016",
+      "41656832",
+      "41094576",
+      "42045486",
+      "42214806",
+      "41246350",
+      "41502509",
+      "41463192",
+      "41498033",
+      "40241143",
+      "41035636",
+      "34976204",
+      "40154487",
+      "41526921",
+      "40438115"
+    ],
+    "review": [
+      "42222902",
+      "41129052"
+    ],
+    "pmc": [
+      "13394947"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42222902/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/cas.70435",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

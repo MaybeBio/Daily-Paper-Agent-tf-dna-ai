@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "40370590",
+    "doi": "10.3389/fpsyt.2025.1564380",
+    "title": "Identification and experimental validation of biomarkers associated with mitochondrial and programmed cell death in major depressive disorder."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Major depressive disorder (MDD) is associated with mitochondrial dysfunction and programmed cell death (PCD), though the underlying mechanisms remain unclear. This study aimed to investigate the molecular pathways involved in MDD using a transcriptomic analysis approach. METHODS: Transcriptomic data related to MDD were obtained from public databases. Differentially expressed genes (DEGs), PCD-related genes (PCDs), and mitochondrial-related genes (MitoGs) were analyzed to identify key gene sets: PCD-DEGs and MitoG-DEGs. Correlation analysis (|correlation coefficient| > 0.9, p < 0.05) was performed to select candidate genes. Protein-protein interaction (PPI) network analysis and intersection of four algorithms were used to identify key candidate genes. Machine learning and gene expression validation were employed, followed by reverse transcription-quantitative polymerase chain reaction (RT-qPCR) for further validation. A nomogram was developed to predict MDD probability based on biomarkers. Additional analyses included immune infiltration, regulatory networks, and drug predictions. RESULTS: CD63, IL17RA, and IL1R1 were identified as potential biomarkers, with significantly higher expression levels in the MDD cohort. These findings were validated by RT-qPCR. A nomogram based on these biomarkers demonstrated predictive capacity for MDD. Differential immune cell infiltration was observed, with significant differences in nine immune cell types, including activated T cells and eosinophils, between the MDD and control groups. ATF1 was identified as a common transcription factor for CD63, IL17RA, and IL1R1. Shared miRNAs for CD63 and IL1R1 included hsa-miR-490-3p and hsa-miR-125a-3p. Drug prediction analysis identified 50 potential drugs, including verteporfin, etynodiol, and histamine, targeting these biomarkers. CONCLUSION: CD63, IL17RA, and IL1R1 are key biomarkers for MDD, providing insights for diagnostic development and targeted therapies. The predictive nomogram and drug predictions offer valuable tools for MDD management.",
+    "keywords": [
+      "bioinformatics analysis",
+      "biomarkers",
+      "major depressive disorder",
+      "mitochondria",
+      "programmed cell death"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiong, Shengjie",
+        "Liao, Lixin",
+        "Chen, Meng",
+        "Gan, Qing"
+      ],
+      "short_names": [
+        "Xiong S",
+        "Liao L",
+        "Chen M",
+        "Gan Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Psychiatry, Chengdu Second People's Hospital, Chengdu, Sichuan, China.",
+        "Department of Psychiatry, Chengdu Second People's Hospital, Chengdu, Sichuan, China.",
+        "Department of Obstetrics and Gynecology, Chengdu Second People's Hospital, Chengdu, Sichuan, China.",
+        "Department of Emergency, Chengdu Second People's Hospital, Chengdu, Sichuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiong, Shengjie",
+        "short_name": "Xiong S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry, Chengdu Second People's Hospital, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Liao, Lixin",
+        "short_name": "Liao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry, Chengdu Second People's Hospital, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Meng",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Chengdu Second People's Hospital, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Gan, Qing",
+        "short_name": "Gan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, Chengdu Second People's Hospital, Chengdu, Sichuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in psychiatry"
+    ],
+    "journal_abbrev": [
+      "Front Psychiatry"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/15 06:33",
+    "fetched_at": "2026-09-30 17:46:18"
+  },
+  "links": {
+    "cites": [
+      "42399415",
+      "41954688",
+      "41884211",
+      "41694402"
+    ],
+    "refs": [
+      "39111114",
+      "38992850",
+      "38810305",
+      "38774875",
+      "38723677",
+      "38678964",
+      "38486020",
+      "38158140",
+      "37801903",
+      "37660092",
+      "37660060",
+      "37450339",
+      "37308476",
+      "37189442",
+      "36941398",
+      "36915111",
+      "36793719",
+      "36763263",
+      "36738999",
+      "36642481",
+      "36618352",
+      "36495895",
+      "36379122",
+      "36344162",
+      "36319817",
+      "36126781",
+      "36040559",
+      "35911274",
+      "35879288",
+      "35845045",
+      "35751589",
+      "35710773",
+      "35633815",
+      "35562803",
+      "35370402",
+      "35216520",
+      "34970173",
+      "34877938",
+      "34864868",
+      "34650203",
+      "34295268",
+      "34282141",
+      "34171401",
+      "34167174",
+      "34064233",
+      "33149752",
+      "32871743",
+      "32757120",
+      "32661111",
+      "32516539",
+      "32456504",
+      "32203159",
+      "32060884",
+      "31820273",
+      "31745238",
+      "31284394",
+      "30686944",
+      "30385537",
+      "30083112",
+      "29941796",
+      "29366909",
+      "28905187",
+      "28633757",
+      "27138824",
+      "25605792",
+      "24553004",
+      "24298141",
+      "23323831",
+      "22455463",
+      "19192119",
+      "19170395",
+      "6763263"
+    ],
+    "similar": [
+      "40370590",
+      "39062507",
+      "39419187",
+      "39130750",
+      "38608447",
+      "37528851",
+      "39713769",
+      "39976098",
+      "37098514",
+      "38199392",
+      "40253457",
+      "39281570",
+      "38245687",
+      "39916955",
+      "38851464",
+      "39726602",
+      "39284527",
+      "39744064",
+      "36353576",
+      "40374840",
+      "39501335",
+      "39697326",
+      "38754597",
+      "39634176",
+      "39828023",
+      "38874508",
+      "39839184",
+      "36994393",
+      "38291374",
+      "39953304",
+      "40124361",
+      "38755543",
+      "39080630",
+      "40151199",
+      "35401659",
+      "38355593",
+      "34414022",
+      "39385284",
+      "37061663",
+      "40286923",
+      "37418066",
+      "40233623",
+      "34536521",
+      "40374866",
+      "34434654",
+      "39265357",
+      "40297850",
+      "35812749",
+      "39920860",
+      "24479999",
+      "38987624",
+      "39512836",
+      "39656402",
+      "37520121",
+      "38285375",
+      "39028999",
+      "35178127",
+      "38268224",
+      "37600656",
+      "40300201",
+      "40226717",
+      "36993785",
+      "40340571",
+      "39875572",
+      "39629120",
+      "38044432",
+      "39048886",
+      "39544937",
+      "38370978",
+      "38259479",
+      "40375928",
+      "39754246",
+      "40313958",
+      "39964966",
+      "37956829",
+      "36003956",
+      "39238829",
+      "39791175",
+      "39375405",
+      "36341343",
+      "35390032",
+      "40166636",
+      "38218255",
+      "33407587",
+      "39779817",
+      "39351221",
+      "35468096",
+      "37378675",
+      "39697749",
+      "30390708",
+      "36823662",
+      "37205113",
+      "39142001",
+      "39647286",
+      "31275757",
+      "40207215",
+      "36291136",
+      "34955918",
+      "40108736",
+      "38601162"
+    ],
+    "review": [
+      "40370590"
+    ],
+    "pmc": [
+      "12075303"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40370590/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1281",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fpsyt.2025.1564380",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "identity": {
+    "pmid": "40081514",
+    "doi": "10.1016/j.jstrokecerebrovasdis.2025.108285",
+    "title": "Multiomics analysis demonstrated a strong correlation between lipid-mediated chronic kidney disease and stroke: Potential benefits of affected patient cohorts."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Patients with chronic kidney disease (CKD) exhibit a disproportionately elevated risk of stroke, frequently compounded by renal impairment. Therapeutic strategies for stroke based on Traditional Chinese Medicine's 'kidney-brain axis' theory demonstrate clinical efficacy, indicating that there may be a potential association between chronic kidney disease and stroke, which needs further exploration and verification. METHODS: In this study, databases such as GEO, NHANES, and GWAS were used to collect data related to CKD and stroke. GEO gene data enrichment analysis was used to explore possible mediating factors between CKD and stroke. NHANES clinical data were used to verify the GEO data analysis results. Mendelian randomization was used to confirm the causal relationship between CKD and stroke and verify the association effect of mediating factors in these two diseases. RESULTS: Cross-gene analysis and transcription factor analysis of GEO data revealed that lipid-related pathways may have a mediating effect on the relationship between CKD and stroke. Logistic regression analysis based on NHANES data revealed that changes in LDL-C, HDL-C, TC, and TG can affect the occurrence of stroke. Mendelian randomization analysis was used to determine the causal relationship between CKD and stroke and verified the mediating effects of lipid factors, such as LDL-C, HDL-C, TC, and TG, indicating that LDL-C, HDL-C, TC, and TG may be potential mediating factors for these two diseases. Our findings highlight the clinical relevance of lipid pathways in bridging CKD and stroke. By integrating predictive biomarkers and multi-level diagnostics, this study paves the way for AI-driven precision medicine in stroke prevention. Specifically, machine learning approaches could enhance risk stratification of high-risk CKD cohorts, enabling tailored interventions such as lipid-lowering therapies and personalized monitoring protocols. These strategies align with emerging paradigms in healthcare benefits and population-specific management. CONCLUSION: This study provides new insights into the interactive relationship between CKD and stroke and provides a scientific basis for the process of syndrome differentiation and the treatment of stroke under the guidance of the \"kidney-brain correlation\". Moreover, the influence of mediating factors related to lipid metabolism on the occurrence of these two diseases was investigated, which deepened researchers' understanding of the potential association mechanism between the two diseases.",
+    "keywords": [
+      "AI",
+      "Chronic kidney disease",
+      "Kidney-brain correlation",
+      "Lipids",
+      "Machine learning",
+      "Multiomics",
+      "Patient stratification",
+      "Predictive modeling",
+      "Stroke",
+      "Targeted prevention"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Renal Insufficiency, Chronic/genetics/diagnosis/epidemiology/blood/therapy",
+      "*Stroke/genetics/epidemiology/diagnosis/blood",
+      "Risk Factors",
+      "Mendelian Randomization Analysis",
+      "Risk Assessment",
+      "Biomarkers/blood",
+      "*Lipids/blood",
+      "Genetic Predisposition to Disease",
+      "Genome-Wide Association Study",
+      "Phenotype",
+      "Nutrition Surveys",
+      "Male",
+      "Middle Aged",
+      "*Dyslipidemias/blood/epidemiology/genetics/diagnosis",
+      "Female",
+      "Databases, Factual",
+      "Databases, Genetic",
+      "Aged",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yan-Song",
+        "Zhang, Jian-Hang",
+        "Han, Jia-Yue",
+        "Long, Yu-Yan",
+        "Liu, Yu-Chen",
+        "Mao, Kai-Ni",
+        "Feng, Yu-Jing",
+        "Song, Zhi-Guang",
+        "Peng, Si-Min",
+        "Tan, Shi-Min",
+        "Cai, Si-le",
+        "Yang, Jing-Yi",
+        "Lin, Li-Hua",
+        "Song, Wan-Ying",
+        "Li, Hua",
+        "Liu, Wang-Hua"
+      ],
+      "short_names": [
+        "Liu YS",
+        "Zhang JH",
+        "Han JY",
+        "Long YY",
+        "Liu YC",
+        "Mao KN",
+        "Feng YJ",
+        "Song ZG",
+        "Peng SM",
+        "Tan SM",
+        "Cai SL",
+        "Yang JY",
+        "Lin LH",
+        "Song WY",
+        "Li H",
+        "Liu WH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 3110537614@qq.com.",
+        "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 641384484@qq.com.",
+        "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: ch1oeisheroine@163.com.",
+        "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 1069815871@qq.com.",
+        "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 594818622@qq.com.",
+        "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 451032596@qq.com.",
+        "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 2818002303@qq.com.",
+        "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 320844619@qq.com.",
+        "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: Pengsim0224@163.com.",
+        "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 1761115988@qq.com.",
+        "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 2958459628@qq.com.",
+        "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: yangjingyi0118@163.com.",
+        "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 2997088481@qq.com.",
+        "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 645359662@qq.com.",
+        "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 003561@hnucm.edu.cn.",
+        "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 003439@hnucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yan-Song",
+        "short_name": "Liu YS",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 3110537614@qq.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jian-Hang",
+        "short_name": "Zhang JH",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 641384484@qq.com."
+        ]
+      },
+      {
+        "full_name": "Han, Jia-Yue",
+        "short_name": "Han JY",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: ch1oeisheroine@163.com."
+        ]
+      },
+      {
+        "full_name": "Long, Yu-Yan",
+        "short_name": "Long YY",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 1069815871@qq.com."
+        ]
+      },
+      {
+        "full_name": "Liu, Yu-Chen",
+        "short_name": "Liu YC",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 594818622@qq.com."
+        ]
+      },
+      {
+        "full_name": "Mao, Kai-Ni",
+        "short_name": "Mao KN",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 451032596@qq.com."
+        ]
+      },
+      {
+        "full_name": "Feng, Yu-Jing",
+        "short_name": "Feng YJ",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 2818002303@qq.com."
+        ]
+      },
+      {
+        "full_name": "Song, Zhi-Guang",
+        "short_name": "Song ZG",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 320844619@qq.com."
+        ]
+      },
+      {
+        "full_name": "Peng, Si-Min",
+        "short_name": "Peng SM",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: Pengsim0224@163.com."
+        ]
+      },
+      {
+        "full_name": "Tan, Shi-Min",
+        "short_name": "Tan SM",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 1761115988@qq.com."
+        ]
+      },
+      {
+        "full_name": "Cai, Si-le",
+        "short_name": "Cai SL",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 2958459628@qq.com."
+        ]
+      },
+      {
+        "full_name": "Yang, Jing-Yi",
+        "short_name": "Yang JY",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: yangjingyi0118@163.com."
+        ]
+      },
+      {
+        "full_name": "Lin, Li-Hua",
+        "short_name": "Lin LH",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 2997088481@qq.com."
+        ]
+      },
+      {
+        "full_name": "Song, Wan-Ying",
+        "short_name": "Song WY",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 645359662@qq.com."
+        ]
+      },
+      {
+        "full_name": "Li, Hua",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 003561@hnucm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Wang-Hua",
+        "short_name": "Liu WH",
+        "identifiers": [],
+        "affiliations": [
+          "Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Key Laboratory of TCM Heart and Lung Syndrome Differentiation & Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China; Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha 410208, Hunan, China. Electronic address: 003439@hnucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of stroke and cerebrovascular diseases : the official journal of National Stroke Association"
+    ],
+    "journal_abbrev": [
+      "J Stroke Cerebrovasc Dis"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/14 11:25",
+    "fetched_at": "2026-09-30 13:15:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40081514",
+      "32276134",
+      "28754456",
+      "39802042",
+      "33472594",
+      "39010723",
+      "36951426",
+      "38029611",
+      "33398604",
+      "37001235",
+      "37759214",
+      "39187213",
+      "39611306",
+      "31648883",
+      "39622665",
+      "39129920",
+      "39358768",
+      "39168961",
+      "38153603",
+      "32271842",
+      "29473759",
+      "38302118",
+      "25075881",
+      "38022507",
+      "29716870",
+      "39877840",
+      "38898508",
+      "39928765",
+      "39278771",
+      "34375910",
+      "38583266",
+      "26910273",
+      "39214262",
+      "31054556",
+      "38808419",
+      "38287361",
+      "38639330",
+      "27687604",
+      "38742978",
+      "38071623",
+      "25568296",
+      "23470818",
+      "38716757",
+      "39985880",
+      "39648198",
+      "33048272",
+      "39082753",
+      "40216966",
+      "37780623",
+      "31831577",
+      "30686529",
+      "37658368",
+      "26604773",
+      "25304295",
+      "37775316",
+      "31538278",
+      "38820493",
+      "38892221",
+      "39284843",
+      "39379957",
+      "34078102",
+      "39434152",
+      "39158561",
+      "25465166",
+      "32915777",
+      "25813695",
+      "25891691",
+      "39114294",
+      "27392909",
+      "29316564",
+      "38522953",
+      "26642713",
+      "28213390",
+      "32127339",
+      "39707186",
+      "23255852",
+      "40301494",
+      "38183343",
+      "39346628",
+      "39149121",
+      "37944108",
+      "23802885",
+      "39333727",
+      "39531896",
+      "32013600",
+      "30645594",
+      "29224024",
+      "37993362",
+      "28286957",
+      "39703074",
+      "39488238",
+      "40321038",
+      "40175481",
+      "27605724",
+      "24174878",
+      "38856016",
+      "39390683",
+      "40318100",
+      "40148470",
+      "39915833"
+    ],
+    "review": [
+      "40081514",
+      "36951426",
+      "39877840",
+      "26910273",
+      "31054556",
+      "23470818",
+      "37658368",
+      "25465166",
+      "29316564",
+      "38522953",
+      "24174878"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1052-3057(25)00064-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stroke"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3953",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1052-3057(25)00064-3",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

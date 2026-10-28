@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "41385176",
+    "doi": "10.1007/s13760-025-02965-y",
+    "title": "Network-based identification of regulatory hubs and therapeutic targets in multiple sclerosis: an integrated transcriptomic and molecular docking approach."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Multiple sclerosis (MS) is a chronic neurodegenerative disease marked by inflammation, demyelination, and neuronal loss. Despite research, the mechanisms remain unclear, requiring further investigation into pathways and therapeutic targets. METHODS: A bioinformatics-driven approach was employed to analyze gene expression data from the GEO database (GSE135511). Differentially expressed genes (DEGs) were identified and subjected to GO and KEGG enrichment analysis. A protein-protein interaction (PPI) network was constructed using STRING and Cytoscape with key hub genes detected via CytoHubba. Functional clustering was performed using ClusterONE and promoter motif analysis was conducted using MEME suite. Finally, DrugBank database was screened to identify potential drug-target interactions for hub proteins. Molecular docking was performed to evaluate binding affinities between identified drugs and target proteins. RESULTS: Functional enrichment analysis revealed involvement of oxidative phosphorylation, immune regulation, and neurodegenerative pathways in MS. The PPI network analysis identified SLC32A1, PVALB, GAD1, GAD2, SNAP25, NRXN1, CDC42 and CD44 as key hub proteins. Functional clustering highlighted distinct biological modules related to mitochondrial metabolism, immunity, and cytoskeletal remodeling. Promoter motif analysis identified transcription factor binding sites regulating neuronal survival and apoptosis. Drug-target interaction analysis, followed by molecular docking using PyRx, demonstrated strong binding affinities between hub proteins and endogenous or approved compounds: NRXN1 with calcium citrate (-7.4 kcal/mol), GAD1 with pyridoxal phosphate (-6.7 kcal/mol), CD44 with hyaluronic acid (-6.8 kcal/mol). These findings provide new insights into pivotal molecular mechanisms and druggable targets within MS pathology. CONCLUSION: This study presents a molecular landscape of MS, integrating gene expression, pathway enrichment, regulatory analysis, and pharmacotherapy strategies. The findings reveal novel MS pathogenesis insights and identify promising therapeutic targets for clinical validation.",
+    "keywords": [
+      "Dasatinib",
+      "Multiple sclerosis (MS)",
+      "Protein-protein interaction network",
+      "Venetoclax"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Molecular Docking Simulation/methods",
+      "*Multiple Sclerosis/genetics/metabolism/drug therapy",
+      "*Protein Interaction Maps",
+      "*Transcriptome",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Abidi, Pouria",
+        "Ebrahimi, Sepideh",
+        "Mirtooni, Saeedeh Sadat",
+        "Pasdar, Alireza",
+        "Amerizadeh, Forouzan"
+      ],
+      "short_names": [
+        "Abidi P",
+        "Ebrahimi S",
+        "Mirtooni SS",
+        "Pasdar A",
+        "Amerizadeh F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Education Development Center, Student Committee of Medical Education Development, Mashhad University of Medical Sciences, Mashhad, Iran.",
+        "Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran.",
+        "Department of Clinical Biochemistry, Shiraz University of Medical Sciences, Shiraz, Iran.",
+        "Department of Neurology, Mashhad University of Medical Sciences, Mashhad, Iran.",
+        "Bioinformatics Research Centre, Mashhad University of Medical Sciences, Mashhad, Iran.",
+        "Department of Neurology, Mashhad University of Medical Sciences, Mashhad, Iran. amerizadehf951@gmail.com.",
+        "Department of Internal Medicine, Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran. amerizadehf951@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Abidi, Pouria",
+        "short_name": "Abidi P",
+        "identifiers": [],
+        "affiliations": [
+          "Education Development Center, Student Committee of Medical Education Development, Mashhad University of Medical Sciences, Mashhad, Iran.",
+          "Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Ebrahimi, Sepideh",
+        "short_name": "Ebrahimi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Biochemistry, Shiraz University of Medical Sciences, Shiraz, Iran."
+        ]
+      },
+      {
+        "full_name": "Mirtooni, Saeedeh Sadat",
+        "short_name": "Mirtooni SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Mashhad University of Medical Sciences, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Pasdar, Alireza",
+        "short_name": "Pasdar A",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Research Centre, Mashhad University of Medical Sciences, Mashhad, Iran."
+        ]
+      },
+      {
+        "full_name": "Amerizadeh, Forouzan",
+        "short_name": "Amerizadeh F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Mashhad University of Medical Sciences, Mashhad, Iran. amerizadehf951@gmail.com.",
+          "Department of Internal Medicine, Faculty of Medicine, Mashhad University of Medical Sciences, Mashhad, Iran. amerizadehf951@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta neurologica Belgica"
+    ],
+    "journal_abbrev": [
+      "Acta Neurol Belg"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/12 17:54",
+    "fetched_at": "2026-10-01 08:28:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40277064",
+      "39975460",
+      "39803807",
+      "39708806",
+      "39607707",
+      "39494361",
+      "39444703",
+      "38994794",
+      "38893032",
+      "37642541",
+      "37400550",
+      "37298310",
+      "36891684",
+      "36765396",
+      "36675155",
+      "36463454",
+      "35998819",
+      "35948371",
+      "35812314",
+      "35427431",
+      "35334234",
+      "35305721",
+      "35282162",
+      "34867701",
+      "34649027",
+      "34575917",
+      "34570758",
+      "34455470",
+      "34341986",
+      "33754376",
+      "33441452",
+      "33154941",
+      "27883331",
+      "24951638",
+      "24853053",
+      "19458158",
+      "18703006",
+      "15531362",
+      "9078433"
+    ],
+    "similar": [
+      "41385176",
+      "41511918",
+      "41275377",
+      "40406126",
+      "42278407",
+      "41288681",
+      "41005317",
+      "41492010",
+      "40859027",
+      "40977739",
+      "41326554",
+      "41963573",
+      "41562054",
+      "37287284",
+      "40676786",
+      "42053674",
+      "39210294",
+      "39855613",
+      "41150817",
+      "41648862",
+      "37556937",
+      "40926543",
+      "38062833",
+      "34746302",
+      "40574839",
+      "41599736",
+      "41253465",
+      "41251871",
+      "39251712",
+      "41316541",
+      "41418349",
+      "39118438",
+      "34553293",
+      "41703488",
+      "41029129",
+      "39780215",
+      "41935502",
+      "39125368",
+      "38783288",
+      "41130090",
+      "41909133",
+      "34218797",
+      "41009659",
+      "41009970",
+      "41456064",
+      "40216809",
+      "39650656",
+      "31987036",
+      "40993792",
+      "40289127",
+      "42348043",
+      "39911278",
+      "40117797",
+      "40013962",
+      "40615101",
+      "41694764",
+      "39923611",
+      "41630303",
+      "41191606",
+      "33622336",
+      "40312983",
+      "41044520",
+      "40821971",
+      "41533020",
+      "40922365",
+      "39184354",
+      "36104591",
+      "40184012",
+      "38524085",
+      "40843941",
+      "40496861",
+      "41293954",
+      "40108295",
+      "41785251",
+      "40317014",
+      "39434198",
+      "42109727",
+      "39323640",
+      "38776853",
+      "41442003",
+      "41863100",
+      "41330962",
+      "37063926",
+      "42006143",
+      "41318403",
+      "40916281",
+      "39251231",
+      "40543694",
+      "42289108",
+      "41444522",
+      "42345426",
+      "37784117",
+      "41196851",
+      "41342434",
+      "41300749",
+      "39893753",
+      "38319987",
+      "41754795",
+      "41142807",
+      "40241169"
+    ],
+    "review": [
+      "41385176"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/multiplesclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Multiple Sclerosis"
+      },
+      {
+        "url": "https://doi.org/10.1007/s13760-025-02965-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-668",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

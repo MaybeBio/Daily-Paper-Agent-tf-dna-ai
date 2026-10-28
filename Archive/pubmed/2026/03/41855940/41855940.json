@@ -1,0 +1,265 @@
+{
+  "identity": {
+    "pmid": "41855940",
+    "doi": "10.1016/j.bioelechem.2026.109262",
+    "title": "Multicellular tumour spheroids exposure to pulsed electric field: A combined experimental and mathematical modelling study highlighting temporal dynamics of DAMP release and accelerated regrowth at intermediate field intensities."
+  },
+  "content": {
+    "abstract": "Electroporation is increasingly used as a percutaneous ablation technique for tumours located near vital structures. Although effective, tumour regrowth may still occur. At the same time, in vitro studies on cell monolayers have shown that electroporation can trigger immunogenic cell death (ICD) through the release of damage-associated molecular patterns (DAMPs). These molecules can stimulate the immune system and could counteract tumour regrowth. To fully exploit electroporation, two key questions must be addressed: (1) what dynamics drive tumour regrowth, and (2) how ICD unfolds in space and time within three-dimensional cellular structures, which better mimic in vivo conditions than 2D cultures. Here, we combine in vitro experiments with a hybrid individual-based/continuous computational model to explore tumour spheroid regrowth and ICD potential under different pulse intensities. Experiments quantify spheroid viability, growth rate, and the release of ATP and HMGB1. In parallel, the hybrid model predicts the dynamics of proliferative, quiescent, and necrotic cells. Both approaches show that cell death and DAMP release scale with pulse intensity. The model, validated against experimental data, further highlights the dual role of quiescent cells: some die and free space and resources, while others survive and resume proliferation. Together, these findings demonstrate how spheroid fate depends on pulse strength and emphasize the importance of accounting for quiescent cells when designing electroporation-based therapies.",
+    "keywords": [
+      "Digital twin",
+      "Immunogenic cell death",
+      "Individual-based models",
+      "Irreversible electroporation",
+      "Multicellular spheroid",
+      "Numerical simulations"
+    ],
+    "mesh_terms": [
+      "*Spheroids, Cellular/pathology/metabolism",
+      "Humans",
+      "*Models, Biological",
+      "*Electroporation",
+      "*Electricity",
+      "HMGB1 Protein/metabolism",
+      "Cell Survival",
+      "Cell Proliferation",
+      "Cell Line, Tumor",
+      "Adenosine Triphosphate/metabolism",
+      "*Neoplasms/pathology",
+      "Electroporation Therapies",
+      "Immunogenic Cell Death",
+      "Time Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Leschiera, E",
+        "Mattei, N",
+        "Rols, M-P",
+        "Golzio, M",
+        "Kolosnjaj-Tabi, J",
+        "Poignard, C"
+      ],
+      "short_names": [
+        "Leschiera E",
+        "Mattei N",
+        "Rols MP",
+        "Golzio M",
+        "Kolosnjaj-Tabi J",
+        "Poignard C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "De Vinci Higher Education, De Vinci Research Center, Paris, France. Electronic address: emma.leschiera@devinci.fr.",
+        "Institut de Pharmacologie et de Biologie Structurale, Universite de Toulouse, CNRS, UPS, 31077 Toulouse, France.",
+        "Institut de Pharmacologie et de Biologie Structurale, Universite de Toulouse, CNRS, UPS, 31077 Toulouse, France.",
+        "Institut de Pharmacologie et de Biologie Structurale, Universite de Toulouse, CNRS, UPS, 31077 Toulouse, France. Electronic address: muriel.golzio@ipbs.fr.",
+        "Institut de Pharmacologie et de Biologie Structurale, Universite de Toulouse, CNRS, UPS, 31077 Toulouse, France. Electronic address: jelena.kolosnjaj-tabi@ipbs.fr.",
+        "AIMOKA: Inria, Assistance Publique-Hopitaux de Paris, Universite Sorbonne Paris Nord, F-35042 Rennes, France. Electronic address: clair.poignard@inria.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Leschiera, E",
+        "short_name": "Leschiera E",
+        "identifiers": [],
+        "affiliations": [
+          "De Vinci Higher Education, De Vinci Research Center, Paris, France. Electronic address: emma.leschiera@devinci.fr."
+        ]
+      },
+      {
+        "full_name": "Mattei, N",
+        "short_name": "Mattei N",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Pharmacologie et de Biologie Structurale, Université de Toulouse, CNRS, UPS, 31077 Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Rols, M-P",
+        "short_name": "Rols MP",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Pharmacologie et de Biologie Structurale, Université de Toulouse, CNRS, UPS, 31077 Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Golzio, M",
+        "short_name": "Golzio M",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Pharmacologie et de Biologie Structurale, Université de Toulouse, CNRS, UPS, 31077 Toulouse, France. Electronic address: muriel.golzio@ipbs.fr."
+        ]
+      },
+      {
+        "full_name": "Kolosnjaj-Tabi, J",
+        "short_name": "Kolosnjaj-Tabi J",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Pharmacologie et de Biologie Structurale, Université de Toulouse, CNRS, UPS, 31077 Toulouse, France. Electronic address: jelena.kolosnjaj-tabi@ipbs.fr."
+        ]
+      },
+      {
+        "full_name": "Poignard, C",
+        "short_name": "Poignard C",
+        "identifiers": [],
+        "affiliations": [
+          "AIMOKA: Inria, Assistance Publique-Hôpitaux de Paris, Université Sorbonne Paris Nord, F-35042 Rennes, France. Electronic address: clair.poignard@inria.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioelectrochemistry (Amsterdam, Netherlands)"
+    ],
+    "journal_abbrev": [
+      "Bioelectrochemistry"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/20 00:59",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41855940",
+      "40398060",
+      "32726295",
+      "32810174",
+      "41709194",
+      "40112181",
+      "41294621",
+      "32015396",
+      "31215708",
+      "23912807",
+      "37376425",
+      "37238597",
+      "32456685",
+      "16807955",
+      "16650438",
+      "38091169",
+      "33743088",
+      "30145131",
+      "38682206",
+      "12140258",
+      "26633834",
+      "28618188",
+      "20514411",
+      "40835706",
+      "39384844",
+      "34020398",
+      "37834054",
+      "40356923",
+      "20514446",
+      "23388834",
+      "23519620",
+      "22155133",
+      "31185009",
+      "9614346",
+      "41968135",
+      "42139809",
+      "35740554",
+      "19324279",
+      "12120870",
+      "16224119",
+      "28877221",
+      "33504012",
+      "25853661",
+      "36634128",
+      "39368564",
+      "42244292",
+      "40971515",
+      "11276525",
+      "26456100",
+      "23852373",
+      "22682985",
+      "39740820",
+      "17372784",
+      "37022450",
+      "30356233",
+      "35382573",
+      "41641047",
+      "15065736",
+      "27851950",
+      "23433433",
+      "29694357",
+      "37841022",
+      "35475509",
+      "24731594",
+      "22974970",
+      "15501506",
+      "28135769",
+      "22363483",
+      "29488054",
+      "37834447",
+      "40474517",
+      "2192799",
+      "33424829",
+      "39331094",
+      "40037431",
+      "39011040",
+      "29741547",
+      "28742810",
+      "32469486",
+      "16199495",
+      "27325267",
+      "36302879",
+      "31009705",
+      "28674780",
+      "27733696",
+      "29775683",
+      "35075254",
+      "36814723",
+      "20187951",
+      "42304527",
+      "37704904",
+      "16052217",
+      "41571063",
+      "29143077",
+      "15516830",
+      "34842141",
+      "36114339",
+      "40079788",
+      "3997287",
+      "31383287"
+    ],
+    "review": [
+      "41855940",
+      "9614346",
+      "33504012",
+      "2192799",
+      "27325267"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1567-5394(26)00048-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

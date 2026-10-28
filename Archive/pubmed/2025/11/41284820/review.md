@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use two p53 Y220C stabilizers with near-identical scaffolds but over 60-fold difference in activity as a model system. Through microsecond-scale molecular dynamics simulations and residue interaction network analysis, they propose a multilayered allosteric rescue mechanism involving dynamic pocket engagement, hydrophobic core reconstruction, and intramolecular signal reactivation, which restores long-range cooperative networks and DNA-binding interfaces. They argue this moves beyond binding-affinity explanations and establishes a foundation for rational stabilizer design targeting conformationally unstable transcription factors.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, validation data, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation setup and convergence criteria, force field parameters, compound structures, activity assay details, network analysis methodology, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially significant hypothesis regarding allosteric regulation of mutant p53 by small-molecule stabilizers. The choice of a scaffold-matched pair with large activity difference is a sound strategy for isolating mechanistic determinants. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the simulations, the robustness of the network analysis, or the validity of the proposed mechanism. The claims are plausible but currently not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, allosteric regulation, and cancer biology, particularly those working on mutant p53 reactivation or targeting transcription factors traditionally considered undruggable. The proposed network-level framework could also interest method developers in molecular dynamics and residue interaction network analysis.
+- **Major strengths** The use of a near-identical scaffold pair with a 60-fold activity difference is a well-designed comparative approach that can isolate efficacy determinants. The proposed multilayered mechanism, integrating pocket engagement, hydrophobic core reconstruction, and signal reactivation, is conceptually appealing and potentially generalizable. The emphasis on network-level conformational regulation rather than simple binding affinity is a valuable perspective.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "microsecond-scale molecular dynamics simulations and residue interaction network analysis" reveal the proposed mechanism
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no details on simulation length, number of replicas, force field, water model, temperature/pressure coupling, or convergence criteria. Without this information, the reliability of microsecond-scale simulations cannot be assessed. Similarly, the residue interaction network methodology is not described, including how edges are defined, how allosteric pathways are computed, and how statistical significance is established.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation setup and sampling quality. Insufficient sampling or inappropriate parameters could produce artifactual network changes. The central claim of allosteric rewiring depends entirely on the robustness of these computational methods.
+  - **Resolution test** Provide full simulation details, convergence metrics (e.g., RMSD stabilization, principal component overlap), replica information, and a validated network analysis protocol with appropriate statistical testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The more active compound "restores long-range cooperative networks and DNA-binding interfaces"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims restoration of DNA-binding interfaces but provides no quantitative measure of this restoration. No free energy calculations, binding assays, or structural comparisons are mentioned. The link between simulated network changes and functional DNA-binding restoration is asserted without direct evidence.
+  - **Why it matters** The claim that the compound restores function, not just structure, is a strong statement with therapeutic implications. Without evidence connecting simulated allosteric changes to DNA-binding competence, the functional significance remains speculative.
+  - **Resolution test** Provide quantitative metrics for DNA-binding interface stability or dynamics, ideally supported by experimental validation (e.g., DNA-binding assays, cellular activity data) or at minimum by robust free energy calculations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "This work establishes a mechanistic foundation for rational stabilizer design" and "offers broader implications for targeting conformationally unstable transcription factors"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The study examines only two compounds in one mutant context. The abstract does not indicate whether the proposed mechanism was tested on additional stabilizers, other p53 mutants, or different transcription factors. The generalizability claims extend well beyond the presented evidence.
+  - **Why it matters** Overgeneralization from a single case pair could mislead future drug design efforts. The framework may be specific to Y220C or to this particular scaffold class.
+  - **Resolution test** Include validation on additional compounds or mutants, or temper the generalizability claims to match the evidence scope.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** "multilayered allosteric rescue mechanism"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The three layers (dynamic pocket engagement, hydrophobic core reconstruction, intramolecular signal reactivation) are listed but not defined or distinguished. It is unclear whether these are independent or sequential events.
+  - **Required correction** Briefly define each layer and indicate their temporal or causal relationship.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** "over 60-fold difference in activity"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The activity metric is not specified (e.g., IC50, EC50, binding affinity). The assay type and conditions are absent.
+  - **Required correction** Specify the activity measure and assay used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "undruggable"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term is used without qualification. Given that p53 Y220C already has known stabilizers, the "undruggable" characterization may be overstated.
+  - **Required correction** Qualify the term or replace with a more precise description of the challenges involved.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The simulation methodology and the functional restoration claim require substantial additional evidence before the proposed mechanism can be considered established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The network-level allosteric rescue framework is a fresh perspective on mutant p53 stabilization, moving beyond conventional binding-affinity models. This is a conceptually original contribution.
+  - Scientific importance: If validated, the work could inform rational design of p53 reactivators and potentially extend to other unstable transcription factors. The importance is high but contingent on evidence quality.
+  - Interdisciplinary readership: The topic bridges computational chemistry, structural biology, and cancer therapeutics, which could attract a broad audience. However, the abstract is written in a specialized manner that may limit accessibility.
+  - Technical soundness: Not assessable from the abstract. The absence of methodological detail precludes evaluation of simulation quality, network analysis validity, or statistical rigor.
+  - Readability for nonspecialists: The abstract is dense with jargon and lacks context for readers outside computational biophysics. The mechanism description is abstract and would benefit from clearer framing.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the study design is promising, but the abstract alone does not provide sufficient technical detail or functional validation to support the strong claims made. Supportive if the full manuscript addresses the blocking concerns regarding simulation methodology and DNA-binding restoration evidence.
+
+## Risk / unsupported claims
+- The claim that the more active compound "restores long-range cooperative networks and DNA-binding interfaces" is unsupported without quantitative data or experimental validation.
+- The assertion that the work "establishes a mechanistic foundation for rational stabilizer design" is premature given the limited compound set and lack of prospective validation.
+- The generalizability claim to "conformationally unstable transcription factors" is unsupported by the evidence described.
+- The "multilayered allosteric rescue mechanism" is presented as a finding but is not defined with sufficient specificity to be evaluated.
+- The "over 60-fold difference in activity" is reported without specifying the activity metric, making the claim non-quantitative in its current form.

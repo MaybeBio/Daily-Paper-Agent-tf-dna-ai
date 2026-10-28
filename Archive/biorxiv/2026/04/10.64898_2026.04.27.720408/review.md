@@ -1,0 +1,112 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, methods, figure legends not provided separately)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the supplied text. No supplementary figures or tables were available for inspection beyond those referenced in the text.
+- **Shared manuscript claim summary** The authors describe a deep learning pipeline combining RFdiffusion3-based structure generation with AlphaFold3-based off-target screening to design sequence-specific DNA binding proteins. They report specific binders for 7 of 15 DNA targets, with success rates approximately 100-fold higher than previous de novo efforts, and characterize binding specificity through variant competition assays and HT-SELEX.
+- **Visible evidence base** Main text figures referenced (Fig. 1a-d, Fig. 2a-g, Fig. 3, Fig. 4a-c), supplementary figures referenced (Fig. S1-S21), methods section, data availability statement. No actual figure images, numerical data tables, or supplementary files were provided for direct inspection.
+- **Missing materials affecting confidence** All figure images, supplementary figures, numerical datasets, sequence information, and experimental raw data. The manuscript text alone does not permit independent verification of the reported success rates, binding affinities, or specificity measurements.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially significant advance in de novo DNA-binding protein design, addressing a longstanding challenge in the field. The combination of RFdiffusion3 with explicit off-target screening via AlphaFold3 is conceptually sound and represents a logical extension of recent progress in generative protein design. The reported success rates, if reproducible, would constitute a meaningful improvement over prior work. However, the provided text alone is insufficient to fully evaluate the robustness of the claims. Key concerns include the limited number of targets with successful designs (7 of 15), the absence of structural validation data, the lack of quantitative specificity metrics, and the unclear relationship between in silico filtering criteria and experimental outcomes. The manuscript would benefit from clearer presentation of the experimental workflow, more detailed reporting of negative results, and explicit discussion of the limitations of the current approach.
+- **Who would be interested in the results, and why** Researchers in protein design and engineering, particularly those working on DNA-binding proteins, synthetic biology, and gene regulation. The work is also relevant to computational biologists developing generative models for biomolecular interactions and to experimentalists seeking programmable DNA-binding tools for applications in genome engineering, transcriptional control, and synthetic gene circuits. The methodological advances in combining generative structure prediction with specificity screening may interest the broader deep learning for biology community.
+- **Major strengths** The work addresses a well-recognized and important challenge in de novo protein design. The methodological approach of combining RFdiffusion3 with explicit off-target screening is conceptually innovative and builds logically on prior advances. The inclusion of multiple experimental validation methods (flow cytometry, variant competition assays, HT-SELEX) provides complementary evidence for binding and specificity. The reported improvement in success rates over previous approaches is substantial and, if confirmed, represents meaningful progress. The authors also demonstrate awareness of the tradeoff between specificity filtering and protein folding/expression, which is an important practical consideration.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims "specific binders for 7 targets" out of 15 tested, with "a ~100-fold improvement in success rates over previous approaches."
+  - **Evidence pointer** Main text Fig. 2b-c, Fig. 3, Fig. 4; location not provided for specific numerical data
+  - **Concern** The central claim of successful design for 7 of 15 targets is presented without sufficient quantitative detail. The text reports success rates ranging from 1/96 to 13/96 for specific targets, but does not provide the complete dataset for all 15 targets, including the 8 targets for which no specific binders were identified. The criteria for classifying a design as "specific" are described qualitatively (normalized signal higher for on-target than off-targets) but no threshold or statistical test is specified. The comparison to "previous approaches" cites a single prior study (reference 12) without providing the quantitative basis for the claimed 100-fold improvement.
+  - **Why it matters** The primary advance claimed is the success rate of the design pipeline. Without complete reporting of both positive and negative results, and without clearly defined specificity criteria, the reader cannot assess whether the improvement is real, how robust it is across targets, or what factors contribute to success versus failure. This is essential for evaluating the practical utility of the method and for guiding future improvements.
+  - **Resolution test** Provide a complete table of all 15 targets with the number of designs tested, the number classified as binders, the number classified as specific, and the quantitative metrics used for classification. Specify the statistical criteria for calling a design "specific" (e.g., fold-change threshold, p-value). Provide the success rate from reference 12 using the same classification criteria to substantiate the 100-fold improvement claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "the minimum AFminPAE among protein-DNA residue pairs recapitulated, to some extent, sequence selectivity of native transcription factor-DNA target complexes" and that designs were selected based on ΔminPAE.
+  - **Evidence pointer** Main text Fig. S3, Fig. S4; location not provided
+  - **Concern** The validation of ΔminPAE as a specificity metric is described only briefly. The text states that AFminPAE "recapitulated, to some extent" the selectivity of native TF-DNA complexes, but the extent of this recapitulation is not quantified. The correlation between ΔminPAE and experimentally measured specificity is not directly demonstrated. Later in the text, the authors note that "AFminPAE is indicative of variant selectivity but we found no clear signal," which appears to contradict the use of ΔminPAE as the primary specificity filter. The relationship between the in silico metric and experimental outcomes is therefore unclear.
+  - **Why it matters** The specificity block of the pipeline relies entirely on ΔminPAE for design selection. If this metric does not reliably predict experimental specificity, the reported success rates may not be attributable to the specificity filtering step, and the methodological advance claimed by the authors would be undermined. The apparent inconsistency between the use of ΔminPAE for selection and the later statement that it does not predict variant selectivity needs to be resolved.
+  - **Resolution test** Provide quantitative data showing the correlation between ΔminPAE values and experimental specificity measurements (e.g., variant competition assay results) for a representative set of designs. Clarify whether ΔminPAE is used as a binary filter or a ranking metric, and how the threshold was chosen. Address the apparent contradiction regarding the predictive value of AFminPAE.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that "the combined protocol yielded specific designs at a rate 100 times higher than in our previous de novo DNA binder design efforts" and that "the success rate of obtaining specific designs is nearly two orders of magnitude higher than in previous de novo DNA binder design efforts."
+  - **Evidence pointer** Main text Discussion; location not provided
+  - **Concern** The comparison to previous work is made without sufficient detail. The prior study (reference 12) is cited, but the specific success rate from that work is not stated. The comparison appears to be between the specificity block (which includes explicit specificity filtering) and the previous approach, but the binder block alone yielded a success rate of 0.46%, which is not directly compared to the previous work. The basis for the 100-fold improvement claim is therefore unclear.
+  - **Why it matters** The magnitude of improvement over prior work is a key selling point of the manuscript. If the comparison is not apples-to-apples (e.g., different targets, different specificity criteria, different experimental assays), the claim may be misleading. A clear and fair comparison is essential for positioning this work within the field.
+  - **Resolution test** State the success rate from reference 12 using the same criteria applied in this work. Clarify whether the comparison is between the full pipeline (binder block + specificity block) or the binder block alone. Provide the success rates for all conditions in a comparable format.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript describes "explicit screening against off-target interactions using AlphaFold3" and states that designs were filtered based on ΔminPAE computed against "six core target DNA sequences (and ten additional target DNA sequences if the on-target for a design was in the additional target set)."
+  - **Evidence pointer** Main text Methods section "De novo design pipeline of DNA-binding proteins"; location not provided
+  - **Concern** The off-target screening procedure is described only at a high level. The text does not specify how many off-target sequences were used for each design, how the off-target set was selected, whether the off-target sequences were matched for GC content or other properties, or how the ΔminPAE threshold was determined. The computational cost of the all-by-all screening is not discussed. The relationship between the number of off-targets screened and the resulting specificity is not addressed.
+  - **Why it matters** The specificity filtering is a central component of the claimed advance. Without understanding the details of the off-target screening, the reader cannot assess whether the approach is scalable, whether the off-target set is representative, or whether the filtering criteria are appropriate. This also affects the generalizability of the method to new targets.
+  - **Resolution test** Provide details on the off-target sequence selection process, the number of off-targets used per design, the computational cost of the screening step, and the sensitivity of the results to the ΔminPAE threshold. Discuss how the off-target set was chosen to be representative of potential non-specific binding sites.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript states that "the designs are completely unrelated to those of known proteins" and that "the structures are globally very different from those of native DNA binding proteins."
+  - **Evidence pointer** Main text Fig. S10, Fig. S11; location not provided
+  - **Concern** The claim of novelty is based on sequence and structural comparisons that are not described in sufficient detail. The text does not specify the sequence identity threshold used, the database searched, the number of known proteins compared, or the statistical significance of the structural dissimilarity. The median TM-align score of ~0.5 is stated to be at the "cutoff for fold level structural similarity," but the distribution of scores and the comparison set are not described.
+  - **Why it matters** The novelty of the designed proteins is an important claim, particularly for the potential intellectual property and practical applications. Without clear criteria for "unrelated" and "globally different," the claim is difficult to evaluate. The structural comparison is also relevant to the question of whether the designs adopt stable, well-folded structures.
+  - **Resolution test** Provide the sequence identity distribution against known proteins, the database and search parameters used, and the statistical significance of the structural comparisons. Clarify the comparison set for the TM-align analysis and provide the full distribution of scores.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "sequence selective DNA binding proteins" without defining what "selective" means in this context. The distinction between binding affinity and sequence specificity is not made clear.
+  - **Required correction** Define "sequence selective" in the abstract, e.g., "proteins that bind a target DNA sequence with higher affinity than non-target sequences."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "De novo design pipeline of DNA-binding proteins"
+  - **Evidence pointer** Methods, first paragraph
+  - **Issue** The description of the binder block mentions "numerous hydrogen bond counts" as a filtering criterion, but no quantitative threshold is provided.
+  - **Required correction** Specify the minimum number of hydrogen bonds required for a design to pass the filter, or state that this criterion was not used as a hard threshold.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Main text, Experimental characterization section
+  - **Evidence pointer** Main text, paragraph 2
+  - **Issue** The text states "we identified a total of 42 specific binders for 5 out of the 6 core targets" from the binder block, and later "we identified specific binders for 4 out of 6 core targets" from the specificity block. The relationship between these two sets of results is not entirely clear, particularly whether the specificity block designs are a subset of the binder block designs or independently generated.
+  - **Required correction** Clarify the relationship between binder block and specificity block designs. Are the specificity block designs derived from the binder block designs through resampling, or are they independently generated?
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Main text, Experimental characterization section
+  - **Evidence pointer** Main text, paragraph 3
+  - **Issue** The text states that "the binding rate ranged from ~1% to ~19% across the four targets while specificity rate ranged from ~1% to ~14%." The relationship between binding rate and specificity rate is not explained, and it is unclear whether these are independent measurements or derived from the same data.
+  - **Required correction** Define binding rate and specificity rate explicitly, and explain how they are calculated from the experimental data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "HT-SELEX"
+  - **Evidence pointer** Methods, HT-SELEX paragraph
+  - **Issue** The HT-SELEX procedure is described briefly, but the number of selection rounds, the sequencing depth, and the bioinformatics pipeline for motif identification are not specified.
+  - **Required correction** Provide details on the number of HT-SELEX rounds, sequencing depth, and the specific tools and parameters used for motif calling.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Main text, Discussion section
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The statement "the observed decrease in expression with increasing stringency of specificity selection" is presented without supporting data. It is unclear whether this refers to protein expression in yeast, E. coli, or both.
+  - **Required correction** Specify the expression system and provide the quantitative data supporting this observation, or clearly state that this is a qualitative observation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (incomplete reporting of success rates and specificity criteria), R1-M2 (unvalidated and potentially contradictory use of ΔminPAE as a specificity filter), R1-M3 (unclear basis for the claimed 100-fold improvement over prior work). These issues must be resolved with quantitative data before the central claims of the manuscript can be accepted.
+- **Assessment against Nature-style criteria** Originality: The work is original in its specific combination of RFdiffusion3 with explicit off-target screening for DNA-binding protein design. The concept of using generative diffusion for DNA-binding proteins is not entirely new, but the explicit specificity filtering step represents a novel contribution. Scientific importance: The ability to design sequence-specific DNA-binding proteins has broad implications for synthetic biology, gene therapy, and basic research. If the reported success rates are reproducible, this would be an important advance. However, the incomplete reporting of results currently limits the assessment of importance. Interdisciplinary readership: The work bridges computational protein design, deep learning, and experimental molecular biology. The topic is of interest to a broad readership, but the manuscript currently assumes significant background knowledge in all three areas. Technical soundness: The computational pipeline is described in reasonable detail, but the validation of the specificity filtering step is insufficient. The experimental methods are standard, but the quantitative results are not fully reported. Readability for nonspecialists: The manuscript is written in a style accessible to researchers in protein design and computational biology, but would be challenging for readers outside these fields. The abstract is clear, but the main text would benefit from additional context for the experimental methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important problem and presents a conceptually promising approach. However, the central claims of improved success rates and effective specificity filtering cannot be fully evaluated from the provided text. The authors should provide complete quantitative data for all targets, clarify the validation of ΔminPAE as a specificity metric, and substantiate the comparison to prior work. If these concerns are addressed with additional data, the manuscript would represent a significant contribution to the field.
+
+## Risk / unsupported claims
+- The claim of "~100-fold improvement in success rates over previous approaches" is not substantiated with quantitative data from the prior study.
+- The claim that ΔminPAE "recapitulated, to some extent, sequence selectivity of native transcription factor-DNA target complexes" is not quantified.
+- The statement that "AFminPAE is broadly predictive of information content" is presented without supporting data.
+- The claim that designs are "completely unrelated to those of known proteins" is not supported with specific sequence or structural comparison data.
+- The observation of "decreased expression with increasing stringency of specificity selection" is not supported with quantitative data.
+- The reported success rates for individual targets (ranging from 1/96 to 13/96) cannot be verified without the complete dataset for all 15 targets.
+- The claim that the approach enables "programmable gene regulation, targeted genome manipulation, and the creation of synthetic regulatory systems" is speculative and not directly demonstrated in this work.

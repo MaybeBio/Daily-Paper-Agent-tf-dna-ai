@@ -1,0 +1,112 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and conclusions
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims relative to presented evidence, and clarity of presentation
+- **Shared manuscript claim summary** The authors use microsecond-scale MD simulations, MMGBSA binding free energy calculations, PCA, FEL analysis, and correlated motion analysis to compare structural and energetic properties of the RXRα-PPARγ heterodimer with and without bound DNA, concluding that DNA binding alters correlated motions, conformational mobility, and binding affinities, with PPARγ playing a greater regulatory role.
+- **Visible evidence base** Main text figures (Figures 1-8), supplementary figure references (Figures S1-S5), tables (Tables 1, S1-S4), and methodological descriptions in Section 4
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; no trajectory validation metrics (e.g., convergence checks beyond RMSD); no error estimates for MMGBSA values beyond standard deviations; no raw data or input files; no force field parameter validation details for ligands
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study of the RXRα-PPARγ heterodimer with and without DNA, using state-of-the-art microsecond MD simulations. The work addresses a relevant question regarding allosteric communication in nuclear receptor heterodimers. However, several technical concerns regarding simulation setup, analysis methodology, and interpretation of results limit the strength of the conclusions. The study is potentially valuable but requires substantial revision to establish the claims made.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, nuclear receptor biology, and drug discovery would be interested. The study provides insights into how DNA binding affects heterodimer dynamics and ligand binding, which is relevant for understanding PPARγ-RXRα signaling in metabolic diseases and for structure-based drug design of PPARγ modulators.
+- **Major strengths** 
+  1. Use of microsecond-scale simulations (3 × 1 µs per system) represents a significant improvement over typical nanosecond simulations for this system
+  2. Comprehensive analysis approach combining multiple computational methods (MMGBSA, PCA, FEL, correlated motions)
+  3. Direct comparison of DNA-bound and DNA-free states provides insight into allosteric communication
+  4. Per-residue decomposition offers mechanistic detail at the residue level
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "DNA binding alters correlated motions and conformational mobility within RXRα–PPARγ system that impact the dimerization and the binding affinity on both receptors"
+  - **Evidence pointer** Section 2.10, Figure 8
+  - **Concern** The correlated motion analysis is presented qualitatively without statistical significance testing or quantitative comparison between the two systems. The authors state differences in correlation maps but do not provide a quantitative metric to support these differences. Additionally, the analysis excludes DNA from the correlation calculation (stated in Section 4.3), which may bias the interpretation of DNA-mediated effects.
+  - **Why it matters** The central claim of the paper relies on differences in correlated motions between the two systems. Without quantitative comparison or statistical validation, these differences could arise from sampling noise or analysis artifacts rather than genuine biological differences.
+  - **Resolution test** Provide quantitative comparison of correlation matrices (e.g., difference maps with significance thresholds, or comparison of correlation coefficients distributions) and include DNA in the analysis or justify its exclusion.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the affinity of 9CR in the RXRα-PPARγ-DNA system is higher in the RXRα-PPARγ system" based on MMGBSA calculations
+  - **Evidence pointer** Section 2.6, Table 1
+  - **Concern** The MMGBSA calculations use a single trajectory approach (implicit in the methods description) and report values without convergence assessment. The difference in 9CR binding affinity between systems is stated but the magnitude, error bars, and statistical significance are not clearly presented. MMGBSA is known to be sensitive to the choice of dielectric constant, entropy contributions (not calculated here), and trajectory length.
+  - **Why it matters** The conclusion that DNA binding increases 9CR affinity is a key finding. If this difference is within the error of the method, the conclusion is not supported.
+  - **Resolution test** Report the actual ΔG values with standard errors, perform statistical testing (e.g., bootstrap or block averaging), assess convergence of the MMGBSA values over time, and discuss the limitations of the approach for comparing different systems.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "DNA binding by the RXRα-PPARγ system contributes to decrease the affinity between both receptors"
+  - **Evidence pointer** Section 2.7, Table 1
+  - **Concern** The protein-protein binding free energy calculation methodology is not described in sufficient detail. It is unclear whether the calculation properly accounts for the conformational changes induced by DNA binding, and whether the comparison between systems is valid given that the protein-protein interface may be affected by the presence of DNA in the ternary complex.
+  - **Why it matters** This is a central conclusion about the effect of DNA on heterodimer stability. If the calculation is not properly designed to isolate the protein-protein interaction energy, the conclusion may be an artifact of the methodology.
+  - **Resolution test** Provide detailed methodology for the protein-protein MMGBSA calculation, including how the interface was defined, whether conformational ensembles were matched, and whether the results are robust to methodological choices.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim to have performed "triplicate microsecond MD simulations" for both systems
+  - **Evidence pointer** Section 4.2
+  - **Concern** The manuscript states that three independent simulations were started from the same minimized geometry with different initial velocities. This approach samples different trajectories but does not address potential bias from the initial structure. No information is provided about whether the three replicates converge to similar ensembles, and the analysis appears to concatenate all replicates into a single trajectory.
+  - **Why it matters** For a study claiming to explore conformational ensembles, it is critical to demonstrate that the sampling is converged and that the three replicates are consistent. Without this, the conclusions about conformational differences may reflect incomplete sampling.
+  - **Resolution test** Show per-replicate analysis (e.g., RMSD, MMGBSA values, PCA projections for each replicate separately) and demonstrate convergence of the concatenated trajectory.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "PPARγ has a greater role in regulation of the free and bound DNA state"
+  - **Evidence pointer** Sections 2.10, 3, 5
+  - **Concern** This conclusion is based on the observation that correlated motions between DBD-hinge-LBD are only observed for PPARγ. However, the biological significance of this observation is not established. The authors do not connect this finding to functional outcomes or experimental data beyond citing previous work.
+  - **Why it matters** The claim of PPARγ's greater regulatory role is presented as a key insight, but the evidence is indirect and the functional implications are not explored.
+  - **Resolution test** Provide additional analysis linking the correlated motions to functional regions (e.g., ligand binding site, coactivator binding site) and discuss how these motions might affect receptor function, or temper the conclusion to match the evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3.1
+  - **Evidence pointer** Figure 2A, 2C, 2E
+  - **Issue** The description of ligand interactions for RGZ in the RXRα-PPARγ system is incomplete. The text states that the first populated conformer shows a hydrogen bond with Y473, but does not clearly describe the interactions in the second and third conformers for this system.
+  - **Required correction** Provide complete descriptions of ligand interactions for all three conformers in both systems, or clearly state which conformers are being described.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4.1
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript states that missing residues were modeled using Modeller but does not specify which residues were missing or the validation of the modeled regions.
+  - **Required correction** Specify the modeled regions and provide validation metrics (e.g., Ramachandran statistics for modeled regions, comparison with known structures).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.9
+  - **Evidence pointer** Figure 6
+  - **Issue** The PCA results are described qualitatively. The percentage of variance explained by PC1 and PC2 is given, but the biological interpretation of the principal components is not clearly explained.
+  - **Required correction** Provide clearer interpretation of what the principal components represent in structural terms and how they relate to the functional differences between systems.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 4.2
+  - **Evidence pointer** Location not provided
+  - **Issue** The simulation protocol describes a multi-step relaxation procedure but does not provide specific parameters for the Berendsen barostat (e.g., pressure coupling constant) or the weak-coupling temperature algorithm (e.g., coupling time constant).
+  - **Required correction** Provide complete simulation parameters to ensure reproducibility.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Table S2
+  - **Issue** The protein-protein interaction analysis is described as showing "more protein-protein interactions" for the RXRα-PPARγ system, but the criteria for defining an interaction are not specified.
+  - **Required correction** Define the interaction criteria (e.g., distance cutoff, contact duration) and provide quantitative comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (correlated motion analysis lacks quantitative comparison), R1-M2 (MMGBSA values lack statistical rigor and convergence assessment), R1-M3 (protein-protein MMGBSA methodology insufficiently detailed)
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The application of microsecond simulations to this specific system is novel, but the overall approach (MD + MMGBSA + PCA + FEL + correlated motions) is standard in the field.
+  - **Scientific importance** Moderate. The study addresses a relevant question about allosteric communication in nuclear receptor heterodimers, but the findings are largely confirmatory of previous work and do not provide transformative new insights.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to computational biophysicists and nuclear receptor biologists. The presentation is technical and assumes significant background knowledge.
+  - **Technical soundness** Questionable. Several methodological concerns (see Major Concerns) need to be addressed to establish the validity of the conclusions.
+  - **Readability for nonspecialists** Poor. The manuscript uses technical jargon without adequate explanation and does not provide sufficient context for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and uses appropriate state-of-the-art methods, but the technical concerns regarding analysis methodology, statistical rigor, and convergence assessment must be resolved before the conclusions can be considered supported. The authors should also improve the presentation to make the work accessible to a broader readership.
+
+## Risk / unsupported claims
+- The claim that DNA binding "increases the ligand affinity at the RXRα binding site" is not fully supported due to lack of statistical significance testing and convergence assessment of MMGBSA values
+- The claim that "PPARγ has a greater role in regulation of the free and bound DNA state" is based on indirect evidence from correlated motion analysis and is not quantitatively supported
+- The statement that "DNA binding reduces the conformational entropy" is inferred from PCA/FEL analysis but not directly measured
+- The claim that the H2'-H3 loop of PPARγ exhibits different motions (sliding vs. flapping) between systems is based on visual inspection of trajectories and lacks quantitative characterization
+- The assertion that "thermostable conformations persist in both systems" is not clearly defined or quantified

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33950192",
+  "title": "A self-attention model for inferring cooperativity between regulatory features.",
+  "authors": "Ullah, Fahad; Ben-Hur, Asa",
+  "journal": "Nucleic acids research",
+  "published_date": "2021-05-06",
+  "window": {
+    "start": "2021-05-03",
+    "end": "2021-05-09"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于自注意力与卷积的SATORI模型，从序列中推断调控元件（TF-TF）间的协同互作，虽未直接建模TF-DNA三维结合，但聚焦TF调控互作且方法可迁移至TF-DNA结合位点预测与互作机制研究。",
+  "abstract": "Deep learning has demonstrated its predictive power in modeling complex biological phenomena such as gene expression. The value of these models hinges not only on their accuracy, but also on the ability to extract biologically relevant information from the trained models. While there has been much recent work on developing feature attribution methods that discover the most important features for a given sequence, inferring cooperativity between regulatory elements, which is the hallmark of phenomena such as gene expression, remains an open problem. We present SATORI, a Self-ATtentiOn based model to detect Regulatory element Interactions. Our approach combines convolutional layers with a self-attention mechanism that helps us capture a global view of the landscape of interactions between regulatory elements in a sequence. A comprehensive evaluation demonstrates the ability of SATORI to identify numerous statistically significant TF-TF interactions, many of which have been previously reported. Our method is able to detect higher numbers of experimentally verified TF-TF interactions than existing methods, and has the advantage of not requiring a computationally expensive post-processing step. Finally, SATORI can be used for detection of any type of feature interaction in models that use a similar attention mechanism, and is not limited to the detection of TF-TF interactions.",
+  "abstract_zh": "深度学习在建模复杂生物现象（如基因表达）方面已展现出其预测能力。这些模型的价值不仅取决于其准确性，还取决于从训练模型中提取生物学相关信息的能力。尽管近期在开发特征归因方法方面已有大量工作，这些方法旨在发现给定序列中最重要的特征，但推断调控元件之间的协同性——这一现象如基因表达的标志性特征——仍然是一个未解问题。我们提出了SATORI，一种基于自注意力（Self-Attention）的模型，用于检测调控元件相互作用。我们的方法结合了卷积层和自注意力机制，这有助于我们捕捉序列中调控元件相互作用景观的全局视角。全面评估表明，SATORI能够识别众多统计上显著的转录因子-转录因子（TF-TF）相互作用，其中许多已被先前报道。我们的方法能够检测到比现有方法更多的实验验证的TF-TF相互作用，并且具有无需计算上昂贵的后处理步骤的优势。最后，SATORI可用于检测使用类似注意力机制的模型中任何类型的特征相互作用，并不仅限于TF-TF相互作用的检测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33950192/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33950192/",
+  "paper_page_path": "papers/pubmed/33950192/index.html"
+}

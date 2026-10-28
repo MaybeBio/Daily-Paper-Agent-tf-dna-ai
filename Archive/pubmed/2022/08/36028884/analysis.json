@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36028884",
+  "title": "Computational analysis of 4-1BB-induced NFkappaB signaling suggests improvements to CAR cell design.",
+  "authors": "Tserunyan, Vardges; Finley, Stacey D",
+  "journal": "Cell communication and signaling : CCS",
+  "published_date": "2022-08-27",
+  "window": {
+    "start": "2022-08-22",
+    "end": "2022-08-28"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用常微分方程模型分析CAR细胞中4-1BB诱导的NFkappaB信号通路，虽涉及信号转导建模，但核心是细胞信号网络而非蛋白质-DNA互作，且无AI或分子模拟方法，与本课题TF-DNA结合机制研究关联极弱。",
+  "abstract": "BACKGROUND: Chimeric antigen receptor (CAR)-expressing cells are a powerful modality of adoptive cell therapy against cancer. The potency of signaling events initiated upon antigen binding depends on the costimulatory domain within the structure of the CAR. One such costimulatory domain is 4-1BB, which affects cellular response via the NFkappaB pathway. However, the quantitative aspects of 4-1BB-induced NFkappaB signaling are not fully understood. METHODS: We developed an ordinary differential equation-based mathematical model representing canonical NFkappaB signaling activated by CD19scFv-4-1BB. After a global sensitivity analysis on model parameters, we ran Monte Carlo simulations of cell population-wide variability in NFkappaB signaling and quantified the mutual information between the extracellular signal and different levels of the NFkappaB signal transduction pathway. RESULTS: In response to a wide range of antigen concentrations, the magnitude of the transient peak in NFkappaB nuclear concentration varies significantly, while the timing of this peak is relatively consistent. Global sensitivity analysis showed that the model is robust to variations in parameters, and thus, its quantitative predictions would remain applicable to a broad range of parameter values. The model predicts that overexpressing NEMO and disabling IKKbeta deactivation can increase the mutual information between antigen levels and NFkappaB activation. CONCLUSIONS: Our modeling predictions provide actionable insights to guide CAR development. Particularly, we propose specific manipulations to the NFkappaB signal transduction pathway that can fine-tune the response of CD19scFv-4-1BB cells to the antigen concentrations they are likely to encounter. Video Abstract.",
+  "abstract_zh": "背景：表达嵌合抗原受体（CAR）的细胞是过继细胞疗法对抗癌症的一种强大模式。抗原结合引发的信号事件强度取决于CAR结构内的共刺激结构域。其中一种共刺激结构域是4-1BB，它通过NFkappaB通路影响细胞反应。然而，4-1BB诱导的NFkappaB信号传导的定量方面尚未完全理解。方法：我们开发了一个基于常微分方程的数学模型，代表由CD19scFv-4-1BB激活的经典NFkappaB信号传导。在对模型参数进行全局敏感性分析后，我们运行了细胞群体水平上NFkappaB信号传导变异性的蒙特卡洛模拟，并量化了细胞外信号与NFkappaB信号转导通路不同水平之间的互信息。结果：在广泛的抗原浓度响应下，NFkappaB核浓度瞬时峰值的幅度变化显著，而该峰值的时间相对一致。全局敏感性分析表明，模型对参数变化具有鲁棒性，因此其定量预测将适用于广泛的参数值范围。模型预测，过表达NEMO和禁用IKKbeta失活可以增加抗原水平与NFkappaB激活之间的互信息。结论：我们的建模预测提供了指导CAR开发的可行见解。特别是，我们提出了对NFkappaB信号转导通路的特定操作，可以微调CD19scFv-4-1BB细胞对可能遇到的抗原浓度的反应。视频摘要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36028884/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36028884/",
+  "paper_page_path": "papers/pubmed/36028884/index.html"
+}

@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The authors propose a graph attention network (GAT) based multimodal framework integrating scRNA-seq, scATAC-seq, and radiomics to predict key genes and stratify prognosis in triple-negative breast cancer (TNBC). The model reportedly achieves strong external validation performance (AUC-ROC = 0.839, log-rank p < 0.01) and identifies both canonical and novel regulatory pathways.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, model architecture details, dataset descriptions, preprocessing pipelines, hyperparameter settings, baseline comparisons, statistical analysis details, pathway enrichment methodology, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a technically ambitious multimodal integration strategy with potentially interesting biological findings. However, the current evidence base is insufficient to evaluate the validity of the core claims. Several methodological details are either vague or absent, and the reported performance metrics lack the contextual information needed to assess their significance. The biological novelty claims, particularly regarding "previously underappreciated regulatory programs," cannot be verified without pathway analysis details and appropriate multiple-testing corrections.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing multimodal integration methods for cancer genomics would be interested in the graph-based framework. TNBC researchers and translational oncologists might find the prognostic stratification and pathway findings relevant, though the clinical utility claims require stronger validation. Methodologists working on interpretable deep learning for biomedical data would also be a target audience.
+- **Major strengths** The integration of three distinct omics modalities (scRNA-seq, scATAC-seq, radiomics) is conceptually novel and addresses a real gap in TNBC biomarker discovery. The use of intercellular communication-derived gene relationships and transcription factor-binding-guided edges is a thoughtful approach to incorporating biological priors into graph construction. External validation in TCGA-TNBC is a positive feature, and the reported AUC-ROC of 0.839 with confidence intervals suggests some attention to statistical rigor.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model demonstrates strong predictive performance in an external TCGA-TNBC cohort (log-rank p<0.01), outperforming single-omics and alternative graph-based approaches (AUC-ROC = 0.839, 95% CI: 0.81-0.87)
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify what prediction task the AUC-ROC refers to (e.g., survival classification, treatment response, or gene identification). The log-rank p-value and AUC-ROC appear to evaluate different endpoints, but their relationship is unclear. No information is provided on the number of patients, the composition of the external cohort, the censoring rates, or the time horizon for survival analysis.
+  - **Why it matters** Without clarity on the prediction task and cohort characteristics, the reported performance metrics cannot be interpreted meaningfully. An AUC-ROC of 0.839 could be excellent or modest depending on the baseline prevalence and the difficulty of the prediction task. The log-rank test alone does not establish the clinical utility of the stratification.
+  - **Resolution test** The authors must specify the exact prediction task, provide cohort demographics and sample sizes, report the concordance index or time-dependent AUC for survival analysis, and include calibration metrics. They should also clarify whether the AUC-ROC and log-rank test evaluate the same model output or different endpoints.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Transcriptional, chromatin accessibility, and imaging features are aligned via canonical correlation analysis, with intercellular communication-derived gene relationships and transcription factor-binding-guided edges incorporated into a multimodal graph
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe how the three modalities are matched at the sample level. scRNA-seq and scATAC-seq are typically measured on different cells or even different tissue sections, and radiomics features are derived from imaging data that may not correspond to the same biological units. The alignment strategy via canonical correlation analysis is mentioned but not detailed, and no information is provided on how missing data across modalities is handled.
+  - **Why it matters** Multimodal integration is only valid if the data are properly matched and the alignment procedure does not introduce artifacts. If the modalities are not measured on the same biological samples, the cross-modal correlations may reflect technical rather than biological signals. This is a fundamental issue that affects the validity of the entire framework.
+  - **Resolution test** The authors must describe the sample-level matching strategy, the number of samples with complete data across all three modalities, the handling of missing data, and the validation of the canonical correlation alignment (e.g., permutation tests or cross-modal reconstruction accuracy).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** Pathway analysis validates canonical TNBC drivers, including PI3K, ERBB2, PTK6, and EGFR signaling, while revealing previously underappreciated regulatory programs involving complement-coagulation cascades, ECM-integrin-focal adhesion signaling, leukocyte transendothelial migration, sphingolipid-mediated metabolic-immune coupling, and nanoparticle-receptor interactions
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims to reveal "previously underappreciated regulatory programs" but provides no information on the pathway analysis methodology, the statistical thresholds used, or whether multiple-testing corrections were applied. The list of pathways includes very broad categories (e.g., ECM-integrin-focal adhesion signaling) that are commonly enriched in many cancer types, and the claim of novelty is not substantiated.
+  - **Why it matters** Pathway enrichment results are highly dependent on the gene set used, the background set, and the statistical approach. Without these details, the biological findings cannot be evaluated. The claim of "previously underappreciated" programs requires a systematic comparison with existing TNBC literature, which is not provided.
+  - **Resolution test** The authors must report the pathway analysis method, the gene sets used, the significance thresholds, the multiple-testing correction approach, and a comparison with previously published TNBC pathway analyses to support the novelty claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** An ensemble multilayer perceptron with variational dropout stratifies patient prognosis
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe how the ensemble is constructed, how many models are included, how variational dropout is applied, or how the prognostic stratification is derived from the model output. The relationship between the graph attention network and the ensemble MLP is unclear, and no information is provided on the training procedure, loss function, or regularization strategy.
+  - **Why it matters** The prognostic stratification is a central claim of the paper, but the model architecture and training details are essential for reproducibility and for assessing whether the reported performance could be due to overfitting or data leakage. The ensemble approach and variational dropout are mentioned but not justified.
+  - **Resolution test** The authors must provide a complete description of the model architecture, the ensemble construction, the training procedure, the hyperparameter selection, and the method for deriving prognostic groups from the model output.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses technical terms (e.g., "canonical correlation analysis," "variational dropout," "multimodal graph") without brief explanations, which may limit accessibility for clinical readers.
+  - **Required correction** Add brief parenthetical explanations for key technical terms or provide a one-sentence summary of the methodological approach in plain language.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Novelty claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The claim of "previously underappreciated regulatory programs" is not supported by any comparison with existing literature in the abstract.
+  - **Required correction** Either temper the novelty claim or provide a brief statement of how these programs differ from previously reported TNBC pathways.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract reports AUC-ROC and log-rank p-value but does not report other relevant metrics such as sensitivity, specificity, or calibration.
+  - **Required correction** Include additional performance metrics or state that they are provided in the full manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Clinical relevance
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions "therapeutic vulnerabilities" and "precision oncology" but does not specify how the identified genes or pathways could be targeted or validated experimentally.
+  - **Required correction** Add a sentence on potential experimental validation or clinical translation strategies, or temper the clinical claims.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (prediction task and cohort details), R1-M2 (data alignment and matching), R1-M3 (pathway analysis methodology and novelty substantiation), R1-M4 (model architecture and training details)
+- **Assessment against Nature-style criteria** Originality: The multimodal integration approach is conceptually original, though the abstract does not provide enough detail to assess the technical novelty of the graph construction or attention mechanism. Scientific importance: The potential to identify novel TNBC biomarkers is important, but the biological findings are not sufficiently substantiated. Interdisciplinary readership: The work bridges computational biology and oncology, but the abstract is too technical for a broad audience. Technical soundness: The reported metrics are promising, but the lack of methodological detail prevents a rigorous assessment. Readability for nonspecialists: The abstract is dense and uses technical jargon without adequate explanation.
+
+## Risk / unsupported claims
+- The claim of "strong predictive performance" cannot be fully evaluated without knowing the prediction task, cohort size, and baseline comparison.
+- The claim of "previously underappreciated regulatory programs" is unsupported without pathway analysis details and literature comparison.
+- The claim of "scalable approach toward precision oncology" is speculative without evidence of clinical implementation or validation.
+- The performance comparison against "single-omics and alternative graph-based approaches" is not described, so the superiority claim is unverifiable.
+- The integration of radiomics with scRNA-seq and scATAC-seq is conceptually unclear without details on how imaging features are linked to single-cell data.

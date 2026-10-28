@@ -1,0 +1,131 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2025.07.21.25331918",
+  "title": "Polygenic prediction of phenotypes with a neural empirical Bayes approach",
+  "doi": "10.1101/2025.07.21.25331918",
+  "abstract": "Polygenic risk scores (PRS) estimate the expected value of a phenotype based on individual genotypes. Although statistical approaches for calculating PRS have advanced considerably in recent years, few methods incorporate recently generated functional genomics atlases to improve SNP weight estimation. Here, we introduce PRS with a Functional Neural Network (PRSFNN) - a novel approach which uses a neural network in an empirical Bayesian framework to learn the links between SNP functional annotations and SNP weights. By learning these links with a neural network, PRSFNN is able to learn complex, non-linear functions of annotations with minimal assumptions. After curating extensive annotations, including ancestry-stratified allele frequencies, chromatin accessibility across hundreds of developmental and adult cell types, transcription factor binding from ENCODE4, quantitative trait loci, and sequence conservation from Zoonomia, we evaluated PRSFNN on 18 continuous complex traits in the UK Biobank. After benchmarking against other leading PRS methods in an out-of-sample test set, we find that PRSFNN outperforms other PRS methods on 17 of 18 traits. Finally, we show that a low-density lipoprotein PRS estimated with PRSFNN outperforms other PRS methods in the prediction of incident cardio-vascular disease. Overall, PRSFNN uses a curated SNP annotation atlas within a neural empirical Bayesian framework to achieve state-of-the-art performance, advancing our ability to predict phenotypic variation from genetic variation.",
+  "authors": [
+    "Weinstock J",
+    "Kim A",
+    "Battle A"
+  ],
+  "published_date": "2025-07-22",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2025.07.21.25331918",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2025.07.21.25331918.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1053114",
+    "raw_record": {
+      "id": "PPR1053114",
+      "source": "PPR",
+      "doi": "10.1101/2025.07.21.25331918",
+      "title": "Polygenic prediction of phenotypes with a neural empirical Bayes approach",
+      "authorString": "Weinstock J, Kim A, Battle A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Weinstock J",
+            "lastName": "Weinstock",
+            "firstName": "Joshua",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7013-1899"
+            }
+          },
+          {
+            "fullName": "Kim A",
+            "lastName": "Kim",
+            "firstName": "April",
+            "initials": "A"
+          },
+          {
+            "fullName": "Battle A",
+            "lastName": "Battle",
+            "firstName": "Alexis",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5287-627X"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7013-1899"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5287-627X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Polygenic risk scores (PRS) estimate the expected value of a phenotype based on individual genotypes. Although statistical approaches for calculating PRS have advanced considerably in recent years, few methods incorporate recently generated functional genomics atlases to improve SNP weight estimation. Here, we introduce PRS with a Functional Neural Network (PRSFNN) - a novel approach which uses a neural network in an empirical Bayesian framework to learn the links between SNP functional annotations and SNP weights. By learning these links with a neural network, PRSFNN is able to learn complex, non-linear functions of annotations with minimal assumptions. After curating extensive annotations, including ancestry-stratified allele frequencies, chromatin accessibility across hundreds of developmental and adult cell types, transcription factor binding from ENCODE4, quantitative trait loci, and sequence conservation from Zoonomia, we evaluated PRSFNN on 18 continuous complex traits in the UK Biobank. After benchmarking against other leading PRS methods in an out-of-sample test set, we find that PRSFNN outperforms other PRS methods on 17 of 18 traits. Finally, we show that a low-density lipoprotein PRS estimated with PRSFNN outperforms other PRS methods in the prediction of incident cardio-vascular disease. Overall, PRSFNN uses a curated SNP annotation atlas within a neural empirical Bayesian framework to achieve state-of-the-art performance, advancing our ability to predict phenotypic variation from genetic variation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2025/07/22/2025.07.21.25331918.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.21.25331918"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-07-23",
+      "firstPublicationDate": "2025-07-22",
+      "firstIndexDate": "2025-07-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

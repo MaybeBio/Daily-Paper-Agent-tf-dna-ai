@@ -1,0 +1,602 @@
+{
+  "identity": {
+    "pmid": "38794326",
+    "doi": "10.3390/pharmaceutics16050664",
+    "title": "In Vitro and In Vivo Evaluation of the Effects of Drug 2c and Derivatives on Ovarian Cancer Cells."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The identification of novel therapeutic strategies for ovarian cancer (OC), the most lethal gynecological neoplasm, is of utmost urgency. Here, we have tested the effectiveness of the compound 2c (4-hydroxy-2,6-bis(4-nitrobenzylidene)cyclohexanone 2). 2c interferes with the cysteine-dependent deubiquitinating enzyme (DUB) UCHL5, thus affecting the ubiquitin-proteasome-dependent degradation of proteins. METHODS: 2c phenotypic/molecular effects were studied in two OC 2D/3D culture models and in a mouse xenograft model. Furthermore, we propose an in silico model of 2c interaction with DUB-UCHL5. Finally, we have tested the effect of 2c conjugated to several linkers to generate 2c/derivatives usable for improved drug delivery. RESULTS: 2c effectively impairs the OC cell line and primary tumor cell viability in both 2D and 3D conditions. The effectiveness is confirmed in a xenograft mouse model of OC. We show that 2c impairs proteasome activity and triggers apoptosis, most likely by interacting with DUB-UCHL5. We also propose a mechanism for the interaction with DUB-UCHL5 via an in silico evaluation of the enzyme-inhibitor complex. 2c also reduces cell growth by down-regulating the level of the transcription factor E2F1. Eventually, 2c activity is often retained after the conjugation with linkers. CONCLUSION: Our data strongly support the potential therapeutic value of 2c/derivatives in OC.",
+    "keywords": [
+      "2C",
+      "E2F1",
+      "apoptosis",
+      "in silico docking",
+      "ovarian cancer"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maddaloni, Marianna",
+        "Farra, Rossella",
+        "Dapas, Barbara",
+        "Felluga, Fulvia",
+        "Benedetti, Fabio",
+        "Berti, Federico",
+        "Drioli, Sara",
+        "Vidali, Mattia",
+        "Cemazar, Maja",
+        "Kamensek, Urska",
+        "Brancolini, Claudio",
+        "Murano, Erminio",
+        "Maremonti, Francesca",
+        "Grassi, Mario",
+        "Biasin, Alice",
+        "Rizzolio, Flavio",
+        "Cavarzerani, Enrico",
+        "Scaggiante, Bruna",
+        "Bulla, Roberta",
+        "Balduit, Andrea",
+        "Ricci, Giuseppe",
+        "Zito, Gabriella",
+        "Romano, Federico",
+        "Bonin, Serena",
+        "Azzalini, Eros",
+        "Baj, Gabriele",
+        "Tierno, Domenico",
+        "Grassi, Gabriele"
+      ],
+      "short_names": [
+        "Maddaloni M",
+        "Farra R",
+        "Dapas B",
+        "Felluga F",
+        "Benedetti F",
+        "Berti F",
+        "Drioli S",
+        "Vidali M",
+        "Cemazar M",
+        "Kamensek U",
+        "Brancolini C",
+        "Murano E",
+        "Maremonti F",
+        "Grassi M",
+        "Biasin A",
+        "Rizzolio F",
+        "Cavarzerani E",
+        "Scaggiante B",
+        "Bulla R",
+        "Balduit A",
+        "Ricci G",
+        "Zito G",
+        "Romano F",
+        "Bonin S",
+        "Azzalini E",
+        "Baj G",
+        "Tierno D",
+        "Grassi G"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8271-408X",
+        "ORCID: 0000-0002-8773-7413",
+        "ORCID: 0000-0001-5608-3798",
+        "ORCID: 0009-0007-4729-7488",
+        "ORCID: 0000-0002-1418-1928",
+        "ORCID: 0000-0002-0481-4226",
+        "ORCID: 0000-0002-6597-5373",
+        "ORCID: 0000-0002-3532-3200",
+        "ORCID: 0000-0003-2841-1277",
+        "ORCID: 0000-0002-3400-4363",
+        "ORCID: 0000-0001-9322-0878",
+        "ORCID: 0000-0002-8662-138X",
+        "ORCID: 0000-0003-1737-5776",
+        "ORCID: 0000-0001-5902-3205",
+        "ORCID: 0000-0002-8031-1102",
+        "ORCID: 0000-0002-7836-4934",
+        "ORCID: 0000-0003-2157-8330",
+        "ORCID: 0000-0002-7349-0296",
+        "ORCID: 0000-0002-5193-268X",
+        "ORCID: 0000-0002-2625-9454",
+        "ORCID: 0000-0001-9704-6651"
+      ],
+      "affiliations": [
+        "Department of Life Sciences, Cattinara University Hospital, Trieste University, Strada di Fiume 447, 34149 Trieste, Italy.",
+        "Department of Life Sciences, Cattinara University Hospital, Trieste University, Strada di Fiume 447, 34149 Trieste, Italy.",
+        "Department of Life Sciences, Cattinara University Hospital, Trieste University, Strada di Fiume 447, 34149 Trieste, Italy.",
+        "Department of Chemical and Pharmaceutical Sciences (DSCF), University of Trieste, 34127 Trieste, Italy.",
+        "Department of Chemical and Pharmaceutical Sciences (DSCF), University of Trieste, 34127 Trieste, Italy.",
+        "Department of Chemical and Pharmaceutical Sciences (DSCF), University of Trieste, 34127 Trieste, Italy.",
+        "Department of Chemical and Pharmaceutical Sciences (DSCF), University of Trieste, 34127 Trieste, Italy.",
+        "Department of Chemical and Pharmaceutical Sciences (DSCF), University of Trieste, 34127 Trieste, Italy.",
+        "Department of Experimental Oncology, Institute of Oncology Ljubljana, Zaloska 2, SI-1000 Ljubljana, Slovenia.",
+        "Faculty of Health Sciences, University of Primorska, Polje 42, SI-6310 Izola, Slovenia.",
+        "Department of Experimental Oncology, Institute of Oncology Ljubljana, Zaloska 2, SI-1000 Ljubljana, Slovenia.",
+        "Laboratory of Epigenomics, Department of Medicine, University of Udine, Piazzale Kolbe 4, 33100 Udine, Italy.",
+        "Nealys S.R.L., Via Flavia 23/1, 34148 Trieste, Italy.",
+        "Department of Life Sciences, Cattinara University Hospital, Trieste University, Strada di Fiume 447, 34149 Trieste, Italy.",
+        "Department of Engineering and Architecture, University of Trieste, Via Valerio 6/A, 34127 Trieste, Italy.",
+        "Department of Engineering and Architecture, University of Trieste, Via Valerio 6/A, 34127 Trieste, Italy.",
+        "Pathology Unit, Centro di Riferimento Oncologico di Aviano (CRO) IRCCS, 33081 Aviano, Italy.",
+        "Department of Molecular Sciences and Nanosystems, Ca' Foscari University of Venice, 30172 Venice, Italy.",
+        "Department of Molecular Sciences and Nanosystems, Ca' Foscari University of Venice, 30172 Venice, Italy.",
+        "Department of Life Sciences, Cattinara University Hospital, Trieste University, Strada di Fiume 447, 34149 Trieste, Italy.",
+        "Department of Life Sciences, University of Trieste, 34127 Trieste, Italy.",
+        "Institute for Maternal and Child Health, IRCCS Burlo Garofolo, 34137 Trieste, Italy.",
+        "Institute for Maternal and Child Health, IRCCS Burlo Garofolo, 34137 Trieste, Italy.",
+        "Department of Medical, Surgical and Health Science, University of Trieste, 34129 Trieste, Italy.",
+        "Institute for Maternal and Child Health, IRCCS Burlo Garofolo, 34137 Trieste, Italy.",
+        "Institute for Maternal and Child Health, IRCCS Burlo Garofolo, 34137 Trieste, Italy.",
+        "Department of Medical, Surgical and Health Science, University of Trieste, 34129 Trieste, Italy.",
+        "Department of Medical, Surgical and Health Science, University of Trieste, 34129 Trieste, Italy.",
+        "Department of Life Sciences, University of Trieste, 34127 Trieste, Italy.",
+        "Department of Life Sciences, Cattinara University Hospital, Trieste University, Strada di Fiume 447, 34149 Trieste, Italy.",
+        "Department of Life Sciences, Cattinara University Hospital, Trieste University, Strada di Fiume 447, 34149 Trieste, Italy.",
+        "Department of Medical, Surgical and Health Science, University of Trieste, 34129 Trieste, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maddaloni, Marianna",
+        "short_name": "Maddaloni M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Cattinara University Hospital, Trieste University, Strada di Fiume 447, 34149 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Farra, Rossella",
+        "short_name": "Farra R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Cattinara University Hospital, Trieste University, Strada di Fiume 447, 34149 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Dapas, Barbara",
+        "short_name": "Dapas B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Cattinara University Hospital, Trieste University, Strada di Fiume 447, 34149 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Felluga, Fulvia",
+        "short_name": "Felluga F",
+        "identifiers": [
+          "0000-0001-8271-408X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Pharmaceutical Sciences (DSCF), University of Trieste, 34127 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Benedetti, Fabio",
+        "short_name": "Benedetti F",
+        "identifiers": [
+          "0000-0002-8773-7413"
+        ],
+        "affiliations": [
+          "Department of Chemical and Pharmaceutical Sciences (DSCF), University of Trieste, 34127 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Berti, Federico",
+        "short_name": "Berti F",
+        "identifiers": [
+          "0000-0001-5608-3798"
+        ],
+        "affiliations": [
+          "Department of Chemical and Pharmaceutical Sciences (DSCF), University of Trieste, 34127 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Drioli, Sara",
+        "short_name": "Drioli S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Pharmaceutical Sciences (DSCF), University of Trieste, 34127 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Vidali, Mattia",
+        "short_name": "Vidali M",
+        "identifiers": [
+          "0009-0007-4729-7488"
+        ],
+        "affiliations": [
+          "Department of Chemical and Pharmaceutical Sciences (DSCF), University of Trieste, 34127 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Cemazar, Maja",
+        "short_name": "Cemazar M",
+        "identifiers": [
+          "0000-0002-1418-1928"
+        ],
+        "affiliations": [
+          "Department of Experimental Oncology, Institute of Oncology Ljubljana, Zaloska 2, SI-1000 Ljubljana, Slovenia.",
+          "Faculty of Health Sciences, University of Primorska, Polje 42, SI-6310 Izola, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Kamensek, Urska",
+        "short_name": "Kamensek U",
+        "identifiers": [
+          "0000-0002-0481-4226"
+        ],
+        "affiliations": [
+          "Department of Experimental Oncology, Institute of Oncology Ljubljana, Zaloska 2, SI-1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Brancolini, Claudio",
+        "short_name": "Brancolini C",
+        "identifiers": [
+          "0000-0002-6597-5373"
+        ],
+        "affiliations": [
+          "Laboratory of Epigenomics, Department of Medicine, University of Udine, Piazzale Kolbe 4, 33100 Udine, Italy."
+        ]
+      },
+      {
+        "full_name": "Murano, Erminio",
+        "short_name": "Murano E",
+        "identifiers": [],
+        "affiliations": [
+          "Nealys S.R.L., Via Flavia 23/1, 34148 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Maremonti, Francesca",
+        "short_name": "Maremonti F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Cattinara University Hospital, Trieste University, Strada di Fiume 447, 34149 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Grassi, Mario",
+        "short_name": "Grassi M",
+        "identifiers": [
+          "0000-0002-3532-3200"
+        ],
+        "affiliations": [
+          "Department of Engineering and Architecture, University of Trieste, Via Valerio 6/A, 34127 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Biasin, Alice",
+        "short_name": "Biasin A",
+        "identifiers": [
+          "0000-0003-2841-1277"
+        ],
+        "affiliations": [
+          "Department of Engineering and Architecture, University of Trieste, Via Valerio 6/A, 34127 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Rizzolio, Flavio",
+        "short_name": "Rizzolio F",
+        "identifiers": [
+          "0000-0002-3400-4363"
+        ],
+        "affiliations": [
+          "Pathology Unit, Centro di Riferimento Oncologico di Aviano (CRO) IRCCS, 33081 Aviano, Italy.",
+          "Department of Molecular Sciences and Nanosystems, Ca' Foscari University of Venice, 30172 Venice, Italy."
+        ]
+      },
+      {
+        "full_name": "Cavarzerani, Enrico",
+        "short_name": "Cavarzerani E",
+        "identifiers": [
+          "0000-0001-9322-0878"
+        ],
+        "affiliations": [
+          "Department of Molecular Sciences and Nanosystems, Ca' Foscari University of Venice, 30172 Venice, Italy."
+        ]
+      },
+      {
+        "full_name": "Scaggiante, Bruna",
+        "short_name": "Scaggiante B",
+        "identifiers": [
+          "0000-0002-8662-138X"
+        ],
+        "affiliations": [
+          "Department of Life Sciences, Cattinara University Hospital, Trieste University, Strada di Fiume 447, 34149 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Bulla, Roberta",
+        "short_name": "Bulla R",
+        "identifiers": [
+          "0000-0003-1737-5776"
+        ],
+        "affiliations": [
+          "Department of Life Sciences, University of Trieste, 34127 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Balduit, Andrea",
+        "short_name": "Balduit A",
+        "identifiers": [
+          "0000-0001-5902-3205"
+        ],
+        "affiliations": [
+          "Institute for Maternal and Child Health, IRCCS Burlo Garofolo, 34137 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Ricci, Giuseppe",
+        "short_name": "Ricci G",
+        "identifiers": [
+          "0000-0002-8031-1102"
+        ],
+        "affiliations": [
+          "Institute for Maternal and Child Health, IRCCS Burlo Garofolo, 34137 Trieste, Italy.",
+          "Department of Medical, Surgical and Health Science, University of Trieste, 34129 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Zito, Gabriella",
+        "short_name": "Zito G",
+        "identifiers": [
+          "0000-0002-7836-4934"
+        ],
+        "affiliations": [
+          "Institute for Maternal and Child Health, IRCCS Burlo Garofolo, 34137 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Romano, Federico",
+        "short_name": "Romano F",
+        "identifiers": [
+          "0000-0003-2157-8330"
+        ],
+        "affiliations": [
+          "Institute for Maternal and Child Health, IRCCS Burlo Garofolo, 34137 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Bonin, Serena",
+        "short_name": "Bonin S",
+        "identifiers": [
+          "0000-0002-7349-0296"
+        ],
+        "affiliations": [
+          "Department of Medical, Surgical and Health Science, University of Trieste, 34129 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Azzalini, Eros",
+        "short_name": "Azzalini E",
+        "identifiers": [
+          "0000-0002-5193-268X"
+        ],
+        "affiliations": [
+          "Department of Medical, Surgical and Health Science, University of Trieste, 34129 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Baj, Gabriele",
+        "short_name": "Baj G",
+        "identifiers": [
+          "0000-0002-2625-9454"
+        ],
+        "affiliations": [
+          "Department of Life Sciences, University of Trieste, 34127 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Tierno, Domenico",
+        "short_name": "Tierno D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Cattinara University Hospital, Trieste University, Strada di Fiume 447, 34149 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Grassi, Gabriele",
+        "short_name": "Grassi G",
+        "identifiers": [
+          "0000-0001-9704-6651"
+        ],
+        "affiliations": [
+          "Department of Life Sciences, Cattinara University Hospital, Trieste University, Strada di Fiume 447, 34149 Trieste, Italy.",
+          "Department of Medical, Surgical and Health Science, University of Trieste, 34129 Trieste, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmaceutics"
+    ],
+    "journal_abbrev": [
+      "Pharmaceutics"
+    ],
+    "pub_date": "2024 May 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/25 10:52",
+    "fetched_at": "2026-09-29 20:36:19"
+  },
+  "links": {
+    "cites": [
+      "40783069"
+    ],
+    "refs": [
+      "37108391",
+      "36195608",
+      "35406401",
+      "35269473",
+      "35020204",
+      "33785653",
+      "33495455",
+      "33212117",
+      "32842524",
+      "32392708",
+      "31652539",
+      "31600388",
+      "31011202",
+      "30724632",
+      "29944973",
+      "29416018",
+      "28743182",
+      "28617610",
+      "28443200",
+      "27743768",
+      "25639862",
+      "25565044",
+      "24574752",
+      "23839242",
+      "21995438",
+      "20066162",
+      "19603101",
+      "19041685",
+      "18991331",
+      "17825975",
+      "17692085"
+    ],
+    "similar": [
+      "38794326",
+      "30963630",
+      "30015387",
+      "25691154",
+      "33341501",
+      "32631902",
+      "31666925",
+      "22510564",
+      "24727327",
+      "37496051",
+      "25854145",
+      "29703842",
+      "34614446",
+      "35489684",
+      "37528233",
+      "29098502",
+      "24319254",
+      "36082692",
+      "33716550",
+      "35971329",
+      "35695579",
+      "27264969",
+      "32596150",
+      "38403634",
+      "28653876",
+      "36428630",
+      "34056205",
+      "32668414",
+      "33456565",
+      "38243224",
+      "33390181",
+      "37709991",
+      "34051810",
+      "27813535",
+      "24534329",
+      "31703099",
+      "30946948",
+      "26183292",
+      "38128180",
+      "30843494",
+      "30605979",
+      "26772983",
+      "28619062",
+      "27086925",
+      "24157661",
+      "38364944",
+      "33920140",
+      "25516145",
+      "28581522",
+      "34671407",
+      "30165348",
+      "38235574",
+      "36126783",
+      "36085021",
+      "34093864",
+      "20227749",
+      "36670423",
+      "34954522",
+      "33928819",
+      "28086217",
+      "30816441",
+      "35033381",
+      "8995226",
+      "37172479",
+      "34787052",
+      "35380509",
+      "31391118",
+      "34761751",
+      "33146853",
+      "26807479",
+      "32143396",
+      "31574234",
+      "31171023",
+      "35964260",
+      "30862230",
+      "35966591",
+      "36090476",
+      "18720042",
+      "11535532",
+      "28681694",
+      "30487062",
+      "37713785",
+      "31222748",
+      "35125087",
+      "32901049",
+      "38115063",
+      "30643111",
+      "24602489",
+      "32292717",
+      "35648318",
+      "29904936",
+      "38720298"
+    ],
+    "review": [
+      "38794326",
+      "26183292"
+    ],
+    "pmc": [
+      "11125437"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=pharmaceutics16050664",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38794326/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38794326",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-317",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

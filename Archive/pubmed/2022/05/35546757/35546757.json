@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "35546757",
+    "doi": "10.2174/1574892817666220511162046",
+    "title": "Examining the Mechanisms of Huachansu Injection on Liver Cancer through Integrated Bioinformatics Analysis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: The objective of this study is to explore the potential anti-liver cancer mechanism of Huachansu injection through integrated bioinformatics analysis. METHODS: Active ingredients of Huachansu injection (extraction of toad skin) were obtained, and their potential drug targets were predicted via SwissTargetPrediction database. Liver cancer disease targets were identified from the GEO (Gene Expression Omnibus) dataset and four public databases. Then Protein-Protein Interaction (PPI) network of toad skin was constructed. GO (Gene Ontology) enrichment analysis and KEGG (Kyoto Encyclopedia of Genes and Genomes) enrichment analysis were performed subsequently. Finally, molecular docking was performed using Auto Dock Vina. RESULTS: In the search for therapeutic targets, twenty active components of toad skin were screened for further study, five hundred and sixty-eight targets of components were identified. In the search for disease targets, three thousand two hundred and twenty-seven genes were identified after removal of duplicated genes, one hundred and fifty-nine genes were up-regulated in liver cancer samples while two hundred and seventy-eight were down-regulated in liver cancer patients. After predicting the therapeutic targets of the components, the results were cross-checked with the disease targets, thirteen up-regulated targets and ten down-regulated targets were obtained. Finally, in the results of molecular docking, seven targets (CDK1, AKR1B1, MMP12, AURKB, CHEK1, AURKA, TTK) were potential up-regulated targets, three targets (SHBG, SRD5A2, NR1I2) were potential down-regulated targets, all of which have the best binding energy and molecular interactions. CONCLUSION: CDK1, AKR1B1, MMP12, AURKB, CHEK1, AURKA, and TTK could be potential upregulated target proteins of Huachansu injection for treating liver cancer. The mechanism of Huachansu injection in the treatment of liver cancer through these up-regulated targets is related to cell cycle, cellular senescence, viral carcinogenesis, p53 signaling pathway. SHBG, SRD5A2, and NR1I2 could be potential down-regulated target proteins of Huachansu injection in treating liver cancer.",
+    "keywords": [
+      "Huachansu injection",
+      "effector mechanism",
+      "hepatocellular carcinoma",
+      "molecular docking",
+      "network pharmacology",
+      "weighted gene coexpression network analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "3-Oxo-5-alpha-Steroid 4-Dehydrogenase",
+      "Aldehyde Reductase",
+      "Aurora Kinase A",
+      "*Liver Neoplasms/drug therapy",
+      "Matrix Metalloproteinase 12",
+      "Membrane Proteins",
+      "Molecular Docking Simulation",
+      "Pregnane X Receptor",
+      "*Amphibian Venoms/administration & dosage",
+      "Injections"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Chao-Yuan",
+        "Cheng, Yi-Min",
+        "Li, Wei",
+        "Huang, Yuan-Cheng",
+        "Luo, Hu",
+        "Zhong, Chong",
+        "Liu, Feng-Bin"
+      ],
+      "short_names": [
+        "Huang CY",
+        "Cheng YM",
+        "Li W",
+        "Huang YC",
+        "Luo H",
+        "Zhong C",
+        "Liu FB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Clinical Medical School, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Clinical Medical School, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Clinical Medical School, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Clinical Medical School, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "The First Clinical Medical School, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Department of Hepatobiliary Surgery, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Department of gastroenterology, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+        "Baiyun Hospital of The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Chao-Yuan",
+        "short_name": "Huang CY",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical School, Guangzhou University of Chinese Medicine, Guangzhou, China.",
+          "Lingnan Medical Research Center, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Yi-Min",
+        "short_name": "Cheng YM",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical School, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wei",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical School, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yuan-Cheng",
+        "short_name": "Huang YC",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical School, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Hu",
+        "short_name": "Luo H",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical Medical School, Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Chong",
+        "short_name": "Zhong C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Feng-Bin",
+        "short_name": "Liu FB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of gastroenterology, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China.",
+          "Baiyun Hospital of The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Recent patents on anti-cancer drug discovery"
+    ],
+    "journal_abbrev": [
+      "Recent Pat Anticancer Drug Discov"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/14 06:00",
+    "fetched_at": "2026-09-28 08:19:38"
+  },
+  "links": {
+    "cites": [
+      "42440203",
+      "42192893",
+      "39806972",
+      "38713259",
+      "37928418",
+      "36685952"
+    ],
+    "refs": [],
+    "similar": [
+      "35546757",
+      "36998242",
+      "34285555",
+      "35236335",
+      "35873910",
+      "35850814",
+      "35429380",
+      "33082858",
+      "33915505",
+      "35616676",
+      "35430443",
+      "34257537",
+      "34581057",
+      "34472273",
+      "33743701",
+      "36464255",
+      "35463358",
+      "33634308",
+      "32315738",
+      "36596057",
+      "33299870",
+      "36193154",
+      "35706800",
+      "34159207",
+      "35035498",
+      "35837376",
+      "37001826",
+      "38964723",
+      "28432618",
+      "35851128",
+      "25753876",
+      "34873575",
+      "34872267",
+      "38681206",
+      "36386135",
+      "36660249",
+      "36604893",
+      "19701908",
+      "35528155",
+      "33645014",
+      "35970314",
+      "35024051",
+      "36389420",
+      "35280377",
+      "36874006",
+      "36472041",
+      "35227068",
+      "35069454",
+      "34353081",
+      "36872279",
+      "33164393",
+      "34951253",
+      "33767726",
+      "34785888",
+      "36571905",
+      "36281111",
+      "36046463",
+      "34125845",
+      "36043445",
+      "33750656",
+      "35176999",
+      "36660658",
+      "35960090",
+      "35669396",
+      "36403742",
+      "33358854",
+      "36604920",
+      "35135448",
+      "34174759",
+      "33645090",
+      "35433930",
+      "36523419",
+      "36471753",
+      "36590763",
+      "34671410",
+      "35706803",
+      "36803762",
+      "33110441",
+      "35959427",
+      "31424263",
+      "34908920",
+      "36535207",
+      "34738404",
+      "36872242",
+      "35090330",
+      "36347033",
+      "35850844",
+      "36003525",
+      "35777015",
+      "28640074",
+      "38785131",
+      "36654467",
+      "38058798",
+      "38728468",
+      "38217310",
+      "37194228",
+      "34295986"
+    ],
+    "review": [
+      "35546757",
+      "25753876"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=&volume=18&issue=3&spage=408&aulast=Huang",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1341",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.eurekaselect.com/204620/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

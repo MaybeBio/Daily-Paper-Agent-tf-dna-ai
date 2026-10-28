@@ -1,0 +1,214 @@
+{
+  "identity": {
+    "pmid": "40349379",
+    "doi": "10.1016/j.compbiolchem.2025.108484",
+    "title": "iEnhancer-DS: Attention-based improved densenet for identifying enhancers and their strength."
+  },
+  "content": {
+    "abstract": "Enhancers are short DNA fragments that enhance gene expression by binding to transcription factors. Accurately identifying enhancers and their strength is crucial for understanding gene regulation mechanisms. However, traditional enhancer sequencing techniques are costly and time-consuming. Therefore, it is necessary to develop computational methods to quickly and accurately identify enhancers and their strength. Given the limitations of existing computational methods, such as low performance and complex encoding, this study proposes a deep learning-based multi-task framework, iEnhancer-DS, for enhancer identification and their strength classification. First, feature embeddings characterizing DNA sequences are obtained using one-hot encoding and nucleotide chemical properties (NCP). Next, an improved DenseNet module is applied to learn implicit high-order features from the concatenated feature embeddings. Subsequently, the self-attention mechanism is used to dynamically assess the importance of features and assign weights to them, and then the features are passed to the multilayer perceptron (MLP) to calculate the prediction probabilities. Experimental results show that iEnhancer-DS achieves state-of-the-art performance in both enhancer identification and strength prediction. In the enhancer identification task, iEnhancer-DS improves ACC and MCC by 4.03% and 8.47% respectively over the current state-of-the-art methods. Similarly, in the enhancer strength prediction task, the ACC and MCC values of iEnhancer-DS increased by 1.40% and 3.81%, respectively. In addition, we used the t-SNE method to perform an interpretable analysis of the mechanism of action of iEnhancer-DS. The detailed code and raw data of iEnhancer-DS can be obtained from https://github.com/zha12ja/iEnhancer-DS.",
+    "keywords": [
+      "DenseNet",
+      "Enhancers identification",
+      "Enhancers strength classification",
+      "Self-attention mechanism"
+    ],
+    "mesh_terms": [
+      "*Computational Biology",
+      "Convolutional Neural Networks",
+      "*Deep Learning",
+      "*DNA/genetics",
+      "*Enhancer Elements, Genetic/genetics",
+      "Sequence Analysis, DNA"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Yongxian",
+        "Wang, Chen",
+        "Sun, Guicong"
+      ],
+      "short_names": [
+        "Fan Y",
+        "Wang C",
+        "Sun G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guilin University of Electronic Technology, School of Computer Science and Information Security, Guilin, 541004, Guangxi, China. Electronic address: yongxian.fan@gmail.com.",
+        "Guilin University of Electronic Technology, School of Computer Science and Information Security, Guilin, 541004, Guangxi, China.",
+        "Guilin University of Electronic Technology, School of Computer Science and Information Security, Guilin, 541004, Guangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Yongxian",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guilin University of Electronic Technology, School of Computer Science and Information Security, Guilin, 541004, Guangxi, China. Electronic address: yongxian.fan@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Chen",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Guilin University of Electronic Technology, School of Computer Science and Information Security, Guilin, 541004, Guangxi, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Guicong",
+        "short_name": "Sun G",
+        "identifiers": [],
+        "affiliations": [
+          "Guilin University of Electronic Technology, School of Computer Science and Information Security, Guilin, 541004, Guangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/11 20:05",
+    "fetched_at": "2026-09-30 17:21:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40349379",
+      "40335860",
+      "34364858",
+      "31874637",
+      "36715222",
+      "35942693",
+      "36936423",
+      "33808317",
+      "36376800",
+      "33481715",
+      "37442977",
+      "35015646",
+      "30822398",
+      "36671456",
+      "33119044",
+      "34814323",
+      "38385876",
+      "40778316",
+      "37113248",
+      "36220606",
+      "38510021",
+      "33741075",
+      "27490187",
+      "39577030",
+      "38179749",
+      "41283958",
+      "40302345",
+      "36520922",
+      "33581335",
+      "33802922",
+      "40203028",
+      "26476782",
+      "38485768",
+      "35190950",
+      "41576119",
+      "42164554",
+      "38946113",
+      "41478195",
+      "35417351",
+      "35605495",
+      "34226917",
+      "39561516",
+      "36071071",
+      "36740001",
+      "38178985",
+      "39519295",
+      "39096613",
+      "39546160",
+      "29219068",
+      "37294799",
+      "28239713",
+      "33535061",
+      "33833783",
+      "37760334",
+      "37348298",
+      "31340596",
+      "40613943",
+      "36063523",
+      "29878118",
+      "37723425",
+      "37852600",
+      "40772277",
+      "40251827",
+      "28334114",
+      "33137083",
+      "37021401",
+      "36403092",
+      "35264081",
+      "39900285",
+      "38443802",
+      "26634919",
+      "40036975",
+      "39420601",
+      "30374023",
+      "40386224",
+      "34666191",
+      "32608476",
+      "39107889",
+      "40613852",
+      "38316843",
+      "28716036",
+      "33539511",
+      "37539835",
+      "34571539",
+      "29072144",
+      "36232325",
+      "25378307",
+      "41229401",
+      "36849908",
+      "28688491",
+      "39277959",
+      "41609070",
+      "40869356",
+      "40102719",
+      "41172803",
+      "36043696",
+      "41861881",
+      "41257586",
+      "37519885",
+      "31318408"
+    ],
+    "review": [
+      "40349379",
+      "37021401"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(25)00144-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

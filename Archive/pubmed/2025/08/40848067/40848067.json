@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "40848067",
+    "doi": "10.1186/s12284-025-00839-8",
+    "title": "Identification of Leaf Rust-Related Gene Signature in Wheat (Triticum Aestivum L.) Using High-Throughput Sequencing, Network Analysis, and Machine Learning Algorithms."
+  },
+  "content": {
+    "abstract": "Wheat provides staple food and industrial raw material for humans and animals, but its production decreased due to leaf rust (Lr) disease caused by Puccinia triticina by up to 15%. It is challenging to identify Lr-associated genes due to the limited sample size and large genome, which hinders the breeding efforts for Lr disease. This study integrated RNA-seq data to mine the candidate genes using meta-analysis, WGCNA, and machine-learning approaches. As a result, 2153 upregulated and 1579 downregulated meta-differentially expressed genes (meta-DEGs) were identified, with four known genes (Lr13 and Lr67/Yr46/Sr55). The meta-DEGs were significantly enriched in antifungal innate immune response, glutathione metabolism, detoxification, phenylalanine, and flavonoid biosynthesis. Among these, 124 resistance (R) genes (~ 85.48% upregulated) were expressed differentially, and ~ 80% belonged to plant pattern recognition receptors (PPRs) that triggered immunity. Likewise, 162 transcription factors (TFs), including WRKY (43), ERF (30), and MYB (33), were associated with Lr disease, and 81 candidate hub genes were co-expressed for Lr. Finally, nine potential candidate genes, including TraesCS7A03G0388400 (BSP), TraesCS1A03G0869900 (PR4), TraesCS6B03G1228800 (AP2/ERF), TraesCS3B03G0088700 (MYB62), TraesCS5A03G1198800 (CYP96A10), and TraesCSU03G0129300 (LTP4), were mined via attribute weighting and machine learning model (XGBoost AUC = 0.97 and accuracy = 0.90) and validated via single-gene model, linear regression, and t-test at p </= 0.05. The relative expressions calculated via RT-qPCR assay of nine genes were significantly higher at different time points under Lr infection. Thus, this study reported genes under Lr infection using advanced bioinformatics and supervised machine-learning models, which provide fundamental insight and a solid foundation for understanding the molecular mechanisms of Lr resistance and offer an advanced pipeline for future breeding programs to develop superior cultivars with durable resistance.",
+    "keywords": [
+      "Disease responsive genes",
+      "Leaf rust",
+      "Machine learning",
+      "Meta-DEGs",
+      "RNA-seq",
+      "Wheat"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Farhan, Muhammad",
+        "Ikram, Muhammad",
+        "Sun, Jing-E",
+        "Yang, San-Wei",
+        "Wang, Yong"
+      ],
+      "short_names": [
+        "Farhan M",
+        "Ikram M",
+        "Sun JE",
+        "Yang SW",
+        "Wang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Agriculture, Guizhou University, Guiyang, 550025, China.",
+        "School of Breeding and Multiplication (Sanya Institute of Breeding and Multiplication), Hainan University, Sanya, 572025, China.",
+        "College of Agriculture, Guizhou University, Guiyang, 550025, China.",
+        "College of Agriculture, Guizhou University, Guiyang, 550025, China. swyang@gzu.edu.cn.",
+        "College of Agriculture, Guizhou University, Guiyang, 550025, China. yongwangbis@aliyun.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Farhan, Muhammad",
+        "short_name": "Farhan M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Agriculture, Guizhou University, Guiyang, 550025, China."
+        ]
+      },
+      {
+        "full_name": "Ikram, Muhammad",
+        "short_name": "Ikram M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Breeding and Multiplication (Sanya Institute of Breeding and Multiplication), Hainan University, Sanya, 572025, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Jing-E",
+        "short_name": "Sun JE",
+        "identifiers": [],
+        "affiliations": [
+          "College of Agriculture, Guizhou University, Guiyang, 550025, China."
+        ]
+      },
+      {
+        "full_name": "Yang, San-Wei",
+        "short_name": "Yang SW",
+        "identifiers": [],
+        "affiliations": [
+          "College of Agriculture, Guizhou University, Guiyang, 550025, China. swyang@gzu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Yong",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Agriculture, Guizhou University, Guiyang, 550025, China. yongwangbis@aliyun.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Rice (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "Rice (N Y)"
+    ],
+    "pub_date": "2025 Aug 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/26 04:46",
+    "fetched_at": "2026-10-01 00:37:20"
+  },
+  "links": {
+    "cites": [
+      "42368544",
+      "41846607",
+      "41840027"
+    ],
+    "refs": [
+      "39521235",
+      "38980436",
+      "38472439",
+      "38456566",
+      "38452471",
+      "38163824",
+      "37596557",
+      "37402218",
+      "37332708",
+      "37311886",
+      "37217716",
+      "37173660",
+      "37008314",
+      "36714765",
+      "36383026",
+      "35957521",
+      "35716230",
+      "35699741",
+      "35524409",
+      "35340106",
+      "34965851",
+      "34879717",
+      "34745174",
+      "34502363",
+      "34206508",
+      "34072567",
+      "33965635",
+      "33866633",
+      "33668231",
+      "33590861",
+      "33530947",
+      "33390143",
+      "33157204",
+      "33109074",
+      "32964634",
+      "32692663",
+      "32340374",
+      "32291004",
+      "32285454",
+      "32170056",
+      "31681381",
+      "31514396",
+      "31477170",
+      "30932734",
+      "30913300",
+      "30718852",
+      "30418610",
+      "30327425",
+      "30305371",
+      "30211634",
+      "29615685",
+      "29561710",
+      "29536435",
+      "27734576",
+      "27647723",
+      "27296142",
+      "26779226",
+      "26551671",
+      "25779701",
+      "25736370",
+      "25690850",
+      "25605792",
+      "25521941",
+      "25375928",
+      "24695404",
+      "24387266",
+      "24373199",
+      "24227677",
+      "24215930",
+      "23711079",
+      "23534608",
+      "23524660",
+      "23104886",
+      "22455463",
+      "22442415",
+      "22297565",
+      "22257669",
+      "21862479",
+      "21831212",
+      "21217757",
+      "21029326",
+      "20943198",
+      "20569344",
+      "20565641",
+      "20439716",
+      "20110467",
+      "19906694",
+      "19855105",
+      "19769576",
+      "19628572",
+      "19400727",
+      "19232096",
+      "19229000",
+      "19114008",
+      "19039666",
+      "18944865",
+      "17583510",
+      "17416637",
+      "16574859",
+      "16497589",
+      "16359384",
+      "15377232",
+      "15231271",
+      "14645721",
+      "12884009",
+      "12807786",
+      "12119395",
+      "11846609",
+      "9847135",
+      "9681026",
+      "9298904",
+      "9025301",
+      "8052663"
+    ],
+    "similar": [
+      "40848067",
+      "41176995",
+      "28633642",
+      "39859380",
+      "37510281",
+      "37570940",
+      "33016598",
+      "40923255",
+      "39745318",
+      "32448445",
+      "35806373",
+      "41705476",
+      "38921001",
+      "40165057",
+      "24511291",
+      "27699487",
+      "32729796",
+      "38916358",
+      "34371581",
+      "38760694",
+      "29258426",
+      "32967372",
+      "35699741",
+      "32765563",
+      "31514396",
+      "34371688",
+      "32697658",
+      "33157204",
+      "26941830",
+      "39240941",
+      "35039525",
+      "35534832",
+      "40967560",
+      "32892289",
+      "36810004",
+      "36255270",
+      "39757138",
+      "34129353",
+      "14645721",
+      "41665627",
+      "38347436",
+      "39754246",
+      "38345645",
+      "29589041",
+      "35185984",
+      "33050873",
+      "24408377",
+      "42236612",
+      "30676921",
+      "35996248",
+      "41981716",
+      "37684281",
+      "41862521",
+      "25892845",
+      "41318653",
+      "32196419",
+      "33304363",
+      "40678044",
+      "37740761",
+      "34918873",
+      "22806327",
+      "33492413",
+      "32550103",
+      "39815073",
+      "17362328",
+      "34782883",
+      "41291841",
+      "34843039",
+      "38235210",
+      "28401336",
+      "41639764",
+      "37650000",
+      "28710588",
+      "34834666",
+      "42158856",
+      "40589764",
+      "42289463",
+      "41127572",
+      "37440539",
+      "30731966",
+      "41840027",
+      "36145764",
+      "35958412",
+      "25112203",
+      "41074477",
+      "32627097",
+      "36968495",
+      "37526485",
+      "41858783",
+      "40553877",
+      "37173660",
+      "39069623",
+      "38494271",
+      "41367897",
+      "37851522",
+      "40565002",
+      "40830558",
+      "25754424",
+      "30754222",
+      "40503237"
+    ],
+    "review": [
+      "40848067",
+      "32448445",
+      "35699741",
+      "32765563",
+      "41665627",
+      "41981716",
+      "41862521",
+      "42289463"
+    ],
+    "pmc": [
+      "12374937"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40848067/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1186/s12284-025-00839-8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

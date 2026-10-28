@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38694921",
+  "title": "Identification of pivotal genes and regulatory networks associated with atherosclerotic carotid artery stenosis based on comprehensive bioinformatics analysis and machine learning.",
+  "authors": "Qin, Xiaohong; Ding, Rui; Lu, Haoran; Zhang, Wenfei; Wei, Shanshan; Ji, Baowei; Geng, Rongxin; Wu, Liquan; Chen, Zhibiao",
+  "journal": "Frontiers in pharmacology",
+  "published_date": "2024-05-02",
+  "window": {
+    "start": "2024-04-29",
+    "end": "2024-05-05"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于GEO数据与机器学习筛选动脉粥样硬化颈动脉狭窄的关键基因并构建ceRNA/TF调控网络，虽涉及TF预测但无蛋白-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "OBJECTIVE: Bioinformatics methods were applied to investigate the pivotal genes and regulatory networks associated with atherosclerotic carotid artery stenosis (ACAS) and provide new insights for the treatment of this disease. METHODS: The study utilized five ACAS datasets (GSE100927, GSE11782, GESE28829, GSE41571, and GSE43292) downloaded from the NCBI GEO database. The first four datasets were combined as the training set (n = 99), while GSE43292 (n = 64) was used as the validation set. Difference analysis and functional enrichment analysis were then performed on the training set. The pathogenic targets of ACAS were screened by protein-protein interaction networks and MCODE analyses, combined with three machine learning algorithms. The results were next verified by analysis of inter-group differences and ROC curve analysis. Next, immune-related function and immune cell correlation analyses were performed, and plaques of human ACAS were applied to verify the results via immunohistochemistry (IH) and immunofluorescence (IF). Finally, the competing endogenous RNAs (ceRNA) and transcription factors (TFs) regulatory networks of the characterized genes were constructed. RESULTS: A total of 177 differentially expressed genes were identified, including 67 genes downregulated and 110 genes upregulated. Gene set enrichment analysis revealed that five pathways were active in the experimental group, including xenograft rejection, autoimmune thyroid disease, graft-versus-host disease, leishmaniasis infection, and lysosomes. Four key genes were identified, with C3AR1 being upregulated and FBLN5, PPP1R12A, and TPM1 being downregulated. The analysis of inter-group differences demonstrated that the four characterized genes were differentially expressed in both the control and experimental groups. The ROC analysis showed that they had high AUC values in both the training and validation sets. Therefore, a predictive ACAS patient nomogram model based on the screened genes was established. Correlation analysis revealed a positive correlation between C3AR1 expression and neutrophils, which was further validated in IH and IF. One or multiple lncRNAs may compete with the characterized genes for binding miRNAs. Additionally, each characterized gene interacts with multiple TFs. CONCLUSION: Four pivotal genes were screened, and relevant ceRNA and TFs were predicted. These molecules may exert a crucial role in ACAS and serve as potential biomarkers and therapeutic targets.",
+  "abstract_zh": "目的：应用生物信息学方法探讨与动脉粥样硬化性颈动脉狭窄（ACAS）相关的关键基因及调控网络，为该疾病的治疗提供新见解。方法：本研究利用从NCBI GEO数据库下载的五个ACAS数据集（GSE100927、GSE11782、GSE28829、GSE41571和GSE43292）。前四个数据集合并作为训练集（n = 99），而GSE43292（n = 64）用作验证集。随后对训练集进行差异分析和功能富集分析。通过蛋白质-蛋白质相互作用网络和MCODE分析，结合三种机器学习算法，筛选ACAS的致病靶点。结果通过组间差异分析和ROC曲线分析进行验证。接下来，进行免疫相关功能和免疫细胞相关性分析，并应用人ACAS斑块通过免疫组织化学（IH）和免疫荧光（IF）验证结果。最后，构建特征基因的竞争性内源RNA（ceRNA）和转录因子（TFs）调控网络。结果：共鉴定出177个差异表达基因，包括67个下调基因和110个上调基因。基因集富集分析显示，实验组中有五条通路被激活，包括异种移植排斥、自身免疫性甲状腺疾病、移植物抗宿主病、利什曼病感染和溶酶体。鉴定出四个关键基因，其中C3AR1上调，FBLN5、PPP1R12A和TPM1下调。组间差异分析表明，四个特征基因在对照组和实验组中均存在差异表达。ROC分析显示，它们在训练集和验证集中均具有较高的AUC值。因此，建立了基于筛选基因的ACAS患者预测列线图模型。相关性分析显示C3AR1表达与中性粒细胞呈正相关，并在IH和IF中得到进一步验证。一个或多个lncRNA可能竞争性结合miRNA与特征基因。此外，每个特征基因与多个TFs相互作用。结论：筛选出四个关键基因，并预测了相关的ceRNA和TFs。这些分子可能在ACAS中发挥关键作用，并可作为潜在的生物标志物和治疗靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38694921/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38694921/",
+  "paper_page_path": "papers/pubmed/38694921/index.html"
+}

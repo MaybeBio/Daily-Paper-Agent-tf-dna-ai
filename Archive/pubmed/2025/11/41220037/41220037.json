@@ -1,0 +1,423 @@
+{
+  "identity": {
+    "pmid": "41220037",
+    "doi": "10.1186/s12879-025-11958-4",
+    "title": "Unravelling butyrate metabolism in sepsis: identification of key genes."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Sepsis is an infection-induced systemic inflammatory response. Given the potential link between changes in butyrate metabolism (BM) and sepsis development, this study aimed to preliminarily identify potential BM-related genes and explore their possible relevance to sepsis treatment strategies. METHODS: The GSE54514, GSE175453 and GSE65682 datasets, as well as BM-related genes (BMRGs), were obtained from public databases. The differentially expressed genes (DEGs) obtained through differential expression analysis were intersected with BMRGs to acquire candidate genes. The key genes were obtained using two machine learning algorithms and expression verification. A series of analyses of key genes were subsequently conducted, including Friends analysis, enrichment analysis, impact assessment on sepsis clinicals and survival, nomogram construction, immune infiltration analysis, molecular regulatory network, and molecular docking. In vitro experiments were conducted to establish a sepsis model in which THP-1 cells were stimulated with lipopolysaccharide (LPS) to verify the differences in the expression of key genes. Furthermore, the heterogeneity of sepsis cells was analysed at the single-cell level. RESULTS: Three key genes (ID2, ZFP36L1, and ZNF148) were selected from among 11 candidate genes. ID2 had relatively strong functional similarity with the others. These genes were enriched in 9, 3, and 6 pathways, respectively, including neuroactive ligand-receptor interaction and ribosome. Differences in ID2 expression were observed among the age subgroups. A difference in survival was observed between the high- and low-expression groups of the three genes in sepsis patients. The nomograms exhibited good predictive and clinical value. Four differentially expressed immune cell types were detected between the sepsis and control groups. The key genes showed potential regulatory relationships with multiple transcription factors (TFs) and microRNAs (miRNAs). For instance, bioinformatics analysis suggested that ID2 might be influenced by HOXA9, ZFP36L1 could be targeted by hsa-miR-27a-3p, and ZNF148 may be modulated by hsa-miR-365b-3p. Binding energies of -8.5 kcal/mol were observed between ZFP36L1 and amarogentin and andrographolide. In vitro experiments revealed significant variations in the expression levels of key genes-ID2, ZNF148, and ZFP36L1-in sepsis. These genes have potential as biomarkers for the diagnosis of this condition. Finally, neutrophils were identified as key cells, and the expression of key genes showed a dynamic distribution during their development. CONCLUSION: ID2, ZFP36L1, and ZNF148 may serve as potential candidate regulators of sepsis-associated butyrate metabolism, and the nomogram model showed preliminary predictive value for clinical assessment in sepsis patients. These findings provide exploratory insights that may aid in further investigations of the pathological mechanisms underlying sepsis. CLINICAL TRIAL NUMBER: Not applicable.",
+    "keywords": [
+      "Butyrate metabolism",
+      "Immune infiltration",
+      "Key genes",
+      "Nomogram",
+      "Sepsis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Sepsis/genetics/metabolism",
+      "*Butyrates/metabolism",
+      "Gene Expression Profiling",
+      "Transcription Factors/genetics/metabolism",
+      "Molecular Docking Simulation",
+      "DNA-Binding Proteins/genetics/metabolism",
+      "Gene Regulatory Networks",
+      "THP-1 Cells",
+      "Lipopolysaccharides",
+      "Computational Biology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Yeyan",
+        "Tian, Fang",
+        "Ge, Fan",
+        "Wang, Yue",
+        "Lu, Jingxian",
+        "Zhou, Haiqi",
+        "Yan, Qixiang",
+        "Zhang, Yingfang",
+        "Zhou, Jiang",
+        "Lu, Jun"
+      ],
+      "short_names": [
+        "Zhu Y",
+        "Tian F",
+        "Ge F",
+        "Wang Y",
+        "Lu J",
+        "Zhou H",
+        "Yan Q",
+        "Zhang Y",
+        "Zhou J",
+        "Lu J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2678-2923"
+      ],
+      "affiliations": [
+        "Department of Intensive Care Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, 210029, China.",
+        "Department of Emergency Medicine, Lianyungang Affiliated Hospital of Nanjing University of Chinese Medicine, Lianyungang, 222004, China.",
+        "Department of Central Laboratory, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, 210029, China.",
+        "Department of Intensive Care Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, 210029, China.",
+        "Department of Intensive Care Medicine, Yangzhou Hospital of Traditional Chinese Medicine, Yangzhou, 225100, China.",
+        "Department of Intensive Care Medicine, Suqian Hospital of Traditional Chinese Medicine, Suqian, 223800, China.",
+        "Department of Intensive Care Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, 210029, China.",
+        "Department of Intensive Care Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, 210029, China.",
+        "Department of Intensive Care Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, 210029, China.",
+        "Department of Intensive Care Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, 210029, China. 1967chch@163.com.",
+        "Department of Intensive Care Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, 210029, China. lujun@njucm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Yeyan",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, 210029, China.",
+          "Department of Emergency Medicine, Lianyungang Affiliated Hospital of Nanjing University of Chinese Medicine, Lianyungang, 222004, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Fang",
+        "short_name": "Tian F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Central Laboratory, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Fan",
+        "short_name": "Ge F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yue",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Medicine, Yangzhou Hospital of Traditional Chinese Medicine, Yangzhou, 225100, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Jingxian",
+        "short_name": "Lu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Medicine, Suqian Hospital of Traditional Chinese Medicine, Suqian, 223800, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Haiqi",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Qixiang",
+        "short_name": "Yan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yingfang",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, 210029, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jiang",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intensive Care Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, 210029, China. 1967chch@163.com."
+        ]
+      },
+      {
+        "full_name": "Lu, Jun",
+        "short_name": "Lu J",
+        "identifiers": [
+          "0000-0002-2678-2923"
+        ],
+        "affiliations": [
+          "Department of Intensive Care Medicine, Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu Province Hospital of Chinese Medicine, Nanjing, 210029, China. lujun@njucm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC infectious diseases"
+    ],
+    "journal_abbrev": [
+      "BMC Infect Dis"
+    ],
+    "pub_date": "2025 Nov 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/12 00:26",
+    "fetched_at": "2026-10-01 06:02:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40038255",
+      "39133019",
+      "39032470",
+      "38604490",
+      "38040079",
+      "37989744",
+      "37928904",
+      "37781523",
+      "37714898",
+      "37596118",
+      "37346041",
+      "37272486",
+      "37227044",
+      "37204279",
+      "36991138",
+      "36618352",
+      "36556399",
+      "36495895",
+      "36269839",
+      "36209190",
+      "35985610",
+      "35844488",
+      "35791800",
+      "35790774",
+      "35751589",
+      "35587004",
+      "35584745",
+      "35371088",
+      "35285407",
+      "35222395",
+      "34864868",
+      "34494943",
+      "34484194",
+      "34337557",
+      "34276705",
+      "33931589",
+      "33761313",
+      "33234418",
+      "33149752",
+      "31157273",
+      "30686944",
+      "30413714",
+      "30210007",
+      "30207412",
+      "30046610",
+      "29159134",
+      "28528569",
+      "28481234",
+      "28278498",
+      "28101605",
+      "27858817",
+      "27721381",
+      "27566829",
+      "27480902",
+      "27352126",
+      "27102483",
+      "26761003",
+      "26600671",
+      "26028034",
+      "25999512",
+      "25902484",
+      "25867923",
+      "25605792",
+      "25371731",
+      "25212213",
+      "25130606",
+      "24973820",
+      "24740011",
+      "24658644",
+      "24623740",
+      "24470501",
+      "23403953",
+      "23395646",
+      "23325888",
+      "23226236",
+      "23036579",
+      "22517765",
+      "22455463",
+      "22425249",
+      "22214764",
+      "22057289",
+      "21414208",
+      "21270394",
+      "21269502",
+      "20401516",
+      "20179076",
+      "19952319",
+      "19583777",
+      "19050610",
+      "17560543",
+      "17196680",
+      "17086188",
+      "15016739",
+      "14750171",
+      "14581609",
+      "12840224",
+      "11942415",
+      "11807807",
+      "11342442",
+      "10909267",
+      "10899165",
+      "10751406",
+      "9695810",
+      "9583777",
+      "8943318"
+    ],
+    "similar": [
+      "41220037",
+      "41935768",
+      "41102315",
+      "42292668",
+      "41013727",
+      "41833346",
+      "41246299",
+      "40129981",
+      "40055592",
+      "41703488",
+      "40124361",
+      "41052072",
+      "39512836",
+      "40442788",
+      "39586719",
+      "41300749",
+      "40274894",
+      "40830558",
+      "40887626",
+      "34536521",
+      "40453984",
+      "40425742",
+      "40216809",
+      "40406126",
+      "41310008",
+      "41316541",
+      "40068024",
+      "39341981",
+      "41354822",
+      "39346628",
+      "41611834",
+      "39953444",
+      "41863100",
+      "40598243",
+      "39139563",
+      "41120603",
+      "37235492",
+      "41442003",
+      "40362669",
+      "41291978",
+      "39142001",
+      "41340627",
+      "40836320",
+      "40375981",
+      "42123445",
+      "42302029",
+      "40078458",
+      "41371106",
+      "40532306",
+      "38912048",
+      "41350331",
+      "40755781",
+      "40475761",
+      "41781900",
+      "42265520",
+      "41664335",
+      "41785251",
+      "40374866",
+      "35757392",
+      "32575108",
+      "40350654",
+      "37460430",
+      "40374840",
+      "40233623",
+      "42183235",
+      "36291136",
+      "40628770",
+      "40861493",
+      "41530916",
+      "38268224",
+      "22381171",
+      "40859027",
+      "39578562",
+      "30258285",
+      "40289127",
+      "39735547",
+      "36321557",
+      "35844622",
+      "42247642",
+      "41909133",
+      "35322335",
+      "36991484",
+      "41444522",
+      "40332792",
+      "40821971",
+      "36575422",
+      "40207815",
+      "39430765",
+      "42158874",
+      "42180604",
+      "37115484",
+      "38291374",
+      "39022342",
+      "41200172",
+      "39080525",
+      "40603950",
+      "39176085",
+      "41895505",
+      "40977739",
+      "35818227"
+    ],
+    "review": [
+      "41220037",
+      "36321557"
+    ],
+    "pmc": [
+      "12607132"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-025-11958-4",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41220037/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

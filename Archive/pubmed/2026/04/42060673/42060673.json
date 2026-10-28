@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "42060673",
+    "doi": "10.1371/journal.ppat.1014200",
+    "title": "Reorganizing the RNA polymerase II complex for replication of an infectious noncoding RNA in vivo."
+  },
+  "content": {
+    "abstract": "DNA-dependent RNA polymerases (DdRPs) recognize not only DNA but also RNA templates. This RNA-dependent RNA polymerase (RdRP) activity is exploited by bacterial 6S RNA, mammalian B2 RNA, viroids in plants, and hepatitis delta virus in human. A major knowledge gap exists regarding the molecular basis conferring this RdRP activity. Here, we provide evidence supporting the reorganization of the 12-subunit polymerase II (Pol II) to 7-subunit in vivo for PSTVd transcription. Rpb4/5/6/7/9 are not involved in PSTVd transcription in planta. A splicing variant of transcription factor IIIA with seven zinc finger domains (TFIIIA-7ZF) aids the remodeled Pol II in transcribing PSTVd. Using AlphaFold3, the structure of the remodeled Pol II with PSTVd RNA and TFIIIA-7ZF was predicted. The predicted structure and experimental data both show that the N-terminus of TFIIIA-7ZF binds to the left terminal domain of PSTVd, while the C-terminus interacts with Rpb2. Interestingly, AlphaFold3 also predicts the bending at PSTVd loop 8 in the TFIIIA-7ZF/PSTVd complex. Replacing this loop 8 with a rigid double-stranded conformation impairs the TFIIIA-7ZF/PSTVd interaction. Altogether, our data demonstrate the heterogenous organization of the Pol II enzyme on RNA template in vivo and provide structural insights into the organization of Pol II transcription complex on RNA template.",
+    "keywords": [],
+    "mesh_terms": [
+      "*RNA Polymerase II/metabolism/chemistry/genetics",
+      "*RNA Replication/physiology",
+      "*RNA, Viral/genetics/metabolism/biosynthesis",
+      "*RNA, Untranslated/genetics/metabolism/biosynthesis",
+      "Humans",
+      "Hepatitis Delta Virus/genetics",
+      "Transcription, Genetic",
+      "*Virus Replication"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hao, Jie",
+        "Qin, Zhuan",
+        "Ma, Junfei",
+        "Qu, Jie",
+        "Wang, Yunhan",
+        "Folimonova, Svetlana Y",
+        "Liu, Bin",
+        "Li, Wenwei",
+        "Wang, Ying"
+      ],
+      "short_names": [
+        "Hao J",
+        "Qin Z",
+        "Ma J",
+        "Qu J",
+        "Wang Y",
+        "Folimonova SY",
+        "Liu B",
+        "Li W",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9659-977X"
+      ],
+      "affiliations": [
+        "Department of Plant Pathology, University of Florida, Gainesville, Florida, United States of America.",
+        "Department of Microbial Pathogenesis, Yale University, New Haven, Connecticut, United States of America.",
+        "Department of Plant Pathology, University of Florida, Gainesville, Florida, United States of America.",
+        "Department of Molecular Genetics, The Ohio State University, Columbus, Ohio, United States of America.",
+        "Current address: Regeneron Pharmaceuticals Inc., Tarrytown, New York, United States of America.",
+        "Plant Molecular and Cellular Biology Program, University of Florida, Gainesville, Florida, United States of America.",
+        "Department of Plant Pathology, University of Florida, Gainesville, Florida, United States of America.",
+        "Plant Molecular and Cellular Biology Program, University of Florida, Gainesville, Florida, United States of America.",
+        "Food Science and Human Nutrition Department, University of Florida, Florida, United States of America.",
+        "Genetics Institute, University of Florida, Florida, United States of America.",
+        "Department of Microbial Pathogenesis, Yale University, New Haven, Connecticut, United States of America.",
+        "Department of Plant Pathology, University of Florida, Gainesville, Florida, United States of America.",
+        "Plant Molecular and Cellular Biology Program, University of Florida, Gainesville, Florida, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hao, Jie",
+        "short_name": "Hao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Pathology, University of Florida, Gainesville, Florida, United States of America."
+        ]
+      },
+      {
+        "full_name": "Qin, Zhuan",
+        "short_name": "Qin Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbial Pathogenesis, Yale University, New Haven, Connecticut, United States of America."
+        ]
+      },
+      {
+        "full_name": "Ma, Junfei",
+        "short_name": "Ma J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Pathology, University of Florida, Gainesville, Florida, United States of America."
+        ]
+      },
+      {
+        "full_name": "Qu, Jie",
+        "short_name": "Qu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, The Ohio State University, Columbus, Ohio, United States of America.",
+          "Current address: Regeneron Pharmaceuticals Inc., Tarrytown, New York, United States of America."
+        ]
+      },
+      {
+        "full_name": "Wang, Yunhan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Plant Molecular and Cellular Biology Program, University of Florida, Gainesville, Florida, United States of America."
+        ]
+      },
+      {
+        "full_name": "Folimonova, Svetlana Y",
+        "short_name": "Folimonova SY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Pathology, University of Florida, Gainesville, Florida, United States of America.",
+          "Plant Molecular and Cellular Biology Program, University of Florida, Gainesville, Florida, United States of America."
+        ]
+      },
+      {
+        "full_name": "Liu, Bin",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "Food Science and Human Nutrition Department, University of Florida, Florida, United States of America.",
+          "Genetics Institute, University of Florida, Florida, United States of America."
+        ]
+      },
+      {
+        "full_name": "Li, Wenwei",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbial Pathogenesis, Yale University, New Haven, Connecticut, United States of America."
+        ]
+      },
+      {
+        "full_name": "Wang, Ying",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0002-9659-977X"
+        ],
+        "affiliations": [
+          "Department of Plant Pathology, University of Florida, Gainesville, Florida, United States of America.",
+          "Plant Molecular and Cellular Biology Program, University of Florida, Gainesville, Florida, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS pathogens"
+    ],
+    "journal_abbrev": [
+      "PLoS Pathog"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/30 18:32",
+    "fetched_at": "2026-10-01 19:26:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38816438",
+      "38718835",
+      "37369200",
+      "37349206",
+      "36121876",
+      "36113479",
+      "35877068",
+      "35263622",
+      "33460914",
+      "32230827",
+      "30987196",
+      "30472190",
+      "30227597",
+      "30135580",
+      "30135578",
+      "30068655",
+      "29062891",
+      "28910391",
+      "28775211",
+      "28743025",
+      "28351991",
+      "27610567",
+      "27113774",
+      "26897654",
+      "26525452",
+      "25813043",
+      "25652824",
+      "24733897",
+      "23438601",
+      "23395899",
+      "23000482",
+      "22868264",
+      "22260999",
+      "20864038",
+      "19948763",
+      "19110459",
+      "18178767",
+      "18004386",
+      "17626045",
+      "17158328",
+      "16858867",
+      "16406459",
+      "16405997",
+      "15610738",
+      "13580867",
+      "12853946",
+      "12746495",
+      "12226494",
+      "11387440",
+      "11313498",
+      "11092823",
+      "11040209",
+      "10906174",
+      "10384284",
+      "9765523",
+      "9501194",
+      "8702741",
+      "7231549",
+      "6473106",
+      "4913914",
+      "4607037"
+    ],
+    "similar": [
+      "42060673",
+      "40462984",
+      "27113774",
+      "30068655",
+      "36121876",
+      "30227597",
+      "38563748",
+      "32230827",
+      "22422064",
+      "18004386",
+      "27099314",
+      "23395899",
+      "23416138",
+      "35336925",
+      "16341226",
+      "16775335",
+      "16959288",
+      "16912306",
+      "18032511",
+      "9705911",
+      "16933365",
+      "16618966",
+      "33351860",
+      "10913185",
+      "16406459",
+      "8764005",
+      "26789250",
+      "22158880",
+      "15827195",
+      "12746495",
+      "11782435",
+      "30642766",
+      "27767195",
+      "10199573",
+      "11387440",
+      "21730074",
+      "35269406",
+      "16903219",
+      "23151482",
+      "10906174",
+      "31391587",
+      "34878890",
+      "17584298",
+      "17307818",
+      "10668797",
+      "11839823",
+      "39762629",
+      "22954660",
+      "31826988",
+      "26186291",
+      "21468301",
+      "21252857",
+      "28002402",
+      "1316903",
+      "19307572",
+      "24917680",
+      "29910112",
+      "30626666",
+      "7521915",
+      "19841064",
+      "21467036",
+      "29792819",
+      "39715063",
+      "29875249",
+      "11278533",
+      "31964889",
+      "12140319",
+      "32060094",
+      "11713308",
+      "15890914",
+      "32669707",
+      "41665877",
+      "12553882",
+      "11581384",
+      "18682525",
+      "38316757",
+      "17073750",
+      "14963322",
+      "41110510",
+      "9829926",
+      "19875144",
+      "18056993",
+      "8496187",
+      "12445865",
+      "18552826",
+      "18480431",
+      "22869737",
+      "8709195",
+      "37331973",
+      "7513926",
+      "29087308",
+      "21326911",
+      "42268682",
+      "28115197",
+      "39316591",
+      "41781612",
+      "10644677",
+      "19923176",
+      "34762484",
+      "34652274"
+    ],
+    "review": [
+      "42060673",
+      "30227597",
+      "16933365",
+      "30642766",
+      "16903219",
+      "29792819",
+      "17073750"
+    ],
+    "pmc": [
+      "13152212"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.ppat.1014200",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42060673/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RDRP-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37083798",
+  "title": "Bioinformatics analysis combined with molecular dynamics simulation validation to elucidate the potential molecular mechanisms of Jianshen Decoction for treatment of osteoporotic fracture.",
+  "authors": "Liu, Weinian; Chen, Weijian; Hu, Mengting; Wang, Guangwei; Hu, Yuanhao; He, Qi; Xu, Yidong; Tan, Jun; Wang, Haibin; Huo, Liwei",
+  "journal": "Medicine",
+  "published_date": "2023-04-21",
+  "window": {
+    "start": "2023-04-17",
+    "end": "2023-04-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用生物信息学与分子动力学模拟研究健骨方治疗骨质疏松性骨折的机制，虽涉及DNA结合转录因子结合与MYC蛋白-药物分子对接，但核心是药物-蛋白互作而非蛋白质-DNA互作，且无TF-DNA结合位点预测或界面建模，仅边缘相关。",
+  "abstract": "Osteoporotic fracture (OPF) is a prevalent skeletal disease in the middle-aged and elderly. In clinical practice, Jianshen Decoction (JSD) has been used to treat OPFs. However, the specific effective components and mechanisms of JSD on OPF have not been explored. Therefore, this study used bioinformatics analysis combined with molecular dynamics simulation validation to explore the molecular mechanism of JSD treatment of OPF. Public databases (TCMSP, Batman TCM) were used to find the effective active components and corresponding target proteins of JSD (screening conditions: OB >/= 30%, drug-likeness >/= 0.18, half-life >/= 4). Differentially expressed genes (DEGs) related to OPF lesions were obtained based on the gene expression omnibus database (screening conditions: adjust P value < .01, | log2 FC | >/= 1.0). The BisoGenet plug-in and the CytoNCA plug-in of Cytoscape were used to derive the potential core target proteins of JSD in the treatment of OPF. The JSD active ingredient target interaction network and the JSD-OPF target protein core network were constructed using the Cytoscape software. In addition, the R language Bioconductor package and clusterProfiler package were used to perform gene ontology (GO)/Kyoto Encylopedia Of Genes And Genome (KEGG) enrichment analysis on core genes to explain the biological functions and signal pathways of core proteins. Finally, molecular docking and molecular dynamics simulations were carried out through PyMOL, AutoDockTools 1.5.6, Vina, LeDock, Discovery Studio (DS) 2019, and other software to verify the binding ability of drug active ingredients and core target proteins. A total of 245 targets and 70 active components were identified. Through protein-protein interaction (PPI) network construction, 39 core targets were selected for further research. GO/KEGG enrichment analysis showed that the DNA-binding transcription factor binding, RNA polymerase II-specific DNA-binding transcription factor binding, MAPK signaling pathway, and ErbB signaling pathway were mainly involved. The results of molecular docking and molecular dynamics simulations supported the good interaction between MYC protein and Quercetin/Stigmasterol. In this study, bioinformatics, molecular docking, and molecular dynamics simulations were used for the first time to clarify the active components, molecular targets, and key biological pathways of JSD in the treatment of OPF, providing a theoretical basis for further research.",
+  "abstract_zh": "骨质疏松性骨折（OPF）是中老年人中常见的骨骼疾病。在临床实践中，健肾汤（JSD）已被用于治疗OPF。然而，JSD对OPF的具体有效成分和作用机制尚未被探索。因此，本研究采用生物信息学分析结合分子动力学模拟验证，探讨JSD治疗OPF的分子机制。利用公共数据库（TCMSP、Batman TCM）寻找JSD的有效活性成分及相应靶蛋白（筛选条件：OB ≥ 30%，药物相似性 ≥ 0.18，半衰期 ≥ 4）。基于基因表达综合数据库获取与OPF病变相关的差异表达基因（DEGs）（筛选条件：调整P值 < .01，|log2 FC| ≥ 1.0）。使用Cytoscape的BisoGenet插件和CytoNCA插件推导JSD治疗OPF的潜在核心靶蛋白。利用Cytoscape软件构建JSD活性成分-靶点相互作用网络和JSD-OPF靶蛋白核心网络。此外，使用R语言Bioconductor包和clusterProfiler包对核心基因进行基因本体论（GO）/京都基因与基因组百科全书（KEGG）富集分析，以解释核心蛋白的生物学功能和信号通路。最后，通过PyMOL、AutoDockTools 1.5.6、Vina、LeDock、Discovery Studio（DS）2019等软件进行分子对接和分子动力学模拟，验证药物活性成分与核心靶蛋白的结合能力。共鉴定出245个靶点和70个活性成分。通过蛋白质-蛋白质相互作用（PPI）网络构建，筛选出39个核心靶点进行进一步研究。GO/KEGG富集分析显示，主要涉及DNA结合转录因子结合、RNA聚合酶II特异性DNA结合转录因子结合、MAPK信号通路和ErbB信号通路。分子对接和分子动力学模拟结果支持MYC蛋白与槲皮素/豆甾醇之间的良好相互作用。本研究首次利用生物信息学、分子对接和分子动力学模拟阐明JSD治疗OPF的活性成分、分子靶点和关键生物通路，为进一步研究提供理论基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37083798/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37083798/",
+  "paper_page_path": "papers/pubmed/37083798/index.html"
+}

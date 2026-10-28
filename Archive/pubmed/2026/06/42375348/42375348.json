@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "42375348",
+    "doi": "10.3389/fimmu.2026.1792878",
+    "title": "Multi-omics integration and in vitro validation identify IL4R, IMPA2, and PRR4 as key therapeutic targets in chronic rhinosinusitis with nasal polyps."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Chronic rhinosinusitis with nasal polyps (CRSwNP) is a common inflammatory disease with complex pathogenesis. This study aims to screen out key molecular markers and potential therapeutic targets through multi-omics data integration. METHODS: Single-cell RNA sequencing data (GSE276503) and transcriptome data (GSE136825, GSE179265) from the GEO database were integrated. Quality control, normalization, clustering, annotation, multi-omics Integration and in Vitro Validation were performed. RESULTS: 4460 differentially expressed genes and 732 hub genes were identified. MR yielded 1673 disease-related genes. After integrating with druggable genes, 43 candidate genes were screened, and they were enriched in complement/coagulation cascades and hematopoietic cell lineage pathways. Machine learning identified three key genes: IL4R and IMPA2 (upregulated in CRSwNP) and PRR4 (downregulated). Immune analysis showed increased monocytes, M2 macrophages, and neutrophils, with decreased memory CD4 T cells in CRSwNP. We constructed a ceRNA network around the key genes and identified transcription factors including GATA2. Drug prediction yielded 26 potential drugs, with molecular docking confirming strong binding of raloxifene (IL4R), luteolin (IMPA2), and metronidazole (PRR4). MR preliminarily suggested IL4R and IMPA2 as potential risk factors and PRR4 as a potential protective factor for CRSwNP. The co-location analysis further evaluated the association between genetic variation of key genes and CRSwNP. Knockdown of IL4R or IMPA2, as well as overexpression of PRR4, significantly attenuated lipopolysaccharide (LPS)-induced cellular injury by reducing apoptosis, suppressing inflammatory responses, and restoring epithelial barrier integrity (all P < 0.001). These findings confirmed the protective effects of targeting these key genes against CRSwNP-related inflammation and epithelial dysfunction. CONCLUSION: This multi-omics approach identified three key genes in CRSwNP pathogenesis and their regulatory mechanisms. In vitro functional experiments further validated that modulation of these key genes can effectively protect nasal epithelial cells from inflammatory injury, providing new molecular targets and potential therapeutic drugs for CRSwNP diagnosis and treatment.",
+    "keywords": [
+      "Mendelian randomization",
+      "chronic rhinosinusitis with nasal polyps",
+      "immune infiltration",
+      "machine learning",
+      "molecular docking",
+      "single-cell sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Nasal Polyps/genetics/drug therapy/immunology",
+      "*Rhinosinusitis/genetics/drug therapy/immunology",
+      "Chronic Disease",
+      "*Interleukin-4 Receptor alpha Subunit/genetics/metabolism",
+      "Multiomics",
+      "*RNA-Binding Proteins/genetics/metabolism",
+      "Molecular Docking Simulation",
+      "Gene Expression Profiling",
+      "*Sinusitis/genetics",
+      "Transcriptome",
+      "Gene Regulatory Networks",
+      "*Rhinitis/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wei, Bo",
+        "Gan, Weigang",
+        "Li, Jiaxin",
+        "Wang, Feng",
+        "Wang, Jun",
+        "Wang, Binbin",
+        "He, Jiaoyu",
+        "Liu, Feng"
+      ],
+      "short_names": [
+        "Wei B",
+        "Gan W",
+        "Li J",
+        "Wang F",
+        "Wang J",
+        "Wang B",
+        "He J",
+        "Liu F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Otolaryngology Head and Neck Surgery, West China Hospital, Sichuan University, Chengdu, China.",
+        "Department of Otolaryngology Head and Neck Surgery, West China Hospital, Sichuan University, Chengdu, China.",
+        "Department of Otolaryngology Head and Neck Surgery, West China Hospital, Sichuan University, Chengdu, China.",
+        "Department of Otolaryngology Head and Neck Surgery, West China Hospital, Sichuan University, Chengdu, China.",
+        "Department of Otolaryngology Head and Neck Surgery, West China Hospital, Sichuan University, Chengdu, China.",
+        "Department of Otolaryngology Head and Neck Surgery, West China Hospital, Sichuan University, Chengdu, China.",
+        "Renji Medical Research Center, Chengdu Second People's Hospital, Chengdu, China.",
+        "Department of Otolaryngology Head and Neck Surgery, West China Hospital, Sichuan University, Chengdu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wei, Bo",
+        "short_name": "Wei B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology Head and Neck Surgery, West China Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Gan, Weigang",
+        "short_name": "Gan W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology Head and Neck Surgery, West China Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiaxin",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology Head and Neck Surgery, West China Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Feng",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology Head and Neck Surgery, West China Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jun",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology Head and Neck Surgery, West China Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Binbin",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology Head and Neck Surgery, West China Hospital, Sichuan University, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "He, Jiaoyu",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "Renji Medical Research Center, Chengdu Second People's Hospital, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Feng",
+        "short_name": "Liu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Otolaryngology Head and Neck Surgery, West China Hospital, Sichuan University, Chengdu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/30 06:31",
+    "fetched_at": "2026-10-02 00:49:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39791191",
+      "39636450",
+      "38744174",
+      "38639006",
+      "38549814",
+      "38360807",
+      "38273754",
+      "38113772",
+      "37843944",
+      "37781651",
+      "37624387",
+      "37530602",
+      "37245199",
+      "37194070",
+      "37176721",
+      "36841024",
+      "36745102",
+      "36623776",
+      "36059464",
+      "36055244",
+      "35908813",
+      "35682987",
+      "35606866",
+      "34871152",
+      "34854144",
+      "33846604",
+      "33804263",
+      "33725943",
+      "33529503",
+      "33148074",
+      "33102478",
+      "32961745",
+      "32828944",
+      "32740860",
+      "32390393",
+      "32139893",
+      "32121307",
+      "31839751",
+      "31547708",
+      "31543428",
+      "31382760",
+      "30054566",
+      "29876323",
+      "29350877",
+      "29285053",
+      "28987810",
+      "28165122",
+      "28122634",
+      "27859303",
+      "27544740",
+      "26949058",
+      "26846377",
+      "25390332",
+      "25043027",
+      "24782455",
+      "23688414",
+      "22840853",
+      "20192806",
+      "12920052",
+      "8624821"
+    ],
+    "similar": [
+      "42375348",
+      "41327642",
+      "40158428",
+      "42266688",
+      "41855680",
+      "41842984",
+      "40461517",
+      "40089249",
+      "41924281",
+      "42404008",
+      "41486802",
+      "41277316",
+      "36466903",
+      "30661889",
+      "32047813",
+      "40916281",
+      "37466964",
+      "38965846",
+      "40720416",
+      "42295138",
+      "39191825",
+      "34666467",
+      "35572732",
+      "38402873",
+      "41401564",
+      "41030501",
+      "39612457",
+      "39830981",
+      "31439685",
+      "38280891",
+      "27216292",
+      "42236612",
+      "42299589",
+      "41080564",
+      "41948328",
+      "42015036",
+      "40447198",
+      "38965845",
+      "42050137",
+      "37385124",
+      "42123445",
+      "38229690",
+      "39871287",
+      "33936025",
+      "41186507",
+      "41143458",
+      "41388523",
+      "40774628",
+      "41358199",
+      "40216809",
+      "41847384",
+      "41806939",
+      "30283454",
+      "31326962",
+      "42158856",
+      "42031098",
+      "42093293",
+      "42509710",
+      "39522652",
+      "38797240",
+      "42471019",
+      "39874886",
+      "33611865",
+      "42074514",
+      "42565562",
+      "42391245",
+      "40511559",
+      "42435052",
+      "41105577",
+      "29337425",
+      "33603773",
+      "36255469",
+      "35697826",
+      "41067280",
+      "38965844",
+      "39644500",
+      "37920240",
+      "41342434",
+      "41716413",
+      "41101222",
+      "42223712",
+      "40678918",
+      "40894073",
+      "42421348",
+      "34148047",
+      "39219695",
+      "41601671",
+      "40207230",
+      "40600933",
+      "30982052",
+      "37571876",
+      "40406126",
+      "35628459",
+      "40821793",
+      "39464338",
+      "39488921",
+      "28665518",
+      "31922185",
+      "40922486",
+      "41237469"
+    ],
+    "review": [
+      "42375348",
+      "41101222"
+    ],
+    "pmc": [
+      "13310663"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/sinusitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sinusitis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42375348/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2026.1792878",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

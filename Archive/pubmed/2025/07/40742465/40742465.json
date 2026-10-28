@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "40742465",
+    "doi": "10.1007/s00592-025-02557-5",
+    "title": "Identification and validation of tricarboxylic acid cycle-related diagnostic biomarkers for diabetic nephropathy via weighted gene co-expression network analysis and single-cell transcriptome analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Diabetic nephropathy (DN) is a prevalent and serious complication of diabetes, characterized by high incidence and significant morbidity. Despite growing evidence that the tricarboxylic acid (TCA) cycle plays a crucial role in DN progression, the diagnostic potential of TCA-related genes has yet to be fully explored. METHODS: This study began by analyzing the GSE131882 dataset to reveal the expression patterns of TCA-related genes in various renal cell types and to identify genes that differ in expression between high and low subgroups. The GSE30122 dataset was then examined to identify genes with differential expression in DN. Single-sample gene set enrichment analysis (ssGSEA) and weighted gene co-expression network analysis (WGCNA) were applied to pinpoint TCA-related gene modules. Following this, multiple machine learning techniques were employed to analyze the TCA gene set that showed differential expression at both cellular and sample levels, allowing us to identify the hub genes. A diagnostic model was constructed, with its effectiveness validated through ROC analysis. The immune landscape of DN was assessed using ssGSEA. GeneMANIA and NetworkAnalyst were also utilized to predict genes with similar functions, as well as miRNAs and transcription factors (TFs) that may regulate these diagnostic genes. Finally, single-cell RNA sequencing (scRNA-seq) data confirmed the expression patterns of these genes. RESULTS: Two TCA-related genes, HPGD and G6PC, were identified as potential diagnostic markers for DN. ROC analysis demonstrated that these genes and their predictive model exhibited strong diagnostic performance in both training and validation cohorts. Immune landscape analysis revealed a more active immune microenvironment in DN patients compared to controls. Additionally, 59 miRNAs and 15 TFs were predicted to regulate the expression of HPGD and G6PC, along with 20 functionally related genes. scRNA-seq data highlighted that HPGD and G6PC are predominantly expressed in glomerular and proximal tubular cells. CONCLUSION: Two reliable TCA-related biomarkers were pinpointed, potentially advancing early diagnosis and management of DN.",
+    "keywords": [
+      "Diabetic nephropathy",
+      "Diagnostic biomarkers",
+      "Machine learning",
+      "Single-cell RNA sequencing",
+      "TCA cycle",
+      "Transcriptome analysis",
+      "WGCNA"
+    ],
+    "mesh_terms": [
+      "*Diabetic Nephropathies/genetics/diagnosis/metabolism",
+      "Humans",
+      "*Gene Regulatory Networks",
+      "Gene Expression Profiling/methods",
+      "Biomarkers/metabolism",
+      "*Citric Acid Cycle/genetics",
+      "*Transcriptome",
+      "Single-Cell Analysis/methods",
+      "MicroRNAs/genetics",
+      "Single-Cell Gene Expression Analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Xuelin",
+        "Wu, Yichen",
+        "Ying, Guanghui",
+        "Xia, Min",
+        "He, Qien",
+        "Chen, Zhaogui",
+        "Zhang, Qiao",
+        "Liu, Li",
+        "Liu, Xia",
+        "Li, Yongtao"
+      ],
+      "short_names": [
+        "He X",
+        "Wu Y",
+        "Ying G",
+        "Xia M",
+        "He Q",
+        "Chen Z",
+        "Zhang Q",
+        "Liu L",
+        "Liu X",
+        "Li Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-1445-4563"
+      ],
+      "affiliations": [
+        "Kidney Disease Center, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, 310003, Zhejiang Province, China. hexuelin2018@zju.edu.cn.",
+        "Department of Nephrology, Beilun People's Hospital, Ningbo, 315826, Zhejiang Province, China. hexuelin2018@zju.edu.cn.",
+        "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, College of Medicine, Zhejiang University, Hangzhou, 310003, Zhejiang Province, China.",
+        "Department of Nephrology, Beilun People's Hospital, Ningbo, 315826, Zhejiang Province, China.",
+        "Department of Nephrology, Beilun People's Hospital, Ningbo, 315826, Zhejiang Province, China.",
+        "Department of Nephrology, Beilun People's Hospital, Ningbo, 315826, Zhejiang Province, China.",
+        "Department of Nephrology, Beilun People's Hospital, Ningbo, 315826, Zhejiang Province, China.",
+        "Phase I Clinical Research Center, The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Traditional Chinese Medicine), Hangzhou, 310006, China.",
+        "Department of Library, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, 310003, Zhejiang Province, China.",
+        "Institute for Intelligent Bio/ChemManufacturing (iBCM), Zhejiang University (ZJU)-Hangzhou Global Scientific and Technological Innovation Center, Hangzhou, China.",
+        "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, College of Medicine, Zhejiang University, Hangzhou, 310003, Zhejiang Province, China. waveli@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Xuelin",
+        "short_name": "He X",
+        "identifiers": [],
+        "affiliations": [
+          "Kidney Disease Center, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, 310003, Zhejiang Province, China. hexuelin2018@zju.edu.cn.",
+          "Department of Nephrology, Beilun People's Hospital, Ningbo, 315826, Zhejiang Province, China. hexuelin2018@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Yichen",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, College of Medicine, Zhejiang University, Hangzhou, 310003, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Ying, Guanghui",
+        "short_name": "Ying G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Beilun People's Hospital, Ningbo, 315826, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Xia, Min",
+        "short_name": "Xia M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Beilun People's Hospital, Ningbo, 315826, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "He, Qien",
+        "short_name": "He Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Beilun People's Hospital, Ningbo, 315826, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhaogui",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Beilun People's Hospital, Ningbo, 315826, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qiao",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Phase I Clinical Research Center, The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Traditional Chinese Medicine), Hangzhou, 310006, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Li",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Library, The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, 310003, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xia",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Intelligent Bio/ChemManufacturing (iBCM), Zhejiang University (ZJU)-Hangzhou Global Scientific and Technological Innovation Center, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yongtao",
+        "short_name": "Li Y",
+        "identifiers": [
+          "0009-0007-1445-4563"
+        ],
+        "affiliations": [
+          "State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, College of Medicine, Zhejiang University, Hangzhou, 310003, Zhejiang Province, China. waveli@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta diabetologica"
+    ],
+    "journal_abbrev": [
+      "Acta Diabetol"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/31 12:34",
+    "fetched_at": "2026-09-30 22:50:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39838413",
+      "39426930",
+      "38968594",
+      "38851695",
+      "38566100",
+      "38431189",
+      "38282028",
+      "38124367",
+      "37843477",
+      "37676635",
+      "37545494",
+      "37539055",
+      "37428249",
+      "37127348",
+      "36969169",
+      "36581208",
+      "36405700",
+      "36211448",
+      "36181578",
+      "36045667",
+      "35912988",
+      "35813463",
+      "35798691",
+      "35144259",
+      "35130617",
+      "34928443",
+      "34791910",
+      "34506229",
+      "34321869",
+      "33793846",
+      "32392191",
+      "31027998",
+      "29602393",
+      "29512507",
+      "29456246",
+      "28868790",
+      "28803771",
+      "27914710",
+      "27699244",
+      "26044597",
+      "25605792",
+      "25249672",
+      "21414208",
+      "21261520",
+      "20620673",
+      "19560552",
+      "19114008",
+      "18820682",
+      "18449899",
+      "16199517",
+      "14693989",
+      "10868971"
+    ],
+    "similar": [
+      "40742465",
+      "38968594",
+      "40374840",
+      "40948769",
+      "34215202",
+      "39838413",
+      "41479901",
+      "39265357",
+      "37250717",
+      "38851464",
+      "39916957",
+      "39378654",
+      "37738894",
+      "37385224",
+      "38774257",
+      "36329882",
+      "40641111",
+      "33887734",
+      "39953123",
+      "40312440",
+      "40775242",
+      "37063851",
+      "40503237",
+      "40764924",
+      "39444490",
+      "39865825",
+      "40470717",
+      "41438111",
+      "38951833",
+      "40958910",
+      "41432483",
+      "39557806",
+      "36627452",
+      "30019103",
+      "40228227",
+      "39370621",
+      "38394492",
+      "41503916",
+      "36482994",
+      "36969169",
+      "41503644",
+      "36154667",
+      "40555691",
+      "40276515",
+      "40362233",
+      "35702773",
+      "39456069",
+      "40782934",
+      "40097518",
+      "40175565",
+      "38390317",
+      "27855634",
+      "40243723",
+      "41052072",
+      "39319258",
+      "35909518",
+      "41006377",
+      "34790229",
+      "40950408",
+      "40405297",
+      "38053423",
+      "39799269",
+      "39923303",
+      "34245661",
+      "37745718",
+      "40350654",
+      "36681521",
+      "40097519",
+      "41013556",
+      "30078220",
+      "35937822",
+      "37312900",
+      "39478056",
+      "36896170",
+      "39647286",
+      "40532306",
+      "35834115",
+      "40615901",
+      "40460381",
+      "38043109",
+      "39391879",
+      "27279428",
+      "41009952",
+      "40421012",
+      "38863714",
+      "41465092",
+      "39028495",
+      "40216809",
+      "41422136",
+      "38374020",
+      "40046619",
+      "40589764",
+      "39268370",
+      "40348252",
+      "39026663",
+      "40612944",
+      "39920798",
+      "40967560",
+      "35663304",
+      "40124361"
+    ],
+    "review": [
+      "40742465",
+      "30019103",
+      "38394492"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00592-025-02557-5",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

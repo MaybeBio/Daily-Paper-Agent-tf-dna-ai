@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "pmid": "41041340",
+    "doi": "10.3389/fimmu.2025.1653738",
+    "title": "Xrcc6 coordinates cardiomyocyte repair and immune regulation in myocardial ischemia-reperfusion injury: Fisetin as a therapeutic modulator."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Myocardial ischemia-reperfusion (I/R) injury remains a major challenge in the treatment of ischemic heart disease. The DNA damage repair gene Xrcc6 has been implicated in cardiovascular pathology, but its role in myocardial I/R injury and its regulation by natural compounds remains unclear. We aimed to elucidate the role of Xrcc6 in I/R injury and to investigate the cardioprotective effects of the flavonoid Fisetin through Xrcc6-targeted modulation. METHODS: We integrated bulk and single-cell RNA sequencing to analyze cardiomyocyte subtypes and gene expression profiles, and constructed co-expression modules using high-dimensional weighted gene co-expression network analysis (hdWGCNA). Trajectory inference and intercellular communication analyses were performed to assess cell fate dynamics and immune regulation. Molecular docking and dynamics simulations were used to evaluate Fisetin-Xrcc6 interactions. In vivo murine models of I/R injury were employed to confirm transcriptomic findings and to assess Fisetin's cardioprotective mechanisms. RESULTS: Transcriptomic analysis revealed significant downregulation of Xrcc6 post-I/R, with single-cell data highlighting vCMs3 as a reparative cardiomyocyte subtype whose abundance correlated with Xrcc6 expression. Pseudotime analysis positioned vCMs3 at early differentiation stages with dynamic Xrcc6 expression along the trajectory. CIBERSORT and CellChat linked Xrcc6 to macrophage polarization and immune regulation. Docking simulations demonstrated stable Fisetin-Xrcc6 binding (binding free energy: -7.55 kcal/mol). In vivo, Fisetin upregulated Xrcc6, reduced DNA damage (gammaH2A.X suppression), modulated inflammatory responses, and improved cardiac function after I/R injury. DISCUSSION: Our study identifies Xrcc6 as a dual regulator of cardiomyocyte fate determination and immune modulation during myocardial I/R injury. Fisetin confers cardioprotection by targeting Xrcc6, offering mechanistic insights into DNA repair-immune crosstalk and providing a potential therapeutic strategy for ischemic heart disease.",
+    "keywords": [
+      "DNA damage",
+      "Fisetin",
+      "XRCC6",
+      "ischemia-reperfusion",
+      "molecular dynamics"
+    ],
+    "mesh_terms": [
+      "*Flavonols/pharmacology",
+      "Animals",
+      "*Myocytes, Cardiac/drug effects/metabolism/immunology/pathology",
+      "Mice",
+      "*Myocardial Reperfusion Injury/immunology/drug therapy/metabolism/genetics/pathology",
+      "*Ku Autoantigen/metabolism/genetics/chemistry",
+      "Molecular Docking Simulation",
+      "Male",
+      "Humans",
+      "DNA Repair",
+      "Disease Models, Animal",
+      "Mice, Inbred C57BL"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Yijie",
+        "Li, Jin",
+        "Guo, Linlong",
+        "Chen, Mu",
+        "Pan, Haiqing",
+        "Li, Zhanqing",
+        "Tian, Hua",
+        "Yu, Huan",
+        "Zhou, Yuhong",
+        "Xiao, Hongwen"
+      ],
+      "short_names": [
+        "He Y",
+        "Li J",
+        "Guo L",
+        "Chen M",
+        "Pan H",
+        "Li Z",
+        "Tian H",
+        "Yu H",
+        "Zhou Y",
+        "Xiao H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Harbin Medical University, Harbin, Heilongjiang, China.",
+        "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Harbin Medical University, Harbin, Heilongjiang, China.",
+        "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+        "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Yijie",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+          "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China.",
+          "Harbin Medical University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jin",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+          "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China.",
+          "Harbin Medical University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Linlong",
+        "short_name": "Guo L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+          "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Mu",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+          "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Haiqing",
+        "short_name": "Pan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+          "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhanqing",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+          "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Hua",
+        "short_name": "Tian H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+          "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Huan",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+          "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yuhong",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+          "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Hongwen",
+        "short_name": "Xiao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medicine, Key Laboratory Of Functional and Clinical Translational Medicine, Xiamen Medical College, Xiamen, Fujian, China.",
+          "Department of Basic Medicine, Institute of Respiratory Diseases Xiamen Medical College of Respiratory Diseases, Xiamen Medical College, Xiamen, Fujian, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/03 06:32",
+    "fetched_at": "2026-10-01 03:11:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40328761",
+      "39920839",
+      "39600808",
+      "39529960",
+      "39289562",
+      "39013860",
+      "38956023",
+      "38895959",
+      "38653154",
+      "38604212",
+      "38562882",
+      "38395651",
+      "37981501",
+      "37541027",
+      "37426759",
+      "37389674",
+      "36718860",
+      "36400800",
+      "36336403",
+      "35864967",
+      "35533608",
+      "35422902",
+      "35181472",
+      "35105170",
+      "34837343",
+      "34800627",
+      "34594043",
+      "34586825",
+      "34545085",
+      "34055195",
+      "33917194",
+      "33664937",
+      "33612829",
+      "32175507",
+      "32173461",
+      "31740819",
+      "31714766",
+      "31263275",
+      "30899105",
+      "30219317",
+      "29914354",
+      "29409532",
+      "28527533",
+      "28213268",
+      "27163728",
+      "26517521",
+      "25822800",
+      "25550082",
+      "25516281",
+      "24656613",
+      "23861901",
+      "23518600",
+      "19499576",
+      "16211538",
+      "15618054",
+      "15172403",
+      "10958819"
+    ],
+    "similar": [
+      "41041340",
+      "40946941",
+      "40722060",
+      "32926843",
+      "39197598",
+      "40209966",
+      "39485791",
+      "40962010",
+      "39961475",
+      "39710208",
+      "32693673",
+      "40085190",
+      "38934866",
+      "41203033",
+      "41166904",
+      "40523538",
+      "34392494",
+      "41229390",
+      "38708602",
+      "26873964",
+      "39239543",
+      "41107601",
+      "41284055",
+      "40451467",
+      "37880513",
+      "35533608",
+      "23680593",
+      "39133953",
+      "39626862",
+      "31220942",
+      "29016703",
+      "38449872",
+      "30735434",
+      "39245438",
+      "38452414",
+      "40396239",
+      "39676707",
+      "40189079",
+      "38867293",
+      "30903623",
+      "41101069",
+      "40286784",
+      "39357647",
+      "24058479",
+      "40082768",
+      "25150882",
+      "41052986",
+      "40646505",
+      "40044064",
+      "37725888",
+      "34974801",
+      "39747134",
+      "41077266",
+      "24838101",
+      "33113431",
+      "32828305",
+      "40089859",
+      "30134547",
+      "39206545",
+      "41223038",
+      "39094441",
+      "40797070",
+      "39424266",
+      "31050560",
+      "35126807",
+      "39548367",
+      "33208036",
+      "38417368",
+      "40848413",
+      "26874029",
+      "32539724",
+      "39905501",
+      "41406479",
+      "30880250",
+      "40373207",
+      "28343995",
+      "40912610",
+      "33727794",
+      "40471103",
+      "38734270",
+      "39447668",
+      "25633836",
+      "28173848",
+      "40960915",
+      "29636855",
+      "41442992",
+      "39306269",
+      "38062310",
+      "40079359",
+      "41196309",
+      "33762932",
+      "31327236",
+      "38823174",
+      "40536643",
+      "38310454",
+      "40097083",
+      "40585998",
+      "40460607",
+      "29351463",
+      "32449438"
+    ],
+    "review": [
+      "41041340",
+      "35533608",
+      "30134547"
+    ],
+    "pmc": [
+      "12483892"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41041340/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1653738",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

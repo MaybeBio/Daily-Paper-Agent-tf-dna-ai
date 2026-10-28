@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supporting information references.
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by the presented evidence. No assessment of literature novelty beyond the provided text.
+- **Shared manuscript claim summary** The authors present a combined experimental and computational study of the effects of 5-hydroxymethylcytosine (hmC) versus 5-methylcytosine (mC) and unmodified cytosine on DNA structure, stability, stiffness, nucleosome formation, and recognition by methylated-DNA binding domains (MBDs). They conclude that hmC does not revert DNA physical properties to those of unmodified cytosine, that hmC increases stiffness similarly to or more than mC, and that differential MBD binding, rather than physical property changes, likely explains the biological effects of hmC.
+- **Visible evidence base** UV-melting experiments, NMR spectroscopy with structural refinement, molecular dynamics simulations (0.5 μs per system, 33 systems), circularization assays, nucleosome reconstitution experiments, and thermodynamic integration calculations for MBD binding free energies.
+- **Missing materials affecting confidence** The full supporting information file (S1 File) is referenced extensively but not provided. This includes tables of thermodynamic parameters, NMR assignments, additional figures, and detailed methods for nucleosome reconstitution and thermodynamic integration. Without these, several quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in epigenetic regulation: whether the conversion of 5-methylcytosine to 5-hydroxymethylcytosine by TET enzymes reverts DNA physical properties to those of unmodified cytosine, or whether the biological effects of hmC arise from altered protein recognition. The authors combine multiple complementary techniques, which is a strength. The conclusion that hmC does not restore unmodified cytosine properties and instead behaves similarly to mC in terms of stiffness is clearly stated and supported by the presented data. However, several technical details and quantitative results are only available in the supporting information, which was not provided for this review. The statistical treatment of some experimental results, particularly the nucleosome reconstitution data, is not fully described. The thermodynamic integration calculations are described but the convergence and error analysis are not fully detailed in the main text. Overall, the core claims are plausible and generally supported by the evidence presented, but full verification requires access to the supporting materials.
+- **Who would be interested in the results, and why** Researchers in epigenetics, chromatin biology, DNA biophysics, and computational chemistry would find these results relevant. The study provides quantitative data on how a specific epigenetic modification alters DNA mechanical properties and protein binding, which is directly relevant to understanding gene regulation mechanisms. The combination of experiment and simulation also makes it of interest to methodologists in these fields.
+- **Major Strengths**
+  - The study uses a multi-technique approach, combining UV-melting, NMR, MD simulations, circularization assays, and nucleosome reconstitution, which provides complementary perspectives on the problem.
+  - The authors explicitly address a common hypothesis (that hmC reverts mC effects) and provide evidence against it, which is a clear and testable contribution.
+  - The MD simulations cover all unique tetranucleotide environments, which is a systematic and thorough approach.
+  - The thermodynamic integration calculations for MBD binding are a valuable addition, as they directly address the protein recognition mechanism.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "hmC is even more rigid than mC" based on MD simulations and circularization experiments.
+  - **Evidence pointer** Section 2.3, Table 2, Figure 4, S1 File
+  - **Concern** The claim that hmC is more rigid than mC is central to the paper's conclusion. However, the quantitative support for this specific ordering (hmC > mC) is not fully presented in the main text. Table 2 is referenced but not shown in the provided material. The circularization experiments (Figure 4) are described as showing the ordering, but the statistical significance of the difference between mC and hmC is not stated. The MD-derived stiffness values are presented as averages, but the spread or uncertainty is not given. Without these details, it is not possible to assess whether the hmC > mC difference is robust or within noise.
+  - **Why it matters** The paper's central conclusion that hmC does not revert to unmodified cytosine behavior and is at least as stiff as mC depends critically on this specific comparison. If the hmC versus mC difference is not statistically robust, the conclusion would need to be weakened.
+  - **Resolution test** Provide the full stiffness values with error bars or confidence intervals for all three variants (C, mC, hmC) for the key tetranucleotide steps. State the statistical significance of the hmC versus mC difference in the circularization assays. If the difference is not significant, revise the claim to state that hmC is at least as stiff as mC, rather than more rigid.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "MBD1 has the highest specificity for mC compared to hmC, MBD2 and MeCP2 show a small preference for the methylated DNA, MBD3 seems unable to distinguish between mC and hmC" based on thermodynamic integration calculations.
+  - **Evidence pointer** Section 2.4, Figure 7, Figure 8, Supporting Methods in S1 File
+  - **Concern** The thermodynamic integration results are presented as the basis for a key biological conclusion. However, the main text does not provide the actual computed free energy differences (ΔΔG values) for the mC to hmC transformation in each MBD complex. The error bars on these calculations are not stated. The convergence of the TI calculations is not demonstrated in the main text. The description of the method is brief and relies heavily on a previous publication. Without the numerical values and an assessment of their uncertainty, the claim of differential specificity cannot be evaluated.
+  - **Why it matters** The conclusion that differential MBD binding explains hmC biological effects is a major part of the paper's significance. If the computed free energy differences are small relative to the statistical error, the conclusion would be unsupported.
+  - **Resolution test** Provide a table of the computed ΔΔG values (mC to hmC) for each MBD, with associated statistical errors. Demonstrate convergence of the TI calculations, for example by showing the integrand as a function of λ. If the differences between MBDs are not significant, revise the conclusion accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "the OH-N6 hydrogen bond is not highly populated" based on the absence of an NMR signal for the hydroxyl proton.
+  - **Evidence pointer** Section 2.2, S1 File
+  - **Concern** The absence of an NMR signal for the hydroxyl proton is interpreted as evidence that the OH-N6 hydrogen bond is not highly populated. This is a reasonable interpretation, but it is an indirect one. The hydroxyl proton could be undetectable for other reasons, such as rapid exchange with solvent even if the hydrogen bond is formed transiently. The authors acknowledge this possibility but do not provide additional evidence to support their interpretation. The MD simulations could potentially address this, but the analysis is not presented in the main text.
+  - **Why it matters** This is a minor point in the context of the paper, but it is presented as a structural finding. Overinterpretation of a negative result could mislead readers.
+  - **Resolution test** Provide an analysis of the MD trajectories that quantifies the occupancy of the OH-N6 hydrogen bond. If the MD simulations support the NMR interpretation, state this explicitly. If not, soften the claim to state that the hydrogen bond is not detected by NMR.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Table A, Table B, Table C in S1 File
+  - **Issue** The text in Section 2.1 is partially duplicated. The sentence "Processing of melting profiles confirms the small impact of C➔mC➔hmC substitutions in duplex stability, and the predictable enthalpy/entropy compensation, with the hydrophobicity term favouring (as expected, [47]) the stability of mC (mC >hmC>C, see Table B in S1 File)" appears twice, with the second instance referencing Table C instead of Table B. This appears to be an editing error.
+  - **Required correction** Remove the duplicated sentence and ensure the correct table is referenced.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Figure 3
+  - **Issue** The description of Figure 3 mentions a "bimodal CpG distribution" for twist. It would be helpful to state explicitly which systems show this bimodality and whether it is present in all three variants (C, mC, hmC) or only some.
+  - **Required correction** Clarify the description of Figure 3 to indicate which systems exhibit bimodality and how the epigenetic modifications affect it.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.10
+  - **Evidence pointer** Section 3.10
+  - **Issue** The description of the thermodynamic integration method states that "we collected estimates for 〈(δH)/δλ〉λ by using blocks of 20 ns" but the total simulation time per window is stated as 1 ns. This is inconsistent. The block size cannot exceed the total simulation time.
+  - **Required correction** Correct the description of the block size or the total simulation time. If the total simulation time is 1 ns, the block size should be smaller, or the total time should be longer.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Figure 8
+  - **Issue** The text refers to "white surface" and "red and green surface" in Figure 8B. It would be helpful to define these color conventions in the figure legend or in the text for readers who may not have color vision.
+  - **Required correction** Add a note to the figure legend or text describing the color scheme used in Figure 8B.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The quantitative support for the hmC > mC stiffness ordering is not fully presented.
+  - R1-M2: The thermodynamic integration results are not presented with numerical values and error estimates.
+  - R1-m3: The description of the block size in the TI calculations is internally inconsistent.
+- **Assessment against Nature-style criteria**
+  - **Originality** The question of whether hmC reverts mC physical properties is not entirely new, but the systematic combination of methods and the specific focus on MBD binding specificity provides a fresh angle. The study is not highly original in concept but is thorough in execution.
+  - **Scientific importance** The results are important for understanding the molecular mechanisms of epigenetic regulation. The conclusion that hmC does not restore unmodified cytosine properties and that differential MBD binding is the likely mechanism is a significant contribution to the field.
+  - **Interdisciplinary readership** The topic is of interest to biophysicists, computational chemists, and molecular biologists. The methods span experiment and simulation, which broadens the potential audience. However, the presentation is quite technical and may be challenging for non-specialists in computational methods.
+  - **Technical soundness** The experimental methods are standard and appear sound. The MD simulations use a well-established force field. The main technical concerns are the lack of quantitative detail for the stiffness comparison and the TI calculations, as noted above. The internal inconsistency in the TI description is a specific technical flaw.
+  - **Readability for nonspecialists** The abstract is clear and accessible. The introduction provides sufficient background. The results section is dense and assumes familiarity with DNA structural parameters and computational methods. The paper would benefit from a brief explanation of key terms for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core conclusions are plausible and the study is potentially valuable. However, the lack of quantitative detail for the key stiffness comparison and the TI calculations, along with the internal inconsistency in the methods, prevent full endorsement at this stage. The authors should provide the missing data and correct the errors.
+
+## Risk / unsupported claims
+- The claim that "hmC is even more rigid than mC" is not fully supported by the data presented in the main text, as the quantitative values and statistical significance are not provided.
+- The claim that "MBD1 has the highest specificity for mC compared to hmC" is not supported by numerical free energy differences in the main text.
+- The claim that "the OH-N6 hydrogen bond is not highly populated" is based on an indirect observation and is not corroborated by other evidence in the main text.
+- The claim that "changes in flexibility rather than in the intrinsic curvature are the main responsible for the epigenetic-induced difference in nucleosome affinity" is supported by the comparison of in-phase and anti-phase arrangements, but the statistical power of the nucleosome reconstitution experiments is not fully described.
+- The overall conclusion that "a significant part of the biological effect of d(mCpG)➔d(hmCpG) transformation can be related to an unbalance in the recognition of DNA by MBD proteins" is a reasonable inference from the simulations, but it is not directly tested experimentally.

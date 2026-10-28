@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37275904",
+  "title": "Machine learning-based solution reveals cuproptosis features in inflammatory bowel disease.",
+  "authors": "Liu, Le; Liang, Liping; Yang, Chenghai; Chen, Ye",
+  "journal": "Frontiers in immunology",
+  "published_date": "2023-06-05",
+  "window": {
+    "start": "2023-06-05",
+    "end": "2023-06-11"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用机器学习分析炎症性肠病中铜死亡相关基因与免疫微环境的关系，未涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Cuproptosis, a new cell death mode, is majorly modulated by mitochondrial metabolism and protein lipoylation. Nonetheless, cuproptosis-related genes (CRGs) have not yet been thoroughly studied for their clinical significance and relationship with the immune microenvironment in inflammatory bowel disease (IBD). METHODS: We screened CRGs that had a significant correlation with immune status, which was determined utilizing single-sample GSEA (ssGSEA) and Gene Expression Omnibus datasets (GSE75214). Furthermore, utilizing the R package \"CensusClusterPlus\", these CRGs' expression was used to obtain different patient clusters. Subsequently, gene-set enrichment analysis (GSEA), gene set variation analysis (GSVA), and CIBERSORT assessed the variations in the enrichment of gene function and the abundance of immune cell infiltration and immune functions across these clusters. Additionally, weighted gene co-expression network analysis (WGCNA) and analysis of differentially expressed genes (DEGs) were executed, and for the purpose of identifying hub genes between these clusters, the construction of protein-protein interaction (PPI) network was done. Lastly, we used the GSE36807 and GSE10616 datasets as external validation cohorts to validate the immune profiles linked to the expression of CRG. ScRNA-seq profiling was then carried out using the publicly available dataset to examine the CRGs expression in various cell clusters and under various conditions. RESULTS: Three CRGs, PDHA1, DLD, and FDX1, had a significant association with different immune profiles in IBD. Patients were subsequently classified into two clusters: low expression levels of DLD and PDHA1, and high expression levels of FDX1 were observed in Cluster 1 compared to Cluster 2. According to GSEA, Cluster 2 had a close association with the RNA processes and protein synthesis whereas Cluster 1 was substantially linked to environmental stress response and metabolism regulations. Furthermore, Cluster 2 had more immune cell types, which were characterized by abundant memory B cells, CD4+ T memory activated cells, and follicular helper T cells, and higher levels of immune-related molecules (CD44, CD276,CTLA4 and ICOS) than Cluster 1. During the analysis, the PPI network was divided into three significant MCODEs using the Molecular Complex Detection (MCODE) algorithm. The three MCODEs containing four genes respectively were linked to mitochondrial metabolism, cell development, ion and amino acid transport. Finally, external validation cohorts validated these findings, and scRNA-seq profiling demonstrated diverse intestinal cellular compositions with a wide variation in CRGs expression in the gut of IBD patients. CONCLUSIONS: Cuproptosis has been implicated in IBD, with PDHA1, DLD, and FDX1 having the potential as immune biomarkers and therapeutic targets. These results offer a better understanding of the development of precise, dependable, and cutting-edge diagnosis and treatment of IBD.",
+  "abstract_zh": "背景：铜死亡（cuproptosis）是一种新的细胞死亡模式，主要受线粒体代谢和蛋白质脂酰化调控。然而，铜死亡相关基因（CRGs）在炎症性肠病（IBD）中的临床意义及其与免疫微环境的关系尚未得到深入研究。方法：我们筛选了与免疫状态显著相关的CRGs，免疫状态通过单样本基因集富集分析（ssGSEA）和基因表达综合数据库（GSE75214）确定。此外，利用R包“CensusClusterPlus”，基于这些CRGs的表达获得不同的患者聚类。随后，基因集富集分析（GSEA）、基因集变异分析（GSVA）和CIBERSORT评估了这些聚类间基因功能富集及免疫细胞浸润丰度和免疫功能的变化。另外，进行了加权基因共表达网络分析（WGCNA）和差异表达基因（DEGs）分析，并构建蛋白质-蛋白质相互作用（PPI）网络以识别这些聚类间的核心基因。最后，我们使用GSE36807和GSE10616数据集作为外部验证队列，验证与CRG表达相关的免疫特征。随后，利用公开可用的数据集进行单细胞RNA测序（scRNA-seq）分析，以检查CRGs在不同细胞聚类和不同条件下的表达。结果：三个CRGs，即PDHA1、DLD和FDX1，与IBD中不同的免疫特征显著相关。患者随后被分为两个聚类：与聚类2相比，聚类1中观察到DLD和PDHA1的低表达水平，以及FDX1的高表达水平。根据GSEA，聚类2与RNA加工和蛋白质合成密切相关，而聚类1与环境应激反应和代谢调控显著相关。此外，聚类2具有更多的免疫细胞类型，其特征为丰富的记忆B细胞、CD4+ T记忆活化细胞和滤泡辅助T细胞，并且免疫相关分子（CD44、CD276、CTLA4和ICOS）的水平高于聚类1。在分析过程中，使用分子复合物检测（MCODE）算法将PPI网络划分为三个显著的MCODE模块。这三个分别包含四个基因的MCODE模块与线粒体代谢、细胞发育、离子和氨基酸转运相关。最后，外部验证队列验证了这些发现，scRNA-seq分析显示IBD患者肠道中细胞组成多样，CRGs表达存在广泛变异。结论：铜死亡与IBD相关，其中PDHA1、DLD和FDX1具有作为免疫生物标志物和治疗靶点的潜力。这些结果有助于更深入地理解IBD精准、可靠和前沿诊断与治疗的发展。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37275904/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37275904/",
+  "paper_page_path": "papers/pubmed/37275904/index.html"
+}

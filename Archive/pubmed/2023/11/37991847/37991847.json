@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "37991847",
+    "doi": "10.1093/bioinformatics/btad699",
+    "title": "Examining DNA breathing with pyDNA-EPBD."
+  },
+  "content": {
+    "abstract": "MOTIVATION: The two strands of the DNA double helix locally and spontaneously separate and recombine in living cells due to the inherent thermal DNA motion. This dynamics results in transient openings in the double helix and is referred to as \"DNA breathing\" or \"DNA bubbles.\" The propensity to form local transient openings is important in a wide range of biological processes, such as transcription, replication, and transcription factors binding. However, the modeling and computer simulation of these phenomena, have remained a challenge due to the complex interplay of numerous factors, such as, temperature, salt content, DNA sequence, hydrogen bonding, base stacking, and others. RESULTS: We present pyDNA-EPBD, a parallel software implementation of the Extended Peyrard-Bishop-Dauxois (EPBD) nonlinear DNA model that allows us to describe some features of DNA dynamics in detail. The pyDNA-EPBD generates genomic scale profiles of average base-pair openings, base flipping probability, DNA bubble probability, and calculations of the characteristically dynamic length indicating the number of base pairs statistically significantly affected by a single point mutation using the Markov Chain Monte Carlo algorithm. AVAILABILITY AND IMPLEMENTATION: pyDNA-EPBD is supported across most operating systems and is freely available at https://github.com/lanl/pyDNA_EPBD. Extensive documentation can be found at https://lanl.github.io/pyDNA_EPBD/.",
+    "keywords": [],
+    "mesh_terms": [
+      "Computer Simulation",
+      "*Models, Chemical",
+      "*DNA/chemistry",
+      "Software",
+      "Base Pairing",
+      "Nucleic Acid Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kabir, Anowarul",
+        "Bhattarai, Manish",
+        "Rasmussen, Kim O",
+        "Shehu, Amarda",
+        "Usheva, Anny",
+        "Bishop, Alan R",
+        "Alexandrov, Boian"
+      ],
+      "short_names": [
+        "Kabir A",
+        "Bhattarai M",
+        "Rasmussen KO",
+        "Shehu A",
+        "Usheva A",
+        "Bishop AR",
+        "Alexandrov B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1421-3643"
+      ],
+      "affiliations": [
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM 87544, United States.",
+        "Department of Computer Science, George Mason University, Fairfax, VA 22030, United States.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM 87544, United States.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM 87544, United States.",
+        "Department of Computer Science, George Mason University, Fairfax, VA 22030, United States.",
+        "Department of Surgery, Brown University, Providence, RI 02912, United States.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM 87544, United States.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM 87544, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kabir, Anowarul",
+        "short_name": "Kabir A",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM 87544, United States.",
+          "Department of Computer Science, George Mason University, Fairfax, VA 22030, United States."
+        ]
+      },
+      {
+        "full_name": "Bhattarai, Manish",
+        "short_name": "Bhattarai M",
+        "identifiers": [
+          "0000-0002-1421-3643"
+        ],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM 87544, United States."
+        ]
+      },
+      {
+        "full_name": "Rasmussen, Kim Ø",
+        "short_name": "Rasmussen KØ",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM 87544, United States."
+        ]
+      },
+      {
+        "full_name": "Shehu, Amarda",
+        "short_name": "Shehu A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, George Mason University, Fairfax, VA 22030, United States."
+        ]
+      },
+      {
+        "full_name": "Usheva, Anny",
+        "short_name": "Usheva A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Brown University, Providence, RI 02912, United States."
+        ]
+      },
+      {
+        "full_name": "Bishop, Alan R",
+        "short_name": "Bishop AR",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM 87544, United States."
+        ]
+      },
+      {
+        "full_name": "Alexandrov, Boian",
+        "short_name": "Alexandrov B",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM 87544, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2023 Nov 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/22 18:44",
+    "fetched_at": "2026-09-29 10:44:25"
+  },
+  "links": {
+    "cites": [
+      "40508116",
+      "40167300",
+      "39896490",
+      "39713350",
+      "39271116",
+      "38293094"
+    ],
+    "refs": [
+      "34496591",
+      "34221691",
+      "33465959",
+      "30709066",
+      "28851939",
+      "28361675",
+      "27248361",
+      "26846597",
+      "25434007",
+      "24893252",
+      "24062430",
+      "23378916",
+      "23341768",
+      "22936778",
+      "22904068",
+      "22089251",
+      "21991556",
+      "21968932",
+      "21625483",
+      "21209821",
+      "21047141",
+      "20019064",
+      "19282962",
+      "19264801",
+      "17279870",
+      "16774850",
+      "15698282",
+      "15447460",
+      "15004245",
+      "9759487",
+      "7753630",
+      "3037381"
+    ],
+    "similar": [
+      "37991847",
+      "37745370",
+      "33465959",
+      "16802962",
+      "18517434",
+      "19548765",
+      "34496591",
+      "17243750",
+      "31575125",
+      "18517446",
+      "22401261",
+      "17279870",
+      "16957832",
+      "15698282",
+      "12059587",
+      "23367981",
+      "19282962",
+      "19264801",
+      "11735980",
+      "22060414",
+      "16605360",
+      "18517421",
+      "16907282",
+      "18266461",
+      "36770707",
+      "35341743",
+      "15089317",
+      "19839646",
+      "24685891",
+      "20866835",
+      "20365187",
+      "30934325",
+      "10955991",
+      "23496544",
+      "18352062",
+      "25933606",
+      "16449200",
+      "18219418",
+      "22060408",
+      "12506195",
+      "18517418",
+      "16500982",
+      "17358368",
+      "17728978",
+      "15499567",
+      "22060424",
+      "10736226",
+      "28965786",
+      "30876357",
+      "39271116",
+      "16674168",
+      "17511513",
+      "28851939",
+      "26451825",
+      "32910644",
+      "15600656",
+      "22607400",
+      "17237209",
+      "18193938",
+      "16089566",
+      "16384189",
+      "15042433",
+      "18163624",
+      "26701896",
+      "24843124",
+      "15836423",
+      "23767562",
+      "16392531",
+      "18351882",
+      "18621846",
+      "38389118",
+      "16999491",
+      "34986226",
+      "22452649",
+      "21517523",
+      "32946766",
+      "10611299",
+      "15274924",
+      "27276942",
+      "15447460",
+      "22181442",
+      "15324035",
+      "23909623",
+      "21456706",
+      "25612729",
+      "19405571",
+      "16849168",
+      "16502452",
+      "20482144",
+      "17722907",
+      "15769839",
+      "17432895",
+      "17090058",
+      "20866280",
+      "24206351",
+      "16971334",
+      "23730911",
+      "7727065",
+      "23567838",
+      "10698101",
+      "26600167",
+      "21625483",
+      "23345672",
+      "23345902",
+      "19669510"
+    ],
+    "review": [
+      "37991847",
+      "22607400"
+    ],
+    "pmc": [
+      "10681863"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/37991847.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37991847/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37991847",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btad699",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.04.02.646812",
+  "title": "CREsted: modeling genomic and synthetic cell type-specific enhancers across tissues and species",
+  "authors": "Kempynck N; De Winter S; Blaauw CH; Konstantakos V; Dieltiens S; Ekşi EC; Bercier V; Taskiran II; Hulselmans G; Spanier K; Christiaens V; Van Den Bosch L; Mahieu L; Aerts S",
+  "journal": "bioRxiv",
+  "published_date": "2025-04-03",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发了基于深度学习的CREsted软件包，用于从单细胞ATAC-seq数据建模细胞类型特异性增强子，并预测TF结合位点、解析增强子语法及设计合成增强子，虽聚焦增强子而非直接TF-DNA结合机制，但方法可迁移至TF-DNA互作建模。",
+  "abstract": "Sequence-based deep learning models have become the state of the art for the analysis of the genomic regulatory code. Particularly for transcriptional enhancers, deep learning models excel at deciphering sequence features and grammar that underlie their spatiotemporal activity. To enable end-to-end enhancer modeling and design, we developed a software and modeling package, called CREsted. It combines preprocessing starting from single-cell ATAC-seq data; modeling with a choice of several architectures for training classification and regression models on either topics or pseudobulk peak heights; sequence design using multiple strategies; and downstream analysis through a collection of tools to locate transcription factor (TF) binding sites, infer the effect of a TF (activating or repressing) on enhancer accessibility, decipher enhancer grammar, and score gene loci. We demonstrate CREsted using a mouse cortex model that we validate using the BICCN collection of in vivo validated mouse brain enhancers. Classical enhancers in immune cells, including the IFNB1 enhanceosome are revisited using a PBMC model, and we assess the accuracy of TF binding site predictions with ChIP-seq. Additionally, we use CREsted to compare mesenchymal-like cancer cell states between tumor types; and we investigate different fine-tuning strategies of Borzoi within CREsted, comparing their performance and explainability with CREsted models trained from scratch. Finally, we train a CREsted model on a scATAC-seq atlas of zebrafish development and use this to design and in vivo validate cell type-specific synthetic enhancers in three tissues. For varying datasets, we demonstrate that CREsted facilitates efficient training and analyses, enabling scrutinization of the enhancer logic and design of synthetic enhancers across tissues and species. CREsted is available at https://crested.readthedocs.io .",
+  "abstract_zh": "基于序列的深度学习模型已成为基因组调控序列分析的最先进技术。特别是在转录增强子方面，深度学习模型在解读其时空活性背后的序列特征和语法方面表现出色。为实现增强子的端到端建模与设计，我们开发了一个软件和建模包，名为CREsted。它整合了从单细胞ATAC-seq数据开始的预处理；通过多种架构选择对主题或伪批量峰高进行训练分类和回归模型；使用多种策略进行序列设计；以及通过一系列工具进行下游分析，以定位转录因子（TF）结合位点、推断TF对增强子可及性的效应（激活或抑制）、解读增强子语法，并对基因位点进行评分。我们使用小鼠皮层模型展示了CREsted，并通过BICCN收集的体内验证小鼠脑增强子进行了验证。免疫细胞中的经典增强子，包括IFNB1增强体，使用PBMC模型重新审视，并通过ChIP-seq评估TF结合位点预测的准确性。此外，我们使用CREsted比较不同肿瘤类型间间充质样癌细胞状态；并研究了CREsted内Borzoi的不同微调策略，将其性能与从零训练的CREsted模型的可解释性进行比较。最后，我们在斑马鱼发育的scATAC-seq图谱上训练了一个CREsted模型，并利用该模型设计并在体内验证了三种组织中的细胞类型特异性合成增强子。针对不同数据集，我们证明CREsted促进了高效训练和分析，使增强子逻辑的细致审查及跨组织和物种的合成增强子设计成为可能。CREsted可在https://crested.readthedocs.io获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.04.02.646812",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.04.02.646812",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.04.02.646812/index.html"
+}

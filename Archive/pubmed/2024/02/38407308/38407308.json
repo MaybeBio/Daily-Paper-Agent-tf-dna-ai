@@ -1,0 +1,451 @@
+{
+  "identity": {
+    "pmid": "38407308",
+    "doi": "10.1093/nar/gkae105",
+    "title": "DNA-PK controls Apollo's access to leading-end telomeres."
+  },
+  "content": {
+    "abstract": "The complex formed by Ku70/80 and DNA-PKcs (DNA-PK) promotes the synapsis and the joining of double strand breaks (DSBs) during canonical non-homologous end joining (c-NHEJ). In c-NHEJ during V(D)J recombination, DNA-PK promotes the processing of the ends and the opening of the DNA hairpins by recruiting and/or activating the nuclease Artemis/DCLRE1C/SNM1C. Paradoxically, DNA-PK is also required to prevent the fusions of newly replicated leading-end telomeres. Here, we describe the role for DNA-PK in controlling Apollo/DCLRE1B/SNM1B, the nuclease that resects leading-end telomeres. We show that the telomeric function of Apollo requires DNA-PKcs's kinase activity and the binding of Apollo to DNA-PK. Furthermore, AlphaFold-Multimer predicts that Apollo's nuclease domain has extensive additional interactions with DNA-PKcs, and comparison to the cryo-EM structure of Artemis bound to DNA-PK phosphorylated on the ABCDE/Thr2609 cluster suggests that DNA-PK can similarly grant Apollo access to the DNA end. In agreement, the telomeric function of DNA-PK requires the ABCDE/Thr2609 cluster. These data reveal that resection of leading-end telomeres is regulated by DNA-PK through its binding to Apollo and its (auto)phosphorylation-dependent positioning of Apollo at the DNA end, analogous but not identical to DNA-PK dependent regulation of Artemis at hairpins.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA-Activated Protein Kinase/metabolism/genetics",
+      "*Telomere/metabolism/genetics",
+      "Humans",
+      "*DNA-Binding Proteins/metabolism/genetics",
+      "*Endonucleases/metabolism/genetics",
+      "DNA End-Joining Repair",
+      "Nuclear Proteins/metabolism/genetics",
+      "Ku Autoantigen/metabolism/genetics",
+      "Protein Binding",
+      "DNA Breaks, Double-Stranded",
+      "Phosphorylation",
+      "DNA/metabolism/chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sonmez, Ceylan",
+        "Toia, Beatrice",
+        "Eickhoff, Patrik",
+        "Matei, Andreea Medeea",
+        "El Beyrouthy, Michael",
+        "Wallner, Bjorn",
+        "Douglas, Max E",
+        "de Lange, Titia",
+        "Lottersberger, Francisca"
+      ],
+      "short_names": [
+        "Sonmez C",
+        "Toia B",
+        "Eickhoff P",
+        "Matei AM",
+        "El Beyrouthy M",
+        "Wallner B",
+        "Douglas ME",
+        "de Lange T",
+        "Lottersberger F"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5763-7625",
+        "ORCID: 0000-0003-0451-1839",
+        "ORCID: 0000-0003-1186-7163",
+        "ORCID: 0000-0002-9267-367X",
+        "ORCID: 0000-0002-0677-8986"
+      ],
+      "affiliations": [
+        "Department of Biomedical and Clinical Sciences, Linkoping University, Linkoping 58 183, Sweden.",
+        "Department of Biomedical and Clinical Sciences, Linkoping University, Linkoping 58 183, Sweden.",
+        "Chester Beatty Laboratories, The Institute of Cancer Research, 237 Fulham Road, London SW3 6JB, UK.",
+        "Department of Biomedical and Clinical Sciences, Linkoping University, Linkoping 58 183, Sweden.",
+        "Department of Biomedical and Clinical Sciences, Linkoping University, Linkoping 58 183, Sweden.",
+        "Department of Physics, Chemistry and Biology, Linkoping University, Linkoping 58 183, Sweden.",
+        "Chester Beatty Laboratories, The Institute of Cancer Research, 237 Fulham Road, London SW3 6JB, UK.",
+        "Laboratory for Cell Biology and Genetics, The Rockefeller University, 1230 York Avenue, NY, NY 10021, USA.",
+        "Department of Biomedical and Clinical Sciences, Linkoping University, Linkoping 58 183, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sonmez, Ceylan",
+        "short_name": "Sonmez C",
+        "identifiers": [
+          "0000-0001-5763-7625"
+        ],
+        "affiliations": [
+          "Department of Biomedical and Clinical Sciences, Linköping University, Linköping 58 183, Sweden."
+        ]
+      },
+      {
+        "full_name": "Toia, Beatrice",
+        "short_name": "Toia B",
+        "identifiers": [
+          "0000-0003-0451-1839"
+        ],
+        "affiliations": [
+          "Department of Biomedical and Clinical Sciences, Linköping University, Linköping 58 183, Sweden."
+        ]
+      },
+      {
+        "full_name": "Eickhoff, Patrik",
+        "short_name": "Eickhoff P",
+        "identifiers": [],
+        "affiliations": [
+          "Chester Beatty Laboratories, The Institute of Cancer Research, 237 Fulham Road, London SW3 6JB, UK."
+        ]
+      },
+      {
+        "full_name": "Matei, Andreea Medeea",
+        "short_name": "Matei AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical and Clinical Sciences, Linköping University, Linköping 58 183, Sweden."
+        ]
+      },
+      {
+        "full_name": "El Beyrouthy, Michael",
+        "short_name": "El Beyrouthy M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical and Clinical Sciences, Linköping University, Linköping 58 183, Sweden."
+        ]
+      },
+      {
+        "full_name": "Wallner, Björn",
+        "short_name": "Wallner B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Chemistry and Biology, Linköping University, Linköping 58 183, Sweden."
+        ]
+      },
+      {
+        "full_name": "Douglas, Max E",
+        "short_name": "Douglas ME",
+        "identifiers": [
+          "0000-0003-1186-7163"
+        ],
+        "affiliations": [
+          "Chester Beatty Laboratories, The Institute of Cancer Research, 237 Fulham Road, London SW3 6JB, UK."
+        ]
+      },
+      {
+        "full_name": "de Lange, Titia",
+        "short_name": "de Lange T",
+        "identifiers": [
+          "0000-0002-9267-367X"
+        ],
+        "affiliations": [
+          "Laboratory for Cell Biology and Genetics, The Rockefeller University, 1230 York Avenue, NY, NY 10021, USA."
+        ]
+      },
+      {
+        "full_name": "Lottersberger, Francisca",
+        "short_name": "Lottersberger F",
+        "identifiers": [
+          "0000-0002-0677-8986"
+        ],
+        "affiliations": [
+          "Department of Biomedical and Clinical Sciences, Linköping University, Linköping 58 183, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2024 May 8",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/26 12:44",
+    "fetched_at": "2026-09-29 16:10:39"
+  },
+  "links": {
+    "cites": [
+      "41871908",
+      "41546867",
+      "41516034",
+      "40849907",
+      "40716322",
+      "40240611",
+      "39719581",
+      "39462986",
+      "39050891",
+      "38996771"
+    ],
+    "refs": [
+      "37713472",
+      "37653239",
+      "37548092",
+      "37256947",
+      "36724784",
+      "35801871",
+      "35150269",
+      "35007328",
+      "34936881",
+      "34352203",
+      "33854234",
+      "33385326",
+      "33077885",
+      "32716029",
+      "32564646",
+      "31934630",
+      "31014919",
+      "30622252",
+      "30208292",
+      "28746339",
+      "28615293",
+      "28216226",
+      "27939942",
+      "27806302",
+      "26990988",
+      "26616856",
+      "26582912",
+      "25999341",
+      "25818648",
+      "25264618",
+      "24687855",
+      "24120135",
+      "24095731",
+      "23389450",
+      "22748632",
+      "22743772",
+      "22692201",
+      "21482716",
+      "20854421",
+      "20655466",
+      "20619712",
+      "20551906",
+      "20519774",
+      "20479256",
+      "20407424",
+      "19667071",
+      "19244120",
+      "18468965",
+      "18202258",
+      "17687332",
+      "17353268",
+      "17269487",
+      "16981200",
+      "16874298",
+      "16845382",
+      "16730176",
+      "16730175",
+      "16606622",
+      "15968270",
+      "15546735",
+      "15389585",
+      "15258142",
+      "15177038",
+      "15059890",
+      "12897153",
+      "12426399",
+      "12361565",
+      "12231622",
+      "11980718",
+      "11955432",
+      "11742099",
+      "11577237",
+      "11516951",
+      "11340158",
+      "11256607",
+      "11090128",
+      "10908332",
+      "10611310",
+      "10535943",
+      "10338214",
+      "10207111",
+      "10037601",
+      "9768756",
+      "9705502",
+      "9476899",
+      "7889575"
+    ],
+    "similar": [
+      "38407308",
+      "34936881",
+      "27875301",
+      "41444611",
+      "28696258",
+      "32890395",
+      "26276388",
+      "25818648",
+      "36270581",
+      "37395399",
+      "20551906",
+      "31988640",
+      "23836881",
+      "28759779",
+      "19103741",
+      "23345432",
+      "20698792",
+      "16874298",
+      "36332285",
+      "32716029",
+      "15177038",
+      "24636752",
+      "28985363",
+      "19633651",
+      "40240611",
+      "34006647",
+      "32937838",
+      "28216226",
+      "23322783",
+      "15941674",
+      "35801871",
+      "36724784",
+      "12954774",
+      "16857680",
+      "16914548",
+      "27130816",
+      "18501428",
+      "28641126",
+      "20407424",
+      "40659092",
+      "15258142",
+      "28652322",
+      "37653239",
+      "18644470",
+      "17963495",
+      "32824372",
+      "15162010",
+      "25973742",
+      "28082683",
+      "25841101",
+      "28840859",
+      "39128395",
+      "35580045",
+      "27198222",
+      "32779701",
+      "40328361",
+      "19893054",
+      "25799990",
+      "40707444",
+      "33077952",
+      "34056803",
+      "33854234",
+      "15699324",
+      "26990988",
+      "12547193",
+      "25582120",
+      "40114375",
+      "18846213",
+      "29453899",
+      "33606972",
+      "32868446",
+      "24520318",
+      "31141305",
+      "17438073",
+      "19505854",
+      "34953661",
+      "34352203",
+      "24220101",
+      "12379113",
+      "23308051",
+      "19244120",
+      "25795113",
+      "19188702",
+      "24680878",
+      "28132842",
+      "35197472",
+      "31125797",
+      "39197593",
+      "18316419",
+      "11376007",
+      "22404984",
+      "20195511",
+      "12231622",
+      "29078113",
+      "23555296",
+      "19667071",
+      "19892829",
+      "21030321",
+      "23610439",
+      "12897153"
+    ],
+    "review": [
+      "38407308",
+      "36270581",
+      "31988640",
+      "20698792",
+      "32824372",
+      "15162010",
+      "32779701",
+      "34056803",
+      "29453899",
+      "25795113",
+      "24680878",
+      "31125797"
+    ],
+    "pmc": [
+      "11077071"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/38407308/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38407308/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38407308",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38407308",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "http://liu.diva-portal.org/smash/get/diva2:1842323/FULLTEXT01.pdf",
+        "provider": "Linkoping University Electronic Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://www.phosphosite.org/referenceSearchSubmitAction.action?from=0&queryId=-1&pubMedIds=38407308",
+        "provider": "PhosphoSitePlus",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "PhosphoSitePlus® - comprehensive post-translational modification resource"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae105",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

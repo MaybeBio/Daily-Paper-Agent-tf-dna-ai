@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "41518508",
+    "doi": "10.1007/978-1-0716-4972-5_15",
+    "title": "Inferring Gene Networks from High-Throughput Transcriptomes."
+  },
+  "content": {
+    "abstract": "Systems biology has helped to better understand the complexity of gene-to-gene interactions at a genome-wide level through the practical application of network theory. Over the last decade, different types of gene networks have been built to assist in gene function prediction and the modeling of transcriptional regulation in plants. While gene co-expression networks (GCNs) focus on general gene-to-gene relationships, gene regulatory networks (GRNs) depict the hierarchical connections among transcription factors and target genes. Here, we provide two strategies to produce gene networks based on high-throughput transcriptomic data-aggregated GCNs (aggGCNs) and inferred GRNs. A custom in-house pipeline is presented to build aggGCNs, while GRNs are inferred through the implementation of the GENIE3 algorithm. All of the presented code is publicly available, both in this chapter and associated Git repositories, and even though the workflows have been developed for particular plant species such as grapevine and tomato, they can be adapted to any other plant species or eukaryotes.",
+    "keywords": [
+      "AUROC",
+      "Gene co-expression networks",
+      "Gene regulatory networks",
+      "Genie3",
+      "Machine learning",
+      "Plant transcriptomic regulation"
+    ],
+    "mesh_terms": [
+      "*Gene Regulatory Networks",
+      "*Gene Expression Profiling/methods",
+      "*Transcriptome",
+      "*Computational Biology/methods",
+      "Algorithms",
+      "Software",
+      "Gene Expression Regulation, Plant",
+      "Systems Biology/methods",
+      "Plants/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Navarro-Paya, David",
+        "Orduna, Luis",
+        "Fernandez, Jose D",
+        "Santiago, Antonio",
+        "Vidal, Elena A",
+        "Matus, Jose Tomas"
+      ],
+      "short_names": [
+        "Navarro-Paya D",
+        "Orduna L",
+        "Fernandez JD",
+        "Santiago A",
+        "Vidal EA",
+        "Matus JT"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute for Integrative Systems Biology (I2SysBio), Universitat de Valencia-CSIC, Paterna, Valencia, Spain.",
+        "Institute for Integrative Systems Biology (I2SysBio), Universitat de Valencia-CSIC, Paterna, Valencia, Spain.",
+        "Centro de Genomica y Bioinformatica, Universidad Mayor, Santiago, Chile.",
+        "ANID-Millennium Science Initiative Program-Millennium Institute for Integrative Biology (iBio), Santiago, Chile.",
+        "Institute for Integrative Systems Biology (I2SysBio), Universitat de Valencia-CSIC, Paterna, Valencia, Spain.",
+        "Centro de Genomica y Bioinformatica, Universidad Mayor, Santiago, Chile.",
+        "ANID-Millennium Science Initiative Program-Millennium Institute for Integrative Biology (iBio), Santiago, Chile.",
+        "Institute for Integrative Systems Biology (I2SysBio), Universitat de Valencia-CSIC, Paterna, Valencia, Spain. tomas.matus@uv.es."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Navarro-Payá, David",
+        "short_name": "Navarro-Payá D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Integrative Systems Biology (I2SysBio), Universitat de València-CSIC, Paterna, Valencia, Spain."
+        ]
+      },
+      {
+        "full_name": "Orduña, Luis",
+        "short_name": "Orduña L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Integrative Systems Biology (I2SysBio), Universitat de València-CSIC, Paterna, Valencia, Spain."
+        ]
+      },
+      {
+        "full_name": "Fernández, José D",
+        "short_name": "Fernández JD",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Genómica y Bioinformática, Universidad Mayor, Santiago, Chile.",
+          "ANID-Millennium Science Initiative Program-Millennium Institute for Integrative Biology (iBio), Santiago, Chile."
+        ]
+      },
+      {
+        "full_name": "Santiago, Antonio",
+        "short_name": "Santiago A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Integrative Systems Biology (I2SysBio), Universitat de València-CSIC, Paterna, Valencia, Spain."
+        ]
+      },
+      {
+        "full_name": "Vidal, Elena A",
+        "short_name": "Vidal EA",
+        "identifiers": [],
+        "affiliations": [
+          "Centro de Genómica y Bioinformática, Universidad Mayor, Santiago, Chile.",
+          "ANID-Millennium Science Initiative Program-Millennium Institute for Integrative Biology (iBio), Santiago, Chile."
+        ]
+      },
+      {
+        "full_name": "Matus, José Tomás",
+        "short_name": "Matus JT",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Integrative Systems Biology (I2SysBio), Universitat de València-CSIC, Paterna, Valencia, Spain. tomas.matus@uv.es."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/10 22:41",
+    "fetched_at": "2026-10-01 10:41:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38652750",
+      "37668374",
+      "36575796",
+      "36160967",
+      "35492683",
+      "34900134",
+      "33846597",
+      "31594989",
+      "30547401",
+      "30022075",
+      "29879919",
+      "28430951",
+      "27993773",
+      "27924042",
+      "26440435",
+      "26201819",
+      "25359890",
+      "24451626",
+      "24227677",
+      "23104886",
+      "22548828",
+      "20927193",
+      "19889879",
+      "14735121",
+      "14597658"
+    ],
+    "similar": [
+      "41518508",
+      "30547796",
+      "29879919",
+      "41518505",
+      "23844010",
+      "20927193",
+      "29246163",
+      "37668374",
+      "27987173",
+      "32717108",
+      "40908642",
+      "34251616",
+      "39679439",
+      "28623590",
+      "30547400",
+      "28623593",
+      "24053776",
+      "33667112",
+      "30961611",
+      "39417321",
+      "29714955",
+      "29525965",
+      "28155637",
+      "17299415",
+      "27479082",
+      "38810116",
+      "38950180",
+      "27987174",
+      "21857910",
+      "37085776",
+      "37004161",
+      "24888606",
+      "31436787",
+      "27045829",
+      "32266646",
+      "34962963",
+      "21548810",
+      "21496241",
+      "37365273",
+      "19401400",
+      "30547396",
+      "20338053",
+      "41683668",
+      "28254369",
+      "29219084",
+      "37788349",
+      "31678628",
+      "36695505",
+      "30445495",
+      "28827319",
+      "32606380",
+      "42004709",
+      "28198676",
+      "27641093",
+      "23407269",
+      "22489681",
+      "40251476",
+      "31571287",
+      "25707768",
+      "28623595",
+      "24341535",
+      "19381531",
+      "38879931",
+      "34261498",
+      "22456606",
+      "23365519",
+      "37682483",
+      "30555503",
+      "17934055",
+      "18769717",
+      "17981545",
+      "37938594",
+      "24565134",
+      "31964336",
+      "29272447",
+      "30547394",
+      "32019417",
+      "34495484",
+      "31159293",
+      "38886006",
+      "39068355",
+      "25014374",
+      "31062304",
+      "32450963",
+      "26072515",
+      "24148309",
+      "20048387",
+      "30445315",
+      "19477975",
+      "27876826",
+      "41984780",
+      "22479422",
+      "39051682",
+      "28623575",
+      "38342857",
+      "19348639",
+      "27128468",
+      "26134183",
+      "26207991",
+      "42059479"
+    ],
+    "review": [
+      "41518508",
+      "32717108",
+      "33667112",
+      "31436787",
+      "32266646",
+      "37365273",
+      "30547396",
+      "41683668",
+      "31678628",
+      "36695505",
+      "27641093",
+      "23407269",
+      "22489681",
+      "19381531",
+      "23365519",
+      "30555503",
+      "17981545",
+      "30445315"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-4972-5_15",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

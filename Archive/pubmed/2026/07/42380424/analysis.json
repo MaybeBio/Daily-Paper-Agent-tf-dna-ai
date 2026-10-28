@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42380424",
+  "title": "An optimized dual-branch method for DNA enhancer identification based on pretrained models and multi-scale local regulatory motif extraction.",
+  "authors": "Zhan, SiQi; Xu, ZhiZhan; Yang, Wei; Li, FangLi",
+  "journal": "Scientific reports",
+  "published_date": "2026-07-01",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基于DNABERT-2与多尺度卷积的双分支模型iEnhancer-Hybrid用于增强子序列识别，虽涉及TF结合基序的局部模式提取与可解释性分析，但核心是序列分类而非TF-DNA三维互作建模，方法可迁移至TF结合位点预测，故评6分。",
+  "abstract": "Accurate identification of enhancer sequences requires concurrent modeling of global contextual information and local regulatory motifs in DNA. Although the pretrained language model DNABERT-2 can effectively capture long-range dependencies, it is still limited in representing position-sensitive local patterns such as transcription factor binding sites. To address this issue, we propose iEnhancer-Hybrid, a model with a dual branch architecture. One branch leverages DNABERT-2 to extract global contextual features from the input sequence, whereas the other branch employs a three-layer multi scale dilated convolution (MDC) network to enlarge the receptive field and capture local regulatory motifs at multiple scales, thereby improving predictive performance without substantially increasing the number of parameters. The features from the two branches are integrated through a fusion layer for joint classification, enabling complementary representation of global semantics and local motifs. Experimental results on the independent iEnhancer-2L test set show that iEnhancer-Hybrid achieved an ACC of 81.25% and an AUC of 86.84%, attaining the highest values among the compared methods. Finally, input-gradient-based saliency analysis, together with STREME/Tomtom motif comparison of model-prioritized sequence fragments against JASPAR 2024 transcription factor binding profiles, indicated that the learned local patterns were consistent with known transcription factor binding motifs, supporting the motif-level interpretability and biological relevance of the predictions.",
+  "abstract_zh": "增强子序列的准确识别需要对DNA中的全局上下文信息和局部调控基序进行同时建模。尽管预训练语言模型DNABERT-2能有效捕捉长距离依赖关系，但在表示位置敏感的局部模式（如转录因子结合位点）方面仍存在局限。为解决此问题，我们提出了iEnhancer-Hybrid，一种具有双分支架构的模型。一个分支利用DNABERT-2从输入序列中提取全局上下文特征，而另一个分支采用三层多尺度膨胀卷积（MDC）网络来扩大感受野并在多个尺度上捕捉局部调控基序，从而在不显著增加参数数量的情况下提升预测性能。两个分支的特征通过融合层进行整合以进行联合分类，实现全局语义与局部基序的互补表示。在独立iEnhancer-2L测试集上的实验结果表明，iEnhancer-Hybrid达到了81.25%的ACC和86.84%的AUC，在比较方法中取得了最高值。最后，基于输入梯度的显著性分析，以及将模型优先排序的序列片段与JASPAR 2024转录因子结合谱进行STREME/Tomtom基序比较，表明学习到的局部模式与已知转录因子结合基序一致，支持了预测在基序层面的可解释性和生物学相关性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42380424/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42380424/",
+  "paper_page_path": "papers/pubmed/42380424/index.html"
+}

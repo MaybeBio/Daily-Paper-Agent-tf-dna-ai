@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "37496062",
+    "doi": "10.1186/s13018-023-03933-z",
+    "title": "Diagnostic value and immune infiltration characterization of YTHDF2 as a critical m6A regulator in osteoarthritic synovitis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: N6-methyladenosine (m6A) is a universal RNA modification pattern regulated by multiple m6A regulators. In osteoarthritis (OA), m6A regulators influence disease progression by regulating cartilage degradation. However, the function of m6A regulators in synovial tissue remains unclear. In this work, we investigated the biological significance of m6A regulators in osteoarthritic synovitis. METHODS: Datasets were acquired from Gene Expression Omnibus. Differential analysis of merged data identified the differentially expressed m6A regulators. Machine learning models were used to evaluate genetic importance. To predict disease risk, a nomogram was constructed based on above m6A regulators. Cluster analysis divided the OA sample into different subgroups. Immune infiltration revealed the immune m6A regulators, which were validated using clinical samples. Eventually, a competing endogenous RNA (ceRNA) network was constructed. RESULTS: We acquired five differentially expressed m6A regulators and a random forest model. The nomogram accurately predicted disease risk. We identified 122 differentially expressed genes between two m6A subgroups. The analysis of immune infiltration showed that YTHDF2 was an immune-related m6A regulator closely related with macrophages. In clinical samples, the protein and mRNA contents of YTHDF2 were consistent with the results of bioinformatic analysis. The ceRNA network based on YTHDF2 revealed 75 lncRNA nodes and 19 miRNA nodes. CONCLUSION: YTHDF2 has a high diagnostic value in the synovitis of OA and significantly influences the immune status of patients. Hence, YTHDF2, a critical m6A regulator, may provide a biomarker for diagnosis and immune therapy of osteoarthritic synovitis.",
+    "keywords": [
+      "Cluster analysis",
+      "Immune infiltration",
+      "Macrophage",
+      "Osteoarthritic synovitis",
+      "ceRNA network",
+      "m6A regulators"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Transcription Factors",
+      "*Synovitis/genetics",
+      "*MicroRNAs",
+      "Synovial Membrane",
+      "Adenosine",
+      "RNA-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bian, Ashuai",
+        "Wang, Changming",
+        "Zhang, Haotian",
+        "Yan, Yiqun",
+        "Zhang, Linlin",
+        "Cheng, Wendan"
+      ],
+      "short_names": [
+        "Bian A",
+        "Wang C",
+        "Zhang H",
+        "Yan Y",
+        "Zhang L",
+        "Cheng W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopaedics, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, Anhui, People's Republic of China.",
+        "Institute of Orthopaedics, Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, People's Republic of China.",
+        "Department of Orthopaedics, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, Anhui, People's Republic of China.",
+        "Institute of Orthopaedics, Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, People's Republic of China.",
+        "Department of Orthopaedics, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, Anhui, People's Republic of China.",
+        "Institute of Orthopaedics, Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, People's Republic of China.",
+        "Department of Orthopaedics, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, Anhui, People's Republic of China.",
+        "Institute of Orthopaedics, Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, People's Republic of China.",
+        "Department of Orthopedic Surgery, The First Affiliated Hospital of University of Science and Technology of China, Anhui Provincial Hospital, Hefei, 230001, Anhui, People's Republic of China. 52732375@qq.com.",
+        "Department of Orthopaedics, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, Anhui, People's Republic of China. sunyccc@126.com.",
+        "Institute of Orthopaedics, Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, People's Republic of China. sunyccc@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bian, Ashuai",
+        "short_name": "Bian A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, Anhui, People's Republic of China.",
+          "Institute of Orthopaedics, Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Changming",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, Anhui, People's Republic of China.",
+          "Institute of Orthopaedics, Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Haotian",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, Anhui, People's Republic of China.",
+          "Institute of Orthopaedics, Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yan, Yiqun",
+        "short_name": "Yan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, Anhui, People's Republic of China.",
+          "Institute of Orthopaedics, Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Linlin",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedic Surgery, The First Affiliated Hospital of University of Science and Technology of China, Anhui Provincial Hospital, Hefei, 230001, Anhui, People's Republic of China. 52732375@qq.com."
+        ]
+      },
+      {
+        "full_name": "Cheng, Wendan",
+        "short_name": "Cheng W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopaedics, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, Anhui, People's Republic of China. sunyccc@126.com.",
+          "Institute of Orthopaedics, Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, People's Republic of China. sunyccc@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of orthopaedic surgery and research"
+    ],
+    "journal_abbrev": [
+      "J Orthop Surg Res"
+    ],
+    "pub_date": "2023 Jul 27",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/27 01:09",
+    "fetched_at": "2026-09-29 04:31:06"
+  },
+  "links": {
+    "cites": [
+      "41914077",
+      "41832537",
+      "40698864",
+      "40453975",
+      "40430096",
+      "38355483"
+    ],
+    "refs": [
+      "36277978",
+      "35662714",
+      "35165404",
+      "34737423",
+      "34505967",
+      "34461607",
+      "34211470",
+      "34145224",
+      "33724691",
+      "33593354",
+      "33453867",
+      "33098220",
+      "33002224",
+      "32783329",
+      "31982565",
+      "31757221",
+      "31382190",
+      "31186141",
+      "31143960",
+      "31034380",
+      "30875984",
+      "30766746",
+      "30704288",
+      "30423408",
+      "29800616",
+      "29496549",
+      "29267879",
+      "28544542",
+      "27564539",
+      "27558897",
+      "26653257",
+      "26046440",
+      "25488799",
+      "24679528",
+      "23194896",
+      "22759953",
+      "22392533",
+      "22279508",
+      "20924410",
+      "16651366",
+      "12905470"
+    ],
+    "similar": [
+      "37496062",
+      "36034449",
+      "37006311",
+      "36585683",
+      "37928762",
+      "36118846",
+      "38693353",
+      "37046273",
+      "38163150",
+      "36675186",
+      "37217897",
+      "34054840",
+      "37972699",
+      "36819785",
+      "36544487",
+      "35609514",
+      "36660722",
+      "37907028",
+      "38436011",
+      "33746977",
+      "36397411",
+      "37041267",
+      "38491545",
+      "37357252",
+      "35668574",
+      "38570749",
+      "36034129",
+      "36685841",
+      "36555463",
+      "36262291",
+      "35559050",
+      "37488406",
+      "37328853",
+      "35783271",
+      "38070584",
+      "35655464",
+      "36505479",
+      "37666846",
+      "36781867",
+      "34512342",
+      "35812736",
+      "37842565",
+      "34187307",
+      "35777046",
+      "35480327",
+      "38622358",
+      "36864526",
+      "35092501",
+      "37469973",
+      "36218109",
+      "36105062",
+      "35045837",
+      "37381158",
+      "36157216",
+      "32884942",
+      "36171892",
+      "33415160",
+      "36628248",
+      "32086933",
+      "38596085",
+      "35490460",
+      "36172101",
+      "35308519",
+      "33628782",
+      "34511965",
+      "35095993",
+      "35847857",
+      "33344502",
+      "36093132",
+      "32059034",
+      "33087165",
+      "36051357",
+      "34150845",
+      "36595818",
+      "35422168",
+      "36685949",
+      "36660669",
+      "35572541",
+      "34532378",
+      "36465909",
+      "34621754",
+      "36762188",
+      "28104805",
+      "35813200",
+      "35937991",
+      "38318073",
+      "35331183",
+      "34248650",
+      "35197962",
+      "38318069",
+      "32366907",
+      "36120577",
+      "36685529",
+      "34294105",
+      "36159855",
+      "34647423",
+      "34734333",
+      "36672827",
+      "36939388",
+      "35989938",
+      "33072775",
+      "38436022",
+      "38451401",
+      "35833147",
+      "32582536",
+      "33952721",
+      "36468034",
+      "32687727",
+      "37006267",
+      "38302672",
+      "38154164",
+      "37545537",
+      "37273154",
+      "37920080",
+      "36800593",
+      "38169719",
+      "39167728",
+      "38310924",
+      "39424201",
+      "37607464",
+      "38333254",
+      "36781858",
+      "38293780",
+      "37735234",
+      "37769593",
+      "38970366",
+      "37496082",
+      "38152479",
+      "39252959",
+      "38328119",
+      "37651068"
+    ],
+    "review": [
+      "37496062",
+      "39424201"
+    ],
+    "pmc": [
+      "10373247"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://josr-online.biomedcentral.com/articles/10.1186/s13018-023-03933-z",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37496062/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37496062",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

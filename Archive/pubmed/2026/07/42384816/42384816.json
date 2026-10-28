@@ -1,0 +1,437 @@
+{
+  "identity": {
+    "pmid": "42384816",
+    "doi": "10.1126/sciadv.aeg5356",
+    "title": "Remote homology and functional genetics unmask deeply preserved Scm3/HJURP orthologs in metazoans."
+  },
+  "content": {
+    "abstract": "In most animals and fungi, centromere identity and function depend on the Scm3/Holliday junction recognition protein (HJURP) chaperone, which deposits CENPA at centromeres. However, Scm3/HJURP orthologs appeared to be missing in insects, nematodes, many vertebrates, and other metazoans, suggesting radical chaperone replacement in these lineages. Here, we combine remote homology detection, AlphaFold-based structural modeling, and functional genetics in zebrafish and Caenorhabditis elegans to identify previously unknown Scm3/HJURP orthologs that localize to centromeres and whose loss causes catastrophic mitotic failure. We further show that Drosophila CAL1, long considered a functional analog, is instead a highly diverged Scm3/HJURP ortholog. Despite rapid primary-sequence divergence, predicted and known structures reveal a broadly conserved CENPA-H4-binding scm3 fold across fungi, vertebrates, nematodes, insects, and most metazoans. Our work demonstrates how rapid divergence can obscure the broad conservation of essential centromere machinery and provides a generalizable strategy for unmasking missing orthologs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Centromere/metabolism/genetics",
+      "Caenorhabditis elegans/genetics/metabolism",
+      "Zebrafish/genetics",
+      "*DNA-Binding Proteins/genetics/metabolism/chemistry",
+      "Amino Acid Sequence",
+      "Caenorhabditis elegans Proteins/genetics/metabolism/chemistry",
+      "Centromere Protein A/metabolism/genetics",
+      "Models, Molecular",
+      "Evolution, Molecular",
+      "*Chromosomal Proteins, Non-Histone/genetics/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hollis, Jeremy A",
+        "Stonick, Jason A",
+        "Topalidou, Irini",
+        "Young, Janet M",
+        "Moens, Cecilia B",
+        "Lehrbach, Nicolas J",
+        "Campbell, Melody G",
+        "Malik, Harmit S"
+      ],
+      "short_names": [
+        "Hollis JA",
+        "Stonick JA",
+        "Topalidou I",
+        "Young JM",
+        "Moens CB",
+        "Lehrbach NJ",
+        "Campbell MG",
+        "Malik HS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3375-8937",
+        "ORCID: 0009-0001-7960-9892",
+        "ORCID: 0000-0003-1115-4251",
+        "ORCID: 0000-0001-8220-8427",
+        "ORCID: 0000-0001-7342-4136",
+        "ORCID: 0000-0003-1909-5751",
+        "ORCID: 0000-0001-6005-0016"
+      ],
+      "affiliations": [
+        "Molecular and Cellular Biology Graduate Program, University of Washington, Seattle, WA 98195, USA.",
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center; Seattle, WA 98109, USA.",
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center; Seattle, WA 98109, USA.",
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center; Seattle, WA 98109, USA.",
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center; Seattle, WA 98109, USA.",
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center; Seattle, WA 98109, USA.",
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center; Seattle, WA 98109, USA.",
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center; Seattle, WA 98109, USA.",
+        "Division of Basic Sciences, Fred Hutchinson Cancer Center; Seattle, WA 98109, USA.",
+        "Howard Hughes Medical Institute, Fred Hutchinson Cancer Center, Seattle, WA 98109, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hollis, Jeremy A",
+        "short_name": "Hollis JA",
+        "identifiers": [
+          "0000-0003-3375-8937"
+        ],
+        "affiliations": [
+          "Molecular and Cellular Biology Graduate Program, University of Washington, Seattle, WA 98195, USA.",
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center; Seattle, WA 98109, USA."
+        ]
+      },
+      {
+        "full_name": "Stonick, Jason A",
+        "short_name": "Stonick JA",
+        "identifiers": [
+          "0009-0001-7960-9892"
+        ],
+        "affiliations": [
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center; Seattle, WA 98109, USA."
+        ]
+      },
+      {
+        "full_name": "Topalidou, Irini",
+        "short_name": "Topalidou I",
+        "identifiers": [
+          "0000-0003-1115-4251"
+        ],
+        "affiliations": [
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center; Seattle, WA 98109, USA."
+        ]
+      },
+      {
+        "full_name": "Young, Janet M",
+        "short_name": "Young JM",
+        "identifiers": [
+          "0000-0001-8220-8427"
+        ],
+        "affiliations": [
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center; Seattle, WA 98109, USA."
+        ]
+      },
+      {
+        "full_name": "Moens, Cecilia B",
+        "short_name": "Moens CB",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center; Seattle, WA 98109, USA."
+        ]
+      },
+      {
+        "full_name": "Lehrbach, Nicolas J",
+        "short_name": "Lehrbach NJ",
+        "identifiers": [
+          "0000-0001-7342-4136"
+        ],
+        "affiliations": [
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center; Seattle, WA 98109, USA."
+        ]
+      },
+      {
+        "full_name": "Campbell, Melody G",
+        "short_name": "Campbell MG",
+        "identifiers": [
+          "0000-0003-1909-5751"
+        ],
+        "affiliations": [
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center; Seattle, WA 98109, USA."
+        ]
+      },
+      {
+        "full_name": "Malik, Harmit S",
+        "short_name": "Malik HS",
+        "identifiers": [
+          "0000-0001-6005-0016"
+        ],
+        "affiliations": [
+          "Division of Basic Sciences, Fred Hutchinson Cancer Center; Seattle, WA 98109, USA.",
+          "Howard Hughes Medical Institute, Fred Hutchinson Cancer Center, Seattle, WA 98109, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2026 Jul 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/01 22:34",
+    "fetched_at": "2026-10-02 00:48:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42170896",
+      "41507393",
+      "41370334",
+      "41299172",
+      "41263103",
+      "40804517",
+      "40588585",
+      "39809842",
+      "39737664",
+      "39565202",
+      "39104213",
+      "38718835",
+      "38597891",
+      "38084929",
+      "37995681",
+      "37352352",
+      "37141119",
+      "37058535",
+      "37025176",
+      "36879950",
+      "36792551",
+      "35709700",
+      "34972943",
+      "34862323",
+      "34433012",
+      "34228701",
+      "34139218",
+      "34014920",
+      "33872374",
+      "33852350",
+      "33677541",
+      "33207191",
+      "33137085",
+      "32963112",
+      "32881101",
+      "32510481",
+      "32134144",
+      "32125433",
+      "32011700",
+      "31782996",
+      "31679929",
+      "31622527",
+      "31492860",
+      "31488706",
+      "31463991",
+      "30385890",
+      "29974860",
+      "29905871",
+      "29454259",
+      "29440567",
+      "28743005",
+      "28392263",
+      "28069312",
+      "28053344",
+      "27881430",
+      "27093083",
+      "27084950",
+      "26904949",
+      "26601620",
+      "26552885",
+      "26365255",
+      "26272053",
+      "26063729",
+      "25843710",
+      "25470533",
+      "25247700",
+      "25036634",
+      "25001279",
+      "24469636",
+      "24248385",
+      "23927401",
+      "23598338",
+      "23363600",
+      "23300382",
+      "22820845",
+      "22817894",
+      "22743772",
+      "22495302",
+      "22406139",
+      "22118282",
+      "21816344",
+      "21768289",
+      "21606327",
+      "21589899",
+      "21478274",
+      "21412236",
+      "21321101",
+      "21110866",
+      "20940262",
+      "20557645",
+      "20080577",
+      "19563746",
+      "19410545",
+      "19410544",
+      "19274045",
+      "19273145",
+      "19047461",
+      "18922774",
+      "17823411",
+      "17574026",
+      "17569568",
+      "17548816",
+      "17483113",
+      "17339379",
+      "17244537",
+      "17199038",
+      "15980461",
+      "15608221",
+      "15318951",
+      "15282608",
+      "14583738",
+      "12519991",
+      "11498581",
+      "11402065",
+      "11238413",
+      "10524621",
+      "9927713",
+      "9254694",
+      "2172928"
+    ],
+    "similar": [
+      "42384816",
+      "41867730",
+      "33852350",
+      "22820845",
+      "21412236",
+      "31492860",
+      "20080577",
+      "38084929",
+      "30459232",
+      "23771058",
+      "21980305",
+      "41370334",
+      "32134144",
+      "17548816",
+      "32079723",
+      "42170896",
+      "21606327",
+      "21478274",
+      "24519934",
+      "33207191",
+      "28356341",
+      "22406139",
+      "21816344",
+      "41507393",
+      "24469636",
+      "23184928",
+      "25001279",
+      "34217622",
+      "19563746",
+      "21926480",
+      "38951710",
+      "26063729",
+      "34734636",
+      "24623811",
+      "26942680",
+      "30293838",
+      "24789708",
+      "21317428",
+      "17569568",
+      "19410544",
+      "19410545",
+      "21321101",
+      "11402064",
+      "39415429",
+      "10454560",
+      "15767665",
+      "26904949",
+      "37469281",
+      "18202360",
+      "17704645",
+      "29272409",
+      "35955489",
+      "22690911",
+      "27454815",
+      "25117489",
+      "21911481",
+      "25843710",
+      "27811920",
+      "38565139",
+      "26921242",
+      "34228701",
+      "35940943",
+      "39037215",
+      "38279062",
+      "23363600",
+      "23790282",
+      "28301465",
+      "34844121",
+      "39809842",
+      "29653589",
+      "17339379",
+      "38856923",
+      "17339381",
+      "14563550",
+      "27807043",
+      "36348109",
+      "31203392",
+      "31138803",
+      "37141119",
+      "30089114",
+      "17574026",
+      "11821919",
+      "20940262",
+      "35973429",
+      "35108654",
+      "21768289",
+      "25919583",
+      "26685127",
+      "25727006",
+      "11914278",
+      "42373778",
+      "21437264",
+      "32222413",
+      "10545493",
+      "42329769",
+      "30850541",
+      "22018540",
+      "41629527",
+      "26667623",
+      "28223399"
+    ],
+    "review": [
+      "42384816",
+      "38856923",
+      "35108654"
+    ],
+    "pmc": [
+      "13322267"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.science.org/doi/10.1126/sciadv.aeg5356?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=42384816",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42384816/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://zfin.org/action/publication/view?accession=42384816",
+        "provider": "ZFIN",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

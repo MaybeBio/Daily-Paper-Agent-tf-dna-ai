@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "41557480",
+    "doi": "10.1021/acs.jmedchem.5c02791",
+    "title": "Diastereomeric Branched-Ester dBET1 Analogs Exhibit Conformation-Dependent Differences in Passive Membrane Permeability."
+  },
+  "content": {
+    "abstract": "Proteolysis-targeting chimeras (PROTACs) represent a promising therapeutic modality, but their clinical translation is often hindered by poor pharmacokinetic properties associated with their location in the \"beyond Rule of 5\" chemical space. Using the BRD4 degrader dBET1 as a model, this study explored a dual approach to improve the cellular permeability of PROTACs by combining amide-to-ester substitution with the strategic linker methylation to induce stereochemistry-driven conformational modulation. Substitution with ester enhanced both permeability and degradation potency, while methylation afforded two diastereomers with different permeability profiles. Steered molecular dynamics and enhanced conformational sampling in polar and nonpolar environments revealed distinct chameleonic behaviors, with the more permeable diastereomer 2b adopting folded conformations with a lower solvent-accessible 3D polar surface area in the nonpolar environment. These findings were supported by 2D NMR and hydrogen-bond acidity analyses (A(NMR)). Notably, low-energy \"congruent conformation\" accessible in both environments was identified for 2b. This work establishes a viable strategy for the design of membrane-permeable PROTACs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Stereoisomerism",
+      "*Cell Membrane Permeability/drug effects",
+      "Proteolysis Targeting Chimera",
+      "Humans",
+      "*Esters/chemistry",
+      "Molecular Conformation",
+      "Bromodomain Containing Proteins",
+      "Cell Cycle Proteins/metabolism",
+      "Molecular Dynamics Simulation",
+      "Transcription Factors/metabolism/antagonists & inhibitors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Abdelwahid, Mazin A S",
+        "Hayakawa, Eisuke",
+        "Hirai, Keigo",
+        "Ishii, Mayumi",
+        "Kanamitsu, Kayoko",
+        "Yasuda, Saori",
+        "Ohtake, Fumiaki",
+        "Sato, Shinichi",
+        "Tomoshige, Shusuke",
+        "Ishikawa, Minoru"
+      ],
+      "short_names": [
+        "Abdelwahid MAS",
+        "Hayakawa E",
+        "Hirai K",
+        "Ishii M",
+        "Kanamitsu K",
+        "Yasuda S",
+        "Ohtake F",
+        "Sato S",
+        "Tomoshige S",
+        "Ishikawa M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4948-5809",
+        "ORCID: 0000-0002-3937-2261"
+      ],
+      "affiliations": [
+        "Graduate School of Life Sciences, Tohoku University, 2-1-1 Katahira, Aoba-ku, Sendai 980-8577, Japan.",
+        "Graduate School of Life Sciences, Tohoku University, 2-1-1 Katahira, Aoba-ku, Sendai 980-8577, Japan.",
+        "Graduate School of Life Sciences, Tohoku University, 2-1-1 Katahira, Aoba-ku, Sendai 980-8577, Japan.",
+        "Graduate School of Pharmaceutical Sciences, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan.",
+        "Graduate School of Pharmaceutical Sciences, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan.",
+        "Graduate School of Life Sciences, Tohoku University, 2-1-1 Katahira, Aoba-ku, Sendai 980-8577, Japan.",
+        "School of Pharmacy and Pharmaceutical Sciences, Hoshi University, 2-4-41 Ebara, Shinagawa-Ku, Tokyo 142-8501, Japan.",
+        "Institute for Advanced Life Sciences, Hoshi University, 2-4-41 Ebara, Shinagawa-Ku, Tokyo 142-8501, Japan.",
+        "Graduate School of Life Sciences, Tohoku University, 2-1-1 Katahira, Aoba-ku, Sendai 980-8577, Japan.",
+        "Frontier Research Institute for Interdisciplinary Sciences, Tohoku University, 6-3 Aramaki aza-Aoba, Aoba-ku, Sendai 980-8577, Japan.",
+        "Graduate School of Life Sciences, Tohoku University, 2-1-1 Katahira, Aoba-ku, Sendai 980-8577, Japan.",
+        "Graduate School of Life Sciences, Tohoku University, 2-1-1 Katahira, Aoba-ku, Sendai 980-8577, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Abdelwahid, Mazin A S",
+        "short_name": "Abdelwahid MAS",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Life Sciences, Tohoku University, 2-1-1 Katahira, Aoba-ku, Sendai 980-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Hayakawa, Eisuke",
+        "short_name": "Hayakawa E",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Life Sciences, Tohoku University, 2-1-1 Katahira, Aoba-ku, Sendai 980-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Hirai, Keigo",
+        "short_name": "Hirai K",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Life Sciences, Tohoku University, 2-1-1 Katahira, Aoba-ku, Sendai 980-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Ishii, Mayumi",
+        "short_name": "Ishii M",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Pharmaceutical Sciences, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan."
+        ]
+      },
+      {
+        "full_name": "Kanamitsu, Kayoko",
+        "short_name": "Kanamitsu K",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Pharmaceutical Sciences, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan."
+        ]
+      },
+      {
+        "full_name": "Yasuda, Saori",
+        "short_name": "Yasuda S",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Life Sciences, Tohoku University, 2-1-1 Katahira, Aoba-ku, Sendai 980-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Ohtake, Fumiaki",
+        "short_name": "Ohtake F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy and Pharmaceutical Sciences, Hoshi University, 2-4-41 Ebara, Shinagawa-Ku, Tokyo 142-8501, Japan.",
+          "Institute for Advanced Life Sciences, Hoshi University, 2-4-41 Ebara, Shinagawa-Ku, Tokyo 142-8501, Japan."
+        ]
+      },
+      {
+        "full_name": "Sato, Shinichi",
+        "short_name": "Sato S",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Life Sciences, Tohoku University, 2-1-1 Katahira, Aoba-ku, Sendai 980-8577, Japan.",
+          "Frontier Research Institute for Interdisciplinary Sciences, Tohoku University, 6-3 Aramaki aza-Aoba, Aoba-ku, Sendai 980-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Tomoshige, Shusuke",
+        "short_name": "Tomoshige S",
+        "identifiers": [
+          "0000-0002-4948-5809"
+        ],
+        "affiliations": [
+          "Graduate School of Life Sciences, Tohoku University, 2-1-1 Katahira, Aoba-ku, Sendai 980-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Ishikawa, Minoru",
+        "short_name": "Ishikawa M",
+        "identifiers": [
+          "0000-0002-3937-2261"
+        ],
+        "affiliations": [
+          "Graduate School of Life Sciences, Tohoku University, 2-1-1 Katahira, Aoba-ku, Sendai 980-8577, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "J Med Chem"
+    ],
+    "pub_date": "2026 Feb 12",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/20 19:20",
+    "fetched_at": "2026-10-05 05:15:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41061162",
+      "40745682",
+      "40236549",
+      "39990161",
+      "39977255",
+      "39755121",
+      "39524220",
+      "39500878",
+      "39078401",
+      "38956052",
+      "38943610",
+      "38123688",
+      "37521793",
+      "36932083",
+      "36781982",
+      "36536188",
+      "36170570",
+      "36094896",
+      "35379777",
+      "35300080",
+      "35042991",
+      "34881891",
+      "33959589",
+      "33567268",
+      "33488971",
+      "32939229",
+      "32832021",
+      "32073075",
+      "32027758",
+      "31047748",
+      "30457855",
+      "29608068",
+      "27563399",
+      "27417180",
+      "26488642",
+      "25999370",
+      "25356529",
+      "25237858",
+      "24524242",
+      "22394492",
+      "18185985",
+      "16492015",
+      "12036371"
+    ],
+    "similar": [
+      "41557480",
+      "41194767",
+      "39693386",
+      "39688565",
+      "36170570",
+      "42094600",
+      "41635951",
+      "40236549",
+      "42026916",
+      "42528217",
+      "31734632",
+      "40014381",
+      "41852276",
+      "38702019",
+      "34881891",
+      "39989465",
+      "41231651",
+      "41558059",
+      "36932083",
+      "39537180",
+      "40659131",
+      "41380451",
+      "40340429",
+      "41824501",
+      "41687266",
+      "40700052",
+      "42402035",
+      "31042375",
+      "40994151",
+      "40202531",
+      "40745682",
+      "41313965",
+      "40208910",
+      "36787659",
+      "33488971",
+      "41370364",
+      "39914223",
+      "39816690",
+      "42203198",
+      "39475482",
+      "41807997",
+      "36678900",
+      "37718494",
+      "41401975",
+      "41932680",
+      "34878263",
+      "42417401",
+      "38055861",
+      "29608068",
+      "36286339",
+      "41637562",
+      "33750117",
+      "40295770",
+      "39591691",
+      "38383787",
+      "32027758",
+      "34114271",
+      "36542856",
+      "39491551",
+      "41219525",
+      "39178586",
+      "40317844",
+      "42139371",
+      "41839264",
+      "41618393",
+      "41716071",
+      "40815823",
+      "34390970",
+      "39002520",
+      "40626960",
+      "40788235",
+      "40516451",
+      "39219068",
+      "34652918",
+      "41403144",
+      "41755858",
+      "38317535",
+      "33596065",
+      "37656159",
+      "38873991",
+      "40623734",
+      "39862737",
+      "40380932",
+      "35018781",
+      "38437473",
+      "35761277",
+      "40183416",
+      "39773125",
+      "34119833",
+      "38425011",
+      "34240523",
+      "32902550",
+      "39078401",
+      "40792622",
+      "20112354",
+      "42107508",
+      "41556619",
+      "31587361",
+      "41740583",
+      "34700270"
+    ],
+    "review": [
+      "41557480",
+      "41635951",
+      "39591691",
+      "41219525",
+      "39178586",
+      "39219068",
+      "40183416"
+    ],
+    "pmc": [
+      "12910643"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41557480/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://rrc.nbrp.jp/references/list?pubmed=41557480",
+        "provider": "National BioResource Project",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": "NBRP resources"
+      },
+      {
+        "url": "https://pubs.acs.org/jmcmar/article-lookup/doi/10.1021/acs.jmedchem.5c02791",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

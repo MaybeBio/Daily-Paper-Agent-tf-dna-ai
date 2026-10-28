@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "38862470",
+    "doi": "10.1038/s41419-024-06739-x",
+    "title": "Structural basis of p53 inactivation by cavity-creating cancer mutations and its implications for the development of mutant p53 reactivators."
+  },
+  "content": {
+    "abstract": "The cavity-creating p53 cancer mutation Y220C is an ideal paradigm for developing small-molecule drugs based on protein stabilization. Here, we have systematically analyzed the structural and stability effects of all oncogenic Tyr-to-Cys mutations (Y126C, Y163C, Y205C, Y220C, Y234C, and Y236C) in the p53 DNA-binding domain (DBD). They were all highly destabilizing, drastically lowering the melting temperature of the protein by 8-17  degrees C. In contrast, two non-cancerous mutations, Y103C and Y107C, had only a moderate effect on protein stability. Differential stabilization of the mutants upon treatment with the anticancer agent arsenic trioxide and stibogluconate revealed an interesting proximity effect. Crystallographic studies complemented by MD simulations showed that two of the mutations, Y234C and Y236C, create internal cavities of different size and shape, whereas the others induce unique surface lesions. The mutation-induced pockets in the Y126C and Y205C mutant were, however, relatively small compared with that of the already druggable Y220C mutant. Intriguingly, our structural studies suggest a pronounced plasticity of the mutation-induced pocket in the frequently occurring Y163C mutant, which may be exploited for the development of small-molecule stabilizers. We point out general principles for reactivating thermolabile cancer mutants and highlight special cases where mutant-specific drugs are needed for the pharmacological rescue of p53 function in tumors.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Tumor Suppressor Protein p53/metabolism/genetics",
+      "Humans",
+      "*Mutation/genetics",
+      "*Neoplasms/genetics/drug therapy/pathology/metabolism",
+      "Arsenic Trioxide/pharmacology",
+      "Molecular Dynamics Simulation",
+      "Protein Stability/drug effects",
+      "Antineoplastic Agents/pharmacology/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Balourdas, Dimitrios-Ilias",
+        "Markl, Anja M",
+        "Kramer, Andreas",
+        "Settanni, Giovanni",
+        "Joerger, Andreas C"
+      ],
+      "short_names": [
+        "Balourdas DI",
+        "Markl AM",
+        "Kramer A",
+        "Settanni G",
+        "Joerger AC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1790-2268",
+        "ORCID: 0000-0003-1338-937X",
+        "ORCID: 0000-0002-1232-0138"
+      ],
+      "affiliations": [
+        "Institute of Pharmaceutical Chemistry, Goethe University, Max-von-Laue-Str. 9, 60438, Frankfurt am Main, Germany.",
+        "Structural Genomics Consortium (SGC), Buchmann Institute for Molecular Life Sciences, Max-von-Laue-Str. 15, 60438, Frankfurt am Main, Germany.",
+        "Institute of Pharmaceutical Chemistry, Goethe University, Max-von-Laue-Str. 9, 60438, Frankfurt am Main, Germany.",
+        "Institute of Pharmaceutical Chemistry, Goethe University, Max-von-Laue-Str. 9, 60438, Frankfurt am Main, Germany.",
+        "Structural Genomics Consortium (SGC), Buchmann Institute for Molecular Life Sciences, Max-von-Laue-Str. 15, 60438, Frankfurt am Main, Germany.",
+        "Faculty of Physics and Astronomy, Ruhr University Bochum, Universitatsstr. 150, 44801, Bochum, Germany.",
+        "Physics Department, University of Mainz, Staudingerweg 7, 55099, Mainz, Germany.",
+        "Institute of Pharmaceutical Chemistry, Goethe University, Max-von-Laue-Str. 9, 60438, Frankfurt am Main, Germany. joerger@pharmchem.uni-frankfurt.de.",
+        "Structural Genomics Consortium (SGC), Buchmann Institute for Molecular Life Sciences, Max-von-Laue-Str. 15, 60438, Frankfurt am Main, Germany. joerger@pharmchem.uni-frankfurt.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Balourdas, Dimitrios-Ilias",
+        "short_name": "Balourdas DI",
+        "identifiers": [
+          "0000-0002-1790-2268"
+        ],
+        "affiliations": [
+          "Institute of Pharmaceutical Chemistry, Goethe University, Max-von-Laue-Str. 9, 60438, Frankfurt am Main, Germany.",
+          "Structural Genomics Consortium (SGC), Buchmann Institute for Molecular Life Sciences, Max-von-Laue-Str. 15, 60438, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Markl, Anja M",
+        "short_name": "Markl AM",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pharmaceutical Chemistry, Goethe University, Max-von-Laue-Str. 9, 60438, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Krämer, Andreas",
+        "short_name": "Krämer A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pharmaceutical Chemistry, Goethe University, Max-von-Laue-Str. 9, 60438, Frankfurt am Main, Germany.",
+          "Structural Genomics Consortium (SGC), Buchmann Institute for Molecular Life Sciences, Max-von-Laue-Str. 15, 60438, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Settanni, Giovanni",
+        "short_name": "Settanni G",
+        "identifiers": [
+          "0000-0003-1338-937X"
+        ],
+        "affiliations": [
+          "Faculty of Physics and Astronomy, Ruhr University Bochum, Universitätsstr. 150, 44801, Bochum, Germany.",
+          "Physics Department, University of Mainz, Staudingerweg 7, 55099, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Joerger, Andreas C",
+        "short_name": "Joerger AC",
+        "identifiers": [
+          "0000-0002-1232-0138"
+        ],
+        "affiliations": [
+          "Institute of Pharmaceutical Chemistry, Goethe University, Max-von-Laue-Str. 9, 60438, Frankfurt am Main, Germany. joerger@pharmchem.uni-frankfurt.de.",
+          "Structural Genomics Consortium (SGC), Buchmann Institute for Molecular Life Sciences, Max-von-Laue-Str. 15, 60438, Frankfurt am Main, Germany. joerger@pharmchem.uni-frankfurt.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell death & disease"
+    ],
+    "journal_abbrev": [
+      "Cell Death Dis"
+    ],
+    "pub_date": "2024 Jun 11",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/12 00:41",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [
+      "42589334",
+      "42163716",
+      "41748563",
+      "41552434",
+      "41193733",
+      "40821731",
+      "40597785",
+      "40524430",
+      "39799258",
+      "39774325",
+      "39443700"
+    ],
+    "refs": [
+      "37018419",
+      "36749725",
+      "36407959",
+      "36216888",
+      "36197521",
+      "35948006",
+      "35495631",
+      "35417717",
+      "35352025",
+      "35256607",
+      "35232479",
+      "35083778",
+      "33687951",
+      "33538338",
+      "33357454",
+      "33257846",
+      "31990523",
+      "31633398",
+      "31588918",
+      "29860391",
+      "29857816",
+      "29702446",
+      "29067766",
+      "28254861",
+      "28035815",
+      "27819658",
+      "27145840",
+      "26636255",
+      "25956651",
+      "24577402",
+      "23630318",
+      "23112865",
+      "22869713",
+      "22624712",
+      "22439615",
+      "21460446",
+      "21460441",
+      "21457718",
+      "20383002",
+      "20142040",
+      "20124692",
+      "19929833",
+      "19461840",
+      "18996393",
+      "17717034",
+      "17510965",
+      "17401432",
+      "17015838",
+      "16861262",
+      "16754663",
+      "15703170",
+      "14559903",
+      "14534297",
+      "11402327",
+      "9895674",
+      "9627118",
+      "8744570",
+      "8023157"
+    ],
+    "similar": [
+      "38862470",
+      "31990523",
+      "20142040",
+      "29702446",
+      "27503952",
+      "24100332",
+      "39799258",
+      "40543428",
+      "26636255",
+      "33357454",
+      "30808373",
+      "37643005",
+      "39115446",
+      "41284820",
+      "40057133",
+      "40599607",
+      "38738269",
+      "17401432",
+      "36700982",
+      "23315175",
+      "18650397",
+      "39945593",
+      "39946082",
+      "30230059",
+      "36871418",
+      "21454520",
+      "36197521",
+      "29260852",
+      "31633398",
+      "39793887",
+      "31128451",
+      "39199355",
+      "26205328",
+      "23630318",
+      "30160791",
+      "26244575",
+      "24768524",
+      "27267810",
+      "34403252",
+      "37018419",
+      "24884809",
+      "20124408",
+      "20498645",
+      "33508133",
+      "27992315",
+      "41203614",
+      "22439615",
+      "30057300",
+      "33561393",
+      "19913028",
+      "40464633",
+      "36535020",
+      "40070163",
+      "39986271",
+      "38737036",
+      "26442703",
+      "20878668",
+      "19411067",
+      "40608889",
+      "29857816",
+      "26030124",
+      "33421376",
+      "30336366",
+      "30649466",
+      "22028641",
+      "26277488",
+      "10101802",
+      "30444195",
+      "29242642",
+      "31881526",
+      "37259217",
+      "32017938",
+      "19383329",
+      "20113312",
+      "33130332",
+      "23135266",
+      "40725138",
+      "14534297",
+      "36407959",
+      "12698949",
+      "29058783",
+      "26579714",
+      "24687952",
+      "29382728",
+      "20978130",
+      "40504558",
+      "17294448",
+      "18550490",
+      "24253321",
+      "21561095",
+      "21391904",
+      "28813011",
+      "16754663",
+      "39811143",
+      "26943582",
+      "17015838",
+      "20516128",
+      "11857402",
+      "35948006",
+      "36555140"
+    ],
+    "review": [
+      "38862470",
+      "39799258",
+      "17401432",
+      "29260852",
+      "26205328",
+      "24768524",
+      "20498645",
+      "29857816",
+      "33421376",
+      "30336366",
+      "10101802",
+      "30444195",
+      "29242642",
+      "33130332",
+      "12698949",
+      "18550490",
+      "21391904",
+      "20516128"
+    ],
+    "pmc": [
+      "11166945"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41419-024-06739-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38862470/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38862470",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

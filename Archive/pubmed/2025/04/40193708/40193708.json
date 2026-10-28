@@ -1,0 +1,515 @@
+{
+  "identity": {
+    "pmid": "40193708",
+    "doi": "10.1093/nar/gkaf267",
+    "title": "Two redox-responsive LysR-type transcription factors control the oxidative stress response of Agrobacterium tumefaciens."
+  },
+  "content": {
+    "abstract": "Pathogenic bacteria often encounter fluctuating reactive oxygen species (ROS) levels, particularly during host infection, necessitating robust redox-sensing mechanisms for survival. The LysR-type transcriptional regulator (LTTR) OxyR is a widely conserved bacterial thiol-based redox sensor. However, members of the Rhizobiales also encode LsrB, a second LTTR with potential redox-sensing function. This study explores the roles of OxyR and LsrB in the plant-pathogen Agrobacterium tumefaciens. Through single and combined deletions, we observed increased H2O2 sensitivity, underscoring their function in oxidative defense. Genome-wide transcriptome profiling under H2O2 exposure revealed that OxyR and LsrB co-regulate key antioxidant genes, including katG, encoding a bifunctional catalase/peroxidase. Agrobacterium tumefaciens LsrB possesses four cysteine residues potentially involved in redox sensing. To elucidate the structural basis for redox-sensing, we applied single-particle cryo-EM (cryogenic electron microscopy) to experimentally confirm an AlphaFold model of LsrB, identifying two proximal cysteine pairs. In vitro thiol-trapping coupled with mass spectrometry confirmed reversible thiol modifications of all four residues, suggesting a functional role in redox regulation. Collectively, these findings reveal that A. tumefaciens employs two cysteine-based redox sensing transcription factors, OxyR and LsrB, to withstand oxidative stress encountered in host and soil environments.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Agrobacterium tumefaciens/genetics/metabolism",
+      "*Oxidative Stress/genetics",
+      "*Bacterial Proteins/genetics/metabolism/chemistry",
+      "Oxidation-Reduction",
+      "*Transcription Factors/genetics/metabolism/chemistry",
+      "Gene Expression Regulation, Bacterial",
+      "Hydrogen Peroxide/pharmacology",
+      "Cysteine/metabolism/chemistry",
+      "Catalase/genetics/metabolism",
+      "Reactive Oxygen Species/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Schmidt, Janka J",
+        "Brandenburg, Vivian B",
+        "Elders, Hannah",
+        "Shahzad, Saba",
+        "Schakermann, Sina",
+        "Fiedler, Ronja",
+        "Knoke, Lisa R",
+        "Pfander, Yvonne",
+        "Dietze, Pascal",
+        "Bille, Hannah",
+        "Gartner, Bela",
+        "Albin, Lennart J",
+        "Leichert, Lars I",
+        "Bandow, Julia E",
+        "Hofmann, Eckhard",
+        "Narberhaus, Franz"
+      ],
+      "short_names": [
+        "Schmidt JJ",
+        "Brandenburg VB",
+        "Elders H",
+        "Shahzad S",
+        "Schakermann S",
+        "Fiedler R",
+        "Knoke LR",
+        "Pfander Y",
+        "Dietze P",
+        "Bille H",
+        "Gartner B",
+        "Albin LJ",
+        "Leichert LI",
+        "Bandow JE",
+        "Hofmann E",
+        "Narberhaus F"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-4526-4215",
+        "ORCID: 0000-0002-2443-2583",
+        "ORCID: 0009-0001-8534-5838",
+        "ORCID: 0000-0001-7969-0005",
+        "ORCID: 0009-0008-0838-7007",
+        "ORCID: 0000-0002-2424-1779",
+        "ORCID: 0009-0002-5714-2467",
+        "ORCID: 0000-0002-5666-9681",
+        "ORCID: 0000-0003-4100-8829",
+        "ORCID: 0000-0003-4874-372X",
+        "ORCID: 0000-0002-8552-5310"
+      ],
+      "affiliations": [
+        "Microbial Biology, Ruhr University Bochum, 44801 Bochum, Germany.",
+        "Bioinformatics Group, Ruhr University Bochum, 44801 Bochum, Germany.",
+        "Protein Crystallography, Ruhr University Bochum, 44801 Bochum, Germany.",
+        "Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons (ER-C-3): Structural Biology, Institute of Biological Information Processing (IBI-6): Structural Cell Biology, Forschungszentrum Julich, 52428 Julich, Germany.",
+        "Applied Microbiology, Ruhr University Bochum, 44801 Bochum, Germany.",
+        "Center for System-based Antibiotic Research, Ruhr University Bochum, 44801 Bochum, Germany.",
+        "Microbial Biology, Ruhr University Bochum, 44801 Bochum, Germany.",
+        "Microbial Biochemistry, Ruhr University Bochum, 44801 Bochum, Germany.",
+        "Microbial Biology, Ruhr University Bochum, 44801 Bochum, Germany.",
+        "Applied Microbiology, Ruhr University Bochum, 44801 Bochum, Germany.",
+        "Microbial Biology, Ruhr University Bochum, 44801 Bochum, Germany.",
+        "Microbial Biology, Ruhr University Bochum, 44801 Bochum, Germany.",
+        "Microbial Biology, Ruhr University Bochum, 44801 Bochum, Germany.",
+        "Microbial Biochemistry, Ruhr University Bochum, 44801 Bochum, Germany.",
+        "Applied Microbiology, Ruhr University Bochum, 44801 Bochum, Germany.",
+        "Center for System-based Antibiotic Research, Ruhr University Bochum, 44801 Bochum, Germany.",
+        "Protein Crystallography, Ruhr University Bochum, 44801 Bochum, Germany.",
+        "Microbial Biology, Ruhr University Bochum, 44801 Bochum, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Schmidt, Janka J",
+        "short_name": "Schmidt JJ",
+        "identifiers": [
+          "0009-0005-4526-4215"
+        ],
+        "affiliations": [
+          "Microbial Biology, Ruhr University Bochum, 44801 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Brandenburg, Vivian B",
+        "short_name": "Brandenburg VB",
+        "identifiers": [
+          "0000-0002-2443-2583"
+        ],
+        "affiliations": [
+          "Bioinformatics Group, Ruhr University Bochum, 44801 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Elders, Hannah",
+        "short_name": "Elders H",
+        "identifiers": [
+          "0009-0001-8534-5838"
+        ],
+        "affiliations": [
+          "Protein Crystallography, Ruhr University Bochum, 44801 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Shahzad, Saba",
+        "short_name": "Shahzad S",
+        "identifiers": [],
+        "affiliations": [
+          "Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons (ER-C-3): Structural Biology, Institute of Biological Information Processing (IBI-6): Structural Cell Biology, Forschungszentrum Jülich, 52428 Jülich, Germany."
+        ]
+      },
+      {
+        "full_name": "Schäkermann, Sina",
+        "short_name": "Schäkermann S",
+        "identifiers": [
+          "0000-0001-7969-0005"
+        ],
+        "affiliations": [
+          "Applied Microbiology, Ruhr University Bochum, 44801 Bochum, Germany.",
+          "Center for System-based Antibiotic Research, Ruhr University Bochum, 44801 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Fiedler, Ronja",
+        "short_name": "Fiedler R",
+        "identifiers": [
+          "0009-0008-0838-7007"
+        ],
+        "affiliations": [
+          "Microbial Biology, Ruhr University Bochum, 44801 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Knoke, Lisa R",
+        "short_name": "Knoke LR",
+        "identifiers": [
+          "0000-0002-2424-1779"
+        ],
+        "affiliations": [
+          "Microbial Biochemistry, Ruhr University Bochum, 44801 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Pfänder, Yvonne",
+        "short_name": "Pfänder Y",
+        "identifiers": [],
+        "affiliations": [
+          "Microbial Biology, Ruhr University Bochum, 44801 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Dietze, Pascal",
+        "short_name": "Dietze P",
+        "identifiers": [],
+        "affiliations": [
+          "Applied Microbiology, Ruhr University Bochum, 44801 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Bille, Hannah",
+        "short_name": "Bille H",
+        "identifiers": [
+          "0009-0002-5714-2467"
+        ],
+        "affiliations": [
+          "Microbial Biology, Ruhr University Bochum, 44801 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Gärtner, Bela",
+        "short_name": "Gärtner B",
+        "identifiers": [],
+        "affiliations": [
+          "Microbial Biology, Ruhr University Bochum, 44801 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Albin, Lennart J",
+        "short_name": "Albin LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Microbial Biology, Ruhr University Bochum, 44801 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Leichert, Lars I",
+        "short_name": "Leichert LI",
+        "identifiers": [
+          "0000-0002-5666-9681"
+        ],
+        "affiliations": [
+          "Microbial Biochemistry, Ruhr University Bochum, 44801 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Bandow, Julia E",
+        "short_name": "Bandow JE",
+        "identifiers": [
+          "0000-0003-4100-8829"
+        ],
+        "affiliations": [
+          "Applied Microbiology, Ruhr University Bochum, 44801 Bochum, Germany.",
+          "Center for System-based Antibiotic Research, Ruhr University Bochum, 44801 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Hofmann, Eckhard",
+        "short_name": "Hofmann E",
+        "identifiers": [
+          "0000-0003-4874-372X"
+        ],
+        "affiliations": [
+          "Protein Crystallography, Ruhr University Bochum, 44801 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Narberhaus, Franz",
+        "short_name": "Narberhaus F",
+        "identifiers": [
+          "0000-0002-8552-5310"
+        ],
+        "affiliations": [
+          "Microbial Biology, Ruhr University Bochum, 44801 Bochum, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Mar 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/07 18:24",
+    "fetched_at": "2026-09-30 15:26:32"
+  },
+  "links": {
+    "cites": [
+      "42573866",
+      "41204344"
+    ],
+    "refs": [
+      "39689618",
+      "38718835",
+      "37985428",
+      "37774136",
+      "37413765",
+      "37285554",
+      "36370105",
+      "36161872",
+      "35453340",
+      "35452809",
+      "35084505",
+      "34041267",
+      "33885785",
+      "33576566",
+      "33560537",
+      "33454001",
+      "33437024",
+      "33257830",
+      "33093235",
+      "32917931",
+      "32391319",
+      "32019966",
+      "31639650",
+      "31591575",
+      "31588918",
+      "30889816",
+      "30885931",
+      "30880241",
+      "30425148",
+      "30297527",
+      "29547354",
+      "29506649",
+      "29379050",
+      "29358497",
+      "29124841",
+      "28420885",
+      "28242229",
+      "28165473",
+      "28151956",
+      "27190162",
+      "25720121",
+      "24987449",
+      "24657586",
+      "23950988",
+      "23899494",
+      "23883684",
+      "23861399",
+      "23712352",
+      "23621709",
+      "23103390",
+      "22821981",
+      "21988835",
+      "21441513",
+      "21320185",
+      "21143317",
+      "20626317",
+      "20463026",
+      "20455946",
+      "19968277",
+      "19473258",
+      "18173371",
+      "17921294",
+      "17803904",
+      "17573482",
+      "17351037",
+      "17280493",
+      "16771667",
+      "16606683",
+      "16555095",
+      "16428387",
+      "16336178",
+      "16237007",
+      "15812010",
+      "15547642",
+      "15543158",
+      "15308657",
+      "14527285",
+      "12900037",
+      "12705881",
+      "12595552",
+      "12485986",
+      "12015987",
+      "11722732",
+      "11301006",
+      "11018134",
+      "10986275",
+      "10620317",
+      "10452801",
+      "10339558",
+      "9497290",
+      "9148737",
+      "8672885",
+      "8597169",
+      "8087856",
+      "7868602",
+      "6271763",
+      "3521741",
+      "2828320",
+      "2183352",
+      "1542022"
+    ],
+    "similar": [
+      "40193708",
+      "12900037",
+      "37985428",
+      "27094335",
+      "29547354",
+      "12705881",
+      "27190162",
+      "31339484",
+      "33560537",
+      "16238634",
+      "30463959",
+      "32917931",
+      "27268058",
+      "29358497",
+      "33093235",
+      "29124841",
+      "20025616",
+      "23883684",
+      "37544488",
+      "21632538",
+      "31444207",
+      "35184754",
+      "16428387",
+      "39418129",
+      "29777359",
+      "11722732",
+      "22272299",
+      "23621709",
+      "31001852",
+      "39264182",
+      "24450773",
+      "12464172",
+      "19933365",
+      "10960088",
+      "14629014",
+      "7868602",
+      "25107507",
+      "31993844",
+      "16030151",
+      "24563858",
+      "23382903",
+      "25931525",
+      "29367341",
+      "27108223",
+      "22992749",
+      "9497290",
+      "25946648",
+      "20056701",
+      "29859088",
+      "26755630",
+      "22257022",
+      "12100544",
+      "20799089",
+      "19749048",
+      "18270589",
+      "28138024",
+      "12724378",
+      "24214945",
+      "22438866",
+      "25897035",
+      "22665313",
+      "28036400",
+      "21257767",
+      "12496210",
+      "22797754",
+      "28596944",
+      "15033242",
+      "30217849",
+      "15968067",
+      "16549660",
+      "16619021",
+      "1542022",
+      "27825304",
+      "30880241",
+      "2256675",
+      "22817265",
+      "25849452",
+      "30620265",
+      "9733688",
+      "29905495",
+      "28120190",
+      "26642319",
+      "20618685",
+      "16452421",
+      "23300923",
+      "21220941",
+      "19926657",
+      "25009841",
+      "23498960",
+      "8797819",
+      "31262840",
+      "27324811",
+      "18990187",
+      "16771674",
+      "21685450",
+      "37314346",
+      "15993009",
+      "32015146",
+      "27089838",
+      "25720121"
+    ],
+    "review": [
+      "40193708",
+      "29777359",
+      "12464172",
+      "24563858",
+      "25946648",
+      "22257022",
+      "12100544",
+      "22797754",
+      "1542022",
+      "2256675",
+      "16771674",
+      "27089838"
+    ],
+    "pmc": [
+      "11975290"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40193708/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf267",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

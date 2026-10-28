@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38954070",
+  "title": "Exploring putative drug properties associated with TNF-alpha inhibition and identification of potential targets in cardiovascular disease using machine learning-assisted QSAR modeling and virtual reverse pharmacology approach.",
+  "authors": "Shah, Manisha; Arumugam, Sivakumar",
+  "journal": "Molecular diversity",
+  "published_date": "2024-07-02",
+  "window": {
+    "start": "2024-07-01",
+    "end": "2024-07-07"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究用QSAR-RF和分子对接模拟探索TNF-alpha抑制剂及心血管靶点，虽涉及分子模拟但核心是药物小分子-蛋白互作，非蛋白质-DNA互作体系，与本课题无关。",
+  "abstract": "Cardiovascular disease is a chronic inflammatory disease with high mortality rates. TNF-alpha is pro-inflammatory and associated with the disease, but current medications have adverse effects. Therefore, efficient inhibitors are urgently needed as alternatives. This study represents a structural-activity relationship investigation of TNF-alpha, curated from the ChEMBL database. Exploratory data analysis was performed to visualize the physicochemical properties of different bioactivity groups. The extracted molecules were subjected to PubChem and SubStructure fingerprints, and a QSAR-based Random Forest (QSAR-RF) model was generated using the WEKA tool. The QSAR random Forest model was built based on the SubStructure fingerprint with a correlation coefficient of 0.992 and 0.716 as the respective tenfold cross-validation scores. The variance important plot (VIP) method was used to extract the important features for TNF-alpha inhibition. The Substructure-based QSAR-RF (SS-QSAR-RF) model was validated using molecules from PubChem and ZINC databases. The generated model also predicts the pIC(50) value of the molecules selected from the docking study followed by molecular dynamic simulation with the time step of 100 ns. Through virtual reverse pharmacology, we determined the main drug targets from the top four hit compounds obtained via molecular docking study. Our analysis included an integrated bioinformatics approach to pinpoint crucial targets like EGRF, HSP900A1, STAT3, PSEN1, AKT1, and MDM2. Further, GO and KEGG pathways analysis identified relevant cardiovascular disease-related pathways for the hub gene involved. However, this study provides valuable insights, it is important to note that it lacks experimental application. Future research may benefit from conducting in-vitro and in-vivo studies.",
+  "abstract_zh": "心血管疾病是一种死亡率较高的慢性炎症性疾病。TNF-α具有促炎作用，与该疾病相关，但现有药物存在不良反应。因此，迫切需要高效抑制剂作为替代方案。本研究基于ChEMBL数据库，对TNF-α进行了结构-活性关系研究。通过探索性数据分析，可视化了不同生物活性组的理化性质。提取的分子经PubChem和SubStructure指纹处理后，利用WEKA工具生成了基于QSAR的随机森林（QSAR-RF）模型。该QSAR随机森林模型基于SubStructure指纹构建，其十折交叉验证得分分别为0.992和0.716的相关系数。采用方差重要性图（VIP）方法提取TNF-α抑制的重要特征。基于SubStructure的QSAR-RF（SS-QSAR-RF）模型使用PubChem和ZINC数据库中的分子进行了验证。生成的模型还预测了从对接研究中选择的分子的pIC(50)值，随后进行了时间步长为100 ns的分子动力学模拟。通过虚拟反向药理学，我们确定了从分子对接研究获得的四个主要命中化合物的主要药物靶点。我们的分析包括综合生物信息学方法，以确定关键靶点，如EGRF、HSP900A1、STAT3、PSEN1、AKT1和MDM2。此外，GO和KEGG通路分析确定了与所涉及枢纽基因相关的心血管疾病相关通路。然而，尽管本研究提供了有价值的见解，但值得注意的是，它缺乏实验应用。未来研究可能受益于进行体外和体内研究。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38954070/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38954070/",
+  "paper_page_path": "papers/pubmed/38954070/index.html"
+}

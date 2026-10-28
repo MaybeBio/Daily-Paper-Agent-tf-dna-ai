@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "40770024",
+    "doi": "10.1038/s41598-025-14307-2",
+    "title": "Identifying ferroptosis-related genes in lung adenocarcinoma using random walk with restart in the PPI network."
+  },
+  "content": {
+    "abstract": "Lung adenocarcinoma (LUAD), the most common non-small cell lung cancer subtype, often presents with subtle early symptoms leading to delayed diagnosis. Ferroptosis, a cell death process associated with iron metabolism dysregulation, has been linked to cancer onset, progression, and treatment resistance. Thus, identifying ferroptosis-related genes may offer novel insights for LUAD therapy. In this study, we employed the random walk with restart (RWR) algorithm on the LUAD protein-protein interaction (PPI) network to predict ferroptosis-related target genes. Gene set enrichment analysis (GSEA) explored the relationship between XBP1 and ferroptosis, while tumor microenvironment analysis evaluated the correlation between XBP1 expression and immune cell infiltration. External cohorts validation was performed using the GSE118370, GSE68465, and TCGA-LUAD datasets. Our analysis identified XBP1 as a potential ferroptosis-related gene in LUAD. GSEA confirmed a strong association between XBP1 and the ferroptosis process, along with its involvement in the tumor microenvironment, and external cohorts demonstrated its high expression and significant correlation with immune cell infiltration in LUAD tissues. These findings suggest that XBP1 plays a key role in LUAD development and progression, providing new perspectives for precision therapies targeting the ferroptosis pathway.",
+    "keywords": [
+      "Ferroptosis",
+      "Lung adenocarcinoma",
+      "Machine learning",
+      "PPI network",
+      "Random walk with restart",
+      "Tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Ferroptosis/genetics",
+      "*Adenocarcinoma of Lung/genetics/pathology/metabolism",
+      "*Lung Neoplasms/genetics/pathology/metabolism",
+      "*X-Box Binding Protein 1/genetics/metabolism",
+      "*Protein Interaction Maps/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Tumor Microenvironment/genetics",
+      "Gene Regulatory Networks",
+      "Algorithms",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Can",
+        "He, Peng",
+        "Qiao, Ru",
+        "Yang, Xiaoyan",
+        "Ding, Changsong",
+        "He, Fuyuan"
+      ],
+      "short_names": [
+        "Liu C",
+        "He P",
+        "Qiao R",
+        "Yang X",
+        "Ding C",
+        "He F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China.",
+        "Hunan Provincial Key Laboratory of Drugability and Preparation Modification of TCM, Changsha, 410208, China.",
+        "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China.",
+        "Hunan Provincial Key Laboratory of Drugability and Preparation Modification of TCM, Changsha, 410208, China.",
+        "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China.",
+        "Hunan Provincial Key Laboratory of Drugability and Preparation Modification of TCM, Changsha, 410208, China.",
+        "School of Informatics, Hunan University of Chinese Medicine, Changsha, 410208, Hunan, China.",
+        "School of Informatics, Hunan University of Chinese Medicine, Changsha, 410208, Hunan, China.",
+        "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China. pharmsharking@163.com.",
+        "Hunan Provincial Key Laboratory of Drugability and Preparation Modification of TCM, Changsha, 410208, China. pharmsharking@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Can",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China.",
+          "Hunan Provincial Key Laboratory of Drugability and Preparation Modification of TCM, Changsha, 410208, China."
+        ]
+      },
+      {
+        "full_name": "He, Peng",
+        "short_name": "He P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China.",
+          "Hunan Provincial Key Laboratory of Drugability and Preparation Modification of TCM, Changsha, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Ru",
+        "short_name": "Qiao R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China.",
+          "Hunan Provincial Key Laboratory of Drugability and Preparation Modification of TCM, Changsha, 410208, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xiaoyan",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Informatics, Hunan University of Chinese Medicine, Changsha, 410208, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Changsong",
+        "short_name": "Ding C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Informatics, Hunan University of Chinese Medicine, Changsha, 410208, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "He, Fuyuan",
+        "short_name": "He F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China. pharmsharking@163.com.",
+          "Hunan Provincial Key Laboratory of Drugability and Preparation Modification of TCM, Changsha, 410208, China. pharmsharking@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Aug 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/07 00:27",
+    "fetched_at": "2026-09-30 23:20:48"
+  },
+  "links": {
+    "cites": [
+      "42189270"
+    ],
+    "refs": [
+      "40295509",
+      "40252985",
+      "40083325",
+      "39417505",
+      "39127833",
+      "39090114",
+      "38940044",
+      "38750057",
+      "38383612",
+      "38366038",
+      "38195910",
+      "37647899",
+      "37384816",
+      "37005430",
+      "37001616",
+      "36860893",
+      "36733399",
+      "36482419",
+      "36305834",
+      "36092910",
+      "35331963",
+      "35326552",
+      "34899868",
+      "34858857",
+      "34791021",
+      "34312370",
+      "34273970",
+      "34023295",
+      "33901632",
+      "33785413",
+      "33778001",
+      "33731170",
+      "33690088",
+      "33536413",
+      "33437215",
+      "32305934",
+      "29092952",
+      "19247368"
+    ],
+    "similar": [
+      "40770024",
+      "38941396",
+      "34175738",
+      "40682067",
+      "40313958",
+      "41409290",
+      "34256754",
+      "40860289",
+      "39139574",
+      "40917063",
+      "39080453",
+      "33432837",
+      "40474570",
+      "40694989",
+      "39259123",
+      "39148731",
+      "32741804",
+      "41162544",
+      "34115610",
+      "39988436",
+      "41123817",
+      "35236309",
+      "40767887",
+      "34648954",
+      "40474806",
+      "37581210",
+      "40547013",
+      "40429829",
+      "40396179",
+      "40307363",
+      "40469299",
+      "40330698",
+      "41409293",
+      "41266429",
+      "30883337",
+      "34592886",
+      "41430351",
+      "40610605",
+      "34335635",
+      "40700945",
+      "34117948",
+      "40320470",
+      "39823156",
+      "37728413",
+      "38655266",
+      "41293164",
+      "36359768",
+      "37378675",
+      "39488588",
+      "32556504",
+      "39375639",
+      "33387038",
+      "39762281",
+      "40421217",
+      "41168822",
+      "33029085",
+      "37061114",
+      "40826767",
+      "39910337",
+      "33979897",
+      "39983667",
+      "38996537",
+      "41181148",
+      "41383634",
+      "38142454",
+      "40519919",
+      "39806313",
+      "38514598",
+      "39262456",
+      "40229853",
+      "34527427",
+      "39692484",
+      "33949150",
+      "33308118",
+      "39181476",
+      "32196072",
+      "36016939",
+      "35254116",
+      "39273449",
+      "39580469",
+      "38529604",
+      "41239716",
+      "39641239",
+      "35883650",
+      "41310864",
+      "32031203",
+      "39392409",
+      "39866239",
+      "39553728",
+      "34017995",
+      "41415280",
+      "33134373",
+      "39940833",
+      "39159158",
+      "40331946",
+      "40765833",
+      "40259152",
+      "39794414",
+      "40993741",
+      "40486872"
+    ],
+    "review": [
+      "40770024"
+    ],
+    "pmc": [
+      "12328809"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-14307-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40770024/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42151623",
+  "title": "Simulation-guided chemical direct reprogramming informed by temporal cellular conversion processes at the single-cell level.",
+  "authors": "Ito, Ryoku; Hamano, Momoko; Kawasaki, Ryota; Watanabe, Hikaru; Matsuo, Arisa; Yamanishi, Yoshihiro",
+  "journal": "Communications chemistry",
+  "published_date": "2026-05-19",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用单细胞时序转录组和模拟退火预测小分子诱导直接重编程，虽涉及转录因子相关过程，但核心是细胞命运转换而非蛋白质-DNA互作建模，且无AI/物理模拟的TF-DNA结合研究。",
+  "abstract": "Direct reprogramming (DR) involves inducing cell differentiation by converting somatic cells directly into target cells without bypassing induced pluripotent stem cells. Small molecule-induced DR reduces tumorigenic risk relative to transcription factor-triggered DR. However, identifying small molecules for DR through experimental exploration alone remains challenging. This study presents a computational method, SuperDIRECTEUR, to predict small molecules for DR using single-cell temporal transcriptome data. The cellular conversion processes in DR were simulated by calculating the RNA velocity in each cell. These processes were then classified into multiple stages (i.e., primal, immature, and mature stages), and a variant of simulated annealing was employed to search for the combination of small molecules that mimic stage-specific gene expression patterns during DR. We applied SuperDIRECTEUR to identifying candidate small molecules for DR converting mouse embryonic fibroblasts to induced neurons, and were able to reproduce experimentally verified and functionally related molecules inducing the corresponding conversions in a temporal stage-specific manner. The target proteins of the predicted small molecules in the early and later stages were distinctively involved in biologically relevant pathways toward neuronal differentiation and maturation. The proposed method has potential for practical applications in regenerative medicine.",
+  "abstract_zh": "直接重编程（DR）涉及通过将体细胞直接转化为靶细胞来诱导细胞分化，而无需经过诱导多能干细胞阶段。与转录因子触发的DR相比，小分子诱导的DR降低了致瘤风险。然而，仅通过实验探索来识别用于DR的小分子仍然具有挑战性。本研究提出了一种计算方法SuperDIRECTEUR，利用单细胞时间转录组数据预测用于DR的小分子。通过计算每个细胞中的RNA速度来模拟DR中的细胞转化过程。这些过程随后被分类为多个阶段（即初始阶段、未成熟阶段和成熟阶段），并采用模拟退火的变体来搜索模拟DR过程中阶段特异性基因表达模式的小分子组合。我们将SuperDIRECTEUR应用于识别将小鼠胚胎成纤维细胞转化为诱导神经元的小分子候选物，并能够以时间阶段特异性的方式重现经实验验证和功能相关分子诱导的相应转化。预测的小分子在早期和后期阶段的靶蛋白分别涉及与神经元分化和成熟相关的生物学通路。该方法在再生医学中具有实际应用的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42151623/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42151623/",
+  "paper_page_path": "papers/pubmed/42151623/index.html"
+}

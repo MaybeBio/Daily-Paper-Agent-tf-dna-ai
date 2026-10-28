@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38227575",
+  "title": "Transcription factor interactions explain the context-dependent activity of CRX binding sites.",
+  "authors": "Loell, Kaiser J; Friedman, Ryan Z; Myers, Connie A; Corbo, Joseph C; Cohen, Barak A; White, Michael A",
+  "journal": "PLoS computational biology",
+  "published_date": "2024-01-16",
+  "window": {
+    "start": "2024-01-15",
+    "end": "2024-01-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用神经网络模型分析合成CRE中CRX结合位点的上下文依赖性活性，揭示同源/异源TFBS互作机制，虽聚焦转录调控活性而非三维结构建模，但TF-DNA结合位点互作建模方法对本课题有借鉴价值。",
+  "abstract": "The effects of transcription factor binding sites (TFBSs) on the activity of a cis-regulatory element (CRE) depend on the local sequence context. In rod photoreceptors, binding sites for the transcription factor (TF) Cone-rod homeobox (CRX) occur in both enhancers and silencers, but the sequence context that determines whether CRX binding sites contribute to activation or repression of transcription is not understood. To investigate the context-dependent activity of CRX sites, we fit neural network-based models to the activities of synthetic CREs composed of photoreceptor TFBSs. The models revealed that CRX binding sites consistently make positive, independent contributions to CRE activity, while negative homotypic interactions between sites cause CREs composed of multiple CRX sites to function as silencers. The effects of negative homotypic interactions can be overcome by the presence of other TFBSs that either interact cooperatively with CRX sites or make independent positive contributions to activity. The context-dependent activity of CRX sites is thus determined by the balance between positive heterotypic interactions, independent contributions of TFBSs, and negative homotypic interactions. Our findings explain observed patterns of activity among genomic CRX-bound enhancers and silencers, and suggest that enhancers may require diverse TFBSs to overcome negative homotypic interactions between TFBSs.",
+  "abstract_zh": "转录因子结合位点（TFBSs）对顺式调控元件（CRE）活性的影响取决于局部序列背景。在视杆光感受器中，转录因子（TF）锥杆同源盒（CRX）的结合位点同时存在于增强子和沉默子中，但决定CRX结合位点是否促进转录激活或抑制的序列背景尚不清楚。为研究CRX位点的背景依赖性活性，我们基于神经网络模型拟合了由光感受器TFBSs组成的合成CREs的活性。模型揭示，CRX结合位点始终对CRE活性作出正向、独立的贡献，而位点间的负向同型相互作用导致由多个CRX位点组成的CREs发挥沉默子功能。负向同型相互作用的影响可通过其他TFBSs的存在来克服，这些TFBSs要么与CRX位点协同相互作用，要么对活性作出独立的正向贡献。因此，CRX位点的背景依赖性活性由正向异型相互作用、TFBSs的独立贡献以及负向同型相互作用之间的平衡决定。我们的发现解释了基因组中CRX结合的增强子和沉默子所观察到的活性模式，并提示增强子可能需要多样化的TFBSs来克服TFBSs之间的负向同型相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38227575/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38227575/",
+  "paper_page_path": "papers/pubmed/38227575/index.html"
+}

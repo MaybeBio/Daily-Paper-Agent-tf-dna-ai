@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "37305753",
+    "doi": "10.3389/fneur.2023.1189746",
+    "title": "Predictive model, miRNA-TF network, related subgroup identification and drug prediction of ischemic stroke complicated with mental disorders based on genes related to gut microbiome."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Patients with comorbid schizophrenia, depression, drug use, and multiple psychiatric diagnoses have a greater risk of carotid revascularization following stroke. The gut microbiome (GM) plays a crucial role in the attack of mental illness and IS, which may become an index for the diagnosis of IS. A genomic study of the genetic commonalities between SC and IS, as well as its mediated pathways and immune infiltration, will be conducted to determine how schizophrenia contributes to the high prevalence of IS. According to our study, this could be an indicator of ischemic stroke development. METHODS: We selected two datasets of IS from the Gene Expression Omnibus (GEO), one for training and the other for the verification group. Five genes related to mental disorders and GM were extracted from Gene cards and other databases. Linear models for microarray data (Limma) analysis was utilized to identify differentially expressed genes (DEGs) and perform functional enrichment analysis. It was also used to conduct machine learning exercises such as random forest and regression to identify the best candidate for immune-related central genes. Protein-protein interaction (PPI) network and artificial neural network (ANN) were established for verification. The receiver operating characteristic (ROC) curve was drawn for the diagnosis of IS, and the diagnostic model was verified by qRT-PCR. Further immune cell infiltration analysis was performed to study the IS immune cell imbalance. We also performed consensus clustering (CC) to analyze the expression of candidate models under different subtypes. Finally, miRNA, transcription factors (TFs), and drugs related to candidate genes were collected through the Network analyst online platform. RESULTS: Through comprehensive analysis, a diagnostic prediction model with good effect was obtained. Both the training group (AUC 0.82, CI 0.93-0.71) and the verification group (AUC 0.81, CI 0.90-0.72) had a good phenotype in the qRT-PCR test. And in verification group 2 we validated between the two groups with and without carotid-related ischemic cerebrovascular events (AUC 0.87, CI 1-0.64). Furthermore, we investigated cytokines in both GSEA and immune infiltration and verified cytokine-related responses by flow cytometry, particularly IL-6, which played an important role in IS occurrence and progression. Therefore, we speculate that mental illness may affect the development of IS in B cells and IL-6 in T cells. MiRNA (hsa-mir-129-2-3p, has-mir-335-5p, and has-mir-16-5p) and TFs (CREB1, FOXL1), which may be related to IS, were obtained. CONCLUSION: Through comprehensive analysis, a diagnostic prediction model with good effect was obtained. Both the training group (AUC 0.82, CI 0.93-0.71) and the verification group (AUC 0.81, CI 0.90-0.72) had a good phenotype in the qRT-PCR test. And in verification group 2 we validated between the two groups with and without carotid-related ischemic cerebrovascular events (AUC 0.87, CI 1-0.64). MiRNA (hsa-mir-129-2-3p, has-mir-335-5p, and has-mir-16-5p) and TFs (CREB1, FOXL1), which may be related to IS, were obtained.",
+    "keywords": [
+      "diagnostic model",
+      "drug prediction",
+      "gut microbiome",
+      "ischemic stroke",
+      "machine learning",
+      "mental disorders",
+      "qRT-PCR",
+      "transcription factors ischemic stroke"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shen, Jing",
+        "Feng, Yu",
+        "Lu, Minyan",
+        "He, Jin",
+        "Yang, Huifeng"
+      ],
+      "short_names": [
+        "Shen J",
+        "Feng Y",
+        "Lu M",
+        "He J",
+        "Yang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Affiliated Jiangsu Shengze Hospital of Nanjing Medical University, Nanjing, China.",
+        "The University of New South Wales, Sydney, NSW, Australia.",
+        "The University of Melbourne, Parkville, VIC, Australia.",
+        "The Affiliated Jiangsu Shengze Hospital of Nanjing Medical University, Nanjing, China.",
+        "The Affiliated Jiangsu Shengze Hospital of Nanjing Medical University, Nanjing, China.",
+        "The Affiliated Jiangsu Shengze Hospital of Nanjing Medical University, Nanjing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shen, Jing",
+        "short_name": "Shen J",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Jiangsu Shengze Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Yu",
+        "short_name": "Feng Y",
+        "identifiers": [],
+        "affiliations": [
+          "The University of New South Wales, Sydney, NSW, Australia.",
+          "The University of Melbourne, Parkville, VIC, Australia."
+        ]
+      },
+      {
+        "full_name": "Lu, Minyan",
+        "short_name": "Lu M",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Jiangsu Shengze Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "He, Jin",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Jiangsu Shengze Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Huifeng",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Jiangsu Shengze Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in neurology"
+    ],
+    "journal_abbrev": [
+      "Front Neurol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/12 06:42",
+    "fetched_at": "2026-09-29 02:14:02"
+  },
+  "links": {
+    "cites": [
+      "41444657",
+      "39135956",
+      "37520121"
+    ],
+    "refs": [
+      "38868713",
+      "37067534",
+      "36436491",
+      "36169237",
+      "36017481",
+      "35844400",
+      "35656537",
+      "35420911",
+      "35154514",
+      "34987704",
+      "34785599",
+      "34484236",
+      "34039028",
+      "33477609",
+      "33271426",
+      "33008395",
+      "32561412",
+      "31921619",
+      "31426765",
+      "31053663",
+      "30931480",
+      "30716572",
+      "30505247",
+      "30362547",
+      "29912392",
+      "29737766",
+      "29656030",
+      "29437982",
+      "29126136",
+      "27060191",
+      "27019327",
+      "26806700",
+      "23323831",
+      "23259851",
+      "23193258",
+      "23013268",
+      "22455463",
+      "21546393",
+      "21414208",
+      "20427518",
+      "18722812",
+      "17113927",
+      "16632515",
+      "16199517",
+      "15304201",
+      "7788124"
+    ],
+    "similar": [
+      "37305753",
+      "36993785",
+      "37520121",
+      "35401659",
+      "37603701",
+      "37113536",
+      "34536521",
+      "31934299",
+      "39080630",
+      "36605987",
+      "37528851",
+      "38371524",
+      "36457754",
+      "39028999",
+      "34801043",
+      "39238829",
+      "35422846",
+      "39263286",
+      "38355593",
+      "37250717",
+      "33407587",
+      "36819547",
+      "35313857",
+      "34840985",
+      "35757392",
+      "36647068",
+      "38443950",
+      "30285853",
+      "39080525",
+      "37891634",
+      "39142001",
+      "37968923",
+      "32299382",
+      "33391341",
+      "32576868",
+      "36291136",
+      "35481271",
+      "38601162",
+      "34483854",
+      "27932553",
+      "37357608",
+      "36823662",
+      "35386284",
+      "36304554",
+      "36187128",
+      "38362844",
+      "37469680",
+      "34313877",
+      "35577542",
+      "38360841",
+      "37632659",
+      "31669638",
+      "36968495",
+      "30052155",
+      "32906114",
+      "35842645",
+      "36319098",
+      "38511065",
+      "33468167",
+      "38650649",
+      "36545400",
+      "29394946",
+      "35706801",
+      "35562921",
+      "37662030",
+      "37732314",
+      "37980270",
+      "39150251",
+      "34434654",
+      "36321557",
+      "29128636",
+      "33371806",
+      "37904219",
+      "36104591",
+      "37821907",
+      "37697288",
+      "31114367",
+      "37063958",
+      "36699262",
+      "33604823",
+      "34234459",
+      "37601672",
+      "34566862",
+      "35655923",
+      "36105301",
+      "36253873",
+      "30258285",
+      "36254052",
+      "36819574",
+      "36656441",
+      "32013934",
+      "37837492",
+      "36401966",
+      "39071704",
+      "34262312",
+      "35965793",
+      "30736753",
+      "35322101",
+      "39296548",
+      "37860165",
+      "39295987",
+      "38938103"
+    ],
+    "review": [
+      "37305753",
+      "36321557"
+    ],
+    "pmc": [
+      "10250745"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37305753/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37305753",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fneur.2023.1189746",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

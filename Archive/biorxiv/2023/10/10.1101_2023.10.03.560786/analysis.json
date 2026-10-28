@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.03.560786",
+  "title": "Systematic Investigation of Machine Learning on Limited Data: A Study on Predicting Protein-Protein Binding Strength",
+  "authors": "Feifan Zheng; Xin Jiang; Yuhao Wen; Yan Yang; Minghui Li",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-05",
+  "window": {
+    "start": "2023-10-02",
+    "end": "2023-10-08"
+  },
+  "score": 4,
+  "one_liner_zh": "该文系统研究机器学习在有限数据下预测蛋白质-蛋白质结合亲和力，虽涉及结合强度预测，但对象为蛋白-蛋白而非蛋白-DNA互作，方法可迁移性有限，与本课题关联较弱。",
+  "abstract": "The application of machine learning techniques in biological research, especially when dealing with limited data availability, poses significant challenges. In this study, we leveraged advancements in method development for predicting protein-protein binding strength to conduct a systematic investigation into the application of machine learning on limited data. The binding strength, quantitatively measured as binding affinity, is vital for understanding the processes of recognition, association, and dysfunction that occur within protein complexes. By incorporating transfer learning, integrating domain knowledge, and employing both deep learning and traditional machine learning algorithms, we mitigate the impact of data limitations and make significant advancements in predicting protein-protein binding affinity. In particular, we developed over 20 models, ultimately selecting three representative best-performing ones that belong to distinct categories. The first model is structure-based, consisting of a random forest regression and thirteen handcrafted features. The second model is sequence-based, employing an architecture that combines transferred embedding features with a multilayer perceptron. Finally, we created an ensemble model by averaging the predictions of the two aforementioned models. The comparison with other predictors on three independent datasets confirmed the significant improvements achieved by our models in predicting protein-protein binding affinity. The source codes for these three models are available at https://github.com/minghuilab/BindPPI .",
+  "abstract_zh": "机器学习技术在生物学研究中的应用，尤其是在数据有限的情况下，带来了重大挑战。在本研究中，我们利用蛋白质-蛋白质结合强度预测方法开发的进展，对机器学习在有限数据上的应用进行了系统性研究。结合强度，以结合亲和力（binding affinity）定量衡量，对于理解蛋白质复合物内的识别、结合和功能障碍过程至关重要。通过整合迁移学习（transfer learning）、领域知识，并采用深度学习和传统机器学习算法，我们减轻了数据限制的影响，并在预测蛋白质-蛋白质结合亲和力方面取得了显著进展。具体而言，我们开发了超过20个模型，最终选择了三个代表性且性能最佳的模型，它们属于不同类别。第一个模型基于结构，由随机森林回归（random forest regression）和十三个手工特征组成。第二个模型基于序列，采用结合迁移嵌入特征与多层感知器（multilayer perceptron）的架构。最后，我们通过平均上述两个模型的预测结果创建了一个集成模型。在三个独立数据集上与其他预测器的比较证实了我们的模型在预测蛋白质-蛋白质结合亲和力方面的显著改进。这三个模型的源代码可在 https://github.com/minghuilab/BindPPI 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.03.560786",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.03.560786",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.03.560786/index.html"
+}

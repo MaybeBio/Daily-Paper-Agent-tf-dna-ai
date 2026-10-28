@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35654811",
+  "title": "Artificial neural networks enable genome-scale simulations of intracellular signaling.",
+  "authors": "Nilsson, Avlant; Peters, Joshua M; Meimetis, Nikolaos; Bryson, Bryan; Lauffenburger, Douglas A",
+  "journal": "Nature communications",
+  "published_date": "2022-06-03",
+  "window": {
+    "start": "2022-05-30",
+    "end": "2022-06-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用循环神经网络模拟细胞内信号传导并预测转录因子活性，但核心是信号网络而非TF-DNA结合互作，缺乏三维结构或结合位点建模，仅间接相关。",
+  "abstract": "Mammalian cells adapt their functional state in response to external signals in form of ligands that bind receptors on the cell-surface. Mechanistically, this involves signal-processing through a complex network of molecular interactions that govern transcription factor activity patterns. Computer simulations of the information flow through this network could help predict cellular responses in health and disease. Here we develop a recurrent neural network framework constrained by prior knowledge of the signaling network with ligand-concentrations as input and transcription factor-activity as output. Applied to synthetic data, it predicts unseen test-data (Pearson correlation r = 0.98) and the effects of gene knockouts (r = 0.8). We stimulate macrophages with 59 different ligands, with and without the addition of lipopolysaccharide, and collect transcriptomics data. The framework predicts this data under cross-validation (r = 0.8) and knockout simulations suggest a role for RIPK1 in modulating the lipopolysaccharide response. This work demonstrates the feasibility of genome-scale simulations of intracellular signaling.",
+  "abstract_zh": "哺乳动物细胞通过细胞表面受体结合配体形式的外部信号来适应其功能状态。机制上，这涉及通过一个复杂的分子相互作用网络进行信号处理，该网络调控转录因子活性模式。通过该网络的信息流的计算机模拟可能有助于预测健康和疾病中的细胞反应。在此，我们开发了一个受信号网络先验知识约束的循环神经网络框架，以配体浓度作为输入，转录因子活性作为输出。应用于合成数据时，它预测未见过的测试数据（Pearson相关系数 r = 0.98）以及基因敲除效应（r = 0.8）。我们用59种不同配体刺激巨噬细胞，添加或不添加脂多糖，并收集转录组学数据。该框架在交叉验证下预测这些数据（r = 0.8），且敲除模拟提示RIPK1在调节脂多糖反应中发挥作用。这项工作证明了基因组规模细胞内信号模拟的可行性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35654811/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35654811/",
+  "paper_page_path": "papers/pubmed/35654811/index.html"
+}

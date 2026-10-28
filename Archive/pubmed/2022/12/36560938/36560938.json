@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "36560938",
+    "doi": "10.3389/fmicb.2022.1048478",
+    "title": "A capsule network-based method for identifying transcription factors."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) are typical regulators for gene expression and play versatile roles in cellular processes. Since it is time-consuming, costly, and labor-intensive to detect it by using physical methods, it is desired to develop a computational method to detect TFs. Here, we presented a capsule network-based method for identifying TFs. This method is an end-to-end deep learning method, consisting mainly of an embedding layer, bidirectional long short-term memory (LSTM) layer, capsule network layer, and three fully connected layers. The presented method obtained an accuracy of 0.8820, being superior to the state-of-the-art methods. These empirical experiments showed that the inclusion of the capsule network promoted great performances and that the capsule network-based representation was superior to the property-based representation for distinguishing between TFs and non-TFs. We also implemented the presented method into a user-friendly web server, which is freely available at http://www.biolscience.cn/Capsule_TF/ for all scientific researchers.",
+    "keywords": [
+      "LSTM",
+      "capsule network",
+      "deep learning",
+      "semantics",
+      "transcription factors"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Peijie",
+        "Qi, Yue",
+        "Li, Xueyong",
+        "Liu, Yuewu",
+        "Yao, Yuhua",
+        "Huang, Guohua"
+      ],
+      "short_names": [
+        "Zheng P",
+        "Qi Y",
+        "Li X",
+        "Liu Y",
+        "Yao Y",
+        "Huang G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Electrical Engineering, Shaoyang University, Shaoyang, China.",
+        "School of Electrical Engineering, Shaoyang University, Shaoyang, China.",
+        "School of Electrical Engineering, Shaoyang University, Shaoyang, China.",
+        "College of Information and Intelligence, Hunan Agricultural University, Changsha, China.",
+        "School of Mathematics and Statistics, Hainan Normal University, Haikou, China.",
+        "School of Electrical Engineering, Shaoyang University, Shaoyang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Peijie",
+        "short_name": "Zheng P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical Engineering, Shaoyang University, Shaoyang, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Yue",
+        "short_name": "Qi Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical Engineering, Shaoyang University, Shaoyang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xueyong",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical Engineering, Shaoyang University, Shaoyang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuewu",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information and Intelligence, Hunan Agricultural University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Yuhua",
+        "short_name": "Yao Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, Hainan Normal University, Haikou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Guohua",
+        "short_name": "Huang G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical Engineering, Shaoyang University, Shaoyang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in microbiology"
+    ],
+    "journal_abbrev": [
+      "Front Microbiol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/24 06:00",
+    "fetched_at": "2026-09-28 18:04:50"
+  },
+  "links": {
+    "cites": [
+      "40362469"
+    ],
+    "refs": [
+      "35106702",
+      "34962264",
+      "34159204",
+      "33294291",
+      "32858223",
+      "32840562",
+      "31511663",
+      "31137222",
+      "30239587",
+      "29253082",
+      "29145608",
+      "28473536",
+      "28268409",
+      "27708417",
+      "26886976",
+      "25385313",
+      "21938622",
+      "20053844",
+      "19102736",
+      "18239856",
+      "17392330",
+      "17286856",
+      "17160063",
+      "16894596",
+      "16112549",
+      "15382693",
+      "12957540",
+      "12101405",
+      "9570129",
+      "9377276",
+      "8990153",
+      "8960358",
+      "8870495",
+      "8594589",
+      "8293575",
+      "2128034"
+    ],
+    "similar": [
+      "36560938",
+      "36910218",
+      "36653789",
+      "36650801",
+      "35883552",
+      "34962264",
+      "35676633",
+      "38867734",
+      "34330253",
+      "35477057",
+      "37437362",
+      "36119976",
+      "36248939",
+      "28881969",
+      "36099675",
+      "34159204",
+      "34569713",
+      "32858223",
+      "37968293",
+      "27519564",
+      "28505280",
+      "36043118",
+      "30071670",
+      "33099604",
+      "34073774",
+      "34527200",
+      "14627835",
+      "35106702",
+      "32501689",
+      "18221524",
+      "32181478",
+      "31445242",
+      "21172055",
+      "28699566",
+      "34986601",
+      "22824421",
+      "20942926",
+      "23153078",
+      "23497388",
+      "36171569",
+      "30700301",
+      "32176675",
+      "32808039",
+      "33204245",
+      "33480936",
+      "28011771",
+      "30473937",
+      "34129500",
+      "24565134",
+      "32517646",
+      "29513748",
+      "33334307",
+      "23874789",
+      "31598675",
+      "35189635",
+      "16766556",
+      "34882222",
+      "28596516",
+      "30371815",
+      "31173946",
+      "22080564",
+      "35399821",
+      "34184738",
+      "29325558",
+      "24349230",
+      "30142385",
+      "20704747",
+      "18513408",
+      "18426580",
+      "34076817",
+      "23046543",
+      "33372147",
+      "31258543",
+      "35754843",
+      "26855883",
+      "33784381",
+      "35268770",
+      "36290497",
+      "35413800",
+      "30941430",
+      "31114870",
+      "35769283",
+      "34283153",
+      "32554189",
+      "19786497",
+      "36399979",
+      "33571101",
+      "31022640"
+    ],
+    "review": [
+      "36560938"
+    ],
+    "pmc": [
+      "9763301"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36560938/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36560938",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmicb.2022.1048478",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

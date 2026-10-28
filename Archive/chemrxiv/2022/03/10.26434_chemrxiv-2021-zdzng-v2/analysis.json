@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2021-zdzng-v2",
+  "title": "Large Scale Study of Ligand-Protein Relative Binding Free Energy Calculations: Actionable Predictions from Statistically Robust Protocols",
+  "authors": "Agastya P Bhati; Peter V. Coveney",
+  "journal": "ChemRxiv",
+  "published_date": "2022-03-02",
+  "window": {
+    "start": "2022-02-28",
+    "end": "2022-03-06"
+  },
+  "score": 4,
+  "one_liner_zh": "该文大规模评估配体-蛋白质相对结合自由能计算的统计稳健性，虽涉及结合自由能预测，但对象为小分子配体-蛋白质，非蛋白质-DNA互作体系，方法上采用MD增强采样，对TF-DNA互作建模仅有间接方法学参考价值。",
+  "abstract": "The accurate and reliable prediction of protein-ligand binding affinities can play a central role in the drug discovery process as well as in personalised medicine. Of considerable importance during lead optimisation are the alchemical free energy methods that furnish estimation of relative binding free energies (RBFE) of similar molecules. Recent advances in these methods have increased their speed, accuracy and precision. This is evident from the increasing number of retrospective as well as prospective studies employing them. However, such methods still have limited applicability in real-world scenarios due to a number of important yet unresolved issues. Here, we report the findings from a large dataset comprising over 500 ligand transformations spanning over 300 ligands binding to a diverse set of 14 different protein targets which furnish statistically robust results on the accuracy, precision and reproducibility of RBFE calculations. We use ensemble-based methods which are the only way to provide reliable uncertainty quantification given that the underlying molecular dynamics is chaotic. These are implemented using TIES (Thermodynamic Integration with Enhanced Sampling) but are equally applicable to free energy perturbation calculations for which we expect essentially very similar results. Results achieve chemical accuracy in all cases. Ensemble simulations also furnish information on the statistical distributions of the free energy calculations which exhibit non-normal behaviour. We find that the “enhanced sampling” method known as replica exchange with solute tempering degrades RBFE predictions. We also report definitively on numerous associated alchemical factors including the choice of ligand charge method, flexibility in ligand structure and the size of the alchemical region including the number of atoms involved in transforming one ligand into another. Our findings provide a key set of recommendations that should be adopted for the reliable application of RBFE methods.",
+  "abstract_zh": "蛋白质-配体结合亲和力的准确可靠预测在药物发现过程及个性化医疗中可发挥核心作用。在先导化合物优化期间，相当重要的是准热力学自由能方法，这些方法可提供相似分子相对结合自由能（RBFE）的估算。这些方法的最新进展提高了其速度、准确性和精密度，这从采用它们的回顾性及前瞻性研究数量不断增加中可见一斑。然而，由于若干重要且尚未解决的问题，这些方法在实际场景中的适用性仍有限。在此，我们报告了一项大型数据集的研究结果，该数据集包含超过500个配体转化，涉及300多个配体与14个不同蛋白质靶标的多样化集合结合，为RBFE计算的准确性、精密度和可重复性提供了统计上稳健的结果。我们采用基于集成的方法，这是鉴于底层分子动力学具有混沌性而提供可靠不确定性量化的唯一途径。这些方法通过TIES（增强采样热力学积分）实现，但同样适用于自由能微扰计算，我们预期其结果基本相似。所有情况下结果均达到化学精度。集成模拟还提供了自由能计算统计分布的信息，这些分布表现出非正态行为。我们发现，称为溶质回火副本交换的“增强采样”方法会降低RBFE预测质量。我们还明确报告了众多相关的准热力学因素，包括配体电荷方法的选择、配体结构的灵活性以及准热力学区域的大小（包括将一个配体转化为另一个配体所涉及的原子数）。我们的发现提供了一套关键建议，应被采纳以确保RBFE方法的可靠应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2021-zdzng-v2",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2021-zdzng-v2",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2021-zdzng-v2/index.html"
+}

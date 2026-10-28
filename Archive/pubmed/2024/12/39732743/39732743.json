@@ -1,0 +1,389 @@
+{
+  "identity": {
+    "pmid": "39732743",
+    "doi": "10.1038/s41598-024-82486-5",
+    "title": "Chuanxiong Rhizoma regulates ferroptosis and the immune microenvironment in ischemic stroke through the JAK-STAT3 pathway."
+  },
+  "content": {
+    "abstract": "Ferroptosis is linked to various pathological conditions; however, the specific targets and mechanisms through which traditional Chinese medicine influences ischemic stroke (IS)-induced ferroptosis remain poorly understood. In this study, data from the Gene Expression Omnibus and disease target databases (OMIM, GeneCards, DisGeNet, TTD, and DrugBank) were integrated with ferroptosis-related gene datasets. To identify key molecular targets of Chuanxiong Rhizoma (CX), drug ingredient databases, including PubChem and TCMBank, were employed to map CX-related targets (CX-DEGs-FRG and CX-IS-FRG). Gene targets and relevant signaling pathways were analyzed using weighted gene co-expression network analysis, protein-protein interaction networks, Gene Ontology, and Kyoto Encyclopedia of Genes and Genomes pathway enrichment. The least absolute shrinkage and selection operator regression and support vector machine methods were utilized to identify intersecting genes, and the predictive accuracy of core targets was evaluated through receiver operating characteristic curve analysis. Immune cell infiltration in the IS microenvironment was assessed using CIBERSORT, followed by molecular docking of CX's active components with key targets. The JAK-STAT3 pathway was identified as a critical regulatory mechanism, and five key targets (ALOX5, PTGS2, STAT3, G6PD, and HIF1A) emerged as central to the IS-induced ferroptosis. Elevated infiltration of CD8 + T cells and neutrophils was significantly correlated with IS. Notably, the active components mandenol and myricanone demonstrated strong binding affinities with these five targets, which validated the results from network-based analysis. In conclusion, the JAK-STAT3 pathway, through its regulation of ALOX5, PTGS2, STAT3, G6PD, and HIF1A, could play a crucial role in modulating ferroptosis and immune responses in IS. These findings suggest that CX could serve as a potential therapeutic approach for IS, targeting the regulation of IS-induced ferroptosis and the immune microenvironment.",
+    "keywords": [
+      "Chuanxiong Rhizoma",
+      "Ferroptosis",
+      "Immune microenvironment",
+      "Ischemic stroke"
+    ],
+    "mesh_terms": [
+      "*Ferroptosis/drug effects/genetics",
+      "*STAT3 Transcription Factor/metabolism",
+      "*Drugs, Chinese Herbal/pharmacology",
+      "*Ischemic Stroke/metabolism/drug therapy/genetics",
+      "*Signal Transduction/drug effects",
+      "Humans",
+      "Janus Kinases/metabolism",
+      "Animals",
+      "Protein Interaction Maps",
+      "Mice",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ge, Qianxi",
+        "Wang, Zhimin",
+        "Yu, Jiaxiang",
+        "Feng, Xiuzhi",
+        "Li, Jiquan",
+        "Zhang, Xiaoqing",
+        "Wang, Shaohong",
+        "Wang, Lie",
+        "Chen, Yiran"
+      ],
+      "short_names": [
+        "Ge Q",
+        "Wang Z",
+        "Yu J",
+        "Feng X",
+        "Li J",
+        "Zhang X",
+        "Wang S",
+        "Wang L",
+        "Chen Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Acupuncture and Moxibustion College, Liaoning University of Traditional Chinese Medicine, Shenyang, 110847, China.",
+        "The First Clinical College, Liaoning University of Traditional Chinese Medicine, Shenyang, 100847, China.",
+        "Acupuncture and Moxibustion College, Liaoning University of Traditional Chinese Medicine, Shenyang, 110847, China.",
+        "Traditional Chinese Medicine College, Liaoning University of Traditional Chinese Medicine, Shenyang, 100847, China.",
+        "Acupuncture and Moxibustion College, Liaoning University of Traditional Chinese Medicine, Shenyang, 110847, China.",
+        "Acupuncture and Moxibustion College, Liaoning University of Traditional Chinese Medicine, Shenyang, 110847, China.",
+        "Acupuncture and Moxibustion College, Liaoning University of Traditional Chinese Medicine, Shenyang, 110847, China.",
+        "Acupuncture and Moxibustion College, Liaoning University of Traditional Chinese Medicine, Shenyang, 110847, China. eileenpost@126.com.",
+        "Acupuncture and Moxibustion College, Liaoning University of Traditional Chinese Medicine, Shenyang, 110847, China. cyrlnutcm@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ge, Qianxi",
+        "short_name": "Ge Q",
+        "identifiers": [],
+        "affiliations": [
+          "Acupuncture and Moxibustion College, Liaoning University of Traditional Chinese Medicine, Shenyang, 110847, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhimin",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "The First Clinical College, Liaoning University of Traditional Chinese Medicine, Shenyang, 100847, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Jiaxiang",
+        "short_name": "Yu J",
+        "identifiers": [],
+        "affiliations": [
+          "Acupuncture and Moxibustion College, Liaoning University of Traditional Chinese Medicine, Shenyang, 110847, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Xiuzhi",
+        "short_name": "Feng X",
+        "identifiers": [],
+        "affiliations": [
+          "Traditional Chinese Medicine College, Liaoning University of Traditional Chinese Medicine, Shenyang, 100847, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiquan",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Acupuncture and Moxibustion College, Liaoning University of Traditional Chinese Medicine, Shenyang, 110847, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiaoqing",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Acupuncture and Moxibustion College, Liaoning University of Traditional Chinese Medicine, Shenyang, 110847, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shaohong",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Acupuncture and Moxibustion College, Liaoning University of Traditional Chinese Medicine, Shenyang, 110847, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lie",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Acupuncture and Moxibustion College, Liaoning University of Traditional Chinese Medicine, Shenyang, 110847, China. eileenpost@126.com."
+        ]
+      },
+      {
+        "full_name": "Chen, Yiran",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Acupuncture and Moxibustion College, Liaoning University of Traditional Chinese Medicine, Shenyang, 110847, China. cyrlnutcm@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Dec 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/29 06:21",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [
+      "42052276",
+      "42029879",
+      "41907031",
+      "41810314",
+      "41185538",
+      "40842100",
+      "40524806"
+    ],
+    "refs": [
+      "38803692",
+      "38394737",
+      "38325668",
+      "38198162",
+      "37597675",
+      "37264383",
+      "36901765",
+      "36889568",
+      "36768450",
+      "36300620",
+      "36105321",
+      "35608963",
+      "35525530",
+      "35401166",
+      "35355727",
+      "35150482",
+      "34529778",
+      "34367186",
+      "34122048",
+      "34091825",
+      "33885377",
+      "33584789",
+      "33475051",
+      "33473115",
+      "33108267",
+      "32972405",
+      "32899616",
+      "32651291",
+      "32632251",
+      "32500353",
+      "32219413",
+      "32193840",
+      "31733648",
+      "31655606",
+      "31601801",
+      "31572378",
+      "31480382",
+      "31441146",
+      "30670944",
+      "30578415",
+      "29989806",
+      "29041000",
+      "29027964",
+      "28784277",
+      "28337302",
+      "28117389",
+      "27672514",
+      "27571407",
+      "26746864",
+      "26452204",
+      "26184716",
+      "26138757",
+      "25822800",
+      "25505331",
+      "24875290",
+      "23203871",
+      "22818162",
+      "22632970",
+      "21555741",
+      "21149340",
+      "17186030",
+      "12070326",
+      "11752295",
+      "10592173",
+      "10213476",
+      "9472894",
+      "8272872",
+      "8140422"
+    ],
+    "similar": [
+      "39732743",
+      "38812133",
+      "39586719",
+      "38759074",
+      "37287284",
+      "32315738",
+      "37080367",
+      "32922187",
+      "40238820",
+      "39820731",
+      "37833363",
+      "39617073",
+      "38650009",
+      "34522084",
+      "39874850",
+      "39911447",
+      "40316154",
+      "38623977",
+      "39278295",
+      "34658345",
+      "33082911",
+      "33778069",
+      "37454750",
+      "40295239",
+      "39205203",
+      "40013962",
+      "39343107",
+      "38579905",
+      "39259129",
+      "37773840",
+      "37575231",
+      "38387682",
+      "35839049",
+      "36472040",
+      "38653998",
+      "39004032",
+      "39923957",
+      "35097126",
+      "34159207",
+      "37799727",
+      "34058439",
+      "39093800",
+      "38704482",
+      "39969345",
+      "30647760",
+      "38885209",
+      "39108744",
+      "37793334",
+      "39552028",
+      "37807411",
+      "39095732",
+      "39993869",
+      "37083769",
+      "39541922",
+      "39312335",
+      "33513419",
+      "39800242",
+      "40128047",
+      "38489696",
+      "33866197",
+      "39923611",
+      "40179089",
+      "38845538",
+      "38812235",
+      "37190808",
+      "37499457",
+      "39565454",
+      "38462929",
+      "38571354",
+      "38007574",
+      "38701256",
+      "38648716",
+      "38013375",
+      "37259023",
+      "38206683",
+      "33645090",
+      "39960946",
+      "40024299",
+      "39015338",
+      "36472041",
+      "38964628",
+      "39701729",
+      "34059009",
+      "38020614",
+      "40184095",
+      "35178960",
+      "37556042",
+      "40065477",
+      "37879505",
+      "38114219",
+      "38591077",
+      "39541255",
+      "39686413",
+      "34873575",
+      "39928767",
+      "35610009",
+      "38050247",
+      "38619514",
+      "33634308",
+      "40129983"
+    ],
+    "review": [
+      "39732743"
+    ],
+    "pmc": [
+      "11682073"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ischemicstroke.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ischemic Stroke"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-024-82486-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39732743/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERCC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

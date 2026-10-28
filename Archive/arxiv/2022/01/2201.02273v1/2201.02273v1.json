@@ -1,0 +1,39 @@
+{
+  "source": "arxiv",
+  "source_id": "2201.02273v1",
+  "title": "PWM2Vec: An Efficient Embedding Approach for Viral Host Specification from Coronavirus Spike Sequences",
+  "doi": "",
+  "abstract": "COVID-19 pandemic, is still unknown and is an important open question. There are speculations that bats are a possible origin. Likewise, there are many closely related (corona-) viruses, such as SARS, which was found to be transmitted through civets. The study of the different hosts which can be potential carriers and transmitters of deadly viruses to humans is crucial to understanding, mitigating and preventing current and future pandemics. In coronaviruses, the surface (S) protein, or spike protein, is an important part of determining host specificity since it is the point of contact between the virus and the host cell membrane. In this paper, we classify the hosts of over five thousand coronaviruses from their spike protein sequences, segregating them into clusters of distinct hosts among avians, bats, camels, swines, humans and weasels, to name a few. We propose a feature embedding based on the well-known position-weight matrix (PWM), which we call PWM2Vec, and use to generate feature vectors from the spike protein sequences of these coronaviruses. While our embedding is inspired by the success of PWMs in biological applications such as determining protein function, or identifying transcription factor binding sites, we are the first (to the best of our knowledge) to use PWMs in the context of host classification from viral sequences to generate a fixed-length feature vector representation. The results on the real world data show that in using PWM2Vec, we are able to perform comparably well as compared to baseline models. We also measure the importance of different amino acids using information gain to show the amino acids which are important for predicting the host of a given coronavirus.",
+  "authors": [
+    "Sarwan Ali",
+    "Babatunde Bello",
+    "Prakash Chourasia",
+    "Ria Thazhe Punathil",
+    "Yijing Zhou",
+    "Murray Patterson"
+  ],
+  "published_date": "2022-01-06T23:25:54Z",
+  "updated_date": "2022-01-06T23:25:54Z",
+  "journal": "",
+  "category": "q-bio.GN, cs.LG, q-bio.QM",
+  "landing_url": "https://arxiv.org/abs/2201.02273v1",
+  "pdf_url": "https://arxiv.org/pdf/2201.02273v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"transcription factor binding\" OR all:\"transcription factor binding site\" OR all:\"TF binding\" OR all:TFBS OR all:\"DNA binding\" OR all:\"DNA-binding\" OR all:\"DNA-binding protein\" OR all:\"protein-DNA interaction\" OR all:\"protein-DNA binding\" OR all:\"DNA-binding factor\" OR all:\"DNA-binding site\" OR all:\"DNA binding site\" OR all:\"protein-DNA binding site\" OR all:\"zinc finger\") AND (all:\"deep learning\" OR all:\"machine learning\" OR all:\"neural network\" OR all:\"graph neural network\" OR all:\"convolutional neural network\" OR all:transformer OR all:\"language model\" OR all:\"foundation model\" OR all:\"diffusion model\" OR all:generative OR all:\"flow matching\" OR all:alphafold OR all:esmfold OR all:rosetta OR all:\"molecular dynamics\" OR all:docking OR all:simulation)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.GN",
+    "cs.LG",
+    "q-bio.QM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2201.02273v1",
+    "raw_categories": [
+      "q-bio.GN",
+      "cs.LG",
+      "q-bio.QM"
+    ],
+    "journal_ref": ""
+  }
+}

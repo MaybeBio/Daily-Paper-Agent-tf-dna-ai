@@ -1,0 +1,306 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.13.676010",
+  "title": "A Modular Fusion Neural Network Approach to Efficiently Predict Multi-Metal Binding Sites in Protein Sequences",
+  "doi": "10.1101/2025.09.13.676010",
+  "abstract": "Accurate identification of metal-binding residues is essential for the study of metalloproteins, like zinc finger proteins, haemoglobin, and DNA polymerase. Due to the high cost and time demands of experimental methods, computational prediction has been applied. However, computational complexity and inextensibility of rigid frameworks impeded the application. This work presents a two-stage, sequence-based deep learning framework, which can predict zinc, iron, and magnesium binding amino acids of proteins. In the first stage, tokenized sequences are processed by independent one-dimensional convolutional neural networks (CNNs) to generate single-residue probability maps. In the second stage, a lightweight fusion network integrates these maps to model inter-metal dependencies and refine predictions. The framework employs an imbalance-aware loss function and the ensemble evaluation to improve robustness. Structural agnostic and modular design enable efficient training and inference, making it suitable for the annotation of large-scale proteome. CCS CONCEPTS • Applied computing; • Life and medical sciences; • Bioinformatics",
+  "authors": [
+    "Jizheng Li",
+    "Changxin Fan",
+    "Hoi Ying Lau",
+    "Tianyue Wu"
+  ],
+  "published_date": "2025-09-17",
+  "updated_date": "2025-09-17T22:35:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.13.676010",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.13.676010.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T01:26:23Z",
+        "timestamp": 1768526783334,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            17
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 17,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                17
+              ]
+            ],
+            "date-time": "2025-09-17T00:00:00Z",
+            "timestamp": 1758067200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            17
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Accurate identification of metal-binding residues is essential for the study of metalloproteins, like zinc finger proteins, haemoglobin, and DNA polymerase. Due to the high cost and time demands of experimental methods, computational prediction has been applied. However, computational complexity and inextensibility of rigid frameworks impeded the application. This work presents a two-stage, sequence-based deep learning framework, which can predict zinc, iron, and magnesium binding amino acids of proteins. In the first stage, tokenized sequences are processed by independent one-dimensional convolutional neural networks (CNNs) to generate single-residue probability maps. In the second stage, a lightweight fusion network integrates these maps to model inter-metal dependencies and refine predictions. The framework employs an imbalance-aware loss function and the ensemble evaluation to improve robustness. Structural agnostic and modular design enable efficient training and inference, making it suitable for the annotation of large-scale proteome.</jats:p>\n                <jats:sec>\n                  <jats:title>CCS CONCEPTS</jats:title>\n                  <jats:p>• Applied computing; • Life and medical sciences; • Bioinformatics</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2025.09.13.676010",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            17
+          ]
+        ],
+        "date-time": "2025-09-17T22:35:12Z",
+        "timestamp": 1758148512000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A Modular Fusion Neural Network Approach to Efficiently Predict Multi-Metal Binding Sites in Protein Sequences"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0007-9721-8629",
+          "authenticated-orcid": false,
+          "given": "Jizheng",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0435-6202",
+          "authenticated-orcid": false,
+          "given": "Changxin",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0006-0427-9979",
+          "authenticated-orcid": false,
+          "given": "Hoi Ying",
+          "family": "Lau",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-0392-7084",
+          "authenticated-orcid": false,
+          "given": "Tianyue",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025092202454745000_2025.09.13.676010v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.redox.2021.102164"
+        },
+        {
+          "key": "2025092202454745000_2025.09.13.676010v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi4016617"
+        },
+        {
+          "key": "2025092202454745000_2025.09.13.676010v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2008.04.004"
+        },
+        {
+          "key": "2025092202454745000_2025.09.13.676010v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/nu13041136"
+        },
+        {
+          "key": "2025092202454745000_2025.09.13.676010v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1261/rna.5205404"
+        },
+        {
+          "key": "2025092202454745000_2025.09.13.676010v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.2c00210"
+        },
+        {
+          "key": "2025092202454745000_2025.09.13.676010v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.4c00577"
+        },
+        {
+          "key": "2025092202454745000_2025.09.13.676010v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fnagi.2013.00035"
+        },
+        {
+          "key": "2025092202454745000_2025.09.13.676010v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00216-012-5743-y"
+        },
+        {
+          "key": "2025092202454745000_2025.09.13.676010v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw396"
+        },
+        {
+          "key": "2025092202454745000_2025.09.13.676010v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac358"
+        },
+        {
+          "key": "2025092202454745000_2025.09.13.676010v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.6b00407"
+        },
+        {
+          "key": "2025092202454745000_2025.09.13.676010v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac534"
+        },
+        {
+          "key": "2025092202454745000_2025.09.13.676010v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.22913"
+        },
+        {
+          "key": "2025092202454745000_2025.09.13.676010v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TCBB.2024.3467093"
+        },
+        {
+          "key": "2025092202454745000_2025.09.13.676010v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac444"
+        },
+        {
+          "key": "2025092202454745000_2025.09.13.676010v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2023.168117"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.09.13.676010",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T09:34:10Z",
+        "timestamp": 1768469650000
+      },
+      "score": 124.56964,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.09.13.676010"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            17
+          ]
+        ]
+      },
+      "references-count": 17,
+      "URL": "https://doi.org/10.1101/2025.09.13.676010",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

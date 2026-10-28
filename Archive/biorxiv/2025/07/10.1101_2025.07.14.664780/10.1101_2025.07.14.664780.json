@@ -1,0 +1,361 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.14.664780",
+  "title": "Harnessing DNA Foundation Models for Cross-Species Transcription Factor Binding Site Prediction in Plant Genomes",
+  "doi": "10.1101/2025.07.14.664780",
+  "abstract": "Accurate prediction of transcription factor binding sites (TFBSs) is crucial for understanding gene regulation. While experimental methods such as ChIP-seq and DAP-seq are informative, they are labor-intensive and species-specific. Recent advancements in large-scale pretrained DNA foundation models have shown promise in overcoming these limitations. This study evaluates the performance of three such models—DNABERT-2, AgroNT, and HyenaDNA—in predicting TFBSs in plants. Using DAP-seq data from Arabidopsis thaliana and Sisymbrium irio , we benchmark their accuracy against specialized approaches, including a motif-based method and two deep learning models, DeepBind and BERT-TFBS. Our results demonstrate that foundation models, particularly HyenaDNA, offer superior predictive accuracy and computational efficiency, highlighting their potential for scalable, genome-wide TFBS prediction in plants.",
+  "authors": [
+    "Maryam Haghani",
+    "Krishna Vamsi Dhulipalla",
+    "Song Li"
+  ],
+  "published_date": "2025-07-18",
+  "updated_date": "2025-07-18T23:15:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.14.664780",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.14.664780.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            21
+          ]
+        ],
+        "date-time": "2026-02-21T16:11:16Z",
+        "timestamp": 1771690276160,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            18
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 21,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                18
+              ]
+            ],
+            "date-time": "2025-07-18T00:00:00Z",
+            "timestamp": 1752796800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Accurate prediction of transcription factor binding sites (TFBSs) is crucial for understanding gene regulation. While experimental methods such as ChIP-seq and DAP-seq are informative, they are labor-intensive and species-specific. Recent advancements in large-scale pretrained DNA foundation models have shown promise in overcoming these limitations. This study evaluates the performance of three such models—DNABERT-2, AgroNT, and HyenaDNA—in predicting TFBSs in plants. Using DAP-seq data from\n                  <jats:italic>Arabidopsis thaliana</jats:italic>\n                  and\n                  <jats:italic>Sisymbrium irio</jats:italic>\n                  , we benchmark their accuracy against specialized approaches, including a motif-based method and two deep learning models, DeepBind and BERT-TFBS. Our results demonstrate that foundation models, particularly HyenaDNA, offer superior predictive accuracy and computational efficiency, highlighting their potential for scalable, genome-wide TFBS prediction in plants.\n                </jats:p>",
+      "DOI": "10.1101/2025.07.14.664780",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            18
+          ]
+        ],
+        "date-time": "2025-07-18T23:15:15Z",
+        "timestamp": 1752880515000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Harnessing DNA Foundation Models for Cross-Species Transcription Factor Binding Site Prediction in Plant Genomes"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0006-3377-0417",
+          "authenticated-orcid": false,
+          "given": "Maryam",
+          "family": "Haghani",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Virginia Tech, Blacksburg, VA, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0001-9769-2343",
+          "authenticated-orcid": false,
+          "given": "Krishna Vamsi",
+          "family": "Dhulipalla",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Virginia Tech, Blacksburg, VA, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Song",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Virginia Tech, Blacksburg, VA, USA"
+            },
+            {
+              "name": "Genetics, Bioinformatics, and Computational Biology, Virginia Tech, Blacksburg, VA, USA"
+            },
+            {
+              "name": "School of Plant and Environmental Sciences, Virginia Tech, Blacksburg, VA, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "3",
+          "key": "2026022107450472000_2025.07.14.664780v2.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "457",
+          "DOI": "10.1038/nprot.2009.244",
+          "article-title": "Chromatin immunoprecipitation (ChIP) of plant transcription factors followed by sequencing (ChIP-seq) or hybridization to whole genome arrays (ChIP-CHIP)",
+          "volume": "5",
+          "year": "2010",
+          "journal-title": "Nature protocols"
+        },
+        {
+          "key": "2026022107450472000_2025.07.14.664780v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.04.038"
+        },
+        {
+          "key": "2026022107450472000_2025.07.14.664780v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tplants.2021.06.016"
+        },
+        {
+          "key": "2026022107450472000_2025.07.14.664780v2.4",
+          "article-title": "DNABERT-2: Efficient foundation model and benchmark for multi-species genome",
+          "year": "2023",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "1",
+          "key": "2026022107450472000_2025.07.14.664780v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "835",
+          "DOI": "10.1038/s42003-024-06465-2",
+          "article-title": "A foundational large language model for edible plant genomes",
+          "volume": "7",
+          "year": "2024",
+          "journal-title": "Communications Biology"
+        },
+        {
+          "key": "2026022107450472000_2025.07.14.664780v2.6",
+          "first-page": "43177",
+          "article-title": "HyenaDNA: Long-range genomic sequence modeling at single nucleotide resolution",
+          "volume": "36",
+          "year": "2023",
+          "journal-title": "Advances in neural information processing systems"
+        },
+        {
+          "issue": "5",
+          "key": "2026022107450472000_2025.07.14.664780v2.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "549",
+          "DOI": "10.1038/s41477-022-01139-5",
+          "article-title": "Di-vergence in the ABA gene regulatory network underlies differential growth control",
+          "volume": "8",
+          "year": "2022",
+          "journal-title": "Nature plants"
+        },
+        {
+          "key": "2026022107450472000_2025.07.14.664780v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl198"
+        },
+        {
+          "key": "2026022107450472000_2025.07.14.664780v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr064"
+        },
+        {
+          "key": "2026022107450472000_2025.07.14.664780v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2026022107450472000_2025.07.14.664780v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae195"
+        },
+        {
+          "key": "2026022107450472000_2025.07.14.664780v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2008.05.040"
+        },
+        {
+          "key": "2026022107450472000_2025.07.14.664780v2.13",
+          "first-page": "62024",
+          "article-title": "DART-Eval: A comprehensive DNA language model evaluation benchmark on regulatory DNA",
+          "volume": "37",
+          "year": "2024",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "2026022107450472000_2025.07.14.664780v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbaf363"
+        },
+        {
+          "issue": "2",
+          "key": "2026022107450472000_2025.07.14.664780v2.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "287",
+          "DOI": "10.1038/s41592-024-02523-z",
+          "article-title": "Nucleotide transformer: building and evaluating robust foundation models for human genomics",
+          "volume": "22",
+          "year": "2025",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2026022107450472000_2025.07.14.664780v2.16",
+          "article-title": "RoBERTa: A robustly optimized BERT pretraining approach",
+          "year": "2019",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026022107450472000_2025.07.14.664780v2.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rico Sennrich , Barry Haddow , and Alexandra Birch . Neural machine translation of rare words with subword units. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 1715–1725, 2016.",
+          "DOI": "10.18653/v1/P16-1162"
+        },
+        {
+          "key": "2026022107450472000_2025.07.14.664780v2.18",
+          "unstructured": "Michael Poli , Stefano Massaroli , Eric Nguyen , Daniel Y Fu , Tri Dao , Stephen Baccus , Yoshua Bengio , Stefano Ermon , and Christopher Ré . Hyena hierarchy: Towards larger convolutional language models. In International Conference on Machine Learning, pages 28043–28078. PMLR, 2023."
+        },
+        {
+          "key": "2026022107450472000_2025.07.14.664780v2.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sanghyun Woo , Jongchan Park , Joon-Young Lee , and In So Kweon. CBAM: Convolutional block attention module. In Proceedings of the European conference on computer vision (ECCV), pages 3–19, 2018.",
+          "DOI": "10.1007/978-3-030-01234-2_1"
+        },
+        {
+          "key": "2026022107450472000_2025.07.14.664780v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv416"
+        },
+        {
+          "key": "2026022107450472000_2025.07.14.664780v2.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Leo A Baumgart , Sharon I Greenblum , Abraham Morales-Cruz , Peng Wang , Yu Zhang , Lin Yang , Cindy Chen , David J Dilworth , Alexis C Garretson , Nicolas Grosjean , Guifen He , Emily Savage , Yuko Yoshinaga , Ian K Blaby , Chris G Daum , and Ronan C O’Malley. Recruitment, rewiring, and deep conservation in flowering plant gene regulation. bioRxiv, 2025.",
+          "DOI": "10.1101/2024.10.08.617089"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.07.14.664780",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            21
+          ]
+        ],
+        "date-time": "2026-02-21T15:45:15Z",
+        "timestamp": 1771688715000
+      },
+      "score": 201.23235,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.07.14.664780"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            18
+          ]
+        ]
+      },
+      "references-count": 21,
+      "URL": "https://doi.org/10.1101/2025.07.14.664780",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            18
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

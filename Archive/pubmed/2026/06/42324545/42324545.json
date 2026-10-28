@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "42324545",
+    "doi": "10.1186/s13148-026-02182-1",
+    "title": "ATAD2 suppresses senescence and SASP via SIRT7-p53/p21 to drive progression and immune evasion in endometrial cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Endometrial cancer is one of the gynecological malignancies, currently ranking first in mortality among the three major gynecological cancers. Effective treatment options remain scarce. ATAD2, a chromatin remodeler, is implicated in solid tumor progression, but its role in endometrial cancer (EC) and tumor microenvironment (TME) remodeling remains unclear. This study investigated the functional impact and mechanisms of ATAD2 in EC pathogenesis. METHODS: Based on the publicly available TCGA Uterine Corpus Endometrioid Carcinoma (UCEC) dataset, we preliminarily clarified the pro-cancer role of ATAD2. To explore its mechanism, this study constructed EC cell lines with stable ATAD2 overexpression and knockdown, and assessed cell proliferation, migration, and invasion capabilities; combined with bioinformatics analysis, we screened potential regulatory pathways. We verified the interaction between ATAD2 and SIRT7 protein using immunoprecipitation, molecular docking, GST-pull-down, and proximity ligation (PLA) techniques. Flow cytometry was used to detect macrophage polarization status, SA-beta-galactosidase activity and p53/p21 expression levels were used to assess cellular senescence, and enzyme-linked immunosorbent assay (ELISA) was used to quantitatively analyze senescence-related secreted phenotypic factors. Furthermore, through immune cell infiltration atlas analysis and combined with a xenograft tumor model, we evaluated the in vivo antitumor effect of the ATAD2 inhibitor BAY-850. RESULTS: High ATAD2 expression correlated with poor EC prognosis and enhanced cancer cell proliferation, migration, and invasion. Mechanistic studies have shown that ATAD2 interacts directly with SIRT7 through its bromine domain and enhances its protein stability. SIRT7 regulates p21 transcription by deacetylation of the lysine K382 site of p53 protein, thereby inhibiting cell senescence and SASP secretion.High ATAD2 expression was linked to increased TP53 mutation burden and suppressed anti-tumor immunity. ATAD2 inhibition promotes SASP secretion and induces M1 macrophage polarization, an effect that can be reversed by SIRT7 upregulation. BAY-850 inhibits tumor growth and metastasis in vivo. CONCLUSION: ATAD2 suppresses cellular senescence and SASP phenotypes via the SIRT7-p53/p21 axis, promoting immune-suppressive TME and driving EC progression and immune evasion. ATAD2 represents a promising therapeutic target for EC.",
+    "keywords": [
+      "ATAD2",
+      "Cell senescence",
+      "Endometrial cancer",
+      "Immune evasion",
+      "SASP"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "*ATPases Associated with Diverse Cellular Activities/genetics/metabolism",
+      "*Endometrial Neoplasms/genetics/immunology/metabolism",
+      "Animals",
+      "*DNA-Binding Proteins/genetics/metabolism",
+      "*Tumor Suppressor Protein p53/genetics/metabolism",
+      "Cellular Senescence/genetics",
+      "Mice",
+      "Cell Line, Tumor",
+      "*Sirtuins/metabolism/genetics",
+      "Immune Evasion/genetics",
+      "Cell Proliferation",
+      "Cyclin-Dependent Kinase Inhibitor p21/metabolism/genetics",
+      "*Mitochondrial Proteins/metabolism/genetics",
+      "Tumor Microenvironment",
+      "Disease Progression",
+      "Gene Expression Regulation, Neoplastic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Can",
+        "Osipova, Anastasiia",
+        "Wang, Yuanyuan",
+        "Li, Fei",
+        "Wang, Hengyu",
+        "Hu, Jingshu",
+        "Chen, Xiuwei"
+      ],
+      "short_names": [
+        "Wang C",
+        "Osipova A",
+        "Wang Y",
+        "Li F",
+        "Wang H",
+        "Hu J",
+        "Chen X"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5501-4598"
+      ],
+      "affiliations": [
+        "Department of Gynecologic Oncology, Harbin Medical University Cancer Hospital , Harbin, 150000, Heilongjiang, China.",
+        "Department of Gynecologic Oncology, Harbin Medical University Cancer Hospital , Harbin, 150000, Heilongjiang, China.",
+        "Department of Gynecologic Oncology, Harbin Medical University Cancer Hospital , Harbin, 150000, Heilongjiang, China.",
+        "Department of Gynecologic Oncology, Harbin Medical University Cancer Hospital , Harbin, 150000, Heilongjiang, China.",
+        "Department of Gynecologic Oncology, Harbin Medical University Cancer Hospital , Harbin, 150000, Heilongjiang, China.",
+        "Department of Gynecologic Oncology, Harbin Medical University Cancer Hospital , Harbin, 150000, Heilongjiang, China.",
+        "Department of Gynecologic Oncology, Harbin Medical University Cancer Hospital , Harbin, 150000, Heilongjiang, China. Chenxiuwei1023@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Can",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecologic Oncology, Harbin Medical University Cancer Hospital , Harbin, 150000, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Osipova, Anastasiia",
+        "short_name": "Osipova A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecologic Oncology, Harbin Medical University Cancer Hospital , Harbin, 150000, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuanyuan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecologic Oncology, Harbin Medical University Cancer Hospital , Harbin, 150000, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Fei",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecologic Oncology, Harbin Medical University Cancer Hospital , Harbin, 150000, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hengyu",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecologic Oncology, Harbin Medical University Cancer Hospital , Harbin, 150000, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Jingshu",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecologic Oncology, Harbin Medical University Cancer Hospital , Harbin, 150000, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiuwei",
+        "short_name": "Chen X",
+        "identifiers": [
+          "0000-0001-5501-4598"
+        ],
+        "affiliations": [
+          "Department of Gynecologic Oncology, Harbin Medical University Cancer Hospital , Harbin, 150000, Heilongjiang, China. Chenxiuwei1023@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Clinical epigenetics"
+    ],
+    "journal_abbrev": [
+      "Clin Epigenetics"
+    ],
+    "pub_date": "2026 Jun 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/22 00:43",
+    "fetched_at": "2026-10-02 00:15:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41528114",
+      "41049069",
+      "40921769",
+      "40513577",
+      "40334884",
+      "40044230",
+      "39684356",
+      "39548312",
+      "39542988",
+      "39333272",
+      "39270064",
+      "38947884",
+      "38892080",
+      "38572751",
+      "37676263",
+      "37530555",
+      "36671475",
+      "36632213",
+      "36581622",
+      "36045302",
+      "36008934",
+      "35397864",
+      "34973392",
+      "34887451",
+      "34209703",
+      "33855023",
+      "33825840",
+      "33328614",
+      "32174193",
+      "31658594",
+      "30742011",
+      "30503501",
+      "26819280",
+      "26308378",
+      "23775406",
+      "21072054"
+    ],
+    "similar": [
+      "42324545",
+      "22392074",
+      "36479043",
+      "40703517",
+      "41574471",
+      "33271245",
+      "42001097",
+      "39333272",
+      "40779443",
+      "41943853",
+      "41716413",
+      "28498365",
+      "33537094",
+      "39891717",
+      "41694334",
+      "28182012",
+      "32754284",
+      "32705247",
+      "40186402",
+      "41345704",
+      "22789011",
+      "31196136",
+      "42253988",
+      "40234906",
+      "38823657",
+      "41133234",
+      "42001122",
+      "41383604",
+      "41075009",
+      "41293954",
+      "40898098",
+      "31747529",
+      "23079745",
+      "32818382",
+      "30031062",
+      "39380995",
+      "33757572",
+      "28511869",
+      "41823540",
+      "39841298",
+      "27470351",
+      "40440957",
+      "35672694",
+      "31678303",
+      "30541550",
+      "38515112",
+      "31959473",
+      "39350250",
+      "30078020",
+      "40403681",
+      "42627588",
+      "30520539",
+      "42196376",
+      "32044716",
+      "38844957",
+      "39901144",
+      "40696616",
+      "40022092",
+      "18845560",
+      "31915116",
+      "23291986",
+      "39686835",
+      "39988732",
+      "40612863",
+      "40148340",
+      "42514347",
+      "42177550",
+      "41437376",
+      "25813398",
+      "40656610",
+      "38216838",
+      "27129219",
+      "41387673",
+      "41798945",
+      "26497681",
+      "26523671",
+      "31907647",
+      "41719100",
+      "41240538",
+      "32835657",
+      "41564520",
+      "42018103",
+      "30226276",
+      "39566382",
+      "38956502",
+      "30503501",
+      "42151892",
+      "40923240",
+      "32616890",
+      "40473875",
+      "30712480",
+      "24403312",
+      "23683497",
+      "41217712",
+      "41937179",
+      "40855439",
+      "38008711",
+      "39731053",
+      "41519771",
+      "42172707"
+    ],
+    "review": [
+      "42324545"
+    ],
+    "pmc": [
+      "13536706"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://clinicalepigeneticsjournal.biomedcentral.com/articles/10.1186/s13148-026-02182-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42324545/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

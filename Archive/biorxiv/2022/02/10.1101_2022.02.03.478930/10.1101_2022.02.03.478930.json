@@ -1,0 +1,186 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.02.03.478930",
+  "title": "Comprehensive analysis of next-generation sequencing data in COVID-19 and its secondary complications",
+  "doi": "10.1101/2022.02.03.478930",
+  "abstract": "The ongoing pandemic of coronavirus disease 2019 (COVID-19) has made a serious public health threat globally. To discover key molecular changes in COVID-19 and its secondary complications, we analyzed next-generation sequencing (NGS) data of COVID-19. NGS data (GSE163151) was screened and downloaded from the Gene Expression Omnibus database (GEO). Differentially expressed genes (DEGs) were identified in the present study, using DESeq2 package in R programming software. Gene ontology (GO) and pathway enrichment analysis were performed, and the protein-protein interaction (PPI) network, module analysis, miRNA-hub gene regulatory network and TF-hub gene regulatory network were established. Subsequently, receiver operating characteristic curve (ROC) analysis was used to validate the diagonostics valuesof the hub genes. Firstly, 954 DEGs (477 up regulated and 477 down regulated) were identified from the four NGS dataset. GO enrichment analysis revealed enrichment of DEGs in genes related to the immune system process and multicellular organismal process, and REACTOME pathway enrichment analysis showed enrichment of DEGs in the immune system and formation of the cornified envelope. Hub genes were identified from the PPI network, module analysis, miRNA-hub gene regulatory network and TF-hub gene regulatory network. Furthermore, the ROC analysis indicate that COVID-19 and its secondary complications with following hub genes, namely, RPL10, FYN, FLNA, EEF1A1, UBA52, BMI1, ACTN2, CRMP1, TRIM42 and PTCH1, had good diagnostics values. This study identified several genes associated with COVID-19 and its secondary complications, which improves our knowledge of the disease mechanism.",
+  "authors": [
+    "Giriyappagoudar M",
+    "Vastrad B",
+    "Horakeri R",
+    "Vastrad C"
+  ],
+  "published_date": "2022-02-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.02.03.478930",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.02.03.478930.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR449961",
+    "raw_record": {
+      "id": "PPR449961",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR449961"
+        ]
+      },
+      "doi": "10.1101/2022.02.03.478930",
+      "title": "Comprehensive analysis of next-generation sequencing data in COVID-19 and its secondary complications",
+      "authorString": "Giriyappagoudar M, Vastrad B, Horakeri R, Vastrad C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Giriyappagoudar M",
+            "lastName": "Giriyappagoudar",
+            "firstName": "Muttanagouda",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Radiation Oncology, Karnataka Institute of Medical Sciences (KIMS), Hubballi, Karnataka 580022, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vastrad B",
+            "lastName": "Vastrad",
+            "firstName": "Basavaraj",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmaceutical Chemistry, K. L. E Socitey’s College of Pharmacy, Gadag, Karnataka 582101, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Horakeri R",
+            "lastName": "Horakeri",
+            "firstName": "Rajeshwari",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer science, Govt First Grade College, Hubballi, Karnataka 580032, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vastrad C",
+            "lastName": "Vastrad",
+            "firstName": "Chanabasayya",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biostatistics and Bioinformatics, Chanabasava Nilaya, Bharthinagar, Dharwad 580001, Karanataka, India"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2202-7637"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "The ongoing pandemic of coronavirus disease 2019 (COVID-19) has made a serious public health threat globally. To discover key molecular changes in COVID-19 and its secondary complications, we analyzed next-generation sequencing (NGS) data of COVID-19. NGS data (GSE163151) was screened and downloaded from the Gene Expression Omnibus database (GEO). Differentially expressed genes (DEGs) were identified in the present study, using DESeq2 package in R programming software. Gene ontology (GO) and pathway enrichment analysis were performed, and the protein-protein interaction (PPI) network, module analysis, miRNA-hub gene regulatory network and TF-hub gene regulatory network were established. Subsequently, receiver operating characteristic curve (ROC) analysis was used to validate the diagonostics valuesof the hub genes. Firstly, 954 DEGs (477 up regulated and 477 down regulated) were identified from the four NGS dataset. GO enrichment analysis revealed enrichment of DEGs in genes related to the immune system process and multicellular organismal process, and REACTOME pathway enrichment analysis showed enrichment of DEGs in the immune system and formation of the cornified envelope. Hub genes were identified from the PPI network, module analysis, miRNA-hub gene regulatory network and TF-hub gene regulatory network. Furthermore, the ROC analysis indicate that COVID-19 and its secondary complications with following hub genes, namely, RPL10, FYN, FLNA, EEF1A1, UBA52, BMI1, ACTN2, CRMP1, TRIM42 and PTCH1, had good diagnostics values. This study identified several genes associated with COVID-19 and its secondary complications, which improves our knowledge of the disease mechanism.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/02/04/2022.02.03.478930.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.02.03.478930"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR449961"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR449961&type=FILE&fileName=EMS161157-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS161157",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "reactome",
+          "omim",
+          "go",
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-02-09",
+      "firstPublicationDate": "2022-02-04",
+      "firstIndexDate": "2022-02-10",
+      "fullTextReceivedDate": "2023-12-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

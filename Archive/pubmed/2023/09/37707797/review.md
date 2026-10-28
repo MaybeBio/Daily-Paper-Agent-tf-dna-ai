@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, materials and methods, results, discussion, supplementary figure legends referenced but not provided)
+- **Assessment boundary** Scientific validity, methodological rigor, interpretability of claims, and alignment with stated conclusions based on the provided manuscript text
+- **Shared manuscript claim summary** The authors develop interpretable machine learning models (XGBoost) to predict genome-wide AhR-DNA binding at dioxin response elements (DREs) in four cell types (MCF-7, GM17212, HepG2, primary human hepatocytes). They identify tissue-specific chromatin context features and tissue-agnostic DRE flanking sequence determinants that correlate with AhR binding. They further demonstrate that cross-tissue model performance is poor, and interpret model features to propose mechanistic insights into AhR-DNA binding.
+- **Visible evidence base** Full text of abstract, methods, results, discussion, funding, data availability, and acknowledgments. Supplementary figures and tables are referenced but not provided.
+- **Missing materials affecting confidence** Supplementary figures (1–15), Supplementary Tables 1–2, the primary hepatocyte ChIP-seq dataset (GSE205502) details, and the code repository contents were not available for review. These are essential for verifying model performance metrics, feature importance analyses, and data processing steps.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a well-structured and methodologically sound approach to modeling AhR-DNA binding using interpretable machine learning. The central finding, that tissue-specific chromatin context and tissue-agnostic flanking sequence both contribute to AhR binding, is plausible and potentially useful for the toxicology and gene regulation communities. However, several technical concerns, particularly around data harmonization across cell lines, the handling of class imbalance, and the interpretation of feature importance, need to be addressed before the conclusions are fully supported. The manuscript is readable and the figures, as described, appear to support the narrative, but the absence of supplementary materials limits a complete evaluation.
+- **Who would be interested in the results, and why** Researchers in toxicology, particularly those studying dioxin toxicity and AhR signaling; computational biologists working on transcription factor binding prediction; and scientists interested in tissue-specific gene regulation. The interpretable modeling approach may also appeal to method developers seeking to apply machine learning to regulatory genomics.
+- **Major strengths** (1) The use of interpretable machine learning (XGBoost with ELI5) is appropriate and provides a clear path from model predictions to biological hypotheses. (2) The focus on DREs in open chromatin, with careful exclusion of ambiguous multi-DRE peaks from training, is a thoughtful design choice. (3) The comparison of within-tissue versus cross-tissue model performance directly addresses a known challenge in TF binding prediction. (4) The identification of specific TFs (e.g., GATA3, MAX, SP1) as tissue-specific determinants is biologically plausible and experimentally testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "cross-tissue models predicting TF-DNA binding generally perform poorly" and that their models reveal tissue-specific determinants.
+  - **Evidence pointer** Results section, Figure 4D; Methods, Model evaluation
+  - **Concern** The cross-tissue evaluation is only described for a sequence-only model trained on MCF-7 and evaluated on primary hepatocytes. It is unclear whether full models (including chromatin features) were evaluated cross-tissue, and whether the poor performance is due to differences in treatment (10 nM vs 1 nM TCDD), cell type, or data generation platform. The claim that cross-tissue models "generally perform poorly" is not supported by a systematic cross-tissue evaluation across all four datasets.
+  - **Why it matters** The central conclusion of tissue-specific determinants relies on demonstrating that models trained in one tissue fail in another. Without a comprehensive cross-tissue evaluation, the claim is overstated and the interpretation of tissue-specific features is weakened.
+  - **Resolution test** Provide cross-tissue evaluation for all pairs of training and testing datasets, using both sequence-only and full models. Report auROC/auPRC for each combination and discuss how treatment differences and data source confound the interpretation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the flanking sequence of the DRE can explain a portion of AhR binding in a tissue-agnostic way."
+  - **Evidence pointer** Results section, Figure 2D; Methods, Sequence features
+  - **Concern** The sequence features are limited to 7 nucleotides upstream and downstream of the DRE core. The choice of 7 nucleotides is justified by a prior study (Sun et al., 2004), but the authors later show that model performance plateaus at 4 flanking nucleotides (Figure 3B). It is unclear whether the 7-nucleotide window is optimal for all cell types, and whether the tissue-agnostic flanking sequence grammar is robust to window size. Additionally, the sequence features are one-hot encoded, which may not capture dinucleotide or higher-order dependencies that could be biologically relevant.
+  - **Why it matters** The claim of a common flanking sequence grammar is a key finding. If the result is sensitive to the choice of window size or encoding scheme, the conclusion may not be generalizable.
+  - **Resolution test** Perform a sensitivity analysis varying the flanking sequence window size (e.g., 2, 4, 6, 7, 10 nucleotides) and report model performance and feature importance for each. Discuss whether the identified grammar is stable across window sizes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose that "0 DRE peaks might not necessarily be functionally distinct from DRE-containing peaks" and that AhR binding may occur via tethering or chromatin loops.
+  - **Evidence pointer** Discussion section; Results, Figure 3F
+  - **Concern** The discussion of indirect binding and chromatin loops is speculative and not directly tested. While the authors acknowledge this, the manuscript would benefit from a more explicit framing of these as hypotheses rather than conclusions. The high recovery rate of 0-DRE peaks (63.1%–91%) is intriguing, but the authors do not provide evidence that these predictions correspond to functional AhR binding events (e.g., via motif analysis or validation experiments).
+  - **Why it matters** The manuscript aims to provide "novel and experimentally testable mechanistic insights." The current framing may overstate the strength of the evidence for indirect binding mechanisms.
+  - **Resolution test** Clearly label the tethering and chromatin loop explanations as hypotheses. If possible, perform a motif enrichment analysis at predicted 0-DRE peaks to assess whether alternative motifs (e.g., NC-XRE, AHRE-II) are enriched, or discuss how such validation could be performed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract begins with a general statement about AhR and DREs but does not clearly state the gap in knowledge or the specific question being addressed until later. Nonspecialists may struggle to understand the significance of the work.
+  - **Required correction** Consider revising the abstract to more explicitly state the problem (e.g., "AhR binding is tissue-specific, but the determinants of this specificity are poorly understood") before describing the approach.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Model evaluation
+  - **Evidence pointer** Methods, Model evaluation section
+  - **Issue** The description of the 5-fold cross-validation procedure is brief. It is unclear whether the folds are stratified by chromosome or genomic region, which could lead to data leakage if nearby DREs are in both training and testing folds.
+  - **Required correction** Clarify the splitting strategy (e.g., random split vs. chromosome-based split) and discuss potential implications for model performance estimates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, DREs in open chromatin
+  - **Evidence pointer** Methods, DREs in open chromatin section
+  - **Issue** The definition of open chromatin relies on DNase-seq broadPeaks from ENCODE, but the authors note that for GM17212 they used GM12878 as a proxy. This is a reasonable approximation, but the potential impact on model performance and feature importance should be discussed.
+  - **Required correction** Add a sentence in the Discussion acknowledging the use of a proxy cell line for GM17212 and the potential limitations this introduces.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Results, Figure 2C
+  - **Evidence pointer** Results, Figure 2C
+  - **Issue** The feature importance analysis identifies specific TFs (e.g., GATA3, MAX, SP1) as important, but the biological interpretation of these findings is limited. For example, the authors do not discuss whether these TFs are known to interact with AhR or whether their binding motifs are enriched near AhR binding sites.
+  - **Required correction** Add a brief discussion of the known biology of the top-ranked TFs and how they might relate to AhR function, or explicitly state that these are novel candidates requiring experimental validation.
+- **Technical failings that need to be addressed before the case is established** (1) The cross-tissue evaluation is incomplete and needs to be systematic across all datasets. (2) The sensitivity of the flanking sequence window size needs to be tested. (3) The potential for data leakage in cross-validation needs to be addressed. (4) The speculative discussion of indirect binding mechanisms should be clearly labeled as hypotheses.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The application of interpretable machine learning to AhR binding is not entirely novel, but the focus on tissue-specific determinants and the use of model interpretation to generate hypotheses is a valuable contribution. The finding that flanking sequence grammar is tissue-agnostic while chromatin context is tissue-specific is interesting and could be generalizable to other inducible TFs.
+  - **Scientific importance** The work addresses a significant question in toxicology and gene regulation: why TF binding is tissue-specific. The results have potential implications for understanding dioxin toxicity and for predicting AhR targets in different tissues. However, the importance is somewhat limited by the lack of experimental validation of the predicted determinants.
+  - **Interdisciplinary readership** The manuscript will appeal to toxicologists, computational biologists, and researchers in gene regulation. The methods are described in sufficient detail for computational readers, but the biological interpretation may be challenging for nonspecialists. The abstract could be improved to broaden accessibility.
+  - **Technical soundness** The modeling approach is generally sound, but the concerns raised above (cross-tissue evaluation, window size sensitivity, data leakage) need to be addressed. The use of auROC and auPRC is appropriate, and the feature importance analysis is a strength.
+  - **Readability for nonspecialists** The manuscript is well-written and the figures, as described, appear to support the narrative. However, the methods section is dense and may be difficult for readers without a computational background. The Discussion does a good job of contextualizing the findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are plausible and potentially important, but the incomplete cross-tissue evaluation and the lack of sensitivity analysis for the flanking sequence window prevent the conclusions from being fully established. The authors should also clarify the cross-validation strategy and temper the speculative discussion of indirect binding mechanisms.
+
+## Risk / unsupported claims
+- The claim that "cross-tissue models predicting TF-DNA binding generally perform poorly" is not fully supported by the provided evidence, as only one cross-tissue evaluation is described.
+- The claim that "0 DRE peaks might not necessarily be functionally distinct from DRE-containing peaks" is presented as a conclusion but is speculative and not directly tested.
+- The statement that "the flanking sequence of the DRE can explain a portion of AhR binding in a tissue-agnostic way" is based on a single window size (7 nucleotides) and may not be robust.
+- The use of GM12878 as a proxy for GM17212 for chromatin features is an approximation that could affect model interpretation, and this limitation is not discussed in the main text.

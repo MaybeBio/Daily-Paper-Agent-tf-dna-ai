@@ -1,0 +1,105 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.05.07.592879",
+  "title": "Simultaneous Prediction of Functional States and Types of cis -regulatory Modules Reveals Their Prevalent Dual Uses as Enhancers and Silencers",
+  "doi": "10.1101/2024.05.07.592879",
+  "abstract": "Our understanding of the precise locations of cis -regulatory elements (CRMs) in the genomes, as well as their functional types (enhancer or silencer), states (active or inactive) and target genes in various cell/tissue types of organisms remains limited, despite recent progresses. To address these challenges, we have recently developed a two-step strategy that first predicts a more complete map of CRMs in the genome, and then predicts the functional states of the CRMs. However, our initial approach lacked the ability to differentiate between the functional types of CRMs. Therefore, we utilized distinct features to simultaneously predict the functional types and states of the CRMs. Applying our method to 107 cell/tissue types with the minimum of required data available, we predicted 868,948 (73.8%) of the CRMs to be active as enhancers or silencers in at least one of these cell/tissue types. In 56 cell/tissue types with required data available for both enhancers and silencers, we predicted that 117,646 (14.8%) and 227,211 (28.6%) CRMs only functioned as enhancers (enhancer-predominant) and silencers (silencer-predominant), respectively, while 83,985 (10.6%) functioned both as enhancers and silencers (dual functional). Thus, both dual functional CRMs and silencers might be more prevalent than previously assumed. Most dual functional CRMs function either as enhancers or silencers in different cell/tissue types (Type I), while some have dual functions regulating different genes in the same cell/tissue types (Type II). Different types of CRMs display different lengths and TFBS densities, reflecting the complexity of their functions. Our two-step approach can accurately predict the functional types and states of CRMs using data of only five epigenetic marks in a cell/tissue type. <h4>Author Summary</h4> CRMs function as enhancers and/or silencers to promote and repress, respectively, the transcription of genes in a spatiotemporal manner, thereby playing critical roles in virtually all biological processes. However, despite recent progress, the understanding of CRMs remains limited. Most existing methods are aimed to simultaneously predict the locations and functional states of enhancers in a given cell/tissue type, however, the accuracy of these one-step methods is low. We have recently developed a two-step strategy that first predicts locations of CRMs in the genome, and then predicts their functional states as enhancers in cell/tissue types with high accuracy. However, our initial approach was unable to differentiate between enhancers and silencers. Therefore, in this study, we employ two machine-learning models, so that we can simultaneously predict the functional states and types of our previously predicted 1.2M CRMs in various cell/tissue types. Applying the method to cell/tissue types with the data available, we categorize the CRMs into four types with distinct properties reflecting their functional complexity. Our results indicate that silencers and dual functional CRMs might be more prevalent than previously assumed. The precise prediction of CRM types and states provides opportunities to pinpoint their target genes, thus opening new avenues for research.",
+  "authors": [
+    "Yuan S",
+    "Ni P",
+    "Su Z"
+  ],
+  "published_date": "2024-05-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.05.07.592879",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.05.07.592879.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR850817",
+    "raw_record": {
+      "id": "PPR850817",
+      "source": "PPR",
+      "doi": "10.1101/2024.05.07.592879",
+      "title": "Simultaneous Prediction of Functional States and Types of  <i>cis</i>  -regulatory Modules Reveals Their Prevalent Dual Uses as Enhancers and Silencers",
+      "authorString": "Yuan S, Ni P, Su Z.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Yuan S",
+            "lastName": "Yuan",
+            "firstName": "Sisi",
+            "initials": "S"
+          },
+          {
+            "fullName": "Ni P",
+            "lastName": "Ni",
+            "firstName": "Pengyu",
+            "initials": "P"
+          },
+          {
+            "fullName": "Su Z",
+            "lastName": "Su",
+            "firstName": "Zhengchang",
+            "initials": "Z"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Our understanding of the precise locations of  cis -regulatory elements (CRMs) in the genomes, as well as their functional types (enhancer or silencer), states (active or inactive) and target genes in various cell/tissue types of organisms remains limited, despite recent progresses. To address these challenges, we have recently developed a two-step strategy that first predicts a more complete map of CRMs in the genome, and then predicts the functional states of the CRMs. However, our initial approach lacked the ability to differentiate between the functional types of CRMs. Therefore, we utilized distinct features to simultaneously predict the functional types and states of the CRMs. Applying our method to 107 cell/tissue types with the minimum of required data available, we predicted 868,948 (73.8%) of the CRMs to be active as enhancers or silencers in at least one of these cell/tissue types. In 56 cell/tissue types with required data available for both enhancers and silencers, we predicted that 117,646 (14.8%) and 227,211 (28.6%) CRMs only functioned as enhancers (enhancer-predominant) and silencers (silencer-predominant), respectively, while 83,985 (10.6%) functioned both as enhancers and silencers (dual functional). Thus, both dual functional CRMs and silencers might be more prevalent than previously assumed. Most dual functional CRMs function either as enhancers or silencers in different cell/tissue types (Type I), while some have dual functions regulating different genes in the same cell/tissue types (Type II). Different types of CRMs display different lengths and TFBS densities, reflecting the complexity of their functions. Our two-step approach can accurately predict the functional types and states of CRMs using data of only five epigenetic marks in a cell/tissue type.  <h4>Author Summary</h4>  CRMs function as enhancers and/or silencers to promote and repress, respectively, the transcription of genes in a spatiotemporal manner, thereby playing critical roles in virtually all biological processes. However, despite recent progress, the understanding of CRMs remains limited. Most existing methods are aimed to simultaneously predict the locations and functional states of enhancers in a given cell/tissue type, however, the accuracy of these one-step methods is low. We have recently developed a two-step strategy that first predicts locations of CRMs in the genome, and then predicts their functional states as enhancers in cell/tissue types with high accuracy. However, our initial approach was unable to differentiate between enhancers and silencers. Therefore, in this study, we employ two machine-learning models, so that we can simultaneously predict the functional states and types of our previously predicted 1.2M CRMs in various cell/tissue types. Applying the method to cell/tissue types with the data available, we categorize the CRMs into four types with distinct properties reflecting their functional complexity. Our results indicate that silencers and dual functional CRMs might be more prevalent than previously assumed. The precise prediction of CRM types and states provides opportunities to pinpoint their target genes, thus opening new avenues for research.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.05.07.592879"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.05.07.592879"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-05-12",
+      "firstPublicationDate": "2024-05-10",
+      "firstIndexDate": "2024-05-12",
+      "hasEvaluations": "N"
+    }
+  }
+}

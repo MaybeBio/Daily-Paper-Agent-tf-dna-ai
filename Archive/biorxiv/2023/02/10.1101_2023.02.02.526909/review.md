@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) from bioRxiv preprint
+- **Assessment boundary** Scientific and technical evaluation of the proposed method, benchmarking claims, and biological interpretations; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors present SupirFactor, a knowledge-primed deep learning autoencoder framework for gene regulatory network (GRN) inference and transcription factor activity (TFA) estimation. The model constrains connectivity between an input gene expression layer and a latent TF layer using prior regulatory evidence, and introduces Explained Relative Variance (ERV) as a metric for interpreting model weights. The authors claim superior GRN recovery over the Inferelator across multiple benchmark datasets, biologically meaningful TFA predictions in yeast cell cycle contexts, and scalable application to a mammalian PBMC multi-omic dataset.
+- **Visible evidence base** Full text including methods, results narrative, figure references (Figures 1-5), table reference (Table 1), and supplemental figure references (S1-S11). No actual figures, tables, or supplemental materials were provided.
+- **Missing materials affecting confidence** All figures, tables, and supplemental materials are referenced but not included. Quantitative results (AUPR values, R² values, statistical test outputs) are described narratively but not shown. Code availability and implementation details are not provided. Hyperparameter search results (Supplemental Figures S2-S9) are referenced but absent.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach that combines knowledge priming with deep learning for GRN inference, addressing a real limitation in the field: the difficulty of separating transcriptional co-variation from causal regulatory influence. The core idea of constraining a latent layer to represent TF activity, and using ERV for model interpretation, is sensible and potentially useful. However, the manuscript as provided has several critical weaknesses. The absence of all figures and quantitative results makes the central benchmarking claims impossible to verify. The methodological description contains ambiguities and potential circularities, particularly regarding the use of prior evidence for both model construction and evaluation. The biological validation claims, while plausible, are presented without sufficient statistical detail. The comparison to existing methods is limited to a single baseline (Inferelator), and the discussion of related deep learning approaches for GRN inference is thin. The writing is generally clear but contains typographical errors and some imprecise terminology. Overall, the core idea has merit, but the evidence presented in this version is insufficient to establish the claimed advantages.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulatory network inference, particularly those interested in deep learning approaches and latent variable models. Researchers studying transcription factor activity estimation, especially in single-cell contexts, would find the TFA inference aspect relevant. The ERV metric for interpreting deep learning model weights could be of interest to the broader machine learning for genomics community. Biologists studying cell cycle regulation in yeast or immune cell differentiation in mammals might find the specific applications relevant, though the biological insights presented are preliminary.
+- **Major strengths** 1) The conceptual framing of the problem is clear and addresses a genuine limitation in GRN inference: the use of expression as a proxy for TF activity. 2) The idea of using prior regulatory evidence to prime the latent structure of a deep learning model is a reasonable and potentially powerful approach that bridges knowledge-based and data-driven methods. 3) The ERV metric is a thoughtful contribution to model interpretability, addressing the common criticism that deep learning models are black boxes. 4) The application to single-cell data, including a multi-omic PBMC dataset, demonstrates ambition and relevance to current experimental technologies. 5) The authors explicitly address model selection and over-parameterization, which are important practical concerns.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and reproducibility
+  - **Claim pointer** The authors claim that "SupirFactor outperforms current leading GRN inference methods" based on benchmarking across multiple datasets.
+  - **Evidence pointer** Section 2.3, Figure 2A-D; location not provided
+  - **Concern** All quantitative benchmarking results are described only in narrative form. No AUPR values, confidence intervals, or statistical significance tests are reported in the text. The referenced figures are not available for inspection. Without the actual data, the central claim of superior performance cannot be evaluated.
+  - **Why it matters** The primary contribution of this manuscript is a new method, and the claim that it outperforms existing methods is the key justification for its publication. If this claim is not supported by transparent, quantitative evidence, the manuscript's main conclusion is unverifiable.
+  - **Resolution test** Provide the actual benchmarking results, including AUPR values for all methods and datasets, with appropriate statistical comparisons (e.g., paired tests across replicates or bootstrapped confidence intervals). Include the figures and supplemental tables.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity and potential circularity
+  - **Claim pointer** The model uses prior regulatory evidence P to constrain connectivity, and the same type of evidence is used to construct the gold standard networks for benchmarking.
+  - **Evidence pointer** Sections 2.1, 2.3, 4.1, 4.4.4; location not provided
+  - **Concern** The manuscript does not clearly specify the relationship between the prior network P used for model construction and the gold standard networks used for evaluation. If the gold standard is derived from the same literature sources as the prior, the benchmarking may be circular, favoring methods that rely heavily on prior information. The authors mention that the prior is "known regulatory evidence" but do not detail how this relates to the gold standard.
+  - **Why it matters** If the evaluation is circular, the reported performance advantage may reflect the quality of the prior rather than the method's ability to infer novel regulatory structure. This would fundamentally undermine the claim of improved GRN inference.
+  - **Resolution test** Clearly describe the construction of both the prior P and the gold standard networks. If they share sources, perform a sensitivity analysis using priors of varying quality or hold out portions of the gold standard from the prior. Demonstrate that performance gains are not solely attributable to prior information.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological validation rigor
+  - **Claim pointer** The authors claim that "SupirFactor predicts biologically relevant TFA" and "elucidates functional regulatory pathways" based on yeast cell cycle and PBMC analyses.
+  - **Evidence pointer** Sections 2.4, 2.5, 2.6, Figures 3-5, Table 1; location not provided
+  - **Concern** The biological validation is presented qualitatively. For example, the claim that TFA for cell cycle TFs is "maximal in phases the TFs are expected to regulate" is not supported by quantitative comparisons or statistical tests. The enrichment analysis for mTF target genes is described but no enrichment scores, p-values, or multiple testing corrections are reported. The PBMC analysis is presented as a demonstration of scalability but lacks validation of the inferred cell-type-specific regulators beyond citing known biology.
+  - **Why it matters** The manuscript claims biological relevance as a key advantage of the method. Without rigorous statistical validation, these claims remain anecdotal and do not distinguish the method from existing approaches that also produce biologically plausible outputs.
+  - **Resolution test** Provide quantitative assessments of TFA predictions against known biology (e.g., correlation with perturbation data, comparison to experimentally measured TF activities). Report enrichment statistics with appropriate multiple testing corrections. For the PBMC analysis, include validation against known cell-type markers or independent datasets.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison to existing methods
+  - **Claim pointer** The authors state that "SupirFactor outperforms current leading GRN inference methods" but only compare against the Inferelator.
+  - **Evidence pointer** Section 2.3, Figure 2C-D; location not provided
+  - **Concern** The benchmarking is limited to a single baseline method. The authors acknowledge that other methods are "not amenable to scoring on holdouts" but do not discuss alternative evaluation strategies or compare against more recent deep learning-based GRN inference methods (e.g., Graph Neural Networks, transformer-based approaches, or other autoencoder frameworks). The claim of "current leading" methods is therefore not substantiated.
+  - **Why it matters** The GRN inference field is rapidly evolving, and a claim of superiority requires comparison against a representative set of state-of-the-art methods. Without such comparison, the relative contribution of SupirFactor is unclear.
+  - **Resolution test** Expand the benchmarking to include additional methods, either by adapting them to the same evaluation framework or by using established community benchmarks (e.g., DREAM challenges, BEELINE). If such comparisons are not feasible, temper the claim to "outperforms the Inferelator" and discuss the limitations of the comparison.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical details and reproducibility
+  - **Claim pointer** The manuscript describes a deep learning framework with specific architectural choices, regularization, and training procedures.
+  - **Evidence pointer** Sections 4.1-4.8; location not provided
+  - **Concern** Several technical details are missing or ambiguous. The exact architecture (number of layers, hidden dimensions, activation functions beyond ReLU) is not fully specified. The initialization scheme for weights is described but not justified. The training procedure (learning rate, batch size, number of epochs, early stopping criteria) is not detailed. The ERV computation for hierarchical models is described but the algorithm is not fully specified. Code is not provided.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without complete technical details and code, other researchers cannot implement or build upon the method.
+  - **Resolution test** Provide a complete specification of the model architecture and training procedure, either in the main text or supplement. Release code and, ideally, trained models. Consider providing a reference implementation in a public repository.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Section 1; location not provided
+  - **Issue** The abstract is dense and uses jargon without definition (e.g., "knowledge priming," "transparent model architectures"). The introduction could benefit from a clearer statement of the specific limitations of existing deep learning approaches for GRN inference.
+  - **Required correction** Define key terms in the abstract. In the introduction, explicitly state what existing deep learning methods lack in terms of interpretability and how SupirFactor addresses this.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Throughout
+  - **Evidence pointer** Sections 2.1, 4.1; location not provided
+  - **Issue** The terms "prior," "prior evidence," and "prior network" are used somewhat interchangeably. The relationship between P, W, and the gold standard is not always clear.
+  - **Required correction** Use consistent terminology and clearly define each symbol and its role in the model.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Table 1; location not provided
+  - **Issue** The Fisher exact test is mentioned but no p-values or effect sizes are reported in the text.
+  - **Required correction** Report the test statistics and p-values in the text or table.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 1-5
+  - **Evidence pointer** Figures 1-5; location not provided
+  - **Issue** Figures are not available for review. Based on the text descriptions, it is unclear if the figures are legible and informative.
+  - **Required correction** Ensure figures are high-resolution, clearly labeled, and self-contained.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Section 3
+  - **Evidence pointer** Section 3; location not provided
+  - **Issue** The discussion does not address potential limitations of the approach, such as sensitivity to prior quality, computational cost, or assumptions about the relationship between expression and TF activity.
+  - **Required correction** Add a paragraph discussing limitations and potential failure modes.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative results), R1-M2 (potential circularity in benchmarking), R1-M3 (lack of rigorous biological validation), R1-M4 (insufficient method comparison), R1-M5 (incomplete technical details)
+- **Assessment against Nature-style criteria**
+  - **Originality** The combination of knowledge-primed connectivity with a deep learning autoencoder for GRN inference and TFA estimation is a novel contribution. The ERV metric is also a new contribution to model interpretability. However, the individual components (autoencoders, prior-based constraints, latent variable models for TFA) are not new, and the novelty lies primarily in their integration.
+  - **Scientific importance** GRN inference and TFA estimation are important problems in computational biology. The ability to infer context-specific networks and interpretable latent activities would be valuable. However, the importance of the contribution depends on the strength of the benchmarking and biological validation, which are currently insufficiently documented.
+  - **Interdisciplinary readership** The work is relevant to computational biologists, bioinformaticians, and potentially systems biologists. The methods section is technical and may be challenging for non-specialists, but the results and discussion are generally accessible. The potential for broader readership depends on the strength of the biological findings, which are currently preliminary.
+  - **Technical soundness** The conceptual framework is sound, but the technical implementation cannot be fully assessed due to missing details and results. The potential circularity in benchmarking is a significant concern. The ERV metric is well-motivated but its properties and limitations are not fully explored.
+  - **Readability for nonspecialists** The abstract and introduction are dense and use jargon. The results section is narrative and would benefit from clearer presentation of quantitative findings. The methods section is technical but generally well-organized.
+- **Recommendation posture** Currently not established from the provided evidence. The core idea is promising, but the manuscript in its current form does not provide sufficient evidence to support the central claims of superior performance and biological relevance. The missing figures and quantitative results are a critical barrier. I would be supportive if the technical concerns are resolved, particularly the benchmarking transparency, the potential circularity issue, and the rigor of biological validation.

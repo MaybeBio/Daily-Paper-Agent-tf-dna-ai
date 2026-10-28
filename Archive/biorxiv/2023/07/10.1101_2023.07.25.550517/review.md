@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, experimental logic, and internal consistency based solely on the provided text; no evaluation of data quality or statistical validity where raw data are not shown
+- **Shared manuscript claim summary** The authors report that human SSB1 (hSSB1/NABP2/OBFP2B) undergoes liquid-liquid phase separation (LLPS) that is redox-dependent, requires nucleic acids (ssDNA or ssRNA), and is mediated by its intrinsically disordered region (IDR) and all three cysteine residues. They further report that hSSB1 condensates selectively recruit interaction partners in vitro and that endogenous hSSB1 forms cytoplasmic granules colocalizing with stress granules upon oxidative stress in multiple cell lines, suggesting roles beyond nuclear genome repair.
+- **Visible evidence base** Text descriptions of epifluorescence microscopy, turbidity assays, fluorescence anisotropy binding measurements, SDS-PAGE oligomerization assays, immunocytochemistry, confocal microscopy, and survival assays; references to figures (Figs. 1-11, S1-S17) and tables (Table S1) whose actual data are not provided
+- **Missing materials affecting confidence** All primary data (images, gels, quantifications, statistical outputs), figure legends, supplementary figures and tables, experimental replicates, and detailed statistical reporting; without these, quantitative claims cannot be independently verified
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting extension of the emerging field of nucleic acid-binding protein phase separation, with a novel claim of redox-regulated LLPS for hSSB1 that is distinct from the previously characterized bacterial SSB system. The conceptual framework linking oxidative stress, cysteine oxidation, and condensation is timely and mechanistically plausible. However, the manuscript as provided has several significant limitations. First, the claim that all three cysteines are required for redox-sensitive LLPS is presented without a clear mechanistic model that distinguishes between cysteine oxidation as a structural switch versus a general oxidative damage response. Second, the cellular data showing cytoplasmic granulation and stress granule colocalization are descriptive and lack functional validation. Third, the relationship between in vitro LLPS and the observed cellular phenotypes is inferred rather than demonstrated. The manuscript would benefit from a more rigorous dissection of the molecular requirements for LLPS and a clearer articulation of how the proposed model explains the observed cysteine mutant phenotypes.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation in genome maintenance and DNA damage response; investigators interested in redox regulation of protein condensation; cell biologists studying stress granule biology and oxidative stress responses; cancer biologists interested in hSSB1 as a potential therapeutic target given its upregulation in multiple cancers.
+- **Major strengths** The study addresses a timely and important question about redox regulation of LLPS, which is a relatively underexplored area. The systematic mutagenesis approach targeting all cysteine residues is thorough. The comparison with bacterial SSB highlights an interesting evolutionary divergence in LLPS regulation. The observation of cytoplasmic hSSB1 granules and stress granule colocalization opens new questions about extranuclear functions of this protein. The in vitro reconstitution system appears well-designed with physiologically relevant salt conditions and crowding agents.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic clarity
+  - **Claim pointer** The authors claim that "all three cysteine residues of the oligonucleotide/oligosaccharide-binding (OB) fold are necessary to maintain redox-sensitive droplet formation" and that "covalent oligomerization is not a prerequisite for hSSB1 LLPS; however, all hSSB1 cysteines are necessary for redox-dependent condensation."
+  - **Evidence pointer** Results section "C41 and C99 are required for redox-dependent covalent oligomerization" and "All cysteines of hSSB1 are required for redox-regulated LLPS propensity"; Figures 4C-E, S8-S10
+  - **Concern** The manuscript reports that single cysteine mutations (C41S, C99S) reduce covalent dimerization, while C81S retains wild-type dimerization. Yet all single mutants lose redox sensitivity of LLPS. The double mutant C81S-C99S "rescues" the wild-type dimerization phenotype, and the triple mutant shows no covalent oligomerization but still forms droplets. This complex phenotype is not explained by a simple model where cysteine oxidation promotes LLPS through covalent oligomerization. The authors propose that reduced cysteines inhibit LLPS, but the mechanism by which cysteine oxidation relieves this inhibition is not articulated. Specifically, how does oxidation of C81, which is not involved in dimerization, contribute to redox-sensitive LLPS? The authors suggest a conformational change model but do not provide structural or biophysical evidence to support it. The claim that "all three cysteines in their reduced form contribute to the inhibition of interprotein interactions essential for LLPS" is a post-hoc interpretation that is not directly tested.
+  - **Why it matters** The central novelty of this work is the redox-dependent regulation of hSSB1 LLPS. Without a clear mechanistic understanding of how cysteine oxidation controls condensation, the claim remains phenomenological. The distinction between cysteine oxidation as a specific regulatory switch versus a general consequence of oxidative stress is critical for the physiological relevance of the findings.
+  - **Resolution test** Provide direct evidence for the proposed conformational change upon cysteine oxidation, such as structural studies (NMR, HDX-MS) comparing reduced and oxidized hSSB1. Alternatively, test whether thiol-reactive compounds that mimic oxidation (e.g., maleimide-based reagents) can restore redox sensitivity in cysteine mutants. Additionally, perform LLPS assays with hSSB1 variants where cysteines are replaced with non-oxidizable but structurally similar residues (e.g., serine is already used, but alanine or valine could be tested) to determine whether the loss of redox sensitivity is due to loss of the thiol group or to structural perturbation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors claim that "cytoplasmic hSSB1 granules colocalize with stress granules" and that this "implies unexplored extranuclear roles in cellular stress response."
+  - **Evidence pointer** Results section "Stress granule associated hSSB1 condensation is accompanied by a decrease in nuclear hSSB1 levels in various cell lines under oxidative stress"; Figures 6-8, S13-S16
+  - **Concern** The manuscript reports colocalization of hSSB1 with stress granules (SG) and a decrease in nuclear hSSB1 upon oxidative stress. However, the functional significance of this observation is not established. The authors show that hSSB1 knockdown increases SG formation, but the mechanism is unclear. Is hSSB1 a structural component of SGs, a regulator of SG assembly, or a cargo that is sequestered during stress? The manuscript does not distinguish between these possibilities. Furthermore, the claim that hSSB1 may recruit BLM to SGs is speculative and not tested. The authors also note that hSSB1 was not previously identified as an SG component, raising the question of whether the observed colocalization is specific or an artifact of overexpression or antibody cross-reactivity.
+  - **Why it matters** The cellular data are presented as evidence for new biological functions of hSSB1. Without functional validation, the physiological relevance of the observed granulation remains unclear. The field of SG biology is crowded with proteins that localize to SGs under stress conditions, and the mere colocalization is insufficient to establish a functional role.
+  - **Resolution test** Perform SG assembly/disassembly assays with hSSB1 knockdown and rescue experiments to determine whether hSSB1 is required for SG formation or maintenance. Test whether hSSB1 mutants that cannot undergo LLPS in vitro also fail to localize to SGs in cells. Use proximity ligation assays or FRET to demonstrate direct interactions between hSSB1 and SG components. Additionally, examine whether hSSB1 affects SG dynamics (e.g., fluorescence recovery after photobleaching) to establish a functional role.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors claim that "hSSB1 droplet formation became apparent at H2O2 concentrations in the micromolar range" and that "turbidity measurements indicated phase separation at H2O2 concentrations in the low micromolar range."
+  - **Evidence pointer** Results section "hSSB1-ssDNA and hSSB1-ssRNA nucleoprotein coacervates form selectively and reversibly under oxidative conditions"; Figures 2D-F, S3
+  - **Concern** The manuscript reports threshold concentrations for H2O2-induced LLPS but does not provide quantitative dose-response curves with error bars or statistical comparisons. The relationship between H2O2 concentration and the extent of LLPS is described qualitatively. Additionally, the reversibility of LLPS upon DTT addition is shown, but the kinetics and extent of reversibility are not quantified. The authors also report that LLPS occurs at "physiological" H2O2 concentrations, but the relevance of the in vitro conditions to cellular oxidative stress is not discussed in detail.
+  - **Why it matters** The redox sensitivity of hSSB1 LLPS is a key claim. Without quantitative dose-response data, it is difficult to assess the physiological relevance of the observed phenomenon. The manuscript would be strengthened by a clear demonstration that the H2O2 concentrations used are relevant to those encountered during cellular oxidative stress.
+  - **Resolution test** Provide full dose-response curves for H2O2-induced LLPS with multiple independent replicates and statistical analysis. Measure the EC50 for H2O2 and compare it to known cellular H2O2 concentrations during oxidative stress. Quantify the kinetics of LLPS formation and dissolution upon H2O2 and DTT treatment, respectively.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of nucleic acid requirement
+  - **Claim pointer** The authors claim that "hSSB1 requires the presence of ssDNA or ssRNA for LLPS" and that "hSSB1 droplet formation requires coacervation with nucleic acids."
+  - **Evidence pointer** Results section "hSSB1-ssDNA and hSSB1-ssRNA nucleoprotein coacervates form selectively and reversibly under oxidative conditions"; Figures 2A, 3, S1-S2, S6
+  - **Concern** The manuscript reports that hSSB1 requires nucleic acids for LLPS, but the specificity of this requirement is not fully explored. The authors show that dT18 is unable to trigger LLPS while longer dT species do, suggesting a length requirement. However, the sequence specificity, base composition effects, and whether RNA and DNA are equally effective are not systematically tested. The authors also do not address whether the nucleic acid acts as a scaffold, a client, or a regulator of hSSB1 conformation. The observation that ssRNA induces LLPS even in reducing conditions (albeit to a limited extent) suggests that nucleic acid binding and oxidation have partially independent effects, but this is not discussed.
+  - **Why it matters** The nucleic acid requirement distinguishes hSSB1 LLPS from that of many other proteins that undergo LLPS in the absence of nucleic acids. Understanding the molecular basis of this requirement is important for the mechanistic model and for predicting which cellular contexts would favor hSSB1 condensation.
+  - **Resolution test** Perform systematic nucleic acid titration experiments with different sequences, lengths, and base compositions. Test whether the nucleic acid is incorporated into the droplets and whether it is required for droplet maintenance or only for nucleation. Use mutants with altered nucleic acid binding affinity to determine whether binding and LLPS are coupled.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states that hSSB1 "plays central roles in the repair of DNA breaks and oxidized DNA lesions" but does not specify whether these roles are direct or indirect. Given the new findings on cytoplasmic granulation, the abstract could more clearly distinguish between the established nuclear functions and the newly proposed cytoplasmic roles.
+  - **Required correction** Revise the abstract to clarify the distinction between known nuclear functions and the newly proposed cytoplasmic roles, and to avoid overstating the centrality of hSSB1 in DNA repair without appropriate context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, "Fluorescent labeling of proteins"
+  - **Issue** The labeling efficiency for hSSB1 is reported as 10%, which is quite low. The authors do not discuss whether this low labeling efficiency affects the interpretation of the LLPS experiments, particularly the colocalization and enrichment studies.
+  - **Required correction** Add a brief discussion of the potential impact of low labeling efficiency on the experimental results, or provide evidence that the labeled and unlabeled protein behave identically.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section
+  - **Evidence pointer** Results, "hSSB1 is enriched in stress granules in response to various forms of cellular stress"; Figure 9
+  - **Issue** The manuscript reports that various stress agents induce SG-associated hSSB1 granulation, but the statistical significance of these effects is not reported. The authors state that "no phenotypic changes were observed in response to KBrO3," but it is unclear whether this is a quantitative or qualitative assessment.
+  - **Required correction** Provide statistical analysis for the quantification of SG formation and hSSB1 colocalization across all conditions tested, including the negative result with KBrO3.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on hSSB1 and stress granules
+  - **Issue** The discussion of hSSB1 in stress granules does not adequately address the existing literature on DNA repair proteins in SGs. The authors mention BLM and hOGG1 but do not discuss whether other DNA repair proteins have been found in SGs and whether there is a general principle or whether hSSB1 is unique.
+  - **Required correction** Expand the discussion to place the findings in the broader context of DNA repair protein localization to SGs, and address whether the observed phenomenon is specific to hSSB1 or shared by other DNA repair factors.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figures 2, 4, 6
+  - **Evidence pointer** Results sections referencing Figures 2, 4, and 6
+  - **Issue** The manuscript references multiple figures with complex panels, but the text does not always guide the reader through the key observations in each panel. For example, in Figure 4E, the LLPS phenotypes of the cysteine mutants are described, but the reader is not told which panels correspond to which conditions.
+  - **Required correction** Add explicit panel references in the text to guide the reader through the key data in each figure.
+
+## Risk / unsupported claims
+- The claim that hSSB1 LLPS is "redox-dependent" and that all three cysteines are required for this regulation is supported by the described experiments, but the mechanistic model proposed (cysteine oxidation relieving autoinhibition) is speculative and not directly tested.
+- The claim that hSSB1 condensates "act as molecular filters" is supported by selective enrichment data, but the functional consequences of this filtering are not demonstrated.
+- The claim that hSSB1 plays "unexplored extranuclear roles in cellular stress response" is based on colocalization with SGs, but the functional significance is not established.
+- The claim that hSSB1 knockdown enhances SG formation is presented as evidence for a regulatory role, but the mechanism is unknown and the effect size is not quantified.
+- The physiological relevance of the in vitro H2O2 concentrations used is not established.
+- The relationship between the in vitro LLPS observed at micromolar protein concentrations and the cellular context is not addressed; the authors do not estimate the endogenous hSSB1 concentration in cells.
+- The claim that hSSB1 and hSSB2 show different redox sensitivities is mentioned in the discussion but not systematically compared in the results.
+
+## Assessment against Nature-style criteria
+- **Originality** The concept of redox-regulated LLPS is relatively novel, and the authors correctly identify that this distinguishes hSSB1 from bacterial SSB. However, redox regulation of LLPS has been reported for other proteins, and the authors do not adequately position their findings within this emerging literature.
+- **Scientific importance** The potential link between DNA repair protein condensation and stress granule biology is interesting and could have implications for understanding cellular stress responses. However, the importance is diminished by the lack of functional validation and the descriptive nature of the cellular data.
+- **Interdisciplinary readership** The topic bridges DNA repair, phase separation, and stress biology, which could appeal to a broad readership. However, the manuscript assumes significant background knowledge in all three areas and may not be accessible to nonspecialists without additional context.
+- **Technical soundness** The in vitro experiments appear well-designed, but the lack of quantitative data and statistical analysis limits the assessment of technical rigor. The cellular experiments are descriptive and would benefit from more rigorous quantification and controls.
+- **Readability for nonspecialists** The manuscript is clearly written but dense, with many abbreviations and references to specific experimental details that may be challenging for nonspecialists. The abstract is accessible, but the results section would benefit from more context and explanation of the significance of each experiment.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript presents a potentially interesting phenomenon but lacks the mechanistic depth and functional validation required to support the broad claims made. The in vitro LLPS data are suggestive, but the connection to cellular function is not demonstrated. The authors should be encouraged to resubmit after addressing the major concerns, particularly the mechanistic basis of redox-sensitive LLPS and the functional significance of the observed cellular phenotypes.

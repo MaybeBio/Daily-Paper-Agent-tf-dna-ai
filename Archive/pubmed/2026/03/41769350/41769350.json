@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "41769350",
+    "doi": "10.3389/fcimb.2026.1688009",
+    "title": "Integrated transcriptomics and molecular docking identify hub genes and statin regulators in Helicobacter pylori-associated gastric mucosal pathogenesis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Helicobacter pylori (H. pylori), a spiral Gram-negative bacterium colonizing gastric mucosa, damages epithelial cells, driving chronic gastritis, peptic ulcers, and gastric cancer. Mechanisms of its malignant transformation remain unclear. METHODS: We identified differentially expressed genes (DEGs) and hub genes, pathway enrichment analysis, transcription factors (TFs), small-molecule drug and molecular docking prediction using gastric epithelial cells (GECs) infected with H. pylori strain 26695 and clinical sample datasets. RESULTS: H. pylori infection of GECs, multiple signaling pathways were activated, including the p53, MAPK, TNF, IL-17, PI3K-Akt and NF-kappaB signaling, DNA replication, Apoptosis, Cell cycle, Necroptosis. A total of 107 co-expressed DEGs were identified in vitro and in vivo. Using Cytoscape, 20 hub genes were prioritized: TNF, CXCL8, NFKBIA, IRF1, ICAM1, TNFAIP3, BIRC3, CXCL1, ITGAM, RELB, CXCL2, CCL20, NFKB2, EGR1, CDKN1A, IRAK2, JAK1, NFKBIE, TRAF1, and JUNB. These hub genes were enriched in NF-kappaB, TNF and IL-17 signaling, and responses to bacterial pathogens or lipopolysaccharide. Further analysis identified 9 upregulated TFs: VDR, SPI1, ETS2, STAT1, E2F1, PML, ETS1, BRCA1, MYC, and 4 downregulated TFs: ING4, CEBPD, HSF1, JUN. To explore potential therapeutic interventions, we performed small-molecule drug prediction and molecular docking for hub genes revealed: Simvastatin: Linked to CCL20, NFKBIA, and ICAM1. Atorvastatin: Associated with CDKN1A, ICAM1, and TNF. TPCA-1: Targeting JAK1. CONCLUSION: These findings provide a theoretical foundation for further investigation into the molecular mechanisms underlying H. pylori-related diseases.",
+    "keywords": [
+      "Helicobacter pylori",
+      "TPCA-1",
+      "atorvastatin",
+      "hub genes",
+      "molecular docking",
+      "simvastatin"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Molecular Docking Simulation",
+      "*Helicobacter pylori/pathogenicity/genetics",
+      "*Gastric Mucosa/microbiology/pathology",
+      "Gene Expression Profiling",
+      "*Helicobacter Infections/microbiology/pathology/genetics",
+      "Signal Transduction",
+      "Animals",
+      "*Hydroxymethylglutaryl-CoA Reductase Inhibitors/pharmacology",
+      "Epithelial Cells/microbiology",
+      "*Transcriptome",
+      "Transcription Factors/metabolism/genetics",
+      "Computational Biology",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Minglin",
+        "He, Xue",
+        "Zhao, Xuelin",
+        "Cai, Ting",
+        "Liu, Xiaoming",
+        "Wang, Fen"
+      ],
+      "short_names": [
+        "Zhang M",
+        "He X",
+        "Zhao X",
+        "Cai T",
+        "Liu X",
+        "Wang F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Health Management Medicine Center, The Third Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "Health Management Medicine Center, The Third Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "Nursing Department, The Third Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "Department of Gastroenterology, Hunan Provincial People's Hospital, The First Affiliated Hospital of Hunan Normal University, Changsha, Hunan, China.",
+        "Hunan Provincial University Key Laboratory of the Fundamental and Clinical Research on Functional Nucleic Acid, Changsha Medical University, Changsha, Hunan, China.",
+        "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+        "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, Changsha, Hunan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Minglin",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Health Management Medicine Center, The Third Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+          "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "He, Xue",
+        "short_name": "He X",
+        "identifiers": [],
+        "affiliations": [
+          "Health Management Medicine Center, The Third Xiangya Hospital, Central South University, Changsha, Hunan, China.",
+          "Nursing Department, The Third Xiangya Hospital, Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xuelin",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Ting",
+        "short_name": "Cai T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Hunan Provincial People's Hospital, The First Affiliated Hospital of Hunan Normal University, Changsha, Hunan, China.",
+          "Hunan Provincial University Key Laboratory of the Fundamental and Clinical Research on Functional Nucleic Acid, Changsha Medical University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoming",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Fen",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, The Third Xiangya Hospital, Central South University, Changsha, Hunan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cellular and infection microbiology"
+    ],
+    "journal_abbrev": [
+      "Front Cell Infect Microbiol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/02 13:16",
+    "fetched_at": "2026-10-01 15:28:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41224952",
+      "41217343",
+      "41171133",
+      "41136917",
+      "40287055",
+      "40140647",
+      "40138873",
+      "40137764",
+      "39875526",
+      "39814753",
+      "39762835",
+      "39725863",
+      "39712025",
+      "39161645",
+      "39108210",
+      "39022746",
+      "38997271",
+      "38887155",
+      "38690269",
+      "38628905",
+      "38609049",
+      "38461207",
+      "37336990",
+      "37230895",
+      "37139985",
+      "36914055",
+      "36614235",
+      "36272615",
+      "36125689",
+      "36014933",
+      "35609983",
+      "35514018",
+      "35338113",
+      "35134322",
+      "35012886",
+      "33407516",
+      "33211854",
+      "32677810",
+      "32612120",
+      "32001553",
+      "31982726",
+      "31359499",
+      "31239728",
+      "30949574",
+      "30907046",
+      "30267894",
+      "29773901",
+      "29162845",
+      "28983474",
+      "28473630",
+      "28321154",
+      "27769957",
+      "27183641",
+      "26730715",
+      "26400175",
+      "26205061",
+      "26066708",
+      "25821353",
+      "25001975",
+      "24233024",
+      "22927405",
+      "22822085",
+      "22646167",
+      "22266963",
+      "21669400",
+      "21327042",
+      "20547161",
+      "20007577",
+      "19674131",
+      "19166417",
+      "18702686",
+      "18200634",
+      "17008526",
+      "16243079",
+      "15388434",
+      "15057743",
+      "11180103",
+      "10802651",
+      "10592173",
+      "6134060"
+    ],
+    "similar": [
+      "41769350",
+      "41217343",
+      "40445003",
+      "39712025",
+      "41845922",
+      "36914055",
+      "41291892",
+      "42333713",
+      "40138873",
+      "33717131",
+      "23326126",
+      "32612120",
+      "11598072",
+      "29273450",
+      "17643099",
+      "42131322",
+      "32710499",
+      "25278677",
+      "25837197",
+      "41961800",
+      "26996564",
+      "42562313",
+      "34730176",
+      "11207544",
+      "14631383",
+      "27196595",
+      "32080167",
+      "41942799",
+      "17383425",
+      "41136917",
+      "41275937",
+      "41962612",
+      "41129970",
+      "41737224",
+      "40518541",
+      "34585958",
+      "30231525",
+      "22889111",
+      "28012316",
+      "26632410",
+      "22438889",
+      "23565224",
+      "41394107",
+      "23437218",
+      "36620343",
+      "38916312",
+      "33964417",
+      "24530706",
+      "38001345",
+      "16995446",
+      "22515357",
+      "39528935",
+      "15904477",
+      "26947589",
+      "41627564",
+      "23460743",
+      "9824536",
+      "32866262",
+      "41005317",
+      "23372710",
+      "11302954",
+      "31669263",
+      "42109727",
+      "38730482",
+      "34363898",
+      "31308482",
+      "39414226",
+      "32971089",
+      "42088021",
+      "17760719",
+      "40239879",
+      "17724069",
+      "12047320",
+      "40320649",
+      "37528793",
+      "18070899",
+      "31889044",
+      "26074694",
+      "19505426",
+      "39499687",
+      "42006143",
+      "31209915",
+      "11197247",
+      "38394397",
+      "19889077",
+      "24436142",
+      "34427890",
+      "28401064",
+      "32993565",
+      "32722876",
+      "28666843",
+      "35089437",
+      "30535468",
+      "16273640",
+      "20190789",
+      "21649733",
+      "22890997",
+      "12757765",
+      "9196252",
+      "28739826"
+    ],
+    "review": [
+      "41769350",
+      "33717131",
+      "25278677",
+      "11207544",
+      "26947589",
+      "11197247"
+    ],
+    "pmc": [
+      "12945777"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/statins.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Statins"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41769350/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-219",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcimb.2026.1688009",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

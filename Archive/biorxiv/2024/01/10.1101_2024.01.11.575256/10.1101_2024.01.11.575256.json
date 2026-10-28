@@ -1,0 +1,398 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.01.11.575256",
+  "title": "A dual histone code specifies the binding of heterochromatin protein Rhino to a subset of piRNA source loci",
+  "doi": "10.1101/2024.01.11.575256",
+  "abstract": "Animal germ cells deploy a specialized small RNA-based silencing system, called the PIWI-interacting RNA (piRNA) pathway, to prevent unwanted expression of transposable elements and maintain genome integrity. In Drosophila germ cells, the majority of piRNA populations originate from dual-strand piRNA clusters, genomic regions highly enriched in transposable element (TE) fragments, via an elaborate protein machinery centred on the heterochromatin protein 1 homolog, Rhino. Although Rhino binds to peptides carrying trimethylated H3K9 in vitro, it is not fully understood why in vivo only a fraction of H3K9me3-decorated heterochromatin is occupied by Rhino. Recent work revealed that Rhino is recruited to a subset of piRNA clusters by the zinc finger protein Kipferl. Here we identify a Kipferl-independent mode of Rhino targeting that, in addition to the previously established role of H3K9me3, also depends on the histone H3 lysine 27 methyltransferase Enhancer of Zeste. At Kipferl-independent sites, we find that Rhino, through its chromodomain, specifically binds to loci marked by both H3K9me3 and H3K27me3. Although the exact mechanism of how Rhino binding is influenced by dual histone modifications remains unclear from a structural and biochemical perspective, our work suggests that combinatorial modifications can play a crucial role in influencing the specificity of chromatin-binding protein interactions. These findings provide an enhanced understanding of the multifaceted mechanisms by which Rhino targets piRNA source loci highlighting the sophisticated epigenetic landscape governing TE silencing in Drosophila germ cells. Our work further reveals a role for dual histone modifications defining the binding specificity of a key chromatin protein.",
+  "authors": [
+    "Akkouche A",
+    "Kneuss E",
+    "Bornelöv S",
+    "Renaud Y",
+    "Eastwood EL",
+    "van Lopik J",
+    "Gueguen N",
+    "Jiang M",
+    "Creixell P",
+    "Maupetit-Mehouas S",
+    "Sobieszek A",
+    "Gui Y",
+    "Nicholson BC",
+    "Brasset E",
+    "Hannon GJ"
+  ],
+  "published_date": "2024-01-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.01.11.575256",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.01.11.575256.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR786371",
+    "raw_record": {
+      "id": "PPR786371",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR786371"
+        ]
+      },
+      "doi": "10.1101/2024.01.11.575256",
+      "title": "A dual histone code specifies the binding of heterochromatin protein Rhino to a subset of piRNA source loci",
+      "authorString": "Akkouche A, Kneuss E, Bornelöv S, Renaud Y, Eastwood EL, van Lopik J, Gueguen N, Jiang M, Creixell P, Maupetit-Mehouas S, Sobieszek A, Gui Y, Nicholson BC, Brasset E, Hannon GJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Akkouche A",
+            "lastName": "Akkouche",
+            "firstName": "Abdou",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4781-2861"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "iGReD, , , , Faculté de Médecine, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kneuss E",
+            "lastName": "Kneuss",
+            "firstName": "Emma",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0662-8539"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, , Li Ka Shing Centre , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bornelöv S",
+            "lastName": "Bornelöv",
+            "firstName": "Susanne",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, , Li Ka Shing Centre , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Renaud Y",
+            "lastName": "Renaud",
+            "firstName": "Yoan",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "iGReD, , , , Faculté de Médecine, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Eastwood EL",
+            "lastName": "Eastwood",
+            "firstName": "Evelyn",
+            "initials": "EL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3932-0402"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, , Li Ka Shing Centre , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van Lopik J",
+            "lastName": "van Lopik",
+            "firstName": "Jasper",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6981-1504"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, , Li Ka Shing Centre , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gueguen N",
+            "lastName": "Gueguen",
+            "firstName": "Nathalie",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "iGReD, , , , Faculté de Médecine, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jiang M",
+            "lastName": "Jiang",
+            "firstName": "Mingxuan",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6046-9439"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, , Li Ka Shing Centre , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Creixell P",
+            "lastName": "Creixell",
+            "firstName": "Pau",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, , Li Ka Shing Centre , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Maupetit-Mehouas S",
+            "lastName": "Maupetit-Mehouas",
+            "firstName": "Stephanie",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "iGReD, , , , Faculté de Médecine, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sobieszek A",
+            "lastName": "Sobieszek",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8471-0007"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, , Li Ka Shing Centre , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gui Y",
+            "lastName": "Gui",
+            "firstName": "Yifan",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, , Li Ka Shing Centre , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nicholson BC",
+            "lastName": "Nicholson",
+            "firstName": "Benjamin Czech",
+            "initials": "BC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, , Li Ka Shing Centre , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brasset E",
+            "lastName": "Brasset",
+            "firstName": "Emilie",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "iGReD, , , , Faculté de Médecine, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hannon GJ",
+            "lastName": "Hannon",
+            "firstName": "Gregory",
+            "initials": "GJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research UK Cambridge Institute, , Li Ka Shing Centre , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6981-1504"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8471-0007"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9276-9981"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3932-0402"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4781-2861"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6046-9439"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0662-8539"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Animal germ cells deploy a specialized small RNA-based silencing system, called the PIWI-interacting RNA (piRNA) pathway, to prevent unwanted expression of transposable elements and maintain genome integrity. In Drosophila germ cells, the majority of piRNA populations originate from dual-strand piRNA clusters, genomic regions highly enriched in transposable element (TE) fragments, via an elaborate protein machinery centred on the heterochromatin protein 1 homolog, Rhino. Although Rhino binds to peptides carrying trimethylated H3K9 in vitro, it is not fully understood why in vivo only a fraction of H3K9me3-decorated heterochromatin is occupied by Rhino. Recent work revealed that Rhino is recruited to a subset of piRNA clusters by the zinc finger protein Kipferl. Here we identify a Kipferl-independent mode of Rhino targeting that, in addition to the previously established role of H3K9me3, also depends on the histone H3 lysine 27 methyltransferase Enhancer of Zeste. At Kipferl-independent sites, we find that Rhino, through its chromodomain, specifically binds to loci marked by both H3K9me3 and H3K27me3. Although the exact mechanism of how Rhino binding is influenced by dual histone modifications remains unclear from a structural and biochemical perspective, our work suggests that combinatorial modifications can play a crucial role in influencing the specificity of chromatin-binding protein interactions. These findings provide an enhanced understanding of the multifaceted mechanisms by which Rhino targets piRNA source loci highlighting the sophisticated epigenetic landscape governing TE silencing in Drosophila germ cells. Our work further reveals a role for dual histone modifications defining the binding specificity of a key chromatin protein.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "226627/Z/22/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "110161/Z/15/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/01/11/2024.01.11.575256.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.01.11.575256"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR786371"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR786371&type=FILE&fileName=EMS193378-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 6,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS193378",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-01-13",
+      "firstPublicationDate": "2024-01-11",
+      "firstIndexDate": "2024-01-13",
+      "fullTextReceivedDate": "2025-02-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

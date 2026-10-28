@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "41826840",
+    "doi": "10.1186/s12880-026-02277-4",
+    "title": "Comparing multi-b-value diffusion models and ROI delineation strategies for prediction of p53 abnormality and microsatellite instability in endometrial cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Multi-b-value diffusion-weighted MRI holds potential for noninvasively predicting p53 abnormality and microsatellite instability (MSI) in endometrial cancer (EC), but the optimal diffusion model and region of interest (ROI) strategy remain undetermined. This study aims to identify the optimal diffusion model-ROI strategy combination for predicting p53 abnormality and MSI status by comparing diffusion MRI-derived parameters from three ROI approaches. METHODS: This retrospective study included patients with EC who underwent preoperative multi-b-value diffusion MRI between December 2020 and June 2025. Two radiologists independently quantified apparent diffusion coefficient (ADC), intravoxel incoherent motion (IVIM), and diffusion kurtosis imaging (DKI) parameters using three ROI strategies (single-slice ROI [ssROI], three-slice ROI [tsROI], and whole-tumor volume ROI [wtROI]. Multivariable logistic regression identified parameters associated with p53 abnormality and MSI. Diagnostic performance was assessed using the receiver operating characteristic curve and compared with the DeLong test. Additionally, the reproducibility of the parameters was evaluated. RESULTS: Among 143 enrolled patients (mean age, 57.73years +/- 10.01[SD]), 136 were assessed for p53 status (37 abnormal) and 109 for mismatch repair status (17 MSI). All parameters showed good-to-excellent reproducibility. Elevated D* and lower MD in ssROI, lower D in tsROI, and decreased MD in wtROI were associated with p53 abnormality. Lower ADC across all ROIs was associated with MSI. For predicting p53 abnormality, ssROI-MD yielded the highest AUC of 0.711 (95% CI: 0.627, 0.785), which showed similar performance to other parameter-ROI combinations. For predicting MSI, tsROI-ADC (AUC,0.755 [95%CI:0.646, 0.844]) and wtROI-ADC (AUC,0.758 [95%CI:0.649, 0.846]) significantly outperformed ssROI-ADC (AUC,0.700 [95%CI:0.587, 0.797]; p = 0.006 and 0.025, respectively), with wtROI-ADC showing higher sensitivity (90.9%). CONCLUSIONS: MD from a single-slice ROI is optimal for the identification of p53 abnormality, combining diagnostic performance with operational simplicity and high reproducibility. For MSI prediction, ADC from a whole-tumor ROI is preferred due to its superior sensitivity and excellent reproducibility.",
+    "keywords": [
+      "Diffusion magnetic resonance imaging",
+      "Endometrial neoplasms",
+      "Microsatellite instability",
+      "Optimal region of interest",
+      "P53 protein"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Endometrial Neoplasms/genetics/diagnostic imaging",
+      "*Diffusion Magnetic Resonance Imaging/methods",
+      "*Microsatellite Instability",
+      "*Tumor Suppressor Protein p53/genetics",
+      "Retrospective Studies",
+      "Middle Aged",
+      "Reproducibility of Results",
+      "Aged"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yi",
+        "Wang, Xuemei",
+        "Xue, Kaiming",
+        "Mao, Yunhai",
+        "Wang, Wenchao",
+        "Liu, Xiaoming",
+        "Wang, Wei",
+        "Zhang, Mengchao"
+      ],
+      "short_names": [
+        "Li Y",
+        "Wang X",
+        "Xue K",
+        "Mao Y",
+        "Wang W",
+        "Liu X",
+        "Wang W",
+        "Zhang M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, China-Japan Union Hospital of Jilin University, No. 126 Xiantai Street, Changchun, Jilin Province, 130033, China.",
+        "Department of Pathology, China-Japan Union Hospital of Jilin University, No. 126 Xiantai Street, Changchun, Jilin Province, 130033, China.",
+        "Department of Radiology, China-Japan Union Hospital of Jilin University, No. 126 Xiantai Street, Changchun, Jilin Province, 130033, China.",
+        "Department of Radiology, China-Japan Union Hospital of Jilin University, No. 126 Xiantai Street, Changchun, Jilin Province, 130033, China.",
+        "Department of Radiology, China-Japan Union Hospital of Jilin University, No. 126 Xiantai Street, Changchun, Jilin Province, 130033, China.",
+        "MR Research Collaboration, Siemens Healthcare, Beijing, China.",
+        "Department of Radiology, China-Japan Union Hospital of Jilin University, No. 126 Xiantai Street, Changchun, Jilin Province, 130033, China. wangwei24@jlu.edu.cn.",
+        "Department of Radiology, China-Japan Union Hospital of Jilin University, No. 126 Xiantai Street, Changchun, Jilin Province, 130033, China. zhangmengchao@jlu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yi",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, China-Japan Union Hospital of Jilin University, No. 126 Xiantai Street, Changchun, Jilin Province, 130033, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xuemei",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, China-Japan Union Hospital of Jilin University, No. 126 Xiantai Street, Changchun, Jilin Province, 130033, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Kaiming",
+        "short_name": "Xue K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, China-Japan Union Hospital of Jilin University, No. 126 Xiantai Street, Changchun, Jilin Province, 130033, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Yunhai",
+        "short_name": "Mao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, China-Japan Union Hospital of Jilin University, No. 126 Xiantai Street, Changchun, Jilin Province, 130033, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenchao",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, China-Japan Union Hospital of Jilin University, No. 126 Xiantai Street, Changchun, Jilin Province, 130033, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoming",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "MR Research Collaboration, Siemens Healthcare, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, China-Japan Union Hospital of Jilin University, No. 126 Xiantai Street, Changchun, Jilin Province, 130033, China. wangwei24@jlu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Mengchao",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, China-Japan Union Hospital of Jilin University, No. 126 Xiantai Street, Changchun, Jilin Province, 130033, China. zhangmengchao@jlu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC medical imaging"
+    ],
+    "journal_abbrev": [
+      "BMC Med Imaging"
+    ],
+    "pub_date": "2026 Mar 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/14 06:33",
+    "fetched_at": "2026-10-01 15:57:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40836021",
+      "40507676",
+      "40359597",
+      "40304002",
+      "40191553",
+      "39641783",
+      "39237837",
+      "39188651",
+      "38637428",
+      "38431043",
+      "37751191",
+      "37661630",
+      "37341203",
+      "35752743",
+      "35735273",
+      "35665848",
+      "35658479",
+      "35127515",
+      "33609166",
+      "33541735",
+      "30484734",
+      "27810331",
+      "27532860",
+      "27253423",
+      "26486600",
+      "25720322",
+      "23636398",
+      "23027087",
+      "15906300",
+      "3393671"
+    ],
+    "similar": [
+      "41826840",
+      "35735273",
+      "39641783",
+      "27532860",
+      "41063067",
+      "39171859",
+      "41618477",
+      "40693938",
+      "38863062",
+      "41189947",
+      "41188750",
+      "41428048",
+      "40591119",
+      "25867657",
+      "29797056",
+      "35174093",
+      "28269992",
+      "30361867",
+      "30027411",
+      "37740047",
+      "26919562",
+      "30255258",
+      "31969196",
+      "39143248",
+      "31446209",
+      "27527072",
+      "42543756",
+      "39210470",
+      "40662293",
+      "37054801",
+      "41342926",
+      "39313384",
+      "37773061",
+      "41291770",
+      "40879693",
+      "40114300",
+      "35166938",
+      "32361587",
+      "37876269",
+      "27578047",
+      "38639282",
+      "29491686",
+      "40444079",
+      "29262507",
+      "35259708",
+      "41729871",
+      "38767069",
+      "36276491",
+      "38508932",
+      "30503834",
+      "37341203",
+      "31204855",
+      "36470051",
+      "33201788",
+      "30851496",
+      "30017300",
+      "42438430",
+      "34922118",
+      "26292914",
+      "34126429",
+      "39254709",
+      "35949349",
+      "25972370",
+      "41953399",
+      "31922327",
+      "35941559",
+      "30764876",
+      "36375760",
+      "28265697",
+      "32673928",
+      "42560492",
+      "31324577",
+      "41462129",
+      "31161315",
+      "34584865",
+      "27469349",
+      "40304002",
+      "28774471",
+      "27587953",
+      "29740903",
+      "41021312",
+      "41913432",
+      "32857204",
+      "32366108",
+      "40819972",
+      "33991377",
+      "39636532",
+      "35863281",
+      "31144091",
+      "41160372",
+      "25131628",
+      "24316663",
+      "29034282",
+      "40866274",
+      "42126725",
+      "41081881",
+      "24832359",
+      "42168907",
+      "24677497",
+      "41816041"
+    ],
+    "review": [
+      "41826840",
+      "40819972"
+    ],
+    "pmc": [
+      "13101145"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcmedimaging.biomedcentral.com/articles/10.1186/s12880-026-02277-4",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41826840/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

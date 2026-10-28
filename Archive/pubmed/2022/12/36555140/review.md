@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methodology, and acknowledgments.
+- **Assessment boundary** Scientific validity, methodological rigor, clarity of claims, and alignment of conclusions with the presented evidence. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors use computational tools and molecular dynamics simulations to characterize five hotspot mutations at codon 248 of the p53 DNA-binding domain (R248W, R248G, R248L, R248P, R248Q), concluding that these mutations reduce DNA-binding affinity and induce structural instability, potentially contributing to gain-of-function oncogenic activity.
+- **Visible evidence base** Results sections 2.1–2.4, including tables (Tables 1–4) and figures (Figures 1–8) referenced in the text; methodology section 4.1–4.7.
+- **Missing materials affecting confidence** Figures and tables are referenced but not provided in the submitted material. No supplementary data, simulation parameter files, or raw trajectory analyses were available. The manuscript text alone is insufficient to verify quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant question regarding the structural and functional impact of p53 R248 hotspot mutations. The computational workflow is reasonable in principle, but the presentation suffers from several critical weaknesses. The claims of pathogenicity and structural destabilization are only partially supported by the evidence described. The lack of accessible figures and tables, combined with ambiguous methodological details and overinterpretation of simulation data, prevents the case from being fully established. The manuscript would benefit from substantial revision, including clearer data presentation, more rigorous statistical treatment, and tempering of conclusions that extend beyond the computational evidence.
+- **Who would be interested in the results, and why** Researchers in cancer biology, structural bioinformatics, and computational drug discovery would find the results relevant. The focus on p53 hotspot mutations and their differential effects on DNA binding is of interest to those studying tumor suppressor dysfunction and developing mutation-specific therapeutic strategies. The methodological approach may also appeal to computational biologists working on protein–DNA interaction dynamics.
+- **Major strengths** The study addresses a clinically important and under-characterized set of mutations. The use of multiple complementary computational tools for pathogenicity prediction and stability assessment is appropriate. The inclusion of long-timescale (100 ns) MD simulations with multiple analysis metrics (RMSD, RMSF, Rg, SASA, H-bonds, MM-PBSA, PCA) provides a broad characterization of structural behavior. The focus on a specific hotspot residue with multiple substitution variants is a useful comparative design.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that R248W, R248G, and R248P are "highly deleterious and destabilizing" based on computational predictions.
+  - **Evidence pointer** Section 2.2, Tables 1 and 2 (location not provided)
+  - **Concern** The claim of high deleteriousness and destabilization is based on a set of prediction tools, but the manuscript does not provide the actual prediction scores, confidence intervals, or a consensus metric. The text states that PredictSNP predicted all five mutations as deleterious, yet the conclusion singles out R248W, R248G, and R248P as "highly" deleterious. The basis for this gradation is unclear. Additionally, iStable results are described inconsistently: the text in Section 2.2 states four of five mutations decrease stability, but the discussion in Section 3 refers to R248W, R248G, and R248P specifically. The criteria for selecting these three as the most damaging are not defined.
+  - **Why it matters** The central conclusion of the paper rests on the identification of the most deleterious mutations. Without transparent scoring data or a defined threshold for "highly deleterious," the claim is not reproducible or verifiable from the provided material.
+  - **Resolution test** Provide the full prediction output for each tool, a consensus score with uncertainty estimates, and a pre-specified criterion for classifying mutations as highly deleterious versus moderately deleterious.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors conclude that all five R248 mutations reduce DNA-binding affinity based on MM-PBSA binding free energy calculations.
+  - **Evidence pointer** Section 2.4, Table 3, Figure 7 (location not provided)
+  - **Concern** The MM-PBSA results are presented as mean values with standard deviations, but no statistical comparison between the wild-type and mutant systems is reported. The differences in binding energies (e.g., −2906.756 for wild-type vs. −2283.598 for R248P) appear large, but the standard deviations overlap substantially (e.g., ±621.185 for wild-type). Without error propagation analysis, bootstrapping, or replicate simulations, it is impossible to determine whether the observed differences are statistically significant. Furthermore, the manuscript does not specify how many independent simulations were performed or whether the reported values are from a single trajectory.
+  - **Why it matters** The conclusion that mutations reduce DNA-binding affinity is a primary finding. If the differences are not statistically robust, the central claim is unsupported.
+  - **Resolution test** Report the number of independent simulations, perform statistical testing (e.g., block averaging, bootstrap) to compare wild-type and mutant binding energies, and provide confidence intervals for all reported values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretive validity
+  - **Claim pointer** The authors state that reduced DNA-binding affinity "may disrupt cell division, resulting in a gain of p53 function."
+  - **Evidence pointer** Section 3, Discussion (location not provided)
+  - **Concern** The leap from reduced DNA-binding affinity to gain-of-function (GOF) is not logically supported by the data presented. Reduced binding to canonical p53 response elements would typically imply loss of tumor suppressor function, not gain of oncogenic function. The GOF concept requires evidence of novel activities, such as altered transcriptional targets, protein–protein interactions, or dominant-negative effects, none of which are addressed in this study. The authors cite literature on GOF but do not provide any computational or experimental evidence linking their specific findings to GOF mechanisms.
+  - **Why it matters** The conclusion overreaches the scope of the computational analysis and could mislead readers regarding the functional consequences of these mutations.
+  - **Resolution test** Either remove the GOF claim or provide explicit computational evidence (e.g., binding site analysis, interaction network changes) that supports a mechanistic link to gain-of-function behavior. Alternatively, reframe the conclusion as consistent with loss of DNA-binding function without speculating on GOF.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe the use of CHARMM-GUI, GROMACS, and the CHARMM36 force field for MD simulations.
+  - **Evidence pointer** Section 4.7 (location not provided)
+  - **Concern** The methodology lacks critical details required for reproducibility. The manuscript does not specify the number of atoms in each system, the ionic concentration, the temperature and pressure coupling parameters beyond naming the algorithms, the integration time step, or the criteria for equilibration convergence. The mutation introduction procedure using SwissPDB Viewer is described, but no validation of the mutant structures (e.g., steric clashes, rotamer quality) is reported. The choice of the p53–DNA complex structure (PDB ID 2AC0) is mentioned, but the specific chains used and the preparation steps (e.g., removal of water, ligand, or other chains) are not described.
+  - **Why it matters** Without these details, the simulations cannot be reproduced by other researchers, undermining the scientific utility of the work.
+  - **Resolution test** Provide a complete simulation protocol, including all parameters, system composition, equilibration criteria, and validation steps for mutant structures. Consider depositing input files and trajectories in a public repository.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3, HOPE analysis
+  - **Evidence pointer** Section 2.3 (location not provided)
+  - **Issue** The text states "the mutant R196P residue charge was neutral," but the mutation under study is at position 248, not 196. This appears to be a typographical error.
+  - **Required correction** Correct the residue number to R248P.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Section 2.2, iStable results
+  - **Evidence pointer** Section 2.2, Table 2 (location not provided)
+  - **Issue** The text states that R248L is predicted to increase stability by MUpro and iStable but decrease stability by I-Mutant2.0 SEQ. However, the discussion in Section 3 groups R248L with the destabilizing mutations without acknowledging this discrepancy.
+  - **Required correction** Clarify the conflicting predictions for R248L and discuss how this discrepancy is resolved in the overall interpretation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 2.4, RMSD analysis
+  - **Evidence pointer** Section 2.4, Figure 2A (location not provided)
+  - **Issue** The text describes the RMSD for R248Q as stabilizing around 0.1–0.2 nm after an initial spike, but the range for the wild-type is given as ~0.15. The text does not explain why a lower RMSD for a mutant is interpreted as instability when lower RMSD typically indicates greater stability.
+  - **Required correction** Provide a clearer interpretation of RMSD values in the context of the wild-type baseline and explain the significance of the observed differences.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language precision
+  - **Affected element** Section 2.4, SASA analysis
+  - **Evidence pointer** Section 2.4, Figure 5 (location not provided)
+  - **Issue** The text states that "due to high SASA values, we observed the shrinkage of proteins" in R248W, R248G, and R248P. High SASA typically indicates increased solvent exposure and expansion, not shrinkage. This is contradictory.
+  - **Required correction** Reconcile the SASA interpretation with the structural changes described, or correct the terminology.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Section 4.1, UniProt database
+  - **Evidence pointer** Section 4.1 (location not provided)
+  - **Issue** The text refers to the "uniport database," which is a misspelling of "UniProt."
+  - **Required correction** Correct the spelling to "UniProt."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of transparent prediction data), R1-M2 (lack of statistical rigor in binding energy comparisons), R1-M3 (unsupported GOF conclusion), R1-M4 (insufficient methodological detail for reproducibility).
+- **Assessment against Nature-style criteria** Originality: Moderate. The study applies established computational methods to a known hotspot mutation, but the comparative analysis of five substitutions at a single residue is a useful contribution. Scientific importance: Moderate. The findings are potentially relevant to cancer biology, but the lack of experimental validation limits the impact. Interdisciplinary readership: Limited. The work is primarily of interest to computational biologists and cancer researchers; the presentation is not accessible to a broad scientific audience. Technical soundness: Weak. The methodology is incompletely described, and the statistical treatment of simulation data is inadequate. Readability for nonspecialists: Poor. The manuscript assumes significant prior knowledge of MD simulation techniques and p53 biology, and the writing is dense and occasionally inconsistent.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and employs a reasonable computational strategy, but the lack of accessible data, insufficient methodological detail, and overinterpretation of results prevent the conclusions from being supported. Substantial revision is required before the case can be considered.
+
+## Risk / unsupported claims
+- The claim that R248W, R248G, and R248P are "highly deleterious and destabilizing" is not supported by the presented data, as no quantitative prediction scores or consensus criteria are provided.
+- The conclusion that all five mutations reduce DNA-binding affinity is not statistically validated, given the overlapping standard deviations in the reported MM-PBSA values.
+- The assertion that reduced DNA-binding affinity leads to gain-of-function is speculative and not supported by any evidence in the manuscript.
+- The statement that "the proposed study influences the development of rationally designed molecular-targeted treatments" is an overreach, as no therapeutic implications are demonstrated.
+- The claim that R248 mutations "may disrupt cell division" is not directly tested or supported by the simulation data.

@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "38491248",
+    "doi": "10.1007/s10930-024-10183-3",
+    "title": "EPDRNA: A Model for Identifying DNA-RNA Binding Sites in Disease-Related Proteins."
+  },
+  "content": {
+    "abstract": "Protein-DNA and protein-RNA interactions are involved in many biological processes and regulate many cellular functions. Moreover, they are related to many human diseases. To understand the molecular mechanism of protein-DNA binding and protein-RNA binding, it is important to identify which residues in the protein sequence bind to DNA and RNA. At present, there are few methods for specifically identifying the binding sites of disease-related protein-DNA and protein-RNA. In this study, so we combined four machine learning algorithms into an ensemble classifier (EPDRNA) to predict DNA and RNA binding sites in disease-related proteins. The dataset used in model was collated from UniProt and PDB database, and PSSM, physicochemical properties and amino acid type were used as features. The EPDRNA adopted soft voting and achieved the best AUC value of 0.73 at the DNA binding sites, and the best AUC value of 0.71 at the RNA binding sites in 10-fold cross validation in the training sets. In order to further verify the performance of the model, we assessed EPDRNA for the prediction of DNA-binding sites and the prediction of RNA-binding sites on the independent test dataset. The EPDRNA achieved 85% recall rate and 25% precision on the protein-DNA interaction independent test set, and achieved 82% recall rate and 27% precision on the protein-RNA interaction independent test set. The online EPDRNA webserver is freely available at http://www.s-bioinformatics.cn/epdrna .",
+    "keywords": [
+      "Disease-related proteins",
+      "Ensemble learning",
+      "Machine learning",
+      "Protein-DNA binding",
+      "Sequence information"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*RNA/metabolism/chemistry",
+      "Humans",
+      "*DNA/metabolism/chemistry",
+      "*Machine Learning",
+      "RNA-Binding Proteins/chemistry/metabolism/genetics",
+      "DNA-Binding Proteins/chemistry/metabolism/genetics",
+      "Algorithms",
+      "Databases, Protein",
+      "Protein Binding",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, CanZhuang",
+        "Feng, YongE"
+      ],
+      "short_names": [
+        "Sun C",
+        "Feng Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Science, Inner Mongolia Agriculture University, Hohhot, 010018, People's Republic of China.",
+        "College of Science, Inner Mongolia Agriculture University, Hohhot, 010018, People's Republic of China. yefeng@imau.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, CanZhuang",
+        "short_name": "Sun C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Science, Inner Mongolia Agriculture University, Hohhot, 010018, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Feng, YongE",
+        "short_name": "Feng Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Science, Inner Mongolia Agriculture University, Hohhot, 010018, People's Republic of China. yefeng@imau.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The protein journal"
+    ],
+    "journal_abbrev": [
+      "Protein J"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/16 21:42",
+    "fetched_at": "2026-09-29 16:52:18"
+  },
+  "links": {
+    "cites": [
+      "39833102"
+    ],
+    "refs": [
+      "36044786",
+      "35812523",
+      "35521556",
+      "33780341",
+      "33211854",
+      "33211841",
+      "32920048",
+      "32285407",
+      "32142788",
+      "31771119",
+      "31722485",
+      "31545095",
+      "31534512",
+      "28718405",
+      "28132027",
+      "28064149",
+      "27740495",
+      "25063293",
+      "24658850",
+      "24389181",
+      "24343026",
+      "24024194",
+      "23737141",
+      "23023127",
+      "22868682",
+      "22641851",
+      "22129991",
+      "21614001",
+      "21514302",
+      "21143803",
+      "20887256",
+      "20675356",
+      "20549269",
+      "20483814",
+      "20234357",
+      "20053844",
+      "18597886",
+      "18353859",
+      "18342629",
+      "17998252",
+      "17483510",
+      "17237068",
+      "17227229",
+      "16939197",
+      "16141058",
+      "15830322",
+      "15752982",
+      "14990443",
+      "12381310",
+      "11900253",
+      "11406387",
+      "9254694",
+      "9034363"
+    ],
+    "similar": [
+      "38491248",
+      "38295475",
+      "25935161",
+      "34932484",
+      "29281004",
+      "25708928",
+      "32920048",
+      "20483814",
+      "20300450",
+      "36044786",
+      "20549269",
+      "28132027",
+      "29253082",
+      "26776208",
+      "21268114",
+      "19357098",
+      "27266516",
+      "25846271",
+      "19091029",
+      "32142788",
+      "32938375",
+      "22574904",
+      "19389733",
+      "31215361",
+      "26540053",
+      "29219069",
+      "22868682",
+      "35150250",
+      "24209914",
+      "31123959",
+      "30598073",
+      "19835626",
+      "24448651",
+      "33780341",
+      "37254800",
+      "20677174",
+      "29536446",
+      "21143803",
+      "35709747",
+      "34905768",
+      "22373313",
+      "24343026",
+      "30602422",
+      "28361677",
+      "21689482",
+      "30478757",
+      "34415020",
+      "26254826",
+      "22874580",
+      "37158175",
+      "28383703",
+      "21826121",
+      "28245811",
+      "33872313",
+      "19714772",
+      "30957840",
+      "28851273",
+      "30668479",
+      "30040656",
+      "15720719",
+      "28099891",
+      "21342579",
+      "25756377",
+      "32621227",
+      "16712732",
+      "28349426",
+      "23788679",
+      "24475169",
+      "26671809",
+      "30533006",
+      "28841194",
+      "28315749",
+      "19594868",
+      "30535108",
+      "29028926",
+      "19439068",
+      "16568445",
+      "20509851",
+      "33442949",
+      "29753757",
+      "29495575",
+      "25474259",
+      "19700370",
+      "19008251",
+      "26482832",
+      "16845003",
+      "27907159",
+      "25113160",
+      "30323214",
+      "17932917",
+      "19508202",
+      "18716674",
+      "34559595",
+      "33238837",
+      "37405873",
+      "32808039",
+      "27787829",
+      "33685590",
+      "25907142",
+      "39079742",
+      "23335013",
+      "35051187",
+      "38643894",
+      "38927611",
+      "38924058",
+      "38363672",
+      "38747369",
+      "32689927",
+      "39240325",
+      "36653447",
+      "36629262",
+      "39103447",
+      "39244557",
+      "39256728"
+    ],
+    "review": [
+      "38491248",
+      "25935161",
+      "29253082",
+      "31215361",
+      "26540053",
+      "25756377",
+      "28315749"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s10930-024-10183-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results, Discussion, Conclusion, Limitations and future prospective)
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims, and alignment with Nature-style criteria, based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors used computational methods (structure prediction, molecular docking, ADMET, DFT, MD simulations) to identify the phytochemical Imperatorin as a potential inhibitor of the EBV BZLF1-encoded Zta protein, with a binding energy of −6.3 kcal/mol and favorable drug-like properties.
+- **Visible evidence base** Text descriptions of methods and results; tables (Tables 1–7); figures referenced (Figs. 1–10) but not provided; no raw data, structural coordinates, or simulation trajectories
+- **Missing materials affecting confidence** Figures (1–10) not available for inspection; no PDB identifiers or accession details for the modeled Zta structure beyond YP_401673.1; no details on MD simulation convergence, force field validation, or replica runs; no experimental validation data
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward computational pipeline for identifying a natural compound against a viral target. The work is technically competent in its use of standard bioinformatics tools, but the scientific advance is incremental and largely confirmatory of existing approaches. The core claim that Imperatorin is a promising lead against EBV is not established from the provided evidence, as the binding energy is modest, the docking methodology is not fully described, and no experimental validation is included. The manuscript would benefit from clearer justification of target selection, more rigorous docking and simulation protocols, and a more cautious interpretation of the results.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery and virology, particularly those focused on EBV or herpesvirus lytic reactivation, may find the methodological pipeline of interest. The study also speaks to the broader community interested in phytochemical-based antiviral screening. However, the lack of experimental validation limits its appeal to a wider translational audience.
+- **Major strengths** The manuscript is clearly written and follows a logical structure. The use of multiple complementary computational methods (docking, ADMET, DFT, MD) is commendable. The authors appropriately acknowledge the need for experimental validation and outline future directions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Imperatorin is the best candidate due to its lowest binding energy (−6.3 kcal/mol) among screened natural inhibitors.
+  - **Evidence pointer** Results section, Table 3; location not provided
+  - **Concern** The docking protocol is insufficiently described. The authors state that PyRx was used for screening and CB-Dock for blind docking, but no details are given on grid box dimensions for CB-Dock, scoring functions, or how the docking poses were validated. The binding energy of −6.3 kcal/mol is modest and within the range of non-specific binders. Without a positive control or comparison to known BZLF1 inhibitors, this value does not establish specific or biologically relevant binding.
+  - **Why it matters** The central conclusion of the study rests on the docking result. If the docking methodology is not robust or the binding energy is not contextualized, the claim that Imperatorin is a viable lead is unsupported.
+  - **Resolution test** Provide a detailed docking protocol, including grid box parameters, scoring function, and validation against a known inhibitor or co-crystallized ligand. Show that the binding pose is stable and reproducible across multiple docking runs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that MD simulations show the BZLF1–Imperatorin complex is stable, with the protein and binding pocket remaining stable throughout 100 ns.
+  - **Evidence pointer** Results section, Figs. 4–10; location not provided
+  - **Concern** The MD simulation description is incomplete. No details are provided on the simulation software (beyond the AMBER suite), the number of replicates, equilibration protocols, or how convergence was assessed. The RMSD plot description suggests the protein stabilizes at 10–15 Å, which is unusually high for a stable protein and may indicate large conformational changes or poor equilibration. The ligand RMSD shows large fluctuations, which the authors interpret as exploration of orientations, but this could also indicate weak binding. The MMGBSA and MMPBSA values are reported without standard errors or comparison to a control.
+  - **Why it matters** The stability of the complex is a key pillar of the claim that Imperatorin is a viable inhibitor. If the simulation is not rigorously performed or the results are ambiguous, the conclusion is weakened.
+  - **Resolution test** Provide full simulation parameters, convergence analysis, and replicate runs. Report RMSD values relative to a reference structure and compare the ligand behavior to a known weak or non-binder. Include error bars for binding free energy calculations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that targeting BZLF1 is a viable strategy to block EBV lytic reactivation and that Imperatorin could be developed as a therapeutic agent.
+  - **Evidence pointer** Introduction, Discussion; location not provided
+  - **Concern** The manuscript does not provide any experimental evidence that inhibiting BZLF1 with Imperatorin would have a functional effect on viral replication. The study is purely computational, and the authors themselves acknowledge this limitation. However, the framing of the conclusions overstates the therapeutic potential without any in vitro or in vivo data.
+  - **Why it matters** For a Nature-style journal, the significance of the findings must be supported by evidence that the proposed inhibitor has biological relevance. Without experimental validation, the claim of therapeutic potential is speculative.
+  - **Resolution test** Include at least preliminary in vitro data (e.g., cell-based assays showing reduced BZLF1 expression or viral replication) or clearly reframe the conclusions as hypothesis-generating.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The authors state that there is a significant knowledge gap in applying computational methods to identify phytochemical inhibitors against BZLF1.
+  - **Evidence pointer** Introduction; location not provided
+  - **Concern** The claim of a knowledge gap is not well supported. The authors cite only one prior study (Bencheikh et al.) that docked Imperatorin against SARS-CoV-2, but do not systematically review existing computational studies on BZLF1 or EBV inhibitors. The approach is standard and has been applied to many viral targets.
+  - **Why it matters** Originality is a key criterion for Nature-style publications. If the approach is not novel and the target has been studied before, the contribution is incremental.
+  - **Resolution test** Provide a more comprehensive literature review demonstrating the specific gap and how this study advances beyond prior work.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction; location not provided
+  - **Issue** The abstract and introduction use technical terms (e.g., "BZLF1 gene," "Zta protein") without sufficient context for a general scientific audience. The significance of the lytic cycle and its role in EBV-associated diseases could be explained more clearly.
+  - **Required correction** Add a brief explanation of the EBV life cycle and the role of BZLF1 in the lytic phase, and define key terms on first use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section, DFT analysis
+  - **Evidence pointer** Materials and Methods, DFT analysis; location not provided
+  - **Issue** The DFT analysis is described in a single sentence. The basis set (6-31G (d, p,++)) is mentioned, but no details are given on the functional used, solvation model, or how the HOMO/LUMO energies were calculated.
+  - **Required correction** Provide a more detailed description of the DFT methodology, including the functional and any corrections applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section, ADMET analysis
+  - **Evidence pointer** Results section, Table 4; location not provided
+  - **Issue** The ADMET results are presented as a table without interpretation. The authors do not discuss which properties are favorable or how they compare to known drug standards.
+  - **Required correction** Add a brief interpretation of the ADMET results, highlighting key parameters and their implications for drug development.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The comparison with the study by Mathivadani et al. is somewhat tangential and could be streamlined. The discussion would benefit from a more focused interpretation of the current results.
+  - **Required correction** Shorten the comparison and focus on the implications of the current findings for EBV drug development.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (docking methodology), R1-M2 (MD simulation rigor), R1-M3 (lack of experimental validation)
+- **Assessment against Nature-style criteria**
+  - **Originality** The study applies a standard computational pipeline to a known target. The novelty is limited, and the claim of a knowledge gap is not well substantiated. This does not meet the threshold for high originality.
+  - **Scientific importance** EBV is a significant pathogen, and identifying new inhibitors is of interest. However, the lack of experimental validation and the modest binding energy limit the immediate scientific impact.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and virologists. The narrow scope and lack of experimental data reduce its appeal to a broader interdisciplinary audience.
+  - **Technical soundness** The methods are standard but incompletely described. The docking and MD simulation protocols lack sufficient detail to assess their rigor. The results are presented without adequate statistical or comparative context.
+  - **Readability for nonspecialists** The manuscript is generally clear but uses technical jargon without sufficient explanation. The significance of the findings is overstated relative to the evidence.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires substantial revisions, including a more rigorous and detailed description of the computational methods, contextualization of the binding energy, and ideally some experimental validation, before the claims can be considered supported.
+
+## Risk / unsupported claims
+- The claim that Imperatorin is a "best candidate" for drug development is unsupported without comparison to known BZLF1 inhibitors or positive controls.
+- The claim that MD simulations demonstrate stability is not verifiable without the actual figures and detailed simulation parameters.
+- The claim that Imperatorin's favorable pharmacokinetics make it an "ideal therapeutic agent" is overstated, as ADMET predictions are in silico and not validated experimentally.
+- The statement that the Zta protein is "unstable" based on the instability index is presented without discussion of the biological relevance of this metric.
+- The DFT-derived band gap is reported without interpretation of its significance for drug-target interactions.
+- The comparison to the study by Mathivadani et al. is not used to strengthen the current findings but rather to note a difference in target, which does not add scientific value.

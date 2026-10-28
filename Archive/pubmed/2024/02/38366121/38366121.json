@@ -1,0 +1,510 @@
+{
+  "identity": {
+    "pmid": "38366121",
+    "doi": "10.1093/plcell/koae038",
+    "title": "Nitrogen sensing and regulatory networks: it's about time and space."
+  },
+  "content": {
+    "abstract": "A plant's response to external and internal nitrogen signals/status relies on sensing and signaling mechanisms that operate across spatial and temporal dimensions. From a comprehensive systems biology perspective, this involves integrating nitrogen responses in different cell types and over long distances to ensure organ coordination in real time and yield practical applications. In this prospective review, we focus on novel aspects of nitrogen (N) sensing/signaling uncovered using temporal and spatial systems biology approaches, largely in the model Arabidopsis. The temporal aspects span: transcriptional responses to N-dose mediated by Michaelis-Menten kinetics, the role of the master NLP7 transcription factor as a nitrate sensor, its nitrate-dependent TF nuclear retention, its \"hit-and-run\" mode of target gene regulation, and temporal transcriptional cascade identified by \"network walking.\" Spatial aspects of N-sensing/signaling have been uncovered in cell type-specific studies in roots and in root-to-shoot communication. We explore new approaches using single-cell sequencing data, trajectory inference, and pseudotime analysis as well as machine learning and artificial intelligence approaches. Finally, unveiling the mechanisms underlying the spatial dynamics of nitrogen sensing/signaling networks across species from model to crop could pave the way for translational studies to improve nitrogen-use efficiency in crops. Such outcomes could potentially reduce the detrimental effects of excessive fertilizer usage on groundwater pollution and greenhouse gas emissions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Arabidopsis/genetics/metabolism/physiology",
+      "Gene Expression Regulation, Plant",
+      "*Gene Regulatory Networks",
+      "*Nitrogen/metabolism",
+      "Plant Roots/metabolism/genetics",
+      "*Signal Transduction",
+      "Transcription Factors/metabolism/genetics",
+      "Arabidopsis Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S.",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shanks, Carly M",
+        "Rothkegel, Karin",
+        "Brooks, Matthew D",
+        "Cheng, Chia-Yi",
+        "Alvarez, Jose M",
+        "Ruffel, Sandrine",
+        "Krouk, Gabriel",
+        "Gutierrez, Rodrigo A",
+        "Coruzzi, Gloria M"
+      ],
+      "short_names": [
+        "Shanks CM",
+        "Rothkegel K",
+        "Brooks MD",
+        "Cheng CY",
+        "Alvarez JM",
+        "Ruffel S",
+        "Krouk G",
+        "Gutierrez RA",
+        "Coruzzi GM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6229-6845",
+        "ORCID: 0000-0003-1076-1113",
+        "ORCID: 0000-0002-6081-6103",
+        "ORCID: 0000-0001-5054-5525",
+        "ORCID: 0000-0002-5073-7751",
+        "ORCID: 0000-0002-5651-8349",
+        "ORCID: 0000-0003-3693-6735",
+        "ORCID: 0000-0002-5961-5005",
+        "ORCID: 0000-0003-2608-2166"
+      ],
+      "affiliations": [
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA.",
+        "Agencia Nacional de Investigacion y Desarrollo-Millennium Science Initiative Program, Millennium Institute for Integrative Biology (iBio), 7500565 Santiago, Chile.",
+        "Center for Genome Regulation (CRG), Institute of Ecology and Biodiversity (IEB), Facultad de Ciencias Biologicas, Pontificia Universidad Catolica de Chile, 8331010 Santiago, Chile.",
+        "Global Change and Photosynthesis Research Unit, USDA-ARS, Urbana, IL 61801, USA.",
+        "Department of Life Science, National Taiwan University, Taipei 10663, Taiwan.",
+        "Agencia Nacional de Investigacion y Desarrollo-Millennium Science Initiative Program, Millennium Institute for Integrative Biology (iBio), 7500565 Santiago, Chile.",
+        "Centro de Biotecnologia Vegetal, Facultad de Ciencias, Universidad Andres Bello, 8370035 Santiago, Chile.",
+        "Institute for Plant Sciences of Montpellier (IPSiM), Centre National de la Recherche Scientifique (CNRS), Institut National de Recherche pour l'Agriculture, l'Alimentation, et l'Environnement (INRAE), Universite de Montpellier, Montpellier 34090, France.",
+        "Institute for Plant Sciences of Montpellier (IPSiM), Centre National de la Recherche Scientifique (CNRS), Institut National de Recherche pour l'Agriculture, l'Alimentation, et l'Environnement (INRAE), Universite de Montpellier, Montpellier 34090, France.",
+        "Agencia Nacional de Investigacion y Desarrollo-Millennium Science Initiative Program, Millennium Institute for Integrative Biology (iBio), 7500565 Santiago, Chile.",
+        "Center for Genome Regulation (CRG), Institute of Ecology and Biodiversity (IEB), Facultad de Ciencias Biologicas, Pontificia Universidad Catolica de Chile, 8331010 Santiago, Chile.",
+        "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shanks, Carly M",
+        "short_name": "Shanks CM",
+        "identifiers": [
+          "0000-0001-6229-6845"
+        ],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA."
+        ]
+      },
+      {
+        "full_name": "Rothkegel, Karin",
+        "short_name": "Rothkegel K",
+        "identifiers": [
+          "0000-0003-1076-1113"
+        ],
+        "affiliations": [
+          "Agencia Nacional de Investigación y Desarrollo-Millennium Science Initiative Program, Millennium Institute for Integrative Biology (iBio), 7500565 Santiago, Chile.",
+          "Center for Genome Regulation (CRG), Institute of Ecology and Biodiversity (IEB), Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, 8331010 Santiago, Chile."
+        ]
+      },
+      {
+        "full_name": "Brooks, Matthew D",
+        "short_name": "Brooks MD",
+        "identifiers": [
+          "0000-0002-6081-6103"
+        ],
+        "affiliations": [
+          "Global Change and Photosynthesis Research Unit, USDA-ARS, Urbana, IL 61801, USA."
+        ]
+      },
+      {
+        "full_name": "Cheng, Chia-Yi",
+        "short_name": "Cheng CY",
+        "identifiers": [
+          "0000-0001-5054-5525"
+        ],
+        "affiliations": [
+          "Department of Life Science, National Taiwan University, Taipei 10663, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Alvarez, José M",
+        "short_name": "Alvarez JM",
+        "identifiers": [
+          "0000-0002-5073-7751"
+        ],
+        "affiliations": [
+          "Agencia Nacional de Investigación y Desarrollo-Millennium Science Initiative Program, Millennium Institute for Integrative Biology (iBio), 7500565 Santiago, Chile.",
+          "Centro de Biotecnología Vegetal, Facultad de Ciencias, Universidad Andrés Bello, 8370035 Santiago, Chile."
+        ]
+      },
+      {
+        "full_name": "Ruffel, Sandrine",
+        "short_name": "Ruffel S",
+        "identifiers": [
+          "0000-0002-5651-8349"
+        ],
+        "affiliations": [
+          "Institute for Plant Sciences of Montpellier (IPSiM), Centre National de la Recherche Scientifique (CNRS), Institut National de Recherche pour l'Agriculture, l'Alimentation, et l'Environnement (INRAE), Université de Montpellier, Montpellier 34090, France."
+        ]
+      },
+      {
+        "full_name": "Krouk, Gabriel",
+        "short_name": "Krouk G",
+        "identifiers": [
+          "0000-0003-3693-6735"
+        ],
+        "affiliations": [
+          "Institute for Plant Sciences of Montpellier (IPSiM), Centre National de la Recherche Scientifique (CNRS), Institut National de Recherche pour l'Agriculture, l'Alimentation, et l'Environnement (INRAE), Université de Montpellier, Montpellier 34090, France."
+        ]
+      },
+      {
+        "full_name": "Gutiérrez, Rodrigo A",
+        "short_name": "Gutiérrez RA",
+        "identifiers": [
+          "0000-0002-5961-5005"
+        ],
+        "affiliations": [
+          "Agencia Nacional de Investigación y Desarrollo-Millennium Science Initiative Program, Millennium Institute for Integrative Biology (iBio), 7500565 Santiago, Chile.",
+          "Center for Genome Regulation (CRG), Institute of Ecology and Biodiversity (IEB), Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, 8331010 Santiago, Chile."
+        ]
+      },
+      {
+        "full_name": "Coruzzi, Gloria M",
+        "short_name": "Coruzzi GM",
+        "identifiers": [
+          "0000-0003-2608-2166"
+        ],
+        "affiliations": [
+          "Department of Biology, Center for Genomics and Systems Biology, New York University, New York, NY 10003, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Plant cell"
+    ],
+    "journal_abbrev": [
+      "Plant Cell"
+    ],
+    "pub_date": "2024 May 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S.",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/17 12:43",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [
+      "42531161",
+      "42524525",
+      "42222734",
+      "42122879",
+      "41833013",
+      "41718028",
+      "41654556",
+      "41496451",
+      "41465124",
+      "41411658",
+      "41102375",
+      "40932768",
+      "40670647",
+      "40579370",
+      "40512584",
+      "40365911",
+      "40358388",
+      "40127924",
+      "40091436",
+      "39539300",
+      "39264517",
+      "38547371",
+      "38466716"
+    ],
+    "refs": [
+      "37348464",
+      "37188853",
+      "37073492",
+      "37018460",
+      "36996230",
+      "36927031",
+      "36643292",
+      "36626392",
+      "36507422",
+      "36435985",
+      "36380584",
+      "36264484",
+      "36260665",
+      "36137053",
+      "36008570",
+      "35878040",
+      "35754172",
+      "35701419",
+      "35618540",
+      "35537398",
+      "35134336",
+      "35046022",
+      "35003190",
+      "34858444",
+      "34851109",
+      "34797944",
+      "34782768",
+      "34651402",
+      "34561450",
+      "34445746",
+      "34385583",
+      "34358681",
+      "34351784",
+      "34340913",
+      "34265844",
+      "34220911",
+      "34149755",
+      "34099698",
+      "33962062",
+      "33955487",
+      "33916130",
+      "33693548",
+      "33667112",
+      "33631799",
+      "33493288",
+      "33422696",
+      "33399250",
+      "33358560",
+      "33015901",
+      "32943451",
+      "32536935",
+      "32471951",
+      "32414922",
+      "32393621",
+      "32343414",
+      "32321967",
+      "32304938",
+      "32241923",
+      "32209591",
+      "32169959",
+      "32123177",
+      "32093344",
+      "32026944",
+      "32005881",
+      "31990028",
+      "31970412",
+      "31940996",
+      "31796961",
+      "31780334",
+      "31654057",
+      "31004836",
+      "30952851",
+      "30944225",
+      "30923229",
+      "30914651",
+      "30913408",
+      "30718350",
+      "30594121",
+      "30559490",
+      "30517104",
+      "30496968",
+      "30418610",
+      "30356219",
+      "29769331",
+      "29764985",
+      "29570365",
+      "29467401",
+      "29120059",
+      "29095491",
+      "28893852",
+      "28737742",
+      "28489820",
+      "28369490",
+      "28319056",
+      "28202720",
+      "28007951",
+      "27811143",
+      "27707796",
+      "27303025",
+      "27212387",
+      "27203113",
+      "26926526",
+      "26843062",
+      "26662603",
+      "26083756",
+      "26045464",
+      "26017442",
+      "25449727",
+      "25341427",
+      "25324386",
+      "24958886",
+      "24942915",
+      "24570678",
+      "24389349",
+      "24348517",
+      "23591880",
+      "23552219",
+      "23335732",
+      "22303192",
+      "22110026",
+      "22025711",
+      "21888353",
+      "21182762",
+      "20007449",
+      "19766570",
+      "19300494",
+      "19114008",
+      "18826430",
+      "18284694",
+      "18180456",
+      "17217541",
+      "12509525",
+      "10948265",
+      "10748524",
+      "3194030"
+    ],
+    "similar": [
+      "38366121",
+      "29769331",
+      "42475469",
+      "32123177",
+      "40403157",
+      "26045464",
+      "24958886",
+      "41481473",
+      "28369491",
+      "18826430",
+      "27293103",
+      "30952851",
+      "39307424",
+      "28202720",
+      "40365911",
+      "30949701",
+      "40358388",
+      "35046022",
+      "21182762",
+      "42531161",
+      "25288754",
+      "41352298",
+      "40670647",
+      "25165146",
+      "27419465",
+      "26247122",
+      "36752317",
+      "18344319",
+      "24532451",
+      "41532778",
+      "26744214",
+      "28489820",
+      "41106230",
+      "36332616",
+      "18775665",
+      "25129132",
+      "35134336",
+      "42372479",
+      "30872321",
+      "29764985",
+      "20890965",
+      "41803685",
+      "24739361",
+      "40325197",
+      "24450922",
+      "31264223",
+      "30356219",
+      "25635110",
+      "41138724",
+      "23847199",
+      "29367694",
+      "39179528",
+      "33631799",
+      "42074225",
+      "28893852",
+      "39378328",
+      "26877080",
+      "31526863",
+      "40382553",
+      "21265889",
+      "33582801",
+      "38523242",
+      "20448103",
+      "24963003",
+      "41680293",
+      "36996230",
+      "28373393",
+      "26990640",
+      "40700997",
+      "30424734",
+      "33758916",
+      "37424317",
+      "31901180",
+      "25471115",
+      "39962336",
+      "25039575",
+      "41257580",
+      "31409699",
+      "30923229",
+      "26823528",
+      "29622567",
+      "22329444",
+      "22628542",
+      "31811679",
+      "33333760",
+      "17217541",
+      "21788519",
+      "23199690",
+      "30904943",
+      "27493213",
+      "40579567",
+      "31796961",
+      "42595260",
+      "15078338",
+      "24642706",
+      "42379142",
+      "20704717",
+      "17148611",
+      "31262954",
+      "41346112"
+    ],
+    "review": [
+      "38366121",
+      "28369491",
+      "25165146",
+      "26247122",
+      "24532451",
+      "18775665",
+      "25129132",
+      "20890965",
+      "25635110",
+      "42074225",
+      "24963003",
+      "40700997",
+      "22628542",
+      "31796961"
+    ],
+    "pmc": [
+      "11062454"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38366121/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38366121",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/plcell/article-lookup/doi/10.1093/plcell/koae038",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

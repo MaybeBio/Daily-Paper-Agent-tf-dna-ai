@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, conclusion, and materials and methods
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report that the first bromodomain (BD1) of the TAF1 tandem bromodomain module binds DNA through a positively charged "RKR" patch (R1435, K1436, R1437) on the αA helix, that this binding is independent of the acetyllysine-binding pocket, shows moderate preference for AT-rich sequences, and enhances binding to acetylated nucleosomes
+- **Visible evidence base** Electrostatic surface potential calculations, molecular docking, 200 ns molecular dynamics simulations, EMSA binding assays with wild-type and mutant proteins, CD spectroscopy, nucleosome pulldown assays, sequence alignments
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; raw gel images not available; MD simulation trajectory analyses not shown in detail; no stoichiometry or quantitative binding data for nucleosome pulldown experiments
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and timely question regarding the dual recognition of DNA and acetylated histones by the TAF1 tandem bromodomain. The identification of a basic patch on BD1 that mediates DNA binding is potentially significant. However, the evidence presented has several weaknesses. The computational predictions are not sufficiently validated by quantitative experimental data. The EMSA experiments lack proper quantification for some key comparisons, and the nucleosome pulldown assay shows only a modest effect. The claim of independence between DNA and acetyllysine binding sites is based on limited evidence. The manuscript would benefit from more rigorous experimental validation, including quantitative binding measurements, competition experiments, and a more thorough characterization of the DNA binding specificity.
+- **Who would be interested in the results, and why** Researchers studying transcription initiation, chromatin biology, bromodomain function, and the molecular mechanisms of TFIID recruitment. The findings may also be of interest to those studying how chromatin-binding proteins achieve specificity through multivalent interactions with both DNA and histone modifications.
+- **Major strengths** The study addresses a gap in understanding how TAF1 engages chromatin beyond acetyllysine recognition. The combination of computational predictions with experimental validation is appropriate. The identification of a specific basic patch and its functional characterization through mutagenesis is systematic. The finding that DNA binding is independent of acetyllysine recognition has potential implications for understanding TAF1 function.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The authors claim that the RKR basic patch (R1435, K1436, R1437) on the αA helix of BD1 is essential for DNA binding
+  - **Evidence pointer** Figure 3, Supplementary Figures S1 and S3
+  - **Concern** The EMSA data showing loss of DNA binding for the mutants are presented qualitatively. The authors state that single point mutations led to "marked reduction" and the triple mutation "completely abolished" DNA binding, but no quantitative analysis is provided for these experiments. The Kd values are only reported for the wild-type protein. Without quantitative comparison of binding affinities between wild-type and mutants, the claim that these residues are "essential" is not rigorously supported.
+  - **Why it matters** The central claim of the paper rests on the functional importance of the RKR patch. Without quantitative binding data for the mutants, the reader cannot assess the magnitude of the effect or whether the mutations truly abolish binding or merely reduce it. This is critical for establishing the biological significance of the identified patch.
+  - **Resolution test** Provide quantitative Kd values for at least the triple mutant and one single mutant from EMSA titrations, with proper statistical analysis. Alternatively, use an orthogonal method such as fluorescence anisotropy or isothermal titration calorimetry to confirm the binding affinities.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation
+  - **Claim pointer** The authors claim that DNA binding occurs independently of histone acetyllysine recognition by the bromodomains
+  - **Evidence pointer** Figure 4, Supplementary Figures S5 and S6
+  - **Concern** The evidence for independence is based on two observations: (1) the presence of acetylated H4 peptide does not significantly change DNA binding affinity, and (2) the N1460F mutation in the acetyllysine-binding pocket does not alter DNA binding. However, the Kd values reported (16.8 ± 2.8 μM and 19.7 ± 3.9 μM) have overlapping error bars, and the authors do not report a statistical comparison. The N1460F mutation is tested at a single concentration range, and the authors do not demonstrate that this mutation actually abolishes acetyllysine binding in their hands. Without positive controls showing that the N1460F mutation disrupts histone peptide binding, the conclusion of independence is not fully established.
+  - **Why it matters** The claim of independent binding sites is a key conceptual advance of the paper. If the two sites are not truly independent, the proposed dual recognition model would need revision. The current evidence is insufficient to support this strong claim.
+  - **Resolution test** Perform competition experiments with increasing concentrations of acetylated H4 peptide at multiple DNA concentrations to demonstrate no effect on DNA binding. Include a positive control showing that the N1460F mutation abolishes or significantly reduces acetylated histone peptide binding in a parallel assay. Report statistical comparisons for all Kd values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity
+  - **Claim pointer** The authors claim that the TAF1 tandem bromodomain shows moderate preference for AT-rich DNA sequences
+  - **Evidence pointer** Figure 5, Supplementary Figure S9
+  - **Concern** The AT-rich versus GC-rich DNA comparison is performed with only one modified DNA sequence. The authors replaced AT-tracts with GC-tracts in the 147 bp Widom 601 sequence, but the specific positions and number of substitutions are not described. The observed twofold difference in Kd (16.8 vs 34.2 μM) is modest, and it is unclear whether this reflects a general preference for AT-rich DNA or a sequence-specific effect at particular positions. No other DNA sequences were tested to establish the generality of the preference.
+  - **Why it matters** The claim of AT-rich preference is used to draw parallels with AT-hook motifs. If the preference is not robust or is sequence-specific, the analogy to AT-hooks may be misleading. A more thorough analysis of DNA sequence preferences would strengthen this claim.
+  - **Resolution test** Test multiple AT-rich and GC-rich DNA sequences of varying lengths and contexts. Include a random or non-specific DNA control. Perform competition experiments with unlabeled AT-rich and GC-rich DNA to confirm the preference.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The authors claim that the RKR patch on BD1 facilitates efficient recognition of acetylated nucleosomes
+  - **Evidence pointer** Figure 6, Supplementary Figures S10 and S11
+  - **Concern** The nucleosome pulldown assay shows only a 1.5-fold reduction in binding for the triple mutant compared to wild-type. This is a modest effect, and the authors do not provide statistical analysis or replicate information. The assay uses acetylated mononucleosomes isolated from HeLa cells, which are heterogeneous in their acetylation patterns. It is unclear whether the observed reduction is due to loss of DNA binding, loss of histone binding, or a combination of both. The authors also do not test whether the single mutants show intermediate effects.
+  - **Why it matters** The claim that DNA binding enhances nucleosome recognition is important for the proposed biological function. A 1.5-fold reduction, while statistically significant if confirmed, may not be biologically meaningful. The heterogeneity of the nucleosome preparation and the lack of controls make it difficult to interpret the results.
+  - **Resolution test** Use defined acetylated nucleosome substrates with specific acetylation marks. Perform dose-response experiments with varying concentrations of wild-type and mutant proteins. Include a mutant that disrupts the acetyllysine binding pocket as a control. Provide statistical analysis with appropriate replicates.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3A-F
+  - **Issue** The EMSA gels are described but not shown in the main text. The authors reference Supplementary Figures S1 and S3, but these are not available for review. The main figure should include representative gels for the key experiments.
+  - **Required correction** Include representative EMSA gels in the main figures for the wild-type and mutant proteins. Ensure that the supplementary figures are complete and referenced appropriately.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** MD simulation analysis
+  - **Evidence pointer** Methods section, Molecular dynamics simulations
+  - **Issue** The MD simulation analysis is described briefly. The authors state that hydrogen bonds and salt bridges were analyzed using PLIP, but no details are provided on the criteria for defining these interactions, the stability of the interactions over the simulation, or the convergence of the simulations.
+  - **Required correction** Provide additional details on the MD simulation analysis, including the criteria for hydrogen bond and salt bridge identification, the time evolution of these interactions, and the convergence of the simulations. Consider including a figure showing the key interactions over time.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data interpretation
+  - **Affected element** Discussion of AT-hook analogy
+  - **Evidence pointer** Figure 5A, Discussion
+  - **Issue** The authors draw an analogy between the RKR patch and AT-hook motifs, but the structural context is different. The RKR patch is on an α-helix, while AT-hooks typically adopt an extended conformation. The authors acknowledge this difference but do not discuss the structural implications in detail.
+  - **Required correction** Expand the discussion of how the α-helical context of the RKR patch may affect its DNA binding mode compared to canonical AT-hooks. Consider whether the RKR patch binds in the minor groove like AT-hooks or through a different mechanism.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Kd values
+  - **Evidence pointer** Figure 4, Supplementary Figure S5
+  - **Issue** The Kd values are reported as mean ± standard deviation from three experiments. However, the authors do not report the number of independent experiments for the mutant proteins or the statistical tests used to compare the values.
+  - **Required correction** Report the number of replicates for all Kd measurements and the statistical tests used for comparisons. Consider reporting the 95% confidence intervals for the Kd values.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Nucleosome pulldown assay
+  - **Evidence pointer** Methods section, Ni-NTA pull-down assays and western blotting
+  - **Issue** The nucleosome pulldown assay uses a single concentration of protein (50 μM) and a fixed amount of nucleosomes (20 μg). The authors do not provide a titration or demonstrate that the assay is in a linear range for detecting differences.
+  - **Required correction** Perform a titration of protein concentration in the pulldown assay to demonstrate that the observed differences are not due to saturation effects. Include appropriate controls such as a protein with a disrupted acetyllysine binding pocket.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative binding data for mutants), R1-M2 (insufficient evidence for independence of binding sites), R1-M3 (limited DNA sequence specificity analysis), R1-M4 (modest effect in nucleosome pulldown without statistical support)
+- **Assessment against Nature-style criteria** Originality: The finding that a bromodomain can bind DNA through a basic patch is novel and extends the emerging theme of DNA binding by bromodomain-containing proteins. However, the concept of basic patches mediating DNA binding is well established in other protein families. Scientific importance: The potential role of TAF1 BD1 in DNA binding could have implications for understanding TFIID recruitment to chromatin. However, the biological significance is not fully established given the modest effects observed. Interdisciplinary readership: The topic is of interest to structural biologists, biochemists, and chromatin biologists. The manuscript is written in a way that is accessible to these communities. Technical soundness: The computational methods are appropriate, but the experimental validation is incomplete. The lack of quantitative binding data for mutants and the limited nucleosome experiments weaken the technical rigor. Readability for nonspecialists: The manuscript is generally well written and the logic is clear. However, some sections, particularly the discussion of electrostatic potential calculations, may be challenging for readers without a biophysics background.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and the computational predictions are plausible, but the experimental validation is insufficient to support the major claims. The authors need to provide quantitative binding data for the mutants, demonstrate the independence of DNA and acetyllysine binding sites more rigorously, and strengthen the nucleosome experiments. If these concerns are addressed, the manuscript could make a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that the RKR patch is "essential" for DNA binding is not supported by quantitative data
+- The claim that DNA and acetyllysine binding sites function independently is based on limited evidence without statistical comparison
+- The claim of AT-rich DNA preference is based on a single modified DNA sequence
+- The claim that DNA binding enhances nucleosome recognition is based on a modest 1.5-fold effect without statistical analysis
+- The uniqueness of the RKR patch among bromodomains is claimed based on sequence alignment but not experimentally validated
+- The functional significance of the RKR patch in a cellular context is not addressed

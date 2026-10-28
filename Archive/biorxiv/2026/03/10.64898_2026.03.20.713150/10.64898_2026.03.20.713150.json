@@ -1,0 +1,162 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.20.713150",
+  "title": "NLCD: A method to discover nonlinear causal relations among genes",
+  "doi": "10.64898/2026.03.20.713150",
+  "abstract": "Distinguishing correlation from causation is a fundamental challenge in many scientific fields, including biology, especially when interventions like randomized controlled trials are infeasible and only observational data are available. Methods based on statistical tests of conditional independence within the Mendelian Randomization framework can detect causality between two observed variables that are each associated with a third instrumental variable. However, these methods for detecting causal relationships between traits (e.g., two gene expression or clinical traits associated with a genetic variant, all observed in the same population) often assume a linear relationship, thereby hindering the discovery of causal gene networks from genomics data.We have developed NLCD, a method for NonLinear Causal Discovery from genomics data based on nonlinear regression modeling and conditional feature importance scoring. NLCD uses these techniques to extend the statistical tests in an existing linear causal discovery method called the Causal Inference Test (CIT). We benchmarked NLCD against current state-of-the-art methods: CIT, Findr, and MRPC. On simulated datasets, NLCD performs comparably to most methods in detecting linear relations (Average AUPRC (Area Under the Precision-Recall Curve) of NLCD=0.94, CIT=0.94, Findr=0.94, and MRPC=0.99), and outperforms them in detecting nonlinear (sine and sawtooth type) relations between two genes (Average AUPRC of NLCD=0.76, CIT=0.60, Findr=0.56, and MRPC=0.73). When tested on a nonlinear subset of a yeast genomic dataset to recover known causal relations involving transcription factors, NLCD and CIT performed comparable to each other and slightly better than Findr and MRPC (Average AUPRC of NLCD=0.82, CIT=0.81, Findr=0.71, and MRPC=0.54). On application to a human genomic dataset, NLCD revealed active causal gene pairs ( IRF1 → PSME1 and HLA-C → HLA-T ) in the muscle tissue, and clarified the promises and challenges in discovering causal gene networks in tissues under in vivo human settings. <h4>Availability</h4> The code implementing our method is available at: https://github.com/BIRDSgroup/NLCD .",
+  "authors": [
+    "Easwar A",
+    "Narayanan M"
+  ],
+  "published_date": "2026-03-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.20.713150",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.20.713150.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1218696",
+    "raw_record": {
+      "id": "PPR1218696",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1218696"
+        ]
+      },
+      "doi": "10.64898/2026.03.20.713150",
+      "title": "NLCD: A method to discover nonlinear causal relations among genes",
+      "authorString": "Easwar A, Narayanan M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Easwar A",
+            "lastName": "Easwar",
+            "firstName": "Aravind",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science and Engineering, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Narayanan M",
+            "lastName": "Narayanan",
+            "firstName": "Manikandan",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8490-4087"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science and Engineering, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8490-4087"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Distinguishing correlation from causation is a fundamental challenge in many scientific fields, including biology, especially when interventions like randomized controlled trials are infeasible and only observational data are available. Methods based on statistical tests of conditional independence within the Mendelian Randomization framework can detect causality between two observed variables that are each associated with a third instrumental variable. However, these methods for detecting causal relationships between traits (e.g., two gene expression or clinical traits associated with a genetic variant, all observed in the same population) often assume a linear relationship, thereby hindering the discovery of causal gene networks from genomics data.We have developed NLCD, a method for NonLinear Causal Discovery from genomics data based on nonlinear regression modeling and conditional feature importance scoring. NLCD uses these techniques to extend the statistical tests in an existing linear causal discovery method called the Causal Inference Test (CIT). We benchmarked NLCD against current state-of-the-art methods: CIT, Findr, and MRPC. On simulated datasets, NLCD performs comparably to most methods in detecting linear relations (Average AUPRC (Area Under the Precision-Recall Curve) of NLCD=0.94, CIT=0.94, Findr=0.94, and MRPC=0.99), and outperforms them in detecting nonlinear (sine and sawtooth type) relations between two genes (Average AUPRC of NLCD=0.76, CIT=0.60, Findr=0.56, and MRPC=0.73). When tested on a nonlinear subset of a yeast genomic dataset to recover known causal relations involving transcription factors, NLCD and CIT performed comparable to each other and slightly better than Findr and MRPC (Average AUPRC of NLCD=0.82, CIT=0.81, Findr=0.71, and MRPC=0.54). On application to a human genomic dataset, NLCD revealed active causal gene pairs (  IRF1 →  PSME1 and  HLA-C →  HLA-T ) in the muscle tissue, and clarified the promises and challenges in discovering causal gene networks in tissues under  in vivo human settings.  <h4>Availability</h4>  The code implementing our method is available at:  https://github.com/BIRDSgroup/NLCD .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.03.20.713150"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1218696"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1218696&type=FILE&fileName=EMS215241-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42536671",
+            "reference": "PLoS computational biology. \n    2026 Jul;22(7):e1014570",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215241",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-03-23",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

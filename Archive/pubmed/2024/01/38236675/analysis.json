@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38236675",
+  "title": "TBCA: Prediction of transcription factor binding sites using a deep neural network with lightweight attention mechanism.",
+  "authors": "Wang, Xun; Qiao, Lian; Qu, Peng; Yang, Qing",
+  "journal": "IEEE journal of biomedical and health informatics",
+  "published_date": "2024-01-18",
+  "window": {
+    "start": "2024-01-15",
+    "end": "2024-01-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出基于卷积与轻量注意力机制的深度网络TBCA，融合DNA序列与形状特征预测转录因子结合位点，核心聚焦TF-DNA互作识别，方法为AI深度学习，高度匹配本课题。",
+  "abstract": "The identification of transcription factor binding sites (TFBSs) is crucial for understanding the regulatory mechanisms of gene expression, which contributes to unraveling cellular functions and disease development. Currently, the most common approach involves the use of deep learning techniques to predict TFBSs by combining sequence and shape features. Although significant progress has been made with these methods, the integration of local features extracted from DNA sequences and shapes with global features has not yet reached a sufficient level, and there is still significant room for improvement in the accuracy of prediction results. In this paper, we propose a novel framework based on convolution and attention mechanisms, referred to as TBCA, which combines DNA sequence information and shape information for predicting transcription factor binding sites. In this work, we employ a two-layer convolutional neural network (CNNs) and self-attention mechanism to extract complex sequence features from DNA. What's more, we utilize a Fourier-transform-enhanced multi-head attention along with channel attention to extract high-order shape features of DNA. Finally, these high-order sequence and shape features are integrated into the channel dimension to achieve accurate TFBSs prediction. Our research results demonstrate that TBCA exhibits superior predictive performance in 165 validated ChIP-seq datasets. Furthermore, the employed attention mechanisms can automatically learn important features at different positions and scales, enhancing the accuracy and robustness of feature representation. We also conduct an in-depth analysis of the contributions of five different shapes to site prediction, revealing that shape features can enhance the prediction of transcription factor DNA binding.",
+  "abstract_zh": "转录因子结合位点（TFBSs）的识别对于理解基因表达的调控机制至关重要，这有助于揭示细胞功能和疾病发展。目前，最常见的方法是利用深度学习技术，结合序列和形状特征来预测TFBSs。尽管这些方法已取得显著进展，但从DNA序列和形状中提取的局部特征与全局特征的整合尚未达到充分水平，预测结果的准确性仍有较大提升空间。本文提出了一种基于卷积和注意力机制的新框架，称为TBCA，该框架结合DNA序列信息和形状信息来预测转录因子结合位点。在本研究中，我们采用两层卷积神经网络（CNNs）和自注意力机制从DNA中提取复杂序列特征。此外，我们利用傅里叶变换增强的多头注意力以及通道注意力来提取DNA的高阶形状特征。最后，将这些高阶序列和形状特征整合到通道维度，以实现准确的TFBSs预测。我们的研究结果表明，TBCA在165个经过验证的ChIP-seq数据集中表现出优越的预测性能。此外，所采用的注意力机制能够自动学习不同位置和尺度上的重要特征，增强了特征表示的准确性和鲁棒性。我们还对五种不同形状对位点预测的贡献进行了深入分析，揭示出形状特征能够增强转录因子DNA结合的预测。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38236675/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38236675/",
+  "paper_page_path": "papers/pubmed/38236675/index.html"
+}

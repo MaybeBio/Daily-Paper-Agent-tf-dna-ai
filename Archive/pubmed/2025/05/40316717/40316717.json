@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "40316717",
+    "doi": "10.1038/s41598-025-99264-6",
+    "title": "Identification of PANoptosis related biomarkers to predict hepatic ischemia‒reperfusion injury after liver transplantation."
+  },
+  "content": {
+    "abstract": "Hepatic ischemia-reperfusion injury (HIRI) is a major complication following liver transplantation. Bioinformatic analysis was performed to elucidate the PANoptosis-related molecular mechanisms underlying HIRI. Comprehensive analysis of bulk and single-cell RNA sequencing data from human liver tissue before and after HIRI was performed. Differential expression analysis, weighted gene coexpression analysis, and protein interaction network analysis were used to identify candidate biomarkers. Multiple machine learning methods were utilized to screen for core biomarkers and construct a diagnostic predictive model. Functional and interaction analyses of the genes were also performed. Cellular clustering and annotation, pseudotemporal trajectory, and intercellular communication analyses of HIRI were conducted. Six PANoptosis-associated genes (CEBPB, HSPA1A, HSPA1B, IRF1, SERPINE1, and TNFAIP3) were identified as HIRI-related biomarkers. These biomarkers are regulated by NF-kappaB and miRNA-155. A nomogram for HIRI prediction based on these biomarkers was constructed and validated. In addition, the heterogeneity and dynamic changes in macrophage subpopulations during HIRI were revealed, highlighting the roles of Kupffer cells and monocyte-derived macrophages in modulating the hepatic microenvironment. The MIF and VISFATIN signaling pathways play important roles in the interaction between macrophages and other cells. These findings enhance our understanding of the mechanisms of PANoptosis in HIRI and provide a new basis and potential targets for prevention and treatment strategies for HIRI.",
+    "keywords": [
+      "Bioinformatics analysis",
+      "Hepatic ischemia-reperfusion injury",
+      "Machine learning",
+      "Mononuclear phagocyte",
+      "PANoptosis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Reperfusion Injury/etiology/metabolism/genetics/diagnosis/pathology",
+      "*Liver Transplantation/adverse effects",
+      "*Biomarkers/metabolism",
+      "*Liver/metabolism/pathology/blood supply",
+      "MicroRNAs/genetics/metabolism",
+      "Male",
+      "Kupffer Cells/metabolism",
+      "Protein Interaction Maps",
+      "Computational Biology/methods",
+      "Gene Expression Profiling",
+      "Macrophages/metabolism",
+      "NF-kappa B/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Zhihong",
+        "Zhang, Junwei",
+        "Zhang, Lei",
+        "Liu, Yaoge",
+        "Zhang, Ting",
+        "Sang, Xinting",
+        "Xu, Yiyao",
+        "Lu, Xin"
+      ],
+      "short_names": [
+        "Chen Z",
+        "Zhang J",
+        "Zhang L",
+        "Liu Y",
+        "Zhang T",
+        "Sang X",
+        "Xu Y",
+        "Lu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Liver Surgery, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, 100730, China.",
+        "Department of Liver Surgery, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, 100730, China.",
+        "Department of Liver Surgery, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, 100730, China.",
+        "Department of Liver Surgery, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, 100730, China.",
+        "Department of Liver Surgery, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, 100730, China.",
+        "Department of Liver Surgery, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, 100730, China.",
+        "Department of Liver Surgery, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, 100730, China. xuyiyao@pumch.cn.",
+        "Department of Liver Surgery, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, 100730, China. luxin@pumch.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Zhihong",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Surgery, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, 100730, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Junwei",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Surgery, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, 100730, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lei",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Surgery, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, 100730, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yaoge",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Surgery, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, 100730, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ting",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Surgery, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, 100730, China."
+        ]
+      },
+      {
+        "full_name": "Sang, Xinting",
+        "short_name": "Sang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Surgery, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, 100730, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yiyao",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Surgery, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, 100730, China. xuyiyao@pumch.cn."
+        ]
+      },
+      {
+        "full_name": "Lu, Xin",
+        "short_name": "Lu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Surgery, Peking Union Medical College Hospital, Chinese Academy of Medical Science and Peking Union Medical College, Beijing, 100730, China. luxin@pumch.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 May 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/03 00:37",
+    "fetched_at": "2026-09-30 16:52:33"
+  },
+  "links": {
+    "cites": [
+      "42670440",
+      "41993192",
+      "41710880",
+      "41583472",
+      "41583449",
+      "41323561"
+    ],
+    "refs": [
+      "39336548",
+      "39289562",
+      "39040334",
+      "39003157",
+      "39000126",
+      "38946464",
+      "38910492",
+      "38701541",
+      "38540172",
+      "38244517",
+      "38217003",
+      "37991700",
+      "37895022",
+      "37660060",
+      "37473713",
+      "37292152",
+      "37077221",
+      "37006305",
+      "36341760",
+      "36160453",
+      "35900430",
+      "35494316",
+      "35017436",
+      "34396452",
+      "34360975",
+      "33456344",
+      "33041338",
+      "31850239",
+      "31561945",
+      "30843314",
+      "30588198",
+      "28825705",
+      "27255130",
+      "26908374",
+      "26904558",
+      "26819522",
+      "26783413",
+      "26720280",
+      "22801256",
+      "21167234",
+      "19643665",
+      "17259369",
+      "15652768",
+      "2112087"
+    ],
+    "similar": [
+      "40316717",
+      "38690269",
+      "39341981",
+      "38935114",
+      "34234785",
+      "38694511",
+      "38537684",
+      "39008003",
+      "38493695",
+      "37991700",
+      "39920949",
+      "37878485",
+      "37594613",
+      "28842516",
+      "35934611",
+      "38902590",
+      "38494504",
+      "37044034",
+      "34308776",
+      "39164205",
+      "38342302",
+      "39074415",
+      "36518880",
+      "35732295",
+      "38727775",
+      "39971912",
+      "38456959",
+      "39167169",
+      "28465634",
+      "36660667",
+      "38867322",
+      "38946464",
+      "34609057",
+      "36856879",
+      "31998287",
+      "38262562",
+      "39844550",
+      "37731999",
+      "39094438",
+      "35916424",
+      "40263992",
+      "33227704",
+      "39025461",
+      "35658960",
+      "34726254",
+      "37004699",
+      "34103479",
+      "38824460",
+      "39855351",
+      "33711387",
+      "36717099",
+      "28749008",
+      "22031462",
+      "39986119",
+      "38484898",
+      "31125492",
+      "29975111",
+      "40049242",
+      "39993960",
+      "37680161",
+      "36308669",
+      "15760549",
+      "34592233",
+      "39324174",
+      "25788192",
+      "40274384",
+      "40093012",
+      "31036368",
+      "34847855",
+      "40147738",
+      "39697326",
+      "35385777",
+      "30779103",
+      "37833850",
+      "39864211",
+      "38942361",
+      "37400383",
+      "38834654",
+      "28187520",
+      "29794450",
+      "37648554",
+      "25264893",
+      "39326972",
+      "31995027",
+      "34296303",
+      "28043920",
+      "38129928",
+      "37232477",
+      "31184936",
+      "32048161",
+      "39658411",
+      "34896163",
+      "36510454",
+      "28640790",
+      "38000361",
+      "37006305",
+      "32603889",
+      "34093862",
+      "39923303",
+      "36237600"
+    ],
+    "review": [
+      "40316717",
+      "37991700",
+      "35934611",
+      "39164205",
+      "28465634",
+      "38946464",
+      "37731999",
+      "33227704",
+      "33711387",
+      "31995027"
+    ],
+    "pmc": [
+      "12048552"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livertransplantation.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Transplantation"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-025-99264-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40316717/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3842",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "41049163",
+    "doi": "10.4274/dir.2025.253310",
+    "title": "Automated detection and characterization of small cell lung cancer liver metastasis on computed tomography."
+  },
+  "content": {
+    "abstract": "PURPOSE: Small cell lung cancer (SCLC) is an aggressive disease with diverse phenotypes that reflect the heterogeneous expression of tumor-related genes. Recent studies have shown that neuroendocrine (NE) transcription factors may be used to classify SCLC tumors with distinct therapeutic responses. The liver is a common site of metastatic disease in SCLC and can drive a poor prognosis. Here, we present a computational approach to detect and characterize metastatic SCLC (mSCLC) liver lesions and their associated NE-related phenotype as a method to improve patient management. METHODS: This study utilized computed tomography scans of patients with hepatic lesions from two data sources for segmentation and classification of liver disease: (1) a public dataset from patients of various cancer types (segmentation; n = 131) and (2) an institutional cohort of patients with SCLC (segmentation and classification; n = 86). We developed deep learning segmentation algorithms and compared their performance for automatically detecting liver lesions, evaluating the results with and without the inclusion of the SCLC cohort. Following segmentation in the SCLC cohort, radiomic features were extracted from the detected lesions, and least absolute shrinkage and selection operator regression was utilized to select features from a training cohort (80/20 split). Subsequently, we trained radiomics-based machine learning classifiers to stratify patients based on their NE tumor profile, defined as expression levels of a preselected gene set derived from bulk RNA sequencing or circulating free DNA chromatin immunoprecipitation sequencing. RESULTS: Our liver lesion detection tool achieved lesion-based sensitivities of 66%-83% for the two datasets. In patients with mSCLC, the radiomics-based NE phenotype classifier distinguished patients as positive or negative for harboring NE-like liver metastasis phenotype with an area under the receiver operating characteristic curve of 0.73 and an F1 score of 0.88 in the testing cohort. CONCLUSION: We demonstrate the potential of utilizing artificial intelligence (AI)-based platforms as clinical decision support systems, which could help clinicians determine treatment options for patients with SCLC based on their associated molecular tumor profile. CLINICAL SIGNIFICANCE: Targeted therapy requires accurate molecular characterization of disease, which imaging and AI may aid in determining.",
+    "keywords": [
+      "Computer vision",
+      "molecular tumor profile",
+      "neuroendocrine gene expression",
+      "radiomics",
+      "segmentation",
+      "transcriptomics",
+      "tumor classification"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Liver Neoplasms/secondary/diagnostic imaging",
+      "*Lung Neoplasms/pathology/diagnostic imaging",
+      "*Tomography, X-Ray Computed/methods",
+      "Radiomics",
+      "*Small Cell Lung Carcinoma/diagnostic imaging/pathology/secondary",
+      "Male",
+      "Female",
+      "Middle Aged",
+      "Aged",
+      "Algorithms",
+      "Deep Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ty, Sophia",
+        "Haque, Fahmida",
+        "Desai, Parth",
+        "Takahashi, Nobuyuki",
+        "Chaudhary, Usamah",
+        "Choyke, Peter L",
+        "Thomas, Anish",
+        "Turkbey, Baris",
+        "Harmon, Stephanie A"
+      ],
+      "short_names": [
+        "Ty S",
+        "Haque F",
+        "Desai P",
+        "Takahashi N",
+        "Chaudhary U",
+        "Choyke PL",
+        "Thomas A",
+        "Turkbey B",
+        "Harmon SA"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-5193-2111",
+        "ORCID: 0000-0003-2023-2258",
+        "ORCID: 0000-0002-7715-4919",
+        "ORCID: 0000-0002-8592-6528",
+        "ORCID: 0000-0001-7442-2351",
+        "ORCID: 0000-0003-1086-8826",
+        "ORCID: 0000-0003-3293-3115",
+        "ORCID: 0000-0003-0853-6494",
+        "ORCID: 0000-0002-2507-2399"
+      ],
+      "affiliations": [
+        "National Cancer Institute, Artificial Intelligence Resource, Maryland, USA.",
+        "National Cancer Institute, Artificial Intelligence Resource, Maryland, USA.",
+        "Fox Chase Cancer Center at Temple University Hospital, Philadelphia, USA.",
+        "National Cancer Center Hospital East, Department of Medical Oncology, Kashiwa, Japan.",
+        "National Cancer Institute, Developmental Therapeutics Branch, Maryland, USA.",
+        "National Cancer Institute, Artificial Intelligence Resource, Maryland, USA.",
+        "University of Texas Southwestern Medical Center, Texas, USA.",
+        "National Cancer Institute, Artificial Intelligence Resource, Maryland, USA.",
+        "National Cancer Institute, Developmental Therapeutics Branch, Maryland, USA.",
+        "National Cancer Institute, Artificial Intelligence Resource, Maryland, USA.",
+        "National Cancer Institute, Artificial Intelligence Resource, Maryland, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ty, Sophia",
+        "short_name": "Ty S",
+        "identifiers": [
+          "0009-0008-5193-2111"
+        ],
+        "affiliations": [
+          "National Cancer Institute, Artificial Intelligence Resource, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Haque, Fahmida",
+        "short_name": "Haque F",
+        "identifiers": [
+          "0000-0003-2023-2258"
+        ],
+        "affiliations": [
+          "National Cancer Institute, Artificial Intelligence Resource, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Desai, Parth",
+        "short_name": "Desai P",
+        "identifiers": [
+          "0000-0002-7715-4919"
+        ],
+        "affiliations": [
+          "Fox Chase Cancer Center at Temple University Hospital, Philadelphia, USA."
+        ]
+      },
+      {
+        "full_name": "Takahashi, Nobuyuki",
+        "short_name": "Takahashi N",
+        "identifiers": [
+          "0000-0002-8592-6528"
+        ],
+        "affiliations": [
+          "National Cancer Center Hospital East, Department of Medical Oncology, Kashiwa, Japan.",
+          "National Cancer Institute, Developmental Therapeutics Branch, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Chaudhary, Usamah",
+        "short_name": "Chaudhary U",
+        "identifiers": [
+          "0000-0001-7442-2351"
+        ],
+        "affiliations": [
+          "National Cancer Institute, Artificial Intelligence Resource, Maryland, USA.",
+          "University of Texas Southwestern Medical Center, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Choyke, Peter L",
+        "short_name": "Choyke PL",
+        "identifiers": [
+          "0000-0003-1086-8826"
+        ],
+        "affiliations": [
+          "National Cancer Institute, Artificial Intelligence Resource, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Thomas, Anish",
+        "short_name": "Thomas A",
+        "identifiers": [
+          "0000-0003-3293-3115"
+        ],
+        "affiliations": [
+          "National Cancer Institute, Developmental Therapeutics Branch, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Türkbey, Barış",
+        "short_name": "Türkbey B",
+        "identifiers": [
+          "0000-0003-0853-6494"
+        ],
+        "affiliations": [
+          "National Cancer Institute, Artificial Intelligence Resource, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Harmon, Stephanie A",
+        "short_name": "Harmon SA",
+        "identifiers": [
+          "0000-0002-2507-2399"
+        ],
+        "affiliations": [
+          "National Cancer Institute, Artificial Intelligence Resource, Maryland, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Diagnostic and interventional radiology (Ankara, Turkey)"
+    ],
+    "journal_abbrev": [
+      "Diagn Interv Radiol"
+    ],
+    "pub_date": "2026 Jul 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/06 12:31",
+    "fetched_at": "2026-10-01 03:38:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40523990",
+      "38598634",
+      "38366589",
+      "37995359",
+      "37599042",
+      "37335422",
+      "37236811",
+      "36481607",
+      "36455333",
+      "36381660",
+      "35443832",
+      "35440132",
+      "35205773",
+      "34358725",
+      "34162872",
+      "33992856",
+      "33848478",
+      "33482121",
+      "33288961",
+      "32367456",
+      "31319975",
+      "30926931",
+      "30357870",
+      "30341319",
+      "30080997",
+      "29910166",
+      "29535911",
+      "29359568",
+      "28978930",
+      "27384345",
+      "26168399",
+      "25968046",
+      "24231948",
+      "23205072",
+      "21565397",
+      "18316005",
+      "16226617",
+      "14974593",
+      "12665681"
+    ],
+    "similar": [
+      "41049163",
+      "41252869",
+      "30502076",
+      "40329257",
+      "40842207",
+      "41067858",
+      "41459529",
+      "38167564",
+      "38626509",
+      "40523077",
+      "41522171",
+      "40884974",
+      "40128015",
+      "38811960",
+      "40468196",
+      "39576046",
+      "42069522",
+      "41534317",
+      "42332463",
+      "41840557",
+      "37730276",
+      "41335910",
+      "42406147",
+      "41668011",
+      "38310283",
+      "36794098",
+      "38757628",
+      "41735102",
+      "41518822",
+      "39604700",
+      "41087235",
+      "39103775",
+      "35901600",
+      "40082786",
+      "40826204",
+      "41571595",
+      "41656813",
+      "38172022",
+      "38573065",
+      "40862800",
+      "40597925",
+      "41184761",
+      "40882615",
+      "33506278",
+      "32622740",
+      "31439255",
+      "40514005",
+      "40501221",
+      "39085788",
+      "34264747",
+      "42564746",
+      "39572474",
+      "40432263",
+      "40181378",
+      "39665892",
+      "41964375",
+      "40216830",
+      "41233664",
+      "39817633",
+      "39143624",
+      "31444598",
+      "42547905",
+      "39214122",
+      "40562645",
+      "38789936",
+      "33547553",
+      "42285885",
+      "41116179",
+      "40755324",
+      "40075547",
+      "40379764",
+      "38011673",
+      "21623258",
+      "36517762",
+      "39825409",
+      "39762725",
+      "42120948",
+      "38262813",
+      "33931085",
+      "32176676",
+      "37888871",
+      "39025637",
+      "39084935",
+      "40612349",
+      "30120041",
+      "29650315",
+      "32391274",
+      "38523520",
+      "39278763",
+      "41417084",
+      "39349536",
+      "41540209",
+      "41956344",
+      "39738517",
+      "41609156",
+      "39696125",
+      "39618212",
+      "40075375",
+      "36057553",
+      "38702214"
+    ],
+    "review": [
+      "41049163"
+    ],
+    "pmc": [
+      "13320232"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41049163/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.4274/dir.2025.253310",
+        "provider": "Galenos Yayinevi",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ctscans.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "CT Scans"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, conclusion, and figure legends. Supplementary materials referenced but not provided.
+- **Assessment boundary** Scientific validity, technical soundness, and support for claims as presented in the provided manuscript. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors propose that quercetin and catechin, when combined, bind simultaneously to distinct sites on FOXO3, thereby inhibiting FOXO3-mediated transcription of IKKalpha, suppressing the IKKalpha/p53 pathway, activating Nrf2 signaling, and providing enhanced protection against oxidative stress-induced acute alcoholic liver injury in rats.
+- **Visible evidence base** In vivo rat model data (histology, serum enzymes, oxidative stress markers, protein/mRNA expression); in vitro cell culture data (viability, ROS, mitochondrial membrane potential, apoptosis, protein/mRNA expression); RNA-seq differential expression; molecular docking; biophysical assays (CETSA, UV-Vis, fluorescence, CD) with wild-type and mutant FOXO3.
+- **Missing materials affecting confidence** Supplementary figures and tables (Table S1, Fig. S1, Fig. S2, Table S2) are referenced but not provided. Raw RNA-seq data and full statistical outputs are not available. Details of antibody validation, primer efficiencies, and exact sample sizes for some experiments are not fully specified.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a potentially interesting question regarding the molecular basis for the combined antioxidant effects of two dietary flavonoids. The work combines in vivo efficacy studies, in vitro mechanistic experiments, and biophysical binding analyses. However, the central mechanistic claim, that simultaneous binding of quercetin and catechin to FOXO3 enhances IKKalpha transcriptional inhibition, is not fully established by the data presented. Key experiments lack appropriate controls, and the causal link between FOXO3 binding and the observed transcriptional effects is inferred rather than directly demonstrated. The study is technically broad but the depth of mechanistic validation is insufficient for the strength of the conclusions drawn.
+- **Who would be interested in the results, and why** Researchers in the fields of natural product pharmacology, hepatology, and oxidative stress biology would find the results of interest. The potential synergistic action of dietary flavonoids on a specific transcription factor pathway is a topic of relevance for those studying chemoprevention and dietary interventions for liver disease. The biophysical characterization of flavonoid-protein interactions may also appeal to structural biologists and food scientists.
+- **Major strengths**
+  1. The study addresses a clinically relevant problem, acute alcoholic liver injury, using a combination of in vivo and in vitro models.
+  2. The breadth of techniques employed, from animal models to molecular docking and biophysical spectroscopy, is commendable.
+  3. The identification of IKKalpha as a potential target of the flavonoid combination via RNA-seq provides a clear hypothesis to test.
+  4. The use of mutant FOXO3 proteins in biophysical assays strengthens the claim of specific binding sites.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal mechanism
+  - **Claim pointer** The manuscript claims that quercetin and catechin act jointly to inhibit IKKalpha transcription by binding to FOXO3, and that this is the key mechanism for their enhanced protective effect.
+  - **Evidence pointer** Results sections "FOXO3 bound to the promoter of IKKalpha to regulate its transcription and the influence of quercetin, catechin or their combination" and "The interaction of FOXO3 with quercetin and/or catechin"; Figures 5, 6, 7, 8, 9.
+  - **Concern** The causal chain from flavonoid-FOXO3 binding to inhibition of IKKalpha transcription is not directly demonstrated. The luciferase reporter assay (Fig. 5G) shows that flavonoids reduce FOXO3-enhanced reporter activity, but this is a surrogate for transcription. The ChIP assay (Fig. 5D) shows FOXO3 binding to the IKKalpha promoter, but does not show that this binding is altered by the flavonoids. The biophysical data (Figs. 7-9) demonstrate binding and conformational changes, but do not link these to the transcriptional outcome. The siRNA and overexpression experiments (Fig. 4K-P) manipulate IKKalpha levels but do not directly test the role of FOXO3 in mediating the flavonoid effect.
+  - **Why it matters** The title and central conclusion rest on the specific mechanism of simultaneous flavonoid binding to FOXO3 leading to enhanced transcriptional inhibition. Without direct evidence that flavonoid binding to FOXO3 is necessary and sufficient for the observed IKKalpha downregulation, the mechanistic claim is not supported. Alternative explanations, such as flavonoids acting on other upstream regulators of IKKalpha or on IKKalpha mRNA stability, are not excluded.
+  - **Resolution test** To establish causality, the authors should demonstrate that: (1) knockdown or knockout of FOXO3 abolishes the flavonoid-mediated suppression of IKKalpha expression; (2) overexpression of a FOXO3 mutant that cannot bind the flavonoids rescues IKKalpha expression in the presence of the flavonoids; (3) the flavonoid treatment reduces FOXO3 occupancy at the IKKalpha promoter in a ChIP assay. These experiments would directly link the binding event to the transcriptional outcome.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The manuscript claims that the quercetin-catechin combination provides a "significantly" enhanced effect compared to individual compounds in multiple assays.
+  - **Evidence pointer** Results sections "The combination of quercetin and catechin alleviated AALI in ethanol (EtOH)-treated rats..." and "The enhanced reduction of H2O2-induced cellular oxidative damage..."; Figures 1, 2, 4.
+  - **Concern** The statistical analysis is described as one-way ANOVA, but the specific comparisons and post-hoc tests are not detailed. For example, in Figure 1B, it is unclear if the combination group is statistically superior to both individual treatment groups, or only to the EtOH group. The text states "significantly (P < 0.05) enhanced" but does not provide the statistical test results or effect sizes. The same issue applies to the in vitro data in Figure 2. The claim of "enhanced" or "synergistic" action requires a formal test for synergy or at least a demonstration of superiority over each individual compound.
+  - **Why it matters** The central premise of the paper is that the combination is more effective than the individual compounds. Without rigorous statistical evidence for this enhancement, the rationale for studying the combined mechanism is weakened. The reader cannot assess whether the observed differences are meaningful or within experimental noise.
+  - **Resolution test** The authors should provide a detailed statistical analysis, including the specific post-hoc tests used (e.g., Tukey's HSD), the F-statistics and degrees of freedom, and the p-values for all pairwise comparisons. For the combination effect, a formal test for synergy (e.g., Bliss independence or Chou-Talalay) should be applied to the dose-response data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data interpretation
+  - **Claim pointer** The manuscript claims that the biophysical data (UV-Vis, fluorescence, CD) confirm the binding of quercetin and catechin to FOXO3 at distinct sites.
+  - **Evidence pointer** Results section "The interaction of FOXO3 with quercetin and/or catechin"; Figures 7, 8, 9.
+  - **Concern** The interpretation of the UV-Vis and fluorescence data is largely qualitative. The absorbance increase at 280 nm is attributed to binding, but this could also be due to inner filter effects from the flavonoids themselves, which absorb strongly in this region. The fluorescence quenching is analyzed using the Stern-Volmer equation, but the authors do not report whether the quenching is static or dynamic, and the calculated binding constants (Ka) are not compared to a positive or negative control. The CD data show changes in secondary structure, but the relationship between these changes and the functional outcome (transcriptional inhibition) is not established.
+  - **Why it matters** The biophysical data are used to support the claim of direct and specific binding. If the data are confounded by artifacts (e.g., inner filter effects) or are not quantitatively robust, the binding claim is weakened. The lack of a clear link between conformational changes and function makes the relevance of these observations uncertain.
+  - **Resolution test** The authors should correct for inner filter effects in the fluorescence and UV-Vis experiments. They should perform control experiments with a non-binding flavonoid or a structurally unrelated compound. The binding constants should be determined using multiple methods (e.g., ITC or SPR) to confirm the affinity and stoichiometry. The functional relevance of the conformational changes should be tested by correlating the extent of structural change with the degree of transcriptional inhibition.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model relevance
+  - **Claim pointer** The manuscript claims that the findings in rats and in HepG2/HHL-5 cells are relevant to human acute alcoholic liver injury.
+  - **Evidence pointer** Methods sections "Animal experiments" and "Cell culture and treatments"; Results sections throughout.
+  - **Concern** The rat model uses a single dose regimen of ethanol (5 g/kg, three times). The relevance of this acute, high-dose model to human alcohol consumption patterns is not discussed. The choice of HepG2 cells, a hepatoblastoma cell line with limited metabolic capacity, is acknowledged but the implications for the interpretation of the results are not fully considered. The concentrations of quercetin and catechin used in vitro (25-30 µM) may not be achievable in vivo after oral administration due to poor bioavailability.
+  - **Why it matters** The translational relevance of the findings depends on the appropriateness of the models. If the in vitro concentrations are not physiologically relevant, or if the animal model does not recapitulate human disease, the conclusions may not be generalizable.
+  - **Resolution test** The authors should discuss the pharmacokinetics of quercetin and catechin and justify the concentrations used. They should acknowledge the limitations of the HepG2 cell line and ideally confirm key findings in a more physiologically relevant model, such as primary human hepatocytes. The relevance of the acute ethanol model to human ALD should be discussed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction are dense and use jargon without clear definitions. For example, "IKKalpha transcription inhibition" is a key concept but the reader is not told what IKKalpha is or why its inhibition is beneficial until much later in the introduction.
+  - **Required correction** Provide a brief explanation of IKKalpha and its role in the NF-kB pathway early in the introduction. Simplify the abstract to make the main finding and its significance accessible to a broader scientific audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods sections "Animal experiments" and "Cell culture and treatments"
+  - **Issue** The methods for animal experiments do not specify how the animals were randomized, whether the investigators were blinded to treatment allocation during outcome assessment, or the exact number of animals per group for each assay. The cell culture methods do not specify the passage number of the cells or the exact duration of flavonoid treatment before H2O2 exposure.
+  - **Required correction** Provide details on randomization, blinding, and sample sizes. Specify cell passage numbers and treatment timelines.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figures 1, 2, 4
+  - **Evidence pointer** Results sections, Figures 1, 2, 4
+  - **Issue** The figures show bar graphs with error bars, but the type of error bar (SD vs. SEM) is not consistently stated in the legends. The number of independent replicates (n) is stated as 3 in some places but not for all panels.
+  - **Required correction** Clearly state the error bar type and the number of replicates for each panel in the figure legends.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of FOXO3's role in the liver is brief and does not fully address the contradictory roles of FOXO3 in promoting cell survival versus apoptosis. The authors state that FOXO3 is a "protective factor" but also that it can be pro-apoptotic, without reconciling these roles in the context of their findings.
+  - **Required correction** Expand the discussion of FOXO3's dual roles and explain how the specific context of oxidative stress and the flavonoid treatment might shift the balance.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of direct causal evidence linking flavonoid-FOXO3 binding to IKKalpha transcriptional inhibition.
+  - R1-M2: Insufficient statistical rigor to support the claim of enhanced combination effects.
+  - R1-M3: Potential artifacts in biophysical binding assays and lack of quantitative validation.
+  - R1-M4: Incomplete discussion of model relevance and physiological concentrations.
+
+## Risk / unsupported claims
+- The claim that quercetin and catechin bind "simultaneously" to FOXO3 is not directly supported. The docking and biophysical data show binding, but not necessarily simultaneous binding. The term "simultaneous" implies a specific ternary complex that is not demonstrated.
+- The claim that the combination "enhances IKKalpha transcription inhibition" is supported by reporter assays, but the direct effect on endogenous IKKalpha transcription in the relevant cell type is not shown with a time course or dose response.
+- The claim that the protective effects are "through" the FOXO3-IKKalpha mechanism is not proven. The data show correlation, not causation. Other mechanisms, such as direct antioxidant activity of the flavonoids, are not excluded.
+- The relevance of the findings to human disease is asserted but not supported by human data or a discussion of the limitations of the animal and cell models.

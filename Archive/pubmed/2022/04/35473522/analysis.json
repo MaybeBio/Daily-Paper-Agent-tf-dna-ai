@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35473522",
+  "title": "Identification of Key Diagnostic Markers and Immune Infiltration in Osteoarthritis.",
+  "authors": "Yan, Mingyue; Zhao, Haibo; Sun, Zewen; Chen, Jinli; Zhang, Yi; Gao, Jiake; Yu, Tengbo",
+  "journal": "Combinatorial chemistry & high throughput screening",
+  "published_date": "2022-04-28",
+  "window": {
+    "start": "2022-04-25",
+    "end": "2022-05-01"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过转录组与免疫浸润分析筛选骨关节炎诊断标志物，虽构建了TF调控网络但无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Osteoarthritis (OA) is a worldwide chronic disease of the articulating joints. An increasing body of data demonstrates the immune system's involvement in osteoarthritis. The molecular mechanisms of OA are still unclear. This study aimed to search for OA immunerelated hub genes and determine appropriate diagnostic markers to help the detection and treatment of the disease. METHODS: Gene expression data were downloaded from the GEO database. Firstly, we analyzed and identified the differentially expressed genes (DEGs) using R packages. Meanwhile, ssGSEA was used to determine the activation degree of immune-related genes (IRGs), and WGCNA analysis was applied to search for co-expressed gene modules associated with immune cells. Then, critical networks and hub genes were found in the PPI network. Gene Ontology (GO) annotation and Kyoto Encyclopedia of Gene and Genomes (KEGG) pathway enrichment analyzed the biological functions of genes. The ability of the hub genes to differentiate OA from controls was assessed by the area under the ROC curve. A miRNA and transcription factor (TF) regulatory network was constructed according to their relationship with hub genes. Finally, the validation of hub genes was carried out by qPCR. RESULTS: In total, 353 DEGs were identified in OA patients compared with controls, including 222 upregulated and 131 downregulated genes. WGCNA successfully identified 34 main functional modules involved in the pathogenesis of OA. The most crucial functional module involved in OA included 89 genes. 19 immune-related genes were obtained by overlapping DEGs with the darkgrey module. The String database was constructed using the protein-protein interaction (PPI) network of 19 target genes, and 7 hub genes were identified by MCODE. ROC curve showed that 7 hub genes were potential biomarkers of OA. The expression levels of hub genes were validated by qPCR, and the results were consistent with those from bioinformatic analyses. CONCLUSION: Immune-related hub genes, including TYROBP, ITGAM, ITGB2, C1QC, MARCO, C1QB, and TLR8, may play critical roles in OA development. ITGAM had the highest correction on immune cells.",
+  "abstract_zh": "背景：骨关节炎（OA）是一种全球性的关节慢性疾病。越来越多的数据表明免疫系统参与骨关节炎的发病过程。OA的分子机制仍不清楚。本研究旨在寻找OA免疫相关核心基因，并确定合适的诊断标志物，以帮助该疾病的检测和治疗。方法：从GEO数据库下载基因表达数据。首先，我们使用R包分析并鉴定了差异表达基因（DEGs）。同时，采用ssGSEA确定免疫相关基因（IRGs）的激活程度，并应用WGCNA分析寻找与免疫细胞相关的共表达基因模块。然后，在PPI网络中找到关键网络和核心基因。通过基因本体论（GO）注释和京都基因与基因组百科全书（KEGG）通路富集分析基因的生物学功能。通过ROC曲线下面积评估核心基因区分OA与对照组的能力。根据核心基因与miRNA和转录因子（TF）的关系构建了调控网络。最后，通过qPCR验证核心基因。结果：与对照组相比，OA患者中共鉴定出353个DEGs，包括222个上调基因和131个下调基因。WGCNA成功识别出34个参与OA发病机制的主要功能模块。与OA相关的最关键功能模块包含89个基因。通过将DEGs与darkgrey模块重叠，获得19个免疫相关基因。使用19个靶基因的蛋白质-蛋白质相互作用（PPI）网络构建String数据库，并通过MCODE鉴定出7个核心基因。ROC曲线显示7个核心基因是OA的潜在生物标志物。通过qPCR验证核心基因的表达水平，结果与生物信息学分析一致。结论：免疫相关核心基因，包括TYROBP、ITGAM、ITGB2、C1QC、MARCO、C1QB和TLR8，可能在OA发展中发挥关键作用。ITGAM对免疫细胞的校正值最高。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35473522/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35473522/",
+  "paper_page_path": "papers/pubmed/35473522/index.html"
+}

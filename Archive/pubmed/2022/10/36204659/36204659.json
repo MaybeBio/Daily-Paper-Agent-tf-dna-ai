@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "36204659",
+    "doi": "10.1155/2022/9652169",
+    "title": "Mining Potential Drug Targets and Constructing Diagnostic Models for Heart Failure Based on miRNA-mRNA Networks."
+  },
+  "content": {
+    "abstract": "Heart failure (HF) is a globally prevalent cardiovascular disease, but effective drug targets and diagnostic models are still lacking. This study was designed to investigate effective drug targets and diagnostic models for HF in terms of miRNA targets, hoping to contribute to the understanding and treatment of HF. Using HF miRNA and gene expression profile data from the GEO database, we analyzed differentially expressed miRNAs/gene identification in HF using Limma and predicted miRNA targets by the online TargetScan database. Subsequently, gene set enrichment analysis and annotation were performed using WebGestaltR package. Protein-protein interactions were identified using the STRING database. The proximity of drugs to treat HF was also calculated and predicted for potential target therapeutic drug. In addition, further drug identification was performed by molecular docking. Finally, diagnostic models were constructed based on differential miRNAs. The GEO dataset was used to screen 66 differentially expressed miRNAs, incorporating 56 downregulated miRNAs and 10 upregulated miRNAs. The JAK-STAT signaling pathway, MAPK signaling pathway, p53 signaling pathway, Prolactin signaling pathway, and TGF-beta signaling pathway were enriched, as shown by KEGG enrichment analysis on the target genes. In addition, we found that 83 genes were upregulated and 92 genes were downregulated in HF patients vs. healthy individuals. Based on the inflammation-related score, hypoxia-related score, and energy metabolism-related score, we identified key miRNA-mRNA pairs and constructed an interaction network. Following that, TAP1, which had the highest expression and network connectivity in acute HF with crystal and molecular docking studies, was selected as a key candidate gene in the network. And the compound DB04847 was selected to produce a large number of favorable interactions with TAP1 protein. Finally, we constructed two diagnostic models based on the differential miRNAs hsa-miR-6785-5p and hsa-miR-4443. In conclusion, we identified TAP1, a key candidate gene in the diagnosis and treatment of HF, and determined that compound DB04847 is highly likely to be a potential inhibitor of TAP1. The TAP1 gene was also found to be regulated by hsa-miR-6785-5p and hsa-miR-4443, and a diagnostic model was constructed. This provides a new promising direction to improve the diagnosis, prognosis, and treatment outcome and guide more effective immunotherapy strategies of HF.",
+    "keywords": [],
+    "mesh_terms": [
+      "ATP Binding Cassette Transporter, Subfamily B, Member 2/genetics",
+      "Gene Regulatory Networks",
+      "*Heart Failure/genetics",
+      "Humans",
+      "*MicroRNAs/genetics/metabolism",
+      "Molecular Docking Simulation",
+      "Prolactin/metabolism",
+      "RNA, Messenger/genetics",
+      "Transforming Growth Factor beta/metabolism",
+      "Tumor Suppressor Protein p53/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fang, Xiangming",
+        "Song, Rensheng",
+        "Wei, Jiaxing",
+        "Liao, Qin",
+        "Zeng, Zhenhong"
+      ],
+      "short_names": [
+        "Fang X",
+        "Song R",
+        "Wei J",
+        "Liao Q",
+        "Zeng Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3847-6683"
+      ],
+      "affiliations": [
+        "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes, The Fifth Affiliated Hospital of Guangzhou Medical University Intensive Care Unit, Guangzhou, China 510700.",
+        "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes, The Fifth Affiliated Hospital of Guangzhou Medical University Cardiovascular Medicine Department, Guangzhou, China 510700.",
+        "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes, The Fifth Affiliated Hospital of Guangzhou Medical University Intensive Care Unit, Guangzhou, China 510700.",
+        "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes, The Fifth Affiliated Hospital of Guangzhou Medical University Intensive Care Unit, Guangzhou, China 510700.",
+        "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes, The Fifth Affiliated Hospital of Guangzhou Medical University Intensive Care Unit, Guangzhou, China 510700."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fang, Xiangming",
+        "short_name": "Fang X",
+        "identifiers": [
+          "0000-0002-3847-6683"
+        ],
+        "affiliations": [
+          "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes, The Fifth Affiliated Hospital of Guangzhou Medical University Intensive Care Unit, Guangzhou, China 510700."
+        ]
+      },
+      {
+        "full_name": "Song, Rensheng",
+        "short_name": "Song R",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes, The Fifth Affiliated Hospital of Guangzhou Medical University Cardiovascular Medicine Department, Guangzhou, China 510700."
+        ]
+      },
+      {
+        "full_name": "Wei, Jiaxing",
+        "short_name": "Wei J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes, The Fifth Affiliated Hospital of Guangzhou Medical University Intensive Care Unit, Guangzhou, China 510700."
+        ]
+      },
+      {
+        "full_name": "Liao, Qin",
+        "short_name": "Liao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes, The Fifth Affiliated Hospital of Guangzhou Medical University Intensive Care Unit, Guangzhou, China 510700."
+        ]
+      },
+      {
+        "full_name": "Zeng, Zhenhong",
+        "short_name": "Zeng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Biological Targeting Diagnosis, Therapy and Rehabilitation of Guangdong Higher Education Institutes, The Fifth Affiliated Hospital of Guangzhou Medical University Intensive Care Unit, Guangzhou, China 510700."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Mediators of inflammation"
+    ],
+    "journal_abbrev": [
+      "Mediators Inflamm"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/08 06:00",
+    "fetched_at": "2026-09-28 14:30:53"
+  },
+  "links": {
+    "cites": [
+      "42310744",
+      "42253939",
+      "40186163"
+    ],
+    "refs": [
+      "35646642",
+      "34051007",
+      "33681892",
+      "33245749",
+      "33237311",
+      "33158933",
+      "32899304",
+      "31982132",
+      "30415601",
+      "30167646",
+      "29385358",
+      "29147604",
+      "28249877",
+      "26935038",
+      "26756631",
+      "25605792",
+      "25320083",
+      "24923865",
+      "24449811",
+      "23928650",
+      "23852952",
+      "23193258",
+      "23011132",
+      "22120965",
+      "20644544",
+      "20502713",
+      "19499576",
+      "18766170",
+      "17606841",
+      "16731803",
+      "16494971",
+      "16199517",
+      "15924986",
+      "15652477",
+      "15372042",
+      "15304636",
+      "15201161",
+      "14744438",
+      "14733944",
+      "14597658",
+      "12776009",
+      "11779458",
+      "4564017"
+    ],
+    "similar": [
+      "36204659",
+      "30666640",
+      "30602391",
+      "34844599",
+      "35300139",
+      "37423398",
+      "35313857",
+      "34218797",
+      "37322932",
+      "29032608",
+      "35620387",
+      "30503955",
+      "35249869",
+      "35757478",
+      "34530741",
+      "32176034",
+      "29128636",
+      "32013934",
+      "33104965",
+      "34840704",
+      "32714975",
+      "32788609",
+      "34777635",
+      "39238649",
+      "35672672",
+      "32435051",
+      "33868359",
+      "34824764",
+      "35949853",
+      "32982206",
+      "32299382",
+      "36793717",
+      "30073936",
+      "28939059",
+      "33390802",
+      "27350400",
+      "31788082",
+      "33274225",
+      "33813720",
+      "28919164",
+      "32888289",
+      "38886500",
+      "32135645",
+      "26730174",
+      "32031354",
+      "32127169",
+      "34894939",
+      "30268144",
+      "35386284",
+      "32221048",
+      "35116364",
+      "33204705",
+      "32906114",
+      "35909518",
+      "34840985",
+      "35757392",
+      "35275451",
+      "31886250",
+      "34252359",
+      "31730405",
+      "30833538",
+      "35322335",
+      "34337040",
+      "35872921",
+      "36499552",
+      "25807437",
+      "31541491",
+      "34722763",
+      "33523578",
+      "26628405",
+      "34434654",
+      "33678324",
+      "35081534",
+      "35422846",
+      "29224008",
+      "32338587",
+      "34485383",
+      "34867824",
+      "27809691",
+      "33287936",
+      "33749138",
+      "30971889",
+      "34763659",
+      "32429001",
+      "30542696",
+      "29380534",
+      "36959563",
+      "36774490",
+      "38609925",
+      "31173251",
+      "36691005",
+      "35039607",
+      "37247276",
+      "37048502",
+      "39086902",
+      "38757035",
+      "37562973",
+      "38041082",
+      "36312597",
+      "35727093",
+      "36704357",
+      "37507655",
+      "28413462",
+      "36583233",
+      "38089628",
+      "37002321",
+      "38286377",
+      "28329018",
+      "37354355",
+      "38593510",
+      "37520333",
+      "36894919",
+      "36273030",
+      "37234872",
+      "36304554",
+      "37925496",
+      "38847679",
+      "37626628",
+      "38136906",
+      "36181964",
+      "38397416",
+      "38982916",
+      "37108370",
+      "33281885",
+      "37174557",
+      "36949448",
+      "33195446",
+      "28469402",
+      "37346398",
+      "27689084",
+      "38062883",
+      "36254001",
+      "38487855",
+      "39399614",
+      "38152337",
+      "38226354",
+      "36920122",
+      "37505309",
+      "38841189",
+      "30238397",
+      "32670749",
+      "38746057",
+      "35356949",
+      "36717817"
+    ],
+    "review": [
+      "36204659",
+      "34530741",
+      "37002321",
+      "33195446",
+      "38487855",
+      "37505309"
+    ],
+    "pmc": [
+      "9532133"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/heartfailure.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Failure"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36204659/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36204659",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/9652169",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

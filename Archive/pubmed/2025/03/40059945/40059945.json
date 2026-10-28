@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "40059945",
+    "doi": "10.2147/JIR.S509659",
+    "title": "Identification of Anoikis-Related Genes in Driving Immune-Inflammatory Responses in Ulcerative Colitis Based on Bioinformatics Analysis and Machine Learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ulcerative colitis (UC) is a challenging chronic intestinal inflammation. Anoikis, a type of programmed cell death triggered by detachment from the extracellular matrix, is crucial in various physiological and pathological contexts. This study aims to explore the biological and clinical implications of anoikis-related genes (ARGs) in UC. METHODS: Gene expression microarrays from normal and UC mucosal tissues focused on ARGs. Differentially expressed genes (DEGs) related to anoikis in UC were identified. Weighted gene co-expression network analysis (WGCNA) screened UC-related module genes. GO, KEGG, GSEA, and GSVA analyses were used to uncover mechanisms. Machine learning identified hub ARG-DEGs highly correlated with UC, and diagnostic nomograms assessed their diagnostic potential. The CIBERSORT algorithm analyzed changes in the UC immune microenvironment related to hub UC-ARGs. Potential drugs, miRNAs, and transcription factors (TFs) interacting with these hub UC-ARGs were investigated, and animal experiments verified their expression. RESULTS: 49 ARG-DEGs were identified, mainly linked to the PI3K-AKT signaling pathway, inflammatory signal regulation, and extracellular matrix (ECM)-receptor interactions. Notably, CDH3 and SERPINA1 showed significant diagnostic potential for UC, confirmed by the Wilcoxon rank-sum test, independent validation sets, Western blot, and immunohistochemical staining. Significant variations in immune cell infiltration and activation within UC samples correlated with hub UC-ARGs were observed using the CIBERSORT algorithm. CONCLUSION: Anoikis may drive UC progression by initiating an immune inflammatory response. CDH3 and SERPINA1 are promising biomarkers and therapeutic targets for UC.",
+    "keywords": [
+      "anoikis",
+      "biomarkers",
+      "machine learning",
+      "ulcerative colitis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Diao, Wenxiu",
+        "Huang, Xu",
+        "Huang, Wensha",
+        "Jiang, Jing",
+        "Li, Wentao",
+        "Liu, He",
+        "Yan, Bo",
+        "Shen, Lei"
+      ],
+      "short_names": [
+        "Diao W",
+        "Huang X",
+        "Huang W",
+        "Jiang J",
+        "Li W",
+        "Liu H",
+        "Yan B",
+        "Shen L"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0674-197X"
+      ],
+      "affiliations": [
+        "Department of Gastroenterology, Renmin Hospital of Wuhan University, Wuhan, People's Republic of China.",
+        "Department of Cardiology, No. 971 hospital of The People's Liberation Army Navy, Qingdao, People's Republic of China.",
+        "Department of Gastroenterology, Renmin Hospital of Wuhan University, Wuhan, People's Republic of China.",
+        "Department of Gastroenterology, Renmin Hospital of Wuhan University, Wuhan, People's Republic of China.",
+        "Department of Cardiology, No. 971 hospital of The People's Liberation Army Navy, Qingdao, People's Republic of China.",
+        "Department of Cardiology, No. 971 hospital of The People's Liberation Army Navy, Qingdao, People's Republic of China.",
+        "Department of Cardiology, No. 971 hospital of The People's Liberation Army Navy, Qingdao, People's Republic of China.",
+        "Department of Gastroenterology, Renmin Hospital of Wuhan University, Wuhan, People's Republic of China.",
+        "Department of Gastroenterology, Renmin Hospital of Wuhan University, Wuhan, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Diao, Wenxiu",
+        "short_name": "Diao W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Renmin Hospital of Wuhan University, Wuhan, People's Republic of China.",
+          "Department of Cardiology, No. 971 hospital of The People's Liberation Army Navy, Qingdao, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xu",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Renmin Hospital of Wuhan University, Wuhan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Huang, Wensha",
+        "short_name": "Huang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Renmin Hospital of Wuhan University, Wuhan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Jing",
+        "short_name": "Jiang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, No. 971 hospital of The People's Liberation Army Navy, Qingdao, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Wentao",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, No. 971 hospital of The People's Liberation Army Navy, Qingdao, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, He",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, No. 971 hospital of The People's Liberation Army Navy, Qingdao, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Yan, Bo",
+        "short_name": "Yan B",
+        "identifiers": [
+          "0000-0003-0674-197X"
+        ],
+        "affiliations": [
+          "Department of Gastroenterology, Renmin Hospital of Wuhan University, Wuhan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Shen, Lei",
+        "short_name": "Shen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology, Renmin Hospital of Wuhan University, Wuhan, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of inflammation research"
+    ],
+    "journal_abbrev": [
+      "J Inflamm Res"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/10 17:19",
+    "fetched_at": "2026-09-30 13:16:10"
+  },
+  "links": {
+    "cites": [
+      "42613593",
+      "42428513",
+      "40981471"
+    ],
+    "refs": [
+      "39393129",
+      "39362427",
+      "39286778",
+      "39247592",
+      "39224588",
+      "39095347",
+      "38868713",
+      "38850692",
+      "38723526",
+      "38716300",
+      "38710698",
+      "38003666",
+      "37953380",
+      "37667281",
+      "37573077",
+      "37537585",
+      "37503333",
+      "36841393",
+      "36647141",
+      "35699749",
+      "34850920",
+      "34462553",
+      "33526785",
+      "33288475",
+      "33107673",
+      "31474757",
+      "29223012",
+      "28472344",
+      "26267216",
+      "25822800",
+      "23323831",
+      "22455463",
+      "22257669",
+      "21953325",
+      "21530745",
+      "20064142",
+      "17644558"
+    ],
+    "similar": [
+      "40059945",
+      "40115777",
+      "38656456",
+      "39975557",
+      "39741751",
+      "39730379",
+      "39867944",
+      "39766817",
+      "39026683",
+      "40312440",
+      "38800594",
+      "39568749",
+      "35392084",
+      "36860851",
+      "36419192",
+      "37215183",
+      "37503333",
+      "39898909",
+      "36845139",
+      "31258663",
+      "39170615",
+      "36923072",
+      "37530128",
+      "34925026",
+      "37032832",
+      "38510272",
+      "35719390",
+      "37889323",
+      "37287987",
+      "33987007",
+      "38962743",
+      "37055495",
+      "38849409",
+      "39182484",
+      "39806040",
+      "34731452",
+      "37092131",
+      "37322958",
+      "38785271",
+      "38250142",
+      "37081871",
+      "38987612",
+      "37904419",
+      "32190668",
+      "39931173",
+      "35911963",
+      "40028162",
+      "36660690",
+      "39548254",
+      "38026254",
+      "39666232",
+      "39986196",
+      "38117365",
+      "38303405",
+      "39070131",
+      "39263286",
+      "38880160",
+      "35959356",
+      "40304766",
+      "34592880",
+      "39395728",
+      "37451513",
+      "39403102",
+      "40093957",
+      "37782162",
+      "38312708",
+      "39987439",
+      "36061211",
+      "38951638",
+      "39524758",
+      "37359526",
+      "38519735",
+      "38977802",
+      "39291081",
+      "36742304",
+      "32974809",
+      "40330488",
+      "39732886",
+      "39606164",
+      "35958412",
+      "33323040",
+      "39148969",
+      "39738583",
+      "33941565",
+      "39673621",
+      "37259225",
+      "39582536",
+      "38633005",
+      "35016690",
+      "40093944",
+      "40014587",
+      "38775414",
+      "39568189",
+      "39839184",
+      "37575253",
+      "39697326",
+      "37930439",
+      "33132649",
+      "34321013",
+      "37529244"
+    ],
+    "review": [
+      "40059945"
+    ],
+    "pmc": [
+      "11890311"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40059945/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/JIR.S509659",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

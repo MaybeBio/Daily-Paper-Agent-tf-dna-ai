@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "41415381",
+    "doi": "10.64898/2025.12.08.693064",
+    "title": "Building dynamical models of multi-step state transitions from single cell gene expression trajectories."
+  },
+  "content": {
+    "abstract": "Multi-step cell state transitions often occur in biological processes, such as cell differentiation and disease progression, yet the regulatory mechanisms governing these transitions remain unclear. Here, we introduce NetDes, a computational method that integrates top-down and bottom-up systems biology to infer core transcription factor regulatory networks and build ODE-based dynamical models from single-cell gene expression trajectories. We demonstrate that NetDes predicts regulatory interactions and reproduces gene expression dynamics through benchmarking using in-silico time trajectories with decoys, tests on gene circuit simulations of embryonic phenotypic switching, and application to time-series scRNA-seq data from human iPSC differentiation. Compared to existing approaches, NetDes has the advantage of capturing sequential state transitions within a single dynamical model. Network simulations and coarse-graining further elucidate the regulatory roles of genes and their combinations in driving these transitions. Our approach provides a generalizable framework for mechanistic modeling of gene regulation in complex cell state transitions.",
+    "keywords": [
+      "GRN inference",
+      "cell state transition",
+      "dynamic models",
+      "gene regulatory circuits",
+      "iPSC differentiation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "You, Yukai",
+        "Caranica, Cristian",
+        "Lu, Mingyang"
+      ],
+      "short_names": [
+        "You Y",
+        "Caranica C",
+        "Lu M"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-1002-912X",
+        "ORCID: 0000-0002-5306-4812",
+        "ORCID: 0000-0001-8158-0593"
+      ],
+      "affiliations": [
+        "Center for Theoretical Biological Physics, Northeastern University, Boston, MA 02115, USA.",
+        "Department of Bioengineering, Northeastern University, Boston, MA 02115, USA.",
+        "Center for Theoretical Biological Physics, Northeastern University, Boston, MA 02115, USA.",
+        "Department of Bioengineering, Northeastern University, Boston, MA 02115, USA.",
+        "Center for Theoretical Biological Physics, Northeastern University, Boston, MA 02115, USA.",
+        "Department of Bioengineering, Northeastern University, Boston, MA 02115, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "You, Yukai",
+        "short_name": "You Y",
+        "identifiers": [
+          "0009-0004-1002-912X"
+        ],
+        "affiliations": [
+          "Center for Theoretical Biological Physics, Northeastern University, Boston, MA 02115, USA.",
+          "Department of Bioengineering, Northeastern University, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Caranica, Cristian",
+        "short_name": "Caranica C",
+        "identifiers": [
+          "0000-0002-5306-4812"
+        ],
+        "affiliations": [
+          "Center for Theoretical Biological Physics, Northeastern University, Boston, MA 02115, USA.",
+          "Department of Bioengineering, Northeastern University, Boston, MA 02115, USA."
+        ]
+      },
+      {
+        "full_name": "Lu, Mingyang",
+        "short_name": "Lu M",
+        "identifiers": [
+          "0000-0001-8158-0593"
+        ],
+        "affiliations": [
+          "Center for Theoretical Biological Physics, Northeastern University, Boston, MA 02115, USA.",
+          "Department of Bioengineering, Northeastern University, Boston, MA 02115, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Dec 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/19 06:29",
+    "fetched_at": "2026-10-01 09:08:23"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41183100",
+      "40258839",
+      "39334490",
+      "38609714",
+      "38217125",
+      "37537300",
+      "37244909",
+      "36840360",
+      "36755098",
+      "36698721",
+      "36697417",
+      "36635552",
+      "36575445",
+      "35352511",
+      "35108499",
+      "34168324",
+      "34164628",
+      "33926517",
+      "32917609",
+      "32781932",
+      "32450514",
+      "32302522",
+      "32041960",
+      "31907445",
+      "31870423",
+      "30936559",
+      "30712874",
+      "30668223",
+      "30445495",
+      "30089906",
+      "29914482",
+      "29914354",
+      "29670281",
+      "29507774",
+      "29263797",
+      "29214996",
+      "29123210",
+      "29036714",
+      "28991892",
+      "28968704",
+      "28957658",
+      "28656491",
+      "28379368",
+      "27534536",
+      "27124452",
+      "26688802",
+      "26424082",
+      "26418293",
+      "26066708",
+      "22966074",
+      "22796662",
+      "22761861",
+      "22677291",
+      "20927193",
+      "18957414",
+      "17202159",
+      "16325584",
+      "12183631"
+    ],
+    "similar": [
+      "41415381",
+      "42475469",
+      "41663695",
+      "39257745",
+      "39535258",
+      "39585902",
+      "25162401",
+      "41554051",
+      "41300707",
+      "39570626",
+      "32019417",
+      "36804477",
+      "32391378",
+      "25967891",
+      "41498638",
+      "39644902",
+      "40062616",
+      "35030198",
+      "41758996",
+      "38500834",
+      "42635227",
+      "34822149",
+      "38895453",
+      "37244909",
+      "42119563",
+      "27897008",
+      "41704237",
+      "28296635",
+      "32450514",
+      "35489382",
+      "32871105",
+      "41254784",
+      "31046682",
+      "34164628",
+      "36575445",
+      "40699807",
+      "38032470",
+      "42379340",
+      "41229398",
+      "28640810",
+      "42156756",
+      "41206950",
+      "41052197",
+      "33208095",
+      "37985457",
+      "41883144",
+      "30961611",
+      "41540084",
+      "34251620",
+      "42044093",
+      "40708222",
+      "37607190",
+      "39207727",
+      "36017258",
+      "37577526",
+      "41984780",
+      "41284725",
+      "41107706",
+      "40251476",
+      "38594351",
+      "37864293",
+      "24397936",
+      "41269283",
+      "36321549",
+      "42074532",
+      "38653489",
+      "31189480",
+      "34986805",
+      "41871930",
+      "37085776",
+      "33026066",
+      "34962963",
+      "39934680",
+      "38980373",
+      "41288963",
+      "41867258",
+      "42248920",
+      "38896510",
+      "42265576",
+      "35692809",
+      "42127893",
+      "40662824",
+      "37260149",
+      "32082359",
+      "34556644",
+      "28127303",
+      "42752548",
+      "31624138",
+      "25887857",
+      "42061403",
+      "30547796",
+      "38744843",
+      "41256408",
+      "35961023",
+      "41183107",
+      "42681529",
+      "41972591",
+      "41087386",
+      "38976751",
+      "24669835"
+    ],
+    "review": [
+      "41415381",
+      "41758996",
+      "38032470",
+      "39207727"
+    ],
+    "pmc": [
+      "12709465"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41415381/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2025.12.08.693064",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

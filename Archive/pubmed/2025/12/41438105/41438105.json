@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "41438105",
+    "doi": "10.7717/peerj.20467",
+    "title": "Identification of hypoxia- and mitochondria-related genes associated with recurrent spontaneous abortion: an integrative bioinformatics analysis and preliminary validation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hypoxia and mitochondrial dysfunction have been implicated in recurrent spontaneous abortion (RSA), although the precise molecular mechanisms remain unclear. This study aimed to explore hypoxia- and mitochondria-related genes (HRGs and MRGs) that may be associated with RSA using integrative bioinformatics approaches and preliminary experimental validation. METHODS: We analyzed transcriptomic data and curated a list of HRGs/MRGs, and subsequently identified differentially expressed genes (DEGs) between the RSA and control groups. Overlapping DEGs with HRGs and MRGs revealed candidate genes, which were further validated through machine learning and expression analysis. A nomogram was developed to predict RSA risk based on these genes. Additionally, functional enrichment analysis, immune infiltration profiling, and regulatory network analysis were performed, followed by drug prediction. Reverse transcription quantitative polymerase chain reaction (RT-qPCR) confirmed the differential expression of genes. RESULTS: BSG and TRAK1 were identified, via bioinformatics and RT-qPCR validation, as hypoxia- and mitochondria-related genes associated with RSA. Gene Set Enrichment Analysis (GSEA) suggested that BSG and TRAK1 may be associated with biological pathways such as zinc ion homeostasis and NK cell-mediated cytotoxicity, although their mechanistic roles remain unclear. The nomogram exhibited strong predictive accuracy. BSG and TRAK1 were positively correlated with resting memory CD4+ T cells, with their expression regulated by transcription factors EHMT2 and SUPT5H. Drug prediction analyses, based on gene expression patterns, suggested captopril, valproic acid, and compound 7646-79-9 as potential candidates for future experimental investigation, although their mechanistic roles remain to be validated. CONCLUSION: BSG and TRAK1 are upregulated in RSA and associated with RSA-relevant biological processes. While their functional roles require further investigation, these genes represent promising candidates for future mechanistic and clinical studies.",
+    "keywords": [
+      "BSG",
+      "Gene expression",
+      "Hypoxia",
+      "Mitochondria",
+      "Recurrent spontaneous abortion",
+      "TRAK1"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "Pregnancy",
+      "Computational Biology/methods",
+      "*Abortion, Habitual/genetics",
+      "*Mitochondria/genetics",
+      "*Hypoxia/genetics",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Lin",
+        "Wei, Caini",
+        "Gao, Lili",
+        "Lu, Dongyang"
+      ],
+      "short_names": [
+        "Chen L",
+        "Wei C",
+        "Gao L",
+        "Lu D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Obstetrics and Gynecology, Jiangbin Hospital of Guangxi Zhuang Autonomous Region, Nanning, China.",
+        "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Obstetrics and Gynecology, Red Cross Hospital of Yulin City, Yulin, China.",
+        "Department of Obstetrics and Gynecology, The People's Hospital of Nandan, Hechi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Lin",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Jiangbin Hospital of Guangxi Zhuang Autonomous Region, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Caini",
+        "short_name": "Wei C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Lili",
+        "short_name": "Gao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Red Cross Hospital of Yulin City, Yulin, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Dongyang",
+        "short_name": "Lu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, The People's Hospital of Nandan, Hechi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PeerJ"
+    ],
+    "journal_abbrev": [
+      "PeerJ"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/24 07:43",
+    "fetched_at": "2026-10-01 09:45:35"
+  },
+  "links": {
+    "cites": [
+      "42577872"
+    ],
+    "refs": [
+      "39924476",
+      "39792348",
+      "39621222",
+      "39597081",
+      "39259464",
+      "39091423",
+      "38697696",
+      "38500384",
+      "38454967",
+      "38294000",
+      "38145013",
+      "38139173",
+      "37691920",
+      "37648143",
+      "37559135",
+      "37184079",
+      "37063876",
+      "36769061",
+      "36685506",
+      "36577375",
+      "36438479",
+      "36370522",
+      "36339549",
+      "36308817",
+      "36173462",
+      "35923621",
+      "35568777",
+      "35244789",
+      "35236989",
+      "35084017",
+      "34778450",
+      "34575844",
+      "34512661",
+      "34509037",
+      "34409029",
+      "33917519",
+      "33417589",
+      "33303732",
+      "31600731",
+      "31263422",
+      "31157273",
+      "30993882",
+      "30596275",
+      "29987748",
+      "29847180",
+      "28924745",
+      "28669944",
+      "28412444",
+      "27018158",
+      "25600777",
+      "25364290",
+      "24090196",
+      "23065176",
+      "22455463",
+      "21729976",
+      "19414527",
+      "11549595"
+    ],
+    "similar": [
+      "41438105",
+      "40536920",
+      "36427968",
+      "41073490",
+      "40692778",
+      "39398336",
+      "40705269",
+      "41120378",
+      "39734189",
+      "41334450",
+      "41424725",
+      "41142802",
+      "41200172",
+      "41305746",
+      "41044520",
+      "38783263",
+      "39026663",
+      "41106766",
+      "39920860",
+      "41013556",
+      "39253602",
+      "41422136",
+      "34421922",
+      "40885831",
+      "41326462",
+      "41013727",
+      "39726602",
+      "41084495",
+      "41291978",
+      "39130750",
+      "40203595",
+      "41479901",
+      "39351238",
+      "39916955",
+      "38044432",
+      "40406126",
+      "39265357",
+      "41146237",
+      "32763414",
+      "40313958",
+      "41204556",
+      "39647286",
+      "41340627",
+      "35538543",
+      "41246299",
+      "40475761",
+      "38948287",
+      "29482638",
+      "40374866",
+      "41350988",
+      "40613560",
+      "35583158",
+      "40948769",
+      "41350331",
+      "38384969",
+      "33073936",
+      "38291374",
+      "41053312",
+      "41329780",
+      "40496861",
+      "40775242",
+      "41193924",
+      "39923360",
+      "41214111",
+      "41285996",
+      "37507027",
+      "40821971",
+      "40628511",
+      "39172048",
+      "41300749",
+      "41052072",
+      "40370590",
+      "39375405",
+      "40808946",
+      "40901474",
+      "40374840",
+      "32487076",
+      "41069939",
+      "39026250",
+      "41132649",
+      "39697326",
+      "40714153",
+      "41268559",
+      "39762849",
+      "41137247",
+      "40685483",
+      "40873580",
+      "41357210",
+      "40596265",
+      "40824461",
+      "40918403",
+      "38987688",
+      "40619072",
+      "41059402",
+      "39428564",
+      "41424060",
+      "41107920",
+      "38863714",
+      "39634176",
+      "37265689"
+    ],
+    "review": [
+      "41438105"
+    ],
+    "pmc": [
+      "12721125"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41438105/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-319",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7717/peerj.20467",
+        "provider": "PeerJ, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

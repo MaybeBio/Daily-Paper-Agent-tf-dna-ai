@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results and discussion, conclusion, methods, and supplementary figure references.
+- **Assessment boundary** Scientific validity, technical soundness, novelty claims, and evidentiary support based solely on the provided manuscript text. No external data, figures, or supplementary materials were available for direct inspection.
+- **Shared manuscript claim summary** The authors report the design, synthesis, and characterization of a double-stapled peptide (DSARVT) that simultaneously stabilizes both α-helix and β-sheet secondary structures. This peptide acts as a proteolysis-targeting chimera (PROTAC) to degrade both full-length androgen receptor (AR) and its splice variant AR-V7, showing enhanced stability, membrane permeability, and antitumor activity in vitro and in vivo.
+- **Visible evidence base** Text descriptions of molecular dynamics simulations, circular dichroism, binding assays (ITC, FP), co-immunoprecipitation, cell viability assays, immunoblotting, confocal microscopy, in vivo xenograft studies, pharmacokinetics, and acute toxicity analyses. Specific numerical data, statistical outputs, and figure panels are referenced but not directly visible.
+- **Missing materials affecting confidence** All figures, tables, and supplementary figures are referenced but not provided. Raw numerical data, statistical analysis outputs, experimental replicates, and detailed method parameters (e.g., peptide concentrations, incubation times, animal numbers per group) are not available for verification.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to expand peptide stapling beyond α-helical stabilization to include β-sheet structures, applied to a clinically relevant target (AR-V7 in castration-resistant prostate cancer). The double-stapled peptide design is novel and the reported functional outcomes are promising. However, the evidence as presented in the text is insufficient to fully validate the central claims. Key quantitative data, statistical analyses, and experimental details are referenced but not shown, preventing rigorous assessment of reproducibility and robustness. The in vivo efficacy and safety data are described qualitatively, and the mechanistic link between dual secondary structure stabilization and enhanced PROTAC function is not directly demonstrated.
+- **Who would be interested in the results, and why** Researchers in peptide therapeutics, protein engineering, targeted protein degradation (PROTACs), and prostate cancer biology. The work addresses a recognized limitation in peptide stapling (β-sheet stabilization) and offers a potential strategy for targeting transcription factors considered "undruggable" by conventional small molecules. The findings could inform future design of stapled peptide-based degraders for other challenging targets.
+- **Major strengths**
+  1. Novel conceptual advance: first reported double-stapled peptide stabilizing both α-helix and β-sheet conformations within a single molecule.
+  2. Clinically relevant target: AR-V7 is a key driver of resistance to enzalutamide in prostate cancer, and no approved targeted therapy exists.
+  3. Comprehensive in vitro and in vivo characterization plan, including binding, degradation, signaling pathway analysis, pharmacokinetics, and toxicity.
+  4. Clear translational potential with demonstrated antitumor efficacy in a resistant xenograft model.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that DSARVT simultaneously stabilizes both α-helix and β-sheet structures, validated by molecular dynamics simulations and circular dichroism.
+  - **Evidence pointer** Figure 1C, 1D, 1E; Methods section "Stapled Peptide Structure Simulation and Dynamic Analysis"
+  - **Concern** The text states that MD simulations and CD analysis validate the dual stabilization, but no quantitative data are provided. The simulation trajectory analysis (500-1000 ns) and CD spectra are referenced only as figures. The specific metrics used to define "advanced folding" and the comparison of α-helix and β-sheet content between DSARVT and linear ARTC are not described numerically.
+  - **Why it matters** The central novelty of the manuscript rests on the claim that both secondary structures are simultaneously stabilized. Without quantitative evidence (e.g., percent helicity, β-sheet fraction, RMSD, free energy calculations), this claim cannot be independently verified. If the dual stabilization is not robust, the entire premise of the "first-in-class" designation is weakened.
+  - **Resolution test** Provide quantitative CD data (mean residue ellipticity at characteristic wavelengths) and MD-derived metrics (e.g., secondary structure population over time, hydrogen bond occupancy) for both DSARVT and ARTC. Show statistical comparison between the two peptides.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that DSARVT effectively degrades both full-length AR and AR-V7 in a dose-dependent manner, with DC50 values of 2.45 and 1.23 μM in CWR22Rv1 cells, respectively.
+  - **Evidence pointer** Figures 3D–F; Results section "To further investigate the capability of DSARVT to induce AR and AR-V7 degradation..."
+  - **Concern** The DC50 values are stated, but the immunoblot data are not shown. No information is provided on the number of independent experiments, error bars, or statistical significance. The claim that degradation is proteasome-dependent relies on reversal by carfilzomib, but the extent of reversal and dose-response relationship are not quantified.
+  - **Why it matters** The functional efficacy of DSARVT as a PROTAC is a core claim. Without visible immunoblot data and statistical analysis, the reader cannot assess the reliability or magnitude of the degradation effect. The DC50 values are presented without confidence intervals or replicate information.
+  - **Resolution test** Show representative immunoblots with loading controls, densitometry quantification from at least three independent experiments, and statistical analysis (e.g., mean ± SD, p values). Provide dose-response curves for DC50 determination with confidence intervals.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that DSARVT significantly inhibits tumor growth in an enzalutamide-resistant CWR22Rv1 xenograft model, with no significant toxicity.
+  - **Evidence pointer** Figures 4A–F, 5D; Results section "To evaluate the therapeutic potential of DSARVT..."
+  - **Concern** The in vivo efficacy data are described qualitatively. Tumor growth curves, tumor weights, and survival data are not shown. The number of mice per group is stated as 5, but no statistical analysis is presented. The toxicity assessment is limited to serum biomarkers (ALT, AST, CREA, LDH) at a single time point, with no histopathological data or body weight curves shown.
+  - **Why it matters** The translational potential of DSARVT depends on demonstrable in vivo efficacy and safety. Without quantitative tumor measurements and statistical comparisons, the claim of "significant inhibition" is unsupported. The toxicity data are insufficient to conclude "no significant toxicity" as only four biomarkers were assessed.
+  - **Resolution test** Provide tumor growth curves with individual data points, tumor weights at endpoint, statistical comparisons between groups (e.g., ANOVA with post-hoc tests), and body weight changes over time. Include histopathology of major organs and a more comprehensive toxicity panel.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic validation
+  - **Claim pointer** The authors claim that the double-stapling modification enhances binding affinity and proteasomal degradation compared to the linear peptide.
+  - **Evidence pointer** Figures 2A–D; Results section "To ensure that the double-stapled peptide modification did not affect the binding..."
+  - **Concern** The binding affinity data (ITC and FP) are referenced but not shown. The text states that DSARVT maintained high binding affinity "similar to" the nonstapled peptide, but no quantitative Kd values are provided. The claim that stapling enhances degradation is not directly compared to ARTC in the same assay.
+  - **Why it matters** The advantage of stapling over the linear peptide is a key rationale for the design. Without quantitative binding constants and a direct head-to-head comparison of degradation efficacy, the added value of the double-stapling strategy is not established.
+  - **Resolution test** Provide Kd values for DSARVT and ARTC binding to AR DBD and MDM2, with errors and statistical comparison. Show degradation dose-response curves for both peptides in the same cell line.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Stapled Peptide Structure Simulation and Dynamic Analysis"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the MD simulation setup is incomplete. The force field parameters for the nonstandard stapled amino acids are mentioned but not detailed. The equilibration protocol is described, but the production run length is stated as 500 ns in Methods while the Results section refers to a trajectory from 500 to 1000 ns.
+  - **Required correction** Clarify the total simulation time and reconcile the discrepancy between Methods and Results. Provide details on how the stapled amino acid parameters were derived and validated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Cell Viability Assay"
+  - **Evidence pointer** Methods section
+  - **Issue** The cell viability assay description states "three independent samples plated in duplicate for each concentration," which is ambiguous. It is unclear whether this means three biological replicates with two technical replicates each, or another arrangement.
+  - **Required correction** Clarify the experimental design and specify the number of independent experiments performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Methods section "Statistics"
+  - **Evidence pointer** Methods section
+  - **Issue** The statistical methods are described, but no effect sizes, confidence intervals, or exact p values are reported in the Results section. The use of the Kruskal–Wallis test for multiple comparisons is appropriate for nonparametric data, but it is unclear whether all data met the assumptions for this test.
+  - **Required correction** Report exact p values or confidence intervals for all key comparisons. State which comparisons were made and whether corrections for multiple testing were applied.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "To evaluate the therapeutic potential of DSARVT..."
+  - **Evidence pointer** Results section
+  - **Issue** The in vivo study description mentions "four treatment groups: PBS, free peptide, DSARVT, and enzalutamide," but the dosing schedule, route of administration, and formulation details are not provided in the Methods.
+  - **Required correction** Add a detailed description of the in vivo study design, including dosing, administration route, and vehicle controls.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "To assess the in vivo circulation stability of DSARVT..."
+  - **Evidence pointer** Figure 5A–C
+  - **Issue** The pharmacokinetic data are described, but the units for Cmax and AUC are not specified in the text. The statement that ARTC is "rapidly degraded and undetectable" lacks quantitative support.
+  - **Required correction** Specify units for all pharmacokinetic parameters and provide the limit of detection for the assay used to measure ARTC.
+
+## Risk / unsupported claims
+- The claim that DSARVT is "first-in-class" as a heterogeneous-conformational double-stapled peptide is not verifiable from the provided text alone, as no comprehensive literature comparison is presented.
+- The claim that the double-stapling strategy "enhances binding affinity" is not supported by quantitative data; the text only states that binding is maintained.
+- The claim that DSARVT "effectively inhibits tumor growth" in vivo is unsupported without tumor growth curves and statistical analysis.
+- The claim of "no significant toxicity" is based on limited serum biomarkers and lacks histopathological evidence.
+- The mechanistic link between dual secondary structure stabilization and improved PROTAC function (degradation efficacy) is asserted but not directly demonstrated through structure-function studies.
+- The statement that DSARVT shows "enhanced stability" is supported only by qualitative descriptions of serum and enzyme degradation assays; no quantitative half-life or degradation rate data are provided.

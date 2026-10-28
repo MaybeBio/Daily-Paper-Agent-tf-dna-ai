@@ -1,0 +1,5 @@
+# CRISPR-SID: Identifying EZH2 as a druggable target for desmoid tumors via in vivo dependency mapping
+
+
+## Significance
+  CRISPR-SID was established in the diploid frog Xenopus tropicalis for in vivo elucidation of cancer cell vulnerabilities. CRISPR-SID uses deep-learning predictions and binomial theory to identify genes under positive or negative selection during autochthonous tumor development. Using CRISPR-SID in a genetic model for desmoid tumors, treatment-recalcitrant mesenchymal tumors driven by hyperactivation of the Wnt signaling pathway, we identified EZH2 and SUZ12, both encoding critical components of the polycomb repressive complex 2, as dependency genes for desmoid tumors. Finally, we demonstrate the promise of EZH2 inhibition as a therapeutic strategy for desmoid tumors. With the simplicity of CRISPR sgRNA multiplexing in Xenopus embryos, the CRISPR-SID method may be applicable to reveal vulnerabilities in other tumor types.

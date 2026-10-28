@@ -1,0 +1,435 @@
+{
+  "identity": {
+    "pmid": "37974098",
+    "doi": "10.1186/s12872-023-03593-1",
+    "title": "Integrating scRNA-seq to explore novel macrophage infiltration-associated biomarkers for diagnosis of heart failure."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Inflammation and immune cells are closely intertwined mechanisms that contribute to the progression of heart failure (HF). Nonetheless, there is a paucity of information regarding the distinct features of dysregulated immune cells and efficient diagnostic biomarkers linked with HF. This study aims to explore diagnostic biomarkers related to immune cells in HF to gain new insights into the underlying molecular mechanisms of HF and to provide novel perspectives for the detection and treatment of HF. METHOD: The CIBERSORT method was employed to quantify 22 types of immune cells in HF and normal subjects from publicly available GEO databases (GSE3586, GSE42955, GSE57338, and GSE79962). Machine learning methods were utilized to screen for important cell types. Single-cell RNA sequencing (GSE145154) was further utilized to identify important cell types and hub genes. WGCNA was employed to screen for immune cell-related genes and ultimately diagnostic models were constructed and evaluated. To validate these predictive results, blood samples were collected from 40 normal controls and 40 HF patients for RT-qPCR analysis. Lastly, key cell clusters were divided into high and low biomarker expression groups to identify transcription factors that may affect biomarkers. RESULTS: The study found a noticeable difference in immune environment between HF and normal subjects. Macrophages were identified as key immune cells by machine learning. Single-cell analysis further showed that macrophages differed dramatically between HF and normal subjects. This study revealed the existence of five subsets of macrophages that have different differentiation states. Based on module genes most relevant to macrophages, macrophage differentiation-related genes (MDRGs), and DEGs in HF and normal subjects from GEO datasets, four genes (CD163, RNASE2, LYVE1, and VSIG4) were identified as valid diagnostic markers for HF. Ultimately, a diagnostic model containing two hub genes was constructed and then validated with a validation dataset and clinical samples. In addition, key transcription factors driving or maintaining the biomarkers expression programs were identified. CONCLUSION: The analytical results and diagnostic model of this study can assist clinicians in identifying high-risk individuals, thereby aiding in guiding treatment decisions for patients with HF.",
+    "keywords": [
+      "Biomarker",
+      "Heart failure",
+      "Immune infiltration",
+      "Machine learning",
+      "Macrophage"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Single-Cell Gene Expression Analysis",
+      "Biomarkers",
+      "*Heart Failure/diagnosis/genetics",
+      "Macrophages",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Shengnan",
+        "Ge, Tiantian",
+        "Xu, Xuan",
+        "Xie, Liang",
+        "Song, Sifan",
+        "Li, Runqian",
+        "Li, Hao",
+        "Tong, Jiayi"
+      ],
+      "short_names": [
+        "Li S",
+        "Ge T",
+        "Xu X",
+        "Xie L",
+        "Song S",
+        "Li R",
+        "Li H",
+        "Tong J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiology, Zhongda Hospital of Southeast University, Nanjing, 210009, Jiangsu, China.",
+        "Department of Cardiology, Zhongda Hospital of Southeast University, Nanjing, 210009, Jiangsu, China.",
+        "Department of Cardiology, Zhongda Hospital of Southeast University, Nanjing, 210009, Jiangsu, China.",
+        "School of Medicine, Southeast University, Nanjing, 210009, China.",
+        "Department of Cardiology, Zhongda Hospital of Southeast University, Nanjing, 210009, Jiangsu, China.",
+        "Department of Cardiology, Zhongda Hospital of Southeast University, Nanjing, 210009, Jiangsu, China.",
+        "The Laboratory Animal Research Center, Jiangsu University, Zhenjiang, 212013, China.",
+        "Department of Cardiology, Zhongda Hospital of Southeast University, Nanjing, 210009, Jiangsu, China. 101007925@seu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Shengnan",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongda Hospital of Southeast University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Tiantian",
+        "short_name": "Ge T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongda Hospital of Southeast University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xuan",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongda Hospital of Southeast University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Liang",
+        "short_name": "Xie L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Southeast University, Nanjing, 210009, China."
+        ]
+      },
+      {
+        "full_name": "Song, Sifan",
+        "short_name": "Song S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongda Hospital of Southeast University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Runqian",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongda Hospital of Southeast University, Nanjing, 210009, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hao",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "The Laboratory Animal Research Center, Jiangsu University, Zhenjiang, 212013, China."
+        ]
+      },
+      {
+        "full_name": "Tong, Jiayi",
+        "short_name": "Tong J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Zhongda Hospital of Southeast University, Nanjing, 210009, Jiangsu, China. 101007925@seu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC cardiovascular disorders"
+    ],
+    "journal_abbrev": [
+      "BMC Cardiovasc Disord"
+    ],
+    "pub_date": "2023 Nov 16",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/17 15:24",
+    "fetched_at": "2026-09-29 10:18:51"
+  },
+  "links": {
+    "cites": [
+      "42361012",
+      "41798077",
+      "41789108",
+      "41561130",
+      "41403700",
+      "40760666",
+      "40630963",
+      "40342960",
+      "39558055",
+      "39159065",
+      "39152369",
+      "38397422"
+    ],
+    "refs": [
+      "36439178",
+      "36401283",
+      "36314488",
+      "36248886",
+      "35959412",
+      "35418482",
+      "35230809",
+      "34601654",
+      "33852110",
+      "33203735",
+      "32902739",
+      "32163341",
+      "31661975",
+      "30419824",
+      "30062209",
+      "29854842",
+      "29712858",
+      "28991892",
+      "28794054",
+      "28612904",
+      "28597803",
+      "28432635",
+      "28262700",
+      "28067713",
+      "27527162",
+      "27367736",
+      "27340274",
+      "27168143",
+      "26916171",
+      "26184157",
+      "25605792",
+      "25528681",
+      "24439267",
+      "24339868",
+      "23894370",
+      "23313577",
+      "22946776",
+      "20427518",
+      "19961729",
+      "19114008",
+      "17045896",
+      "15948094",
+      "15774854",
+      "15624200",
+      "15528350",
+      "15454172",
+      "12798574",
+      "12796126",
+      "11756196"
+    ],
+    "similar": [
+      "37974098",
+      "38656659",
+      "37390254",
+      "37008314",
+      "38509983",
+      "36211422",
+      "35128826",
+      "37334672",
+      "36186997",
+      "35942730",
+      "39351221",
+      "36386304",
+      "39062507",
+      "38562184",
+      "38370978",
+      "38533476",
+      "37691920",
+      "36699262",
+      "38699746",
+      "36699999",
+      "34218797",
+      "36439178",
+      "37942473",
+      "37063851",
+      "37965330",
+      "36246593",
+      "37143707",
+      "39152369",
+      "36061826",
+      "36973787",
+      "36782329",
+      "35592331",
+      "37507655",
+      "36405745",
+      "38062883",
+      "37515398",
+      "37732314",
+      "37854191",
+      "39328516",
+      "37275904",
+      "36438903",
+      "37359526",
+      "38147020",
+      "35958412",
+      "36304554",
+      "38716195",
+      "37777104",
+      "38371312",
+      "36685529",
+      "36405716",
+      "38444758",
+      "38089628",
+      "39427047",
+      "37122694",
+      "38397416",
+      "38576566",
+      "39275894",
+      "36148059",
+      "36372305",
+      "36341378",
+      "36995411",
+      "34520765",
+      "37498303",
+      "35850644",
+      "36125921",
+      "38347953",
+      "36704339",
+      "35367598",
+      "36071497",
+      "37773794",
+      "35845512",
+      "35769488",
+      "36746103",
+      "37275875",
+      "36440001",
+      "37891634",
+      "36222281",
+      "35651940",
+      "33563285",
+      "37408607",
+      "33598484",
+      "37650991",
+      "34593936",
+      "34767108",
+      "36823662",
+      "37662825",
+      "33564304",
+      "37545529",
+      "37033969",
+      "36011263",
+      "35601837",
+      "39427832",
+      "37594094",
+      "36860337",
+      "38026254",
+      "36072582",
+      "35713363",
+      "36589450",
+      "37503333",
+      "37359529",
+      "37609434",
+      "35911963",
+      "30419824",
+      "38050560",
+      "36777638",
+      "35692390",
+      "37683138",
+      "38979407",
+      "35058712",
+      "37867954",
+      "35305619",
+      "34321013",
+      "36642989",
+      "37941896",
+      "37247080",
+      "35433865",
+      "37841288",
+      "36222336",
+      "36544902",
+      "37092838",
+      "39049829",
+      "37878760",
+      "25725476",
+      "38455553",
+      "38328563",
+      "38022594",
+      "38702954",
+      "38481992",
+      "38517374",
+      "38020758",
+      "37332931",
+      "38846957",
+      "39418810",
+      "37455460",
+      "36876847",
+      "38789829",
+      "38169383",
+      "38593729",
+      "38035102",
+      "39170450",
+      "38681071",
+      "38169915",
+      "37944069",
+      "38333021",
+      "38564938",
+      "38152337",
+      "39040415",
+      "38259686",
+      "38224222",
+      "38509896",
+      "39430538",
+      "39422029",
+      "39364781",
+      "38332910",
+      "39405019",
+      "39413794",
+      "39242367",
+      "39159065",
+      "38328228",
+      "27774262"
+    ],
+    "review": [
+      "37974098",
+      "35367598",
+      "37455460",
+      "36876847",
+      "38224222",
+      "39405019",
+      "39159065"
+    ],
+    "pmc": [
+      "10652463"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmccardiovascdisord.biomedcentral.com/articles/10.1186/s12872-023-03593-1",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/heartfailure.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Failure"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37974098/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37974098",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GZMA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2658",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

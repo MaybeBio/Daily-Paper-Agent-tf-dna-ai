@@ -1,0 +1,574 @@
+{
+  "identity": {
+    "pmid": "35013281",
+    "doi": "10.1038/s41467-021-27798-0",
+    "title": "Spatial transcriptomics using combinatorial fluorescence spectral and lifetime encoding, imaging and analysis."
+  },
+  "content": {
+    "abstract": "Multiplexed mRNA profiling in the spatial context provides new information enabling basic research and clinical applications. Unfortunately, existing spatial transcriptomics methods are limited due to either low multiplexing or complexity. Here, we introduce a spatialomics technology, termed Multi Omic Single-scan Assay with Integrated Combinatorial Analysis (MOSAICA), that integrates in situ labeling of mRNA and protein markers in cells or tissues with combinatorial fluorescence spectral and lifetime encoded probes, spectral and time-resolved fluorescence imaging, and machine learning-based decoding. We demonstrate MOSAICA's multiplexing scalability in detecting 10-plex targets in fixed colorectal cancer cells using combinatorial labeling of five fluorophores with facile error-detection and removal of autofluorescence. MOSAICA's analysis is strongly correlated with sequencing data (Pearson's r = 0.96) and was further benchmarked using RNAscope(TM) and LGC Stellaris(TM). We further apply MOSAICA for multiplexed analysis of clinical melanoma Formalin-Fixed Paraffin-Embedded (FFPE) tissues. We finally demonstrate simultaneous co-detection of protein and mRNA in cancer cells.",
+    "keywords": [],
+    "mesh_terms": [
+      "BRCA1 Protein/genetics/metabolism",
+      "Benchmarking",
+      "Cell Line, Tumor",
+      "Colon/metabolism/pathology",
+      "DNA-Directed RNA Polymerases/genetics/metabolism",
+      "Diagnostic Imaging/instrumentation/*methods",
+      "Fluorescent Dyes/chemistry",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation",
+      "HEK293 Cells",
+      "Humans",
+      "Ki-67 Antigen/genetics/metabolism",
+      "Melanoma/diagnostic imaging/*genetics/metabolism/pathology",
+      "Microscopy, Fluorescence/instrumentation/methods",
+      "Nuclear Receptor Coactivator 3/genetics/metabolism",
+      "RNA, Messenger/*genetics/metabolism",
+      "Skin Neoplasms/diagnostic imaging/*genetics/metabolism/pathology",
+      "Spatial Analysis",
+      "TOR Serine-Threonine Kinases/genetics/metabolism",
+      "*Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vu, Tam",
+        "Vallmitjana, Alexander",
+        "Gu, Joshua",
+        "La, Kieu",
+        "Xu, Qi",
+        "Flores, Jesus",
+        "Zimak, Jan",
+        "Shiu, Jessica",
+        "Hosohama, Linzi",
+        "Wu, Jie",
+        "Douglas, Christopher",
+        "Waterman, Marian L",
+        "Ganesan, Anand",
+        "Hedde, Per Niklas",
+        "Gratton, Enrico",
+        "Zhao, Weian"
+      ],
+      "short_names": [
+        "Vu T",
+        "Vallmitjana A",
+        "Gu J",
+        "La K",
+        "Xu Q",
+        "Flores J",
+        "Zimak J",
+        "Shiu J",
+        "Hosohama L",
+        "Wu J",
+        "Douglas C",
+        "Waterman ML",
+        "Ganesan A",
+        "Hedde PN",
+        "Gratton E",
+        "Zhao W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7149-9385",
+        "ORCID: 0000-0003-4124-1364",
+        "ORCID: 0000-0003-4823-4968",
+        "ORCID: 0000-0002-2994-369X",
+        "ORCID: 0000-0002-6450-7391",
+        "ORCID: 0000-0002-7794-9914"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Sue and Bill Gross Stem Cell Research Center, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Department of Biomedical Engineering, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Laboratory for Fluorescence Dynamics, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Sue and Bill Gross Stem Cell Research Center, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Department of Biological Chemistry, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Department of Biomedical Engineering, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Department of Biomedical Engineering, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Sue and Bill Gross Stem Cell Research Center, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "CIRM Stem Cell Research Biotechnology Training Program at California State University, Long Beach, Long Beach, CA, 90840, USA.",
+        "Department of Pharmaceutical Sciences, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Department of Dermatology, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Department of Microbiology and Molecular Genetics, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Department of Biological Chemistry, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Chao Family Comprehensive Cancer Center, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Department of Pathology & Laboratory Medicine, University of California, Irvine, Irvine, CA, 92617, USA.",
+        "Department of Microbiology and Molecular Genetics, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Chao Family Comprehensive Cancer Center, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Department of Biological Chemistry, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Department of Dermatology, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Chao Family Comprehensive Cancer Center, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Laboratory for Fluorescence Dynamics, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Department of Pharmaceutical Sciences, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Beckman Laser Institute & Medical Clinic, University of California, Irvine, Irvine, CA, 92697, USA.",
+        "Department of Biomedical Engineering, University of California, Irvine, Irvine, CA, 92697, USA. egratton22@gmail.com.",
+        "Laboratory for Fluorescence Dynamics, University of California, Irvine, Irvine, CA, 92697, USA. egratton22@gmail.com.",
+        "Beckman Laser Institute & Medical Clinic, University of California, Irvine, Irvine, CA, 92697, USA. egratton22@gmail.com.",
+        "Department of Biomedical Engineering, University of California, Irvine, Irvine, CA, 92697, USA. weianz@uci.edu.",
+        "Sue and Bill Gross Stem Cell Research Center, University of California, Irvine, Irvine, CA, 92697, USA. weianz@uci.edu.",
+        "Department of Biological Chemistry, University of California, Irvine, Irvine, CA, 92697, USA. weianz@uci.edu.",
+        "Department of Pharmaceutical Sciences, University of California, Irvine, Irvine, CA, 92697, USA. weianz@uci.edu.",
+        "Chao Family Comprehensive Cancer Center, University of California, Irvine, Irvine, CA, 92697, USA. weianz@uci.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vu, Tam",
+        "short_name": "Vu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of California, Irvine, Irvine, CA, 92697, USA.",
+          "Sue and Bill Gross Stem Cell Research Center, University of California, Irvine, Irvine, CA, 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Vallmitjana, Alexander",
+        "short_name": "Vallmitjana A",
+        "identifiers": [
+          "0000-0002-7149-9385"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of California, Irvine, Irvine, CA, 92697, USA.",
+          "Laboratory for Fluorescence Dynamics, University of California, Irvine, Irvine, CA, 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Gu, Joshua",
+        "short_name": "Gu J",
+        "identifiers": [],
+        "affiliations": [
+          "Sue and Bill Gross Stem Cell Research Center, University of California, Irvine, Irvine, CA, 92697, USA.",
+          "Department of Biological Chemistry, University of California, Irvine, Irvine, CA, 92697, USA."
+        ]
+      },
+      {
+        "full_name": "La, Kieu",
+        "short_name": "La K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of California, Irvine, Irvine, CA, 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Qi",
+        "short_name": "Xu Q",
+        "identifiers": [
+          "0000-0003-4124-1364"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of California, Irvine, Irvine, CA, 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Flores, Jesus",
+        "short_name": "Flores J",
+        "identifiers": [],
+        "affiliations": [
+          "Sue and Bill Gross Stem Cell Research Center, University of California, Irvine, Irvine, CA, 92697, USA.",
+          "CIRM Stem Cell Research Biotechnology Training Program at California State University, Long Beach, Long Beach, CA, 90840, USA."
+        ]
+      },
+      {
+        "full_name": "Zimak, Jan",
+        "short_name": "Zimak J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of California, Irvine, Irvine, CA, 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Shiu, Jessica",
+        "short_name": "Shiu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, University of California, Irvine, Irvine, CA, 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Hosohama, Linzi",
+        "short_name": "Hosohama L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, University of California, Irvine, Irvine, CA, 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Jie",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, University of California, Irvine, Irvine, CA, 92697, USA.",
+          "Chao Family Comprehensive Cancer Center, University of California, Irvine, Irvine, CA, 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Douglas, Christopher",
+        "short_name": "Douglas C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology & Laboratory Medicine, University of California, Irvine, Irvine, CA, 92617, USA."
+        ]
+      },
+      {
+        "full_name": "Waterman, Marian L",
+        "short_name": "Waterman ML",
+        "identifiers": [
+          "0000-0003-4823-4968"
+        ],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, University of California, Irvine, Irvine, CA, 92697, USA.",
+          "Chao Family Comprehensive Cancer Center, University of California, Irvine, Irvine, CA, 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Ganesan, Anand",
+        "short_name": "Ganesan A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, University of California, Irvine, Irvine, CA, 92697, USA.",
+          "Department of Dermatology, University of California, Irvine, Irvine, CA, 92697, USA.",
+          "Chao Family Comprehensive Cancer Center, University of California, Irvine, Irvine, CA, 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Hedde, Per Niklas",
+        "short_name": "Hedde PN",
+        "identifiers": [
+          "0000-0002-2994-369X"
+        ],
+        "affiliations": [
+          "Laboratory for Fluorescence Dynamics, University of California, Irvine, Irvine, CA, 92697, USA.",
+          "Department of Pharmaceutical Sciences, University of California, Irvine, Irvine, CA, 92697, USA.",
+          "Beckman Laser Institute & Medical Clinic, University of California, Irvine, Irvine, CA, 92697, USA."
+        ]
+      },
+      {
+        "full_name": "Gratton, Enrico",
+        "short_name": "Gratton E",
+        "identifiers": [
+          "0000-0002-6450-7391"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of California, Irvine, Irvine, CA, 92697, USA. egratton22@gmail.com.",
+          "Laboratory for Fluorescence Dynamics, University of California, Irvine, Irvine, CA, 92697, USA. egratton22@gmail.com.",
+          "Beckman Laser Institute & Medical Clinic, University of California, Irvine, Irvine, CA, 92697, USA. egratton22@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Zhao, Weian",
+        "short_name": "Zhao W",
+        "identifiers": [
+          "0000-0002-7794-9914"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of California, Irvine, Irvine, CA, 92697, USA. weianz@uci.edu.",
+          "Sue and Bill Gross Stem Cell Research Center, University of California, Irvine, Irvine, CA, 92697, USA. weianz@uci.edu.",
+          "Department of Biological Chemistry, University of California, Irvine, Irvine, CA, 92697, USA. weianz@uci.edu.",
+          "Department of Pharmaceutical Sciences, University of California, Irvine, Irvine, CA, 92697, USA. weianz@uci.edu.",
+          "Chao Family Comprehensive Cancer Center, University of California, Irvine, Irvine, CA, 92697, USA. weianz@uci.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2022 Jan 10",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/12 06:00",
+    "fetched_at": "2026-09-28 04:00:31"
+  },
+  "links": {
+    "cites": [
+      "42566471",
+      "42358350",
+      "42345756",
+      "42344290",
+      "42298141",
+      "41965413",
+      "41892326",
+      "41723338",
+      "41403916",
+      "41365678",
+      "41168495",
+      "40832294",
+      "40678709",
+      "40341789",
+      "39953137",
+      "39932308",
+      "39900756",
+      "39704725",
+      "39635302",
+      "39527218",
+      "39171294",
+      "39105173",
+      "38339232",
+      "37858234",
+      "37791286",
+      "37781515",
+      "37649712",
+      "37647987",
+      "37592342",
+      "37449403",
+      "37434000",
+      "37234284",
+      "37123874",
+      "37039236",
+      "36831283",
+      "36712353",
+      "36514162",
+      "36478047",
+      "36459212",
+      "36376874",
+      "36313703",
+      "36190014",
+      "35884997",
+      "35528031"
+    ],
+    "refs": [
+      "34341583",
+      "34221668",
+      "34117344",
+      "33859440",
+      "33188776",
+      "32406215",
+      "32393914",
+      "32377572",
+      "32235070",
+      "32024828",
+      "31959985",
+      "31597973",
+      "31501331",
+      "31110282",
+      "30923225",
+      "30911168",
+      "30827078",
+      "30193111",
+      "30190551",
+      "30075145",
+      "30061659",
+      "29723639",
+      "29555914",
+      "29463736",
+      "29377014",
+      "29246028",
+      "29217582",
+      "29138507",
+      "28690958",
+      "28594816",
+      "28482897",
+      "28001340",
+      "27911841",
+      "27764670",
+      "27625426",
+      "27187374",
+      "26430156",
+      "25867923",
+      "25858977",
+      "25645249",
+      "25578980",
+      "24499728",
+      "23723466",
+      "23214184",
+      "22714302",
+      "22621335",
+      "22166544",
+      "21472693",
+      "21425242",
+      "19171886",
+      "18324453",
+      "17981902",
+      "16864893",
+      "16258103"
+    ],
+    "similar": [
+      "35013281",
+      "38775954",
+      "22660740",
+      "18204435",
+      "36147664",
+      "22362219",
+      "32681506",
+      "26813157",
+      "31501331",
+      "31502169",
+      "15538113",
+      "10918279",
+      "23125305",
+      "32946880",
+      "35194913",
+      "10598872",
+      "11725203",
+      "24753024",
+      "21501420",
+      "23818604",
+      "27625426",
+      "9646029",
+      "33136101",
+      "27318114",
+      "23233170",
+      "26892443",
+      "32394392",
+      "31535400",
+      "39099456",
+      "27241751",
+      "25835783",
+      "19400712",
+      "19521263",
+      "22272228",
+      "25442074",
+      "22212396",
+      "21081927",
+      "27779100",
+      "30095463",
+      "23361273",
+      "15619215",
+      "27911841",
+      "30154148",
+      "34681761",
+      "35584304",
+      "15737846",
+      "24921725",
+      "23303449",
+      "32639949",
+      "34445351",
+      "36796537",
+      "23360785",
+      "17594473",
+      "34916672",
+      "21732775",
+      "10541167",
+      "27389414",
+      "29377892",
+      "28323041",
+      "19883579",
+      "25486183",
+      "29708815",
+      "12926238",
+      "22489330",
+      "28616701",
+      "35094326",
+      "31230715",
+      "16619000",
+      "11277490",
+      "31004080",
+      "25218386",
+      "16965333",
+      "27832134",
+      "19887478",
+      "19190520",
+      "25218385",
+      "30611259",
+      "23176534",
+      "33572647",
+      "23063511",
+      "33110110",
+      "27535130",
+      "27852308",
+      "25858977",
+      "24429975",
+      "22525428",
+      "21549012",
+      "20041153",
+      "27391327",
+      "20179022",
+      "31427819",
+      "12353704",
+      "22411186",
+      "31790435",
+      "38663032",
+      "37267161",
+      "36944604",
+      "33420318",
+      "37961266",
+      "29993362",
+      "38151595",
+      "19830273",
+      "36316562",
+      "34811556"
+    ],
+    "review": [
+      "35013281",
+      "36147664",
+      "19400712",
+      "23360785",
+      "28323041",
+      "11277490",
+      "36944604"
+    ],
+    "pmc": [
+      "8748653"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diagnosticimaging.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diagnostic Imaging"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-021-27798-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35013281/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35013281",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1256",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt9tz5z031",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35013281",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

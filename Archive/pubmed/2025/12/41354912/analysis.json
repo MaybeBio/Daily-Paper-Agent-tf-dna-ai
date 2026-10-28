@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41354912",
+  "title": "A DSSM network for inferring and prioritizing cell-type-specific regulons using single-cell RNA-seq data.",
+  "authors": "Fan, Yaxin; Mei, Yichao; Bao, Shengbao; Wang, Jianyong; Gao, Junxiang",
+  "journal": "BMC bioinformatics",
+  "published_date": "2025-12-08",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度语义模型整合单细胞转录组和TF基序数据推断细胞类型特异性regulons，虽涉及TF-靶基因调控关系，但主要基于序列和表达统计，缺乏三维结构或动态互作建模，方法可迁移但非核心TF-DNA互作机制研究。",
+  "abstract": "BACKGROUND: Transcription factors and their target genes form regulatory modules known as regulons, which exhibit significant specificity across various cell types. The integration of single-cell transcriptome data, transcription factor motif data, and ChIP-seq data presents a challenging task in identifying cell-type-specific regulons and examining their activities. RESULTS: In response, this study presents a Deep Structured Semantic Model for inferring and prioritizing cell-type-specific Regulons (DSSMReg). This approach utilizes single-cell transcriptome and transcription factor motif data to map transcription factors and target genes into a low-dimensional semantic space, resulting in the generation of feature vectors. The model then computes the cosine similarity between transcription factors and target genes to evaluate their regulatory strength and subsequently infers cell-type-specific regulons based on this assessment. Moreover, DSSMReg employs the AUCell algorithm to rank the importance of regulons for each cell type. CONCLUSIONS: We compared DSSMReg against five representative gene regulatory inference algorithms using scRNA-seq data from five cell lines, with DSSMReg achieving the highest evaluation metrics for both AUROC and AUPRC. Furthermore, we applied DSSMReg to infer cell-type-specific regulons from scRNA-seq data of triple-negative breast cancer and human bone marrow hematopoietic stem cells. Our results indicated that regulons with high AUCell scores possess significant biological relevance. The source code of DSSMReg is freely available at https://github.com/YaxinF/DSSMReg .",
+  "abstract_zh": "背景：转录因子及其靶基因构成称为调节子（regulon）的调控模块，这些模块在不同细胞类型中表现出显著的特异性。整合单细胞转录组数据、转录因子基序数据和ChIP-seq数据，在识别细胞类型特异性调节子及其活性方面是一项具有挑战性的任务。结果：针对此问题，本研究提出了一种用于推断和优先排序细胞类型特异性调节子的深度结构化语义模型（DSSMReg）。该方法利用单细胞转录组和转录因子基序数据，将转录因子和靶基因映射到低维语义空间，从而生成特征向量。模型随后计算转录因子与靶基因之间的余弦相似度，以评估其调控强度，并基于此评估推断细胞类型特异性调节子。此外，DSSMReg采用AUCell算法对每种细胞类型的调节子重要性进行排序。结论：我们使用来自五种细胞系的scRNA-seq数据，将DSSMReg与五种代表性的基因调控推断算法进行了比较，DSSMReg在AUROC和AUPRC两项评估指标上均取得了最高分数。进一步地，我们将DSSMReg应用于三阴性乳腺癌和人类骨髓造血干细胞的scRNA-seq数据，以推断细胞类型特异性调节子。结果表明，具有高AUCell分数的调节子具有显著的生物学相关性。DSSMReg的源代码可在https://github.com/YaxinF/DSSMReg 免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41354912/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41354912/",
+  "paper_page_path": "papers/pubmed/41354912/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38422958",
+  "title": "SpecLoop predicts cell type-specific chromatin loop via transcription factor cooperation.",
+  "authors": "Ren, Lixin; Ma, Wanbiao; Wang, Yong",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2024-03-01",
+  "window": {
+    "start": "2024-02-26",
+    "end": "2024-03-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用网络正则化机器学习框架SpecLoop整合多组学数据预测细胞类型特异性染色质环，聚焦转录因子协同作用，虽涉及TF-DNA结合基序但核心是染色质结构预测而非TF-DNA互作机制建模，方法可迁移但深度不足。",
+  "abstract": "Cell-type-Specific Chromatin Loops (CSCLs) are crucial for gene regulation and cell fate determination. However, the mechanisms governing their establishment remain elusive. Here, we present SpecLoop, a network regularization-based machine learning framework, to investigate the role of transcription factors (TFs) cooperation in CSCL formation. SpecLoop integrates multi-omics data, including gene expression, chromatin accessibility, sequence, protein-protein interaction, and TF binding motif data, to predict CSCLs and identify TF cooperations. Using high resolution Hi-C data as the gold standard, SpecLoop accurately predicts CSCL in GM12878, IMR90, HeLa-S3, K562, HUVEC, HMEC, and NHEK seven cell types, with the AUROC values ranging from 0.8645 to 0.9852 and AUPR values ranging from 0.8654 to 0.9734. Notably SpecLoop demonstrates improved accuracy in predicting long-distance CSCLs and identifies TF complexes with strong predictive ability. Our study systematically explores the TFs and TF pairs associated with CSCL through effective integration of diverse omics data. SpecLoop is freely available at https://github.com/AMSSwanglab/SpecLoop.",
+  "abstract_zh": "细胞类型特异性染色质环（Cell-type-Specific Chromatin Loops, CSCLs）对基因调控和细胞命运决定至关重要。然而，调控其形成的机制仍不清楚。在此，我们提出SpecLoop，一种基于网络正则化的机器学习框架，以研究转录因子（transcription factors, TFs）协同作用在CSCL形成中的角色。SpecLoop整合了多组学数据，包括基因表达、染色质可及性、序列、蛋白质-蛋白质相互作用和TF结合基序数据，以预测CSCL并识别TF协同作用。使用高分辨率Hi-C数据作为金标准，SpecLoop在GM12878、IMR90、HeLa-S3、K562、HUVEC、HMEC和NHEK七种细胞类型中准确预测CSCL，AUROC值范围从0.8645到0.9852，AUPR值范围从0.8654到0.9734。值得注意的是，SpecLoop在预测长距离CSCL方面表现出更高的准确性，并识别出具有强预测能力的TF复合物。我们的研究通过有效整合多种组学数据，系统探索了与CSCL相关的TFs和TF对。SpecLoop可在https://github.com/AMSSwanglab/SpecLoop免费获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38422958/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38422958/",
+  "paper_page_path": "papers/pubmed/38422958/index.html"
+}

@@ -1,0 +1,423 @@
+{
+  "identity": {
+    "pmid": "37335020",
+    "doi": "10.1152/physiolgenomics.00033.2023",
+    "title": "BRCA1-specific machine learning model predicts variant pathogenicity with high accuracy."
+  },
+  "content": {
+    "abstract": "Identification of novel BRCA1 variants outpaces their clinical annotation which highlights the importance of developing accurate computational methods for risk assessment. Therefore our aim was to develop a BRCA1-specific machine learning model to predict the pathogenicity of all types of BRCA1 variants and to apply this model and our previous BRCA2-specific model to assess BRCA variants of uncertain significance (VUS) among Qatari patients with breast cancer. We developed an XGBoost model that utilizes variant information such as position frequency and consequence as well as prediction scores from numerous in silico tools. We trained and tested the model with BRCA1 variants that were reviewed and classified by the Evidence-Based Network for the Interpretation of Germline Mutant Alleles (ENIGMA) consortium. In addition we tested the model's performance on an independent set of missense variants of uncertain significance with experimentally determined functional scores. The model performed excellently in predicting the pathogenicity of ENIGMA-classified variants (accuracy: 99.9%) and in predicting the functional consequence of the independent set of missense variants (accuracy: 93.4%). Moreover it predicted 2 115 potentially pathogenic variants among the 31 058 unreviewed BRCA1 variants in the BRCA exchange database. Using two BRCA-specific models we did not identify any pathogenic BRCA1 variants among those found in patients in Qatar but predicted four potentially pathogenic BRCA2 variants, which could be prioritized for functional validation.",
+    "keywords": [
+      "BRCA2",
+      "VUS",
+      "breast cancer",
+      "in silico predictions",
+      "ovarian cancer"
+    ],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "Genetic Predisposition to Disease",
+      "Virulence",
+      "*Ovarian Neoplasms/genetics",
+      "Genes, BRCA2",
+      "*Breast Neoplasms/genetics",
+      "BRCA1 Protein/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khandakji, Mohannad",
+        "Habish, Hind Hassan Ahmed",
+        "Abdulla, Nawal Bakheet Salem",
+        "Kusasi, Sitti Apsa Albani",
+        "Abdou, Nema Mahmoud Ghobashy",
+        "Al-Mulla, Hajer Mahmoud M A",
+        "Al Sulaiman, Reem Jawad A A",
+        "Bu Jassoum, Salha M",
+        "Mifsud, Borbala"
+      ],
+      "short_names": [
+        "Khandakji M",
+        "Habish HHA",
+        "Abdulla NBS",
+        "Kusasi SAA",
+        "Abdou NMG",
+        "Al-Mulla HMMA",
+        "Al Sulaiman RJAA",
+        "Bu Jassoum SM",
+        "Mifsud B"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3429-3094"
+      ],
+      "affiliations": [
+        "Division of Genomics and Translational Biomedicine, College of Health and Life Sciences, Hamad Bin Khalifa University, Doha, Qatar.",
+        "Hamad Dental Center, Hamad Medical Corporation, Doha, Qatar.",
+        "National Center for Cancer Care and Research, Hamad Medical Corporation, Doha, Qatar.",
+        "National Center for Cancer Care and Research, Hamad Medical Corporation, Doha, Qatar.",
+        "National Center for Cancer Care and Research, Hamad Medical Corporation, Doha, Qatar.",
+        "National Center for Cancer Care and Research, Hamad Medical Corporation, Doha, Qatar.",
+        "National Center for Cancer Care and Research, Hamad Medical Corporation, Doha, Qatar.",
+        "National Center for Cancer Care and Research, Hamad Medical Corporation, Doha, Qatar.",
+        "National Center for Cancer Care and Research, Hamad Medical Corporation, Doha, Qatar.",
+        "Division of Genomics and Translational Biomedicine, College of Health and Life Sciences, Hamad Bin Khalifa University, Doha, Qatar.",
+        "William Harvey Research Institute, Queen Mary University of London, Charterhouse Square, London, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Khandakji, Mohannad",
+        "short_name": "Khandakji M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Genomics and Translational Biomedicine, College of Health and Life Sciences, Hamad Bin Khalifa University, Doha, Qatar.",
+          "Hamad Dental Center, Hamad Medical Corporation, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Habish, Hind Hassan Ahmed",
+        "short_name": "Habish HHA",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Cancer Care and Research, Hamad Medical Corporation, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Abdulla, Nawal Bakheet Salem",
+        "short_name": "Abdulla NBS",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Cancer Care and Research, Hamad Medical Corporation, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Kusasi, Sitti Apsa Albani",
+        "short_name": "Kusasi SAA",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Cancer Care and Research, Hamad Medical Corporation, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Abdou, Nema Mahmoud Ghobashy",
+        "short_name": "Abdou NMG",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Cancer Care and Research, Hamad Medical Corporation, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Al-Mulla, Hajer Mahmoud M A",
+        "short_name": "Al-Mulla HMMA",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Cancer Care and Research, Hamad Medical Corporation, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Al Sulaiman, Reem Jawad A A",
+        "short_name": "Al Sulaiman RJAA",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Cancer Care and Research, Hamad Medical Corporation, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Bu Jassoum, Salha M",
+        "short_name": "Bu Jassoum SM",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Cancer Care and Research, Hamad Medical Corporation, Doha, Qatar."
+        ]
+      },
+      {
+        "full_name": "Mifsud, Borbala",
+        "short_name": "Mifsud B",
+        "identifiers": [
+          "0000-0003-3429-3094"
+        ],
+        "affiliations": [
+          "Division of Genomics and Translational Biomedicine, College of Health and Life Sciences, Hamad Bin Khalifa University, Doha, Qatar.",
+          "William Harvey Research Institute, Queen Mary University of London, Charterhouse Square, London, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physiological genomics"
+    ],
+    "journal_abbrev": [
+      "Physiol Genomics"
+    ],
+    "pub_date": "2023 Aug 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/19 13:08",
+    "fetched_at": "2026-09-29 02:39:11"
+  },
+  "links": {
+    "cites": [
+      "42553427",
+      "39394900",
+      "38136308"
+    ],
+    "refs": [
+      "36246618",
+      "34063308",
+      "33078592",
+      "32546644",
+      "32377563",
+      "31911673",
+      "31892343",
+      "30725392",
+      "30646163",
+      "30556325",
+      "30293211",
+      "29884841",
+      "28632866",
+      "27268795",
+      "27181684",
+      "26153499",
+      "25741868",
+      "25192939",
+      "24285858",
+      "21990146",
+      "21990134",
+      "21520341",
+      "20400477",
+      "18513387",
+      "18451254",
+      "18182601",
+      "16484695",
+      "16204125",
+      "15654225",
+      "15546503",
+      "12677558",
+      "11044354",
+      "10498392",
+      "9774970",
+      "9497246"
+    ],
+    "similar": [
+      "37335020",
+      "36246618",
+      "29884841",
+      "31294896",
+      "29580235",
+      "22684231",
+      "24607278",
+      "31825140",
+      "35729312",
+      "31911673",
+      "31112341",
+      "30725392",
+      "35918668",
+      "18824701",
+      "29297111",
+      "30415210",
+      "35409408",
+      "19200354",
+      "21673748",
+      "35216584",
+      "21769658",
+      "26848529",
+      "30586411",
+      "39062721",
+      "29302806",
+      "21990146",
+      "33428613",
+      "21990134",
+      "31336956",
+      "31409081",
+      "37731132",
+      "26153499",
+      "23615697",
+      "24728577",
+      "28866612",
+      "28807866",
+      "32180084",
+      "32486089",
+      "25643705",
+      "31907386",
+      "36775216",
+      "27495310",
+      "31853058",
+      "38300310",
+      "29215753",
+      "30606148",
+      "32284662",
+      "23231788",
+      "28477318",
+      "32546644",
+      "34207612",
+      "36358902",
+      "21356067",
+      "32566972",
+      "19543972",
+      "33128190",
+      "34749799",
+      "33773534",
+      "34045478",
+      "33726785",
+      "27124784",
+      "35456503",
+      "27658390",
+      "23842040",
+      "33078592",
+      "33087888",
+      "28439188",
+      "32879886",
+      "32862574",
+      "31131967",
+      "35245693",
+      "16847550",
+      "36404616",
+      "36881271",
+      "28222693",
+      "35020120",
+      "31013702",
+      "21318380",
+      "35908255",
+      "34823292",
+      "33287145",
+      "34597585",
+      "32772980",
+      "33754277",
+      "33476590",
+      "30078507",
+      "12938098",
+      "35167739",
+      "31464824",
+      "35409996",
+      "12955719",
+      "29996917",
+      "29161300",
+      "33531027",
+      "34296289",
+      "30702160",
+      "30696104",
+      "38725546",
+      "37578980",
+      "32377563",
+      "39281752",
+      "37951914",
+      "37980415",
+      "35659930",
+      "21447777",
+      "37090572",
+      "31144781",
+      "39256852",
+      "39430403",
+      "38895336",
+      "39085881",
+      "33293522",
+      "39427061",
+      "38633773",
+      "38660159",
+      "37030591",
+      "37459509",
+      "25593598",
+      "38149678",
+      "37092535",
+      "33046849",
+      "38211594",
+      "39321216",
+      "38037760",
+      "38826236",
+      "37745493",
+      "35940520",
+      "35116056",
+      "38798479",
+      "38802398",
+      "37484202",
+      "37961354",
+      "38185709",
+      "39220333",
+      "38223342",
+      "38234851",
+      "39371753",
+      "38766179",
+      "38699371",
+      "33408741",
+      "32244891",
+      "38289414",
+      "39285047",
+      "38746140",
+      "38836089",
+      "31649718",
+      "27468419",
+      "36008533",
+      "38480854",
+      "37703883",
+      "37828285",
+      "37821682",
+      "36809442"
+    ],
+    "review": [
+      "37335020",
+      "31825140",
+      "35216584",
+      "26848529",
+      "21990134",
+      "31409081",
+      "26153499",
+      "28866612",
+      "31013702",
+      "38149678",
+      "38223342"
+    ],
+    "pmc": [
+      "10393322"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.physiology.org/doi/10.1152/physiolgenomics.00033.2023?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37335020/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37335020",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-107",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

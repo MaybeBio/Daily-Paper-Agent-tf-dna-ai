@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, methods, figure legends, and supplementary figure descriptions.
+- **Assessment boundary** Scientific content, experimental design, data analysis, interpretation, and presentation. Not assessed: editorial quality, formatting, or grammatical issues.
+- **Shared manuscript claim summary** The authors map DNA binding for 178 yeast transcription factors (TFs) using ChEC-seq and measure transcriptional responses for 126 TFs using rapid auxin-induced degron depletion followed by nascent RNA-seq. They report that most TF binding sites lack consensus DNA motifs, that binding is often a poor predictor of transcriptional regulation, and that many TFs regulate genes without detectable binding to their promoters. They propose that non-motif binding, mediated in part by activation domains, and long-range or chromatin-based mechanisms contribute to TF function.
+- **Visible evidence base** Abstract, Introduction, Results (narrative), Methods, Figure legends for Figures 1-5, Supplementary figure legends (S1-S9), and references to supplementary tables.
+- **Missing materials affecting confidence** The main figures and supplementary figures themselves are not provided. Supplementary tables (S1-S6) are referenced but not included. Specific numerical data, statistical test results, and detailed analysis parameters are not fully visible. The manuscript appears to be a preprint version with potential text conversion errors noted by the authors.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a large-scale, systematic analysis of TF binding and function in yeast, generating a valuable resource for the field. The integration of ChEC-seq binding data with rapid degron-based depletion and nascent RNA-seq is a powerful approach that addresses important questions about the relationship between TF binding and gene regulation. The finding that many TFs regulate genes without detectable binding to their promoters, and that activation domains contribute to non-motif binding, is potentially significant. However, the manuscript as presented has several major concerns that need to be addressed. The lack of visible figures and detailed statistical analyses limits the ability to fully evaluate the claims. The interpretation of the data, particularly regarding the functional significance of non-motif binding and the extent of indirect effects, requires more rigorous support. The authors should provide clearer evidence that the observed transcriptional changes are direct effects of TF loss, and they should address the possibility that many of the "non-functional" binding sites are actually functional under different conditions or through redundant mechanisms.
+- **Who would be interested in the results, and why** Researchers in the fields of gene regulation, transcription factor biology, chromatin structure, and systems biology would be interested. The comprehensive dataset of TF binding and regulatory targets in yeast provides a valuable resource for understanding how TFs work in a eukaryotic cell. The findings challenge simple models of TF function and have implications for understanding gene regulatory networks, enhancer function, and the evolution of cis-regulatory elements. The study also has relevance for those interested in the mechanisms of TF targeting, including the role of disordered regions and activation domains.
+- **Major strengths**
+    1.  The scale and comprehensiveness of the study, covering nearly all yeast TFs, is a major strength.
+    2.  The combination of ChEC-seq binding data with rapid degron-based depletion and nascent RNA-seq is a powerful and appropriate approach to link binding to function.
+    3.  The study provides a rich resource of data that will be valuable for the community.
+    4.  The findings challenge existing models and reveal surprising properties of TF function, such as the prevalence of non-motif binding and the widespread occurrence of regulatory targets without detectable binding.
+    5.  The use of rapid depletion and nascent RNA labeling is a thoughtful approach to minimize indirect effects.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence
+    - **Claim pointer** The manuscript claims that for most TFs, only a small fraction of bound TFs regulate the nearby gene, and that many expression targets lack detectable TF binding.
+    - **Evidence pointer** Results section "A surprising relationship between TF binding and expression targets for most TFs", Figure 4, Figure S7, Figure S8.
+    - **Concern** The central conclusion that binding is a poor predictor of function relies on the interpretation of the overlap between ChEC-seq binding and RNA-seq expression targets. The authors use a stringent threshold for binding and a lenient threshold for expression changes. However, the analysis does not adequately address the possibility that many of the "non-functional" binding sites are functional under different conditions (e.g., stress, different carbon sources) or that they act redundantly with other TFs. The 30-minute time point for measuring transcriptional changes may also miss slower, but direct, effects. The authors should provide a more nuanced analysis, perhaps by examining the relationship between binding affinity, chromatin context, and the magnitude of transcriptional response. The claim that many expression targets lack binding is based on the sensitivity of the ChEC-seq assay; the authors should demonstrate that the assay is sensitive enough to detect binding at all functional sites, perhaps by comparing with a more sensitive method for a subset of TFs.
+    - **Why it matters** This is the central finding of the paper. If the interpretation is flawed, the main conclusions are not supported. The field needs to know whether the observed discrepancy between binding and function is a real biological phenomenon or an artifact of the experimental and analytical approaches.
+    - **Resolution test** The authors should perform additional analyses to support their claims. For example, they could: (1) examine the relationship between binding signal strength and the probability of a transcriptional response; (2) test whether the "non-functional" binding sites are enriched for binding under different growth conditions; (3) use a more sensitive binding assay (e.g., ChEC-seq with higher coverage or ChIP-exo) for a subset of TFs to confirm the absence of binding at expression targets; (4) perform time-course experiments for a few TFs to see if more direct targets are revealed at earlier time points; (5) use a statistical model to estimate the expected overlap between binding and expression targets by chance, given the number of binding sites and expression targets for each TF.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence
+    - **Claim pointer** The manuscript claims that the Gcn4 activation domain (AD) mediates a significant portion of its non-motif binding, particularly at Cluster III promoters.
+    - **Evidence pointer** Results section "Activation domain-mediated binding at Cluster-III promoters", Figure S4.
+    - **Concern** The evidence for AD-mediated binding is based on a single TF (Gcn4) and a single mutant (deletion of the AD). The data shown in Figure S4 are not fully described in the text, and the statistical significance of the observed effects is not clear. The claim that AD-mediated binding is a general mechanism for TF targeting is not supported by the data, as only one TF was tested. The authors should test additional TFs with different types of activation domains to determine if this is a general phenomenon. Furthermore, the mechanism by which the AD mediates binding is not explored. Does the AD interact with chromatin remodelers or other proteins that recruit the TF to these sites?
+    - **Why it matters** This is a novel and potentially important mechanistic insight. However, the current evidence is too limited to support the broad claim. The field needs to know if this is a general principle of TF function or a specific property of Gcn4.
+    - **Resolution test** The authors should extend this analysis to at least a few other TFs with well-characterized activation domains. They should also perform experiments to determine the mechanism of AD-mediated binding, such as testing whether the AD is required for interaction with specific coactivators or chromatin remodelers. The statistical analysis of the ChEC-seq data for the Gcn4 mutants should be clearly presented.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Interpretation
+    - **Claim pointer** The manuscript claims that the limited overlap between binding and expression targets suggests widespread long-range and/or chromatin-mediated regulatory mechanisms.
+    - **Evidence pointer** Results section "Many expression targets do not contain a TF binding site in their gene regulatory region", Discussion.
+    - **Concern** While the authors acknowledge that some of the observed effects may be indirect, they do not provide a rigorous assessment of the extent of indirect effects. The 30-minute time point is designed to minimize indirect effects, but it is not clear how effective this is. The observation that many expression targets lack binding could be explained by indirect effects, by binding to distal enhancer-like elements that are not captured by the promoter-focused analysis, or by the TF acting through a "hit-and-run" mechanism. The authors should attempt to distinguish between these possibilities. For example, they could examine whether the expression targets that lack binding are enriched for genes that are known to be regulated by the same signaling pathways as the depleted TF.
+    - **Why it matters** The interpretation of the data has major implications for how we think about TF function. If the effects are largely indirect, the study is less surprising. If the effects are direct but mediated by long-range interactions, it would be a major finding.
+    - **Resolution test** The authors should perform additional analyses to address this concern. They could: (1) compare the expression targets of a TF with the binding sites of that TF across the entire genome, not just in promoter regions; (2) use Hi-C or similar data to see if the expression targets are in physical proximity to TF binding sites; (3) perform a time-course experiment to see if the number of "non-bound" targets increases with time, which would be consistent with indirect effects; (4) use a more sensitive method to detect TF binding, such as ChEC-seq with a different enzyme or CUT&RUN, to see if binding is detected at more of the expression targets.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Reproducibility
+    - **Claim pointer** The manuscript claims that the ChEC-seq data is of high quality and that the binding patterns are reproducible.
+    - **Evidence pointer** Results section "Genome-wide binding patterns of yeast transcription factors", Methods section "Analysis of ChEC-seq data".
+    - **Concern** The manuscript states that all assays were performed in triplicate and that stringent peak calling criteria were used. However, the quality of the ChEC-seq data is not fully demonstrated. The authors should provide metrics such as the number of peaks called per TF, the fraction of peaks that are reproducible across replicates, and the signal-to-noise ratio. The comparison with published ChIP-exo data is mentioned, but the details of this comparison are not provided. The authors should show a more detailed comparison, perhaps with a scatter plot of binding scores for a set of TFs.
+    - **Why it matters** The entire study is based on the quality of the ChEC-seq data. If the data is noisy or irreproducible, the conclusions are unreliable.
+    - **Resolution test** The authors should provide a supplementary figure showing the quality metrics of the ChEC-seq data. This could include a plot of the number of peaks per TF, a heatmap of the correlation between replicates, and a comparison of binding scores with ChIP-exo data for a subset of TFs.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Figure 1
+    - **Evidence pointer** Results section "Genome-wide binding patterns of yeast transcription factors", Figure 1.
+    - **Issue** The description of the clustering analysis in Figure 1 is brief. It is not clear how the number of clusters (3) was determined, and the biological meaning of the clusters is not fully explained.
+    - **Required correction** The authors should provide more detail on the clustering method and the rationale for choosing 3 clusters. They should also describe the biological characteristics of each cluster more thoroughly.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Figure 2
+    - **Evidence pointer** Results section "Functional targets of sequence specific transcription factors", Figure 2.
+    - **Issue** The description of the time-course experiment for optimizing the depletion time is not clear. It is not stated how the 30-minute time point was chosen, and the data for the time-course is not shown.
+    - **Required correction** The authors should show the time-course data for the TFs tested (Gcn4, Cbf1, Reb1, Cyc8) and explain how the 30-minute time point was selected.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Figure 5
+    - **Evidence pointer** Results section "Characterization of functional TF binding sites", Figure 5.
+    - **Issue** The definition of "functional TF binding sites" is not entirely clear. It is defined as sites that are both bound by the TF and where the nearby gene is differentially expressed upon TF depletion. However, the analysis of the fraction of functional sites in different gene classes (Figure 5C) is not fully described.
+    - **Required correction** The authors should provide a clearer explanation of the analysis shown in Figure 5C, including the criteria for classifying TFs as having a preference for CR or TFIID genes.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Completeness
+    - **Affected element** Methods
+    - **Evidence pointer** Methods section "Analysis of NGS data".
+    - **Issue** The methods for the analysis of RNA-seq data are not fully described. It is not clear how the differential expression analysis was performed, and the criteria for defining a gene as "affected" by TF depletion are not stated.
+    - **Required correction** The authors should provide more detail on the RNA-seq analysis, including the software used, the statistical model, and the thresholds for significance.
+    - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Interpretation
+    - **Affected element** Discussion
+    - **Evidence pointer** Discussion section.
+    - **Issue** The discussion of the implications of the findings for higher eukaryotes is somewhat speculative. The authors should be more careful in extrapolating from yeast to higher organisms, given the differences in genome size, regulatory complexity, and chromatin organization.
+    - **Required correction** The authors should temper their statements about the implications for higher eukaryotes and acknowledge the limitations of the yeast system.
+- **Technical failings that need to be addressed before the case is established**
+    - R1-M1: The central claim regarding the poor overlap between binding and function needs more rigorous analysis to rule out technical and biological explanations.
+    - R1-M2: The claim of AD-mediated binding is based on a single TF and requires validation in additional systems.
+    - R1-M3: The extent of indirect effects in the RNA-seq data needs to be more thoroughly assessed.
+    - R1-M4: The quality of the ChEC-seq data needs to be more fully documented.
+- **Assessment against Nature-style criteria**
+    - **Originality** The study is highly original in its scale and scope. While individual aspects of TF biology have been studied, the systematic integration of binding and function for nearly all TFs in a single organism is novel. The finding that many TFs regulate genes without binding to their promoters is surprising and challenges existing paradigms.
+    - **Scientific importance** The findings have significant implications for our understanding of gene regulation. The resource generated will be valuable for the community. The observation that binding is a poor predictor of function has implications for interpreting genome-wide binding data in all organisms. The potential role of activation domains in non-motif binding is a new concept that could have broad relevance.
+    - **Interdisciplinary readership** The study will be of interest to researchers in molecular biology, genetics, genomics, systems biology, and computational biology. The findings are relevant to understanding gene regulatory networks and the evolution of cis-regulatory elements. The study is likely to be of broad interest to the readership of a high-impact journal.
+    - **Technical soundness** The experimental approaches are appropriate and state-of-the-art. The use of ChEC-seq and rapid degron-based depletion is a strength. However, the analysis and interpretation of the data have some weaknesses, as detailed in the major concerns. The lack of visible figures and detailed statistical analyses makes it difficult to fully assess the technical soundness.
+    - **Readability for nonspecialists** The manuscript is generally well-written and the main concepts are accessible. However, the results section is dense and may be challenging for nonspecialists. The authors should consider providing more context and explanation of the key findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study has the potential to be an important contribution to the field. However, the major concerns regarding the interpretation of the binding-function relationship and the limited evidence for AD-mediated binding need to be addressed before the case is established. The authors should provide additional analyses and, ideally, additional experiments to support their claims.
+
+## Risk / unsupported claims
+- The claim that "only a small fraction of bound TFs regulates the nearby gene" is not fully supported by the data presented, as the analysis does not account for condition-specific function, redundancy, or the sensitivity of the binding assay.
+- The claim that "many expression targets lack a TF binding site" is based on the sensitivity of the ChEC-seq assay and the definition of the promoter region; this could be an artifact of the analysis.
+- The claim that "the Gcn4 activation domain mediates much of the motif-independent binding" is based on a single TF and a single mutant and is not yet established as a general principle.
+- The claim that "most TF binding sites lack a consensus DNA motif" is based on the analysis of known motifs; the authors should acknowledge that unknown motifs may be present at these sites.
+- The claim that "nearly all genes are regulated by one or more TFs" is based on the observation that most genes are affected by depletion of at least one TF. This is a strong claim that depends on the sensitivity of the RNA-seq analysis and the completeness of the TF set.

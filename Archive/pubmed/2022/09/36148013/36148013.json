@@ -1,0 +1,263 @@
+{
+  "identity": {
+    "pmid": "36148013",
+    "doi": "10.3389/fmolb.2022.978310",
+    "title": "ProDFace: A web-tool for the dissection of protein-DNA interfaces."
+  },
+  "content": {
+    "abstract": "Protein-DNA interactions play a crucial role in gene expression and regulation. Identifying the DNA binding surface of proteins has long been a challenge-in comparison to protein-protein interactions, limited progress has been made in the development of efficient DNA binding site prediction and protein-DNA docking methods. Here we present ProDFace, a web tool that characterizes the binding region of a protein-DNA complex based on amino acid propensity, hydrogen bond (HB) donor capacity (number of solvent accessible HB donor groups), sequence conservation at the interface core and rim region, and geometry. The program takes as input the structure of a protein-DNA complex in PDB (Protein Data Bank) format, and outputs various physicochemical and geometric parameters of the interface, as well as conservation of the interface residues in the protein component. Values are provided for the whole interface, and after dissecting it into core and rim regions. Details of water mediated HBs between protein and DNA, potential HB donor groups present at the binding surface of protein, and conserved interface residues are also provided as downloadable text files. These parameters can be useful in evaluating and validating protein-DNA docking solutions, structures derived from simulation as well as solutions from the available prediction tools, and facilitate the development of more efficient prediction methods. The web-tool is freely available at structbioinfo.iitj.ac.in/resources/bioinfo/pd_interface .",
+    "keywords": [
+      "Protein-DNA complexes",
+      "docking",
+      "hydrogen bond",
+      "interface core and rim",
+      "protein-DNA interactions",
+      "sequence conservation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pal, Arumay",
+        "Chakrabarti, Pinak",
+        "Dey, Sucharita"
+      ],
+      "short_names": [
+        "Pal A",
+        "Chakrabarti P",
+        "Dey S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Bioengineering, Vellore Institute of Technology, Bhopal, India.",
+        "Department of Biochemistry, Bose Institute, Kolkata, India.",
+        "Department of Bioscience and Bioengineering, Indian Institute of Technology Jodhpur, Karwar, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pal, Arumay",
+        "short_name": "Pal A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Bioengineering, Vellore Institute of Technology, Bhopal, India."
+        ]
+      },
+      {
+        "full_name": "Chakrabarti, Pinak",
+        "short_name": "Chakrabarti P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Bose Institute, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Dey, Sucharita",
+        "short_name": "Dey S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience and Bioengineering, Indian Institute of Technology Jodhpur, Karwar, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/24 06:00",
+    "fetched_at": "2026-09-28 13:49:02"
+  },
+  "links": {
+    "cites": [
+      "39576589"
+    ],
+    "refs": [
+      "34606614",
+      "34332092",
+      "34265844",
+      "32453726",
+      "28431131",
+      "27147539",
+      "22641851",
+      "21873642",
+      "21519818",
+      "20482798",
+      "19594872",
+      "19357098",
+      "19356223",
+      "18812015",
+      "18801847",
+      "18704949",
+      "17510165",
+      "17245807",
+      "17078093",
+      "16759379",
+      "16568445",
+      "16221766",
+      "15869395",
+      "15095871",
+      "14990443",
+      "14725771",
+      "14654694",
+      "12589754",
+      "12126620",
+      "11948787",
+      "11917033",
+      "11846571",
+      "11433033",
+      "10592235",
+      "10222198",
+      "10026283",
+      "9580679",
+      "9384586",
+      "9299341",
+      "9016541",
+      "8603061",
+      "8182748",
+      "6667333",
+      "2204954"
+    ],
+    "similar": [
+      "36148013",
+      "22661576",
+      "19594872",
+      "28980349",
+      "21519818",
+      "30934865",
+      "16512892",
+      "16759379",
+      "16221766",
+      "22641851",
+      "23912807",
+      "31303974",
+      "25977296",
+      "17007068",
+      "33111403",
+      "15980484",
+      "18704949",
+      "25326082",
+      "16122378",
+      "11948787",
+      "16672257",
+      "29186336",
+      "9464564",
+      "16450362",
+      "26173036",
+      "19280599",
+      "17397062",
+      "20839234",
+      "20444871",
+      "28991473",
+      "14579361",
+      "18452208",
+      "25619122",
+      "27330281",
+      "29723693",
+      "16845003",
+      "27914057",
+      "20507585",
+      "20435678",
+      "16278951",
+      "10026283",
+      "27450808",
+      "15353450",
+      "27485571",
+      "21071426",
+      "12824316",
+      "15659366",
+      "28816025",
+      "26509288",
+      "23505538",
+      "21576233",
+      "16247798",
+      "30957840",
+      "17434486",
+      "19922660",
+      "20457748",
+      "16080151",
+      "17130160",
+      "20139468",
+      "26035493",
+      "18282303",
+      "21464987",
+      "32066366",
+      "19350617",
+      "27433060",
+      "22038731",
+      "18616991",
+      "16893954",
+      "21069866",
+      "20377884",
+      "28891124",
+      "21682895",
+      "28472475",
+      "32621227",
+      "18801847",
+      "27611671",
+      "14691234",
+      "16381874",
+      "28729757",
+      "20961427",
+      "34302673",
+      "21417263",
+      "29534202",
+      "25650913",
+      "25797794",
+      "25341068",
+      "20623649",
+      "19479323",
+      "34124147",
+      "15327963",
+      "28464764",
+      "18802470",
+      "18592198"
+    ],
+    "review": [
+      "36148013",
+      "27330281"
+    ],
+    "pmc": [
+      "9486321"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36148013/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36148013",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2022.978310",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

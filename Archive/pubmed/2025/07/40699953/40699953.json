@@ -1,0 +1,217 @@
+{
+  "identity": {
+    "pmid": "40699953",
+    "doi": "10.1109/JBHI.2025.3591840",
+    "title": "LineGRN: A Line Graph Neural Network for Gene Regulatory Network Inference."
+  },
+  "content": {
+    "abstract": "Gene regulatory networks (GRNs) depicts the complex interactions between transcription factors and target genes, offering profound insight into deciphering the mechanisms of cellular processes. The advancement of single-cell RNA sequencing (scRNA-seq) technologies has provided a crucial perspective for inferring GRNs at single-cell resolution, leading to the development of numerous computational methods for GRN inference. However, most existing methods fail to adequately capture the association patterns between gene pairs, and the low-degree-node-dominated topology of prior GRNs imposes fundamental limitations on information propagation. In this study, we propose LineGRN, a novel line graph neural network framework for inferring GRNs from scRNA-seq data. By modeling the neighborhood relationships between gene pairs, LineGRN effectively preserves interaction signals within the topological structure. Moreover, the line graph transformation produces a high-degree-node-dominated local network topology, which enables more efficient information propagation. Comprehensive experiments on real datasets demonstrate that LineGRN significantly outperforms seven state-of-the-art methods. Furthermore, LineGRN exhibits low sensitivity to parameter variations and noise interference. Notably, case studies provide empirical evidence of the model's ability to uncover potential TF-target regulatory associations.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Gene Regulatory Networks/genetics",
+      "*Neural Networks, Computer",
+      "Humans",
+      "*Computational Biology/methods",
+      "Algorithms",
+      "Single-Cell Analysis/methods",
+      "Sequence Analysis, RNA/methods",
+      "Graph Neural Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Ziwei",
+        "Xu, Ge",
+        "Yu, Weiming",
+        "Ou-Yang, Le"
+      ],
+      "short_names": [
+        "Wang Z",
+        "Xu G",
+        "Yu W",
+        "Ou-Yang L"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Ziwei",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Xu, Ge",
+        "short_name": "Xu G",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Yu, Weiming",
+        "short_name": "Yu W",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ou-Yang, Le",
+        "short_name": "Ou-Yang L",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE journal of biomedical and health informatics"
+    ],
+    "journal_abbrev": [
+      "IEEE J Biomed Health Inform"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/23 18:28",
+    "fetched_at": "2026-09-30 22:31:29"
+  },
+  "links": {
+    "cites": [
+      "42653305",
+      "42059479"
+    ],
+    "refs": [],
+    "similar": [
+      "40699953",
+      "39960893",
+      "37985457",
+      "38950180",
+      "40116659",
+      "38896510",
+      "40251476",
+      "30547796",
+      "41554051",
+      "40062616",
+      "39417321",
+      "39401117",
+      "38980373",
+      "39934680",
+      "40708222",
+      "41206950",
+      "37085776",
+      "41288963",
+      "41067887",
+      "40670912",
+      "39684451",
+      "39605181",
+      "40662821",
+      "39800872",
+      "39939367",
+      "40409400",
+      "41544912",
+      "41267133",
+      "40220759",
+      "35961023",
+      "38261340",
+      "38778003",
+      "39708840",
+      "41329984",
+      "38342857",
+      "38879931",
+      "40281370",
+      "34424948",
+      "39487083",
+      "39694856",
+      "39585902",
+      "27479082",
+      "39446194",
+      "36877552",
+      "40069807",
+      "38744843",
+      "37939200",
+      "40983951",
+      "40713495",
+      "40426257",
+      "40042052",
+      "40415678",
+      "38892162",
+      "39311699",
+      "35050715",
+      "35692809",
+      "36585783",
+      "39348410",
+      "40841610",
+      "39059210",
+      "38810116",
+      "38935070",
+      "39578307",
+      "37004161",
+      "39082651",
+      "37016281",
+      "35062026",
+      "39511415",
+      "41300707",
+      "40511990",
+      "32716923",
+      "39062480",
+      "39387266",
+      "41043336",
+      "40838782",
+      "40702704",
+      "33294129",
+      "37686146",
+      "34986805",
+      "36626328",
+      "40956752",
+      "37897702",
+      "33828122",
+      "40804307",
+      "37715282",
+      "41452748",
+      "19594874",
+      "40591481",
+      "40654959",
+      "40366859",
+      "41465557",
+      "38653489",
+      "34251625",
+      "39848362",
+      "35172334",
+      "41183100",
+      "40698866",
+      "38801694",
+      "39155292",
+      "38976751"
+    ],
+    "review": [
+      "40699953",
+      "39939367"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3399",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/JBHI.2025.3591840",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

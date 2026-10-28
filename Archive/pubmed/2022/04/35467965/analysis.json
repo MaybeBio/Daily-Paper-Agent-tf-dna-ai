@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35467965",
+  "title": "Development of a Machine Learning Model Using Limited Features to Predict 6-Month Mortality at Treatment Decision Points for Patients With Advanced Solid Tumors.",
+  "authors": "Chalkidis, George; McPherson, Jordan; Beck, Anna; Newman, Michael; Yui, Shuntaro; Staes, Catherine",
+  "journal": "JCO clinical cancer informatics",
+  "published_date": "2022-04-26",
+  "window": {
+    "start": "2022-04-25",
+    "end": "2022-05-01"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用机器学习预测晚期实体瘤患者6个月死亡率，完全不涉及蛋白质-DNA互作或TF-DNA结合体系，与本课题无关。",
+  "abstract": "PURPOSE: Patients with advanced solid tumors may receive intensive treatments near the end of life. This study aimed to create a machine learning (ML) model using limited features to predict 6-month mortality at treatment decision points (TDPs). METHODS: We identified a cohort of adults with advanced solid tumors receiving care at a major cancer center from 2014 to 2020. We identified TDPs for new lines of therapy (LoTs) and confirmed mortality at 6 months after a TDP. Using extreme gradient boosting, ML models were developed, which used or derived features from a limited set of electronic health record data considering the literature, clinical relevance, variability, availability, and predictive importance using Shapley additive explanations scores. We predicted and observed 6-month mortality after a TDP and assessed a risk stratification strategy with different risk thresholds to support communication of chance of survival. RESULTS: Four thousand one hundred ninety-two patients were included. Patients had 7,056 TDPs, for which the 6-month mortality increased from 17.9% to 46.7% after starting first to sixth LoT, respectively. On the basis of internal validation, models using both 111 (Full) or 45 (Limited-45) features accurately predicted 6-month mortality (area under the curve >/= 0.80). Using a 0.3 risk threshold in the Limited-45 model, the observed 6-month survival was 34% (95% CI, 28 to 40) versus 81% (95% CI, 81 to 82) among those classified with low or higher chance of survival, respectively. The positive predictive value of the Limited-45 model was 0.66 (95% CI, 0.60 to 0.72). CONCLUSION: We developed and validated a ML model using a limited set of 45 features readily derived from electronic health record data to predict 6-month prognosis in patients with advanced solid tumors. The model output may support shared decision making as patients consider the next LoT.",
+  "abstract_zh": "目的：晚期实体瘤患者可能在生命末期接受强化治疗。本研究旨在利用有限特征构建机器学习（machine learning, ML）模型，以在治疗决策点（treatment decision points, TDPs）预测6个月死亡率。方法：我们识别了2014年至2020年间在一家主要癌症中心接受治疗的晚期实体瘤成人患者队列。我们确定了新治疗线数（lines of therapy, LoTs）的TDPs，并确认TDP后6个月的死亡率。使用极端梯度提升（extreme gradient boosting）技术，开发了ML模型，这些模型利用或从有限电子健康记录数据集中衍生特征，考虑文献、临床相关性、变异性、可用性以及通过Shapley加法解释得分评估的预测重要性。我们预测并观察了TDP后6个月的死亡率，并评估了具有不同风险阈值的风险分层策略，以支持生存机会的沟通。结果：共纳入4,192名患者。患者共有7,056个TDPs，从第一线到第六线LoT开始后，6个月死亡率分别从17.9%增加至46.7%。基于内部验证，使用111个（完整）或45个（Limited-45）特征的模型均能准确预测6个月死亡率（曲线下面积 ≥ 0.80）。在Limited-45模型中使用0.3风险阈值时，被分类为低或较高生存机会的患者中，观察到的6个月生存率分别为34%（95% CI，28至40）和81%（95% CI，81至82）。Limited-45模型的阳性预测值为0.66（95% CI，0.60至0.72）。结论：我们开发并验证了一个使用有限45个特征、易于从电子健康记录数据中衍生的ML模型，用于预测晚期实体瘤患者的6个月预后。该模型输出可能支持患者考虑下一线LoT时的共同决策。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35467965/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35467965/",
+  "paper_page_path": "papers/pubmed/35467965/index.html"
+}

@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "40108736",
+    "doi": "10.1186/s41065-025-00403-w",
+    "title": "Screening and analysis of programmed cell death related genes and targeted drugs in sepsis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: This study employed bioinformatics techniques to identify diagnostic genes associated with programmed cell death (PCD) and to explore potential therapeutic agents for the treatment of sepsis. METHODS: Gene expression profiles from sepsis patients were analyzed to identify differentially expressed genes (DEGs) and hub genes through Weighted Gene Co-expression Network Analysis (WGCNA). Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses were conducted to elucidate the functions of the DEGs. PCD-related genes were cross-referenced with the identified DEGs. Diagnostic genes were selected using Least Absolute Shrinkage and Selection Operator (LASSO) and Random Forest (RF) methodologies. Single-cell RNA sequencing was utilized to assess gene expression in blood cells, while CIBERSORT was employed to evaluate immune cell infiltration. A transcription factor (TF)-microRNA (miRNA)-hub gene network was constructed, and potential therapeutic compounds were predicted using the Drug Gene Interaction Database (DGIdb). Mendelian Randomization (MR) methods were applied to analyze genome-wide association study (GWAS) data for S100A9, TXN, and GSTO1. RESULTS: The analysis revealed 2156 PCD-related genes, 714 DEGs, and 1198 hub genes, with 88 genes enriched in immune and cell death pathways. Five pivotal PCD-related genes (IRAK3, S100A9, TXN, NFATC2, and GSTO1) were identified, leading to the construction of a network comprising six transcription factors and 171 microRNAs. Additionally, seven drugs targeting S100A9, TXN, and NFATC2 were identified. MR analysis suggested that a decrease in GSTO1 levels is associated with an increased risk of sepsis, and that sepsis influences the levels of S100A9, TXN, and GSTO1. CONCLUSIONS: Through bioinformatics approaches, this study successfully identified five genes (IRAK3, S100A9, TXN, NFATC2, and GSTO1) associated with programmed cell death in the context of sepsis. This research identified seven candidate drugs for sepsis treatment and established a methodological framework for predicting biomarkers and drug targets that could be applicable to other diseases.",
+    "keywords": [
+      "Bioinformatics",
+      "Mendelian randomization analysis",
+      "Multiple organ dysfunction",
+      "Programmed cell death",
+      "Sepsis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Sepsis/genetics/drug therapy",
+      "Gene Regulatory Networks",
+      "Computational Biology",
+      "*Apoptosis/genetics",
+      "Genome-Wide Association Study",
+      "Gene Expression Profiling",
+      "Gene Ontology",
+      "MicroRNAs/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Song, Juanjuan",
+        "Ren, Kairui",
+        "Wang, Yi",
+        "Zhang, Dexin",
+        "Sun, Lin",
+        "Tang, Zhiqiang",
+        "Zhang, Lili",
+        "Deng, Ying"
+      ],
+      "short_names": [
+        "Song J",
+        "Ren K",
+        "Wang Y",
+        "Zhang D",
+        "Sun L",
+        "Tang Z",
+        "Zhang L",
+        "Deng Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Emergency, The Second Affiliated Hospital of Harbin Medical University, No.148 Baojian Road, Nangang District, Harbin, 150086, Heilongjiang, China.",
+        "Department of Emergency, Peking Union Medical College Hospital, Chinese Academy of Medical Science, Beijing, 100730, China.",
+        "Department of Emergency, The Second Affiliated Hospital of Harbin Medical University, No.148 Baojian Road, Nangang District, Harbin, 150086, Heilongjiang, China.",
+        "Department of Emergency, The Second Affiliated Hospital of Harbin Medical University, No.148 Baojian Road, Nangang District, Harbin, 150086, Heilongjiang, China.",
+        "Department of Emergency, The Second Affiliated Hospital of Harbin Medical University, No.148 Baojian Road, Nangang District, Harbin, 150086, Heilongjiang, China.",
+        "Department of Critical Care Medicine, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150086, China.",
+        "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150086, China.",
+        "Department of Emergency, The Second Affiliated Hospital of Harbin Medical University, No.148 Baojian Road, Nangang District, Harbin, 150086, Heilongjiang, China. LDLRRR@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Song, Juanjuan",
+        "short_name": "Song J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital of Harbin Medical University, No.148 Baojian Road, Nangang District, Harbin, 150086, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Kairui",
+        "short_name": "Ren K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, Peking Union Medical College Hospital, Chinese Academy of Medical Science, Beijing, 100730, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yi",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital of Harbin Medical University, No.148 Baojian Road, Nangang District, Harbin, 150086, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Dexin",
+        "short_name": "Zhang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital of Harbin Medical University, No.148 Baojian Road, Nangang District, Harbin, 150086, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Lin",
+        "short_name": "Sun L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital of Harbin Medical University, No.148 Baojian Road, Nangang District, Harbin, 150086, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Zhiqiang",
+        "short_name": "Tang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Critical Care Medicine, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150086, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lili",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, The Second Affiliated Hospital of Harbin Medical University, Harbin, 150086, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Ying",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Emergency, The Second Affiliated Hospital of Harbin Medical University, No.148 Baojian Road, Nangang District, Harbin, 150086, Heilongjiang, China. LDLRRR@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Hereditas"
+    ],
+    "journal_abbrev": [
+      "Hereditas"
+    ],
+    "pub_date": "2025 Mar 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/20 06:24",
+    "fetched_at": "2026-09-30 13:55:56"
+  },
+  "links": {
+    "cites": [
+      "42663978"
+    ],
+    "refs": [
+      "39720703",
+      "39006491",
+      "38942784",
+      "38308971",
+      "38277535",
+      "37834169",
+      "37722290",
+      "37426202",
+      "37402858",
+      "37337301",
+      "36344162",
+      "36172619",
+      "35986237",
+      "35655858",
+      "35279460",
+      "35167625",
+      "35078996",
+      "34926535",
+      "34848455",
+      "33634378",
+      "33590831",
+      "33255983",
+      "33079489",
+      "32931581",
+      "32903598",
+      "32846217",
+      "32049880",
+      "31954465",
+      "31804299",
+      "31099182",
+      "29100379",
+      "28658587",
+      "27749700",
+      "26903338",
+      "26752068",
+      "22078876",
+      "8637514"
+    ],
+    "similar": [
+      "40108736",
+      "40055592",
+      "39556279",
+      "29257295",
+      "39586719",
+      "39142001",
+      "31987036",
+      "40129981",
+      "40093012",
+      "38062833",
+      "37179305",
+      "39377750",
+      "40028203",
+      "39403102",
+      "38245687",
+      "40245021",
+      "36291136",
+      "38755717",
+      "38073349",
+      "35016690",
+      "39744064",
+      "36225941",
+      "40263537",
+      "39671358",
+      "40350654",
+      "38701300",
+      "38440848",
+      "39793232",
+      "39656402",
+      "39341952",
+      "39839184",
+      "39929099",
+      "40165133",
+      "39364223",
+      "32575108",
+      "37359526",
+      "39125762",
+      "39512681",
+      "37235492",
+      "39496786",
+      "40362669",
+      "36531699",
+      "36704339",
+      "37740761",
+      "40091022",
+      "38650009",
+      "38774864",
+      "35773742",
+      "40289127",
+      "39192657",
+      "39251231",
+      "35762549",
+      "37100862",
+      "40274894",
+      "39713769",
+      "39341981",
+      "39928821",
+      "38291374",
+      "39082346",
+      "39541897",
+      "40050379",
+      "36276976",
+      "33280594",
+      "40238799",
+      "34536521",
+      "35278479",
+      "38259479",
+      "39143741",
+      "38852219",
+      "38863714",
+      "35473522",
+      "40307356",
+      "38912048",
+      "28952134",
+      "35818227",
+      "40313958",
+      "38919616",
+      "39833772",
+      "38544384",
+      "38509535",
+      "34553293",
+      "33741890",
+      "39290707",
+      "38549107",
+      "37632659",
+      "38902567",
+      "38028617",
+      "40105149",
+      "35620387",
+      "38957433",
+      "38212812",
+      "39139563",
+      "37378675",
+      "35958412",
+      "37259023",
+      "36405745",
+      "39609718",
+      "39670237",
+      "37115484",
+      "35757392"
+    ],
+    "review": [
+      "40108736"
+    ],
+    "pmc": [
+      "11921706"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://hereditasjournal.biomedcentral.com/articles/10.1186/s41065-025-00403-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/sepsis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Sepsis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40108736/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3884",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

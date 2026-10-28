@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "41053815",
+    "doi": "10.1186/s13059-025-03823-z",
+    "title": "Cisformer: a scalable cross-modality generation framework for decoding transcriptional regulation at single-cell resolution."
+  },
+  "content": {
+    "abstract": "Single-cell multiomic technologies enable the joint analysis of different modalities, but face challenges due to experimental complexity. Current computational methods for single-cell cross-modality translation lack biological interpretability. Here, we present Cisformer, a cross-attention-based generative model tailored for cross-modality generation between gene expression and chromatin accessibility at single-cell resolution. Systematic benchmarking demonstrates the superior accuracy and generalization of Cisformer against existing methods. Cisformer leverages its inherent interpretability to precisely link cis-regulatory elements to target genes, facilitating the identification of functional transcription factors associated with tumorigenesis and aging. Overall, Cisformer is a powerful tool for single-cell multiomic data analysis.",
+    "keywords": [
+      "Cis-regulatory element",
+      "Cross-modality generation",
+      "Model interpretability",
+      "Single-cell multiomics",
+      "Transcription factor",
+      "Transcriptional regulation",
+      "Transformer"
+    ],
+    "mesh_terms": [
+      "*Single-Cell Analysis/methods",
+      "*Gene Expression Regulation",
+      "Humans",
+      "Chromatin/metabolism",
+      "*Software",
+      "Transcription Factors/metabolism",
+      "*Transcription, Genetic",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ji, Luzhang",
+        "Zou, Qihang",
+        "Tang, Ke",
+        "Wang, Chenfei"
+      ],
+      "short_names": [
+        "Ji L",
+        "Zou Q",
+        "Tang K",
+        "Wang C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration of Ministry of Education, Department of Orthopedics, Tongji Hospital, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China.",
+        "Sycamore Research Institute of Life Sciences, Shanghai, 201210, China.",
+        "Frontier Science Center for Stem Cell Research, Tongji University, Shanghai, 200092, China.",
+        "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration of Ministry of Education, Department of Orthopedics, Tongji Hospital, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China.",
+        "Sycamore Research Institute of Life Sciences, Shanghai, 201210, China.",
+        "Frontier Science Center for Stem Cell Research, Tongji University, Shanghai, 200092, China.",
+        "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration of Ministry of Education, Department of Orthopedics, Tongji Hospital, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China.",
+        "Sycamore Research Institute of Life Sciences, Shanghai, 201210, China.",
+        "Frontier Science Center for Stem Cell Research, Tongji University, Shanghai, 200092, China.",
+        "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration of Ministry of Education, Department of Orthopedics, Tongji Hospital, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China. 08chenfeiwang@tongji.edu.cn.",
+        "Sycamore Research Institute of Life Sciences, Shanghai, 201210, China. 08chenfeiwang@tongji.edu.cn.",
+        "Frontier Science Center for Stem Cell Research, Tongji University, Shanghai, 200092, China. 08chenfeiwang@tongji.edu.cn.",
+        "National Key Laboratory of Autonomous Intelligent Unmanned Systems, Tongji University, Shanghai, 201210, China. 08chenfeiwang@tongji.edu.cn.",
+        "Frontier Science Center for Intelligent Autonomous Systems, Tongji University, Shanghai, 201210, China. 08chenfeiwang@tongji.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ji, Luzhang",
+        "short_name": "Ji L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration of Ministry of Education, Department of Orthopedics, Tongji Hospital, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China.",
+          "Sycamore Research Institute of Life Sciences, Shanghai, 201210, China.",
+          "Frontier Science Center for Stem Cell Research, Tongji University, Shanghai, 200092, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Qihang",
+        "short_name": "Zou Q",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration of Ministry of Education, Department of Orthopedics, Tongji Hospital, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China.",
+          "Sycamore Research Institute of Life Sciences, Shanghai, 201210, China.",
+          "Frontier Science Center for Stem Cell Research, Tongji University, Shanghai, 200092, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Ke",
+        "short_name": "Tang K",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration of Ministry of Education, Department of Orthopedics, Tongji Hospital, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China.",
+          "Sycamore Research Institute of Life Sciences, Shanghai, 201210, China.",
+          "Frontier Science Center for Stem Cell Research, Tongji University, Shanghai, 200092, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chenfei",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Spine and Spinal Cord Injury Repair and Regeneration of Ministry of Education, Department of Orthopedics, Tongji Hospital, School of Life Sciences and Technology, Tongji University, Shanghai, 200092, China. 08chenfeiwang@tongji.edu.cn.",
+          "Sycamore Research Institute of Life Sciences, Shanghai, 201210, China. 08chenfeiwang@tongji.edu.cn.",
+          "Frontier Science Center for Stem Cell Research, Tongji University, Shanghai, 200092, China. 08chenfeiwang@tongji.edu.cn.",
+          "National Key Laboratory of Autonomous Intelligent Unmanned Systems, Tongji University, Shanghai, 201210, China. 08chenfeiwang@tongji.edu.cn.",
+          "Frontier Science Center for Intelligent Autonomous Systems, Tongji University, Shanghai, 201210, China. 08chenfeiwang@tongji.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2025 Oct 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/07 06:29",
+    "fetched_at": "2026-10-01 03:37:36"
+  },
+  "links": {
+    "cites": [
+      "42037106"
+    ],
+    "refs": [
+      "40579556",
+      "40215981",
+      "39896635",
+      "39117640",
+      "39075108",
+      "39060615",
+      "38744973",
+      "38724668",
+      "38582890",
+      "38514783",
+      "38297190",
+      "38191932",
+      "37914932",
+      "37289875",
+      "36927793",
+      "36251758",
+      "35773432",
+      "35624210",
+      "34751401",
+      "34615872",
+      "34381375",
+      "33846573",
+      "33827925",
+      "33633365",
+      "33101778",
+      "33098772",
+      "32669714",
+      "32434871",
+      "32182487",
+      "31611697",
+      "31356597",
+      "30890159",
+      "29409532",
+      "29038174",
+      "28854175",
+      "28759029",
+      "28288100",
+      "28262505",
+      "25103404",
+      "24879116",
+      "22427637",
+      "22143240",
+      "21350194",
+      "18641300",
+      "18544633",
+      "16895450",
+      "16381938",
+      "16352813",
+      "15688019",
+      "15356133",
+      "9184226"
+    ],
+    "similar": [
+      "41053815",
+      "33633365",
+      "42694579",
+      "41093852",
+      "41887797",
+      "33827925",
+      "38940155",
+      "40633682",
+      "41288963",
+      "40598278",
+      "36902216",
+      "41951735",
+      "30166440",
+      "41609358",
+      "42243114",
+      "41452988",
+      "42475469",
+      "39326643",
+      "41588477",
+      "42560939",
+      "41385391",
+      "18950538",
+      "42474448",
+      "37365273",
+      "41643202",
+      "38092913",
+      "41980989",
+      "39376034",
+      "39904740",
+      "40345198",
+      "11491305",
+      "32699019",
+      "41151585",
+      "40419657",
+      "34374760",
+      "30078704",
+      "31597106",
+      "41632825",
+      "41457082",
+      "41325188",
+      "38012720",
+      "39814021",
+      "41851840",
+      "41105015",
+      "42482180",
+      "37722500",
+      "39062661",
+      "38724692",
+      "41408042",
+      "39779852",
+      "41285681",
+      "40707940",
+      "19126674",
+      "40210438",
+      "32312293",
+      "40832731",
+      "41832957",
+      "40889281",
+      "34686316",
+      "33874910",
+      "39956806",
+      "39127768",
+      "29706549",
+      "39833103",
+      "39207727",
+      "40247122",
+      "32431014",
+      "34896367",
+      "41073798",
+      "39905485",
+      "38653489",
+      "42605072",
+      "41632074",
+      "42675615",
+      "40391084",
+      "41315351",
+      "42050196",
+      "27893965",
+      "39567490",
+      "33927415",
+      "41518505",
+      "41723114",
+      "42525289",
+      "41481570",
+      "40753156",
+      "39888834",
+      "40632608",
+      "41203866",
+      "40751912",
+      "39843737",
+      "42248920",
+      "41734268",
+      "40794946",
+      "30867223",
+      "41862973",
+      "39747019",
+      "36055233",
+      "33964211",
+      "41545085",
+      "30692544"
+    ],
+    "review": [
+      "41053815",
+      "41609358",
+      "41385391",
+      "37365273",
+      "39207727",
+      "34896367",
+      "27893965"
+    ],
+    "pmc": [
+      "12498472"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03823-z",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41053815/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

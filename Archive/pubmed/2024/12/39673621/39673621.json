@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "39673621",
+    "doi": "10.1007/s00403-024-03617-6",
+    "title": "Bioinformatics analysis reveals potential crosstalk genes and molecular mechanisms between ulcerative colitis and psoriasis."
+  },
+  "content": {
+    "abstract": "Ulcerative colitis (UC) and psoriasis are highly correlated clinically; however, it is unclear whether they have a common pathophysiological mechanism. The purpose of this study is to investigate the important molecules and pathways that mediate the coexistence of UC and psoriasis through quantitative bioinformatics analysis of public RNA-sequencing databases. The UC (GSE38713) and psoriasis (GSE30999) datasets were downloaded from the Gene Expression Omnibus database. Differentially expressed genes were analysed using the \"limma\" package and their biological functions were investigated using Gene Ontology and the Kyoto Encyclopedia of Genes and Genomes. The Search Tool for the Retrieval of Interacting Genes database was used to create the protein-protein interaction (PPI) network, which was visualised by Cytoscape. The CytoHubba plugin was used to select the hub genes. The hub genes of psoriasis and UC were verified in GSE75214, GSE78097, GSE14905, and GSE87466. The predicted value of the hub gene was evaluated by the receiver operating characteristic curve (ROC). Gene Set Enrichment Analysis (GSEA) and immune infiltration were performed for the hub genes. Finally, we performed transcription factor (TF)-gene interaction network analysis, TF-miRNA co-regulation network analysis and candidate drug prediction. A total of 114 genes (89 ascending genes and 25 descending genes) with similar expression trends between UC and psoriasis were identified. Enrichment analysis revealed that the two signaling pathways were primarily related to immune and inflammatory responses. PPI network screened 13 hub genes (IL-1B, CXCL10, TLR2, CD274, CXCR2, CXCL9, MMP9, CXCL1, CASP1, IL-7R, IL-1RN, CCL18 and LCN2). Using NetworkAnalyst, we constructed a co-regulatory network diagram of TF-gene and TF-miRNA. Finally, diacerein was predicted to be effective in the treatment of UC and psoriasis. Our research revealed the common pathogenesis of UC and psoriasis, and examined the hub genes, TF and miRNA and potential therapeutic drugs (diacerein). These findings may provide new perspectives for further mechanism research and clinical treatment.",
+    "keywords": [
+      "Psoriasis",
+      "Shared gene signatures",
+      "TF",
+      "Ulcerative colitis",
+      "miRNA"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Colitis, Ulcerative/genetics/immunology",
+      "*Psoriasis/genetics",
+      "*Computational Biology",
+      "*Protein Interaction Maps/genetics",
+      "*Gene Regulatory Networks",
+      "*Gene Expression Profiling",
+      "Databases, Genetic",
+      "MicroRNAs/genetics",
+      "Transcription Factors/genetics/metabolism",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Qinghua",
+        "An, Mingwei",
+        "Wu, Yunxiang",
+        "Wang, Jiawen",
+        "Mao, Yuanting",
+        "Zhang, Leichang",
+        "Wang, Chen"
+      ],
+      "short_names": [
+        "Luo Q",
+        "An M",
+        "Wu Y",
+        "Wang J",
+        "Mao Y",
+        "Zhang L",
+        "Wang C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Clinical Medical College, Jiangxi University of Chinese Medicine, Nanchang, China.",
+        "Department of Anorectal Surgery, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, China.",
+        "Department of Anorectal Surgery, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, China.",
+        "Department of Anorectal Surgery, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+        "Clinical Medical College, Jiangxi University of Chinese Medicine, Nanchang, China.",
+        "Department of Anorectal Surgery, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, China.",
+        "Department of Anorectal Surgery, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, China. zhangleichang@jxutcm.edu.cn.",
+        "Formula-Pattern Research Center, Jiangxi University of Chinese Medicine, Jiangxi, China. zhangleichang@jxutcm.edu.cn.",
+        "Department of Anorectal Surgery, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China. wangchen_longhua@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Qinghua",
+        "short_name": "Luo Q",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Medical College, Jiangxi University of Chinese Medicine, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "An, Mingwei",
+        "short_name": "An M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anorectal Surgery, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yunxiang",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anorectal Surgery, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiawen",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anorectal Surgery, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Mao, Yuanting",
+        "short_name": "Mao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Medical College, Jiangxi University of Chinese Medicine, Nanchang, China.",
+          "Department of Anorectal Surgery, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Leichang",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anorectal Surgery, Affiliated Hospital of Jiangxi University of Chinese Medicine, Nanchang, China. zhangleichang@jxutcm.edu.cn.",
+          "Formula-Pattern Research Center, Jiangxi University of Chinese Medicine, Jiangxi, China. zhangleichang@jxutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Chen",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anorectal Surgery, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China. wangchen_longhua@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Archives of dermatological research"
+    ],
+    "journal_abbrev": [
+      "Arch Dermatol Res"
+    ],
+    "pub_date": "2024 Dec 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/14 20:05",
+    "fetched_at": "2026-09-30 07:42:20"
+  },
+  "links": {
+    "cites": [
+      "42620717"
+    ],
+    "refs": [
+      "37000707",
+      "36398889",
+      "36189286",
+      "36081290",
+      "35120997",
+      "34925026",
+      "34410877",
+      "33975513",
+      "33752809",
+      "33686088",
+      "33570153",
+      "33556947",
+      "33541344",
+      "33404109",
+      "33357839",
+      "33104784",
+      "33074781",
+      "33042416",
+      "32427307",
+      "32164750",
+      "32010260",
+      "31982609",
+      "31945371",
+      "31014995",
+      "30951392",
+      "30939120",
+      "30931480",
+      "30760013",
+      "30733802",
+      "30647534",
+      "30571969",
+      "30445584",
+      "30393811",
+      "29912392",
+      "29748001",
+      "29580867",
+      "29541787",
+      "29317577",
+      "29126249",
+      "29018274",
+      "28765121",
+      "28617755",
+      "27239106",
+      "27165470",
+      "26520877",
+      "26515897",
+      "26263469",
+      "26079725",
+      "26023918",
+      "25990557",
+      "25972108",
+      "25822800",
+      "24803722",
+      "24352680",
+      "24307685",
+      "24217014",
+      "24138885",
+      "23281567",
+      "23057802",
+      "22680616",
+      "20805189",
+      "18942754",
+      "17993580",
+      "17658397",
+      "17068223",
+      "15337119",
+      "15173836",
+      "14744438",
+      "14613970",
+      "14597658",
+      "12734009",
+      "11752295",
+      "10380697",
+      "9424095",
+      "7066192"
+    ],
+    "similar": [
+      "39673621",
+      "33941565",
+      "36860851",
+      "40155679",
+      "37494129",
+      "33132321",
+      "33462173",
+      "35392084",
+      "38736878",
+      "38863714",
+      "38764052",
+      "39766817",
+      "36499614",
+      "37632659",
+      "38899746",
+      "39161963",
+      "32481304",
+      "37861483",
+      "36631011",
+      "31987036",
+      "33132649",
+      "39556279",
+      "40245021",
+      "38062833",
+      "37055495",
+      "36061211",
+      "32489050",
+      "38065859",
+      "35397550",
+      "34306038",
+      "39028999",
+      "37250717",
+      "38829444",
+      "32669126",
+      "38660311",
+      "31746348",
+      "35719390",
+      "39125762",
+      "35313524",
+      "39284931",
+      "37878219",
+      "33987007",
+      "37898694",
+      "34510961",
+      "32190668",
+      "38902567",
+      "35749386",
+      "40021664",
+      "30506958",
+      "36316672",
+      "39496786",
+      "26239378",
+      "39586719",
+      "39975557",
+      "32160841",
+      "33347387",
+      "39712025",
+      "33416099",
+      "39086489",
+      "39473404",
+      "40173189",
+      "35729678",
+      "30542696",
+      "35757392",
+      "40091022",
+      "39367003",
+      "33144895",
+      "38656456",
+      "40175429",
+      "38550602",
+      "30825595",
+      "38117365",
+      "35795659",
+      "34313877",
+      "33892654",
+      "38957433",
+      "40289127",
+      "35949853",
+      "39309918",
+      "39192657",
+      "39636891",
+      "39026683",
+      "35016690",
+      "34931168",
+      "35818227",
+      "31115544",
+      "38904678",
+      "30602391",
+      "36104591",
+      "40119934",
+      "39111872",
+      "33204705",
+      "38303405",
+      "38968466",
+      "33376723",
+      "39342024",
+      "39375405",
+      "39306912",
+      "40196107",
+      "39582536"
+    ],
+    "review": [
+      "39673621",
+      "32481304"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/psoriasis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Psoriasis"
+      },
+      {
+        "url": "https://link.springer.com/article/10.1007/s00403-024-03617-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-681",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

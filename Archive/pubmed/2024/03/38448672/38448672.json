@@ -1,0 +1,414 @@
+{
+  "identity": {
+    "pmid": "38448672",
+    "doi": "10.1038/s44318-024-00058-9",
+    "title": "Structural basis for RAD18 regulation by MAGEA4 and its implications for RING ubiquitin ligase binding by MAGE family proteins."
+  },
+  "content": {
+    "abstract": "MAGEA4 is a cancer-testis antigen primarily expressed in the testes but aberrantly overexpressed in several cancers. MAGEA4 interacts with the RING ubiquitin ligase RAD18 and activates trans-lesion DNA synthesis (TLS), potentially favouring tumour evolution. Here, we employed NMR and AlphaFold2 (AF) to elucidate the interaction mode between RAD18 and MAGEA4, and reveal that the RAD6-binding domain (R6BD) of RAD18 occupies a groove in the C-terminal winged-helix subdomain of MAGEA4. We found that MAGEA4 partially displaces RAD6 from the RAD18 R6BD and inhibits degradative RAD18 autoubiquitination, which could be countered by a competing peptide of the RAD18 R6BD. AlphaFold2 and cross-linking mass spectrometry (XL-MS) also revealed an evolutionary invariant intramolecular interaction between the catalytic RING and the DNA-binding SAP domains of RAD18, which is essential for PCNA mono-ubiquitination. Using interaction proteomics, we found that another Type-I MAGE, MAGE-C2, interacts with the RING ubiquitin ligase TRIM28 in a manner similar to the MAGEA4/RAD18 complex, suggesting that the MAGEA4 peptide-binding groove also serves as a ligase-binding cleft in other type-I MAGEs. Our data provide new insights into the mechanism and regulation of RAD18-mediated PCNA mono-ubiquitination.",
+    "keywords": [
+      "MAGEA4",
+      "RAD18",
+      "RAD6",
+      "Trans-lesion DNA Synthesis",
+      "Ubiquitin"
+    ],
+    "mesh_terms": [
+      "Proliferating Cell Nuclear Antigen/metabolism",
+      "*Ubiquitin-Conjugating Enzymes/metabolism",
+      "*Ubiquitin-Protein Ligases/genetics/metabolism",
+      "Ubiquitination",
+      "Ubiquitin/metabolism",
+      "Peptides/metabolism",
+      "DNA Damage"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Griffith-Jones, Simonne",
+        "Alvarez, Lucia",
+        "Mukhopadhyay, Urbi",
+        "Gharbi, Sarah",
+        "Rettel, Mandy",
+        "Adams, Michael",
+        "Hennig, Janosch",
+        "Bhogaraju, Sagar"
+      ],
+      "short_names": [
+        "Griffith-Jones S",
+        "Alvarez L",
+        "Mukhopadhyay U",
+        "Gharbi S",
+        "Rettel M",
+        "Adams M",
+        "Hennig J",
+        "Bhogaraju S"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-2220-6704",
+        "ORCID: 0000-0002-1437-5773",
+        "ORCID: 0009-0008-4792-9411",
+        "ORCID: 0000-0002-8304-3385",
+        "ORCID: 0000-0001-5214-7002",
+        "ORCID: 0000-0001-9998-5927"
+      ],
+      "affiliations": [
+        "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042, Grenoble, France.",
+        "European Molecular Biology Laboratory, Meyerhofstrasse 1, 69117, Heidelberg, Germany.",
+        "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042, Grenoble, France.",
+        "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042, Grenoble, France.",
+        "European Molecular Biology Laboratory, Meyerhofstrasse 1, 69117, Heidelberg, Germany.",
+        "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042, Grenoble, France.",
+        "European Molecular Biology Laboratory, Meyerhofstrasse 1, 69117, Heidelberg, Germany.",
+        "Biochemistry IV, Biophysical Chemistry, University of Bayreuth, Universitatsstrasse 30, 95447, Bayreuth, Germany.",
+        "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042, Grenoble, France. bhogaraju@embl.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Griffith-Jones, Simonne",
+        "short_name": "Griffith-Jones S",
+        "identifiers": [
+          "0009-0003-2220-6704"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042, Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Álvarez, Lucía",
+        "short_name": "Álvarez L",
+        "identifiers": [
+          "0000-0002-1437-5773"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory, Meyerhofstraße 1, 69117, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Mukhopadhyay, Urbi",
+        "short_name": "Mukhopadhyay U",
+        "identifiers": [],
+        "affiliations": [
+          "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042, Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Gharbi, Sarah",
+        "short_name": "Gharbi S",
+        "identifiers": [
+          "0009-0008-4792-9411"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042, Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Rettel, Mandy",
+        "short_name": "Rettel M",
+        "identifiers": [
+          "0000-0002-8304-3385"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory, Meyerhofstraße 1, 69117, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Adams, Michael",
+        "short_name": "Adams M",
+        "identifiers": [],
+        "affiliations": [
+          "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042, Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Hennig, Janosch",
+        "short_name": "Hennig J",
+        "identifiers": [
+          "0000-0001-5214-7002"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory, Meyerhofstraße 1, 69117, Heidelberg, Germany.",
+          "Biochemistry IV, Biophysical Chemistry, University of Bayreuth, Universitätsstrasse 30, 95447, Bayreuth, Germany."
+        ]
+      },
+      {
+        "full_name": "Bhogaraju, Sagar",
+        "short_name": "Bhogaraju S",
+        "identifiers": [
+          "0000-0001-9998-5927"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory, 71 Avenue des Martyrs, 38042, Grenoble, France. bhogaraju@embl.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The EMBO journal"
+    ],
+    "journal_abbrev": [
+      "EMBO J"
+    ],
+    "pub_date": "2024 Apr",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/07 00:42",
+    "fetched_at": "2026-09-29 16:31:10"
+  },
+  "links": {
+    "cites": [
+      "42146504",
+      "41943839",
+      "41864206",
+      "40244296",
+      "39970827",
+      "39249547",
+      "38907034"
+    ],
+    "refs": [
+      "35522528",
+      "35459258",
+      "35426246",
+      "35006464",
+      "34791371",
+      "34723319",
+      "34265844",
+      "33777071",
+      "33771892",
+      "33004795",
+      "32002290",
+      "31980388",
+      "31149633",
+      "31049777",
+      "30798132",
+      "30464214",
+      "30242094",
+      "30197348",
+      "29901069",
+      "29225034",
+      "28506460",
+      "28394358",
+      "28394336",
+      "27811911",
+      "27729395",
+      "27412762",
+      "27377895",
+      "26965855",
+      "26910052",
+      "26379230",
+      "26342994",
+      "25961918",
+      "25931565",
+      "25679763",
+      "25605792",
+      "25505092",
+      "25278616",
+      "25162118",
+      "25023518",
+      "24579773",
+      "24518219",
+      "23962882",
+      "23096706",
+      "22842486",
+      "22286754",
+      "21967848",
+      "21652716",
+      "21549715",
+      "21422291",
+      "20864041",
+      "19822754",
+      "19489725",
+      "19410543",
+      "19396164",
+      "19228710",
+      "19068231",
+      "18441000",
+      "18363965",
+      "18342608",
+      "18287115",
+      "18157158",
+      "17942928",
+      "17720710",
+      "16954188",
+      "16098139",
+      "15980475",
+      "15952890",
+      "15509568",
+      "15149598",
+      "12499312",
+      "12445278",
+      "12236350",
+      "12169536",
+      "11891783",
+      "11395416",
+      "11013078",
+      "10884424",
+      "10540345",
+      "9811843",
+      "9356455",
+      "8520220",
+      "7656275",
+      "2970061",
+      "2017370"
+    ],
+    "similar": [
+      "38448672",
+      "31887036",
+      "30700555",
+      "21422291",
+      "17720710",
+      "24958773",
+      "21967848",
+      "27377895",
+      "28666590",
+      "24672041",
+      "33242956",
+      "20675655",
+      "21549715",
+      "40025006",
+      "26098514",
+      "41943839",
+      "21884979",
+      "15509568",
+      "16611994",
+      "20010813",
+      "39628457",
+      "23345618",
+      "20129063",
+      "15359278",
+      "28831681",
+      "28082021",
+      "36087615",
+      "24224485",
+      "12226657",
+      "22456510",
+      "30335157",
+      "7926769",
+      "39580855",
+      "17108083",
+      "18948756",
+      "25162118",
+      "21478670",
+      "26795561",
+      "19029798",
+      "18245774",
+      "9234711",
+      "35355521",
+      "22904075",
+      "18363965",
+      "19706603",
+      "38943334",
+      "25311267",
+      "42095445",
+      "32895784",
+      "25590999",
+      "16611731",
+      "9287349",
+      "18485869",
+      "22902628",
+      "19208623",
+      "32932109",
+      "39858544",
+      "18316726",
+      "34292936",
+      "15121847",
+      "23314815",
+      "32228444",
+      "20529881",
+      "16888649",
+      "20064529",
+      "41990034",
+      "20864041",
+      "18284681",
+      "38719812",
+      "23034805",
+      "20600238",
+      "33570581",
+      "17158148",
+      "19851286",
+      "19092928",
+      "39826694",
+      "35522528",
+      "37923031",
+      "39121224",
+      "39043663",
+      "42146504",
+      "38528023",
+      "29626159",
+      "26212134",
+      "25023518",
+      "22681887",
+      "28924044",
+      "23761444",
+      "23295675",
+      "21098111",
+      "31160341",
+      "21858012",
+      "36820504",
+      "33650289",
+      "28458162",
+      "10880451",
+      "22987070",
+      "36228090",
+      "18824138",
+      "25692884"
+    ],
+    "review": [
+      "38448672",
+      "28666590",
+      "26098514"
+    ],
+    "pmc": [
+      "10987633"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s44318-024-00058-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38448672/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38448672",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAD18-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-558",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

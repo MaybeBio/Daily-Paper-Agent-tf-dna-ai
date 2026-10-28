@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "38863138",
+    "doi": "10.1021/acs.jcim.4c00381",
+    "title": "Integrated Anchored Stapling and Hierarchical Dynamics: MSICDA-Driven CREBBP Bromodomain Inhibition."
+  },
+  "content": {
+    "abstract": "Despite recent success in the computational approaches of cyclic peptide design, current studies face challenges in modeling noncanonical amino acids and nonstandard cyclizations due to limited data. To address this challenge, we developed an integrated framework for the tailored design of stapled peptides (SPs) targeting the bromodomain of CREBBP (CREBBP-BrD). We introduce a powerful combination of anchored stapling and hierarchical molecular dynamics to design and optimize SPs by employing the MultiScale integrative conformational dynamics assessment (MSICDA) strategy, which involves an initial virtual screening of over 1.5 million SPs, followed by comprehensive simulations amounting to 154.54 mus across 5418 of instances. The MSICDA method provides a detailed and holistic stability view of peptide-protein interactions, systematically isolated optimized peptides and identified two leading candidates, DA#430 and DA#99409, characterized by their enhanced stability, optimized binding, and high affinity toward the CREBBP-BrD. In cell-free assays, DA#430 and DA#99409 exhibited 2- to 12-fold greater potency than inhibitor SGC-CBP30. Cell studies revealed higher peptide selectivity for cancerous versus normal cells over small molecules. DA#430 combined with (+)-JQ-1 showed promising synergistic effects. Our approach enables the identification of peptides with optimized binding, high affinity, and enhanced stability, leading to more precise and effective cyclic peptide design, thereby establishing MSICDA as a generalizable and transformative tool for uncovering novel targeted drug development in various therapeutic areas.",
+    "keywords": [],
+    "mesh_terms": [
+      "*CREB-Binding Protein/chemistry/metabolism/antagonists & inhibitors",
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "Peptides, Cyclic/chemistry/pharmacology/metabolism",
+      "Protein Domains",
+      "Protein Conformation",
+      "Peptides/chemistry/metabolism/pharmacology",
+      "Cell Line, Tumor",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xinpei",
+        "Chen, Xu",
+        "Chen, Zhidong",
+        "Xu, Wanting",
+        "Lai, Ruizhi",
+        "Qiu, Xiaohui",
+        "Zeng, Zekai",
+        "Wang, Chenglin",
+        "Wang, Zhe",
+        "Wang, Junqing"
+      ],
+      "short_names": [
+        "Wang X",
+        "Chen X",
+        "Chen Z",
+        "Xu W",
+        "Lai R",
+        "Qiu X",
+        "Zeng Z",
+        "Wang C",
+        "Wang Z",
+        "Wang J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9091-9891"
+      ],
+      "affiliations": [
+        "School of Pharmaceutical Sciences, Shenzhen Campus of Sun Yat-sen University, Shenzhen 518107, China.",
+        "School of Pharmaceutical Sciences, Shenzhen Campus of Sun Yat-sen University, Shenzhen 518107, China.",
+        "School of Pharmaceutical Sciences, Shenzhen Campus of Sun Yat-sen University, Shenzhen 518107, China.",
+        "School of Pharmaceutical Sciences, Shenzhen Campus of Sun Yat-sen University, Shenzhen 518107, China.",
+        "Department of Pathology, The Eighth Affiliated Hospital, Sun Yat-sen University, Shenzhen 518033, China.",
+        "School of Pharmaceutical Sciences, Shenzhen Campus of Sun Yat-sen University, Shenzhen 518107, China.",
+        "Department of Pathology, The Eighth Affiliated Hospital, Sun Yat-sen University, Shenzhen 518033, China.",
+        "Shenzhen Qiyu Biotechnology Co., Ltd, Shenzhen 518107, China.",
+        "Department of Pathology, The Eighth Affiliated Hospital, Sun Yat-sen University, Shenzhen 518033, China.",
+        "School of Pharmaceutical Sciences, Shenzhen Campus of Sun Yat-sen University, Shenzhen 518107, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xinpei",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Shenzhen Campus of Sun Yat-sen University, Shenzhen 518107, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xu",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Shenzhen Campus of Sun Yat-sen University, Shenzhen 518107, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhidong",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Shenzhen Campus of Sun Yat-sen University, Shenzhen 518107, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wanting",
+        "short_name": "Xu W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Shenzhen Campus of Sun Yat-sen University, Shenzhen 518107, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Ruizhi",
+        "short_name": "Lai R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Eighth Affiliated Hospital, Sun Yat-sen University, Shenzhen 518033, China."
+        ]
+      },
+      {
+        "full_name": "Qiu, Xiaohui",
+        "short_name": "Qiu X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Shenzhen Campus of Sun Yat-sen University, Shenzhen 518107, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Zekai",
+        "short_name": "Zeng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Eighth Affiliated Hospital, Sun Yat-sen University, Shenzhen 518033, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chenglin",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Qiyu Biotechnology Co., Ltd, Shenzhen 518107, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhe",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The Eighth Affiliated Hospital, Sun Yat-sen University, Shenzhen 518033, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Junqing",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0002-9091-9891"
+        ],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Shenzhen Campus of Sun Yat-sen University, Shenzhen 518107, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2024 Jun 24",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/12 06:42",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38863138",
+      "29758466",
+      "26125948",
+      "26043365",
+      "31253937",
+      "34255515",
+      "21271695",
+      "30606771",
+      "27769362",
+      "29105291",
+      "33065433",
+      "37903231",
+      "31134568",
+      "29884215",
+      "37194299",
+      "31657556",
+      "29102725",
+      "33426882",
+      "31226791",
+      "26046793",
+      "38899853",
+      "32686307",
+      "31893470",
+      "31586754",
+      "35058484",
+      "30607314",
+      "29105934",
+      "22943434",
+      "38196284",
+      "24932669",
+      "33595041",
+      "33331371",
+      "38522761",
+      "29557723",
+      "38958133",
+      "29228881",
+      "27056325",
+      "34000187",
+      "12852971",
+      "32912021",
+      "28935886",
+      "29519125",
+      "33046654",
+      "36069401",
+      "33283479",
+      "21989937",
+      "34617942",
+      "30307134",
+      "38131333",
+      "26863382",
+      "30137066",
+      "29864683",
+      "30731167",
+      "27263470",
+      "39148280",
+      "24821300",
+      "25741627",
+      "38888290",
+      "23362923",
+      "38901510",
+      "27178225",
+      "33051202",
+      "35168356",
+      "27031286",
+      "28375629",
+      "28815832",
+      "31847417",
+      "28042965",
+      "31944488",
+      "32559581",
+      "28388463",
+      "38602129",
+      "27826791",
+      "25115702",
+      "38191871",
+      "36841551",
+      "23912807",
+      "31102258",
+      "31134567",
+      "36898348",
+      "34732714",
+      "36749163",
+      "30299093",
+      "33038548",
+      "30499778",
+      "32448094",
+      "38470946",
+      "28529634",
+      "29052959",
+      "12112677",
+      "37130830",
+      "33401765",
+      "1483474",
+      "35039490",
+      "32724470",
+      "31009996",
+      "37827517",
+      "34500324",
+      "38751042",
+      "19731376"
+    ],
+    "review": [
+      "38863138",
+      "27769362",
+      "31134568",
+      "33426882",
+      "38522761",
+      "38131333",
+      "27178225",
+      "28388463"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.4c00381",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.04.19.719524",
+  "title": "Structure-aware graph attention based hierarchical transformer framework for drug-target binding affinity prediction",
+  "authors": "Virendra Singh Kaira; Zakeerhussain D Kudari; Shankar P Sai; Ruchika Bhat; G. Jaiganesh",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-22",
+  "window": {
+    "start": "2026-04-20",
+    "end": "2026-04-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用图注意力与层级Transformer预测药物-靶点结合亲和力，虽涉及蛋白-配体互作建模，但对象为药物小分子而非蛋白质-DNA，且未聚焦TF-DNA体系，方法可部分借鉴但关联度有限。",
+  "abstract": "Drug-target interaction prediction is significant in the hit identification phase of drug discovery, enabling the identification of potential drug candidates for downstream optimization. Traditional computational methods have some drawbacks in their ability to represent 3D structural data for both molecules and target proteins, which is required for the intricate protein-ligand interactions that regulate binding affinity. In this approach, we propose a graph transformer-based model (GTStrDTI) that combines an intragraph attention mechanism with cross-modal attention to enrich the representation of both the drug molecule and target protein. This approach comprehensively models both intramolecular structural features and intermolecular interactions, thereby enhancing binding affinity prediction performance. A thorough evaluation on benchmark datasets such as KIBA, DAVIS, and BindingDB_Kd shows that our approach surpasses the state-of-the-art methods under challenging target cold-start settings. Our analysis found that augmenting graph-based 3D structural protein target (C-alpha contact graphs from PDB with threshold distance of 5Å) and incorporating molecule adjacency information, boosts predictive performance, thus contributing towards narrowing the gap between computational and experimental research.",
+  "abstract_zh": "药物-靶点相互作用预测在药物发现的命中识别阶段具有重要意义，能够识别潜在的药物候选物以供下游优化。传统计算方法在表示分子和靶蛋白的三维结构数据方面存在一些缺陷，而这些数据对于调控结合亲和力的复杂蛋白质-配体相互作用是必需的。在本方法中，我们提出了一种基于图变换器的模型（GTStrDTI），该模型结合了图内注意力机制和跨模态注意力，以丰富药物分子和靶蛋白的表示。此方法全面建模了分子内结构特征和分子间相互作用，从而提升了结合亲和力预测性能。在基准数据集如KIBA、DAVIS和BindingDB_Kd上的全面评估表明，在具有挑战性的靶点冷启动设置下，我们的方法超越了现有最先进技术。我们的分析发现，增强基于图的3D结构蛋白靶点（来自PDB的C-alpha接触图，阈值为5Å）并整合分子邻接信息，可提升预测性能，从而有助于缩小计算研究与实验研究之间的差距。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.04.19.719524",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.19.719524",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.04.19.719524/index.html"
+}

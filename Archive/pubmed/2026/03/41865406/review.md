@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary data were provided
+- **Shared manuscript claim summary** The authors report that two isoforms of human MKP-3 (DUSP6), the full-length MKP-3L and the alternatively spliced MKP-3S, differ in subcellular localization and enzymatic activity. Structural analysis and molecular docking suggest that MKP-3S retains ERK2 binding but lacks critical catalytic motifs, leading to a proposed non-canonical scaffold role. The isoforms also differ in their capacity to modulate FOXO1 transcriptional activity and downstream gene expression such as p21.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, structural coordinates, docking parameters, or raw data are available
+- **Missing materials affecting confidence** Full manuscript, methods, all figures and tables, supplementary information, statistical reporting, and any validation experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding functional divergence between MKP-3 splice isoforms, with a novel proposal that MKP-3S may act as a non-canonical scaffold. However, the evidence base is entirely inaccessible from the abstract alone. Several claims are stated without quantitative support, and the logical connection between structural predictions and functional outcomes is not fully articulated. The manuscript may have merit, but the current submission cannot be adequately evaluated.
+- **Who would be interested in the results, and why** Researchers in MAPK signaling, dual-specificity phosphatases, alternative splicing, and cancer biology would be interested. The proposed scaffold function for a phosphatase isoform could have implications for understanding ERK pathway regulation and for therapeutic targeting of DUSP6 in diseases where ERK signaling is dysregulated.
+- **Major strengths** The study addresses a clear gap in knowledge regarding functional differences between MKP-3 isoforms. The combination of biochemical and bioinformatic approaches is appropriate for the research question. The proposal of a non-canonical scaffold role for MKP-3S is conceptually interesting and could open new avenues for investigation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that MKP-3S "retains functional binding domains and recognizes ERK2 similarly to the full-length isoform" and that "the absence of critical catalytic motifs in MKP-3S leads to a structural uncoupling where the protein retains its ability to bind ERK2 but fails to induce dephosphorylation."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that structural analysis and molecular docking reveal these findings, but no details are provided regarding the methods used, the confidence of the docking predictions, or whether binding was experimentally validated. The claim that MKP-3S "fails to induce dephosphorylation" is presented without any enzymatic assay data or quantitative comparison to MKP-3L.
+  - **Why it matters** The central conclusion of a non-canonical scaffold role depends entirely on the demonstration that MKP-3S binds ERK2 but lacks catalytic activity. Without experimental validation of binding and enzymatic activity, the scaffold hypothesis remains speculative.
+  - **Resolution test** Provide experimental data showing direct binding between MKP-3S and ERK2 (e.g., co-immunoprecipitation, pull-down, or surface plasmon resonance) and enzymatic activity assays comparing MKP-3L and MKP-3S with appropriate positive and negative controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that the isoforms "differ significantly in subcellular localization and enzymatic activity" and that they exhibit "significant variations in ... the capacity to modulate FOXO1 transcriptional activity."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative data are presented to support the word "significant." There is no indication of effect sizes, statistical tests used, number of replicates, or whether the differences were observed across multiple cell lines or conditions. The abstract also does not specify how FOXO1 transcriptional activity was measured or whether the effect on p21 expression was direct or indirect.
+  - **Why it matters** The claim of functional divergence is the foundation of the paper. Without statistical rigor and clear experimental detail, the reader cannot assess the robustness of the findings or their generalizability.
+  - **Resolution test** Include statistical analyses with exact p-values or confidence intervals, describe the assays used for localization, activity, and transcriptional readouts, and specify the number of independent experiments and cell models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conceptual coherence
+  - **Claim pointer** The authors propose that MKP-3S "suggests a non-canonical role as a molecular scaffold."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not explain how a scaffold function would be distinguished from a dominant-negative effect or simple competitive inhibition of MKP-3L. If MKP-3S binds ERK2 but cannot dephosphorylate it, it could sequester ERK2 or compete with MKP-3L for substrate binding. The scaffold hypothesis requires additional evidence, such as demonstration that MKP-3S facilitates interactions between ERK2 and other partners or enhances specific signaling outputs.
+  - **Why it matters** The proposed scaffold role is a novel and potentially important claim, but it is not adequately distinguished from alternative explanations. Overinterpretation could mislead the field.
+  - **Resolution test** Provide functional experiments that specifically test scaffold activity, such as examining whether MKP-3S alters ERK2 phosphorylation kinetics, affects downstream signaling in a manner distinct from simple inhibition, or promotes protein-protein interactions involving ERK2.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The sentence "Structural analysis and molecular docking reveal that while MKP-3S retains functional binding domains and recognizes ERK2 similarly to the full-length isoform" contains a grammatical inconsistency ("reveal that while").
+  - **Required correction** Revise to "Structural analysis and molecular docking reveal that MKP-3S retains functional binding domains and recognizes ERK2 similarly to the full-length isoform."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the experimental systems used (e.g., cell lines, recombinant proteins, in vitro systems). This information is essential for the reader to contextualize the findings.
+  - **Required correction** Add a brief statement specifying the experimental models and approaches used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "non-canonical"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "non-canonical role" is used without defining what the canonical role is in this context. While the canonical role of MKP-3 is dephosphorylation of ERK, the abstract should make this explicit.
+  - **Required correction** Clarify that the canonical role is ERK dephosphorylation and that the scaffold function is proposed as non-canonical.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central claims of differential activity and the scaffold hypothesis require experimental validation and statistical support that are not visible in the abstract. Without these, the case for functional divergence is not established.
+- **Assessment against Nature-style criteria**  
+  - Originality: The proposal of a scaffold function for a MKP-3 isoform is conceptually novel and could be of interest. However, the abstract does not provide enough context to assess how this compares to existing literature on DUSP6 isoforms or other MKP family members.  
+  - Scientific importance: If substantiated, the findings could have implications for understanding ERK pathway regulation and for diseases where DUSP6 is implicated. The importance is moderate to high, but the current evidence does not support the strength of the claims.  
+  - Interdisciplinary readership: The topic is primarily of interest to cell signaling and phosphatase researchers. The broader interdisciplinary appeal is limited unless the scaffold function is shown to have wider regulatory implications.  
+  - Technical soundness: Cannot be assessed from the abstract. The absence of methodological detail and statistical reporting prevents evaluation.  
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terminology without sufficient explanation. The grammatical issue noted above also detracts from readability.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the lack of experimental detail and statistical support means the claims cannot be evaluated. I would be supportive if the technical concerns are resolved with appropriate data.
+
+## Risk / unsupported claims
+- The claim that MKP-3S "fails to induce dephosphorylation" is unsupported without enzymatic assay data.
+- The claim of "significant" differences in localization, activity, and FOXO1 modulation is unsupported without statistical reporting.
+- The proposal of a "non-canonical role as a molecular scaffold" is speculative and not distinguished from alternative mechanisms such as dominant-negative effects.
+- The statement that MKP-3S "recognizes ERK2 similarly to the full-length isoform" is based on docking predictions that are not experimentally validated.
+- The effect on p21 expression is mentioned without any data or mechanistic explanation.

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or supplementary materials provided
+- **Shared manuscript claim summary** The authors propose a probabilistic method, ExTrack, for analyzing single-particle tracking data. They claim it uses full spatio-temporal information to extract global model parameters, compute state probabilities at each time point, reveal state duration distributions, and refine bound molecule positions. They assert robustness across a wide range of diffusion coefficients and transition rates, including under model deviations, and demonstrate application to bacterial envelope proteins. They further claim a substantial expansion of the analyzable regime for noisy tracks and availability in ImageJ and Python.
+- **Visible evidence base** Abstract text only; no quantitative results, figures, tables, or methodological details
+- **Missing materials affecting confidence** Full manuscript, methods description, simulation and experimental results, figures, tables, code availability details, and any statistical validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable methodological contribution to single-particle tracking analysis, addressing a recognized challenge of noisy, short tracks with rapid state transitions. The proposed approach, leveraging full spatio-temporal information, is conceptually sound and could interest a broad biophysics audience. However, the abstract provides no quantitative evidence, no comparison to existing methods, and no details on validation or limitations. The core claims of robustness and expanded applicability are therefore unsubstantiated from the supplied material. The work may merit consideration, but the case is not established at this stage.
+- **Who would be interested in the results, and why** Researchers in biophysics, cell biology, and computational biology who use single-particle tracking to study protein dynamics in live cells. The method could be valuable for those studying membrane proteins, chromatin dynamics, or other systems with heterogeneous motion states, particularly where localization noise and rapid transitions hinder conventional analysis. Developers of image analysis software and methodologists in quantitative microscopy would also find relevance.
+- **Major strengths** The abstract identifies a clear and important problem in single-particle tracking analysis. The proposed method conceptually integrates multiple analytical tasks, including parameter estimation, state assignment, and position refinement, into a unified probabilistic framework. The stated robustness to model deviations and the broad applicability range are attractive features. The provision of implementations in both ImageJ and Python enhances potential accessibility and adoption.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim ExTrack "works for a wide range of diffusion coefficients and transition rates, even if experimental data deviate from model assumptions" and "greatly increases the regime of computationally analyzable noisy single-particle tracks."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative data, benchmarks, or comparisons to support these performance claims. No ranges of diffusion coefficients or transition rates are specified, no metrics of accuracy or precision are given, and no baseline comparison to existing methods is described.
+  - **Why it matters** These claims are central to the method's value proposition. Without quantitative evidence, readers cannot assess whether ExTrack genuinely outperforms existing tools or under what conditions it fails. The claim of robustness to model deviations is particularly strong and requires explicit testing.
+  - **Resolution test** Provide simulation results with defined parameter ranges, error metrics, and comparisons to at least one established method. Include a demonstration of performance under controlled model misspecification.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation and generalizability
+  - **Claim pointer** The authors state "We demonstrate its capacity by applying it to slowly diffusing and rapidly transitioning bacterial envelope proteins."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract mentions a single application to bacterial envelope proteins but provides no results, no context on the biological question, and no validation of the inferred states or parameters against independent measurements.
+  - **Why it matters** A single demonstration on one system, without quantitative outcomes or ground truth, is insufficient to establish generalizability. The biological relevance and practical utility of the method remain unclear.
+  - **Resolution test** Present experimental results with clear metrics, such as comparison to known biophysical parameters, validation via orthogonal methods, or recovery of expected state populations. Discuss limitations and potential failure modes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors describe ExTrack as "a probabilistic method that uses the full spatio-temporal information of tracks."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are given on the probabilistic model, inference algorithm, assumptions, or computational complexity. The abstract does not clarify how the method handles model selection, initialization, or convergence.
+  - **Why it matters** For a methods paper, the core algorithmic contribution must be described with sufficient detail for reproducibility and for readers to judge its novelty and limitations. The abstract alone does not permit such assessment.
+  - **Resolution test** Provide a complete methods section with model formulation, inference procedure, and discussion of computational cost and potential pitfalls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "refine the positions of bound molecules" is vague. It is unclear whether this refers to subpixel localization, correction of motion blur, or something else.
+  - **Required correction** Clarify the specific meaning and scope of position refinement in the abstract or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Software availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the package is available in ImageJ and Python but does not specify the license, documentation, or example data.
+  - **Required correction** Provide a link to the repository, license information, and a brief description of the user interface and input requirements.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "global model parameters" is used without definition. It is unclear whether this refers to population-level parameters, such as diffusion coefficients and transition rates, or something else.
+  - **Required correction** Define the term explicitly or rephrase to specify which parameters are meant.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative validation and the lack of methodological detail prevent assessment of the core claims. R1-M3, while not blocking, is essential for a methods paper and should be addressed.
+- **Assessment against Nature-style criteria** Originality: The abstract suggests a novel integration of tasks in a probabilistic framework, but without methodological detail, novelty cannot be fully assessed. Scientific importance: The problem addressed is important in biophysics, and a robust solution would be valuable. Interdisciplinary readership: The work would interest biophysicists, cell biologists, and computational methodologists. Technical soundness: Cannot be evaluated from the abstract; no evidence of correctness or robustness is provided. Readability for nonspecialists: The abstract is generally clear but uses some jargon without definition, such as "global model parameters" and "state probabilities."
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising idea, but the absence of quantitative results, methodological detail, and validation means the claims cannot be assessed. I would be supportive if the full manuscript provides rigorous simulation benchmarks, experimental validation, and a complete description of the method.
+
+## Risk / unsupported claims
+- The claim that ExTrack "works for a wide range of diffusion coefficients and transition rates" is unsupported without quantitative parameter ranges and performance metrics.
+- The claim of robustness "even if experimental data deviate from model assumptions" is unsupported without explicit misspecification tests.
+- The claim that ExTrack "greatly increases the regime of computationally analyzable noisy single-particle tracks" is unsupported without comparison to existing methods.
+- The demonstration on bacterial envelope proteins is mentioned but not substantiated with any results or validation.
+- The availability of the package in ImageJ and Python is stated but not verifiable from the abstract alone.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.03.11.642297",
+  "title": "Decoding stress specific transcriptional regulation by causality aware Graph-Transformer deep learning",
+  "authors": "Bhati U; Sharma A; Gupta S; Kumar A; Pradhan UK; Shankar R",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-13",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发CTF-BIND框架，结合贝叶斯因果网络与Graph Transformer深度学习，从RNA-seq数据预测植物胁迫相关转录因子的条件特异性结合位点，核心聚焦TF-DNA互作预测，但方法侧重表达推断而非三维结构建模。",
+  "abstract": "Cells respond to environmental stimuli through transcriptional reprogramming orchestrated by transcription factors (TFs), which interpret cis-regulatory DNA sequences to determine the timing and location of gene expression. The diversification of TFs and their interactions with cis-regulatory elements (CREs) underpins plant adaptation to stress through the formation of gene regulatory networks (GRNs). However, deciphering condition-specific GRNs and identifying transcription factor binding motifs (TFBMs) for spatio-temporal gene expression remain major challenges in plant biology. To decipher the conditional networks governing TF-Target gene interactions, we developed CTF-BIND, a novel computational framework designed to reason about the spatio-temporal dynamics of TF activity. Leveraging over ∼23TB of multi-omics data (ChIP-seq, RNA-seq, and protein-protein interaction data), we constructed Bayesian causal networks capable of explaining TF activity across diverse conditions. These networks, validated against extensive experimental data, were then integrated into a Graph Transformer deep learning system. This system uses expression information of network components to quantitatively determine TF activity levels. Models were developed for 110 abiotic stress-related TFs, enabling accurate condition-specific detection of TF binding directly from RNA-seq data, eliminating the need for separate ChIP-seq experiments. CTF-BIND achieved a high average accuracy of ∼93% when tested against experimentally established data from various conditions. It is implemented as an interactive, open-access web server, it not only provides TF binding profiles but also facilitates downstream functional analysis. Furthermore, we developed CTF-BIND-DB, ( https://hichicob.ihbt.res.in/ctfbind/ ) a database capturing dynamic shifts in regulatory pathways, providing information on TGs, network ontology, and binding motifs. CTF-BIND and CTF-BIND-DB represent a transformative approach for understanding and determining TF activity in plant stress responses, offering a powerful tool for crop improvement and bypassing the limitations of traditional methods and extensive experimental validation.",
+  "abstract_zh": "细胞通过由转录因子（TFs）协调的转录重编程来响应环境刺激，这些转录因子解读顺式调控DNA序列，以决定基因表达的时机和位置。TFs的多样化及其与顺式调控元件（CREs）的相互作用，通过形成基因调控网络（GRNs）支撑植物对胁迫的适应。然而，解析条件特异性GRNs并识别用于时空基因表达的转录因子结合基序（TFBMs）仍是植物生物学中的重大挑战。为解析调控TF-靶基因相互作用的条件网络，我们开发了CTF-BIND，一种新型计算框架，旨在推理TF活性的时空动态。利用超过约23TB的多组学数据（ChIP-seq、RNA-seq和蛋白质-蛋白质相互作用数据），我们构建了能够解释不同条件下TF活性的贝叶斯因果网络。这些网络经广泛实验数据验证后，被整合进一个图变换器深度学习系统。该系统利用网络组件的表达信息定量确定TF活性水平。我们为110个与非生物胁迫相关的TFs开发了模型，能够直接从RNA-seq数据中准确检测条件特异性TF结合，无需单独的ChIP-seq实验。CTF-BIND在针对多种条件下实验确立数据的测试中，实现了约93%的高平均准确率。它作为一个交互式、开放访问的网络服务器实现，不仅提供TF结合谱，还促进下游功能分析。此外，我们开发了CTF-BIND-DB（https://hichicob.ihbt.res.in/ctfbind/），一个捕捉调控通路动态变化的数据库，提供靶基因（TGs）、网络本体和结合基序信息。CTF-BIND和CTF-BIND-DB代表了一种理解和确定植物胁迫响应中TF活性的变革性方法，为作物改良提供了强大工具，并绕过了传统方法和广泛实验验证的局限性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.03.11.642297",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.03.11.642297",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.03.11.642297/index.html"
+}

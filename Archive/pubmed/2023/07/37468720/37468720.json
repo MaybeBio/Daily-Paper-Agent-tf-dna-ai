@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "37468720",
+    "doi": "10.1007/s00894-023-05647-9",
+    "title": "Identification of inhibitors for Agr quorum sensing system of Staphylococcus aureus by machine learning, pharmacophore modeling, and molecular dynamics approaches."
+  },
+  "content": {
+    "abstract": "CONTEXT: Staphylococcus aureus is a highly pathogenic organism that is the most common cause of postoperative complications as well as severe infections like bacteremia and infective endocarditis. By mediating the formation of biofilms and the expression of virulent genes, the quorum sensing (QS) mechanism is a major contributor to the development of these diseases. By hindering its QS network, an innovative approach to avoiding this bacterial infection is taken. Targeting the AgrA of the Agr system serves as beneficial in holding the top position in the QS system cascade. METHODS: Using known AgrA inhibitors, the machine learning algorithms (artificial neural network, naive Bayes, random forest, and support vector machine) and pharmacophore model were developed. The potential lead compounds were screened against the Zinc and COCONUT databases using the best pharmacophore hypothesis. The hits were then subjected second screening process using the best machine learning model. The predicted active compounds were then reranked based on the docking score. The stability of AgrA-lead compounds was studied using molecular dynamics approaches, and an ADME profile was also carried out. Five lead compounds, namely, CNP02386963,4,5-trihydroxy-2-[(7,13,14-trihydroxy-3,10-dioxo-2,9-dioxatetracyclo[6.6.2.0(4),(16).0(11),(15)]hexadeca-1(14),4,6,8(16),11(15),12-hexaen-6-yloxy)methyl]benzoic acid, CNP0129274 4-(dimethylamino)-1,5,6,10,12,12a-hexahydroxy-6-methyl-3,11-dioxo-3,4,4a,5,5a,6,11,12a-octahydrotetracene-2-carboxamide, CNP0242717 3-Hydroxyasebotin, CNP0361624 3,4,5-trihydroxy-6-[(2,4,5,6,7-pentahydroxy-1-oxooctan-3-yl)oxy]oxane-2-carboxylic acid, and CNP0285058 2-[4,5-dihydroxy-6-(hydroxymethyl)-3-[(3,4,5-trihydroxy-6-methyloxan-2-yl)oxy]oxan-2-yl]oxy-2-(4-hydroxyphenyl)acetonitrile were obtained using the two-step virtual screening process. The molecular dynamics study revealed that the CNP0238696 was found to be stable in the binding pocket of AgrA. ADME profiles show that this compound has two Lipinski violations and low bioavailability. Further studies should be performed to assess the anti-biofilm activity of the lead compound in vitro.",
+    "keywords": [
+      "Agr system",
+      "COCONUT database",
+      "Machine learning",
+      "Quorum sensing",
+      "Staphylococcus aureus"
+    ],
+    "mesh_terms": [
+      "*Staphylococcus aureus/drug effects",
+      "*Bacterial Proteins/antagonists & inhibitors",
+      "*Quorum Sensing/drug effects",
+      "*Machine Learning",
+      "Small Molecule Libraries",
+      "Pharmacophore",
+      "*Anti-Bacterial Agents/chemistry",
+      "Molecular Dynamics Simulation",
+      "Drug Discovery",
+      "Trans-Activators"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramasamy, Monica",
+        "Vetrivel, Aishwarya",
+        "Venugopal, Sharulatha",
+        "Murugesan, Rajeswari"
+      ],
+      "short_names": [
+        "Ramasamy M",
+        "Vetrivel A",
+        "Venugopal S",
+        "Murugesan R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8199-9239",
+        "ORCID: 0000-0001-6860-7616",
+        "ORCID: 0000-0002-9962-1047"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Biotechnology, and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India.",
+        "Department of Biochemistry, Biotechnology, and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India.",
+        "Department of Chemistry, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India.",
+        "Department of Biochemistry, Biotechnology, and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India. rajeshwari_bc@avinuty.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ramasamy, Monica",
+        "short_name": "Ramasamy M",
+        "identifiers": [
+          "0000-0001-8199-9239"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Biotechnology, and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Vetrivel, Aishwarya",
+        "short_name": "Vetrivel A",
+        "identifiers": [
+          "0000-0001-6860-7616"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Biotechnology, and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Venugopal, Sharulatha",
+        "short_name": "Venugopal S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Murugesan, Rajeswari",
+        "short_name": "Murugesan R",
+        "identifiers": [
+          "0000-0002-9962-1047"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Biotechnology, and Bioinformatics, Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore, Tamil Nadu, India. rajeshwari_bc@avinuty.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular modeling"
+    ],
+    "journal_abbrev": [
+      "J Mol Model"
+    ],
+    "pub_date": "2023 Jul 20",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/20 01:06",
+    "fetched_at": "2026-09-29 04:11:17"
+  },
+  "links": {
+    "cites": [
+      "42545450",
+      "40333163",
+      "38659576"
+    ],
+    "refs": [
+      "35631472",
+      "35557687",
+      "34771089",
+      "34367868",
+      "34300053",
+      "34290689",
+      "33662434",
+      "33633702",
+      "33603068",
+      "32659088",
+      "31898477",
+      "31760818",
+      "31659373",
+      "31354494",
+      "30867893",
+      "30580662",
+      "30275455",
+      "28094550",
+      "26971873",
+      "25645827",
+      "24945495",
+      "24858185",
+      "23181972",
+      "17124629"
+    ],
+    "similar": [
+      "37468720",
+      "35451916",
+      "24945495",
+      "37166373",
+      "33435417",
+      "38659576",
+      "33536503",
+      "41272294",
+      "41210938",
+      "41347504",
+      "33662434",
+      "31658413",
+      "27535409",
+      "37578046",
+      "38990088",
+      "33946907",
+      "27718524",
+      "23649251",
+      "40229205",
+      "30817121",
+      "35661493",
+      "27939874",
+      "31488708",
+      "25645827",
+      "24858185",
+      "38832917",
+      "24002091",
+      "40779484",
+      "41504169",
+      "31043623",
+      "39967191",
+      "40849622",
+      "38615572",
+      "33633702",
+      "30529513",
+      "38649897",
+      "41465468",
+      "28351711",
+      "34290689",
+      "28118541",
+      "24592914",
+      "37095436",
+      "31358609",
+      "22586129",
+      "40409430",
+      "35585729",
+      "34770835",
+      "39954181",
+      "39063243",
+      "37140461",
+      "40667988",
+      "28818490",
+      "34096457",
+      "40762857",
+      "36950221",
+      "27128436",
+      "35138170",
+      "26119984",
+      "40033499",
+      "34771089",
+      "23959234",
+      "24050691",
+      "40388504",
+      "34833903",
+      "39328594",
+      "28006082",
+      "41293659",
+      "25300477",
+      "27468815",
+      "23143800",
+      "36700647",
+      "37578829",
+      "41045435",
+      "38810547",
+      "31813834",
+      "35044202",
+      "32926996",
+      "40153475",
+      "31755336",
+      "27049472",
+      "33399891",
+      "39078379",
+      "38252331",
+      "36835436",
+      "29165063",
+      "25645850",
+      "27276693",
+      "35331848",
+      "37699554",
+      "24509706",
+      "23813683",
+      "24957093",
+      "39384180",
+      "40261876",
+      "27400878",
+      "39454802",
+      "29076756",
+      "23181972",
+      "28607020",
+      "23394143"
+    ],
+    "review": [
+      "37468720",
+      "31658413",
+      "41504169",
+      "36950221",
+      "25300477",
+      "27468815",
+      "37578829",
+      "38252331",
+      "36835436",
+      "29165063",
+      "24957093"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/antibiotics.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotics"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00894-023-05647-9",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

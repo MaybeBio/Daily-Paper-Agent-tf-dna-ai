@@ -1,0 +1,478 @@
+{
+  "identity": {
+    "pmid": "37468166",
+    "doi": "10.26508/lsa.202201790",
+    "title": "A SAM-key domain required for enzymatic activity of the Fun30 nucleosome remodeler."
+  },
+  "content": {
+    "abstract": "Fun30 is the prototype of the Fun30-SMARCAD1-ETL subfamily of nucleosome remodelers involved in DNA repair and gene silencing. These proteins appear to act as single-subunit nucleosome remodelers, but their molecular mechanisms are, at this point, poorly understood. Using multiple sequence alignment and structure prediction, we identify an evolutionarily conserved domain that is modeled to contain a SAM-like fold with one long, protruding helix, which we term SAM-key. Deletion of the SAM-key within budding yeast Fun30 leads to a defect in DNA repair and gene silencing similar to that of the fun30Delta mutant. In vitro, Fun30 protein lacking the SAM-key is able to bind nucleosomes but is deficient in DNA-stimulated ATPase activity and nucleosome sliding and eviction. A structural model based on AlphaFold2 prediction and verified by crosslinking-MS indicates an interaction of the long SAM-key helix with protrusion I, a subdomain located between the two ATPase lobes that is critical for control of enzymatic activity. Mutation of the interaction interface phenocopies the domain deletion with a lack of DNA-stimulated ATPase activation and a nucleosome-remodeling defect, thereby confirming a role of the SAM-key helix in regulating ATPase activity. Our data thereby demonstrate a central role of the SAM-key domain in mediating the activation of Fun30 catalytic activity, thus highlighting the importance of allosteric activation for this class of enzymes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Nucleosomes/genetics/metabolism",
+      "Transcription Factors/genetics/metabolism",
+      "Saccharomyces cerevisiae/genetics/metabolism",
+      "*Saccharomyces cerevisiae Proteins/genetics/metabolism",
+      "DNA/metabolism",
+      "Adenosine Triphosphatases/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Karl, Leonhard A",
+        "Galanti, Lorenzo",
+        "Bantele, Susanne Cs",
+        "Metzner, Felix",
+        "Safaric, Barbara",
+        "Rajappa, Lional",
+        "Foster, Benjamin",
+        "Pires, Vanessa Borges",
+        "Bansal, Priyanka",
+        "Chacin, Erika",
+        "Basquin, Jerome",
+        "Duderstadt, Karl E",
+        "Kurat, Christoph F",
+        "Bartke, Till",
+        "Hopfner, Karl-Peter",
+        "Pfander, Boris"
+      ],
+      "short_names": [
+        "Karl LA",
+        "Galanti L",
+        "Bantele SC",
+        "Metzner F",
+        "Safaric B",
+        "Rajappa L",
+        "Foster B",
+        "Pires VB",
+        "Bansal P",
+        "Chacin E",
+        "Basquin J",
+        "Duderstadt KE",
+        "Kurat CF",
+        "Bartke T",
+        "Hopfner KP",
+        "Pfander B"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7036-0501",
+        "ORCID: 0000-0002-2393-3626",
+        "ORCID: 0000-0002-8276-5466",
+        "ORCID: 0000-0003-0962-3258",
+        "ORCID: 0000-0002-4528-8357",
+        "ORCID: 0000-0003-2180-5054"
+      ],
+      "affiliations": [
+        "DNA Replication and Genome Integrity, Max Planck Institute of Biochemistry, Martinsried, Germany.",
+        "DNA Replication and Genome Integrity, Max Planck Institute of Biochemistry, Martinsried, Germany.",
+        "Genome Maintenance Mechanisms in Health and Disease, Institute of Aerospace Medicine, German Aerospace Center (DLR), Cologne, Germany.",
+        "Genome Maintenance Mechanisms in Health and Disease, Institute of Genome Stability in Ageing and Disease, CECAD Research Center, University of Cologne, Cologne, Germany.",
+        "DNA Replication and Genome Integrity, Max Planck Institute of Biochemistry, Martinsried, Germany.",
+        "Gene Center, Department of Biochemistry, Ludwig-Maximilians-Universitat, Munich, Germany.",
+        "Structure and Dynamics of Molecular Machines, Max Planck Institute of Biochemistry, Martinsried, Germany.",
+        "Structure and Dynamics of Molecular Machines, Max Planck Institute of Biochemistry, Martinsried, Germany.",
+        "Institute of Functional Epigenetics (IFE), Helmholtz Zentrum Munchen, Neuherberg, Germany.",
+        "Genome Maintenance Mechanisms in Health and Disease, Institute of Genome Stability in Ageing and Disease, CECAD Research Center, University of Cologne, Cologne, Germany.",
+        "Biomedical Center Munich (BMC), Division of Molecular Biology, Faculty of Medicine, Ludwig-Maximilians-Universitat in Munich, Martinsried, Germany.",
+        "Biomedical Center Munich (BMC), Division of Molecular Biology, Faculty of Medicine, Ludwig-Maximilians-Universitat in Munich, Martinsried, Germany.",
+        "Crystallization Facility, Max Planck Institute of Biochemistry, Martinsried, Germany.",
+        "Structure and Dynamics of Molecular Machines, Max Planck Institute of Biochemistry, Martinsried, Germany.",
+        "Physik Department, Technische Universitat Munchen, Munich, Germany.",
+        "Biomedical Center Munich (BMC), Division of Molecular Biology, Faculty of Medicine, Ludwig-Maximilians-Universitat in Munich, Martinsried, Germany.",
+        "Institute of Functional Epigenetics (IFE), Helmholtz Zentrum Munchen, Neuherberg, Germany.",
+        "Gene Center, Department of Biochemistry, Ludwig-Maximilians-Universitat, Munich, Germany.",
+        "DNA Replication and Genome Integrity, Max Planck Institute of Biochemistry, Martinsried, Germany bpfander@biochem.mpg.de boris.pfander@dlr.de.",
+        "Genome Maintenance Mechanisms in Health and Disease, Institute of Aerospace Medicine, German Aerospace Center (DLR), Cologne, Germany.",
+        "Genome Maintenance Mechanisms in Health and Disease, Institute of Genome Stability in Ageing and Disease, CECAD Research Center, University of Cologne, Cologne, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Karl, Leonhard A",
+        "short_name": "Karl LA",
+        "identifiers": [
+          "0000-0001-7036-0501"
+        ],
+        "affiliations": [
+          "DNA Replication and Genome Integrity, Max Planck Institute of Biochemistry, Martinsried, Germany."
+        ]
+      },
+      {
+        "full_name": "Galanti, Lorenzo",
+        "short_name": "Galanti L",
+        "identifiers": [],
+        "affiliations": [
+          "DNA Replication and Genome Integrity, Max Planck Institute of Biochemistry, Martinsried, Germany.",
+          "Genome Maintenance Mechanisms in Health and Disease, Institute of Aerospace Medicine, German Aerospace Center (DLR), Cologne, Germany.",
+          "Genome Maintenance Mechanisms in Health and Disease, Institute of Genome Stability in Ageing and Disease, CECAD Research Center, University of Cologne, Cologne, Germany."
+        ]
+      },
+      {
+        "full_name": "Bantele, Susanne Cs",
+        "short_name": "Bantele SC",
+        "identifiers": [
+          "0000-0002-2393-3626"
+        ],
+        "affiliations": [
+          "DNA Replication and Genome Integrity, Max Planck Institute of Biochemistry, Martinsried, Germany."
+        ]
+      },
+      {
+        "full_name": "Metzner, Felix",
+        "short_name": "Metzner F",
+        "identifiers": [],
+        "affiliations": [
+          "Gene Center, Department of Biochemistry, Ludwig-Maximilians-Universität, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Šafarić, Barbara",
+        "short_name": "Šafarić B",
+        "identifiers": [],
+        "affiliations": [
+          "Structure and Dynamics of Molecular Machines, Max Planck Institute of Biochemistry, Martinsried, Germany."
+        ]
+      },
+      {
+        "full_name": "Rajappa, Lional",
+        "short_name": "Rajappa L",
+        "identifiers": [],
+        "affiliations": [
+          "Structure and Dynamics of Molecular Machines, Max Planck Institute of Biochemistry, Martinsried, Germany."
+        ]
+      },
+      {
+        "full_name": "Foster, Benjamin",
+        "short_name": "Foster B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Functional Epigenetics (IFE), Helmholtz Zentrum München, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Pires, Vanessa Borges",
+        "short_name": "Pires VB",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Maintenance Mechanisms in Health and Disease, Institute of Genome Stability in Ageing and Disease, CECAD Research Center, University of Cologne, Cologne, Germany."
+        ]
+      },
+      {
+        "full_name": "Bansal, Priyanka",
+        "short_name": "Bansal P",
+        "identifiers": [
+          "0000-0002-8276-5466"
+        ],
+        "affiliations": [
+          "Biomedical Center Munich (BMC), Division of Molecular Biology, Faculty of Medicine, Ludwig-Maximilians-Universität in Munich, Martinsried, Germany."
+        ]
+      },
+      {
+        "full_name": "Chacin, Erika",
+        "short_name": "Chacin E",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Center Munich (BMC), Division of Molecular Biology, Faculty of Medicine, Ludwig-Maximilians-Universität in Munich, Martinsried, Germany."
+        ]
+      },
+      {
+        "full_name": "Basquin, Jerôme",
+        "short_name": "Basquin J",
+        "identifiers": [],
+        "affiliations": [
+          "Crystallization Facility, Max Planck Institute of Biochemistry, Martinsried, Germany."
+        ]
+      },
+      {
+        "full_name": "Duderstadt, Karl E",
+        "short_name": "Duderstadt KE",
+        "identifiers": [],
+        "affiliations": [
+          "Structure and Dynamics of Molecular Machines, Max Planck Institute of Biochemistry, Martinsried, Germany.",
+          "Physik Department, Technische Universität München, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Kurat, Christoph F",
+        "short_name": "Kurat CF",
+        "identifiers": [
+          "0000-0003-0962-3258"
+        ],
+        "affiliations": [
+          "Biomedical Center Munich (BMC), Division of Molecular Biology, Faculty of Medicine, Ludwig-Maximilians-Universität in Munich, Martinsried, Germany."
+        ]
+      },
+      {
+        "full_name": "Bartke, Till",
+        "short_name": "Bartke T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Functional Epigenetics (IFE), Helmholtz Zentrum München, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Hopfner, Karl-Peter",
+        "short_name": "Hopfner KP",
+        "identifiers": [
+          "0000-0002-4528-8357"
+        ],
+        "affiliations": [
+          "Gene Center, Department of Biochemistry, Ludwig-Maximilians-Universität, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Pfander, Boris",
+        "short_name": "Pfander B",
+        "identifiers": [
+          "0000-0003-2180-5054"
+        ],
+        "affiliations": [
+          "DNA Replication and Genome Integrity, Max Planck Institute of Biochemistry, Martinsried, Germany bpfander@biochem.mpg.de boris.pfander@dlr.de.",
+          "Genome Maintenance Mechanisms in Health and Disease, Institute of Aerospace Medicine, German Aerospace Center (DLR), Cologne, Germany.",
+          "Genome Maintenance Mechanisms in Health and Disease, Institute of Genome Stability in Ageing and Disease, CECAD Research Center, University of Cologne, Cologne, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Life science alliance"
+    ],
+    "journal_abbrev": [
+      "Life Sci Alliance"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/20 01:07",
+    "fetched_at": "2026-09-29 04:11:17"
+  },
+  "links": {
+    "cites": [
+      "41642678",
+      "40468067",
+      "39424143"
+    ],
+    "refs": [
+      "36490333",
+      "35356970",
+      "35096025",
+      "35061899",
+      "34791371",
+      "34652950",
+      "34265844",
+      "33999958",
+      "33952518",
+      "33651987",
+      "33628188",
+      "33374740",
+      "33288924",
+      "33058778",
+      "32881101",
+      "32771531",
+      "32557917",
+      "32188943",
+      "32188938",
+      "31555662",
+      "31204252",
+      "30867599",
+      "30767757",
+      "30177756",
+      "30120252",
+      "29888761",
+      "29809203",
+      "29643509",
+      "29643506",
+      "29284678",
+      "28512350",
+      "28424519",
+      "28318821",
+      "28202543",
+      "28063255",
+      "27989438",
+      "27399259",
+      "27391925",
+      "27239795",
+      "27153540",
+      "26801641",
+      "25798942",
+      "25648531",
+      "24003213",
+      "23779104",
+      "23209606",
+      "23202585",
+      "23028372",
+      "23007155",
+      "22960744",
+      "22960743",
+      "22930834",
+      "22743772",
+      "22167269",
+      "21549307",
+      "20832723",
+      "20075079",
+      "19956593",
+      "18408732",
+      "16738128",
+      "15915565",
+      "14870657",
+      "14659692",
+      "12928440",
+      "12183366",
+      "11731480",
+      "10811623",
+      "10779516",
+      "10407276",
+      "10372352",
+      "10078206",
+      "9799253",
+      "9755194",
+      "9514715",
+      "8980231",
+      "8458575",
+      "6310324"
+    ],
+    "similar": [
+      "37468166",
+      "23779104",
+      "19956593",
+      "22960744",
+      "28925811",
+      "22960743",
+      "26993344",
+      "23007155",
+      "29899141",
+      "28045388",
+      "23028372",
+      "20075079",
+      "25821983",
+      "23149935",
+      "23468649",
+      "31269447",
+      "32234239",
+      "24126763",
+      "26116819",
+      "33141948",
+      "33468676",
+      "20832723",
+      "29809147",
+      "21508315",
+      "31636125",
+      "30395604",
+      "14585955",
+      "25043036",
+      "21135121",
+      "22113290",
+      "15509805",
+      "14636590",
+      "21979950",
+      "23103765",
+      "16980406",
+      "21835776",
+      "25733687",
+      "26895087",
+      "19273607",
+      "28063255",
+      "29019976",
+      "25806814",
+      "32690696",
+      "35173352",
+      "17491017",
+      "31555662",
+      "27153540",
+      "32663283",
+      "22726434",
+      "29785963",
+      "31094676",
+      "30872815",
+      "20060707",
+      "24248595",
+      "23334290",
+      "23374341",
+      "28973436",
+      "12111992",
+      "22124157",
+      "15131696",
+      "33602956",
+      "30005873",
+      "18329964",
+      "22737086",
+      "19108605",
+      "22039057",
+      "26801641",
+      "17235287",
+      "22074782",
+      "19349301",
+      "12482963",
+      "16227570",
+      "26047462",
+      "33102471",
+      "33670267",
+      "34898278",
+      "33403747",
+      "27226635",
+      "36592926",
+      "15485923",
+      "30079888",
+      "24530316",
+      "31434570",
+      "25453095",
+      "31402386",
+      "26602697",
+      "28089177",
+      "30683752",
+      "32239283",
+      "23990766"
+    ],
+    "review": [
+      "37468166",
+      "31555662",
+      "20060707",
+      "33102471"
+    ],
+    "pmc": [
+      "10355287"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.26508/lsa.202201790",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37468166/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/37468166",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37468166",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

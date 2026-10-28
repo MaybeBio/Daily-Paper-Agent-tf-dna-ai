@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "39271116",
+    "doi": "10.1093/nar/gkae783",
+    "title": "DNA breathing integration with deep learning foundational model advances genome-wide binding prediction of human transcription factors."
+  },
+  "content": {
+    "abstract": "It was previously shown that DNA breathing, thermodynamic stability, as well as transcriptional activity and transcription factor (TF) bindings are functionally correlated. To ascertain the precise relationship between TF binding and DNA breathing, we developed the multi-modal deep learning model EPBDxDNABERT-2, which is based on the Extended Peyrard-Bishop-Dauxois (EPBD) nonlinear DNA dynamics model. To train our EPBDxDNABERT-2, we used chromatin immunoprecipitation sequencing (ChIP-Seq) data comprising 690 ChIP-seq experimental results encompassing 161 distinct TFs and 91 human cell types. EPBDxDNABERT-2 significantly improves the prediction of over 660 TF-DNA, with an increase in the area under the receiver operating characteristic (AUROC) metric of up to 9.6% when compared to the baseline model that does not leverage DNA biophysical properties. We expanded our analysis to in vitro high-throughput Systematic Evolution of Ligands by Exponential enrichment (HT-SELEX) dataset of 215 TFs from 27 families, comparing EPBD with established frameworks. The integration of the DNA breathing features with DNABERT-2 foundational model, greatly enhanced TF-binding predictions. Notably, EPBDxDNABERT-2, trained on a large-scale multi-species genomes, with a cross-attention mechanism, improved predictive power shedding light on the mechanisms underlying disease-related non-coding variants discovered in genome-wide association studies.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Deep Learning",
+      "*Transcription Factors/metabolism/genetics",
+      "*DNA/metabolism/genetics/chemistry",
+      "Binding Sites",
+      "Chromatin Immunoprecipitation Sequencing",
+      "Protein Binding",
+      "Genome, Human"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kabir, Anowarul",
+        "Bhattarai, Manish",
+        "Peterson, Selma",
+        "Najman-Licht, Yonatan",
+        "Rasmussen, Kim O",
+        "Shehu, Amarda",
+        "Bishop, Alan R",
+        "Alexandrov, Boian",
+        "Usheva, Anny"
+      ],
+      "short_names": [
+        "Kabir A",
+        "Bhattarai M",
+        "Peterson S",
+        "Najman-Licht Y",
+        "Rasmussen KO",
+        "Shehu A",
+        "Bishop AR",
+        "Alexandrov B",
+        "Usheva A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8060-2084",
+        "ORCID: 0000-0002-1421-3643",
+        "ORCID: 0000-0002-4029-4723",
+        "ORCID: 0000-0001-5230-4610",
+        "ORCID: 0000-0001-8636-4603",
+        "ORCID: 0000-0003-3788-2425"
+      ],
+      "affiliations": [
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544 NM, USA.",
+        "Department of Computer Science, George Mason University, 4400 University Dr, 22030 VA, USA.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544 NM, USA.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544 NM, USA.",
+        "Department of Surgery, Brown University, 69 Brown St Box 1822, 02912 RI, USA.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544 NM, USA.",
+        "Department of Computer Science, George Mason University, 4400 University Dr, 22030 VA, USA.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544 NM, USA.",
+        "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544 NM, USA.",
+        "Department of Surgery, Brown University, 69 Brown St Box 1822, 02912 RI, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kabir, Anowarul",
+        "short_name": "Kabir A",
+        "identifiers": [
+          "0000-0001-8060-2084"
+        ],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544 NM, USA.",
+          "Department of Computer Science, George Mason University, 4400 University Dr, 22030 VA, USA."
+        ]
+      },
+      {
+        "full_name": "Bhattarai, Manish",
+        "short_name": "Bhattarai M",
+        "identifiers": [
+          "0000-0002-1421-3643"
+        ],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544 NM, USA."
+        ]
+      },
+      {
+        "full_name": "Peterson, Selma",
+        "short_name": "Peterson S",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544 NM, USA."
+        ]
+      },
+      {
+        "full_name": "Najman-Licht, Yonatan",
+        "short_name": "Najman-Licht Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Surgery, Brown University, 69 Brown St Box 1822, 02912 RI, USA."
+        ]
+      },
+      {
+        "full_name": "Rasmussen, Kim Ø",
+        "short_name": "Rasmussen KØ",
+        "identifiers": [
+          "0000-0002-4029-4723"
+        ],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544 NM, USA."
+        ]
+      },
+      {
+        "full_name": "Shehu, Amarda",
+        "short_name": "Shehu A",
+        "identifiers": [
+          "0000-0001-5230-4610"
+        ],
+        "affiliations": [
+          "Department of Computer Science, George Mason University, 4400 University Dr, 22030 VA, USA."
+        ]
+      },
+      {
+        "full_name": "Bishop, Alan R",
+        "short_name": "Bishop AR",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544 NM, USA."
+        ]
+      },
+      {
+        "full_name": "Alexandrov, Boian",
+        "short_name": "Alexandrov B",
+        "identifiers": [
+          "0000-0001-8636-4603"
+        ],
+        "affiliations": [
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, 87544 NM, USA."
+        ]
+      },
+      {
+        "full_name": "Usheva, Anny",
+        "short_name": "Usheva A",
+        "identifiers": [
+          "0000-0003-3788-2425"
+        ],
+        "affiliations": [
+          "Department of Surgery, Brown University, 69 Brown St Box 1822, 02912 RI, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2024 Oct 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/14 10:47",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [
+      "42099803",
+      "41782896",
+      "41552574",
+      "41462891",
+      "41332515",
+      "41083998",
+      "39940772",
+      "39896490"
+    ],
+    "refs": [
+      "37991847",
+      "36585618",
+      "36018808",
+      "34850907",
+      "33538820",
+      "33522898",
+      "33381817",
+      "32770026",
+      "32551184",
+      "31634140",
+      "30922998",
+      "30106688",
+      "29993783",
+      "29165643",
+      "28851939",
+      "28623580",
+      "28167566",
+      "27084946",
+      "26846597",
+      "26301843",
+      "26213851",
+      "25775564",
+      "25434007",
+      "25045190",
+      "24244136",
+      "24062430",
+      "23812975",
+      "23703209",
+      "23562153",
+      "23378916",
+      "23341768",
+      "23332764",
+      "22904068",
+      "22089251",
+      "21991556",
+      "21968932",
+      "21625483",
+      "21047141",
+      "20019064",
+      "19282962",
+      "19264801",
+      "18390611",
+      "17324271",
+      "17279870",
+      "16774850",
+      "15004245",
+      "10040080",
+      "9960075",
+      "9759487",
+      "7753630",
+      "3037381"
+    ],
+    "similar": [
+      "39271116",
+      "38293094",
+      "42099803",
+      "40598892",
+      "28750606",
+      "19956545",
+      "20158869",
+      "41325984",
+      "39482734",
+      "26285121",
+      "25957350",
+      "37805453",
+      "39402535",
+      "38517697",
+      "33372147",
+      "31372637",
+      "28849563",
+      "40102719",
+      "24564277",
+      "28726847",
+      "40848288",
+      "20838582",
+      "30517703",
+      "37650641",
+      "26291518",
+      "34579793",
+      "25775564",
+      "24581441",
+      "32976105",
+      "28379348",
+      "34953471",
+      "19597778",
+      "22863112",
+      "34534646",
+      "34272562",
+      "34174819",
+      "35471887",
+      "41518494",
+      "40250421",
+      "41022541",
+      "31267468",
+      "26818008",
+      "25070602",
+      "39796242",
+      "40335485",
+      "35293310",
+      "39350338",
+      "39713350",
+      "23935523",
+      "31093693",
+      "20663846",
+      "22479205",
+      "40914877",
+      "42145197",
+      "32574834",
+      "25486472",
+      "35263332",
+      "38701417",
+      "40903577",
+      "31362726",
+      "27780826",
+      "36360189",
+      "42134988",
+      "36779711",
+      "41799016",
+      "35681170",
+      "21602262",
+      "39535534",
+      "32960766",
+      "39701486",
+      "29848263",
+      "41634097",
+      "24039567",
+      "35042722",
+      "27104615",
+      "20098497",
+      "31942977",
+      "28718849",
+      "33892767",
+      "35240993",
+      "28234893",
+      "21389103",
+      "41035197",
+      "28623580",
+      "33381817",
+      "36200779",
+      "25722376",
+      "20378774",
+      "25129887",
+      "29617928",
+      "32053778",
+      "35858748",
+      "37569400",
+      "28472398",
+      "34383745",
+      "40065237",
+      "19105805",
+      "39499477",
+      "30578913",
+      "22576095"
+    ],
+    "review": [
+      "39271116",
+      "31093693",
+      "25486472",
+      "29848263",
+      "21389103"
+    ],
+    "pmc": [
+      "11514457"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39271116/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae783",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

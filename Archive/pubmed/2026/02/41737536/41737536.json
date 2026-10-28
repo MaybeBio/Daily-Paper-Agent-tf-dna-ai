@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "41737536",
+    "doi": "10.2147/IJGM.S578987",
+    "title": "Bioinformatic Screening of Key Regulatory Molecules and Mechanisms in Osteoporosis Based on Tryptophan Metabolism-Related Genes."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND OBJECTIVE: Osteoporosis (OP) is a metabolic disease characterized by reduced bone mass and increased fracture risk. Tryptophan metabolism may play a crucial role in its pathogenesis, although the underlying mechanisms remain unclear. This study aimed to identify key regulatory genes and elucidate molecular mechanisms through integrated transcriptomic analysis. METHODS: OP-related datasets from Gene Expression Omnibus were analyzed using differential expression analysis, weighted gene co-expression network analysis, and tryptophan metabolism gene sets. Machine learning algorithms were applied to screen key genes and construct diagnostic models. Regulatory networks including protein-protein interaction, competing endogenous RNA, and transcriptional regulation were established. Key findings were validated through independent datasets, Mendelian Randomization, single-cell analysis, and RT-qPCR. RESULTS: Two key genes were identified: DVL1 (significantly downregulated) and RBM39 (significantly upregulated) in OP patients. DVL1 negatively correlated with resting memory CD4+ T cells and eosinophils, while RBM39 positively correlated with memory B cells and M2 macrophages. DVL1 (AUC = 0.75) and RBM39 (AUC = 0.91) demonstrated consistent expression patterns and excellent diagnostic performance. Functional enrichment revealed significant involvement in apoptosis, autophagy, and signaling pathways. Transcription factor YY1 was identified as a key regulator in the molecular network. CONCLUSION: This bioinformatic study reveals the potential role of tryptophan metabolism in OP pathogenesis and identifies DVL1 and RBM39 as candidate diagnostic biomarkers and therapeutic targets through computational analysis. These findings are inferential based on transcriptomic data mining and require further validation through experimental approaches. Future studies should include functional characterization in cellular and animal models, prospective clinical cohort validation, and mechanistic investigations to confirm the diagnostic and therapeutic value of these candidates. If validated, these findings could provide a molecular foundation for developing non-invasive diagnostic tools and precision medicine approaches in OP management, potentially improving early detection and personalized treatment strategies for patients at risk of osteoporotic fractures.",
+    "keywords": [
+      "DVL1",
+      "Mendelian randomization",
+      "RBM39",
+      "diagnostic biomarkers",
+      "machine learning",
+      "osteoporosis",
+      "tryptophan metabolism"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ji, Jie",
+        "Qin, Yu",
+        "Li, Chanling",
+        "Fu, Yingjie",
+        "Cui, Jing",
+        "Cao, Qihui"
+      ],
+      "short_names": [
+        "Ji J",
+        "Qin Y",
+        "Li C",
+        "Fu Y",
+        "Cui J",
+        "Cao Q"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-6445-7226"
+      ],
+      "affiliations": [
+        "Department of Orthopedics, Beijing Jishuitan Hospital Guizhou Hospital, Guiyang, 550001, People's Republic of China.",
+        "Department of Orthopedics, Beijing Jishuitan Hospital Guizhou Hospital, Guiyang, 550001, People's Republic of China.",
+        "Department of Orthopedics, Beijing Jishuitan Hospital Guizhou Hospital, Guiyang, 550001, People's Republic of China.",
+        "Department of Orthopedics, Beijing Jishuitan Hospital Guizhou Hospital, Guiyang, 550001, People's Republic of China.",
+        "Department of Orthopedics, Beijing Jishuitan Hospital Guizhou Hospital, Guiyang, 550001, People's Republic of China.",
+        "Department of Orthopedics, Beijing Jishuitan Hospital Guizhou Hospital, Guiyang, 550001, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ji, Jie",
+        "short_name": "Ji J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Beijing Jishuitan Hospital Guizhou Hospital, Guiyang, 550001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Qin, Yu",
+        "short_name": "Qin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Beijing Jishuitan Hospital Guizhou Hospital, Guiyang, 550001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Chanling",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Beijing Jishuitan Hospital Guizhou Hospital, Guiyang, 550001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Fu, Yingjie",
+        "short_name": "Fu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Beijing Jishuitan Hospital Guizhou Hospital, Guiyang, 550001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Cui, Jing",
+        "short_name": "Cui J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Beijing Jishuitan Hospital Guizhou Hospital, Guiyang, 550001, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Cao, Qihui",
+        "short_name": "Cao Q",
+        "identifiers": [
+          "0009-0004-6445-7226"
+        ],
+        "affiliations": [
+          "Department of Orthopedics, Beijing Jishuitan Hospital Guizhou Hospital, Guiyang, 550001, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of general medicine"
+    ],
+    "journal_abbrev": [
+      "Int J Gen Med"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/25 10:21",
+    "fetched_at": "2026-10-01 14:55:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41357842",
+      "40898234",
+      "40488210",
+      "40328025",
+      "39826852",
+      "39753980",
+      "39603150",
+      "39427386",
+      "39044280",
+      "38987555",
+      "38927412",
+      "38618998",
+      "38564421",
+      "38554889",
+      "38372699",
+      "38090417",
+      "37947171",
+      "37856394",
+      "37816527",
+      "37740028",
+      "37666821",
+      "37397540",
+      "37312933",
+      "36979418",
+      "36977593",
+      "36759677",
+      "36638904",
+      "36555684",
+      "36535628",
+      "36497192",
+      "36398662",
+      "36233208",
+      "36207010",
+      "36169673",
+      "35898473",
+      "35686054",
+      "35341776",
+      "35087424",
+      "34447907",
+      "32427503",
+      "32306163",
+      "31938234",
+      "31186549",
+      "31105983",
+      "30651866",
+      "29753317",
+      "29226067",
+      "28869591",
+      "28751584",
+      "28324674",
+      "28293453",
+      "27716144",
+      "25186311",
+      "24116388",
+      "22308416",
+      "21802130",
+      "19114008",
+      "19041748"
+    ],
+    "similar": [
+      "41737536",
+      "42471019",
+      "42465770",
+      "41591671",
+      "42123445",
+      "42292364",
+      "41191606",
+      "41080564",
+      "42565562",
+      "41415264",
+      "42326009",
+      "42024670",
+      "42233387",
+      "40642528",
+      "41402885",
+      "41436831",
+      "42502801",
+      "42295138",
+      "40918403",
+      "42495634",
+      "40532306",
+      "42475469",
+      "40313558",
+      "42123756",
+      "42059276",
+      "42292668",
+      "41052072",
+      "41044520",
+      "41895505",
+      "40241169",
+      "42236612",
+      "41630199",
+      "42164373",
+      "39507054",
+      "41357842",
+      "39697326",
+      "41879435",
+      "38260098",
+      "42107160",
+      "40755754",
+      "42083957",
+      "41030501",
+      "40764361",
+      "40916281",
+      "42338983",
+      "40097519",
+      "42363518",
+      "41909133",
+      "42154423",
+      "41905994",
+      "41836445",
+      "40588645",
+      "41276899",
+      "41716396",
+      "40830558",
+      "42449128",
+      "42530267",
+      "36311708",
+      "42175405",
+      "41367897",
+      "42302029",
+      "41611834",
+      "42176029",
+      "40665394",
+      "42265416",
+      "40927289",
+      "41214111",
+      "41432483",
+      "42391245",
+      "41221285",
+      "40725485",
+      "41388523",
+      "42040898",
+      "41836872",
+      "41502897",
+      "41792142",
+      "36034449",
+      "41376372",
+      "42088521",
+      "42340574",
+      "41740552",
+      "41488645",
+      "42257259",
+      "41177794",
+      "41733593",
+      "40661186",
+      "41081092",
+      "41907204",
+      "41053677",
+      "42317364",
+      "37891634",
+      "41200172",
+      "41342434",
+      "41132669",
+      "41601671",
+      "41257259",
+      "42164570",
+      "42562173",
+      "41656832",
+      "39791175"
+    ],
+    "review": [
+      "41737536"
+    ],
+    "pmc": [
+      "12927824"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41737536/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3592",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/IJGM.S578987",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

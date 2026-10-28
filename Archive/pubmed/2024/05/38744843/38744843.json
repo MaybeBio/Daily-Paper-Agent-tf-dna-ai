@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "38744843",
+    "doi": "10.1038/s41467-024-48516-6",
+    "title": "GRouNdGAN: GRN-guided simulation of single-cell RNA-seq data using causal generative adversarial networks."
+  },
+  "content": {
+    "abstract": "We introduce GRouNdGAN, a gene regulatory network (GRN)-guided reference-based causal implicit generative model for simulating single-cell RNA-seq data, in silico perturbation experiments, and benchmarking GRN inference methods. Through the imposition of a user-defined GRN in its architecture, GRouNdGAN simulates steady-state and transient-state single-cell datasets where genes are causally expressed under the control of their regulating transcription factors (TFs). Training on six experimental reference datasets, we show that our model captures non-linear TF-gene dependencies and preserves gene identities, cell trajectories, pseudo-time ordering, and technical and biological noise, with no user manipulation and only implicit parameterization. GRouNdGAN can synthesize cells under new conditions to perform in silico TF knockout experiments. Benchmarking various GRN inference algorithms reveals that GRouNdGAN effectively bridges the existing gap between simulated and biological data benchmarks of GRN inference algorithms, providing gold standard ground truth GRNs and realistic cells corresponding to the biological system of interest.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Algorithms",
+      "Computational Biology/methods",
+      "*Computer Simulation",
+      "*Gene Regulatory Networks",
+      "*RNA-Seq/methods",
+      "Sequence Analysis, RNA/methods",
+      "*Single-Cell Analysis/methods",
+      "Single-Cell Gene Expression Analysis",
+      "Transcription Factors/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zinati, Yazdan",
+        "Takiddeen, Abdulrahman",
+        "Emad, Amin"
+      ],
+      "short_names": [
+        "Zinati Y",
+        "Takiddeen A",
+        "Emad A"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-9952-2515",
+        "ORCID: 0009-0009-8633-5162",
+        "ORCID: 0000-0002-5108-4887"
+      ],
+      "affiliations": [
+        "Department of Electrical and Computer Engineering, McGill University, Montreal, QC, Canada.",
+        "Department of Electrical and Computer Engineering, McGill University, Montreal, QC, Canada.",
+        "Department of Electrical and Computer Engineering, McGill University, Montreal, QC, Canada. amin.emad@mcgill.ca.",
+        "Mila, Quebec AI Institute, Montreal, QC, Canada. amin.emad@mcgill.ca.",
+        "The Rosalind and Morris Goodman Cancer Institute, Montreal, QC, Canada. amin.emad@mcgill.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zinati, Yazdan",
+        "short_name": "Zinati Y",
+        "identifiers": [
+          "0009-0005-9952-2515"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, McGill University, Montreal, QC, Canada."
+        ]
+      },
+      {
+        "full_name": "Takiddeen, Abdulrahman",
+        "short_name": "Takiddeen A",
+        "identifiers": [
+          "0009-0009-8633-5162"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, McGill University, Montreal, QC, Canada."
+        ]
+      },
+      {
+        "full_name": "Emad, Amin",
+        "short_name": "Emad A",
+        "identifiers": [
+          "0000-0002-5108-4887"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, McGill University, Montreal, QC, Canada. amin.emad@mcgill.ca.",
+          "Mila, Quebec AI Institute, Montreal, QC, Canada. amin.emad@mcgill.ca.",
+          "The Rosalind and Morris Goodman Cancer Institute, Montreal, QC, Canada. amin.emad@mcgill.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 May 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/15 05:45",
+    "fetched_at": "2026-09-29 20:16:20"
+  },
+  "links": {
+    "cites": [
+      "42293025",
+      "42083644",
+      "42009769",
+      "41862602",
+      "41478876",
+      "41376168",
+      "41288963",
+      "41237047",
+      "41229398",
+      "41206131",
+      "41197632",
+      "40654959",
+      "40185158",
+      "40116657",
+      "39535258",
+      "39502448",
+      "38721585",
+      "38627250"
+    ],
+    "refs": [
+      "38217125",
+      "37443338",
+      "37365273",
+      "37246643",
+      "36991470",
+      "36282535",
+      "36204155",
+      "35687817",
+      "34424948",
+      "34034771",
+      "33558504",
+      "33231677",
+      "32871105",
+      "31919373",
+      "31907445",
+      "31822622",
+      "31740819",
+      "31598633",
+      "30936559",
+      "30890159",
+      "30445495",
+      "30204897",
+      "30089861",
+      "29914354",
+      "29914350",
+      "29588278",
+      "29409532",
+      "28991892",
+      "28968704",
+      "28957658",
+      "28419223",
+      "28379368",
+      "28091601",
+      "28049689",
+      "27993778",
+      "27571553",
+      "27373733",
+      "26688802",
+      "26627738",
+      "25867923",
+      "25364745",
+      "24914678",
+      "24658644",
+      "23794736",
+      "22796662",
+      "22548828",
+      "21697125",
+      "21543516",
+      "20927193",
+      "20308593",
+      "17008524",
+      "12399584",
+      "10592173"
+    ],
+    "similar": [
+      "38744843",
+      "40251476",
+      "42752548",
+      "41288963",
+      "38980373",
+      "40409400",
+      "40062616",
+      "42059479",
+      "38950180",
+      "37985457",
+      "41871930",
+      "35961023",
+      "32019417",
+      "34251625",
+      "41067887",
+      "42313807",
+      "40116659",
+      "38896510",
+      "39694856",
+      "42378449",
+      "36626328",
+      "40220759",
+      "39082647",
+      "39062480",
+      "41052197",
+      "41300707",
+      "38653489",
+      "39311699",
+      "41452748",
+      "35050715",
+      "39960893",
+      "37897702",
+      "42332576",
+      "42054465",
+      "38778003",
+      "39939367",
+      "41093852",
+      "41896196",
+      "33170214",
+      "40699953",
+      "41883144",
+      "40956752",
+      "32871105",
+      "41984780",
+      "37085776",
+      "41043336",
+      "40654959",
+      "38879931",
+      "40662821",
+      "42653305",
+      "39207727",
+      "41329984",
+      "34424948",
+      "38976751",
+      "39934680",
+      "30547796",
+      "36070863",
+      "31985403",
+      "40591481",
+      "38627250",
+      "41206950",
+      "41354118",
+      "39570626",
+      "41257571",
+      "35715748",
+      "31907445",
+      "41489955",
+      "33828122",
+      "39387266",
+      "42225598",
+      "39535258",
+      "39684451",
+      "34251619",
+      "41325426",
+      "41052214",
+      "37525047",
+      "38589899",
+      "42482180",
+      "39585902",
+      "40247122",
+      "40069299",
+      "40804307",
+      "41498638",
+      "41554051",
+      "41191474",
+      "39030497",
+      "41978379",
+      "37864293",
+      "42398561",
+      "38032470",
+      "38342857",
+      "35213533",
+      "41663695",
+      "37079737",
+      "33026066",
+      "41518505",
+      "36168811",
+      "36418514",
+      "41168710",
+      "34962260"
+    ],
+    "review": [
+      "38744843",
+      "39939367",
+      "39207727"
+    ],
+    "pmc": [
+      "11525796"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-48516-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38744843/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

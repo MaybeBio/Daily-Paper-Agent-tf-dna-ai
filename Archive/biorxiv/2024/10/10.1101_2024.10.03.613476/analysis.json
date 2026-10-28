@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.03.613476",
+  "title": "Simulated Solute Tempering 2: An Efficient and Practical Approach to Protein Conformational Sampling and Binding Events",
+  "authors": "Dirk Stratmann; Gautier Moroy; Pierre Tuffery; Samuel Murail",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-03",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 6,
+  "one_liner_zh": "提出一种新的增强采样MD方法SST2，通过选择性缩放分子内及环境相互作用加速蛋白质构象采样和结合事件，虽非直接针对TF-DNA体系，但方法可迁移至蛋白质-DNA互作建模。",
+  "abstract": "Molecular dynamics (MD) simulations are powerful tools for studying the movement and interactions of molecules, but they can be computationally expensive, especially for large biomolecules like proteins. This is problematic because accurately simulating the motions of these molecules is key to understanding their function. Enhanced sampling methods, such as Simulated Tempering (ST), temperature Replica Exchange Molecular Dynamics (REMD) and Replica Exchange with Solute Tempering (REST and REST2), have been developed to overcome this challenge by improving the efficiency of MD simulations. This article presents a new enhanced sampling method called Simulated Solute Tempering 2 (SST2) that builds upon the strengths of ST and REST2. SST2 selectively scales the interactions inside a biomolecule and with its surrounding environment, effectively accelerating the exploration of its different structural states and their stability at various temperatures. SST2 was tested on three different systems (chignolin CLN025, Trp-Cage, and a protein-peptide complex, p97/PNGase) and found to achieve comparable or superior sampling efficiency to ST, SST1 and REST2 while requiring fewer temperature rungs. Notably, SST2 is particularly well-suited for investigating large biomolecular systems, making it a valuable tool for studying a wide range of biomolecular processes, from protein folding to ligand binding.",
+  "abstract_zh": "分子动力学（molecular dynamics, MD）模拟是研究分子运动及相互作用的有力工具，但其计算成本可能很高，尤其是对于像蛋白质这样的大型生物分子。这一问题之所以关键，是因为准确模拟这些分子的运动是理解其功能的核心。为克服这一挑战，已开发出增强采样方法，如模拟回火（Simulated Tempering, ST）、温度副本交换分子动力学（temperature Replica Exchange Molecular Dynamics, REMD）以及溶质回火副本交换（Replica Exchange with Solute Tempering, REST和REST2），这些方法通过提高MD模拟的效率来应对此问题。本文提出了一种新的增强采样方法，称为模拟溶质回火2（Simulated Solute Tempering 2, SST2），该方法基于ST和REST2的优势构建。SST2选择性地缩放生物分子内部及其与周围环境的相互作用，有效加速了其不同结构状态及其在不同温度下稳定性的探索。SST2在三个不同系统（chignolin CLN025、Trp-Cage以及一个蛋白质-肽复合物p97/PNGase）上进行了测试，结果显示，在需要更少温度梯级的情况下，其采样效率与ST、SST1和REST2相当或更优。值得注意的是，SST2特别适用于研究大型生物分子系统，使其成为研究从蛋白质折叠到配体结合等多种生物分子过程的有价值工具。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.03.613476",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.03.613476",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.03.613476/index.html"
+}

@@ -1,0 +1,500 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv.15000165/v1",
+  "title": "Molecular Dynamics Workflows to Compute Large-Scale Sets of Absolute Binding Free Energies Aiding Drug Candidate and Binding Pose Selection",
+  "doi": "10.26434/chemrxiv.15000165/v1",
+  "abstract": "Large-scale Virtual Screening (VS) campaigns of compound libraries can significantly speed up candidate selection in the early stages of drug discovery. The most promising drug candidates are identified by Scoring Functions (SFs), which enable VS campaigns to rank candidate compounds according to their estimated binding affinities. These SFs are typically trained on experimental data reflecting binding affinities (e.g. Dissociation Constant (Kd) values), commonly used as proxies for protein-ligand binding free energies. Since experimental reference data are often inconsistent between laboratories or even unavailable, we developed two computational workflows using Molecular Dynamics (MD) and implicit-solvent calculations to provide consistent large-scale datasets of Absolute Binding Free Energies (ABFEs), addressing two complementary aspects of virtual screening: quantitative binding affinity estimation and binding pose assessment. Our Binding Affinity Prediction (BAP) workflow estimated protein-ligand binding affinities for 4000+ complexes from the PDBbind 2020 dataset. Our Pose Selector (PS) workflow computed non-converged ABFEs from reduced-time Molecular Dynamics (MD) simulations estimating stability for 800,000+ related binding poses. To produce ABFE data at this scale, our free-energy workflows classify, check and repair input structures of protein-ligand complexes in a fully automated fashion. The workflow scripts, molecular dynamics data and ABFE labels are publicly available, creating an extendable database of reference values for the development of Scoring Functions for Large-Scale Virtual Screening campaigns.",
+  "authors": [
+    "Sebastian Wingbermühle",
+    "Akash Deep Biswas",
+    "Domenico Bonanni",
+    "Tatiana Shugaeva",
+    "Davide Gadioli",
+    "Jakub Beránek",
+    "Giorgia Frumenzio",
+    "Lara Querciagrossa",
+    "Andrea Piserchia",
+    "Gianmarco Accordi",
+    "Filippo Lunghini",
+    "Carmine Talarico",
+    "Andrew Emerson",
+    "Jan Martinovič",
+    "Andrea Rosario Beccari",
+    "Gianluca Palermo",
+    "Erik Lindahl"
+  ],
+  "published_date": "2026-02-17",
+  "updated_date": "2026-02-17T13:21:17Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv.15000165/v1",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15000165/v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "1",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            19
+          ]
+        ],
+        "date-time": "2026-08-19T22:24:01Z",
+        "timestamp": 1787178241445,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            17
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Large-scale Virtual Screening (VS) campaigns of compound libraries can significantly speed up candidate selection in the early stages of drug discovery. The most promising drug candidates are identified by Scoring Functions (SFs), which enable VS campaigns to rank candidate compounds according to their estimated binding affinities. These SFs are typically trained on experimental data reflecting binding affinities (e.g. Dissociation Constant (Kd) values), commonly used as proxies for protein-ligand binding free energies. Since experimental reference data are often inconsistent between laboratories or even unavailable, we developed two computational workflows using Molecular Dynamics (MD) and implicit-solvent calculations to provide consistent large-scale datasets of Absolute Binding Free Energies (ABFEs), addressing two complementary aspects of virtual screening: quantitative binding affinity estimation and binding pose assessment. Our Binding Affinity Prediction (BAP) workflow estimated protein-ligand binding affinities for 4000+ complexes from the PDBbind 2020 dataset. Our Pose Selector (PS) workflow computed non-converged ABFEs from reduced-time Molecular Dynamics (MD) simulations estimating stability for 800,000+ related binding poses.</jats:p>\n                <jats:p>To produce ABFE data at this scale, our free-energy workflows classify, check and repair input structures of protein-ligand complexes in a fully automated fashion. The workflow scripts, molecular dynamics data and ABFE labels are publicly available, creating an extendable database of reference values for the development of Scoring Functions for Large-Scale Virtual Screening campaigns.</jats:p>",
+      "DOI": "10.26434/chemrxiv.15000165/v1",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            17
+          ]
+        ],
+        "date-time": "2026-02-17T13:21:17Z",
+        "timestamp": 1771334477000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Molecular Dynamics Workflows to Compute Large-Scale Sets of Absolute Binding Free Energies Aiding Drug Candidate and Binding Pose Selection"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Sebastian",
+          "family": "Wingbermühle",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Dept. Applied Physics",
+              "place": [
+                "Sweden"
+              ]
+            },
+            {
+              "name": "KTH Royal Institute of Technology",
+              "place": [
+                "Sweden"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Akash",
+          "family": "Deep Biswas",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dompe Farmaceutici S.p.A."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Domenico",
+          "family": "Bonanni",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dompe Farmaceutici S.p.A."
+            },
+            {
+              "name": "Department of Physical and Chemical Sciences"
+            },
+            {
+              "name": "Universita degli Studi dell’Aquila"
+            },
+            {
+              "name": "Data Science and Computation Facility"
+            },
+            {
+              "name": "Istituto Italiano di Tecnologia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tatiana",
+          "family": "Shugaeva",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dept. Applied Physics",
+              "place": [
+                "Sweden"
+              ]
+            },
+            {
+              "name": "KTH Royal Institute of Technology",
+              "place": [
+                "Sweden"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Davide",
+          "family": "Gadioli",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dept. of Electronics, Information and Bioengineering",
+              "place": [
+                "Italy, Italy, Italy"
+              ]
+            },
+            {
+              "name": "Politecnico di Milano",
+              "place": [
+                "Italy, Italy, Italy"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jakub",
+          "family": "Beránek",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Technical University of Ostrava"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Giorgia",
+          "family": "Frumenzio",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "CINECA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lara",
+          "family": "Querciagrossa",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "CINECA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrea",
+          "family": "Piserchia",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "CINECA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gianmarco",
+          "family": "Accordi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dept. of Electronics, Information and Bioengineering",
+              "place": [
+                "Italy, Italy, Italy"
+              ]
+            },
+            {
+              "name": "Politecnico di Milano",
+              "place": [
+                "Italy, Italy, Italy"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Filippo",
+          "family": "Lunghini",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dompe Farmaceutici S.p.A."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Carmine",
+          "family": "Talarico",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dompe Farmaceutici S.p.A."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrew",
+          "family": "Emerson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "CINECA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jan",
+          "family": "Martinovič",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Technical University of Ostrava"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrea Rosario",
+          "family": "Beccari",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dompe Farmaceutici S.p.A."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gianluca",
+          "family": "Palermo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dept. of Electronics, Information and Bioengineering",
+              "place": [
+                "Italy, Italy, Italy"
+              ]
+            },
+            {
+              "name": "Politecnico di Milano",
+              "place": [
+                "Italy, Italy, Italy"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Erik",
+          "family": "Lindahl",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dept. Applied Physics",
+              "place": [
+                "Sweden"
+              ]
+            },
+            {
+              "name": "KTH Royal Institute of Technology",
+              "place": [
+                "Sweden"
+              ]
+            },
+            {
+              "name": "Dept. Biochemistry and Biophysics, Science for Life Laboratory",
+              "place": [
+                "Sweden"
+              ]
+            },
+            {
+              "name": "Stockholm University",
+              "place": [
+                "Sweden"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15000165/v1",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            19
+          ]
+        ],
+        "date-time": "2026-08-19T21:26:52Z",
+        "timestamp": 1787174812000
+      },
+      "score": 86.78856,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15000165/v1"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            17
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv.15000165/v1",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jctc.5c02127",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

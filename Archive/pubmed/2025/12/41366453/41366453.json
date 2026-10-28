@@ -1,0 +1,468 @@
+{
+  "identity": {
+    "pmid": "41366453",
+    "doi": "10.1186/s12967-025-07323-3",
+    "title": "Discovery of highly potent marine-derived compound Penicolinate H reveals SREBP-1 mediated lipogenesis as a druggable vulnerability in gastric cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Gastric cancer (GC) is a highly aggressive and fatal disease, with limited treatment options. Altered cellular lipid metabolism is a hallmark of cancer that contributes to GC progression. However, the determinants of lipid metabolism in GC and new agents that target lipid metabolic pathways are poorly defined. The aim of this study was to identify potentially effective lead anti-GC compounds by developing and exploring natural marine products. Furthermore, we sought to uncover viable therapeutic targets for GC through the underlying mechanisms of action of the compounds as an anticancer agent. METHODS: The chemical structures of the metabolites produced by the crinoid-derived fungus Penicillium brocae SYSU-CJ17 were elucidated using advanced spectroscopic techniques. These metabolites were screened for their growth-inhibitory effects on GC cell lines. Among them, Penicolinate H (Pen-H) demonstrated the most significant anti-cancer activity. High-throughput RNA sequencing of Pen-H-treated GC samples revealed differentially expressed genes, and transcriptomic data integrated with bioinformatics analyses highlighted the potential pathways and target genes through which Pen-H might exert its anti-cancer effects. Further investigations, including rescue experiments, endogenous affinity pull-down assays, cellular thermal shift assays (CETSA), surface plasmon resonance (SPR) assays, molecular docking, and in vitro analyses, confirmed the interaction between Pen-H and SREBP-1. The feasibility of SREBP-1 as a therapeutic target for GC is supported by single-cell transcriptome analysis, bioinformatics evaluation of GC patient data, and in vitro studies. Additionally, the chemosensitization effect of Pen-H was confirmed by in vivo and in vitro experiments. RESULTS: Our findings reveal a novel marine-derived compound, Pen-H, which inhibits GC growth and metastasis both in vitro and in vivo by suppressing SREBP-1 mediated lipogenesis. Bioinformatic analysis indicated that SREBP-1 was highly expressed in GC tissues, and high SREBP-1 transcript levels were negatively correlated with prognosis in GC patients. SREBP-1 depletion significantly inhibits the proliferation, migration, and invasion of GC cells. Mechanistic studies have revealed that targeting SREBP-1 by Pen-H significantly reduces de novo fatty acid synthesis and that the anti-GC efficacy of Pen-H is SREBP-1 dependent. Moreover, combination treatment with Pen-H and 5-fluorouracil (5-Fu) resulted in enhanced inhibition of cell proliferation and tumor growth compared to monotherapy. CONCLUSION: Taken together, these findings highlight that SREBP-1 is an effective therapeutic target in GC and that Pen-H is a promising SREBP-1 inhibitor and a candidate for GC treatment.",
+    "keywords": [
+      "Combination therapy",
+      "Gastric cancer",
+      "Lipogenesis",
+      "Penicolinate H",
+      "SREBP-1"
+    ],
+    "mesh_terms": [
+      "*Stomach Neoplasms/drug therapy/genetics/pathology/metabolism",
+      "Humans",
+      "*Lipogenesis/drug effects/genetics",
+      "*Sterol Regulatory Element Binding Protein 1/metabolism",
+      "Cell Line, Tumor",
+      "*Drug Discovery",
+      "Cell Proliferation/drug effects",
+      "*Aquatic Organisms/chemistry",
+      "Animals",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Antineoplastic Agents/pharmacology",
+      "Molecular Docking Simulation",
+      "Mice"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Jianjiao",
+        "Cui, Haishan",
+        "Wang, Xiaolu",
+        "Zeng, Yechun",
+        "Pan, Dongyue",
+        "Chen, Jun",
+        "Zhang, Zhenhua",
+        "An, Yana",
+        "Gu, Zhanfeng",
+        "Cai, Guodi",
+        "Wang, Hong",
+        "Yu, Mengya",
+        "Yang, Bin",
+        "Zhou, Shengning",
+        "Tan, Jianan",
+        "Liu, Lan",
+        "Wang, Junjian",
+        "Li, Jing",
+        "Han, Fanghai"
+      ],
+      "short_names": [
+        "Chen J",
+        "Cui H",
+        "Wang X",
+        "Zeng Y",
+        "Pan D",
+        "Chen J",
+        "Zhang Z",
+        "An Y",
+        "Gu Z",
+        "Cai G",
+        "Wang H",
+        "Yu M",
+        "Yang B",
+        "Zhou S",
+        "Tan J",
+        "Liu L",
+        "Wang J",
+        "Li J",
+        "Han F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5328-2908"
+      ],
+      "affiliations": [
+        "Department of Gastrointestinal Surgery, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, Guangdong Province, 510120, PR China.",
+        "Department of Colorectal Surgery, Zhejiang Provincial People's Hospital, Hangzhou, Guangdong Province, 310014, PR China.",
+        "School of Marine Sciences, Sun Yat-sen University, Zhuhai, Guangdong Province, 519082, PR China.",
+        "State Key of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, 55N, Neihuanxi Road, Guangzhou, Guangdong Province, 510006, PR China.",
+        "School of Pharmaceutical Sciences, Guangdong Province Engineering Laboratory for Druggability and New Drug Evaluation, Sun Yat-sen University, Guangzhou, Guangdong Province, 510006, PR China.",
+        "Department of Hepatobiliary Surgery, The Third Affiliated Hospital, Southern Medical University, Guangzhou, Guangdong Province, 510630, PR China.",
+        "School of Marine Sciences, Sun Yat-sen University, Zhuhai, Guangdong Province, 519082, PR China.",
+        "School of Pharmaceutical Sciences, Guangdong Province Engineering Laboratory for Druggability and New Drug Evaluation, Sun Yat-sen University, Guangzhou, Guangdong Province, 510006, PR China.",
+        "School of Pharmaceutical Sciences, Guangdong Province Engineering Laboratory for Druggability and New Drug Evaluation, Sun Yat-sen University, Guangzhou, Guangdong Province, 510006, PR China.",
+        "Department of Hepatobiliary Surgery, The Third Affiliated Hospital, Southern Medical University, Guangzhou, Guangdong Province, 510630, PR China.",
+        "School of Pharmaceutical Sciences, Guangdong Province Engineering Laboratory for Druggability and New Drug Evaluation, Sun Yat-sen University, Guangzhou, Guangdong Province, 510006, PR China.",
+        "School of Pharmaceutical Sciences, Guangdong Province Engineering Laboratory for Druggability and New Drug Evaluation, Sun Yat-sen University, Guangzhou, Guangdong Province, 510006, PR China.",
+        "Department of Gastrointestinal Surgery, The Affiliated Guangdong Second Provincial General Hospital of Jinan University, Guangzhou, Guangdong Province, 510120, PR China.",
+        "Department of Gastrointestinal Surgery, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, Guangdong Province, 510120, PR China.",
+        "Department of Gastrointestinal Surgery, The Affiliated Guangdong Second Provincial General Hospital of Jinan University, Guangzhou, Guangdong Province, 510120, PR China.",
+        "Department of Gastrointestinal Surgery, The Affiliated Guangdong Second Provincial General Hospital of Jinan University, Guangzhou, Guangdong Province, 510120, PR China.",
+        "School of Marine Sciences, Sun Yat-sen University, Zhuhai, Guangdong Province, 519082, PR China.",
+        "School of Pharmaceutical Sciences, Guangdong Province Engineering Laboratory for Druggability and New Drug Evaluation, Sun Yat-sen University, Guangzhou, Guangdong Province, 510006, PR China. wangjj87@mail.sysu.edu.cn.",
+        "School of Marine Sciences, Sun Yat-sen University, Zhuhai, Guangdong Province, 519082, PR China. lijing356@mail.sysu.edu.cn.",
+        "Department of Gastrointestinal Surgery, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, Guangdong Province, 510120, PR China. hanfh@mail.sysu.edu.cn.",
+        "Department of Gastrointestinal Surgery, The Affiliated Guangdong Second Provincial General Hospital of Jinan University, Guangzhou, Guangdong Province, 510120, PR China. hanfh@mail.sysu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Jianjiao",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, Guangdong Province, 510120, PR China.",
+          "Department of Colorectal Surgery, Zhejiang Provincial People's Hospital, Hangzhou, Guangdong Province, 310014, PR China."
+        ]
+      },
+      {
+        "full_name": "Cui, Haishan",
+        "short_name": "Cui H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Marine Sciences, Sun Yat-sen University, Zhuhai, Guangdong Province, 519082, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaolu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key of Traditional Chinese Medicine Syndrome, The Second Affiliated Hospital of Guangzhou University of Chinese Medicine, 55N, Neihuanxi Road, Guangzhou, Guangdong Province, 510006, PR China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Yechun",
+        "short_name": "Zeng Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Guangdong Province Engineering Laboratory for Druggability and New Drug Evaluation, Sun Yat-sen University, Guangzhou, Guangdong Province, 510006, PR China."
+        ]
+      },
+      {
+        "full_name": "Pan, Dongyue",
+        "short_name": "Pan D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, The Third Affiliated Hospital, Southern Medical University, Guangzhou, Guangdong Province, 510630, PR China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jun",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Marine Sciences, Sun Yat-sen University, Zhuhai, Guangdong Province, 519082, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhenhua",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Guangdong Province Engineering Laboratory for Druggability and New Drug Evaluation, Sun Yat-sen University, Guangzhou, Guangdong Province, 510006, PR China."
+        ]
+      },
+      {
+        "full_name": "An, Yana",
+        "short_name": "An Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Guangdong Province Engineering Laboratory for Druggability and New Drug Evaluation, Sun Yat-sen University, Guangzhou, Guangdong Province, 510006, PR China."
+        ]
+      },
+      {
+        "full_name": "Gu, Zhanfeng",
+        "short_name": "Gu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, The Third Affiliated Hospital, Southern Medical University, Guangzhou, Guangdong Province, 510630, PR China."
+        ]
+      },
+      {
+        "full_name": "Cai, Guodi",
+        "short_name": "Cai G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Guangdong Province Engineering Laboratory for Druggability and New Drug Evaluation, Sun Yat-sen University, Guangzhou, Guangdong Province, 510006, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hong",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Guangdong Province Engineering Laboratory for Druggability and New Drug Evaluation, Sun Yat-sen University, Guangzhou, Guangdong Province, 510006, PR China."
+        ]
+      },
+      {
+        "full_name": "Yu, Mengya",
+        "short_name": "Yu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The Affiliated Guangdong Second Provincial General Hospital of Jinan University, Guangzhou, Guangdong Province, 510120, PR China."
+        ]
+      },
+      {
+        "full_name": "Yang, Bin",
+        "short_name": "Yang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, Guangdong Province, 510120, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Shengning",
+        "short_name": "Zhou S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The Affiliated Guangdong Second Provincial General Hospital of Jinan University, Guangzhou, Guangdong Province, 510120, PR China."
+        ]
+      },
+      {
+        "full_name": "Tan, Jianan",
+        "short_name": "Tan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The Affiliated Guangdong Second Provincial General Hospital of Jinan University, Guangzhou, Guangdong Province, 510120, PR China."
+        ]
+      },
+      {
+        "full_name": "Liu, Lan",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Marine Sciences, Sun Yat-sen University, Zhuhai, Guangdong Province, 519082, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Junjian",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0002-5328-2908"
+        ],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Guangdong Province Engineering Laboratory for Druggability and New Drug Evaluation, Sun Yat-sen University, Guangzhou, Guangdong Province, 510006, PR China. wangjj87@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Jing",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Marine Sciences, Sun Yat-sen University, Zhuhai, Guangdong Province, 519082, PR China. lijing356@mail.sysu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Han, Fanghai",
+        "short_name": "Han F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, Guangdong Province, 510120, PR China. hanfh@mail.sysu.edu.cn.",
+          "Department of Gastrointestinal Surgery, The Affiliated Guangdong Second Provincial General Hospital of Jinan University, Guangzhou, Guangdong Province, 510120, PR China. hanfh@mail.sysu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2025 Dec 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/10 01:47",
+    "fetched_at": "2026-10-01 08:28:59"
+  },
+  "links": {
+    "cites": [
+      "42694682"
+    ],
+    "refs": [
+      "39294640",
+      "38230766",
+      "38160327",
+      "38054657",
+      "37927089",
+      "37623320",
+      "37597652",
+      "37269840",
+      "36753044",
+      "36209270",
+      "35963119",
+      "35810180",
+      "35646898",
+      "35625633",
+      "35534729",
+      "35256934",
+      "35201245",
+      "33601415",
+      "33177714",
+      "32861308",
+      "32322062",
+      "32122374",
+      "31443597",
+      "29784041",
+      "28849786",
+      "27324795",
+      "25574740",
+      "24924473",
+      "22883958",
+      "20728210"
+    ],
+    "similar": [
+      "41366453",
+      "40252583",
+      "41942580",
+      "41759425",
+      "39798341",
+      "32464305",
+      "41832498",
+      "41297428",
+      "40206492",
+      "40049103",
+      "33370709",
+      "41577154",
+      "40618979",
+      "41621574",
+      "39566403",
+      "40409102",
+      "41589439",
+      "40731404",
+      "42446820",
+      "41895780",
+      "41271634",
+      "40674817",
+      "42276391",
+      "39748408",
+      "41101075",
+      "40165038",
+      "39063214",
+      "27281560",
+      "29449559",
+      "40913985",
+      "38295877",
+      "41479643",
+      "42000707",
+      "34742012",
+      "41593724",
+      "41775213",
+      "41818944",
+      "30134915",
+      "41761192",
+      "41795291",
+      "39168951",
+      "39023830",
+      "40481489",
+      "39735673",
+      "42295420",
+      "39938178",
+      "41187651",
+      "41916122",
+      "37562090",
+      "29968360",
+      "30266498",
+      "38006806",
+      "28431583",
+      "31874145",
+      "40657397",
+      "39095325",
+      "29282029",
+      "33422657",
+      "38798252",
+      "39900270",
+      "34948018",
+      "38547624",
+      "39746501",
+      "41207103",
+      "41421224",
+      "39873948",
+      "37980488",
+      "29329543",
+      "41780648",
+      "40762760",
+      "41406550",
+      "41353880",
+      "41382223",
+      "40319008",
+      "41135276",
+      "38763012",
+      "38518635",
+      "40982997",
+      "31451695",
+      "33359761",
+      "33006200",
+      "34740154",
+      "39210348",
+      "42278393",
+      "41402710",
+      "42205867",
+      "41946410",
+      "39549859",
+      "41644120",
+      "38902717",
+      "26955870",
+      "40032765",
+      "28209205",
+      "41656914",
+      "39661279",
+      "41398215",
+      "41293954",
+      "41842934",
+      "23150180",
+      "40976126"
+    ],
+    "review": [
+      "41366453"
+    ],
+    "pmc": [
+      "12690798"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-07323-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/stomachcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Stomach Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41366453/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:41366453",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

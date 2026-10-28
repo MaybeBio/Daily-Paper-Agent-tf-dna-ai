@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, footnotes) as provided
+- **Assessment boundary** Scientific validity, technical soundness, and clarity of claims as presented in the provided text; no assessment of code or data beyond what is described
+- **Shared manuscript claim summary** The authors present TwinC, a convolutional neural network that predicts inter-chromosomal (trans) chromatin contacts from DNA sequence. The model uses a paired-sequence design, classifies contacts versus non-contacts, and is reported to achieve high accuracy on heart tissue Hi-C data and to generalize to an orthogonal assay (DNA SPRITE). The authors further use interpretability methods to implicate chromatin accessibility, A/B compartments, transcription factor motifs, and G-quadruplexes in trans contact formation.
+- **Visible evidence base** Abstract; Introduction; Results sections 2.1–2.7; Discussion; Methods sections 4.1–4.16; Data and code availability statements; Footnotes describing revisions
+- **Missing materials affecting confidence** Figures and supplementary figures referenced but not provided; supplementary tables (1–12) not provided; exact hyperparameter values and architecture details partially described but not fully specified; details of the label generation thresholds (i, m, j, n) are given but the rationale and sensitivity analysis are not fully described; no information on negative set construction beyond thresholding; no confidence intervals or variability measures for AUROC estimates; no details on the Integrated Gradients implementation (e.g., baseline choice, approximation steps)
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a genuine gap in the field, namely the prediction and interpretation of trans-chromosomal contacts from DNA sequence. The paired-sequence design is a sensible and potentially powerful approach, and the authors demonstrate several useful analyses, including cross-assay validation and interpretability. However, the evidence as presented is incomplete in several respects. The central claims of predictive accuracy and biological interpretability rest on analyses whose details are only partially visible, and some claims appear to exceed what the described experiments can support. The work is promising and likely of interest to the chromatin and machine learning communities, but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying 3D genome organization, particularly those interested in inter-chromosomal interactions and their sequence determinants. Also of interest to computational biologists developing deep learning models for genomics, and to experimentalists using Hi-C, SPRITE, or related assays who seek interpretable models of contact formation. The interpretability analyses may also appeal to those studying regulatory elements such as enhancers, transcription factors, and G-quadruplexes.
+- **Major strengths** 1) The problem is well motivated and addresses a clear gap in the field. 2) The paired-sequence design is conceptually simple and computationally efficient compared to existing approaches. 3) The use of replicate Hi-C data to define robust labels is a thoughtful approach to the sparsity problem. 4) The cross-assay validation with DNA SPRITE is a strong addition that strengthens the generalizability claim. 5) The interpretability analyses, including the substitution experiments and transcription factor enrichment, are well designed and provide biological insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the evaluation
+  - **Claim pointer** The authors claim that TwinC achieves high predictive accuracy (AUROC=0.80) on a cross-chromosomal test set from in situ and intact Hi-C experiments in heart tissue.
+  - **Evidence pointer** Section 2.2, Figure 1D–E; location not provided
+  - **Concern** The AUROC values are reported without confidence intervals, standard errors, or any measure of variability across folds. The five-fold cross-validation procedure is described, but the variance across folds is not reported. Additionally, the comparison to the "upper bound" (Donor Group B) is presented as a single point on the ROC curve, but it is unclear how robust this comparison is across folds or label definitions.
+  - **Why it matters** Without measures of variability, it is impossible to assess whether the reported AUROC values are stable or whether the difference between TwinC and the upper bound is meaningful. This is particularly important given the sparsity of trans contacts and the potential for label noise.
+  - **Resolution test** Report AUROC with confidence intervals or standard deviations across the five folds. Provide a more complete ROC curve comparison, including the full curve for the upper bound, and report the variance of the difference between TwinC and the upper bound.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validity of the biological interpretation
+  - **Claim pointer** The authors claim that "chromatin accessibility plays a role in TwinC's trans contact predictions" and that "contacts within the gene-rich A compartment depend more strongly upon accessible sequence elements than in the B compartment."
+  - **Evidence pointer** Sections 2.5–2.6, Figure 4A–H; location not provided
+  - **Concern** The substitution experiments are described at a high level, but the details of the experimental design are incomplete. Specifically, it is unclear how the "randomly selected locus pair from the next-30% set" is chosen, how many such pairs are used, and whether the results are consistent across different random selections. The claim that the effect is specific to A-A contacts is based on a comparison across compartment types, but the statistical significance of the difference between A-A and B-B effects is not reported. Additionally, the authors state that "further experiments are required to test these hypotheses formally" for the B-compartment findings, which is appropriate, but the strength of the A-compartment claim should be supported by statistical testing.
+  - **Why it matters** The biological interpretation is a key contribution of the paper. If the substitution experiments are not rigorously designed and analyzed, the conclusions about the role of accessibility and compartment-specific effects are not well supported.
+  - **Resolution test** Provide a detailed description of the substitution experiment design, including the number of pairs tested, the selection criteria, and the statistical test used to compare the effects across compartment types. Report effect sizes and confidence intervals for the changes in predicted contact scores.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the interpretability analysis
+  - **Claim pointer** The authors claim to have identified 112 transcription factors implicated in trans contacts using Integrated Gradients and motif enrichment analysis.
+  - **Evidence pointer** Section 2.7, Figure 5B, Supplementary Table 4; location not provided
+  - **Concern** The description of the Integrated Gradients analysis is incomplete. The authors do not specify the baseline used for Integrated Gradients, the number of steps in the approximation, or how the importance scores are aggregated across the two input sequences. The Mann-Whitney U test is described, but the multiple testing correction is only mentioned as "Benjamini-Hochberg correction with α = 0.01" without reporting the number of tests performed or the number of significant hits after correction. The list of 112 TFs is presented, but the full list is only in a supplementary table, which is not provided.
+  - **Why it matters** The transcription factor analysis is a central interpretability result. Without full methodological details and a clear reporting of the multiple testing correction, the list of 112 TFs cannot be evaluated for reliability or false discovery rate.
+  - **Resolution test** Provide a complete description of the Integrated Gradients implementation, including baseline and approximation parameters. Report the total number of motif instances tested, the number of TFs tested, and the number of significant TFs after multiple testing correction. Include the full list of significant TFs in the main text or a provided supplementary table.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the model
+  - **Claim pointer** The authors claim that TwinC generalizes across experimental techniques, specifically from in situ Hi-C to DNA SPRITE in GM12878 cells.
+  - **Evidence pointer** Section 2.3, Figure 2A–B; location not provided
+  - **Concern** The cross-assay validation is a strong point, but the description is brief. The AUROC values for the SPRITE validation are reported (0.9336 for TwinC, 0.9611 for the experimental upper bound), but it is unclear how the SPRITE data were processed to generate binary labels, what thresholds were used, and whether the same label generation procedure was applied as for the Hi-C data. The resolution of the SPRITE data (1 Mb) is coarser than the training resolution (100 kb), and it is unclear how this resolution mismatch was handled.
+  - **Why it matters** The claim of cross-assay generalizability is important for the practical utility of the model. If the validation is not carefully described, the claim is weakened.
+  - **Resolution test** Provide a detailed description of the SPRITE data processing, including label generation, threshold selection, and resolution handling. Report the AUROC with confidence intervals and describe any differences in the evaluation protocol compared to the Hi-C evaluation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Section 2.2, Figure 1D–E
+  - **Evidence pointer** location not provided
+  - **Issue** The text states that TwinC achieves an AUROC of 0.7956 and 0.7984 in the left and right ventricles, respectively, but the abstract reports AUROC=0.80. The discrepancy is minor but should be reconciled for consistency.
+  - **Required correction** Ensure that the abstract and the results section report the same values, or clarify that the abstract reports a rounded or averaged value.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Section 4.2, label generation
+  - **Evidence pointer** location not provided
+  - **Issue** The label generation procedure is described with thresholds i, m, j, and n, but the rationale for the specific values (i=2, m=3, j=1, n=4) is not given. It is also unclear how sensitive the results are to these choices.
+  - **Required correction** Provide a brief justification for the chosen thresholds and, if possible, a sensitivity analysis showing that the results are robust to reasonable variations in these parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Section 4.4, architecture description
+  - **Evidence pointer** location not provided
+  - **Concern** The architecture is described as derived from Akita and Orca, but the specific differences from these models are not clearly stated. The number of parameters, layer sizes, and other architectural details are not provided.
+  - **Required correction** Provide a more detailed description of the architecture, including the number of layers, filter sizes, and the total number of parameters, to allow for reproducibility.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.4, Figure 3
+  - **Evidence pointer** location not provided
+  - **Concern** The comparison between TwinC and Orca is based on Spearman correlation coefficients, but the text does not report the number of test samples or the variability of the correlation estimates.
+  - **Required correction** Report the number of test samples and provide confidence intervals or a statistical test for the difference in correlations between the two models.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Section 2.7, G-quadruplex analysis
+  - **Evidence pointer** location not provided
+  - **Issue** The text states that G-quadruplexes are "enriched in trans contacts," but the analysis is based on predicted contacts from the model, not experimentally measured contacts. The wording could be interpreted as a claim about experimental data.
+  - **Required correction** Clarify that the enrichment is observed in the model's predictions, and discuss the implications and limitations of this approach.
+
+## Risk / unsupported claims
+- The claim that TwinC "reliably predicts trans contacts" is supported by the reported AUROC values, but the lack of confidence intervals and the incomplete description of the evaluation protocol make the strength of this claim uncertain.
+- The claim that "chromatin accessibility plays a role in TwinC's trans contact predictions" is supported by the substitution experiments, but the statistical rigor of these experiments is not fully described.
+- The claim that "contacts within the gene-rich A compartment depend more strongly upon accessible sequence elements than in the B compartment" is not supported by a statistical comparison between compartment types.
+- The list of 112 transcription factors implicated in trans contacts is presented without full methodological details or a clear multiple testing correction, making the reliability of this list difficult to assess.
+- The claim of cross-assay generalizability to DNA SPRITE is supported by the reported AUROC, but the processing of the SPRITE data is not fully described, and the resolution mismatch between training and validation is not addressed.
+- The comparison to Orca is presented as evidence of comparable performance, but the details of the comparison (e.g., number of samples, variability) are incomplete.

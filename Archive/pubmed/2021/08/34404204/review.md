@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that the VIM1 PHD finger from Arabidopsis, despite sequence features suggesting H3K4 recognition, does not bind histone H3 peptides in calorimetric and peptide array assays. A 2.6 A crystal structure reveals structural deviations in the putative H3 recognition regions, which the authors propose explain the loss of binding. A chimeric construct grafting BHC80 PHD binding features onto VIM1 PHD is modeled and shown by molecular dynamics and metadynamics to form a stable complex with H3, supporting the hypothesis that subtle structural changes abrogate recognition.
+- **Visible evidence base** Abstract text only; no experimental details, structural coordinates, binding data, or simulation parameters are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, crystallographic statistics, binding assay raw data, simulation protocols, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting structural explanation for the loss of histone H3 binding in a PHD finger family. However, the evidence as presented is insufficient to fully evaluate the central claims. The structural observations are described qualitatively, and the functional relevance is supported only by a computational model rather than experimental validation. The conclusion that "subtle structural changes abrogate recognition" is plausible but not rigorously established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying epigenetic reader domains, particularly PHD fingers and their specificity determinants, as well as those interested in plant DNA methylation maintenance mechanisms. The work may also appeal to structural biologists investigating how subtle conformational differences alter protein-protein interaction specificity.
+- **Major strengths** The study addresses a clear discrepancy between sequence-based predictions and experimental binding data, which is a valuable contribution. The combination of structural determination with computational modeling to test a mechanistic hypothesis is a thoughtful approach. The identification of specific structural features that differ from canonical H3K4-binding PHD fingers provides a concrete framework for understanding loss of function.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "significant structural changes in the putative H3 recognition segments... appear to abrogate recognition of H3K4 by the VIM1 PHD finger" is presented as the central conclusion.
+  - **Evidence pointer** Abstract; specific figures or tables not provided
+  - **Concern** The abstract reports structural differences but does not provide quantitative or statistical evidence that these differences are functionally causative. The phrase "appear to abrogate" is correlative, and no experimental mutagenesis or binding data are presented to directly test whether restoring canonical features would rescue H3K4 binding.
+  - **Why it matters** Without direct functional validation, the structural observations could be incidental rather than causal. The field requires demonstration that the identified structural features are necessary and sufficient for the loss of binding, not merely associated with it.
+  - **Resolution test** Provide experimental data showing that mutation of the VIM1 PHD to restore canonical H3K4-binding features (e.g., the aspartate-containing motif and beta1 strand) rescues H3K4 peptide binding in calorimetric or pull-down assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The claim that the chmVIM1 PHD-H3 complex is "stable" and shows "a network of intermolecular interactions similar to those of the BHC80 PHD-H3 complex" is used to support the mechanistic hypothesis.
+  - **Evidence pointer** Abstract; simulation details not provided
+  - **Concern** The abstract states that molecular dynamics and metadynamics analyses revealed stability and interaction similarity, but no quantitative metrics (e.g., RMSD, binding free energy, interaction occupancy) are reported. The comparison to the BHC80 PHD-H3 complex is qualitative, and it is unclear whether the simulation results are statistically robust or whether the chimeric model was validated against known experimental structures.
+  - **Why it matters** Computational predictions are only as reliable as their validation. Without clear simulation parameters, convergence criteria, and comparison to experimental benchmarks, the reader cannot assess whether the model supports the conclusion or is an artifact of the modeling approach.
+  - **Resolution test** Provide quantitative simulation data (e.g., RMSD plots, binding free energy estimates, interaction energy decomposition) and demonstrate that the simulation protocol reproduces known PHD-H3 interactions in a positive control.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract states that "VIM1 and VIM3 PHD" both fail to recognize H3K4, but the structural analysis is performed only on VIM1.
+  - **Evidence pointer** Abstract; sequence comparison mentioned but no alignment shown
+  - **Concern** The binding studies include both VIM1 and VIM3, but the structural and computational work focuses exclusively on VIM1. It is unclear whether the structural features identified in VIM1 are conserved in VIM3 and whether the same mechanism explains the loss of binding in both proteins.
+  - **Why it matters** The title and abstract imply a general conclusion for the VIM family, but the evidence only directly supports VIM1. Overgeneralization could mislead readers about the family-wide mechanism.
+  - **Resolution test** Show a sequence alignment of VIM1 and VIM3 PHD fingers highlighting conservation of the altered structural features, or provide structural or modeling data for VIM3.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "functional homologues of mammalian UHRF1" is stated without qualification. While VIM/ORTH proteins share domain architecture, the degree of functional homology is context-dependent and may overstate the relationship.
+  - **Required correction** Consider revising to "proposed functional homologues" or "share domain architecture with mammalian UHRF1" to avoid overstatement.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation methods
+  - **Evidence pointer** Abstract; methods not provided
+  - **Issue** The abstract mentions "molecular dynamics simulation and metadynamics analyses" but does not specify the force field, simulation length, or software used. This limits reproducibility assessment.
+  - **Required correction** Include key simulation parameters in the abstract or refer to a methods section where these are fully described.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Structural comparison
+  - **Evidence pointer** Abstract; structural description
+  - **Issue** The abstract lists three structural changes but does not indicate whether these are the only differences or the most significant ones. The selection criteria for highlighting these features are unclear.
+  - **Required correction** Clarify whether these changes were identified as the most functionally relevant based on a systematic comparison or were chosen post hoc.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The causal link between structural features and loss of binding requires experimental validation, and the computational model requires quantitative support and validation. Without these, the central conclusion is not established from the provided evidence.
+- **Assessment against Nature-style criteria** Originality: The work addresses a specific and understudied question about PHD finger specificity in plant proteins, which is a niche but valid contribution. Scientific importance: The findings have potential relevance to understanding how reader domains evolve specificity, but the impact is moderate and largely confined to specialists. Interdisciplinary readership: The work is primarily of interest to structural biologists and epigenetics researchers; it is unlikely to attract broad interdisciplinary attention. Technical soundness: The structural determination appears sound based on the reported resolution, but the functional and computational evidence is insufficiently detailed to assess rigor. Readability for nonspecialists: The abstract is reasonably clear but assumes familiarity with PHD finger biology and structural terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The structural observations are interesting and the hypothesis is plausible, but the abstract alone does not provide sufficient evidence to support the causal claim. The manuscript could become publishable if the authors provide experimental validation of the structural mechanism and quantitative simulation data.
+
+## Risk / unsupported claims
+- The claim that structural changes "abrogate" H3K4 recognition is unsupported without direct mutagenesis or rescue experiments.
+- The claim that the chmVIM1 PHD-H3 complex is "stable" is unsupported without quantitative simulation metrics.
+- The claim that VIM1 and VIM3 PHD fingers share the same loss-of-function mechanism is unsupported, as only VIM1 was structurally characterized.
+- The functional homology between VIM/ORTH proteins and mammalian UHRF1 is stated without supporting evidence in the abstract.

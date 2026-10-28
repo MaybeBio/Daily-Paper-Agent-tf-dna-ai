@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose GPSite, a multi-task deep learning network that predicts protein binding residues for seven ligand types (DNA, RNA, peptide, protein, ATP, HEM, metal ions) using protein language model embeddings and predicted structures. They claim substantial improvement over state-of-the-art sequence-based and structure-based methods across benchmark datasets, robustness to poorly predicted structures, low computational cost enabling genome-scale annotation of over 568,000 sequences, and public availability of a webserver and database.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark descriptions, dataset details, or methodological specifications are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, benchmark datasets, evaluation metrics, baseline comparisons, statistical significance tests, computational cost measurements, and database contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to the field of protein function annotation, addressing a real need for scalable binding site prediction. The multi-task formulation and the use of language model embeddings with geometric deep learning are timely and relevant. However, the abstract alone provides insufficient evidence to evaluate the validity of the performance claims, the robustness of the method, or the significance of the genome-scale application. The claims are plausible but currently not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, structural bioinformatics, and genome annotation would be the primary audience. Researchers in drug discovery and disease genomics may also find the resource valuable, particularly the annotation database covering over 568,000 sequences. The multi-task approach for seven ligand types could interest method developers in deep learning for protein biology.
+- **Major strengths** The problem addressed is important and timely, given the gap between sequence database growth and functional annotation. The multi-task design for simultaneous prediction of seven binding types is a sensible and potentially efficient approach. The use of predicted structures from language models, rather than experimental structures, aligns with the goal of genome-scale applicability. The claim of low computational cost enabling large-scale annotation is attractive if substantiated.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "GPSite substantially surpasses state-of-the-art sequence-based and structure-based approaches on various benchmark datasets"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that GPSite surpasses state-of-the-art methods but provides no quantitative results, no benchmark names, no evaluation metrics, and no comparison details. Without specific performance numbers, dataset descriptions, or statistical significance measures, this claim cannot be assessed.
+  - **Why it matters** The central contribution of the work rests on this performance claim. If the improvement is marginal or limited to specific conditions, the practical value of the method is substantially reduced. The absence of any numerical evidence in the abstract prevents even a preliminary judgment.
+  - **Resolution test** Provide benchmark dataset names, evaluation metrics (e.g., AUC, F1, MCC), and comparative results against at least two state-of-the-art baselines, with confidence intervals or significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Robustness claim
+  - **Claim pointer** "even when the structures are not well-predicted"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim that GPSite performs well on poorly predicted structures is stated without any definition of "not well-predicted" or any supporting data. There is no indication of how structure quality was measured, what threshold was used, or how performance degrades as a function of structure quality.
+  - **Why it matters** This robustness claim is critical for the genome-scale application, since predicted structures vary widely in quality. If the method fails on low-quality structures, the practical utility for large-scale annotation is questionable. The current statement is too vague to be meaningful.
+  - **Resolution test** Define a structure quality metric (e.g., pLDDT or TM-score), stratify results by quality bins, and show performance remains acceptable in the lowest quality bin.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scalability claim
+  - **Claim pointer** "The low computational cost of GPSite enables rapid genome-scale binding residue annotations for over 568,000 sequences"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of low computational cost is not supported by any quantitative data. No runtime, hardware specifications, or comparison to alternative methods are provided. The number 568,000 is stated but without context on how long the annotation took or what resources were required.
+  - **Why it matters** The genome-scale application is a key differentiator of this work. If the computational cost is not actually low relative to existing methods, the claimed advantage disappears. The abstract does not allow any assessment of this claim.
+  - **Resolution test** Report total runtime, hardware used, and per-sequence cost, with a comparison to at least one existing method under the same conditions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological novelty
+  - **Claim pointer** "comprehensively extracting residual and relational geometric contexts in an end-to-end manner"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The methodological description is too brief to evaluate novelty. The phrase "residual and relational geometric contexts" is not defined, and it is unclear how this differs from existing geometric deep learning approaches for protein binding site prediction.
+  - **Why it matters** The novelty of the architecture is a key aspect of the contribution. Without a clear description of what is new relative to prior work, the scientific advance cannot be assessed.
+  - **Resolution test** Provide a clear description of the network architecture, the specific geometric features used, and an explicit comparison to prior geometric deep learning methods.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Ligand type coverage
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract lists seven binding types but does not explain why these specific types were chosen or whether other important ligand types were excluded.
+  - **Required correction** Briefly justify the selection of the seven ligand types and note any limitations regarding excluded types.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract mentions a webserver and database but does not state whether training data, code, or model weights will be made available.
+  - **Required correction** State explicitly what resources will be released (code, model weights, training data) and under what license.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Biological interpretation
+  - **Affected element** Genome-scale annotation utility
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The claim that the annotations provide "opportunities to unveil unexplored associations" is vague and not supported by any example or case study.
+  - **Required correction** Provide at least one concrete example of a novel association found through the genome-scale annotation, or temper the claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The performance, robustness, and scalability claims are the core of the contribution and none are currently supported by quantitative evidence in the supplied material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The multi-task formulation for seven binding types and the combination of language model embeddings with geometric deep learning are potentially original, but the abstract does not provide enough detail to distinguish this from existing work.
+  - Scientific importance: The problem of scalable binding site annotation is important, and the genome-scale application is ambitious. However, the importance of the specific contribution cannot be evaluated without performance evidence.
+  - Interdisciplinary readership: The work could appeal to computational biologists, structural biologists, and genomics researchers. The abstract is written in accessible language for these audiences.
+  - Technical soundness: Not assessable from the abstract. No methodological details, evaluation protocols, or statistical analyses are provided.
+  - Readability for nonspecialists: The abstract is generally clear and avoids excessive jargon, though terms like "residual and relational geometric contexts" would benefit from clarification.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible and potentially valuable method, but the central claims of performance, robustness, and scalability are unsupported by quantitative data. A full manuscript with detailed methods, benchmark results, and computational cost analysis would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim of substantial performance improvement over state-of-the-art methods is unsupported by any quantitative data.
+- The claim of robustness to poorly predicted structures is unsupported and undefined.
+- The claim of low computational cost enabling genome-scale annotation is unsupported by runtime or resource data.
+- The claim that the database provides opportunities to unveil unexplored associations is speculative and not demonstrated.
+- The methodological novelty of "residual and relational geometric contexts" is not assessable from the abstract.

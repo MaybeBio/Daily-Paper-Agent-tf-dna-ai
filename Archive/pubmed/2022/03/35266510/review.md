@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a deep learning model, HGETGI, that uses heterogeneous graph embedding with meta-path sampling via random walk and skip-gram node embedding to predict transcription factor (TF) target gene interactions. The model integrates known TF target gene interactions with human disease mechanism involvement. Performance is reported as an average area under the curve (AUC) of 0.8519 +/- 0.0731 in fivefold cross validation. Case studies for NFKB1 and TP53 report 33 and 32 of top 40 predictions confirmed by the hTftarget database, respectively.
+- **Visible evidence base** Abstract text only; no methodological details, dataset description, baseline comparisons, or supplementary information were accessible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset specifications, implementation details, hyperparameter settings, baseline model descriptions, and supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational approach to a relevant problem in regulatory genomics. The core idea of using heterogeneous graph embeddings to predict TF target gene interactions is reasonable and potentially useful. However, the evidence provided in the abstract is insufficient to assess technical soundness, comparative performance, or generalizability. The reported AUC lacks context from baseline comparisons, and the case study validation relies on a single external database without clear criteria for confirmation. The claims of feasibility and effectiveness are not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on gene regulatory network inference, transcription factor biology, and graph based machine learning applications in genomics. The model could be of interest to those seeking scalable prediction tools for TF target gene interactions, as an alternative to binding site based methods.
+- **Major strengths** The problem addressed is biologically meaningful and practically relevant. The proposed method combines known interaction data with disease association information, which is a novel integration. The use of heterogeneous graph embedding is appropriate for the data structure. The availability of source code and dataset is commendable for reproducibility.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves an average AUC of 0.8519 +/- 0.0731 in fivefold cross validation, and this is presented as evidence of prediction performance.
+  - **Evidence pointer** Results section, abstract
+  - **Concern** The abstract reports a single AUC value without any baseline comparisons, ablation studies, or alternative model benchmarks. It is unclear whether this performance is superior to existing methods for TF target gene prediction or simply a standalone metric. The standard deviation is large, suggesting variability across folds, but no analysis of this variability is provided.
+  - **Why it matters** Without comparative evaluation, the claimed effectiveness of HGETGI cannot be established. A high AUC in isolation does not demonstrate that the method advances the state of the art, especially given that existing computational methods for TF target prediction may achieve similar or better performance.
+  - **Resolution test** Provide a comparison with at least two relevant baseline methods on the same dataset, including statistical significance testing. Report precision, recall, and F1 scores in addition to AUC. Show fold level results to address variability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** Case studies for NFKB1 and TP53 show that 33 and 32 of the top 40 predictions were confirmed by the hTftarget database, respectively, supporting model feasibility.
+  - **Evidence pointer** Results section, abstract
+  - **Concern** The confirmation rate is based on a single external database, hTftarget, with no details on how confirmation was defined, whether the database is independent from the training data, or whether the confirmed interactions were already known in the training set. The abstract does not clarify if these predictions are novel or simply recapitulate known interactions.
+  - **Why it matters** If the confirmed interactions were already present in the training data, the case study would not demonstrate predictive utility for novel interactions. The lack of independence between training and validation sources undermines the claim of feasibility for large scale prediction.
+  - **Resolution test** Clarify whether the confirmed interactions were excluded from the training set. Provide validation against multiple independent databases or experimental evidence. Report the number of novel predictions and their confirmation rates separately.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The model learns patterns from known TF target gene interactions complemented with involvement in human disease mechanisms, using random walk for meta-path sampling and node embedding in a skip-gram manner.
+  - **Evidence pointer** Methods description, abstract
+  - **Concern** The abstract provides no details on the heterogeneous graph construction, the types of nodes and edges, the meta path definitions, the embedding dimensions, the training procedure, or the hyperparameter settings. The disease mechanism integration is mentioned but not specified in terms of data sources or how it is incorporated into the graph.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without these details, other researchers cannot implement or validate the approach. The claim of a deep learning model is also not substantiated, as the described components (random walk and skip gram) are classic graph embedding techniques rather than deep learning architectures.
+  - **Resolution test** Provide a full methods section with graph schema, meta path definitions, model architecture, training details, and hyperparameters. Clarify the deep learning component and specify all data sources for disease associations.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Motivation section, abstract
+  - **Issue** The phrase "existing computational methods for predicting underlying genes for TF to target is mainly proposed for their binding sites rather than the direct interaction" is grammatically awkward and ambiguous. It is unclear whether the authors mean that existing methods predict binding sites rather than functional target genes, or that they predict binding sites as a proxy for interaction.
+  - **Required correction** Rewrite for clarity, for example "Existing computational methods for predicting TF target genes primarily focus on binding site identification rather than direct functional interactions."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting standards
+  - **Affected element** Performance metric
+  - **Evidence pointer** Results section, abstract
+  - **Issue** The AUC is reported as "0.8519 +/- 0.0731" without specifying whether the standard deviation is across folds or across repeated runs. This ambiguity affects interpretation.
+  - **Required correction** Specify the source of variability, for example "mean AUC of 0.8519 with standard deviation of 0.0731 across five folds."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** External validation
+  - **Affected element** Case study design
+  - **Evidence pointer** Results section, abstract
+  - **Issue** The case studies are limited to two TFs, NFKB1 and TP53, which are well studied. This may not represent performance on less characterized TFs.
+  - **Required correction** Acknowledge this limitation and suggest that broader evaluation across diverse TFs would strengthen the claims.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of baseline comparison), R1-M2 (potential data leakage in case study validation), R1-M3 (insufficient methodological detail for reproducibility)
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of heterogeneous graph embedding with disease association data for TF target prediction has some novelty, but the individual components are established techniques. The originality is moderate and not fully assessable from the abstract.
+  - Scientific importance: The problem is important for understanding gene regulation and disease mechanisms. However, the abstract does not demonstrate a significant advance over existing methods, so the scientific impact is not yet established.
+  - Interdisciplinary readership: The work bridges machine learning and genomics, which could appeal to a broad audience. However, the abstract is written in a specialized manner that may limit accessibility to non specialists.
+  - Technical soundness: Not assessable from the abstract due to missing methodological details and lack of comparative evaluation.
+  - Readability for nonspecialists: The abstract is concise but uses jargon without sufficient explanation, which may hinder comprehension for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The approach is promising, but the abstract alone does not provide sufficient evidence to support the claims of feasibility and effectiveness. The authors should address the major concerns regarding baseline comparisons, validation independence, and methodological transparency before the case can be considered established.
+
+## Risk / unsupported claims
+- The claim that HGETGI is a "deep learning prediction model" is unsupported, as the described components (random walk and skip gram) are not deep learning architectures.
+- The claim that the model is "feasible and effective for predicting TF target gene interactions on a large scale" is not supported by the evidence, as the case study validation may be confounded by potential overlap with training data.
+- The reported AUC of 0.8519 is presented without context from baseline methods, making its significance uninterpretable.
+- The integration of "human disease mechanisms" is mentioned but not described, so its contribution to model performance cannot be evaluated.

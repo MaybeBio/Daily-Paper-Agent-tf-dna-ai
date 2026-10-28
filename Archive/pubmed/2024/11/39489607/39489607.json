@@ -1,0 +1,257 @@
+{
+  "identity": {
+    "pmid": "39489607",
+    "doi": "10.1093/bib/bbae560",
+    "title": "Semi-supervised learning with pseudo-labeling compares favorably with large language models for regulatory sequence prediction."
+  },
+  "content": {
+    "abstract": "Predicting molecular processes using deep learning is a promising approach to provide biological insights for non-coding single nucleotide polymorphisms identified in genome-wide association studies. However, most deep learning methods rely on supervised learning, which requires DNA sequences associated with functional data, and whose amount is severely limited by the finite size of the human genome. Conversely, the amount of mammalian DNA sequences is growing exponentially due to ongoing large-scale sequencing projects, but in most cases without functional data. To alleviate the limitations of supervised learning, we propose a novel semi-supervised learning (SSL) based on pseudo-labeling, which allows to exploit unlabeled DNA sequences from numerous genomes during model pre-training. We further improved it incorporating principles from the Noisy Student algorithm to predict the confidence in pseudo-labeled data used for pre-training, which showed improvements for transcription factor with very few binding (very small training data). The approach is very flexible and can be used to train any neural architecture including state-of-the-art models, and shows in most cases strong predictive performance improvements compared to standard supervised learning. Moreover, small models trained by SSL showed similar or better performance than large language model DNABERT2.",
+    "keywords": [
+      "deep learning",
+      "regulatory genomics",
+      "semi-supervised learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Supervised Machine Learning",
+      "Algorithms",
+      "Deep Learning",
+      "Polymorphism, Single Nucleotide",
+      "Regulatory Sequences, Nucleic Acid",
+      "Computational Biology/methods",
+      "Genome-Wide Association Study/methods",
+      "Genome, Human"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Phan, Han",
+        "Brouard, Celine",
+        "Mourad, Raphael"
+      ],
+      "short_names": [
+        "Phan H",
+        "Brouard C",
+        "Mourad R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "INRAE, MIAT, 31326 Castanet-Tolosan, France.",
+        "INRAE, MIAT, 31326 Castanet-Tolosan, France.",
+        "INRAE, MIAT, 31326 Castanet-Tolosan, France.",
+        "University of Toulouse, UPS, 31062 Toulouse, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Phan, Han",
+        "short_name": "Phan H",
+        "identifiers": [],
+        "affiliations": [
+          "INRAE, MIAT, 31326 Castanet-Tolosan, France."
+        ]
+      },
+      {
+        "full_name": "Brouard, Céline",
+        "short_name": "Brouard C",
+        "identifiers": [],
+        "affiliations": [
+          "INRAE, MIAT, 31326 Castanet-Tolosan, France."
+        ]
+      },
+      {
+        "full_name": "Mourad, Raphaël",
+        "short_name": "Mourad R",
+        "identifiers": [],
+        "affiliations": [
+          "INRAE, MIAT, 31326 Castanet-Tolosan, France.",
+          "University of Toulouse, UPS, 31062 Toulouse, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Sep 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/04 00:32",
+    "fetched_at": "2026-09-30 05:32:55"
+  },
+  "links": {
+    "cites": [
+      "42296233"
+    ],
+    "refs": [
+      "38588559",
+      "38366935",
+      "37883436",
+      "37147561",
+      "37143118",
+      "37104599",
+      "34608324",
+      "33980847",
+      "33538820",
+      "29588361",
+      "28686856",
+      "27084946",
+      "26301843",
+      "26213851",
+      "23284144",
+      "22955828",
+      "22955616",
+      "21091714",
+      "19207022",
+      "18798982"
+    ],
+    "similar": [
+      "39489607",
+      "37147561",
+      "38991373",
+      "34078253",
+      "39792624",
+      "41161028",
+      "39167059",
+      "36779849",
+      "35676649",
+      "38878404",
+      "40315689",
+      "39265217",
+      "41780211",
+      "29855387",
+      "34303169",
+      "33677262",
+      "37054649",
+      "35501680",
+      "40051031",
+      "26356316",
+      "41466090",
+      "40269031",
+      "41358754",
+      "29990156",
+      "37971908",
+      "31588387",
+      "41512686",
+      "21034431",
+      "42537359",
+      "40662821",
+      "31045203",
+      "42467987",
+      "41109500",
+      "38857570",
+      "34960564",
+      "29028911",
+      "38380333",
+      "36403310",
+      "41962455",
+      "32397197",
+      "40261690",
+      "42296233",
+      "39302804",
+      "38315597",
+      "42475469",
+      "38324897",
+      "42716111",
+      "38588559",
+      "38035484",
+      "34325149",
+      "36116398",
+      "32676841",
+      "36759776",
+      "36384059",
+      "40781627",
+      "40156370",
+      "31639051",
+      "36064111",
+      "34461503",
+      "38878360",
+      "40101375",
+      "37112285",
+      "41366330",
+      "40184849",
+      "30445435",
+      "42384571",
+      "31330270",
+      "36791462",
+      "35821601",
+      "37696966",
+      "38325216",
+      "33140954",
+      "41028963",
+      "33677376",
+      "39133901",
+      "38781870",
+      "40359735",
+      "41308264",
+      "42492189",
+      "41310253",
+      "34656098",
+      "42003104",
+      "36321172",
+      "40653056",
+      "39522130",
+      "40660356",
+      "35344500",
+      "35536811",
+      "19762927",
+      "42260611",
+      "36131030",
+      "39668308",
+      "41319624",
+      "39705890",
+      "32386536",
+      "40088831",
+      "39842544",
+      "37985685",
+      "39089151",
+      "32846941"
+    ],
+    "review": [
+      "39489607",
+      "42467987",
+      "36759776",
+      "35821601"
+    ],
+    "pmc": [
+      "11531863"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39489607.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39489607/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae560",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

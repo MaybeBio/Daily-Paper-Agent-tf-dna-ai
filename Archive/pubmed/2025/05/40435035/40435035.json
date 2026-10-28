@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "40435035",
+    "doi": "10.1371/journal.pone.0320257",
+    "title": "Identification of biomarkers associated with inflammatory response in Parkinson's disease by bioinformatics and machine learning."
+  },
+  "content": {
+    "abstract": "Parkinson's disease (PD) is a common and debilitating neurodegenerative disorder. The inflammatory response is essential in the pathogenesis and progression of PD. The goal of this study is to combine bioinformatics and machine learning to screen for biomarker genes related to the inflammatory response in PD. First, differentially expressed genes associated with inflammatory response were screened, PPI networks were constructed and enriched for analysis. LASSO, SVM-RFE and Random Forest algorithms were used to screen biomarker genes. Then, ROC curves were drawn and PD risk predicting models were constructed on the basis of the biomarker genes. Finally, drug sensitivity analysis, mRNA-miRNA network construction and single-cell transcriptome data analysis were performed. The experimental results showed that we screened 31 differentially expressed genes related to inflammatory response. Signaling pathways such as cytokine activity were associated with these genes. Three biomarkers were identified using machine learning algorithms: IL18R1, NMUR1 and RELA. Seventeen co-associated miRNAs were identified by the mRNA-miRNA network as possible regulatory nodes in PD. Finally, these three biomarkers were found to be closely associated with T cells, Endothelial cells, excitatory neurons, inhibitory neurons, and other cells in single-cell transcriptomic analysis. In conclusion, IL18R1, NMUR1 and RELA could be potential therapeutic targets for PD in inflammatory response and new biomarkers for PD diagnosis.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Parkinson Disease/genetics/metabolism/pathology",
+      "*Machine Learning",
+      "*Biomarkers/metabolism",
+      "*Computational Biology/methods",
+      "*Inflammation/genetics/metabolism",
+      "MicroRNAs/genetics",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Transcriptome",
+      "Transcription Factor RelA/genetics",
+      "RNA, Messenger/genetics",
+      "Protein Interaction Maps"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yatan",
+        "Jia, Wei",
+        "Chen, Chen",
+        "Chen, Cheng",
+        "Chen, Jinchao",
+        "Yang, Xinling",
+        "Liu, Pei"
+      ],
+      "short_names": [
+        "Li Y",
+        "Jia W",
+        "Chen C",
+        "Chen C",
+        "Chen J",
+        "Yang X",
+        "Liu P"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-4130-7941"
+      ],
+      "affiliations": [
+        "Department of Pharmacy, the Second Affiliated Hospital of Xinjiang Medical University, Urumqi, China.",
+        "The Affiliated Tumor Hospital of Xinjiang Medical University, Urumqi, China.",
+        "College of Information Science and Engineering, Xinjiang University, Urumqi, China.",
+        "College of Software, Xinjiang University, Urumqi, China.",
+        "College of Information Science and Engineering, Xinjiang University, Urumqi, China.",
+        "Xinjiang Key Laboratory of Neurology, Urumqi, China.",
+        "Xinjiang Medical University, Urumqi, China.",
+        "College of Information Science and Engineering, Xinjiang University, Urumqi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yatan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, the Second Affiliated Hospital of Xinjiang Medical University, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Wei",
+        "short_name": "Jia W",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Tumor Hospital of Xinjiang Medical University, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Chen",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Science and Engineering, Xinjiang University, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Cheng",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Software, Xinjiang University, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jinchao",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Science and Engineering, Xinjiang University, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Xinling",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Xinjiang Key Laboratory of Neurology, Urumqi, China.",
+          "Xinjiang Medical University, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Pei",
+        "short_name": "Liu P",
+        "identifiers": [
+          "0009-0002-4130-7941"
+        ],
+        "affiliations": [
+          "College of Information Science and Engineering, Xinjiang University, Urumqi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/28 18:28",
+    "fetched_at": "2026-09-30 18:44:24"
+  },
+  "links": {
+    "cites": [
+      "42192776",
+      "41751464",
+      "41465132"
+    ],
+    "refs": [
+      "39292786",
+      "39033218",
+      "37543820",
+      "37375830",
+      "37284660",
+      "37081117",
+      "36980686",
+      "36926335",
+      "36831718",
+      "36684083",
+      "36610061",
+      "36598534",
+      "36405716",
+      "36247919",
+      "36177006",
+      "36139483",
+      "35932551",
+      "35869066",
+      "35668422",
+      "35453140",
+      "35440625",
+      "35419359",
+      "35278479",
+      "35246670",
+      "35195822",
+      "34536521",
+      "33981329",
+      "33894193",
+      "32888314",
+      "32674367",
+      "32265684",
+      "30335862",
+      "29608179",
+      "27812535",
+      "26999434",
+      "25605792",
+      "25232110",
+      "23161999",
+      "23132118",
+      "23082161",
+      "22802077",
+      "21368872",
+      "20926834",
+      "20066092",
+      "19732964",
+      "19214748",
+      "16023742",
+      "15292653",
+      "12808457",
+      "12351721",
+      "11752295",
+      "10191101"
+    ],
+    "similar": [
+      "40435035",
+      "34536521",
+      "38863714",
+      "38755717",
+      "38760670",
+      "39142001",
+      "30665415",
+      "39623270",
+      "38453824",
+      "40421012",
+      "40119397",
+      "39992204",
+      "39875572",
+      "39396400",
+      "40328901",
+      "39558055",
+      "39375405",
+      "37449753",
+      "39696629",
+      "39556279",
+      "40406126",
+      "30776463",
+      "39071134",
+      "39264583",
+      "39779759",
+      "35731466",
+      "39586719",
+      "32415937",
+      "39739972",
+      "39351239",
+      "40360670",
+      "40240887",
+      "39351221",
+      "40362669",
+      "35278479",
+      "32728898",
+      "36341343",
+      "39552415",
+      "39467967",
+      "35757392",
+      "40016711",
+      "39870856",
+      "40340571",
+      "37740761",
+      "35877019",
+      "38873601",
+      "36098337",
+      "40093012",
+      "39730451",
+      "39496786",
+      "40129981",
+      "28000864",
+      "25371140",
+      "36049413",
+      "39509434",
+      "39609718",
+      "39512836",
+      "38839916",
+      "39730379",
+      "39923303",
+      "39991734",
+      "39043774",
+      "39738398",
+      "29760609",
+      "40304918",
+      "38711508",
+      "29936662",
+      "35620387",
+      "38808722",
+      "39139563",
+      "31747387",
+      "39690389",
+      "39080336",
+      "32597160",
+      "31621692",
+      "33988461",
+      "25170921",
+      "34545330",
+      "38272954",
+      "38626069",
+      "39433267",
+      "39050860",
+      "38919616",
+      "39028999",
+      "38051734",
+      "31551498",
+      "38265536",
+      "38767974",
+      "29653596",
+      "40275274",
+      "38189881",
+      "38987624",
+      "38741149",
+      "40186271",
+      "39749331",
+      "40196107",
+      "37543820",
+      "40229859",
+      "34966440",
+      "31500382"
+    ],
+    "review": [
+      "40435035",
+      "29653596"
+    ],
+    "pmc": [
+      "12118872"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0320257",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40435035/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

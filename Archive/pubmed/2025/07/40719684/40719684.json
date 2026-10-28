@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "40719684",
+    "doi": "10.1080/07391102.2025.2534020",
+    "title": "Single-nucleotide polymorphisms in DNA repair genes ERCC, XRCC, and MGMT and implications in glioblastoma: a pathway analysis and structural dynamics study."
+  },
+  "content": {
+    "abstract": "Genes partaking in DNA damage repair (DDR) pathways exert a key role in the progression of glioblastoma (GBM) and treatment resistance. Essential DDR genes, including XRCC, ERCC, and MGMT, are mutated in GBM, with single nucleotide variants (SNVs) clinically linked to the. However, the structural consequences and biophysical alterations to protein dynamics linked to RCC/MGMT SNVs in GBM are not well-studied. We analyzed GBM-related SNVs in XRCC2, XRCC3, ERCC2, and MGMT. Structural Alphafold models were built. Eight molecular dynamics simulation (MDS) runs for up to 100 ns were carried out via an all-atom forcefield. Structural analyses, such as H-bond, RMSD, RMSF, gyration, and SASA were evaluated. Moreover, protein-protein interactions (PPIs) and mRNA expression levels were assessed by STRING/Cytoscape. The SNVs, XRCC2 (Arg188His), XRCC3 (Thr241Met), ERCC2 (Lys751Gln), and MGMT (Leu84Phe), were associated with notable structural changes. MDS study revealed increased flexibility, compactness, as well as alterations in H-bonding and solvent exposure in mutants of several DDR pathway genes compared to wild-type RCC/MGMT proteins. The modified regional flexibility for all genes was identified by RMSF computation. Pathway analysis showed XRCC3 as the most connected hub within the DDR network. Upregulation of DDR genes, in particular XRCC2/MGMT, correlated with a poorer clinical outlook. A statistically meaningful and direct positive correlation of ERCC2 and MGMT was shown (p < 0.05). The present investigation indicated the significance of GBM-associated DDR gene SNVs in protein dynamics and GBM pathogenesis. This study suggests notable changes in the biophysical structural parameters of mutated ERCC2 and XRCC3, whereas changes in certain parameters of mutant XRCC2/MGMT were less prominent.",
+    "keywords": [
+      "Alphafold",
+      "Glioblastoma",
+      "protein folding",
+      "single-nucleotide variants (SNVs)",
+      "structural dynamics simulation"
+    ],
+    "mesh_terms": [
+      "*Glioblastoma/genetics",
+      "*DNA-Binding Proteins/genetics/chemistry",
+      "*Molecular Dynamics Simulation",
+      "*DNA Repair Enzymes/genetics/chemistry",
+      "Humans",
+      "*Polymorphism, Single Nucleotide",
+      "*Xeroderma Pigmentosum Group D Protein/genetics/chemistry",
+      "*DNA Repair/genetics",
+      "*Tumor Suppressor Proteins/genetics/chemistry",
+      "*DNA Modification Methylases/genetics/chemistry",
+      "Hydrogen Bonding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Afshar, Yashmin",
+        "Naseri, Aida",
+        "Amoozadehsamakoosh, Amirmohammad",
+        "Naseri, Alma",
+        "Abrishami, Melika",
+        "Yazdanpanah, Niloufar",
+        "Saleki, Kiarash",
+        "Rezaei, Nima"
+      ],
+      "short_names": [
+        "Afshar Y",
+        "Naseri A",
+        "Amoozadehsamakoosh A",
+        "Naseri A",
+        "Abrishami M",
+        "Yazdanpanah N",
+        "Saleki K",
+        "Rezaei N"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3836-1827"
+      ],
+      "affiliations": [
+        "Cancer Immunology Project (CIP), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+        "Cancer Immunology Project (CIP), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+        "Network of Immunity in Infection, Malignancy and Autoimmunity (NIIMA), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+        "Cancer Immunology Project (CIP), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+        "Network of Immunity in Infection, Malignancy and Autoimmunity (NIIMA), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+        "Cancer Immunology Project (CIP), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+        "Network of Immunity in Infection, Malignancy and Autoimmunity (NIIMA), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+        "Cancer Immunology Project (CIP), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+        "Cancer Immunology Project (CIP), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+        "Network of Immunity in Infection, Malignancy and Autoimmunity (NIIMA), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+        "Research Center for Immunodeficiencies, Children's Medical Center, Tehran University of Medical Sciences, Tehran, Iran.",
+        "Cancer Immunology Project (CIP), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+        "Network of Immunity in Infection, Malignancy and Autoimmunity (NIIMA), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+        "Research Center for Immunodeficiencies, Children's Medical Center, Tehran University of Medical Sciences, Tehran, Iran.",
+        "Department of Immunology, School of Medicine, Tehran University of Medical Sciences, Tehran, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Afshar, Yashmin",
+        "short_name": "Afshar Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Immunology Project (CIP), Universal Scientific Education and Research Network (USERN), Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Naseri, Aida",
+        "short_name": "Naseri A",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Immunology Project (CIP), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+          "Network of Immunity in Infection, Malignancy and Autoimmunity (NIIMA), Universal Scientific Education and Research Network (USERN), Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Amoozadehsamakoosh, Amirmohammad",
+        "short_name": "Amoozadehsamakoosh A",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Immunology Project (CIP), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+          "Network of Immunity in Infection, Malignancy and Autoimmunity (NIIMA), Universal Scientific Education and Research Network (USERN), Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Naseri, Alma",
+        "short_name": "Naseri A",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Immunology Project (CIP), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+          "Network of Immunity in Infection, Malignancy and Autoimmunity (NIIMA), Universal Scientific Education and Research Network (USERN), Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Abrishami, Melika",
+        "short_name": "Abrishami M",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Immunology Project (CIP), Universal Scientific Education and Research Network (USERN), Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Yazdanpanah, Niloufar",
+        "short_name": "Yazdanpanah N",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Immunology Project (CIP), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+          "Network of Immunity in Infection, Malignancy and Autoimmunity (NIIMA), Universal Scientific Education and Research Network (USERN), Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Saleki, Kiarash",
+        "short_name": "Saleki K",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Immunodeficiencies, Children's Medical Center, Tehran University of Medical Sciences, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Rezaei, Nima",
+        "short_name": "Rezaei N",
+        "identifiers": [
+          "0000-0002-3836-1827"
+        ],
+        "affiliations": [
+          "Cancer Immunology Project (CIP), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+          "Network of Immunity in Infection, Malignancy and Autoimmunity (NIIMA), Universal Scientific Education and Research Network (USERN), Tehran, Iran.",
+          "Research Center for Immunodeficiencies, Children's Medical Center, Tehran University of Medical Sciences, Tehran, Iran.",
+          "Department of Immunology, School of Medicine, Tehran University of Medical Sciences, Tehran, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/28 18:59",
+    "fetched_at": "2026-09-30 22:51:24"
+  },
+  "links": {
+    "cites": [
+      "42141259"
+    ],
+    "refs": [],
+    "similar": [
+      "40719684",
+      "20708344",
+      "24380367",
+      "37771161",
+      "41969610",
+      "38166600",
+      "21701125",
+      "17479411",
+      "19861461",
+      "37230028",
+      "35319340",
+      "32991787",
+      "37279651",
+      "21394635",
+      "40835840",
+      "17700363",
+      "23534771",
+      "30194171",
+      "27533246",
+      "32168477",
+      "29036186",
+      "40422249",
+      "28148826",
+      "19124499",
+      "24909675",
+      "39389328",
+      "24084248",
+      "23245659",
+      "41596413",
+      "31131831",
+      "25467143",
+      "23519841",
+      "20179017",
+      "40244270",
+      "29726772",
+      "37774058",
+      "30542120",
+      "16707649",
+      "40282990",
+      "26615020",
+      "22975219",
+      "18708406",
+      "27367247",
+      "29165638",
+      "41316075",
+      "16609952",
+      "27764705",
+      "28266716",
+      "31823165",
+      "36272139",
+      "26898429",
+      "32277685",
+      "22414280",
+      "32866816",
+      "37641495",
+      "41580503",
+      "32519309",
+      "41198755",
+      "18386788",
+      "30831643",
+      "20206583",
+      "17569599",
+      "21195504",
+      "39735668",
+      "30317322",
+      "31347685",
+      "18952979",
+      "26883115",
+      "23328811",
+      "28275120",
+      "27503138",
+      "22532597",
+      "19011762",
+      "34072831",
+      "41123669",
+      "21928112",
+      "28499365",
+      "21829728",
+      "10632359",
+      "36308592",
+      "26336131",
+      "38288307",
+      "29080834",
+      "25910840",
+      "29522548",
+      "34969742",
+      "38277015",
+      "33433610",
+      "29302887",
+      "25835182",
+      "27571882",
+      "30038102",
+      "28097324",
+      "23277402",
+      "32666673",
+      "37371109",
+      "21287394",
+      "37047153",
+      "36513631",
+      "22675172"
+    ],
+    "review": [
+      "40719684",
+      "16707649",
+      "28266716",
+      "26898429",
+      "17569599",
+      "21195504"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2025.2534020?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERCC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-103",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2025.2534020",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

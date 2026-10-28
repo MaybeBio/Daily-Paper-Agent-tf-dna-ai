@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42348910",
+  "title": "ESM2-BiMamba: A Length-Adaptive Hybrid Framework for Efficient Concurrent Prediction of DNA-Binding Proteins and DNA-Binding Residue Sites.",
+  "authors": "Zhou, Yun; Qiu, Hanlei; Liu, Dong; Wang, Wei",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2026-06-26",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 7,
+  "one_liner_zh": "提出ESM2-BiMamba混合架构，用双向Mamba替换ESM2顶层实现线性复杂度，联合预测DNA结合蛋白与结合残基位点，属于蛋白质-DNA互作位点预测的AI方法，但未聚焦TF-DNA特异性结合机制。",
+  "abstract": "Accurate identification of DNA-binding proteins (DBPs) and their DNA-binding residue sites (DBSs) is essential for understanding gene regulatory processes. Despite recent progress achieved by protein language models, current methods still face fundamental limitations, including the quadratic computational burden of Transformer architectures, inadequate modeling of long-range dependencies, and reduced generalization on long or low-homology protein sequences. To address these challenges, we propose ESM2-BiMamba, a length-adaptive hybrid architecture for efficient and scalable protein-DNA interaction prediction. The model preserves the first 29 Transformer layers of the pretrained 33-layer ESM2 and replaces its top four layers with bidirectional Mamba state-space modules, enabling linear-time context propagation while maintaining rich sequence semantics. A sequence-length-adaptive dynamic chunking mechanism further reduces redundant computation and stabilizes long-range dependency modeling. To mitigate the distribution shift between pretraining and downstream tasks, a lightweight adapter is incorporated to enhance representation alignment. In addition, a dual-task prediction head comprising a protein-level DBP classifier and a residue-level DBS predictor allows the model to jointly capture global functional patterns and fine-grained binding-site signals. Extensive experiments on multiple standard benchmark data sets demonstrate that ESM2-BiMamba achieves superior performance in both DNA-binding protein identification and DNA-binding residue prediction, with notable advantages in processing long sequences and generalizing to low-homology targets.",
+  "abstract_zh": "DNA结合蛋白（DBPs）及其DNA结合残基位点（DBSs）的准确识别对于理解基因调控过程至关重要。尽管蛋白质语言模型近期取得了进展，但现有方法仍面临根本性限制，包括Transformer架构的二次计算负担、长距离依赖性建模不足，以及在长序列或低同源性蛋白质序列上泛化能力下降。为解决这些挑战，我们提出了ESM2-BiMamba，一种长度自适应的混合架构，用于高效且可扩展的蛋白质-DNA相互作用预测。该模型保留了预训练的33层ESM2的前29个Transformer层，并将其顶部四层替换为双向Mamba状态空间模块，从而在保持丰富序列语义的同时实现线性时间上下文传播。一种序列长度自适应的动态分块机制进一步减少了冗余计算，并稳定了长距离依赖性建模。为缓解预训练与下游任务之间的分布偏移，我们引入了一个轻量级适配器以增强表示对齐。此外，一个包含蛋白质级DBP分类器和残基级DBS预测器的双任务预测头，使模型能够联合捕获全局功能模式和细粒度结合位点信号。在多个标准基准数据集上的广泛实验表明，ESM2-BiMamba在DNA结合蛋白识别和DNA结合残基预测方面均取得了优越性能，在处理长序列和泛化至低同源性目标方面具有显著优势。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42348910/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42348910/",
+  "paper_page_path": "papers/pubmed/42348910/index.html"
+}

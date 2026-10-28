@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or statistical details were available for evaluation
+- **Shared manuscript claim summary** The authors report that c-Myc is upregulated in peri-infarct neurons after ischemic stroke, with acetylation at lysine 148 (K148) but not K323, that SIRT2 deacetylase regulates K148 acetylation, that K148 acetylation reduces c-Myc compaction and nuclear localization while promoting calpain-mediated cleavage and cytoplasmic accumulation, and that selective SIRT2 inhibition may represent a therapeutic strategy for stroke
+- **Visible evidence base** Abstract text only; no experimental methods, quantitative data, figures, or supplementary materials were provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, statistical analyses, molecular dynamics simulation parameters, antibody validation details, and any in vivo functional data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis regarding acetylation-dependent regulation of c-Myc in ischemic neurons, with possible therapeutic implications. However, the evidence base available for review is limited to the abstract, which precludes verification of the central claims. Several statements are speculative and go beyond what can be supported by the data as described. The work may be of interest to the stroke and neuroprotection community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in stroke biology, neuroprotection, and post-translational modification signaling would be interested. The potential link between c-Myc acetylation and neuronal survival after ischemia could also attract investigators studying transcription factor regulation in neurodegeneration and those exploring SIRT2 as a therapeutic target.
+- **Major strengths** The study addresses an understudied aspect of c-Myc biology in the context of ischemic stroke, specifically acetylation in neurons. The combination of experimental observations with molecular dynamics simulations is a potentially informative approach. The focus on SIRT2 as a druggable target adds translational relevance.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that acetylation at K148 reduces c-Myc compaction, limits nuclear penetration, promotes calpain-mediated cleavage, and decreases nuclear localization  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states these effects as findings, but no quantitative data, experimental conditions, or statistical comparisons are presented. It is unclear whether these conclusions derive from direct measurements in neurons, from overexpression systems, or from in silico predictions. The causal ordering among compaction, nuclear penetration, cleavage, and localization is not established.  
+  - **Why it matters** These claims form the mechanistic core of the paper. Without visible data, the reader cannot assess whether the observed effects are robust, specific to K148, or physiologically relevant in the ischemic context.  
+  - **Resolution test** Provide experimental data showing that K148 acetylation alters c-Myc conformation, nuclear import, and calpain cleavage in neurons, with appropriate controls including acetylation-deficient mutants and rescue experiments.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Specificity of SIRT2 action  
+  - **Claim pointer** The authors claim that SIRT2 deacetylase primarily affects K148 acetylation  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not describe how SIRT2 was manipulated, whether other deacetylases were examined, or whether K323 acetylation was measured under the same conditions. The claim of primacy for SIRT2 at K148 requires direct comparison with other deacetylases and demonstration of selectivity.  
+  - **Why it matters** SIRT2 is proposed as a therapeutic target. If other deacetylases also regulate K148 or if SIRT2 affects other lysines under ischemic conditions, the proposed strategy may be incomplete or misdirected.  
+  - **Resolution test** Show data from SIRT2 knockdown, inhibition, or overexpression with acetylation measurements at K148 and K323, and include at least one other deacetylase as a comparator.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Functional consequence and therapeutic claim  
+  - **Claim pointer** The authors claim that targeting SIRT2 with selective inhibitors could be a promising avenue for future stroke therapy  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No functional outcome data are presented, such as neuronal survival, infarct volume, or behavioral recovery. The abstract does not show that modulating K148 acetylation or SIRT2 activity changes ischemic injury outcomes. The therapeutic suggestion is therefore speculative.  
+  - **Why it matters** A therapeutic claim requires evidence that intervention at the proposed target alters disease-relevant endpoints. Without such data, the translational relevance is not established.  
+  - **Resolution test** Provide in vivo or ex vivo data showing that SIRT2 inhibition or K148 acetylation modulation affects neuronal survival or functional recovery after ischemia.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Speculative interaction claim  
+  - **Claim pointer** The authors claim that cytoplasmic acetylation at K148 may alter c-Myc interaction with unidentified proteins, potentially influencing pro-apoptotic effects  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** This statement is explicitly speculative, as acknowledged by the use of "may" and "unidentified." It is not supported by any experimental evidence in the abstract.  
+  - **Why it matters** While speculation can be useful for framing, presenting it alongside empirical findings without clear separation may mislead readers about the strength of the evidence.  
+  - **Resolution test** Either remove this speculation from the abstract or support it with interaction data, such as co-immunoprecipitation or proximity labeling, comparing wild-type and acetylation-mimetic c-Myc.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "reduces c-Myc compaction" is vague. It is unclear whether this refers to overall protein compactness, domain compaction, or oligomerization state.  
+  - **Required correction** Define what is meant by compaction and specify the method used to assess it, such as molecular dynamics metrics or biochemical assays.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Contextualization  
+  - **Affected element** Background statement  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that previous studies on c-Myc acetylation were limited to non-neuronal cells, but does not cite or summarize what those studies found.  
+  - **Required correction** Briefly state what is known from prior work and how this study extends it, to help readers situate the novelty.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of "penumbra" and "perifocal"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The terms "penumbra" and "perifocal" are used interchangeably, which may confuse readers.  
+  - **Required correction** Use consistent terminology throughout and define the anatomical region being studied.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central mechanistic and therapeutic claims cannot be evaluated without the underlying data.
+- **Assessment against Nature-style criteria**  
+  - Originality: The focus on c-Myc acetylation in ischemic neurons is relatively novel, as most acetylation studies have been in cancer or non-neuronal systems. However, the abstract does not clearly differentiate this work from prior c-Myc acetylation studies beyond the cell type.  
+  - Scientific importance: The potential role of c-Myc acetylation in neuronal survival after stroke is of interest, but the importance is not yet demonstrated without functional outcome data.  
+  - Interdisciplinary readership: The topic bridges stroke biology, transcription factor regulation, and drug targeting, which could appeal to a broad audience. However, the abstract is written in a way that assumes familiarity with c-Myc biology and acetylation signaling.  
+  - Technical soundness: Cannot be assessed from the abstract. No methods, controls, or statistics are visible.  
+  - Readability for nonspecialists: The abstract is reasonably readable but uses specialized terms without definition, and the speculative statements may obscure the strength of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the absence of methods, data, and functional outcomes prevents verification of the central claims. A full manuscript with rigorous experimental support would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that K148 acetylation reduces c-Myc compaction and nuclear penetration is unsupported in the abstract.
+- The claim that SIRT2 primarily regulates K148 acetylation is unsupported without comparative deacetylase data.
+- The claim that SIRT2 inhibition could be a promising stroke therapy is unsupported without functional outcome data.
+- The statement regarding altered interaction with unidentified proteins is explicitly speculative and not evidence-based.
+- The overall conclusion that acetylation at K148 protects neurons after ischemia is not directly supported by any outcome measure described in the abstract.

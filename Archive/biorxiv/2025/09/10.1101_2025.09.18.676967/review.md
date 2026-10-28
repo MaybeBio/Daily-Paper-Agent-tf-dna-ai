@@ -1,0 +1,130 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, supplementary figure legends, author contributions, funding, acknowledgements) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, results, and conclusions presented in the provided text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors present RFdiffusion3 (RFD3), a diffusion model operating on all heavy atoms of proteins, capable of generating protein structures conditioned on arbitrary non-protein atoms (ligands, nucleic acids) and atom-level constraints. They claim improved in silico performance over prior methods across protein binder, small molecule binder, DNA binder, and enzyme design benchmarks, at approximately one tenth the computational cost. They further claim experimental validation via design and characterization of DNA binding proteins and cysteine hydrolases, with one DNA binder showing micromolar affinity and one hydrolase showing improved catalytic efficiency over prior designs.
+- **Visible evidence base** Abstract, main text sections 1-5, supplementary figure legends (S1-S12), author contributions, funding, acknowledgements. No actual figures, tables, or supplementary data files were provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary data files are absent. Specific numerical results for most benchmarks are not given. Experimental protocols, raw data, statistical analyses, and detailed methods are not available. The manuscript is a preprint and has not undergone peer review.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a technically ambitious and potentially significant advance in protein design, extending diffusion-based generative modeling to all-atom representations with conditioning on non-protein components. The architectural innovations and the breadth of demonstrated applications are impressive. However, the provided text alone is insufficient to verify the core claims. Key quantitative results, benchmark details, and experimental evidence are referenced but not shown. The experimental validation is limited to a small number of designs with modest success rates, and the reported affinity for the DNA binder is weak. The claim of broad superiority over prior methods requires careful scrutiny of the missing benchmark data. The manuscript is likely to be of high interest to the protein design community, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Computational protein designers, experimental biochemists and structural biologists working on de novo protein function, researchers in generative AI applied to biomolecules, and pharmaceutical/biotech researchers interested in novel binders and enzymes. The potential for a unified all-atom design platform with flexible conditioning would be broadly appealing.
+- **Major strengths**
+  - The conceptual advance of fully atom-based diffusion for design, moving beyond residue-level or hybrid representations, is significant and timely.
+  - The architecture, with sparse attention and cross-attention pooling between atom and token tracks, appears well-motivated to address the challenges of all-atom generation.
+  - The range of conditioning modalities (atom-level hotspots, H-bond donor/acceptor, burial, center of mass, symmetry) is comprehensive and practically relevant.
+  - The inclusion of experimental validation, albeit limited, strengthens the practical relevance of the claims.
+  - The reported computational efficiency gain is a notable practical advantage.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "RFD3 achieves improved performance compared to prior approaches on a range of in silico benchmarks with one tenth the computational cost."
+  - **Evidence pointer** Section 3, Figures 3, S2, S3, S5, S6; location not provided
+  - **Concern** The central claim of improved performance is made without presenting the actual benchmark data. No numerical results, comparison tables, or statistical analyses are visible in the provided text. The figures that presumably contain this information are not available for review.
+  - **Why it matters** This is the primary quantitative claim of the paper. Without the data, the reader cannot assess the magnitude of improvement, the statistical significance, or the fairness of the comparison to prior methods. The claim of superiority is therefore unverifiable.
+  - **Resolution test** Provide the full benchmark results, including success rates, confidence metrics, and comparisons to RFdiffusion, RFdiffusionAA, and other relevant baselines, with appropriate statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** "we demonstrate the broad applicability of RFD3 by designing and experimentally characterizing DNA binding proteins and cysteine hydrolases."
+  - **Evidence pointer** Section 4, Figure 4, S7, S8; location not provided
+  - **Concern** The experimental results are described only qualitatively. For the DNA binder, a single design with an EC50 of 5.89 ± 2.15 µM is reported. This is a weak affinity, and the success rate (1 out of 5 designs) is low. For the enzyme, a single Kcat/Km value is given, but the context of prior designs and the specific improvements are not detailed. No experimental methods, controls, or replicate information are provided.
+  - **Why it matters** The experimental section is crucial for demonstrating that the in silico improvements translate to real-world function. The limited data presented, without methodological detail, is insufficient to support the claim of "broad applicability" or to convincingly show that RFD3 enables designs that were not possible before.
+  - **Resolution test** Provide full experimental details, including design selection criteria, expression and purification protocols, binding and activity assay methods, and a more comprehensive set of results with appropriate statistical analysis. Clarify the success rates and the significance of the reported affinities and activities.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** "We trained on all complexes in the Protein Data Bank (PDB) including protein-protein, protein-small molecule, and protein-DNA interface design tasks, as well as scaffolding functional motifs and a set of high quality AlphaFold2 (AF2) distillation structures."
+  - **Evidence pointer** Section 2; location not provided
+  - **Concern** The training data and procedure are described at a high level, but critical details are missing. The exact composition of the training set, the handling of redundancy, the specific data splits for evaluation, and the details of the hierarchical training procedure are not specified. The use of AF2 distillation structures is mentioned but not justified or detailed.
+  - **Why it matters** The performance of a generative model is highly dependent on its training data and procedure. Without these details, it is difficult to assess the validity of the benchmarks or to reproduce the work. The potential for data leakage between training and evaluation sets is a particular concern.
+  - **Resolution test** Provide a detailed description of the training data, including statistics, filtering criteria, and the exact protocol for the hierarchical training. Clarify how evaluation benchmarks were constructed to avoid overlap with the training set.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison to prior work
+  - **Claim pointer** "RFD3 outperforms previous methods [1, 2, 3] in silico on a wide range of protein-protein binding, protein-DNA binding, protein-small molecule binding, and enzyme design tasks"
+  - **Evidence pointer** Section 3, Figures 3, S2, S3, S5, S6; location not provided
+  - **Concern** The comparison to prior methods is stated but not substantiated. It is unclear if the same evaluation criteria were used for all methods, if the baselines were run under identical conditions, or if the comparison is apples-to-apples. The claim of "outperforms" is too broad without specific data.
+  - **Why it matters** A fair and rigorous comparison to the state of the art is essential to establish the value of the new method. The current text does not allow the reader to judge whether the improvement is real, significant, or an artifact of different evaluation protocols.
+  - **Resolution test** Present a clear comparison table with the same metrics for all methods, describe the exact evaluation protocol, and discuss any differences in how the methods were applied.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "RFD3 achieves improved performance compared to prior approaches on a range of in silico benchmarks with one tenth the computational cost." The phrase "one tenth the computational cost" is vague. It is unclear if this refers to training cost, inference cost, or both, and what the exact comparison point is.
+  - **Required correction** Specify the computational cost metric (e.g., GPU hours for training, inference time per design) and the baseline method it is compared against.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2
+  - **Evidence pointer** Section 2; location not provided
+  - **Issue** The text mentions "we adopted a transformer-based U-Net architecture, similarly to the AlphaFold3 diffusion module" and introduces "two new architectural elements for feature exchange." The description is high-level and lacks specific details on hyperparameters, layer counts, attention heads, etc.
+  - **Required correction** Provide a more detailed architectural description or a clear reference to a supplementary methods section where these details are available.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1, Figure 3; location not provided
+  - **Issue** The text reports "on average 8.2 vs 1.4 unique successful clusters for RFD3 and RFD1, respectively." The number of replicates or the variance across the five targets is not reported.
+  - **Required correction** Report the standard deviation or range for these averages, and specify the number of independent runs.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2, Figure 3b, S3; location not provided
+  - **Issue** The pass rates for DNA binder design are given as percentages (8.67% for monomeric, 6.67% for dimeric), but the total number of designs is not stated.
+  - **Required correction** State the total number of designs for each category to provide context for the pass rates.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Section 3.3, Figure 3c; location not provided
+  - **Issue** The text mentions "lower binding energies by Rosetta ΔΔG calculations" but does not specify the units or the comparison baseline.
+  - **Required correction** Specify the units of ΔΔG and clarify what the binding energies are compared against (e.g., a set of decoy designs or a reference protein).
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4; location not provided
+  - **Issue** The experimental section mentions "35 multi-turnover designs" for the enzyme, but the total number of designs screened is given as 190. The criteria for classifying a design as "multi-turnover" are not defined.
+  - **Required correction** Define "multi-turnover" and provide the full distribution of activities for all screened designs.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Section 2
+  - **Evidence pointer** Section 2; location not provided
+  - **Issue** The text states "we used classifier-free guidance, originally developed in the context of image diffusion." The implementation details for applying this to the all-atom diffusion process are not described.
+  - **Required correction** Briefly describe how classifier-free guidance is implemented in this context, or refer to a methods section.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Section 3.4, Figure S5c; location not provided
+  - **Issue** The text states "RFD3 outperforms RFD2 on 37 of the 41 cases (90%)" for the AME benchmark. The metric used for this comparison is not specified.
+  - **Required correction** Specify the metric used for the AME benchmark comparison (e.g., success rate, RMSD, confidence score).
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of quantitative benchmark data.
+  - R1-M2: Insufficient experimental detail and limited experimental success.
+  - R1-M3: Incomplete description of training data and procedure.
+  - R1-M4: Unsubstantiated comparison to prior methods.
+- **Assessment against Nature-style criteria**
+  - **Originality** High. The all-atom diffusion approach with flexible conditioning on non-protein components is a novel and significant conceptual advance over existing residue-level or hybrid methods.
+  - **Scientific importance** Potentially high. If the claims are substantiated, this could be a foundational platform for designing a wide range of protein functions, including binders, enzymes, and nucleic acid interacting proteins.
+  - **Interdisciplinary readership** Moderate to high. The work bridges machine learning, structural biology, and biochemistry. The potential applications in biotechnology and medicine would be of interest to a broad audience.
+  - **Technical soundness** Currently unverifiable. The architectural choices are plausible, but the lack of data and methodological detail prevents a rigorous assessment of technical soundness.
+  - **Readability for nonspecialists** The main text is generally well-written and accessible, but the technical sections assume familiarity with diffusion models and protein design. The abstract is clear and compelling.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual advance and potential impact are significant, but the core quantitative claims and experimental validation are not verifiable from the supplied text. The authors should be encouraged to resubmit with the full figures, tables, and supplementary data, along with a more detailed methods section.
+
+## Risk / unsupported claims
+- The claim of "improved performance compared to prior approaches" is unsupported without the actual benchmark data.
+- The claim of "broad applicability" is unsupported by the limited experimental data presented.
+- The specific improvements in DNA binder affinity and enzyme activity over prior designs are not quantified in the text.
+- The claim of "one tenth the computational cost" is vague and unverifiable without a specific metric and baseline.
+- The statement that RFD3 "surpasses previous methods" for small molecule binders is unsupported without the comparison data.
+- The claim that the model can "jointly sample the protein structure and the target ligand geometry" is presented as a feature, but its success rate and reliability are not quantified.

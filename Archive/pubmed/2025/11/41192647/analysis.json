@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41192647",
+  "title": "Integrative bioinformatics and transcriptomic analysis identifies biomarkers in Polycystic Ovary Syndrome through machine learning approach.",
+  "authors": "Senthilkumar, Harshini; Arumugam, Mohanapriya",
+  "journal": "The Journal of steroid biochemistry and molecular biology",
+  "published_date": "2025-11-06",
+  "window": {
+    "start": "2025-11-03",
+    "end": "2025-11-09"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究通过转录组差异表达和机器学习识别PCOS生物标志物，仅提及转录因子作为调控网络节点，未涉及蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Polycystic Ovary Syndrome (PCOS) is a common endocrine condition that affects women of reproductive age. The study used high-throughput sequencing to profile gene expression in PCOS and control samples. The sequenced reads were quality assessed and aligned to the human reference genome hg38 using FastQC and the Hisat2 aligner. The R software \"DESeq2\" identified 1193 differentially expressed genes (DEGs) in SRP224633 and 82 DEGs in SRP353681. Notably, 8 DEGs were shared by the two datasets, and a total of 1267 DEGs were found. GO analysis revealed that DEGs in SRP224633 were enriched in biological processes related to immune response and cell activation, whereas DEGs in SRP353681 were associated with response to external stimuli and immune processes. Pathway analysis highlighted the involvement of chemokine signaling receptor, and cytokine-cytokine receptor interaction pathways in both datasets. The STRING database was used to evaluate protein-protein interaction (PPI) networks. Hub genes like IL1B, PTPRC, ITGAM, TYROBP, ITGB2, FCGR3A, CCR7, SYK, TLR2, FCGR3B were identified as crucial nodes using Cytohubba plugins in Cytoscape, highlighting their potential role in PCOS pathogenesis. Regulatory networks discovered miRNAs such as has-mir-34a-5p, hsa-miR-26a-5p, has-let-7b-5p and transcription factors such as SP1, RUNX1, ER as possible regulators of target genes implicated in PCOS pathogenesis. LASSO regression and ROC analysis indicated certain hub genes, such as IL1B, PTPRC, ITGB2, FCGR3A, CCR7, FCGR3B as relevant biomarkers due to their high coefficients, emphasizing their significance in PCOS. CCR7, FCGR3A, FCGR3B, and ITGB2 have been discovered as novel genes with significant potential as PCOS biomarkers. Our research adds to a deeper knowledge of PCOS at the molecular level by offering an extensive understanding of the etiological reasons and molecular mechanisms. The discovered DEGs, pathways, and regulatory networks and novel biomarker are promising targets for future studies and treatments in PCOS management.",
+  "abstract_zh": "多囊卵巢综合征（Polycystic Ovary Syndrome, PCOS）是一种影响育龄女性的常见内分泌疾病。本研究采用高通量测序技术，对PCOS样本和对照样本中的基因表达进行了分析。测序读段经过质量评估，并使用FastQC和Hisat2比对工具将其比对至人类参考基因组hg38。R软件“DESeq2”在SRP224633中鉴定出1193个差异表达基因（differentially expressed genes, DEGs），在SRP353681中鉴定出82个DEGs。值得注意的是，两个数据集共享8个DEGs，共发现1267个DEGs。GO分析显示，SRP224633中的DEGs富集于与免疫反应和细胞激活相关的生物学过程，而SRP353681中的DEGs则与对外部刺激的反应和免疫过程相关。通路分析强调，趋化因子信号受体和细胞因子-细胞因子受体相互作用通路在两个数据集中均有所涉及。使用STRING数据库评估了蛋白质-蛋白质相互作用（protein-protein interaction, PPI）网络。通过Cytoscape中的Cytohubba插件，鉴定出如IL1B、PTPRC、ITGAM、TYROBP、ITGB2、FCGR3A、CCR7、SYK、TLR2、FCGR3B等枢纽基因作为关键节点，突显了它们在PCOS发病机制中的潜在作用。调控网络发现，如has-mir-34a-5p、hsa-miR-26a-5p、has-let-7b-5p等miRNA，以及SP1、RUNX1、ER等转录因子，可能是PCOS发病机制中靶基因的潜在调控因子。LASSO回归和ROC分析表明，某些枢纽基因，如IL1B、PTPRC、ITGB2、FCGR3A、CCR7、FCGR3B，因其高系数而被视为相关生物标志物，强调了它们在PCOS中的重要性。CCR7、FCGR3A、FCGR3B和ITGB2被发现有作为PCOS生物标志物的显著潜力，属于新基因。我们的研究通过提供对病因和分子机制的广泛理解，加深了在分子水平上对PCOS的认识。所发现的DEGs、通路、调控网络及新型生物标志物，为未来PCOS管理中的研究和治疗提供了有前景的靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41192647/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41192647/",
+  "paper_page_path": "papers/pubmed/41192647/index.html"
+}

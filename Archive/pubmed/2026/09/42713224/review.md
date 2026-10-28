@@ -1,101 +1,107 @@
 ## Review setup
-- **Input scope** Full manuscript (including abstract, introduction, experimental, results and discussion, conclusions, and supplementary information reference)
-- **Assessment boundary** Scientific content, methodology, data interpretation, and conclusions as presented in the manuscript
-- **Shared manuscript claim summary** The authors claim that multivalent cations stabilize DNA duplexes beyond simple charge neutralization through a mechanism involving minor-groove clamping, and that this stabilization increases monotonically with cation valency, as demonstrated by force-induced unpeeling experiments and all-atom molecular dynamics simulations.
-- **Visible evidence base** Abstract, Introduction, Experimental (HRM, MT, MD), Results and Discussion (Figures 1-5, Tables S1), Conclusions, Author contributions, Conflicts of interest, Data availability, Acknowledgements
-- **Missing materials affecting confidence** Supplementary Information (SI) is referenced but not provided for review; this includes Method S1, Method S2, Figures S1-S9, and Table S1, which are essential for evaluating experimental details, simulation protocols, and supporting data.
+- **Input scope** Full manuscript text including abstract, introduction, experimental methods, results, discussion, conclusions, and supplementary figure references.
+- **Assessment boundary** Scientific validity, methodological soundness, interpretation of results, and alignment with claims made in the abstract and conclusions. No assessment of formatting or editorial style beyond readability.
+- **Shared manuscript claim summary** The authors claim that multivalent cations stabilize DNA duplexes beyond simple charge neutralization, with stability first increasing then decreasing with cation concentration, and maximum stability increasing with cation valence. They propose a mechanism involving cation embedding in the DNA minor groove and interstrand clamping, supported by single-molecule magnetic tweezers experiments and all-atom molecular dynamics simulations.
+- **Visible evidence base** Experimental data from HRM assays (dye-based and probe-based), magnetic tweezers force-unpeeling measurements, and MD simulation analyses including groove widths, clamping fractions, and ion distributions. Figures referenced include Fig. 1–5, Tables S1, and supplementary figures S1–S9.
+- **Missing materials affecting confidence** The full supplementary information (SI) is not provided, including Method S1, Method S2, Fig. S1–S9, and Table S1. Raw data files, simulation trajectories, and analysis scripts are not available. The manuscript states data are in the SI but the SI itself is not part of the provided material.
 
 ## Reviewer
-- **Overall assessment** This manuscript presents a compelling single-molecule approach to quantify DNA duplex stability in the presence of multivalent cations, overcoming the limitations of bulk melting assays that are confounded by DNA condensation. The combination of magnetic tweezers experiments and all-atom MD simulations provides a powerful framework for understanding the valency-dependent stabilization of DNA. The observation of minor-groove clamping as a distinct mechanism beyond charge screening is novel and potentially significant. However, the manuscript suffers from several technical weaknesses, particularly in the MD simulation analysis, the lack of error propagation in thermodynamic calculations, and the absence of key control experiments. The conclusions are partially supported but require substantial strengthening before the case is fully established.
-- **Who would be interested in the results, and why** Researchers in biophysics, nucleic acid chemistry, and molecular biology would be interested because the work provides a quantitative framework for understanding how multivalent ions (e.g., polyamines, protamine) modulate DNA stability, which is relevant to genome packaging, DNA-protein interactions, and the design of ion-responsive DNA nanostructures. The methodological advance of using force-induced unpeeling to bypass condensation effects is of broad interest to the single-molecule community.
-- **Major strengths** 1. The use of magnetic tweezers to measure DNA unpeeling at equilibrium under high tension is a clever and effective way to circumvent DNA condensation, a long-standing obstacle in studying multivalent cation effects. 2. The systematic study across a wide range of cation valencies (1+ to 21+) provides a comprehensive dataset that reveals a clear monotonic trend in maximum stabilization. 3. The MD simulations offer a plausible structural mechanism (minor-groove clamping) that goes beyond simple electrostatic screening, providing a molecular-level interpretation for the experimental observations.
-- **Major Concerns**
-    - **Concern ID** R1-M1
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Data analysis and interpretation
-    - **Claim pointer** The authors claim that the maximum DNA duplex stability (ΔGmaxchem) increases monotonically with cation valency, with values ranging from 3.33 kBT/bp for Na+ to 3.98 kBT/bp for protamine.
-    - **Evidence pointer** Figure 3C, Results and discussion section
-    - **Concern** The calculation of ΔGchem from the equilibrium unpeeling force (Fe) and extension change (Δl) relies on the equation ΔG = ΔGchem - Fe·Δl = 0. The authors report ΔGmaxchem values with high precision (e.g., 3.33 kBT/bp) but do not provide error bars or confidence intervals for these values. The uncertainty in Fe (from Figure 2D) and Δl (from Figure 2E) must be propagated to assess whether the differences between adjacent valencies (e.g., Na+ vs. Ca2+, or PLL6+ vs. protamine) are statistically significant. Without error analysis, the claim of a monotonic increase is not rigorously supported.
-    - **Why it matters** The central conclusion of the paper—that DNA duplex stability increases monotonically with cation valency—depends entirely on the precision and accuracy of these ΔGchem values. If the differences are within experimental noise, the claim is invalidated.
-    - **Resolution test** Provide error bars for ΔGchem values in Figure 3C, calculated by propagating uncertainties from Fe and Δl measurements (e.g., using standard deviations from multiple independent experiments or bootstrapping). Perform a statistical test (e.g., t-test or ANOVA) to confirm that the differences between successive valencies are significant (p < 0.05).
+- **Overall assessment** The manuscript addresses a significant and timely question in nucleic acid biophysics: how multivalent cations modulate DNA duplex stability in regimes where condensation complicates traditional measurements. The combination of single-molecule force spectroscopy with all-atom simulations is appropriate and potentially powerful. The central observation that maximum duplex stability increases monotonically with cation valence is interesting and, if robust, would constitute a useful contribution. However, several technical and interpretive issues need to be resolved before the case is fully established. The attribution of the stability increase to minor-groove clamping is plausible but not definitively proven by the presented data, and the quantitative framework derived from the Rouzina–Bloomfield model requires more careful justification and error analysis. The manuscript is generally well written and accessible, but some methodological details are insufficiently described in the main text.
+- **Who would be interested in the results, and why** Researchers in nucleic acid biophysics, single-molecule mechanics, DNA nanotechnology, and chromatin biology would find these results relevant. The work provides a methodological approach for measuring DNA stability under condensing conditions and offers mechanistic hypotheses that could inform the design of ion-responsive DNA-based materials and improve understanding of intracellular ionic regulation of genome stability.
+- **Major strengths** The experimental design cleverly circumvents condensation artifacts by applying high tension during unpeeling, enabling equilibrium measurements under conditions where bulk methods fail. The systematic variation of cation valence from monovalent to a highly charged protein provides a clear trend. The MD simulations complement the experiments and offer a structural hypothesis for the observed valence dependence. The manuscript is clearly written and the figures appear well organized.
+- **Major Concerns** See detailed items below.
+- **Minor Comments** See detailed items below.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative free energy extraction), R1-M2 (simulation concentration selection), R1-M3 (mechanistic attribution), R1-M4 (statistical robustness).
+- **Assessment against Nature-style criteria** Originality: The approach of using force-unpeeling to avoid condensation is creative, though the underlying physics of cation–DNA interactions is well studied. Scientific importance: The question of how multivalent ions affect DNA stability is of broad relevance, and the proposed clamping mechanism could have implications for understanding chromatin and DNA packaging. Interdisciplinary readership: The work bridges single-molecule biophysics, computational chemistry, and nucleic acid biology, making it potentially interesting to a broad audience. Technical soundness: The experimental methodology is sound in principle, but the quantitative analysis and simulation design have weaknesses that need addressing. Readability for nonspecialists: The manuscript is largely accessible, though some sections assume familiarity with single-molecule techniques and MD simulation conventions.
+- **Recommendation posture** Supportive if technical concerns are resolved, particularly regarding the quantitative free energy extraction, simulation concentration choices, and statistical robustness of the key claims.
 
-    - **Concern ID** R1-M2
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Methodology and controls
-    - **Claim pointer** The authors claim that the force-induced unpeeling approach prevents DNA condensation and allows measurement of intrinsic duplex stability.
-    - **Evidence pointer** Figure 2, Results and discussion section
-    - **Concern** The manuscript does not provide direct evidence that DNA condensation is fully prevented under the high-tension conditions used. The authors state that "the applied force can prevent DNA condensation," but no control experiments are shown to verify this. For example, does the extension-force curve show any hysteresis or signatures of condensation (e.g., abrupt shortening) at high cation concentrations? The authors should demonstrate that the unpeeling force measurements are not influenced by residual condensation or aggregation, especially at the highest concentrations of protamine and PLL6+.
-    - **Why it matters** If condensation is not fully suppressed, the measured unpeeling forces and derived ΔGchem values could be contaminated by contributions from inter-duplex interactions or higher-order structures, undermining the claim that the results reflect intrinsic duplex stability.
-    - **Resolution test** Include control experiments showing that the extension-force curves are reversible and lack hysteresis when cycling through the unpeeling force range at the highest cation concentrations tested. Alternatively, show that the unpeeling force is independent of DNA tether density or the presence of free DNA in solution under these conditions.
+### Major Concerns
 
-    - **Concern ID** R1-M3
-    - **Severity** Major
-    - **Blocking** No
-    - **Axis** Simulation analysis and interpretation
-    - **Claim pointer** The authors claim that higher-valent cations preferentially embed in the minor groove of DNA and clamp the minor groove, thereby stabilizing the helix more efficiently.
-    - **Evidence pointer** Figure 5, Results and discussion section
-    - **Concern** The MD simulation analysis defines "clamping ions" as those within 6 Å of both DNA strands. This distance criterion is arbitrary and may not capture the true bridging interaction. Furthermore, the authors classify clamping ions as minor- or major-groove based on their location, but the method for determining groove location is not described in sufficient detail. The fraction of clamping cations for PLL6+ (0.94 ± 0.04) and protamine (0.97 ± 0.02) is extremely high, suggesting that nearly all bound cations are clamping. This seems physically implausible for a large, flexible peptide like protamine, which could bind in multiple modes. The authors should provide a more rigorous definition of clamping and validate it with additional metrics (e.g., hydrogen bonding, ion-DNA contact lifetimes).
-    - **Why it matters** The structural mechanism of minor-groove clamping is a key claim of the paper. If the definition of clamping is too permissive or the classification is ambiguous, the mechanistic interpretation may be incorrect or overstated.
-    - **Resolution test** Provide a detailed description of the groove classification method. Re-analyze the clamping fraction using a stricter distance criterion (e.g., 4 Å) or a contact-based definition (e.g., ion within 3.5 Å of atoms from both strands). Include analysis of ion residence times or binding free energies to support the claim that clamping is a stable, stabilizing interaction.
+- **Concern ID** R1-M1
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Quantitative analysis
+- **Claim pointer** The authors claim to determine the chemical free energy change of DNA duplex dissociation (ΔGchem) from measured unpeeling forces using the Rouzina–Bloomfield framework, and report maximum values of 3.33 kBT/bp for Na+ increasing to 3.98 kBT/bp for protamine.
+- **Evidence pointer** Results and discussion, Fig. 3A–C, Eq. 1
+- **Concern** The extraction of ΔGchem from the measured unpeeling force relies on Eq. 1, but the derivation and assumptions of this framework are not fully explained in the main text. The relationship between the applied force, the measured extension change (Δl), and the chemical free energy is nontrivial, especially for a heterogeneous sequence with two GC-content segments. The manuscript does not specify how Δl is averaged over the sequence, how the 21-bp GC island affects the calculation, or how the force-extension behavior of ssDNA and dsDNA is modeled. Additionally, the reported ΔGchem values are presented without error bars or confidence intervals, making it impossible to assess whether the differences between cations are statistically significant.
+- **Why it matters** The central quantitative claim of the paper, that maximum duplex stability increases with cation valence, depends entirely on the accuracy of this free energy extraction. If the framework is misapplied or the uncertainties are large, the monotonic trend could be an artifact.
+- **Resolution test** Provide a detailed derivation or citation for the Rouzina–Bloomfield framework as applied here, including how Δl is determined for each force cycle and how sequence heterogeneity is handled. Report standard errors or confidence intervals for ΔGchem values, ideally from multiple independent tethers and force cycles. Show that the extracted ΔGchem is insensitive to reasonable variations in the assumed force-extension models.
 
-    - **Concern ID** R1-M4
-    - **Severity** Major
-    - **Blocking** No
-    - **Axis** Data completeness and reproducibility
-    - **Claim pointer** The authors claim that the unpeeling force exhibits a non-monotonic dependence on cation concentration, with a maximum at the charge inversion threshold.
-    - **Evidence pointer** Figure 2D, Results and discussion section
-    - **Concern** The manuscript presents only a single representative dataset for each cation in Figure 2D. No information is provided on the number of independent experiments (e.g., number of DNA tethers, number of beads, number of experimental replicates) or the variability between measurements. The error bars in Figure 2D are not defined (e.g., standard deviation, standard error, or confidence interval). Without this information, the reproducibility and reliability of the non-monotonic trend cannot be assessed.
-    - **Why it matters** The non-monotonic dependence is a critical observation that links the stabilization to charge inversion. If the data are from a single experiment or show high variability, the conclusion is not robust.
-    - **Resolution test** Clearly state the number of independent experiments (N) and the number of tethers measured for each condition. Define the error bars in Figure 2D and provide a statistical analysis (e.g., mean ± SD) to demonstrate that the non-monotonic trend is reproducible and significant.
+- **Concern ID** R1-M2
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Simulation design
+- **Claim pointer** The authors state that MD simulations were performed at "near-neutralization concentration for each cation" and list 1000 mM Na+, 100 mM Ca2+, 2 mM SPD3+, 0.1 mM PLL6+, and 1 µM protamine.
+- **Evidence pointer** Experimental section, MD experiments; Results and discussion, Fig. 4A–D
+- **Concern** The choice of concentrations is not justified quantitatively. The authors claim these are "near-neutralization" concentrations, but no calculation or reference is provided to show that these concentrations correspond to similar degrees of DNA charge neutralization. For Na+ at 1000 mM, the Debye length is very short and the ionic atmosphere is quite different from that at 1 µM protamine, where the ionic strength is negligible. Comparing structural features such as groove widths and clamping fractions across such vastly different ionic conditions may conflate concentration effects with valence effects. Additionally, the protamine concentration of 1 µM is far below the other concentrations, and it is unclear whether the simulation box contains enough protamine molecules to represent a meaningful ensemble.
+- **Why it matters** The mechanistic conclusion that higher-valent cations preferentially clamp the minor groove is based on comparisons across these simulations. If the concentrations are not matched in terms of charge neutralization, the observed differences in clamping could be due to differences in ion occupancy rather than valence per se.
+- **Resolution test** Provide a quantitative definition of "near-neutralization" and show that the chosen concentrations achieve similar fractional charge neutralization of the DNA, for example by computing the ion atmosphere from the simulations. Alternatively, perform simulations at matched ionic strengths or matched degrees of neutralization to isolate the effect of valence. Justify the protamine concentration and describe how many protamine molecules are present in the simulation box.
 
-- **Minor Comments**
-    - **Concern ID** R1-m1
-    - **Severity** Minor
-    - **Axis** Clarity and presentation
-    - **Affected element** Figure 1
-    - **Evidence pointer** Figure 1C and 1D
-    - **Issue** The melting curves in Figure 1C and 1D are difficult to interpret because the y-axis (fluorescence) is not normalized. The flattening of the curves at high cation concentrations could be due to dye exclusion or quenching rather than condensation.
-    - **Required correction** Normalize the fluorescence curves to the maximum and minimum values for each condition, or provide a control showing that the dye fluorescence is not directly affected by the cations at the concentrations used.
+- **Concern ID** R1-M3
+- **Severity** Major
+- **Blocking** No
+- **Axis** Mechanistic interpretation
+- **Claim pointer** The authors claim that "higher-valent cations preferentially embed in the minor groove of DNA and clamp the minor groove, in contrast to the major-groove clamping reported for RNA, thereby stabilizing the helix more efficiently."
+- **Evidence pointer** Results and discussion, Fig. 5A and B; Table S1
+- **Concern** The causal link between minor-groove clamping and increased duplex stability is inferred from correlation: simulations show more clamping and experiments show higher stability for higher-valent cations. However, the manuscript does not demonstrate that the clamping is the cause of the increased stability. Other factors, such as changes in water activity, ion correlation effects, or sequence-specific binding, could also contribute. The comparison to RNA is made without direct experimental or simulation evidence in this work, relying on prior reports. The statement that clamping "stabilizes the helix more efficiently" is not supported by a quantitative comparison of stabilization per bound ion or per clamping event.
+- **Why it matters** The proposed mechanism is a key part of the paper's novelty. If the mechanism is not convincingly established, the paper becomes primarily a phenomenological report of valence-dependent stability, which is less impactful.
+- **Resolution test** Perform additional analyses to test causality, such as mutating the DNA sequence to alter minor-groove geometry, or using simulations with modified cations that cannot clamp. Quantify the energetic contribution of clamping contacts to the overall binding free energy. Provide a direct comparison with RNA under the same simulation conditions to support the claimed contrast.
 
-    - **Concern ID** R1-m2
-    - **Severity** Minor
-    - **Axis** Methodology
-    - **Affected element** Experimental section (MT)
-    - **Evidence pointer** Figure 2C, Experimental section
-    - **Issue** The description of the force-cycling protocol is unclear. The authors state that the force is increased incrementally by ~0.1 pN in each cycle, but it is not specified how the force is calibrated or how the equilibrium unpeeling force is determined from the hopping kinetics.
-    - **Required correction** Provide a more detailed description of the force calibration method (e.g., based on bead Brownian motion) and the algorithm used to identify the equilibrium unpeeling force from the extension variance or hopping kinetics.
+- **Concern ID** R1-M4
+- **Severity** Major
+- **Blocking** No
+- **Axis** Statistical robustness
+- **Claim pointer** The authors report unpeeling forces and derived free energies for six different cations, with the claim that maximum stability increases monotonically with valence.
+- **Evidence pointer** Results and discussion, Fig. 2D, Fig. 3B and C
+- **Concern** The number of independent measurements (tethers, molecules, force cycles) is not reported. The representative trace in Fig. 2C shows a single example, and it is unclear how many molecules were measured per condition. The differences in Fmaxe between Na+ (64.52 pN) and Ca2+ (65.21 pN) are small (about 1%), and without error bars or statistical tests, it is not possible to determine whether these differences are significant. The monotonic trend across six cations could be driven by a few outliers.
+- **Why it matters** The main experimental claim is a quantitative trend. Without statistical rigor, the trend may not be reproducible or may not reflect a real physical effect.
+- **Resolution test** Report the number of independent measurements for each condition, with standard errors or confidence intervals for Fmaxe and ΔGchem. Perform appropriate statistical tests (e.g., ANOVA or pairwise comparisons) to support the claim of a monotonic increase with valence.
 
-    - **Concern ID** R1-m3
-    - **Severity** Minor
-    - **Axis** Data interpretation
-    - **Affected element** Results and discussion section
-    - **Evidence pointer** Figure 3A
-    - **Issue** The authors attribute the non-monotonic dependence of ΔGchem on cation concentration to charge inversion. However, the charge inversion concentrations are cited from previous work (refs. 18, 57) and are not directly measured in this study. The agreement between the reversal concentrations in Figure 2D and the reported charge inversion thresholds is noted but not quantitatively validated.
-    - **Required correction** Either directly measure the zeta potential or electrophoretic mobility of the DNA under the experimental conditions to confirm charge inversion, or explicitly state that the attribution to charge inversion is based on prior literature and is a hypothesis that requires further testing.
+### Minor Comments
 
-    - **Concern ID** R1-m4
-    - **Severity** Minor
-    - **Axis** Simulation analysis
-    - **Affected element** MD simulation section
-    - **Evidence pointer** Figure 5A
-    - **Issue** The fraction of total clamping cations for Na+ and Ca2+ is reported as 0.15 ± 0.06 and 0.20 ± 0.06, respectively. However, the authors state that "Na+ and Ca2+ cations in the major groove are negligible." This is inconsistent because the clamping fraction for these ions is non-zero, implying some major-groove clamping must occur.
-    - **Required correction** Clarify the statement. If the major-groove clamping fraction is negligible, then the total clamping fraction should equal the minor-groove clamping fraction. The data show that for Na+, the total clamping fraction (0.15) equals the minor-groove fraction (0.15), which is consistent. For Ca2+, the total (0.20) equals the minor-groove fraction (0.20), also consistent. The text should be revised to avoid the misleading statement.
+- **Concern ID** R1-m1
+- **Severity** Minor
+- **Axis** Methodological clarity
+- **Affected element** Experimental section, MT experiments
+- **Evidence pointer** Fig. 2A and B; Method S1 (not provided)
+- **Issue** The description of the DNA construct and the tethering geometry is complex and difficult to follow. The role of the 21-bp GC island and the rationale for the two-segment design are not clearly explained in the main text.
+- **Required correction** Provide a clearer schematic or step-by-step description of the construct and how the force is applied to the duplex end. Move some details from the SI to the main text if they are essential for understanding the experiment.
 
-- **Technical failings that need to be addressed before the case is established** R1-M1 (error propagation), R1-M2 (condensation control), R1-M3 (simulation analysis rigor), R1-M4 (reproducibility)
+- **Concern ID** R1-m2
+- **Severity** Minor
+- **Axis** Data presentation
+- **Affected element** Fig. 3A–C
+- **Evidence pointer** Results and discussion, Fig. 3
+- **Issue** The figures show trends but do not include individual data points or error bars. The reader cannot assess the scatter or the reliability of the reported values.
+- **Required correction** Add error bars or shaded confidence intervals to all panels in Fig. 3, and consider showing individual data points as overlaid scatter.
 
-- **Assessment against Nature-style criteria** 
-    - **Originality**: High. The use of force-induced unpeeling to bypass condensation and the identification of minor-groove clamping as a distinct stabilization mechanism are novel contributions.
-    - **Scientific importance**: High. The work addresses a fundamental question in nucleic acid biophysics and has implications for understanding genome organization, DNA-protein interactions, and the design of DNA-based materials.
-    - **Interdisciplinary readership**: Moderate to high. The topic is of interest to biophysicists, biochemists, and materials scientists, but the technical details of the single-molecule and simulation methods may limit accessibility for a broader biological audience.
-    - **Technical soundness**: Moderate. The experimental design is clever, but the analysis is incomplete (lack of error propagation, missing controls) and the simulation analysis requires more rigorous validation.
-    - **Readability for nonspecialists**: Good. The manuscript is well-written and the main findings are clearly stated, though some sections (e.g., the thermodynamic derivation) could be simplified for a broader audience.
+- **Concern ID** R1-m3
+- **Severity** Minor
+- **Axis** Literature context
+- **Affected element** Introduction, Results and discussion
+- **Evidence pointer** Introduction, paragraphs 1–2; Results and discussion, final paragraph
+- **Issue** The discussion of prior work on polyamine–DNA interactions is brief and does not fully contextualize the novelty of the current findings. The claim that this is the first single-molecule measurement of DNA stability under condensing conditions is not explicitly stated but implied.
+- **Required correction** Add a more thorough comparison with prior single-molecule studies of DNA melting and with bulk studies of polyamine effects, clarifying what is new here.
 
-- **Recommendation posture** Supportive if technical concerns are resolved. The core idea and experimental approach are strong, but the manuscript requires substantial revisions to address the concerns about data analysis, controls, and simulation rigor before the conclusions can be considered fully established.
+- **Concern ID** R1-m4
+- **Severity** Minor
+- **Axis** Terminology
+- **Affected element** Abstract, Results and discussion
+- **Evidence pointer** Abstract, "clamp the minor groove"; Results and discussion, "clamping contacts"
+- **Issue** The term "clamping" is used to describe cation-mediated interstrand contacts, but it is not formally defined. It is unclear whether this refers to a specific geometric arrangement or a general electrostatic bridging.
+- **Required correction** Define "clamping" operationally in the methods or results section, with a clear criterion based on distances or contacts.
+
+- **Concern ID** R1-m5
+- **Severity** Minor
+- **Axis** Reproducibility
+- **Affected element** Experimental section, HRM experiments
+- **Evidence pointer** Experimental section, HRM experiments
+- **Issue** The HRM experiments are described briefly, and the concentration ranges for each cation are not specified in the main text. The reader cannot reproduce the experiments without the SI.
+- **Required correction** Provide the concentration ranges for each cation in the main text or a table, and specify the number of replicates.
 
 ## Risk / unsupported claims
-- The claim that the maximum DNA duplex stability increases monotonically with cation valency is not fully supported due to the lack of error propagation in ΔGchem values (R1-M1).
-- The claim that force-induced unpeeling fully prevents DNA condensation is not supported by direct experimental evidence (R1-M2).
-- The claim that minor-groove clamping is the primary mechanism for stabilization by higher-valent cations is based on a simulation analysis that requires more rigorous validation (R1-M3).
-- The claim that the non-monotonic dependence of unpeeling force on cation concentration is due to charge inversion is based on literature correlations rather than direct measurements in this study (R1-m3).
+- The claim that maximum DNA duplex stability increases monotonically with cation valence is not statistically supported because no error bars or replicate numbers are provided for the magnetic tweezers measurements.
+- The claim that minor-groove clamping is the mechanistic cause of increased stability is not causally established; it is inferred from correlative simulation and experimental data.
+- The comparison with RNA major-groove clamping is made without direct evidence in this work and relies on prior reports that are not critically evaluated.
+- The statement that the approach provides an "intrinsic thermodynamic benchmark" is not fully justified, as the free energy extraction depends on model assumptions that are not validated.
+- The biological relevance claims in the discussion are speculative and not directly supported by the experimental data presented.

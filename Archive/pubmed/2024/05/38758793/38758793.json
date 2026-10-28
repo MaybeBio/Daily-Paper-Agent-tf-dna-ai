@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "38758793",
+    "doi": "10.1126/sciadv.adn0895",
+    "title": "Molecular mechanism of trehalose 6-phosphate inhibition of the plant metabolic sensor kinase SnRK1."
+  },
+  "content": {
+    "abstract": "SUCROSE-NON-FERMENTING1-RELATED PROTEIN KINASE1 (SnRK1), a central plant metabolic sensor kinase, phosphorylates its target proteins, triggering a global shift from anabolism to catabolism. Molecular modeling revealed that upon binding of KIN10 to GEMINIVIRUS REP-INTERACTING KINASE1 (GRIK1), KIN10's activation T-loop reorients into GRIK1's active site, enabling its phosphorylation and activation. Trehalose 6-phosphate (T6P) is a proxy for cellular sugar status and a potent inhibitor of SnRK1. T6P binds to KIN10, a SnRK1 catalytic subunit, weakening its affinity for GRIK1. Here, we investigate the molecular details of T6P inhibition of KIN10. Molecular dynamics simulations and in vitro phosphorylation assays identified and validated the T6P binding site on KIN10. Under high-sugar conditions, T6P binds to KIN10, blocking the reorientation of its activation loop and preventing its phosphorylation and activation by GRIK1. Under these conditions, SnRK1 maintains only basal activity levels, minimizing phosphorylation of its target proteins, thereby facilitating a general shift from catabolism to anabolism.",
+    "keywords": [],
+    "mesh_terms": [
+      "Arabidopsis/metabolism",
+      "*Arabidopsis Proteins/metabolism/genetics/antagonists & inhibitors/chemistry",
+      "Binding Sites",
+      "Molecular Dynamics Simulation",
+      "Phosphorylation",
+      "Protein Binding",
+      "*Protein Serine-Threonine Kinases/metabolism",
+      "*Sugar Phosphates/metabolism",
+      "Transcription Factors",
+      "*Trehalose/analogs & derivatives/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Blanford, Jantana",
+        "Zhai, Zhiyang",
+        "Baer, Marcel D",
+        "Guo, Gongrui",
+        "Liu, Hui",
+        "Liu, Qun",
+        "Raugei, Simone",
+        "Shanklin, John"
+      ],
+      "short_names": [
+        "Blanford J",
+        "Zhai Z",
+        "Baer MD",
+        "Guo G",
+        "Liu H",
+        "Liu Q",
+        "Raugei S",
+        "Shanklin J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8314-9289",
+        "ORCID: 0000-0003-3181-1773",
+        "ORCID: 0000-0001-5223-0447",
+        "ORCID: 0000-0001-8985-5870",
+        "ORCID: 0000-0003-1162-898X",
+        "ORCID: 0000-0001-9118-8480",
+        "ORCID: 0000-0002-6774-8043"
+      ],
+      "affiliations": [
+        "Department of Biology, Brookhaven National Laboratory, Upton, NY 11973, USA.",
+        "Department of Biology, Brookhaven National Laboratory, Upton, NY 11973, USA.",
+        "Physical and Computational Sciences Directorate, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "Department of Biology, Brookhaven National Laboratory, Upton, NY 11973, USA.",
+        "Department of Biology, Brookhaven National Laboratory, Upton, NY 11973, USA.",
+        "Department of Biology, Brookhaven National Laboratory, Upton, NY 11973, USA.",
+        "Physical and Computational Sciences Directorate, Pacific Northwest National Laboratory, Richland, WA 99354, USA.",
+        "Department of Biology, Brookhaven National Laboratory, Upton, NY 11973, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Blanford, Jantana",
+        "short_name": "Blanford J",
+        "identifiers": [
+          "0000-0001-8314-9289"
+        ],
+        "affiliations": [
+          "Department of Biology, Brookhaven National Laboratory, Upton, NY 11973, USA."
+        ]
+      },
+      {
+        "full_name": "Zhai, Zhiyang",
+        "short_name": "Zhai Z",
+        "identifiers": [
+          "0000-0003-3181-1773"
+        ],
+        "affiliations": [
+          "Department of Biology, Brookhaven National Laboratory, Upton, NY 11973, USA."
+        ]
+      },
+      {
+        "full_name": "Baer, Marcel D",
+        "short_name": "Baer MD",
+        "identifiers": [
+          "0000-0001-5223-0447"
+        ],
+        "affiliations": [
+          "Physical and Computational Sciences Directorate, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Guo, Gongrui",
+        "short_name": "Guo G",
+        "identifiers": [
+          "0000-0001-8985-5870"
+        ],
+        "affiliations": [
+          "Department of Biology, Brookhaven National Laboratory, Upton, NY 11973, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Hui",
+        "short_name": "Liu H",
+        "identifiers": [
+          "0000-0003-1162-898X"
+        ],
+        "affiliations": [
+          "Department of Biology, Brookhaven National Laboratory, Upton, NY 11973, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Qun",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Brookhaven National Laboratory, Upton, NY 11973, USA."
+        ]
+      },
+      {
+        "full_name": "Raugei, Simone",
+        "short_name": "Raugei S",
+        "identifiers": [
+          "0000-0001-9118-8480"
+        ],
+        "affiliations": [
+          "Physical and Computational Sciences Directorate, Pacific Northwest National Laboratory, Richland, WA 99354, USA."
+        ]
+      },
+      {
+        "full_name": "Shanklin, John",
+        "short_name": "Shanklin J",
+        "identifiers": [
+          "0000-0002-6774-8043"
+        ],
+        "affiliations": [
+          "Department of Biology, Brookhaven National Laboratory, Upton, NY 11973, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2024 May 17",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/17 18:42",
+    "fetched_at": "2026-09-29 20:16:20"
+  },
+  "links": {
+    "cites": [
+      "42687513",
+      "42564698",
+      "42368531",
+      "42024208",
+      "42013241",
+      "41898474",
+      "41828354",
+      "41514870",
+      "41470713",
+      "41454215",
+      "41420123",
+      "41312094",
+      "41308834",
+      "41160681",
+      "41147200",
+      "40922555",
+      "39948084"
+    ],
+    "refs": [
+      "34278794",
+      "34265844",
+      "33828577",
+      "33777087",
+      "32276986",
+      "31030062",
+      "30249634",
+      "28842550",
+      "28700101",
+      "28314829",
+      "27856705",
+      "27482078",
+      "27029354",
+      "25071807",
+      "24904600",
+      "24782522",
+      "24179127",
+      "23735508",
+      "22824207",
+      "21982300",
+      "21670224",
+      "21402798",
+      "20164192",
+      "19339507",
+      "19193861",
+      "19067573",
+      "17671505",
+      "17166759",
+      "16553896",
+      "15500472",
+      "15264254",
+      "14531054",
+      "12805596",
+      "12580598",
+      "11851922",
+      "10220464",
+      "9895674"
+    ],
+    "similar": [
+      "38758793",
+      "30249634",
+      "35306666",
+      "23735508",
+      "19193861",
+      "21753116",
+      "22247267",
+      "21402798",
+      "29114081",
+      "21670224",
+      "25723473",
+      "31393060",
+      "38590740",
+      "20056477",
+      "31439667",
+      "29584583",
+      "28403831",
+      "38580543",
+      "37936321",
+      "23100484",
+      "22058405",
+      "40708195",
+      "37748053",
+      "36376753",
+      "24084646",
+      "33550178",
+      "19339507",
+      "36683527",
+      "30078562",
+      "16046541",
+      "25929516",
+      "23257075",
+      "24453229",
+      "32799402",
+      "25202319",
+      "29094495",
+      "21534971",
+      "25271261",
+      "24762788",
+      "28263378",
+      "15181209",
+      "38593032",
+      "35060119",
+      "36725081",
+      "26642889",
+      "29766514",
+      "24744765",
+      "32843632",
+      "28783755",
+      "23393265",
+      "12748379",
+      "36365332",
+      "27908495",
+      "22855938",
+      "29437777",
+      "24990996",
+      "31615848",
+      "29192025",
+      "16771775",
+      "23617622",
+      "27482078",
+      "27943466",
+      "36050463",
+      "28818366",
+      "25736509",
+      "24498147",
+      "17434789",
+      "30753728",
+      "32259743",
+      "24645920",
+      "31123051",
+      "24179127",
+      "31120171",
+      "40329549",
+      "21394451",
+      "29945970",
+      "39708962",
+      "40638795",
+      "40922555",
+      "18931139",
+      "31478225",
+      "32981682",
+      "18426388",
+      "17041027",
+      "25120550",
+      "22303248",
+      "33005918",
+      "35708960",
+      "37584544",
+      "27936238",
+      "32218501",
+      "28981769",
+      "34504003",
+      "28314829",
+      "39909830",
+      "31125613",
+      "27545962",
+      "27029354",
+      "30006378",
+      "23551663"
+    ],
+    "review": [
+      "38758793",
+      "20056477",
+      "38580543",
+      "23100484",
+      "22058405",
+      "24453229",
+      "25202319",
+      "26642889",
+      "24744765",
+      "27482078",
+      "17434789",
+      "32259743",
+      "24645920",
+      "39708962",
+      "40922555",
+      "18426388",
+      "33005918",
+      "35708960"
+    ],
+    "pmc": [
+      "11100557"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.science.org/doi/10.1126/sciadv.adn0895?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/38758793.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38758793/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38758793",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

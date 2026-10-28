@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "36018808",
+    "doi": "10.1093/nar/gkac708",
+    "title": "DNAffinity: a machine-learning approach to predict DNA binding affinities of transcription factors."
+  },
+  "content": {
+    "abstract": "We present a physics-based machine learning approach to predict in vitro transcription factor binding affinities from structural and mechanical DNA properties directly derived from atomistic molecular dynamics simulations. The method is able to predict affinities obtained with techniques as different as uPBM, gcPBM and HT-SELEX with an excellent performance, much better than existing algorithms. Due to its nature, the method can be extended to epigenetic variants, mismatches, mutations, or any non-coding nucleobases. When complemented with chromatin structure information, our in vitro trained method provides also good estimates of in vivo binding sites in yeast.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism",
+      "Binding Sites",
+      "Protein Binding",
+      "*Machine Learning",
+      "DNA/chemistry",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Barissi, Sandro",
+        "Sala, Alba",
+        "Wieczor, Milosz",
+        "Battistini, Federica",
+        "Orozco, Modesto"
+      ],
+      "short_names": [
+        "Barissi S",
+        "Sala A",
+        "Wieczor M",
+        "Battistini F",
+        "Orozco M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7544-0938"
+      ],
+      "affiliations": [
+        "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology. Baldiri Reixac 10-12, 08028 Barcelona, Spain.",
+        "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology. Baldiri Reixac 10-12, 08028 Barcelona, Spain.",
+        "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology. Baldiri Reixac 10-12, 08028 Barcelona, Spain.",
+        "Department of Physical Chemistry. Gdansk University of Technology, 80-233 Gdansk, Poland.",
+        "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology. Baldiri Reixac 10-12, 08028 Barcelona, Spain.",
+        "Department of Biochemistry and Molecular Biology. University of Barcelona, 08028 Barcelona, Spain.",
+        "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology. Baldiri Reixac 10-12, 08028 Barcelona, Spain.",
+        "Department of Biochemistry and Molecular Biology. University of Barcelona, 08028 Barcelona, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Barissi, Sandro",
+        "short_name": "Barissi S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology. Baldiri Reixac 10-12, 08028 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Sala, Alba",
+        "short_name": "Sala A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology. Baldiri Reixac 10-12, 08028 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Wieczór, Miłosz",
+        "short_name": "Wieczór M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology. Baldiri Reixac 10-12, 08028 Barcelona, Spain.",
+          "Department of Physical Chemistry. Gdansk University of Technology, 80-233 Gdańsk, Poland."
+        ]
+      },
+      {
+        "full_name": "Battistini, Federica",
+        "short_name": "Battistini F",
+        "identifiers": [
+          "0000-0002-7544-0938"
+        ],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology. Baldiri Reixac 10-12, 08028 Barcelona, Spain.",
+          "Department of Biochemistry and Molecular Biology. University of Barcelona, 08028 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Orozco, Modesto",
+        "short_name": "Orozco M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona). The Barcelona Institute of Science and Technology. Baldiri Reixac 10-12, 08028 Barcelona, Spain.",
+          "Department of Biochemistry and Molecular Biology. University of Barcelona, 08028 Barcelona, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2022 Sep 9",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/27 06:00",
+    "fetched_at": "2026-09-28 12:41:25"
+  },
+  "links": {
+    "cites": [
+      "42342657",
+      "42099803",
+      "41867886",
+      "41574495",
+      "41334807",
+      "40854823",
+      "40848288",
+      "40123340",
+      "39576589",
+      "39562160",
+      "39271116",
+      "39099843",
+      "39099835",
+      "38913855",
+      "38867914",
+      "38411091",
+      "38336958",
+      "38293094",
+      "36924867",
+      "36727436"
+    ],
+    "refs": [],
+    "similar": [
+      "36018808",
+      "25775564",
+      "19105805",
+      "31406384",
+      "28379348",
+      "35652477",
+      "26818008",
+      "28334224",
+      "21124945",
+      "19997485",
+      "28750606",
+      "28472398",
+      "28623580",
+      "30598073",
+      "25917392",
+      "24500199",
+      "16115317",
+      "26291518",
+      "35661591",
+      "33486697",
+      "11262933",
+      "28167566",
+      "34534646",
+      "25151169",
+      "30577740",
+      "29385521",
+      "31123959",
+      "17098775",
+      "31362726",
+      "25886979",
+      "22482953",
+      "21954606",
+      "29040720",
+      "22952610",
+      "30957840",
+      "17623704",
+      "28541376",
+      "18320590",
+      "17664657",
+      "30106688",
+      "16873464",
+      "21737419",
+      "32946398",
+      "34772949",
+      "34343165",
+      "23737141",
+      "22369349",
+      "24236298",
+      "23812975",
+      "31954798",
+      "18369429",
+      "17094254",
+      "27356864",
+      "17990512",
+      "23703214",
+      "30835229",
+      "34750410",
+      "25756377",
+      "31267468",
+      "28234893",
+      "33784978",
+      "12419259",
+      "19099508",
+      "32216745",
+      "26289072",
+      "32427471",
+      "15340913",
+      "21720957",
+      "31877249",
+      "25605483",
+      "36199141",
+      "28636361",
+      "26562774",
+      "19381536",
+      "33232622",
+      "29934750",
+      "27628341",
+      "34293212",
+      "29536446",
+      "12385991",
+      "12101405",
+      "31114870",
+      "30044963",
+      "28715997",
+      "36587424",
+      "38413844",
+      "37996755"
+    ],
+    "review": [
+      "36018808",
+      "35652477",
+      "25756377",
+      "19381536",
+      "30044963"
+    ],
+    "pmc": [
+      "9458447"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36018808/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/36018808",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36018808",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkac708",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

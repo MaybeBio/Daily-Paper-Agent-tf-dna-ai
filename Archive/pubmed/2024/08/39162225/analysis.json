@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39162225",
+  "title": "An integrated machine-learning model to predict nucleosome architecture.",
+  "authors": "Sala, Alba; Labrador, Mireia; Buitrago, Diana; De Jorge, Pau; Battistini, Federica; Heath, Isabelle Brun; Orozco, Modesto",
+  "journal": "Nucleic acids research",
+  "published_date": "2024-08-20",
+  "window": {
+    "start": "2024-08-19",
+    "end": "2024-08-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习结合信号传播理论预测核小体架构，虽涉及DNA物理性质与转录因子结合位点，但核心是核小体定位而非TF-DNA互作建模，方法可迁移但对象与互作轴匹配度中等。",
+  "abstract": "We demonstrate that nucleosomes placed in the gene body can be accurately located from signal decay theory assuming two emitters located at the beginning and at the end of genes. These generated wave signals can be in phase (leading to well defined nucleosome arrays) or in antiphase (leading to fuzzy nucleosome architectures). We found that the first (+1) and the last (-last) nucleosomes are contiguous to regions signaled by transcription factor binding sites and unusual DNA physical properties that hinder nucleosome wrapping. Based on these analyses, we developed a method that combines Machine Learning and signal transmission theory able to predict the basal locations of the nucleosomes with an accuracy similar to that of experimental MNase-seq based methods.",
+  "abstract_zh": "我们证明，假设基因体两端各有一个发射源，基于信号衰减理论可以准确定位基因体中的核小体。这些产生的波信号可以同相（导致明确的核小体阵列）或反相（导致模糊的核小体结构）。我们发现，第一个（+1）和最后一个（-last）核小体与转录因子结合位点及阻碍核小体缠绕的异常DNA物理特性所标记的区域相邻。基于这些分析，我们开发了一种结合机器学习与信号传输理论的方法，能够以与基于实验的MNase-seq方法相当的精度预测核小体的基础位置。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39162225/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39162225/",
+  "paper_page_path": "papers/pubmed/39162225/index.html"
+}

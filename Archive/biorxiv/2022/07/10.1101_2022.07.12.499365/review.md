@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, methods, and supplementary figure references
+- **Assessment boundary** Scientific validity, methodological soundness, claims versus evidence, and generalizability of the reported approach
+- **Shared manuscript claim summary** The authors propose a hybrid approach that fine-tunes AlphaFold parameters on peptide-MHC binding data, adding a logistic regression classifier on top of inter-chain PAE scores, and demonstrate competitive performance with NetMHCpan on peptide-MHC specificity prediction, with generalization to PDZ and SH3 domains
+- **Visible evidence base** Main text figures referenced (Figs 1-4), supplementary figures S1-S4, tables S1-S2, methods descriptions, and training/validation dataset descriptions
+- **Missing materials affecting confidence** Actual figure images, supplementary tables, training/validation data files, code repository contents, and detailed hyperparameter settings are not provided in the supplied text
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to combining structural and binding data for specificity prediction, with promising results on peptide-MHC systems and evidence of transfer to other peptide-binding domains. However, several technical details and validation aspects require clarification before the claims can be fully assessed. The comparison with NetMHCpan is complicated by training data overlap, and the generalization claims to PDZ/SH3 domains would benefit from more rigorous statistical analysis.
+- **Who would be interested in the results, and why** Immunologists studying T-cell epitope prediction, computational biologists developing structure-based binding prediction methods, protein engineers interested in peptide recognition specificity, and researchers working on extending deep learning structure prediction models to functional annotations
+- **Major strengths** Novel integration of structure prediction networks with binding classification; demonstration of transfer learning across peptide-binding systems; careful consideration of training data leakage in the NetMHCpan comparison; practical significance for systems with limited binding data
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the fine-tuned model "approaches the overall performance of the state-of-the-art NetMHCpan sequence-based method" on peptide-MHC prediction
+  - **Evidence pointer** Figure 2B, 2C; validation set description in main text
+  - **Concern** The comparison with NetMHCpan is confounded by the fact that validation examples are contained within NetMHCpan's training data. The authors acknowledge this but do not provide a clear strategy to address it. The reported AUROC values of 0.97 (Class I) and 0.96 (Class II) may reflect optimistic estimates given the training data overlap. A more rigorous comparison would require either a truly independent test set or a cross-validation scheme that accounts for NetMHCpan's training data.
+  - **Why it matters** The central claim of competitive performance with NetMHCpan underpins the manuscript's significance. Without a clean comparison, the practical utility of the approach relative to existing methods remains unclear.
+  - **Resolution test** Provide performance metrics on a test set that is confirmed to be outside NetMHCpan's training data, or implement a nested cross-validation approach that explicitly excludes overlapping peptides and alleles. Report performance stratified by whether peptides are in NetMHCpan's training set.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the fine-tuned model "generalizes to other peptide-binding systems such as the PDZ and SH3 domains"
+  - **Evidence pointer** Figure 4B; methods section on PDZ and SH3 modeling
+  - **Concern** The PDZ and SH3 validation uses only 17 and 19 domains respectively, with no clear statistical framework for assessing whether the improvement over default AlphaFold parameters is significant. The PWM comparison metrics (AAD and Frobenius) are averaged over positions, but no confidence intervals or significance tests are reported. Additionally, the "in silico selection" approach with 20,000 random peptides may not adequately sample the sequence space for robust PWM estimation.
+  - **Why it matters** The generalization claim is a key differentiator from sequence-based methods. Without statistical rigor, the observed improvements could be within noise, especially given the small number of domains tested.
+  - **Resolution test** Report per-domain error metrics with confidence intervals, perform paired statistical tests comparing fine-tuned versus default parameters, and consider bootstrapping or permutation approaches to establish significance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that the approach can be implemented using the provided code and data
+  - **Evidence pointer** Data and code availability section; methods description
+  - **Concern** The manuscript states that code and data "will be made available prior to publication" with placeholder URLs and repository IDs. The training procedure involves multiple steps (logistic regression fitting, then fine-tuning with a hybrid loss) with several hyperparameters (loss weights, number of epochs, learning rates) that are not fully specified. The "distillation" procedure for non-structurally characterized binders is described but not detailed enough for exact reproduction.
+  - **Why it matters** Reproducibility is essential for the scientific community to build on this work. Incomplete method details and unavailable resources prevent independent verification.
+  - **Resolution test** Provide complete code, data, and detailed hyperparameter settings. Include a step-by-step training protocol with all parameters specified. Make the Zenodo repository publicly accessible with all training and test data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 2A description
+  - **Evidence pointer** Main text, Figure 2A
+  - **Issue** The description of Figure 2A states that AlphaFold "tended to dock non-binding peptides in the MHC peptide-binding groove" but does not provide quantitative metrics for this observation.
+  - **Required correction** Provide quantitative measures of peptide positioning (e.g., fraction of non-binders docked in the groove) to support this qualitative claim.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Class I peptide length handling
+  - **Evidence pointer** Main text, validation set description
+  - **Issue** The training set is restricted to 9mer peptides for Class I, but validation includes 8, 9, and 10mer peptides. The manuscript does not explain how the model handles length variation at inference time.
+  - **Required correction** Clarify the inference procedure for peptides of different lengths, including how template alignment and positional mapping are handled.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** AUROC values
+  - **Evidence pointer** Figure 2B, 2C
+  - **Issue** AUROC values are reported without confidence intervals or standard errors.
+  - **Required correction** Report confidence intervals for AUROC values, ideally via bootstrapping.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data description
+  - **Affected element** Training set composition
+  - **Evidence pointer** Methods, peptide-MHC dataset section
+  - **Issue** The training set composition (10340 examples across 59 Class I and 58 Class II alleles) is described, but the balance between Class I and Class II, and between binders and non-binders, is not specified.
+  - **Required correction** Provide class balance information for the training and validation sets.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** HCV scan analysis
+  - **Evidence pointer** Figure 3, HCV experiment section
+  - **Issue** The HCV scan is presented as an illustrative example of divergence from NetMHCpan, but no experimental validation of the predicted binders is provided.
+  - **Required correction** Clarify that this is a computational observation without experimental confirmation, and consider tempering the language about "reliability" of NetMHCpan predictions.
+
+## Risk / unsupported claims
+- The claim of "strong generalizable performance" on peptide-MHC prediction is not fully supported given the training data overlap with NetMHCpan's training set
+- The claim of generalization to PDZ and SH3 domains lacks statistical significance testing
+- The claim that the approach "learns the biochemical space of peptide-MHC binding efficiently" is speculative without mechanistic analysis
+- The suggestion that the model "may be more robust than purely sequence-based models" to peptide length variation is based on a single illustrative example without systematic evaluation
+- The performance comparison with NetMHCpan on Class II is reported as "particularly" competitive, but the specific AUROC values and their statistical significance are not fully contextualized

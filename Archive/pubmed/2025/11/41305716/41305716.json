@@ -1,0 +1,422 @@
+{
+  "identity": {
+    "pmid": "41305716",
+    "doi": "10.1097/MD.0000000000045619",
+    "title": "Identification of biomarkers of Shenhailong formula in benign prostatic hyperplasia treatment: An observation study using network pharmacology and Mendelian randomization analysis."
+  },
+  "content": {
+    "abstract": "Shenhailong formula, a classic herbal prescription, shows potential in treating benign prostatic hyperplasia (BPH), but its candidate components and mechanisms remain unclear. This study aimed to preliminarily clarify its therapeutic mechanisms in BPH using network pharmacology, Mendelian randomization (MR), and molecular docking. In this study, BPH-related datasets were first obtained from Gene Expression Omnibus database, and different expression analysis was performed to identify differentially expression genes. Meanwhile, Chinese herbs related target genes and BPH-related target genes were retrieved from public database, and candidate genes were screened by taking the intersection of the 3 above. Subsequently, MR analysis was conducted to explore the causal relationship between candidate genes and BPH, and then biomarkers were generated through expression level validation. Finally, enrichment analysis, molecular regulatory network construction, and molecular docking were performed. By integrating 779 BPH-related target genes, 2879 Chinese herb-related target genes, and 3106 differentially expression genes, 41 candidate genes were obtained. MR analysis revealed that 12 genes had potential causal relationships with BPH. Eventually, 3 biomarkers were identified: serum/glucocorticoid-regulated kinase 1, epidermal growth factor, and ectonucleotide pyrophosphatase/phosphodiesterase family member 1. All 3 biomarkers were significantly enriched in the \"kras signaling dn,\" \"pancreas beta cells,\" \"estrogen response early,\" \"estrogen response late,\" and \"spermatogenesis\" pathways (gene set enrichment analysis, false discovery rate < 0.05). \" Furthermore, transcription factors GATA2 and JUN exerted their influence on 3 biomarkers, and the actions of hsa-miR-4459 and hsa-miR-4433a-3p were involved in the regulation of epidermal growth factor and ectonucleotide pyrophosphatase/phosphodiesterase family member 1. Additionally, molecular docking showed that Stepholidine and Adenosine triphosphate had higher affinity within biomarkers, which were the potential candidate components for treating BPH with Shenhailong formula, supported by their strong binding affinity with the protein of biomarkers. This study revealed the potential targets and potential candidate components of Shenhailong formula in the treatment of BPH, and confirmed that they had strong affinity. It provided a theoretical basis for the treatment of BPH with Shenhailong formula.",
+    "keywords": [
+      "Mendelian randomization",
+      "Shenhailong formula",
+      "benign prostatic hyperplasia",
+      "biomarkers",
+      "network pharmacology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "*Prostatic Hyperplasia/drug therapy/genetics",
+      "*Drugs, Chinese Herbal/therapeutic use/pharmacology",
+      "Network Pharmacology/methods",
+      "Molecular Docking Simulation",
+      "Mendelian Randomization Analysis",
+      "Biomarkers",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Observational Study"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pan, Jia",
+        "Yu, Mengyao",
+        "Zhang, Lihan",
+        "Yin, Jing",
+        "Liu, Jie",
+        "Zhang, Shuwu",
+        "Zhang, Peihai",
+        "Fan, Qingying",
+        "Liu, Jiatong",
+        "Li, Xiaoyuan"
+      ],
+      "short_names": [
+        "Pan J",
+        "Yu M",
+        "Zhang L",
+        "Yin J",
+        "Liu J",
+        "Zhang S",
+        "Zhang P",
+        "Fan Q",
+        "Liu J",
+        "Li X"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-8250-5181"
+      ],
+      "affiliations": [
+        "Institute of Pharmacology & Toxicology of Chinese Materia Medica, Sichuan Academy of Chinese Medicine Sciences, Chengdu, China.",
+        "Sichuan-Chongqing Joint Key Laboratory of Innovation of New Drugs of Traditional Chinese Medicine, Chengdu, China.",
+        "Institute of Pharmacology & Toxicology of Chinese Materia Medica, Sichuan Academy of Chinese Medicine Sciences, Chengdu, China.",
+        "Sichuan-Chongqing Joint Key Laboratory of Innovation of New Drugs of Traditional Chinese Medicine, Chengdu, China.",
+        "School of Clinical Medicine, Chengdu University of Traditional Chinese Medicine, Chengdu, China.",
+        "Department of Urology and Andrology, Sichuan Integrative Medicine Hospital, Chengdu, China.",
+        "Institute of Pharmacology & Toxicology of Chinese Materia Medica, Sichuan Academy of Chinese Medicine Sciences, Chengdu, China.",
+        "Sichuan-Chongqing Joint Key Laboratory of Innovation of New Drugs of Traditional Chinese Medicine, Chengdu, China.",
+        "Department of Urology and Andrology, Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China.",
+        "Department of Urology and Andrology, Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China.",
+        "Department of Pharmacy, Shandong Qingdao Huangdao District People's Hospital, Qingdao, China.",
+        "College of Traditional Chinese Medicine, Shandong University of Traditional Chinese Medicine, Jinan, China.",
+        "Institute of Pharmacology & Toxicology of Chinese Materia Medica, Sichuan Academy of Chinese Medicine Sciences, Chengdu, China.",
+        "Sichuan-Chongqing Joint Key Laboratory of Innovation of New Drugs of Traditional Chinese Medicine, Chengdu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pan, Jia",
+        "short_name": "Pan J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pharmacology & Toxicology of Chinese Materia Medica, Sichuan Academy of Chinese Medicine Sciences, Chengdu, China.",
+          "Sichuan-Chongqing Joint Key Laboratory of Innovation of New Drugs of Traditional Chinese Medicine, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Mengyao",
+        "short_name": "Yu M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pharmacology & Toxicology of Chinese Materia Medica, Sichuan Academy of Chinese Medicine Sciences, Chengdu, China.",
+          "Sichuan-Chongqing Joint Key Laboratory of Innovation of New Drugs of Traditional Chinese Medicine, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lihan",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Clinical Medicine, Chengdu University of Traditional Chinese Medicine, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Jing",
+        "short_name": "Yin J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology and Andrology, Sichuan Integrative Medicine Hospital, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jie",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pharmacology & Toxicology of Chinese Materia Medica, Sichuan Academy of Chinese Medicine Sciences, Chengdu, China.",
+          "Sichuan-Chongqing Joint Key Laboratory of Innovation of New Drugs of Traditional Chinese Medicine, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shuwu",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology and Andrology, Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Peihai",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology and Andrology, Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Qingying",
+        "short_name": "Fan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Shandong Qingdao Huangdao District People's Hospital, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiatong",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Shandong University of Traditional Chinese Medicine, Jinan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaoyuan",
+        "short_name": "Li X",
+        "identifiers": [
+          "0009-0000-8250-5181"
+        ],
+        "affiliations": [
+          "Institute of Pharmacology & Toxicology of Chinese Materia Medica, Sichuan Academy of Chinese Medicine Sciences, Chengdu, China.",
+          "Sichuan-Chongqing Joint Key Laboratory of Innovation of New Drugs of Traditional Chinese Medicine, Chengdu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2025 Nov 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Observational Study"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/27 06:27",
+    "fetched_at": "2026-10-01 07:14:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40552775",
+      "39326820",
+      "38934050",
+      "38904002",
+      "38750153",
+      "38448685",
+      "38427115",
+      "38050650",
+      "37786436",
+      "37633909",
+      "37598927",
+      "37560336",
+      "37448198",
+      "37426635",
+      "37247757",
+      "37147755",
+      "36902608",
+      "36713838",
+      "36601105",
+      "36457711",
+      "36370105",
+      "36169380",
+      "36130055",
+      "36122906",
+      "36064190",
+      "35837069",
+      "35751589",
+      "35625991",
+      "35428429",
+      "35330833",
+      "35262855",
+      "34879880",
+      "34864868",
+      "34820997",
+      "34557778",
+      "34384237",
+      "33644404",
+      "33593479",
+      "33584271",
+      "33264402",
+      "33124118",
+      "32893964",
+      "32468047",
+      "32067528",
+      "31752288",
+      "31730867",
+      "31201732",
+      "31106366",
+      "30805683",
+      "30799235",
+      "30365030",
+      "29846171",
+      "29597343",
+      "28655527",
+      "28527048",
+      "28043105",
+      "27924018",
+      "27476122",
+      "27061298",
+      "26521170",
+      "25773750",
+      "25560669",
+      "25529149",
+      "25216271",
+      "24735618",
+      "24513230",
+      "23737867",
+      "23442644",
+      "22922989",
+      "20178875",
+      "17693613",
+      "14662770",
+      "14597658",
+      "10592235",
+      "8923874",
+      "7542859"
+    ],
+    "similar": [
+      "41305716",
+      "42754788",
+      "40986097",
+      "37861557",
+      "39757646",
+      "39017714",
+      "42421348",
+      "41088691",
+      "40676786",
+      "40916281",
+      "42332510",
+      "40999058",
+      "39842747",
+      "41204712",
+      "41535879",
+      "35119030",
+      "37454501",
+      "41574553",
+      "40958307",
+      "41843163",
+      "40839986",
+      "38889577",
+      "38701256",
+      "37147755",
+      "41968426",
+      "39238373",
+      "38696100",
+      "39312335",
+      "42173079",
+      "42152365",
+      "38669415",
+      "38916485",
+      "39346628",
+      "39367121",
+      "37102991",
+      "39703506",
+      "42287035",
+      "41496079",
+      "39928767",
+      "41195206",
+      "39654220",
+      "36280016",
+      "41630343",
+      "38941043",
+      "37080367",
+      "39082169",
+      "41052072",
+      "40605076",
+      "41448363",
+      "40835946",
+      "38403323",
+      "37640538",
+      "37469733",
+      "38759074",
+      "42521001",
+      "41367024",
+      "42363525",
+      "42259474",
+      "40442788",
+      "34159207",
+      "41492010",
+      "40499803",
+      "41824857",
+      "39066538",
+      "40898519",
+      "34941025",
+      "37287284",
+      "40269514",
+      "41533160",
+      "40873177",
+      "41418734",
+      "39343107",
+      "37990309",
+      "41656835",
+      "42470003",
+      "38013385",
+      "40859479",
+      "37478218",
+      "41189264",
+      "36064190",
+      "41496131",
+      "38619514",
+      "39612458",
+      "38117365",
+      "39993869",
+      "40708520",
+      "41191606",
+      "41473244",
+      "38167125",
+      "40898481",
+      "40065477",
+      "37883761",
+      "41475625",
+      "39854209",
+      "38552092",
+      "39731132",
+      "39257141",
+      "41711838",
+      "33831468",
+      "42566634"
+    ],
+    "review": [
+      "41305716",
+      "35119030",
+      "39612458"
+    ],
+    "pmc": [
+      "12643769"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ingentaconnect.com/openurl?genre=article&issn=0025-7974&volume=104&issue=47&spage=e45619&aulast=Pan",
+        "provider": "Ingenta plc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/enlargedprostatebph.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Enlarged Prostate (BPH)"
+      },
+      {
+        "url": "https://www.ovid.com/41305716.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41305716/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1550",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000045619",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

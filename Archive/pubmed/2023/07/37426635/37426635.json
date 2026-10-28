@@ -1,0 +1,471 @@
+{
+  "identity": {
+    "pmid": "37426635",
+    "doi": "10.3389/fimmu.2023.1172724",
+    "title": "Identifying hub genes and common biological pathways between COVID-19 and benign prostatic hyperplasia by machine learning algorithms."
+  },
+  "content": {
+    "abstract": "BACKGROUND: COVID-19, a serious respiratory disease that has the potential to affect numerous organs, is a serious threat to the health of people around the world. The objective of this article is to investigate the potential biological targets and mechanisms by which SARS-CoV-2 affects benign prostatic hyperplasia (BPH) and related symptoms. METHODS: We downloaded the COVID-19 datasets (GSE157103 and GSE166253) and the BPH datasets (GSE7307 and GSE132714) from the Gene Expression Omnibus (GEO) database. In GSE157103 and GSE7307, differentially expressed genes (DEGs) were found using the \"Limma\" package, and the intersection was utilized to obtain common DEGs. Further analyses followed, including those using Protein-Protein Interaction (PPI), Gene Ontology (GO) function enrichment analysis, and the Kyoto Encyclopedia of Genes and Genomes (KEGG). Potential hub genes were screened using three machine learning methods, and they were later verified using GSE132714 and GSE166253. The CIBERSORT analysis and the identification of transcription factors, miRNAs, and drugs as candidates were among the subsequent analyses. RESULTS: We identified 97 common DEGs from GSE157103 and GSE7307. According to the GO and KEGG analyses, the primary gene enrichment pathways were immune-related pathways. Machine learning methods were used to identify five hub genes (BIRC5, DNAJC4, DTL, LILRB2, and NDC80). They had good diagnostic properties in the training sets and were validated in the validation sets. According to CIBERSORT analysis, hub genes were closely related to CD4 memory activated of T cells, T cells regulatory and NK cells activated. The top 10 drug candidates (lucanthone, phytoestrogens, etoposide, dasatinib, piroxicam, pyrvinium, rapamycin, niclosamide, genistein, and testosterone) will also be evaluated by the P value, which is expected to be helpful for the treatment of COVID-19-infected patients with BPH. CONCLUSION: Our findings reveal common signaling pathways, possible biological targets, and promising small molecule drugs for BPH and COVID-19. This is crucial to understand the potential common pathogenic and susceptibility pathways between them.",
+    "keywords": [
+      "COVID-19",
+      "benign prostatic hyperplasia",
+      "functional enrichment",
+      "hub genes",
+      "machine learning algorithms"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "*Prostatic Hyperplasia/genetics",
+      "*COVID-19/genetics",
+      "SARS-CoV-2",
+      "Genes, cdc",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Hang",
+        "Xu, Mingming",
+        "Hu, Ping",
+        "Li, Yuezheng",
+        "Ren, Congzhe",
+        "Li, Muwei",
+        "Pan, Yang",
+        "Wang, Shangren",
+        "Liu, Xiaoqiang"
+      ],
+      "short_names": [
+        "Zhou H",
+        "Xu M",
+        "Hu P",
+        "Li Y",
+        "Ren C",
+        "Li M",
+        "Pan Y",
+        "Wang S",
+        "Liu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Orthopedics, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China.",
+        "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Hang",
+        "short_name": "Zhou H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Mingming",
+        "short_name": "Xu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Ping",
+        "short_name": "Hu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuezheng",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Congzhe",
+        "short_name": "Ren C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Li, Muwei",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Yang",
+        "short_name": "Pan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shangren",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaoqiang",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Tianjin Medical University General Hospital, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/10 06:42",
+    "fetched_at": "2026-09-29 03:45:28"
+  },
+  "links": {
+    "cites": [
+      "41976154",
+      "41305716",
+      "40552037"
+    ],
+    "refs": [
+      "36780771",
+      "36685935",
+      "36500973",
+      "36389792",
+      "36249948",
+      "36248192",
+      "36246300",
+      "36119022",
+      "36091808",
+      "35971954",
+      "35749386",
+      "35464423",
+      "35461991",
+      "35345664",
+      "35331169",
+      "35301465",
+      "35294747",
+      "35264324",
+      "35255789",
+      "35249272",
+      "35245942",
+      "35154510",
+      "35143756",
+      "35132265",
+      "35045787",
+      "35045126",
+      "34711637",
+      "34710339",
+      "34592166",
+      "34568081",
+      "34433692",
+      "34395931",
+      "34388395",
+      "34279767",
+      "34260684",
+      "34022154",
+      "34007019",
+      "33894761",
+      "33847347",
+      "33839760",
+      "33621391",
+      "33595134",
+      "33497610",
+      "33361824",
+      "33314219",
+      "33306990",
+      "33301246",
+      "33277638",
+      "33237311",
+      "33150978",
+      "32931823",
+      "32906143",
+      "32893964",
+      "32815517",
+      "32734714",
+      "32546840",
+      "32544563",
+      "32436355",
+      "32425950",
+      "32377375",
+      "32360480",
+      "32345522",
+      "32340551",
+      "32303609",
+      "32234760",
+      "32191396",
+      "32162702",
+      "32142651",
+      "32031570",
+      "31680165",
+      "30408771",
+      "30123182",
+      "29869423",
+      "29552205",
+      "29541787",
+      "29456672",
+      "28801563",
+      "26842629",
+      "25822800",
+      "25605792",
+      "25557589",
+      "25295306",
+      "24458832",
+      "22562653",
+      "22455463",
+      "20808728",
+      "20709693",
+      "20412431",
+      "19269365",
+      "19002119",
+      "18957447",
+      "17230196",
+      "11524239"
+    ],
+    "similar": [
+      "37426635",
+      "36389792",
+      "38259479",
+      "36189314",
+      "31187492",
+      "35958412",
+      "38169604",
+      "38601162",
+      "38267482",
+      "36506310",
+      "36532040",
+      "36035183",
+      "35235083",
+      "35996406",
+      "35713363",
+      "36104591",
+      "36195955",
+      "37359526",
+      "37026010",
+      "37386410",
+      "36509426",
+      "37184686",
+      "35463752",
+      "36704339",
+      "36214307",
+      "33839760",
+      "34920753",
+      "37040729",
+      "38596062",
+      "35719392",
+      "35768705",
+      "35002537",
+      "38051734",
+      "36575422",
+      "35562622",
+      "38878325",
+      "35958546",
+      "37501430",
+      "34553293",
+      "33532314",
+      "31987036",
+      "37250717",
+      "34606081",
+      "33407587",
+      "36860851",
+      "35018096",
+      "35059432",
+      "35996248",
+      "37147755",
+      "36911196",
+      "35277538",
+      "39281413",
+      "35401659",
+      "35911963",
+      "36118873",
+      "33780364",
+      "31667013",
+      "34736376",
+      "36199786",
+      "37033969",
+      "36992583",
+      "36685898",
+      "32853947",
+      "33927789",
+      "35368701",
+      "37804012",
+      "36660690",
+      "37246754",
+      "36438903",
+      "34198450",
+      "36341378",
+      "36627660",
+      "35620387",
+      "35495609",
+      "37020555",
+      "35313524",
+      "37008314",
+      "35634481",
+      "35577542",
+      "37991568",
+      "33080677",
+      "33877681",
+      "36464255",
+      "32606769",
+      "37113991",
+      "36082523",
+      "35432485",
+      "34787756",
+      "38529412",
+      "33726831",
+      "36660246",
+      "36734721",
+      "36536067",
+      "36817436",
+      "35264872",
+      "36699262",
+      "36110200",
+      "34584445",
+      "29845250",
+      "34131597",
+      "34466069",
+      "36325528",
+      "38104081",
+      "39096939",
+      "36276976",
+      "36911691",
+      "38653779",
+      "36924127",
+      "37222960",
+      "35127841",
+      "37777104",
+      "38165854",
+      "38443855",
+      "38656671",
+      "39363208",
+      "36466549",
+      "38637751",
+      "37744379",
+      "36201886",
+      "36762746",
+      "37638007",
+      "37457751",
+      "38076334",
+      "37457582",
+      "38957825",
+      "36203534",
+      "38077337",
+      "37704748",
+      "38062586",
+      "37795494",
+      "39371335",
+      "34441862",
+      "38164831",
+      "37872956",
+      "39411815",
+      "39283056",
+      "39044840",
+      "37877121",
+      "35533463",
+      "38107964",
+      "35528178",
+      "37554802",
+      "34127904",
+      "36685671",
+      "38058697",
+      "37461741",
+      "38737277",
+      "37564653",
+      "35966126",
+      "33551833",
+      "38737245",
+      "37927958",
+      "37398415",
+      "38436142"
+    ],
+    "review": [
+      "37426635",
+      "33080677"
+    ],
+    "pmc": [
+      "10328422"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37426635/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37426635",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2023.1172724",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "33734319",
+    "doi": "10.1042/BSR20203391",
+    "title": "Machine learning based tissue analysis reveals Brachyury has a diagnosis value in breast cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The aim of the present study was to confirm the role of Brachyury in breast cancer and to verify whether four types of machine learning models can use Brachyury expression to predict the survival of patients. METHODS: We conducted a retrospective review of the medical records to obtain patient information, and made the patient's paraffin tissue into tissue chips for staining analysis. We selected 303 patients for research and implemented four machine learning algorithms, including multivariate logistic regression model, decision tree, artificial neural network and random forest, and compared the results of these models with each other. Area under the receiver operating characteristic (ROC) curve (AUC) was used to compare the results. RESULTS: The chi-square test results of relevant data suggested that the expression of Brachyury protein in cancer tissues was significantly higher than that in paracancerous tissues (P=0.0335); patients with breast cancer with high Brachyury expression had a worse overall survival (OS) compared with patients with low Brachyury expression. We also found that Brachyury expression was associated with ER expression (P=0.0489). Subsequently, we used four machine learning models to verify the relationship between Brachyury expression and the survival of patients with breast cancer. The results showed that the decision tree model had the best performance (AUC = 0.781). CONCLUSIONS: Brachyury is highly expressed in breast cancer and indicates that patients had a poor prognosis. Compared with conventional statistical methods, decision tree model shows superior performance in predicting the survival status of patients with breast cancer.",
+    "keywords": [
+      "Brachyury",
+      "Breast cancer",
+      "decision tree",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Adult",
+      "Aged",
+      "Aged, 80 and over",
+      "Biomarkers, Tumor/genetics/*metabolism",
+      "Breast Neoplasms/genetics/*metabolism/pathology",
+      "Endoplasmic Reticulum/metabolism",
+      "Female",
+      "Fetal Proteins/genetics/*metabolism",
+      "Humans",
+      "Machine Learning",
+      "Middle Aged",
+      "Survival Analysis",
+      "T-Box Domain Proteins/genetics/*metabolism",
+      "Brachyury Protein"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Kaichun",
+        "Wang, Qiaoyun",
+        "Lu, Yanyan",
+        "Pan, Xiaorong",
+        "Liu, Long",
+        "Cheng, Shiyu",
+        "Wu, Bingxiang",
+        "Song, Zongchang",
+        "Gao, Wei"
+      ],
+      "short_names": [
+        "Li K",
+        "Wang Q",
+        "Lu Y",
+        "Pan X",
+        "Liu L",
+        "Cheng S",
+        "Wu B",
+        "Song Z",
+        "Gao W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shanghai Fourth People's Hospital Affiliated to Tongji University, Shanghai 200434, China.",
+        "Tianyou Hospital Affiliated to Tongji University, Shanghai 200331, China.",
+        "Shanghai Fourth People's Hospital Affiliated to Tongji University, Shanghai 200434, China.",
+        "Shanghai Fourth People's Hospital Affiliated to Tongji University, Shanghai 200434, China.",
+        "Shanghai Fourth People's Hospital Affiliated to Tongji University, Shanghai 200434, China.",
+        "Tianyou Hospital Affiliated to Tongji University, Shanghai 200331, China.",
+        "Tianyou Hospital Affiliated to Tongji University, Shanghai 200331, China.",
+        "Tianyou Hospital Affiliated to Tongji University, Shanghai 200331, China.",
+        "Tianyou Hospital Affiliated to Tongji University, Shanghai 200331, China.",
+        "Shanghai Fourth People's Hospital Affiliated to Tongji University, Shanghai 200434, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Kaichun",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Fourth People's Hospital Affiliated to Tongji University, Shanghai 200434, China.",
+          "Tianyou Hospital Affiliated to Tongji University, Shanghai 200331, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qiaoyun",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Fourth People's Hospital Affiliated to Tongji University, Shanghai 200434, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Yanyan",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Fourth People's Hospital Affiliated to Tongji University, Shanghai 200434, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Xiaorong",
+        "short_name": "Pan X",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Fourth People's Hospital Affiliated to Tongji University, Shanghai 200434, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Long",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Tianyou Hospital Affiliated to Tongji University, Shanghai 200331, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Shiyu",
+        "short_name": "Cheng S",
+        "identifiers": [],
+        "affiliations": [
+          "Tianyou Hospital Affiliated to Tongji University, Shanghai 200331, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Bingxiang",
+        "short_name": "Wu B",
+        "identifiers": [],
+        "affiliations": [
+          "Tianyou Hospital Affiliated to Tongji University, Shanghai 200331, China."
+        ]
+      },
+      {
+        "full_name": "Song, Zongchang",
+        "short_name": "Song Z",
+        "identifiers": [],
+        "affiliations": [
+          "Tianyou Hospital Affiliated to Tongji University, Shanghai 200331, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Wei",
+        "short_name": "Gao W",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Fourth People's Hospital Affiliated to Tongji University, Shanghai 200434, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioscience reports"
+    ],
+    "journal_abbrev": [
+      "Biosci Rep"
+    ],
+    "pub_date": "2021 Apr 30",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/19 06:00",
+    "fetched_at": "2026-09-27 14:44:41"
+  },
+  "links": {
+    "cites": [
+      "40522547",
+      "36457717",
+      "34307153"
+    ],
+    "refs": [
+      "31922268",
+      "31358460",
+      "31343790",
+      "31261257",
+      "29399164",
+      "29250316",
+      "28621227",
+      "27621036",
+      "27580659",
+      "27170365",
+      "26781859",
+      "25796587",
+      "24815862",
+      "24504414",
+      "23788039",
+      "17075582",
+      "11786909"
+    ],
+    "similar": [
+      "33734319",
+      "28621227",
+      "24815864",
+      "31713604",
+      "27580659",
+      "28753115",
+      "32154590",
+      "23965741",
+      "29698784",
+      "24086644",
+      "25683840",
+      "22931165",
+      "34226990",
+      "27600618",
+      "25995035",
+      "23076115",
+      "23456319",
+      "33989961",
+      "33521702",
+      "32773372",
+      "27621036",
+      "26099340",
+      "19241850",
+      "25499255",
+      "26393908",
+      "26409558",
+      "30902088",
+      "20670140",
+      "26781859",
+      "30453543",
+      "27018266",
+      "30715658",
+      "30358693",
+      "32213092",
+      "24905390",
+      "24445144",
+      "31780739",
+      "24591762",
+      "31286302",
+      "31286562",
+      "26679719",
+      "33741347",
+      "25003467",
+      "25433496",
+      "22611028",
+      "32707305",
+      "29749711",
+      "32209441",
+      "29848291",
+      "22595058",
+      "27049720",
+      "28855356",
+      "30033447",
+      "20647747",
+      "30979733",
+      "16547957",
+      "37489252",
+      "31103449",
+      "27693135",
+      "31370028",
+      "30795786",
+      "34273746",
+      "27176766",
+      "29020634",
+      "33142259",
+      "25009296",
+      "31005170",
+      "31119567",
+      "33962648",
+      "21220197",
+      "33159021",
+      "29438482",
+      "33762322",
+      "33220109",
+      "33039708",
+      "23662285",
+      "31881042",
+      "33373867",
+      "30592646",
+      "30178143",
+      "33693994",
+      "20855213",
+      "27147316",
+      "32148141",
+      "33115671",
+      "31348505",
+      "33550016",
+      "27663388",
+      "33945572",
+      "34233259",
+      "30328048",
+      "26806441",
+      "31981427",
+      "32362304",
+      "29110491",
+      "36159773",
+      "38072067",
+      "37664452",
+      "38756785",
+      "38686709",
+      "38269966",
+      "37725502",
+      "39430983",
+      "36627367",
+      "37328908",
+      "36227551",
+      "34651513",
+      "35785523",
+      "37369672",
+      "36457717",
+      "38785018",
+      "35223462",
+      "37761960",
+      "35106465",
+      "35245093",
+      "38036705"
+    ],
+    "review": [
+      "33734319",
+      "27018266",
+      "24591762",
+      "22595058"
+    ],
+    "pmc": [
+      "8024874"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/33734319/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33734319/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33734319",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33734319",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://portlandpress.com/bioscirep/article-lookup/doi/10.1042/BSR20203391",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

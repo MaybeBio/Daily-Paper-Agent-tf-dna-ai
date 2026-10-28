@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, validation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors present DNAcycP, a deep learning tool (Inception-ResNet + LSTM architecture) trained on yeast loop-seq data, to predict intrinsic DNA cyclizability (C-score) from DNA sequence. They claim high fidelity prediction, validation on an independent in vitro looping selection dataset, cross-species applicability, and a conserved relationship between cyclizability and nucleosome positioning. They also report elevated cyclizability at CTCF binding sites conserved across mammals.
+- **Visible evidence base** Main text, figures referenced (Figures 1–7), supplementary figures referenced (Figure S1), supplementary tables referenced (Table S1), and supplementary notes referenced (Note 1)
+- **Missing materials affecting confidence** Supplementary figures, tables, and notes were not provided. Figure content was not directly viewable. Model architecture details, hyperparameters, and training procedures were only partially described. Web server and code availability were stated but not assessed.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a useful and potentially impactful tool for predicting DNA cyclizability from sequence. The deep learning approach is reasonable, and the validation against an independent dataset is a strength. However, several technical details are missing or unclear, and some claims appear to extend beyond what the presented evidence can support. The manuscript would benefit from additional analysis and clarification before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying chromatin structure, nucleosome positioning, DNA mechanics, and transcription factor binding. The tool could also be of interest to the DNA nanotechnology community for sequence design. The finding regarding CTCF binding sites may attract interest from those studying genome organization and insulation.
+- **Major strengths** 1. Addresses an important problem with a practical tool. 2. Uses a well-motivated deep learning architecture. 3. Validation on an independent experimental dataset is a significant strength. 4. The finding of elevated cyclizability at CTCF sites is novel and potentially important. 5. The tool is made available as both a web server and a standalone package.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves high prediction accuracy (e.g., Pearson correlation 0.916 on training data, 0.893/0.773/0.930 on external test libraries).
+  - **Evidence pointer** Results section, Figure 2, Supplementary Figure S1
+  - **Concern** The reported correlations are between predicted and measured cyclizability on test sets. However, the manuscript does not describe how the model was selected (e.g., hyperparameter tuning, early stopping criteria) or whether the reported test correlations are from the best-performing fold or averaged across folds. The variance across folds is mentioned but not quantified. Without this information, the robustness of the reported accuracy cannot be fully assessed.
+  - **Why it matters** If the reported accuracy is from a single best fold, the true generalization performance may be lower. A clear description of model selection and evaluation protocol is essential for reproducibility and for assessing the reliability of the tool.
+  - **Resolution test** Provide a detailed description of the training/validation/test split, hyperparameter search, and report mean and standard deviation of performance metrics across cross-validation folds. Clarify whether the reported correlations are from the best model or an ensemble.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The detrending step corrects a mean-drift and variance-shrinkage issue in predictions.
+  - **Evidence pointer** Methods section, Supplementary Note 1
+  - **Concern** The detrending procedure is described only briefly. The manuscript states that the model predictions suffer from mean-drift and variance-shrinkage, and that a linear detrending step is applied. However, the details of this detrending (e.g., how the linear trend is estimated, whether it is applied to all predictions universally or is dataset-specific) are not provided. The authors also acknowledge they cannot verify whether the detrending transfers to external data. This is a critical limitation because the C-score scale is defined relative to the yeast genome mean, and if the detrending is not transferable, cross-species comparisons may be biased.
+  - **Why it matters** The C-score is used for cross-species comparisons and for interpreting biological significance. If the detrending is not robust, the reported cross-species differences and CTCF findings could be artifacts of the correction procedure.
+  - **Resolution test** Provide a full description of the detrending method. Ideally, demonstrate its transferability by applying the model trained on yeast to a dataset from another species with known experimental cyclizability measurements, or by using a spike-in control as suggested in the Discussion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The cyclizability is substantially elevated at CTCF binding sites in the mouse genome, and this is conserved across mammals and inherent to the CTCF binding motif.
+  - **Evidence pointer** Results section, Figure 5
+  - **Concern** The finding is interesting, but the analysis appears to be purely correlative. The authors show that C-score is elevated at CTCF sites and that this is partly explained by the motif sequence. However, they do not test whether this elevated cyclizability is functionally relevant, nor do they compare against a null model that accounts for local sequence composition around CTCF sites. The claim that this is "inherent to the CTCF binding motif" is supported by the simulation, but the simulation only uses the motif model and random flanking sequence, which may not capture the full genomic context.
+  - **Why it matters** The biological interpretation of this finding is speculative. Without a more rigorous statistical framework or functional validation, the claim of conservation and inherent motif properties may be overstated.
+  - **Resolution test** Perform a permutation-based null model that preserves local GC content and dinucleotide frequencies around CTCF sites. Additionally, test whether the elevated C-score at CTCF sites is independent of nucleosome positioning signals.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The model can be applied to sequences of any length, and the web server supports prediction up to 20,000 bp.
+  - **Evidence pointer** Methods section, Figure 7
+  - **Concern** The model is trained on 50 bp sequences. The manuscript does not explain how predictions are made for longer sequences. Is a sliding window approach used? If so, how are the window scores aggregated? The description of the web server and standalone package is minimal, and no instructions or examples are provided.
+  - **Why it matters** For the tool to be useful to the community, the prediction procedure for arbitrary sequences must be clearly documented. Ambiguity here limits reproducibility and usability.
+  - **Resolution test** Provide a clear description of the prediction procedure for sequences longer than 50 bp, including any windowing or aggregation steps. Include a worked example in the documentation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Figure 2E
+  - **Evidence pointer** Results section, Figure 2E
+  - **Issue** The description of Figure 2E is brief. It is unclear how the quartiles are defined and what exactly is plotted.
+  - **Required correction** Expand the figure legend and text to clarify the quartile definition and the quantities plotted.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model architecture
+  - **Evidence pointer** Methods section, Figure 1B
+  - **Issue** The model architecture is described at a high level, but specific details such as the number of layers, filter sizes, and the size of the LSTM layer are not provided.
+  - **Required correction** Provide a table or detailed text description of the full architecture, including all hyperparameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code and data availability
+  - **Evidence pointer** Data Availability section
+  - **Issue** The statement "R/Python codes for data processing are available upon request" is vague and not in line with modern reproducibility standards.
+  - **Required correction** Make all code and processed data publicly available in a permanent repository with a DOI.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Cross-species comparison
+  - **Evidence pointer** Results section, Figure 4A
+  - **Issue** The cross-species comparison is based on mean C-scores, but the manuscript does not discuss potential confounding factors such as GC content variation across genomes.
+  - **Required correction** Add a discussion of potential confounders and, if possible, control for GC content in the comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model evaluation protocol), R1-M2 (detrending transferability)
+- **Assessment against Nature-style criteria** Originality: The work is original in its application of a hybrid deep learning architecture to cyclizability prediction and in the serendipitous finding regarding CTCF sites. Scientific importance: The tool addresses a real need and the CTCF finding could be significant, but the functional implications are not explored. Interdisciplinary readership: The work bridges genomics, biophysics, and machine learning, and should be accessible to a broad audience. Technical soundness: The core approach is sound, but the evaluation protocol and detrending details are insufficiently described, which undermines confidence. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some methodological details are dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The tool is potentially valuable, and the validation is promising. However, the lack of detail on model evaluation and the detrending procedure must be addressed before the claims of high fidelity and cross-species applicability can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that the detrending procedure provides a "unified baseline" for cross-species comparison is not fully supported, as the authors acknowledge they cannot verify its transferability.
+- The claim that dinucleotide motifs contribute "up to 46%" (L3 data) or "up to 30%" (nucleosome data) of the increased cyclizability is based on a specific simulation setup and may not generalize.
+- The claim that the elevated C-score at CTCF sites is "inherent to the CTCF binding motif" is supported only by simulation with random flanking sequences and may not reflect genomic context.
+- The reported prediction accuracies (e.g., 0.916) are presented without confidence intervals or variance, making it difficult to assess their reliability.

@@ -1,0 +1,259 @@
+{
+  "identity": {
+    "pmid": "40603761",
+    "doi": "10.1007/s12013-025-01818-y",
+    "title": "DCAF13 Regulates Cell Proliferation and Immune Escape of Hepatocellular Carcinoma Through Activating the NF-kappaB Pathway."
+  },
+  "content": {
+    "abstract": "Hepatocellular carcinoma (HCC), the third leading cause of global cancer deaths, has a high unmet clinical need due to limited therapeutic efficacy. Immune escape mechanisms in the tumor microenvironment further complicate treatment. Advances in bioinformatics and machine learning offer potential for identifying novel biomarkers and therapeutic targets. This study aimed to identify immune-related prognostic biomarkers for HCC using integrative bioinformatics and machine learning, and validate their functional roles in tumor progression and immune escape. mRNA data from TCGA and GEO databases were analyzed to identify differentially expressed genes (DEGs). Weighted gene co-expression network analysis (WGCNA) and three machine learning models (Random Forest, Boruta, XGBoost) were applied to screen key genes. Candidate genes were validated using qRT-PCR, Western blot, and functional assays (CCK8, colony formation, LDH, flow cytometry) in HCC tissues and cell lines. Immune correlations were assessed via CIBERSORT, and TNF-alpha/NF-kappaB pathway involvement was investigated. Total 26 genes were screened as HCC biomarkers through machine learning analysis. DCAF13 emerging as an independent prognostic factor. It was overexpressed in HCC tissues and cells, correlating with poor survival. Sh-DCAF13 suppressed proliferation, reduced PD-L1 expression, enhanced CD8 + T cell cytotoxicity, and decreased T cell apoptosis, inhibiting immune escape. TNF-alpha overexpression reversed these effects by restoring NF-kappaB activation. DCAF13 is a promising therapeutic target for HCC. Its role in modulating immune escape via the NF-kappaB pathway highlights potential strategies for personalized immunotherapy. Integrating machine learning with experimental validation provides a robust framework for biomarker discovery in oncology.",
+    "keywords": [
+      "DCAF13",
+      "Hepatocellular carcinoma",
+      "Immune escape",
+      "NF-kappaB pathway",
+      "Proliferation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/pathology/immunology/metabolism/genetics",
+      "*Liver Neoplasms/pathology/immunology/metabolism/genetics",
+      "Cell Proliferation",
+      "*NF-kappa B/metabolism",
+      "*Signal Transduction",
+      "Cell Line, Tumor",
+      "Biomarkers, Tumor/metabolism/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "*Tumor Escape",
+      "Machine Learning",
+      "B7-H1 Antigen/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "An, Yuan",
+        "Duan, Ruiheng",
+        "Guan, Lianyue"
+      ],
+      "short_names": [
+        "An Y",
+        "Duan R",
+        "Guan L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Hepatobiliary-pancreatic Surgery, China-Japan Union Hospital of Jilin University, Changchun, Jilin, China.",
+        "Department of Hepatobiliary-pancreatic Surgery, China-Japan Union Hospital of Jilin University, Changchun, Jilin, China.",
+        "Department of Hepatobiliary-pancreatic Surgery, China-Japan Union Hospital of Jilin University, Changchun, Jilin, China. guanly@jlu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "An, Yuan",
+        "short_name": "An Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary-pancreatic Surgery, China-Japan Union Hospital of Jilin University, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Ruiheng",
+        "short_name": "Duan R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary-pancreatic Surgery, China-Japan Union Hospital of Jilin University, Changchun, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Guan, Lianyue",
+        "short_name": "Guan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary-pancreatic Surgery, China-Japan Union Hospital of Jilin University, Changchun, Jilin, China. guanly@jlu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell biochemistry and biophysics"
+    ],
+    "journal_abbrev": [
+      "Cell Biochem Biophys"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/03 00:27",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [
+      "42060013",
+      "41956008",
+      "41677613"
+    ],
+    "refs": [
+      "39008536",
+      "38297333",
+      "38163876",
+      "37287096",
+      "36934105",
+      "36747292",
+      "36650126",
+      "36359803",
+      "35902399",
+      "35178836",
+      "35053580",
+      "34380537",
+      "33857330",
+      "33653774",
+      "33390170",
+      "32952338",
+      "32466319",
+      "31904426",
+      "31413906",
+      "30520029",
+      "28674001",
+      "11854600"
+    ],
+    "similar": [
+      "40603761",
+      "32971102",
+      "38104877",
+      "41179305",
+      "39252517",
+      "41299786",
+      "41293954",
+      "41380855",
+      "41314977",
+      "38824477",
+      "40023249",
+      "38709266",
+      "39901136",
+      "38988824",
+      "31901862",
+      "41014359",
+      "41016345",
+      "38936058",
+      "40032894",
+      "40097840",
+      "41310383",
+      "40330476",
+      "29764501",
+      "38694506",
+      "40330470",
+      "40615535",
+      "41200185",
+      "31176678",
+      "39353381",
+      "39904830",
+      "41208969",
+      "33310033",
+      "40533619",
+      "39652084",
+      "40211257",
+      "36369791",
+      "39217442",
+      "40708455",
+      "40956482",
+      "39773565",
+      "31208444",
+      "41238928",
+      "31071366",
+      "41502516",
+      "41203170",
+      "40312488",
+      "34676904",
+      "39654899",
+      "41271048",
+      "40407788",
+      "39859485",
+      "25580008",
+      "41137296",
+      "40374855",
+      "33992711",
+      "40183270",
+      "38417530",
+      "41019083",
+      "40475760",
+      "41357200",
+      "38969205",
+      "40050608",
+      "40215823",
+      "31477445",
+      "40133221",
+      "39060025",
+      "25947641",
+      "40645977",
+      "40621461",
+      "40051634",
+      "40498401",
+      "32015685",
+      "31678303",
+      "41041339",
+      "41268553",
+      "30902885",
+      "28648905",
+      "39085893",
+      "29784005",
+      "39504687",
+      "39433650",
+      "31113805",
+      "21853301",
+      "39434012",
+      "37306737",
+      "29774077",
+      "37858067",
+      "40848045",
+      "38766816",
+      "35414780",
+      "33707115",
+      "34307695",
+      "40116585",
+      "32107085",
+      "38992675",
+      "40109873",
+      "38802416",
+      "40594698",
+      "39606242",
+      "40074769"
+    ],
+    "review": [
+      "40603761"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12013-025-01818-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD274-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

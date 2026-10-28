@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35378437",
+  "title": "DeepDNAbP: A deep learning-based hybrid approach to improve the identification of deoxyribonucleic acid-binding proteins.",
+  "authors": "Hosen, Md Faruk; Mahmud, S M Hasan; Ahmed, Kawsar; Chen, Wenyu; Moni, Mohammad Ali; Deng, Hong-Wen; Shoombuatong, Watshara; Hasan, Md Mehedi",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2022-04-05",
+  "window": {
+    "start": "2022-04-04",
+    "end": "2022-04-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用CNN结合PSSM等特征预测DNA结合蛋白，属于广义蛋白-DNA互作识别，但仅基于序列分类，未涉及TF-DNA特异性结合或三维互作机制建模，方法可迁移但深度有限。",
+  "abstract": "Accurate identification of DNA-binding proteins (DBPs) is critical for both understanding protein function and drug design. DBPs also play essential roles in different kinds of biological activities such as DNA replication, repair, transcription, and splicing. As experimental identification of DBPs is time-consuming and sometimes biased toward prediction, constructing an effective DBP model represents an urgent need, and computational methods that can accurately predict potential DBPs based on sequence information are highly desirable. In this paper, a novel predictor called DeepDNAbP has been developed to accurately predict DBPs from sequences using a convolutional neural network (CNN) model. First, we perform three feature extraction methods, namely position-specific scoring matrix (PSSM), pseudo-amino acid composition (PseAAC) and tripeptide composition (TPC), to represent protein sequence patterns. Secondly, SHapley Additive exPlanations (SHAP) are employed to remove the redundant and irrelevant features for predicting DBPs. Finally, the best features are provided to the CNN classifier to construct the DeepDNAbP model for identifying DBPs. The final DeepDNAbP predictor achieves superior prediction performance in K-fold cross-validation tests and outperforms other existing predictors of DNA-protein binding methods. DeepDNAbP is poised to be a powerful computational resource for the prediction of DBPs. The web application and curated datasets in this study are freely available at: http://deepdbp.sblog360.blog/.",
+  "abstract_zh": "DNA结合蛋白（DBPs）的准确识别对于理解蛋白质功能和药物设计至关重要。DBPs在多种生物活动中也扮演着关键角色，如DNA复制、修复、转录和剪接。由于实验鉴定DBPs耗时且有时偏向于预测，构建有效的DBP模型显得尤为迫切，基于序列信息能准确预测潜在DBPs的计算方法备受期待。本文开发了一种名为DeepDNAbP的新型预测器，利用卷积神经网络（CNN）模型从序列中准确预测DBPs。首先，我们采用三种特征提取方法，即位置特异性评分矩阵（PSSM）、伪氨基酸组成（PseAAC）和三肽组成（TPC），来表征蛋白质序列模式。其次，利用SHapley加性解释（SHAP）去除预测DBPs时的冗余和不相关特征。最后，将最优特征输入CNN分类器，构建DeepDNAbP模型以识别DBPs。最终的DeepDNAbP预测器在K折交叉验证测试中展现出优越的预测性能，并优于其他现有的DNA-蛋白质结合预测方法。DeepDNAbP有望成为预测DBPs的强大计算资源。本研究的网络应用和精选数据集可在以下网址免费获取：http://deepdbp.sblog360.blog/。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35378437/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35378437/",
+  "paper_page_path": "papers/pubmed/35378437/index.html"
+}

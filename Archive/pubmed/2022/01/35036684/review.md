@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, experimental procedures) and metadata (title, authors, journal, date, DOI, URL)
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the supplied text. No supplementary figures, tables, or raw data were available for direct inspection.
+- **Shared manuscript claim summary** The authors report that mutating a conserved asparagine (N182) in the bZIP domain of the Epstein–Barr virus transcription factor Zta to glutamine or serine alters its double-stranded DNA (dsDNA) binding specificity, as measured by protein binding microarrays (PBMs) across four types of dsDNA (unmodified, 5mC, 5hmC, and fully methylated CG). Molecular dynamics (MD) simulations are used to rationalize observed changes in binding specificity.
+- **Visible evidence base** Main text figures and tables are referenced but not shown. The manuscript includes descriptions of PBM experiments, Z-score analyses, sequence logos, single nucleotide variant (SNV) analyses, and MD simulation results (Table 2). Experimental procedures are described in detail.
+- **Missing materials affecting confidence** All figures, tables (including Table 1, Table 2, Tables S1–S8), supplementary figures, and raw data (GEO accession numbers) were not provided. This limits independent verification of quantitative claims, statistical analyses, and MD simulation details.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a focused and mechanistically interesting question: how a single conserved amino acid in a bZIP domain contributes to DNA binding specificity, including recognition of modified cytosines. The experimental design using PBMs across multiple DNA modifications is appropriate and the inclusion of MD simulations adds a structural dimension. However, the central claims regarding new binding specificities for N182Q and N182S are only partially supported by the evidence described in the text. The lack of access to figures and tables prevents full evaluation of data quality, statistical robustness, and the strength of the MD-based rationalizations. The manuscript is technically sound in its approach but the case for a definitive mechanism, particularly for the serine mutant, is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying transcription factor–DNA recognition, particularly bZIP proteins, and those interested in how epigenetic DNA modifications (5mC, 5hmC) are read by DNA-binding domains. The work may also appeal to investigators using protein binding microarrays or molecular dynamics to probe protein–DNA interactions, and to those interested in engineering DNA-binding specificity for synthetic biology or therapeutic applications.
+- **Major strengths** The study uses a well-established high-throughput platform (PBMs) to systematically evaluate binding across thousands of sequences and four DNA modification states. The choice of five similarly sized amino acid substitutions is a logical approach to isolate the role of side-chain chemistry. The inclusion of MD simulations to complement experimental binding data is a valuable addition. The authors are transparent about limitations, such as the inability of MD to explain the serine preference for G3.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for central claim
+  - **Claim pointer** The authors claim that Zta(N182Q) changes binding to A3 in only one half-site, and Zta(N182S) changes binding to G3 in one or both halves of the motif, based on PBM data.
+  - **Evidence pointer** Results section "Zta, Zta(N182Q), and Zta(N182S) Binding Single Nucleotide Variants (SNVs) of Five 7-mers"; Table 1 (not provided); Figures 1A and 1B (not provided)
+  - **Concern** The central claim of altered binding specificity rests on Z-score comparisons and sequence logos, but the actual data (figures, tables) are not available for inspection. The text describes differences in Z-scores (e.g., 97 vs 60 for C3 vs A3 for Zta; 61 vs 24 for G-3 vs T-3 for N182Q) but does not provide statistical measures (e.g., confidence intervals, replicate variability) or a clear threshold for what constitutes a meaningful change in specificity. Without access to the underlying data, it is not possible to assess whether the reported specificity changes are robust and reproducible.
+  - **Why it matters** The primary conclusion of the paper—that specific point mutations alter DNA binding specificity—depends entirely on the reliability and interpretation of the PBM data. If the Z-score differences are not statistically validated or if the specificity changes are not consistently observed across replicates, the central claim would be weakened.
+  - **Resolution test** Provide the full PBM data (Z-scores for all 8-mers, replicate information, and statistical analyses) and the sequence logos for all mutants and DNA types. Demonstrate that the reported specificity changes are statistically significant and reproducible across biological replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic interpretation from MD simulations
+  - **Claim pointer** The authors state that MD simulations rationalize some results, identifying hydrogen bonds between glutamine and A3, but do not reveal why serine preferentially binds G3, suggesting entropic interactions may mediate this new binding specificity.
+  - **Evidence pointer** Results section "Structural Analysis"; Table 2 (not provided); Figures S22A and S22B (not provided)
+  - **Concern** The MD simulations are used to provide a structural rationale for the experimental observations, but the details of the simulations (force field parameters, equilibration protocol, convergence criteria, number of replicates) are only briefly described. The hydrogen bond frequencies reported in Table 2 are not accompanied by error estimates or a discussion of whether the simulations reached equilibrium. The claim that entropic effects may explain the serine preference for G3 is speculative and not supported by any quantitative entropic analysis (e.g., free energy calculations, entropy decomposition).
+  - **Why it matters** The MD component is presented as a key contribution to understanding the mechanistic basis of altered specificity. If the simulations are not rigorously validated or if the interpretation is overly speculative, the mechanistic claims are not established.
+  - **Resolution test** Provide additional details on MD simulation convergence and reproducibility. Include error bars or standard deviations for hydrogen bond frequencies. If entropic effects are invoked, perform and report free energy calculations or entropy analyses to support this claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of findings
+  - **Claim pointer** The authors suggest that the N182 mutants "could be interesting biological probes to explore how different sequences in the genome are accessed."
+  - **Evidence pointer** Discussion section
+  - **Concern** The claim that these mutants could serve as biological probes is speculative and not supported by any experimental evidence in this manuscript. No cellular or genomic experiments are presented to demonstrate that the altered specificity translates to differential genomic occupancy or functional outcomes.
+  - **Why it matters** This claim extends the significance of the work beyond the in vitro binding data, but without supporting evidence, it remains an untested hypothesis. Overstating the potential applications may mislead readers about the current state of the findings.
+  - **Resolution test** Either temper this claim to reflect that it is a speculative suggestion, or provide preliminary data (e.g., ChIP-seq, reporter assays) demonstrating that the mutants can indeed access different genomic sequences in a biological context.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Abstract and Results section
+  - **Evidence pointer** Abstract: "Zta(N182Q) changes binding to A3 in only one half-site"
+  - **Issue** The phrase "changes binding to A3" is ambiguous. It is unclear whether this means increased binding, decreased binding, or a change in specificity relative to the wild-type protein.
+  - **Required correction** Clarify the direction and magnitude of the change, e.g., "Zta(N182Q) increases binding to A3 in one half-site relative to wild-type Zta."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section, Z-score analyses
+  - **Evidence pointer** Results section "Zta, Zta(N182Q), and Zta(N182S) Binding Single Nucleotide Variants (SNVs) of Five 7-mers"
+  - **Issue** Z-scores are reported as single values without measures of variability or statistical significance. It is unclear how many replicates were used and whether the differences between Z-scores are statistically meaningful.
+  - **Required correction** Report the number of replicates, standard deviations or confidence intervals for Z-scores, and the results of appropriate statistical tests (e.g., t-tests or ANOVA) comparing conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Experimental Procedures, Molecular Dynamics Simulations
+  - **Evidence pointer** Experimental Procedures section "Molecular Dynamics Simulations"
+  - **Issue** The description of the MD simulations lacks key details, such as the number of independent simulations performed, the total simulation time per system, and how hydrogen bond frequencies were calculated from the trajectories.
+  - **Required correction** Provide a more complete description of the simulation protocol, including the number of replicates, total simulation time, and the criteria used to define hydrogen bonds.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of negative design
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion: "Negative design is a term that captures this avoidance property."
+  - **Issue** The concept of negative design is introduced and applied to the observed specificity changes, but the connection between the experimental data and this concept is not clearly articulated. It is not evident how the data demonstrate avoidance of interactions rather than simply a lack of favorable interactions.
+  - **Required correction** Clarify how the experimental results specifically support a negative design mechanism, or present negative design as one possible interpretation among several.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical validation of specificity changes) and R1-M2 (rigor of MD simulation analysis) are the primary technical issues. Without access to the underlying data and additional analyses, the central claims of altered specificity and its mechanistic basis are not fully established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its systematic examination of a single conserved residue across multiple DNA modification states, and the combination of PBM and MD is a useful approach. However, the concept that single amino acid changes can alter DNA binding specificity is well established in the transcription factor field.
+  - **Scientific importance** The findings are of moderate importance. They provide insight into how a conserved asparagine contributes to DNA recognition, including modified cytosines, which is relevant to understanding epigenetic regulation by bZIP factors. However, the study does not address the functional consequences of altered specificity in a cellular context, limiting its broader impact.
+  - **Interdisciplinary readership** The work will primarily appeal to biochemists, molecular biologists, and computational biologists interested in protein–DNA interactions. The use of PBMs and MD simulations may attract readers from genomics and biophysics, but the scope is relatively narrow.
+  - **Technical soundness** The experimental approach is sound, but the lack of statistical rigor in the PBM analysis and the incomplete description of MD simulations are concerns. The manuscript would benefit from more detailed reporting of data and analyses.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but some sections (e.g., the description of Z-score calculations and MD simulations) may be challenging for readers without a background in these techniques. The abstract is clear and concise.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question and uses appropriate methods, but the central claims require stronger statistical support and more rigorous MD analysis. If the authors can provide the missing data and address the concerns raised, the work would be a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that Zta(N182Q) and Zta(N182S) exhibit new DNA binding specificities is not fully supported without access to the underlying PBM data and statistical analyses.
+- The suggestion that entropic interactions may mediate the serine preference for G3 is speculative and not supported by quantitative analyses.
+- The statement that the mutants "could be interesting biological probes" is an untested hypothesis and not supported by experimental evidence in this manuscript.
+- The claim that MD simulations "rationalize" the experimental results is only partially supported, as the simulations do not explain the serine-G3 preference and the hydrogen bond frequencies are not rigorously quantified.

@@ -1,0 +1,265 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.30.679553",
+  "title": "Long-Read epigenetic clocks identify improved brain aging predictions",
+  "doi": "10.1101/2025.09.30.679553",
+  "abstract": "Epigenetic clocks are widely used to estimate biological aging, yet most are built from array-based data from peripheral tissues of predominantly European-ancestry individuals, limiting their generalizability. Here, we present aging clocks on DNA methylation from Oxford Nanopore long-read sequencing (LRS), leveraging over 28 million CpG sites from prefrontal cortex samples across individuals of African and European ancestry. These models were developed using GenoML, an automated machine learning platform for multi-omics data that leverages a diverse catalog of existing model architectures. Our long-read-informed clocks were developed using promoter-based and whole-genome window-based features, yielding models for each individual cohort as well as a combined-cohort clock. Each of these models demonstrated favorable performance compared to existing methylation clocks and was externally validated in a cohort of Colombian individuals. We further performed enrichment analyses and nominated both shared and cohort-specific pathways, cell types, and transcription factor binding motifs which may be implicated in aging and were not fully explained by cell type proportions or postmortem interval. Altogether, our findings highlight the power of long-read methylation data for constructing accurate, ancestry-aware aging clocks and emphasize the importance of inclusive training datasets.",
+  "authors": [
+    "Grant SM",
+    "Eger SJ",
+    "Makarious MB",
+    "Meredith M",
+    "Moller A",
+    "Grant-Peters M",
+    "Hicks A",
+    "Mandal A",
+    "Auluck P",
+    "Villegas-Lanau A",
+    "Mejia-Cupajita B",
+    "Acosta-Uribe J",
+    "Aguillón D",
+    "Leonard H",
+    "Kuznetsov N",
+    "Weller C",
+    "Catching A",
+    "Reed X",
+    "Jain M",
+    "Ferrucci L",
+    "Kosik KS",
+    "Cookson MR",
+    "Ryten M",
+    "Nalls MA",
+    "Billingsley KJ"
+  ],
+  "published_date": "2025-10-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.30.679553",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.30.679553.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1095456",
+    "raw_record": {
+      "id": "PPR1095456",
+      "source": "PPR",
+      "doi": "10.1101/2025.09.30.679553",
+      "title": "Long-Read epigenetic clocks identify improved brain aging predictions",
+      "authorString": "Grant SM, Eger SJ, Makarious MB, Meredith M, Moller A, Grant-Peters M, Hicks A, Mandal A, Auluck P, Villegas-Lanau A, Mejia-Cupajita B, Acosta-Uribe J, Aguillón D, Leonard H, Kuznetsov N, Weller C, Catching A, Reed X, Jain M, Ferrucci L, Kosik KS, Cookson MR, Ryten M, Nalls MA, Billingsley KJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Grant SM",
+            "lastName": "Grant",
+            "firstName": "Spencer",
+            "initials": "SM"
+          },
+          {
+            "fullName": "Eger SJ",
+            "lastName": "Eger",
+            "firstName": "Sarah",
+            "initials": "SJ"
+          },
+          {
+            "fullName": "Makarious MB",
+            "lastName": "Makarious",
+            "firstName": "Mary",
+            "initials": "MB"
+          },
+          {
+            "fullName": "Meredith M",
+            "lastName": "Meredith",
+            "firstName": "Melissa",
+            "initials": "M"
+          },
+          {
+            "fullName": "Moller A",
+            "lastName": "Moller",
+            "firstName": "Abraham",
+            "initials": "A"
+          },
+          {
+            "fullName": "Grant-Peters M",
+            "lastName": "Grant-Peters",
+            "firstName": "Melissa",
+            "initials": "M"
+          },
+          {
+            "fullName": "Hicks A",
+            "lastName": "Hicks",
+            "firstName": "Amy",
+            "initials": "A"
+          },
+          {
+            "fullName": "Mandal A",
+            "lastName": "Mandal",
+            "firstName": "Ajeet",
+            "initials": "A"
+          },
+          {
+            "fullName": "Auluck P",
+            "lastName": "Auluck",
+            "firstName": "Pavan",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2390-8110"
+            }
+          },
+          {
+            "fullName": "Villegas-Lanau A",
+            "lastName": "Villegas-Lanau",
+            "firstName": "Andrés",
+            "initials": "A"
+          },
+          {
+            "fullName": "Mejia-Cupajita B",
+            "lastName": "Mejia-Cupajita",
+            "firstName": "Bárbara",
+            "initials": "B"
+          },
+          {
+            "fullName": "Acosta-Uribe J",
+            "lastName": "Acosta-Uribe",
+            "firstName": "Juliana",
+            "initials": "J"
+          },
+          {
+            "fullName": "Aguillón D",
+            "lastName": "Aguillón",
+            "firstName": "David",
+            "initials": "D"
+          },
+          {
+            "fullName": "Leonard H",
+            "lastName": "Leonard",
+            "firstName": "Hampton",
+            "initials": "H"
+          },
+          {
+            "fullName": "Kuznetsov N",
+            "lastName": "Kuznetsov",
+            "firstName": "Nicole",
+            "initials": "N"
+          },
+          {
+            "fullName": "Weller C",
+            "lastName": "Weller",
+            "firstName": "Cory",
+            "initials": "C"
+          },
+          {
+            "fullName": "Catching A",
+            "lastName": "Catching",
+            "firstName": "Adam",
+            "initials": "A"
+          },
+          {
+            "fullName": "Reed X",
+            "lastName": "Reed",
+            "firstName": "Xylena",
+            "initials": "X"
+          },
+          {
+            "fullName": "Jain M",
+            "lastName": "Jain",
+            "firstName": "Miten",
+            "initials": "M"
+          },
+          {
+            "fullName": "Ferrucci L",
+            "lastName": "Ferrucci",
+            "firstName": "Luigi",
+            "initials": "L"
+          },
+          {
+            "fullName": "Kosik KS",
+            "lastName": "Kosik",
+            "firstName": "Kenneth",
+            "initials": "KS"
+          },
+          {
+            "fullName": "Cookson MR",
+            "lastName": "Cookson",
+            "firstName": "Mark",
+            "initials": "MR"
+          },
+          {
+            "fullName": "Ryten M",
+            "lastName": "Ryten",
+            "firstName": "Mina",
+            "initials": "M"
+          },
+          {
+            "fullName": "Nalls MA",
+            "lastName": "Nalls",
+            "firstName": "Mike",
+            "initials": "MA"
+          },
+          {
+            "fullName": "Billingsley KJ",
+            "lastName": "Billingsley",
+            "firstName": "Kimberley",
+            "initials": "KJ"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2390-8110"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Epigenetic clocks are widely used to estimate biological aging, yet most are built from array-based data from peripheral tissues of predominantly European-ancestry individuals, limiting their generalizability. Here, we present aging clocks on DNA methylation from Oxford Nanopore long-read sequencing (LRS), leveraging over 28 million CpG sites from prefrontal cortex samples across individuals of African and European ancestry. These models were developed using GenoML, an automated machine learning platform for multi-omics data that leverages a diverse catalog of existing model architectures. Our long-read-informed clocks were developed using promoter-based and whole-genome window-based features, yielding models for each individual cohort as well as a combined-cohort clock. Each of these models demonstrated favorable performance compared to existing methylation clocks and was externally validated in a cohort of Colombian individuals. We further performed enrichment analyses and nominated both shared and cohort-specific pathways, cell types, and transcription factor binding motifs which may be implicated in aging and were not fully explained by cell type proportions or postmortem interval. Altogether, our findings highlight the power of long-read methylation data for constructing accurate, ancestry-aware aging clocks and emphasize the importance of inclusive training datasets.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.09.30.679553"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc0",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-10-05",
+      "firstPublicationDate": "2025-10-03",
+      "firstIndexDate": "2025-10-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

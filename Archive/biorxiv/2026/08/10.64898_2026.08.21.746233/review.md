@@ -1,0 +1,84 @@
+## Review setup
+
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors propose an interpretable machine learning approach (Elastic Net) to derive an optimized collective variable (CV) from the transition state region, which accelerates ligand binding-unbinding transitions in molecular dynamics simulations, achieves rapid free energy surface convergence across diverse systems, yields binding free energies and residence times consistent with experiments at low computational cost, and is transferable across systems.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or system-specific data are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation parameters, error estimates, and comparison datasets
+
+## Reviewer
+
+- **Overall assessment** The abstract presents a potentially valuable approach to a well-recognized challenge in enhanced sampling simulations, namely the construction of effective collective variables. The claim of transferability and the observed role of ligand solvation are scientifically interesting. However, the abstract lacks the quantitative and methodological detail necessary to evaluate the validity, robustness, and generalizability of the proposed method. Several claims are stated without supporting evidence, and the absence of methodological specifics prevents assessment of technical soundness.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists working on molecular dynamics simulations of protein-ligand interactions, enhanced sampling method developers, and researchers in structure-based drug discovery would be interested. The promise of a transferable, interpretable CV with low computational cost addresses a practical bottleneck in simulating rare binding and unbinding events.
+- **Major strengths** The problem addressed is important and timely. The use of an interpretable ML model (Elastic Net) to derive a CV from the transition state region is a conceptually appealing strategy that may offer advantages over black-box approaches. The reported transferability across diverse systems, if substantiated, would be a significant advance. The identification of ligand hydration as a key contributor to the optimized CV is an intriguing physical insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The derived optimized CV greatly accelerates ligand binding-unbinding transitions and achieves rapid free energy surface convergence across diverse systems.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative acceleration factors, convergence metrics, or comparison against standard CVs or other enhanced sampling methods are provided. The claim of "greatly accelerate" and "rapid convergence" cannot be assessed without numerical benchmarks.
+  - **Why it matters** The central value proposition of the method is its efficiency gain. Without quantitative comparison to established approaches, the significance of the claimed acceleration is unknown.
+  - **Resolution test** Provide convergence times, free energy profiles, and acceleration factors relative to well-defined baselines (e.g., conventional CVs, other ML-based CVs) for each system studied.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The estimated binding free energies for different protein-ligand complexes match quite well with experiments.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No numerical values, error bars, or statistical comparison to experimental data are reported. "Quite well" is not a quantitative assessment.
+  - **Why it matters** Agreement with experiment is a key validation of the method. Without explicit numbers and uncertainties, the claim is unfalsifiable from the provided material.
+  - **Resolution test** Report computed and experimental binding free energies with uncertainties for each system, including statistical measures of agreement (e.g., mean absolute error, correlation).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The optimized CV constructed from TS region via an interpretable ML model is transferable across diverse systems.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The basis for transferability is not described. It is unclear whether the same CV functional form is applied without re-optimization, whether parameters are transferred, or whether the CV is re-derived for each system. The mechanism of transferability is a central claim and is undefined.
+  - **Why it matters** Transferability is a strong claim that, if true, would distinguish this work from system-specific CV approaches. The current description does not allow evaluation of how transferability is achieved or tested.
+  - **Resolution test** Clearly define the transfer protocol, specify which parameters are fixed versus re-optimized, and demonstrate transferability with explicit cross-system validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The derived optimized CV is also used to calculate the ligand residence times across different systems and calculated residence times are within the experimental range for all systems.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No residence time values, experimental ranges, or simulation lengths are provided. The claim of agreement with experiment is unverifiable.
+  - **Why it matters** Residence times are kinetically meaningful observables. Without quantitative reporting, the claim cannot be assessed.
+  - **Resolution test** Report computed and experimental residence times with uncertainties and the simulation time scales used.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** System nomenclature
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** "Trpsin-benzamidine complex" appears to be a typographical error for "Trypsin-benzamidine complex."
+  - **Required correction** Correct the spelling to "Trypsin-benzamidine complex."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** System list
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract lists "host-guest systems and sodium epoxidase etc." without specifying the number of systems or their identities. The "etc." is vague.
+  - **Required correction** Enumerate all systems studied and specify the number of distinct systems.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** Physical insight claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that "significant contribution of the ligand hydration is found in the optimized CV" is stated without explanation of how hydration is represented in the CV or what "significant" means quantitatively.
+  - **Required correction** Define the hydration-related order parameters and report their coefficients or importance weights in the optimized CV.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative results, methodological detail, and validation metrics means the central claims of acceleration, accuracy, and transferability are not established from the provided material.
+- **Assessment against Nature-style criteria** Originality: The concept of deriving a CV from the transition state region using an interpretable linear model is a novel contribution, though the broader idea of ML-derived CVs is not new. Scientific importance: The problem of efficient and transferable CVs for protein-ligand binding is of high importance to the simulation community. Interdisciplinary readership: The work bridges machine learning, statistical mechanics, and drug discovery, which could appeal to a broad audience if the claims are substantiated. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological and quantitative detail is a major limitation. Readability for nonspecialists: The abstract is generally accessible, though some terms (e.g., "collective variables," "free energy surface") assume familiarity with molecular simulation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting idea, but the absence of quantitative results and methodological detail prevents assessment of the core claims. A full manuscript with rigorous benchmarks and validation would be required to evaluate the approach.
+
+## Risk / unsupported claims
+
+- The claim of "greatly accelerate" transitions is unsupported without quantitative acceleration metrics.
+- The claim that binding free energies "match quite well with experiments" is unsupported without numerical values and uncertainties.
+- The claim of transferability across diverse systems is unsupported without a defined transfer protocol and cross-system validation.
+- The claim that residence times are "within the experimental range for all systems" is unsupported without reported values.
+- The claim of "low computational cost" is unsupported without runtime or resource comparisons.
+- The physical insight regarding ligand solvation is intriguing but unquantified and therefore not assessable.

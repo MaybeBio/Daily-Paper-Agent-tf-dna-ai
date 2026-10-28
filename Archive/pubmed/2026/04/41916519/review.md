@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The study integrates computational (QM, MD, protein-DNA docking) and experimental (AUC, ITC, DSC, EPR, NMR, CD, EMSA) methods to characterize wild-type MntR from Mycobacterium tuberculosis, selected mutants, and the protein-DNA complex. Key claims include that Mn(2+) binding to the mononuclear site controls the distance and orientation of DNA-binding helices, that a noncovalent interaction network between the DNA-binding and FeoA-like domains is functionally important, that the R167A mutant disrupts this network and alters MntR properties, and that a novel DNA binding motif was identified and validated.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or data presentation are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, simulation parameters, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a broad and ambitious multi-method study of a biologically relevant transcription factor. The central hypothesis, that Mn(2+) binding allosterically primes the DNA-binding helices through a defined interdomain interaction network, is mechanistically plausible and of potential interest to the tuberculosis and metalloregulator communities. However, the abstract provides no quantitative data, no statistical measures, no structural or thermodynamic parameters, and no direct comparison of mutant versus wild-type behavior. As such, the strength of the evidence cannot be evaluated, and several claims appear to exceed what the described methods alone could establish without detailed supporting data. The novelty of the proposed DNA binding motif is also unclear without sequence or structural context.
+- **Who would be interested in the results, and why** Researchers studying metal-dependent transcription factors, particularly in Mycobacterium tuberculosis, will be interested in the proposed allosteric mechanism linking Mn(2+) occupancy to DNA-binding competence. The biophysical community may value the multi-technique characterization, and those working on FeoA-like domains or MntR orthologs could find the interaction network analysis useful. The potential new DNA binding motif, if validated, would interest those studying MntR regulon structure.
+- **Major strengths** The combination of computational and experimental methods is comprehensive and appropriate for a biophysical characterization. The focus on a specific mechanistic hypothesis, rather than a purely descriptive study, is commendable. The identification of a specific residue (R167) as an interaction hub provides a testable and experimentally addressed point. The study addresses a clinically relevant organism and a regulator of metal homeostasis, which has potential translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Molecular dynamics simulations revealed that the binding of Mn(2+) into the mononuclear metal-binding site is crucial for the distance and orientation of the DNA-binding helices of the protein, which is necessary for adequate DNA binding."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim that Mn(2+) binding is "crucial" for helix distance and orientation, and that this is "necessary for adequate DNA binding," is presented as a definitive conclusion. However, no quantitative measures are given, such as helix distance values, orientation angles, or binding affinities in the presence versus absence of Mn(2+). The abstract does not state whether the MD simulations were validated against experimental structures or whether the DNA-binding experiments (EMSA) were performed under metal-free versus metal-bound conditions.
+  - **Why it matters** The central mechanistic claim of the paper rests on this correlation between metal binding, conformational change, and DNA-binding competence. Without quantitative evidence and appropriate controls, the causal link cannot be assessed. Overstatement of simulation results as "crucial" without experimental corroboration is a common source of overinterpretation.
+  - **Resolution test** Provide quantitative metrics from MD (e.g., helix distance distributions, RMSD, principal component analysis) and corresponding EMSA data with and without Mn(2+), including binding constants or at least dose-response curves. Show that the conformational change is statistically significant and that DNA binding is measurably reduced in the absence of Mn(2+).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The R167A mutant was also experimentally characterized, and the results showed the importance of the interaction hub between the N-terminal domain and C-terminal domain and its influence on overall MntR properties."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that R167A was characterized and that results "showed the importance" of the interaction hub, but no specific experimental outcomes are reported. It is unclear which techniques were applied to R167A, what differences were observed relative to wild-type, and whether these differences were statistically significant. The phrase "overall MntR properties" is vague and could encompass stability, oligomerization, DNA binding, or metal binding, each of which would require distinct evidence.
+  - **Why it matters** The mutant analysis is a key component of the mechanistic argument. Without specific data, the reader cannot determine whether the mutant phenotype supports the proposed interaction network or whether it merely shows a generic loss of function. The claim of "importance" is unfalsifiable as stated.
+  - **Resolution test** Report the specific biophysical parameters measured for R167A (e.g., melting temperature from DSC, dissociation constant from ITC, sedimentation coefficient from AUC, DNA-binding affinity from EMSA) and compare them quantitatively to wild-type with appropriate error and statistical testing. State which properties changed and which were unaffected.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty and validation
+  - **Claim pointer** "A novel potential DNA binding motif for MntR was identified and its interactions with the protein were computationally and experimentally described."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of a "novel potential DNA binding motif" is presented without any sequence information, comparison to known MntR binding motifs, or experimental validation details. It is unclear whether this motif was identified de novo from docking, from sequence analysis, or from experimental binding data. The abstract does not state whether the motif was tested in functional assays (e.g., reporter assays, competition EMSA) or whether it is merely a computational prediction.
+  - **Why it matters** The identification of a new DNA binding motif would be a significant finding, but the term "potential" suggests uncertainty. Without context on how this motif compares to known MntR consensus sequences, its novelty cannot be assessed. The experimental description is not detailed enough to judge whether the interaction is specific and functional.
+  - **Resolution test** Provide the motif sequence, its genomic location(s) in M. tuberculosis, a comparison to previously reported MntR binding sites, and experimental data (e.g., EMSA with mutated motif, competition assays, or in vivo reporter assays) demonstrating specificity and functional relevance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract lists nine methods (QM, MD, protein-DNA docking, AUC, ITC, DSC, EPR, NMR, CD, EMSA) but does not indicate which method was used for which specific question. This makes it difficult to assess whether the methods are appropriately matched to the claims.
+  - **Required correction** Briefly map each method to the specific claim it supports, or state that all methods were applied to all constructs, if that is the case.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Mutant selection
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract mentions "selected mutants" and "in silico prepared mutants" but only names R167A as experimentally characterized. It is unclear how many mutants were studied, which residues were chosen, and why.
+  - **Required correction** List the mutants studied and briefly justify the selection criteria, particularly the choice of R167 as the focus for experimental validation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Mononuclear metal-binding site"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The term "mononuclear metal-binding site" is used without specifying whether this is the primary Mn(2+) site or a secondary site. MntR is known to have both mononuclear and dinuclear sites in some organisms, and the distinction is mechanistically important.
+  - **Required correction** Clarify which site is being referred to and whether the dinuclear site is also present or relevant in M. tuberculosis MntR.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or comparative data to establish the central mechanistic claims, the mutant phenotype, or the novelty of the proposed DNA motif.
+- **Assessment against Nature-style criteria** Originality: The proposed allosteric mechanism linking metal binding to DNA-binding helix orientation is not entirely new in the metalloregulator field, but its application to M. tuberculosis MntR and the specific interaction network may offer a fresh perspective. Scientific importance: The work addresses a regulator of metal homeostasis in a major pathogen, which is of clear biological and potential therapeutic relevance. Interdisciplinary readership: The combination of computational and biophysical methods could appeal to a broad audience, but the abstract does not frame the findings in a way that would engage nonspecialists. Technical soundness: Cannot be assessed from the abstract alone; the methods are appropriate in principle, but no data are shown. Readability for nonspecialists: The abstract is dense and method-heavy, with little explanatory context for the biological significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially interesting study, but the absence of quantitative results, statistical measures, and specific mutant data prevents any assessment of whether the claims are supported. A revised abstract with concrete numbers, comparisons, and clearer method-to-claim mapping would be necessary to evaluate the work.
+
+## Risk / unsupported claims
+- The claim that Mn(2+) binding is "crucial" for DNA-binding helix orientation and that this is "necessary for adequate DNA binding" is unsupported without quantitative MD metrics and EMSA data under metal-free versus metal-bound conditions.
+- The claim that R167A results "showed the importance" of the interaction hub is unsupported without specific experimental outcomes and statistical comparisons to wild-type.
+- The claim of a "novel potential DNA binding motif" is unsupported without sequence information, comparison to known motifs, and experimental validation details.
+- The statement that the interaction network is "important for protein structural and dynamical properties" is vague and unsupported without specific data on which properties were affected and to what degree.

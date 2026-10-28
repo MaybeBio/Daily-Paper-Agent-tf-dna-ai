@@ -1,0 +1,391 @@
+{
+  "identity": {
+    "pmid": "36269758",
+    "doi": "10.1371/journal.pcbi.1010623",
+    "title": "Stochastic dynamics of Type-I interferon responses."
+  },
+  "content": {
+    "abstract": "Interferon (IFN) activates the transcription of several hundred of IFN stimulated genes (ISGs) that constitute a highly effective antiviral defense program. Cell-to-cell variability in the induction of ISGs is well documented, but its source and effects are not completely understood. The molecular mechanisms behind this heterogeneity have been related to randomness in molecular events taking place during the JAK-STAT signaling pathway. Here, we study the sources of variability in the induction of the IFN-alpha response by using MxA and IFIT1 activation as read-out. To this end, we integrate time-resolved flow cytometry data and stochastic modeling of the JAK-STAT signaling pathway. The complexity of the IFN response was matched by fitting probability distributions to time-course flow cytometry snapshots. Both, experimental data and simulations confirmed that the MxA and IFIT1 induction circuits generate graded responses rather than all-or-none responses. Subsequently, we quantify the size of the intrinsic variability at different steps in the pathway. We found that stochastic effects are transiently strong during the ligand-receptor activation steps and the formation of the ISGF3 complex, but negligible for the final induction of the studied ISGs. We conclude that the JAK-STAT signaling pathway is a robust biological circuit that efficiently transmits information under stochastic environments.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Interferon Type I/metabolism",
+      "Signal Transduction",
+      "Interferon-alpha/pharmacology",
+      "Antiviral Agents/pharmacology",
+      "STAT1 Transcription Factor/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maier, Benjamin D",
+        "Aguilera, Luis U",
+        "Sahle, Sven",
+        "Mutz, Pascal",
+        "Kalra, Priyata",
+        "Dachert, Christopher",
+        "Bartenschlager, Ralf",
+        "Binder, Marco",
+        "Kummer, Ursula"
+      ],
+      "short_names": [
+        "Maier BD",
+        "Aguilera LU",
+        "Sahle S",
+        "Mutz P",
+        "Kalra P",
+        "Dachert C",
+        "Bartenschlager R",
+        "Binder M",
+        "Kummer U"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8442-0536",
+        "ORCID: 0000-0003-0609-539X",
+        "ORCID: 0000-0002-0430-2095",
+        "ORCID: 0000-0002-5805-6109",
+        "ORCID: 0000-0002-6413-2382"
+      ],
+      "affiliations": [
+        "Department of Modeling of Biological Processes, COS Heidelberg / Bioquant, Heidelberg University, Heidelberg, Germany.",
+        "Department of Modeling of Biological Processes, COS Heidelberg / Bioquant, Heidelberg University, Heidelberg, Germany.",
+        "Department of Modeling of Biological Processes, COS Heidelberg / Bioquant, Heidelberg University, Heidelberg, Germany.",
+        "Division Virus-Associated Carcinogenesis, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Department for Infectious Diseases, Molecular Virology, Medical Faculty, Heidelberg University, Heidelberg, Germany.",
+        "Department of Modeling of Biological Processes, COS Heidelberg / Bioquant, Heidelberg University, Heidelberg, Germany.",
+        "Research Group \"Dynamics of early viral infection and the innate antiviral response\", German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Department for Infectious Diseases, Molecular Virology, Medical Faculty, Heidelberg University, Heidelberg, Germany.",
+        "Division Virus-Associated Carcinogenesis, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Department for Infectious Diseases, Molecular Virology, Medical Faculty, Heidelberg University, Heidelberg, Germany.",
+        "Research Group \"Dynamics of early viral infection and the innate antiviral response\", German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "Department of Modeling of Biological Processes, COS Heidelberg / Bioquant, Heidelberg University, Heidelberg, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maier, Benjamin D",
+        "short_name": "Maier BD",
+        "identifiers": [
+          "0000-0001-8442-0536"
+        ],
+        "affiliations": [
+          "Department of Modeling of Biological Processes, COS Heidelberg / Bioquant, Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Aguilera, Luis U",
+        "short_name": "Aguilera LU",
+        "identifiers": [
+          "0000-0003-0609-539X"
+        ],
+        "affiliations": [
+          "Department of Modeling of Biological Processes, COS Heidelberg / Bioquant, Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Sahle, Sven",
+        "short_name": "Sahle S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Modeling of Biological Processes, COS Heidelberg / Bioquant, Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Mutz, Pascal",
+        "short_name": "Mutz P",
+        "identifiers": [
+          "0000-0002-0430-2095"
+        ],
+        "affiliations": [
+          "Division Virus-Associated Carcinogenesis, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "Department for Infectious Diseases, Molecular Virology, Medical Faculty, Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Kalra, Priyata",
+        "short_name": "Kalra P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Modeling of Biological Processes, COS Heidelberg / Bioquant, Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Dächert, Christopher",
+        "short_name": "Dächert C",
+        "identifiers": [],
+        "affiliations": [
+          "Research Group \"Dynamics of early viral infection and the innate antiviral response\", German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "Department for Infectious Diseases, Molecular Virology, Medical Faculty, Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Bartenschlager, Ralf",
+        "short_name": "Bartenschlager R",
+        "identifiers": [],
+        "affiliations": [
+          "Division Virus-Associated Carcinogenesis, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+          "Department for Infectious Diseases, Molecular Virology, Medical Faculty, Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Binder, Marco",
+        "short_name": "Binder M",
+        "identifiers": [
+          "0000-0002-5805-6109"
+        ],
+        "affiliations": [
+          "Research Group \"Dynamics of early viral infection and the innate antiviral response\", German Cancer Research Center (DKFZ), Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Kummer, Ursula",
+        "short_name": "Kummer U",
+        "identifiers": [
+          "0000-0002-6413-2382"
+        ],
+        "affiliations": [
+          "Department of Modeling of Biological Processes, COS Heidelberg / Bioquant, Heidelberg University, Heidelberg, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/22 06:00",
+    "fetched_at": "2026-09-28 15:06:37"
+  },
+  "links": {
+    "cites": [
+      "42330080",
+      "41312441",
+      "40388970",
+      "39106307",
+      "38273161",
+      "37669278",
+      "36851915"
+    ],
+    "refs": [
+      "33470404",
+      "33010165",
+      "32696599",
+      "31266943",
+      "30946555",
+      "30879645",
+      "30626670",
+      "29643425",
+      "29514960",
+      "29437874",
+      "29402958",
+      "28659914",
+      "28219373",
+      "27461871",
+      "26824662",
+      "26720415",
+      "26157117",
+      "26030594",
+      "26008745",
+      "25903337",
+      "24413774",
+      "24362405",
+      "23836238",
+      "23821649",
+      "23742268",
+      "23711406",
+      "23685454",
+      "22939981",
+      "22677400",
+      "22617958",
+      "22522091",
+      "22341496",
+      "21921160",
+      "21772264",
+      "21593866",
+      "21543516",
+      "21166595",
+      "20964804",
+      "20950130",
+      "20538602",
+      "19888213",
+      "19668344",
+      "19668183",
+      "19349980",
+      "18713791",
+      "18591661",
+      "18463620",
+      "17942530",
+      "17676063",
+      "17675303",
+      "17640695",
+      "17581038",
+      "17122776",
+      "17032683",
+      "16715097",
+      "16459719",
+      "15883588",
+      "15771573",
+      "12902380",
+      "12593671",
+      "12527385",
+      "12438264",
+      "12183631",
+      "11420660",
+      "10921891",
+      "10851048",
+      "10851046",
+      "10662616",
+      "10491180",
+      "9606194",
+      "9268319",
+      "7679692",
+      "7510764",
+      "6302694",
+      "6292184",
+      "3856251",
+      "3466167",
+      "2845643",
+      "2454816",
+      "1150901"
+    ],
+    "similar": [
+      "36269758",
+      "28561372",
+      "26193702",
+      "28213522",
+      "17559358",
+      "28442624",
+      "28164560",
+      "27328944",
+      "24569457",
+      "7665599",
+      "19109390",
+      "9886402",
+      "24333668",
+      "34495694",
+      "10454351",
+      "26683360",
+      "29892288",
+      "22053375",
+      "27855377",
+      "11601909",
+      "25008919",
+      "16027772",
+      "18279905",
+      "28988797",
+      "16324217",
+      "27053489",
+      "19752753",
+      "26113305",
+      "33811647",
+      "11435558",
+      "19561067",
+      "20957108",
+      "19279093",
+      "29925658",
+      "31231385",
+      "34524541",
+      "29031523",
+      "33445054",
+      "20739522",
+      "34537259",
+      "35144643",
+      "28195391",
+      "26657215",
+      "17785551",
+      "18306331",
+      "24211829",
+      "29580840",
+      "27777077",
+      "15593009",
+      "14699505",
+      "28835499",
+      "29673738",
+      "16146571",
+      "9353349",
+      "11096454",
+      "9605150",
+      "20949125",
+      "20627394",
+      "26251470",
+      "17849321",
+      "29187603",
+      "22114715",
+      "34319780",
+      "7559568",
+      "15964802",
+      "19436942",
+      "25564224",
+      "11097485",
+      "32057771",
+      "20939906",
+      "23913866",
+      "10482599",
+      "33486325",
+      "22171011",
+      "29507205",
+      "12590259",
+      "31288481",
+      "17877826",
+      "33897699",
+      "27929099",
+      "21444704",
+      "24680831",
+      "25589644",
+      "17196131",
+      "21599510"
+    ],
+    "review": [
+      "36269758",
+      "29892288"
+    ],
+    "pmc": [
+      "9629604"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1010623",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36269758/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36269758",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-IFIT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

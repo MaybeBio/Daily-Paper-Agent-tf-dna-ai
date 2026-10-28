@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract and article summary only
+- **Assessment boundary** Claims presented in the abstract and article summary, including experimental findings and in silico predictions
+- **Shared manuscript claim summary** The authors report that five missense mutations in the TBX5 T-box DNA-binding domain (I54T, M74V, I101F, R113K, R237W) alter protein thermal stability and reduce DNA-binding affinity to known TBX5 cognate sites in the Nppa and Camta1 regulatory elements, as assessed by Differential Scanning Fluorimetry and in vitro binding assays, with supporting structural modeling predictions
+- **Visible evidence base** Abstract text and article summary only
+- **Missing materials affecting confidence** Full manuscript text, all figures, tables, experimental methods, statistical analyses, structural modeling details, and raw data
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused and potentially valuable study addressing a clinically relevant question, namely how missense mutations in a cardiac transcription factor alter biophysical properties relevant to congenital heart disease. The combination of in vitro thermal stability measurements, DNA-binding affinity assays, and in silico structural modeling is appropriate for the stated aims. However, the provided material is limited to the abstract and summary, which prevents verification of experimental rigor, data quality, and the strength of the conclusions. The claim that all five mutants show decreased DNA-binding affinity is notable, but the mechanistic link between the observed biophysical changes and CHD causality remains speculative and is appropriately framed as requiring further exploration. The study's potential impact is moderate, as it adds mechanistic detail to a known disease-associated gene but does not establish new disease mechanisms or therapeutic avenues from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in cardiovascular genetics, transcription factor biology, and protein biophysics would find these results relevant. The work provides a framework for evaluating how disease-associated missense mutations alter TF stability and DNA binding, which could inform genotype-phenotype correlations in CHD. Clinicians and geneticists interpreting TBX5 variants in diagnostic settings may also benefit from the functional characterization of these specific mutants.
+- **Major strengths** The study addresses a clear gap in understanding the biophysical consequences of TBX5 missense mutations. The use of multiple complementary approaches, including experimental thermal stability measurements, DNA-binding assays, and structural modeling, strengthens the evidence base. The focus on known genomic binding sites within Nppa and Camta1 regulatory elements provides physiological relevance. The authors appropriately acknowledge that causality between the observed biochemical changes and CHD development requires further investigation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The abstract claims that Differential Scanning Fluorimetry showed decreased thermal stability for I54T and M74V, increased stability for I101F and R113K, and decreased DNA-binding affinity for all five mutants
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports specific experimental outcomes but provides no quantitative data, no information on experimental replicates, no statistical analysis, and no details on the magnitude of the observed changes. Without access to the full methods and results, the reliability and significance of these findings cannot be assessed.
+  - **Why it matters** The core conclusions of the study rest entirely on the experimental measurements. If the thermal stability changes are small relative to experimental variability, or if the DNA-binding affinity reductions are modest, the biological relevance of these findings would be substantially weakened. The current evidence base is insufficient to evaluate whether the claims are robust.
+  - **Resolution test** Provide the full manuscript with detailed methods, including protein purification protocols, assay conditions, number of replicates, statistical tests used, and effect sizes with confidence intervals. The raw data for thermal stability and binding affinity measurements should be presented in figures or tables.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The abstract states that structural modeling predicted altered protein conformation and stability due to loss or gain of amino acid residue interactions
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The structural modeling results are described only in qualitative terms. No information is provided about the modeling method, the structural template used, the confidence of the predictions, or how the predicted conformational changes relate quantitatively to the experimental observations. The claim that modeling "predicted altered protein conformation" is vague and cannot be evaluated.
+  - **Why it matters** The in silico predictions are presented as supporting evidence for the experimental findings. If the modeling is not validated or if the predicted changes do not correlate with the experimental stability and binding data, the interpretive value of the modeling is limited. The current description does not allow assessment of whether the modeling adds meaningful mechanistic insight.
+  - **Resolution test** Provide details of the structural modeling approach, including software, templates, and validation metrics. Show the predicted structural changes for each mutant and compare these predictions with the experimental thermal stability and binding affinity data to demonstrate consistency or explain discrepancies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of conclusions
+  - **Claim pointer** The abstract concludes that the findings provide biophysical and biochemical mechanisms that can be further explored to establish causality between TBX5 missense mutations and CHD development
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The study measures in vitro protein properties but does not assess functional consequences in cellular or organismal contexts. The link between reduced DNA-binding affinity in vitro and altered gene expression in vivo, let alone CHD pathogenesis, is not established. The authors appropriately use cautious language, but the significance of the work depends on whether the in vitro changes translate to functional deficits.
+  - **Why it matters** For the findings to be clinically or biologically meaningful, the in vitro biochemical changes must be shown to affect TBX5 transcriptional activity or downstream gene expression. Without such evidence, the relevance of the observed biophysical changes to CHD remains uncertain.
+  - **Resolution test** Include or reference functional assays, such as reporter gene assays or transcriptomic analyses in relevant cell models, demonstrating that the mutants alter TBX5 transcriptional activity. Alternatively, clearly state that such functional validation is beyond the scope of the current study and is planned for future work.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that mutants I54T and M74V decreased thermal stability while I101F and R113K had increased stability, but the fate of R237W regarding thermal stability is not mentioned. This omission creates ambiguity about whether R237W showed no change or was not assessed.
+  - **Required correction** Clarify the thermal stability result for R237W, either by stating that no significant change was observed or by providing the measured value.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Article summary
+  - **Evidence pointer** Article summary, location not provided
+  - **Issue** The summary states that the approach is "scalable to other TF mutants" but does not specify what aspects are scalable, such as the experimental pipeline, the computational workflow, or both. This is imprecise.
+  - **Required correction** Specify which components of the approach are scalable and under what conditions, such as availability of purified protein or structural templates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not indicate whether the five mutations studied are known pathogenic variants, variants of uncertain significance, or novel mutations identified in CHD patients. This context is important for interpreting the clinical relevance.
+  - **Required correction** State the origin and classification of the five mutations, such as whether they were identified in CHD cohorts and whether they are listed in ClinVar or other databases.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the experimental and computational evidence cannot be evaluated from the provided material. R1-M3 is non-blocking but important for establishing biological relevance.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The study applies established biophysical methods to a known disease gene, which is incremental rather than conceptually novel.
+  - Scientific importance: Moderate. The findings could inform understanding of TBX5 variant effects, but the clinical or mechanistic significance is not yet established.
+  - Interdisciplinary readership: Limited. The work bridges biophysics and cardiovascular genetics, but the appeal beyond these fields is uncertain.
+  - Technical soundness: Not assessable from the provided material. Experimental details, controls, and statistical rigor cannot be evaluated.
+  - Readability for nonspecialists: The abstract is generally clear, but the article summary uses jargon such as "T-box DNA-binding domain" and "cognate binding sites" without sufficient explanation for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The study addresses a relevant question with appropriate methods, but the limited material prevents verification of the core claims. A supportive recommendation would require access to the full manuscript with detailed methods, quantitative results, and statistical analyses.
+
+## Risk / unsupported claims
+- The claim that all five mutants show decreased DNA-binding affinity is unsupported without quantitative data and statistical analysis.
+- The claim that structural modeling predicted altered protein conformation and stability is unsupported without details of the modeling method and results.
+- The claim that the findings provide mechanisms that can be explored to establish causality between TBX5 mutations and CHD is speculative and not supported by functional evidence.
+- The thermal stability outcome for R237W is not reported and therefore cannot be evaluated.
+- The clinical or pathogenic status of the five mutations is not stated, so the disease relevance of the findings cannot be assessed.

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose GraphPro, an interpretable graph neural network-based model for multi-species promoter identification, reporting superior accuracy and cross-species generalization compared to previous methods, alongside biological interpretability via visualization and transcription factor binding motif analysis.
+- **Visible evidence base** Abstract text; no quantitative details beyond average Sn, Sp, Acc, MCC values; no dataset descriptions, baseline comparisons, or methodological specifics
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset construction details, baseline method specifications, statistical significance tests, cross-species experimental protocols, and interpretability analysis results
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational tool for promoter identification with a claimed advance in multi-species generalization and interpretability. However, the evidence provided is insufficient to evaluate the validity of these claims. Key metrics are reported without context, baseline comparisons are not quantified, and the interpretability claim lacks supporting detail. The work may be of interest to the bioinformatics community, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers in computational genomics, gene regulation, and machine learning applied to biology would be interested. The multi-species focus and interpretability angle could appeal to those seeking practical tools for promoter annotation and mechanistic insights into model predictions.
+- **Major strengths** The model integrates multiple feature types and combines CNN and GNN architectures, which is a reasonable design choice for capturing sequence motifs and structural dependencies. The explicit focus on cross-species prediction and interpretability addresses important gaps in existing promoter prediction tools. Public availability of source code is a positive contribution.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that GraphPro "achieves better recognition accuracy on multiple species" and "outperforms all previous methods in cross-species prediction ability" is central to the paper's contribution.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports average Sn, Sp, Acc, and MCC values but provides no per-species breakdown, no comparison to specific baseline methods, and no statistical significance testing. The phrase "outperforms all previous methods" is a strong claim that cannot be assessed without detailed comparative results.
+  - **Why it matters** Without quantified comparisons and statistical validation, the claimed superiority cannot be distinguished from random variation or favorable dataset selection. This is essential for establishing the model's practical value.
+  - **Resolution test** Provide per-species performance tables, list of baseline methods with their reported metrics, and significance tests (e.g., paired tests or confidence intervals) demonstrating consistent improvement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretability claim
+  - **Claim pointer** The abstract states that visualization of the decision process and analysis of transcription factor binding motifs "validate its significant advantages in biological interpretability."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are given on what was visualized, how motif matching was performed, what controls were used, or how "significant advantages" were quantified. Interpretability claims require demonstration that the model's attention or learned features align with known biology beyond anecdotal examples.
+  - **Why it matters** Interpretability is a stated key contribution. Without rigorous evaluation, the claim is unsupported and could mislead users about the model's reliability for biological inference.
+  - **Resolution test** Show systematic comparison of identified motifs against known transcription factor binding site databases, with enrichment statistics, and provide visual examples with clear explanation of what the model captures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodology
+  - **Claim pointer** The abstract describes the model architecture and feature encoding but omits critical implementation details.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify hyperparameters, training/validation splits, data preprocessing, class balance, or the exact graph construction method. These details are necessary for reproducing the results and assessing potential overfitting.
+  - **Why it matters** Reproducibility is a core expectation for computational biology tools. Missing methodological details prevent independent verification and limit the utility of the claimed performance.
+  - **Resolution test** Include a methods section with full architecture specifications, training procedures, and data handling protocols, or reference a detailed supplementary document.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Metric reporting
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The average metrics are reported without standard deviations or per-species values, making it unclear how consistent performance is across the eight species.
+  - **Required correction** Report per-species metrics and variability measures (e.g., standard deviation or range) to give a complete picture.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "k-tuple nucleotide frequency pattern"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** This term is not standard; it likely refers to k-mer frequency, but the phrasing is ambiguous.
+  - **Required correction** Use standard terminology such as "k-mer frequency" or define the term explicitly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Cross-species evaluation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims superior cross-species prediction but does not describe the experimental setup, such as leave-one-species-out or train-on-one-test-on-another protocols.
+  - **Required correction** Specify the cross-species evaluation design in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of CNN and GNN with multiple feature types is not entirely novel, but the multi-species focus and interpretability angle add some originality. However, the abstract does not clearly differentiate from prior work.
+  - Scientific importance: Promoter identification is a relevant problem, and improved cross-species tools would be useful. The importance is moderate but not exceptional.
+  - Interdisciplinary readership: The work bridges machine learning and genomics, which could attract a broad audience, but the abstract is too technical for nonspecialists and lacks context for biological significance.
+  - Technical soundness: Cannot be assessed from the abstract alone. The reported metrics lack statistical backing, and methodological details are missing.
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with GNNs and promoter biology. It does not explain why the approach is better in accessible terms.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are plausible but unsupported by the abstract alone. A full manuscript with detailed methods, comparative results, and rigorous interpretability analysis would be needed to assess the contribution.
+
+## Risk / unsupported claims
+- The claim of outperforming "all previous methods" in cross-species prediction is unsupported without baseline comparisons and statistical tests.
+- The claim of "significant advantages in biological interpretability" is unsupported without detailed analysis and validation.
+- The reported average metrics (Sn, Sp, Acc, MCC) are presented without context, making them uninterpretable.
+- The generalizability of the model across eight species is asserted but not demonstrated with per-species data.
+- The methodological description is insufficient to evaluate reproducibility or technical soundness.

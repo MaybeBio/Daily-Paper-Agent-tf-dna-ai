@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "42286706",
+    "doi": "10.1186/s13073-026-01697-9",
+    "title": "Circulating DNA reveals nucleosome occupancy patterns that are associated with nucleosome-DNA affinity and are affected in cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The study of cell-free circulating DNA (cirDNA) fragments (fragmentomics) from liquid biopsies has received increasing attention to detect biomarkers. CirDNA found in blood plasma originates from cells in diverse tissues with a predominance for hematopoietic cells. CirDNA fragments are associated with nucleosomes which protect them against DNAse degradation. METHODS: The genomic positions of CirDNA fragments originating from different cohorts of healthy individual and cancer patients were obtained from the public database FinaleDB. Various bioinformatic and statistical analyses were conducted on these fragments. RESULTS: By mapping a large ensemble of well-positioned nucleosomes (WPNs), we found that nucleosome occupancy was associated with histone-DNA affinity, as evidenced by codon usage bias and differences in cirDNA fragment sizes. Moreover, nucleosome occupancy was different in healthy and cancer samples, thus allowing developing a high-performance machine learning approach for cancer detection (specificity and sensitivity > 0.95 for seven cancer types). Cancer influenced nucleosome occupancy in a global manner, although distinct cancer types retained specific features. WPN occupancy at transcription factor binding sites revealed shared, pan-cancer regulation of transcriptional programs involved in hematopoietic cell differentiation and neutrophil biology, the main cirDNA sources. CONCLUSIONS: This work provides new fundamental insights into cirDNA and DNA sequence using cirDNA as a physical readout. It also bares translational significance by disclosing a new high-performance strategy for cancer detection from liquid biopsies.",
+    "keywords": [
+      "Cancer biomarker",
+      "Circulating DNA",
+      "Fragmentomics",
+      "Liquid biopsy",
+      "Machine learning.",
+      "Nucleosome"
+    ],
+    "mesh_terms": [
+      "*Nucleosomes/metabolism",
+      "Humans",
+      "*Neoplasms/genetics/blood/metabolism",
+      "*Cell-Free Nucleic Acids/blood/metabolism/genetics",
+      "*DNA/metabolism",
+      "Histones/metabolism",
+      "Biomarkers, Tumor",
+      "Computational Biology/methods",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Richaud, Marianne",
+        "Pisareva, Ekaterina",
+        "Burgat, Paul",
+        "Thierry, Alain R",
+        "Colinge, Jacques"
+      ],
+      "short_names": [
+        "Richaud M",
+        "Pisareva E",
+        "Burgat P",
+        "Thierry AR",
+        "Colinge J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institut de Recherche en Cancerologie de Montpellier, Inserm U1194, Montpellier, France.",
+        "Institut du Cancer de Montpellier, Unicancer, Montpellier, France.",
+        "Universite de Montpellier, Montpellier, France.",
+        "Institut de Recherche en Cancerologie de Montpellier, Inserm U1194, Montpellier, France.",
+        "Institut du Cancer de Montpellier, Unicancer, Montpellier, France.",
+        "Universite de Montpellier, Montpellier, France.",
+        "Institut de Recherche en Cancerologie de Montpellier, Inserm U1194, Montpellier, France.",
+        "Institut du Cancer de Montpellier, Unicancer, Montpellier, France.",
+        "Universite de Montpellier, Montpellier, France.",
+        "Institut de Recherche en Cancerologie de Montpellier, Inserm U1194, Montpellier, France. alain.thierry@inserm.fr.",
+        "Institut du Cancer de Montpellier, Unicancer, Montpellier, France. alain.thierry@inserm.fr.",
+        "Universite de Montpellier, Montpellier, France. alain.thierry@inserm.fr.",
+        "Institut de Recherche en Cancerologie de Montpellier, Inserm U1194, Montpellier, France. jacques.colinge@umontpellier.fr.",
+        "Institut du Cancer de Montpellier, Unicancer, Montpellier, France. jacques.colinge@umontpellier.fr.",
+        "Universite de Montpellier, Montpellier, France. jacques.colinge@umontpellier.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Richaud, Marianne",
+        "short_name": "Richaud M",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Recherche en Cancérologie de Montpellier, Inserm U1194, Montpellier, France.",
+          "Institut du Cancer de Montpellier, Unicancer, Montpellier, France.",
+          "Université de Montpellier, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Pisareva, Ekaterina",
+        "short_name": "Pisareva E",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Recherche en Cancérologie de Montpellier, Inserm U1194, Montpellier, France.",
+          "Institut du Cancer de Montpellier, Unicancer, Montpellier, France.",
+          "Université de Montpellier, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Burgat, Paul",
+        "short_name": "Burgat P",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Recherche en Cancérologie de Montpellier, Inserm U1194, Montpellier, France.",
+          "Institut du Cancer de Montpellier, Unicancer, Montpellier, France.",
+          "Université de Montpellier, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Thierry, Alain R",
+        "short_name": "Thierry AR",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Recherche en Cancérologie de Montpellier, Inserm U1194, Montpellier, France. alain.thierry@inserm.fr.",
+          "Institut du Cancer de Montpellier, Unicancer, Montpellier, France. alain.thierry@inserm.fr.",
+          "Université de Montpellier, Montpellier, France. alain.thierry@inserm.fr."
+        ]
+      },
+      {
+        "full_name": "Colinge, Jacques",
+        "short_name": "Colinge J",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Recherche en Cancérologie de Montpellier, Inserm U1194, Montpellier, France. jacques.colinge@umontpellier.fr.",
+          "Institut du Cancer de Montpellier, Unicancer, Montpellier, France. jacques.colinge@umontpellier.fr.",
+          "Université de Montpellier, Montpellier, France. jacques.colinge@umontpellier.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome medicine"
+    ],
+    "journal_abbrev": [
+      "Genome Med"
+    ],
+    "pub_date": "2026 Jun 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/13 06:38",
+    "fetched_at": "2026-10-01 23:02:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39363741",
+      "39271293",
+      "38973154",
+      "38749504",
+      "38561804",
+      "38472221",
+      "38433280",
+      "37989620",
+      "37962376",
+      "37907748",
+      "37565753",
+      "37403209",
+      "36982239",
+      "36777187",
+      "36653380",
+      "36599988",
+      "36482487",
+      "35729208",
+      "35361996",
+      "35198886",
+      "35061087",
+      "34991667",
+      "33888707",
+      "33833097",
+      "33637673",
+      "33539878",
+      "33258919",
+      "32999827",
+      "32111602",
+      "32004449",
+      "31892555",
+      "31876226",
+      "31604930",
+      "31142840",
+      "31138703",
+      "31114921",
+      "31075273",
+      "30808726",
+      "30498206",
+      "29348365",
+      "29109393",
+      "28814544",
+      "28165651",
+      "27526324",
+      "27392603",
+      "26771485",
+      "25646427",
+      "25085254",
+      "24658074",
+      "24429391",
+      "23463311",
+      "23414932",
+      "23166509",
+      "21772278",
+      "21414208",
+      "21332355",
+      "21148127",
+      "19297348",
+      "18329373",
+      "16381931",
+      "16000575",
+      "15029240",
+      "10592173"
+    ],
+    "similar": [
+      "42286706",
+      "38561804",
+      "36443816",
+      "26305225",
+      "36166696",
+      "39406232",
+      "26818008",
+      "36777187",
+      "41495807",
+      "31754936",
+      "38478957",
+      "24942981",
+      "20886052",
+      "39382996",
+      "20098497",
+      "41225146",
+      "40543210",
+      "41268839",
+      "42210783",
+      "35061087",
+      "26772197",
+      "36012175",
+      "9037027",
+      "40956966",
+      "22701659",
+      "36674455",
+      "37898819",
+      "39206580",
+      "24185839",
+      "22737086",
+      "39909829",
+      "21738444",
+      "26771485",
+      "38385729",
+      "41366809",
+      "39191772",
+      "40263746",
+      "37055726",
+      "41917473",
+      "29686738",
+      "42056506",
+      "41165721",
+      "22233711",
+      "9826764",
+      "25271716",
+      "25494698",
+      "37678194",
+      "28413449",
+      "26308346",
+      "37455222",
+      "34663458",
+      "23657885",
+      "42174634",
+      "22472421",
+      "19208132",
+      "34319695",
+      "27623011",
+      "20015349",
+      "20003404",
+      "31541672",
+      "42067888",
+      "42471313",
+      "41881575",
+      "41043439",
+      "25563930",
+      "34815523",
+      "20078849",
+      "27392603",
+      "41107392",
+      "20232931",
+      "2738923",
+      "38225592",
+      "28173752",
+      "37819044",
+      "33081832",
+      "23839233",
+      "21853138",
+      "41826520",
+      "41714824",
+      "31916450",
+      "38337183",
+      "27854025",
+      "38881520",
+      "19092803",
+      "35643514",
+      "37942753",
+      "30429608",
+      "41828620",
+      "27458208",
+      "24885191",
+      "29212533",
+      "37743368",
+      "38128532",
+      "28820292",
+      "22908247",
+      "39478151",
+      "40449045",
+      "26070559",
+      "24733939",
+      "40340952"
+    ],
+    "review": [
+      "42286706",
+      "36777187",
+      "38478957",
+      "41268839",
+      "40956966",
+      "36674455",
+      "25271716",
+      "37455222",
+      "34663458",
+      "34319695",
+      "41043439",
+      "34815523",
+      "27392603",
+      "31916450",
+      "41828620"
+    ],
+    "pmc": [
+      "13495171"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-026-01697-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42286706/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

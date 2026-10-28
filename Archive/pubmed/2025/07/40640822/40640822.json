@@ -1,0 +1,404 @@
+{
+  "identity": {
+    "pmid": "40640822",
+    "doi": "10.1186/s12890-025-03805-8",
+    "title": "Non-invasive identification of TKI-resistant NSCLC: a multi-model AI approach for predicting EGFR/TP53 co-mutations."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: To investigate the value of multi-model based on preoperative CT scans in predicting EGFR/TP53 co-mutation status. METHODS: We retrospectively included 2171 patients with non-small cell lung cancer (NSCLC) with pre-treatment computed tomography (CT) scans and predicting epidermal growth factor receptor (EGFR) gene sequencing from West China Hospital between January 2013 and April 2024. The deep-learning model was built for predicting EGFR / tumor protein 53 (TP53) co-occurrence status. The model performance was evaluated by area under the curve (AUC) and Kaplan-Meier analysis. We further compared multi-dimension model with three one-dimension models separately, and we explored the value of combining clinical factors with machine-learning factors. Additionally, we investigated 546 patients with 56-panel next-generation sequencing and low-dose computed tomography (LDCT) to explore the biological mechanisms of radiomics. RESULTS: In our cohort of 2171 patients (1,153 males, 1,018 females; median age 60 years), single-dimensional models were developed using data from 1,055 eligible patients. The multi-dimensional model utilizing a Random Forest classifier achieved superior performance, yielding the highest AUC of 0.843 for predicting EGFR/TP53 co-mutations in the test set. CONCLUSION: The multi-dimensional model demonstrates promising potential for non-invasive prediction of EGFR and TP53 co-mutations, facilitating early and informed clinical decision-making in NSCLC patients at risk of treatment resistance.",
+    "keywords": [
+      "Genotype",
+      "Machine learning",
+      "Multi-model",
+      "Non-small-cell lung cancer",
+      "Radiomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Non-Small-Cell Lung/genetics/drug therapy/diagnostic imaging",
+      "Male",
+      "Female",
+      "Middle Aged",
+      "ErbB Receptors/genetics",
+      "*Lung Neoplasms/genetics/drug therapy/diagnostic imaging",
+      "Retrospective Studies",
+      "*Tumor Suppressor Protein p53/genetics",
+      "Aged",
+      "Tomography, X-Ray Computed",
+      "Mutation",
+      "*Drug Resistance, Neoplasm/genetics",
+      "*Protein Kinase Inhibitors/therapeutic use",
+      "Deep Learning",
+      "Adult",
+      "China"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jiayi",
+        "Xu, Renjie",
+        "Wang, Dan",
+        "Liang, Zhanlue",
+        "Li, Yangqian",
+        "Wang, Qinglan",
+        "Bi, Lingfeng",
+        "Qi, Yawen",
+        "Zhou, Yaojie",
+        "Li, Weimin"
+      ],
+      "short_names": [
+        "Li J",
+        "Xu R",
+        "Wang D",
+        "Liang Z",
+        "Li Y",
+        "Wang Q",
+        "Bi L",
+        "Qi Y",
+        "Zhou Y",
+        "Li W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China.",
+        "Institute of Respiratory Health, State Key Laboratory of Respiratory Health and Multimorbidity, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Precision Medicine Center, Precision Medicine Key Laboratory of Sichuan Province, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China.",
+        "Institute of Respiratory Health, State Key Laboratory of Respiratory Health and Multimorbidity, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Precision Medicine Center, Precision Medicine Key Laboratory of Sichuan Province, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China.",
+        "Institute of Respiratory Health, State Key Laboratory of Respiratory Health and Multimorbidity, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Precision Medicine Center, Precision Medicine Key Laboratory of Sichuan Province, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China.",
+        "Institute of Respiratory Health, State Key Laboratory of Respiratory Health and Multimorbidity, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Precision Medicine Center, Precision Medicine Key Laboratory of Sichuan Province, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China.",
+        "Institute of Respiratory Health, State Key Laboratory of Respiratory Health and Multimorbidity, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Precision Medicine Center, Precision Medicine Key Laboratory of Sichuan Province, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China.",
+        "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China.",
+        "Institute of Respiratory Health, State Key Laboratory of Respiratory Health and Multimorbidity, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Precision Medicine Center, Precision Medicine Key Laboratory of Sichuan Province, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China.",
+        "Institute of Respiratory Health, State Key Laboratory of Respiratory Health and Multimorbidity, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Precision Medicine Center, Precision Medicine Key Laboratory of Sichuan Province, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+        "Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200233, China. zhouyj95@qq.com.",
+        "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China. weimin003@163.com.",
+        "Institute of Respiratory Health, State Key Laboratory of Respiratory Health and Multimorbidity, West China Hospital, Sichuan University, Chengdu, Sichuan, China. weimin003@163.com.",
+        "Precision Medicine Center, Precision Medicine Key Laboratory of Sichuan Province, West China Hospital, Sichuan University, Chengdu, Sichuan, China. weimin003@163.com.",
+        "The Research Units of West China, Chinese Academy of Medical Sciences, West China Hospital, Chengdu, Sichuan, China. weimin003@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jiayi",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China.",
+          "Institute of Respiratory Health, State Key Laboratory of Respiratory Health and Multimorbidity, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+          "Precision Medicine Center, Precision Medicine Key Laboratory of Sichuan Province, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Renjie",
+        "short_name": "Xu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China.",
+          "Institute of Respiratory Health, State Key Laboratory of Respiratory Health and Multimorbidity, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+          "Precision Medicine Center, Precision Medicine Key Laboratory of Sichuan Province, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dan",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China.",
+          "Institute of Respiratory Health, State Key Laboratory of Respiratory Health and Multimorbidity, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+          "Precision Medicine Center, Precision Medicine Key Laboratory of Sichuan Province, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Zhanlue",
+        "short_name": "Liang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China.",
+          "Institute of Respiratory Health, State Key Laboratory of Respiratory Health and Multimorbidity, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+          "Precision Medicine Center, Precision Medicine Key Laboratory of Sichuan Province, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yangqian",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China.",
+          "Institute of Respiratory Health, State Key Laboratory of Respiratory Health and Multimorbidity, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+          "Precision Medicine Center, Precision Medicine Key Laboratory of Sichuan Province, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qinglan",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China."
+        ]
+      },
+      {
+        "full_name": "Bi, Lingfeng",
+        "short_name": "Bi L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China.",
+          "Institute of Respiratory Health, State Key Laboratory of Respiratory Health and Multimorbidity, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+          "Precision Medicine Center, Precision Medicine Key Laboratory of Sichuan Province, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Yawen",
+        "short_name": "Qi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China.",
+          "Institute of Respiratory Health, State Key Laboratory of Respiratory Health and Multimorbidity, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
+          "Precision Medicine Center, Precision Medicine Key Laboratory of Sichuan Province, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yaojie",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 200233, China. zhouyj95@qq.com."
+        ]
+      },
+      {
+        "full_name": "Li, Weimin",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Respiratory and Critical Care Medicine, Institute of Respiratory Health, Frontiers Science Center for Disease-related Molecular Network, West China Hospital, Sichuan University, Guo Xue Xiang 37, Chengdu, Sichuan, 610041, China. weimin003@163.com.",
+          "Institute of Respiratory Health, State Key Laboratory of Respiratory Health and Multimorbidity, West China Hospital, Sichuan University, Chengdu, Sichuan, China. weimin003@163.com.",
+          "Precision Medicine Center, Precision Medicine Key Laboratory of Sichuan Province, West China Hospital, Sichuan University, Chengdu, Sichuan, China. weimin003@163.com.",
+          "The Research Units of West China, Chinese Academy of Medical Sciences, West China Hospital, Chengdu, Sichuan, China. weimin003@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC pulmonary medicine"
+    ],
+    "journal_abbrev": [
+      "BMC Pulm Med"
+    ],
+    "pub_date": "2025 Jul 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/11 00:26",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [
+      "41583907"
+    ],
+    "refs": [
+      "38195018",
+      "36510487",
+      "36230746",
+      "35694416",
+      "35444951",
+      "35341713",
+      "35331964",
+      "35242623",
+      "34663898",
+      "33920322",
+      "33643902",
+      "33410885",
+      "33331920",
+      "32766570",
+      "32154773",
+      "32107398",
+      "30635290",
+      "30224757",
+      "29375266",
+      "29151359",
+      "28826599",
+      "27908825",
+      "27780855",
+      "27483067",
+      "26579733",
+      "26004695",
+      "24892406",
+      "22257792",
+      "20573926",
+      "19692680",
+      "16545965",
+      "3203132"
+    ],
+    "similar": [
+      "40640822",
+      "41306958",
+      "38361006",
+      "35341713",
+      "39319553",
+      "37914925",
+      "41067858",
+      "38523520",
+      "34173341",
+      "32185618",
+      "37144750",
+      "36670497",
+      "37972417",
+      "41149132",
+      "38172228",
+      "27121209",
+      "34502160",
+      "40165657",
+      "36864384",
+      "40382269",
+      "40948762",
+      "30391576",
+      "39650554",
+      "37840519",
+      "33317922",
+      "35340160",
+      "37142868",
+      "31319993",
+      "33331920",
+      "36165534",
+      "36503478",
+      "38982267",
+      "30522169",
+      "28407039",
+      "29164298",
+      "34807270",
+      "39251494",
+      "30347549",
+      "38637187",
+      "38195717",
+      "40826408",
+      "30791921",
+      "32299384",
+      "37042869",
+      "30778717",
+      "30281214",
+      "35609408",
+      "36379126",
+      "31027916",
+      "37706584",
+      "40328536",
+      "38285641",
+      "35250988",
+      "40689570",
+      "39101254",
+      "37511192",
+      "38383258",
+      "28838393",
+      "40165604",
+      "30823937",
+      "40957338",
+      "33148663",
+      "37120403",
+      "30674394",
+      "27145431",
+      "40474176",
+      "35420272",
+      "39873981",
+      "35624472",
+      "34396834",
+      "19381876",
+      "31710890",
+      "32023774",
+      "39829249",
+      "30878600",
+      "22457323",
+      "31027703",
+      "30522170",
+      "40075375",
+      "40114622",
+      "31097090",
+      "29110836",
+      "35016432",
+      "32859638",
+      "40379588",
+      "36524293",
+      "37076395",
+      "38310058",
+      "40410020",
+      "39647269",
+      "31696302",
+      "23559152",
+      "30289575",
+      "32063026",
+      "39389004",
+      "33067442",
+      "34838441",
+      "37147602",
+      "39673508",
+      "31982639"
+    ],
+    "review": [
+      "40640822",
+      "37840519",
+      "35340160",
+      "32299384",
+      "37511192",
+      "37120403"
+    ],
+    "pmc": [
+      "12243385"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcpulmmed.biomedcentral.com/articles/10.1186/s12890-025-03805-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/lungcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Lung Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40640822/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-802",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

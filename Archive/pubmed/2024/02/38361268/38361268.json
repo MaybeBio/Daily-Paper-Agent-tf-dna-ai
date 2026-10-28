@@ -1,0 +1,274 @@
+{
+  "identity": {
+    "pmid": "38361268",
+    "doi": "10.1002/tox.24118",
+    "title": "Unveiling hormone-stimulated gene mechanisms in prostate cancer: A prognostic model, immune infiltration analysis, and drug sensitivity study."
+  },
+  "content": {
+    "abstract": "Hormones promote the progression of prostate cancer (PRCA) through the activation of a complex regulatory network. Inhibition of hormones or modulation of specific network nodes alone is insufficient to suppress the entire oncogenic network. Therefore, it is imperative to elucidate the mechanisms underlying the occurrence and development of PRCA in order to identify reliable diagnostic markers and therapeutic targets. To this end, we used publicly available data to analyze the potential mechanisms of hormone-stimulated genes in PRCA, construct a prognostic model, and assess immune infiltration and drug sensitivity. The single-cell RNA-sequencing data of PRCA were subjected to dimensionality reduction clustering and annotation, and the cells were categorized into two groups based on hormone stimulus-related scores. The differentially expressed genes between the two groups were screened and incorporated into the least absolute shrinkage and selection operator machine learning algorithm, and a prognostic model comprising six genes (ZNF862, YIF1A, USP22, TAF7, SRSF3, and SPARC) was constructed. The robustness of the model was validation through multiple methods. Immune infiltration scores in the two risk groups were calculated using three different algorithms. In addition, the relationship between the model genes and immune cell infiltration, and that between risk score and immune cell infiltration were analyzed. Drug sensitivity analysis was performed for the model genes and risk score using public databases to identify potential candidate drugs. Our findings provide novel insights into the mechanisms of hormone-stimulated genes in PRCA progression, prognosis, and drug screening.",
+    "keywords": [
+      "PRCA",
+      "androgen",
+      "hormone stimulus",
+      "prostate cancer",
+      "single-cell sequencing"
+    ],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "Prognosis",
+      "*Prostatic Neoplasms/genetics",
+      "Prostate",
+      "Drug Evaluation, Preclinical",
+      "Hormones",
+      "Transcription Factor TFIID",
+      "*TATA-Binding Protein Associated Factors",
+      "Serine-Arginine Splicing Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fan, Zhongru",
+        "Yu, Qianqian",
+        "Deng, Junpeng",
+        "Wang, Ke",
+        "Yu, Hongqi",
+        "Fan, Xin",
+        "Xie, Jianjun"
+      ],
+      "short_names": [
+        "Fan Z",
+        "Yu Q",
+        "Deng J",
+        "Wang K",
+        "Yu H",
+        "Fan X",
+        "Xie J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4376-2924"
+      ],
+      "affiliations": [
+        "Department of Urology, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, China.",
+        "National Clinical Research Center for Laboratory Medicine, Department of Laboratory Medicine, The First Hospital of China Medical University, Units of Medical Laboratory, Chinese Academy of Medical Sciences, Shenyang, China.",
+        "Department of Urology, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, China.",
+        "Department of Urology, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, China.",
+        "Department of Urology, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, China.",
+        "Department of Radiology, The Second Affiliated Hospital of Dalian Medical University, Dalian, China.",
+        "Department of Urology, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fan, Zhongru",
+        "short_name": "Fan Z",
+        "identifiers": [
+          "0000-0002-4376-2924"
+        ],
+        "affiliations": [
+          "Department of Urology, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Qianqian",
+        "short_name": "Yu Q",
+        "identifiers": [],
+        "affiliations": [
+          "National Clinical Research Center for Laboratory Medicine, Department of Laboratory Medicine, The First Hospital of China Medical University, Units of Medical Laboratory, Chinese Academy of Medical Sciences, Shenyang, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Junpeng",
+        "short_name": "Deng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ke",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Hongqi",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Xin",
+        "short_name": "Fan X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, The Second Affiliated Hospital of Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Jianjun",
+        "short_name": "Xie J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Environmental toxicology"
+    ],
+    "journal_abbrev": [
+      "Environ Toxicol"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/16 06:42",
+    "fetched_at": "2026-09-29 15:12:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38361268",
+      "37565774",
+      "37143720",
+      "33780364",
+      "38430268",
+      "20058236",
+      "37369799",
+      "36639648",
+      "37033267",
+      "37534256",
+      "36569837",
+      "36717792",
+      "25595936",
+      "37155084",
+      "38458890",
+      "32953881",
+      "37404304",
+      "37841237",
+      "25335771",
+      "38006928",
+      "25648635",
+      "37346073",
+      "37343507",
+      "36181098",
+      "36524848",
+      "38189174",
+      "36973787",
+      "31503366",
+      "36335189",
+      "34660598",
+      "24086346",
+      "37700273",
+      "36105400",
+      "37563543",
+      "35757739",
+      "38015097",
+      "36376702",
+      "38044747",
+      "36689018",
+      "37650991",
+      "27151655",
+      "35990668",
+      "35693084",
+      "35282039",
+      "34822763",
+      "36901944",
+      "37740762",
+      "33962640",
+      "35188070",
+      "37600770",
+      "36755298",
+      "38568083",
+      "38371524",
+      "37280589",
+      "31054895",
+      "27699819",
+      "36568383",
+      "37370891",
+      "36325340",
+      "37632832",
+      "37033963",
+      "35836112",
+      "34490029",
+      "34853602",
+      "37269346",
+      "38017548",
+      "36267313",
+      "17319238",
+      "36685847",
+      "26611117",
+      "37432454",
+      "37090698",
+      "37813677",
+      "36915125",
+      "22535887",
+      "37182129",
+      "34976013",
+      "33258481",
+      "36311708",
+      "35974300",
+      "34869761",
+      "33107155",
+      "36321557",
+      "37907864",
+      "30958860",
+      "36479114",
+      "33593085",
+      "37383389",
+      "36467089",
+      "38291374",
+      "37753069",
+      "36827833",
+      "31308362",
+      "36177006"
+    ],
+    "review": [
+      "38361268",
+      "36639648",
+      "17319238"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1002/tox.24118",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2699",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

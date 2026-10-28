@@ -1,0 +1,566 @@
+{
+  "identity": {
+    "pmid": "38514176",
+    "doi": "10.1136/jnnp-2023-332862",
+    "title": "Clinicoradiological and neuropathological evaluation of primary progressive aphasia."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Primary progressive aphasia (PPA) defines a group of neurodegenerative disorders characterised by language decline. Three PPA variants correlate with distinct underlying pathologies: semantic variant PPA (svPPA) with transactive response DNA-binding protein of 43 kD (TDP-43) proteinopathy, agrammatic variant PPA (agPPA) with tau deposition and logopenic variant PPA (lvPPA) with Alzheimer's disease (AD). Our objectives were to differentiate PPA variants using clinical and neuroimaging features, assess progression and evaluate structural MRI and a novel 18-F fluorodeoxyglucose positron emission tomography (FDG-PET) image decomposition machine learning algorithm for neuropathology prediction. METHODS: We analysed 82 autopsied patients diagnosed with PPA from 1998 to 2022. Clinical histories, language characteristics, neuropsychological results and brain imaging were reviewed. A machine learning framework using a k-nearest neighbours classifier assessed FDG-PET scans from 45 patients compared with a large reference database. RESULTS: PPA variant distribution: 35 lvPPA (80% AD), 28 agPPA (89% tauopathy) and 18 svPPA (72% frontotemporal lobar degeneration-TAR DNA-binding protein (FTLD-TDP)). Apraxia of speech was associated with 4R-tauopathy in agPPA, while pure agrammatic PPA without apraxia was linked to 3R-tauopathy. Longitudinal data revealed language dysfunction remained the predominant deficit for patients with lvPPA, agPPA evolved to corticobasal or progressive supranuclear palsy syndrome (64%) and svPPA progressed to behavioural variant frontotemporal dementia (44%). agPPA-4R-tauopathy exhibited limited pre-supplementary motor area atrophy, lvPPA-AD displayed temporal atrophy extending to the superior temporal sulcus and svPPA-FTLD-TDP had severe temporal pole atrophy. The FDG-PET-based machine learning algorithm accurately predicted clinical diagnoses and underlying pathologies. CONCLUSIONS: Distinguishing 3R-taupathy and 4R-tauopathy in agPPA may rely on apraxia of speech presence. Additional linguistic and clinical features can aid neuropathology prediction. Our data-driven brain metabolism decomposition approach effectively predicts underlying neuropathology.",
+    "keywords": [
+      "APHASIA",
+      "MRI"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Aphasia, Primary Progressive/pathology/diagnostic imaging",
+      "Male",
+      "Female",
+      "Aged",
+      "*Positron-Emission Tomography",
+      "*Magnetic Resonance Imaging",
+      "Middle Aged",
+      "*Brain/pathology/diagnostic imaging",
+      "Machine Learning",
+      "Alzheimer Disease/pathology/diagnostic imaging",
+      "Aged, 80 and over",
+      "Fluorodeoxyglucose F18",
+      "Neuroimaging",
+      "Disease Progression"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shir, Dror",
+        "Corriveau-Lecavalier, Nick",
+        "Bermudez Noguera, Camilo",
+        "Barnard, Leland",
+        "Pham, Nha Trang Thu",
+        "Botha, Hugo",
+        "Duffy, Joseph R",
+        "Clark, Heather M",
+        "Utianski, Rene L",
+        "Knopman, David S",
+        "Petersen, Ronald C",
+        "Boeve, Bradley F",
+        "Murray, Melissa E",
+        "Nguyen, Aivi T",
+        "Reichard, R Ross",
+        "Dickson, Dennis W",
+        "Day, Gregory S",
+        "Kremers, Walter K",
+        "Graff-Radford, Neill R",
+        "Jones, David T",
+        "Machulda, Mary M",
+        "Fields, Julie A",
+        "Whitwell, Jennifer L",
+        "Josephs, Keith A",
+        "Graff-Radford, Jonathan"
+      ],
+      "short_names": [
+        "Shir D",
+        "Corriveau-Lecavalier N",
+        "Bermudez Noguera C",
+        "Barnard L",
+        "Pham NTT",
+        "Botha H",
+        "Duffy JR",
+        "Clark HM",
+        "Utianski RL",
+        "Knopman DS",
+        "Petersen RC",
+        "Boeve BF",
+        "Murray ME",
+        "Nguyen AT",
+        "Reichard RR",
+        "Dickson DW",
+        "Day GS",
+        "Kremers WK",
+        "Graff-Radford NR",
+        "Jones DT",
+        "Machulda MM",
+        "Fields JA",
+        "Whitwell JL",
+        "Josephs KA",
+        "Graff-Radford J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9519-1302",
+        "ORCID: 0000-0002-6544-066X",
+        "ORCID: 0000-0001-5133-5538",
+        "ORCID: 0000-0001-9847-9096",
+        "ORCID: 0000-0003-2930-8634",
+        "ORCID: 0000-0003-2770-0691"
+      ],
+      "affiliations": [
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Radiology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Quantitative Health Sciences, Mayo Clinic Rochester, Rochester, Minnesota, USA.",
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Neuroscience, Mayo Clinic, Jacksonville, Florida, USA.",
+        "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Neuroscience, Mayo Clinic, Jacksonville, Florida, USA.",
+        "Department of Neurology, Mayo Clinic, Jacksonville, Florida, USA.",
+        "Department of Quantitative Health Sciences, Mayo Clinic Rochester, Rochester, Minnesota, USA.",
+        "Department of Neurology, Mayo Clinic, Jacksonville, Florida, USA.",
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Psychiatry and Psychology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Psychiatry and Psychology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Radiology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+        "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA Graff-Radford.Jonathan@mayo.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shir, Dror",
+        "short_name": "Shir D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Corriveau-Lecavalier, Nick",
+        "short_name": "Corriveau-Lecavalier N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Bermudez Noguera, Camilo",
+        "short_name": "Bermudez Noguera C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Barnard, Leland",
+        "short_name": "Barnard L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Pham, Nha Trang Thu",
+        "short_name": "Pham NTT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Botha, Hugo",
+        "short_name": "Botha H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Duffy, Joseph R",
+        "short_name": "Duffy JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Clark, Heather M",
+        "short_name": "Clark HM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Utianski, Rene L",
+        "short_name": "Utianski RL",
+        "identifiers": [
+          "0000-0001-9519-1302"
+        ],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Knopman, David S",
+        "short_name": "Knopman DS",
+        "identifiers": [
+          "0000-0002-6544-066X"
+        ],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Petersen, Ronald C",
+        "short_name": "Petersen RC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA.",
+          "Department of Quantitative Health Sciences, Mayo Clinic Rochester, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Boeve, Bradley F",
+        "short_name": "Boeve BF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Murray, Melissa E",
+        "short_name": "Murray ME",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, Mayo Clinic, Jacksonville, Florida, USA."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Aivi T",
+        "short_name": "Nguyen AT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Reichard, R Ross",
+        "short_name": "Reichard RR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Dickson, Dennis W",
+        "short_name": "Dickson DW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience, Mayo Clinic, Jacksonville, Florida, USA."
+        ]
+      },
+      {
+        "full_name": "Day, Gregory S",
+        "short_name": "Day GS",
+        "identifiers": [
+          "0000-0001-5133-5538"
+        ],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Jacksonville, Florida, USA."
+        ]
+      },
+      {
+        "full_name": "Kremers, Walter K",
+        "short_name": "Kremers WK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Quantitative Health Sciences, Mayo Clinic Rochester, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Graff-Radford, Neill R",
+        "short_name": "Graff-Radford NR",
+        "identifiers": [
+          "0000-0001-9847-9096"
+        ],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Jacksonville, Florida, USA."
+        ]
+      },
+      {
+        "full_name": "Jones, David T",
+        "short_name": "Jones DT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Machulda, Mary M",
+        "short_name": "Machulda MM",
+        "identifiers": [],
+        "affiliations": [
+          "Psychiatry and Psychology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Fields, Julie A",
+        "short_name": "Fields JA",
+        "identifiers": [],
+        "affiliations": [
+          "Psychiatry and Psychology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Whitwell, Jennifer L",
+        "short_name": "Whitwell JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Josephs, Keith A",
+        "short_name": "Josephs KA",
+        "identifiers": [
+          "0000-0003-2930-8634"
+        ],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA."
+        ]
+      },
+      {
+        "full_name": "Graff-Radford, Jonathan",
+        "short_name": "Graff-Radford J",
+        "identifiers": [
+          "0000-0003-2770-0691"
+        ],
+        "affiliations": [
+          "Department of Neurology, Mayo Clinic, Rochester, Minnesota, USA Graff-Radford.Jonathan@mayo.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of neurology, neurosurgery, and psychiatry"
+    ],
+    "journal_abbrev": [
+      "J Neurol Neurosurg Psychiatry"
+    ],
+    "pub_date": "2024 Aug 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/22 00:44",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [
+      "42555876",
+      "42410680",
+      "42334062",
+      "42195054",
+      "42069798",
+      "41910964",
+      "41880022",
+      "41859874",
+      "41415894",
+      "41329626",
+      "41089414",
+      "40993958",
+      "40919410",
+      "40540830"
+    ],
+    "refs": [
+      "35947184",
+      "35441216",
+      "35347127",
+      "34573229",
+      "34103532",
+      "33546814",
+      "33532636",
+      "33274526",
+      "32989107",
+      "32047619",
+      "30906349",
+      "30707189",
+      "29451323",
+      "28592453",
+      "28467028",
+      "28341715",
+      "27615390",
+      "27283329",
+      "26659578",
+      "26571405",
+      "26103600",
+      "25658633",
+      "23359374",
+      "21810890",
+      "21614463",
+      "21325651",
+      "20851191",
+      "20457960",
+      "20139998",
+      "19924424",
+      "18259084",
+      "16613895",
+      "14561797",
+      "12535005",
+      "12430710",
+      "11912108",
+      "9330978",
+      "8909416"
+    ],
+    "similar": [
+      "38514176",
+      "28133816",
+      "39656512",
+      "27662315",
+      "41793080",
+      "29309493",
+      "35441216",
+      "38615405",
+      "19940270",
+      "24574501",
+      "26890751",
+      "35078612",
+      "28434708",
+      "41709596",
+      "29228180",
+      "40193719",
+      "28986472",
+      "29053860",
+      "39586043",
+      "29451323",
+      "31505368",
+      "24449064",
+      "34703399",
+      "39374849",
+      "28515265",
+      "31683481",
+      "30765195",
+      "34602080",
+      "30021613",
+      "41723928",
+      "20457960",
+      "27497488",
+      "39012305",
+      "33980708",
+      "28803444",
+      "23392204",
+      "29387532",
+      "30594046",
+      "40502594",
+      "25491078",
+      "29946950",
+      "40810361",
+      "34216263",
+      "33085292",
+      "34864342",
+      "27815682",
+      "31181419",
+      "23597030",
+      "32062656",
+      "24716649",
+      "35731122",
+      "23626825",
+      "28179468",
+      "28229040",
+      "18412267",
+      "30981204",
+      "18991338",
+      "22932755",
+      "34418401",
+      "27474916",
+      "31133977",
+      "31848674",
+      "30255971",
+      "38578498",
+      "33274526",
+      "22382356",
+      "33402272",
+      "30668155",
+      "41554669",
+      "29424041",
+      "34569949",
+      "31795064",
+      "33010672",
+      "25139672",
+      "40126760",
+      "40288050",
+      "40986290",
+      "39472983",
+      "26484929",
+      "21908392",
+      "30605869",
+      "23803320",
+      "30640253",
+      "40919900",
+      "25929342",
+      "29569990",
+      "38165298",
+      "39756511",
+      "25658633",
+      "24818077",
+      "38865340",
+      "39497317",
+      "32438414",
+      "32591470",
+      "27875715",
+      "32725870",
+      "40830901",
+      "29353121",
+      "29935044",
+      "26103600"
+    ],
+    "review": [
+      "38514176",
+      "35078612",
+      "28803444",
+      "27815682",
+      "24716649",
+      "22932755",
+      "30255971"
+    ],
+    "pmc": [
+      "11330364"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jnnp.bmj.com/lookup/pmidlookup?view=long&pmid=38514176",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/mriscans.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "MRI Scans"
+      },
+      {
+        "url": "https://www.ovid.com/38514176.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38514176/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

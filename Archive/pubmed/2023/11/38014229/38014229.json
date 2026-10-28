@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "38014229",
+    "doi": "10.1101/2023.11.09.565900",
+    "title": "SEAMoD: A fully interpretable neural network for cis-regulatory analysis of differentially expressed genes."
+  },
+  "content": {
+    "abstract": "A common way to investigate gene regulatory mechanisms is to identify differentially expressed genes using transcriptomics, find their candidate enhancers using epigenomics, and search for over-represented transcription factor (TF) motifs in these enhancers using bioinformatics tools. A related follow-up task is to model gene expression as a function of enhancer sequences and rank TF motifs by their contribution to such models, thus prioritizing among regulators. We present a new computational tool called SEAMoD that performs the above tasks of motif finding and sequence-to-expression modeling simultaneously. It trains a convolutional neural network model to relate enhancer sequences to differential expression in one or more biological conditions. The model uses TF motifs to interpret the sequences, learning these motifs and their relative importance to each biological condition from data. It also utilizes epigenomic information in the form of activity scores of putative enhancers and automatically searches for the most promising enhancer for each gene. Compared to existing neural network models of non-coding sequences, SEAMoD uses far fewer parameters, requires far less training data, and emphasizes biological interpretability. We used SEAMoD to understand regulatory mechanisms underlying the differentiation of neural stem cell (NSC) derived from mouse forebrain. We profiled gene expression and histone modifications in NSC and three differentiated cell types and used SEAMoD to model differential expression of nearly 12,000 genes with an accuracy of 81%, in the process identifying the Olig2, E2f family TFs, Foxo3, and Tcf4 as key transcriptional regulators of the differentiation process.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bhogale, Shounak",
+        "Seward, Chris",
+        "Stubbs, Lisa",
+        "Sinha, Saurabh"
+      ],
+      "short_names": [
+        "Bhogale S",
+        "Seward C",
+        "Stubbs L",
+        "Sinha S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9556-1972"
+      ],
+      "affiliations": [
+        "Center for Biophysics and Quantitative Biology, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA.",
+        "Pacific Northwest Research Insititute, Seattle WA 98122.",
+        "Pacific Northwest Research Insititute, Seattle WA 98122.",
+        "Wallace H. Coulter Distinguished Faculty Chair in Biomedical Engineering.",
+        "Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology, Atlanta, GA 30332.",
+        "H. Milton Stewart School of Industrial & Systems Engineering, Georgia Institute of Technology, Atlanta, GA 30332."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bhogale, Shounak",
+        "short_name": "Bhogale S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biophysics and Quantitative Biology, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA."
+        ]
+      },
+      {
+        "full_name": "Seward, Chris",
+        "short_name": "Seward C",
+        "identifiers": [],
+        "affiliations": [
+          "Pacific Northwest Research Insititute, Seattle WA 98122."
+        ]
+      },
+      {
+        "full_name": "Stubbs, Lisa",
+        "short_name": "Stubbs L",
+        "identifiers": [
+          "0000-0002-9556-1972"
+        ],
+        "affiliations": [
+          "Pacific Northwest Research Insititute, Seattle WA 98122."
+        ]
+      },
+      {
+        "full_name": "Sinha, Saurabh",
+        "short_name": "Sinha S",
+        "identifiers": [],
+        "affiliations": [
+          "Wallace H. Coulter Distinguished Faculty Chair in Biomedical Engineering.",
+          "Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology, Atlanta, GA 30332.",
+          "H. Milton Stewart School of Industrial & Systems Engineering, Georgia Institute of Technology, Atlanta, GA 30332."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Nov 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/28 06:42",
+    "fetched_at": "2026-09-29 11:18:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36147469",
+      "35533809",
+      "35501322",
+      "35465052",
+      "35192674",
+      "34850907",
+      "34608324",
+      "34508359",
+      "33603233",
+      "33350385",
+      "32433972",
+      "30971806",
+      "30730593",
+      "30256780",
+      "30013180",
+      "29588361",
+      "29036507",
+      "28356321",
+      "27727234",
+      "27342760",
+      "27197224",
+      "27084946",
+      "26439128",
+      "26301843",
+      "26213851",
+      "25925574",
+      "25791631",
+      "25764333",
+      "25710527",
+      "25559105",
+      "25520196",
+      "25260700",
+      "25215497",
+      "25058159",
+      "25033408",
+      "23891001",
+      "23790213",
+      "23618408",
+      "23332759",
+      "23097509",
+      "22955616",
+      "22935140",
+      "22652625",
+      "22445365",
+      "22412381",
+      "21913086",
+      "21106759",
+      "20862354",
+      "20808951",
+      "20513432",
+      "20087339",
+      "19910308",
+      "19896443",
+      "19682982",
+      "19228964",
+      "18226245",
+      "18172436",
+      "17324271",
+      "16980977",
+      "16873464",
+      "16791208",
+      "16457797",
+      "15084257",
+      "12554697",
+      "12490723",
+      "10698627",
+      "1553558"
+    ],
+    "similar": [
+      "38014229",
+      "27490187",
+      "34486522",
+      "36043696",
+      "25294244",
+      "32770026",
+      "26377945",
+      "36520922",
+      "24714811",
+      "31318408",
+      "33046126",
+      "22537144",
+      "36891511",
+      "25609699",
+      "30905748",
+      "23184988",
+      "32054475",
+      "36941077",
+      "28716036",
+      "18426580",
+      "22412381",
+      "24972496",
+      "22534400",
+      "39184348",
+      "31510916",
+      "37582793",
+      "36671456",
+      "25035418",
+      "32043966",
+      "33581335",
+      "25788622",
+      "19426448",
+      "26365491",
+      "22165960",
+      "36321557",
+      "31590652",
+      "24339764",
+      "30423062",
+      "35751107",
+      "37950299",
+      "31311821",
+      "34054916",
+      "33535061",
+      "35199155",
+      "35757392",
+      "37884340",
+      "25058159",
+      "36715222",
+      "37805453",
+      "20704747",
+      "34184026",
+      "23272209",
+      "27986453",
+      "26604129",
+      "29273624",
+      "21315151",
+      "22313678",
+      "25765133",
+      "31742324",
+      "24200043",
+      "16643658",
+      "32443951",
+      "18682805",
+      "31672653",
+      "29363433",
+      "33501917",
+      "23512712",
+      "30286077",
+      "25533349",
+      "23700312",
+      "24499934",
+      "35694152",
+      "21233399",
+      "20075146",
+      "36209437",
+      "27833659",
+      "18371204",
+      "34272562",
+      "37539835",
+      "24496624",
+      "25791631",
+      "33439459",
+      "35719916",
+      "26449372",
+      "22378636"
+    ],
+    "review": [
+      "38014229",
+      "36321557",
+      "35199155",
+      "31742324",
+      "16643658"
+    ],
+    "pmc": [
+      "10680628"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38014229/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38014229",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO3-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.11.09.565900",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

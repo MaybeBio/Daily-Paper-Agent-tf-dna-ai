@@ -1,0 +1,304 @@
+{
+  "identity": {
+    "pmid": "38975896",
+    "doi": "10.1093/bib/bbae330",
+    "title": "EGPDI: identifying protein-DNA binding sites based on multi-view graph embedding fusion."
+  },
+  "content": {
+    "abstract": "Mechanisms of protein-DNA interactions are involved in a wide range of biological activities and processes. Accurately identifying binding sites between proteins and DNA is crucial for analyzing genetic material, exploring protein functions, and designing novel drugs. In recent years, several computational methods have been proposed as alternatives to time-consuming and expensive traditional experiments. However, accurately predicting protein-DNA binding sites still remains a challenge. Existing computational methods often rely on handcrafted features and a single-model architecture, leaving room for improvement. We propose a novel computational method, called EGPDI, based on multi-view graph embedding fusion. This approach involves the integration of Equivariant Graph Neural Networks (EGNN) and Graph Convolutional Networks II (GCNII), independently configured to profoundly mine the global and local node embedding representations. An advanced gated multi-head attention mechanism is subsequently employed to capture the attention weights of the dual embedding representations, thereby facilitating the integration of node features. Besides, extra node features from protein language models are introduced to provide more structural information. To our knowledge, this is the first time that multi-view graph embedding fusion has been applied to the task of protein-DNA binding site prediction. The results of five-fold cross-validation and independent testing demonstrate that EGPDI outperforms state-of-the-art methods. Further comparative experiments and case studies also verify the superiority and generalization ability of EGPDI.",
+    "keywords": [
+      "equivariant graph neural network",
+      "gated attention mechanism",
+      "multi-view graph embedding fusion",
+      "protein language models",
+      "protein-DNA binding site prediction"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*DNA/metabolism/chemistry",
+      "*DNA-Binding Proteins/metabolism/chemistry",
+      "*Neural Networks, Computer",
+      "*Computational Biology/methods",
+      "Algorithms",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Mengxin",
+        "Sun, Guicong",
+        "Li, Xueping",
+        "Fan, Yongxian"
+      ],
+      "short_names": [
+        "Zheng M",
+        "Sun G",
+        "Li X",
+        "Fan Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-3777-2641",
+        "ORCID: 0000-0002-4597-0268",
+        "ORCID: 0000-0003-0120-8092"
+      ],
+      "affiliations": [
+        "School of Computer Science and Information Security, Guilin University of Electronic Technology, Guilin 541004, China.",
+        "School of Computer Science and Information Security, Guilin University of Electronic Technology, Guilin 541004, China.",
+        "School of Computer Science and Information Security, Guilin University of Electronic Technology, Guilin 541004, China.",
+        "School of Computer Science and Information Security, Guilin University of Electronic Technology, Guilin 541004, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Mengxin",
+        "short_name": "Zheng M",
+        "identifiers": [
+          "0009-0008-3777-2641"
+        ],
+        "affiliations": [
+          "School of Computer Science and Information Security, Guilin University of Electronic Technology, Guilin 541004, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Guicong",
+        "short_name": "Sun G",
+        "identifiers": [
+          "0000-0002-4597-0268"
+        ],
+        "affiliations": [
+          "School of Computer Science and Information Security, Guilin University of Electronic Technology, Guilin 541004, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xueping",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Information Security, Guilin University of Electronic Technology, Guilin 541004, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Yongxian",
+        "short_name": "Fan Y",
+        "identifiers": [
+          "0000-0003-0120-8092"
+        ],
+        "affiliations": [
+          "School of Computer Science and Information Security, Guilin University of Electronic Technology, Guilin 541004, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 May 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/08 12:42",
+    "fetched_at": "2026-09-29 23:26:15"
+  },
+  "links": {
+    "cites": [
+      "42636031",
+      "42323855",
+      "42227990",
+      "41835510",
+      "41286535",
+      "41222559",
+      "41045511",
+      "40919912",
+      "40601256",
+      "40307455",
+      "39202449"
+    ],
+    "refs": [
+      "38281252",
+      "37824738",
+      "37672551",
+      "36927031",
+      "36192636",
+      "35650286",
+      "35648833",
+      "35039821",
+      "35020807",
+      "34265844",
+      "34197105",
+      "33876751",
+      "33577689",
+      "33454744",
+      "31510679",
+      "30395339",
+      "30169574",
+      "29846643",
+      "27740495",
+      "27411231",
+      "27147539",
+      "25063293",
+      "24334392",
+      "24244144",
+      "23975762",
+      "23737141",
+      "22570420",
+      "20877328",
+      "20684613",
+      "20675356",
+      "20525822",
+      "20053844",
+      "19865164",
+      "19068426",
+      "17316627",
+      "12402360",
+      "9580679",
+      "9309224"
+    ],
+    "similar": [
+      "38975896",
+      "41276805",
+      "39848362",
+      "41032018",
+      "41791267",
+      "32970681",
+      "42288985",
+      "40705403",
+      "39471921",
+      "40359455",
+      "42074175",
+      "39579417",
+      "40139623",
+      "40646507",
+      "35428964",
+      "41168713",
+      "38724906",
+      "38844961",
+      "40601256",
+      "40919912",
+      "40582680",
+      "40889326",
+      "39270885",
+      "41698566",
+      "39270533",
+      "42377576",
+      "40155814",
+      "41237191",
+      "38640481",
+      "40644894",
+      "42475469",
+      "32911303",
+      "38833802",
+      "39214282",
+      "38679191",
+      "40914361",
+      "39776277",
+      "35872410",
+      "38843057",
+      "41739380",
+      "35189635",
+      "41922959",
+      "40466979",
+      "35514190",
+      "41257586",
+      "41134132",
+      "41023600",
+      "38986796",
+      "39223474",
+      "36088549",
+      "41714906",
+      "38652712",
+      "33837387",
+      "40811188",
+      "39487084",
+      "35883487",
+      "32920048",
+      "37807013",
+      "40887198",
+      "29993783",
+      "35039821",
+      "39571388",
+      "39446541",
+      "37161255",
+      "41094395",
+      "39573831",
+      "40692180",
+      "39357703",
+      "40097269",
+      "41145903",
+      "35224614",
+      "40209920",
+      "40524427",
+      "33577689",
+      "38896523",
+      "41875143",
+      "37788507",
+      "38980776",
+      "38710353",
+      "42229773",
+      "39962021",
+      "35108362",
+      "40589089",
+      "38551822",
+      "39520116",
+      "39074005",
+      "41026432",
+      "38599417",
+      "36918766",
+      "39012741",
+      "42289050",
+      "41013188",
+      "40811401",
+      "40334196",
+      "30106688",
+      "34929739",
+      "40996147",
+      "41045511",
+      "41932420",
+      "37529914"
+    ],
+    "review": [
+      "38975896",
+      "40209920"
+    ],
+    "pmc": [
+      "11229037"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38975896.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38975896/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae330",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

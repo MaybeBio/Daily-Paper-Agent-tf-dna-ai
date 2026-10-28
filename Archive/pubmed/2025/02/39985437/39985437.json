@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "39985437",
+    "doi": "10.1021/acs.jcim.4c02244",
+    "title": "NABhClassifier Server: A Tool for the Identification of Helical Nucleic Acid-Binding Sequences in Proteins."
+  },
+  "content": {
+    "abstract": "Engineered proteins capable of binding and transporting nucleic acids hold significant potential for advancing disease control in both the medical and agricultural fields. However, identifying small nucleic acid-binding domains remains challenging, as existing predictors primarily classify entire proteins as binders or nonbinders rather than targeting specific binding regions. Here, we introduce NABhClassifier, a highly efficient and precise web server designed to detect small helical sequences with nucleic acid-binding potential. Featuring an intuitive interface and a fully automated prediction pipeline, NABhClassifier integrates eight machine learning models for rapid analysis, delivering results in seconds per protein sequence. Predictions are summarized in the NABh index, a consensus score that combines outputs from all models for enhanced reliability. The server's accuracy has been validated on data sets of DNA-binding and single- and double-stranded RNA-binding proteins from various species. NABhClassifier provides a powerful tool for identifying small helices with nucleic acid-binding capacity, facilitating the discovery of novel biotechnological applications. The server, along with tutorials, is freely accessible at http://143.54.25.149.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Software",
+      "*Nucleic Acids/metabolism/chemistry",
+      "Protein Binding",
+      "Machine Learning",
+      "*RNA-Binding Proteins/chemistry/metabolism",
+      "*DNA/metabolism/chemistry",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "Binding Sites",
+      "Internet"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Margis, Rogerio",
+        "Macedo, Iara",
+        "Rodrigues, Nureyev F",
+        "Dias-Oliveira, Mateus",
+        "Lazzarotto, Fernanda",
+        "Trindade de Souza, Diego",
+        "Zanatta, Geancarlo"
+      ],
+      "short_names": [
+        "Margis R",
+        "Macedo I",
+        "Rodrigues NF",
+        "Dias-Oliveira M",
+        "Lazzarotto F",
+        "Trindade de Souza D",
+        "Zanatta G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2871-4473",
+        "ORCID: 0000-0001-5294-0414",
+        "ORCID: 0000-0002-8191-7894",
+        "ORCID: 0009-0009-0490-8597",
+        "ORCID: 0000-0001-8783-2333",
+        "ORCID: 0000-0003-0111-5347"
+      ],
+      "affiliations": [
+        "Postgraduate Programme in Cellular and Molecular Biology (PPGBCM), Center of Biotechnology, Federal University of Rio Grande do Sul, 90650-001 Porto Alegre, RS, Brazil.",
+        "Postgraduate Programme in Genetics and Molecular Biology (PPGBM), Federal University of Rio Grande do Sul, 91501-970 Porto Alegre, RS, Brazil.",
+        "Department of Biophysics, Federal University of Rio Grande do Sul, 91501-970 Porto Alegre, RS, Brazil.",
+        "Postgraduate Programme in Genetics and Molecular Biology (PPGBM), Federal University of Rio Grande do Sul, 91501-970 Porto Alegre, RS, Brazil.",
+        "Department of Biophysics, Federal University of Rio Grande do Sul, 91501-970 Porto Alegre, RS, Brazil.",
+        "Postgraduate Programme in Cellular and Molecular Biology (PPGBCM), Center of Biotechnology, Federal University of Rio Grande do Sul, 90650-001 Porto Alegre, RS, Brazil.",
+        "Center of Biotechnology, Federal University of Rio Grande do Sul, 90650-001 Porto Alegre, RS, Brazil.",
+        "Department of Biophysics, Federal University of Rio Grande do Sul, 91501-970 Porto Alegre, RS, Brazil.",
+        "Postgraduate Programme in Cellular and Molecular Biology (PPGBCM), Center of Biotechnology, Federal University of Rio Grande do Sul, 90650-001 Porto Alegre, RS, Brazil.",
+        "Department of Biophysics, Federal University of Rio Grande do Sul, 91501-970 Porto Alegre, RS, Brazil."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Margis, Rogerio",
+        "short_name": "Margis R",
+        "identifiers": [
+          "0000-0002-2871-4473"
+        ],
+        "affiliations": [
+          "Postgraduate Programme in Cellular and Molecular Biology (PPGBCM), Center of Biotechnology, Federal University of Rio Grande do Sul, 90650-001 Porto Alegre, RS, Brazil.",
+          "Postgraduate Programme in Genetics and Molecular Biology (PPGBM), Federal University of Rio Grande do Sul, 91501-970 Porto Alegre, RS, Brazil.",
+          "Department of Biophysics, Federal University of Rio Grande do Sul, 91501-970 Porto Alegre, RS, Brazil."
+        ]
+      },
+      {
+        "full_name": "Macedo, Iara",
+        "short_name": "Macedo I",
+        "identifiers": [
+          "0000-0001-5294-0414"
+        ],
+        "affiliations": [
+          "Postgraduate Programme in Genetics and Molecular Biology (PPGBM), Federal University of Rio Grande do Sul, 91501-970 Porto Alegre, RS, Brazil."
+        ]
+      },
+      {
+        "full_name": "Rodrigues, Nureyev F",
+        "short_name": "Rodrigues NF",
+        "identifiers": [
+          "0000-0002-8191-7894"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Federal University of Rio Grande do Sul, 91501-970 Porto Alegre, RS, Brazil."
+        ]
+      },
+      {
+        "full_name": "Dias-Oliveira, Mateus",
+        "short_name": "Dias-Oliveira M",
+        "identifiers": [
+          "0009-0009-0490-8597"
+        ],
+        "affiliations": [
+          "Postgraduate Programme in Cellular and Molecular Biology (PPGBCM), Center of Biotechnology, Federal University of Rio Grande do Sul, 90650-001 Porto Alegre, RS, Brazil."
+        ]
+      },
+      {
+        "full_name": "Lazzarotto, Fernanda",
+        "short_name": "Lazzarotto F",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Biotechnology, Federal University of Rio Grande do Sul, 90650-001 Porto Alegre, RS, Brazil."
+        ]
+      },
+      {
+        "full_name": "Trindade de Souza, Diego",
+        "short_name": "Trindade de Souza D",
+        "identifiers": [
+          "0000-0001-8783-2333"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Federal University of Rio Grande do Sul, 91501-970 Porto Alegre, RS, Brazil."
+        ]
+      },
+      {
+        "full_name": "Zanatta, Geancarlo",
+        "short_name": "Zanatta G",
+        "identifiers": [
+          "0000-0003-0111-5347"
+        ],
+        "affiliations": [
+          "Postgraduate Programme in Cellular and Molecular Biology (PPGBCM), Center of Biotechnology, Federal University of Rio Grande do Sul, 90650-001 Porto Alegre, RS, Brazil.",
+          "Department of Biophysics, Federal University of Rio Grande do Sul, 91501-970 Porto Alegre, RS, Brazil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Mar 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/22 20:09",
+    "fetched_at": "2026-10-05 03:22:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38281181",
+      "37223250",
+      "36008947",
+      "34748246",
+      "34086933",
+      "33961438",
+      "33558392",
+      "33477647",
+      "32243832",
+      "31324771",
+      "30842445",
+      "28941257",
+      "27503141",
+      "11104519"
+    ],
+    "similar": [
+      "39985437",
+      "28383703",
+      "20478832",
+      "39833102",
+      "25977296",
+      "39576589",
+      "16845003",
+      "34905768",
+      "14681388",
+      "27198220",
+      "18452716",
+      "25935161",
+      "32920048",
+      "28132027",
+      "34415020",
+      "24838571",
+      "25940624",
+      "19487258",
+      "25535242",
+      "29253082",
+      "23788679",
+      "18262782",
+      "25568280",
+      "33577689",
+      "20507911",
+      "25760613",
+      "17237068",
+      "12824337",
+      "21689482",
+      "33454744",
+      "32621227",
+      "33291838",
+      "23657842",
+      "33406224",
+      "23975767",
+      "19357098",
+      "23685436",
+      "28637296",
+      "25341390",
+      "22238259",
+      "25474259",
+      "38619046",
+      "19474339",
+      "23193292",
+      "30933978",
+      "24521053",
+      "9145285",
+      "30535108",
+      "8531718",
+      "16568445",
+      "38491248",
+      "8742852",
+      "15048824",
+      "31114927",
+      "32793956",
+      "15980538",
+      "11504875",
+      "22661576",
+      "8346044",
+      "31131411",
+      "27084939",
+      "23703214",
+      "28155662",
+      "26176857",
+      "37405873",
+      "15215379",
+      "8696967",
+      "18448468",
+      "28901583",
+      "17219397",
+      "7540284",
+      "21873642",
+      "17661353",
+      "11724731",
+      "23754853",
+      "17977883",
+      "25820431",
+      "15215475",
+      "25708928",
+      "28155654",
+      "22693214",
+      "39520544",
+      "15383143",
+      "17485471",
+      "32841657",
+      "17517771",
+      "31114880",
+      "20435679",
+      "11075923",
+      "28652006",
+      "21575183",
+      "25883153",
+      "39804669",
+      "30108179",
+      "15215384",
+      "15980540",
+      "25708089",
+      "22868682",
+      "30957840",
+      "7534505"
+    ],
+    "review": [
+      "39985437",
+      "39833102",
+      "18452716",
+      "25935161",
+      "29253082",
+      "33291838",
+      "9145285",
+      "8742852",
+      "7540284"
+    ],
+    "pmc": [
+      "11898072"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39985437/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.4c02244",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

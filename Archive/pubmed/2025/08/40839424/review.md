@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that SlAGL6 suppresses parthenocarpy in tomato specifically from ovules, and that SlMBP3 and SlMBP22 act cooperatively with SlAGL6 to arrest ovary growth before fertilization, likely through formation of Flower Quartet-like complexes
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or primary data are accessible
+- **Missing materials affecting confidence** Full text, all figures and tables, methods section, statistical details, and supplementary data; without these, quantitative claims and mechanistic conclusions cannot be independently verified
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and mechanistically interesting story that extends prior work on SlAGL6 in tomato parthenocarpy. The genetic rescue experiment using an ovule-specific promoter is a strong design element, and the identification of two new MADS-box interactors is a logical advance. However, the abstract alone does not provide sufficient experimental detail to assess the robustness of the interaction data, the specificity of the ovule-specific rescue, or the structural predictions. The claim that SlMBP3 and SlMBP22 form complexes only in the presence of SlAGL6 is intriguing but requires careful validation, particularly given the known propensity of MADS-box proteins to form higher-order complexes. The overall case is plausible but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Plant developmental biologists studying fruit set, ovule function, and fertilization-dependent growth regulation will find this relevant. Researchers working on MADS-box transcription factor complexes and their roles in reproductive development, as well as those interested in parthenocarpy as a trait for horticultural improvement, will also be engaged. The work may appeal to a broader audience interested in the molecular mechanisms of organ growth arrest.
+- **Major strengths** The use of an ovule-specific promoter for genetic rescue is a targeted and informative approach. The combination of Y2H screening, CRISPR/Cas9 knockout, and protein interaction assays provides a multi-angle strategy. The structural prediction of a Flower Quartet-like complex adds a compelling conceptual framework. The work builds logically on prior findings and addresses a specific gap in understanding pre-fertilization ovary arrest.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that SlMBP3 and SlMBP22 form homomeric and heteromeric complexes in planta, but only in the presence of SlAGL6
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that protein interaction assays and AlphaFold-based predictions revealed complex formation only in the presence of SlAGL6. This is a strong and specific claim. However, no details are given on the types of assays used, the conditions, the controls, or the statistical significance of the interaction differences. MADS-box proteins are known to form dynamic and context-dependent complexes, and the absence of SlAGL6 could affect complex stability rather than formation per se. The AlphaFold predictions are computational and should be treated as hypothesis-generating, not confirmatory.
+  - **Why it matters** The central mechanistic conclusion depends on the specificity of complex formation. If the interaction data are not robust or if the structural predictions are overinterpreted, the proposed framework for ovary arrest regulation is weakened.
+  - **Resolution test** Provide detailed methods for the interaction assays, including positive and negative controls, quantification, and replicates. Show that the absence of SlAGL6 leads to a reproducible and significant loss of complex formation in multiple independent assays. Clarify the confidence metrics for the AlphaFold predictions and, if possible, validate the predicted complex architecture with mutagenesis or crosslinking data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that reintroducing SlAGL6 into slagl6CR-sg1 using an ovule-specific promoter restored ovary arrest and eliminated parthenocarpy
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract reports a rescue experiment but does not specify the promoter used, the expression levels achieved, the number of independent transgenic lines examined, or the phenotypic criteria for "restored ovary arrest" and "eliminated parthenocarpy." Without these details, it is difficult to assess whether the rescue is complete, partial, or variable across lines. The specificity of the ovule promoter is also not demonstrated.
+  - **Why it matters** This experiment is the key evidence for the ovule-specific action of SlAGL6. If the rescue is incomplete or if the promoter has ectopic activity, the conclusion that SlAGL6 acts specifically from ovules is not supported.
+  - **Resolution test** Provide the promoter identity, expression analysis (e.g., reporter or qPCR), number of lines, and quantitative phenotypic data for ovary growth and fruit set. Show that the rescue is consistent and that the promoter drives expression predominantly in ovules.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that SlMBP3 acts cooperatively with SlAGL6 and SlMBP22 to suppress parthenocarpy
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The genetic interaction study is described in a single sentence. No details are given on the mutant combinations generated, the phenotypes observed, the number of plants analyzed, or the statistical comparisons. The term "cooperatively" implies a specific genetic relationship that requires careful demonstration, such as additive, synergistic, or epistatic effects.
+  - **Why it matters** The cooperative action is a central claim of the paper. Without detailed genetic data, the nature of the interaction remains unclear, and the proposed mechanism cannot be distinguished from independent or redundant functions.
+  - **Resolution test** Provide a clear description of the mutant combinations, phenotypic quantification, and statistical analysis. Show that the double or triple mutants have phenotypes that are distinct from single mutants in a way that supports cooperation rather than simple additivity.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses several abbreviations (Y2H, CRISPR/Cas9, FQC) without defining them at first use. This may hinder readers unfamiliar with the techniques.
+  - **Required correction** Define all abbreviations at first use, even if they are common in the field, to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "high-confidence SlAGL6 interactors" is used without explaining what criteria define "high-confidence" in the Y2H screen.
+  - **Required correction** Briefly state the criteria used to select candidates from the Y2H screen, such as interaction strength, reproducibility, or biological relevance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that SlMBP3 and SlMBP22 are "predominantly expressed in arrested ovary ovules" but does not provide any expression data or comparison with other tissues.
+  - **Required correction** Include a brief description of the expression analysis, such as the method used and the tissues compared, to support this claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The work is original in identifying specific new MADS-box interactors and proposing a cooperative mechanism for ovary arrest. However, the conceptual framework of MADS-box complexes regulating reproductive development is not entirely new.
+  - Scientific importance: The findings have clear importance for understanding fruit set regulation and could inform strategies for parthenocarpic fruit production. The mechanistic detail is a step forward.
+  - Interdisciplinary readership: The topic is primarily of interest to plant developmental biologists and molecular geneticists. The broader appeal is limited unless the authors draw connections to general principles of organ growth control.
+  - Technical soundness: The abstract suggests a well-designed study, but the lack of experimental detail prevents full assessment. The interaction and rescue data need to be robust and well-controlled.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific jargon and abbreviations that could be better explained.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance is promising, and the experimental approach is appropriate, but the abstract alone does not provide enough evidence to fully establish the mechanistic claims. The authors should provide detailed methods and data for the rescue, interaction, and genetic experiments.
+
+## Risk / unsupported claims
+- The claim that SlMBP3 and SlMBP22 form complexes only in the presence of SlAGL6 is not supported by the abstract alone; the interaction data and structural predictions are not described in sufficient detail.
+- The claim that SlAGL6 suppresses parthenocarpy specifically from ovules is plausible but not fully supported without details on the ovule-specific promoter and the completeness of the rescue.
+- The claim that SlMBP3 acts cooperatively with SlAGL6 and SlMBP22 is not supported without detailed genetic interaction data.
+- The expression pattern of SlMBP3 and SlMBP22 in arrested ovules is stated but not evidenced in the abstract.

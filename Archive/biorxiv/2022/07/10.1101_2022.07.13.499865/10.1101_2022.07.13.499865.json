@@ -1,0 +1,158 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.07.13.499865",
+  "title": "A hybrid approach for predicting transcription factors",
+  "doi": "10.1101/2022.07.13.499865",
+  "abstract": "Transcription factors (TFs) are essential DNA-binding proteins that regulate the rate of transcription of several genes and controls the expression of genes inside a cell. The prediction of TFs with high precision is important for understanding number of biological processes such as cell-differentiation, intracellular signaling, cell-cycle control. In this study, we developed a hybrid method that combine alignment-based and alignment-free methods for predicting transcription factors with higher accuracy. All models have been trained, tested and evaluated on a large dataset that contain 19406 TFs and 523560 non-TFs protein sequences. In order to avoid biasness in evaluation, dataset is divided in training and validation/independent dataset, where 80% data was used for training and remaining 20% for external validation. In case of alignment-free methods, models are developed based on machine learning techniques using compositional features of a protein. Our best alignment-free model obtained AUC 0.97 on independent dataset. In case of alignment-based method, we used BLAST at different cut-off to predict transcription factors. Though alignment-based method shows excellent performance but unable to cover all transcription factor due to no-hits. In order to combine power of both, we developed a hybrid method that combine alignment-free and alignment-based method; achieved maximum AUC of 0.99 on independent dataset. The method proposed in this study perform better than existing methods. We incorporated the best models in the webserver/standalone package “TransFacPred” ( https://webs.iiitd.edu.in/raghava/transfacpred ). <h4>Key Points</h4> Transcription factors (TFs) are vital DNA-binding proteins. A hybrid method for the prediction of TFs using sequence information. Computer-aided model were developed using machine-learning algorithm to predict TFs. Alignment-based and alignment-free approaches were used for the prediction. A user-friendly webserver, python- and Perl-based standalone package available.",
+  "authors": [
+    "Patiyal S",
+    "Tiwari P",
+    "Ghai M",
+    "Dhapola A",
+    "Dhall A",
+    "Raghava GPS"
+  ],
+  "published_date": "2022-07-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.07.13.499865",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.07.13.499865.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR519338",
+    "raw_record": {
+      "id": "PPR519338",
+      "source": "PPR",
+      "doi": "10.1101/2022.07.13.499865",
+      "title": "A hybrid approach for predicting transcription factors",
+      "authorString": "Patiyal S, Tiwari P, Ghai M, Dhapola A, Dhall A, Raghava GPS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Patiyal S",
+            "lastName": "Patiyal",
+            "firstName": "Sumeet",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1358-292X"
+            }
+          },
+          {
+            "fullName": "Tiwari P",
+            "lastName": "Tiwari",
+            "firstName": "Palak",
+            "initials": "P"
+          },
+          {
+            "fullName": "Ghai M",
+            "lastName": "Ghai",
+            "firstName": "Mohit",
+            "initials": "M"
+          },
+          {
+            "fullName": "Dhapola A",
+            "lastName": "Dhapola",
+            "firstName": "Aman",
+            "initials": "A"
+          },
+          {
+            "fullName": "Dhall A",
+            "lastName": "Dhall",
+            "firstName": "Anjali",
+            "initials": "A"
+          },
+          {
+            "fullName": "Raghava GPS",
+            "lastName": "Raghava",
+            "firstName": "Gajendra",
+            "initials": "GPS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8902-2876"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8902-2876"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1358-292X"
+          }
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Transcription factors (TFs) are essential DNA-binding proteins that regulate the rate of transcription of several genes and controls the expression of genes inside a cell. The prediction of TFs with high precision is important for understanding number of biological processes such as cell-differentiation, intracellular signaling, cell-cycle control. In this study, we developed a hybrid method that combine alignment-based and alignment-free methods for predicting transcription factors with higher accuracy. All models have been trained, tested and evaluated on a large dataset that contain 19406 TFs and 523560 non-TFs protein sequences. In order to avoid biasness in evaluation, dataset is divided in training and validation/independent dataset, where 80% data was used for training and remaining 20% for external validation. In case of alignment-free methods, models are developed based on machine learning techniques using compositional features of a protein. Our best alignment-free model obtained AUC 0.97 on independent dataset. In case of alignment-based method, we used BLAST at different cut-off to predict transcription factors. Though alignment-based method shows excellent performance but unable to cover all transcription factor due to no-hits. In order to combine power of both, we developed a hybrid method that combine alignment-free and alignment-based method; achieved maximum AUC of 0.99 on independent dataset. The method proposed in this study perform better than existing methods. We incorporated the best models in the webserver/standalone package “TransFacPred” (  https://webs.iiitd.edu.in/raghava/transfacpred ).  <h4>Key Points</h4>  Transcription factors (TFs) are vital DNA-binding proteins. A hybrid method for the prediction of TFs using sequence information. Computer-aided model were developed using machine-learning algorithm to predict TFs. Alignment-based and alignment-free approaches were used for the prediction. A user-friendly webserver, python- and Perl-based standalone package available.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/07/14/2022.07.13.499865.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.07.13.499865"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39119181",
+            "reference": "Frontiers in bioinformatics. 2024 ;4:1425419",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-07-17",
+      "firstPublicationDate": "2022-07-14",
+      "firstIndexDate": "2022-07-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

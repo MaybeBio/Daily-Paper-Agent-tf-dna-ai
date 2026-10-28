@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "pmid": "38569320",
+    "doi": "10.1016/j.ecoenv.2024.116262",
+    "title": "In Silico and In Vitro multiple analysis approach for screening naturally derived ligands for red seabream aryl hydrocarbon receptor."
+  },
+  "content": {
+    "abstract": "The aryl hydrocarbon receptor (AHR) is a key ligand-dependent transcription factor that mediates the toxic effects of compounds such as dioxin. Recently, natural ligands of AHR, including flavonoids, have been attracting physiological and toxicological attention as they have been reported to regulate major biological functions such as inflammation and anti-cancer by reducing the toxic effects of dioxin. Additionally, it is known that natural AHR ligands can accumulate in wildlife tissues, such as fish. However, studies in fish have investigated only a few ligands in experimental fish species, and the AHR response of marine fish to natural AHR ligands of various other structures has not been thoroughly investigated. To explore various natural AHR ligands in marine fish, which make up the most fish, it is necessary to develop new screening methods that consider the specificity of marine fish. In this study, we investigated the response of natural ligands by constructing in vitro and in silico experimental systems using red seabream as a model species. We attempted to develop a new predictive model to screen potential ligands that can induce transcriptional activation of red seabream AHR1 and AHR2 (rsAHR1 and rsAHR2). This was achieved through multiple analyses using in silico/ in vitro data and Tox21 big data. First, we constructed an in vitro reporter gene assay of rsAHR1 and rsAHR2 and measured the response of 10 representatives natural AHR ligands in COS-7 cells. The results showed that FICZ, Genistein, Daidzein, I3C, DIM, Quercetin and Baicalin induced the transcriptional activity of rsAHR1 and rsAHR2, while Resveratrol and Retinol did not induce the transcriptional activity of rsAHR isoforms. Comparing the EC(50) values of the respective compounds in rsAHR1 and rsAHR2, FICZ, Genistein, and Daidzein exhibited similar isoform responses, but I3C, Baicalin, DIM and Quercetin show the isoform-specific responses. These results suggest that natural AHR ligands have specific profiling and transcriptional activity for each rsAHR isoform. In silico analysis, we constructed homology models of the ligand binding domains (LBDs) of rsAHR1 and rsAHR2 and calculated the docking energies (U_dock values) of natural ligands with measured in vitro transcriptional activity and dioxins reported in previous studies. The results showed a significant correlation (R(2)=0.74(rsAHR1), R(2)=0.83(rsAHR2)) between docking energy and transcriptional activity (EC(50)) value, suggesting that the homology model of rsAHR1 and rsAHR2 can be utilized to predict the potential transactivation of ligands. To broaden the applicability of the homology model to diverse compound structures and validate the correlation with transcriptional activity, we conducted additional analyses utilizing Tox21 big data. We calculated the docking energy values for 1860 chemicals in both rsAHR1 and rsAHR2, which were tested for transcriptional activation in Tox21 data against human AHR. By comparing the U_dock energy values between 775 active compounds and 1085 inactive compounds, a significant difference (p<0.001) was observed between the U_dock energy values in the two groups, suggesting that the U_dock value can be applied to distinguish the activation of compounds. Furthermore, we observed a significant correlation (R(2)=0.45) between the AC(50) of Tox21 database and U_dock values of human AHR model. In conclusion, we calculated equations to translate the results of an in silico prediction model for ligand screening of rsAHR1 and rsAHR2 transactivation. This ligand screening model can be a powerful tool to quantitatively estimate AHR transactivation of major marine agents to which red seabream may be exposed. The study introduces a new screening approach for potential natural AHR ligands in marine fish, based on homology model-docking energy values of rsAHR1 and rsAHR2, with implications for future agonist development and applications bridging in silico and in vitro data.",
+    "keywords": [
+      "Aryl Hydrocarbon Receptor",
+      "In silico assay",
+      "In vitro assay",
+      "Natural ligands",
+      "Prediction model",
+      "Red seabream"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Sea Bream/genetics/metabolism",
+      "Receptors, Aryl Hydrocarbon/metabolism",
+      "*Dioxins/metabolism",
+      "Ligands",
+      "Quercetin",
+      "Genistein/toxicity/metabolism",
+      "*Polychlorinated Dibenzodioxins/metabolism",
+      "Protein Isoforms/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Choi, Jong-In",
+        "Song, Woo-Seon",
+        "Koh, Dong-Hee",
+        "Kim, Eun-Young"
+      ],
+      "short_names": [
+        "Choi JI",
+        "Song WS",
+        "Koh DH",
+        "Kim EY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biology, Kyung Hee University, Seoul, Republic of Korea.",
+        "Department of Biomedical and Pharmaceutical Sciences, Kyung Hee University, Seoul, Republic of Korea.",
+        "Department of Biomedical and Pharmaceutical Sciences, Kyung Hee University, Seoul, Republic of Korea.",
+        "Department of Biology, Kyung Hee University, Seoul, Republic of Korea; Department of Biomedical and Pharmaceutical Sciences, Kyung Hee University, Seoul, Republic of Korea. Electronic address: eykim08@khu.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Choi, Jong-In",
+        "short_name": "Choi JI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Kyung Hee University, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Song, Woo-Seon",
+        "short_name": "Song WS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical and Pharmaceutical Sciences, Kyung Hee University, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Koh, Dong-Hee",
+        "short_name": "Koh DH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical and Pharmaceutical Sciences, Kyung Hee University, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Eun-Young",
+        "short_name": "Kim EY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Kyung Hee University, Seoul, Republic of Korea; Department of Biomedical and Pharmaceutical Sciences, Kyung Hee University, Seoul, Republic of Korea. Electronic address: eykim08@khu.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Ecotoxicology and environmental safety"
+    ],
+    "journal_abbrev": [
+      "Ecotoxicol Environ Saf"
+    ],
+    "pub_date": "2024 Apr 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/04 00:42",
+    "fetched_at": "2026-09-29 18:05:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38569320",
+      "23402477",
+      "27188387",
+      "31195230",
+      "16987556",
+      "24858342",
+      "16006195",
+      "25692546",
+      "27060260",
+      "32563159",
+      "32563119",
+      "17556759",
+      "23997109",
+      "27288597",
+      "30597322",
+      "11742002",
+      "10359656",
+      "16545771",
+      "21981577",
+      "25093689",
+      "30522477",
+      "22074031",
+      "10448124",
+      "23286227",
+      "32858041",
+      "22242167",
+      "23810773",
+      "15077014",
+      "27288759",
+      "21134488",
+      "15972329",
+      "24950391",
+      "10559277",
+      "27783115",
+      "32526934",
+      "12972062",
+      "25224401",
+      "25761200",
+      "23054770",
+      "18063141",
+      "23394719",
+      "24355420",
+      "28922086",
+      "33297084",
+      "37652105",
+      "37127157",
+      "21204517",
+      "14742684",
+      "18472132",
+      "27301797",
+      "9395520",
+      "19828881",
+      "11006353",
+      "17234648",
+      "19447539",
+      "18948129",
+      "33374508",
+      "28764121",
+      "24136190",
+      "12859983",
+      "24161567",
+      "16606854",
+      "21051073",
+      "17869316",
+      "35458697",
+      "19560568",
+      "16480812",
+      "19799885",
+      "19719119",
+      "17431010",
+      "22923492",
+      "15213304",
+      "12842597",
+      "25213920",
+      "33182092",
+      "36179647",
+      "17912254",
+      "15581594",
+      "30201897",
+      "37660771",
+      "37895177",
+      "16101299",
+      "10947077",
+      "22867086",
+      "31738530",
+      "37647967",
+      "20634293",
+      "14646185",
+      "20875740",
+      "12024042",
+      "23859880",
+      "14644660",
+      "12559581",
+      "15123621",
+      "24265133",
+      "19500377",
+      "26079192",
+      "38621508",
+      "23676118",
+      "16042621",
+      "30907958",
+      "38499054",
+      "31337850",
+      "39204085",
+      "38548044",
+      "38904418",
+      "32678147",
+      "37477592",
+      "37245988",
+      "38637430",
+      "35453298",
+      "35710704",
+      "39246744",
+      "37470014",
+      "39035954",
+      "35308387",
+      "39302845",
+      "38712290",
+      "37388277",
+      "39195711",
+      "28405127",
+      "32461840",
+      "39260556"
+    ],
+    "review": [
+      "38569320",
+      "23054770",
+      "37652105",
+      "33374508",
+      "17869316",
+      "15581594",
+      "26079192",
+      "38548044",
+      "38637430",
+      "39260556"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0147-6513(24)00338-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

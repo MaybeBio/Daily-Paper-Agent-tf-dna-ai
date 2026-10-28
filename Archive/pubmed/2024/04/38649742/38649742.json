@@ -1,0 +1,556 @@
+{
+  "identity": {
+    "pmid": "38649742",
+    "doi": "10.1038/s41592-024-02245-2",
+    "title": "Virtual reality-empowered deep-learning analysis of brain cells."
+  },
+  "content": {
+    "abstract": "Automated detection of specific cells in three-dimensional datasets such as whole-brain light-sheet image stacks is challenging. Here, we present DELiVR, a virtual reality-trained deep-learning pipeline for detecting c-Fos(+) cells as markers for neuronal activity in cleared mouse brains. Virtual reality annotation substantially accelerated training data generation, enabling DELiVR to outperform state-of-the-art cell-segmenting approaches. Our pipeline is available in a user-friendly Docker container that runs with a standalone Fiji plugin. DELiVR features a comprehensive toolkit for data visualization and can be customized to other cell types of interest, as we did here for microglia somata, using Fiji for dataset-specific training. We applied DELiVR to investigate cancer-related brain activity, unveiling an activation pattern that distinguishes weight-stable cancer from cancers associated with weight loss. Overall, DELiVR is a robust deep-learning tool that does not require advanced coding skills to analyze whole-brain imaging data in health and disease.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "Animals",
+      "*Brain/diagnostic imaging",
+      "Mice",
+      "*Virtual Reality",
+      "Neurons",
+      "Software",
+      "Image Processing, Computer-Assisted/methods",
+      "Proto-Oncogene Proteins c-fos/metabolism",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kaltenecker, Doris",
+        "Al-Maskari, Rami",
+        "Negwer, Moritz",
+        "Hoeher, Luciano",
+        "Kofler, Florian",
+        "Zhao, Shan",
+        "Todorov, Mihail",
+        "Rong, Zhouyi",
+        "Paetzold, Johannes Christian",
+        "Wiestler, Benedikt",
+        "Piraud, Marie",
+        "Rueckert, Daniel",
+        "Geppert, Julia",
+        "Morigny, Pauline",
+        "Rohm, Maria",
+        "Menze, Bjoern H",
+        "Herzig, Stephan",
+        "Berriel Diaz, Mauricio",
+        "Erturk, Ali"
+      ],
+      "short_names": [
+        "Kaltenecker D",
+        "Al-Maskari R",
+        "Negwer M",
+        "Hoeher L",
+        "Kofler F",
+        "Zhao S",
+        "Todorov M",
+        "Rong Z",
+        "Paetzold JC",
+        "Wiestler B",
+        "Piraud M",
+        "Rueckert D",
+        "Geppert J",
+        "Morigny P",
+        "Rohm M",
+        "Menze BH",
+        "Herzig S",
+        "Berriel Diaz M",
+        "Erturk A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8627-1260",
+        "ORCID: 0000-0002-2963-7772",
+        "ORCID: 0000-0002-4917-2458",
+        "ORCID: 0000-0002-5683-5889",
+        "ORCID: 0000-0003-3926-1534",
+        "ORCID: 0000-0003-3950-3652",
+        "ORCID: 0000-0003-4670-919X",
+        "ORCID: 0000-0001-5163-5100"
+      ],
+      "affiliations": [
+        "Institute for Diabetes and Cancer (IDC), Helmholtz Munich, Neuherberg, Germany.",
+        "Joint Heidelberg-IDC Translational Diabetes Program, Heidelberg University Hospital, Heidelberg, Germany.",
+        "German Center for Diabetes Research (DZD), Neuherberg, Germany.",
+        "Institute for Stroke and Dementia Research, Klinikum der Universitat Munchen, Ludwig-Maximilians-Universitat LMU, Munich, Germany.",
+        "Institute for Stroke and Dementia Research, Klinikum der Universitat Munchen, Ludwig-Maximilians-Universitat LMU, Munich, Germany.",
+        "Institute for Tissue Engineering and Regenerative Medicine, Helmholtz Munich, Neuherberg, Germany.",
+        "Department of Computer Science, TUM Computation, Information and Technology, Technical University of Munich (TUM), Munich, Germany.",
+        "Center for Translational Cancer Research of the TUM (TranslaTUM), Munich, Germany.",
+        "Institute for Tissue Engineering and Regenerative Medicine, Helmholtz Munich, Neuherberg, Germany.",
+        "Institute for Tissue Engineering and Regenerative Medicine, Helmholtz Munich, Neuherberg, Germany.",
+        "Department of Computer Science, TUM Computation, Information and Technology, Technical University of Munich (TUM), Munich, Germany.",
+        "Center for Translational Cancer Research of the TUM (TranslaTUM), Munich, Germany.",
+        "Department of Diagnostic and Interventional Neuroradiology, School of Medicine, Klinikum rechts der Isar, Technical University of Munich, Munich, Germany.",
+        "Helmholtz AI, Helmholtz Munich, Neuherberg, Germany.",
+        "Institute for Stroke and Dementia Research, Klinikum der Universitat Munchen, Ludwig-Maximilians-Universitat LMU, Munich, Germany.",
+        "Institute for Tissue Engineering and Regenerative Medicine, Helmholtz Munich, Neuherberg, Germany.",
+        "Institute for Stroke and Dementia Research, Klinikum der Universitat Munchen, Ludwig-Maximilians-Universitat LMU, Munich, Germany.",
+        "Institute for Tissue Engineering and Regenerative Medicine, Helmholtz Munich, Neuherberg, Germany.",
+        "Institute for Stroke and Dementia Research, Klinikum der Universitat Munchen, Ludwig-Maximilians-Universitat LMU, Munich, Germany.",
+        "Institute for Tissue Engineering and Regenerative Medicine, Helmholtz Munich, Neuherberg, Germany.",
+        "Institute for Tissue Engineering and Regenerative Medicine, Helmholtz Munich, Neuherberg, Germany.",
+        "Center for Translational Cancer Research of the TUM (TranslaTUM), Munich, Germany.",
+        "Department of Computing, Imperial College London, London, United Kingdom.",
+        "Department of Diagnostic and Interventional Neuroradiology, School of Medicine, Klinikum rechts der Isar, Technical University of Munich, Munich, Germany.",
+        "Helmholtz AI, Helmholtz Munich, Neuherberg, Germany.",
+        "Department of Computing, Imperial College London, London, United Kingdom.",
+        "Institute for Diabetes and Cancer (IDC), Helmholtz Munich, Neuherberg, Germany.",
+        "Joint Heidelberg-IDC Translational Diabetes Program, Heidelberg University Hospital, Heidelberg, Germany.",
+        "German Center for Diabetes Research (DZD), Neuherberg, Germany.",
+        "Institute for Diabetes and Cancer (IDC), Helmholtz Munich, Neuherberg, Germany.",
+        "Joint Heidelberg-IDC Translational Diabetes Program, Heidelberg University Hospital, Heidelberg, Germany.",
+        "German Center for Diabetes Research (DZD), Neuherberg, Germany.",
+        "Institute for Diabetes and Cancer (IDC), Helmholtz Munich, Neuherberg, Germany.",
+        "Joint Heidelberg-IDC Translational Diabetes Program, Heidelberg University Hospital, Heidelberg, Germany.",
+        "German Center for Diabetes Research (DZD), Neuherberg, Germany.",
+        "Department of Computer Science, TUM Computation, Information and Technology, Technical University of Munich (TUM), Munich, Germany.",
+        "Department for Quantitative Biomedicine, University of Zurich, Zurich, Switzerland.",
+        "Institute for Diabetes and Cancer (IDC), Helmholtz Munich, Neuherberg, Germany.",
+        "Joint Heidelberg-IDC Translational Diabetes Program, Heidelberg University Hospital, Heidelberg, Germany.",
+        "German Center for Diabetes Research (DZD), Neuherberg, Germany.",
+        "Chair Molecular Metabolic Control, TU Munich, Munich, Germany.",
+        "Institute for Diabetes and Cancer (IDC), Helmholtz Munich, Neuherberg, Germany. mauricio.berrieldiaz@helmholtz-munich.de.",
+        "Joint Heidelberg-IDC Translational Diabetes Program, Heidelberg University Hospital, Heidelberg, Germany. mauricio.berrieldiaz@helmholtz-munich.de.",
+        "German Center for Diabetes Research (DZD), Neuherberg, Germany. mauricio.berrieldiaz@helmholtz-munich.de.",
+        "Institute for Stroke and Dementia Research, Klinikum der Universitat Munchen, Ludwig-Maximilians-Universitat LMU, Munich, Germany. ali.erturk@helmholtz-munich.de.",
+        "Institute for Tissue Engineering and Regenerative Medicine, Helmholtz Munich, Neuherberg, Germany. ali.erturk@helmholtz-munich.de.",
+        "School of Medicine, Koc University, Istanbul, Turkey. ali.erturk@helmholtz-munich.de.",
+        "Munich Cluster for Systems Neurology (SyNergy), Munich, Germany. ali.erturk@helmholtz-munich.de.",
+        "Deep Piction, Munich, Germany. ali.erturk@helmholtz-munich.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kaltenecker, Doris",
+        "short_name": "Kaltenecker D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Diabetes and Cancer (IDC), Helmholtz Munich, Neuherberg, Germany.",
+          "Joint Heidelberg-IDC Translational Diabetes Program, Heidelberg University Hospital, Heidelberg, Germany.",
+          "German Center for Diabetes Research (DZD), Neuherberg, Germany.",
+          "Institute for Stroke and Dementia Research, Klinikum der Universität München, Ludwig-Maximilians-Universität LMU, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Al-Maskari, Rami",
+        "short_name": "Al-Maskari R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Stroke and Dementia Research, Klinikum der Universität München, Ludwig-Maximilians-Universität LMU, Munich, Germany.",
+          "Institute for Tissue Engineering and Regenerative Medicine, Helmholtz Munich, Neuherberg, Germany.",
+          "Department of Computer Science, TUM Computation, Information and Technology, Technical University of Munich (TUM), Munich, Germany.",
+          "Center for Translational Cancer Research of the TUM (TranslaTUM), Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Negwer, Moritz",
+        "short_name": "Negwer M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Tissue Engineering and Regenerative Medicine, Helmholtz Munich, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Hoeher, Luciano",
+        "short_name": "Hoeher L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Tissue Engineering and Regenerative Medicine, Helmholtz Munich, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Kofler, Florian",
+        "short_name": "Kofler F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, TUM Computation, Information and Technology, Technical University of Munich (TUM), Munich, Germany.",
+          "Center for Translational Cancer Research of the TUM (TranslaTUM), Munich, Germany.",
+          "Department of Diagnostic and Interventional Neuroradiology, School of Medicine, Klinikum rechts der Isar, Technical University of Munich, Munich, Germany.",
+          "Helmholtz AI, Helmholtz Munich, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Zhao, Shan",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Stroke and Dementia Research, Klinikum der Universität München, Ludwig-Maximilians-Universität LMU, Munich, Germany.",
+          "Institute for Tissue Engineering and Regenerative Medicine, Helmholtz Munich, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Todorov, Mihail",
+        "short_name": "Todorov M",
+        "identifiers": [
+          "0000-0002-8627-1260"
+        ],
+        "affiliations": [
+          "Institute for Stroke and Dementia Research, Klinikum der Universität München, Ludwig-Maximilians-Universität LMU, Munich, Germany.",
+          "Institute for Tissue Engineering and Regenerative Medicine, Helmholtz Munich, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Rong, Zhouyi",
+        "short_name": "Rong Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Stroke and Dementia Research, Klinikum der Universität München, Ludwig-Maximilians-Universität LMU, Munich, Germany.",
+          "Institute for Tissue Engineering and Regenerative Medicine, Helmholtz Munich, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Paetzold, Johannes Christian",
+        "short_name": "Paetzold JC",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Tissue Engineering and Regenerative Medicine, Helmholtz Munich, Neuherberg, Germany.",
+          "Center for Translational Cancer Research of the TUM (TranslaTUM), Munich, Germany.",
+          "Department of Computing, Imperial College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Wiestler, Benedikt",
+        "short_name": "Wiestler B",
+        "identifiers": [
+          "0000-0002-2963-7772"
+        ],
+        "affiliations": [
+          "Department of Diagnostic and Interventional Neuroradiology, School of Medicine, Klinikum rechts der Isar, Technical University of Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Piraud, Marie",
+        "short_name": "Piraud M",
+        "identifiers": [
+          "0000-0002-4917-2458"
+        ],
+        "affiliations": [
+          "Helmholtz AI, Helmholtz Munich, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Rueckert, Daniel",
+        "short_name": "Rueckert D",
+        "identifiers": [
+          "0000-0002-5683-5889"
+        ],
+        "affiliations": [
+          "Department of Computing, Imperial College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Geppert, Julia",
+        "short_name": "Geppert J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Diabetes and Cancer (IDC), Helmholtz Munich, Neuherberg, Germany.",
+          "Joint Heidelberg-IDC Translational Diabetes Program, Heidelberg University Hospital, Heidelberg, Germany.",
+          "German Center for Diabetes Research (DZD), Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Morigny, Pauline",
+        "short_name": "Morigny P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Diabetes and Cancer (IDC), Helmholtz Munich, Neuherberg, Germany.",
+          "Joint Heidelberg-IDC Translational Diabetes Program, Heidelberg University Hospital, Heidelberg, Germany.",
+          "German Center for Diabetes Research (DZD), Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Rohm, Maria",
+        "short_name": "Rohm M",
+        "identifiers": [
+          "0000-0003-3926-1534"
+        ],
+        "affiliations": [
+          "Institute for Diabetes and Cancer (IDC), Helmholtz Munich, Neuherberg, Germany.",
+          "Joint Heidelberg-IDC Translational Diabetes Program, Heidelberg University Hospital, Heidelberg, Germany.",
+          "German Center for Diabetes Research (DZD), Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Menze, Bjoern H",
+        "short_name": "Menze BH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, TUM Computation, Information and Technology, Technical University of Munich (TUM), Munich, Germany.",
+          "Department for Quantitative Biomedicine, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Herzig, Stephan",
+        "short_name": "Herzig S",
+        "identifiers": [
+          "0000-0003-3950-3652"
+        ],
+        "affiliations": [
+          "Institute for Diabetes and Cancer (IDC), Helmholtz Munich, Neuherberg, Germany.",
+          "Joint Heidelberg-IDC Translational Diabetes Program, Heidelberg University Hospital, Heidelberg, Germany.",
+          "German Center for Diabetes Research (DZD), Neuherberg, Germany.",
+          "Chair Molecular Metabolic Control, TU Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Berriel Diaz, Mauricio",
+        "short_name": "Berriel Diaz M",
+        "identifiers": [
+          "0000-0003-4670-919X"
+        ],
+        "affiliations": [
+          "Institute for Diabetes and Cancer (IDC), Helmholtz Munich, Neuherberg, Germany. mauricio.berrieldiaz@helmholtz-munich.de.",
+          "Joint Heidelberg-IDC Translational Diabetes Program, Heidelberg University Hospital, Heidelberg, Germany. mauricio.berrieldiaz@helmholtz-munich.de.",
+          "German Center for Diabetes Research (DZD), Neuherberg, Germany. mauricio.berrieldiaz@helmholtz-munich.de."
+        ]
+      },
+      {
+        "full_name": "Ertürk, Ali",
+        "short_name": "Ertürk A",
+        "identifiers": [
+          "0000-0001-5163-5100"
+        ],
+        "affiliations": [
+          "Institute for Stroke and Dementia Research, Klinikum der Universität München, Ludwig-Maximilians-Universität LMU, Munich, Germany. ali.erturk@helmholtz-munich.de.",
+          "Institute for Tissue Engineering and Regenerative Medicine, Helmholtz Munich, Neuherberg, Germany. ali.erturk@helmholtz-munich.de.",
+          "School of Medicine, Koç University, İstanbul, Turkey. ali.erturk@helmholtz-munich.de.",
+          "Munich Cluster for Systems Neurology (SyNergy), Munich, Germany. ali.erturk@helmholtz-munich.de.",
+          "Deep Piction, Munich, Germany. ali.erturk@helmholtz-munich.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature methods"
+    ],
+    "journal_abbrev": [
+      "Nat Methods"
+    ],
+    "pub_date": "2024 Jul",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/23 15:04",
+    "fetched_at": "2026-09-29 19:05:46"
+  },
+  "links": {
+    "cites": [
+      "42706358",
+      "42631290",
+      "42162424",
+      "42045563",
+      "41890357",
+      "41435821",
+      "41148441",
+      "40629031",
+      "40492595",
+      "40402355",
+      "40332069",
+      "39870865",
+      "39809933",
+      "39627853",
+      "39362778",
+      "39340314",
+      "38997594",
+      "38997593",
+      "38235066"
+    ],
+    "refs": [
+      "37222748",
+      "36563667",
+      "35123655",
+      "34887551",
+      "34825142",
+      "34707289",
+      "34427055",
+      "34048426",
+      "33769689",
+      "33739286",
+      "33373298",
+      "33364600",
+      "33288961",
+      "33090732",
+      "33006443",
+      "32161395",
+      "32128423",
+      "32059781",
+      "32059778",
+      "31896771",
+      "31835038",
+      "31748753",
+      "31570887",
+      "30598527",
+      "30559429",
+      "30470306",
+      "30464312",
+      "29798890",
+      "29345251",
+      "28886007",
+      "28753423",
+      "28715317",
+      "28581479",
+      "28340341",
+      "27238021",
+      "26900952",
+      "26541482",
+      "26322384",
+      "26284893",
+      "25682754",
+      "25558063",
+      "23060243",
+      "22743772",
+      "20231818",
+      "19346324"
+    ],
+    "similar": [
+      "38649742",
+      "33459255",
+      "33781383",
+      "33074102",
+      "37533647",
+      "35058205",
+      "32512003",
+      "37770711",
+      "38991315",
+      "32389928",
+      "30627630",
+      "32697683",
+      "36946294",
+      "31089974",
+      "35396258",
+      "32456194",
+      "32565223",
+      "37396399",
+      "30480818",
+      "38879602",
+      "31200901",
+      "30836126",
+      "38812098",
+      "34594030",
+      "31375678",
+      "38539070",
+      "33651804",
+      "30030766",
+      "33454411",
+      "35767314",
+      "37596823",
+      "33046895",
+      "33834348",
+      "38831937",
+      "38948743",
+      "29540156",
+      "34022787",
+      "33692557",
+      "37889008",
+      "31521252",
+      "39134850",
+      "32358193",
+      "33318659",
+      "38134209",
+      "32603860",
+      "39219476",
+      "27503222",
+      "39180913",
+      "38290291",
+      "36599223",
+      "29404850",
+      "33529728",
+      "32123394",
+      "35634038",
+      "31704293",
+      "36529002",
+      "39150768",
+      "30975747",
+      "38657383",
+      "33007493",
+      "37347346",
+      "33653266",
+      "38082798",
+      "29221640",
+      "39036998",
+      "36781588",
+      "29949752",
+      "28985656",
+      "36017752",
+      "37889858",
+      "33830015",
+      "31704726",
+      "33811600",
+      "30157239",
+      "37985685",
+      "30594529",
+      "30406865",
+      "36546674",
+      "34891872",
+      "38517775",
+      "38703470",
+      "28035663",
+      "34592173",
+      "31168927",
+      "33141508",
+      "29048461",
+      "38961277",
+      "32958921",
+      "33841801",
+      "28866520",
+      "31841949",
+      "36773591",
+      "38168132",
+      "28637947",
+      "35177675",
+      "35044073",
+      "34686173",
+      "37929695",
+      "37957203",
+      "37997182"
+    ],
+    "review": [
+      "38649742",
+      "31089974",
+      "28985656",
+      "38517775"
+    ],
+    "pmc": [
+      "11239522"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.informatics.jax.org/reference/38649742",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41592-024-02245-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38649742/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

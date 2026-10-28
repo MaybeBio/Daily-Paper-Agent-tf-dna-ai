@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and data availability statements.
+- **Assessment boundary** Scientific claims, methodological rigor, evidence consistency, and interpretability of the presented results. Editorial or stylistic preferences are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors propose that the PSG supramodule of PSD-95 adopts a dynamic ensemble of supertertiary conformations, with PDZ3 sampling two distinct basins: a fuzzy interaction near the SH3 HOOK insertion and a discrete binding site in GuK. They further claim that this supertertiary context enhances PDZ3 binding to a neuroligin peptide, particularly at physiological pH, relative to the isolated domain.
+- **Visible evidence base** Single-molecule FRET (smTIRF and MFD), photon distribution analysis, filtered fluorescence correlation spectroscopy, disulfide mapping, discrete molecular dynamics simulations, rigid body docking, and fluorescence anisotropy binding assays.
+- **Missing materials affecting confidence** Supplementary figures and tables (Appendix 1–4) are referenced but not provided. Source data files, simulation trajectories, and the deposited PDB-Dev ensembles are not accessible within the supplied material. Specific numerical values for several FRET efficiencies, rate constants, and statistical errors are not included in the main text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically ambitious and largely coherent integration of experimental and computational methods to characterize the conformational landscape of the PSD-95 PSG supramodule. The central claim, that PDZ3 engages in a fuzzy supertertiary interaction with SH3 and a discrete interaction with GuK, is plausible and supported by multiple independent lines of evidence. The finding that full-length PSD-95 binds neuroligin better than the isolated PDZ3 domain at physiological pH is interesting and potentially significant. However, the strength of the conclusions is limited by the absence of key methodological details and quantitative results in the provided text. Several claims, particularly regarding the pH-dependent binding mechanism and the functional relevance of the fuzzy interaction, are not fully established from the evidence shown. The manuscript would benefit from clearer presentation of the global fitting procedures, the statistical significance of differences between constructs, and the relationship between simulated and experimental ensembles.
+- **Who would be interested in the results, and why** Structural biologists and biophysicists studying multidomain proteins, intrinsically disordered regions, and conformational ensembles. Researchers in neuroscience interested in the molecular basis of synaptic scaffold function, particularly PSD-95 and MAGUK family proteins. Methodologists developing integrative approaches combining single-molecule fluorescence with molecular simulation.
+- **Major strengths** The combination of multiple orthogonal techniques (smFRET, fFCS, DMD, disulfide mapping, binding assays) to address a single question is a notable strength. The use of a FRET network with global analysis is appropriate for resolving conformational heterogeneity. The agreement between DMD simulations and FRET-derived models provides cross-validation. The disulfide mapping experiments provide direct biochemical evidence for the proposed interfaces. The finding that supertertiary context modulates ligand binding is conceptually important and extends beyond a static structural description.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "PDZ3 samples two conformational basins" and that these correspond to a fuzzy interaction near the SH3 HOOK and a discrete site in GuK.
+  - **Evidence pointer** Results section "Mapping the supertertiary conformational landscape with single-molecule FRET"; Figure 3; Appendix 1 tables 3 and 4.
+  - **Concern** The two-state model is justified primarily by improved fitting statistics (Table 1), but the actual improvement values, degrees of freedom, and model comparison criteria (e.g., AIC or BIC) are not reported. The claim of two basins is central to the paper, yet the distinction between a two-state and a three-state or continuous distribution is not rigorously demonstrated. The global analysis assumes a single conformational landscape across all variants, but the validity of this assumption is not tested, for example by comparing fits where the number of states is allowed to vary per variant.
+  - **Why it matters** If the two-state model is not uniquely supported, the subsequent structural interpretation (α and β basins) and the functional conclusions built upon it are weakened. The paper's central claim depends on the robustness of this model selection.
+  - **Resolution test** Provide quantitative model comparison statistics (e.g., ΔAIC or ΔBIC) for one-, two-, and three-state global fits. Show that the two-state model is preferred across all 12 variants, or discuss any variants that deviate. Alternatively, demonstrate that the two-state model recovers simulated data from DMD ensembles with known populations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "PSD-95 bound neuroligin well at physiological pH while truncated PDZ3 bound poorly" and that this difference is due to supertertiary interactions.
+  - **Evidence pointer** Results section "Effect of PDZ3 native context on interactions with neuroligin"; Figure 10.
+  - **Concern** The binding data are presented as KD values with errors, but the number of independent replicates, the protein concentrations used, and the statistical test for comparing KD values between constructs are not reported. The claim of "well" versus "poorly" is qualitative. The pH-dependent mechanism is inferred from docking and electrostatic arguments, but no direct mutagenesis or variant experiments are shown to test the proposed role of histidines in neuroligin or acidic residues in PDZ3. The docking model is not experimentally validated.
+  - **Why it matters** The functional significance of the supertertiary ensemble is a key conclusion. Without rigorous binding statistics and mechanistic validation, the claim that supertertiary context "enables" ligand binding is not established. The pH effect could be due to other factors, such as protein stability or aggregation.
+  - **Resolution test** Report the number of replicates and the statistical comparison (e.g., a t-test or ANOVA with appropriate corrections) for the KD values. Include a control experiment with a PDZ3 mutant lacking the acidic residues proposed to interact with HOOK, and test whether this mutant shows reduced binding in the full-length context. Provide a direct test of the histidine dependence, for example by using a neuroligin peptide with histidines substituted to alanines.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that DMD simulations and FRET experiments are in "excellent agreement" regarding the location of PDZ3 in two basins.
+  - **Evidence pointer** Results sections "Discrete molecular dynamics Simulations of the PSG core" and "Structural modeling with experimental FRET restraints"; Figures 6 and 8.
+  - **Concern** The comparison between DMD and FRET is presented qualitatively. The FRET-derived models are generated by rigid body docking with FRET restraints, while DMD is an unbiased simulation. The agreement is stated but not quantified, for example by calculating the overlap of the PDZ3 center-of-mass distributions or the fraction of DMD conformations consistent with the FRET-derived distance bounds. The FRET degeneracy analysis (Figure 8C, D) is introduced to address this, but the criteria for "agreement" are not defined.
+  - **Why it matters** The claim of cross-validation between simulation and experiment is a major strength of the paper. Without a quantitative comparison, the reader cannot assess the degree of agreement or whether the FRET data could be consistent with alternative ensembles.
+  - **Resolution test** Provide a quantitative metric, such as the fraction of DMD conformations within the FRET-derived distance bounds for each variant, or a χ² statistic comparing the simulated and experimental FRET efficiency distributions. Show that the DMD ensemble and the FRET-restrained ensemble have statistically indistinguishable PDZ3 center-of-mass distributions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim that "disulfide mapping" confirms the DMD-predicted interfaces.
+  - **Evidence pointer** Results section "Disulfide mapping the interdomain interfaces"; Figure 7.
+  - **Concern** The disulfide mapping experiments are described for only two residue pairs, one for each basin. The choice of these pairs is based on the DMD contact maps, but the criteria for selecting these specific pairs over others are not stated. The kinetics of disulfide formation are reported as rates, but the errors on these rates and the number of replicates are not given. The interpretation that "similar rates" for the α-basin variant in full-length and truncated PSD-95 indicates a similar interface is not quantitatively supported.
+  - **Why it matters** Disulfide mapping is a powerful validation tool, but the limited number of probes and lack of statistical rigor reduce confidence in the claim that the DMD-predicted interfaces are correct.
+  - **Resolution test** Report the number of replicates and the standard errors for the disulfide formation rates. Provide a rationale for the selection of the two probe pairs, and ideally include additional probes to more comprehensively map the interface. Show that the disulfide formation rates are significantly different between the designed pairs and a negative control pair.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "links postsynaptic receptors to sites of presynaptic neurotransmitter release" is imprecise. PSD-95 links postsynaptic receptors to the postsynaptic density, not directly to presynaptic release sites.
+  - **Required correction** Rephrase to "links postsynaptic receptors to the postsynaptic density, aligning them with presynaptic release sites."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "Disulfide mapping in PSD-95"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The methods state that "All samples were prereduced with 5 mM DTT for 1 hr" but do not specify the temperature for this step.
+  - **Required correction** Specify the temperature for the reduction step.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Discrete molecular dynamics Simulations of the PSG core"
+  - **Evidence pointer** Results section, Figure 6C
+  - **Issue** The energy barrier of ~2.0 kcal/mol between the α and β basins is stated, but the uncertainty on this value is not given.
+  - **Required correction** Provide an estimate of the uncertainty on the energy barrier, or state that it is a single estimate from one simulation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The statement that "fuzziness increases the favorability of the α-basin by allowing PDZ3 to reorient to satisfy multiple interactions" is speculative and not directly tested.
+  - **Required correction** Soften the language to indicate this is a hypothesis, or provide supporting evidence from the simulations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model selection for two states), R1-M2 (binding statistics and mechanistic validation), R1-M3 (quantitative comparison of DMD and FRET).
+- **Assessment against Nature-style criteria** Originality: The concept of fuzzy supertertiary interactions modulating ligand binding is not entirely new, but the specific application to PSD-95 and the integrative approach are original. Scientific importance: The findings have implications for understanding how dynamic multidomain scaffolds function, which is relevant to synaptic biology and beyond. Interdisciplinary readership: The work bridges biophysics, structural biology, and neuroscience, and should appeal to a broad audience. Technical soundness: The methods are generally appropriate and state-of-the-art, but the lack of quantitative rigor in model selection and cross-validation is a concern. Readability for nonspecialists: The manuscript is well-written and the figures are described clearly, but the heavy reliance on supplementary material for key details may hinder nonspecialist comprehension.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the multi-technique approach is commendable, but the central claims regarding the two-state model and the functional enhancement of ligand binding require stronger quantitative evidence and mechanistic validation.
+
+## Risk / unsupported claims
+- The claim that PDZ3 samples exactly two conformational basins is not rigorously established without model comparison statistics.
+- The claim that supertertiary context "enables" neuroligin binding at physiological pH is not fully supported without statistical comparison of KD values and mutagenesis experiments.
+- The proposed electrostatic mechanism for pH-dependent binding is speculative and not directly tested.
+- The "excellent agreement" between DMD and FRET is not quantified.
+- The functional relevance of the fuzzy interaction for PSD-95 activity in a cellular context is not addressed.

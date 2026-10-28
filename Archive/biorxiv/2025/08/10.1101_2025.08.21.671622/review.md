@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusion, associated content, acknowledgments) as provided on bioRxiv. Supplementary figures and tables are referenced but not provided.
+- **Assessment boundary** The scientific claims, experimental design, data interpretation, and conclusions as presented in the provided text. No assessment of formatting, grammar, or editorial quality beyond what affects scientific clarity.
+- **Shared manuscript claim summary** The authors report a new quadruple-stranded diplatinum helicate that binds DNA three-way junctions (3WJs) with high affinity (Kd = 12 nM) and strong selectivity over four-way junctions (4WJs, Kd > 4 µM) and other DNA structures. They propose an induced-fit binding mechanism, supported by molecular dynamics simulations, in which both the DNA junction and the helicate undergo conformational changes, including base-pair opening and enantiomeric selection. This is contrasted with previously reported "lock-and-key" junction binders.
+- **Visible evidence base** Abstract, full main text, references to Supplementary Figures S1–S27 and Supplementary Table S1, and a data availability statement. No supplementary material, experimental methods section, or raw data were provided for this review.
+- **Missing materials affecting confidence** Supplementary Information (all figures S1–S27, Table S1), experimental methods, raw biophysical data (MST, ITC, gel electrophoresis, CD, UV-Vis, ESI-MS), MD simulation parameters and trajectories, and crystallographic data. These are essential for verifying the quantitative claims and mechanistic interpretations.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the field of DNA junction-targeting metallo-supramolecular chemistry: the relative importance of size versus shape complementarity in junction recognition. The central finding, that a quadruple-stranded helicate with four-fold symmetry preferentially binds 3WJs over 4WJs via an induced-fit mechanism, is conceptually interesting and potentially significant. However, the evidence presented in the main text is insufficient to fully support the strength of the claims. Key quantitative data (Kd values, thermodynamic parameters) are reported without the associated raw data or error analysis in the visible text, and the MD simulation results are described qualitatively without sufficient methodological detail. The manuscript would benefit from a clearer presentation of the experimental evidence and a more critical discussion of the limitations of the techniques used. The work is likely of interest to the nucleic acid chemistry and supramolecular chemistry communities, but the current version does not fully establish the case.
+- **Who would be interested in the results, and why** Researchers in nucleic acid structure and recognition, supramolecular chemistry, chemical biology, and anticancer drug design. The work provides a new example of a synthetic receptor targeting a non-canonical DNA structure, with potential implications for designing selective junction-binding agents. The induced-fit mechanism and the size-versus-shape discussion are conceptually relevant to those studying molecular recognition of dynamic biomolecular targets.
+- **Major strengths** The study addresses a well-defined and important question. The choice of a quadruple-stranded helicate with known flexibility is a logical design to probe size versus shape effects. The combination of multiple biophysical techniques (PAGE, ITC, MST, CD, UV-Vis, ESI-MS) and MD simulations is commendable. The authors are transparent about the limitations of ITC for high-affinity interactions and appropriately use MST as a complementary method. The discussion of the induced-fit mechanism and its contrast with lock-and-key binding is thoughtful and adds conceptual value.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims a Kd of 12 nM for 3WJ binding and Kd > 4 µM for 4WJ binding, and a >25-fold selectivity for 3WJs over 4WJs.
+  - **Evidence pointer** Results and Discussion, "Strength of 4WJ Binding" section; Figures 5A, 6B; Supplementary Figures S18–S20, S23; location not provided for raw data.
+  - **Concern** The Kd values are reported in the text and figures, but the raw binding curves, fitting procedures, and error estimates are not shown in the main text. The MST curve for the 4WJ is described as "not fully saturated," which raises questions about the reliability of the reported Kd > 4 µM. Without access to the supplementary figures and the associated fitting details, the quantitative claims cannot be independently assessed. The authors should provide the full binding isotherms, the fitting model used, and the standard errors for all reported Kd values.
+  - **Why it matters** The central conclusion of the paper, that the helicate strongly prefers 3WJs over 4WJs, rests entirely on these quantitative measurements. If the 4WJ Kd is not well constrained, the selectivity claim is weakened. The difference in affinity is the key experimental observation that the MD simulations are meant to explain, so its reliability is critical.
+  - **Resolution test** Provide the raw MST and ITC binding curves for all DNA constructs, the fitting equations, and the standard deviations from at least three independent replicates. Show that the 4WJ binding curve reaches saturation or provide a rigorous lower bound for the Kd. If the 4WJ Kd cannot be accurately determined, state this explicitly and adjust the selectivity claim accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The manuscript claims that MD simulations reveal an induced-fit mechanism involving base-pair opening at the 3WJ and enantiomeric selection of the helicate, and that this is consistent with the experimental data.
+  - **Evidence pointer** Results and Discussion, "Molecular Dynamics and Circular Dichroism Reveal a 'Hand-in-Glove' 3WJ Binding" section; Figures 4A, 4B; Supplementary Figures S15–S17; location not provided for simulation details.
+  - **Concern** The MD simulation methodology is described only briefly. No force field parameters, simulation length, number of replicates, or analysis criteria are given. The claim that the helicate "opens up the cavity by disrupting a base-pair" is presented as a consistent finding across simulations, but the statistical robustness of this observation is not discussed. The observation of enantiomeric interconversion in the M-starting simulations is mentioned but not quantified. The CD data are described as showing an induced signal, but the assignment of this signal to a specific enantiomer is not explained.
+  - **Why it matters** The induced-fit mechanism is a central conceptual contribution of the paper. If the simulations are not sufficiently rigorous or the CD assignment is ambiguous, the mechanistic interpretation is not established. The contrast with lock-and-key binding depends on this mechanistic claim.
+  - **Resolution test** Provide full details of the MD simulation setup, including force field, water model, ion concentration, simulation time, and number of replicates. Show representative time series of key distances or angles that demonstrate base-pair opening and helicate stabilization. Quantify the frequency of enantiomeric interconversion. For the CD data, show the spectra of the individual enantiomers (if available) or provide a clear argument for the assignment of the induced signal.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative analysis
+  - **Claim pointer** The manuscript compares the binding affinity of the Pt helicate to that of the Ni cylinder and Pt-BIMA cage, concluding that the Ni cylinder binds 3WJs ~24-fold more strongly and Pt-BIMA binds 4WJs more strongly.
+  - **Evidence pointer** Results and Discussion, "Comparison with a 'Lock-and-Key' Three-Way Junction Binder" and "Strength of 4WJ Binding" sections; Figures 5A, 6B; Supplementary Figures S18–S20, S23; location not provided.
+  - **Concern** The comparison between the Pt helicate and the Ni cylinder is made using MST data, but the experimental conditions (buffer, temperature, DNA concentration) are not explicitly stated to be identical. The Pt-BIMA 4WJ Kd of 82 nM is cited from a previous publication, but it is not clear if the same DNA sequence and buffer conditions were used. Without these details, the comparative claims may not be valid.
+  - **Why it matters** The paper's conclusion that size is more important than shape depends on the relative affinities of these compounds. If the comparisons are not made under matched conditions, the conclusion is not robust.
+  - **Resolution test** State the exact buffer, temperature, and DNA sequence used for each MST and ITC experiment. If the Pt-BIMA data are from a previous publication, confirm that the conditions are identical or discuss any differences. Consider performing a direct competition experiment between the Pt helicate and Ni cylinder for the same 3WJ to confirm the relative affinities.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "Despite the helicate's tetragonal symmetry/shape being compatible with the 4WJ..."
+  - **Issue** The phrase "tetragonal symmetry/shape" is ambiguous. The helicate is described as quadruple-stranded, but the symmetry is not clearly defined. Is it D4, C4, or something else?
+  - **Required correction** Clarify the symmetry of the helicate, either in the abstract or in the introduction, with a reference to the relevant figure or a brief description.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 3A
+  - **Evidence pointer** Results and Discussion, "Polyacrylamide gel electrophoresis (PAGE) was first used to qualitatively assess the junction binding..."
+  - **Issue** The gel image is described but not shown in the provided text. The description of "two strong intermediate bands" is qualitative. It would be helpful to know the DNA concentrations used and whether the bands were quantified.
+  - **Required correction** Provide the gel image with labeled lanes and DNA concentrations. If possible, include a quantification of band intensities to support the qualitative description.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results and Discussion, "Strength of 4WJ Binding" section
+  - **Evidence pointer** "MST was used again to assess the binding strength of the Pt helicate to 4WJs... though the resultant curve was not fully saturated at the higher concentrations..."
+  - **Issue** The term "not fully saturated" is vague. Does this mean the highest concentration tested was insufficient to reach binding saturation, or that the curve did not plateau? This affects the interpretation of the Kd value.
+  - **Required correction** Specify the concentration range tested and whether saturation was achieved. If not, state the maximum concentration used and discuss the implications for the Kd estimate.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Conclusion
+  - **Evidence pointer** Conclusion, "This work affords new insight into the key factors that are important for effective junction binding."
+  - **Issue** The conclusion mentions ">25 fold weaker affinity for 4WJs" but the abstract states "Kd > 4 µM" for 4WJs. The fold-difference is not explicitly calculated in the text. It would be helpful to state the exact fold-difference based on the reported Kd values.
+  - **Required correction** Calculate and state the fold-difference between the 3WJ and 4WJ Kd values, and note the uncertainty in this value given the unsaturation of the 4WJ binding curve.
+- **Technical failings that need to be addressed before the case is established** (1) The quantitative binding data (Kd values) are not fully presented with raw curves and error analysis. (2) The MD simulation methodology is insufficiently detailed to assess the robustness of the mechanistic claims. (3) The comparative affinity claims between different compounds are not shown to be made under matched conditions. (4) The CD data are described but not shown, and the assignment of the induced signal to a specific enantiomer is not justified.
+- **Assessment against Nature-style criteria** Originality: The work is original in its specific system and the induced-fit mechanism proposed, though the general concept of junction binding by metallo-supramolecules is established. Scientific importance: The question of size versus shape in junction recognition is of interest to the nucleic acid chemistry community, but the significance is moderate and depends on the robustness of the quantitative claims. Interdisciplinary readership: The work bridges supramolecular chemistry, nucleic acid biophysics, and computational chemistry, and could appeal to a broad readership if the evidence is presented clearly. Technical soundness: The combination of techniques is appropriate, but the lack of raw data and methodological detail in the visible text prevents a full assessment. Readability for nonspecialists: The manuscript is generally well-written and accessible, but the mechanistic discussion could be clearer for readers outside the immediate field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework and the experimental approach are sound, but the current evidence base is insufficient to fully establish the quantitative claims and the mechanistic interpretation. The authors should provide the supplementary data and methodological details, and address the specific concerns raised above.
+
+## Risk / unsupported claims
+- The claim that the helicate binds 3WJs with a Kd of 12 nM is not fully supported without the raw MST data and error analysis.
+- The claim that the helicate binds 4WJs with a Kd > 4 µM is not fully supported given the unsaturation of the binding curve.
+- The claim that the helicate induces base-pair opening at the 3WJ is based on MD simulations that are not described in sufficient detail to assess their reliability.
+- The claim that the helicate undergoes enantiomeric selection upon binding is based on MD simulations and CD data, but the CD data are not shown and the assignment is not justified.
+- The comparative affinity claims between the Pt helicate, Ni cylinder, and Pt-BMA are not shown to be made under matched conditions.
+- The statement that the helicate binds 4WJs ">25 fold weaker" than 3WJs is not explicitly calculated and may be an overinterpretation given the unsaturation of the 4WJ binding curve.

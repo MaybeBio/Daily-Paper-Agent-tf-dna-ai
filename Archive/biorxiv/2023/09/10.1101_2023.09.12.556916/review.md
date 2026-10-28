@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, acknowledgements) as provided. Figures, supplemental tables, and supplemental figures are referenced but not included.
+- **Assessment boundary** Assessment is limited to the claims and methods described in the provided text. Claims that depend on data presented only in figures or supplemental materials are evaluated as "not assessable" where the data are not visible.
+- **Shared manuscript claim summary** The authors present Allo, a tool that allocates multi-mapped reads (MMRs) in short-read regulatory genomics data (e.g., ChIP-seq, ATAC-seq) by combining probabilistic allocation based on uniquely-mapped read (UMR) counts with a convolutional neural network (CNN) that scores the peak-likeness of UMR distributions at candidate locations. The authors claim that Allo outperforms random allocation and UMR-count-only allocation in accuracy, is competitive with SmartMap in accuracy and performance, produces alignment file output compatible with standard pipelines, and enables discovery of regulatory elements in repetitive regions, including younger transposable elements.
+- **Visible evidence base** Text descriptions of results and methods. No figures, tables, or supplemental materials were provided.
+- **Missing materials affecting confidence** All figures (Figures 1-7), supplemental figures (Supplemental Figures 1-2), and supplemental tables (Supplemental Tables 1-4) are missing. These contain the primary quantitative results, including accuracy comparisons, performance benchmarks, peak counts, motif analyses, and repeat family overlap analyses. Without these, the core claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant and timely problem in regulatory genomics: the systematic exclusion of multi-mapped reads from standard analysis pipelines, which leads to under-characterization of regulatory elements in repetitive regions. The proposed method, Allo, is well-motivated and the design choice to combine probabilistic allocation with a CNN-based peak classifier is conceptually reasonable. The authors also address a practical barrier by providing alignment file output, which facilitates integration with existing tools. However, the manuscript as provided is incomplete for a rigorous evaluation. The absence of all figures and supplemental materials means that the quantitative evidence supporting the central claims is not visible. Several methodological details are also underspecified, particularly regarding CNN training, the handling of paired-end data, and the comparison with SmartMap. The claims of broad applicability and biological discovery are plausible but not fully established from the supplied text alone.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, epigenomics, and computational biology who work with ChIP-seq, ATAC-seq, or related short-read assays and who are interested in expanding analysis to repetitive regions. The tool would also be of interest to those studying transposable element biology, genome evolution, and transcription factor binding in repetitive contexts. The practical contribution of a usable, pipeline-compatible tool may appeal to a broad user base in genomics.
+- **Major strengths** The problem addressed is important and currently underexplored in standard pipelines. The method design is sensible, combining established probabilistic allocation with a modern machine learning component. The emphasis on usability and compatibility with existing pipelines is a practical strength. The application to a large collection of ENCODE datasets and the focus on younger transposable elements adds biological relevance and potential evolutionary insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence
+  - **Claim pointer** The claim that Allo outperforms random allocation and UMR-count-only allocation in MMR allocation accuracy (Figure 3A, 3C) and is competitive with SmartMap (Figure 4A).
+  - **Evidence pointer** Figures 3 and 4, location not provided
+  - **Concern** The quantitative results supporting the central accuracy claims are presented only in figures that were not provided. Without the actual data, it is impossible to assess the magnitude of the reported improvements, the statistical significance, or the variability across datasets. The text states that Allo "outcompetes" other methods, but no effect sizes, confidence intervals, or statistical tests are described.
+  - **Why it matters** The core contribution of the manuscript is the claimed improvement in allocation accuracy. If this evidence is not robust or is only marginal, the value of the method is substantially diminished.
+  - **Resolution test** Provide the data shown in Figures 3 and 4, including per-dataset accuracy values, statistical comparisons, and error bars. Clarify the number of replicates and the statistical tests used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the CNN trained on UMR distribution images improves allocation accuracy beyond UMR-count-only methods.
+  - **Evidence pointer** Methods section, "Convolutional neural network training and testing set generation" and "Convolutional neural network architecture and training", location not provided
+  - **Concern** The description of the CNN training and testing is underspecified. The text states that positive examples were 500 bp windows centered on MACS2 peak midpoints from full-length data, and negative examples were randomly selected MMR-containing regions from the background. However, it is not clear how the background regions were selected, how many examples were used, whether the training and testing sets were disjoint, or how the CNN output is calibrated. The claim that the CNN adds value beyond UMR counts alone requires a controlled comparison where the only difference is the CNN component.
+  - **Why it matters** The novelty of Allo relative to prior probabilistic methods rests on the contribution of the CNN. If the CNN's improvement is not rigorously demonstrated, the method's advantage is unclear.
+  - **Resolution test** Provide full details of the training procedure, including dataset sizes, train/test splits, hyperparameters, and a clear ablation study comparing Allo with and without the CNN component.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that Allo is competitive with SmartMap in accuracy and performance (Figure 4A, 4C).
+  - **Evidence pointer** Methods section, "SmartMap comparison", location not provided
+  - **Concern** The comparison with SmartMap is described as indirect and incomplete. The authors state that they could not compare per-read accuracy because SmartMap outputs BedGraph files, and that MACS2 could not call peaks on SmartMap output. The comparison is therefore based on average read depth at peaks, which is a different metric than the per-read accuracy used in the earlier comparisons. The performance comparison is also limited to a single configuration of SmartMap (default settings with one iteration). The text notes that Allo uses more CPU time but approaches SmartMap's wall-time with 6 processes, and uses less memory. However, the practical implications of these differences are not discussed.
+  - **Why it matters** A fair and complete comparison with an existing method is essential to position Allo within the field. The current comparison is partial and may not reflect real-world usage.
+  - **Resolution test** Provide a more complete comparison, including per-read accuracy where possible, a discussion of the different output formats and their implications, and performance benchmarks under multiple configurations and dataset sizes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence
+  - **Claim pointer** The claim that Allo-only peaks have similar characteristics to UMR peaks, including motif enrichment and TAD boundary overlap, reinforcing their validity (Figures 5 and 6).
+  - **Evidence pointer** Figures 5 and 6, location not provided
+  - **Concern** The text describes motif analysis and TAD boundary overlap for Allo-only peaks, but the actual results are not visible. The claim that the CTCF motif is the top-ranked motif and centrally enriched is stated, but no enrichment scores, p-values, or comparisons to background are provided. The TAD boundary overlap percentages (22.4% for UMR peaks, 19.1% for Allo-only peaks) are given, but it is unclear whether this difference is statistically significant or biologically meaningful.
+  - **Why it matters** The validity of Allo-discovered peaks is a key part of the biological relevance argument. Without quantitative evidence, the claim that these peaks are authentic is not established.
+  - **Resolution test** Provide the motif enrichment results with statistical significance, and a statistical comparison of TAD boundary overlap between UMR and Allo-only peaks.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence
+  - **Claim pointer** The claim that Allo enables discovery of associations between transcription factors and repeat families in a large-scale analysis of 200 ENCODE ChIP-seq datasets (Figure 7).
+  - **Evidence pointer** Figure 7, location not provided
+  - **Concern** The text describes the large-scale analysis and mentions specific findings, such as the enrichment of Allo-only peaks in younger transposable elements and the identification of previously unidentified transcription factor-repeat family interactions. However, the actual data are not visible. The text also notes that most repeat families were underrepresented in Allo-only peaks compared to random regions, which is an important caveat, but the implications are not fully discussed.
+  - **Why it matters** The large-scale analysis is a major component of the manuscript's biological contribution. Without the data, the significance and robustness of these findings cannot be evaluated.
+  - **Resolution test** Provide the data shown in Figure 7, including the repeat family overlap analyses, the age-based analysis, and the list of identified transcription factor-repeat family interactions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Allo allocation algorithm"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The description of the allocation algorithm is somewhat brief. The text mentions that Allo uses a dictionary for UMR pileup and that regions with fewer than 3 reads are assigned a fixed CNN output value, but the overall workflow is not described in a step-by-step manner.
+  - **Required correction** Provide a more detailed algorithmic description, possibly with pseudocode, to allow readers to fully understand and potentially reproduce the method.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Allo's allocation accuracy and performance is competitive with that of SmartMap"
+  - **Evidence pointer** Results section, location not provided
+  - **Issue** The text states that SmartMap output could not be used for per-read accuracy comparison, but it is not clear whether the authors attempted to modify SmartMap or use its internal read assignments. The statement that "MACS2 was unable to properly call peaks on SmartMap BedGraph files" is also not explained.
+  - **Required correction** Clarify the technical reasons for these limitations and whether alternative approaches were considered.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, location not provided
+  - **Issue** The introduction cites several references but does not provide a clear summary of the limitations of existing MMR allocation methods beyond stating that they are "unusable" or have "drawbacks." A more systematic comparison of prior methods would help position Allo.
+  - **Required correction** Expand the introduction to briefly describe the approaches and limitations of prior methods such as MuMRescueLite, CSEM, and SmartMap.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Availability"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The availability section states that Allo is available on GitHub, PyPI, and Bioconda, but does not specify the version, dependencies, or system requirements.
+  - **Required correction** Provide version information, dependency list, and installation instructions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central accuracy claims and the comparison with existing methods are not verifiable from the provided material.
+- **Assessment against Nature-style criteria**
+  - **Originality** The combination of probabilistic MMR allocation with a CNN-based peak classifier is a novel approach. The focus on producing alignment file output for pipeline compatibility is a practical and original contribution relative to prior methods.
+  - **Scientific importance** The problem of excluding MMRs from regulatory genomics analyses is significant and affects a large portion of the genome. The potential to uncover regulatory elements in repeats has broad implications for understanding gene regulation and evolution.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biologists and genomics researchers. The biological findings, if confirmed, could also appeal to researchers in transposable element biology and evolution. The practical tool aspect may broaden its appeal.
+  - **Technical soundness** The methodological approach is reasonable, but the current manuscript does not provide sufficient detail or visible evidence to fully assess technical soundness. The CNN training procedure and the comparison with SmartMap are particularly underspecified.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The introduction provides context, and the results are described in a clear manner. However, some methodological details may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important problem with a novel and practical approach. However, the current submission is incomplete for a full evaluation, and the central claims are not verifiable from the provided text. The authors should provide the missing figures and supplemental materials, and address the methodological concerns raised above.
+
+## Risk / unsupported claims
+- The claim that Allo "outcompetes" random allocation and UMR-count-only allocation is unsupported without the data in Figure 3.
+- The claim that Allo is "competitive" with SmartMap is unsupported without the data in Figure 4.
+- The claim that Allo-only peaks are authentic is unsupported without the motif and TAD boundary data in Figures 5 and 6.
+- The claim that Allo enables discovery of new transcription factor-repeat family interactions is unsupported without the data in Figure 7.
+- The claim that Allo is "efficient" and "user-friendly" is partially supported by the availability statement but lacks quantitative performance benchmarks beyond the CPU/memory comparison with SmartMap.
+- The claim that Allo "may be particularly effective" for younger transposable elements is presented as a hypothesis but is not fully tested in the visible text.

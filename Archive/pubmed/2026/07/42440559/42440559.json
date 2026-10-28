@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "42440559",
+    "doi": "10.1007/s13340-026-00914-5",
+    "title": "Identification and validation of tolerogenic dendritic cells-related biomarkers in diabetic retinopathy."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Diabetic retinopathy (DR) is a primary microvascular complication of diabetes. Its pathogenesis is associated with chronic inflammation and immune responses. While tolerogenic dendritic cells (tolDCs) are critical for suppressing excessive inflammation and maintaining immune homeostasis, their function in DR is not well characterized. OBJECTIVE: To identify biomarkers associated with tolDCs in DR and to explore their mechanisms. METHODS: Biomarkers were identified from public databases using differential analysis, machine learning (LASSO regression analysis and Random Forest analysis), and expression validation. Their mechanisms were then explored through enrichment analysis and immune infiltration, and ultimately validated by reverse transcription-quantitative PCR (RT-qPCR) on clinical blood samples. RESULTS: A total of 2096 differentially expressed genes (DEGs)1 were identified between DR and control groups. By intersecting with 6267 tolDCs-related genes, 51 key candidates were selected. Machine learning and expression validation further pinpointed two biomarkers: transcription factor EC (TFEC) and chromatin modifying protein 2 A (CHMP2A). Gene Set Enrichment Analysis (GSEA) showed significant enrichment of TFEC in 994 pathways and CHMP2A in 748, with co-enriched pathways including apoptosis, VEGFA-VEGFR2 signaling, and VEGF signaling. Analysis identified eight altered immune cell types; TFEC correlated strongest with activated NK cells (cor = - 0.49, p < 0.001), while CHMP2A correlated with resting mast cells (cor = 0.49, p < 0.001). RT-qPCR confirmed TFEC upregulation and CHMP2A downregulation in DR, validating the bioinformatic results. CONCLUSION: TFEC and CHMP2A are potential biomarkers involved in DR pathogenesis via tolDCs.",
+    "keywords": [
+      "Biomarkers",
+      "CHMP2A",
+      "Diabetic retinopathy",
+      "TFEC",
+      "Tolerogenic dendritic cells"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wei, Chun-Yi",
+        "Li, Song-Man",
+        "Liu, Ling-Juan",
+        "Huang, Jun-Peng",
+        "Lai, Xiao-Hui",
+        "Yang, Li-Juan",
+        "Liang, Wen-Wang"
+      ],
+      "short_names": [
+        "Wei CY",
+        "Li SM",
+        "Liu LJ",
+        "Huang JP",
+        "Lai XH",
+        "Yang LJ",
+        "Liang WW"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-9241-6143"
+      ],
+      "affiliations": [
+        "Department of Ophthalmology, The Second Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, 530011 Guangxi China. ROR: https://ror.org/024v0gx67. GRID: grid.411858.1. ISNI: 0000 0004 1759 3543",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, 530011 Guangxi China. ROR: https://ror.org/024v0gx67. GRID: grid.411858.1. ISNI: 0000 0004 1759 3543",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, 530011 Guangxi China. ROR: https://ror.org/024v0gx67. GRID: grid.411858.1. ISNI: 0000 0004 1759 3543",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, 530011 Guangxi China. ROR: https://ror.org/024v0gx67. GRID: grid.411858.1. ISNI: 0000 0004 1759 3543",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, 530011 Guangxi China. ROR: https://ror.org/024v0gx67. GRID: grid.411858.1. ISNI: 0000 0004 1759 3543",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, 530011 Guangxi China. ROR: https://ror.org/024v0gx67. GRID: grid.411858.1. ISNI: 0000 0004 1759 3543",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, 530011 Guangxi China. ROR: https://ror.org/024v0gx67. GRID: grid.411858.1. ISNI: 0000 0004 1759 3543"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wei, Chun-Yi",
+        "short_name": "Wei CY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, 530011 Guangxi China."
+        ]
+      },
+      {
+        "full_name": "Li, Song-Man",
+        "short_name": "Li SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, 530011 Guangxi China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ling-Juan",
+        "short_name": "Liu LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, 530011 Guangxi China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jun-Peng",
+        "short_name": "Huang JP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, 530011 Guangxi China."
+        ]
+      },
+      {
+        "full_name": "Lai, Xiao-Hui",
+        "short_name": "Lai XH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, 530011 Guangxi China."
+        ]
+      },
+      {
+        "full_name": "Yang, Li-Juan",
+        "short_name": "Yang LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, 530011 Guangxi China."
+        ]
+      },
+      {
+        "full_name": "Liang, Wen-Wang",
+        "short_name": "Liang WW",
+        "identifiers": [
+          "0009-0006-9241-6143"
+        ],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Guangxi University of Chinese Medicine, Nanning, 530011 Guangxi China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Diabetology international"
+    ],
+    "journal_abbrev": [
+      "Diabetol Int"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/13 22:42",
+    "fetched_at": "2026-10-02 01:52:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40325050",
+      "39885379",
+      "39469566",
+      "39141700",
+      "39089852",
+      "38902737",
+      "38895119",
+      "38868715",
+      "38868514",
+      "38269383",
+      "38207123",
+      "38094089",
+      "38077322",
+      "37842315",
+      "37752231",
+      "37539055",
+      "37505622",
+      "37392853",
+      "37388741",
+      "36699020",
+      "36599743",
+      "36505460",
+      "36195172",
+      "36056452",
+      "35751589",
+      "34789720",
+      "33944639",
+      "33761782",
+      "33386422",
+      "33350981",
+      "33293219",
+      "32458699",
+      "31885731",
+      "31019585",
+      "27761468",
+      "27664042",
+      "27646959",
+      "26676667",
+      "26636823",
+      "26255250",
+      "21873679",
+      "21635964",
+      "21414208",
+      "21269502",
+      "20808728",
+      "20498670",
+      "15234530",
+      "14597658",
+      "11846609",
+      "9761301"
+    ],
+    "similar": [
+      "42440559",
+      "42059276",
+      "39697326",
+      "42306043",
+      "42129911",
+      "41716682",
+      "40790234",
+      "38310446",
+      "39634176",
+      "39762849",
+      "41146237",
+      "41601931",
+      "40435823",
+      "36506045",
+      "41479901",
+      "38951833",
+      "39754246",
+      "38443950",
+      "41291841",
+      "42228736",
+      "40406620",
+      "42265151",
+      "41384025",
+      "35651615",
+      "41651978",
+      "37867507",
+      "39670237",
+      "42761712",
+      "39483475",
+      "37773794",
+      "39968099",
+      "42565562",
+      "40374840",
+      "35937822",
+      "39427825",
+      "40885831",
+      "42243611",
+      "39920798",
+      "42058160",
+      "41988156",
+      "41957428",
+      "42432759",
+      "42050477",
+      "41905994",
+      "39588536",
+      "41583295",
+      "39170142",
+      "40313958",
+      "37522124",
+      "39466354",
+      "39713769",
+      "42018539",
+      "41340627",
+      "39270557",
+      "40331545",
+      "41378129",
+      "39022342",
+      "40043935",
+      "35369343",
+      "42363518",
+      "41459538",
+      "40124361",
+      "40313558",
+      "36011263",
+      "40681034",
+      "41709877",
+      "42302029",
+      "42023244",
+      "37908757",
+      "42154423",
+      "41436831",
+      "42128965",
+      "35966794",
+      "41151658",
+      "41164826",
+      "39870856",
+      "40110435",
+      "40024299",
+      "39085562",
+      "40619516",
+      "37033969",
+      "40176795",
+      "40233623",
+      "39079197",
+      "39265357",
+      "39403102",
+      "41583446",
+      "42694848",
+      "41619156",
+      "39268370",
+      "41883400",
+      "37837870",
+      "39182484",
+      "39779817",
+      "37760894",
+      "35713363",
+      "42528732",
+      "39375405",
+      "39725717",
+      "40901831"
+    ],
+    "review": [
+      "42440559"
+    ],
+    "pmc": [
+      "13333573"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42440559/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

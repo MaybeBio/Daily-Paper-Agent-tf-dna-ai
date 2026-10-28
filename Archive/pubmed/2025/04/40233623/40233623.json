@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "40233623",
+    "doi": "10.1016/j.identj.2025.03.011",
+    "title": "Identification and Validation of Ferritinophagy-Related Biomarkers in Periodontitis."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: While ferritinophagy is believed to play a significant role in the development of periodontitis, the exact mechanisms remain unclear. This study aimed to investigate the biomarkers associated with ferritinophagy in periodontitis using transcriptomic data. METHODS: Two periodontitis-related datasets from Gene Expression Omnibus, GSE10334, and GSE16134, served as the training and validation cohorts, respectively. Additionally, 36 ferritinophagy-related genes (FRGs) were obtained from the GeneCards database. We compared the expression differences of FRGs between the periodontitis and control groups, identifying the different FRGs as candidates. Weighted gene coexpression network analysis (WGCNA) was applied to capture the key modules and modular genes related to periodontitis, utilizing the candidate FRG scores as trait. Then we intersected these with key module genes to identify differentially expressed FRGs. Hub genes were filtered using a protein-protein interaction network. Ultimately, biomarkers were acquired through machine learning, receiver operating characteristic curves, and expression levels. In addition, biomarker-associated immune cells and functional pathways were analysed to predict the upstream regulatory molecules. RESULTS: In total, 18 candidate FRGs showed significant differences between the periodontitis and control groups, and from the protein-protein interaction network, eight hub genes were identified among the 175 differentially expressed FRGs by analysing 1096 differentially expressed genes and 4479 key modular genes. Eventually, ALDH2, diazepam binding inhibitor, HMGCR, OXCT1, and ACAT2 were identified as potential biomarkers through machine learning algorithms, receiver operating characteristic curve analysis, and gene expression assessments. In addition, resting dendritic cells, mast cells, and follicular helper T cells were positively correlated with the five biomarkers (Cor > 0.3 and P < .05). All five biomarkers are involved in the translation initiation pathway, including transcription factors like KLF5 and microRNAs such as hsa-miR-495-3p and hsa-miR-27a-3p. Reverse transcription-quantitative polymerase chain reaction analysis showed that all biomarkers were expressed at low levels in the periodontitis group. However, the differences in expression levels for OXCT1 and ACAT2 between groups were not statistically significant. CONCLUSIONS: A total of five ferritinophagy-related biomarkers - ALDH2, diazepam binding inhibitor, HMGCR, OXCT1, and ACAT2 - were screened to explore new treatment options for periodontitis.",
+    "keywords": [
+      "Bioinformatics analyses",
+      "Biomarkers",
+      "Ferritinophagy",
+      "Immune infiltration profiles",
+      "Periodontitis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Periodontitis/genetics/metabolism",
+      "Biomarkers/metabolism",
+      "Protein Interaction Maps",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "Transcriptome",
+      "*Ferritins/metabolism",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yi-Ming",
+        "Li, Chen-Xi",
+        "Jureti, Reyila",
+        "Awuti, Gulinuer"
+      ],
+      "short_names": [
+        "Li YM",
+        "Li CX",
+        "Jureti R",
+        "Awuti G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Periodontology, School/Hospital of Stomatology, The First Affiliated Hospital of Xinjiang Medical University, National Clinical Medical Research Institute, Urumqi, China.",
+        "Department of Oral and Maxillofacial Oncology & Surgery, School/Hospital of Stomatology, The First Affiliated Hospital of Xinjiang Medical University, National Clinical Medical Research Institute, Urumqi, China; Dental Medicine Institute of Xinjiang Uygur Autonomous Region, Urumqi, China. Electronic address: lichenxiuke@gmail.com.",
+        "Department of Periodontology, School/Hospital of Stomatology, The First Affiliated Hospital of Xinjiang Medical University, National Clinical Medical Research Institute, Urumqi, China.",
+        "Department of Periodontology, School/Hospital of Stomatology, The First Affiliated Hospital of Xinjiang Medical University, National Clinical Medical Research Institute, Urumqi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yi-Ming",
+        "short_name": "Li YM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Periodontology, School/Hospital of Stomatology, The First Affiliated Hospital of Xinjiang Medical University, National Clinical Medical Research Institute, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Chen-Xi",
+        "short_name": "Li CX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oral and Maxillofacial Oncology & Surgery, School/Hospital of Stomatology, The First Affiliated Hospital of Xinjiang Medical University, National Clinical Medical Research Institute, Urumqi, China; Dental Medicine Institute of Xinjiang Uygur Autonomous Region, Urumqi, China. Electronic address: lichenxiuke@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Jureti, Reyila",
+        "short_name": "Jureti R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Periodontology, School/Hospital of Stomatology, The First Affiliated Hospital of Xinjiang Medical University, National Clinical Medical Research Institute, Urumqi, China."
+        ]
+      },
+      {
+        "full_name": "Awuti, Gulinuer",
+        "short_name": "Awuti G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Periodontology, School/Hospital of Stomatology, The First Affiliated Hospital of Xinjiang Medical University, National Clinical Medical Research Institute, Urumqi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International dental journal"
+    ],
+    "journal_abbrev": [
+      "Int Dent J"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/16 00:24",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42313235",
+      "41576727",
+      "41576725",
+      "41158511",
+      "41138691",
+      "40981157"
+    ],
+    "refs": [
+      "39917640",
+      "39837316",
+      "39627481",
+      "39494478",
+      "39494211",
+      "39370484",
+      "39201249",
+      "39167314",
+      "39062989",
+      "38991270",
+      "38910764",
+      "38882729",
+      "38807112",
+      "38759889",
+      "38694129",
+      "38691250",
+      "38389491",
+      "38372875",
+      "38293511",
+      "37814163",
+      "37804812",
+      "37787044",
+      "37775917",
+      "37442359",
+      "37237883",
+      "36613888",
+      "36529984",
+      "36378328",
+      "36362030",
+      "36321868",
+      "36191214",
+      "36091043",
+      "36016708",
+      "35838120",
+      "35612798",
+      "34942286",
+      "34873463",
+      "34869079",
+      "34681767",
+      "34557778",
+      "34311860",
+      "34100201",
+      "34035660",
+      "33974754",
+      "33603676",
+      "33533512",
+      "33298848",
+      "33109155",
+      "33050310",
+      "32544362",
+      "32385880",
+      "31445882",
+      "31106412",
+      "31050915",
+      "30585445",
+      "30450020",
+      "30199848",
+      "30076709",
+      "29622007",
+      "29344893",
+      "27210503",
+      "27053774",
+      "26252406",
+      "25605792",
+      "24706027",
+      "23323831",
+      "21414208",
+      "20808728",
+      "20572767",
+      "20179676",
+      "19467657",
+      "19114008",
+      "17099194"
+    ],
+    "similar": [
+      "40233623",
+      "39717623",
+      "40016711",
+      "36321868",
+      "39512836",
+      "36316672",
+      "39142001",
+      "35901060",
+      "39080525",
+      "37555866",
+      "38839916",
+      "35003389",
+      "39719569",
+      "39707003",
+      "35637927",
+      "39080630",
+      "40328806",
+      "34788142",
+      "38690269",
+      "31512745",
+      "40147738",
+      "40173189",
+      "39991151",
+      "30922293",
+      "40196107",
+      "33407587",
+      "40024299",
+      "38902567",
+      "39749331",
+      "39139563",
+      "39263286",
+      "40124361",
+      "39875572",
+      "36072904",
+      "38802844",
+      "39636891",
+      "38863714",
+      "34545294",
+      "39586719",
+      "38728482",
+      "39341952",
+      "34321013",
+      "34536521",
+      "39904707",
+      "37275855",
+      "38912048",
+      "40275274",
+      "39086489",
+      "40124684",
+      "39610070",
+      "34899963",
+      "35128826",
+      "37766645",
+      "36699262",
+      "36389665",
+      "34721734",
+      "40332792",
+      "39762852",
+      "39978305",
+      "35397550",
+      "40068024",
+      "39556279",
+      "35558576",
+      "39069636",
+      "32537629",
+      "39328407",
+      "32888289",
+      "39953769",
+      "40321824",
+      "39934690",
+      "37063877",
+      "39433800",
+      "40129981",
+      "39735537",
+      "39375405",
+      "38371524",
+      "39738606",
+      "39670237",
+      "39028999",
+      "40151199",
+      "38711508",
+      "29516510",
+      "38741149",
+      "39444490",
+      "35757478",
+      "37179305",
+      "36653725",
+      "39072329",
+      "40273141",
+      "37215133",
+      "37522124",
+      "39403102",
+      "38168591",
+      "39699225",
+      "37357608",
+      "36438903",
+      "35185791",
+      "39675129",
+      "39396400",
+      "39609718"
+    ],
+    "review": [
+      "40233623"
+    ],
+    "pmc": [
+      "12043013"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0020-6539(25)00081-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40233623/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-12",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0020-6539(25)00081-4",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.08.681129",
+  "title": "Mapping the functional importance of site-specific ubiquitination across the human proteome",
+  "doi": "10.1101/2025.10.08.681129",
+  "abstract": "Protein ubiquitination regulates cell biology through diverse avenues, from quality control-linked protein degradation to signaling functions such as modulating protein-protein interactions and enzyme activation. To date, hundreds of thousands of ubiquitination sites (ubi-sites) have been identified, however fewer than 1% have known functional roles. Here, we assembled a human reference ubiquitinome of 108,341 ubi-sites by harmonizing public proteomics data. To pinpoint critical regulatory events requiring ubiquitination at a precise site, we mapped ubi-site conservation across proteomics data from six non-human species. Perturbation proteomics revealed that highly conserved ubi-sites are more likely to regulate signaling functions rather than proteasomal degradation. To further prioritize site-specific ubiquitination relevant for organismal fitness, we constructed a machine learning-based positional importance score for more than 100,000 ubi-sites, which identifies sites regulating diverse protein functions and rationalizes genetic vulnerabilities. Finally, we employed chemical genomics to validate the functional relevance of high-scoring ubi-sites and leveraged genetic code expansion to demonstrate that ubiquitination of K320 in the RNA-regulator ELAVL1 disrupts RNA binding. Our work reveals systems-level principles of the ubiquitinome and provides a powerful resource for studying site-specific protein ubiquitination.",
+  "authors": [
+    "van Gerwen J",
+    "Fottner M",
+    "Wang S",
+    "Busby B",
+    "Boswell E",
+    "Schnacke P",
+    "Carrano AC",
+    "Bakowski MA",
+    "Troemel ER",
+    "Studer R",
+    "Strumillo M",
+    "Martin M",
+    "Harper JW",
+    "Lang K",
+    "Jones AR",
+    "Bennett EJ",
+    "Vizcaíno JA",
+    "Barrio-Hernandez I",
+    "Beltrao P"
+  ],
+  "published_date": "2025-10-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.08.681129",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.08.681129.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1098801",
+    "raw_record": {
+      "id": "PPR1098801",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1098801"
+        ]
+      },
+      "doi": "10.1101/2025.10.08.681129",
+      "title": "Mapping the functional importance of site-specific ubiquitination across the human proteome",
+      "authorString": "van Gerwen J, Fottner M, Wang S, Busby B, Boswell E, Schnacke P, Carrano AC, Bakowski MA, Troemel ER, Studer R, Strumillo M, Martin M, Harper JW, Lang K, Jones AR, Bennett EJ, Vizcaíno JA, Barrio-Hernandez I, Beltrao P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "van Gerwen J",
+            "lastName": "van Gerwen",
+            "firstName": "Julian",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fottner M",
+            "lastName": "Fottner",
+            "firstName": "Maximilian",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory for Organic Chemistry Department of Chemistry and Applied Biosciences,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang S",
+            "lastName": "Wang",
+            "firstName": "Shengbo",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Busby B",
+            "lastName": "Busby",
+            "firstName": "Bede",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Boswell E",
+            "lastName": "Boswell",
+            "firstName": "Ellen",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schnacke P",
+            "lastName": "Schnacke",
+            "firstName": "Paul",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory for Organic Chemistry Department of Chemistry and Applied Biosciences,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Carrano AC",
+            "lastName": "Carrano",
+            "firstName": "Andrea",
+            "initials": "AC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Cell and Developmental Biology"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bakowski MA",
+            "lastName": "Bakowski",
+            "firstName": "Malina",
+            "initials": "MA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Cell and Developmental Biology"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Troemel ER",
+            "lastName": "Troemel",
+            "firstName": "Emily",
+            "initials": "ER",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Cell and Developmental Biology"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Studer R",
+            "lastName": "Studer",
+            "firstName": "Romain",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Strumillo M",
+            "lastName": "Strumillo",
+            "firstName": "Marta",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martin M",
+            "lastName": "Martin",
+            "firstName": "Maria-Jesus",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Harper JW",
+            "lastName": "Harper",
+            "firstName": "Wade",
+            "initials": "JW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell Biology, Harvard Medical School, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lang K",
+            "lastName": "Lang",
+            "firstName": "Kathrin",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory for Organic Chemistry Department of Chemistry and Applied Biosciences,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jones AR",
+            "lastName": "Jones",
+            "firstName": "Andrew",
+            "initials": "AR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bennett EJ",
+            "lastName": "Bennett",
+            "firstName": "Eric",
+            "initials": "EJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Cell and Developmental Biology"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vizcaíno JA",
+            "lastName": "Vizcaíno",
+            "firstName": "Juan Antonio",
+            "initials": "JA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barrio-Hernandez I",
+            "lastName": "Barrio-Hernandez",
+            "firstName": "Inigo",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beltrao P",
+            "lastName": "Beltrao",
+            "firstName": "Pedro",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Protein ubiquitination regulates cell biology through diverse avenues, from quality control-linked protein degradation to signaling functions such as modulating protein-protein interactions and enzyme activation. To date, hundreds of thousands of ubiquitination sites (ubi-sites) have been identified, however fewer than 1% have known functional roles. Here, we assembled a human reference ubiquitinome of 108,341 ubi-sites by harmonizing public proteomics data. To pinpoint critical regulatory events requiring ubiquitination at a precise site, we mapped ubi-site conservation across proteomics data from six non-human species. Perturbation proteomics revealed that highly conserved ubi-sites are more likely to regulate signaling functions rather than proteasomal degradation. To further prioritize site-specific ubiquitination relevant for organismal fitness, we constructed a machine learning-based positional importance score for more than 100,000 ubi-sites, which identifies sites regulating diverse protein functions and rationalizes genetic vulnerabilities. Finally, we employed chemical genomics to validate the functional relevance of high-scoring ubi-sites and leveraged genetic code expansion to demonstrate that ubiquitination of K320 in the RNA-regulator ELAVL1 disrupts RNA binding. Our work reveals systems-level principles of the ubiquitinome and provides a powerful resource for studying site-specific protein ubiquitination.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "223745/Z/21/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/S017054/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/Y513829/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.10.08.681129"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1098801"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1098801&type=FILE&fileName=EMS209786-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS209786",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pxd",
+          "uniprot",
+          "interpro",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-10-11",
+      "firstPublicationDate": "2025-10-08",
+      "firstIndexDate": "2025-10-11",
+      "fullTextReceivedDate": "2026-03-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

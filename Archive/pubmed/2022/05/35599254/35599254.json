@@ -1,0 +1,451 @@
+{
+  "identity": {
+    "pmid": "35599254",
+    "doi": "10.1007/s00262-022-03222-4",
+    "title": "High DKK3 expression related to immunosuppression was associated with poor prognosis in glioblastoma: machine learning approach."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Glioblastoma multiforme (GBM) is an aggressive malignant primary brain tumor. Wnt/beta-catenin is known to be related to GBM stemness. Cancer stem cells induce immunosuppressive and treatment resistance in GBM. We hypothesized that Wnt/beta-catenin-related genes with immunosuppression could be related to the prognosis in patients with GBM. METHODS: We obtained the clinicopathological data of 525 patients with GBM from the brain cancer gene database. The fraction of tumor-infiltrating immune cells was evaluated using in silico flow cytometry. Among gene sets of Wnt/beta-catenin pathway, Dickkopf-3 (DKK3) gene related to the immunosuppressive response was found using machine learning. We performed gene set enrichment analysis (GSEA), network-based analysis, survival analysis and in vitro drug screening assays based on Dickkopf-3 (DKK3) expression. RESULTS: In analyses of 31 genes related to Wnt/beta-catenin signaling, high DKK3 expression was negatively correlated with increased antitumoral immunity, especially CD8 + and CD4 + T cells, in patients with GBM. High DKK3 expression was correlated with poor survival and disease progression in patients with GBM. In pathway-based network analysis, DKK3 was directly linked to the THY1 gene, a tumor suppressor gene. Through in vitro drug screening, we identified navitoclax as an agent with potent activity against GBM cell lines with high DKK3 expression. CONCLUSIONS: These results suggest that high DKK3 expression could be a therapeutic target in GBM. The results of the present study could contribute to the design of future experimental research and drug development programs for GBM.",
+    "keywords": [
+      "Dickkopf-3",
+      "Gene",
+      "Glioblastoma multiforme",
+      "Survival",
+      "Wnt/beta-catenin signaling"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Glioblastoma/pathology",
+      "beta Catenin/genetics",
+      "Intercellular Signaling Peptides and Proteins/genetics/metabolism",
+      "*Brain Neoplasms/pathology",
+      "Prognosis",
+      "Immunosuppression Therapy",
+      "Machine Learning",
+      "Cell Line, Tumor",
+      "Cell Proliferation",
+      "Adaptor Proteins, Signal Transducing/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Han, Myung-Hoon",
+        "Min, Kyueng-Whan",
+        "Noh, Yung-Kyun",
+        "Kim, Jae Min",
+        "Cheong, Jin Hwan",
+        "Ryu, Je Il",
+        "Won, Yu Deok",
+        "Koh, Seong-Ho",
+        "Myung, Jae Kyung",
+        "Park, Ji Young",
+        "Kwon, Mi Jung"
+      ],
+      "short_names": [
+        "Han MH",
+        "Min KW",
+        "Noh YK",
+        "Kim JM",
+        "Cheong JH",
+        "Ryu JI",
+        "Won YD",
+        "Koh SH",
+        "Myung JK",
+        "Park JY",
+        "Kwon MJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4757-9211"
+      ],
+      "affiliations": [
+        "Department of Neurosurgery, Hanyang University Guri Hospital, Hanyang University College of Medicine, Guri, Gyeonggi-do, Republic of Korea.",
+        "Department of Pathology, Hanyang University Guri Hospital, Hanyang University College of Medicine, Guri, Gyeonggi-do, Republic of Korea. kyueng@hanyang.ac.kr.",
+        "Department of Computer Science, Hanyang University, Seoul, Republic of Korea. nohyung@hanyang.ac.kr.",
+        "School of Computational Sciences, Korea Institute for Advanced Study, Seoul, Republic of Korea. nohyung@hanyang.ac.kr.",
+        "Department of Neurosurgery, Hanyang University Guri Hospital, Hanyang University College of Medicine, Guri, Gyeonggi-do, Republic of Korea.",
+        "Department of Neurosurgery, Hanyang University Guri Hospital, Hanyang University College of Medicine, Guri, Gyeonggi-do, Republic of Korea.",
+        "Department of Neurosurgery, Hanyang University Guri Hospital, Hanyang University College of Medicine, Guri, Gyeonggi-do, Republic of Korea.",
+        "Department of Neurosurgery, Hanyang University Guri Hospital, Hanyang University College of Medicine, Guri, Gyeonggi-do, Republic of Korea.",
+        "Department of Neurology, Hanyang University Guri Hospital, Hanyang University College of Medicine, Guri, Gyeonggi-do, Republic of Korea.",
+        "Department of Pathology, Hanyang University Hospital, Hanyang University College of Medicine, Seoul, Republic of Korea.",
+        "Division of Cardiology, Department of Internal Medicine, Nowon Eulji Medical Center, Eulji University, Seoul, Republic of Korea.",
+        "Department of Pathology, Hallym University Sacred Heart Hospital, Hallym University College of Medicine, Anyang, Gyeonggi-do, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Han, Myung-Hoon",
+        "short_name": "Han MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Hanyang University Guri Hospital, Hanyang University College of Medicine, Guri, Gyeonggi-do, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Min, Kyueng-Whan",
+        "short_name": "Min KW",
+        "identifiers": [
+          "0000-0002-4757-9211"
+        ],
+        "affiliations": [
+          "Department of Pathology, Hanyang University Guri Hospital, Hanyang University College of Medicine, Guri, Gyeonggi-do, Republic of Korea. kyueng@hanyang.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Noh, Yung-Kyun",
+        "short_name": "Noh YK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Hanyang University, Seoul, Republic of Korea. nohyung@hanyang.ac.kr.",
+          "School of Computational Sciences, Korea Institute for Advanced Study, Seoul, Republic of Korea. nohyung@hanyang.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Kim, Jae Min",
+        "short_name": "Kim JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Hanyang University Guri Hospital, Hanyang University College of Medicine, Guri, Gyeonggi-do, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Cheong, Jin Hwan",
+        "short_name": "Cheong JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Hanyang University Guri Hospital, Hanyang University College of Medicine, Guri, Gyeonggi-do, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Ryu, Je Il",
+        "short_name": "Ryu JI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Hanyang University Guri Hospital, Hanyang University College of Medicine, Guri, Gyeonggi-do, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Won, Yu Deok",
+        "short_name": "Won YD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, Hanyang University Guri Hospital, Hanyang University College of Medicine, Guri, Gyeonggi-do, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Koh, Seong-Ho",
+        "short_name": "Koh SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Hanyang University Guri Hospital, Hanyang University College of Medicine, Guri, Gyeonggi-do, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Myung, Jae Kyung",
+        "short_name": "Myung JK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Hanyang University Hospital, Hanyang University College of Medicine, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Ji Young",
+        "short_name": "Park JY",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiology, Department of Internal Medicine, Nowon Eulji Medical Center, Eulji University, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kwon, Mi Jung",
+        "short_name": "Kwon MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Hallym University Sacred Heart Hospital, Hallym University College of Medicine, Anyang, Gyeonggi-do, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer immunology, immunotherapy : CII"
+    ],
+    "journal_abbrev": [
+      "Cancer Immunol Immunother"
+    ],
+    "pub_date": "2022 Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/23 06:00",
+    "fetched_at": "2026-09-28 08:58:11"
+  },
+  "links": {
+    "cites": [
+      "42516804",
+      "41629266",
+      "40405976",
+      "40002166",
+      "39057054",
+      "38672212",
+      "38331768",
+      "38201279",
+      "38019838",
+      "37149563",
+      "36685822",
+      "36497305",
+      "36033456"
+    ],
+    "refs": [
+      "35191501",
+      "33762015",
+      "33633150",
+      "33391006",
+      "33178210",
+      "32457755",
+      "32411181",
+      "32102932",
+      "32032750",
+      "31682048",
+      "31675094",
+      "31024539",
+      "30996127",
+      "30619286",
+      "30371878",
+      "30368520",
+      "30337641",
+      "30221069",
+      "29779087",
+      "29733389",
+      "29726981",
+      "29642232",
+      "29628290",
+      "29617665",
+      "28077724",
+      "26734010",
+      "26641068",
+      "26045979",
+      "25822800",
+      "25759692",
+      "25491947",
+      "25301448",
+      "24757258",
+      "24071849",
+      "23325622",
+      "23180760",
+      "22307622",
+      "22203689",
+      "22028620",
+      "20370576",
+      "20103663",
+      "19020659",
+      "18451170",
+      "16199517",
+      "15758009"
+    ],
+    "similar": [
+      "35599254",
+      "37149563",
+      "38686653",
+      "39003564",
+      "31419987",
+      "26395974",
+      "23890219",
+      "29673070",
+      "36642006",
+      "29779087",
+      "34326690",
+      "25029272",
+      "38682264",
+      "18048388",
+      "22555103",
+      "23667645",
+      "30940290",
+      "30569110",
+      "28470144",
+      "18059033",
+      "24325785",
+      "37787188",
+      "35768685",
+      "30779066",
+      "30180910",
+      "26654598",
+      "33462997",
+      "23258844",
+      "30864699",
+      "25301448",
+      "28738084",
+      "33671112",
+      "30980849",
+      "33281184",
+      "23619303",
+      "37772388",
+      "35525406",
+      "29240260",
+      "38401687",
+      "33941107",
+      "33881978",
+      "34072831",
+      "28219919",
+      "25764520",
+      "37368156",
+      "34288811",
+      "27815074",
+      "18093317",
+      "38612910",
+      "36478321",
+      "19570204",
+      "32772782",
+      "33566253",
+      "28922151",
+      "30843345",
+      "25241897",
+      "27801786",
+      "26424886",
+      "26641069",
+      "35562953",
+      "32000296",
+      "23787764",
+      "18826564",
+      "25573172",
+      "35708905",
+      "29206297",
+      "31561329",
+      "19003969",
+      "34123575",
+      "25085363",
+      "31763724",
+      "29196099",
+      "21849527",
+      "19815336",
+      "32448607",
+      "27903708",
+      "23765731",
+      "22652173",
+      "22765205",
+      "34328678",
+      "32329150",
+      "34001635",
+      "31905171",
+      "33895155",
+      "26155940",
+      "25991372",
+      "33746577",
+      "29914265",
+      "26712519",
+      "27959428",
+      "29284609",
+      "35163279",
+      "33524871",
+      "33839757",
+      "28086236",
+      "23429286",
+      "29726981",
+      "28249601",
+      "25363661",
+      "32134157",
+      "32323769",
+      "37415171",
+      "38287266",
+      "39316979",
+      "30563094",
+      "34442383",
+      "36969985",
+      "37847565",
+      "36532035",
+      "36979794",
+      "37584250",
+      "38019838",
+      "34306986",
+      "37509281",
+      "35044082",
+      "38855324",
+      "36845147",
+      "38248731",
+      "38193979",
+      "37067922",
+      "38384013",
+      "37510820",
+      "37182666",
+      "36681858",
+      "25374452",
+      "38234841",
+      "33117706",
+      "37781246",
+      "34765972",
+      "38516034",
+      "36300002",
+      "34093944",
+      "39315277",
+      "37106775",
+      "38766170",
+      "38826227",
+      "37131675",
+      "36786336",
+      "39304781"
+    ],
+    "review": [
+      "35599254",
+      "37787188",
+      "35525406",
+      "29206297",
+      "35163279"
+    ],
+    "pmc": [
+      "9588473"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/braintumors.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Brain Tumors"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35599254/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00262-022-03222-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35599254",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1511",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

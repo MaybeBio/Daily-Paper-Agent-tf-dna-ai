@@ -1,0 +1,1102 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.08.27.672609",
+  "title": "PlantCAD2: a DNA foundation model for interpreting genomes across flowering plants",
+  "doi": "10.1101/2025.08.27.672609",
+  "abstract": "Understanding how DNA sequence encodes biological function remains a fundamental challenge in biology. Flowering plants (angiosperms), the dominant terrestrial clade, exhibit maximal biochemical complexity, extraordinary species diversity (over 100,000 species), relatively recent origins (∼160 million years), ∼200-fold variation in genome size and relative compact coding regions compared with other eukaryotes. These features present both a unique challenge and opportunity for pre-training DNA language models to understand plant-specific evolutionary conservation, regulatory architectures and genomic functions. Here, we introduce PlantCAD2, an extended context, plant-specific DNA language model with single-nucleotide resolution, pre-trained on 65 angiosperm genomes, together with a series of public benchmarks for evaluation. Comprehensive zero-shot testing shows that PlantCAD2 (676 million parameters) efficiently captures evolutionary conservation, surpassing the 7-billion-parameter Evo2 model in 10 of 12 tasks. With parameter-efficient fine-tuning, PlantCAD2 also outperforms the 1-billion-parameter AgroNT across seven cross-species tasks including chromatin accessible region, gene expression and protein translation. Moreover, its 8,192bp context window substantially improves accessible chromatin prediction in large genomes such as maize (AUPRC increasing from 0.587 to 0.711), underscoring the importance of long-range context for modeling distal regulation. Together, these results establish PlantCAD2 as a powerful, efficient, and versatile foundation model for plant genomics, enabling accurate genome annotation across diverse species.",
+  "authors": [
+    "Jingjing Zhai",
+    "Aaron Gokaslan",
+    "Sheng-Kai Hsu",
+    "Szu-Ping Chen",
+    "Zong-Yan Liu",
+    "Edgar Marroquin",
+    "Eric Czech",
+    "Betsy Cannon",
+    "Ana Berthel",
+    "M. Cinta Romay",
+    "Matt Pennell",
+    "Volodymyr Kuleshov",
+    "Edward S. Buckler"
+  ],
+  "published_date": "2025-09-01",
+  "updated_date": "2025-09-01T19:50:17Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.08.27.672609",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.27.672609.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            17
+          ]
+        ],
+        "date-time": "2026-08-17T23:50:53Z",
+        "timestamp": 1787010653026,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            1
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 108,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2025-09-01T00:00:00Z",
+            "timestamp": 1756684800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Texas Advanced Computing Center at The University of Texas at Austin",
+          "award": [
+            "#MCB24097"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "#MCB24097"
+              ]
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000154",
+          "name": "U.S. National Science Foundation Division of Integrative Organismal Systems",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "2240888"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2240888"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000154",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "NSF CAREER",
+          "award": [
+            "#2145577"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "#2145577"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NIH Maximizing Investigators’ Research Award grant",
+          "award": [
+            "#1R35GM151243-01"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "#1R35GM151243-01"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NIH grant",
+          "award": [
+            "#5R35GM151348"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "#5R35GM151348"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            3
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Understanding how DNA sequence encodes biological function remains a fundamental challenge in biology. Flowering plants (angiosperms), the dominant terrestrial clade, exhibit maximal biochemical complexity, extraordinary species diversity (over 100,000 species), relatively recent origins (∼160 million years), ∼200-fold variation in genome size and relative compact coding regions compared with other eukaryotes. These features present both a unique challenge and opportunity for pre-training DNA language models to understand plant-specific evolutionary conservation, regulatory architectures and genomic functions. Here, we introduce PlantCAD2, an extended context, plant-specific DNA language model with single-nucleotide resolution, pre-trained on 65 angiosperm genomes, together with a series of public benchmarks for evaluation. Comprehensive zero-shot testing shows that PlantCAD2 (676 million parameters) efficiently captures evolutionary conservation, surpassing the 7-billion-parameter Evo2 model in 10 of 12 tasks. With parameter-efficient fine-tuning, PlantCAD2 also outperforms the 1-billion-parameter AgroNT across seven cross-species tasks including chromatin accessible region, gene expression and protein translation. Moreover, its 8,192bp context window substantially improves accessible chromatin prediction in large genomes such as maize (AUPRC increasing from 0.587 to 0.711), underscoring the importance of long-range context for modeling distal regulation. Together, these results establish PlantCAD2 as a powerful, efficient, and versatile foundation model for plant genomics, enabling accurate genome annotation across diverse species.</jats:p>",
+      "DOI": "10.1101/2025.08.27.672609",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2025-09-01T19:50:17Z",
+        "timestamp": 1756756217000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 11,
+      "title": [
+        "PlantCAD2: a DNA foundation model for interpreting genomes across flowering plants"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1535-3103",
+          "authenticated-orcid": false,
+          "given": "Jingjing",
+          "family": "Zhai",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Institute for Genomic Diversity, Cornell University, Ithaca, NY USA 14853"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3575-2961",
+          "authenticated-orcid": false,
+          "given": "Aaron",
+          "family": "Gokaslan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Cornell University, Ithaca, NY, USA 14853"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6942-7163",
+          "authenticated-orcid": false,
+          "given": "Sheng-Kai",
+          "family": "Hsu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute for Genomic Diversity, Cornell University, Ithaca, NY USA 14853"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-1821-4181",
+          "authenticated-orcid": false,
+          "given": "Szu-Ping",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Section of Plant Breeding and Genetics, Cornell University, Ithaca, NY USA 14853"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9039-7843",
+          "authenticated-orcid": false,
+          "given": "Zong-Yan",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Section of Plant Breeding and Genetics, Cornell University, Ithaca, NY USA 14853"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-0265-1214",
+          "authenticated-orcid": false,
+          "given": "Edgar",
+          "family": "Marroquin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Cornell University, Ithaca, NY, USA 14853"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4254-4255",
+          "authenticated-orcid": false,
+          "given": "Eric",
+          "family": "Czech",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Open Athena AI Foundation, New York, NY, USA 10001"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0000-0581-3703",
+          "authenticated-orcid": false,
+          "given": "Betsy",
+          "family": "Cannon",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Open Athena AI Foundation, New York, NY, USA 10001"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6849-982X",
+          "authenticated-orcid": false,
+          "given": "Ana",
+          "family": "Berthel",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute for Genomic Diversity, Cornell University, Ithaca, NY USA 14853"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9309-1586",
+          "authenticated-orcid": false,
+          "given": "M. Cinta",
+          "family": "Romay",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute for Genomic Diversity, Cornell University, Ithaca, NY USA 14853"
+            },
+            {
+              "name": "Section of Plant Breeding and Genetics, Cornell University, Ithaca, NY USA 14853"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2886-3970",
+          "authenticated-orcid": false,
+          "given": "Matt",
+          "family": "Pennell",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computational Biology, Cornell University, Ithaca, NY, USA 14853"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5150-3308",
+          "authenticated-orcid": false,
+          "given": "Volodymyr",
+          "family": "Kuleshov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Cornell University, Ithaca, NY, USA 14853"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3100-371X",
+          "authenticated-orcid": false,
+          "given": "Edward S.",
+          "family": "Buckler",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute for Genomic Diversity, Cornell University, Ithaca, NY USA 14853"
+            },
+            {
+              "name": "Section of Plant Breeding and Genetics, Cornell University, Ithaca, NY USA 14853"
+            },
+            {
+              "name": "USDA-ARS; Ithaca, NY, USA 14853"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.3001972"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1720115115"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03451-0"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/gigascience/gix120"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tplants.2021.10.006"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-30770-1"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3732/ajb.0800060"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1711842115"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.9",
+          "unstructured": "Bommasani, R. , Hudson, D.A. , Adeli, E. , Altman, R. , Arora, S. , von Arx, S. , Bernstein, M.S. , Bohg, J. , Bosselut, A. , Brunskill, E. , et al. (2021). On the opportunities and risks of foundation models. arXiv [cs.LG]."
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hayes, T. , Rao, R. , Akin, H. , Sofroniew, N.J. , Oktay, D. , Lin, Z. , Verkuil, R. , Tran, V.Q. , Deaton, J. , Wiggert, M. , et al. (2025). Simulating 500 million years of evolution with a language model. Science 387, eads0018.",
+          "DOI": "10.1101/2024.07.01.600583"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2021.3095381"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac020"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "220",
+          "DOI": "10.1038/s42256-024-00795-w",
+          "article-title": "Protein function prediction as approximate semantic entailment. Nat",
+          "volume": "6",
+          "year": "2024",
+          "journal-title": "Mach. Intell"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-022-01432-w"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-023-01465-0"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nguyen, E. , Poli, M. , Durrant, M.G. , Kang, B. , Katrekar, D. , Li, D.B. , Bartie, L.J. , Thomas, A.W. , King, S.H. , Brixi, G. , et al. (2024). Sequence modeling and design from molecular to genome scale with Evo. Science 386, eado9336.",
+          "DOI": "10.1126/science.ado9336"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Brixi, G. , Durrant, M.G. , Ku, J. , Naghipourfar, M. , Poli, M. , Sun, G. , Brockman, G. , Chang, D. , Fanton, A. , Gonzalez, G.A. , et al. (2026). Genome modelling and design across all domains of life with Evo 2. Nature, 1–13.",
+          "DOI": "10.1038/s41586-026-10176-5"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab083"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.21",
+          "unstructured": "Zhou, Z. , Ji, Y. , Li, W. , Dutta, P. , Davuluri, R.V. , and Liu, H . (2023). DNABERT-2: Efficient Foundation Model and Benchmark For Multi-Species Genomes."
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2311219120"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Benegas, G. , Albors, C. , Aw, A.J. , Ye, C. , and Song, Y.S . (2025). A DNA language model based on multispecies alignment predicts the effects of genome-wide variants. Nat. Biotechnol., 1–6.",
+          "DOI": "10.1038/s41587-024-02511-w"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.24",
+          "first-page": "835",
+          "article-title": "A foundational large language model for edible plant genomes. Commun",
+          "volume": "7",
+          "year": "2024",
+          "journal-title": "Biol"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-024-02523-z"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.26",
+          "unstructured": "Schiff, Y. , Kao, C.-H. , Gokaslan, A. , Dao, T. , Gu, A. , and Kuleshov, V . (2024). Caduceus: Bi-Directional Equivariant Long-Range DNA Sequence Modeling. arXiv [q-bio.GN]."
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2421738122"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "548",
+          "DOI": "10.1038/s42256-024-00836-4",
+          "article-title": "Multi-purpose RNA language modelling with motif-aware pretraining and type-guided fine-tuning. Nat",
+          "volume": "6",
+          "year": "2024",
+          "journal-title": "Mach. Intell"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-024-02487-0"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "1616",
+          "DOI": "10.1038/s42256-024-00946-z",
+          "article-title": "An interpretable RNA foundation model for exploring functional RNA motifs in plants. Nat",
+          "volume": "6",
+          "year": "2024",
+          "journal-title": "Mach. Intell"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-024-02305-7"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-025-59926-5"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-024-02201-0"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.34",
+          "unstructured": "Devlin, J. , Chang, M.-W. , Lee, K. , and Toutanova, K . (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv [cs.CL]."
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2024.11.013"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.10.24.563624"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.37",
+          "unstructured": "Gu, A. , and Dao, T. (2023). Mamba: Linear-Time Sequence Modeling with Selective State Spaces. arXiv [cs.LG]."
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/plcell/koab281"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-arplant-070122-030236"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "2313",
+          "DOI": "10.1038/s41588-025-02246-7",
+          "article-title": "Genetic variation at transcription factor binding sites largely explains phenotypic heritability in maize",
+          "volume": "57",
+          "year": "2025",
+          "journal-title": "Nat. Genet"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Marand, A.P. , Jiang, L. , Gomez-Cano, F. , Minow, M.A.A. , Zhang, X. , Mendieta, J.P. , Luo, Z. , Bang, S. , Yan, H. , Meyer, C. , et al. (2025). The genetic architecture of cell type-specific cis regulation in maize. Science 388, eads6601.",
+          "DOI": "10.1126/science.ads6601"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.42",
+          "unstructured": "Dao, T. , and Gu, A . (2024). Transformers are SSMs: Generalized models and efficient algorithms through structured state space duality. arXiv [cs.LG]."
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.43",
+          "unstructured": "Vaswani, A. , Shazeer, N. , Parmar, N. , Uszkoreit, J. , Jones, L. , Gomez, A.N. , Kaiser, L. , and Polosukhin, I. (2017). Attention Is All You Need. arXiv [cs.CL]."
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Warner, B. , Chaffin, A. , Clavié, B. , Weller, O. , Hallström, O. , Taghadouini, S. , Gallagher, A. , Biswas, R. , Ladhak, F. , Aarsen, T. , et al. (2024). Smarter, better, faster, longer: A modern bidirectional encoder for fast, memory efficient, and long context finetuning and inference. arXiv [cs.CL].",
+          "DOI": "10.18653/v1/2025.acl-long.127"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.45",
+          "unstructured": "Gu, A. , Goel, K. , and Ré, C. (2021). Efficiently Modeling Long Sequences with Structured State Spaces. arXiv [cs.LG]."
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "1325",
+          "DOI": "10.1038/s41477-020-00785-x",
+          "article-title": "Repeat-sequence turnover shifts fundamentally in species with large genomes",
+          "volume": "6",
+          "year": "2020",
+          "journal-title": "Nat Plants"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msad170"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "17",
+          "DOI": "10.1038/s41477-020-00834-5",
+          "article-title": "Comparative evolutionary genetics of deleterious load in sorghum and maize",
+          "volume": "7",
+          "year": "2021",
+          "journal-title": "Nature Plants"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msac193"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/g3.113.008870"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "355",
+          "DOI": "10.1016/j.tplants.2023.08.013",
+          "article-title": "New whole-genome alignment tools are needed for tapping into plant diversity",
+          "volume": "29",
+          "year": "2024",
+          "journal-title": "Trends Plant Sci"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/JOURNAL.PGEN.1008827"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-arplant-050213-035811"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(86)90762-2"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1001025"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2023.04.008"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.261834.120"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKZ1020"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbq072"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.04.038"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.1811.00416"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/tpj.14843"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.104.030130"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.124.3.665"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.65",
+          "doi-asserted-by": "crossref",
+          "first-page": "1862",
+          "DOI": "10.1038/s41477-023-01535-5",
+          "article-title": "SHI family transcription factors regulate an interspecific barrier",
+          "volume": "9",
+          "year": "2023",
+          "journal-title": "Nat. Plants"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.112.100099"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.67",
+          "doi-asserted-by": "crossref",
+          "first-page": "1250",
+          "DOI": "10.1038/s41477-019-0548-z",
+          "article-title": "The prevalence, evolution and chromatin signatures of plant regulatory elements",
+          "volume": "5",
+          "year": "2019",
+          "journal-title": "Nat. Plants"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.68",
+          "unstructured": "Hu, E.J. , Shen, Y. , Wallis, P. , Allen-Zhu, Z. , Li, Y. , Wang, S. , Wang, L. , and Chen, W. (2021). LoRA: Low-Rank Adaptation of large language models. arXiv [cs.CL]."
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.69",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, T. , and Guestrin, C. (2016). XGBoost: A Scalable Tree Boosting System. arXiv [cs.LG].",
+          "DOI": "10.1145/2939672.2939785"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2021.04.014"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.04.11.589024"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-023-01574-w"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-023-01517-5"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.74",
+          "unstructured": "Hale, C.O. , Hsu, S.-K. , Zhai, J. , Schulz, A.J. , Aubuchon-Elder, T. , Costa-Neto, G. , Gelfond, A. , El-Walid, M. , Hufford, M. , Kellogg, E.A. , et al. (2025). Widespread turnover of a conserved cis-regulatory code across 589 grass species. Mol. Biol. Evol., msaf324."
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.75",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jaganathan, K. , Ersaro, N. , Novakovsky, G. , Wang, Y. , James, T. , Schwartzentruber, J. , Fiziev, P. , Kassam, I. , Cao, F. , Hawe, J. , et al. (2025). Predicting expression-altering promoter mutations with deep learning. Science 389, eads7373.",
+          "DOI": "10.1126/science.ads7373"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1009568"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.10.31.685862"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.02.26.640468"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2319811121"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arXiv.2001.08361"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.81",
+          "doi-asserted-by": "crossref",
+          "first-page": "1571",
+          "DOI": "10.1038/s41477-021-01031-8",
+          "article-title": "Representation and participation across 20 years of plant genome sequencing",
+          "volume": "7",
+          "year": "2021",
+          "journal-title": "Nat Plants"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3442188.3445922"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.83",
+          "doi-asserted-by": "crossref",
+          "first-page": "665",
+          "DOI": "10.1038/s42256-020-00257-z",
+          "article-title": "Shortcut learning in deep neural networks. Nat",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Mach. Intell"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.03.07.584001"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.64898/2025.12.22.695963"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1009768"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.10.31.685877"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng1784"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.942"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-18832-8"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.91",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ajb2.1019"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.92",
+          "unstructured": "Loshchilov, I. , and Hutter, F. (2017). Decoupled Weight Decay Regularization. arXiv [cs.LG]."
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.266528.120"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.94",
+          "doi-asserted-by": "crossref",
+          "first-page": "1003",
+          "DOI": "10.1111/jse.12691",
+          "article-title": "Phylogenomics enables biogeographic analysis and a new subtribal classification of Andropogoneae (Poaceae—Panicoideae)",
+          "volume": "58",
+          "year": "2020",
+          "journal-title": "J. Syst. Evol"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.95",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.01.22.633974"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2113075119"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.097857.109"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.98",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abg5289"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.99",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-019-0410-2"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.100",
+          "doi-asserted-by": "crossref",
+          "first-page": "e20249",
+          "DOI": "10.1002/tpg2.20249",
+          "article-title": "Modeling chromatin state from sequence across angiosperms using recurrent convolutional neural networks",
+          "volume": "15",
+          "year": "2022",
+          "journal-title": "Plant Genome"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.101",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/plcell/koad290"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.102",
+          "doi-asserted-by": "crossref",
+          "first-page": "60",
+          "DOI": "10.1186/s13059-023-02890-4",
+          "article-title": "A translatome-transcriptome multi-omics gene regulatory network reveals the complicated functional landscape of maize",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "Genome Biol"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.103",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu170"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.104",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2009-10-3-r25"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.105",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts635"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.106",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3122"
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.107",
+          "unstructured": "Mangrulkar, S. , Gugger, S. , Debut, L. , Belkada, Y. , Paul, S. , and Bossan, B . (2022). Peft: State-of-the-art parameter-efficient fine-tuning methods. In Peft: State-of-the-art parameter-efficient fine-tuning methods."
+        },
+        {
+          "key": "2026040609150805000_2025.08.27.672609v4.108",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw226"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.08.27.672609",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            6
+          ]
+        ],
+        "date-time": "2026-04-06T16:15:25Z",
+        "timestamp": 1775492125000
+      },
+      "score": 61.22094,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.08.27.672609"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            1
+          ]
+        ]
+      },
+      "references-count": 108,
+      "URL": "https://doi.org/10.1101/2025.08.27.672609",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            1
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

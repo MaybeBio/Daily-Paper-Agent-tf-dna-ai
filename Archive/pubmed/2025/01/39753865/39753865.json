@@ -1,0 +1,539 @@
+{
+  "identity": {
+    "pmid": "39753865",
+    "doi": "10.1038/s41418-024-01436-w",
+    "title": "ABCF1-K430-Lactylation promotes HCC malignant progression via transcriptional activation of HIF1 signaling pathway."
+  },
+  "content": {
+    "abstract": "Lysine lactylation plays critical roles in various diseases, including cancer. Our previous study showed that lactylation of non-histone ABCF1 may be involved in hepatocellular carcinoma (HCC) progression. In this study, we evaluated the prognostic value of ABCF1-K430la in HCC using immunohistochemical staining and performed amino acid point mutations, multi-omics crossover, and biochemical experiments to investigate its biological role and underlying mechanism. Additionally, we performed molecular docking on lactylation sites. ABCF1-K430la was highly expressed in HCC tissues and correlated with poor patient prognosis. Functionally, ABCF1-K430la promoted HCC growth and lung metastasis. Mechanistically, upon lactylation, E2 ubiquitin ligase activity of ABCF1 remained unaffected, and ABCF1 entered the nucleus, bound to the KDM3A promoter to upregulate its expression, and activated the KDM3A-H3K9me2-HIF1A axis, challenging the notion that ABCF1 functions exclusively in cytoplasmic protein translation. Notably, we discovered the existence of a lactate-ABCF1(430Kla)-HIF1A-lactate in HCC. A small-molecule drug screen targeting ABCF1-K430la revealed that tubuloside A inhibits ABCF1-K430la and suppresses HCC development. These findings demonstrate that elevated ABCF1-K430la expression promotes HCC development, suggesting it as a potential prognostic biomarker and therapeutic target for HCC.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/pathology/genetics/metabolism",
+      "*Liver Neoplasms/pathology/genetics/metabolism",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism/genetics",
+      "Signal Transduction",
+      "Disease Progression",
+      "Transcriptional Activation",
+      "Male",
+      "Animals",
+      "Female",
+      "Cell Line, Tumor",
+      "Mice",
+      "Mice, Nude",
+      "Prognosis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hong, Han",
+        "Han, Hexu",
+        "Wang, Lei",
+        "Cao, Wen",
+        "Hu, Minjie",
+        "Li, Jindong",
+        "Wang, Jiawei",
+        "Yang, Yijin",
+        "Xu, XiaoYong",
+        "Li, Gaochao",
+        "Zhang, Zixiang",
+        "Zhang, Changhe",
+        "Xu, Minhui",
+        "Wang, Honggang",
+        "Wang, Qiang",
+        "Yuan, Yin"
+      ],
+      "short_names": [
+        "Hong H",
+        "Han H",
+        "Wang L",
+        "Cao W",
+        "Hu M",
+        "Li J",
+        "Wang J",
+        "Yang Y",
+        "Xu X",
+        "Li G",
+        "Zhang Z",
+        "Zhang C",
+        "Xu M",
+        "Wang H",
+        "Wang Q",
+        "Yuan Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5812-0123",
+        "ORCID: 0009-0000-8123-894X",
+        "ORCID: 0009-0007-6210-8892",
+        "ORCID: 0000-0003-1090-2174",
+        "ORCID: 0000-0002-2128-612X"
+      ],
+      "affiliations": [
+        "Department of Hepato-Pancreato-Biliary Surgery, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou, China.",
+        "Department of General Surgery, the First Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Department of Gastroenterology of the affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou, China.",
+        "Department of Hepatic Surgery VI, Eastern Hepatobiliary Surgery Hospital, Second Military Medical University, Shanghai, China.",
+        "Department of Liver Disease of the affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou, China.",
+        "Department of Hepatobiliary Surgery of the affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou School of Clinical Medicine, Nanjing Medical University, Taizhou, China.",
+        "Department of Pharmacy of the affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou, China.",
+        "Department of Hepatobiliary Surgery of the affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou School of Clinical Medicine, Nanjing Medical University, Taizhou, China.",
+        "Department of Oncology, Suzhou Kowloon Hospital, Shanghai Jiao Tong University, School of Medicine, Suzhou, China.",
+        "Department of Hepato-Pancreato-Biliary Surgery, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou, China.",
+        "Department of Hepato-Pancreato-Biliary Surgery, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou, China.",
+        "Department of General Surgery, the First Affiliated Hospital of Soochow University, Suzhou, China.",
+        "Department of Hepatobiliary Surgery of the affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou School of Clinical Medicine, Nanjing Medical University, Taizhou, China. zhangchanghe@njmu.edu.cn.",
+        "Department of Hepato-Pancreato-Biliary Surgery, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou, China. xuminhui1977@163.com.",
+        "Department of Gastrointestinal Surgery of the affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou, China. wanghonggang@njmu.edu.cn.",
+        "Department of Hepatobiliary Surgery, The First Affiliated Hospital of Anhui Medical University; Innovative Institute of Tumor Immunity and Medicine (ITIM); Anhui Provincial Innovation Institute for Pharmaceutical Basic Research; Anhui Province Key Laboratory of Tumor Immune Microenvironment and Immunotherapy, Hefei, China. wangqiang@ahmu.edu.cn.",
+        "Department of Hepatobiliary Surgery of the affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou School of Clinical Medicine, Nanjing Medical University, Taizhou, China. yuanyin@njmu.edu.cn.",
+        "Department of Clinical research center, The Affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou School of Clinical Medicine, Nanjing Medical University, Taizhou, China. yuanyin@njmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hong, Han",
+        "short_name": "Hong H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepato-Pancreato-Biliary Surgery, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou, China.",
+          "Department of General Surgery, the First Affiliated Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Han, Hexu",
+        "short_name": "Han H",
+        "identifiers": [
+          "0000-0002-5812-0123"
+        ],
+        "affiliations": [
+          "Department of Gastroenterology of the affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lei",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatic Surgery VI, Eastern Hepatobiliary Surgery Hospital, Second Military Medical University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Wen",
+        "short_name": "Cao W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Liver Disease of the affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Minjie",
+        "short_name": "Hu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery of the affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou School of Clinical Medicine, Nanjing Medical University, Taizhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jindong",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy of the affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiawei",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery of the affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou School of Clinical Medicine, Nanjing Medical University, Taizhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yijin",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Suzhou Kowloon Hospital, Shanghai Jiao Tong University, School of Medicine, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, XiaoYong",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepato-Pancreato-Biliary Surgery, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Gaochao",
+        "short_name": "Li G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hepato-Pancreato-Biliary Surgery, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zixiang",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, the First Affiliated Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Changhe",
+        "short_name": "Zhang C",
+        "identifiers": [
+          "0009-0000-8123-894X"
+        ],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery of the affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou School of Clinical Medicine, Nanjing Medical University, Taizhou, China. zhangchanghe@njmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Xu, Minhui",
+        "short_name": "Xu M",
+        "identifiers": [
+          "0009-0007-6210-8892"
+        ],
+        "affiliations": [
+          "Department of Hepato-Pancreato-Biliary Surgery, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou, China. xuminhui1977@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Honggang",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery of the affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou, China. wanghonggang@njmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Qiang",
+        "short_name": "Wang Q",
+        "identifiers": [
+          "0000-0003-1090-2174"
+        ],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery, The First Affiliated Hospital of Anhui Medical University; Innovative Institute of Tumor Immunity and Medicine (ITIM); Anhui Provincial Innovation Institute for Pharmaceutical Basic Research; Anhui Province Key Laboratory of Tumor Immune Microenvironment and Immunotherapy, Hefei, China. wangqiang@ahmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yuan, Yin",
+        "short_name": "Yuan Y",
+        "identifiers": [
+          "0000-0002-2128-612X"
+        ],
+        "affiliations": [
+          "Department of Hepatobiliary Surgery of the affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou School of Clinical Medicine, Nanjing Medical University, Taizhou, China. yuanyin@njmu.edu.cn.",
+          "Department of Clinical research center, The Affiliated Taizhou People's Hospital of Nanjing Medical University, Taizhou School of Clinical Medicine, Nanjing Medical University, Taizhou, China. yuanyin@njmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell death and differentiation"
+    ],
+    "journal_abbrev": [
+      "Cell Death Differ"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/04 00:20",
+    "fetched_at": "2026-09-30 08:52:28"
+  },
+  "links": {
+    "cites": [
+      "42681659",
+      "42592210",
+      "42579622",
+      "42562812",
+      "42512290",
+      "42491800",
+      "42437658",
+      "42402629",
+      "42344443",
+      "42334673",
+      "42292367",
+      "42226614",
+      "42222864",
+      "42212387",
+      "42185630",
+      "42164573",
+      "42162305",
+      "42135726",
+      "42131586",
+      "42088421",
+      "42086781",
+      "42003935",
+      "41988193",
+      "41974650",
+      "41971017",
+      "41962496",
+      "41942683",
+      "41939243",
+      "41888923",
+      "41872850",
+      "41822903",
+      "41711048",
+      "41705280",
+      "41699363",
+      "41685085",
+      "41675128",
+      "41657217",
+      "41654888",
+      "41634663",
+      "41624887",
+      "41593811",
+      "41566389",
+      "41524196",
+      "41510071",
+      "41488662",
+      "41458606",
+      "41454479",
+      "41446875",
+      "41360741",
+      "41323394",
+      "41285721",
+      "41137039",
+      "41108510",
+      "41080594",
+      "41053033",
+      "41020792",
+      "41007358",
+      "40994548",
+      "40867622",
+      "40849305",
+      "40843350",
+      "40810891",
+      "40797262",
+      "40622448",
+      "40589733",
+      "40513648",
+      "40484921",
+      "40421024"
+    ],
+    "refs": [
+      "39388269",
+      "38981044",
+      "38961290",
+      "38906140",
+      "38703775",
+      "38670996",
+      "38653238",
+      "38512451",
+      "38291438",
+      "38128537",
+      "37772986",
+      "37463576",
+      "37443257",
+      "37267363",
+      "36944542",
+      "36737602",
+      "36651176",
+      "36625413",
+      "36621008",
+      "36593272",
+      "36530047",
+      "36439872",
+      "36319537",
+      "36268709",
+      "35418124",
+      "35303422",
+      "35224683",
+      "35044827",
+      "34902530",
+      "34714667",
+      "34177945",
+      "34022911",
+      "33726814",
+      "33158848",
+      "33042865",
+      "32997794",
+      "32778823",
+      "32768595",
+      "32716739",
+      "32402160",
+      "31901298",
+      "31737570",
+      "31727574",
+      "31645732",
+      "31582403",
+      "31442435",
+      "31171526",
+      "30770245",
+      "30768848",
+      "30355156",
+      "30017566",
+      "29107534",
+      "27472901",
+      "25430774",
+      "24906151",
+      "23719290",
+      "20952403",
+      "20133848",
+      "10931828",
+      "9223322"
+    ],
+    "similar": [
+      "39753865",
+      "40663865",
+      "39016629",
+      "31100412",
+      "33596983",
+      "39301659",
+      "42486346",
+      "35110549",
+      "39319846",
+      "28449718",
+      "38745188",
+      "42285192",
+      "39023830",
+      "30971294",
+      "39150096",
+      "41655746",
+      "41958708",
+      "40312502",
+      "40319251",
+      "29510736",
+      "41193823",
+      "28750679",
+      "39384740",
+      "28454092",
+      "30782188",
+      "29866133",
+      "39030964",
+      "41891553",
+      "34420039",
+      "31727171",
+      "39809956",
+      "41668003",
+      "32547318",
+      "40414964",
+      "39147759",
+      "39413890",
+      "41347828",
+      "32335942",
+      "39390614",
+      "41271959",
+      "40130992",
+      "41655866",
+      "31899205",
+      "40591224",
+      "32631394",
+      "40707755",
+      "30115383",
+      "42062902",
+      "42207462",
+      "32277050",
+      "41935591",
+      "24220190",
+      "40809929",
+      "26065367",
+      "40246131",
+      "41274476",
+      "39278454",
+      "40227531",
+      "29439259",
+      "32685003",
+      "34521817",
+      "39833608",
+      "41026296",
+      "39661026",
+      "42174233",
+      "38677534",
+      "31901862",
+      "40540066",
+      "39422696",
+      "39572656",
+      "39868893",
+      "30673593",
+      "39128228",
+      "39060928",
+      "41015250",
+      "41981059",
+      "31176678",
+      "39984921",
+      "32123532",
+      "40650669",
+      "40646641",
+      "30419422",
+      "42593582",
+      "31278131",
+      "39766842",
+      "38879600",
+      "38773433",
+      "38711082",
+      "41613800",
+      "35848884",
+      "33897880",
+      "38861187",
+      "40659255",
+      "42297773",
+      "33784016",
+      "40250697",
+      "40348925",
+      "38468464",
+      "28428004",
+      "32473641"
+    ],
+    "review": [
+      "39753865"
+    ],
+    "pmc": [
+      "11982231"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41418-024-01436-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39753865/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-301",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:39753865",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

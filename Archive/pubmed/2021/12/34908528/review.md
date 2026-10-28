@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and figure legends as provided.
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based solely on the provided manuscript content. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The authors propose that the terminal selector transcription factor CHE-1 maintains the identity of ASE neurons in C. elegans for the animal's lifetime through a mechanism termed "target reservoir buffering," in which a reservoir of CHE-1 bound at target gene promoters, combined with preferential binding to its own promoter, buffers against molecular fluctuations and prevents stochastic loss of cell fate.
+- **Visible evidence base** Experimental data include auxin-inducible degradation of CHE-1::GFP::AID with recovery assays, smFISH measurements of che-1 mRNA, fluorescence-based protein quantification, FRAP measurements, stochastic simulations (Gillespie and Forward Flux Sampling), and CRISPR/Cas9-generated promoter mutations.
+- **Missing materials affecting confidence** Raw numerical data for smFISH counts, FRAP curves, and simulation outputs are not fully presented in the text. Statistical details for some comparisons (e.g., effect sizes, exact p-values) are incomplete. Supplementary files are referenced but not provided in the submitted material.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a fundamental question in developmental biology: how terminally differentiated cell identity is maintained over long timescales despite molecular noise. The authors combine quantitative experiments with stochastic modeling to propose a novel mechanism, "target reservoir buffering," that could explain life-long maintenance of ASE neuron fate. The work is conceptually interesting and the interdisciplinary approach is commendable. However, several technical concerns and gaps in the evidence reduce confidence in the central claims. The experimental support for key model predictions is indirect, and the modeling relies on several unconstrained parameters. The manuscript would benefit from additional validation experiments and clearer presentation of quantitative results.
+- **Who would be interested in the results, and why** Researchers in developmental biology, particularly those studying cell fate determination and maintenance; systems biologists interested in stochastic gene expression and genetic network dynamics; and C. elegans neurobiologists. The proposed mechanism may have broad implications for understanding stable cell fate maintenance in other systems, making it relevant to a wider audience in cell and molecular biology.
+- **Major strengths** The study addresses an important and understudied question with a combination of experimental and theoretical approaches. The use of in vivo measurements to parameterize stochastic models is rigorous. The identification of a specific promoter element and a potential role for homeodomain proteins provides a concrete molecular hypothesis. The writing is generally clear and the logical flow from experiments to modeling to predictions is well structured.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for model predictions
+  - **Claim pointer** The authors claim that "target reservoir buffering" explains the resilience of che-1 expression to CHE-1 depletion, and that this mechanism is responsible for life-long maintenance of neuron identity.
+  - **Evidence pointer** Results section "Sequences flanking the che-1 ASE motif are required for che-1 expression during CHE-1 depletion"; Figure 6
+  - **Concern** The central experimental evidence for the proposed mechanism relies on a single promoter swap experiment (replacing the che-1 ASE motif and flanking regions with those from gcy-22). While this shows that the 130 bp region is important for maintenance, it does not directly demonstrate that "target reservoir buffering" (i.e., the reservoir of CHE-1 bound at target genes) is the operative mechanism. The distinction between the proposed buffering mechanism and simpler explanations (e.g., reduced promoter affinity leading to lower expression) is not experimentally resolved. The authors do not measure CHE-1 binding occupancy at the che-1 promoter versus target gene promoters in vivo, which would be a more direct test.
+  - **Why it matters** The core novelty of the manuscript is the specific mechanism of "target reservoir buffering." Without direct evidence for this mechanism, the study reduces to a demonstration that a promoter element is important for maintenance, which is less novel. The modeling predictions are interesting but need experimental validation to establish the mechanism.
+  - **Resolution test** Provide direct measurements of CHE-1 binding at the che-1 promoter and target gene promoters (e.g., ChIP-qPCR or ChIP-seq) under normal conditions and during depletion. Alternatively, manipulate the number of target gene binding sites and show that this affects the stability of che-1 expression, as predicted by the model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Modeling assumptions and parameter constraints
+  - **Claim pointer** The authors claim that their stochastic simulations, using measured copy numbers and lifetimes, show that "target reservoir buffering" dramatically increases switch stability, with ON state lifetimes exceeding 1e5 years in some parameter regimes.
+  - **Evidence pointer** Results section "Stability against stochastic fluctuations by preferential binding of CHE-1 to its own promoter"; Figure 4
+  - **Concern** The model has several unconstrained parameters (binding/unbinding rates bO, b1, b2, bT) that are varied over a wide range. The conclusion that high stability requires bO,b2 << bT is based on this parameter sweep, but the authors do not provide experimental constraints on these parameters. The claim that "target reservoir buffering" is the mechanism requires that the model's assumptions (e.g., the number of target genes, the binding kinetics) are realistic. The number of target genes (500-1000) is estimated from promoter motif analysis, but the actual number of functional CHE-1 binding sites in vivo is not verified. The model also assumes that CHE-1 binding to target genes is competitive with binding to its own promoter, which is plausible but not experimentally demonstrated.
+  - **Why it matters** The quantitative predictions of the model (e.g., ON state lifetimes) are central to the claim that the mechanism ensures life-long maintenance. If the model parameters are not constrained, the predictions are speculative. The qualitative conclusion (that a reservoir of binding sites can buffer fluctuations) may hold, but the quantitative claims need more support.
+  - **Resolution test** Provide experimental measurements of CHE-1 binding kinetics or occupancy at the che-1 promoter and target gene promoters. Alternatively, test the model's predictions by systematically varying the number of target gene binding sites (e.g., by deleting or duplicating target genes) and measuring the stability of che-1 expression.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor and data presentation
+  - **Claim pointer** The authors claim that "che-1 expression was resilient to induced transient CHE-1 depletion" and that "gcy-22 mRNA levels were very low in most che-1::GFP::AID animals after 24 hr on auxin."
+  - **Evidence pointer** Results section "Loss of neuron identity upon transient CHE-1 depletion"; Figure 5
+  - **Concern** The manuscript reports qualitative statements (e.g., "very low," "hardly affected") without providing quantitative data with statistical comparisons. For example, in Figure 5, the authors show smFISH data for che-1 and gcy-22 mRNA levels, but the exact values, number of biological replicates, and statistical tests are not clearly described in the text. The statement that "che-1 expression was close to wild-type" after depletion needs quantitative support with error bars and significance testing.
+  - **Why it matters** The key experimental finding is that che-1 expression is resilient to depletion while target genes are not. Without rigorous quantification, this claim is not fully supported. The distinction between "resilient" and "partially reduced" is important for the model.
+  - **Resolution test** Provide quantitative data for all smFISH measurements, including mean values, standard deviations, number of cells/animals analyzed, and statistical tests (e.g., ANOVA with post-hoc comparisons). Show the full distribution of mRNA counts, not just representative images.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of model description
+  - **Affected element** Materials and methods, "Mathematical model of the CHE-1 switch"
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the cooperative model is somewhat confusing. The text states that CHE-1 binds as a dimer, but the equations show sequential binding of two monomers. The distinction between "cooperative" and "non-cooperative" models could be clearer.
+  - **Required correction** Clarify whether the model assumes true cooperative binding (where the first binding event increases the affinity of the second) or simply sequential independent binding. Define the term "cooperative" explicitly in the context of the model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation of mutant phenotype
+  - **Affected element** Results section "Involvement of an Otx-related homeodomain binding site in maintaining ASE fate"; Figure 7
+  - **Evidence pointer** Location not provided
+  - **Issue** The authors show that deletion of the HD binding site causes stochastic loss of CHE-1 expression, but they do not test whether this is due to loss of HD binding or to disruption of other regulatory elements in the deleted region. The 130 bp region may contain multiple functional elements.
+  - **Required correction** Acknowledge this limitation and consider additional mutations (e.g., point mutations in the HD site) to confirm specificity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability of the mechanism
+  - **Affected element** Discussion
+  - **Evidence pointer** Location not provided
+  - **Issue** The authors speculate that "target reservoir buffering" may be a general mechanism for cell fate maintenance, but they do not discuss potential limitations or alternative mechanisms in other systems.
+  - **Required correction** Add a brief discussion of how this mechanism might apply to other transcription factor networks and what conditions would be required (e.g., number of target genes, binding affinities).
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The lack of direct experimental evidence for the proposed mechanism and the unconstrained model parameters are the main issues. R1-M3 is also important for establishing the robustness of the key experimental finding.
+- **Assessment against Nature-style criteria** Originality: The concept of "target reservoir buffering" is novel and could be influential. Scientific importance: The question of long-term cell fate maintenance is fundamental, and the proposed mechanism may have broad implications. Interdisciplinary readership: The combination of quantitative biology and stochastic modeling will appeal to a wide audience. Technical soundness: The experimental techniques are appropriate, but the modeling is not fully constrained and the key mechanistic claim lacks direct support. Readability for nonspecialists: The manuscript is generally well written, but the modeling sections may be challenging for readers without a quantitative background. Overall, the work is original and important, but the technical concerns need to be addressed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a novel and interesting hypothesis, but the current evidence does not fully establish the proposed mechanism. Additional experiments to directly test the "target reservoir buffering" model and better constrain the model parameters would significantly strengthen the case.
+
+## Risk / unsupported claims
+- The claim that "target reservoir buffering" is the mechanism responsible for life-long maintenance of neuron identity is not directly supported by experimental evidence. The promoter swap experiment shows the importance of the 130 bp region but does not demonstrate the buffering mechanism.
+- The quantitative predictions of ON state lifetimes (e.g., >1e5 years) are based on unconstrained model parameters and should be treated as speculative.
+- The statement that "network architectures that support this mechanism are highly conserved in cell differentiation" is an extrapolation without direct evidence from other systems.
+- The claim that homeodomain proteins "recruit CHE-1 preferentially to its own promoter" is a hypothesis based on the deletion phenotype and modeling, but no direct biochemical or biophysical evidence is provided.

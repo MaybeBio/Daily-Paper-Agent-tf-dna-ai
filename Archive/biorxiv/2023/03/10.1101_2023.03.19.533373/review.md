@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure/table references
+- **Assessment boundary** Scientific validity, methodological rigor, claim support, and suitability as a methods-oriented resource paper
+- **Shared manuscript claim summary** The authors propose that in vitro single-molecule DNA flow-stretching assays can serve as a sensitive validation tool to detect functional perturbations caused by small peptide tags (specifically KCK) on DNA-binding proteins, using B. subtilis ParB as a model system. They report that KCK tags alter ParB DNA compaction rates and nucleotide/parS responsiveness in vitro, while showing no detectable effects in vivo, and attribute these in vitro changes at least partly to electrostatic interactions between the positively charged tag and the negatively charged DNA backbone.
+- **Visible evidence base** Results sections describing single-molecule flow-stretching assays (Figures 1, S2, S3), statistical comparisons (Figures 1E, 1F, S4), in vivo fluorescence microscopy and ChIP-seq (Figures 2, S5), protein recruitment measurements (Figure 3), ECE-tag control experiments (Figure 4, S6), and methods sections for protein purification, DNA preparation, labeling, and assays
+- **Missing materials affecting confidence** Raw data files (Supplemental Tabs 1-9) not provided; representative raw microscopy images not shown; detailed flow-stretching analysis parameters (e.g., thresholding, event selection criteria) not fully described; exact sample sizes per condition not stated in main text; no information on replicate numbers for in vivo experiments; no statistical details for ChIP-seq analysis
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely issue in single-molecule biology: the potential for small peptide tags to perturb protein function in ways that are not detectable by conventional in vivo assays. The authors present a clear demonstration that KCK tags alter ParB DNA compaction behavior in vitro, and they provide evidence implicating electrostatic interactions as a contributing mechanism. The work is carefully executed and the conclusions are generally supported by the data presented. However, several technical details and missing controls limit the strength of the claims, particularly regarding the generalizability of the assay as a validation tool and the mechanistic interpretation of the electrostatic effects. The manuscript would benefit from additional controls, clearer presentation of statistical methods, and a more nuanced discussion of the limitations of the flow-stretching assay for this purpose.
+- **Who would be interested in the results, and why** Researchers in single-molecule biophysics, DNA-protein interactions, bacterial chromosome segregation, and fluorescence labeling methodology would find this work relevant. The paper provides a practical cautionary tale about tag validation and offers a potentially useful assay for pre-screening tagged protein constructs. The findings are also relevant to the broader community studying ParB/ParABS systems and to method developers interested in protein labeling strategies.
+- **Major strengths** The study addresses a real and underappreciated problem in single-molecule biology. The use of a well-characterized model system (ParB) with known in vivo and in vitro activities is appropriate. The combination of in vitro single-molecule assays with in vivo fluorescence microscopy and ChIP-seq provides a comprehensive comparison. The inclusion of ECE-tag controls to test the electrostatic hypothesis is a thoughtful experimental design. The statistical approach using nonparametric tests is appropriate given the data distribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the flow-stretching assay can be used as a general validation tool for tagging DNA-binding proteins, but the evidence is based on a single protein (ParB) and a single tag (KCK).
+  - **Evidence pointer** Results sections, Discussion
+  - **Concern** The generalizability of the proposed validation approach is not established. Only one protein (ParB) and one tag (KCK) are tested. The authors do not demonstrate that the assay can detect perturbations for other tags or other DNA-binding proteins, nor do they establish the sensitivity limits of the assay (e.g., what magnitude of perturbation is detectable?).
+  - **Why it matters** The stated purpose of the paper is to provide a general tool for validating protein tags. Without demonstrating applicability across multiple protein-tag combinations, the claim of general utility is overstated.
+  - **Resolution test** The authors should either (a) test additional tags (e.g., a neutral tag, a larger tag) on ParB, (b) test KCK on another DNA-binding protein, or (c) temper the claims to be specific to ParB and KCK, clearly stating that generalizability remains to be established.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors attribute the in vitro effects of KCK tags at least partly to electrostatic interactions between the positively charged tag and the negatively charged DNA backbone, based on ECE-tag control experiments.
+  - **Evidence pointer** Results section "Charges on the KCK-tag contribute to the in vitro protein property changes", Figure 4
+  - **Concern** The ECE-tag experiments show reduced compaction rates, which is consistent with electrostatic repulsion, but this is an indirect test. The authors do not directly measure binding affinity or protein-DNA interactions. Additionally, the ECE tag changes the charge but also changes the amino acid sequence, which could have other effects (e.g., on protein folding or stability). The claim that electrostatics are "at least partly" responsible is appropriately cautious, but the evidence is circumstantial.
+  - **Why it matters** The mechanistic interpretation is central to understanding why the KCK tag causes artifacts. If the mechanism is not electrostatics, the implications for other tags and proteins may differ.
+  - **Resolution test** Direct measurements of binding affinity (e.g., by surface plasmon resonance or fluorescence anisotropy) for tagged versus untagged proteins, or experiments with a neutral tag (e.g., AKA) to isolate charge effects, would strengthen the mechanistic claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report that KCK tags alter ParB's response to nucleotides and parS, including a reversal of the compaction trend for KCK-BsParB(WT) with parS in the absence of nucleotides.
+  - **Evidence pointer** Results section "KCK-tags increase BsParB's DNA compaction rates in vitro", Figures 1C, 1D, S3
+  - **Concern** The compaction rate measurements are presented as mean values with statistical comparisons, but the raw data distributions are not shown. The authors state that not all groups passed normality tests and used nonparametric tests, but the effect sizes and variability are not clearly presented. Additionally, the number of independent experiments (stated as at least three) may be insufficient to capture the full variability, especially for the qualitative reversal of trends.
+  - **Why it matters** The qualitative changes in compaction behavior (e.g., reversal of trend with parS) are important claims that support the idea that KCK tags cause not just quantitative but qualitative changes. If these are not robust, the conclusions are weakened.
+  - **Resolution test** Show representative raw traces or kymographs for each condition, provide effect sizes with confidence intervals, and report the number of independent experiments and molecules analyzed per condition.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and rigor
+  - **Claim pointer** The authors state that the flow-stretching assay allows 10-40 DNA molecules to be analyzed per field of view, which is advantageous for statistical analysis.
+  - **Evidence pointer** Introduction, Methods section "Single-molecule flow-stretching assays"
+  - **Concern** The manuscript does not provide details on how molecules were selected for analysis, what criteria were used to define a compaction event, how many molecules were analyzed per condition, or how the data were pooled across experiments. This lack of detail limits the reproducibility of the assay.
+  - **Why it matters** For a methods-oriented paper, the level of methodological detail is insufficient for others to adopt the assay. The authors should provide a more complete description of the analysis pipeline, including any automated or manual selection criteria.
+  - **Resolution test** Provide a detailed analysis protocol, including step-by-step criteria for identifying and tracking DNA molecules, defining compaction events, and calculating compaction rates. Include information on the number of molecules and experiments per condition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1E and 1F
+  - **Evidence pointer** Results section "KCK-tags alter BsParB's DNA compaction properties in response to nucleotides and parS"
+  - **Issue** The Mann-Whitney comparison charts in Figures 1E and 1F are described but not shown in the text. The figure legends are not provided in the manuscript text, making it difficult to interpret the results.
+  - **Required correction** Provide full figure legends and ensure that the figures are self-contained, including clear labels for all conditions and statistical comparisons.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of the discrepancy between in vitro and in vivo results is brief. The authors suggest that cellular factors may buffer the effects of tags, but this is speculative and not developed.
+  - **Required correction** Expand the discussion to consider alternative explanations (e.g., differences in protein concentration, DNA substrate, or buffer conditions) and to provide a more balanced interpretation of the in vivo results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section "Protein expression and purification"
+  - **Evidence pointer** Methods
+  - **Issue** The protein purification method is described briefly. The use of apyrase to remove nucleotides is mentioned, but the efficiency of nucleotide removal is not assessed.
+  - **Required correction** Provide details on how apyrase treatment was validated (e.g., by measuring residual nucleotide levels) and whether this could affect the results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Statistics section
+  - **Evidence pointer** Methods section "Statistics and reproducibility"
+  - **Issue** The authors state that similar results were obtained with Welch's t-test, but the results of these tests are not shown. The choice of nonparametric tests is appropriate, but the reporting of both tests could be confusing.
+  - **Required correction** Clarify which test results are presented in the figures and provide the results of the sensitivity analysis in the supplement.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (generalizability), R1-M2 (mechanistic evidence), R1-M3 (data presentation and robustness)
+- **Assessment against Nature-style criteria** Originality: The work addresses a common but underappreciated problem in single-molecule biology, and the use of flow-stretching as a validation tool is a novel application. However, the conceptual advance is incremental. Scientific importance: The findings are important for practitioners in the field, as they highlight potential artifacts in tagged protein studies. The work does not fundamentally change understanding of ParB biology or single-molecule methods. Interdisciplinary readership: The topic is relevant to biophysics, microbiology, and molecular biology, but the appeal is primarily to specialists. Technical soundness: The experiments are generally well designed, but the lack of methodological detail and the limited generalizability reduce the technical rigor. Readability for nonspecialists: The manuscript is clearly written, but the heavy reliance on specialized terminology and the lack of context for the flow-stretching assay may limit accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding, that KCK tags can perturb ParB function in vitro despite normal in vivo behavior, is interesting and potentially useful. However, the claims of generalizability and the mechanistic interpretation need to be strengthened. The manuscript would be more suitable for a specialized methods journal than for a broad-interest journal.
+
+## Risk / unsupported claims
+- The claim that the flow-stretching assay can serve as a general validation tool for tagging DNA-binding proteins is not supported by the data, as only one protein and one tag were tested.
+- The claim that electrostatic interactions between the KCK tag and DNA are at least partly responsible for the observed effects is plausible but not directly demonstrated.
+- The statement that the previous study's failure to observe compaction by BsParB(R1-M3) was due to co-purified nucleotides is speculative and not directly tested.
+- The assertion that the flow-stretching assay is "highly sensitive" is not quantified; no comparison to other methods is provided.

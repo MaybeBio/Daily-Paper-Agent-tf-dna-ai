@@ -1,0 +1,1076 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.29.620654",
+  "title": "The GENCODE CLS project: massively expanding the lncRNA catalog through capture long-read RNA sequencing",
+  "doi": "10.1101/2024.10.29.620654",
+  "abstract": "Accurate and complete gene annotations are indispensable for understanding how genome sequences encode biological functions. For more than twenty years, the GENCODE consortium has developed reference annotations for the human and mouse genomes, becoming a foundation for biomedical and genomics communities worldwide. Nevertheless, collections of important yet poorly-understood gene classes like long non-coding RNAs (lncRNAs) remain incomplete and scattered across multiple, uncoordinated catalogs. To address this, GENCODE has undertaken the most comprehensive lncRNA annotation effort to date. This is founded on the manually supervised computational annotation of full-length targeted long-read sequencing, on matched embryonic and adult tissues, of orthologous regions in human and mouse. Altogether 17,931 human genes (140,268 transcripts) and 22,784 mouse genes (136,169 transcripts) have been added to the GENCODE catalog representing a 2-fold and 6-fold growth in transcripts, respectively - the greatest increase in the number of annotated human genes since the sequencing of the human genome. Our targeted design assigned human-mouse orthologs at a rate beyond previous studies, tripling the number of human disease-associated lncRNAs that have mouse orthologs. Novel lncRNA genes consistently exhibit biological signals of functionality, and they greatly enhance the functional interpretability of the human genome. While poorly expressed in bulk RNA-Seq samples, many of them are highly expressed in specific cell populations, maybe even contributing to cell-type determination. The expanded GENCODE lncRNA annotations mark a critical step toward deciphering the human and mouse genomes.",
+  "authors": [
+    "Perteghella T",
+    "Kaur G",
+    "Carbonell-Sala S",
+    "Gonzalez-Martinez J",
+    "Hunt T",
+    "Mądry T",
+    "Jungreis I",
+    "Degalez F",
+    "Arnan C",
+    "Nurtdinov R",
+    "Lagarde J",
+    "Borsari B",
+    "Sisu C",
+    "Jiang Y",
+    "Bennett R",
+    "Berry A",
+    "Blangiewicz M",
+    "Cerdán-Vélez D",
+    "Cochran K",
+    "Vara C",
+    "Davidson C",
+    "Donaldson S",
+    "Dursun C",
+    "González-López S",
+    "Gopal Das S",
+    "Lawrence K",
+    "Nachun D",
+    "Hardy M",
+    "Hollis Z",
+    "Kay M",
+    "Montañés JC",
+    "Ni P",
+    "Palumbo E",
+    "Pulido-Quetglas C",
+    "Suner M",
+    "Yu X",
+    "Zhang D",
+    "Aguet F",
+    "Ardlie K",
+    "Montgomery SB",
+    "Loveland JE",
+    "Albà MM",
+    "Diekhans M",
+    "Tanzer A",
+    "Mudge JM",
+    "Flicek P",
+    "Martin FJ",
+    "Gerstein M",
+    "Kellis M",
+    "Kundaje A",
+    "Paten B",
+    "Tress ML",
+    "Johnson R",
+    "Uszczynska-Ratajczak B",
+    "Frankish A",
+    "Guigó R"
+  ],
+  "published_date": "2024-10-31",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.29.620654",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.29.620654.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR933912",
+    "raw_record": {
+      "id": "PPR933912",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR933912"
+        ]
+      },
+      "doi": "10.1101/2024.10.29.620654",
+      "title": "The GENCODE CLS project: massively expanding the lncRNA catalog through capture long-read RNA sequencing",
+      "authorString": "Perteghella T, Kaur G, Carbonell-Sala S, Gonzalez-Martinez J, Hunt T, Mądry T, Jungreis I, Degalez F, Arnan C, Nurtdinov R, Lagarde J, Borsari B, Sisu C, Jiang Y, Bennett R, Berry A, Blangiewicz M, Cerdán-Vélez D, Cochran K, Vara C, Davidson C, Donaldson S, Dursun C, González-López S, Gopal Das S, Lawrence K, Nachun D, Hardy M, Hollis Z, Kay M, Montañés JC, Ni P, Palumbo E, Pulido-Quetglas C, Suner M, Yu X, Zhang D, Aguet F, Ardlie K, Montgomery SB, Loveland JE, Albà MM, Diekhans M, Tanzer A, Mudge JM, Flicek P, Martin FJ, Gerstein M, Kellis M, Kundaje A, Paten B, Tress ML, Johnson R, Uszczynska-Ratajczak B, Frankish A, Guigó R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Perteghella T",
+            "lastName": "Perteghella",
+            "firstName": "Tamara",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), , Dr. Aiguader 88 , , Catalonia,"
+                },
+                {
+                  "affiliation": "Departament de Ciències Experimentals i de la Salut,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kaur G",
+            "lastName": "Kaur",
+            "firstName": "Gazaldeep",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), , Dr. Aiguader 88 , , Catalonia,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Carbonell-Sala S",
+            "lastName": "Carbonell-Sala",
+            "firstName": "Sílvia",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), , Dr. Aiguader 88 , , Catalonia,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gonzalez-Martinez J",
+            "lastName": "Gonzalez-Martinez",
+            "firstName": "Jose",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hunt T",
+            "lastName": "Hunt",
+            "firstName": "Toby",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mądry T",
+            "lastName": "Mądry",
+            "firstName": "Tomasz",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computational Biology of Noncoding RNA, , Noskowskiego 12/14 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jungreis I",
+            "lastName": "Jungreis",
+            "firstName": "Irwin",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computer Science and Artificial Intelligence Lab, , 32 Vassar St , , ,"
+                },
+                {
+                  "affiliation": ", 415 Main Street , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Degalez F",
+            "lastName": "Degalez",
+            "firstName": "Fabien",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), , Dr. Aiguader 88 , , Catalonia,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Arnan C",
+            "lastName": "Arnan",
+            "firstName": "Carme",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0290-7445"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), , Dr. Aiguader 88 , , Catalonia,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nurtdinov R",
+            "lastName": "Nurtdinov",
+            "firstName": "Ramil",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), , Dr. Aiguader 88 , , Catalonia,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lagarde J",
+            "lastName": "Lagarde",
+            "firstName": "Julien",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), , Dr. Aiguader 88 , , Catalonia,"
+                },
+                {
+                  "affiliation": "Flomics Biotech, SL, Carrer de Roc Boronat 31, 08005 Barcelona, Catalonia, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Borsari B",
+            "lastName": "Borsari",
+            "firstName": "Beatrice",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Program in Computational Biology and Bioinformatics, , , ,"
+                },
+                {
+                  "affiliation": "Department of Molecular Biophysics and Biochemistry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sisu C",
+            "lastName": "Sisu",
+            "firstName": "Cristina",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9009-4607"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, , Uxbridge , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jiang Y",
+            "lastName": "Jiang",
+            "firstName": "Yunzhe",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Program in Computational Biology and Bioinformatics, , , ,"
+                },
+                {
+                  "affiliation": "Department of Molecular Biophysics and Biochemistry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bennett R",
+            "lastName": "Bennett",
+            "firstName": "Ruth",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Berry A",
+            "lastName": "Berry",
+            "firstName": "Andrew",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Blangiewicz M",
+            "lastName": "Blangiewicz",
+            "firstName": "Marta",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computational Biology of Noncoding RNA, , Noskowskiego 12/14 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cerdán-Vélez D",
+            "lastName": "Cerdán-Vélez",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics Unit, , Calle Melchor Fernandez Almagro, 3 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cochran K",
+            "lastName": "Cochran",
+            "firstName": "Kelly",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vara C",
+            "lastName": "Vara",
+            "firstName": "Covadonga",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Dr. Aiguader 88 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Davidson C",
+            "lastName": "Davidson",
+            "firstName": "Claire",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Donaldson S",
+            "lastName": "Donaldson",
+            "firstName": "Sarah",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dursun C",
+            "lastName": "Dursun",
+            "firstName": "Cagatay",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Program in Computational Biology and Bioinformatics, , , ,"
+                },
+                {
+                  "affiliation": "Department of Molecular Biophysics and Biochemistry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "González-López S",
+            "lastName": "González-López",
+            "firstName": "Silvia",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), , Dr. Aiguader 88 , , Catalonia,"
+                },
+                {
+                  "affiliation": "Departament de Ciències Experimentals i de la Salut,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gopal Das S",
+            "lastName": "Gopal Das",
+            "firstName": "Sasti",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computational Biology of Noncoding RNA, , Noskowskiego 12/14 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lawrence K",
+            "lastName": "Lawrence",
+            "firstName": "Kathryn",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nachun D",
+            "lastName": "Nachun",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hardy M",
+            "lastName": "Hardy",
+            "firstName": "Matthew",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hollis Z",
+            "lastName": "Hollis",
+            "firstName": "Zoe",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kay M",
+            "lastName": "Kay",
+            "firstName": "Mike",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Montañés JC",
+            "lastName": "Montañés",
+            "firstName": "José Carlos",
+            "initials": "JC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0380-7171"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Dr. Aiguader 88 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ni P",
+            "lastName": "Ni",
+            "firstName": "Pengyu",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Program in Computational Biology and Bioinformatics, , , ,"
+                },
+                {
+                  "affiliation": "Department of Molecular Biophysics and Biochemistry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Palumbo E",
+            "lastName": "Palumbo",
+            "firstName": "Emilio",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), , Dr. Aiguader 88 , , Catalonia,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pulido-Quetglas C",
+            "lastName": "Pulido-Quetglas",
+            "firstName": "Carlos",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medical Oncology, , Murtenstrasse 35 , ,"
+                },
+                {
+                  "affiliation": "School of Biology and Environmental Science, , Belfield , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Suner M",
+            "lastName": "Suner",
+            "firstName": "Marie-Marthe",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yu X",
+            "lastName": "Yu",
+            "firstName": "Xuezhu",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Program in Computational Biology and Bioinformatics, , , ,"
+                },
+                {
+                  "affiliation": "Department of Molecular Biophysics and Biochemistry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang D",
+            "lastName": "Zhang",
+            "firstName": "Dingyao",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Program in Computational Biology and Bioinformatics, , , ,"
+                },
+                {
+                  "affiliation": "Department of Molecular Biophysics and Biochemistry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aguet F",
+            "lastName": "Aguet",
+            "firstName": "François",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", 415 Main Street , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ardlie K",
+            "lastName": "Ardlie",
+            "firstName": "Kristin",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", 415 Main Street , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Montgomery SB",
+            "lastName": "Montgomery",
+            "firstName": "Stephen",
+            "initials": "SB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics, School of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Department of Pathology, School of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Department of Biomedical Data Science, School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Loveland JE",
+            "lastName": "Loveland",
+            "firstName": "Jane",
+            "initials": "JE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Albà MM",
+            "lastName": "Albà",
+            "firstName": "Mar",
+            "initials": "MM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Dr. Aiguader 88 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Diekhans M",
+            "lastName": "Diekhans",
+            "firstName": "Mark",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UC Santa Cruz Genomics Institute, 2300 Delaware Avenue , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tanzer A",
+            "lastName": "Tanzer",
+            "firstName": "Andrea",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biochemistry and Cell Biology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mudge JM",
+            "lastName": "Mudge",
+            "firstName": "Jonathan",
+            "initials": "JM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Flicek P",
+            "lastName": "Flicek",
+            "firstName": "Paul",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martin FJ",
+            "lastName": "Martin",
+            "firstName": "Fergal",
+            "initials": "FJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gerstein M",
+            "lastName": "Gerstein",
+            "firstName": "Mark",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Program in Computational Biology and Bioinformatics, , , ,"
+                },
+                {
+                  "affiliation": "Department of Molecular Biophysics and Biochemistry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kellis M",
+            "lastName": "Kellis",
+            "firstName": "Manolis",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computer Science and Artificial Intelligence Lab, , 32 Vassar St , , ,"
+                },
+                {
+                  "affiliation": ", 415 Main Street , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kundaje A",
+            "lastName": "Kundaje",
+            "firstName": "Anshul",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science, , , ,"
+                },
+                {
+                  "affiliation": "Department of Genetics, School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Paten B",
+            "lastName": "Paten",
+            "firstName": "Benedict",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UC Santa Cruz Genomics Institute, 2300 Delaware Avenue , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tress ML",
+            "lastName": "Tress",
+            "firstName": "Michael",
+            "initials": "ML",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics Unit, , Calle Melchor Fernandez Almagro, 3 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Johnson R",
+            "lastName": "Johnson",
+            "firstName": "Rory",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medical Oncology, , Murtenstrasse 35 , ,"
+                },
+                {
+                  "affiliation": "School of Biology and Environmental Science, , Belfield , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Uszczynska-Ratajczak B",
+            "lastName": "Uszczynska-Ratajczak",
+            "firstName": "Barbara",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computational Biology of Noncoding RNA, , Noskowskiego 12/14 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Frankish A",
+            "lastName": "Frankish",
+            "firstName": "Adam",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Wellcome Genome Campus, Hinxton , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guigó R",
+            "lastName": "Guigó",
+            "firstName": "Roderic",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), , Dr. Aiguader 88 , , Catalonia,"
+                },
+                {
+                  "affiliation": "Departament de Ciències Experimentals i de la Salut,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0290-7445"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0380-7171"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9009-4607"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Accurate and complete gene annotations are indispensable for understanding how genome sequences encode biological functions. For more than twenty years, the GENCODE consortium has developed reference annotations for the human and mouse genomes, becoming a foundation for biomedical and genomics communities worldwide. Nevertheless, collections of important yet poorly-understood gene classes like long non-coding RNAs (lncRNAs) remain incomplete and scattered across multiple, uncoordinated catalogs. To address this, GENCODE has undertaken the most comprehensive lncRNA annotation effort to date. This is founded on the manually supervised computational annotation of full-length targeted long-read sequencing, on matched embryonic and adult tissues, of orthologous regions in human and mouse. Altogether 17,931 human genes (140,268 transcripts) and 22,784 mouse genes (136,169 transcripts) have been added to the GENCODE catalog representing a 2-fold and 6-fold growth in transcripts, respectively - the greatest increase in the number of annotated human genes since the sequencing of the human genome. Our targeted design assigned human-mouse orthologs at a rate beyond previous studies, tripling the number of human disease-associated lncRNAs that have mouse orthologs. Novel lncRNA genes consistently exhibit biological signals of functionality, and they greatly enhance the functional interpretability of the human genome. While poorly expressed in bulk RNA-Seq samples, many of them are highly expressed in specific cell populations, maybe even contributing to cell-type determination. The expanded GENCODE lncRNA annotations mark a critical step toward deciphering the human and mouse genomes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "National Human Genome Research Institute (NHGRI), National Institutes of Health",
+            "grantId": "2U24HG007234",
+            "orderIn": 0
+          },
+          {
+            "agency": "Funded by MCIN/AEI/10 and “ERDF: A way of making Europe”. European Union",
+            "grantId": "MCIN/AEI/10.13039/501100011033",
+            "orderIn": 0
+          },
+          {
+            "agency": "Funded by MCIN/AEI/10 and “ERDF: A way of making Europe”. European Union",
+            "grantId": "PID2021-122726NB-I00",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Human Genome Research Institute (NHGRI), National Institutes of Health",
+            "grantId": "U24HG011451",
+            "orderIn": 0
+          },
+          {
+            "agency": "Science Foundation Irelan. Irish Research Council, IE",
+            "grantId": "IRCLA/2022/2500",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Social Fund Plus (ESF+) / FSE+",
+            "grantId": "PRE2022-102742",
+            "orderIn": 0
+          },
+          {
+            "agency": "Austrian Science Fund FWF",
+            "grantId": "V-762",
+            "orderIn": 0
+          },
+          {
+            "agency": "ERC, NovoGenePop",
+            "grantId": "101052538",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Human Genome Research Institute (NHGRI), National Institutes of Health",
+            "grantId": "T32HG000044",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Human Genome Research Institute (NHGRI), National Institutes of Health",
+            "grantId": "U24HG012090",
+            "orderIn": 0
+          },
+          {
+            "agency": "Spanish Ministry of Science and Innovation",
+            "grantId": "PID2021-122726NB-I00",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Molecular Biology Laboratory (EMBL) Wellcome Trust, Cambrige, GB",
+            "grantId": "WT222155/Z/20/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "WT222155/Z/20/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Science Foundation Irelan. Irish Research Council, IE",
+            "grantId": "18/FRL/6194",
+            "orderIn": 0
+          },
+          {
+            "agency": "predoctoral program AGAUR-FI grants Joan Oró from the Generalitat de Catalunya and the European Fund Social Plus",
+            "grantId": "2024 FI-1 00570",
+            "orderIn": 0
+          },
+          {
+            "agency": "Spanish Ministry of Science and Innovation",
+            "grantId": "CEX2020-001049-S",
+            "orderIn": 0
+          },
+          {
+            "agency": "Spanish Ministry of Science and Innovation",
+            "grantId": "PRE2022-102742",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Science Center, PL",
+            "grantId": "2021/42/E/NZ2/00434",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.10.29.620654"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR933912"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR933912&type=FILE&fileName=EMS199822-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS199822",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "ensembl",
+          "refsnp",
+          "arrayexpress",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-11-03",
+      "firstPublicationDate": "2024-10-31",
+      "firstIndexDate": "2024-11-03",
+      "fullTextReceivedDate": "2026-01-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

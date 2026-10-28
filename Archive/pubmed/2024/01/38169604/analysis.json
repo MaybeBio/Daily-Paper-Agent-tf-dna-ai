@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38169604",
+  "title": "Combining bioinformatics and machine learning algorithms to identify and analyze shared biomarkers and pathways in COVID-19 convalescence and diabetes mellitus.",
+  "authors": "Shen, Jinru; Wang, Yaolou; Deng, Xijin; Sana, Si Ri Gu Leng",
+  "journal": "Frontiers in endocrinology",
+  "published_date": "2024-01-04",
+  "window": {
+    "start": "2024-01-01",
+    "end": "2024-01-07"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究用生物信息学和机器学习识别COVID-19恢复期与糖尿病的共享生物标志物，虽涉及转录因子预测，但核心是疾病诊断标志物而非蛋白质-DNA互作机制建模，方法上无AI/物理模拟的互作建模，与本课题关联较弱。",
+  "abstract": "BACKGROUND: Most patients who had coronavirus disease 2019 (COVID-19) fully recovered, but many others experienced acute sequelae or persistent symptoms. It is possible that acute COVID-19 recovery is just the beginning of a chronic condition. Even after COVID-19 recovery, it may lead to the exacerbation of hyperglycemia process or a new onset of diabetes mellitus (DM). In this study, we used a combination of bioinformatics and machine learning algorithms to investigate shared pathways and biomarkers in DM and COVID-19 convalescence. METHODS: Gene transcriptome datasets of COVID-19 convalescence and diabetes mellitus from Gene Expression Omnibus (GEO) were integrated using bioinformatics methods and differentially expressed genes (DEGs) were found using the R programme. These genes were also subjected to Gene Ontology (GO) functional enrichment analysis and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis to find potential pathways. The hub DEGs genes were then identified by combining protein-protein interaction (PPI) networks and machine learning algorithms. And transcription factors (TFs) and miRNAs were predicted for DM after COVID-19 convalescence. In addition, the inflammatory and immune status of diabetes after COVID-19 convalescence was assessed by single-sample gene set enrichment analysis (ssGSEA). RESULTS: In this study, we developed genetic diagnostic models for 6 core DEGs beteen type 1 DM (T1DM) and COVID-19 convalescence and 2 core DEGs between type 2 DM (T2DM) and COVID-19 convalescence and demonstrated statistically significant differences (p<0.05) and diagnostic validity in the validation set. Analysis of immune cell infiltration suggests that a variety of immune cells may be involved in the development of DM after COVID-19 convalescence. CONCLUSION: We identified a genetic diagnostic model for COVID-19 convalescence and DM containing 8 core DEGs and constructed a nomogram for the diagnosis of COVID-19 convalescence DM.",
+  "abstract_zh": "背景：大多数2019冠状病毒病（COVID-19）患者完全康复，但许多其他患者经历了急性后遗症或持续症状。急性COVID-19康复可能仅仅是慢性疾病的开始。即使在COVID-19康复后，也可能导致高血糖过程的加重或糖尿病（DM）的新发。在本研究中，我们结合生物信息学和机器学习算法，探讨DM与COVID-19康复期之间的共享通路和生物标志物。方法：使用生物信息学方法整合来自基因表达综合数据库（GEO）的COVID-19康复期和糖尿病的基因转录组数据集，并使用R程序识别差异表达基因（DEGs）。这些基因还进行了基因本体论（GO）功能富集分析和京都基因与基因组百科全书（KEGG）通路分析，以发现潜在通路。随后，通过结合蛋白质-蛋白质相互作用（PPI）网络和机器学习算法识别核心DEGs。并预测了COVID-19康复后DM的转录因子（TFs）和miRNAs。此外，通过单样本基因集富集分析（ssGSEA）评估了COVID-19康复后糖尿病的炎症和免疫状态。结果：在本研究中，我们开发了包含6个核心DEGs的1型糖尿病（T1DM）与COVID-19康复期之间的遗传诊断模型，以及包含2个核心DEGs的2型糖尿病（T2DM）与COVID-19康复期之间的遗传诊断模型，并在验证集中证明了统计学显著差异（p<0.05）和诊断有效性。免疫细胞浸润分析表明，多种免疫细胞可能参与COVID-19康复后DM的发展。结论：我们识别了一个包含8个核心DEGs的COVID-19康复期与DM的遗传诊断模型，并构建了用于诊断COVID-19康复期DM的列线图。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38169604/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38169604/",
+  "paper_page_path": "papers/pubmed/38169604/index.html"
+}

@@ -1,0 +1,409 @@
+{
+  "identity": {
+    "pmid": "41967638",
+    "doi": "10.1016/j.annonc.2026.04.003",
+    "title": "Genomic determinants of response to alpelisib plus fulvestrant in the SOLAR-1 trial."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Approximately 40% of patients with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative advanced breast cancer (ABC) have PIK3CA alterations, which contributes to endocrine therapy resistance. Alpelisib, an alpha-selective phosphatidylinositol 3-kinase inhibitor and degrader, given in combination with fulvestrant, is approved for the treatment of PIK3CA-mutated, HR-positive, HER2-negative ABC, based on the results of the SOLAR-1 trial (NCT02437318). Aside from PIK3CA, other gene alterations are associated with poor prognosis and limited response to treatment in this patient population. PATIENTS AND METHODS: In this retrospective analysis, we carried out tissue-based next-generation sequencing of 398 patients (237 PIK3CA-altered, 161 PIK3CA-wild type) from SOLAR-1. Progression-free survival (PFS) correlative analysis was carried out in the PIK3CA-altered cohort. RESULTS: PIK3CA-altered and PIK3CA-wild type tumors had distinct genomic profiles. In the PIK3CA-altered cohort, patients who received alpelisib plus fulvestrant had a median PFS of 11.01 months versus 5.55 months for those receiving placebo plus fulvestrant (P = 0.0004). Patients in the lowest tumor mutational burden quartile as well as those with FGFR1 or FGFR2 alterations derived greater PFS benefit from alpelisib plus fulvestrant versus placebo plus fulvestrant [18.5 versus 3.22 months: hazard ratio (HR) 0.38, 95% confidence interval (CI) 0.21-0.68; FGFR1 12.71 versus 3.75 months: HR 0.38, 95% CI 0.17-0.81, P = 0.32; FGFR2 9.63 versus 2.78 months: HR 0.31, 95% CI 0.1-0.94, P = 0.29]; patients with MYC or RAD21 alterations derived limited PFS benefit. Cox and multitask machine learning models identified lower Eastern Cooperative Oncology Group performance status, prior cyclin-dependent kinase 4/6 inhibitor (CDK4/6i) treatment, and PTEN or TP53 alterations among the most deleterious factors for PFS in the PIK3CA-altered cohort. CONCLUSIONS: Alpelisib plus fulvestrant provides clinical benefit for patients with PIK3CA-altered, HR-positive, HER2-negative ABC across a range of concomitant alterations, including those previously implicated in endocrine therapy or CDK4/6i resistance. Machine learning models can identify factors including gene mutations that influenced PFS.",
+    "keywords": [
+      "PIK3CA",
+      "advanced breast cancer",
+      "alpelisib",
+      "hormone receptor positive",
+      "human epidermal growth factor receptor 2 negative",
+      "next-generation sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Fulvestrant/administration & dosage/therapeutic use",
+      "*Breast Neoplasms/drug therapy/genetics/pathology/mortality",
+      "*Class I Phosphatidylinositol 3-Kinases/genetics",
+      "*Antineoplastic Combined Chemotherapy Protocols/therapeutic use",
+      "*Thiazoles/administration & dosage/therapeutic use",
+      "Retrospective Studies",
+      "Mutation",
+      "*Biomarkers, Tumor/genetics",
+      "Progression-Free Survival",
+      "Middle Aged",
+      "Erb-b2 Receptor Tyrosine Kinases/metabolism",
+      "Aged",
+      "Adult",
+      "High-Throughput Nucleotide Sequencing",
+      "Receptors, Estrogen/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Juric, D",
+        "Rugo, H S",
+        "Reising, A",
+        "Vervier, K",
+        "Ma, C",
+        "Ciruelos, E M",
+        "Loibl, S",
+        "Singer, C F",
+        "Sohn, J",
+        "Campone, M",
+        "Conte, P",
+        "Iwata, H",
+        "Ghaznawi, F",
+        "Miller, M",
+        "Taran, T",
+        "Su, F",
+        "Andre, F"
+      ],
+      "short_names": [
+        "Juric D",
+        "Rugo HS",
+        "Reising A",
+        "Vervier K",
+        "Ma C",
+        "Ciruelos EM",
+        "Loibl S",
+        "Singer CF",
+        "Sohn J",
+        "Campone M",
+        "Conte P",
+        "Iwata H",
+        "Ghaznawi F",
+        "Miller M",
+        "Taran T",
+        "Su F",
+        "Andre F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Mass General Cancer Center, Department of Medicine, Harvard Medical School, Boston, USA. Electronic address: Juric.Dejan@mgh.harvard.edu.",
+        "Department of Medicine (Hematology/Oncology), University of California San Francisco Helen Diller Family Comprehensive Cancer Center, San Francisco, USA.",
+        "Novartis Pharmaceuticals Corporation, East Hanover, USA.",
+        "Novartis Pharma AG, Basel, Switzerland.",
+        "Novartis Pharmaceuticals Corporation, East Hanover, USA.",
+        "Medical Oncology, Breast Cancer Unit, Hospital Universitario 12 de Octubre, Madrid, Spain.",
+        "Medicine and Research, German Breast Group, GBG Forschungs GmbH, Neu-Isenburg, Germany.",
+        "Department of OB/GYN and Comprehensive Cancer Center, Medical University of Vienna, Vienna, Austria.",
+        "Yonsei Cancer Center, Seoul, Republic of Korea.",
+        "Oncology, Institut de Cancerologie de l'Ouest, Saint Herblain, France.",
+        "S Camillo Hospital IRCCS, Lido of Venice, Venice, Italy.",
+        "Breast Oncology, Aichi Cancer Center Hospital, Nagoya, Japan.",
+        "Novartis Pharmaceuticals Corporation, East Hanover, USA.",
+        "Novartis Pharmaceuticals Corporation, East Hanover, USA.",
+        "Novartis Pharma AG, Basel, Switzerland.",
+        "Novartis Pharmaceuticals Corporation, East Hanover, USA.",
+        "Medical Oncology, Institut Gustave Roussy, Villejuif, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Juric, D",
+        "short_name": "Juric D",
+        "identifiers": [],
+        "affiliations": [
+          "Mass General Cancer Center, Department of Medicine, Harvard Medical School, Boston, USA. Electronic address: Juric.Dejan@mgh.harvard.edu."
+        ]
+      },
+      {
+        "full_name": "Rugo, H S",
+        "short_name": "Rugo HS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine (Hematology/Oncology), University of California San Francisco Helen Diller Family Comprehensive Cancer Center, San Francisco, USA."
+        ]
+      },
+      {
+        "full_name": "Reising, A",
+        "short_name": "Reising A",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Pharmaceuticals Corporation, East Hanover, USA."
+        ]
+      },
+      {
+        "full_name": "Vervier, K",
+        "short_name": "Vervier K",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Pharma AG, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Ma, C",
+        "short_name": "Ma C",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Pharmaceuticals Corporation, East Hanover, USA."
+        ]
+      },
+      {
+        "full_name": "Ciruelos, E M",
+        "short_name": "Ciruelos EM",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Oncology, Breast Cancer Unit, Hospital Universitario 12 de Octubre, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Loibl, S",
+        "short_name": "Loibl S",
+        "identifiers": [],
+        "affiliations": [
+          "Medicine and Research, German Breast Group, GBG Forschungs GmbH, Neu-Isenburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Singer, C F",
+        "short_name": "Singer CF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of OB/GYN and Comprehensive Cancer Center, Medical University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Sohn, J",
+        "short_name": "Sohn J",
+        "identifiers": [],
+        "affiliations": [
+          "Yonsei Cancer Center, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Campone, M",
+        "short_name": "Campone M",
+        "identifiers": [],
+        "affiliations": [
+          "Oncology, Institut de Cancérologie de l'Ouest, Saint Herblain, France."
+        ]
+      },
+      {
+        "full_name": "Conte, P",
+        "short_name": "Conte P",
+        "identifiers": [],
+        "affiliations": [
+          "S Camillo Hospital IRCCS, Lido of Venice, Venice, Italy."
+        ]
+      },
+      {
+        "full_name": "Iwata, H",
+        "short_name": "Iwata H",
+        "identifiers": [],
+        "affiliations": [
+          "Breast Oncology, Aichi Cancer Center Hospital, Nagoya, Japan."
+        ]
+      },
+      {
+        "full_name": "Ghaznawi, F",
+        "short_name": "Ghaznawi F",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Pharmaceuticals Corporation, East Hanover, USA."
+        ]
+      },
+      {
+        "full_name": "Miller, M",
+        "short_name": "Miller M",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Pharmaceuticals Corporation, East Hanover, USA."
+        ]
+      },
+      {
+        "full_name": "Taran, T",
+        "short_name": "Taran T",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Pharma AG, Basel, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Su, F",
+        "short_name": "Su F",
+        "identifiers": [],
+        "affiliations": [
+          "Novartis Pharmaceuticals Corporation, East Hanover, USA."
+        ]
+      },
+      {
+        "full_name": "André, F",
+        "short_name": "André F",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Oncology, Institut Gustave Roussy, Villejuif, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Annals of oncology : official journal of the European Society for Medical Oncology"
+    ],
+    "journal_abbrev": [
+      "Ann Oncol"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/13 00:31",
+    "fetched_at": "2026-10-01 18:32:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41967638",
+      "33909934",
+      "31091374",
+      "39637900",
+      "33246021",
+      "41925922",
+      "30543347",
+      "33168657",
+      "33794206",
+      "40192953",
+      "39159418",
+      "35671774",
+      "38513188",
+      "39379782",
+      "33780274",
+      "40845250",
+      "39214106",
+      "40532361",
+      "41854603",
+      "28576675",
+      "30723140",
+      "31859246",
+      "40714513",
+      "41620612",
+      "37975961",
+      "41802242",
+      "34425869",
+      "31088410",
+      "35465733",
+      "40346047",
+      "39693591",
+      "39241211",
+      "33186740",
+      "40203765",
+      "41068674",
+      "31780379",
+      "26947331",
+      "35121623",
+      "39087959",
+      "38861871",
+      "34656225",
+      "32416251",
+      "40742733",
+      "32252811",
+      "42351448",
+      "41986320",
+      "40454641",
+      "36611120",
+      "34504990",
+      "38770648",
+      "39283299",
+      "39481395",
+      "42061370",
+      "41314030",
+      "40956180",
+      "32940689",
+      "38937298",
+      "27126994",
+      "41782020",
+      "32353342",
+      "33622114",
+      "41989051",
+      "42162670",
+      "41785668",
+      "32035020",
+      "39476340",
+      "42202490",
+      "33190190",
+      "32234362",
+      "41423595",
+      "40294349",
+      "28652278",
+      "40896879",
+      "30241001",
+      "41413016",
+      "42192452",
+      "39982725",
+      "29793946",
+      "38387111",
+      "41703509",
+      "37256976",
+      "36518248",
+      "39217059",
+      "39425174",
+      "41391667",
+      "34102253",
+      "41712229",
+      "42051263",
+      "34324367",
+      "38703285",
+      "42474572",
+      "39674130",
+      "41780642",
+      "40623476",
+      "29223745",
+      "39267478",
+      "37070653",
+      "33213227",
+      "42337391",
+      "38175669"
+    ],
+    "review": [
+      "41967638",
+      "41068674",
+      "32252811",
+      "42351448",
+      "33190190",
+      "32234362",
+      "42192452",
+      "41703509",
+      "34324367",
+      "39674130",
+      "33213227"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0923-7534(26)00133-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1631",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose that the extreme C-terminal region (CTR) of Sororin functions as a direct structural lock for the cohesin DNA-exit gate by engaging the RAD21-SMC3 interface, operating independently of its known role in antagonizing Pds5 binding to Wapl. They support this with cell-based cohesion assays, biochemical pull-downs, AlphaFold3 modeling, and mutagenesis, and further show that mitotic phosphorylation at S145 selectively disrupts Pds5 binding while preserving gate engagement.
+- **Visible evidence base** Figures 1-9 and Supplementary Figures 1-7 as described in the text; methods for cell culture, plasmids, siRNA, protein purification, pull-downs, immunoprecipitation, mass spectrometry, structure prediction, and imaging
+- **Missing materials affecting confidence** Raw data files, uncropped blots, full statistical details for all experiments, Supplementary Movies, and the complete AlphaFold3 model coordinates are not provided in the submitted text
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and potentially significant advance in understanding Sororin function in sister-chromatid cohesion. The identification of a direct gate-locking role for the Sororin CTR at the RAD21-SMC3 interface is novel and well-supported by the combination of cell-based and biochemical experiments. The genetic epistasis with Wapl is particularly convincing. However, several technical concerns regarding the rigor of the binding assays, the reliance on AlphaFold3 without experimental structural validation, and the incomplete characterization of the phosphorylation switch warrant attention before the conclusions can be fully accepted.
+- **Who would be interested in the results, and why** Researchers in chromosome biology, cell cycle regulation, and genome stability will find these results of high interest. The work provides a mechanistic framework for understanding how cohesion is maintained and released, with potential implications for cancer biology given the frequent dysregulation of cohesin in tumors. The dual-function model for Sororin will likely stimulate further studies on cohesin regulation.
+- **Major strengths** 1) The identification of a minimal CTR domain that is both necessary and sufficient for cohesion is clean and well-executed. 2) The use of centromere tethering to bypass Sororin depletion is an elegant approach that strengthens the functional relevance. 3) The biochemical reconstitution with recombinant proteins provides direct evidence for a physical interaction. 4) The Wapl epistasis experiments clearly demonstrate that the gate-locking function is Wapl-dependent, which is a key conceptual advance. 5) The identification of S145 as a phosphorylation switch that differentially regulates Pds5 versus gate binding is mechanistically insightful.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of binding assays
+  - **Claim pointer** The claim that Sororin-CTR directly binds the RAD21-SMC3 interface is based on pull-down assays with recombinant proteins, but the affinity and specificity of this interaction are not quantified.
+  - **Evidence pointer** Figure 4I, 4J; Methods "Protein expression and purification" and "In vitro kinase reaction"
+  - **Concern** The pull-down assays demonstrate binding but do not provide quantitative binding affinities or competition experiments. It is unclear whether the interaction is of physiologically relevant affinity or whether it is a weak, non-specific electrostatic interaction given the acidic nature of Sororin-CTR and the basic nature of the SMC3 head. The authors should provide quantitative binding data (e.g., ITC, MST, or SPR) or at least a dose-response curve to establish the specificity and strength of the interaction.
+  - **Why it matters** Without quantitative binding data, it is difficult to assess whether the proposed "lock" mechanism is thermodynamically feasible in the cellular context, where competing interactions (e.g., with Pds5, Wapl) are present.
+  - **Resolution test** Provide binding affinity measurements (Kd) for the Sororin-CTR interaction with the RAD21-SMC3 complex, and perform competition assays with Pds5 or Wapl to demonstrate specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural evidence
+  - **Claim pointer** The manuscript relies heavily on AlphaFold3 predictions to define the interaction interface and guide mutagenesis, but no experimental structural validation (e.g., X-ray crystallography, cryo-EM, or NMR) is provided.
+  - **Evidence pointer** Figure 6A; Methods "Structure prediction"
+  - **Concern** AlphaFold3 is a powerful prediction tool, but it is not a substitute for experimental structural data. The authors identify specific residues (W233, F241, F247, E252) as critical for binding based on the model, but the model's accuracy is unvalidated. The mutagenesis data are consistent with the model, but this is a circular argument if the mutations were designed based on the model. An independent experimental approach, such as cross-linking mass spectrometry or hydrogen-deuterium exchange, would strengthen the structural claims.
+  - **Why it matters** The field is moving toward high-resolution structures of cohesin complexes, and the lack of experimental structural data limits the confidence in the proposed atomic-level details of the interaction.
+  - **Resolution test** Provide experimental structural evidence (e.g., cryo-EM structure of the Sororin-CTR/RAD21-SMC3 complex) or at least validate the AlphaFold3 model with cross-linking or HDX-MS data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance of S145 phosphorylation
+  - **Claim pointer** The authors claim that S145 phosphorylation selectively disrupts Pds5 binding while preserving gate engagement, providing a regulated switch for cohesin release. However, the functional consequences of this switch are not fully tested in cells.
+  - **Evidence pointer** Figure 5; Supplementary Figure 5
+  - **Concern** The in vitro data clearly show that S145 phosphorylation disrupts Pds5 binding. However, the cellular experiments do not directly test whether a phospho-mimetic (S145E) or phospho-deficient (S145A/N) mutant affects cohesin release dynamics or sister-chromatid cohesion in a way that is consistent with the proposed model. The rescue experiments with S145N in Sgo1-depleted cells are suggestive but incomplete.
+  - **Why it matters** The proposed model predicts that S145 phosphorylation should promote cohesin release by allowing Wapl to rebind. This should be testable by measuring cohesin turnover or sister-chromatid cohesion in cells expressing phospho-mutants.
+  - **Resolution test** Perform FRAP or single-molecule imaging to measure cohesin residence time on chromatin in cells expressing S145A, S145E, or S145N mutants. Alternatively, measure sister-chromatid cohesion in cells expressing these mutants in the presence or absence of Wapl.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of the CTR effect
+  - **Claim pointer** The authors show that CTR tethering to chromatin (via H2B) prevents cohesin removal and causes mitotic defects. However, it is unclear whether this is due to a specific effect on cohesin or a general effect on chromatin structure.
+  - **Evidence pointer** Figure 3; Supplementary Figure 3
+  - **Concern** Overexpression of H2B-Sororin-CTR-GFP could have non-specific effects on chromatin compaction or transcription, which might indirectly affect mitotic chromosome morphology. The authors should include a control where a mutant CTR that cannot bind the RAD21-SMC3 interface is tethered to chromatin, to demonstrate that the phenotype is specifically due to gate locking.
+  - **Why it matters** The conclusion that the mitotic defects are due to impaired cohesin removal relies on the specificity of the CTR effect. Without a binding-defective control, alternative explanations cannot be excluded.
+  - **Resolution test** Generate H2B-Sororin-CTR(WA/EK)-GFP and H2B-Sororin-CTR(FA/FA)-GFP cell lines and test whether they fail to prevent cohesin removal and do not cause mitotic defects.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure legends and Methods "Statistics"
+  - **Evidence pointer** Figures 1D, 1G, 2C, 2E, 3D, 3E, 3G, 3H, 3I, 7, 8, 9
+  - **Issue** The statistical methods are described as "two-tailed, unpaired Student's t-test" but the number of independent experiments (n) is not consistently reported for all figures. Some figure legends state "n = 3" or "n = 4" but others do not specify.
+  - **Required correction** Ensure that all figure legends clearly state the number of independent biological replicates and the exact statistical test used. Consider reporting effect sizes and confidence intervals.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Methods "Mass spectrometry" and "Structure prediction"
+  - **Evidence pointer** Supplementary Data 1; Methods "Mass spectrometry"
+  - **Issue** The mass spectrometry data are mentioned but the full list of phosphorylation sites and the raw data are not provided in the text. The AlphaFold3 model coordinates are also not deposited.
+  - **Required correction** Provide the full mass spectrometry dataset as a supplementary table and deposit the AlphaFold3 model coordinates in a public repository (e.g., ModelArchive).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of model
+  - **Affected element** Figure 9J
+  - **Evidence pointer** Figure 9J
+  - **Issue** The working model in Figure 9J is somewhat schematic and does not clearly show the dual functions of Sororin (Pds5 competition vs. gate locking) in a way that distinguishes the two mechanisms.
+  - **Required correction** Consider revising the model to more clearly depict the two independent functions of Sororin and how they are regulated by phosphorylation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Throughout
+  - **Evidence pointer** Abstract, Introduction, Results
+  - **Issue** The term "DNA-exit gate" is used, but the field also uses "DNA-entry gate" for the SMC hinge. The authors should clarify whether they are referring to the same gate or a different one.
+  - **Required correction** Define the terminology clearly in the introduction and use consistent nomenclature throughout.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative binding data), R1-M2 (experimental structural validation)
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The concept of Sororin as a direct structural lock, rather than solely a Pds5 antagonist, is a novel contribution that challenges the prevailing model.
+  - Scientific importance: High. Understanding the molecular basis of sister-chromatid cohesion is fundamental to chromosome biology and has implications for cancer and developmental disorders.
+  - Interdisciplinary readership: Moderate. The work will primarily appeal to cell biologists, biochemists, and structural biologists. The broader significance to genome stability may attract a wider audience.
+  - Technical soundness: Moderate. The cell-based assays are generally well-executed, but the biochemical binding data lack quantitative rigor, and the structural conclusions rely heavily on computational predictions.
+  - Readability for nonspecialists: Good. The manuscript is clearly written, and the figures are well-organized. The abstract and introduction effectively convey the key concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is novel and potentially important, but the lack of quantitative binding data and experimental structural validation prevents full acceptance of the proposed mechanism. The authors should address these concerns with additional experiments or by tempering their claims.
+
+## Risk / unsupported claims
+- The claim that Sororin-CTR acts as a "direct structural lock" is not fully supported without quantitative binding affinity data and experimental structural validation.
+- The claim that S145 phosphorylation provides a "regulated molecular switch" is supported by in vitro data but lacks direct cellular evidence demonstrating the functional consequences of this phosphorylation on cohesin dynamics.
+- The statement that the CTR operates "independently of Pds5 competition" is supported by the pull-down data showing CTR does not bind Pds5, but the functional independence is not fully tested in cells where both mechanisms could be simultaneously active.
+- The cancer-associated E252Q mutation is described as "reducing" interaction, but the data are only shown in a supplementary figure and the quantitative extent of the reduction is not clear.

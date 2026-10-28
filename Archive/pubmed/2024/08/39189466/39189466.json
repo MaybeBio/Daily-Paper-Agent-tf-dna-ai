@@ -1,0 +1,528 @@
+{
+  "identity": {
+    "pmid": "39189466",
+    "doi": "10.1093/nar/gkae710",
+    "title": "Systematic discovery of DNA-binding tandem repeat proteins."
+  },
+  "content": {
+    "abstract": "Tandem repeat proteins (TRPs) are widely distributed and bind to a wide variety of ligands. DNA-binding TRPs such as zinc finger (ZNF) and transcription activator-like effector (TALE) play important roles in biology and biotechnology. In this study, we first conducted an extensive analysis of TRPs in public databases, and found that the enormous diversity of TRPs is largely unexplored. We then focused our efforts on identifying novel TRPs possessing DNA-binding capabilities. We established a protein language model for DNA-binding protein prediction (PLM-DBPPred), and predicted a large number of DNA-binding TRPs. A subset was then selected for experimental screening, leading to the identification of 11 novel DNA-binding TRPs, with six showing sequence specificity. Notably, members of the STAR (Short TALE-like Repeat proteins) family can be programmed to target specific 9 bp DNA sequences with high affinity. Leveraging this property, we generated artificial transcription factors using reprogrammed STAR proteins and achieved targeted activation of endogenous gene sets. Furthermore, the members of novel families such as MOON (Marine Organism-Originated DNA binding protein) and pTERF (prokaryotic mTERF-like protein) exhibit unique features and distinct DNA-binding characteristics, revealing interesting biological clues. Our study expands the diversity of DNA-binding TRPs, and demonstrates that a systematic approach greatly enhances the discovery of new biological insights and tools.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA-Binding Proteins/metabolism/genetics",
+      "*DNA/metabolism/chemistry/genetics",
+      "Humans",
+      "Protein Binding",
+      "Transcription Factors/metabolism/genetics",
+      "Zinc Fingers",
+      "Transcription Activator-Like Effectors/metabolism/genetics/chemistry",
+      "Tandem Repeat Sequences",
+      "Amino Acid Sequence",
+      "Databases, Protein",
+      "Binding Sites/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Xiaoxuan",
+        "Zhang, Xuechun",
+        "Sun, Wen",
+        "Liu, Chunhong",
+        "Deng, Pujuan",
+        "Cao, Yuanwei",
+        "Zhang, Chenze",
+        "Xu, Ning",
+        "Zhang, Tongtong",
+        "Zhang, Yong E",
+        "Liu, Jun-Jie Gogo",
+        "Wang, Haoyi"
+      ],
+      "short_names": [
+        "Hu X",
+        "Zhang X",
+        "Sun W",
+        "Liu C",
+        "Deng P",
+        "Cao Y",
+        "Zhang C",
+        "Xu N",
+        "Zhang T",
+        "Zhang YE",
+        "Liu JG",
+        "Wang H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3327-1459",
+        "ORCID: 0009-0000-3037-6808",
+        "ORCID: 0000-0002-7062-7832"
+      ],
+      "affiliations": [
+        "Key Laboratory of Organ Regeneration and Reconstruction, State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing 100101, China.",
+        "Key Laboratory of Organ Regeneration and Reconstruction, State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing 100101, China.",
+        "Key Laboratory of Organ Regeneration and Reconstruction, State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing 100101, China.",
+        "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing 100101, China.",
+        "Key Laboratory of Organ Regeneration and Reconstruction, State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing 100101, China.",
+        "State Key Laboratory of Membrane Biology, Beijing Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Beijing 100084, China.",
+        "Tsinghua-Peking Center for Life Sciences, Tsinghua University, Beijing 100084, China.",
+        "Key Laboratory of Organ Regeneration and Reconstruction, State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing 100101, China.",
+        "National Key Laboratory of Efficacy and Mechanism on Chinese Medicine for Metabolic Diseases, Beijing University of Chinese Medicine, Beijing 100029, China.",
+        "Key Laboratory of Organ Regeneration and Reconstruction, State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing 100101, China.",
+        "Key Laboratory of Organ Regeneration and Reconstruction, State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Key Laboratory of Zoological Systematics and Evolution, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "State Key Laboratory of Membrane Biology, Beijing Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Beijing 100084, China.",
+        "Tsinghua-Peking Center for Life Sciences, Tsinghua University, Beijing 100084, China.",
+        "Key Laboratory of Organ Regeneration and Reconstruction, State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing 100101, China.",
+        "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing 100101, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Xiaoxuan",
+        "short_name": "Hu X",
+        "identifiers": [
+          "0000-0003-3327-1459"
+        ],
+        "affiliations": [
+          "Key Laboratory of Organ Regeneration and Reconstruction, State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China.",
+          "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xuechun",
+        "short_name": "Zhang X",
+        "identifiers": [
+          "0009-0000-3037-6808"
+        ],
+        "affiliations": [
+          "Key Laboratory of Organ Regeneration and Reconstruction, State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China.",
+          "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Wen",
+        "short_name": "Sun W",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Organ Regeneration and Reconstruction, State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.",
+          "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing 100101, China.",
+          "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chunhong",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Organ Regeneration and Reconstruction, State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China.",
+          "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Pujuan",
+        "short_name": "Deng P",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Membrane Biology, Beijing Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Beijing 100084, China.",
+          "Tsinghua-Peking Center for Life Sciences, Tsinghua University, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Yuanwei",
+        "short_name": "Cao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Organ Regeneration and Reconstruction, State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China.",
+          "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chenze",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "National Key Laboratory of Efficacy and Mechanism on Chinese Medicine for Metabolic Diseases, Beijing University of Chinese Medicine, Beijing 100029, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Ning",
+        "short_name": "Xu N",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Organ Regeneration and Reconstruction, State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China.",
+          "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tongtong",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Organ Regeneration and Reconstruction, State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China.",
+          "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yong E",
+        "short_name": "Zhang YE",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing 100049, China.",
+          "Key Laboratory of Zoological Systematics and Evolution, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jun-Jie Gogo",
+        "short_name": "Liu JG",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Membrane Biology, Beijing Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Beijing 100084, China.",
+          "Tsinghua-Peking Center for Life Sciences, Tsinghua University, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Haoyi",
+        "short_name": "Wang H",
+        "identifiers": [
+          "0000-0002-7062-7832"
+        ],
+        "affiliations": [
+          "Key Laboratory of Organ Regeneration and Reconstruction, State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China.",
+          "Institute for Stem Cell and Regeneration, Chinese Academy of Sciences, Beijing 100101, China.",
+          "Beijing Institute for Stem Cell and Regenerative Medicine, Beijing 100101, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2024 Sep 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/27 12:45",
+    "fetched_at": "2026-09-30 01:48:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38718835",
+      "37973791",
+      "37528961",
+      "36947624",
+      "36927031",
+      "36700108",
+      "36651724",
+      "36477304",
+      "36268869",
+      "36124642",
+      "36044786",
+      "35776646",
+      "35721405",
+      "35637307",
+      "35273146",
+      "35089985",
+      "35084952",
+      "35020807",
+      "34932484",
+      "34557778",
+      "34418423",
+      "34415301",
+      "34265844",
+      "34232869",
+      "34118976",
+      "34001434",
+      "33999789",
+      "33972020",
+      "33876751",
+      "33641184",
+      "33044108",
+      "32920048",
+      "32789179",
+      "32734663",
+      "32416068",
+      "32346148",
+      "31972154",
+      "31777928",
+      "31701126",
+      "31375807",
+      "31228283",
+      "31187588",
+      "31036827",
+      "30032213",
+      "29741643",
+      "29614096",
+      "29490074",
+      "29425488",
+      "29322240",
+      "29152378",
+      "29112874",
+      "29035372",
+      "28841194",
+      "28726847",
+      "28617832",
+      "28460076",
+      "28165473",
+      "27930301",
+      "27084935",
+      "27041224",
+      "26949251",
+      "26771021",
+      "26590402",
+      "26506267",
+      "26482832",
+      "26059717",
+      "25765647",
+      "25690850",
+      "25653160",
+      "25582570",
+      "25517350",
+      "25516281",
+      "25420631",
+      "25391399",
+      "25269475",
+      "25184541",
+      "25151169",
+      "25017160",
+      "24695404",
+      "24606139",
+      "24471963",
+      "24463574",
+      "24178034",
+      "24151525",
+      "23986246",
+      "23892895",
+      "23831287",
+      "23577128",
+      "23418055",
+      "23377379",
+      "23264049",
+      "23169466",
+      "21738127",
+      "21636649",
+      "21593126",
+      "21493687",
+      "21490573",
+      "21468892",
+      "21414208",
+      "21248753",
+      "21179091",
+      "20717154",
+      "20513432",
+      "20478078",
+      "20335526",
+      "20224823",
+      "20110278",
+      "19933107",
+      "19933106",
+      "19394375",
+      "19366610",
+      "18798982",
+      "18602006",
+      "18487275",
+      "18408889",
+      "18073188",
+      "17931424",
+      "17703195",
+      "17379688",
+      "16888363",
+      "16734424",
+      "16677430",
+      "16251401",
+      "16079199",
+      "16041365",
+      "15608248",
+      "15152081",
+      "15059995",
+      "12459267",
+      "12409616",
+      "12012321",
+      "11751054",
+      "11551174",
+      "11423013",
+      "11299044",
+      "10940247",
+      "10878551",
+      "10827456",
+      "10592178",
+      "10512723",
+      "10089483",
+      "2510170",
+      "2017436"
+    ],
+    "similar": [
+      "39189466",
+      "8798540",
+      "25524096",
+      "11340073",
+      "8692697",
+      "29026078",
+      "12097288",
+      "9774661",
+      "24291598",
+      "10487759",
+      "7862533",
+      "24792163",
+      "10487755",
+      "31991825",
+      "29118409",
+      "25098749",
+      "28977492",
+      "28460076",
+      "24614980",
+      "20478078",
+      "27872906",
+      "23526890",
+      "9159105",
+      "15474298",
+      "21056084",
+      "7891721",
+      "8114711",
+      "23521535",
+      "16819300",
+      "22828628",
+      "9774413",
+      "27803930",
+      "9356243",
+      "10954607",
+      "29294058",
+      "11154279",
+      "30455466",
+      "9774480",
+      "10405178",
+      "28155654",
+      "7937919",
+      "10448074",
+      "24097990",
+      "29524130",
+      "36409599",
+      "8723389",
+      "10653693",
+      "10924515",
+      "15830130",
+      "15491138",
+      "30706389",
+      "26481363",
+      "2831463",
+      "12683994",
+      "26673701",
+      "21625552",
+      "12139008",
+      "18586699",
+      "24622844",
+      "9925775",
+      "15504402",
+      "19933107",
+      "28155662",
+      "7866428",
+      "10862757",
+      "10028291",
+      "20156532",
+      "8321207",
+      "1640455",
+      "31295249",
+      "12087177",
+      "10656784",
+      "11054286",
+      "24792160",
+      "10642181",
+      "8303274",
+      "24877793",
+      "15556296",
+      "16108353",
+      "21106758",
+      "9159121",
+      "31833142",
+      "12798683",
+      "11132639",
+      "23220279",
+      "9512553",
+      "20046064",
+      "9434111",
+      "11395410",
+      "35150566",
+      "9421515",
+      "9501172",
+      "9367756",
+      "8966119",
+      "9417925",
+      "9443972",
+      "12036432",
+      "24907364",
+      "18366681",
+      "16006653"
+    ],
+    "review": [
+      "39189466",
+      "24291598",
+      "20478078",
+      "21056084",
+      "16108353",
+      "11132639",
+      "20046064"
+    ],
+    "pmc": [
+      "11417379"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39189466/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39189466",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae710",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

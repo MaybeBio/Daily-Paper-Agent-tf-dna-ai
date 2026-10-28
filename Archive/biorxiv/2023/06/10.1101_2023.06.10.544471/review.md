@@ -1,0 +1,64 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, and experimental procedures
+- **Assessment boundary** Scientific validity of the structural characterization of the Z* domain, interpretation of experimental data, and claims regarding the functional and evolutionary implications of the findings
+- **Shared manuscript claim summary** The authors report that the putative degenerate zinc finger domain Z* of transcription factor ZNF750 is a genuine zinc-binding domain that folds into a classical ββα structure with a CCHC metal coordination site, contrary to database classifications and AlphaFold predictions
+- **Visible evidence base** NMR spectroscopy, CD spectroscopy, Zn²⁺ binding competition experiments, thermal stability measurements, NMR structure calculations, sequence analysis, and structural comparisons with known ZNF domains
+- **Missing materials affecting confidence** Raw NMR spectra, complete chemical shift assignment tables, validation statistics for the NMR structure ensemble, details of the EGTA competition experiment, and the specific AlphaFold prediction output for the Z* domain
+
+## Reviewer
+- **Overall assessment** The manuscript presents a thorough and technically sound structural characterization of the Z* domain of ZNF750, demonstrating that it is a bona fide zinc finger with a CCHC coordination site. The NMR data are of high quality, and the structure determination appears carefully executed with appropriate attention to avoiding bias in metal ligand identification. The finding that a "degenerate" ZNF can adopt a classical fold with an alternative metal coordination scheme is interesting and potentially significant for the field. However, the broader claims regarding the prevalence of such domains and the evolutionary implications, while plausible, extend beyond what the data directly support. The manuscript would benefit from a more measured discussion of the generalizability of the findings and a clearer articulation of the limitations of the structural model for predicting DNA-binding behavior.
+- **Who would be interested in the results, and why** Structural biologists studying zinc finger domains and metal-mediated protein folding will find the high-quality NMR structure of direct interest. Researchers working on transcription factor function, particularly those studying ZNF750 in skin biology and cancer, will value the structural context for understanding mutations and DNA-binding properties. The work also speaks to the broader community interested in the limits of computational structure prediction and the value of experimental validation, as it provides a concrete example where AlphaFold predictions and database annotations were incorrect.
+- **Major strengths** The experimental design is logical and addresses the central question directly. The use of multiple spectroscopic techniques (CD, NMR, and metal binding assays) provides convergent evidence for Zn²⁺-dependent folding. The NMR structure determination is carefully executed, with particular attention to avoiding bias in identifying metal ligands by first calculating structures without metal restraints. The structural comparison with classical ZNFs is informative, and the identification of the CCHC coordination site is well supported. The discussion of cancer-associated mutations in the context of the structure adds translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence strength for generalizability
+  - **Claim pointer** The abstract states "We expect other ZNFs currently classified as degenerate, are CCHC-type structures like Z*."
+  - **Evidence pointer** Discussion section, location not provided
+  - **Concern** The claim that other degenerate ZNFs are likely CCHC-type structures is presented as a general expectation, but the evidence provided is limited to the single example of Z* and a few sequence-based observations. The authors mention two other degenerate ZNFs with known structures (PDB codes 2RV1 and 2EPC) and list several UniProt entries with sequence features suggestive of CCHC coordination, but no systematic analysis is presented to support the breadth of this claim.
+  - **Why it matters** This generalization extends the findings beyond the direct experimental evidence. If the claim is intended as a testable hypothesis, it should be framed as such. If it is meant as a stronger assertion, it requires more comprehensive sequence and structural analysis across the family of degenerate ZNFs.
+  - **Resolution test** The authors should either soften the claim to a hypothesis or provide a more systematic bioinformatic analysis of degenerate ZNF sequences, including sequence conservation, predicted structural features, and comparison with known CCHC-type domains.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional interpretation of DNA-binding residues
+  - **Claim pointer** The results section states "The structure of Z* identifies DNA-binding residues and provides a structural context for cancer-associated mutants."
+  - **Evidence pointer** Results section, Figure 6, location not provided
+  - **Concern** The identification of putative DNA-binding residues is based on structural superposition with a known ZNF-DNA complex and sequence-based rules. While this is a reasonable approach, the authors acknowledge that ZNF750 has only a single ZNF domain, which is unusual for sequence-specific DNA binding. The functional significance of the identified residues is not experimentally validated, and the discussion of how a single ZNF domain achieves DNA binding remains speculative.
+  - **Why it matters** The manuscript makes claims about DNA-binding residues and their relevance to cancer-associated mutations. Without experimental validation (e.g., mutagenesis and DNA-binding assays), these assignments remain predictive. The authors should clearly distinguish between structurally inferred and experimentally validated functional information.
+  - **Resolution test** The authors should either present experimental data supporting the role of the identified residues in DNA binding or explicitly state that these are predictions requiring further validation. The discussion should be tempered to reflect the speculative nature of these assignments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of structural validation
+  - **Claim pointer** The manuscript states "The set of 20 lowest energy structures with no violations is displayed in Fig. 5C" and reports a backbone RMSD of 1.1 Å compared to Xfin-31.
+  - **Evidence pointer** Results section, Table 1, Figure 5, location not provided
+  - **Concern** The manuscript does not report standard NMR structure validation statistics, such as Ramachandran plot analysis, MolProbity scores, or per-residue RMSD values. While the authors mention deviations from Ramachandran ideality for P31, a comprehensive validation table is not provided. This limits the reader's ability to assess the quality of the structure ensemble.
+  - **Why it matters** For a structure determination paper, thorough validation is essential for the community to have confidence in the structural model. The absence of these statistics is a notable gap, particularly for a structure that is being used to make functional inferences.
+  - **Resolution test** The authors should provide a complete validation table, including Ramachandran statistics, clash scores, and coordinate precision measures, either in the main text or as supplementary material.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of experimental details
+  - **Affected element** Zn²⁺ binding competition experiment
+  - **Evidence pointer** Experimental Procedures, location not provided
+  - **Issue** The description of the EGTA competition experiment is brief. The concentrations of EGTA and Zn²⁺ are given, but the details of how the free Zn²⁺ concentration was calculated and how the binding curve was fit are not fully described.
+  - **Required correction** Provide additional details on the calculation of free Zn²⁺ concentrations and the fitting procedure, or reference a previously published protocol.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation of sequence analysis
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1, location not provided
+  - **Issue** The sequence alignment and domain annotations in Figure 1 are informative but somewhat dense. The relationship between the Z* sequence and the consensus CCHH motif could be clarified with a more explicit alignment or a sequence logo.
+  - **Required correction** Consider simplifying Figure 1 or adding a supplementary figure with a clearer sequence alignment highlighting the key differences between Z* and the consensus.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of AlphaFold limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section, location not provided
+  - **Issue** The critique of AlphaFold is relevant but could be more balanced. The authors note that AlphaFold predicts low confidence for Z*, but they do not discuss whether this is a general limitation for small, metal-binding domains or specific to this sequence.
+  - **Required correction** Add a brief discussion of the broader context of AlphaFold performance on metal-binding proteins and the implications for using prediction confidence as a proxy for disorder.
+- **Technical failings that need to be addressed before the case is established** The structural characterization of Z* as a CCHC zinc finger is well supported by the data. The primary technical gap is the lack of comprehensive structure validation statistics. Additionally, the functional claims regarding DNA-binding residues would benefit from experimental validation or clearer framing as predictions. The generalizability claim about other degenerate ZNFs requires either softening or additional bioinformatic support.
+- **Assessment against Nature-style criteria** Originality: The finding that a degenerate ZNF can adopt a classical fold with an alternative metal coordination site is novel and challenges existing classifications. Scientific importance: The work has implications for understanding ZNF diversity and the limits of sequence-based functional annotation, though the broader significance may be moderate. Interdisciplinary readership: The work will appeal to structural biologists, transcription factor researchers, and those interested in protein evolution, but may have limited appeal beyond these fields. Technical soundness: The NMR methodology is sound, but the lack of validation statistics is a notable gap. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with NMR techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core structural finding is convincing and well presented. The manuscript would be strengthened by adding structure validation statistics, tempering the generalizability claim, and clearly distinguishing predicted from experimentally validated functional information.

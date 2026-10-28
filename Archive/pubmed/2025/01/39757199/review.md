@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full text of a minireview article, including abstract, introduction, main sections, and concluding remarks.
+- **Assessment boundary** Scientific content, technical soundness, clarity, and adherence to Nature-style criteria, based solely on the provided manuscript text.
+- **Shared manuscript claim summary** The manuscript reviews recent findings on nucleosome and chromatin fiber dynamics, emphasizing single-molecule techniques, and discusses modulation by ionic environment, DNA sequence, and histone post-translational modifications.
+- **Visible evidence base** Abstract, introduction, sections on dynamic modes of nucleosomes, modulation of nucleosome dynamics, modulation of chromatin fiber dynamics, concluding remarks, and references to figures and tables (Figure 1, Figure 2, Table 1) as cited in text.
+- **Missing materials affecting confidence** Figures and tables are referenced but not provided; specific experimental details, data, and methodological descriptions from cited studies are not included; no supplementary information or reference list is available.
+
+## Reviewer
+- **Overall assessment** This minireview provides a concise and well-structured overview of recent advances in understanding nucleosome and chromatin fiber dynamics, with a focus on single-molecule approaches. The authors effectively synthesize findings from force spectroscopy, smFRET, and computational simulations, highlighting key mechanistic insights such as breathing, sliding, twist defects, and stacking. The manuscript is clearly written and accessible to a broad audience, but it lacks critical evaluation of the cited studies and does not provide sufficient depth to establish novel claims. The absence of figures and tables limits the ability to fully assess the presented summaries. The review is informative but does not offer a new conceptual framework or critical synthesis that would elevate it to the level of a Nature-style publication.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, biophysics, and molecular biology would find this review useful as a summary of recent single-molecule studies. It may also appeal to scientists interested in the mechanical properties of nucleosomes and chromatin, and those studying gene regulation mechanisms. The review could serve as an entry point for newcomers to the field, but it does not provide novel insights for experts.
+- **Major strengths** The manuscript is well-organized, with clear sections that logically progress from nucleosome dynamics to chromatin fiber dynamics. The authors successfully integrate findings from multiple techniques, including magnetic tweezers, optical tweezers, smFRET, and simulations, providing a comprehensive overview. The discussion of modulation by ionic conditions, DNA sequence, and PTMs is thorough and highlights key examples. The writing is clear and accessible, making complex biophysical concepts understandable to a general scientific audience.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that single-molecule measurements have revealed novel mechanistic details of nucleosome and chromatin dynamics, but the review does not critically assess the validity or limitations of the cited studies.
+  - **Evidence pointer** Sections "DYNAMIC MODES OF NUCLEOSOMES" and "MODULATION OF NUCLEOSOME DYNAMICS", location not provided
+  - **Concern** The review presents findings from various studies without evaluating their methodological rigor or potential contradictions. For example, the discussion of anti-cooperative unwrapping cites Huynh et al. and Konrad et al., but does not address discrepancies in experimental conditions or interpretations. Similarly, the section on twist defects relies on a single smFRET study without discussing alternative models or limitations. This lack of critical analysis undermines the scientific value of the review.
+  - **Why it matters** A review should not merely summarize but also critically appraise the evidence to guide readers in assessing the reliability of conclusions. Without this, the manuscript risks presenting unverified claims as established facts, which could mislead readers.
+  - **Resolution test** The authors should add a critical discussion of the strengths and weaknesses of key studies, including methodological limitations, potential artifacts, and unresolved controversies. This would strengthen the scientific rigor of the review.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims to elucidate recent findings on chromatin dynamics, but it does not provide a novel synthesis or identify key open questions that would advance the field.
+  - **Evidence pointer** Sections "DYNAMIC MODES OF NUCLEOSOMES" and "CONCLUDING REMARKS", location not provided
+  - **Concern** The review is largely descriptive, summarizing individual studies without offering a unifying framework or highlighting gaps in current knowledge. For instance, the concluding remarks mention the need for other approaches but do not specify what questions remain unanswered or how future studies could address them. The review does not go beyond existing literature to provide new insights.
+  - **Why it matters** For a Nature-style publication, the review should offer a critical perspective that advances understanding, not just a compilation of findings. Without a novel synthesis, the manuscript lacks the intellectual contribution expected of a high-impact review.
+  - **Resolution test** The authors should add a section that critically evaluates current models, identifies controversies, and proposes specific future directions. This would elevate the review from a summary to a thought-provoking piece.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Readability for nonspecialists
+  - **Claim pointer** The manuscript claims to be a minireview accessible to a broad audience, but some sections assume prior knowledge of biophysical techniques and chromatin terminology.
+  - **Evidence pointer** Sections "DYNAMIC MODES OF NUCLEOSOMES" and "MODULATION OF CHROMATIN FIBER DYNAMICS", location not provided
+  - **Concern** Terms such as "smFRET," "force spectroscopy," and "acidic patch" are used without adequate explanation. For example, the description of twist defects and their role in nucleosome sliding is brief and may be unclear to readers unfamiliar with the concept. The manuscript does not provide sufficient background for nonspecialists to fully grasp the significance of the findings.
+  - **Why it matters** A Nature-style review should be accessible to a wide audience, including scientists outside the immediate field. Lack of clarity could limit the impact and reach of the manuscript.
+  - **Resolution test** The authors should expand explanations of key techniques and concepts, possibly with a glossary or more detailed figure captions, to ensure accessibility.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that "single-molecule measurements have revealed novel mechanistic details" but does not specify which details, making it vague.
+  - **Required correction** Provide specific examples of novel mechanistic insights in the abstract to better inform readers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "MODULATION OF CHROMATIN FIBER DYNAMICS"
+  - **Evidence pointer** Section "MODULATION OF CHROMATIN FIBER DYNAMICS", location not provided
+  - **Issue** The text mentions "optical tweezers μeasurements" with a Greek letter "μ" instead of "m" in "measurements," which appears to be a typographical error.
+  - **Required correction** Correct the typo to "measurements."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1, location not provided
+  - **Issue** The text refers to Table 1 as summarizing recent findings, but the table is not provided, making it impossible to verify the content.
+  - **Required correction** Ensure Table 1 is included in the final submission and referenced accurately.
+- **Technical failings that need to be addressed before the case is established** The manuscript lacks critical evaluation of cited studies, which is essential for a review. The absence of figures and tables prevents full assessment of the presented data. The review does not offer a novel synthesis or identify key open questions, limiting its scientific contribution. These issues must be addressed to establish the case for publication.
+- **Assessment against Nature-style criteria** 
+  - Originality: The manuscript does not present original research or a novel conceptual framework. It summarizes existing findings, which is typical for a review but does not offer new insights.
+  - Scientific importance: The topic is of significant interest to the chromatin biology community, but the review does not advance the field by identifying controversies or future directions.
+  - Interdisciplinary readership: The content is relevant to biophysicists, molecular biologists, and biochemists, but the lack of accessibility for nonspecialists may limit broader appeal.
+  - Technical soundness: The review is technically accurate in its descriptions but lacks critical appraisal of the methods and findings of cited studies.
+  - Readability for nonspecialists: The writing is clear but assumes prior knowledge of biophysical techniques, which may hinder comprehension for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript is a competent summary but lacks the critical analysis, novel synthesis, and accessibility required for a Nature-style publication. Revisions addressing the major concerns are necessary before it can be considered.
+
+## Risk / unsupported claims
+- The claim that "single-molecule measurements have revealed novel mechanistic details" is unsupported without specific examples or critical evaluation.
+- The assertion that "H3K36 tri-methylation did not show the anti-cooperative opening of the outer turn" is presented without sufficient context or data to verify.
+- The statement that "H2BK34 ubiquitination widens the nucleosome gyre by steric hindrance" is based on a single study and is not critically assessed.
+- The review's conclusion that "other approaches, such as spatial genomics, super-resolution genome imaging, and live chromatin tracking, are required" is speculative and not supported by evidence in the text.

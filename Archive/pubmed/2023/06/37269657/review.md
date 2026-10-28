@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that Mebendazole (MBZ) binds to calf-thymus DNA (CT-DNA) via intercalation, based on UV-vis, fluorescence, circular dichroism (CD), 1H NMR, viscosity, dye displacement, and denaturation experiments, with thermodynamic parameters indicating a spontaneous, entropy-driven, hydrophobic interaction-dominated process. Molecular docking was inconsistent with experiments, but molecular simulation and free energy surface (FES) analysis supported intercalation of the benzimidazole ring.
+- **Visible evidence base** Abstract text only; no numerical data, spectra, figures, or methodological details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, binding constants, thermodynamic values, simulation parameters, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent narrative for an intercalative binding mode of MBZ with CT-DNA, supported by multiple biophysical techniques. However, the evidence base is limited to summary statements without quantitative data or methodological detail, preventing independent verification of the core claims. The discrepancy between molecular docking and simulation results is noted but not explained, which weakens the mechanistic interpretation. The work may be of interest to researchers in drug-DNA interactions, but the current abstract alone does not establish the case with sufficient rigor.
+- **Who would be interested in the results, and why** Researchers in biophysical chemistry, drug design, and nucleic acid interactions would be interested, as the study provides a multi-technique characterization of a drug-DNA binding mode, which is relevant for understanding the mechanism of action of benzimidazole-based therapeutics and for guiding structure-activity relationship studies.
+- **Major strengths** The use of multiple complementary spectroscopic and biophysical methods (UV-vis, fluorescence, CD, NMR, viscosity, dye displacement, denaturation) is a robust approach to probe binding mode. The inclusion of molecular simulation with FES analysis adds a computational dimension that can provide atomic-level insight. The explicit acknowledgment of the docking-simulation discrepancy is transparent.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that MBZ binds to CT-DNA via intercalation, confirmed by CD, 1H NMR, and denaturation studies.
+  - **Evidence pointer** Abstract text; specific figures and data not provided
+  - **Concern** The abstract states that intercalation is "confirmed" by multiple methods, but no quantitative data (e.g., binding constants from CD or NMR, melting temperature shifts, spectral signatures) are presented. Without these data, the claim of confirmation cannot be assessed.
+  - **Why it matters** Intercalation is a specific binding mode with distinct spectral and thermodynamic signatures. The absence of quantitative evidence makes it impossible to distinguish intercalation from groove binding or partial insertion, which is a common ambiguity in drug-DNA studies.
+  - **Resolution test** Provide the relevant spectra, binding constants, melting temperature changes, and any control experiments in the full manuscript, and show that the data are consistent with established criteria for intercalation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** The abstract reports that molecular docking "could not match well" with experimental results, but molecular simulation and FES analysis "clearly showed" intercalation in "excellent agreement" with experiments.
+  - **Evidence pointer** Abstract text; simulation and docking details not provided
+  - **Concern** The discrepancy between docking and simulation is stated but not explained. If both methods model the same molecular system, a major disagreement raises questions about the reliability of the computational approach or the interpretation of the experimental data. The abstract does not clarify why one computational method fails while another succeeds.
+  - **Why it matters** The claim of "excellent agreement" between simulation and experiments is central to the mechanistic conclusion. An unexplained failure of docking undermines confidence in the computational validation and may indicate force field, sampling, or scoring function issues that could also affect the simulation results.
+  - **Resolution test** In the full manuscript, provide a detailed comparison of docking and simulation protocols, discuss possible reasons for the discrepancy, and show that the simulation results are robust to parameter variations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Thermodynamic interpretation
+  - **Claim pointer** The abstract claims that DeltaH0 > 0 and DeltaS0 > 0 indicate hydrophobic interaction plays a dominant role in complex stabilization.
+  - **Evidence pointer** Abstract text; thermodynamic data not provided
+  - **Concern** Positive enthalpy and entropy changes are often interpreted as evidence for hydrophobic interactions, but they can also arise from other processes such as conformational changes, release of counterions, or solvent reorganization. The abstract does not provide the magnitude of these values or discuss alternative interpretations.
+  - **Why it matters** The thermodynamic interpretation is used to support the binding mode conclusion. An oversimplified interpretation could mislead readers about the driving forces of the interaction.
+  - **Resolution test** Provide the full thermodynamic data (e.g., van't Hoff or isothermal titration calorimetry results) and discuss alternative contributions, such as electrostatic or hydrogen bonding effects, in the full manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Binding constant value
+  - **Evidence pointer** Abstract text
+  - **Issue** The binding constant K(b) is reported as "in the order of 10(4) M(-1)" without a specific value or error estimate.
+  - **Required correction** Provide the exact K(b) value with standard deviation and the method used to calculate it.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dye displacement assays
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions competitive displacement assays with ethidium bromide and Hoechst 33258 but does not state the extent of displacement or the concentrations used.
+  - **Required correction** Include displacement percentages or relevant fluorescence quenching data in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Ground state complex formation"
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "ground state complex formation" is used to explain fluorescence enhancement, but the abstract does not clarify how this was distinguished from dynamic quenching or other excited-state processes.
+  - **Required correction** Provide evidence (e.g., fluorescence lifetime measurements or Stern-Volmer analysis) to support the ground state complex claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative evidence for intercalation), R1-M2 (unexplained docking-simulation discrepancy), R1-M3 (oversimplified thermodynamic interpretation)
+- **Assessment against Nature-style criteria** Originality: The combination of techniques is not novel, but the specific application to MBZ may offer incremental insight. Scientific importance: Moderate, as drug-DNA binding studies are common and the clinical relevance of MBZ-DNA interaction is not established. Interdisciplinary readership: Limited to biophysical chemistry and drug design specialists. Technical soundness: Cannot be fully assessed from the abstract; the reported methods are standard, but the lack of data prevents verification. Readability for nonspecialists: The abstract is concise but uses technical jargon without sufficient context for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a plausible intercalative binding mode, but the lack of quantitative data and the unresolved computational discrepancy prevent a definitive assessment. Supportive if the full manuscript addresses the major concerns with detailed evidence and robust analysis.
+
+## Risk / unsupported claims
+- The claim that intercalation is "confirmed" by CD, 1H NMR, and denaturation studies is unsupported without quantitative data.
+- The claim of "excellent agreement" between molecular simulation and experiments is unsupported given the unexplained docking failure.
+- The thermodynamic interpretation of hydrophobic dominance is weakly supported without full data and alternative explanations.
+- The binding constant magnitude (10(4) M(-1)) is stated without specific values or error margins, making it unverifiable.

@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text, methods, supplementary figure legends, and abstract
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical rigor as presented in the provided materials
+- **Shared manuscript claim summary** The authors propose that RAP1, in complex with TRF2, directly inhibits the end joining function of DNA-PK at telomeres by preventing LIG4 recruitment, thereby protecting chromosome ends from cNHEJ. This mechanism is proposed to operate in parallel with 3' overhang-dependent protection.
+- **Visible evidence base** Telomere FISH data in mouse and human cells, DNase I footprinting, EMSA, crosslinking assays, pulldown experiments, cryo-EM structure at 3.58 Å, XLMS, and complementation experiments with RAP1 mutants
+- **Missing materials affecting confidence** No source data files, no uncropped gel images, no full cryo-EM validation table (Table 3 referenced but not provided), no statistical details for FISH quantifications beyond ANOVA statements, no raw data for footprinting densitometry, no details on replicate numbers for several biochemical assays
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a long-standing question in telomere biology: how DNA-PK can bind telomeres without activating cNHEJ. The authors provide a compelling combination of genetics, biochemistry, and structural biology to support a model in which RAP1, recruited by TRF2, forms a complex with DNA-PK that blocks LIG4 recruitment. The cryo-EM structure is a significant technical achievement and provides mechanistic insight. However, several concerns regarding the strength of the in vivo evidence, the quantitative rigor of the biochemical assays, and the generalizability of the proposed mechanism need to be addressed before the conclusions are fully established.
+- **Who would be interested in the results, and why** Researchers in telomere biology, DNA repair, genome stability, and structural biology. The work provides a molecular mechanism for how a DNA repair complex is functionally repurposed at telomeres, which is of broad interest to those studying pathway choice in double-strand break repair and chromosome end protection.
+- **Major strengths** 1) The combination of in vivo genetics and in vitro biochemistry to address a physiologically relevant question. 2) The cryo-EM structure provides a high-resolution view of the RAP1-KU interaction and its positioning on DNA, which is novel. 3) The use of complementation assays with specific mutants (RAP1 KR/DE, RAP1 R130E) to link structural observations to function. 4) The demonstration of redundancy between RAP1 and Apollo pathways in both mouse and human cells strengthens the biological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for in vivo claims
+  - **Claim pointer** "RAP1 and Apollo redundantly prevent cNHEJ at telomeres in mouse and human cells" and "telomeres are protected from cNHEJ by two equally effective and parallel pathways: 3' overhangs and the presence of RAP1"
+  - **Evidence pointer** Figure 1, Figure S1
+  - **Concern** The FISH data in Figure 1 show that RAP1 deletion alone does not cause fusions, and Apollo deletion alone causes only a small number of fusions, but the double deletion causes ~15% fusions. The claim of "equally effective" pathways is not well supported by the data as presented. The quantification appears to show that Apollo loss is more potent than RAP1 loss in some contexts. Furthermore, the statistical analysis is only described as "ordinary One-way ANOVA" without specifying the multiple comparisons performed, the exact p-values, or the number of independent experiments for each condition. The representative images are not sufficient to assess the robustness of the phenotype. The authors need to provide a more detailed statistical breakdown and clarify whether the pathways are truly additive or synergistic.
+  - **Why it matters** The central in vivo conclusion of the paper rests on this genetic data. If the pathways are not truly "equally effective," the model of two parallel protective mechanisms needs to be revised. The lack of detailed statistics prevents the reader from assessing the strength of the claim.
+  - **Resolution test** Provide full statistical details including all pairwise comparisons, effect sizes, and confidence intervals. Show that the fusion frequency in the double knockout is significantly greater than the sum of the individual knockouts, or revise the claim to reflect the actual contributions of each pathway. Include data from additional independent experiments to confirm the reproducibility of the phenotype.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic link between in vitro and in vivo data
+  - **Claim pointer** "RAP1 that is unable to form a complex with DNA-PK and block LIG4 recruitment could not protect telomeres from cNHEJ"
+  - **Evidence pointer** Figure 5e, 5f, Figure S8
+  - **Concern** The complementation experiments in Figure 5e and 5f show that RAP1 KR/DE and RAP1 R130E fail to rescue the fusion phenotype in Rap1/Apollo double knockout cells. However, the authors do not demonstrate that these mutants are expressed at levels comparable to wild-type RAP1 in the complemented cells. The immunoblots in Figure S8a and S8e show expression, but no quantification is provided. If the mutants are expressed at lower levels, the failure to rescue could be due to insufficient protein rather than a specific defect in DNA-PK binding. Additionally, the authors do not show that the mutants are properly localized to telomeres in these cells. Without these controls, the conclusion that the specific protein-protein interactions are required for telomere protection is not fully established.
+  - **Why it matters** The paper aims to establish a direct mechanistic link between the structural data and the in vivo function. If the mutants are unstable or mislocalized, the phenotypic result cannot be attributed to the loss of the specific interaction.
+  - **Resolution test** Quantify mutant protein expression levels relative to wild-type in complemented cells. Perform telomere localization studies (e.g., ChIP or immuno-FISH) for the mutant proteins. If expression or localization is affected, use alternative approaches such as overexpression of the mutant at higher levels or use of a different expression system to achieve comparable levels.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation
+  - **Claim pointer** "RAP1 establishes a network of interactions with KU and DNA that prevents DNA-PK from recruiting LIG4"
+  - **Evidence pointer** Figure 4, Figure S3-S6
+  - **Concern** The cryo-EM structure is reported at 3.58 Å overall, with local refinements at 3.32 Å and 3.40 Å. The authors model the RAP1 myb domain, the KU70 SAP domain, and the RAP1 BRCT domain. However, the manuscript does not provide a detailed validation table (Table 3 is referenced but not shown) including map-to-model FSC curves, CCmask, or MolProbity scores. The local resolution of the RAP1 and SAP domains is not discussed. Given that the RAP1 myb domain is proposed to bind DNA in a sequence-specific manner, the authors should provide evidence that the DNA in the structure is indeed telomeric and that the myb-DNA interaction is not an artifact of the high protein concentration used. The claim that the RAP1 BRCT domain "occludes" the LIG4 binding site is based on an overlay with a previously published structure; the authors should provide a more quantitative analysis of the steric clash.
+  - **Why it matters** The structural model is a key part of the paper's mechanistic claim. If the local resolution in the RAP1 and SAP regions is poor, the interpretation of the interactions may be over-stated. The occlusion model needs to be more rigorously supported.
+  - **Resolution test** Provide the full cryo-EM validation table and local resolution maps. Show that the DNA in the structure is telomeric (e.g., by sequence assignment). Provide a more detailed analysis of the steric clash between RAP1 BRCT and LIG4 BRCT, including a calculation of the overlap volume or distance between key residues.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of the proposed mechanism
+  - **Claim pointer** "the end joining function of DNA-PK is directly and specifically repressed at telomeres"
+  - **Evidence pointer** Figure 2, Figure 5
+  - **Concern** The authors show that RAP1 and TRF2 together block LIG4 recruitment in a pulldown assay. However, the manuscript does not address whether this inhibition is specific to telomeric DNA or whether it would also occur on non-telomeric DNA if RAP1 were artificially recruited. The footprinting data show that the extended footprint is only observed on telomeric DNA, which is consistent with TRF2-dependent recruitment. However, the pulldown assay in Figure 5b uses a short DNA template that may not fully recapitulate the telomeric context. The authors should test whether the inhibition of LIG4 recruitment requires the telomeric sequence or whether it is simply a consequence of RAP1 being in close proximity to DNA-PK.
+  - **Why it matters** The claim of specificity is important for the broader implications of the work. If the mechanism is not specific to telomeres, it would have implications for DNA repair pathway choice at other genomic locations.
+  - **Resolution test** Perform the pulldown assay with non-telomeric DNA and a RAP1 variant that can bind DNA independently of TRF2 (e.g., the Teb1-RAP1 fusion). If inhibition of LIG4 recruitment is observed, it would suggest that the mechanism is not telomere-specific. Alternatively, the authors could use a competitive binding assay to show that telomeric DNA is required for the inhibitory complex to form.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract states that DNA-PK "can also bind telomeres and regulate their resection" but does not initiate cNHEJ. The introduction could be clearer about the distinction between the kinase activity of DNA-PK (required for resection) and its scaffolding function (required for cNHEJ). This distinction is important for understanding the proposed mechanism.
+  - **Required correction** Clarify in the introduction that DNA-PK has separable functions: its kinase activity is required for end processing, while its scaffolding function recruits downstream ligation factors. The proposed mechanism specifically targets the latter.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1a-c
+  - **Issue** The FISH images in Figure 1 are representative, but the quantification in panels b and c is presented as a percentage of telomeres involved in fusions. It would be helpful to also show the distribution of fusions per metaphase, as this can be more informative for assessing the severity of the phenotype.
+  - **Required correction** Consider adding a panel showing the number of fusions per metaphase as a dot plot, in addition to the percentage of telomeres involved.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, Crosslinking
+  - **Evidence pointer** Methods, Crosslinking section
+  - **Issue** The crosslinking experiments use DSSO, but the manuscript does not specify the concentration of DSSO used or the reaction time. This information is important for reproducibility.
+  - **Required correction** Add the DSSO concentration and reaction time to the Methods section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of structural data
+  - **Affected element** Figure 4h
+  - **Evidence pointer** Figure 4h
+  - **Issue** The overlay of the RAP1 BRCT domain with the LIG4 BRCT domain bound to KU is compelling, but the figure would benefit from a more detailed view showing the key residues involved in the steric clash.
+  - **Required correction** Add an inset or supplementary figure showing a zoomed view of the clash interface with key residues labeled.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Conservation analysis
+  - **Affected element** Figure S9
+  - **Evidence pointer** Figure S9
+  - **Issue** The conservation analysis shows that the basic patch in RAP1 is conserved across metazoans, but the authors do not discuss the functional significance of this conservation in the context of the proposed mechanism.
+  - **Required correction** Add a sentence in the Discussion noting that the conservation of the basic patch suggests that this mechanism is likely to be broadly relevant across metazoans.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of detailed statistical reporting for FISH data (R1-M1). 2) Lack of expression level and localization controls for complementation experiments (R1-M2). 3) Incomplete cryo-EM validation data (R1-M3). 4) The specificity of the mechanism to telomeres is not fully tested (R1-M4).
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The manuscript provides a novel mechanism for how DNA-PK is inhibited at telomeres, which has not been previously described. The cryo-EM structure of the RAP1-KU-DNA complex is a new contribution.
+  - **Scientific importance** High. The work addresses a fundamental question in chromosome biology and has implications for understanding genome stability and cancer. The finding that RAP1 directly inhibits LIG4 recruitment provides a new paradigm for how DNA repair is regulated at telomeres.
+  - **Interdisciplinary readership** Moderate to high. The work will be of interest to researchers in telomere biology, DNA repair, structural biology, and cell biology. The combination of techniques makes it accessible to a broad audience.
+  - **Technical soundness** Generally strong, but with some gaps. The biochemical and structural work is rigorous, but the in vivo data lack the statistical detail needed to fully support the claims. The complementation experiments need additional controls.
+  - **Readability for nonspecialists** Good. The manuscript is well-written and the figures are clear. The abstract and introduction provide sufficient context for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is novel and important, and the structural data are compelling. However, the in vivo evidence needs to be strengthened with more detailed statistics and additional controls to fully support the claim that RAP1 and Apollo are equally effective parallel pathways. The specificity of the mechanism also needs to be more rigorously tested.
+
+## Risk / unsupported claims
+- The claim that RAP1 and Apollo are "equally effective" parallel pathways is not fully supported by the data as presented, as the fusion frequencies in single knockouts appear to differ.
+- The claim that the RAP1 BRCT domain "occludes" the LIG4 binding site is based on an overlay and is not quantitatively supported.
+- The claim that the mechanism is "specific" to telomeres is not directly tested; the authors do not show that RAP1 cannot inhibit LIG4 recruitment on non-telomeric DNA when artificially recruited.
+- The statement that the cryo-EM structure shows the "inactive" conformation of DNA-PK is based on comparison with previous structures, but the functional significance of this conformation in the context of the proposed mechanism is not fully discussed.

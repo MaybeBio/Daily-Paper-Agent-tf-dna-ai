@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary figure/table references
+- **Assessment boundary** Scientific validity, technical soundness, and interpretation of the reported findings; no assessment of editorial fit or journal policy
+- **Shared manuscript claim summary** The authors report a novel heterozygous STAT1 variant (c.2120T>C, p.Ile707Thr) in three family members with Mycobacterium marinum infection presenting as osteolytic lesions and cutaneous granulomas. They provide in vitro evidence for reduced phosphorylation, impaired nuclear translocation, and decreased transcriptional activity of the mutant protein, and use AlphaFold3-based structural analysis to support a loss-of-function mechanism.
+- **Visible evidence base** Clinical descriptions (Table 1, Figure 1), Sanger sequencing and co-segregation data (Figure 1H–J), AlphaFold3 structural predictions (Figure 2), Western blotting (Figure 3A), immunofluorescence (Figure 3B), luciferase reporter assay (Figure 3C), and supplementary figures S1 and S2
+- **Missing materials affecting confidence** Raw Western blot images, quantification of Western blot replicates, statistical details for the luciferase assay (number of independent experiments, error bars, exact p-values), full pedigree information, pathogen detection results for II-2 and II-3, and the supplementary figures and tables referenced but not provided in the manuscript text
+
+## Reviewer
+- **Overall assessment** This manuscript describes a potentially novel STAT1 variant associated with MSMD and provides a reasonable set of in vitro experiments to support a loss-of-function effect. The clinical presentation is well documented, and the identification of Mycobacterium marinum in one patient adds interest. However, several technical and interpretive issues need to be addressed. The functional evidence is largely qualitative, with no quantification of Western blot or immunofluorescence data. The structural analysis relies on AlphaFold3 predictions without experimental validation. The claim that this variant causes MSMD is plausible but not fully established from the provided evidence, particularly given the lack of direct pathogen identification in two of the three patients and the absence of functional studies in patient-derived cells.
+- **Who would be interested in the results, and why** Clinicians and researchers in the fields of primary immunodeficiency, MSMD genetics, and IFN-γ signaling would find this report relevant. The identification of a new STAT1 variant expands the allelic spectrum and may inform genetic diagnosis. The association with Mycobacterium marinum, an uncommon pathogen in MSMD, may also interest infectious disease specialists. However, the incremental advance over existing knowledge is modest.
+- **Major strengths** The clinical characterization of three affected family members is thorough, including imaging, histopathology, and treatment response. The co-segregation of the variant with the phenotype in the family is clearly demonstrated. The in vitro experiments address multiple steps of STAT1 function (phosphorylation, nuclear translocation, transcriptional activity) and collectively support a loss-of-function effect. The use of AlphaFold3 for structural prediction is a modern approach, and the comparison with a known LOF variant (Leu706Ser) is informative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the STAT1-Ile707Thr variant exhibits reduced phosphorylation compared to wild-type STAT1.
+  - **Evidence pointer** Figure 3A, Western blotting section
+  - **Concern** The Western blot data are presented as a single representative image without quantification. No information is provided on the number of independent biological or technical replicates, nor on how band intensities were normalized. The claim of "significant reduction" in phosphorylation is not supported by statistical analysis. Without quantitative data, it is not possible to assess the magnitude or reproducibility of the observed difference.
+  - **Why it matters** The reduced phosphorylation is a central piece of evidence for the loss-of-function claim. If this finding is not robustly quantified and replicated, the functional conclusion is weakened.
+  - **Resolution test** Provide quantification of at least three independent Western blot experiments, with normalization to total STAT1 or a loading control, and report statistical analysis (e.g., mean ± SD, p-value). Alternatively, provide densitometry data in a supplementary figure.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the STAT1-Ile707Thr variant shows impaired nuclear translocation compared to wild-type STAT1.
+  - **Evidence pointer** Figure 3B, Immunofluorescence section
+  - **Concern** The immunofluorescence data are presented as representative images without quantification. No criteria for assessing nuclear localization are described, and no statistical comparison is provided. The statement that "the distribution of STAT1-Ile707Thr showed no discernible difference" before and after stimulation is subjective. Additionally, the use of a FLAG antibody rather than an endogenous STAT1 antibody may not fully reflect the behavior of the endogenous protein.
+  - **Why it matters** Nuclear translocation is a key step in STAT1 signaling, and the claim of impaired translocation is used to support the loss-of-function mechanism. Subjective interpretation of images is insufficient to establish this claim.
+  - **Resolution test** Quantify nuclear versus cytoplasmic fluorescence intensity in a defined number of cells across at least three independent experiments, with statistical analysis. Consider using an endogenous STAT1 antibody or validating the FLAG-tagged results in a relevant cell line.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that the STAT1-Ile707Thr variant causes Mendelian susceptibility to mycobacterial disease in the three reported patients.
+  - **Evidence pointer** Clinical descriptions, genetic analysis, and functional studies
+  - **Concern** Mycobacterium marinum was directly detected only in patient I-1. For II-2 and II-3, the diagnosis of mycobacterial infection is inferred from clinical presentation and response to antimycobacterial therapy, but no direct pathogen identification is provided. The authors acknowledge this limitation but still include these patients as confirmed MSMD cases. Additionally, the functional studies were performed in a heterologous overexpression system (HEK293T), not in patient-derived cells, which limits the direct relevance to the patients' pathophysiology.
+  - **Why it matters** The central claim that this variant causes MSMD in all three patients requires that the diagnosis of mycobacterial disease be confirmed in each case. The lack of direct pathogen evidence in two patients weakens the genotype-phenotype correlation.
+  - **Resolution test** Provide additional evidence of mycobacterial infection in II-2 and II-3, such as PCR or culture from affected tissues, or clearly state the diagnostic criteria used. Consider performing functional studies in patient-derived cells (e.g., EBV-transformed B cells or fibroblasts) to strengthen the causal link.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that AlphaFold3-based structural analysis supports a loss-of-function effect of the STAT1-Ile707Thr variant.
+  - **Evidence pointer** Figure 2, Modeling and prediction section
+  - **Concern** The structural analysis is based entirely on computational predictions from AlphaFold3. While this is a useful tool, the interpretation that "excessive hydrogen bonds may disrupt the native hydrophobic environment" is speculative. No experimental validation (e.g., mutagenesis, biophysical analysis) is provided to confirm the predicted structural changes. The cluster analysis comparing the variant to Leu706Ser is descriptive and lacks quantitative metrics.
+  - **Why it matters** The structural argument is used to provide a mechanistic explanation for the functional defect. If the structural predictions are not validated, this part of the discussion remains speculative and does not add strong support to the loss-of-function claim.
+  - **Resolution test** Provide quantitative metrics from the cluster analysis (e.g., number of contacts, interaction energies) and discuss the limitations of AlphaFold3 predictions. If possible, validate key predictions experimentally, or temper the claims accordingly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion section, first paragraph
+  - **Evidence pointer** Discussion, paragraph 1
+  - **Issue** The variant is referred to as "p.Ile22Thr" in the Discussion, which appears to be a typographical error, as the correct notation is p.Ile707Thr.
+  - **Required correction** Correct the amino acid position to p.Ile707Thr throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Luciferase reporter assay
+  - **Evidence pointer** Luciferase reporter assay section, Figure 3C
+  - **Issue** The number of independent experiments and the statistical test used for the luciferase assay are not reported. The figure legend states "analyzed using ANOVA" but does not specify the number of replicates or the post-hoc test.
+  - **Required correction** Provide the number of independent experiments, the number of technical replicates, and the specific statistical test and post-hoc comparison used. Report exact p-values or confidence intervals.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Supplementary materials
+  - **Evidence pointer** Supplementary Figure S1, S2, Table S1
+  - **Issue** The supplementary figures and table are referenced but not included in the manuscript text provided for review. It is not possible to assess their content.
+  - **Required correction** Ensure that all supplementary materials are provided for review and that they are appropriately described in the main text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph on transmission
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The hypothesis of person-to-person transmission of Mycobacterium marinum among the three patients is speculative. While the authors acknowledge this, the discussion could be more balanced by noting that a common environmental source cannot be excluded.
+  - **Required correction** Revise the discussion to more clearly weigh the possibility of a shared environmental exposure against person-to-person transmission, given the lack of direct evidence for the latter.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability statement
+  - **Issue** The statement "WES data is available upon request" is vague and does not specify the conditions or repository.
+  - **Required correction** Provide a more detailed data availability statement, including whether data will be deposited in a public repository and under what accession number, or specify the contact for data requests.
+
+## Risk / unsupported claims
+- The claim that the STAT1-Ile707Thr variant causes MSDM in all three patients is not fully supported, as Mycobacterium marinum was only directly detected in one patient.
+- The claim of "significant reduction" in STAT1 phosphorylation is unsupported by quantitative data or statistical analysis.
+- The claim of impaired nuclear translocation is based on subjective interpretation of representative images without quantification.
+- The structural interpretation from AlphaFold3 predictions is speculative and not experimentally validated.
+- The hypothesis of person-to-person transmission of Mycobacterium marinum is speculative and not supported by direct evidence.
+- The statement that the variant is "absent in all known public databases" is not verifiable from the provided material, as the specific databases and search parameters are not described.

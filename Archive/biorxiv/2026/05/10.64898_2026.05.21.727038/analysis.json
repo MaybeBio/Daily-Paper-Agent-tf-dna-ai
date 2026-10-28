@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.05.21.727038",
+  "title": "Evaluation of Active Learning Selection Strategies and Characterization of Informative Sequences for Sequence-to-Expression Models",
+  "authors": "Qian J; Rafi AM; Cazottes E; de Boer CG",
+  "journal": "bioRxiv",
+  "published_date": "2026-05-26",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用主动学习策略提升序列-表达模型的数据效率，虽涉及转录因子结合位点富集分析，但核心是序列-表达预测而非TF-DNA互作建模，方法可迁移但对象和互作轴偏弱。",
+  "abstract": "DNA sequence-to-expression models have advanced rapidly, yet they still generalize poorly beyond their training distribution, limiting their use for tasks such as variant effect prediction. Active learning has improved data efficiency across many machine learning domains, but no large-scale study has benchmarked selection strategies for sequence-to-expression models using real experimental data or characterized the sequences they select. We benchmarked six active learning strategies across diverse model architectures, datasets, and configurations. All strategies outperformed random sampling, with uncertainty-based methods performing best. Most of the gains achievable through many small acquisition rounds could be matched with fewer, larger rounds, making lab-in-the-loop workflows experimentally practical. Different strategies selected substantially overlapping sets of sequences that occupied distinct regions of sequence space and were enriched for higher expression, specific dinucleotide compositions, and denser transcription factor binding sites. Nevertheless, active learning consistently outperformed selection based on these biological properties alone, indicating that informativeness is not fully captured by any single feature. Together, our results establish active learning as a critical tool for improving sequence-to-expression models, identify biological signatures of informative sequences, and lay the foundation for iterative lab-in-the-loop refinement.",
+  "abstract_zh": "DNA序列到表达模型（sequence-to-expression models）已取得快速进展，但其在训练分布之外的泛化能力仍然较差，限制了其在变异效应预测等任务中的应用。主动学习（active learning）已在许多机器学习领域提升了数据效率，但尚无大规模研究使用真实实验数据对序列到表达模型的选择策略进行基准测试，或表征其选择的序列特征。我们在多种模型架构、数据集和配置下，对六种主动学习策略进行了基准测试。所有策略均优于随机采样，其中基于不确定性的方法表现最佳。通过多次小规模采集轮次所能获得的大部分收益，可通过较少但更大规模的轮次实现，从而使实验室在环（lab-in-the-loop）工作流程在实验上切实可行。不同策略选择的序列集合高度重叠，这些序列占据序列空间的不同区域，并富集于更高表达、特定二核苷酸组成和更密集的转录因子结合位点。然而，主动学习始终优于仅基于这些生物学属性的选择，表明信息量无法被任何单一特征完全捕捉。综合来看，我们的结果确立了主动学习作为改进序列到表达模型的关键工具，识别了信息性序列的生物学特征，并为迭代式实验室在环优化奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.05.21.727038",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.21.727038",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.05.21.727038/index.html"
+}

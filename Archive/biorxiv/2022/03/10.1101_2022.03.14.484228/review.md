@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract; no full text, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a mechanistic model in which the NUT acidic transcriptional activation domain binds the TAZ2 domain of p300, relieving autoinhibition and allosterically activating p300; this activation drives a self-organizing, acetylation-dependent feed-forward reaction that enables long-range chromatin interactions via bromodomain multivalent acetyl-lysine binding, with implications for chromatin organisation and disease
+- **Visible evidence base** NMR structural data (referenced but not shown), mutagenesis data (referenced but not shown), functional assays for acetylation and chromatin interactions (referenced but not shown)
+- **Missing materials affecting confidence** Full text, all figures, NMR spectra and assignments, mutagenesis details, quantitative data on acetylation and interaction assays, statistical analyses, and any controls
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic link between p300 autoinhibition, NUT-driven activation, and acetylation-dependent genome organisation. However, the claims are broad and the evidence base is not visible from the abstract alone. The central model is plausible but currently not established from the supplied material. The manuscript may be of interest to the chromatin biology and structural biology communities, but the abstract does not provide sufficient detail to assess technical soundness or the strength of the causal chain proposed.
+- **Who would be interested in the results, and why** Researchers studying chromatin regulation, histone acetylation, bromodomain function, p300/CBP biology, and oncogenic fusion proteins such as BRD4-NUT. The proposed feed-forward mechanism for long-range chromatin interactions would also interest those working on genome organisation and gene regulation.
+- **Major strengths** The abstract identifies a clear and testable mechanistic hypothesis linking a specific protein-protein interaction to p300 activation and downstream chromatin organisation. The use of NMR to investigate the TAZ2-NUT complex is appropriate for structural characterisation. The connection to cancer-associated mutations provides potential disease relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that NUT-TAZ2 interaction or cancer mutations allosterically activate p300
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that NUT-TAZ2 interaction or mutations found in cancer interfere with autoinhibition by TAZ2 and allosterically activate p300, but no quantitative data, controls, or mechanistic details are provided. It is unclear how activation was measured, whether the effect is direct, and whether the mutations are functionally validated in relevant cellular contexts.
+  - **Why it matters** Allosteric activation of p300 is a central claim that underpins the entire feed-forward model. Without visible evidence, the claim cannot be evaluated, and the model lacks a solid foundation.
+  - **Resolution test** Provide dose-response and kinetic data for p300 activity in the presence of NUT-TAZ2 or mutant TAZ2, with appropriate controls, and show that the effect is specific to the proposed interaction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The claim that p300 activation results in a self-organizing, acetylation-dependent feed-forward reaction that enables long-range interactions by bromodomain multivalent acetyl-lysine binding
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract asserts a causal chain from p300 activation to long-range chromatin interactions via bromodomain multivalent binding, but no experimental evidence is shown to support this sequence. It is unclear whether the feed-forward reaction is directly demonstrated or inferred, and whether the long-range interactions are measured in cells or in vitro.
+  - **Why it matters** This is the central claim of the manuscript and the basis for the proposed implications for genome organisation. Without direct evidence linking each step, the model remains speculative.
+  - **Resolution test** Show that p300 activation is necessary and sufficient for the observed long-range interactions, that acetylation is required, and that bromodomain multivalent binding is the mediating mechanism, using loss- and gain-of-function experiments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural evidence
+  - **Claim pointer** The claim that NMR was used to investigate the structure of the NUT-TAZ2 complex and that TAZ2 has an autoinhibitory role
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract mentions NMR but provides no details on the structure, such as the resolution of the complex, the binding interface, or how the autoinhibitory role is inferred from the structural data. The link between the structural observations and the functional claims is not visible.
+  - **Why it matters** The structural data are the foundation for the proposed mechanism. Without details, the reader cannot assess whether the structural interpretation is justified or whether the autoinhibitory model is supported.
+  - **Resolution test** Provide structural figures, key intermolecular contacts, and a clear description of how the autoinhibitory conformation is defined and how NUT binding or mutations disrupt it.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "self-organizing, acetylation-dependent feed-forward reaction" is used without definition or context, which may confuse readers unfamiliar with the specific model.
+  - **Required correction** Define the term clearly and briefly explain the proposed reaction mechanism in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Author list
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The author "Reynoird N" appears twice in the author list, which may be a typographical error.
+  - **Required correction** Verify and correct the author list.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Discussion
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that implications for chromatin organisation, gene regulation, and disease are discussed, but no specific implications are mentioned.
+  - **Required correction** Provide at least one concrete example of the proposed implications to strengthen the abstract.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The proposed feed-forward mechanism linking p300 autoinhibition to long-range chromatin interactions is potentially original, but the abstract does not provide enough context to assess novelty relative to existing literature. Scientific importance: The topic is of high importance in chromatin biology and cancer research, but the significance of the findings cannot be fully evaluated without evidence. Interdisciplinary readership: The work may appeal to structural biologists, chromatin biologists, and cancer researchers, but the abstract is too technical for a broad audience. Technical soundness: Not assessable from the abstract alone; the NMR and functional data are not shown. Readability for nonspecialists: The abstract is dense and uses specialised terminology without sufficient explanation, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible model, but the central claims are not supported by visible data. A full review of the manuscript with all figures and methods would be required to determine whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that NUT-TAZ2 interaction or cancer mutations allosterically activate p300 is unsupported in the abstract.
+- The claim that p300 activation drives a self-organizing, acetylation-dependent feed-forward reaction enabling long-range interactions is unsupported.
+- The claim that bromodomain multivalent acetyl-lysine binding mediates the long-range interactions is unsupported.
+- The structural interpretation of TAZ2 autoinhibition is not assessable from the abstract.
+- The implications for chromatin organisation, gene regulation, and disease are stated but not substantiated.

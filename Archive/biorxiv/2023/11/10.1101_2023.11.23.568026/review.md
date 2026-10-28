@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends not provided)
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and computational modeling as presented in the provided text
+- **Shared manuscript claim summary** The authors propose that Ki-67 switches from a chromosome repellent to an attractant during mitotic exit via dephosphorylation-induced, RNA-dependent liquid-liquid phase separation, generating adhesive forces that drive chromosome clustering.
+- **Visible evidence base** Results sections describing live-cell imaging, protein engineering, FRAP, RNA-FISH, and coarse-grained simulations; figures referenced but not viewable
+- **Missing materials affecting confidence** Figure panels, supplementary figures, videos, detailed statistical analyses, raw data, and full methods for some experiments
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and timely hypothesis that Ki-67 undergoes a functional switch from a surfactant-like repellent to a liquid-like adhesive coat during mitotic exit, driven by dephosphorylation and RNA-dependent phase separation. The combination of quantitative cell biology and coarse-grained simulations is innovative and mutually reinforcing. However, the absence of key experimental controls, quantitative rigor in image analysis, and direct evidence for the proposed physical mechanism limits the current strength of the conclusions. The work is of high interest to the cell division and phase separation communities, but several technical concerns must be resolved before the case is fully established.
+- **Who would be interested in the results, and why** Cell biologists studying mitosis, chromosome organization, and nuclear assembly; biophysicists interested in phase separation and mechanical forces in living systems; researchers working on protein-RNA interactions and condensate biology. The proposed mechanism linking post-translational modification to physical property changes and mechanical function is broadly relevant.
+- **Major strengths** 1) The study addresses a long-standing question about how Ki-67 achieves opposing functions during mitosis. 2) The combination of quantitative live-cell imaging, protein engineering, and coarse-grained simulations provides complementary evidence. 3) The identification of a specific phospho-switch and a conserved basic patch as key regulatory elements is mechanistically plausible and testable. 4) The simulations offer a physical framework that connects molecular properties to cellular outcomes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence
+  - **Claim pointer** The authors claim that Ki-67 dephosphorylation during mitotic exit induces RNA-dependent formation of a liquid-like condensed phase on the chromosome surface.
+  - **Evidence pointer** Figures 1, 2, 6; location not provided
+  - **Concern** The evidence for liquid-like properties of the Ki-67 coat is primarily based on FRAP recovery and fusion events. However, the manuscript does not provide quantitative FRAP data (e.g., mobile fraction, recovery half-time) or controls for photobleaching artifacts. The fusion and deformation experiments (Figure 1I, 1J) are qualitative and lack statistical analysis across multiple cells or independent experiments.
+  - **Why it matters** The central claim of a liquid-like phase requires rigorous demonstration of liquid properties, including quantitative dynamics, viscosity estimates, and comparison to solid-like or gel-like states. Without these, alternative explanations (e.g., gelation, aggregation) cannot be excluded.
+  - **Resolution test** Provide quantitative FRAP curves with mobile fractions and recovery times for multiple independent experiments. Include statistical comparisons between conditions (e.g., wild-type vs. phosphomimetic). Quantify fusion events and relaxation times with error bars and sample sizes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic causality
+  - **Claim pointer** The authors claim that the basic patch and RNA interaction are necessary and sufficient for phase separation and chromosome clustering.
+  - **Evidence pointer** Figures 3, 4, 6; location not provided
+  - **Concern** The experiments with basic patch mutations (CP(RK→A)) and deletions (ΔCP-strict) show loss of clustering, but the manuscript does not demonstrate that these mutations specifically disrupt RNA binding without affecting other functions. No direct RNA-binding assays (e.g., electrophoretic mobility shift, RNA pull-down) are presented. The specificity of RNA involvement is inferred from RNase treatments, but the extent of RNA depletion and potential off-target effects are not quantified.
+  - **Why it matters** The proposed mechanism hinges on RNA as a critical co-factor. Without direct evidence of RNA binding to the basic patch and its necessity for phase separation, the model remains correlative.
+  - **Resolution test** Perform in vitro or in cellulo RNA-binding assays with wild-type and mutant Ki-67 constructs. Quantify RNA levels after RNase treatment. Test whether RNA addition can rescue phase separation in vitro with purified components.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors claim that Ki-67 concentration on chromosomes increases from ~500 nM in metaphase to 750 nM in anaphase.
+  - **Evidence pointer** Figures S1D–S1I; location not provided
+  - **Concern** The FCS-calibrated imaging method is described briefly, but calibration details, error estimates, and the number of cells analyzed are not provided. The difference between 500 nM and 750 nM may be within experimental variability, and the functional significance of this 1.5-fold change is not discussed.
+  - **Why it matters** The concentration increase is used to support the model that Ki-67 enrichment drives phase separation. If the change is not statistically robust, the argument weakens.
+  - **Resolution test** Provide full FCS calibration details, including error propagation, number of replicates, and statistical tests. Discuss whether the observed concentration change is sufficient to trigger phase separation based on known critical concentrations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation-experiment alignment
+  - **Claim pointer** The coarse-grained simulations support the model that dephosphorylation and RNA drive attractive forces between chromosomes.
+  - **Evidence pointer** Figure 7; location not provided
+  - **Concern** The simulations use a highly simplified model with parameters that are not directly measured from experiments. The mapping between simulation units and experimental units (e.g., σ = 16 nm) relies on assumptions about brush height. The manuscript does not discuss parameter sensitivity or whether the conclusions hold across a range of plausible parameter values.
+  - **Why it matters** The simulations are used to validate the physical mechanism, but if the results are sensitive to arbitrary parameter choices, their predictive power is limited.
+  - **Resolution test** Perform parameter sweeps (e.g., charge density, RNA concentration, grafting density) and show that the qualitative conclusions are robust. Provide a sensitivity analysis and discuss the limitations of the coarse-grained approach.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The phrase "network-like manner" is vague and could be more specific about the known architecture of mitotic chromosomes.
+  - **Required correction** Provide a more precise description or cite specific structural models.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Methods, cell lines
+  - **Evidence pointer** Methods, "Cell lines and cell culture"
+  - **Issue** The source of the Ki-67 knockout cell line is not explicitly stated, only that it is derived from HeLa Kyoto.
+  - **Required correction** Clarify the origin and validation of the knockout cell line.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, Figure 1
+  - **Evidence pointer** Figure 1; location not provided
+  - **Issue** The increase in Ki-67 signal on chromosomes is shown, but it is unclear whether this reflects increased protein loading or changes in accessibility/epitope exposure.
+  - **Required correction** Discuss this possibility or provide controls (e.g., western blot of chromosome-bound fractions).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The comparison to capillary forces is interesting but not quantitatively developed.
+  - **Required correction** Provide a more quantitative discussion of how capillary forces could arise from the condensed phase and whether the estimated forces are consistent with observed chromosome movements.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (liquid-like evidence), R1-M2 (RNA binding causality), R1-M3 (quantitative concentration data)
+- **Assessment against Nature-style criteria** Originality: High. The study proposes a novel mechanistic switch for Ki-67 function, linking post-translational modification to phase separation and mechanical force generation. Scientific importance: High. The findings have implications for understanding chromosome segregation, nuclear assembly, and the general role of phase separation in cellular mechanics. Interdisciplinary readership: Broad. The work bridges cell biology, biophysics, and computational modeling, appealing to a wide audience. Technical soundness: Moderate. The experimental and computational approaches are appropriate, but key controls and quantitative details are missing. Readability for nonspecialists: Good. The manuscript is clearly written, with a logical flow from observation to mechanism, though some simulation details may be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is compelling and the approach is innovative, but the current evidence does not fully establish the liquid-like nature of the Ki-67 coat, the direct role of RNA, or the quantitative significance of the concentration changes. Addressing these concerns would substantially strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim that Ki-67 forms a liquid-like phase is not fully supported without quantitative FRAP and fusion data.
+- The claim that RNA is critical for phase separation is inferred from indirect experiments; direct RNA-binding evidence is missing.
+- The claim that the basic patch is the key RNA-interacting region is not directly tested.
+- The claim that phase separation generates sufficient forces for chromosome clustering is supported by simulations but lacks direct experimental force measurements.
+- The concentration increase from 500 nM to 750 nM is presented without statistical validation or discussion of its functional relevance.

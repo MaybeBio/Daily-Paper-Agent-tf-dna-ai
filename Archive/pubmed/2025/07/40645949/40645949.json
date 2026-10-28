@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "pmid": "40645949",
+    "doi": "10.1038/s41398-025-03452-x",
+    "title": "Integrative analysis identifies IL-6/JUN/MMP-9 pathway destroyed blood-brain-barrier in autism mice via machine learning and bioinformatic analysis."
+  },
+  "content": {
+    "abstract": "Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition characterized by social communication deficits and restricted, repetitive behaviors. Growing evidence implicates neuroinflammation-induced blood-brain barrier (BBB) dysfunction as a key pathogenic mechanism in ASD, although the underlying molecular pathways remain poorly understood. This study aimed to identify critical genes linking BBB function and neuroinflammatory activation, with the ultimate goal of evaluating potential therapeutic targets. Through integrative analysis combining differential gene expression profiling with three machine learning algorithms - Least Absolute Shrinkage and Selection Operator (LASSO) regression, Support Vector Machine Recursive Feature Elimination (SVM-RFE), and RandomForest combined with eXtreme Gradient Boosting (XGBoost) - we identified four hub genes, with JUN emerging as a core regulator. JUN demonstrated strong associations with both BBB integrity and microglial activation in ASD pathogenesis. Using a maternal immune activation (MIA) mouse model of ASD, we observed significant downregulation of cortical tight junction proteins ZO-1 and occludin, confirmed through immunofluorescence and qPCR analysis. Bioinformatics analysis revealed a close correlation between JUN and IL-6/MMP-9 signaling in ASD-associated microglial activation. These findings were validated in vivo, with immunofluorescence and qPCR demonstrating elevated IL-6 and MMP-9 expression in ASD mice. Pharmacological intervention using ventricular JNK inhibitor administration effectively downregulated JUN and MMP-9 expression. In vitro studies using IL-6-stimulated BV-2 microglial cells replicated these findings, showing JNK inhibitor-mediated suppression of JUN and MMP-9 upregulation. These results collectively identify the IL-6/JUN/MMP-9 pathway as a specific mediator of barrier dysfunction in ASD, representing a promising target for personalized therapeutic interventions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Blood-Brain Barrier/metabolism",
+      "Mice",
+      "*Matrix Metalloproteinase 9/metabolism/genetics",
+      "*Machine Learning",
+      "*Interleukin-6/metabolism/genetics",
+      "Computational Biology",
+      "Disease Models, Animal",
+      "*Autism Spectrum Disorder/genetics/metabolism/immunology",
+      "Signal Transduction",
+      "*Proto-Oncogene Proteins c-jun/metabolism/genetics",
+      "Female",
+      "Microglia/metabolism",
+      "Male",
+      "Gene Expression Profiling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Cong",
+        "Li, Heli",
+        "Cui, Jinru",
+        "Li, Yunjie",
+        "Zhang, Feiyan",
+        "Li, Hao",
+        "Luo, Xiaoping",
+        "Hao, Yan"
+      ],
+      "short_names": [
+        "Hu C",
+        "Li H",
+        "Cui J",
+        "Li Y",
+        "Zhang F",
+        "Li H",
+        "Luo X",
+        "Hao Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8830-8189"
+      ],
+      "affiliations": [
+        "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
+        "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. haoyaner@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Cong",
+        "short_name": "Hu C",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Heli",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Jinru",
+        "short_name": "Cui J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yunjie",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Feiyan",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hao",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Xiaoping",
+        "short_name": "Luo X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Hao, Yan",
+        "short_name": "Hao Y",
+        "identifiers": [
+          "0000-0001-8830-8189"
+        ],
+        "affiliations": [
+          "Division of Child Healthcare, Department of Pediatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. haoyaner@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational psychiatry"
+    ],
+    "journal_abbrev": [
+      "Transl Psychiatry"
+    ],
+    "pub_date": "2025 Jul 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/12 16:44",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [
+      "42643552",
+      "42422896",
+      "41929599",
+      "41923025",
+      "41676058",
+      "41322697",
+      "41275316"
+    ],
+    "refs": [
+      "39426956",
+      "38942324",
+      "38896157",
+      "38839958",
+      "38781372",
+      "38398873",
+      "38203599",
+      "37964204",
+      "37939860",
+      "37925498",
+      "37525039",
+      "37105442",
+      "36952289",
+      "36952288",
+      "36584607",
+      "36494048",
+      "35766008",
+      "35655651",
+      "35513854",
+      "35436413",
+      "35353173",
+      "34804372",
+      "34768946",
+      "34450312",
+      "34113350",
+      "33517948",
+      "33316384",
+      "33200240",
+      "32998477",
+      "32823764",
+      "32374912",
+      "32350521",
+      "31911168",
+      "31479860",
+      "28902840",
+      "27957319",
+      "27540164",
+      "26822608",
+      "26558630",
+      "26525923",
+      "26103640",
+      "23008271",
+      "20345844",
+      "19455716",
+      "17913903",
+      "17608926"
+    ],
+    "similar": [
+      "40645949",
+      "39657846",
+      "40852845",
+      "27957319",
+      "41269411",
+      "35269933",
+      "39182588",
+      "19455716",
+      "41425587",
+      "34169527",
+      "38522317",
+      "40881681",
+      "31811815",
+      "40923924",
+      "38594551",
+      "41146237",
+      "16565381",
+      "22865631",
+      "27152411",
+      "40876124",
+      "41001132",
+      "28455196",
+      "21857898",
+      "41200172",
+      "40510335",
+      "39580060",
+      "39622390",
+      "20225236",
+      "41349941",
+      "40997906",
+      "29071384",
+      "39679379",
+      "40721173",
+      "41106101",
+      "38898502",
+      "22251375",
+      "38552922",
+      "40280042",
+      "27795859",
+      "39915488",
+      "40549067",
+      "36842752",
+      "37758861",
+      "40551643",
+      "40598145",
+      "19371443",
+      "30501622",
+      "20945380",
+      "41013556",
+      "34768946",
+      "36878967",
+      "39616855",
+      "40571121",
+      "19264129",
+      "28790012",
+      "38726016",
+      "38476236",
+      "25959200",
+      "37986345",
+      "41471147",
+      "41305834",
+      "40164687",
+      "30798536",
+      "23720741",
+      "30683682",
+      "40069859",
+      "33749115",
+      "34531475",
+      "36232346",
+      "35883654",
+      "38565042",
+      "40446580",
+      "40628340",
+      "18281687",
+      "39862324",
+      "39507054",
+      "39650552",
+      "26949123",
+      "38896157",
+      "40609608",
+      "31811869",
+      "39026250",
+      "39288732",
+      "40244194",
+      "40296690",
+      "33845422",
+      "28698032",
+      "40362543",
+      "28322282",
+      "40175518",
+      "40010548",
+      "39701684",
+      "39396400",
+      "39486173",
+      "36035135",
+      "31704787",
+      "41009500",
+      "24927761",
+      "23608488",
+      "40054734"
+    ],
+    "review": [
+      "40645949",
+      "41425587",
+      "34169527",
+      "28455196",
+      "39580060",
+      "34768946",
+      "40628340",
+      "28698032"
+    ],
+    "pmc": [
+      "12254206"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/autismspectrumdisorder.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Autism Spectrum Disorder"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41398-025-03452-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40645949/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/autismspectrumdisorder.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Autism Spectrum Disorder"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a cross-kingdom structural analysis of 355 nonredundant homeodomain structures (118 experimental PDB entries and 237 AlphaFold2 models) from fungi, animals, and plants. They used DaliLite5 for structural comparisons, clustering tree visualization in iTOL, PyMOL superpositions, and sequence-logo mapping. They claim strong conservation of the canonical three-helix HTH geometry and recognition-helix framework across kingdoms, with diversification concentrated in interhelical loops, terminal regions, linkers, and lineage-specific auxiliary modules. They further claim that fungal mating-type homeodomains and major animal classes retain conserved recognition-helix architecture despite sequence divergence, while plant WOX, ZF-HD, PHD-associated, and SAWADEE-associated architectures illustrate modular expansion.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, statistical analyses, sequence alignment details, structure quality metrics, and validation of AlphaFold2 model selection criteria
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting large-scale structural survey of homeodomains across eukaryotic kingdoms. The scope is ambitious and the combination of experimental and predicted structures is timely. However, the abstract alone provides insufficient detail to evaluate the rigor of the methodology, the validity of the clustering approach, the statistical support for the conservation claims, or the biological significance of the proposed lineage-specific diversification. The central claims are plausible but currently not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Evolutionary developmental biologists studying transcription factor evolution, structural biologists interested in protein domain conservation and diversification, and plant and fungal developmental geneticists who use homeodomain proteins as key regulatory nodes. The cross-kingdom perspective could also appeal to researchers working on the evolution of developmental toolkits.
+- **Major strengths** The study addresses a broad and important question about the balance between structural conservation and diversification in a major transcription factor family. The inclusion of both experimental and predicted structures is a modern approach that increases sample size. The focus on lineage-specific modules, particularly in plants, provides a useful framework for understanding functional diversification.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that 237 AlphaFold2 models were "high-confidence" and used them alongside experimental structures for cross-kingdom comparisons.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify the confidence thresholds used to select AlphaFold2 models, nor does it describe how model quality was assessed relative to experimental structures. Mixing predicted and experimental structures in a single comparative analysis requires careful quality control, as errors in predicted models could confound structural distance calculations.
+  - **Why it matters** If low-quality models are included, the clustering tree and the inferred conservation and diversification patterns could be artifacts of model inaccuracy rather than genuine biological signal. This directly affects the validity of all downstream conclusions.
+  - **Resolution test** Provide the pLDDT or PAE thresholds used, describe any filtering steps, and show that the clustering results are robust when predicted structures are analyzed separately from experimental ones.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that structural distances were summarized as a clustering tree and interpreted through topology-guided superpositions and sequence-logo mapping.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are given on the DaliLite5 parameters, the Z-score thresholds for defining structural similarity, the clustering algorithm used, or how the tree topology was validated. The phrase "topology-guided" is vague and does not clarify whether the interpretation was hypothesis-driven or data-driven.
+  - **Why it matters** Without explicit methodological details, the reader cannot assess whether the clustering is statistically meaningful or whether the interpretation of conservation and diversification is supported by the data. The distinction between conserved and diversified regions must be quantified, not just visually asserted.
+  - **Resolution test** Specify DaliLite5 settings, report Z-score distributions, describe the clustering method and any bootstrap or jackknife support, and provide quantitative measures of structural variability across the defined regions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that plant WOX, ZF-HD, PHD-associated, and SAWADEE-associated architectures illustrate "modular expansion for developmental and chromatin-context integration."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts a functional interpretation of structural modules without presenting any functional data, binding assays, or chromatin interaction evidence. The link between structural features and functional roles is inferred rather than demonstrated.
+  - **Why it matters** The claim of "chromatin-context integration" is a strong functional statement that goes beyond structural observation. If the manuscript does not include experimental validation, this claim is overreaching and could mislead readers about the functional significance of the observed structural diversity.
+  - **Resolution test** Either provide experimental evidence for the functional roles of these modules or temper the language to describe structural features as "consistent with" rather than "illustrative of" functional integration.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses several domain abbreviations (WOX, ZF-HD, PHD, SAWADEE) without defining them, which may hinder readers outside the plant transcription factor field.
+  - **Required correction** Spell out each abbreviation at first use, for example "WUSCHEL-related homeobox (WOX), zinc finger-homeodomain (ZF-HD), plant homeodomain (PHD), and SAWADEE."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state how the 355 structures were selected to be "nonredundant," nor what redundancy threshold was applied.
+  - **Required correction** Briefly describe the redundancy filtering criterion, such as sequence identity cutoff or structural similarity threshold.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention any statistical tests or measures of significance for the observed conservation versus diversification patterns.
+  - **Required correction** Add a sentence indicating how the significance of structural conservation or diversification was assessed, or state that the analysis is descriptive.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (AlphaFold2 model quality control), R1-M2 (clustering methodology and validation), R1-M3 (functional overinterpretation of structural modules)
+- **Assessment against Nature-style criteria** 
+  - Originality: The cross-kingdom structural survey of homeodomains is a useful contribution, but the concept of conserved HTH cores with variable flanking regions is well established in the literature. The originality lies mainly in the scale and the inclusion of predicted structures, which is moderate.
+  - Scientific importance: The findings are of interest to specialists in transcription factor evolution and developmental biology, but the abstract does not demonstrate a conceptual advance that would elevate the importance beyond a descriptive survey.
+  - Interdisciplinary readership: The topic bridges structural biology, evolutionary biology, and developmental genetics, which could attract a broad readership if the findings are presented with clear functional implications. Currently, the abstract is too specialized and lacks accessible framing.
+  - Technical soundness: Not assessable from the abstract alone. The missing methodological details for structure selection, quality control, and clustering are critical gaps.
+  - Readability for nonspecialists: The abstract is dense with domain abbreviations and technical terms without sufficient context. It would benefit from clearer framing of the biological question and the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially valuable study, but the lack of methodological detail and the overinterpretation of structural observations as functional evidence prevent a supportive recommendation. The authors should provide the full manuscript with detailed methods, quality control metrics, and quantitative support for their claims.
+
+## Risk / unsupported claims
+- The claim that AlphaFold2 models are "high-confidence" is unsupported without thresholds or quality metrics.
+- The claim that structural diversification is "concentrated" in specific regions is unsupported without quantitative measures.
+- The claim that plant architectures "illustrate modular expansion for developmental and chromatin-context integration" is unsupported without functional data.
+- The claim that fungal mating-type homeodomains and animal classes "retained conserved recognition-helix architecture" is plausible but not verifiable without alignment and structural comparison details.
+- The overall clustering tree and its interpretation are not assessable without figures and statistical support.

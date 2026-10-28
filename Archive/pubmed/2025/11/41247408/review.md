@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full-text methods, figures, tables, or supplementary materials were available for evaluation
+- **Shared manuscript claim summary** The abstract claims that transposable elements (TEs) have provided transcription factor binding sites (TFBS) that scaffold brain developmental regulatory regions (BDRRs) across mammalian evolution, that TFBS density in BDRRs increased from mouse to macaque to chimpanzee to modern humans, that humans and chimpanzees show distinct repertoires of BDRR-bound transcription factors (TFs), that approximately 700 TFs act as central nodes organizing these regulatory landscapes, and that 25 human BDRR-bound TFs produce transcriptional signatures of small TF subsets with increased expression in 202 neuroanatomical structures, linking neuroanatomical transcriptional signatures to TFs governing brain development.
+- **Visible evidence base** Abstract text only; no datasets, statistical analyses, genome annotations, or experimental validations are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, statistical details, genome assembly and annotation versions, TE annotation methodology, TFBS identification criteria, BDRR definition and curation, species comparison procedures, and differential enrichment analysis details
+
+## Reviewer
+- **Overall assessment** The abstract presents a broad and potentially important hypothesis that TE-derived TFBS have shaped primate brain evolution through TF network scaffolding. However, the claims are extensive and far-reaching, while the evidence base visible in the abstract is entirely descriptive. No quantitative results, effect sizes, statistical significance values, or methodological details are presented. The causal language used, such as "seeded," "scaffolded," and "drivers," exceeds what correlative genomic analyses can typically establish. The abstract would benefit from a more measured interpretation and from explicit presentation of key supporting statistics. The work may be of interest to evolutionary genomics and neurodevelopment communities, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Evolutionary biologists studying transposable element function, genomic researchers investigating regulatory evolution, neuroscientists interested in the genetic basis of primate brain development, and computational biologists developing methods for comparative genomics. The proposed framework linking TE-derived TFBS to species-specific TF networks and neuroanatomical transcriptional signatures could inform hypotheses about human-specific brain features.
+- **Major strengths** The abstract addresses a fundamental question in evolutionary genomics with potential relevance to human brain evolution. The proposed unifying framework, in which a relatively small set of TFs acts as central nodes organizing TE-seeded regulatory landscapes, is conceptually appealing and could generate testable predictions. The integration of multiple data types, including TFBS density, TF repertoires, and neuroanatomical transcriptional signatures, suggests a comprehensive analytical approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that TE-encoded TFBS have "scaffolded brain developmental regulatory regions across mammalian evolution" and that TFBS density "has markedly increased along the evolutionary trajectory from mouse to macaque to chimpanzee, reaching its highest levels in modern humans."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative data supporting the claimed density increase. No numbers, statistical tests, confidence intervals, or effect sizes are presented. The term "markedly increased" is subjective without supporting statistics. Additionally, the evolutionary trajectory is described as linear from mouse to macaque to chimpanzee to human, but the abstract does not indicate how many species were analyzed, whether the comparison was phylogenetically corrected, or whether the increase is statistically significant after accounting for genome-wide TE content differences.
+  - **Why it matters** The central evolutionary claim of the paper rests on this density comparison. Without quantitative support, the reader cannot assess whether the observed pattern is robust, whether it reflects selection or neutral processes, or whether it is an artifact of annotation differences across species.
+  - **Resolution test** Provide the actual TFBS density values for each species, the statistical test used, the effect size, and the multiple testing correction applied. Clarify the number of species and the phylogenetic framework used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The abstract states that "TF networks seeded by TEs are key drivers of human neurodevelopmental innovation" and that "TE-derived TFBS [are] central architects of primate brain evolution."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The language used implies a causal and directional role for TEs in brain evolution. However, the evidence described in the abstract is correlational, based on genomic enrichment and differential expression analyses. TE-derived TFBS could be neutral or even slightly deleterious but retained due to linkage or drift. The abstract does not describe any functional validation, such as CRISPR perturbations, reporter assays, or transgenic experiments, that would support a causal role.
+  - **Why it matters** Causal claims about evolutionary drivers require stronger evidence than correlational genomic patterns. Overstating causality could mislead readers and undermine the credibility of the otherwise interesting observations.
+  - **Resolution test** Either soften the causal language to describe associations and potential contributions, or provide functional evidence that TE-derived TFBS are necessary or sufficient for the observed regulatory effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract claims identification of "~ 700 TFs that act as central nodes" and "25 human BDRR-bound TFs that emanate transcriptional signatures of small TF subsets with significantly increased expression in 202 neuroanatomical structures."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not describe how these TF sets were defined, what criteria were used to identify "central nodes," how BDRRs were curated, how TF binding was determined, or what statistical threshold defined "significantly increased expression." The number 202 neuroanatomical structures is stated without context regarding the total number tested or the multiple testing correction applied.
+  - **Why it matters** Without methodological details, the reader cannot evaluate whether the TF sets are robust, whether the enrichment analyses are properly controlled, or whether the reported numbers are biologically meaningful or artifacts of the analytical pipeline.
+  - **Resolution test** Provide the full methods for BDRR definition, TFBS identification, TF set selection, and differential expression analysis, including all thresholds, controls, and correction procedures.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and species coverage
+  - **Claim pointer** The abstract claims that "humans and chimpanzees exhibit distinct repertoires of BDRR-bound TFs, which contribute to divergent developmental trajectories across hundreds of brain regions."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract mentions mouse, macaque, chimpanzee, and human in the density analysis, but the TF repertoire comparison appears limited to humans and chimpanzees. It is unclear whether the "divergent developmental trajectories" claim is supported by direct comparative data or inferred from TF repertoire differences alone. The abstract does not state how many individuals or brain regions were sampled per species, nor whether the brain region classifications are directly comparable across species.
+  - **Why it matters** Claims about species divergence require appropriate comparative sampling and careful orthology mapping of both genomic regions and brain structures. Without this information, the reader cannot assess whether the observed differences are biologically meaningful or artifacts of annotation or sampling.
+  - **Resolution test** Specify the sample sizes per species, the orthology mapping approach for brain regions, and the statistical framework used to compare TF repertoires across species.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title
+  - **Issue** The title is long and contains redundant phrasing, particularly "Sequence-Specific Double-Stranded DNA Binding TF Networks," which is cumbersome and may confuse readers. The phrase "Contributing to Governance of Primate Brain Evolution" is vague.
+  - **Required correction** Simplify the title to improve readability, for example "Transposable Elements Seed Transcription Factor Binding Sites that Shape Primate Brain Evolution" or similar concise phrasing.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states "TE have made a significant impact" and "TE-encoded TFBS have scaffolded," but the term "significant" is used without statistical backing, and "scaffolded" is metaphorical. The abstract also uses "vis-a-vis" which is informal for a scientific context.
+  - **Required correction** Replace "significant" with a quantitative descriptor or remove it, replace "scaffolded" with more precise language such as "contributed to the architecture of," and use "compared with" instead of "vis-a-vis."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract lists specific numbers of brain regions (12, 48, 85, 25, 25, 26) but does not explain what these categories represent or why they sum to 221 rather than the 202 mentioned later. This inconsistency is confusing.
+  - **Required correction** Clarify the relationship between the listed brain region categories and the 202 structures mentioned in the differential enrichment analysis, or reconcile the numbers.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or methodological support for the central claims of density increase, causal role, and TF set identification. These must be addressed with full data and methods before the case can be considered established.
+- **Assessment against Nature-style criteria** Originality: The hypothesis that TE-derived TFBS scaffold regulatory networks in brain evolution is not entirely novel, as TE contributions to regulatory evolution are well documented, but the specific focus on TF network architecture and neuroanatomical transcriptional signatures may offer a new integrative perspective. Scientific importance: The topic is important for understanding primate brain evolution, but the abstract does not yet demonstrate that the findings change current understanding in a substantial way. Interdisciplinary readership: The work could appeal to evolutionary biologists, genomicists, and neuroscientists, but the abstract is written in a way that assumes familiarity with TE biology and regulatory genomics, which may limit accessibility. Technical soundness: Cannot be assessed from the abstract alone; the absence of methods and statistics prevents evaluation. Readability for nonspecialists: The abstract is dense and uses specialized terminology without sufficient context, making it difficult for nonspecialists to follow the logic.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and descriptive observations, but the absence of quantitative results, statistical support, and methodological detail means the claims cannot be evaluated. The authors should provide the full manuscript with complete methods and results, and should temper causal language to match the correlational nature of the evidence.
+
+## Risk / unsupported claims
+- The claim that TE-encoded TFBS "scaffolded brain developmental regulatory regions across mammalian evolution" is unsupported without comparative genomic data and functional evidence.
+- The claim that TFBS density "markedly increased" along the evolutionary trajectory is unsupported without quantitative values and statistical tests.
+- The claim that "TF networks seeded by TEs are key drivers of human neurodevelopmental innovation" is unsupported; the evidence described is correlational.
+- The claim that "25 human BDRR-bound TFs that emanate transcriptional signatures" is unverifiable without details on the analysis and significance thresholds.
+- The claim that "TE-derived TFBS [are] central architects of primate brain evolution" is an overstatement relative to the descriptive evidence presented.
+- The relationship between the listed brain region counts and the 202 structures in the enrichment analysis is unclear and potentially inconsistent.

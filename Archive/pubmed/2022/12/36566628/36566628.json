@@ -1,0 +1,230 @@
+{
+  "identity": {
+    "pmid": "36566628",
+    "doi": "10.1016/j.compbiomed.2022.106455",
+    "title": "Ensemble learning based assessment of the role of transcription factors in gene expression."
+  },
+  "content": {
+    "abstract": "Cancer cells are formed when the associated, active genes fail to function the way they are meant to function. Multiple genes collectively control cell growth by activating a proper set of genes. Regulation of gene expression is controlled through the combined effort of multiple regulatory elements. Transcription of each gene is affected differently according to the combinatorial patterns of regulatory elements bound in the nearby regions. Identifying and analysing such patterns will give a better insight into the cell function. The main focus of this study is on developing a computational model to predict the functional role of transcriptional factors residing between divergent gene pairs. Acute Myeloid Leukaemia (AML) gene expression data from GEO and the two TFs EP300 and CTCF binding data calibrated in k562 cell line from ENCODE consortium are taken as a case study.",
+    "keywords": [
+      "Convergent gene pairs",
+      "Divergent gene pairs",
+      "Ensemble learning",
+      "Gene expression",
+      "Regulatory elements"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/genetics/metabolism",
+      "Promoter Regions, Genetic",
+      "Cell Line, Tumor",
+      "Gene Expression",
+      "*Machine Learning",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Subramanian, Suja",
+        "George, Tina P",
+        "George, Jeslin",
+        "Thomas, Tessamma"
+      ],
+      "short_names": [
+        "Subramanian S",
+        "George TP",
+        "George J",
+        "Thomas T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Electronics, CUSAT, Kochi-22, India. Electronic address: sujasubramanian@gmail.com.",
+        "CAPE, Kerala, India. Electronic address: ptinageorge@gmail.com.",
+        "Department of Statistical Sciences, Kannur University, India. Electronic address: jeslingeorge97@gmail.com.",
+        "Department of Electronics, CUSAT, Kochi-22, India. Electronic address: tessamma1@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Subramanian, Suja",
+        "short_name": "Subramanian S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electronics, CUSAT, Kochi-22, India. Electronic address: sujasubramanian@gmail.com."
+        ]
+      },
+      {
+        "full_name": "George, Tina P",
+        "short_name": "George TP",
+        "identifiers": [],
+        "affiliations": [
+          "CAPE, Kerala, India. Electronic address: ptinageorge@gmail.com."
+        ]
+      },
+      {
+        "full_name": "George, Jeslin",
+        "short_name": "George J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistical Sciences, Kannur University, India. Electronic address: jeslingeorge97@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Thomas, Tessamma",
+        "short_name": "Thomas T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electronics, CUSAT, Kochi-22, India. Electronic address: tessamma1@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2023 Jan",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/26 06:00",
+    "fetched_at": "2026-09-28 18:30:38"
+  },
+  "links": {
+    "cites": [
+      "41787040"
+    ],
+    "refs": [],
+    "similar": [
+      "36566628",
+      "24962804",
+      "34292930",
+      "22090374",
+      "24291025",
+      "19594885",
+      "34864886",
+      "32054475",
+      "22369687",
+      "24918633",
+      "24551185",
+      "26818008",
+      "12855590",
+      "16934159",
+      "27004515",
+      "15262804",
+      "8455611",
+      "16966320",
+      "22443175",
+      "12490441",
+      "15778373",
+      "16817975",
+      "24042128",
+      "24366875",
+      "28439033",
+      "14680477",
+      "29802231",
+      "19126674",
+      "33104784",
+      "16204087",
+      "20140202",
+      "32232485",
+      "30799488",
+      "29363429",
+      "28041762",
+      "25340776",
+      "35241702",
+      "17910772",
+      "20363979",
+      "19036138",
+      "20433421",
+      "19659458",
+      "28110180",
+      "15214842",
+      "33923915",
+      "10455139",
+      "32043966",
+      "25918418",
+      "15496828",
+      "33232622",
+      "31181110",
+      "21473742",
+      "31158411",
+      "21729871",
+      "24923223",
+      "24847042",
+      "26550828",
+      "21829439",
+      "31533978",
+      "10501656",
+      "21447743",
+      "30598100",
+      "10748032",
+      "22675074",
+      "12204889",
+      "24603674",
+      "19426448",
+      "23282148",
+      "22780989",
+      "21367870",
+      "20826206",
+      "16449500",
+      "29855387",
+      "34161320",
+      "30092612",
+      "18515639",
+      "2651898",
+      "22456606",
+      "24565265",
+      "17971223",
+      "7579328",
+      "18223155",
+      "20840511",
+      "22868264",
+      "33383116",
+      "24167291",
+      "27082628",
+      "11292834",
+      "25161226"
+    ],
+    "review": [
+      "36566628",
+      "28110180",
+      "30092612"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(22)01163-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1240",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(22)01163-5",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

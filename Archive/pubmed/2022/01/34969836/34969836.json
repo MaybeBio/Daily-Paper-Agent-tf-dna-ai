@@ -1,0 +1,562 @@
+{
+  "identity": {
+    "pmid": "34969836",
+    "doi": "10.1073/pnas.2109169119",
+    "title": "Lipid bilayer induces contraction of the denatured state ensemble of a helical-bundle membrane protein."
+  },
+  "content": {
+    "abstract": "Defining the denatured state ensemble (DSE) and disordered proteins is essential to understanding folding, chaperone action, degradation, and translocation. As compared with water-soluble proteins, the DSE of membrane proteins is much less characterized. Here, we measure the DSE of the helical membrane protein GlpG of Escherichia coli (E. coli) in native-like lipid bilayers. The DSE was obtained using our steric trapping method, which couples denaturation of doubly biotinylated GlpG to binding of two streptavidin molecules. The helices and loops are probed using limited proteolysis and mass spectrometry, while the dimensions are determined using our paramagnetic biotin derivative and double electron-electron resonance spectroscopy. These data, along with our Upside simulations, identify the DSE as being highly dynamic, involving the topology changes and unfolding of some of the transmembrane (TM) helices. The DSE is expanded relative to the native state but only to 15 to 75% of the fully expanded condition. The degree of expansion depends on the local protein packing and the lipid composition. E. coli's lipid bilayer promotes the association of TM helices in the DSE and, probably in general, facilitates interhelical interactions. This tendency may be the outcome of a general lipophobic effect of proteins within the cell membranes.",
+    "keywords": [
+      "GlpG",
+      "Upside simulation",
+      "denatured state",
+      "membrane protein folding",
+      "steric trapping"
+    ],
+    "mesh_terms": [
+      "Biotinylation",
+      "Cell Membrane",
+      "Cryoelectron Microscopy",
+      "DNA-Binding Proteins",
+      "Endopeptidases",
+      "Escherichia coli",
+      "Escherichia coli Proteins/chemistry",
+      "Lipid Bilayers/*chemistry/*metabolism",
+      "Membrane Proteins/*chemistry/*metabolism",
+      "Models, Molecular",
+      "*Protein Conformation",
+      "Protein Denaturation",
+      "Protein Folding",
+      "Streptavidin"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gaffney, Kristen A",
+        "Guo, Ruiqiong",
+        "Bridges, Michael D",
+        "Muhammednazaar, Shaima",
+        "Chen, Daoyang",
+        "Kim, Miyeon",
+        "Yang, Zhongyu",
+        "Schilmiller, Anthony L",
+        "Faruk, Nabil F",
+        "Peng, Xiangda",
+        "Jones, A Daniel",
+        "Kim, Kelly H",
+        "Sun, Liangliang",
+        "Hubbell, Wayne L",
+        "Sosnick, Tobin R",
+        "Hong, Heedeok"
+      ],
+      "short_names": [
+        "Gaffney KA",
+        "Guo R",
+        "Bridges MD",
+        "Muhammednazaar S",
+        "Chen D",
+        "Kim M",
+        "Yang Z",
+        "Schilmiller AL",
+        "Faruk NF",
+        "Peng X",
+        "Jones AD",
+        "Kim KH",
+        "Sun L",
+        "Hubbell WL",
+        "Sosnick TR",
+        "Hong H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5599-1134",
+        "ORCID: 0000-0003-2781-5384",
+        "ORCID: 0000-0002-3018-3608",
+        "ORCID: 0000-0001-7069-7120",
+        "ORCID: 0000-0001-9013-3090",
+        "ORCID: 0000-0002-7408-6690",
+        "ORCID: 0000-0002-1360-2778",
+        "ORCID: 0000-0001-8939-5042",
+        "ORCID: 0000-0003-0577-3312",
+        "ORCID: 0000-0002-2871-7244",
+        "ORCID: 0000-0003-0118-5193"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI 48824.",
+        "Department of Chemistry, Michigan State University, East Lansing, MI 48824.",
+        "Jules Stein Eye Institute, University of California, Los Angeles, CA 90095.",
+        "Department of Chemistry and Biochemistry, University of California, Los Angeles, CA 90095.",
+        "Department of Chemistry, Michigan State University, East Lansing, MI 48824.",
+        "Department of Chemistry, Michigan State University, East Lansing, MI 48824.",
+        "Department of Chemistry, Michigan State University, East Lansing, MI 48824.",
+        "Department of Chemistry and Biochemistry, North Dakota State University, Fargo, ND 58108.",
+        "Research Technology Support Facility Mass Spectrometry and Metabolomics Core, Michigan State University, East Lansing, MI 48824.",
+        "Graduate Program in Biophysical Sciences, The University of Chicago, Chicago, IL 60637.",
+        "Department of Biochemistry & Molecular Biology, The University of Chicago, Chicago, IL 60637.",
+        "Institute for Biophysical Dynamics, The University of Chicago, Chicago, IL 60637.",
+        "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI 48824.",
+        "Research Technology Support Facility Mass Spectrometry and Metabolomics Core, Michigan State University, East Lansing, MI 48824.",
+        "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI 48824.",
+        "Department of Chemistry, Michigan State University, East Lansing, MI 48824.",
+        "Jules Stein Eye Institute, University of California, Los Angeles, CA 90095.",
+        "Department of Chemistry and Biochemistry, University of California, Los Angeles, CA 90095.",
+        "Department of Biochemistry & Molecular Biology, The University of Chicago, Chicago, IL 60637; trsosnic@uchicago.edu honghd@msu.edu.",
+        "Institute for Biophysical Dynamics, The University of Chicago, Chicago, IL 60637.",
+        "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI 48824; trsosnic@uchicago.edu honghd@msu.edu.",
+        "Department of Chemistry, Michigan State University, East Lansing, MI 48824."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gaffney, Kristen A",
+        "short_name": "Gaffney KA",
+        "identifiers": [
+          "0000-0002-5599-1134"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI 48824."
+        ]
+      },
+      {
+        "full_name": "Guo, Ruiqiong",
+        "short_name": "Guo R",
+        "identifiers": [
+          "0000-0003-2781-5384"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Michigan State University, East Lansing, MI 48824."
+        ]
+      },
+      {
+        "full_name": "Bridges, Michael D",
+        "short_name": "Bridges MD",
+        "identifiers": [],
+        "affiliations": [
+          "Jules Stein Eye Institute, University of California, Los Angeles, CA 90095.",
+          "Department of Chemistry and Biochemistry, University of California, Los Angeles, CA 90095."
+        ]
+      },
+      {
+        "full_name": "Muhammednazaar, Shaima",
+        "short_name": "Muhammednazaar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Michigan State University, East Lansing, MI 48824."
+        ]
+      },
+      {
+        "full_name": "Chen, Daoyang",
+        "short_name": "Chen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Michigan State University, East Lansing, MI 48824."
+        ]
+      },
+      {
+        "full_name": "Kim, Miyeon",
+        "short_name": "Kim M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Michigan State University, East Lansing, MI 48824."
+        ]
+      },
+      {
+        "full_name": "Yang, Zhongyu",
+        "short_name": "Yang Z",
+        "identifiers": [
+          "0000-0002-3018-3608"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, North Dakota State University, Fargo, ND 58108."
+        ]
+      },
+      {
+        "full_name": "Schilmiller, Anthony L",
+        "short_name": "Schilmiller AL",
+        "identifiers": [
+          "0000-0001-7069-7120"
+        ],
+        "affiliations": [
+          "Research Technology Support Facility Mass Spectrometry and Metabolomics Core, Michigan State University, East Lansing, MI 48824."
+        ]
+      },
+      {
+        "full_name": "Faruk, Nabil F",
+        "short_name": "Faruk NF",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Program in Biophysical Sciences, The University of Chicago, Chicago, IL 60637."
+        ]
+      },
+      {
+        "full_name": "Peng, Xiangda",
+        "short_name": "Peng X",
+        "identifiers": [
+          "0000-0001-9013-3090"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology, The University of Chicago, Chicago, IL 60637.",
+          "Institute for Biophysical Dynamics, The University of Chicago, Chicago, IL 60637."
+        ]
+      },
+      {
+        "full_name": "Jones, A Daniel",
+        "short_name": "Jones AD",
+        "identifiers": [
+          "0000-0002-7408-6690"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI 48824.",
+          "Research Technology Support Facility Mass Spectrometry and Metabolomics Core, Michigan State University, East Lansing, MI 48824."
+        ]
+      },
+      {
+        "full_name": "Kim, Kelly H",
+        "short_name": "Kim KH",
+        "identifiers": [
+          "0000-0002-1360-2778"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI 48824."
+        ]
+      },
+      {
+        "full_name": "Sun, Liangliang",
+        "short_name": "Sun L",
+        "identifiers": [
+          "0000-0001-8939-5042"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Michigan State University, East Lansing, MI 48824."
+        ]
+      },
+      {
+        "full_name": "Hubbell, Wayne L",
+        "short_name": "Hubbell WL",
+        "identifiers": [
+          "0000-0003-0577-3312"
+        ],
+        "affiliations": [
+          "Jules Stein Eye Institute, University of California, Los Angeles, CA 90095.",
+          "Department of Chemistry and Biochemistry, University of California, Los Angeles, CA 90095."
+        ]
+      },
+      {
+        "full_name": "Sosnick, Tobin R",
+        "short_name": "Sosnick TR",
+        "identifiers": [
+          "0000-0002-2871-7244"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology, The University of Chicago, Chicago, IL 60637; trsosnic@uchicago.edu honghd@msu.edu.",
+          "Institute for Biophysical Dynamics, The University of Chicago, Chicago, IL 60637."
+        ]
+      },
+      {
+        "full_name": "Hong, Heedeok",
+        "short_name": "Hong H",
+        "identifiers": [
+          "0000-0003-0118-5193"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, MI 48824; trsosnic@uchicago.edu honghd@msu.edu.",
+          "Department of Chemistry, Michigan State University, East Lansing, MI 48824."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2022 Jan 4",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/01 06:00",
+    "fetched_at": "2026-09-28 03:32:24"
+  },
+  "links": {
+    "cites": [
+      "42149505",
+      "42092180",
+      "41730867",
+      "41700902",
+      "41652171",
+      "40601723",
+      "39970206",
+      "38665647",
+      "38428472",
+      "38385525",
+      "36768981",
+      "35855589"
+    ],
+    "refs": [
+      "34413192",
+      "33825681",
+      "32080694",
+      "32029718",
+      "31805437",
+      "31780561",
+      "31658402",
+      "31587831",
+      "31570873",
+      "31501590",
+      "30923216",
+      "30745330",
+      "30608666",
+      "30589846",
+      "30589834",
+      "30464214",
+      "30413241",
+      "29981536",
+      "29809151",
+      "29581582",
+      "29528632",
+      "29432185",
+      "29026044",
+      "28808343",
+      "28728824",
+      "28716919",
+      "28692798",
+      "28615323",
+      "28254940",
+      "28168866",
+      "27583687",
+      "27063475",
+      "26999782",
+      "26584447",
+      "26512118",
+      "26479439",
+      "26410407",
+      "26408961",
+      "26102530",
+      "26056273",
+      "25531225",
+      "25277655",
+      "24550475",
+      "24261476",
+      "24026055",
+      "23959879",
+      "23591184",
+      "23255153",
+      "23217703",
+      "22984159",
+      "22797666",
+      "22404592",
+      "22242919",
+      "21890895",
+      "21682279",
+      "21616670",
+      "21606332",
+      "21144739",
+      "20603102",
+      "20575562",
+      "20575534",
+      "19603754",
+      "19523473",
+      "19328771",
+      "18500332",
+      "17263662",
+      "17051161",
+      "16554831",
+      "16319877",
+      "15741338",
+      "15674282",
+      "15314214",
+      "15067017",
+      "14990786",
+      "12692561",
+      "12581666",
+      "11724930",
+      "10413507",
+      "10360359",
+      "10233077",
+      "9590695",
+      "8636103",
+      "8611495",
+      "3858841",
+      "1883209",
+      "1867723",
+      "1694455"
+    ],
+    "similar": [
+      "34969836",
+      "38428472",
+      "26999782",
+      "26858402",
+      "23975771",
+      "31059259",
+      "26056273",
+      "19699749",
+      "15544815",
+      "28808343",
+      "17722884",
+      "31480836",
+      "32848056",
+      "19278654",
+      "30190329",
+      "31587831",
+      "29432185",
+      "21256137",
+      "31780561",
+      "31603315",
+      "24899312",
+      "29528632",
+      "33058341",
+      "18095258",
+      "15248770",
+      "25307614",
+      "22770371",
+      "25107533",
+      "19739627",
+      "23641708",
+      "22705210",
+      "16581049",
+      "9080196",
+      "31218630",
+      "10074693",
+      "16216077",
+      "23480024",
+      "33779182",
+      "26281710",
+      "16043344",
+      "15381431",
+      "12054874",
+      "19157090",
+      "22921757",
+      "21915914",
+      "21211515",
+      "20017540",
+      "20101433",
+      "30633426",
+      "26479439",
+      "30470737",
+      "27842062",
+      "29447916",
+      "14990786",
+      "24367094",
+      "8125966",
+      "21904908",
+      "22198391",
+      "10698632",
+      "10410805",
+      "21167813",
+      "14630331",
+      "23416557",
+      "19780589",
+      "17277078",
+      "35855589",
+      "20603102",
+      "30937648",
+      "29259129",
+      "21606332",
+      "17976648",
+      "24892900",
+      "30930435",
+      "17368479",
+      "28993151",
+      "31242812",
+      "29311257",
+      "15485883",
+      "15465852",
+      "17099694",
+      "25807192",
+      "29049865",
+      "17336328",
+      "17493126",
+      "22963263",
+      "25983306",
+      "15731457",
+      "25548160",
+      "30509977",
+      "19161285",
+      "17051161",
+      "21884678",
+      "11859081",
+      "29330069",
+      "25149815",
+      "11148042",
+      "12029334",
+      "14513830",
+      "14507677",
+      "10213603",
+      "14705954",
+      "39255002"
+    ],
+    "review": [
+      "34969836",
+      "38428472",
+      "30190329",
+      "33058341",
+      "18095258",
+      "25107533",
+      "16581049",
+      "10074693",
+      "16043344",
+      "20101433",
+      "29447916",
+      "10410805",
+      "14630331",
+      "35855589",
+      "30937648",
+      "30930435",
+      "25983306"
+    ],
+    "pmc": [
+      "8740594"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2109169119?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://ecocyc.org/gene?orgid=ECOLI&id=EG10397",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "glpG"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34969836/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34969836",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt36g1v95b",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

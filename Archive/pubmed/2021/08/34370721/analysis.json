@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34370721",
+  "title": "Discovering differential genome sequence activity with interpretable and efficient deep learning.",
+  "authors": "Hammelman, Jennifer; Gifford, David K",
+  "journal": "PLoS computational biology",
+  "published_date": "2021-08-10",
+  "window": {
+    "start": "2021-08-09",
+    "end": "2021-08-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用可解释深度学习方法从基因组序列中发现细胞类型特异的转录因子基序和间距模式，虽聚焦序列调控而非直接建模TF-DNA三维互作，但方法可迁移至TF-DNA结合位点预测研究。",
+  "abstract": "Discovering sequence features that differentially direct cells to alternate fates is key to understanding both cellular development and the consequences of disease related mutations. We introduce Expected Pattern Effect and Differential Expected Pattern Effect, two black-box methods that can interpret genome regulatory sequences for cell type-specific or condition specific patterns. We show that these methods identify relevant transcription factor motifs and spacings that are predictive of cell state-specific chromatin accessibility. Finally, we integrate these methods into framework that is readily accessible to non-experts and available for download as a binary or installed via PyPI or bioconda at https://cgs.csail.mit.edu/deepaccess-package/.",
+  "abstract_zh": "发现能够差异性地引导细胞走向不同命运的序列特征，是理解细胞发育及疾病相关突变后果的关键。我们引入了预期模式效应和差异预期模式效应，这两种黑盒方法能够解释基因组调控序列中的细胞类型特异性或条件特异性模式。我们证明，这些方法能够识别出预测细胞状态特异性染色质可及性的相关转录因子基序及其间距。最后，我们将这些方法整合到一个便于非专家使用的框架中，该框架可作为二进制文件下载，或通过PyPI或bioconda安装，网址为https://cgs.csail.mit.edu/deepaccess-package/。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34370721/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34370721/",
+  "paper_page_path": "papers/pubmed/34370721/index.html"
+}

@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "38900395",
+    "doi": "10.1186/s12348-024-00410-4",
+    "title": "The roles of IRF8 in nonspecific orbital inflammation: an integrated analysis by bioinformatics and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Nonspecific Orbital Inflammation (NSOI) represents a persistent and idiopathic proliferative inflammatory disorder, characterized by polymorphous lymphoid infiltration within the orbit. The transcription factor Interferon Regulatory Factor 8 (IRF8), integral to the IRF protein family, was initially identified as a pivotal element for the commitment and differentiation of myeloid cell lineage. Serving as a central regulator of innate immune receptor signaling, IRF8 orchestrates a myriad of functions in hematopoietic cell development. However, the intricate mechanisms underlying IRF8 production remain to be elucidated, and its potential role as a biomarker for NSOI is yet to be resolved. METHODS: IRF8 was extracted from the intersection analysis of common DEGs of GSE58331 and GSE105149 from the GEO and immune- related gene lists in the ImmPort database using The Lasso regression and SVM-RFE analysis. We performed GSEA and GSVA with gene sets coexpressed with IRF8, and observed that gene sets positively related to IRF8 were enriched in immune-related pathways. To further explore the correlation between IRF8 and immune-related biological process, the CIBERSORT algorithm and ESTIMATE method were employed to evaluate TME characteristics of each sample and confirmed that high IRF8 expression might give rise to high immune cell infiltration. Finally, the GSE58331 was utilized to confirm the levels of expression of IRF8. RESULTS: Among the 314 differentially expressed genes (DEGs), some DEGs were found to be significantly different. With LASSO and SVM-RFE algorithms, we obtained 15 hub genes. For biological function analysis in IRF8, leukocyte mediated immunity, leukocyte cell-cell adhesion, negative regulation of immune system process were emphasized. B cells naive, Macrophages M0, Macrophages M1, T cells CD4 memory activated, T cells CD4 memory resting, T cells CD4 naive, and T cells gamma delta were shown to be positively associated with IRF8. While, Mast cells resting, Monocytes, NK cells activated, Plasma cells, T cells CD8, and T cells regulatory (Tregs) were shown to be negatively linked with IRF8. The diagnostic ability of the IRF8 in differentiating NSOI exhibited a good value. CONCLUSIONS: This study discovered IRF8 that are linked to NSOI. IRF8 shed light on potential new biomarkers for NSOI and tracking its progression.",
+    "keywords": [
+      "Autoimmune inflammatory disorder",
+      "IRF8",
+      "Lasso regression",
+      "Nonspecific orbital inflammation (NSOI)",
+      "SVM-RFE"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Zixuan",
+        "Xu, Jinfeng",
+        "Hu, Yi",
+        "Peng, Xin",
+        "Zhang, Zheyuan",
+        "Yao, Xiaolei",
+        "Peng, Qinghua"
+      ],
+      "short_names": [
+        "Wu Z",
+        "Xu J",
+        "Hu Y",
+        "Peng X",
+        "Zhang Z",
+        "Yao X",
+        "Peng Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Hunan University of Traditional Chinese Medicine, Changsha, 410208, Hunan Province, China.",
+        "Dongying People's Hospital (Dongying Hospital of Shandong Provincial Hospital Group), Dongying, Shandong, 257091, PR China.",
+        "Hunan University of Traditional Chinese Medicine, Changsha, 410208, Hunan Province, China.",
+        "Hunan University of Traditional Chinese Medicine, Changsha, 410208, Hunan Province, China.",
+        "Hunan University of Traditional Chinese Medicine, Changsha, 410208, Hunan Province, China.",
+        "Department of Ophthalmology, the First Affiliated Hospital of Hunan University of Traditional Chinese Medicine, Changsha, 410007, Hunan Province, China.",
+        "Ophthalmology Department, The First Hospital of Hunan University of Chinese Medicine, Changsha, 410011, China.",
+        "Hunan University of Traditional Chinese Medicine, Changsha, 410208, Hunan Province, China. pqh410007@126.com.",
+        "Department of Ophthalmology, the First Affiliated Hospital of Hunan University of Traditional Chinese Medicine, Changsha, 410007, Hunan Province, China. pqh410007@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Zixuan",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan University of Traditional Chinese Medicine, Changsha, 410208, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jinfeng",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Dongying People's Hospital (Dongying Hospital of Shandong Provincial Hospital Group), Dongying, Shandong, 257091, PR China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yi",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan University of Traditional Chinese Medicine, Changsha, 410208, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Xin",
+        "short_name": "Peng X",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan University of Traditional Chinese Medicine, Changsha, 410208, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zheyuan",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan University of Traditional Chinese Medicine, Changsha, 410208, Hunan Province, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Xiaolei",
+        "short_name": "Yao X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, the First Affiliated Hospital of Hunan University of Traditional Chinese Medicine, Changsha, 410007, Hunan Province, China.",
+          "Ophthalmology Department, The First Hospital of Hunan University of Chinese Medicine, Changsha, 410011, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Qinghua",
+        "short_name": "Peng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan University of Traditional Chinese Medicine, Changsha, 410208, Hunan Province, China. pqh410007@126.com.",
+          "Department of Ophthalmology, the First Affiliated Hospital of Hunan University of Traditional Chinese Medicine, Changsha, 410007, Hunan Province, China. pqh410007@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ophthalmic inflammation and infection"
+    ],
+    "journal_abbrev": [
+      "J Ophthalmic Inflamm Infect"
+    ],
+    "pub_date": "2024 Jun 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/20 12:43",
+    "fetched_at": "2026-09-29 22:19:53"
+  },
+  "links": {
+    "cites": [
+      "41826567"
+    ],
+    "refs": [
+      "38605967",
+      "38436326",
+      "38233749",
+      "37591714",
+      "37450626",
+      "37416674",
+      "37106067",
+      "36478193",
+      "36356459",
+      "36288724",
+      "36278172",
+      "36078039",
+      "36076300",
+      "36030374",
+      "35973990",
+      "35955742",
+      "35669499",
+      "35651615",
+      "35538211",
+      "35460405",
+      "35440697",
+      "35388006",
+      "35085599",
+      "34968772",
+      "34365741",
+      "34358447",
+      "34185303",
+      "34090378",
+      "33777622",
+      "32735845",
+      "32232558",
+      "31528770",
+      "31276737",
+      "31099649",
+      "30973282",
+      "30628641",
+      "29927883",
+      "29716820",
+      "29508855",
+      "29377287",
+      "29233972",
+      "28975236",
+      "28812938",
+      "28634929",
+      "28008797",
+      "27112911",
+      "26994870",
+      "26477021",
+      "25749660",
+      "25517747",
+      "22262301",
+      "22128811",
+      "20092603",
+      "9082263",
+      "7831030",
+      "1945276"
+    ],
+    "similar": [
+      "38900395",
+      "39402101",
+      "38903815",
+      "39164324",
+      "38233749",
+      "38605967",
+      "35928610",
+      "38371524",
+      "36627660",
+      "35966794",
+      "35845512",
+      "37582718",
+      "37783761",
+      "34107850",
+      "37732314",
+      "35341274",
+      "36671424",
+      "33598484",
+      "35497880",
+      "38650649",
+      "35350787",
+      "36172114",
+      "37545529",
+      "37351719",
+      "37980550",
+      "38291374",
+      "35399247",
+      "36246593",
+      "36506310",
+      "35962388",
+      "34321013",
+      "35305619",
+      "35264872",
+      "37033969",
+      "38283345",
+      "35475279",
+      "35378934",
+      "36589450",
+      "39400603",
+      "37821869",
+      "39050259",
+      "33879726",
+      "34233597",
+      "35733917",
+      "36211422",
+      "37359526",
+      "36704339",
+      "34484236",
+      "36926043",
+      "37635936",
+      "35713363",
+      "37469874",
+      "37287971",
+      "38965390",
+      "33883324",
+      "35726312",
+      "35911963",
+      "37322958",
+      "35463752",
+      "34311758",
+      "35959356",
+      "36267781",
+      "36742332",
+      "28968468",
+      "38215553",
+      "38755717",
+      "36064366",
+      "37841288",
+      "35955742",
+      "37700485",
+      "37131411",
+      "34900664",
+      "38320734",
+      "33333372",
+      "39228680",
+      "38374756",
+      "38099311",
+      "35719392",
+      "35764238",
+      "38020614",
+      "35295271",
+      "33996893",
+      "36875119",
+      "36110430",
+      "35903097",
+      "34276768",
+      "33613635",
+      "37908757",
+      "36345357",
+      "36746116",
+      "38034382",
+      "36148059",
+      "33195475",
+      "37760894",
+      "36353576",
+      "36317112",
+      "36685898",
+      "35607268",
+      "37884559",
+      "35116604",
+      "38809515",
+      "39217320",
+      "38886134",
+      "37923775",
+      "39161552",
+      "39113685",
+      "39076097",
+      "37873241"
+    ],
+    "review": [
+      "38900395"
+    ],
+    "pmc": [
+      "11190126"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38900395/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1186/s12348-024-00410-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38900395",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

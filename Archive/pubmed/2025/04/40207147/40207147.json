@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "40207147",
+    "doi": "10.3389/fmicb.2025.1569559",
+    "title": "Gene network centrality analysis identifies key regulators coordinating day-night metabolic transitions in Synechococcus elongatus PCC 7942 despite limited accuracy in predicting direct regulator-gene interactions."
+  },
+  "content": {
+    "abstract": "Synechococcus elongatus PCC 7942 is a model organism for studying circadian regulation and bioproduction, where precise temporal control of metabolism significantly impacts photosynthetic efficiency and CO(2)-to-bioproduct conversion. Despite extensive research on core clock components, our understanding of the broader regulatory network orchestrating genome-wide metabolic transitions remains incomplete. We address this gap by applying machine learning tools and network analysis to investigate the transcriptional architecture governing circadian-controlled gene expression. While our approach showed moderate accuracy in predicting individual transcription factor-gene interactions - a common challenge with real expression data - network-level topological analysis successfully revealed the organizational principles of circadian regulation. Our analysis identified distinct regulatory modules coordinating day-night metabolic transitions, with photosynthesis and carbon/nitrogen metabolism controlled by day-phase regulators, while nighttime modules orchestrate glycogen mobilization and redox metabolism. Through network centrality analysis, we identified potentially significant but previously understudied transcriptional regulators: HimA as a putative DNA architecture regulator, and TetR and SrrB as potential coordinators of nighttime metabolism, working alongside established global regulators RpaA and RpaB. This work demonstrates how network-level analysis can extract biologically meaningful insights despite limitations in predicting direct regulatory interactions. The regulatory principles uncovered here advance our understanding of how cyanobacteria coordinate complex metabolic transitions and may inform metabolic engineering strategies for enhanced photosynthetic bioproduction from CO(2).",
+    "keywords": [
+      "circadian regulation",
+      "coordination of temporal metabolism",
+      "gene network centrality analysis",
+      "gene regulatory networks",
+      "network-based key regulator discovery",
+      "regulation of day-night transition",
+      "regulators for circadian-optimized bioproduction"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Johnson, Zachary",
+        "Anderson, David",
+        "Cheung, Margaret S",
+        "Bohutskyi, Pavlo"
+      ],
+      "short_names": [
+        "Johnson Z",
+        "Anderson D",
+        "Cheung MS",
+        "Bohutskyi P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Biological Sciences Division, Earth and Biological Sciences Directorate, Pacific Northwest National Laboratory, Richland, WA, United States.",
+        "Department of Biological Systems Engineering, Washington State University, Pullman, WA, United States.",
+        "Biological Sciences Division, Earth and Biological Sciences Directorate, Pacific Northwest National Laboratory, Richland, WA, United States.",
+        "Environmental Molecular Sciences Laboratory, Pacific Northwest National Laboratory, Richland, WA, United States.",
+        "Department of Physics, University of Washington, Seattle, WA, United States.",
+        "Biological Sciences Division, Earth and Biological Sciences Directorate, Pacific Northwest National Laboratory, Richland, WA, United States.",
+        "Department of Biological Systems Engineering, Washington State University, Pullman, WA, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Johnson, Zachary",
+        "short_name": "Johnson Z",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Earth and Biological Sciences Directorate, Pacific Northwest National Laboratory, Richland, WA, United States.",
+          "Department of Biological Systems Engineering, Washington State University, Pullman, WA, United States."
+        ]
+      },
+      {
+        "full_name": "Anderson, David",
+        "short_name": "Anderson D",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Earth and Biological Sciences Directorate, Pacific Northwest National Laboratory, Richland, WA, United States."
+        ]
+      },
+      {
+        "full_name": "Cheung, Margaret S",
+        "short_name": "Cheung MS",
+        "identifiers": [],
+        "affiliations": [
+          "Environmental Molecular Sciences Laboratory, Pacific Northwest National Laboratory, Richland, WA, United States.",
+          "Department of Physics, University of Washington, Seattle, WA, United States."
+        ]
+      },
+      {
+        "full_name": "Bohutskyi, Pavlo",
+        "short_name": "Bohutskyi P",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences Division, Earth and Biological Sciences Directorate, Pacific Northwest National Laboratory, Richland, WA, United States.",
+          "Department of Biological Systems Engineering, Washington State University, Pullman, WA, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in microbiology"
+    ],
+    "journal_abbrev": [
+      "Front Microbiol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/10 06:24",
+    "fetched_at": "2026-09-30 15:25:49"
+  },
+  "links": {
+    "cites": [
+      "42455002",
+      "42353642",
+      "41192558"
+    ],
+    "refs": [
+      "40055679",
+      "38971279",
+      "38898010",
+      "38831002",
+      "38825177",
+      "38238583",
+      "37971353",
+      "37925065",
+      "37902126",
+      "37502399",
+      "37349485",
+      "37275163",
+      "37002131",
+      "36926589",
+      "36408920",
+      "36350610",
+      "35922624",
+      "35773252",
+      "35584008",
+      "35561176",
+      "35501393",
+      "35377491",
+      "35181703",
+      "34871439",
+      "34850094",
+      "34673384",
+      "34608966",
+      "34326402",
+      "33758091",
+      "33539514",
+      "33372147",
+      "33125078",
+      "33082399",
+      "32606380",
+      "32567619",
+      "32281544",
+      "32015543",
+      "31660848",
+      "31649110",
+      "31606035",
+      "31231331",
+      "31103851",
+      "30858880",
+      "30737009",
+      "30540929",
+      "30527541",
+      "29925568",
+      "29447345",
+      "29439212",
+      "29239721",
+      "29036684",
+      "28874552",
+      "28430105",
+      "27840625",
+      "27742883",
+      "27525040",
+      "26448090",
+      "26006225",
+      "25957680",
+      "24478787",
+      "24315105",
+      "24225321",
+      "24041013",
+      "23608552",
+      "23541768",
+      "23193258",
+      "23153078",
+      "23038809",
+      "22796662",
+      "22733774",
+      "22665493",
+      "21282404",
+      "21049040",
+      "20972212",
+      "20927193",
+      "20662766",
+      "20351254",
+      "20133618",
+      "20018699",
+      "19822021",
+      "19787083",
+      "19771559",
+      "19690563",
+      "18391440",
+      "18073188",
+      "18000054",
+      "17977831",
+      "17962296",
+      "17827271",
+      "17704219",
+      "17035238",
+      "15347812",
+      "15347809",
+      "14709675",
+      "14605795",
+      "12583900",
+      "11125040",
+      "10880447",
+      "10712699",
+      "10592173",
+      "9727980",
+      "9399800",
+      "8451191",
+      "8026471"
+    ],
+    "similar": [
+      "40207147",
+      "40055679",
+      "27381914",
+      "39269777",
+      "22665493",
+      "25653337",
+      "23368635",
+      "25825710",
+      "35475644",
+      "27142972",
+      "30216574",
+      "28074036",
+      "29239721",
+      "29991601",
+      "30150148",
+      "25826650",
+      "25385627",
+      "17027373",
+      "27488818",
+      "40047425",
+      "28732467",
+      "29101204",
+      "37531328",
+      "35248031",
+      "37387320",
+      "33728661",
+      "31485868",
+      "36998399",
+      "35845416",
+      "34914362",
+      "30409802",
+      "30540929",
+      "34705549",
+      "28303150",
+      "37925065",
+      "28430105",
+      "26278506",
+      "26508635",
+      "26442846",
+      "27143387",
+      "35353903",
+      "29068210",
+      "23340342",
+      "27911809",
+      "24315105",
+      "24367360",
+      "31932622",
+      "38079111",
+      "28106321",
+      "30006407",
+      "31139651",
+      "30439494",
+      "38441328",
+      "32269205",
+      "32668657",
+      "33253146",
+      "22021405",
+      "26879003",
+      "31767776",
+      "39361997",
+      "27568004",
+      "24244001",
+      "31649110",
+      "28365988",
+      "37850123",
+      "18344369",
+      "19666549",
+      "27613406",
+      "31069553",
+      "38204133",
+      "33972427",
+      "22898356",
+      "37219374",
+      "23339487",
+      "22322959",
+      "36920196",
+      "28325659",
+      "29510212",
+      "23969558",
+      "27481676",
+      "19395479",
+      "39863235",
+      "15347812",
+      "27742883",
+      "36702257",
+      "26644408",
+      "39591971",
+      "36403709",
+      "21282404",
+      "18643976",
+      "34340540",
+      "16303742",
+      "30413737",
+      "14616072",
+      "16707582",
+      "30844478",
+      "30973704",
+      "17210789",
+      "31000743",
+      "27611502"
+    ],
+    "review": [
+      "40207147",
+      "17027373",
+      "37531328",
+      "26442846"
+    ],
+    "pmc": [
+      "11979508"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40207147/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmicb.2025.1569559",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

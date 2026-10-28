@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41822387",
+  "title": "Identification of core genes and transcription factors related to metabolic reprogramming in atherosclerosis: a multi-omics analysis and experimental validation approach.",
+  "authors": "Liu, Yanhong; Ma, Yirong; Song, Zhijian; Lai, Junyu; Huang, Yingying; Ding, Doukun; Fan, Zengguang; Wu, Jianguang",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2026-03-13",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 3,
+  "one_liner_zh": "该文通过多组学与机器学习筛选动脉粥样硬化代谢重编程核心基因并预测上游转录因子EGR1，但仅用hTFtarget做TF预测，无蛋白-DNA互作建模或AI/物理模拟方法，属于纯生信与湿实验验证，与本课题核心关联弱。",
+  "abstract": "BACKGROUND: Atherosclerosis (AS) is a chronic inflammatory disease driven significantly by metabolic reprogramming (MR). However, the core MR-related genes and their specific functions in AS remain incompletely understood, thus creating an urgent need for reliable diagnostic and therapeutic biomarkers. METHODS: Two AS-related microarray datasets (GSE100927 and GSE28829) were integrated and normalized. Differential expression analysis identified differentially expressed genes (DEGs), which were intersected with an MR-related gene set to obtain MR-related DEGs (MRDEGs). Functional enrichment analyses-including Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses-were conducted. Subsequently, weighted gene co-expression network analysis (WGCNA) was combined with multiple machine learning algorithms to screen for hub genes. These candidate genes were further validated using an external dataset (GSE43292) and evaluated via receiver operating characteristic (ROC) curve analysis. Additionally, a multi-gene diagnostic model was constructed and assessed using both nomogram and SHAP analysis. Single-gene Gene Set Enrichment Analysis (GSEA) elucidated the biological functions of core genes. Immune infiltration and single-cell analyses investigated microenvironment remodeling. Moreover, transcription factor (TF) prediction via hTFtarget, integrated with transcriptome sequencing of human umbilical vein endothelial cells (HUVECs), identify upstream regulators. Finally, Experimental validation was performed in ApoE(-/-) mice. RESULTS: We identified 57 MRDEGs and selected four core genes-LYN, FABP5, MMP9, and ANPEP-which demonstrated high diagnostic value. The multi-gene model showed strong clinical predictive performance. GSEA further revealed significant involvement of these genes in immune-inflammatory pathways. Immune infiltration and single-cell analyses confirmed substantial immune microenvironment remodeling and altered cell-cell communication. EGR1 was identified as a key upstream transcription factor. Ultimately, Experimental validation in ApoE(-/-) mice confirmed marked upregulation of all four core genes at mRNA and protein levels, with EGR1 also showing significantly elevated protein expression. CONCLUSION: This study identifies LYN, FABP5, MMP9, and ANPEP as core MR-related genes in AS, clarifies their roles in immune microenvironment regulation, and confirms their value as diagnostic biomarkers, thereby providing new insights for precise diagnosis and targeted therapy of AS.",
+  "abstract_zh": "背景：动脉粥样硬化（Atherosclerosis, AS）是一种慢性炎症性疾病，其发生显著受代谢重编程（metabolic reprogramming, MR）驱动。然而，AS中核心MR相关基因及其具体功能仍未被完全阐明，因此迫切需要可靠的诊断和治疗生物标志物。方法：整合并标准化了两个AS相关微阵列数据集（GSE100927和GSE28829）。通过差异表达分析鉴定差异表达基因（differentially expressed genes, DEGs），并将其与MR相关基因集取交集，获得MR相关DEGs（MRDEGs）。进行了功能富集分析，包括基因本体论（Gene Ontology, GO）和京都基因与基因组百科全书（Kyoto Encyclopedia of Genes and Genomes, KEGG）分析。随后，将加权基因共表达网络分析（weighted gene co-expression network analysis, WGCNA）与多种机器学习算法相结合，以筛选核心基因。这些候选基因进一步使用外部数据集（GSE43292）进行验证，并通过受试者工作特征（receiver operating characteristic, ROC）曲线分析进行评估。此外，构建了一个多基因诊断模型，并使用列线图（nomogram）和SHAP分析进行评估。单基因基因集富集分析（Gene Set Enrichment Analysis, GSEA）阐明了核心基因的生物学功能。免疫浸润和单细胞分析研究了微环境重塑。此外，通过hTFtarget进行转录因子（transcription factor, TF）预测，并结合人脐静脉内皮细胞（human umbilical vein endothelial cells, HUVECs）的转录组测序，识别上游调控因子。最后，在ApoE(-/-)小鼠中进行了实验验证。结果：我们鉴定了57个MRDEGs，并选择了四个核心基因——LYN、FABP5、MMP9和ANPEP，这些基因显示出高诊断价值。多基因模型表现出强大的临床预测性能。GSEA进一步揭示了这些基因在免疫炎症通路中的显著参与。免疫浸润和单细胞分析证实了显著的免疫微环境重塑和细胞间通讯改变。EGR1被确定为关键的上游转录因子。最终，在ApoE(-/-)小鼠中的实验验证确认了所有四个核心基因在mRNA和蛋白水平上的显著上调，同时EGR1也显示出显著升高的蛋白表达。结论：本研究将LYN、FABP5、MMP9和ANPEP确定为AS中的核心MR相关基因，阐明了它们在免疫微环境调控中的作用，并确认了它们作为诊断生物标志物的价值，从而为AS的精准诊断和靶向治疗提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41822387/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41822387/",
+  "paper_page_path": "papers/pubmed/41822387/index.html"
+}

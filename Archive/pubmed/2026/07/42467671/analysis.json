@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42467671",
+  "title": "What topological and geometric structure do biological foundation models learn? Evidence from 141 hypotheses.",
+  "authors": "Kendiukhov, Ihor",
+  "journal": "PloS one",
+  "published_date": "2026-07-17",
+  "window": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究单细胞基础模型内部表征的几何拓扑结构，虽涉及转录因子-靶基因关系，但核心是基因表达模型而非蛋白质-DNA互作建模，方法为AI假设筛选，与TF-DNA结合机制研究关联较弱。",
+  "abstract": "When biological foundation models like scGPT and Geneformer learn to process single-cell gene expression, what kind of geometric and topological structure forms in their internal representations? Is that structure biologically meaningful, or merely an artifact of training?. We address these questions through autonomous large-scale hypothesis screening: an AI-driven executor-brainstormer loop that proposed, tested, and refined 141 geometric and topological hypotheses across 52 iterations, covering persistent homology, manifold distances, cross-model alignment, community structure, directed topology, and more-all with explicit null controls and disjoint gene-pool splits. Three principal findings emerge. First, the models learn genuine geometric structure: gene embedding neighborhoods exhibit non-trivial topology (persistent homology significant in 11/12 transformer layers at p < 0.05 even in the weakest domain, and 12/12 in the other two), a multi-level distance hierarchy where manifold-aware metrics outperform Euclidean distance for identifying regulatory gene pairs, and graph-community partitions that track known transcription factor-target relationships. Second, this structure is shared across independently trained models: CCA alignment between scGPT and Geneformer yields canonical correlation of 0.80 and gene retrieval accuracy of 72%-yet no method among 19 tested could reliably recover gene-level correspondences, revealing that the models agree on the \"shape\" of gene space but not on precise gene placement. Third, the structure is more localized than it first appears: under the most stringent null controls (simultaneous auditing against all null families), robust signal concentrates in immune tissue, while lung and external-lung signals become fragile. These results-especially the carefully documented negatives among 141 hypotheses-calibrate what we can and cannot extract from biological model geometry, and demonstrate how autonomous screening can efficiently map the boundary between real structure and statistical artifact.",
+  "abstract_zh": "当生物基础模型如scGPT和Geneformer学习处理单细胞基因表达时，其内部表征中会形成何种几何与拓扑结构？这种结构是否具有生物学意义，抑或仅仅是训练产生的伪影？我们通过自主大规模假设筛选来回答这些问题：一个由AI驱动的执行者-头脑风暴者循环，在52次迭代中提出、测试并精炼了141个几何与拓扑假设，涵盖持续同调、流形距离、跨模型对齐、社区结构、有向拓扑等，所有假设均配有显式零对照和不相交基因集划分。三个主要发现浮现。第一，模型学习到真实的几何结构：基因嵌入邻域表现出非平凡拓扑（即使在最弱领域中，12个transformer层中有11层的持续同调在p < 0.05下显著，另外两个领域则为12/12），一个多层次距离层级，其中流形感知度量在识别调控基因对方面优于欧氏距离，以及追踪已知转录因子-靶标关系的图社区划分。第二，这种结构在独立训练的模型间共享：scGPT与Geneformer之间的CCA对齐产生0.80的典型相关性和72%的基因检索准确率——然而19种测试方法中无一能可靠恢复基因级对应关系，揭示模型在基因空间的“形状”上达成一致，但在精确基因定位上并不一致。第三，这种结构比初看更为局部化：在最严格的零对照下（同时针对所有零家族进行审计），稳健信号集中于免疫组织，而肺和外周肺信号变得脆弱。这些结果——尤其是141个假设中仔细记录的阴性结果——校准了我们能从生物模型几何中提取什么、不能提取什么，并展示了自主筛选如何高效地绘制真实结构与统计伪影之间的边界。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42467671/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42467671/",
+  "paper_page_path": "papers/pubmed/42467671/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "medrxiv",
+  "id": "10.1101/2025.05.27.25328444",
+  "title": "Extending Genome-Wide Association Studies to admixed cohorts with high degrees of relatedness",
+  "authors": "Tan T; Vergara-Lope A; Martínez-Magaña JJ; Shah NN; Yuan K; Berumen J; Alegre-Díaz J; Kuri-Morales P; Tapia-Conyer R; Gelenter J; Montalvo-Ortiz JL; Zhou W; Torres JM; Atkinson EG",
+  "journal": "medRxiv",
+  "published_date": "2025-06-09",
+  "window": {
+    "start": "2025-06-09",
+    "end": "2025-06-15"
+  },
+  "score": 0,
+  "one_liner_zh": "该文提出针对混合人群亲缘关系的GWAS统计方法Tractor-Mix，属于群体遗传关联分析，不涉及蛋白质-DNA互作、转录因子结合或AI/物理模拟建模，与本课题无关。",
+  "abstract": "Recently admixed populations comprise a large portion of the human population worldwide, but are often excluded from Genome-Wide Association Studies (GWAS) due to analytic challenges. Our group has previously developed a local ancestry informed generalized linear model based method, Tractor , for GWAS in admixed samples, which produces accurate ancestry-specific effect sizes and boosts discovery power to identify ancestry-enriched loci. Tractor has been instrumental for elucidating the genetic architecture of complex traits across admixed cohorts, however it operates under an assumption of unrelated samples. As biobanks and other large-scale data sources continue to grow, increasing numbers of closely or cryptically related admixed samples are included. This brings new statistical challenges in conducting GWAS and motivates the timely development of novel tools that can model admixture in various cohort settings. Here, we propose a novel mixed model method, Tractor-Mix , that allows for well-calibrated association studies in datasets containing admixed samples with high degrees of relatedness. Similar to Tractor , our method conducts genetic association tests by leveraging local ancestry to produce more accurate effect sizes and boost power under heterogeneity while effectively controlling false positives. Extensive simulations show this enhanced method is competitive with other state-of-the-art approaches that do not produce ancestry-specific results. Empirical testing of Tractor-Mix on multiple cohorts, including admixed samples from the UK Biobank and Mexico City Prospective Study, highlight the value of the method, identifying ancestry-specific associations. In summary, Tractor-Mix is a powerful association framework that extends the capabilities of current models and will facilitate the inclusion of admixed samples in large-scale GWAS.",
+  "abstract_zh": "近期混合人群占全球人类人口的很大比例，但由于分析挑战，常被排除在全基因组关联研究（GWAS）之外。我们团队先前开发了一种基于局部祖先信息的广义线性模型方法 Tractor，用于混合样本的 GWAS，该方法能产生准确的祖先特异性效应大小，并提升识别祖先富集位点的发现能力。Tractor 在阐明混合队列中复杂性状的遗传结构方面发挥了关键作用，但其操作假设样本不相关。随着生物库和其他大规模数据源的持续增长，越来越多密切相关或隐性相关的混合样本被纳入。这带来了进行 GWAS 时的新统计挑战，并促使及时开发能够模拟各种队列设置中混合情况的新工具。在此，我们提出一种新颖的混合模型方法 Tractor-Mix，允许在包含高度相关混合样本的数据集中进行校准良好的关联研究。与 Tractor 类似，我们的方法通过利用局部祖先进行遗传关联检验，以产生更准确的效应大小并在异质性下提升功效，同时有效控制假阳性。广泛模拟显示，这种增强方法与其他不产生祖先特异性结果的最先进方法具有竞争力。对 Tractor-Mix 在多个队列（包括来自英国生物库和墨西哥城前瞻性研究的混合样本）上的实证测试突显了该方法的价值，识别出祖先特异性关联。总之，Tractor-Mix 是一个强大的关联框架，扩展了当前模型的能力，并将促进混合样本纳入大规模 GWAS。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.medrxiv.org/content/10.1101/2025.05.27.25328444",
+  "source_url": "https://www.medrxiv.org/content/10.1101/2025.05.27.25328444",
+  "paper_page_path": "papers/medrxiv/10.1101_2025.05.27.25328444/index.html"
+}

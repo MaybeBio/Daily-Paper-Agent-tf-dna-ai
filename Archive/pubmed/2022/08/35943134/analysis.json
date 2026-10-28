@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35943134",
+  "title": "A deep learning-based method for the prediction of DNA interacting residues in a protein.",
+  "authors": "Patiyal, Sumeet; Dhall, Anjali; Raghava, Gajendra P S",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2022-08-10",
+  "window": {
+    "start": "2022-08-08",
+    "end": "2022-08-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度学习预测蛋白质中的DNA结合残基，属于广义蛋白-DNA互作位点预测，方法可迁移至TF-DNA体系，但未聚焦转录因子特异性结合机制。",
+  "abstract": "DNA-protein interaction is one of the most crucial interactions in the biological system, which decides the fate of many processes such as transcription, regulation and splicing of genes. In this study, we trained our models on a training dataset of 646 DNA-binding proteins having 15 636 DNA interacting and 298 503 non-interacting residues. Our trained models were evaluated on an independent dataset of 46 DNA-binding proteins having 965 DNA interacting and 9911 non-interacting residues. All proteins in the independent dataset have less than 30% of sequence similarity with proteins in the training dataset. A wide range of traditional machine learning and deep learning (1D-CNN) techniques-based models have been developed using binary, physicochemical properties and Position-Specific Scoring Matrix (PSSM)/evolutionary profiles. In the case of machine learning technique, eXtreme Gradient Boosting-based model achieved a maximum area under the receiver operating characteristics (AUROC) curve of 0.77 on the independent dataset using PSSM profile. Deep learning-based model achieved the highest AUROC of 0.79 on the independent dataset using a combination of all three profiles. We evaluated the performance of existing methods on the independent dataset and observed that our proposed method outperformed all the existing methods. In order to facilitate scientific community, we developed standalone software and web server, which are accessible from https://webs.iiitd.edu.in/raghava/dbpred.",
+  "abstract_zh": "DNA-蛋白质相互作用是生物系统中最重要的相互作用之一，它决定了诸如基因转录、调控和剪接等许多过程的命运。在本研究中，我们在包含646个DNA结合蛋白的训练数据集上训练了模型，该数据集包含15,636个DNA相互作用残基和298,503个非相互作用残基。我们训练的模型在包含46个DNA结合蛋白的独立数据集上进行了评估，该数据集包含965个DNA相互作用残基和9,911个非相互作用残基。独立数据集中的所有蛋白质与训练数据集中的蛋白质序列相似性低于30%。我们利用二元特征、理化性质以及位置特异性评分矩阵（PSSM）/进化谱，开发了基于传统机器学习和深度学习（1D-CNN）技术的多种模型。在机器学习技术方面，基于eXtreme Gradient Boosting的模型在使用PSSM谱的独立数据集上达到了最大接收者操作特征曲线下面积（AUROC）为0.77。基于深度学习的模型在使用所有三种谱组合的独立数据集上达到了最高AUROC为0.79。我们在独立数据集上评估了现有方法的性能，并观察到我们提出的方法优于所有现有方法。为了便于科学界使用，我们开发了独立软件和网络服务器，可通过 https://webs.iiitd.edu.in/raghava/dbpred 访问。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35943134/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35943134/",
+  "paper_page_path": "papers/pubmed/35943134/index.html"
+}

@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based solely on the provided manuscript text. No external data, supplementary figures, or source data were accessed.
+- **Shared manuscript claim summary** The authors report that nitric oxide (NO) induces S-nitrosylation of EZH2 at cysteine residues 329 and 700 in endothelial cells. This modification leads to early dissociation of SUZ12 from the PRC2 complex, reduced H3K27me3 levels, cytosolic translocation, ubiquitination, and degradation of EZH2 primarily via the autophagosome-lysosome pathway. The authors further propose that this regulation maintains endothelial homeostasis in physiological and pathological settings, including diabetic conditions, and use molecular dynamics simulations to suggest a structural basis for weakened EZH2-SUZ12 interaction upon S-nitrosylation.
+- **Visible evidence base** Results sections describing immunoblotting, co-immunoprecipitation, biotin switch assays, iodoTMT labeling, mass spectrometry-based interactome analysis, confocal microscopy, enzymatic activity assays, qPCR, ChIP-qPCR, and molecular dynamics simulations. Figure legends for Figures 1-7 and several supplementary figures are referenced.
+- **Missing materials affecting confidence** Supplementary figures and data files (Supplementary Figs. 1-13, Supplementary Datas 1-3) are referenced but not provided. Source data files are not available. Statistical details for several experiments, including exact p-values and effect sizes, are not fully reported in the text. The in vivo diabetic kidney disease data are presented only as a brief summary without full experimental details or quantification.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a novel and potentially important question: whether NO directly modifies the epigenetic regulator EZH2 via S-nitrosylation, and whether this modification impacts PRC2 function and endothelial biology. The topic is of interest to vascular biology and epigenetics communities. However, the current evidence, as presented, does not fully establish the mechanistic claims. Key concerns include incomplete validation of S-nitrosylation at specific endogenous cysteines, lack of direct evidence linking S-nitrosylation to the observed PRC2 disassembly, reliance on overexpression systems for key mutant studies, and insufficient quantitative data for several central conclusions. The molecular dynamics simulations are suggestive but not conclusive. The link to endothelial homeostasis and diabetic disease, while intriguing, is supported by correlative data only.
+- **Who would be interested in the results, and why** Researchers in vascular biology, nitric oxide signaling, epigenetics, and chromatin regulation would find this study of interest. The potential connection between NO bioavailability and PRC2 activity could have implications for understanding endothelial dysfunction in cardiovascular and metabolic diseases. The proposed mechanism of S-nitrosylation-induced protein degradation may also be of interest to those studying post-translational regulation of chromatin modifiers.
+- **Major strengths**
+  - The study addresses a novel post-translational modification of a key epigenetic enzyme.
+  - The combination of biochemical, cellular, and computational approaches is ambitious.
+  - The observation that H3K27me3 declines before EZH2 protein loss is an interesting temporal distinction.
+  - The use of both exogenous NO donors and endogenous eNOS stimulation strengthens the physiological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validity of the central modification claim
+  - **Claim pointer** The manuscript claims that EZH2 is S-nitrosylated at cysteine residues 329 and 700 in endothelial cells, and that this modification is responsible for the observed functional changes.
+  - **Evidence pointer** Results section "SNP/GSNO exposure caused S-Nitrosylation of EZH2...", Figures 3A-G, Supplementary Fig. 8, Supplementary Fig. 12C.
+  - **Concern** The evidence for S-nitrosylation at the specific endogenous cysteines is incomplete. The iodoTMT assay was performed on a truncated recombinant protein (429-728 aa) in a cell-free system, which does not confirm modification of the full-length endogenous protein. The biotin switch and pan-SNO antibody experiments confirm S-nitrosylation of EZH2 but do not identify the modified residues. The mutant studies (C329S, C700S) were performed in an overexpression system in HEK-293 cells, which may not reflect the stoichiometry or regulation in endothelial cells. Mass spectrometry-based identification of the specific S-nitrosylated cysteines in endogenous EZH2 from endothelial cells is not provided. Without this, the causal link between modification at these specific sites and the observed phenotypes is not established.
+  - **Why it matters** The central thesis of the paper rests on the identification of specific cysteine residues as the targets of S-nitrosylation. If the modification at these sites is not confirmed in the endogenous context, the mechanistic model is not supported.
+  - **Resolution test** Provide mass spectrometry data identifying S-nitrosylated cysteines in endogenous EZH2 from NO-treated endothelial cells. Alternatively, perform rescue experiments with phosphomimetic or non-nitrosylatable mutants in EZH2-knockout endothelial cells to demonstrate that the specific cysteines are required for the observed effects on PRC2 assembly, activity, and stability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between S-nitrosylation and PRC2 disassembly
+  - **Claim pointer** The manuscript claims that S-nitrosylation of EZH2 causes early dissociation of SUZ12 from the PRC2 complex, leading to reduced methyltransferase activity.
+  - **Evidence pointer** Results section "SNP/GSNO interplayed with EZH2...", Figure 1D, Figure 2F, Figure 3D, Figure 6I.
+  - **Concern** The co-immunoprecipitation experiments show reduced EZH2-SUZ12 association after NO donor treatment. However, this is a correlative observation. The manuscript does not demonstrate that S-nitrosylation directly weakens the EZH2-SUZ12 interaction. The molecular dynamics simulations suggest a structural basis, but this is in silico. The mutant EZH2 C329S C700S, which is resistant to S-nitrosylation at these sites, maintains SUZ12 association, but this is only shown in an overexpression system. It is not clear if the reduced association is a direct consequence of the modification or an indirect effect of altered EZH2 stability or localization. The manuscript does not rule out that other NO-mediated modifications (e.g., on other PRC2 components) contribute to the disassembly.
+  - **Why it matters** The proposed mechanism is that S-nitrosylation directly disrupts the PRC2 complex. If the disassembly is an indirect consequence of other events, the model is incorrect.
+  - **Resolution test** Perform in vitro binding assays with purified recombinant EZH2 (wild-type and S-nitrosylated) and SUZ12 to demonstrate a direct effect of the modification on binding affinity. Alternatively, use a chemical biology approach to specifically modify EZH2 cysteines in cell extracts and assess PRC2 integrity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support for key conclusions
+  - **Claim pointer** The manuscript claims significant reductions in EZH2 and H3K27me3 levels, and significant effects on endothelial migration and monocyte adhesion.
+  - **Evidence pointer** Figures 1A-B, 2A, 5B-C, 5N, and associated text.
+  - **Concern** The manuscript relies heavily on representative immunoblots and images. While n numbers are stated in figure legends, the text does not consistently report quantitative data such as mean fold-change, effect size, and exact p-values for all key experiments. For example, the quantification of the migration and monocyte adhesion assays is not fully described. The in vivo diabetic kidney disease data are presented without quantification. This lack of quantitative detail makes it difficult to assess the robustness and magnitude of the reported effects.
+  - **Why it matters** For a Nature-family journal, the strength of the conclusions must be matched by rigorous quantitative analysis. Without this, the reader cannot judge the biological significance of the findings.
+  - **Resolution test** Provide full quantitative analysis for all key experiments, including bar graphs with individual data points, mean ± SD, and exact p-values. For the in vivo data, provide a full description of the experimental groups, sample sizes, and statistical analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance and disease link
+  - **Claim pointer** The manuscript claims that S-nitrosylation-dependent regulation of EZH2 maintains endothelial homeostasis in both physiological and pathological settings, and that this pathway is relevant to diabetic vascular complications.
+  - **Evidence pointer** Results section "S-nitrosylation of EZH2 promoted its degradation...", Figure 5, Supplementary Fig. 11.
+  - **Concern** The link to endothelial homeostasis is based on in vitro migration assays and the reversal of hyperglycemia-induced inflammation markers. The in vivo relevance is only suggested by a brief description of increased EZH2 and H3K27me3 in diabetic kidneys. This is correlative and does not demonstrate a causal role for S-nitrosylation. The manuscript does not show that S-nitrosylation of EZH2 is altered in diabetic tissues, nor does it demonstrate that manipulating this pathway in vivo affects disease outcomes.
+  - **Why it matters** The title and discussion imply a role in maintaining endothelial homeostasis in disease. The current evidence is too preliminary to support this broad claim.
+  - **Resolution test** Provide direct evidence of altered EZH2 S-nitrosylation in diabetic tissues. Use in vivo models, such as endothelial-specific EZH2 C329S C700S knock-in mice, to test whether loss of S-nitrosylation at these sites affects diabetic endothelial dysfunction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 1F, Figure 2E, Figure 4O, Figure 6D, Figure 6F
+  - **Evidence pointer** Figure legends for the mentioned figures.
+  - **Issue** The immunofluorescence images are described as showing cytosolic translocation and co-localization with F-actin. However, the images are not quantified, and the degree of co-localization is not statistically assessed. The distinction between nuclear and cytosolic localization is not always clear from the representative images.
+  - **Required correction** Provide quantitative co-localization analysis and a clear description of the image analysis method. Consider including line scans or Pearson's correlation coefficients to support the co-localization claims.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Mass spectrometry interactome analysis
+  - **Evidence pointer** Methods section "Sample preparation for mass spectroscopy analysis to identify interacting partners" and Results section "SNP/GSNO interplayed with EZH2...".
+  - **Issue** The mass spectrometry analysis was performed with only two biological replicates. This is a low number for a quantitative interactome analysis. The criteria for identifying "unique" interacting proteins are not fully described.
+  - **Required correction** Provide details on the statistical thresholds used to define significant changes in the interactome. Acknowledge the limitation of the replicate number or provide additional validation of key interactome changes by independent methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency of nomenclature
+  - **Affected element** Throughout the text
+  - **Evidence pointer** Results section "S-nitrosylation of EZH2 promoted its degradation...", Figure 4.
+  - **Issue** The manuscript uses both "autophagosome-lysosome pathway" and "autophagy" to describe the degradation mechanism. The distinction between these terms should be clarified.
+  - **Required correction** Use consistent terminology throughout the manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figure legends for Figures 1-7.
+  - **Issue** The figure legends state the statistical test used but do not always specify the exact p-values or the number of independent experiments for each panel.
+  - **Required correction** Ensure all figure legends include exact p-values and n numbers for each experimental group.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of direct identification of S-nitrosylation sites on endogenous EZH2.
+  - R1-M2: Lack of direct evidence for a causal link between S-nitrosylation and PRC2 disassembly.
+  - R1-M3: Insufficient quantitative data for key claims.
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of NO directly modifying EZH2 via S-nitrosylation is novel and has not been previously reported. This is a strength.
+  - **Scientific importance** The potential link between NO signaling and epigenetic regulation in endothelial cells is of high importance, with implications for vascular biology and disease. However, the importance is currently tempered by the lack of definitive mechanistic evidence.
+  - **Interdisciplinary readership** The topic bridges vascular biology, nitric oxide signaling, and epigenetics, which should appeal to a broad readership.
+  - **Technical soundness** The technical soundness is currently insufficient. The key claims are not fully supported by the data presented. The lack of site-specific identification of the modification and the reliance on overexpression systems are significant weaknesses.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is easy to follow. However, the heavy reliance on specialized techniques and the lack of clear quantitative summaries may make it challenging for a non-specialist to fully assess the strength of the evidence.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a novel and interesting question, but the central mechanistic claims are not sufficiently supported. Major revisions are required to provide direct evidence for the S-nitrosylation sites, establish causality, and provide robust quantitative data.
+
+## Risk / unsupported claims
+- The claim that S-nitrosylation of EZH2 at C329 and C700 is responsible for the observed effects on PRC2 assembly, activity, and stability is not fully supported, as the specific modification sites on endogenous EZH2 were not identified.
+- The claim that S-nitrosylation of EZH2 maintains endothelial homeostasis in pathological settings is not supported by direct in vivo evidence.
+- The claim that the molecular dynamics simulations explain the mechanism of SUZ12 dissociation is speculative and not experimentally validated.
+- The claim that EZH2 degradation occurs primarily through the autophagosome-lysosome pathway is not fully established, as the data show only partial reversal with bafilomycin A1 and the role of the proteasome is not completely ruled out.
+- The in vivo relevance of the findings to diabetic kidney disease is not established, as the data are correlative and lack mechanistic intervention.

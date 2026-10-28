@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and figure legends. Figure files and supplementary data were not provided.
+- **Assessment boundary** The review assesses the scientific claims, experimental design, data interpretation, and overall significance of the work as presented in the manuscript text. It does not evaluate the quality of the figures or supplementary materials, as these were not available.
+- **Shared manuscript claim summary** The manuscript reports the first biochemical and structural characterization of mouse TOPOVIBLΔC25, a C-terminally truncated form of the meiotic TOPOVIBL protein. The authors claim that TOPOVIBLΔC25 is a monomer in solution, adopts a dynamic conformational equilibrium between compact and extended states, does not bind ATP or dimerize in response to ATP, and binds DNA with a preference for single-stranded and negatively supercoiled DNA. The authors propose a model in which TOPOVIBL senses DNA topology and regulates SPO11 dimerization and DSB formation.
+- **Visible evidence base** The evidence base includes purification data (SEC, mass spectrometry, circular dichroism), SEC-MALS, native mass spectrometry, SEC-SAXS with EOM analysis, fluorescence anisotropy binding assays, and competition assays. All data are described in the text and referenced to figures and tables.
+- **Missing materials affecting confidence** The following materials were not provided and would be required for a full assessment: all main and supplementary figures, supplementary tables (including Table S1-S4), the AlphaFold2 model file, and the raw SAXS data. The absence of these materials limits the ability to independently verify the quality of the data, the appropriateness of the fitting procedures, and the robustness of the structural conclusions.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a valuable first biochemical and structural characterization of the meiotic TOPOVIBL protein, a key but poorly understood component of the DSB-forming machinery. The work addresses an important gap in the field, as most previous studies have focused on the catalytic SPO11 subunit or on yeast systems. The authors provide evidence for several novel findings, including the lack of ATP binding by TOPOVIBL, its monomeric state, and its DNA-binding preferences. However, the manuscript has several significant weaknesses. The most critical concern is the lack of a positive control for the ATP-binding experiments, which weakens the central claim that TOPOVIBL does not interact with ATP. Additionally, the functional relevance of the observed DNA-binding properties is not directly tested, and the proposed model, while interesting, is highly speculative. The manuscript would be substantially strengthened by addressing these issues and by providing a more direct link between the biochemical properties of TOPOVIBL and its role in meiotic DSB formation.
+- **Who would be interested in the results, and why** This work will be of interest to researchers in the fields of meiosis, DNA repair, and chromosome biology. Specifically, those studying the mechanism of meiotic DSB formation, the evolution of the TOPOVIL complex, and the function of TOPOVIBL and its orthologs will find this study relevant. The biochemical and structural data provide a foundation for future studies on the regulation of the TOPOVIL complex and its interaction with accessory factors. The findings may also be of interest to structural biologists studying GHKL ATPases and their divergent functions.
+- **Major strengths** The manuscript addresses a significant and timely question in the meiosis field. The use of multiple complementary biophysical and biochemical techniques (SEC-MALS, native MS, SAXS, fluorescence anisotropy) is a strength. The finding that TOPOVIBL does not bind ATP is surprising and important, as it challenges the assumption that its function mirrors that of the archaeal TopoVIB. The identification of a dynamic conformational equilibrium and DNA-binding preferences provides new insights into the potential regulatory mechanisms of TOPOVIBL. The manuscript is generally well-written and the logic is clear.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "TOPOVIBLΔC25 is not sensitive to ATP" and that it "did not interact with ATP" based on native MS and SEC experiments.
+  - **Evidence pointer** Results section "TOPOVIBLΔC25 is not sensitive to ATP", Figure 3, Figure S2
+  - **Concern** The conclusion that TOPOVIBL does not bind ATP is based on the absence of a detectable interaction. However, the manuscript does not describe any positive control experiments to validate that the assay conditions are capable of detecting ATP binding. For example, a known ATP-binding protein, such as the archaeal TopoVIB or a related GHKL ATPase, should be tested under identical conditions to demonstrate that the native MS and SEC assays can detect ATP-protein interactions. Without such a control, the negative result is difficult to interpret and could be due to suboptimal experimental conditions.
+  - **Why it matters** This is a central claim of the paper, as it distinguishes TOPOVIBL from its archaeal ortholog and has implications for the mechanism of DSB formation. If the assay is not validated, the conclusion that TOPOVIBL does not bind ATP is not firmly established.
+  - **Resolution test** The authors should perform control experiments with a known ATP-binding protein (e.g., the archaeal TopoVIB or a related GHKL domain) under the same conditions used for TOPOVIBLΔC25. If the control protein shows ATP binding, this would validate the assay and support the negative result for TOPOVIBL. Alternatively, the authors could use a different, more sensitive method, such as isothermal titration calorimetry (ITC) or a fluorescence-based ATP-binding assay, to confirm the lack of ATP binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose a model in which TOPOVIBL's DNA-binding properties and conformational dynamics are important for its function in meiotic DSB formation. Specifically, they suggest that TOPOVIBL senses DNA topology and that this "might trigger TOPOVIBL motion that could favor the formation of an active TOPOVIBL-SPO11 hetero-tetramer in vivo."
+  - **Evidence pointer** Discussion section "A proposed mode of action for the TOPOVIL complex", Figure 5
+  - **Concern** The proposed model is highly speculative and goes beyond the data presented. The manuscript demonstrates that TOPOVIBLΔC25 binds DNA in vitro, but it does not provide any evidence that this interaction is functionally relevant for DSB formation. The link between the conformational dynamics observed by SAXS and the proposed allosteric regulation is also not directly tested. The model would be more compelling if it were supported by experiments testing, for example, the effect of DNA binding on the conformation of TOPOVIBL, or the effect of mutations in the DNA-binding interface on DSB formation in vivo.
+  - **Why it matters** The model is a major part of the discussion and is likely to be a key takeaway for readers. If the model is not well-supported, it could mislead the field and overstate the significance of the findings.
+  - **Resolution test** The authors should either (1) provide additional experimental evidence to support the model, such as showing that DNA binding induces a conformational change in TOPOVIBL, or (2) temper the language used to describe the model, clearly stating that it is a hypothesis that requires further testing. They could also discuss alternative models and the limitations of their current data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "TOPOVIBLΔC25 interacts with DNA, with a topological preference for linear single-stranded (ss) DNA and negative supercoiled DNA."
+  - **Evidence pointer** Results section "TOPOVIBLΔC25 binds to DNA, with topological preferences", Figure 4
+  - **Concern** The DNA-binding experiments are performed with a truncated form of TOPOVIBL (ΔC25) that lacks the C-terminal 25 amino acids. The authors do not discuss whether this truncation could affect the DNA-binding properties of the protein. The C-terminal region is described as a "disordered region" and is proposed to be involved in conformational dynamics. It is possible that the truncation alters the protein's conformation or its ability to interact with DNA. The authors should address this potential limitation.
+  - **Why it matters** The DNA-binding data are a key finding of the paper. If the truncation affects DNA binding, the conclusions may not be representative of the full-length protein.
+  - **Resolution test** The authors should discuss the potential impact of the C-terminal truncation on the DNA-binding properties. Ideally, they could perform a subset of experiments with the full-length protein, if it can be purified, to confirm that the observed properties are not an artifact of the truncation. If this is not possible, they should clearly state this as a limitation of the study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction assumes a high level of familiarity with the meiotic DSB formation field. Terms such as "TOPOVIL complex," "SPO11," and "meiotic DSB" are used without a brief explanation of their function and significance for a general reader.
+  - **Required correction** Consider adding a brief introductory sentence or two that explains the importance of meiotic DSB formation and the role of the TOPOVIL complex in this process, to make the manuscript more accessible to a broader audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "TOPOVIBLΔC25 binds to DNA, with topological preferences"
+  - **Evidence pointer** Figure 4A
+  - **Issue** The Kd values for DNA binding are reported, but the error bars or confidence intervals for these values are not mentioned in the text. It is unclear how reproducible these measurements are.
+  - **Required correction** Please include the standard deviation or standard error for the Kd values, and state the number of independent experiments performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "Small-angle x-ray scattering (SAXS) and ensemble optimization of TOPOVIBLΔC25"
+  - **Evidence pointer** Materials and Methods, SAXS section
+  - **Issue** The SAXS data analysis is described briefly. The authors state that EOM was used, but they do not provide details on the number of models generated, the selection criteria, or the quality of the fit (e.g., chi-square value). This information is important for assessing the reliability of the structural conclusions.
+  - **Required correction** Please provide more details on the EOM analysis, including the number of models, the selection criteria, and the chi-square value for the fit. This will allow readers to evaluate the robustness of the conformational ensemble.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, "New structural insights on TOPOVIBL"
+  - **Issue** The authors suggest that the conformational dynamics of TOPOVIBL "might have consequences on the TOPOVIL complex structure and activity." However, they do not discuss how this could be tested experimentally.
+  - **Required correction** Consider adding a sentence or two suggesting specific experiments that could test this hypothesis, such as hydrogen-deuterium exchange mass spectrometry or FRET-based assays to monitor conformational changes in the presence of binding partners.
+- **Technical failings that need to be addressed before the case is established** The lack of a positive control for the ATP-binding experiments (R1-M1) is a critical technical issue that must be addressed. The potential impact of the C-terminal truncation on DNA binding (R1-M3) is also a concern. The manuscript would be strengthened by providing more details on the SAXS analysis (R1-m3) and the reproducibility of the Kd measurements (R1-m2).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its focus on the biochemical and structural characterization of the meiotic TOPOVIBL protein, which has been largely refractory to such studies. The finding that TOPOVIBL does not bind ATP is novel and challenges existing assumptions.
+  - **Scientific importance** The work addresses a fundamental question in meiosis: how is the TOPOVIL complex regulated to form DSBs? The results have implications for understanding the evolution of the TOPOVIL complex and its divergence from the archaeal TopoVI. However, the direct functional significance of the findings for DSB formation is not established, which limits the immediate importance.
+  - **Interdisciplinary readership** The work is likely to be of interest to a specialized audience of meiosis and DNA repair researchers. The biochemical and structural methods used are standard in the field, and the findings may not have broad appeal beyond this community.
+  - **Technical soundness** The experimental design is generally sound, but the lack of a positive control for the ATP-binding experiments is a significant weakness. The use of multiple complementary techniques is a strength, but the interpretation of the SAXS data could be more rigorous.
+  - **Readability for nonspecialists** The manuscript is clearly written but assumes a high level of background knowledge. The abstract is accessible, but the introduction and discussion may be challenging for a general reader.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents novel and potentially important findings, but the central claim regarding the lack of ATP binding needs to be validated with appropriate controls. The proposed model is speculative and should be tempered or supported with additional data. If these issues are addressed, the manuscript would be a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that TOPOVIBLΔC25 "is not sensitive to ATP" is not fully supported due to the lack of a positive control in the ATP-binding experiments.
+- The claim that the conformational dynamics of TOPOVIBL "might have consequences on the TOPOVIL complex structure and activity" is speculative and not directly tested.
+- The claim that the DNA-binding properties of TOPOVIBLΔC25 are representative of the full-length protein is not supported, as the C-terminal truncation could affect the protein's function.
+- The proposed model for the mode of action of TOPOVIBL in meiotic DSB formation is not directly supported by the experimental data and should be presented as a hypothesis.

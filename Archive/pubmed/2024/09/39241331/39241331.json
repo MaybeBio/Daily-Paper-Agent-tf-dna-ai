@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "39241331",
+    "doi": "10.1016/j.envint.2024.108995",
+    "title": "Knowledge-based machine learning for predicting and understanding the androgen receptor (AR)-mediated reproductive toxicity in zebrafish."
+  },
+  "content": {
+    "abstract": "Traditional methods for identifying endocrine-disrupting chemicals (EDCs) that activate androgen receptors (AR) are costly, time-consuming, and low-throughput. This study developed a knowledge-based deep neural network model (AR-DNN) to predict AR-mediated adverse outcomes on female zebrafish fertility. This model started with chemical fingerprints as the input layer and was implemented through a five-layer virtual AR-induced adverse outcome pathway (AOP). Results indicated that the AR-DNN effectively and accurately screens new reproductive toxicants (AUC = 0.94, accuracy = 0.85), providing potential toxicity pathways. Furthermore, 1477 and 2448 chemicals that could lead to infertility were identified in the plastic additives list (PLASTICMAP, n = 7112) and the Inventory of Existing Chemical Substances in China (IECSC, n = 17741), respectively. Colourants containing steroid-like structures are the major active plastic additives that might lower female zebrafish fertility through AR binding, DNA binding, and transcriptional activation. While active IECSC chemicals primarily have the same fragments, such as benzonitrile, nitrobenzene, and quinolone. The predicted toxicity pathways were consistent with existing fish evidence, demonstrating the model's applicability. This knowledge-based approach offers a promising computational toxicology strategy for predicting and characterising the endocrine-disrupting effects and toxic mechanisms of organic chemicals, potentially leading to more efficient and cost-effective screening of EDCs.",
+    "keywords": [
+      "Adverse Outcome Pathway (AOP)",
+      "Androgen Receptor (AR)",
+      "Deep Neutral Network (DNN)",
+      "Reproductive Toxicity",
+      "Zebrafish"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Zebrafish",
+      "*Receptors, Androgen/metabolism",
+      "*Machine Learning",
+      "*Endocrine Disruptors/toxicity",
+      "Female",
+      "Reproduction/drug effects",
+      "Water Pollutants, Chemical/toxicity"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xin, Lei",
+        "Liu, Sisi",
+        "Shi, Wenjun",
+        "Ying, Guang-Guo",
+        "Hui, Xinyue",
+        "Chen, Chang-Er"
+      ],
+      "short_names": [
+        "Xin L",
+        "Liu S",
+        "Shi W",
+        "Ying GG",
+        "Hui X",
+        "Chen CE"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Environment, MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety, South China Normal University, Guangzhou 510006, China.",
+        "School of Environment, MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety, South China Normal University, Guangzhou 510006, China.",
+        "School of Environment, MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety, South China Normal University, Guangzhou 510006, China.",
+        "School of Environment, MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety, South China Normal University, Guangzhou 510006, China.",
+        "School of Environment, MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety, South China Normal University, Guangzhou 510006, China.",
+        "School of Environment, MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety, South China Normal University, Guangzhou 510006, China. Electronic address: changer.chen@m.scnu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xin, Lei",
+        "short_name": "Xin L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Environment, MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety, South China Normal University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Sisi",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Environment, MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety, South China Normal University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Wenjun",
+        "short_name": "Shi W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Environment, MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety, South China Normal University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Ying, Guang-Guo",
+        "short_name": "Ying GG",
+        "identifiers": [],
+        "affiliations": [
+          "School of Environment, MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety, South China Normal University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Hui, Xinyue",
+        "short_name": "Hui X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Environment, MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety, South China Normal University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Chang-Er",
+        "short_name": "Chen CE",
+        "identifiers": [],
+        "affiliations": [
+          "School of Environment, MOE Key Laboratory of Theoretical Chemistry of Environment, South China Normal University, Guangzhou 510006, China; Environmental Research Institute, Guangdong Provincial Key Laboratory of Chemical Pollution and Environmental Safety, South China Normal University, Guangzhou 510006, China. Electronic address: changer.chen@m.scnu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Environment international"
+    ],
+    "journal_abbrev": [
+      "Environ Int"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/07 14:43",
+    "fetched_at": "2026-09-30 02:15:07"
+  },
+  "links": {
+    "cites": [
+      "41691489",
+      "41436624",
+      "40374415"
+    ],
+    "refs": [],
+    "similar": [
+      "39241331",
+      "41570722",
+      "38394900",
+      "30505052",
+      "40059543",
+      "25282305",
+      "30857347",
+      "32795691",
+      "37683992",
+      "35960020",
+      "19261338",
+      "39223866",
+      "24013142",
+      "24850832",
+      "20573408",
+      "40811912",
+      "36969097",
+      "30584954",
+      "25529055",
+      "39413942",
+      "27933809",
+      "32505947",
+      "27907851",
+      "40054344",
+      "39206816",
+      "23707773",
+      "37493402",
+      "38976939",
+      "32392092",
+      "42475469",
+      "32778734",
+      "30668916",
+      "27684650",
+      "19184727",
+      "26552529",
+      "23881739",
+      "34638023",
+      "33557243",
+      "23279634",
+      "27130971",
+      "41319463",
+      "16291569",
+      "32786601",
+      "38979646",
+      "27448318",
+      "26379041",
+      "37483114",
+      "32745784",
+      "39243900",
+      "32421828",
+      "36801331",
+      "41284517",
+      "39708597",
+      "31319295",
+      "28549324",
+      "34265613",
+      "38669872",
+      "40258508",
+      "33812311",
+      "20405856",
+      "34304572",
+      "31325560",
+      "41604324",
+      "41072194",
+      "37071731",
+      "33716955",
+      "32798611",
+      "29112878",
+      "38157964",
+      "32112812",
+      "27312088",
+      "27728887",
+      "18281716",
+      "39260506",
+      "26098908",
+      "38636855",
+      "27155823",
+      "42338659",
+      "27571716",
+      "34051580",
+      "21862102",
+      "32074470",
+      "42269479",
+      "33421549",
+      "40828129",
+      "42035604",
+      "42102326",
+      "23416411",
+      "18955160",
+      "34520754",
+      "31927064",
+      "29914135",
+      "41125206",
+      "30965180",
+      "30633647",
+      "42264122",
+      "40373795",
+      "25461902",
+      "38871163",
+      "31369937"
+    ],
+    "review": [
+      "39241331",
+      "24850832",
+      "36969097",
+      "25529055",
+      "33557243",
+      "23279634",
+      "16291569",
+      "28549324",
+      "33812311",
+      "31325560",
+      "41072194",
+      "37071731",
+      "33716955",
+      "38157964",
+      "32112812",
+      "18281716",
+      "27155823",
+      "34051580",
+      "30633647"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0160-4120(24)00581-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:39241331",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

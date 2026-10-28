@@ -1,0 +1,203 @@
+{
+  "identity": {
+    "pmid": "42656077",
+    "doi": "10.14744/AnatolJCardiol.2026.5935",
+    "title": "Identification of Vital Genes Common to Dilated and Hypertrophic Cardiomyopathy Using Machine Learning and Bioinformatics."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Heart failure (HF) is a complex clinical syndrome and a leading cause of hospitalization and mortality worldwide, with significantly increasing mortality rates over time. Dilated cardiomyopathy (DCM) and hypertrophic cardiomyopathy (HCM) are 2 major myocardial diseases that can lead to progressive HF. Dilated cardiomyopathy is characterized by left ventricular dilation and systolic dysfunction, while HCM primarily presents with left ventricular wall thickening; both are closely associated with mutations in genes encoding cardiac sarcomere contractile proteins and exhibit genetic heterogeneity. Although previous studies have revealed alterations in transcription and protein expression in failing hearts, it may have neglected molecular changes in less frequent cell types. METHODS: The overlapping differentially expressed genes (DEGs) that overlapped between datasets GSE141910 and GSE249925 were identified, and a functional enrichment analysis was carried out. Overlapping genes in LASSO, SVM-RFE, and the key module in Weighted Gene Co-expression Network Analysis were seen as potentially significant. The receiver operating characteristic (ROC) curve was utilized to assess their potential for prognostic stratification. Immune cell infiltration was evaluated with cell-type identification by estimating relative subsets of RNA (CIBERSORT), and the findings were validated using the GSE165303 and GSE36961 datasets. Finally, the JASPAR database was utilized to predict potential transcription factors governing these key genes. RESULTS: One hundred eighty-three overlapping DEGs were identified in HCM and DCM, and the functional enrichment analysis revealed they were closely related to the inflammatory and immune response. The genes FRZB, FNDC1, and SMOC2 were identified as potentially crucial, with ROC curves suggesting their potential utility for risk stratification in both test and validation datasets. The analysis using CIBERSORT revealed a relationship between immune cells that infiltrate and important potential genes. Secreted protein acidic and rich in cysteine-related modular calccium-binding protein 2 (SPARC-SMOC2) was identified as a hub gene with potential utility for patient stratification. Estrogen receptor 1 (ESR1) showed the strongest likelihood to be the regulator. CONCLUSION: The research aimed at thoroughly understanding the pathogenesis of HCM and DCM. Discovering SMOC2 could help in understanding the shared mechanisms of HF, potentially serving as therapeutic targets in the future.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yang",
+        "Zhang, Ran"
+      ],
+      "short_names": [
+        "Li Y",
+        "Zhang R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Internal Medicine-Cardiovascular, The Second Hospital of Jiaxing, Jiaxing, China.",
+        "Department of Internal Medicine-Cardiovascular, The Second Hospital of Jiaxing, Jiaxing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine-Cardiovascular, The Second Hospital of Jiaxing, Jiaxing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ran",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine-Cardiovascular, The Second Hospital of Jiaxing, Jiaxing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Anatolian journal of cardiology"
+    ],
+    "journal_abbrev": [
+      "Anatol J Cardiol"
+    ],
+    "pub_date": "2026 Aug 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/27 05:35",
+    "fetched_at": "2026-10-02 04:25:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42656077",
+      "41790394",
+      "40406620",
+      "35282347",
+      "34285551",
+      "35433958",
+      "40808946",
+      "41450821",
+      "38912340",
+      "41158506",
+      "41080564",
+      "40770404",
+      "36148059",
+      "41602333",
+      "39509434",
+      "40790764",
+      "36238494",
+      "35702326",
+      "39142001",
+      "36733486",
+      "42327749",
+      "41484731",
+      "39364223",
+      "42565420",
+      "39375405",
+      "38303405",
+      "40078458",
+      "40617086",
+      "34520765",
+      "39351239",
+      "38371524",
+      "42015036",
+      "36699262",
+      "40520229",
+      "39697326",
+      "38571624",
+      "40997906",
+      "38947229",
+      "39713769",
+      "40405297",
+      "40271123",
+      "41392291",
+      "40630623",
+      "39754246",
+      "36532015",
+      "41703488",
+      "41291841",
+      "34497835",
+      "35433865",
+      "41306613",
+      "41496071",
+      "39403102",
+      "39263286",
+      "39507054",
+      "42236612",
+      "37559135",
+      "41665627",
+      "40123611",
+      "35713363",
+      "37008314",
+      "35850644",
+      "34218797",
+      "40374840",
+      "35381314",
+      "42083957",
+      "42292668",
+      "39043774",
+      "38774444",
+      "41200169",
+      "35942730",
+      "38899746",
+      "35990977",
+      "33715137",
+      "42343898",
+      "39329089",
+      "36725968",
+      "34733953",
+      "41479901",
+      "41388523",
+      "39086489",
+      "37115484",
+      "41386886",
+      "41013556",
+      "42597971",
+      "42348043",
+      "36712272",
+      "41146237",
+      "41883400",
+      "40453984",
+      "41300841",
+      "36704339",
+      "42278407",
+      "36470144",
+      "41164826",
+      "38863714",
+      "38355637",
+      "35958412",
+      "41044520",
+      "36628247",
+      "40340571"
+    ],
+    "review": [
+      "42656077",
+      "41665627"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.14744/AnatolJCardiol.2026.5935",
+        "provider": "Kare Publishing",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GZMA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2699",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

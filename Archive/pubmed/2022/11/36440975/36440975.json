@@ -1,0 +1,497 @@
+{
+  "identity": {
+    "pmid": "36440975",
+    "doi": "10.1093/hmg/ddac289",
+    "title": "ANKRD11 pathogenic variants and 16q24.3 microdeletions share an altered DNA methylation signature in patients with KBG syndrome."
+  },
+  "content": {
+    "abstract": "Pathogenic variants in ANKRD11 or microdeletions at 16q24.3 are the cause of KBG syndrome (KBGS), a neurodevelopmental syndrome characterized by intellectual disability, dental and skeletal anomalies, and characteristic facies. The ANKRD11 gene encodes the ankyrin repeat-containing protein 11A transcriptional regulator, which is expressed in the brain and implicated in neural development. Syndromic conditions caused by pathogenic variants in epigenetic regulatory genes show unique patterns of DNA methylation (DNAm) in peripheral blood, termed DNAm signatures. Given ANKRD11's role in chromatin modification, we tested whether pathogenic ANKRD11 variants underlying KBGS are associated with a DNAm signature. We profiled whole-blood DNAm in 21 individuals with ANKRD11 variants, 2 individuals with microdeletions at 16q24.3 and 28 typically developing individuals, using Illumina's Infinium EPIC array. We identified 95 differentially methylated CpG sites that distinguished individuals with KBGS and pathogenic variants in ANKRD11 (n = 14) from typically developing controls (n = 28). This DNAm signature was then validated in an independent cohort of seven individuals with KBGS and pathogenic ANKRD11 variants. We generated a machine learning model from the KBGS DNAm signature and classified the DNAm profiles of four individuals with variants of uncertain significance (VUS) in ANKRD11. We identified an intermediate classification score for an inherited missense variant transmitted from a clinically unaffected mother to her affected child. In conclusion, we show that the DNAm profiles of two individuals with 16q24.3 microdeletions were indistinguishable from the DNAm profiles of individuals with pathogenic variants in ANKRD11, and we demonstrate the diagnostic utility of the new KBGS signature by classifying the DNAm profiles of individuals with VUS in ANKRD11.",
+    "keywords": [],
+    "mesh_terms": [
+      "Child",
+      "Female",
+      "Humans",
+      "*Abnormalities, Multiple/blood/diagnosis/genetics",
+      "Bone Diseases, Developmental/blood/diagnosis/genetics",
+      "Chromosome Deletion",
+      "DNA Methylation/genetics",
+      "Epigenesis, Genetic/genetics",
+      "Facies",
+      "Intellectual Disability/blood/diagnosis/genetics",
+      "Machine Learning",
+      "Mutation",
+      "Phenotype",
+      "*Repressor Proteins/genetics",
+      "Tooth Abnormalities/blood/diagnosis/genetics",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Awamleh, Zain",
+        "Choufani, Sanaa",
+        "Cytrynbaum, Cheryl",
+        "Alkuraya, Fowzan S",
+        "Scherer, Stephen",
+        "Fernandes, Sofia",
+        "Rosas, Catarina",
+        "Louro, Pedro",
+        "Dias, Patricia",
+        "Neves, Mariana Tomasio",
+        "Sousa, Sergio B",
+        "Weksberg, Rosanna"
+      ],
+      "short_names": [
+        "Awamleh Z",
+        "Choufani S",
+        "Cytrynbaum C",
+        "Alkuraya FS",
+        "Scherer S",
+        "Fernandes S",
+        "Rosas C",
+        "Louro P",
+        "Dias P",
+        "Neves MT",
+        "Sousa SB",
+        "Weksberg R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8326-1999",
+        "ORCID: 0000-0002-6501-4150"
+      ],
+      "affiliations": [
+        "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada.",
+        "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada.",
+        "Division of Clinical and Metabolic Genetics, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada.",
+        "Department of Translational Genomics, Center for Genomic Medicine, King Faisal Specialist Hospital and Research Center, Riyadh, Saudi Arabia.",
+        "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada.",
+        "Institute of Medical Sciences, University of Toronto, Toronto, ON M5S 1A8, Canada.",
+        "Medical Genetics Unit, Hospital Pediatrico, Centro Hospitalar e Universitario de Coimbra, EPE, Coimbra, Portugal.",
+        "Familial Risk Clinic, Instituto Portugues de Oncologia de Lisboa Francisco Gentil, Lisbon, Portugal.",
+        "Medical Genetics Unit, Hospital Pediatrico, Centro Hospitalar e Universitario de Coimbra, EPE, Coimbra, Portugal.",
+        "Medical Genetics Unit, Hospital Pediatrico, Centro Hospitalar e Universitario de Coimbra, EPE, Coimbra, Portugal.",
+        "Servico de Genetica Medica, Departamento de Pediatria, Centro Hospitalar Lisboa Norte, Hospital de Santa Maria, EPE, Lisbon, Portugal.",
+        "Servico de Genetica Medica, Departamento de Pediatria, Centro Hospitalar Lisboa Norte, Hospital de Santa Maria, EPE, Lisbon, Portugal.",
+        "Medical Genetics Unit, Hospital Pediatrico, Centro Hospitalar e Universitario de Coimbra, EPE, Coimbra, Portugal.",
+        "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada.",
+        "Division of Clinical and Metabolic Genetics, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada.",
+        "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada.",
+        "Institute of Medical Sciences, University of Toronto, Toronto, ON M5S 1A8, Canada.",
+        "Department of Paediatrics, University of Toronto, Toronto, ON M5S 1A8, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Awamleh, Zain",
+        "short_name": "Awamleh Z",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada."
+        ]
+      },
+      {
+        "full_name": "Choufani, Sanaa",
+        "short_name": "Choufani S",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada."
+        ]
+      },
+      {
+        "full_name": "Cytrynbaum, Cheryl",
+        "short_name": "Cytrynbaum C",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Clinical and Metabolic Genetics, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada."
+        ]
+      },
+      {
+        "full_name": "Alkuraya, Fowzan S",
+        "short_name": "Alkuraya FS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Translational Genomics, Center for Genomic Medicine, King Faisal Specialist Hospital and Research Center, Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Scherer, Stephen",
+        "short_name": "Scherer S",
+        "identifiers": [
+          "0000-0002-8326-1999"
+        ],
+        "affiliations": [
+          "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada.",
+          "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada.",
+          "Institute of Medical Sciences, University of Toronto, Toronto, ON M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Fernandes, Sofia",
+        "short_name": "Fernandes S",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Genetics Unit, Hospital Pediátrico, Centro Hospitalar e Universitário de Coimbra, EPE, Coimbra, Portugal.",
+          "Familial Risk Clinic, Instituto Português de Oncologia de Lisboa Francisco Gentil, Lisbon, Portugal."
+        ]
+      },
+      {
+        "full_name": "Rosas, Catarina",
+        "short_name": "Rosas C",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Genetics Unit, Hospital Pediátrico, Centro Hospitalar e Universitário de Coimbra, EPE, Coimbra, Portugal."
+        ]
+      },
+      {
+        "full_name": "Louro, Pedro",
+        "short_name": "Louro P",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Genetics Unit, Hospital Pediátrico, Centro Hospitalar e Universitário de Coimbra, EPE, Coimbra, Portugal."
+        ]
+      },
+      {
+        "full_name": "Dias, Patricia",
+        "short_name": "Dias P",
+        "identifiers": [],
+        "affiliations": [
+          "Serviço de Genética Médica, Departamento de Pediatria, Centro Hospitalar Lisboa Norte, Hospital de Santa Maria, EPE, Lisbon, Portugal."
+        ]
+      },
+      {
+        "full_name": "Neves, Mariana Tomásio",
+        "short_name": "Neves MT",
+        "identifiers": [],
+        "affiliations": [
+          "Serviço de Genética Médica, Departamento de Pediatria, Centro Hospitalar Lisboa Norte, Hospital de Santa Maria, EPE, Lisbon, Portugal."
+        ]
+      },
+      {
+        "full_name": "Sousa, Sérgio B",
+        "short_name": "Sousa SB",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Genetics Unit, Hospital Pediátrico, Centro Hospitalar e Universitário de Coimbra, EPE, Coimbra, Portugal."
+        ]
+      },
+      {
+        "full_name": "Weksberg, Rosanna",
+        "short_name": "Weksberg R",
+        "identifiers": [
+          "0000-0002-6501-4150"
+        ],
+        "affiliations": [
+          "Genetics and Genome Biology Program, Research Institute, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada.",
+          "Division of Clinical and Metabolic Genetics, The Hospital for Sick Children, Toronto, ON M5G 1X8, Canada.",
+          "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada.",
+          "Institute of Medical Sciences, University of Toronto, Toronto, ON M5S 1A8, Canada.",
+          "Department of Paediatrics, University of Toronto, Toronto, ON M5S 1A8, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human molecular genetics"
+    ],
+    "journal_abbrev": [
+      "Hum Mol Genet"
+    ],
+    "pub_date": "2023 Apr 20",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/29 06:00",
+    "fetched_at": "2026-09-28 16:58:39"
+  },
+  "links": {
+    "cites": [
+      "41786677",
+      "41463054",
+      "39824190",
+      "39135054",
+      "39013459",
+      "38515699",
+      "37872275",
+      "37071997",
+      "37022461"
+    ],
+    "refs": [
+      "36130591",
+      "35833929",
+      "35700724",
+      "35682590",
+      "35330407",
+      "34345024",
+      "33996804",
+      "33955014",
+      "33941771",
+      "33909990",
+      "33263776",
+      "32243864",
+      "31311581",
+      "31288860",
+      "31116477",
+      "29274743",
+      "28475860",
+      "28263302",
+      "28135719",
+      "27667800",
+      "27300495",
+      "27150399",
+      "26711108",
+      "26690673",
+      "25741868",
+      "25605792",
+      "25556659",
+      "25413698",
+      "24478339",
+      "24203923",
+      "24138928",
+      "23040499",
+      "22257669",
+      "22110364",
+      "21782149",
+      "20955926",
+      "20439491",
+      "20436461",
+      "18840648",
+      "18378158",
+      "18377363",
+      "17521611",
+      "17194222",
+      "15184363",
+      "11773077",
+      "11566859",
+      "10368774",
+      "9238002",
+      "7585967",
+      "1218237"
+    ],
+    "similar": [
+      "36440975",
+      "35833929",
+      "28422132",
+      "27605097",
+      "35682590",
+      "22307766",
+      "23494856",
+      "25464108",
+      "28250421",
+      "34440431",
+      "31288860",
+      "25187894",
+      "23463723",
+      "38282074",
+      "39135054",
+      "27667800",
+      "36564961",
+      "33354850",
+      "23369839",
+      "30088855",
+      "25424714",
+      "29224748",
+      "36628575",
+      "35361921",
+      "29696793",
+      "33955014",
+      "24838796",
+      "28815928",
+      "23184435",
+      "30642272",
+      "21782149",
+      "32222090",
+      "33653342",
+      "35598261",
+      "35174959",
+      "33476899",
+      "35861666",
+      "36196002",
+      "32124548",
+      "28099180",
+      "32820523",
+      "31311581",
+      "25543316",
+      "36446582",
+      "39346806",
+      "34971082",
+      "37501353",
+      "34547584",
+      "36217662",
+      "29258554",
+      "36584991",
+      "25413698",
+      "35970914",
+      "36130591",
+      "37586838",
+      "38593730",
+      "27900361",
+      "28566769",
+      "33909990",
+      "37226940",
+      "36722669",
+      "38157719",
+      "37964495",
+      "38571311",
+      "35394473",
+      "32476269",
+      "30877071",
+      "37800809",
+      "29530238",
+      "35330407",
+      "31567426",
+      "36367395",
+      "39404460",
+      "33996804",
+      "34012832",
+      "33048330",
+      "34247373",
+      "30786142",
+      "39013459",
+      "38616269",
+      "37336020",
+      "38818797",
+      "34357716",
+      "39013458",
+      "38126281",
+      "36012925",
+      "32243864",
+      "37665295",
+      "32030560",
+      "23885231",
+      "33262785",
+      "36705342",
+      "26187867",
+      "38334877",
+      "34418234",
+      "38515699",
+      "33917340",
+      "30459321",
+      "19920853",
+      "31191201",
+      "34604130",
+      "35132768",
+      "37865086",
+      "34297908",
+      "32760686",
+      "30055086",
+      "28475860",
+      "25652421",
+      "35163737",
+      "32793091",
+      "31566922",
+      "30941876",
+      "26117586",
+      "35765297",
+      "24127197",
+      "33494799",
+      "37120726",
+      "23335808",
+      "28449295",
+      "36322151",
+      "38787418",
+      "38351292",
+      "25833229",
+      "38770750",
+      "38253421",
+      "29375862",
+      "37884963",
+      "38054406",
+      "37340855",
+      "37762546",
+      "37022461",
+      "38012757",
+      "37860968",
+      "36754204",
+      "36958667",
+      "38719651",
+      "38751117",
+      "38397245",
+      "36790133",
+      "37540342",
+      "31216310",
+      "37777763",
+      "30257690",
+      "36919607",
+      "38170291",
+      "38962817",
+      "37279467",
+      "39364636",
+      "38293210",
+      "34750377",
+      "37185958",
+      "37736838",
+      "36625521",
+      "34417465",
+      "37658852",
+      "38328094",
+      "33937763",
+      "39424669",
+      "38601732",
+      "37872275",
+      "37430364",
+      "38637626",
+      "38355964"
+    ],
+    "review": [
+      "36440975",
+      "39135054",
+      "36564961",
+      "29224748",
+      "36628575",
+      "33476899",
+      "28099180",
+      "36217662",
+      "29258554",
+      "37586838",
+      "30877071",
+      "38818797",
+      "34297908"
+    ],
+    "pmc": [
+      "10117159"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36440975.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36440975/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36440975",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/hmg/article-lookup/doi/10.1093/hmg/ddac289",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

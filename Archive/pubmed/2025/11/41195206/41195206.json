@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "41195206",
+    "doi": "10.3389/fendo.2025.1618296",
+    "title": "Transcriptomics and network pharmacology reveal the potential mechanism related to integrated stress response in the treatment of osteoporosis by Jiawei Shentong Zhuyu Decoction and verified by RT-qPCR."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Osteoporosis (OP) is a systemic skeletal disorder. The molecular mechanisms underlying the effects of Jia Wei Shentong Zhuyu Decoction (JWSTZYD) and the integrated stress response (ISR) in OP remain unclear. This study aims to elucidate the mechanisms by which JWSTZYD and ISR contribute to OP. METHODS: Potential drug target genes for JWSTZYD and OP-related datasets were sourced from the Gene Expression Omnibus (GEO) and Traditional Chinese Medicine Systems Pharmacology (TCMSP) databases. Differentially expressed genes (DEGs) in OP were identified by analyzing transcriptome data. Candidate genes were selected by intersecting target genes, DEGs, and ISR-related genes (ISR-RGs), with further screening based on expression levels in OP and control samples. The potential mechanisms of these biomarkers in OP were explored through gene set enrichment analysis (GSEA), immune infiltration analysis, molecular regulatory networks, and molecular docking. Expression levels of biomarkers were validated using clinical samples. RESULTS: COL4A6 and NKX3-1 were identified as biomarkers associated with ISR in JWSTZYD treatment of OP. These biomarkers were significantly enriched in 22 and 23 pathways, respectively. Immune infiltration analysis revealed 10 differentially abundant immune cell types between OP and control. Further analysis showed that 16 transcription factors (TFs), 26 miRNAs, and 342 lncRNAs had potential interactions with the biomarkers. TFs such as FOXC1, USF2, NFYA, SRF, and NFIC were co-regulated by the biomarkers. Quercetin was identified as a drug that co-acted with these biomarkers, demonstrating strong binding affinity with both COL4A6 and NKX3-1, with binding energies of -6.3 kcal/mol and -15.7 kcal/mol, respectively. Experimental validation confirmed that the biomarkers were expressed at levels consistent with those predicted. CONCLUSION: This study identified COL4A6 and NKX3-1 as key biomarkers, providing new insights into the mechanisms associated with ISR in the treatment of OP using JWSTZYD.",
+    "keywords": [
+      "COL4A6/NKX3-1",
+      "Jiawei Shentong Zhuyu Decoction",
+      "integrated stress response",
+      "network pharmacology",
+      "osteoporosis",
+      "quercetin"
+    ],
+    "mesh_terms": [
+      "*Drugs, Chinese Herbal/pharmacology/therapeutic use",
+      "*Osteoporosis/drug therapy/genetics/metabolism",
+      "Humans",
+      "*Network Pharmacology/methods",
+      "*Transcriptome/drug effects",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks/drug effects",
+      "Real-Time Polymerase Chain Reaction",
+      "Medicine, Chinese Traditional",
+      "Biomarkers",
+      "Female",
+      "Male",
+      "*Stress, Physiological/drug effects/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Jie",
+        "Zhang, TingTing",
+        "Han, Pengbo",
+        "Liu, Zhu",
+        "Zhang, Hongli",
+        "Li, Fangqin",
+        "Han, Gang"
+      ],
+      "short_names": [
+        "Zhao J",
+        "Zhang T",
+        "Han P",
+        "Liu Z",
+        "Zhang H",
+        "Li F",
+        "Han G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Traditional Chinese Medicine Department, The Second Affiliated Hospital of Xi'an Medical College, Xi'an, Shaanxi, China.",
+        "Department of Rheumatology and Immunology, Xi'an Fifth Hospital, Xi'an, Shaanxi, China.",
+        "Traditional Chinese Medicine Department, The Second Affiliated Hospital of Xi'an Medical College, Xi'an, Shaanxi, China.",
+        "Traditional Chinese Medicine Department, The Second Affiliated Hospital of Xi'an Medical College, Xi'an, Shaanxi, China.",
+        "Traditional Chinese Medicine Department, The Second Affiliated Hospital of Xi'an Medical College, Xi'an, Shaanxi, China.",
+        "Traditional Chinese Medicine Department, The Second Affiliated Hospital of Xi'an Medical College, Xi'an, Shaanxi, China.",
+        "Traditional Chinese Medicine Department, The Second Affiliated Hospital of Xi'an Medical College, Xi'an, Shaanxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Jie",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Traditional Chinese Medicine Department, The Second Affiliated Hospital of Xi'an Medical College, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, TingTing",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Xi'an Fifth Hospital, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Han, Pengbo",
+        "short_name": "Han P",
+        "identifiers": [],
+        "affiliations": [
+          "Traditional Chinese Medicine Department, The Second Affiliated Hospital of Xi'an Medical College, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhu",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Traditional Chinese Medicine Department, The Second Affiliated Hospital of Xi'an Medical College, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hongli",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Traditional Chinese Medicine Department, The Second Affiliated Hospital of Xi'an Medical College, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Fangqin",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "Traditional Chinese Medicine Department, The Second Affiliated Hospital of Xi'an Medical College, Xi'an, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Han, Gang",
+        "short_name": "Han G",
+        "identifiers": [],
+        "affiliations": [
+          "Traditional Chinese Medicine Department, The Second Affiliated Hospital of Xi'an Medical College, Xi'an, Shaanxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in endocrinology"
+    ],
+    "journal_abbrev": [
+      "Front Endocrinol (Lausanne)"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/06 06:29",
+    "fetched_at": "2026-10-01 05:36:11"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40884806",
+      "39310899",
+      "38758650",
+      "38579078",
+      "38462161",
+      "38013316",
+      "37941061",
+      "37752768",
+      "37293297",
+      "37250717",
+      "37245871",
+      "36983039",
+      "36858276",
+      "36639053",
+      "36370638",
+      "36311708",
+      "36292931",
+      "36147571",
+      "35751589",
+      "35693779",
+      "35462886",
+      "35425231",
+      "35303581",
+      "35283172",
+      "34557778",
+      "34276676",
+      "34249129",
+      "34242996",
+      "34179305",
+      "33720039",
+      "33640159",
+      "32849268",
+      "32392191",
+      "32327570",
+      "32263677",
+      "32237460",
+      "31972596",
+      "30936475",
+      "27207943",
+      "27180315",
+      "26958317",
+      "26307080",
+      "25844674",
+      "25605792",
+      "25063298",
+      "25029122",
+      "24726443",
+      "23840242",
+      "23782721",
+      "21421911",
+      "21269502",
+      "20588175",
+      "20401516",
+      "19495926",
+      "18219669",
+      "17381830",
+      "17380551",
+      "16920972",
+      "16373341",
+      "16187326",
+      "15308576",
+      "11449372",
+      "11117749",
+      "10993896",
+      "10415359",
+      "9404229",
+      "8592261",
+      "2427093",
+      "1330236"
+    ],
+    "similar": [
+      "41195206",
+      "38615700",
+      "41473244",
+      "41496131",
+      "40916281",
+      "41242114",
+      "40740189",
+      "39350059",
+      "40593998",
+      "40927289",
+      "39749683",
+      "33588742",
+      "38701256",
+      "37559532",
+      "40211501",
+      "34994141",
+      "36311708",
+      "40442788",
+      "34826542",
+      "32126522",
+      "39312335",
+      "35069454",
+      "35757478",
+      "41009970",
+      "40241169",
+      "33667569",
+      "41246353",
+      "35620387",
+      "40918403",
+      "37929726",
+      "39743063",
+      "41305716",
+      "37923747",
+      "39791175",
+      "32325182",
+      "40624035",
+      "38364892",
+      "40645073",
+      "37069639",
+      "37605572",
+      "35757392",
+      "41204488",
+      "40676786",
+      "39050570",
+      "40491314",
+      "40553824",
+      "38679399",
+      "35960074",
+      "38637425",
+      "37087476",
+      "33658763",
+      "36034449",
+      "35432213",
+      "39086489",
+      "33645093",
+      "38013316",
+      "40481474",
+      "38109076",
+      "36513616",
+      "40922365",
+      "41137226",
+      "39118036",
+      "40603950",
+      "39832077",
+      "41340627",
+      "41270908",
+      "39075002",
+      "39130750",
+      "40835195",
+      "36626454",
+      "41120603",
+      "41052072",
+      "31476308",
+      "41444522",
+      "40313558",
+      "38650009",
+      "37642288",
+      "38532341",
+      "40885831",
+      "32237460",
+      "38648716",
+      "41327654",
+      "38696100",
+      "40020109",
+      "33358854",
+      "41357842",
+      "38260098",
+      "33511203",
+      "39953608",
+      "39346628",
+      "38552092",
+      "38863714",
+      "37287284",
+      "40374866",
+      "39582915",
+      "41239709",
+      "38029626",
+      "33831468",
+      "41045823",
+      "37793334"
+    ],
+    "review": [
+      "41195206",
+      "32237460"
+    ],
+    "pmc": [
+      "12583211"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/osteoporosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Osteoporosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41195206/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1727",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fendo.2025.1618296",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

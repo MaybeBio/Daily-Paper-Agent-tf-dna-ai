@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "40326883",
+    "doi": "10.1021/acs.jctc.5c00064",
+    "title": "Quantifying Cooperativity through Binding Free Energies in Molecular Glue Degraders."
+  },
+  "content": {
+    "abstract": "Molecular glues represent a novel therapeutic modality facilitating the stabilization of protein-protein interactions (PPIs), thus enabling the targeting of previously \"undruggable\" proteins. We develop a computational procedure to screen for molecular glues using a pathway-independent free energy calculation method for accurately assessing the cooperativity. We employ a combined ligand and protein free energy perturbation (FEP) method to calculate the cooperative effect of a ligand for ternary binding. We study the cooperative binding mechanisms of molecular glue degraders, specifically cereblon (CRBN) modulators targeting Ikaros family zinc finger 2 (IKZF2), a transcription factor implicated in cancer immunotherapy. We present a comprehensive computational protocol for screening large molecular libraries to identify potent molecular glues. By leveraging cooperative binding principles in ternary complex formation, our approach effectively predicts ligand-induced PPIs and their degradation potential. Benchmarking against experimental data for CRBN-Ikaros complexes, our protocol demonstrates high accuracy in identifying superior molecular glues, highlighting L4 and L5 as top performers. Furthermore, our high-throughput screening identified novel candidates from extensive chemical libraries, validated through advanced FEP+ simulations. This study not only underscores the transformative potential of molecular glues in targeted protein degradation but also sets the stage for their broader application across diverse protein targets, paving the way for innovative therapeutic strategies in drug discovery.",
+    "keywords": [],
+    "mesh_terms": [
+      "Thermodynamics",
+      "Ligands",
+      "Protein Binding",
+      "Humans",
+      "Ubiquitin-Protein Ligases/metabolism/chemistry",
+      "Adaptor Proteins, Signal Transducing/metabolism/chemistry",
+      "*Ikaros Transcription Factor/chemistry/metabolism",
+      "*Small Molecule Libraries/chemistry/pharmacology",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dudas, Balint",
+        "Athanasiou, Christina",
+        "Mobarec, Juan Carlos",
+        "Rosta, Edina"
+      ],
+      "short_names": [
+        "Dudas B",
+        "Athanasiou C",
+        "Mobarec JC",
+        "Rosta E"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6938-5816",
+        "ORCID: 0000-0002-9823-4766"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, University College London, London WC1E 6BT, U.K.",
+        "Laboratory of Computational Biology, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, Maryland 20892, United States.",
+        "Protein Structure and Biophysics, Discovery Sciences, R&D, AstraZeneca, Cambridge CB2 0AA, U.K.",
+        "Protein Structure and Biophysics, Discovery Sciences, R&D, AstraZeneca, Cambridge CB2 0AA, U.K.",
+        "Department of Physics and Astronomy, University College London, London WC1E 6BT, U.K."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dudas, Balint",
+        "short_name": "Dudas B",
+        "identifiers": [
+          "0000-0001-6938-5816"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, University College London, London WC1E 6BT, U.K.",
+          "Laboratory of Computational Biology, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, Maryland 20892, United States."
+        ]
+      },
+      {
+        "full_name": "Athanasiou, Christina",
+        "short_name": "Athanasiou C",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Structure and Biophysics, Discovery Sciences, R&D, AstraZeneca, Cambridge CB2 0AA, U.K."
+        ]
+      },
+      {
+        "full_name": "Mobarec, Juan Carlos",
+        "short_name": "Mobarec JC",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Structure and Biophysics, Discovery Sciences, R&D, AstraZeneca, Cambridge CB2 0AA, U.K."
+        ]
+      },
+      {
+        "full_name": "Rosta, Edina",
+        "short_name": "Rosta E",
+        "identifiers": [
+          "0000-0002-9823-4766"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, University College London, London WC1E 6BT, U.K."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2025 Jun 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/06 12:41",
+    "fetched_at": "2026-09-30 17:21:14"
+  },
+  "links": {
+    "cites": [
+      "42540317",
+      "42476294",
+      "41874446",
+      "41801818",
+      "41772312",
+      "41582554",
+      "40661494"
+    ],
+    "refs": [
+      "38300987",
+      "37679459",
+      "36882622",
+      "36863346",
+      "35856839",
+      "35749929",
+      "35379777",
+      "35145136",
+      "34586825",
+      "34319094",
+      "34042448",
+      "33591756",
+      "33417864",
+      "32865967",
+      "32752662",
+      "31666732",
+      "31244845",
+      "31200856",
+      "30472158",
+      "28777566",
+      "28288108",
+      "27819658",
+      "27185917",
+      "26909574",
+      "26605738",
+      "26596171",
+      "26131937",
+      "25625324",
+      "23595060",
+      "23544844",
+      "21072141",
+      "20856692",
+      "20223979",
+      "19575467",
+      "19499576",
+      "19399780",
+      "19045004",
+      "18641616",
+      "18351591",
+      "16981200",
+      "16458552",
+      "15116359",
+      "15027866",
+      "15027865",
+      "12395429"
+    ],
+    "similar": [
+      "40326883",
+      "34042448",
+      "39610248",
+      "40252382",
+      "38802326",
+      "38598983",
+      "41401814",
+      "34033753",
+      "39218923",
+      "38320555",
+      "39406745",
+      "39499896",
+      "40994183",
+      "40516451",
+      "40963416",
+      "40907798",
+      "33930325",
+      "39393773",
+      "41050081",
+      "40333540",
+      "38170610",
+      "33143537",
+      "30385546",
+      "35623698",
+      "40122131",
+      "33632029",
+      "40243574",
+      "27782307",
+      "40707481",
+      "32865967",
+      "32859748",
+      "24328678",
+      "40167161",
+      "31873151",
+      "38608634",
+      "41258141",
+      "31396905",
+      "35525905",
+      "36750890",
+      "38963839",
+      "39753433",
+      "40945327",
+      "33891901",
+      "37083375",
+      "40835825",
+      "28358507",
+      "39691515",
+      "40832906",
+      "39972349",
+      "38165043",
+      "36764755",
+      "30431263",
+      "37037192",
+      "32413286",
+      "38621319",
+      "40014904",
+      "40015413",
+      "34978798",
+      "40600467",
+      "37390512",
+      "38704021",
+      "40608931",
+      "34378936",
+      "29118097",
+      "28425720",
+      "40015443",
+      "40845800",
+      "33197925",
+      "32080280",
+      "31059647",
+      "31251063",
+      "27338790",
+      "35856839",
+      "37399310",
+      "40665123",
+      "41184243",
+      "38552596",
+      "39854250",
+      "39610741",
+      "40334997",
+      "40014381",
+      "41313965",
+      "35933246",
+      "38701786",
+      "39873536",
+      "36749666",
+      "39314457",
+      "38029571",
+      "36378961",
+      "35796627",
+      "35682885",
+      "40336336",
+      "40506832",
+      "30672516",
+      "29594774",
+      "39575661",
+      "39482865",
+      "37902300",
+      "38140952",
+      "39480992"
+    ],
+    "review": [
+      "40326883",
+      "38802326",
+      "38598983",
+      "34033753",
+      "40907798",
+      "33930325",
+      "39393773",
+      "33143537",
+      "40122131",
+      "33632029",
+      "39753433",
+      "40945327",
+      "33891901",
+      "38165043",
+      "38621319",
+      "40014904",
+      "38704021",
+      "29118097",
+      "35856839",
+      "37399310",
+      "38552596",
+      "35933246",
+      "38701786",
+      "38029571",
+      "35796627",
+      "35682885"
+    ],
+    "pmc": [
+      "12159975"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40326883/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.5c00064",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

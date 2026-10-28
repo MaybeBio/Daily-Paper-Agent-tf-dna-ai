@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37782656",
+  "title": "Predicting regional somatic mutation rates using DNA motifs.",
+  "authors": "Liu, Cong; Wang, Zengmiao; Wang, Jun; Liu, Chengyu; Wang, Mengchi; Ngo, Vu; Wang, Wei",
+  "journal": "PLoS computational biology",
+  "published_date": "2023-10-02",
+  "window": {
+    "start": "2023-10-02",
+    "end": "2023-10-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用DNA基序（含TF基序）通过可解释神经网络预测体细胞突变率，虽涉及TF-DNA基序识别，但核心是突变率预测而非TF-DNA结合互作机制建模，方法可迁移但深度不足。",
+  "abstract": "How the locus-specificity of epigenetic modifications is regulated remains an unanswered question. A contributing mechanism is that epigenetic enzymes are recruited to specific loci by DNA binding factors recognizing particular sequence motifs (referred to as epi-motifs). Using these motifs to predict biological outputs depending on local epigenetic state such as somatic mutation rates would confirm their functionality. Here, we used DNA motifs including known TF motifs and epi-motifs as a surrogate of epigenetic signals to predict somatic mutation rates in 13 cancers at an average 23kbp resolution. We implemented an interpretable neural network model, called contextual regression, to successfully learn the universal relationship between mutations and DNA motifs, and uncovered motifs that are most impactful on the regional mutation rates such as TP53 and epi-motifs associated with H3K9me3. Furthermore, we identified genomic regions with significantly higher mutation rates than the expected values in each individual tumor and demonstrated that such cancer-related regions can accurately predict cancer types. Interestingly, we found that the same mutation signatures often have different contributions to cancer-related and cancer-independent regions, and we also identified the motifs with the most contribution to each mutation signature.",
+  "abstract_zh": "表观遗传修饰的位点特异性如何被调控仍是一个未解之谜。一个可能的机制是，表观遗传酶通过识别特定序列基序（称为表观基序 (epi-motifs)）的DNA结合因子被招募到特定基因座。利用这些基序来预测依赖于局部表观遗传状态的生物输出，如体细胞突变率，将确认其功能性。在此，我们使用包括已知转录因子基序和表观基序在内的DNA基序作为表观遗传信号的替代，以平均23kbp的分辨率预测13种癌症中的体细胞突变率。我们实现了一种可解释的神经网络模型，称为上下文回归 (contextual regression)，成功学习了突变与DNA基序之间的普遍关系，并发现了对区域突变率影响最大的基序，如TP53及与H3K9me3相关的表观基序。此外，我们识别出每个个体肿瘤中突变率显著高于预期值的基因组区域，并证明这些癌症相关区域能准确预测癌症类型。有趣的是，我们发现相同的突变特征在癌症相关区域和癌症非依赖区域中往往具有不同的贡献，并且我们还识别出对每种突变特征贡献最大的基序。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37782656/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37782656/",
+  "paper_page_path": "papers/pubmed/37782656/index.html"
+}

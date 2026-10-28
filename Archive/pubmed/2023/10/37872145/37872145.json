@@ -1,0 +1,552 @@
+{
+  "identity": {
+    "pmid": "37872145",
+    "doi": "10.1038/s41467-023-42288-1",
+    "title": "A non-canonical striatopallidal Go pathway that supports motor control."
+  },
+  "content": {
+    "abstract": "In the classical model of the basal ganglia, direct pathway striatal projection neurons (dSPNs) send projections to the substantia nigra (SNr) and entopeduncular nucleus to regulate motor function. Recent studies have re-established that dSPNs also possess axon collaterals within the globus pallidus (GPe) (bridging collaterals), yet the significance of these collaterals for behavior is unknown. Here we use in vivo optical and chemogenetic tools combined with deep learning approaches in mice to dissect the roles of dSPN GPe collaterals in motor function. We find that dSPNs projecting to the SNr send synchronous motor-related information to the GPe via axon collaterals. Inhibition of native activity in dSPN GPe terminals impairs motor activity and function via regulation of Npas1 neurons. We propose a model by which dSPN GPe axon collaterals (striatopallidal Go pathway) act in concert with the canonical terminals in the SNr to support motor control by inhibiting Npas1 neurons.",
+    "keywords": [],
+    "mesh_terms": [
+      "Mice",
+      "Animals",
+      "*Neurons/metabolism",
+      "*Axons/metabolism",
+      "Globus Pallidus/physiology",
+      "Corpus Striatum/metabolism",
+      "Basal Ganglia/metabolism",
+      "Nerve Tissue Proteins/genetics/metabolism",
+      "Basic Helix-Loop-Helix Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Labouesse, Marie A",
+        "Torres-Herraez, Arturo",
+        "Chohan, Muhammad O",
+        "Villarin, Joseph M",
+        "Greenwald, Julia",
+        "Sun, Xiaoxiao",
+        "Zahran, Mysarah",
+        "Tang, Alice",
+        "Lam, Sherry",
+        "Veenstra-VanderWeele, Jeremy",
+        "Lacefield, Clay O",
+        "Bonaventura, Jordi",
+        "Michaelides, Michael",
+        "Chan, C Savio",
+        "Yizhar, Ofer",
+        "Kellendonk, Christoph"
+      ],
+      "short_names": [
+        "Labouesse MA",
+        "Torres-Herraez A",
+        "Chohan MO",
+        "Villarin JM",
+        "Greenwald J",
+        "Sun X",
+        "Zahran M",
+        "Tang A",
+        "Lam S",
+        "Veenstra-VanderWeele J",
+        "Lacefield CO",
+        "Bonaventura J",
+        "Michaelides M",
+        "Chan CS",
+        "Yizhar O",
+        "Kellendonk C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6850-5852",
+        "ORCID: 0000-0002-9359-3700",
+        "ORCID: 0000-0003-3915-6187",
+        "ORCID: 0000-0001-5721-434X",
+        "ORCID: 0000-0002-4745-0151",
+        "ORCID: 0000-0003-0398-4917",
+        "ORCID: 0000-0002-3474-1718",
+        "ORCID: 0000-0003-4228-1448",
+        "ORCID: 0000-0003-3302-2188"
+      ],
+      "affiliations": [
+        "Department of Psychiatry, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA. marie.labouesse@hest.ethz.ch.",
+        "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA. marie.labouesse@hest.ethz.ch.",
+        "Department of Health, Sciences and Technology, ETH Zurich, 8092, Zurich, Switzerland. marie.labouesse@hest.ethz.ch.",
+        "Neuroscience Center Zurich, ETH Zurich and University of Zurich, 8057, Zurich, Switzerland. marie.labouesse@hest.ethz.ch.",
+        "Department of Psychiatry, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+        "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA.",
+        "Department of Psychiatry, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+        "Division of Child and Adolescent Psychiatry, New York State Psychiatric Institute, New York, NY, 10032, USA.",
+        "Department of Psychiatry, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+        "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA.",
+        "Department of Psychiatry, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+        "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA.",
+        "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA.",
+        "Department of Biomedical Engineering, Columbia University, New York, NY, 10027, USA.",
+        "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA.",
+        "Barnard College, Columbia University, New York, NY, 10027, USA.",
+        "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA.",
+        "Columbia College, Columbia University, New York, NY, 10027, USA.",
+        "Biobehavioral Imaging and Molecular Neuropsychopharmacology Unit, National Institute on Drug Abuse Intramural Research Program, Baltimore, MD, 21224, USA.",
+        "Department of Psychiatry, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+        "Division of Child and Adolescent Psychiatry, New York State Psychiatric Institute, New York, NY, 10032, USA.",
+        "Department of Psychiatry, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+        "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA.",
+        "Biobehavioral Imaging and Molecular Neuropsychopharmacology Unit, National Institute on Drug Abuse Intramural Research Program, Baltimore, MD, 21224, USA.",
+        "Departament de Patologia i Terapeutica Experimental, Institut de Neurociencies, L'Hospitalet de Llobregat, Universitat de Barcelona, Barcelona, Spain.",
+        "Biobehavioral Imaging and Molecular Neuropsychopharmacology Unit, National Institute on Drug Abuse Intramural Research Program, Baltimore, MD, 21224, USA.",
+        "Department of Psychiatry & Behavioral Sciences, Johns Hopkins University School of Medicine, Baltimore, MD, 21205, USA.",
+        "Department of Neuroscience, Feinberg School of Medicine, Northwestern University, Chicago, IL, 60611, USA.",
+        "Departments of Brain Sciences and Molecular Neuroscience, Weizmann Institute of Science, Rehovot, 76100, Israel.",
+        "Department of Psychiatry, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA. ck491@cumc.columbia.edu.",
+        "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA. ck491@cumc.columbia.edu.",
+        "Department of Molecular Pharmacology & Therapeutics, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA. ck491@cumc.columbia.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Labouesse, Marie A",
+        "short_name": "Labouesse MA",
+        "identifiers": [
+          "0000-0002-6850-5852"
+        ],
+        "affiliations": [
+          "Department of Psychiatry, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA. marie.labouesse@hest.ethz.ch.",
+          "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA. marie.labouesse@hest.ethz.ch.",
+          "Department of Health, Sciences and Technology, ETH Zurich, 8092, Zurich, Switzerland. marie.labouesse@hest.ethz.ch.",
+          "Neuroscience Center Zurich, ETH Zurich and University of Zurich, 8057, Zurich, Switzerland. marie.labouesse@hest.ethz.ch."
+        ]
+      },
+      {
+        "full_name": "Torres-Herraez, Arturo",
+        "short_name": "Torres-Herraez A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+          "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Chohan, Muhammad O",
+        "short_name": "Chohan MO",
+        "identifiers": [
+          "0000-0002-9359-3700"
+        ],
+        "affiliations": [
+          "Department of Psychiatry, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+          "Division of Child and Adolescent Psychiatry, New York State Psychiatric Institute, New York, NY, 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Villarin, Joseph M",
+        "short_name": "Villarin JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+          "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Greenwald, Julia",
+        "short_name": "Greenwald J",
+        "identifiers": [
+          "0000-0003-3915-6187"
+        ],
+        "affiliations": [
+          "Department of Psychiatry, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+          "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Sun, Xiaoxiao",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA.",
+          "Department of Biomedical Engineering, Columbia University, New York, NY, 10027, USA."
+        ]
+      },
+      {
+        "full_name": "Zahran, Mysarah",
+        "short_name": "Zahran M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA.",
+          "Barnard College, Columbia University, New York, NY, 10027, USA."
+        ]
+      },
+      {
+        "full_name": "Tang, Alice",
+        "short_name": "Tang A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA.",
+          "Columbia College, Columbia University, New York, NY, 10027, USA."
+        ]
+      },
+      {
+        "full_name": "Lam, Sherry",
+        "short_name": "Lam S",
+        "identifiers": [],
+        "affiliations": [
+          "Biobehavioral Imaging and Molecular Neuropsychopharmacology Unit, National Institute on Drug Abuse Intramural Research Program, Baltimore, MD, 21224, USA."
+        ]
+      },
+      {
+        "full_name": "Veenstra-VanderWeele, Jeremy",
+        "short_name": "Veenstra-VanderWeele J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+          "Division of Child and Adolescent Psychiatry, New York State Psychiatric Institute, New York, NY, 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Lacefield, Clay O",
+        "short_name": "Lacefield CO",
+        "identifiers": [
+          "0000-0001-5721-434X"
+        ],
+        "affiliations": [
+          "Department of Psychiatry, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA.",
+          "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA."
+        ]
+      },
+      {
+        "full_name": "Bonaventura, Jordi",
+        "short_name": "Bonaventura J",
+        "identifiers": [
+          "0000-0002-4745-0151"
+        ],
+        "affiliations": [
+          "Biobehavioral Imaging and Molecular Neuropsychopharmacology Unit, National Institute on Drug Abuse Intramural Research Program, Baltimore, MD, 21224, USA.",
+          "Departament de Patologia i Terapèutica Experimental, Institut de Neurociències, L'Hospitalet de Llobregat, Universitat de Barcelona, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Michaelides, Michael",
+        "short_name": "Michaelides M",
+        "identifiers": [
+          "0000-0003-0398-4917"
+        ],
+        "affiliations": [
+          "Biobehavioral Imaging and Molecular Neuropsychopharmacology Unit, National Institute on Drug Abuse Intramural Research Program, Baltimore, MD, 21224, USA.",
+          "Department of Psychiatry & Behavioral Sciences, Johns Hopkins University School of Medicine, Baltimore, MD, 21205, USA."
+        ]
+      },
+      {
+        "full_name": "Chan, C Savio",
+        "short_name": "Chan CS",
+        "identifiers": [
+          "0000-0002-3474-1718"
+        ],
+        "affiliations": [
+          "Department of Neuroscience, Feinberg School of Medicine, Northwestern University, Chicago, IL, 60611, USA."
+        ]
+      },
+      {
+        "full_name": "Yizhar, Ofer",
+        "short_name": "Yizhar O",
+        "identifiers": [
+          "0000-0003-4228-1448"
+        ],
+        "affiliations": [
+          "Departments of Brain Sciences and Molecular Neuroscience, Weizmann Institute of Science, Rehovot, 76100, Israel."
+        ]
+      },
+      {
+        "full_name": "Kellendonk, Christoph",
+        "short_name": "Kellendonk C",
+        "identifiers": [
+          "0000-0003-3302-2188"
+        ],
+        "affiliations": [
+          "Department of Psychiatry, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA. ck491@cumc.columbia.edu.",
+          "Division of Molecular Therapeutics, New York State Psychiatric Institute, New York, NY, 10032, USA. ck491@cumc.columbia.edu.",
+          "Department of Molecular Pharmacology & Therapeutics, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, 10032, USA. ck491@cumc.columbia.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2023 Oct 23",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/24 00:41",
+    "fetched_at": "2026-10-04 22:10:52"
+  },
+  "links": {
+    "cites": [
+      "42165314",
+      "41346798",
+      "40808660",
+      "40735384",
+      "40323467",
+      "40236399",
+      "40210897",
+      "39953208",
+      "39447573",
+      "38965445",
+      "38956067",
+      "38941461",
+      "38915684",
+      "38849935",
+      "38596834",
+      "38196745",
+      "37563141"
+    ],
+    "refs": [
+      "37438336",
+      "36922596",
+      "36640317",
+      "35931070",
+      "35324301",
+      "35294877",
+      "34737448",
+      "34732888",
+      "34618556",
+      "33979634",
+      "33823137",
+      "33770505",
+      "33723433",
+      "33408637",
+      "33306949",
+      "33248017",
+      "32989293",
+      "32937106",
+      "32868462",
+      "31953369",
+      "31940718",
+      "31811030",
+      "31462765",
+      "31461643",
+      "31209382",
+      "31171839",
+      "31018098",
+      "30622165",
+      "30504927",
+      "30127430",
+      "30127424",
+      "30065635",
+      "29917235",
+      "29779950",
+      "29540712",
+      "29510116",
+      "29268098",
+      "29024667",
+      "29024654",
+      "28774929",
+      "28608288",
+      "27346533",
+      "27194335",
+      "27194328",
+      "26950004",
+      "26905595",
+      "26777273",
+      "26335644",
+      "26317475",
+      "26311767",
+      "26051420",
+      "25926446",
+      "25843402",
+      "25739505",
+      "24995986",
+      "24768300",
+      "24464039",
+      "24411738",
+      "24259575",
+      "23769625",
+      "22726837",
+      "22068054",
+      "21982368",
+      "21469956",
+      "21314848",
+      "21273403",
+      "21048144",
+      "20696186",
+      "20613723",
+      "19198605",
+      "18495884",
+      "18472347",
+      "17360345",
+      "17239247",
+      "17015831",
+      "15242609",
+      "11118494",
+      "11074265",
+      "11052216",
+      "10997578",
+      "1698947"
+    ],
+    "similar": [
+      "37872145",
+      "36798372",
+      "33731445",
+      "27194328",
+      "31811030",
+      "33731450",
+      "32868462",
+      "26311767",
+      "36623877",
+      "10660885",
+      "2431347",
+      "29691329",
+      "28472858",
+      "8985875",
+      "32112413",
+      "38596834",
+      "28115486",
+      "20107133",
+      "35058372",
+      "19378803",
+      "24351932",
+      "33067362",
+      "30726572",
+      "22726837",
+      "10997578",
+      "20151360",
+      "1380517",
+      "16914290",
+      "31690946",
+      "30668973",
+      "23595816",
+      "23616563",
+      "10199614",
+      "10888744",
+      "37400253",
+      "1527588",
+      "29917235",
+      "22634360",
+      "14663003",
+      "9063587",
+      "2459567",
+      "27194335",
+      "25392486",
+      "29500819",
+      "21858817",
+      "31940718",
+      "17446041",
+      "8783253",
+      "14519509",
+      "10213186",
+      "7711765",
+      "24501350",
+      "15292054",
+      "26490861",
+      "39149277",
+      "20074618",
+      "23945778",
+      "27995326",
+      "19189717",
+      "37992783",
+      "1283209",
+      "10923987",
+      "34616074",
+      "1698947",
+      "6736295",
+      "14523095",
+      "33316152",
+      "18781672",
+      "10712658",
+      "16214880",
+      "37207651",
+      "27147651",
+      "22131382",
+      "3359258",
+      "30414556",
+      "2341628",
+      "36857188",
+      "33563724",
+      "10619469",
+      "26642797",
+      "226567",
+      "2496330",
+      "6479259",
+      "1697864",
+      "2133346",
+      "30566076",
+      "8822181",
+      "32433955",
+      "14694537",
+      "27880915",
+      "37438336",
+      "3664266",
+      "32937133"
+    ],
+    "review": [
+      "37872145",
+      "19378803",
+      "14663003",
+      "9063587",
+      "25392486",
+      "7711765",
+      "10923987"
+    ],
+    "pmc": [
+      "10593790"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.informatics.jax.org/reference/37872145",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-023-42288-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37872145/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37872145",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/37872145",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37872145",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "37582793",
+    "doi": "10.1186/s13059-023-03021-9",
+    "title": "Predicting the impact of sequence motifs on gene regulation using single-cell data."
+  },
+  "content": {
+    "abstract": "The binding of transcription factors at proximal promoters and distal enhancers is central to gene regulation. Identifying regulatory motifs and quantifying their impact on expression remains challenging. Using a convolutional neural network trained on single-cell data, we infer putative regulatory motifs and cell type-specific importance. Our model, scover, explains 29% of the variance in gene expression in multiple mouse tissues. Applying scover to distal enhancers identified using scATAC-seq from the developing human brain, we identify cell type-specific motif activities in distal enhancers. Scover can identify regulatory motifs and their importance from single-cell data where all parameters and outputs are easily interpretable.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "Mice",
+      "*Enhancer Elements, Genetic",
+      "*Gene Expression Regulation",
+      "Transcription Factors/genetics/metabolism",
+      "Promoter Regions, Genetic",
+      "Neural Networks, Computer",
+      "Nucleotide Motifs"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hepkema, Jacob",
+        "Lee, Nicholas Keone",
+        "Stewart, Benjamin J",
+        "Ruangroengkulrith, Siwat",
+        "Charoensawan, Varodom",
+        "Clatworthy, Menna R",
+        "Hemberg, Martin"
+      ],
+      "short_names": [
+        "Hepkema J",
+        "Lee NK",
+        "Stewart BJ",
+        "Ruangroengkulrith S",
+        "Charoensawan V",
+        "Clatworthy MR",
+        "Hemberg M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8895-5239"
+      ],
+      "affiliations": [
+        "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK.",
+        "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK.",
+        "The Gurdon Institute, University of Cambridge, Tennis Court Road, Cambridge, CB2 1QN, UK.",
+        "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK.",
+        "Molecular Immunity Unit, Department of Medicine, University of Cambridge, Cambridge, CB2 0QQ, UK.",
+        "Cambridge University Hospitals NHS Foundation Trust and NIHR Cambridge Biomedical Research Centre, Cambridge, CB2 0QQ, UK.",
+        "Department of Biochemistry, Faculty of Science, Mahidol University, Bangkok, 10400, Thailand.",
+        "Department of Biochemistry, Faculty of Science, Mahidol University, Bangkok, 10400, Thailand.",
+        "Integrative Computational BioScience (ICBS) Center, Mahidol University, Nakhon Pathom, 7310, Thailand.",
+        "Systems Biology of Diseases Research Unit, Faculty of Science, Mahidol University, Bangkok, 10400, Thailand.",
+        "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK.",
+        "Molecular Immunity Unit, Department of Medicine, University of Cambridge, Cambridge, CB2 0QQ, UK.",
+        "Cambridge University Hospitals NHS Foundation Trust and NIHR Cambridge Biomedical Research Centre, Cambridge, CB2 0QQ, UK.",
+        "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK. mhemberg@bwh.harvard.edu.",
+        "The Gurdon Institute, University of Cambridge, Tennis Court Road, Cambridge, CB2 1QN, UK. mhemberg@bwh.harvard.edu.",
+        "Gene Lay Institute of Immunology and Inflammation, Brigham and Women's Hospital, Massachusetts General Hospital, and Harvard Medical School, Boston, MA, 02115, USA. mhemberg@bwh.harvard.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hepkema, Jacob",
+        "short_name": "Hepkema J",
+        "identifiers": [],
+        "affiliations": [
+          "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK."
+        ]
+      },
+      {
+        "full_name": "Lee, Nicholas Keone",
+        "short_name": "Lee NK",
+        "identifiers": [],
+        "affiliations": [
+          "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK.",
+          "The Gurdon Institute, University of Cambridge, Tennis Court Road, Cambridge, CB2 1QN, UK."
+        ]
+      },
+      {
+        "full_name": "Stewart, Benjamin J",
+        "short_name": "Stewart BJ",
+        "identifiers": [],
+        "affiliations": [
+          "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK.",
+          "Molecular Immunity Unit, Department of Medicine, University of Cambridge, Cambridge, CB2 0QQ, UK.",
+          "Cambridge University Hospitals NHS Foundation Trust and NIHR Cambridge Biomedical Research Centre, Cambridge, CB2 0QQ, UK."
+        ]
+      },
+      {
+        "full_name": "Ruangroengkulrith, Siwat",
+        "short_name": "Ruangroengkulrith S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Faculty of Science, Mahidol University, Bangkok, 10400, Thailand."
+        ]
+      },
+      {
+        "full_name": "Charoensawan, Varodom",
+        "short_name": "Charoensawan V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Faculty of Science, Mahidol University, Bangkok, 10400, Thailand.",
+          "Integrative Computational BioScience (ICBS) Center, Mahidol University, Nakhon Pathom, 7310, Thailand.",
+          "Systems Biology of Diseases Research Unit, Faculty of Science, Mahidol University, Bangkok, 10400, Thailand."
+        ]
+      },
+      {
+        "full_name": "Clatworthy, Menna R",
+        "short_name": "Clatworthy MR",
+        "identifiers": [],
+        "affiliations": [
+          "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK.",
+          "Molecular Immunity Unit, Department of Medicine, University of Cambridge, Cambridge, CB2 0QQ, UK.",
+          "Cambridge University Hospitals NHS Foundation Trust and NIHR Cambridge Biomedical Research Centre, Cambridge, CB2 0QQ, UK."
+        ]
+      },
+      {
+        "full_name": "Hemberg, Martin",
+        "short_name": "Hemberg M",
+        "identifiers": [
+          "0000-0001-8895-5239"
+        ],
+        "affiliations": [
+          "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, CB10 1SA, UK. mhemberg@bwh.harvard.edu.",
+          "The Gurdon Institute, University of Cambridge, Tennis Court Road, Cambridge, CB2 1QN, UK. mhemberg@bwh.harvard.edu.",
+          "Gene Lay Institute of Immunology and Inflammation, Brigham and Women's Hospital, Massachusetts General Hospital, and Harvard Medical School, Boston, MA, 02115, USA. mhemberg@bwh.harvard.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2023 Aug 15",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/16 00:42",
+    "fetched_at": "2026-09-29 05:45:41"
+  },
+  "links": {
+    "cites": [
+      "42630798",
+      "42036810",
+      "41178434",
+      "41145510",
+      "40697412",
+      "38889275",
+      "36377861"
+    ],
+    "refs": [
+      "36973557",
+      "36127324",
+      "35971180",
+      "35941239",
+      "34608324",
+      "34390642",
+      "34234345",
+      "33505025",
+      "33234418",
+      "32978299",
+      "32728250",
+      "32728245",
+      "32433972",
+      "32132109",
+      "31856220",
+      "31682641",
+      "31611697",
+      "31604275",
+      "31400197",
+      "31176620",
+      "31114032",
+      "31073239",
+      "30971806",
+      "30923381",
+      "30705426",
+      "30686579",
+      "30590489",
+      "30283141",
+      "29914354",
+      "29588361",
+      "29425488",
+      "29409532",
+      "29233921",
+      "29036507",
+      "28991892",
+      "28645171",
+      "27899567",
+      "27806697",
+      "27335461",
+      "27197224",
+      "26892542",
+      "26213851",
+      "25504732",
+      "25215497",
+      "25129887",
+      "24515121",
+      "24244184",
+      "24185615",
+      "24038112",
+      "22955983",
+      "21960440",
+      "21829439",
+      "21285371",
+      "20513432",
+      "20159560",
+      "20147307",
+      "20126523",
+      "19815308",
+      "18303999",
+      "17478514",
+      "17324271",
+      "16606849",
+      "16491069",
+      "16243602",
+      "15084257",
+      "10866665"
+    ],
+    "similar": [
+      "37582793",
+      "24156763",
+      "31318408",
+      "24714811",
+      "9012660",
+      "27490187",
+      "23512712",
+      "27582178",
+      "32616518",
+      "22537144",
+      "34187518",
+      "33581335",
+      "36043696",
+      "28716036",
+      "22179019",
+      "34244796",
+      "27833659",
+      "25872643",
+      "32197056",
+      "32728244",
+      "26604129",
+      "34230963",
+      "8455611",
+      "22763441",
+      "38514806",
+      "30286077",
+      "29070071",
+      "23437007",
+      "29233921",
+      "11807024",
+      "30139328",
+      "26342387",
+      "34531149",
+      "24499934",
+      "10575545",
+      "12379120",
+      "33975951",
+      "34761274",
+      "33535061",
+      "20363979",
+      "35887306",
+      "21295696",
+      "29421235",
+      "25450156",
+      "33854063",
+      "8052267",
+      "31845961",
+      "9414299",
+      "26313521",
+      "26348136",
+      "22683808",
+      "27986453",
+      "7507206",
+      "35241702",
+      "22167192",
+      "23595228",
+      "33044128",
+      "36941077",
+      "25179504",
+      "27816209",
+      "8458327",
+      "21785139",
+      "23700312",
+      "22534400",
+      "3020434",
+      "36740001",
+      "32249388",
+      "22955983",
+      "8132552",
+      "27763805",
+      "20019798",
+      "34718747",
+      "9593696",
+      "29618724",
+      "8455606",
+      "39223609",
+      "16943581",
+      "36715222",
+      "25887857",
+      "33154111",
+      "25517091",
+      "18804520",
+      "30622120",
+      "38014229",
+      "37214950",
+      "38292477"
+    ],
+    "review": [
+      "37582793",
+      "32197056",
+      "21295696",
+      "25450156",
+      "27816209"
+    ],
+    "pmc": [
+      "10426127"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03021-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37582793/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37582793",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42616740",
+  "title": "CASP1 as a key autophagy-related gene in atherosclerosis: Identification by bioinformatics analysis and experimental validation.",
+  "authors": "Gao, Han; Guo, Yuanling; Wang, Lang; Shen, Yue'E; Liu, Weisong",
+  "journal": "PloS one",
+  "published_date": "2026-08-19",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究通过生物信息学与机器学习识别动脉粥样硬化自噬相关基因，虽含转录因子调控网络预测，但核心为疾病标志物筛选与实验验证，无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "OBJECTIVE: This study identified potential autophagy-related genes (ARGs) in atherosclerosis using bioinformatics strategies, aiming to explore novel therapeutic targets for the clinical management of atherosclerosis. METHODS: Four gene expression datasets associated with atherosclerosis (GSE100927, GSE43292, GSE28829, and GSE20129) were retrieved from the GEO database of the NCBI and subjected to comprehensive analysis. A list of ARGs was compiled by accessing the HADb. AR-DEGs were screened using the \"limma\" package in R software. Thereafter, six core genes were identified through the combined application of three machine learning algorithms and PPI network analysis, with subsequent validation conducted using external datasets GSE28829 and GSE20129. Additional analyses included GO annotation, KEGG pathway enrichment, drug prediction, immune infiltration assessment, ceRNA network establishment, and transcription factor (TF) regulatory network analysis. Finally, the expression levels of CASP1 in both in vivo and in vitro models were quantified using WB, RT-qPCR, and IF assays. RESULTS: A total of 13 AR-DEGs were detected with significant expression differences between the AS group and the control group. After integrative screening via PPI network analysis and machine learning algorithms, followed by validation against external datasets GSE28829 and GSE20129, PRKCD, SERPINA1, CASP1, CXCR4, and CCR2 were confirmed as characteristic biomarkers for AS, and their corresponding microRNAs (miRNAs) were predicted. Immune infiltration analysis indicated that these characteristic genes were correlated with immune cells. Moreover, in vivo and in vitro experimental results demonstrated that CASP1 was highly expressed in AS samples. CONCLUSION: PRKCD, SERPINA1, CASP1, CXCR4, and CCR2 were identified as key genes in atherosclerosis, and their associated ceRNA and TF regulatory networks were predicted. Among these key genes, CASP1 is a promising candidate associated with atherosclerosis and worthy of further study.",
+  "abstract_zh": "目的：本研究通过生物信息学策略识别动脉粥样硬化中潜在的自噬相关基因（autophagy-related genes, ARGs），旨在为动脉粥样硬化的临床管理探索新的治疗靶点。方法：从NCBI的GEO数据库中检索了四个与动脉粥样硬化相关的基因表达数据集（GSE100927、GSE43292、GSE28829和GSE20129），并进行综合分析。通过访问HADb数据库编制了ARGs列表。使用R软件中的“limma”包筛选AR-DEGs。随后，通过三种机器学习算法和PPI网络分析的联合应用识别出六个核心基因，并使用外部数据集GSE28829和GSE20129进行验证。其他分析包括GO注释、KEGG通路富集、药物预测、免疫浸润评估、ceRNA网络构建和转录因子（transcription factor, TF）调控网络分析。最后，通过WB、RT-qPCR和IF实验定量检测了体内和体外模型中CASP1的表达水平。结果：共检测到13个AR-DEGs，在AS组和对照组之间表达差异显著。通过PPI网络分析和机器学习算法的整合筛选，并经外部数据集GSE28829和GSE20129验证后，PRKCD、SERPINA1、CASP1、CXCR4和CCR2被确认为AS的特征性生物标志物，并预测了它们对应的微小RNA（miRNAs）。免疫浸润分析表明，这些特征基因与免疫细胞相关。此外，体内和体外实验结果表明，CASP1在AS样本中高表达。结论：PRKCD、SERPINA1、CASP1、CXCR4和CCR2被确定为动脉粥样硬化中的关键基因，并预测了它们相关的ceRNA和TF调控网络。在这些关键基因中，CASP1是与动脉粥样硬化相关的有前景的候选基因，值得进一步研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42616740/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42616740/",
+  "paper_page_path": "papers/pubmed/42616740/index.html"
+}

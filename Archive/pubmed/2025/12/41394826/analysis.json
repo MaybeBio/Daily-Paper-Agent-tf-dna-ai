@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41394826",
+  "title": "Machine learning-based prediction of nasopharyngeal carcinoma risk: a clinical approach.",
+  "authors": "Yang, Wenhui; Zhou, Chengyan; Tang, Minzhong; Huang, Zhiqiang; Zhu, Haiqing; Li, Shangyang; Huang, Huipin; Liang, Yujuan; Pan, Wenting; Yuan, Yulin",
+  "journal": "Frontiers in immunology",
+  "published_date": "2025-12-15",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用机器学习预测鼻咽癌风险，基于EBV血清学与血液标志物，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Early screening and risk assessment of nasopharyngeal carcinoma (NPC) are essential for timely diagnosis and improved treatment outcomes. This study aimed to develop and evaluate predictive models using logistic regression and machine learning (ML) techniques to identify significant risk factors for NPC across various healthcare settings. METHODS: A total of 569 participants were enrolled in the internal training and validation cohorts, and 160 were enrolled in the independent external validation cohort. Several Epstein-Barr virus (EBV)-related antibodies and serological and hematological markers were assessed to identify discriminatory features between NPC and non-NPC individuals. Feature selection was performed using least absolute shrinkage and selection operator (LASSO) regression, recursive feature elimination cross-validation (REFCV), and support vector machine recursive feature elimination cross-validation (SVMREFCV). The performance of nine machine learning (ML) models (logistic regression (LR), eXtreme Gradient Boosting (XGBoost), light gradient boosting machine (LightGBM), random forest (RF), AdaBoost, multilayer perceptron (MLP), decision tree (DT), gradient boosting decision tree (GBDT), and Gaussian Naive Bayes (GNB)) was evaluated using the area under the curve (AUC), accuracy (ACC), sensitivity (SE), and specificity (SP) in both the training and validation cohorts. Model calibration was assessed using calibration plots and clinical utility was evaluated through decision curve analysis (DCA). RESULTS: Five key predictors (nuclear antigen 1 immunoglobulin A (NTA1-IgA), viral capsid antigen immunoglobulin A (VCA-IgA), Rta protein immunoglobulin A (Rta-IgA), platelet (PLT) count, and lymphocyte (LM) count) were consistently identified across the three feature selection algorithms. The XGBoost model achieved the highest performance in the internal training (AUC = 0.999) and validation cohorts (AUC = 0.995); it also outperformed in the independent external validation cohort with an AUC of 0.956. Calibration and DCA for both internal and intendent external cohorts were then confirmed the strong clinical utility for the XGBoost model. An outline tool also enabled real-time NPC risk prediction based on the five selected biomarkers. CONCLUSION: This study presents a robust and interpretable ML-based approach for NPC risk prediction, integrating EBV serology and hematological markers. The model demonstrated high predictive accuracy and potential for population-based screening, providing an efficient tool for early NPC detection and intervention planning.",
+  "abstract_zh": "背景：鼻咽癌（NPC）的早期筛查和风险评估对于及时诊断和改善治疗结果至关重要。本研究旨在利用逻辑回归和机器学习（ML）技术开发并评估预测模型，以识别不同医疗环境中鼻咽癌的重要风险因素。方法：内部训练和验证队列共纳入569名参与者，独立外部验证队列纳入160名参与者。评估了多种 Epstein-Barr 病毒（EBV）相关抗体以及血清学和血液学标志物，以识别鼻咽癌与非鼻咽癌个体之间的区分特征。特征选择采用最小绝对收缩和选择算子（LASSO）回归、递归特征消除交叉验证（REFCV）和支持向量机递归特征消除交叉验证（SVMREFCV）进行。九种机器学习（ML）模型（逻辑回归（LR）、极限梯度提升（XGBoost）、轻量梯度提升机（LightGBM）、随机森林（RF）、AdaBoost、多层感知器（MLP）、决策树（DT）、梯度提升决策树（GBDT）和高斯朴素贝叶斯（GNB））的性能通过训练和验证队列中的曲线下面积（AUC）、准确率（ACC）、敏感性（SE）和特异性（SP）进行评估。模型校准通过校准图评估，临床效用通过决策曲线分析（DCA）评估。结果：三个特征选择算法一致识别出五个关键预测因子（核抗原1免疫球蛋白A（NTA1-IgA）、病毒衣壳抗原免疫球蛋白A（VCA-IgA）、Rta蛋白免疫球蛋白A（Rta-IgA）、血小板（PLT）计数和淋巴细胞（LM）计数）。XGBoost模型在内部训练（AUC = 0.999）和验证队列（AUC = 0.995）中表现最佳；在独立外部验证队列中也表现优异，AUC为0.956。内部和独立外部队列的校准和DCA进一步证实了XGBoost模型的强大临床效用。一个概要工具还基于五个选定的生物标志物实现了实时鼻咽癌风险预测。结论：本研究提出了一种稳健且可解释的基于ML的鼻咽癌风险预测方法，整合了EBV血清学和血液学标志物。该模型展示了高预测准确性和基于人群筛查的潜力，为早期鼻咽癌检测和干预规划提供了高效工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41394826/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41394826/",
+  "paper_page_path": "papers/pubmed/41394826/index.html"
+}

@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "38044948",
+    "doi": "10.3389/fphar.2023.1298341",
+    "title": "Integrated investigation and experimental validation of PPARG as an oncogenic driver: implications for prognostic assessment and therapeutic targeting in hepatocellular carcinoma."
+  },
+  "content": {
+    "abstract": "Peroxisome proliferator-activated receptor gamma (PPARG), a key transcription factor involved in lipid metabolism and glucose homeostasis, has been implicated in various types of cancer. However, its precise role in cancer remains unclear. In this study, we conducted a comprehensive pan-cancer analysis of PPARG expression using various types of cancer obtained from public databases. We observed significant heterogeneity in PPARG expression across different types of cancer. The association between PPARG expression and patient prognosis was investigated using Cox proportional hazards regression models and survival analysis. Clinical features and protein expression levels in the cohort showed that PPARG expression was strongly associated, suggesting its potential as a therapeutic target. We also evaluated the prognostic potential of PPARG by analyzing immune infiltration and genomic stability. We experimentally validated the potential of PPARG as a therapeutic target by analyzing drug sensitivity profiles, molecular docking simulations, and in vitro cell proliferation assays associated with PPARG expression. We identified common expression patterns of PPARG with other genes involved in key carcinogenic pathways. This provides deeper insights into the molecular mechanisms underlying its carcinogenic role. Additionally, functional enrichment analysis revealed significant enrichment of genes related to drug metabolism, cell proliferation, and immune response pathways associated with PPARG. Our findings highlight the importance of PPARG in the broader biology of cancer and suggest its potential as a diagnostic and therapeutic target for specific types of cancer. The results of our study provide strong support for the potential role of PPARG as a promising prognostic biomarker and immunotherapeutic target across various types of cancer.",
+    "keywords": [
+      "PPARG",
+      "biomarkers",
+      "drug sensitivity",
+      "immunological function",
+      "prognosis",
+      "tumor microenvironment"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ran, Yunsheng",
+        "Hu, Chujiao",
+        "Wan, Junzhao",
+        "Kang, Qian",
+        "Zhou, Ruixian",
+        "Liu, Ping",
+        "Ma, Dan",
+        "Wang, Jianta",
+        "Tang, Lei"
+      ],
+      "short_names": [
+        "Ran Y",
+        "Hu C",
+        "Wan J",
+        "Kang Q",
+        "Zhou R",
+        "Liu P",
+        "Ma D",
+        "Wang J",
+        "Tang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmacy, Guizhou Medical University, Guiyang, China.",
+        "Guizhou Provincial Engineering Technology Research Center for Chemical Drug R&D, Guizhou Medical University, Guiyang, China.",
+        "Guizhou Provincial Engineering Technology Research Center for Chemical Drug R&D, Guizhou Medical University, Guiyang, China.",
+        "State Key Laboratory of Functions and Applications of Medicinal Plants, Guizhou Medical University, Guiyang, China.",
+        "School of Pharmacy, Guizhou Medical University, Guiyang, China.",
+        "Guizhou Provincial Engineering Technology Research Center for Chemical Drug R&D, Guizhou Medical University, Guiyang, China.",
+        "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guiyang, China.",
+        "Department of Acupuncture and Moxibustion, Affiliated Hospital of Guizhou Medical University, Guiyang, China.",
+        "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guiyang, China.",
+        "Guizhou Provincial Engineering Technology Research Center for Chemical Drug R&D, Guizhou Medical University, Guiyang, China.",
+        "State Key Laboratory of Functions and Applications of Medicinal Plants, Guizhou Medical University, Guiyang, China.",
+        "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guiyang, China.",
+        "Guizhou Provincial Engineering Technology Research Center for Chemical Drug R&D, Guizhou Medical University, Guiyang, China.",
+        "State Key Laboratory of Functions and Applications of Medicinal Plants, Guizhou Medical University, Guiyang, China.",
+        "Guizhou Provincial Engineering Technology Research Center for Chemical Drug R&D, Guizhou Medical University, Guiyang, China.",
+        "State Key Laboratory of Functions and Applications of Medicinal Plants, Guizhou Medical University, Guiyang, China.",
+        "Key Laboratory of Endemic and Ethnic Diseases, Ministry of Education and Key Laboratory of Medical Molecular Biology of Guizhou Province, Guizhou Medical University, Guiyang, Guizhou, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ran, Yunsheng",
+        "short_name": "Ran Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Guizhou Medical University, Guiyang, China.",
+          "Guizhou Provincial Engineering Technology Research Center for Chemical Drug R&D, Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Chujiao",
+        "short_name": "Hu C",
+        "identifiers": [],
+        "affiliations": [
+          "Guizhou Provincial Engineering Technology Research Center for Chemical Drug R&D, Guizhou Medical University, Guiyang, China.",
+          "State Key Laboratory of Functions and Applications of Medicinal Plants, Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Wan, Junzhao",
+        "short_name": "Wan J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Guizhou Medical University, Guiyang, China.",
+          "Guizhou Provincial Engineering Technology Research Center for Chemical Drug R&D, Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Qian",
+        "short_name": "Kang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Ruixian",
+        "short_name": "Zhou R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Acupuncture and Moxibustion, Affiliated Hospital of Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ping",
+        "short_name": "Liu P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Dan",
+        "short_name": "Ma D",
+        "identifiers": [],
+        "affiliations": [
+          "Guizhou Provincial Engineering Technology Research Center for Chemical Drug R&D, Guizhou Medical University, Guiyang, China.",
+          "State Key Laboratory of Functions and Applications of Medicinal Plants, Guizhou Medical University, Guiyang, China.",
+          "Department of Hematology, Affiliated Hospital of Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jianta",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Guizhou Provincial Engineering Technology Research Center for Chemical Drug R&D, Guizhou Medical University, Guiyang, China.",
+          "State Key Laboratory of Functions and Applications of Medicinal Plants, Guizhou Medical University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Lei",
+        "short_name": "Tang L",
+        "identifiers": [],
+        "affiliations": [
+          "Guizhou Provincial Engineering Technology Research Center for Chemical Drug R&D, Guizhou Medical University, Guiyang, China.",
+          "State Key Laboratory of Functions and Applications of Medicinal Plants, Guizhou Medical University, Guiyang, China.",
+          "Key Laboratory of Endemic and Ethnic Diseases, Ministry of Education and Key Laboratory of Medical Molecular Biology of Guizhou Province, Guizhou Medical University, Guiyang, Guizhou, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in pharmacology"
+    ],
+    "journal_abbrev": [
+      "Front Pharmacol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/04 06:42",
+    "fetched_at": "2026-10-04 22:31:05"
+  },
+  "links": {
+    "cites": [
+      "41456067",
+      "41403929",
+      "41039037",
+      "40973872",
+      "40546399",
+      "38449795"
+    ],
+    "refs": [
+      "37077909",
+      "37059068",
+      "36527150",
+      "36385374",
+      "36291082",
+      "35418684",
+      "35078134",
+      "34221966",
+      "33992930",
+      "33667686",
+      "33402390",
+      "33331847",
+      "33259803",
+      "32674727",
+      "32085795",
+      "31623970",
+      "31597917",
+      "31527632",
+      "31273095",
+      "30683893",
+      "30207593",
+      "29637711",
+      "29582250",
+      "29466694",
+      "29350282",
+      "29331412",
+      "28765323",
+      "28534509",
+      "28507210",
+      "28363334",
+      "28348577",
+      "28220523",
+      "28011329",
+      "27769068",
+      "27547913",
+      "27035989",
+      "26398698",
+      "24705063",
+      "24597633",
+      "22619290",
+      "20829347",
+      "18325386",
+      "15533870",
+      "9065481"
+    ],
+    "similar": [
+      "38044948",
+      "36249888",
+      "19186181",
+      "37334066",
+      "37346073",
+      "31135556",
+      "32850439",
+      "21151932",
+      "37670965",
+      "35069553",
+      "34567087",
+      "27401066",
+      "33439777",
+      "26376791",
+      "37275857",
+      "36518297",
+      "37848933",
+      "22286757",
+      "36555903",
+      "37540264",
+      "32714316",
+      "35651805",
+      "37580402",
+      "36623412",
+      "36531056",
+      "37250326",
+      "35578600",
+      "37780567",
+      "36685895",
+      "32565768",
+      "26550180",
+      "35782736",
+      "37936713",
+      "34413861",
+      "28708516",
+      "35065633",
+      "32373170",
+      "31090452",
+      "22152244",
+      "31263479",
+      "26595524",
+      "34288277",
+      "30677596",
+      "37969385",
+      "26550133",
+      "37958409",
+      "35974300",
+      "23088980",
+      "37358720",
+      "28504924",
+      "35187064",
+      "33029111",
+      "37388242",
+      "37650687",
+      "36542958",
+      "36007389",
+      "35935989",
+      "17615406",
+      "36761737",
+      "36606187",
+      "35668930",
+      "36765282",
+      "34774014",
+      "37942289",
+      "27323819",
+      "37601657",
+      "37632832",
+      "36419876",
+      "37248547",
+      "32807122",
+      "36932403",
+      "28008156",
+      "37733696",
+      "34926701",
+      "36148220",
+      "36458010",
+      "34484235",
+      "35733852",
+      "33850474",
+      "32565767",
+      "36118871",
+      "37969191",
+      "36090054",
+      "36466552",
+      "35937984",
+      "37153542",
+      "36978046",
+      "37876534",
+      "36341373",
+      "37404826",
+      "38575817"
+    ],
+    "review": [
+      "38044948",
+      "35937984"
+    ],
+    "pmc": [
+      "10690586"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38044948/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38044948",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fphar.2023.1298341",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

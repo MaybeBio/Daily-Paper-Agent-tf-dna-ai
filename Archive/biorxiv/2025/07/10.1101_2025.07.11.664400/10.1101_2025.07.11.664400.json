@@ -1,0 +1,567 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.11.664400",
+  "title": "The Nuclease Domain of <i>E. coli</i> RecBCD Regulates DNA Binding and Base Pair Melting",
+  "doi": "10.1101/2025.07.11.664400",
+  "abstract": "E. coli RecBCD, a hetero-trimeric helicase and nuclease, functions in double stranded (ds) DNA break repair and in degrading foreign DNA. RecBCD possesses ATPase motor domains within both RecB (3’ to 5’) and RecD (5’ to 3’) and a nuclease domain within RecB (RecB Nuc ). RecBCD binds to double stranded DNA ends and initiates DNA unwinding by first melting several DNA base pairs (bp) using only its binding free energy. The RecB Nuc domain is docked ∼70 Å from the duplex DNA binding site in RecBCD-DNA structures but appears to be dynamic and able to move from its docked position. Here, we compare DNA binding of RecBCD and a variant, RecB ΔNuc CD, in which the 30 kDa nuclease domain has been deleted. RecBCD binding to a blunt DNA end is enthalpically unfavorable and entropically driven. Deletion of RecB Nuc results in an increase in DNA binding affinity, suggesting an allosteric effect of RecB Nuc . RecB ΔNuc CD binding to DNA possessing fully ‘pre-melted’ DNA ends is associated with a large favorable ΔH obs , but much smaller than observed for RecBCD, suggesting that deletion of RecB Nuc limits bp melting from a blunt DNA. We also solved cryo-EM structures showing only 4 bp melted upon RecB ΔNuc CD binding to a blunt ended DNA duplex, less than the 11 bp melted upon RecBCD binding. Thus, the RecB nuclease domain regulates the extent of bp melting by RecBCD. These results also suggest that RecB Nuc may manifest its long-range allosteric effect on DNA binding and DNA melting via linker-linker interactions between RecB and RecC.",
+  "authors": [
+    "Linxuan Hao",
+    "Rui Zhang",
+    "Timothy M. Lohman"
+  ],
+  "published_date": "2025-07-12",
+  "updated_date": "2025-07-13T05:15:14Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.11.664400",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.11.664400.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T11:32:21Z",
+        "timestamp": 1785411141415,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            12
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 65,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                12
+              ]
+            ],
+            "date-time": "2025-07-12T00:00:00Z",
+            "timestamp": 1752278400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "R35 GM136632"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35 GM136632"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01cwqze88",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "R01GM138854"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01GM138854"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01cwqze88",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  <jats:italic>E. coli</jats:italic>\n                  RecBCD, a hetero-trimeric helicase and nuclease, functions in double stranded (ds) DNA break repair and in degrading foreign DNA. RecBCD possesses ATPase motor domains within both RecB (3’ to 5’) and RecD (5’ to 3’) and a nuclease domain within RecB (RecB\n                  <jats:sup>Nuc</jats:sup>\n                  ). RecBCD binds to double stranded DNA ends and initiates DNA unwinding by first melting several DNA base pairs (bp) using only its binding free energy. The RecB\n                  <jats:sup>Nuc</jats:sup>\n                  domain is docked ∼70 Å from the duplex DNA binding site in RecBCD-DNA structures but appears to be dynamic and able to move from its docked position. Here, we compare DNA binding of RecBCD and a variant, RecB\n                  <jats:sup>ΔNuc</jats:sup>\n                  CD, in which the 30 kDa nuclease domain has been deleted. RecBCD binding to a blunt DNA end is enthalpically unfavorable and entropically driven. Deletion of RecB\n                  <jats:sup>Nuc</jats:sup>\n                  results in an increase in DNA binding affinity, suggesting an allosteric effect of RecB\n                  <jats:sup>Nuc</jats:sup>\n                  . RecB\n                  <jats:sup>ΔNuc</jats:sup>\n                  CD binding to DNA possessing fully ‘pre-melted’ DNA ends is associated with a large favorable ΔH\n                  <jats:sub>obs</jats:sub>\n                  , but much smaller than observed for RecBCD, suggesting that deletion of RecB\n                  <jats:sup>Nuc</jats:sup>\n                  limits bp melting from a blunt DNA. We also solved cryo-EM structures showing only 4 bp melted upon RecB\n                  <jats:sup>ΔNuc</jats:sup>\n                  CD binding to a blunt ended DNA duplex, less than the 11 bp melted upon RecBCD binding. Thus, the RecB nuclease domain regulates the extent of bp melting by RecBCD. These results also suggest that RecB\n                  <jats:sup>Nuc</jats:sup>\n                  may manifest its long-range allosteric effect on DNA binding and DNA melting via linker-linker interactions between RecB and RecC.\n                </jats:p>",
+      "DOI": "10.1101/2025.07.11.664400",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            13
+          ]
+        ],
+        "date-time": "2025-07-13T05:15:14Z",
+        "timestamp": 1752383714000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "The Nuclease Domain of\n                  <i>E. coli</i>\n                  RecBCD Regulates DNA Binding and Base Pair Melting"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Linxuan",
+          "family": "Hao",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rui",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6616-2967",
+          "authenticated-orcid": false,
+          "given": "Timothy M.",
+          "family": "Lohman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0906355107"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MMBR.00020-08"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/cr.2008.1"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.48"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M505520200"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature01673"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/emboj.2008.144"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature01674"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/20.21.5647"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1206076109"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2012.07.009"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M112.423384"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2016.07.002"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1997.1259"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature02988"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2005.07.056"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2021.167147"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2008.07.012"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2023.168381"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.95.3.981"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1998.2127"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2007.09.023"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(03)00681-0"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(00)80315-3"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.270.27.16360"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(93)90162-J"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(91)90625-9"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2006.01.007"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2014.07.017"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.18227"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-019-0355-2"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.270.41.24451"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2006.07.016"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2008.03.023"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/emboj.2008.144"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.18227"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi990043w"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.88.9.3569"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.95.4.1460"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20084"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(70)90057-4"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae007"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.95.4.1460"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi990043w"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.88.9.3569"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2004.04.009"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2016.07.002"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature02988"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/26.11.2686"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(00)80525-5"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2006.10.049"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2114501119"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2422330122"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0502886102"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(02)01067-7"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2014.07.014"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0076-6879(04)84012-6"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1110/ps.0207702"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1998.1738"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4193"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jsb.2015.11.003"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.42166"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444909052925"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444910007493"
+        },
+        {
+          "key": "2025071508500563000_2025.07.11.664400v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3235"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.07.11.664400",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T09:06:35Z",
+        "timestamp": 1768467995000
+      },
+      "score": 128.96448,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.07.11.664400"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            12
+          ]
+        ]
+      },
+      "references-count": 65,
+      "URL": "https://doi.org/10.1101/2025.07.11.664400",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.04.08.487641",
+  "title": "MOCCS profile analysis clarifies the cell type dependency of transcription factor-binding sequences and cis-regulatory SNPs in humans",
+  "authors": "Saeko Tahara; Takaho Tsuchiya; Hirotaka Matsumoto; Haruka Ozaki",
+  "journal": "bioRxiv",
+  "published_date": "2022-04-10",
+  "window": {
+    "start": "2022-04-04",
+    "end": "2022-04-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用k-mer基序发现方法MOCCS2分析人类TF ChIP-seq数据，构建MOCCS profiles表征TF-DNA结合特异性并预测变异对结合的影响，虽涉及TF-DNA互作但主要基于序列统计，缺乏三维结构建模或AI/物理模拟方法。",
+  "abstract": "Transcription factors (TFs) show heterogeneous DNA-binding specificities in individual cells and whole organisms in natural conditions): de novo motif discovery usually provides multiple motifs even from a single ChIP-seq sample. Despite the accumulation of ChIP-seq data and ChIP-seq-derived motifs, the diversity of DNA-binding specificities across different TFs and cell types remains largely unexplored. Here, we propose MOCCS profiles, the new representation of DNA-binding specificity of TFs, which describes a ChIP-seq sample as a profile of TF-binding specificity scores (MOCCS2scores) for every k -mer sequence. Using our k -mer-based motif discovery method MOCCS2, we systematically computed MOCCS profiles for >10,000 human TF ChIP-seq samples across diverse TFs and cell types. Comparison of MOCCS profiles revealed the global distributions of DNA-binding specificities, and found that one-third of the analyzed TFs showed differences in DNA-binding specificities across cell types. Moreover, we showed that the differences in MOCCS2scores (ΔMOCCS2scores) predicted the effect of variants on TF binding, validated by in vitro and in vivo assay datasets. We also demonstrate ΔMOCCS2scores can be used to interpret non-coding GWAS-SNPs as TF-affecting SNPs and provide their candidate responsible TFs and cell types. Our study provides the basis for investigating gene expression regulation and non-coding disease-associated variants in humans.",
+  "abstract_zh": "转录因子（TFs）在自然条件下的单个细胞和整个生物体中显示出异质的DNA结合特异性：从头基序发现通常即使从单个ChIP-seq样本中也能提供多个基序。尽管ChIP-seq数据和源自ChIP-seq的基序不断积累，但不同转录因子和细胞类型间DNA结合特异性的多样性在很大程度上仍未得到探索。在此，我们提出了MOCCS谱，这是一种新的转录因子DNA结合特异性表示方法，它将ChIP-seq样本描述为每个k-mer序列的转录因子结合特异性评分（MOCCS2scores）的谱图。利用我们基于k-mer的基序发现方法MOCCS2，我们系统计算了超过10,000个人类转录因子ChIP-seq样本的MOCCS谱，覆盖了多种转录因子和细胞类型。通过比较MOCCS谱，我们揭示了DNA结合特异性的全局分布，并发现所分析的转录因子中有三分之一在不同细胞类型间表现出DNA结合特异性的差异。此外，我们展示了MOCCS2scores的差异（ΔMOCCS2scores）能够预测变异对转录因子结合的影响，并通过体外和体内实验数据集进行了验证。我们还证明ΔMOCCS2scores可用于将非编码GWAS-SNPs解释为影响转录因子的SNPs，并提供其候选的责任转录因子和细胞类型。我们的研究为探究人类基因表达调控和非编码疾病相关变异提供了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.04.08.487641",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.04.08.487641",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.04.08.487641/index.html"
+}

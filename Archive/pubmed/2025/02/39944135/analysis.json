@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39944135",
+  "title": "Integrated bioinformatics analysis to explore potential therapeutic targets and drugs for small cell carcinoma of the esophagus.",
+  "authors": "Zhu, Maofei; Chu, Yueming; Yuan, Qiang; Li, Junfeng; Chen, Silin; Li, Lin",
+  "journal": "Frontiers in bioinformatics",
+  "published_date": "2025-02-13",
+  "window": {
+    "start": "2025-02-10",
+    "end": "2025-02-16"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过生物信息学分析食管小细胞癌的差异表达基因和药物靶点，虽涉及分子对接，但核心是肿瘤基因表达与药物筛选，非蛋白质-DNA互作或TF-DNA结合机制研究。",
+  "abstract": "BACKGROUND: Small cell carcinoma of the esophagus (SCCE) is a rare form of esophageal cancer, which also belongs to the category of neuroendocrine malignant tumors, with a low incidence but high aggressiveness, and a very poor prognosis for patients. Currently, there is a lack of unique staging and treatment guidelines for SCCE. Therefore, a deeper understanding of the therapeutic targets and the mechanisms underlying its occurrence and development is of great importance for early diagnosis, identification of potential therapeutic agents and improvement of the prognosis for patients. METHODS: Firstly, the dataset of SCCE was downloaded from the GEO database and GEO2R tool was employed for the analysis of differentially expressed genes (DEGs). GO and KEGG analysis of DEGs were carried out by using the Bioinformatics and OmicStudio tools. Then, up- and down-regulated genes were intersected with the oncogenes and the tumor suppressor genes respectively, to obtain the differentially expressed onco/tumor suppressor genes in SCCE. The STRING database was employed to conduct protein-protein interaction (PPI) analysis of differentially expressed onco/tumor suppressor genes, the network was further constructed in Cytoscape, and hub genes of the network were obtained through the Cytohubba plugin. In addition, miRDB, miRwalk, Targetscan, OncomiR, starbase, Lncbase were used to predict miRNAs and lncRNAs that regulate hub genes, the ceRNA network was built based on this. Transcription factor-miRNA co-regulatory network was analyzed in the NetworkAnalyst database and embellished in Cytoscape. Finally, drugs that may target hub genes were searched through the DGIdb and ConnectivityMAP, and docking verification was performed using Schrodinger. RESULTS: A total of 820 genes were upregulated and 716 were downregulated, of these, 54 were identified as oncogenes and 85 as tumor suppressor genes. Seven hub genes were identified from the PPI network, which were AURKA, BIRC5, CDK1, EZH2, FOXM1, KLF4 and UBE2C. Furthermore, a total of 38 drugs were searched and filtered in DGIdb and ConnectivityMAP, in the molecular docking results of drugs with hub genes, the docking score of AURKA, CDK1, and EZH2 with multiple drugs were low (<6). In addition, crizotinib with AURKA, lapatinib with CDK1, rucaparib with EZH2, rucaparib with UBE2C were the lowest energy of all molecular docking results. CONCLUSION: AURKA, BIRC5, CDK1, EZH2, FOXM1, KLF4 and UBE2C are the hub genes of SCCE, among them, AURKA, CDK1 and EZH2 may be used as targets of multiple drugs. Crizotinib, lapatinib, and rucaparib can act on the above targets to inhibit the progression of SCCE and play a therapeutic role.",
+  "abstract_zh": "背景：食管小细胞癌（SCCE）是一种罕见的食管癌类型，也属于神经内分泌恶性肿瘤范畴，发病率低但侵袭性强，患者预后极差。目前，SCCE缺乏独特的分期和治疗指南。因此，深入了解其治疗靶点及发生发展机制，对于早期诊断、识别潜在治疗药物及改善患者预后具有重要意义。方法：首先，从GEO数据库下载SCCE数据集，并使用GEO2R工具分析差异表达基因（DEGs）。利用Bioinformatics和OmicStudio工具对DEGs进行GO和KEGG分析。然后，将上调和下调基因分别与癌基因和肿瘤抑制基因取交集，获得SCCE中差异表达的癌/肿瘤抑制基因。使用STRING数据库对差异表达的癌/肿瘤抑制基因进行蛋白质-蛋白质相互作用（PPI）分析，在Cytoscape中进一步构建网络，并通过Cytohubba插件获取网络中的枢纽基因。此外，使用miRDB、miRwalk、Targetscan、OncomiR、starbase、Lncbase预测调控枢纽基因的miRNAs和lncRNAs，并基于此构建ceRNA网络。在NetworkAnalyst数据库中分析转录因子-miRNA共调控网络，并在Cytoscape中进行修饰。最后，通过DGIdb和ConnectivityMAP搜索可能靶向枢纽基因的药物，并使用Schrodinger进行对接验证。结果：共有820个基因上调，716个基因下调，其中54个被鉴定为癌基因，85个为肿瘤抑制基因。从PPI网络中鉴定出7个枢纽基因，分别为AURKA、BIRC5、CDK1、EZH2、FOXM1、KLF4和UBE2C。此外，在DGIdb和ConnectivityMAP中搜索并筛选出共38种药物，在药物与枢纽基因的分子对接结果中，AURKA、CDK1和EZH2与多种药物的对接分数较低（<6）。其中，crizotinib与AURKA、lapatinib与CDK1、rucaparib与EZH2、rucaparib与UBE2C的对接能量在所有分子对接结果中最低。结论：AURKA、BIRC5、CDK1、EZH2、FOXM1、KLF4和UBE2C是SCCE的枢纽基因，其中AURKA、CDK1和EZH2可能作为多种药物的靶点。Crizotinib、lapatinib和rucaparib可作用于上述靶点，抑制SCCE进展并发挥治疗作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39944135/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39944135/",
+  "paper_page_path": "papers/pubmed/39944135/index.html"
+}

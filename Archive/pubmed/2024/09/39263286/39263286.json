@@ -1,0 +1,405 @@
+{
+  "identity": {
+    "pmid": "39263286",
+    "doi": "10.21037/tp-24-230",
+    "title": "Identification of novel mitophagy-related biomarkers for Kawasaki disease by integrated bioinformatics and machine-learning algorithms."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Kawasaki disease (KD) is a systemic vasculitis primarily affecting the coronary arteries in children. Despite growing attention to its symptoms and pathogenesis, the exact mechanisms of KD remain unclear. Mitophagy plays a critical role in inflammation regulation, however, its significance in KD has only been minimally explored. This study sought to identify crucial mitophagy-related biomarkers and their mechanisms in KD, focusing on their association with immune cells in peripheral blood. METHODS: This research used four datasets from the Gene Expression Omnibus (GEO) database that were categorized as the merged and validation datasets. Screening for differentially expressed mitophagy-related genes (DE-MRGs) was conducted, followed by Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses. A weighted gene co-expression network analysis (WGCNA) identified the hub module, while machine-learning algorithms [random forest-recursive feature elimination (RF-RFE) and support vector machine-recursive feature elimination (SVM-RFE)] pinpointed the hub genes. Receiver operating characteristic (ROC) curves were generated for these genes. Additionally, the CIBERSORT algorithm was used to assess the infiltration of 22 immune cell types to explore their correlations with hub genes. Interactions between transcription factors (TFs), genes, and Gene-microRNAs (miRNAs) of hub genes were mapped using the NetworkAnalyst platform. The expression difference of the hub genes was validated using quantitative reverse transcriptase polymerase chain reaction (qRT-PCR). RESULTS: Initially, 306 DE-MRGs were identified between the KD patients and healthy controls. The enrichment analysis linked these MRGs to autophagy, mitochondrial function, and inflammation. The WGCNA revealed a hub module of 47 KD-associated DE-MRGs. The machine-learning algorithms identified cytoskeleton-associated protein 4 (CKAP4) and serine-arginine protein kinase 1 (SRPK1) as critical hub genes. In the merged dataset, the area under the curve (AUC) values for CKAP4 and SRPK1 were 0.933 [95% confidence interval (CI): 0.901 to 0.964] and 0.936 (95% CI: 0.906 to 0.966), respectively, indicating high diagnostic potential. The validation dataset results corroborated these findings with AUC values of 0.872 (95% CI: 0.741 to 1.000) for CKAP4 and 0.878 (95% CI: 0.750 to 1.000) for SRPK1. The CIBERSORT analysis connected CKAP4 and SRPK1 with specific immune cells, including activated cluster of differentiation 4 (CD4) memory T cells. TFs such as MAZ, SAP30, PHF8, KDM5B, miRNAs like hsa-mir-7-5p play essential roles in regulating these hub genes. The qRT-PCR results confirmed the differential expression of these genes between the KD patients and healthy controls. CONCLUSIONS: CKAP4 and SRPK1 emerged as promising diagnostic biomarkers for KD. These genes potentially influence the progression of KD through mitophagy regulation.",
+    "keywords": [
+      "Kawasaki disease (KD)",
+      "bioinformatics analysis",
+      "immune cell infiltration",
+      "machine learning",
+      "mitophagy"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yan",
+        "Liu, Ying",
+        "Wang, Nana",
+        "Liu, Zhiheng",
+        "Qian, Guanghui",
+        "Li, Xuan",
+        "Huang, Hongbiao",
+        "Zhuo, Wenyu",
+        "Xu, Lei",
+        "Zhang, Jiaying",
+        "Lv, Haitao",
+        "Gao, Yang"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Liu Y",
+        "Wang N",
+        "Liu Z",
+        "Qian G",
+        "Li X",
+        "Huang H",
+        "Zhuo W",
+        "Xu L",
+        "Zhang J",
+        "Lv H",
+        "Gao Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, China.",
+        "Department of Cardiology, The Affiliated Xuzhou Children's Hospital of Xuzhou Medical University, Xuzhou, China.",
+        "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, China.",
+        "Department of Cardiology, Children's Hospital of Soochow University, Suzhou, China.",
+        "Department of Cardiology, Children's Hospital of Soochow University, Suzhou, China.",
+        "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, China.",
+        "Department of Cardiology, Children's Hospital of Soochow University, Suzhou, China.",
+        "Department of Pediatrics, Fujian Provincial Hospital, Fujian Provincial Clinical College of Fujian Medical University, Fuzhou, China.",
+        "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, China.",
+        "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, China.",
+        "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, China.",
+        "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, China.",
+        "Department of Cardiology, Children's Hospital of Soochow University, Suzhou, China.",
+        "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, China.",
+        "Department of Pediatrics, The First People's Hospital of Lianyungang, Xuzhou Medical University Affiliated Hospital of Lianyungang (Lianyungang Clinical College of Nanjing Medical University), Lianyungang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, China.",
+          "Department of Cardiology, The Affiliated Xuzhou Children's Hospital of Xuzhou Medical University, Xuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ying",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Nana",
+        "short_name": "Wang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Children's Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhiheng",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Children's Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Guanghui",
+        "short_name": "Qian G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xuan",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Children's Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hongbiao",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Fujian Provincial Hospital, Fujian Provincial Clinical College of Fujian Medical University, Fuzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhuo, Wenyu",
+        "short_name": "Zhuo W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Lei",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jiaying",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Haitao",
+        "short_name": "Lv H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, China.",
+          "Department of Cardiology, Children's Hospital of Soochow University, Suzhou, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yang",
+        "short_name": "Gao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pediatric Research, Children's Hospital of Soochow University, Suzhou, China.",
+          "Department of Pediatrics, The First People's Hospital of Lianyungang, Xuzhou Medical University Affiliated Hospital of Lianyungang (Lianyungang Clinical College of Nanjing Medical University), Lianyungang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Translational pediatrics"
+    ],
+    "journal_abbrev": [
+      "Transl Pediatr"
+    ],
+    "pub_date": "2024 Aug 31",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/12 08:43",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [
+      "41822482",
+      "41810197",
+      "41580556",
+      "41216442"
+    ],
+    "refs": [
+      "39195969",
+      "38758472",
+      "38635637",
+      "38154101",
+      "37980402",
+      "37422701",
+      "37228596",
+      "37057110",
+      "36914768",
+      "36740221",
+      "36686646",
+      "36629882",
+      "36594088",
+      "36341698",
+      "36341378",
+      "36329225",
+      "36171259",
+      "36138024",
+      "36059959",
+      "35864106",
+      "35641492",
+      "35248828",
+      "35167493",
+      "35099338",
+      "34715057",
+      "34521850",
+      "34517723",
+      "34403365",
+      "34193174",
+      "34163322",
+      "34092081",
+      "34026343",
+      "33737684",
+      "33620180",
+      "33614703",
+      "33167866",
+      "33020418",
+      "32283413",
+      "32070767",
+      "30691046",
+      "30611297",
+      "30610103",
+      "30568163",
+      "30453885",
+      "30379623",
+      "30239141",
+      "30154567",
+      "30101479",
+      "30042935",
+      "29611167",
+      "28356445",
+      "27458587",
+      "26751588",
+      "25822882",
+      "25822800",
+      "25614765",
+      "24490882",
+      "23525660",
+      "21414208",
+      "20516191",
+      "16939804",
+      "15910456",
+      "15505111",
+      "11358434",
+      "10835091",
+      "10720409"
+    ],
+    "similar": [
+      "39263286",
+      "39142001",
+      "38260098",
+      "40406620",
+      "41146237",
+      "38371524",
+      "39670237",
+      "36660690",
+      "37837870",
+      "41479901",
+      "41132349",
+      "39609718",
+      "39403102",
+      "37287971",
+      "40313958",
+      "38601640",
+      "40997906",
+      "39364223",
+      "36743936",
+      "41164826",
+      "40630623",
+      "39170142",
+      "41388523",
+      "39754246",
+      "41013727",
+      "37732314",
+      "41291841",
+      "37503333",
+      "36482994",
+      "39375405",
+      "41006883",
+      "38291374",
+      "36829193",
+      "40671345",
+      "40312440",
+      "39713769",
+      "37359526",
+      "38711508",
+      "36699262",
+      "41386886",
+      "40620701",
+      "41300841",
+      "38044432",
+      "36704339",
+      "38283345",
+      "40129981",
+      "41044520",
+      "39697326",
+      "37325483",
+      "39139563",
+      "38863714",
+      "41102315",
+      "40821971",
+      "40238799",
+      "41415264",
+      "36685847",
+      "34536521",
+      "38951833",
+      "39346078",
+      "40360670",
+      "40500570",
+      "35911963",
+      "37454542",
+      "40766309",
+      "37085930",
+      "41054110",
+      "36470144",
+      "40115463",
+      "41013556",
+      "36148059",
+      "41052072",
+      "38028617",
+      "41432483",
+      "40276515",
+      "35958412",
+      "34107850",
+      "41324863",
+      "39512836",
+      "35928610",
+      "35764238",
+      "36195955",
+      "39600608",
+      "38755717",
+      "41137290",
+      "41234537",
+      "36438903",
+      "40598145",
+      "39396400",
+      "37779906",
+      "40860289",
+      "34767108",
+      "36532015",
+      "40119397",
+      "40095160",
+      "40438384",
+      "40263690",
+      "38571624",
+      "37386410",
+      "38690269",
+      "41164411"
+    ],
+    "review": [
+      "39263286"
+    ],
+    "pmc": [
+      "11384439"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39263286/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21037/tp-24-230",
+        "provider": "AME Publishing Company",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-335",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

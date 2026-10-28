@@ -1,0 +1,411 @@
+{
+  "identity": {
+    "pmid": "38227575",
+    "doi": "10.1371/journal.pcbi.1011802",
+    "title": "Transcription factor interactions explain the context-dependent activity of CRX binding sites."
+  },
+  "content": {
+    "abstract": "The effects of transcription factor binding sites (TFBSs) on the activity of a cis-regulatory element (CRE) depend on the local sequence context. In rod photoreceptors, binding sites for the transcription factor (TF) Cone-rod homeobox (CRX) occur in both enhancers and silencers, but the sequence context that determines whether CRX binding sites contribute to activation or repression of transcription is not understood. To investigate the context-dependent activity of CRX sites, we fit neural network-based models to the activities of synthetic CREs composed of photoreceptor TFBSs. The models revealed that CRX binding sites consistently make positive, independent contributions to CRE activity, while negative homotypic interactions between sites cause CREs composed of multiple CRX sites to function as silencers. The effects of negative homotypic interactions can be overcome by the presence of other TFBSs that either interact cooperatively with CRX sites or make independent positive contributions to activity. The context-dependent activity of CRX sites is thus determined by the balance between positive heterotypic interactions, independent contributions of TFBSs, and negative homotypic interactions. Our findings explain observed patterns of activity among genomic CRX-bound enhancers and silencers, and suggest that enhancers may require diverse TFBSs to overcome negative homotypic interactions between TFBSs.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism",
+      "*Trans-Activators/metabolism",
+      "Homeodomain Proteins/genetics",
+      "Gene Expression Regulation",
+      "Binding Sites/genetics",
+      "Retina"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Loell, Kaiser J",
+        "Friedman, Ryan Z",
+        "Myers, Connie A",
+        "Corbo, Joseph C",
+        "Cohen, Barak A",
+        "White, Michael A"
+      ],
+      "short_names": [
+        "Loell KJ",
+        "Friedman RZ",
+        "Myers CA",
+        "Corbo JC",
+        "Cohen BA",
+        "White MA"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9013-8676",
+        "ORCID: 0000-0001-8511-6026"
+      ],
+      "affiliations": [
+        "Department of Genetics, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America.",
+        "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America.",
+        "Department of Genetics, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America.",
+        "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America.",
+        "Department of Pathology and Immunology, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America.",
+        "Department of Pathology and Immunology, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America.",
+        "Department of Genetics, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America.",
+        "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America.",
+        "Department of Genetics, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America.",
+        "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Loell, Kaiser J",
+        "short_name": "Loell KJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America.",
+          "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America."
+        ]
+      },
+      {
+        "full_name": "Friedman, Ryan Z",
+        "short_name": "Friedman RZ",
+        "identifiers": [
+          "0000-0001-9013-8676"
+        ],
+        "affiliations": [
+          "Department of Genetics, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America.",
+          "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America."
+        ]
+      },
+      {
+        "full_name": "Myers, Connie A",
+        "short_name": "Myers CA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Immunology, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America."
+        ]
+      },
+      {
+        "full_name": "Corbo, Joseph C",
+        "short_name": "Corbo JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Immunology, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America."
+        ]
+      },
+      {
+        "full_name": "Cohen, Barak A",
+        "short_name": "Cohen BA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America.",
+          "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America."
+        ]
+      },
+      {
+        "full_name": "White, Michael A",
+        "short_name": "White MA",
+        "identifiers": [
+          "0000-0001-8511-6026"
+        ],
+        "affiliations": [
+          "Department of Genetics, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America.",
+          "The Edison Family Center for Genome Sciences & Systems Biology, Washington University School of Medicine in St. Louis, St. Louis, Missouri, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2024 Jan",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/16 18:41",
+    "fetched_at": "2026-09-29 13:42:17"
+  },
+  "links": {
+    "cites": [
+      "42687910",
+      "42246540",
+      "41427331",
+      "39778579",
+      "39704646",
+      "39084215",
+      "38355306",
+      "37662358",
+      "37292699"
+    ],
+    "refs": [
+      "38355306",
+      "37087538",
+      "37080164",
+      "37020022",
+      "36344659",
+      "36071116",
+      "36070393",
+      "35947668",
+      "35551305",
+      "35428271",
+      "35190730",
+      "34486522",
+      "34358443",
+      "33753082",
+      "33712417",
+      "33712326",
+      "33689769",
+      "33503407",
+      "33028607",
+      "32728250",
+      "32728249",
+      "32728244",
+      "32376862",
+      "32265282",
+      "32094911",
+      "32043966",
+      "31968244",
+      "31633482",
+      "31206543",
+      "30716072",
+      "30463953",
+      "30158147",
+      "29728462",
+      "29187214",
+      "29095143",
+      "28964699",
+      "28256534",
+      "28137873",
+      "27965290",
+      "27863239",
+      "27783940",
+      "27197208",
+      "26785491",
+      "26550828",
+      "26387539",
+      "26025865",
+      "25557079",
+      "24558479",
+      "24288374",
+      "23921661",
+      "23892608",
+      "23818646",
+      "23565263",
+      "23435728",
+      "23129659",
+      "22868264",
+      "22609971",
+      "22511886",
+      "22479169",
+      "22304916",
+      "21865162",
+      "21653228",
+      "20693478",
+      "20439748",
+      "20363979",
+      "20026326",
+      "19805139",
+      "19029883",
+      "18681939",
+      "17973026",
+      "17662965",
+      "17653270",
+      "17550599",
+      "16574740",
+      "16332268",
+      "15930495",
+      "15797194",
+      "15781457",
+      "15696541",
+      "15689355",
+      "15190009",
+      "15056733",
+      "12857954",
+      "12506003",
+      "12023297",
+      "11895773",
+      "11694879",
+      "10887186",
+      "10102270",
+      "9834183",
+      "9390563",
+      "9390562",
+      "9390516",
+      "9020109",
+      "8548797",
+      "8344257",
+      "8332216",
+      "1671661"
+    ],
+    "similar": [
+      "38227575",
+      "34486522",
+      "30158147",
+      "38355306",
+      "39778579",
+      "31915147",
+      "20693478",
+      "15689355",
+      "29563767",
+      "30068366",
+      "9931337",
+      "10887186",
+      "30084954",
+      "15781457",
+      "17656371",
+      "27783940",
+      "23818646",
+      "14744875",
+      "24499263",
+      "18854042",
+      "11468275",
+      "12215455",
+      "10866677",
+      "10984472",
+      "15001570",
+      "11677252",
+      "37963072",
+      "37292699",
+      "11971869",
+      "21392589",
+      "18927113",
+      "22511886",
+      "10744971",
+      "20463752",
+      "40074530",
+      "39084215",
+      "11943774",
+      "11880494",
+      "24664678",
+      "9731707",
+      "9792858",
+      "9390562",
+      "29187214",
+      "22006320",
+      "17662965",
+      "39487168",
+      "22558175",
+      "20363979",
+      "23565263",
+      "24558479",
+      "24382353",
+      "11951083",
+      "26324254",
+      "32043966",
+      "17141759",
+      "14613968",
+      "25986607",
+      "15081370",
+      "39715683",
+      "24888636",
+      "9390516",
+      "28903150",
+      "25678762",
+      "23129659",
+      "11157887",
+      "42475469",
+      "9427255",
+      "25392503",
+      "27427859",
+      "9390563",
+      "20172488",
+      "15967807",
+      "20438719",
+      "20949100",
+      "28371363",
+      "10625658",
+      "19850845",
+      "11597600",
+      "11007889",
+      "25489226",
+      "16799048",
+      "19823680",
+      "16332268",
+      "24516401",
+      "35255174",
+      "9479006",
+      "10967037",
+      "25928893",
+      "41418782",
+      "18849347",
+      "39922842",
+      "16595861",
+      "31337308",
+      "15963234",
+      "38585983",
+      "27567672",
+      "10581037",
+      "18172122",
+      "25801704",
+      "12161428"
+    ],
+    "review": [
+      "38227575",
+      "40074530",
+      "17662965"
+    ],
+    "pmc": [
+      "10817189"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1011802",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38227575/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38227575",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38227575",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LBX1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse225867",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

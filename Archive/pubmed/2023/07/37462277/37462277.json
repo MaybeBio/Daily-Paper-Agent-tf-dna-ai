@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "37462277",
+    "doi": "10.1093/genetics/iyad131",
+    "title": "Clusters of acidic and hydrophobic residues can predict acidic transcriptional activation domains from protein sequence."
+  },
+  "content": {
+    "abstract": "Transcription factors activate gene expression in development, homeostasis, and stress with DNA binding domains and activation domains. Although there exist excellent computational models for predicting DNA binding domains from protein sequence, models for predicting activation domains from protein sequence have lagged, particularly in metazoans. We recently developed a simple and accurate predictor of acidic activation domains on human transcription factors. Here, we show how the accuracy of this human predictor arises from the clustering of aromatic, leucine, and acidic residues, which together are necessary for acidic activation domain function. When we combine our predictor with the predictions of convolutional neural network (CNN) models trained in yeast, the intersection is more accurate than individual models, emphasizing that each approach carries orthogonal information. We synthesize these findings into a new set of activation domain predictions on human transcription factors.",
+    "keywords": [
+      "activation domain",
+      "convolutional neural network",
+      "protein function prediction",
+      "transactivation domain",
+      "transcription",
+      "transcription factor",
+      "transcriptional activation domain"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*DNA-Binding Proteins/genetics",
+      "Transcriptional Activation",
+      "*Transcription Factors/metabolism",
+      "Amino Acid Sequence",
+      "Saccharomyces cerevisiae/genetics/metabolism",
+      "DNA/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kotha, Sanjana R",
+        "Staller, Max Valentin"
+      ],
+      "short_names": [
+        "Kotha SR",
+        "Staller MV"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Molecular and Cell Biology, University of California, Berkeley, CA 94720, USA.",
+        "Center for Computational Biology, University of California, Berkeley, CA 94720, USA.",
+        "Department of Molecular and Cell Biology, University of California, Berkeley, CA 94720, USA.",
+        "Center for Computational Biology, University of California, Berkeley, CA 94720, USA.",
+        "Chan Zuckerberg Biohub-San Francisco, San Francisco, CA 94158, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kotha, Sanjana R",
+        "short_name": "Kotha SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Berkeley, CA 94720, USA.",
+          "Center for Computational Biology, University of California, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Staller, Max Valentín",
+        "short_name": "Staller MV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Berkeley, CA 94720, USA.",
+          "Center for Computational Biology, University of California, Berkeley, CA 94720, USA.",
+          "Chan Zuckerberg Biohub-San Francisco, San Francisco, CA 94158, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genetics"
+    ],
+    "journal_abbrev": [
+      "Genetics"
+    ],
+    "pub_date": "2023 Oct 4",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/18 13:09",
+    "fetched_at": "2026-09-29 04:11:17"
+  },
+  "links": {
+    "cites": [
+      "42589218",
+      "42519045",
+      "42079049",
+      "41839911",
+      "41838698",
+      "41477818",
+      "41000786",
+      "40951301",
+      "40766474",
+      "40371733",
+      "39677729",
+      "39657052",
+      "39548754",
+      "39524347",
+      "39229005",
+      "39020176",
+      "39005418",
+      "38895487",
+      "38414750",
+      "38132713",
+      "38056064"
+    ],
+    "refs": [
+      "37348464",
+      "37020022",
+      "36774964",
+      "36658165",
+      "36265487",
+      "35939561",
+      "35659505",
+      "35120642",
+      "35016035",
+      "34905914",
+      "34863368",
+      "34522860",
+      "33904398",
+      "33603233",
+      "33326746",
+      "32696354",
+      "32527832",
+      "32416068",
+      "32029630",
+      "30988205",
+      "30581045",
+      "30420502",
+      "30413699",
+      "30357350",
+      "30290144",
+      "30006452",
+      "29961577",
+      "29759983",
+      "29562181",
+      "29525204",
+      "29225078",
+      "28886340",
+      "28273070",
+      "28076807",
+      "27864306",
+      "27807972",
+      "26851278",
+      "26673716",
+      "25741868",
+      "25190813",
+      "25185558",
+      "25122681",
+      "24773235",
+      "24606139",
+      "23901099",
+      "22195967",
+      "22084422",
+      "17467953",
+      "16734424",
+      "15826952",
+      "14962745",
+      "14555996",
+      "12778114",
+      "11514548",
+      "10821850",
+      "10200284",
+      "8303297",
+      "3367995",
+      "3317067",
+      "3115591",
+      "3047590",
+      "1846049",
+      "1424986"
+    ],
+    "similar": [
+      "37462277",
+      "9425125",
+      "35120642",
+      "7862116",
+      "7935466",
+      "8816468",
+      "32416068",
+      "33904398",
+      "11368795",
+      "8816484",
+      "7747469",
+      "9401021",
+      "15075264",
+      "10733580",
+      "8972191",
+      "9822683",
+      "8083955",
+      "9358152",
+      "7823962",
+      "9372910",
+      "8407918",
+      "7488073",
+      "38056064",
+      "8139046",
+      "8441404",
+      "7479029",
+      "9343403",
+      "12050170",
+      "18702312",
+      "8628664",
+      "9722505",
+      "7935437",
+      "9371585",
+      "7623825",
+      "9742099",
+      "8639829",
+      "18804109",
+      "9078369",
+      "27618436",
+      "15328344",
+      "1582413",
+      "1898773",
+      "8392601",
+      "10966808",
+      "7797496",
+      "12753200",
+      "8628284",
+      "8524320",
+      "10336691",
+      "7899077",
+      "7565697",
+      "10908317",
+      "9155025",
+      "29525204",
+      "11581402",
+      "1309591",
+      "16278450",
+      "11756546",
+      "7488247",
+      "8794892",
+      "10748177",
+      "3128739",
+      "8497252",
+      "7610056",
+      "15733064",
+      "2509943",
+      "15082761",
+      "8182076",
+      "8262043",
+      "17158732",
+      "29507182",
+      "28056036",
+      "3065140",
+      "8524288",
+      "8389695",
+      "7926727",
+      "9308366",
+      "19435282",
+      "7478605",
+      "23521778",
+      "7556073",
+      "8006035",
+      "1630461",
+      "1545786",
+      "24142105",
+      "8313909",
+      "11509572",
+      "33850123",
+      "24358276",
+      "1323708",
+      "9242640",
+      "9394622",
+      "1614516",
+      "7624119",
+      "3287180",
+      "7937153",
+      "2050121",
+      "11522791",
+      "25687649",
+      "37745555"
+    ],
+    "review": [
+      "37462277",
+      "38056064",
+      "9308366",
+      "19435282"
+    ],
+    "pmc": [
+      "10550315"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37462277/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/37462277",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37462277",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/genetics/article-lookup/doi/10.1093/genetics/iyad131",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

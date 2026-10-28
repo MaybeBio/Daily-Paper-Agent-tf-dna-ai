@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "38591003",
+    "doi": "10.1016/j.isci.2024.109509",
+    "title": "Inference of drug off-target effects on cellular signaling using interactome-based deep learning."
+  },
+  "content": {
+    "abstract": "Many diseases emerge from dysregulated cellular signaling, and drugs are often designed to target specific signaling proteins. Off-target effects are, however, common and may ultimately result in failed clinical trials. Here we develop a computer model of the cell's transcriptional response to drugs for improved understanding of their mechanisms of action. The model is based on ensembles of artificial neural networks and simultaneously infers drug-target interactions and their downstream effects on intracellular signaling. With this, it predicts transcription factors' activities, while recovering known drug-target interactions and inferring many new ones, which we validate with an independent dataset. As a case study, we analyze the effects of the drug Lestaurtinib on downstream signaling. Alongside its intended target, FLT3, the model predicts an inhibition of CDK2 that enhances the downregulation of the cell cycle-critical transcription factor FOXM1. Our approach can therefore enhance our understanding of drug signaling for therapeutic design.",
+    "keywords": [
+      "Bioinformatics",
+      "Biological sciences",
+      "Health informatics",
+      "Health sciences",
+      "Medical informatics",
+      "Natural sciences",
+      "Pharmacology"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Meimetis, Nikolaos",
+        "Lauffenburger, Douglas A",
+        "Nilsson, Avlant"
+      ],
+      "short_names": [
+        "Meimetis N",
+        "Lauffenburger DA",
+        "Nilsson A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.",
+        "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.",
+        "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.",
+        "Department of Cell and Molecular Biology, SciLifeLab, Karolinska Institutet, Stockholm, Sweden.",
+        "Department of Biology and Biological Engineering, Chalmers University of Technology, Gothenburg, SE 41296, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Meimetis, Nikolaos",
+        "short_name": "Meimetis N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Lauffenburger, Douglas A",
+        "short_name": "Lauffenburger DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Nilsson, Avlant",
+        "short_name": "Nilsson A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.",
+          "Department of Cell and Molecular Biology, SciLifeLab, Karolinska Institutet, Stockholm, Sweden.",
+          "Department of Biology and Biological Engineering, Chalmers University of Technology, Gothenburg, SE 41296, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "iScience"
+    ],
+    "journal_abbrev": [
+      "iScience"
+    ],
+    "pub_date": "2024 Apr 19",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/09 06:45",
+    "fetched_at": "2026-10-05 00:42:19"
+  },
+  "links": {
+    "cites": [
+      "42502984",
+      "41795653",
+      "41601974",
+      "41518307",
+      "41351993",
+      "41304764",
+      "39948231",
+      "39823233"
+    ],
+    "refs": [
+      "37816807",
+      "37289807",
+      "37189058",
+      "36732632",
+      "36243968",
+      "36151740",
+      "35880747",
+      "35654811",
+      "35106508",
+      "34811351",
+      "34668287",
+      "34265844",
+      "33844136",
+      "33796820",
+      "33119053",
+      "32746932",
+      "32434142",
+      "32117438",
+      "31825821",
+      "31511426",
+      "31340985",
+      "31068700",
+      "30971806",
+      "30503647",
+      "30423097",
+      "30208972",
+      "30053271",
+      "29890840",
+      "29698607",
+      "29636450",
+      "29618526",
+      "29294361",
+      "29195078",
+      "28624530",
+      "28388612",
+      "27898060",
+      "27322546",
+      "26656004",
+      "25582842",
+      "24707051",
+      "24151987",
+      "23508189",
+      "23287973",
+      "23140241",
+      "22536322",
+      "22037378",
+      "20488613",
+      "20426451",
+      "20177425",
+      "19953085",
+      "18936753",
+      "18766178",
+      "18459149",
+      "17496922",
+      "16990858",
+      "16875671",
+      "16504183",
+      "16381955",
+      "14960456",
+      "12951578",
+      "12582260",
+      "11752295",
+      "11459867",
+      "10592173"
+    ],
+    "similar": [
+      "38591003",
+      "36321557",
+      "33539338",
+      "26100720",
+      "34619160",
+      "32723329",
+      "22901092",
+      "27491648",
+      "29297292",
+      "22504718",
+      "27151405",
+      "36527428",
+      "38405609",
+      "33188379",
+      "27390852",
+      "38282144",
+      "27496135",
+      "37879505",
+      "28376810",
+      "27716836",
+      "27872058",
+      "25888284",
+      "35062026",
+      "31660848",
+      "36576775",
+      "32183788",
+      "31510678",
+      "19903850",
+      "16868253",
+      "30547796",
+      "26721628",
+      "19997482",
+      "20074015",
+      "29684682",
+      "37533515",
+      "27112992",
+      "33729947",
+      "25897210",
+      "35801934",
+      "30547451",
+      "18426580",
+      "26429153",
+      "19813088",
+      "35976093",
+      "36334537",
+      "24606795",
+      "12183437",
+      "21690103",
+      "32589720",
+      "27829347",
+      "28148279",
+      "37113980",
+      "33978748",
+      "28031022",
+      "37469733",
+      "37782449",
+      "33067636",
+      "38303712",
+      "20190804",
+      "25725126",
+      "23124885",
+      "25294919",
+      "23802010",
+      "38424554",
+      "26635440",
+      "29600765",
+      "33794507",
+      "10773875",
+      "23912807",
+      "21369884",
+      "30347404",
+      "34843456",
+      "37630234",
+      "33693348",
+      "24146602",
+      "36850816",
+      "21970676",
+      "37598210",
+      "26491963",
+      "28552265",
+      "26876216",
+      "37347514",
+      "31881961",
+      "35753606",
+      "21154750",
+      "32363401",
+      "23530498",
+      "33562347",
+      "34914045"
+    ],
+    "review": [
+      "38591003",
+      "36321557",
+      "27491648",
+      "38405609",
+      "20074015",
+      "26429153",
+      "23124885",
+      "29600765",
+      "21369884",
+      "32363401",
+      "23530498"
+    ],
+    "pmc": [
+      "11000001"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(24)00730-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38591003/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38591003",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1242",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

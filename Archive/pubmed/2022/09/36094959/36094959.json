@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "36094959",
+    "doi": "10.1371/journal.pcbi.1009921",
+    "title": "TAMC: A deep-learning approach to predict motif-centric transcriptional factor binding activity based on ATAC-seq profile."
+  },
+  "content": {
+    "abstract": "Determining transcriptional factor binding sites (TFBSs) is critical for understanding the molecular mechanisms regulating gene expression in different biological conditions. Biological assays designed to directly mapping TFBSs require large sample size and intensive resources. As an alternative, ATAC-seq assay is simple to conduct and provides genomic cleavage profiles that contain rich information for imputing TFBSs indirectly. Previous footprint-based tools are inheritably limited by the accuracy of their bias correction algorithms and the efficiency of their feature extraction models. Here we introduce TAMC (Transcriptional factor binding prediction from ATAC-seq profile at Motif-predicted binding sites using Convolutional neural networks), a deep-learning approach for predicting motif-centric TF binding activity from paired-end ATAC-seq data. TAMC does not require bias correction during signal processing. By leveraging a one-dimensional convolutional neural network (1D-CNN) model, TAMC make predictions based on both footprint and non-footprint features at binding sites for each TF and outperforms existing footprinting tools in TFBS prediction particularly for ATAC-seq data with limited sequencing depth.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites/genetics",
+      "*Chromatin Immunoprecipitation Sequencing",
+      "*Deep Learning",
+      "Protein Binding/genetics",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Tianqi",
+        "Henao, Ricardo"
+      ],
+      "short_names": [
+        "Yang T",
+        "Henao R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5358-9144",
+        "ORCID: 0000-0003-4980-845X"
+      ],
+      "affiliations": [
+        "Department of Pharmacology and Cancer Biology, Duke University School of Medicine, Durham, North Carolina, United States of America.",
+        "Department of Cell Biology, Duke University School of Medicine, Durham, North Carolina, United States of America.",
+        "Center for Applied Genomics and Precision Medicine, Duke University School of Medicine, Durham, North Carolina, United States of America.",
+        "Department of Biostatistics and Informatics, Duke University, Durham, North Carolina, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Tianqi",
+        "short_name": "Yang T",
+        "identifiers": [
+          "0000-0001-5358-9144"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Cancer Biology, Duke University School of Medicine, Durham, North Carolina, United States of America.",
+          "Department of Cell Biology, Duke University School of Medicine, Durham, North Carolina, United States of America."
+        ]
+      },
+      {
+        "full_name": "Henao, Ricardo",
+        "short_name": "Henao R",
+        "identifiers": [
+          "0000-0003-4980-845X"
+        ],
+        "affiliations": [
+          "Center for Applied Genomics and Precision Medicine, Duke University School of Medicine, Durham, North Carolina, United States of America.",
+          "Department of Biostatistics and Informatics, Duke University, Durham, North Carolina, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Sep",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/13 06:00",
+    "fetched_at": "2026-09-28 13:36:18"
+  },
+  "links": {
+    "cites": [
+      "41108684",
+      "40411397",
+      "40250421",
+      "39623329",
+      "39386531",
+      "36719906"
+    ],
+    "refs": [
+      "32848148",
+      "32660981",
+      "31911579",
+      "31801998",
+      "30808370",
+      "30791920",
+      "30675018",
+      "29720659",
+      "29284001",
+      "29076501",
+      "28079019",
+      "27993786",
+      "26914205",
+      "26608661",
+      "26406244",
+      "25957350",
+      "25242143",
+      "22955618",
+      "22868264",
+      "22388286",
+      "21330290",
+      "21169371",
+      "21106904",
+      "19773334",
+      "19505943",
+      "19498042",
+      "19305407",
+      "18798982",
+      "17540862",
+      "212715"
+    ],
+    "similar": [
+      "36094959",
+      "38643066",
+      "27993786",
+      "35997564",
+      "38515040",
+      "36719906",
+      "38701417",
+      "32848148",
+      "35263332",
+      "30835229",
+      "30791920",
+      "32960766",
+      "34383745",
+      "39350338",
+      "37328639",
+      "34488759",
+      "34607350",
+      "37598467",
+      "33498086",
+      "24927817",
+      "30696696",
+      "20158869",
+      "34929739",
+      "33975951",
+      "35240993",
+      "25957350",
+      "34272562",
+      "35462009",
+      "35681170",
+      "38189539",
+      "31164146",
+      "34898596",
+      "24472686",
+      "28538187",
+      "34534646",
+      "30808370",
+      "34382199",
+      "33555221",
+      "38732207",
+      "32660981",
+      "38049725",
+      "28234893",
+      "31336830",
+      "39227799",
+      "27567672",
+      "33372147",
+      "26016777",
+      "35971180",
+      "32946398",
+      "32976105",
+      "23282203",
+      "34870838",
+      "38798191",
+      "35318951",
+      "34752400",
+      "36748992",
+      "34073774",
+      "30922998",
+      "34284136",
+      "27903897",
+      "38733561",
+      "28718849",
+      "34875002",
+      "30395277",
+      "31634140",
+      "33606259",
+      "32336246",
+      "32312702",
+      "30447332",
+      "34255854",
+      "27503086",
+      "33878366",
+      "32353042",
+      "34417209",
+      "28334268",
+      "21912677",
+      "32133533",
+      "35471887",
+      "33044128",
+      "33355120",
+      "19478008",
+      "29748466",
+      "36155619",
+      "30897079",
+      "31942977",
+      "35410161",
+      "20056654",
+      "35046932",
+      "39386531",
+      "35255493",
+      "23762209",
+      "32321567",
+      "32251359",
+      "30064353",
+      "27845669",
+      "36484687",
+      "34664074",
+      "29081688",
+      "35666736",
+      "37433791",
+      "34882561",
+      "33264415",
+      "38236675",
+      "38644393",
+      "37867600",
+      "36374878",
+      "36564580",
+      "36866046",
+      "36993652",
+      "38974858",
+      "36526795"
+    ],
+    "review": [
+      "36094959",
+      "33606259",
+      "32312702",
+      "30447332",
+      "28334268",
+      "35255493"
+    ],
+    "pmc": [
+      "9499209"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1009921",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36094959/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36094959",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

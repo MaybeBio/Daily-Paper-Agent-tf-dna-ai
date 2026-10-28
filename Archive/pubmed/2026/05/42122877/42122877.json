@@ -1,0 +1,415 @@
+{
+  "identity": {
+    "pmid": "42122877",
+    "doi": "10.3390/plants15091385",
+    "title": "Identification of Genomic Regions for Partial Resistance to Soybean Rust Under Field Conditions Using FarmCPU and Machine Learning Approaches."
+  },
+  "content": {
+    "abstract": "Soybean rust caused by the fungus Phakopsora pachyrhizi threatens global soybean production, causing yield losses of up to 80%. Race-specific Rpp genes provide short-term resistance due to pathogen variability, whereas partial resistance (PR) offers durable, broad-spectrum protection, though its genetic basis remains unclear. This study aimed to identify genomic regions and candidate genes underlying PR using the Fixed and Random Model Circulating Probability Unification (FarmCPU) genome-wide association study (GWAS) and machine learning (ML) methods, Random Forest (RF) and Support Vector Regression (SVR). A panel of 312 soybean accessions was evaluated under natural infection across six Ugandan environments. Rust index (RI), derived from rust severity and sporulation level, was used to estimate heritability (H(2)) and rank genotypes through Best Linear Unbiased Predictions (BLUPs), while Best Linear Unbiased Estimators (BLUEs) supported GWAS input. After quality control, 8272 SNPs were analyzed within a +/-60 kb linkage disequilibrium (LD) window. Multi-environmental Analysis (MEA) of RI showed significant genetic effects (p < 0.01); H(2) = 0.57-0.68. Sixty-one loci were detected: six by FarmCPU, 15 by RF, and 41 by SVR. Key genes included Glyma.01G128100 (a WRKY transcription factor) and Glyma. 13G228000, receptor-like kinase) and Glyma.20G173100 (WD40-domain regulator). Integrating ML with GWAS improved locus detection, confirming the polygenic nature of PR and supporting the use of genomic selection and locus pyramiding for durable rust resistance.",
+    "keywords": [
+      "GWAS",
+      "candidate gene",
+      "machine learning",
+      "partial resistance",
+      "soybean rust"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maquil, Antonio Daniel Pedro",
+        "Obua, Tonny",
+        "Nsibo, David L",
+        "Ochwo-Ssemakula, Mildred",
+        "Murithi, Harun",
+        "Gibson, Paul",
+        "Garcia-Oliveira, Ana Luisa",
+        "Edema, Richard",
+        "Dramadri, Isaac",
+        "Yoosefzadeh-Najafabadi, Mohsen",
+        "Tukamuhabwa, Phinehas"
+      ],
+      "short_names": [
+        "Maquil ADP",
+        "Obua T",
+        "Nsibo DL",
+        "Ochwo-Ssemakula M",
+        "Murithi H",
+        "Gibson P",
+        "Garcia-Oliveira AL",
+        "Edema R",
+        "Dramadri I",
+        "Yoosefzadeh-Najafabadi M",
+        "Tukamuhabwa P"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-2254-7186",
+        "ORCID: 0000-0003-1134-3255",
+        "ORCID: 0000-0002-2035-9868",
+        "ORCID: 0000-0001-7474-2857",
+        "ORCID: 0000-0001-7455-1188",
+        "ORCID: 0000-0003-0159-6072",
+        "ORCID: 0000-0001-8561-4172",
+        "ORCID: 0000-0001-7143-1711",
+        "ORCID: 0000-0002-9423-7126",
+        "ORCID: 0000-0003-3631-4493",
+        "ORCID: 0000-0002-9276-2146"
+      ],
+      "affiliations": [
+        "Department of Crop Science and Horticulture, School of Agricultural Sciences, College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda.",
+        "Makerere University Center for Soybean Improvement and Development (MAKCSID), Makerere University, Kampala P.O. Box 7062, Uganda.",
+        "Faculdade de Engenharias, Universidade Pedagogica de Maputo, Campus de Ilhanguene, Av. Trabalho 2482, Maputo 1000-001, Mozambique.",
+        "Department of Crop Science and Horticulture, School of Agricultural Sciences, College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda.",
+        "Makerere University Center for Soybean Improvement and Development (MAKCSID), Makerere University, Kampala P.O. Box 7062, Uganda.",
+        "Department of Plant and Soil Sciences, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria 0028, South Africa.",
+        "Department of Crop Science and Horticulture, School of Agricultural Sciences, College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda.",
+        "International Institute of Tropical Agriculture (IITA), Nairobi 00100, Kenya.",
+        "Department of Crop Science and Horticulture, School of Agricultural Sciences, College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda.",
+        "Instituto Nacional de Investigacao Agraria e Veterinaria (INIAV), I.P., Estrada Gil Vaz, Ap. 6, 7350-901 Elvas, Portugal.",
+        "Department of Crop Science and Horticulture, School of Agricultural Sciences, College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda.",
+        "Makerere University Regional Centre for Crop Improvement (MaRCCI), College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda.",
+        "Department of Crop Science and Horticulture, School of Agricultural Sciences, College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda.",
+        "Makerere University Regional Centre for Crop Improvement (MaRCCI), College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda.",
+        "Department of Plant Agriculture, University of Guelph, Guelph, ON N1G 2W1, Canada.",
+        "Department of Crop Science and Horticulture, School of Agricultural Sciences, College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda.",
+        "Makerere University Center for Soybean Improvement and Development (MAKCSID), Makerere University, Kampala P.O. Box 7062, Uganda."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maquil, António Daniel Pedro",
+        "short_name": "Maquil ADP",
+        "identifiers": [
+          "0009-0004-2254-7186"
+        ],
+        "affiliations": [
+          "Department of Crop Science and Horticulture, School of Agricultural Sciences, College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda.",
+          "Makerere University Center for Soybean Improvement and Development (MAKCSID), Makerere University, Kampala P.O. Box 7062, Uganda.",
+          "Faculdade de Engenharias, Universidade Pedagógica de Maputo, Campus de Ilhanguene, Av. Trabalho 2482, Maputo 1000-001, Mozambique."
+        ]
+      },
+      {
+        "full_name": "Obua, Tonny",
+        "short_name": "Obua T",
+        "identifiers": [
+          "0000-0003-1134-3255"
+        ],
+        "affiliations": [
+          "Department of Crop Science and Horticulture, School of Agricultural Sciences, College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda.",
+          "Makerere University Center for Soybean Improvement and Development (MAKCSID), Makerere University, Kampala P.O. Box 7062, Uganda."
+        ]
+      },
+      {
+        "full_name": "Nsibo, David L",
+        "short_name": "Nsibo DL",
+        "identifiers": [
+          "0000-0002-2035-9868"
+        ],
+        "affiliations": [
+          "Department of Plant and Soil Sciences, Forestry and Agricultural Biotechnology Institute (FABI), University of Pretoria, Pretoria 0028, South Africa."
+        ]
+      },
+      {
+        "full_name": "Ochwo-Ssemakula, Mildred",
+        "short_name": "Ochwo-Ssemakula M",
+        "identifiers": [
+          "0000-0001-7474-2857"
+        ],
+        "affiliations": [
+          "Department of Crop Science and Horticulture, School of Agricultural Sciences, College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda."
+        ]
+      },
+      {
+        "full_name": "Murithi, Harun",
+        "short_name": "Murithi H",
+        "identifiers": [
+          "0000-0001-7455-1188"
+        ],
+        "affiliations": [
+          "International Institute of Tropical Agriculture (IITA), Nairobi 00100, Kenya."
+        ]
+      },
+      {
+        "full_name": "Gibson, Paul",
+        "short_name": "Gibson P",
+        "identifiers": [
+          "0000-0003-0159-6072"
+        ],
+        "affiliations": [
+          "Department of Crop Science and Horticulture, School of Agricultural Sciences, College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda."
+        ]
+      },
+      {
+        "full_name": "Garcia-Oliveira, Ana Luísa",
+        "short_name": "Garcia-Oliveira AL",
+        "identifiers": [
+          "0000-0001-8561-4172"
+        ],
+        "affiliations": [
+          "Instituto Nacional de Investigação Agrária e Veterinária (INIAV), I.P., Estrada Gil Vaz, Ap. 6, 7350-901 Elvas, Portugal."
+        ]
+      },
+      {
+        "full_name": "Edema, Richard",
+        "short_name": "Edema R",
+        "identifiers": [
+          "0000-0001-7143-1711"
+        ],
+        "affiliations": [
+          "Department of Crop Science and Horticulture, School of Agricultural Sciences, College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda.",
+          "Makerere University Regional Centre for Crop Improvement (MaRCCI), College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda."
+        ]
+      },
+      {
+        "full_name": "Dramadri, Isaac",
+        "short_name": "Dramadri I",
+        "identifiers": [
+          "0000-0002-9423-7126"
+        ],
+        "affiliations": [
+          "Department of Crop Science and Horticulture, School of Agricultural Sciences, College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda.",
+          "Makerere University Regional Centre for Crop Improvement (MaRCCI), College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda."
+        ]
+      },
+      {
+        "full_name": "Yoosefzadeh-Najafabadi, Mohsen",
+        "short_name": "Yoosefzadeh-Najafabadi M",
+        "identifiers": [
+          "0000-0003-3631-4493"
+        ],
+        "affiliations": [
+          "Department of Plant Agriculture, University of Guelph, Guelph, ON N1G 2W1, Canada."
+        ]
+      },
+      {
+        "full_name": "Tukamuhabwa, Phinehas",
+        "short_name": "Tukamuhabwa P",
+        "identifiers": [
+          "0000-0002-9276-2146"
+        ],
+        "affiliations": [
+          "Department of Crop Science and Horticulture, School of Agricultural Sciences, College of Agricultural and Environmental Sciences, Makerere University, Kampala P.O. Box 7062, Uganda.",
+          "Makerere University Center for Soybean Improvement and Development (MAKCSID), Makerere University, Kampala P.O. Box 7062, Uganda."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plants (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Plants (Basel)"
+    ],
+    "pub_date": "2026 Apr 30",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/13 06:31",
+    "fetched_at": "2026-10-01 20:30:58"
+  },
+  "links": {
+    "cites": [
+      "42197667"
+    ],
+    "refs": [
+      "40898063",
+      "40369409",
+      "40148071",
+      "39966671",
+      "39519954",
+      "39095733",
+      "38898399",
+      "38760694",
+      "38632249",
+      "38605518",
+      "38274768",
+      "37965372",
+      "37514272",
+      "37332716",
+      "37313252",
+      "37082513",
+      "36123374",
+      "35902398",
+      "35877445",
+      "35812924",
+      "35628351",
+      "35361112",
+      "35123539",
+      "34975958",
+      "34557778",
+      "34492338",
+      "33126243",
+      "32924279",
+      "32794321",
+      "32197052",
+      "30786383",
+      "30780658",
+      "30743560",
+      "30699605",
+      "28586359",
+      "28099442",
+      "27898759",
+      "27386364",
+      "27135674",
+      "26828793",
+      "26243515",
+      "25673142",
+      "25201117",
+      "24492469",
+      "23876160",
+      "23861382",
+      "22665276",
+      "21681211",
+      "21244223",
+      "20208535",
+      "20097118",
+      "20008513",
+      "19900008",
+      "19617889",
+      "19468054",
+      "18313553",
+      "17586829"
+    ],
+    "similar": [
+      "42122877",
+      "37313252",
+      "35902398",
+      "35628351",
+      "41705476",
+      "28980046",
+      "37514272",
+      "41345552",
+      "41879855",
+      "35592556",
+      "29115920",
+      "42475469",
+      "41540337",
+      "41925523",
+      "31842754",
+      "34650592",
+      "41566423",
+      "39771199",
+      "37575932",
+      "37851522",
+      "30914040",
+      "34276741",
+      "41560908",
+      "41132931",
+      "41058572",
+      "37372451",
+      "41906791",
+      "39095733",
+      "42514572",
+      "30769730",
+      "40949560",
+      "37103627",
+      "40165057",
+      "19271976",
+      "39127987",
+      "42050218",
+      "32421759",
+      "39268657",
+      "40385229",
+      "40783725",
+      "35812941",
+      "37313505",
+      "27935940",
+      "41882545",
+      "39210238",
+      "40284107",
+      "37877078",
+      "41473148",
+      "38569009",
+      "38023859",
+      "40155810",
+      "33446120",
+      "42360494",
+      "38062401",
+      "34659366",
+      "40076727",
+      "32031475",
+      "38628361",
+      "29636761",
+      "42502797",
+      "42426604",
+      "36365358",
+      "41874680",
+      "41014127",
+      "36672760",
+      "32673346",
+      "33689785",
+      "30665361",
+      "42337403",
+      "40063245",
+      "35991392",
+      "33588716",
+      "33492413",
+      "31820285",
+      "37375888",
+      "42343963",
+      "41483330",
+      "35283883",
+      "41088541",
+      "38130484",
+      "42353309",
+      "37176856",
+      "35418669",
+      "30795395",
+      "41486861",
+      "37048220",
+      "37386705",
+      "38760694",
+      "40855500",
+      "21244223",
+      "25201117",
+      "28778144",
+      "33413106",
+      "36602595",
+      "38758218",
+      "36818858",
+      "40604369",
+      "38976061",
+      "35419011",
+      "37636105"
+    ],
+    "review": [
+      "42122877"
+    ],
+    "pmc": [
+      "13164846"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=plants15091385",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42122877/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

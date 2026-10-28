@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40021664",
+  "title": "Molecular insights into ulcerative colitis and orbital inflammation.",
+  "authors": "Tan, Kang; Liu, Pei; Wu, Zixuan; Long, Xi; Yu, Yunfeng; Jiang, Pengfei; Peng, Qinghua",
+  "journal": "Scientific reports",
+  "published_date": "2025-03-01",
+  "window": {
+    "start": "2025-02-24",
+    "end": "2025-03-02"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过转录组数据挖掘和机器学习分析UC与NSOI共病机制，虽涉及转录因子STAT1预测，但核心是疾病关联与生物标志物，缺乏蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "Ulcerative colitis (UC) is an increasingly prevalent inflammatory condition affecting the intestinal mucosa, while nonspecific orbital inflammation (NSOI) is a common non-neoplastic orbital disorder. Exploring the molecular interplay between UC and NSOI may help physicians make earlier diagnoses and enhance treatment approaches. We analyzed gene expression datasets (GSE58331, GSE105149, GSE206285, and GSE179285) for UC and NSOI from the GEO database. Using WGCNA and differential expression analysis, we identified genes commonly altered in both diseases. GO enrichment, PPI networks, and transcription factor prediction were performed using Cytoscape plugins (cytoHubba and iRegulon). Machine learning techniques were employed to assess transcription factor activity and evaluate potential therapeutic targets among the hub genes. We conducted an association analysis using the TwoSampleMR package in R to explore potential causal relationships between NSOI and UC. A total of 85 intersecting genes between NSOI and UC were identified, and enrichment analyses revealed their roles in immune and inflammatory processes. Key biomarkers, including CXCL10, CXCR4, CXCL9, CD27, SELL, MMP9, CD79A, CD3E, GZMK, and CCL19, were highlighted, linking them to processes such as leukocyte migration, viral response, and monocyte differentiation. STAT1 was identified as a shared transcription factor influencing both diseases. Machine learning algorithms identified eight potential genes for diagnostic and therapeutic use, with CXCL10 emerging as a key player in the pathogenesis of NSOI and UC. CXCL10 likely regulates CXCR4, LCK, CCR7, and other genes involved in pathways such as cytokine-cytokine receptor interactions, HIV-1 infection, and Epstein-Barr virus infection. This study offers insights into the co-pathogenic mechanisms of UC and NSOI, providing a foundation for further mechanistic research and therapeutic development.",
+  "abstract_zh": "溃疡性结肠炎（ulcerative colitis, UC）是一种日益普遍的累及肠黏膜的炎症性疾病，而非特异性眼眶炎症（nonspecific orbital inflammation, NSOI）则是一种常见的非肿瘤性眼眶疾病。探索UC与NSOI之间的分子相互作用可能有助于医生更早做出诊断并改进治疗方法。我们从GEO数据库中分析了UC和NSOI的基因表达数据集（GSE58331、GSE105149、GSE206285和GSE179285）。利用WGCNA和差异表达分析，我们鉴定了两种疾病中共同改变的基因。使用Cytoscape插件（cytoHubba和iRegulon）进行了GO富集分析、PPI网络构建和转录因子预测。采用机器学习技术评估转录因子活性，并评估核心基因中潜在的治疗靶点。我们使用R中的TwoSampleMR包进行了关联分析，以探索NSOI与UC之间潜在的因果关系。共鉴定出NSOI与UC之间的85个交集基因，富集分析揭示了它们在免疫和炎症过程中的作用。关键生物标志物，包括CXCL10、CXCR4、CXCL9、CD27、SELL、MMP9、CD79A、CD3E、GZMK和CCL19，被突出显示，并将其与白细胞迁移、病毒反应和单核细胞分化等过程联系起来。STAT1被鉴定为影响这两种疾病的共同转录因子。机器学习算法确定了八个用于诊断和治疗的潜在基因，其中CXCL10在NSOI和UC的发病机制中发挥关键作用。CXCL10可能调控CXCR4、LCK、CCR7及其他参与细胞因子-细胞因子受体相互作用、HIV-1感染和EB病毒感染等通路的基因。本研究为UC和NSOI的共同致病机制提供了见解，为进一步的机制研究和治疗开发奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40021664/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40021664/",
+  "paper_page_path": "papers/pubmed/40021664/index.html"
+}

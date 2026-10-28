@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39781509",
+  "title": "ProPr54 web server: predicting sigma(54) promoters and regulon with a hybrid convolutional and recurrent deep neural network.",
+  "authors": "Achterberg, Tristan; de Jong, Anne",
+  "journal": "NAR genomics and bioinformatics",
+  "published_date": "2025-01-09",
+  "window": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用混合卷积循环神经网络预测细菌sigma54启动子结合位点，属于TF-DNA结合位点预测的AI方法，但对象为细菌sigma因子而非典型真核TF-DNA体系，且未涉及三维互作建模或动态机制，故评分为6。",
+  "abstract": "sigma(54) serves as an unconventional sigma factor with a distinct mechanism of transcription initiation, which depends on the involvement of a transcription activator. This unique sigma factor sigma(54) is indispensable for orchestrating the transcription of genes crucial to nitrogen regulation, flagella biosynthesis, motility, chemotaxis and various other essential cellular processes. Currently, no comprehensive tools are available to determine sigma(54) promoters and regulon in bacterial genomes. Here, we report a sigma(54) promoter prediction method ProPr54, based on a convolutional neural network trained on a set of 446 validated sigma(54) binding sites derived from 33 bacterial species. Model performance was tested and compared with respect to bacterial intergenic regions, demonstrating robust applicability. ProPr54 exhibits high performance when tested on various bacterial species, highly surpassing other available sigma(54) regulon identification methods. Furthermore, analysis on bacterial genomes, which have no experimentally validated sigma(54) binding sites, demonstrates the generalization of the model. ProPr54 is the first reliable in silico method for predicting sigma(54) binding sites, making it a valuable tool to support experimental studies on sigma(54). In conclusion, ProPr54 offers a reliable, broadly applicable tool for predicting sigma(54) promoters and regulon genes in bacterial genome sequences. A web server is freely accessible at http://propr54.molgenrug.nl.",
+  "abstract_zh": "sigma(54)作为一种非传统的sigma因子，具有独特的转录起始机制，该机制依赖于转录激活因子的参与。这种独特的sigma因子sigma(54)对于协调氮调控、鞭毛生物合成、运动性、趋化性及多种其他关键细胞过程中至关重要的基因转录是不可或缺的。目前，尚无综合工具可用于确定细菌基因组中的sigma(54)启动子和调控子。在此，我们报告了一种基于卷积神经网络的sigma(54)启动子预测方法ProPr54，该网络在来自33个细菌物种的446个已验证sigma(54)结合位点集上进行了训练。模型性能在细菌基因间隔区上进行了测试和比较，显示出强大的适用性。ProPr54在多种细菌物种测试中表现出高性能，显著优于其他可用的sigma(54)调控子识别方法。此外，对没有实验验证sigma(54)结合位点的细菌基因组的分析证明了模型的泛化能力。ProPr54是首个可靠的用于预测sigma(54)结合位点的计算方法，使其成为支持sigma(54)实验研究的有价值工具。总之，ProPr54为预测细菌基因组序列中的sigma(54)启动子和调控子基因提供了一个可靠且广泛适用的工具。网络服务器可免费访问：http://propr54.molgenrug.nl。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39781509/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39781509/",
+  "paper_page_path": "papers/pubmed/39781509/index.html"
+}

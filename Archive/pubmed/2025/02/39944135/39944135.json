@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "39944135",
+    "doi": "10.3389/fbinf.2025.1495052",
+    "title": "Integrated bioinformatics analysis to explore potential therapeutic targets and drugs for small cell carcinoma of the esophagus."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Small cell carcinoma of the esophagus (SCCE) is a rare form of esophageal cancer, which also belongs to the category of neuroendocrine malignant tumors, with a low incidence but high aggressiveness, and a very poor prognosis for patients. Currently, there is a lack of unique staging and treatment guidelines for SCCE. Therefore, a deeper understanding of the therapeutic targets and the mechanisms underlying its occurrence and development is of great importance for early diagnosis, identification of potential therapeutic agents and improvement of the prognosis for patients. METHODS: Firstly, the dataset of SCCE was downloaded from the GEO database and GEO2R tool was employed for the analysis of differentially expressed genes (DEGs). GO and KEGG analysis of DEGs were carried out by using the Bioinformatics and OmicStudio tools. Then, up- and down-regulated genes were intersected with the oncogenes and the tumor suppressor genes respectively, to obtain the differentially expressed onco/tumor suppressor genes in SCCE. The STRING database was employed to conduct protein-protein interaction (PPI) analysis of differentially expressed onco/tumor suppressor genes, the network was further constructed in Cytoscape, and hub genes of the network were obtained through the Cytohubba plugin. In addition, miRDB, miRwalk, Targetscan, OncomiR, starbase, Lncbase were used to predict miRNAs and lncRNAs that regulate hub genes, the ceRNA network was built based on this. Transcription factor-miRNA co-regulatory network was analyzed in the NetworkAnalyst database and embellished in Cytoscape. Finally, drugs that may target hub genes were searched through the DGIdb and ConnectivityMAP, and docking verification was performed using Schrodinger. RESULTS: A total of 820 genes were upregulated and 716 were downregulated, of these, 54 were identified as oncogenes and 85 as tumor suppressor genes. Seven hub genes were identified from the PPI network, which were AURKA, BIRC5, CDK1, EZH2, FOXM1, KLF4 and UBE2C. Furthermore, a total of 38 drugs were searched and filtered in DGIdb and ConnectivityMAP, in the molecular docking results of drugs with hub genes, the docking score of AURKA, CDK1, and EZH2 with multiple drugs were low (<6). In addition, crizotinib with AURKA, lapatinib with CDK1, rucaparib with EZH2, rucaparib with UBE2C were the lowest energy of all molecular docking results. CONCLUSION: AURKA, BIRC5, CDK1, EZH2, FOXM1, KLF4 and UBE2C are the hub genes of SCCE, among them, AURKA, CDK1 and EZH2 may be used as targets of multiple drugs. Crizotinib, lapatinib, and rucaparib can act on the above targets to inhibit the progression of SCCE and play a therapeutic role.",
+    "keywords": [
+      "AURKA",
+      "CDK1",
+      "ConnectivityMAP",
+      "DGIdb",
+      "anti-tumor drug",
+      "bioinformatics",
+      "small cell carcinoma of the esophagus"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Maofei",
+        "Chu, Yueming",
+        "Yuan, Qiang",
+        "Li, Junfeng",
+        "Chen, Silin",
+        "Li, Lin"
+      ],
+      "short_names": [
+        "Zhu M",
+        "Chu Y",
+        "Yuan Q",
+        "Li J",
+        "Chen S",
+        "Li L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China.",
+        "School of Pharmacy, North Sichuan Medical College, Nanchong, China.",
+        "Department of Pharmacy, The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China.",
+        "School of Pharmacy, North Sichuan Medical College, Nanchong, China.",
+        "Department of Pharmacy, The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China.",
+        "School of Pharmacy, North Sichuan Medical College, Nanchong, China.",
+        "Department of Cardiothoracic Surgery, The Second Clinical Medical College of North Sichuan Medical College, Nanchong, China.",
+        "Department of Oncology, The Second Clinical Medical College of North Sichuan Medical College, Nanchong, China.",
+        "Department of Pharmacy, The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China.",
+        "School of Pharmacy, North Sichuan Medical College, Nanchong, China.",
+        "Nanchong Key Laboratory of Individualized Drug Therapy, Nanchong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Maofei",
+        "short_name": "Zhu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China.",
+          "School of Pharmacy, North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Chu, Yueming",
+        "short_name": "Chu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China.",
+          "School of Pharmacy, North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Qiang",
+        "short_name": "Yuan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China.",
+          "School of Pharmacy, North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Junfeng",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiothoracic Surgery, The Second Clinical Medical College of North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Silin",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, The Second Clinical Medical College of North Sichuan Medical College, Nanchong, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lin",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The Second Clinical Medical College of North Sichuan Medical College, Nanchong, Sichuan, China.",
+          "School of Pharmacy, North Sichuan Medical College, Nanchong, China.",
+          "Nanchong Key Laboratory of Individualized Drug Therapy, Nanchong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Front Bioinform"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/13 11:00",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [
+      "42328440",
+      "41009987",
+      "40952444"
+    ],
+    "refs": [
+      "39397200",
+      "39297880",
+      "38868333",
+      "38571661",
+      "38556560",
+      "38373993",
+      "37992688",
+      "37953380",
+      "37943830",
+      "37311884",
+      "37148376",
+      "37083097",
+      "36958703",
+      "36111008",
+      "34586495",
+      "34488675",
+      "34395507",
+      "34155349",
+      "34145257",
+      "33490104",
+      "33451333",
+      "33186389",
+      "33033616",
+      "32998713",
+      "32761059",
+      "32572158",
+      "31830379",
+      "31031862",
+      "30931480",
+      "30740907",
+      "30228821",
+      "29728688",
+      "29596365",
+      "29268240",
+      "28407145",
+      "28196596",
+      "28184915",
+      "28162959",
+      "28106103",
+      "27588470",
+      "27151431",
+      "26988822",
+      "26590405",
+      "26544088",
+      "26420673",
+      "26233609",
+      "26159786",
+      "26023713",
+      "25667451",
+      "24978920",
+      "24953013",
+      "24841948",
+      "24787553",
+      "24748756",
+      "24666414",
+      "24422746",
+      "23639106",
+      "23317069",
+      "22491752",
+      "21514426",
+      "21165554",
+      "21073624",
+      "21040151",
+      "20872953",
+      "20530158",
+      "20441232",
+      "19619447",
+      "19361279",
+      "18723033",
+      "17947223",
+      "17614337",
+      "17299393",
+      "17217624",
+      "17186018",
+      "16219632",
+      "15840442",
+      "15725809",
+      "15654331",
+      "15027865",
+      "9367342",
+      "8199985"
+    ],
+    "similar": [
+      "39944135",
+      "35762549",
+      "31987036",
+      "33032291",
+      "34588861",
+      "35386284",
+      "37393234",
+      "36627660",
+      "35281953",
+      "34992437",
+      "34257537",
+      "34337056",
+      "35368701",
+      "31805030",
+      "33767726",
+      "29921304",
+      "38524085",
+      "30542696",
+      "35428744",
+      "35132271",
+      "35706800",
+      "30702595",
+      "36464255",
+      "36238478",
+      "35634481",
+      "34844599",
+      "38176923",
+      "34187556",
+      "33630978",
+      "36118873",
+      "36291136",
+      "39764737",
+      "39911278",
+      "31698633",
+      "31695969",
+      "35322101",
+      "31934299",
+      "31981472",
+      "36930083",
+      "30002985",
+      "31424263",
+      "35749386",
+      "39118438",
+      "32059076",
+      "33080677",
+      "36495751",
+      "29670361",
+      "35990977",
+      "32127012",
+      "31304055",
+      "34232175",
+      "32038705",
+      "34794761",
+      "36103746",
+      "33994801",
+      "32587798",
+      "35693550",
+      "30971889",
+      "38783288",
+      "31737652",
+      "37980270",
+      "35300139",
+      "31139019",
+      "35178291",
+      "34744455",
+      "31277149",
+      "32546690",
+      "39022110",
+      "38073349",
+      "35719390",
+      "36834602",
+      "35347966",
+      "33532314",
+      "37681155",
+      "34895070",
+      "30506958",
+      "38847168",
+      "34603487",
+      "33552715",
+      "34466069",
+      "28454467",
+      "36204232",
+      "34234459",
+      "28739725",
+      "33123295",
+      "30697079",
+      "33770351",
+      "37185598",
+      "35909518",
+      "32925795",
+      "33083112",
+      "35117319",
+      "32673063",
+      "31516577",
+      "31822116",
+      "35872921",
+      "30258285",
+      "39306912",
+      "35431572",
+      "38444712"
+    ],
+    "review": [
+      "39944135",
+      "33080677"
+    ],
+    "pmc": [
+      "11810980"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39944135/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-UBE2C-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-797",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fbinf.2025.1495052",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

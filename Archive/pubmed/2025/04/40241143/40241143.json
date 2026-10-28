@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "40241143",
+    "doi": "10.1186/s12967-025-06325-5",
+    "title": "CAFs activated by YAP1 upregulate cancer matrix stiffness to mediate hepatocellular carcinoma progression."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The stiffness of the matrix is closely related to the progression of hepatocellular carcinoma (HCC). Although direct targeting of stromal rigidity in HCC remains a clinical challenge, cancer-associated fibroblasts (CAFs) are considered key contributors to this process. Given the heterogeneity of CAFs, this study explored the relationship between specific CAF subsets and liver cancer matrix stiffness, aiming to identify novel therapeutic targets for HCC patients. METHODS: Single-cell sequencing datasets were leveraged to identify cell types within liver cancer and characterize the transcriptomic profiles of CAFs. Prognostic analysis, utilizing the Gene Expression Profiling Interactive Analysis (GEPIA) and The Cancer Genome Atlas (TCGA) liver cancer datasets, assessed the correlation between matrix stiffness-related genes and HCC patient outcomes. Pseudo-time analysis was applied to trace the developmental trajectories of CAFs. By calculating intercellular communication probabilities and analyzing transcription factor activity, the functions and interactions of different CAF subsets were elucidated. Gene Ontology (GO) analysis was used to explore the functional roles of CAFs in distinct Yes-associated protein 1 (YAP1) groups. Finally, cellular experiments and animal experiments were further conducted to validate the hypotheses of this study. RESULTS: This study identified CAF subpopulations based on single-cell sequencing data and analyzed transcriptional changes within these subpopulations. Key findings include the identification of collagen type I alpha 1 (COL1A1), collagen type III alpha 1 (COL3A1), and lysyloxidase (LOX) as pivotal node genes during CAF development. Moreover, the expression of matrix stiffness-related genes was inversely correlated with the prognosis of HCC patients. Notably, the YAP1-positive CAF subpopulation emerged as the primary contributor to matrix stiffness in liver cancer. This subpopulation upregulates the expression of matrix stiffness-related genes and promotes tumor progression by activating signaling pathways such as autophagy and GTPase activity regulation. Cellular experiments and animal studies further validated this conclusion. CONCLUSION: This single-cell analysis uncovered the functional roles of CAFs in liver cancer. The YAP1-positive CAF subpopulation, in particular, was shown to contribute to matrix stiffness by upregulating the expression of relevant genes and promoting tumor progression through the activation of specific signaling pathways.",
+    "keywords": [
+      "YAP1",
+      "Cancer-associated fibroblasts",
+      "Hepatocellular carcinoma",
+      "Matrix stiffness",
+      "Single-cell sequencing"
+    ],
+    "mesh_terms": [
+      "*Carcinoma, Hepatocellular/pathology/genetics/metabolism",
+      "*Liver Neoplasms/pathology/genetics/metabolism",
+      "Humans",
+      "*Disease Progression",
+      "YAP-Signaling Proteins/metabolism",
+      "*Up-Regulation/genetics",
+      "Animals",
+      "Gene Expression Regulation, Neoplastic",
+      "*Cancer-Associated Fibroblasts/metabolism/pathology",
+      "*Extracellular Matrix/metabolism/pathology",
+      "Cell Line, Tumor",
+      "*Transcription Factors/metabolism",
+      "*Adaptor Proteins, Signal Transducing/metabolism",
+      "Gene Ontology",
+      "Reproducibility of Results",
+      "Mice",
+      "Gene Expression Profiling",
+      "Mice, Nude"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yan, Wei",
+        "Xiao, Guo-Hui",
+        "Wang, Li-Juan",
+        "Zhou, Yan",
+        "Yang, Fa",
+        "Mou, Kuan-Hou"
+      ],
+      "short_names": [
+        "Yan W",
+        "Xiao GH",
+        "Wang LJ",
+        "Zhou Y",
+        "Yang F",
+        "Mou KH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, 710061, P. R. China.",
+        "Department of General Surgery, Pancreatic Disease Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
+        "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, 710061, P. R. China.",
+        "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, 710061, P. R. China. 2277412717@qq.com.",
+        "Department of Urology, Xijing Hospital, Fourth Military Medical University, Xi'an, China. 1406679568@qq.com.",
+        "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, 710061, P. R. China. mkhn001@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yan, Wei",
+        "short_name": "Yan W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, 710061, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Guo-Hui",
+        "short_name": "Xiao GH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, Pancreatic Disease Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Li-Juan",
+        "short_name": "Wang LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, 710061, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yan",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, 710061, P. R. China. 2277412717@qq.com."
+        ]
+      },
+      {
+        "full_name": "Yang, Fa",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Xijing Hospital, Fourth Military Medical University, Xi'an, China. 1406679568@qq.com."
+        ]
+      },
+      {
+        "full_name": "Mou, Kuan-Hou",
+        "short_name": "Mou KH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, 710061, P. R. China. mkhn001@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of translational medicine"
+    ],
+    "journal_abbrev": [
+      "J Transl Med"
+    ],
+    "pub_date": "2025 Apr 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/17 00:24",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "42650857",
+      "42495565",
+      "42406119",
+      "42403503",
+      "42314060",
+      "41890723",
+      "41838222",
+      "41787034",
+      "41781963",
+      "41776086",
+      "41636792",
+      "40755769"
+    ],
+    "refs": [
+      "39961821",
+      "39944829",
+      "39934460",
+      "39893205",
+      "39558136",
+      "39519109",
+      "39516494",
+      "39511287",
+      "39476569",
+      "39473180",
+      "39442289",
+      "39375726",
+      "39210147",
+      "39137404",
+      "38822309",
+      "38670089",
+      "38335304",
+      "38238471",
+      "38074679",
+      "37804773",
+      "37652015",
+      "37284741",
+      "37192621",
+      "37085855",
+      "36871142",
+      "36744260",
+      "36620542",
+      "36211448",
+      "36198802",
+      "36183845",
+      "36084663",
+      "35820602",
+      "35672802",
+      "33538338",
+      "33462507",
+      "32591411",
+      "32066485",
+      "31551364",
+      "31270418",
+      "30422241",
+      "30260529",
+      "30043162",
+      "28825705",
+      "23954643"
+    ],
+    "similar": [
+      "40241143",
+      "40855439",
+      "41655866",
+      "40736659",
+      "41634388",
+      "39137404",
+      "39021175",
+      "41483290",
+      "41208981",
+      "42567336",
+      "41121153",
+      "39252517",
+      "40591224",
+      "39603378",
+      "39138551",
+      "30009820",
+      "39966876",
+      "42629631",
+      "32483419",
+      "42486346",
+      "32066485",
+      "41274476",
+      "35733776",
+      "30999932",
+      "33707417",
+      "28288874",
+      "27297362",
+      "28249813",
+      "40191726",
+      "41921137",
+      "39734010",
+      "38967794",
+      "39814999",
+      "39447409",
+      "41019085",
+      "33046796",
+      "28390866",
+      "33097058",
+      "36211448",
+      "42359574",
+      "42051516",
+      "41953013",
+      "34930321",
+      "41987092",
+      "42351142",
+      "39543704",
+      "39082336",
+      "39490703",
+      "42227003",
+      "29248714",
+      "38956074",
+      "39835122",
+      "22202459",
+      "42237748",
+      "30978569",
+      "41327189",
+      "42178174",
+      "42500561",
+      "38949237",
+      "39544420",
+      "38959652",
+      "41094576",
+      "40616092",
+      "31669305",
+      "32883551",
+      "42612117",
+      "38924128",
+      "40598539",
+      "40027190",
+      "42139279",
+      "30111512",
+      "40413530",
+      "41184244",
+      "30591064",
+      "41747656",
+      "41293954",
+      "41366455",
+      "40513845",
+      "41948466",
+      "33878313",
+      "42253146",
+      "41422866",
+      "41592891",
+      "37151879",
+      "23684136",
+      "32591411",
+      "42593582",
+      "34775955",
+      "36435866",
+      "38341068",
+      "38521502",
+      "40771797",
+      "41373631",
+      "39323331",
+      "36901700",
+      "39350022",
+      "42174112",
+      "40102930",
+      "40289085",
+      "42136961"
+    ],
+    "review": [
+      "40241143"
+    ],
+    "pmc": [
+      "12004581"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-025-06325-5",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40241143/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3568",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

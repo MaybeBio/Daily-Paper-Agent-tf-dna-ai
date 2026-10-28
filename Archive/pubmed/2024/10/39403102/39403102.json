@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "39403102",
+    "doi": "10.2147/PGPM.S461072",
+    "title": "Bioinformatics-Based Identification of Key Prognostic Genes in Neuroblastoma with a Focus on Immune Cell Infiltration and Diagnostic Potential of VGF."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: This study aims to identify differentially expressed genes (DEGs) in neuroblastoma (NB) through comprehensive bioinformatics analysis and machine learning techniques. We seek to elucidate these DEGs' biological functions and associated signaling pathways. Furthermore, our objective extends to predicting upstream microRNAs (miRNAs) and relevant transcription factors of pivotal genes, with the ultimate goal of guiding clinical diagnostics and informing future treatment strategies for Neuroblastoma. METHODS: In this study, we sourced datasets GSE49710 and TARGET from the GEO and UCSC-XENA databases, respectively. Differentially expressed genes (DEGs) were identified using the R language \"limma\" package. Subsequent Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses of these DEGs were conducted using the \"clusterProfiler\" package. We employed Weighted Gene Co-expression Network Analysis (WGCNA) to isolate the most significant modules associated with death and MYCN amplification, specifically MEpink and MEbrown modules. These modules were then cross-referenced with the DEGs for further GO and KEGG pathway analyses. LASSO regression analysis, facilitated by the \"glmnet\" package, was utilized to pinpoint three hub genes. We performed differential analysis on these genes and constructed Receiver Operating Characteristic (ROC) curves for disease diagnosis purposes. Immune infiltration analysis was conducted using the \"GSVA\" package's ssGSEA function. Additionally, single-gene Gene Set Enrichment Analysis (GSEA) on the hub gene was carried out based on Reactome and KEGG databases. Upstream miRNA and transcription factors associated with the hub gene were predicted using RegNetwork, with visual representations created in Cytoscape. Furthermore, to validate the three identified markers in neuroblastoma tissues, quantitative Real-Time Polymerase Chain Reaction (qRT-PCR) analysis was conducted. RESULTS: We identified 483 differentially expressed genes (DEGs) in neuroblastoma. These genes predominantly function in protein translation, membrane composition, and RNA transcription regulation, and are implicated in multiple signaling pathways relevant to neurodegenerative diseases. Utilizing LASSO regression analysis, we pinpointed three hub genes: VGF, DGKD, and C19orf52. The Receiver Operating Characteristic (ROC) curve analysis yielded Area Under Curve (AUC) values of 0.751 and 0.722 for VGF, 0.79 and 0.656 for DGKD, and 0.8 and 0.753 for C19orf52, respectively. Our immune infiltration analysis revealed significant correlations among monocytes, follicular helper T cells, and CD4+ T cells. Notably, in the death group, we observed heightened infiltration levels of activated CD4+ T cells, macrophages, and Th2 cells. C19orf52 exhibited a close association with the infiltration of monocytes, CD4+ T cells, and Th2 cells, with P-values less than 0.05. Furthermore, qRT-PCR analysis corroborated the upregulation of VGF in neuroblastoma tissues, further validating our findings. CONCLUSION: The hub genes (VGF, DGKD, and C19orf52) of neuroblastoma are screened. VGF, one of the hub genes, may have a high diagnostic value and is involved in the immune cell infiltration in neuroblastoma tissue, which may be used as a biomarker for the diagnosis of neuroblastoma and provides a new direction for clinical prognosis prediction and management improvement.",
+    "keywords": [
+      "LASSO regression",
+      "WGCNA",
+      "bioinformatics analysis",
+      "neuroblastoma"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Qiang",
+        "Xiao, Yang",
+        "Chu, Jing",
+        "Sun, Yu",
+        "Li, Shaomei",
+        "Zhang, Shihai"
+      ],
+      "short_names": [
+        "Guo Q",
+        "Xiao Y",
+        "Chu J",
+        "Sun Y",
+        "Li S",
+        "Zhang S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical Laboratory, Anhui Children's Hospital, Hefei, People's Republic of China.",
+        "Xuhzou Medical University, Jiangsu, People's Republic of China.",
+        "Department of Pathology, Anhui Children's Hospital, Hefei, People's Republic of China.",
+        "Xuhzou Medical University, Jiangsu, People's Republic of China.",
+        "Department of Pathology, Anhui Children's Hospital, Hefei, People's Republic of China.",
+        "Department of Clinical Laboratory, Anhui Children's Hospital, Hefei, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Qiang",
+        "short_name": "Guo Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Anhui Children's Hospital, Hefei, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Yang",
+        "short_name": "Xiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Xuhzou Medical University, Jiangsu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chu, Jing",
+        "short_name": "Chu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Anhui Children's Hospital, Hefei, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yu",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Xuhzou Medical University, Jiangsu, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Shaomei",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Anhui Children's Hospital, Hefei, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shihai",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Anhui Children's Hospital, Hefei, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmacogenomics and personalized medicine"
+    ],
+    "journal_abbrev": [
+      "Pharmgenomics Pers Med"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/15 10:54",
+    "fetched_at": "2026-09-30 04:26:09"
+  },
+  "links": {
+    "cites": [
+      "40600620"
+    ],
+    "refs": [
+      "36430219",
+      "36419120",
+      "36154677",
+      "36147739",
+      "35767833",
+      "35762443",
+      "34788843",
+      "34557778",
+      "32770063",
+      "32404475",
+      "32291317",
+      "32286315",
+      "32252464",
+      "32167865",
+      "32067684",
+      "31900415",
+      "31677785",
+      "31443682",
+      "31007876",
+      "30690892",
+      "30450911",
+      "30381327",
+      "30137226",
+      "29625067",
+      "29514301",
+      "28955976",
+      "28381546",
+      "26304901",
+      "25605792",
+      "25204323",
+      "24994036",
+      "24291025",
+      "23323831",
+      "23289367",
+      "21414208",
+      "20236987",
+      "19114008",
+      "18837040",
+      "17357084",
+      "14645472",
+      "10516964"
+    ],
+    "similar": [
+      "39403102",
+      "37359526",
+      "36311753",
+      "36699262",
+      "36148059",
+      "38509535",
+      "35709926",
+      "39263286",
+      "34536521",
+      "35634481",
+      "35911963",
+      "39302522",
+      "36203997",
+      "38268224",
+      "38371524",
+      "35069594",
+      "38384969",
+      "36506310",
+      "38718074",
+      "39341981",
+      "35713363",
+      "39284931",
+      "37250717",
+      "36225941",
+      "36186997",
+      "37359529",
+      "37409245",
+      "35562622",
+      "38260098",
+      "36438903",
+      "39344316",
+      "35278479",
+      "36576616",
+      "38951833",
+      "36860851",
+      "36777638",
+      "35473522",
+      "39341952",
+      "39354722",
+      "39142001",
+      "38283345",
+      "37582718",
+      "35016690",
+      "37740761",
+      "35463752",
+      "39375405",
+      "37974210",
+      "38024864",
+      "37287971",
+      "37346073",
+      "37837870",
+      "37963970",
+      "33104965",
+      "38650009",
+      "37008314",
+      "38020614",
+      "37499902",
+      "35558576",
+      "37179305",
+      "39170142",
+      "38328611",
+      "35381314",
+      "38259479",
+      "36081904",
+      "36440267",
+      "37732314",
+      "38755717",
+      "38544384",
+      "35154512",
+      "37622114",
+      "37063958",
+      "39364223",
+      "37743309",
+      "38899746",
+      "39145050",
+      "38505024",
+      "37700485",
+      "36071897",
+      "37033969",
+      "34856750",
+      "37153000",
+      "37498421",
+      "36704339",
+      "35280428",
+      "36468029",
+      "38057699",
+      "37842538",
+      "35620387",
+      "39268370",
+      "34484236",
+      "38510807",
+      "38764850",
+      "35711934",
+      "36276976",
+      "35958412",
+      "37659036",
+      "36267781",
+      "35144391",
+      "38384585",
+      "39206894",
+      "37063851",
+      "35721731",
+      "39430414",
+      "38156385",
+      "39427606",
+      "39419187",
+      "38222811",
+      "39430824",
+      "38205281",
+      "38222802",
+      "39430765",
+      "39402101",
+      "38272797",
+      "39419909",
+      "39414868",
+      "39418727",
+      "39421991",
+      "39418810",
+      "39406937",
+      "38263335",
+      "39405776",
+      "39427832",
+      "39412449",
+      "38268925",
+      "39430838",
+      "39423654",
+      "38269200",
+      "38130888"
+    ],
+    "review": [
+      "39403102"
+    ],
+    "pmc": [
+      "11472764"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.2147/PGPM.S461072?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39403102/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/PGPM.S461072",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv.15003922/v1",
+  "title": "Kinetic and Thermodynamic Control of Benzo[a]phenoxazin Ligand Binding to Oncogenic c-MYC DNA G-Quadruplex",
+  "doi": "10.26434/chemrxiv.15003922/v1",
+  "abstract": "G-quadruplex (G4) DNA structures in oncogenic promoter regions play crucial roles in gene regulation and represent promising targets for anticancer therapeutics. Polyaromatic small molecule ligands, including benzo[a]phenoxazin-based derivatives, selectively bind G4 structures through π-π stacking or groove/loop binding, thereby mitigating transcriptional activity. However, the kinetic and thermodynamic parameters governing ligand-G4 interactions, particularly the ligand’s residence time within the G4 complex, have not been sufficiently characterized, although the residence time has been found to be a key parameter of drug efficacy and resistance in proteins. Here, we combine fluorescence correlation spectroscopy (FCS) with atomistic molecular dynamics (MD) simulations, including well-tempered metadynamics (WT-MetaD), and infrequent metadynamics (iMetaD), to characterize the binding thermodynamics and kinetics of a substituted cationic benzo[a]phenoxazin ligand with parallel G4 DNA formed by the c-MYC promoter Pu22 sequence. Steady-state fluorescence titration shows high binding affinity of the ligand to the parallel c-MYC G4 ( K = (2.9 ∓ 0.3) x 10 7 M -1 ), primarily driven by π-π stacking of benzo[a]phenoxazin aromatic core on the solvent-exposed 5’-terminal G-tetrad, along with stabilizing hydrogen-bond and salt-bridge interactions. FCS measurements reveal rapid reaction-coupled diffusion kinetics, yielding a ligand association rate of ݇ k on = (2.4 ∓ 0.2) x 10 9 M -1 s -1 and a ligand residence time ( τ res ) of ~10 ms in the G4-bound state, showing that ligand dissociation is the rate-limiting step. WT-MetaD simulations, employing contact-pair-based and hydration collective variables, enable reconstruction of a converged free-energy surface that provides binding free energy consistent with the experimental value and reveals multiple π-stacked binding orientations of the ligand on the G-tetrad, separated by barriers of ~30–35 kJ mol -1 . Extensive iMetaD simulations capture highly directional ligand-dissociation pathways through the loop region formed by T7, G8 and G9 of G4-DNA and recover a ligand residence time of ~9 ms, which closely matches the FCS result and directly validate iMetaD-derived kinetics. These findings establish a quantitative benchmark between enhanced-sampling simulations and experimentally measured kinetic and thermodynamic parameters for the interaction of benzo[a]phenoxazin with c-MYC G4 DNA. This work provides a generalizable multiscale framework for elucidating deeper molecular insight into ligand-G4 recognition across energy and time scales, identifying ligand residence time as a critical parameter that may be optimized through rational design of next-generation benzo[a]phenoxazin-based G4-targeted compounds with better efficacy.",
+  "authors": [
+    "Ndege Simisi Clovis",
+    "Deepika Sardana",
+    "Nisha Kumari",
+    "Harsh Sahu",
+    "Parvez Alam",
+    "Ajay Kumar Chand",
+    "Mohammad Firoz Khan",
+    "Tarak Karmakar",
+    "Sobhan Sen"
+  ],
+  "published_date": "2026-05-26",
+  "updated_date": "2026-05-26T12:59:59Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv.15003922/v1",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15003922/v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "1",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            26
+          ]
+        ],
+        "date-time": "2026-05-26T13:09:37Z",
+        "timestamp": 1779800977617,
+        "version": "3.53.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            26
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>\n                  G-quadruplex (G4) DNA structures in oncogenic promoter regions play crucial roles in gene regulation and represent promising targets for anticancer therapeutics. Polyaromatic small molecule ligands, including benzo[a]phenoxazin-based derivatives, selectively bind G4 structures through π-π stacking or groove/loop binding, thereby mitigating transcriptional activity. However, the kinetic and thermodynamic parameters governing ligand-G4 interactions, particularly the ligand’s residence time within the G4 complex, have not been sufficiently characterized, although the residence time has been found to be a key parameter of drug efficacy and resistance in proteins. Here, we combine fluorescence correlation spectroscopy (FCS) with atomistic molecular dynamics (MD) simulations, including well-tempered metadynamics (WT-MetaD), and infrequent metadynamics (iMetaD), to characterize the binding thermodynamics and kinetics of a substituted cationic benzo[a]phenoxazin ligand with parallel G4 DNA formed by the c-MYC promoter Pu22 sequence. Steady-state fluorescence titration shows high binding affinity of the ligand to the parallel c-MYC G4 (\n                  <jats:italic toggle=\"yes\">K</jats:italic>\n                  = (2.9 ∓ 0.3) x 10\n                  <jats:sup>7</jats:sup>\n                  M\n                  <jats:sup>-1</jats:sup>\n                  ), primarily driven by π-π stacking of benzo[a]phenoxazin aromatic core on the solvent-exposed 5’-terminal G-tetrad, along with stabilizing hydrogen-bond and salt-bridge interactions. FCS measurements reveal rapid reaction-coupled diffusion kinetics, yielding a ligand association rate of ݇\n                  <jats:italic toggle=\"yes\">\n                    k\n                    <jats:sub>on</jats:sub>\n                  </jats:italic>\n                  = (2.4 ∓ 0.2) x 10\n                  <jats:sup>9</jats:sup>\n                  M\n                  <jats:sup>-1</jats:sup>\n                  s\n                  <jats:sup>-1</jats:sup>\n                  and a ligand residence time (\n                  <jats:italic toggle=\"yes\">\n                    τ\n                    <jats:sub>res</jats:sub>\n                  </jats:italic>\n                  ) of ~10 ms in the G4-bound state, showing that ligand dissociation is the rate-limiting step. WT-MetaD simulations, employing contact-pair-based and hydration collective variables, enable reconstruction of a converged free-energy surface that provides binding free energy consistent with the experimental value and reveals multiple π-stacked binding orientations of the ligand on the G-tetrad, separated by barriers of ~30–35 kJ mol\n                  <jats:sup>-1</jats:sup>\n                  . Extensive iMetaD simulations capture highly directional ligand-dissociation pathways through the loop region formed by T7, G8 and G9 of G4-DNA and recover a ligand residence time of ~9 ms, which closely matches the FCS result and directly validate iMetaD-derived kinetics. These findings establish a quantitative benchmark between enhanced-sampling simulations and experimentally measured kinetic and thermodynamic parameters for the interaction of benzo[a]phenoxazin with c-MYC G4 DNA. This work provides a generalizable multiscale framework for elucidating deeper molecular insight into ligand-G4 recognition across energy and time scales, identifying ligand residence time as a critical parameter that may be optimized through rational design of next-generation benzo[a]phenoxazin-based G4-targeted compounds with better efficacy.\n                </jats:p>",
+      "DOI": "10.26434/chemrxiv.15003922/v1",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            26
+          ]
+        ],
+        "date-time": "2026-05-26T12:59:59Z",
+        "timestamp": 1779800399000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Kinetic and Thermodynamic Control of Benzo[a]phenoxazin Ligand Binding to Oncogenic c-MYC DNA G-Quadruplex"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Ndege Simisi",
+          "family": "Clovis",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Physical Sciences",
+              "place": [
+                "New Delhi, India"
+              ]
+            },
+            {
+              "name": "Jawaharlal Nehru University",
+              "place": [
+                "New Delhi, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Deepika",
+          "family": "Sardana",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Physical Sciences",
+              "place": [
+                "New Delhi, India"
+              ]
+            },
+            {
+              "name": "Jawaharlal Nehru University",
+              "place": [
+                "New Delhi, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nisha",
+          "family": "Kumari",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry",
+              "place": [
+                "New Delhi, India"
+              ]
+            },
+            {
+              "name": "Indian Institute of Technology Delhi",
+              "place": [
+                "New Delhi, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Harsh",
+          "family": "Sahu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Physical Sciences",
+              "place": [
+                "New Delhi, India"
+              ]
+            },
+            {
+              "name": "Jawaharlal Nehru University",
+              "place": [
+                "New Delhi, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Parvez",
+          "family": "Alam",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Physical Sciences",
+              "place": [
+                "New Delhi, India"
+              ]
+            },
+            {
+              "name": "Jawaharlal Nehru University",
+              "place": [
+                "New Delhi, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ajay Kumar",
+          "family": "Chand",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Physical Sciences",
+              "place": [
+                "New Delhi, India"
+              ]
+            },
+            {
+              "name": "Jawaharlal Nehru University",
+              "place": [
+                "New Delhi, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mohammad Firoz",
+          "family": "Khan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Physical Sciences",
+              "place": [
+                "New Delhi, India"
+              ]
+            },
+            {
+              "name": "Jawaharlal Nehru University",
+              "place": [
+                "New Delhi, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tarak",
+          "family": "Karmakar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry",
+              "place": [
+                "New Delhi, India"
+              ]
+            },
+            {
+              "name": "Indian Institute of Technology Delhi",
+              "place": [
+                "New Delhi, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sobhan",
+          "family": "Sen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Physical Sciences",
+              "place": [
+                "New Delhi, India"
+              ]
+            },
+            {
+              "name": "Jawaharlal Nehru University",
+              "place": [
+                "New Delhi, India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15003922/v1",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            26
+          ]
+        ],
+        "date-time": "2026-05-26T12:59:59Z",
+        "timestamp": 1779800399000
+      },
+      "score": 108.18,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15003922/v1"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            26
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv.15003922/v1",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            26
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

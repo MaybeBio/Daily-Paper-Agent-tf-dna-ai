@@ -1,0 +1,486 @@
+{
+  "identity": {
+    "pmid": "41856113",
+    "doi": "10.1016/j.cell.2026.02.021",
+    "title": "Thermodynamic prediction of RNA cellular activity from sequence via conformational ensembles."
+  },
+  "content": {
+    "abstract": "Despite advances in structure prediction from sequence, predicting cellular activity requires conformational ensembles that capture propensities to form functionally active states. Such ensembles remain difficult to measure and even harder to predict. Here, we systematically altered the HIV-1 transactivation response element (TAR) RNA sequence to change its propensity to adopt a functional versus inactive secondary structure and quantified these propensities using proton chemical exchange saturation transfer ((1)H CEST) NMR without isotopic labeling. Minor sequence changes shifted the active-state propensity by  approximately 500-fold, quantitatively predicting 125- to 300-fold changes in binding to the RNA-binding region of Tat and cellular transactivation. These propensities could be inferred from secondary-structure prediction algorithms and incorporated into a thermodynamic framework to quantitatively predict how sequence changes alter protein-binding affinity and cellular activity in this well-characterized system. Our findings establish a quantitative thermodynamic framework that links the RNA sequence to cellular activity through conformational ensembles, setting the stage for more generalized predictions as computational ensemble modeling continues to advance.",
+    "keywords": [
+      "AlphaFold",
+      "HIV-1 TAR",
+      "RNA secondary structure prediction",
+      "conformational propensities",
+      "predicting conformational ensembles"
+    ],
+    "mesh_terms": [
+      "Thermodynamics",
+      "*HIV-1/genetics",
+      "Nucleic Acid Conformation",
+      "*RNA, Viral/chemistry/metabolism",
+      "HIV Long Terminal Repeat",
+      "Humans",
+      "tat Gene Products, Human Immunodeficiency Virus/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Geng, Ainan",
+        "Roy, Rohit",
+        "Ken, Megan",
+        "Li, Linshu",
+        "Chime, Alicia",
+        "Abou Assi, Hala",
+        "Liu, Bei",
+        "Bou-Nader, Charles",
+        "Lee, Yeongjoon",
+        "Zhang, Jinwei",
+        "Herschlag, Daniel",
+        "Goff, Stephen P",
+        "Al-Hashimi, Hashim M"
+      ],
+      "short_names": [
+        "Geng A",
+        "Roy R",
+        "Ken M",
+        "Li L",
+        "Chime A",
+        "Abou Assi H",
+        "Liu B",
+        "Bou-Nader C",
+        "Lee Y",
+        "Zhang J",
+        "Herschlag D",
+        "Goff SP",
+        "Al-Hashimi HM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA.",
+        "Center for Genomic and Computational Biology, Duke University School of Medicine, Durham, NC, USA.",
+        "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA.",
+        "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA.",
+        "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA.",
+        "Laboratory of Molecular Biology, National Institute of Diabetes and Digestive and Kidney Diseases, Bethesda, MD, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA.",
+        "Laboratory of Molecular Biology, National Institute of Diabetes and Digestive and Kidney Diseases, Bethesda, MD, USA.",
+        "Department of Biochemistry, Stanford University, Stanford, CA, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA. Electronic address: ha2639@cumc.columbia.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Geng, Ainan",
+        "short_name": "Geng A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Roy, Rohit",
+        "short_name": "Roy R",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomic and Computational Biology, Duke University School of Medicine, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Ken, Megan",
+        "short_name": "Ken M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Linshu",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Chime, Alicia",
+        "short_name": "Chime A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Abou Assi, Hala",
+        "short_name": "Abou Assi H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Bei",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Duke University School of Medicine, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Bou-Nader, Charles",
+        "short_name": "Bou-Nader C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Biology, National Institute of Diabetes and Digestive and Kidney Diseases, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Yeongjoon",
+        "short_name": "Lee Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jinwei",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Molecular Biology, National Institute of Diabetes and Digestive and Kidney Diseases, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Herschlag, Daniel",
+        "short_name": "Herschlag D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Goff, Stephen P",
+        "short_name": "Goff SP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Al-Hashimi, Hashim M",
+        "short_name": "Al-Hashimi HM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA. Electronic address: ha2639@cumc.columbia.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell"
+    ],
+    "journal_abbrev": [
+      "Cell"
+    ],
+    "pub_date": "2026 May 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/20 00:59",
+    "fetched_at": "2026-10-01 16:34:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41414670",
+      "41094230",
+      "40715458",
+      "40423646",
+      "40050622",
+      "39982856",
+      "39946472",
+      "39522437",
+      "39187507",
+      "39082277",
+      "39009073",
+      "38977902",
+      "38842942",
+      "38718835",
+      "38114465",
+      "38084902",
+      "37956700",
+      "37940855",
+      "37905209",
+      "37876231",
+      "37831584",
+      "37791874",
+      "37198487",
+      "37095237",
+      "36348050",
+      "36192461",
+      "35758624",
+      "35695373",
+      "35692094",
+      "35671421",
+      "35634782",
+      "35347312",
+      "35320755",
+      "35236984",
+      "35114594",
+      "34533838",
+      "34473508",
+      "34282049",
+      "33754485",
+      "33631106",
+      "33574226",
+      "33545034",
+      "33376217",
+      "33170672",
+      "33139729",
+      "33106660",
+      "33104789",
+      "32585128",
+      "32555469",
+      "32461691",
+      "32327595",
+      "32168407",
+      "32101729",
+      "31863746",
+      "31815464",
+      "31785475",
+      "31481159",
+      "31199872",
+      "31182864",
+      "31080171",
+      "30514815",
+      "30323330",
+      "30054568",
+      "30012568",
+      "29961580",
+      "29420478",
+      "29177466",
+      "28981077",
+      "28839094",
+      "28719589",
+      "28609788",
+      "28538735",
+      "28480640",
+      "27860024",
+      "27819661",
+      "27720642",
+      "27292179",
+      "27232530",
+      "26800479",
+      "26329823",
+      "26032298",
+      "25999316",
+      "25780100",
+      "25505092",
+      "24979799",
+      "23935473",
+      "23695796",
+      "23435231",
+      "23041928",
+      "23007159",
+      "22828074",
+      "22554188",
+      "22355797",
+      "22139940",
+      "22121021",
+      "22115189",
+      "22035327",
+      "21925376",
+      "21918110",
+      "21529161",
+      "21441581",
+      "20645303",
+      "20583015",
+      "20554050",
+      "20230624",
+      "19931283",
+      "19109441",
+      "18922466",
+      "18754680",
+      "18621815",
+      "18579871",
+      "18322526",
+      "18047298",
+      "17958380",
+      "16873527",
+      "16839869",
+      "16713706",
+      "16683750",
+      "16213112",
+      "16141058",
+      "15504036",
+      "12464185",
+      "12410317",
+      "10969985",
+      "10904550",
+      "10823871",
+      "10592235",
+      "10571995",
+      "10550208",
+      "9518494",
+      "9241415",
+      "9131998",
+      "8520220",
+      "8454618",
+      "7682716",
+      "3680285",
+      "3386755",
+      "2828663",
+      "2236042",
+      "2225077",
+      "2015625",
+      "1992459",
+      "1934059",
+      "1913815",
+      "1714301",
+      "1711369",
+      "1709522",
+      "1638124",
+      "1621097"
+    ],
+    "similar": [
+      "41856113",
+      "37198487",
+      "8450553",
+      "14757049",
+      "7666565",
+      "7892280",
+      "12525632",
+      "1936997",
+      "7563092",
+      "19584251",
+      "10684286",
+      "24422492",
+      "23392246",
+      "11779230",
+      "12009901",
+      "15961729",
+      "21574948",
+      "10433713",
+      "2247474",
+      "1899841",
+      "9548939",
+      "27232530",
+      "24147034",
+      "10944537",
+      "7609059",
+      "10823871",
+      "16535863",
+      "8450529",
+      "10573156",
+      "10328810",
+      "21553929",
+      "10364329",
+      "7612630",
+      "7490754",
+      "15207707",
+      "1331525",
+      "9311903",
+      "8350414",
+      "36932337",
+      "29037489",
+      "1903308",
+      "10995220",
+      "9300036",
+      "31080171",
+      "2011739",
+      "10958691",
+      "40576055",
+      "23605042",
+      "12473448",
+      "8331737",
+      "10921774",
+      "1427073",
+      "1565648",
+      "7576925",
+      "14722301",
+      "8626612",
+      "19139066",
+      "18693035",
+      "8639596",
+      "7632801",
+      "10225209",
+      "27500460",
+      "16536465",
+      "7745706",
+      "17488097",
+      "7831824",
+      "9376365",
+      "8078772",
+      "9654745",
+      "25466178",
+      "2721501",
+      "20976203",
+      "22943434",
+      "8607271",
+      "2190099",
+      "31863746",
+      "33051202",
+      "33104789",
+      "2186367",
+      "2249668",
+      "26483503",
+      "8617366",
+      "7638159",
+      "16738137",
+      "9927743",
+      "8434019",
+      "21081095",
+      "22767258",
+      "20724442",
+      "12079782",
+      "11724578",
+      "7971271",
+      "11371209",
+      "15050819",
+      "10428378",
+      "34762866",
+      "26068737",
+      "17553835",
+      "15737233",
+      "10550206"
+    ],
+    "review": [
+      "41856113",
+      "16535863",
+      "10328810",
+      "36932337",
+      "31080171"
+    ],
+    "pmc": [
+      "13270807"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(26)00228-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41856113/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

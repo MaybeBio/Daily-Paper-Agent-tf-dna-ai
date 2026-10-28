@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "35356930",
+    "doi": "10.1097/MD.0000000000029069",
+    "title": "Investigation of hub genes involved in Turner syndrome using biological informatics methods."
+  },
+  "content": {
+    "abstract": "BACKGROUND: This study aimed to explore candidate genes and their potential interaction mechanism critical to the pathophysiology of Turner syndrome by using the Gene Expression Omnibus database. METHODS: GSE58435 data set was obtained by querying the Gene Expression Omnibus database. Differentially expressed genes (DEGs) were screened using R and subsequently annotated by Gene Ontology. Functional enrichment analysis was performed based on the Kyoto Encyclopedia of Genes and Genomes database for annotation, visualization, and integrated discovery. A protein-protein interaction network of different genes was constructed based on the STRING database, in which hub genes were explored through Cytoscape software. The expression of the hub genes was verified by analyzing the gene expression in the GSE46687 data set. RESULTS: A total of 733 differential genes were identified. These differentially expressed genes were significantly enriched in nucleoplasm and nucleus. Their molecular function was concentrated on DNA binding and transcription, coronary artery, and adipose tissue development. According to the annotation of Kyoto Encyclopedia of Genes and Genomes, the identified DEGs were mainly enriched in inflammatory mediator regulation of TRP channels, osteoclast differentiation. A total of 10 hub genes (HIST1H2BA, TRIM71, HIST1H2BB, HIST1H4D, TNF, TP53BP1, CDCA8, EGF, HMG20B, and BCL9) were identified from the constructed protein-protein interaction network. These genes were discovered to be highly expressed in osteoclasts, ovaries, digestive tract, blood, and lymphatic tissues through the online application of human protein atlas. CONCLUSION: In this study, 733 DEGs and 10 hub genes were identified. They would be new candidate targets in Turner syndrome.",
+    "keywords": [],
+    "mesh_terms": [
+      "Computational Biology/methods",
+      "Databases, Genetic",
+      "Gene Expression Profiling/methods",
+      "Gene Ontology",
+      "Humans",
+      "Protein Interaction Maps/genetics",
+      "Transcription Factors/genetics",
+      "Tripartite Motif Proteins/genetics",
+      "*Turner Syndrome/genetics",
+      "Ubiquitin-Protein Ligases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cheng, Tiantian",
+        "Li, Xiaoli",
+        "Chen, Jinhu",
+        "Yang, Linlin",
+        "Liu, Jing",
+        "Song, Guangyao",
+        "Ma, Huijuan"
+      ],
+      "short_names": [
+        "Cheng T",
+        "Li X",
+        "Chen J",
+        "Yang L",
+        "Liu J",
+        "Song G",
+        "Ma H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4176-5013"
+      ],
+      "affiliations": [
+        "Department of Internal Medicine, School of Clinical Medicine, North China University of Science and Technology, Tangshan, Hebei, China.,Department ofEndocrinology and Metabolic Diseases, Hebei General Hospital, Shijiazhuang, Hebei, China.,Department of Internal Medicine, Hebei Medical University, Shijiazhuang,Hebei, China.,Hebei Key Laboratory of Metabolic Diseases, Hebei General Hospital, Shijiazhuang, Hebei, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cheng, Tiantian",
+        "short_name": "Cheng T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, School of Clinical Medicine, North China University of Science and Technology, Tangshan, Hebei, China.,Department ofEndocrinology and Metabolic Diseases, Hebei General Hospital, Shijiazhuang, Hebei, China.,Department of Internal Medicine, Hebei Medical University, Shijiazhuang,Hebei, China.,Hebei Key Laboratory of Metabolic Diseases, Hebei General Hospital, Shijiazhuang, Hebei, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaoli",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chen, Jinhu",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Yang, Linlin",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Liu, Jing",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Song, Guangyao",
+        "short_name": "Song G",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ma, Huijuan",
+        "short_name": "Ma H",
+        "identifiers": [
+          "0000-0002-4176-5013"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2022 Mar 18",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/01 06:00",
+    "fetched_at": "2026-09-28 06:47:29"
+  },
+  "links": {
+    "cites": [
+      "42518342",
+      "42145970",
+      "40084286",
+      "36875465"
+    ],
+    "refs": [
+      "33619714",
+      "33550624",
+      "33425899",
+      "33368097",
+      "33307001",
+      "32131408",
+      "32106619",
+      "31580326",
+      "31218161",
+      "30033188",
+      "29992593",
+      "29983323",
+      "29681539",
+      "29636833",
+      "28184962",
+      "27522573",
+      "27275765",
+      "26221191",
+      "24935217",
+      "22154619",
+      "21606163",
+      "18167134",
+      "17383919",
+      "12466343",
+      "11982896"
+    ],
+    "similar": [
+      "35356930",
+      "32578582",
+      "38904678",
+      "34257537",
+      "36221354",
+      "32626989",
+      "31987036",
+      "30825595",
+      "29845250",
+      "34232175",
+      "30916045",
+      "35313524",
+      "33120861",
+      "32598242",
+      "33080677",
+      "28901494",
+      "34271942",
+      "32481304",
+      "35379124",
+      "32255771",
+      "33640831",
+      "31277149",
+      "36166989",
+      "34358255",
+      "31339875",
+      "34553293",
+      "32467990",
+      "34868339",
+      "35762542",
+      "33032291",
+      "25409614",
+      "34174849",
+      "30935420",
+      "32147961",
+      "35680809",
+      "30502083",
+      "31277155",
+      "34931168",
+      "33847684",
+      "31772617",
+      "32853947",
+      "31953631",
+      "31545495",
+      "35403252",
+      "33941565",
+      "35132271",
+      "28075450",
+      "32358373",
+      "35132330",
+      "35054979",
+      "33582701",
+      "33741890",
+      "30706927",
+      "31277141",
+      "32945465",
+      "31989994",
+      "31178673",
+      "30132538",
+      "32008037",
+      "31297881",
+      "31875420",
+      "35996248",
+      "34326892",
+      "32925795",
+      "32243390",
+      "25434468",
+      "35562622",
+      "31233342",
+      "32980897",
+      "33848079",
+      "34840971",
+      "35762549",
+      "33149760",
+      "34160465",
+      "37266648",
+      "35680454",
+      "31424263",
+      "32811479",
+      "32384023",
+      "32160841",
+      "32985909",
+      "32210915",
+      "34568491",
+      "34356118",
+      "28952134",
+      "34814332",
+      "30365099",
+      "33299863",
+      "31770211",
+      "33501609",
+      "31114135",
+      "37563710",
+      "34671419",
+      "33102593",
+      "31311829",
+      "30506958",
+      "32127012",
+      "35016690",
+      "32567431",
+      "38758892",
+      "38097358",
+      "38728468"
+    ],
+    "review": [
+      "35356930",
+      "33080677"
+    ],
+    "pmc": [
+      "10684194"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/turnersyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Turner Syndrome"
+      },
+      {
+        "url": "https://www.ovid.com/35356930.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35356930/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35356930",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CDCA8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1055",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000029069",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40746657",
+  "title": "NfkappaBin: a machine learning based method for screening TNF-alpha induced NF-kappaB inhibitors.",
+  "authors": "Jain, Shipra; Tomer, Ritu; Patiyal, Sumeet; Raghava, Gajendra P S",
+  "journal": "Frontiers in bioinformatics",
+  "published_date": "2025-08-01",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习筛选NF-kappaB抑制剂，对象是药物小分子而非蛋白质-DNA互作，无结合建模或机制研究，仅边缘相关。",
+  "abstract": "INTRODUCTION: Nuclear Factor kappa B (NF-kappaB) is a transcription factor whose upregulation is associated in chronic inflammatory diseases, including rheumatoid arthritis, inflammatory bowel disease, and asthma. In order to develop therapeutic strategies targeting NF-kappaB-related diseases, we developed a computational approach to predict drugs capable of inhibiting TNF-alpha induced NF-kappaB signaling pathways. METHOD: We utilized a dataset comprising 1,149 inhibitors and 1,332 non-inhibitors retrieved from PubChem. Chemical descriptors were computed using the PaDEL software, and relevant features were selected using advanced feature selection techniques. RESULT: Initially, machine learning models were constructed using 2D descriptors, 3D descriptors, and molecular fingerprints, achieving maximum AUC values of 0.66, 0.56, and 0.66, respectively. To improve feature selection, we applied univariate analysis and SVC-L1 regularization to identify features that can effectively differentiate inhibitors from non-inhibitors. Using these selected features, we developed machine learning models, our support vector classifier achieved a highest AUC of 0.75 on the validation dataset. DISCUSSION: Finally, this best-performing model was employed to screen FDA-approved drugs for potential NF-kappaB inhibitors. Notably, most of the predicted inhibitors corresponded to drugs previously identified as inhibitors in experimental studies, underscoring the model's predictive reliability. Our best-performing models have been integrated into a standalone software and web server, NfkappaBin. (https://webs.iiitd.edu.in/raghava/nfkbin/).",
+  "abstract_zh": "引言：核因子κB（NF-kappaB）是一种转录因子，其上调与慢性炎症性疾病相关，包括类风湿性关节炎、炎症性肠病和哮喘。为了开发针对NF-kappaB相关疾病的治疗策略，我们开发了一种计算方法，用于预测能够抑制TNF-α诱导的NF-kappaB信号通路的药物。方法：我们利用了从PubChem获取的包含1,149种抑制剂和1,332种非抑制剂的数据集。使用PaDEL软件计算化学描述符，并采用先进的特征选择技术选择相关特征。结果：最初，使用2D描述符、3D描述符和分子指纹构建机器学习模型，分别达到最大AUC值0.66、0.56和0.66。为了改进特征选择，我们应用单变量分析和SVC-L1正则化来识别能有效区分抑制剂与非抑制剂的特征。利用这些选定的特征，我们开发了机器学习模型，我们的支持向量分类器在验证数据集上达到了最高AUC 0.75。讨论：最后，该最佳性能模型被用于筛选FDA批准的药物，以寻找潜在的NF-kappaB抑制剂。值得注意的是，大多数预测的抑制剂对应于实验研究中已鉴定为抑制剂的药物，这强调了模型预测的可靠性。我们的最佳性能模型已整合到独立软件和网络服务器NfkappaBin中。(https://webs.iiitd.edu.in/raghava/nfkbin/)。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40746657/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40746657/",
+  "paper_page_path": "papers/pubmed/40746657/index.html"
+}

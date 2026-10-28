@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, theory, results, discussion, methods, and supplementary information description.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and adequacy of evidence presented in the provided material. No assessment of experimental reproducibility beyond what is described.
+- **Shared manuscript claim summary** The authors propose a computational protocol that iteratively combines linear response theory (LRT) with molecular dynamics with excited normal modes (MDeNM) to predict large-scale, ligand-induced protein conformational changes and intermediate states, using only the apo structure and ligand binding site information. The method is tested on three protein–ligand systems, with predicted holo structures and transition pathways compared against experimental structures and prior computational studies.
+- **Visible evidence base** Abstract, Introduction, Theory section (including derivation of LRT and Gaussian approximation), Results sections (normal mode selection, MDeNM sampling, identification of holo states and intermediates), Methods (system preparation, MM/PBSA scoring, structure comparison), and Supplementary Information description (including derivation and additional figures/tables).
+- **Missing materials affecting confidence** Full Methods details (force field parameters, simulation lengths, convergence criteria), complete Supplementary Figures S1–S5 and Tables S1–S4, exact definitions of scoring function terms (e.g., ΔΔG components), and quantitative data for all reported RMSD and GDT_avg values. The manuscript text references several equations and figures that are not fully reproduced in the provided material.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and potentially useful approach for predicting ligand-induced conformational changes without prior knowledge of the holo state. The iterative use of LRT to guide MDeNM sampling is a reasonable strategy, and the authors provide a theoretical justification for using LRT even under strong perturbations. However, the evidence presented is insufficient to fully establish the method's general applicability and accuracy. Key concerns include the lack of quantitative validation metrics for all systems, incomplete description of the scoring function and its validation, and limited discussion of limitations and failure modes. The comparison with prior computational pathways is qualitative and would benefit from more rigorous quantitative assessment. The manuscript is well-written and accessible, but the technical details and validation need strengthening before the claims can be fully supported.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists interested in protein conformational dynamics, ligand-induced allostery, and method development for enhanced sampling. Researchers in structure-based drug discovery may also find the approach relevant, as it addresses the challenge of incorporating receptor flexibility in docking and virtual screening without prior holo structure knowledge. The method's potential to identify relevant collective variables for free energy calculations could appeal to those studying conformational transitions and rare events.
+- **Major strengths** 1. The conceptual framework of combining LRT with MDeNM is novel and addresses a significant challenge in the field. 2. The theoretical derivation supporting the use of LRT for strong perturbations (via Gaussian approximation) adds rigor. 3. The method is designed to be automated and does not require prior knowledge of the target state, which is a practical advantage. 4. The authors test on three systems with different types and scales of conformational change, providing some breadth. 5. The identification of state-dependent dynamic coupling between domains in AdK is a biologically insightful result.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that the protocol "efficiently and accurately predict[s] these ligand-induced structure transitions" and that predicted holo structures closely match experimental structures (RMSD values of 2.30, 1.58, and 1.40 Å for AdK, RBP, and BGT, respectively).
+  - **Evidence pointer** Results section "Identification and validation of protein holo-state and transition intermediates", Table 1, Supplementary Tables S3 and S4.
+  - **Concern** The reported RMSD values are presented as key evidence of accuracy, but the manuscript does not provide sufficient context for these values. It is unclear what the RMSD is relative to (e.g., all Cα atoms, only mobile regions, or binding site residues). Additionally, no comparison is made to the RMSD of the initial apo structure or to results from other methods, making it difficult to assess whether the improvement is significant. The scoring function (ΔΔG) used to select the holo state is described only briefly, and its validation (e.g., against experimental binding affinities or known stable states) is not presented. Without this context, the claim of "accurate" prediction is not fully supported.
+  - **Why it matters** The central claim of the manuscript is that the method can accurately predict holo structures. If the RMSD values are not properly contextualized or the scoring function is not validated, the reader cannot judge whether the method is genuinely accurate or merely produces structures that are somewhat closer to the target than the starting point. This directly affects the manuscript's contribution to the field.
+  - **Resolution test** Provide a clear definition of the RMSD calculation (atom selection, superposition method). Include a comparison of predicted holo RMSD to the RMSD of the initial apo structure and to the RMSD of structures generated by simple linear interpolation or other baseline methods. Validate the ΔΔG scoring function by showing it can rank known ligand-bound states correctly or by comparing predicted stabilities to experimental data. If possible, include error bars or multiple independent runs to assess robustness.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "excitation temperature (ΔT) is a very important parameter that allows limiting the extent of structural change in any one step and develop a protocol for automated determination of its optimal value at each step."
+  - **Evidence pointer** Results section "Enhanced sampling along LRT-predicted direction of conformational change using MDeNM", Figure 2, Supplementary Figure S4.
+  - **Concern** The protocol for automated determination of optimal ΔT is described only qualitatively. The manuscript mentions plateaus in the D_P vs. ΔT plot and uses a three-point local standard deviation to identify them, but the exact algorithm for selecting the optimal ΔT (e.g., how the plateau boundary is defined, what constitutes a "stable region") is not fully specified. Furthermore, the relationship between ΔT and the physical temperature increase of the system is not clearly explained, and it is unclear how the chosen ΔT values relate to the energy barriers that need to be crossed. The reproducibility of this step is therefore questionable.
+  - **Why it matters** The automated determination of ΔT is a key methodological contribution. If the procedure is not clearly defined, other researchers cannot implement or test the method. This limits the practical utility of the protocol and the ability of others to validate the findings.
+  - **Resolution test** Provide a step-by-step algorithmic description of the ΔT selection procedure, including pseudocode or a flowchart. Clarify the physical meaning of ΔT and how it relates to the kinetic energy added to the system. Show sensitivity analysis of the final predicted structures to the choice of ΔT values within a plateau region. If possible, provide a benchmark test where the automated protocol is compared to manual tuning of ΔT.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that "most relevant set of normal modes for conformational change at each step are an output from our method, which can be used as collective variables for determination of free energy barriers and transition timescales along the identified pathway."
+  - **Evidence pointer** Abstract, Discussion section.
+  - **Concern** This claim is forward-looking and not directly tested in the manuscript. While the identified modes are used for sampling, the manuscript does not demonstrate that these modes are indeed optimal collective variables for free energy calculations. No free energy profiles or transition timescales are computed. The claim is therefore speculative and not supported by the presented data.
+  - **Why it matters** The potential utility of the method for downstream free energy calculations is a significant part of its appeal. If this claim is not substantiated, the manuscript's impact is reduced, and readers may be misled about the method's capabilities.
+  - **Resolution test** Either remove or soften this claim, or provide a proof-of-concept demonstration. For example, compute a free energy profile along the identified modes for one of the test systems and compare it to a known reference. Alternatively, show that the identified modes capture the essential transition path by comparing to modes obtained from a converged simulation or principal component analysis of a known trajectory.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "we have also derived that linear response theory will still be valid and accurately predict the protein structural response" for strong perturbations, based on a Gaussian approximation of residue fluctuations.
+  - **Evidence pointer** Theory section, Supplementary Information (equation A15).
+  - **Concern** The derivation assumes a harmonic approximation of the protein potential energy surface, which is a strong assumption for large-scale conformational changes that involve crossing energy barriers. The manuscript does not discuss the limitations of this assumption or test its validity for the three systems studied. For example, if the conformational change involves significant anharmonicity or multiple energy minima, the Gaussian approximation may break down. The derivation also assumes that the perturbation is applied instantaneously, which may not be realistic for ligand binding.
+  - **Why it matters** The theoretical justification for using LRT is a cornerstone of the method. If the underlying assumptions are not valid for the systems of interest, the method's predictions may be unreliable. The manuscript needs to acknowledge and address these limitations.
+  - **Resolution test** Add a discussion of the limitations of the Gaussian approximation and the harmonic assumption. Test the validity of the approximation for the test systems by comparing LRT-predicted directions to directions obtained from more rigorous methods (e.g., perturbation-response scanning or short MD simulations with the ligand present). If possible, quantify the anharmonicity of the relevant modes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Protein-ligand complex preparation"
+  - **Evidence pointer** Methods section.
+  - **Issue** The description of ligand docking is brief. It is unclear how the "reference ligand site" is defined beyond "coordinates of ligand centre of mass obtained after superimposing the holo structure on apo structure." The criteria for selecting the "most-stable PL complex" from the top 100 based on MM/PBSA binding energy are not detailed (e.g., is it the lowest energy, or is there a clustering step?).
+  - **Required correction** Provide more detail on the docking procedure, including the scoring function used by Hex and AutoDock Vina, the number of poses generated, and the exact criteria for selecting the final complex. Clarify whether the MM/PBSA re-ranking was performed on all 100 complexes or a subset.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Identification of intrinsic motions triggered by ligand binding"
+  - **Evidence pointer** Results section, Figure 1.
+  - **Issue** The selection of the cutoff radius (R_c) for the anisotropic network model (ANM) is described as being based on correlation with MD fluctuations, but the exact procedure is not fully described. It is unclear how the "selected set" of R_c values is chosen and how the final single value is picked based on the Shannon-entropy measure.
+  - **Required correction** Provide a more detailed description of the R_c selection procedure, including the range of values tested, the criteria for "good correlation," and how the entropy measure is used to pick the final value. A supplementary figure showing the correlation and entropy as a function of R_c would be helpful.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Identification and validation of protein holo-state and transition intermediates"
+  - **Evidence pointer** Results section, Figure 3.
+  - **Issue** The comparison of predicted and experimental displacement along normal modes is presented as a correlation coefficient, but it is unclear how this correlation is calculated (e.g., Pearson correlation over all atoms or over a subset). The statement "Most of the contribution to the overall displacement comes from the first few low frequency modes" is qualitative.
+  - **Required correction** Specify the exact calculation of the correlation coefficient. Provide a quantitative breakdown of the contribution of each mode to the total displacement, perhaps in a supplementary table.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section.
+  - **Issue** The discussion mentions that the method "doesn't provide a continuous trajectory" but does not elaborate on the limitations of this discrete representation. It is unclear how the number of iterations (i0) is determined and whether the results are sensitive to this parameter.
+  - **Required correction** Add a brief discussion of the discrete nature of the predicted pathway and its implications. Provide details on how the number of iterations is chosen and whether convergence is assessed.
+
+## Risk / unsupported claims
+- The claim that the method "efficiently and accurately" predicts ligand-induced transitions is not fully supported due to insufficient context for RMSD values and lack of comparison to baseline methods.
+- The claim that identified normal modes can be used as collective variables for free energy calculations is speculative and not demonstrated.
+- The theoretical derivation supporting LRT validity for strong perturbations relies on assumptions (harmonic potential, Gaussian fluctuations) that are not tested or discussed in detail.
+- The automated protocol for determining optimal ΔT is not described with sufficient detail to be reproducible.
+- The generalizability of the method beyond the three test systems is not established, and no discussion of potential failure modes is provided.

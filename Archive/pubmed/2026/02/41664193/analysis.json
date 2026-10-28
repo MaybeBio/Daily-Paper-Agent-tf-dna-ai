@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41664193",
+  "title": "Integrative machine learning identifies a TEAD4-driven endothelial program shaping drug sensitivity and microvascular invasion in HCC.",
+  "authors": "Zhang, Pengcheng; Song, Hang; Lin, Shengyou; Zhu, Yongfu",
+  "journal": "Journal of translational medicine",
+  "published_date": "2026-02-10",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究通过整合单细胞与空间转录组及机器学习，识别HCC中TEAD4驱动的内皮细胞程序与微血管侵犯及药物敏感性关联，虽涉及转录因子网络但非TF-DNA结合机制建模，方法可迁移但对象为内皮细胞非典型TF-DNA体系。",
+  "abstract": "AIM: Microvascular invasion (MVI) drives early recurrence and poor survival in hepatocellular carcinoma (HCC). While tumor cell invasiveness has been well explored, the contribution of endothelial cells (ECs) to MVI and treatment response, including mechanisms of drug resistance, remains unclear. This study aimed to characterize endothelial programs linked to MVI and to develop a machine learning model for prognostic and therapeutic prediction. METHODS: We integrated single-cell RNA sequencing and spatial transcriptomics from HCC samples with different MVI status. Endothelial heterogeneity was analyzed using pseudotime trajectories, transcription factor networks, and cell-cell communication. Spatial mapping with cell2location and Spotlight localized endothelial subsets and defined their distribution around tumor nests and invasive fronts. A machine learning prognostic model based on Hippo-YAP pathway regulators was constructed, and drug-response patterns were assessed using CTRP and PRISM datasets. Key regulators were validated through tube formation and proliferation assays. RESULTS: We identified an endothelial subset with strong Hippo-YAP activation that was enriched in MVI(+) tumors and positioned at the peritumoral invasive front. These cells showed stem-like features and marked angiogenic potential. TEAD4 emerged as the dominant downstream transcription factor, driving APLN, ANGPT2, and VEGFA expression. TEAD4 inhibition reduced tube formation and limited tumor cell proliferation. The Hippo-YAP-based prognostic model, generated through integrative machine learning, outperformed clinical variables and existing signatures across multiple cohorts. High-risk scores correlated with immunosuppressive features and heightened sensitivity to microtubule- and cell-cycle-targeting drugs, including paclitaxel, irinotecan, and ispinesib. CONCLUSION: This study reveals a TEAD4-centered endothelial program that promotes angiogenesis and MVI in HCC. The machine learning-based prognostic model provides a robust tool for risk assessment and may help guide future therapeutic strategies targeting endothelial signaling.",
+  "abstract_zh": "目的：微血管侵犯（MVI）驱动肝细胞癌（HCC）的早期复发和不良生存。尽管肿瘤细胞侵袭性已被广泛研究，但内皮细胞（ECs）对MVI及治疗反应（包括耐药机制）的贡献仍不清楚。本研究旨在表征与MVI相关的内皮程序，并开发用于预后和治疗预测的机器学习模型。方法：我们整合了不同MVI状态的HCC样本的单细胞RNA测序和空间转录组数据。利用伪时间轨迹、转录因子网络和细胞间通讯分析内皮异质性。通过cell2location和Spotlight进行空间定位，以确定内皮亚群及其在肿瘤巢和侵袭前沿周围的分布。基于Hippo-YAP通路调节因子构建了机器学习预后模型，并使用CTRP和PRISM数据集评估药物反应模式。通过管形成和增殖实验验证关键调节因子。结果：我们识别出一个具有强烈Hippo-YAP激活的内皮亚群，该亚群在MVI(+)肿瘤中富集，并定位于瘤周侵袭前沿。这些细胞表现出干细胞样特征和显著的血管生成潜力。TEAD4成为主要的下游转录因子，驱动APLN、ANGPT2和VEGFA表达。TEAD4抑制减少了管形成并限制了肿瘤细胞增殖。通过整合机器学习生成的基于Hippo-YAP的预后模型，在多个队列中优于临床变量和现有特征。高风险评分与免疫抑制特征及对微管和细胞周期靶向药物（包括紫杉醇、伊立替康和ispinesib）的敏感性增强相关。结论：本研究揭示了以TEAD4为中心的内皮程序，该程序促进HCC中的血管生成和MVI。基于机器学习的预后模型为风险评估提供了稳健工具，并可能有助于指导未来靶向内皮信号的治疗策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41664193/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41664193/",
+  "paper_page_path": "papers/pubmed/41664193/index.html"
+}

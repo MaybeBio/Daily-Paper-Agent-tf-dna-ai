@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "37720213",
+    "doi": "10.3389/fimmu.2023.1230027",
+    "title": "Exploring the potential relationship between frozen shoulder and Dupuytren's disease through bioinformatics analysis and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Frozen shoulder (FS) and Dupuytren's disease (DD) are two closely related diseases, but the mechanism of their interaction is unknown. Our study sought to elucidate the molecular mechanism of these two diseases through shared gene and protein interactions. METHODS: GSE75152 and GSE140731 data were downloaded from the Gene Expression Omnibus (GEO) database, and shared genes between FS and DD were selected by using R packages. Then, we used Cytoscape software and the STRING database to produce a protein-protein interaction (PPI) network. Important interaction networks and hub genes were selected through MCODE and cytoHubba algorithms. To explore the potential mechanisms of the development of the two diseases, the hub genes were further enriched by GO and KEGG analyses. We predicted the transcription factors (TFs) of hub genes with Transcriptional Regulatory Relationships Unraveled by Sentence-based Text mining (TRRUST). Moreover, we identified candidate genes for FS with DD with cytoHubba and machine learning algorithms. Finally, we analyzed the role of immunocyte infiltration in FS and constructed the relationship between candidate genes and immunocytes in FS. RESULTS: We identified a total of 321 shared genes. The results of GO and KEGG enrichment of shared genes showed that extracellular matrix and collagen fibril tissue play a certain role in the occurrence and development of disease. According to the importance of genes, we constructed the key PPI network of shared genes and the top 15 hub genes for FS with DD. Then, we predicted that five TFs are related to the hub genes and are highly expressed in the FS group. Machine learning results show that the candidate genes POSTN and COL11A1 may be key for FS with DD. Finally, immune cell infiltration revealed the disorder of immunocytes in FS patients, and expression of candidate genes can affect immunocyte infiltration. CONCLUSION: We identified a PPI network, 15 hub genes, and two immune-related candidate genes (POSTN and COL11A1) using bioinformatics analysis and machine learning algorithms. These genes have the potential to serve as diagnostic genes for FS in DD patients. Furthermore, our study reveals disorder of immunocytes in FS.",
+    "keywords": [
+      "Dupuytren's disease",
+      "diagnosis",
+      "frozen shoulder",
+      "immunocyte infiltration",
+      "machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Dupuytren Contracture/genetics",
+      "Algorithms",
+      "*Bursitis",
+      "Computational Biology",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ouyang, Yulong",
+        "Chen, Shuilin",
+        "Tu, Yuanqing",
+        "Wan, Ting",
+        "Fan, Hao",
+        "Sun, Guicai"
+      ],
+      "short_names": [
+        "Ouyang Y",
+        "Chen S",
+        "Tu Y",
+        "Wan T",
+        "Fan H",
+        "Sun G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Orthopedics, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "The First Clinical Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Orthopedics, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "The First Clinical Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Orthopedics, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "The First Clinical Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Orthopedics, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "The First Clinical Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Orthopedics, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+        "The First Clinical Medical College, Nanchang University, Nanchang, Jiangxi, China.",
+        "Department of Orthopedics, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ouyang, Yulong",
+        "short_name": "Ouyang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+          "The First Clinical Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Shuilin",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+          "The First Clinical Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Tu, Yuanqing",
+        "short_name": "Tu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+          "The First Clinical Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Wan, Ting",
+        "short_name": "Wan T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+          "The First Clinical Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Hao",
+        "short_name": "Fan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China.",
+          "The First Clinical Medical College, Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Guicai",
+        "short_name": "Sun G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Orthopedics, The First Affiliated Hospital of Nanchang University, Nanchang, Jiangxi, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/18 06:42",
+    "fetched_at": "2026-09-29 07:17:46"
+  },
+  "links": {
+    "cites": [
+      "41044206",
+      "40353515",
+      "40042389"
+    ],
+    "refs": [
+      "36551969",
+      "36107255",
+      "36001848",
+      "35930846",
+      "35432196",
+      "34702442",
+      "34589691",
+      "34544860",
+      "34140509",
+      "34111113",
+      "33839742",
+      "33670759",
+      "33391181",
+      "33222263",
+      "32270543",
+      "32083705",
+      "31854470",
+      "30846222",
+      "30692665",
+      "30458798",
+      "29481401",
+      "29242941",
+      "29190116",
+      "29103246",
+      "29094212",
+      "27467239",
+      "27051023",
+      "24664198",
+      "22342364",
+      "21803632",
+      "21732829",
+      "21711521",
+      "21051244",
+      "17993282",
+      "17333122",
+      "17160063",
+      "16460628",
+      "16356983",
+      "12976027",
+      "11307078",
+      "10050242",
+      "7559688",
+      "4245631"
+    ],
+    "similar": [
+      "37720213",
+      "36341343",
+      "36341378",
+      "37250717",
+      "35713363",
+      "30506958",
+      "37386410",
+      "37173673",
+      "35996248",
+      "35154512",
+      "35680809",
+      "36860851",
+      "38169604",
+      "36704339",
+      "26446724",
+      "37671970",
+      "36823662",
+      "35865542",
+      "30002985",
+      "35958412",
+      "34814332",
+      "37325483",
+      "35473522",
+      "36699262",
+      "31688987",
+      "36726122",
+      "38051734",
+      "36882493",
+      "35975032",
+      "38476235",
+      "37717318",
+      "25963801",
+      "33299863",
+      "35637927",
+      "35278479",
+      "35711689",
+      "36104591",
+      "39062507",
+      "35379124",
+      "33280594",
+      "32626989",
+      "37287971",
+      "36470144",
+      "34744455",
+      "36049413",
+      "35368701",
+      "36506310",
+      "29921304",
+      "33240619",
+      "34257537",
+      "35762549",
+      "37503333",
+      "35978028",
+      "19121738",
+      "31987036",
+      "35226761",
+      "33564304",
+      "36798084",
+      "35304503",
+      "37153570",
+      "38615114",
+      "18343292",
+      "35313524",
+      "36642989",
+      "34536521",
+      "37686108",
+      "32008037",
+      "31296227",
+      "36914055",
+      "35795659",
+      "36685864",
+      "37465678",
+      "33282565",
+      "36605987",
+      "37008314",
+      "36044931",
+      "36195955",
+      "30821656",
+      "35307059",
+      "35942760",
+      "35197088",
+      "29760609",
+      "34218797",
+      "35016690",
+      "37264340",
+      "34588861",
+      "34736376",
+      "33102593",
+      "35474355",
+      "32059076",
+      "34758532",
+      "31949544",
+      "37711894",
+      "39290304",
+      "38591204",
+      "38187218",
+      "38368442",
+      "38791423",
+      "21943049",
+      "38130716",
+      "37744379",
+      "38308306",
+      "37555920",
+      "37065487",
+      "38452412",
+      "38686376",
+      "37005401",
+      "38512440",
+      "37391746",
+      "38637751",
+      "38639655",
+      "37032448",
+      "37311930",
+      "37475857",
+      "39397125",
+      "38429902",
+      "38754597",
+      "38809515",
+      "38172110",
+      "37872956",
+      "38778086",
+      "37140844",
+      "38712342",
+      "38229116",
+      "38111702",
+      "39422503",
+      "39269895",
+      "37905958",
+      "38155235",
+      "38617059",
+      "37632764",
+      "38239411",
+      "39382604",
+      "38854307",
+      "38182704",
+      "34983372",
+      "37867954",
+      "37927958",
+      "38658824",
+      "35005554",
+      "37900183",
+      "38424527",
+      "32606417"
+    ],
+    "review": [
+      "37720213",
+      "31688987",
+      "21943049",
+      "38172110",
+      "38617059"
+    ],
+    "pmc": [
+      "10500125"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/bursitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bursitis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37720213/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37720213",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1201",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2023.1230027",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

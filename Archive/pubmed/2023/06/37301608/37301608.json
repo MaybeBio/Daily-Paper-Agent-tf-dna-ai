@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "37301608",
+    "doi": "10.1080/07391102.2023.2214209",
+    "title": "Integrated molecular modeling and dynamics approaches revealed potential natural inhibitors of NF-kappaB transcription factor as breast cancer therapeutics."
+  },
+  "content": {
+    "abstract": "Breast cancer is a silent killer malady among women and a serious economic burden in health care management. A case of breast cancer is diagnosed among women every 19 s, and every 74 s, a woman dies of breast cancer somewhere in the world. Despite the pop-up of progressive research, advanced treatment approaches, and preventive measures, breast cancer remains amplifying ailment. The nuclear factor kappa B (NF-kappaB) is a key transcription factor that links inflammation with cancer and is demonstrated as being involved in the tumorigenesis of breast cancer. The NF-kappaB transcription factor family in mammals consists of five proteins; c-Rel, RelA(p65), RelB, NF-kappaB1(p50), and NF-kappaB2(p52). The antitumor effect of NF-kappaB has also been explored in breast cancer, however, the actual treatment for breast cancer is yet to be discovered. This study is attributed to the identification of novel drug targets against breast cancer by targeting c-Rel, RelA(p65), RelB, NF-kappaB1(p50), and NF-kappaB2(p52) proteins. To identify the putative active compounds, a structure-based 3D pharmacophore model to the protein active site cavity was generated followed by virtual screening, molecular docking, and molecular dynamics (MD) simulation. Initially, a library of 45000 compounds were docked against the target protein and five compounds namely Z56811101, Z653426226, Z1097341967, Z92743432, and Z464101066 were selected for further analysis. The relative binding affinity of Z56811101, Z653426226, Z1097341967, Z92743432, and Z464101066 with NF-kappaB1 (p50), NF-kappaB2 (p52), RelA (p65), RelB, and c-Rel proteins were -6.8, -8, -7.0, -6.9, and -7.2 kcal/mol, respectively which remained stable throughout the simulations of 200 ns. Furthermore, all of these compounds depict maximum drug-like properties. Therefore, the proposed compounds can be a potential candidate for patients with breast cancer, but, experimental validation is needed to ensure their safety.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "Breast cancer",
+      "NF-kappaB",
+      "molecular docking",
+      "molecular dynamic simulation",
+      "structure-based 3D pharmacophore model",
+      "virtual screening"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Female",
+      "*NF-kappa B/metabolism",
+      "NF-kappa B p52 Subunit/metabolism",
+      "*Breast Neoplasms/drug therapy",
+      "Molecular Docking Simulation",
+      "NF-kappa B p50 Subunit/metabolism",
+      "Mammals/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zubair, Muhammad",
+        "Khalil, Sidra",
+        "Rasul, Ijaz",
+        "Nadeem, Habibullah",
+        "Noor, Fatima",
+        "Ahmad, Sajjad",
+        "Alrumaihi, Faris",
+        "Allemailem, Khaled S",
+        "Almatroudi, Ahmad",
+        "Alshehri, Faez Falah",
+        "Alshehri, Zafer Saad"
+      ],
+      "short_names": [
+        "Zubair M",
+        "Khalil S",
+        "Rasul I",
+        "Nadeem H",
+        "Noor F",
+        "Ahmad S",
+        "Alrumaihi F",
+        "Allemailem KS",
+        "Almatroudi A",
+        "Alshehri FF",
+        "Alshehri ZS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bioinformatics and Biotechnology, Government College University, Faisalabad, Pakistan.",
+        "Department of Bioinformatics and Biotechnology, Government College University, Faisalabad, Pakistan.",
+        "Department of Bioinformatics and Biotechnology, Government College University, Faisalabad, Pakistan.",
+        "Department of Bioinformatics and Biotechnology, Government College University, Faisalabad, Pakistan.",
+        "Department of Bioinformatics and Biotechnology, Government College University, Faisalabad, Pakistan.",
+        "Department of Health and Biological Sciences, Abasyn University, Peshawar, Pakistan.",
+        "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraydah, Saudi Arabia.",
+        "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraydah, Saudi Arabia.",
+        "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraydah, Saudi Arabia.",
+        "College of Applied Medical Sciences, Shaqra University, Aldawadmi, Saudi Arabia.",
+        "College of Applied Medical Sciences, Shaqra University, Aldawadmi, Saudi Arabia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zubair, Muhammad",
+        "short_name": "Zubair M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Biotechnology, Government College University, Faisalabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Khalil, Sidra",
+        "short_name": "Khalil S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Biotechnology, Government College University, Faisalabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Rasul, Ijaz",
+        "short_name": "Rasul I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Biotechnology, Government College University, Faisalabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Nadeem, Habibullah",
+        "short_name": "Nadeem H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Biotechnology, Government College University, Faisalabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Noor, Fatima",
+        "short_name": "Noor F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Biotechnology, Government College University, Faisalabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Sajjad",
+        "short_name": "Ahmad S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health and Biological Sciences, Abasyn University, Peshawar, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Alrumaihi, Faris",
+        "short_name": "Alrumaihi F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraydah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Allemailem, Khaled S",
+        "short_name": "Allemailem KS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraydah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Almatroudi, Ahmad",
+        "short_name": "Almatroudi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratories, College of Applied Medical Sciences, Qassim University, Buraydah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alshehri, Faez Falah",
+        "short_name": "Alshehri FF",
+        "identifiers": [],
+        "affiliations": [
+          "College of Applied Medical Sciences, Shaqra University, Aldawadmi, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alshehri, Zafer Saad",
+        "short_name": "Alshehri ZS",
+        "identifiers": [],
+        "affiliations": [
+          "College of Applied Medical Sciences, Shaqra University, Aldawadmi, Saudi Arabia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/11 01:06",
+    "fetched_at": "2026-09-29 01:51:37"
+  },
+  "links": {
+    "cites": [
+      "40894204"
+    ],
+    "refs": [],
+    "similar": [
+      "37301608",
+      "16205698",
+      "20723331",
+      "20694538",
+      "16998793",
+      "21326386",
+      "39337282",
+      "26111978",
+      "19519322",
+      "25727407",
+      "16260626",
+      "17693123",
+      "37694791",
+      "12452071",
+      "20001340",
+      "26147201",
+      "10713699",
+      "35475589",
+      "8921937",
+      "39412374",
+      "17641044",
+      "15214841",
+      "17895971",
+      "26988706",
+      "8676482",
+      "17276423",
+      "8798413",
+      "8152812",
+      "24602731",
+      "23975431",
+      "36706462",
+      "16195333",
+      "25912249",
+      "19664134",
+      "21499820",
+      "26084385",
+      "17008396",
+      "9315679",
+      "30415122",
+      "17292587",
+      "22780967",
+      "19458123",
+      "31134075",
+      "23485337",
+      "9268307",
+      "17698569",
+      "26948423",
+      "27929668",
+      "9450761",
+      "16183169",
+      "36271124",
+      "12657634",
+      "9056676",
+      "34181887",
+      "39278618",
+      "24067962",
+      "9950430",
+      "10469356",
+      "25037120",
+      "15124931",
+      "25255445",
+      "9528780",
+      "10602501",
+      "1588976",
+      "12835724",
+      "9092517",
+      "37671851",
+      "9399940",
+      "10652220",
+      "11334742",
+      "19860880",
+      "12505990",
+      "40715659",
+      "12374738",
+      "31128029",
+      "9596659",
+      "30034228",
+      "26887983",
+      "12847243",
+      "17918744",
+      "8441377",
+      "12556537",
+      "18025803",
+      "22481964",
+      "22083306",
+      "14647412",
+      "34236632",
+      "8709216",
+      "35887342",
+      "30474851",
+      "18321863",
+      "12767057",
+      "12897145",
+      "18462924",
+      "15755876",
+      "12218154",
+      "22734038",
+      "18299388",
+      "10595582",
+      "8413211"
+    ],
+    "review": [
+      "37301608",
+      "20723331",
+      "19519322",
+      "17693123",
+      "15214841",
+      "36706462",
+      "34181887",
+      "22481964"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2023.2214209?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD40-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

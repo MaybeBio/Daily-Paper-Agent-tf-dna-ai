@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "42270879",
+    "doi": "10.1007/s10753-026-02521-7",
+    "title": "Multi-omics Integration of Single-cell and Spatial Transcriptomics with Tissue and Urine Proteomics Identifies TRIM28 as a Translationally Relevant Candidate Regulator in Acute Kidney Injury."
+  },
+  "content": {
+    "abstract": "Acute kidney injury (AKI) lacks disease-modifying therapies, partly because cell type-specific injury programs remain incompletely resolved and tissue mechanisms are not readily translated into clinically accessible biomarkers. We constructed a cross-scale, multi-omics atlas to prioritize candidate regulator linking renal injury circuitry with urine-detectable signals. Human single-cell, bulk, and spatial transcriptomics were integrated with mouse renal ischemia-reperfusion injury (RIRI) kidney proteomics and clinical urine proteomics. Overlap of differentially expressed genes and differentially abundant proteins nominated candidates, which were ranked by a random forest model. Immune remodeling was assessed by deconvolution and pathway enrichment, with spatial localization supported by reference-based deconvolution. Therapeutic tractability was explored by structure-based virtual screening, molecular docking, molecular dynamics simulation, and cellular thermal shift assay (CETSA). TRIM28 was evaluated in HK-2 hypoxia/reoxygenation (H/R) and mouse RIRI models using genetic perturbation, expression validation, and in vitro pharmacologic evaluation. Integration converged on five genes (TRIM28, HNRNPH1, ARHGEF10L, C1RL, and UCHL3), with TRIM28 showing the highest feature importance and links to inflammatory, immune, metabolic, and proliferative programs. AKI exhibited intensified intercellular communication and an innate-skewed immune landscape. TRIM28 was robustly upregulated in HK-2 H/R and mouse RIRI kidneys and was also directly detected in the human urine proteome. In HK-2 cells, TRIM28 knockdown dampened, whereas overexpression amplified, IL-17-linked inflammatory signaling and apoptotic responses. Docking-prioritized HY-N10592 improved viability, reduced H/R-associated TRIM28 induction, IL-17-linked output, and apoptotic marker activation, and showed CETSA-supported cellular engagement of TRIM28. This integrative framework prioritizes TRIM28 as a candidate regulator linking tubular injury mechanisms with clinically relevant urinary signals and nominates HY-N10592 as a candidate chemical tool with CETSA-supported cellular target engagement for further mechanistic and in vivo evaluation in AKI.",
+    "keywords": [
+      "Acute kidney injury",
+      "Multi-omics integration",
+      "Single-cell RNA sequencing",
+      "Spatial transcriptomics",
+      "TRIM28"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "Mice",
+      "*Proteomics/methods",
+      "*Acute Kidney Injury/metabolism/genetics/urine/pathology",
+      "Spatial Transcriptomics",
+      "Multiomics",
+      "*Tripartite Motif-Containing Protein 28/genetics/metabolism/urine",
+      "Reperfusion Injury/metabolism/genetics",
+      "Male",
+      "Single-Cell Gene Expression Analysis",
+      "Mice, Inbred C57BL",
+      "Biomarkers/urine"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Kangyu",
+        "Wang, Hao",
+        "Zhang, Yalong",
+        "Zhang, Zijian",
+        "Xu, Changhong",
+        "Zhao, Hong",
+        "Ma, Jiaxuan",
+        "Man, Jiangwei",
+        "Yang, Li"
+      ],
+      "short_names": [
+        "Wang K",
+        "Wang H",
+        "Zhang Y",
+        "Zhang Z",
+        "Xu C",
+        "Zhao H",
+        "Ma J",
+        "Man J",
+        "Yang L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China.",
+        "Institute of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, China.",
+        "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China.",
+        "Institute of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, China.",
+        "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China.",
+        "Institute of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, China.",
+        "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China.",
+        "Institute of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, China.",
+        "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China.",
+        "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China.",
+        "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China.",
+        "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China. 1592944310@qq.com.",
+        "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China. ery_yangli@lzu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Kangyu",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China.",
+          "Institute of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hao",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China.",
+          "Institute of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yalong",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China.",
+          "Institute of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zijian",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China.",
+          "Institute of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Changhong",
+        "short_name": "Xu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hong",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Jiaxuan",
+        "short_name": "Ma J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China."
+        ]
+      },
+      {
+        "full_name": "Man, Jiangwei",
+        "short_name": "Man J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China. 1592944310@qq.com."
+        ]
+      },
+      {
+        "full_name": "Yang, Li",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Gansu Province Clinical Research Center for Urinary System Disease, The Second Hospital & Clinical Medical School, Lanzhou University, No.82 Cuyingmen, Chengguan District, Lanzhou, Gansu Province, 730000, China. ery_yangli@lzu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Inflammation"
+    ],
+    "journal_abbrev": [
+      "Inflammation"
+    ],
+    "pub_date": "2026 Jun 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/11 05:41",
+    "fetched_at": "2026-10-01 23:02:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41482144",
+      "41247233",
+      "41208880",
+      "40524023",
+      "40424522",
+      "40091836",
+      "40072400",
+      "39826969",
+      "39820353",
+      "39237549",
+      "38765592",
+      "38749845",
+      "38493343",
+      "38241047",
+      "38096046",
+      "38017015",
+      "37468583",
+      "37231261",
+      "37002403",
+      "36941264",
+      "36370105",
+      "36300619",
+      "36085050",
+      "35986026",
+      "35821371",
+      "35658715",
+      "35398477",
+      "35285797",
+      "34853151",
+      "34605781",
+      "34316068",
+      "34003797",
+      "33812488",
+      "33603203",
+      "32129078",
+      "31974247",
+      "25822800",
+      "16199517"
+    ],
+    "similar": [
+      "42270879",
+      "40848967",
+      "41611834",
+      "41482144",
+      "42435052",
+      "40783104",
+      "42576380",
+      "41797698",
+      "38368866",
+      "41656809",
+      "41716413",
+      "42591226",
+      "40220406",
+      "39820927",
+      "41186507",
+      "42166861",
+      "41984183",
+      "42121010",
+      "39780569",
+      "41707742",
+      "39889489",
+      "41303615",
+      "35841017",
+      "41534628",
+      "41241671",
+      "40864881",
+      "41747788",
+      "41065914",
+      "41939867",
+      "41905213",
+      "30820607",
+      "39313116",
+      "37083129",
+      "42033502",
+      "42196413",
+      "38412628",
+      "41947228",
+      "32967729",
+      "40682983",
+      "41135953",
+      "39876048",
+      "41650015",
+      "42269280",
+      "39112648",
+      "41254063",
+      "38506705",
+      "41730482",
+      "42135765",
+      "34916780",
+      "39285846",
+      "42154076",
+      "40446579",
+      "40445517",
+      "39707217",
+      "39113797",
+      "40902986",
+      "40767016",
+      "40086516",
+      "41013408",
+      "38347637",
+      "41690037",
+      "38664873",
+      "38584135",
+      "42465778",
+      "40358793",
+      "42249421",
+      "39982410",
+      "41422302",
+      "40523222",
+      "29790387",
+      "38482555",
+      "39439252",
+      "42222936",
+      "32863945",
+      "33758356",
+      "42089792",
+      "30541139",
+      "41736104",
+      "40706563",
+      "40169783",
+      "41694378",
+      "41205031",
+      "32265926",
+      "42134150",
+      "33859745",
+      "41465313",
+      "38961845",
+      "41923163",
+      "41975603",
+      "42315974",
+      "38608473",
+      "42217179",
+      "40331777",
+      "39934788",
+      "36449688",
+      "38710691",
+      "41953035",
+      "38472598",
+      "32423815",
+      "35664065"
+    ],
+    "review": [
+      "42270879"
+    ],
+    "pmc": [
+      "13481470"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42270879/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s10753-026-02521-7",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-446",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "identity": {
+    "pmid": "36674785",
+    "doi": "10.3390/ijms24021270",
+    "title": "Mechanistic Investigation of the Androgen Receptor DNA-Binding Domain and Modulation via Direct Interactions with DNA Abasic Sites: Understanding the Mechanisms Involved in Castration-Resistant Prostate Cancer."
+  },
+  "content": {
+    "abstract": "The androgen receptor (AR) is an important drug target in prostate cancer and a driver of castration-resistant prostate cancer (CRPC). A significant challenge in designing effective drugs lies in targeting constitutively active AR variants and, most importantly, nearly all AR variants lacking the ligand-binding domain (LBD). Recent findings show that an AR's constitutive activity may occur in the presence of somatic DNA mutations within non-coding regions, but the role of these mutations remains elusive. The discovery of new drugs targeting CRPC is hampered by the limited molecular understanding of how AR binds mutated DNA sequences, frequently observed in prostate cancer, and how mutations within the protein and DNA regulate AR-DNA interactions. Using atomistic molecular dynamics (MD) simulations and quantum mechanical calculations, we focused our efforts on (i) rationalising the role of several activating DBD mutations linked to prostate cancer, and (ii) DBD interactions in the presence of abasic DNA lesions, which frequently occur in CRPC. Our results elucidate the role of mutations within DBD through their modulation of the intrinsic dynamics of the DBD-DNA ternary complex. Furthermore, our results indicate that the DNA apurinic lesions occurring in the androgen-responsive element (ARE) enhance direct AR-DNA interactions and stabilise the DBD homodimerisation interface. Moreover, our results strongly suggest that those abasic lesions may form reversible covalent crosslinks between DNA and lysine residues of an AR via a Schiff base. In addition to providing an atomistic model explaining how protein mutations within the AR DNA-binding domain affect AR dimerisation and AR-DNA interactions, our findings provide insight into how somatic mutations occurring in DNA non-coding regions may activate ARs. These mutations are frequently observed in prostate cancer and may contribute to disease progression by enhancing direct AR-DNA interactions.",
+    "keywords": [
+      "DNA-protein adducts",
+      "DNA-protein interactions",
+      "androgen receptor",
+      "castration-resistant prostate cancer",
+      "dimerisation",
+      "molecular dynamics simulations",
+      "protein-protein interactions"
+    ],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "*Receptors, Androgen/metabolism",
+      "*Prostatic Neoplasms, Castration-Resistant/genetics/metabolism",
+      "Androgens/metabolism",
+      "Protein Domains",
+      "DNA/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Shangze",
+        "Kondal, Matthew D",
+        "Ahmad, Ayaz",
+        "Zhu, Ruidi",
+        "Fan, Lanyu",
+        "Zaborniak, Piotr",
+        "Madden, Katrina S",
+        "de Souza, Joao V",
+        "Bronowska, Agnieszka K"
+      ],
+      "short_names": [
+        "Xu S",
+        "Kondal MD",
+        "Ahmad A",
+        "Zhu R",
+        "Fan L",
+        "Zaborniak P",
+        "Madden KS",
+        "de Souza JV",
+        "Bronowska AK"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8736-2298",
+        "ORCID: 0000-0002-3834-148X",
+        "ORCID: 0000-0003-3663-3224"
+      ],
+      "affiliations": [
+        "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK.",
+        "Newcastle University Centre for Cancer, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK.",
+        "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK.",
+        "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK.",
+        "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK.",
+        "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK.",
+        "School of Engineering, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK.",
+        "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK.",
+        "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK.",
+        "Translational and Clinical Research Institute, Newcastle University, Newcastle Upon Tyne NE2 4HH, UK.",
+        "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK.",
+        "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK.",
+        "Newcastle University Centre for Cancer, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Shangze",
+        "short_name": "Xu S",
+        "identifiers": [
+          "0000-0001-8736-2298"
+        ],
+        "affiliations": [
+          "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK.",
+          "Newcastle University Centre for Cancer, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK."
+        ]
+      },
+      {
+        "full_name": "Kondal, Matthew D",
+        "short_name": "Kondal MD",
+        "identifiers": [],
+        "affiliations": [
+          "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Ayaz",
+        "short_name": "Ahmad A",
+        "identifiers": [],
+        "affiliations": [
+          "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK."
+        ]
+      },
+      {
+        "full_name": "Zhu, Ruidi",
+        "short_name": "Zhu R",
+        "identifiers": [],
+        "affiliations": [
+          "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK."
+        ]
+      },
+      {
+        "full_name": "Fan, Lanyu",
+        "short_name": "Fan L",
+        "identifiers": [],
+        "affiliations": [
+          "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK.",
+          "School of Engineering, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK."
+        ]
+      },
+      {
+        "full_name": "Zaborniak, Piotr",
+        "short_name": "Zaborniak P",
+        "identifiers": [],
+        "affiliations": [
+          "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK."
+        ]
+      },
+      {
+        "full_name": "Madden, Katrina S",
+        "short_name": "Madden KS",
+        "identifiers": [
+          "0000-0002-3834-148X"
+        ],
+        "affiliations": [
+          "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK.",
+          "Translational and Clinical Research Institute, Newcastle University, Newcastle Upon Tyne NE2 4HH, UK."
+        ]
+      },
+      {
+        "full_name": "de Souza, João V",
+        "short_name": "de Souza JV",
+        "identifiers": [],
+        "affiliations": [
+          "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK."
+        ]
+      },
+      {
+        "full_name": "Bronowska, Agnieszka K",
+        "short_name": "Bronowska AK",
+        "identifiers": [
+          "0000-0003-3663-3224"
+        ],
+        "affiliations": [
+          "Chemistry-School of Natural and Environmental Sciences, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK.",
+          "Newcastle University Centre for Cancer, Newcastle University, Newcastle Upon Tyne NE1 7RU, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 Jan 9",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/22 06:00",
+    "fetched_at": "2026-09-28 19:15:02"
+  },
+  "links": {
+    "cites": [
+      "41115053",
+      "40949454",
+      "37566072"
+    ],
+    "refs": [
+      "35409187",
+      "34208290",
+      "34032938",
+      "33932781",
+      "33857854",
+      "33778009",
+      "33772030",
+      "33477033",
+      "33450252",
+      "33300995",
+      "33195255",
+      "33087272",
+      "33076388",
+      "32083093",
+      "32047165",
+      "31836830",
+      "30873507",
+      "30287511",
+      "30207593",
+      "29730300",
+      "29562686",
+      "28819638",
+      "28485537",
+      "28187286",
+      "28165461",
+      "28110982",
+      "26619985",
+      "26510590",
+      "25603270",
+      "25184630",
+      "25096064",
+      "24909511",
+      "24556717",
+      "24369694",
+      "24314615",
+      "23545420",
+      "22824207",
+      "22424666",
+      "20943813",
+      "20304998",
+      "19363158",
+      "19010817",
+      "18776186",
+      "15617028",
+      "15264254",
+      "15116359",
+      "15037741",
+      "12089231",
+      "10706109",
+      "10599549",
+      "10354445",
+      "9816170",
+      "9125502",
+      "8744570",
+      "1384741"
+    ],
+    "similar": [
+      "36674785",
+      "23859952",
+      "30165195",
+      "25086042",
+      "35037287",
+      "37460038",
+      "23565754",
+      "29764864",
+      "30128923",
+      "25756511",
+      "24909511",
+      "27179779",
+      "34167949",
+      "24152433",
+      "24002034",
+      "23801747",
+      "36587421",
+      "29988112",
+      "23410127",
+      "25518339",
+      "24662325",
+      "29844167",
+      "23851444",
+      "29249800",
+      "36107320",
+      "22710436",
+      "32002708",
+      "25306226",
+      "27117751",
+      "30297360",
+      "23771019",
+      "27799360",
+      "33384381",
+      "26552607",
+      "30913537",
+      "27550197",
+      "31243151",
+      "31796514",
+      "26331358",
+      "39053630",
+      "35390118",
+      "33332287",
+      "33106406",
+      "26152357",
+      "24948873",
+      "23019221",
+      "30030299",
+      "32226548",
+      "26411689",
+      "29269934",
+      "25375370",
+      "30565725",
+      "28633425",
+      "23989930",
+      "35046557",
+      "24027426",
+      "30209899",
+      "25759396",
+      "29686105",
+      "29258679",
+      "24292680",
+      "32980775",
+      "20823238",
+      "30242112",
+      "30319123",
+      "25518352",
+      "35534851",
+      "27198552",
+      "28105499",
+      "35058329",
+      "25132524",
+      "26690121",
+      "31868960",
+      "33357209",
+      "23386686",
+      "23270728",
+      "23023561",
+      "26847655",
+      "31445027",
+      "26196120",
+      "26573794",
+      "38417290",
+      "34298700",
+      "32097843",
+      "37193651",
+      "35326387",
+      "36720643",
+      "38604378",
+      "35954408",
+      "33938068",
+      "36302916",
+      "34514975",
+      "35447082",
+      "39359255",
+      "34318896",
+      "38831575",
+      "36376977",
+      "38182647",
+      "39208923",
+      "38116409",
+      "38339274",
+      "38661004",
+      "30534631",
+      "38254784",
+      "22842706"
+    ],
+    "review": [
+      "36674785",
+      "23859952",
+      "37460038",
+      "30128923",
+      "24909511",
+      "24152433",
+      "24002034",
+      "36587421",
+      "23410127",
+      "25518339",
+      "25306226",
+      "23771019",
+      "27799360",
+      "33384381",
+      "30913537",
+      "26331358",
+      "39053630",
+      "35390118",
+      "24948873",
+      "30565725",
+      "35046557",
+      "30209899",
+      "29258679",
+      "32980775",
+      "30319123",
+      "26690121",
+      "33357209",
+      "31445027",
+      "26196120",
+      "38417290",
+      "35326387",
+      "35954408",
+      "39359255",
+      "38831575",
+      "36376977",
+      "39208923",
+      "38339274"
+    ],
+    "pmc": [
+      "9864221"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms24021270",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36674785/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36674785",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

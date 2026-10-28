@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "38216534",
+    "doi": "10.1093/bioinformatics/btae013",
+    "title": "Multiomics-integrated deep language model enables in silico genome-wide detection of transcription factor binding site in unexplored biosamples."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Transcription factor binding sites (TFBS) are regulatory elements that have significant impact on transcription regulation and cell fate determination. Canonical motifs, biological experiments, and computational methods have made it possible to discover TFBS. However, most existing in silico TFBS prediction models are solely DNA-based, and are trained and utilized within the same biosample, which fail to infer TFBS in experimentally unexplored biosamples. RESULTS: Here, we propose TFBS prediction by modified TransFormer (TFTF), a multimodal deep language architecture which integrates multiomics information in epigenetic studies. In comparison to existing computational techniques, TFTF has state-of-the-art accuracy, and is also the first approach to accurately perform genome-wide detection for cell-type and species-specific TFBS in experimentally unexplored biosamples. Compared to peak calling methods, TFTF consistently discovers true TFBS in threshold tuning-free way, with higher recalled rates. The underlying mechanism of TFTF reveals greater attention to the targeted TF's motif region in TFBS, and general attention to the entire peak region in non-TFBS. TFTF can benefit from the integration of broader and more diverse data for improvement and can be applied to multiple epigenetic scenarios. AVAILABILITY AND IMPLEMENTATION: We provide a web server (https://tftf.ibreed.cn/) for users to utilize TFTF model. Users can train TFTF model and discover TFBS with their own data.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Multiomics",
+      "Protein Binding",
+      "*Genome",
+      "Transcription Factors/metabolism",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Zikun",
+        "Li, Xin",
+        "Sheng, Lele",
+        "Zhu, Ming",
+        "Lan, Xun",
+        "Gu, Fei"
+      ],
+      "short_names": [
+        "Yang Z",
+        "Li X",
+        "Sheng L",
+        "Zhu M",
+        "Lan X",
+        "Gu F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8834-6377",
+        "ORCID: 0000-0002-6523-046X",
+        "ORCID: 0000-0002-7725-3909"
+      ],
+      "affiliations": [
+        "Damo Academy, Alibaba Group, Hangzhou 310023, China.",
+        "Hupan Lab, Hangzhou 310023, China.",
+        "Damo Academy, Alibaba Group, Hangzhou 310023, China.",
+        "Hupan Lab, Hangzhou 310023, China.",
+        "Damo Academy, Alibaba Group, Hangzhou 310023, China.",
+        "Hupan Lab, Hangzhou 310023, China.",
+        "Department of Basic Medical Science, School of Medicine, Tsinghua University, Beijing 100084, China.",
+        "Tsinghua-Peking Joint Center for Life Sciences, Tsinghua University, Beijing 100084, China.",
+        "MOE Key Laboratory of Bioinformatics, Tsinghua University, Beijing 100084, China.",
+        "Department of Basic Medical Science, School of Medicine, Tsinghua University, Beijing 100084, China.",
+        "Tsinghua-Peking Joint Center for Life Sciences, Tsinghua University, Beijing 100084, China.",
+        "MOE Key Laboratory of Bioinformatics, Tsinghua University, Beijing 100084, China.",
+        "Damo Academy, Alibaba Group, Hangzhou 310023, China.",
+        "Hupan Lab, Hangzhou 310023, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Zikun",
+        "short_name": "Yang Z",
+        "identifiers": [
+          "0000-0002-8834-6377"
+        ],
+        "affiliations": [
+          "Damo Academy, Alibaba Group, Hangzhou 310023, China.",
+          "Hupan Lab, Hangzhou 310023, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xin",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Damo Academy, Alibaba Group, Hangzhou 310023, China.",
+          "Hupan Lab, Hangzhou 310023, China."
+        ]
+      },
+      {
+        "full_name": "Sheng, Lele",
+        "short_name": "Sheng L",
+        "identifiers": [],
+        "affiliations": [
+          "Damo Academy, Alibaba Group, Hangzhou 310023, China.",
+          "Hupan Lab, Hangzhou 310023, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Ming",
+        "short_name": "Zhu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medical Science, School of Medicine, Tsinghua University, Beijing 100084, China.",
+          "Tsinghua-Peking Joint Center for Life Sciences, Tsinghua University, Beijing 100084, China.",
+          "MOE Key Laboratory of Bioinformatics, Tsinghua University, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Lan, Xun",
+        "short_name": "Lan X",
+        "identifiers": [
+          "0000-0002-6523-046X"
+        ],
+        "affiliations": [
+          "Department of Basic Medical Science, School of Medicine, Tsinghua University, Beijing 100084, China.",
+          "Tsinghua-Peking Joint Center for Life Sciences, Tsinghua University, Beijing 100084, China.",
+          "MOE Key Laboratory of Bioinformatics, Tsinghua University, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Fei",
+        "short_name": "Gu F",
+        "identifiers": [
+          "0000-0002-7725-3909"
+        ],
+        "affiliations": [
+          "Damo Academy, Alibaba Group, Hangzhou 310023, China.",
+          "Hupan Lab, Hangzhou 310023, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2024 Jan 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/13 00:42",
+    "fetched_at": "2026-10-04 23:40:25"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "35831531",
+      "34552244",
+      "34282049",
+      "34265844",
+      "34145234",
+      "33934346",
+      "33547334",
+      "33538820",
+      "32905524",
+      "31659164",
+      "31462772",
+      "30675018",
+      "30630522",
+      "30617335",
+      "30559490",
+      "30323286",
+      "29686321",
+      "29617876",
+      "29027162",
+      "28359978",
+      "27479905",
+      "27197224",
+      "27084946",
+      "26301843",
+      "26213851",
+      "26017442",
+      "25249388",
+      "24614316",
+      "24194598",
+      "22955991",
+      "22955984",
+      "22955616",
+      "22936215",
+      "22868264",
+      "22534400",
+      "21330290",
+      "20864494",
+      "19814784",
+      "19736561",
+      "19652015",
+      "19458158",
+      "18798982",
+      "18787082",
+      "17324271",
+      "17320508",
+      "15714199",
+      "12045153",
+      "11782440",
+      "11498575",
+      "9377276"
+    ],
+    "similar": [
+      "38216534",
+      "19586888",
+      "27052996",
+      "38701417",
+      "30380113",
+      "17503375",
+      "19478006",
+      "24564945",
+      "24386279",
+      "24564277",
+      "23281809",
+      "30447332",
+      "20827589",
+      "24927817",
+      "20056654",
+      "37099664",
+      "18485226",
+      "25853282",
+      "23282203",
+      "19633094",
+      "27106869",
+      "39107889",
+      "21177332",
+      "17914226",
+      "20360861",
+      "29757349",
+      "28849563",
+      "38940155",
+      "22748199",
+      "28257835",
+      "27209209",
+      "23175603",
+      "24926895",
+      "12370781",
+      "28881989",
+      "15865625",
+      "36719906",
+      "24586611",
+      "15053842",
+      "22073148",
+      "18205600",
+      "27567672",
+      "21780002",
+      "25682954",
+      "22672438",
+      "26130577",
+      "15941617",
+      "20193056",
+      "21059262",
+      "21193520",
+      "28472433",
+      "25918418",
+      "27896980",
+      "15699025",
+      "17993690",
+      "34272562",
+      "36057196",
+      "16362907",
+      "18712306",
+      "33137083",
+      "21912677",
+      "28623591",
+      "20158869",
+      "19811641",
+      "16362910",
+      "21533218",
+      "23272209",
+      "34448158",
+      "20827595",
+      "34488759",
+      "24608116",
+      "24091402",
+      "31001412",
+      "29441061",
+      "19264796",
+      "18546507",
+      "39227799",
+      "23805837",
+      "16922688",
+      "17688316",
+      "15166027",
+      "33216750",
+      "36082286",
+      "25387969",
+      "30736359",
+      "27557775",
+      "28334916",
+      "23935523",
+      "18053230",
+      "20375458",
+      "39062464",
+      "25268582",
+      "12176838",
+      "32944665",
+      "17973026",
+      "15807889",
+      "20875111",
+      "38732207",
+      "23617301",
+      "25521507"
+    ],
+    "review": [
+      "38216534",
+      "19586888",
+      "30447332",
+      "37099664",
+      "18205600"
+    ],
+    "pmc": [
+      "10812877"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38216534.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38216534/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38216534",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btae013",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

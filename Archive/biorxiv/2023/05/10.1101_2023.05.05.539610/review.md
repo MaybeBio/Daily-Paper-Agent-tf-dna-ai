@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, data availability, funding, key points, and figure/table legends. No figures, tables, or supplementary files were provided.
+- **Assessment boundary** Scientific claims, methodological soundness, data interpretation, and presentation quality as inferable from the text alone. Structural biology and computational docking results are assessed only through textual descriptions.
+- **Shared manuscript claim summary** The authors present a computational pipeline for predicting 3D structures of 732 transcription factor fusion proteins (TFFPs) using AlphaFold2, identifying retained DNA-binding domains, and performing virtual screening against FDA-approved drugs. They report top drug candidates for five frequent TFFPs and compare whole-structure-based versus domain-based active site screening.
+- **Visible evidence base** Text descriptions of results, methods, and supplementary table/figure legends. No primary data, structures, docking scores, or simulation trajectories were available for independent verification.
+- **Missing materials affecting confidence** All figures, tables, and supplementary files are absent. This includes Figure 1A-F, Figure 2A-D, Figure 3A-B, Figure 4A-C, Table 1, Supplementary Tables S1-S3, and Supplementary Figures S1-S5. Without these, quantitative claims cannot be verified.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a potentially useful computational resource and pipeline for studying transcription factor fusion proteins. The concept of using whole-protein structures rather than isolated domains for virtual screening is reasonable and addresses a real gap. However, the current text provides insufficient detail and evidence to evaluate the technical quality of the predictions, the validity of the screening approach, or the biological relevance of the proposed drug candidates. Several claims appear overstated relative to the evidence presented. The manuscript would benefit from clearer presentation of validation metrics, more rigorous comparison with existing methods, and careful editing to correct inconsistencies and incomplete sentences.
+- **Who would be interested in the results, and why** Researchers working on fusion genes in cancer, computational drug repurposing, and structural biology of transcription factors would find this resource potentially valuable. The TFFP structure database and the screening pipeline could serve as a starting point for experimental validation studies. Clinicians interested in targeted therapies for fusion-driven cancers might also find the drug candidate predictions relevant, though they would require substantial experimental follow-up.
+- **Major strengths** The manuscript addresses an understudied class of drug targets, namely transcription factor fusion proteins. The use of AlphaFold2 for whole-protein structure prediction is timely and appropriate. The comparison between whole-structure-based and domain-based active site screening is a useful conceptual contribution. The focus on FDA-approved drugs for repurposing has practical translational potential.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that predicted 3D structures of 732 TFFPs have "good pLDDT scores, which are larger than 50" and that RMSD values against known structures are "less than 2.0 Å, corresponding to reasonable docking solutions."
+  - **Evidence pointer** Results section, Figure 2A-C; location not provided
+  - **Concern** The manuscript provides only aggregate statements about structure quality. No distribution data, per-structure scores, or specific RMSD values are shown in the text. The claim that RMSD less than 2.0 Å corresponds to "reasonable docking solutions" is not a standard criterion for structure validation. AlphaFold2 pLDDT scores above 50 are generally considered low confidence for many applications, and the threshold for "good" structures is typically higher, especially for docking studies.
+  - **Why it matters** The entire downstream virtual screening depends on the quality of the predicted structures. If structures are inaccurate, the active site predictions and docking results are unreliable. The current evidence is insufficient to establish that the structures are suitable for the intended use.
+  - **Resolution test** Provide per-protein pLDDT distributions, the number of structures exceeding various confidence thresholds, and RMSD values for all five benchmark proteins with clear alignment methods. Justify the pLDDT threshold used and demonstrate that the structures are suitable for docking through comparison with experimental structures or other validation approaches.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that virtual screening was performed between 732 TFFPs and FDA-approved drugs, and that top drug candidates were identified for five frequent TFFPs.
+  - **Evidence pointer** Results section, Figure 3A-B, Table 1, Supplementary Tables S3A-C; location not provided
+  - **Concern** The virtual screening methodology is described only briefly. No docking scores, enrichment metrics, or validation of the screening protocol are presented in the text. The comparison between whole-structure and domain-based screening shows only one common drug in the top 10 lists, but the significance of this difference is not discussed. The selection criteria for "chosen cancer-associated drugs" are not stated.
+  - **Why it matters** Virtual screening results are highly dependent on scoring functions, active site definitions, and ligand preparation. Without validation against known binders or decoy sets, the reported drug candidates cannot be assessed for reliability. The lack of methodological detail prevents reproduction.
+  - **Resolution test** Provide complete docking scores for all top candidates, describe the validation of the screening protocol (e.g., enrichment calculations, known inhibitor recovery), and clearly state the criteria for selecting candidate drugs for each fusion protein.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "our study will provide an initial platform to develop novel therapeutic targets in the transcription factor fusion proteins" and that the identified drugs are "potential drug repurposing" candidates.
+  - **Evidence pointer** Abstract, Discussion; location not provided
+  - **Concern** The biological rationale for targeting these specific fusion proteins is not developed. The authors do not explain why the five selected TFFPs are the most clinically relevant or how the proposed drugs would modulate oncogenic activity. The connection between predicted binding and functional inhibition is not established. The discussion acknowledges the lack of experimental validation but does not propose a clear path forward.
+  - **Why it matters** For a resource paper, the translational relevance must be clearly articulated. Without a biological framework, the drug candidates remain computational predictions of uncertain significance. The claim of providing a "platform" requires more than structure prediction and docking; it requires demonstration that the approach can identify biologically meaningful interactions.
+  - **Resolution test** Provide a clear biological rationale for each of the five TFFPs, including known roles in cancer, and discuss how the proposed drugs might affect fusion protein function. If possible, include known interactors or pathway information to support the relevance of the predicted drug targets.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "63 and 45 TF fusion genes that have TFs in their 5'- and 3'-partner genes, there were 450 and 364 known target genes, respectively, according to the TF-target pair information of the TRRUST database" and that "out of 450 target genes of the 5'-TFs, there were 362 cancer gene census (CGC) genes, and out of 364 target genes of the 3'-TFs, there were 128 IUPHAR drug targets."
+  - **Evidence pointer** Results section, Figure 1F, Supplementary Table S2; location not provided
+  - **Concern** The statistical significance of these enrichments is not assessed. The authors do not report expected values or enrichment p-values. The comparison between 5'- and 3'-partner TFs is descriptive only. The relevance of these target gene statistics to the drug screening results is not explained.
+  - **Why it matters** The enrichment of cancer genes among TF targets could be an important observation, but without statistical context, it is unclear whether this is meaningful or expected. The connection between these target gene analyses and the virtual screening results is not made explicit.
+  - **Resolution test** Provide enrichment analyses with appropriate background sets and statistical tests. Explain how these target gene statistics inform the drug screening strategy or the selection of fusion proteins for detailed analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section, subsection on virtual screening
+  - **Evidence pointer** "The docking scores of the top 10 interacting FDA-approved drugs interacting with the predicted active sites ranged between -7.41596 and -6.56428" and "The docking scores in the first screening ranged from -5.91 to -5.11. One of the top 10 drugs. The docking scores in the second screening ranged from -4.77 to -4.34."
+  - **Issue** The sentence "One of the top 10 drugs" is incomplete and appears to be a fragment. The text is unclear about which drug is being discussed and what the comparison means.
+  - **Required correction** Complete the sentence and clarify which drug is being referenced. Ensure all numerical values are presented consistently with appropriate units and context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion section
+  - **Evidence pointer** "In this study, We tried to develop a computational pipeline of the drug development of transcription factor fusion proteins."
+  - **Issue** The capitalization of "We" is inconsistent. The sentence structure is awkward and could be clearer.
+  - **Required correction** Revise for clarity and consistency. For example, "In this study, we developed a computational pipeline for drug development targeting transcription factor fusion proteins."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section, molecular dynamics simulation
+  - **Evidence pointer** "The system was neutralized by balancing the net charge of the system by adding three Cl-counter ions."
+  - **Issue** The number of counter ions should depend on the net charge of the system, which is not stated. The description is vague and may not be reproducible.
+  - **Required correction** Specify the net charge of the system and the number of ions added. Provide details on the salt concentration and simulation parameters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section, subsection on domain retention
+  - **Evidence pointer** "Figure 1D shows the conceptual image of the general mechanism of action of the transcription factor fusion genes. If a fusion protein retains the DNA binding domain (DBD) binding to its target genes' promoter regions."
+  - **Issue** The second sentence is a fragment and does not form a complete thought. The connection between the conceptual image and the following text is unclear.
+  - **Required correction** Rewrite to form complete sentences. For example, "Figure 1D shows a conceptual model of the mechanism of action of transcription factor fusion genes. If a fusion protein retains the DNA binding domain (DBD), it can bind to the promoter regions of its target genes."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section, subsection on virtual screening
+  - **Evidence pointer** "Among the top ten cancer-context-based drugs, we chose the receptor tyrosine kinase inhibitor, sunitinib, which is under clinical trial (Phase II) in men with advanced prostate cancer, as the potential drug repurposing for TMPRSS2-ERG patient 11."
+  - **Issue** The citation format is unclear. The reference number appears without brackets or parentheses. The rationale for choosing sunitinib over other top candidates is not explained.
+  - **Required correction** Format citations consistently. Provide a brief rationale for drug selection for each of the five fusion proteins.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The structure quality validation, virtual screening methodology, and biological relevance claims require substantial additional evidence and clarification.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of AlphaFold2 to fusion proteins and the comparison of screening strategies is somewhat novel, but the overall approach follows established computational drug repurposing pipelines.
+  - Scientific importance: Moderate. The resource could be useful, but the biological and clinical significance is not convincingly demonstrated.
+  - Interdisciplinary readership: Limited. The manuscript is primarily of interest to computational biologists and cancer researchers. The presentation does not make the work accessible to a broader audience.
+  - Technical soundness: Insufficient evidence. The lack of validation metrics and methodological detail prevents assessment of technical quality.
+  - Readability for nonspecialists: Poor. The text contains incomplete sentences, unclear transitions, and insufficient context for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires major revisions to provide adequate validation of structure predictions, detailed and reproducible virtual screening methodology, and a clearer biological framework for the proposed drug candidates. The authors should also address the incomplete sentences and presentation issues throughout the text.
+
+## Risk / unsupported claims
+- The claim that all 732 predicted structures have "good pLDDT scores" is unsupported without per-structure data.
+- The claim that RMSD values less than 2.0 Å correspond to "reasonable docking solutions" is not a standard validation criterion and is unsupported.
+- The claim that the identified drugs are "potential drug repurposing" candidates is unsupported without experimental validation or strong structural evidence of functional relevance.
+- The claim that the study provides "an initial platform to develop novel therapeutic targets" is overstated given the lack of demonstrated biological relevance.
+- The comparison between whole-structure and domain-based screening is described but not quantitatively supported in the text.
+- The enrichment of cancer genes among TF target genes is reported without statistical significance testing.
+- The selection criteria for the five most frequent TFFPs and the chosen drug candidates are not clearly stated.

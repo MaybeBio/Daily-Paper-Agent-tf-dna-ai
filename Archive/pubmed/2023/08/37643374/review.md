@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose DeepICSH, a deep learning framework integrating multiple biological data sources to identify cell-specific silencers and classify their strength (strong versus weak) in human genome. The framework uses a deep convolutional neural network with attention mechanisms and skip connections. Performance is claimed to exceed state-of-the-art methods on HepG2 and K562 cell line datasets.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, baseline comparisons, or code verification are available
+- **Missing materials affecting confidence** Full methods, model architecture details, hyperparameters, training and validation procedures, dataset composition and preprocessing, baseline definitions, evaluation metrics, statistical significance tests, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful computational framework for a biologically relevant problem. However, the absence of any quantitative results, methodological detail, or validation information in the supplied material prevents assessment of the core claims. The novelty claim regarding multi-omics-based silencer strength classification is interesting but unverifiable from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, gene expression control, and cancer genomics would be interested if the framework performs as claimed. Computational biologists developing deep learning methods for functional genomics would also find the architecture relevant. Clinically oriented groups studying silencer-associated disease variants might benefit from improved cell-specific predictions.
+- **Major strengths** The problem is well motivated, with a clear gap identified in existing sequence-only approaches. The proposed integration of multiple biological signals with attention-based interpretability is conceptually sound. The inclusion of silencer strength classification is a potentially valuable extension beyond existing work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Extensive experiments on HepG2 and K562 cell line data sets demonstrate that DeepICSH outperforms state-of-the-art methods in silencer identification"
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative metrics provided
+  - **Concern** The central performance claim is made without any supporting numbers, baseline names, or statistical measures. No evaluation metrics such as AUC, precision, recall, or F1 are reported. No comparison methods are identified.
+  - **Why it matters** Without quantitative evidence, the claim of outperformance cannot be evaluated. The abstract provides no basis for assessing whether the improvement is meaningful or statistically significant.
+  - **Resolution test** Provide evaluation results in the full manuscript, including metric values, baseline descriptions, and significance testing. The abstract should include at least one representative quantitative result.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "DeepICSH leverages a deep convolutional neural network to automatically capture biologically relevant signal combinations strongly associated with silencers, originating from a diverse array of biological signals"
+  - **Evidence pointer** Abstract only; no architecture description or data source list provided
+  - **Concern** The abstract does not specify which biological signals are used, how they are encoded, or how the convolutional network processes them. The attention mechanism and skip connections are mentioned but their specific roles are not described.
+  - **Why it matters** Reproducibility and assessment of methodological novelty require knowing the input data types, model architecture, and training procedure. Without this, the framework cannot be evaluated or compared.
+  - **Resolution test** Provide a complete methods section with model architecture, input feature definitions, data sources, and training details in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim novelty and validation
+  - **Claim pointer** "we introduce for the first time a deep learning framework based on multi-omics data for classifying strong and weak silencers, achieving favorable performance"
+  - **Evidence pointer** Abstract only; no results for the strength classification task
+  - **Concern** The novelty claim for silencer strength classification is stated without any supporting results. No accuracy, comparison to alternative approaches, or definition of strong versus weak silencers is provided.
+  - **Why it matters** A first-time claim requires clear demonstration that the task is well defined and that the method performs adequately. Without results, the claim is unsubstantiated.
+  - **Resolution test** Provide task definition, dataset labeling criteria, evaluation metrics, and results for the strength classification in the full manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "silencer" is defined as a DNA fragment that suppresses gene expression, but the relationship between silencer strength and biological function is not explained.
+  - **Required correction** Clarify the biological meaning of strong versus weak silencers and how strength is defined or measured.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The code repository is mentioned but no version, license, or dependency information is provided.
+  - **Required correction** Include repository details such as version, license, and key dependencies in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalizability
+  - **Evidence pointer** Abstract, "HepG2 and K562 cell line data sets"
+  - **Issue** Only two cell lines are mentioned, which limits the demonstrated generalizability of the cell-specific approach.
+  - **Required correction** Discuss limitations of the two-cell-line evaluation and any plans for broader validation in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative results, methodological detail, and validation of the novelty claim. These are required to establish the case for the framework's utility and performance.
+- **Assessment against Nature-style criteria** Originality cannot be fully assessed without comparison to prior work and details of the multi-omics integration. Scientific importance is potentially high given the relevance to gene regulation and disease, but this depends on demonstrated performance. Interdisciplinary readership is plausible given the intersection of genomics and deep learning, but the abstract is too vague for nonspecialists to gauge significance. Technical soundness is not assessable from the abstract alone. Readability for nonspecialists is adequate in terms of prose clarity, but the lack of concrete results limits comprehension of the actual contribution.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable idea but provides no verifiable support for the central claims. A supportive stance would require the full manuscript with quantitative results, methodological transparency, and validation of the strength classification novelty.
+
+## Risk / unsupported claims
+- The claim that DeepICSH outperforms state-of-the-art methods is unsupported by any quantitative data in the supplied material.
+- The claim of being the first deep learning framework for silencer strength classification is unverifiable without a literature comparison and task definition.
+- The claim that attention mechanisms facilitate scoring and visualization of signal combinations is not supported by any example or evaluation.
+- The claim that the framework shows promise for advancing study of silencers in complex diseases is speculative without demonstrated biological or clinical relevance.

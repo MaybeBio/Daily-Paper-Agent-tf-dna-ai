@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "35299890",
+    "doi": "10.1155/2022/7173972",
+    "title": "Establishment of a Combined Diagnostic Model of Abdominal Aortic Aneurysm with Random Forest and Artificial Neural Network."
+  },
+  "content": {
+    "abstract": "OBJECTIVES: Abdominal aortic aneurysm (AAA), a disease with high mortality, is limited by the current diagnostic methods in the early screening. This study aimed to screen novel and significant biomarkers and construct a diagnostic model for AAA by using a novel machine learning method, i.e., an ensemble of the random forest (RF) algorithm and artificial neural network (ANN). METHODS AND RESULTS: Through a search of the Gene Expression Omnibus (GEO) database, two large-sample gene expression datasets (GSE57691 and GSE47472) were downloaded and preprocessed. Differentially expressed genes (DEGs) in GSE57691 were identified by R software, followed by Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment using the Database for Annotation, Visualization, and Integrated Discovery (DAVID). Essential metabolic pathways related to positive regulation of cell death and NAD binding were found. Then, RF was used to identify key genes from the DEGs, and an AAA diagnostic model was established by ANN. A transcription factor (TF) regulatory network of key genes related to angiogenesis and endothelial migration was constructed. Finally, a validation dataset was used to validate the model and the area under the receiver operating characteristic curve (AUC) value was high. CONCLUSION: Potential AAA-associated gene biomarkers were identified by RF, and a novel early diagnostic model of AAA was established by ANN. The AUC indicated that the diagnostic model had a highly satisfactory diagnostic performance. In conclusion, this study will provide a promising theoretical basis for further clinical and experimental studies.",
+    "keywords": [],
+    "mesh_terms": [
+      "Aortic Aneurysm, Abdominal/*diagnosis/*genetics",
+      "*Databases, Genetic",
+      "*Diagnosis, Computer-Assisted",
+      "Gene Ontology",
+      "Humans",
+      "Metabolic Networks and Pathways",
+      "*Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Duan, Yixuan",
+        "Xie, Enrui",
+        "Liu, Chang",
+        "Sun, Jingjing",
+        "Deng, Jie"
+      ],
+      "short_names": [
+        "Duan Y",
+        "Xie E",
+        "Liu C",
+        "Sun J",
+        "Deng J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8394-7894",
+        "ORCID: 0000-0001-6216-2097",
+        "ORCID: 0000-0002-1996-7647",
+        "ORCID: 0000-0002-3181-3966",
+        "ORCID: 0000-0002-3691-1717"
+      ],
+      "affiliations": [
+        "Department of Cardiology, Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China.",
+        "Department of Cardiology, Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China.",
+        "Department of Cardiology, Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China.",
+        "Department of Cardiology, Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China.",
+        "Department of Cardiology, Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Duan, Yixuan",
+        "short_name": "Duan Y",
+        "identifiers": [
+          "0000-0002-8394-7894"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Enrui",
+        "short_name": "Xie E",
+        "identifiers": [
+          "0000-0001-6216-2097"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chang",
+        "short_name": "Liu C",
+        "identifiers": [
+          "0000-0002-1996-7647"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Jingjing",
+        "short_name": "Sun J",
+        "identifiers": [
+          "0000-0002-3181-3966"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Jie",
+        "short_name": "Deng J",
+        "identifiers": [
+          "0000-0002-3691-1717"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BioMed research international"
+    ],
+    "journal_abbrev": [
+      "Biomed Res Int"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/19 06:00",
+    "fetched_at": "2026-09-28 06:19:09"
+  },
+  "links": {
+    "cites": [
+      "39944658",
+      "39512836",
+      "39076698",
+      "38050562",
+      "37928383",
+      "37863614",
+      "36836499",
+      "36457739",
+      "36276977"
+    ],
+    "refs": [
+      "34938738",
+      "34840985",
+      "32787523",
+      "31885343",
+      "31242379",
+      "30763214",
+      "30337541",
+      "30122103",
+      "29988820",
+      "29794136",
+      "29669788",
+      "28386685",
+      "28189002",
+      "27871502",
+      "25944698",
+      "25432126",
+      "25131707",
+      "24410865",
+      "21596379",
+      "21215940",
+      "19114008",
+      "19028058",
+      "19001364",
+      "17634102",
+      "16834566",
+      "16497993",
+      "15980585",
+      "15866312",
+      "15684209",
+      "15684208",
+      "12734009",
+      "11752295",
+      "11309760",
+      "9847135"
+    ],
+    "similar": [
+      "35299890",
+      "34139912",
+      "29439675",
+      "36050999",
+      "35381314",
+      "31553078",
+      "34852854",
+      "38050562",
+      "36276977",
+      "38728466",
+      "34355024",
+      "32884937",
+      "35035519",
+      "35769488",
+      "30670912",
+      "37737183",
+      "33407182",
+      "37519764",
+      "38181271",
+      "38070790",
+      "34814367",
+      "36186997",
+      "31730405",
+      "35625787",
+      "31416885",
+      "26498477",
+      "38867262",
+      "25936411",
+      "35694667",
+      "38597081",
+      "29087237",
+      "31545495",
+      "36003956",
+      "35503629",
+      "36042431",
+      "37315377",
+      "32031163",
+      "32626989",
+      "31885343",
+      "38785203",
+      "36213574",
+      "36341412",
+      "38459615",
+      "36017103",
+      "36158807",
+      "35847663",
+      "37185487",
+      "38112597",
+      "34637689",
+      "38100461",
+      "35719407",
+      "32805313",
+      "38482416",
+      "35379119",
+      "38431726",
+      "36545400",
+      "31608184",
+      "35059432",
+      "36247434",
+      "36457739",
+      "33437215",
+      "35874515",
+      "36246599",
+      "17634102",
+      "34233597",
+      "37304552",
+      "34814332",
+      "37964329",
+      "34257537",
+      "29197895",
+      "29845250",
+      "35741697",
+      "34068179",
+      "37244954",
+      "36968608",
+      "28415685",
+      "28347473",
+      "33280594",
+      "30916045",
+      "32493063",
+      "33245093",
+      "35637715",
+      "30365134",
+      "30168505",
+      "31987036",
+      "29512771",
+      "33407587",
+      "38660376",
+      "35836534",
+      "30654001",
+      "31838482",
+      "33640831",
+      "34495251",
+      "28791388",
+      "27667473",
+      "35447046",
+      "38022704",
+      "34358255",
+      "34039311",
+      "34717557",
+      "29257295",
+      "34107850",
+      "34818375",
+      "29568968",
+      "32039711",
+      "39283056",
+      "31989994",
+      "33853709",
+      "31280474",
+      "34271942",
+      "30244948",
+      "31115504",
+      "31703725",
+      "32147961",
+      "32938406",
+      "27157464",
+      "34949204",
+      "30483789",
+      "34553293",
+      "32771051",
+      "32546690",
+      "25118625",
+      "32578582",
+      "34218797",
+      "28983581",
+      "29538353",
+      "32235821",
+      "28453502",
+      "30633343",
+      "27654269",
+      "31011897",
+      "35151267",
+      "36531717",
+      "36879746",
+      "33401250",
+      "36157891",
+      "35958911",
+      "36983630",
+      "38496900",
+      "35224035",
+      "36072674",
+      "36035141",
+      "37359552",
+      "35276459",
+      "35372438",
+      "36505894",
+      "35350240",
+      "39206162",
+      "37671094",
+      "35655614",
+      "36254001",
+      "39155144",
+      "35911385",
+      "38461180",
+      "38239411",
+      "36911406"
+    ],
+    "review": [
+      "35299890",
+      "28347473"
+    ],
+    "pmc": [
+      "8922147"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35299890/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35299890",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/7173972",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

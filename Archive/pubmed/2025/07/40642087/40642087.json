@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "40642087",
+    "doi": "10.3389/fimmu.2025.1572468",
+    "title": "Integrative bioinformatics and machine learning approaches reveal oxidative stress and glucose metabolism related genes as therapeutic targets and drug candidates in Alzheimer's disease."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Alzheimer's disease (AD), the most common form of dementia, has treatments that slow but do not stop cognitive decline. Additional treatments are based on its pathogenic mechanisms are needed. Evidence has long highlighted oxidative stress and impaired glucose metabolism as crucial factors in AD pathogenesis. Therefore, in this study we aimed to find key AD pathogenic pathways combining genes involved in oxidative stress and glucose metabolism as well as potential small-molecule therapeutic agents. METHODS: Using autopsy brain RNA sequencing data (GSE125583) derived from the Arizona Study of Aging and Brain and Body Donation Program, AD-related genes were identified via differential gene expression, pathway and coexpression analysis. Oxidative stress and glucose metabolism genes were correlated to pinpoint module genes. GSE173955 was used an independent dataset was used for validation, conducting molecular docking, assessing hub genes for AD, and integrating machine learning approaches. RESULTS: We identified 13,982 differentially expressed genes (DEGs) in AD patients. Through WGCNA coexpression analysis, 1,068 genes were linked to AD-specific modules. Pearson's correlation analysis highlighted 99 genes involved in oxidative stress and glucose metabolism. Overlap analysis of DEGs, module genes, and these metabolic genes revealed 21 key overlapping targets. PPI network and receiving operating curve (ROC) curve analyses then identified AKT1 and PPARGC1A as diagnostic hub genes for AD. Machine learning-based virtual screening of small molecules identified various inhibitors and enhancers with drug-like potential targeting AKT1 (upregulated) and PPARGC1A (downregulated), respectively. Among others, the Random Forest model was the most reliable for predicting molecular activity. Molecular docking further validated the binding affinities of these small molecules (inhibitors/enhancers) to AKT1 and PPARGC1A. CONCLUSION: This study identified AKT1 and PPARGC1A as potential therapeutic targets in AD. We discovered drug candidates with strong binding affinities, offering new avenues for effective AD treatment strategies.",
+    "keywords": [
+      "Alzheimer's disease",
+      "bioinformatics",
+      "glucose metabolism",
+      "machine learning",
+      "oxidative stress"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Alzheimer Disease/genetics/metabolism/drug therapy",
+      "*Oxidative Stress/genetics",
+      "*Machine Learning",
+      "*Glucose/metabolism",
+      "*Computational Biology/methods",
+      "Molecular Docking Simulation",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Peroxisome Proliferator-Activated Receptor Gamma Coactivator 1-alpha/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Noor, Fatima",
+        "Aslam, Sidra",
+        "Piras, Ignazio S",
+        "Tremblay, Cecilia",
+        "Beach, Thomas G",
+        "Serrano, Geidy E"
+      ],
+      "short_names": [
+        "Noor F",
+        "Aslam S",
+        "Piras IS",
+        "Tremblay C",
+        "Beach TG",
+        "Serrano GE"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Molecular Biology and Biotechnology, The University of Lahore, Lahore, Pakistan.",
+        "Department of Pathology, Banner Sun Health Research Institute, Sun City, AZ, United States.",
+        "Neurogenomics Division, Translational Genomics Research Institute, Phoenix, AZ, United States.",
+        "Department of Pathology, Banner Sun Health Research Institute, Sun City, AZ, United States.",
+        "Department of Pathology, Banner Sun Health Research Institute, Sun City, AZ, United States.",
+        "Department of Pathology, Banner Sun Health Research Institute, Sun City, AZ, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Noor, Fatima",
+        "short_name": "Noor F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology and Biotechnology, The University of Lahore, Lahore, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Aslam, Sidra",
+        "short_name": "Aslam S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Banner Sun Health Research Institute, Sun City, AZ, United States."
+        ]
+      },
+      {
+        "full_name": "Piras, Ignazio S",
+        "short_name": "Piras IS",
+        "identifiers": [],
+        "affiliations": [
+          "Neurogenomics Division, Translational Genomics Research Institute, Phoenix, AZ, United States."
+        ]
+      },
+      {
+        "full_name": "Tremblay, Cecilia",
+        "short_name": "Tremblay C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Banner Sun Health Research Institute, Sun City, AZ, United States."
+        ]
+      },
+      {
+        "full_name": "Beach, Thomas G",
+        "short_name": "Beach TG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Banner Sun Health Research Institute, Sun City, AZ, United States."
+        ]
+      },
+      {
+        "full_name": "Serrano, Geidy E",
+        "short_name": "Serrano GE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Banner Sun Health Research Institute, Sun City, AZ, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/11 06:28",
+    "fetched_at": "2026-09-30 21:26:42"
+  },
+  "links": {
+    "cites": [
+      "41723200"
+    ],
+    "refs": [
+      "38595695",
+      "37031957",
+      "37021492",
+      "36635346",
+      "36299608",
+      "36206930",
+      "35681431",
+      "35615716",
+      "35495164",
+      "34970419",
+      "34588861",
+      "34043283",
+      "33431044",
+      "33393349",
+      "32610143",
+      "31782132",
+      "31410002",
+      "31013638",
+      "30737462",
+      "30545857",
+      "30208700",
+      "29860391",
+      "28710774",
+      "28649128",
+      "28566965",
+      "27233446",
+      "25915600",
+      "25618350",
+      "25613900",
+      "22290178",
+      "21147038",
+      "20926834",
+      "20336061",
+      "19542216",
+      "19273754",
+      "19114008",
+      "18031580",
+      "17017863",
+      "16646834",
+      "16381872",
+      "15876848",
+      "7774014"
+    ],
+    "similar": [
+      "40642087",
+      "41009659",
+      "36635346",
+      "39507054",
+      "41291841",
+      "39890844",
+      "40108056",
+      "40406126",
+      "39730451",
+      "39905093",
+      "37100862",
+      "40671224",
+      "39757625",
+      "39965013",
+      "39210294",
+      "40192032",
+      "41081092",
+      "40328901",
+      "39375405",
+      "40374840",
+      "39920860",
+      "40901474",
+      "41044520",
+      "41115648",
+      "36195955",
+      "34367470",
+      "40574839",
+      "41052072",
+      "39556279",
+      "31346329",
+      "40967560",
+      "40332792",
+      "41300833",
+      "41479901",
+      "41200172",
+      "39819531",
+      "40849369",
+      "39139563",
+      "40685632",
+      "40411685",
+      "40207815",
+      "41316541",
+      "39559355",
+      "40997906",
+      "41006883",
+      "41442003",
+      "40745201",
+      "40977739",
+      "27756223",
+      "39506420",
+      "41317176",
+      "39206894",
+      "39394418",
+      "39919076",
+      "40973872",
+      "35432724",
+      "40207230",
+      "40076442",
+      "40074652",
+      "38915415",
+      "38195609",
+      "41364313",
+      "41146472",
+      "40329774",
+      "40369957",
+      "23850509",
+      "40685483",
+      "40025954",
+      "39556154",
+      "39000042",
+      "37619853",
+      "40766309",
+      "40286336",
+      "39875978",
+      "39844282",
+      "39953505",
+      "39650656",
+      "39697326",
+      "40151199",
+      "37475857",
+      "40186271",
+      "40787447",
+      "37635325",
+      "40247428",
+      "40362669",
+      "40539067",
+      "34414562",
+      "41214111",
+      "40317014",
+      "39188714",
+      "40678591",
+      "41009970",
+      "34326892",
+      "40192506",
+      "41432483",
+      "41300841",
+      "37434203",
+      "39910202",
+      "38141185",
+      "39392030"
+    ],
+    "review": [
+      "40642087",
+      "23850509"
+    ],
+    "pmc": [
+      "12241127"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40642087/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-783",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2025.1572468",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

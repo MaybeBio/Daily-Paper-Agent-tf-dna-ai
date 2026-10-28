@@ -1,0 +1,572 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.23.554389",
+  "title": "Advancing Protein-DNA Binding Site Prediction: Integrating Sequence Models and Machine Learning Classifiers",
+  "doi": "10.1101/2023.08.23.554389",
+  "abstract": "Predicting protein-DNA binding sites is a challenging computational problem in the field of bioinformatics. Identifying the specific residues where proteins bind to DNA is of paramount importance, as it enables the modeling of their interactions and facilitates downstream studies. Nevertheless, the development of accurate and efficient computational methods for this task remains a persistent challenge. Accurate prediction of protein-DNA binding sites has far-reaching implications for understanding molecular mechanisms, disease processes, drug discovery, and synthetic biology applications. It helps bridge the gap between genomics and functional biology, enabling researchers to uncover the intricacies of cellular processes and advance our knowledge of the biological world. The method used to predict DNA binding residues in this study is a potent combination of conventional bioinformatics tools, protein language models, and cutting-edge machine learning and deep learning classifiers. On a dataset of protein-DNA binding sites, our model is meticulously trained, and it is then rigorously examined using several experiments. As indicated by higher predictive behavior with AUC values on two benchmark datasets, the results show superior performance when compared to existing models. The suggested model has a strong capacity for generalization and shows specificity for DNA-binding sites. We further demonstrated the adaptability of our model as a universal framework for binding site prediction by training it on a variety of protein-ligand binding site datasets. In conclusion, our innovative approach for predicting protein-DNA binding residues holds great promise in advancing our understanding of molecular interactions, thus paving the way for several groundbreaking applications in the field of molecular biology and genetics. Our approach demonstrated efficacy and versatility underscore its potential for driving transformative discoveries in biomolecular research.",
+  "authors": [
+    "Taslim Murad",
+    "Prakash Chourasia",
+    "Sarwan Ali",
+    "Murray Patterson"
+  ],
+  "published_date": "2023-08-23",
+  "updated_date": "2023-08-23T19:05:16Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.23.554389",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.23.554389.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            17
+          ]
+        ],
+        "date-time": "2026-09-17T19:42:52Z",
+        "timestamp": 1789674172972,
+        "version": "4.0.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            23
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 50,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                23
+              ]
+            ],
+            "date-time": "2023-08-23T00:00:00Z",
+            "timestamp": 1692748800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Predicting protein-DNA binding sites is a challenging computational problem in the field of bioinformatics. Identifying the specific residues where proteins bind to DNA is of paramount importance, as it enables the modeling of their interactions and facilitates downstream studies. Nevertheless, the development of accurate and efficient computational methods for this task remains a persistent challenge. Accurate prediction of protein-DNA binding sites has far-reaching implications for understanding molecular mechanisms, disease processes, drug discovery, and synthetic biology applications. It helps bridge the gap between genomics and functional biology, enabling researchers to uncover the intricacies of cellular processes and advance our knowledge of the biological world. The method used to predict DNA binding residues in this study is a potent combination of conventional bioinformatics tools, protein language models, and cutting-edge machine learning and deep learning classifiers. On a dataset of protein-DNA binding sites, our model is meticulously trained, and it is then rigorously examined using several experiments. As indicated by higher predictive behavior with AUC values on two benchmark datasets, the results show superior performance when compared to existing models. The suggested model has a strong capacity for generalization and shows specificity for DNA-binding sites. We further demonstrated the adaptability of our model as a universal framework for binding site prediction by training it on a variety of protein-ligand binding site datasets. In conclusion, our innovative approach for predicting protein-DNA binding residues holds great promise in advancing our understanding of molecular interactions, thus paving the way for several groundbreaking applications in the field of molecular biology and genetics. Our approach demonstrated efficacy and versatility underscore its potential for driving transformative discoveries in biomolecular research.</jats:p>",
+      "DOI": "10.1101/2023.08.23.554389",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            23
+          ]
+        ],
+        "date-time": "2023-08-23T19:05:16Z",
+        "timestamp": 1692817516000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 6,
+      "title": [
+        "Advancing Protein-DNA Binding Site Prediction: Integrating Sequence Models and Machine Learning Classifiers"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Taslim",
+          "family": "Murad",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Prakash",
+          "family": "Chourasia",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sarwan",
+          "family": "Ali",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Murray",
+          "family": "Patterson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-6-1"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "121100",
+          "DOI": "10.1016/j.ins.2024.121100",
+          "article-title": "Molecular Se-Quence Classification Using Efficient Kernel Based Embedding",
+          "volume": "679",
+          "year": "2024",
+          "journal-title": "Information Sciences"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ali, S. , Chourasia, P. , and Patterson, M. Pdb2vec: Using 3d Structural Information For Improved Protein Analysis. In Isbra (2023), Pp. 376–386.",
+          "DOI": "10.1007/978-981-99-7074-2_29"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ali, S. , Shabbir, M. , Mansoor, H. , Chourasia, P. , and Patterson, M. Elliptic Geometry-Based Kernel Matrix For Improved Biological Sequence Classification. Knowledge-Based Systems (2024), 112479.",
+          "DOI": "10.1016/j.knosys.2024.112479"
+        },
+        {
+          "issue": "8",
+          "key": "2024100408500952000_2023.08.23.554389v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "2102",
+          "DOI": "10.1093/bioinformatics/btac020",
+          "article-title": "Proteinbert: A Universal Deep-Learning Model Of Protein Sequence and Function",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "12",
+          "key": "2024100408500952000_2023.08.23.554389v2.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "5867",
+          "DOI": "10.1039/c1cs15067g",
+          "article-title": "The Application Of Dna and Rna G-Quadruplexes To Therapeutic Medicines",
+          "volume": "40",
+          "year": "2011",
+          "journal-title": "Chemical Society Reviews"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11010-012-1269-z"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.2943018"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Elnaggar, A. , Heinzinger, M. , et al. Prottrans: Towards Cracking The Language Of Life’S Code Through Self-Supervised Learning. Biorxiv (2021).",
+          "DOI": "10.1101/2020.07.12.199554"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.10",
+          "unstructured": "Grinsztajn, L. , Oyallon, E. , and Varoquaux, G. Why Do Tree-Based Models Still Outperform Deep Learning On Tabular Data? Arxiv Preprint Arxiv:2207.08815 (2022)."
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.11",
+          "unstructured": "Han, W. , Pang, B. , and Wu, Y. N. Robust Transfer Learning With Pretrained Language Models Through Adapters. Arxiv Abs/2108.02340 (2021)."
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He, X. , Zhou, Y. , Zhou, Z. , Bai, S. , and Bai, X. Triplet-Center Loss For Multi-View 3d Object Retrieval. In Proceedings Of The Ieee Conference On Computer Vision And Pattern Recognition (2018), Pp. 1945–1954.",
+          "DOI": "10.1109/CVPR.2018.00208"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-019-2669-9"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.14",
+          "first-page": "583",
+          "article-title": "Using Property Based Sequence Motifs and 3d Modeling To Determine Structure and Functional Regions Of Proteins",
+          "volume": "5",
+          "year": "2004",
+          "journal-title": "Current Medicinal Chemistry 11"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.15",
+          "first-page": "943",
+          "article-title": "Protein-Rna Interactions: A Structural Analysis",
+          "volume": "4",
+          "year": "2001",
+          "journal-title": "Nucleic Acids Research 29"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.16",
+          "unstructured": "Joseph, M. , and Raj, H. Gate: Gated Additive Tree Ensemble For Tabular Classification and Regression. Arxiv Preprint Arxiv:2207.08548 (2022)."
+        },
+        {
+          "issue": "1",
+          "key": "2024100408500952000_2023.08.23.554389v2.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "126",
+          "DOI": "10.1002/prot.23169",
+          "article-title": "A Novel Method For Protein–Protein Interaction Site Prediction Using Phylogenetic Substitution Models",
+          "volume": "80",
+          "year": "2012",
+          "journal-title": "Proteins: Structure, Function, And Bioinformatics"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.18",
+          "first-page": "342",
+          "article-title": "An Evolutionary Trace Method Defines Binding Surfaces Common To Protein Families",
+          "volume": "2",
+          "year": "1996",
+          "journal-title": "Journal Of Molecular Biology 257"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lin, T.-Y. , Goyal, P. , Girshick, R. , He, K. , and Dollár, P. Focal Loss For Dense Object Detection. In Proceedings Of The Ieee International Conference On Computer Vision (2017), Pp. 2980–2988.",
+          "DOI": "10.1109/ICCV.2017.324"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu, Y. , and Tian, B. Protein-Dna Binding Sites Prediction Based On Pre-Trained Protein Language Model and Contrastive Learning. Arxiv Preprint Arxiv:2306.15912 (2023).",
+          "DOI": "10.1093/bib/bbad488"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.21",
+          "unstructured": "Malinin, A. , Prokhorenkova, L. , and Ustimenko, A. Uncertainty In Gradient Boost-Ing Via Ensembles. In International Conference On Learning Representations (Iclr) (2021)."
+        },
+        {
+          "issue": "10",
+          "key": "2024100408500952000_2023.08.23.554389v2.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "3633",
+          "DOI": "10.1007/s10994-023-06371-4",
+          "article-title": "Spike2cgr: An Efficient Method For Spike Sequence Classification Using Chaos Game Representation",
+          "volume": "112",
+          "year": "2023",
+          "journal-title": "Machine Learning"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "666",
+          "DOI": "10.1016/j.procs.2023.08.204",
+          "article-title": "A New Direction In Membranolytic Anticancer Peptides Classification: Combining Spaced K-Mers With Chaos Game Representation",
+          "volume": "222",
+          "year": "2023",
+          "journal-title": "Procedia Computer Science"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Murad, T. , Ali, S. , and Patterson, M. Weighted Chaos Game Representation For Molecular Sequence Classification. In Pacific-Asia Conference On Knowledge Discovery And Data Mining (2024), Pp. 234–245.",
+          "DOI": "10.1007/978-981-97-2238-9_18"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.25",
+          "unstructured": "Murad, T. , Chourasia, P. , Ali, S. , and Patterson, M. Dance: Deep Learning-Assisted Analysis Of Protein Sequences Using Chaos Enhanced Kaleidoscopic Images. Arxiv Preprint Arxiv:2409.06694 (2024)."
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-020-02238-2"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Patiyal, S. , et al. A Deep Learning-Based Method For The Prediction Of Dna Interacting Residues In A Protein. Briefings In Bioinformatics 23, 5 (2022), Bbac322.",
+          "DOI": "10.1093/bib/bbac322"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.28",
+          "first-page": "447",
+          "article-title": "Accurate Inference Of Transcription Factor Binding From Dna Sequence and Chromatin Accessibility Data",
+          "volume": "3",
+          "year": "2011",
+          "journal-title": "Genome Research 21"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.29",
+          "first-page": "409",
+          "article-title": "Dynamics Of Dna Damage Response Proteins At Dna Breaks: A Focus On Protein Modifications",
+          "volume": "5",
+          "year": "2011",
+          "journal-title": "Genes & Development 25"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/322697a0"
+        },
+        {
+          "issue": "7",
+          "key": "2024100408500952000_2023.08.23.554389v2.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "2428",
+          "DOI": "10.1016/j.jmb.2020.02.026",
+          "article-title": "Prona2020 Predicts Protein–Dna, Protein–Rna, and Protein–Protein Binding Proteins and Residues From Sequence",
+          "volume": "432",
+          "year": "2020",
+          "journal-title": "Journal Of Molecular Biology"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.psychres.2021.114135"
+        },
+        {
+          "issue": "3",
+          "key": "2024100408500952000_2023.08.23.554389v2.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "5194",
+          "DOI": "10.3390/ijms16035194",
+          "article-title": "An Overview Of The Prediction Of Protein Dna-Binding Sites",
+          "volume": "16",
+          "year": "2015",
+          "journal-title": "International Journal Of Molecular Sciences"
+        },
+        {
+          "issue": "6",
+          "key": "2024100408500952000_2023.08.23.554389v2.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "930",
+          "DOI": "10.1093/bioinformatics/bty756",
+          "article-title": "Improving The Prediction Of Protein– Nucleic Acids Binding Residues Via Multiple Sequence Profiles and The Consensus Of Complementary Methods",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tatarinova, T. V. , Chekalin, E. , Nikolsky, Y. , Bruskin, S. A. , Chebotarov, D. , Mcnally, K. L. , and Alexandrov, N. N. Nucleotide Diversity Analysis Highlights Functionally Important Genomic Regions. Scientific Reports 6 (2016).",
+          "DOI": "10.1038/srep35730"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "107956",
+          "DOI": "10.1016/j.compbiomed.2024.107956",
+          "article-title": "Pseaac2vec Protein Encoding For Tcr Protein Sequence Classification",
+          "volume": "170",
+          "year": "2024",
+          "journal-title": "Computers In Biology And Medicine"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.37",
+          "unstructured": "Van Der M. L. , and Hinton, G. Visualizing Data Using T-Sne. Journal Of Machine Learning Research (Jmlr) 9, 11 (2008)."
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "669595",
+          "DOI": "10.3389/fnins.2021.669595",
+          "article-title": "Predicting Brain Amyloid Using Multivariate Morphometry Statistics, Sparse Coding, and Correntropy: Validation In 1,101 Individuals From The Adni and Oasis Databases",
+          "volume": "15",
+          "year": "2021",
+          "journal-title": "Frontiers In Neuroscience"
+        },
+        {
+          "issue": "9",
+          "key": "2024100408500952000_2023.08.23.554389v2.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "E51",
+          "DOI": "10.1093/nar/gkab044",
+          "article-title": "Graphbind: Protein Structural Context Embedded Rules Learned By Hierarchical Graph Neural Networks For Recognizing Nucleic-Acid-Binding Residues",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.40",
+          "first-page": "3067",
+          "article-title": "Small-Molecule Binding Sites To Explore Protein-Protein Interactions In The Cancer Proteome",
+          "volume": "10",
+          "year": "2016",
+          "journal-title": "Molecular Biosystems 12"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-7-1"
+        },
+        {
+          "issue": "10",
+          "key": "2024100408500952000_2023.08.23.554389v2.42",
+          "first-page": "E84",
+          "article-title": "Drnapred, Fast Sequence-Based Method That Accurately Predicts and Discriminates Dna-And Rna-Binding Residues",
+          "volume": "45",
+          "year": "2017",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "D1096",
+          "DOI": "10.1093/nar/gks966",
+          "article-title": "Biolip: A Semi-Manually Curated Database For Biologically Relevant Ligand–Protein Interactions",
+          "volume": "41",
+          "year": "2012",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, J. , Chen, Q. , and Liu, B. Ncbrpred: Predicting Nucleic Acid Binding Residues In Proteins Based On Multilabel Learning. Briefings In Bioinformatics 22, 5 (2021), Bbaa397.",
+          "DOI": "10.1093/bib/bbaa397"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbx168"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "1184",
+          "DOI": "10.1109/TCBB.2018.2819660",
+          "article-title": "High-Order Convolutional Neural Network Architecture For Predicting Dna-Protein Binding Sites",
+          "volume": "16",
+          "year": "2019",
+          "journal-title": "Ieee/Acm Transactions On Computational Biology And Bioinformatics"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "417",
+          "DOI": "10.1016/j.csbj.2020.02.008",
+          "article-title": "Exploring The Computational Methods For Proteinligand Binding Site Prediction",
+          "volume": "18",
+          "year": "2020",
+          "journal-title": "Computational And Structural Biotechnology Journal"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg.2016.83"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.8b00749"
+        },
+        {
+          "key": "2024100408500952000_2023.08.23.554389v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2017.10.010"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.08.23.554389",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:06:53Z",
+        "timestamp": 1768453613000
+      },
+      "score": 197.95944,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.08.23.554389"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            23
+          ]
+        ]
+      },
+      "references-count": 50,
+      "URL": "https://doi.org/10.1101/2023.08.23.554389",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            23
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

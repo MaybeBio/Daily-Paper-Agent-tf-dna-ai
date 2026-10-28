@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "38972525",
+    "doi": "10.1016/j.jep.2024.118517",
+    "title": "Proteomic and lipidomic analysis of the mechanism underlying astragaloside IV in mitigating ferroptosis through hypoxia-inducible factor 1alpha/heme oxygenase 1 pathway in renal tubular epithelial cells in diabetic kidney disease."
+  },
+  "content": {
+    "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: The limitations of modern medicine in mitigating the pathological process of diabetic kidney disease (DKD) necessitate novel, precise, and effective prevention and treatment methods. Huangqi, the root of Astragalus membranaceus Fisch. ex Bunge has been used in traditional Chinese medicine for various kidney ailments. Astragaloside IV (AS-IV), the primary pharmacologically active compound in A. membranaceus, is involved in lipid metabolism regulation; however, its potential in ameliorating renal damage in DKD remains unexplored. AIM OF THE STUDY: To elucidate the specific mechanism by which AS-IV moderates DKD progression. MATERIALS AND METHODS: A murine model of DKD and high glucose-induced HK-2 cells were treated with AS-IV. Furthermore, multiomics analysis, molecular docking, and molecular dynamics simulations were performed to elucidate the mechanism of action of AS-IV in DKD, which was validated using molecular biological methods. RESULTS: AS-IV regulated glucose and lipid metabolism in DKD, thereby mitigating lipid deposition in the kidneys. Proteomic analysis identified 12 proteins associated with lipid metabolism regulated by AS-IV in the DKD renal tissue. Additionally, lipid metabolomic analysis revealed that AS-IV upregulated and downregulated 4 beneficial and 79 harmful lipid metabolites, respectively. Multiomics analysis further indicated a positive correlation between the top-ranked differential protein heme oxygenase (HMOX)1 and the levels of various harmful lipid metabolites and a negative correlation with the levels of beneficial lipid metabolites. Furthermore, enrichment of both ferroptosis and hypoxia-inducible factor (HIF)-1 signaling pathways during the AS-IV treatment of DKD was observed using proteomic analysis. Validation results showed that AS-IV effectively reduced ferroptosis in DKD-affected renal tubular epithelial cells by inhibiting HIF-1alpha/HMOX1 pathway activity, upregulating glutathione peroxidase-4 and ferritin heavy chain-1 expression, and downregulating acyl-CoA synthetase long-chain family member-4 and transferrin receptor-1 expression. Our findings demonstrate the potential of AS-IV in mitigating DKD pathology by downregulating the HIF-1alpha/HMOX1 signaling pathway, thereby averting ferroptosis in renal tubular epithelial cells. CONCLUSIONS: AS-IV is a promising treatment strategy for DKD via the inhibition of ferroptosis in renal tubular epithelial cells. The findings of this study may help facilitate the development of novel therapeutic strategies.",
+    "keywords": [
+      "Astragaloside IV",
+      "Diabetic kidney disease",
+      "Ectopic lipid deposition",
+      "Ferroptosis",
+      "Heme oxygenase 1",
+      "Hypoxia-inducible factor-1"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Male",
+      "Mice",
+      "Cell Line",
+      "Diabetes Mellitus, Experimental/drug therapy/metabolism",
+      "*Diabetic Nephropathies/drug therapy/metabolism",
+      "*Epithelial Cells/drug effects/metabolism",
+      "*Ferroptosis/drug effects",
+      "Heme Oxygenase-1/metabolism",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism",
+      "Kidney Tubules/drug effects/metabolism/pathology",
+      "Lipid Metabolism/drug effects",
+      "Lipidomics",
+      "Mice, Inbred C57BL",
+      "Molecular Docking Simulation",
+      "*Proteomics",
+      "*Saponins/pharmacology",
+      "Signal Transduction/drug effects",
+      "*Triterpenes/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Jun",
+        "Ren, Jing",
+        "Zhou, Linlan",
+        "Tan, Kaiyue",
+        "Du, Donglin",
+        "Xu, Lei",
+        "Cao, Wenfu",
+        "Zhang, Yudi"
+      ],
+      "short_names": [
+        "Liu J",
+        "Ren J",
+        "Zhou L",
+        "Tan K",
+        "Du D",
+        "Xu L",
+        "Cao W",
+        "Zhang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Combination of Chinese and Western Medicine, The First Affiliated Hospital of Chongqing Medical University, No. 1., Youyi Road, Yuanjiagang, Yuzhong District, Chongqing, 400016, PR China. Electronic address: 17843995590@163.com.",
+        "College of Traditional Chinese Medicine, Chongqing Medical and Pharmaceutical College, No. 82, University Town Middle Road, Shapingba District, Chongqing, 401331, PR China. Electronic address: 15320450137@163.com.",
+        "Department of Combination of Chinese and Western Medicine, The First Affiliated Hospital of Chongqing Medical University, No. 1., Youyi Road, Yuanjiagang, Yuzhong District, Chongqing, 400016, PR China. Electronic address: zhoulinlan1235pm@163.com.",
+        "College of Traditional Chinese Medicine, Chongqing Medical University, No. 1, Medical College Road, Yuzhong District, Chongqing, 400016, PR China; Chongqing Key Laboratory of Traditional Chinese Medicine for Prevention and Cure of Metabolic Diseases, Chongqing, 400016, PR China. Electronic address: tankaiyue025@163.com.",
+        "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Chongqing Medical University, No. 1, Youyi Road, Yuanjiagang, Yuzhong District, Chongqing, 400016, PR China. Electronic address: dudonglin20210731@163.com.",
+        "Laboratory Animal Center, Chongqing Medical University, No. 1, Medical College Road, Yuzhong District, Chongqing, 400016, PR China. Electronic address: xulei191052@cqmu.edu.cn.",
+        "Department of Combination of Chinese and Western Medicine, The First Affiliated Hospital of Chongqing Medical University, No. 1., Youyi Road, Yuanjiagang, Yuzhong District, Chongqing, 400016, PR China; College of Traditional Chinese Medicine, Chongqing Medical University, No. 1, Medical College Road, Yuzhong District, Chongqing, 400016, PR China; Chongqing Key Laboratory of Traditional Chinese Medicine for Prevention and Cure of Metabolic Diseases, Chongqing, 400016, PR China. Electronic address: caowenfu20220401@163.com.",
+        "College of Traditional Chinese Medicine, Chongqing Medical University, No. 1, Medical College Road, Yuzhong District, Chongqing, 400016, PR China; Chongqing Key Laboratory of Traditional Chinese Medicine for Prevention and Cure of Metabolic Diseases, Chongqing, 400016, PR China; College of Combination of Chinese and Western Medicine, Chongqing College of Traditional Chinese Medicine, No. 61, Puguobao Road, Bicheng Street, Bishan District, Chongqing, 402760, PR China. Electronic address: perfect0316@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Jun",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Combination of Chinese and Western Medicine, The First Affiliated Hospital of Chongqing Medical University, No. 1., Youyi Road, Yuanjiagang, Yuzhong District, Chongqing, 400016, PR China. Electronic address: 17843995590@163.com."
+        ]
+      },
+      {
+        "full_name": "Ren, Jing",
+        "short_name": "Ren J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Chongqing Medical and Pharmaceutical College, No. 82, University Town Middle Road, Shapingba District, Chongqing, 401331, PR China. Electronic address: 15320450137@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhou, Linlan",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Combination of Chinese and Western Medicine, The First Affiliated Hospital of Chongqing Medical University, No. 1., Youyi Road, Yuanjiagang, Yuzhong District, Chongqing, 400016, PR China. Electronic address: zhoulinlan1235pm@163.com."
+        ]
+      },
+      {
+        "full_name": "Tan, Kaiyue",
+        "short_name": "Tan K",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Chongqing Medical University, No. 1, Medical College Road, Yuzhong District, Chongqing, 400016, PR China; Chongqing Key Laboratory of Traditional Chinese Medicine for Prevention and Cure of Metabolic Diseases, Chongqing, 400016, PR China. Electronic address: tankaiyue025@163.com."
+        ]
+      },
+      {
+        "full_name": "Du, Donglin",
+        "short_name": "Du D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastrointestinal Surgery, The First Affiliated Hospital of Chongqing Medical University, No. 1, Youyi Road, Yuanjiagang, Yuzhong District, Chongqing, 400016, PR China. Electronic address: dudonglin20210731@163.com."
+        ]
+      },
+      {
+        "full_name": "Xu, Lei",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory Animal Center, Chongqing Medical University, No. 1, Medical College Road, Yuzhong District, Chongqing, 400016, PR China. Electronic address: xulei191052@cqmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Cao, Wenfu",
+        "short_name": "Cao W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Combination of Chinese and Western Medicine, The First Affiliated Hospital of Chongqing Medical University, No. 1., Youyi Road, Yuanjiagang, Yuzhong District, Chongqing, 400016, PR China; College of Traditional Chinese Medicine, Chongqing Medical University, No. 1, Medical College Road, Yuzhong District, Chongqing, 400016, PR China; Chongqing Key Laboratory of Traditional Chinese Medicine for Prevention and Cure of Metabolic Diseases, Chongqing, 400016, PR China. Electronic address: caowenfu20220401@163.com."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yudi",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Chongqing Medical University, No. 1, Medical College Road, Yuzhong District, Chongqing, 400016, PR China; Chongqing Key Laboratory of Traditional Chinese Medicine for Prevention and Cure of Metabolic Diseases, Chongqing, 400016, PR China; College of Combination of Chinese and Western Medicine, Chongqing College of Traditional Chinese Medicine, No. 61, Puguobao Road, Bicheng Street, Bishan District, Chongqing, 402760, PR China. Electronic address: perfect0316@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of ethnopharmacology"
+    ],
+    "journal_abbrev": [
+      "J Ethnopharmacol"
+    ],
+    "pub_date": "2024 Nov 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/08 00:42",
+    "fetched_at": "2026-09-29 23:26:15"
+  },
+  "links": {
+    "cites": [
+      "42663285",
+      "42657136",
+      "42602361",
+      "42359338",
+      "42181864",
+      "42146804",
+      "42075804",
+      "42045024",
+      "41625744",
+      "41105819",
+      "41079669",
+      "40810065",
+      "40598250",
+      "40522420",
+      "39815001"
+    ],
+    "refs": [],
+    "similar": [
+      "38972525",
+      "39137626",
+      "33679620",
+      "32473006",
+      "39217653",
+      "37276148",
+      "38062756",
+      "36516169",
+      "38512446",
+      "38776855",
+      "38695335",
+      "35669284",
+      "36581059",
+      "26956696",
+      "32281218",
+      "38626544",
+      "32339782",
+      "38678670",
+      "38403669",
+      "38621945",
+      "38952291",
+      "37150034",
+      "38871033",
+      "38465879",
+      "22707888",
+      "38521426",
+      "37046368",
+      "32558900",
+      "30348828",
+      "32247822",
+      "34801707",
+      "21576377",
+      "38959541",
+      "32920134",
+      "39140974",
+      "35166173",
+      "34295152",
+      "39025289",
+      "36056793",
+      "39041134",
+      "38145959",
+      "37751175",
+      "35962319",
+      "34508760",
+      "38825302",
+      "39106715",
+      "32444604",
+      "34627808",
+      "36764562",
+      "37864898",
+      "38128823",
+      "32515466",
+      "21282369",
+      "30483732",
+      "38725104",
+      "37415103",
+      "30245468",
+      "28538016",
+      "37517171",
+      "33558472",
+      "37891461",
+      "33621200",
+      "38820434",
+      "28497039",
+      "31676796",
+      "30819186",
+      "37552124",
+      "32975326",
+      "37770579",
+      "38558206",
+      "38286833",
+      "38761776",
+      "37030337",
+      "38977343",
+      "32054986",
+      "39154828",
+      "32715764",
+      "38409569",
+      "37933655",
+      "39030535",
+      "36115280",
+      "38735649",
+      "28033563",
+      "33860049",
+      "30396095",
+      "39151712",
+      "21092233",
+      "36440653",
+      "33207934",
+      "27855303",
+      "37100262",
+      "38648891",
+      "24447812",
+      "27729769",
+      "32976829",
+      "36368565",
+      "38691241",
+      "39067746",
+      "38183100",
+      "26979714",
+      "37523837",
+      "38677576",
+      "30324679",
+      "36075517",
+      "35278496",
+      "25692954",
+      "38707616",
+      "29185789",
+      "30899370",
+      "39134988",
+      "38906377",
+      "35498124",
+      "38428828",
+      "38780272",
+      "39348649",
+      "39242661",
+      "39356055",
+      "39135512",
+      "39033829",
+      "39347955",
+      "35913792",
+      "38925041",
+      "39117136",
+      "36316968",
+      "39349238",
+      "38354757",
+      "36589853",
+      "39347495",
+      "39310101",
+      "39255694",
+      "39261453",
+      "39321526",
+      "39037603",
+      "39334338",
+      "36874012",
+      "38496569",
+      "38755664",
+      "39115910",
+      "39389296",
+      "38676722",
+      "38945098",
+      "39326648",
+      "39426490",
+      "38678781",
+      "39307756",
+      "34388243",
+      "36421410",
+      "37952771",
+      "38144814",
+      "39418962",
+      "39094672",
+      "39134684",
+      "39424127",
+      "39169174",
+      "36860636",
+      "39210707",
+      "35548353",
+      "39220983",
+      "39344977",
+      "38816950",
+      "36532744",
+      "39360161",
+      "39398062",
+      "39280181",
+      "39309491",
+      "39240415",
+      "39290278",
+      "39402821"
+    ],
+    "review": [
+      "38972525",
+      "37150034",
+      "28538016",
+      "36115280",
+      "39307756",
+      "37952771",
+      "39094672",
+      "39210707",
+      "39220983",
+      "39240415"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-8741(24)00816-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetickidneyproblems.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetic Kidney Problems"
+      }
+    ],
+    "text_mined": []
+  }
+}

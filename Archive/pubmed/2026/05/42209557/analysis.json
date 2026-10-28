@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42209557",
+  "title": "Segmentation and classification of hippocampal subregions using multi-task generative adversarial networks.",
+  "authors": "Azim, Sayed Mehedi; Kumar, Renuka; Corbett, Brian; Dehzangi, Iman",
+  "journal": "Scientific reports",
+  "published_date": "2026-05-29",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究海马亚区图像分割与分类的生成对抗网络，与蛋白质-DNA互作及TF-DNA结合机制完全无关。",
+  "abstract": "Accurate segmentation and identification of hippocampal subregions are essential for understanding spatial memory, neuronal plasticity, and disease-related alterations in brain architecture. While fluorescent immunohistochemistry (IHC) enables detailed visualization of subregion-specific molecular markers, automated segmentation and classification remain challenging due to staining variability, morphological complexity, and low signal-to-noise ratios. Moreover, the absence of benchmark datasets has hindered the development of computational approaches for the automatic segmentation and identification of hippocampal regions in histological images, which are crucial for streamlining downstream analyses. To address these limitations, we introduce a novel multiplexed murine hippocampal dataset containing images stained with cFos, NeuN, and either DeltaFosB or GAD67, capturing neuronal activity, structural features, and plasticity-associated signals. In parallel, we propose a multitask UNet-based generative adversarial network (MT-UGAN) that simultaneously performs segmentation and classification of hippocampal subregions from murine IHC images. The model leverages a UNet-based GAN architecture with a shared encoder, allowing for feature reuse across both segmentation and classification tasks. Together, the dataset and MT-UGAN establish the first integrated system for automated hippocampal subregion analysis. Experimental results demonstrate that the proposed MT-UGAN significantly outperforms conventional single-task models in both region-wise segmentation and classification performance, achieving a Dice score of 0.82 and classification accuracy of 91.0%. By unifying subregion segmentation and identification, this framework provides a scalable and interpretable solution for automated hippocampal analysis, thereby facilitating downstream analyses in neuroimaging research. To democratize our funding and support further research, we made the curated hippocampal subregion datasets and the proposed MT-UGAN model as a standalone tool publicly available at: https://github.com/MLBC-lab/MT-UGAN .",
+  "abstract_zh": "海马亚区的精确分割与识别对于理解空间记忆、神经元可塑性以及脑结构中与疾病相关的改变至关重要。尽管荧光免疫组织化学（immunohistochemistry, IHC）能够实现亚区特异性分子标记的详细可视化，但由于染色变异性、形态复杂性以及低信噪比，自动化分割和分类仍具挑战性。此外，基准数据集的缺乏阻碍了用于组织学图像中海马区域自动分割与识别的计算方法的发展，而这些方法对于简化下游分析至关重要。为解决这些限制，我们引入了一个新颖的多重小鼠海马数据集，包含以cFos、NeuN以及DeltaFosB或GAD67染色的图像，捕捉神经元活动、结构特征和可塑性相关信号。同时，我们提出了一种基于多任务UNet的生成对抗网络（multitask UNet-based generative adversarial network, MT-UGAN），可同时执行小鼠IHC图像中海马亚区的分割与分类。该模型利用基于UNet的GAN架构，并采用共享编码器，从而在分割和分类任务间实现特征复用。数据集与MT-UGAN共同构成了首个用于自动化海马亚区分析的综合系统。实验结果表明，所提出的MT-UGAN在区域分割和分类性能上均显著优于传统单任务模型，实现了0.82的Dice分数和91.0%的分类准确率。通过统一亚区分割与识别，该框架为自动化海马分析提供了一种可扩展且可解释的解决方案，从而促进神经影像研究中的下游分析。为推动资源共享并支持进一步研究，我们将整理好的海马亚区数据集及所提出的MT-UGAN模型作为独立工具公开提供，网址为：https://github.com/MLBC-lab/MT-UGAN 。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42209557/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42209557/",
+  "paper_page_path": "papers/pubmed/42209557/index.html"
+}

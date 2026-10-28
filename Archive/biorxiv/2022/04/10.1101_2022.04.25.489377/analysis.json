@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.04.25.489377",
+  "title": "Depicting pseudotime-lagged causality across single-cell trajectories for accurate gene-regulatory inference",
+  "authors": "Reagor CC; Velez-Angel N; Hudspeth AJ",
+  "journal": "bioRxiv",
+  "published_date": "2022-04-26",
+  "window": {
+    "start": "2022-04-25",
+    "end": "2022-05-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用CNN从单细胞轨迹推断基因调控关系，虽涉及转录因子-靶基因因果推断，但核心是基因调控网络而非TF-DNA结合位点或互作机制建模，且方法为序列/表达数据深度学习，无三维互作建模，与本课题关联较弱。",
+  "abstract": "Identifying the causal interactions in gene-regulatory networks requires an accurate understanding of the time-lagged relationships between transcription factors and their target genes. Here we describe DELAY, a convolutional neural network for the inference of gene-regulatory relationships across pseudotime-ordered single-cell trajectories. We show that combining supervised deep learning with joint-probability matrices of pseudotime-lagged trajectories allows the network to overcome important limitations of ordinary Granger causality-based methods, such as the inability to infer cyclic relationships such as feedback loops. Our network outperforms several common methods for inferring gene regulation and predicts novel regulatory networks from scRNA-seq and scATAC-seq datasets given partial ground-truth labels. To validate this approach, we used DELAY to identify important genes and modules in the regulatory network of auditory hair cells, as well as likely DNA-binding partners for two hair cell cofactors (Hist1h1c and Ccnd1) and a novel binding sequence for the hair cell-specific transcription factor Fiz1. We provide an open-source implementation of DELAY at https://github.com/calebclayreagor/DELAY .",
+  "abstract_zh": "识别基因调控网络中的因果相互作用，需要准确理解转录因子与其靶基因之间的时间滞后关系。在此，我们描述了DELAY，一种用于在伪时间排序的单细胞轨迹中推断基因调控关系的卷积神经网络。我们表明，将监督深度学习与伪时间滞后轨迹的联合概率矩阵相结合，使网络能够克服基于普通格兰杰因果性方法的重要局限性，例如无法推断反馈回路等循环关系。我们的网络在推断基因调控方面优于几种常见方法，并在给定部分真实标签的情况下，从scRNA-seq和scATAC-seq数据集中预测新的调控网络。为验证此方法，我们使用DELAY识别了听觉毛细胞调控网络中的关键基因和模块，以及两个毛细胞辅因子（Hist1h1c和Ccnd1）可能的DNA结合伙伴，以及毛细胞特异性转录因子Fiz1的一个新结合序列。我们在https://github.com/calebclayreagor/DELAY 提供了DELAY的开源实现。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.04.25.489377",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.04.25.489377",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.04.25.489377/index.html"
+}

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or statistical details were available for verification
+- **Shared manuscript claim summary** The authors propose that hexavalent chromium [Cr(VI)] disrupts sperm nuclear basic protein (SNBP)-DNA interactions by targeting arginine residues, likely through Cr(III) coordination with guanidinium groups, and that this disruption may have implications for sperm chromatin organisation and human reproductive health
+- **Visible evidence base** Abstract text only; no experimental sections, figures, tables, or supplementary materials were provided
+- **Missing materials affecting confidence** Full methods, electrophoretic mobility shift assay data, SDS and native-PAGE results, fluorescence spectroscopy data, deguanidination protocol details, molecular docking parameters and outputs, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting hypothesis linking Cr(VI) exposure to impaired SNBP-DNA binding via arginine modification. However, the evidence as summarised is insufficient to establish the mechanistic claims. The experimental results are described qualitatively without quantitative support, and the in silico findings are presented without methodological detail. The connection between the observed biochemical effects and the stated relevance to human reproductive health is asserted rather than demonstrated.
+- **Who would be interested in the results, and why** Researchers in reproductive toxicology, environmental health, and chromatin biology would find these results relevant. The work addresses a plausible molecular mechanism for metal-induced reproductive toxicity, which is of interest to those studying environmental contaminants and male fertility. The focus on protamine-DNA interactions may also appeal to investigators studying sperm chromatin packaging and its vulnerability to exogenous agents.
+- **Major strengths** The hypothesis is mechanistically focused and testable. The combination of experimental and computational approaches is appropriate for the question. The use of deguanidination to probe arginine dependence is a logical experimental strategy. The consideration of Cr(III) as the active species is chemically reasonable given the intracellular reduction of Cr(VI).
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that Cr(VI) treatment markedly impairs SNBP-DNA complex formation is based on electrophoretic mobility shift assays
+  - **Evidence pointer** Abstract, electrophoretic mobility shift assays; location not provided
+  - **Concern** The abstract states that Cr(VI) treatment resulted in "markedly impaired" SNBP-DNA complex formation, but no quantitative data, representative images, or statistical comparisons are provided. It is unclear whether the effect is dose-dependent, whether it was observed at physiologically relevant concentrations, and whether appropriate controls were included.
+  - **Why it matters** Without quantitative evidence and experimental detail, the reader cannot assess the magnitude, reproducibility, or biological relevance of the observed effect. This is the central experimental finding of the study.
+  - **Resolution test** Provide dose-response data, representative gel images, quantification with error bars and statistical tests, and a clear description of experimental conditions including protein and DNA concentrations and Cr(VI) exposure times.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The claim that deguanidination produces changes in DNA-binding similar to those caused by Cr(VI) is used to support the arginine-targeting mechanism
+  - **Evidence pointer** Abstract, deguanidination experiments; location not provided
+  - **Concern** The abstract states that deguanidination with hydrazine produced changes similar to Cr(VI) treatment, and that combining deguanidinated derivatives with Cr(VI) worsened DNA-binding. However, no details are given on the extent of deguanidination, the specificity of the modification, or how "similar" and "worsening" were defined and measured. The additive effect is mentioned but not quantified.
+  - **Why it matters** This experiment is the key evidence linking the Cr(VI) effect to arginine residues. If the deguanidination is incomplete or nonspecific, the interpretation is weakened. The combination experiment is critical for distinguishing independent versus synergistic mechanisms.
+  - **Resolution test** Provide quantitative measures of deguanidination efficiency, show comparative binding data for native, deguanidinated, and Cr(VI)-treated samples, and report statistical analysis of the combination effect.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational validation
+  - **Claim pointer** The claim that molecular docking revealed Cr(III) coordination with arginine guanidinium groups and stable bonds with guanine bases in GC-rich sequences
+  - **Evidence pointer** Abstract, in silico molecular docking; location not provided
+  - **Concern** The docking results are presented as definitive findings, but no methodological details are given. The force field, scoring function, protein and DNA models used, treatment of metal coordination, and validation of the docking protocol are not described. The claim that Cr(III) forms "stable bonds" with guanine bases is a strong statement that requires energetic and structural validation beyond a single docking run.
+  - **Why it matters** Molecular docking of metal ions is technically challenging and prone to artefacts. Without details on the protocol and validation, the computational results cannot be evaluated. The claim about GC versus AT sequence preference is presented as consistent with literature, but the basis for this comparison is not shown.
+  - **Resolution test** Provide full docking methodology, including software, parameters, and validation against known structures. Show binding energies or scores with error estimates, and compare predicted binding preferences with experimental data in a systematic manner.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Relevance to human health
+  - **Claim pointer** The claim that the results highlight the importance of correct SNBP-DNA binding for sperm chromatin organisation and human reproductive health
+  - **Evidence pointer** Abstract, concluding statement; location not provided
+  - **Concern** The abstract concludes with implications for human reproductive health, but no data are presented linking the observed biochemical effects to functional outcomes in sperm, such as chromatin integrity, fertilisation capacity, or embryo development. The connection is inferential.
+  - **Why it matters** The stated relevance to human health is a key motivation for the work. Without any functional or clinical data, this claim remains speculative and may overstate the significance of the findings.
+  - **Resolution test** Either temper the conclusion to reflect the biochemical nature of the study, or provide additional data from sperm samples or animal models linking Cr(VI)-induced SNBP-DNA disruption to functional reproductive outcomes.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence; location not provided
+  - **Issue** The phrase "markedly impaired of SNBP-DNA complex" is grammatically awkward and unclear.
+  - **Required correction** Revise to "markedly impaired SNBP-DNA complex formation" or similar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Fluorescence spectroscopy results
+  - **Evidence pointer** Abstract, fluorescence spectroscopy analyses; location not provided
+  - **Issue** The abstract states that fluorescence spectroscopy revealed "significant rearrangements in the polar surface exposition" but provides no quantitative measure of this change.
+  - **Required correction** Report the specific spectroscopic parameter that changed, the magnitude of the change, and the statistical significance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "deguanidinated"
+  - **Evidence pointer** Abstract, deguanidination experiments; location not provided
+  - **Issue** The term "deguanidinated" is used without defining the chemical nature of the modification. Hydrazine treatment typically converts arginine to ornithine, but this is not stated.
+  - **Required correction** Clarify the chemical product of hydrazine treatment and confirm that the modification is specific to guanidinium groups.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Cr(VI) versus Cr(III) speciation
+  - **Evidence pointer** Abstract, experimental and computational sections; location not provided
+  - **Issue** The experiments use Cr(VI), but the docking studies model Cr(III). The abstract does not explain whether Cr(VI) is expected to be reduced to Cr(III) under the experimental conditions.
+  - **Required correction** State the rationale for using Cr(III) in the computational model and discuss whether Cr(VI) reduction is expected in the experimental system.
+
+## Risk / unsupported claims
+- The claim that Cr(VI) markedly impairs SNBP-DNA complex formation is unsupported by quantitative data in the abstract.
+- The claim that deguanidination produces changes similar to Cr(VI) is unsupported by comparative quantitative data.
+- The claim that Cr(III) forms stable coordination complexes with arginine guanidinium groups is unsupported by methodological detail or validation.
+- The claim that Cr(III) forms stable bonds with guanine bases in GC-rich sequences is unsupported by quantitative docking results.
+- The claim that the results highlight the importance of correct SNBP-DNA binding for human reproductive health is unsupported by functional or clinical data.
+- The overall mechanistic model linking Cr(VI) exposure to arginine modification and impaired DNA binding is plausible but not established from the abstract alone.

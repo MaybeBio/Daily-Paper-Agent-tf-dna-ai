@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37322958",
+  "title": "Identifying biomarkers associated with the diagnosis of ulcerative colitis via bioinformatics and machine learning.",
+  "authors": "Wang, Yuedan; Huang, Jinke; Zhang, Jiaqi; Wang, Fengyun; Tang, Xudong",
+  "journal": "Mathematical biosciences and engineering : MBE",
+  "published_date": "2023-06-16",
+  "window": {
+    "start": "2023-06-12",
+    "end": "2023-06-18"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究通过机器学习识别溃疡性结肠炎诊断生物标志物，聚焦基因表达与免疫浸润，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Ulcerative colitis (UC) is an idiopathic inflammatory disease with an increasing incidence. This study aimed to identify potential UC biomarkers and associated immune infiltration characteristics. METHODS: Two datasets (GSE87473 and GSE92415) were merged to obtain 193 UC samples and 42 normal samples. Using R, differentially expressed genes (DEGs) between UC and normal samples were filtered out, and their biological functions were investigated using Gene Ontology and Kyoto Encyclopedia of Genes and Genomes analyses. Promising biomarkers were identified using least absolute shrinkage selector operator regression and support vector machine recursive feature elimination, and their diagnostic efficacy was evaluated through receiver operating characteristic (ROC) curves. Finally, CIBERSORT was used to investigate the immune infiltration characteristics in UC, and the relationship between the identified biomarkers and various immune cells was examined. RESULTS: We found 102 DEGs, of which 64 were significantly upregulated, and 38 were significantly downregulated. The DEGs were enriched in pathways associated with interleukin-17, cytokine-cytokine receptor interaction and viral protein interactions with cytokines and cytokine receptors, among others. Using machine learning methods and ROC tests, we confirmed DUOX2, DMBT1, CYP2B7P, PITX2 and DEFB1 to be essential diagnostic genes for UC. Immune cell infiltration analysis revealed that all five diagnostic genes were correlated with regulatory T cells, CD8 T cells, activated and resting memory CD4 T cells, activated natural killer cells, neutrophils, activated and resting mast cells, activated and resting dendritic cells and M0, M1 and M2 macrophages. CONCLUSIONS: DUOX2, DMBT1, CYP2B7P, PITX2 and DEFB1 were identified as prospective biomarkers for UC. A new perspective on understanding the progression of UC may be provided by these biomarkers and their relationship with immune cell infiltration.",
+  "abstract_zh": "背景：溃疡性结肠炎（UC）是一种特发性炎症性疾病，其发病率不断上升。本研究旨在识别潜在的UC生物标志物及相关的免疫浸润特征。方法：将两个数据集（GSE87473和GSE92415）合并，获得193个UC样本和42个正常样本。使用R软件筛选出UC与正常样本之间的差异表达基因（DEGs），并通过基因本体论和京都基因与基因组百科全书分析研究其生物学功能。采用最小绝对收缩和选择算子回归及支持向量机递归特征消除识别有前景的生物标志物，并通过受试者工作特征（ROC）曲线评估其诊断效能。最后，使用CIBERSORT研究UC中的免疫浸润特征，并检查所识别生物标志物与各种免疫细胞之间的关系。结果：我们发现了102个DEGs，其中64个显著上调，38个显著下调。这些DEGs富集于与白细胞介素-17、细胞因子-细胞因子受体相互作用以及病毒蛋白与细胞因子和细胞因子受体的相互作用等相关的通路中。通过机器学习方法和ROC测试，我们确认DUOX2、DMBT1、CYP2B7P、PITX2和DEFB1为UC的关键诊断基因。免疫细胞浸润分析显示，这五个诊断基因均与调节性T细胞、CD8 T细胞、活化及静息记忆CD4 T细胞、活化自然杀伤细胞、中性粒细胞、活化及静息肥大细胞、活化及静息树突状细胞以及M0、M1和M2巨噬细胞相关。结论：DUOX2、DMBT1、CYP2B7P、PITX2和DEFB1被确定为UC的潜在生物标志物。这些生物标志物及其与免疫细胞浸润的关系可能为理解UC的进展提供新的视角。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37322958/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37322958/",
+  "paper_page_path": "papers/pubmed/37322958/index.html"
+}

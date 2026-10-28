@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "35809062",
+    "doi": "10.1093/bioinformatics/btac498",
+    "title": "DiffChIPL: a differential peak analysis method for high-throughput sequencing data with biological replicates based on limma."
+  },
+  "content": {
+    "abstract": "MOTIVATION: ChIP-seq detects protein-DNA interactions within chromatin, such as that of chromatin structural components and transcription machinery. ChIP-seq profiles are often noisy and variable across replicates, posing a challenge to the development of effective algorithms to accurately detect differential peaks. Methods have recently been designed for this purpose but sometimes yield conflicting results that are inconsistent with the underlying biology. Most existing algorithms perform well on limited datasets. To improve differential analysis of ChIP-seq, we present a novel Differential analysis method for ChIP-seq based on Limma (DiffChIPL). RESULTS: DiffChIPL is adaptive to asymmetrical or symmetrical data and can accurately report global differences. We used simulated and real datasets for transcription factors (TFs) and histone modification marks to validate and benchmark our algorithm. DiffChIPL shows superior performance in sensitivity and false positive rate in different simulations and control datasets. DiffChIPL also performs well on real ChIP-seq, CUT&RUN, CUT&Tag and ATAC-seq datasets. DiffChIPL is an accurate and robust method, exhibiting better performance in differential analysis for a variety of applications including TF binding, histone modifications and chromatin accessibility. AVAILABILITY AND IMPLEMENTATION: https://github.com/yancychy/DiffChIPL. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+    "keywords": [],
+    "mesh_terms": [
+      "Chromatin Immunoprecipitation/methods",
+      "Sequence Analysis, DNA/methods",
+      "*High-Throughput Nucleotide Sequencing/methods",
+      "*Chromatin Immunoprecipitation Sequencing",
+      "Chromatin",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Intramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yang",
+        "Chen, Shue",
+        "Lei, Elissa P"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Chen S",
+        "Lei EP"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0147-3443",
+        "ORCID: 0000-0003-4894-0037"
+      ],
+      "affiliations": [
+        "Nuclear Organization and Gene Expression Section, Laboratory of Biochemistry and Genetics, National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), National Institutes of Health (NIH), Bethesda, MD, USA.",
+        "Nuclear Organization and Gene Expression Section, Laboratory of Biochemistry and Genetics, National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), National Institutes of Health (NIH), Bethesda, MD, USA.",
+        "Nuclear Organization and Gene Expression Section, Laboratory of Biochemistry and Genetics, National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), National Institutes of Health (NIH), Bethesda, MD, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yang",
+        "short_name": "Chen Y",
+        "identifiers": [
+          "0000-0003-0147-3443"
+        ],
+        "affiliations": [
+          "Nuclear Organization and Gene Expression Section, Laboratory of Biochemistry and Genetics, National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), National Institutes of Health (NIH), Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Shue",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Nuclear Organization and Gene Expression Section, Laboratory of Biochemistry and Genetics, National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), National Institutes of Health (NIH), Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Lei, Elissa P",
+        "short_name": "Lei EP",
+        "identifiers": [
+          "0000-0003-4894-0037"
+        ],
+        "affiliations": [
+          "Nuclear Organization and Gene Expression Section, Laboratory of Biochemistry and Genetics, National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), National Institutes of Health (NIH), Bethesda, MD, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2022 Sep 2",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Intramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/10 06:00",
+    "fetched_at": "2026-09-28 10:37:07"
+  },
+  "links": {
+    "cites": [
+      "41940921",
+      "40766320",
+      "40760708",
+      "40744665",
+      "40736341",
+      "40548296",
+      "40299522",
+      "39953304",
+      "39402101",
+      "39384814",
+      "39122670",
+      "37741993",
+      "37325647",
+      "37265698"
+    ],
+    "refs": [
+      "34235431",
+      "34234130",
+      "33208455",
+      "32842875",
+      "31036827",
+      "30577869",
+      "29651053",
+      "29579165",
+      "29432187",
+      "28351613",
+      "27939218",
+      "27484474",
+      "26764273",
+      "26578583",
+      "25693563",
+      "25682068",
+      "25559105",
+      "25516281",
+      "24894502",
+      "24485249",
+      "24136358",
+      "23762400",
+      "22883957",
+      "22424423",
+      "22217937",
+      "21116306",
+      "19561022",
+      "19505939",
+      "19029915",
+      "18798982",
+      "18578891",
+      "17402924",
+      "17177995",
+      "16646809",
+      "16632515",
+      "15618528",
+      "11395427"
+    ],
+    "similar": [
+      "35809062",
+      "33878366",
+      "25957351",
+      "24894502",
+      "30824903",
+      "32822050",
+      "35733020",
+      "25682068",
+      "23980024",
+      "29528371",
+      "23300134",
+      "31566663",
+      "39141238",
+      "39255248",
+      "32991679",
+      "34284136",
+      "28981893",
+      "24162561",
+      "35606795",
+      "36723809",
+      "37811941",
+      "29524141",
+      "34273560",
+      "29684098",
+      "34337446",
+      "30923821",
+      "27716038",
+      "24279297",
+      "30897079",
+      "35997564",
+      "36124976",
+      "31070745",
+      "22827163",
+      "31164146",
+      "31899481",
+      "28881977",
+      "27845669",
+      "35788238",
+      "30416387",
+      "24812341",
+      "36173565",
+      "29087447",
+      "37217250",
+      "25957350",
+      "27993776",
+      "23762400",
+      "27484474",
+      "27797775",
+      "25995231",
+      "39141230",
+      "25486472",
+      "36929078",
+      "24146601",
+      "30986246",
+      "19061503",
+      "30084962",
+      "23665773",
+      "28169395",
+      "34126932",
+      "28369277",
+      "36656543",
+      "21356108",
+      "33788948",
+      "32321568",
+      "25953800",
+      "33588754",
+      "26117547",
+      "37218013",
+      "25342065",
+      "24810143",
+      "27835030",
+      "28449120",
+      "30517703",
+      "34019290",
+      "26040656",
+      "35103964",
+      "36910579",
+      "27519564",
+      "33999190",
+      "33879052",
+      "32213349",
+      "21554709",
+      "30957858",
+      "37862349",
+      "34404353",
+      "29890948",
+      "25583149",
+      "20628599",
+      "30869146",
+      "38583516",
+      "24927817",
+      "33707229",
+      "37249868",
+      "36807076",
+      "33320934",
+      "32207529",
+      "32251359",
+      "21486936",
+      "31742324",
+      "33860525",
+      "36452861",
+      "29126153",
+      "36698077",
+      "35866989",
+      "37244568",
+      "37211836",
+      "27169896",
+      "34544495",
+      "37440599",
+      "34235431",
+      "31300027",
+      "35392802",
+      "33748781",
+      "36379668",
+      "38565260",
+      "35776722",
+      "29757349",
+      "25657574",
+      "36607812",
+      "37737998",
+      "38049698",
+      "36879236",
+      "38025697",
+      "39028501",
+      "39363107",
+      "33662624",
+      "38189539",
+      "38114921",
+      "37876906",
+      "38528492",
+      "37905156",
+      "38012291",
+      "36688700",
+      "37420172",
+      "36179242",
+      "34327037",
+      "37286963",
+      "38327869",
+      "38841126",
+      "36712015",
+      "37146087",
+      "32051612",
+      "34273562",
+      "36250795",
+      "37563719",
+      "38232107",
+      "37494428",
+      "38019944",
+      "38497648",
+      "39071274",
+      "38515011",
+      "34635147",
+      "32228713",
+      "33655209",
+      "29075654",
+      "38950175"
+    ],
+    "review": [
+      "35809062",
+      "39255248",
+      "25486472",
+      "30084962",
+      "31742324"
+    ],
+    "pmc": [
+      "9438959"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/35809062.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35809062/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35809062",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btac498",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

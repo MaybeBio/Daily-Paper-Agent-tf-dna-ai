@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36157891",
+  "title": "The Establishment of Hypertrophic Cardiomyopathy Diagnosis Model via Artificial Neural Network and Random Decision Forest Method.",
+  "authors": "Li, Shuanglei; Feng, Zekun; Xiao, Cangsong; Wu, Yang; Ye, Weihua",
+  "journal": "Mediators of inflammation",
+  "published_date": "2022-09-27",
+  "window": {
+    "start": "2022-09-26",
+    "end": "2022-10-02"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用随机森林和人工神经网络构建肥厚型心肌病诊断模型，虽涉及转录因子调控分析，但核心是疾病诊断而非蛋白质-DNA互作建模，方法无三维结构或结合机制研究，与本课题关联较弱。",
+  "abstract": "Hypertrophic cardiomyopathy is a hereditary disease characterized by asymmetric ventricular hypertrophy as the key anatomical feature. Currently, there exists no effective method for the early diagnosis of hypertrophic cardiomyopathy. In this analysis, we incorporated multiple GEO datasets containing RNA profiles of hypertrophic cardiomyopathic patient tissues, identified 642 differentially expressed genes, and performed GO and KEGG analyses. Furthermore, we narrowed down 46 characteristic genes from these differentially expressed genes using random decision forests and conducted transcription factor regulation analysis on them. Using 40 genes that showed overlap between the training set and the verification set, the artificial neural network was trained, and the final MPS scoring model was constructed, and a receiver-operating characteristic (ROC) curve was drawn. We used the MPS model to predict the verification dataset and drew the ROC curve, which demonstrated the good prediction performance of the model. In conclusion, this study combines a random decision forest and artificial neural network to build a diagnostic model for hypertrophic cardiomyopathy to predict the disease, aiming at early detection and treatment, prolonging the survival time, and improving the quality of life of patients.",
+  "abstract_zh": "肥厚型心肌病是一种以不对称性心室肥厚为关键解剖特征的遗传性疾病。目前，对于肥厚型心肌病的早期诊断尚无有效方法。在本分析中，我们整合了多个包含肥厚型心肌病患者组织RNA谱的GEO数据集，识别出642个差异表达基因，并进行了GO和KEGG分析。此外，我们利用随机决策森林从这些差异表达基因中筛选出46个特征基因，并对其进行了转录因子调控分析。利用训练集与验证集中重叠的40个基因，训练了人工神经网络，构建了最终的MPS评分模型，并绘制了受试者工作特征（ROC）曲线。我们使用MPS模型预测验证数据集并绘制ROC曲线，结果表明该模型具有良好的预测性能。总之，本研究结合随机决策森林和人工神经网络构建了肥厚型心肌病的诊断模型以预测该疾病，旨在实现早期发现和治疗，延长患者生存时间，并提高其生活质量。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36157891/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36157891/",
+  "paper_page_path": "papers/pubmed/36157891/index.html"
+}

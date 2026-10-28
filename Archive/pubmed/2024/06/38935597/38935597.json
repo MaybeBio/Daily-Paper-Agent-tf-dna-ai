@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "38935597",
+    "doi": "10.1371/journal.pone.0300790",
+    "title": "Identification of biomarkers related to angiogenesis in myocardial ischemia-reperfusion injury and prediction of potential drugs."
+  },
+  "content": {
+    "abstract": "Myocardial ischemia-reperfusion injury (MIRI) refers to the secondary damage to myocardial tissue that occurs when blood perfusion is rapidly restored following myocardial ischemia. This process often exacerbates the injury to myocardial fiber structure and function. The activation mechanism of angiogenesis is closely related to MIRI and plays a significant role in the occurrence and progression of ischemic injury. In this study, we utilized sequencing data from the GEO database and employed WGCNA, Mfuzz cluster analysis, and protein interaction network to identify Stat3, Rela, and Ubb as hub genes involved in MIRI-angiogenesis. Additionally, the GO and KEGG analysis of differentially expressed genes highlighted their broad participation in inflammatory responses and associated signaling pathways. Moreover, the analysis of sequencing data and hub genes revealed a notable increase in the infiltration ratio of monocytes and activated mast cells. By establishing key cell ROC curves, using independent datasets, and validating the expression of hub genes, we demonstrated their high diagnostic value. Moreover, by scrutinizing single-cell sequencing data alongside trajectory analysis, it has come to light that Stat3 and Rela exhibit predominant expression within Dendritic cells. In contrast, Ubb demonstrates expression across multiple cell types, with all three genes being expressed at distinct stages of cellular development. Lastly, leveraging the CMap database, we predicted potential small molecule compounds for the identified hub genes and validated their binding activity through molecular docking. Ultimately, our research provides valuable evidence and references for the early diagnosis and treatment of MIRI from the perspective of angiogenesis.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Myocardial Reperfusion Injury/genetics/metabolism/pathology",
+      "Humans",
+      "*STAT3 Transcription Factor/metabolism/genetics",
+      "*Biomarkers/metabolism",
+      "Transcription Factor RelA/metabolism/genetics",
+      "Protein Interaction Maps/genetics",
+      "Neovascularization, Pathologic/genetics",
+      "Gene Expression Profiling",
+      "Angiogenesis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Yaowei",
+        "Li, Hongyu",
+        "Ma, Xiyuan",
+        "Meng, Xianghong",
+        "Tang, Qiang"
+      ],
+      "short_names": [
+        "Zhao Y",
+        "Li H",
+        "Ma X",
+        "Meng X",
+        "Tang Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4118-5366"
+      ],
+      "affiliations": [
+        "Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, China.",
+        "Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, China.",
+        "Second Affiliated Hospital of Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, China.",
+        "Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, China.",
+        "Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, China.",
+        "Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, China.",
+        "Second Affiliated Hospital of Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Yaowei",
+        "short_name": "Zhao Y",
+        "identifiers": [
+          "0000-0003-4118-5366"
+        ],
+        "affiliations": [
+          "Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hongyu",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, China.",
+          "Second Affiliated Hospital of Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiyuan",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Xianghong",
+        "short_name": "Meng X",
+        "identifiers": [],
+        "affiliations": [
+          "Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Qiang",
+        "short_name": "Tang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, China.",
+          "Second Affiliated Hospital of Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/27 18:42",
+    "fetched_at": "2026-10-05 01:24:22"
+  },
+  "links": {
+    "cites": [
+      "41936647",
+      "41896740"
+    ],
+    "refs": [
+      "37719196",
+      "37026011",
+      "36911691",
+      "36331027",
+      "36142767",
+      "36099917",
+      "35283251",
+      "35152560",
+      "34935700",
+      "34699317",
+      "34623184",
+      "34622712",
+      "34530090",
+      "34102396",
+      "33467722",
+      "33232283",
+      "33130827",
+      "33063086",
+      "32998518",
+      "32603638",
+      "32369445",
+      "32101750",
+      "31594751",
+      "31590128",
+      "31549592",
+      "31515941",
+      "31378915",
+      "31148871",
+      "30944548",
+      "30472260",
+      "30468811",
+      "30467329",
+      "30236985",
+      "29298775",
+      "29130934",
+      "28769049",
+      "28589995",
+      "28566450",
+      "28453734",
+      "27118196",
+      "25545169",
+      "25043127",
+      "24205262",
+      "21320349",
+      "19723038",
+      "19528962",
+      "11950697"
+    ],
+    "similar": [
+      "38935597",
+      "39473404",
+      "42265766",
+      "41350331",
+      "40346414",
+      "38539069",
+      "42093976",
+      "42348093",
+      "41936647",
+      "41347019",
+      "40510362",
+      "37033969",
+      "41888404",
+      "40216809",
+      "39520298",
+      "42278407",
+      "41534252",
+      "37969273",
+      "40510478",
+      "41790394",
+      "33705733",
+      "36246123",
+      "39139563",
+      "40069854",
+      "40977739",
+      "40147738",
+      "39086489",
+      "36627660",
+      "39747134",
+      "41299729",
+      "41299377",
+      "37704087",
+      "41444617",
+      "39079349",
+      "39864211",
+      "41316541",
+      "42528732",
+      "41266526",
+      "35658960",
+      "38839020",
+      "38449872",
+      "40491449",
+      "38691241",
+      "39794696",
+      "41234537",
+      "41401161",
+      "38690269",
+      "39349110",
+      "39741751",
+      "41508240",
+      "41535570",
+      "40323799",
+      "41863100",
+      "35558576",
+      "40331545",
+      "38509535",
+      "41664335",
+      "41630274",
+      "41107601",
+      "40091022",
+      "36148059",
+      "41442992",
+      "42349222",
+      "39403102",
+      "41288681",
+      "41840546",
+      "39284931",
+      "42184497",
+      "38588987",
+      "39391879",
+      "40799650",
+      "39991151",
+      "40754871",
+      "42348043",
+      "35958412",
+      "41872824",
+      "37359526",
+      "39341981",
+      "41444522",
+      "40289127",
+      "41758834",
+      "39262256",
+      "40087350",
+      "40406126",
+      "39401826",
+      "40790764",
+      "38863714",
+      "41203451",
+      "32333220",
+      "41081092",
+      "42475469",
+      "35764238",
+      "39069636",
+      "38904206",
+      "41007677",
+      "38774257",
+      "42183217",
+      "39556279",
+      "37006305",
+      "42015036"
+    ],
+    "review": [
+      "38935597"
+    ],
+    "pmc": [
+      "11210787"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0300790",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38935597/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38935597",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

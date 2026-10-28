@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text, including summary, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, technical soundness, and clarity of claims as presented in the provided text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors propose that RAD51AP1 acts as a versatile modulator of RAD51 recombinase activity through at least three distinct RAD51-binding sites, stabilising RAD51-ssDNA filaments, promoting nucleation and strand exchange, and that ATP hydrolysis relaxes rather than compresses RAD51 filaments.
+- **Visible evidence base** Cryo-EM structures of RAD51-ssDNA filaments in Mg²⁺-ATP, Mg²⁺-ADP, and with RAD51AP1 fragments; biochemical assays including pull-down, biolayer interferometry, nuclease protection, strand exchange, ATPase, and electrophoretic mobility shift assays; sequence analysis and mutagenesis.
+- **Missing materials affecting confidence** Full figure panels and supplementary figures referenced but not fully described in text; exact quantification details for some assays; raw data and statistical analyses for several biochemical experiments; details on model validation and refinement statistics beyond what is stated.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial body of structural and biochemical data that advances our understanding of RAD51AP1 as a RAD51 modulator. The cryo-EM structures of RAD51 filaments in the presence of Mg²⁺-ATP and Mg²⁺-ADP are valuable contributions, and the identification of multiple RAD51-binding sites in RAD51AP1, including a novel binding mode, is of significant interest. However, several technical concerns and gaps in the presented evidence need to be addressed before the central claims are fully established.
+- **Who would be interested in the results, and why** Researchers in the fields of DNA repair, homologous recombination, structural biology, and cancer biology would be interested. The work provides mechanistic insights into RAD51 filament dynamics and RAD51AP1 function, which are relevant for understanding genome stability and potential therapeutic targeting in cancers where RAD51AP1 is overexpressed.
+- **Major strengths** The combination of cryo-EM and biochemistry is powerful and appropriate for the questions addressed. The structures of RAD51 filaments with Mg²⁺-ATP and Mg²⁺-ADP are novel and address a long-standing gap in the field. The identification of three RAD51-binding sites in RAD51AP1, with functional characterisation, provides a comprehensive model for RAD51AP1 action. The use of multiple orthogonal assays strengthens the conclusions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that RAD51AP1 binds across two adjacent RAD51 molecules via three distinct sites is central to the manuscript.
+  - **Evidence pointer** Results section "RAD51AP1 binds to RAD51 via distinct sites"; Figures 1, 2, 4; cryo-EM data.
+  - **Concern** The structural evidence for the three binding sites is based on limited density for RAD51AP1, particularly for the full-length protein. The manuscript states that density quality is limited and that a C-terminal fragment (C29) was used for the high-resolution structure. The assignment of specific residues to the three sites, especially Site-N, appears to rely heavily on modelling and mutagenesis without clear structural validation. The authors should provide clearer evidence, such as difference maps or focused classifications, that unambiguously demonstrate the location and occupancy of each binding site.
+  - **Why it matters** The central thesis of the manuscript rests on the existence and functional significance of three distinct binding sites. If the structural assignment is ambiguous, the model proposed for RAD51AP1 function is weakened.
+  - **Resolution test** Provide additional structural analysis, such as focused 3D classifications or difference maps, that clearly show density for RAD51AP1 at each proposed site. Alternatively, provide mutagenesis data that directly tests the contribution of each site to binding and function in a more systematic manner.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that ATP hydrolysis relaxes rather than compresses RAD51 filaments.
+  - **Evidence pointer** Results section "cryoEM structures of RAD51-ssDNA filaments in the presence of Mg²⁺-ATP and Mg²⁺-ADP"; Figure 3; Table S1.
+  - **Concern** The comparison between Mg²⁺-ATP and Mg²⁺-ADP filaments is based on two structures with different helical parameters. The authors need to ensure that the observed differences are not due to artefacts of sample preparation, grid freezing, or data processing. The manuscript should include a more detailed comparison of the two structures, including an analysis of the conformational changes at the nucleotide-binding site and the L1/L2 loops, with appropriate error estimates for the helical parameters.
+  - **Why it matters** The conclusion that ATP hydrolysis relaxes filaments contradicts some previous models and is a key conceptual advance. If the structural comparison is not robust, this conclusion is not well supported.
+  - **Resolution test** Provide a more detailed structural comparison, including superposition of the two filament states and quantification of conformational changes. Include error estimates for helical parameters and discuss potential artefacts. Consider validating the structural findings with solution-based assays, such as FRET or single-molecule measurements, that directly probe filament dynamics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The claim that RAD51AP1 promotes RAD51 filament nucleation, stabilisation, and strand exchange.
+  - **Evidence pointer** Results sections "RAD51AP1 promotes RAD51 filament nucleation, stabilises filaments and promotes strand exchange" and "RAD51AP1 modulates RAD51 DNA binding, filament stabilisation, and strand invasion via three distinct sites"; Figures 2, 5.
+  - **Concern** The biochemical assays are described, but the manuscript lacks detailed quantification and statistical analysis for several key experiments. For example, the nuclease protection assay and strand exchange assay are presented as representative images, but the number of independent replicates, error bars, and statistical tests are not clearly stated. The concentration-dependence of RAD51AP1 effects is not fully explored.
+  - **Why it matters** Without proper quantification and statistics, it is difficult to assess the robustness and significance of the reported effects, particularly for the mutant constructs.
+  - **Resolution test** Provide full quantification of all biochemical assays, including the number of replicates, error bars, and statistical analysis. Show dose-response curves where appropriate. Ensure that all experiments are performed with appropriate controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1A
+  - **Evidence pointer** Results section "RAD51AP1 binds to RAD51 via distinct sites"; Figure 1A.
+  - **Issue** The schematic of RAD51AP1 domains and binding sites is not described in sufficient detail in the text. The boundaries of the proposed sites (Site-N, Site-M, Site-C) are not clearly defined.
+  - **Required correction** Provide a clear description of the domain architecture and the exact residue ranges for each site in the text or figure legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** AlphaFold3 model
+  - **Evidence pointer** Methods section "Model building"; Figure S2D.
+  - **Issue** The use of AlphaFold3 to generate the initial model for RAD51AP1 is mentioned, but the confidence of the model and how it was validated against the experimental density is not discussed.
+  - **Required correction** Include a discussion of the AlphaFold3 model confidence (e.g., pLDDT scores) and how the model was fitted and validated against the cryo-EM density.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section "ATP hydrolysis relaxes rather than compresses RAD51 filaments".
+  - **Issue** The reconciliation of the structural data with previous single-molecule experiments is somewhat speculative and could be clearer.
+  - **Required correction** Clarify the model for how ATP hydrolysis leads to filament relaxation and DNA release, and explicitly state which aspects are supported by the current data and which are speculative.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are considered blocking. The structural evidence for the three binding sites and the comparison of ATP/ADP filament states need to be strengthened. The lack of detailed quantification in biochemical assays (R1-M3) also needs to be addressed.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The structures of RAD51 filaments with Mg²⁺-ATP and Mg²⁺-ADP are novel, and the proposed mechanism of RAD51AP1 action via three binding sites is a new model.
+  - **Scientific importance** High. The work addresses fundamental questions in homologous recombination and has implications for understanding genome stability and cancer.
+  - **Interdisciplinary readership** Moderate. The work will primarily appeal to structural biologists and DNA repair specialists. The broader cancer biology community may find the RAD51AP1 findings relevant, but the presentation is heavily structural.
+  - **Technical soundness** Currently not fully established. The structural analyses need more rigorous validation, and the biochemical data need more complete quantification.
+  - **Readability for nonspecialists** The manuscript is clearly written but assumes significant background knowledge in homologous recombination and structural biology. The summary and introduction are accessible, but the results section is dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially important, but the evidence as presented is not sufficient to fully support the central claims. The authors should address the blocking concerns regarding structural validation and provide more complete quantitative data for the biochemical assays.
+
+## Risk / unsupported claims
+- The claim that RAD51AP1 uses three distinct sites to bind across two RAD51 monomers is not fully supported by the structural data presented, as the density for RAD51AP1 is limited and the assignment of Site-N is not clearly validated.
+- The claim that ATP hydrolysis relaxes RAD51 filaments is based on a comparison of two structures and needs more robust validation to rule out artefacts.
+- The claim that RAD51AP1 promotes filament nucleation is inferred from the increase in filament number, but the mechanism of nucleation is not directly demonstrated.
+- The functional significance of Site-N is not clearly established, as its mutation had only mild effects in the assays presented.
+- The potential role of RAD51AP1 in inhibiting ATP hydrolysis via blocking the phosphate release channel is speculative and not directly tested.

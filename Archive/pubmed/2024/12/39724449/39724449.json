@@ -1,0 +1,501 @@
+{
+  "identity": {
+    "pmid": "39724449",
+    "doi": "10.1002/pro.70005",
+    "title": "Exploring the druggability of the UEV domain of human TSG101 in search for broad-spectrum antivirals."
+  },
+  "content": {
+    "abstract": "The ubiquitin E2 variant domain of TSG101 (TSG101-UEV) plays a pivotal role in protein sorting and virus budding by recognizing PTAP motifs within ubiquitinated proteins. Disruption of TSG101-UEV/PTAP interactions has emerged as a promising strategy for the development of host-oriented broad-spectrum antivirals with low susceptibility to resistance. TSG101 is a challenging target characterized by an extended and flat binding interface, low affinity for PTAP ligands, and complex binding energetics. Here, we assess the druggability of the TSG101-UEV/PTAP binding interface by searching for drug-like inhibitors and evaluating their ability to block PTAP recognition, impair budding, and inhibit viral proliferation. A discovery workflow was established by combining in vitro miniaturized HTS assays and a set of cell-based activity assays including high-content bimolecular complementation, virus-like particle release measurement, and antiviral testing in live virus infection. This approach has allowed us to identify a set of chemically diverse molecules that block TSG101-UEV/PTAP binding with IC50s in the low muM range and are able to disrupt the interaction between full-length TSG101 and viral proteins in human cells and inhibit viral replication. State-of-the-art molecular docking studies reveal that the active compounds exploit binding hotspots at the PTAP binding site, unlocking the full binding potential of the TSG101-UEV binding pockets. These inhibitors represent promising hits for the development of novel broad-spectrum antivirals through targeted optimization and are also valuable tools for investigating the involvement of ESCRT in the proliferation of different virus families and study the secondary effects induced by the disruption of ESCRT/virus interactions.",
+    "keywords": [
+      "AlphaScreen",
+      "ESCRT",
+      "TSG101",
+      "UEV domain",
+      "bimolecular complementation",
+      "broad-spectrum antivirals",
+      "cell-based antiviral assays",
+      "differential scanning fluorimetry",
+      "docking",
+      "high throughput screening",
+      "molecular dynamics",
+      "viral late domains",
+      "virus budding"
+    ],
+    "mesh_terms": [
+      "*Endosomal Sorting Complexes Required for Transport/metabolism/chemistry",
+      "Humans",
+      "*Antiviral Agents/pharmacology/chemistry",
+      "*DNA-Binding Proteins/chemistry/metabolism",
+      "*Transcription Factors/metabolism/chemistry/antagonists & inhibitors",
+      "Protein Domains",
+      "Binding Sites",
+      "Molecular Docking Simulation",
+      "Protein Binding",
+      "Tsg101 Protein"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Montero, Fernando",
+        "Parra-Lopez, Marisa",
+        "Rodriguez-Martinez, Alejandro",
+        "Murciano-Calles, Javier",
+        "Buzon, Pedro",
+        "Han, Ziying",
+        "Lin, L-Y",
+        "Ramos, Maria C",
+        "Ruiz-Sanz, Javier",
+        "Martinez, Jose C",
+        "Radi, Marco",
+        "Moog, Christiane",
+        "Diederich, Sandra",
+        "Harty, Ronald N",
+        "Perez-Sanchez, Horacio",
+        "Vicente, Francisca",
+        "Castillo, Francisco",
+        "Luque, Irene"
+      ],
+      "short_names": [
+        "Montero F",
+        "Parra-Lopez M",
+        "Rodriguez-Martinez A",
+        "Murciano-Calles J",
+        "Buzon P",
+        "Han Z",
+        "Lin LY",
+        "Ramos MC",
+        "Ruiz-Sanz J",
+        "Martinez JC",
+        "Radi M",
+        "Moog C",
+        "Diederich S",
+        "Harty RN",
+        "Perez-Sanchez H",
+        "Vicente F",
+        "Castillo F",
+        "Luque I"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2757-4779"
+      ],
+      "affiliations": [
+        "Department of Physical Chemistry, Institute of Biotechnology, and Unit of Excellence in Chemistry Applied to Biomedicine and Environment, School of Sciences, University of Granada, Granada, Spain.",
+        "Department of Physical Chemistry, Institute of Biotechnology, and Unit of Excellence in Chemistry Applied to Biomedicine and Environment, School of Sciences, University of Granada, Granada, Spain.",
+        "Department of Physical Chemistry, Institute of Biotechnology, and Unit of Excellence in Chemistry Applied to Biomedicine and Environment, School of Sciences, University of Granada, Granada, Spain.",
+        "Structural Bioinformatics and High-Performance Computing (BIO-HPC) Research Group, Universidad Catolica de Murcia (UCAM), Guadalupe, Spain.",
+        "Department of Physical Chemistry, Institute of Biotechnology, and Unit of Excellence in Chemistry Applied to Biomedicine and Environment, School of Sciences, University of Granada, Granada, Spain.",
+        "Department of Physical Chemistry, Institute of Biotechnology, and Unit of Excellence in Chemistry Applied to Biomedicine and Environment, School of Sciences, University of Granada, Granada, Spain.",
+        "Department of Pathobiology, School of Veterinary Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, USA.",
+        "Laboratoire d'ImmunoRhumatologie Moleculaire, UMR_S 1109, Federation de Medecine Translationnelle de Strasbourg (FMTS), Universite de Strasbourg, Strasbourg, France.",
+        "MEDINA Foundation, Granada, Spain.",
+        "Department of Physical Chemistry, Institute of Biotechnology, and Unit of Excellence in Chemistry Applied to Biomedicine and Environment, School of Sciences, University of Granada, Granada, Spain.",
+        "Department of Physical Chemistry, Institute of Biotechnology, and Unit of Excellence in Chemistry Applied to Biomedicine and Environment, School of Sciences, University of Granada, Granada, Spain.",
+        "Dipartimento di Scienze degli Alimenti e del Farmaco, Universita degli Studi di Parma, Parma, Italy.",
+        "Laboratoire d'ImmunoRhumatologie Moleculaire, UMR_S 1109, Federation de Medecine Translationnelle de Strasbourg (FMTS), Universite de Strasbourg, Strasbourg, France.",
+        "Institute of Novel and Emerging Infectious Diseases, Friedrich-Loeffler-Institut, Federal Research Institute of Animal Health, Greifswald, Germany.",
+        "Department of Pathobiology, School of Veterinary Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, USA.",
+        "Structural Bioinformatics and High-Performance Computing (BIO-HPC) Research Group, Universidad Catolica de Murcia (UCAM), Guadalupe, Spain.",
+        "MEDINA Foundation, Granada, Spain.",
+        "MEDINA Foundation, Granada, Spain.",
+        "Department of Physical Chemistry, Institute of Biotechnology, and Unit of Excellence in Chemistry Applied to Biomedicine and Environment, School of Sciences, University of Granada, Granada, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Montero, Fernando",
+        "short_name": "Montero F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Institute of Biotechnology, and Unit of Excellence in Chemistry Applied to Biomedicine and Environment, School of Sciences, University of Granada, Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Parra-López, Marisa",
+        "short_name": "Parra-López M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Institute of Biotechnology, and Unit of Excellence in Chemistry Applied to Biomedicine and Environment, School of Sciences, University of Granada, Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Rodríguez-Martínez, Alejandro",
+        "short_name": "Rodríguez-Martínez A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Institute of Biotechnology, and Unit of Excellence in Chemistry Applied to Biomedicine and Environment, School of Sciences, University of Granada, Granada, Spain.",
+          "Structural Bioinformatics and High-Performance Computing (BIO-HPC) Research Group, Universidad Católica de Murcia (UCAM), Guadalupe, Spain."
+        ]
+      },
+      {
+        "full_name": "Murciano-Calles, Javier",
+        "short_name": "Murciano-Calles J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Institute of Biotechnology, and Unit of Excellence in Chemistry Applied to Biomedicine and Environment, School of Sciences, University of Granada, Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Buzon, Pedro",
+        "short_name": "Buzon P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Institute of Biotechnology, and Unit of Excellence in Chemistry Applied to Biomedicine and Environment, School of Sciences, University of Granada, Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Han, Ziying",
+        "short_name": "Han Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathobiology, School of Veterinary Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, L-Y",
+        "short_name": "Lin LY",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire d'ImmunoRhumatologie Moléculaire, UMR_S 1109, Fédération de Médecine Translationnelle de Strasbourg (FMTS), Université de Strasbourg, Strasbourg, France."
+        ]
+      },
+      {
+        "full_name": "Ramos, Maria C",
+        "short_name": "Ramos MC",
+        "identifiers": [],
+        "affiliations": [
+          "MEDINA Foundation, Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Ruiz-Sanz, Javier",
+        "short_name": "Ruiz-Sanz J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Institute of Biotechnology, and Unit of Excellence in Chemistry Applied to Biomedicine and Environment, School of Sciences, University of Granada, Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Martinez, Jose C",
+        "short_name": "Martinez JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Institute of Biotechnology, and Unit of Excellence in Chemistry Applied to Biomedicine and Environment, School of Sciences, University of Granada, Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Radi, Marco",
+        "short_name": "Radi M",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Scienze degli Alimenti e del Farmaco, Università degli Studi di Parma, Parma, Italy."
+        ]
+      },
+      {
+        "full_name": "Moog, Christiane",
+        "short_name": "Moog C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire d'ImmunoRhumatologie Moléculaire, UMR_S 1109, Fédération de Médecine Translationnelle de Strasbourg (FMTS), Université de Strasbourg, Strasbourg, France."
+        ]
+      },
+      {
+        "full_name": "Diederich, Sandra",
+        "short_name": "Diederich S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Novel and Emerging Infectious Diseases, Friedrich-Loeffler-Institut, Federal Research Institute of Animal Health, Greifswald, Germany."
+        ]
+      },
+      {
+        "full_name": "Harty, Ronald N",
+        "short_name": "Harty RN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathobiology, School of Veterinary Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, USA."
+        ]
+      },
+      {
+        "full_name": "Pérez-Sánchez, Horacio",
+        "short_name": "Pérez-Sánchez H",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Bioinformatics and High-Performance Computing (BIO-HPC) Research Group, Universidad Católica de Murcia (UCAM), Guadalupe, Spain."
+        ]
+      },
+      {
+        "full_name": "Vicente, Francisca",
+        "short_name": "Vicente F",
+        "identifiers": [],
+        "affiliations": [
+          "MEDINA Foundation, Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Castillo, Francisco",
+        "short_name": "Castillo F",
+        "identifiers": [],
+        "affiliations": [
+          "MEDINA Foundation, Granada, Spain."
+        ]
+      },
+      {
+        "full_name": "Luque, Irene",
+        "short_name": "Luque I",
+        "identifiers": [
+          "0000-0003-2757-4779"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, Institute of Biotechnology, and Unit of Excellence in Chemistry Applied to Biomedicine and Environment, School of Sciences, University of Granada, Granada, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2025 Jan",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/26 18:16",
+    "fetched_at": "2026-09-30 08:31:52"
+  },
+  "links": {
+    "cites": [
+      "42317333"
+    ],
+    "refs": [
+      "38901510",
+      "38747440",
+      "37141275",
+      "35632785",
+      "35609344",
+      "35446649",
+      "35349820",
+      "35257734",
+      "35120596",
+      "34581307",
+      "34452424",
+      "34199191",
+      "33846137",
+      "33672541",
+      "33668191",
+      "33346633",
+      "32798602",
+      "32731154",
+      "32132561",
+      "32111739",
+      "32075127",
+      "31751347",
+      "31705132",
+      "31636332",
+      "31411851",
+      "30768902",
+      "30729228",
+      "30615963",
+      "29683853",
+      "29123089",
+      "28952432",
+      "28256516",
+      "27622822",
+      "27377328",
+      "26844568",
+      "26834994",
+      "25860834",
+      "25786915",
+      "24850022",
+      "24741084",
+      "24607608",
+      "24522922",
+      "24338112",
+      "23092397",
+      "22951948",
+      "22824207",
+      "22330733",
+      "22115123",
+      "22102845",
+      "21846146",
+      "21643473",
+      "21070952",
+      "20131845",
+      "19906645",
+      "19596386",
+      "19395593",
+      "19053244",
+      "19007114",
+      "18655064",
+      "18064617",
+      "16552148",
+      "16364736",
+      "16051823",
+      "16051804",
+      "15892969",
+      "15880548",
+      "15053872",
+      "12802020",
+      "12717021",
+      "12525615",
+      "12379843",
+      "12006492",
+      "11967285",
+      "11911894",
+      "11739676",
+      "11595185",
+      "11511343",
+      "11259830",
+      "11020286",
+      "10903934",
+      "9851931",
+      "2610349"
+    ],
+    "similar": [
+      "39724449",
+      "38901510",
+      "42492172",
+      "30068652",
+      "12379843",
+      "19542561",
+      "36740661",
+      "32326417",
+      "29123089",
+      "12006492",
+      "15218037",
+      "12743307",
+      "39459900",
+      "12663786",
+      "32917811",
+      "34203832",
+      "15053872",
+      "15509564",
+      "16552148",
+      "21070952",
+      "35120596",
+      "24522922",
+      "12525615",
+      "24244542",
+      "33328308",
+      "29571744",
+      "33853959",
+      "31411851",
+      "23895345",
+      "30126636",
+      "32213612",
+      "36642186",
+      "19692479",
+      "20088757",
+      "29773649",
+      "24741084",
+      "17428861",
+      "25330247",
+      "18321968",
+      "12915533",
+      "27764233",
+      "12900394",
+      "14581525",
+      "11805336",
+      "39739800",
+      "38888346",
+      "23276921",
+      "20519395",
+      "24036228",
+      "19914066",
+      "15731271",
+      "22315426",
+      "21159863",
+      "27803188",
+      "15126635",
+      "15044434",
+      "39868900",
+      "40407327",
+      "37042780",
+      "20975941",
+      "19053244",
+      "20504928",
+      "11726971",
+      "11595185",
+      "27648839",
+      "17182674",
+      "35257734",
+      "19244744",
+      "40571836",
+      "38447164",
+      "19282983",
+      "12598123",
+      "18367816",
+      "20929444",
+      "42623726",
+      "22102845",
+      "14990685",
+      "19703557",
+      "16352570",
+      "15140952",
+      "31519756",
+      "12388682",
+      "19099395",
+      "24257210",
+      "34287046",
+      "20544962",
+      "12941909",
+      "29031833",
+      "12559917",
+      "17940959",
+      "26070789",
+      "27784779",
+      "32994219",
+      "34851141",
+      "39998268",
+      "25010273",
+      "35080428",
+      "25488808",
+      "16138902",
+      "22348143"
+    ],
+    "review": [
+      "39724449",
+      "34203832",
+      "20088757",
+      "23276921"
+    ],
+    "pmc": [
+      "11670305"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39724449.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39724449/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70005",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

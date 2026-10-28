@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusions. No supplementary material was provided.
+- **Assessment boundary** The review assesses the scientific claims, methodological soundness, and evidentiary support presented in the manuscript. It does not evaluate the editorial fit for a specific journal.
+- **Shared manuscript claim summary** The authors propose that the variable regions (isoform-specific N- and C-terminal segments) of p53 isoforms act as allosteric regulators that modulate the DNA-binding dynamics of the conserved DNA-binding domain (DBD′). Using molecular dynamics (MD) simulations of nine p53 isoforms, they report isoform-specific differences in residue fluctuations, hydrogen-bonding patterns with DNA, conformational substates, and electrostatic network topologies, concluding that these differences are "hard-coded" by the variable regions and are largely non-additive.
+- **Visible evidence base** The manuscript includes descriptions of MD simulations (AMBER, ff99SB, TIP3P), analyses of RMSD, RMSF, hydrogen bonding, MD-Markov state models (MD-MSMs), MD sectors, and electrostatic network decomposition (MD-END) with kernel PCA. Results are presented in Figures 1–8 and Tables 1–3, with additional supporting figures and tables referenced in the text.
+- **Missing materials affecting confidence** Supplementary figures (S1–S6) and tables (SI–SIV) are referenced but not provided. The manuscript does not include quantitative error estimates, statistical significance tests, or convergence metrics beyond qualitative RMSD descriptions. No experimental validation is presented. The MD simulation parameters (e.g., temperature, pressure, salt concentration, simulation replicates) are not fully specified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and potentially important question: whether the variable regions of p53 isoforms allosterically modulate DNA binding. The conceptual framing is novel and the application of multiple MD-based analytical techniques is ambitious. However, the evidence presented is largely descriptive and lacks the quantitative rigor needed to support the strong claims made. The absence of statistical validation, the reliance on single simulations per isoform, and the lack of experimental corroboration significantly weaken the conclusions. The manuscript would benefit from a more focused presentation of key findings and a clearer link between computational observables and functional outcomes.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, allostery, and p53 biology would find this work of interest. The methodological combination of MD with network analysis and Markov state models could appeal to method developers. Clinically oriented researchers might be interested in the implications for isoform-specific drug design, though the current evidence is too preliminary to guide therapeutic strategies.
+- **Major strengths** The conceptual idea of treating isoform variable regions as allosteric effectors is creative and timely. The use of multiple complementary analytical techniques (RMSF, H-bonds, MD-MSMs, sectors, electrostatic networks) provides a broad view of dynamics. The discussion of non-additivity and its implications for drug design is thoughtful and forward-looking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "all of the isoforms differ from wild type in their dynamic properties and how they interact with the DNA" and that these differences are "hard-coded" by the variable regions.
+  - **Evidence pointer** Results section, Figures 3–8, Tables 2–3
+  - **Concern** The central claim of isoform-specific differences is based on single MD simulations per isoform. Without replicate simulations, it is impossible to distinguish genuine isoform-specific behavior from stochastic variation. The manuscript provides no error bars, confidence intervals, or statistical tests for any of the reported metrics (RMSF, H-bond occupancies, cluster populations, network properties). The differences observed could be within the noise of the simulation protocol.
+  - **Why it matters** The core conclusion that variable regions "hard-code" distinct DNA interaction dynamics rests entirely on the reliability of the observed differences. If these differences are not statistically robust, the entire premise of the paper is unsupported.
+  - **Resolution test** Provide at least three independent simulations per isoform (with different initial velocities) and report means and standard deviations for all key metrics. Perform statistical tests (e.g., t-tests or permutation tests) comparing each isoform to wild type. Show that observed differences exceed simulation noise.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the MD-MSMs reveal "unique clustering" of wild-type and isoform conformations, and that Δ133p53β "distinctively resides in its own cluster."
+  - **Evidence pointer** Results section, Figure 7A
+  - **Concern** The MD-MSM clustering is performed on concatenated trajectories from all isoforms, but the manuscript does not describe how the number of clusters (k=4) was validated beyond a reference to a protocol. The assignment of biological meaning to cluster membership is speculative. The claim that Δ133p53β "distinctively resides in its own cluster" is based on a single simulation and may be an artifact of the clustering algorithm or insufficient sampling. The relationship between cluster populations and functional outcomes (apoptosis vs. senescence) is asserted without a mechanistic model.
+  - **Why it matters** The clustering results are used to link specific isoforms to specific cellular outcomes, which is a strong functional claim. Without robust cluster validation and a clear mechanistic link, this interpretation is not justified.
+  - **Resolution test** Validate the choice of k using established methods (e.g., elbow criterion, silhouette analysis). Show that cluster assignments are stable across replicate simulations. Provide a quantitative measure of cluster separation (e.g., Davies–Bouldin index). If functional outcomes are to be inferred, provide a testable model or experimental data linking cluster populations to apoptosis/senescence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "thinking of p53 DBD′ activity as an ensemble of isoforms appropriate to the issue of interest may be important to make headway for the de novo design of allosteric reactivators of mutant p53."
+  - **Evidence pointer** Discussion and Conclusions sections
+  - **Concern** The implications for drug design are stated as a logical consequence of the findings, but the manuscript does not demonstrate how the observed dynamic differences could be exploited in a drug discovery context. The leap from simulation observables to therapeutic strategy is not supported by any concrete example or proof-of-concept. The statement that "machine learning is equipped to take on these challenges" is speculative and not tied to the presented data.
+  - **Why it matters** The broader significance of the work is partly predicated on its translational relevance. If the drug design implications are not substantiated, the impact of the study is reduced to a descriptive computational analysis.
+  - **Resolution test** Provide a specific, testable hypothesis for how isoform-specific dynamics could inform drug design (e.g., identifying a binding pocket that is differentially accessible). Alternatively, temper the conclusions to reflect the exploratory nature of the findings.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the energy minimization plots are available in Supporting Figure S1" and that "the resulting models from PHYRE2 all had confidence of greater than 90% for most residues."
+  - **Evidence pointer** Methods section, PHYRE2 Folding and Molecular Dynamics Protocol
+  - **Concern** The manuscript does not provide sufficient detail on the quality of the PHYRE2 models. The confidence score is mentioned, but no information is given on the structural validation of the models (e.g., Ramachandran plots, clash scores, or comparison to known structures). The use of "highly engineered" structures as starting points for MD is acknowledged, but the potential impact of model inaccuracies on the results is not discussed. The equilibration protocol for isoforms 2–9 is described, but the wild-type simulation is taken from a previous study, raising questions about consistency in simulation conditions.
+  - **Why it matters** The reliability of the MD results depends on the quality of the starting structures. If the PHYRE2 models contain significant errors, the subsequent dynamics and derived properties may be unreliable. The lack of structural validation undermines confidence in the results.
+  - **Resolution test** Provide structural validation metrics for the PHYRE2 models (e.g., QMEAN, MolProbity scores). Describe the simulation conditions for the wild-type simulation and ensure they match those used for the other isoforms. Discuss the potential impact of model uncertainty on the conclusions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, first paragraph; Discussion, final paragraph
+  - **Issue** The manuscript uses terms such as "hard-coded" and "second secret of life" without clear definitions. The phrase "hard-coded" is used repeatedly but its precise meaning in this context is not defined. The reference to "second secret of life" is evocative but may confuse readers unfamiliar with the allostery literature.
+  - **Required correction** Define "hard-coded" explicitly in the context of the study (e.g., "we use 'hard-coded' to mean that the presence or absence of specific sequence segments deterministically alters the dynamic behavior of the DNA-binding domain"). Provide a brief explanation of the "second secret of life" reference or remove it.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, H-Bond Analysis
+  - **Evidence pointer** Methods section, H-Bond Analysis
+  - **Issue** The hydrogen-bond analysis is described as monitoring "eight well-characterized residue interactions of p53 with its binding site DNA." However, the criteria for defining a "significant" contact (e.g., occupancy threshold) are not specified. The statement that "none of the isoforms have significant contact with more than two of the expected residue contacts" is presented without a quantitative definition of "significant."
+  - **Required correction** Specify the occupancy threshold used to define a significant hydrogen bond. Report the actual occupancy values for the key contacts in a table or supplementary figure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, paragraph on clinical implications
+  - **Evidence pointer** Discussion, paragraph beginning "This diversification of p53 activity..."
+  - **Issue** The discussion of clinical implications is speculative and not directly supported by the data. The statement that "the underlying reason for the diversity observed in tumors is caused at least in part by unique underlying populations of isoforms" is presented as a possibility but is not grounded in any clinical or experimental evidence.
+  - **Required correction** Soften the language to clearly indicate this is a hypothesis. Consider adding a sentence acknowledging that experimental validation in cellular or clinical models is needed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, Figure 8 description
+  - **Evidence pointer** Results section, final paragraph
+  - **Issue** The description of the kernel PCA results is dense and may be difficult for nonspecialists to follow. The terms "hub-like," "node embeddings," and "spectral analysis" are used without sufficient explanation.
+  - **Required correction** Provide a brief, plain-language explanation of what the kernel PCA plots show and why the observed patterns are meaningful. Consider adding a schematic or simplified example.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of replicate simulations and statistical validation) and R1-M2 (unvalidated clustering and overinterpretation of cluster assignments) are the most critical. Without addressing these, the central claims of isoform-specific differences and their functional implications are not established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of treating isoform variable regions as allosteric effectors is original and distinguishes this work from prior p53 MD studies. However, the novelty is primarily conceptual; the analytical methods are largely adapted from existing approaches.  
+  - **Scientific importance** The question of how isoform-specific regions modulate p53 function is important for understanding cancer biology and drug resistance. However, the current study is purely computational and does not provide experimental validation, limiting its immediate impact.  
+  - **Interdisciplinary readership** The work bridges computational biophysics, structural biology, and cancer biology. The writing is generally accessible, but the methods sections are dense and may deter nonspecialists.  
+  - **Technical soundness** The technical execution is a major weakness. The lack of replicate simulations, statistical tests, and model validation undermines the reliability of the results. The clustering and network analyses are described without sufficient methodological detail.  
+  - **Readability for nonspecialists** The introduction and discussion are readable, but the results and methods sections assume significant familiarity with MD simulations and network analysis. The use of undefined jargon (e.g., "hard-coded," "vpica metric") reduces accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis and a broad set of analyses, but the lack of statistical rigor and the absence of experimental validation prevent the conclusions from being supported. The authors should be encouraged to revise the manuscript to address the technical concerns, particularly by adding replicate simulations and statistical analyses, and to temper the strength of their claims.
+
+## Risk / unsupported claims
+- The claim that "all of the isoforms differ from wild type in their dynamic properties and how they interact with the DNA" is unsupported due to the lack of replicate simulations and statistical testing.
+- The claim that Δ133p53β "distinctively resides in its own cluster" and the associated functional interpretation (linking to apoptosis/senescence) is unsupported without cluster validation and a mechanistic model.
+- The statement that "the variable regions of p53 isoforms allosterically hard-code DNA interaction" is a strong causal claim that is not directly tested; the study shows correlations between sequence composition and dynamics, not causation.
+- The implications for drug design and the role of machine learning are speculative and not supported by the data presented.
+- The assertion that the simulations "capture the well-established Levant characterization" of p53 is vague and not substantiated with specific comparisons to experimental data.

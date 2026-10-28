@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Materials and Methods) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific content, methodological rigor, and logical coherence of the presented claims based solely on the provided text
+- **Shared manuscript claim summary** The authors use a deep learning model (BPNet) to predict CTCF binding sites (CBSs) in five primate genomes, classify them by conservation level, and report that conserved CBSs cluster near TAD boundaries and are under purifying selection, while human-specific CBSs show positive selection, transposable element contributions, and associations with human-specific gene regulation and disease heritability
+- **Visible evidence base** Text descriptions of results, methodological details, and references to figures and tables (Fig. S1-S9, Tables S1-S13) that are not directly viewable
+- **Missing materials affecting confidence** All figures, tables, and supplementary data are referenced but not provided; specific numerical results, statistical values, and effect sizes are largely absent from the text
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question about the evolution of CTCF binding sites in primates and their potential contribution to human-specific regulatory evolution. The authors present a comprehensive analytical framework combining deep learning predictions, comparative genomics, population genetics, and functional genomics data. The central claims are plausible and align with existing literature on CTCF conservation and regulatory evolution. However, the manuscript as presented has several critical gaps that prevent full evaluation: the absence of key figures and tables makes it impossible to assess data quality, the statistical methods for several core analyses are incompletely described, and some conclusions appear to exceed what the described analyses can support. The work has potential for a strong journal, but the current presentation does not fully establish the case.
+- **Who would be interested in the results, and why** Researchers studying 3D genome architecture evolution, comparative genomics of gene regulation, primate evolution, and the functional interpretation of noncoding variation. The integration of CTCF binding evolution with TAD dynamics and disease heritability will also interest those working on the regulatory basis of complex traits and human-specific phenotypes, particularly in neuroscience given the brain-related gene examples.
+- **Major strengths** The study addresses a significant gap in understanding how CTCF binding site turnover contributes to 3D genome evolution. The use of a unified deep learning prediction framework across five species is methodologically sound and addresses the challenge of comparing binding sites across species with different experimental datasets. The integration of multiple evolutionary analyses (conservation, selection, TE contributions) with functional outcomes (gene expression, chromatin interactions, disease heritability) provides a comprehensive perspective. The robustness analyses described for key findings are commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that approximately half of human CBSs are conserved across all five primate species, and that human-specific CBSs show signatures of positive selection based on MK tests and alpha estimates.
+  - **Evidence pointer** Results section "Purifying selection and positive selection drive the evolution of five-way and human-specific CBSs, respectively"; Table 1; Fig. 3c; Fig. S6
+  - **Concern** The description of the MK test and alpha estimation is incomplete. The authors state that polymorphic sites with MAF below 10% or 25% were excluded, but the rationale for these thresholds and how they affect the results is not discussed. More critically, the text does not specify how many polymorphic and divergent sites were analyzed in each CBS category, what the statistical power is, or how the length normalization was performed in detail. The alpha estimates for human-specific CBSs are described as "consistently higher" but no numerical values, confidence intervals, or effect sizes are provided in the text. The permutation test is described but the results are not presented in sufficient detail to evaluate whether the observed differences are biologically meaningful or statistically robust.
+  - **Why it matters** The central evolutionary claim of the paper, that human-specific CBSs are under positive selection, rests entirely on these analyses. Without transparent reporting of the underlying data and statistical results, this claim cannot be evaluated or reproduced.
+  - **Resolution test** Provide the full results of the MK tests and alpha estimates, including site counts, normalized values, confidence intervals, and the distribution of permutation results. Clarify the choice of MAF thresholds and demonstrate that the results are not sensitive to these choices.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that human-specific CBSs contribute to human-specific gene regulation, citing examples such as PDE9A, PRDM16, ADCY1, and RIMS1 with strengthened enhancer-promoter interactions in humans.
+  - **Evidence pointer** Results section "Impacts of CBSs near TAD boundary on gene regulation"; Fig. 5d; Fig. S7; Fig. S8; Tables S7 and S8
+  - **Concern** The evidence for the functional claims is presented only through text descriptions without quantitative details. For the PDE9A example, the authors state that enhancer-promoter interaction frequency is "significantly higher" in humans than chimpanzees, but no interaction scores, fold changes, or statistical test results are provided. For the 18 genes with human-specific or human-enhanced contacts, the text mentions 15 are upregulated in humans, but the overlap analysis is not described statistically. The direction of causality is also unclear: do the CBSs drive the expression differences, or are they merely correlated with them?
+  - **Why it matters** These functional claims are the most biologically significant and novel aspects of the paper. If the evidence is not presented transparently, the conclusions cannot be assessed.
+  - **Resolution test** Provide quantitative results for the interaction frequency comparisons, including statistical tests and effect sizes. Describe the overlap analysis between genes with altered contacts and differentially expressed genes, including the statistical significance of the overlap. Discuss the limitations of correlative evidence for causality.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that genetic variants near human CBSs are enriched for heritability of complex traits and diseases, with Alzheimer's disease showing the highest fold enrichment.
+  - **Evidence pointer** Results section "Association of polymorphisms in human CBSs with GWAS hits and disease phenotypes"; Fig. 6; Tables S9-S11
+  - **Concern** The S-LDSC analysis is described but the results are not presented in sufficient detail. The authors state that variants within ±50 kb of human CBSs show significant heritability enrichment across multiple traits, but do not provide the regression coefficients, standard errors, or p-values for individual traits. The claim that Alzheimer's disease shows the highest fold enrichment (46.9% of SNPs accounting for 71.3% of heritability) is presented without context or comparison to other annotations. The robustness analysis using a 25 kb window is mentioned but not described in terms of results.
+  - **Why it matters** The disease relevance of CBSs is a key translational claim of the paper. Without transparent reporting of the S-LDCS results, this claim cannot be evaluated.
+  - **Resolution test** Provide the full S-LDSC results for all 176 traits, including coefficients, standard errors, and p-values. Show the comparison between the 50 kb and 25 kb window analyses. Discuss the multiple testing burden and how it was addressed.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that distinct classes of transposable elements contribute differentially to conserved and human-specific CBSs, with LTR elements, especially ERV1 and ERVL-MaLR, enriched in human-specific CBSs.
+  - **Evidence pointer** Results section "TEs contribute preferentially to human-specific CBSs and TAD boundaries"; Fig. 4; Tables S4-S6
+  - **Concern** The TE analysis is described but the biological interpretation is underdeveloped. The authors report enrichment patterns but do not discuss the mechanistic implications of different TE classes contributing to CBS evolution. For example, why would ERV1 and ERVL-MaLR be specifically enriched in human-specific CBSs? What are the functional consequences of TE-derived CBSs compared to de novo evolved CBSs? The distinction between TE-derived CBSs and CBSs that merely overlap TEs is not clearly articulated.
+  - **Why it matters** The TE contribution is a novel aspect of the study, but the current presentation does not fully develop the biological insights that could be derived from this analysis.
+  - **Resolution test** Provide a more detailed discussion of the mechanistic and evolutionary implications of TE-derived CBSs. Clarify the distinction between TE-derived and TE-overlapping CBSs and discuss the potential functional differences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction assumes significant familiarity with 3D genome architecture concepts. Terms like "loop extrusion," "phase separation," and "TAD" are used without brief definitions, which may limit accessibility for readers outside the chromatin biology field.
+  - **Required correction** Add brief definitions or explanatory phrases for key terms when first introduced.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, BPNet prediction
+  - **Evidence pointer** Materials and Methods, "BPNet prediction of CBSs and their quantitative validation"
+  - **Issue** The description of the BPNet model training is incomplete. The text states that ChIP-seq data from lymphoblastoid cell lines was used, but does not specify which cell lines, how many replicates, what data preprocessing was performed, or how model hyperparameters were selected.
+  - **Required correction** Provide complete details of the training data, preprocessing, and model selection procedure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Conservation classification
+  - **Evidence pointer** Materials and Methods, "Determination of CBS conservation levels across species"
+  - **Issue** The definition of conserved CBSs as overlapping by at least one base pair is very permissive and may include spurious overlaps. The robustness analysis using alternative criteria is mentioned but not described in detail.
+  - **Required correction** Provide the results of the alternative conservation definitions and discuss whether the main conclusions are robust to these choices.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, TE analysis
+  - **Evidence pointer** Results section "TEs contribute preferentially to human-specific CBSs and TAD boundaries"
+  - **Issue** The TE family names (e.g., ERV1, ERVL-MaLR, hAT-Blackjack, hAT-Tip100) are used without explanation of what these elements are or why their differential contributions might be biologically meaningful.
+  - **Required correction** Add brief context for readers unfamiliar with TE biology when introducing specific TE families.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Heritability enrichment
+  - **Evidence pointer** Materials and Methods, "Heritability enrichment analyses"
+  - **Issue** The description of the S-LDSC analysis is brief and does not specify which LD scores were used, how the baseline model was constructed, or how the 176 GWAS datasets were selected and harmonized.
+  - **Required correction** Provide complete methodological details for the S-LDSC analysis.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, "Potential contribution of CBS evolution to human evolution"
+  - **Issue** The discussion of human-specific CBSs and brain evolution is speculative and does not fully acknowledge alternative explanations, such as neutral processes or genetic drift, for the observed patterns.
+  - **Required correction** Add a more balanced discussion of alternative interpretations and the limitations of the evidence.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (insufficient detail on selection analyses), R1-M2 (insufficient quantitative evidence for functional claims), R1-M3 (insufficient detail on heritability enrichment analyses)
+- **Assessment against Nature-style criteria** Originality: The study addresses a relatively underexplored question about CTCF binding site evolution in primates, and the integration of deep learning predictions with evolutionary and functional analyses is novel. However, the conceptual framework largely extends existing work on CTCF conservation and TE-mediated regulatory evolution. Scientific importance: The potential link between CBS evolution and human-specific gene regulation, particularly in the brain, is of broad interest. The disease heritability findings, if robust, would enhance importance. Interdisciplinary readership: The topic bridges genomics, evolution, and disease genetics, which could attract readers from multiple fields. Technical soundness: The deep learning approach is appropriate, but the incomplete reporting of statistical methods and results for key analyses (selection, functional, heritability) prevents full assessment. Readability for nonspecialists: The manuscript is generally well-written but assumes significant background knowledge in chromatin biology and population genetics.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question with a reasonable analytical framework, but the current presentation does not provide sufficient evidence to fully establish the central claims. The authors should provide complete quantitative results for the selection, functional, and heritability analyses, and clarify the methodological details that are currently missing.
+
+## Risk / unsupported claims
+- The claim that "approximately half of human CBSs are conserved across all five species" cannot be verified without the underlying data and the definition of conservation.
+- The claim that human-specific CBSs show signatures of positive selection is not supported by the presented evidence, as no numerical results from the MK tests or alpha estimates are provided.
+- The claim that specific genes (PDE9A, PRDM16, ADCY1, RIMS1) exhibit human-specific regulatory changes is not quantitatively supported in the text.
+- The claim that variants near human CBSs are enriched for heritability of complex traits is not supported by the presented evidence, as no statistical results from the S-LDSC analysis are provided.
+- The claim that distinct TE classes contribute differentially to conserved and human-specific CBSs is presented without quantitative support.
+- The functional significance of the identified human-specific CBSs, particularly the PDE9A example, is correlative and not causally established.

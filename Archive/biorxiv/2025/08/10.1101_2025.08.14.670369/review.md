@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability)
+- **Assessment boundary** Scientific claims and technical soundness based on the provided text only; no supplementary figures or tables were available for direct inspection
+- **Shared manuscript claim summary** The authors use multi-microsecond all-atom MD simulations to show that gain-of-function mutations in λ Cro (Act3 and Act8) remodel a surface patch near the DNA-binding helix-turn-helix motif, reduce DNA engagement, increase solvent exposure, and redistribute intra- and inter-subunit contact networks. They further claim that the disordered C-terminal tail acts as a context-dependent interaction probe, and that truncation of this tail specifically destabilizes DNA binding in Act3 but not in wild-type or Act8.
+- **Visible evidence base** Main text figures (Figures 1–8), Tables 1–2, and references to supplementary figures (S1–S13) and supplementary tables; methods section describing system construction, simulation protocols, and analysis procedures
+- **Missing materials affecting confidence** Supplementary figures S1–S13 and supplementary tables were not provided; raw trajectory data and analysis scripts are referenced but not inspected; no experimental validation data beyond the cited prior work of Brödel et al. is included
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically competent and carefully executed MD simulation study addressing a genuinely interesting question: how a small set of point mutations converts a minimal repressor into a dual-function transcription factor. The simulation design is thoughtful, with multiple system contexts (monomer, dimer, DNA-bound), full-length and truncated variants, and five replicates per system. The analyses are appropriate and the authors are appropriately cautious in their interpretation. However, the central claim that these mutations create a "new interaction patch" that could recruit RNA polymerase remains speculative, as no direct evidence for polymerase binding is provided. The most striking and potentially novel finding, the Act3-specific loss of DNA binding upon C-terminal truncation, is well supported by the simulation data but would benefit from additional analysis to establish its mechanistic basis. The manuscript is clearly written and accessible, though some figure references could not be verified due to missing supplementary materials.
+- **Who would be interested in the results, and why** Researchers in transcription factor structure-function relationships, protein engineering, and biophysics of protein-DNA interactions. The work also has relevance for the synthetic biology community interested in minimal regulatory modules. The demonstration that MD simulations can capture context-dependent effects of the disordered C-terminal tail on DNA binding may interest computational biophysicists studying intrinsically disordered regions.
+- **Major strengths** 1) The study addresses a well-defined and biologically meaningful question with a tractable model system. 2) The simulation design is comprehensive, covering multiple contexts and variants with adequate replication. 3) The analyses are appropriate and the authors distinguish between well-supported observations and more speculative interpretations. 4) The finding that truncation specifically destabilizes DNA binding in Act3 but not in other variants is a clear, testable result that connects to prior experimental observations. 5) The manuscript is well-written and the logic is easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The authors claim that the mutations create a "distinct interaction patch" that "may allow these regions to form alternative intermolecular interactions, potentially enabling binding partners other than the original DNA target" and that this "could expand Cro's functional repertoire beyond that of the wild-type protein."
+  - **Evidence pointer** Section 3.1, Figures 2–3, S1–S4
+  - **Concern** The evidence presented supports the observation that mutations increase solvent exposure and reduce DNA contacts at specific residues. However, the leap from this observation to the claim of a "new interaction patch" with potential for alternative binding partners is not directly supported by any simulation or experimental data. No binding partner other than DNA is simulated, and no evidence is presented that the exposed surface is actually competent for protein-protein interactions. The term "interaction patch" implies a functional binding site, but the data only show altered solvent accessibility and contact patterns.
+  - **Why it matters** This claim is central to the manuscript's stated goal of explaining how mutations confer gain-of-function (dual activator/repressor) activity. If the "new interaction patch" is not demonstrated to be functionally relevant for protein-protein interactions, the mechanistic link between the observed structural changes and the experimentally characterized gain-of-function phenotype remains unestablished.
+  - **Resolution test** The authors should either (a) temper the language to describe the observed changes as "altered surface properties" without implying functional competence, or (b) provide additional evidence, such as docking calculations, binding assays in simulation (e.g., simulating the mutant with a peptide representing the RNA polymerase sigma domain), or analysis of electrostatic potential maps that would support the claim that this surface is competent for protein binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "MM/GBSA assigned little energetic weight to the presence of the C-terminal tail" despite observing frequent tail-DNA contacts, and they attribute this to "shielding by nearby polar residues or underestimation of electrostatics in implicit solvent models."
+  - **Evidence pointer** Section 3.3, Table 2
+  - **Concern** The MM/GBSA results are internally inconsistent with the contact analysis. The authors report that tail-DNA contacts occur in over 90% of frames, yet the binding energy calculations show no significant contribution from the tail for wild-type and Act8. The authors offer two possible explanations but do not test either. This is a significant unresolved discrepancy that undermines confidence in the MM/GBSA results as a quantitative measure of binding contributions.
+  - **Why it matters** The MM/GBSA analysis is used to support the claim that truncation specifically reduces DNA binding in Act3. If the method cannot capture the energetic contribution of the tail in other contexts, its reliability for the Act3 comparison is questionable. The discrepancy also raises concerns about whether the observed Act3-specific effect is real or an artifact of the energy calculation method.
+  - **Resolution test** The authors should perform additional analysis to resolve this discrepancy. For example, they could (a) decompose the MM/GBSA energy by residue to show the per-residue contribution of the tail, (b) compare MM/GBSA results with an alternative method such as MM-PBSA with different solvent models, or (c) perform alchemical free energy perturbation calculations for the tail truncation in each variant. At minimum, they should acknowledge this limitation more prominently and avoid over-interpreting the quantitative energy values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive caution
+  - **Claim pointer** The authors state that "the combination of mutation and truncation had a drastic effect on Cro's DNA-binding ability" and that "in Act3, the mutation sites and the disordered C-terminus act together to maintain DNA binding."
+  - **Evidence pointer** Section 3.3, Figure 6, Figure S10, Table 2
+  - **Concern** The observation that truncated Act3 loses DNA association in 4 out of 5 simulations is striking, but the mechanistic interpretation that the mutations and C-terminus "act together" is not directly demonstrated. The authors do not show how the mutations in Act3 specifically alter the tail's behavior or its interaction with DNA. The claim of synergy between the mutation sites and the tail is inferred rather than demonstrated.
+  - **Why it matters** The manuscript's central mechanistic insight is that the disordered tail plays a context-dependent role that is specifically important in the Act3 background. Without direct evidence for how the mutations alter tail function, the claim of synergy remains speculative. This weakens the manuscript's contribution to understanding how disordered regions modulate transcription factor function.
+  - **Resolution test** The authors should perform additional analyses to directly test the proposed synergy. For example, they could (a) compare tail dynamics and contact patterns between wild-type and Act3 in the DNA-bound state to identify mutation-induced changes in tail behavior, (b) analyze correlated motions between the mutation sites and the tail, or (c) simulate a chimeric construct where the Act3 mutations are introduced into a background with a different tail sequence to test whether the effect is tail-specific.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, simulation protocol
+  - **Evidence pointer** Section 2.2
+  - **Issue** The description of the equilibration protocol is somewhat unclear. The authors state that the first 200 ns of each simulation were considered equilibration based on RMSD data, but it is not specified whether this 200 ns period was excluded from all analyses or only from certain analyses. Additionally, the criteria for determining that 200 ns was sufficient for equilibration are not described.
+  - **Required correction** Clarify which analyses used the full trajectories and which used only post-equilibration frames. Provide a brief description of the RMSD-based criteria used to determine the equilibration period, or reference a standard protocol.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 3.3, dissociation events
+  - **Evidence pointer** Section 3.3, Figure S10
+  - **Issue** The authors report that truncated Act3 lost DNA association in 4 out of 5 simulations, but no statistical analysis is provided to assess the significance of this observation. With only five replicates, the confidence interval on this proportion is wide.
+  - **Required correction** Provide a simple statistical statement, such as a binomial confidence interval, or acknowledge the limited statistical power of five replicates. If possible, report the time to dissociation in each replicate to provide a more quantitative measure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Section 2.2, force field parameters
+  - **Evidence pointer** Section 2.2
+  - **Issue** The authors state that simulations used the ff19SB force field and BSC1 DNA force field but do not specify the version of BSC1 used or whether any custom parameters were required for the non-standard residues or modifications.
+  - **Required correction** Specify the exact BSC1 version and any additional parameter files used. If no custom parameters were needed, state this explicitly.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.1, system construction
+  - **Evidence pointer** Section 2.1
+  - **Issue** The authors state that models were based on PDB entries 1COP and 6CRO but do not specify which NMR models from the 1COP ensemble were used as starting structures. The choice of starting model could influence the results.
+  - **Required correction** Specify which models from the 1COP ensemble were used and whether multiple starting structures were tested. If only one model was used, justify this choice.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretive caution
+  - **Affected element** Section 3.4, dCNA analysis
+  - **Evidence pointer** Section 3.4, Figures 7–8
+  - **Concern** The dCNA analysis identifies changes in community structure, but the biological significance of these changes is not always clear. For example, the statement that "community 12 formed new contacts with community 2" is difficult to interpret without a clearer mapping of communities to functional elements.
+  - **Required correction** Provide a clearer description of what each community represents in structural or functional terms, perhaps with a schematic or table mapping communities to residues and secondary structure elements.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4, Discussion
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion of the potential interaction with the RNA polymerase sigma domain is speculative and not supported by any simulation or experimental data in this manuscript. While this is acknowledged, the speculation is quite detailed and may overstate the confidence in this interpretation.
+  - **Required correction** Either add a brief analysis supporting this speculation (e.g., electrostatic surface calculations or docking) or reduce the detail of the speculation and clearly label it as a hypothesis for future testing.
+
+## Risk / unsupported claims
+- The claim that the mutations create a "distinct interaction patch" competent for binding alternative partners (including RNA polymerase) is unsupported by direct evidence in this manuscript.
+- The claim that the C-terminal tail and mutation sites "act together" to maintain DNA binding in Act3 is inferred from correlation and not directly demonstrated.
+- The MM/GBSA results are presented as quantitative binding energies, but the internal inconsistency with contact analysis suggests these values should be interpreted with caution.
+- The statement that "these changes promote cooperative accessibility of this patch" (Section 1) is not directly supported by the analyses presented.
+- The claim that "minimal sequence changes can reorganize interaction surfaces, shift DNA-binding modes, modulate binding affinities, and redistribute intramolecular communication pathways" (abstract) is partially supported, but "modulate binding affinities" is only supported by the MM/GBSA calculations, which have the noted limitations.
+- The suggestion that the observed changes "may broaden regulatory potential" is speculative and not tested in this study.

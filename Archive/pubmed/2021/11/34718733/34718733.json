@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "34718733",
+    "doi": "10.1093/nar/gkab956",
+    "title": "Inferring primase-DNA specific recognition using a data driven approach."
+  },
+  "content": {
+    "abstract": "DNA-protein interactions play essential roles in all living cells. Understanding of how features embedded in the DNA sequence affect specific interactions with proteins is both challenging and important, since it may contribute to finding the means to regulate metabolic pathways involving DNA-protein interactions. Using a massive experimental benchmark dataset of binding scores for DNA sequences and a machine learning workflow, we describe the binding to DNA of T7 primase, as a model system for specific DNA-protein interactions. Effective binding of T7 primase to its specific DNA recognition sequences triggers the formation of RNA primers that serve as Okazaki fragment start sites during DNA replication.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "DNA/*chemistry/metabolism",
+      "DNA Primase/*chemistry/metabolism",
+      "Machine Learning",
+      "*Nucleotide Motifs",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Soffer, Adam",
+        "Eisdorfer, Sarah A",
+        "Ifrach, Morya",
+        "Ilic, Stefan",
+        "Afek, Ariel",
+        "Schussheim, Hallel",
+        "Vilenchik, Dan",
+        "Akabayov, Barak"
+      ],
+      "short_names": [
+        "Soffer A",
+        "Eisdorfer SA",
+        "Ifrach M",
+        "Ilic S",
+        "Afek A",
+        "Schussheim H",
+        "Vilenchik D",
+        "Akabayov B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3882-2742"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "Data Science Research Center, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "School of Computer and Electrical Engineering, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "Department of Chemistry, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "Department of Chemistry, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "Department of Chemistry, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "Department of Chemistry, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "Department of Chemistry, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "Data Science Research Center, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "School of Computer and Electrical Engineering, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "Department of Chemistry, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+        "Data Science Research Center, Ben-Gurion University of the Negev, Beer-Sheva, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Soffer, Adam",
+        "short_name": "Soffer A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+          "Data Science Research Center, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+          "School of Computer and Electrical Engineering, Ben-Gurion University of the Negev, Beer-Sheva, Israel."
+        ]
+      },
+      {
+        "full_name": "Eisdorfer, Sarah A",
+        "short_name": "Eisdorfer SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Ben-Gurion University of the Negev, Beer-Sheva, Israel."
+        ]
+      },
+      {
+        "full_name": "Ifrach, Morya",
+        "short_name": "Ifrach M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Ben-Gurion University of the Negev, Beer-Sheva, Israel."
+        ]
+      },
+      {
+        "full_name": "Ilic, Stefan",
+        "short_name": "Ilic S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Ben-Gurion University of the Negev, Beer-Sheva, Israel."
+        ]
+      },
+      {
+        "full_name": "Afek, Ariel",
+        "short_name": "Afek A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Ben-Gurion University of the Negev, Beer-Sheva, Israel."
+        ]
+      },
+      {
+        "full_name": "Schussheim, Hallel",
+        "short_name": "Schussheim H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Ben-Gurion University of the Negev, Beer-Sheva, Israel."
+        ]
+      },
+      {
+        "full_name": "Vilenchik, Dan",
+        "short_name": "Vilenchik D",
+        "identifiers": [],
+        "affiliations": [
+          "Data Science Research Center, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+          "School of Computer and Electrical Engineering, Ben-Gurion University of the Negev, Beer-Sheva, Israel."
+        ]
+      },
+      {
+        "full_name": "Akabayov, Barak",
+        "short_name": "Akabayov B",
+        "identifiers": [
+          "0000-0002-3882-2742"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Ben-Gurion University of the Negev, Beer-Sheva, Israel.",
+          "Data Science Research Center, Ben-Gurion University of the Negev, Beer-Sheva, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2021 Nov 18",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/01 06:00",
+    "fetched_at": "2026-09-28 01:28:36"
+  },
+  "links": {
+    "cites": [
+      "41594618",
+      "38597656",
+      "35860597"
+    ],
+    "refs": [
+      "31657797",
+      "30619452",
+      "30428370",
+      "28003473",
+      "25843630",
+      "25431149",
+      "25378322",
+      "25215497",
+      "25151169",
+      "24732113",
+      "24048476",
+      "23430154",
+      "23378587",
+      "23332764",
+      "22153082",
+      "21654662",
+      "21177974",
+      "20802496",
+      "20439755",
+      "20350931",
+      "20334529",
+      "20176964",
+      "19865164",
+      "19843614",
+      "19443739",
+      "19305407",
+      "19150431",
+      "18585360",
+      "18243105",
+      "18193061",
+      "17571346",
+      "17540862",
+      "17367384",
+      "17266726",
+      "17218526",
+      "17179217",
+      "16998473",
+      "16452437",
+      "16418267",
+      "16285921",
+      "15939015",
+      "15499007",
+      "12399584",
+      "11673465",
+      "11395402",
+      "11125145",
+      "10651639",
+      "9653122",
+      "9038214",
+      "8702921",
+      "6454135",
+      "4582884",
+      "4560695",
+      "1744119",
+      "226545",
+      "225112"
+    ],
+    "similar": [
+      "34718733",
+      "28386108",
+      "11673465",
+      "31657797",
+      "23675753",
+      "14636571",
+      "26620561",
+      "10585474",
+      "28724886",
+      "20350931",
+      "10200256",
+      "11279245",
+      "12228732",
+      "38597656",
+      "12475230",
+      "14557266",
+      "10747950",
+      "15133047",
+      "16285921",
+      "19206208",
+      "20591822",
+      "10745010",
+      "11829500",
+      "15917241",
+      "28977480",
+      "11531331",
+      "9500915",
+      "23024359",
+      "22645372",
+      "28882207",
+      "17704817",
+      "9139692",
+      "19574219",
+      "20439755",
+      "10677213",
+      "15044449",
+      "12769857",
+      "10585475",
+      "11135672",
+      "24747220",
+      "27805033",
+      "9482751",
+      "14750947",
+      "30446220",
+      "11584001",
+      "10535735",
+      "12806117",
+      "17709343",
+      "15897200",
+      "24126761",
+      "26710848",
+      "28003473",
+      "23430154",
+      "10873470",
+      "15379576",
+      "24239947",
+      "9651583",
+      "30433774",
+      "17893144",
+      "25098604",
+      "10880454",
+      "22605336",
+      "25550159",
+      "22593576",
+      "17947583",
+      "28052235",
+      "21907611",
+      "11735390",
+      "10504261",
+      "24962573",
+      "32826907",
+      "10480949",
+      "21715379",
+      "21856338",
+      "16935873",
+      "29558114",
+      "22700977",
+      "16642036",
+      "17553899",
+      "10757986",
+      "8702921",
+      "31595021",
+      "24043831",
+      "10741967",
+      "20643958",
+      "29070678",
+      "23563155",
+      "10387012",
+      "21265755",
+      "30901180",
+      "16452983",
+      "9497392",
+      "32463447",
+      "18452509",
+      "30428370",
+      "16612544",
+      "34346209"
+    ],
+    "review": [
+      "34718733",
+      "12806117",
+      "21907611",
+      "16935873"
+    ],
+    "pmc": [
+      "8599759"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34718733/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34718733",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkab956",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

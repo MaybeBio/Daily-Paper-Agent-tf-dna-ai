@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors propose MDNet-TFP, a multiview deep learning framework for transcription factor binding site (TFBS) prediction. The framework includes a bidirectional reverse complement module (BiRC-Mamba) and a multiscale convolutional recurrent attention network (MCRAN). The authors report superior performance over existing methods across 165 ChIP-seq datasets (average ACC 88.13% +/- 0.47, ROC-AUC 93.72% +/- 0.15, PR-AUC 93.40% +/- 0.21) and sustained performance across 690 ChIP-seq datasets. Motif visualization is used to show that high-attention regions align with known TF binding motifs.
+- **Visible evidence base** Abstract text only; no quantitative comparisons, dataset descriptions, baseline specifications, or visualization results are provided
+- **Missing materials affecting confidence** Full methods, model architecture details, hyperparameter settings, training and evaluation protocols, baseline model descriptions, statistical test details, dataset composition and preprocessing, motif visualization figures, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful contribution to TFBS prediction by combining multiple sequence views and architectural innovations. However, the evidence provided is insufficient to evaluate the technical soundness, the validity of the performance claims, or the biological interpretability claims. The reported performance metrics lack context regarding baselines, statistical significance, and dataset variability. The abstract reads as a high-level summary but does not provide enough detail to assess whether the proposed method represents a genuine advance over existing approaches.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on regulatory genomics, specifically those developing or applying deep learning methods for TFBS prediction, motif discovery, and gene regulatory network inference. Researchers interested in DNA sequence representation learning and model interpretability may also find the approach relevant.
+- **Major strengths** The proposed framework addresses recognized limitations in TFBS prediction, including DNA structural features, long-range dependencies, and multi-source data integration. The use of bidirectional and reverse complement properties of DNA is biologically motivated. The reported evaluation across a large number of ChIP-seq datasets suggests an effort toward broad benchmarking.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model outperforms existing methods across 165 ChIP-seq datasets with average ACC 88.13%, ROC-AUC 93.72%, and PR-AUC 93.40%.
+  - **Evidence pointer** Abstract, performance metrics section; location not provided
+  - **Concern** The abstract does not specify which existing methods were compared, how baselines were configured, or whether the performance differences are statistically significant. Without this information, the claim of outperforming existing methods cannot be evaluated.
+  - **Why it matters** A central claim of the work is superiority over prior methods. If baselines are not described or are weakly configured, the reported improvements may be artifactual. The absence of statistical testing also leaves open the possibility that observed differences are within noise.
+  - **Resolution test** Provide a table comparing MDNet-TFP against at least three established TFBS prediction methods on identical datasets and splits, with standard deviations and appropriate statistical tests (e.g., paired t-test or Wilcoxon signed-rank test) reported.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The framework introduces BiRC-Mamba and MCRAN as novel components.
+  - **Evidence pointer** Abstract, method description; location not provided
+  - **Concern** No architectural details, parameter counts, or training procedures are provided. The abstract names modules but does not describe how they are implemented, how they interact, or what design choices were made.
+  - **Why it matters** Reproducibility is a core requirement for computational biology methods. Without architectural specifics, other researchers cannot implement or validate the method, and reviewers cannot assess whether the design is sound or whether the components are genuinely novel.
+  - **Resolution test** Provide a detailed methods section with layer-by-layer architecture descriptions, input and output dimensions, activation functions, loss functions, optimization settings, and a clear explanation of how the multiview inputs are constructed and fused.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretability claim
+  - **Claim pointer** Motif visualization reveals that high-attention regions align with known TF binding motifs, substantiating the model's ability to generalize and interpret complex genomic data.
+  - **Evidence pointer** Abstract, motif visualization section; location not provided
+  - **Concern** The abstract states that attention regions align with known motifs but provides no quantitative measure of this alignment, no comparison to random expectation, and no description of the visualization method.
+  - **Why it matters** The interpretability claim is used to support biological validity and generalization. Without quantitative enrichment analysis or comparison to control regions, the alignment could be coincidental or trivially expected given sequence composition.
+  - **Resolution test** Provide motif enrichment statistics (e.g., fraction of top-attention regions containing known motifs, compared to shuffled or genomic background), and show representative visualization examples with motif logos and positional distributions.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first paragraph; location not provided
+  - **Issue** The phrase "horizontal line" appears twice in the abstract, likely as a formatting artifact. This disrupts readability.
+  - **Required correction** Remove the phrase "horizontal line" and replace with appropriate punctuation or connectors.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Performance reporting
+  - **Evidence pointer** Abstract, performance metrics; location not provided
+  - **Issue** The abstract reports mean and standard deviation for ACC but not for ROC-AUC or PR-AUC. It is unclear whether these metrics are averaged across all 165 datasets or across cross-validation folds.
+  - **Required correction** Report mean and standard deviation for all three metrics and specify the aggregation unit (datasets or folds).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalization claim
+  - **Affected element** Evaluation scope
+  - **Evidence pointer** Abstract, 690 ChIP-seq datasets; location not provided
+  - **Issue** The claim that the model "maintains its high performance" across 690 datasets is vague. No metrics are given for this larger set, and it is unclear whether these datasets overlap with the 165 used for the primary evaluation.
+  - **Required correction** Provide performance metrics for the 690-dataset evaluation and clarify the relationship between the 165 and 690 dataset sets.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (baseline comparison and statistical significance), R1-M2 (architectural details and reproducibility), R1-M3 (quantitative motif alignment evidence)
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of multiview learning with bidirectional reverse complement modeling and multiscale attention is somewhat novel, but the abstract does not clearly differentiate the approach from existing deep learning methods for TFBS prediction. Originality is plausible but not established from the abstract alone.
+  - Scientific importance: TFBS prediction is an important problem in regulatory genomics, and improved methods could have broad utility. However, the abstract does not demonstrate a substantial advance over the state of the art, so the scientific importance of the specific contribution is not yet clear.
+  - Interdisciplinary readership: The work is primarily of interest to computational biologists and machine learning researchers. The abstract does not frame the findings in a way that would attract a broader biological or clinical audience.
+  - Technical soundness: Not assessable from the abstract. Key technical details are missing, and the performance claims are not verifiable without baseline descriptions and statistical tests.
+  - Readability for nonspecialists: The abstract is generally readable but uses jargon without explanation (e.g., BiRC-Mamba, MCRAN). The significance of the reported metrics is not contextualized for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising direction, but the core claims of performance superiority and biological interpretability cannot be evaluated without full methodological details and quantitative comparisons. The manuscript may become publishable if the technical concerns are resolved in the full text.
+
+## Risk / unsupported claims
+- The claim of outperforming existing methods across 165 ChIP-seq datasets is unsupported because no baselines, statistical tests, or comparison protocols are described.
+- The claim that high-attention regions align with known TF binding motifs is unsupported because no quantitative enrichment analysis or control comparison is provided.
+- The claim of maintaining high performance across 690 ChIP-seq datasets is unsupported because no metrics are reported for this evaluation.
+- The novelty of the BiRC-Mamba and MCRAN components is not assessable without architectural details and comparison to prior work.

@@ -1,0 +1,123 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.03.597089",
+  "title": "Generative AI impact on protein stability prediction in breast cancer genes",
+  "doi": "10.1101/2024.06.03.597089",
+  "abstract": "The functional classification of a missense variant in cancer predisposition genes is often challenging due to how rare the variant is observed in the population. When available, clinicians utilize a combination of family history, in vitro functional assays and in silico methods to infer protein function. In silico methods, such as missense predictors (predict changes in protein function) and protein stability predictors (predict changes in free energy) have been used to help classify a missense variant in accordance with the American College of Medical Genetics and Genomics (ACMG) guideline. To measure protein stability, many in silico algorithms predict stability based on the change of free energy and most accurate protein stability predictors require a wild-type protein template. In this study, we examine the use of generative AI to predict high-resolution protein structures as templates analyzed with protein stability methods to evaluate loss of function (LOF) activity in cancer predisposition genes BRCA1, BRCA2, PALB2 and RAD51C upon the presence of missense variant. Utilizing multiplexed assay of variant effect measurements and variant classifications from ClinVar, we find that prediction of Gibbs free energy (ΔΔG) from AlphaFold2 (AF2) structures analyzed with FoldX predicts LOF better than experimental-derived wild type structures in the BRCT domain of BRCA1 and the DNA binding domain (DBD) of BRCA2 , but not in PALB2 and RAD51C . We also find that AF2 structures in the BRCT domain of BRCA1 and DBD-Dss1 domain of BRCA2 analyzed with FoldX measure homologous DNA recombination (HDR) activity significantly better than Rosetta and DDGun3D. Our study also revealed that there are other factors that contribute to predicting loss of function activity other than protein stability, with AlphaMissense ranking the best overall predictor of LOF activity in these tumor suppressor breast cancer genes. <h4>Author Summary</h4> The stability of a protein, often expressed in terms of Gibbs free energy (ΔΔG), is a critical factor in predicting loss of function (LOF) activity when a missense variant is present. The effect is higher in haploinsufficient genes like the tumor suppressor genes BRCA1, BRCA2, PALB2 and RAD51C . Protein stability predictors that utilizes a wild-type structure to make its predictions is often limited by the availability of experimentally-derived protein structures. Here, in our study we show that generative AI, like AlphaFold2 (AF2) can predict structures similar to experimentally-derived structures with high similarity. Furthermore, protein stability tools such as FoldX, Rosetta, and DDGun3D can be used in conjunction to measure changes in stability. From our study, we find that complex AF2 structures representing the BRCT domain of BRCA1 and DBD domain of BRCA2 analyzed by FoldX predicts function significantly better than the experimentally-derived structures. However, predicted |ΔΔG| does not predict function better than purpose-built in silico missense predictors for protein function. Overall, we find the AlphaMissense is the best predictor to predict function in these tumor suppressor breast cancer genes.",
+  "authors": [
+    "Gnanaolivu R",
+    "Hart SN"
+  ],
+  "published_date": "2024-06-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.03.597089",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.03.597089.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR861157",
+    "raw_record": {
+      "id": "PPR861157",
+      "source": "PPR",
+      "doi": "10.1101/2024.06.03.597089",
+      "title": "Generative AI impact on protein stability prediction in breast cancer genes",
+      "authorString": "Gnanaolivu R, Hart SN.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Gnanaolivu R",
+            "lastName": "Gnanaolivu",
+            "firstName": "Rohan",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6995-6340"
+            }
+          },
+          {
+            "fullName": "Hart SN",
+            "lastName": "Hart",
+            "firstName": "Steven",
+            "initials": "SN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7714-2734"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6995-6340"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7714-2734"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The functional classification of a missense variant in cancer predisposition genes is often challenging due to how rare the variant is observed in the population. When available, clinicians utilize a combination of family history,  in vitro functional assays and  in silico methods to infer protein function.  In silico methods, such as missense predictors (predict changes in protein function) and protein stability predictors (predict changes in free energy) have been used to help classify a missense variant in accordance with the American College of Medical Genetics and Genomics (ACMG) guideline. To measure protein stability, many  in silico algorithms predict stability based on the change of free energy and most accurate protein stability predictors require a wild-type protein template. In this study, we examine the use of generative AI to predict high-resolution protein structures as templates analyzed with protein stability methods to evaluate loss of function (LOF) activity in cancer predisposition genes  BRCA1, BRCA2, PALB2 and  RAD51C upon the presence of missense variant. Utilizing multiplexed assay of variant effect measurements and variant classifications from ClinVar, we find that prediction of Gibbs free energy (ΔΔG) from AlphaFold2 (AF2) structures analyzed with FoldX predicts LOF better than experimental-derived wild type structures in the BRCT domain of  BRCA1 and the DNA binding domain (DBD) of  BRCA2 , but not in  PALB2 and  RAD51C . We also find that AF2 structures in the BRCT domain of BRCA1 and DBD-Dss1 domain of BRCA2 analyzed with FoldX measure homologous DNA recombination (HDR) activity significantly better than Rosetta and DDGun3D. Our study also revealed that there are other factors that contribute to predicting loss of function activity other than protein stability, with AlphaMissense ranking the best overall predictor of LOF activity in these tumor suppressor breast cancer genes.  <h4>Author Summary</h4>  The stability of a protein, often expressed in terms of Gibbs free energy (ΔΔG), is a critical factor in predicting loss of function (LOF) activity when a missense variant is present. The effect is higher in haploinsufficient genes like the tumor suppressor genes  BRCA1, BRCA2, PALB2 and  RAD51C . Protein stability predictors that utilizes a wild-type structure to make its predictions is often limited by the availability of experimentally-derived protein structures. Here, in our study we show that generative AI, like AlphaFold2 (AF2) can predict structures similar to experimentally-derived structures with high similarity. Furthermore, protein stability tools such as FoldX, Rosetta, and DDGun3D can be used in conjunction to measure changes in stability. From our study, we find that complex AF2 structures representing the BRCT domain of  BRCA1 and DBD domain of  BRCA2 analyzed by FoldX predicts function significantly better than the experimentally-derived structures. However, predicted |ΔΔG| does not predict function better than purpose-built  in silico missense predictors for protein function. Overall, we find the AlphaMissense is the best predictor to predict function in these tumor suppressor breast cancer genes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.06.03.597089"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.06.03.597089"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-06-05",
+      "firstPublicationDate": "2024-06-03",
+      "firstIndexDate": "2024-06-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

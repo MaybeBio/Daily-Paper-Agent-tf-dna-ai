@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35924336",
+  "title": "Modeling chromatin state from sequence across angiosperms using recurrent convolutional neural networks.",
+  "authors": "Wrightsman, Travis; Marand, Alexandre P; Crisp, Peter A; Springer, Nathan M; Buckler, Edward S",
+  "journal": "The plant genome",
+  "published_date": "2022-08-05",
+  "window": {
+    "start": "2022-08-01",
+    "end": "2022-08-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用循环卷积网络从序列预测被子植物染色质可及性，并解析转录因子基序重要性，虽涉及TF-DNA结合位点但非直接互作建模，方法可迁移至TF-DNA研究。",
+  "abstract": "Accessible chromatin regions are critical components of gene regulation but modeling them directly from sequence remains challenging, especially within plants, whose mechanisms of chromatin remodeling are less understood than in animals. We trained an existing deep-learning architecture, DanQ, on data from 12 angiosperm species to predict the chromatin accessibility in leaf of sequence windows within and across species. We also trained DanQ on DNA methylation data from 10 angiosperms because unmethylated regions have been shown to overlap significantly with ACRs in some plants. The across-species models have comparable or even superior performance to a model trained within species, suggesting strong conservation of chromatin mechanisms across angiosperms. Testing a maize (Zea mays L.) held-out model on a multi-tissue chromatin accessibility panel revealed our models are best at predicting constitutively accessible chromatin regions, with diminishing performance as cell-type specificity increases. Using a combination of interpretation methods, we ranked JASPAR motifs by their importance to each model and saw that the TCP and AP2/ERF transcription factor (TF) families consistently ranked highly. We embedded the top three JASPAR motifs for each model at all possible positions on both strands in our sequence window and observed position- and strand-specific patterns in their importance to the model. With our publicly available across-species 'a2z' model it is now feasible to predict the chromatin accessibility and methylation landscape of any angiosperm genome.",
+  "abstract_zh": "可及染色质区域是基因调控的关键组成部分，但直接从序列对其进行建模仍具挑战性，尤其是在植物中，其染色质重塑机制相较于动物了解较少。我们利用现有深度学习架构DanQ，对12个被子植物物种的数据进行训练，以预测叶片中序列窗口内及跨物种的染色质可及性。同时，我们还基于10个被子植物的DNA甲基化数据训练了DanQ，因为未甲基化区域已被证明在某些植物中与ACRs显著重叠。跨物种模型的表现与物种内训练的模型相当甚至更优，表明被子植物间染色质机制存在强保守性。对玉米（Zea mays L.）留出模型在多组织染色质可及性面板上的测试显示，我们的模型在预测组成性可及染色质区域方面表现最佳，随着细胞类型特异性的增加，性能逐渐下降。结合多种解释方法，我们按各模型的重要性对JASPAR基序进行排序，发现TCP和AP2/ERF转录因子（TF）家族始终排名靠前。我们将每个模型的前三个JASPAR基序嵌入序列窗口中的所有可能位置及两条链上，观察到它们对模型重要性的位置和链特异性模式。借助我们公开可用的跨物种“a2z”模型，现在可以预测任何被子植物基因组的染色质可及性和甲基化景观。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35924336/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35924336/",
+  "paper_page_path": "papers/pubmed/35924336/index.html"
+}

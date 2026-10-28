@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "40289395",
+    "doi": "10.1002/cncy.70018",
+    "title": "Selection of neuroendocrine markers in diagnostic workup of neuroendocrine neoplasms: The real-world data and machine learning model algorithms."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Accurate diagnosis of neuroendocrine neoplasms (NENs) is challenging, especially in poorly differentiated neuroendocrine carcinomas (NECs). This study was aimed to search the best or best combination of neuroendocrine markers in the diagnostic workup of NENs via analysis of the real-world data and machine learning algorithms. METHODS: Cytology cases with a workup of four neuroendocrine markers (chromogranin, synaptophysin, CD56, and INSM1) were retrieved. Sensitivity, specificity, and area under the curve of receiver operating characteristic curve (AUC-ROC) were calculated for each marker alone or in combination. Two machine learning algorithms, neural network and random forests, were also tested. RESULTS: The study cohort included 106 NENs (64 NECs and 42 well-differentiated neuroendocrine tumors [NETs]) and 36 non-NEN cases. The combination of synaptophysin and INSM1 had sensitivity of 0.95, specificity of 0.92, and AUC-ROC of 0.93. Addition of CD56 to the combination further increased the sensitivity and AUC-ROC to 1 and 0.96, respectively, in all NENs as well as NEC cases. In addition, the combination of chromogranin, synaptophysin and INSM1 had sensitivity of 1, specificity of 0.92, and AUC-ROC of 0.96 in NETs. Machine learning models, specifically random forests and neural network, confirmed the efficacy of combining synaptophysin, INSM1, and CD56. CONCLUSIONS: The combination of synaptophysin, INSM1, and CD56 has the best performance in diagnostic workup of all NENs, although chromogranin may be selected for NETS. The random forests and neural network models support the common practice rule of requiring at least two out of three markers to be positive for optimal marker utilization.",
+    "keywords": [
+      "immunocytochemistry",
+      "machine learning",
+      "neural network",
+      "neuroendocrine neoplasm",
+      "random forests"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Machine Learning",
+      "*Biomarkers, Tumor/analysis/metabolism",
+      "*Neuroendocrine Tumors/diagnosis/pathology/metabolism",
+      "Male",
+      "Synaptophysin/metabolism/analysis",
+      "Female",
+      "Middle Aged",
+      "Algorithms",
+      "Aged",
+      "Adult",
+      "CD56 Antigen/metabolism/analysis",
+      "Repressor Proteins/metabolism/analysis",
+      "ROC Curve",
+      "Sensitivity and Specificity",
+      "Chromogranins/metabolism",
+      "Carcinoma, Neuroendocrine/diagnosis/pathology",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tang, Haiming",
+        "Xia, Haoran",
+        "Sun, Nanfei",
+        "Hernandez, Patricia V",
+        "Wang, Minhua",
+        "Adeniran, Adebowale J",
+        "Cai, Guoping"
+      ],
+      "short_names": [
+        "Tang H",
+        "Xia H",
+        "Sun N",
+        "Hernandez PV",
+        "Wang M",
+        "Adeniran AJ",
+        "Cai G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7340-3631",
+        "ORCID: 0000-0002-2283-7050",
+        "ORCID: 0000-0001-9820-632X",
+        "ORCID: 0000-0002-8725-5940"
+      ],
+      "affiliations": [
+        "Department of Pathology, Yale University School of Medicine, New Haven, Connecticut, USA.",
+        "School of Computer Science, Georgia Institute of Technology, Atlanta, Georgia, USA.",
+        "Department of Management Information System, College of Business, University of Houston Clear Lake, Houston, Texas, USA.",
+        "Department of Pathology and Immunology, Washington University School of Medicine in St. Louis, St. Louis, Missouri, USA.",
+        "Department of Pathology, Yale University School of Medicine, New Haven, Connecticut, USA.",
+        "Department of Pathology, Yale University School of Medicine, New Haven, Connecticut, USA.",
+        "Department of Pathology, Yale University School of Medicine, New Haven, Connecticut, USA.",
+        "Yale Cancer Center, Yale University School of Medicine, New Haven, Connecticut, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tang, Haiming",
+        "short_name": "Tang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Yale University School of Medicine, New Haven, Connecticut, USA."
+        ]
+      },
+      {
+        "full_name": "Xia, Haoran",
+        "short_name": "Xia H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Georgia Institute of Technology, Atlanta, Georgia, USA."
+        ]
+      },
+      {
+        "full_name": "Sun, Nanfei",
+        "short_name": "Sun N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Management Information System, College of Business, University of Houston Clear Lake, Houston, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Hernandez, Patricia V",
+        "short_name": "Hernandez PV",
+        "identifiers": [
+          "0000-0002-7340-3631"
+        ],
+        "affiliations": [
+          "Department of Pathology and Immunology, Washington University School of Medicine in St. Louis, St. Louis, Missouri, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Minhua",
+        "short_name": "Wang M",
+        "identifiers": [
+          "0000-0002-2283-7050"
+        ],
+        "affiliations": [
+          "Department of Pathology, Yale University School of Medicine, New Haven, Connecticut, USA."
+        ]
+      },
+      {
+        "full_name": "Adeniran, Adebowale J",
+        "short_name": "Adeniran AJ",
+        "identifiers": [
+          "0000-0001-9820-632X"
+        ],
+        "affiliations": [
+          "Department of Pathology, Yale University School of Medicine, New Haven, Connecticut, USA."
+        ]
+      },
+      {
+        "full_name": "Cai, Guoping",
+        "short_name": "Cai G",
+        "identifiers": [
+          "0000-0002-8725-5940"
+        ],
+        "affiliations": [
+          "Department of Pathology, Yale University School of Medicine, New Haven, Connecticut, USA.",
+          "Yale Cancer Center, Yale University School of Medicine, New Haven, Connecticut, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cancer cytopathology"
+    ],
+    "journal_abbrev": [
+      "Cancer Cytopathol"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/28 06:27",
+    "fetched_at": "2026-09-30 16:53:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40289395",
+      "33847383",
+      "39472993",
+      "32381384",
+      "30502379",
+      "33323849",
+      "32951906",
+      "33264139",
+      "31345782",
+      "37951531",
+      "29360191",
+      "37608427",
+      "31876605",
+      "32118626",
+      "32059362",
+      "28719469",
+      "38171081",
+      "30154579",
+      "34008122",
+      "35357570",
+      "31040050",
+      "34764822",
+      "31031215",
+      "33426999",
+      "31913660",
+      "32388776",
+      "31077609",
+      "38980337",
+      "33417719",
+      "32813226",
+      "33933015",
+      "30358615",
+      "39223347",
+      "38142627",
+      "33650906",
+      "33610950",
+      "38192158",
+      "33989959",
+      "32128564",
+      "39023587",
+      "34996493",
+      "38614035",
+      "32573984",
+      "39110839",
+      "40934719",
+      "39212909",
+      "30385371",
+      "34647171",
+      "34619866",
+      "33480601",
+      "36245222",
+      "31436913",
+      "39577349",
+      "35294740",
+      "34401980",
+      "37406366",
+      "39344951",
+      "30523500",
+      "33891968",
+      "35690220",
+      "35147301",
+      "18487991",
+      "31977134",
+      "39937015",
+      "31236152",
+      "37169096",
+      "31557757",
+      "24989916",
+      "39276535",
+      "33156579",
+      "30969346",
+      "11213840",
+      "32203089",
+      "31343851",
+      "31390635",
+      "38655814",
+      "36206956",
+      "38575468",
+      "17585539",
+      "36895178",
+      "35394077",
+      "32763255",
+      "34555651",
+      "22534245",
+      "15782066",
+      "26386079",
+      "30423609",
+      "38622292",
+      "34454530",
+      "27124922",
+      "29330208",
+      "28849340",
+      "36422794",
+      "23720983",
+      "38060154",
+      "35849293",
+      "40699376",
+      "38326851",
+      "39688109",
+      "27908529"
+    ],
+    "review": [
+      "40289395",
+      "33264139",
+      "31913660",
+      "38980337",
+      "38142627",
+      "34647171",
+      "35294740",
+      "17585539",
+      "36895178",
+      "30423609"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40289395.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/cncy.70018",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NCAM1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3846",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

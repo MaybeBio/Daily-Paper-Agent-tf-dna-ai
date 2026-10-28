@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "42226110",
+    "doi": "10.1186/s12871-026-03917-6",
+    "title": "Dexmedetomidine may alleviate severe acute pancreatitis-associated lung injury by targeting the AIM2 inflammasome in endothelial cells."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Severe acute pancreatitis (SAP) is often associated with life-threatening acute lung injury (ALI), with its pathogenesis being intricately connected to dysregulated inflammatory responses. There is a deficiency of particular treatment options. Dexmedetomidine (DEX), a highly selective alpha2-adrenergic receptor (alpha2-AR) agonist, demonstrates not only sedative effects but also possesses anti-inflammatory and organ-protective properties. However, the mechanisms through which DEX exerts its effects in SAP and related pulmonary disorders remain uncertain. METHODS: A rat SAP model was established via retrograde injection of 5% sodium taurocholate into the biliopancreatic ducts, with DEX intervention and positive control groups included. The effects of DEX on pathological damage to pancreatic and lung tissues, serum inflammatory factors, and pulmonary edema were evaluated in vivo. In vitro, lipopolysaccharide (LPS) stimulation of human umbilical vein endothelial cells (HUVECs) was used to model an inflammatory environment. Transcriptome sequencing, single-cell RNA sequencing data analysis, protein-protein interaction network construction, molecular docking, and molecular biology techniques were employed to investigate the action targets of DEX and its regulatory effects on the absent in melanoma 2 (AIM2) inflammasome signaling pathway. RESULTS: DEX therapy attenuated the pathological injury to pancreatic and pulmonary tissues in SAP rats, decreased serum concentrations of amylase, interleukin-1 beta, and tumor necrosis factor-alpha, and suppressed pulmonary edema. Transcriptomic analysis revealed that DEX could partially reverse the disorder in lung tissue gene expression profiles induced by SAP and identified the \"DEX target gene set\". Bioinformatics analysis identified AIM2 as the core target, and molecular docking indicated that DEX could bind to AIM2 effectively. Single-cell RNA sequencing analysis revealed that the target gene set was specifically highly expressed in endothelial cells. DEX inhibited the activation of AIM2 and Caspase-11, as well as the phosphorylation of the nuclear factor kappa-B signaling pathway in lung tissue and endothelial cells. It also decreased the expression of vascular cell adhesion protein-1 and matrix metalloproteinase-9 in lung tissue. In addition, AIM2 knocdown blocked LPS-induced apoptosis in HUVECs, and DEX showed no further inhibitory effect. CONCLUSION: This study identifies a novel mechanism in which DEX may alleviate pyroptosis of endothelial cells by targeting and inhibiting AIM2 inflammasome activation, thereby improving SAP-ALI.",
+    "keywords": [
+      "AIM2",
+      "Acute pancreatitis",
+      "Dexmedetomidine",
+      "Endothelial cells",
+      "Lung injury"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Dexmedetomidine/pharmacology",
+      "*Acute Lung Injury/drug therapy/etiology",
+      "*Pancreatitis/complications/drug therapy",
+      "Humans",
+      "Male",
+      "*Inflammasomes/drug effects/metabolism",
+      "Rats",
+      "Rats, Sprague-Dawley",
+      "*DNA-Binding Proteins/metabolism",
+      "Disease Models, Animal",
+      "*Endothelial Cells/drug effects/metabolism",
+      "Human Umbilical Vein Endothelial Cells/drug effects",
+      "*Adrenergic alpha-2 Receptor Agonists/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Jing",
+        "Ge, Peng",
+        "Cui, Jinhua",
+        "Xuan, Guocheng",
+        "Ma, Chi",
+        "Yao, Jiaqi",
+        "Wen, Qingping"
+      ],
+      "short_names": [
+        "Zhou J",
+        "Ge P",
+        "Cui J",
+        "Xuan G",
+        "Ma C",
+        "Yao J",
+        "Wen Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Anesthesiology, First Affiliated Hospital of Dalian Medical University, Dalian, 116011, China.",
+        "Department of Anesthesiology, Xinhua Affiliated Hospital of Dalian University, Dalian, 116021, China.",
+        "Department of Interventional Therapy, First Affiliated Hospital of Dalian Medical University, Dalian, 116011, China.",
+        "Department of Anesthesiology, Xinhua Affiliated Hospital of Dalian University, Dalian, 116021, China.",
+        "Department of Anesthesiology, Xinhua Affiliated Hospital of Dalian University, Dalian, 116021, China.",
+        "Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, 116011, China.",
+        "Department of Anesthesiology, First Affiliated Hospital of Dalian Medical University, Dalian, 116011, China. yjq_0223@163.com.",
+        "Department of Anesthesiology, First Affiliated Hospital of Dalian Medical University, Dalian, 116011, China. dmuwqp@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Jing",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, First Affiliated Hospital of Dalian Medical University, Dalian, 116011, China.",
+          "Department of Anesthesiology, Xinhua Affiliated Hospital of Dalian University, Dalian, 116021, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Peng",
+        "short_name": "Ge P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Interventional Therapy, First Affiliated Hospital of Dalian Medical University, Dalian, 116011, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Jinhua",
+        "short_name": "Cui J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Xinhua Affiliated Hospital of Dalian University, Dalian, 116021, China."
+        ]
+      },
+      {
+        "full_name": "Xuan, Guocheng",
+        "short_name": "Xuan G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Xinhua Affiliated Hospital of Dalian University, Dalian, 116021, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Chi",
+        "short_name": "Ma C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Surgery, First Affiliated Hospital of Dalian Medical University, Dalian, 116011, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Jiaqi",
+        "short_name": "Yao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, First Affiliated Hospital of Dalian Medical University, Dalian, 116011, China. yjq_0223@163.com."
+        ]
+      },
+      {
+        "full_name": "Wen, Qingping",
+        "short_name": "Wen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, First Affiliated Hospital of Dalian Medical University, Dalian, 116011, China. dmuwqp@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC anesthesiology"
+    ],
+    "journal_abbrev": [
+      "BMC Anesthesiol"
+    ],
+    "pub_date": "2026 Jun 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/02 06:37",
+    "fetched_at": "2026-10-01 22:27:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41313448",
+      "41304866",
+      "41298913",
+      "41298803",
+      "41286611",
+      "41208148",
+      "41040991",
+      "40967537",
+      "40909291",
+      "40787858",
+      "40555044",
+      "40424824",
+      "39822976",
+      "39100670",
+      "38863767",
+      "38528718",
+      "37778612",
+      "37776643",
+      "37251314",
+      "35439361",
+      "33967799",
+      "33467177",
+      "33262576",
+      "33011613",
+      "28342645"
+    ],
+    "similar": [
+      "42226110",
+      "42203201",
+      "33641076",
+      "40318531",
+      "29262394",
+      "41518397",
+      "38901789",
+      "27025854",
+      "26070954",
+      "31545263",
+      "34908806",
+      "22613963",
+      "29793332",
+      "29693276",
+      "29241031",
+      "39910464",
+      "34863997",
+      "37251314",
+      "34193687",
+      "32546964",
+      "32705282",
+      "27959438",
+      "41475625",
+      "34025070",
+      "34747306",
+      "30006502",
+      "30597158",
+      "42543266",
+      "38972239",
+      "23706497",
+      "34516310",
+      "41260550",
+      "33438315",
+      "28535510",
+      "39313277",
+      "32707303",
+      "38557861",
+      "33361042",
+      "30659917",
+      "31254953",
+      "23600830",
+      "40834532",
+      "28849044",
+      "28873369",
+      "36076491",
+      "41298913",
+      "42176509",
+      "26966354",
+      "35586665",
+      "39735987",
+      "40946659",
+      "27324074",
+      "38513598",
+      "38699595",
+      "21419645",
+      "26997994",
+      "40020626",
+      "30518997",
+      "40549290",
+      "36734635",
+      "33967799",
+      "27463003",
+      "41699364",
+      "38504536",
+      "31520992",
+      "32265428",
+      "39725368",
+      "39455916",
+      "31623841",
+      "38007702",
+      "31437787",
+      "41649667",
+      "40524158",
+      "27565063",
+      "41176909",
+      "40699943",
+      "41519458",
+      "29886252",
+      "30216510",
+      "34244711",
+      "33332077",
+      "30913929",
+      "39922147",
+      "31927655",
+      "40490233",
+      "39692360",
+      "41580845",
+      "25881471",
+      "39990234",
+      "39998716",
+      "32014689",
+      "38812235",
+      "29842860",
+      "25834318",
+      "26211495",
+      "33821300",
+      "31243816",
+      "33531796",
+      "32377532",
+      "41581638"
+    ],
+    "review": [
+      "42226110",
+      "41176909"
+    ],
+    "pmc": [
+      "13435787"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcanesthesiol.biomedcentral.com/articles/10.1186/s12871-026-03917-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreatitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatitis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42226110/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3671",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

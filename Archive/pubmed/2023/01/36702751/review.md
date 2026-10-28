@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a deep-learning based suite, DEOCSU, for ChIP-exo peak calling. They claim high accuracy, precision, and recall (over 95%) for the trained model, versatility across bacteria, eukaryotes, and archaea, accurate prediction of peaks containing canonical motifs, and user-oriented features including cloud/local execution, visualization, adjustable thresholds, and iterable model updating.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, or benchmarking details are provided
+- **Missing materials affecting confidence** Full methods, model architecture details, training and validation dataset composition, performance metrics with confidence intervals, comparison against existing peak callers, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of deep learning to ChIP-exo peak calling, a technically relevant problem. However, the claims of high performance and broad versatility are not substantiated by the evidence provided in the abstract. Critical details on model training, validation, and benchmarking are absent, making the current case not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in genomics and bioinformatics, particularly those studying transcriptional regulation via ChIP-exo, would be interested if the method is validated. Developers of peak calling tools and computational biologists seeking improved accuracy in binding site detection may also find relevance.
+- **Major strengths** The problem addressed is important, as ChIP-exo peak calling is known to suffer from false positives and false negatives. The proposed approach, using deep learning to distinguish bona fide peaks from false ones, is conceptually reasonable. The stated flexibility in execution environments and user-adjustable parameters suggests practical utility if implemented as described.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves high accuracy, high precision, and high recall of over 95%
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states performance metrics exceeding 95% but provides no details on the evaluation dataset, the definition of true and false peaks, the number of test samples, or the statistical uncertainty of these metrics. Without this information, the reported values cannot be assessed for reliability or generalizability.
+  - **Why it matters** Performance claims are central to the manuscript's contribution. If the metrics are based on a small or biased test set, or if the evaluation protocol is flawed, the reported accuracy may not reflect real-world performance on diverse ChIP-exo datasets.
+  - **Resolution test** Provide a detailed description of the training and test datasets, including organism types, peak counts, and how ground truth was defined. Report precision, recall, and accuracy with confidence intervals or cross-validation results, and compare against at least one established peak caller on the same datasets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** Applying the suite to in-house and public ChIP-exo datasets from bacteria, eukaryotes, and archaea revealed accurate prediction of peaks containing canonical motifs
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims versatility across three domains of life but does not specify which organisms were tested, how many datasets were used, or what constitutes "accurate prediction" in this context. The mention of canonical motifs is vague, as it is unclear whether motif presence was used as a validation criterion or as a feature in the model.
+  - **Why it matters** The claim of broad applicability is a key selling point. Without concrete examples and quantitative results per organism, the reader cannot judge whether the method generalizes or whether the reported success is limited to specific conditions.
+  - **Resolution test** List the specific organisms and datasets used, provide per-dataset performance metrics, and clarify how canonical motifs were defined and used in the evaluation. Include a comparison of peak calling accuracy across the three domains.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** DEOCSU entails a deep convolutional neural network model trained with curated ChIP-exo peak data
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No information is given on the model architecture, training procedure, hyperparameters, or the curation process for the training data. The term "curated" is undefined, and it is unclear how the training labels were generated and whether they are consistent across datasets.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational tools. Without architectural and training details, other researchers cannot implement or adapt the method, and the risk of overfitting to the training data cannot be assessed.
+  - **Resolution test** Provide a full description of the neural network architecture, training data curation steps, hyperparameter choices, and code availability. Include an analysis of model performance on held-out datasets from different sources.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "visualized data of bona fide peaks" is unclear. It is not specified what "visualized data" refers to, such as raw signal tracks, image representations, or feature matrices.
+  - **Required correction** Clarify what input representation is used for the model, for example, "image-like representations of ChIP-exo signal profiles" or "numerical feature vectors derived from aligned reads."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Claim of iterable updating
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "iterable updating of the pre-trained model" but does not explain how this updating is performed, such as through transfer learning, retraining on user data, or online learning.
+  - **Required correction** Specify the mechanism for model updating and whether it requires labeled data from the user.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Benchmarking context
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** No comparison to existing ChIP-exo peak callers is mentioned, which limits the reader's ability to understand the relative advantage of DEOCSU.
+  - **Required correction** Include a brief statement in the abstract on how DEOCSU compares to at least one established method, such as "outperforms existing tools in precision and recall on benchmark datasets."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of deep learning to ChIP-exo peak calling is not entirely novel, as similar approaches exist for ChIP-seq, but the specific focus on ChIP-exo may offer a new angle. The abstract does not clearly differentiate the method from prior work.
+  - Scientific importance: The problem is relevant, but the abstract does not demonstrate a significant advance over existing tools, as no comparative data are provided.
+  - Interdisciplinary readership: The topic is of interest to computational biologists and experimentalists using ChIP-exo, but the abstract lacks sufficient detail to engage a broader readership.
+  - Technical soundness: Not assessable from the abstract due to missing methodological and validation details.
+  - Readability for nonspecialists: The abstract is generally accessible but contains vague terms such as "visualized data" and "iterable updating" that require clarification.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach but lacks the necessary detail to support the central claims. A revised manuscript with full methods, validation, and benchmarking would be required to assess the case.
+
+## Risk / unsupported claims
+- The claim of over 95% accuracy, precision, and recall is unsupported without details on evaluation methodology and dataset composition.
+- The claim of accurate prediction across bacteria, eukaryotes, and archaea is unsupported without specific organism names, dataset counts, and per-domain metrics.
+- The claim of "iterable updating" is unsupported as the mechanism is not described.
+- The claim of versatility and efficiency is not quantifiable from the abstract.
+- The statement that DEOCSU can be executed on cloud or local environments is plausible but not verifiable from the abstract alone.

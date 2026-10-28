@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no full manuscript, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a systematic assessment of free-energy perturbation (FEP), as implemented in FEP+ with OPLS4 force field improvements, for predicting relative binding free energies of congeneric ligand series targeting DNA and RNA systems. They claim that across more than 100 ligands with diverse binding modes, over half of predictions fall within 1 kcal/mol of experimental values, with a combined average pairwise RMSE of 1.39 kcal/mol, and conclude that FEP+ has sufficient accuracy to guide lead optimization in nucleic-acid-targeting drug discovery.
+- **Visible evidence base** Abstract text only; no methodological details, dataset composition, statistical breakdowns, or experimental reference descriptions are available
+- **Missing materials affecting confidence** Full manuscript, detailed methods, dataset tables, per-system results, force field parameterization details, simulation protocols, uncertainty estimates, and any comparison with alternative methods
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable benchmark of FEP for nucleic-acid targeting ligands, a domain where such systematic validation is scarce. The reported accuracy metrics are encouraging and, if substantiated, would be of practical interest to computational drug discovery. However, the abstract alone provides insufficient detail to evaluate the robustness of the claims. Key methodological choices, dataset composition, and statistical treatment are not described, and the relationship between the reported RMSE and the stated conclusion of "sufficient accuracy" is not quantitatively justified. The work is promising but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists and drug discovery scientists working on RNA and DNA targeting therapeutics, particularly those involved in lead optimization where relative binding affinity prediction is critical. The results would also interest developers of force fields and FEP methodologies, as they provide a new benchmark domain beyond proteins. The broader nucleic-acid biology community may find the demonstrated feasibility of physics-based affinity prediction relevant to their own compound development efforts.
+- **Major strengths** The study addresses a clear gap in the applicability of FEP, which has been extensively validated for proteins but not for nucleic acids. The dataset size, exceeding 100 ligands, and the inclusion of diverse binding modes, from partially exposed to deeply buried, suggest a meaningful scope. The use of a consistent simulation protocol across systems is a methodological strength that supports comparability of results. The reported accuracy, with over half of predictions within 1 kcal/mol and an overall RMSE of 1.39 kcal/mol, is competitive with typical FEP performance on protein targets.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that "more than half of the predictions are within 1 kcal/mol of the experimentally measured values" and reports a "combined average pairwise RMSE of 1.39 kcal/mol" across the dataset.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not specify how the "more than half" statistic is defined, whether it refers to individual predictions, pairwise comparisons, or per-system aggregates. The RMSE is described as "average pairwise," but the method of averaging across systems with potentially different numbers of ligands is not explained. No confidence intervals, standard errors, or per-system breakdowns are provided.  
+  - **Why it matters** Without a clear definition of the error metrics and their statistical treatment, the reported accuracy cannot be independently assessed or compared with other benchmarks. The claim of "sufficient accuracy" depends critically on the distribution of errors, not just the mean, and the abstract does not reveal whether large outliers exist.  
+  - **Resolution test** Provide a detailed description of the error metric definitions, including how pairwise comparisons are constructed, how per-system results are aggregated, and report per-system RMSE values with confidence intervals or error bars.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that the study "encompassed more than 100 ligands exhibiting diverse binding modes, some partially exposed and others deeply buried."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not describe the chemical diversity of the ligand series, the nature of the nucleic acid targets, the range of binding affinities covered, or the criteria for classifying binding modes. It is unclear whether the dataset includes only congeneric series, as stated, and how many independent series are represented.  
+  - **Why it matters** The generalizability of the conclusions depends on the breadth and representativeness of the dataset. If the ligand series are chemically narrow or the targets are limited to a few nucleic acid structures, the reported accuracy may not extend to other systems.  
+  - **Resolution test** Provide a table summarizing the number of ligand series, target types, affinity ranges, and binding mode classifications, along with chemical diversity descriptors.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract attributes the accuracy to "improvements in the OPLS4 force field" and states that FEP is "as implemented in the FEP+ software."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** No details are given on the specific force field improvements, how they were validated for nucleic acids, or whether any nucleic-acid-specific parameterization was performed. The simulation protocol is described only as "consistent," with no mention of sampling length, replica exchange settings, or treatment of long-range electrostatics.  
+  - **Why it matters** The reproducibility of the results and the attribution of accuracy to specific methodological components require that these details be disclosed. Without them, readers cannot determine whether the reported performance is specific to this implementation or transferable to other FEP setups.  
+  - **Resolution test** Describe the force field modifications, validation procedures, and full simulation protocol in the methods section, including software versions and parameter settings.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract concludes that "FEP+ has sufficient accuracy to guide the optimization of lead series in drug discovery programs targeting RNA and DNA."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The threshold for "sufficient accuracy" is not defined. While an RMSE of 1.39 kcal/mol is often considered acceptable for relative binding affinity prediction in protein targets, the abstract does not discuss how this translates to decision-making in nucleic-acid drug discovery, where the relationship between binding affinity and functional activity may be less direct.  
+  - **Why it matters** The practical utility claim requires a context-specific benchmark. Without a stated accuracy threshold or a comparison with the accuracy needed for typical medicinal chemistry decisions, the conclusion is not quantitatively grounded.  
+  - **Resolution test** Define the accuracy threshold used to judge sufficiency, and discuss how the observed error distribution would impact rank-ordering of compounds in a lead optimization campaign.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term "average pairwise RMSE" is not self-explanatory to readers unfamiliar with FEP benchmarking conventions.  
+  - **Required correction** Briefly define the metric in the abstract, for example by stating that it represents the root-mean-square error between predicted and experimental relative binding free energies for all ligand pairs within each series, averaged across series.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not state whether the experimental binding affinities were measured under consistent conditions across all systems, which could affect the comparability of the benchmark.  
+  - **Required correction** Add a sentence specifying the experimental assay types and conditions, or note that they were consistent across the dataset.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not mention whether any systems were excluded from the analysis or whether all attempted predictions were reported, which raises the possibility of selective reporting.  
+  - **Required correction** State explicitly that all attempted predictions are included in the reported statistics, or describe any exclusion criteria.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns relate to the lack of statistical detail, dataset characterization, and methodological transparency, all of which are essential to substantiate the central accuracy claims.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The application of FEP to nucleic-acid targeting ligands is not entirely new, but a systematic benchmark of this scale is uncommon and would represent a useful contribution if fully documented. The originality is moderate and depends on the novelty of the dataset and insights derived from it.  
+  - **Scientific importance** The work addresses a practical gap in computational drug discovery for nucleic-acid targets, which are increasingly relevant in therapeutic development. The importance is potentially high, but the abstract does not yet demonstrate the broader implications beyond the specific systems studied.  
+  - **Interdisciplinary readership** The topic bridges computational chemistry, biophysics, and drug discovery. The abstract is written in a way that is accessible to these communities, though some methodological terms may require elaboration for a general scientific audience.  
+  - **Technical soundness** The reported accuracy is plausible, but the abstract lacks the methodological detail needed to assess technical soundness. The absence of statistical treatment and dataset description prevents a full evaluation.  
+  - **Readability for nonspecialists** The abstract is generally clear, but the metric definitions and the significance of the RMSE value could be explained more explicitly for readers outside the FEP field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The reported results are promising and address a relevant gap, but the abstract alone does not provide sufficient evidence to fully establish the claims. A complete manuscript with detailed methods, dataset characterization, and statistical analysis would be required to assess whether the conclusions are robust.
+
+## Risk / unsupported claims
+- The claim that "more than half of the predictions are within 1 kcal/mol" is unsupported without a definition of the prediction unit and the statistical basis for this fraction.
+- The claim that "FEP+ has sufficient accuracy to guide the optimization of lead series" is unsupported because no accuracy threshold or decision-making context is provided.
+- The attribution of accuracy to "improvements in the OPLS4 force field" is unsupported without details on the specific improvements and their validation for nucleic acids.
+- The generalizability of the results to other nucleic-acid targets and ligand series is not assessable from the abstract alone.

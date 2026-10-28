@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "39952198",
+    "doi": "10.1016/j.redox.2025.103526",
+    "title": "ROS regulates circadian rhythms by modulating Ezh2 interactions with clock proteins."
+  },
+  "content": {
+    "abstract": "Redox imbalance induced by the accumulation of reactive oxygen species (ROS) accelerates age-related processes, often accompanied by a decrease in circadian rhythm amplitude. However, the underlying mechanisms by which ROS modulate circadian rhythms remain poorly understood. In this study, we found that ROS disrupt circadian rhythms in both zebrafish, as indicated by changes in diurnal behavior and clock gene expression, and in a human cell model. Using weighted gene co-expression network analysis (WGCNA) and machine learning approaches (RF, LASSO, SVM), EZH2 was identified as a key gene involved in regulating circadian rhythms under oxidative stress conditions. To further investigate the role of EZH2, we employed ezh2(-/-) mutants, Morpholino injection, and overexpression treatment and discovered that EZH2 is crucial in mediating the effect of ROS on circadian rhythms. Furthermore, EZH2 interacts with the CLOCK-BMAL1 complex to regulate the transcription of clock genes, as demonstrated through co-immunoprecipitation (co-IP), chromatin immunoprecipitation (ChIP), and dual-luciferase reporter assays. Our study revealed that ROS disrupt circadian rhythms by regulating the interaction between EZH2 and the CLOCK-BMAL1 complex, shedding light on the molecular mechanisms of circadian rhythm disruption under oxidative stress and suggesting potential targets for age-related and circadian disorders.",
+    "keywords": [
+      "Circadian rhythm",
+      "Oxidative stress",
+      "ROS",
+      "Zebrafish",
+      "ezh2"
+    ],
+    "mesh_terms": [
+      "*Enhancer of Zeste Homolog 2 Protein/metabolism/genetics",
+      "*Circadian Rhythm/genetics",
+      "*Reactive Oxygen Species/metabolism",
+      "*CLOCK Proteins/metabolism/genetics",
+      "Animals",
+      "Humans",
+      "Zebrafish/genetics",
+      "Oxidative Stress",
+      "Gene Expression Regulation",
+      "Protein Binding",
+      "*Zebrafish Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Hao-Yi",
+        "Li, Ke-Yun",
+        "Wang, Yi-Li",
+        "Wei, Chun-Jiao",
+        "Gao, Yu-Xuan",
+        "Ren-Zhou",
+        "Zhong, Ying-Bin",
+        "Yin, Zong-Jun",
+        "Ren, Da-Long"
+      ],
+      "short_names": [
+        "Zhang HY",
+        "Li KY",
+        "Wang YL",
+        "Wei CJ",
+        "Gao YX",
+        "Ren-Zhou",
+        "Zhong YB",
+        "Yin ZJ",
+        "Ren DL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China.",
+        "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China.",
+        "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China.",
+        "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China.",
+        "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China.",
+        "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China.",
+        "School of Biology & Basic Medical Sciences, Medical College, Soochow University, Suzhou, Jiangsu, 215000, China.",
+        "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China.",
+        "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China. Electronic address: rendl@ustc.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Hao-Yi",
+        "short_name": "Zhang HY",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ke-Yun",
+        "short_name": "Li KY",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yi-Li",
+        "short_name": "Wang YL",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Chun-Jiao",
+        "short_name": "Wei CJ",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yu-Xuan",
+        "short_name": "Gao YX",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China."
+        ]
+      },
+      {
+        "full_name": "Ren-Zhou",
+        "short_name": "Ren-Zhou",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Ying-Bin",
+        "short_name": "Zhong YB",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biology & Basic Medical Sciences, Medical College, Soochow University, Suzhou, Jiangsu, 215000, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Zong-Jun",
+        "short_name": "Yin ZJ",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Da-Long",
+        "short_name": "Ren DL",
+        "identifiers": [],
+        "affiliations": [
+          "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China. Electronic address: rendl@ustc.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Redox biology"
+    ],
+    "journal_abbrev": [
+      "Redox Biol"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/15 15:12",
+    "fetched_at": "2026-10-05 02:58:05"
+  },
+  "links": {
+    "cites": [
+      "42694455",
+      "42445109",
+      "42423990",
+      "42272256",
+      "42210122",
+      "42083130",
+      "42079646",
+      "41821117",
+      "41788590",
+      "41703444",
+      "41208874",
+      "41136666",
+      "41012354",
+      "40676622"
+    ],
+    "refs": [
+      "39504963",
+      "38969743",
+      "38070859",
+      "38001006",
+      "37756160",
+      "37064878",
+      "35158113",
+      "34547234",
+      "34192588",
+      "33328614",
+      "32668369",
+      "32457468",
+      "32161397",
+      "32054765",
+      "31792197",
+      "30071900",
+      "29590617",
+      "29447387",
+      "29288075",
+      "27938379",
+      "27698029",
+      "27108448",
+      "27076076",
+      "26845405",
+      "26534922",
+      "25938935",
+      "25751747",
+      "24577401",
+      "24312621",
+      "24287074",
+      "24252172",
+      "24097338",
+      "24051248",
+      "23916625",
+      "23684884",
+      "23152603",
+      "19190255",
+      "18846204",
+      "18474036",
+      "16717091",
+      "15485355",
+      "12149444",
+      "11076791",
+      "11009419",
+      "2029203"
+    ],
+    "similar": [
+      "39952198",
+      "29447387",
+      "26512910",
+      "41298718",
+      "16717091",
+      "22031781",
+      "21179498",
+      "34234015",
+      "16595704",
+      "37756160",
+      "21364973",
+      "32019867",
+      "41186576",
+      "34904778",
+      "33287957",
+      "40327116",
+      "27168152",
+      "35579906",
+      "26188089",
+      "41752176",
+      "34807912",
+      "28414715",
+      "39777894",
+      "32222559",
+      "27373683",
+      "22844252",
+      "26394143",
+      "34334501",
+      "40721875",
+      "38805552",
+      "30009381",
+      "24270424",
+      "30181539",
+      "24395244",
+      "26194231",
+      "27022680",
+      "23421720",
+      "24389417",
+      "34301769",
+      "41385600",
+      "31063912",
+      "30283092",
+      "30316844",
+      "30012868",
+      "31099187",
+      "20519775",
+      "20807668",
+      "34503769",
+      "41068120",
+      "40947518",
+      "33771518",
+      "38805270",
+      "20430893",
+      "21232144",
+      "30213970",
+      "28617195",
+      "27870848",
+      "38070859",
+      "21915348",
+      "28096235",
+      "26147202",
+      "19948792",
+      "28831003",
+      "34732735",
+      "41084968",
+      "23349822",
+      "22085960",
+      "18687681",
+      "39775698",
+      "39373211",
+      "40252431",
+      "41243864",
+      "40117332",
+      "22284746",
+      "25512305",
+      "30819799",
+      "24437260",
+      "12593455",
+      "38183795",
+      "28916681",
+      "34332958",
+      "25544291",
+      "40924721",
+      "41320098",
+      "23580255",
+      "26037310",
+      "33791812",
+      "31585206",
+      "41168952",
+      "23324349",
+      "35072523",
+      "24791007",
+      "39191924",
+      "40172009",
+      "21721853",
+      "30510991",
+      "36376366",
+      "19861541",
+      "35724845",
+      "30533004"
+    ],
+    "review": [
+      "39952198",
+      "38070859",
+      "41243864",
+      "25512305",
+      "24437260",
+      "12593455"
+    ],
+    "pmc": [
+      "11875201"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2213-2317(25)00039-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39952198/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://zfin.org/action/publication/view?accession=39952198",
+        "provider": "ZFIN",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

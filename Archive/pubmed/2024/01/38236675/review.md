@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose TBCA, a deep neural network combining convolutional and attention mechanisms, to predict transcription factor binding sites (TFBSs) using DNA sequence and shape features. They claim superior predictive performance across 165 ChIP-seq datasets and report that attention mechanisms improve feature representation and that shape features enhance prediction accuracy.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, baseline comparisons, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset identifiers, hyperparameter settings, baseline model specifications, statistical significance tests, and code or reproducibility details
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful contribution to TFBS prediction, addressing a recognized limitation in integrating local and global features. However, the evidence provided is insufficient to evaluate the technical soundness, novelty, or robustness of the proposed method. Key claims, including superior performance and the contribution of shape features, are stated without quantitative support. The work may be of interest to computational biologists and machine learning researchers, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on gene regulation, transcription factor binding prediction, and deep learning applications in genomics. Researchers developing attention-based or hybrid neural architectures for biological sequence analysis may also find the methodological combination relevant.
+- **Major strengths** The abstract identifies a clear gap in existing TFBS prediction methods, namely insufficient integration of local and global features. The proposed architecture combines multiple established techniques, including CNNs, self-attention, Fourier-transform-enhanced multi-head attention, and channel attention, which suggests a thoughtful design. The use of 165 ChIP-seq datasets indicates a broad evaluation scope, if properly validated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "TBCA exhibits superior predictive performance in 165 validated ChIP-seq datasets"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of superior predictive performance is made without any quantitative metrics, such as AUC, precision, recall, or F1 scores, and without comparison to baseline methods. No statistical significance tests are mentioned.
+  - **Why it matters** Without numerical results and baseline comparisons, the claim of superiority cannot be assessed or reproduced. This is the central claim of the paper and must be supported by concrete evidence.
+  - **Resolution test** Provide performance metrics for TBCA and at least two baseline methods across all 165 datasets, including measures of variance and statistical significance (e.g., paired tests). Show that improvements are consistent and not driven by a small subset of datasets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We employ a two-layer convolutional neural network and self-attention mechanism to extract complex sequence features" and "Fourier-transform-enhanced multi-head attention along with channel attention to extract high-order shape features"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no details on how the Fourier transform is integrated into multi-head attention, how channel attention is applied to shape features, or how sequence and shape features are fused in the channel dimension. The architectural choices are not justified.
+  - **Why it matters** The novelty of the method likely rests on these specific design choices. Without a clear description, reviewers and readers cannot determine whether the approach is technically valid, reproducible, or genuinely novel relative to existing attention-based models.
+  - **Resolution test** Provide a detailed architecture description, including tensor dimensions, the role of the Fourier transform, and a rationale for each component. Include a diagram or pseudocode and clarify how the fusion mechanism operates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim validity
+  - **Claim pointer** "We also conduct an in-depth analysis of the contributions of five different shapes to site prediction, revealing that shape features can enhance the prediction of transcription factor DNA binding"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that shape features enhance prediction but provides no results, such as ablation studies or per-shape contribution analyses, to support this conclusion.
+  - **Why it matters** The claim that shape features are beneficial is a key contribution of the paper. Without ablation results or quantitative comparisons of models with and without shape features, the claim is unsupported.
+  - **Resolution test** Include ablation experiments showing performance with and without shape features, and report the individual contribution of each of the five shape features. Provide statistical tests to confirm that observed differences are significant.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "high-order shape features" is used without definition. It is unclear what "high-order" means in this context.
+  - **Required correction** Define "high-order" explicitly, for example, by specifying the order of interactions or the level of abstraction captured by the attention mechanisms.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "165 validated ChIP-seq datasets" but does not specify the cell types, transcription factors, or data sources.
+  - **Required correction** List the datasets or provide a reference to a public repository, and describe the validation criteria used to select them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses "What's more" and "Finally" in a way that reads informally for a scientific journal.
+  - **Required correction** Revise the abstract to use more formal transitions, such as "Additionally" and "Subsequently."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, architectural details, and ablation analyses means the core claims of superior performance, methodological novelty, and shape feature utility are not currently established.
+- **Assessment against Nature-style criteria**  
+  - Originality: The combination of Fourier-transform-enhanced attention with channel attention for shape features may be novel, but this cannot be confirmed without a detailed comparison to existing methods.  
+  - Scientific importance: TFBS prediction is a relevant problem in gene regulation, and improved methods could have broad utility. However, the incremental benefit over existing deep learning approaches is not demonstrated.  
+  - Interdisciplinary readership: The work bridges machine learning and genomics, which could appeal to a broad audience, but the abstract is too technical and lacks context for nonspecialists.  
+  - Technical soundness: Not assessable from the abstract alone. The lack of architectural details and results prevents evaluation.  
+  - Readability for nonspecialists: The abstract assumes familiarity with deep learning and genomics terminology, and the informal phrasing reduces clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient quantitative or methodological detail to support the claims. A revised manuscript with full results, architecture descriptions, and ablation studies would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- "Superior predictive performance in 165 validated ChIP-seq datasets" is unsupported due to absence of metrics and baselines.
+- "Attention mechanisms can automatically learn important features at different positions and scales, enhancing the accuracy and robustness of feature representation" is a general statement without supporting evidence.
+- "Shape features can enhance the prediction of transcription factor DNA binding" is unsupported without ablation results.
+- The novelty of the Fourier-transform-enhanced attention mechanism is not assessable from the abstract.

@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "42592402",
+    "doi": "10.2147/JIR.S604761",
+    "title": "Exploring Potential Stress Granule-Related Biomarkers in Childhood Asthma Using Integrated Bioinformatics and Machine Learning."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Asthma is a common chronic lung disease in children, but the role of stress granules (SGs) in its pathogenesis remains unclear. The present study aims to investigate overlapping genes and regulatory mechanisms between childhood asthma (CA) and SGs via integrated bioinformatics and machine learning. METHODS: Machine learning algorithms were applied to screen for potential biomarkers among the candidate genes. Their expression levels were validated, followed by ROC analysis. Multiple bioinformatics analyses, including mRNA-miRNA and transcription factor regulatory networks, were performed to explore their potential functions. Finally, RT-qPCR was used to validate the expression differences between CA and healthy control blood samples. RESULTS: Through machine learning, 11 candidate genes were initially selected, with 3 potential biomarkers (HNRNPA2B1, RPE, TAF15) determined. These biomarkers showed strong diagnostic performance (AUC > 0.7). GeneMANIA and Gene Set Enrichment Analysis (GSEA) revealed that their functions were enriched in biological processes such as NADPH regeneration. Immunoinfiltration analysis identified four types of differentially infiltrating immune cells: CD56dim natural killer cell, Central memory CD8 T cell, Immature B cell, and Monocyte. Additionally, RT-PCR validation confirmed significantly elevated mRNA expression of HNRNPA2B1, RPE, and TAF15 in CA patients compared to healthy controls, consistent with the bioinformatics predictions. CONCLUSION: This study screened out three potential biomarkers related to SGs in CA, offering new insights into disease pathogenesis and potential molecular targets for improved therapy.",
+    "keywords": [
+      "bioinformatics",
+      "biomarkers",
+      "childhood asthma",
+      "machine learning",
+      "stress granules"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zou, Ya",
+        "Ren, Hua",
+        "Zheng, Jun",
+        "Huang, Yanjie"
+      ],
+      "short_names": [
+        "Zou Y",
+        "Ren H",
+        "Zheng J",
+        "Huang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7156-2228",
+        "ORCID: 0009-0007-8826-0876",
+        "ORCID: 0009-0000-2378-2496",
+        "ORCID: 0000-0001-5035-4411"
+      ],
+      "affiliations": [
+        "Department of Traditional Chinese Medicine, Shanghai Children's Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, People's Republic of China.",
+        "Department of Radiology, Shanghai Chest Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, People's Republic of China.",
+        "Department of Traditional Chinese Medicine, Shanghai Children's Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, People's Republic of China.",
+        "Department of Traditional Chinese Medicine, Shanghai Children's Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zou, Ya",
+        "short_name": "Zou Y",
+        "identifiers": [
+          "0000-0001-7156-2228"
+        ],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Shanghai Children's Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Ren, Hua",
+        "short_name": "Ren H",
+        "identifiers": [
+          "0009-0007-8826-0876"
+        ],
+        "affiliations": [
+          "Department of Radiology, Shanghai Chest Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Jun",
+        "short_name": "Zheng J",
+        "identifiers": [
+          "0009-0000-2378-2496"
+        ],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Shanghai Children's Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yanjie",
+        "short_name": "Huang Y",
+        "identifiers": [
+          "0000-0001-5035-4411"
+        ],
+        "affiliations": [
+          "Department of Traditional Chinese Medicine, Shanghai Children's Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of inflammation research"
+    ],
+    "journal_abbrev": [
+      "J Inflamm Res"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/13 12:42",
+    "fetched_at": "2026-10-02 03:34:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40824461",
+      "40356946",
+      "39688373",
+      "39438534",
+      "39384302",
+      "39299754",
+      "38981012",
+      "38906600",
+      "38568213",
+      "38363675",
+      "38237858",
+      "38110652",
+      "37992024",
+      "37968398",
+      "37837396",
+      "37704502",
+      "37539055",
+      "37205103",
+      "37037864",
+      "36685506",
+      "36577072",
+      "36389400",
+      "36078171",
+      "35837069",
+      "35794369",
+      "35517829",
+      "35314841",
+      "35171740",
+      "34557778",
+      "34453888",
+      "34270690",
+      "33673725",
+      "33620882",
+      "33611339",
+      "33520991",
+      "32525611",
+      "31954465",
+      "31811672",
+      "31684902",
+      "31495079",
+      "31376405",
+      "31337149",
+      "30476243",
+      "29129640",
+      "28990062",
+      "28272342",
+      "27432971",
+      "27207943",
+      "25769910",
+      "25605792",
+      "25516281",
+      "25495903",
+      "25256354",
+      "23222870",
+      "22867017",
+      "21414208",
+      "21149340",
+      "20923965",
+      "20808728",
+      "18291657",
+      "16935684",
+      "16500642",
+      "1749320"
+    ],
+    "similar": [
+      "42592402",
+      "41665627",
+      "41052072",
+      "41479901",
+      "41358199",
+      "41436831",
+      "40967560",
+      "42083957",
+      "42306043",
+      "41044520",
+      "39375405",
+      "41731716",
+      "41291841",
+      "42292668",
+      "41988156",
+      "39142001",
+      "37259023",
+      "42327749",
+      "39754246",
+      "42313235",
+      "41214111",
+      "40642528",
+      "39697326",
+      "41146237",
+      "41030501",
+      "40425742",
+      "42475469",
+      "41703488",
+      "40151199",
+      "41706425",
+      "38951833",
+      "40453984",
+      "41816328",
+      "39920860",
+      "41799432",
+      "38863714",
+      "42123445",
+      "39789578",
+      "42509823",
+      "41164826",
+      "40078458",
+      "40598145",
+      "40619276",
+      "41291978",
+      "42292640",
+      "40406620",
+      "40340571",
+      "40884580",
+      "39507054",
+      "40918148",
+      "41340627",
+      "35278479",
+      "39263286",
+      "39586719",
+      "40362543",
+      "40360670",
+      "41743406",
+      "42449128",
+      "41909133",
+      "39559355",
+      "42243611",
+      "40196107",
+      "41013556",
+      "41576727",
+      "42558367",
+      "40973872",
+      "42292468",
+      "40406126",
+      "40084401",
+      "41432807",
+      "42447550",
+      "42051519",
+      "40263537",
+      "37822923",
+      "41257259",
+      "41069939",
+      "41970276",
+      "41709877",
+      "40808946",
+      "41822387",
+      "40253457",
+      "42583273",
+      "41080564",
+      "36524127",
+      "40165133",
+      "41610713",
+      "38690269",
+      "41388523",
+      "40598243",
+      "42128965",
+      "40273141",
+      "42225708",
+      "40368512",
+      "40997906",
+      "41006883",
+      "40901474",
+      "41378005",
+      "39509434",
+      "39170142",
+      "41716396"
+    ],
+    "review": [
+      "42592402",
+      "41665627"
+    ],
+    "pmc": [
+      "13464420"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42592402/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3743",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/JIR.S604761",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

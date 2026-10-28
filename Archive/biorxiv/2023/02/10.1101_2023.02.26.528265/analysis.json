@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.26.528265",
+  "title": "MsPBRsP: Multi-scale Protein Binding Residues Prediction Using Language Model",
+  "authors": "Yuguang Li; Shuai Lu; Xiaofei Nan; Shoutao Zhang; Qinglei Zhou",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-27",
+  "window": {
+    "start": "2023-02-27",
+    "end": "2023-03-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用预训练语言模型ProtTrans和序列输入预测多种蛋白结合残基（含蛋白-核酸），虽非TF-DNA特异体系，但方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "Accurate prediction of protein binding residues (PBRs) from sequence is important for the understanding of cellular activity and helpful for the design of novel drug. However, experimental methods are time-consuming and expensive. In recent years, a lot of computational predictors based on machine learning and deep learning models are proposed to reduce such consumption. But those methods often use MSA tools such as PSI-BLAST or NetSurfP to generate some statistical features and enter them into predictive models as necessary supplementary input. The input generation process normally takes long time, and there is no standard to specify which and how many statistic results should be provided to a prediction model. In addition, prediction of PBRs relies on residue local context, but the most appropriate scale is undetermined. Most works pre-selected certain residue features as input and a scale size based on expertise for certain type of PBRs. In this study, we propose a general tool-free end-to-end framework that can be applied to all types of PBRs, Multiscale Protein Binding Residues Prediction using language model (MsPBRsP). We adopt a pre-trained language model ProtTrans to save the large consumption caused by MSA tools, and use protein sequence alone as input to our model. To ease scale size uncertainty, we construct multi-size windows in attention layer and multi-size kernels in convolutional layer. We test our framework on various benchmark datasets including PBRs from protein-protein, protein-nucleotide, protein-small ligand, heterodimer, homodimer and antibody-antigen interactions. Compared with existing state-of-the-art methods, MsPBRsP achieves superior performance with less running time and higher prediction rates on every PBRs prediction task. Specifically, we boost F1 score by 27.1% and AUPRC score by 7.6% on NSP448 dataset and decrease running time from over 10 minutes to under 0.1s on average. The source code and datasets are available at https://github.com/biolushuai/MsPBRsP-for-multiple-PBRsprediction.",
+  "abstract_zh": "从序列中准确预测蛋白质结合残基（PBRs）对于理解细胞活动至关重要，并有助于新型药物的设计。然而，实验方法耗时且昂贵。近年来，基于机器学习和深度学习模型的许多计算预测器被提出以减少此类消耗。但这些方法通常使用PSI-BLAST或NetSurfP等MSA工具生成一些统计特征，并将其作为必要的补充输入输入到预测模型中。输入生成过程通常耗时较长，且没有标准规定应向预测模型提供哪些以及多少统计结果。此外，PBRs的预测依赖于残基局部上下文，但最合适的尺度尚未确定。大多数工作基于专业知识预先选择某些残基特征作为输入，并为特定类型的PBRs设定尺度大小。在本研究中，我们提出了一种通用的无工具端到端框架，可应用于所有类型的PBRs，即使用语言模型的多尺度蛋白质结合残基预测（MsPBRsP）。我们采用预训练语言模型ProtTrans以节省MSA工具带来的大量消耗，并仅使用蛋白质序列作为我们模型的输入。为缓解尺度大小不确定性，我们在注意力层构建多尺寸窗口，在卷积层构建多尺寸核。我们在各种基准数据集上测试了我们的框架，包括来自蛋白质-蛋白质、蛋白质-核苷酸、蛋白质-小配体、异二聚体、同二聚体和抗体-抗原相互作用的PBRs。与现有最先进方法相比，MsPBRsP在每项PBRs预测任务上以更少的运行时间和更高的预测率实现了优越性能。具体而言，我们在NSP448数据集上将F1分数提高了27.1%，AUPRC分数提高了7.6%，并将平均运行时间从超过10分钟降至0.1秒以下。源代码和数据集可在https://github.com/biolushuai/MsPBRsP-for-multiple-PBRsprediction获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.26.528265",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.26.528265",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.26.528265/index.html"
+}

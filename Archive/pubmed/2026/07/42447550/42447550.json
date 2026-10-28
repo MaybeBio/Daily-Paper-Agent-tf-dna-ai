@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "42447550",
+    "doi": "10.1016/j.bbrc.2026.154275",
+    "title": "Identification of ITGB2, ELN, and KLRK1 as stress granule-related biomarkers of pterygium through integrated transcriptomic analysis and machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Stress granules (SGs) play a crucial role in cellular stress responses, but their involvement remains unclear in pterygium. This study aimed to identify SG-related genes (SGRGs) associated with pterygium and explore potential regulatory mechanisms involving these genes. METHODS: Twelve conjunctival and sixteen pterygium samples were collected for RNA sequencing (RNA-seq). Candidate genes were identified by intersecting SGRGs with differentially expressed genes (DEGs) between pterygium and control groups. Furthermore, these genes were processed using a protein-protein interaction (PPI) network and machine learning. A nomogram was constructed to estimate the diagnostic probability of the identified biomarkers. Enrichment analyses, transcription factors (TFs) prediction, and molecular docking were performed to investigate the biofunctions of these biomarkers in pterygium. Quantitative real-time PCR (qRT-PCR) was performed to validate biomarker expressions with clinical samples. RESULTS: In total, 86 candidate genes were obtained by intersecting 1461 DEGs with 844 SGRGs. ITGB2, ELN, and KLRK1 were subsequently identified as candidate biomarkers for pterygium through PPI network analysis, machine learning, and expression validation. The nomogram showed favorable diagnostic performance for pterygium. Molecular docking analysis showed that ITGB2 had the strongest binding affinity with lifitegrast (-8.2 kcal/mol), while KLRK1 bound to peginterferon and ribavirin with binding energies of -7.0 and -7.2 kcal/mol. All three biomarkers were enriched in the cell adhesion molecules (CAM) pathway. The predicted TFs (MTF1, PAX5, and BHLHE40) may act as upstream regulators of these biomarkers. qRT-PCR confirmed that all biomarkers were significantly upregulated in pterygium tissues. CONCLUSION: ITGB2, ELN, and KLRK1 were identified as potential SG-related biomarkers of pterygium and may participate in the CAMs pathway under the regulation of MTF1, PAX5, and BHLHE40.",
+    "keywords": [
+      "Machine learning",
+      "Pterygium",
+      "RNA-seq",
+      "Stress granules"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pterygium/genetics/metabolism/diagnosis",
+      "Biomarkers/metabolism",
+      "Gene Expression Profiling",
+      "*Machine Learning",
+      "*Stress Granules/metabolism/genetics",
+      "Protein Interaction Maps",
+      "Molecular Docking Simulation",
+      "Transcriptome"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cheng, Jingyi",
+        "Wang, Dandan",
+        "Zhang, Qian",
+        "Wu, Jiawen",
+        "Fan, Yidan",
+        "Lyu, Zhaoyuan",
+        "Gu, Jiayu",
+        "Xiang, Jun",
+        "Lyu, Ning"
+      ],
+      "short_names": [
+        "Cheng J",
+        "Wang D",
+        "Zhang Q",
+        "Wu J",
+        "Fan Y",
+        "Lyu Z",
+        "Gu J",
+        "Xiang J",
+        "Lyu N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Eye Institute and Department of Ophthalmology, Eye & ENT Hospital, Fudan University, Shanghai, 200031, China; NHC Key Laboratory of Myopia and Related Eye Diseases, Key Laboratory of Myopia and Related Eye Diseases, Chinese Academy of Medical Sciences, Shanghai, 200031, China; Shanghai Key Laboratory of Visual Impairment and Restoration, Shanghai, 200031, China.",
+        "Department of Ophthalmology, The Affiliated People's Hospital of Ningbo University, Ningbo, 315000, China.",
+        "Yunnan Eye Institute & Key Laboratory of Yunnan Province, Yunnan Eye Disease Clinical Medical Center, Affiliated Hospital of Yunnan University, Yunnan University, Kunming, 650021, China.",
+        "Eye Institute and Department of Ophthalmology, Eye & ENT Hospital, Fudan University, Shanghai, 200031, China; NHC Key Laboratory of Myopia and Related Eye Diseases, Key Laboratory of Myopia and Related Eye Diseases, Chinese Academy of Medical Sciences, Shanghai, 200031, China; Shanghai Key Laboratory of Visual Impairment and Restoration, Shanghai, 200031, China.",
+        "Eye Institute and Department of Ophthalmology, Eye & ENT Hospital, Fudan University, Shanghai, 200031, China; NHC Key Laboratory of Myopia and Related Eye Diseases, Key Laboratory of Myopia and Related Eye Diseases, Chinese Academy of Medical Sciences, Shanghai, 200031, China; Shanghai Key Laboratory of Visual Impairment and Restoration, Shanghai, 200031, China.",
+        "Graduate School of Transdisciplinary Arts, Akita University of Art, Akita, 010-0195, Japan.",
+        "Eye Institute and Department of Ophthalmology, Eye & ENT Hospital, Fudan University, Shanghai, 200031, China; NHC Key Laboratory of Myopia and Related Eye Diseases, Key Laboratory of Myopia and Related Eye Diseases, Chinese Academy of Medical Sciences, Shanghai, 200031, China; Shanghai Key Laboratory of Visual Impairment and Restoration, Shanghai, 200031, China.",
+        "Eye Institute and Department of Ophthalmology, Eye & ENT Hospital, Fudan University, Shanghai, 200031, China; NHC Key Laboratory of Myopia and Related Eye Diseases, Key Laboratory of Myopia and Related Eye Diseases, Chinese Academy of Medical Sciences, Shanghai, 200031, China; Shanghai Key Laboratory of Visual Impairment and Restoration, Shanghai, 200031, China. Electronic address: xiangjun2015@163.com.",
+        "Eye Institute and Department of Ophthalmology, Eye & ENT Hospital, Fudan University, Shanghai, 200031, China; NHC Key Laboratory of Myopia and Related Eye Diseases, Key Laboratory of Myopia and Related Eye Diseases, Chinese Academy of Medical Sciences, Shanghai, 200031, China; Shanghai Key Laboratory of Visual Impairment and Restoration, Shanghai, 200031, China. Electronic address: idoclun@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cheng, Jingyi",
+        "short_name": "Cheng J",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Institute and Department of Ophthalmology, Eye & ENT Hospital, Fudan University, Shanghai, 200031, China; NHC Key Laboratory of Myopia and Related Eye Diseases, Key Laboratory of Myopia and Related Eye Diseases, Chinese Academy of Medical Sciences, Shanghai, 200031, China; Shanghai Key Laboratory of Visual Impairment and Restoration, Shanghai, 200031, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dandan",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Affiliated People's Hospital of Ningbo University, Ningbo, 315000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qian",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Yunnan Eye Institute & Key Laboratory of Yunnan Province, Yunnan Eye Disease Clinical Medical Center, Affiliated Hospital of Yunnan University, Yunnan University, Kunming, 650021, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Jiawen",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Institute and Department of Ophthalmology, Eye & ENT Hospital, Fudan University, Shanghai, 200031, China; NHC Key Laboratory of Myopia and Related Eye Diseases, Key Laboratory of Myopia and Related Eye Diseases, Chinese Academy of Medical Sciences, Shanghai, 200031, China; Shanghai Key Laboratory of Visual Impairment and Restoration, Shanghai, 200031, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Yidan",
+        "short_name": "Fan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Institute and Department of Ophthalmology, Eye & ENT Hospital, Fudan University, Shanghai, 200031, China; NHC Key Laboratory of Myopia and Related Eye Diseases, Key Laboratory of Myopia and Related Eye Diseases, Chinese Academy of Medical Sciences, Shanghai, 200031, China; Shanghai Key Laboratory of Visual Impairment and Restoration, Shanghai, 200031, China."
+        ]
+      },
+      {
+        "full_name": "Lyu, Zhaoyuan",
+        "short_name": "Lyu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Transdisciplinary Arts, Akita University of Art, Akita, 010-0195, Japan."
+        ]
+      },
+      {
+        "full_name": "Gu, Jiayu",
+        "short_name": "Gu J",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Institute and Department of Ophthalmology, Eye & ENT Hospital, Fudan University, Shanghai, 200031, China; NHC Key Laboratory of Myopia and Related Eye Diseases, Key Laboratory of Myopia and Related Eye Diseases, Chinese Academy of Medical Sciences, Shanghai, 200031, China; Shanghai Key Laboratory of Visual Impairment and Restoration, Shanghai, 200031, China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Jun",
+        "short_name": "Xiang J",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Institute and Department of Ophthalmology, Eye & ENT Hospital, Fudan University, Shanghai, 200031, China; NHC Key Laboratory of Myopia and Related Eye Diseases, Key Laboratory of Myopia and Related Eye Diseases, Chinese Academy of Medical Sciences, Shanghai, 200031, China; Shanghai Key Laboratory of Visual Impairment and Restoration, Shanghai, 200031, China. Electronic address: xiangjun2015@163.com."
+        ]
+      },
+      {
+        "full_name": "Lyu, Ning",
+        "short_name": "Lyu N",
+        "identifiers": [],
+        "affiliations": [
+          "Eye Institute and Department of Ophthalmology, Eye & ENT Hospital, Fudan University, Shanghai, 200031, China; NHC Key Laboratory of Myopia and Related Eye Diseases, Key Laboratory of Myopia and Related Eye Diseases, Chinese Academy of Medical Sciences, Shanghai, 200031, China; Shanghai Key Laboratory of Visual Impairment and Restoration, Shanghai, 200031, China. Electronic address: idoclun@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical and biophysical research communications"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Res Commun"
+    ],
+    "pub_date": "2026 Sep 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/14 22:35",
+    "fetched_at": "2026-10-02 01:51:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42447550",
+      "40782934",
+      "41285222",
+      "42509823",
+      "41703488",
+      "40406126",
+      "42024670",
+      "41291841",
+      "39139563",
+      "40276515",
+      "41576727",
+      "40247093",
+      "41905994",
+      "41316541",
+      "41479901",
+      "39067546",
+      "42143165",
+      "39722894",
+      "40340571",
+      "39920798",
+      "40836320",
+      "39923303",
+      "34218797",
+      "41192647",
+      "41354822",
+      "42232759",
+      "41583468",
+      "40901474",
+      "41706425",
+      "42306043",
+      "42015036",
+      "42358997",
+      "41546812",
+      "40552285",
+      "42471019",
+      "41052072",
+      "41214111",
+      "40754871",
+      "42327749",
+      "40124361",
+      "41961800",
+      "41508240",
+      "41533020",
+      "40532306",
+      "41816328",
+      "41325315",
+      "41591671",
+      "42274933",
+      "42313235",
+      "39875572",
+      "41151411",
+      "39483475",
+      "41006883",
+      "42099592",
+      "41731716",
+      "41261566",
+      "39888730",
+      "41299729",
+      "41665627",
+      "33299863",
+      "41388523",
+      "39351221",
+      "41350331",
+      "40024421",
+      "39391879",
+      "41190071",
+      "42435052",
+      "40233623",
+      "42025819",
+      "39176085",
+      "40969769",
+      "41200172",
+      "41100952",
+      "41628840",
+      "42292423",
+      "40216809",
+      "41221285",
+      "42157182",
+      "42530267",
+      "41080564",
+      "41350988",
+      "41872824",
+      "41265166",
+      "38873611",
+      "42292468",
+      "38987624",
+      "36187094",
+      "41789004",
+      "41107929",
+      "41461777",
+      "40421012",
+      "40328901",
+      "39559355",
+      "42243611",
+      "42180604",
+      "39809219",
+      "39512836",
+      "41826854",
+      "42450069",
+      "38863714"
+    ],
+    "review": [
+      "42447550",
+      "41665627"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-291X(26)01039-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4042",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

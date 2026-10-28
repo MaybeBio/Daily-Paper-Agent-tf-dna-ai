@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.02.15.638393",
+  "title": "GerNA-Bind: Geometric-enhanced RNA-ligand Binding Specificity Prediction with Deep Learning",
+  "authors": "Yunpeng Xia; Jiayi Li; Yi-Ting Chu; Jiahua Rao; Jing Chen; Chenqing Hua; Dong-Jun Yu; Xiu-Cai Chen; Shuangjia Zheng",
+  "journal": "bioRxiv",
+  "published_date": "2025-02-19",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用几何深度学习预测RNA-配体结合特异性，虽非蛋白质-DNA互作体系，但其多状态表示与结合位点预测方法可迁移至TF-DNA互作建模，故给予中档评分。",
+  "abstract": "RNA molecules are essential regulators of biological processes and promising therapeutic targets for various diseases. Discovering small molecules that selectively bind to specific RNA conformations remains challenging due to RNA’s structural complexity and the limited availability of high-resolution data. Herein, we introduce GerNA-Bind, a geometric deep learning framework to predict RNA-ligand binding specificity by integrating multi-state RNA-ligand representations and interactions. GerNA-Bind achieves state-of-the-art performance on multiple benchmark datasets and excels in predicting interactions for low-homology RNA-ligand pairs. It achieves a 20.8% improvement in precision for binding site prediction compared to AlphaFold3. Furthermore, it offers informative, well-calibrated predictions with built-in uncertainty quantification. In a large-scale virtual screening application, GerNA-Bind identified 18 structurally diverse compounds targeting the oncogenic MALAT1 RNA, with experimentally confirmed submicromolar affinities. Among them, one lead compound selectively binds the MALAT1 triple-helix, reduces its transcript levels, and inhibits cancer cell migration. These findings highlight GerNA-Bind’s potential as a powerful tool for RNA-focused drug discovery, offering both accuracy and biological insight.",
+  "abstract_zh": "RNA分子是生物过程的关键调控因子，也是多种疾病中具有前景的治疗靶点。由于RNA的结构复杂性和高分辨率数据的有限可用性，发现能够选择性结合特定RNA构象的小分子仍然具有挑战性。在此，我们介绍了GerNA-Bind，一种几何深度学习框架，通过整合多状态RNA-配体表示和相互作用来预测RNA-配体结合特异性。GerNA-Bind在多个基准数据集上达到了最先进的性能，并在预测低同源性RNA-配体对的相互作用方面表现出色。与AlphaFold3相比，它在结合位点预测的精确度上提高了20.8%。此外，它提供了信息丰富、校准良好的预测，并内置了不确定性量化功能。在一次大规模虚拟筛选应用中，GerNA-Bind识别出18种结构多样的化合物，靶向致癌性MALAT1 RNA，并实验确认了亚微摩尔亲和力。其中，一种先导化合物选择性结合MALAT1三螺旋结构，降低其转录水平，并抑制癌细胞迁移。这些发现突显了GerNA-Bind作为RNA聚焦药物发现强大工具的潜力，既提供了准确性，也提供了生物学洞察。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.02.15.638393",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.02.15.638393",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.02.15.638393/index.html"
+}

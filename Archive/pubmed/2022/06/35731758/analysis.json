@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35731758",
+  "title": "MV-H-RKM: A Multiple View-Based Hypergraph Regularized Restricted Kernel Machine for Predicting DNA-Binding Proteins.",
+  "authors": "Guan, Shixuan; Qian, Yuqing; Jiang, Tengsheng; Jiang, Min; Ding, Yijie; Wu, Hongjie",
+  "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+  "published_date": "2022-06-23",
+  "window": {
+    "start": "2022-06-20",
+    "end": "2022-06-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用多视图超图正则化核机器预测DNA结合蛋白，属于广义蛋白-DNA互作识别，方法可迁移至TF-DNA结合位点预测，但未聚焦TF-DNA特异性结合机制。",
+  "abstract": "DNA-binding proteins (DBPs) have a significant impact on many life activities, so identification of DBPs is a crucial issue. And it is greatly helpful to understand the mechanism of protein-DNA interactions. In traditional experimental methods, it is significant time-consuming and labor-consuming to identify DBPs. In recent years, many researchers have proposed lots of different DBP identification methods based on machine learning algorithm to overcome shortcomings mentioned above. However, most existing methods cannot get satisfactory results. In this paper, we focus on developing a new predictor of DBPs, called Multi-View Hypergraph Restricted Kernel Machines (MV-H-RKM). In this method, we extract five features from the three views of the proteins. To fuse these features, we couple them by means of the shared hidden vector. Besides, we employ the hypergraph regularization to enforce the structure consistency between original features and the hidden vector. Experimental results show that the accuracy of MV-H-RKM is 84.09% and 85.48% on PDB1075 and PDB186 data set respectively, and demonstrate that our proposed method performs better than other state-of-the-art approaches. The code is publicly available at https://github.com/ShixuanGG/MV-H-RKM.",
+  "abstract_zh": "DNA结合蛋白（DNA-binding proteins, DBPs）在许多生命活动中具有重要影响，因此识别DBPs是一个关键问题，并且对于理解蛋白质-DNA相互作用机制大有帮助。传统实验方法在识别DBPs时耗时且费力。近年来，许多研究者基于机器学习算法提出了多种不同的DBP识别方法，以克服上述缺点。然而，大多数现有方法未能获得满意结果。本文中，我们专注于开发一种新的DBPs预测器，称为多视图超图受限核机器（Multi-View Hypergraph Restricted Kernel Machines, MV-H-RKM）。在该方法中，我们从蛋白质的三个视图中提取五种特征。为融合这些特征，我们通过共享隐藏向量将它们耦合。此外，我们采用超图正则化来强制原始特征与隐藏向量之间的结构一致性。实验结果表明，MV-H-RKM在PDB1075和PDB186数据集上的准确率分别为84.09%和85.48%，并证明我们提出的方法优于其他最先进的方法。代码公开可用，网址为 https://github.com/ShixuanGG/MV-H-RKM。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35731758/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35731758/",
+  "paper_page_path": "papers/pubmed/35731758/index.html"
+}

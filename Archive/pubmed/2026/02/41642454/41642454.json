@@ -1,0 +1,387 @@
+{
+  "identity": {
+    "pmid": "41642454",
+    "doi": "10.1007/s13402-025-01148-4",
+    "title": "ENY2 transcription and export complex 2 subunit deficiency induces nucleolar stress to inhibit tumor progression through NPM1/MDM2/p53-dependent and -independent responses."
+  },
+  "content": {
+    "abstract": "PURPOSE: The selective induction of nucleolar stress in cancer cells has become a potential anticancer therapy. However, precisely regulating the key molecules involved in nucleolar stress remains a challenging topic in current research. ENY2 transcription and export complex 2 subunit (ENY2) is a transcription-associated nuclear protein that is upregulated in several cancers. However, its specific function and mechanistic role in oncogenesis remain poorly characterized and require further exploration. METHODS: ENY2 was identified by screening ChIP-seq and public databases. Its role in tumor development was confirmed through in vivo and in vitro experiments. RNA sequencing, polysome profiling, agarose gel electrophoresis, and immunofluorescence suggested ENY2's involvement in ribosome biogenesis. Interacting proteins were identified by confocal microscopy, co-IP, and molecular docking, then validated by western blotting and ubiquitination assays. Finally, drug resistance experiments evaluated ENY2's clinical potential. RESULTS: We discovered that the overexpression of ENY2 significantly enhances tumor growth and cell cycle progression both in vitro and in vivo. Conversely, depletion of ENY2 facilitating the release of NPM1 into the nucleoplasm, thereby impeding ribosomal subunit export and inducing nucleolar stress. Additionally, the released NPM1 interacts with MDM2 within the nucleus to stabilize p53 protein levels, consequently inhibiting tumor growth. Notably, knockdown of ENY2 in p53-mutant cancer cell lines exhibits an augmented binding affinity and silencing efficacy of RISC towards target mRNA molecules, ultimately suppressing tumor proliferation through a p53-independent manner. CONCLUSIONS: This study elucidated a previously unrecognized role of ENY2 in tumor growth, clarified the NPM1/MDM2/ p53-dependent mechanism of ENY2-mediated tumor cell growth suppression. We also provided a novel p53-independent RISC-IL11 nucleolar stress response pathway, which may provide a new target for the treatment of breast cancer.",
+    "keywords": [
+      "ENY2 transcription and export complex 2 subunit",
+      "NPM1",
+      "Nucleolar stress",
+      "anti-IL11 therapy",
+      "p53-independent response pathway"
+    ],
+    "mesh_terms": [
+      "Nucleophosmin",
+      "Humans",
+      "*Proto-Oncogene Proteins c-mdm2/metabolism",
+      "*Tumor Suppressor Protein p53/metabolism",
+      "Animals",
+      "*Cell Nucleolus/metabolism",
+      "Cell Line, Tumor",
+      "Female",
+      "*Nuclear Proteins/metabolism",
+      "*Transcription Factors/metabolism/genetics",
+      "*Transcription, Genetic",
+      "*Disease Progression",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Proliferation/genetics",
+      "Mice, Nude",
+      "Mice"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zuo, Shiqi",
+        "He, Siyuan",
+        "Zhu, Zhiqin",
+        "Hou, Yanjie",
+        "Wu, Ziqing",
+        "Tang, Yao",
+        "Zou, Yujiao"
+      ],
+      "short_names": [
+        "Zuo S",
+        "He S",
+        "Zhu Z",
+        "Hou Y",
+        "Wu Z",
+        "Tang Y",
+        "Zou Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pathology, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, School of Basic Medical Sciences, Southern Medical University, Guangzhou, Guangdong, China.",
+        "Guangdong Province Key Laboratory of Molecular Tumor Pathology, Guangzhou, Guangdong, China.",
+        "Department of Pathology, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, School of Basic Medical Sciences, Southern Medical University, Guangzhou, Guangdong, China.",
+        "Center of Respiratory Medicine, Xiangya Hospital Central South University, Changsha, Hunan, China.",
+        "Department of Pathology, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, School of Basic Medical Sciences, Southern Medical University, Guangzhou, Guangdong, China.",
+        "Department of Pathology, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, School of Basic Medical Sciences, Southern Medical University, Guangzhou, Guangdong, China. hailian@smu.edu.cn.",
+        "Guangdong Province Key Laboratory of Molecular Tumor Pathology, Guangzhou, Guangdong, China. hailian@smu.edu.cn.",
+        "Department of Pathology, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, School of Basic Medical Sciences, Southern Medical University, Guangzhou, Guangdong, China. tangyao0626@smu.edu.cn.",
+        "Department of Radiation oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China. zouyujiao@smu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zuo, Shiqi",
+        "short_name": "Zuo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, School of Basic Medical Sciences, Southern Medical University, Guangzhou, Guangdong, China.",
+          "Guangdong Province Key Laboratory of Molecular Tumor Pathology, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "He, Siyuan",
+        "short_name": "He S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, School of Basic Medical Sciences, Southern Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Zhiqin",
+        "short_name": "Zhu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Respiratory Medicine, Xiangya Hospital Central South University, Changsha, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Yanjie",
+        "short_name": "Hou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, School of Basic Medical Sciences, Southern Medical University, Guangzhou, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Ziqing",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, School of Basic Medical Sciences, Southern Medical University, Guangzhou, Guangdong, China. hailian@smu.edu.cn.",
+          "Guangdong Province Key Laboratory of Molecular Tumor Pathology, Guangzhou, Guangdong, China. hailian@smu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Tang, Yao",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Southern Medical University Hospital of Integrated Traditional Chinese and Western Medicine, School of Basic Medical Sciences, Southern Medical University, Guangzhou, Guangdong, China. tangyao0626@smu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zou, Yujiao",
+        "short_name": "Zou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiation oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China. zouyujiao@smu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cellular oncology (Dordrecht, Netherlands)"
+    ],
+    "journal_abbrev": [
+      "Cell Oncol (Dordr)"
+    ],
+    "pub_date": "2026 Feb 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/05 19:05",
+    "fetched_at": "2026-10-01 13:07:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40860160",
+      "40362410",
+      "39020175",
+      "38054591",
+      "37172570",
+      "36927018",
+      "35992857",
+      "35444234",
+      "35440410",
+      "35410715",
+      "35303060",
+      "34942118",
+      "34638533",
+      "34071057",
+      "33999432",
+      "33918387",
+      "33516089",
+      "33201894",
+      "33042272",
+      "32651541",
+      "32448596",
+      "32404993",
+      "31468363",
+      "31434627",
+      "31225478",
+      "30977117",
+      "30862720",
+      "30824861",
+      "30566372",
+      "30086773",
+      "30054449",
+      "29875343",
+      "29873780",
+      "29588169",
+      "29116388",
+      "28887412",
+      "28085118",
+      "28079879",
+      "27886181",
+      "27265389",
+      "27112207",
+      "26891980",
+      "26826523",
+      "26721423",
+      "26528322",
+      "26475334",
+      "26067754",
+      "25735597",
+      "24722283",
+      "24103154",
+      "24043628",
+      "23953479",
+      "23340433",
+      "23169665",
+      "22544605",
+      "21919503",
+      "21878508",
+      "21746879",
+      "21152184",
+      "20965417",
+      "20498634",
+      "20159984",
+      "19878869",
+      "18809582",
+      "18442991",
+      "18390669",
+      "18231594",
+      "18046571",
+      "17612493",
+      "17322916",
+      "17242401",
+      "16912078",
+      "16455486",
+      "15989966",
+      "15152193",
+      "15144954",
+      "14729967",
+      "14634627",
+      "14609953",
+      "12600936",
+      "12068309",
+      "11390653",
+      "11331871",
+      "11099028",
+      "8978700",
+      "8620530",
+      "7673248",
+      "3907710",
+      "3900086",
+      "2415133",
+      "2414117"
+    ],
+    "similar": [
+      "41642454",
+      "40239541",
+      "34999733",
+      "34362424",
+      "27811966",
+      "22522597",
+      "36555627",
+      "25482947",
+      "29143558",
+      "23019224",
+      "22320853",
+      "22777350",
+      "33040459",
+      "32236588",
+      "32894144",
+      "38896079",
+      "26119940",
+      "15195100",
+      "40652043",
+      "27886181",
+      "28656213",
+      "21097889",
+      "35034103",
+      "30862720",
+      "28099941",
+      "27741518",
+      "25902914",
+      "29702115",
+      "25759387",
+      "15684379",
+      "41418977",
+      "33201894",
+      "39722009",
+      "14636574",
+      "40508092",
+      "33495326",
+      "39671783",
+      "25349213",
+      "21223569",
+      "22665062",
+      "34650049",
+      "39990225",
+      "25739118",
+      "38421204",
+      "23169665",
+      "27829214",
+      "15485902",
+      "30064446",
+      "39475053",
+      "12149568",
+      "20554519",
+      "18426907",
+      "41995092",
+      "29168185",
+      "11705884",
+      "37087976",
+      "30642351",
+      "26908445",
+      "39528457",
+      "27856536",
+      "26556313",
+      "39143552",
+      "23388179",
+      "21747916",
+      "33221336",
+      "28055106",
+      "28722511",
+      "40705480",
+      "16855788",
+      "41748046",
+      "23393136",
+      "30085406",
+      "25168242",
+      "31138778",
+      "39039052",
+      "26229107",
+      "30176896",
+      "15897463",
+      "38810862",
+      "23150668",
+      "11739734",
+      "39450547",
+      "40014097",
+      "25826659",
+      "32132307",
+      "42214227",
+      "28981686",
+      "26718483",
+      "23907365",
+      "42208104",
+      "41051594",
+      "34615546",
+      "36758667",
+      "40721007",
+      "20703089",
+      "18359851",
+      "29899406",
+      "30867411",
+      "15295102",
+      "41771573"
+    ],
+    "review": [
+      "41642454",
+      "22320853",
+      "28722511"
+    ],
+    "pmc": [
+      "12876109"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41642454/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s13402-025-01148-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MDM2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

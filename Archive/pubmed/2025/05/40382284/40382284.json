@@ -1,0 +1,567 @@
+{
+  "identity": {
+    "pmid": "40382284",
+    "doi": "10.1016/j.ebiom.2025.105764",
+    "title": "Circadian rhythm disruption by PARP inhibitors correlates with treatment toxicity in patients with ovarian cancer and is a predictor of side effects."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Ovarian cancer is among the most lethal malignancies in women. The advent of PARP inhibitors (PARPi) has improved outcomes. However, treatment-related toxicity remains a critical challenge, impacting patient quality of life and treatment adherence. METHODS: In a circadian sub-study of the MAMOC trial-a double-blind, phase III study-42 patients (FIGO stage IIIA-IV) were randomised in a 2:1 ratio to receive rucaparib or placebo. In a subset of these patients, we performed differential gene expression and rhythmicity analysis on up to 800 genes, including clock and clock-controlled genes. Machine learning algorithms and mathematical modelling were employed to simulate patient-specific toxicity profiles and to explore correlations between gene expression patterns and treatment-related side effects. FINDINGS: Our analysis revealed significant disruptions in circadian rhythms, specifically in the expression of the core clock genes BMAL1 and PER2, following treatment. These disruptions strongly correlated with the severity and frequency of side effects, including nausea and fatigue, displaying opposite trends between the placebo and rucaparib-treated groups. K-means clustering successfully distinguished rucaparib-treated patients from those receiving placebo based on BMAL1 phase and gene expression profiles. In addition, rucaparib therapy also altered the expression of several clock-controlled genes, including SIRT1, BRCA1, BRCA2, and TP53. Notably, our data suggest that individual differences in circadian rhythms may lead to distinct 24-h toxicity profiles among patients. INTERPRETATION: These findings suggest that circadian rhythm dysregulation may contribute to the toxicity of PARPi therapy. Aligning treatment timing with circadian rhythms could mitigate these adverse effects, and improve patient outcomes. FUNDING: This study was funded by the Dr. Rolf Schwiete Stiftung and the MSH Medical School Hamburg, Germany. The MAMOC trial (ClinicalTrials.gov: NCT04227522) was funded by Clovis Oncology, United States.",
+    "keywords": [
+      "Adverse events",
+      "Chronotherapy",
+      "Circadian profiles",
+      "Circadian rhythms",
+      "Mathematical modelling",
+      "Ovarian cancer",
+      "PARP inhibitors",
+      "Rucaparib"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Poly(ADP-ribose) Polymerase Inhibitors/adverse effects/therapeutic use",
+      "*Ovarian Neoplasms/drug therapy/genetics/pathology",
+      "*Circadian Rhythm/drug effects/genetics",
+      "Middle Aged",
+      "Aged",
+      "Indoles/adverse effects/therapeutic use/administration & dosage",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "ARNTL Transcription Factors/genetics",
+      "Gene Expression Profiling",
+      "Adult",
+      "Period Circadian Proteins/genetics"
+    ],
+    "pub_types": [
+      "Clinical Trial, Phase III",
+      "Journal Article",
+      "Randomized Controlled Trial"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Malhan, Deeksha",
+        "Hesse, Janina",
+        "Nelson, Nina",
+        "Stankov, Kay",
+        "Nguyen, Jessica",
+        "Aboumanify, Ouda",
+        "Garmshausen, Josefin",
+        "Rogmans, Gunther",
+        "Czogalla, Bastian",
+        "Gerber, Jens",
+        "Koch, Martin",
+        "Kupec, Tomas",
+        "Tome, Oliver",
+        "Witteler, Ralf",
+        "Deryal, Mustafa",
+        "Eichbaum, Michael",
+        "Sehouli, Jalid",
+        "Braicu, Elena Ioana",
+        "Relogio, Angela"
+      ],
+      "short_names": [
+        "Malhan D",
+        "Hesse J",
+        "Nelson N",
+        "Stankov K",
+        "Nguyen J",
+        "Aboumanify O",
+        "Garmshausen J",
+        "Rogmans G",
+        "Czogalla B",
+        "Gerber J",
+        "Koch M",
+        "Kupec T",
+        "Tome O",
+        "Witteler R",
+        "Deryal M",
+        "Eichbaum M",
+        "Sehouli J",
+        "Braicu EI",
+        "Relogio A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute for Systems Medicine and Faculty of Human Medicine, MSH Medical School Hamburg, Hamburg, Germany.",
+        "Institute for Systems Medicine and Faculty of Human Medicine, MSH Medical School Hamburg, Hamburg, Germany; Leibniz-Institute for Resilience Research (LIR), Mainz, Germany; Johannes Gutenberg University Medical Center Mainz, Mainz, Germany; Institute for Quantitative and Computational Biosciences (IQCB), Johannes-Gutenberg University, Mainz, Germany.",
+        "Institute for Systems Medicine and Faculty of Human Medicine, MSH Medical School Hamburg, Hamburg, Germany.",
+        "Stat4med (Ainovate GmbH), Frankfurt, Germany.",
+        "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany.",
+        "Institute for Theoretical Biology (ITB), Charite-Universitatsmedizin Berlin, Corporate Member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, and Berlin Institute of Health, Berlin, Germany.",
+        "Institute for Systems Medicine and Faculty of Human Medicine, MSH Medical School Hamburg, Hamburg, Germany; Institute for Theoretical Biology (ITB), Charite-Universitatsmedizin Berlin, Corporate Member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, and Berlin Institute of Health, Berlin, Germany.",
+        "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; ZAGO- Zentrum fur ambulante gynakologische Onkologie, Krefeld, Germany.",
+        "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; Department of Obstetrics and Gynecology, LMU University Hospital, LMU Munich, Munich, Germany.",
+        "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; Stadtisches Klinikum Dessau, Frauenheilkunde und Geburtshilfe, Dessau, Germany.",
+        "Department of Gynecology and Obstetrics, Hospital Anregiomed Ansbach, Ansbach, Germany.",
+        "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; Department of Obstetrics and Gynecology, University Hospital Aachen, Aachen, Germany.",
+        "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; ViDia Christliche Kliniken Karlsruhe, Department of Gynecology and Obstetrics, Karlsruhe, Germany.",
+        "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; Universitatsklinikum Munster, Klinik fur Frauenheilkunde und Geburtshilfe, Munster, Germany.",
+        "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; Center for Gynecology, Caritas Klinikum St. Theresia-Saarbruecken, Saarbruecken, Germany.",
+        "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; Helios Dr. Horst Schmidt Kliniken Wiesbaden, Department of Gynecology and Obstetrics, Wiesbaden, Germany.",
+        "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; Department of Gynecology with Center for Oncological Surgery, Charite - Universitatsmedizin Berlin, Campus Virchow Klinikum, Berlin, Germany.",
+        "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; Department of Gynecology with Center for Oncological Surgery, Charite - Universitatsmedizin Berlin, Campus Virchow Klinikum, Berlin, Germany; Tumorbank Ovarian Cancer Network, Charite - Universitatsmedizin Berlin, Corporate Member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, and Berlin Institute of Health, Berlin, Germany. Electronic address: elena.braicu@charite.de.",
+        "Institute for Systems Medicine and Faculty of Human Medicine, MSH Medical School Hamburg, Hamburg, Germany; Institute for Theoretical Biology (ITB), Charite-Universitatsmedizin Berlin, Corporate Member of Freie Universitat Berlin, Humboldt-Universitat zu Berlin, and Berlin Institute of Health, Berlin, Germany; TimeTeller GmbH, Hamburg, Germany. Electronic address: angela.relogio@medicalschool-hamburg.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Malhan, Deeksha",
+        "short_name": "Malhan D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Medicine and Faculty of Human Medicine, MSH Medical School Hamburg, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Hesse, Janina",
+        "short_name": "Hesse J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Medicine and Faculty of Human Medicine, MSH Medical School Hamburg, Hamburg, Germany; Leibniz-Institute for Resilience Research (LIR), Mainz, Germany; Johannes Gutenberg University Medical Center Mainz, Mainz, Germany; Institute for Quantitative and Computational Biosciences (IQCB), Johannes-Gutenberg University, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Nelson, Nina",
+        "short_name": "Nelson N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Medicine and Faculty of Human Medicine, MSH Medical School Hamburg, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Stankov, Kay",
+        "short_name": "Stankov K",
+        "identifiers": [],
+        "affiliations": [
+          "Stat4med (Ainovate GmbH), Frankfurt, Germany."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Jessica",
+        "short_name": "Nguyen J",
+        "identifiers": [],
+        "affiliations": [
+          "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Aboumanify, Ouda",
+        "short_name": "Aboumanify O",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Theoretical Biology (ITB), Charité-Universitätsmedizin Berlin, Corporate Member of Freie Universität Berlin, Humboldt-Universität zu Berlin, and Berlin Institute of Health, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Garmshausen, Josefin",
+        "short_name": "Garmshausen J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Medicine and Faculty of Human Medicine, MSH Medical School Hamburg, Hamburg, Germany; Institute for Theoretical Biology (ITB), Charité-Universitätsmedizin Berlin, Corporate Member of Freie Universität Berlin, Humboldt-Universität zu Berlin, and Berlin Institute of Health, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Rogmans, Gunther",
+        "short_name": "Rogmans G",
+        "identifiers": [],
+        "affiliations": [
+          "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; ZAGO- Zentrum für ambulante gynäkologische Onkologie, Krefeld, Germany."
+        ]
+      },
+      {
+        "full_name": "Czogalla, Bastian",
+        "short_name": "Czogalla B",
+        "identifiers": [],
+        "affiliations": [
+          "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; Department of Obstetrics and Gynecology, LMU University Hospital, LMU Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Gerber, Jens",
+        "short_name": "Gerber J",
+        "identifiers": [],
+        "affiliations": [
+          "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; Städtisches Klinikum Dessau, Frauenheilkunde und Geburtshilfe, Dessau, Germany."
+        ]
+      },
+      {
+        "full_name": "Koch, Martin",
+        "short_name": "Koch M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gynecology and Obstetrics, Hospital Anregiomed Ansbach, Ansbach, Germany."
+        ]
+      },
+      {
+        "full_name": "Kupec, Tomáš",
+        "short_name": "Kupec T",
+        "identifiers": [],
+        "affiliations": [
+          "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; Department of Obstetrics and Gynecology, University Hospital Aachen, Aachen, Germany."
+        ]
+      },
+      {
+        "full_name": "Tomé, Oliver",
+        "short_name": "Tomé O",
+        "identifiers": [],
+        "affiliations": [
+          "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; ViDia Christliche Kliniken Karlsruhe, Department of Gynecology and Obstetrics, Karlsruhe, Germany."
+        ]
+      },
+      {
+        "full_name": "Witteler, Ralf",
+        "short_name": "Witteler R",
+        "identifiers": [],
+        "affiliations": [
+          "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; Universitätsklinikum Münster, Klinik für Frauenheilkunde und Geburtshilfe, Münster, Germany."
+        ]
+      },
+      {
+        "full_name": "Deryal, Mustafa",
+        "short_name": "Deryal M",
+        "identifiers": [],
+        "affiliations": [
+          "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; Center for Gynecology, Caritas Klinikum St. Theresia-Saarbruecken, Saarbruecken, Germany."
+        ]
+      },
+      {
+        "full_name": "Eichbaum, Michael",
+        "short_name": "Eichbaum M",
+        "identifiers": [],
+        "affiliations": [
+          "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; Helios Dr. Horst Schmidt Kliniken Wiesbaden, Department of Gynecology and Obstetrics, Wiesbaden, Germany."
+        ]
+      },
+      {
+        "full_name": "Sehouli, Jalid",
+        "short_name": "Sehouli J",
+        "identifiers": [],
+        "affiliations": [
+          "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; Department of Gynecology with Center for Oncological Surgery, Charité - Universitätsmedizin Berlin, Campus Virchow Klinikum, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Braicu, Elena Ioana",
+        "short_name": "Braicu EI",
+        "identifiers": [],
+        "affiliations": [
+          "North-Eastern German Society of Gynecological Oncology (NOGGO e.V.), Berlin, Germany; Department of Gynecology with Center for Oncological Surgery, Charité - Universitätsmedizin Berlin, Campus Virchow Klinikum, Berlin, Germany; Tumorbank Ovarian Cancer Network, Charité - Universitätsmedizin Berlin, Corporate Member of Freie Universität Berlin, Humboldt-Universität zu Berlin, and Berlin Institute of Health, Berlin, Germany. Electronic address: elena.braicu@charite.de."
+        ]
+      },
+      {
+        "full_name": "Relógio, Angela",
+        "short_name": "Relógio A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Medicine and Faculty of Human Medicine, MSH Medical School Hamburg, Hamburg, Germany; Institute for Theoretical Biology (ITB), Charité-Universitätsmedizin Berlin, Corporate Member of Freie Universität Berlin, Humboldt-Universität zu Berlin, and Berlin Institute of Health, Berlin, Germany; TimeTeller GmbH, Hamburg, Germany. Electronic address: angela.relogio@medicalschool-hamburg.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "EBioMedicine"
+    ],
+    "journal_abbrev": [
+      "EBioMedicine"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Clinical Trial, Phase III",
+      "Journal Article",
+      "Randomized Controlled Trial"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/18 17:01",
+    "fetched_at": "2026-09-30 17:46:18"
+  },
+  "links": {
+    "cites": [
+      "42515704",
+      "42164098",
+      "41827159",
+      "41537447",
+      "41387951"
+    ],
+    "refs": [
+      "40025950",
+      "39955805",
+      "39282509",
+      "39135999",
+      "39007266",
+      "38834742",
+      "38753451",
+      "38657074",
+      "38584601",
+      "38548868",
+      "38368003",
+      "38301362",
+      "37880048",
+      "37797734",
+      "37797685",
+      "37722720",
+      "37637018",
+      "37440217",
+      "37358003",
+      "37353516",
+      "37153516",
+      "36941223",
+      "36730411",
+      "36647780",
+      "36186454",
+      "35787846",
+      "35772217",
+      "35733785",
+      "35658487",
+      "35654059",
+      "35560216",
+      "35381145",
+      "35298906",
+      "35290101",
+      "35240088",
+      "35179486",
+      "35136018",
+      "35101914",
+      "34780711",
+      "34729791",
+      "34630937",
+      "34615982",
+      "34338232",
+      "34152382",
+      "33981998",
+      "33743851",
+      "33720045",
+      "33680499",
+      "33453391",
+      "33278287",
+      "31986133",
+      "31851799",
+      "31756424",
+      "31562799",
+      "31405066",
+      "31311918",
+      "31173551",
+      "31013492",
+      "30799503",
+      "30472909",
+      "30345884",
+      "28916367",
+      "27990019",
+      "27717299",
+      "27476975",
+      "27249687",
+      "27066876",
+      "26888117",
+      "25945798",
+      "25872889",
+      "25724980",
+      "25605792",
+      "25046131",
+      "24915535",
+      "24020000",
+      "22904072",
+      "20850006",
+      "20832105",
+      "20055686",
+      "18662546",
+      "17852284",
+      "16480963",
+      "12826043",
+      "11846609",
+      "9610214",
+      "8628042",
+      "8433390",
+      "7165009",
+      "3946370",
+      "1742392"
+    ],
+    "similar": [
+      "40382284",
+      "39914419",
+      "27908594",
+      "28916367",
+      "32359490",
+      "35298906",
+      "31575788",
+      "40700852",
+      "30105925",
+      "34715071",
+      "28882436",
+      "34593565",
+      "42312474",
+      "35170751",
+      "32840418",
+      "33886122",
+      "35897700",
+      "27617661",
+      "28264872",
+      "38971950",
+      "29166829",
+      "41928160",
+      "40580808",
+      "34647981",
+      "28754483",
+      "20524973",
+      "27002934",
+      "31685558",
+      "35728080",
+      "34958553",
+      "33347814",
+      "33332934",
+      "25991068",
+      "41115469",
+      "42685115",
+      "41654913",
+      "29606854",
+      "37637244",
+      "23810788",
+      "34572083",
+      "40526442",
+      "24708606",
+      "40692435",
+      "36623515",
+      "21797776",
+      "30830551",
+      "33743851",
+      "23251369",
+      "20807668",
+      "32927276",
+      "32811682",
+      "20096720",
+      "33515503",
+      "30283092",
+      "39266137",
+      "32861537",
+      "36707086",
+      "26271538",
+      "30195196",
+      "37285556",
+      "18720043",
+      "31931287",
+      "35658487",
+      "27022037",
+      "34895464",
+      "39420563",
+      "41958333",
+      "34727316",
+      "38452035",
+      "39013199",
+      "32171277",
+      "36801617",
+      "36795891",
+      "32861273",
+      "38750351",
+      "30449210",
+      "30333088",
+      "39064706",
+      "41691861",
+      "26671182",
+      "23671070",
+      "29605737",
+      "40413120",
+      "22316301",
+      "30345884",
+      "38981930",
+      "31553293",
+      "42563438",
+      "28751443",
+      "32172572",
+      "39058434",
+      "38397147",
+      "32814685",
+      "35990583",
+      "39699314",
+      "42401921",
+      "30672100",
+      "28247266",
+      "25888034",
+      "26590673"
+    ],
+    "review": [
+      "40382284",
+      "30105925",
+      "42312474",
+      "35170751",
+      "33886122",
+      "35897700",
+      "29166829",
+      "33347814",
+      "25991068",
+      "29606854",
+      "37637244",
+      "30830551",
+      "39266137",
+      "36707086",
+      "37285556",
+      "31931287",
+      "27022037",
+      "39013199",
+      "30449210",
+      "30333088",
+      "29605737",
+      "31553293",
+      "32172572",
+      "32814685",
+      "30672100"
+    ],
+    "pmc": [
+      "12173083"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://clinicaltrials.gov/search?term=AREA%5BReferencePMID%5D40382284",
+        "provider": "ClinicalTrials.gov",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2352-3964(25)00208-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40382284/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3279",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2352-3964(25)00208-7",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

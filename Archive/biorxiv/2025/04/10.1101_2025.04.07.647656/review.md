@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, conclusions, methods, acknowledgments) as provided
+- **Assessment boundary** Technical and scientific evaluation of the claims, methods, and evidence as presented in the supplied text; no external data or code verification performed
+- **Shared manuscript claim summary** The authors demonstrate that sequence shifts introduced by indels cause technical variance in DNA convolutional neural network predictions, propose two shift augmentation strategies (average and stitch) to reduce this variance, and show improved indel eQTL classification with the Borzoi model. They extend the stitching approach to larger structural variants and short tandem repeats, and introduce in silico deletion (ISD) as an interpretation technique validated against MPRA data.
+- **Visible evidence base** Figures 1-5 referenced in text; Supplementary Figures S1-S2; quantitative results reported in text (e.g., variance values, AUROC values, Spearman correlations, Pearson correlations); method descriptions in Section 5
+- **Missing materials affecting confidence** Figure panels and supplementary figures not directly viewable; exact definitions of some scoring metrics (SUM, L2) partially described but full mathematical formulations not fully specified; details of negative set construction for eQTL benchmarks partially described; code availability stated but not reviewed
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a real and underappreciated technical problem in applying DNA CNNs to indel variant effect prediction. The proposed shift augmentation strategies are conceptually simple, well-motivated, and demonstrate measurable improvements in benchmark tasks. The extension to structural variants and tandem repeats broadens the potential impact. The ISD interpretation technique is a useful addition. However, several technical details require clarification, and the evidence for some claims is incomplete or based on limited validation. The manuscript is promising but needs revision to fully establish the case.
+- **Who would be interested in the results, and why** Researchers developing and applying deep learning models for regulatory genomics, particularly those working on variant effect prediction for clinical or population genetics applications. The work is also relevant to method developers interested in data augmentation strategies for sequence models and to geneticists studying noncoding variation beyond SNPs.
+- **Major strengths** The problem is clearly identified and demonstrated with concrete examples. The proposed solutions are simple, practical, and applicable to existing models without retraining. The evaluation on multiple benchmark tasks (eQTL classification, eQTL effect size correlation, SV classification, STR prediction) provides a broad assessment. The ISD technique offers a new interpretation tool that could complement ISM. The writing is clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the stitching approach "improves indel eQTL classification accuracy across GTEx tissues" and report AUROC improvements from 0.702 to 0.796.
+  - **Evidence pointer** Section 2.4, Figure 2C
+  - **Concern** The AUROC values are reported as means across tissues, but the variance across tissues and the statistical significance of the improvement are not reported. It is unclear whether the improvement is consistent across all tissues or driven by a subset. Additionally, the negative set construction for the eQTL discrimination task is described as "matched for indel size and PIP < 0.01 but |Z-score| > 4 for the same gene," but the matching procedure is not fully specified. If the negative set is not well-matched on other relevant features (e.g., sequence context, GC content, distance to TSS), the classification task may be artificially easy or difficult.
+  - **Why it matters** Without statistical significance testing and a clear description of the negative set, the claimed improvement cannot be rigorously evaluated. The benchmark may not reflect real-world performance if the negative set is not representative.
+  - **Resolution test** Provide per-tissue AUROC values with confidence intervals and a statistical test (e.g., paired Wilcoxon test) comparing default vs. stitch. Describe the negative set matching procedure in detail, including all features matched on and the algorithm used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the stitch strategy mitigated some of the SUM score variance" and "significantly shifted the L2 score distribution towards smaller values" but also note that "both still differ visibly and significantly from the SNP score distributions."
+  - **Evidence pointer** Section 2.3, Figure 2B
+  - **Concern** The residual difference between indel and SNP score distributions after stitching is acknowledged but not quantified or discussed in terms of practical implications. If the distributions still differ significantly, the core problem of comparing indel and SNP effect sizes may not be fully resolved. The authors suggest quantile normalization as a potential fix but do not evaluate it.
+  - **Why it matters** The manuscript's central motivation is enabling joint analysis of SNP and indel effects. If the distributions remain significantly different, the proposed method may not fully achieve this goal, and users may still misinterpret indel effect sizes relative to SNPs.
+  - **Resolution test** Quantify the residual distribution difference (e.g., Kolmogorov-Smirnov statistic) and discuss the practical impact. Evaluate whether quantile normalization or other post-hoc corrections can fully align the distributions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the stitching approach "extends to larger structural variation" and report AUROC improvement from 0.588 to 0.603 for SV eQTL classification.
+  - **Evidence pointer** Section 2.5, Figure 3A
+  - **Concern** The AUROC improvement for SV classification is modest (0.588 to 0.603). The authors do not report whether this improvement is statistically significant. Additionally, the SV eQTL set is described as "marginally associated," which may include many false positives. The negative set matching is described as "closest available size" and "at least one expressed gene exon within the input window," but other potential confounders are not addressed.
+  - **Why it matters** A small AUROC improvement that is not statistically significant may not justify the additional computational cost of the stitching approach for SV analysis. The noisy positive set may also limit the interpretability of the result.
+  - **Resolution test** Report statistical significance of the AUROC improvement. Consider using a more stringently defined positive set (e.g., fine-mapped SVs) and a more carefully matched negative set.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors introduce in silico deletion (ISD) and validate it using MPRA data, reporting Pearson correlations of 0.219 and 0.394 for HBG1 and LDLR deletions, respectively.
+  - **Evidence pointer** Section 2.7, Figure 5
+  - **Concern** The correlations for ISD are notably lower than for ISM (0.731 and 0.569 for substitutions). The authors acknowledge this but do not provide a thorough discussion of why ISD performs worse or whether the lower correlation is acceptable for practical use. The selection of only two promoters with the highest substitution-deletion correlation may introduce selection bias.
+  - **Why it matters** If ISD is proposed as a useful interpretation technique, its performance relative to ISM and its limitations need to be clearly characterized. The selection of only two promoters limits the generalizability of the validation.
+  - **Resolution test** Validate ISD on a larger set of promoters, report the distribution of correlations, and discuss the factors that may contribute to lower performance. Provide guidance on when ISD is appropriate versus ISM.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, Figure 2B
+  - **Evidence pointer** Figure 2B
+  - **Issue** The variance values (σ² = 77.07 for indels vs. σ² = 0.31 for SNPs) are reported without context. It is unclear whether these are variances of the SUM scores across all variants or across variants within a specific category.
+  - **Required correction** Clarify the exact quantity being reported and provide the number of variants used for each distribution.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 5.3
+  - **Evidence pointer** Section 5.3
+  - **Issue** The description of the stitching procedure is somewhat brief. The exact algorithm for splitting and concatenating predictions is not fully specified, particularly for deletions where the reference is treated as an insertion.
+  - **Required correction** Provide a step-by-step algorithmic description or pseudocode for the stitching procedure, including edge cases for variants near sequence boundaries.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.6, Figure 4
+  - **Evidence pointer** Figure 4B,C
+  - **Issue** The STR analysis reports that 36.1% and 36.6% of variants passed the significance test, but the criteria for "passing" are not fully described. The comparison between tissue-specific and tissue-average approaches is mentioned but not thoroughly discussed.
+  - **Required correction** Specify the significance threshold used and discuss the trade-offs between tissue-specific and tissue-average approaches in more detail.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 5.8
+  - **Evidence pointer** Section 5.8
+  - **Issue** The description of the ISD scoring formula is incomplete. The equation for the total score is not fully written out, and the exact definition of "gene-specific" scoring is unclear.
+  - **Required correction** Provide the complete formula for ISD scoring and clarify how gene-specific RNA tracks are defined and matched to promoters.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical significance of AUROC improvements), R1-M2 (residual distribution difference), R1-M3 (SV benchmark rigor)
+- **Assessment against Nature-style criteria** Originality: The problem of indel-induced technical variance in DNA CNNs is not widely recognized, and the proposed solutions are novel in this context. Scientific importance: Enabling reliable indel effect prediction is important for medical genetics and variant prioritization. Interdisciplinary readership: The work bridges deep learning, genomics, and statistical genetics, with potential interest across these communities. Technical soundness: The core idea is sound, but the evaluation lacks statistical rigor in several places, and some methodological details are incomplete. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some technical sections assume familiarity with deep learning architectures and eQTL analysis.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a real problem with a practical solution, but the evidence needs to be strengthened with statistical testing and more rigorous benchmark construction.
+
+## Risk / unsupported claims
+- The claim that stitching "improves indel eQTL classification accuracy" is not supported by statistical significance testing.
+- The claim that the stitching approach "extends to larger structural variation" is based on a modest AUROC improvement without significance testing.
+- The claim that ISD is a "valid approach to probe regulatory sequence function" is based on only two promoters with moderate correlations.
+- The residual difference between indel and SNP score distributions after stitching is acknowledged but not quantified, leaving the central motivation partially unaddressed.
+- The generalizability of the findings to other DNA CNN architectures beyond Borzoi and Basset is not demonstrated.

@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-sfn7n",
+  "title": "Protein Language Model Embeddings Distinguish Catalytic from Structural Zinc-Binding Sites with Interpretable Attention Signatures",
+  "authors": "Karen Sargsyan",
+  "journal": "ChemRxiv",
+  "published_date": "2025-12-17",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用ESM-2蛋白语言模型区分锌结合位点的催化/结构功能类别，虽涉及蛋白-金属离子结合，但非蛋白质-DNA互作体系，且无TF-DNA结合建模，与本课题关联微弱。",
+  "abstract": "Zinc ions serve dual roles in proteins—as catalytic cofactors and as structural elements. Distinguishing these functional classes from sequence alone remains challenging because both share similar coordination geometries. Here we demonstrate that ESM-2 embeddings encode sufficient information to classify catalytic versus structural zinc sites with high accuracy. On 73 sequence-diverse zinc proteins, a random forest classifier achieves ROC-AUC of 0.931, significantly outperforming a motif-based baseline (AUC = 0.759; p = 0.015). Attention analysis reveals that histidine ligands in catalytic sites attend 9.2-fold more strongly to second-shell carboxylate residues—the proton-shuttling machinery essential for catalysis—than to random positions, providing mechanistic interpretability. These findings suggest that evolutionary sequence patterns encode the extended hydrogen-bonding networks distinguishing catalytic from structural sites. This sequence-only approach complements structure-based methods for large-scale metalloproteome annotation.",
+  "abstract_zh": "锌离子在蛋白质中扮演双重角色——作为催化辅因子和结构元件。仅从序列区分这些功能类别仍具挑战性，因为两者共享相似的配位几何结构。在此，我们证明ESM-2嵌入包含足够的信息，能够以高准确度分类催化性与结构性锌位点。在73个序列多样化的锌蛋白上，随机森林分类器实现了ROC-AUC为0.931，显著优于基于基序的基线（AUC = 0.759；p = 0.015）。注意力分析揭示，催化位点中的组氨酸配体对第二壳层羧酸残基——催化所必需的质子穿梭机制——的注意力强度是随机位置的9.2倍，提供了机制上的可解释性。这些发现表明，进化序列模式编码了区分催化性与结构性位点的扩展氢键网络。这种仅基于序列的方法补充了基于结构的方法，适用于大规模金属蛋白质组的注释。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-sfn7n",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-sfn7n",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-sfn7n/index.html"
+}

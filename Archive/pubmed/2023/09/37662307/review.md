@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) and supplementary material references
+- **Assessment boundary** Scientific validity of the ascertainment bias claim, simulation design, re-analysis methodology, and interpretation of results
+- **Shared manuscript claim summary** The authors argue that a recently developed genomic test for positive selection on transcription factor binding sites (TFBSs) suffers from ascertainment bias because TFBSs are typically identified from ChIP-seq data in a focal species, meaning only high-affinity binding sites are included. They claim this bias inflates false positive rates in the test, and that after applying correction methods, previously reported signals of positive selection on human TFBSs largely disappear.
+- **Visible evidence base** Main text (4 figures referenced, 3 tables), supplementary tables S1–S3 and figure S1 referenced, simulation results, re-analysis of published data
+- **Missing materials affecting confidence** Supplementary tables S1–S3 and figure S1 were not provided; raw data files and code from the original study were not independently verified; details of the gkm-SVM model training and validation were not included
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually important critique of a recently published method for detecting positive selection on regulatory sequences. The core argument, that ascertainment bias in TFBS identification can inflate false positive rates, is theoretically sound and well-articulated. The simulation study provides quantitative support for the existence and magnitude of the bias. However, the re-analysis of the original human TFBS data relies on several assumptions and estimation procedures that are not fully validated, and the correction methods vary considerably in their stringency. The conclusion that "almost all" positive selection signals disappear is supported for the most stringent correction (method 3), but the weaker corrections (methods 1 and 2) still leave some signals intact. The manuscript would benefit from a more thorough sensitivity analysis and a clearer discussion of which correction method is most appropriate.
+- **Who would be interested in the results, and why** Evolutionary biologists studying regulatory evolution and adaptation; computational biologists developing methods for detecting selection; researchers using ChIP-seq data for evolutionary analyses. The work is directly relevant to anyone applying or extending the Liu and Robinson-Rechavi (2020) approach.
+- **Major strengths** The manuscript identifies a genuine and previously unrecognized methodological flaw in a published approach. The theoretical explanation of the bias is clear and accessible. The simulation study is well-designed and directly demonstrates the inflation of false positive rates. The authors propose multiple practical correction methods and apply them to real data, providing a concrete demonstration of the impact of the bias.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "almost all previously reported positive selection signals disappear when these methods are applied" (Abstract) and that "we found no evidence for positive selection on the binding sites of human HNF4A and CTCF and no to weak signals of positive selection on the binding sites of human CEBPA" (Discussion).
+  - **Evidence pointer** Table 2, Table 3, Results section "Most positive selection signals disappear upon ascertainment bias mitigations"
+  - **Concern** The strength of the conclusion depends heavily on which correction method is used. Methods 1 and 2 reduce the proportion of positive binding sites (PBSs) but do not eliminate them entirely (e.g., CEBPA: 6.03% and 5.32% vs. 7.51% uncorrected). Only method 3 reduces the proportion below the 1% neutral expectation. The claim that signals "disappear" is only fully supported by method 3, which relies on assumptions about the total number of potential TFBSs in the genome that are acknowledged to be uncertain. The authors should either temper their conclusion or provide stronger justification for why method 3 is the most appropriate correction.
+  - **Why it matters** The central conclusion of the manuscript is that the original positive selection signals are artifacts of ascertainment bias. If this conclusion is only supported under one particular correction method with uncertain assumptions, the strength of the claim is weakened.
+  - **Resolution test** The authors should provide a more nuanced summary of their findings, clearly distinguishing between the results under different correction methods. They should also provide additional sensitivity analyses for method 3, varying the assumptions about genome size, TFBS length, and the probability of at least two substitutions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the missing TFBSs need only be added to the denominator when one computes the proportion of TFBSs with significant positive selection signals" and that "it is virtually impossible for any of these missing TFBSs to show significant positive selection signals" (Results, "Methods for mitigating the ascertainment bias").
+  - **Evidence pointer** Table 1, Tables S1–S2, Results section "Methods for mitigating the ascertainment bias"
+  - **Concern** The claim that missing TFBSs cannot show significant positive selection signals is based on the simulation, where missing TFBSs are defined as those with the lowest derived SVM scores. However, in real data, the ascertainment mechanism is likely more complex. ChIP-seq detection probability is not a simple step function of binding affinity; it depends on antibody quality, sequencing depth, peak-calling thresholds, and other factors. TFBSs with moderate affinity may be detected in some experiments but not others, and the relationship between detection probability and affinity is likely continuous rather than binary. The simulation may therefore underestimate the number of missing TFBSs that could show significant signals.
+  - **Why it matters** If the simulation does not accurately capture the real ascertainment process, the correction methods based on it may be inadequate, and the conclusion that positive selection signals disappear may be premature.
+  - **Resolution test** The authors should discuss the limitations of their binary ascertainment model and, if possible, test the robustness of their conclusions under alternative ascertainment models (e.g., probabilistic detection as a function of affinity).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors propose method 3, which estimates the total number of potential TFBSs in the genome as P(n ≥ 2)L/l, where L is the genome size, l is the mean TFBS length, and P(n ≥ 2) is the probability of at least two substitutions between ancestral and derived sequences.
+  - **Evidence pointer** Materials and Methods, "Reanalysis of human TFBSs"
+  - **Concern** The estimation of P(n ≥ 2) is based on the ratio of TFBSs used in the selection test to the total number of TFBSs identified by ChIP-seq. This assumes that the ChIP-seq-identified TFBSs are a representative sample of all potential TFBSs, which may not be true. Additionally, the genome size L is set to 6 × 10^9, which is described as "a rough estimate of human's haploid genome size multiplied by 2 because a TFBS can be on either the Watson or Crick strand." This is a reasonable approximation, but the authors do not explore how sensitive their conclusions are to this choice. The mean TFBS lengths (269, 340, and 537 bp for CEBPA, HNF4A, and CTCF, respectively) are much longer than typical TFBS motifs (6–20 bp), suggesting that the "TFBSs" analyzed are actually larger regulatory regions. This discrepancy should be discussed.
+  - **Why it matters** Method 3 is the most stringent correction and is the primary basis for the conclusion that positive selection signals disappear. If the assumptions underlying this method are not well-justified, the conclusion is weakened.
+  - **Resolution test** The authors should provide a sensitivity analysis for method 3, varying L, l, and P(n ≥ 2) within reasonable ranges, and show that their conclusions are robust. They should also clarify the definition of "TFBS" used in their analysis and discuss the implications of the long sequence lengths.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states that "a new approach for detecting positive selection on transcription factor binding sites (TFBSs) was recently developed" but does not name the method or cite the original study until later in the text. For readers unfamiliar with the literature, this makes it difficult to identify the specific method being critiqued.
+  - **Required correction** Consider naming the method and citing the original study in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods, "Analysis of simulated TFBSs"
+  - **Issue** The simulation generates 50,000 random 10-mer sequences and introduces two random substitutions. However, the authors do not specify the random seed or provide code for the simulation, which limits reproducibility.
+  - **Required correction** Provide the simulation code or specify the random seed used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1 (referenced in Introduction and Discussion)
+  - **Issue** Figure 1 is described as illustrating the ascertainment bias, but the figure itself was not provided in the manuscript text. The description in the text is clear, but the figure would help readers visualize the problem.
+  - **Required correction** Ensure Figure 1 is included in the final version and is self-explanatory.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Most positive selection signals disappear upon ascertainment bias mitigations"
+  - **Evidence pointer** Table 2
+  - **Issue** The authors report the proportion of PBSs before and after correction but do not provide confidence intervals or measures of uncertainty for these proportions. Given that the number of PBSs is relatively small, the estimates may be imprecise.
+  - **Required correction** Provide confidence intervals or bootstrap estimates for the proportions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The authors suggest that "leaky expression" caused by fortuitous TF binding supports the assumption that all genomic regions can potentially become a TFBS. However, the cited evidence (over three quarters of the human genome is transcribed; over half of random 120-mer sequences can drive expression in yeast) does not directly demonstrate that all regions can become functional TFBSs under selection. The argument is plausible but not fully established.
+  - **Required correction** Soften the claim or provide additional evidence that all genomic regions have similar potential to evolve into TFBSs.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Materials and Methods, "Reanalysis of human TFBSs"
+  - **Evidence pointer** Materials and Methods, "Reanalysis of human TFBSs"
+  - **Issue** The description of method 2 is brief and relies on a regression relationship (Fremoved = kF+ + b) that is only described in Table S3, which was not provided. The method is difficult to evaluate without this information.
+  - **Required correction** Provide a more detailed description of method 2 in the main text or ensure Table S3 is available to readers.
+
+## Risk / unsupported claims
+- The claim that "almost all previously reported positive selection signals disappear" is only fully supported under method 3, which relies on assumptions that are not fully validated.
+- The claim that "it is virtually impossible for any of these missing TFBSs to show significant positive selection signals" is based on a simplified binary ascertainment model that may not accurately reflect real ChIP-seq detection processes.
+- The estimation of P(n ≥ 2) in method 3 assumes that ChIP-seq-identified TFBSs are representative of all potential TFBSs, which is not demonstrated.
+- The authors' suggestion that "leaky expression" supports the assumption that all genomic regions can become TFBSs is plausible but not directly supported by the cited evidence.
+- The re-analysis relies on data and code from the original study that were not independently verified in this manuscript.

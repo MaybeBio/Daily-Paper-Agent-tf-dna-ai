@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results and discussions, conclusions) as provided by the user.
+- **Assessment boundary** Scientific and technical soundness of the reported AI-based approach for DNA aptamer identification, as presented in the provided text. No external data, code, or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors claim that a novel AI approach combining NLP (CountVectorizer with 6-mers) and ML (LR, DT, GNB, SVM) can accurately discriminate DNA aptamer sequences from genomic DNA sequences, with SVM achieving the best performance (Accuracy 0.995, AUROC 0.998), and that this approach could reduce the number of SELEX rounds.
+- **Visible evidence base** Text descriptions of methods and results, including Tables 1-5 and Figures 1-8 as referenced but not shown. No actual data, code, or figures were provided to the reviewer.
+- **Missing materials affecting confidence** All figures and tables are referenced but not included. Raw data, code, hyperparameter details, cross-validation results, and statistical significance tests are not available. The manuscript text alone is insufficient for full technical verification.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful application of standard NLP and ML techniques to a relevant problem in aptamer discovery. However, the provided text lacks critical details and evidence needed to evaluate the validity, generalizability, and practical utility of the approach. The claims of novelty and performance are not fully supported by the visible evidence. The work is technically straightforward, but the presentation is incomplete and contains several ambiguities and potential methodological weaknesses that must be addressed.
+- **Who would be interested in the results, and why** Researchers in aptamer selection and SELEX optimization, computational biologists working on sequence classification, and bioinformaticians interested in applying ML to non-genomic functional nucleic acids. The potential to reduce SELEX rounds is practically relevant for the aptamer community.
+- **Major strengths** The problem is well-motivated and practically important. The use of NLP for k-mer representation is appropriate and established. The comparison of four ML algorithms is systematic. The authors acknowledge limitations, including lack of experimental validation and the need for more data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data quality and representativeness
+  - **Claim pointer** The authors claim the model can discriminate DNA aptamers from unspecified DNA-binding sequences, using 238 aptamers from Aptagen and 4,885 genomic DNA sequences from NDB.
+  - **Evidence pointer** Materials and methods, Web scraping section; Results, Baseline characteristics section
+  - **Concern** The negative class (4,885 sequences from NDB) is described as "protein-binding DNA sequences" in the Results, but the Introduction and Abstract refer to "unspecified DNA-binding sequences" or "genomic DNA sequences." This inconsistency is critical. If the negative set is protein-binding DNA, the model may be learning to distinguish aptamers from protein-binding genomic sequences, not from all genomic DNA. The source and nature of the negative class are not clearly defined, and no details are given on sequence length distribution, GC content, or other properties that could introduce bias.
+  - **Why it matters** The validity of the classification task depends entirely on the definition and representativeness of the negative class. If the negative set is not appropriate, the reported performance metrics are meaningless for the claimed application.
+  - **Resolution test** Provide a clear and consistent definition of the negative class, including the exact source, selection criteria, and sequence characteristics. Justify why this negative set is representative of "non-aptamer" sequences in the intended SELEX application. Report the distribution of sequence lengths and other relevant features for both classes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The authors claim the approach "is useful to identify potential DNA aptamers to reduce the amount of rounds in a SELEX selection" and that it "could be applied in the design of DNA libraries."
+  - **Evidence pointer** Abstract; Conclusions
+  - **Concern** No experimental validation is provided. The model is trained and tested on existing database sequences, but there is no demonstration that the model can predict actual aptamers in a real SELEX context. The authors acknowledge this limitation, but the central claim of practical utility is unsupported.
+  - **Why it matters** The stated purpose of the approach is to improve SELEX efficiency. Without any experimental test, the claim that it can reduce SELEX rounds is speculative. A model that works on database sequences may not generalize to real SELEX pools, which contain diverse sequences, varying lengths, and different target types.
+  - **Resolution test** Perform a prospective validation, such as using the model to screen a SELEX library and testing predicted aptamers experimentally, or at minimum, validate on an independent dataset of experimentally confirmed aptamers and non-aptamers.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Class imbalance and evaluation methodology
+  - **Claim pointer** The authors report Accuracy of 0.995 and AUROC of 0.998 for SVM, and compare models using these metrics.
+  - **Evidence pointer** Results, ML algorithm performances and final models section; Table 3
+  - **Concern** The dataset is highly imbalanced (238 aptamers vs. 4,885 non-aptamers, roughly 1:20). Accuracy is not an appropriate metric for imbalanced data, as a trivial classifier predicting the majority class would achieve ~95% accuracy. The authors do not report precision, recall, F1-score, Matthews Correlation Coefficient (MCC) for all models, or the confusion matrices in the text. MCC is only mentioned for SVM in the comparison section, but the value is not given in the visible text.
+  - **Why it matters** The reported performance may be misleading. High accuracy and AUROC do not guarantee good discrimination of the minority class (aptamers), which is the class of interest. Without appropriate metrics, the comparative claims about model performance are not reliable.
+  - **Resolution test** Report precision, recall, F1-score, and MCC for all models. Provide the full confusion matrices. Discuss how class imbalance was handled beyond setting CLASS_WEIGHT to 'balanced' and whether this was sufficient.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Feature selection and overfitting
+  - **Claim pointer** The authors state that dimensionality reduction reduced features from 4,096 to 33, using recursive feature elimination with logistic regression.
+  - **Evidence pointer** Materials and methods, Dimensionality reduction section
+  - **Concern** The feature selection process is described briefly. It is unclear whether feature selection was performed on the training set only or on the full dataset, which could lead to data leakage and overfitting. The stability of the selected 33 features across cross-validation folds is not discussed.
+  - **Why it matters** If feature selection is performed on the full dataset, the test set is not independent, and reported performance is optimistically biased. This is a common pitfall in ML studies.
+  - **Resolution test** Clarify that feature selection was performed within cross-validation folds only. Report the variance of selected features across folds and the performance of the model with and without feature selection.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation
+  - **Claim pointer** The authors claim that top 6-mers (e.g., TGG TGG, TGG GGG) are found in structures in PDB and are involved in protein binding, with three in hairpin motifs and two in G-quadruplex arrangements.
+  - **Evidence pointer** Results, Characterization of the biological implications of the top 6-mers section; Table 4; Figure 8
+  - **Concern** The biological interpretation is based on a small number of structures (16 unique DNA aptamer structures in PDB). The authors acknowledge this is premature, but the connection between the identified 6-mers and functional relevance is not rigorously established. No statistical test is provided to show that these 6-mers are enriched in aptamers compared to what would be expected by chance.
+  - **Why it matters** The claim of biological significance is weak and could be misleading. Without statistical support, the identified 6-mers may simply be artifacts of the training data.
+  - **Resolution test** Perform a statistical enrichment analysis of the top 6-mers against a background model (e.g., random sequences with similar base composition). Provide confidence intervals or p-values for the enrichment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; Introduction
+  - **Issue** The term "unspecified DNA-binding sequences" is used in the Abstract, while the Results describe the negative class as "protein-binding DNA sequences." This inconsistency is confusing.
+  - **Required correction** Use consistent terminology throughout the manuscript to describe the negative class.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and methods
+  - **Evidence pointer** Materials and methods, ML classification–modeling section
+  - **Issue** The train-test split is described as "randomly with stratified sampling," but no random seed is reported. The hyperparameter tuning for LR and SVM is described, but no search ranges are given.
+  - **Required correction** Report the random seed, the exact hyperparameter search grids, and the final hyperparameter values for all models.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results
+  - **Evidence pointer** Results, Baseline characteristics section
+  - **Issue** The authors state that "after calculating the p-values, it is determined that the characteristics are similar between the training and testing set," but no p-values or statistical tests are reported.
+  - **Required correction** Report the specific p-values and the statistical tests used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results
+  - **Evidence pointer** Results, ML algorithm performances and final models section
+  - **Issue** The MCC value for SVM is mentioned in the comparison section but not reported in the text or Table 3.
+  - **Required correction** Include the MCC value for SVM (and ideally for all models) in Table 3.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions
+  - **Issue** The statement "new screening libraries could be developed to overexpress the promising 6-mers found" is vague. It is unclear how 6-mers would be "overexpressed" in a DNA library.
+  - **Required correction** Clarify the intended meaning, e.g., enriching libraries with sequences containing these 6-mers.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (data quality and negative class definition), R1-M2 (lack of experimental validation), R1-M3 (inappropriate metrics for imbalanced data), R1-M4 (potential data leakage in feature selection).
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of NLP and ML to aptamer classification is not entirely new, as the authors themselves cite prior ML approaches. The specific use of CountVectorizer with 6-mers and SVM is a reasonable combination, but the novelty is incremental. Scientific importance: Moderate. The problem of reducing SELEX rounds is relevant, but the lack of experimental validation limits the immediate impact. Interdisciplinary readership: The topic bridges computational biology and experimental aptamer research, but the presentation is too technical for a broad audience and lacks sufficient biological context. Technical soundness: Weak as presented. The methodology has potential, but the missing details on data, feature selection, and evaluation prevent verification. Readability for nonspecialists: The manuscript is generally readable but contains jargon and inconsistencies that would confuse non-experts. Overall, the manuscript does not meet the high bar for Nature-style publication in its current form.
+- **Recommendation posture** Currently not established from the provided evidence. The approach is promising, but the manuscript requires major revisions, including clarification of the negative class, appropriate evaluation metrics, and ideally experimental validation, before the claims can be supported.
+
+## Risk / unsupported claims
+- The claim that the model can reduce SELEX rounds is unsupported without experimental validation.
+- The claim that the top 6-mers have biological significance is weakly supported and lacks statistical testing.
+- The claim of novelty is overstated given prior ML approaches in aptamer prediction.
+- The reported performance metrics (Accuracy, AUROC) are not reliable indicators of model quality given the class imbalance and potential data leakage.
+- The generalizability of the model to different target types or SELEX conditions is not addressed and cannot be assessed from the provided text.

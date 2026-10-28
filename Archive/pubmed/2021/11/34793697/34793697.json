@@ -1,0 +1,526 @@
+{
+  "identity": {
+    "pmid": "34793697",
+    "doi": "10.1016/j.ajhg.2021.11.001",
+    "title": "Closing the gap: Systematic integration of multiplexed functional data resolves variants of uncertain significance in BRCA1, TP53, and PTEN."
+  },
+  "content": {
+    "abstract": "Clinical interpretation of missense variants is challenging because the majority identified by genetic testing are rare and their functional effects are unknown. Consequently, most variants are of uncertain significance and cannot be used for clinical diagnosis or management. Although not much can be done to ameliorate variant rarity, multiplexed assays of variant effect (MAVEs), where thousands of single-nucleotide variant effects are simultaneously measured experimentally, provide functional evidence that can help resolve variants of unknown significance (VUSs). However, a rigorous assessment of the clinical value of multiplexed functional data for variant interpretation is lacking. Thus, we systematically combined previously published BRCA1, TP53, and PTEN multiplexed functional data with phenotype and family history data for 324 VUSs identified by a single diagnostic testing laboratory. We curated 49,281 variant functional scores from MAVEs for these three genes and integrated four different TP53 multiplexed functional datasets into a single functional prediction for each variant by using machine learning. We then determined the strength of evidence provided by each multiplexed functional dataset and reevaluated 324 VUSs. Multiplexed functional data were effective in driving variant reclassification when combined with clinical data, eliminating 49% of VUSs for BRCA1, 69% for TP53, and 15% for PTEN. Thus, multiplexed functional data, which are being generated for numerous genes, are poised to have a major impact on clinical variant interpretation.",
+    "keywords": [
+      "BRCA1",
+      "MAVE",
+      "PTEN",
+      "TP53",
+      "functional data",
+      "variant interpretation"
+    ],
+    "mesh_terms": [
+      "Adult",
+      "BRCA1 Protein/*genetics",
+      "Data Collection",
+      "Datasets as Topic",
+      "Genetic Association Studies",
+      "*Genetic Testing",
+      "Humans",
+      "Medical History Taking",
+      "*Mutation, Missense",
+      "PTEN Phosphohydrolase/*genetics",
+      "Phenotype",
+      "Predictive Value of Tests",
+      "Tumor Suppressor Protein p53/*genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fayer, Shawn",
+        "Horton, Carrie",
+        "Dines, Jennifer N",
+        "Rubin, Alan F",
+        "Richardson, Marcy E",
+        "McGoldrick, Kelly",
+        "Hernandez, Felicia",
+        "Pesaran, Tina",
+        "Karam, Rachid",
+        "Shirts, Brian H",
+        "Fowler, Douglas M",
+        "Starita, Lea M"
+      ],
+      "short_names": [
+        "Fayer S",
+        "Horton C",
+        "Dines JN",
+        "Rubin AF",
+        "Richardson ME",
+        "McGoldrick K",
+        "Hernandez F",
+        "Pesaran T",
+        "Karam R",
+        "Shirts BH",
+        "Fowler DM",
+        "Starita LM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+        "Ambry Genetics, Aliso Viejo, CA 92656, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA.",
+        "Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, Parkville, VIC 3052, Australia; Department of Medical Biology, University of Melbourne, Melbourne, VIC 3010, Australia.",
+        "Ambry Genetics, Aliso Viejo, CA 92656, USA.",
+        "Ambry Genetics, Aliso Viejo, CA 92656, USA.",
+        "Ambry Genetics, Aliso Viejo, CA 92656, USA.",
+        "Ambry Genetics, Aliso Viejo, CA 92656, USA.",
+        "Ambry Genetics, Aliso Viejo, CA 92656, USA.",
+        "Brotman Baty Institute for Precision Medicine, Seattle, WA 98195, USA; Department of Laboratory Medicine and Pathology, University of Washington, Seattle, WA 98195, USA.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Department of Bioengineering, University of Washington, Seattle, WA 98195, USA; Brotman Baty Institute for Precision Medicine, Seattle, WA 98195, USA. Electronic address: dfowler@uw.edu.",
+        "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Brotman Baty Institute for Precision Medicine, Seattle, WA 98195, USA. Electronic address: lstarita@uw.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fayer, Shawn",
+        "short_name": "Fayer S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Horton, Carrie",
+        "short_name": "Horton C",
+        "identifiers": [],
+        "affiliations": [
+          "Ambry Genetics, Aliso Viejo, CA 92656, USA."
+        ]
+      },
+      {
+        "full_name": "Dines, Jennifer N",
+        "short_name": "Dines JN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Rubin, Alan F",
+        "short_name": "Rubin AF",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Division, The Walter and Eliza Hall Institute of Medical Research, Parkville, VIC 3052, Australia; Department of Medical Biology, University of Melbourne, Melbourne, VIC 3010, Australia."
+        ]
+      },
+      {
+        "full_name": "Richardson, Marcy E",
+        "short_name": "Richardson ME",
+        "identifiers": [],
+        "affiliations": [
+          "Ambry Genetics, Aliso Viejo, CA 92656, USA."
+        ]
+      },
+      {
+        "full_name": "McGoldrick, Kelly",
+        "short_name": "McGoldrick K",
+        "identifiers": [],
+        "affiliations": [
+          "Ambry Genetics, Aliso Viejo, CA 92656, USA."
+        ]
+      },
+      {
+        "full_name": "Hernandez, Felicia",
+        "short_name": "Hernandez F",
+        "identifiers": [],
+        "affiliations": [
+          "Ambry Genetics, Aliso Viejo, CA 92656, USA."
+        ]
+      },
+      {
+        "full_name": "Pesaran, Tina",
+        "short_name": "Pesaran T",
+        "identifiers": [],
+        "affiliations": [
+          "Ambry Genetics, Aliso Viejo, CA 92656, USA."
+        ]
+      },
+      {
+        "full_name": "Karam, Rachid",
+        "short_name": "Karam R",
+        "identifiers": [],
+        "affiliations": [
+          "Ambry Genetics, Aliso Viejo, CA 92656, USA."
+        ]
+      },
+      {
+        "full_name": "Shirts, Brian H",
+        "short_name": "Shirts BH",
+        "identifiers": [],
+        "affiliations": [
+          "Brotman Baty Institute for Precision Medicine, Seattle, WA 98195, USA; Department of Laboratory Medicine and Pathology, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Fowler, Douglas M",
+        "short_name": "Fowler DM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Department of Bioengineering, University of Washington, Seattle, WA 98195, USA; Brotman Baty Institute for Precision Medicine, Seattle, WA 98195, USA. Electronic address: dfowler@uw.edu."
+        ]
+      },
+      {
+        "full_name": "Starita, Lea M",
+        "short_name": "Starita LM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genome Sciences, University of Washington, Seattle, WA 98195, USA; Brotman Baty Institute for Precision Medicine, Seattle, WA 98195, USA. Electronic address: lstarita@uw.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "American journal of human genetics"
+    ],
+    "journal_abbrev": [
+      "Am J Hum Genet"
+    ],
+    "pub_date": "2021 Dec 2",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/19 06:00",
+    "fetched_at": "2026-09-28 01:55:23"
+  },
+  "links": {
+    "cites": [
+      "42346254",
+      "42257793",
+      "42237322",
+      "42146400",
+      "42127894",
+      "42110911",
+      "41795207",
+      "41764184",
+      "41727046",
+      "41603018",
+      "41593735",
+      "41478861",
+      "41445606",
+      "41332838",
+      "41282735",
+      "41279053",
+      "40957416",
+      "40925377",
+      "40890511",
+      "40832240",
+      "40791513",
+      "40738107",
+      "40691352",
+      "40667088",
+      "40631108",
+      "40563119",
+      "40563012",
+      "40542645",
+      "40514537",
+      "40480200",
+      "40480199",
+      "40412387",
+      "40196145",
+      "40120586",
+      "40100426",
+      "40093110",
+      "40060668",
+      "39975210",
+      "39974143",
+      "39930172",
+      "39838450",
+      "39777909",
+      "39774325",
+      "39764392",
+      "39669639",
+      "39642869",
+      "39627863",
+      "39625477",
+      "39533106",
+      "39461494",
+      "39389016",
+      "39333091",
+      "39321216",
+      "39319420",
+      "39315434",
+      "39243022",
+      "39232149",
+      "39173626",
+      "39085601",
+      "39043182",
+      "38979347",
+      "38923692",
+      "38849565",
+      "38849564",
+      "38836089",
+      "38816749",
+      "38744287",
+      "38641812",
+      "38397209",
+      "38362799",
+      "38089476",
+      "38086381",
+      "38057330",
+      "37963462",
+      "37905042",
+      "37729906",
+      "37651978",
+      "37547663",
+      "37394429",
+      "37076482",
+      "37000947",
+      "36798224",
+      "36681081",
+      "36626254",
+      "36550560",
+      "36434153",
+      "35688147",
+      "35659930",
+      "35196514"
+    ],
+    "refs": [
+      "34012068",
+      "33774657",
+      "33300245",
+      "32675277",
+      "32461654",
+      "32442409",
+      "32251504",
+      "31892348",
+      "31862013",
+      "31679514",
+      "31484976",
+      "31406321",
+      "31395785",
+      "30661751",
+      "30636062",
+      "30311380",
+      "30224644",
+      "30209399",
+      "30095857",
+      "29785012",
+      "29706350",
+      "29300386",
+      "28886340",
+      "28486781",
+      "27995669",
+      "27866339",
+      "27822389",
+      "27583640",
+      "27153395",
+      "25741868",
+      "24234437",
+      "23788249",
+      "22252256",
+      "21601526",
+      "20128691",
+      "19996031",
+      "12826609",
+      "11753428"
+    ],
+    "similar": [
+      "34793697",
+      "39243022",
+      "37905042",
+      "31907386",
+      "35196514",
+      "22684454",
+      "30458859",
+      "22628410",
+      "39389016",
+      "34649609",
+      "22507745",
+      "33087888",
+      "37917606",
+      "30415210",
+      "31862013",
+      "19930417",
+      "37090572",
+      "32442409",
+      "34597585",
+      "29706350",
+      "28807866",
+      "16551709",
+      "31628423",
+      "31477031",
+      "21893034",
+      "34299313",
+      "39085601",
+      "23116406",
+      "34855882",
+      "35409408",
+      "38645101",
+      "32068069",
+      "25490678",
+      "15923272",
+      "30725392",
+      "25724305",
+      "37843401",
+      "20816575",
+      "33106425",
+      "32366478",
+      "21769658",
+      "31451538",
+      "23867111",
+      "30607672",
+      "30720243",
+      "26223264",
+      "30971832",
+      "29996917",
+      "29801090",
+      "25257301",
+      "15235020",
+      "33449224",
+      "25754088",
+      "32803532",
+      "21673748",
+      "30254663",
+      "30219179",
+      "19486858",
+      "22811390",
+      "33300982",
+      "31911673",
+      "31151164",
+      "30979843",
+      "21667122",
+      "30240537",
+      "31784482",
+      "30257991",
+      "22684231",
+      "25085752",
+      "33051313",
+      "29580235",
+      "17624602",
+      "22889855",
+      "19454451",
+      "38177134",
+      "31321604",
+      "31343793",
+      "32966936",
+      "33761318",
+      "31467430",
+      "29785012",
+      "29904909",
+      "17341484",
+      "18992264",
+      "21118481",
+      "31112341",
+      "30553611",
+      "37961354",
+      "30480775",
+      "33113089",
+      "34709361",
+      "18497862",
+      "32984879",
+      "12505256",
+      "37081510",
+      "29775997",
+      "36540988",
+      "33257846",
+      "35853885",
+      "37201251",
+      "33774657",
+      "38086381",
+      "37426450",
+      "35570716",
+      "35436152",
+      "31679514",
+      "38014045",
+      "38641812",
+      "37076482",
+      "37484202",
+      "31144781",
+      "30019023",
+      "35887294",
+      "38929869",
+      "36778238",
+      "38979347",
+      "28886340",
+      "36711907",
+      "33408741",
+      "38836089",
+      "35428271",
+      "36055970",
+      "35488922",
+      "39326416",
+      "37418460",
+      "37873263",
+      "35422376",
+      "38659825",
+      "38433264"
+    ],
+    "review": [
+      "34793697",
+      "21893034",
+      "20816575",
+      "31451538",
+      "30240537",
+      "19454451",
+      "32966936",
+      "35436152",
+      "36055970"
+    ],
+    "pmc": [
+      "8715144"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0002-9297(21)00411-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/genetictesting.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Genetic Testing"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34793697/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34793697",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTEN-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, equations, figures, or simulation details were available for verification
+- **Shared manuscript claim summary** The authors model transcription factor (TF) search for DNA targets within chromatin compartments under stochastic resetting to transcription condensates. They report that intersegmental jumps and resetting can both enhance and reduce search efficiency depending on resetting position; that compartment size critically influences search dynamics; that resetting improves efficiency only near the target; that resetting to a broad region outperforms point resetting; and that resetting cost increases with resetting rate and decreases with intersegmental jump rate. Analytical results are claimed to be supported by numerical simulations.
+- **Visible evidence base** Abstract text only; no figures, tables, equations, or simulation details provided
+- **Missing materials affecting confidence** Full manuscript, methods section, mathematical derivations, simulation parameters, figure panels, and any quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting theoretical contribution to the understanding of TF search dynamics in chromatin compartments, combining two established concepts, namely intersegmental jumps and stochastic resetting, in a biologically motivated setting. The qualitative claims are plausible and the topic is timely. However, the abstract alone does not provide sufficient detail to assess the rigor of the analytical derivations, the validity of the simulation support, or the biological relevance of the parameter regimes chosen. Several claims are stated without quantitative backing, and the relationship between the model assumptions and real chromatin biology remains unclear from the supplied material.
+- **Who would be interested in the results, and why** Researchers in biophysics, statistical physics of stochastic processes, and computational biology would be interested in the theoretical framework combining stochastic resetting with spatial confinement and intersegmental transfer. Experimentalists studying transcription factor kinetics, chromatin organization, and gene regulation may also find the qualitative predictions useful for interpreting single-molecule tracking and live-cell imaging data, particularly regarding the role of condensate localization and compartment size.
+- **Major strengths** The topic addresses a biologically relevant and currently active area of research, namely how chromatin architecture and phase-separated condensates modulate TF search kinetics. The combination of stochastic resetting with intersegmental jumps within confined compartments is a novel modeling angle. The abstract clearly states the main qualitative findings, including the non-trivial dual effect of jumps and resetting, and the practical insight that broad-region resetting can outperform point resetting. The claim that analytical results are supported by simulations suggests a dual-method approach that, if properly executed, would strengthen the conclusions.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "intersegmental jumps and resetting can have dual effects by enhancing and reducing search efficiency depending on the resetting position of the TF" and that "resetting can improve search efficiency only when it occurs near the target site."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide any quantitative definition of "search efficiency," "near the target site," or the parameter ranges over which the dual effects occur. Without these definitions, the claims are not falsifiable and cannot be evaluated. Furthermore, the statement that resetting improves efficiency "only" near the target appears to contradict the later claim that resetting to a broad region can further reduce search time, unless "broad region" is implicitly near the target, which is not stated.
+  - **Why it matters** The central qualitative conclusions of the paper hinge on these conditional statements. If the conditions are not precisely specified, the results cannot be reproduced or compared with other models, and the biological implications remain ambiguous.
+  - **Resolution test** Provide explicit definitions of search efficiency (e.g., mean first-passage time), the spatial range considered "near the target," and the parameter regimes (resetting rate, jump rate, compartment size) for which enhancement versus reduction is observed. Clarify whether broad-region resetting is always near the target or can be elsewhere.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the size of the compartment critically influences the search dynamics and can help optimize search time."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No information is given about the nature of this optimization, such as whether there is a non-monotonic dependence on compartment size, what the optimal size is relative to the target location, or how this interacts with resetting and jump parameters. The claim is too vague to assess.
+  - **Why it matters** Compartment size is a biologically relevant parameter, and the claim that it can optimize search time is potentially important. However, without specifying the functional form or the conditions under which optimization occurs, the claim cannot be validated or applied.
+  - **Resolution test** Provide the functional relationship between mean search time and compartment size, state whether an optimum exists and under what conditions, and show how this optimum shifts with resetting and jump rates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "resetting to a broad region rather than a point can further reduce search time."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify how "broad region" is modeled, what distribution is used for resetting positions, or how the comparison with point resetting is made fair (e.g., same mean resetting position, same variance). Without these details, the claim is not reproducible.
+  - **Why it matters** This is a non-obvious and potentially useful result, but it requires a precise specification of the resetting distribution to be meaningful. If the comparison is not controlled, the conclusion may be an artifact of the chosen distributions.
+  - **Resolution test** Specify the resetting position distribution for the broad-region case, the point-resetting case, and the matching criteria. Show that the reduction in search time is robust to the choice of distribution shape.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "our analytical results, supported by numerical simulations, provide quantitative insights."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No analytical results are shown in the abstract, and no simulation details are provided. It is impossible to assess whether the analytical derivations are correct, whether the simulations match the theory, or whether the parameter regimes explored are biologically relevant.
+  - **Why it matters** The claim of quantitative insight is the core contribution of the paper. Without access to the derivations and simulation protocols, the validity of the entire work cannot be evaluated.
+  - **Resolution test** Provide the key analytical expressions, the simulation algorithm, the parameter values used, and a demonstration of agreement between theory and simulation across multiple parameter sets.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "transcription condensates" is used without definition or context. Nonspecialist readers may not know what these are or why resetting to them is biologically motivated.
+  - **Required correction** Briefly define transcription condensates and state the biological rationale for resetting to them in one sentence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state how the findings relate to experimental observations or what specific predictions could be tested in living cells.
+  - **Required correction** Add one sentence indicating a testable prediction, such as how search times should vary with condensate size or TF localization in single-molecule tracking experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "trapping the searcher" is vague. It is unclear whether trapping refers to prolonged residence in a compartment, binding to non-target sites, or another mechanism.
+  - **Required correction** Clarify the mechanism of trapping in one phrase, for example, "by increasing residence time in non-target compartments."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient quantitative or methodological detail to establish any of the central claims. The case for the paper's conclusions cannot be assessed without the full manuscript.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of stochastic resetting with intersegmental jumps in confined chromatin compartments appears novel, but the abstract does not clearly differentiate the present contribution from prior work on resetting in bounded domains or on TF search with jumps. Originality is plausible but not fully established from the abstract.
+  - Scientific importance: The topic is important for understanding gene regulation and chromatin organization. However, the abstract does not state how the findings change current understanding or resolve an open question. The importance is therefore suggestive rather than demonstrated.
+  - Interdisciplinary readership: The work should appeal to physicists and biophysicists, and potentially to cell biologists, but the abstract is written in a way that assumes familiarity with stochastic resetting and chromatin compartment models. The interdisciplinary reach is limited by the lack of biological context.
+  - Technical soundness: Cannot be assessed from the abstract. No equations, parameter values, or simulation details are provided. This is the main weakness.
+  - Readability for nonspecialists: The abstract is concise but uses jargon without definition. It is readable for specialists but not for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting qualitative ideas, but the lack of quantitative detail and methodological transparency prevents any assessment of the validity of the claims. A full review of the manuscript would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that intersegmental jumps and resetting have dual effects on search efficiency is unsupported without quantitative definitions and parameter ranges.
+- The claim that resetting improves efficiency only near the target is unsupported and potentially inconsistent with the broad-region resetting claim.
+- The claim that compartment size can optimize search time is unsupported without specifying the functional relationship.
+- The claim that broad-region resetting outperforms point resetting is unsupported without specifying the resetting distributions.
+- The claim that analytical results are supported by simulations is unverifiable from the abstract.
+- The claim that the results provide "quantitative insights" is not supported by any quantitative data in the abstract.

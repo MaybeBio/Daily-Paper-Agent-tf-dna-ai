@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "38742956",
+    "doi": "10.18632/aging.205804",
+    "title": "Bioinformatics analysis for constructing a cellular senescence-related age-related macular degeneration diagnostic model and identifying relevant disease subtypes to guide treatment."
+  },
+  "content": {
+    "abstract": "Age-related macular degeneration (AMD) is a condition causing progressive central vision loss. Growing evidence suggests a link between cellular senescence and AMD. However, the exact mechanism by which cellular senescence leads to AMD remains unclear. Employing machine learning, we established an AMD diagnostic model. Through unsupervised clustering, two distinct AMD subtypes were identified. GO, KEGG, and GSVA analyses explored the diverse biological functions associated with the two subtypes. By WGCNA, we constructed a coexpression network of differential genes between the subtypes, revealing the regulatory role of hub genes at the level of transcription factors and miRNAs. We identified 5 genes associated with inflammation for the construction of the AMD diagnostic model. Additionally, we observed that the level of cellular senescence and pathways related to programmed cell death (PCD), such as ferroptosis, necroptosis, and pyroptosis, exhibited higher expression levels in subtype B than A. Immune microenvironments also differed between the subtypes, indicating potentially distinct pathogenic mechanisms and therapeutic targets. In summary, by leveraging cellular senescence-associated gene expression, we developed an AMD diagnostic model. Furthermore, we identified two subtypes with varying expression patterns of senescence genes, revealing their differential roles in programmed cell death, disease progression, and immune microenvironments within AMD.",
+    "keywords": [
+      "age-related macular degeneration",
+      "cellular senescence",
+      "inflammatory response",
+      "molecular subtypes",
+      "programmed cell death"
+    ],
+    "mesh_terms": [
+      "*Cellular Senescence/genetics",
+      "*Macular Degeneration/genetics/diagnosis/pathology",
+      "Humans",
+      "*Computational Biology",
+      "Gene Regulatory Networks",
+      "Gene Expression Profiling",
+      "Machine Learning",
+      "MicroRNAs/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Shan",
+        "Hu, Qiang",
+        "Jiang, Bo",
+        "Zhang, Zhongyu",
+        "Sun, Dawei"
+      ],
+      "short_names": [
+        "Luo S",
+        "Hu Q",
+        "Jiang B",
+        "Zhang Z",
+        "Sun D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China.",
+        "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Shan",
+        "short_name": "Luo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Qiang",
+        "short_name": "Hu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Bo",
+        "short_name": "Jiang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhongyu",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Dawei",
+        "short_name": "Sun D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, The Second Affiliated Hospital of Harbin Medical University, Harbin, Heilongjiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Aging"
+    ],
+    "journal_abbrev": [
+      "Aging (Albany NY)"
+    ],
+    "pub_date": "2024 May 10",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/15 05:42",
+    "fetched_at": "2026-09-29 20:16:20"
+  },
+  "links": {
+    "cites": [
+      "42193449",
+      "40697914",
+      "40649951"
+    ],
+    "refs": [
+      "37415944",
+      "37305138",
+      "36305834",
+      "36018119",
+      "35974106",
+      "35298263",
+      "34297797",
+      "33958600",
+      "33934486",
+      "33562468",
+      "33482879",
+      "33414365",
+      "33383027",
+      "33246882",
+      "32984320",
+      "31748682",
+      "31061481",
+      "30352305",
+      "30303083",
+      "30189282",
+      "29736323",
+      "28424619",
+      "28343170",
+      "28040710",
+      "28026019",
+      "27591915",
+      "26949937",
+      "26875723",
+      "26845696",
+      "26819412",
+      "26752265",
+      "26733291",
+      "26516221",
+      "25605792",
+      "25158761",
+      "25104651",
+      "23642856",
+      "23414932",
+      "23332590",
+      "23323831",
+      "22645143",
+      "22559899",
+      "22171010",
+      "22056668",
+      "20423980",
+      "19879845",
+      "19747980",
+      "19242469",
+      "19114008",
+      "19027484",
+      "17993506",
+      "17446437",
+      "16150588",
+      "16038625",
+      "11007653",
+      "10783137",
+      "9183357",
+      "8423058"
+    ],
+    "similar": [
+      "38742956",
+      "39679976",
+      "41217537",
+      "40830492",
+      "41511918",
+      "36044964",
+      "40619423",
+      "40304990",
+      "40411685",
+      "33019767",
+      "36131919",
+      "41627545",
+      "33510953",
+      "38430806",
+      "37553608",
+      "31897543",
+      "39633111",
+      "39548254",
+      "41544137",
+      "34629418",
+      "38484366",
+      "40948769",
+      "39930169",
+      "38393419",
+      "40661957",
+      "39650656",
+      "40238799",
+      "33482879",
+      "38807637",
+      "39710756",
+      "39107525",
+      "40332382",
+      "40463372",
+      "31371933",
+      "40874706",
+      "40659785",
+      "40854408",
+      "40510349",
+      "32209064",
+      "29302837",
+      "41073490",
+      "37378675",
+      "40561071",
+      "37415944",
+      "38406826",
+      "41299613",
+      "39540991",
+      "39349929",
+      "41024137",
+      "27658786",
+      "25543336",
+      "39512836",
+      "40687151",
+      "35887109",
+      "27900566",
+      "29286093",
+      "39328407",
+      "31249643",
+      "29225722",
+      "36441459",
+      "30946360",
+      "39142001",
+      "39983974",
+      "20157553",
+      "40091022",
+      "24265543",
+      "38734841",
+      "37396184",
+      "41006883",
+      "39149137",
+      "40108736",
+      "39333589",
+      "39346628",
+      "39738612",
+      "40977739",
+      "40973872",
+      "39707003",
+      "35975032",
+      "38863714",
+      "40089029",
+      "40108265",
+      "41508240",
+      "22393936",
+      "26440064",
+      "37180103",
+      "30087287",
+      "38767974",
+      "41557627",
+      "40374866",
+      "40313967",
+      "40105475",
+      "40025106",
+      "36201882",
+      "39329213",
+      "39080525",
+      "35280389",
+      "28651595",
+      "39839184",
+      "39349110",
+      "39833772"
+    ],
+    "review": [
+      "38742956",
+      "33019767",
+      "31897543",
+      "39930169",
+      "33482879",
+      "38807637",
+      "27658786",
+      "35887109",
+      "27900566",
+      "31249643",
+      "29225722",
+      "39983974",
+      "40089029",
+      "22393936"
+    ],
+    "pmc": [
+      "11131993"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.aging-us.com/full/205804",
+        "provider": "Impact Journals, LLC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/maculardegeneration.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Macular Degeneration"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38742956/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38742956",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

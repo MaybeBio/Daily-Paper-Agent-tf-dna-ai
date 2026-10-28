@@ -1,0 +1,67 @@
+## Review setup
+- **Input scope** Abstract and title only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that two Zn2Cys6-type transcription factors in *Trametes hirsuta* AH28-2 respond to aromatic compounds, form heterodimers, bind to laccase gene promoters, and positively regulate laccase transcription. Aromatic monomer addition accelerates heterodimer formation and activity rate.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or primary data are available
+- **Missing materials affecting confidence** Full manuscript, methods, figures, tables, supplementary data, statistical reporting, and any strain or construct details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting regulatory mechanism for laccase expression in a white-rot fungus, with clear relevance to fungal environmental responses and biotechnology. However, the evidence base is limited to a summary, and several key claims cannot be evaluated for rigor or reproducibility. The core finding of heterodimer formation and promoter interaction is plausible but requires verification of experimental design, controls, and quantitative support.
+- **Who would be interested in the results, and why** Researchers in fungal molecular biology, lignocellulose degradation, enzyme regulation, and biotechnology applications involving laccases. The work may also interest those studying transcription factor networks in environmental sensing by fungi.
+- **Major strengths** The study addresses a specific and under-explored question about differential laccase regulation. The identification of two transcription factors that form heterodimers and respond to aromatic compounds is a novel contribution. The potential link between aromatic exposure and faster regulatory dynamics is an interesting observation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that two Zn2Cys6-type transcription factors "form heterodimers, interact with the promoters of laccase genes, and positively regulate laccase transcription."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not provide any experimental evidence for heterodimer formation, promoter binding, or positive regulation. No methods, controls, or quantitative data are described. It is unclear whether these conclusions are based on yeast two-hybrid, electrophoretic mobility shift assays, chromatin immunoprecipitation, or gene deletion studies.
+  - **Why it matters** Without experimental detail, the central mechanistic claim cannot be assessed for validity, reproducibility, or potential artifacts. The claim of positive regulation requires demonstration of causality, not just correlation.
+  - **Resolution test** Provide full methods and results showing direct interaction (e.g., co-immunoprecipitation or yeast two-hybrid), promoter binding (e.g., EMSA or ChIP), and functional regulation (e.g., gene knockout or overexpression with laccase activity assays).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** The authors state that "Aromatic monomer addition induces faster heterodimer formation and rate of activity."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of "faster" formation and activity rate implies a quantitative comparison, but no data, statistical tests, or effect sizes are presented. It is unclear what was measured, over what time course, and with what replicates.
+  - **Why it matters** Quantitative claims require statistical support. Without it, the observation may be anecdotal or not robust, and the biological significance cannot be evaluated.
+  - **Resolution test** Provide time-course data with appropriate replicates and statistical analysis, including controls without aromatic addition.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract title and text
+  - **Issue** The term "respond to aromatic compounds" is vague. It is unclear whether this refers to transcriptional induction, protein stabilization, or post-translational modification.
+  - **Required correction** Specify the level of response (e.g., transcript, protein, or activity) and the specific aromatic compounds tested.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Scope of conclusion
+  - **Evidence pointer** Abstract "IMPORTANCE" section
+  - **Issue** The authors generalize to "white-rot fungi" but only studied one strain of *Trametes hirsuta*. This overreach is not supported by the data.
+  - **Required correction** Limit conclusions to *T. hirsuta* AH28-2 or provide comparative evidence from other species.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Strain and construct details
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** No information is given on the genetic background, plasmid constructs, or transformation methods used to study the transcription factors.
+  - **Required correction** Include strain genotypes, vector details, and verification of expression or deletion in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The abstract does not provide sufficient evidence to establish the mechanistic claims or the quantitative observation. Full experimental data are required.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The identification of two Zn2Cys6-type transcription factors forming heterodimers to regulate laccases appears novel, but novelty cannot be fully assessed without a literature comparison in the full text.
+  - **Scientific importance** The work addresses a relevant question in fungal environmental responses and enzyme regulation, with potential applied value. However, the significance is moderate and depends on the robustness of the mechanism.
+  - **Interdisciplinary readership** The topic may appeal to microbiologists, enzymologists, and biotechnologists, but the abstract does not frame the work for a broader audience.
+  - **Technical soundness** Cannot be evaluated from the abstract. No methods, controls, or statistics are provided.
+  - **Readability for nonspecialists** The abstract is concise but uses field-specific terms without explanation. It is accessible to specialists but not to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially interesting mechanism, but the lack of experimental detail and quantitative support prevents any positive recommendation. A full manuscript with rigorous data could change this assessment.
+
+## Risk / unsupported claims
+- The claim that the two transcription factors "form heterodimers" is unsupported without direct interaction data.
+- The claim that they "interact with the promoters of laccase genes" is unsupported without binding assays.
+- The claim of "positive regulation" of laccase transcription is unsupported without functional genetic evidence.
+- The claim that aromatic addition "induces faster heterodimer formation and rate of activity" is unsupported without quantitative time-course data.
+- The generalization to "white-rot fungi" in the IMPORTANCE section is unsupported by the single-strain study.

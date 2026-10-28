@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34555591",
+  "title": "MIDGET:Detecting differential gene expression on microarray data.",
+  "authors": "Angelescu, Radu; Dobrescu, Radu",
+  "journal": "Computer methods and programs in biomedicine",
+  "published_date": "2021-09-24",
+  "window": {
+    "start": "2021-09-20",
+    "end": "2021-09-26"
+  },
+  "score": 0,
+  "one_liner_zh": "该文聚焦差异表达基因检测算法评估与机器学习工具开发，不涉及蛋白质-DNA互作、结合位点预测或结构建模，与本课题无关。",
+  "abstract": "Backgound and Objective: Detecting differentially expressed genes is an important step in genome wide analysis and expression profiling. There are a wide array of algorithms used in today's research based on statistical approaches. Even though the current algorithms work, they sometimes miss-predict. There is no framework available for measuring the quality of current algorithms. New machine learning methods (like gradient boost and deep neural networks) were not used to solve this problem. The Gene-Bench open source python package addresses these issues by providing an evaluation and data handling system for differentially expressed genes detection algorithms on microarray data. We also provide MIDGET, a new group of algorithms based on state of the art machine learning approaches Methods: The Gene-Bench package provides data collected from real experiments that consists of 73 transcription-factor perturbation experiments with validation data from Chip-seq experiments and 129 drug perturbation experiments, synthetic data generated with our own method and three evaluation metrics (Kolmogorov, F1 and AUC/ROC). Besides the data and metrics, Gene-Bench also contains well-known algorithms and a new method to identify differentially expressed genes, called MIDGET: Machine learning Identification Differential Gene Expression Tool that is using big-data and machine learning methods to identify differentially expressed genes. The two new groups of machine learning algorithms provided in our package use extreme gradient boosting and deep neural networks to achieve their results. Results: The Gene-Bench package is highly flexible, allows fast prototyping and evaluating of new and old algorithms and provides multiple new machine-learning algorithms (called MIDGET) that perform better on all evaluation metrics than all the other tested alternatives. While everything provided in Gene-Bench is algorithm independent, the user can also use algorithms implemented in the R language even though the package is written in Python. Conclusions: The Gene-Bench package fills a gap in evaluating and benchmarking differential gene detection algorithms. It also provides machine learning methods that perform detection with higher accuracy in all tested metrics. It is available at https://github.com/raduangelescu/GeneBench/ and can be directly installed from the Python Package Index using pip install genebench.",
+  "abstract_zh": "背景与目标：检测差异表达基因是全基因组分析和表达谱分析中的重要步骤。当前研究中使用的算法种类繁多，基于统计方法。尽管现有算法有效，但有时会预测错误。目前没有框架可用于衡量现有算法的质量。新的机器学习方法（如梯度提升和深度神经网络）尚未用于解决此问题。Gene-Bench开源Python包通过提供微阵列数据上差异表达基因检测算法的评估和数据处理系统来解决这些问题。我们还提供MIDGET，一种基于最先进机器学习方法的新算法组。方法：Gene-Bench包包含从真实实验中收集的数据，包括73个转录因子扰动实验（带有来自ChIP-seq实验的验证数据）和129个药物扰动实验，以及用我们自己的方法生成的合成数据和三个评估指标（Kolmogorov、F1和AUC/ROC）。除了数据和指标外，Gene-Bench还包含知名算法和一种识别差异表达基因的新方法，称为MIDGET：机器学习识别差异基因表达工具，它利用大数据和机器学习方法识别差异表达基因。我们包中提供的两组新机器学习算法使用极端梯度提升和深度神经网络来实现其结果。结果：Gene-Bench包高度灵活，允许快速原型设计和评估新旧算法，并提供多个新的机器学习算法（称为MIDGET），在所有评估指标上均优于所有其他测试替代方案。虽然Gene-Bench中提供的所有内容都是算法无关的，但用户也可以使用R语言实现的算法，即使该包是用Python编写的。结论：Gene-Bench包填补了评估和基准测试差异基因检测算法的空白。它还提供了在所有测试指标中具有更高检测精度的机器学习方法。该包可在https://github.com/raduangelescu/GeneBench/ 获取，并可通过pip install genebench直接从Python包索引安装。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34555591/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34555591/",
+  "paper_page_path": "papers/pubmed/34555591/index.html"
+}

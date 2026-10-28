@@ -1,0 +1,241 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.09.01.506159",
+  "title": "Synthetic genotype networks",
+  "doi": "10.1101/2022.09.01.506159",
+  "abstract": "Genotype networks are sets of genotypes connected by small mutational changes that share the same phenotype. They facilitate evolutionary innovation by enabling the exploration of different neighborhoods in genotype space. Genotype networks, first suggested by theoretical models, have been empirically confirmed for proteins and RNAs. Comparative studies also support their existence for gene regulatory networks (GRNs), but direct experimental evidence is lacking. Here, we report the construction of three interconnected genotype networks of synthetic GRNs producing three distinct gene expression phenotypes in Escherichia coli . These genotype networks, composed of over twenty different synthetic GRNs, provide robustness in face of mutations while enabling transitions to innovative phenotypes. Through realistic mathematical modeling, we quantify robustness and evolvability for the complete genotype-phenotype map and link these features mechanistically to GRN motifs. Our work thereby exemplifies how GRN evolution along genotype networks might be driving evolutionary innovation.",
+  "authors": [
+    "Santos-Moreno J",
+    "Tasiudi E",
+    "Kusumawardhani H",
+    "Stelling J",
+    "Schaerli Y"
+  ],
+  "published_date": "2022-09-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.09.01.506159",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.09.01.506159.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR539217",
+    "raw_record": {
+      "id": "PPR539217",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR539217"
+        ]
+      },
+      "doi": "10.1101/2022.09.01.506159",
+      "title": "Synthetic genotype networks",
+      "authorString": "Santos-Moreno J, Tasiudi E, Kusumawardhani H, Stelling J, Schaerli Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Santos-Moreno J",
+            "lastName": "Santos-Moreno",
+            "firstName": "Javier",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Fundamental Microbiology, University of Lausanne, Biophore Building, 1015 Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tasiudi E",
+            "lastName": "Tasiudi",
+            "firstName": "Eve",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5425-7675"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosystems Science and Engineering, ETH Zurich and SIB Swiss Institute of Bioinformatics, Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kusumawardhani H",
+            "lastName": "Kusumawardhani",
+            "firstName": "Hadiastri",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2755-5017"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Fundamental Microbiology, University of Lausanne, Biophore Building, 1015 Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stelling J",
+            "lastName": "Stelling",
+            "firstName": "Joerg",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosystems Science and Engineering, ETH Zurich and SIB Swiss Institute of Bioinformatics, Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schaerli Y",
+            "lastName": "Schaerli",
+            "firstName": "Yolanda",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9083-7343"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Fundamental Microbiology, University of Lausanne, Biophore Building, 1015 Lausanne, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5425-7675"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9083-7343"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2755-5017"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Genotype networks are sets of genotypes connected by small mutational changes that share the same phenotype. They facilitate evolutionary innovation by enabling the exploration of different neighborhoods in genotype space. Genotype networks, first suggested by theoretical models, have been empirically confirmed for proteins and RNAs. Comparative studies also support their existence for gene regulatory networks (GRNs), but direct experimental evidence is lacking. Here, we report the construction of three interconnected genotype networks of synthetic GRNs producing three distinct gene expression phenotypes in  Escherichia coli . These genotype networks, composed of over twenty different synthetic GRNs, provide robustness in face of mutations while enabling transitions to innovative phenotypes. Through realistic mathematical modeling, we quantify robustness and evolvability for the complete genotype-phenotype map and link these features mechanistically to GRN motifs. Our work thereby exemplifies how GRN evolution along genotype networks might be driving evolutionary innovation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "310030",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "175608",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/09/02/2022.09.01.506159.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.09.01.506159"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR539217"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR539217&type=FILE&fileName=EMS153737-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37117168",
+            "reference": "Nature communications. 2023 Apr;14(1):2454",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS153737",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-09-03",
+      "firstPublicationDate": "2022-09-02",
+      "firstIndexDate": "2022-09-03",
+      "fullTextReceivedDate": "2022-09-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

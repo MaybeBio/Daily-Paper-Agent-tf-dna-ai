@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific validity, methodological rigor, support of claims by evidence, and clarity of presentation
+- **Shared manuscript claim summary** The authors use a deep learning approach (DeepZ) to predict Z-DNA forming sequences (Z-flipons) in human and mouse genomes, focusing on conserved regions. They report enrichment of Z-flipons in alternative and bidirectional promoters, association with neurogenesis genes, and increased transcription reinitiation rates in promoters containing conserved Z-flipons, without effects on elongation or pausing. They propose a model where Z-flipons engage Transcription Factor E to reset preinitiation complexes.
+- **Visible evidence base** Main text figures 1-8, tables 1, methods section, and references to supplementary materials (tables 1-11, figures 1-8, data 1-4)
+- **Missing materials affecting confidence** Supplementary figures, tables, and data files were not provided for review. The manuscript references these extensively for feature lists, performance metrics, and detailed results. Without them, several claims cannot be fully verified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question regarding the functional role of Z-DNA in transcription regulation. The use of multiple orthogonal approaches (DeepZ, Z-DNABERT, chemical footprinting) is commendable and strengthens the study. The central claim that conserved Z-flipons are associated with increased transcription reinitiation rates is potentially significant. However, several methodological details and statistical analyses are not fully described in the main text, and the reliance on unpublished supplementary materials limits the ability to fully assess the robustness of the findings. The mechanistic model proposed, while plausible, is largely speculative and requires additional experimental validation.
+- **Who would be interested in the results, and why** Researchers studying non-B DNA structures, transcriptional regulation, chromatin dynamics, and genome evolution would find these results of interest. The study provides a genome-wide resource (predicted Z-flipon maps) and links Z-DNA formation to specific functional outcomes (reinitiation rates), which could inform future experimental studies. The evolutionary conservation analysis adds a dimension relevant to comparative genomics.
+- **Major strengths** 1) The use of multiple independent computational and experimental methods to identify and validate Z-flipons is a significant strength. 2) The focus on conserved regions between human and mouse provides evolutionary context and filters for potentially functional elements. 3) The association with transcription reinitiation rates, a specific and measurable parameter, moves beyond correlative analysis. 4) The study generates publicly available genome-wide predictions that will be a useful resource for the community.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and confounding variables
+  - **Claim pointer** The claim that conserved Z-flipons are associated with increased transcription reinitiation rates (Figure 8A-F, p-values reported).
+  - **Evidence pointer** Figure 8, Supplementary Table 11, Methods "Transcription kinetics parameters analysis"
+  - **Concern** The statistical analysis comparing reinitiation rates between promoters with and without Z-flipons may be confounded by other promoter features. Promoters with Z-flipons are enriched for CpG islands and specific chromatin states. The manuscript does not clearly describe whether the analysis controls for these potential confounders, such as promoter strength, GC content, or the presence of other regulatory elements. The Kolmogorov-Smirnov test compares distributions but does not account for covariates. A regression-based approach or matched analysis would strengthen the claim that Z-flipons specifically, rather than associated promoter features, are linked to reinitiation rates.
+  - **Why it matters** Without controlling for confounders, the observed association may be indirect. The central conclusion of the paper rests on this specific association, so it is critical to establish that Z-flipons are the causal or at least independent contributing factor.
+  - **Resolution test** Provide a multivariate analysis (e.g., logistic regression or propensity score matching) that includes promoter features like CpG status, GC content, and chromatin state as covariates, and demonstrate that the association between Z-flipons and reinitiation rate remains significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency and reproducibility
+  - **Claim pointer** The DeepZ model predictions and the validation using Z-DNABERT and chemical footprinting.
+  - **Evidence pointer** Methods "Deep Z approach", Figure 1A, Supplementary Figures 1-2, Supplementary Tables 1-3
+  - **Concern** The description of the DeepZ model training and validation is insufficient for reproducibility. Key details are missing: the exact architecture (number of layers, hidden units, etc.), hyperparameter tuning procedure, and the precise composition of the training and test sets. The manuscript states that the best RNN-based model from reference 25 was used, but the reader cannot assess whether the model is appropriately trained or whether the performance metrics (PR curves in Figure 1A) are reliable. The ablation analysis is described as using a "significantly reduced" dataset due to RAM limitations, and the authors state the F1 scores are "not reliable for absolute performance comparisons," which raises questions about the validity of the relative comparisons made.
+  - **Why it matters** The entire study depends on the quality of the DeepZ predictions. If the model is not adequately described or its performance not rigorously validated, the downstream analyses are built on an uncertain foundation. The lack of detail prevents other researchers from reproducing or building upon this work.
+  - **Resolution test** Provide a complete description of the model architecture, training procedure, and hyperparameters in the main text or a detailed supplementary methods section. Include performance metrics on a held-out test set with clear definitions of positive/negative classes. Clarify the limitations of the ablation analysis and whether the conclusions drawn from it are robust.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for mechanistic model
+  - **Claim pointer** The proposed model where Z-flipons engage Transcription Factor E (TFE) to reset preinitiation complexes (Figure 8G, Discussion).
+  - **Evidence pointer** Figure 8G, Discussion section, Supplementary Table 7
+  - **Concern** The mechanistic model is presented as a conclusion but is supported only by indirect evidence: enrichment of GTF2E2 at Z-flipon promoters (odds ratio 23, p < 2.2e-16). While this is an interesting correlative finding, the model is speculative. The manuscript does not provide direct experimental evidence for a physical interaction between Z-DNA and TFE, nor does it demonstrate that this interaction is required for the observed reinitiation effects. The evolutionary analysis mentioned (reference 39) is not described in the text.
+  - **Why it matters** The model is a major part of the paper's narrative and its potential significance. Overstating the support for the model could mislead readers. The distinction between correlation and causation needs to be clearly articulated.
+  - **Resolution test** Soften the language in the Discussion to clearly label the model as a hypothesis. Provide a more detailed discussion of the limitations of the evidence. If possible, include preliminary experimental data (e.g., binding assays, mutagenesis) to support the interaction, or clearly state that such experiments are needed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and precision of language
+  - **Affected element** Title and abstract
+  - **Evidence pointer** Title, Abstract
+  - **Issue** The title states "Z-DNA formation in promoters conserved between human and mouse are associated with increased transcription reinitiation rates." The subject-verb agreement is incorrect ("formation... are"). The abstract would benefit from a clearer statement of the effect size or magnitude of the observed differences in reinitiation rates.
+  - **Required correction** Correct the grammatical error in the title. In the abstract, consider adding a quantitative measure of the effect (e.g., fold-change or median difference) to give readers a sense of the biological significance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure clarity
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The PR curves in Figure 1A are difficult to interpret without scale bars or axis labels. The figure legend mentions "PR curves showing model performance" but does not specify which threshold corresponds to which curve or how the curves were generated.
+  - **Required correction** Add clear axis labels and a legend explaining the curves. Consider showing the PR curve for a single representative fold or providing a summary statistic (e.g., average precision) in the text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Methods and Data Availability
+  - **Evidence pointer** Methods, Data Availability section (not present)
+  - **Issue** The manuscript does not include a Data Availability statement. The authors state that predictions are provided as Supplemental Data, but it is unclear if the DeepZ model code and trained weights are available.
+  - **Required correction** Add a Data Availability statement specifying where the genome-wide predictions, model code, and any custom scripts can be accessed (e.g., GitHub, Zenodo).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency of terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout
+  - **Issue** The terms "Z-flipon", "Z-DNA", and "Z-DNA forming region" are used somewhat interchangeably. While related, they are not identical concepts (a flipon is a region that can flip, Z-DNA is the actual structure). This could cause confusion.
+  - **Required correction** Define these terms clearly at first use and use them consistently throughout the manuscript.
+
+## Risk / unsupported claims
+- The claim that conserved Z-flipons are associated with increased transcription reinitiation rates is potentially confounded by other promoter features (R1-M1).
+- The mechanistic model involving TFE and preinitiation complex reset is speculative and not directly supported by experimental evidence (R1-M3).
+- The performance and reliability of the DeepZ model cannot be fully assessed due to insufficient methodological detail (R1-M2).
+- Claims regarding the enrichment of specific transcription factors, chromatin remodelers, and histone marks around Z-flipons (Figure 2, Supplementary Table 7) are based on aggregated data and permutation tests, but the full list of features and detailed results are only in the supplementary materials, which were not available for review.
+- The statement that "Z-flipons are significantly over-represented in genes with Gene Ontology annotations for developmental processes and morphogenesis" is presented without specific statistics in the main text.
+- The claim that "the lack of correlation between these measures suggests that Z-DNA formation in itself does not solely determine the overall transcription rate" (based on Supplementary Figure 8) is an interpretation of a negative result and should be framed more cautiously.

@@ -1,0 +1,574 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.01.28.526011",
+  "title": "A dual diffusion model enables 3D binding bioactive molecule generation and lead optimization given target pockets",
+  "doi": "10.1101/2023.01.28.526011",
+  "abstract": "Structure-based generative chemistry aims to explore much bigger chemical space to design a ligand with high binding affinity to the target proteins; it is a critical step in de novo computer-aided drug discovery. Traditional in silico methods suffer from calculation inefficiency and the performances of existing machine learning methods could be bottlenecked by the auto-regressive sampling strategy. To address these concerns, we herein have developed a novel conditional deep generative model, PMDM, for 3D molecule generation fitting specified target proteins. PMDM incorporates a dual equivariant diffusion model framework to leverage the local and global molecular dynamics to generate 3D molecules in a one-shot fashion. By considering the conditioned protein semantic information and spatial information, PMDM is able to generate chemically and conformationally valid molecules which suitably fit pocket holes. We have conducted comprehensive experiments to demonstrate that PMDM can generate drug-like, synthesis-accessible, novel, and high-binding affinity molecules targeting specific proteins, outperforming the state-of-the-art (SOTA) models in terms of multiple evaluation metrics. In addition, we perform chemical space analysis for generated molecules and lead compound optimization for SARS-CoV-2 main protease (M pro ) by only utilizing three atoms as the seed fragment. The experimental results implicate that the structures of generated molecules are rational compared to the reference molecules, and PMDM can generate massive bioactive molecules highly binding to the targeted proteins which are not included in the training set.",
+  "authors": [
+    "Lei Huang",
+    "Tingyang Xu",
+    "Yang Yu",
+    "Peilin Zhao",
+    "Ka-Chun Wong",
+    "Hengtong Zhang"
+  ],
+  "published_date": "2023-01-30",
+  "updated_date": "2023-01-30T21:40:18Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.01.28.526011",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.01.28.526011.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:29:32Z",
+        "timestamp": 1768505372268,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            30
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 52,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            30
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Structure-based generative chemistry aims to explore much bigger chemical space to design a ligand with high binding affinity to the target proteins; it is a critical step in\n                  <jats:italic>de novo</jats:italic>\n                  computer-aided drug discovery. Traditional\n                  <jats:italic>in silico</jats:italic>\n                  methods suffer from calculation inefficiency and the performances of existing machine learning methods could be bottlenecked by the auto-regressive sampling strategy. To address these concerns, we herein have developed a novel conditional deep generative model, PMDM, for 3D molecule generation fitting specified target proteins. PMDM incorporates a dual equivariant diffusion model framework to leverage the local and global molecular dynamics to generate 3D molecules in a one-shot fashion. By considering the conditioned protein semantic information and spatial information, PMDM is able to generate chemically and conformationally valid molecules which suitably fit pocket holes. We have conducted comprehensive experiments to demonstrate that PMDM can generate drug-like, synthesis-accessible, novel, and high-binding affinity molecules targeting specific proteins, outperforming the state-of-the-art (SOTA) models in terms of multiple evaluation metrics. In addition, we perform chemical space analysis for generated molecules and lead compound optimization for SARS-CoV-2 main protease (M\n                  <jats:sub>pro</jats:sub>\n                  ) by only utilizing three atoms as the seed fragment. The experimental results implicate that the structures of generated molecules are rational compared to the reference molecules, and PMDM can generate massive bioactive molecules highly binding to the targeted proteins which are not included in the training set.\n                </jats:p>",
+      "DOI": "10.1101/2023.01.28.526011",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            30
+          ]
+        ],
+        "date-time": "2023-01-30T21:40:18Z",
+        "timestamp": 1675114818000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 6,
+      "title": [
+        "A dual diffusion model enables 3D binding bioactive molecule generation and lead optimization given target pockets"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Lei",
+          "family": "Huang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tingyang",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yang",
+          "family": "Yu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Peilin",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ka-Chun",
+          "family": "Wong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hengtong",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.1",
+          "first-page": "211",
+          "volume": "6",
+          "year": "2007",
+          "journal-title": "A decade of fragment-based drug design: strategic advances and lessons learned. at. reviews Drug discovery"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "787",
+          "DOI": "10.1016/j.chembiol.2003.09.002",
+          "article-title": "The process of structure-based drug design",
+          "volume": "10",
+          "year": "2003",
+          "journal-title": "Chem. & biology"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "6595",
+          "DOI": "10.1021/acs.chemrev.8b00759",
+          "article-title": "Search for catalysts by inverse design: artificial intelligence, mountain climbers, and alchemists",
+          "volume": "119",
+          "year": "2019",
+          "journal-title": "Chem. reviews"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "547",
+          "DOI": "10.1016/j.cbpa.2011.05.021",
+          "article-title": "Free energy calculations of protein–ligand interactions",
+          "volume": "15",
+          "year": "2011",
+          "journal-title": "Curr. opinion chemical biology"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "1923",
+          "DOI": "10.2174/1568026614666140929124445",
+          "article-title": "Structure-based virtual screening for drug discovery: principles, applications and recent advances",
+          "volume": "14",
+          "year": "2014",
+          "journal-title": "Curr. topics medicinal chemistry"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "935",
+          "DOI": "10.1038/nrd1549",
+          "article-title": "Docking and scoring in virtual screening for drug discovery: methods and applications",
+          "volume": "3",
+          "year": "2004",
+          "journal-title": "Nat. reviews Drug discovery"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4155/fmc.11.135"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "268",
+          "DOI": "10.1021/acscentsci.7b00572",
+          "article-title": "Automatic chemical design using a data-driven continuous representation of molecules",
+          "volume": "4",
+          "year": "2018",
+          "journal-title": "ACS central science"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zang, C. & Wang, F. Moflow: an invertible flow model for generating molecular graphs. In Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, 617–626 (2020).",
+          "DOI": "10.1145/3394486.3403104"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.10",
+          "unstructured": "Guo, M. et al. Data-efficient graph grammar learning for molecular generation. In International Conference on Learning Representations (2021)."
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1175",
+          "DOI": "10.1021/acs.jcim.9b00943",
+          "article-title": "Bidirectional molecule generation with recurrent neural networks",
+          "volume": "60",
+          "year": "2020",
+          "journal-title": "J. chemical information modeling"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.12",
+          "unstructured": "Luo, Y. , Yan, K. & Ji, S. Graphdf: A discrete flow model for molecular graph generation. In International Conference on Machine Learning, 7192–7203 (PMLR, 2021)."
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.13",
+          "article-title": "Graphaf: a flow-based autoregressive model for molecular graph generation",
+          "year": "2020",
+          "journal-title": "arXiv preprint arXiv"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.14",
+          "first-page": "1",
+          "article-title": "Inverse design of 3d molecular structures with conditional generative neural networks",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nat. communications"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.15",
+          "unstructured": "Gebauer, N. , Gastegger, M. & Schütt, K. Symmetry-adapted generation of 3d point sets for the targeted discovery of molecules. Adv. neural information processing systems 32 (2019)."
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.16",
+          "article-title": "Mdm: Molecular diffusion model for 3d molecule generation",
+          "year": "2022",
+          "journal-title": "arXiv preprint arXiv"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.17",
+          "unstructured": "Satorras, V. G. , Hoogeboom, E. , Fuchs, F. B. , Posner, I. & Welling, M. E(n) equivariant normalizing flows. In Beygelzimer, A. , Dauphin, Y. , Liang, P. & Vaughan, J. W. (eds.) Advances in Neural Information Processing Systems (2021)."
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.18",
+          "unstructured": "Hoogeboom, E. , Satorras, V. G. , Vignac, C. & Welling, M. Equivariant diffusion for molecule generation in 3d. In International Conference on Machine Learning, 8867–8887 (PMLR, 2022)."
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lu, W. et al. TANKBind: Trigonometry-aware neural networks for drug-protein binding structure prediction. In Oh, A. H. , Agarwal, A. , Belgrave, D. & Cho, K . (eds.) Advances in Neural Information Processing Systems (2022).",
+          "DOI": "10.1101/2022.06.06.495043"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "2701",
+          "DOI": "10.1039/D1SC05976A",
+          "article-title": "Generating 3d molecules conditional on receptor binding sites with deep generative models",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Chem. science"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.21",
+          "first-page": "6229",
+          "article-title": "A 3d generative model for structure-based drug design",
+          "volume": "34",
+          "year": "2021",
+          "journal-title": "Adv. Neural Inf. Process. Syst"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.22",
+          "unstructured": "Liu, M. , Luo, Y. , Uchino, K. , Maruhashi, K. & Ji, S. Generating 3d molecules for target protein binding. In International Conference on Machine Learning (2022)."
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.23",
+          "unstructured": "Sohl-Dickstein, J. , Weiss, E. , Maheswaranathan, N. & Ganguli, S. Deep unsupervised learning using nonequilibrium thermodynamics. In International Conference on Machine Learning, 2256–2265 (PMLR, 2015)."
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.2006.11239"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.25",
+          "unstructured": "Nichol, A. Q. & Dhariwal, P. Improved denoising diffusion probabilistic models. In International Conference on Machine Learning, 8162–8171 (PMLR, 2021)."
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.26",
+          "unstructured": "Song, J. , Meng, C. & Ermon, S. Denoising diffusion implicit models. In International Conference on Learning Representations (2021)."
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Luo, S. & Hu, W. Diffusion probabilistic models for 3d point cloud generation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2837–2845 (2021).",
+          "DOI": "10.1109/CVPR46437.2021.00286"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.28",
+          "article-title": "Pointdp: Diffusion-driven purification against adversarial attacks on 3d point cloud recognition",
+          "year": "2022",
+          "journal-title": "arXiv preprint arXiv"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.29",
+          "article-title": "A conditional point diffusion-refinement paradigm for 3d point cloud completion",
+          "year": "2021",
+          "journal-title": "arXiv preprint arXiv"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "4200",
+          "DOI": "10.1021/acs.jcim.0c00411",
+          "article-title": "Three-dimensional convolutional neural networks and a cross-docked data set for structure-based drug design",
+          "volume": "60",
+          "year": "2020",
+          "journal-title": "J. chemical information modeling"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.31",
+          "unstructured": "Jin, W. , Barzilay, R. & Jaakkola, T. Junction tree variational autoencoder for molecular graph generation. In International conference on machine learning, 2323–2332 (PMLR, 2018)."
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.32",
+          "unstructured": "De Cao, N. & Kipf, T. MolGAN: An implicit generative model for small molecular graphs. ICML 2018 workshop on Theor. Foundations Appl. Deep. Gener. Model. (2018)."
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "4282",
+          "DOI": "10.1021/acs.molpharmaceut.9b00634",
+          "article-title": "From target to drug: generative modeling for the multimodal structure-based ligand design",
+          "volume": "16",
+          "year": "2019",
+          "journal-title": "Mol. pharmaceutics"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c01494"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "565644",
+          "DOI": "10.3389/fphar.2020.565644",
+          "article-title": "Molecular sets (moses): a benchmarking platform for molecular generation models",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Front. pharmacology"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.addr.2012.09.019"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "55",
+          "DOI": "10.1021/cc9800071",
+          "article-title": "A knowledge-based approach in designing combinatorial or medicinal chemistry libraries for drug discovery. 1. a qualitative and quantitative characterization of known drug databases",
+          "volume": "1",
+          "year": "1999",
+          "journal-title": "J. combinatorial chemistry"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.39",
+          "first-page": "17644",
+          "volume-title": "Proceedings of the 39th International Conference on Machine Learning",
+          "volume": "162",
+          "year": "2022"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "107",
+          "DOI": "10.1021/c160017a018",
+          "article-title": "The generation of a unique machine description for chemical structures-a technique developed at chemical abstracts service",
+          "volume": "5",
+          "year": "1965",
+          "journal-title": "J. chemical documentation"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.41",
+          "first-page": "1",
+          "article-title": "Usrcat: real-time ultrafast shape recognition with pharmacophoric constraints",
+          "volume": "4",
+          "year": "2012",
+          "journal-title": "J. cheminformatics"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tips.2008.12.001"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "987",
+          "DOI": "10.1021/ci025599w",
+          "article-title": "Molecular shape diversity of combinatorial libraries: a prerequisite for broad bioactivity",
+          "volume": "43",
+          "year": "2003",
+          "journal-title": "J. chemical information computer sciences"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "2516",
+          "DOI": "10.1021/ci300293f",
+          "article-title": "Plane of best fit: a novel method to characterize the three-dimensionality of molecules",
+          "volume": "52",
+          "year": "2012",
+          "journal-title": "J. chemical information modeling"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "13664",
+          "DOI": "10.1039/D1SC04444C",
+          "article-title": "Structure-based de novo drug design using 3d deep generative models",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Chem. science"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "467",
+          "DOI": "10.1021/acscentsci.1c00039",
+          "article-title": "Potent noncovalent inhibitors of the main protease of sars-cov-2 from molecular sculpting of the drug perampanel guided by free energy perturbation calculations",
+          "volume": "7",
+          "year": "2021",
+          "journal-title": "ACS central science"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmgm.2008.04.003"
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.48",
+          "unstructured": "Liu, Q. , Lee, J. & Jordan, M. A kernelized stein discrepancy for goodness-of-fit tests. In International conference on machine learning, 276–284 (PMLR, 2016)."
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.49",
+          "unstructured": "Köhler, J. , Klein, L. & Noé, F. Equivariant flows: exact likelihood generative learning for symmetric densities. In International conference on machine learning, 5361–5370 (PMLR, 2020)."
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.50",
+          "unstructured": "Xu, M. et al. Geodiff: A geometric diffusion model for molecular conformation generation. In International Conference on Learning Representations (2022)."
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.51",
+          "unstructured": "Shi, C. , Luo, S. , Xu, M. & Tang, J. Learning gradient fields for molecular conformation generation. In International Conference on Machine Learning, 9558–9568 (PMLR, 2021)."
+        },
+        {
+          "key": "2023020111100912000_2023.01.28.526011v1.52",
+          "first-page": "1",
+          "article-title": "Open babel: An open chemical toolbox",
+          "volume": "3",
+          "year": "2011",
+          "journal-title": "J. cheminformatics"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.01.28.526011",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:12:21Z",
+        "timestamp": 1768450341000
+      },
+      "score": 85.84199,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.01.28.526011"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            30
+          ]
+        ]
+      },
+      "references-count": 52,
+      "URL": "https://doi.org/10.1101/2023.01.28.526011",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            30
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

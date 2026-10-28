@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to study phosphorylation of protamine-like cationic peptides and report that phosphorylation reduces DNA binding affinity and condensation efficiency, with peptide self-assembly competing with DNA-peptide interactions. They hypothesize that this reduction, combined with arginine-phosphoserine H-bonding driving globular peptide conformations, may facilitate chromatin reorganization and histone release during spermatogenesis.
+- **Visible evidence base** Thermodynamic analyses from all-atom molecular dynamics simulations, as described in the abstract; specific numerical data, simulation parameters, and structural analyses are not available
+- **Missing materials affecting confidence** Full methods, simulation details (force field, water model, salt conditions, system size, simulation length), thermodynamic data (binding free energies, error estimates), structural analyses (conformational ensembles, H-bonding statistics), and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study on the effect of phosphorylation on protamine-DNA interactions. The central claim that phosphorylation reduces binding affinity is consistent with electrostatic expectations, but the evidence base is too limited to assess the robustness of the thermodynamic analyses or the validity of the mechanistic hypotheses. The work may be of interest to the biophysics and chromatin biology communities, but the current abstract does not establish the case with sufficient detail.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, chromatin structure and dynamics, and reproductive biology, particularly those studying sperm chromatin packaging, histone-to-protamine transitions, and the role of post-translational modifications in DNA condensation. The findings could inform experimental studies on spermatogenesis and potential applications in gene delivery or chromatin remodeling.
+- **Major strengths** The study addresses a biologically relevant question with potential implications for spermatogenesis. The use of all-atom molecular dynamics is appropriate for probing molecular-level interactions. The hypothesis linking phosphorylation to chromatin reorganization is mechanistically interesting and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Through thermodynamic analyses, we found that phosphorylation reduces the binding efficiency of such cationic peptides on DNA duplexes."
+  - **Evidence pointer** Abstract, thermodynamic analyses; location not provided
+  - **Concern** The abstract states that thermodynamic analyses show reduced binding efficiency, but no quantitative results are presented. There is no indication of the magnitude of the effect, the statistical significance, or the method used to compute binding affinities (e.g., free energy perturbation, umbrella sampling, or end-point methods). Without these details, the reliability of the claim cannot be evaluated.
+  - **Why it matters** The central conclusion of the study rests on the thermodynamic data. If the methods are not robust or the effect is small relative to errors, the claim may not be supported. The abstract must provide sufficient methodological and quantitative detail to allow assessment.
+  - **Resolution test** Provide the computed binding free energies (or equivalent measures) for phosphorylated and non-phosphorylated peptides, including error estimates and the simulation method used. State the number of independent simulations and the convergence criteria.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Peptide phosphorylation leads to a less efficient DNA condensation, due to a competition between DNA-peptide and peptide-peptide interactions."
+  - **Evidence pointer** Abstract, structural and interaction analyses; location not provided
+  - **Concern** The claim of competition between DNA-peptide and peptide-peptide interactions is presented without supporting data. No evidence is shown for the relative strengths of these interactions, the nature of the peptide-peptide contacts, or how they are altered by phosphorylation. The abstract does not describe any analysis of interaction energies, contact maps, or clustering.
+  - **Why it matters** This competition is the proposed mechanism for reduced condensation efficiency. Without direct evidence, the mechanism remains speculative. The claim is central to the biological interpretation.
+  - **Resolution test** Show quantitative interaction energy decompositions (e.g., DNA-peptide vs. peptide-peptide) for phosphorylated and non-phosphorylated systems, with representative snapshots or contact analyses. Demonstrate that the competition is statistically significant and not an artifact of a single trajectory.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "We hypothesize that the decrease of peptide bonds between DNA together with peptide self-assembly might allow an optimal re-organization of chromatin and an efficient condensation through subsequent peptide dephosphorylation."
+  - **Evidence pointer** Abstract, hypothesis; location not provided
+  - **Concern** The hypothesis is plausible but is not tested in the study. The abstract does not describe any simulations or analyses that address chromatin reorganization or dephosphorylation dynamics. The link between the observed reduction in binding and the proposed biological outcome is speculative.
+  - **Why it matters** The broader significance of the work depends on the biological relevance of the findings. If the hypothesis is not supported by any evidence, it should be clearly framed as a speculation, not a conclusion. The abstract currently blurs the line between observation and hypothesis.
+  - **Resolution test** Either provide additional simulations that test the hypothesis (e.g., modeling dephosphorylation or chromatin-level effects) or explicitly state that this is a speculative hypothesis requiring future work. The abstract should distinguish between demonstrated results and proposed implications.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "Based on the globular and compact conformations of phosphorylated peptides mediated by arginine-phosphoserine H-bonding, we furthermore postulate that phosphorylated protamines could more easily intrude into chromatin and participate to histone release through disruption of histone-histone and histone-DNA binding during spermatogenesis."
+  - **Evidence pointer** Abstract, conformational analysis; location not provided
+  - **Concern** The claim of globular and compact conformations mediated by arginine-phosphoserine H-bonding is presented without structural evidence. No data are shown for the conformational ensembles, H-bonding patterns, or how these differ from non-phosphorylated peptides. The connection to chromatin intrusion and histone release is highly speculative.
+  - **Why it matters** This postulate extends the findings to a complex biological process. Without structural evidence for the conformations and a clear mechanistic link, the claim is not supported. The abstract overreaches beyond the simulation data.
+  - **Resolution test** Provide structural analyses (e.g., radius of gyration, H-bond occupancy, contact maps) for phosphorylated and non-phosphorylated peptides. If the chromatin-level claims are retained, provide a more detailed mechanistic model or additional simulations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, terminology
+  - **Evidence pointer** Abstract, Summary section
+  - **Issue** The term "peptide bonds between DNA" is ambiguous and likely a typographical or conceptual error. It is unclear whether the authors mean "peptide-DNA bonds" or "peptide-peptide bonds."
+  - **Required correction** Clarify the terminology, for example, "DNA-peptide interactions" or "peptide-peptide interactions," to avoid confusion.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, methods description
+  - **Evidence pointer** Abstract, Summary section
+  - **Issue** The abstract does not specify the peptide sequence, length, or phosphorylation site(s). This information is essential for reproducibility and for assessing the generality of the findings.
+  - **Required correction** Include the peptide sequence and the specific serine or threonine residues that are phosphorylated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract, biological context
+  - **Evidence pointer** Abstract, Summary section
+  - **Issue** The abstract does not cite or discuss any experimental data on protamine phosphorylation during spermatogenesis. This limits the context and the perceived relevance of the findings.
+  - **Required correction** Add a brief reference to experimental observations of phosphorylation dynamics in spermatogenesis to ground the study in the biological literature.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of reduced binding affinity and the competition mechanism are not supported by quantitative or structural evidence in the abstract. R1-M3 and R1-M4 are non-blocking but require reframing as speculative hypotheses.
+- **Assessment against Nature-style criteria** Originality: The question of phosphorylation effects on protamine-DNA interactions is not entirely novel, but the specific focus on peptide self-assembly and arginine-phosphoserine H-bonding offers a fresh angle. Scientific importance: The topic is relevant to chromatin biology and spermatogenesis, but the significance is not fully established without experimental validation or a stronger mechanistic link. Interdisciplinary readership: The work could appeal to biophysicists, computational chemists, and cell biologists, but the abstract is too technical and lacks context for a broad audience. Technical soundness: Not assessable from the abstract alone; the lack of methodological detail and quantitative results is a major limitation. Readability for nonspecialists: The abstract is concise but uses jargon without explanation, and the ambiguous phrasing reduces clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis but lacks the quantitative and methodological detail required to support the central claims. I would be supportive if the full manuscript provides robust thermodynamic data, structural analyses, and a clear distinction between demonstrated results and speculation.
+
+## Risk / unsupported claims
+- The claim that phosphorylation reduces binding efficiency is unsupported without quantitative thermodynamic data.
+- The claim of competition between DNA-peptide and peptide-peptide interactions is unsupported without interaction energy analyses.
+- The hypothesis about chromatin reorganization and histone release is speculative and not tested in the study.
+- The claim of globular and compact conformations mediated by arginine-phosphoserine H-bonding is unsupported without structural evidence.
+- The biological relevance to spermatogenesis is asserted but not contextualized with experimental data.

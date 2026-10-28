@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "39773540",
+    "doi": "10.1186/s13195-024-01646-x",
+    "title": "Uncovering the epigenetic regulatory clues of PRRT1 in Alzheimer's disease: a strategy integrating multi-omics analysis with explainable machine learning."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Alzheimer's disease (AD) is a complex neurodegenerative disorder with a largely unexplored epigenetic landscape. OBJECTIVE: This study employs an innovative approach that integrates multi-omics analysis and explainable machine learning to explore the epigenetic regulatory mechanisms underlying the epigenetic signature of PRRT1 implicated in AD. METHODS: Through comprehensive DNA methylation and transcriptomic profiling, we identified distinct epigenetic signatures associated with gene PRRT1 expression in AD patient samples compared to healthy controls. Utilizing interpretable machine learning models and ELMAR analysis, we dissected the complex relationships between these epigenetic signatures and gene expression patterns, revealing novel regulatory elements and pathways. Finally, the epigenetic mechanisms of these genes were investigated experimentally. RESULTS: This study identified ten epigenetic signatures, constructed an interpretable AD diagnostic model, and utilized various bioinformatics methods to create an epigenomic map. Subsequently, the ELMAR R package was used to integrate multi-omics data and identify the upstream transcription factor MAZ for PRRT1. Finally, experiments confirmed the interaction between MAZ and PRRT1, which mediated apoptosis and autophagy in AD. CONCLUSION: This study adopts a strategy that integrates bioinformatics analysis with molecular experiments, providing new insights into the epigenetic regulatory mechanisms of PRRT1 in AD and demonstrating the importance of explainable machine learning in elucidating complex disease mechanisms.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Biomarker",
+      "Epigenetic",
+      "Interpretable machine learning",
+      "Multi-omics analysis"
+    ],
+    "mesh_terms": [
+      "*Alzheimer Disease/genetics",
+      "Humans",
+      "*Machine Learning",
+      "*Epigenesis, Genetic/genetics",
+      "*DNA Methylation/genetics",
+      "*Nerve Tissue Proteins/genetics",
+      "Computational Biology/methods",
+      "Epigenomics/methods",
+      "Gene Expression Profiling/methods",
+      "Female",
+      "Male",
+      "Multiomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Fang",
+        "Liang, Ying",
+        "Wang, Qin-Wen"
+      ],
+      "short_names": [
+        "Wang F",
+        "Liang Y",
+        "Wang QW"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, Zhejiang Pharmaceutical University, Ningbo, China.",
+        "Ningbo Maritime Silk Road Institute, No.8, South Qianhu Road, Ningbo, China. nbliangying@163.com.",
+        "Zhejiang Provincial Key Laboratory of Pathophysiology, School of Medicine, Ningbo University, 818 Fenghua Road, Jiangbei District, Ningbo, China. 13486485004@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Fang",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Zhejiang Pharmaceutical University, Ningbo, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Ying",
+        "short_name": "Liang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Ningbo Maritime Silk Road Institute, No.8, South Qianhu Road, Ningbo, China. nbliangying@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Qin-Wen",
+        "short_name": "Wang QW",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Provincial Key Laboratory of Pathophysiology, School of Medicine, Ningbo University, 818 Fenghua Road, Jiangbei District, Ningbo, China. 13486485004@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Alzheimer's research & therapy"
+    ],
+    "journal_abbrev": [
+      "Alzheimers Res Ther"
+    ],
+    "pub_date": "2025 Jan 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/08 18:21",
+    "fetched_at": "2026-09-30 09:13:04"
+  },
+  "links": {
+    "cites": [
+      "42357359",
+      "42193397",
+      "41521457",
+      "41311809"
+    ],
+    "refs": [
+      "38020891",
+      "37875627",
+      "37865646",
+      "37699413",
+      "37251804",
+      "36208276",
+      "35345880",
+      "35235716",
+      "34820376",
+      "34156424",
+      "33962636",
+      "33915266",
+      "33667416",
+      "33268865",
+      "33178099",
+      "32989152",
+      "32690803",
+      "32579671",
+      "32341266",
+      "32184705",
+      "31775875",
+      "31216424",
+      "31185988",
+      "31001455",
+      "30992276",
+      "30931480",
+      "30742114",
+      "30370660",
+      "30364927",
+      "30190379",
+      "30081037",
+      "29490264",
+      "28961746",
+      "28923553",
+      "28666525",
+      "28092081",
+      "27729011",
+      "26921134",
+      "26303417",
+      "26159201",
+      "25605792",
+      "23237904",
+      "22455463",
+      "21269502",
+      "19114008",
+      "16199517",
+      "16037419",
+      "12808457"
+    ],
+    "similar": [
+      "39773540",
+      "41818290",
+      "39507054",
+      "39730451",
+      "41146472",
+      "40455746",
+      "41422555",
+      "39616392",
+      "39920860",
+      "41508098",
+      "39584743",
+      "40616903",
+      "31489368",
+      "32255787",
+      "40752494",
+      "39979805",
+      "41424060",
+      "40770955",
+      "33859751",
+      "41691336",
+      "41854441",
+      "39485681",
+      "27492077",
+      "41291841",
+      "34294691",
+      "41114433",
+      "36811307",
+      "41635814",
+      "41313603",
+      "40986589",
+      "41009659",
+      "39736681",
+      "39993589",
+      "39890844",
+      "24238656",
+      "34678481",
+      "42051535",
+      "40862516",
+      "41485703",
+      "27060332",
+      "39506420",
+      "39690817",
+      "30712078",
+      "39489837",
+      "41493977",
+      "41390089",
+      "38808722",
+      "41080564",
+      "41867210",
+      "27756223",
+      "40302267",
+      "41291825",
+      "38709615",
+      "42008415",
+      "38141185",
+      "40244264",
+      "41265982",
+      "41879435",
+      "39297956",
+      "40074652",
+      "41601671",
+      "40517231",
+      "40207815",
+      "34308907",
+      "41733741",
+      "39101486",
+      "41099090",
+      "40642087",
+      "40615919",
+      "41314550",
+      "41859015",
+      "40441366",
+      "32014019",
+      "40258059",
+      "37742034",
+      "32854783",
+      "39962544",
+      "41231230",
+      "32654306",
+      "37175659",
+      "39757625",
+      "41863516",
+      "33773368",
+      "41540481",
+      "40441683",
+      "42048394",
+      "32654262",
+      "40514687",
+      "40999368",
+      "40025954",
+      "39407312",
+      "41423668",
+      "26803900",
+      "39659154",
+      "41580083",
+      "39965013",
+      "40166228",
+      "40691927",
+      "40196631",
+      "38963039"
+    ],
+    "review": [
+      "39773540",
+      "41422555",
+      "39736681",
+      "24238656",
+      "34678481",
+      "41265982",
+      "39297956",
+      "40517231",
+      "32654306",
+      "32654262",
+      "40025954"
+    ],
+    "pmc": [
+      "11706112"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://alzres.biomedcentral.com/articles/10.1186/s13195-024-01646-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39773540/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

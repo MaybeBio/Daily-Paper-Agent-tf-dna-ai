@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "39277723",
+    "doi": "10.1186/s12864-024-10784-3",
+    "title": "Transcriptomic analysis unveils alterations in the genetic expression profile of tree peony (Paeonia suffruticosa Andrews) infected by Alternaria alternata."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Black spot disease in tree peony caused by the fungal necrotroph A. alternata, is a primary limiting factor in the production of the tree peony. The intricate molecular mechanisms underlying the tree peony resistance to A. alternata have not been thoroughly investigated. RESULTS: The present study utilized high-throughput RNA sequencing (RNA-seq) technology to conduct global expression profiling, revealing an intricate network of genes implicated in the interaction between tree peony and A. alternata. RNA-Seq libraries were constructed from leaf samples and high-throughput sequenced using the BGISEQ-500 sequencing platform. Six distinct libraries were characterized. M1, M2 and M3 were derived from leaves that had undergone mock inoculation, while I1, I2 and I3 originated from leaves that had been inoculated with the pathogen. A range of 10.22-11.80 gigabases (Gb) of clean bases were generated, comprising 68,131,232 - 78,633,602 clean bases and 56,677 - 68,996 Unigenes. A grand total of 99,721 Unigenes were acquired, boasting a mean length of 1,266 base pairs. All these 99,721 Unigenes were annotated in various databases, including NR (Non-Redundant, 61.99%), NT (Nucleotide, 45.50%), SwissProt (46.32%), KEGG (Kyoto Encyclopedia of Genes and Genomes, 49.33%), KOG (clusters of euKaryotic Orthologous Groups, 50.18%), Pfam (Protein family, 47.16%), and GO (Gene Ontology, 34.86%). In total, 66,641 (66.83%) Unigenes had matches in at least one database. By conducting a comparative transcriptome analysis of the mock- and A. alternata-infected sample libraries, we found differentially expressed genes (DEGs) that are related to phytohormone signalling, pathogen recognition, active oxygen generation, and circadian rhythm regulation. Furthermore, multiple different kinds of transcription factors were identified. The expression levels of 10 selected genes were validated employing qRT-PCR (quantitative real-time PCR) to confirm RNA-Seq data. CONCLUSIONS: A multitude of transcriptome sequences have been generated, thus offering a valuable genetic repository for further scholarly exploration on the immune mechanisms underlying the tree peony infected by A. alternata. While the expression of most DEGs increased, a few DEGs showed decreased expression.",
+    "keywords": [
+      "Alternaria alternata",
+      "RNA-Seq",
+      "Transcription factors",
+      "Tree peony"
+    ],
+    "mesh_terms": [
+      "*Paeonia/genetics/microbiology",
+      "*Plant Diseases/microbiology/genetics",
+      "*Alternaria/genetics",
+      "*Gene Expression Profiling",
+      "Transcriptome",
+      "High-Throughput Nucleotide Sequencing",
+      "Gene Expression Regulation, Plant",
+      "Molecular Sequence Annotation",
+      "Gene Ontology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Huiyun",
+        "Lu, Yifan",
+        "Liu, Zixin",
+        "Ren, Qing",
+        "Liu, Zhongyan",
+        "Liu, Sibing",
+        "Ren, Ruili",
+        "Wang, Fei",
+        "Liu, Yi",
+        "Zhang, Yanzhao"
+      ],
+      "short_names": [
+        "Li H",
+        "Lu Y",
+        "Liu Z",
+        "Ren Q",
+        "Liu Z",
+        "Liu S",
+        "Ren R",
+        "Wang F",
+        "Liu Y",
+        "Zhang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China. huiyunli2008@163.com.",
+        "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China.",
+        "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China.",
+        "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China.",
+        "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China.",
+        "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China.",
+        "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China.",
+        "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China.",
+        "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China.",
+        "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China. yzhao_zhang@163.com.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Huiyun",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China. huiyunli2008@163.com."
+        ]
+      },
+      {
+        "full_name": "Lu, Yifan",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zixin",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Qing",
+        "short_name": "Ren Q",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhongyan",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Sibing",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Ruili",
+        "short_name": "Ren R",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Fei",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yi",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yanzhao",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Luoyang Normal University, Luoyang, Henan, 471934, China. yzhao_zhang@163.com.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2024 Sep 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/15 14:09",
+    "fetched_at": "2026-09-30 02:33:31"
+  },
+  "links": {
+    "cites": [
+      "41095198"
+    ],
+    "refs": [
+      "37406892",
+      "37328074",
+      "37236859",
+      "37118888",
+      "37105805",
+      "36987839",
+      "36690618",
+      "36582183",
+      "35336818",
+      "35297054",
+      "34769103",
+      "34569830",
+      "33745759",
+      "31156589",
+      "30639468",
+      "30337674",
+      "29631173",
+      "28099853",
+      "26960548",
+      "26583029",
+      "25814663",
+      "25516281",
+      "24760881",
+      "24387266",
+      "23534608",
+      "23297222",
+      "23264518",
+      "23023172",
+      "22776508",
+      "22392279",
+      "22388286",
+      "22328937",
+      "22325892",
+      "22120121",
+      "21816040",
+      "21785916",
+      "21593126",
+      "21572440",
+      "21111074",
+      "20833735",
+      "20674465",
+      "20213512",
+      "19855105",
+      "18219494",
+      "17583510",
+      "17384165",
+      "17313163",
+      "17114278",
+      "17080933",
+      "17059405",
+      "16603654",
+      "16183832",
+      "16064055",
+      "15968510",
+      "12710672",
+      "12651724",
+      "12183182",
+      "12060224",
+      "11756663",
+      "11722756",
+      "9851977"
+    ],
+    "similar": [
+      "39277723",
+      "29562683",
+      "32035251",
+      "24132406",
+      "26345770",
+      "31296170",
+      "26267644",
+      "26208357",
+      "25134523",
+      "28230761",
+      "31835875",
+      "31999761",
+      "25887415",
+      "33522906",
+      "28934298",
+      "34225663",
+      "26727885",
+      "39273263",
+      "26177103",
+      "26435192",
+      "29738839",
+      "22607098",
+      "30616517",
+      "34243707",
+      "34381085",
+      "31641161",
+      "37993468",
+      "27225275",
+      "29374598",
+      "30316186",
+      "26607692",
+      "37446082",
+      "28614366",
+      "24387266",
+      "31108845",
+      "27494615",
+      "24267665",
+      "28181037",
+      "32240252",
+      "27157477",
+      "31319815",
+      "26849436",
+      "31054140",
+      "26690666",
+      "27709374",
+      "33198624",
+      "28817092",
+      "29540706",
+      "27756219",
+      "31601194",
+      "33006971",
+      "23957614",
+      "27455245",
+      "34495419",
+      "22197659",
+      "24440238",
+      "21356090",
+      "27304219",
+      "26891450",
+      "27827928",
+      "26689283",
+      "28241786",
+      "30626333",
+      "30386716",
+      "28892663",
+      "31159293",
+      "25629164",
+      "36530442",
+      "35343364",
+      "29487185",
+      "31652726",
+      "25329319",
+      "24341681",
+      "27582273",
+      "25447903",
+      "31817492",
+      "28387303",
+      "31779255",
+      "33325197",
+      "26583029",
+      "27438485",
+      "39424873",
+      "36320130",
+      "26115186",
+      "36142512",
+      "26580566",
+      "30699585",
+      "31855819",
+      "37584145",
+      "26946373",
+      "29139263",
+      "28759610",
+      "36008749",
+      "36617566",
+      "23514540",
+      "30605542",
+      "28784091",
+      "22476438",
+      "30940329",
+      "25874455",
+      "36035676",
+      "24278383"
+    ],
+    "review": [
+      "39277723",
+      "29374598"
+    ],
+    "pmc": [
+      "11402206"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-024-10784-3",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39277723/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NT5E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

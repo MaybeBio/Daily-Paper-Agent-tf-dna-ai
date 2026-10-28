@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38754366",
+  "title": "Causal gene regulatory analysis with RNA velocity reveals an interplay between slow and fast transcription factors.",
+  "authors": "Singh, Rohit; Wu, Alexander P; Mudide, Anish; Berger, Bonnie",
+  "journal": "Cell systems",
+  "published_date": "2024-05-17",
+  "window": {
+    "start": "2024-05-13",
+    "end": "2024-05-19"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用RNA velocity推断TF-靶基因因果调控网络，但无蛋白-DNA三维互作建模或AI/物理模拟方法，仅属转录调控网络推断，与本课题关联较弱。",
+  "abstract": "Single-cell expression dynamics, from differentiation trajectories or RNA velocity, have the potential to reveal causal links between transcription factors (TFs) and their target genes in gene regulatory networks (GRNs). However, existing methods either overlook these expression dynamics or necessitate that cells be ordered along a linear pseudotemporal axis, which is incompatible with branching trajectories. We introduce Velorama, an approach to causal GRN inference that represents single-cell differentiation dynamics as a directed acyclic graph of cells, constructed from pseudotime or RNA velocity measurements. Additionally, Velorama enables the estimation of the speed at which TFs influence target genes. Applying Velorama, we uncover evidence that the speed of a TF's interactions is tied to its regulatory function. For human corticogenesis, we find that slow TFs are linked to gliomas, while fast TFs are associated with neuropsychiatric diseases. We expect Velorama to become a critical part of the RNA velocity toolkit for investigating the causal drivers of differentiation and disease.",
+  "abstract_zh": "单细胞表达动态，无论是来自分化轨迹还是RNA速度，都有潜力揭示基因调控网络（GRNs）中转录因子（TFs）与其靶基因之间的因果联系。然而，现有方法要么忽视这些表达动态，要么要求细胞沿线性伪时间轴排序，这与分支轨迹不兼容。我们引入了Velorama，一种因果GRN推断方法，它将单细胞分化动态表示为细胞的有向无环图，该图基于伪时间或RNA速度测量构建。此外，Velorama能够估计转录因子影响靶基因的速度。应用Velorama，我们发现转录因子相互作用的速率与其调控功能相关的证据。对于人类皮层形成过程，我们发现慢速转录因子与胶质瘤相关，而快速转录因子与神经精神疾病相关。我们期望Velorama成为RNA速度工具包中研究分化和疾病因果驱动因素的关键组成部分。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38754366/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38754366/",
+  "paper_page_path": "papers/pubmed/38754366/index.html"
+}

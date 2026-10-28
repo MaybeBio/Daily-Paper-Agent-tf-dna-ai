@@ -1,0 +1,680 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.05.30.542787",
+  "title": "ULDNA: Integrating Unsupervised Multi-Source Language Models with LSTM-Attention Network for Protein-DNA Binding Site Prediction",
+  "doi": "10.1101/2023.05.30.542787",
+  "abstract": "Accurate identification of protein-DNA interactions is critical to understand the molecular mechanisms of proteins and design new drugs. We proposed a novel deeplearning method, ULDNA, to predict DNA-binding sites from protein sequences through a LSTM-attention architecture embedded with three unsupervised language models pretrained in multiple large-scale sequence databases. The method was systematically tested on 1287 proteins with DNA-binding site annotation from Protein Data Bank. Experimental results showed that ULDNA achieved a significant increase of the DNA-binding site prediction accuracy compared to the state-of-the-art approaches. Detailed data analyses showed that the major advantage of ULDNA lies in the utilization of three pre-trained transformer language models which can extract the complementary DNA-binding patterns buried in evolution diversity-based feature embeddings in residue-level. Meanwhile, the designed LSTM-attention network could further enhance the correlation between evolution diversity and protein-DNA interaction. These results demonstrated a new avenue for high-accuracy deep-learning DNA-binding site prediction that is applicable to large-scale protein-DNA binding annotation from sequence alone.",
+  "authors": [
+    "Yi-Heng Zhu",
+    "Dong-Jun Yu"
+  ],
+  "published_date": "2023-05-30",
+  "updated_date": "2023-05-30T08:55:13Z",
+  "journal": "bioRxiv",
+  "category": "Molecular Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.05.30.542787",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.05.30.542787.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Molecular Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Molecular Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:49:02Z",
+        "timestamp": 1768506542147,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            30
+          ]
+        ]
+      },
+      "group-title": "Molecular Biology",
+      "reference-count": 73,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            30
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Accurate identification of protein-DNA interactions is critical to understand the molecular mechanisms of proteins and design new drugs. We proposed a novel deeplearning method, ULDNA, to predict DNA-binding sites from protein sequences through a LSTM-attention architecture embedded with three unsupervised language models pretrained in multiple large-scale sequence databases. The method was systematically tested on 1287 proteins with DNA-binding site annotation from Protein Data Bank. Experimental results showed that ULDNA achieved a significant increase of the DNA-binding site prediction accuracy compared to the state-of-the-art approaches. Detailed data analyses showed that the major advantage of ULDNA lies in the utilization of three pre-trained transformer language models which can extract the complementary DNA-binding patterns buried in evolution diversity-based feature embeddings in residue-level. Meanwhile, the designed LSTM-attention network could further enhance the correlation between evolution diversity and protein-DNA interaction. These results demonstrated a new avenue for high-accuracy deep-learning DNA-binding site prediction that is applicable to large-scale protein-DNA binding annotation from sequence alone.</jats:p>",
+      "DOI": "10.1101/2023.05.30.542787",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            30
+          ]
+        ],
+        "date-time": "2023-05-30T08:55:13Z",
+        "timestamp": 1685436913000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "ULDNA: Integrating Unsupervised Multi-Source Language Models with LSTM-Attention Network for Protein-DNA Binding Site Prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Yi-Heng",
+          "family": "Zhu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Dong-Jun",
+          "family": "Yu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3005"
+        },
+        {
+          "issue": "6",
+          "key": "2023060103200505000_2023.05.30.542787v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "844",
+          "DOI": "10.1038/s41564-022-01133-9",
+          "article-title": "Genome-wide protein–DNA interaction site mapping in bacteria using a double-stranded DNA-specific cytosine deaminase",
+          "volume": "7",
+          "year": "2022",
+          "journal-title": "Nature Microbiology"
+        },
+        {
+          "issue": "4",
+          "key": "2023060103200505000_2023.05.30.542787v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1625",
+          "DOI": "10.1093/nar/gkad013",
+          "article-title": "Structural predictions of protein–DNA binding: MELD-DNA",
+          "volume": "51",
+          "year": "2023",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/26.10.2306"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0969-2126(97)00260-8"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2202799119"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1049"
+        },
+        {
+          "issue": "2",
+          "key": "2023060103200505000_2023.05.30.542787v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbab564",
+          "DOI": "10.1093/bib/bbab564",
+          "article-title": "AlphaFold2-aware protein–DNA binding site prediction using graph transformer",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "issue": "3",
+          "key": "2023060103200505000_2023.05.30.542787v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "246",
+          "DOI": "10.2174/1574893614666181212102030",
+          "article-title": "A review of DNA-binding proteins prediction methods",
+          "volume": "14",
+          "year": "2019",
+          "journal-title": "Current Bioinformatics"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.8b00749"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg922"
+        },
+        {
+          "issue": "4",
+          "key": "2023060103200505000_2023.05.30.542787v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "885",
+          "DOI": "10.1002/prot.20111",
+          "article-title": "Structure-based prediction of DNA-binding sites on proteins using the empirical preference of electrostatic potential and the shape of molecular surfaces",
+          "volume": "55",
+          "year": "2004",
+          "journal-title": "PROTEINS: structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt447"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt029"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkn332"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bti232"
+        },
+        {
+          "issue": "11",
+          "key": "2023060103200505000_2023.05.30.542787v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1000567",
+          "DOI": "10.1371/journal.pcbi.1000567",
+          "article-title": "A threading-based method for the prediction of DNA-binding proteins with application to the human genome",
+          "volume": "5",
+          "year": "2009",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks481"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki875"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1999.3091"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(84)90231-6"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1206-1565"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "197",
+          "DOI": "10.1007/s11749-016-0481-7",
+          "article-title": "A random forest guided tour",
+          "volume": "25",
+          "year": "2016",
+          "journal-title": "Test"
+        },
+        {
+          "issue": "6",
+          "key": "2023060103200505000_2023.05.30.542787v1.25",
+          "first-page": "1389",
+          "article-title": "Predicting protein-DNA binding residues by weightedly combining sequence-based features and boosting multiple SVMs",
+          "volume": "14",
+          "year": "2016",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        },
+        {
+          "issue": "1",
+          "key": "2023060103200505000_2023.05.30.542787v1.26",
+          "first-page": "1",
+          "article-title": "MetaDBSite: a meta approach to improve protein DNA-binding sites prediction",
+          "volume": "5",
+          "year": "2011",
+          "journal-title": "BMC systems biology"
+        },
+        {
+          "issue": "4",
+          "key": "2023060103200505000_2023.05.30.542787v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "994",
+          "DOI": "10.1109/TCBB.2013.104",
+          "article-title": "Designing template-free predictor for targeting protein-ligand binding sites with classifier ensemble and spatial clustering",
+          "volume": "10",
+          "year": "2013",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-10-1"
+        },
+        {
+          "issue": "06",
+          "key": "2023060103200505000_2023.05.30.542787v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "1766",
+          "DOI": "10.1109/TCBB.2012.106",
+          "article-title": "Sequence-based prediction of DNA-binding residues in proteins with conservation and correlation information",
+          "volume": "9",
+          "year": "2012",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Guan , Q. Zou , H. Wu , and Y. Ding , Protein-dna binding residues prediction using a deep learning model with hierarchical feature extraction, IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2022,",
+          "DOI": "10.1109/TCBB.2022.3190933"
+        },
+        {
+          "issue": "6",
+          "key": "2023060103200505000_2023.05.30.542787v1.31",
+          "first-page": "3635",
+          "article-title": "Protein-dna binding residue prediction via bagging strategy and sequence-based cube-format feature",
+          "volume": "19",
+          "year": "2021",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-019-2669-9"
+        },
+        {
+          "issue": "9",
+          "key": "2023060103200505000_2023.05.30.542787v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "e51",
+          "DOI": "10.1093/nar/gkab044",
+          "article-title": "GraphBind: protein structural context embedded rules learned by hierarchical graph neural networks for recognizing nucleic-acid-binding residues",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Rao , N. Bhattacharya , N. Thomas , Y. Duan , P. Chen , J. Canny , P. Abbeel , and Y. Song , Evaluating protein transfer learning with TAPE, Advances in neural information processing systems, 2019, 32",
+          "DOI": "10.1101/676825"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-019-2669-9"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.37",
+          "article-title": "Learning protein sequence embeddings using information from structure",
+          "year": "2019",
+          "journal-title": "arXiv"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.patcog.2017.10.013"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "issue": "2",
+          "key": "2023060103200505000_2023.05.30.542787v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "162",
+          "DOI": "10.1093/bioinformatics/btaa701",
+          "article-title": "Unsupervised protein embeddings outperform hand-crafted sequence and structure features at predicting molecular function",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "1",
+          "key": "2023060103200505000_2023.05.30.542787v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "23916",
+          "DOI": "10.1038/s41598-021-03431-4",
+          "article-title": "Protein embeddings and deep learning predict binding residues for various ligand classes",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "issue": "10",
+          "key": "2023060103200505000_2023.05.30.542787v1.43",
+          "first-page": "7112",
+          "article-title": "Prottrans: Toward understanding the language of life through self-supervised learning",
+          "volume": "44",
+          "year": "2021",
+          "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.44",
+          "unstructured": "R. M. Rao , J. Liu , R. Verkuil , J. Meier , J. Canny , P. Abbeel , T. Sercu , and A. Rives , “MSA transformer.” pp. 8844–8856."
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl158"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btg224"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1081"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btm098"
+        },
+        {
+          "issue": "7",
+          "key": "2023060103200505000_2023.05.30.542787v1.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "603",
+          "DOI": "10.1038/s41592-019-0437-4",
+          "article-title": "Protein-level assembly increases protein sequence recovery from metagenomic samples manyfold",
+          "volume": "16",
+          "year": "2019",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.50",
+          "article-title": "Generalized cross entropy loss for training deep neural networks with noisy labels",
+          "year": "2018",
+          "journal-title": "arXiv"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.51",
+          "article-title": "Adam: A method for stochastic optimization",
+          "year": "2014",
+          "journal-title": "arXiv"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl298"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp449"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.54",
+          "first-page": "1",
+          "article-title": "BindN+ for accurate prediction of DNA and RNA-binding residues from protein sequence features",
+          "volume": "4",
+          "year": "2010",
+          "journal-title": "BMC Systems Biology"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl672"
+        },
+        {
+          "issue": "11",
+          "key": "2023060103200505000_2023.05.30.542787v1.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "1885",
+          "DOI": "10.1002/prot.24330",
+          "article-title": "DNABind: A hybrid algorithm for structure-based prediction of DNA-binding residues by combining machine learning-and template-based approaches",
+          "volume": "81",
+          "year": "2013",
+          "journal-title": "PROTEINS: structure, Function, and Bioinformatics"
+        },
+        {
+          "issue": "12",
+          "key": "2023060103200505000_2023.05.30.542787v1.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "3149",
+          "DOI": "10.1021/acs.jcim.7b00307",
+          "article-title": "Identification of protein–ligand binding sites by sequence information and ensemble classifier",
+          "volume": "57",
+          "year": "2017",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btg432"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btm174"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.60",
+          "doi-asserted-by": "crossref",
+          "first-page": "21",
+          "DOI": "10.1016/j.imavis.2018.04.004",
+          "article-title": "Beyond one-hot encoding: Lower dimensional target embedding",
+          "volume": "75",
+          "year": "2018",
+          "journal-title": "Image and Vision Computing"
+        },
+        {
+          "issue": "4",
+          "key": "2023060103200505000_2023.05.30.542787v1.61",
+          "first-page": "381",
+          "article-title": "Softmax to softassign: Neural network algorithms for combinatorial optimization",
+          "volume": "2",
+          "year": "1996",
+          "journal-title": "Journal of Artificial Neural Networks"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.62",
+          "unstructured": "Z. Zhang , and M. Sabuncu , Generalized cross entropy loss for training deep neural networks with noisy labels, Advances in neural information processing systems, 2018, 31"
+        },
+        {
+          "issue": "2",
+          "key": "2023060103200505000_2023.05.30.542787v1.63",
+          "first-page": "e1298",
+          "article-title": "Using PyMOL as a platform for computational drug design",
+          "volume": "7",
+          "year": "2017",
+          "journal-title": "Wiley Interdisciplinary Reviews: Computational Molecular Science"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.65",
+          "article-title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+          "year": "2018",
+          "journal-title": "arXiv"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.66",
+          "unstructured": "J. Buckman , A. Roy , C. Raffel , and I. Goodfellow , “Thermometer encoding: One hot way to resist adversarial examples,” in International Conference on Learning Representations, 2018."
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.67",
+          "article-title": "Adam: A method for stochastic optimization",
+          "year": "2014",
+          "journal-title": "arXiv"
+        },
+        {
+          "issue": "6",
+          "key": "2023060103200505000_2023.05.30.542787v1.68",
+          "first-page": "1389",
+          "article-title": "Predicting protein-DNA binding residues by weightedly combining sequence-based features and boosting multiple SVMs",
+          "volume": "14",
+          "year": "2016",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.8b00749"
+        },
+        {
+          "issue": "6",
+          "key": "2023060103200505000_2023.05.30.542787v1.70",
+          "first-page": "3635",
+          "article-title": "Protein-dna binding residue prediction via bagging strategy and sequence-based cube-format feature",
+          "volume": "19",
+          "year": "2021",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        },
+        {
+          "key": "2023060103200505000_2023.05.30.542787v1.71",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Guan , Q. Zou , H. Wu , and Y. Ding , “Protein-dna binding residues prediction using a deep learning model with hierarchical feature extraction,” IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2022.",
+          "DOI": "10.1109/TCBB.2022.3190933"
+        },
+        {
+          "issue": "12",
+          "key": "2023060103200505000_2023.05.30.542787v1.72",
+          "doi-asserted-by": "crossref",
+          "first-page": "3149",
+          "DOI": "10.1021/acs.jcim.7b00307",
+          "article-title": "Identification of protein–ligand binding sites by sequence information and ensemble classifier",
+          "volume": "57",
+          "year": "2017",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "issue": "4",
+          "key": "2023060103200505000_2023.05.30.542787v1.73",
+          "doi-asserted-by": "crossref",
+          "first-page": "994",
+          "DOI": "10.1109/TCBB.2013.104",
+          "article-title": "Designing template-free predictor for targeting protein-ligand binding sites with classifier ensemble and spatial clustering",
+          "volume": "10",
+          "year": "2013",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.05.30.542787",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:42:32Z",
+        "timestamp": 1768452152000
+      },
+      "score": 201.06258,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.05.30.542787"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            30
+          ]
+        ]
+      },
+      "references-count": 73,
+      "URL": "https://doi.org/10.1101/2023.05.30.542787",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            30
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

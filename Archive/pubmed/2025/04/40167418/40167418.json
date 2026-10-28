@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "40167418",
+    "doi": "10.1021/acschemneuro.5c00084",
+    "title": "Cross-Interaction with Amyloid-beta Drives Pathogenic Structural Transformation within the Amyloidogenic Core Region of TDP-43."
+  },
+  "content": {
+    "abstract": "Alzheimer's disease (AD) is the world's most prevalent neurodegenerative disorder, characterized neuropathologically by senile plaques and neurofibrillary tangles formed by amyloid-beta (Abeta) and tau, respectively. Notably, a subset of AD patients also exhibits pathological aggregates composed of TAR DNA-Binding Protein 43 (TDP-43). Clinically, the presence of TDP-43 copathology in AD correlates with more severe cognitive decline and faster disease progression. While previous studies have shown that TDP-43 can exacerbate Abeta toxicity and modulate its assembly dynamics by delaying fibrillization and promoting oligomer formation, the impact of the Abeta interaction on the structural dynamics and aggregation of TDP-43 remains unclear. Here, we employed all-atom discrete molecular dynamics simulations to study the direct interaction between Abeta42, the more amyloidogenic isoform of Abeta, and the amyloidogenic core region (ACR) of TDP-43, which spans residues 311-360 and is critical for TDP-43 aggregation. We found that monomeric Abeta42 could strongly bind to the ACR, establishing sustained contact through intermolecular hydrogen bonding. In contrast, simulation of ACR dimerization revealed a transient helix-helix interaction, experimentally known to drive the phase separation behavior of TDP-43. The binding of the ACR to an Abeta42 fibril seed resulted in significant structural transformation, with the complete unfolding of the helical region being observed. Furthermore, interaction with the Abeta42 fibril seed catalyzed the formation of a parallel, in-register intermolecular beta-sheet between two ACR monomers. Collectively, our computational study provides important theoretical insights into TDP-43 pathology in AD, demonstrating that Abeta42, especially in its fibrillar form, may catalyze the pathogenic structural transformation within the TDP-43 ACR that initiates its aberrant aggregation.",
+    "keywords": [
+      "TDP-43",
+      "amyloid aggregation",
+      "amyloid-beta",
+      "conformational dynamics",
+      "cross-interaction",
+      "cross-seeding"
+    ],
+    "mesh_terms": [
+      "*Amyloid beta-Peptides/metabolism/chemistry",
+      "*DNA-Binding Proteins/metabolism/chemistry",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "*Peptide Fragments/metabolism/chemistry",
+      "Alzheimer Disease/metabolism/pathology",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gatch, Adam J",
+        "Ding, Feng"
+      ],
+      "short_names": [
+        "Gatch AJ",
+        "Ding F"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-4330-4448",
+        "ORCID: 0000-0003-1850-6336"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States.",
+        "Department of Genetics and Biochemistry, Clemson University, Clemson, South Carolina 29634, United States.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gatch, Adam J",
+        "short_name": "Gatch AJ",
+        "identifiers": [
+          "0009-0001-4330-4448"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States.",
+          "Department of Genetics and Biochemistry, Clemson University, Clemson, South Carolina 29634, United States."
+        ]
+      },
+      {
+        "full_name": "Ding, Feng",
+        "short_name": "Ding F",
+        "identifiers": [
+          "0000-0003-1850-6336"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS chemical neuroscience"
+    ],
+    "journal_abbrev": [
+      "ACS Chem Neurosci"
+    ],
+    "pub_date": "2025 Apr 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/01 11:40",
+    "fetched_at": "2026-09-30 14:52:30"
+  },
+  "links": {
+    "cites": [
+      "40817583"
+    ],
+    "refs": [
+      "39504036",
+      "39342654",
+      "39073874",
+      "38921060",
+      "38422113",
+      "38052886",
+      "37964757",
+      "37714405",
+      "37532939",
+      "37307445",
+      "37046025",
+      "36894164",
+      "36507729",
+      "36069777",
+      "35767952",
+      "35704461",
+      "35563046",
+      "35335141",
+      "35311274",
+      "35187086",
+      "35025654",
+      "34930382",
+      "34880495",
+      "34482645",
+      "34456336",
+      "34454574",
+      "34389969",
+      "33917983",
+      "33771571",
+      "33433877",
+      "33230138",
+      "33051572",
+      "32799899",
+      "32132204",
+      "32108838",
+      "31430565",
+      "30837838",
+      "30814253",
+      "30356856",
+      "28988034",
+      "28733604",
+      "28713158",
+      "28695211",
+      "28157327",
+      "27838743",
+      "27694152",
+      "27545621",
+      "27458018",
+      "27030292",
+      "26638022",
+      "25784874",
+      "24240737",
+      "23689371",
+      "22280505",
+      "21865887",
+      "21358640",
+      "20624952",
+      "20552046",
+      "20102526",
+      "20101720",
+      "20020773",
+      "19422539",
+      "18520774",
+      "17981595",
+      "17591968",
+      "17195931",
+      "17023659",
+      "16444756",
+      "16157593",
+      "10223287",
+      "6667333"
+    ],
+    "similar": [
+      "40167418",
+      "39073874",
+      "36975100",
+      "33289734",
+      "41173868",
+      "41202479",
+      "33024142",
+      "33621087",
+      "35041853",
+      "29378116",
+      "30787102",
+      "31566950",
+      "33230138",
+      "40432382",
+      "28435985",
+      "39158263",
+      "28162045",
+      "32003979",
+      "40962260",
+      "40562864",
+      "30582723",
+      "41633420",
+      "31771980",
+      "37390790",
+      "23225010",
+      "24368046",
+      "28406293",
+      "41653511",
+      "39208885",
+      "33337368",
+      "38271485",
+      "26827680",
+      "40776447",
+      "40055900",
+      "37126408",
+      "31369236",
+      "10583407",
+      "20734314",
+      "21668291",
+      "39719197",
+      "40623182",
+      "37549471",
+      "36153964",
+      "37040092",
+      "25029558",
+      "27091578",
+      "18694930",
+      "37964619",
+      "36179370",
+      "39126645",
+      "18537541",
+      "31546787",
+      "40715768",
+      "30092839",
+      "28378589",
+      "37246935",
+      "23259691",
+      "30821624",
+      "39561091",
+      "31162715",
+      "41465553",
+      "24720730",
+      "27227450",
+      "40719248",
+      "36841957",
+      "25137638",
+      "30076539",
+      "36069400",
+      "30605312",
+      "21633500",
+      "23421682",
+      "25281743",
+      "40383343",
+      "38700150",
+      "41880569",
+      "30454039",
+      "26699836",
+      "35643314",
+      "38615537",
+      "37633335",
+      "32814257",
+      "29940109",
+      "23811057",
+      "29963623",
+      "38921060",
+      "26871000",
+      "37218694",
+      "17280549",
+      "15590663",
+      "41424842",
+      "30157623",
+      "37924907",
+      "29953467",
+      "26084577",
+      "22157754",
+      "40701458",
+      "22674434",
+      "31075274",
+      "22921742",
+      "31138770"
+    ],
+    "review": [
+      "40167418",
+      "40562864",
+      "23225010",
+      "24368046",
+      "18537541"
+    ],
+    "pmc": [
+      "12003063"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40167418/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acncdm/article-lookup/doi/10.1021/acschemneuro.5c00084",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

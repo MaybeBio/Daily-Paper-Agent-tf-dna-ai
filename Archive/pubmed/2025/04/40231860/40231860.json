@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "40231860",
+    "doi": "10.1021/acs.jctc.5c00171",
+    "title": "Small Molecules Targeting the Structural Dynamics of AR-V7 Partially Disordered Proteins Using Deep Ensemble Docking."
+  },
+  "content": {
+    "abstract": "The extensive conformational dynamics of partially disordered proteins hinders the efficiency of traditional in-silico structure-based drug discovery approaches due to the challenge of screening large chemical spaces of compounds, albeit with an excessive number of transient binding sites, quickly making this problem intractable. In this study, using the monomer of the AR-V7 transcription factor splicing variant related to prostate cancer as a test case, we present a deep ensemble docking pipeline that accelerates the screening of small molecule binders targeting partially disordered proteins at functional regions. By swiftly identifying the conformational ensemble of AR-V7 and reducing the dimension of binding sites by a factor of 90, we identify functionally relevant binding sites along the AR-V7 structural ensemble at phase separation-prone regions that have been experimentally shown to contribute to enhanced transcription activity and the onset of tumor growth. Following this, we combine physics-based molecular docking and multiobjective classification machine learning models to speed up the screening for binders in a larger chemical space able to target these functional multiple binding sites of AR-V7. This step increases the multibinding site hit rate of small molecules by a factor of 17 compared to naive molecular docking. Finally, assessing in atomistic molecular dynamics the effect of a selected binder on AR-V7 dynamics, we find that in the presence of the ChEMBL22003 compound, AR-V7 exhibits less conformational entropy, smaller solvent exposure of phase separation-prone regions, and higher solvent exposure of other protein regions, promoting this compound as a potential AR-V7 phase separation modulator.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Docking Simulation",
+      "*Small Molecule Libraries/chemistry/pharmacology",
+      "Humans",
+      "*Receptors, Androgen/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Binding Sites",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Karatzas, Pantelis",
+        "Brotzakis, Z Faidon",
+        "Sarimveis, Haralambos"
+      ],
+      "short_names": [
+        "Karatzas P",
+        "Brotzakis ZF",
+        "Sarimveis H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1814-7687",
+        "ORCID: 0000-0001-7024-1430",
+        "ORCID: 0000-0002-8607-9965"
+      ],
+      "affiliations": [
+        "School of Chemical Engineering, National Technical University of Athens, 9 Heroon Polytechniou Street, Athens 15780, Greece.",
+        "Institute of Bioinnovation (IBI), Biomedical Science Research Center Alexander Fleming, 34 Fleming Street, Vari 16672, Greece.",
+        "Centre for Misfolding Diseases, Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K.",
+        "School of Chemical Engineering, National Technical University of Athens, 9 Heroon Polytechniou Street, Athens 15780, Greece."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Karatzas, Pantelis",
+        "short_name": "Karatzas P",
+        "identifiers": [
+          "0000-0003-1814-7687"
+        ],
+        "affiliations": [
+          "School of Chemical Engineering, National Technical University of Athens, 9 Heroon Polytechniou Street, Athens 15780, Greece."
+        ]
+      },
+      {
+        "full_name": "Brotzakis, Z Faidon",
+        "short_name": "Brotzakis ZF",
+        "identifiers": [
+          "0000-0001-7024-1430"
+        ],
+        "affiliations": [
+          "Institute of Bioinnovation (IBI), Biomedical Science Research Center Alexander Fleming, 34 Fleming Street, Vari 16672, Greece.",
+          "Centre for Misfolding Diseases, Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K."
+        ]
+      },
+      {
+        "full_name": "Sarimveis, Haralambos",
+        "short_name": "Sarimveis H",
+        "identifiers": [
+          "0000-0002-8607-9965"
+        ],
+        "affiliations": [
+          "School of Chemical Engineering, National Technical University of Athens, 9 Heroon Polytechniou Street, Athens 15780, Greece."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2025 May 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/15 12:29",
+    "fetched_at": "2026-09-30 15:57:08"
+  },
+  "links": {
+    "cites": [
+      "41441193"
+    ],
+    "refs": [
+      "39952928",
+      "39813358",
+      "38049566",
+      "37645312",
+      "37477459",
+      "37171364",
+      "36969402",
+      "36671509",
+      "36518077",
+      "35610022",
+      "35238773",
+      "34930115",
+      "34418423",
+      "34168840",
+      "34006959",
+      "32607441",
+      "31396909",
+      "30840442",
+      "30449618",
+      "29930091",
+      "29897235",
+      "27873247",
+      "26844300",
+      "26574304",
+      "25784874",
+      "25611056",
+      "24938294",
+      "24773235",
+      "24739139",
+      "24606139",
+      "22824207",
+      "21948594",
+      "20585614",
+      "20408171",
+      "20148675",
+      "20057044",
+      "19645590",
+      "19499576",
+      "19117982",
+      "18593950",
+      "18196502",
+      "17212484",
+      "15082523",
+      "10871264",
+      "6502707"
+    ],
+    "similar": [
+      "40231860",
+      "30979035",
+      "39990458",
+      "33767381",
+      "32100577",
+      "30193215",
+      "29914135",
+      "34767914",
+      "22653923",
+      "31766271",
+      "33069070",
+      "25008967",
+      "33391515",
+      "28528814",
+      "27699828",
+      "28811363",
+      "30030299",
+      "25062331",
+      "33822745",
+      "38987470",
+      "30963631",
+      "39665260",
+      "32206096",
+      "37139712",
+      "39948708",
+      "26310125",
+      "32722024",
+      "33801338",
+      "27117751",
+      "28397338",
+      "29488772",
+      "30270106",
+      "23851510",
+      "24053684",
+      "29249800",
+      "28561752",
+      "26957440",
+      "24449822",
+      "28025139",
+      "26378018",
+      "30446660",
+      "29712835",
+      "36577061",
+      "29758263",
+      "35848798",
+      "35354884",
+      "33323969",
+      "28691182",
+      "29844167",
+      "38532114",
+      "39538154",
+      "32734688",
+      "34548474",
+      "25233256",
+      "33857854",
+      "22047606",
+      "29555663",
+      "38627648",
+      "27765852",
+      "27588408",
+      "24740322",
+      "38732174",
+      "32957106",
+      "33446905",
+      "38687617",
+      "33938068",
+      "35695870",
+      "31796514",
+      "27174161",
+      "26378044",
+      "30334814",
+      "37120484",
+      "35948987",
+      "29198908",
+      "39154818",
+      "33359129",
+      "30165195",
+      "27550197",
+      "28753843",
+      "28473535",
+      "31740740",
+      "31542304",
+      "22821817",
+      "39093570",
+      "28722220",
+      "38604522",
+      "28600675",
+      "29359890",
+      "27197266",
+      "32403216",
+      "23088973",
+      "29076496",
+      "38785951",
+      "29417861",
+      "30639122",
+      "32619831",
+      "26117829",
+      "22424156",
+      "24551051",
+      "38480977"
+    ],
+    "review": [
+      "40231860",
+      "30979035",
+      "32100577",
+      "29488772",
+      "33857854",
+      "32957106",
+      "27174161",
+      "28753843",
+      "39093570",
+      "32403216"
+    ],
+    "pmc": [
+      "12080126"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40231860/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.5c00171",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

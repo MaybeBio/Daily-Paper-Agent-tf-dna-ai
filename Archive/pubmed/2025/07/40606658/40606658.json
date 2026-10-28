@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "40606658",
+    "doi": "10.3389/fgene.2025.1598835",
+    "title": "Integrative bioinformatics analysis and experimental validation reveals key genes and regulatory mechanisms in the development of gout."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND AIMS: Gout is a prevalent inflammatory arthropathy caused by monosodium urate crystal deposition, yet its molecular pathogenesis remains incompletely understood. This study aimed to identify key genes and elucidate regulatory mechanisms underlying gout development through bioinformatics analysis combined with experimental validation. METHODS: Transcriptome dataset GSE160170 and single-cell dataset GSE211783 were analyzed using differential expression analysis and weighted gene co-expression network analysis (WGCNA). Functional enrichment, protein-protein interaction (PPI), ceRNA, and transcription factor networks were constructed. Immune cell infiltration was analyzed using CIBERSORTx. Molecular docking predicted therapeutic compounds. Experimental validation included qRT-PCR, Western blot, gene knockdown/overexpression, and functional assays. RESULTS: Among 329 gout-related genes identified, CXCL8, PTGS2, and IL10 emerged as key regulators involved in cell-cell adhesion, leukocyte activation, and NF-kappaB signaling. Immune infiltration revealed significant upregulation of M2 macrophages, activated mast cells, activated NK cells, and gammadelta T cells in gout samples. CeRNA network identified KCNQ1OT1 and hsa-mir-98-5p as regulatory elements, while CEBPB, STAT3, RELA, and NFKB1 were key transcription factors. Molecular docking suggested pergolide as a therapeutic candidate. Single-cell analysis confirmed high expression of key genes in T/NK cells and myeloid cells. Western blot validation showed upregulated protein expression of key genes in the gout model. PTGS2 knockdown enhanced cell viability and reduced apoptosis, while overexpression promoted inflammatory cytokine production and NF-kappaB pathway activation. CONCLUSION: This study systematically elucidated the pivotal roles of CXCL8, PTGS2, and IL10 in gout pathogenesis, providing valuable molecular targets for therapeutic development.",
+    "keywords": [
+      "apoptosis",
+      "ceRNA network",
+      "gout",
+      "immune infiltration",
+      "inflammatory",
+      "molecular docking"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Ye",
+        "Gao, Zhiqiang",
+        "Chen, Jianhong",
+        "Liu, Yuejing",
+        "Zhou, Jingguo"
+      ],
+      "short_names": [
+        "Yuan Y",
+        "Gao Z",
+        "Chen J",
+        "Liu Y",
+        "Zhou J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of General Practice, Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China.",
+        "Clinical Medical College, Chengdu University of Traditional Chinese Medicine, Chengdu, China.",
+        "Clinical Medical College, Chengdu University of Traditional Chinese Medicine, Chengdu, China.",
+        "Geriatrics Department, Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China.",
+        "Department of Rheumatology and Immunology, The First Affiliated Hospital of Chengdu Medical College, Chengdu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Ye",
+        "short_name": "Yuan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Practice, Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Zhiqiang",
+        "short_name": "Gao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Medical College, Chengdu University of Traditional Chinese Medicine, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Jianhong",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Medical College, Chengdu University of Traditional Chinese Medicine, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuejing",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Geriatrics Department, Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jingguo",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, The First Affiliated Hospital of Chengdu Medical College, Chengdu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/03 06:28",
+    "fetched_at": "2026-09-30 20:52:20"
+  },
+  "links": {
+    "cites": [
+      "41827822"
+    ],
+    "refs": [
+      "39051164",
+      "38783765",
+      "38699841",
+      "38686389",
+      "38627393",
+      "38344307",
+      "38330620",
+      "38078808",
+      "38000353",
+      "37953195",
+      "37924998",
+      "37756161",
+      "37660912",
+      "37540844",
+      "37045832",
+      "37012869",
+      "36911202",
+      "36127250",
+      "35874765",
+      "35840810",
+      "35814425",
+      "35684415",
+      "35662629",
+      "34178980",
+      "33926105",
+      "33129923",
+      "32620196",
+      "32541923",
+      "32330552",
+      "32101750",
+      "31885496",
+      "31727465",
+      "31685302",
+      "31611251",
+      "31392775",
+      "29657028",
+      "29476737",
+      "28254559",
+      "27008449",
+      "25655831",
+      "24943488",
+      "23906377",
+      "22378047",
+      "21349428",
+      "17218381",
+      "17088087",
+      "16846531",
+      "16204163",
+      "15100320",
+      "12905486",
+      "11592089",
+      "11342442",
+      "10796704",
+      "9588743",
+      "9336316",
+      "8834767",
+      "8144524",
+      "3086432",
+      "2676681",
+      "1684157",
+      "1639201"
+    ],
+    "similar": [
+      "40606658",
+      "36291136",
+      "37855355",
+      "35378210",
+      "40613560",
+      "38686389",
+      "35524416",
+      "38707281",
+      "39586719",
+      "38268224",
+      "35813414",
+      "35392084",
+      "36745138",
+      "36829193",
+      "39284931",
+      "35422846",
+      "37155429",
+      "41052072",
+      "38164346",
+      "38472694",
+      "41388523",
+      "39677038",
+      "35957838",
+      "41479901",
+      "41300749",
+      "40821971",
+      "37821907",
+      "34345178",
+      "39251231",
+      "41442003",
+      "36894874",
+      "39798208",
+      "38297226",
+      "41237469",
+      "39093467",
+      "39619595",
+      "34536521",
+      "37122694",
+      "40023733",
+      "40764361",
+      "35116032",
+      "41422660",
+      "41288681",
+      "41161665",
+      "39028999",
+      "39280960",
+      "39925939",
+      "40851533",
+      "34880646",
+      "38873611",
+      "40338445",
+      "36061211",
+      "39864778",
+      "41044520",
+      "39766817",
+      "40574839",
+      "39566403",
+      "36451451",
+      "39610125",
+      "34975885",
+      "40374744",
+      "34321013",
+      "40406126",
+      "41162503",
+      "40902508",
+      "40685483",
+      "37065602",
+      "40068024",
+      "40119934",
+      "41120603",
+      "39512836",
+      "41291892",
+      "34934349",
+      "41350331",
+      "40123810",
+      "33488933",
+      "34938320",
+      "40347801",
+      "41255601",
+      "39430414",
+      "41502897",
+      "40091022",
+      "40151199",
+      "35757392",
+      "41326474",
+      "40659785",
+      "36699469",
+      "38368442",
+      "41193860",
+      "40158428",
+      "40496861",
+      "39069636",
+      "34794447",
+      "40711603",
+      "39375405",
+      "41200169",
+      "37603701",
+      "37357608",
+      "41354822",
+      "39730379"
+    ],
+    "review": [
+      "40606658",
+      "36745138"
+    ],
+    "pmc": [
+      "12213635"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40606658/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTGS2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1275",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2025.1598835",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

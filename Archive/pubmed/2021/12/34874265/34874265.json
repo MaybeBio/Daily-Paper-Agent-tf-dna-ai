@@ -1,0 +1,459 @@
+{
+  "identity": {
+    "pmid": "34874265",
+    "doi": "10.7554/eLife.71735",
+    "title": "Analysis of long and short enhancers in melanoma cell states."
+  },
+  "content": {
+    "abstract": "Understanding how enhancers drive cell-type specificity and efficiently identifying them is essential for the development of innovative therapeutic strategies. In melanoma, the melanocytic (MEL) and the mesenchymal-like (MES) states present themselves with different responses to therapy, making the identification of specific enhancers highly relevant. Using massively parallel reporter assays (MPRAs) in a panel of patient-derived melanoma lines (MM lines), we set to identify and decipher melanoma enhancers by first focusing on regions with state-specific H3K27 acetylation close to differentially expressed genes. An in-depth evaluation of those regions was then pursued by investigating the activity of overlapping ATAC-seq peaks along with a full tiling of the acetylated regions with 190 bp sequences. Activity was observed in more than 60% of the selected regions, and we were able to precisely locate the active enhancers within ATAC-seq peaks. Comparison of sequence content with activity, using the deep learning model DeepMEL2, revealed that AP-1 alone is responsible for the MES enhancer activity. In contrast, SOX10 and MITF both influence MEL enhancer function with SOX10 being required to achieve high levels of activity. Overall, our MPRAs shed light on the relationship between long and short sequences in terms of their sequence content, enhancer activity, and specificity across melanoma cell states.",
+    "keywords": [
+      "MPRA",
+      "chromosomes",
+      "enhancers",
+      "gene expression",
+      "genetics",
+      "genomics",
+      "human",
+      "melanoma"
+    ],
+    "mesh_terms": [
+      "Cell Line, Tumor",
+      "*Enhancer Elements, Genetic",
+      "Humans",
+      "Melanoma/*genetics/metabolism",
+      "Microphthalmia-Associated Transcription Factor/*genetics/metabolism",
+      "SOXE Transcription Factors/*genetics/metabolism",
+      "Transcription Factor AP-1/*genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mauduit, David",
+        "Taskiran, Ibrahim Ihsan",
+        "Minnoye, Liesbeth",
+        "de Waegeneer, Maxime",
+        "Christiaens, Valerie",
+        "Hulselmans, Gert",
+        "Demeulemeester, Jonas",
+        "Wouters, Jasper",
+        "Aerts, Stein"
+      ],
+      "short_names": [
+        "Mauduit D",
+        "Taskiran II",
+        "Minnoye L",
+        "de Waegeneer M",
+        "Christiaens V",
+        "Hulselmans G",
+        "Demeulemeester J",
+        "Wouters J",
+        "Aerts S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2045-227X",
+        "ORCID: 0000-0002-5077-5264",
+        "ORCID: 0000-0002-2660-2478",
+        "ORCID: 0000-0002-7129-2990",
+        "ORCID: 0000-0002-8006-0315"
+      ],
+      "affiliations": [
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium.",
+        "Cancer Genomics Laboratory, The Francis Crick Institute, London, United Kingdom.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium.",
+        "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+        "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mauduit, David",
+        "short_name": "Mauduit D",
+        "identifiers": [
+          "0000-0002-2045-227X"
+        ],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Taskiran, Ibrahim Ihsan",
+        "short_name": "Taskiran II",
+        "identifiers": [
+          "0000-0002-5077-5264"
+        ],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Minnoye, Liesbeth",
+        "short_name": "Minnoye L",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "de Waegeneer, Maxime",
+        "short_name": "de Waegeneer M",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Christiaens, Valerie",
+        "short_name": "Christiaens V",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Hulselmans, Gert",
+        "short_name": "Hulselmans G",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Demeulemeester, Jonas",
+        "short_name": "Demeulemeester J",
+        "identifiers": [
+          "0000-0002-2660-2478"
+        ],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium.",
+          "Cancer Genomics Laboratory, The Francis Crick Institute, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Wouters, Jasper",
+        "short_name": "Wouters J",
+        "identifiers": [
+          "0000-0002-7129-2990"
+        ],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Aerts, Stein",
+        "short_name": "Aerts S",
+        "identifiers": [
+          "0000-0002-8006-0315"
+        ],
+        "affiliations": [
+          "VIB-KU Leuven Center for Brain & Disease Research, Leuven, Belgium.",
+          "KU Leuven, Department of Human Genetics KU Leuven, Leuven, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2021 Dec 7",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/08 06:00",
+    "fetched_at": "2026-09-28 02:36:57"
+  },
+  "links": {
+    "cites": [
+      "41927920",
+      "41419583",
+      "41000822",
+      "40808260",
+      "40644525",
+      "40346084",
+      "39764051",
+      "38519642",
+      "38245503",
+      "38086419",
+      "38030698",
+      "37904237",
+      "37443338",
+      "37324054",
+      "35551305",
+      "35432344"
+    ],
+    "refs": [
+      "38410680",
+      "33872375",
+      "33832990",
+      "33789083",
+      "33046894",
+      "32917861",
+      "32783593",
+      "32753671",
+      "32732264",
+      "32728240",
+      "32043966",
+      "31988385",
+      "31848212",
+      "31477158",
+      "31123060",
+      "30962623",
+      "30872802",
+      "30783653",
+      "30568279",
+      "30137428",
+      "30017245",
+      "29750242",
+      "29657129",
+      "29256496",
+      "29151363",
+      "29078205",
+      "28841410",
+      "28662445",
+      "28588608",
+      "28249010",
+      "28112643",
+      "27783940",
+      "27701403",
+      "27197208",
+      "27197205",
+      "27079975",
+      "26766440",
+      "26072433",
+      "25925574",
+      "25865119",
+      "25803486",
+      "25801169",
+      "25516281",
+      "24913666",
+      "24905166",
+      "23913827",
+      "23818646",
+      "23512712",
+      "23328393",
+      "22772081",
+      "22534400",
+      "22388286",
+      "22371084",
+      "21160473",
+      "21106759",
+      "20513432",
+      "20444197",
+      "20110278",
+      "19505943",
+      "18405375",
+      "18245463",
+      "17457320",
+      "16899407",
+      "16862190",
+      "16827748",
+      "15564374",
+      "12824389",
+      "10898786",
+      "10868275",
+      "10359772"
+    ],
+    "similar": [
+      "34874265",
+      "31399133",
+      "29408204",
+      "25865119",
+      "31881017",
+      "38519642",
+      "34099848",
+      "26927636",
+      "23275444",
+      "36040798",
+      "36043696",
+      "19422606",
+      "28327285",
+      "22594792",
+      "25803486",
+      "25030625",
+      "22363655",
+      "17516925",
+      "27055402",
+      "20163701",
+      "30506895",
+      "28545079",
+      "28855355",
+      "12028584",
+      "31065107",
+      "32531202",
+      "28481878",
+      "24443471",
+      "30892142",
+      "29419543",
+      "33323974",
+      "23414473",
+      "20083088",
+      "19784067",
+      "35621105",
+      "21812802",
+      "30642390",
+      "27008969",
+      "23973299",
+      "20067553",
+      "24390218",
+      "23962556",
+      "23349796",
+      "12668617",
+      "34296805",
+      "21811243",
+      "18983539",
+      "16766266",
+      "21801332",
+      "21672228",
+      "38712228",
+      "21883983",
+      "12819038",
+      "21203491",
+      "22848661",
+      "24954720",
+      "19638316",
+      "20067556",
+      "32168437",
+      "38994683",
+      "25433395",
+      "34879275",
+      "28991225",
+      "18444964",
+      "12944398",
+      "37924516",
+      "21519923",
+      "25128984",
+      "32732264",
+      "26072433",
+      "21258399",
+      "19269971",
+      "27185926",
+      "34710701",
+      "28394346",
+      "19805117",
+      "34605404",
+      "26461473",
+      "37770430",
+      "23799842",
+      "30266801",
+      "25866058",
+      "24733089",
+      "16899407",
+      "23782678",
+      "29369499",
+      "32753671",
+      "33966634",
+      "20439467",
+      "20644734",
+      "29969627",
+      "25679813",
+      "28119061",
+      "10644012",
+      "18628967",
+      "22131883",
+      "25447045",
+      "30391358",
+      "37904237",
+      "38365907",
+      "36640767",
+      "37645832"
+    ],
+    "review": [
+      "34874265",
+      "23414473",
+      "25433395",
+      "21519923",
+      "26072433",
+      "25866058"
+    ],
+    "pmc": [
+      "8691835"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/melanoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Melanoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34874265/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34874265",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/34874265",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3929",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.71735",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse180879",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

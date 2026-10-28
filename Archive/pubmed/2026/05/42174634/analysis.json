@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42174634",
+  "title": "Early detection of gastric cancer with the assistance of cell-free DNA fragmentomics.",
+  "authors": "Huang, Xiaoli; Han, Zhengxiang; Zhang, Ying; Wang, Hongmei; Li, Xuqi; Bai, Chenxi; Pan, Ying; Huang, Jingwen; Xie, Jiaojiao; Qian, Xiaohan; Wang, Xuan; Ding, Tao; Zhang, Jinpeng; Yang, Shanshan; Hong, Xinyue; Jing, Qifan; Li, Gang; Li, Xiaohua",
+  "journal": "Clinical epigenetics",
+  "published_date": "2026-05-23",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 3,
+  "one_liner_zh": "该文利用cfDNA片段组学特征（含转录因子结合位点覆盖度）和机器学习进行胃癌早期检测，虽涉及TF结合位点但非蛋白-DNA互作机制研究，且无AI/物理模拟建模，仅属临床诊断应用。",
+  "abstract": "BACKGROUND: Gastric cancer remains one of the most prevalent malignancies globally. As early-stage gastric cancer is typically asymptomatic or presents with non-specific symptoms, most patients are diagnosed at advanced stages, leading to poor survival outcomes. Effective early detection strategies are important for reducing gastric cancer-related mortality. In this study, we developed a non-invasive assay utilizing cell-free DNA to distinguish patients with early-stage gastric cancer from healthy individuals. RESULTS: We performed low-depth whole genome sequencing to profile cell-free DNA and extracted three distinct features: fragment size patterns, coverage at transcription factor binding sites, and methylation-based profiles. These features were integrated via machine learning to construct a stacked ensemble model. The study included a training cohort (108 gastric cancer patients and 108 healthy controls), a temporally independent validation cohort (79 patients and 79 healthy controls), and an external validation cohort recruited from two independent centers (136 patients and 136 healthy controls). The ensemble model demonstrated robust performance, achieving area under the curve values of 0.986, 0.978, and 0.967 in the training, validation, and external cohorts, respectively. Specificity and sensitivity were 98.1% and 89.8% in the training cohort, 97.5% and 87.6% in the validation cohort, and 96.3% and 87.5% in the external cohort. Notably, the sensitivity for detecting stage I gastric cancer exceeded 85% across all cohorts. CONCLUSIONS: By integrating multi-dimensional cell-free DNA fragmentomic features, this assay provides accurate, non-invasive detection of gastric cancer, particularly at early stages. While its performance was high, the specificity reported here may be overestimated due to the use of a strictly screened healthy control group. Nevertheless, this fragmentomic-based approach represents a promising tool to complement existing screening strategies, potentially improving early diagnosis rates.",
+  "abstract_zh": "背景：胃癌仍是全球最常见的恶性肿瘤之一。由于早期胃癌通常无症状或仅表现为非特异性症状，大多数患者在确诊时已处于晚期，导致生存预后不佳。有效的早期检测策略对于降低胃癌相关死亡率至关重要。在本研究中，我们开发了一种利用游离DNA（cell-free DNA）的非侵入性检测方法，用于区分早期胃癌患者与健康个体。结果：我们进行了低深度全基因组测序以分析游离DNA，并提取了三个不同特征：片段大小模式、转录因子结合位点的覆盖度以及基于甲基化的谱图。这些特征通过机器学习整合，构建了一个堆叠集成模型。研究包括训练队列（108例胃癌患者和108例健康对照）、时间独立验证队列（79例患者和79例健康对照）以及从两个独立中心招募的外部验证队列（136例患者和136例健康对照）。集成模型表现出稳健的性能，在训练、验证和外部队列中的曲线下面积（area under the curve）值分别为0.986、0.978和0.967。特异性和敏感性在训练队列中分别为98.1%和89.8%，在验证队列中为97.5%和87.6%，在外部队列中为96.3%和87.5%。值得注意的是，在所有队列中，检测I期胃癌的敏感性均超过85%。结论：通过整合多维游离DNA片段组学特征，该检测方法提供了对胃癌的准确、非侵入性检测，尤其是在早期阶段。尽管其性能较高，但由于使用了严格筛选的健康对照组，本文报告的特异性可能被高估。然而，这种基于片段组学的方法代表了一种有前景的工具，可补充现有筛查策略，有望提高早期诊断率。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42174634/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42174634/",
+  "paper_page_path": "papers/pubmed/42174634/index.html"
+}

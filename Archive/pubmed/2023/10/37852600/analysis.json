@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37852600",
+  "title": "Improving Enhancer Identification with a Multi-Classifier Stacked Ensemble Model.",
+  "authors": "Mir, Bilal Ahmad; Rehman, Mobeen Ur; Tayara, Hilal; Chong, Kil To",
+  "journal": "Journal of molecular biology",
+  "published_date": "2023-10-19",
+  "window": {
+    "start": "2023-10-16",
+    "end": "2023-10-22"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用多分类器堆叠集成模型基于理化特征预测增强子区域，虽涉及DNA调控元件但未聚焦TF-DNA结合互作或三维结构建模，方法可迁移性有限。",
+  "abstract": "Enhancers are DNA regions that are responsible for controlling the expression of genes. Enhancers are usually found upstream or downstream of a gene, or even inside a gene's intron region, but are normally located at a distant location from the genes they control. By integrating experimental and computational approaches, it is possible to uncover enhancers within DNA sequences, which possess regulatory properties. Experimental techniques such as ChIP-seq and ATAC-seq can identify genomic regions that are associated with transcription factors or accessible to regulatory proteins. On the other hand, computational techniques can predict enhancers based on sequence features and epigenetic modifications. In our study, we have developed a multi-classifier stacked ensemble (MCSE-enhancer) model that can accurately identify enhancers. We utilized feature descriptors from various physiochemical properties as input for our six baseline classifiers and built a stacked classifier, which outperformed previous enhancer classification techniques in terms of accuracy, specificity, sensitivity, and Mathew's correlation coefficient. Our model achieved an accuracy of 81.5%, representing a 2-3% improvement over existing models.",
+  "abstract_zh": "增强子（enhancers）是负责控制基因表达的DNA区域。增强子通常位于基因的上游或下游，甚至位于基因的内含子区域，但通常与其所控制的基因相距较远。通过整合实验和计算方法，可以在DNA序列中发现具有调控特性的增强子。实验技术如ChIP-seq和ATAC-seq能够识别与转录因子相关或对调控蛋白可及的基因组区域。另一方面，计算技术可以基于序列特征和表观遗传修饰来预测增强子。在我们的研究中，我们开发了一个多分类器堆叠集成（MCSE-enhancer）模型，能够准确识别增强子。我们利用各种理化性质的特征描述符作为六个基线分类器的输入，并构建了一个堆叠分类器，其在准确性、特异性、敏感性和马修斯相关系数方面优于以往的增强子分类技术。我们的模型达到了81.5%的准确率，比现有模型提高了2-3%。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37852600/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37852600/",
+  "paper_page_path": "papers/pubmed/37852600/index.html"
+}

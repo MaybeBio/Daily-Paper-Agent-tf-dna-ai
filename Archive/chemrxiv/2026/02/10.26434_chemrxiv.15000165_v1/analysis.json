@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.15000165/v1",
+  "title": "Molecular Dynamics Workflows to Compute Large-Scale Sets of Absolute Binding Free Energies Aiding Drug Candidate and Binding Pose Selection",
+  "authors": "Sebastian Wingbermühle; Akash Deep Biswas; Domenico Bonanni; Tatiana Shugaeva; Davide Gadioli; Jakub Beránek; Giorgia Frumenzio; Lara Querciagrossa; Andrea Piserchia; Gianmarco Accordi; Filippo Lunghini; Carmine Talarico; Andrew Emerson; Jan Martinovič; Andrea Rosario Beccari; Gianluca Palermo; Erik Lindahl",
+  "journal": "ChemRxiv",
+  "published_date": "2026-02-17",
+  "window": {
+    "start": "2026-02-16",
+    "end": "2026-02-22"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用MD计算蛋白-配体绝对结合自由能，辅助药物筛选与结合姿态选择，虽涉及结合自由能建模，但对象为蛋白-小分子而非蛋白-DNA，方法可迁移性有限，仅边缘相关。",
+  "abstract": "Large-scale Virtual Screening (VS) campaigns of compound libraries can significantly speed up candidate selection in the early stages of drug discovery. The most promising drug candidates are identified by Scoring Functions (SFs), which enable VS campaigns to rank candidate compounds according to their estimated binding affinities. These SFs are typically trained on experimental data reflecting binding affinities (e.g. Dissociation Constant (Kd) values), commonly used as proxies for protein-ligand binding free energies. Since experimental reference data are often inconsistent between laboratories or even unavailable, we developed two computational workflows using Molecular Dynamics (MD) and implicit-solvent calculations to provide consistent large-scale datasets of Absolute Binding Free Energies (ABFEs), addressing two complementary aspects of virtual screening: quantitative binding affinity estimation and binding pose assessment. Our Binding Affinity Prediction (BAP) workflow estimated protein-ligand binding affinities for 4000+ complexes from the PDBbind 2020 dataset. Our Pose Selector (PS) workflow computed non-converged ABFEs from reduced-time Molecular Dynamics (MD) simulations estimating stability for 800,000+ related binding poses. To produce ABFE data at this scale, our free-energy workflows classify, check and repair input structures of protein-ligand complexes in a fully automated fashion. The workflow scripts, molecular dynamics data and ABFE labels are publicly available, creating an extendable database of reference values for the development of Scoring Functions for Large-Scale Virtual Screening campaigns.",
+  "abstract_zh": "化合物库的大规模虚拟筛选（Virtual Screening, VS）活动可显著加速药物发现早期阶段的候选物选择。最有前景的药物候选物通过评分函数（Scoring Functions, SFs）识别，这些函数使VS活动能够根据估计的结合亲和力对候选化合物进行排序。这些SFs通常基于反映结合亲和力的实验数据（如解离常数（Dissociation Constant, Kd）值）进行训练，这些数据常被用作蛋白质-配体结合自由能的代理指标。由于实验参考数据在不同实验室间常不一致，甚至可能不可得，我们开发了两种利用分子动力学（Molecular Dynamics, MD）和隐式溶剂计算的计算工作流程，以提供一致的大规模绝对结合自由能（Absolute Binding Free Energies, ABFEs）数据集，解决虚拟筛选的两个互补方面：定量结合亲和力估计和结合姿态评估。我们的结合亲和力预测（Binding Affinity Prediction, BAP）工作流程估计了来自PDBbind 2020数据集的4000多个复合物的蛋白质-配体结合亲和力。我们的姿态选择器（Pose Selector, PS）工作流程通过缩减时间分子动力学（MD）模拟计算未收敛的ABFEs，估计了800,000多个相关结合姿态的稳定性。为了在此规模下生成ABFE数据，我们的自由能工作流程以全自动方式对蛋白质-配体复合物的输入结构进行分类、检查和修复。工作流程脚本、分子动力学数据和ABFE标签公开可用，为大规模虚拟筛选活动的评分函数开发创建了一个可扩展的参考值数据库。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv.15000165/v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.15000165/v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.15000165_v1/index.html"
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The review argues that intrinsically disordered regions (IDRs) in eukaryotic transcription factors (TFs) are chemically encoded for structural plasticity, enabling multifunctional roles in nuclear processes including protein interactions, DNA binding, chromatin opening, and phase separation. The authors report using AlphaFold-based sequence analysis of over 1600 human TFs to identify key IDR features, and propose future integration of experiments and simulations from in vitro to living systems.
+- **Visible evidence base** Abstract text only; no methodological details, quantitative results, or specific literature citations are provided in the supplied material
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods for AlphaFold analysis, the list of 1600 TFs analyzed, specific examples of highlighted studies, and any statistical or validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a timely and conceptually important topic, namely the multifunctional roles of IDRs in transcription factors, and the authors position their review around a novel computational angle using AlphaFold. However, the abstract alone provides insufficient detail to evaluate the rigor of the sequence analysis, the criteria for selecting the 1600 TFs, or the depth of the literature synthesis. The claims are plausible but not verifiable from the supplied material. The writing is clear and accessible, but the scientific case for the review's distinct contribution is not fully established without access to the full text.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, chromatin biology, intrinsically disordered proteins, and computational structural biology would find this review relevant. The integration of AlphaFold-based analysis with functional studies of IDRs could appeal to those interested in the molecular mechanisms of gene regulation and the role of disorder in protein function. The proposed future directions may also interest method developers working on integrative experimental and computational approaches.
+- **Major strengths** The topic is of high current interest and the focus on chemical features of IDRs provides a mechanistic angle. The use of AlphaFold to systematically analyze a large set of human TFs is a potentially valuable and novel approach for a review. The abstract clearly outlines the scope and structure of the review, making it easy for readers to anticipate the content.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "Sequence analysis of a set of over 1600 human TFs through AlphaFold was used to identify key features of their IDRs."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify how AlphaFold predictions were used to define or characterize IDRs, nor does it describe any validation against experimental data. AlphaFold is primarily designed for structured domains, and its reliability for disordered regions is limited. Without details on the analysis pipeline, thresholds, or comparison to established disorder predictors, the validity of this approach is unclear.
+  - **Why it matters** If the AlphaFold-based analysis is methodologically flawed or overinterpreted, the central novelty of the review could be undermined. Readers need to know whether the identified "key features" are robust and meaningful, or merely artifacts of the prediction method.
+  - **Resolution test** Provide in the full text a clear description of the AlphaFold analysis, including how IDRs were defined, any filtering criteria, and validation against experimental disorder data or established predictors. If such details are absent, the claim should be softened or removed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that "the dynamic multifunctionality of IDRs is the basis for a wide spectrum of TF functions necessary to navigate and regulate the human genome."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This is a broad and strong claim that is presented as established fact. While the importance of IDRs in TF function is increasingly recognized, the abstract does not provide specific evidence or examples to support the claim that IDRs are "the basis" for such a wide spectrum of functions. The phrasing implies a causal centrality that may overstate current knowledge.
+  - **Why it matters** Overstatement of established knowledge can mislead readers, especially nonspecialists, and may reduce the credibility of the review. The claim should be calibrated to reflect the current state of evidence, which likely supports a significant but not exclusive role for IDRs.
+  - **Resolution test** In the full text, provide specific examples and citations that substantiate the claim, or revise the language to indicate that IDRs contribute to, rather than are the basis for, TF multifunctionality.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The abstract states that "future directions are suggested for integrating experiments and simulations, from in vitro to living systems."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not indicate what specific experimental and simulation approaches are proposed, nor how they would be integrated. Without this information, the future directions section may be too vague to be actionable for readers from different disciplines.
+  - **Why it matters** A key value of a review is to guide future research. If the proposed directions are not concrete, the review may fail to provide a clear roadmap for the field.
+  - **Resolution test** In the full text, specify the types of experiments (e.g., single-molecule, live-cell imaging) and simulations (e.g., molecular dynamics, coarse-grained) that are recommended, and explain how their integration would address current gaps.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "final integrators of a complex molecular feedback mechanism that interfaces with the genome" is dense and may be difficult for nonspecialists to parse.
+  - **Required correction** Simplify the phrasing, for example, "Eukaryotic transcription factors integrate diverse molecular signals to regulate gene expression."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract claim on AlphaFold
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention any limitations of using AlphaFold for IDR analysis, which is a known caveat.
+  - **Required correction** Add a brief note in the abstract or full text acknowledging the limitations of AlphaFold for disordered regions and how they were addressed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract lists four processes (protein interactions, DNA binding, chromatin opening, phase separation) but does not indicate whether these are covered equally or if some are emphasized more.
+  - **Required correction** Clarify the relative emphasis or depth of coverage for each process in the full text, and reflect this in the abstract if space permits.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract's central claims regarding the AlphaFold analysis and the causal role of IDRs cannot be evaluated or substantiated from the supplied material. R1-M3 is non-blocking but should be addressed to enhance the review's utility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The use of AlphaFold for systematic IDR analysis in TFs is potentially original, but the abstract does not demonstrate how this differs from existing bioinformatics approaches. The originality is therefore not fully established.
+  - Scientific importance: The topic is important, but the abstract overstates the established role of IDRs. The importance of the review's specific contribution is unclear without details on the analysis and synthesis.
+  - Interdisciplinary readership: The abstract is accessible but the future directions are too vague to engage method developers or experimentalists across disciplines.
+  - Technical soundness: The AlphaFold-based analysis is not described in sufficient detail to assess its validity. This is a major gap.
+  - Readability for nonspecialists: The abstract is generally clear but contains some dense phrasing. The full text would need to be assessed for accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The review addresses a relevant topic and the abstract is promising, but the central methodological claim and the strength of the functional assertions cannot be verified from the abstract alone. I would be supportive if the full text provides adequate methodological detail and calibrates the claims appropriately.
+
+## Risk / unsupported claims
+- The claim that AlphaFold analysis of over 1600 TFs identified key IDR features is unsupported without methodological details.
+- The claim that IDR multifunctionality is "the basis" for a wide spectrum of TF functions is overstated relative to the evidence provided.
+- The assertion that the review "dissects" chemical features of IDRs is not verifiable from the abstract.
+- The future directions for integrating experiments and simulations are mentioned but not specified, making them unassessable.

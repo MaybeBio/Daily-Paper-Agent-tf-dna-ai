@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "41000786",
+    "doi": "10.1101/2025.09.19.677413",
+    "title": "Interpretable biophysical neural networks of transcriptional activation domains separate roles of protein abundance and coactivator binding."
+  },
+  "content": {
+    "abstract": "Deep neural networks have improved the accuracy of many difficult prediction tasks in biology, but it remains challenging to interpret these networks and learn molecular mechanisms. Here, we address the interpretability challenges associated with predicting transcriptional activation domains from protein sequence. Activation domains, regions within transcription factors that drive gene expression, were traditionally difficult to predict due to their sequence diversity and poor conservation. Multiple deep neural networks can now accurately predict activation domains, but these predictors are difficult to interpret. With the goal of interpretability, we designed simple neural networks that incorporated biophysical models of activation domains. The simplicity of these neural networks allowed us to visualize their parameters and directly interpret what the networks learned. The biophysical neural networks revealed two new ways that arrangement (i.e. the sequence grammar) of activation domain controlled function: 1) hydrophobic residues both increase activation domain strength and decrease protein abundance, and 2) acidic residues control both activation domain strength and protein abundance. Notably, the biophysical neural networks helped us to recognize the same signatures in complex interpreters of the deeper neural networks. We demonstrate how combining biophysical and deep neural networks maximizes both prediction accuracy and interpretability to yield insights into biological mechanisms.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "LeBlanc, Claire",
+        "Agarwal, Pooja",
+        "Demaray, Jack",
+        "Hu, Gean",
+        "Zintel, Marissa",
+        "Lam, Angelica",
+        "Castro Hernandez, Joel Enrique",
+        "Staller, Max"
+      ],
+      "short_names": [
+        "LeBlanc C",
+        "Agarwal P",
+        "Demaray J",
+        "Hu G",
+        "Zintel M",
+        "Lam A",
+        "Castro Hernandez JE",
+        "Staller M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, 94720.",
+        "Center for Computational Biology, University of California Berkeley, Berkeley, 94720.",
+        "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, 94720.",
+        "Center for Computational Biology, University of California Berkeley, Berkeley, 94720.",
+        "Department of Electrical Engineering & Computer Science, University of California Berkeley, Berkeley, 94720.",
+        "Center for Computational Biology, University of California Berkeley, Berkeley, 94720.",
+        "Center for Computational Biology, University of California Berkeley, Berkeley, 94720.",
+        "Department of Electrical Engineering & Computer Science, University of California Berkeley, Berkeley, 94720.",
+        "Department of Bioengineering, University of California Berkeley, Berkeley, 94720.",
+        "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, 94720.",
+        "Center for Computational Biology, University of California Berkeley, Berkeley, 94720.",
+        "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, 94720.",
+        "Center for Computational Biology, University of California Berkeley, Berkeley, 94720.",
+        "Center for Computational Biology, University of California Berkeley, Berkeley, 94720.",
+        "Department of Electrical Engineering & Computer Science, University of California Berkeley, Berkeley, 94720.",
+        "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, 94720.",
+        "Center for Computational Biology, University of California Berkeley, Berkeley, 94720.",
+        "Chan Zuckerberg Biohub-San Francisco, San Francisco, CA 94158."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "LeBlanc, Claire",
+        "short_name": "LeBlanc C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, 94720.",
+          "Center for Computational Biology, University of California Berkeley, Berkeley, 94720."
+        ]
+      },
+      {
+        "full_name": "Agarwal, Pooja",
+        "short_name": "Agarwal P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, 94720.",
+          "Center for Computational Biology, University of California Berkeley, Berkeley, 94720.",
+          "Department of Electrical Engineering & Computer Science, University of California Berkeley, Berkeley, 94720."
+        ]
+      },
+      {
+        "full_name": "Demaray, Jack",
+        "short_name": "Demaray J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology, University of California Berkeley, Berkeley, 94720."
+        ]
+      },
+      {
+        "full_name": "Hu, Gean",
+        "short_name": "Hu G",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology, University of California Berkeley, Berkeley, 94720.",
+          "Department of Electrical Engineering & Computer Science, University of California Berkeley, Berkeley, 94720.",
+          "Department of Bioengineering, University of California Berkeley, Berkeley, 94720."
+        ]
+      },
+      {
+        "full_name": "Zintel, Marissa",
+        "short_name": "Zintel M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, 94720.",
+          "Center for Computational Biology, University of California Berkeley, Berkeley, 94720."
+        ]
+      },
+      {
+        "full_name": "Lam, Angelica",
+        "short_name": "Lam A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, 94720.",
+          "Center for Computational Biology, University of California Berkeley, Berkeley, 94720."
+        ]
+      },
+      {
+        "full_name": "Castro Hernandez, Joel Enrique",
+        "short_name": "Castro Hernandez JE",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology, University of California Berkeley, Berkeley, 94720.",
+          "Department of Electrical Engineering & Computer Science, University of California Berkeley, Berkeley, 94720."
+        ]
+      },
+      {
+        "full_name": "Staller, Max",
+        "short_name": "Staller M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, 94720.",
+          "Center for Computational Biology, University of California Berkeley, Berkeley, 94720.",
+          "Chan Zuckerberg Biohub-San Francisco, San Francisco, CA 94158."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Sep 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/26 06:31",
+    "fetched_at": "2026-10-01 02:39:46"
+  },
+  "links": {
+    "cites": [
+      "41838698"
+    ],
+    "refs": [
+      "40403066",
+      "40335485",
+      "39617885",
+      "39322280",
+      "39122941",
+      "39020176",
+      "38866009",
+      "38194965",
+      "38056064",
+      "37957331",
+      "37816807",
+      "37645312",
+      "37595870",
+      "37462277",
+      "37020022",
+      "36648282",
+      "35428271",
+      "35365602",
+      "35190689",
+      "35120642",
+      "35016035",
+      "34552244",
+      "34522860",
+      "34504002",
+      "34282049",
+      "34265844",
+      "33375658",
+      "33326746",
+      "32746932",
+      "32527832",
+      "32449593",
+      "32416068",
+      "30504886",
+      "29961577",
+      "29785012",
+      "29759983",
+      "29525204",
+      "26851278",
+      "23901099",
+      "15886204",
+      "15826952",
+      "12612638",
+      "12101234",
+      "11514548",
+      "11331599",
+      "10984472",
+      "10706616"
+    ],
+    "similar": [
+      "41000786",
+      "42607673",
+      "42475469",
+      "37462277",
+      "33904398",
+      "38056064",
+      "23912807",
+      "28245811",
+      "35120642",
+      "38766093",
+      "41511382",
+      "9425125",
+      "32770026",
+      "39229005",
+      "33706810",
+      "26042329",
+      "37328639",
+      "32416068",
+      "33101768",
+      "38250147",
+      "7862116",
+      "38724920",
+      "39677729",
+      "41838698",
+      "39020176",
+      "31365149",
+      "39223474",
+      "32746932",
+      "40174317",
+      "39096613",
+      "32657407",
+      "37370113",
+      "42384944",
+      "33137083",
+      "33522898",
+      "35652477",
+      "33347301",
+      "40183298",
+      "38013993",
+      "30808287",
+      "41920894",
+      "29567837",
+      "39950082",
+      "28056090",
+      "11368795",
+      "40305601",
+      "10966808",
+      "33977113",
+      "36378952",
+      "33077600",
+      "42226266",
+      "41257586",
+      "34815338",
+      "1309591",
+      "37888887",
+      "39489606",
+      "15075264",
+      "15465056",
+      "32433972",
+      "18831774",
+      "31251207",
+      "41509447",
+      "23626696",
+      "41042660",
+      "19558651",
+      "41139314",
+      "34179082",
+      "40298394",
+      "34980200",
+      "40371733",
+      "35676395",
+      "37745555",
+      "12205094",
+      "31992613",
+      "35891778",
+      "39497201",
+      "23521778",
+      "40728612",
+      "7926727",
+      "41774282",
+      "31208331",
+      "39651302",
+      "33538038",
+      "42486839",
+      "39746897",
+      "37600972",
+      "34272562",
+      "9579655",
+      "29722865",
+      "40399818",
+      "10229671",
+      "39484977",
+      "8139046",
+      "30558539",
+      "35715739",
+      "7935437",
+      "33039573",
+      "37899962",
+      "29525204",
+      "15262804"
+    ],
+    "review": [
+      "41000786",
+      "38056064",
+      "26042329",
+      "35652477",
+      "36378952",
+      "42226266",
+      "34179082",
+      "33039573"
+    ],
+    "pmc": [
+      "12458263"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41000786/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.09.19.677413",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/7p28q393",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

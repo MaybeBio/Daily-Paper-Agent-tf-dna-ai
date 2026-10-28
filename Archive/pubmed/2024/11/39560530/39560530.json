@@ -1,0 +1,265 @@
+{
+  "identity": {
+    "pmid": "39560530",
+    "doi": "10.1097/MD.0000000000040426",
+    "title": "RNA-binding protein biomarkers NR4A2 and NR4A3 in renal ischemia-reperfusion injury diagnosis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The diagnosis of renal ischemia and reperfusion injury (RIRI) is crucial for renal transplant recipients. RNA-binding proteins (RBPs) may have an impact on disease development. Therefore, this study explored the biomarkers associated with RBPs in RIRI. METHODS: The RIRI related datasets, GSE37838 and GSE43974, and 3964 RBPs were employed in this research. The differential expression analysis was implemented for RIRI and control to gain differentially expressed genes in GSE37838. Then, differentially expressed genes were overlapped with RBPs to acquire intersection genes. Further, the machine learning, diagnostic analysis, and expression validation were executed to filtered biomarkers for RIRI. Additionally, pathway enrichment, molecular networks, and drug prediction were proceed. RESULTS: The area under the curve values of NR4A2 and NR4A3 were >0.7, as well as the expression trend was consistent in both datasets, and all of them were remarkably highly expressed in RIRI. Therefore, they were considered as biomarkers of RIRI. Enrichment analyses revealed that they were both associated with neuroactive ligand-receptor interactions, among others. Further, the lncRNA-miRNA-mRNA and transcription factors (TF)-mRNA network was constructed, revealing that they were all regulated by noncoding RNAs and TF, such as SNHG5-hsa-mir-10b-5p-NR4A3, CREB1, TFAP2A, etc. In addition, a large number of biomarker-related drugs were predicted, among which cadmium acetate, potassium chromate (VI), etc were associated with NR4A2 and NR4A3. CONCLUSION: In this study, we identified biomarkers associated with RBPs in RIRI, explored their associated pathways and drugs, which provided new insights into the clinical diagnosis and treatment of RIRI.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Reperfusion Injury/metabolism/genetics/diagnosis",
+      "Humans",
+      "*Biomarkers/metabolism",
+      "*Nuclear Receptor Subfamily 4, Group A, Member 2/genetics/metabolism",
+      "RNA-Binding Proteins/metabolism/genetics",
+      "Receptors, Thyroid Hormone/genetics/metabolism",
+      "Receptors, Steroid/metabolism/genetics",
+      "DNA-Binding Proteins/genetics/metabolism",
+      "Kidney/metabolism",
+      "Machine Learning",
+      "RNA, Messenger/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Junrui",
+        "Chen, Ximing",
+        "Zhang, Keqin"
+      ],
+      "short_names": [
+        "Chen J",
+        "Chen X",
+        "Zhang K"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-4854-4855"
+      ],
+      "affiliations": [
+        "Department of Urology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Urinary Nephropathy Center, The Second Affiliated Hospital of Chongqing Medical University, Chongqing, China.",
+        "Urinary Nephropathy Center, The Second Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Junrui",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Ximing",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Urinary Nephropathy Center, The Second Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Keqin",
+        "short_name": "Zhang K",
+        "identifiers": [
+          "0009-0008-4854-4855"
+        ],
+        "affiliations": [
+          "Urinary Nephropathy Center, The Second Affiliated Hospital of Chongqing Medical University, Chongqing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Medicine"
+    ],
+    "journal_abbrev": [
+      "Medicine (Baltimore)"
+    ],
+    "pub_date": "2024 Nov 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/19 15:15",
+    "fetched_at": "2026-09-30 06:30:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39182614",
+      "38182288",
+      "37700528",
+      "37391777",
+      "36764055",
+      "34732838",
+      "34248958",
+      "34023578",
+      "33634114",
+      "33547418",
+      "33386815",
+      "32371846",
+      "32167213",
+      "30606429",
+      "28930914",
+      "25917081",
+      "25365966",
+      "22641646",
+      "21868496",
+      "19420108"
+    ],
+    "similar": [
+      "39560530",
+      "34248958",
+      "38452983",
+      "38682454",
+      "39583859",
+      "36469101",
+      "31009621",
+      "38976216",
+      "38474099",
+      "24085434",
+      "22143616",
+      "38495888",
+      "21932041",
+      "33899983",
+      "34557203",
+      "25410408",
+      "38008232",
+      "32341238",
+      "25917081",
+      "34657447",
+      "39837430",
+      "24753204",
+      "34437889",
+      "31209222",
+      "27992436",
+      "40220406",
+      "38116863",
+      "40109453",
+      "34175686",
+      "39780569",
+      "24638142",
+      "32323598",
+      "30455429",
+      "38935212",
+      "33147449",
+      "35031454",
+      "39380520",
+      "24630969",
+      "31701670",
+      "28893954",
+      "34565470",
+      "39340991",
+      "39957043",
+      "24746215",
+      "31020999",
+      "32125766",
+      "37905340",
+      "18855877",
+      "27159982",
+      "30664630",
+      "37870436",
+      "25089663",
+      "35515015",
+      "34599937",
+      "36297382",
+      "35230891",
+      "32838965",
+      "38943627",
+      "19465082",
+      "37033969",
+      "37429230",
+      "19775727",
+      "37928383",
+      "32910350",
+      "39726312",
+      "31683815",
+      "36320442",
+      "30227111",
+      "35732102",
+      "29132129",
+      "25809189",
+      "36082081",
+      "37144215",
+      "39252576",
+      "28637666",
+      "40147738",
+      "34975295",
+      "39664575",
+      "38128509",
+      "39799887",
+      "38171247",
+      "39828007",
+      "40068024",
+      "39323973",
+      "36778059",
+      "21524335",
+      "35485553",
+      "33163142",
+      "34000276",
+      "35813414",
+      "38690269",
+      "40035402",
+      "39823388",
+      "34873305",
+      "38055404",
+      "32809265",
+      "36184541",
+      "30673658",
+      "35747513",
+      "20659174"
+    ],
+    "review": [
+      "39560530",
+      "25410408",
+      "34437889",
+      "38116863",
+      "38935212",
+      "25089663",
+      "31683815"
+    ],
+    "pmc": [
+      "11576014"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39560530.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39560530/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/10.1097/MD.0000000000040426",
+        "provider": "Wolters Kluwer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

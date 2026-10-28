@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "41094692",
+    "doi": "10.1049/syb2.70040",
+    "title": "Integrative Analysis of Mitochondrial-Related Genes Reveals Diagnostic Biomarkers and Therapeutic Targets in Acute Pancreatitis."
+  },
+  "content": {
+    "abstract": "Mitochondrial dysfunction is increasingly recognised as a critical contributor to acinar cell injury and systemic inflammation in acute pancreatitis (AP). However, comprehensive screening of mitochondrial-related genes (MRGs) and their mechanistic roles in AP progression remains limited. We integrated transcriptomic data with MRGs from the MitoCarta database. A total of 34 differentially expressed MRGs were identified, enabling classification of AP samples into three molecular subtypes with distinct immune cell infiltration patterns and clinical severity. Three hub genes were consistently identified by three machine learning algorithms: LASSO, SVM-RFE, and RF. qRT-PCR validation in cellular models confirmed consistent expression trends. Multi-level functional annotation was conducted through GSVA, CIBERSORT, transcription factor prediction, subcellular localisation and single-cell analyses. Talniflumate and ABT-737 were predicted as potential therapeutic agents using the CMap and validated through molecular docking and 100-ns molecular dynamics simulations. This study establishes a mitochondria-related diagnostic model for AP and identifies candidate therapeutic agents, offering novel insights into the molecular pathogenesis and targeted intervention of AP.",
+    "keywords": [
+      "big data",
+      "bioinformatics",
+      "biology",
+      "data analysis",
+      "data mining",
+      "diseases",
+      "drugs",
+      "genomics"
+    ],
+    "mesh_terms": [
+      "*Pancreatitis/diagnosis/genetics/drug therapy/metabolism",
+      "Humans",
+      "Biomarkers/metabolism",
+      "*Mitochondria/genetics/metabolism",
+      "Computational Biology/methods",
+      "Acute Disease",
+      "Gene Expression Profiling",
+      "*Genes, Mitochondrial/genetics",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Yun",
+        "Wan, Xing",
+        "Zhang, Xuetao",
+        "Liu, Jifeng",
+        "Lu, Xinyu",
+        "Wen, Qingping"
+      ],
+      "short_names": [
+        "Lin Y",
+        "Wan X",
+        "Zhang X",
+        "Liu J",
+        "Lu X",
+        "Wen Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9843-1201"
+      ],
+      "affiliations": [
+        "Department of Anesthesiology, The First Affiliated Hospital of Dalian Medical University, Dalian, China.",
+        "Clinical Laboratory of Integrative Medicine, The First Affiliated Hospital of Dalian Medical University, Dalian, China.",
+        "Clinical Laboratory of Integrative Medicine, The First Affiliated Hospital of Dalian Medical University, Dalian, China.",
+        "Clinical Laboratory of Integrative Medicine, The First Affiliated Hospital of Dalian Medical University, Dalian, China.",
+        "Department of Anesthesiology, The First Affiliated Hospital of Dalian Medical University, Dalian, China.",
+        "Department of Anesthesiology, The First Affiliated Hospital of Dalian Medical University, Dalian, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Yun",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Wan, Xing",
+        "short_name": "Wan X",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Laboratory of Integrative Medicine, The First Affiliated Hospital of Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xuetao",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Clinical Laboratory of Integrative Medicine, The First Affiliated Hospital of Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jifeng",
+        "short_name": "Liu J",
+        "identifiers": [
+          "0000-0001-9843-1201"
+        ],
+        "affiliations": [
+          "Clinical Laboratory of Integrative Medicine, The First Affiliated Hospital of Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Xinyu",
+        "short_name": "Lu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Dalian Medical University, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Qingping",
+        "short_name": "Wen Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, The First Affiliated Hospital of Dalian Medical University, Dalian, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IET systems biology"
+    ],
+    "journal_abbrev": [
+      "IET Syst Biol"
+    ],
+    "pub_date": "2025 Jan-Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/16 06:30",
+    "fetched_at": "2026-10-01 04:06:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40659665",
+      "40638021",
+      "40624607",
+      "40624018",
+      "40563501",
+      "40457220",
+      "40442199",
+      "40364724",
+      "40354443",
+      "40274954",
+      "39804691",
+      "39776917",
+      "39716644",
+      "39649547",
+      "39634181",
+      "39596901",
+      "39511469",
+      "39227768",
+      "39093073",
+      "39062464",
+      "38749504",
+      "38212158",
+      "37996891",
+      "37745718",
+      "37179826",
+      "37131452",
+      "36991225",
+      "36873178",
+      "36852432",
+      "36769358",
+      "36604173",
+      "36480284",
+      "36420884",
+      "36074322",
+      "35609983",
+      "34479914",
+      "34265844",
+      "33553362",
+      "33397950",
+      "33231677",
+      "33146890",
+      "32891480",
+      "32858223",
+      "31366990",
+      "30768987",
+      "28842646",
+      "28069634",
+      "27799543",
+      "23609523",
+      "23533299",
+      "23323831",
+      "21524653",
+      "21439959",
+      "20360986",
+      "20307556",
+      "19641525",
+      "18381439",
+      "17460700",
+      "12962514",
+      "11950976"
+    ],
+    "similar": [
+      "41094692",
+      "42098401",
+      "41013727",
+      "39634181",
+      "40966021",
+      "41422136",
+      "41665627",
+      "41479901",
+      "41415282",
+      "41044520",
+      "39920860",
+      "41570698",
+      "41080564",
+      "40503237",
+      "39139563",
+      "41305746",
+      "38649912",
+      "39265357",
+      "41388523",
+      "39263286",
+      "40948769",
+      "38044432",
+      "38291374",
+      "38774875",
+      "41626625",
+      "42267557",
+      "38520499",
+      "42247642",
+      "39730379",
+      "40787634",
+      "40165133",
+      "40453984",
+      "40374840",
+      "40274954",
+      "39026250",
+      "40406126",
+      "41678948",
+      "39026663",
+      "39507054",
+      "40207230",
+      "38767974",
+      "40703651",
+      "40634559",
+      "42123445",
+      "41334450",
+      "41316541",
+      "39609718",
+      "41291841",
+      "40328901",
+      "41052072",
+      "41243389",
+      "39142001",
+      "41142802",
+      "41146237",
+      "39697326",
+      "42024670",
+      "42128965",
+      "40598145",
+      "41996313",
+      "42123756",
+      "40313958",
+      "38641608",
+      "40362543",
+      "42278407",
+      "39789578",
+      "41605052",
+      "41214111",
+      "40129981",
+      "41611834",
+      "41340461",
+      "39762477",
+      "38878325",
+      "39026683",
+      "41424725",
+      "41588925",
+      "40374866",
+      "41909133",
+      "40244055",
+      "42056344",
+      "41234537",
+      "41832938",
+      "40496861",
+      "40754871",
+      "40785039",
+      "41200172",
+      "40860289",
+      "41716396",
+      "39823156",
+      "39509434",
+      "38863714",
+      "41751274",
+      "41789070",
+      "39650552",
+      "40913866",
+      "40715829",
+      "41107920",
+      "39380996",
+      "41810912",
+      "39375405",
+      "40619072"
+    ],
+    "review": [
+      "41094692",
+      "41665627"
+    ],
+    "pmc": [
+      "12527819"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/pancreatitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatitis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41094692/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1049/syb2.70040",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

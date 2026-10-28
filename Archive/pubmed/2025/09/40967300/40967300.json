@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "40967300",
+    "doi": "10.1016/j.jid.2025.08.044",
+    "title": "A Metabolism-Driven Prognostic Model and PSMD14-SP1-GYS1 Axis Reveal Therapeutic Vulnerabilities in Melanoma."
+  },
+  "content": {
+    "abstract": "Melanoma is a highly aggressive cutaneous malignancy characterized by a strong propensity for metastasis and therapy resistance, with its progression being closely linked to metabolic reprogramming. This study integrated multiomics data (The Cancer Genome Atlas, Gene Expression Omnibus, European Nucleotide Archive) and advanced machine learning to develop prognostic and immunotherapy prediction models for melanoma, focusing on 114 metabolism-related pathways. Cox regression identified 70 genes linked to survival, with functional enrichment revealing key metabolic pathway alterations. A metabolism-related prognostic model (MRPM) was constructed using 101 combinations of machine learning algorithms, demonstrating superior predictive accuracy across 4 cohorts. High-risk patients showed worse survival and immunotherapy response in melanoma and other cancers. Tumor microenvironment analysis revealed MRPM's negative correlation with immune infiltration and positive association with tumor purity. Single-cell sequencing highlighted MRPM gene enrichment in melanocytes. Mechanistically, GYS1 (the key gene in MRPM) emerged as a pivotal prognostic gene that promotes melanoma proliferation and metastasis. Regulatory studies uncovered SP1's transcriptional control of GYS1- and PSMD14-mediated stabilization of SP1 through K48-linked ubiquitination removal. In vivo validation confirmed that PSMD14 knockdown suppressed tumor growth through SP1-GYS1 axis disruption. This work establishes MRPM as a robust predictive tool and elucidates the PSMD14-SP1-GYS1 regulatory network as a potential therapeutic target in melanoma metabolism.",
+    "keywords": [
+      "Deubiquitination",
+      "GYS1",
+      "Melanoma",
+      "Metabolism",
+      "Multiomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Melanoma/genetics/mortality/metabolism/pathology/therapy",
+      "Prognosis",
+      "*Skin Neoplasms/genetics/mortality/pathology/metabolism/therapy",
+      "Tumor Microenvironment/immunology/genetics",
+      "Gene Expression Regulation, Neoplastic",
+      "Mice",
+      "Animals",
+      "Machine Learning",
+      "Cell Line, Tumor",
+      "Immunotherapy/methods",
+      "Sp1 Transcription Factor"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Jiaheng",
+        "Zhao, Songyun",
+        "Wu, Dan",
+        "Ma, Chenfeng",
+        "Yan, Wei",
+        "Zhang, Pengpeng",
+        "Lu, Qingyu",
+        "Wan, Zeyu",
+        "Tang, Qikai",
+        "Li, Liqun",
+        "Wang, Ming",
+        "He, Yucang"
+      ],
+      "short_names": [
+        "Xie J",
+        "Zhao S",
+        "Wu D",
+        "Ma C",
+        "Yan W",
+        "Zhang P",
+        "Lu Q",
+        "Wan Z",
+        "Tang Q",
+        "Li L",
+        "Wang M",
+        "He Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Plastic Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China; Department of Plastic Surgery, Xiangya Hospital, Central South University, Changsha, China; Department of Plastic and Aesthetic Surgery, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, China.",
+        "Department of Plastic Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China.",
+        "Department of Dermatology, Huashan Hospital, Fudan University, Shanghai, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, China.",
+        "Department of Burn and Plastic Surgery, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China.",
+        "Department of Lung Cancer Surgery, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, China.",
+        "Department of Neurosurgery, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, China.",
+        "Department of Plastic Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China.",
+        "Department of Plastic and Aesthetic Surgery, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, China. Electronic address: wangming@jsph.org.cn.",
+        "Department of Plastic Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China. Electronic address: heyucang0@wmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Jiaheng",
+        "short_name": "Xie J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China; Department of Plastic Surgery, Xiangya Hospital, Central South University, Changsha, China; Department of Plastic and Aesthetic Surgery, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Songyun",
+        "short_name": "Zhao S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Dan",
+        "short_name": "Wu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Dermatology, Huashan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Chenfeng",
+        "short_name": "Ma C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Wei",
+        "short_name": "Yan W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Burn and Plastic Surgery, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Pengpeng",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Lung Cancer Surgery, Tianjin Medical University Cancer Institute and Hospital, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Qingyu",
+        "short_name": "Lu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Wan, Zeyu",
+        "short_name": "Wan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Qikai",
+        "short_name": "Tang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Liqun",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ming",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic and Aesthetic Surgery, The First Affiliated Hospital of Nanjing Medical University, Jiangsu Province Hospital, Nanjing, China. Electronic address: wangming@jsph.org.cn."
+        ]
+      },
+      {
+        "full_name": "He, Yucang",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China. Electronic address: heyucang0@wmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of investigative dermatology"
+    ],
+    "journal_abbrev": [
+      "J Invest Dermatol"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/19 00:36",
+    "fetched_at": "2026-10-01 02:09:45"
+  },
+  "links": {
+    "cites": [
+      "41699700",
+      "41543608",
+      "41422445",
+      "41006685"
+    ],
+    "refs": [],
+    "similar": [
+      "40967300",
+      "41613147",
+      "41006685",
+      "40200221",
+      "40607411",
+      "40460484",
+      "41656832",
+      "41208987",
+      "39355255",
+      "39799269",
+      "40205338",
+      "40909289",
+      "40211502",
+      "39835132",
+      "41330957",
+      "39687627",
+      "34291650",
+      "41558945",
+      "40903770",
+      "38881438",
+      "40695191",
+      "40763838",
+      "38077400",
+      "37539569",
+      "41166122",
+      "40721013",
+      "41425556",
+      "40574832",
+      "41383633",
+      "41058684",
+      "40012115",
+      "38615305",
+      "40438115",
+      "41162565",
+      "41425595",
+      "40821828",
+      "41573564",
+      "38795156",
+      "41286029",
+      "39051739",
+      "40191195",
+      "40918457",
+      "41409301",
+      "38787413",
+      "41034991",
+      "36138406",
+      "34613934",
+      "40547036",
+      "41798945",
+      "33179141",
+      "38847706",
+      "38898266",
+      "40444735",
+      "40330470",
+      "41055424",
+      "32902917",
+      "33154524",
+      "40023140",
+      "39635521",
+      "41740484",
+      "41567202",
+      "37031510",
+      "38766879",
+      "26329521",
+      "40604111",
+      "33748290",
+      "40547013",
+      "34753832",
+      "38755712",
+      "41233804",
+      "37955686",
+      "40350499",
+      "40362553",
+      "40205154",
+      "39614426",
+      "36466837",
+      "41348242",
+      "39833734",
+      "39083978",
+      "39213172",
+      "40496857",
+      "34384498",
+      "41716413",
+      "41519664",
+      "40761790",
+      "38857552",
+      "40643718",
+      "40462127",
+      "41286470",
+      "34743576",
+      "41383634",
+      "39222676",
+      "41564924",
+      "31874858",
+      "40406129",
+      "37884883",
+      "40108329",
+      "41246332",
+      "39052109",
+      "41502516"
+    ],
+    "review": [
+      "40967300"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-202X(25)02430-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/skincancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Skin Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

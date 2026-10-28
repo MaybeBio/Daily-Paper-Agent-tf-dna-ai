@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report integration of population-scale single-cell genomics data across schizophrenia, bipolar disorder, and autism, construction of cell-type-level gene regulatory networks, identification of druggable transcription factors and co-regulated modules, application of graph neural networks for risk gene prioritization, network-based drug repurposing yielding 220 candidate molecules, evidence for 37 drugs reversing disorder-associated transcriptional phenotypes, and discovery of 335 drug-associated cell-type eQTLs.
+- **Visible evidence base** Abstract text only; no methodological details, quantitative results, validation metrics, or data availability statements provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary methods, statistical details, validation procedures, data accession identifiers, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable integrative framework combining single-cell genomics, gene regulatory networks, and network-based drug repurposing for psychiatric disorders. The scope is ambitious and the resource orientation is commendable. However, the abstract alone provides insufficient detail to evaluate the technical rigor, statistical validity, or biological significance of the reported findings. Several claims are stated without quantitative support or methodological transparency, and the absence of validation details limits confidence in the core conclusions.
+- **Who would be interested in the results, and why** Researchers in psychiatric genomics, network medicine, drug repurposing, and single-cell biology would find this work relevant. Clinicians and pharmaceutical scientists interested in novel therapeutic targets for schizophrenia, bipolar disorder, and autism may also be interested, particularly if the drug candidates and cell-type-specific mechanisms are validated in follow-up studies.
+- **Major strengths** The integration of single-cell genomics with network-based drug repurposing is timely and addresses a clear unmet need in psychiatric therapeutics. The focus on cell-type specificity is a notable advance over bulk-tissue approaches. The identification of druggable transcription factors and the use of graph neural networks for risk gene prioritization represent a modern, methodologically ambitious pipeline. The reported scale of the analysis, including 23 cell classes/subclasses and 220 drug molecules, suggests a substantial computational effort.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that graph neural networks were applied to prioritize novel risk genes and that these were leveraged in a network-based drug repurposing framework to identify 220 drug molecules.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No methodological details are provided regarding the graph neural network architecture, training data, feature representation, or evaluation metrics. It is unclear how "novel risk genes" were defined, how performance was assessed, and whether any independent validation was performed.  
+  - **Why it matters** Without these details, the reliability of the prioritized genes and downstream drug predictions cannot be assessed. Graph neural networks are highly sensitive to graph construction and training protocols, and unvalidated predictions could propagate errors throughout the repurposing pipeline.  
+  - **Resolution test** Provide a detailed methods section describing the graph neural network design, training and test splits, baseline comparisons, and independent validation of prioritized genes using external datasets or experimental evidence.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Statistical rigor  
+  - **Claim pointer** The authors claim evidence for 37 drugs in reversing disorder-associated transcriptional phenotypes.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The nature of this evidence is unspecified. It is unclear whether this refers to in silico predictions, in vitro experiments, in vivo models, or clinical data. No statistical thresholds, effect sizes, or significance criteria are reported.  
+  - **Why it matters** The claim of "reversing disorder-associated transcriptional phenotypes" is a strong biological assertion. Without clarity on the evidence type and statistical support, this claim cannot be evaluated and may be misinterpreted as experimental validation when it could be purely computational.  
+  - **Resolution test** Specify the evidence type for each of the 37 drugs, report statistical metrics and thresholds used, and clarify whether any experimental validation was performed.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The authors report discovery of 335 drug-associated cell-type eQTLs.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No information is provided on the eQTL mapping methodology, multiple testing correction, sample sizes, or whether these eQTLs were replicated in independent cohorts.  
+  - **Why it matters** eQTL discovery is highly dependent on statistical power and correction for multiple comparisons. Without replication or methodological transparency, the robustness of these 335 eQTLs is uncertain.  
+  - **Resolution test** Provide details on eQTL mapping pipeline, significance thresholds, replication analyses, and data availability for independent verification.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Biological validation  
+  - **Claim pointer** The authors claim that the analysis revealed potential druggable transcription factors co-regulating known risk genes.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The term "druggable" implies a specific assessment of drug-target interaction potential, but no criteria for druggability are provided. It is also unclear how the co-regulation of risk genes was established and whether these transcription factors have any functional validation.  
+  - **Why it matters** The translational relevance of the entire framework depends on the validity of the druggable transcription factor predictions. Without defined criteria and functional evidence, these claims remain speculative.  
+  - **Resolution test** Define druggability criteria, provide evidence for co-regulation (e.g., chromatin interaction, expression correlation, perturbation data), and include functional validation or reference to existing experimental support.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "23 cell classes/subclasses" is ambiguous regarding the distribution across the three disorders.  
+  - **Required correction** Specify how many cell types were analyzed per disorder and whether the same cell types were available across all conditions.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Resource description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract describes a "single-cell network medicine resource" but does not state how the resource will be accessed or shared.  
+  - **Required correction** Include a statement on data and code availability, including accession numbers or repository links.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretability  
+  - **Affected element** Drug list  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The 220 drug molecules are mentioned without any indication of their novelty, known mechanisms, or whether any are already approved for other indications.  
+  - **Required correction** Provide a brief characterization of the drug list, including known targets, approval status, and any overlap with existing psychiatric medications.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract lacks sufficient methodological detail and validation evidence to establish the technical soundness and biological validity of the core claims.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The integration of single-cell genomics with network-based drug repurposing for psychiatric disorders is a novel combination, though individual components are established. The originality is promising but cannot be fully assessed from the abstract alone.  
+  - **Scientific importance** The potential to identify cell-type-specific drug targets for disorders with high unmet need is scientifically important. However, the significance depends on the validity and generalizability of the findings, which are not yet demonstrated.  
+  - **Interdisciplinary readership** The work bridges genomics, computational biology, and pharmacology, which could attract a broad readership. The abstract is written in a way that is accessible to nonspecialists, though technical terms such as "graph neural networks" and "eQTLs" are used without explanation.  
+  - **Technical soundness** Not assessable from the abstract. Critical methodological details and validation metrics are absent.  
+  - **Readability for nonspecialists** The abstract is generally readable, but the density of claims without supporting context may confuse readers unfamiliar with the specific computational methods.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an ambitious and potentially valuable framework, but the absence of methodological detail, statistical support, and validation evidence prevents assessment of the core claims. A full manuscript review would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim of 37 drugs reversing disorder-associated transcriptional phenotypes is unsupported without specification of evidence type and statistical criteria.
+- The claim of 220 drug molecules with cell-type-specific targeting potential is unverifiable without details on the repurposing methodology and drug-target interaction criteria.
+- The claim of 335 drug-associated cell-type eQTLs is unsupported without eQTL mapping details and replication.
+- The druggability of identified transcription factors is asserted without defined criteria or functional evidence.
+- The overall resource claim ("single-cell network medicine resource") is not assessable without data availability and access information.

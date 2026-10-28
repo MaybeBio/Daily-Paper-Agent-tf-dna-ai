@@ -1,0 +1,458 @@
+{
+  "identity": {
+    "pmid": "35120642",
+    "doi": "10.1016/j.cels.2022.01.002",
+    "title": "Directed mutational scanning reveals a balance between acidic and hydrophobic residues in strong human activation domains."
+  },
+  "content": {
+    "abstract": "Acidic activation domains are intrinsically disordered regions of the transcription factors that bind coactivators. The intrinsic disorder and low evolutionary conservation of activation domains have made it difficult to identify the sequence features that control activity. To address this problem, we designed thousands of variants in seven acidic activation domains and measured their activities with a high-throughput assay in human cell culture. We found that strong activation domain activity requires a balance between the number of acidic residues and aromatic and leucine residues. These findings motivated a predictor of acidic activation domains that scans the human proteome for clusters of aromatic and leucine residues embedded in regions of high acidity. This predictor identifies known activation domains and accurately predicts previously unidentified ones. Our results support a flexible acidic exposure model of activation domains in which the acidic residues solubilize hydrophobic motifs so that they can interact with coactivators. A record of this paper's transparent peer review process is included in the supplemental information.",
+    "keywords": [
+      "activation domain",
+      "all-atom simulations",
+      "deep mutational scanning",
+      "genomic method development",
+      "high-throughput mutagenesis",
+      "intrinsically disordered protein",
+      "intrinsically disordered region",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "*DNA-Binding Proteins/genetics",
+      "Humans",
+      "Leucine/metabolism",
+      "*Transcription Factors/metabolism",
+      "Transcriptional Activation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Staller, Max V",
+        "Ramirez, Eddie",
+        "Kotha, Sanjana R",
+        "Holehouse, Alex S",
+        "Pappu, Rohit V",
+        "Cohen, Barak A"
+      ],
+      "short_names": [
+        "Staller MV",
+        "Ramirez E",
+        "Kotha SR",
+        "Holehouse AS",
+        "Pappu RV",
+        "Cohen BA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Edison Family Center for Genome Sciences and Systems Biology, Washington University School of Medicine in St. Louis, Saint Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, Saint Louis, MO 63110, USA; Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA. Electronic address: mstaller@berkeley.edu.",
+        "Edison Family Center for Genome Sciences and Systems Biology, Washington University School of Medicine in St. Louis, Saint Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, Saint Louis, MO 63110, USA.",
+        "Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine in St. Louis, Saint Louis, MO 63110, USA; Center for Science and Engineering of Living Systems, Washington University in St. Louis, St. Louis, MO 63130, USA.",
+        "Center for Science and Engineering of Living Systems, Washington University in St. Louis, St. Louis, MO 63130, USA; Department of Biomedical Engineering, Washington University in St. Louis, St. Louis, MO 63130, USA.",
+        "Edison Family Center for Genome Sciences and Systems Biology, Washington University School of Medicine in St. Louis, Saint Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, Saint Louis, MO 63110, USA. Electronic address: cohen@wustl.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Staller, Max V",
+        "short_name": "Staller MV",
+        "identifiers": [],
+        "affiliations": [
+          "Edison Family Center for Genome Sciences and Systems Biology, Washington University School of Medicine in St. Louis, Saint Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, Saint Louis, MO 63110, USA; Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA. Electronic address: mstaller@berkeley.edu."
+        ]
+      },
+      {
+        "full_name": "Ramirez, Eddie",
+        "short_name": "Ramirez E",
+        "identifiers": [],
+        "affiliations": [
+          "Edison Family Center for Genome Sciences and Systems Biology, Washington University School of Medicine in St. Louis, Saint Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, Saint Louis, MO 63110, USA."
+        ]
+      },
+      {
+        "full_name": "Kotha, Sanjana R",
+        "short_name": "Kotha SR",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology, University of California Berkeley, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Holehouse, Alex S",
+        "short_name": "Holehouse AS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine in St. Louis, Saint Louis, MO 63110, USA; Center for Science and Engineering of Living Systems, Washington University in St. Louis, St. Louis, MO 63130, USA."
+        ]
+      },
+      {
+        "full_name": "Pappu, Rohit V",
+        "short_name": "Pappu RV",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Science and Engineering of Living Systems, Washington University in St. Louis, St. Louis, MO 63130, USA; Department of Biomedical Engineering, Washington University in St. Louis, St. Louis, MO 63130, USA."
+        ]
+      },
+      {
+        "full_name": "Cohen, Barak A",
+        "short_name": "Cohen BA",
+        "identifiers": [],
+        "affiliations": [
+          "Edison Family Center for Genome Sciences and Systems Biology, Washington University School of Medicine in St. Louis, Saint Louis, MO 63110, USA; Department of Genetics, Washington University School of Medicine in St. Louis, Saint Louis, MO 63110, USA. Electronic address: cohen@wustl.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell systems"
+    ],
+    "journal_abbrev": [
+      "Cell Syst"
+    ],
+    "pub_date": "2022 Apr 20",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/06 06:00",
+    "fetched_at": "2026-09-28 04:46:35"
+  },
+  "links": {
+    "cites": [
+      "42519045",
+      "42332380",
+      "42260147",
+      "42079049",
+      "41839911",
+      "41838698",
+      "41755638",
+      "41690588",
+      "41688823",
+      "41648556",
+      "41511382",
+      "41477818",
+      "41372172",
+      "41278656",
+      "41266370",
+      "41232529",
+      "41015114",
+      "41000786",
+      "40951301",
+      "40909693",
+      "40885394",
+      "40766474",
+      "40739602",
+      "40666912",
+      "40650026",
+      "40614721",
+      "40420113",
+      "40403066",
+      "40371733",
+      "40286793",
+      "40065155",
+      "39984675",
+      "39933695",
+      "39914051",
+      "39888268",
+      "39826710",
+      "39755236",
+      "39677729",
+      "39657052",
+      "39605529",
+      "39524347",
+      "39484498",
+      "39363017",
+      "39322280",
+      "39253472",
+      "39229005",
+      "39217198",
+      "39187372",
+      "39020176",
+      "39012591",
+      "38915503",
+      "38895487",
+      "38778337",
+      "38585983",
+      "38489358",
+      "38414750",
+      "38336297",
+      "38301272",
+      "38238333",
+      "38109289",
+      "38073129",
+      "38056064",
+      "37963462",
+      "37957331",
+      "37908230",
+      "37788668",
+      "37657994",
+      "37543039",
+      "37462277",
+      "37211711",
+      "37020022",
+      "37000871",
+      "36997531",
+      "36938874",
+      "36881934",
+      "36658165",
+      "36545802",
+      "36215496",
+      "35939561",
+      "35562982"
+    ],
+    "refs": [
+      "33904398",
+      "33850123",
+      "33326746",
+      "32527832",
+      "32416068",
+      "31821414",
+      "31209395",
+      "31209393",
+      "30528434",
+      "30451991",
+      "30420502",
+      "30413699",
+      "30357350",
+      "30290144",
+      "30224644",
+      "29925596",
+      "29759983",
+      "29638215",
+      "29525204",
+      "29507182",
+      "28751422",
+      "28728983",
+      "28334776",
+      "28273070",
+      "28076807",
+      "27864306",
+      "27807972",
+      "27749844",
+      "26851278",
+      "26673716",
+      "26327565",
+      "26280891",
+      "25122681",
+      "23275543",
+      "22609971",
+      "22457068",
+      "22195967",
+      "21903629",
+      "21565614",
+      "20628347",
+      "20439748",
+      "20421988",
+      "19214187",
+      "18508761",
+      "18506808",
+      "15826952",
+      "15654739",
+      "12778114",
+      "11514548",
+      "10821850",
+      "9649402",
+      "8836100",
+      "8816468",
+      "8744570",
+      "8617752",
+      "8617751",
+      "8381535",
+      "8330738",
+      "7926727",
+      "7559631",
+      "7108955",
+      "6667333",
+      "2119171",
+      "1846049"
+    ],
+    "similar": [
+      "35120642",
+      "29525204",
+      "37462277",
+      "32416068",
+      "8972191",
+      "11368795",
+      "7862116",
+      "8816484",
+      "7935437",
+      "9425125",
+      "29759983",
+      "8006035",
+      "11581402",
+      "8524320",
+      "7926727",
+      "9401021",
+      "7479029",
+      "8816468",
+      "8139046",
+      "7891686",
+      "12133832",
+      "8618864",
+      "8395001",
+      "7797496",
+      "38585983",
+      "7945996",
+      "8896459",
+      "12050170",
+      "11896590",
+      "33904398",
+      "8083955",
+      "9358152",
+      "10586057",
+      "31642121",
+      "9792714",
+      "10082554",
+      "25122681",
+      "9155025",
+      "37543039",
+      "8389909",
+      "8262043",
+      "1323708",
+      "7811964",
+      "10748177",
+      "12215545",
+      "8278363",
+      "8388484",
+      "1515415",
+      "7623825",
+      "8441404",
+      "2113670",
+      "29078291",
+      "1641337",
+      "8381535",
+      "7568128",
+      "10966808",
+      "12217688",
+      "15328344",
+      "9822683",
+      "27307636",
+      "29507182",
+      "9742099",
+      "10662862",
+      "7739897",
+      "2562188",
+      "38056064",
+      "32825095",
+      "8662193",
+      "1582413",
+      "37020022",
+      "35012986",
+      "8413279",
+      "1309591",
+      "27881680",
+      "22505609",
+      "10899156",
+      "26790343",
+      "33850123",
+      "8649370",
+      "10733580",
+      "9016625",
+      "26344835",
+      "7935466",
+      "8628664",
+      "9372910",
+      "10092462",
+      "1464321",
+      "9078369",
+      "11713274",
+      "9242640",
+      "9722631",
+      "37971402",
+      "7929265",
+      "8903344",
+      "9271371",
+      "29666277",
+      "15075264",
+      "33326746",
+      "11782474",
+      "10229671",
+      "39386603"
+    ],
+    "review": [
+      "35120642",
+      "38056064"
+    ],
+    "pmc": [
+      "9241528"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biocyc.org/gene?orgid=HUMAN&id=G66-31385",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "SREBF2"
+      },
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-4712(22)00002-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/35120642/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35120642/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35120642",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/35120642",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt4z34g64d",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35120642",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=gse190288",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

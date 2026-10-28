@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusion, methodology) as provided
+- **Assessment boundary** Scientific content, methodological soundness, claim-evidence alignment, and reporting quality; no editorial or formatting decisions
+- **Shared manuscript claim summary** The authors propose that equilibrium all-atom MD simulations reveal early disruption of hydrogen-bonded interactions involving M1 residues (Phe-35, Gly-40) and the β4-β5 bridge as initiating events in TDP-43 NTD unfolding, potentially explaining M1 exposure for mitochondrial import. They further identify via virtual screening and MD simulations that ZINC73240059, a putative MAPKAPK2 inhibitor, binds stably and preferentially to M1 across multiple TDP-43 structures and unfolding intermediates, suggesting it as a candidate inhibitor of aberrant mitochondrial localization.
+- **Visible evidence base** Abstract; Introduction; Results and Discussion sections (unfolding simulations, virtual screening, MD binding studies); Conclusion; Methodology (system preparation, simulation protocol, analysis, full-length modeling, virtual screening, blind docking); author contributions; acknowledgements
+- **Missing materials affecting confidence** Figures and supplementary figures/tables referenced but not provided; simulation parameter details (force field validation, equilibration protocols, convergence criteria) only partially described; no experimental validation data; no statistical analysis of docking scores or binding free energies; no information on replica simulations or error estimates; no details on clustering methodology for intermediate conformations
+
+## Reviewer
+
+- **Overall assessment** The manuscript addresses a relevant and timely question regarding the mechanism of TDP-43 mitochondrial mislocalization, a process implicated in ALS pathology. The computational approach combining equilibrium unfolding simulations with virtual screening and binding free energy calculations is reasonable in principle. However, the evidence presented has several critical gaps. The claim that M1 becomes solvent-accessible via specific early unfolding events is based on limited simulation conditions without clear convergence or reproducibility evidence. The identification of ZINC73240059 as a potential M1 binder relies on docking scores and MMPBSA estimates that lack experimental validation and show modest energetic differences. The manuscript would benefit from more rigorous sampling, additional control simulations, and clearer presentation of quantitative results. The conclusions are plausible but not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular dynamics simulation methodology; investigators studying TDP-43 biology and ALS pathogenesis; drug discovery scientists interested in structure-based virtual screening and drug repurposing for neurodegenerative diseases; those studying mitochondrial protein import mechanisms.
+- **Major strengths** The study addresses an important mechanistic question about how a buried mitochondrial localization sequence becomes accessible for import. The use of multiple available NTD structures (NMR and X-ray) is commendable. The virtual screening approach across FDA-approved and non-FDA-approved libraries is thorough in scope. The consideration of unfolding intermediates for binder evaluation is a thoughtful design element. The identification of a previously characterized MAPKAPK2 inhibitor as a potential M1 binder offers a testable hypothesis for future experimental work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "we examined the unfolding TDP-43's N-terminal domain (NTD) that hosts M1, using equilibrium all-atom molecular dynamics (MD) simulations, and observed an early loss of the hydrogen-bonded interactions between β4-β5 bridge and the interactions involving residues Phe-35 and Gly-40 of M1, indicating structural lability of M1 to become solvent-accessible"
+  - **Evidence pointer** Results section "Unfolding of TDP-43 N-terminal domain..."; Figures 2, 3; Supplementary Figures SF2-SF5
+  - **Concern** The unfolding simulations were performed at elevated temperatures (350 K, 450 K) and in the presence of 4 M urea to accelerate sampling. However, the manuscript does not provide evidence that these conditions produce physiologically relevant unfolding pathways. The claim that specific interactions (β4-β5 bridge, Phe-35, Gly-40) are "early" events in unfolding requires demonstration that these perturbations occur before global unfolding, which is not clearly established from the described analysis. The use of a single simulation per condition (as implied by the methodology) raises concerns about reproducibility and whether observed events are representative or stochastic. No convergence criteria, replica simulations, or error estimates are reported.
+  - **Why it matters** The mechanistic claim about the order of unfolding events is central to the paper's hypothesis that M1 becomes exposed through a specific pathway. Without evidence for reproducibility and statistical significance, the observed sequence of events could be an artifact of a single trajectory.
+  - **Resolution test** Provide multiple independent simulations (replicas) for each condition; demonstrate convergence of structural observables (RMSD, Q, RSA); perform cluster analysis to identify dominant unfolding pathways; compare results across replicas to establish that the order of interaction loss is consistent; consider additional temperatures or denaturant concentrations to map the unfolding landscape more completely.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** "ZINC73240059 remains stably bound to M1 of NTD during MD simulations manifesting negative Gibbs free energy (ΔG) with significant contribution from Pro-36 of M1"
+  - **Evidence pointer** Results section "MD simulations corroborate stable binding..."; Figures 6; Supplementary Figures SF7-SF11; Supplementary Tables S4-S5
+  - **Concern** The binding free energy values reported (e.g., −18.76 ± 0.25 kcal/mol for 2N4P and −14.24 ± 0.1 kcal/mol for 6T4B) are presented as evidence of stable binding. However, MMPBSA calculations are known to be sensitive to parameter choices, trajectory length, and the specific method variant used. The manuscript does not report the standard error across independent simulations or the convergence of the free energy estimates over the analysis window. The difference between the two structures (approximately 4.5 kcal/mol) is not discussed. Furthermore, the claim that ZINC73240059 binds "exclusively" to M1 is not supported by systematic analysis of alternative binding sites on the NTD or full-length protein. The control molecules used (ZINC45210931, ZINC13556029) are described as not interacting consistently, but quantitative comparisons are not provided.
+  - **Why it matters** The identification of ZINC73240059 as a potential therapeutic candidate rests on the strength and specificity of its predicted binding. Without robust free energy estimates and evidence of binding site specificity, the claim is not adequately supported.
+  - **Resolution test** Report MMPBSA results with error estimates from multiple independent simulations or block averaging; show convergence of free energy as a function of simulation time; perform binding site analysis across the entire protein surface; provide quantitative comparison of binding energies for control molecules; consider additional validation methods such as umbrella sampling or metadynamics to corroborate binding affinity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "ZINC73240059 can be a molecule of interest towards thwarting TDP-43's pathogenic mitochondrial localization in ALS"
+  - **Evidence pointer** Conclusion; Abstract
+  - **Concern** The translational claim that ZINC73240059 could inhibit TDP-43 mitochondrial localization in ALS is speculative given the purely computational nature of the study. No experimental validation is provided, and the connection between in silico binding predictions and functional inhibition of mitochondrial import is not established. The authors acknowledge this limitation in the conclusion but the abstract and framing suggest a stronger claim than the evidence supports.
+  - **Why it matters** Overstating the therapeutic potential of a computationally identified compound without experimental evidence could mislead readers and future research directions.
+  - **Resolution test** Soften the language in the abstract and conclusion to clearly indicate that this is a computational prediction requiring experimental validation. Alternatively, provide additional computational evidence such as binding site conservation analysis, comparison with known mitochondrial import inhibitors, or predictions of cellular permeability and bioavailability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The structure of the full-length TDP-43 is not yet determined experimentally... the modeling of the full-length structure was performed on I-TASSER-MTD"
+  - **Evidence pointer** Methodology "Modeling of the full-length structure"
+  - **Concern** The use of a modeled full-length TDP-43 structure for docking studies introduces significant uncertainty. The manuscript does not report the confidence scores or quality metrics for the I-TASSER-MTD model, nor does it discuss how model uncertainty might affect docking results. The RMSD values between the modeled full-length structure and the experimental NTD structures are mentioned in Supplementary Table S2 but not discussed in the main text.
+  - **Why it matters** Docking results are highly sensitive to the receptor structure used. If the modeled full-length structure is inaccurate, the binding predictions for ZINC73240059 to M1 in the full-length context may not be reliable.
+  - **Resolution test** Report I-TASSER-MTD confidence scores (C-score, TM-score, RMSD); validate the model against known experimental structures where possible; perform docking with multiple conformations of the full-length model to assess robustness; discuss the limitations of using a modeled structure in the main text.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses technical terminology without sufficient context for a general scientific audience. Terms such as "equilibrium all-atom molecular dynamics" and "MMPBSA" are not explained.
+  - **Required correction** Briefly define or contextualize key computational methods in the abstract to improve accessibility for nonspecialist readers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methodology
+  - **Evidence pointer** Methodology "Simulation protocol"
+  - **Issue** The simulation protocol does not specify the number of replicate simulations performed for each condition. The text implies single trajectories but does not state this explicitly.
+  - **Required correction** Clearly state the number of independent simulations for each condition and provide rationale for the chosen number.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results and Discussion
+  - **Evidence pointer** Results section "Virtual screening by docking..."
+  - **Issue** The docking scores for the top hits are reported as ranges (e.g., −8.2 to −7.5 kcal/mol for FDA-approved compounds) but the units and the specific scoring function used are not clearly stated in the main text.
+  - **Required correction** Specify the docking software version and scoring function used, and report individual docking scores for the compounds discussed in detail.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methodology
+  - **Evidence pointer** Methodology "Simulation Analysis"
+  - **Issue** The clustering methodology for identifying intermediate conformations is described only briefly ("gromos clustering, performed every 50 ns"). The specific parameters (cutoff, algorithm version) are not provided.
+  - **Required correction** Provide the clustering algorithm parameters and justify the choice of 50 ns intervals for clustering.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results and Discussion
+  - **Evidence pointer** Results section "MD simulations corroborate stable binding..."
+  - **Issue** The comparison between ZINC73240059 and the control molecules is described qualitatively ("did not consistently interact") without quantitative data.
+  - **Required correction** Provide quantitative metrics (e.g., binding free energies, interaction lifetimes) for the control molecules to support the comparison.
+
+## Risk / unsupported claims
+- The claim that M1 becomes solvent-accessible through a specific early unfolding pathway is not fully supported due to limited sampling and lack of replica simulations.
+- The assertion that ZINC73240059 binds "exclusively" to M1 is not supported by systematic binding site analysis.
+- The translational potential of ZINC73240059 for ALS therapy is speculative and not supported by experimental evidence.
+- The use of a modeled full-length TDP-43 structure without quality metrics undermines the reliability of docking results in the full-length context.
+- The physiological relevance of unfolding conditions (350 K, 450 K, 4 M urea) is not established or discussed in sufficient depth.

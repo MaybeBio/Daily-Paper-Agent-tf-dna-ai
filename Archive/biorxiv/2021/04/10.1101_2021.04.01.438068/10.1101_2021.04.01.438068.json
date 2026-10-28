@@ -1,0 +1,187 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.04.01.438068",
+  "title": "Learning single-cell chromatin accessibility profiles using meta-analytic marker genes",
+  "doi": "10.1101/2021.04.01.438068",
+  "abstract": "<h4>Motivation</h4> Single-cell Assay for Transposase Accessible Chromatin using sequencing (scATAC-seq) is a valuable resource to learn cis-regulatory elements such as cell-type specific enhancers and transcription factor binding sites. However, cell-type identification of scATAC-seq data is known to be challenging due to the heterogeneity derived from different protocols and the high dropout rate. <h4>Results</h4> In this study, we perform a systematic comparison of 7 scATAC-seq datasets of mouse brain to benchmark the efficacy of neuronal cell-type annotation from gene sets. We find that redundant marker genes give a dramatic improvement for a sparse scATAC-seq annotation across the data collected from different studies. Interestingly, simple aggregation of such marker genes achieves performance comparable or higher than that of machine-learning classifiers, suggesting its potential for downstream applications. Based on our results, we reannotated all scATAC-seq data for detailed cell types using robust marker genes. Their meta scATAC-seq profiles are publicly available at https://gillisweb.cshl.edu/Meta_scATAC . Furthermore, we trained a deep neural network to predict chromatin accessibility from only DNA sequence and identified key motifs enriched for each neuronal subtype. Those predicted profiles are visualized together in our database as a valuable resource to explore cell-type specific epigenetic regulation in a sequence-dependent and -independent manner. <h4>Contact</h4> jesse.gillis@utoronto.ca <h4>Supplementary information</h4> Supplementary data are available at xxxxxx online. <h4>Key points</h4> 7 scATAC-seq datasets of mouse brain are systematically compared to benchmark the efficacy of neuronal cell-type annotation from gene sets. Redundant marker genes give a dramatic improvement for a sparse scATAC-seq annotation beyond the heterogeneity of scATAC-seq data. We reannotated all scATAC-seq data for detailed cell types using robust marker genes and their meta scATAC-seq profiles are publicly available at a new Meta scATAC-seq server. Predicted profiles from only DNA sequence using a deep neural network are visualized together to explore sequence-dependent and -independent epigenetic regulation.",
+  "authors": [
+    "Kawaguchi RK",
+    "Tang Z",
+    "Fischer S",
+    "Rajesh C",
+    "Tripathy R",
+    "Koo PK",
+    "Gillis J"
+  ],
+  "published_date": "2021-04-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.04.01.438068",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.04.01.438068.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR306884",
+    "raw_record": {
+      "id": "PPR306884",
+      "source": "PPR",
+      "doi": "10.1101/2021.04.01.438068",
+      "title": "Learning single-cell chromatin accessibility profiles using meta-analytic marker genes",
+      "authorString": "Kawaguchi RK, Tang Z, Fischer S, Rajesh C, Tripathy R, Koo PK, Gillis J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kawaguchi RK",
+            "lastName": "Kawaguchi",
+            "firstName": "Risa Karakida",
+            "initials": "RK"
+          },
+          {
+            "fullName": "Tang Z",
+            "lastName": "Tang",
+            "firstName": "Ziqi",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7585-915X"
+            }
+          },
+          {
+            "fullName": "Fischer S",
+            "lastName": "Fischer",
+            "firstName": "Stephan",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7034-4103"
+            }
+          },
+          {
+            "fullName": "Rajesh C",
+            "lastName": "Rajesh",
+            "firstName": "Chandana",
+            "initials": "C"
+          },
+          {
+            "fullName": "Tripathy R",
+            "lastName": "Tripathy",
+            "firstName": "Rohit",
+            "initials": "R"
+          },
+          {
+            "fullName": "Koo PK",
+            "lastName": "Koo",
+            "firstName": "Peter",
+            "initials": "PK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8722-0038"
+            }
+          },
+          {
+            "fullName": "Gillis J",
+            "lastName": "Gillis",
+            "firstName": "Jesse",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0936-9774"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7585-915X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8722-0038"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0936-9774"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7034-4103"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>Motivation</h4>  Single-cell Assay for Transposase Accessible Chromatin using sequencing (scATAC-seq) is a valuable resource to learn cis-regulatory elements such as cell-type specific enhancers and transcription factor binding sites. However, cell-type identification of scATAC-seq data is known to be challenging due to the heterogeneity derived from different protocols and the high dropout rate. <h4>Results</h4>  In this study, we perform a systematic comparison of 7 scATAC-seq datasets of mouse brain to benchmark the efficacy of neuronal cell-type annotation from gene sets. We find that redundant marker genes give a dramatic improvement for a sparse scATAC-seq annotation across the data collected from different studies. Interestingly, simple aggregation of such marker genes achieves performance comparable or higher than that of machine-learning classifiers, suggesting its potential for downstream applications. Based on our results, we reannotated all scATAC-seq data for detailed cell types using robust marker genes. Their meta scATAC-seq profiles are publicly available at  https://gillisweb.cshl.edu/Meta_scATAC . Furthermore, we trained a deep neural network to predict chromatin accessibility from only DNA sequence and identified key motifs enriched for each neuronal subtype. Those predicted profiles are visualized together in our database as a valuable resource to explore cell-type specific epigenetic regulation in a sequence-dependent and -independent manner.  <h4>Contact</h4>  jesse.gillis@utoronto.ca <h4>Supplementary information</h4>  Supplementary data are available at  xxxxxx online.  <h4>Key points</h4>  7 scATAC-seq datasets of mouse brain are systematically compared to benchmark the efficacy of neuronal cell-type annotation from gene sets. Redundant marker genes give a dramatic improvement for a sparse scATAC-seq annotation beyond the heterogeneity of scATAC-seq data. We reannotated all scATAC-seq data for detailed cell types using robust marker genes and their meta scATAC-seq profiles are publicly available at a new Meta scATAC-seq server. Predicted profiles from only DNA sequence using a deep neural network are visualized together to explore sequence-dependent and -independent epigenetic regulation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/04/03/2021.04.01.438068.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.04.01.438068"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36549922",
+            "reference": "Briefings in bioinformatics. 2023 Jan;24(1):bbac541",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-04-05",
+      "firstPublicationDate": "2021-04-03",
+      "firstIndexDate": "2021-04-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

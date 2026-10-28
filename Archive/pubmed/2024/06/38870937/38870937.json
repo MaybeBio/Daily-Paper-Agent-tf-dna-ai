@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "38870937",
+    "doi": "10.1016/j.molcel.2024.05.019",
+    "title": "Molecular insights into the activation of Mre11-Rad50 endonuclease activity by Sae2/CtIP."
+  },
+  "content": {
+    "abstract": "In Saccharomyces cerevisiae (S. cerevisiae), Mre11-Rad50-Xrs2 (MRX)-Sae2 nuclease activity is required for the resection of DNA breaks with secondary structures or protein blocks, while in humans, the MRE11-RAD50-NBS1 (MRN) homolog with CtIP is needed to initiate DNA end resection of all breaks. Phosphorylated Sae2/CtIP stimulates the endonuclease activity of MRX/N. Structural insights into the activation of the Mre11 nuclease are available only for organisms lacking Sae2/CtIP, so little is known about how Sae2/CtIP activates the nuclease ensemble. Here, we uncover the mechanism of Mre11 activation by Sae2 using a combination of AlphaFold2 structural modeling of biochemical and genetic assays. We show that Sae2 stabilizes the Mre11 nuclease in a conformation poised to cleave substrate DNA. Several designs of compensatory mutations establish how Sae2 activates MRX in vitro and in vivo, supporting the structural model. Finally, our study uncovers how human CtIP, despite considerable sequence divergence, employs a similar mechanism to activate MRN.",
+    "keywords": [
+      "AlphaFold",
+      "DNA repair",
+      "coevolution",
+      "conformational change",
+      "double-strand breaks",
+      "homologous recombination",
+      "meiosis",
+      "nuclease",
+      "protein complex",
+      "structural models"
+    ],
+    "mesh_terms": [
+      "*Saccharomyces cerevisiae Proteins/metabolism/genetics",
+      "*Saccharomyces cerevisiae/genetics/enzymology/metabolism",
+      "*Endonucleases/metabolism/genetics",
+      "*DNA-Binding Proteins/metabolism/genetics",
+      "*Endodeoxyribonucleases/metabolism/genetics/chemistry",
+      "Humans",
+      "Exodeoxyribonucleases/metabolism/genetics",
+      "Models, Molecular",
+      "Phosphorylation",
+      "DNA Repair Enzymes/metabolism/genetics",
+      "DNA Breaks, Double-Stranded",
+      "Acid Anhydride Hydrolases/metabolism/genetics",
+      "Mutation",
+      "MRE11 Homologue Protein/metabolism/genetics",
+      "DNA Repair",
+      "Enzyme Activation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nicolas, Yoann",
+        "Bret, Helene",
+        "Cannavo, Elda",
+        "Acharya, Ananya",
+        "Cejka, Petr",
+        "Borde, Valerie",
+        "Guerois, Raphael"
+      ],
+      "short_names": [
+        "Nicolas Y",
+        "Bret H",
+        "Cannavo E",
+        "Acharya A",
+        "Cejka P",
+        "Borde V",
+        "Guerois R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institut Curie, PSL University, Sorbonne Universite, CNRS UMR3244, Dynamics of Genetic Information, 75005 Paris, France.",
+        "Universite Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), 91198 Gif-sur-Yvette, France.",
+        "Institute for Research in Biomedicine, Universita della Svizzera italiana (USI), Faculty of Biomedical Sciences, Bellinzona 6500, Switzerland.",
+        "Institute for Research in Biomedicine, Universita della Svizzera italiana (USI), Faculty of Biomedical Sciences, Bellinzona 6500, Switzerland.",
+        "Institute for Research in Biomedicine, Universita della Svizzera italiana (USI), Faculty of Biomedical Sciences, Bellinzona 6500, Switzerland. Electronic address: petr.cejka@irb.usi.ch.",
+        "Institut Curie, PSL University, Sorbonne Universite, CNRS UMR3244, Dynamics of Genetic Information, 75005 Paris, France. Electronic address: valerie.borde@curie.fr.",
+        "Universite Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), 91198 Gif-sur-Yvette, France. Electronic address: raphael.guerois@cea.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nicolas, Yoann",
+        "short_name": "Nicolas Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Curie, PSL University, Sorbonne Université, CNRS UMR3244, Dynamics of Genetic Information, 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Bret, Hélène",
+        "short_name": "Bret H",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), 91198 Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Cannavo, Elda",
+        "short_name": "Cannavo E",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Research in Biomedicine, Università della Svizzera italiana (USI), Faculty of Biomedical Sciences, Bellinzona 6500, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Acharya, Ananya",
+        "short_name": "Acharya A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Research in Biomedicine, Università della Svizzera italiana (USI), Faculty of Biomedical Sciences, Bellinzona 6500, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Cejka, Petr",
+        "short_name": "Cejka P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Research in Biomedicine, Università della Svizzera italiana (USI), Faculty of Biomedical Sciences, Bellinzona 6500, Switzerland. Electronic address: petr.cejka@irb.usi.ch."
+        ]
+      },
+      {
+        "full_name": "Borde, Valérie",
+        "short_name": "Borde V",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Curie, PSL University, Sorbonne Université, CNRS UMR3244, Dynamics of Genetic Information, 75005 Paris, France. Electronic address: valerie.borde@curie.fr."
+        ]
+      },
+      {
+        "full_name": "Guerois, Raphaël",
+        "short_name": "Guerois R",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), 91198 Gif-sur-Yvette, France. Electronic address: raphael.guerois@cea.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cell"
+    ],
+    "journal_abbrev": [
+      "Mol Cell"
+    ],
+    "pub_date": "2024 Jun 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/14 00:42",
+    "fetched_at": "2026-09-29 21:56:29"
+  },
+  "links": {
+    "cites": [
+      "42162378",
+      "42151157",
+      "41863177",
+      "41444448",
+      "41075274",
+      "40968163",
+      "40850049",
+      "40791546",
+      "40583961",
+      "40175510",
+      "40133633",
+      "39558159",
+      "39021337",
+      "38884214"
+    ],
+    "refs": [],
+    "similar": [
+      "38870937",
+      "28970327",
+      "39558159",
+      "23443654",
+      "39174552",
+      "30787182",
+      "23555316",
+      "30819891",
+      "26743002",
+      "25831494",
+      "30510002",
+      "27966484",
+      "25231868",
+      "34311383",
+      "27746018",
+      "29321177",
+      "23080121",
+      "18042458",
+      "29420790",
+      "21931565",
+      "20834227",
+      "33789097",
+      "33378670",
+      "21102445",
+      "29321179",
+      "30538107",
+      "30275497",
+      "25569305",
+      "29922906",
+      "29352017",
+      "28623092",
+      "17698079",
+      "27173583",
+      "31552432",
+      "18806779",
+      "25899817",
+      "38884214",
+      "17674145",
+      "32480356",
+      "32241893",
+      "32817418",
+      "21152442",
+      "40240347",
+      "39630591",
+      "35501303",
+      "33086066",
+      "35987200",
+      "17565964",
+      "25213441",
+      "27889449",
+      "14698290",
+      "40796731",
+      "18007598",
+      "24837675",
+      "20729809",
+      "29925516",
+      "36917982",
+      "18245357",
+      "21876003",
+      "28292918",
+      "23525106",
+      "38217957",
+      "40675410",
+      "18171670",
+      "15126391",
+      "31073030",
+      "16043424",
+      "21098122",
+      "23254329",
+      "33836577",
+      "12966088",
+      "25569253",
+      "30224356",
+      "26545079",
+      "17965729",
+      "21050828",
+      "17349953",
+      "39261728",
+      "16374511",
+      "19804755",
+      "27814491",
+      "19759395",
+      "27098756",
+      "21899737",
+      "40968163",
+      "22179609",
+      "21458667",
+      "16143598",
+      "18716619",
+      "33406426",
+      "21052091",
+      "30523780",
+      "11805044",
+      "14612421",
+      "21402778",
+      "22231403",
+      "22002605",
+      "22960744",
+      "31353207",
+      "31492634"
+    ],
+    "review": [
+      "38870937",
+      "34311383",
+      "29922906",
+      "28623092",
+      "17674145",
+      "32480356",
+      "25213441",
+      "21050828"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1097-2765(24)00442-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAD50-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-934",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

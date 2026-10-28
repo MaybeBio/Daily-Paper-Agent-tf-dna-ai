@@ -1,0 +1,762 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.05.08.443251",
+  "title": "An Enhanced Sampling Approach to the Induced Fit Docking Problem in Protein-Ligand Binding: the case of mono-ADP-ribosylation hydrolases inhibitors",
+  "doi": "10.1101/2021.05.08.443251",
+  "abstract": "A variety of enhanced sampling methods can predict free energy landscapes associated with protein/ligand binding events, characterizing in a precise way the intermolecular interactions involved. Unfortunately, these approaches are challenged by not uncommon induced fit mecchanisms. Here, we present a variant of the recently reported volume-based metadynamics (MetaD) method which describes ligand binding even when it affects protein structure. The validity of the approach is established by applying it to a substrate/enzyme complexes of pharmacological relevance: this is the mono-ADP-ribose (ADPr) in complex with mono-ADP-ribosylation hydrolases (MacroD1 and MacroD2), where induced-fit phenomena are known to be operative. The calculated binding free energies are consistent with experiments, with an absolute error less than 0.5 kcal/mol. Our simulations reveal that in all circumstances the active loops, delimiting the boundaries of the binding site, rearrange from an open to a closed conformation upon ligand binding. The calculations further provide, for the first time, the molecular basis of the experimentally observed affinity changes in ADPr binding on passing from MacroD1 to MacroD2 and all its mutants. Our study paves the way to investigate in a completely general manner ligand binding to proteins and receptors.",
+  "authors": [
+    "Qianqian Zhao",
+    "Riccardo Capelli",
+    "Paolo Carloni",
+    "Bernhard Lüscher",
+    "Jinyu Li",
+    "Giulia Rossetti"
+  ],
+  "published_date": "2021-05-08",
+  "updated_date": "2021-05-08T21:41:18Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.05.08.443251",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.05.08.443251.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T16:13:10Z",
+        "timestamp": 1768493590403,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            8
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 68,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                8
+              ]
+            ],
+            "date-time": "2021-05-08T00:00:00Z",
+            "timestamp": 1620432000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            8
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>A variety of enhanced sampling methods can predict free energy landscapes associated with protein/ligand binding events, characterizing in a precise way the intermolecular interactions involved. Unfortunately, these approaches are challenged by not uncommon induced fit mecchanisms. Here, we present a variant of the recently reported volume-based metadynamics (MetaD) method which describes ligand binding even when it affects protein structure. The validity of the approach is established by applying it to a substrate/enzyme complexes of pharmacological relevance: this is the mono-ADP-ribose (ADPr) in complex with mono-ADP-ribosylation hydrolases (MacroD1 and MacroD2), where induced-fit phenomena are known to be operative. The calculated binding free energies are consistent with experiments, with an absolute error less than 0.5 kcal/mol. Our simulations reveal that in all circumstances the active loops, delimiting the boundaries of the binding site, rearrange from an open to a closed conformation upon ligand binding. The calculations further provide, for the first time, the molecular basis of the experimentally observed affinity changes in ADPr binding on passing from MacroD1 to MacroD2 and all its mutants. Our study paves the way to investigate in a completely general manner ligand binding to proteins and receptors.</jats:p>",
+      "DOI": "10.1101/2021.05.08.443251",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            8
+          ]
+        ],
+        "date-time": "2021-05-08T21:41:18Z",
+        "timestamp": 1620510078000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "An Enhanced Sampling Approach to the Induced Fit Docking Problem in Protein-Ligand Binding: the case of mono-ADP-ribosylation hydrolases inhibitors"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Qianqian",
+          "family": "Zhao",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Riccardo",
+          "family": "Capelli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Paolo",
+          "family": "Carloni",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bernhard",
+          "family": "Lüscher",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jinyu",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2032-4630",
+          "authenticated-orcid": false,
+          "given": "Giulia",
+          "family": "Rossetti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "5",
+          "key": "2024080523372932000_2021.05.08.443251v1.1",
+          "first-page": "395",
+          "volume": "7",
+          "year": "2006",
+          "journal-title": "Methods for the prediction of protein-ligand binding sites for structure-based drug design and virtual ligand screening"
+        },
+        {
+          "issue": "1",
+          "key": "2024080523372932000_2021.05.08.443251v1.2",
+          "first-page": "743",
+          "volume": "15",
+          "year": "2018",
+          "journal-title": "Accelerating the calculation of protein–ligand binding free energy and residence times using dynamically optimized collective variables"
+        },
+        {
+          "issue": "6",
+          "key": "2024080523372932000_2021.05.08.443251v1.3",
+          "first-page": "1926",
+          "volume": "21",
+          "year": "2020",
+          "journal-title": "Ligand Binding Mechanism and Its Relationship with Conformational Changes in Adenine Riboswitch"
+        },
+        {
+          "issue": "1",
+          "key": "2024080523372932000_2021.05.08.443251v1.4",
+          "first-page": "1",
+          "volume": "6",
+          "year": "2013",
+          "journal-title": "Molecular dynamics simulations indicate an induced-fit mechanism for LSD1/CoREST-H3-histone molecular recognition"
+        },
+        {
+          "key": "2024080523372932000_2021.05.08.443251v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chodera, J.D. and D.L. Mobley , Entropy-enthalpy compensation: role and ramifications in biomolecular ligand recognition and design. 2013.",
+          "DOI": "10.1146/annurev-biophys-083012-130318"
+        },
+        {
+          "issue": "10",
+          "key": "2024080523372932000_2021.05.08.443251v1.6",
+          "first-page": "848",
+          "volume": "21",
+          "year": "2014",
+          "journal-title": "Energetic dissection of Gleevec’s selectivity toward human tyrosine kinases"
+        },
+        {
+          "key": "2024080523372932000_2021.05.08.443251v1.7",
+          "first-page": "27",
+          "volume": "2",
+          "year": "2015",
+          "journal-title": "Evolution and intelligent design in drug development"
+        },
+        {
+          "key": "2024080523372932000_2021.05.08.443251v1.8",
+          "first-page": "143",
+          "volume": "70",
+          "year": "2019",
+          "journal-title": "Kinetics of drug binding and residence time"
+        },
+        {
+          "issue": "6",
+          "key": "2024080523372932000_2021.05.08.443251v1.9",
+          "first-page": "896",
+          "volume": "22",
+          "year": "2017",
+          "journal-title": "Kinetics for Drug Discovery: an industry-driven effort to target drug residence time"
+        },
+        {
+          "issue": "8",
+          "key": "2024080523372932000_2021.05.08.443251v1.10",
+          "first-page": "4646",
+          "volume": "15",
+          "year": "2019",
+          "journal-title": "Investigating Drug–Target Residence Time in Kinases through Enhanced Sampling Simulations"
+        },
+        {
+          "issue": "9",
+          "key": "2024080523372932000_2021.05.08.443251v1.11",
+          "first-page": "1614",
+          "volume": "5",
+          "year": "2019",
+          "journal-title": "Drug-target residence time affects in vivo target occupancy through multiple pathways"
+        },
+        {
+          "issue": "12",
+          "key": "2024080523372932000_2021.05.08.443251v1.12",
+          "first-page": "1491",
+          "volume": "3",
+          "year": "2011",
+          "journal-title": "Conformational adaptation in drug–target interactions and residence time"
+        },
+        {
+          "key": "2024080523372932000_2021.05.08.443251v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Miller, E. , R. Murphy , D. Sindhikara , K. Borrelli , M. Grisewood , F. Ranalli , et al., A Reliable and Accurate Solution to the Induced Fit Docking Problem for Protein-Ligand Binding. 2020.",
+          "DOI": "10.26434/chemrxiv.11983845"
+        },
+        {
+          "issue": "7805",
+          "key": "2024080523372932000_2021.05.08.443251v1.14",
+          "first-page": "663",
+          "volume": "580",
+          "year": "2020",
+          "journal-title": "An open-source drug discovery platform enables ultra-large virtual screens"
+        },
+        {
+          "issue": "5",
+          "key": "2024080523372932000_2021.05.08.443251v1.15",
+          "first-page": "e1367",
+          "volume": "8",
+          "year": "2018",
+          "journal-title": "Computational structure-based drug design: Predicting target flexibility"
+        },
+        {
+          "issue": "2",
+          "key": "2024080523372932000_2021.05.08.443251v1.16",
+          "first-page": "298",
+          "volume": "1",
+          "year": "2011",
+          "journal-title": "Receptor flexibility in small-molecule docking calculations"
+        },
+        {
+          "issue": "2",
+          "key": "2024080523372932000_2021.05.08.443251v1.17",
+          "first-page": "179",
+          "volume": "11",
+          "year": "2011",
+          "journal-title": "Accounting for induced-fit effects in docking: what is possible and what is not?"
+        },
+        {
+          "key": "2024080523372932000_2021.05.08.443251v1.18",
+          "first-page": "1089",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "Empirical scoring functions for structure-based virtual screening: applications, critical aspects, and challenges"
+        },
+        {
+          "issue": "24",
+          "key": "2024080523372932000_2021.05.08.443251v1.19",
+          "first-page": "9181",
+          "volume": "133",
+          "year": "2011",
+          "journal-title": "How does a drug molecule find its target binding site?"
+        },
+        {
+          "issue": "7",
+          "key": "2024080523372932000_2021.05.08.443251v1.20",
+          "first-page": "3372",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "Quantitative characterization of the binding and unbinding of millimolar drug fragments with molecular dynamics simulations"
+        },
+        {
+          "key": "2024080523372932000_2021.05.08.443251v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, L. , J. Chambers , and R. Abel , Protein–ligand binding free energy calculations with FEP+, in Biomolecular Simulations. 2019, Springer. p. 201–232.",
+          "DOI": "10.1007/978-1-4939-9608-7_9"
+        },
+        {
+          "issue": "7",
+          "key": "2024080523372932000_2021.05.08.443251v1.22",
+          "first-page": "1625",
+          "volume": "50",
+          "year": "2017",
+          "journal-title": "Advancing drug discovery through enhanced free energy calculations"
+        },
+        {
+          "issue": "1",
+          "key": "2024080523372932000_2021.05.08.443251v1.23",
+          "first-page": "424",
+          "volume": "15",
+          "year": "2018",
+          "journal-title": "Rigorous free energy perturbation approach to estimating relative binding affinities between ligands with multiple protonation and tautomeric states"
+        },
+        {
+          "issue": "5",
+          "key": "2024080523372932000_2021.05.08.443251v1.24",
+          "first-page": "348",
+          "volume": "36",
+          "year": "2015",
+          "journal-title": "pmx: Automated protein structure and topology generation for alchemical perturbations"
+        },
+        {
+          "issue": "2",
+          "key": "2024080523372932000_2021.05.08.443251v1.25",
+          "first-page": "299",
+          "volume": "23",
+          "year": "2016",
+          "journal-title": "Accurate prediction of ligand affinities for a proton-dependent oligopeptide transporter"
+        },
+        {
+          "issue": "8",
+          "key": "2024080523372932000_2021.05.08.443251v1.26",
+          "first-page": "2141",
+          "volume": "53",
+          "year": "2013",
+          "journal-title": "A contribution to the drug resistance mechanism of Darunavir, Amprenavir, Indinavir, and Saquinavir complexes with HIV-1 protease due to flap mutation I50V: A systematic MM–PBSA and thermodynamic integration study"
+        },
+        {
+          "issue": "39",
+          "key": "2024080523372932000_2021.05.08.443251v1.27",
+          "first-page": "10535",
+          "volume": "126",
+          "year": "2014",
+          "journal-title": "A designed conformational shift to control protein binding specificity"
+        },
+        {
+          "issue": "26",
+          "key": "2024080523372932000_2021.05.08.443251v1.28",
+          "first-page": "7364",
+          "volume": "55",
+          "year": "2016",
+          "journal-title": "Accurate and rigorous prediction of the changes in protein free energies in a large-scale mutation scan"
+        },
+        {
+          "issue": "12",
+          "key": "2024080523372932000_2021.05.08.443251v1.29",
+          "first-page": "2911",
+          "volume": "57",
+          "year": "2017",
+          "journal-title": "Relative binding free energy calculations in drug discovery: recent advances and practical considerations"
+        },
+        {
+          "key": "2024080523372932000_2021.05.08.443251v1.30",
+          "first-page": "531",
+          "volume": "46",
+          "year": "2017",
+          "journal-title": "Predicting binding free energies: frontiers and benchmarks"
+        },
+        {
+          "issue": "2",
+          "key": "2024080523372932000_2021.05.08.443251v1.31",
+          "first-page": "148",
+          "volume": "20",
+          "year": "2010",
+          "journal-title": "Targeting biomolecular flexibility with metadynamics"
+        },
+        {
+          "issue": "5",
+          "key": "2024080523372932000_2021.05.08.443251v1.32",
+          "first-page": "826",
+          "volume": "1",
+          "year": "2011",
+          "journal-title": "Metadynamics"
+        },
+        {
+          "key": "2024080523372932000_2021.05.08.443251v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pfaendtner, J. , Metadynamics to Enhance Sampling in Biomolecular Simulations, in Biomolecular Simulations. 2019, Springer. p. 179–200.",
+          "DOI": "10.1007/978-1-4939-9608-7_8"
+        },
+        {
+          "issue": "5",
+          "key": "2024080523372932000_2021.05.08.443251v1.34",
+          "first-page": "3354",
+          "volume": "15",
+          "year": "2019",
+          "journal-title": "Chasing the full free energy landscape of neuroreceptor/ligand unbinding by metadynamics simulations"
+        },
+        {
+          "issue": "13",
+          "key": "2024080523372932000_2021.05.08.443251v1.35",
+          "first-page": "4780",
+          "volume": "139",
+          "year": "2017",
+          "journal-title": "Unbinding kinetics of a p38 MAP kinase type II inhibitor from metadynamics simulations"
+        },
+        {
+          "issue": "10",
+          "key": "2024080523372932000_2021.05.08.443251v1.36",
+          "first-page": "4911",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "Molecular view of ligands specificity for CAG repeats in anti-Huntington therapy"
+        },
+        {
+          "issue": "12",
+          "key": "2024080523372932000_2021.05.08.443251v1.37",
+          "first-page": "3495",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Exhaustive search of ligand binding pathways via volume-based metadynamics"
+        },
+        {
+          "issue": "16",
+          "key": "2024080523372932000_2021.05.08.443251v1.38",
+          "first-page": "6358",
+          "volume": "110",
+          "year": "2013",
+          "journal-title": "Funnel metadynamics as accurate binding free-energy method"
+        },
+        {
+          "key": "2024080523372932000_2021.05.08.443251v1.39",
+          "first-page": "129",
+          "volume": "55",
+          "year": "2019",
+          "journal-title": "Metadynamics simulations of ligand binding to GPCRs"
+        },
+        {
+          "issue": "2",
+          "key": "2024080523372932000_2021.05.08.443251v1.40",
+          "first-page": "277",
+          "volume": "48",
+          "year": "2015",
+          "journal-title": "Investigating drug–target association and dissociation mechanisms using metadynamics-based algorithms"
+        },
+        {
+          "issue": "5",
+          "key": "2024080523372932000_2021.05.08.443251v1.41",
+          "first-page": "1210",
+          "volume": "57",
+          "year": "2017",
+          "journal-title": "An efficient metadynamics-based protocol to model the binding affinity and the transition state ensemble of G-protein-coupled receptor ligands"
+        },
+        {
+          "issue": "3",
+          "key": "2024080523372932000_2021.05.08.443251v1.42",
+          "first-page": "1092",
+          "volume": "118",
+          "year": "2018",
+          "journal-title": "ADP-ribosylation, a multifaceted posttranslational modification involved in the control of cell physiology in health and disease"
+        },
+        {
+          "issue": "7",
+          "key": "2024080523372932000_2021.05.08.443251v1.43",
+          "first-page": "3634",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "ADP-ribosylation of RNA and DNA: from in vitro characterization to in vivo function"
+        },
+        {
+          "issue": "3",
+          "key": "2024080523372932000_2021.05.08.443251v1.44",
+          "first-page": "255",
+          "volume": "23",
+          "year": "2018",
+          "journal-title": "Development of an inhibitor screening assay for mono-ADP-ribosyl hydrolyzing macrodomains using AlphaScreen technology"
+        },
+        {
+          "issue": "8",
+          "key": "2024080523372932000_2021.05.08.443251v1.45",
+          "first-page": "1588",
+          "volume": "26",
+          "year": "2018",
+          "journal-title": "Adenosine analogs bearing phosphate isosteres as human MDO1 ligands"
+        },
+        {
+          "issue": "1",
+          "key": "2024080523372932000_2021.05.08.443251v1.46",
+          "first-page": "1",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Comparative analysis of MACROD1, MACROD2 and TARG1 expression, localisation and interactome"
+        },
+        {
+          "key": "2024080523372932000_2021.05.08.443251v1.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang, X. , Y. Ma , Y. Li , Y. Dong , L.Y. Lily , H. Wang , et al., Molecular basis for the MacroD1-mediated hydrolysis of ADP-ribosylation. 2020: p. 102899.",
+          "DOI": "10.1016/j.dnarep.2020.102899"
+        },
+        {
+          "issue": "15",
+          "key": "2024080523372932000_2021.05.08.443251v1.48",
+          "first-page": "13261",
+          "volume": "286",
+          "year": "2011",
+          "journal-title": "Identification of macrodomain proteins as novel O-acetyl-ADP-ribose deacetylases"
+        },
+        {
+          "key": "2024080523372932000_2021.05.08.443251v1.49",
+          "first-page": "102899",
+          "volume": "94",
+          "year": "2020",
+          "journal-title": "Molecular basis for the MacroD1-mediated hydrolysis of ADP-ribosylation"
+        },
+        {
+          "issue": "4",
+          "key": "2024080523372932000_2021.05.08.443251v1.50",
+          "first-page": "508",
+          "volume": "20",
+          "year": "2013",
+          "journal-title": "A family of macrodomain proteins reverses cellular mono-ADP-ribosylation"
+        },
+        {
+          "issue": "1",
+          "key": "2024080523372932000_2021.05.08.443251v1.51",
+          "first-page": "212",
+          "volume": "385",
+          "year": "2009",
+          "journal-title": "Differential activities of cellular and viral macro domain proteins in binding of ADP-ribose metabolites"
+        },
+        {
+          "key": "2024080523372932000_2021.05.08.443251v1.52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wazir, S. , M.M. Maksimainen , and L.J.A.C.S.F.S.B.C. Lehtiö , Multiple crystal forms of human MacroD2. 2020. 76(10).",
+          "DOI": "10.1107/S2053230X20011309"
+        },
+        {
+          "issue": "7",
+          "key": "2024080523372932000_2021.05.08.443251v1.53",
+          "first-page": "2731",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Rethinking metadynamics: from bias potentials to probability distributions"
+        },
+        {
+          "issue": "8",
+          "key": "2024080523372932000_2021.05.08.443251v1.54",
+          "first-page": "670",
+          "volume": "16",
+          "year": "2019",
+          "journal-title": "Promoting transparency and reproducibility in enhanced molecular simulations"
+        },
+        {
+          "issue": "13",
+          "key": "2024080523372932000_2021.05.08.443251v1.55",
+          "first-page": "1605",
+          "volume": "25",
+          "year": "2004",
+          "journal-title": "UCSF Chimera—a visualization system for exploratory research and analysis"
+        },
+        {
+          "issue": "3",
+          "key": "2024080523372932000_2021.05.08.443251v1.56",
+          "first-page": "221",
+          "volume": "27",
+          "year": "2013",
+          "journal-title": "Protein and ligand preparation: parameters, protocols, and influence on virtual screening enrichments"
+        },
+        {
+          "issue": "8",
+          "key": "2024080523372932000_2021.05.08.443251v1.57",
+          "first-page": "1950",
+          "volume": "78",
+          "year": "2010",
+          "journal-title": "Improved side-chain torsion potentials for the Amber ff99SB protein force field"
+        },
+        {
+          "issue": "2",
+          "key": "2024080523372932000_2021.05.08.443251v1.58",
+          "first-page": "926",
+          "volume": "79",
+          "year": "1983",
+          "journal-title": "Comparison of simple potential functions for simulating liquid water"
+        },
+        {
+          "issue": "9",
+          "key": "2024080523372932000_2021.05.08.443251v1.59",
+          "first-page": "1157",
+          "volume": "25",
+          "year": "2004",
+          "journal-title": "Development and testing of a general amber force field"
+        },
+        {
+          "issue": "16",
+          "key": "2024080523372932000_2021.05.08.443251v1.60",
+          "first-page": "1623",
+          "volume": "23",
+          "year": "2002",
+          "journal-title": "Fast, efficient generation of high-quality atomic charges. AM1-BCC model: II. Parameterization and validation"
+        },
+        {
+          "key": "2024080523372932000_2021.05.08.443251v1.61",
+          "first-page": "19",
+          "volume": "1",
+          "year": "2015",
+          "journal-title": "GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers"
+        },
+        {
+          "issue": "2",
+          "key": "2024080523372932000_2021.05.08.443251v1.62",
+          "first-page": "604",
+          "volume": "185",
+          "year": "2014",
+          "journal-title": "PLUMED 2: New feathers for an old bird"
+        },
+        {
+          "issue": "19",
+          "key": "2024080523372932000_2021.05.08.443251v1.63",
+          "first-page": "8577",
+          "volume": "103",
+          "year": "1995",
+          "journal-title": "A smooth particle mesh Ewald method"
+        },
+        {
+          "issue": "12",
+          "key": "2024080523372932000_2021.05.08.443251v1.64",
+          "first-page": "1463",
+          "volume": "18",
+          "year": "1997",
+          "journal-title": "LINCS: a linear constraint solver for molecular simulations"
+        },
+        {
+          "issue": "1",
+          "key": "2024080523372932000_2021.05.08.443251v1.65",
+          "first-page": "014101",
+          "volume": "126",
+          "year": "2007",
+          "journal-title": "Canonical sampling through velocity rescaling"
+        },
+        {
+          "issue": "12",
+          "key": "2024080523372932000_2021.05.08.443251v1.66",
+          "first-page": "7182",
+          "volume": "52",
+          "year": "1981",
+          "journal-title": "Polymorphic transitions in single crystals: A new molecular dynamics method"
+        },
+        {
+          "key": "2024080523372932000_2021.05.08.443251v1.67",
+          "unstructured": "Moon, P. and D.E. Spencer , Field theory handbook: including coordinate systems, differential equations and their solutions. 2012: Springer."
+        },
+        {
+          "issue": "1",
+          "key": "2024080523372932000_2021.05.08.443251v1.68",
+          "first-page": "117",
+          "volume": "101",
+          "year": "2004",
+          "journal-title": "Energetics of ion conduction through the gramicidin channel"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.05.08.443251",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:42:07Z",
+        "timestamp": 1768441327000
+      },
+      "score": 89.63521,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.05.08.443251"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            8
+          ]
+        ]
+      },
+      "references-count": 68,
+      "URL": "https://doi.org/10.1101/2021.05.08.443251",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            8
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

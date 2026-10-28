@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "40189539",
+    "doi": "10.1186/s40001-025-02520-8",
+    "title": "Clinical-genomic characteristics of homologous recombination deficiency (HRD) in breast cancer: application model for practice."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Homologous recombination deficiency (HRD) affects breast cancer patients. Treatment guided by multigene testing may be particularly beneficial in HRD patients by using platinum-based drugs and poly ADP-ribose polymerase inhibitor (PARPi). However, the optimal method for HRD testing remains undetermined by guidelines or consensus and economic disparities limit the availability of genetic testing. Prioritizing HRD testing by clinical-genomic characteristics is critical for efficient utilization of healthcare resources and improved treatment accuracy. METHODS: A total of 93 breast cancer patients who underwent HRD genetic testing were included in the study. According to the machine learning model called genomic scar (GS) HRD was defined as a genomic scar score (GSS) >/= 50 or with deleterious mutation in the BRCA. Multivariate logistic regression analysis was employed to identify the clinical-pathological factors potentially associated with HRD. Suitable variables were selected to construct a predictive model, and the model's efficacy was evaluated using the area under the receiver operating characteristic (ROC) curve. Internal validation was performed using bootstrap resampling (500 replicates). RESULTS: Patients harboring pathogenic mutation in BRCA exhibited higher GSS (99.85 vs 36.90). HRD was not detected in 41.75% of patients, and 34.95% had HRD but no BRCA pathogenic mutations. HRD risk in human epidermal factor growth receptor 2 (HER2) low or positive was significantly lower compared to HER2 negative (OR: 0.390, 95% CI: 0.159-0.959, P = 0.040). High Ki- 67 index was strongly associated with HRD (OR: 28.434, 95% CI: 3.283-246.293, P = 0.002). Significant variations in GSS were observed based on estrogen receptor (ER) and progesterone receptor (PR) status, histological grade, and molecular types. The area under the ROC curve (AUC) of the combined prediction model combining HER2 status and Ki- 67 index was 0.749, and the accuracy of the model was further validated using bootstrap resampling (500 replicates), resulting in an AUC of 0.730, indicating a high predictive accuracy for HRD status. CONCLUSIONS: BRCA mutation status did not fully reflect HRD status. Patients with a negative HER2 status and high Ki- 67 index are more likely to exhibit positive results when undergoing HRD genetic testing. The ER, PR, HER- 2 status, Ki- 67 index, molecular typing, and histological grading may have a strong influence on the HRD status.",
+    "keywords": [
+      "BRCA",
+      "Breast cancer",
+      "Clinical-genomic characteristics",
+      "Genomic scar score",
+      "Homologous recombination deficiency"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Breast Neoplasms/genetics/pathology",
+      "Middle Aged",
+      "*Homologous Recombination/genetics",
+      "Adult",
+      "Genetic Testing/methods",
+      "Genomics/methods",
+      "Mutation",
+      "Aged",
+      "BRCA2 Protein/genetics",
+      "Biomarkers, Tumor/genetics",
+      "BRCA1 Protein/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Du, Jinsui",
+        "Zhu, Lizhe",
+        "Duan, Chenglong",
+        "Ma, Nan",
+        "Zhou, Yudong",
+        "Li, Danni",
+        "Zhang, Jianing",
+        "Zhang, Jiaqi",
+        "Wang, Yalong",
+        "Liu, Xi",
+        "Ren, Yu",
+        "Wang, Bin"
+      ],
+      "short_names": [
+        "Du J",
+        "Zhu L",
+        "Duan C",
+        "Ma N",
+        "Zhou Y",
+        "Li D",
+        "Zhang J",
+        "Zhang J",
+        "Wang Y",
+        "Liu X",
+        "Ren Y",
+        "Wang B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China.",
+        "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China.",
+        "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China.",
+        "Experimental Pharmacology Mannheim, Medical Faculty Mannheim, Heidelberg University, Heidelberg, Germany.",
+        "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China.",
+        "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China.",
+        "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China.",
+        "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China.",
+        "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China.",
+        "Department of Pathology, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China. xliu83@xjtu.edu.cn.",
+        "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China. renyyyyy@126.com.",
+        "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China. february111@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Du, Jinsui",
+        "short_name": "Du J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Lizhe",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Chenglong",
+        "short_name": "Duan C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Nan",
+        "short_name": "Ma N",
+        "identifiers": [],
+        "affiliations": [
+          "Experimental Pharmacology Mannheim, Medical Faculty Mannheim, Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yudong",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Li, Danni",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jianing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jiaqi",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yalong",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xi",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China. xliu83@xjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Ren, Yu",
+        "short_name": "Ren Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China. renyyyyy@126.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Bin",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Breast Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an, 710061, Shaanxi, China. february111@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2025 Apr 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/07 02:02",
+    "fetched_at": "2026-09-30 15:26:32"
+  },
+  "links": {
+    "cites": [
+      "41373752"
+    ],
+    "refs": [
+      "39048852",
+      "38413254",
+      "38053165",
+      "38039432",
+      "37972336",
+      "37939446",
+      "37681577",
+      "37679326",
+      "37308117",
+      "37057596",
+      "37029129",
+      "36931265",
+      "36709040",
+      "36485068",
+      "36401316",
+      "34081848",
+      "33406487",
+      "33149131",
+      "32719340",
+      "32056259",
+      "31570822",
+      "29713086",
+      "29671136",
+      "29337092",
+      "28578601",
+      "27993330",
+      "27033093",
+      "26957554",
+      "26872610",
+      "25682074",
+      "22625227",
+      "22614657",
+      "20152769"
+    ],
+    "similar": [
+      "40189539",
+      "32488393",
+      "37116400",
+      "39605059",
+      "33012552",
+      "24887359",
+      "37211773",
+      "34500047",
+      "37445679",
+      "29275435",
+      "32967790",
+      "37939446",
+      "31796517",
+      "39048852",
+      "38797038",
+      "38290412",
+      "25475740",
+      "39150003",
+      "39817648",
+      "40344964",
+      "38997095",
+      "39071455",
+      "39611711",
+      "33149131",
+      "32796232",
+      "32719318",
+      "38821039",
+      "26931795",
+      "30652428",
+      "27065456",
+      "36401316",
+      "39104056",
+      "38397152",
+      "30914433",
+      "35662281",
+      "38366907",
+      "36054589",
+      "33004253",
+      "34520831",
+      "36485068",
+      "31542568",
+      "34979999",
+      "32816949",
+      "29724815",
+      "35550005",
+      "27601588",
+      "30413523",
+      "32013831",
+      "35643464",
+      "27620280",
+      "38061006",
+      "30318511",
+      "37637244",
+      "37535879",
+      "35803835",
+      "36191839",
+      "39769312",
+      "38745917",
+      "39863530",
+      "36136896",
+      "39014466",
+      "39786436",
+      "39693891",
+      "39013199",
+      "33352687",
+      "38341130",
+      "31242303",
+      "31956037",
+      "37725154",
+      "38648056",
+      "37067532",
+      "39379982",
+      "29979200",
+      "37072171",
+      "29246904",
+      "35578198",
+      "30818144",
+      "38118421",
+      "39998850",
+      "29788099",
+      "21604016",
+      "35425960",
+      "35752712",
+      "36758499",
+      "38504382",
+      "26317927",
+      "37264024",
+      "32071115",
+      "36563604",
+      "36623515",
+      "25847936",
+      "36922847",
+      "29293876",
+      "25093514",
+      "36716415",
+      "30607631",
+      "40263706",
+      "39878284",
+      "38184614",
+      "29396858"
+    ],
+    "review": [
+      "40189539",
+      "33012552",
+      "37211773",
+      "32967790",
+      "37939446",
+      "32796232",
+      "26931795",
+      "27065456",
+      "38397152",
+      "36054589",
+      "33004253",
+      "35550005",
+      "32013831",
+      "37637244",
+      "39693891",
+      "39013199",
+      "31242303",
+      "30818144",
+      "29788099",
+      "36563604"
+    ],
+    "pmc": [
+      "11974012"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-025-02520-8",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40189539/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-3279",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,72 +1,87 @@
 ## Review setup
 - **Input scope** Abstract only
-- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, tables, or supplementary data
-- **Shared manuscript claim summary** The authors report a directed engineering strategy combining energy-based screening and protein language models to improve the recombinase UvsX for recombinase polymerase amplification (RPA). A triple mutant, TIG (S233T/A311I/A341G), is claimed to show 1.89-fold higher RPA relative activity than wild-type at a template concentration of 1 x 10^5 copies per reaction, and higher amplification activity across 37.5-44.3 degrees C at 1 x 10^4 copies per reaction. Molecular dynamics simulations are claimed to reveal mechanistic basis for improved activity. Optimized expression conditions yield 206.87 +/- 3.56 mg L^-1 of TIG.
-- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information provided
-- **Missing materials affecting confidence** Full methods, experimental protocols, statistical details, simulation parameters, sequence alignments, raw activity data, expression data, and all figures/tables
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a directed engineering strategy combining energy-based screening and protein language models to improve the recombinase UvsX for recombinase polymerase amplification (RPA). A triple mutant, TIG (S233T/A311I/A341G), is claimed to show 1.89-fold higher RPA relative activity than wild-type at a template concentration of 1 x 10^5 copies per reaction, and higher amplification activity across 37.5-44.3 degrees C at 1 x 10^4 copies per reaction. Molecular dynamics simulations are claimed to reveal mechanistic basis for improved activity. Optimized expression conditions yield 206.87 +/- 3.56 mg/L of TIG.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, sequence alignments, simulation parameters, or raw data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, simulation protocols, statistical analysis details, raw activity data, expression and purification data, and any supplementary information
 
 ## Reviewer
-- **Overall assessment** The abstract presents a potentially useful engineering strategy for improving UvsX, an enzyme of practical importance in isothermal nucleic acid detection. The reported activity improvements and mechanistic interpretations are plausible but cannot be verified from the abstract alone. Several claims lack quantitative context, and the relationship between the computational predictions and experimental outcomes is not fully transparent. The work may be of interest to the nucleic acid detection and protein engineering communities, but the evidence base provided is insufficient to establish the case.
-- **Who would be interested in the results, and why** Researchers developing isothermal amplification assays, particularly RPA-based diagnostics, would be interested in improved UvsX variants that enhance sensitivity at low template concentrations and broaden the operational temperature range. Protein engineers applying machine learning and active learning to enzyme optimization would also find the strategy relevant.
-- **Major strengths** The combination of energy-based screening with protein language models represents a contemporary and potentially generalizable approach. The reported triple mutant shows improvements in both activity and thermostability-related performance, which addresses a practical bottleneck in RPA. The inclusion of molecular dynamics simulations to provide mechanistic insight is a positive feature.
+- **Overall assessment** The abstract presents a potentially useful engineering strategy for improving UvsX, an enzyme of practical importance in isothermal nucleic acid detection. The reported activity improvements and mechanistic interpretations are plausible but cannot be adequately evaluated from the abstract alone. Several claims lack sufficient quantitative context, and the mechanistic conclusions drawn from simulations require careful validation against experimental data. The work may be of interest to the nucleic acid detection and protein engineering communities, but the current evidence base is insufficient to fully establish the case.
+- **Who would be interested in the results, and why** Researchers developing isothermal amplification technologies, particularly RPA-based diagnostics, would be interested in improved UvsX variants that enhance sensitivity and low-temperature performance. Protein engineers applying machine learning and active learning approaches to enzyme optimization would also find the strategy relevant. The combination of energy-based screening with protein language models represents a methodological contribution that could interest computational biologists.
+- **Major strengths** The engineering strategy combining semi-rational design with active learning (EVOLVEpro) is contemporary and potentially generalizable. The reported improvements in both activity and thermostability range are practically relevant for RPA applications. The inclusion of molecular dynamics simulations to provide mechanistic interpretation adds depth beyond purely empirical engineering. The expression yield data suggest practical scalability.
 - **Major Concerns**
   - **Concern ID** R1-M1
   - **Severity** Major
   - **Blocking** Yes
   - **Axis** Evidence sufficiency
-  - **Claim pointer** The triple mutant TIG achieved 1.89-fold RPA relative activity of wild-type at a template concentration of 1 x 10^5 copies per reaction, and showed higher amplification activity across 37.5-44.3 degrees C at 1 x 10^4 copies per reaction.
-  - **Evidence pointer** Abstract only; location not provided
-  - **Concern** The abstract reports activity improvements at specific template concentrations and temperatures, but provides no information on the number of replicates, error bars, statistical significance, or the assay conditions used. The 1.89-fold improvement is presented as a single point value without variance. The claim of "higher amplification activity" across a temperature range is not quantified.
-  - **Why it matters** Without measures of variability and statistical testing, it is impossible to determine whether the reported improvements are robust or within experimental noise. This is particularly important for enzyme activity assays, which are sensitive to reaction conditions.
-  - **Resolution test** Provide replicate data with standard deviations, statistical tests comparing TIG to wild-type at each condition, and full assay details including buffer composition, incubation time, and detection method.
+  - **Claim pointer** The triple mutant TIG achieved 1.89-fold RPA relative activity of wild-type at a template concentration of 1 x 10^5 copies per reaction.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports a single relative activity value without indicating the number of replicates, error bars, statistical significance, or the specific assay conditions (e.g., temperature, time, detection method). It is unclear whether this 1.89-fold improvement is reproducible and statistically robust.
+  - **Why it matters** A single point estimate without variance or statistical testing cannot establish the reliability of the claimed improvement. This is the central quantitative claim of the study and must be rigorously supported.
+  - **Resolution test** Provide replicate data with standard deviation or confidence intervals, statistical comparison against wild-type, and a clear description of assay conditions. Ideally, show dose-response or time-course data to demonstrate consistency.
   - **Concern ID** R1-M2
   - **Severity** Major
   - **Blocking** Yes
-  - **Axis** Mechanistic claim support
-  - **Claim pointer** Molecular dynamics simulations revealed that TIG enhances residue flexibility and remodels the ATP-binding pocket, thereby improving DNA-binding pathway connectivity and strengthening the coupling between ATP hydrolysis and DNA strand exchange.
-  - **Evidence pointer** Abstract only; location not provided
-  - **Concern** The mechanistic claims are derived from molecular dynamics simulations, but no simulation parameters, convergence criteria, force field details, or validation against experimental data are provided. The connection between simulated residue flexibility and experimentally observed activity is asserted without direct evidence.
-  - **Why it matters** Mechanistic interpretations from simulations are only credible when the simulation methodology is sound and when the predicted effects are experimentally validated. Without this, the mechanistic narrative remains speculative.
-  - **Resolution test** Provide simulation details, show that the simulations are converged and reproducible, and include experimental validation of at least one predicted mechanistic feature, such as ATP-binding affinity or DNA-binding measurements.
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** TIG showed higher amplification activity than wild-type across 37.5-44.3 degrees C at a template concentration of 1 x 10^4 copies per reaction.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The temperature range is reported as 37.5-44.3 degrees C, which is an unusual and overly precise range. It is unclear whether this represents a continuous range of tested temperatures, discrete points, or a fitted range from a model. The abstract does not specify how many temperatures were tested, the increment, or the magnitude of improvement at each temperature.
+  - **Why it matters** The claim of broader temperature activity is a key practical advantage for RPA, which typically operates at constant low temperatures. Without clarity on the experimental design and the extent of improvement, the practical significance cannot be assessed.
+  - **Resolution test** Provide a temperature-activity profile with clear experimental points, error bars, and statistical comparisons at each temperature. Clarify whether the range boundaries are derived from experimental data or extrapolation.
   - **Concern ID** R1-M3
   - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic overinterpretation
+  - **Claim pointer** Molecular dynamics simulations revealed that TIG enhances residue flexibility and remodels the ATP-binding pocket, thereby improving DNA-binding pathway connectivity and strengthening the coupling between ATP hydrolysis and DNA strand exchange.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract presents a detailed mechanistic narrative based on molecular dynamics simulations, but no simulation parameters, convergence criteria, force field details, or validation against experimental mutagenesis data are provided. The causal chain from residue flexibility to ATP-binding pocket remodeling to improved coupling between ATP hydrolysis and strand exchange is asserted without direct experimental evidence.
+  - **Why it matters** Mechanistic claims of this specificity require robust computational validation and ideally experimental corroboration (e.g., ATPase activity assays, DNA binding affinity measurements, or strand exchange assays with the mutant). Without these, the mechanism remains speculative.
+  - **Resolution test** Provide simulation details and validation, and include experimental measurements of ATP hydrolysis rates, DNA binding affinities, and strand exchange activities for both wild-type and TIG to support the proposed mechanism.
+  - **Concern ID** R1-M4
+  - **Severity** Major
   - **Blocking** No
-  - **Axis** Strategy attribution
-  - **Claim pointer** The authors employed a directed engineering strategy combining energy-based screening and protein language models, with semi rational design and iterative optimization with EVOLVEpro.
-  - **Evidence pointer** Abstract only; location not provided
-  - **Concern** The abstract does not clarify the relative contribution of each computational component. It is unclear whether the energy-based screening, the protein language models, or the EVOLVEpro iterations were responsible for identifying the final triple mutant. The number of variants screened, the selection criteria at each step, and the failure rate are not reported.
-  - **Why it matters** For a strategy paper, the reader needs to understand which steps were essential and how generalizable the approach might be. Without this information, the claimed strategy cannot be evaluated or reproduced.
-  - **Resolution test** Provide a clear workflow with the number of variants at each stage, the selection thresholds, and an analysis of which computational component contributed most to the final outcome.
+  - **Axis** Generalizability of strategy
+  - **Claim pointer** This study provides a strategy for UvsX engineering and establishes a foundation for the development of more robust RPA assays.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe the full iterative optimization process, the number of variants screened, the success rate of the active learning approach, or whether the strategy was validated on other positions or other enzymes. The generalizability of the strategy is therefore not demonstrated.
+  - **Why it matters** The broader value of the work depends on whether the active learning approach offers advantages over conventional directed evolution or rational design. Without comparative data or a clear description of the workflow, the strategic contribution is difficult to evaluate.
+  - **Resolution test** Describe the full engineering workflow, including the number of rounds, variants tested, and the predictive accuracy of the model. If possible, include a comparison with a conventional approach or a demonstration on a second target.
 - **Minor Comments**
   - **Concern ID** R1-m1
   - **Severity** Minor
   - **Axis** Clarity
   - **Affected element** Expression yield claim
-  - **Evidence pointer** Abstract only; location not provided
-  - **Issue** The yield of 206.87 +/- 3.56 mg L^-1 is reported for TIG under optimized conditions, but it is not compared to wild-type yield under the same conditions. It is unclear whether the mutations affected expression levels.
-  - **Required correction** Report wild-type yield under identical conditions, or state explicitly that the yield is comparable to wild-type.
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The yield of 206.87 +/- 3.56 mg/L is reported without specifying the culture volume, purification method, or whether this is soluble or total protein.
+  - **Required correction** Specify the expression and purification conditions, and clarify whether the yield refers to purified soluble protein.
   - **Concern ID** R1-m2
   - **Severity** Minor
-  - **Axis** Terminology
-  - **Affected element** "Thermostability" in the title
-  - **Evidence pointer** Abstract only; location not provided
-  - **Issue** The title mentions "thermostability," but the abstract reports activity at temperatures up to 44.3 degrees C, which is not a standard thermostability assay. No melting temperature or long-term stability data are provided.
-  - **Required correction** Either provide thermostability data, such as Tm values or residual activity after heat treatment, or revise the title to reflect the actual scope, such as "temperature range of activity."
+  - **Axis** Completeness
+  - **Affected element** Mutant nomenclature
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The triple mutant is named TIG with the substitutions S233T/A311I/A341G, but the numbering system (e.g., based on which UvsX ortholog or reference sequence) is not stated.
+  - **Required correction** Provide the reference sequence and numbering convention used for the residue positions.
   - **Concern ID** R1-m3
   - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Activity comparison
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "1.89-fold RPA relative activity" but does not define what "relative activity" means in this context (e.g., relative to wild-type under identical conditions, or relative to a standard curve).
+  - **Required correction** Define the term "relative activity" explicitly and describe how it was calculated.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
   - **Axis** Reproducibility
-  - **Affected element** "Per-residue energy decomposition and protein structure network analyses"
-  - **Evidence pointer** Abstract only; location not provided
-  - **Issue** These analyses are mentioned but not described. It is unclear what specific insights they provided beyond the molecular dynamics findings.
-  - **Required correction** Briefly state what these analyses revealed and how they complement the molecular dynamics simulations.
-- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of statistical context for the primary activity claims and the absence of simulation validation prevent the case from being established from the provided evidence.
-- **Assessment against Nature-style criteria** Originality: The combination of energy-based screening with protein language models for UvsX engineering appears novel, though the abstract does not fully distinguish it from prior directed evolution approaches. Scientific importance: Improved UvsX variants have practical value for RPA-based diagnostics, but the reported improvements are modest and the broader impact is not contextualized against existing alternatives. Interdisciplinary readership: The work bridges protein engineering, computational biology, and molecular diagnostics, which could attract a broad audience. Technical soundness: Cannot be assessed from the abstract alone; the lack of statistical detail and simulation validation is concerning. Readability for nonspecialists: The abstract is generally clear, though some computational terms are used without explanation.
-- **Recommendation posture** Currently not established from the provided evidence. The work is potentially interesting, and the strategy may be sound, but the abstract alone does not provide sufficient evidence to support the central claims. A full manuscript with detailed methods, replicate data, and simulation validation would be required to assess the case.
+  - **Affected element** Simulation methods
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** No details are given for the molecular dynamics simulations, including the software, force field, simulation length, or number of replicas.
+  - **Required correction** Provide simulation parameters in the methods section and reference them in the abstract where appropriate.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical robustness of the central activity claim), R1-M2 (clarity and completeness of temperature-dependent activity data), R1-M3 (mechanistic claims lacking experimental validation)
+- **Assessment against Nature-style criteria** Originality: The combination of energy-based screening with protein language models for enzyme engineering is timely and potentially original, though the abstract does not fully distinguish it from prior work. Scientific importance: Improved UvsX variants for RPA have practical importance for diagnostics, but the significance of the improvement (1.89-fold) needs context relative to existing UvsX variants or alternative engineering efforts. Interdisciplinary readership: The work bridges protein engineering, computational biology, and molecular diagnostics, which could attract a broad readership if the methods are clearly presented. Technical soundness: Cannot be fully assessed from the abstract; the lack of statistical detail and simulation validation is concerning. Readability for nonspecialists: The abstract is reasonably accessible, though the mechanistic section is dense and would benefit from clearer framing of the simulation findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core claims of improved activity and thermostability are plausible and practically relevant, but the current evidence base, as presented in the abstract, is insufficient to fully establish statistical robustness, mechanistic validity, and the generalizability of the engineering strategy. Full manuscript review is necessary to assess these points.
 
 ## Risk / unsupported claims
-- The 1.89-fold activity improvement is reported without variance or statistical significance.
-- The claim of "higher amplification activity" across 37.5-44.3 degrees C is not quantified.
-- The mechanistic interpretation from molecular dynamics simulations is unsupported without simulation details and experimental validation.
-- The relative contribution of the computational components to the final mutant is not described.
-- The yield claim lacks a wild-type comparison.
-- The title's reference to "thermostability" is not supported by the data described in the abstract.
+- The 1.89-fold activity improvement is reported without statistical context and cannot be evaluated for robustness.
+- The temperature range 37.5-44.3 degrees C is presented without experimental design details, making the claim of broader temperature activity unverifiable.
+- The mechanistic narrative linking residue flexibility, ATP-binding pocket remodeling, and improved coupling between ATP hydrolysis and strand exchange is unsupported by experimental validation in the abstract.
+- The claim that the study "provides a strategy" for UvsX engineering implies generalizability that is not demonstrated from the abstract alone.
+- The expression yield is reported without sufficient context on purification and protein quality.

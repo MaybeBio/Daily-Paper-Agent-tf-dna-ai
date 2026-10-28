@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35266510",
+  "title": "Heterogeneous graph embedding model for predicting interactions between TF and target gene.",
+  "authors": "Huang, Yu-An; Pan, Gui-Qing; Wang, Jia; Li, Jian-Qiang; Chen, Jie; Wu, Yang-Han",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2022-03-11",
+  "window": {
+    "start": "2022-03-07",
+    "end": "2022-03-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用异构图嵌入模型预测TF-靶基因相互作用，虽涉及TF-DNA相关体系，但主要基于基因调控网络而非三维结构互作建模，方法可迁移但深度有限。",
+  "abstract": "MOTIVATION: Identifying the target genes of transcription factors (TFs) is of great significance for biomedical researches. However, using biological experiments to identify TF-target gene interactions is still time consuming, expensive and limited to small scale. Existing computational methods for predicting underlying genes for TF to target is mainly proposed for their binding sites rather than the direct interaction. To bridge this gap, we in this work proposed a deep learning prediction model, named HGETGI, to identify the new TF-target gene interaction. Specifically, the proposed HGETGI model learns the patterns of the known interaction between TF and target gene complemented with their involvement in different human disease mechanisms. It performs prediction based on random walk for meta-path sampling and node embedding in a skip-gram manner. RESULTS: We evaluated the prediction performance of the proposed method on a real dataset and the experimental results show that it can achieve the average area under the curve of 0.8519 +/- 0.0731 in fivefold cross validation. Besides, we conducted case studies on the prediction of two important kinds of TF, NFKB1 and TP53. As a result, 33 and 32 in the top-40 ranking lists of NFKB1 and TP53 were successfully confirmed by looking up another public database (hTftarget). It is envisioned that the proposed HGETGI method is feasible and effective for predicting TF-target gene interactions on a large scale. AVAILABILITY AND IMPLEMENTATION: The source code and dataset are available at https://github.com/PGTSING/HGETGI. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "动机：识别转录因子（transcription factors, TFs）的靶基因对生物医学研究具有重要意义。然而，使用生物实验来识别TF-靶基因相互作用仍然耗时、昂贵且局限于小规模。现有的用于预测TF靶向潜在基因的计算方法主要针对其结合位点，而非直接相互作用。为弥补这一差距，本研究提出了一种名为HGETGI的深度学习预测模型，以识别新的TF-靶基因相互作用。具体而言，所提出的HGETGI模型学习TF与靶基因之间已知相互作用的模式，并结合它们在不同人类疾病机制中的参与情况。它基于元路径采样的随机游走和skip-gram方式的节点嵌入进行预测。结果：我们在真实数据集上评估了所提方法的预测性能，实验结果表明，在五折交叉验证中，其平均曲线下面积达到0.8519 ± 0.0731。此外，我们对两种重要TF（NFKB1和TP53）的预测进行了案例研究。结果显示，在NFKB1和TP53的前40排名列表中，分别有33和32个通过查阅另一个公共数据库（hTftarget）成功确认。预计所提出的HGETGI方法在大规模预测TF-靶基因相互作用方面是可行且有效的。可用性和实现：源代码和数据集可在https://github.com/PGTSING/HGETGI获取。补充信息：补充数据可在《生物信息学》在线获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35266510/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35266510/",
+  "paper_page_path": "papers/pubmed/35266510/index.html"
+}

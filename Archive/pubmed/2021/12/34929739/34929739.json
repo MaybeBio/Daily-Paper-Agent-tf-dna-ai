@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "34929739",
+    "doi": "10.1093/bib/bbab525",
+    "title": "A novel convolution attention model for predicting transcription factor binding sites by combination of sequence and shape."
+  },
+  "content": {
+    "abstract": "The discovery of putative transcription factor binding sites (TFBSs) is important for understanding the underlying binding mechanism and cellular functions. Recently, many computational methods have been proposed to jointly account for DNA sequence and shape properties in TFBSs prediction. However, these methods fail to fully utilize the latent features derived from both sequence and shape profiles and have limitation in interpretability and knowledge discovery. To this end, we present a novel Deep Convolution Attention network combining Sequence and Shape, dubbed as D-SSCA, for precisely predicting putative TFBSs. Experiments conducted on 165 ENCODE ChIP-seq datasets reveal that D-SSCA significantly outperforms several state-of-the-art methods in predicting TFBSs, and justify the utility of channel attention module for feature refinements. Besides, the thorough analysis about the contribution of five shapes to TFBSs prediction demonstrates that shape features can improve the predictive power for transcription factors-DNA binding. Furthermore, D-SSCA can realize the cross-cell line prediction of TFBSs, indicating the occupancy of common interplay patterns concerning both sequence and shape across various cell lines. The source code of D-SSCA can be found at https://github.com/MoonLord0525/.",
+    "keywords": [
+      "DNA shape profiles",
+      "attention mechanism",
+      "convolutional neural network",
+      "transcription factor binding sites prediction"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "*Binding Sites",
+      "Chromatin Immunoprecipitation Sequencing",
+      "Computational Biology/*methods",
+      "DNA/chemistry",
+      "DNA-Binding Proteins/*chemistry",
+      "Humans",
+      "Neural Networks, Computer",
+      "Protein Binding",
+      "Software",
+      "Transcription Factors/*chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yongqing",
+        "Wang, Zixuan",
+        "Zeng, Yuanqi",
+        "Liu, Yuhang",
+        "Xiong, Shuwen",
+        "Wang, Maocheng",
+        "Zhou, Jiliu",
+        "Zou, Quan"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Wang Z",
+        "Zeng Y",
+        "Liu Y",
+        "Xiong S",
+        "Wang M",
+        "Zhou J",
+        "Zou Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computer Science, Chengdu University of Information Technology, 610225, Chengdu, China.",
+        "School of Computer Science and Engineering, University of Electronic Science and Technology of China, 611731, Chengdu, China.",
+        "School of Computer Science, Chengdu University of Information Technology, 610225, Chengdu, China.",
+        "School of Computer Science, Chengdu University of Information Technology, 610225, Chengdu, China.",
+        "School of Computer Science, Chengdu University of Information Technology, 610225, Chengdu, China.",
+        "School of Computer Science, Chengdu University of Information Technology, 610225, Chengdu, China.",
+        "School of Computer Science, Chengdu University of Information Technology, 610225, Chengdu, China.",
+        "School of Computer Science, Chengdu University of Information Technology, 610225, Chengdu, China.",
+        "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, 610054, Chengdu, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yongqing",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, 610225, Chengdu, China.",
+          "School of Computer Science and Engineering, University of Electronic Science and Technology of China, 611731, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zixuan",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, 610225, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Yuanqi",
+        "short_name": "Zeng Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, 610225, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuhang",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, 610225, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Shuwen",
+        "short_name": "Xiong S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, 610225, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Maocheng",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, 610225, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jiliu",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, 610225, Chengdu, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Quan",
+        "short_name": "Zou Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, 610054, Chengdu, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Jan 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/21 06:00",
+    "fetched_at": "2026-09-28 03:12:40"
+  },
+  "links": {
+    "cites": [
+      "41799016",
+      "41634097",
+      "41627694",
+      "39588827",
+      "39350338",
+      "39107889",
+      "38701417",
+      "38510021",
+      "38336958",
+      "38082253",
+      "37140548",
+      "36902216",
+      "36768917",
+      "36360189"
+    ],
+    "refs": [],
+    "similar": [
+      "34929739",
+      "37328639",
+      "39350338",
+      "31634140",
+      "38701417",
+      "36748992",
+      "29993783",
+      "34752400",
+      "34272562",
+      "30835229",
+      "18627598",
+      "33498086",
+      "38236675",
+      "32960766",
+      "38643066",
+      "34613923",
+      "39107889",
+      "30897079",
+      "34073774",
+      "34882561",
+      "27845669",
+      "35462009",
+      "38732207",
+      "36155619",
+      "38733561",
+      "33767912",
+      "36049552",
+      "31372637",
+      "17914226",
+      "33522898",
+      "19091030",
+      "33837387",
+      "33372147",
+      "32770026",
+      "36094959",
+      "35042722",
+      "36484687",
+      "30447332",
+      "30106688",
+      "26285121",
+      "21059262",
+      "27117388",
+      "27503086",
+      "29757349",
+      "31483836",
+      "16817975",
+      "23282203",
+      "35997564",
+      "31754708",
+      "33975951",
+      "31336830",
+      "15799782",
+      "20360861",
+      "31665425",
+      "35652477",
+      "28334268",
+      "38572749",
+      "19029915",
+      "38975896",
+      "27546793",
+      "26130577",
+      "31323206",
+      "32946398",
+      "23427986",
+      "25957350",
+      "37140548",
+      "32133533",
+      "36057196",
+      "24927817",
+      "27567672",
+      "28849563",
+      "33822856",
+      "38049725",
+      "24472686",
+      "30281475",
+      "20529874",
+      "33581335",
+      "22504445",
+      "20017957",
+      "28541376",
+      "18546507",
+      "39096613",
+      "34664074",
+      "23620286",
+      "33371891",
+      "25775564",
+      "21124986",
+      "35263332",
+      "24386279",
+      "19730699",
+      "27045826",
+      "17078876",
+      "22784574",
+      "21912677",
+      "28750606",
+      "19583839",
+      "24042128",
+      "26818008",
+      "37598467",
+      "24008418",
+      "26704972",
+      "15340913",
+      "30133315",
+      "15266008",
+      "24942981",
+      "11997350",
+      "19478008",
+      "25192742",
+      "31899481",
+      "27153645",
+      "22348285",
+      "28623590",
+      "19586888",
+      "33538038",
+      "24608116",
+      "29165643",
+      "30445619",
+      "32404971",
+      "30957858",
+      "38798191",
+      "33238837",
+      "35471886",
+      "36398911",
+      "36458923",
+      "29081688",
+      "28961686",
+      "28642456",
+      "36067103",
+      "29472273",
+      "33416862",
+      "37004267",
+      "39174927",
+      "30922998",
+      "35015646",
+      "37845681",
+      "36374878",
+      "37193676",
+      "39068371",
+      "38696758",
+      "35809058",
+      "35213314",
+      "35753699",
+      "35955587",
+      "36081197",
+      "38375921",
+      "35389869",
+      "38293094",
+      "39244557",
+      "37387183",
+      "35588673",
+      "37708177",
+      "33772587",
+      "34375278",
+      "35891778",
+      "38848239",
+      "36462902",
+      "34415301",
+      "28927002"
+    ],
+    "review": [
+      "34929739",
+      "30447332",
+      "35652477",
+      "28334268",
+      "36057196",
+      "19586888"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/34929739.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbab525",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

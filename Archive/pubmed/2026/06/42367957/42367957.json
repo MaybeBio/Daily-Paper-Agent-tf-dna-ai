@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "42367957",
+    "doi": "10.64898/2026.06.17.731965",
+    "title": "Evaluation of analysis modes for RNA coexpression in single-cell and bulk tissue."
+  },
+  "content": {
+    "abstract": "Coexpression of transcripts presents the most common means of computational inference of transcription factor regulation, and is often combined with other data types to infer regulatory networks. With the growing popularity of single-cell approaches, there are questions about how best to extract coexpression information from the data. Recently we reported a simulation study that explored the differences among coexpression performed at different levels: across single cells (xCell, per cell type), across subjects from pseudobulked single-cell data (xSubject, per cell type), or across subjects using bulk tissue samples (xBulk). Here we test predictions made by those models using real data. We consider both preservation (consistency of coexpression findings across different levels of analysis of the same data) and replicability across independent studies, as well as biological interpretability. We find that preservation across levels is limited, indicating the choice of analysis level will affect outcomes. We show that xCell coexpression is more replicable across studies compared to xSubject. xBulk coexpression is dominated by patterns driven by variability in cellular composition and fails to capture much coexpression that is reliably detected at finer resolutions. While all modes of analysis exhibit some enrichment for known regulatory relationships, it was highest with the xCell mode. Finally, we present a case study of the effect of analysis modes on a schizophrenia-associated pattern, reinforcing the importance of analytic choices in the interpretation and replicability of coexpression analyses. Together with our modeling study, this work emphasizes the importance of understanding sources of expression covariation as they relate to the goals of the analysis, and recommend single-cell-based data with biological replicates should be the focus of attempts to infer dynamic regulatory interactions that are more likely to be replicable by others.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chu, Ching Pan",
+        "Elazzabi, Nairuz",
+        "Garreau, Jules",
+        "Xu, Brianna",
+        "Yu, Xinrui Xiang",
+        "Morin, Alexander",
+        "Pavlidis, Paul"
+      ],
+      "short_names": [
+        "Chu CP",
+        "Elazzabi N",
+        "Garreau J",
+        "Xu B",
+        "Yu XX",
+        "Morin A",
+        "Pavlidis P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8339-9277"
+      ],
+      "affiliations": [
+        "Department of Psychiatry and Michael Smith Laboratories, University of British Columbia, Vancouver BC.",
+        "Department of Psychiatry and Michael Smith Laboratories, University of British Columbia, Vancouver BC.",
+        "Department of Psychiatry and Michael Smith Laboratories, University of British Columbia, Vancouver BC.",
+        "Department of Psychiatry and Michael Smith Laboratories, University of British Columbia, Vancouver BC.",
+        "Department of Psychiatry and Michael Smith Laboratories, University of British Columbia, Vancouver BC.",
+        "Department of Psychiatry and Michael Smith Laboratories, University of British Columbia, Vancouver BC.",
+        "Department of Psychiatry and Michael Smith Laboratories, University of British Columbia, Vancouver BC."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chu, Ching Pan",
+        "short_name": "Chu CP",
+        "identifiers": [
+          "0000-0002-8339-9277"
+        ],
+        "affiliations": [
+          "Department of Psychiatry and Michael Smith Laboratories, University of British Columbia, Vancouver BC."
+        ]
+      },
+      {
+        "full_name": "Elazzabi, Nairuz",
+        "short_name": "Elazzabi N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Michael Smith Laboratories, University of British Columbia, Vancouver BC."
+        ]
+      },
+      {
+        "full_name": "Garreau, Jules",
+        "short_name": "Garreau J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Michael Smith Laboratories, University of British Columbia, Vancouver BC."
+        ]
+      },
+      {
+        "full_name": "Xu, Brianna",
+        "short_name": "Xu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Michael Smith Laboratories, University of British Columbia, Vancouver BC."
+        ]
+      },
+      {
+        "full_name": "Yu, Xinrui Xiang",
+        "short_name": "Yu XX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Michael Smith Laboratories, University of British Columbia, Vancouver BC."
+        ]
+      },
+      {
+        "full_name": "Morin, Alexander",
+        "short_name": "Morin A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Michael Smith Laboratories, University of British Columbia, Vancouver BC."
+        ]
+      },
+      {
+        "full_name": "Pavlidis, Paul",
+        "short_name": "Pavlidis P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry and Michael Smith Laboratories, University of British Columbia, Vancouver BC."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jun 19",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/29 12:32",
+    "fetched_at": "2026-10-02 00:49:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40257984",
+      "34665801",
+      "34244710",
+      "31907445",
+      "31340985",
+      "29982380",
+      "28991892",
+      "20463871",
+      "20308593",
+      "19114008",
+      "9843981",
+      "9843569"
+    ],
+    "similar": [
+      "42367957",
+      "42475469",
+      "36321557",
+      "41310253",
+      "32580998",
+      "34904892",
+      "29262162",
+      "41786602",
+      "38873396",
+      "25145040",
+      "23912807",
+      "21409949",
+      "33153500",
+      "40618350",
+      "39365797",
+      "40257984",
+      "38559016",
+      "26269925",
+      "35976114",
+      "41797598",
+      "32103259",
+      "32082359",
+      "39762897",
+      "29553663",
+      "29746690",
+      "33036834",
+      "22849236",
+      "26844322",
+      "30726003",
+      "37295843",
+      "12353422",
+      "31872748",
+      "42523538",
+      "42341466",
+      "26042329",
+      "39134413",
+      "41578372",
+      "29630593",
+      "24608543",
+      "35593869",
+      "19081792",
+      "41257571",
+      "39334271",
+      "34095314",
+      "42642681",
+      "37131927",
+      "36147664",
+      "42084601",
+      "31985403",
+      "33031383",
+      "36147671",
+      "32019417",
+      "36766730",
+      "36626328",
+      "42636032",
+      "37209635",
+      "42482180",
+      "30571073",
+      "40297323",
+      "19908367",
+      "42282079",
+      "12065068",
+      "42650039",
+      "41556887",
+      "41436831",
+      "42263482",
+      "31009065",
+      "41896196",
+      "37629071",
+      "41915021",
+      "42398561",
+      "32462012",
+      "33661921",
+      "42510819",
+      "21799793",
+      "31811028",
+      "29914350",
+      "27559550",
+      "42170279",
+      "37131379",
+      "40251476",
+      "34903665",
+      "42687963",
+      "34015329",
+      "42564761",
+      "39823522",
+      "30256575",
+      "36238494",
+      "39702203",
+      "24955372",
+      "19357200",
+      "22393375",
+      "40739511",
+      "36911341",
+      "41415412",
+      "35620808",
+      "41555735",
+      "41425595",
+      "21132580",
+      "40575349"
+    ],
+    "review": [
+      "42367957",
+      "36321557",
+      "38873396",
+      "26269925",
+      "41797598",
+      "29553663",
+      "29746690",
+      "26844322",
+      "12353422",
+      "26042329",
+      "37131927",
+      "36147664",
+      "42084601",
+      "42282079",
+      "12065068",
+      "41556887",
+      "27559550",
+      "30256575",
+      "36911341",
+      "41555735"
+    ],
+    "pmc": [
+      "13308146"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42367957/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.06.17.731965",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

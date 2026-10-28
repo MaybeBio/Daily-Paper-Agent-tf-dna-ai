@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40166636",
+  "title": "Identification and validation of biomarkers associated with mitochondrial dysfunction and ferroptosis in rat spinal cord injury.",
+  "authors": "Zhu, Jingliang; Wang, Shuai; Zhang, Yu; Zhou, Chusong",
+  "journal": "Frontiers in neurology",
+  "published_date": "2025-04-01",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究通过机器学习识别脊髓损伤中线粒体功能障碍和铁死亡相关生物标志物，虽提及转录因子预测但核心非蛋白质-DNA互作建模，方法为常规生物信息学分析，与本课题关联度低。",
+  "abstract": "INTRODUCTION: Mitochondrial dysfunction and ferroptosis have been implicated in the pathophysiological processes following spinal cord injury (SCI), with evidence suggesting their interplay influences neuronal cell survival and repair mechanisms. This study seeks to identify mitochondria- and ferroptosis-related biomarkers through comprehensive bioinformatics analysis. METHODS: Mitochondria- and ferroptosis-associated differentially expressed genes (DEGs) were identified through the integration of differential expression analysis and weighted gene co-expression network analysis. Two machine learning algorithms, least absolute shrinkage and selection operator (LASSO) and Boruta, were employed to isolate SCI-associated feature genes. Biomarkers were subsequently identified by analyzing their expression levels. An artificial neural network (ANN) diagnostic model was constructed to predict SCI likelihood based on these biomarkers. Further evaluations were performed using enrichment analysis, immune infiltration profiling, molecular modulation assessment, and drug prediction. The biomarkers' expression levels were validated using RT-qPCR. RESULTS: In this study, two biomarkers, Hcrt and Cdca2, linked to mitochondrial function and ferroptosis in SCI, were found to be highly expressed in SCI samples. Tissue-specific analysis from the GTEx database revealed expression of these biomarkers in brain and spinal cord tissues. The ANN model, constructed using these biomarkers, accurately discriminated between SCI and control samples. Enrichment analysis highlighted several co-enriched pathways for Hcrt and Cdca2, including \"ubiquitin-mediated proteolysis,\" \"endocytosis,\" and the \"neurotrophin signaling pathway.\" Immune infiltration analysis, based on the Wilcoxon test, demonstrated significant differences in T follicular helper cell levels, which were lower in SCI samples compared to controls. Notably, T follicular helper cells exhibited a positive correlation with Hcrt and a negative correlation with Cdca2. Furthermore, seven transcription factors, including CEBPB, FOXC1, and GATA2, were identified as potential co-regulators of Hcrt and Cdca2. Drug prediction analysis revealed stable interactions of Cdca2 with pinosylvin, zinc acetate dihydrate, hydroquinone, lucanthone, and dasatinib. RT-qPCR validation confirmed the expression patterns of Hcrt and Cdca2 in alignment with the dataset, showing statistically significant differences. DISCUSSION: This study identifies Hcrt and Cdca2 as biomarkers related to mitochondrial function and ferroptosis in SCI, providing new insights for the diagnosis and mechanistic understanding of SCI.",
+  "abstract_zh": "引言：线粒体功能障碍与铁死亡（ferroptosis）已被认为参与脊髓损伤（spinal cord injury, SCI）后的病理生理过程，且有证据表明二者的相互作用影响神经元存活与修复机制。本研究旨在通过综合生物信息学分析，识别与线粒体和铁死亡相关的生物标志物。方法：通过整合差异表达分析和加权基因共表达网络分析，鉴定与线粒体和铁死亡相关的差异表达基因（differentially expressed genes, DEGs）。采用两种机器学习算法，即最小绝对收缩和选择算子（least absolute shrinkage and selection operator, LASSO）和Boruta，以筛选SCI相关特征基因。随后通过分析其表达水平鉴定生物标志物。基于这些生物标志物构建人工神经网络（artificial neural network, ANN）诊断模型，以预测SCI可能性。进一步评估采用富集分析、免疫浸润谱分析、分子调控评估和药物预测。使用RT-qPCR验证生物标志物的表达水平。结果：本研究发现两个与SCI中线粒体功能和铁死亡相关的生物标志物Hcrt和Cdca2，在SCI样本中高表达。GTEx数据库的组织特异性分析显示，这些生物标志物在脑和脊髓组织中表达。基于这些生物标志物构建的ANN模型能准确区分SCI样本与对照样本。富集分析突出了Hcrt和Cdca2的多个共富集通路，包括“泛素介导的蛋白水解”、“内吞作用”和“神经营养因子信号通路”。基于Wilcoxon检验的免疫浸润分析显示，T滤泡辅助细胞水平存在显著差异，SCI样本中低于对照。值得注意的是，T滤泡辅助细胞与Hcrt呈正相关，与Cdca2呈负相关。此外，包括CEBPB、FOXC1和GATA2在内的七个转录因子被鉴定为Hcrt和Cdca2的潜在共调控因子。药物预测分析显示，Cdca2与松柏素、二水醋酸锌、对苯二酚、卢坎酮和达沙替尼存在稳定相互作用。RT-qPCR验证确认了Hcrt和Cdca2的表达模式与数据集一致，且差异具有统计学显著性。讨论：本研究将Hcrt和Cdca2鉴定为与SCI中线粒体功能和铁死亡相关的生物标志物，为SCI的诊断和机制理解提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40166636/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40166636/",
+  "paper_page_path": "papers/pubmed/40166636/index.html"
+}

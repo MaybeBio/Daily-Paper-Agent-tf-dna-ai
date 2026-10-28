@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40079264",
+  "title": "Predicting differentially methylated cytosines in TET and DNMT3 knockout mutants via a large language model.",
+  "authors": "Sereshki, Saleh; Lonardi, Stefano",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2025-03-13",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用Transformer大语言模型预测TET/DNMT3敲除后的差异甲基化胞嘧啶，虽涉及DNA序列与酶结合位点，但核心是表观遗传修饰预测而非蛋白质-DNA互作建模，方法可迁移性有限。",
+  "abstract": "DNA methylation is an epigenetic marker that directly or indirectly regulates several critical cellular processes. While cytosines in mammalian genomes generally maintain stable methylation patterns over time, other cytosines that belong to specific regulatory regions, such as promoters and enhancers, can exhibit dynamic changes. These changes in methylation are driven by a complex cellular machinery, in which the enzymes DNMT3 and TET play key roles. The objective of this study is to design a machine learning model capable of accurately predicting which cytosines have a fluctuating methylation level [hereafter called differentially methylated cytosines (DMCs)] from the surrounding DNA sequence. Here, we introduce L-MAP, a transformer-based large language model that is trained on DNMT3-knockout and TET-knockout data in human and mouse embryonic stem cells. Our extensive experimental results demonstrate the high accuracy of L-MAP in predicting DMCs. Our experiments also explore whether a classifier trained on human knockout data could predict DMCs in the mouse genome (and vice versa), and whether a classifier trained on DNMT3 knockout data could predict DMCs in TET knockouts (and vice versa). L-MAP enables the identification of sequence motifs associated with the enzymatic activity of DNMT3 and TET, which include known motifs but also novel binding sites that could provide new insights into DNA methylation in stem cells. L-MAP is available at https://github.com/ucrbioinfo/dmc_prediction.",
+  "abstract_zh": "DNA甲基化是一种表观遗传标记，直接或间接调控多种关键细胞过程。尽管哺乳动物基因组中的胞嘧啶通常随时间保持稳定的甲基化模式，但属于特定调控区域（如启动子和增强子）的其他胞嘧啶可能表现出动态变化。这些甲基化变化由复杂的细胞机制驱动，其中DNMT3和TET酶发挥关键作用。本研究的目标是设计一种机器学习模型，能够从周围DNA序列中准确预测哪些胞嘧啶具有波动的甲基化水平[以下称为差异甲基化胞嘧啶（DMCs）]。在此，我们介绍L-MAP，一种基于Transformer的大型语言模型，该模型在人类和小鼠胚胎干细胞中的DNMT3敲除和TET敲除数据上进行训练。我们广泛的实验结果表明，L-MAP在预测DMCs方面具有高准确性。我们的实验还探讨了在人类敲除数据上训练的分类器是否能预测小鼠基因组中的DMCs（反之亦然），以及在DNMT3敲除数据上训练的分类器是否能预测TET敲除中的DMCs（反之亦然）。L-MAP能够识别与DNMT3和TET酶活性相关的序列基序，其中包括已知基序以及可能为干细胞中DNA甲基化提供新见解的新型结合位点。L-MAP可在https://github.com/ucrbioinfo/dmc_prediction获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40079264/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40079264/",
+  "paper_page_path": "papers/pubmed/40079264/index.html"
+}

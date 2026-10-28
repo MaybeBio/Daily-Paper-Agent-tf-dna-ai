@@ -1,0 +1,193 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.12.22.573103",
+  "title": "Atomic context-conditioned protein sequence design using LigandMPNN",
+  "doi": "10.1101/2023.12.22.573103",
+  "abstract": "Protein sequence design in the context of small molecules, nucleotides, and metals is critical to enzyme and small molecule binder and sensor design, but current state-of-the-art deep learning-based sequence design methods are unable to model non-protein atoms and molecules. Here, we describe a deep learning-based protein sequence design method called LigandMPNN that explicitly models all non-protein components of biomolecular systems. LigandMPNN significantly outperforms Rosetta and ProteinMPNN on native backbone sequence recovery for residues interacting with small molecules (63.3% vs. 50.4% & 50.5%), nucleotides (50.5% vs. 35.2% & 34.0%), and metals (77.5% vs. 36.0% & 40.6%). LigandMPNN generates not only sequences but also sidechain conformations to allow detailed evaluation of binding interactions. Experimental characterization demonstrates that LigandMPNN can generate small molecule and DNA-binding proteins with high affinity and specificity. <h4>One-sentence summary</h4> We present a deep learning-based protein sequence design method that allows explicit modeling of small molecule, nucleotide, metal, and other atomic contexts.",
+  "authors": [
+    "Dauparas J",
+    "Lee GR",
+    "Pecoraro R",
+    "An L",
+    "Anishchenko I",
+    "Glasscock C",
+    "Baker D"
+  ],
+  "published_date": "2023-12-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.12.22.573103",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.12.22.573103.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR778570",
+    "raw_record": {
+      "id": "PPR778570",
+      "source": "PPR",
+      "doi": "10.1101/2023.12.22.573103",
+      "title": "Atomic context-conditioned protein sequence design using LigandMPNN",
+      "authorString": "Dauparas J, Lee GR, Pecoraro R, An L, Anishchenko I, Glasscock C, Baker D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Dauparas J",
+            "lastName": "Dauparas",
+            "firstName": "Justas",
+            "initials": "J"
+          },
+          {
+            "fullName": "Lee GR",
+            "lastName": "Lee",
+            "firstName": "Gyu Rie",
+            "initials": "GR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9119-5303"
+            }
+          },
+          {
+            "fullName": "Pecoraro R",
+            "lastName": "Pecoraro",
+            "firstName": "Robert",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1656-0470"
+            }
+          },
+          {
+            "fullName": "An L",
+            "lastName": "An",
+            "firstName": "Linna",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9858-9105"
+            }
+          },
+          {
+            "fullName": "Anishchenko I",
+            "lastName": "Anishchenko",
+            "firstName": "Ivan",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3645-2044"
+            }
+          },
+          {
+            "fullName": "Glasscock C",
+            "lastName": "Glasscock",
+            "firstName": "Cameron",
+            "initials": "C"
+          },
+          {
+            "fullName": "Baker D",
+            "lastName": "Baker",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7896-6217"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7896-6217"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9858-9105"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1656-0470"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9119-5303"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3645-2044"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Protein sequence design in the context of small molecules, nucleotides, and metals is critical to enzyme and small molecule binder and sensor design, but current state-of-the-art deep learning-based sequence design methods are unable to model non-protein atoms and molecules. Here, we describe a deep learning-based protein sequence design method called LigandMPNN that explicitly models all non-protein components of biomolecular systems. LigandMPNN significantly outperforms Rosetta and ProteinMPNN on native backbone sequence recovery for residues interacting with small molecules (63.3% vs. 50.4% & 50.5%), nucleotides (50.5% vs. 35.2% & 34.0%), and metals (77.5% vs. 36.0% & 40.6%). LigandMPNN generates not only sequences but also sidechain conformations to allow detailed evaluation of binding interactions. Experimental characterization demonstrates that LigandMPNN can generate small molecule and DNA-binding proteins with high affinity and specificity. <h4>One-sentence summary</h4>  We present a deep learning-based protein sequence design method that allows explicit modeling of small molecule, nucleotide, metal, and other atomic contexts.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/23/2023.12.22.573103.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.12.22.573103"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40155723",
+            "reference": "Nature methods. 2025 Apr;22(4):717-723",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 25,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-12-25",
+      "firstPublicationDate": "2023-12-23",
+      "firstIndexDate": "2023-12-25",
+      "hasEvaluations": "N"
+    }
+  }
+}

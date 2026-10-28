@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "41254727",
+    "doi": "10.1186/s40001-025-03357-x",
+    "title": "RNF185 promotes esophageal squamous cell carcinoma progression by regulating BAK1 ubiquitination and activating the cGAS-STING-IRF3 pathway."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: RNF185 is a mitochondrial RING-type E3 ubiquitin ligase known to regulate mitochondrial homeostasis, apoptosis, and innate immune signaling through ubiquitination of substrates such as BNIP1, JWA, and cGAS. Although dysregulation of RNF185 has been reported in several cancers, its role in esophageal squamous cell carcinoma (ESCC) remains unclear. The present study aimed to investigate the function of RNF185 in ESCC progression and assess its potential as a therapeutic target. METHODS: We analyzed RNF185 expression in the TCGA-ESCA dataset and ESCC cell lines. RNF185 knockout cell lines were generated using CRISPR/Cas9. Functional assays including CCK-8, colony formation, apoptosis analysis, transmission electron microscopy (TEM), and ELISA were performed. Activation of the cGAS-STING pathway and downstream transcription factors was assessed by Western blot, qPCR, luciferase assays, and ChIP-qPCR. BAK1 ubiquitination and interaction with RNF185 were evaluated using immunoprecipitation. In vivo tumor growth inhibition was tested using a subcutaneous mouse xenograft model with Honokiol treatment. RESULTS: RNF185 was significantly overexpressed in ESCC tissues and correlated with worse patient outcomes. RNF185 knockout suppressed cell proliferation, induced apoptosis, and caused mitochondrial damage and mtDNA release, activating the cGAS-STING-IRF3 pathway. Mechanistically, RNF185 mediated BAK1 ubiquitination to maintain mitochondrial integrity. Loss of RNF185 led to BAK1 accumulation and IRF3-dependent transcriptional upregulation of BAK1, forming a positive feedback loop promoting apoptosis. Knockdown of BAK1 or IRF3 rescued mitochondrial structure and cell survival. Honokiol, identified via molecular docking, targeted RNF185, reduced BAK1 ubiquitination, activated innate immune signaling, and inhibited tumor growth in vivo. CONCLUSION: RNF185 sustains mitochondrial homeostasis and ESCC cell survival by promoting BAK1 ubiquitination and limiting cGAS-STING-IRF3-mediated immune activation. Targeting RNF185 with small molecules like Honokiol may represent a promising therapeutic approach in ESCC.",
+    "keywords": [
+      "BAK1 ubiquitination",
+      "CGAS-STING pathway",
+      "Esophageal squamous cell carcinoma (ESCC)",
+      "Mitochondrial apoptosis",
+      "RNF185"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Esophageal Squamous Cell Carcinoma/pathology/metabolism/genetics",
+      "*Membrane Proteins/metabolism",
+      "Animals",
+      "Ubiquitination",
+      "*Esophageal Neoplasms/pathology/metabolism/genetics",
+      "Mice",
+      "*Ubiquitin-Protein Ligases/metabolism/genetics",
+      "Signal Transduction",
+      "*Nucleotidyltransferases/metabolism",
+      "*Interferon Regulatory Factor-3/metabolism/genetics",
+      "*bcl-2 Homologous Antagonist-Killer Protein/metabolism/genetics",
+      "Cell Line, Tumor",
+      "Disease Progression",
+      "Apoptosis",
+      "Gene Expression Regulation, Neoplastic",
+      "Cell Proliferation",
+      "Xenograft Model Antitumor Assays",
+      "STING Protein",
+      "Cyclic Guanosine Monophosphate-Adenosine Monophosphate Synthase"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Ke-Hao",
+        "Zhu, Hui",
+        "Xu, Meng-Dan",
+        "Wang, Yi-Ping",
+        "Fan, Qing-Qing",
+        "Cen, Dan-Ping",
+        "Wang, Shu-Jun"
+      ],
+      "short_names": [
+        "Wang KH",
+        "Zhu H",
+        "Xu MD",
+        "Wang YP",
+        "Fan QQ",
+        "Cen DP",
+        "Wang SJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Cixi People's Hospital Medical Health Group (Cixi People's Hospital), Cixi Hospital, Wenzhou Medical University, Ningbo, 315300, China.",
+        "School of Information Science and Technology, Fudan University, Shanghai, 200082, China.",
+        "Cixi People's Hospital Medical Health Group (Cixi People's Hospital), Cixi Hospital, Wenzhou Medical University, Ningbo, 315300, China.",
+        "Cixi People's Hospital Medical Health Group (Cixi People's Hospital), Cixi Hospital, Wenzhou Medical University, Ningbo, 315300, China.",
+        "Cixi People's Hospital Medical Health Group (Cixi People's Hospital), Cixi Hospital, Wenzhou Medical University, Ningbo, 315300, China.",
+        "Cixi People's Hospital Medical Health Group (Cixi People's Hospital), Cixi Hospital, Wenzhou Medical University, Ningbo, 315300, China.",
+        "Cixi People's Hospital Medical Health Group (Cixi People's Hospital), Cixi Hospital, Wenzhou Medical University, Ningbo, 315300, China.",
+        "Cixi People's Hospital Medical Health Group (Cixi People's Hospital), Cixi Hospital, Wenzhou Medical University, Ningbo, 315300, China. m13429332988@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Ke-Hao",
+        "short_name": "Wang KH",
+        "identifiers": [],
+        "affiliations": [
+          "Cixi People's Hospital Medical Health Group (Cixi People's Hospital), Cixi Hospital, Wenzhou Medical University, Ningbo, 315300, China.",
+          "School of Information Science and Technology, Fudan University, Shanghai, 200082, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Hui",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Cixi People's Hospital Medical Health Group (Cixi People's Hospital), Cixi Hospital, Wenzhou Medical University, Ningbo, 315300, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Meng-Dan",
+        "short_name": "Xu MD",
+        "identifiers": [],
+        "affiliations": [
+          "Cixi People's Hospital Medical Health Group (Cixi People's Hospital), Cixi Hospital, Wenzhou Medical University, Ningbo, 315300, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yi-Ping",
+        "short_name": "Wang YP",
+        "identifiers": [],
+        "affiliations": [
+          "Cixi People's Hospital Medical Health Group (Cixi People's Hospital), Cixi Hospital, Wenzhou Medical University, Ningbo, 315300, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Qing-Qing",
+        "short_name": "Fan QQ",
+        "identifiers": [],
+        "affiliations": [
+          "Cixi People's Hospital Medical Health Group (Cixi People's Hospital), Cixi Hospital, Wenzhou Medical University, Ningbo, 315300, China."
+        ]
+      },
+      {
+        "full_name": "Cen, Dan-Ping",
+        "short_name": "Cen DP",
+        "identifiers": [],
+        "affiliations": [
+          "Cixi People's Hospital Medical Health Group (Cixi People's Hospital), Cixi Hospital, Wenzhou Medical University, Ningbo, 315300, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shu-Jun",
+        "short_name": "Wang SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Cixi People's Hospital Medical Health Group (Cixi People's Hospital), Cixi Hospital, Wenzhou Medical University, Ningbo, 315300, China. m13429332988@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2025 Nov 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/19 06:32",
+    "fetched_at": "2026-10-01 06:35:21"
+  },
+  "links": {
+    "cites": [
+      "41896410",
+      "41733252"
+    ],
+    "refs": [
+      "39531934",
+      "38055816",
+      "37821702",
+      "37224781",
+      "36510011",
+      "34623322",
+      "34016129",
+      "33833439",
+      "33538338",
+      "33290271",
+      "33285276",
+      "33268351",
+      "32738479",
+      "31979345",
+      "31852718",
+      "31665638",
+      "31578484",
+      "31002949",
+      "30894073",
+      "30848986",
+      "30142096",
+      "29481911",
+      "29472455",
+      "28755482",
+      "28273161",
+      "27648547",
+      "25539106",
+      "25517383",
+      "21555398"
+    ],
+    "similar": [
+      "41254727",
+      "32863938",
+      "32727517",
+      "35209954",
+      "40854921",
+      "32867821",
+      "39341782",
+      "40394235",
+      "32653032",
+      "35317779",
+      "41176636",
+      "31438989",
+      "40632228",
+      "39672175",
+      "39440461",
+      "39993992",
+      "39891717",
+      "38658954",
+      "38914958",
+      "38954215",
+      "41088127",
+      "31778020",
+      "39468941",
+      "31481019",
+      "40211342",
+      "28273161",
+      "38780271",
+      "41044609",
+      "38436783",
+      "40102683",
+      "29530057",
+      "38720472",
+      "34162562",
+      "37993750",
+      "30854784",
+      "31783401",
+      "41061782",
+      "29481911",
+      "38429756",
+      "39389957",
+      "40135592",
+      "32619460",
+      "40499524",
+      "40612943",
+      "31812473",
+      "38228844",
+      "39821659",
+      "40252097",
+      "30609930",
+      "39638799",
+      "29551772",
+      "39255925",
+      "41092853",
+      "32239565",
+      "38671352",
+      "40140842",
+      "40652518",
+      "31747529",
+      "41107946",
+      "40052596",
+      "40186402",
+      "29145896",
+      "40616744",
+      "39447407",
+      "40417915",
+      "35750756",
+      "40383614",
+      "30848215",
+      "40404117",
+      "33345719",
+      "31331361",
+      "41283348",
+      "32066565",
+      "39503194",
+      "39985567",
+      "40534132",
+      "30081903",
+      "41327220",
+      "33434300",
+      "32284536",
+      "40693409",
+      "38324215",
+      "39702934",
+      "31853782",
+      "40021097",
+      "39763297",
+      "36368436",
+      "38715543",
+      "39837946",
+      "33416144",
+      "39537222",
+      "40821803",
+      "41217226",
+      "34016129",
+      "40660293",
+      "32096149",
+      "41207896",
+      "38934786",
+      "33079409",
+      "34517880"
+    ],
+    "review": [
+      "41254727",
+      "40693409"
+    ],
+    "pmc": [
+      "12628518"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-025-03357-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/esophagealcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Esophageal Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41254727/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41254727",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STING1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1632",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

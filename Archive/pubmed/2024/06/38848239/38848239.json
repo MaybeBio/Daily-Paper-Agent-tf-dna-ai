@@ -1,0 +1,217 @@
+{
+  "identity": {
+    "pmid": "38848239",
+    "doi": "10.1109/TCBB.2024.3411024",
+    "title": "Transcription Factor Binding Site Prediction Using CnNet Approach."
+  },
+  "content": {
+    "abstract": "Controlling the gene expression is the most important development in a living organism, which makes it easier to find different kinds of diseases and their causes. It's very difficult to know what factors control the gene expression. Transcription Factor (TF) is a protein that plays an important role in gene expression. Discovering the transcription factor has immense biological significance, however, it is challenging to develop novel techniques and evaluation for regulatory developments in biological structures. In this research, we mainly focus on 'sequence specificities' that can be ascertained from experimental data with 'deep learning' techniques, which offer a scalable, flexible and unified computational approach for predicting transcription factor binding. Specifically, Multiple Expression motifs for Motif Elicitation (MEME) technique with Convolution Neural Network (CNN) named as CnNet, has been used for discovering the 'sequence specificities' of DNA gene sequences dataset. This process involves two steps: a) discovering the motifs that are capable of identifying useful TF binding site by using MEME technique, and b) computing a score indicating the likelihood of a given sequence being a useful binding site by using CNN technique. The proposed CnNet approach predicts the TF binding score with much better accuracy compared to existing approaches.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites/genetics",
+      "*Transcription Factors/metabolism/genetics/chemistry",
+      "*Computational Biology/methods",
+      "*Neural Networks, Computer",
+      "*Sequence Analysis, DNA/methods",
+      "Deep Learning",
+      "Algorithms",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Masood, M Mohamed Divan",
+        "Manjula, D",
+        "Sugumaran, Vijayan"
+      ],
+      "short_names": [
+        "Masood MMD",
+        "Manjula D",
+        "Sugumaran V"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Masood, M Mohamed Divan",
+        "short_name": "Masood MMD",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Manjula, D",
+        "short_name": "Manjula D",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Sugumaran, Vijayan",
+        "short_name": "Sugumaran V",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE/ACM transactions on computational biology and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "IEEE/ACM Trans Comput Biol Bioinform"
+    ],
+    "pub_date": "2024 Nov-Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/07 18:42",
+    "fetched_at": "2026-09-29 21:28:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38848239",
+      "40102719",
+      "32770026",
+      "32960766",
+      "40334196",
+      "35652477",
+      "17500587",
+      "34534646",
+      "29617928",
+      "34607350",
+      "20807838",
+      "39076052",
+      "35275822",
+      "27845669",
+      "17990511",
+      "39701486",
+      "17951829",
+      "33372147",
+      "20380693",
+      "34073774",
+      "31634140",
+      "30133315",
+      "30423062",
+      "31856220",
+      "31372637",
+      "27567672",
+      "21059262",
+      "15647296",
+      "39270885",
+      "19811641",
+      "21486936",
+      "40065237",
+      "41042660",
+      "38701417",
+      "31336830",
+      "30475725",
+      "16845028",
+      "34272562",
+      "33137083",
+      "38644393",
+      "21124945",
+      "34929739",
+      "24564945",
+      "17204484",
+      "33571101",
+      "30106688",
+      "33522898",
+      "30835229",
+      "19583839",
+      "39623329",
+      "31714956",
+      "20360861",
+      "20838582",
+      "23365625",
+      "23209563",
+      "29757349",
+      "15266008",
+      "16870937",
+      "38451769",
+      "28571483",
+      "34613923",
+      "18047721",
+      "40914877",
+      "20870645",
+      "18349034",
+      "28753602",
+      "33603233",
+      "29993783",
+      "25775564",
+      "25722376",
+      "39227799",
+      "29654070",
+      "38940155",
+      "33498086",
+      "30590725",
+      "26213851",
+      "19835596",
+      "17377845",
+      "28718849",
+      "31481462",
+      "29116820",
+      "17893078",
+      "41294241",
+      "29970003",
+      "30590059",
+      "25957350",
+      "26291518",
+      "30716072",
+      "18021409",
+      "30323198",
+      "16873497",
+      "23244338",
+      "16643658",
+      "30629513",
+      "35263332",
+      "41288963",
+      "24349230",
+      "21030733",
+      "40380071",
+      "35240993"
+    ],
+    "review": [
+      "38848239",
+      "35652477",
+      "31714956",
+      "18047721"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.ieeecomputersociety.org/10.1109/TCBB.2024.3411024",
+        "provider": "IEEE Computer Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1109/TCBB.2024.3411024",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

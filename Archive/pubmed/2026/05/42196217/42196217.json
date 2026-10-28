@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "42196217",
+    "doi": "10.3390/ijms27104234",
+    "title": "Tedizolid Targets AQP9-JAK/STAT Axis to Suppress Metastatic Progression in Clear Cell Renal Cell Carcinoma: Mechanism and Therapeutic Implications."
+  },
+  "content": {
+    "abstract": "Metastasis is a primary driver of poor outcomes in clear cell renal cell carcinoma (ccRCC), yet the role of Aquaporin-9 (AQP9) in this process remains unclear. This study aimed to investigate the function, clinical significance, and therapeutic potential of AQP9 in ccRCC. AQP9 expression was analyzed using TCGA data and validated in human tissues and cell lines via Western blot. Functional assays assessed malignant behaviors, while bioinformatics and rescue experiments explored the involvement of the JAK/STAT pathway and epithelial-mesenchymal transition (EMT). Virtual screening, molecular docking, and cellular thermal shift assays (CETSAs) were employed to identify Tedizolid as a potential AQP9 inhibitor, followed by functional validation in vitro and in a xenograft model. AQP9 was significantly upregulated in ccRCC and associated with poor prognosis. The knockdown of AQP9 suppressed proliferation, migration, invasion, and EMT, whereas its overexpression promoted these effects by activating the JAK/STAT pathway. Tedizolid bound directly to AQP9, inhibited cell viability, reversed AQP9-induced malignant phenotypes, and suppressed JAK/STAT signaling both in vitro and in vivo. In conclusion, AQP9 promotes ccRCC metastasis through the JAK/STAT-EMT axis and represents a potential prognostic biomarker and therapeutic target. Tedizolid, identified as a novel AQP9 inhibitor, offers a promising repurposed strategy for ccRCC treatment.",
+    "keywords": [
+      "Aquaporin-9",
+      "JAK/STAT pathway",
+      "clear cell renal cell carcinoma",
+      "drug repurposing",
+      "metastasis",
+      "tedizolid"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Renal Cell/metabolism/drug therapy/pathology/genetics",
+      "*Kidney Neoplasms/metabolism/drug therapy/pathology/genetics",
+      "Animals",
+      "Signal Transduction/drug effects",
+      "*Aquaporins/metabolism/genetics/antagonists & inhibitors",
+      "Cell Line, Tumor",
+      "Mice",
+      "*Janus Kinases/metabolism",
+      "Cell Movement/drug effects",
+      "Cell Proliferation/drug effects",
+      "Epithelial-Mesenchymal Transition/drug effects",
+      "*STAT Transcription Factors/metabolism",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Male",
+      "Xenograft Model Antitumor Assays",
+      "Molecular Docking Simulation",
+      "Mice, Nude",
+      "Female",
+      "Disease Progression"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qu, Kexin",
+        "Zhang, Tianya",
+        "Wang, Rui",
+        "Bi, Yingwei",
+        "Jin, Jiacheng",
+        "Liu, Yuxin",
+        "Yi, Bolin",
+        "Zhu, Liang",
+        "Wang, Jianbo"
+      ],
+      "short_names": [
+        "Qu K",
+        "Zhang T",
+        "Wang R",
+        "Bi Y",
+        "Jin J",
+        "Liu Y",
+        "Yi B",
+        "Zhu L",
+        "Wang J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0645-6792",
+        "ORCID: 0000-0002-0428-8879",
+        "ORCID: 0000-0002-2667-3946"
+      ],
+      "affiliations": [
+        "Department of Urology, The First Affiliated Hospital of Dalian Medical University, Dalian 116011, China.",
+        "Department of Clinical Laboratory, The First Affiliated Hospital of Dalian Medical University, Dalian 116011, China.",
+        "Department of Urology, The First Affiliated Hospital of Dalian Medical University, Dalian 116011, China.",
+        "Department of Urology, The First Affiliated Hospital of Dalian Medical University, Dalian 116011, China.",
+        "Department of Urology, The First Affiliated Hospital of Dalian Medical University, Dalian 116011, China.",
+        "Department of Urology, The First Affiliated Hospital of Dalian Medical University, Dalian 116011, China.",
+        "Department of Urology, The First Affiliated Hospital of Dalian Medical University, Dalian 116011, China.",
+        "Advanced Institute for Medical Sciences, Dalian Medical University, Dalian 116011, China.",
+        "Department of Urology, The First Affiliated Hospital of Dalian Medical University, Dalian 116011, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qu, Kexin",
+        "short_name": "Qu K",
+        "identifiers": [
+          "0000-0002-0645-6792"
+        ],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Dalian Medical University, Dalian 116011, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tianya",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, The First Affiliated Hospital of Dalian Medical University, Dalian 116011, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Rui",
+        "short_name": "Wang R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Dalian Medical University, Dalian 116011, China."
+        ]
+      },
+      {
+        "full_name": "Bi, Yingwei",
+        "short_name": "Bi Y",
+        "identifiers": [
+          "0000-0002-0428-8879"
+        ],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Dalian Medical University, Dalian 116011, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Jiacheng",
+        "short_name": "Jin J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Dalian Medical University, Dalian 116011, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuxin",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Dalian Medical University, Dalian 116011, China."
+        ]
+      },
+      {
+        "full_name": "Yi, Bolin",
+        "short_name": "Yi B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Dalian Medical University, Dalian 116011, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Liang",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "Advanced Institute for Medical Sciences, Dalian Medical University, Dalian 116011, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jianbo",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0002-2667-3946"
+        ],
+        "affiliations": [
+          "Department of Urology, The First Affiliated Hospital of Dalian Medical University, Dalian 116011, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 May 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/27 06:40",
+    "fetched_at": "2026-10-01 21:38:08"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41424409",
+      "40631997",
+      "40622593",
+      "40613877",
+      "40580422",
+      "39858295",
+      "39621555",
+      "38703764",
+      "38572751",
+      "38424624",
+      "38334836",
+      "38191424",
+      "37781036",
+      "37461061",
+      "36929669",
+      "36803413",
+      "36372898",
+      "35972604",
+      "35716914",
+      "35581606",
+      "35477402",
+      "34804972",
+      "34598418",
+      "33538338",
+      "32229502",
+      "32115773",
+      "31969493",
+      "31952344",
+      "31703694",
+      "31489901",
+      "30906802",
+      "30866952",
+      "30578415",
+      "30344749",
+      "28961310",
+      "28619511",
+      "28276433",
+      "27549611",
+      "27216981",
+      "27187384",
+      "26951092",
+      "26318520",
+      "25673021",
+      "24887009",
+      "24205128",
+      "22962305",
+      "22676255",
+      "21943213",
+      "19851315",
+      "18591767",
+      "17936059",
+      "17652804",
+      "17084522",
+      "11027599",
+      "10872456",
+      "8127021",
+      "1010528",
+      "833871"
+    ],
+    "similar": [
+      "42196217",
+      "41877380",
+      "40790482",
+      "40990946",
+      "39789627",
+      "41693360",
+      "41050079",
+      "41270811",
+      "41593693",
+      "41483244",
+      "31703694",
+      "31978894",
+      "38831470",
+      "42435834",
+      "30428910",
+      "41376629",
+      "41365162",
+      "41832498",
+      "38773612",
+      "40713656",
+      "39831843",
+      "42105605",
+      "41673210",
+      "32281285",
+      "38948215",
+      "42053610",
+      "39818256",
+      "41946263",
+      "28659173",
+      "42174657",
+      "32513235",
+      "39856473",
+      "39307376",
+      "41508957",
+      "42333228",
+      "37863123",
+      "41992986",
+      "42260555",
+      "39614428",
+      "40874680",
+      "40770761",
+      "30670025",
+      "42473178",
+      "33500248",
+      "40070232",
+      "41188452",
+      "40504084",
+      "39425205",
+      "41610717",
+      "42010588",
+      "36717944",
+      "32760196",
+      "41171368",
+      "42205867",
+      "41184988",
+      "40411279",
+      "34581421",
+      "32908919",
+      "41135615",
+      "40473067",
+      "23273913",
+      "31911271",
+      "33859753",
+      "39815239",
+      "38917875",
+      "23982215",
+      "34030133",
+      "37454877",
+      "32169891",
+      "41935591",
+      "41862190",
+      "31545453",
+      "41193709",
+      "42322858",
+      "42426850",
+      "36847128",
+      "38818827",
+      "39317735",
+      "40216172",
+      "42113369",
+      "41956427",
+      "41782880",
+      "41862958",
+      "40216870",
+      "30772441",
+      "31455359",
+      "39777695",
+      "40299934",
+      "40320861",
+      "31381269",
+      "38951255",
+      "39863860",
+      "32051393",
+      "41057666",
+      "39999286",
+      "38980439",
+      "41296440",
+      "41015250",
+      "39309431",
+      "34036483"
+    ],
+    "review": [
+      "42196217"
+    ],
+    "pmc": [
+      "13208031"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27104234",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/kidneycancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Kidney Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42196217/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39900922",
+  "title": "A mechanism-informed deep neural network enables prioritization of regulators that drive cell state transitions.",
+  "authors": "Xi, Xi; Li, Jiaqi; Jia, Jinmeng; Meng, Qiuchen; Li, Chen; Wang, Xiaowo; Wei, Lei; Zhang, Xuegong",
+  "journal": "Nature communications",
+  "published_date": "2025-02-04",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出融合基因调控机制的深度神经网络regX，利用单细胞多组学数据优先排序驱动细胞状态转变的转录因子和顺式调控元件，虽涉及TF-DNA调控但未聚焦三维互作建模，方法可迁移至TF-DNA结合预测。",
+  "abstract": "Cells are regulated at multiple levels, from regulations of individual genes to interactions across multiple genes. Some recent neural network models can connect molecular changes to cellular phenotypes, but their design lacks modeling of regulatory mechanisms, limiting the decoding of regulations behind key cellular events, such as cell state transitions. Here, we present regX, a deep neural network incorporating both gene-level regulation and gene-gene interaction mechanisms, which enables prioritizing potential driver regulators of cell state transitions and providing mechanistic interpretations. Applied to single-cell multi-omics data on type 2 diabetes and hair follicle development, regX reliably prioritizes key transcription factors and candidate cis-regulatory elements that drive cell state transitions. Some regulators reveal potential new therapeutic targets, drug repurposing possibilities, and putative causal single nucleotide polymorphisms. This method to analyze single-cell multi-omics data demonstrates how the interpretable design of neural networks can better decode biological systems.",
+  "abstract_zh": "细胞在多个层面上受到调控，从单个基因的调控到多个基因间的相互作用。一些最新的神经网络模型能够将分子变化与细胞表型联系起来，但其设计缺乏对调控机制的建模，限制了对关键细胞事件（如细胞状态转变）背后调控机制的解读。在此，我们提出regX，一种融合了基因水平调控和基因间相互作用机制的深度神经网络，能够优先识别细胞状态转变的潜在驱动调控因子，并提供机制性解释。应用于2型糖尿病和毛囊发育的单细胞多组学数据时，regX可靠地优先识别出驱动细胞状态转变的关键转录因子和候选顺式调控元件。一些调控因子揭示了潜在的新治疗靶点、药物再利用可能性以及推测的因果单核苷酸多态性。这种分析单细胞多组学数据的方法展示了神经网络的可解释设计如何更好地解码生物系统。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39900922/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39900922/",
+  "paper_page_path": "papers/pubmed/39900922/index.html"
+}

@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific and technical evaluation of the web-tool ProDFace, its underlying parameters, validation on docking decoys, and its utility claims
+- **Shared manuscript claim summary** The authors present ProDFace, a web-tool that characterizes protein-DNA interfaces using amino acid propensity, hydrogen bond donor capacity, sequence conservation, and geometry. The tool outputs physicochemical and geometric parameters for whole interfaces and core/rim regions, plus downloadable files on water-mediated HBs, potential HB donors, and conserved residues. The authors claim these features can evaluate and validate docking solutions, simulation-derived structures, and prediction tool outputs, and can aid development of improved prediction methods.
+- **Visible evidence base** Full text including Abstract, Introduction, Implementation, Results, Discussion, Conclusion, Data availability, and Supplementary figure references. No figures or supplementary files were provided.
+- **Missing materials affecting confidence** Figures 1 and 2, Table 1 and 2, Supplementary Figures S1 and S2, and the actual web-tool interface and output examples were not provided. The original benchmarking paper (Dey et al., 2012) is referenced but not available for verification.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful web-tool for analyzing protein-DNA interfaces, building on previously published parameters. The concept is relevant and the tool addresses a genuine gap, as few such resources exist. However, the manuscript as presented has significant limitations. The validation on docking decoys is described only qualitatively with no quantitative metrics provided in the text. The claimed performance improvements over existing methods are not substantiated with comparative data. The web-tool itself could not be evaluated as no URL access or screenshots were provided. The manuscript reads more like a software announcement than a rigorous scientific validation, and the evidence presented is insufficient to fully support the stated utility claims.
+- **Who would be interested in the results, and why** Structural biologists studying protein-DNA recognition, computational biologists developing docking or prediction algorithms, and researchers using molecular dynamics simulations of protein-DNA complexes. The tool could be useful for validating predicted complex structures and for educational purposes in structural bioinformatics courses.
+- **Major strengths** The tool addresses a real need in the field, as protein-DNA interface analysis tools are scarce. The parameters are grounded in prior published work with demonstrated discriminatory power. The integration of multiple features (propensity, HB donors, conservation, geometry, water mediation) into a single web interface is practical. The tool is freely available and source code is provided on GitHub, supporting reproducibility and community use.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation adequacy
+  - **Claim pointer** "The physico-chemical features (Rp, Dp and Ncons) described above were used to identify the DNA-binding region on the protein component and they performed very well (Dey et al., 2012). In order to further test the efficacy of the features, they were tested on several docking decoys of protein-DNA complexes."
+  - **Evidence pointer** Section "Application to docking decoys", Supplementary Figures S1 and S2 (not provided)
+  - **Concern** The validation on docking decoys is described only in qualitative terms. No quantitative metrics such as success rates, enrichment factors, or comparison against other scoring functions are provided in the text. The supplementary figures are referenced but were not available for review. The statement that "the interface was ranked #1 if it occurred within the top 10% of all the decoys" is ambiguous, and the performance numbers cited (53.3%, 66%, 73%, 86%) appear without confidence intervals or statistical testing. The claim that "there is no single entry whose interface cannot be discriminated from the decoys by any of the features defined by us" is strong and requires more rigorous evidence.
+  - **Why it matters** The central utility claim of the tool is its ability to discriminate correct docking solutions from decoys. Without quantitative validation metrics, statistical significance, and comparison to existing methods, this claim is not established. The manuscript cannot be properly evaluated without the supplementary data.
+  - **Resolution test** Provide quantitative results including success rates, rank distributions, statistical significance tests, and comparison against at least one existing scoring function or alternative method. Make the supplementary figures available for review.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Benchmarking and comparison
+  - **Claim pointer** "Our simple single statistical features performed quite satisfactorily in comparison to the various scoring functions that are rigorously generated."
+  - **Evidence pointer** Section "Conclusion", location not provided
+  - **Concern** This comparative claim is made without any direct comparison data. No existing scoring functions or prediction methods are named, no benchmark datasets are described, and no performance comparison is shown. The statement appears in the conclusion without supporting evidence in the results section.
+  - **Why it matters** A claim of comparable or superior performance to existing methods requires direct head-to-head comparison on the same benchmark datasets. Without this, the claim is unsupported and potentially misleading to users who may choose this tool over alternatives.
+  - **Resolution test** Include a benchmark section where ProDFace features are compared against at least 2-3 established scoring functions or prediction methods on a common decoy dataset, with appropriate statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Web-tool accessibility and usability
+  - **Claim pointer** "The web-tool is freely available at structbioinfo.iitj.ac.in/resources/bioinfo/pd_interface"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The web-tool URL was not accessible during review, and no screenshots, usage examples, or output demonstrations were provided in the manuscript. The tool's usability, input handling, error cases, and output interpretation cannot be assessed.
+  - **Why it matters** For a web-tool paper, the functionality and usability of the tool are central contributions. Without demonstration of the tool in action, readers cannot assess whether it meets their needs or whether the described outputs are actually produced.
+  - **Resolution test** Provide screenshots of the input and output interfaces, a worked example with a known complex, and ensure the URL is functional. Consider adding a tutorial or example section.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Parameter definitions and reproducibility
+  - **Claim pointer** "Briefly we define here the different characteristics that ProDFace investigates and we refer the reader to the original paper (Dey et al., 2012) where these properties have been described and benchmarked."
+  - **Evidence pointer** Section "Definition for different parameters and features", location not provided
+  - **Concern** The manuscript defers all parameter definitions and benchmarking to a previous paper. While this is acceptable for established parameters, the current manuscript does not describe how the parameters were tuned or adapted for the web-tool implementation. The threshold values (e.g., 0.1 A2 for surface area loss, 10 A2 for HB donor accessibility, 20 A for clustering, 30% for homolog cutoff) are stated but their justification is not provided.
+  - **Why it matters** Reproducibility is a core scientific principle. Without clear parameter definitions and justification, users cannot understand the tool's behavior or interpret its outputs correctly. The manuscript should be self-contained enough for a reader to understand what the tool computes.
+  - **Resolution test** Provide a more detailed description of each parameter, its calculation, and the rationale for threshold choices. If space is limited, consider a supplementary methods section.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states the tool "characterizes the binding region" but does not specify what types of outputs users should expect or how the tool differs from existing resources beyond being newer.
+  - **Required correction** Add one sentence in the abstract summarizing the key output types and the tool's unique contribution relative to existing databases like DNAProDB.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Section "Interface atoms and residues"
+  - **Evidence pointer** Section "Interface atoms and residues", location not provided
+  - **Issue** The definition of core and rim is given but the biological significance of this distinction is not explained. Why is it useful to separate core from rim?
+  - **Required correction** Add one or two sentences explaining the biological relevance of the core/rim distinction, e.g., core residues are more conserved and contribute more to binding free energy.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "Application to docking decoys"
+  - **Evidence pointer** Section "Application to docking decoys", location not provided
+  - **Issue** The decoy dataset description is incomplete. The number of complexes (15) is mentioned, but the total number of decoys (15 x 100 = 1500) is not stated. The nature of the decoys (e.g., generated by FTDock only, or also other methods) is unclear.
+  - **Required correction** State the total number of decoys and clarify whether all decoys were generated by FTDock or if other methods were used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section "Application to docking decoys"
+  - **Evidence pointer** Section "Application to docking decoys", location not provided
+  - **Issue** The sentence "The lone entry (PDB: 1je8) for which Rp failed was found to have a very negative propensity score for the real interface itself" is unclear. What does "very negative propensity score" mean in practical terms?
+  - **Required correction** Clarify what a negative propensity score indicates and why it leads to failure of discrimination.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Future work
+  - **Affected element** Section "Conclusion"
+  - **Evidence pointer** Section "Conclusion", location not provided
+  - **Issue** The statement about future support for RNA and ssDNA is mentioned but not elaborated. Given that the tool currently supports these analyses, this statement is confusing.
+  - **Required correction** Clarify whether RNA and ssDNA support is currently functional or planned for future versions.
+- **Technical failings that need to be addressed before the case is established** The quantitative validation data (Supplementary Figures S1 and S2) must be provided and described with appropriate statistical rigor. The comparative claim against existing scoring functions must be substantiated with direct benchmark data. The web-tool must be demonstrated to be functional and accessible.
+- **Assessment against Nature-style criteria** Originality: Moderate. The parameters are not new, but their integration into a web-tool for protein-DNA interfaces is a useful contribution. Scientific importance: Moderate. The tool addresses a practical need but does not advance fundamental understanding of protein-DNA recognition. Interdisciplinary readership: Limited. The tool is primarily of interest to structural biologists and computational biologists working on protein-DNA systems. Technical soundness: Not fully assessable. The underlying parameters were previously published, but the current validation is insufficiently described. Readability for nonspecialists: Acceptable. The manuscript is generally clear, though some technical sections assume familiarity with structural biology concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The tool addresses a genuine need and the underlying approach has prior published support. However, the current manuscript does not provide sufficient quantitative evidence to establish the tool's utility claims. The authors should provide the missing validation data, add comparative benchmarks, and demonstrate the tool's functionality before the manuscript can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that ProDFace features "performed quite satisfactorily in comparison to the various scoring functions" is unsupported by any comparative data in the manuscript.
+- The claim that "there is no single entry whose interface cannot be discriminated from the decoys by any of the features defined by us" is not verifiable without the supplementary data.
+- The statement that the tool "can be crucial in developing scoring functions for protein-DNA docking algorithms" is speculative and not directly supported by the presented evidence.
+- The claim that the tool can be used to "study binding region characteristics" of ALPHAFOLD-generated models is plausible but untested and not demonstrated.
+- The performance percentages cited (53.3%, 66%, 73%, 86%) are presented without statistical context, confidence intervals, or sample sizes, making them difficult to interpret.

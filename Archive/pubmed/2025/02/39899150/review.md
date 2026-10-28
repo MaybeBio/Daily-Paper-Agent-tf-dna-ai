@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report that natural variants of SOC1 promoters and SVP proteins in Brassica juncea exhibit structural diversity yet conserved binding affinity across 48 docked complexes, with extensive variation in molecular contacts suggesting compensatory mutations, and that computational predictions were validated by yeast one-hybrid assays, with alanine substitution identifying critical amino acid hotspots for complex stability.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or statistical analyses provided
+- **Missing materials affecting confidence** Full methods for model generation, docking protocols, scoring functions, validation criteria, yeast one-hybrid experimental details, alanine substitution procedures, and all quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting study on the structural and biophysical basis of SOC1-SVP interactions in Brassica juncea, with implications for flowering time engineering. However, the current evidence base is insufficient to evaluate the rigor of the computational and experimental approaches, the statistical significance of the claimed conservation of binding affinity, or the biological relevance of the identified hotspots. The claims are plausible but not verifiable from the abstract alone.
+- **Who would be interested in the results, and why** Plant molecular biologists and breeders interested in flowering time regulation and trait engineering, as well as computational biologists studying protein-DNA interaction prediction and compensatory evolution. The identification of conserved hotspots could inform rational design of regulatory proteins for early flowering crops.
+- **Major strengths** The study addresses a relevant question about natural variation in regulatory interactions and its functional conservation. The combination of phylogenetic, structural, docking, and experimental validation approaches is comprehensive. The identification of compensatory mutations as a mechanism preserving binding affinity is conceptually interesting.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "binding affinity of 48 docked complexes analysed using HADDOCK and PreDBA were similar"
+  - **Evidence pointer** Abstract, Materials and Methods and Results section; location not provided
+  - **Concern** The claim of similar binding affinity across 48 complexes is presented without any quantitative data, statistical comparison, or definition of "similar." No thresholds, confidence intervals, or error estimates are provided. The use of two docking/scoring tools (HADDOCK and PreDBA) without reporting agreement metrics between them further weakens this claim.
+  - **Why it matters** The central conclusion of conserved binding affinity despite structural diversity rests entirely on this claim. Without statistical rigor, the conclusion cannot be distinguished from a null result or an artifact of scoring method limitations.
+  - **Resolution test** Provide the distribution of binding affinity scores (e.g., HADDOCK scores, PreDBA predictions) with measures of variance, statistical tests comparing variants (e.g., ANOVA or equivalent), and correlation/agreement analysis between the two scoring methods. Define a priori criteria for "similar."
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Computational alanine substitution established cruciality of amino-acid hotspots conferring stability to docked complexes"
+  - **Evidence pointer** Abstract, Materials and Methods and Results section; location not provided
+  - **Concern** The alanine substitution analysis is described as "computational" but no details are given on the method (e.g., free energy perturbation, MM-PBSA, FoldX), the criteria for "cruciality," or the magnitude of predicted stability changes. Without this information, the claim that hotspots are "crucial" is unsupported.
+  - **Why it matters** The stated importance of the study for rational protein design depends on the reliability of these hotspot predictions. If the computational method is not validated or the thresholds are arbitrary, the practical utility of the findings is questionable.
+  - **Resolution test** Specify the computational method, validation against experimental data, the threshold for defining a hotspot, and report the predicted stability changes for all substitutions. Ideally, include experimental validation of at least a subset of predicted hotspots.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "Yeast one-hybrid assays validated binding potential predicted in docked complexes"
+  - **Evidence pointer** Abstract, Materials and Methods and Results section; location not provided
+  - **Concern** The abstract states that yeast one-hybrid assays validated binding potential but provides no information on how many complexes were tested, the selection criteria for tested variants, the quantitative readout, or the concordance between predicted and experimental binding. Validation of "binding potential" is vague and does not confirm the specific claim of conserved affinity.
+  - **Why it matters** Experimental validation is the key bridge between computational predictions and biological relevance. Without details on the scope and quantitative nature of the validation, the claim that predictions are "validated" is overstated.
+  - **Resolution test** Report the number of complexes tested, the experimental design (e.g., reporter gene activity, titration), the correlation between predicted and measured binding, and statistical analysis of differences among variants.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, Background section
+  - **Evidence pointer** Abstract, Background; location not provided
+  - **Issue** The phrase "fluctuating temperatures influence energetics of molecular interactions and phenotypes, mechanistic insights on these remain unknown" is disconnected from the rest of the study. The abstract does not describe any temperature-dependent experiments or analyses.
+  - **Required correction** Either remove this sentence or explicitly connect it to the study design and results, or clarify that temperature effects are a motivation for future work rather than part of the current study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, Materials and Methods and Results section
+  - **Evidence pointer** Abstract, Materials and Methods and Results; location not provided
+  - **Issue** The number of docked complexes analyzed for binding patterns (27) differs from the total number of docked complexes (48). The reason for this discrepancy is not explained.
+  - **Required correction** Clarify why only 27 of 48 complexes were analyzed for binding patterns and molecular contacts, and whether this subset is representative.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Abstract, Materials and Methods and Results section
+  - **Evidence pointer** Abstract, Materials and Methods and Results; location not provided
+  - **Issue** The abstract lists multiple software tools (I-TASSER, ALPHAFOLD, 3D-DART, HADDOCK, PreDBA, PyMOL, CCP4i, DNAproDB, PremPDI, DIMPLOT) but provides no version numbers, default parameters, or selection criteria for model refinement.
+  - **Required correction** In the full manuscript, provide complete parameter details and justify tool choices to ensure reproducibility.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical support for conserved binding affinity), R1-M2 (methodological detail and validation for alanine substitution), R1-M3 (scope and quantitative nature of yeast one-hybrid validation)
+- **Assessment against Nature-style criteria** Originality: The concept of compensatory mutations preserving binding affinity in natural variants of a flowering regulator is moderately original, though similar findings exist for other protein families. Scientific importance: The potential application to early flowering crop engineering is of interest, but the significance is not fully established without stronger experimental evidence. Interdisciplinary readership: The study bridges structural biology, computational docking, and plant molecular biology, which could appeal to a broad audience, but the abstract is too technical for nonspecialists. Technical soundness: Not assessable from the abstract; the computational and experimental methods lack sufficient detail and statistical rigor. Readability for nonspecialists: The abstract is dense with tool names and jargon, making it difficult for a general scientific audience to follow the logic and significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible framework, but the core claims of conserved binding affinity, validated predictions, and crucial hotspots require substantial additional quantitative and methodological detail. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim of "similar" binding affinity across 48 complexes is unsupported without statistical analysis.
+- The claim that alanine substitution "established cruciality" of hotspots is unsupported without method details and thresholds.
+- The claim that yeast one-hybrid assays "validated" binding potential is vague and not quantitatively substantiated.
+- The relevance of temperature effects mentioned in the Background is not addressed in the results, making this an unsupported contextual claim.
+- The biological significance of the identified conserved residues for trait engineering is asserted but not demonstrated with functional data.

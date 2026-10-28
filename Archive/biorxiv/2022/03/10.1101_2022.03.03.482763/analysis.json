@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.03.03.482763",
+  "title": "Deep Learning for MYC binding site recognition",
+  "authors": "R. Fioresi; P. Demurtas; G. Perini",
+  "journal": "bioRxiv",
+  "published_date": "2022-03-05",
+  "window": {
+    "start": "2022-02-28",
+    "end": "2022-03-06"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用深度学习工具DeeperBind预测MYC转录因子在全基因组上的结合位点，核心聚焦TF-DNA结合位点识别，方法为AI，高度匹配本课题。",
+  "abstract": "Motivation The definition of the genome distribution of the Myc transcription factor is extremely important since it may help predict its transcriptional activity particularly in the context of cancer. Myc is among the most powerful oncogenes involved in the occurrence and development of more than 80% of different types of pediatric and adult cancers. Myc regulates thousands of genes which can be in part different, depending on the type of tissues and tumours. Myc distribution along the genome has been determined experimentally through chromatin immunoprecipitation This approach, although powerful, is very time consuming and cannot be routinely applied to tumours of individual patients. Thus, it becomes of paramount importance to develop in-silico tools that can effectively and rapidly predict its distribution on a given cell genome. New advanced computational tools (DeeperBind) can then be successfully employed to determine the function of Myc in a specific tumour, and may help to devise new directions and approaches to experiments first and personalized and more effective therapeutic treatments for a single patient later on. Results The use of DeeperBind with DeepRAM on Colab platform can effectively predict the binding sites for the MYC factor with an accuracy above 0.96 AUC, when trained with multiple cell lines. The analysis of the filters in DeeperBind trained models shows, besides the consensus sequence CACGTG classically associated to the MYC factor, also the other consensus sequences G/C box or TGGGA, respectively bound by the SP1 and MIZ-1 transcription factors, which are known to mediate the MYC repressive response. Overall, our findings suggest a stronger sinergy between the machine learning tools as DeeperBind and biological experiments, which may reduce the time consuming experiments by providing a direction to guide them.",
+  "abstract_zh": "动机 确定Myc转录因子的基因组分布定义极为重要，因为这可能有助于预测其转录活性，尤其是在癌症背景下。Myc是最强大的癌基因之一，参与超过80%不同类型儿童和成人癌症的发生与发展。Myc调控数千个基因，这些基因部分因组织和肿瘤类型而异。Myc沿基因组的分布已通过染色质免疫沉淀实验确定。该方法虽然强大，但非常耗时，无法常规应用于个体患者的肿瘤。因此，开发能够有效且快速预测其在给定细胞基因组上分布的计算工具变得至关重要。新的先进计算工具（DeeperBind）随后可成功用于确定Myc在特定肿瘤中的功能，并可能有助于设计新的实验方向和方法，首先为实验提供指导，随后为单个患者提供个性化和更有效的治疗方案。结果 在Colab平台上使用DeeperBind与DeepRAM，当使用多个细胞系训练时，可有效预测MYC因子的结合位点，准确率超过0.96 AUC。对DeeperBind训练模型中滤波器的分析显示，除了经典与MYC因子相关的共有序列CACGTG外，还存在其他共有序列G/C盒或TGGGA，分别由SP1和MIZ-1转录因子结合，这些因子已知介导MYC抑制性反应。总体而言，我们的发现表明，像DeeperBind这样的机器学习工具与生物实验之间存在更强的协同作用，这可能通过提供指导方向来减少耗时实验。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.03.03.482763",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.03.03.482763",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.03.03.482763/index.html"
+}

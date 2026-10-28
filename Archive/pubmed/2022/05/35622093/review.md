@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors propose a theoretical model in which pioneer transcription factors accelerate target search on nucleosomal DNA by weakening DNA-nucleosome interactions through substitution with transcription factor-DNA interactions. The model uses discrete-state stochastic dynamics and first-passage probabilities, with predictions supported by Monte Carlo simulations and qualitative agreement with experimental observations.
+- **Visible evidence base** Abstract text only; no methodological details, equations, simulation parameters, or experimental comparisons are available
+- **Missing materials affecting confidence** Full manuscript, model derivation, simulation protocols, parameter values, quantitative comparisons with experimental data, and any sensitivity analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis for how pioneer transcription factors might facilitate target search on nucleosomal DNA. The proposed mechanism, based on weakening nucleosomal interactions via substitution with transcription factor-DNA interactions, is plausible and could have broad relevance. However, the abstract provides insufficient detail to evaluate the rigor of the model, the validity of the simulation support, or the strength of the agreement with experiments. The central claims are not quantitatively substantiated from the supplied material, and several aspects are not assessable without the full manuscript.
+- **Who would be interested in the results, and why** Researchers in gene regulation, chromatin biology, and biophysical modeling of protein-DNA interactions would find these results relevant. The work addresses a fundamental question about how pioneer transcription factors overcome nucleosomal barriers, which is of interest to both experimentalists studying transcription mechanisms and theorists developing stochastic models of target search. The interdisciplinary nature of the topic could attract readers from biophysics, molecular biology, and computational biology.
+- **Major strengths** The hypothesis is mechanistically clear and provides a testable framework for understanding pioneer transcription factor function. The use of a discrete-state stochastic model with first-passage probabilities is a rigorous approach for studying target search dynamics. The inclusion of Monte Carlo simulations as independent support is a positive feature, and the claim of agreement with experimental observations suggests potential biological relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "target search on nucleosomal DNA for pioneer transcription factors might be significantly accelerated while the search is slower on naked DNA in comparison with normal transcription factors."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not provide any quantitative results, such as search time ratios, rate constants, or parameter values, to support the claim of significant acceleration. Without numerical data or a clear description of the model parameters, the magnitude of the effect cannot be assessed.
+  - **Why it matters** The central conclusion of the paper depends on the magnitude of the acceleration effect. If the effect is small or parameter-dependent, the biological significance may be limited. The lack of quantitative evidence prevents evaluation of whether the claim is robust.
+  - **Resolution test** Provide specific numerical results from the model and simulations, including search time distributions or mean search times for pioneer versus normal transcription factors on nucleosomal and naked DNA, with parameter ranges and error estimates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "our theoretical predictions are supported by Monte Carlo computer simulations."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No details are given about the simulation algorithm, the number of runs, the system size, or how the simulations were matched to the analytical model. Without this information, it is impossible to verify that the simulations are an appropriate test of the model.
+  - **Why it matters** Simulation support is a key part of the evidence base. If the simulations are not properly designed or analyzed, the claimed support may be invalid. The abstract does not allow the reader to judge the reliability of this evidence.
+  - **Resolution test** Describe the simulation protocol in the full manuscript, including the stochastic algorithm, boundary conditions, parameter choices, and statistical analysis, and show quantitative agreement between simulation and analytical results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that the predictions "agree with available experimental observations."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No specific experimental studies are cited, and no quantitative comparison is presented. The nature of the agreement, whether qualitative or quantitative, is unclear.
+  - **Why it matters** Agreement with experiments is a critical claim for establishing biological relevance. Without specific references or data, this claim is unverifiable and may overstate the strength of the evidence.
+  - **Resolution test** Cite specific experimental studies and provide a quantitative comparison, such as measured versus predicted search times or binding rates, with appropriate statistical measures.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "substituting them with similar interactions between transcription factors and DNA" is vague and could be misinterpreted. It is not clear what "similar interactions" means in molecular terms.
+  - **Required correction** Clarify the molecular basis of the substitution mechanism, for example by specifying the types of interactions involved, such as electrostatic or hydrogen bonding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "discrete-state stochastic model" and "first-passage probabilities approach" but does not define the states or the search process. This limits the reader's ability to understand the model.
+  - **Required Correction** Provide a brief description of the model states, such as bound and unbound configurations, and the key parameters in the abstract or full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "pioneer transcription factors" is used without a brief definition, which may be unfamiliar to some readers outside the field.
+  - **Required Correction** Add a short definition or example of pioneer transcription factors to improve accessibility.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative results, simulation details, and experimental comparisons means the core claims are not currently established from the provided evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The hypothesis of interaction substitution is a novel angle on pioneer transcription factor function, but the abstract does not demonstrate how this differs from existing models in a substantive way.
+  - Scientific importance: The question is important for gene regulation, but the abstract does not show the broader implications of the findings beyond a qualitative acceleration effect.
+  - Interdisciplinary readership: The topic bridges biophysics and molecular biology, but the abstract is too technical in places and lacks context for nonspecialists.
+  - Technical soundness: The modeling approach is appropriate in principle, but the abstract provides insufficient detail to assess correctness or robustness.
+  - Readability for nonspecialists: The abstract is generally clear but contains jargon and vague phrases that could be improved.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the modeling approach is promising, but the abstract alone does not provide sufficient quantitative or methodological detail to support the central claims. A full manuscript with detailed methods, results, and experimental comparisons would be needed to assess the case.
+
+## Risk / unsupported claims
+- The claim of significant acceleration of target search on nucleosomal DNA is unsupported without quantitative data.
+- The claim of slower search on naked DNA for pioneer transcription factors is unsupported without numerical results.
+- The claim of agreement with experimental observations is unsupported without specific citations or data.
+- The claim of support from Monte Carlo simulations is unverifiable without simulation details.
+- The general applicability of the model to all pioneer transcription factors is not established from the abstract.

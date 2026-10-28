@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39144431",
+  "title": "Identification and analysis of inflammation-related biomarkers in tetralogy of Fallot.",
+  "authors": "Du, Junzhe; Liu, Huaipu; Wang, Pengcheng; Wu, Wenzhi; Zheng, Fengnan; Wang, Yuanxiang; Meng, Baoying",
+  "journal": "Translational pediatrics",
+  "published_date": "2024-08-15",
+  "window": {
+    "start": "2024-08-12",
+    "end": "2024-08-18"
+  },
+  "score": 2,
+  "one_liner_zh": "该文基于GEO数据挖掘法洛四联症炎症相关生物标志物，虽构建TF-mRNA网络但仅序列统计，无蛋白-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: Studies have revealed that inflammatory response is relevant to the tetralogy of Fallot (TOF). However, there are no studies to systematically explore the role of the inflammation-related genes (IRGs) in TOF. Therefore, based on bioinformatics, we explored the biomarkers related to inflammation in TOF, laying a theoretical foundation for its in-depth study. METHODS: TOF-related datasets (GSE36761 and GSE35776) were downloaded from the Gene Expression Omnibus (GEO) database. The differentially expressed genes (DEGs) between TOF and control groups were identified in GSE36761. And DEGs between TOF and control groups were intersected with IRGs to obtain differentially expressed IRGs (DE-IRGs). Afterwards, the least absolute shrinkage and selection operator (LASSO) and random forest (RF) were utilized to identify the biomarkers. Next, immune analysis was carried out. The transcription factor (TF)-mRNA, lncRNA-miRNA-mRNA, and miRNA-single nucleotide polymorphism (SNP)-mRNA networks were created. Finally, the potential drugs targeting the biomarkers were predicted. RESULTS: There were 971 DEGs between TOF and control groups, and 29 DE-IRGs were gained through the intersection between DEGs and IRGs. Next, a total of five biomarkers (MARCO, CXCL6, F3, SLC7A2, and SLC7A1) were acquired via two machine learning algorithms. Infiltrating abundance of 18 immune cells was significantly different between TOF and control groups, such as activated B cells, neutrophil, CD56dim natural killer cells, etc. The TF-mRNA network contained 4 mRNAs, 31 TFs, and 33 edges, for instance, ELF1-CXCL6, CBX8-SLC7A2, ZNF423-SLC7A1, ZNF71-F3. The lncRNA-miRNA-mRNA network was created, containing 4 mRNAs, 4 miRNAs, and 228 lncRNAs. Afterwards, nine SNPs locations were identified in the miRNA-SNP-mRNA network. A total of 21 drugs were predicted, such as ornithine, lysine, arginine, etc. CONCLUSIONS: Our findings detected five inflammation-related biomarkers (MARCO, CXCL6, F3, SLC7A2, and SLC7A1) for TOF, providing a scientific reference for further studies of TOF.",
+  "abstract_zh": "背景：研究表明炎症反应与法洛四联症（TOF）相关。然而，目前尚无研究系统探讨炎症相关基因（IRGs）在TOF中的作用。因此，我们基于生物信息学方法，探索了TOF中与炎症相关的生物标志物，为其深入研究奠定理论基础。方法：从基因表达综合（GEO）数据库下载TOF相关数据集（GSE36761和GSE35776）。在GSE36761中识别TOF组与对照组之间的差异表达基因（DEGs）。将TOF组与对照组之间的DEGs与IRGs取交集，获得差异表达炎症相关基因（DE-IRGs）。随后，利用最小绝对收缩和选择算子（LASSO）及随机森林（RF）识别生物标志物。接着，进行免疫分析。构建转录因子（TF）-mRNA、lncRNA-miRNA-mRNA及miRNA-单核苷酸多态性（SNP）-mRNA网络。最后，预测靶向生物标志物的潜在药物。结果：TOF组与对照组之间共有971个DEGs，通过DEGs与IRGs的交集获得29个DE-IRGs。接下来，通过两种机器学习算法共获得五个生物标志物（MARCO、CXCL6、F3、SLC7A2和SLC7A1）。TOF组与对照组之间18种免疫细胞的浸润丰度存在显著差异，如活化B细胞、中性粒细胞、CD56dim自然杀伤细胞等。TF-mRNA网络包含4个mRNA、31个TF和33条边，例如ELF1-CXCL6、CBX8-SLC7A2、ZNF423-SLC7A1、ZNF71-F3。构建了lncRNA-miRNA-mRNA网络，包含4个mRNA、4个miRNA和228个lncRNA。随后，在miRNA-SNP-mRNA网络中识别出9个SNP位点。共预测了21种药物，如鸟氨酸、赖氨酸、精氨酸等。结论：我们的研究发现了TOF的五个炎症相关生物标志物（MARCO、CXCL6、F3、SLC7A2和SLC7A1），为TOF的进一步研究提供了科学参考。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39144431/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39144431/",
+  "paper_page_path": "papers/pubmed/39144431/index.html"
+}

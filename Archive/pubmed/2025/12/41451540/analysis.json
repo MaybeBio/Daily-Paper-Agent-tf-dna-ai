@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41451540",
+  "title": "CELLetter: leveraging large language model and dual-stream network to identify context-specific ligand-receptor interactions for cell-cell communication analysis.",
+  "authors": "Wu, Wei; Huang, Junfeng; Jiang, Yan; Nie, Libo; Peng, Lihong",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2025-12-26",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用蛋白大模型和双流网络预测配体-受体互作并整合下游转录因子活性分析细胞通讯，虽涉及TF但非TF-DNA结合建模，方法可迁移至蛋白-DNA互作研究。",
+  "abstract": "Cell-to-cell communication (CCC) facilitates the coordination of various cellular behaviors in multicellular organisms. Many computational methods neglect downstream intracellular signaling and are limited by static and predefined ligand-receptor (L-R) databases. To address these limitations, we present CELLetter, a deep learning framework to identify potential L-R interactions through a novel feature learning model and decipher cellular signaling by integrating L-R co-expression with downstream transcription factor (TF) activity inferred from gene regulatory network. CELLetter begins by leveraging the protein large language model, ProstT5, for feature embedding. It then employs a dual-stream architecture for feature extraction and dimensionality reduction, a gate mechanism with dynamic weight adjustment for feature fusion, absolute difference, and element-wise product for feature interaction. After that, CELLetter combines interacting L-R pairs, single-cell RNA sequencing (scRNA-seq) data, and downstream TF activity to quantify communication strength. We comprehensively evaluated CELLetter using 11 evaluation metrics, benchmarking it against 4 state-of-the-art L-R classification models, 6 L-R validation tools, 10 CCC inference methods. CELLetter demonstrated superior L-R classification performance. Notably, we introduced a novel multi-faceted validation strategy employing colocalization distance, co-expression ratio, and co-detection probability on spatial transcriptomics data from human heart and distal lung epithelial tissues. CELLetter's predicted L-R pairs exhibited significant spatial relevance compared with other baselines. When applied to human head and neck squamous cell carcinoma (HNSCC) data, CELLetter produced CCC inferences broadly consistent with established methods. More importantly, ligand macrophage migration inhibitory factor (MIF) and receptor CD44 were predicted as a central signaling axis within HNSCC tumor microenvironment, suggesting their potentials as therapeutic targets . CELLetter is freely available at https://github.com/plhhnu/CELLetter.",
+  "abstract_zh": "细胞间通讯（CCC）促进多细胞生物中多种细胞行为的协调。许多计算方法忽略了下游细胞内信号传导，并受限于静态且预定义的配体-受体（L-R）数据库。为解决这些局限性，我们提出了CELLetter，一种深度学习框架，通过新颖的特征学习模型识别潜在的L-R相互作用，并通过将L-R共表达与从基因调控网络推断的下游转录因子（TF）活性相结合来解读细胞信号。CELLetter首先利用蛋白质大语言模型ProstT5进行特征嵌入，然后采用双流架构进行特征提取和降维，使用具有动态权重调整的门控机制进行特征融合，以及绝对差和逐元素乘积进行特征交互。之后，CELLetter结合相互作用的L-R对、单细胞RNA测序（scRNA-seq）数据和下游TF活性来量化通讯强度。我们使用11项评估指标全面评估了CELLetter，并将其与4种最先进的L-R分类模型、6种L-R验证工具和10种CCC推断方法进行了基准比较。CELLetter展示了优越的L-R分类性能。值得注意的是，我们引入了一种新颖的多方面验证策略，利用人类心脏和远端肺上皮组织的空间转录组数据中的共定位距离、共表达比率和共检测概率。与其他基线方法相比，CELLetter预测的L-R对表现出显著的空间相关性。当应用于人类头颈部鳞状细胞癌（HNSCC）数据时，CELLetter产生的CCC推断与既有方法广泛一致。更重要的是，配体巨噬细胞迁移抑制因子（MIF）和受体CD44被预测为HNSCC肿瘤微环境中的核心信号轴，表明它们作为治疗靶点的潜力。CELLetter可在https://github.com/plhhnu/CELLetter免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41451540/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41451540/",
+  "paper_page_path": "papers/pubmed/41451540/index.html"
+}

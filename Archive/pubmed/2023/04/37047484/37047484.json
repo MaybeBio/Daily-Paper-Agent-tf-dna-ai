@@ -1,0 +1,416 @@
+{
+  "identity": {
+    "pmid": "37047484",
+    "doi": "10.3390/ijms24076511",
+    "title": "Exploring Potential Biomarkers and Molecular Mechanisms of Ischemic Cardiomyopathy and COVID-19 Comorbidity Based on Bioinformatics and Systems Biology."
+  },
+  "content": {
+    "abstract": "Cardiovascular complications combined with COVID-19 (SARS-CoV-2) lead to a poor prognosis in patients. The common pathogenesis of ischemic cardiomyopathy (ICM) and COVID-19 is still unclear. Here, we explored potential molecular mechanisms and biomarkers for ICM and COVID-19. Common differentially expressed genes (DEGs) of ICM (GSE5406) and COVID-19 (GSE164805) were identified using GEO2R. We performed enrichment and protein-protein interaction analyses and screened key genes. To confirm the diagnostic performance for these hub genes, we used external datasets (GSE116250 and GSE211979) and plotted ROC curves. Transcription factor and microRNA regulatory networks were constructed for the validated hub genes. Finally, drug prediction and molecular docking validation were performed using cMAP. We identified 81 common DEGs, many of which were enriched in terms of their relation to angiogenesis. Three DEGs were identified as key hub genes (HSP90AA1, HSPA9, and SRSF1) in the protein-protein interaction analysis. These hub genes had high diagnostic performance in the four datasets (AUC > 0.7). Mir-16-5p and KLF9 transcription factor co-regulated these hub genes. The drugs vindesine and ON-01910 showed good binding performance to the hub genes. We identified HSP90AA1, HSPA9, and SRSF1 as markers for the co-pathogenesis of ICM and COVID-19, and showed that co-pathogenesis of ICM and COVID-19 may be related to angiogenesis. Vindesine and ON-01910 were predicted as potential therapeutic agents. Our findings will contribute to a deeper understanding of the comorbidity of ICM with COVID-19.",
+    "keywords": [
+      "COVID-19",
+      "bioinformatics",
+      "disease markers",
+      "ischemic cardiomyopathy",
+      "pathogenesis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Systems Biology",
+      "Molecular Docking Simulation",
+      "Vindesine",
+      "*COVID-19/complications/epidemiology/genetics",
+      "SARS-CoV-2",
+      "Computational Biology",
+      "*Myocardial Ischemia/epidemiology/genetics",
+      "Comorbidity",
+      "*MicroRNAs/genetics",
+      "Biomarkers",
+      "Transcription Factors",
+      "*Cardiomyopathies",
+      "Gene Expression Profiling",
+      "Glycine/analogs & derivatives",
+      "Sulfones",
+      "Kruppel-Like Transcription Factors",
+      "Serine-Arginine Splicing Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Simin",
+        "Zhang, Xuan",
+        "Xiao, Xiang",
+        "Luo, Wenting",
+        "Yang, Zixuan",
+        "Tang, Songqi",
+        "Huang, Wei"
+      ],
+      "short_names": [
+        "Luo S",
+        "Zhang X",
+        "Xiao X",
+        "Luo W",
+        "Yang Z",
+        "Tang S",
+        "Huang W"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8314-4613"
+      ],
+      "affiliations": [
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+        "College of Traditional Chinese Medicine, Hainan Medical University, Haikou 571199, China.",
+        "College of Traditional Chinese Medicine, Hainan Medical University, Haikou 571199, China.",
+        "College of Traditional Chinese Medicine, Hainan Medical University, Haikou 571199, China.",
+        "College of Traditional Chinese Medicine, Hainan Medical University, Haikou 571199, China.",
+        "College of Traditional Chinese Medicine, Hainan Medical University, Haikou 571199, China.",
+        "College of Traditional Chinese Medicine, Hainan Medical University, Haikou 571199, China.",
+        "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Simin",
+        "short_name": "Luo S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China.",
+          "College of Traditional Chinese Medicine, Hainan Medical University, Haikou 571199, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xuan",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Hainan Medical University, Haikou 571199, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Xiang",
+        "short_name": "Xiao X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Hainan Medical University, Haikou 571199, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Wenting",
+        "short_name": "Luo W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Hainan Medical University, Haikou 571199, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zixuan",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Hainan Medical University, Haikou 571199, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Songqi",
+        "short_name": "Tang S",
+        "identifiers": [
+          "0000-0001-8314-4613"
+        ],
+        "affiliations": [
+          "College of Traditional Chinese Medicine, Hainan Medical University, Haikou 571199, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Wei",
+        "short_name": "Huang W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medical Sciences, Chengdu University of Traditional Chinese Medicine, Chengdu 611137, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 Mar 30",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/14 06:00",
+    "fetched_at": "2026-09-28 22:57:36"
+  },
+  "links": {
+    "cites": [
+      "40841549",
+      "39703820",
+      "38443855",
+      "37457560"
+    ],
+    "refs": [
+      "36441451",
+      "36420884",
+      "36370105",
+      "36109428",
+      "36093131",
+      "35938548",
+      "35812523",
+      "35788820",
+      "35749386",
+      "35609983",
+      "35572561",
+      "35289358",
+      "35282650",
+      "35054835",
+      "34802714",
+      "34730223",
+      "34697898",
+      "34647577",
+      "34584445",
+      "34490878",
+      "34222385",
+      "34170441",
+      "34022205",
+      "33312811",
+      "33233425",
+      "33224961",
+      "33160830",
+      "32975884",
+      "32657408",
+      "32652713",
+      "32387246",
+      "32360119",
+      "32275742",
+      "32220200",
+      "32211816",
+      "32173574",
+      "32171076",
+      "32161990",
+      "32125452",
+      "32091533",
+      "31870262",
+      "31487867",
+      "31477170",
+      "30931480",
+      "30736462",
+      "30172762",
+      "29195078",
+      "27340270",
+      "26205061",
+      "23193258",
+      "15211356",
+      "12734009"
+    ],
+    "similar": [
+      "37047484",
+      "38601162",
+      "39093763",
+      "36104591",
+      "34584445",
+      "37040729",
+      "37777104",
+      "36211429",
+      "32631246",
+      "39259097",
+      "36119022",
+      "36768914",
+      "38267482",
+      "36532040",
+      "34536521",
+      "28318762",
+      "37026010",
+      "37996554",
+      "38168477",
+      "37184686",
+      "35751199",
+      "36203534",
+      "35727093",
+      "36059456",
+      "36291136",
+      "37804012",
+      "33847347",
+      "34313877",
+      "35438360",
+      "37291167",
+      "33407587",
+      "37657050",
+      "35464423",
+      "31424269",
+      "34954105",
+      "37234159",
+      "35242109",
+      "37935719",
+      "36531995",
+      "36863704",
+      "31987036",
+      "33040816",
+      "36389792",
+      "29921304",
+      "37020555",
+      "34340124",
+      "32662828",
+      "37359008",
+      "37221323",
+      "34844599",
+      "33890634",
+      "35132271",
+      "38653779",
+      "36380355",
+      "38738215",
+      "34697898",
+      "38162574",
+      "38971104",
+      "39144301",
+      "38104081",
+      "33605799",
+      "34218797",
+      "31311829",
+      "34160465",
+      "38878325",
+      "36245596",
+      "36575422",
+      "35378210",
+      "35069542",
+      "37213148",
+      "35277538",
+      "37822934",
+      "35773742",
+      "30975489",
+      "35757478",
+      "36627660",
+      "34623759",
+      "35577542",
+      "34776447",
+      "35282347",
+      "39358491",
+      "36913345",
+      "35909518",
+      "33376723",
+      "33604823",
+      "36124586",
+      "34248836",
+      "36125921",
+      "33839760",
+      "25884818",
+      "32041280",
+      "32641130",
+      "36635346",
+      "35002537",
+      "39098684",
+      "36817436",
+      "28952134",
+      "33622336",
+      "27852050",
+      "35692882",
+      "36471356",
+      "35741813",
+      "35716513",
+      "33553808",
+      "35562622",
+      "36118873",
+      "36233294",
+      "32575108",
+      "35868868",
+      "34390411",
+      "30542696",
+      "37062762",
+      "37991568",
+      "37724419",
+      "38590563",
+      "37457560",
+      "36949176",
+      "38332666",
+      "38455049",
+      "38062586",
+      "37278873",
+      "37789254",
+      "38376054",
+      "37084641",
+      "39045234",
+      "39215110",
+      "37018908",
+      "37457582",
+      "38443855",
+      "37877121",
+      "36201886",
+      "39070220",
+      "37283761",
+      "37814484",
+      "37159621",
+      "38373644",
+      "34127904",
+      "37606960",
+      "34601390",
+      "34020127",
+      "35966126",
+      "32196466",
+      "38278931",
+      "39294340",
+      "37486005",
+      "38004354",
+      "37792772",
+      "34076249",
+      "36685671",
+      "38323674",
+      "38737245",
+      "35002688",
+      "36229517",
+      "39111545"
+    ],
+    "review": [
+      "37047484"
+    ],
+    "pmc": [
+      "10094917"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms24076511",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cardiomyopathy.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cardiomyopathy"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37047484/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37047484",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

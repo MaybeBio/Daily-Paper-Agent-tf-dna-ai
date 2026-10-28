@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Results, Discussion, Methods) without supplementary files, figures, or tables.
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretability of results as presented in the provided text. Supplementary materials, figures, and tables are referenced but not available for direct inspection.
+- **Shared manuscript claim summary** The authors present DeepGQ, a deep learning model integrating DNA sequence and tissue-specific omics data to predict G-quadruplex (GQ) formation across 14 human tissues. They categorize predicted promoter GQs into "core" and "tissue-specific" sets, associate tissue-specific GQs with master regulator gene (MRG) binding sites, and report significant enrichment of GQs in MRB-bound promoters. They further link GQ and R-loop colocalization to tissue-specific gene expression.
+- **Visible evidence base** Text descriptions of model architecture, training data (EndoQuad levels 4–6), validation against external datasets (G4-seq, G4-ChIP, CUT&Tag, KAS-seq), functional enrichment analyses (TissueEnrich, GTEx, DAVID), and permutation tests for MRG-GQ enrichment. Figures and tables are referenced but not viewable.
+- **Missing materials affecting confidence** All figures, tables, supplementary files, and detailed performance metrics. Without these, quantitative claims (e.g., overlap percentages, p-values, model performance) cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and biologically relevant question: whether tissue-specific GQ formation can be predicted and linked to master regulator function. The integration of deep learning with multi-omics data is a reasonable extension of prior work (DeepZ). However, the current text provides insufficient quantitative detail to evaluate the strength of the claims. Key results are described qualitatively, and the absence of accessible figures and tables limits verification. The conceptual framework is interesting, but the evidence base as presented is not sufficient to establish the central claims.
+- **Who would be interested in the results, and why** Researchers in computational genomics, gene regulation, and epigenetics would be interested. The work offers a tool for genome-wide tissue-specific GQ prediction and proposes a mechanistic link between GQs, R-loops, and master regulators. This could inform studies on development, cell identity, and disease-associated regulatory variation.
+- **Major strengths**
+  - The problem is well-motivated and builds logically on prior work (DeepZ, EndoQuad).
+  - The use of tissue-specific omics features to generate tissue-specific predictions is a sensible and potentially valuable methodological contribution.
+  - The integration of multiple validation approaches (external datasets, permutation tests, functional enrichment) is commendable in principle.
+  - The discussion of R-loops and GQ interplay is thoughtful and grounded in prior literature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves high accuracy and reliable tissue-specific GQ predictions, validated against external datasets.
+  - **Evidence pointer** Results section "Tissue-specific DeepGQ models based on tissue-specific omics features"; Figure 1D–F; Table S2; Table S3
+  - **Concern** The manuscript states that the model was validated against external datasets and that performance metrics are provided, but no actual numbers (e.g., AUPRC, F1, sensitivity, specificity) are reported in the text. The threshold selection (0.25) is described, but the rationale and the resulting performance are not quantified. Without these metrics, the technical soundness of the model cannot be assessed.
+  - **Why it matters** The central contribution is a predictive model. If its performance is not demonstrated with clear quantitative evidence, the utility of DeepGQ for downstream biological inference is unsubstantiated.
+  - **Resolution test** Provide explicit performance metrics (e.g., precision, recall, F1, AUPRC) for each tissue model on held-out test sets, and for the whole-genome predictions against EndoQuad levels 1–6. Include confidence intervals or variability across tissues.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** Tissue-specific GQ-associated genes are significantly enriched for tissue-relevant functions and expression.
+  - **Evidence pointer** Results section "Functional enrichment of tissue-specific GQ-associated genes"; Figure 2C–E; Figure S1; Table S5
+  - **Concern** The text reports that enrichment analyses confirmed tissue-specific relevance, but no effect sizes, p-values, or multiple-testing corrections are provided. The claim that "around twice as many neural-specific GQs were in the EndoQuad 1–3 set as in the 4–6 set" is presented without statistical context or interpretation.
+  - **Why it matters** Enrichment analyses are only meaningful with proper statistical reporting. Without it, the biological relevance of the tissue-specific GQ sets is not established.
+  - **Resolution test** Report adjusted p-values, enrichment scores, and the number of genes tested. Clarify whether the EndoQuad 1–3 vs 4–6 comparison is statistically significant and what it implies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** MRG binding sites are significantly enriched for tissue-specific GQs, supporting a role for GQs in MRG-dependent tissue specification.
+  - **Evidence pointer** Results section "Association of G-quadruplexes with master regulator genes"; Figure 3A–E; Table S7
+  - **Concern** The permutation test is described, but the actual p-values are only mentioned for a subset of tissues (neural, liver, breast) and not reported in the text. The claim that "67% of 39 tissue-MRG experiments exhibited significant enrichment" is stated without listing which experiments failed or the distribution of p-values.
+  - **Why it matters** The MRG-GQ association is a key biological finding. If the enrichment is not consistently significant, the generalizability of the claim is weakened.
+  - **Resolution test** Provide a full table of p-values for all 39 tissue-MRG pairs, with correction for multiple testing. Specify the null model used in permutations (e.g., matched by GC content, length, or genomic location).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The DeepGQ model and all predictions are available as supplementary files.
+  - **Evidence pointer** Methods section "Data sources"; Supplementary Material
+  - **Concern** The manuscript states that model predictions are available as supplementary BED files, but no details are given on how to access the model itself (e.g., code, trained weights, or a repository). The methods section does not specify hyperparameters, training procedure, or computational environment.
+  - **Why it matters** For a computational tool, reproducibility is essential. Without code or detailed model specifications, other groups cannot apply or benchmark DeepGQ.
+  - **Resolution test** Provide a public repository with code, trained models, and a clear usage example. Include hyperparameter settings and training details in the Methods or Supplementary.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1E description
+  - **Evidence pointer** Results section "Tissue-specific DeepGQ models based on tissue-specific omics features"
+  - **Issue** The description of threshold setting is confusing. The text says "the intersection of the two plots corresponds to an optimum threshold of 0.25," but it is unclear what the two plots represent and why their intersection is optimal.
+  - **Required correction** Clarify the axes and the criterion for optimality. Define what is being plotted and why the intersection point is chosen.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of R-loop data
+  - **Evidence pointer** Results section "Formation of G-quadruplexes and R-loops"; Table S6
+  - **Issue** The overlap percentages for R-loops, APOBEC3B, and DHX36 are given for neural-specific GQs, but no comparison is made to core GQs or to genomic background. This limits the interpretability of the colocalization claim.
+  - **Required correction** Provide background overlap rates (e.g., random genomic regions) and statistical tests for the reported overlaps.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "master regulator"
+  - **Evidence pointer** Throughout
+  - **Issue** The term "master regulator" is used without a formal definition or criteria for selection. It is unclear whether MRGs are defined by literature annotation, expression specificity, or regulatory network properties.
+  - **Required correction** Define the criteria used to select MRGs and cite the source of the annotation.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Missing quantitative model performance metrics.
+  - R1-M2: Missing statistical details for enrichment analyses.
+  - R1-M3: Incomplete reporting of permutation test results.
+  - R1-M4: Lack of code or model availability for reproducibility.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The application of deep learning to tissue-specific GQ prediction is novel, but the approach is an incremental extension of the authors' prior DeepZ model. The biological hypothesis linking GQs to MRG function is not entirely new but is explored in a new context.
+  - **Scientific importance** Potentially high. If validated, the work could provide a framework for understanding tissue-specific regulatory variation and the role of non-B DNA structures. However, the current evidence does not yet support the strength of the claims.
+  - **Interdisciplinary readership** The topic bridges computational biology, epigenetics, and gene regulation. It would appeal to a specialized but broad audience within these fields. The writing is generally accessible, though some methodological details are dense.
+  - **Technical soundness** Not established from the provided text. Key quantitative results are missing, and the statistical rigor of the analyses cannot be evaluated.
+  - **Readability for nonspecialists** The introduction and discussion are readable, but the results section assumes familiarity with deep learning architectures and genomic terminology. Some terms (e.g., "flipons") are used without sufficient definition for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, and the work could be suitable for publication in a specialized journal if the technical and statistical concerns are fully addressed. I would be supportive if the authors provide complete quantitative results, code availability, and clearer statistical reporting.
+
+## Risk / unsupported claims
+- The claim that DeepGQ predictions are "highly accurate" is unsupported without performance metrics.
+- The claim that tissue-specific GQs are significantly enriched in MRB-bound promoters is not verifiable without p-values for all experiments.
+- The claim that GQs and R-loops colocalize in a biologically meaningful way is not supported by background comparisons.
+- The claim that the model provides "single-nucleotide resolution" predictions is not substantiated with resolution or precision estimates.
+- The generalizability of the model to tissues beyond the 14 analyzed is not discussed and cannot be assessed.

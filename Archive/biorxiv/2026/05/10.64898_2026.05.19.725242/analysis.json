@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.05.19.725242",
+  "title": "PlasmidLM: A Promptable DNA Language Model via Verifiable-Reward Post-Training",
+  "authors": "McClain Thiel; Chris P. Barnes",
+  "journal": "bioRxiv",
+  "published_date": "2026-05-21",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出可提示的质粒DNA语言模型PlasmidLM，通过可验证奖励后训练生成多千碱基质粒序列，虽涉及DNA序列生成但未聚焦蛋白质-DNA互作或TF-DNA结合机制，方法可迁移性有限。",
+  "abstract": "Generative DNA models are typically next-token completers: they extend a sequence but offer no native interface for telling the model what to make. PlasmidLM is a promptable DNA language model for plasmids. A designer supplies a human-readable component specification, for example a high-copy E. coli vector with kanamycin resistance and an EGFP reporter, and the model generates the corresponding multi-kilobase construct in a single autoregressive pass. Prompts are unordered sets of named-part tokens at the granularity of biological shorthand, not learned latent codes or rigid grammars. We evaluate outputs along two axes: a sequence is viable if structurally plausible as a plasmid, and faithful if its detected components match the prompt. Their conjunction is the useful-plasmid rate , the primary metric we report. On a held-out 1,000-prompt benchmark, the post-trained model achieves a useful-plasmid rate of 48.5% at single-shot decoding and 89.7% under best-of-4 sampling. Verifiable-reward post-training with GRPO against a 660-entry sequence motif registry improves the useful-plasmid rate across all sampling budgets. We release the 19.3M-parameter model, evaluation suite, and a paired benchmark of prompt-sequence pairs.",
+  "abstract_zh": "生成式DNA模型通常是下一个token补全器：它们扩展序列，但不提供原生接口来告知模型要生成什么。PlasmidLM是一种面向质粒的可提示DNA语言模型。设计者提供人类可读的组件规格，例如具有卡那霉素抗性和EGFP报告基因的高拷贝大肠杆菌载体，模型在单次自回归过程中生成相应的多千碱基构建体。提示是无序的命名部分token集合，粒度采用生物学简写形式，而非学习到的潜在代码或严格语法。我们沿两个轴评估输出：如果序列在结构上作为质粒合理，则视为可行；如果其检测到的组件与提示匹配，则视为忠实。两者的结合即为有用质粒率，这是我们报告的主要指标。在保留的1,000提示基准上，后训练模型在单次解码时达到48.5%的有用质粒率，在最佳4次采样下达到89.7%。使用GRPO针对660条目序列基序注册表进行可验证奖励后训练，在所有采样预算下提高了有用质粒率。我们发布了19.3M参数模型、评估套件以及一个配对的提示-序列对基准。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.05.19.725242",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.19.725242",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.05.19.725242/index.html"
+}

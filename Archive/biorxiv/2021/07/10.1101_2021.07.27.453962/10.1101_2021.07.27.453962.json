@@ -1,0 +1,784 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.07.27.453962",
+  "title": "Evolution of binding preferences among whole-genome duplicated transcription factors",
+  "doi": "10.1101/2021.07.27.453962",
+  "abstract": "Throughout evolution, new transcription factors (TFs) emerge by gene duplication, promoting growth and rewiring of transcriptional networks. How TF duplicates diverge is known for only a few studied cases. To provide a genome-scale view, we considered the 35% of budding yeast TFs, classified as whole-genome duplication (WGD)-retained paralogs. Using high-resolution profiling, we find that ~60% of paralogs evolved differential binding preferences. We show that this divergence results primarily from variations outside the DNA binding domains (DBDs), while DBD preferences remain largely conserved. Analysis of non-WGD orthologs revealed that ancestral preferences are unevenly split between duplicates, while new targets are acquired preferentially by the least conserved paralog (biased sub/neo-functionalization). Dimer-forming paralogs evolved mostly one-sided dependency, while other paralogs interacted through low-magnitude DNA-binding competition that minimized paralog interference. We discuss the implications of our findings for the evolutionary design of transcriptional networks.",
+  "authors": [
+    "Tamar Gera",
+    "Felix Jonas",
+    "Roye More",
+    "Naama Barkai"
+  ],
+  "published_date": "2021-07-27",
+  "updated_date": "2021-07-27T20:11:30Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.07.27.453962",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.07.27.453962.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            27
+          ]
+        ],
+        "date-time": "2026-02-27T01:37:19Z",
+        "timestamp": 1772156239900,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            27
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 100,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Throughout evolution, new transcription factors (TFs) emerge by gene duplication, promoting growth and rewiring of transcriptional networks. How TF duplicates diverge is known for only a few studied cases. To provide a genome-scale view, we considered the 35% of budding yeast TFs, classified as whole-genome duplication (WGD)-retained paralogs. Using high-resolution profiling, we find that ~60% of paralogs evolved differential binding preferences. We show that this divergence results primarily from variations outside the DNA binding domains (DBDs), while DBD preferences remain largely conserved. Analysis of non-WGD orthologs revealed that ancestral preferences are unevenly split between duplicates, while new targets are acquired preferentially by the least conserved paralog (biased sub/neo-functionalization). Dimer-forming paralogs evolved mostly one-sided dependency, while other paralogs interacted through low-magnitude DNA-binding competition that minimized paralog interference. We discuss the implications of our findings for the evolutionary design of transcriptional networks.</jats:p>",
+      "DOI": "10.1101/2021.07.27.453962",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            27
+          ]
+        ],
+        "date-time": "2021-07-27T20:11:30Z",
+        "timestamp": 1627416690000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Evolution of binding preferences among whole-genome duplicated transcription factors"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Tamar",
+          "family": "Gera",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7214-8942",
+          "authenticated-orcid": false,
+          "given": "Felix",
+          "family": "Jonas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Roye",
+          "family": "More",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Naama",
+          "family": "Barkai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "421",
+          "DOI": "10.1016/j.tig.2020.12.001",
+          "article-title": "Speed-Specificity Trade-Offs in the Transcription Factors Search for Their Genomic Binding Sites",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Trends Genet"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.08.009"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/emboj.2010.106"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.12.009"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkj143"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2014.06.019"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1310430110"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. M. Rogers , M. L. Bulyk , Diversification of transcription factor-DNA interactions and the evolution of gene regulatory networks. Wiley Interdiscip Rev Syst Biol Med, e1423 (2018).",
+          "DOI": "10.1002/wsbm.1423"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2008.05.024"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "470",
+          "DOI": "10.1016/j.cels.2018.02.009",
+          "article-title": "Divergence in DNA Specificity among Paralogous Transcription Factors Contributes to Their Differential In Vivo Binding",
+          "volume": "6",
+          "year": "2018",
+          "journal-title": "Cell systems"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1601-5223.1968.tb02169.x"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-017-07761-0"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2538"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature01763"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng1340"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.021410"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0501102102"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "46",
+          "DOI": "10.1186/s12864-016-3423-6",
+          "article-title": "Both mechanism and age of duplications contribute to biased gene retention patterns in plants",
+          "volume": "18",
+          "year": "2017",
+          "journal-title": "BMC genomics"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/42711"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.1002220"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2005.02.010"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.3681406"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10577-009-9055-9"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/geno.1993.1133"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.0030314"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2006-7-5-r43"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2008.08.005"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.123"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "488",
+          "DOI": "10.1002/jez.b.22555",
+          "article-title": "Molecular mechanisms of paralogous compensation and the robustness of cellular networks",
+          "volume": "322",
+          "year": "2014",
+          "journal-title": "J Exp Zool B Mol Dev Evol"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0604883103"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature06107"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature01198"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/msb.2010.82"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq617"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature07092"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1000014"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/msb4100127"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaz5667"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abc1796"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.40",
+          "first-page": "322",
+          "article-title": "Mechanisms of mutational robustness in transcriptional regulation",
+          "volume": "6",
+          "year": "2015",
+          "journal-title": "Front Genet"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1003073",
+          "DOI": "10.1371/journal.pcbi.1003073",
+          "article-title": "Human Monogenic Disease Genes Have Frequently Functionally Redundant Paralogs",
+          "volume": "9",
+          "year": "2013",
+          "journal-title": "PLOS Computational Biology"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature10665"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.097378.109"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aai7685"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1240810"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.242271.114"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cub.2014.06.049"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.09.003"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1000191",
+          "DOI": "10.1371/journal.pgen.1000191",
+          "article-title": "Evolution of a New Function by Degenerative Mutation in Cephalochordate Steroid Receptors",
+          "volume": "4",
+          "year": "2008",
+          "journal-title": "PLOS Genetics"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M113.452797"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "4868",
+          "DOI": "10.1038/ncomms5868",
+          "article-title": "Duplication of a promiscuous transcription factor drives the emergence of a new regulatory network",
+          "volume": "5",
+          "year": "2014",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr1029"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "8733",
+          "DOI": "10.1038/ncomms9733",
+          "article-title": "ChEC-seq kinetics discriminates transcription factor binding sites by DNA sequence and shape in vivo",
+          "volume": "6",
+          "year": "2015",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-019-0411-1"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.1001446"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.290.5494.1151"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2006.09.014"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/age.12509"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.0040109"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10709-008-9311-5"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2002-3-2-research0008"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.104.037051"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bfgp/elp056"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/mst083"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.106.066951"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "199",
+          "DOI": "10.1016/S0959-437X(03)00017-0",
+          "article-title": "Evolution of transcription factor function",
+          "volume": "13",
+          "year": "2003",
+          "journal-title": "Current Opinion in Genetics & Development"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.0030245"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.76.9.4265"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.69",
+          "doi-asserted-by": "crossref",
+          "first-page": "583",
+          "DOI": "10.1128/MMBR.00015-06",
+          "article-title": "A fungal family of transcriptional regulators: the zinc cluster proteins",
+          "volume": "70",
+          "year": "2006",
+          "journal-title": "Microbiology and molecular biology reviews: MMBR"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1432-1033.1997.00776.x"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tplants.2015.10.003"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg1945"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.73",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. S et al., Intrinsically Disordered Regions Direct Transcription Factor In Vivo Binding Specificity. Molecular cell 79, (2020).",
+          "DOI": "10.1016/j.molcel.2020.05.032"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.3000289"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1001185"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky384"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.77",
+          "unstructured": "R. a. M. G. a. H. J. Anand , Cas9-mediated gene editing in Saccharomyces cerevisiae. Protocol Exchange, (2017)."
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.78",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. Labun et al., CHOPCHOP v3: expanding the CRISPR web toolbox beyond genome editing. Nucleic Acids Research 47, (2021).",
+          "DOI": "10.1093/nar/gkz365"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.79",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. CB et al., Designer deletion strains derived from Saccharomyces cerevisiae S288C: a useful set of strains and plasmids for PCR-mediated gene disruption and other applications. Yeast (Chichester, England) 14, (1998).",
+          "DOI": "10.1002/(SICI)1097-0061(19980130)14:2<115::AID-YEA204>3.0.CO;2-2"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.80",
+          "doi-asserted-by": "crossref",
+          "unstructured": "G. RD, S. RH, W. AR, W. RA, Studies on the transformation of intact yeast cells by the LiAc/SS-DNA/PEG procedure. Yeast (Chichester, England) 11, (1995).",
+          "DOI": "10.1002/yea.320110408"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-018-0045-8"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-018-0044-9"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.83",
+          "doi-asserted-by": "crossref",
+          "unstructured": "O. Lupo et al., Accumulation of cis- and trans-regulatory variations is associated with phenotypic divergence of a complex trait between yeast species. G3 Genes|Genomes|Genetics 11, (2021).",
+          "DOI": "10.1093/g3journal/jkab016"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.84",
+          "unstructured": "H. DW, D. TN, M. EG, Fluorescence resonance energy transfer using color variants of green fluorescent protein. Methods in enzymology 351, (2002)."
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/yea.1142"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.86",
+          "doi-asserted-by": "crossref",
+          "unstructured": "P. J. Skene , S. Henikoff , An efficient targeted nuclease strategy for high-resolution mapping of DNA binding sites. Elife 6, (2017).",
+          "DOI": "10.7554/eLife.21856"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.87",
+          "doi-asserted-by": "crossref",
+          "first-page": "539",
+          "DOI": "10.1038/nprot.2013.023",
+          "article-title": "High-throughput chromatin immunoprecipitation for genomewide mapping of in vivo protein-DNA interactions and epigenomic states",
+          "volume": "8",
+          "year": "2013",
+          "journal-title": "Nature Protocols"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.14806/ej.17.1.200"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq033"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1366"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.91",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature12121"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.261545.120"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-018-1398-0"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.94",
+          "doi-asserted-by": "crossref",
+          "first-page": "D412",
+          "DOI": "10.1093/nar/gkaa913",
+          "article-title": "Pfam: The protein families database in 2021",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.95",
+          "doi-asserted-by": "crossref",
+          "first-page": "W636",
+          "DOI": "10.1093/nar/gkz268",
+          "article-title": "The EMBL-EBI search and sequence analysis tools APIs in 2019",
+          "volume": "47",
+          "year": "2019",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-15-7"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.3672305"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.98",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm333"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.99",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msu300"
+        },
+        {
+          "key": "2021082220401123000_2021.07.27.453962v2.100",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msx281"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.07.27.453962",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:00:19Z",
+        "timestamp": 1768442419000
+      },
+      "score": 94.74802,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.07.27.453962"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            27
+          ]
+        ]
+      },
+      "references-count": 100,
+      "URL": "https://doi.org/10.1101/2021.07.27.453962",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.73225",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.73225",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            27
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

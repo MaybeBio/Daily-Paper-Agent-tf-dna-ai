@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40444411",
+  "title": "Cancer Classification Through p53 Hotspot Mutations: An Ensemble Learning Approach.",
+  "authors": "Patil, Manisha R; Bihari, Anand",
+  "journal": "Cell biology international",
+  "published_date": "2025-05-30",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用集成学习基于p53热点突变数据分类癌症类型，虽涉及p53 DNA结合域突变，但核心是临床表型分类而非蛋白-DNA互作建模，且无AI/物理模拟方法用于互作机制研究。",
+  "abstract": "Tumor suppressor protein p53 is attracting a lot of attention in cancer research because of its role in both tumor cell survival and apoptosis. The most frequently altered tumor suppressor gene in human cancer is TP53. TP53 mutations affecting residues in the protein's DNA binding domain (102-292) account for 80% of the alterations detected in tumors. These are called hotspot mutations because they lose their wild-type function and acquire oncogenic functions that accelerate cancer progression. These functions include promoting the growth, migration, invasion, and initiation of cancer cells and granting drug resistance to cancer cells. Six residues of the p53 protein (Arg175, Gly245, Arg249, Arg248, Arg273, and Arg282) are often altered in human cancer, known as hotspot mutations. Based on these hotspot codons, we identified the cancer types and stability of protein p53 in this study. This study aims to classify cancer types with a high degree of accuracy and precision. The main contribution of this study is that our work presented mutation data (clinically and biologically meaningful features and the role of hotspot codon of protein p53) to classify types of cancer by learning from the labeled data using an ensemble approach. Our research on the classification of cancer types outperformed using the Extreme Gradient boosting classifier (XGBoost) with an accuracy of 99.85%, precision of 99.80%, area under the curve of 100%, MCC of 99. 85%, and F1 of 99.80%.",
+  "abstract_zh": "肿瘤抑制蛋白p53因其在肿瘤细胞存活和凋亡中的作用而在癌症研究中备受关注。人类癌症中最常发生改变的肿瘤抑制基因是TP53。影响蛋白质DNA结合域（102-292）内残基的TP53突变占肿瘤中检测到的改变的80%。这些被称为热点突变，因为它们失去了野生型功能，并获得了加速癌症进展的致癌功能。这些功能包括促进癌细胞的生长、迁移、侵袭和起始，并赋予癌细胞耐药性。p53蛋白的六个残基（Arg175、Gly245、Arg249、Arg248、Arg273和Arg282）在人类癌症中经常发生改变，被称为热点突变。基于这些热点密码子，我们在本研究中确定了癌症类型和p53蛋白的稳定性。本研究旨在以高准确度和精确度对癌症类型进行分类。本研究的主要贡献在于，我们的工作呈现了突变数据（临床和生物学上有意义的特征以及p53蛋白热点密码子的作用），通过使用集成方法从标记数据中学习来分类癌症类型。我们关于癌症类型分类的研究在使用极端梯度提升分类器（XGBoost）时表现优异，准确率为99.85%，精确率为99.80%，曲线下面积为100%，马修斯相关系数（MCC）为99.85%，F1分数为99.80%。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40444411/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40444411/",
+  "paper_page_path": "papers/pubmed/40444411/index.html"
+}

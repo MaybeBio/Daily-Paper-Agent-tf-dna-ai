@@ -1,0 +1,273 @@
+{
+  "identity": {
+    "pmid": "40420564",
+    "doi": "10.1080/07391102.2025.2507812",
+    "title": "Targeting TetR-family transcription regulators for combating tetracycline resistance in resilient Acinetobacter baumannii: in silico identification of potent inhibitors."
+  },
+  "content": {
+    "abstract": "Acinetobacter baumannii stands out as a potent pathogenic microbe responsible for healthcare-associated infections characterized by elevated morbidity and mortality. This bacterium has acquired a range of mechanisms for resisting antibiotics, resulting in the emergence of strains that can withstand antibiotics from multiple classes. Effectively addressing this urgent concern requires finding ways to overcome these resistance mechanisms. In this context, our study focuses on TetR Transcriptional Factor Regulators (TetR-FTRs). It coordinates functions of tetracycline efflux pump proteins (TetA and TetR) and exert influence over metabolic pathways, quorum sensing, and biofilm formation. The primary objective is to identify potent inhibitors targeting TetR-FTRs through scaffold-based shape screening across thirteen distinct databases. A wide array of in silico techniques was employed, including molecular docking, molecular dynamics simulations, Swiss Similarity search, Virtual Screening, MM/GBSA analysis, ADMET assessment, PAINS assay, SIFT analysis, and MM/PBSA calculations. The initial Swiss similarity search yielded 2178 compounds for subsequent virtual screening, with the application of PAINS analysis rigorously pruning the list, eliminating 14 false positive hits. Further refinement through SIFT approach discriminated closely related interacting compounds into three distinct clusters - ChemBridge5963254, BDH33906706, and ZINC000013607604, which fulfilled all SIFT criteria. Comparative evaluation against reference compounds revealed favorable glide scores, lower binding free energies, and interactions with crucial active site residue Hsd128-Mg(2+). Molecular dynamics simulations consistently exhibited stable binding for these clusters in contrast to reference compounds. Our analysis underscores three specific compounds, namely ChemBridge5963254, BDH33906706, and ZINC000013607604, as promising candidates for addressing tetracycline resistance and combating A. baumannii infections.",
+    "keywords": [
+      "Acinetobacter baumannii",
+      "Multidrug resistance",
+      "TetR transcriptional factor regulators",
+      "Tetracycline",
+      "molecular dynamics"
+    ],
+    "mesh_terms": [
+      "*Acinetobacter baumannii/drug effects/genetics/metabolism",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation",
+      "*Anti-Bacterial Agents/pharmacology/chemistry",
+      "*Bacterial Proteins/antagonists & inhibitors/chemistry/metabolism",
+      "*Tetracycline Resistance/drug effects/genetics",
+      "*Transcription Factors/antagonists & inhibitors/chemistry/metabolism",
+      "Protein Binding",
+      "Tetracycline/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alagesan, Karthika",
+        "Nagarajan, Hemavathy",
+        "Ramachandran, Balajee",
+        "Vetrivel, Umashankar",
+        "Jeyaraj Pandian, Chitra",
+        "Jeyaraman, Jeyakanthan"
+      ],
+      "short_names": [
+        "Alagesan K",
+        "Nagarajan H",
+        "Ramachandran B",
+        "Vetrivel U",
+        "Jeyaraj Pandian C",
+        "Jeyaraman J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4594-9610"
+      ],
+      "affiliations": [
+        "Structural Biology and Bio-Computing Lab, Department of Bioinformatics, Alagappa University, Karaikudi, India.",
+        "Structural Biology and Bio-Computing Lab, Department of Bioinformatics, Alagappa University, Karaikudi, India.",
+        "Department of Pharmacology, Physiology & Biophysics, Boston University Chobanian & Avedisian School of Medicine, Boston, MA, USA.",
+        "ICMR-Department of Virology and Biotechnology/Bioinformatics Division, National Institute for Research in Tuberculosis, Chennai, India.",
+        "Department of Biotechnology, Dr. Umayal Ramanathan College for Women, Karaikudi, India.",
+        "Structural Biology and Bio-Computing Lab, Department of Bioinformatics, Alagappa University, Karaikudi, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alagesan, Karthika",
+        "short_name": "Alagesan K",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and Bio-Computing Lab, Department of Bioinformatics, Alagappa University, Karaikudi, India."
+        ]
+      },
+      {
+        "full_name": "Nagarajan, Hemavathy",
+        "short_name": "Nagarajan H",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and Bio-Computing Lab, Department of Bioinformatics, Alagappa University, Karaikudi, India."
+        ]
+      },
+      {
+        "full_name": "Ramachandran, Balajee",
+        "short_name": "Ramachandran B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Physiology & Biophysics, Boston University Chobanian & Avedisian School of Medicine, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Vetrivel, Umashankar",
+        "short_name": "Vetrivel U",
+        "identifiers": [],
+        "affiliations": [
+          "ICMR-Department of Virology and Biotechnology/Bioinformatics Division, National Institute for Research in Tuberculosis, Chennai, India."
+        ]
+      },
+      {
+        "full_name": "Jeyaraj Pandian, Chitra",
+        "short_name": "Jeyaraj Pandian C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Dr. Umayal Ramanathan College for Women, Karaikudi, India."
+        ]
+      },
+      {
+        "full_name": "Jeyaraman, Jeyakanthan",
+        "short_name": "Jeyaraman J",
+        "identifiers": [
+          "0000-0002-4594-9610"
+        ],
+        "affiliations": [
+          "Structural Biology and Bio-Computing Lab, Department of Bioinformatics, Alagappa University, Karaikudi, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/27 06:27",
+    "fetched_at": "2026-09-30 18:44:24"
+  },
+  "links": {
+    "cites": [
+      "42300809",
+      "41625154"
+    ],
+    "refs": [],
+    "similar": [
+      "40420564",
+      "39327354",
+      "28393677",
+      "39938338",
+      "41442824",
+      "38239064",
+      "37937796",
+      "33068184",
+      "39193648",
+      "29246087",
+      "35100868",
+      "41977294",
+      "40973684",
+      "39613285",
+      "41077039",
+      "41062442",
+      "39905304",
+      "34766874",
+      "37544561",
+      "38486459",
+      "41465468",
+      "40047244",
+      "39918712",
+      "40153475",
+      "29926429",
+      "40967035",
+      "35156902",
+      "39971047",
+      "41231374",
+      "40044750",
+      "41932930",
+      "15808938",
+      "40014464",
+      "37642215",
+      "32268193",
+      "19056528",
+      "40936770",
+      "39890884",
+      "41544099",
+      "39862471",
+      "30550846",
+      "38503396",
+      "38700330",
+      "39414707",
+      "35196792",
+      "37490027",
+      "29705560",
+      "40056709",
+      "38165647",
+      "42312514",
+      "39798571",
+      "40162807",
+      "39862464",
+      "42112455",
+      "41272294",
+      "40407309",
+      "40758696",
+      "16545313",
+      "33990311",
+      "30043709",
+      "38264919",
+      "35938813",
+      "42010419",
+      "40350521",
+      "40549295",
+      "33200701",
+      "22371895",
+      "40063635",
+      "35462198",
+      "41805188",
+      "32659632",
+      "28343010",
+      "36752319",
+      "29529934",
+      "33946907",
+      "23846799",
+      "39212030",
+      "38521473",
+      "41543686",
+      "39589129",
+      "36014428",
+      "31719975",
+      "35339024",
+      "38787939",
+      "36971967",
+      "39497263",
+      "38379380",
+      "39769078",
+      "34375286",
+      "37099644",
+      "28614259",
+      "39265475",
+      "36240659",
+      "41944855",
+      "17308196",
+      "34762519",
+      "39062969",
+      "35841965",
+      "40103540",
+      "40621929"
+    ],
+    "review": [
+      "40420564",
+      "19056528",
+      "39212030"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2025.2507812?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/antibiotics.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotics"
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2025.2507812",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

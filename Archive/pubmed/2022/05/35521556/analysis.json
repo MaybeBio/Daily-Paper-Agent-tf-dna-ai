@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35521556",
+  "title": "DeepMC-iNABP: Deep learning for multiclass identification and classification of nucleic acid-binding proteins.",
+  "authors": "Cui, Feifei; Li, Shuang; Zhang, Zilong; Sui, Miaomiao; Cao, Chen; El-Latif Hesham, Abd; Zou, Quan",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2022-05-07",
+  "window": {
+    "start": "2022-05-02",
+    "end": "2022-05-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习多分类方法识别DNA/RNA结合蛋白，属于广义蛋白-核酸互作识别，但未涉及TF-DNA特异性结合位点或三维互作机制建模，方法可迁移但深度有限。",
+  "abstract": "Nucleic acid-binding proteins (NABPs), including DNA-binding proteins (DBPs) and RNA-binding proteins (RBPs), play vital roles in gene expression. Accurate identification of these proteins is crucial. However, there are two existing challenges: one is the problem of ignoring DNA- and RNA-binding proteins (DRBPs), and the other is a cross-predicting problem referring to DBP predictors predicting DBPs as RBPs, and vice versa. In this study, we proposed a computational predictor, called DeepMC-iNABP, with the goal of solving these difficulties by utilizing a multiclass classification strategy and deep learning approaches. DBPs, RBPs, DRBPs and non-NABPs as separate classes of data were used for training the DeepMC-iNABP model. The results on test data collected in this study and two independent test datasets showed that DeepMC-iNABP has a strong advantage in identifying the DRBPs and has the ability to alleviate the cross-prediction problem to a certain extent. The web-server of DeepMC-iNABP is freely available at http://www.deepmc-inabp.net/. The datasets used in this research can also be downloaded from the website.",
+  "abstract_zh": "核酸结合蛋白（NABPs），包括DNA结合蛋白（DBPs）和RNA结合蛋白（RBPs），在基因表达中扮演着至关重要的角色。准确识别这些蛋白质至关重要。然而，存在两个现有挑战：一是忽视DNA和RNA结合蛋白（DRBPs）的问题，二是交叉预测问题，即DBP预测器将DBPs误预测为RBPs，反之亦然。在本研究中，我们提出了一种名为DeepMC-iNABP的计算预测器，旨在通过利用多类分类策略和深度学习方法来解决这些难题。DBPs、RBPs、DRBPs和非NABPs作为独立的数据类别，用于训练DeepMC-iNABP模型。在本研究收集的测试数据及两个独立测试数据集上的结果表明，DeepMC-iNABP在识别DRBPs方面具有显著优势，并能在一定程度上缓解交叉预测问题。DeepMC-iNABP的网络服务器可免费访问，网址为http://www.deepmc-inabp.net/。本研究所使用的数据集也可从该网站下载。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35521556/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35521556/",
+  "paper_page_path": "papers/pubmed/35521556/index.html"
+}

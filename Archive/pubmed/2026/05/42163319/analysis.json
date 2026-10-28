@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42163319",
+  "title": "Development and validation of an MRI-based deep learning system for triple-class ER expression classification in breast cancer: a large-scale multicenter study.",
+  "authors": "Dai, Yi; Wong, Chinting; Du, Siyao; Xu, Zeyan; Wei, Zhitao; Liang, Yanting; Han, Chu; Lian, Chun; Aishanjiang, Dilinuer; Chen, Meiying; Huang, Rong; Qu, Jinrong; Zhang, Lina; Cheng, Guanxun; Zhang, Xiang; Wang, Ying; Liu, Zaiyi; Shi, Zhenwei",
+  "journal": "BMC medicine",
+  "published_date": "2026-05-21",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究开发基于MRI的深度学习系统对乳腺癌ER表达三分类，属于医学影像诊断，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "BACKGROUND: Estrogen receptor (ER) expression is a key prognostic and predictive marker in breast cancer. The 2020 ASCO/CAP guidelines classify tumors with >/= 1% ER-positive nuclei as ER-positive, yet ER-low positive (1%-10%) breast cancer remains biologically distinct with an unclear response to endocrine therapy (ET). Given the limitations of invasive ER assessment, we developed and validated an MRI-based deep learning system (BERC) for non-invasive classification of ER negative, ER-low positive, and ER-high positive breast cancer using multicenter data. METHODS: This diagnostic study retrospectively analyzed pretreatment DCE-MRI data from 3500 breast cancer patients across six institutions (February 2016-August 2023). Patients were categorized into ER negative, ER-low positive, and ER-high positive groups based on pathology. Tumor segmentation on DCE T1-weighted images was performed using an automated deep learning algorithm. A DCE-MRI-based model was developed and evaluated for classification performance using the area under the receiver operating characteristic curve (AUC), along with sensitivity, specificity, accuracy, positive predictive value (PPV), and negative predictive value (NPV) with 95% confidence intervals. Model interpretability was evaluated through t-SNE and UMAP for feature visualization, along with SHAP analysis for interpreting key predictive features. RESULTS: The training dataset included 1862 patients (median age 49 years, interquartile range [IQR] 21-88), while 1638 patients from four external centers formed the test dataset (median ages ranging from 47 to 51 years across centers). The model achieved Micro-/Macro-average AUCs of 0.918/0.882 in training and 0.923/0.900 in internal validation. In external testing, Micro-average AUCs ranged from 0.828 to 0.923 and Macro-average AUCs from 0.825 to 0.905 across four independent centers. Visualization techniques revealed clear, biologically plausible clustering patterns across the ER expression categories. CONCLUSIONS: BERC shows potential for non-invasive, preoperative ER status prediction in breast cancer, with implications for personalized therapy.",
+  "abstract_zh": "背景：雌激素受体（estrogen receptor, ER）表达是乳腺癌中关键的预后和预测性标志物。2020年ASCO/CAP指南将具有≥1% ER阳性核的肿瘤分类为ER阳性，然而ER低阳性（1%-10%）乳腺癌在生物学上仍具有独特性，且对内分泌治疗（endocrine therapy, ET）的反应尚不明确。鉴于有创性ER评估的局限性，我们开发并验证了一种基于MRI的深度学习系统（BERC），利用多中心数据对ER阴性、ER低阳性和ER高阳性乳腺癌进行无创分类。方法：本诊断研究回顾性分析了来自六家机构（2016年2月至2023年8月）的3500例乳腺癌患者的治疗前DCE-MRI数据。根据病理学结果，患者被分为ER阴性、ER低阳性和ER高阳性三组。使用自动化深度学习算法对DCE T1加权图像上的肿瘤进行分割。开发并评估了一种基于DCE-MRI的模型，其分类性能通过受试者工作特征曲线下面积（AUC）以及敏感性、特异性、准确性、阳性预测值（PPV）和阴性预测值（NPV）及其95%置信区间进行评价。模型可解释性通过t-SNE和UMAP进行特征可视化评估，并结合SHAP分析以解释关键预测特征。结果：训练数据集包括1862例患者（中位年龄49岁，四分位距[IQR] 21-88），而来自四个外部中心的1638例患者构成测试数据集（各中心中位年龄范围为47至51岁）。模型在训练中实现了Micro-/Macro-平均AUC分别为0.918/0.882，在内部验证中为0.923/0.900。在外部测试中，四个独立中心的Micro-平均AUC范围为0.828至0.923，Macro-平均AUC范围为0.825至0.905。可视化技术揭示了ER表达类别间清晰且生物学上合理的聚类模式。结论：BERC在乳腺癌的ER状态无创术前预测方面显示出潜力，对个体化治疗具有意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42163319/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42163319/",
+  "paper_page_path": "papers/pubmed/42163319/index.html"
+}

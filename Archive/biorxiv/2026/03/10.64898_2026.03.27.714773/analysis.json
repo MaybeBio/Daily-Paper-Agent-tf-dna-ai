@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.27.714773",
+  "title": "IDBSpred: An intrinsically disordered binding site predictor using machine learning and protein language model",
+  "authors": "Drew Jones; Yinghao Wu",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-30",
+  "window": {
+    "start": "2026-03-30",
+    "end": "2026-04-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用ESM-2蛋白语言模型和机器学习预测结构化蛋白上的IDP结合位点，属广义蛋白-蛋白互作而非蛋白-DNA互作，方法可迁移至TF-DNA结合位点预测，但对象不匹配。",
+  "abstract": "Intrinsically disordered proteins (IDPs) mediate many cellular functions through interactions with structured protein partners, but predicting the corresponding binding sites on the structured partner remains challenging. Here, we present IDBSpred, a sequence-based method for residue-level prediction of IDP-binding sites on structured proteins. Training and test data were collected from the DIBS database, which contains more than 700 non-redundant IDP–protein complexes. Residue-level embeddings of structured partner sequences were generated using the ESM-2 protein language model and used as input to a multilayer perceptron classifier for binary prediction of binding versus non-binding residues. Analysis of amino acid composition showed that IDP-binding sites are enriched in aromatic residues, especially Trp, Tyr, and Phe, as well as several charged and polar residues, whereas Ala and several small or conformationally restrictive residues are depleted. The classifier achieved an ROC AUC of 0.87 and an average precision of 0.61. Structural case studies further showed that the predicted sites largely recapitulate the major experimentally defined binding interfaces. These results demonstrate that protein language model embeddings plus machine learning algorithms can effectively capture sequence features associated with IDP recognition on structured proteins. IDBSpred provides a practical framework for studying IDP-mediated interfaces and identifying potential therapeutic hotspots.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 通过与其结构蛋白伙伴的相互作用介导许多细胞功能，但预测结构伙伴上相应的结合位点仍然具有挑战性。在此，我们提出IDBSpred，一种基于序列的方法，用于在结构蛋白上对IDP结合位点进行残基水平预测。训练和测试数据来自DIBS数据库，该数据库包含超过700个非冗余的IDP-蛋白质复合物。使用ESM-2蛋白质语言模型生成结构伙伴序列的残基水平嵌入，并将其用作多层感知器分类器的输入，以进行结合残基与非结合残基的二元预测。氨基酸组成分析显示，IDP结合位点富含芳香族残基，尤其是Trp、Tyr和Phe，以及若干带电和极性残基，而Ala和若干小或构象限制性残基则减少。分类器实现了ROC AUC为0.87，平均精度为0.61。结构案例研究进一步表明，预测位点在很大程度上重现了实验定义的主要结合界面。这些结果表明，蛋白质语言模型嵌入加上机器学习算法可以有效捕获与结构蛋白上IDP识别相关的序列特征。IDBSpred为研究IDP介导的界面和识别潜在治疗热点提供了一个实用框架。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.27.714773",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.27.714773",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.27.714773/index.html"
+}

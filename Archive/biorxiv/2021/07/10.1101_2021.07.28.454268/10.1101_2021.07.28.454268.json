@@ -1,0 +1,354 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.07.28.454268",
+  "title": "Construction of transcript regulation mechanism prediction models based on binding motif environment of transcription factor AoXlnR in <i>Aspergillus oryzae</i>",
+  "doi": "10.1101/2021.07.28.454268",
+  "abstract": "Recent study revealed that there are thousands of genes that remain unaffected by increased AoXlnR expression, despite the presence of one or more AoXlnR-binding motifs in their promoter region. Given this knowledge, we designed this study to construct several predictive models for determining whether a gene can exhibit a differential response to changes in AoXlnR expression. These models were constructed using 3D DNA shape information determined using the sequence around the AoXlnR binding motifs with classification as functional or nonfunctional. These models were created using a support vector machine followed by the evaluations designed to determine whether these DNA shape-based models can correctly classify functional motifs in terms of area under the receiver operating characteristic curve. The results showed that the differential expression levels of genes located downstream of the AoXlnR motif are closely related to specific DNA shape information around the binding motifs. Furthermore, we found that the parameters contributing to differential expressions differed depending on the number of motifs in the promoter region by comparing the prediction models using regions with only one binding DNA motif and those with multiple binding DNA motifs. Author Summary DNA-binding transcription factors (TFs) play a central role in transcriptional regulation mechanisms, mainly through their specific binding to target sites on the genome and regulation of the expression of downstream genes. Therefore, a comprehensive analysis of the function of these TFs will lead to the understanding of various biological mechanisms. However, the functions of TFs in vivo are diverse and complicated, and the identified binding sites on the genome are not necessarily involved in the regulation of downstream gene expression. In this study, we investigated whether DNA structural information around the binding site of transcription factors can be used to predict the involvement of the binding site in the regulation of the expression of genes located downstream of the binding site. Specifically, we calculated the structural parameters based on the DNA shape around the DNA binding motif located upstream of the gene whose expression is directly regulated by the transcription factor AoXlnR from Aspergillus oryzae , and showed that the presence or absence of expression regulation can be predicted from the sequence information with high accuracy by machine learning incorporating these parameters.",
+  "authors": [
+    "Hiroya Oka",
+    "Takaaki Kojima",
+    "Ryuji Kato",
+    "Kunio Ihara",
+    "Hideo Nakano"
+  ],
+  "published_date": "2021-07-29",
+  "updated_date": "2021-07-29T10:56:08Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.07.28.454268",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.07.28.454268.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T16:57:22Z",
+        "timestamp": 1768496242564,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            29
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 27,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            28
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Recent study revealed that there are thousands of genes that remain unaffected by increased AoXlnR expression, despite the presence of one or more AoXlnR-binding motifs in their promoter region. Given this knowledge, we designed this study to construct several predictive models for determining whether a gene can exhibit a differential response to changes in AoXlnR expression. These models were constructed using 3D DNA shape information determined using the sequence around the AoXlnR binding motifs with classification as functional or nonfunctional. These models were created using a support vector machine followed by the evaluations designed to determine whether these DNA shape-based models can correctly classify functional motifs in terms of area under the receiver operating characteristic curve. The results showed that the differential expression levels of genes located downstream of the AoXlnR motif are closely related to specific DNA shape information around the binding motifs. Furthermore, we found that the parameters contributing to differential expressions differed depending on the number of motifs in the promoter region by comparing the prediction models using regions with only one binding DNA motif and those with multiple binding DNA motifs.</jats:p>\n                <jats:sec>\n                  <jats:title>Author Summary</jats:title>\n                  <jats:p>\n                    DNA-binding transcription factors (TFs) play a central role in transcriptional regulation mechanisms, mainly through their specific binding to target sites on the genome and regulation of the expression of downstream genes. Therefore, a comprehensive analysis of the function of these TFs will lead to the understanding of various biological mechanisms. However, the functions of TFs\n                    <jats:italic>in vivo</jats:italic>\n                    are diverse and complicated, and the identified binding sites on the genome are not necessarily involved in the regulation of downstream gene expression. In this study, we investigated whether DNA structural information around the binding site of transcription factors can be used to predict the involvement of the binding site in the regulation of the expression of genes located downstream of the binding site. Specifically, we calculated the structural parameters based on the DNA shape around the DNA binding motif located upstream of the gene whose expression is directly regulated by the transcription factor AoXlnR from\n                    <jats:italic>Aspergillus oryzae</jats:italic>\n                    , and showed that the presence or absence of expression regulation can be predicted from the sequence information with high accuracy by machine learning incorporating these parameters.\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2021.07.28.454268",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            29
+          ]
+        ],
+        "date-time": "2021-07-29T10:56:08Z",
+        "timestamp": 1627556168000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Construction of transcript regulation mechanism prediction models based on binding motif environment of transcription factor AoXlnR in\n                  <i>Aspergillus oryzae</i>"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Hiroya",
+          "family": "Oka",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7282-121X",
+          "authenticated-orcid": false,
+          "given": "Takaaki",
+          "family": "Kojima",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ryuji",
+          "family": "Kato",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kunio",
+          "family": "Ihara",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hideo",
+          "family": "Nakano",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tig.2014.04.002"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp802"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.100552.109"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1141319"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0151566"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-018-5375-5"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2020.01.027"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-015-0797-4"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.139105.112"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.100370.109"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3207"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.95.19.11163"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt437"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cels.2018.12.001"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1422023112"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz970"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.184671.114"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00253-009-2236-9"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv735"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw446"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s002530051334"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1466"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msy099"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00294-018-0837-5"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1145"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.121541.111"
+        },
+        {
+          "key": "2021080207050858000_2021.07.28.454268v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.220079.116"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.07.28.454268",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:00:13Z",
+        "timestamp": 1768442413000
+      },
+      "score": 95.83609,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.07.28.454268"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            29
+          ]
+        ]
+      },
+      "references-count": 27,
+      "URL": "https://doi.org/10.1101/2021.07.28.454268",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1142/S0219720024500173",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            29
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

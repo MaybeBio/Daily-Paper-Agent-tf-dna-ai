@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or computational details
+- **Shared manuscript claim summary** The authors report a computational study of the Pt(N^C^N)Cl complex, where the N^C^N ligand is 2,6-dipyrido-4-methyl-benzene chloride, examining its dark cytotoxicity via simulated mechanistic steps of classical Pt(II) complexes, and its photosensitizer suitability via calculated spectroscopic properties for the unperturbed, aquated, and guanine-bound forms. Using molecular dynamics (MD) simulation outcomes, the photophysical properties of DNA-intercalated and -bound complexes were evaluated to establish how intercalation and binding affect sensitization activity.
+- **Visible evidence base** Abstract text only; no computational methods, level of theory details, benchmark data, or numerical results are provided
+- **Missing materials affecting confidence** Full manuscript, computational methodology details, basis sets and functionals used, MD simulation parameters, all numerical results, figures, tables, and any experimental validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational framework for evaluating a Pt(II) complex as a potential photodynamic therapy agent. The combination of DFT, TD-DFT, and MD simulations to address both dark cytotoxicity mechanisms and photophysical properties is conceptually sound and of interest to the inorganic chemistry and photodynamic therapy communities. However, the abstract alone provides insufficient detail to assess the technical quality of the calculations, the validity of the chosen computational protocols, or the robustness of the conclusions. The claim that the complex is a suitable photosensitizer cannot be evaluated without quantitative spectroscopic data and appropriate benchmarks. The study appears to be purely computational, and the absence of any experimental validation is a notable limitation that should be acknowledged.
+- **Who would be interested in the results, and why** Researchers in bioinorganic chemistry, computational chemistry, and photodynamic therapy development would be interested. The work addresses the rational design of metal-based photosensitizers, a topic of active investigation for cancer treatment. The methodological approach combining mechanistic simulation of Pt(II) action with photophysical property prediction could inform future computational screening of similar complexes.
+- **Major strengths** The study addresses a relevant and timely topic in anticancer metallodrug design. The computational strategy is multifaceted, covering dark cytotoxicity mechanisms, photophysical properties, and the effect of DNA binding modes on sensitization. The use of MD simulations to generate realistic starting configurations for photophysical calculations is a thoughtful methodological choice.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the suitability of the complex to act as a photosensitizer has been verified by calculating spectroscopic properties.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that photosensitizer suitability has been "verified" but provides no quantitative spectroscopic data, such as absorption wavelengths, molar extinction coefficients, triplet state energies, or singlet oxygen generation quantum yields. Without these values and appropriate benchmarks against known photosensitizers, the claim of verification is unsupported.
+  - **Why it matters** Photosensitizer suitability depends on specific photophysical criteria, including absorption in the therapeutic window, efficient intersystem crossing, and adequate triplet state energy for singlet oxygen production. A qualitative statement of calculated properties cannot establish suitability.
+  - **Resolution test** Provide quantitative photophysical parameters for the complex and its aquated and guanine-bound forms, with comparison to established photosensitizers and experimental data where available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract implies that dark cytotoxicity has been explored by simulating the steps of the mechanism of action of classical Pt(II) complexes.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify which mechanistic steps were simulated, what energetic or kinetic quantities were computed, or how these relate to experimentally observed cytotoxicity. The connection between simulated mechanistic steps and a cytotoxicity outcome is not established.
+  - **Why it matters** The mechanism of action of Pt(II) complexes involves multiple steps including aquation, DNA binding, and adduct formation. Simulating these steps requires careful choice of models and levels of theory, and the results must be interpreted in the context of known experimental activation barriers and rate constants.
+  - **Resolution test** Specify the mechanistic steps modeled, report the computed free energy profiles or barriers, and compare with experimental data for classical Pt(II) complexes to validate the approach.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the photophysical properties of DNA-intercalated and -bound complexes were evaluated using MD simulation outcomes as a starting point.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not describe how the MD-derived configurations were used in subsequent photophysical calculations, what level of theory was applied to these larger systems, or how the results were compared to the unperturbed complex. The reliability of TD-DFT calculations on DNA-complex systems is highly dependent on the treatment of environmental effects and the size of the quantum region.
+  - **Why it matters** The effect of DNA binding on photophysical properties is a central claim of the work. If the computational protocol for these larger systems is not carefully validated, the conclusions about how intercalation and binding affect sensitization activity may be unreliable.
+  - **Resolution test** Describe the QM/MM or cluster model used, justify the level of theory for the DNA-bound systems, and provide validation against experimental spectroscopic data for related intercalated complexes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract clarity
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses the notation N^C^N without defining the donor atom types or the coordination mode clearly for readers unfamiliar with this convention.
+  - **Required correction** Define the N^C^N notation explicitly, for example as a tridentate ligand with two pyridyl nitrogen donors and one central carbon donor.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Study scope
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not state whether any experimental measurements were performed or whether the study is entirely computational.
+  - **Required correction** State explicitly that the study is computational in nature, or include a brief mention of any experimental validation performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific context
+  - **Affected element** Motivation
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions the search for new targets and improved therapeutic efficacy but does not explain why this particular Pt(II) complex with an N^C^N ligand was chosen for investigation.
+  - **Required correction** Add a sentence explaining the design rationale for the complex, such as the expected photophysical properties of the N^C^N ligand framework or prior studies on related complexes.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or methodological detail to establish the central claims of photosensitizer suitability, dark cytotoxicity relevance, or the effect of DNA binding on photophysical properties.
+- **Assessment against Nature-style criteria** Originality: the combination of mechanistic simulation and photophysical prediction for a Pt(II) N^C^N complex is moderately original, though computational studies of Pt complexes for PDT are not unprecedented. Scientific importance: the topic is relevant but the potential impact depends on whether the predictions are validated experimentally or offer clear design rules. Interdisciplinary readership: the work bridges computational chemistry, inorganic chemistry, and photomedicine, which could attract a broad audience if the results are compelling. Technical soundness: cannot be assessed from the abstract alone; the lack of methodological detail and quantitative results is a significant limitation. Readability for nonspecialists: the abstract is reasonably clear but uses field-specific notation without definition and does not provide sufficient context for the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable computational plan but does not provide enough quantitative results or methodological detail to support the claims of verified photosensitizer suitability and established effects of DNA binding on photophysical properties. A revised abstract with key numerical results, methodological specifications, and explicit acknowledgment of the computational nature of the study would be needed to assess the work more favorably.
+
+## Risk / unsupported claims
+- The claim that photosensitizer suitability has been "verified" is unsupported without quantitative photophysical data.
+- The claim that dark cytotoxicity has been "explored" by simulating mechanistic steps is unsubstantiated without specification of the steps and computed quantities.
+- The claim that the photophysical properties of DNA-intercalated and -bound complexes were evaluated is not assessable without details of the computational protocol for these systems.
+- Any implied therapeutic relevance or comparison to experimental anticancer activity is not supported by the abstract.

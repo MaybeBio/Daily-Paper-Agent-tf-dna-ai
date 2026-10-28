@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33961561",
+  "title": "Computational Modeling of Gene-Specific Transcriptional Repression, Activation and Chromatin Interactions in Leukemogenesis by LASSO-Regularized Logistic Regression.",
+  "authors": "Steinauer, Nickolas; Zhang, Kevin; Guo, Chun; Zhang, Jinsong",
+  "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+  "published_date": "2021-05-08",
+  "window": {
+    "start": "2021-05-03",
+    "end": "2021-05-09"
+  },
+  "score": 6,
+  "one_liner_zh": "用LASSO逻辑回归建模白血病中AML1-ETO介导的基因特异性转录抑制/激活及染色质互作，虽涉及TF-DNA调控但方法为统计回归、无三维互作建模，属广义蛋白-DNA调控的可借鉴方法。",
+  "abstract": "Many physiological and pathological pathways are dependent on gene-specific on/off regulation of transcription. Some genes are repressed, while others are activated. Although many previous studies have analyzed the mechanisms of gene-specific repression and activation, these studies are mainly based on the use of candidate genes, which are either repressed or activated, without simultaneously comparing and contrasting both groups of genes. There is also insufficient consideration of gene locations. Here we describe an integrated machine learning approach, using LASSO-regularized logistic regression, to model gene-specific repression and activation and the underlying contribution of chromatin interactions. LASSO-regularized logistic regression accurately predicted gene-specific transcriptional events and robustly detected the rate-limiting factors that underlie the differences of gene activation and repression. An example was provided by the leukemogenic transcription factor AML1-ETO, which is responsible for 10-15 percent of all acute myeloid leukemia cases. The analysis of AML1-ETO has also revealed novel networks of chromatin interactions and uncovered an unexpected role for E-proteins in AML1-ETO-p300 interactions and a role for the pre-existing gene state in governing the transcriptional response. Our results show that logistic regression-based probabilistic modeling is a promising tool to decipher mechanisms that integrate gene regulation and chromatin interactions in regulated transcription.",
+  "abstract_zh": "许多生理和病理通路依赖于基因特异性的转录开启/关闭调控。一些基因被抑制，而另一些则被激活。尽管以往许多研究分析了基因特异性抑制和激活的机制，但这些研究主要基于候选基因的使用，这些基因要么被抑制，要么被激活，而未同时比较和对照这两组基因。此外，对基因位置的考虑也不足。在此，我们描述了一种整合的机器学习方法，使用LASSO正则化逻辑回归，来建模基因特异性的抑制和激活以及染色质相互作用的潜在贡献。LASSO正则化逻辑回归准确预测了基因特异性的转录事件，并稳健地检测了驱动基因激活与抑制差异的限速因素。一个例子是由白血病发生转录因子AML1-ETO提供的，该因子导致10-15%的急性髓系白血病病例。对AML1-ETO的分析还揭示了新的染色质相互作用网络，并发现了E蛋白在AML1-ETO-p300相互作用中的意外作用，以及预先存在的基因状态在调控转录反应中的作用。我们的结果表明，基于逻辑回归的概率建模是解析调控转录中基因调控与染色质相互作用整合机制的有前景工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33961561/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33961561/",
+  "paper_page_path": "papers/pubmed/33961561/index.html"
+}

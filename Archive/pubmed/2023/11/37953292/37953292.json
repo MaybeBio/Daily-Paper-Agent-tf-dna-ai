@@ -1,0 +1,584 @@
+{
+  "identity": {
+    "pmid": "37953292",
+    "doi": "10.1093/nar/gkad952",
+    "title": "TATDN2 resolution of R-loops is required for survival of BRCA1-mutant cancer cells."
+  },
+  "content": {
+    "abstract": "BRCA1-deficient cells have increased IRE1 RNase, which degrades multiple microRNAs. Reconstituting expression of one of these, miR-4638-5p, resulted in synthetic lethality in BRCA1-deficient cancer cells. We found that miR-4638-5p represses expression of TATDN2, a poorly characterized member of the TATD nuclease family. We discovered that human TATDN2 has RNA 3' exonuclease and endonuclease activity on double-stranded hairpin RNA structures. Given the cleavage of hairpin RNA by TATDN2, and that BRCA1-deficient cells have difficulty resolving R-loops, we tested whether TATDN2 could resolve R-loops. Using in vitro biochemical reconstitution assays, we found TATDN2 bound to R-loops and degraded the RNA strand but not DNA of multiple forms of R-loops in vitro in a Mg2+-dependent manner. Mutations in amino acids E593 and E705 predicted by Alphafold-2 to chelate an essential Mg2+ cation completely abrogated this R-loop resolution activity. Depleting TATDN2 increased cellular R-loops, DNA damage and chromosomal instability. Loss of TATDN2 resulted in poor replication fork progression in the presence of increased R-loops. Significantly, we found that TATDN2 is essential for survival of BRCA1-deficient cancer cells, but much less so for cognate BRCA1-repleted cancer cells. Thus, we propose that TATDN2 is a novel target for therapy of BRCA1-deficient cancers.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "BRCA1 Protein/genetics/metabolism",
+      "DNA Replication",
+      "Genomic Instability",
+      "Magnesium",
+      "MicroRNAs/genetics",
+      "*Neoplasms/genetics",
+      "R-Loop Structures",
+      "RNA, Long Noncoding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jaiswal, Aruna S",
+        "Dutta, Arijit",
+        "Srinivasan, Gayathri",
+        "Yuan, Yaxia",
+        "Zhou, Daohong",
+        "Shaheen, Montaser",
+        "Sadideen, Doraid T",
+        "Kirby, Austin",
+        "Williamson, Elizabeth A",
+        "Gupta, Yogesh K",
+        "Olsen, Shaun K",
+        "Xu, Mingjiang",
+        "Loranc, Eva",
+        "Mukhopadhyay, Pramiti",
+        "Pertsemlidis, Alexander",
+        "Bishop, Alexander J R",
+        "Sung, Patrick",
+        "Nickoloff, Jac A",
+        "Hromas, Robert"
+      ],
+      "short_names": [
+        "Jaiswal AS",
+        "Dutta A",
+        "Srinivasan G",
+        "Yuan Y",
+        "Zhou D",
+        "Shaheen M",
+        "Sadideen DT",
+        "Kirby A",
+        "Williamson EA",
+        "Gupta YK",
+        "Olsen SK",
+        "Xu M",
+        "Loranc E",
+        "Mukhopadhyay P",
+        "Pertsemlidis A",
+        "Bishop AJR",
+        "Sung P",
+        "Nickoloff JA",
+        "Hromas R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6372-5007",
+        "ORCID: 0000-0003-1624-9372",
+        "ORCID: 0000-0002-5742-4387",
+        "ORCID: 0000-0001-8606-7545",
+        "ORCID: 0000-0002-1916-6276"
+      ],
+      "affiliations": [
+        "Department of Medicine and the Mays Cancer Center, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA.",
+        "Department of Biochemistry and Structural Biology and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA.",
+        "Department of Medicine and the Mays Cancer Center, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA.",
+        "Department of Biochemistry and Structural Biology and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA.",
+        "Department of Biochemistry and Structural Biology and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA.",
+        "Department of Medicine and the Mays Cancer Center, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA.",
+        "Department of Medicine and the Mays Cancer Center, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA.",
+        "Department of Medicine and the Mays Cancer Center, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA.",
+        "Department of Medicine and the Mays Cancer Center, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA.",
+        "Department of Biochemistry and Structural Biology and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA.",
+        "Department of Biochemistry and Structural Biology and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA.",
+        "Department of Molecular Medicine and the Mays Cancer Center, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA.",
+        "Department of Cell Systems and Anatomy and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA.",
+        "Department of Cell Systems and Anatomy and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA.",
+        "Department of Cell Systems and Anatomy and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA.",
+        "Department of Cell Systems and Anatomy and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA.",
+        "Department of Biochemistry and Structural Biology and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA.",
+        "Department of Environmental and Radiological Health Sciences, College of Veterinary Medicine and Biomedical Sciences, Colorado State University, Fort Collins, CO 80523, USA.",
+        "Department of Medicine and the Mays Cancer Center, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jaiswal, Aruna S",
+        "short_name": "Jaiswal AS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine and the Mays Cancer Center, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Dutta, Arijit",
+        "short_name": "Dutta A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Structural Biology and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Srinivasan, Gayathri",
+        "short_name": "Srinivasan G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine and the Mays Cancer Center, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Yuan, Yaxia",
+        "short_name": "Yuan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Structural Biology and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Daohong",
+        "short_name": "Zhou D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Structural Biology and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Shaheen, Montaser",
+        "short_name": "Shaheen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine and the Mays Cancer Center, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Sadideen, Doraid T",
+        "short_name": "Sadideen DT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine and the Mays Cancer Center, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Kirby, Austin",
+        "short_name": "Kirby A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine and the Mays Cancer Center, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Williamson, Elizabeth A",
+        "short_name": "Williamson EA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine and the Mays Cancer Center, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Gupta, Yogesh K",
+        "short_name": "Gupta YK",
+        "identifiers": [
+          "0000-0001-6372-5007"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Structural Biology and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Olsen, Shaun K",
+        "short_name": "Olsen SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Structural Biology and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Mingjiang",
+        "short_name": "Xu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and the Mays Cancer Center, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Loranc, Eva",
+        "short_name": "Loranc E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Systems and Anatomy and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Mukhopadhyay, Pramiti",
+        "short_name": "Mukhopadhyay P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Systems and Anatomy and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Pertsemlidis, Alexander",
+        "short_name": "Pertsemlidis A",
+        "identifiers": [
+          "0000-0003-1624-9372"
+        ],
+        "affiliations": [
+          "Department of Cell Systems and Anatomy and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Bishop, Alexander J R",
+        "short_name": "Bishop AJR",
+        "identifiers": [
+          "0000-0002-5742-4387"
+        ],
+        "affiliations": [
+          "Department of Cell Systems and Anatomy and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Sung, Patrick",
+        "short_name": "Sung P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Structural Biology and the Greehey Children's Cancer Research Institute, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Nickoloff, Jac A",
+        "short_name": "Nickoloff JA",
+        "identifiers": [
+          "0000-0001-8606-7545"
+        ],
+        "affiliations": [
+          "Department of Environmental and Radiological Health Sciences, College of Veterinary Medicine and Biomedical Sciences, Colorado State University, Fort Collins, CO 80523, USA."
+        ]
+      },
+      {
+        "full_name": "Hromas, Robert",
+        "short_name": "Hromas R",
+        "identifiers": [
+          "0000-0002-1916-6276"
+        ],
+        "affiliations": [
+          "Department of Medicine and the Mays Cancer Center, the University of Texas Health Science Center San Antonio, San Antonio, TX 78229, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2023 Dec 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/13 00:41",
+    "fetched_at": "2026-09-29 10:18:51"
+  },
+  "links": {
+    "cites": [
+      "42656196",
+      "41706852",
+      "41480313",
+      "41404808",
+      "41277403",
+      "40540112",
+      "40427135",
+      "39939686",
+      "39674822",
+      "39178326",
+      "38678239",
+      "38227011",
+      "38069223"
+    ],
+    "refs": [
+      "36881763",
+      "36683914",
+      "36471805",
+      "36210722",
+      "35715464",
+      "35704200",
+      "35704192",
+      "35618715",
+      "35591858",
+      "35508167",
+      "35449404",
+      "35328651",
+      "35013239",
+      "34867886",
+      "34586808",
+      "34329467",
+      "34265844",
+      "34039990",
+      "33755171",
+      "33710534",
+      "33505970",
+      "33347814",
+      "33052725",
+      "32911332",
+      "32796829",
+      "32582699",
+      "32493765",
+      "32431834",
+      "32117455",
+      "32107311",
+      "32005969",
+      "31887540",
+      "31836759",
+      "31775053",
+      "31395736",
+      "31053798",
+      "30946744",
+      "30850542",
+      "30728477",
+      "30719750",
+      "30605451",
+      "30431240",
+      "30297739",
+      "30271116",
+      "30245011",
+      "30060749",
+      "29742442",
+      "29416069",
+      "29145865",
+      "29074626",
+      "29043635",
+      "28802046",
+      "28802045",
+      "28429714",
+      "28257700",
+      "28049724",
+      "27793359",
+      "27327157",
+      "27151551",
+      "27131367",
+      "26684013",
+      "26593718",
+      "26584049",
+      "26551076",
+      "25933036",
+      "25699710",
+      "25114049",
+      "24990962",
+      "24896180",
+      "24211264",
+      "23868195",
+      "23828459",
+      "23795288",
+      "23187801",
+      "22387027",
+      "22288397",
+      "22231448",
+      "22195969",
+      "22144908",
+      "21979917",
+      "21700224",
+      "20634320",
+      "20208519",
+      "19841062",
+      "19458360",
+      "19332551",
+      "17028158",
+      "17028157",
+      "16420346",
+      "15965487",
+      "15831789",
+      "15657035",
+      "14770181",
+      "11319219",
+      "10811812",
+      "10497183",
+      "10347234",
+      "9003192",
+      "8999816",
+      "8294458",
+      "781674"
+    ],
+    "similar": [
+      "37953292",
+      "41404808",
+      "37697435",
+      "29145865",
+      "33529165",
+      "31395736",
+      "37108225",
+      "41917467",
+      "34112789",
+      "32913330",
+      "39116124",
+      "36672839",
+      "32859985",
+      "34871413",
+      "33755171",
+      "36490315",
+      "41555274",
+      "40366633",
+      "38069223",
+      "36453994",
+      "39120648",
+      "42493500",
+      "28649985",
+      "36542058",
+      "34599155",
+      "37827159",
+      "35459910",
+      "38936834",
+      "37322264",
+      "41161313",
+      "33052725",
+      "38943334",
+      "41277403",
+      "40730818",
+      "42228326",
+      "39404251",
+      "31267554",
+      "30982901",
+      "28162271",
+      "24776801",
+      "25699710",
+      "33313823",
+      "12507302",
+      "34399314",
+      "27556296",
+      "40373656",
+      "36794853",
+      "28717002",
+      "31843970",
+      "32439635",
+      "36928661",
+      "29248492",
+      "32926139",
+      "31706509",
+      "38266640",
+      "40112807",
+      "37591890",
+      "41896346",
+      "39178326",
+      "42049240",
+      "40540832",
+      "40234721",
+      "35508167",
+      "27264184",
+      "28653981",
+      "34445553",
+      "35163467",
+      "37364916",
+      "31231063",
+      "41816910",
+      "29327083",
+      "33857133",
+      "39955949",
+      "32719125",
+      "36983041",
+      "27452366",
+      "32611612",
+      "39425197",
+      "18473729",
+      "35045161",
+      "32516653",
+      "18197258",
+      "40127989",
+      "25205036",
+      "37419963",
+      "38657865",
+      "41501001",
+      "31708417",
+      "31300387",
+      "40725198",
+      "34697388",
+      "41006228",
+      "36931280",
+      "30576655",
+      "41378389",
+      "42026781",
+      "33015627",
+      "39394182",
+      "28821455",
+      "40579572"
+    ],
+    "review": [
+      "37953292",
+      "37108225",
+      "33755171",
+      "38069223",
+      "35459910",
+      "41277403",
+      "12507302",
+      "34399314",
+      "40373656",
+      "31843970",
+      "31706509",
+      "40540832",
+      "35508167",
+      "28653981",
+      "34445553",
+      "35163467",
+      "31231063",
+      "29327083",
+      "36983041",
+      "32611612",
+      "39425197",
+      "18473729",
+      "32516653",
+      "40127989",
+      "37419963",
+      "40725198",
+      "41378389"
+    ],
+    "pmc": [
+      "10711561"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/37953292/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37953292/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37953292",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkad952",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

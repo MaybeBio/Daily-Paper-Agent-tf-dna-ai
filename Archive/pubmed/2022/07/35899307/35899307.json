@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "35899307",
+    "doi": "10.1177/15330338221117003",
+    "title": "Weighted Correlation Network Analysis of Cancer Stem Cell-Related Prognostic Biomarkers in Esophageal Squamous Cell Carcinoma."
+  },
+  "content": {
+    "abstract": "Background: The role of cancer stem cells in esophageal squamous cell carcinoma (ESCC) remains unclear. Methods: The mRNA stemness index (mRNAsi) of 179 ESCC patients (GSE53625) was calculated using a machine learning algorithm based on their mRNA expression. Stemness-related genes were identified by weighted correlation network analysis (WGCNA) and LASSO regression, whose associations with mutation status, immune cell infiltrations, and potential compounds were also analyzed. The role of these genes in proliferation and their expressions was assessed in ESCC cell lines and 112 samples from our center. Results: The ESCC samples had significantly higher mRNAsi than the normal tissues. Patients with high mRNAsi exhibited higher worse OS. Seven stemness-related genes were identified by WGCNA and LASSO regression, based on which a risk-predicted score model was constructed. Among them, CST1, CILP, PITX2, F2RL2, and RIOX1 were favorable for OS, which were adverse for DPP4 and ZFHX4 in the GSE53625 dataset. However, RIOX1 was unfavorable for OS in patients from our center. In vitro assays showed that CST1, CILP, PITX2, F2RL2, and RIOX1 were pro-proliferated, which were opposite for DDP4 and ZFHX4. In addition, SMARCA4, NOTCH3, DNAH5, and KALRN were more mutated in the low-score group. The low-score group had significantly more memory B cells, monocytes, activated NK cells, and Tregs and less macrophages M2, resting mast cells, and resting dendritic cells. Conclusions: Seven stemness-related genes are significantly related to the prognosis, gene mutations, and immune cell infiltration of ESCC. Some potential anticancer compounds may be favorable for OS.",
+    "keywords": [
+      "GEO database",
+      "TCGA database",
+      "WGCNA",
+      "connectivity map database",
+      "esophageal squamous cell carcinoma"
+    ],
+    "mesh_terms": [
+      "Biomarkers, Tumor/genetics/metabolism",
+      "*Carcinoma, Squamous Cell/genetics",
+      "DNA Helicases/metabolism",
+      "*Esophageal Neoplasms/pathology",
+      "*Esophageal Squamous Cell Carcinoma/pathology",
+      "Humans",
+      "Neoplastic Stem Cells/metabolism",
+      "Nuclear Proteins/metabolism",
+      "Prognosis",
+      "RNA, Messenger/metabolism",
+      "Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Mengnan",
+        "Jin, Xing",
+        "Chen, Zhencong",
+        "Zhang, Huan",
+        "Zhan, Cheng",
+        "Wang, Hao",
+        "Wang, Qun"
+      ],
+      "short_names": [
+        "Zhao M",
+        "Jin X",
+        "Chen Z",
+        "Zhang H",
+        "Zhan C",
+        "Wang H",
+        "Wang Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8745-9276"
+      ],
+      "affiliations": [
+        "Department of Thoracic Surgery, 92323Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Department of Thoracic Surgery, 92323Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Department of Thoracic Surgery, 92323Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Department of Thoracic Surgery, 92323Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Department of Thoracic Surgery, 92323Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Department of Thoracic Surgery, 92323Zhongshan Hospital, Fudan University, Shanghai, China.",
+        "Department of Thoracic Surgery, 92323Zhongshan Hospital, Fudan University, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Mengnan",
+        "short_name": "Zhao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, 92323Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Xing",
+        "short_name": "Jin X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, 92323Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Zhencong",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, 92323Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Huan",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, 92323Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Cheng",
+        "short_name": "Zhan C",
+        "identifiers": [
+          "0000-0001-8745-9276"
+        ],
+        "affiliations": [
+          "Department of Thoracic Surgery, 92323Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hao",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, 92323Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qun",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Thoracic Surgery, 92323Zhongshan Hospital, Fudan University, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Technology in cancer research & treatment"
+    ],
+    "journal_abbrev": [
+      "Technol Cancer Res Treat"
+    ],
+    "pub_date": "2022 Jan-Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/29 06:00",
+    "fetched_at": "2026-10-04 20:25:55"
+  },
+  "links": {
+    "cites": [
+      "42028019",
+      "41315260",
+      "40165896",
+      "39346078",
+      "38869635",
+      "37686677",
+      "36588538"
+    ],
+    "refs": [
+      "34642295",
+      "33139244",
+      "32974170",
+      "32760210",
+      "32210034",
+      "31385424",
+      "31125642",
+      "31118247",
+      "30858546",
+      "30835723",
+      "30822465",
+      "30742940",
+      "30467379",
+      "30371878",
+      "30341162",
+      "29879932",
+      "29625051",
+      "29622701",
+      "29195078",
+      "28748917",
+      "28694483",
+      "28431580",
+      "28389731",
+      "28002059",
+      "27742014",
+      "27473587",
+      "27445438",
+      "27407092",
+      "26984177",
+      "26873401",
+      "26704973",
+      "26298390",
+      "26170973",
+      "26092504",
+      "25913844",
+      "25822800",
+      "24859006",
+      "24789592",
+      "24357805",
+      "24232376",
+      "24016594",
+      "23684587",
+      "23420695",
+      "23382140",
+      "23382045",
+      "22236447",
+      "22098156",
+      "21731740",
+      "21703447",
+      "21479692",
+      "20226597",
+      "19463800",
+      "19134212",
+      "19114008",
+      "18787344",
+      "18223208",
+      "16988583",
+      "16951226",
+      "15027119",
+      "10430620",
+      "9722583",
+      "9212098",
+      "9044528",
+      "8315571",
+      "1674445"
+    ],
+    "similar": [
+      "35899307",
+      "32810627",
+      "35799142",
+      "34054840",
+      "29885401",
+      "27407092",
+      "28431580",
+      "39604874",
+      "40598454",
+      "31981592",
+      "37796690",
+      "27680978",
+      "28713964",
+      "32221746",
+      "41208974",
+      "38656879",
+      "38816411",
+      "39463444",
+      "39516222",
+      "34840626",
+      "35371305",
+      "35365175",
+      "34712369",
+      "32662828",
+      "31770041",
+      "36180848",
+      "41162922",
+      "34411647",
+      "40504362",
+      "34289558",
+      "40918133",
+      "34745015",
+      "39324651",
+      "40225867",
+      "24936140",
+      "36265781",
+      "39891717",
+      "31978896",
+      "32014008",
+      "32644941",
+      "27621578",
+      "35880180",
+      "40303412",
+      "32375686",
+      "39966857",
+      "33098486",
+      "40497781",
+      "36933111",
+      "41383582",
+      "29299035",
+      "31236983",
+      "34257544",
+      "38682192",
+      "40496864",
+      "31638253",
+      "34162127",
+      "39093516",
+      "32239639",
+      "37531195",
+      "33345608",
+      "39944684",
+      "21732143",
+      "27188458",
+      "40281492",
+      "34257599",
+      "32867821",
+      "34926275",
+      "33004764",
+      "39870059",
+      "35833114",
+      "39344350",
+      "36359828",
+      "25719728",
+      "31116509",
+      "28336434",
+      "38975629",
+      "25031703",
+      "25760075",
+      "36803971",
+      "38694506",
+      "28209530",
+      "34372798",
+      "39444152",
+      "35381131",
+      "39849452",
+      "36817484",
+      "37302024",
+      "32567032",
+      "27329034",
+      "39864540",
+      "40335994",
+      "37455452",
+      "35121801",
+      "32311840",
+      "32600359",
+      "39993802",
+      "40257733",
+      "28780075",
+      "29365413",
+      "40155014"
+    ],
+    "review": [
+      "35899307"
+    ],
+    "pmc": [
+      "9340319"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1177/15330338221117003?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/esophagealcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Esophageal Cancer"
+      },
+      {
+        "url": "https://www.ovid.com/35899307.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35899307/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35899307",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1292",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

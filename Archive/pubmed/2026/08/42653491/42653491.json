@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "42653491",
+    "doi": "10.3390/ijms27167493",
+    "title": "Identification of Cellular Senescence-Related Hub Genes in Rheumatoid Arthritis from Bioinformatics Analysis Through Machine Learning up to Verifications in Mouse Macrophages and Tests in Patients."
+  },
+  "content": {
+    "abstract": "Rheumatoid arthritis (RA) is a chronic autoimmune disease characterized by synovial inflammation and joint destruction. Cellular senescence contributes to chronic inflammation, yet key senescence-associated regulators in RA remain unclear. This study aimed to identify RA senescence-related signatures and their roles. Using GSE89408 as the training cohort, we screened hub genes by intersecting differentially expressed and senescence-related genes via WGCNA and three machine learning algorithms, with GSE55457 for external validation. Immune infiltration, regulatory network, subtyping and drug prediction were analyzed. Clinical and in vitro assays validated RIPK2 expression and function in the macrophage senescence-like phenotype, with preliminary signaling exploration. Three senescence-related hub genes (TNFAIP6, SLC2A3, RIPK2) were identified. The derived nomogram showed robust diagnostic performance (AUC = 0.988). Hub genes correlated strongly with myeloid cells, especially macrophages. Two immunologically distinct RA subtypes were identified. RIPK2 was upregulated in clinical samples; its inhibition attenuated LPS-induced macrophage senescence-like changes and inflammation. Preliminary data suggested RIPK2 may act via the NF-kappaB pathway. This study identifies RA senescence-associated signatures, revealing RIPK2 linking innate immunity to macrophage senescence-like changes, offering novel insights into pathogenesis and supporting it as a candidate biomarker and therapeutic target.",
+    "keywords": [
+      "RIPK2",
+      "cellular senescence",
+      "machine learning",
+      "macrophage",
+      "rheumatoid arthritis"
+    ],
+    "mesh_terms": [
+      "*Arthritis, Rheumatoid/genetics/pathology/metabolism",
+      "Animals",
+      "*Cellular Senescence/genetics",
+      "*Macrophages/metabolism/pathology",
+      "*Machine Learning",
+      "Mice",
+      "Humans",
+      "*Computational Biology/methods",
+      "*Receptor-Interacting Protein Serine-Threonine Kinase 2/genetics/metabolism",
+      "Gene Expression Profiling",
+      "Gene Regulatory Networks",
+      "Signal Transduction",
+      "NF-kappa B/metabolism",
+      "Tumor Necrosis Factor alpha-Induced Protein 3"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Dandan",
+        "Tian, Linkun",
+        "Ma, Qingshan",
+        "Zhang, Zhengdong",
+        "Wang, Yi",
+        "Fang, Junhao",
+        "Xu, Hairong",
+        "Chen, Qi",
+        "Chen, Hongdian",
+        "Wang, Fangyuan",
+        "Zhang, Qiaoyan",
+        "Zhang, Quanlong",
+        "Qin, Luping"
+      ],
+      "short_names": [
+        "Wang D",
+        "Tian L",
+        "Ma Q",
+        "Zhang Z",
+        "Wang Y",
+        "Fang J",
+        "Xu H",
+        "Chen Q",
+        "Chen H",
+        "Wang F",
+        "Zhang Q",
+        "Zhang Q",
+        "Qin L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1680-4869",
+        "ORCID: 0000-0002-5056-6497"
+      ],
+      "affiliations": [
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China.",
+        "Zhejiang Key Laboratory of Chinese Medicine Modernization, Zhejiang Chinese Medical University, Hangzhou 311402, China.",
+        "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China.",
+        "Zhejiang Key Laboratory of Chinese Medicine Modernization, Zhejiang Chinese Medical University, Hangzhou 311402, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Dandan",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Linkun",
+        "short_name": "Tian L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Qingshan",
+        "short_name": "Ma Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhengdong",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yi",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Junhao",
+        "short_name": "Fang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Hairong",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Qi",
+        "short_name": "Chen Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hongdian",
+        "short_name": "Chen H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Fangyuan",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qiaoyan",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Quanlong",
+        "short_name": "Zhang Q",
+        "identifiers": [
+          "0000-0002-1680-4869"
+        ],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China.",
+          "Zhejiang Key Laboratory of Chinese Medicine Modernization, Zhejiang Chinese Medical University, Hangzhou 311402, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Luping",
+        "short_name": "Qin L",
+        "identifiers": [
+          "0000-0002-5056-6497"
+        ],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China.",
+          "Zhejiang Key Laboratory of Chinese Medicine Modernization, Zhejiang Chinese Medical University, Hangzhou 311402, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Aug 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/27 05:35",
+    "fetched_at": "2026-10-02 04:25:58"
+  },
+  "links": {
+    "cites": [
+      "42471718"
+    ],
+    "refs": [
+      "42327748",
+      "42261702",
+      "42113304",
+      "41816328",
+      "41619268",
+      "41534450",
+      "41248726",
+      "40852730",
+      "40820921",
+      "40453080",
+      "40238799",
+      "39315569",
+      "39242085",
+      "38973391",
+      "38799455",
+      "38711508",
+      "38660308",
+      "37731189",
+      "37324457",
+      "37315817",
+      "37271484",
+      "35837194",
+      "35732460",
+      "34759307",
+      "33456488",
+      "33262144",
+      "33237311",
+      "30458798",
+      "30279485",
+      "25778803",
+      "22182507",
+      "22150039",
+      "20870100",
+      "19232060",
+      "19114008"
+    ],
+    "similar": [
+      "42653491",
+      "42243611",
+      "39326197",
+      "39845946",
+      "40238799",
+      "38711508",
+      "41116042",
+      "39139563",
+      "40500570",
+      "42642681",
+      "42492262",
+      "41913032",
+      "38573982",
+      "40636121",
+      "39953769",
+      "41680947",
+      "42135859",
+      "40397030",
+      "42291298",
+      "41607310",
+      "41816328",
+      "42251905",
+      "38062164",
+      "42158856",
+      "41863700",
+      "42496954",
+      "41794917",
+      "41459480",
+      "42566402",
+      "41963573",
+      "39466354",
+      "38771826",
+      "39509434",
+      "38834626",
+      "40955790",
+      "41583523",
+      "41136974",
+      "41021591",
+      "36317112",
+      "42510776",
+      "40997906",
+      "39736250",
+      "36238290",
+      "39884182",
+      "34113405",
+      "42259110",
+      "41840566",
+      "40596265",
+      "41262249",
+      "42123445",
+      "39490433",
+      "41068798",
+      "42250009",
+      "34224029",
+      "36699262",
+      "40948769",
+      "39069636",
+      "34477936",
+      "34583778",
+      "41846910",
+      "35259711",
+      "36224010",
+      "40153321",
+      "33604823",
+      "42456406",
+      "41826854",
+      "39067546",
+      "39486110",
+      "40644421",
+      "42306043",
+      "42340574",
+      "40595039",
+      "42274933",
+      "42079609",
+      "41737229",
+      "38755717",
+      "42107160",
+      "39617708",
+      "41760060",
+      "32802866",
+      "41637423",
+      "40671345",
+      "41544137",
+      "40815986",
+      "39820552",
+      "41044520",
+      "40350051",
+      "41408107",
+      "41361849",
+      "42597971",
+      "41511918",
+      "42216376",
+      "32945465",
+      "36110846",
+      "40252462",
+      "38484666",
+      "34767108",
+      "41299613",
+      "40777023",
+      "34271942"
+    ],
+    "review": [
+      "42653491"
+    ],
+    "pmc": [
+      "13513530"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27167493",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/rheumatoidarthritis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rheumatoid Arthritis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42653491/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

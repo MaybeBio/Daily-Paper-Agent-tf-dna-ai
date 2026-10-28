@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34038555",
+  "title": "NetGO 2.0: improving large-scale protein function prediction with massive sequence, text, domain, family and network information.",
+  "authors": "Yao, Shuwei; You, Ronghui; Wang, Shaojun; Xiong, Yi; Huang, Xiaodi; Zhu, Shanfeng",
+  "journal": "Nucleic acids research",
+  "published_date": "2021-05-27",
+  "window": {
+    "start": "2021-05-24",
+    "end": "2021-05-30"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用学习排序框架整合序列、文本、网络等信息进行大规模蛋白质功能预测，虽涉及序列和网络建模，但核心是GO功能注释而非蛋白质-DNA互作，且无TF-DNA结合建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "With the explosive growth of protein sequences, large-scale automated protein function prediction (AFP) is becoming challenging. A protein is usually associated with dozens of gene ontology (GO) terms. Therefore, AFP is regarded as a problem of large-scale multi-label classification. Under the learning to rank (LTR) framework, our previous NetGO tool integrated massive networks and multi-type information about protein sequences to achieve good performance by dealing with all possible GO terms (>44 000). In this work, we propose the updated version as NetGO 2.0, which further improves the performance of large-scale AFP. NetGO 2.0 also incorporates literature information by logistic regression and deep sequence information by recurrent neural network (RNN) into the framework. We generate datasets following the critical assessment of functional annotation (CAFA) protocol. Experiment results show that NetGO 2.0 outperformed NetGO significantly in biological process ontology (BPO) and cellular component ontology (CCO). In particular, NetGO 2.0 achieved a 12.6% improvement over NetGO in terms of area under precision-recall curve (AUPR) in BPO and around 2.6% in terms of $\\mathbf F_max$ in CCO. These results demonstrate the benefits of incorporating text and deep sequence information for the functional annotation of BPO and CCO. The NetGO 2.0 web server is freely available at http://issubmission.sjtu.edu.cn/ng2/.",
+  "abstract_zh": "随着蛋白质序列的爆炸性增长，大规模自动化蛋白质功能预测（AFP）正面临挑战。一个蛋白质通常关联数十个基因本体（GO）术语。因此，AFP被视为一个大规模多标签分类问题。在排序学习（LTR）框架下，我们之前的NetGO工具通过整合海量网络和蛋白质序列的多类型信息，处理所有可能的GO术语（>44 000），取得了良好性能。在本工作中，我们提出了更新版本NetGO 2.0，进一步提升了大规模AFP的性能。NetGO 2.0还通过逻辑回归整合文献信息，并通过循环神经网络（RNN）整合深度序列信息到框架中。我们按照功能注释关键评估（CAFA）协议生成数据集。实验结果表明，NetGO 2.0在生物过程本体（BPO）和细胞组分本体（CCO）上显著优于NetGO。特别是，NetGO 2.0在BPO中的精确率-召回率曲线下面积（AUPR）上比NetGO提高了12.6%，在CCO中的$\\mathbf F_max$上提高了约2.6%。这些结果证明了整合文本和深度序列信息对BPO和CCO功能注释的益处。NetGO 2.0网络服务器可免费访问：http://issubmission.sjtu.edu.cn/ng2/。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34038555/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34038555/",
+  "paper_page_path": "papers/pubmed/34038555/index.html"
+}

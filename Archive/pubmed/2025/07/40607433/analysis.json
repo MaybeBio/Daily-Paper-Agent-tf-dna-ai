@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40607433",
+  "title": "Identification and validation of NETs-related biomarkers in active tuberculosis through bioinformatics analysis and machine learning algorithms.",
+  "authors": "Xia, Shengfang; An, Qi; Lin, Rui; Tu, Yalan; Chen, Zhu; Wang, Dongmei",
+  "journal": "Frontiers in immunology",
+  "published_date": "2025-07-03",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过生物信息学与机器学习筛选结核病NETs相关生物标志物，虽涉及转录因子IRF1但无蛋白质-DNA互作建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "INTRODUCTION: Diagnostic delays in tuberculosis (TB) threaten global control efforts, necessitating early detection of active TB (ATB). This study explores neutrophil extracellular traps (NETs) as key mediators of TB immunopathology to identify NETs-related biomarkers for differentiating ATB from latent TB infection (LTBI). METHODS: We analyzed transcriptomic datasets (GSE19491, GSE62525, GSE28623) using differential expression analysis (|log, FC| >/= 0.585, adj. p < 0.05), immune cell profiling (CIBERSORT), and machine learning (SVM-RFE, LASSO, Random Forest). Regulatory networks and drug-target interactions were predicted using NetworkAnalyst, Tarbase, and DGIdb. RESULTS: We identified three hub genes (CD274, IRF1, HPSE) showing high diagnostic accuracy (AUC 0.865-0.98, sensitivity/specificity >80%) validated through ROC/precision-recall curves. IRF1 and HPSE correlated with neutrophil infiltration (r > 0.6, p < 0.001), suggesting roles in NETosis. FOXC1, GATA2, and hsa-miR-106a-5p emerged as core regulators, and 46 candidate drugs (e.g., PD-1 inhibitors, heparin) were prioritized for repurposing. DISCUSSION: CD274, IRF1, and HPSE represent promising NETs-derived diagnostic biomarkers for ATB. Their dual roles in neutrophil-mediated immunity highlight therapeutic potential, though drug predictions require preclinical validation. Future studies should leverage spatial omics and CRISPR screening to elucidate mechanistic pathways.",
+  "abstract_zh": "引言：结核病（TB）诊断延迟威胁全球防控工作，亟需对活动性结核病（ATB）进行早期检测。本研究探讨中性粒细胞胞外陷阱（NETs）作为TB免疫病理学的关键介质，以识别区分ATB与潜伏性结核感染（LTBI）的NETs相关生物标志物。方法：我们使用差异表达分析（|log, FC| ≥ 0.585，校正后p < 0.05）、免疫细胞谱分析（CIBERSORT）和机器学习（SVM-RFE、LASSO、随机森林）分析了转录组数据集（GSE19491、GSE62525、GSE28623）。利用NetworkAnalyst、Tarbase和DGIdb预测调控网络和药物-靶点相互作用。结果：我们识别出三个核心基因（CD274、IRF1、HPSE），其诊断准确性高（AUC 0.865-0.98，敏感性/特异性 >80%），并通过ROC/精确率-召回率曲线验证。IRF1和HPSE与中性粒细胞浸润相关（r > 0.6，p < 0.001），提示其在NETosis中发挥作用。FOXC1、GATA2和hsa-miR-106a-5p被确定为核心调控因子，并优先筛选出46种候选药物（如PD-1抑制剂、肝素）用于药物再利用。讨论：CD274、IRF1和HPSE代表有前景的NETs来源的ATB诊断生物标志物。它们在中性粒细胞介导免疫中的双重作用凸显治疗潜力，但药物预测需临床前验证。未来研究应利用空间组学和CRISPR筛选来阐明机制通路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40607433/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40607433/",
+  "paper_page_path": "papers/pubmed/40607433/index.html"
+}

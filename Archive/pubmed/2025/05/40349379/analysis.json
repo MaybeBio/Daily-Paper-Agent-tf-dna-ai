@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40349379",
+  "title": "iEnhancer-DS: Attention-based improved densenet for identifying enhancers and their strength.",
+  "authors": "Fan, Yongxian; Wang, Chen; Sun, Guicong",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2025-05-11",
+  "window": {
+    "start": "2025-05-05",
+    "end": "2025-05-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用改进DenseNet和注意力机制预测增强子及其强度，增强子通过结合转录因子发挥作用，属于广义蛋白-DNA互作相关序列预测，但未涉及三维互作建模或结合机制，方法可迁移至TF-DNA位点预测。",
+  "abstract": "Enhancers are short DNA fragments that enhance gene expression by binding to transcription factors. Accurately identifying enhancers and their strength is crucial for understanding gene regulation mechanisms. However, traditional enhancer sequencing techniques are costly and time-consuming. Therefore, it is necessary to develop computational methods to quickly and accurately identify enhancers and their strength. Given the limitations of existing computational methods, such as low performance and complex encoding, this study proposes a deep learning-based multi-task framework, iEnhancer-DS, for enhancer identification and their strength classification. First, feature embeddings characterizing DNA sequences are obtained using one-hot encoding and nucleotide chemical properties (NCP). Next, an improved DenseNet module is applied to learn implicit high-order features from the concatenated feature embeddings. Subsequently, the self-attention mechanism is used to dynamically assess the importance of features and assign weights to them, and then the features are passed to the multilayer perceptron (MLP) to calculate the prediction probabilities. Experimental results show that iEnhancer-DS achieves state-of-the-art performance in both enhancer identification and strength prediction. In the enhancer identification task, iEnhancer-DS improves ACC and MCC by 4.03% and 8.47% respectively over the current state-of-the-art methods. Similarly, in the enhancer strength prediction task, the ACC and MCC values of iEnhancer-DS increased by 1.40% and 3.81%, respectively. In addition, we used the t-SNE method to perform an interpretable analysis of the mechanism of action of iEnhancer-DS. The detailed code and raw data of iEnhancer-DS can be obtained from https://github.com/zha12ja/iEnhancer-DS.",
+  "abstract_zh": "增强子是通过与转录因子结合来增强基因表达的短DNA片段。准确识别增强子及其强度对于理解基因调控机制至关重要。然而，传统的增强子测序技术成本高昂且耗时。因此，有必要开发计算方法以快速准确地识别增强子及其强度。鉴于现有计算方法的局限性，如性能低下和编码复杂，本研究提出了一种基于深度学习的多任务框架iEnhancer-DS，用于增强子识别及其强度分类。首先，使用one-hot编码和核苷酸化学性质（NCP）获得表征DNA序列的特征嵌入。接着，应用改进的DenseNet模块从拼接的特征嵌入中学习隐式高阶特征。随后，利用自注意力机制动态评估特征的重要性并为其分配权重，然后将特征传递给多层感知器（MLP）以计算预测概率。实验结果表明，iEnhancer-DS在增强子识别和强度预测方面均达到了最先进的性能。在增强子识别任务中，iEnhancer-DS相较于当前最先进的方法，ACC和MCC分别提高了4.03%和8.47%。同样，在增强子强度预测任务中，iEnhancer-DS的ACC和MCC值分别增加了1.40%和3.81%。此外，我们使用t-SNE方法对iEnhancer-DS的作用机制进行了可解释性分析。iEnhancer-DS的详细代码和原始数据可从https://github.com/zha12ja/iEnhancer-DS获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40349379/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40349379/",
+  "paper_page_path": "papers/pubmed/40349379/index.html"
+}

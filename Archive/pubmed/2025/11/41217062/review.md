@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors combine molecular dynamics simulations with graph-theory and centrality analyses to propose design rules for PAM recognition in three Cas9 variants (VQR, VRER, EQR). They claim that efficient PAM recognition requires local stabilization, distal coupling, and entropic tuning, not merely direct base-specific contacts. A key role is attributed to the D1135V/E substitution, which stabilizes DNA binding by K1107 and preserves phosphate locking via S1109. Variants with only R-to-Q substitutions are claimed to destabilize the PAM-binding cleft, perturb REC3 dynamics, and disrupt allosteric coupling to HNH.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, convergence criteria, statistical analyses, or structural data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameters, sampling lengths, replica details, centrality calculation methods, and any experimental validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting framework for understanding PAM recognition in CRISPR-Cas9 variants through a combination of molecular dynamics and network analysis. The central hypothesis, that distal allosteric coupling and entropic effects matter beyond direct contacts, is plausible and aligns with emerging views in the field. However, the abstract alone provides insufficient evidence to evaluate the robustness of the simulations, the statistical significance of the claimed differences between variants, or the generalizability of the proposed design rules. The claim that D1135V/E plays a key role is specific and testable, but the supporting evidence is not visible. The manuscript may be of interest to computational biophysicists and genome-editing engineers, but the current evidence base does not establish the case.
+- **Who would be interested in the results, and why** Computational biophysicists studying protein-DNA interactions and allosteric networks would find the methodological combination of MD with graph theory relevant. Genome-editing researchers focused on engineering Cas9 variants with expanded PAM compatibility would be interested in the proposed design rules, particularly the emphasis on distal stabilization rather than only direct contact engineering. The work could also appeal to those developing rational design strategies for other RNA-guided nucleases.
+- **Major strengths** The abstract addresses a practically important problem, namely expanding PAM compatibility for genome editing. The proposed framework moves beyond a simplistic contact-based view and incorporates distal coupling and entropic effects, which is conceptually valuable. The specific focus on D1135V/E as a stabilizing substitution provides a concrete, testable hypothesis. The comparative analysis across three variants offers a basis for identifying general principles.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "efficient recognition is not dictated solely by direct contacts between PAM-interacting residues and DNA but also by a distal network that stabilizes the PAM-binding domain and preserves long-range communication with REC3."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative evidence for the existence or functional role of the proposed distal network. No metrics are given for centrality, no comparison of network properties between variants, and no statistical assessment of whether observed differences are significant. The claim that REC3 is a "hub" is asserted without supporting data.
+  - **Why it matters** The central thesis of the paper rests on the existence and functional importance of this distal network. Without visible evidence of network analysis results, convergence of simulations, or statistical comparisons, the claim cannot be evaluated. If the network differences are within noise or are not robust to simulation parameters, the entire framework would be undermined.
+  - **Resolution test** Provide quantitative network metrics (e.g., betweenness centrality, community structure) for each variant, with error bars or replicate analysis, and demonstrate that differences between VQR/VRER/EQR and the R-to-Q variants are statistically significant. Show that perturbation of the proposed network nodes (e.g., via mutation or in silico alanine scanning) alters PAM recognition in a predictable manner.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the D1135 V/E substitution... enables stable DNA binding by K1107 and preserves key DNA phosphate locking interactions via S1109, securing stable PAM engagement."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify how "stable DNA binding" and "preserved interactions" are measured. No binding free energies, contact lifetimes, hydrogen bond occupancies, or interaction energies are reported. The causal link from D1135V/E to K1107 binding and S1109 locking is asserted but not demonstrated mechanistically.
+  - **Why it matters** This is the most concrete and actionable claim in the abstract. If the evidence is limited to visual inspection of trajectories or single simulations, the claim would be weak. The design rule derived from this claim would be unreliable without quantitative support.
+  - **Resolution test** Report binding free energy calculations (e.g., MM-PBSA or similar) for K1107-DNA interactions in each variant, with error estimates. Show contact occupancy and lifetime distributions for S1109-phosphate interactions. Demonstrate that mutation of D1135 to other residues (e.g., alanine or lysine) abolishes the proposed stabilizing effect.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "variants carrying only R-to-Q substitutions at PAM-contacting residues... destabilize the PAM-binding cleft, perturb REC3 dynamics, and disrupt allosteric coupling to HNH."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative measures of cleft stability, REC3 dynamics, or allosteric coupling. No root-mean-square fluctuation values, principal component analyses, dynamic cross-correlation matrices, or communication pathway analyses are mentioned. The comparison between VQR/VRER/EQR and R-to-Q variants is not quantified.
+  - **Why it matters** The contrast between the D1135-containing variants and the R-to-Q variants is the basis for the proposed design rule. Without quantitative evidence of destabilization and disrupted coupling, the rule cannot be distinguished from anecdotal observation.
+  - **Resolution test** Provide RMSF or covariance analyses showing significant differences in cleft flexibility and REC3 dynamics between variant classes. Use dynamic network analysis or mutual information methods to quantify allosteric coupling strength and show that R-to-Q variants have significantly reduced coupling to HNH.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The authors claim that "this framework provides guiding principles for engineering Cas9 variants with expanded PAM compatibility and improved editing efficiency."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not mention any experimental validation of the proposed design rules. No engineered variants are tested, no editing efficiency assays are reported, and no comparison with existing experimental data on VQR, VRER, or EQR is provided.
+  - **Why it matters** The claim of "guiding principles" implies practical utility. Without experimental validation or at least comparison with known experimental results, the framework remains speculative. The title promises "design rules," which requires demonstration that the rules can predict or explain experimental outcomes.
+  - **Resolution test** Include experimental validation of at least one novel variant designed using the proposed rules, or show that the rules retrospectively explain the known activities of VQR, VRER, and EQR compared to less successful variants.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The term "entropic tuning" is introduced without definition or explanation of how it is quantified in the simulations.
+  - **Required correction** Define what is meant by entropic tuning and specify the computational method used to assess it (e.g., entropy decomposition, configurational entropy calculations).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract
+  - **Issue** No information is given on simulation length, number of replicas, force field, or water model, which are essential for assessing the reliability of MD results.
+  - **Required correction** Add a brief statement in the abstract or refer to methods section with these details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Scope of claims
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not state whether the proposed design rules are specific to the VQR/VRER/EQR background or transferable to other Cas9 scaffolds.
+  - **Required correction** Clarify the intended scope of the design rules and discuss potential limitations for transferability.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central mechanistic claims lack quantitative evidence in the abstract. R1-M4 is important but not strictly technical; however, the absence of any validation weakens the practical claim.
+- **Assessment against Nature-style criteria** Originality: The combination of MD with graph theory for PAM recognition is not entirely new but the specific focus on distal allosteric coupling and entropic effects in Cas9 variants is a fresh angle. Scientific importance: The problem of PAM expansion is significant for genome editing, and a mechanistic framework could be valuable. Interdisciplinary readership: The work bridges computational biophysics and genome engineering, which could attract readers from both communities. Technical soundness: Not assessable from the abstract alone; the absence of quantitative evidence is a major limitation. Readability for nonspecialists: The abstract is reasonably clear but uses jargon (e.g., "centrality," "REC3 hub") without sufficient context for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible framework but lacks the quantitative detail needed to assess the validity of the central claims. A full review of the manuscript with access to figures, methods, and any validation data would be required to determine whether the case can be made. If the full manuscript provides robust statistical analyses and experimental or literature-based validation, the work could be supportive.
+
+## Risk / unsupported claims
+- The claim that "efficient recognition is not dictated solely by direct contacts" is unsupported without quantitative comparison of contact versus network contributions.
+- The claim that D1135V/E "enables stable DNA binding by K1107" is unsupported without binding free energy or contact lifetime data.
+- The claim that R-to-Q variants "destabilize the PAM-binding cleft, perturb REC3 dynamics, and disrupt allosteric coupling" is unsupported without fluctuation, correlation, or network metrics.
+- The claim that the framework "provides guiding principles for engineering" is unsupported without experimental validation or retrospective explanation of known experimental data.
+- The overall generalizability of the findings to other Cas9 variants is not assessable from the abstract.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36360189",
+  "title": "Uncovering the Relationship between Tissue-Specific TF-DNA Binding and Chromatin Features through a Transformer-Based Model.",
+  "authors": "Zhang, Yongqing; Liu, Yuhang; Wang, Zixuan; Wang, Maocheng; Xiong, Shuwen; Huang, Guo; Gong, Meiqin",
+  "journal": "Genes",
+  "published_date": "2022-11-12",
+  "window": {
+    "start": "2022-11-07",
+    "end": "2022-11-13"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出基于Transformer的GHTNet模型，整合序列、表观基因组和形状特征预测组织特异性TF-DNA结合，并解析其与染色质特征的关系，高度契合本课题的TF-DNA互作建模与AI方法。",
+  "abstract": "Chromatin features can reveal tissue-specific TF-DNA binding, which leads to a better understanding of many critical physiological processes. Accurately identifying TF-DNA bindings and constructing their relationships with chromatin features is a long-standing goal in the bioinformatic field. However, this has remained elusive due to the complex binding mechanisms and heterogeneity among inputs. Here, we have developed the GHTNet (General Hybrid Transformer Network), a transformer-based model to predict TF-DNA binding specificity. The GHTNet decodes the relationship between tissue-specific TF-DNA binding and chromatin features via a specific input scheme of alternative inputs and reveals important gene regions and tissue-specific motifs. Our experiments show that the GHTNet has excellent performance, achieving about a 5% absolute improvement over existing methods. The TF-DNA binding mechanism analysis shows that the importance of TF-DNA binding features varies across tissues. The best predictor is based on the DNA sequence, followed by epigenomics and shape. In addition, cross-species studies address the limited data, thus providing new ideas in this case. Moreover, the GHTNet is applied to interpret the relationship among TFs, chromatin features, and diseases associated with AD46 tissue. This paper demonstrates that the GHTNet is an accurate and robust framework for deciphering tissue-specific TF-DNA binding and interpreting non-coding regions.",
+  "abstract_zh": "染色质特征可以揭示组织特异性的转录因子-DNA结合，从而有助于更好地理解许多关键的生理过程。准确识别转录因子-DNA结合并构建其与染色质特征之间的关系，是生物信息学领域长期追求的目标。然而，由于复杂的结合机制和输入数据的异质性，这一目标至今仍难以实现。在此，我们开发了GHTNet（通用混合Transformer网络），一种基于Transformer的模型，用于预测转录因子-DNA结合特异性。GHTNet通过一种交替输入的特定输入方案，解码组织特异性转录因子-DNA结合与染色质特征之间的关系，并揭示重要的基因区域和组织特异性基序。我们的实验表明，GHTNet具有优异的性能，相比现有方法实现了约5%的绝对提升。转录因子-DNA结合机制分析显示，转录因子-DNA结合特征的重要性在不同组织中有所变化。最佳预测因子基于DNA序列，其次是表观基因组学和形状。此外，跨物种研究解决了数据有限的问题，从而在此情况下提供了新思路。再者，GHTNet被应用于解释转录因子、染色质特征以及与AD46组织相关疾病之间的关系。本文证明，GHTNet是解码组织特异性转录因子-DNA结合和解释非编码区域的准确且稳健的框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36360189/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36360189/",
+  "paper_page_path": "papers/pubmed/36360189/index.html"
+}

@@ -37,11 +37,11 @@
           [
             2026,
             9,
-            17
+            21
           ]
         ],
-        "date-time": "2026-09-17T15:29:42Z",
-        "timestamp": 1789658982615,
+        "date-time": "2026-09-21T10:03:54Z",
+        "timestamp": 1789985034696,
         "version": "4.0.1"
       },
       "posted": {
@@ -54,7 +54,7 @@
         ]
       },
       "group-title": "Biophysics",
-      "reference-count": 0,
+      "reference-count": 41,
       "publisher": "openRxiv",
       "license": [
         {
@@ -148,7 +148,7 @@
           ]
         ]
       },
-      "abstract": "<jats:p>DNA often functions in heterogeneous molecular systems containing proteins, lipids, polymers, and other materials. All-atom molecular dynamics simulations can be used to study DNA in these multicomponent systems, but computational cost limits the accessible system sizes and time scales. Coarse-grained models extend these scales, but existing DNA models are generally not designed for interactions with a broad range of other molecular species. To fill this gap, we develop a coarse-grained model of DNA designed for use with the Martini 3 force field. The model was parameterized through an iterative Bayesian optimization workflow, which used a scaled Wasserstein metric to compare distributions of local geometrical features and global structure from coarse-grained simulations against all-atom reference simulations. The optimized model captures key structural and mechanical properties of single- and double-stranded DNA across varying strand lengths and ionic conditions, while retaining compatibility with the broader Martini 3 ecosystem. This compatibility enables DNA to be integrated with a broad range of molecular systems, as we illustrate through simulations of double-stranded DNA bound to a transcription factor, cholesterol-tagged DNA duplex interacting with a lipid bilayer, a crossover-containing DNA nanostructure, and single-stranded DNA adsorbing onto graphene. Together, these results establish a transferable coarse-grained model of DNA for simulations of heterogeneous biomolecular and engineered systems.</jats:p>",
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>DNA often functions in heterogeneous molecular systems containing proteins, lipids, polymers, and other materials. All-atom molecular dynamics simulations can be used to study DNA in these multicomponent systems, but computational cost limits the accessible system sizes and time scales. Coarse-grained models extend these scales, but existing DNA models are generally not designed for interactions with a broad range of other molecular species. To fill this gap, we develop a coarse-grained model of DNA designed for use with the Martini 3 force field. The model was parameterized through an iterative Bayesian optimization workflow, which used a scaled Wasserstein metric to compare distributions of local geometrical features and global structure from coarse-grained simulations against all-atom reference simulations. The optimized model captures key structural and mechanical properties of single- and double-stranded DNA across varying strand lengths and ionic conditions, while retaining compatibility with the broader Martini 3 ecosystem. This compatibility enables DNA to be integrated with a broad range of molecular systems, as we illustrate through simulations of double-stranded DNA bound to a transcription factor, cholesterol-tagged DNA duplex interacting with a lipid bilayer, a crossover-containing DNA nanostructure, and single-stranded DNA adsorbing onto graphene. Together, these results establish a transferable coarse-grained model of DNA for simulations of heterogeneous biomolecular and engineered systems.</jats:p>",
       "DOI": "10.64898/2026.09.14.751576",
       "type": "posted-content",
       "created": {
@@ -207,6 +207,304 @@
         }
       ],
       "member": "54368",
+      "reference": [
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.1",
+          "first-page": "413101",
+          "article-title": "Close encounters with DNA",
+          "volume": "26",
+          "year": "2014",
+          "journal-title": "Journal of Physics: Condensed Matter"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c0cp02796k"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0033583510000077"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c2sm25789k"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2504780122",
+          "DOI": "10.1073/pnas.2504780122",
+          "article-title": "Regulation of the ordinal DNA translocation cycle in bacteriophage Φ29 through trans-subunit interactions",
+          "volume": "122",
+          "year": "2025",
+          "journal-title": "Proceedings of the National Academy of Sciences"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "17068",
+          "DOI": "10.1038/natrevmats.2017.68",
+          "article-title": "DNA Nanotechnology",
+          "volume": "3",
+          "year": "2017",
+          "journal-title": "Nature Reviews Materials"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-bioeng-062117-120904"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2016.03.015"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c3cp53545b"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.3552946"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4754132"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "7812",
+          "DOI": "10.1021/jp071097f",
+          "article-title": "The MARTINI Force Field: Coarse Grained Model for Biomolecular Simulations",
+          "volume": "111",
+          "year": "2007",
+          "journal-title": "The Journal of Physical Chemistry B"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "750",
+          "DOI": "10.1021/jp036508g",
+          "article-title": "Coarse grained model for semiquantitative lipid simulations",
+          "volume": "108",
+          "year": "2004",
+          "journal-title": "The Journal of Physical Chemistry B"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "3932",
+          "DOI": "10.1021/acs.jctc.5b00286",
+          "article-title": "Martini Coarse-Grained Force Field: Extension to DNA",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "382",
+          "DOI": "10.1038/s41592-021-01098-3",
+          "article-title": "Martini 3: A General Purpose Force Field for Coarse-Grained Molecular Dynamics",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "7555",
+          "DOI": "10.1021/acs.jctc.2c00757",
+          "article-title": "Martini 3 Coarse-Grained Force Field for Carbohydrates",
+          "volume": "18",
+          "year": "2022",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "445",
+          "DOI": "10.1016/j.bpj.2025.07.034",
+          "article-title": "Coarse-grained RNA model for the Martini 3 force field",
+          "volume": "125",
+          "year": "2026",
+          "journal-title": "Biophysical Journal"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, J. ; Yu, Z. ; Zhao, M. Extending the MARTINI 3 Coarse-Grained Force Field to Polypeptoids. Journal of Chemical Theory and Computation 2026.",
+          "DOI": "10.64898/2026.04.10.717689"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "9035",
+          "DOI": "10.1021/acs.jctc.5c00923",
+          "article-title": "Martini 3 Coarse-Grained Models for Carbon Nanomaterials",
+          "volume": "21",
+          "year": "2025",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Saenger, W. Principles of Nucleic Acid Structure; Springer-Verlag: New York, 1984.",
+          "DOI": "10.1007/978-1-4612-5190-3"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.21",
+          "unstructured": "Nogueira, F. Bayesian Optimization: Open Source Constrained Global Optimization Tool for Python, 2014."
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rasmussen, C. E. ; Williams, C. K. I. Gaussian Processes for Machine Learning ; MIT Press: 2006.",
+          "DOI": "10.7551/mitpress/3206.001.0001"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Villani, C. Optimal Transport, Old and New ; Grundlehren der mathematischen Wissenschaften; Springer: Berlin, Heidelberg, 2009.",
+          "DOI": "10.1007/978-3-540-71050-9"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1026543900054"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.softx.2015.06.001"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "687",
+          "DOI": "10.1021/ct300646g",
+          "article-title": "Improved parameters for the martini coarse-grained protein force field",
+          "volume": "9",
+          "year": "2013",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.27",
+          "unstructured": "Case, D. A. et al. Amber 2022, 2022."
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "55",
+          "DOI": "10.1038/nmeth.3658",
+          "article-title": "ParmBSC1: A Refined Force Field for DNA Simulations",
+          "volume": "13",
+          "year": "2016",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jz501780a"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0021-9991(77)90098-5"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.464397"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.transproceed.2017.12.043"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "657",
+          "DOI": "10.1093/imaiai/iaz003",
+          "article-title": "On parameter estimation with the Wasserstein distance",
+          "volume": "8",
+          "year": "2019",
+          "journal-title": "Information and Inference: A Journal of the IMA"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.bb.17.060188.001405"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "021901",
+          "DOI": "10.1103/PhysRevE.86.021901",
+          "article-title": "Salt Dependence of the Radius of Gyration and Flexibility of Single-Stranded DNA in Solution Probed by Small-Angle X-Ray Scattering",
+          "volume": "86",
+          "year": "2012",
+          "journal-title": "Physical Review E"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Beamer, L. J. ; Pabo, C. O. Refined 1.8 Angstrom Crystal Structure of the Lambda Repressor-Operator Complex, RCSB Protein Data Bank, PDB ID: 1LMB, 1991.",
+          "DOI": "10.2210/pdb1lmb/pdb"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.langmuir.8b02271"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "7387",
+          "DOI": "10.1021/acs.jctc.3c00547",
+          "article-title": "Martini 3 Coarse-Grained Force Field for Cholesterol",
+          "volume": "19",
+          "year": "2023",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "1598",
+          "DOI": "10.1021/acscentsci.5c00755",
+          "article-title": "The Martini 3 Lipidome: Expanded and Refined Parameters Improve Lipid Phase Behavior",
+          "volume": "11",
+          "year": "2025",
+          "journal-title": "ACS Central Science"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "275402",
+          "DOI": "10.1088/0022-3727/48/27/275402",
+          "article-title": "Exploration on the Mechanism of DNA Adsorption on Graphene and Graphene Oxide via Molecular Simulations",
+          "volume": "48",
+          "year": "2015",
+          "journal-title": "Journal of Physics D: Applied Physics"
+        },
+        {
+          "key": "2026092102400489000_2026.09.14.751576v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "289",
+          "DOI": "10.3390/coatings10030289",
+          "article-title": "Molecular Dynamics Simulations of DNA Adsorption on Graphene Oxide and Reduced Graphene Oxide-PEG-NH2 in the Presence of Mg2+ and Cl-Ions",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Coatings"
+        }
+      ],
       "link": [
         {
           "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.09.14.751576",
@@ -220,13 +518,13 @@
           [
             2026,
             9,
-            17
+            21
           ]
         ],
-        "date-time": "2026-09-17T05:05:28Z",
-        "timestamp": 1789621528000
+        "date-time": "2026-09-21T09:40:20Z",
+        "timestamp": 1789983620000
       },
-      "score": 83.37425,
+      "score": 82.826515,
       "resource": {
         "primary": {
           "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.09.14.751576"
@@ -241,7 +539,7 @@
           ]
         ]
       },
-      "references-count": 0,
+      "references-count": 41,
       "URL": "https://doi.org/10.64898/2026.09.14.751576",
       "published": {
         "date-parts": [

@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "37576155",
+    "doi": "10.2147/JIR.S421196",
+    "title": "Identification of Immuno-Inflammation-Related Biomarkers for Acute Myocardial Infarction Based on Bioinformatics."
+  },
+  "content": {
+    "abstract": "PURPOSE: Previous studies have confirmed that inflammation and immunity are involved in the pathogenesis of acute myocardial infarction (AMI). However, only few related genes are identified as biomarkers for the diagnosis and treatment of AMI. PATIENTS AND METHODS: GSE48060 and GSE60993 datasets were retrieved from Gene Expression Omnibus. The differentially expressed immuno-inflammation-related genes (DEIIRGs) were obtained from GSE48060, and the biomarkers for AMI were screened and validated using the \"Neuralnet\" package and GSE60993 dataset. Further, the biomarker-based nomogram was constructed, and miRNAs, transcription factors (TFs), and potential drugs targeting the biomarkers were explored. Furthermore, immune infiltration analysis was analyzed in AMI. Finally, the biomarkers were verified by assessing their mRNA levels using real-time quantitative PCR (RT-qPCR). RESULTS: First, eight biomarkers were screened via bioinformatics, and the artificial neural network model indicated a higher prediction accuracy for AMI even in the validation dataset. Nomogram had accurate forecasting ability for AMI as well. The TFs GTF2I, PHOX2B, RUNX1, and FOS targeting hsa-miR-1297 could regulate the expressions of ADM and CBLB, and RORA could effectively interact with melatonin and citalopram. RT-qPCR results for ADM, PI3, MMP9, NRG1 and CBLB were consistent with those of bioinformatic analysis. CONCLUSION: In conclusion, eight key immuno-inflammation-related genes, namely, SH2D1B, ADM, PI3, MMP9, NRG1, CBLB, RORA, and FASLG, may serve as the potential biomarkers for AMI, in which the downregulation of CBLB and upregulation of ADM, PI3, and NRG1 in AMI was detected for the first time, providing a new strategy for the diagnosis and treatment of AMI.",
+    "keywords": [
+      "acute myocardial infarction",
+      "biomarker",
+      "immune-related gene",
+      "inflammation-related gene",
+      "nomogram"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "You, Hongjun",
+        "Dong, Mengya"
+      ],
+      "short_names": [
+        "You H",
+        "Dong M"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-3037-7390",
+        "ORCID: 0000-0001-6453-6822"
+      ],
+      "affiliations": [
+        "Department of Cardiovascular Medicine, Shaanxi Provincial People's Hospital, Xi'an, Shaanxi, 710068, People's Republic of China.",
+        "Department of Cardiovascular Medicine, Shaanxi Provincial People's Hospital, Xi'an, Shaanxi, 710068, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "You, Hongjun",
+        "short_name": "You H",
+        "identifiers": [
+          "0009-0008-3037-7390"
+        ],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, Shaanxi Provincial People's Hospital, Xi'an, Shaanxi, 710068, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Dong, Mengya",
+        "short_name": "Dong M",
+        "identifiers": [
+          "0000-0001-6453-6822"
+        ],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, Shaanxi Provincial People's Hospital, Xi'an, Shaanxi, 710068, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of inflammation research"
+    ],
+    "journal_abbrev": [
+      "J Inflamm Res"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/14 06:41",
+    "fetched_at": "2026-09-29 05:45:41"
+  },
+  "links": {
+    "cites": [
+      "42065213",
+      "42023222",
+      "41998789",
+      "41877826",
+      "41694402",
+      "40866955",
+      "40725061",
+      "40463382",
+      "40166636",
+      "39394398",
+      "39004726",
+      "38006610",
+      "37965091"
+    ],
+    "refs": [
+      "37025078",
+      "36907201",
+      "36868840",
+      "36769107",
+      "36752235",
+      "36750253",
+      "36742069",
+      "36695182",
+      "36684609",
+      "36617670",
+      "36536508",
+      "36499659",
+      "36469488",
+      "36452230",
+      "36361795",
+      "36361701",
+      "36334397",
+      "36326014",
+      "36299582",
+      "36182975",
+      "36099054",
+      "36056927",
+      "36055903",
+      "35970371",
+      "35896723",
+      "35876879",
+      "35876212",
+      "35864510",
+      "35801600",
+      "35572724",
+      "35509837",
+      "35474254",
+      "35449013",
+      "35407517",
+      "35404154",
+      "35367598",
+      "35254715",
+      "35210840",
+      "35102064",
+      "35075377",
+      "35071467",
+      "35040511",
+      "34944014",
+      "34834294",
+      "34722061",
+      "34619460",
+      "34221961",
+      "34149999",
+      "34117711",
+      "34101510",
+      "33873085",
+      "33448291",
+      "33174051",
+      "33026614",
+      "32964723",
+      "32860058",
+      "32705255",
+      "32440375",
+      "32349387",
+      "31908023",
+      "31764396",
+      "31756921",
+      "31390115",
+      "31191799",
+      "30940307",
+      "30873166",
+      "30825305",
+      "30697054",
+      "29917210",
+      "29737766",
+      "29703600",
+      "29344893",
+      "28184224",
+      "28004056",
+      "27856458",
+      "27689451",
+      "27660218",
+      "27567485",
+      "27452862",
+      "26669587",
+      "26497671",
+      "25869517",
+      "25605792",
+      "24574826",
+      "24132163",
+      "23966647",
+      "23561917",
+      "22455463",
+      "22080554",
+      "21593864",
+      "21414208",
+      "20808728",
+      "20651288",
+      "20141563",
+      "20111605",
+      "20032440",
+      "17185517",
+      "14597658",
+      "11846609"
+    ],
+    "similar": [
+      "37576155",
+      "36582740",
+      "35422846",
+      "36062187",
+      "35463752",
+      "39205966",
+      "36407421",
+      "38827298",
+      "35694667",
+      "33195475",
+      "32597946",
+      "37422588",
+      "35872921",
+      "29381915",
+      "39234566",
+      "35300139",
+      "35675985",
+      "32440375",
+      "35751950",
+      "29049183",
+      "35210840",
+      "29845217",
+      "30683112",
+      "39379556",
+      "31733574",
+      "35069843",
+      "35764238",
+      "36182975",
+      "34490057",
+      "36238641",
+      "37520666",
+      "38065877",
+      "35958412",
+      "36034287",
+      "33613625",
+      "38890389",
+      "37178159",
+      "38885062",
+      "36440001",
+      "36531699",
+      "36524127",
+      "34857679",
+      "35692951",
+      "33063376",
+      "39040073",
+      "31675148",
+      "35224064",
+      "37075605",
+      "36214846",
+      "28018242",
+      "35537778",
+      "35231061",
+      "36600215",
+      "32127011",
+      "33847684",
+      "34115526",
+      "31039814",
+      "27746059",
+      "34565282",
+      "34984022",
+      "30833907",
+      "25184815",
+      "35585822",
+      "34227921",
+      "35050240",
+      "37214088",
+      "28636181",
+      "33506919",
+      "31721304",
+      "36435743",
+      "37119187",
+      "31850068",
+      "36684609",
+      "27484208",
+      "32594092",
+      "23641832",
+      "31698570",
+      "24704022",
+      "35340554",
+      "30886860",
+      "36221828",
+      "34221733",
+      "26526403",
+      "34786024",
+      "35864510",
+      "34338363",
+      "32695622",
+      "32736138",
+      "34801043",
+      "35757392",
+      "34568444",
+      "37547246",
+      "36788811",
+      "36378551",
+      "35401659",
+      "25209966",
+      "29179461",
+      "34305636"
+    ],
+    "review": [
+      "37576155"
+    ],
+    "pmc": [
+      "10417757"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.2147/JIR.S421196?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37576155/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37576155",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4047",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.2147/JIR.S421196",
+        "provider": "Dove Medical Press",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

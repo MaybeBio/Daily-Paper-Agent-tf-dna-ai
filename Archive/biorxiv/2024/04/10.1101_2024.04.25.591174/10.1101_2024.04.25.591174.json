@@ -1,0 +1,99 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.04.25.591174",
+  "title": "Predicting gene expression responses to environment in Arabidopsis thaliana using natural variation in DNA sequence",
+  "doi": "10.1101/2024.04.25.591174",
+  "abstract": "The evolution of gene expression responses is a critical component of adaptation to variable environments. Predicting how DNA sequence influences expression is challenging because the genotype to phenotype map is not well resolved for cis regulatory elements, transcription factor binding, regulatory interactions, and epigenetic features, not to mention how these factors respond to environment. We tested if flexible machine learning models could learn some of the underlying cis- regulatory genotype to phenotype map. We tested this approach using cold-responsive transcriptome profiles in 5 diverse Arabidopsis thaliana accessions. We first tested for evidence that cis regulation plays a role in environmental response, finding 14 and 15 motifs that were significantly enriched within the up- and down-stream regions of cold-responsive differentially regulated genes (DEGs). We next applied convolutional neural networks (CNNs), which learn de novo cis- regulatory motifs in DNA sequences to predict expression response to environment. We found that CNNs predicted differential expression with moderate accuracy, with evidence that predictions were hindered by biological complexity of regulation and the large potential regulatory code. Overall, approaches to predict DEGs between specific environments based only on proximate DNA sequences require further development, and additional information may be required.",
+  "authors": [
+    "Takou M",
+    "Bellis ES",
+    "Lasky JR"
+  ],
+  "published_date": "2024-04-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.04.25.591174",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.04.25.591174.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR844561",
+    "raw_record": {
+      "id": "PPR844561",
+      "source": "PPR",
+      "doi": "10.1101/2024.04.25.591174",
+      "title": "Predicting gene expression responses to environment in  <i>Arabidopsis thaliana</i>  using natural variation in DNA sequence",
+      "authorString": "Takou M, Bellis ES, Lasky JR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Takou M",
+            "lastName": "Takou",
+            "firstName": "Margarita",
+            "initials": "M"
+          },
+          {
+            "fullName": "Bellis ES",
+            "lastName": "Bellis",
+            "firstName": "Emily",
+            "initials": "ES"
+          },
+          {
+            "fullName": "Lasky JR",
+            "lastName": "Lasky",
+            "firstName": "Jesse",
+            "initials": "JR"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The evolution of gene expression responses is a critical component of adaptation to variable environments. Predicting how DNA sequence influences expression is challenging because the genotype to phenotype map is not well resolved for  cis regulatory elements, transcription factor binding, regulatory interactions, and epigenetic features, not to mention how these factors respond to environment. We tested if flexible machine learning models could learn some of the underlying  cis- regulatory genotype to phenotype map. We tested this approach using cold-responsive transcriptome profiles in 5 diverse  Arabidopsis thaliana accessions. We first tested for evidence that  cis regulation plays a role in environmental response, finding 14 and 15 motifs that were significantly enriched within the up- and down-stream regions of cold-responsive differentially regulated genes (DEGs). We next applied convolutional neural networks (CNNs), which learn  de novo cis- regulatory motifs in DNA sequences to predict expression response to environment. We found that CNNs predicted differential expression with moderate accuracy, with evidence that predictions were hindered by biological complexity of regulation and the large potential regulatory code. Overall, approaches to predict DEGs between specific environments based only on proximate DNA sequences require further development, and additional information may be required.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.04.25.591174"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-04-30",
+      "firstPublicationDate": "2024-04-28",
+      "firstIndexDate": "2024-04-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

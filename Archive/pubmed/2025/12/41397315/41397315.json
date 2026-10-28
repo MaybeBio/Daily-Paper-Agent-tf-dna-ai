@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "41397315",
+    "doi": "10.1016/j.compbiomed.2025.111369",
+    "title": "Machine learning and multi-omics-based identification of hub paternal imprinted genes PEG11/RTL1, PEG9/DLK1, PEG6/NDN, and PEG5/NNAT in sperm of couples experiencing idiopathic recurrent pregnancy loss."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Idiopathic recurrent pregnancy loss (IRPL), defined as two or more consecutive pregnancy losses without an identifiable cause, affects 1-2 % of couples in their reproductive years. While maternal factors have been extensively studied, paternal contributions remain underexplored. Paternally imprinted genes are essential for spermatogenesis, embryonic development, and placental function, and their epigenetic dysregulation may contribute to IRPL. RESULTS: Single-cell RNA-seq analysis highlighted RTL1, DLK1, NDN, and NNAT as hub paternal imprinted genes specifically enriched in spermatogenic lineages. In sperm samples, PEG11/RTL1, PEG9/DLK1, and PEG5/NNAT showed significantly reduced expression, whereas PEG6/NDN was upregulated in the IRPL group. DNA methylation assays revealed hypermethylation of PEG11/RTL1, PEG9/DLK1, and PEG5/NNAT and hypomethylation of PEG6/NDN in IRPL cases. Machine learning-based consensus models achieved high predictive accuracy, with the Random Survival Forest model performing best (average AUC = 0.747). Functional enrichment analyses linked these genes to key biological processes including glucose transport, VEGF receptor signaling, and placental development. CONCLUSIONS: Our findings demonstrate that aberrant expression and methylation of paternal imprinted genes-particularly PEG11/RTL1, PEG9/DLK1, PEG6/NDN, and PEG5/NNAT-play a critical role in IRPL. By integrating multi-omics data with machine learning, this study provides novel insights into paternal genetic and epigenetic contributions to recurrent pregnancy loss and identifies potential biomarkers for diagnosis and therapeutic targets for intervention.",
+    "keywords": [
+      "DNA methylation",
+      "Paternal imprinted",
+      "Recurrent pregnancy loss",
+      "Sperm"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "Female",
+      "*Abortion, Habitual/genetics/metabolism",
+      "Pregnancy",
+      "*Machine Learning",
+      "*Spermatozoa/metabolism",
+      "*Genomic Imprinting",
+      "DNA Methylation",
+      "Adult",
+      "Membrane Proteins/genetics/metabolism",
+      "Nerve Tissue Proteins/genetics/metabolism",
+      "Kruppel-Like Transcription Factors/genetics",
+      "Multiomics",
+      "Calcium-Binding Proteins",
+      "Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hashemi Karoii, Danial",
+        "Najafi, S Mahmoud A",
+        "Favaedi, Raha",
+        "Esmaeili Borzabadi, Vahid",
+        "Sabbaghian, Marjan",
+        "Amirchaghmaghi, Elham",
+        "Shahhoseini, Maryam"
+      ],
+      "short_names": [
+        "Hashemi Karoii D",
+        "Najafi SMA",
+        "Favaedi R",
+        "Esmaeili Borzabadi V",
+        "Sabbaghian M",
+        "Amirchaghmaghi E",
+        "Shahhoseini M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cell and Molecular Biology, School of Biology, College of Science, University of Tehran, Tehran, Iran. Electronic address: d.hashemi.karoii@ut.ac.ir.",
+        "Department of Cell and Molecular Biology, School of Biology, College of Science, University of Tehran, Tehran, Iran. Electronic address: smarabnajafi@ut.ac.ir.",
+        "Department of Genetics, Reproductive Biomedicine Research Center, Royan Institute for Reproductive Biomedicine, ACECR, Tehran, Iran. Electronic address: raha.favaedi@gmail.com.",
+        "Department of Embryology, Reproductive Biomedicine Research Center, Royan Institute for Reproductive Biomedicine, ACECR, Tehran, Iran. Electronic address: vahid.esmaeeli@yahoo.com.",
+        "Department of Andrology, Reproductive Biomedicine Research Center, Royan Institute for Reproductive Biomedicine, ACECR, Tehran, Iran. Electronic address: sabbaghian@royaninstitute.org.",
+        "Department of Endocrinology and Female Infertility, Reproductive Biomedicine Research Center, Royan Institute for Reproductive Biomedicine, ACECR, Tehran, Iran. Electronic address: e.amirchaghmaghi@royan-rc.ac.ir.",
+        "Department of Cell and Molecular Biology, School of Biology, College of Science, University of Tehran, Tehran, Iran; Department of Genetics, Reproductive Biomedicine Research Center, Royan Institute for Reproductive Biomedicine, ACECR, Tehran, Iran. Electronic address: m.shahhoseini@royan-rc.ac.ir."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hashemi Karoii, Danial",
+        "short_name": "Hashemi Karoii D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, School of Biology, College of Science, University of Tehran, Tehran, Iran. Electronic address: d.hashemi.karoii@ut.ac.ir."
+        ]
+      },
+      {
+        "full_name": "Najafi, S Mahmoud A",
+        "short_name": "Najafi SMA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, School of Biology, College of Science, University of Tehran, Tehran, Iran. Electronic address: smarabnajafi@ut.ac.ir."
+        ]
+      },
+      {
+        "full_name": "Favaedi, Raha",
+        "short_name": "Favaedi R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Reproductive Biomedicine Research Center, Royan Institute for Reproductive Biomedicine, ACECR, Tehran, Iran. Electronic address: raha.favaedi@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Esmaeili Borzabadi, Vahid",
+        "short_name": "Esmaeili Borzabadi V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Embryology, Reproductive Biomedicine Research Center, Royan Institute for Reproductive Biomedicine, ACECR, Tehran, Iran. Electronic address: vahid.esmaeeli@yahoo.com."
+        ]
+      },
+      {
+        "full_name": "Sabbaghian, Marjan",
+        "short_name": "Sabbaghian M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Andrology, Reproductive Biomedicine Research Center, Royan Institute for Reproductive Biomedicine, ACECR, Tehran, Iran. Electronic address: sabbaghian@royaninstitute.org."
+        ]
+      },
+      {
+        "full_name": "Amirchaghmaghi, Elham",
+        "short_name": "Amirchaghmaghi E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology and Female Infertility, Reproductive Biomedicine Research Center, Royan Institute for Reproductive Biomedicine, ACECR, Tehran, Iran. Electronic address: e.amirchaghmaghi@royan-rc.ac.ir."
+        ]
+      },
+      {
+        "full_name": "Shahhoseini, Maryam",
+        "short_name": "Shahhoseini M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, School of Biology, College of Science, University of Tehran, Tehran, Iran; Department of Genetics, Reproductive Biomedicine Research Center, Royan Institute for Reproductive Biomedicine, ACECR, Tehran, Iran. Electronic address: m.shahhoseini@royan-rc.ac.ir."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2026 Jan 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/15 19:18",
+    "fetched_at": "2026-10-01 09:09:05"
+  },
+  "links": {
+    "cites": [
+      "42652247",
+      "41688827",
+      "41665764",
+      "41639334"
+    ],
+    "refs": [],
+    "similar": [
+      "41397315",
+      "33319906",
+      "23415968",
+      "11168589",
+      "36528109",
+      "41081108",
+      "38913941",
+      "22917972",
+      "28535307",
+      "39527857",
+      "24158121",
+      "34329819",
+      "23825673",
+      "39488931",
+      "40296586",
+      "24486713",
+      "14668210",
+      "25900245",
+      "38613389",
+      "38979761",
+      "39578336",
+      "26333487",
+      "9331332",
+      "11960906",
+      "35567414",
+      "19194500",
+      "26262775",
+      "16575184",
+      "33967953",
+      "18176563",
+      "38521877",
+      "20072617",
+      "24039599",
+      "37378824",
+      "21293114",
+      "18698157",
+      "21174059",
+      "15798773",
+      "12937418",
+      "31242935",
+      "38512414",
+      "31246962",
+      "34080930",
+      "38715103",
+      "35714798",
+      "17064418",
+      "22959455",
+      "35955961",
+      "22692280",
+      "15859358",
+      "30672333",
+      "15854907",
+      "36797774",
+      "19380578",
+      "28502757",
+      "23139813",
+      "37460217",
+      "26138477",
+      "19816583",
+      "11543638",
+      "26186239",
+      "27158277",
+      "39217334",
+      "11259587",
+      "36907530",
+      "23609933",
+      "31221015",
+      "30279096",
+      "15247330",
+      "17126526",
+      "25240791",
+      "28526651",
+      "23608779",
+      "39612469",
+      "36792841",
+      "39768802",
+      "23145177",
+      "26241757",
+      "27716032",
+      "29313278",
+      "28296202",
+      "31831055",
+      "18178607",
+      "31633761",
+      "37842090",
+      "30876483",
+      "28854270",
+      "31564034",
+      "29980981",
+      "24094292",
+      "23786541",
+      "15298706",
+      "25003016",
+      "25625849",
+      "40011392",
+      "33345401",
+      "39051375",
+      "17114643",
+      "33555507",
+      "36357889"
+    ],
+    "review": [
+      "41397315",
+      "18698157",
+      "34080930",
+      "36792841",
+      "39768802",
+      "29313278"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(25)01723-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(25)01723-8",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to show that RNA binding restricts the conformational space of TDP-43 tandem RRM domains and enhances intradomain stability via base stacking and transient electrostatic interactions, whereas RNA-free tandem RRMs exhibit high conformational plasticity and a tendency for RRM1 to partially unfold.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or methodological parameters provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field details, convergence criteria, replica or trajectory information, quantitative stability metrics, and any supporting figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially valuable computational study addressing a relevant question in TDP-43 biology. The central claims are mechanistically reasonable and align with existing literature on RNA binding stabilizing protein domains. However, the abstract alone provides insufficient detail to evaluate the technical rigor of the simulations, the robustness of the conclusions, or the quantitative support for the stated effects. The claim that RNA binding mitigates pathological aggregation is presented as a broad inference that extends beyond the direct simulation evidence described.
+- **Who would be interested in the results, and why** Researchers in the fields of RNA binding protein biology, neurodegeneration, and computational biophysics would find these results relevant. The study addresses a mechanistic gap in understanding how RNA binding influences TDP-43 conformational behavior, which has implications for ALS and FTD pathology. Computational biophysicists interested in protein RNA interactions and conformational dynamics would also be engaged.
+- **Major strengths** The study addresses a biologically important and timely question. The use of all-atom MD simulations is appropriate for probing conformational dynamics at the atomic level. The abstract identifies specific molecular mechanisms, such as base stacking and transient electrostatic interactions, which provide a testable framework for future experimental validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that RNA binding promotes intradomain stability and limits conformational space of the tandem RRMs.
+  - **Evidence pointer** Abstract only; no simulation details or quantitative metrics provided
+  - **Concern** The abstract provides no information on simulation length, force field, water model, temperature, salt concentration, number of replicas, or convergence criteria. Without these details, the reliability of the conformational sampling and the derived stability conclusions cannot be assessed.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation setup and sampling adequacy. Insufficient sampling or inappropriate force field choices could lead to artifactual conclusions about conformational plasticity or stability differences between RNA bound and free states.
+  - **Resolution test** Provide full methods including simulation parameters, system setup, equilibration protocol, production run lengths, and convergence analysis. Show that the observed conformational differences are reproducible across independent simulations or enhanced sampling approaches.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The abstract claims that RNA free tandem RRMs show a tendency of RRM1 to adopt partially unfolded conformations.
+  - **Evidence pointer** Abstract only; no structural or quantitative data provided
+  - **Concern** The claim of partial unfolding in RRM1 is presented without any quantitative measure such as fraction of unfolded population, RMSD distributions, or secondary structure time series. The abstract does not indicate whether this is a rare event or a dominant state.
+  - **Why it matters** The biological interpretation depends critically on the population and timescale of partially unfolded states. If these states are rare and transient, their relevance to aggregation propensity is unclear. If they are populated, the claim requires robust statistical support.
+  - **Resolution test** Provide quantitative metrics such as fraction of native contacts, secondary structure propensity per residue, and free energy surfaces. Show that the partially unfolded states are statistically significant and reproducible.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim scope
+  - **Claim pointer** The abstract states that RNA binding contributes to physiological function and mitigates pathological aggregation.
+  - **Evidence pointer** Abstract only; no aggregation related simulations or experiments described
+  - **Concern** The link between reduced conformational plasticity and mitigated aggregation is inferred but not directly demonstrated. The simulations appear to focus on the tandem RRM domains in isolation, and no aggregation prone species or assembly processes are simulated.
+  - **Why it matters** The pathological relevance is a key motivation for the study. Overstating the connection between conformational restriction and aggregation mitigation without direct evidence could mislead readers about the therapeutic implications.
+  - **Resolution test** Either temper the claim to reflect that reduced conformational plasticity may reduce aggregation propensity, or provide additional simulations or experimental references that directly connect the observed conformational changes to aggregation behavior.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "pivotal roles in RNA-related processes such as splicing, transcription, transport, and stability" is broad and could be more specific to TDP-43 known functions.
+  - **Required correction** Consider specifying the most relevant functions for the study context, such as splicing regulation and mRNA stability, to avoid overgeneralization.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation system description
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The abstract does not specify the RNA sequence used or the construct boundaries of the tandem RRMs beyond the amino acid range.
+  - **Required correction** State the RNA sequence and the exact protein construct used in the simulations to enable reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Electrostatic interactions claim
+  - **Evidence pointer** Abstract, results description
+  - **Issue** The claim of "transient electrostatic interactions" is vague without specifying which residues or RNA phosphate groups are involved.
+  - **Required correction** Provide specific examples of key electrostatic contacts in the full manuscript and summarize them in the abstract if space permits.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking concerns. The absence of simulation details and quantitative support for the conformational claims prevents the case from being established from the provided evidence.
+- **Assessment against Nature-style criteria** Originality is moderate, as the question of RNA induced stabilization of RRM domains has been explored in related systems, though the specific focus on TDP-43 tandem RRMs adds value. Scientific importance is high given the disease relevance. Interdisciplinary readership is plausible, spanning biophysics, RNA biology, and neurodegeneration. Technical soundness cannot be evaluated from the abstract alone and requires full methods. Readability for nonspecialists is adequate, though some terms such as "intradomain stability" and "conformational plasticity" may benefit from brief definition.
+- **Recommendation posture** Currently not established from the provided evidence. The study is potentially valuable, and I am supportive if the technical concerns regarding simulation rigor and quantitative support are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that RNA binding mitigates pathological aggregation is unsupported by the abstract evidence, as no aggregation related simulations or direct measurements are described.
+- The claim that RNA free tandem RRMs exhibit a tendency for RRM1 partial unfolding is unsupported without quantitative population data.
+- The claim that specific base stacking interactions and transient electrostatic interactions promote stability is plausible but not verifiable from the abstract alone.

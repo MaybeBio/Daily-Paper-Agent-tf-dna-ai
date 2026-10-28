@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "35731801",
+    "doi": "10.1371/journal.pcbi.1009414",
+    "title": "Systematic inference of indirect transcriptional regulation by protein kinases and phosphatases."
+  },
+  "content": {
+    "abstract": "Gene expression is controlled by pathways of regulatory factors often involving the activity of protein kinases on transcription factor proteins. Despite this well established mechanism, the number of well described pathways that include the regulatory role of protein kinases on transcription factors is surprisingly scarce in eukaryotes. To address this, PhosTF was developed to infer functional regulatory interactions and pathways in both simulated and real biological networks, based on linear cyclic causal models with latent variables. GeneNetWeaverPhos, an extension of GeneNetWeaver, was developed to allow the simulation of perturbations in known networks that included the activity of protein kinases and phosphatases on gene regulation. Over 2000 genome-wide gene expression profiles, where the loss or gain of regulatory genes could be observed to perturb gene regulation, were then used to infer the existence of regulatory interactions, and their mode of regulation in the budding yeast Saccharomyces cerevisiae. Despite the additional complexity, our inference performed comparably to the best methods that inferred transcription factor regulation assessed in the DREAM4 challenge on similar simulated networks. Inference on integrated genome-scale data sets for yeast identified  approximately  8800 protein kinase/phosphatase-transcription factor interactions and  approximately  6500 interactions among protein kinases and/or phosphatases. Both types of regulatory predictions captured statistically significant numbers of known interactions of their type. Surprisingly, kinases and phosphatases regulated transcription factors by a negative mode or regulation (deactivation) in over 70% of the predictions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Gene Expression Profiling",
+      "Gene Expression Regulation/genetics",
+      "Gene Regulatory Networks/genetics",
+      "*Phosphoric Monoester Hydrolases/genetics/metabolism",
+      "*Protein Kinases/genetics/metabolism",
+      "Saccharomyces cerevisiae/genetics/metabolism",
+      "Transcription Factors/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Madsen, Christian Degnbol",
+        "Hein, Jotun",
+        "Workman, Christopher T"
+      ],
+      "short_names": [
+        "Madsen CD",
+        "Hein J",
+        "Workman CT"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8218-7160",
+        "ORCID: 0000-0002-8100-0824",
+        "ORCID: 0000-0002-2210-3743"
+      ],
+      "affiliations": [
+        "Department of Biotechnology and Biomedicine, Technical University of Denmark, Kongens Lyngby, Denmark.",
+        "Department of Statistics, University of Oxford, Oxford, United Kingdom.",
+        "Department of Statistics, University of Oxford, Oxford, United Kingdom.",
+        "Department of Biotechnology and Biomedicine, Technical University of Denmark, Kongens Lyngby, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Madsen, Christian Degnbol",
+        "short_name": "Madsen CD",
+        "identifiers": [
+          "0000-0001-8218-7160"
+        ],
+        "affiliations": [
+          "Department of Biotechnology and Biomedicine, Technical University of Denmark, Kongens Lyngby, Denmark.",
+          "Department of Statistics, University of Oxford, Oxford, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Hein, Jotun",
+        "short_name": "Hein J",
+        "identifiers": [
+          "0000-0002-8100-0824"
+        ],
+        "affiliations": [
+          "Department of Statistics, University of Oxford, Oxford, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Workman, Christopher T",
+        "short_name": "Workman CT",
+        "identifiers": [
+          "0000-0002-2210-3743"
+        ],
+        "affiliations": [
+          "Department of Biotechnology and Biomedicine, Technical University of Denmark, Kongens Lyngby, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/23 06:00",
+    "fetched_at": "2026-09-28 09:58:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "32437683",
+      "30476243",
+      "30476227",
+      "30195436",
+      "30016513",
+      "29036684",
+      "28072816",
+      "24766815",
+      "22110037",
+      "21697125",
+      "21492431",
+      "21460040",
+      "21182795",
+      "21145464",
+      "21049040",
+      "20949005",
+      "20385592",
+      "19269370",
+      "19033274",
+      "18765831",
+      "17417638",
+      "16880382",
+      "16789814",
+      "16762362",
+      "16319894",
+      "15343339",
+      "12464632",
+      "12399584",
+      "12118076",
+      "10556084"
+    ],
+    "similar": [
+      "35731801",
+      "24039601",
+      "19943917",
+      "31817904",
+      "28298210",
+      "29392949",
+      "28122947",
+      "28135269",
+      "16606697",
+      "29990003",
+      "28976047",
+      "28072816",
+      "30547796",
+      "23810556",
+      "26576632",
+      "18312694",
+      "25429078",
+      "32054475",
+      "20587029",
+      "33438713",
+      "22456606",
+      "31701125",
+      "10940301",
+      "27760556",
+      "17400752",
+      "20678910",
+      "17417638",
+      "21145464",
+      "21177495",
+      "17267811",
+      "15748298",
+      "9544531",
+      "8879249",
+      "23832245",
+      "20230615",
+      "23674068",
+      "14704355",
+      "24146602",
+      "1965216",
+      "33412333",
+      "21470963",
+      "33970777",
+      "22589416",
+      "22748295",
+      "17617911",
+      "25527558",
+      "25230087",
+      "16507138",
+      "20938527",
+      "22432002",
+      "19014615",
+      "21172055",
+      "25143408",
+      "28520713",
+      "18237429",
+      "38630807",
+      "19164565",
+      "29462626",
+      "12399584",
+      "32606380",
+      "14555958",
+      "12562808",
+      "7565587",
+      "22393375",
+      "15169885",
+      "32839469",
+      "30718595",
+      "15456858",
+      "18769717",
+      "23155764",
+      "20148391",
+      "22467911",
+      "21840901",
+      "20831804",
+      "30547400",
+      "12715202",
+      "21119627",
+      "38238840",
+      "30655342",
+      "20133180",
+      "18441009",
+      "19346491",
+      "31950997",
+      "27556418",
+      "24395825",
+      "28185554",
+      "20573214",
+      "20955010",
+      "27478089",
+      "27930885",
+      "36215333",
+      "26939894",
+      "22893001",
+      "37537196"
+    ],
+    "review": [
+      "35731801",
+      "31817904",
+      "20678910",
+      "9544531",
+      "1965216",
+      "33412333",
+      "33970777",
+      "25230087",
+      "20148391",
+      "12715202",
+      "20133180"
+    ],
+    "pmc": [
+      "9255832"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1009414",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35731801/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/35731801",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35731801",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

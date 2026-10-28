@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methodology, results, benchmarking, conclusion, supplementary data descriptions)
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and support of claims based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors present a machine learning-based pipeline (combining a CNN and a Random Forest Classifier) to predict transcription factor (TF) co-binding and identify cis-regulatory modules (CRMs) from large-scale ChIP-seq data in the UniBind database. They further map predicted CRMs to gene regulatory networks (GRNs), with a specific application to cardiac development and disease. Key claims include: (1) the method is scalable, species-agnostic, and does not require prior feature generation; (2) the CNN and RFC models achieve high accuracy (94% and 88%, respectively); (3) the pipeline identifies known and novel cardiac CRMs and GRNs, highlighting the NKX family of TFs in cardiac development.
+- **Visible evidence base** Abstract, Introduction, Methodology (Sections 2.1–2.4), Results (Section 3.1–3.2), Benchmarking (Sections 4.1–4.3), Data/Software Availability, Conclusion, Supplementary Data descriptions. No figures, tables, or supplementary files were provided in the submitted material.
+- **Missing materials affecting confidence** All figures (Figures 1–6, S1–S6), tables (Tables 1–2, S1–S2), equations (Equations 1–2), and supplementary data files referenced in the text are absent. This severely limits the ability to verify methodological details, model performance metrics, clustering results, and benchmarking claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem in regulatory genomics: scalable and accurate prediction of TF co-binding and CRM identification from large-scale epigenomic data. The proposed pipeline, combining a CNN and an RFC, is conceptually reasonable and the application to cardiac biology is of potential interest. However, the current submission is incomplete in critical ways. The absence of all figures, tables, equations, and supplementary data makes it impossible to evaluate the methodological rigor, the validity of the performance claims, or the biological significance of the results. Several claims are either under-supported or not assessable from the provided text. The manuscript requires substantial revision and the inclusion of all referenced materials before the scientific case can be established.
+- **Who would be interested in the results, and why** Researchers in regulatory genomics, computational biology, and systems biology would be interested in the methodological advances for CRM prediction and GRN inference. The cardiac application would appeal to cardiovascular biologists and clinicians studying gene regulation in heart development and disease. The potential for cross-species and scalable analysis could attract a broader genomics audience.
+- **Major strengths** 1. The problem addressed is important and the proposed approach (combining deep learning and classical ML) is pragmatic. 2. The claim of species-agnostic and scalable analysis is a valuable goal. 3. The application to cardiac biology, particularly the focus on the NKX TF family, provides a concrete and potentially impactful use case. 4. The provision of a web-based database and standalone pipeline is commendable for community utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The CNN model achieved an accuracy of 94%, while the RFC model achieved an accuracy of 88% in classification. When the dng and dbbs features were included in the training, the model achieved a very high accuracy of 99%.
+  - **Evidence pointer** Section 3.2, Figure 1, Table 1 (location not provided)
+  - **Concern** The performance metrics are reported without any supporting details on the evaluation protocol, such as the composition of the training/validation/test sets, the definition of accuracy, or the handling of class imbalance. The claim of 99% accuracy when including dng and dbbs features is particularly concerning, as these features may introduce leakage (e.g., distance to nearest gene could be trivially informative for co-occurrence in promoter regions). The absence of Figure 1 and Table 1 prevents verification of the model architecture and data splits.
+  - **Why it matters** Without a clear and unbiased evaluation, the reported accuracies cannot be trusted. If the high accuracy is due to data leakage, the model's predictive value for novel CRM discovery would be severely compromised.
+  - **Resolution test** Provide a detailed description of the data splitting procedure, class balance, and evaluation metrics. Show confusion matrices and ROC/PR curves. Critically, demonstrate that the 99% accuracy is not an artifact of leakage by performing an ablation study removing dng and dbbs and showing performance on a held-out set with realistic class distributions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The clustering algorithm employed a 'seed and extend' approach... This process generated a set of CRMs located in the promoter region of a gene. Sub-clusters were removed to extract a final CRM set.
+  - **Evidence pointer** Section 2.3, Figure S5 (location not provided)
+  - **Concern** The clustering algorithm is described only in a high-level, qualitative manner. No pseudocode, parameter settings (e.g., seed selection criteria, extension thresholds, sub-cluster removal rules), or validation of the clustering output is provided. The claim of generating 200k CRMs for 50,762 genes is not verifiable without the algorithm details and the actual output files.
+  - **Why it matters** The core output of the pipeline is the set of predicted CRMs. If the clustering algorithm is not precisely defined and validated, the biological interpretations drawn from these CRMs (e.g., cardiac CRMs) are not reproducible or reliable.
+  - **Resolution test** Provide a formal description of the clustering algorithm, including all parameters and decision rules. Include a validation step, such as comparing the predicted CRMs against known CRM databases or experimental data (e.g., STARR-seq, MPRA) to demonstrate biological relevance. Make the code and output files publicly available for inspection.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for claims
+  - **Claim pointer** We discovered that all of our CRM predictions exhibited a 100% overlap with the CRMs predicted by dePCRM2.
+  - **Evidence pointer** Section 4.1, Figure S5 (location not provided)
+  - **Concern** A 100% overlap with dePCRM2 is a surprising and strong claim. It is unclear whether this overlap is in genomic coordinates, in the set of genes, or in the set of TF pairs. If it is a complete overlap, it raises questions about the novelty of the approach. If it is a partial overlap (e.g., only for a subset of CRMs), the claim is misleading. The methodology for this comparison (e.g., BEDtools intersection parameters, threshold for overlap) is not described.
+  - **Why it matters** This claim is central to the benchmarking section and is used to assert the validity of the pipeline. An overstated or ambiguous overlap claim undermines the credibility of the entire benchmarking effort.
+  - **Resolution test** Clearly define the metric for overlap (e.g., Jaccard index, reciprocal overlap fraction). Report the number of CRMs compared, the overlap statistics, and the parameters used. If the overlap is not 100%, correct the claim. Provide a more nuanced comparison, including cases where the pipelines disagree, to highlight the unique contributions of the proposed method.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological significance
+  - **Claim pointer** Our findings highlight the importance of the NKX family of transcription factors in cardiac development and provide potential targets for further investigation in cardiac disease.
+  - **Evidence pointer** Section 4.3, Figure 5, Table S2 (location not provided)
+  - **Concern** The claim about the NKX family is based on network analysis and K-means clustering of genes containing NKX TF binding sites. However, no details are provided on how the significance of the clustering was assessed, what the enrichment analysis entailed (e.g., which background was used), or how the "importance" of NKX was determined. The claim is presented as a finding, but the supporting evidence is not visible.
+  - **Why it matters** The cardiac application is a key selling point of the manuscript. If the biological claims are not rigorously supported, the impact of the work is diminished.
+  - **Resolution test** Provide the full results of the enrichment analysis, including p-values, effect sizes, and the list of enriched pathways. Show the K-means clustering results with a clear justification for the number of clusters. Compare the NKX-associated genes against known cardiac gene sets to demonstrate specificity. Ideally, validate a subset of the predicted NKX targets experimentally or against independent datasets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methodology, Section 2.1
+  - **Evidence pointer** Section 2.1, Figure S1 (location not provided)
+  - **Issue** The rationale for relaxing the average distance between known pairs of motifs from 21 bp to 30 bp is not clearly explained. The reference to Figure S1 is not verifiable.
+  - **Required correction** Provide a clear justification for the 30 bp threshold, ideally with a citation or a sensitivity analysis showing the impact of this parameter on the results.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Section 3.1
+  - **Evidence pointer** Section 3.1, Figure 2 (location not provided)
+  - **Issue** The feature importance analysis is described, but the actual list of the top features and their scores is not presented in the text. The claim that "OC2, EP, and Opening scores were found to be particularly significant" is not supported by any numerical data.
+  - **Required correction** Include a table or figure showing the ranked feature importance scores and the results of the recursive feature elimination. This will allow readers to assess the relative contribution of different feature types.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and Software Availability, Section 5
+  - **Evidence pointer** Section 5
+  - **Issue** The web-based database and pipeline are mentioned, but there is no description of the software dependencies, installation instructions, or a versioned release. The GitLab link is provided but not verified.
+  - **Required correction** Provide a detailed README or documentation for the software, including dependencies, usage examples, and a version number. Ensure the web database is accessible and functional.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methodology, Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The definition of a "CRM score" is mentioned but not formally defined. It is unclear how this score is calculated and how it relates to the clustering output.
+  - **Required correction** Provide a formal definition of the CRM score, including the formula and the rationale for its use in ranking or filtering CRMs.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of all figures, tables, equations, and supplementary data, making the manuscript incomplete and unverifiable. 2. Potential data leakage in the RFC model due to the inclusion of dng and dbbs features. 3. Undefined and unvalidated clustering algorithm. 4. Ambiguous and overstated benchmarking claim of 100% overlap with dePCRM2. 5. Insufficient detail on the biological validation of cardiac CRMs and the NKX family claim.
+- **Assessment against Nature-style criteria** **Originality:** The approach of combining CNN and RFC for CRM prediction is not entirely novel, as similar deep learning methods exist (e.g., BPNet, DeepBind). However, the focus on scalable, species-agnostic prediction and the integration with GRN mapping may offer some novelty. The originality is currently not fully assessable due to missing methodological details. **Scientific importance:** The problem of identifying CRMs and linking them to GRNs is of high importance in regulatory genomics. The cardiac application adds potential translational relevance. However, the importance is undermined by the lack of rigorous validation and the incomplete presentation of results. **Interdisciplinary readership:** The work has the potential to appeal to computational biologists, genomics researchers, and cardiovascular biologists. The writing is generally accessible, but the lack of clear methodological details may limit its appeal to a broader audience. **Technical soundness:** The technical soundness cannot be established from the provided text. The model evaluation is incomplete, the clustering algorithm is undefined, and the benchmarking is ambiguous. These are critical flaws that must be addressed. **Readability for nonspecialists:** The manuscript is reasonably well-written and the concepts are introduced clearly. However, the absence of figures and tables makes it difficult for any reader to follow the results. The abstract is concise and understandable.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the missing materials and methodological ambiguities prevent a positive recommendation. The authors should be encouraged to resubmit a complete version with all figures, tables, and supplementary data, and to address the specific technical concerns raised above.

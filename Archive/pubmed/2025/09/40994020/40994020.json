@@ -1,0 +1,263 @@
+{
+  "identity": {
+    "pmid": "40994020",
+    "doi": "",
+    "title": "Computational identification of perturbed pathways in type 2 diabetes mellitus patients reveals necroptosis and NF-kappaB pathways with potential for susceptibility to psoriasis."
+  },
+  "content": {
+    "abstract": "Psoriasis (PS) is one of the comorbidities of type 2 diabetes mellitus (T2DM). The molecular processes leading to the T2DM-PS comorbidity are not fully understood. Recently, six genes (IL23R, IL12B, IL23A, GSK3B, PTPN1, and STX4) were identified as associated with the T2DM-PS comorbidity. Both diseases are multi-genic disorders with the involvement of thousands of genes. We used an integrative approach by sourcing the genes associated with T2DM and PS from the DISGENET database, the genes associated with the T2DM-PS comorbidity from the literature, the differentially expressed genes in a PS blood sample dataset (GSE55201), and the differentially expressed genes in each of three T2DM gene expression datasets of blood samples (GSE69528, GSE15932, and GSE21321). We constructed pathway networks by importing the enriched pathways of these genes into a biological network simulator software. Simulations of these pathway networks were carried out using the average expression values of cases and controls separately in each T2DM dataset until a steady state was reached. Finally, pathway enrichment analysis of the perturbed genes revealed the perturbed pathways in the T2DM condition in the three datasets of T2DM patients. Five perturbed pathways were common among the three T2DM datasets: the NF-kappaB signaling pathway, necroptosis pathway, NOD-like receptor signaling pathway, TNF signaling pathway, and Toll-like receptor signaling pathway. The involvement of these pathways in PS is reported in the literature, thereby suggesting potential susceptibility to PS arising in the T2DM condition. This approach offers a holistic view of T2DM conditions and the pathways reported in individual studies with potential susceptibility to PS.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Diabetes Mellitus, Type 2/genetics/complications/pathology/metabolism",
+      "*Psoriasis/genetics/pathology/complications/metabolism",
+      "*NF-kappa B/genetics/metabolism",
+      "Signal Transduction/genetics",
+      "*Necroptosis/genetics",
+      "Gene Regulatory Networks",
+      "Computational Biology",
+      "Databases, Genetic",
+      "Genetic Predisposition to Disease",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kumar, Rohit",
+        "Seth, Surabhi",
+        "Bhargav, Anasuya",
+        "Saini, Neeru",
+        "Ramachandran, Srinivasan"
+      ],
+      "short_names": [
+        "Kumar R",
+        "Seth S",
+        "Bhargav A",
+        "Saini N",
+        "Ramachandran S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Informatics and Big Data, Council of Scientific and Industrial Research-Institute of Genomics and Integrative Biology (CSIR-IGIB), Lab No. 130, Mathura Road, New Delhi 110025, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India.",
+        "Informatics and Big Data, Council of Scientific and Industrial Research-Institute of Genomics and Integrative Biology (CSIR-IGIB), Lab No. 130, Mathura Road, New Delhi 110025, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India.",
+        "Informatics and Big Data, Council of Scientific and Industrial Research-Institute of Genomics and Integrative Biology (CSIR-IGIB), Lab No. 130, Mathura Road, New Delhi 110025, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India.",
+        "Genomics and Molecular Medicine, Council of Scientific and Industrial Research-Institute of Genomics and Integrative Biology (CSIR-IGIB), Lab No. 210, Mall Road, New Delhi 110007, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India.",
+        "Informatics and Big Data, Council of Scientific and Industrial Research-Institute of Genomics and Integrative Biology (CSIR-IGIB), Lab No. 130, Mathura Road, New Delhi 110025, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India.",
+        "Research Development Cell, Manav Rachna International Institute of Research and Studies, Faridabad, Haryana 121004, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kumar, Rohit",
+        "short_name": "Kumar R",
+        "identifiers": [],
+        "affiliations": [
+          "Informatics and Big Data, Council of Scientific and Industrial Research-Institute of Genomics and Integrative Biology (CSIR-IGIB), Lab No. 130, Mathura Road, New Delhi 110025, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India."
+        ]
+      },
+      {
+        "full_name": "Seth, Surabhi",
+        "short_name": "Seth S",
+        "identifiers": [],
+        "affiliations": [
+          "Informatics and Big Data, Council of Scientific and Industrial Research-Institute of Genomics and Integrative Biology (CSIR-IGIB), Lab No. 130, Mathura Road, New Delhi 110025, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India."
+        ]
+      },
+      {
+        "full_name": "Bhargav, Anasuya",
+        "short_name": "Bhargav A",
+        "identifiers": [],
+        "affiliations": [
+          "Informatics and Big Data, Council of Scientific and Industrial Research-Institute of Genomics and Integrative Biology (CSIR-IGIB), Lab No. 130, Mathura Road, New Delhi 110025, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India."
+        ]
+      },
+      {
+        "full_name": "Saini, Neeru",
+        "short_name": "Saini N",
+        "identifiers": [],
+        "affiliations": [
+          "Genomics and Molecular Medicine, Council of Scientific and Industrial Research-Institute of Genomics and Integrative Biology (CSIR-IGIB), Lab No. 210, Mall Road, New Delhi 110007, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India."
+        ]
+      },
+      {
+        "full_name": "Ramachandran, Srinivasan",
+        "short_name": "Ramachandran S",
+        "identifiers": [],
+        "affiliations": [
+          "Informatics and Big Data, Council of Scientific and Industrial Research-Institute of Genomics and Integrative Biology (CSIR-IGIB), Lab No. 130, Mathura Road, New Delhi 110025, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India.",
+          "Research Development Cell, Manav Rachna International Institute of Research and Studies, Faridabad, Haryana 121004, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biosciences"
+    ],
+    "journal_abbrev": [
+      "J Biosci"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/25 06:29",
+    "fetched_at": "2026-10-01 02:39:46"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40994020",
+      "41120603",
+      "40119934",
+      "36476775",
+      "24957500",
+      "31524257",
+      "39072329",
+      "27530212",
+      "40898233",
+      "32705173",
+      "41424060",
+      "33915220",
+      "40823947",
+      "29914851",
+      "40918148",
+      "41162503",
+      "31746348",
+      "40500532",
+      "33149760",
+      "35046895",
+      "32851081",
+      "19169254",
+      "37140276",
+      "40374744",
+      "29617380",
+      "40494169",
+      "39080630",
+      "33248199",
+      "39380227",
+      "39028999",
+      "39213224",
+      "25752479",
+      "39810933",
+      "31115544",
+      "27793094",
+      "35378210",
+      "40951426",
+      "39296548",
+      "31673979",
+      "34967200",
+      "39936105",
+      "33678630",
+      "38703871",
+      "33562405",
+      "38114687",
+      "41081092",
+      "35008447",
+      "35271662",
+      "38863714",
+      "29066482",
+      "41418349",
+      "38034011",
+      "30197309",
+      "41144480",
+      "41113402",
+      "39096856",
+      "27414792",
+      "36619898",
+      "33957209",
+      "37865275",
+      "31939452",
+      "27906902",
+      "41268597",
+      "39798693",
+      "40696679",
+      "39661495",
+      "28179884",
+      "40787468",
+      "39920713",
+      "31797865",
+      "41079183",
+      "34245428",
+      "32781959",
+      "24059308",
+      "39845928",
+      "37773866",
+      "33787393",
+      "40202151",
+      "35187175",
+      "34779951",
+      "30938105",
+      "40861493",
+      "36248844",
+      "37210624",
+      "32669126",
+      "34301176",
+      "40406126",
+      "23369358",
+      "39634181",
+      "40922361",
+      "19262574",
+      "32851488",
+      "20369014",
+      "40917351",
+      "36368953",
+      "39672520",
+      "22201026",
+      "40609281",
+      "32714075",
+      "41145553"
+    ],
+    "review": [
+      "40994020",
+      "40823947",
+      "35008447",
+      "24059308",
+      "37210624"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ias.ac.in/article/fulltext/jbsc/050//0074",
+        "provider": "Indian Academy of Sciences",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetestype2.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 2"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-804",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

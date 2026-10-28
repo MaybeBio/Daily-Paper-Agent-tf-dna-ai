@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The abstract describes a review article covering deep learning applications in plant genome sequence analysis, motif mining, functional component design, protein structure prediction, genomic prediction, and large model applications.
+- **Shared manuscript claim summary** The authors state that deep learning has been widely applied in plant biology due to its performance in processing large data and capturing non-linear relationships. They claim to review applications in predicting gene expression, chromatin interactions, epigenetic features, motif mining, functional component design and synthesis, protein structure and function prediction, genomic prediction, and large model applications, and to provide future prospects.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or reference list are provided.
+- **Missing materials affecting confidence** Full text, figures, tables, references, and any quantitative performance comparisons are not available. The scope and depth of the review cannot be assessed.
+
+## Reviewer
+- **Overall assessment** This abstract describes a broad review of deep learning applications in plant genomics. The topic is timely and of potential interest to the plant biology and computational biology communities. However, the abstract is largely a list of topics without conveying critical synthesis, comparative insights, or specific conclusions. The absence of any mention of limitations, challenges, or critical evaluation of existing methods weakens the scholarly contribution implied by the abstract. The review's added value over existing reviews in this rapidly expanding field is not evident from the provided material.
+- **Who would be interested in the results, and why** Plant molecular biologists, computational biologists, and bioinformaticians working on genome annotation, gene regulation, epigenomics, and genomic selection would find this review relevant. Researchers applying deep learning to biological sequence analysis and those interested in synthetic promoter or protein design would also benefit. The review could serve as an entry point for newcomers to the field.
+- **Major strengths** The abstract covers a wide range of relevant topics, from sequence-based prediction of regulatory features to generative models and large language models. The inclusion of both analytical and design-oriented applications is commendable. The stated focus on plants distinguishes this review from general deep learning reviews in genomics.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific contribution and novelty
+  - **Claim pointer** The abstract claims to "review the application of deep learning in analyzing genome sequences" and to elaborate on "current motif mining and functional component design and synthesis" and "progress of protein structure and function prediction, genomic prediction, and large model applications."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract does not articulate any critical synthesis, comparative assessment of methods, or identification of knowledge gaps. It reads as a table of contents rather than a scholarly review. There is no indication of what new insights or frameworks the review offers beyond summarizing existing literature.
+  - **Why it matters** A review's value lies in its critical evaluation and synthesis. Without evidence of such analysis, the manuscript risks being a descriptive catalogue that does not advance understanding or guide future research.
+  - **Resolution test** The full text should demonstrate critical comparison of methods, discussion of limitations, and identification of open challenges. The abstract should be revised to state the review's unique contributions and conclusions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness and completeness
+  - **Claim pointer** The abstract states that deep learning has been "widely applied" and that the review covers "multiple omics data, algorithm optimization, large language models, sequence design, and intelligent breeding."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** No information is provided on the literature search strategy, inclusion criteria, or the number and types of studies reviewed. The breadth claimed is enormous, and it is unclear whether the review can adequately cover all these areas with sufficient depth. The abstract does not mention any benchmarking, performance comparisons, or practical guidance for method selection.
+  - **Why it matters** Without a defined scope and methodology, the review's comprehensiveness and reliability cannot be evaluated. Readers cannot judge whether the coverage is balanced or whether important recent advances are omitted.
+  - **Resolution test** The full text should include a methods section describing the literature search and selection criteria. The abstract should indicate the review's scope boundaries and the number of studies considered.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Readability for nonspecialists
+  - **Claim pointer** The abstract lists many technical terms and methods without providing context or framing for a general plant biology audience.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** Terms such as "generative adversarial networks," "attention mechanisms," and "large models" are mentioned without explanation of their relevance or basic principles. The abstract assumes substantial prior knowledge and does not indicate how the review will make these concepts accessible to experimental plant biologists.
+  - **Why it matters** The stated audience likely includes plant biologists who are not computational specialists. If the review does not bridge this gap, its impact will be limited to a narrow computational readership.
+  - **Resolution test** The full text should include introductory explanations of key deep learning concepts and their biological relevance. The abstract should signal the intended audience and the level of technical detail.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and precision
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "functional component design and synthesis" is vague. It is unclear what specific biological components are meant, such as promoters, enhancers, or other regulatory elements.
+  - **Required correction** Specify the types of functional components discussed, for example "cis-regulatory elements" or "synthetic promoters."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of scope
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention any discussion of data availability, benchmark datasets, or computational resources, which are practical concerns for researchers adopting deep learning methods.
+  - **Required correction** Add a sentence in the abstract or ensure the full text addresses practical considerations for implementation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Future perspective framing
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The final sentence on future prospects is generic and does not convey specific, actionable directions or challenges.
+  - **Required correction** Provide more concrete examples of anticipated developments or unresolved problems in the full text and reflect this specificity in the abstract.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The review's scholarly contribution and methodological rigor cannot be assessed from the abstract alone. The full text must demonstrate critical synthesis and a defined scope.
+- **Assessment against Nature-style criteria** 
+  - Originality: Not assessable from the abstract. The topic is timely, but the abstract does not indicate a novel framework or unique perspective.
+  - Scientific importance: Potentially high, given the rapid adoption of deep learning in plant genomics, but the abstract does not articulate why this review is needed now or what gap it fills.
+  - Interdisciplinary readership: The topic bridges computer science and plant biology, but the abstract does not demonstrate how it will serve both communities effectively.
+  - Technical soundness: Not assessable. No methods, figures, or quantitative comparisons are provided.
+  - Readability for nonspecialists: Currently weak. The abstract assumes technical familiarity and does not frame concepts for a broader biological audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful review, but the scholarly contribution, critical synthesis, and methodological transparency cannot be evaluated. A revised abstract that states the review's unique contributions, scope, and conclusions would be necessary to assess suitability. The full text must be examined to determine whether the review offers substantive analysis beyond a descriptive summary.
+
+## Risk / unsupported claims
+- The claim that deep learning has been "widely applied" in plant biology is plausible but not supported by any data or citation in the abstract.
+- The claim that the review covers all listed topics with adequate depth is unsupported and likely unverifiable from the abstract alone.
+- The implied comprehensiveness of the review, including "intelligent breeding," is not substantiated.
+- Any statement about the quality, completeness, or comparative performance of the methods discussed cannot be assessed from the provided material.

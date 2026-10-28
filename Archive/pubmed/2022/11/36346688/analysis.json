@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36346688",
+  "title": "Predicting Molecular Subtype and Survival of Rhabdomyosarcoma Patients Using Deep Learning of H&E Images: A Report from the Children's Oncology Group.",
+  "authors": "Milewski, David; Jung, Hyun; Brown, G Thomas; Liu, Yanling; Somerville, Ben; Lisle, Curtis; Ladanyi, Marc; Rudzinski, Erin R; Choo-Wosoba, Hyoyoung; Barkauskas, Donald A; Lo, Tammy; Hall, David; Linardic, Corinne M; Wei, Jun S; Chou, Hsien-Chao; Skapek, Stephen X; Venkatramani, Rajkumar; Bode, Peter K; Steinberg, Seth M; Zaki, George; Kuznetsov, Igor B; Hawkins, Douglas S; Shern, Jack F; Collins, Jack; Khan, Javed",
+  "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+  "published_date": "2022-11-09",
+  "window": {
+    "start": "2022-11-07",
+    "end": "2022-11-13"
+  },
+  "score": 0,
+  "one_liner_zh": "该文利用CNN分析横纹肌肉瘤H&E组织图像预测分子亚型和生存，属于纯组织病理图像分类，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "PURPOSE: Rhabdomyosarcoma (RMS) is an aggressive soft-tissue sarcoma, which primarily occurs in children and young adults. We previously reported specific genomic alterations in RMS, which strongly correlated with survival; however, predicting these mutations or high-risk disease at diagnosis remains a significant challenge. In this study, we utilized convolutional neural networks (CNN) to learn histologic features associated with driver mutations and outcome using hematoxylin and eosin (H&E) images of RMS. EXPERIMENTAL DESIGN: Digital whole slide H&E images were collected from clinically annotated diagnostic tumor samples from 321 patients with RMS enrolled in Children's Oncology Group (COG) trials (1998-2017). Patches were extracted and fed into deep learning CNNs to learn features associated with mutations and relative event-free survival risk. The performance of the trained models was evaluated against independent test sample data (n = 136) or holdout test data. RESULTS: The trained CNN could accurately classify alveolar RMS, a high-risk subtype associated with PAX3/7-FOXO1 fusion genes, with an ROC of 0.85 on an independent test dataset. CNN models trained on mutationally-annotated samples identified tumors with RAS pathway with a ROC of 0.67, and high-risk mutations in MYOD1 or TP53 with a ROC of 0.97 and 0.63, respectively. Remarkably, CNN models were superior in predicting event-free and overall survival compared with current molecular-clinical risk stratification. CONCLUSIONS: This study demonstrates that high-risk features, including those associated with certain mutations, can be readily identified at diagnosis using deep learning. CNNs are a powerful tool for diagnostic and prognostic prediction of rhabdomyosarcoma, which will be tested in prospective COG clinical trials.",
+  "abstract_zh": "目的：横纹肌肉瘤（RMS）是一种侵袭性软组织肉瘤，主要发生于儿童和年轻成人。我们先前报道了RMS中与生存率密切相关的特定基因组改变；然而，在诊断时预测这些突变或高风险疾病仍是一项重大挑战。在本研究中，我们利用卷积神经网络（CNN）学习与驱动突变和结果相关的组织学特征，使用RMS的苏木精-伊红（H&E）染色图像。实验设计：从参加儿童肿瘤学组（COG）试验（1998-2017年）的321例RMS患者的临床注释诊断肿瘤样本中收集数字全切片H&E图像。提取图像块并输入深度学习CNN，以学习与突变和相对无事件生存风险相关的特征。训练模型的性能通过独立测试样本数据（n = 136）或保留测试数据进行评估。结果：训练好的CNN能够准确分类腺泡型RMS，这是一种与PAX3/7-FOXO1融合基因相关的高风险亚型，在独立测试数据集上的ROC为0.85。基于突变注释样本训练的CNN模型识别RAS通路肿瘤的ROC为0.67，识别MYOD1或TP53高风险突变的ROC分别为0.97和0.63。值得注意的是，CNN模型在预测无事件生存和总生存方面优于当前的分子-临床风险分层。结论：本研究证明，包括与某些突变相关的高风险特征，可以在诊断时通过深度学习轻松识别。CNN是横纹肌肉瘤诊断和预后预测的强大工具，将在未来的COG临床试验中进行验证。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36346688/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36346688/",
+  "paper_page_path": "papers/pubmed/36346688/index.html"
+}

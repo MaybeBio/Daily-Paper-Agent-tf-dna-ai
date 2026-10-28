@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2204.02130v2",
+  "title": "SemanticCAP: Chromatin Accessibility Prediction Enhanced by Features Learning from a Language Model",
+  "authors": "Yikang Zhang; Xiaomin Chu; Yelu Jiang; Hongjie Wu; Lijun Quan",
+  "journal": "",
+  "published_date": "2022-04-05",
+  "window": {
+    "start": "2022-04-04",
+    "end": "2022-04-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用基因语言模型增强染色质可及性预测，虽涉及TF-DNA结合能力但非直接建模互作，方法可迁移至TF-DNA结合位点预测。",
+  "abstract": "A large number of inorganic and organic compounds are able to bind DNA and form complexes, among which drug-related molecules are important. Chromatin accessibility changes not only directly affects drug-DNA interactions, but also promote or inhibit the expression of critical genes associated with drug resistance by affecting the DNA binding capacity of TFs and transcriptional regulators. However, Biological experimental techniques for measuring it are expensive and time consuming. In recent years, several kinds of computational methods have been proposed to identify accessible regions of the genome. Existing computational models mostly ignore the contextual information of bases in gene sequences. To address these issues, we proposed a new solution named SemanticCAP. It introduces a gene language model which models the context of gene sequences, thus being able to provide an effective representation of a certain site in gene sequences. Basically, we merge the features provided by the gene language model into our chromatin accessibility model. During the process, we designed some methods to make feature fusion smoother. Compared with other systems under public benchmarks, our model proved to have better performance.",
+  "abstract_zh": "大量无机和有机化合物能够与DNA结合并形成复合物，其中与药物相关的分子尤为重要。染色质可及性的变化不仅直接影响药物与DNA的相互作用，还通过影响转录因子（TFs）和转录调控因子的DNA结合能力，促进或抑制与耐药性相关的关键基因表达。然而，用于测量这一特性的生物实验技术成本高昂且耗时。近年来，已提出多种计算方法来识别基因组中的可及区域。现有计算模型大多忽略了基因序列中碱基的上下文信息。为解决这些问题，我们提出了一种名为SemanticCAP的新方案。它引入了一种基因语言模型，该模型对基因序列的上下文进行建模，从而能够为基因序列中的特定位置提供有效表示。基本上，我们将基因语言模型提供的特征融合到我们的染色质可及性模型中。在此过程中，我们设计了一些方法使特征融合更加平滑。在公共基准测试下与其他系统相比，我们的模型被证明具有更优的性能。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2204.02130v2",
+  "source_url": "https://arxiv.org/abs/2204.02130v2",
+  "paper_page_path": "papers/arxiv/2204.02130v2/index.html"
+}

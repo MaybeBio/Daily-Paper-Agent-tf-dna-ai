@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "38517701",
+    "doi": "10.1080/02770903.2024.2334361",
+    "title": "Analysis of the potential molecular mechanisms of asthma and gastroesophageal reflux disease."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Asthma and gastroesophageal reflux disease (GERD) often occur simultaneously, with GERD being a comorbidity of asthma. This study aimed to explore the biological markers related to asthma and GERD by bioinformatics analysis. METHODS: Initially, gene expression datasets for asthma and GERD were obtained from the Gene Expression Omnibus database, and subsequent differential expression analysis yielded 620 differentially expressed genes (DEGs) for asthma and 2367 DEGs for GERD. The intersection of these two gene sets yielded a total of 84 DEGs. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses revealed that these genes may be involved in steroid hormone secretion and cellular stress response. Five hub genes (PTGDR2, CPA3, FCER1A, TPSAB1, and IL1RL1) were identified by a protein-protein interaction (PPI) network analysis and topological algorithm. RESULTS: Enrichment analysis results indicated that hub genes may be involved in hormone secretion and disease development, particularly in regulating the renin-angiotensin system and systemic arterial blood pressure. PTGDR2, CPA3, TPSAB1, and IL1RL1 were upregulated in both asthma and GERD patient groups, while FCER1A was upregulated in asthma patients but downregulated in GERD patients. Through drug prediction, 22 drugs targeting hub genes PTGDR2, FCER1A, and TPSAB1 were identified. By constructing a transcription factor (TF)-target gene network, we found that eight TFs may regulate the expression of PTGDR2, FCER1A, and IL1RL1. CONCLUSION: Hence, Asthma and GERD were related to steroid hormone secretion and the renin-angiotensin system.",
+    "keywords": [
+      "Asthma",
+      "drug prediction",
+      "enrichment analysis",
+      "gastroesophageal reflux disease",
+      "hub genes"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Gastroesophageal Reflux/genetics",
+      "*Asthma/genetics",
+      "Computational Biology",
+      "Protein Interaction Maps/genetics",
+      "Gene Expression Profiling",
+      "Gene Ontology",
+      "Gene Regulatory Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Changdan",
+        "Zhang, Wei",
+        "Zheng, Xiujin",
+        "Jiang, Chenglin",
+        "Zhang, Wen"
+      ],
+      "short_names": [
+        "Chen C",
+        "Zhang W",
+        "Zheng X",
+        "Jiang C",
+        "Zhang W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Gastroenterology Medicine, Ningde Municipal Hospital of Ningde Normal University, Ningde, Fujian, China.",
+        "Department of Gastroenterology Medicine, Ningde Municipal Hospital of Ningde Normal University, Ningde, Fujian, China.",
+        "Department of Gastroenterology Medicine, Ningde Municipal Hospital of Ningde Normal University, Ningde, Fujian, China.",
+        "Department of Gastroenterology Medicine, Ningde Municipal Hospital of Ningde Normal University, Ningde, Fujian, China.",
+        "Department of Pulmonary and Critical Care Medicine, Ningde Municipal Hospital of Ningde Normal University, Ningde, Fujian, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Changdan",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology Medicine, Ningde Municipal Hospital of Ningde Normal University, Ningde, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wei",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology Medicine, Ningde Municipal Hospital of Ningde Normal University, Ningde, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Xiujin",
+        "short_name": "Zheng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology Medicine, Ningde Municipal Hospital of Ningde Normal University, Ningde, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Chenglin",
+        "short_name": "Jiang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Gastroenterology Medicine, Ningde Municipal Hospital of Ningde Normal University, Ningde, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wen",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary and Critical Care Medicine, Ningde Municipal Hospital of Ningde Normal University, Ningde, Fujian, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of asthma : official journal of the Association for the Care of Asthma"
+    ],
+    "journal_abbrev": [
+      "J Asthma"
+    ],
+    "pub_date": "2024 Oct",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/22 18:44",
+    "fetched_at": "2026-09-29 17:15:22"
+  },
+  "links": {
+    "cites": [
+      "41583298"
+    ],
+    "refs": [],
+    "similar": [
+      "38517701",
+      "37907428",
+      "40949741",
+      "38062833",
+      "41511918",
+      "31987036",
+      "42109727",
+      "34553293",
+      "40628511",
+      "40209518",
+      "40821971",
+      "41839318",
+      "33083497",
+      "30132538",
+      "39111872",
+      "41258630",
+      "31989994",
+      "41253465",
+      "39556279",
+      "33102593",
+      "40790764",
+      "32756534",
+      "29286093",
+      "29517105",
+      "34160465",
+      "40032209",
+      "38259479",
+      "32460303",
+      "32008037",
+      "31875420",
+      "33407587",
+      "38764052",
+      "38319987",
+      "38957433",
+      "32853947",
+      "41562054",
+      "28952134",
+      "41044520",
+      "36506310",
+      "33437215",
+      "41867369",
+      "39392250",
+      "42327749",
+      "41517672",
+      "38968466",
+      "30825595",
+      "33582701",
+      "40241169",
+      "28623929",
+      "35379124",
+      "38073349",
+      "34358255",
+      "35016690",
+      "41189173",
+      "41533020",
+      "31950035",
+      "33816621",
+      "30916045",
+      "39172048",
+      "34722763",
+      "39673621",
+      "38549107",
+      "33501609",
+      "36187094",
+      "38809379",
+      "35721731",
+      "29257295",
+      "40603423",
+      "35190763",
+      "35151359",
+      "36575422",
+      "41006883",
+      "40665411",
+      "34016144",
+      "40036607",
+      "40833035",
+      "40826767",
+      "34271942",
+      "31794546",
+      "39829117",
+      "39097701",
+      "36254061",
+      "38669428",
+      "39636560",
+      "38937666",
+      "40019588",
+      "31233342",
+      "34671419",
+      "35313524",
+      "41970276",
+      "41544137",
+      "34421922",
+      "38771826",
+      "33950983",
+      "33642437",
+      "39342024",
+      "35286184",
+      "38701300",
+      "40289127",
+      "32626989"
+    ],
+    "review": [
+      "38517701",
+      "40665411"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/02770903.2024.2334361?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/gerd.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "GERD"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/02770903.2024.2334361",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      },
+      {
+        "url": "https://medlineplus.gov/asthma.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma"
+      }
+    ],
+    "text_mined": []
+  }
+}

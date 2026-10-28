@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36474806",
+  "title": "Predictive modeling of moonlighting DNA-binding proteins.",
+  "authors": "Varghese, Dana Mary; Nussinov, Ruth; Ahmad, Shandar",
+  "journal": "NAR genomics and bioinformatics",
+  "published_date": "2022-12-08",
+  "window": {
+    "start": "2022-12-05",
+    "end": "2022-12-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用机器学习预测人类兼性DNA结合蛋白，虽涉及蛋白-DNA互作但聚焦于多功能蛋白分类，而非TF-DNA结合位点或互作机制建模，方法可迁移但深度有限。",
+  "abstract": "Moonlighting proteins are multifunctional, single-polypeptide chains capable of performing multiple autonomous functions. Most moonlighting proteins have been discovered through work unrelated to their multifunctionality. We believe that prediction of moonlighting proteins from first principles, that is, using sequence, predicted structure, evolutionary profiles, and global gene expression profiles, for only one functional class of proteins in a single organism at a time will significantly advance our understanding of multifunctional proteins. In this work, we investigated human moonlighting DNA-binding proteins (mDBPs) in terms of properties that distinguish them from other (non-moonlighting) proteins with the same DNA-binding protein (DBP) function. Following a careful and comprehensive analysis of discriminatory features, a machine learning model was developed to assess the predictability of mDBPs from other DBPs (oDBPs). We observed that mDBPs can be discriminated from oDBPs with high accuracy of 74% AUC of ROC using these first principles features. A number of novel predicted mDBPs were found to have literature support for their being moonlighting and others are proposed as candidates, for which the moonlighting function is currently unknown. We believe that this work will help in deciphering and annotating novel moonlighting DBPs and scale up other functions. The source codes and data sets used for this work are freely available at https://zenodo.org/record/7299265#.Y2pO3ctBxPY.",
+  "abstract_zh": "兼职蛋白（moonlighting proteins）是多功能的单多肽链，能够执行多种自主功能。大多数兼职蛋白是通过与其多功能性无关的研究发现的。我们认为，从第一性原理出发，即仅利用序列、预测结构、进化谱和全局基因表达谱，针对单一生物体中某一功能类别的蛋白质进行预测，将显著推进我们对多功能蛋白的理解。在本工作中，我们研究了人类兼职DNA结合蛋白（mDBPs），关注其与具有相同DNA结合蛋白（DBP）功能的其他（非兼职）蛋白质相区分的特性。经过仔细全面的判别特征分析，开发了一个机器学习模型，以评估mDBPs与其他DBPs（oDBPs）的可预测性。我们观察到，使用这些第一性原理特征，mDBPs与oDBPs的区分准确率高达74%的ROC AUC。许多新预测的mDBPs被发现具有文献支持其兼职性质，其他则被提出为候选，其兼职功能目前尚不清楚。我们相信，这项工作将有助于解析和注释新型兼职DBPs，并推广至其他功能。本工作使用的源代码和数据集可在https://zenodo.org/record/7299265#.Y2pO3ctBxPY免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36474806/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36474806/",
+  "paper_page_path": "papers/pubmed/36474806/index.html"
+}

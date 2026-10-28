@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "42278278",
+    "doi": "10.3390/ijms27114747",
+    "title": "Chlorogenic Acid Alleviates Experimental Asthma by Reprogramming DHA Metabolism to Inhibit Ferroptosis."
+  },
+  "content": {
+    "abstract": "Asthma is a chronic inflammatory disease with limited therapeutic options, highlighting the urgent need to explore alternative mechanisms and agents. Chlorogenic acid (CGA), a dietary polyphenol, exhibits anti-asthmatic properties, but its precise molecular mechanisms remain poorly understood. This study aimed to elucidate the mechanistic basis of CGA's anti-asthmatic effects, hypothesizing a central role in regulating polyunsaturated fatty acid metabolism and ferroptosis. An ovalbumin-induced murine asthma model was established in female BALB/c mice to evaluate the therapeutic efficacy of CGA through inflammatory cell counts, cytokine levels (ELISA), and lung histopathology. Integrated lung lipidomics (LC-MS/MS) was employed to profile lipid mediators and phospholipids. The underlying mechanism was investigated in erastin-induced ferroptosis in BEAS-2B cells and validated in mouse lung tissue using qPCR, immunofluorescence, and assays for reactive oxygen species (ROS) and Fe(2+). CGA treatment significantly attenuated airway inflammation, reduced Th2 cytokine (IL-4, IL-5) and IgE levels, and ameliorated lung pathology in a dose-dependent manner. Lipidomics revealed that asthma was associated with dysregulated docosahexaenoic acid (DHA) metabolism, characterized by elevated pro-inflammatory lipid peroxidation products (e.g., 11-HDoHE, 14-HDoHE), a profile reversed by CGA intervention. Mechanistically, molecular docking and subsequent validation identified CGA as an activator of the Nrf2 antioxidant pathway, leading to upregulation of the key ferroptosis defense genes SLC7A11 and GPX4 both in vitro and in vivo. Consequently, CGA treatment suppressed erastin-induced ROS production and Fe(2+) accumulation in BEAS-2B cells. In conclusion, this study demonstrates that CGA exerts anti-asthmatic effects by reprogramming DHA metabolism to suppress ferroptosis while enhancing antioxidant pathways. These findings reveal a novel mechanistic axis for CGA and establish that targeting lipid peroxidation-driven ferroptosis represents a promising therapeutic strategy for asthma.",
+    "keywords": [
+      "ALOX12",
+      "DHA metabolism",
+      "GPX4",
+      "Nrf2",
+      "asthma",
+      "chlorogenic acid",
+      "ferroptosis",
+      "lipid peroxidation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Ferroptosis/drug effects",
+      "*Asthma/drug therapy/metabolism/pathology/chemically induced",
+      "Female",
+      "Mice",
+      "Mice, Inbred BALB C",
+      "*Chlorogenic Acid/pharmacology/therapeutic use",
+      "Humans",
+      "*Docosahexaenoic Acids/metabolism",
+      "Disease Models, Animal",
+      "Reactive Oxygen Species/metabolism",
+      "Lung/metabolism/pathology/drug effects",
+      "Cytokines/metabolism",
+      "NF-E2-Related Factor 2/metabolism",
+      "Piperazines/pharmacology",
+      "Ovalbumin",
+      "*Anti-Asthmatic Agents/pharmacology",
+      "Cell Line"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Ping",
+        "Abudukeremu, Gulimire",
+        "Zhang, Zhi-Li",
+        "Xu, Jing-Yi",
+        "Ji, Jian-Xuan",
+        "Guo, Yun-Dan",
+        "Zhang, Ming-Xuan",
+        "Ren, Ling",
+        "Wang, Lu-Lu",
+        "Tang, Zhi-Cheng",
+        "Wotan, Ayidana",
+        "Rong, Xiao-Juan",
+        "Tie, Cai",
+        "Gao, Tian-Le"
+      ],
+      "short_names": [
+        "Zhou P",
+        "Abudukeremu G",
+        "Zhang ZL",
+        "Xu JY",
+        "Ji JX",
+        "Guo YD",
+        "Zhang MX",
+        "Ren L",
+        "Wang LL",
+        "Tang ZC",
+        "Wotan A",
+        "Rong XJ",
+        "Tie C",
+        "Gao TL"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-7186-5251"
+      ],
+      "affiliations": [
+        "Institute of Materia Medica, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100050, China.",
+        "Institute of Materia Medica, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100050, China.",
+        "State Key Laboratory and Institute of Elemento-Organic Chemistry, College of Chemistry, Nankai University, Tianjin 300071, China.",
+        "State Key Laboratory for Fine Exploration and Intelligent Development of Coal Resources, School of Chemical and Environmental Engineering, China University of Mining and Technology-Beijing, Beijing 100083, China.",
+        "State Key Laboratory for Fine Exploration and Intelligent Development of Coal Resources, School of Chemical and Environmental Engineering, China University of Mining and Technology-Beijing, Beijing 100083, China.",
+        "Institute of Materia Medica, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100050, China.",
+        "Institute of Materia Medica, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100050, China.",
+        "Institute of Medicinal Biotechnology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100050, China.",
+        "Institute of Medicinal Biotechnology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100050, China.",
+        "State Key Laboratory for Fine Exploration and Intelligent Development of Coal Resources, School of Chemical and Environmental Engineering, China University of Mining and Technology-Beijing, Beijing 100083, China.",
+        "Xinjiang Key Laboratory for Uighur Medicine, Xinjiang Institute of Material Medica, Urumqi 830004, China.",
+        "Xinjiang Key Laboratory for Uighur Medicine, Xinjiang Institute of Material Medica, Urumqi 830004, China.",
+        "State Key Laboratory for Fine Exploration and Intelligent Development of Coal Resources, School of Chemical and Environmental Engineering, China University of Mining and Technology-Beijing, Beijing 100083, China.",
+        "Institute of Materia Medica, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100050, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Ping",
+        "short_name": "Zhou P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Materia Medica, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100050, China."
+        ]
+      },
+      {
+        "full_name": "Abudukeremu, Gulimire",
+        "short_name": "Abudukeremu G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Materia Medica, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100050, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhi-Li",
+        "short_name": "Zhang ZL",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory and Institute of Elemento-Organic Chemistry, College of Chemistry, Nankai University, Tianjin 300071, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jing-Yi",
+        "short_name": "Xu JY",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Fine Exploration and Intelligent Development of Coal Resources, School of Chemical and Environmental Engineering, China University of Mining and Technology-Beijing, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Jian-Xuan",
+        "short_name": "Ji JX",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Fine Exploration and Intelligent Development of Coal Resources, School of Chemical and Environmental Engineering, China University of Mining and Technology-Beijing, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Yun-Dan",
+        "short_name": "Guo YD",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Materia Medica, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100050, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ming-Xuan",
+        "short_name": "Zhang MX",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Materia Medica, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100050, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Ling",
+        "short_name": "Ren L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medicinal Biotechnology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100050, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lu-Lu",
+        "short_name": "Wang LL",
+        "identifiers": [
+          "0009-0008-7186-5251"
+        ],
+        "affiliations": [
+          "Institute of Medicinal Biotechnology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100050, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Zhi-Cheng",
+        "short_name": "Tang ZC",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Fine Exploration and Intelligent Development of Coal Resources, School of Chemical and Environmental Engineering, China University of Mining and Technology-Beijing, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Wotan, Ayidana",
+        "short_name": "Wotan A",
+        "identifiers": [],
+        "affiliations": [
+          "Xinjiang Key Laboratory for Uighur Medicine, Xinjiang Institute of Material Medica, Urumqi 830004, China."
+        ]
+      },
+      {
+        "full_name": "Rong, Xiao-Juan",
+        "short_name": "Rong XJ",
+        "identifiers": [],
+        "affiliations": [
+          "Xinjiang Key Laboratory for Uighur Medicine, Xinjiang Institute of Material Medica, Urumqi 830004, China."
+        ]
+      },
+      {
+        "full_name": "Tie, Cai",
+        "short_name": "Tie C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Fine Exploration and Intelligent Development of Coal Resources, School of Chemical and Environmental Engineering, China University of Mining and Technology-Beijing, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Tian-Le",
+        "short_name": "Gao TL",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Materia Medica, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing 100050, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 May 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/12 06:37",
+    "fetched_at": "2026-10-01 23:02:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42099620",
+      "41489533",
+      "41413659",
+      "41008953",
+      "40598285",
+      "40491313",
+      "40430003",
+      "39914553",
+      "39834812",
+      "39298822",
+      "39054709",
+      "38641013",
+      "38612964",
+      "38395974",
+      "38333068",
+      "37947059",
+      "37781708",
+      "37510014",
+      "37047037",
+      "37020951",
+      "36744026",
+      "36613888",
+      "36552652",
+      "34625291",
+      "34090658",
+      "33798909",
+      "33510482",
+      "32711128",
+      "31216723",
+      "29315966",
+      "28985560",
+      "26335832",
+      "24613565",
+      "21365312",
+      "20653566",
+      "20637839",
+      "9887101",
+      "7834783"
+    ],
+    "similar": [
+      "42278278",
+      "41485291",
+      "41729256",
+      "41921764",
+      "41786057",
+      "40430003",
+      "41461326",
+      "41723162",
+      "42486456",
+      "41053553",
+      "40397997",
+      "40850660",
+      "42342059",
+      "20637839",
+      "31683035",
+      "41344272",
+      "32795904",
+      "40865655",
+      "41570784",
+      "28410469",
+      "42508544",
+      "41687937",
+      "41421518",
+      "42229204",
+      "41038330",
+      "41524429",
+      "39689597",
+      "30092299",
+      "40962721",
+      "40412057",
+      "40222689",
+      "41690038",
+      "41736424",
+      "39644566",
+      "40280374",
+      "41186775",
+      "40806353",
+      "40118327",
+      "42445172",
+      "40702384",
+      "23201068",
+      "39694425",
+      "40897231",
+      "41962727",
+      "42492799",
+      "38750986",
+      "27746262",
+      "41197928",
+      "42392723",
+      "38273268",
+      "41338145",
+      "41972189",
+      "41621761",
+      "42184481",
+      "38035662",
+      "39626539",
+      "20727999",
+      "38432211",
+      "41420736",
+      "37268260",
+      "41735987",
+      "41453548",
+      "40544731",
+      "41924773",
+      "42241031",
+      "25739561",
+      "39510426",
+      "35154576",
+      "41846060",
+      "41966024",
+      "40674839",
+      "41391519",
+      "41423014",
+      "41172705",
+      "40972729",
+      "37714424",
+      "38507850",
+      "39994309",
+      "36603356",
+      "39844719",
+      "41201482",
+      "31226782",
+      "39222758",
+      "41999705",
+      "41796997",
+      "30823378",
+      "38824434",
+      "39260309",
+      "28531919",
+      "41121022",
+      "41667044",
+      "29986724",
+      "39181279",
+      "42102609",
+      "42048794",
+      "41135271",
+      "38484644",
+      "22634146",
+      "41967212",
+      "35202713"
+    ],
+    "review": [
+      "42278278"
+    ],
+    "pmc": [
+      "13256434"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27114747",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/asthma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42278278/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CHGA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/asthma.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Asthma"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,597 @@
+{
+  "identity": {
+    "pmid": "39873147",
+    "doi": "10.1158/1535-7163.MCT-24-0785",
+    "title": "Identification of a TNIK-CDK9 Axis as a Targetable Strategy for Platinum-Resistant Ovarian Cancer."
+  },
+  "content": {
+    "abstract": "Up to 90% of patients with high-grade serous ovarian cancer (HGSC) will develop resistance to platinum-based chemotherapy, posing substantial therapeutic challenges due to a lack of universally druggable targets. Leveraging BenevolentAI's artificial intelligence (AI)-driven approach to target discovery, we screened potential AI-predicted therapeutic targets mapped to unapproved tool compounds in patient-derived 3D models. This identified TNIK, which is modulated by NCB-0846, as a novel target for platinum-resistant HGSC. Targeting by this compound demonstrated efficacy across both in vitro and ex vivo organoid platinum-resistant models. Additionally, NCB-0846 treatment effectively decreased Wnt activity, a known driver of platinum resistance; however, we found that these effects were not solely mediated by TNIK inhibition. Comprehensive AI, in silico, and in vitro analyses revealed CDK9 as another key target driving NCB-0846's efficacy. Interestingly, TNIK and CDK9 co-expression positively correlated, and chromosomal gains in both served as prognostic markers for poor patient outcomes. Combined knockdown of TNIK and CDK9 markedly diminished downstream Wnt targets and reduced chemotherapy-resistant cell viability. Furthermore, we identified CDK9 as a novel mediator of canonical Wnt activity, providing mechanistic insights into the combinatorial effects of TNIK and CDK9 inhibition and offering a new understanding of NCB-0846 and CDK9 inhibitor function. Our findings identified the TNIK-CDK9 axis as druggable targets mediating platinum resistance and cell viability in HGSC. With AI at the forefront of drug discovery, this work highlights how to ensure that AI findings are biologically relevant by combining compound screens with physiologically relevant models, thus supporting the identification and validation of potential drug targets.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "*Ovarian Neoplasms/drug therapy/pathology/metabolism/genetics",
+      "*Drug Resistance, Neoplasm/drug effects",
+      "*Cyclin-Dependent Kinase 9/metabolism/genetics/antagonists & inhibitors",
+      "Cell Line, Tumor",
+      "Platinum/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Puleo, Noah",
+        "Ram, Harini",
+        "Dziubinski, Michele L",
+        "Carvette, Dylan",
+        "Teitel, Jessica",
+        "Sekhar, Sreeja C",
+        "Bedi, Karan",
+        "Robida, Aaron",
+        "Nakashima, Michael M",
+        "Farsinejad, Sadaf",
+        "Iwanicki, Marcin",
+        "Senkowski, Wojciech",
+        "Ray, Arpita",
+        "Bollerman, Thomas J",
+        "Dunbar, James",
+        "Richardson, Peter",
+        "Taddei, Andrea",
+        "Hudson, Chantelle",
+        "DiFeo, Analisa"
+      ],
+      "short_names": [
+        "Puleo N",
+        "Ram H",
+        "Dziubinski ML",
+        "Carvette D",
+        "Teitel J",
+        "Sekhar SC",
+        "Bedi K",
+        "Robida A",
+        "Nakashima MM",
+        "Farsinejad S",
+        "Iwanicki M",
+        "Senkowski W",
+        "Ray A",
+        "Bollerman TJ",
+        "Dunbar J",
+        "Richardson P",
+        "Taddei A",
+        "Hudson C",
+        "DiFeo A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5858-393X",
+        "ORCID: 0009-0002-5936-4565",
+        "ORCID: 0000-0003-0314-0634",
+        "ORCID: 0009-0005-9251-5136",
+        "ORCID: 0000-0002-8962-4690",
+        "ORCID: 0000-0002-9827-5349",
+        "ORCID: 0000-0002-7843-738X",
+        "ORCID: 0000-0003-4867-9641",
+        "ORCID: 0009-0006-1944-4199",
+        "ORCID: 0009-0004-2216-3895",
+        "ORCID: 0000-0001-8375-8447",
+        "ORCID: 0000-0001-8120-1944",
+        "ORCID: 0009-0003-6415-2265",
+        "ORCID: 0009-0000-9361-3532",
+        "ORCID: 0009-0008-6752-1421",
+        "ORCID: 0000-0001-7813-041X",
+        "ORCID: 0009-0008-3823-7157",
+        "ORCID: 0009-0006-1179-7790",
+        "ORCID: 0000-0001-8319-6763"
+      ],
+      "affiliations": [
+        "Department of Pathology, University of Michigan, Ann Arbor, Michigan.",
+        "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.",
+        "Precision Health, University of Michigan, Ann Arbor, Michigan.",
+        "Department of Pathology, University of Michigan, Ann Arbor, Michigan.",
+        "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.",
+        "Department of Pathology, University of Michigan, Ann Arbor, Michigan.",
+        "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.",
+        "Department of Pathology, University of Michigan, Ann Arbor, Michigan.",
+        "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.",
+        "Department of Pathology, University of Michigan, Ann Arbor, Michigan.",
+        "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.",
+        "Department of Pathology, University of Michigan, Ann Arbor, Michigan.",
+        "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.",
+        "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.",
+        "Department of Biostatistics, University of Michigan, Ann Arbor, Michigan.",
+        "Life Sciences Institute, University of Michigan, Ann Arbor, Michigan.",
+        "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.",
+        "Department of Chemistry and Chemical Biology, Stevens Institute of Technology, Hoboken, New Jersey.",
+        "Department of Chemistry and Chemical Biology, Stevens Institute of Technology, Hoboken, New Jersey.",
+        "Biotech Research & Innovation Centre, University of Copenhagen, Copenhagen, Denmark.",
+        "BenevolentAI, London, United Kingdom.",
+        "BenevolentAI, London, United Kingdom.",
+        "BenevolentAI, London, United Kingdom.",
+        "BenevolentAI, London, United Kingdom.",
+        "BenevolentAI, London, United Kingdom.",
+        "BenevolentAI, London, United Kingdom.",
+        "Department of Pathology, University of Michigan, Ann Arbor, Michigan.",
+        "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.",
+        "Department of Obstetrics and Gynecology, University of Michigan, Ann Arbor, Michigan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Puleo, Noah",
+        "short_name": "Puleo N",
+        "identifiers": [
+          "0000-0001-5858-393X"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, Michigan.",
+          "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.",
+          "Precision Health, University of Michigan, Ann Arbor, Michigan."
+        ]
+      },
+      {
+        "full_name": "Ram, Harini",
+        "short_name": "Ram H",
+        "identifiers": [
+          "0009-0002-5936-4565"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, Michigan.",
+          "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan."
+        ]
+      },
+      {
+        "full_name": "Dziubinski, Michele L",
+        "short_name": "Dziubinski ML",
+        "identifiers": [
+          "0000-0003-0314-0634"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, Michigan.",
+          "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan."
+        ]
+      },
+      {
+        "full_name": "Carvette, Dylan",
+        "short_name": "Carvette D",
+        "identifiers": [
+          "0009-0005-9251-5136"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, Michigan.",
+          "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan."
+        ]
+      },
+      {
+        "full_name": "Teitel, Jessica",
+        "short_name": "Teitel J",
+        "identifiers": [
+          "0000-0002-8962-4690"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, Michigan.",
+          "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan."
+        ]
+      },
+      {
+        "full_name": "Sekhar, Sreeja C",
+        "short_name": "Sekhar SC",
+        "identifiers": [
+          "0000-0002-9827-5349"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, Michigan.",
+          "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan."
+        ]
+      },
+      {
+        "full_name": "Bedi, Karan",
+        "short_name": "Bedi K",
+        "identifiers": [
+          "0000-0002-7843-738X"
+        ],
+        "affiliations": [
+          "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.",
+          "Department of Biostatistics, University of Michigan, Ann Arbor, Michigan."
+        ]
+      },
+      {
+        "full_name": "Robida, Aaron",
+        "short_name": "Robida A",
+        "identifiers": [
+          "0000-0003-4867-9641"
+        ],
+        "affiliations": [
+          "Life Sciences Institute, University of Michigan, Ann Arbor, Michigan."
+        ]
+      },
+      {
+        "full_name": "Nakashima, Michael M",
+        "short_name": "Nakashima MM",
+        "identifiers": [
+          "0009-0006-1944-4199"
+        ],
+        "affiliations": [
+          "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan."
+        ]
+      },
+      {
+        "full_name": "Farsinejad, Sadaf",
+        "short_name": "Farsinejad S",
+        "identifiers": [
+          "0009-0004-2216-3895"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Stevens Institute of Technology, Hoboken, New Jersey."
+        ]
+      },
+      {
+        "full_name": "Iwanicki, Marcin",
+        "short_name": "Iwanicki M",
+        "identifiers": [
+          "0000-0001-8375-8447"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Stevens Institute of Technology, Hoboken, New Jersey."
+        ]
+      },
+      {
+        "full_name": "Senkowski, Wojciech",
+        "short_name": "Senkowski W",
+        "identifiers": [
+          "0000-0001-8120-1944"
+        ],
+        "affiliations": [
+          "Biotech Research & Innovation Centre, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Ray, Arpita",
+        "short_name": "Ray A",
+        "identifiers": [
+          "0009-0003-6415-2265"
+        ],
+        "affiliations": [
+          "BenevolentAI, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Bollerman, Thomas J",
+        "short_name": "Bollerman TJ",
+        "identifiers": [
+          "0009-0000-9361-3532"
+        ],
+        "affiliations": [
+          "BenevolentAI, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Dunbar, James",
+        "short_name": "Dunbar J",
+        "identifiers": [
+          "0009-0008-6752-1421"
+        ],
+        "affiliations": [
+          "BenevolentAI, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Richardson, Peter",
+        "short_name": "Richardson P",
+        "identifiers": [
+          "0000-0001-7813-041X"
+        ],
+        "affiliations": [
+          "BenevolentAI, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Taddei, Andrea",
+        "short_name": "Taddei A",
+        "identifiers": [
+          "0009-0008-3823-7157"
+        ],
+        "affiliations": [
+          "BenevolentAI, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Hudson, Chantelle",
+        "short_name": "Hudson C",
+        "identifiers": [
+          "0009-0006-1179-7790"
+        ],
+        "affiliations": [
+          "BenevolentAI, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "DiFeo, Analisa",
+        "short_name": "DiFeo A",
+        "identifiers": [
+          "0000-0001-8319-6763"
+        ],
+        "affiliations": [
+          "Department of Pathology, University of Michigan, Ann Arbor, Michigan.",
+          "The Rogel Cancer Center, University of Michigan, Ann Arbor, Michigan.",
+          "Department of Obstetrics and Gynecology, University of Michigan, Ann Arbor, Michigan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cancer therapeutics"
+    ],
+    "journal_abbrev": [
+      "Mol Cancer Ther"
+    ],
+    "pub_date": "2025 Apr 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/28 11:26",
+    "fetched_at": "2026-09-30 10:35:31"
+  },
+  "links": {
+    "cites": [
+      "41970231",
+      "41900815",
+      "40862819"
+    ],
+    "refs": [
+      "38226156",
+      "38201534",
+      "37933841",
+      "37668528",
+      "37148882",
+      "36788429",
+      "36633525",
+      "36287174",
+      "35865092",
+      "35800777",
+      "35675910",
+      "35398881",
+      "34326483",
+      "34062779",
+      "34041038",
+      "34011401",
+      "33846570",
+      "33574092",
+      "33538338",
+      "33495197",
+      "33400690",
+      "33322239",
+      "33289551",
+      "33244122",
+      "33106501",
+      "32866383",
+      "32694991",
+      "32534188",
+      "32444850",
+      "32429395",
+      "32368391",
+      "32125404",
+      "32032529",
+      "31898661",
+      "31842956",
+      "31614568",
+      "31515295",
+      "30901730",
+      "30817892",
+      "30813239",
+      "30726104",
+      "30655206",
+      "30442712",
+      "30241553",
+      "29928781",
+      "29905871",
+      "29653924",
+      "29636860",
+      "29487129",
+      "29471852",
+      "29389895",
+      "28410237",
+      "28101169",
+      "27571104",
+      "27562646",
+      "27560171",
+      "27558151",
+      "27306793",
+      "27105520",
+      "26766294",
+      "26755507",
+      "26658453",
+      "26617966",
+      "26227489",
+      "26125441",
+      "25970248",
+      "25690850",
+      "25516281",
+      "24566388",
+      "24499657",
+      "24309006",
+      "24227677",
+      "24071851",
+      "23550210",
+      "23547709",
+      "23135731",
+      "23104886",
+      "22938030",
+      "22588877",
+      "22460905",
+      "22142828",
+      "21742554",
+      "19816403",
+      "18997900",
+      "18094723",
+      "17804712",
+      "17035009",
+      "17034125",
+      "16199517",
+      "12808457",
+      "12136088",
+      "11504634",
+      "9727977",
+      "8994831"
+    ],
+    "similar": [
+      "39873147",
+      "30726104",
+      "36763038",
+      "35918200",
+      "33854036",
+      "26830315",
+      "38822429",
+      "31262335",
+      "31159852",
+      "26125441",
+      "32681294",
+      "38968802",
+      "30536701",
+      "27196780",
+      "28482906",
+      "38447012",
+      "27374141",
+      "24362439",
+      "29487129",
+      "24713296",
+      "36463238",
+      "32341033",
+      "34875218",
+      "38763968",
+      "36994597",
+      "31595974",
+      "40083924",
+      "24657486",
+      "40118782",
+      "29082457",
+      "30408550",
+      "31243099",
+      "31594641",
+      "39406109",
+      "25277198",
+      "34161330",
+      "37801608",
+      "32906729",
+      "36253486",
+      "32553118",
+      "38959632",
+      "32901849",
+      "27649553",
+      "33122847",
+      "30901730",
+      "29984656",
+      "30579871",
+      "32611550",
+      "22391209",
+      "40210758",
+      "32709856",
+      "39947929",
+      "36539830",
+      "27562646",
+      "37717249",
+      "37882675",
+      "40301365",
+      "32429395",
+      "27819677",
+      "38697030",
+      "25490861",
+      "38769311",
+      "24102143",
+      "39189505",
+      "22131882",
+      "22592529",
+      "31478830",
+      "21435938",
+      "38365611",
+      "35028612",
+      "38898019",
+      "34140011",
+      "28208209",
+      "21571862",
+      "39488790",
+      "28558767",
+      "25596730",
+      "30478151",
+      "31219654",
+      "22914438",
+      "36984544",
+      "34004147",
+      "27889646",
+      "27209210",
+      "31856408",
+      "31285371",
+      "38853421",
+      "30423357",
+      "18571892",
+      "31689861",
+      "38670554",
+      "35929918",
+      "27663592",
+      "30454645",
+      "22978111",
+      "37318197",
+      "39181433",
+      "31903136",
+      "26267317",
+      "37551745"
+    ],
+    "review": [
+      "39873147",
+      "26830315",
+      "29487129",
+      "29082457",
+      "29984656",
+      "21435938",
+      "28208209",
+      "36984544"
+    ],
+    "pmc": [
+      "11962390"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/ovariancancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ovarian Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39873147/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39873147",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1602",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://aacrjournals.org/mct/article-lookup/doi/10.1158/1535-7163.MCT-24-0785",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

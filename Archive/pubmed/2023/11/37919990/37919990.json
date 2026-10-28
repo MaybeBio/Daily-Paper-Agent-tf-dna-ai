@@ -1,0 +1,229 @@
+{
+  "identity": {
+    "pmid": "37919990",
+    "doi": "10.3934/mbe.2023704",
+    "title": "GNet: An integrated context-aware neural framework for transcription factor binding signal at single nucleotide resolution prediction."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) are important factors that regulate gene expression. Revealing the mechanism affecting the binding specificity of TFs is the key to understanding gene regulation. Most of the previous studies focus on TF-DNA binding sites at the sequence level, and they seldom utilize the contextual features of DNA sequences. In this paper, we develop an integrated spatiotemporal context-aware neural network framework, named GNet, for predicting TF-DNA binding signal at single nucleotide resolution by achieving three tasks: single nucleotide resolution signal prediction, identification of binding regions at the sequence level, and TF-DNA binding motif prediction. GNet extracts implicit spatial contextual information with a gated highway neural mechanism, which captures large context multi-level patterns using linear shortcut connections, and the idea of it permeates the encoder and decoder parts of GNet. The improved dual external attention mechanism, which learns implicit relationships both within and among samples, and improves the performance of the model. Experimental results on 53 human TF ChIP-seq datasets and 6 chromatin accessibility ATAC-seq datasets shows that GNet outperforms the state-of-the-art methods in the three tasks, and the results of cross-species studies on 15 human and 18 mouse TF datasets of the corresponding TF families indicate that GNet also shows the best performance in cross-species prediction over the competitive methods.",
+    "keywords": [
+      "encoder-decoder architecture",
+      "external attention mechanism",
+      "gated highway neural network",
+      "transcription factor binding site"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "Mice",
+      "*Nucleotides/metabolism",
+      "Protein Binding",
+      "*Transcription Factors/genetics",
+      "Chromatin",
+      "DNA"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhuang, Jujuan",
+        "Feng, Kexin",
+        "Teng, Xinyang",
+        "Jia, Cangzhi"
+      ],
+      "short_names": [
+        "Zhuang J",
+        "Feng K",
+        "Teng X",
+        "Jia C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Science, Dalian Maritime University, Dalian, Liaoning 116026, China.",
+        "School of Science, Dalian Maritime University, Dalian, Liaoning 116026, China.",
+        "School of Science, Dalian Maritime University, Dalian, Liaoning 116026, China.",
+        "School of Science, Dalian Maritime University, Dalian, Liaoning 116026, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhuang, Jujuan",
+        "short_name": "Zhuang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, Dalian Maritime University, Dalian, Liaoning 116026, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Kexin",
+        "short_name": "Feng K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, Dalian Maritime University, Dalian, Liaoning 116026, China."
+        ]
+      },
+      {
+        "full_name": "Teng, Xinyang",
+        "short_name": "Teng X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, Dalian Maritime University, Dalian, Liaoning 116026, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Cangzhi",
+        "short_name": "Jia C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, Dalian Maritime University, Dalian, Liaoning 116026, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Mathematical biosciences and engineering : MBE"
+    ],
+    "journal_abbrev": [
+      "Math Biosci Eng"
+    ],
+    "pub_date": "2023 Jul 31",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/03 06:44",
+    "fetched_at": "2026-09-29 09:40:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37919990",
+      "34272562",
+      "35263332",
+      "39076052",
+      "28750606",
+      "25957350",
+      "32770026",
+      "26291518",
+      "22863112",
+      "31742324",
+      "28334916",
+      "19956545",
+      "33498086",
+      "23272209",
+      "36902216",
+      "22955984",
+      "25070602",
+      "26818008",
+      "31723409",
+      "34488759",
+      "20158869",
+      "36057196",
+      "37090616",
+      "32858223",
+      "35410161",
+      "37598467",
+      "23382538",
+      "34383745",
+      "20663846",
+      "27899623",
+      "31372637",
+      "35681170",
+      "36360189",
+      "37328639",
+      "34613923",
+      "22189060",
+      "33413545",
+      "30598100",
+      "23935523",
+      "28718849",
+      "24581441",
+      "25722376",
+      "24564277",
+      "24927817",
+      "31340985",
+      "38733561",
+      "26971251",
+      "33741685",
+      "32976105",
+      "35042722",
+      "33372147",
+      "34292930",
+      "21602262",
+      "27780826",
+      "34486522",
+      "38300850",
+      "30517703",
+      "31653198",
+      "34534646",
+      "30696696",
+      "24603674",
+      "22534400",
+      "33522898",
+      "34073774",
+      "28849563",
+      "35293310",
+      "27104615",
+      "30423062",
+      "34544361",
+      "36748992",
+      "28538187",
+      "35240993",
+      "27153645",
+      "30922998",
+      "28234893",
+      "23758851",
+      "26285121",
+      "30359306",
+      "22955990",
+      "28240320",
+      "28957321",
+      "31754708",
+      "36155619",
+      "25442502",
+      "27264535",
+      "31114856",
+      "24218641",
+      "31093693",
+      "38236675",
+      "38293094",
+      "34579793",
+      "39271116",
+      "33796819",
+      "38826350",
+      "33928244",
+      "38291225"
+    ],
+    "review": [
+      "37919990",
+      "31742324",
+      "36057196"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.aimspress.com/article/doi/10.3934/mbe.2023704",
+        "provider": "American Institute of Mathematical Sciences",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

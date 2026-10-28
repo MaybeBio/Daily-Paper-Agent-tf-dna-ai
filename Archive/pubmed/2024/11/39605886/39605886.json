@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "39605886",
+    "doi": "10.3389/fonc.2024.1442221",
+    "title": "Common molecular basis for MASH and hepatitis C revealed via systems biology approach."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Metabolic dysfunction-associated steatohepatitis (MASH) is characterized by liver inflammation and damage caused by a buildup of fat in the liver. Hepatitis C, caused by hepatitis C virus (HCV), is a disease that can lead to liver cirrhosis, liver cancer, and liver failure. MASH and hepatitis C are the common causes of liver cirrhosis and hepatocellular carcinoma. Several studies have shown that hepatic steatosis is also a common histological feature of liver in HCV infected patients. However, the common molecular basis for MASH and hepatitis C remains poorly understood. METHODS: Firstly, differentially expressed genes (DEGs) for MASH and hepatitis C were extracted from the GSE89632, GSE164760 and GSE14323 datasets. Subsequently, the common DEGs shared among these datasets were determined using the Venn diagram. Next, a protein-protein interaction (PPI) network was constructed based on the common DEGs and the hub genes were extracted. Then, gene ontology (GO) and pathway analysis of the common DEGs were performed. Furthermore, transcription factors (TFs) and miRNAs regulatory networks were constructed, and drug candidates were identified. After the MASH and hepatitis C cell model was treated with predicted drug, the expression levels of the signature genes were measured by qRT-PCR and ELISA. RESULTS: 866 common DEGs were identified in MASH and hepatitis C. The GO analysis showed that the most significantly enriched biological process of the DEGs was the positive regulation of cytokine production. 10 hub genes, including STAT1, CCL2, ITGAM, PTPRC, CXCL9, IL15, SELL, VCAM1, TLR4 and CCL5, were selected from the PPI network. By constructing the TF-gene and miRNA-gene network, most prominent TFs and miRNAs were screened out. Potential drugs screening shows that Budesonide and Dinoprostone may benefit patients, and cellular experiments showed that Budesonide effectively inhibited the expression of genes related to glycolipid metabolism, fibrosis, and inflammatory factors. CONCLUSION: We extracted 10 hub genes between MASH and hepatitis C, and performed a series of analyses on the genes. Molecular docking and in vitro studies have revealed that Budesonide can effectively suppress the progression of MASH and hepatitis C. This study can provide novel insights into the potential drug targets and biomarkers for MASH and hepatitis C.",
+    "keywords": [
+      "Budesonide",
+      "bioinformatics analysis",
+      "differentially expressed genes",
+      "hepatitis C",
+      "metabolic dysfunction-associated steatohepatitis (MASH)"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cheng, Yongwei",
+        "Song, Zihao",
+        "Liu, Ye",
+        "Xu, Xichao",
+        "Zhang, Dali",
+        "Zou, Yigui",
+        "Liu, Liang",
+        "Zeng, Yinzhen",
+        "Li, Wenwen",
+        "Bai, Daming",
+        "Dai, Dongling"
+      ],
+      "short_names": [
+        "Cheng Y",
+        "Song Z",
+        "Liu Y",
+        "Xu X",
+        "Zhang D",
+        "Zou Y",
+        "Liu L",
+        "Zeng Y",
+        "Li W",
+        "Bai D",
+        "Dai D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China.",
+        "GMU-GIBH Joint School of Life Sciences, The Guangdong-Hong Kong-Macao Joint Laboratory for Cell Fate Regulation and Diseases, Guangzhou Medical University, Guangzhou, China.",
+        "School of Laboratory Medicine, Hubei University of Chinese Medicine, Wuhan, China.",
+        "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China.",
+        "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China.",
+        "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China.",
+        "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China.",
+        "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China.",
+        "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China.",
+        "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China.",
+        "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cheng, Yongwei",
+        "short_name": "Cheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Song, Zihao",
+        "short_name": "Song Z",
+        "identifiers": [],
+        "affiliations": [
+          "GMU-GIBH Joint School of Life Sciences, The Guangdong-Hong Kong-Macao Joint Laboratory for Cell Fate Regulation and Diseases, Guangzhou Medical University, Guangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ye",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Laboratory Medicine, Hubei University of Chinese Medicine, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xichao",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Dali",
+        "short_name": "Zhang D",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Yigui",
+        "short_name": "Zou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Liang",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Yinzhen",
+        "short_name": "Zeng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wenwen",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Daming",
+        "short_name": "Bai D",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Dongling",
+        "short_name": "Dai D",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for Precision Diagnosis and Treatment of Pediatric Digestive System Diseases, Endoscopy Center and Gastroenterology Department, Shenzhen Children's Hospital, Shenzhen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in oncology"
+    ],
+    "journal_abbrev": [
+      "Front Oncol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/28 06:34",
+    "fetched_at": "2026-09-30 06:55:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39605886",
+      "38319987",
+      "36380355",
+      "40292075",
+      "38062833",
+      "36464255",
+      "34414947",
+      "38987612",
+      "33816621",
+      "35762549",
+      "39604470",
+      "39995143",
+      "37776011",
+      "34234459",
+      "35773742",
+      "34588861",
+      "35757392",
+      "34257537",
+      "38549107",
+      "33705733",
+      "34758532",
+      "39351239",
+      "31304055",
+      "33376723",
+      "38716300",
+      "34434654",
+      "37697333",
+      "39414652",
+      "39497821",
+      "37740761",
+      "37122694",
+      "36002253",
+      "36291136",
+      "30542696",
+      "34218797",
+      "38137330",
+      "40330909",
+      "31321566",
+      "36104591",
+      "30923657",
+      "34744455",
+      "31981472",
+      "36852684",
+      "33102593",
+      "32213192",
+      "35086375",
+      "37405258",
+      "32443377",
+      "37194229",
+      "35132271",
+      "32184169",
+      "37250717",
+      "39118438",
+      "30602391",
+      "39216827",
+      "29845250",
+      "34414965",
+      "36217480",
+      "31822116",
+      "33083497",
+      "35431924",
+      "36568397",
+      "29063236",
+      "34267539",
+      "35693550",
+      "39086489",
+      "39992204",
+      "37753698",
+      "36157062",
+      "35150335",
+      "27148389",
+      "31424263",
+      "38259479",
+      "40078458",
+      "39556279",
+      "30138363",
+      "37092838",
+      "33564675",
+      "34603487",
+      "34536521",
+      "33767726",
+      "34041361",
+      "30155678",
+      "36118873",
+      "35719390",
+      "32537007",
+      "34553293",
+      "31987036",
+      "39490745",
+      "37657050",
+      "38073349",
+      "36324504",
+      "38267482",
+      "32642095",
+      "37964320",
+      "39875572",
+      "36051101",
+      "36704339",
+      "38444712",
+      "39911278"
+    ],
+    "review": [
+      "39605886"
+    ],
+    "pmc": [
+      "11599856"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39605886/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STAT1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1172",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fonc.2024.1442221",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

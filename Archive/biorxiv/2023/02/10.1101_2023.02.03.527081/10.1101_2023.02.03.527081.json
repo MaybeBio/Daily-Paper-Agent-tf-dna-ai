@@ -1,0 +1,296 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.02.03.527081",
+  "title": "MICA: A multi-omics method to predict gene regulatory networks in early human embryos",
+  "doi": "10.1101/2023.02.03.527081",
+  "abstract": "Recent advances in single-cell-omics have been transformative to characterise cell types in challenging to study biological contexts. It is technically difficult to infer transcription factor-gene regulatory interactions from these datasets, especially in contexts with limited single-cell sample number such as the early human embryo. Here we systematically assessed the application of four different linear or non-linear gene regulatory network (GRN) prediction strategies to single-cell simulated and human embryo transcriptome datasets. We also compared how gene expression normalisation methods impact on regulatory network predictions, finding that TPM (transcripts per million reads) outperformed alternative methods. We identified more reproducible GRN inferences using a non-linear method based on mutual information (MI) applied to single-cell transcriptome datasets refined with chromatin accessibility (CA) (called MICA), compared to alternative network prediction methods tested. MICA captures complex non-monotonic dependencies and feedback loops. Using MICA, we generated the first GRN inferences in early human development. MICA predicted co-localisation of the AP-1 transcription factor subunit proto-oncogene JUND and the TFAP2C transcription factor AP-2ψ in human preimplantation embryos. These interactions were supported by previous findings in other developmental and stem cell contexts. Overall, our comparative analysis of gene regulatory network prediction methods defines a pipeline that can be applied to single-cell multi-omics datasets in especially challenging contexts to infer interactions between transcription factor expression and target gene regulation.",
+  "authors": [
+    "Alanis-Lobato G",
+    "Bartlett TE",
+    "Huang Q",
+    "Simon C",
+    "McCarthy A",
+    "Elder K",
+    "Snell P",
+    "Christie L",
+    "Niakan KK"
+  ],
+  "published_date": "2023-02-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.02.03.527081",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.02.03.527081.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR612431",
+    "raw_record": {
+      "id": "PPR612431",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR612431"
+        ]
+      },
+      "doi": "10.1101/2023.02.03.527081",
+      "title": "MICA: A multi-omics method to predict gene regulatory networks in early human embryos",
+      "authorString": "Alanis-Lobato G, Bartlett TE, Huang Q, Simon C, McCarthy A, Elder K, Snell P, Christie L, Niakan KK.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Alanis-Lobato G",
+            "lastName": "Alanis-Lobato",
+            "firstName": "Gregorio",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Human Embryo and Stem Cell Laboratory, The Francis Crick Institute, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bartlett TE",
+            "lastName": "Bartlett",
+            "firstName": "Thomas",
+            "initials": "TE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Statistical Science, University College, London WC1E 7HB, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Huang Q",
+            "lastName": "Huang",
+            "firstName": "Qiulin",
+            "initials": "Q",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Human Embryo and Stem Cell Laboratory, The Francis Crick Institute, London, UK"
+                },
+                {
+                  "affiliation": "The Centre for Trophoblast Research, Department of Physiology, Development and Neuroscience, University of Cambridge, Cambridge CB2 3EG, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Simon C",
+            "lastName": "Simon",
+            "firstName": "Claire",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9614-1403"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Human Embryo and Stem Cell Laboratory, The Francis Crick Institute, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McCarthy A",
+            "lastName": "McCarthy",
+            "firstName": "Afshan",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Human Embryo and Stem Cell Laboratory, The Francis Crick Institute, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Elder K",
+            "lastName": "Elder",
+            "firstName": "Kay",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bourn Hall Clinic, Bourn, Cambridge, CB23 2TN"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Snell P",
+            "lastName": "Snell",
+            "firstName": "Phil",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bourn Hall Clinic, Bourn, Cambridge, CB23 2TN"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Christie L",
+            "lastName": "Christie",
+            "firstName": "Leila",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bourn Hall Clinic, Bourn, Cambridge, CB23 2TN"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Niakan KK",
+            "lastName": "Niakan",
+            "firstName": "Kathy",
+            "initials": "KK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1646-4734"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Human Embryo and Stem Cell Laboratory, The Francis Crick Institute, London, UK"
+                },
+                {
+                  "affiliation": "The Centre for Trophoblast Research, Department of Physiology, Development and Neuroscience, University of Cambridge, Cambridge CB2 3EG, UK"
+                },
+                {
+                  "affiliation": "Wellcome Trust – Medical Research Council Stem Cell Institute, University of Cambridge, Jeffrey Cheah Biomedical Centre, Puddicombe Way, Cambridge CB2 0AW, UK"
+                },
+                {
+                  "affiliation": "Epigenetics Programme, Babraham Institute, Cambridge CB22 3AT, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9614-1403"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1646-4734"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Recent advances in single-cell-omics have been transformative to characterise cell types in challenging to study biological contexts. It is technically difficult to infer transcription factor-gene regulatory interactions from these datasets, especially in contexts with limited single-cell sample number such as the early human embryo. Here we systematically assessed the application of four different linear or non-linear gene regulatory network (GRN) prediction strategies to single-cell simulated and human embryo transcriptome datasets. We also compared how gene expression normalisation methods impact on regulatory network predictions, finding that TPM (transcripts per million reads) outperformed alternative methods. We identified more reproducible GRN inferences using a non-linear method based on mutual information (MI) applied to single-cell transcriptome datasets refined with chromatin accessibility (CA) (called MICA), compared to alternative network prediction methods tested. MICA captures complex non-monotonic dependencies and feedback loops. Using MICA, we generated the first GRN inferences in early human development. MICA predicted co-localisation of the AP-1 transcription factor subunit proto-oncogene JUND and the TFAP2C transcription factor AP-2ψ in human preimplantation embryos. These interactions were supported by previous findings in other developmental and stem cell contexts. Overall, our comparative analysis of gene regulatory network prediction methods defines a pipeline that can be applied to single-cell multi-omics datasets in especially challenging contexts to infer interactions between transcription factor expression and target gene regulation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "221856/Z/20/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/02/03/2023.02.03.527081.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.02.03.527081"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR612431"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR612431&type=FILE&fileName=EMS168245-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37879938",
+            "reference": "Life science alliance. 2024 Jan;7(1):e202302415",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS168245",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-02-07",
+      "firstPublicationDate": "2023-02-03",
+      "firstIndexDate": "2023-02-07",
+      "fullTextReceivedDate": "2023-03-15",
+      "hasEvaluations": "Y"
+    }
+  }
+}

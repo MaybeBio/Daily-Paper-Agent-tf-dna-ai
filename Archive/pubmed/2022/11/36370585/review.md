@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a random Fourier features-based sparse representation classifier (RFF-SRC) for identifying DNA-binding proteins (DBPs). The method maps features into a high-dimensional space via random Fourier features and uses an L(2,1)-matrix norm to obtain sparse solutions. The model is evaluated on several DBP benchmark datasets and 8 UCI datasets, with reported superior performance.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset specifications, baseline comparisons, statistical significance tests, implementation details, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible methodological contribution combining random Fourier features with sparse representation classification for a bioinformatics application. However, the evidence provided is insufficient to evaluate the validity of the core claims. No quantitative results, no comparison details, and no methodological specifics are visible. The scientific case is currently not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics working on protein function prediction, particularly those developing machine learning classifiers for biomolecular sequence or structure-based feature sets. The methodological combination of random Fourier features with sparse representation may also interest the broader machine learning community focused on kernel approximation and sparse classification.
+- **Major strengths** The problem is of practical relevance in genomics and molecular biology. The proposed combination of random Fourier features with sparse representation is a reasonable and potentially novel approach for nonlinear classification in high-dimensional biological data. The use of multiple benchmark datasets and additional UCI datasets suggests an intention to demonstrate generalizability.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "RFF-SRC achieves better performance in experimental results" without providing any quantitative comparison.
+  - **Evidence pointer** Abstract, results statement; location not provided
+  - **Concern** The central performance claim is presented without any numerical data, baseline names, or statistical measures. No accuracy, F1-score, AUC, or other metrics are reported. No information is given about which methods RFF-SRC is compared against.
+  - **Why it matters** A performance superiority claim is the primary contribution of the work. Without quantitative evidence, the claim is unfalsifiable and cannot be assessed for scientific validity.
+  - **Resolution test** Provide specific performance metrics for RFF-SRC and all compared baselines on each dataset, including standard deviations and statistical significance tests (e.g., paired t-test or Wilcoxon signed-rank test).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The abstract states that random Fourier features "randomly map the features into a high-dimensional space to solve nonlinear classification problems" and that "L(2,1)-matrix norm is introduced to get sparse solution of model."
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The methodological description is too brief to understand the actual implementation. Key details are missing, including how the random Fourier features are generated (which kernel is being approximated), how the sparse representation classifier is formulated, what the optimization problem looks like, and how the L(2,1)-norm is applied within the model.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific claims. Without sufficient methodological detail, other researchers cannot implement or validate the proposed method.
+  - **Resolution test** Provide a complete mathematical formulation of the optimization problem, the kernel being approximated, the feature mapping procedure, and the algorithm used to solve the sparse representation problem.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental rigor
+  - **Claim pointer** The abstract states that the model is "tested on several benchmark data sets of DBPs and 8 UCI data sets."
+  - **Evidence pointer** Abstract, experimental setup; location not provided
+  - **Concern** No details are given about the benchmark datasets, their sizes, class balance, feature types, or how train/test splits were performed. The choice of UCI datasets is also unexplained, and it is unclear whether these are appropriate for evaluating a DBP prediction method.
+  - **Why it matters** Dataset characteristics and evaluation protocols directly affect the interpretability and generalizability of reported results. Without this information, the experimental claims cannot be contextualized or compared with existing literature.
+  - **Resolution test** Describe each dataset (number of samples, features, class distribution), the cross-validation or holdout procedure, and justify the relevance of the UCI datasets to the DBP prediction task.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of motivation
+  - **Affected element** Introduction of the biological problem
+  - **Evidence pointer** Abstract, first sentence; location not provided
+  - **Issue** The opening sentence states that DNA-binding proteins "protect DNA from nuclease hydrolysis, inhibit the action of RNA polymerase, prevents replication and transcription from occurring simultaneously on a piece of DNA." This description is partially inaccurate and grammatically inconsistent. DNA-binding proteins have diverse functions, and the specific claims about nuclease protection and RNA polymerase inhibition are not universally applicable.
+  - **Required correction** Revise the biological background to accurately and concisely describe the functional diversity of DNA-binding proteins, and correct the grammatical agreement issues.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Language and grammar
+  - **Affected element** Abstract, sentence structure
+  - **Evidence pointer** Abstract, sentence "In recent years, a variety of machine learning-based methods that have been used on a large scale for large-scale screening of DBPs."
+  - **Issue** This sentence is grammatically incomplete and contains redundancy ("on a large scale" and "large-scale").
+  - **Required correction** Rewrite as a complete sentence, for example, "In recent years, a variety of machine learning-based methods have been widely used for large-scale screening of DBPs."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Abstract, results statement
+  - **Evidence pointer** Abstract, final sentence; location not provided
+  - **Issue** The statement "RFF-SRC achieves better performance in experimental results" is vague and does not specify against which methods or on which datasets the improvement is observed.
+  - **Required correction** Specify the comparison methods and report at least one quantitative metric in the abstract, or state that detailed results are presented in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and experimental protocol information means the core claims cannot be verified from the provided material.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The combination of random Fourier features with sparse representation classification appears potentially novel, but the abstract does not provide enough context to assess novelty relative to existing DBP prediction methods or sparse representation classifiers.
+  - **Scientific importance** The problem of accurate DBP prediction is relevant, but the abstract does not demonstrate that the proposed method offers a meaningful advance over existing approaches.
+  - **Interdisciplinary readership** The work sits at the intersection of machine learning and computational biology, which could attract readers from both communities. However, the abstract is too brief to convey the significance to either audience.
+  - **Technical soundness** Cannot be assessed from the abstract alone. The methodological description is insufficient to evaluate correctness or robustness.
+  - **Readability for nonspecialists** The abstract is generally readable but contains some grammatical issues and lacks sufficient context for readers unfamiliar with sparse representation classifiers or random Fourier features.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible idea but lacks the quantitative and methodological substance required to support the performance claims. A full manuscript with detailed methods, results, and comparisons would be necessary to evaluate the contribution.
+
+## Risk / unsupported claims
+- The claim that "RFF-SRC achieves better performance in experimental results" is unsupported by any quantitative data in the abstract.
+- The claim that random Fourier features "solve nonlinear classification problems" is presented as a general statement without specifying the kernel being approximated or the theoretical justification.
+- The biological description of DNA-binding proteins in the first sentence is partially inaccurate and not supported by the abstract.
+- The relevance and appropriateness of the 8 UCI datasets for evaluating a DBP prediction method cannot be assessed from the abstract.

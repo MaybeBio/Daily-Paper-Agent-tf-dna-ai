@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full-text methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors propose that celastrol induces ferroptosis in clear cell renal cell carcinoma (ccRCC) through a TEF-driven upregulation of ACOX2, linking peroxisomal lipid metabolism to tumor suppression, and position ACOX2 as both a mechanistic mediator and a prognostic biomarker
+- **Visible evidence base** Transcriptomics, bioinformatics, functional assays, clinical validation in 278 ccRCC tissues, TCGA datasets, ChIP-qPCR, luciferase reporter assays, cellular thermal shift, molecular docking, ubiquitination assays, and xenograft models, as summarized in the abstract
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analysis details, raw data, xenograft experimental design, clinical cohort composition, and any supplementary information; the abstract alone does not permit independent verification of the reported quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and potentially interesting mechanistic axis linking a phytochemical to ferroptosis in ccRCC via a transcription factor and a peroxisomal metabolic enzyme. The clinical and prognostic components add translational relevance. However, the abstract alone provides insufficient detail to assess the rigor of the experimental design, the robustness of the statistical analyses, or the specificity of the proposed mechanism. Several claims, particularly those involving quantitative values and causal dependencies, cannot be evaluated without access to the full manuscript.
+- **Who would be interested in the results, and why** Researchers in cancer metabolism, ferroptosis biology, and renal cell carcinoma therapeutics would find the proposed TEF-ACOX2 axis of interest. Investigators studying natural product mechanisms of action and those working on prognostic biomarkers in kidney cancer may also be engaged. The potential link between peroxisomal lipid metabolism and ferroptosis could attract a broader metabolism-focused audience.
+- **Major strengths** The study integrates multiple experimental approaches, including transcriptomics, functional assays, mechanistic biochemistry, and clinical validation. The identification of a specific transcription factor and a metabolic enzyme as mediators of celastrol action provides a testable and mechanistically grounded hypothesis. The inclusion of prognostic analyses in a sizable clinical cohort adds translational value.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that celastrol induces ferroptosis in ccRCC through TEF-driven ACOX2 upregulation is presented as the central conclusion
+  - **Evidence pointer** Abstract sections on Results and Conclusion; specific quantitative data location not provided
+  - **Concern** The abstract reports a causal chain from celastrol to TEF stabilization to ACOX2 transcriptional activation to ferroptosis, but the evidence for each link is only summarized. The ChIP-qPCR data show increased TEF occupancy, yet the functional necessity of this occupancy for ACOX2 expression and ferroptosis is not demonstrated in the abstract. The claim that ferroptosis is induced in an ACOX2-dependent manner in vivo is stated without presenting the relevant experimental controls or quantitative outcomes.
+  - **Why it matters** Without evidence that TEF knockdown or ACOX2 ablation abolishes celastrol-induced ferroptosis, the proposed axis remains correlative rather than causal. The central mechanistic claim cannot be established from the abstract alone.
+  - **Resolution test** Provide data from loss-of-function experiments for TEF and ACOX2 in celastrol-treated cells and xenografts, showing that ferroptosis markers and tumor growth suppression are abrogated. Include statistical comparisons and effect sizes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical and clinical validity
+  - **Claim pointer** ACOX2 is reported to have prognostic value for overall survival with AUC = 0.8019, HR = 0.169 (CI 0.064-0.440) in univariable and HR = 0.186 (CI 0.067-0.517) in multivariable analyses
+  - **Evidence pointer** Abstract Results section; clinical cohort and TCGA datasets location not provided
+  - **Concern** The abstract does not specify which dataset was used for the survival analysis, how the cutoff for high versus low ACOX2 expression was determined, or whether the multivariable model adjusted for established prognostic factors such as tumor stage, grade, and patient age. The confidence intervals are wide, and the number of events is not reported.
+  - **Why it matters** Prognostic claims require transparent reporting of cohort characteristics, variable selection, and model validation. Without these details, the clinical utility of ACOX2 as a biomarker cannot be assessed.
+  - **Resolution test** Provide a detailed description of the clinical cohort, the TCGA dataset used, the cutoff determination method, the covariates in the multivariable model, and the number of events. Include calibration or internal validation if applicable.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic specificity
+  - **Claim pointer** Celastrol stabilizes TEF by inhibiting its ubiquitination and proteasomal degradation
+  - **Evidence pointer** Abstract Methods and Results sections; ubiquitination assay details location not provided
+  - **Concern** The abstract states that celastrol inhibits TEF ubiquitination, but it does not indicate whether this effect is direct or indirect, whether other transcription factors are similarly affected, or whether the concentrations of celastrol used are physiologically relevant. The specificity of this mechanism for TEF over other proteins is not addressed.
+  - **Why it matters** If celastrol broadly inhibits ubiquitination or proteasomal activity, the proposed TEF-specific mechanism would be weakened. The abstract does not rule out off-target effects.
+  - **Resolution test** Include data on the selectivity of celastrol for TEF ubiquitination relative to other substrates, dose-response experiments, and a discussion of the concentrations used relative to achievable plasma levels.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting clarity
+  - **Affected element** ChIP-qPCR quantification
+  - **Evidence pointer** Abstract Results section
+  - **Issue** The abstract reports TEF/Input and TEF/IgG ratios with standard deviations but does not state the number of biological replicates or the statistical test used.
+  - **Required correction** Specify the number of replicates and the statistical method in the abstract or refer to the corresponding figure legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Use of the term approximately 1.70-fold enhancement
+  - **Evidence pointer** Abstract Results section
+  - **Issue** The fold change is derived from ratios of ratios, and the abstract does not clarify whether this is a mean of fold changes or a fold change of means.
+  - **Required correction** Clarify the calculation method or present the underlying data more transparently.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clinical relevance framing
+  - **Affected element** Statement that celastrol shows no systemic toxicity in xenograft models
+  - **Evidence pointer** Abstract Results section
+  - **Issue** The abstract does not specify which toxicity parameters were assessed or over what time frame.
+  - **Required correction** Briefly list the toxicity endpoints measured or refer to the relevant figure.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The causal role of TEF and ACOX2 in celastrol-induced ferroptosis must be demonstrated through loss-of-function experiments, and the prognostic claim requires transparent cohort and model reporting. R1-M3, while not blocking, needs clarification to support mechanistic specificity.
+- **Assessment against Nature-style criteria** Originality is moderate; the link between a phytochemical, a transcription factor, and a peroxisomal enzyme in ferroptosis is not entirely novel but offers a specific and testable axis. Scientific importance is potentially high for ccRCC, where metabolic vulnerabilities are of interest, but the abstract does not yet establish a broad conceptual advance. Interdisciplinary readership is plausible, spanning cancer biology, metabolism, and pharmacology. Technical soundness cannot be fully assessed from the abstract; the reported quantitative values lack methodological context. Readability for nonspecialists is acceptable, though the abstract assumes familiarity with ferroptosis and transcriptional regulation.
+- **Recommendation posture** Currently not established from the provided evidence. The mechanistic and prognostic claims require additional experimental and statistical detail. A revised manuscript with full methods and loss-of-function data could be supportive.
+
+## Risk / unsupported claims
+- The causal claim that celastrol induces ferroptosis specifically through TEF-driven ACOX2 upregulation is unsupported without loss-of-function data.
+- The prognostic value of ACOX2 is not assessable without cohort details, cutoff determination, and multivariable model specification.
+- The in vivo claim of ACOX2-dependent ferroptosis and absence of systemic toxicity is not verifiable from the abstract.
+- The specificity of celastrol for TEF ubiquitination over other substrates is not established.
+- The clinical relevance of the findings to ccRCC patients is asserted but not supported by the abstract alone.

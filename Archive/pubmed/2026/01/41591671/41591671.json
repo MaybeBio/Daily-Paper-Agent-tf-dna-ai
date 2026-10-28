@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "41591671",
+    "doi": "10.1007/s12672-026-04515-1",
+    "title": "Exploring the key molecular mechanisms and immune microenvironment of oxidative stress-related pathways in pancreatic neuroendocrine tumor combining scRNA-seq and bulk RNA."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Pancreatic neuroendocrine tumor (pNET) is a heterogeneous tumor originating from pancreatic endocrine cells. Emerging evidence suggests that oxidative stress plays a crucial role in pNET pathogenesis, yet the precise molecular mechanisms and their interplay with the tumor microenvironment remain unclear. This study aims to systematically elucidate how oxidative stress-related pathways drive pNET progression through an integrated multi-omics approach. METHODS: We designed a three-tier analytical strategy to address interconnected scientific questions. First, to identify which oxidative stress-related genes are dysregulated in pNET, we performed differential expression analysis and weighted gene co-expression network analysis (WGCNA) on the GSE73338 dataset (63 pNET samples, 5 controls), intersecting the. results with oxidative stress gene sets to obtain 71 candidate genes. Second, to understand the functional implications of these genes, we conducted GO/KEGG enrichment analysis and constructed protein-protein interaction (PPI) networks, from which we identified BCL2L1 and PHGDH as key hub genes using three independent algorithms. We then assessed their diagnostic value through ROC analysis and built a prognostic nomogram model. Third, to explore how these key genes influence the tumor microenvironment, we performed immune infiltration analysis using CIBERSORTx. Fourth, to reveal upstream regulatory mechanisms, we constructed ceRNA networks and predicted transcription factors. Fifth, to identify potential therapeutic interventions, we conducted drug prediction and molecular docking analyses. Finally, to validate our findings at cellular resolution and understand cellular heterogeneity, we analyzed single-cell RNA sequencing data from GSE256136 (20 samples), identifying cell types, quantifying cell-cell communications, and confirming key gene expression patterns across different cell populations. RESULTS: Our systematic analysis revealed that oxidative stress-related genes in pNET were significantly enriched in the PI3K-Akt signaling pathway, cysteine and methionine metabolism, and HIF-1 signaling pathway. BCL2L1 and PHGDH emerged as central regulators with excellent diagnostic performance (AUC > 0.9). Immune infiltration analysis demonstrated significant alterations in activated dendritic cells, memory B cells, and resting NK cells, which correlated strongly with BCL2L1 and PHGDH expression, suggesting these genes link oxidative stress to immune dysfunction. The ceRNA network centered on KCNQ1OT1 and hsa-miR-15a-5p revealed multi-layered transcriptional and post-transcriptional regulation. Drug prediction identified sertindole and cabozantinib as promising therapeutic candidates. Single-cell analysis identified 11 cell types and confirmed that endocrine cells are the primary site of BCL2L1 and PHGDH dysregulation, with extensive crosstalk between endocrine cells and T cells potentially mediating immune evasion. CONCLUSION: Through integrated multi-omics analysis, we established that oxidative stress pathways may drive pNET progression through a coordinated mechanism involving metabolic reprogramming (via BCL2L1 and PHGDH downregulation), immune microenvironment remodeling (through altered dendritic cell and NK cell function), and complex regulatory networks. BCL2L1 and PHGDH represent potential diagnostic biomarkers and candidate therapeutic targets that require experimental validation, providing new directions for precision medicine in pNET.",
+    "keywords": [
+      "CeRNA network",
+      "Immune microenvironment",
+      "Oxidative stress",
+      "Pancreatic neuroendocrine tumor",
+      "Single-cell RNA sequencing"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cai, Zhong",
+        "Li, Jiangtao",
+        "Li, Ting",
+        "Peng, Qiuxia"
+      ],
+      "short_names": [
+        "Cai Z",
+        "Li J",
+        "Li T",
+        "Peng Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Oncology, First People's Hospital of Shuangliu District, Chengdu, Sichuan, China. 13548172852@163.com.",
+        "Department of Oncology, First People's Hospital of Shuangliu District, Chengdu, Sichuan, China.",
+        "Department of Oncology, First People's Hospital of Shuangliu District, Chengdu, Sichuan, China.",
+        "Department of Oncology, First People's Hospital of Shuangliu District, Chengdu, Sichuan, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cai, Zhong",
+        "short_name": "Cai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, First People's Hospital of Shuangliu District, Chengdu, Sichuan, China. 13548172852@163.com."
+        ]
+      },
+      {
+        "full_name": "Li, Jiangtao",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, First People's Hospital of Shuangliu District, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ting",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, First People's Hospital of Shuangliu District, Chengdu, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Qiuxia",
+        "short_name": "Peng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, First People's Hospital of Shuangliu District, Chengdu, Sichuan, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Discover oncology"
+    ],
+    "journal_abbrev": [
+      "Discov Oncol"
+    ],
+    "pub_date": "2026 Jan 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/27 12:59",
+    "fetched_at": "2026-10-01 12:27:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39768219",
+      "39684663",
+      "39282913",
+      "39201533",
+      "38971364",
+      "38580603",
+      "38542288",
+      "38474405",
+      "38361755",
+      "38279330",
+      "38203391",
+      "38001926",
+      "37986400",
+      "37948336",
+      "37771445",
+      "37659467",
+      "37573621",
+      "37511611",
+      "37400644",
+      "37341156",
+      "37046665",
+      "37020128",
+      "36951525",
+      "36860243",
+      "36670887",
+      "36313628",
+      "36301668",
+      "36301074",
+      "36028148",
+      "35794609",
+      "35775732",
+      "35644245",
+      "35586497",
+      "35585241",
+      "35578964",
+      "35453444",
+      "35056330",
+      "34885079",
+      "34756889",
+      "34671197",
+      "34023170",
+      "33903881",
+      "33511334",
+      "33223534",
+      "33119876",
+      "32922037",
+      "32590336",
+      "32424151",
+      "32377169",
+      "32350913",
+      "32209898",
+      "31849486",
+      "31306159",
+      "30069760",
+      "29629846",
+      "28776382",
+      "28286866"
+    ],
+    "similar": [
+      "41591671",
+      "42123445",
+      "42391245",
+      "41436831",
+      "41371106",
+      "40764361",
+      "42565562",
+      "41601671",
+      "41716413",
+      "42471019",
+      "41006377",
+      "42265520",
+      "42292364",
+      "40711603",
+      "41388523",
+      "40151199",
+      "42421348",
+      "42317364",
+      "42227003",
+      "42233387",
+      "41847139",
+      "41350704",
+      "42295138",
+      "40967560",
+      "41792142",
+      "41822387",
+      "42107160",
+      "42309401",
+      "42003657",
+      "41052072",
+      "42486346",
+      "41415264",
+      "42530267",
+      "41872824",
+      "41200169",
+      "41467951",
+      "42292668",
+      "41958675",
+      "42120472",
+      "42249833",
+      "41703488",
+      "42263482",
+      "41601623",
+      "42024670",
+      "40606658",
+      "41488645",
+      "41504052",
+      "41293954",
+      "42236612",
+      "41326474",
+      "41760846",
+      "42059276",
+      "42475371",
+      "41442003",
+      "41044520",
+      "41918402",
+      "42180604",
+      "41358199",
+      "41049291",
+      "41840566",
+      "39893187",
+      "42338981",
+      "41288681",
+      "42580240",
+      "41191606",
+      "41847341",
+      "39541897",
+      "39896800",
+      "40682067",
+      "42074514",
+      "38384969",
+      "42516950",
+      "42092981",
+      "41342434",
+      "42244292",
+      "42317342",
+      "41895505",
+      "41368255",
+      "41836445",
+      "37063851",
+      "40055592",
+      "42195052",
+      "42303913",
+      "41430351",
+      "39713769",
+      "42223712",
+      "39968099",
+      "42568110",
+      "41221285",
+      "37033969",
+      "42249649",
+      "41733593",
+      "40665394",
+      "42348043",
+      "39874886",
+      "41208987",
+      "42051521",
+      "41107929",
+      "42591770",
+      "39840076"
+    ],
+    "review": [
+      "41591671"
+    ],
+    "pmc": [
+      "12917042"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41591671/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BCL2L1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-109",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

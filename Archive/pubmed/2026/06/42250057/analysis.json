@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42250057",
+  "title": "A simple morphometric algorithm based on nuclear atypia features of invasive breast carcinoma: relationship with nuclear grade, Ki-67 level, and hormone receptor status.",
+  "authors": "Tsuru, Tomohiro; Watanabe, Takanori; Kouzu, Keita; Yamagishi, Youji; Einama, Takahiro; Yamasaki, Tamio; Tsujimoto, Hironori; Kishi, Yoji; Ueno, Hideki; Tsuda, Hitoshi",
+  "journal": "Breast cancer (Tokyo, Japan)",
+  "published_date": "2026-06-06",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用计算机视觉算法分析乳腺癌细胞核异型性形态特征，预测核分级和生物标志物，不涉及蛋白质-DNA互作或TF-DNA结合建模，与本课题无关。",
+  "abstract": "Background With the widespread availability of whole-slide imaging, many studies have utilized digital images of hematoxylin and eosin (H&E)-stained breast cancer tissues and applied convolutional neural networks (CNNs) for pathological diagnosis. However, CNN-based diagnosis is largely a black box and may be limited in quantitative morphological research. In this study, we developed a simple algorithm for morphometric analysis of three nuclear atypia features on H&E-stained whole-slide images to predict nuclear grade, hormone receptor status, and Ki-67 levels in breast cancer.Materials and Methods Using 43,183 H&E-stained nuclear images larger than 20 microm(2) from 131 invasive ductal breast carcinomas, we calculated the following features of nuclear atypia using a computer vision algorithm: anisonucleosis (variation in nuclear size), inhomogeneous chromatin density, and the average size of prominent nucleoli. Anisonucleosis was quantified as the percentage of nuclei larger than 47 mum(2). Inhomogeneous chromatin was defined as the percentage of blue-saturated structures with 0.92-fold luminance or less than the average nuclear luminance. Prominent nucleoli were identified based on blue-saturated structures with 0.87-fold luminance or less, circularity greater than 0.65, and size greater than 1.15 mum(2). Using these values of nuclear atypia features, the thresholds that were the most associated with grade and biomarkers were calculated using receiver operating characteristic curves by Youden index.Results The morphometric algorithm using these thresholds predicted nuclear grade (grade 1 and 3), Ki-67 index >== 20%, and hormone receptor negative status with sensitivities of 52.1 to 100% and specificities from 34.3 to 85.3%. Two multivariable logistic regression models combining these three thresholds predicted nuclear grade, Ki-67, and hormone receptor negative with much better accuracy, sensitivities ranging from 57.1 to 91.3%, specificities from 50.9 to 82.2%, and area under curve of 0.70-0.82. The algorithm was applied to an independent set of 42 tumors.Conclusion The present morphological algorithm of nuclear atypia might provide new insights into the computational grading of invasive breast cancer.",
+  "abstract_zh": "背景 随着全切片成像的广泛应用，许多研究利用苏木精-伊红（H&E）染色的乳腺癌组织数字图像，并应用卷积神经网络（CNNs）进行病理诊断。然而，基于CNN的诊断在很大程度上是一个黑箱，可能在定量形态学研究中存在局限。在本研究中，我们开发了一种简单算法，用于对H&E染色全切片图像上的三个核异型性特征进行形态计量分析，以预测乳腺癌的核分级、激素受体状态和Ki-67水平。\n\n材料与方法 利用来自131例浸润性导管乳腺癌的43,183张面积大于20微米平方的H&E染色核图像，我们通过计算机视觉算法计算了以下核异型性特征：核大小不均（anisokaryosis）、染色质密度不均以及显著核仁的平均大小。核大小不均量化为面积大于47微米平方的细胞核百分比。染色质不均定义为蓝色饱和结构中亮度为平均核亮度0.92倍或更低的百分比。显著核仁基于蓝色饱和结构识别，其亮度为平均核亮度的0.87倍或更低、圆形度大于0.65且大小大于1.15微米平方。利用这些核异型性特征值，通过约登指数（Youden index）计算与分级和生物标志物最相关的阈值，使用受试者工作特征曲线。\n\n结果 使用这些阈值的形态计量算法预测核分级（1级和3级）、Ki-67指数≥20%以及激素受体阴性状态，敏感性范围为52.1%至100%，特异性范围为34.3%至85.3%。两个结合这三个阈值的多变量逻辑回归模型预测核分级、Ki-67和激素受体阴性的准确性显著提高，敏感性范围为57.1%至91.3%，特异性范围为50.9%至82.2%，曲线下面积为0.70-0.82。该算法应用于一个独立的42个肿瘤数据集。\n\n结论 本核异型性形态学算法可能为浸润性乳腺癌的计算分级提供新的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42250057/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42250057/",
+  "paper_page_path": "papers/pubmed/42250057/index.html"
+}

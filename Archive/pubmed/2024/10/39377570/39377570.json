@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "39377570",
+    "doi": "10.17219/acem/188425",
+    "title": "An analysis of the clinical significance of the TKI-resistant gene ZNF687 for hepatocellular carcinoma patients."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Novel treatments such as monotherapy and combined immunotherapy significantly extend overall survival (OS) for hepatocellular carcinoma (HCC) patients, but HCC is susceptible to treatment resistance during long-term therapy. The resistance mechanism to targeted drugs in HCC remains ambiguous, making research on HCC drug resistance targets crucial for the development of precision medicine. OBJECTIVES: To investigate the transcriptional features, biological functions and potential clinical value of the tyrosine kinase inhibitor (TKI)-resistant gene ZNF687 in HCC. MATERIAL AND METHODS: The TKI-resistant genes of HCC were identified using clustered regularly interspaced short palindromic repeats (CRISPR) in vitro screening. Then, the dependence of HCC cell lines on ZNF687 was investigated in silico. We collected global mRNA datasets of HCC tissue, integrated the mRNA expression characteristics of ZNF687 in HCC and explored the impact of ZNF687 on HCC patient prognoses using the Kaplan-Meier method (in silico). The Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways analyses were then conducted, and a connectivity map and molecular docking technology were applied to find the underlying agent opposing ZNF687. RESULTS: In vitro, the guide RNA corresponding to ZNF687 was weakly detected in HCC cells, and ZNF687 deficiency was found to inhibit growth in HCC cell lines. ZNF687 mRNA was overexpressed and had a high discriminatory ability for HCC in 2,975 HCC samples, contrasting with 2,340 non-HCC samples. Moreover, an excessive ZNF687 transcript level was related to a worse overall survival (OS) prognosis. Histone modification, spliceosome, transcription coregulator activity, and nucleocytoplasmic transport were the most significant pathways for ZNF687 differential-related gene enrichment. Chaetocin was found to be a candidate compound and presented a strong affinity to ZNF687. CONCLUSIONS: ZNF687 represents a TKI-resistant and growth-dependent gene for HCC, the overexpression of which indicates poor OS for HCC patients. Additionally, ZNF687 is expected to be a druggable target for overcoming TKI resistance, and chaetocin may be a candidate therapeutic compound for ZNF687.",
+    "keywords": [
+      "ZNF687",
+      "hepatocellular carcinoma",
+      "mRNA",
+      "resistance",
+      "tyrosine kinase inhibitor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Hepatocellular/genetics/drug therapy/pathology/mortality",
+      "*Liver Neoplasms/genetics/drug therapy/pathology/mortality",
+      "*Drug Resistance, Neoplasm/genetics",
+      "*Protein Kinase Inhibitors/therapeutic use/pharmacology",
+      "Cell Line, Tumor",
+      "Gene Expression Regulation, Neoplastic",
+      "*Trans-Activators/genetics/metabolism",
+      "Molecular Docking Simulation",
+      "Prognosis",
+      "Clinical Relevance"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Guan-Lan",
+        "Li, Jian-Di",
+        "He, Ji-Feng",
+        "Wu, Kun-Jun",
+        "Mo, Ying-Yu",
+        "Zhong, Song-Yang",
+        "Wang, Xuan-Fei",
+        "Wu, Fei-Fei",
+        "Qin, Yi-Si",
+        "Zhao, Hong",
+        "Huang, Zhi-Guang",
+        "Chen, Gang",
+        "He, Rong-Quan"
+      ],
+      "short_names": [
+        "Zhang GL",
+        "Li JD",
+        "He JF",
+        "Wu KJ",
+        "Mo YY",
+        "Zhong SY",
+        "Wang XF",
+        "Wu FF",
+        "Qin YS",
+        "Zhao H",
+        "Huang ZG",
+        "Chen G",
+        "He RQ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Guangxi Key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+        "Guangxi Key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Guan-Lan",
+        "short_name": "Zhang GL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jian-Di",
+        "short_name": "Li JD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "He, Ji-Feng",
+        "short_name": "He JF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Kun-Jun",
+        "short_name": "Wu KJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Mo, Ying-Yu",
+        "short_name": "Mo YY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Song-Yang",
+        "short_name": "Zhong SY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xuan-Fei",
+        "short_name": "Wang XF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Fei-Fei",
+        "short_name": "Wu FF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Yi-Si",
+        "short_name": "Qin YS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Hong",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zhi-Guang",
+        "short_name": "Huang ZG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Gang",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+          "Guangxi Key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "He, Rong-Quan",
+        "short_name": "He RQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, The First Affiliated Hospital of Guangxi Medical University, Nanning, China.",
+          "Guangxi Key Laboratory of Enhanced Recovery after Surgery for Gastrointestinal Cancer, The First Affiliated Hospital of Guangxi Medical University, Nanning, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advances in clinical and experimental medicine : official organ Wroclaw Medical University"
+    ],
+    "journal_abbrev": [
+      "Adv Clin Exp Med"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/08 12:24",
+    "fetched_at": "2026-09-30 04:06:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39377570",
+      "40162104",
+      "33288659",
+      "39697424",
+      "40362400",
+      "39183055",
+      "34426790",
+      "37779404",
+      "34072570",
+      "33962073",
+      "39544939",
+      "40336047",
+      "34737677",
+      "39023830",
+      "34612781",
+      "32312520",
+      "38769286",
+      "30594557",
+      "39832650",
+      "34112092",
+      "39653061",
+      "38952090",
+      "36583742",
+      "40057142",
+      "30981107",
+      "32171747",
+      "30946555",
+      "26172295",
+      "35147243",
+      "33148422",
+      "29369785",
+      "32169577",
+      "32390596",
+      "27091611",
+      "39215210",
+      "34983546",
+      "38310567",
+      "30468662",
+      "39709141",
+      "38582885",
+      "22815774",
+      "34784846",
+      "36936971",
+      "33456356",
+      "26123838",
+      "33234725",
+      "30685691",
+      "27921263",
+      "28821282",
+      "34257537",
+      "33988674",
+      "27729273",
+      "32559715",
+      "32547318",
+      "39607545",
+      "35065633",
+      "35362393",
+      "32275969",
+      "39496939",
+      "29467456",
+      "27183310",
+      "32312832",
+      "32064636",
+      "31188160",
+      "38017425",
+      "26327240",
+      "38683442",
+      "39473957",
+      "39718737",
+      "24393405",
+      "34530087",
+      "39735272",
+      "35987690",
+      "32371296",
+      "36919193",
+      "31189746",
+      "36045537",
+      "26099525",
+      "37844429",
+      "32554246",
+      "29506567",
+      "30021196",
+      "31698564",
+      "34278494",
+      "34384755",
+      "33499874",
+      "26821084",
+      "31438961",
+      "35864956",
+      "39891115",
+      "29169374",
+      "26790028",
+      "36275751",
+      "31072375",
+      "32980960",
+      "31196136",
+      "32716348",
+      "38470522",
+      "30092571",
+      "36037300"
+    ],
+    "review": [
+      "39377570",
+      "39832650",
+      "30468662",
+      "35362393"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/livercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Liver Cancer"
+      },
+      {
+        "url": "https://advances.umw.edu.pl/pdf/2025/34/5/787.pdf",
+        "provider": "Wroclaw Medical University",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

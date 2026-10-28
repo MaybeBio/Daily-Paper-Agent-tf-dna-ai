@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors compiled 1169 mutations in 256 protein-DNA complexes from ProNAB, analyzed sequence, structural, and network features, identified key predictive features, developed category-specific machine learning models, and report cross-validated and blind test performance that outperforms other methods. A web server is provided.
+- **Visible evidence base** Abstract text only; no figures, tables, or method details provided
+- **Missing materials affecting confidence** Full methods, feature definitions, model architecture, hyperparameters, cross-validation protocol, blind test composition, comparison method details, statistical significance tests, and web server implementation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful contribution to the prediction of binding affinity changes in protein-DNA complexes, a topic of practical relevance. The reported performance metrics are encouraging, but the abstract alone does not permit verification of the methodological rigor, the validity of the comparison, or the generalizability of the claims. Several key details are absent, and the claim of outperforming other methods is not substantiated without a description of the benchmark and statistical testing.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-DNA interactions, mutation effect prediction, and machine learning applications in structural biology. Experimentalists studying transcriptional regulation or designing protein-DNA binding experiments may also find the web server useful for prioritizing mutations.
+- **Major strengths** The dataset size (1169 mutations) is substantial and likely to be of interest to the community. The focus on category-specific models based on DNA strand and protein functional class is a thoughtful approach that may improve predictive performance. The provision of a web server increases the practical utility of the work.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method achieved an average correlation of 0.69 and MAE of 0.73 kcal/mol in 10-fold cross-validation, and a correlation of 0.65 and MAE of 0.60 kcal/mol on a blind test of 100 mutations, outperforming other methods.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports performance metrics but provides no information on the variance of these metrics across the different complex categories, the number of models trained, or the statistical significance of the difference between the proposed method and the comparators. The claim of "outperforming other methods" is made without specifying which methods were compared, under what conditions, or whether the comparison was fair (e.g., same training and test splits, same feature sets).
+  - **Why it matters** Without this information, the reader cannot assess whether the reported performance is robust or whether the improvement over existing methods is meaningful. Overfitting to the specific dataset or favorable but non-representative test splits could inflate the reported metrics.
+  - **Resolution test** Provide a detailed description of the cross-validation protocol, including the number of folds, stratification criteria, and variance across folds. Specify the comparator methods, their versions, and the exact evaluation protocol used for the blind test. Report confidence intervals or p-values for the performance differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors compiled 1169 mutations in 256 protein-DNA complexes from the ProNAB database and analyzed sequence, structural, and network-based features.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe the feature set in sufficient detail, nor does it explain how the features were computed, normalized, or selected. The criteria for including mutations in the dataset (e.g., filtering for single amino acid substitutions, removal of redundant entries) are not stated. The classification of complexes by DNA strand and protein functional class is mentioned but the definitions of these categories are not provided.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without a clear description of the data curation and feature engineering, other researchers cannot replicate the work or apply the method to new data. Ambiguity in category definitions could also affect the generalizability of the models.
+  - **Resolution test** Provide a complete list of features with definitions and sources, a flowchart of the data curation process, and explicit criteria for the classification of complexes. Make the dataset and feature matrices publicly available or describe how they can be obtained.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The method could predict DeltaDeltaG with a correlation of 0.65 and an MAE of 0.60 kcal/mol on a blind test of 100 mutations.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The blind test set of 100 mutations is relatively small, and the abstract does not state whether these mutations were derived from complexes distinct from those in the training set, whether they span the same range of DeltaDeltaG values, or whether they include cases with extreme or neutral effects. The performance on this test set may not be representative of real-world applications where the distribution of mutations could differ.
+  - **Why it matters** A small and potentially non-representative test set can lead to overoptimistic estimates of performance. The utility of the method for large-scale analysis, as claimed in the abstract, depends on its ability to generalize beyond the specific test conditions.
+  - **Resolution test** Describe the composition of the blind test set, including the number of unique complexes, the range of DeltaDeltaG values, and the overlap (if any) with the training set. If possible, validate the method on an independent external dataset from a different source.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "in a challenging problem" contains a grammatical error; it should be "is a challenging problem."
+  - **Required correction** Revise the sentence to correct the grammar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Web server description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that a web server is available but does not specify the input format, output fields, or any usage limitations (e.g., number of mutations per request, supported organisms).
+  - **Required correction** Add a brief description of the web server's functionality and input/output specifications, or refer to a methods section where these details are provided.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract reports correlation and MAE but does not report other relevant metrics such as root mean square error (RMSE) or the coefficient of determination (R²), which are commonly used in the field.
+  - **Required correction** Consider reporting additional metrics to facilitate comparison with existing methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of methodological detail and the unsubstantiated comparison claim prevent the case from being established from the provided evidence.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The approach of category-specific models for protein-DNA complexes is a reasonable extension of existing work, but the abstract does not clearly differentiate it from prior studies in terms of novelty. The feature analysis is not described in enough detail to judge whether new insights are provided.
+  - **Scientific importance** The problem of predicting binding affinity changes upon mutation in protein-DNA complexes is of practical importance, and a reliable method would be valuable. However, the abstract does not demonstrate that the method offers a substantial advance over the state of the art.
+  - **Interdisciplinary readership** The topic is relevant to computational biology, structural biology, and molecular biology. The abstract is written in a way that is accessible to a broad audience, but the lack of methodological detail limits its usefulness to specialists.
+  - **Technical soundness** The reported metrics are promising, but the absence of details on data curation, feature engineering, model training, and statistical testing means that technical soundness cannot be fully assessed from the abstract alone.
+  - **Readability for nonspecialists** The abstract is generally clear and concise, with the exception of the grammatical error noted above. The use of terms like "DeltaDeltaG" and "MAE" is standard in the field and should be understandable to the target audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a potentially useful contribution, but the lack of methodological detail and the unsubstantiated comparison claim require substantial revision and additional information before the case can be evaluated. I would be supportive if the technical concerns are resolved with a full manuscript that provides the necessary details.
+
+## Risk / unsupported claims
+- The claim that the method "outperforming other methods" is unsupported without specification of comparators and statistical testing.
+- The claim that the method would be "a valuable resource to understand the binding affinity of protein-DNA complexes, large scale analysis and design complexes with desired affinities" is speculative and not supported by the evidence presented.
+- The generalizability of the method to mutations beyond the compiled dataset is not assessable from the abstract.

@@ -1,0 +1,887 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.04.13.718289",
+  "title": "Small Molecule Regulation of CLOCK:BMAL1 DNA Binding Activity",
+  "doi": "10.64898/2026.04.13.718289",
+  "abstract": "CLOCK:BMAL1 is a bHLH-PAS transcription factor complex that utilizes its bHLH (basic helix-loop-helix) domains to bind E-box motifs in DNA and tandem PAS (PER-ARNT-SIM) domains to heterodimerize and interact with regulatory proteins to generate circadian rhythms. PAS domains are evolutionarily conserved modules that frequently bind small molecule ligands within buried cavities to perform sensory and signal transduction functions. CLOCK and BMAL1 PAS domains have cavities that could be leveraged to regulate the transcription factor, and consequently, the circadian clock. Using NMR spectroscopy, we identified small molecules that bind within a cavity inside the PAS-A domain of CLOCK and its paralog NPAS2, which sits at an important flexible junction in the structured core of the heterodimer. We identified a gatekeeping mutant in the core of CLOCK PAS-A that significantly decreased ligand binding affinity. High-pressure NMR studies showed that ligand binding or the gatekeeping mutant significantly stabilized the domain. Finally, we showed that ligands induced dose-dependent displacement of CLOCK:BMAL1 from DNA in vitro . Together, these data demonstrate that small molecules can regulate DNA binding by the circadian transcription factor CLOCK:BMAL1 through occupancy of a PAS domain cavity.",
+  "authors": [
+    "Diksha Sharma",
+    "Soumendu Boral",
+    "Ethen West",
+    "McClain Kressman",
+    "Irene Franco",
+    "Sarvind Tripathi",
+    "Hsiau-Wei Lee",
+    "Carlos A. Amezcua",
+    "Denize C. Favaro",
+    "Kevin H. Gardner",
+    "Carrie L. Partch"
+  ],
+  "published_date": "2026-04-14",
+  "updated_date": "2026-04-15T04:30:17Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.04.13.718289",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.13.718289.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T13:18:54Z",
+        "timestamp": 1785417534275,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            14
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 74,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                14
+              ]
+            ],
+            "date-time": "2026-04-14T00:00:00Z",
+            "timestamp": 1776124800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "GM141849"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "GM141849"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01cwqze88",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "GM156296"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "GM156296"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01cwqze88",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "id": [
+            {
+              "id": "https://ror.org/006w34k90",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000900",
+          "name": "California Institute for Regenerative Medicine",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "EDUC4-12759"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EDUC4-12759"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000900",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            14
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  CLOCK:BMAL1 is a bHLH-PAS transcription factor complex that utilizes its bHLH (basic helix-loop-helix) domains to bind E-box motifs in DNA and tandem PAS (PER-ARNT-SIM) domains to heterodimerize and interact with regulatory proteins to generate circadian rhythms. PAS domains are evolutionarily conserved modules that frequently bind small molecule ligands within buried cavities to perform sensory and signal transduction functions. CLOCK and BMAL1 PAS domains have cavities that could be leveraged to regulate the transcription factor, and consequently, the circadian clock. Using NMR spectroscopy, we identified small molecules that bind within a cavity inside the PAS-A domain of CLOCK and its paralog NPAS2, which sits at an important flexible junction in the structured core of the heterodimer. We identified a gatekeeping mutant in the core of CLOCK PAS-A that significantly decreased ligand binding affinity. High-pressure NMR studies showed that ligand binding or the gatekeeping mutant significantly stabilized the domain. Finally, we showed that ligands induced dose-dependent displacement of CLOCK:BMAL1 from DNA\n                  <jats:italic>in vitro</jats:italic>\n                  . Together, these data demonstrate that small molecules can regulate DNA binding by the circadian transcription factor CLOCK:BMAL1 through occupancy of a PAS domain cavity.\n                </jats:p>",
+      "DOI": "10.64898/2026.04.13.718289",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            15
+          ]
+        ],
+        "date-time": "2026-04-15T04:30:17Z",
+        "timestamp": 1776227417000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Small Molecule Regulation of CLOCK:BMAL1 DNA Binding Activity"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5519-6109",
+          "authenticated-orcid": false,
+          "given": "Diksha",
+          "family": "Sharma",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry and Biochemistry, University of California Santa Cruz, Santa Cruz, CA 95064"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0272-8164",
+          "authenticated-orcid": false,
+          "given": "Soumendu",
+          "family": "Boral",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, NY 10031"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ethen",
+          "family": "West",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry and Biochemistry, University of California Santa Cruz, Santa Cruz, CA 95064"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1679-8606",
+          "authenticated-orcid": false,
+          "given": "McClain",
+          "family": "Kressman",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry and Biochemistry, University of California Santa Cruz, Santa Cruz, CA 95064"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-8860-3940",
+          "authenticated-orcid": false,
+          "given": "Irene",
+          "family": "Franco",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry and Biochemistry, University of California Santa Cruz, Santa Cruz, CA 95064"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6959-0577",
+          "authenticated-orcid": false,
+          "given": "Sarvind",
+          "family": "Tripathi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry and Biochemistry, University of California Santa Cruz, Santa Cruz, CA 95064"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6060-6341",
+          "authenticated-orcid": false,
+          "given": "Hsiau-Wei",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry and Biochemistry, University of California Santa Cruz, Santa Cruz, CA 95064"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-0796-1124",
+          "authenticated-orcid": false,
+          "given": "Carlos A.",
+          "family": "Amezcua",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, TX 75390"
+            },
+            {
+              "name": "FMC Corporation, Newark, DE, 19711"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5563-2548",
+          "authenticated-orcid": false,
+          "given": "Denize C.",
+          "family": "Favaro",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, NY 10031"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8671-2556",
+          "authenticated-orcid": false,
+          "given": "Kevin H.",
+          "family": "Gardner",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, NY 10031"
+            },
+            {
+              "name": "Department of Chemistry and Biochemistry, City College of New York, New York, NY 10031"
+            },
+            {
+              "name": "Ph.D. Programs in Biochemistry, Biology, and Chemistry, CUNY Graduate Center, New York, NY 10016"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4677-2861",
+          "authenticated-orcid": false,
+          "given": "Carrie L.",
+          "family": "Partch",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry and Biochemistry, University of California Santa Cruz, Santa Cruz, CA 95064"
+            },
+            {
+              "name": "Center for Circadian Biology, University of California San Diego, La Jolla, CA 92093"
+            },
+            {
+              "name": "Howard Hughes Medical Institute, University of California Santa Cruz, Santa Cruz, CA 95064"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.148.3676.1427"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.neuro.24.1.1091"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1226339"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg.2016.150"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.228536.113"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aah4965"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature09253"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2430"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cmet.2016.03.007"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.RA119.011332"
+        },
+        {
+          "issue": "11",
+          "key": "2026041706400680000_2026.04.13.718289v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1932",
+          "DOI": "10.1093/neuonc/noad107",
+          "article-title": "Watching the clock in glioblastoma",
+          "volume": "25",
+          "year": "2023",
+          "journal-title": "Neuro Oncol"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/2159-8290.CD-19-0215"
+        },
+        {
+          "issue": "1",
+          "key": "2026041706400680000_2026.04.13.718289v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "144",
+          "DOI": "10.1016/j.ccell.2024.11.012",
+          "article-title": "Daily glucocorticoids promote glioblastoma growth and circadian synchrony to the host",
+          "volume": "43",
+          "year": "2025",
+          "journal-title": "Cancer Cell"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1222804"
+        },
+        {
+          "issue": "2",
+          "key": "2026041706400680000_2026.04.13.718289v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "213",
+          "DOI": "10.1038/cr.2012.170",
+          "article-title": "Intermolecular recognition revealed by the complex structure of human CLOCK-BMAL1 basic helix-loop-helix domains with E-box DNA",
+          "volume": "23",
+          "year": "2013",
+          "journal-title": "Cell Res"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0601416103"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2017.05.023"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.3018"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1615310114"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06282-3"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2009.08.011"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.95.26.15177"
+        },
+        {
+          "issue": "12",
+          "key": "2026041706400680000_2026.04.13.718289v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "1316",
+          "DOI": "10.1107/S1744309113029199",
+          "article-title": "Coiled-coil dimerization of the LOV2 domain of the blue-light photoreceptor phototropin 1 from Arabidopsis thaliana",
+          "volume": "69",
+          "year": "2013",
+          "journal-title": "Acta Crystallogr Sect F Struct Biol Cryst Commun"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1137128"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2008.01.024"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1705408114"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2016.09.011"
+        },
+        {
+          "issue": "1",
+          "key": "2026041706400680000_2026.04.13.718289v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "1282",
+          "DOI": "10.1038/s41467-025-56574-7",
+          "article-title": "Structural basis for the ligand-dependent activation of heterodimeric AHR-ARNT complex",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "issue": "6",
+          "key": "2026041706400680000_2026.04.13.718289v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "2420",
+          "DOI": "10.1002/anie.201912392",
+          "article-title": "Chemical Proteomics and Phenotypic Profiling Identifies the Aryl Hydrocarbon Receptor as a Molecular Target of the Utrophin Modulator Ezutromid",
+          "volume": "59",
+          "year": "2020",
+          "journal-title": "Angew Chem Int Ed Engl"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1100262108"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi047942r"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0969-2126(02)00857-2"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cb300604u"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-16-0473"
+        },
+        {
+          "issue": "4",
+          "key": "2026041706400680000_2026.04.13.718289v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "367",
+          "DOI": "10.1038/s41589-019-0234-5",
+          "article-title": "Bidirectional modulation of HIF-2 activity through chemical ligands",
+          "volume": "15",
+          "year": "2019",
+          "journal-title": "Nat Chem Biol"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0808092106"
+        },
+        {
+          "issue": "5",
+          "key": "2026041706400680000_2026.04.13.718289v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "736",
+          "DOI": "10.1038/s41589-025-01863-x",
+          "article-title": "Pharmacological targeting of BMAL1 modulates circadian and immune pathways",
+          "volume": "21",
+          "year": "2025",
+          "journal-title": "Nat Chem Biol"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nchembio.1185"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1013334608913"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbapap.2010.10.012"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nn1884"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1005882"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp033"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad324"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm301847z"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2016.08.014"
+        },
+        {
+          "issue": "1",
+          "key": "2026041706400680000_2026.04.13.718289v1.47",
+          "first-page": "100750",
+          "article-title": "Structure-based self-supervised learning enables ultrafast protein stability prediction upon mutation",
+          "volume": "6",
+          "year": "2025",
+          "journal-title": "Innovation (Camb"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1351/pac200375070927"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr040440z"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.abb.2012.11.016"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi010312u"
+        },
+        {
+          "issue": "5",
+          "key": "2026041706400680000_2026.04.13.718289v1.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "924",
+          "DOI": "10.1016/j.bpj.2020.12.034",
+          "article-title": "Volume and compressibility differences between protein conformations revealed by high-pressure NMR",
+          "volume": "120",
+          "year": "2021",
+          "journal-title": "Biophys J"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1016/j.ymeth.2018.06.012",
+          "article-title": "Practical aspects of high-pressure NMR spectroscopy and its applications in protein biophysics and structural biology",
+          "volume": "148",
+          "year": "2018",
+          "journal-title": "Methods"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1200915109"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.55",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gagné, D. , et al., Use of high pressure NMR spectroscopy to rapidly identify proteins with internal ligand-binding voids. bioRxiv, 2020: p. 2020.08. 25.267195.",
+          "DOI": "10.1101/2020.08.25.267195"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jbc.2024.107606"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2023.168341"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1110689"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-micro-121809-151631"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja9073062"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.5198"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2022.04.009"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/prep.1998.1003"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF00197809"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-7386-6_13"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci960402j"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab180"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ab.2005.03.002"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444910045749"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1905216116"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444910007493"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ymeth.2011.07.005"
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.73",
+          "unstructured": "Schrödinger, L. and W. DeLano , PyMOL. 2020."
+        },
+        {
+          "key": "2026041706400680000_2026.04.13.718289v1.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/PRO.3943"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.04.13.718289",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            17
+          ]
+        ],
+        "date-time": "2026-04-17T13:40:17Z",
+        "timestamp": 1776433217000
+      },
+      "score": 110.63382,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.04.13.718289"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            14
+          ]
+        ]
+      },
+      "references-count": 74,
+      "URL": "https://doi.org/10.64898/2026.04.13.718289",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            14
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

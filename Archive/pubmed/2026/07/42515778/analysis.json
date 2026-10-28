@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42515778",
+  "title": "Using Deep Learning Models of Gene Regulation to Guide Drug Prioritization.",
+  "authors": "Huang, Xiaoqin; Ovcharenko, Ivan",
+  "journal": "Pharmaceuticals (Basel, Switzerland)",
+  "published_date": "2026-07-28",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习预测等位基因特异性增强子并关联药物重定位，虽涉及TF-DNA调控预测，但核心是药物优先排序而非TF-DNA互作机制建模，方法可迁移但深度不足。",
+  "abstract": "Background: Drug repurposing offers a cost-effective strategy to accelerate therapeutic discovery, but most computational approaches do not model noncoding genetic variation. Because over 90% of genome-wide association study (GWAS) risk variants reside in noncoding regions, linking regulatory variation to therapeutic hypotheses remains a major challenge. Methods: We developed an integrative deep learning framework that links allele-specific enhancer prediction to candidate therapeutics through two complementary prioritization strategies, a transcription factor (TF)-based and a gene-based approach. We used MCF7-breast cancer context as a proof-of-concept system. Results: GWAS heritability was significantly enriched in MCF7 enhancers. Allele-specific variant scoring identified 1537 breast cancer risk variants with strong predicted regulatory effects, and attribution-based motif discovery revealed enrichment of FOXA1-associated motif features, consistent with FOXA1 upregulation in primary tumors. TF-based prioritization, integrating FOXA1 knockdown-induced and drug-induced gene expression profiles, identified 63 candidate compounds, including 18 approved drugs, and recovered fulvestrant, an established breast cancer therapy. Gene-based prioritization, mapping candidate regulatory variants to 347 target genes, identified 140 candidate compounds, including approved breast cancer drugs toremifene and raloxifene. Both strategies identified compounds with anti-correlated transcriptional signatures across core breast cancer hallmark pathways, and integration of pathway anti-correlation, drug-gene interactions, and supporting experimental or clinical evidence yielded 15 high-confidence repurposing candidates. Conclusions: Recovery of approved breast cancer therapeutics supports the biological relevance of deep learning-predicted regulatory variants. This study establishes a regulatory variant-guided drug repurposing framework that connects noncoding genetic variation to candidate therapeutics and provides a scalable strategy for generating pharmacologically relevant hypotheses from the noncoding genome.",
+  "abstract_zh": "背景：药物重定位提供了一种成本效益高的策略来加速治疗发现，但大多数计算方法并未对非编码遗传变异进行建模。由于全基因组关联研究（GWAS）中超过90%的风险变异位于非编码区域，将调控变异与治疗假设联系起来仍是一个重大挑战。方法：我们开发了一个整合的深度学习框架，通过两种互补的优先排序策略——基于转录因子（TF）和基于基因的方法——将等位基因特异性增强子预测与候选治疗药物联系起来。我们以MCF7乳腺癌环境作为概念验证系统。结果：GWAS遗传力在MCF7增强子中显著富集。等位基因特异性变异评分识别出1537个具有强预测调控效应的乳腺癌风险变异，基于归因的基序发现揭示了FOXA1相关基序特征的富集，这与原发肿瘤中FOXA1上调一致。基于TF的优先排序，整合FOXA1敲低诱导和药物诱导的基因表达谱，识别出63种候选化合物，包括18种已批准药物，并恢复了已确立的乳腺癌治疗药物氟维司群。基于基因的优先排序，将候选调控变异映射到347个靶基因，识别出140种候选化合物，包括已批准的乳腺癌药物托瑞米芬和雷洛昔芬。两种策略均识别出在核心乳腺癌标志通路中具有反相关转录特征的化合物，整合通路反相关性、药物-基因相互作用以及支持性实验或临床证据，产生了15个高置信度的重定位候选药物。结论：恢复已批准的乳腺癌治疗药物支持了深度学习预测调控变异的生物学相关性。本研究建立了一个调控变异引导的药物重定位框架，将非编码遗传变异与候选治疗药物联系起来，并提供了一种从非编码基因组生成药理学相关假设的可扩展策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42515778/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42515778/",
+  "paper_page_path": "papers/pubmed/42515778/index.html"
+}

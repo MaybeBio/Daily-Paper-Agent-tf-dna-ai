@@ -1,0 +1,465 @@
+{
+  "identity": {
+    "pmid": "42081549",
+    "doi": "10.1371/journal.pone.0344360",
+    "title": "Genetic variants and polygenic risk scores associated with paroxysmal atrial fibrillation in the Japanese population."
+  },
+  "content": {
+    "abstract": "Early-stage diagnosis of paroxysmal atrial fibrillation (PAF) is challenging owing to its asymptomatic nature. However, the genetic factors underlying PAF and predictive utility of polygenic risk scores (PRSs) for PAF in Asian populations remain elusive. We aimed to explore the PAF-associated genetic variants in a Japanese cohort and evaluate the predictive performance of PAF-specific PRSs. This study included 2,604 participants. Following exclusion, quality control, and genotype imputation, a genome-wide association study (GWAS) was conducted. The predictive performance of 30 sets of PRS models constructed across various thresholds was evaluated using three machine learning methods. Model performance was assessed using area under the curve (AUC) and SHapley Additive exPlanations (SHAP). The GWAS using 1,038 PAF cases and 744 controls identified 82 genome-wide significant variants (P < 5 x 10-8), all on chromosome 4q25. Of these, 80 variants clustered upstream of PITX2, and two were located in LINC01438. Fine mapping identified two independent intergenic signals, with rs2200732 as the lead single-nucleotide polymorphism. The best PRS-only model achieved an AUC of >0.70, which was improved up to 0.737 in additive models incorporating both PRS and clinical variables. SHAP analysis consistently ranked PRS as the most influential predictor among the clinical variables included in this study. These results suggest that genetic risk, particularly at the established 4q25/PITX2 locus, contributes substantially to PAF susceptibility in this Japanese cohort and that PRS may improve early risk stratification when integrated with clinical risk factors.",
+    "keywords": [],
+    "mesh_terms": [
+      "Aged",
+      "Female",
+      "Humans",
+      "Male",
+      "Middle Aged",
+      "*Atrial Fibrillation/genetics/epidemiology",
+      "*Genetic Predisposition to Disease",
+      "Genetic Risk Score",
+      "Genome-Wide Association Study",
+      "Homeobox Protein PITX2",
+      "Homeodomain Proteins/genetics",
+      "Japan/epidemiology",
+      "*Multifactorial Inheritance",
+      "*Polymorphism, Single Nucleotide",
+      "Transcription Factors/genetics",
+      "East Asian People"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shiomi, Megumi",
+        "Nagata, Yuki",
+        "Sudo, Takeaki",
+        "Takahashi, Kentaro",
+        "Higuchi, Chihiro",
+        "Ihara, Kensuke",
+        "Asada, Ken",
+        "Tanaka, Yasuaki",
+        "Yamauchi, Yasuteru",
+        "Sasaki, Takeshi",
+        "Hachiya, Hitoshi",
+        "Imai, Yasushi",
+        "Fujita, Hideo",
+        "Sasano, Tetsuo",
+        "Furukawa, Tetsushi",
+        "Tanaka, Toshihiro"
+      ],
+      "short_names": [
+        "Shiomi M",
+        "Nagata Y",
+        "Sudo T",
+        "Takahashi K",
+        "Higuchi C",
+        "Ihara K",
+        "Asada K",
+        "Tanaka Y",
+        "Yamauchi Y",
+        "Sasaki T",
+        "Hachiya H",
+        "Imai Y",
+        "Fujita H",
+        "Sasano T",
+        "Furukawa T",
+        "Tanaka T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3984-4134",
+        "ORCID: 0000-0002-7859-9661",
+        "ORCID: 0000-0003-0548-4449",
+        "ORCID: 0000-0002-4661-2999",
+        "ORCID: 0000-0001-6201-9784"
+      ],
+      "affiliations": [
+        "Department of Human Genetics and Disease Diversity, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, Tokyo, Japan.",
+        "Department of Human Genetics and Disease Diversity, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, Tokyo, Japan.",
+        "Bioresource Research Support Center, Institute of Science Tokyo, Tokyo, Japan.",
+        "Department of Educational Media Development, Institute of Science Tokyo, Tokyo, Japan.",
+        "Department of Human Genetics and Disease Diversity, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, Tokyo, Japan.",
+        "Bioresource Research Support Center, Institute of Science Tokyo, Tokyo, Japan.",
+        "Department of Human Genetics and Disease Diversity, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, Tokyo, Japan.",
+        "Artificial Intelligence Center for Health and Biomedical Research, National Institutes of Biomedical Innovation, Health and Nutrition, Osaka, Japan.",
+        "Department of Bio-informational Pharmacology, Medical Research Institute, Institute of Science Tokyo, Tokyo, Japan.",
+        "Department of Cardiovascular Medicine, Institute of Science Tokyo, Tokyo, Japan.",
+        "AI Medical Engineering Team, RIKEN Center for Advanced Intelligence Project, Tokyo, Japan.",
+        "Division of Medical AI Research and Development, National Cancer Center Research Institute, Tokyo, Japan.",
+        "Cardiovascular Center, Yokosuka Kyosai Hospital, Kanagawa, Japan.",
+        "Department of Cardiology, Yokohama City Minato Red Cross Hospital, Kanagawa, Japan.",
+        "Department of Cardiology, Heart Rhythm Center, National Hospital Organization Disaster Medical Center, Tokyo, Japan.",
+        "Cardiovascular Center, Tsuchiura Kyodo General Hospital, Ibaraki, Japan.",
+        "Division of Clinical Pharmacology, Department of Pharmacology, Jichi Medical University, Tochigi, Japan.",
+        "Division of Cardiovascular Medicine, Saitama Medical Center, Jichi Medical University, Saitama, Japan.",
+        "Department of Cardiovascular Medicine, Institute of Science Tokyo, Tokyo, Japan.",
+        "Department of Bio-informational Pharmacology, Medical Research Institute, Institute of Science Tokyo, Tokyo, Japan.",
+        "Department of Human Genetics and Disease Diversity, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, Tokyo, Japan.",
+        "Bioresource Research Support Center, Institute of Science Tokyo, Tokyo, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shiomi, Megumi",
+        "short_name": "Shiomi M",
+        "identifiers": [
+          "0000-0002-3984-4134"
+        ],
+        "affiliations": [
+          "Department of Human Genetics and Disease Diversity, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Nagata, Yuki",
+        "short_name": "Nagata Y",
+        "identifiers": [
+          "0000-0002-7859-9661"
+        ],
+        "affiliations": [
+          "Department of Human Genetics and Disease Diversity, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, Tokyo, Japan.",
+          "Bioresource Research Support Center, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Sudo, Takeaki",
+        "short_name": "Sudo T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Educational Media Development, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Takahashi, Kentaro",
+        "short_name": "Takahashi K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics and Disease Diversity, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, Tokyo, Japan.",
+          "Bioresource Research Support Center, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Higuchi, Chihiro",
+        "short_name": "Higuchi C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics and Disease Diversity, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, Tokyo, Japan.",
+          "Artificial Intelligence Center for Health and Biomedical Research, National Institutes of Biomedical Innovation, Health and Nutrition, Osaka, Japan."
+        ]
+      },
+      {
+        "full_name": "Ihara, Kensuke",
+        "short_name": "Ihara K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bio-informational Pharmacology, Medical Research Institute, Institute of Science Tokyo, Tokyo, Japan.",
+          "Department of Cardiovascular Medicine, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Asada, Ken",
+        "short_name": "Asada K",
+        "identifiers": [
+          "0000-0003-0548-4449"
+        ],
+        "affiliations": [
+          "AI Medical Engineering Team, RIKEN Center for Advanced Intelligence Project, Tokyo, Japan.",
+          "Division of Medical AI Research and Development, National Cancer Center Research Institute, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Tanaka, Yasuaki",
+        "short_name": "Tanaka Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Center, Yokosuka Kyosai Hospital, Kanagawa, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamauchi, Yasuteru",
+        "short_name": "Yamauchi Y",
+        "identifiers": [
+          "0000-0002-4661-2999"
+        ],
+        "affiliations": [
+          "Department of Cardiology, Yokohama City Minato Red Cross Hospital, Kanagawa, Japan."
+        ]
+      },
+      {
+        "full_name": "Sasaki, Takeshi",
+        "short_name": "Sasaki T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Heart Rhythm Center, National Hospital Organization Disaster Medical Center, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Hachiya, Hitoshi",
+        "short_name": "Hachiya H",
+        "identifiers": [],
+        "affiliations": [
+          "Cardiovascular Center, Tsuchiura Kyodo General Hospital, Ibaraki, Japan."
+        ]
+      },
+      {
+        "full_name": "Imai, Yasushi",
+        "short_name": "Imai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Clinical Pharmacology, Department of Pharmacology, Jichi Medical University, Tochigi, Japan."
+        ]
+      },
+      {
+        "full_name": "Fujita, Hideo",
+        "short_name": "Fujita H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Cardiovascular Medicine, Saitama Medical Center, Jichi Medical University, Saitama, Japan."
+        ]
+      },
+      {
+        "full_name": "Sasano, Tetsuo",
+        "short_name": "Sasano T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Medicine, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Furukawa, Tetsushi",
+        "short_name": "Furukawa T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bio-informational Pharmacology, Medical Research Institute, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Tanaka, Toshihiro",
+        "short_name": "Tanaka T",
+        "identifiers": [
+          "0000-0001-6201-9784"
+        ],
+        "affiliations": [
+          "Department of Human Genetics and Disease Diversity, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, Tokyo, Japan.",
+          "Bioresource Research Support Center, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/04 18:33",
+    "fetched_at": "2026-10-01 19:59:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38362554",
+      "38362547",
+      "38336192",
+      "38123343",
+      "38033089",
+      "37690816",
+      "37080450",
+      "36763906",
+      "36653681",
+      "35324888",
+      "34463125",
+      "32802702",
+      "32496546",
+      "32273609",
+      "31931171",
+      "31771638",
+      "31375757",
+      "30104762",
+      "29892015",
+      "29290336",
+      "29184056",
+      "29038167",
+      "28416822",
+      "28416818",
+      "28129963",
+      "28087289",
+      "27571263",
+      "26432245",
+      "26162320",
+      "25885710",
+      "24487276",
+      "24486271",
+      "23403369",
+      "22955989",
+      "22544366",
+      "22138821",
+      "21893980",
+      "20727789",
+      "20634204",
+      "20461051",
+      "20170808",
+      "17701901",
+      "17603472",
+      "15170094",
+      "12821245",
+      "11125122"
+    ],
+    "similar": [
+      "42081549",
+      "42061389",
+      "24486271",
+      "35086918",
+      "36538246",
+      "40036802",
+      "36971353",
+      "40675087",
+      "39142603",
+      "40240483",
+      "42288717",
+      "40008532",
+      "40077796",
+      "41616791",
+      "39054468",
+      "38706286",
+      "24465984",
+      "38307466",
+      "31326317",
+      "41376111",
+      "41821099",
+      "41168411",
+      "28087289",
+      "41197642",
+      "39126459",
+      "40971882",
+      "42394318",
+      "40405310",
+      "38916140",
+      "42050630",
+      "39067852",
+      "26073630",
+      "28460022",
+      "32758450",
+      "42152146",
+      "39693120",
+      "38896256",
+      "41833578",
+      "40045046",
+      "38879759",
+      "33002439",
+      "41472358",
+      "36694225",
+      "26272656",
+      "38336192",
+      "42086565",
+      "41467372",
+      "40288473",
+      "28217939",
+      "38886662",
+      "39535071",
+      "29302764",
+      "38970920",
+      "38437179",
+      "39023470",
+      "39570582",
+      "31039368",
+      "41824406",
+      "39551887",
+      "31974023",
+      "41795035",
+      "42229218",
+      "40296270",
+      "38767906",
+      "40631367",
+      "32132206",
+      "41360390",
+      "41865802",
+      "41038527",
+      "34454617",
+      "39815278",
+      "39762974",
+      "41963194",
+      "39541127",
+      "42096872",
+      "38340895",
+      "33739539",
+      "29247777",
+      "31691645",
+      "42213894",
+      "38380516",
+      "37210288",
+      "40317452",
+      "28129963",
+      "41206923",
+      "38747976",
+      "33608049",
+      "40440926",
+      "40429816",
+      "41489829",
+      "41711031",
+      "42509442",
+      "25567478",
+      "41465104",
+      "38782831",
+      "41015248",
+      "39882610",
+      "30911569",
+      "38788065",
+      "39293130"
+    ],
+    "review": [
+      "42081549",
+      "42061389",
+      "40240483",
+      "31326317",
+      "40971882",
+      "42152146",
+      "33002439",
+      "36694225",
+      "38336192",
+      "41467372",
+      "28217939",
+      "38437179",
+      "31974023",
+      "33739539",
+      "37210288",
+      "38747976"
+    ],
+    "pmc": [
+      "13138623"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/atrialfibrillation.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Atrial Fibrillation"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0344360",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42081549/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

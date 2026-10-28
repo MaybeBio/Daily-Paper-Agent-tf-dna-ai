@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results, Discussion, Conclusion, Acknowledgements)
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text. Figures and tables are referenced but not directly viewable; assessment relies on textual descriptions.
+- **Shared manuscript claim summary** The authors report that MoyR (Rv0792c), a GntR family regulator in *Mycobacterium tuberculosis*, undergoes monovalent cation-dependent oligomerization (forming dimers, tetramers, and hexamers) and binds its cognate DNA (moyO) with high affinity (Kd,app = 3.47 nM). They propose that this oligomerization and DNA binding are modulated by K+/Na+ concentrations and pH, and that MoyR may regulate a putative polyketide biosynthesis gene cluster, making it a potential drug target.
+- **Visible evidence base** Gel filtration chromatography, glutaraldehyde crosslinking, EMSA (including competition assays and short oligonucleotide fragments), DLS, in silico protonation analysis, and virtual screening (docking). Figures 1–6 and Tables 1–2 are referenced.
+- **Missing materials affecting confidence** Figures and tables are not provided. Raw data, statistical details, and full experimental replicates are not shown. The modelled structures used for docking are not described in detail. The DSC data mentioned in the Discussion is not presented in the Methods or Results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting aspect of a mycobacterial transcriptional regulator, specifically the role of monovalent cations in modulating oligomerization and DNA binding. The finding that MoyR can form higher-order oligomers and bind DNA with high affinity is noteworthy, and the proposal that this could be physiologically relevant is plausible. However, the evidence as presented has significant gaps. The link between the observed in vitro oligomerization and the proposed functional model is not fully established, and the physiological relevance of the high-salt conditions is speculative. The virtual screening results are preliminary and not well integrated. The manuscript would benefit from a clearer presentation of the data and a more rigorous analysis of the binding stoichiometry and the salt-dependent effects.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation in mycobacteria, particularly those interested in GntR family regulators, stress responses, and the physiology of *M. tuberculosis* during infection. The work may also be of interest to structural biologists studying oligomeric transcription factors and to those investigating the evolution of regulatory mechanisms in actinobacteria.
+- **Major strengths**
+  - The study addresses a relatively under-characterized regulator (MoyR) in a clinically important pathogen.
+  - The combination of biochemical techniques (gel filtration, crosslinking, EMSA) to probe oligomerization and DNA binding is appropriate.
+  - The observation of salt-dependent oligomerization and DNA binding, with stability at high salt concentrations, is an interesting and potentially novel finding.
+  - The identification of a specific operator sequence and the demonstration of high-affinity binding provide a solid foundation for further functional studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Data interpretation
+  - **Claim pointer** The manuscript claims that MoyR forms tetramers and hexamers in a salt-dependent manner, and that these oligomers bind to DNA, with the tetramer being the most stable form at high salt concentrations.
+  - **Evidence pointer** Results: "Oligomeric States of MoyR" (Figure 1), "Salt Dependent DNA Binding" (Figure 5)
+  - **Concern** The interpretation of the gel filtration and crosslinking data is not sufficiently rigorous. The gel filtration calibration uses a "homologous series of globular protein size markers," which may not accurately reflect the shape of MoyR oligomers. The crosslinking data shows bands corresponding to monomer, dimer, and hexamer, with a faint band "possibly" being a tetramer. This is not definitive evidence for the existence of stable tetramers and hexamers in solution. The assignment of the three EMSA complexes (C1, C2, C3) to specific oligomeric states (dimer, tetramer, hexamer) is speculative and not directly supported by the data presented. The claim that the tetramer is the most stable form at high salt is based on the persistence of one complex in the EMSA, but the identity of this complex is not confirmed.
+  - **Why it matters** The central model of the paper relies on the existence and functional relevance of these specific oligomeric states. If the assignment of the complexes is incorrect, the proposed model for regulation is not supported. The lack of direct evidence for the stoichiometry of the protein-DNA complexes undermines the main conclusion.
+  - **Resolution test** The authors should provide more definitive evidence for the oligomeric states, such as analytical ultracentrifugation or SEC-MALS. For the EMSA complexes, they should perform a more detailed analysis, potentially using different DNA fragment lengths or a true stoichiometric titration to determine the number of protein molecules bound per DNA. A supershift assay with antibodies against MoyR could also help confirm the composition of the complexes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Data interpretation
+  - **Claim pointer** The manuscript claims that the Kd,app for MoyR-moyO binding is 3.47 nM, and that this represents high-affinity, specific binding.
+  - **Evidence pointer** Results: "Binding of MoyR to the moyO intergenic DNA" (Figure 3B)
+  - **Concern** The calculation of the Kd,app is based on fitting the data to a Hill equation, but the manuscript does not provide details on the fitting, the number of replicates, or the error associated with the Kd value. The statement that the Kd "likely represents an upper limit as conditions for formation of complexes are nearly stoichiometric" is a critical caveat. If the binding is stoichiometric, the Kd value is not reliable and the affinity could be much higher. The competition assay with non-specific DNA is mentioned, but the data is not shown, making it difficult to assess the specificity of the binding.
+  - **Why it matters** The Kd value is a key quantitative claim of the paper. If the value is not reliable, the claim of "high affinity" is not substantiated. The specificity of the binding is also a central claim, and the evidence for it is not fully presented.
+  - **Resolution test** The authors should provide a more detailed analysis of the binding data, including the error on the Kd and the Hill coefficient. They should also show the competition assay data. To address the stoichiometric binding issue, they could perform the binding assay at lower protein concentrations or use a more sensitive detection method.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / Physiological relevance
+  - **Claim pointer** The manuscript proposes that the salt-dependent oligomerization and DNA binding of MoyR is physiologically relevant, and that MoyR may regulate a polyketide biosynthesis pathway.
+  - **Evidence pointer** Discussion, Conclusion, Results: "Virtual Screening Analysis"
+  - **Concern** The physiological relevance of the salt-dependent effects is speculative. The manuscript states that *M. tuberculosis* encounters varying salt concentrations during infection, but does not provide a direct link between these concentrations and the observed in vitro effects on MoyR. The virtual screening is preliminary and only identifies potential ligands with no experimental validation. The claim that MoyR is involved in polyketide biosynthesis is based on the homology of adjacent genes and the docking results, which is not strong evidence.
+  - **Why it matters** The broader significance of the work depends on the physiological relevance of the findings. If the salt effects are not relevant in vivo, the study is primarily a biochemical characterization. The link to polyketide biosynthesis is a major part of the introduction and conclusion, but the evidence is weak.
+  - **Resolution test** The authors should perform experiments to test the physiological relevance, such as studying the expression of the putative target genes in response to salt stress or in a *moyR* deletion strain. They should also validate the virtual screening results with in vitro binding assays for the identified ligands.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Methods section
+  - **Evidence pointer** Materials and Methods: "Oligomeric states of MoyR Gel Filtration"
+  - **Issue** The Methods section for gel filtration is unclear. The column is described as "HiLoad Sperdex TM – 75 column (2.6×60 cm) (HiLoad 16/600, GE Healthcare)," which appears to be a mix of two different column specifications. The calibration standard is described as a "homologous series of globular protein size markers," which is vague.
+  - **Required correction** Please clarify the exact column used and provide a more specific description of the molecular weight markers used for calibration.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Results section
+  - **Evidence pointer** Results: "pH Dependent Protonation-deprotonation of MoyR"
+  - **Issue** The description of the DLS results is confusing. The text states that the "hydrodynamic radius was minimum in the pH 5.5 buffer with a monodisperse size distribution," but then states that "high light scattering indicated aggregation of MoyR in the presence of monovalent cations in the pH 5.5 buffer." A monodisperse sample with a minimum size is not typically associated with aggregation.
+  - **Required correction** Please clarify the DLS results. If aggregation occurs at pH 5.5, the size distribution would likely be polydisperse. Please explain the discrepancy.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Results section
+  - **Evidence pointer** Results: "Probing for a natural ligand"
+  - **Issue** The virtual screening section is very brief and lacks detail. The number of ligands screened, the selection criteria, and the specific results are not described.
+  - **Required correction** Please provide more details on the virtual screening methodology and results, including the specific ligands identified and their predicted binding affinities.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The Discussion mentions a "DSC thermogram" of MoyR, but this data is not presented in the Results or Methods. This is a significant omission.
+  - **Required correction** Please either present the DSC data in the Results or remove the reference to it in the Discussion.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract contains a typographical error: "highly likely to be likely to be inplicated in a polyketide antibiotic synthesis pathway."
+  - **Required correction** Please correct this sentence.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The evidence for the existence and DNA-binding stoichiometry of the proposed tetrameric and hexameric species is not definitive.
+  - R1-M2: The reported Kd,app value is not reliable due to the acknowledged stoichiometric binding conditions and lack of error analysis.
+  - R1-M3: The physiological relevance of the salt-dependent effects and the link to polyketide biosynthesis are not experimentally supported.
+- **Assessment against Nature-style criteria**
+  - **Originality** The observation of salt-dependent oligomerization in a GntR regulator is somewhat novel, but the concept of oligomerization in this family is not new. The study is a biochemical characterization of a single regulator, which is incremental.
+  - **Scientific importance** The work is of interest to the mycobacterial research community, but the broader importance is limited by the lack of demonstrated physiological relevance. The potential link to antibiotic resistance is speculative.
+  - **Interdisciplinary readership** The topic is primarily of interest to microbiologists, biochemists, and structural biologists. The methods are standard for these fields. The broader readership of a high-impact journal would likely find the work too specialized.
+  - **Technical soundness** The core biochemical experiments are appropriate, but the data analysis and interpretation have significant weaknesses, as detailed in the major concerns. The lack of key data (e.g., competition assay, DSC) and the preliminary nature of the docking studies reduce the overall technical quality.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that is accessible to specialists but would be challenging for a general scientific audience. The abstract is dense and contains errors.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting observation, but the central claims regarding the oligomeric states, the binding affinity, and the physiological relevance are not sufficiently supported by the data as presented. Major revisions and additional experiments are required.
+
+## Risk / unsupported claims
+- The claim that the three EMSA complexes (C1, C2, C3) correspond to binding of a dimer, tetramer, and hexamer is not directly supported by the data shown.
+- The claim that the tetramer is the most stable form at high salt concentrations is not definitively established.
+- The reported Kd,app of 3.47 nM is not reliable due to the acknowledged stoichiometric binding conditions.
+- The claim that MoyR regulates a polyketide biosynthesis pathway is speculative and based on indirect evidence (homology of adjacent genes and preliminary docking).
+- The physiological relevance of the salt-dependent oligomerization and DNA binding is not experimentally demonstrated.
+- The DSC data referenced in the Discussion is not presented in the manuscript.
+- The virtual screening results are preliminary and not validated experimentally.

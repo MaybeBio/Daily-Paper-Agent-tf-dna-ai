@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "37057099",
+    "doi": "10.3389/fcvm.2023.1121102",
+    "title": "Combining bioinformatics and machine learning to identify common mechanisms and biomarkers of chronic obstructive pulmonary disease and atrial fibrillation."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Patients with chronic obstructive pulmonary disease (COPD) often present with atrial fibrillation (AF), but the common pathophysiological mechanisms between the two are unclear. This study aimed to investigate the common biological mechanisms of COPD and AF and to search for important biomarkers through bioinformatic analysis of public RNA sequencing databases. METHODS: Four datasets of COPD and AF were downloaded from the Gene Expression Omnibus (GEO) database. The overlapping genes common to both diseases were screened by WGCNA analysis, followed by protein-protein interaction network construction and functional enrichment analysis to elucidate the common mechanisms of COPD and AF. Machine learning algorithms were also used to identify key biomarkers. Co-expression analysis, \"transcription factor (TF)-mRNA-microRNA (miRNA)\" regulatory networks and drug prediction were performed for key biomarkers. Finally, immune cell infiltration analysis was performed to evaluate further the immune cell changes in the COPD dataset and the correlation between key biomarkers and immune cells. RESULTS: A total of 133 overlapping genes for COPD and AF were obtained, and the enrichment was mainly focused on pathways associated with the inflammatory immune response. A key biomarker, cyclin dependent kinase 8 (CDK8), was identified through screening by machine learning algorithms and validated in the validation dataset. Twenty potential drugs capable of targeting CDK8 were obtained. Immune cell infiltration analysis revealed the presence of multiple immune cell dysregulation in COPD. Correlation analysis showed that CDK8 expression was significantly associated with CD8+ T cells, resting dendritic cell, macrophage M2, and monocytes. CONCLUSIONS: This study highlights the role of the inflammatory immune response in COPD combined with AF. The prominent link between CDK8 and the inflammatory immune response and its characteristic of not affecting the basal expression level of nuclear factor kappa B (NF-kB) make it a possible promising therapeutic target for COPD combined with AF.",
+    "keywords": [
+      "atrial fibrillation",
+      "biomarker",
+      "chronic obstructive pulmonary disease",
+      "machine learning",
+      "microarray"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Ziyi",
+        "Lin, Jianguo",
+        "Zhang, Tianya",
+        "Sun, Xiaoning",
+        "Wang, Tianlin",
+        "Duan, Jinlong",
+        "Yao, Kuiwu"
+      ],
+      "short_names": [
+        "Sun Z",
+        "Lin J",
+        "Zhang T",
+        "Sun X",
+        "Wang T",
+        "Duan J",
+        "Yao K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Graduate School, Beijing University of Chinese Medicine, Beijing, China.",
+        "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Graduate School, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Graduate School, Hebei University of Chinese Medicine, Shijiazhuang, China.",
+        "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Graduate School, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Graduate School, Beijing University of Chinese Medicine, Beijing, China.",
+        "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+        "Eye Hospital China Academy of Chinese Medical Sciences, China Academy of Chinese Medical Sciences, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Ziyi",
+        "short_name": "Sun Z",
+        "identifiers": [],
+        "affiliations": [
+          "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+          "Graduate School, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Jianguo",
+        "short_name": "Lin J",
+        "identifiers": [],
+        "affiliations": [
+          "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+          "Graduate School, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tianya",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School, Hebei University of Chinese Medicine, Shijiazhuang, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xiaoning",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+          "Graduate School, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tianlin",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+          "Graduate School, Beijing University of Chinese Medicine, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Jinlong",
+        "short_name": "Duan J",
+        "identifiers": [],
+        "affiliations": [
+          "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Kuiwu",
+        "short_name": "Yao K",
+        "identifiers": [],
+        "affiliations": [
+          "Guang'anmen Hospital, China Academy of Chinese Medical Sciences, Beijing, China.",
+          "Eye Hospital China Academy of Chinese Medical Sciences, China Academy of Chinese Medical Sciences, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cardiovascular medicine"
+    ],
+    "journal_abbrev": [
+      "Front Cardiovasc Med"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/15 06:00",
+    "fetched_at": "2026-09-28 22:57:36"
+  },
+  "links": {
+    "cites": [
+      "42053827",
+      "41859015",
+      "41808159",
+      "40760602",
+      "39811093",
+      "39726946",
+      "38266129",
+      "37781794"
+    ],
+    "refs": [
+      "36791618",
+      "36524127",
+      "35936905",
+      "35206997",
+      "34850920",
+      "34850907",
+      "34737791",
+      "34333599",
+      "34031160",
+      "33809353",
+      "33290552",
+      "33237311",
+      "33206945",
+      "33037881",
+      "32971526",
+      "32767120",
+      "32639881",
+      "32013028",
+      "31663668",
+      "31623508",
+      "31552016",
+      "31270147",
+      "30907000",
+      "30354294",
+      "30339768",
+      "30268382",
+      "30022816",
+      "29998294",
+      "29912392",
+      "29908372",
+      "29884286",
+      "29707159",
+      "29344893",
+      "29156001",
+      "28883719",
+      "28855340",
+      "28822787",
+      "28494757",
+      "28287180",
+      "28225836",
+      "27823697",
+      "27660282",
+      "27494721",
+      "27373322",
+      "27320910",
+      "27207814",
+      "27178410",
+      "27119319",
+      "26498483",
+      "26216282",
+      "26073875",
+      "25810428",
+      "25622848",
+      "25309536",
+      "24894999",
+      "24878126",
+      "24498098",
+      "24345399",
+      "24043446",
+      "23632115",
+      "23540615",
+      "23193258",
+      "23066893",
+      "22871756",
+      "22624038",
+      "22455463",
+      "22314182",
+      "22237583",
+      "21088252",
+      "20413629",
+      "19730253",
+      "19114008",
+      "16199517",
+      "15824553",
+      "15215480",
+      "14732752",
+      "14597658",
+      "10864917"
+    ],
+    "similar": [
+      "37057099",
+      "38274270",
+      "39090590",
+      "35305619",
+      "37971162",
+      "39346628",
+      "39331874",
+      "36341343",
+      "38656659",
+      "37251077",
+      "39344484",
+      "39267804",
+      "34198460",
+      "35350787",
+      "38505024",
+      "33841968",
+      "35911532",
+      "35637927",
+      "36467340",
+      "35975032",
+      "35023949",
+      "39076905",
+      "37008314",
+      "36647491",
+      "29713155",
+      "37878760",
+      "38448858",
+      "36506310",
+      "36568366",
+      "37270927",
+      "35958412",
+      "33509101",
+      "39049829",
+      "35966550",
+      "35790963",
+      "35479834",
+      "36325528",
+      "36217332",
+      "35433978",
+      "37620966",
+      "35757392",
+      "34876841",
+      "36733486",
+      "36823662",
+      "36793900",
+      "36860337",
+      "32982206",
+      "36061211",
+      "36746116",
+      "32383373",
+      "35919038",
+      "38455553",
+      "36979417",
+      "36833211",
+      "37969297",
+      "35018096",
+      "36671424",
+      "33706714",
+      "36524127",
+      "36894947",
+      "34764646",
+      "36225941",
+      "33287936",
+      "36148059",
+      "35966794",
+      "35959356",
+      "31632001",
+      "36704339",
+      "36671813",
+      "36439178",
+      "34797299",
+      "36589450",
+      "29710745",
+      "36405716",
+      "36341378",
+      "36211422",
+      "39349929",
+      "36685847",
+      "36863715",
+      "36969832",
+      "36777638",
+      "36829193",
+      "36699262",
+      "37226132",
+      "36419192",
+      "28188041",
+      "32682418",
+      "38509896",
+      "36470144",
+      "32367757",
+      "35928610",
+      "31829519",
+      "35911963",
+      "27823697",
+      "34767108",
+      "31419078",
+      "36860851",
+      "24894999",
+      "32778054",
+      "35713363",
+      "36876153",
+      "35281477",
+      "35069594",
+      "35676670",
+      "35711463",
+      "37956134",
+      "35221715",
+      "35154510",
+      "37845390",
+      "38694919",
+      "38541078",
+      "39381104",
+      "38825608",
+      "38145013",
+      "29845785",
+      "37194062",
+      "36602538",
+      "37893006",
+      "37346800",
+      "38025532",
+      "39077394",
+      "37189541",
+      "39377693",
+      "37193138",
+      "35002688"
+    ],
+    "review": [
+      "37057099",
+      "33509101",
+      "28188041",
+      "38541078",
+      "38825608"
+    ],
+    "pmc": [
+      "10086368"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37057099/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37057099",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD8A-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcvm.2023.1121102",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

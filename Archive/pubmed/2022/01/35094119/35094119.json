@@ -1,0 +1,436 @@
+{
+  "identity": {
+    "pmid": "35094119",
+    "doi": "10.1007/s00330-022-08538-4",
+    "title": "Deep learning analysis of contrast-enhanced spectral mammography to determine histoprognostic factors of malignant breast tumours."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: To evaluate if a deep learning model can be used to characterise breast cancers on contrast-enhanced spectral mammography (CESM). METHODS: This retrospective mono-centric study included biopsy-proven invasive cancers with an enhancement on CESM. CESM images include low-energy images (LE) comparable to digital mammography and dual-energy subtracted images (DES) showing tumour angiogenesis. For each lesion, histologic type, tumour grade, estrogen receptor (ER) status, progesterone receptor (PR) status, HER-2 status, Ki-67 proliferation index, and the size of the invasive tumour were retrieved. The deep learning model used was a CheXNet-based model fine-tuned on CESM dataset. The area under the curve (AUC) of the receiver operating characteristic (ROC) curve was calculated for the different models: images by images and then by majority voting combining all the incidences for one tumour. RESULTS: In total, 447 invasive breast cancers detected on CESM with pathological evidence, in 389 patients, which represented 2460 images analysed, were included. Concerning the ER, the deep learning model on the DES images had an AUC of 0.83 with the image-by-image analysis and of 0.85 for the majority voting. For the triple-negative analysis, a high AUC was observable for all models, in particularity for the model on LE images with an AUC of 0.90 for the image-by-image analysis and 0.91 for the majority voting. The AUC for the other histoprognostic factors was lower. CONCLUSION: Deep learning analysis on CESM has the potential to determine histoprognostic tumours makers, notably estrogen receptor status, and triple-negative receptor status. KEY POINTS: * A deep learning model developed for chest radiography was adapted by fine-tuning to be used on contrast-enhanced spectral mammography. * The adapted models allowed to determine for invasive breast cancers the status of estrogen receptors and triple-negative receptors. * Such models applied to contrast-enhanced spectral mammography could provide rapid prognostic and predictive information.",
+    "keywords": [
+      "Breast neoplasms",
+      "Deep learning",
+      "Mammography",
+      "Neovascularization",
+      "Pathologic"
+    ],
+    "mesh_terms": [
+      "*Breast Neoplasms/diagnostic imaging/pathology",
+      "Contrast Media",
+      "*Deep Learning",
+      "Female",
+      "Humans",
+      "Mammography/methods",
+      "Receptors, Estrogen",
+      "Retrospective Studies"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dominique, Caroline",
+        "Callonnec, Francoise",
+        "Berghian, Anca",
+        "Defta, Diana",
+        "Vera, Pierre",
+        "Modzelewski, Romain",
+        "Decazes, Pierre"
+      ],
+      "short_names": [
+        "Dominique C",
+        "Callonnec F",
+        "Berghian A",
+        "Defta D",
+        "Vera P",
+        "Modzelewski R",
+        "Decazes P"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5323-9910"
+      ],
+      "affiliations": [
+        "Department of Radiology and Nuclear Medicine, Henri Becquerel Cancer Centre, Rouen, France.",
+        "Department of Radiology and Nuclear Medicine, Henri Becquerel Cancer Centre, Rouen, France.",
+        "Department of Pathology, Henri Becquerel Cancer Centre, Rouen, France.",
+        "Department of Radiology and Nuclear Medicine, Henri Becquerel Cancer Centre, Rouen, France.",
+        "Department of Radiology and Nuclear Medicine, Henri Becquerel Cancer Centre, Rouen, France.",
+        "QuantIF-LITIS EA4108, University of Rouen, Rouen, France.",
+        "Department of Radiology and Nuclear Medicine, Henri Becquerel Cancer Centre, Rouen, France.",
+        "QuantIF-LITIS EA4108, University of Rouen, Rouen, France.",
+        "Department of Radiology and Nuclear Medicine, Henri Becquerel Cancer Centre, Rouen, France. pierre.decazes@chb.unicancer.fr.",
+        "QuantIF-LITIS EA4108, University of Rouen, Rouen, France. pierre.decazes@chb.unicancer.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dominique, Caroline",
+        "short_name": "Dominique C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology and Nuclear Medicine, Henri Becquerel Cancer Centre, Rouen, France."
+        ]
+      },
+      {
+        "full_name": "Callonnec, Françoise",
+        "short_name": "Callonnec F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology and Nuclear Medicine, Henri Becquerel Cancer Centre, Rouen, France."
+        ]
+      },
+      {
+        "full_name": "Berghian, Anca",
+        "short_name": "Berghian A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Henri Becquerel Cancer Centre, Rouen, France."
+        ]
+      },
+      {
+        "full_name": "Defta, Diana",
+        "short_name": "Defta D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology and Nuclear Medicine, Henri Becquerel Cancer Centre, Rouen, France."
+        ]
+      },
+      {
+        "full_name": "Vera, Pierre",
+        "short_name": "Vera P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology and Nuclear Medicine, Henri Becquerel Cancer Centre, Rouen, France.",
+          "QuantIF-LITIS EA4108, University of Rouen, Rouen, France."
+        ]
+      },
+      {
+        "full_name": "Modzelewski, Romain",
+        "short_name": "Modzelewski R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology and Nuclear Medicine, Henri Becquerel Cancer Centre, Rouen, France.",
+          "QuantIF-LITIS EA4108, University of Rouen, Rouen, France."
+        ]
+      },
+      {
+        "full_name": "Decazes, Pierre",
+        "short_name": "Decazes P",
+        "identifiers": [
+          "0000-0001-5323-9910"
+        ],
+        "affiliations": [
+          "Department of Radiology and Nuclear Medicine, Henri Becquerel Cancer Centre, Rouen, France. pierre.decazes@chb.unicancer.fr.",
+          "QuantIF-LITIS EA4108, University of Rouen, Rouen, France. pierre.decazes@chb.unicancer.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European radiology"
+    ],
+    "journal_abbrev": [
+      "Eur Radiol"
+    ],
+    "pub_date": "2022 Jul",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/31 06:00",
+    "fetched_at": "2026-09-28 04:46:35"
+  },
+  "links": {
+    "cites": [
+      "42371243",
+      "41874202",
+      "41827947",
+      "41491736",
+      "41464144",
+      "41329305",
+      "41154441",
+      "40969275",
+      "40950678",
+      "40596940",
+      "40201726",
+      "40137192",
+      "39924532",
+      "38748500",
+      "38249158",
+      "38240867",
+      "37925875",
+      "37691895",
+      "37627859",
+      "37189515",
+      "36553140",
+      "36108478"
+    ],
+    "refs": [
+      "33920221",
+      "31675151",
+      "31549948",
+      "31463822",
+      "31234363",
+      "31080889",
+      "30962168",
+      "30457988",
+      "30367322",
+      "30292910",
+      "29748869",
+      "29279165",
+      "28893303",
+      "28654337",
+      "28379734",
+      "27896471",
+      "27854006",
+      "27687829",
+      "26017442",
+      "25900704",
+      "25813015",
+      "25439988",
+      "24928280",
+      "24792660",
+      "24562447",
+      "24238816",
+      "23867597",
+      "23220903",
+      "22826413",
+      "22527371",
+      "20632057",
+      "18790584"
+    ],
+    "similar": [
+      "35094119",
+      "38641451",
+      "30367322",
+      "31914557",
+      "38810487",
+      "31250270",
+      "35941874",
+      "28941757",
+      "34860417",
+      "27296475",
+      "27896471",
+      "34151880",
+      "25813015",
+      "32014818",
+      "33966155",
+      "29279165",
+      "30240292",
+      "31089850",
+      "24696228",
+      "27097789",
+      "37610440",
+      "27687829",
+      "30150032",
+      "32074407",
+      "30531546",
+      "25469079",
+      "36522478",
+      "26159872",
+      "25127846",
+      "32193892",
+      "34776365",
+      "24048724",
+      "32233072",
+      "32925753",
+      "27466557",
+      "32173716",
+      "33448005",
+      "29451413",
+      "25963880",
+      "24928280",
+      "33911977",
+      "37399083",
+      "36499648",
+      "28155980",
+      "36474057",
+      "27345656",
+      "35066632",
+      "28055247",
+      "27611215",
+      "27452266",
+      "32555338",
+      "35015574",
+      "26942415",
+      "29221721",
+      "27768681",
+      "35711887",
+      "30558495",
+      "34854742",
+      "34509973",
+      "27773458",
+      "30076083",
+      "30309858",
+      "32000448",
+      "37812297",
+      "29058963",
+      "31398111",
+      "29641226",
+      "24986697",
+      "35004294",
+      "28893303",
+      "28723585",
+      "39006260",
+      "29983379",
+      "35241542",
+      "36987842",
+      "34287253",
+      "29748869",
+      "32994388",
+      "35730431",
+      "39231551",
+      "29317041",
+      "29937340",
+      "31332941",
+      "30041953",
+      "38428255",
+      "31600236",
+      "31812577",
+      "26619110",
+      "35324962",
+      "30932687",
+      "33197726",
+      "31228956",
+      "29516362",
+      "38678959",
+      "32366444",
+      "31667873",
+      "25814297",
+      "35354835",
+      "33243676",
+      "32540554",
+      "34590596",
+      "33350778",
+      "27386249",
+      "30063367",
+      "29374745",
+      "28112559",
+      "30962168",
+      "28870431",
+      "27161411",
+      "31197559",
+      "38717291",
+      "31210611",
+      "33648758",
+      "27765597",
+      "25818731",
+      "33496829",
+      "36753450",
+      "36804270",
+      "32957690",
+      "34505960",
+      "34212526",
+      "35936726",
+      "36077871",
+      "38501952",
+      "37988168",
+      "37627859",
+      "36898907",
+      "35691109",
+      "36086472",
+      "33613927",
+      "38082575",
+      "35800216",
+      "38281863",
+      "36758233",
+      "38831336",
+      "36086431",
+      "35876790",
+      "39410643",
+      "37333830",
+      "36553140",
+      "37669090",
+      "36479079",
+      "26158058",
+      "35962988",
+      "37582966",
+      "36542320",
+      "37443642",
+      "26961507",
+      "37655162",
+      "31376021",
+      "35978031",
+      "36945565",
+      "36350116",
+      "39258159",
+      "36611358",
+      "39095659",
+      "31066627",
+      "34845230",
+      "36378037",
+      "38108720",
+      "38262145",
+      "36448999",
+      "37035433",
+      "36803003"
+    ],
+    "review": [
+      "35094119",
+      "35941874",
+      "32233072",
+      "29983379",
+      "39231551",
+      "29317041",
+      "29937340",
+      "31332941",
+      "33197726",
+      "32540554",
+      "30962168",
+      "27161411"
+    ],
+    "pmc": [
+      "8800426"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/breastcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Breast Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35094119/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00330-022-08538-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35094119",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERBB2-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-192",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

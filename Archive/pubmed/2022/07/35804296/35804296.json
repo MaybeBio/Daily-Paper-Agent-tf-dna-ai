@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "35804296",
+    "doi": "10.1186/s12864-022-08664-9",
+    "title": "Comparative genomic analysis of the human genome and six bat genomes using unsupervised machine learning: Mb-level CpG and TFBS islands."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Emerging infectious disease-causing RNA viruses, such as the SARS-CoV-2 and Ebola viruses, are thought to rely on bats as natural reservoir hosts. Since these zoonotic viruses pose a great threat to humans, it is important to characterize the bat genome from multiple perspectives. Unsupervised machine learning methods for extracting novel information from big sequence data without prior knowledge or particular models are highly desirable for obtaining unexpected insights. We previously established a batch-learning self-organizing map (BLSOM) of the oligonucleotide composition that reveals novel genome characteristics from big sequence data. RESULTS: In this study, using the oligonucleotide BLSOM, we conducted a comparative genomic study of humans and six bat species. BLSOM is an explainable-type machine learning algorithm that reveals the diagnostic oligonucleotides contributing to sequence clustering (self-organization). When unsupervised machine learning reveals unexpected and/or characteristic features, these features can be studied in more detail via the much simpler and more direct standard distribution map method. Based on this combined strategy, we identified the Mb-level enrichment of CG dinucleotide (Mb-level CpG islands) around the termini of bat long-scaffold sequences. In addition, a class of CG-containing oligonucleotides were enriched in the centromeric and pericentromeric regions of human chromosomes. Oligonucleotides longer than tetranucleotides often represent binding motifs for a wide variety of proteins (e.g., transcription factor binding sequences (TFBSs)). By analyzing the penta- and hexanucleotide composition, we observed the evident enrichment of a wide range of hexanucleotide TFBSs in centromeric and pericentromeric heterochromatin regions on all human chromosomes. CONCLUSION: Function of transcription factors (TFs) beyond their known regulation of gene expression (e.g., TF-mediated looping interactions between two different genomic regions) has received wide attention. The Mb-level TFBS and CpG islands are thought to be involved in the large-scale nuclear organization, such as centromere and telomere clustering. TFBSs, which are enriched in centromeric and pericentromeric heterochromatin regions, are thought to play an important role in the formation of nuclear 3D structures. Our machine learning-based analysis will help us to understand the differential features of nuclear 3D structures in the human and bat genomes.",
+    "keywords": [
+      "Artificial intelligence",
+      "Centromeric heterochromatin",
+      "Machine learning",
+      "Oligonucleotide composition",
+      "SARS-CoV-2",
+      "Self-organizing map"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*COVID-19/transmission",
+      "Chiroptera/*genetics/virology",
+      "CpG Islands",
+      "Genome, Human/*genetics",
+      "Genomics/methods",
+      "Heterochromatin/chemistry/genetics",
+      "Humans",
+      "Molecular Conformation",
+      "Oligonucleotides/chemistry",
+      "SARS-CoV-2/*physiology",
+      "Unsupervised Machine Learning"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Iwasaki, Yuki",
+        "Ikemura, Toshimichi",
+        "Wada, Kennosuke",
+        "Wada, Yoshiko",
+        "Abe, Takashi"
+      ],
+      "short_names": [
+        "Iwasaki Y",
+        "Ikemura T",
+        "Wada K",
+        "Wada Y",
+        "Abe T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Tamura-cho 1266, Nagahama-shi, Shiga-ken, 526-0829, Japan.",
+        "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Tamura-cho 1266, Nagahama-shi, Shiga-ken, 526-0829, Japan. t_ikemura@nagahama-i-bio.ac.jp.",
+        "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Tamura-cho 1266, Nagahama-shi, Shiga-ken, 526-0829, Japan.",
+        "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Tamura-cho 1266, Nagahama-shi, Shiga-ken, 526-0829, Japan.",
+        "Smart Information Systems, Faculty of Engineering, Niigata University, Niigata-ken, 950-2181, Japan. takaabe@ie.niigata-u.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Iwasaki, Yuki",
+        "short_name": "Iwasaki Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Tamura-cho 1266, Nagahama-shi, Shiga-ken, 526-0829, Japan."
+        ]
+      },
+      {
+        "full_name": "Ikemura, Toshimichi",
+        "short_name": "Ikemura T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Tamura-cho 1266, Nagahama-shi, Shiga-ken, 526-0829, Japan. t_ikemura@nagahama-i-bio.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Wada, Kennosuke",
+        "short_name": "Wada K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Tamura-cho 1266, Nagahama-shi, Shiga-ken, 526-0829, Japan."
+        ]
+      },
+      {
+        "full_name": "Wada, Yoshiko",
+        "short_name": "Wada Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Tamura-cho 1266, Nagahama-shi, Shiga-ken, 526-0829, Japan."
+        ]
+      },
+      {
+        "full_name": "Abe, Takashi",
+        "short_name": "Abe T",
+        "identifiers": [],
+        "affiliations": [
+          "Smart Information Systems, Faculty of Engineering, Niigata University, Niigata-ken, 950-2181, Japan. takaabe@ie.niigata-u.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC genomics"
+    ],
+    "journal_abbrev": [
+      "BMC Genomics"
+    ],
+    "pub_date": "2022 Jul 8",
+    "pub_year": "2022",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/09 06:00",
+    "fetched_at": "2026-09-28 10:37:07"
+  },
+  "links": {
+    "cites": [
+      "39397797",
+      "38464746"
+    ],
+    "refs": [
+      "35272618",
+      "34565757",
+      "34493367",
+      "33757449",
+      "33712508",
+      "33680474",
+      "33545556",
+      "33067384",
+      "33015010",
+      "32793182",
+      "32704018",
+      "32699395",
+      "32581081",
+      "32528128",
+      "32161227",
+      "29722887",
+      "28406740",
+      "27510565",
+      "27259200",
+      "26119665",
+      "25948244",
+      "25788984",
+      "24055950",
+      "23896648",
+      "23230266",
+      "23180783",
+      "22955621",
+      "22495300",
+      "22334039",
+      "21576262",
+      "21497937",
+      "21295369",
+      "19815776",
+      "19506892",
+      "19234478",
+      "16769690",
+      "16364569",
+      "16137622",
+      "15509609",
+      "15071554",
+      "12671005",
+      "11850619",
+      "11591475",
+      "9928479",
+      "4001930",
+      "3916708",
+      "2030938"
+    ],
+    "similar": [
+      "35804296",
+      "32161227",
+      "38464746",
+      "34565757",
+      "26119665",
+      "35272618",
+      "24804244",
+      "23896648",
+      "33712508",
+      "28344190",
+      "23964903",
+      "27694768",
+      "21548945",
+      "15961467",
+      "22073375",
+      "28251877",
+      "32289821",
+      "33757449",
+      "32592038",
+      "24184128",
+      "32968009",
+      "32656668",
+      "34639103",
+      "35467426",
+      "26378164",
+      "33067384",
+      "32893295",
+      "35599960",
+      "29669833",
+      "18252004",
+      "12671005",
+      "34253798",
+      "11673404",
+      "33468689",
+      "28710271",
+      "32473977",
+      "26330152",
+      "28916913",
+      "35700806",
+      "40458961",
+      "32645523",
+      "33562073",
+      "19412885",
+      "22716473",
+      "32470173",
+      "29605846",
+      "29137603",
+      "29237829",
+      "16364569",
+      "21689477",
+      "22745230",
+      "39880942",
+      "40619741",
+      "33522164",
+      "33711012",
+      "20926577",
+      "23519616",
+      "24172901",
+      "39257377",
+      "28077633",
+      "24741568",
+      "36859385",
+      "32719664",
+      "24368540",
+      "40827904",
+      "17187565",
+      "32011232",
+      "26363799",
+      "24736527",
+      "36625641",
+      "32725795",
+      "36287057",
+      "34696392",
+      "28381569",
+      "32699095",
+      "32646049",
+      "31076983",
+      "34930241",
+      "18477403",
+      "28490593",
+      "33216750",
+      "32317409",
+      "34511707",
+      "36040175",
+      "33782990",
+      "36440480",
+      "33185145",
+      "39530650",
+      "33522461",
+      "35637279",
+      "41022589",
+      "40339581",
+      "40704806",
+      "37199653",
+      "32699395",
+      "33476695",
+      "26495297",
+      "34357528",
+      "30426315",
+      "28335731"
+    ],
+    "review": [
+      "35804296",
+      "34565757",
+      "27694768",
+      "24184128",
+      "11673404",
+      "26330152",
+      "19412885",
+      "40619741",
+      "17187565",
+      "26363799",
+      "36625641"
+    ],
+    "pmc": [
+      "9264310"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-022-08664-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35804296/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35804296",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

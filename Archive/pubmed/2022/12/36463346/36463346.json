@@ -1,0 +1,452 @@
+{
+  "identity": {
+    "pmid": "36463346",
+    "doi": "10.1038/s42003-022-04292-x",
+    "title": "Volumetric imaging of fast cellular dynamics with deep learning enhanced bioluminescence microscopy."
+  },
+  "content": {
+    "abstract": "Bioluminescence microscopy is an appealing alternative to fluorescence microscopy, because it does not depend on external illumination, and consequently does neither produce spurious background autofluorescence, nor perturb intrinsically photosensitive processes in living cells and animals. The low photon emission of known luciferases, however, demands long exposure times that are prohibitive for imaging fast biological dynamics. To increase the versatility of bioluminescence microscopy, we present an improved low-light microscope in combination with deep learning methods to image extremely photon-starved samples enabling subsecond exposures for timelapse and volumetric imaging. We apply our method to image subcellular dynamics in mouse embryonic stem cells, epithelial morphology during zebrafish development, and DAF-16 FoxO transcription factor shuttling from the cytoplasm to the nucleus under external stress. Finally, we concatenate neural networks for denoising and light-field deconvolution to resolve intracellular calcium dynamics in three dimensions of freely moving Caenorhabditis elegans.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Deep Learning",
+      "Zebrafish",
+      "Cytoplasm",
+      "Cell Nucleus",
+      "Microscopy, Fluorescence",
+      "Caenorhabditis elegans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Morales-Curiel, Luis Felipe",
+        "Gonzalez, Adriana Carolina",
+        "Castro-Olvera, Gustavo",
+        "Lin, Li-Chun Lynn",
+        "El-Quessny, Malak",
+        "Porta-de-la-Riva, Montserrat",
+        "Severino, Jacqueline",
+        "Morera, Laura Battle",
+        "Venturini, Valeria",
+        "Ruprecht, Verena",
+        "Ramallo, Diego",
+        "Loza-Alvarez, Pablo",
+        "Krieg, Michael"
+      ],
+      "short_names": [
+        "Morales-Curiel LF",
+        "Gonzalez AC",
+        "Castro-Olvera G",
+        "Lin LL",
+        "El-Quessny M",
+        "Porta-de-la-Riva M",
+        "Severino J",
+        "Morera LB",
+        "Venturini V",
+        "Ruprecht V",
+        "Ramallo D",
+        "Loza-Alvarez P",
+        "Krieg M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3025-6627",
+        "ORCID: 0000-0001-6959-0342",
+        "ORCID: 0000-0003-2526-6473",
+        "ORCID: 0000-0003-4088-8633",
+        "ORCID: 0000-0002-3129-1213",
+        "ORCID: 0000-0003-0501-5036"
+      ],
+      "affiliations": [
+        "ICFO, Institut de Ciencies Fotoniques, Castelldefels, Spain.",
+        "ICFO, Institut de Ciencies Fotoniques, Castelldefels, Spain.",
+        "ICFO, Institut de Ciencies Fotoniques, Castelldefels, Spain.",
+        "ICFO, Institut de Ciencies Fotoniques, Castelldefels, Spain.",
+        "ICFO, Institut de Ciencies Fotoniques, Castelldefels, Spain.",
+        "ICFO, Institut de Ciencies Fotoniques, Castelldefels, Spain.",
+        "Center for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+        "Center for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+        "Center for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+        "Universitat Pompeu Fabra (UPF), Barcelona, Spain.",
+        "Center for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+        "Universitat Pompeu Fabra (UPF), Barcelona, Spain.",
+        "ICREA, Pg. Lluis Companys 23, 08010, Barcelona, Spain.",
+        "ICFO, Institut de Ciencies Fotoniques, Castelldefels, Spain.",
+        "ICFO, Institut de Ciencies Fotoniques, Castelldefels, Spain.",
+        "ICFO, Institut de Ciencies Fotoniques, Castelldefels, Spain. michael.krieg@icfo.eu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Morales-Curiel, Luis Felipe",
+        "short_name": "Morales-Curiel LF",
+        "identifiers": [],
+        "affiliations": [
+          "ICFO, Institut de Ciencies Fotòniques, Castelldefels, Spain."
+        ]
+      },
+      {
+        "full_name": "Gonzalez, Adriana Carolina",
+        "short_name": "Gonzalez AC",
+        "identifiers": [],
+        "affiliations": [
+          "ICFO, Institut de Ciencies Fotòniques, Castelldefels, Spain."
+        ]
+      },
+      {
+        "full_name": "Castro-Olvera, Gustavo",
+        "short_name": "Castro-Olvera G",
+        "identifiers": [],
+        "affiliations": [
+          "ICFO, Institut de Ciencies Fotòniques, Castelldefels, Spain."
+        ]
+      },
+      {
+        "full_name": "Lin, Li-Chun Lynn",
+        "short_name": "Lin LL",
+        "identifiers": [
+          "0000-0002-3025-6627"
+        ],
+        "affiliations": [
+          "ICFO, Institut de Ciencies Fotòniques, Castelldefels, Spain."
+        ]
+      },
+      {
+        "full_name": "El-Quessny, Malak",
+        "short_name": "El-Quessny M",
+        "identifiers": [],
+        "affiliations": [
+          "ICFO, Institut de Ciencies Fotòniques, Castelldefels, Spain."
+        ]
+      },
+      {
+        "full_name": "Porta-de-la-Riva, Montserrat",
+        "short_name": "Porta-de-la-Riva M",
+        "identifiers": [],
+        "affiliations": [
+          "ICFO, Institut de Ciencies Fotòniques, Castelldefels, Spain."
+        ]
+      },
+      {
+        "full_name": "Severino, Jacqueline",
+        "short_name": "Severino J",
+        "identifiers": [
+          "0000-0001-6959-0342"
+        ],
+        "affiliations": [
+          "Center for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Morera, Laura Battle",
+        "short_name": "Morera LB",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Venturini, Valeria",
+        "short_name": "Venturini V",
+        "identifiers": [
+          "0000-0003-2526-6473"
+        ],
+        "affiliations": [
+          "Center for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+          "Universitat Pompeu Fabra (UPF), Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Ruprecht, Verena",
+        "short_name": "Ruprecht V",
+        "identifiers": [
+          "0000-0003-4088-8633"
+        ],
+        "affiliations": [
+          "Center for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Barcelona, Spain.",
+          "Universitat Pompeu Fabra (UPF), Barcelona, Spain.",
+          "ICREA, Pg. Lluis Companys 23, 08010, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Ramallo, Diego",
+        "short_name": "Ramallo D",
+        "identifiers": [],
+        "affiliations": [
+          "ICFO, Institut de Ciencies Fotòniques, Castelldefels, Spain."
+        ]
+      },
+      {
+        "full_name": "Loza-Alvarez, Pablo",
+        "short_name": "Loza-Alvarez P",
+        "identifiers": [
+          "0000-0002-3129-1213"
+        ],
+        "affiliations": [
+          "ICFO, Institut de Ciencies Fotòniques, Castelldefels, Spain."
+        ]
+      },
+      {
+        "full_name": "Krieg, Michael",
+        "short_name": "Krieg M",
+        "identifiers": [
+          "0000-0003-0501-5036"
+        ],
+        "affiliations": [
+          "ICFO, Institut de Ciencies Fotòniques, Castelldefels, Spain. michael.krieg@icfo.eu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2022 Dec 3",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/04 06:00",
+    "fetched_at": "2026-09-28 16:58:39"
+  },
+  "links": {
+    "cites": [
+      "41943216",
+      "41098742",
+      "40727716",
+      "39841832",
+      "39338785",
+      "38550774",
+      "38348359",
+      "38172626",
+      "38063774",
+      "37024655",
+      "37024651"
+    ],
+    "refs": [
+      "37118010",
+      "35752974",
+      "35484097",
+      "35236536",
+      "35154871",
+      "35017641",
+      "34887255",
+      "34542528",
+      "34327282",
+      "34154169",
+      "33963344",
+      "33859193",
+      "33686300",
+      "33674797",
+      "33574612",
+      "32587275",
+      "32240414",
+      "31765054",
+      "31684394",
+      "31308370",
+      "31285623",
+      "31217592",
+      "30882838",
+      "30559434",
+      "30478326",
+      "30073182",
+      "29522556",
+      "28782018",
+      "28663885",
+      "28661494",
+      "28207921",
+      "28057586",
+      "27966527",
+      "27713081",
+      "27529868",
+      "27412086",
+      "27226972",
+      "27070172",
+      "26733686",
+      "26444300",
+      "26225810",
+      "25831507",
+      "25322056",
+      "24836920",
+      "24668170",
+      "24386879",
+      "24150383",
+      "23164087",
+      "22954534",
+      "22894855",
+      "22710399",
+      "22388287",
+      "22201535",
+      "21956170",
+      "19615905",
+      "18267377",
+      "18050451",
+      "17785409",
+      "17563383",
+      "17360545",
+      "16341788",
+      "15376593",
+      "14615590",
+      "14535891",
+      "12750521",
+      "9360933",
+      "8589427"
+    ],
+    "similar": [
+      "36463346",
+      "38755148",
+      "33574612",
+      "32949409",
+      "33484746",
+      "16457721",
+      "32077244",
+      "34796706",
+      "29168308",
+      "31686039",
+      "34486609",
+      "33963344",
+      "36056020",
+      "31562489",
+      "32601431",
+      "31152844",
+      "28940068",
+      "38348359",
+      "31548281",
+      "37475396",
+      "38078150",
+      "24836920",
+      "37824003",
+      "26844322",
+      "31233035",
+      "26974063",
+      "36853699",
+      "17551714",
+      "31578369",
+      "24386879",
+      "33502895",
+      "33018967",
+      "38086994",
+      "34059829",
+      "33654671",
+      "35098941",
+      "33629685",
+      "16973122",
+      "18241854",
+      "37202407",
+      "33288755",
+      "34035309",
+      "37884795",
+      "34894114",
+      "35766819",
+      "35314838",
+      "22006307",
+      "29995960",
+      "32720710",
+      "29957200",
+      "35588399",
+      "36163547",
+      "20620993",
+      "34615335",
+      "28506879",
+      "33408995",
+      "25342811",
+      "33502121",
+      "24254253",
+      "32778840",
+      "35209312",
+      "29784920",
+      "30423886",
+      "30203569",
+      "36203012",
+      "25893952",
+      "23733789",
+      "23805378",
+      "21765409",
+      "32321916",
+      "23786484",
+      "19581102",
+      "16631585",
+      "33452862",
+      "34780472",
+      "17020605",
+      "10544332",
+      "29433733",
+      "12880342",
+      "34675482",
+      "36248666",
+      "36658278",
+      "31661595",
+      "38799979",
+      "31385482",
+      "15205338",
+      "31954516",
+      "23912807",
+      "30710076",
+      "33707014",
+      "27004937",
+      "26358822",
+      "22069193",
+      "17098225",
+      "34459808",
+      "12142026"
+    ],
+    "review": [
+      "36463346",
+      "35766819"
+    ],
+    "pmc": [
+      "9719505"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-022-04292-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36463346/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36463346",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/36463346",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

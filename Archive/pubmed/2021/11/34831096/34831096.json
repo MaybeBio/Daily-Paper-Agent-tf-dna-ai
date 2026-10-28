@@ -1,0 +1,413 @@
+{
+  "identity": {
+    "pmid": "34831096",
+    "doi": "10.3390/cells10112873",
+    "title": "Transcriptomic-Based Identification of the Immuno-Oncogenic Signature of Cholangiocarcinoma for HLC-018 Multi-Target Therapy Exploration."
+  },
+  "content": {
+    "abstract": "Cholangiocarcinomas (CHOLs), hepatobiliary malignancies, are characterized by high genetic heterogeneity, a rich tumor microenvironment, therapeutic resistance, difficulty diagnosing, and poor prognoses. Current knowledge of genetic alterations and known molecular markers for CHOL is insufficient, necessitating the need for further evaluation of the genome and RNA expression data in order to identify potential therapeutic targets, clarify the roles of these targets in the tumor microenvironment, and explore novel therapeutic drugs against the identified targets. Consequently, in our attempt to explore novel genetic markers associated with the carcinogenesis of CHOL, five genes (SNX15, ATP2A1, PDCD10, BET1, and HMGA2), collectively termed CHOL-hub genes, were identified via integration of differentially expressed genes (DEGs) from relatively large numbers of samples from CHOL GEO datasets. We further explored the biological functions of the CHOL-hub genes and found significant enrichment in several biological process and pathways associated with stem cell angiogenesis, cell proliferation, and cancer development, while the interaction network revealed high genetic interactions with a number of onco-functional genes. In addition, we established associations between the CHOL-hub genes and tumor progression, metastasis, tumor immune and immunosuppressive cell infiltration, dysfunctional T-cell phenotypes, poor prognoses, and therapeutic resistance in CHOL. Thus, we proposed that targeting CHOL-hub genes could be an ideal therapeutic approach for treating CHOLs, and we explored the potential of HLC-018, a novel benzamide-linked small molecule, using molecular docking of ligand-receptor interactions. To our delight, HLC-018 was well accommodated with high binding affinities to binding pockets of CHOL-hub genes; more importantly, we found specific interactions of HLC-018 with the conserved sequence of the AT-hook DNA-binding motif of HMGA2. Altogether, our study provides insights into the immune-oncogenic phenotypes of CHOL and provides valuable information for our ongoing experimental validation.",
+    "keywords": [
+      "CHOL-hub gene",
+      "cholangiocarcinoma",
+      "molecular docking",
+      "receptor-ligand interaction",
+      "therapeutic resistance",
+      "tumor microenvironment"
+    ],
+    "mesh_terms": [
+      "AT-Hook Motifs",
+      "Benzamides/chemistry/*pharmacology/therapeutic use",
+      "Biomarkers, Tumor/metabolism",
+      "Cell Line, Tumor",
+      "Cholangiocarcinoma/drug therapy/*genetics/*immunology/pathology",
+      "DNA Methylation/drug effects/genetics",
+      "Disease Progression",
+      "Gene Expression Profiling",
+      "Gene Expression Regulation, Neoplastic/drug effects",
+      "Gene Regulatory Networks",
+      "HMGA2 Protein/chemistry",
+      "Humans",
+      "Immunophenotyping",
+      "Ligands",
+      "Molecular Docking Simulation",
+      "Neoplasm Metastasis",
+      "Neoplasm Proteins/genetics/metabolism",
+      "*Oncogenes",
+      "Prognosis",
+      "RNA, Messenger/genetics/metabolism",
+      "Risk Factors",
+      "Small Molecule Libraries/chemistry/pharmacology",
+      "Transcriptome/*genetics",
+      "Treatment Outcome"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lawal, Bashir",
+        "Kuo, Yu-Cheng",
+        "Tang, Sung-Ling",
+        "Liu, Feng-Cheng",
+        "Wu, Alexander T H",
+        "Lin, Hung-Yun",
+        "Huang, Hsu-Shan"
+      ],
+      "short_names": [
+        "Lawal B",
+        "Kuo YC",
+        "Tang SL",
+        "Liu FC",
+        "Wu ATH",
+        "Lin HY",
+        "Huang HS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0676-5875",
+        "ORCID: 0000-0002-0178-6530",
+        "ORCID: 0000-0001-6193-5182"
+      ],
+      "affiliations": [
+        "PhD Program for Cancer Molecular Biology and Drug Discovery, College of Medical Science and Technology, Taipei Medical University and Academia Sinica, Taipei 11031, Taiwan.",
+        "Graduate Institute of Cancer Biology & Drug Discovery, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Department of Pharmacology, School of Medicine, College of Medicine, Taipei Medical University, Taipei 11031, Taiwan.",
+        "School of Post-baccalaureate Chinese Medicine, College of Chinese Medicine, China Medical University, Taichung 40402, Taiwan.",
+        "Department of Pharmacy Practice, Tri-Service General Hospital, School of Pharmacy, National Defense Medical Center, Taipei 11490, Taiwan.",
+        "Department of Rheumatology/Immunology and Allergy, Department of Medicine, Tri-Service General Hospital, National Defense Medical Center, Taipei 114, Taiwan.",
+        "The PhD Program of Translational Medicine, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Clinical Research Center, Taipei Medical University Hospital, Taipei Medical University, Taipei 11031, Taiwan.",
+        "TMU Research Center of Cancer Translational Medicine, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Traditional Herbal Medicine Research Center of Taipei Medical University Hospital, Taipei Medical University, Taipei 11031, Taiwan.",
+        "PhD Program for Cancer Molecular Biology and Drug Discovery, College of Medical Science and Technology, Taipei Medical University and Academia Sinica, Taipei 11031, Taiwan.",
+        "Graduate Institute of Cancer Biology & Drug Discovery, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+        "TMU Research Center of Cancer Translational Medicine, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Traditional Herbal Medicine Research Center of Taipei Medical University Hospital, Taipei Medical University, Taipei 11031, Taiwan.",
+        "PhD Program for Cancer Molecular Biology and Drug Discovery, College of Medical Science and Technology, Taipei Medical University and Academia Sinica, Taipei 11031, Taiwan.",
+        "Graduate Institute of Cancer Biology & Drug Discovery, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+        "Graduate Institute of Medical Sciences, National Defense Medical Center, Taipei 11490, Taiwan.",
+        "PhD Program in Drug Discovery and Development Industry, College of Pharmacy, Taipei Medical University, Taipei 11031, Taiwan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lawal, Bashir",
+        "short_name": "Lawal B",
+        "identifiers": [
+          "0000-0003-0676-5875"
+        ],
+        "affiliations": [
+          "PhD Program for Cancer Molecular Biology and Drug Discovery, College of Medical Science and Technology, Taipei Medical University and Academia Sinica, Taipei 11031, Taiwan.",
+          "Graduate Institute of Cancer Biology & Drug Discovery, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Kuo, Yu-Cheng",
+        "short_name": "Kuo YC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Medicine, College of Medicine, Taipei Medical University, Taipei 11031, Taiwan.",
+          "School of Post-baccalaureate Chinese Medicine, College of Chinese Medicine, China Medical University, Taichung 40402, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Tang, Sung-Ling",
+        "short_name": "Tang SL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy Practice, Tri-Service General Hospital, School of Pharmacy, National Defense Medical Center, Taipei 11490, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Liu, Feng-Cheng",
+        "short_name": "Liu FC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology/Immunology and Allergy, Department of Medicine, Tri-Service General Hospital, National Defense Medical Center, Taipei 114, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Wu, Alexander T H",
+        "short_name": "Wu ATH",
+        "identifiers": [
+          "0000-0002-0178-6530"
+        ],
+        "affiliations": [
+          "The PhD Program of Translational Medicine, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+          "Clinical Research Center, Taipei Medical University Hospital, Taipei Medical University, Taipei 11031, Taiwan.",
+          "TMU Research Center of Cancer Translational Medicine, Taipei Medical University, Taipei 11031, Taiwan.",
+          "Traditional Herbal Medicine Research Center of Taipei Medical University Hospital, Taipei Medical University, Taipei 11031, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lin, Hung-Yun",
+        "short_name": "Lin HY",
+        "identifiers": [],
+        "affiliations": [
+          "PhD Program for Cancer Molecular Biology and Drug Discovery, College of Medical Science and Technology, Taipei Medical University and Academia Sinica, Taipei 11031, Taiwan.",
+          "Graduate Institute of Cancer Biology & Drug Discovery, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+          "TMU Research Center of Cancer Translational Medicine, Taipei Medical University, Taipei 11031, Taiwan.",
+          "Traditional Herbal Medicine Research Center of Taipei Medical University Hospital, Taipei Medical University, Taipei 11031, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Huang, Hsu-Shan",
+        "short_name": "Huang HS",
+        "identifiers": [
+          "0000-0001-6193-5182"
+        ],
+        "affiliations": [
+          "PhD Program for Cancer Molecular Biology and Drug Discovery, College of Medical Science and Technology, Taipei Medical University and Academia Sinica, Taipei 11031, Taiwan.",
+          "Graduate Institute of Cancer Biology & Drug Discovery, College of Medical Science and Technology, Taipei Medical University, Taipei 11031, Taiwan.",
+          "Graduate Institute of Medical Sciences, National Defense Medical Center, Taipei 11490, Taiwan.",
+          "PhD Program in Drug Discovery and Development Industry, College of Pharmacy, Taipei Medical University, Taipei 11031, Taiwan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cells"
+    ],
+    "journal_abbrev": [
+      "Cells"
+    ],
+    "pub_date": "2021 Oct 25",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/28 06:00",
+    "fetched_at": "2026-09-28 02:10:34"
+  },
+  "links": {
+    "cites": [
+      "41396385",
+      "41246353",
+      "37697373",
+      "37560206",
+      "37555920",
+      "37424807",
+      "37373393",
+      "37238941",
+      "36777994",
+      "36533882",
+      "36504887",
+      "36497468",
+      "35941904",
+      "35841781",
+      "35783262",
+      "35655775",
+      "35496049",
+      "35205190",
+      "34916823",
+      "34829812"
+    ],
+    "refs": [
+      "34683848",
+      "34584637",
+      "34421361",
+      "34359748",
+      "33842373",
+      "33668805",
+      "33578820",
+      "33477856",
+      "33327484",
+      "33215952",
+      "32842685",
+      "32806956",
+      "32560222",
+      "32524571",
+      "32483426",
+      "32415241",
+      "32102694",
+      "31432151",
+      "30550624",
+      "30408026",
+      "30272373",
+      "29790900",
+      "29757957",
+      "29603892",
+      "29092952",
+      "29049401",
+      "29032717",
+      "28994423",
+      "28732212",
+      "28007839",
+      "27362807",
+      "27141961",
+      "26838127",
+      "26771762",
+      "26576432",
+      "26081760",
+      "26005025",
+      "25956199",
+      "25873628",
+      "25799376",
+      "24732808",
+      "24581682",
+      "24140396",
+      "24066126",
+      "23765903",
+      "23722545",
+      "23586463",
+      "22889332",
+      "22722403",
+      "22455463",
+      "22396044",
+      "21808282",
+      "20145299",
+      "19804981",
+      "19499576",
+      "18613948",
+      "17457168",
+      "17437991",
+      "17109384",
+      "16788161",
+      "16136652",
+      "15519160",
+      "11406267"
+    ],
+    "similar": [
+      "34831096",
+      "34426102",
+      "36158120",
+      "34880328",
+      "38702814",
+      "33327311",
+      "38387122",
+      "30272356",
+      "32271791",
+      "32435051",
+      "31545466",
+      "33841428",
+      "33221765",
+      "36936916",
+      "35562622",
+      "32116234",
+      "34261404",
+      "39118438",
+      "34968391",
+      "28098904",
+      "34187556",
+      "38937666",
+      "37859283",
+      "36171401",
+      "31987036",
+      "34230220",
+      "37534476",
+      "37212262",
+      "31500382",
+      "39052109",
+      "31081184",
+      "36224755",
+      "34893046",
+      "31233342",
+      "28162004",
+      "33376723",
+      "29377892",
+      "39048164",
+      "29436659",
+      "37193981",
+      "35758372",
+      "36291136",
+      "37476584",
+      "32756534",
+      "34072728",
+      "38300311",
+      "26498995",
+      "34218797",
+      "20096135",
+      "39139563",
+      "31950035",
+      "35672673",
+      "29956786",
+      "38717954",
+      "36061357",
+      "30937635",
+      "34406386",
+      "33946043",
+      "39097557",
+      "34211100",
+      "23922722",
+      "32546690",
+      "38913913",
+      "30975489",
+      "32368784",
+      "35906389",
+      "34491228",
+      "28914394",
+      "27572852",
+      "33514440",
+      "33051665",
+      "31390578",
+      "34359748",
+      "37969393",
+      "33145351",
+      "30365134",
+      "31127628",
+      "38416277",
+      "31871312",
+      "32662828",
+      "32716559",
+      "38863714",
+      "29870138",
+      "36705386",
+      "32743717",
+      "30664180",
+      "33685460",
+      "33650665",
+      "29845250",
+      "33859751",
+      "34979994",
+      "30431072",
+      "39080525",
+      "33217867",
+      "30132881",
+      "34296309",
+      "28923203",
+      "32862390",
+      "31724326",
+      "37893423",
+      "33139812",
+      "39355132"
+    ],
+    "review": [
+      "34831096",
+      "37859283"
+    ],
+    "pmc": [
+      "8616156"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cells10112873",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34831096/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34831096",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

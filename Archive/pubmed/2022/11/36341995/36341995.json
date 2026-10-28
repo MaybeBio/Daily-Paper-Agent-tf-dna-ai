@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "36341995",
+    "doi": "10.1016/j.ajpath.2022.09.013",
+    "title": "Use of Artificial Intelligence for the Interpretable Prediction of the Pathologic Diagnosis and Molecular Abnormalities of Flat Urothelial Lesions."
+  },
+  "content": {
+    "abstract": "Flat urothelial lesions are important because of their potential for carcinogenesis and development into invasive urothelial carcinomas. However, it is difficult for pathologists to detect early flat urothelial changes and accurately diagnose flat urothelial lesions. To predict the pathologic diagnosis and molecular abnormalities of flat urothelial lesions from pathologic images, artificial intelligence with an interpretable method was used. Next-generation sequencing on 110 hematoxylin and eosin-stained slides of normal urothelium and flat urothelial lesions, including atypical urothelium, dysplasia, and carcinoma in situ, detected 17 types of molecular abnormalities. To generate an interpretable prediction, a new method for segmenting urothelium and a new pathologic criteria-based artificial intelligence (PCB-AI) model was developed. kappa Statistics and accuracy measurements were used to evaluate the ability of the model to predict the pathologic diagnosis. The likelihood ratio test was performed to evaluate the logistic regression models for predicting molecular abnormalities. The diagnostic prediction of the PCB-AI model was almost in perfect agreement with the pathologists' diagnoses (weighted kappa = 0.98). PCB-AI significantly predicted some molecular abnormalities in an interpretable manner, including abnormalities of TP53 (P = 0.02), RB1 (P = 0.04), and ERCC2 (P = 0.04). Thus, this study developed a new method of obtaining accurate urothelial segmentation, interpretable prediction of pathologic diagnosis, and interpretable prediction of molecular abnormalities.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Urothelium/pathology",
+      "Artificial Intelligence",
+      "*Urinary Bladder Neoplasms/pathology",
+      "*Carcinoma, Transitional Cell/pathology",
+      "*Carcinoma in Situ/pathology",
+      "Xeroderma Pigmentosum Group D Protein"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nishikawa, Toui",
+        "Matsuzaki, Ibu",
+        "Ryuta, Iwamoto",
+        "Musangile, Fidele Y",
+        "Sagan, Kanako",
+        "Nishikawa, Mizuki",
+        "Mikasa, Yurina",
+        "Takahashi, Yuichi",
+        "Kojima, Fumiyoshi",
+        "Murata, Shin-Ichi"
+      ],
+      "short_names": [
+        "Nishikawa T",
+        "Matsuzaki I",
+        "Ryuta I",
+        "Musangile FY",
+        "Sagan K",
+        "Nishikawa M",
+        "Mikasa Y",
+        "Takahashi Y",
+        "Kojima F",
+        "Murata SI"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan.",
+        "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan.",
+        "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan.",
+        "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan.",
+        "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan.",
+        "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan.",
+        "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan.",
+        "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan.",
+        "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan.",
+        "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan. Electronic address: smurata@wakayama-med.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nishikawa, Toui",
+        "short_name": "Nishikawa T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Matsuzaki, Ibu",
+        "short_name": "Matsuzaki I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Ryuta, Iwamoto",
+        "short_name": "Ryuta I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Musangile, Fidele Y",
+        "short_name": "Musangile FY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Sagan, Kanako",
+        "short_name": "Sagan K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Nishikawa, Mizuki",
+        "short_name": "Nishikawa M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Mikasa, Yurina",
+        "short_name": "Mikasa Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Takahashi, Yuichi",
+        "short_name": "Takahashi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Kojima, Fumiyoshi",
+        "short_name": "Kojima F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan."
+        ]
+      },
+      {
+        "full_name": "Murata, Shin-Ichi",
+        "short_name": "Murata SI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Pathology, Wakayama Medical University, Wakayama, Japan. Electronic address: smurata@wakayama-med.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The American journal of pathology"
+    ],
+    "journal_abbrev": [
+      "Am J Pathol"
+    ],
+    "pub_date": "2023 Jan",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/08 06:00",
+    "fetched_at": "2026-09-28 16:00:09"
+  },
+  "links": {
+    "cites": [
+      "41768416"
+    ],
+    "refs": [],
+    "similar": [
+      "36341995",
+      "38065702",
+      "36812689",
+      "10649257",
+      "21354032",
+      "12743498",
+      "17693577",
+      "24344498",
+      "19368958",
+      "10900613",
+      "35468997",
+      "36197883",
+      "11224606",
+      "33234229",
+      "33472889",
+      "21512109",
+      "12094376",
+      "16819332",
+      "12560385",
+      "35561522",
+      "21756826",
+      "11474293",
+      "24029711",
+      "10872670",
+      "29576423",
+      "19818448",
+      "11144907",
+      "19762067",
+      "30565304",
+      "16121635",
+      "12395372",
+      "30987832",
+      "11567231",
+      "9179970",
+      "11144906",
+      "21091975",
+      "26072632",
+      "6697294",
+      "26811248",
+      "21469424",
+      "35550107",
+      "27299187",
+      "24321464",
+      "38285173",
+      "21531007",
+      "10079249",
+      "12474226",
+      "27357719",
+      "24282911",
+      "27256178",
+      "25854375",
+      "17545560",
+      "32142835",
+      "10021897",
+      "30854907",
+      "11458047",
+      "15821584",
+      "11942574",
+      "14632844",
+      "25096233",
+      "12951678",
+      "36242968",
+      "12094381",
+      "31149909",
+      "17460449",
+      "26459038",
+      "26916953",
+      "23228381",
+      "31368912",
+      "35897708",
+      "16888910",
+      "19854077",
+      "18936687",
+      "32773233",
+      "9179972",
+      "23391471",
+      "24848395",
+      "31300876",
+      "31412169",
+      "22301493",
+      "19949672",
+      "30711015",
+      "32283104",
+      "26860012",
+      "36152841",
+      "27305940",
+      "27838081",
+      "27523968",
+      "35727052",
+      "34665053",
+      "17255776",
+      "25175170",
+      "11295084",
+      "9349903",
+      "19161536",
+      "17979494",
+      "21855380",
+      "23457931",
+      "11360181",
+      "16892551",
+      "37570213",
+      "35716731",
+      "35274903",
+      "39180886",
+      "39167111",
+      "38396472",
+      "39112099",
+      "38893641",
+      "37760487",
+      "39230777",
+      "37547493",
+      "38213488",
+      "38383859",
+      "36997852"
+    ],
+    "review": [
+      "36341995",
+      "21354032",
+      "12743498",
+      "24344498",
+      "10900613",
+      "35468997",
+      "33234229",
+      "12560385",
+      "29576423",
+      "19818448",
+      "11144907",
+      "19762067",
+      "30565304",
+      "30987832",
+      "9179970",
+      "11144906",
+      "21091975",
+      "26072632",
+      "26811248",
+      "17545560",
+      "10021897",
+      "11942574",
+      "31149909",
+      "35897708",
+      "16888910",
+      "9179972",
+      "22301493",
+      "27523968",
+      "17979494",
+      "35716731",
+      "35274903"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0002-9440(22)00326-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bladdercancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bladder Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0002-9440(22)00326-1",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text, including main figures and supplementary figure/table legends, as provided.
+- **Assessment boundary** The scientific claims, methodology, and interpretation presented in the manuscript. No external data or code were assessed.
+- **Shared manuscript claim summary** The authors present a two-layer computational model integrating DNA sequence, TF motifs, TF binding, and histone modification signals to predict chromatin accessibility in GM12878 and HepG2 cell lines. They report that TF and histone modification features are the major determinants of accessibility, identify a core set of five histone-related features (including H2AZ.1) as important, demonstrate redundancy between TF and histone modification signals, and show that models can distinguish TSS-proximal from distal accessible regions.
+- **Visible evidence base** Main text figures 1-7, supplementary figures 1-5, supplementary table 1, and methods section.
+- **Missing materials affecting confidence** Code availability, hyperparameter details for the CNN model, exact feature counts per category, statistical significance tests for AUC comparisons, and details on the "breakdown strategy" for feature removal.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in epigenomics, namely the quantitative contribution of different genomic and epigenomic features to chromatin accessibility. The two-layer modeling approach is reasonable and the finding that TF and histone modification features are dominant predictors is consistent with prior knowledge. However, the manuscript has several technical weaknesses that limit the strength of the conclusions. The lack of statistical comparisons between models, the absence of a clear description of the "breakdown strategy," and the limited validation of model transferability are notable concerns. The claim of identifying "important epigenomic regulators" is only partially supported by the evidence presented, as the analysis is largely correlative and does not establish causal regulatory roles.
+- **Who would be interested in the results, and why** Researchers in computational epigenomics, chromatin biology, and gene regulation would be interested. The framework for integrating diverse epigenomic features could be useful for those studying chromatin state prediction in other cell types or species. The identification of H2AZ.1 as a potentially important global regulator of accessibility may also interest experimental biologists studying histone variants.
+- **Major strengths**
+  - The study systematically compares four feature categories (sequence, motif, TF binding, histone modification) for predicting chromatin accessibility, which is a useful contribution.
+  - The two-layer architecture (CNN for sequence, Random Forest for integration) is a sensible and potentially generalizable approach.
+  - The analysis of feature redundancy between TFs and histone modifications is informative.
+  - The model transfer experiments between cell lines provide some insight into the generality of the findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim that TF and histone modification models achieve higher AUC than sequence or motif models, and that combined models do not improve performance.
+  - **Evidence pointer** Figure 2A-D, location not provided
+  - **Concern** The AUC values are reported as averages from 10-fold cross-validation, but no confidence intervals, standard deviations, or statistical tests (e.g., DeLong test) are provided. It is therefore impossible to assess whether the observed differences between models are statistically significant. The claim that "sequence and motif features did not further improve the prediction accuracy" is not supported without such tests.
+  - **Why it matters** The central conclusion that TFs and histone modifications are the major determinants of accessibility rests on the comparison of model performances. Without statistical validation, the differences could be within the range of random variation.
+  - **Resolution test** Provide confidence intervals or standard deviations for all AUC values and perform pairwise statistical comparisons (e.g., DeLong test or bootstrap) between models. Report p-values or effect sizes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The authors state that a "breakdown strategy" was used to calculate AUC after removing the most important histone modifications, and that removing all five core features heavily weakened prediction.
+  - **Evidence pointer** Figure 3C-D, Methods section, location not provided
+  - **Concern** The "breakdown strategy" is not described in the Methods. It is unclear whether features were removed one at a time, in combination, or in a specific order. The criteria for defining the "core group" of five features are also not explicitly stated beyond their high importance scores. This lack of detail prevents replication.
+  - **Why it matters** The identification of a core set of histone modifications is a key finding. Without a clear description of the feature removal procedure, the robustness of this conclusion cannot be evaluated.
+  - **Resolution test** Provide a detailed description of the breakdown strategy in the Methods, including the order of feature removal, whether it was sequential or combinatorial, and how the "core group" was defined. Consider also reporting the AUC after removing each feature individually and in all possible combinations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** External validity
+  - **Claim pointer** The authors claim that models trained in one cell line can predict chromatin accessibility in another cell line, and that shared TFs were identified.
+  - **Evidence pointer** Figure 3E-F, Figure 5, location not provided
+  - **Concern** The model transfer analysis is limited to two cell lines (GM12878 and HepG2). The claim of "shared TFs" is based on a small number of TFs (e.g., YY1) and the criteria for defining "shared" are not specified. The generalizability of these findings to other cell types is unclear.
+  - **Why it matters** The authors suggest the framework can be applied broadly. Demonstrating transferability across only two cell lines, both of which are cancer or immortalized lines, is insufficient to support this claim.
+  - **Resolution test** Validate the model on additional cell lines with matched ATAC-seq and ChIP-seq data. Clearly define the criteria for "shared" TFs and report the overlap statistics. Discuss potential limitations of the two cell lines used.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability of feature importance
+  - **Claim pointer** The authors conclude that H2AZ.1 is a major regulator of chromatin accessibility based on its high importance in the model and its differential signal between accessible and non-accessible regions.
+  - **Evidence pointer** Figure 4A-D, location not provided
+  - **Concern** The analysis is purely correlative. High feature importance in a predictive model does not establish a causal regulatory role. The authors acknowledge this in the Discussion but do not temper the language in the Results or Abstract. The claim that H2AZ.1 "impacted" chromatin accessibility is too strong.
+  - **Why it matters** Overstating causal implications from correlative modeling could mislead readers, especially experimental biologists.
+  - **Resolution test** Revise the language to clearly state that the findings are associative. Consider adding a sentence in the Discussion explicitly noting that functional validation (e.g., knockdown or overexpression experiments) is needed to establish causality.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction, location not provided
+  - **Issue** The phrase "important epigenomic regulators" in the title and abstract is vague. The manuscript identifies features that are predictive of accessibility, but "regulators" implies a functional role that is not demonstrated.
+  - **Required correction** Consider revising the title and abstract to use more precise language, such as "predictive features" or "associated factors," unless causal evidence is provided.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The manuscript does not state whether the code and processed data are publicly available. This is important for reproducibility.
+  - **Required correction** Add a "Data and code availability" statement specifying where the code, processed data, and any custom scripts can be accessed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 1A-B
+  - **Evidence pointer** Figure 1A-B, location not provided
+  - **Issue** The heatmaps in Figure 1A-B are described as showing "signal difference" but the color scale and units are not defined in the legend. It is unclear what the values represent.
+  - **Required correction** Add a clear color scale legend and define the metric being displayed (e.g., log2 fold change, z-score).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 4A-B
+  - **Evidence pointer** Figure 4A-B, location not provided
+  - **Issue** P-values are reported for the comparison of H2AZ.1 signal between accessible and non-accessible regions, but the number of bins used for the test is not stated. The p-values are extremely small, which may be due to the large sample size rather than a biologically meaningful effect size.
+  - **Required correction** Report the effect size (e.g., median difference) and the number of bins used. Consider also reporting a measure of overlap between the distributions.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of statistical comparison between model AUCs.
+  - R1-M2: Undescribed "breakdown strategy" for feature removal.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The combination of CNN and Random Forest for integrating sequence and epigenomic features is not entirely novel, but the systematic comparison of four feature categories is a useful contribution.
+  - **Scientific importance** Moderate. The findings are consistent with existing knowledge that TFs and histone modifications are key determinants of chromatin accessibility. The identification of H2AZ.1 as a potentially important factor is interesting but not fully developed.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to computational biologists and epigenomics researchers. The methods and results are unlikely to attract a broad interdisciplinary audience.
+  - **Technical soundness** The modeling approach is generally sound, but the lack of statistical rigor and methodological details (R1-M1, R1-M2) weakens the technical foundation.
+  - **Readability for nonspecialists** The manuscript is reasonably well-written but uses field-specific terminology without sufficient explanation for a general audience. The abstract and introduction could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is relevant and the framework has potential utility, but the statistical and methodological issues must be addressed before the conclusions can be considered robust.
+
+## Risk / unsupported claims
+- The claim that TFs and histone modifications are "major determinants" of chromatin accessibility is not statistically supported due to the lack of significance testing (R1-M1).
+- The claim that a "core group" of five histone-related features is pivotal is not fully supported due to the undescribed breakdown strategy (R1-M2).
+- The claim that H2AZ.1 "impacted" chromatin accessibility implies causality, which is not established by the correlative analysis.
+- The generalizability of the model to other cell lines is not established, as only two cell lines were tested.
+- The performance of the CNN model in the first layer is not separately evaluated, so its contribution to the overall prediction is unclear.

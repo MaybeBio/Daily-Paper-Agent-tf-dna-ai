@@ -1,0 +1,495 @@
+{
+  "identity": {
+    "pmid": "42664344",
+    "doi": "10.1126/sciadv.aec8271",
+    "title": "Programmable protein degraders enable selective knockdown of pathogenic beta-catenin subpopulations in vitro and in vivo."
+  },
+  "content": {
+    "abstract": "Aberrant activation of Wnt signaling results in unregulated accumulation of cytosolic beta-catenin, which subsequently enters the nucleus and promotes transcription of genes that contribute to cellular proliferation and malignancy. Here, we sought to eliminate pathogenic beta-catenin from the cytosol using designer ubiquibodies (uAbs), chimeric proteins composed of an E3 ubiquitin ligase and a target-binding domain that redirect intracellular proteins to the proteasome for degradation. To accelerate uAb development, we leveraged a protein language model-driven algorithm called SaLT&PepPr to computationally design \"guide\" peptides with affinity for beta-catenin, which were subsequently fused to the catalytic domain of a human E3 called carboxyl terminus of Hsp70-interacting protein. Expression of the resulting peptide-guided uAbs in colorectal cancer cells led to the identification of several designs that greatly reduced the abnormally stable pool of free beta-catenin in the cytosol and nucleus while preserving the normal membrane-associated subpopulation. This selective knockdown of pathogenic beta-catenin suppressed Wnt/beta-catenin signaling and impaired tumor cell survival and proliferation. Furthermore, one of the best degraders selectively decreased cytosolic but not membrane-associated beta-catenin levels in livers of BALB/c mice following delivery as a lipid nanoparticle-encapsulated mRNA. Collectively, these findings reveal the unique ability of uAbs to selectively deplete abnormal proteins in vitro and in vivo and open the door to peptide-programmable biologic modulators of other disease-causing proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "*beta Catenin/metabolism/genetics/antagonists & inhibitors",
+      "Humans",
+      "Animals",
+      "Wnt Signaling Pathway",
+      "Mice",
+      "Proteolysis",
+      "Cell Proliferation",
+      "Cell Line, Tumor",
+      "Gene Knockdown Techniques",
+      "Proteasome Endopeptidase Complex/metabolism",
+      "Ubiquitin-Protein Ligases/metabolism/genetics",
+      "Cytosol/metabolism",
+      "Colorectal Neoplasms/metabolism/pathology/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ye, Tianzheng",
+        "Alamgir, Azmain",
+        "Robertus, Cara M",
+        "Colina, Darianna",
+        "Monticello, Connor",
+        "Donahue, Thomas Connor",
+        "Bandi, Chandra",
+        "Hong, Lauren",
+        "Vincoff, Sophia",
+        "Goel, Shrey",
+        "Lam, Kieu",
+        "Heyes, James",
+        "Putnam, David",
+        "Alabi, Christopher A",
+        "Chatterjee, Pranam",
+        "DeLisa, Matthew P"
+      ],
+      "short_names": [
+        "Ye T",
+        "Alamgir A",
+        "Robertus CM",
+        "Colina D",
+        "Monticello C",
+        "Donahue TC",
+        "Bandi C",
+        "Hong L",
+        "Vincoff S",
+        "Goel S",
+        "Lam K",
+        "Heyes J",
+        "Putnam D",
+        "Alabi CA",
+        "Chatterjee P",
+        "DeLisa MP"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6678-7115",
+        "ORCID: 0000-0002-8198-0148",
+        "ORCID: 0000-0003-0029-6983",
+        "ORCID: 0009-0000-5355-2843",
+        "ORCID: 0000-0001-6273-8068",
+        "ORCID: 0009-0004-8531-1672",
+        "ORCID: 0000-0002-1965-5491",
+        "ORCID: 0000-0001-9499-2028",
+        "ORCID: 0000-0003-2654-018X",
+        "ORCID: 0000-0003-3957-8478",
+        "ORCID: 0000-0003-3226-1566"
+      ],
+      "affiliations": [
+        "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY 14853, USA.",
+        "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY 14853, USA.",
+        "Nancy E. and Peter C. Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY 14853, USA.",
+        "Biochemistry, Molecular and Cell Biology, Cornell University, Ithaca, NY 14853, USA.",
+        "Nancy E. and Peter C. Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY 14853, USA.",
+        "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY 14853, USA.",
+        "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY 14853, USA.",
+        "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Genevant Sciences Corporation, 887 Great Northern Way, Vancouver, BC V5T 4T5, Canada.",
+        "Genevant Sciences Corporation, 887 Great Northern Way, Vancouver, BC V5T 4T5, Canada.",
+        "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY 14853, USA.",
+        "Nancy E. and Peter C. Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY 14853, USA.",
+        "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY 14853, USA.",
+        "Nancy E. and Peter C. Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY 14853, USA.",
+        "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Computer and Information Science, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY 14853, USA.",
+        "Nancy E. and Peter C. Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY 14853, USA.",
+        "Biochemistry, Molecular and Cell Biology, Cornell University, Ithaca, NY 14853, USA.",
+        "Cornell Institute of Biotechnology, Cornell University, Ithaca, NY 14853, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ye, Tianzheng",
+        "short_name": "Ye T",
+        "identifiers": [
+          "0000-0001-6678-7115"
+        ],
+        "affiliations": [
+          "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY 14853, USA."
+        ]
+      },
+      {
+        "full_name": "Alamgir, Azmain",
+        "short_name": "Alamgir A",
+        "identifiers": [
+          "0000-0002-8198-0148"
+        ],
+        "affiliations": [
+          "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY 14853, USA."
+        ]
+      },
+      {
+        "full_name": "Robertus, Cara M",
+        "short_name": "Robertus CM",
+        "identifiers": [],
+        "affiliations": [
+          "Nancy E. and Peter C. Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY 14853, USA."
+        ]
+      },
+      {
+        "full_name": "Colina, Darianna",
+        "short_name": "Colina D",
+        "identifiers": [
+          "0000-0003-0029-6983"
+        ],
+        "affiliations": [
+          "Biochemistry, Molecular and Cell Biology, Cornell University, Ithaca, NY 14853, USA."
+        ]
+      },
+      {
+        "full_name": "Monticello, Connor",
+        "short_name": "Monticello C",
+        "identifiers": [
+          "0009-0000-5355-2843"
+        ],
+        "affiliations": [
+          "Nancy E. and Peter C. Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY 14853, USA."
+        ]
+      },
+      {
+        "full_name": "Donahue, Thomas Connor",
+        "short_name": "Donahue TC",
+        "identifiers": [],
+        "affiliations": [
+          "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY 14853, USA."
+        ]
+      },
+      {
+        "full_name": "Bandi, Chandra",
+        "short_name": "Bandi C",
+        "identifiers": [
+          "0000-0001-6273-8068"
+        ],
+        "affiliations": [
+          "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY 14853, USA."
+        ]
+      },
+      {
+        "full_name": "Hong, Lauren",
+        "short_name": "Hong L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Vincoff, Sophia",
+        "short_name": "Vincoff S",
+        "identifiers": [
+          "0009-0004-8531-1672"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Goel, Shrey",
+        "short_name": "Goel S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Lam, Kieu",
+        "short_name": "Lam K",
+        "identifiers": [
+          "0000-0002-1965-5491"
+        ],
+        "affiliations": [
+          "Genevant Sciences Corporation, 887 Great Northern Way, Vancouver, BC V5T 4T5, Canada."
+        ]
+      },
+      {
+        "full_name": "Heyes, James",
+        "short_name": "Heyes J",
+        "identifiers": [
+          "0000-0001-9499-2028"
+        ],
+        "affiliations": [
+          "Genevant Sciences Corporation, 887 Great Northern Way, Vancouver, BC V5T 4T5, Canada."
+        ]
+      },
+      {
+        "full_name": "Putnam, David",
+        "short_name": "Putnam D",
+        "identifiers": [],
+        "affiliations": [
+          "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY 14853, USA.",
+          "Nancy E. and Peter C. Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY 14853, USA."
+        ]
+      },
+      {
+        "full_name": "Alabi, Christopher A",
+        "short_name": "Alabi CA",
+        "identifiers": [
+          "0000-0003-2654-018X"
+        ],
+        "affiliations": [
+          "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY 14853, USA.",
+          "Nancy E. and Peter C. Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY 14853, USA."
+        ]
+      },
+      {
+        "full_name": "Chatterjee, Pranam",
+        "short_name": "Chatterjee P",
+        "identifiers": [
+          "0000-0003-3957-8478"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+          "Department of Computer and Information Science, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "DeLisa, Matthew P",
+        "short_name": "DeLisa MP",
+        "identifiers": [
+          "0000-0003-3226-1566"
+        ],
+        "affiliations": [
+          "Robert F. Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY 14853, USA.",
+          "Nancy E. and Peter C. Meinig School of Biomedical Engineering, Cornell University, Ithaca, NY 14853, USA.",
+          "Biochemistry, Molecular and Cell Biology, Cornell University, Ithaca, NY 14853, USA.",
+          "Cornell Institute of Biotechnology, Cornell University, Ithaca, NY 14853, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2026 Aug 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/28 18:06",
+    "fetched_at": "2026-10-02 04:25:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42010037",
+      "40804173",
+      "39841846",
+      "38987546",
+      "38684868",
+      "38509365",
+      "37875551",
+      "37520683",
+      "36927031",
+      "36680477",
+      "36357682",
+      "36179405",
+      "35205363",
+      "35042991",
+      "34408016",
+      "34399052",
+      "33976200",
+      "33655066",
+      "33378609",
+      "33301246",
+      "33230174",
+      "32668202",
+      "32591521",
+      "32550000",
+      "32123106",
+      "31139721",
+      "30926793",
+      "30056837",
+      "30040244",
+      "29972753",
+      "29644703",
+      "28575679",
+      "27390343",
+      "27322423",
+      "27141963",
+      "26740924",
+      "26627251",
+      "26264835",
+      "25595278",
+      "25103255",
+      "24942700",
+      "24474696",
+      "24089139",
+      "23416973",
+      "23288781",
+      "22930834",
+      "22438566",
+      "22157958",
+      "20618441",
+      "20607702",
+      "20049704",
+      "19648119",
+      "19363495",
+      "18030363",
+      "17486657",
+      "17208432",
+      "16557553",
+      "16457593",
+      "16293619",
+      "16140957",
+      "15701453",
+      "15668160",
+      "15372092",
+      "15173007",
+      "15090077",
+      "14593203",
+      "14563921",
+      "14516475",
+      "12872131",
+      "12820959",
+      "12699626",
+      "12114026",
+      "12060769",
+      "11956233",
+      "11809808",
+      "11348595",
+      "10733430",
+      "10318916",
+      "10201372",
+      "9891778",
+      "9727977",
+      "9065402"
+    ],
+    "similar": [
+      "42664344",
+      "39605463",
+      "40850372",
+      "14516475",
+      "30530053",
+      "30365932",
+      "31018940",
+      "24882689",
+      "33131309",
+      "27485116",
+      "30472235",
+      "24846398",
+      "29789528",
+      "34890713",
+      "32930707",
+      "22337891",
+      "40782852",
+      "27835604",
+      "40424469",
+      "28137882",
+      "20215420",
+      "31370857",
+      "29802196",
+      "24736394",
+      "41975073",
+      "34937123",
+      "32005247",
+      "39393471",
+      "37762705",
+      "28939743",
+      "24247718",
+      "21875946",
+      "20856206",
+      "28365691",
+      "34657141",
+      "25869100",
+      "28689657",
+      "41656306",
+      "26165840",
+      "29666061",
+      "31472148",
+      "20307497",
+      "41299067",
+      "29374067",
+      "29080197",
+      "17383426",
+      "27037061",
+      "28611108",
+      "41786058",
+      "21949247",
+      "20711340",
+      "30555158",
+      "41258755",
+      "27783990",
+      "41250108",
+      "15292388",
+      "30631044",
+      "29932918",
+      "40906297",
+      "21411632",
+      "25311538",
+      "39150093",
+      "32961708",
+      "25600769",
+      "40824413",
+      "42283915",
+      "33153498",
+      "23520519",
+      "22115830",
+      "21317929",
+      "34281572",
+      "37096864",
+      "21093092",
+      "41574400",
+      "40225576",
+      "39607512",
+      "30016378",
+      "38419282",
+      "27172794",
+      "30253791",
+      "28681073",
+      "41608586",
+      "35115535",
+      "40628815",
+      "23736261",
+      "27835580",
+      "41022821",
+      "40649987",
+      "42262434",
+      "35986274",
+      "30806153",
+      "32814111",
+      "28559284",
+      "32285989",
+      "31292489",
+      "25193857",
+      "28895255",
+      "38716545",
+      "37771771",
+      "31953162"
+    ],
+    "review": [
+      "42664344",
+      "32961708"
+    ],
+    "pmc": [
+      "13524019"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.science.org/doi/10.1126/sciadv.aec8271?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42664344/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "39701486",
+    "doi": "10.1016/j.ymeth.2024.12.006",
+    "title": "BCDB: A dual-branch network based on transformer for predicting transcription factor binding sites."
+  },
+  "content": {
+    "abstract": "Transcription factor binding sites (TFBSs) are critical in regulating gene expression. Precisely locating TFBSs can reveal the mechanisms of action of different transcription factors in gene transcription. Various deep learning methods have been proposed to predict TFBS; however, these models often need help demonstrating ideal performance under limited data conditions. Furthermore, these models typically have complex structures, which makes their decision-making processes difficult to transparentize. Addressing these issues, we have developed a framework named BCDB. This framework integrates multi-scale DNA information and employs a dual-branch output strategy. Integrating DNABERT, convolutional neural networks (CNN), and multi-head attention mechanisms enhances the feature extraction capabilities, significantly improving the accuracy of predictions. This innovative method aims to balance the extraction of global and local information, enhancing predictive performance while utilizing attention mechanisms to provide an intuitive way to explain the model's predictions, thus strengthening the overall interpretability of the model. Prediction results on 165 ChIP-seq datasets show that BCDB significantly outperforms other existing deep learning methods in terms of performance. Additionally, since the BCDB model utilizes transfer learning methods, it can transfer knowledge learned from many unlabeled data to specific cell line prediction tasks, allowing our model to achieve cross-cell line TFBS prediction. The source code for BCDB is available on https://github.com/ZhangLab312/BCDB.",
+    "keywords": [
+      "Dual-branch",
+      "Interpretability",
+      "Transcription factor binding sites"
+    ],
+    "mesh_terms": [
+      "Binding Sites/genetics",
+      "*Transcription Factors/metabolism/genetics",
+      "Neural Networks, Computer",
+      "Deep Learning",
+      "*Computational Biology/methods",
+      "Humans",
+      "Chromatin Immunoprecipitation Sequencing/methods",
+      "Software",
+      "Algorithms",
+      "DNA/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Jia",
+        "Zhang, Yupeng",
+        "Liu, Yuhang",
+        "Zhou, Zhigan",
+        "Li, Tianhao",
+        "Zhang, Yongqing",
+        "Xie, Boqia"
+      ],
+      "short_names": [
+        "He J",
+        "Zhang Y",
+        "Liu Y",
+        "Zhou Z",
+        "Li T",
+        "Zhang Y",
+        "Xie B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China.",
+        "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China.",
+        "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China.",
+        "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China.",
+        "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China.",
+        "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China.",
+        "Department of Cardiology, Cardiovascualr Imaging Center, Beijing Chaoyang Hospital, Capital Medical University, Beijing, China. Electronic address: dr.boqiaxie@hotmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Jia",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yupeng",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuhang",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zhigan",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China."
+        ]
+      },
+      {
+        "full_name": "Li, Tianhao",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yongqing",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, Chengdu University of Information Technology, Chengdu 610225, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Boqia",
+        "short_name": "Xie B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Cardiovascualr Imaging Center, Beijing Chaoyang Hospital, Capital Medical University, Beijing, China. Electronic address: dr.boqiaxie@hotmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods (San Diego, Calif.)"
+    ],
+    "journal_abbrev": [
+      "Methods"
+    ],
+    "pub_date": "2025 Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/20 00:23",
+    "fetched_at": "2026-10-05 02:04:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39701486",
+      "38701417",
+      "40102719",
+      "34929739",
+      "39350338",
+      "36748992",
+      "37328639",
+      "38643066",
+      "36094959",
+      "38732207",
+      "30835229",
+      "39107889",
+      "32960766",
+      "34752400",
+      "40334196",
+      "34272562",
+      "34073774",
+      "33372147",
+      "40065237",
+      "38724920",
+      "36484687",
+      "33498086",
+      "31634140",
+      "35462009",
+      "32946398",
+      "34613923",
+      "39096613",
+      "35263332",
+      "27845669",
+      "38733561",
+      "38950180",
+      "31336830",
+      "37598467",
+      "39731012",
+      "36403092",
+      "39848362",
+      "39528950",
+      "35652477",
+      "17914226",
+      "39153682",
+      "40183298",
+      "29993783",
+      "40170155",
+      "39270533",
+      "33371891",
+      "23282203",
+      "38643080",
+      "33522898",
+      "23427986",
+      "34664074",
+      "38324425",
+      "32404971",
+      "24927817",
+      "34534646",
+      "33837387",
+      "39076052",
+      "36935548",
+      "32976105",
+      "33416862",
+      "40163555",
+      "34292930",
+      "31372637",
+      "29757349",
+      "40121399",
+      "40186170",
+      "39573831",
+      "36049552",
+      "39708840",
+      "28334268",
+      "39489606",
+      "39487084",
+      "38940155",
+      "38878361",
+      "39698603",
+      "32770026",
+      "39519295",
+      "19586888",
+      "39773093",
+      "38848239",
+      "20360861",
+      "39510345",
+      "38844961",
+      "38810377",
+      "35471887",
+      "36458923",
+      "36155619",
+      "39550226",
+      "38250147",
+      "38871095",
+      "39227799",
+      "27106869",
+      "33581335",
+      "39304807",
+      "24472686",
+      "33137083",
+      "39641989",
+      "38397134",
+      "38798191",
+      "30922998",
+      "39747934"
+    ],
+    "review": [
+      "39701486",
+      "35652477",
+      "28334268"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1046-2023(24)00279-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:39701486",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

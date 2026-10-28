@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Methods, Results, Discussion, Data availability, Author contributions, Conflict of interest, Generative AI statement, Publisher's note, Supplementary material notice, Acknowledgments)
+- **Assessment boundary** Scientific content, technical soundness, claims versus evidence, and suitability for the stated journal context. Editorial decisions or journal fit are not adjudicated.
+- **Shared manuscript claim summary** The authors report the development of a LexA-mediated biosensor in the desiccation-tolerant cyanobacterium *Chroococcidiopsis* sp. CCMEE 029, based on a transcriptional fusion of the *recA* upstream region (containing a predicted LexA-binding motif) to a luciferase reporter. They report in-silico identification and structural characterization of a LexA homolog, transcriptional upregulation of *lexA* and *recA* after H2O2 treatment, biosensor signal emission in response to H2O2, UVC, and γ-rays, a correlation between UVC dose and DNA damage, enhanced signal under simulated microgravity combined with γ-rays, and retained responsiveness after 4.5 months of air-dried storage.
+- **Visible evidence base** Full text of the manuscript, including Methods, Results narrative, and Discussion. Figures are referenced but not provided. Supplementary Table S1 is referenced but not provided. No raw data, statistical outputs, or figure panels are available for inspection.
+- **Missing materials affecting confidence** Figures 1–10, Supplementary Table S1, raw numerical data for RT-qPCR and luminescence assays, statistical analysis outputs, plasmid map or sequence details, and any control data for the simulated microgravity experiments. The absence of these materials limits verification of quantitative claims and statistical interpretations.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting application of a desiccation-tolerant cyanobacterium as a space-relevant biosensor, with a plausible chain of in-silico, molecular, and physiological experiments. However, the evidence base as presented is incomplete and several claims outpace the data shown. The in-silico and modeling components are descriptive and not experimentally validated for DNA binding in vivo. The biosensor responses are reported as significant but the magnitude, reproducibility, and controls are not fully documented. The claim of retained responsiveness after desiccation is promising but the data are not shown. The manuscript would benefit from clearer presentation of quantitative results, additional controls, and tempering of conclusions where evidence is indirect.
+- **Who would be interested in the results, and why** Researchers in space microbiology, astrobiology, biosensor development, and cyanobacterial stress physiology would find the work relevant. The use of a desiccation-tolerant organism for a deployable biosensor concept is of interest to groups working on CubeSat-based biological experiments and long-duration space missions. The comparative analysis of LexA across cyanobacteria may also interest those studying bacterial stress responses.
+- **Major strengths** The choice of organism is well justified by its desiccation tolerance and prior space-exposure data. The combination of bioinformatics, molecular dynamics, and functional assays is a reasonable multi-pronged approach. The demonstration of signal after rehydration from the dried state, if robust, is a meaningful step toward practical deployment. The discussion of limitations, such as the need for exogenous luciferin and the uncertain role of LexA in global stress responses, is candid.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the biosensor responds to DNA-damaging agents (H2O2, UVC, γ-rays) with significantly higher luminescence than controls.
+  - **Evidence pointer** Results section "Biosensor construction and responsiveness to DNA-damaging agents"; Figures 7A–C; location not provided
+  - **Concern** The quantitative data supporting the claimed responses are not presented in the text. No numerical values, fold-changes, or statistical test results are given. The figures are referenced but not available for review. Without these data, the magnitude, consistency, and statistical robustness of the responses cannot be assessed.
+  - **Why it matters** The central claim of the manuscript is that the biosensor functions as a detector of DNA damage. If the supporting quantitative evidence is weak, unreplicated, or confounded, the core conclusion is not established.
+  - **Resolution test** Provide the raw luminescence values, fold-changes, standard deviations, and p-values for each condition and time point. Show that the signal is dose-dependent and reproducible across biological replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The authors state that "the DNA binding of CCMEE 029's LexA was confirmed by molecular modeling and molecular dynamics simulations."
+  - **Evidence pointer** Methods section "Molecular modeling and molecular dynamics simulations"; Results section "Molecular modeling and dynamics simulations LexA-binding"; Figure 4; location not provided
+  - **Concern** Molecular modeling and simulations are predictive tools, not experimental confirmation of binding. The claim of "confirmed" is overstated. No experimental validation, such as electrophoretic mobility shift assays or footprinting, is presented.
+  - **Why it matters** The entire biosensor design rests on the assumption that LexA binds the identified motif in the *recA* promoter. If this binding is not experimentally verified, the mechanism of the reported signal is speculative.
+  - **Resolution test** Perform and report an in vitro DNA-binding assay (e.g., EMSA) with purified LexA and the *recA* promoter fragment, including a mutated motif control. Alternatively, rephrase the claim to "predicted by modeling" and clearly state the lack of experimental validation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability
+  - **Claim pointer** The authors claim that the biosensor retained responsiveness after 4.5 months of air-dried storage.
+  - **Evidence pointer** Results section "Responsiveness of rehydrated biosensor to DNA-damaging conditions"; Figure 10; location not provided
+  - **Concern** The data for this key claim are not shown in the text. No quantitative values, statistical comparisons, or details on the drying and rehydration protocol are provided beyond a brief Methods description. The claim is central to the space-application narrative.
+  - **Why it matters** The practical value of the biosensor depends on its stability in the dried state. Without data, this claim is unsupported.
+  - **Resolution test** Present the luminescence data for dried versus fresh biosensors, including statistical analysis and a clear description of storage conditions, rehydration time, and viability controls.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The authors suggest that the enhanced signal under simulated microgravity combined with γ-rays indicates a synergistic effect of microgravity and radiation on DNA damage.
+  - **Evidence pointer** Results section "Biosensor responsiveness under simulated microgravity"; Figure 9; location not provided
+  - **Concern** The comparison is between γ-irradiated biosensors under SMG versus SNG. The claim of synergy requires a factorial design with all four combinations (with/without radiation, SMG/SNG). The current design does not allow separation of the effects of microgravity alone, radiation alone, and their interaction.
+  - **Why it matters** The interpretation of a synergistic effect is not supported by the experimental design. Overstating this finding could mislead readers about the biological effects of combined space stressors.
+  - **Resolution test** Include unirradiated controls under both SMG and SNG, and perform a two-way ANOVA with interaction term. If the factorial design is not feasible, temper the language to describe an additive or combined effect without claiming synergy.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Plasmid construction"
+  - **Evidence pointer** Methods section "Plasmid construction"; location not provided
+  - **Issue** The description of the plasmid construction is brief. The origin of the *recA* promoter fragment, the exact boundaries of the 228-bp region, and the nature of the luciferase mutation are not fully detailed.
+  - **Required correction** Provide a more complete description, including a plasmid map or sequence, and cite the source of the BgLuc variant.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, "Expression of the lexA and recA genes in response to DNA-damaging agents"
+  - **Evidence pointer** Results section "Expression of the lexA and recA genes in response to DNA-damaging agents"; Figure 5; location not provided
+  - **Issue** The text states that transcript levels "significantly increased" after 30 min but does not report the fold-change, p-values, or the number of biological replicates used for the statistical test.
+  - **Required correction** Report the numerical values, statistical test used, and exact p-values in the text or figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "Simulated microgravity under γ-radiation"
+  - **Evidence pointer** Methods section "Simulated microgravity under γ-radiation"; location not provided
+  - **Issue** The description of the simulated microgravity apparatus and the validation of the gravity conditions is minimal. The rotation speed, vessel type, and any controls for shear stress or mixing effects are not described.
+  - **Required correction** Add details on the HARV vessel specifications, rotation speed, and any preliminary validation of the simulated microgravity conditions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Title and Abstract
+  - **Evidence pointer** Title; Abstract; location not provided
+  - **Issue** The term "deep space" is used in the title and abstract, but the experiments use simulated microgravity and γ-rays as proxies. The connection to actual deep-space conditions is indirect.
+  - **Required correction** Consider using "space-relevant conditions" or "simulated space conditions" in the title and abstract to avoid overstatement.
+- **Technical failings that need to be addressed before the case is established** The lack of experimental validation of LexA-DNA binding (R1-M2) and the absence of quantitative data for the biosensor responses (R1-M1) and dried-state stability (R1-M3) are the primary technical gaps. The experimental design for the microgravity synergy claim (R1-M4) is also insufficient.
+- **Assessment against Nature-style criteria** Originality: The concept of using a desiccation-tolerant cyanobacterium as a space biosensor is novel, but the individual components (LexA characterization, reporter constructs) are not new. Scientific importance: The work has potential relevance to space biology and biosensor development, but the current evidence does not establish a broadly significant advance. Interdisciplinary readership: The topic bridges microbiology, astrobiology, and space engineering, which could attract a broad audience if the claims are substantiated. Technical soundness: The in-silico and modeling work is plausible but not experimentally confirmed; the functional assays lack quantitative detail. Readability for nonspecialists: The manuscript is generally readable, but the Methods are dense and some terms are used without definition. Overall, the manuscript does not currently meet the bar for a high-impact general journal.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has a promising concept and some interesting preliminary data, but the central claims are not supported by the visible evidence. Major revisions with additional experimental validation and quantitative reporting are required before the case is made.
+
+## Risk / unsupported claims
+- The claim that LexA-DNA binding is "confirmed" by modeling and simulation is unsupported; this requires experimental validation or rephrasing.
+- The claim of a synergistic effect of microgravity and γ-rays is unsupported by the experimental design.
+- The claim of retained biosensor responsiveness after 4.5 months of air-dried storage is not supported by visible data.
+- The claim of a correlation between UVC dose and DNA damage is mentioned but not quantified in the text.
+- The general statement that the biosensor is "tailored for deep space" is an extrapolation from simulated conditions and is not directly supported.

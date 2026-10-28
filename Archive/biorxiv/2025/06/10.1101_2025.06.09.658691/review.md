@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, supporting information list)
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and presentation quality as presented in the supplied material
+- **Shared manuscript claim summary** The authors use a minimalist coarse-grained model to show that DNA length, flexibility, and the balance of homotypic protein-protein versus heterotypic protein-DNA interactions control condensate formation, internal multiphasic organization, and protein dynamics, with up to five distinct protein diffusion modes identified within protein-DNA condensates.
+- **Visible evidence base** Main text figures referenced (Figs. 1-7), supplementary figures referenced (Figs. S1-S6), simulation methods described in Materials and Methods
+- **Missing materials affecting confidence** Figure files not provided; supporting information not provided; simulation parameter tables not provided; specific numerical values for phase boundaries, diffusion coefficients, and persistence length calculations not provided in text
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic computational study of a minimalist coarse-grained model for protein-DNA condensates. The parameter space explored is broad, and the identification of multiphasic condensate architectures and multiple protein diffusion modes is potentially interesting. However, the current evidence base is insufficient to fully evaluate the robustness of the central claims. Key quantitative results are presented only through figures that were not available for inspection, and several methodological details that are critical for reproducibility and for assessing the validity of the conclusions are either missing or described only qualitatively. The connection between the observed simulation phenomena and biological relevance is asserted but not deeply developed. The work is a reasonable contribution to the computational condensate literature, but the case for broad significance is not yet fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, phase separation, chromatin organization, and coarse-grained simulation methodology would be interested. The work addresses open questions about how DNA modulates condensate architecture and protein mobility, which is relevant to understanding transcriptional regulation, heterochromatin organization, and DNA repair foci. The methodological approach of decomposing displacement distributions into multiple diffusive modes may also be of interest to computational biophysicists studying dynamics in heterogeneous environments.
+- **Major strengths** The study addresses a timely and important question about the role of DNA in modulating condensate properties. The systematic exploration of interaction parameter space is commendable. The use of a minimalist model allows for broad parameter sweeps that would be computationally prohibitive with more detailed representations. The identification of multiphasic condensate organization and the decomposition of protein dynamics into multiple diffusive modes are conceptually interesting and could provide a framework for interpreting experimental observations such as FRAP data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that DNA length and flexibility critically influence condensate morphology, leading to multiphasic and core-shell organizations under strong heterotypic interactions.
+  - **Evidence pointer** Figures 3A, 4A, 5A, and associated text
+  - **Concern** The central structural claims are presented through figures that were not provided for review. The text describes trends qualitatively (e.g., "Rg dropping to as low as 100-125 Å", "pronounced peak in the Rg ratio for λPP = 3.0 and 4.0" at 100 bp) but the actual data, error bars, and statistical significance are not assessable. Furthermore, the definition of "multiphasic" and the criteria used to distinguish core-shell from other multiphasic arrangements are not quantitatively specified in the text. The radial density profile analysis is described only in the Supporting Information, which was not supplied.
+  - **Why it matters** The structural organization claims are foundational to the paper's central thesis. Without access to the actual data and the quantitative criteria used to define multiphasic organization, the validity of these claims cannot be evaluated. The distinction between a core-shell architecture and other forms of spatial heterogeneity is critical, and the current text does not provide sufficient methodological detail to assess whether the interpretation is justified.
+  - **Resolution test** Provide the actual figure data with error bars and statistical analysis. Clearly define the quantitative criteria for classifying a condensate as multiphasic, core-shell, or uniform. Provide the radial density profile analysis methodology and show representative fits of the double hyperbolic tangent function with residuals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim to identify up to five distinct diffusion modes of proteins within the condensate, including proteins bound to DNA, confined within the dense phase, or freely diffusing.
+  - **Evidence pointer** Figure 7, Figure S5, and associated text
+  - **Concern** The method of decomposing displacement distributions into multiple Gaussian components to extract distinct diffusion coefficients is presented, but the criteria for determining the optimal number of components (n) are described only as "until the fit achieves minimal residuals." This is not a rigorous model selection criterion. The risk of overfitting with increasing n is not addressed. The assignment of each diffusive mode to a specific physical interpretation (e.g., DNA-bound, confined, free) appears speculative and is not directly validated by any independent measure. The text states that the diffusion coefficients "remained constant across lag times" but no data are shown to support this claim in the main text.
+  - **Why it matters** The identification of five distinct diffusion modes is a headline claim of the paper. If the model selection is not rigorous, the number of modes could be an artifact of overfitting. The physical interpretation of each mode is crucial for the biological relevance of the findings, and the current evidence does not convincingly link each diffusive component to a specific molecular state.
+  - **Resolution test** Provide a rigorous model selection criterion (e.g., AIC, BIC, or cross-validation) for determining the number of Gaussian components. Show the dependence of the number of modes on lag time and on system parameters. Provide independent validation of the assignment of modes to physical states, such as direct measurement of protein-DNA contact lifetimes or spatial correlation analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that they used a minimalist coarse-grained model with specific interaction potentials and simulation parameters.
+  - **Evidence pointer** Materials and Methods section
+  - **Concern** The Materials and Methods section is incomplete in several critical aspects. The nonbonded interaction potential is described by equations that are referenced but not fully written out in the supplied text. The values of all interaction parameters (ɛ, λ values, σ values) are not tabulated. The equilibration protocol is described only as discarding the "initial 20%" or "initial 400 ns" without justification. The criteria for determining phase separation (e.g., cluster detection threshold, density calculations) are not specified. The simulation time of 2 µs for a system of this size with a 10 fs timestep implies 2 x 10^8 timesteps, and the computational feasibility and equilibration adequacy are not discussed.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. Without complete parameter values, potential forms, and analysis protocols, other researchers cannot reproduce or build upon this work. The lack of detail also prevents assessment of whether the simulation times are sufficient for equilibration and for reliable sampling of the reported phenomena.
+  - **Resolution test** Provide a complete parameter table with all interaction strengths, particle sizes, and masses. Write out all potential functions explicitly. Provide details on cluster analysis, density profile calculation, and phase boundary determination. Justify the equilibration time and total simulation length with convergence tests.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their findings "provide a mechanistic framework for interpreting spatially heterogeneous protein dynamics observed in chromatin condensates" and that DNA is "an active modulator of condensate architecture and dynamics."
+  - **Evidence pointer** Abstract, Introduction, Discussion sections
+  - **Concern** The biological relevance of the findings is asserted but not deeply developed. The model uses a single generic protein bead with no sequence specificity, no multi-domain architecture, and no specific DNA-binding motifs. The connection to specific biological systems (e.g., HP1α, FUS, TFAM) is made only through qualitative comparisons to experimental observations. The authors do not discuss how their findings would change with more realistic protein representations, nor do they provide specific predictions that could be tested experimentally to validate their framework.
+  - **Why it matters** For a Nature-style audience, the significance of a computational study depends on its ability to provide insights that go beyond what is already known and to generate testable predictions. The current manuscript describes simulation phenomena but does not sufficiently articulate how these phenomena map onto specific biological contexts or how they could be experimentally verified.
+  - **Resolution test** Provide specific, quantitative predictions that could be tested experimentally (e.g., predicted changes in diffusion coefficients with DNA length, predicted FRAP recovery curves for different condensate regions). Discuss how the findings would change with more realistic protein models and identify which biological systems are most likely to exhibit the predicted multiphasic behavior.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction provides a general background on biomolecular condensates but does not clearly articulate the specific gap in knowledge that this study addresses. The transition from general background to the specific aims of the study is abrupt.
+  - **Required correction** Add a paragraph that explicitly states what is unknown about how DNA modulates condensate properties and why this matters, before introducing the model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, protein model
+  - **Evidence pointer** Materials and Methods, Protein Model
+  - **Issue** The protein is modeled as a single bead with a diameter of 50 Å and mass of 5000 g/mol. This implies a density that is not physically realistic for a protein. The justification for these choices is not provided.
+  - **Required correction** Provide a brief justification for the chosen protein bead size and mass, or acknowledge the limitations of this representation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, DNA model
+  - **Evidence pointer** Materials and Methods, DNA Model
+  - **Issue** The DNA model uses a harmonic bond potential with Kb = 20 kcal/mol/Å² and r0 = 5.5 Å. The persistence length calibration is described as being shown in Figure 1B, but the actual values of persistence length obtained for each Kθ are not stated in the text.
+  - **Required correction** State the persistence length values obtained for each Kθ value in the text or in a table.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, phase behavior section
+  - **Evidence pointer** Results section, "Phase Behavior of Protein-DNA Condensates"
+  - **Issue** The classification of interaction strengths into "weak," "moderate," and "strong" regimes is presented as a result, but the boundaries of these regimes are not quantitatively defined. The text states "λPD < 0.5", "0.5 ≤ λPD ≤ 1.0", and "λPD > 1.0" but does not explain why these specific boundaries were chosen.
+  - **Required correction** Provide a rationale for the chosen regime boundaries, or state that they are arbitrary and discuss the sensitivity of the conclusions to these choices.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, dynamics section
+  - **Evidence pointer** Results section, "Differential Protein Dynamics"
+  - **Issue** The physical interpretation of the five diffusion modes is presented in a single paragraph without a clear logical progression. The assignment of modes to specific molecular states (e.g., "proteins bound to DNA," "confined within the condensed phase") is not systematically justified.
+  - **Required correction** Present the assignment of modes to physical states in a more structured manner, possibly with a table or schematic, and discuss alternative interpretations.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, phase diagram
+  - **Evidence pointer** Figure 6A and associated text
+  - **Issue** The phase diagram in Figure 6A is described as showing a "non-converging" phase envelope for strong heterotypic interactions. The text does not explain what this means physically or how this was determined quantitatively. The possibility that this is a finite-size or finite-time artifact is not discussed.
+  - **Required correction** Provide a quantitative definition of "non-converging" and discuss potential artifacts that could lead to this observation.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Summary and Conclusions
+  - **Issue** The limitations section is brief and does not discuss the potential impact of the model's simplifications on the specific conclusions drawn. For example, the lack of electrostatics is mentioned but the potential consequences for the reported phase behavior are not discussed.
+  - **Required correction** Expand the limitations discussion to address how each major simplification could affect the specific findings of the study.
+
+## Risk / unsupported claims
+- The claim of "up to five distinct diffusion modes" is not fully supported without a rigorous model selection criterion and validation of mode assignment.
+- The claim that DNA length and flexibility "critically influence" condensate morphology is not quantitatively supported in the text without access to the figure data and statistical analysis.
+- The claim that the model provides a "mechanistic framework for interpreting spatially heterogeneous protein dynamics observed in chromatin condensates" is an extrapolation that is not directly supported by the simulation results, which use a highly simplified protein model.
+- The specific assignment of diffusion modes to physical states (DNA-bound, confined, free) is speculative and not independently validated.
+- The "non-converging" phase envelope at strong heterotypic interactions is not quantitatively defined and could be a simulation artifact.
+- The biological relevance claims regarding transcriptional condensates, HP1α, and FUS are based on qualitative analogies and are not quantitatively connected to the simulation parameters.

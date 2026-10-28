@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "38791255",
+    "doi": "10.3390/ijms25105216",
+    "title": "Development of a Robust Read-Across Model for the Prediction of Biological Potency of Novel Peroxisome Proliferator-Activated Receptor Delta Agonists."
+  },
+  "content": {
+    "abstract": "A robust predictive model was developed using 136 novel peroxisome proliferator-activated receptor delta (PPARdelta) agonists, a distinct subtype of lipid-activated transcription factors of the nuclear receptor superfamily that regulate target genes by binding to characteristic sequences of DNA bases. The model employs various structural descriptors and docking calculations and provides predictions of the biological activity of PPARdelta agonists, following the criteria of the Organization for Economic Co-operation and Development (OECD) for the development and validation of quantitative structure-activity relationship (QSAR) models. Specifically focused on small molecules, the model facilitates the identification of highly potent and selective PPARdelta agonists and offers a read-across concept by providing the chemical neighbours of the compound under study. The model development process was conducted on Isalos Analytics Software (v. 0.1.17) which provides an intuitive environment for machine-learning applications. The final model was released as a user-friendly web tool and can be accessed through the Enalos Cloud platform's graphical user interface (GUI).",
+    "keywords": [
+      "Isalos Analytics Platform",
+      "PPARdelta agonists",
+      "in silico modelling",
+      "machine learning",
+      "molecular docking"
+    ],
+    "mesh_terms": [
+      "*Quantitative Structure-Activity Relationship",
+      "*PPAR delta/agonists/chemistry/metabolism",
+      "*Software",
+      "Molecular Docking Simulation",
+      "Humans",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Antoniou, Maria",
+        "Papavasileiou, Konstantinos D",
+        "Melagraki, Georgia",
+        "Dondero, Francesco",
+        "Lynch, Iseult",
+        "Afantitis, Antreas"
+      ],
+      "short_names": [
+        "Antoniou M",
+        "Papavasileiou KD",
+        "Melagraki G",
+        "Dondero F",
+        "Lynch I",
+        "Afantitis A"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-4552-6555",
+        "ORCID: 0000-0001-7945-3712",
+        "ORCID: 0000-0003-4250-4584",
+        "ORCID: 0000-0002-0977-8180"
+      ],
+      "affiliations": [
+        "Department of Chemoinformatics, NovaMechanics Ltd., Nicosia 1046, Cyprus.",
+        "Department of ChemoInformatics, NovaMechanics MIKE, 18545 Piraeus, Greece.",
+        "Entelos Institute, Larnaca 6059, Cyprus.",
+        "Department of Chemoinformatics, NovaMechanics Ltd., Nicosia 1046, Cyprus.",
+        "Department of ChemoInformatics, NovaMechanics MIKE, 18545 Piraeus, Greece.",
+        "Entelos Institute, Larnaca 6059, Cyprus.",
+        "Division of Physical Sciences & Applications, Hellenic Military Academy, 16672 Vari, Greece.",
+        "Entelos Institute, Larnaca 6059, Cyprus.",
+        "Department of Science and Technological Innovation, Universita del Piemonte Orientale, 15121 Alessandria, Italy.",
+        "Entelos Institute, Larnaca 6059, Cyprus.",
+        "School of Geography, Earth and Environmental Sciences, University of Birmingham Edgbaston, Birmingham B15 2TT, UK.",
+        "Department of Chemoinformatics, NovaMechanics Ltd., Nicosia 1046, Cyprus.",
+        "Department of ChemoInformatics, NovaMechanics MIKE, 18545 Piraeus, Greece.",
+        "Entelos Institute, Larnaca 6059, Cyprus."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Antoniou, Maria",
+        "short_name": "Antoniou M",
+        "identifiers": [
+          "0009-0008-4552-6555"
+        ],
+        "affiliations": [
+          "Department of Chemoinformatics, NovaMechanics Ltd., Nicosia 1046, Cyprus.",
+          "Department of ChemoInformatics, NovaMechanics MIKE, 18545 Piraeus, Greece.",
+          "Entelos Institute, Larnaca 6059, Cyprus."
+        ]
+      },
+      {
+        "full_name": "Papavasileiou, Konstantinos D",
+        "short_name": "Papavasileiou KD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemoinformatics, NovaMechanics Ltd., Nicosia 1046, Cyprus.",
+          "Department of ChemoInformatics, NovaMechanics MIKE, 18545 Piraeus, Greece.",
+          "Entelos Institute, Larnaca 6059, Cyprus."
+        ]
+      },
+      {
+        "full_name": "Melagraki, Georgia",
+        "short_name": "Melagraki G",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Physical Sciences & Applications, Hellenic Military Academy, 16672 Vari, Greece."
+        ]
+      },
+      {
+        "full_name": "Dondero, Francesco",
+        "short_name": "Dondero F",
+        "identifiers": [
+          "0000-0001-7945-3712"
+        ],
+        "affiliations": [
+          "Entelos Institute, Larnaca 6059, Cyprus.",
+          "Department of Science and Technological Innovation, Università del Piemonte Orientale, 15121 Alessandria, Italy."
+        ]
+      },
+      {
+        "full_name": "Lynch, Iseult",
+        "short_name": "Lynch I",
+        "identifiers": [
+          "0000-0003-4250-4584"
+        ],
+        "affiliations": [
+          "Entelos Institute, Larnaca 6059, Cyprus.",
+          "School of Geography, Earth and Environmental Sciences, University of Birmingham Edgbaston, Birmingham B15 2TT, UK."
+        ]
+      },
+      {
+        "full_name": "Afantitis, Antreas",
+        "short_name": "Afantitis A",
+        "identifiers": [
+          "0000-0002-0977-8180"
+        ],
+        "affiliations": [
+          "Department of Chemoinformatics, NovaMechanics Ltd., Nicosia 1046, Cyprus.",
+          "Department of ChemoInformatics, NovaMechanics MIKE, 18545 Piraeus, Greece.",
+          "Entelos Institute, Larnaca 6059, Cyprus."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 May 10",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/25 10:48",
+    "fetched_at": "2026-09-29 20:36:19"
+  },
+  "links": {
+    "cites": [
+      "41745826",
+      "41603589",
+      "41115053",
+      "40515966",
+      "40266426"
+    ],
+    "refs": [
+      "37627329",
+      "35566391",
+      "35383362",
+      "34666549",
+      "34638561",
+      "34265725",
+      "32539376",
+      "32330577",
+      "32174008",
+      "31556349",
+      "30705343",
+      "30109749",
+      "28988138",
+      "28746339",
+      "28426652",
+      "27689854",
+      "26558613",
+      "25986170",
+      "23282254",
+      "22606221",
+      "22516720",
+      "22247890",
+      "21982300",
+      "21207086",
+      "21167625",
+      "20925691",
+      "19928766",
+      "19499576",
+      "19399780",
+      "18722772",
+      "18564836",
+      "17601734",
+      "14749265",
+      "10660911",
+      "10529898",
+      "10198642",
+      "9211064"
+    ],
+    "similar": [
+      "38791255",
+      "25986170",
+      "22606221",
+      "21400663",
+      "22672760",
+      "25767888",
+      "21207086",
+      "30705343",
+      "32687365",
+      "28413978",
+      "35102897",
+      "28825467",
+      "30868955",
+      "28320959",
+      "19483413",
+      "17896982",
+      "17532641",
+      "16546385",
+      "28539218",
+      "30650453",
+      "27913621",
+      "36840990",
+      "21094606",
+      "32539376",
+      "17498950",
+      "31825687",
+      "17167170",
+      "27622746",
+      "26443862",
+      "21515063",
+      "31556349",
+      "20843696",
+      "35051813",
+      "16115765",
+      "26004782",
+      "23078396",
+      "30054191",
+      "17303761",
+      "22534184",
+      "26988304",
+      "21765467",
+      "16713711",
+      "16996742",
+      "31332417",
+      "15793256",
+      "29473866",
+      "15867396",
+      "17608467",
+      "20592029",
+      "35063634",
+      "19805479",
+      "15978581",
+      "16556736",
+      "19700678",
+      "23273519",
+      "26992147",
+      "17512197",
+      "21598253",
+      "19928766",
+      "21075629",
+      "29408825",
+      "18155554",
+      "24287635",
+      "23500098",
+      "22582973",
+      "21074432",
+      "33808880",
+      "16931011",
+      "18924220",
+      "23282254",
+      "31806266",
+      "35563117",
+      "17428674",
+      "18220606",
+      "24994548",
+      "23481229",
+      "27283742",
+      "18330480",
+      "29275935",
+      "21843327",
+      "23265886",
+      "16750626",
+      "16930961",
+      "21112784",
+      "24158519",
+      "28595521",
+      "28499821",
+      "35060744",
+      "29212711",
+      "15589693",
+      "15949697",
+      "23052247",
+      "18701617",
+      "34502131",
+      "16275077",
+      "21725906",
+      "36152183",
+      "20599914"
+    ],
+    "review": [
+      "38791255",
+      "28413978",
+      "19483413",
+      "17896982",
+      "32539376",
+      "31825687",
+      "26004782",
+      "16713711",
+      "19805479",
+      "17428674",
+      "18220606",
+      "23481229",
+      "15589693",
+      "15949697"
+    ],
+    "pmc": [
+      "11121726"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms25105216",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38791255/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38791255",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Conclusions, Materials and Methods) and metadata (title, authors, journal, DOI, URL). No supplementary figures or tables were provided beyond references to them in the text.
+- **Assessment boundary** Scientific content, technical soundness, logical coherence, and support of claims by the presented evidence. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors propose that a C-terminal secondary basic motif (B2) in ATF4, unique to the ATF-X subfamily of bZip transcription factors, mediates transient intramolecular interactions between the transactivation domain (TAD) and the bZip DNA-binding domain. This interaction is proposed to enhance DNA-binding specificity by competing with nonspecific DNA for access to the bZip domain, while also facilitating nonspecific DNA binding that may aid in rapid DNA scanning.
+- **Visible evidence base** NMR spectroscopy (HSQC, sPRE, ZZ-exchange, triple resonance), fluorescence polarization binding assays, and all-atom MD simulations (AMBER99SB-disp, ~10 μs total). Figures referenced: 1, 2, 3, 4; Tables: 1; Supplementary: S1–S11.
+- **Missing materials affecting confidence** Supplementary figures (S1–S11) and Table 1 were not provided. Specific numerical values for binding affinities, chemical shift perturbations, and simulation convergence metrics are referenced but not visible. Experimental replicates and error estimates for FP assays are not shown in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting and novel question regarding the role of a secondary basic motif in ATF4's DNA-binding regulation. The combination of NMR, FP, and MD is appropriate and potentially powerful. However, the evidence as presented in the text is incomplete in several critical respects. The claim that B2 mediates TAD-bZip coupling is supported by indirect NMR intensity comparisons, but the mechanistic link to DNA-binding specificity enhancement is not fully established. The FP data, which are central to the functional claims, are described only qualitatively in the text, with key numerical results relegated to a table that was not provided. The MD simulations are described as supporting disorder, but their direct relevance to the B2-mediated coupling mechanism is not clearly demonstrated. The manuscript's conclusions are plausible but currently not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying transcription factor regulation, particularly the role of intrinsically disordered regions in modulating DNA-binding specificity and kinetics. The work may also interest those focused on the ATF4/ATF-X subfamily and the integrated stress response, as well as biophysicists using NMR and MD to study disordered proteins. The potential therapeutic angle regarding ATF4 in cancer could attract a broader translational audience.
+- **Major strengths** 1) The identification of a B2 motif unique to ATF4/ATF5 is a novel observation with potential subfamily-specific regulatory implications. 2) The combination of multiple biophysical techniques (NMR, FP, MD) is well-suited to studying transient, disordered interactions. 3) The study addresses a fundamental question about how disordered regions fine-tune DNA-binding activity, which is of broad relevance. 4) The use of multiple constructs (full-length, truncated, B2-deleted) is a logical approach to dissect the role of B2.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for mechanistic claim
+  - **Claim pointer** "This secondary basic motif is the primary driver of interdomain coupling between the transactivation and bZip domains of ATF4."
+  - **Evidence pointer** Figure 2A–C; text in Results section "Secondary Basic Motif of ATF4 Mediates Interdomain Coupling"
+  - **Concern** The claim that B2 is the "primary driver" of interdomain coupling is based on NMR peak intensity comparisons between ATF4(1–351) and ATF4(1–341). While the data show reduced line broadening in the R1/R2 regions upon B2 deletion, this is an indirect readout. The text does not provide quantitative measures (e.g., intensity ratios, statistical significance) or demonstrate that other regions of the bZip domain are not also involved. The titration experiments (Figure 2B,C) are described but not quantified. Without quantitative analysis or direct binding data between B2 and the TAD, the "primary driver" claim is overstated.
+  - **Why it matters** The central mechanistic conclusion of the paper rests on this claim. If B2 is not the primary driver, the entire narrative about B2's unique role in ATF4 regulation is weakened.
+  - **Resolution test** Provide quantitative intensity ratios with error bars and statistical tests for the R1/R2 regions across constructs. Alternatively, perform direct binding assays (e.g., ITC or NMR titrations) between a B2 peptide and the TAD to demonstrate direct interaction. Show that deletion of B2 does not globally destabilize the bZip domain (e.g., via CD or thermal stability).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional claim support
+  - **Claim pointer** "This motif enhances ATF4's DNA-binding specificity via interaction with the transactivation domain while also potentially facilitating rapid DNA scanning."
+  - **Evidence pointer** Figure 4A,B; Table 1; text in Results section "Secondary Basic Motif B2 Modulates the DNA Binding Activity of ATF4"
+  - **Concern** The FP data are central to the specificity claim, but the text provides no numerical values. The statement that the TAD "enhances DNA-binding specificity" is based on a comparison of binding to cognate vs. non-cognate DNA, but the actual affinities, fold-differences, and statistical significance are not reported in the text. The claim about "rapid DNA scanning" is speculative and not directly tested. The authors note that B2 deletion abolishes nonspecific binding, but the mechanism (direct vs. allosteric) is acknowledged as unclear.
+  - **Why it matters** The functional significance of B2 is the key translational takeaway. Without quantitative FP data, the specificity enhancement claim is not verifiable. The "rapid DNA scanning" hypothesis is presented without supporting evidence (e.g., kinetic measurements or single-molecule experiments).
+  - **Resolution test** Report Kd values with errors for all constructs against both DNA sequences. Show statistical comparison (e.g., t-test or ANOVA) between full-length and B2-deleted constructs. For the scanning claim, either provide direct kinetic evidence (e.g., stopped-flow or smFRET) or temper the claim to a hypothesis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation relevance
+  - **Claim pointer** "All-atom MD simulations of the isolated bZip domain further support the experimental data, indicating that the DNA binding region is predominantly disordered, while the leucine zipper region retains partial helical structure."
+  - **Evidence pointer** Figure 3C; text in Results section "All-Atom MD Simulations of the Isolated bZip Domain"
+  - **Concern** The MD simulations are performed on the isolated bZip domain, not on the full-length protein or the TAD-bZip complex. The relevance of these simulations to the B2-mediated coupling mechanism is unclear. The simulations show disorder and partial helicity, but this is expected for a bZip domain in isolation and does not directly inform on how B2 interacts with the TAD. The convergence analysis (Figure S10A) is referenced but not described in the text.
+  - **Why it matters** The simulations are presented as supporting evidence, but their connection to the central claim (B2-mediated coupling) is weak. If the simulations are meant to show that B2 is disordered and available for interaction, this should be explicitly stated and linked to the NMR data.
+  - **Resolution test** Either perform simulations of the full-length protein or the TAD-bZip complex to directly test B2-TAD interactions, or clearly state that the simulations are only used to characterize the isolated bZip domain's conformational ensemble and temper the claim accordingly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of construct nomenclature
+  - **Affected element** Figure 1C and throughout
+  - **Evidence pointer** Figure 1C; text
+  - **Issue** The construct names (ATF4(1–351), ATF4(1–341), bZip351, bZip341) are used but not defined in a table or figure legend. The relationship between these constructs and the B2 deletion is not immediately clear.
+  - **Required correction** Add a construct schematic or table defining the domain boundaries and which constructs lack B2.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** FP data
+  - **Evidence pointer** Table 1; Figure 4
+  - **Issue** No error bars or statistical tests are mentioned for the FP data. The text states "significant reduction" but does not provide p-values or confidence intervals.
+  - **Required correction** Report mean ± SD or SEM for at least three independent replicates, and state the statistical test used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Simulation details
+  - **Affected element** MD methods
+  - **Evidence pointer** Materials and Methods "Molecular Dynamics Simulations"
+  - **Issue** The number of replicas, simulation length per replica, and the criteria for convergence are not stated in the text. The total time (10 μs) is mentioned, but the distribution across replicas is unclear.
+  - **Required correction** Specify the number of independent simulations, their individual lengths, and the convergence criteria used (e.g., RMSD plateau, PCA overlap).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Overstatement
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The statement "To our knowledge, the presence of a secondary basic motif like B2 has not been reported in other members of the bZip family" is a strong claim. The authors should verify this against a broader literature search, as similar motifs may exist in other bZip proteins.
+  - **Required correction** Soften the claim to "has not been reported to our knowledge" and cite a relevant review or database search.
+- **Technical failings that need to be addressed before the case is established** 1) Quantitative FP data (Kd values, errors, statistics) must be provided in the text or a visible table. 2) Quantitative NMR intensity analysis with statistical significance must be shown. 3) The MD simulations need to be more directly connected to the B2-TAD interaction hypothesis, or their role should be explicitly limited to characterizing the isolated bZip domain. 4) The "rapid DNA scanning" claim should be either supported with kinetic data or clearly labeled as speculative.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The identification of a B2 motif unique to ATF4/ATF5 and its proposed role in modulating DNA-binding specificity is a novel contribution. The concept of a secondary basic motif regulating bZip function has not been previously described for this family.
+  - **Scientific importance** The work has potential significance for understanding how disordered regions in transcription factors fine-tune DNA-binding activity, which is a fundamental question in gene regulation. The ATF4 context adds translational relevance given its role in the integrated stress response and cancer.
+  - **Interdisciplinary readership** The work bridges structural biology, biophysics, and transcription regulation. It may appeal to a broad readership interested in protein-DNA interactions and intrinsically disordered proteins.
+  - **Technical soundness** The combination of NMR, FP, and MD is appropriate, but the current presentation lacks quantitative rigor. The NMR analysis is largely qualitative, the FP data are not shown numerically, and the MD simulations are not fully integrated with the experimental findings.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but the Results section assumes familiarity with NMR and FP techniques. A brief explanation of the rationale for each technique would improve accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the experimental approach is sound, but the current evidence is insufficient to fully establish the claims. Quantitative data and a clearer connection between the simulations and the proposed mechanism are required.
+
+## Risk / unsupported claims
+- The claim that B2 is the "primary driver" of TAD-bZip coupling is not quantitatively supported.
+- The claim that B2 "enhances DNA-binding specificity" is not supported by visible numerical data.
+- The "rapid DNA scanning" hypothesis is speculative and not directly tested.
+- The statement that B2 is unique to ATF4/ATF5 within the bZip family is not fully verified against the literature.
+- The MD simulations' relevance to the B2-TAD interaction mechanism is not established.

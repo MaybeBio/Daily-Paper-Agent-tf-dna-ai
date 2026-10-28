@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "42107269",
+    "doi": "10.1016/j.bmc.2026.118694",
+    "title": "Identification of non-hydroxamate histone deacetylase 8 inhibitors using deep learning-based screening of two-dimensional molecular images."
+  },
+  "content": {
+    "abstract": "Histone deacetylase 8 (HDAC8) is a zinc-dependent enzyme that deacetylates proteins and is involved in cancer development, making its inhibition a potential anticancer strategy. Most reported HDAC8 inhibitors contain a hydroxamate zinc-binding group; however, hydroxamate moieties have been associated with potential mutagenicity, motivating the search for non-hydroxamate inhibitors. In this study, we applied a two-dimensional (2D) molecular image-based deep learning approach to identify non-hydroxamate HDAC8 inhibitors. We first assessed DEEPScreen, a reported convolutional neural network-based platform that uses a 2D molecular image model; however, the original architecture exhibited limited predictive performance for HDAC8 (F1-score < 0.7). Incorporating a ResNet architecture into DEEPScreen improved the classification accuracy of HDAC8 inhibitors (F1-score = 0.84) and outperformed conventional descriptor-based methods. Using the trained ResNet model, we screened the Osaka University library and experimentally assessed the resulting virtual hit compounds. This workflow identified a non-hydroxamate HDAC8 inhibitor hit S29 (61.6% inhibition at 30 muM; IC(50) = 14.1 muM). Subsequent straightforward structural optimization revealed that the alpha-methyl substituent on the ester moiety was not essential for HDAC8 inhibition and resulted in the identification of compound 1, a more potent non-hydroxamate HDAC8 inhibitor (72% inhibition at 30 muM; IC(50) = 7.8 muM). This study demonstrates that 2D image-based deep learning-integrated with experimental validation and structural optimization-can facilitate the discovery of non-hydroxamate HDAC8 inhibitors and expand the accessible chemical space for this target.",
+    "keywords": [
+      "Epigenetics",
+      "Histone deacetylase",
+      "In silico screening",
+      "Machine learning",
+      "Novel scaffold"
+    ],
+    "mesh_terms": [
+      "*Histone Deacetylase Inhibitors/chemistry/pharmacology/chemical synthesis",
+      "*Deep Learning",
+      "Humans",
+      "*Repressor Proteins/antagonists & inhibitors/metabolism",
+      "*Histone Deacetylases/metabolism",
+      "Molecular Structure",
+      "Structure-Activity Relationship",
+      "Drug Evaluation, Preclinical"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yamashita, Yasunobu",
+        "Yun, Juhyun",
+        "Asai, Ayumu",
+        "Kato, Hiroki",
+        "Taki, Yuuki",
+        "Izuhara, Moeha",
+        "Yamanaka, Takuya",
+        "Tsuji, Motonori",
+        "Nakamura, Junya",
+        "Takada, Yuri",
+        "Itoh, Yukihiro",
+        "Sakurai, Yasushi",
+        "Suzuki, Takayoshi"
+      ],
+      "short_names": [
+        "Yamashita Y",
+        "Yun J",
+        "Asai A",
+        "Kato H",
+        "Taki Y",
+        "Izuhara M",
+        "Yamanaka T",
+        "Tsuji M",
+        "Nakamura J",
+        "Takada Y",
+        "Itoh Y",
+        "Sakurai Y",
+        "Suzuki T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan. Electronic address: yyamashita@sanken.osaka-u.ac.jp.",
+        "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan.",
+        "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan.",
+        "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan.",
+        "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan.",
+        "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan.",
+        "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan.",
+        "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan; Institute of Molecular Function, 2-105-14 Takasu, Misato-shi, Saitama 341-0037, Japan.",
+        "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan.",
+        "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan.",
+        "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan; Laboratory for Biomaterials and Bioengineering, Institute of Integrated Research, Institute of Science Tokyo, 2-3-10 Kanda-Surugadai, Chiyoda-ku, Tokyo 101-0062, Japan.",
+        "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan.",
+        "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan. Electronic address: tkyssuzuki@sanken.osaka-u.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yamashita, Yasunobu",
+        "short_name": "Yamashita Y",
+        "identifiers": [],
+        "affiliations": [
+          "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan. Electronic address: yyamashita@sanken.osaka-u.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Yun, Juhyun",
+        "short_name": "Yun J",
+        "identifiers": [],
+        "affiliations": [
+          "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Asai, Ayumu",
+        "short_name": "Asai A",
+        "identifiers": [],
+        "affiliations": [
+          "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Kato, Hiroki",
+        "short_name": "Kato H",
+        "identifiers": [],
+        "affiliations": [
+          "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Taki, Yuuki",
+        "short_name": "Taki Y",
+        "identifiers": [],
+        "affiliations": [
+          "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Izuhara, Moeha",
+        "short_name": "Izuhara M",
+        "identifiers": [],
+        "affiliations": [
+          "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamanaka, Takuya",
+        "short_name": "Yamanaka T",
+        "identifiers": [],
+        "affiliations": [
+          "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Tsuji, Motonori",
+        "short_name": "Tsuji M",
+        "identifiers": [],
+        "affiliations": [
+          "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan; Institute of Molecular Function, 2-105-14 Takasu, Misato-shi, Saitama 341-0037, Japan."
+        ]
+      },
+      {
+        "full_name": "Nakamura, Junya",
+        "short_name": "Nakamura J",
+        "identifiers": [],
+        "affiliations": [
+          "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Takada, Yuri",
+        "short_name": "Takada Y",
+        "identifiers": [],
+        "affiliations": [
+          "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Itoh, Yukihiro",
+        "short_name": "Itoh Y",
+        "identifiers": [],
+        "affiliations": [
+          "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan; Laboratory for Biomaterials and Bioengineering, Institute of Integrated Research, Institute of Science Tokyo, 2-3-10 Kanda-Surugadai, Chiyoda-ku, Tokyo 101-0062, Japan."
+        ]
+      },
+      {
+        "full_name": "Sakurai, Yasushi",
+        "short_name": "Sakurai Y",
+        "identifiers": [],
+        "affiliations": [
+          "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Suzuki, Takayoshi",
+        "short_name": "Suzuki T",
+        "identifiers": [],
+        "affiliations": [
+          "SANKEN, The University of Osaka, 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan. Electronic address: tkyssuzuki@sanken.osaka-u.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioorganic & medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Bioorg Med Chem"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/11 00:30",
+    "fetched_at": "2026-10-01 20:31:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42107269",
+      "38296560",
+      "31748509",
+      "39604351",
+      "39608552",
+      "31630054",
+      "27542119",
+      "41730815",
+      "29533873",
+      "30611847",
+      "40541580",
+      "31830865",
+      "41785528",
+      "30836926",
+      "41001797",
+      "41720839",
+      "24403121",
+      "27860422",
+      "31952961",
+      "29514055",
+      "25757142",
+      "22272142",
+      "39427514",
+      "31421254",
+      "30632447",
+      "29953251",
+      "38871969",
+      "42035225",
+      "25874326",
+      "39039678",
+      "25407689",
+      "39717958",
+      "29498707",
+      "32446120",
+      "33686739",
+      "23116147",
+      "32151834",
+      "27665180",
+      "39357770",
+      "25986171",
+      "29150330",
+      "29190092",
+      "27774878",
+      "34224197",
+      "25238284",
+      "34116381",
+      "25763653",
+      "40893045",
+      "20656379",
+      "33668008",
+      "31901516",
+      "24059701",
+      "35408604",
+      "31271961",
+      "24375963",
+      "30594678",
+      "25953722",
+      "30369061",
+      "40319810",
+      "40649728",
+      "29182018",
+      "38949959",
+      "38782078",
+      "33848944",
+      "37144599",
+      "32348628",
+      "41878673",
+      "37870047",
+      "35886887",
+      "40617084",
+      "37227732",
+      "39351092",
+      "39549507",
+      "23672185",
+      "28607401",
+      "30347148",
+      "41421683",
+      "24864038",
+      "28496307",
+      "28632421",
+      "25011684",
+      "36533308",
+      "29464997",
+      "21334896",
+      "42054745",
+      "39978120",
+      "32672458",
+      "29080240",
+      "38889633",
+      "33067876",
+      "22907916",
+      "30521473",
+      "28453994",
+      "27374062",
+      "25462986",
+      "38835122",
+      "32591593",
+      "26907204",
+      "29775292",
+      "39121339"
+    ],
+    "review": [
+      "42107269",
+      "40541580",
+      "41001797",
+      "29514055",
+      "39427514",
+      "30632447",
+      "39039678",
+      "30594678",
+      "29182018",
+      "37227732",
+      "28453994"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0968-0896(26)00150-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

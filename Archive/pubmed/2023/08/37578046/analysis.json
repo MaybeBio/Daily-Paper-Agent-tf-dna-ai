@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37578046",
+  "title": "Computational exploration of natural compounds targeting Staphylococcus aureus: inhibiting AgrA promoter binding for antimicrobial intervention.",
+  "authors": "Saha, Subhadip; Ghosh, Monidipa",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2023-08-14",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过药效团筛选、分子对接和200ns分子动力学模拟，探索天然化合物抑制金黄色葡萄球菌AgrA响应调节因子与启动子DNA结合，属于蛋白质-DNA互作（转录因子-DNA结合）的物理模拟研究，但对象为细菌双组分调控因子而非典型真核TF，且无AI方法，故评7分。",
+  "abstract": "Staphylococcus aureus is a highly virulent nosocomial pathogen that poses a significant threat to individuals exposed to healthcare settings. Due to its sophisticated machinery for producing virulence factors, S. aureus can cause severe and potentially fatal infections in humans. This study focuses on the response regulator AgrA, which plays a crucial role in regulating the production of virulence factors in S. aureus. The objective is to identify natural compounds that can inhibit the binding of AgrA to its promoter site, thus inhibiting the expression of virulence genes. To achieve this, a pharmacophore model was generated using known drugs and applied to screen the ZINC natural product database. The resulting compounds were subjected to molecular docking-based virtual screening against the C-terminal DNA binding domain of AgrA. Three compounds, namely ZINC000077269178, ZINC000051012304, and ZINC000004266026, were shortlisted based on their strong affinity for key residues involved in DNA binding and transcription initiation. Subsequently, the unbound and ligand-bound complexes were subjected to a 200 ns molecular dynamics simulation to assess their conformational stability. Various analyses, including RMSD, RMSF, Rg, SASA, Principal Component Analysis, and Gibbs free energy landscape, were conducted on the simulation trajectory. The RMSD profile indicated similar fluctuations in both bound and unbound structures, while the Rg profile demonstrated the compactness of the protein without any unfolding during the simulation. Furthermore, Principal component analysis revealed that ligand binding reduced the overall atomic motion of the protein whereas free energy landscape suggested the energy variations obtained in complexes.Communicated by Ramaswamy H. Sarma.",
+  "abstract_zh": "金黄色葡萄球菌（Staphylococcus aureus）是一种高毒力的医院感染病原体，对暴露于医疗环境中的个体构成重大威胁。由于其产生毒力因子的精密机制，金黄色葡萄球菌可在人类中引起严重且可能致命的感染。本研究聚焦于响应调节因子AgrA，该因子在金黄色葡萄球菌毒力因子产生中发挥关键调控作用。目标是识别能够抑制AgrA与其启动子位点结合的天然化合物，从而抑制毒力基因的表达。为实现此目标，利用已知药物生成了药效团模型，并将其应用于筛选ZINC天然产物数据库。所得化合物随后针对AgrA的C端DNA结合域进行了基于分子对接的虚拟筛选。三种化合物，即ZINC000077269178、ZINC000051012304和ZINC000004266026，因其对参与DNA结合和转录起始的关键残基具有强亲和力而被筛选出来。随后，对未结合和配体结合复合物进行了200 ns的分子动力学模拟，以评估其构象稳定性。对模拟轨迹进行了多种分析，包括RMSD、RMSF、Rg、SASA、主成分分析和吉布斯自由能景观。RMSD图谱显示结合和未结合结构具有相似的波动，而Rg图谱表明蛋白质在模拟过程中保持紧凑性，未发生解折叠。此外，主成分分析显示配体结合减少了蛋白质的整体原子运动，而自由能景观则揭示了复合物中获得的能量变化。由Ramaswamy H. Sarma通讯。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37578046/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37578046/",
+  "paper_page_path": "papers/pubmed/37578046/index.html"
+}

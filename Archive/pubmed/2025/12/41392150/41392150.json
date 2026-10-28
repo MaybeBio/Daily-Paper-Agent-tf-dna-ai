@@ -1,0 +1,419 @@
+{
+  "identity": {
+    "pmid": "41392150",
+    "doi": "10.1186/s40001-025-03661-6",
+    "title": "Identification of a chromatin-modifying gene-histone lysine N-methyl transferase (KMT2C/MLL3) as a potential immunomodulator oncogene in Indian pancreatic cancer patients."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Due to lack of early biomarkers, pancreatic cancer (PanCa), often manifests late, with few treatment options and poor prognosis, Although epigenetic regulators-particularly lysine methyltransferases like KMT2C-are becoming increasingly linked to cancer biology, their function in PanCa is still poorly understood. OBJECTIVES: This study aims to investigate KMT2C's mutational and expression landscape in Indian PanCa patients, to explore it's possible role in carcinogenesis and immune modulation, and to assess its druggability through computational docking and dynamic simulations. METHODS: Clinical samples from Indian PanCa patients were used for differential expression and mutation studies. Differential expression, methylation, mutation, and immune cell infiltration profiling were also conducted using public databases (TCGA, GEO, CPTAC, and CCLE). Regulatory networks, scRNA-seq analysis, and protein-protein interaction networks were mapped. To evaluate ligand binding to KMT2C, molecular docking and 100-ns molecular dynamics simulations were used. RESULTS: KMT2C was overexpressed and exhibited a significantly higher mutational frequency (62.5%) in Indian PanCa samples in contrast with Western cohorts. Its role in immune suppression was implicated by positive correlations observed between KMT2C expression and several. immune-checkpoint receptor expression and regulatory T-cell infiltration. KMT2C was connected by functional enrichment to inositol phosphate metabolism and chromatin remodelling. The therapeutic potential of protodioscin was suggested by its strong binding affinity to KMT2C and the formation of stable interactions confirmed by MD simulations. CONCLUSION: This study suggests KMT2C to be a putative oncogene in Indian PanCa patients in contrast with Western PanCa patients, with immunomodulatory effects and therapeutic potential, implicating its role as a promising biomarker, requiring additional clinical validation, emphasizing the necessity of ethnically informed precision oncology.",
+    "keywords": [
+      "Drug target",
+      "Immunomodulation",
+      "Indian pancreatic cancer",
+      "Lysine methyltransferase",
+      "Molecular docking"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Pancreatic Neoplasms/genetics/immunology/pathology",
+      "India",
+      "*DNA-Binding Proteins/genetics/metabolism/chemistry",
+      "*Histone-Lysine N-Methyltransferase/genetics/metabolism",
+      "Mutation",
+      "Molecular Docking Simulation",
+      "Gene Expression Regulation, Neoplastic",
+      "Biomarkers, Tumor/genetics",
+      "Molecular Dynamics Simulation",
+      "Oncogenes",
+      "Chromatin/metabolism/genetics",
+      "Male",
+      "Immunomodulation/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Choudhury, Sounetra",
+        "Bararia, Akash",
+        "Maiti, Arunima",
+        "Saha, Sayan",
+        "Mukherjee, Sumit",
+        "Chakraborty, Shuchismita",
+        "Pal, Arnab",
+        "Ghosh, Shibajyoti",
+        "Chattopadhay, Bitan K",
+        "Banerjee, Sudeep",
+        "Ghatak, Supriyo",
+        "Dastidar, Debabrata Ghosh",
+        "Sikdar, Nilabja"
+      ],
+      "short_names": [
+        "Choudhury S",
+        "Bararia A",
+        "Maiti A",
+        "Saha S",
+        "Mukherjee S",
+        "Chakraborty S",
+        "Pal A",
+        "Ghosh S",
+        "Chattopadhay BK",
+        "Banerjee S",
+        "Ghatak S",
+        "Dastidar DG",
+        "Sikdar N"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4465-472X"
+      ],
+      "affiliations": [
+        "Human Genetics Unit, Biological Sciences Division, Indian Statistical Institute, 203, B. T. Road, Kolkata, 700108, India.",
+        "Estuarine and Coastal Studies Foundation, Howrah, WB, India.",
+        "Human Genetics Unit, Biological Sciences Division, Indian Statistical Institute, 203, B. T. Road, Kolkata, 700108, India.",
+        "Suraksha Diagnostics Pvt Ltd, Newtown, Rajarhat, Kolkata, India.",
+        "Guru Nanak Institute of Pharmaceutical Science and Technology, Kolkata, India.",
+        "Department of Computer Science, Ben-Gurion University, Beer-Sheva, Israel.",
+        "Medical College and Hospital, Kolkata, India.",
+        "I.P.G.M.E & R and SSKM Hospital, Kolkata, India.",
+        "Medical College and Hospital, Kolkata, India.",
+        "I.P.G.M.E & R and SSKM Hospital, Kolkata, India.",
+        "Tata Medical Center, Kolkata, India.",
+        "Apollo Multi-speciality Hospital, Kolkata, India.",
+        "Guru Nanak Institute of Pharmaceutical Science and Technology, Kolkata, India.",
+        "Human Genetics Unit, Biological Sciences Division, Indian Statistical Institute, 203, B. T. Road, Kolkata, 700108, India. snilabja@gmail.com.",
+        "Estuarine and Coastal Studies Foundation, Howrah, WB, India. snilabja@gmail.com.",
+        "Natural Sciences Foundation, Kolkata, WB, India. snilabja@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Choudhury, Sounetra",
+        "short_name": "Choudhury S",
+        "identifiers": [],
+        "affiliations": [
+          "Human Genetics Unit, Biological Sciences Division, Indian Statistical Institute, 203, B. T. Road, Kolkata, 700108, India.",
+          "Estuarine and Coastal Studies Foundation, Howrah, WB, India."
+        ]
+      },
+      {
+        "full_name": "Bararia, Akash",
+        "short_name": "Bararia A",
+        "identifiers": [],
+        "affiliations": [
+          "Human Genetics Unit, Biological Sciences Division, Indian Statistical Institute, 203, B. T. Road, Kolkata, 700108, India."
+        ]
+      },
+      {
+        "full_name": "Maiti, Arunima",
+        "short_name": "Maiti A",
+        "identifiers": [],
+        "affiliations": [
+          "Suraksha Diagnostics Pvt Ltd, Newtown, Rajarhat, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Saha, Sayan",
+        "short_name": "Saha S",
+        "identifiers": [],
+        "affiliations": [
+          "Guru Nanak Institute of Pharmaceutical Science and Technology, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Mukherjee, Sumit",
+        "short_name": "Mukherjee S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Ben-Gurion University, Beer-Sheva, Israel."
+        ]
+      },
+      {
+        "full_name": "Chakraborty, Shuchismita",
+        "short_name": "Chakraborty S",
+        "identifiers": [],
+        "affiliations": [
+          "Medical College and Hospital, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Pal, Arnab",
+        "short_name": "Pal A",
+        "identifiers": [],
+        "affiliations": [
+          "I.P.G.M.E & R and SSKM Hospital, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Shibajyoti",
+        "short_name": "Ghosh S",
+        "identifiers": [],
+        "affiliations": [
+          "Medical College and Hospital, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Chattopadhay, Bitan K",
+        "short_name": "Chattopadhay BK",
+        "identifiers": [],
+        "affiliations": [
+          "I.P.G.M.E & R and SSKM Hospital, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Banerjee, Sudeep",
+        "short_name": "Banerjee S",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Medical Center, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Ghatak, Supriyo",
+        "short_name": "Ghatak S",
+        "identifiers": [],
+        "affiliations": [
+          "Apollo Multi-speciality Hospital, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Dastidar, Debabrata Ghosh",
+        "short_name": "Dastidar DG",
+        "identifiers": [],
+        "affiliations": [
+          "Guru Nanak Institute of Pharmaceutical Science and Technology, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Sikdar, Nilabja",
+        "short_name": "Sikdar N",
+        "identifiers": [
+          "0000-0003-4465-472X"
+        ],
+        "affiliations": [
+          "Human Genetics Unit, Biological Sciences Division, Indian Statistical Institute, 203, B. T. Road, Kolkata, 700108, India. snilabja@gmail.com.",
+          "Estuarine and Coastal Studies Foundation, Howrah, WB, India. snilabja@gmail.com.",
+          "Natural Sciences Foundation, Kolkata, WB, India. snilabja@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of medical research"
+    ],
+    "journal_abbrev": [
+      "Eur J Med Res"
+    ],
+    "pub_date": "2025 Dec 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/15 00:28",
+    "fetched_at": "2026-10-01 09:09:05"
+  },
+  "links": {
+    "cites": [
+      "42367774"
+    ],
+    "refs": [
+      "40901350",
+      "40678708",
+      "40337924",
+      "39998707",
+      "39713078",
+      "39091583",
+      "38594266",
+      "38225603",
+      "37746645",
+      "37124888",
+      "37051671",
+      "36329447",
+      "36321662",
+      "35784333",
+      "35422113",
+      "35345335",
+      "35233758",
+      "34002083",
+      "33716146",
+      "33237311",
+      "33237278",
+      "32552660",
+      "32442275",
+      "32312637",
+      "31974523",
+      "31805986",
+      "31582846",
+      "31114875",
+      "30944313",
+      "30705439",
+      "30665945",
+      "30258276",
+      "29737623",
+      "29322643",
+      "29136207",
+      "27280393",
+      "26656885",
+      "26424082",
+      "25521941",
+      "23180760",
+      "22549946",
+      "22460905",
+      "16222654"
+    ],
+    "similar": [
+      "41392150",
+      "32867667",
+      "38453563",
+      "39165358",
+      "33655698",
+      "31128216",
+      "33853832",
+      "41062612",
+      "39091583",
+      "35322299",
+      "39908143",
+      "34156443",
+      "38513661",
+      "38926506",
+      "33159839",
+      "39810240",
+      "41203099",
+      "32471474",
+      "34240274",
+      "35345335",
+      "41301465",
+      "30665945",
+      "27280393",
+      "40517592",
+      "29785026",
+      "37711100",
+      "38528071",
+      "29069077",
+      "31146111",
+      "31221981",
+      "27999365",
+      "37261974",
+      "39806204",
+      "39501105",
+      "38791111",
+      "25537518",
+      "40711603",
+      "40749665",
+      "15467427",
+      "41260168",
+      "39445823",
+      "24101509",
+      "36312851",
+      "25794446",
+      "39836524",
+      "39013459",
+      "38817665",
+      "41315624",
+      "39998707",
+      "33168853",
+      "30108106",
+      "35449309",
+      "38926258",
+      "33596429",
+      "28423671",
+      "20974671",
+      "22199269",
+      "41193984",
+      "29483845",
+      "41350704",
+      "34346253",
+      "41346611",
+      "40529377",
+      "35354467",
+      "33232789",
+      "40332418",
+      "40281485",
+      "38879709",
+      "29954944",
+      "22323599",
+      "40141028",
+      "39127164",
+      "20143430",
+      "31693890",
+      "38967349",
+      "41425578",
+      "32305991",
+      "33823156",
+      "40624624",
+      "41235257",
+      "30337373",
+      "39026679",
+      "32934754",
+      "40927719",
+      "39696517",
+      "31341405",
+      "33099938",
+      "38795761",
+      "39833990",
+      "40692979",
+      "33648511",
+      "40486509",
+      "39896800",
+      "40560338",
+      "40627944",
+      "27418145",
+      "38594266",
+      "39181686",
+      "39964485",
+      "27457071"
+    ],
+    "review": [
+      "41392150",
+      "38453563",
+      "39165358",
+      "31128216",
+      "34156443",
+      "41203099",
+      "31221981",
+      "27999365",
+      "38791111",
+      "25537518",
+      "25794446"
+    ],
+    "pmc": [
+      "12821199"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://eurjmedres.biomedcentral.com/articles/10.1186/s40001-025-03661-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41392150/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

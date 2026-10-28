@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report identification of 30 OsMADS-box genes and 3 differentially expressed MADS-box genes in rice under fluroxypyr-meptyl and oxyfluorfen stress, with phylogenetic, chromosomal, collinearity, structural, docking, expression, and protein-protein interaction analyses supporting a role in pesticide metabolism
+- **Visible evidence base** Abstract text only; no raw data, statistical details, methodological descriptions, or figure/table contents provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, statistical analyses, sequence data, docking parameters, qRT-PCR primer information, and supplementary datasets
+
+## Reviewer
+- **Overall assessment** The abstract presents a broad descriptive survey of the rice MADS-box gene family under two herbicide treatments, with a plausible narrative linking differential expression to pesticide metabolism. However, the evidence base is insufficient to evaluate the strength of the central claims. The abstract reports multiple analyses but provides no quantitative results, no statistical measures, and no methodological detail. The claim that MADS-box genes are functionally involved in pesticide metabolism is supported only by indirect evidence (expression, docking, interaction networks) and is not established from the supplied material. The work may be of interest to researchers in plant stress biology and herbicide metabolism, but the current abstract does not demonstrate technical rigor or novelty beyond a standard gene family characterization.
+- **Who would be interested in the results, and why** Plant molecular biologists studying transcription factor families, particularly MADS-box genes, and researchers investigating xenobiotic metabolism and herbicide tolerance in crops. The collinearity data across multiple species may interest comparative genomics researchers. The pesticide docking and expression data could be relevant to those studying herbicide detoxification mechanisms in rice.
+- **Major strengths** The abstract covers a comprehensive range of analyses, from phylogenetics to protein-protein interactions, indicating a systematic approach. The inclusion of two different herbicides with distinct modes of action provides comparative value. The cross-species collinearity analysis with five plant species offers evolutionary context. The identification of specific amino acid residues in docking studies suggests a mechanistic angle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Transcriptome analysis of rice treated with fluroxypyr-meptyl and oxyfluorfen revealed 30 OsMADS-box genes and 3 MADS-box differentially expressed genes"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not report the experimental conditions for the transcriptome analysis, including herbicide concentrations, exposure durations, tissue types, developmental stages, replication numbers, or the statistical thresholds used to define differential expression. Without these details, the identification of 30 genes and 3 DEGs cannot be evaluated for reproducibility or biological significance.
+  - **Why it matters** Differential expression is the foundational claim linking MADS-box genes to pesticide stress. If the experimental design or statistical cutoffs are inadequate, the entire downstream narrative is compromised. The abstract provides no way to assess whether the 3 DEGs represent robust biological signals or artifacts of threshold selection.
+  - **Resolution test** Provide full methods for the transcriptome experiment, including treatment conditions, biological replicates, RNA-seq analysis pipeline, and the exact criteria for DEG identification. Report effect sizes and adjusted p-values for the 3 DEGs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Docking studies of OFF, FLUME, and the three MADS-box DEGs identified key amino acid residues implicated in pesticide binding"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports docking results without any methodological context. No information is provided on the protein structures used, the docking software, scoring functions, binding affinities, or how "key amino acid residues" were defined. The term "implicated in pesticide binding" is vague and does not indicate whether these residues are validated experimentally or are purely computational predictions.
+  - **Why it matters** Docking studies are highly sensitive to structural models and parameter choices. Without details on structure quality, docking validation, and the criteria for identifying key residues, the claim of pesticide binding cannot be assessed. Overinterpretation of docking results is a common weakness in gene family papers and can mislead readers about functional significance.
+  - **Resolution test** Provide the full docking methodology, including structure sources, preparation steps, software versions, validation of docking protocols, and quantitative binding scores. Clarify whether the identified residues are supported by mutagenesis or other experimental evidence, or clearly label them as computational predictions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "Protein-protein interaction network analysis further supported the involvement of OsMADS-box proteins in FLUME and OFF metabolism"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that interaction network analysis "supported" involvement in pesticide metabolism, but no details are given about the interaction data source, the network construction method, the identity of interacting partners, or how the network specifically links to FLUME and OFF metabolism. The logical connection between predicted protein interactions and metabolic involvement is not articulated.
+  - **Why it matters** Protein-protein interaction predictions are often based on orthology or co-expression and do not demonstrate functional involvement in a specific metabolic pathway. The claim as stated overreaches the evidence typically provided by such analyses. Without showing that the interacting partners are known pesticide-metabolizing enzymes or that the network is enriched for metabolic functions, the claim is unsupported.
+  - **Resolution test** Describe the interaction data source, the network construction and analysis methods, and provide evidence that the interaction partners are functionally connected to xenobiotic metabolism. If the network is purely predictive, temper the claim accordingly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Gene family size
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "30 OsMADS-box genes" were revealed by transcriptome analysis, but it is unclear whether this represents the total number of MADS-box genes in the rice genome or only those detected as expressed under the experimental conditions. The phrasing is ambiguous.
+  - **Required correction** Clarify whether the 30 genes represent the complete OsMADS-box family in rice or a subset detected in this study, and specify the reference genome annotation used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** qRT-PCR validation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions qRT-PCR confirmation of "preferential expression of several MADS-box DEGs" but does not specify how many genes were validated, the magnitude of expression changes, or whether the results were consistent with the transcriptome data.
+  - **Required correction** Report the number of validated genes, the fold changes, and the statistical significance of the qRT-PCR results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Cis-acting elements
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that cis-acting elements "enable responses to biotic and abiotic stress," but the presence of regulatory elements is predictive and does not demonstrate function. The phrasing overstates the evidence.
+  - **Required correction** Rephrase to indicate that cis-acting elements associated with stress responses were identified, without claiming functional enablement.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Subfamily classification
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract lists 12 subfamilies but does not indicate the number of genes in each subfamily or the basis for classification. This limits the reader's ability to assess the phylogenetic analysis.
+  - **Required correction** Provide the gene counts per subfamily and the phylogenetic method used for classification.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (transcriptome experimental details and DEG criteria), R1-M2 (docking methodology and validation), R1-M3 (interaction network evidence linking to metabolism)
+- **Assessment against Nature-style criteria** Originality: The abstract does not demonstrate conceptual novelty beyond a standard gene family characterization applied to a new stress condition. Similar MADS-box family analyses exist for other stresses in rice. Scientific importance: The potential link to herbicide metabolism is interesting but not established; the broader significance for understanding pesticide tolerance mechanisms remains speculative. Interdisciplinary readership: The work may appeal to plant biologists and agrochemical researchers, but the abstract does not frame the findings in a way that would attract a broad interdisciplinary audience. Technical soundness: Cannot be assessed from the abstract alone; the missing methodological details for transcriptomics, docking, and interaction networks are critical gaps. Readability for nonspecialists: The abstract is generally readable but uses specialized terminology without sufficient context, and the logical flow from gene identification to metabolic involvement is not clearly articulated.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a descriptive gene family study with a speculative functional claim. The central assertion that MADS-box genes are involved in FLUME and OFF metabolism requires substantially more evidence, including rigorous experimental validation. The manuscript may become publishable if the full data support the claims and if the authors provide the missing methodological details and temper overreaching interpretations.
+
+## Risk / unsupported claims
+- The claim that MADS-box genes are functionally involved in pesticide metabolism is unsupported; the abstract provides only indirect evidence (expression changes, docking predictions, interaction networks) without functional validation.
+- The claim that cis-acting elements "enable responses to biotic and abiotic stress" is an overinterpretation of predictive sequence analysis.
+- The claim that docking studies identified "key amino acid residues implicated in pesticide binding" is unsupported without methodological details and experimental validation.
+- The claim that protein-protein interaction networks "supported the involvement" in metabolism is not substantiated without network details and functional context.
+- The identification of 30 OsMADS-box genes and 3 DEGs cannot be evaluated without transcriptome experimental details and statistical criteria.
+- The evolutionary significance of the collinearity results cannot be assessed without quantitative data on duplication events and selection pressures.

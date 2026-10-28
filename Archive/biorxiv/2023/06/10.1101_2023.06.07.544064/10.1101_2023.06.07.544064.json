@@ -1,0 +1,974 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.07.544064",
+  "title": "Brewing COFFEE: A sequence-specific coarse-grained energy function for simulations of DNA-protein complexes",
+  "doi": "10.1101/2023.06.07.544064",
+  "abstract": "DNA-protein interactions are pervasive in a number of biophysical processes ranging from transcription, gene expression, to chromosome folding. To describe the structural and dynamic properties underlying these processes accurately, it is important to create transferable computational models. Toward this end, we introduce Co arse grained f orce f ield for e nergy e stimation, COFFEE, a robust framework for simulating DNA-protein complexes. To brew COFFEE, we integrated the energy function in the Self-Organized Polymer model with Side Chains for proteins and the Three Interaction Site model for DNA in a modular fashion, without re-calibrating any of the parameters in the original force-fields. A unique feature of COFFEE is that it describes sequence-specific DNA-protein interactions using a statistical potential (SP) derived from a dataset of high-resolution crystal structures. The only parameter in COFFEE is the strength ( λ DNAPRO ) of the DNA-protein contact potential. For an optimal choice of λ DNAPRO , the crystallographic B-factors for DNA-protein complexes, with varying sizes and topologies, are quantitatively reproduced. Without any further readjustments to the force-field parameters, COFFEE predicts the scattering profiles that are in quantitative agreement with SAXS experiments as well as chemical shifts that are consistent with NMR. We also show that COFFEE accurately describes the salt-induced unraveling of nucleosomes. Strikingly, our nucleosome simulations explain the destabilization effect of ARG to LYS mutations, which does not alter the balance of electrostatic interactions, but affects chemical interactions in subtle ways. The range of applications attests to the transferability of COFFEE, and we anticipate that it would be a promising framework for simulating DNA-protein complexes at the molecular length-scale. Graphical TOC Entry",
+  "authors": [
+    "Debayan Chakraborty",
+    "Balaka Mondal",
+    "D. Thirumalai"
+  ],
+  "published_date": "2023-06-08",
+  "updated_date": "2023-06-09T01:15:17Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.07.544064",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.07.544064.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"transcription factor binding\" OR \"transcription factor binding site\" OR \"TF binding\" OR TFBS OR \"DNA binding\" OR \"DNA-binding\" OR \"DNA-binding protein\" OR \"protein-DNA interaction\" OR \"protein-DNA binding\" OR \"DNA-binding factor\" OR \"DNA-binding site\" OR \"DNA binding site\" OR \"protein-DNA binding site\" OR \"zinc finger\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"convolutional neural network\" OR transformer OR \"language model\" OR \"foundation model\" OR \"diffusion model\" OR generative OR \"flow matching\" OR alphafold OR esmfold OR rosetta OR \"molecular dynamics\" OR simulation OR docking)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:00:06Z",
+        "timestamp": 1768507206750,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            8
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 122,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  DNA-protein interactions are pervasive in a number of biophysical processes ranging from transcription, gene expression, to chromosome folding. To describe the structural and dynamic properties underlying these processes accurately, it is important to create transferable computational models. Toward this end, we introduce\n                  <jats:bold>Co</jats:bold>\n                  arse grained\n                  <jats:bold>f</jats:bold>\n                  orce\n                  <jats:bold>f</jats:bold>\n                  ield for\n                  <jats:bold>e</jats:bold>\n                  nergy\n                  <jats:bold>e</jats:bold>\n                  stimation, COFFEE, a robust framework for simulating DNA-protein complexes. To brew COFFEE, we integrated the energy function in the Self-Organized Polymer model with Side Chains for proteins and the Three Interaction Site model for DNA in a modular fashion, without re-calibrating any of the parameters in the original force-fields. A unique feature of COFFEE is that it describes sequence-specific DNA-protein interactions using a statistical potential (SP) derived from a dataset of high-resolution crystal structures. The only parameter in COFFEE is the strength (\n                  <jats:italic>λ</jats:italic>\n                  <jats:sub>\n                    <jats:italic>DNAPRO</jats:italic>\n                  </jats:sub>\n                  ) of the DNA-protein contact potential. For an optimal choice of\n                  <jats:italic>λ</jats:italic>\n                  <jats:sub>\n                    <jats:italic>DNAPRO</jats:italic>\n                  </jats:sub>\n                  , the crystallographic B-factors for DNA-protein complexes, with varying sizes and topologies, are quantitatively reproduced. Without any further readjustments to the force-field parameters, COFFEE predicts the scattering profiles that are in\n                  <jats:italic>quantitative agreement</jats:italic>\n                  with SAXS experiments as well as chemical shifts that are consistent with NMR. We also show that COFFEE accurately describes the salt-induced unraveling of nucleosomes. Strikingly, our nucleosome simulations explain the destabilization effect of ARG to LYS mutations, which does not alter the balance of electrostatic interactions, but affects chemical interactions in subtle ways. The range of applications attests to the transferability of COFFEE, and we anticipate that it would be a promising framework for simulating DNA-protein complexes at the molecular length-scale.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Graphical TOC Entry</jats:title>\n                  <jats:fig id=\"ufig1\" position=\"float\" fig-type=\"figure\" orientation=\"portrait\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"544064v2_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>",
+      "DOI": "10.1101/2023.06.07.544064",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            9
+          ]
+        ],
+        "date-time": "2023-06-09T01:15:17Z",
+        "timestamp": 1686273317000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Brewing COFFEE: A sequence-specific coarse-grained energy function for simulations of DNA-protein complexes"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4339-5818",
+          "authenticated-orcid": false,
+          "given": "Debayan",
+          "family": "Chakraborty",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Balaka",
+          "family": "Mondal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1801-5924",
+          "authenticated-orcid": false,
+          "given": "D.",
+          "family": "Thirumalai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3382"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr500373h"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12275-021-1039-2"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl1103"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkn332"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.22384"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang, Y. M. ; Austin, R. H. ; Cox, E. C. Single molecule measurements of repressor protein 1D diffusion on DNA. Phys. Rev. Lett. 97, 048302.",
+          "DOI": "10.1103/PhysRevLett.97.048302"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "13697",
+          "DOI": "10.1038/s41598-020-70763-y",
+          "article-title": "Transient binding and jumping dynamics of p53 along DNA revealed by sub-millisecond resolved single-molecule flourescence tracking",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Sci. Rep"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp077568f"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0903293106"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2012.04.008"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.12",
+          "first-page": "6969",
+          "article-title": "Diffusion-driven mechanisms of protein translocation on nucleic acids. 1. Models and Theory",
+          "volume": "20",
+          "year": "1981",
+          "journal-title": "Biochemistry"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2020.06.007"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1511"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw841"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.8b12363"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "12125",
+          "DOI": "10.1093/nar/gkx917",
+          "article-title": "Molecular mechanism of DNA association with single-stranded DNA binding protein",
+          "volume": "45",
+          "year": "2017",
+          "journal-title": "Nucleic Acid Res"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2018.11.013"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-22636-9"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "4442",
+          "DOI": "10.1021/acs.jpcb.1c10971",
+          "article-title": "Development of Force Field Parameters for the Simulation of Single and Double-Stranded DNA Molecules and DNA-Protein Complexes",
+          "volume": "126",
+          "year": "2022",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms1481"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "4907",
+          "DOI": "10.1093/nar/gkab263",
+          "article-title": "Asymmetry in histone rotation in forced unwrapping and force quench rewrapping in a nucleosome",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic Acid Res"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1003533107"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "775",
+          "DOI": "10.1038/s41557-022-00934-z",
+          "article-title": "Condensates in RNA repeat sequences are heterogeneously organized and exhibit reptation dynamics",
+          "volume": "14",
+          "year": "2022",
+          "journal-title": "Nat. Chem"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp212541y"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4822042"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "13497",
+          "DOI": "10.1021/jacs.6b08416",
+          "article-title": "Molecular Mechanism of Faciliated Dissociation of Fis Protein from DNA",
+          "volume": "138",
+          "year": "2016",
+          "journal-title": "J. Am. Chem. Soc"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.6b02893"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.6b03729"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1416355112"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "1701",
+          "DOI": "10.1093/nar/gkz1202",
+          "article-title": "ssDNA diffuses along Replication protein A via a reptation mechanism",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Nucleic Acid Res"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "1091",
+          "DOI": "10.1038/s41467-021-21377-z",
+          "article-title": "Stability and folding pathways of tetra-nucleosome from six-dimensional free energy surface",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "1019",
+          "DOI": "10.1021/acscentsci.1c00085",
+          "article-title": "Tetranucleosome interactions drive chromatin folding",
+          "volume": "7",
+          "year": "2021",
+          "journal-title": "ACS Cent. Sci"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbrc.2017.09.086"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "102",
+          "DOI": "10.3389/fmolb.2019.00102",
+          "article-title": "MARTINI-Based Protein-DNA Coarse-Grained HADDOCKing",
+          "volume": "6",
+          "year": "2019",
+          "journal-title": "Front. Mol. Biosci"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0409387102"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.5b00575"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.38"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1019500108"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "979",
+          "DOI": "10.1021/ja206557y",
+          "article-title": "Effects of pH on Proteins: Predictions for Ensemble and Single-Molecule Pulling Experiments",
+          "volume": "134",
+          "year": "2012",
+          "journal-title": "J. Am. Chem. Soc"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1201808109"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.42",
+          "first-page": "11358",
+          "article-title": "Dissecting Ubiquitin Folding Using the Self-Organized Polymer Model",
+          "volume": "34",
+          "year": "2015",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.6b13100"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "5063",
+          "DOI": "10.1021/acs.jpclett.8b02220",
+          "article-title": "Salt effects on Protein Folding Thermo-dynamics",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "J. Phys. Chem. Lett"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "763",
+          "DOI": "10.1021/acscentsci.2c00140",
+          "article-title": "Cooperativity and Folding Kinetics in a Multidomain Protein with Interwoven Chain Topology",
+          "volume": "8",
+          "year": "2022",
+          "journal-title": "ACS Cent. Sci"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0408314102"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nchem.2330"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2019.04.037"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1911632116"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2020837118"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "2369",
+          "DOI": "10.1021/acs.jpcb.1c10794",
+          "article-title": "TPP Riboswitch populates Holo-Form-like structure even in the absence of cognate ligand at high Mg2+ concentration",
+          "volume": "126",
+          "year": "2022",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ugrina, M. ; Burkhart, I. ; Muller, D. ; Schwalbe, H. ; Schwierz, N. RNA G-quadruplex folding is a multi-pathway process with a variety of short-lived intermediates. biorxiv 2022,",
+          "DOI": "10.1101/2023.02.08.527282"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "3763",
+          "DOI": "10.1021/acs.jctc.8b00091",
+          "article-title": "Sequence-Dependent Three Interaction Site Model for Single- and Double-Stranded DNA",
+          "volume": "14",
+          "year": "2018",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.54",
+          "first-page": "e100443",
+          "article-title": "Partial unwrapping and histone tail dynamics in nucleo-some revealed by coarse-grained molecular simulations",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "PLoS Comput. Biol"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1006024"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku562"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1611118114"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2007.04.064"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1113621108"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.97.6.2544"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.61",
+          "doi-asserted-by": "crossref",
+          "first-page": "763",
+          "DOI": "10.1021/acscentsci.2c00140",
+          "article-title": "Cooperativity and Folding Kinetics in a Multidomain Protein with Interwoven Chain Topology",
+          "volume": "8",
+          "year": "2022",
+          "journal-title": "ACS Cent. Sci"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1672157"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.113.168101"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "660",
+          "DOI": "10.1021/acscentsci.6b00201",
+          "article-title": "Tension-Dependent Free Energies of Nucleosome Unwrapping",
+          "volume": "2",
+          "year": "2016",
+          "journal-title": "ACS Cent. Sci"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.65",
+          "doi-asserted-by": "crossref",
+          "first-page": "1004443",
+          "DOI": "10.1371/journal.pcbi.1004443",
+          "article-title": "Partial Unwrapping and Histone Tail Dynamics in Nucleosome Revealed by Coarse-Grained Molecular Simulations",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "PLoS Comput. Biol"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "1005880",
+          "DOI": "10.1371/journal.pcbi.1005880",
+          "article-title": "Sequence-dependent nucleosome sliding in rotation-coupled and uncoupled modes revealed by molecular simulations",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "PLoS Comput. Biol"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.72.10.3802"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ma60054a013"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1996.0114"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(05)80269-4"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.71",
+          "doi-asserted-by": "crossref",
+          "first-page": "676",
+          "DOI": "10.1002/pro.5560060317",
+          "article-title": "Derivation and testing of pair potentials for protein folding. When is the quasichemical approximiation correct?",
+          "volume": "6",
+          "year": "1997",
+          "journal-title": "Protein Sci"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1110/ps.8.2.361"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2004.12.012"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-11-262"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.75",
+          "doi-asserted-by": "crossref",
+          "first-page": "2107",
+          "DOI": "10.1002/pro.5560041016",
+          "article-title": "Are proteins ideal mixtures of amino acids? Analysis of energy parameter sets",
+          "volume": "4",
+          "year": "1995",
+          "journal-title": "Protein Sci"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1996.0175"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.77",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shin, S. ; Shi, G. ; Thirumalai, D. A method for extracting effective interactions from Hi-C data with applications to interphase chromosomes and inverted nuclei. biorxiv 2023,",
+          "DOI": "10.1101/2023.03.29.534824"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/29.13.2860"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.93.10.4862"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.80",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1005659",
+          "DOI": "10.1371/journal.pcbi.1005659",
+          "article-title": "OpenMM 7: Rapid development of high performance algorithms for molecular dynamics",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "PloS Comp. Biol"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.81",
+          "doi-asserted-by": "crossref",
+          "first-page": "1148",
+          "DOI": "10.1107/S1600576716007962",
+          "article-title": "Accurate optimization of amino acid form factors for computing small-angle X-ray scattering intensity of atomistic protein structures",
+          "volume": "49",
+          "year": "2016",
+          "journal-title": "J. Appl. Crystallogr"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2009.03.036"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.83",
+          "doi-asserted-by": "crossref",
+          "first-page": "325",
+          "DOI": "10.1021/ct5009125",
+          "article-title": "Predicting Protein Backbone Chemical Shifts From Cα Coordinates: Extracting High Resolution Experimental Observables from Low Resolution Models",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "J. Chem Theory Comput"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/365512a0"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/377119a0"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.11.005"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2012.01.023"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature07343"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl645"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2009.11.011"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.91",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt584"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/328089a0"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.274.11.6957"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.94",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi800894u"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.95",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp105813j"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.96",
+          "doi-asserted-by": "crossref",
+          "first-page": "453",
+          "DOI": "10.1038/nmeth.2453",
+          "article-title": "Comprehensive macromolecular conformations mapped by quantitative SAXS analyses",
+          "volume": "10",
+          "year": "2013",
+          "journal-title": "Nat. Meth"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2019.04.004"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.98",
+          "doi-asserted-by": "crossref",
+          "first-page": "4105",
+          "DOI": "10.1038/s41467-022-31678-6",
+          "article-title": "A monomeric mycobacteriophage immunity repressor utilizes two domains to recognize an asymmetric DNA sequence",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.99",
+          "first-page": "3158",
+          "article-title": "Structural Insights into the Transcriptional Regulation of HigBA Toxin-Antitoxin System by Antitoxin HigA in Pseudomonas aeruginosa",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Front. Microbiol"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.100",
+          "doi-asserted-by": "crossref",
+          "first-page": "10166",
+          "DOI": "10.1093/nar/gkab736",
+          "article-title": "BusR senses bipartite DNA binding motifs by a unique molecular ruler architecture",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic Acid Res"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.101",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/cdf318"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.abb.2017.05.005"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.103",
+          "first-page": "3693",
+          "article-title": "DNA-recognition process described by MD simulations of the lactose repressor protein on a specific and non-specific DNA sequence",
+          "volume": "41",
+          "year": "2012",
+          "journal-title": "Nucleic Acid Res"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.104",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.8b12363"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.105",
+          "doi-asserted-by": "crossref",
+          "first-page": "e23239",
+          "DOI": "10.1002/bip.23239",
+          "article-title": "Price of disorder in the Lac Repressor hinge helix",
+          "volume": "110",
+          "year": "2019",
+          "journal-title": "Biopolymers"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.106",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(02)00386-8"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.107",
+          "doi-asserted-by": "crossref",
+          "first-page": "387",
+          "DOI": "10.1016/j.celrep.2019.03.061",
+          "volume": "27",
+          "year": "2019",
+          "journal-title": "Cell Rep"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.108",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr500373h"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.109",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.02229-06"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.110",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002279"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.111",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.72.7.2626"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.112",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi00616a016"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.113",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08473"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.114",
+          "doi-asserted-by": "crossref",
+          "first-page": "165102",
+          "DOI": "10.1063/1.4897978",
+          "article-title": "Arginine-phosphate salt bridges between histones and DNA: Intermolecular actuators that control nucleosome architecture",
+          "volume": "141",
+          "year": "2014",
+          "journal-title": "J. Chem. Phys"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.115",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.emboj.7600047"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.116",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature04979"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.117",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cis.2016.01.007"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.118",
+          "first-page": "106",
+          "article-title": "The role of DNA sequence in nucleosome breathing",
+          "volume": "30",
+          "year": "2017",
+          "journal-title": "Eur. Phys. J. E. Soft Matter"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.119",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1705685114"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.120",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.02.001"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.121",
+          "doi-asserted-by": "crossref",
+          "first-page": "2217",
+          "DOI": "10.1016/j.bpj.2019.07.055",
+          "article-title": "DNA Sequence is a Major Determinant of Tetrasome Dynamics",
+          "volume": "117",
+          "year": "2019",
+          "journal-title": "Biophys. J"
+        },
+        {
+          "key": "2023080310151367000_2023.06.07.544064v2.122",
+          "doi-asserted-by": "crossref",
+          "first-page": "2204",
+          "DOI": "10.1016/j.bpj.2019.09.048",
+          "article-title": "Quantitative Modeling of Nucleosome unwrapping from Both Ends",
+          "volume": "117",
+          "year": "2019",
+          "journal-title": "Biophys J"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.06.07.544064",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:45:49Z",
+        "timestamp": 1768452349000
+      },
+      "score": 79.46529,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.06.07.544064"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            8
+          ]
+        ]
+      },
+      "references-count": 122,
+      "URL": "https://doi.org/10.1101/2023.06.07.544064",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            8
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

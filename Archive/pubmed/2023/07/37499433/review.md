@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The authors propose that ginsenoside CK, a protopanoxadiol metabolite, ameliorates oxidative stress by directly binding to the DGR/Kelch domain of KEAP1, competitively disrupting the KEAP1-NRF2 interaction at the DLG motif, and thereby activating NRF2-dependent antioxidant transcription. This mechanism is claimed to operate in LPS-treated RAW 264.7 cells, in LPS-induced acute injury in mice, and in physical mechanical injury in rat soft tissues.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary data provided
+- **Missing materials affecting confidence** Full methods, experimental data, statistical analyses, compound purity and specificity controls, structural validation data, in vivo dosing and outcome measures, and any negative controls
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically plausible and potentially interesting hypothesis, but the evidence base is entirely descriptive at this stage. The central claim of direct, competitive binding between CK and the KEAP1 DGR/Kelch domain is not substantiated by any quantitative or structural data visible in the abstract. The in vivo relevance is asserted without presentation of effect sizes, dose responses, or specificity controls. The work may be of interest to the natural product and oxidative stress communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in natural product pharmacology, redox biology, and KEAP1-NRF2 signaling. The proposed mechanism could inform development of NRF2-activating therapeutics for oxidative stress-related conditions, and the use of DARTS and click chemistry for target identification may appeal to chemical biology audiences.
+- **Major strengths** The study integrates multiple orthogonal approaches, including DARTS, click chemistry, interaction assays, and computational simulation, which is a rigorous strategy for target identification. The inclusion of two in vivo models, LPS-induced acute injury and mechanical soft tissue injury, broadens the translational relevance. The focus on a specific binding domain and motif provides mechanistic clarity beyond simple pathway activation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "CK competitively binds to the DGR/Kelch domain of KEAP1, disrupting the binding between DLG peptide in NRF2 and KEAP1"
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** The abstract states competitive binding as a definitive conclusion, but no quantitative binding data, such as dissociation constants, competition curves, or structural evidence, are presented. The use of "competitively" implies a specific kinetic or thermodynamic relationship that is not demonstrated in the abstract.
+  - **Why it matters** Without quantitative or structural validation, the claim of direct competitive binding remains speculative. Alternative mechanisms, such as allosteric modulation or indirect effects on KEAP1 stability, cannot be excluded. This is the central mechanistic claim of the paper.
+  - **Resolution test** Provide binding affinity measurements, competition assays with a known KEAP1-NRF2 inhibitor, or co-crystal or NMR structures showing CK occupancy of the DGR/Kelch domain. Show that CK displaces NRF2-DLG in a dose-dependent manner with appropriate controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo evidence
+  - **Claim pointer** "The pharmacological effects and mechanism of CK in improving oxidative damage were verified in vivo by LPS-induced acute injury in mice and physical mechanical injury in rat soft tissues"
+  - **Evidence pointer** Methods and Results sections, abstract; location not provided
+  - **Concern** The abstract claims in vivo verification but provides no data on dosing, route of administration, outcome measures, statistical significance, or comparison to positive controls. The phrase "verified" is too strong given the absence of any visible quantitative results.
+  - **Why it matters** In vivo efficacy is essential for translational relevance. Without effect sizes, dose-response relationships, and tissue-specific oxidative stress markers, the claim of therapeutic benefit is unsupported. The mechanism proposed in vitro may not operate in complex physiological systems.
+  - **Resolution test** Present in vivo data with clear dose groups, time courses, oxidative stress biomarkers, histopathology, and statistical analysis. Show that CK reduces oxidative damage in a manner consistent with KEAP1-NRF2 activation, and include a control where the proposed mechanism is abrogated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Target specificity
+  - **Claim pointer** "KEAP1 was identified as the target protein that CK regulates"
+  - **Evidence pointer** Results section, abstract; location not provided
+  - **Concern** The abstract does not address whether CK has other protein targets. DARTS and click chemistry can identify candidate interactors, but specificity is not established without competition experiments, mutagenesis, or knockdown/rescue studies.
+  - **Why it matters** If CK has multiple targets, the observed antioxidant effects may not be solely attributable to KEAP1 binding. This affects the mechanistic interpretation and the potential for off-target toxicity.
+  - **Resolution test** Perform competitive binding with excess unlabeled CK, test CK against a panel of related proteins, or use KEAP1 knockout or knockdown cells to show that the antioxidant effect is lost.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Conclusions section, abstract
+  - **Issue** The abstract calls CK a "natural KEAP1-NRF2 inhibitor," but the proposed mechanism is activation of NRF2 signaling, not inhibition. This terminology is confusing and potentially contradictory.
+  - **Required correction** Use "natural KEAP1-NRF2 disruptor" or "NRF2 activator" to accurately reflect the proposed mechanism.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Methods section, abstract
+  - **Issue** The abstract mentions "CK functional probe" and "computer dynamic simulation" but provides no details on probe design, simulation parameters, or validation of the probe's activity.
+  - **Required correction** In the full manuscript, provide synthesis and characterization of the probe, confirm its biological activity matches CK, and specify simulation software, force fields, and time scales.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Model relevance
+  - **Affected element** In vitro model
+  - **Evidence pointer** Methods section, abstract
+  - **Issue** RAW 264.7 cells are a macrophage line, and LPS is a common inflammatory stimulus. The abstract does not justify why this model is representative of the oxidative stress conditions in the in vivo models used.
+  - **Required correction** Briefly state the rationale for using RAW 264.7 cells and LPS, and discuss how findings translate to the in vivo injury models.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central binding mechanism and in vivo efficacy claims require quantitative and structural evidence, and in vivo data with appropriate controls, respectively. Without these, the case for a direct KEAP1-CK interaction and its therapeutic relevance is not established.
+- **Assessment against Nature-style criteria** Originality: The proposed mechanism of targeting the KEAP1 DGR/Kelch domain with a natural compound is not entirely novel, as other NRF2 activators have been described, but the specific compound and the use of DARPS and click chemistry may offer a fresh angle. Scientific importance: The KEAP1-NRF2 pathway is well studied, and a new natural modulator could be of interest, but the abstract does not demonstrate a significant advance over existing NRF2 activators. Interdisciplinary readership: The work spans pharmacology, chemical biology, and redox biology, which could attract a broad audience, but the abstract lacks the depth to engage specialists in any one field. Technical soundness: The multi-method approach is commendable, but the absence of quantitative data undermines confidence. Readability for nonspecialists: The abstract is generally clear, but the terminology issue noted in R1-m1 could confuse readers.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not provide sufficient quantitative, structural, or in vivo data to support the central claims. I would be supportive if the full manuscript addresses the blocking concerns with rigorous data.
+
+## Risk / unsupported claims
+- The claim of competitive binding between CK and KEAP1 DGR/Kelch domain is unsupported without binding constants or structural data.
+- The claim of in vivo verification is unsupported without presentation of any in vivo results.
+- The conclusion that CK acts as a "natural KEAP1-NRF2 inhibitor" is misleading and not supported by the described mechanism.
+- The specificity of CK for KEAP1 over other potential targets is not assessable from the abstract.
